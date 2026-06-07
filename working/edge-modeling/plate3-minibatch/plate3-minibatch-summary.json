@@ -1,0 +1,243 @@
+{
+  "run_at": "2026-06-07T03:36:51.287879+00:00",
+  "config": "/Users/mnoth/source/asoiaf-chat/working/edge-modeling/plate3-minibatch/minibatch-config.json",
+  "model": "claude-sonnet-4-6",
+  "dry_run": false,
+  "events_processed": 12,
+  "total_reified": 10,
+  "total_skipped": 2,
+  "total_errors": 0,
+  "hubs_reused": 7,
+  "hubs_minted": 3,
+  "hubs_queued_review": 0,
+  "total_role_edges": 68,
+  "role_edge_type_counts": {
+    "COMMANDS_IN": 15,
+    "AGENT_IN": 25,
+    "VICTIM_IN": 14,
+    "LOCATED_AT": 10,
+    "WIELDED_IN": 4
+  },
+  "total_supersede_candidates": 33,
+  "contract10_passed": true,
+  "contract10_failures": [],
+  "total_cost_usd": 0.809484,
+  "per_event_results": [
+    {
+      "event_slug": "red-wedding",
+      "hub_slug": "red-wedding",
+      "hub_resolution": "reuse",
+      "is_nary": true,
+      "nary_reason": "Multiple instigators (Walder Frey, Lame Lothar, Tywin Lannister) who did not personally execute; multiple executors (Roose Bolton, Ryman Frey, Hosteen Frey, Raymund Frey, Black Walder Frey, Frey crossbowmen, Bolton men-at-arms); multiple victims (Robb Stark, Catelyn Stark, Dacey Mormont, and numerous northmen); instigators are distinct from executors; canonical named set-piece referenced across the narrative.",
+      "role_edges_count": 14,
+      "supersede_candidates_count": 12,
+      "validation": {
+        "keep": 14,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.10255589999999999
+    },
+    {
+      "event_slug": "purple-wedding",
+      "hub_slug": "purple-wedding",
+      "hub_resolution": "reuse",
+      "is_nary": true,
+      "nary_reason": "Instigator (Littlefinger) is distinct from physical executor (Olenna); multiple unwitting instruments (Dontos, Sansa) in the delivery chain; single victim (Joffrey); named historical set-piece referenced throughout the series.",
+      "role_edges_count": 6,
+      "supersede_candidates_count": 5,
+      "validation": {
+        "keep": 6,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.0965109
+    },
+    {
+      "event_slug": "death-of-renly-baratheon",
+      "hub_slug": "death-of-renly-baratheon",
+      "hub_resolution": "mint",
+      "is_nary": true,
+      "nary_reason": "Instigator (Stannis, whose life force created the shadow) is distinct from executor (Melisandre, who performed the shadowbinding ritual) and victim (Renly); three distinct roles on the same event node.",
+      "role_edges_count": 4,
+      "supersede_candidates_count": 1,
+      "validation": {
+        "keep": 4,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.057184650000000004
+    },
+    {
+      "event_slug": "jaime-kills-aerys",
+      "hub_slug": null,
+      "hub_resolution": "skip-clean-dyad",
+      "is_nary": false,
+      "nary_reason": "Pre-declared clean dyad: Jaime Lannister kills Aerys II Targaryen. Single agent + single victim, no instigator or ordering third party. Per D8 gate: do not reify.",
+      "role_edges_count": 0,
+      "supersede_candidates_count": 0,
+      "validation": null,
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.0
+    },
+    {
+      "event_slug": "tyrion-kills-tywin",
+      "hub_slug": null,
+      "hub_resolution": "skip-clean-dyad",
+      "is_nary": false,
+      "nary_reason": "Pre-declared clean dyad: Tyrion Lannister kills Tywin Lannister with a crossbow. Single agent + single victim, acting alone. Per D8 gate: do not reify. (Also: Tyrion strangles Shae is a separate clean dyad, same rule.)",
+      "role_edges_count": 0,
+      "supersede_candidates_count": 0,
+      "validation": null,
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.0
+    },
+    {
+      "event_slug": "arrest-of-eddard-stark",
+      "hub_slug": "arrest-of-eddard-stark",
+      "hub_resolution": "reuse",
+      "is_nary": true,
+      "nary_reason": "Multiple instigators (Cersei, Joffrey) are distinct from executors (Littlefinger, Lannister soldiers/City Watch); multiple victims (Ned arrested, guardsmen killed, Syrio Forel killed); and this is a named set-piece referenced across multiple narrative threads.",
+      "role_edges_count": 7,
+      "supersede_candidates_count": 4,
+      "validation": {
+        "keep": 7,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.0988959
+    },
+    {
+      "event_slug": "execution-of-eddard-stark",
+      "hub_slug": "execution-of-eddard-stark",
+      "hub_resolution": "mint",
+      "is_nary": true,
+      "nary_reason": "Instigator (Joffrey) is distinct from executor (Ser Ilyn Payne), making this a three-party event with a commanding party, an executing party, and a victim; additionally a named artifact (Ice) was wielded.",
+      "role_edges_count": 5,
+      "supersede_candidates_count": 4,
+      "validation": {
+        "keep": 5,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.062325900000000004
+    },
+    {
+      "event_slug": "assassinations-of-pycelle-and-kevan-lannister",
+      "hub_slug": "assassinations-of-pycelle-and-kevan-lannister",
+      "hub_resolution": "reuse",
+      "is_nary": true,
+      "nary_reason": "Multiple victims (Pycelle and Kevan Lannister), multiple agents (Varys plus his little-bird child agents who physically killed Pycelle), and an instigator-executor split (Aegon Targaryen is the political beneficiary Varys explicitly acts to serve, while Varys is the direct executor).",
+      "role_edges_count": 5,
+      "supersede_candidates_count": 2,
+      "validation": {
+        "keep": 5,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.07003214999999999
+    },
+    {
+      "event_slug": "fall-of-astapor",
+      "hub_slug": "fall-of-astapor",
+      "hub_resolution": "reuse",
+      "is_nary": true,
+      "nary_reason": "Multiple agents (Unsullied led by Grey Worm, three dragons), instigator (Daenerys) differs from direct executors, multiple victims (Good Masters broadly, Kraznys specifically), and this is a named set-piece battle referenced throughout the series.",
+      "role_edges_count": 8,
+      "supersede_candidates_count": 1,
+      "validation": {
+        "keep": 8,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.05816715
+    },
+    {
+      "event_slug": "battle-of-yunkai",
+      "hub_slug": "battle-of-yunkai",
+      "hub_resolution": "reuse",
+      "is_nary": true,
+      "nary_reason": "Multiple executors (Jorah, Grey Worm, Daario) acting under a separate commander (Daenerys) who did not personally fight; multiple distinct forces (Unsullied, Dothraki, Stormcrows); a defending party (Mero/Second Sons) on the receiving end; and a named city as the target location — far exceeding a clean dyad.",
+      "role_edges_count": 7,
+      "supersede_candidates_count": 1,
+      "validation": {
+        "keep": 7,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.07912965
+    },
+    {
+      "event_slug": "execution-of-lord-karstark",
+      "hub_slug": "execution-of-lord-karstark",
+      "hub_resolution": "mint",
+      "is_nary": true,
+      "nary_reason": "Named set-piece anchor for downstream graph edges (Karstark army departure, weakening of Robb's host); requires LOCATED_AT edge to Riverrun; while Robb is both orderer and executor (no separate COMMANDS_IN), reification is warranted to capture the location participant and serve as a reference node for consequent events.",
+      "role_edges_count": 3,
+      "supersede_candidates_count": 1,
+      "validation": {
+        "keep": 3,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.07668839999999999
+    },
+    {
+      "event_slug": "battle-of-the-blackwater",
+      "hub_slug": "battle-of-the-blackwater",
+      "hub_resolution": "reuse",
+      "is_nary": true,
+      "nary_reason": "Named set-piece battle with multiple direct executors (Tyrion, Davos, Loras, Mandon Moore), multiple commanders on both sides (Stannis, Tywin, Cersei, Mace Tyrell), a contested city as location, and numerous other events/edges that reference this hub.",
+      "role_edges_count": 9,
+      "supersede_candidates_count": 2,
+      "validation": {
+        "keep": 9,
+        "flag": 0,
+        "drop": 0,
+        "passed": true,
+        "drop_details": []
+      },
+      "warnings": [],
+      "error": null,
+      "cost_usd": 0.10799339999999999
+    }
+  ]
+}

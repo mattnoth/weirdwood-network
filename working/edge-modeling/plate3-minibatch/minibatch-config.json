@@ -1,0 +1,229 @@
+{
+  "_comment": "Plate 3 mini-batch config — 12 events for VALIDATION run (not full corpus).",
+  "_coverage": {
+    "trigger_families": ["massacre/killing", "poisoning-conspiracy", "shadow-assassination", "siege/battle", "capture/conspiracy", "guest-right-violation", "ceremony/crowning", "conspiracy-multi-victim"],
+    "clean_dyad_skips": ["jaime-kills-aerys", "tyrion-kills-tywin"],
+    "multi_chapter_dedup_test": "red-wedding (3 chapters)",
+    "instigator_neq_executor_test": "death-of-renly-baratheon (Stannis instigator, shadow executor)",
+    "existing_node_reuse_tests": ["red-wedding", "purple-wedding", "arrest-of-eddard-stark", "assassinations-of-pycelle-and-kevan-lannister", "fall-of-astapor", "battle-of-yunkai"],
+    "mint_tests": ["death-of-renly-baratheon", "execution-of-eddard-stark"]
+  },
+  "events": [
+    {
+      "event_slug": "red-wedding",
+      "event_title": "The Red Wedding",
+      "chapter_files": [
+        "extractions/mechanical/asos/asos-catelyn-07.extraction.md",
+        "extractions/mechanical/asos/asos-arya-10.extraction.md",
+        "extractions/mechanical/asos/asos-epilogue.extraction.md"
+      ],
+      "participants": [
+        {"slug": "walder-frey",       "name": "Walder Frey (Lord of the Crossing)"},
+        {"slug": "tywin-lannister",   "name": "Tywin Lannister"},
+        {"slug": "lothar-frey",       "name": "Lame Lothar Frey"},
+        {"slug": "roose-bolton",      "name": "Roose Bolton"},
+        {"slug": "ryman-frey",        "name": "Ser Ryman Frey"},
+        {"slug": "hosteen-frey",      "name": "Ser Hosteen Frey"},
+        {"slug": "raymund-frey",      "name": "Raymund Frey"},
+        {"slug": "black-walder-frey", "name": "Black Walder Frey"},
+        {"slug": "house-frey",        "name": "House Frey (crossbowmen/men-at-arms)"},
+        {"slug": "house-bolton",      "name": "House Bolton (Bolton men-at-arms)"},
+        {"slug": "robb-stark",        "name": "Robb Stark"},
+        {"slug": "catelyn-stark",     "name": "Catelyn Stark"},
+        {"slug": "dacey-mormont",     "name": "Dacey Mormont"},
+        {"slug": "twins",             "name": "The Twins"}
+      ],
+      "additional_context": "The Red Wedding took place during Edmure Tully's wedding feast at the Twins. Walder Frey orchestrated it with Roose Bolton and Lame Lothar; Tywin Lannister countenanced it (confidence_tier=2 for Tywin's COMMANDS_IN). Roose Bolton personally killed Robb Stark ('Jaime Lannister sends his regards'). Raymund Frey cut Catelyn's throat. Ryman Frey killed Dacey Mormont. Hosteen Frey cut down Lucas Blackwood. Bolton men-at-arms and Frey crossbowmen killed numerous northmen in the camps. This is canonical n-ary: multiple orderers + multiple executors + multiple victims.",
+      "event_type": "event.battle",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "purple-wedding",
+      "event_title": "The Purple Wedding",
+      "chapter_files": [
+        "extractions/mechanical/asos/asos-tyrion-08.extraction.md",
+        "extractions/mechanical/asos/asos-sansa-05.extraction.md"
+      ],
+      "participants": [
+        {"slug": "olenna-tyrell",     "name": "Lady Olenna Tyrell (Queen of Thorns)"},
+        {"slug": "petyr-baelish",     "name": "Petyr Baelish (Littlefinger)"},
+        {"slug": "dontos-hollard",    "name": "Ser Dontos Hollard (catspaw)"},
+        {"slug": "sansa-stark",       "name": "Sansa Stark (unwitting courier)"},
+        {"slug": "joffrey-baratheon", "name": "King Joffrey Baratheon"},
+        {"slug": "red-keep",          "name": "Red Keep / Iron Throne throne room"}
+      ],
+      "additional_context": "King Joffrey was poisoned at his own wedding feast. The Strangler was concealed in the amethyst stones of Sansa's hair net — one stone went missing after Lady Olenna fussed with Sansa's hair in the yard before the feast. Littlefinger orchestrated the plot, using Dontos Hollard as a catspaw. Lady Olenna physically introduced the poison into the wine (her touching the hair net = extracting the stone). Joffrey choked and died in public. Tyrion was falsely accused. This is n-ary: instigator (Littlefinger) ≠ physical agent (Olenna) ≠ victim (Joffrey), plus Dontos and Sansa as unknowing instruments.",
+      "event_type": "event.battle",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "death-of-renly-baratheon",
+      "event_title": "Shadow Assassination of Renly Baratheon",
+      "chapter_files": [
+        "extractions/mechanical/acok/acok-catelyn-04.extraction.md"
+      ],
+      "participants": [
+        {"slug": "stannis-baratheon",  "name": "Stannis Baratheon (instigator/creator of shadow)"},
+        {"slug": "melisandre",         "name": "Melisandre of Asshai (shadow-creator)"},
+        {"slug": "renly-baratheon",    "name": "Renly Baratheon (victim)"},
+        {"slug": "storm-s-end",        "name": "Storm's End (location — actually Renly's camp near Storm's End)"}
+      ],
+      "additional_context": "Renly Baratheon was killed in his tent by a shadow creature created by Melisandre using Stannis's life force. The shadow lifted a sword and Renly's gorget parted like cheesecloth; blood gushed from his throat. There was no human executor — the shadow was the agent, created by Melisandre at Stannis's direction. Stannis = COMMANDS_IN (instigator; life force used to create the shadow); Melisandre = AGENT_IN (performed the shadowbinding ritual); Renly = VICTIM_IN. NOTE: The shadow itself has no slug — emit Melisandre as AGENT_IN for the ritual. No existing event node in the lookup — mint 'death-of-renly-baratheon'. N-ary: instigator (Stannis) ≠ agent (Melisandre/shadowbinding) ≠ victim (Renly).",
+      "event_type": "event.battle",
+      "description": "The shadow assassination of King Renly Baratheon in his tent near Storm's End. A shadow creature born of Stannis Baratheon (via Melisandre's shadowbinding ritual) entered Renly's pavilion and cut his throat, killing him instantly before witnesses Catelyn Stark and Brienne of Tarth.",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "jaime-kills-aerys",
+      "event_title": "Jaime Lannister kills King Aerys II Targaryen",
+      "chapter_files": [
+        "extractions/mechanical/asos/asos-jaime-04.extraction.md"
+      ],
+      "participants": [],
+      "additional_context": "Jaime Lannister killed King Aerys II Targaryen at the foot of the Iron Throne during the Sack of King's Landing, stabbing him in the back. This is a CLEAN DYAD: single agent (Jaime) + single victim (Aerys). No instigator, no ordering third party, no ambiguity about who performed the act. Per D8, this should NOT be reified. The LLM should return is_nary=false.",
+      "skip_reason": "Pre-declared clean dyad: Jaime Lannister kills Aerys II Targaryen. Single agent + single victim, no instigator or ordering third party. Per D8 gate: do not reify."
+    },
+    {
+      "event_slug": "tyrion-kills-tywin",
+      "event_title": "Tyrion Lannister kills Tywin Lannister",
+      "chapter_files": [
+        "extractions/mechanical/asos/asos-tyrion-11.extraction.md"
+      ],
+      "participants": [],
+      "additional_context": "Tyrion Lannister shot Tywin Lannister with a crossbow while Tywin sat on the privy, then strangled Shae with the chain of golden hands before that. These are CLEAN DYADS: single agent (Tyrion) + single victim (Tywin for the shooting; Shae for the strangling). No ordering third party — Tyrion acted alone on personal grievance. Per D8, should NOT be reified. The LLM should return is_nary=false.",
+      "skip_reason": "Pre-declared clean dyad: Tyrion Lannister kills Tywin Lannister with a crossbow. Single agent + single victim, acting alone. Per D8 gate: do not reify. (Also: Tyrion strangles Shae is a separate clean dyad, same rule.)"
+    },
+    {
+      "event_slug": "arrest-of-eddard-stark",
+      "event_title": "Arrest of Eddard Stark",
+      "chapter_files": [
+        "extractions/mechanical/agot/agot-eddard-14.extraction.md",
+        "extractions/mechanical/agot/agot-eddard-15.extraction.md"
+      ],
+      "participants": [
+        {"slug": "eddard-stark",      "name": "Eddard Stark (victim / arrested)"},
+        {"slug": "cersei-lannister",  "name": "Cersei Lannister (instigator)"},
+        {"slug": "joffrey-baratheon", "name": "Joffrey Baratheon (nominal authority)"},
+        {"slug": "petyr-baelish",     "name": "Petyr Baelish (conspirator / betrayer)"},
+        {"slug": "house-lannister",   "name": "House Lannister (gold cloaks who executed the arrest)"},
+        {"slug": "syrio-forel",       "name": "Syrio Forel (killed protecting Arya during the arrest)"},
+        {"slug": "red-keep",          "name": "Red Keep (location)"}
+      ],
+      "additional_context": "Eddard Stark was arrested in the throne room by Lannister soldiers and the City Watch (turned by Littlefinger and bribed by Cersei). Petyr Baelish held a knife to Ned's throat saying 'I did warn you not to trust me.' This is n-ary: Cersei/Joffrey as instigators, Littlefinger as betrayer/enabler, Lannister men as executors, Ned as victim.",
+      "event_type": "event.battle",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "execution-of-eddard-stark",
+      "event_title": "Execution of Eddard Stark",
+      "chapter_files": [
+        "extractions/mechanical/agot/agot-arya-05.extraction.md"
+      ],
+      "participants": [
+        {"slug": "eddard-stark",      "name": "Eddard Stark (victim)"},
+        {"slug": "joffrey-baratheon", "name": "Joffrey Baratheon (orderer)"},
+        {"slug": "cersei-lannister",  "name": "Cersei Lannister (failed to prevent, implicit co-orderer)"},
+        {"slug": "ilyn-payne",        "name": "Ser Ilyn Payne (executor/headsman)"},
+        {"slug": "baelor-sept",       "name": "Great Sept of Baelor (location)"}
+      ],
+      "additional_context": "King Joffrey ordered Eddard Stark's execution despite Cersei's advice to spare him and Sansa's plea for mercy. Ser Ilyn Payne carried out the beheading using the Stark greatsword Ice. This is n-ary: Joffrey ordered it (COMMANDS_IN), Ilyn Payne executed it (AGENT_IN), Ned is the victim (VICTIM_IN). Cersei did NOT order the execution (she advised against it in public). This event has no existing node — mint 'execution-of-eddard-stark'.",
+      "event_type": "event.battle",
+      "description": "The public execution of Lord Eddard Stark on the steps of the Great Sept of Baelor, ordered by King Joffrey Baratheon and carried out by the King's Justice Ser Ilyn Payne using the Stark family's Valyrian steel greatsword Ice.",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "assassinations-of-pycelle-and-kevan-lannister",
+      "event_title": "Assassinations of Pycelle and Kevan Lannister",
+      "chapter_files": [
+        "extractions/mechanical/adwd/adwd-epilogue.extraction.md"
+      ],
+      "participants": [
+        {"slug": "varys",             "name": "Varys (the Spider — executor)"},
+        {"slug": "pycelle",           "name": "Grand Maester Pycelle (victim)"},
+        {"slug": "kevan-lannister",   "name": "Ser Kevan Lannister (victim)"},
+        {"slug": "aegon-targaryen-vi","name": "Aegon Targaryen (fAegon — Varys acts in his interest)"},
+        {"slug": "red-keep",          "name": "Red Keep (location)"}
+      ],
+      "additional_context": "Varys assassinated both Grand Maester Pycelle (head bashed in by his little-bird child agents) and then shot Ser Kevan Lannister with a crossbow. Varys acted in service of placing Aegon Targaryen on the Iron Throne; he wanted to undo Kevan's stabilizing work so that chaos would continue. This is n-ary: two victims (Pycelle + Kevan), multiple agents (Varys + his child agents who killed Pycelle), and a broader conspiracy motive. Varys = AGENT_IN; his little birds = AGENT_IN via house/faction slug if available; Pycelle and Kevan = VICTIM_IN; Aegon (beneficiary/instigator) = COMMANDS_IN (confidence_tier=2, he did not directly order this specific act).",
+      "event_type": "event.battle",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "fall-of-astapor",
+      "event_title": "Fall of Astapor (Sack of Astapor)",
+      "chapter_files": [
+        "extractions/mechanical/asos/asos-daenerys-02.extraction.md",
+        "extractions/mechanical/asos/asos-daenerys-05.extraction.md"
+      ],
+      "participants": [
+        {"slug": "daenerys-targaryen","name": "Daenerys Targaryen (instigator/commander)"},
+        {"slug": "grey-worm",         "name": "Grey Worm (leader of Unsullied attack)"},
+        {"slug": "drogon",            "name": "Drogon (dragon — WIELDED_IN)"},
+        {"slug": "rhaegal",           "name": "Rhaegal (dragon — WIELDED_IN)"},
+        {"slug": "viserion",          "name": "Viserion (dragon — WIELDED_IN)"},
+        {"slug": "astapor",           "name": "Astapor (location — the city that fell)"},
+        {"slug": "good-masters",      "name": "Good Masters of Astapor (victims/defenders)"},
+        {"slug": "kraznys-mo-nakloz", "name": "Kraznys mo Nakloz (slain Good Master, first victim)"}
+      ],
+      "additional_context": "Daenerys acquired the Unsullied by pretending to trade a dragon, then commanded 'Dracarys' — her dragons burned Kraznys and the slavers while the Unsullied (now freed) killed their former masters and took the city. Grey Worm led the Unsullied assault. This is n-ary: multiple agents (dragons + Unsullied), instigator/commander (Daenerys) ≠ direct executors, multiple victims (slavemasters of Astapor).",
+      "event_type": "event.battle",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "battle-of-yunkai",
+      "event_title": "Battle of Yunkai",
+      "chapter_files": [
+        "extractions/mechanical/asos/asos-daenerys-04.extraction.md"
+      ],
+      "participants": [
+        {"slug": "daenerys-targaryen","name": "Daenerys Targaryen (commander)"},
+        {"slug": "jorah-mormont",     "name": "Ser Jorah Mormont (field commander)"},
+        {"slug": "grey-worm",         "name": "Grey Worm (Unsullied commander)"},
+        {"slug": "daario-naharis",    "name": "Daario Naharis (Stormcrows, turned)"},
+        {"slug": "barristan-selmy",   "name": "Barristan Selmy (as Arstan Whitebeard)"},
+        {"slug": "mero",              "name": "Mero / the Titan's Bastard (Second Sons captain, fled)"},
+        {"slug": "yunkai",            "name": "Yunkai (location)"}
+      ],
+      "additional_context": "Daenerys attacked Yunkai at night with Unsullied, Dothraki, and the turned Stormcrows. Daario had killed Stormcrow captains Prendahl and Sallor and brought their heads. The Second Sons were drunk and fought poorly; Mero fled. ~200 Yunkai'i died. This is n-ary: multiple commanders (Dany, Jorah, Grey Worm, Daario) + multiple forces attacking + a city as the target. Existing node 'battle-of-yunkai' should be reused.",
+      "event_type": "event.battle",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "execution-of-lord-karstark",
+      "event_title": "Execution of Lord Rickard Karstark",
+      "chapter_files": [
+        "extractions/mechanical/asos/asos-catelyn-05.extraction.md"
+      ],
+      "participants": [
+        {"slug": "robb-stark",        "name": "Robb Stark (orderer and executor of sentence)"},
+        {"slug": "rickard-karstark",  "name": "Lord Rickard Karstark (victim)"},
+        {"slug": "riverrun",          "name": "Riverrun (location)"}
+      ],
+      "additional_context": "Lord Rickard Karstark was executed by Robb Stark for murdering two Lannister hostage boys (Tion Frey and Willem Lannister) while drunk with grief over his sons' deaths. Robb personally beheaded Karstark despite counsel from Edmure and Catelyn to wait. This is BORDERLINE: Robb both ordered AND performed the execution (single orderer = executor). The D8 gate question: is this n-ary? Key evidence: (1) Karstark first killed the two Lannister boys — those prior deaths ARE n-ary (Karstark + his men, multiple victims). (2) The execution itself is Robb-alone. The LLM should evaluate whether this qualifies as n-ary or clean dyad. If clean dyad → skip. If the Karstark murders of the hostages count as the n-ary event → potentially reify that sub-event.",
+      "event_type": "event.battle",
+      "skip_reason": null
+    },
+    {
+      "event_slug": "battle-of-the-blackwater",
+      "event_title": "Battle of the Blackwater",
+      "chapter_files": [
+        "extractions/mechanical/acok/acok-tyrion-13.extraction.md",
+        "extractions/mechanical/acok/acok-sansa-06.extraction.md"
+      ],
+      "participants": [
+        {"slug": "tyrion-lannister",   "name": "Tyrion Lannister (commanded the defense)"},
+        {"slug": "tywin-lannister",    "name": "Tywin Lannister (arrived to relieve the city)"},
+        {"slug": "stannis-baratheon",  "name": "Stannis Baratheon (attacker/besieging king)"},
+        {"slug": "cersei-lannister",   "name": "Cersei Lannister (in the Red Keep)"},
+        {"slug": "davos-seaworth",     "name": "Davos Seaworth (led Stannis fleet)"},
+        {"slug": "mace-tyrell",        "name": "Mace Tyrell (reinforced via Renly's former host)"},
+        {"slug": "loras-tyrell",       "name": "Ser Loras Tyrell (vanguard of relief force)"},
+        {"slug": "ser-mandon-moore",   "name": "Ser Mandon Moore (attacked Tyrion)"},
+        {"slug": "kings-landing",      "name": "King's Landing / Blackwater Bay (location)"}
+      ],
+      "additional_context": "The Battle of the Blackwater was Stannis Baratheon's assault on King's Landing. Tyrion Lannister commanded the defense using wildfire. Tywin Lannister arrived with Tyrell forces to relieve the city. Multiple commanders on both sides, massive casualties, naval + land engagement. This is canonical n-ary: multiple commanders, multiple forces, a city as contested location. Existing node 'battle-of-the-blackwater' should be reused.",
+      "event_type": "event.battle",
+      "skip_reason": null
+    }
+  ]
+}

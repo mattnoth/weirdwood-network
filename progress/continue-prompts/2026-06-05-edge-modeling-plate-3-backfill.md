@@ -1,6 +1,6 @@
 # Plate 3 — Reify: mine Pass-1 → role edges on event hubs (+ node minting)
 
-> **Recommended model:** Sonnet — pipeline construction (deterministic join + lift) and a Sonnet `claude -p` typing pass for legacy rows lacking role sub-bullets. Opus only if the reify-all-vs-selective scope question (see "PRE-WORK DECISION" below) is still open and needs reasoning.
+> **Recommended model:** Sonnet — pipeline construction (deterministic join + lift) and a Sonnet `claude -p` typing pass for legacy rows lacking role sub-bullets. Scope is resolved (Q1/Q2 below), so no Opus reasoning step is required for this plate.
 > **Trust worklog.md over this prompt** (CLAUDE.md rule #9). This is a task-scoped snapshot.
 > **Context docs:** `working/edge-modeling/edge-modeling-reification-design.md` §3 (D2/D3/D5/D7) + the §3 "D2 RESOLVED" subsection + the Plate 2 report at `working/edge-modeling/plate2-event-coverage.md`.
 > **PRECONDITIONS:**
@@ -8,20 +8,37 @@
 > - Plate 2 D2 RESOLVED → **Option (a) Replace** (graph-query.py traverses person→event→person fine; pure 2-hop hub is sufficient; do NOT emit a materialized agent→patient dyad).
 > - Plate 0 normalizer outputs staged at `working/edge-modeling/normalizer-candidates.jsonl` (10 flips, 1 flagged) — NOT merged. Plate 5 gates the merge.
 
-## PRE-WORK DECISION (Matt — required before launching this plate)
+## PRE-WORK DECISIONS — RESOLVED (Matt, 2026-06-06)
 
-Plate 2 surfaced two findings that change Plate 3's scope:
-1. The §3 D3 claim is **wrong in two of three motivating cases**: Tywin's privy death (`assassination-of-tywin-lannister`) and the Purple Wedding (`purple-wedding`) DO have existing nodes. Only Bran's defenestration genuinely needs minting. The actual mint scope is mostly *narrative micro-beats*, not famous set-pieces.
-2. Pass-1 yields **8,317 distinct event titles**. If Plate 3 reifies *every* numbered Events & Actions entry, it mints ~8,300 micro-event nodes. That is almost certainly more than the graph wants.
+Plate 2 surfaced two scope findings; both are now decided. Do NOT re-litigate — execute to these.
 
-**Matt's call (Q1):** Reify-all vs reify-selective?
-- **Reify-all** — every Pass-1 event becomes a hub. Maximum information capture, but the graph swells dramatically and most hubs will carry one role edge.
-- **Reify-selective** — only events that match a curated trigger list (kill/death/attack/poisoning/wedding/betrayal/capture/escape/coronation/oath, etc.) become hubs. Most narrative beats stay as plain Pass-1 entries. Recommended: this matches the underdetermination cases the project actually wants to fix and keeps the graph dense rather than confetti.
+**Background (from Plate 2):**
+1. The §3 D3 claim is **wrong in two of three motivating cases**: Tywin's privy death (`assassination-of-tywin-lannister`) and the Purple Wedding (`purple-wedding`) DO have existing nodes. Only Bran's defenestration genuinely needs minting. (See the design doc's `D3 RE-EXAMINED` note.)
+2. Pass-1 yields **8,317 distinct event titles** — reify-all would mint ~8,300 micro-event hubs (mostly narrative beats like "Departure at daybreak"). Non-starter.
 
-**Matt's call (Q2):** Reuse vs mint when a fuzzy-match against an existing event-node title looks plausible?
-- The Plate 2 join used exact-slug match (1 hit). A fuzzy/title-matching pass would likely lift the "existing node" count from 1 to several hundred (e.g. `tywin-privy-death` vs `assassination-of-tywin-lannister`). Decide: run the fuzzy pass and reuse, or accept the slug-floor and mint freely.
+**Q1 — RESOLVED: reify-SELECTIVE.** Only events matching a curated trigger list become hubs. The trigger list is **exactly the "Reify" families from the design doc's disposition** — nothing else:
+- killings / deaths / executions / poisonings / sacrifices (the death-violence family),
+- weddings / ceremonies (incl. crownings, betrothleal set-pieces),
+- sieges,
+- conspiracies,
+- captures / imprisonments,
+- guest-right violations.
+Everything else (plain travel, arrivals, observations, dialogue beats) stays as ordinary Pass-1 entries and is NOT reified. Rationale: these are precisely the underdetermined-head cases the project set out to fix; a "Departure at daybreak" has one actor and no head ambiguity, so a hub adds nothing. This keeps the graph dense, not confetti.
 
-Until Q1 + Q2 are resolved, **do not run the backfill.** The cost and shape both depend on the answer.
+**Q2 — RESOLVED: run a confidence-gated fuzzy reuse pass BEFORE minting.** For each in-scope event, fuzzy-match its title against existing event-node titles/aliases (use `working/wiki/data/alias-resolver.json` + title-token overlap):
+- **Auto-rebind** only on a high-confidence hit (exact alias match, or normalized-slug equality). E.g. `tywin-privy-death` → existing `assassination-of-tywin-lannister`.
+- **Queue for review** (do NOT auto-rebind) on a merely-plausible fuzzy hit — token overlap alone is not enough; mis-binding an event is worse than minting a dup.
+- **Mint** only when no candidate clears the bar.
+Rationale: minting duplicates of nodes that already exist (`purple-wedding`, `assassination-of-tywin-lannister`) creates cross-identity cleanup debt later. Reuse first. Because Q1 makes the candidate set small (a few hundred, not 8,300), this pass is cheap and reviewable.
+
+**Sequencing:** apply Q1's trigger filter FIRST (shrinks the universe), THEN Q2's fuzzy reuse on the survivors, THEN mint the remainder.
+
+**Q1b — REFINEMENT (design-doc D8): reify on n-ary STRUCTURE, not event TYPE.** Within the trigger families, only reify an *instance* that is genuinely n-ary:
+- **Clean dyad** (single agent + single patient, no instigator/ordering third party, not a shared named occasion) → DO NOT reify. Keep it as a direct typed edge (`KILLS source→target`), already direction-fixed by Plate 0. No hub, no role edges. (Jaime/Aerys is the archetype — nobody disputes the agent.)
+- **N-ary instance** (instigator ≠ executor, multiple killers/victims, or a named set-piece other edges reference) → reify onto a hub as below.
+This means D2=Replace touches ONLY the n-ary instances. Empirically almost all 102 KILLS are clean dyads, so expect to reify a SMALL number of contested events, most of which already have nodes. Do NOT mint a hub for a killing that just re-wraps a 2-party fact.
+
+**PRECONDITION — Plate 2.5 Event-Node Inventory must exist.** Use `working/edge-modeling/event-node-reuse-lookup.json` (normalized-title/alias → existing event-node slug) as the reuse lookup for Q2. Reuse-before-mint is mandatory: every reify-target is matched against this lookup before any node is minted.
 
 ## Why
 
@@ -62,3 +79,14 @@ Once Q1/Q2 land, populate role edges (`AGENT_IN`, `VICTIM_IN`, `COMMANDS_IN`, `W
 - CREATE `working/edge-modeling/plate3-summary.md`
 - DO NOT modify canonical `graph/` files.
 - APPEND a section to `working/edge-modeling/SESSION-LOG.md` titled `## Plate 3 — backfill (Session N)`.
+
+## Full-run engineering notes (from the Plate 3 SMOKE TEST on the Red Wedding, 2026-06-06)
+
+The pipeline `scripts/edge-reify-backfill.py` was built and smoke-tested on the Red Wedding (`--smoke --event red-wedding`). It WORKED: 12 role edges, D7 applied cleanly (Roose Bolton → AGENT_IN as the personal killer; Walder/Lothar/Tywin → COMMANDS_IN as orderers; no instigator→victim collapse), validator Contract 10 passed, hub REUSED (not minted). Cost: ~$0.06 first call, ~$0.002–0.003/event warm → **full corpus ~$0.30–0.60** (well under the $2–10 budget). The full run must additionally handle these, surfaced by the smoke test:
+
+1. **Group/faction actors. (CONFIRMED Matt 2026-06-06 — see `cleanup-decisions-resolved.md` §5.)** "Bolton men-at-arms", "musicians with crossbows" are group actors with no individual slug. AGENT_IN source may be a `house.*` slug (Plate 1c contract already allows house source). Emit e.g. `house-frey AGENT_IN <event>` for group action rather than dropping it.
+2. **Cross-chapter dedup (mandatory).** An event spans chapters (Red Wedding: Catelyn VII + Arya X + Epilogue). Gather role candidates from ALL chapters whose events resolve to the same hub slug, then dedup by `(source_slug, role, event_slug)` before emitting. Without this, the same event re-fragments.
+3. **Programmatic supersede detection.** The smoke test hand-listed the 9 superseded binaries. The full run needs a deterministic query: for each reified event, find every edge whose endpoints are both participants of that event AND whose `edge_type` is in the reify trigger family → mark `superseded_by: <hub>`. (The smoke list missed e.g. `catelyn-stark KILLS aegon-frey-son-of-stevron` — a clean dyad *inside* the set-piece.)
+4. **Orderer-evidence confidence gate.** Indirect "countenanced"/"gave his blessing" evidence (Tywin) → `confidence_tier: 2`, not 1. Only explicit at-event orders get tier 1.
+5. **`claude -p` MUST use `cwd=/tmp`.** The smoke call loaded 32k of project-context cache (it did not skip CLAUDE.md). Running with `cwd=/tmp` drops that — saves ~28–32k tokens/cold-call per the `reference_llm_pass_via_claude_p` memory.
+6. **LOCATED_AT direction:** event → location (`<event> LOCATED_AT the-twins`), per architecture Entity→Location. State this in the per-row prompt so the LLM doesn't reverse it.

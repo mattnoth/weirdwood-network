@@ -40,3 +40,18 @@
 **Decisions:** (1) **Sleep = 120s** for the unattended phase (Matt's call; the S78 "lower to 600/300 before travel" action item is now DONE at 120s). Pacing is a weekly-usage-rate lever, not a cost lever — same ~$50 total spend, finishes faster. (2) Parse-fail block left as a logged loose end, not fixed live (run is healthy; fix is a one-liner for a later session).
 
 **What's next:** Run self-driving in Matt's iTerm at 120s (drift-halt exit 43 guards it). → `progress/continue-prompts/2026-05-27-events-haiku-bulk-monitor.md` (**Opus 4.7**): completion read (precision + reject-recall) + slug long-tail triage + MERGE into `edges.jsonl` (gated). New loose end → `working/todos.md` "Stage 4" section: make `classify_failed` a skip-key OR add a one-shot batch retry so the recurring ~40-row parse-fail block resolves. Still gated on Matt: 3 core-cleanups.
+
+### Session 80 — Events Haiku bulk DONE: wrapper bug fixed, run analyzed, v2.0 promotion chain authored (2026-05-31)
+
+**Model:** Opus 4.7 (analysis + planning + prompt authoring; one Python bugfix to a wrapper script). **Detail:** `history/session-details/session-080.md`. **Commit:** this endsession commit.
+
+**Changes made:**
+- `scripts/stage4-events-bulk-run.sh::count_remaining` — fixed wrapper false-alarm: total was counted as raw rows, done as deduped `(src,tgt,chapter)` keys; the delta = duplicate input keys, NOT real remaining work. Patched so both sides count the same way. Verified: returns 0 on current state.
+- NEW `working/audits/events-haiku-bulk-2026-05-29/analysis.md` — full Events bulk run analysis (completeness, cost, edge-type distribution, schema-field health, v1.3 overlap).
+- NEW `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/` — 7-step self-contained prompt chain to promote Events to `graph/edges/edges.jsonl` v2.0 (README + 7 step prompts).
+
+**Events bulk RESULT:** **complete and clean.** All 16,502 candidate rows accounted for: **1,617 typed edges** + 14,884 rejected + 1 needs-qualifier. Single prompt_sha (`d31ca56c4768`), single model (haiku), 0 conform_violations, 0 classify_failed. Tier-1 256 / tier-2 1,342 / tier-3 19 (real calibration, unlike v1's all-tier-1). 99.6% verbatim quotes. Vs v1.3: 444 pair-overlaps, 289 triple-overlaps, **988 net-new triples** if promoted — dominated by event-shaped predicates (TRAVELS_WITH/TO 242, LOCATED_AT 90, COMMANDS 121, REVEALS_TO 66, ATTACKS 43, DREAMS_OF 36) that the v1 relationship-spine doesn't carry. Schema gap noted: rejected rows have no `reject_reason` field — fix-later, in Dialogue prep.
+
+**Decisions (Matt confirmed all three up front):** (1) **Full re-merge** (one consolidated v2 jsonl, not additive overlay). (2) **Ship Events-only as v2.0 now**; Dialogue lands as v2.1 via a parallel chain spawned by step 7. (3) **`reject_reason` schema fix deferred to Dialogue prep** (not blocking v2.0). Chain shape: 7 self-contained prompts, each declaring prerequisite + deliverable + gate + recommended model. Mechanical steps (contracts, resolver) → Sonnet 4.6; judgment steps (drift audit, precision audit, sensitive write) → Opus 4.7. Hard rule carried: never modify `edges.jsonl` without Matt's before/after sign-off.
+
+**What's next:** Begin the chain. → `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/01-drift-audit.md` (**Sonnet 4.6 + Opus 4.7**) — cross-model audit on a stratified ~50-row sample; gates v2.0 promotion at ≥70% triple / ≥85% pair agreement. Stale: `progress/continue-prompts/2026-05-27-events-haiku-bulk-monitor.md` (the in-flight run it monitored is now complete; obligations absorbed by the new chain) — to archive.

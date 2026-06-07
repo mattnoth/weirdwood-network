@@ -43,9 +43,11 @@ Pair it with the Alignment Auditor: Reporter establishes facts → Auditor judge
      Report the exact diff.
 2. **Backups.** Does `graph/edges/_regrounding/` contain a fresh backup if a write occurred?
 3. **Schema / vocab.**
-   - Current active edge-type count in `reference/architecture.md` (use the canonical
-     extraction `scripts/build-edge-type-counts.py` if present; never a naive backtick scrape).
-     Expected after Plate 1: 165 (added AGENT_IN, VICTIM_IN). Report actual.
+   - Current active edge-type count. **Run `scripts/build-edge-type-counts.py` and read the
+     `canonical_type_count` field from `working/wiki/data/edge-type-counts.json` — never grep the
+     literal "165" string in `architecture.md` (that's a human annotation, not a computed count;
+     a stale annotation can read correct while the real count drifted).** Expected after Plate 1:
+     `canonical_type_count: 165`, with `AGENT_IN` + `VICTIM_IN` both present. Report actual.
    - Are `AGENT_IN` / `VICTIM_IN` present? Is `COMMANDS_IN` widened? Did any UNEXPECTED new
      types appear (vocab sprawl — should be +2, not +4; no COMMANDER_OF / INSTRUMENT_IN)?
    - Is the validator contract (`AGENT_IN`/`VICTIM_IN` → `event.*`) present in
@@ -84,11 +86,12 @@ Pair it with the Alignment Auditor: Reporter establishes facts → Auditor judge
    "Files this session may modify" list (from the §7 prompt)? `git status` + compare.
 
 ## Output
-Write the report to `working/edge-modeling/audit-log.md` (APPEND a new dated section — do not
-overwrite prior entries; the log is the comparable-over-time record). Structure:
+Write the report to `working/edge-modeling/SESSION-LOG.md` — the project's canonical, **append-only**
+validator log (one entry per plate; NEVER overwrite a prior entry; if a past entry was wrong,
+append a correction). This is the file Matt and the Alignment Auditor read. Structure each entry:
 
 ```
-## Repo Report — Plate <N> — <date>
+## Repo Report — Plate <N> — <date> — commit <hash>
 ### Counts (with source paths)
 | Metric | Baseline | Last report | Now | Δ |
 ...
@@ -98,11 +101,22 @@ overwrite prior entries; the log is the comparable-over-time record). Structure:
 ...
 ### Flags (facts that look off — for the Auditor to judge)
 - [ ] <flag> (path:line)
+### Validator checks (bash a fresh agent can run to confirm THIS entry)
+```bash
+# every load-bearing claim above gets a one-line command that proves it
+wc -l graph/edges/edges.jsonl            # expect 3811 (Plates 0-4)
+python3 scripts/build-edge-type-counts.py && python3 -c "import json;print(json.load(open('working/wiki/data/edge-type-counts.json'))['canonical_type_count'])"  # expect 165
+...
+```
+### Flag drift if…
+- <tripwire condition> (e.g. edges.jsonl row count ≠ 3811 → unauthorized merge)
 ### Raw command outputs (appendix)
 ```
 
 Keep it factual. Every claim cites a path. Put anything that "looks off" under **Flags** for
-the Alignment Auditor — do not editorialize beyond noting the deviation.
+the Alignment Auditor — do not editorialize beyond noting the deviation. The **Validator checks**
+and **Flag drift if** blocks are REQUIRED (borrowed from the S83 log convention) — they make the
+entry self-verifying so a fresh agent can confirm it without re-deriving.
 
 ## Out of scope
 - Fixing anything. Editing the graph. Judging whether the plate "succeeded" (that's the Auditor).

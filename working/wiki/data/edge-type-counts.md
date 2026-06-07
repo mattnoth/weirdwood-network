@@ -1,15 +1,15 @@
 # Edge Type Counts — Weirwood Network
 
-Generated: 2026-05-16T04:18:06+00:00
+Generated: 2026-06-06T19:52:38+00:00
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
 | Node files scanned | 8,052 |
-| Canonical edge types | 125 |
+| Canonical edge types | 165 |
 | Populated types (≥1 instance) | 58 |
-| Unpopulated types (0 instances) | 67 |
+| Unpopulated types (0 instances) | 107 |
 | Drift types (not in canonical) | 0 |
 | Total edge instances | 21,087 |
 | Infobox edges | 21,087 |
@@ -17,7 +17,7 @@ Generated: 2026-05-16T04:18:06+00:00
 
 ## By Category
 
-### Kinship & Family — 9/12 populated, 4,313 instances
+### Kinship & Family — 9/21 populated, 4,313 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -33,8 +33,17 @@ Generated: 2026-05-16T04:18:06+00:00
 | `MARRIES_OFF` *(unpopulated)* | 0 | 0 | 0 |
 | `UNCLE_OF` *(unpopulated)* | 0 | 0 | 0 |
 | `NEPHEW_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `COUSIN_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `MILK_BROTHER_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `NURSED_BY` *(unpopulated)* | 0 | 0 | 0 |
+| `WET_NURSE_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `COURTS` *(unpopulated)* | 0 | 0 | 0 |
+| `PROPOSED_AS_BRIDE` *(unpopulated)* | 0 | 0 | 0 |
+| `STEP_PARENT_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `STEP_CHILD_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `IN_LAW_OF` *(unpopulated)* | 0 | 0 | 0 |
 
-### Political & Authority — 10/14 populated, 9,508 instances
+### Political & Authority — 10/15 populated, 9,508 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -52,8 +61,9 @@ Generated: 2026-05-16T04:18:06+00:00
 | `DEPOSES` *(unpopulated)* | 0 | 0 | 0 |
 | `VOWS_TO` *(unpopulated)* | 0 | 0 | 0 |
 | `BREAKS_VOW` *(unpopulated)* | 0 | 0 | 0 |
+| `BANISHES` *(unpopulated)* | 0 | 0 | 0 |
 
-### Factional & Diplomatic — 6/7 populated, 128 instances
+### Factional & Diplomatic — 6/9 populated, 128 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -64,8 +74,10 @@ Generated: 2026-05-16T04:18:06+00:00
 | `MANIPULATES` | 3 | 3 | 0 |
 | `BETRAYS` | 2 | 2 | 0 |
 | `NEGOTIATES_WITH` *(unpopulated)* | 0 | 0 | 0 |
+| `CONTRACTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
+| `CONSPIRES_WITH` *(unpopulated)* | 0 | 0 | 0 |
 
-### Military & Conflict — 10/15 populated, 637 instances
+### Military & Conflict — 10/26 populated, 637 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -82,17 +94,27 @@ Generated: 2026-05-16T04:18:06+00:00
 | `BESIEGES` *(unpopulated)* | 0 | 0 | 0 |
 | `POISONS` *(unpopulated)* | 0 | 0 | 0 |
 | `RANSOMS` *(unpopulated)* | 0 | 0 | 0 |
+| `PRISONER_EXCHANGE_FOR` *(unpopulated)* | 0 | 0 | 0 |
 | `IMPRISONS` *(unpopulated)* | 0 | 0 | 0 |
+| `GUARDS` *(unpopulated)* | 0 | 0 | 0 |
 | `KILLED_WITH` *(unpopulated)* | 0 | 0 | 0 |
+| `KNIGHTED_BY` *(unpopulated)* | 0 | 0 | 0 |
+| `BESTOWS_KNIGHTHOOD_ON` *(unpopulated)* | 0 | 0 | 0 |
+| `ATTACKS` *(unpopulated)* | 0 | 0 | 0 |
+| `ASSAULTS` *(unpopulated)* | 0 | 0 | 0 |
+| `PARTICIPATES_IN` *(unpopulated)* | 0 | 0 | 0 |
+| `RESCUES` *(unpopulated)* | 0 | 0 | 0 |
+| `TORTURES` *(unpopulated)* | 0 | 0 | 0 |
+| `AGENT_IN` *(unpopulated)* | 0 | 0 | 0 |
+| `VICTIM_IN` *(unpopulated)* | 0 | 0 | 0 |
 
-### Knowledge & Information — 3/11 populated, 5 instances
+### Knowledge & Information — 3/14 populated, 5 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
 | `TEACHES` | 3 | 3 | 0 |
 | `SEEKS` | 1 | 1 | 0 |
 | `DECEIVED_BY` | 1 | 1 | 0 |
-| `KNOWS` *(unpopulated)* | 0 | 0 | 0 |
 | `IGNORANT_OF` *(unpopulated)* | 0 | 0 | 0 |
 | `REVEALS_TO` *(unpopulated)* | 0 | 0 | 0 |
 | `DECEIVES` *(unpopulated)* | 0 | 0 | 0 |
@@ -100,8 +122,12 @@ Generated: 2026-05-16T04:18:06+00:00
 | `INVESTIGATES` *(unpopulated)* | 0 | 0 | 0 |
 | `TUTORS` *(unpopulated)* | 0 | 0 | 0 |
 | `HEALS` *(unpopulated)* | 0 | 0 | 0 |
+| `AFFLICTED_BY` *(unpopulated)* | 0 | 0 | 0 |
+| `DIED_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `SPIES_ON` *(unpopulated)* | 0 | 0 | 0 |
+| `INFORMS` *(unpopulated)* | 0 | 0 | 0 |
 
-### Emotional & Perceptual — 3/10 populated, 6 instances
+### Emotional & Perceptual — 3/13 populated, 6 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -115,8 +141,11 @@ Generated: 2026-05-16T04:18:06+00:00
 | `HATES` *(unpopulated)* | 0 | 0 | 0 |
 | `MOURNS` *(unpopulated)* | 0 | 0 | 0 |
 | `RESENTS` *(unpopulated)* | 0 | 0 | 0 |
+| `COMPANION_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `REPUTED_AS` *(unpopulated)* | 0 | 0 | 0 |
+| `ENCOUNTERS` *(unpopulated)* | 0 | 0 | 0 |
 
-### Spatial & Temporal — 6/8 populated, 2,834 instances
+### Spatial & Temporal — 6/10 populated, 2,834 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -127,9 +156,11 @@ Generated: 2026-05-16T04:18:06+00:00
 | `BURIED_AT` | 50 | 50 | 0 |
 | `LOCATED_AT` | 26 | 26 | 0 |
 | `TRAVELS_TO` *(unpopulated)* | 0 | 0 | 0 |
+| `TRAVELS_WITH` *(unpopulated)* | 0 | 0 | 0 |
+| `IMPRISONED_AT` *(unpopulated)* | 0 | 0 | 0 |
 | `CONTEMPORARY_WITH` *(unpopulated)* | 0 | 0 | 0 |
 
-### Possession & Ownership — 3/11 populated, 108 instances
+### Possession & Ownership — 3/15 populated, 108 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -144,6 +175,10 @@ Generated: 2026-05-16T04:18:06+00:00
 | `INHERITED_BY` *(unpopulated)* | 0 | 0 | 0 |
 | `WIELDED_IN` *(unpopulated)* | 0 | 0 | 0 |
 | `EXECUTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
+| `PURCHASED_FROM` *(unpopulated)* | 0 | 0 | 0 |
+| `BUILT` *(unpopulated)* | 0 | 0 | 0 |
+| `CAPTAIN_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `CREW_OF` *(unpopulated)* | 0 | 0 | 0 |
 
 ### Identity & Disguise — 3/4 populated, 3 instances
 
@@ -154,7 +189,7 @@ Generated: 2026-05-16T04:18:06+00:00
 | `SAME_AS` | 1 | 1 | 0 |
 | `IMPERSONATES` *(unpopulated)* | 0 | 0 | 0 |
 
-### Magic & Supernatural — 0/5 populated, 0 instances
+### Magic & Supernatural — 0/6 populated, 0 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -163,8 +198,9 @@ Generated: 2026-05-16T04:18:06+00:00
 | `SACRIFICES` *(unpopulated)* | 0 | 0 | 0 |
 | `RESURRECTS` *(unpopulated)* | 0 | 0 | 0 |
 | `CURSES` *(unpopulated)* | 0 | 0 | 0 |
+| `PRACTICES` *(unpopulated)* | 0 | 0 | 0 |
 
-### Cultural & Religious — 3/4 populated, 3,542 instances
+### Cultural & Religious — 3/6 populated, 3,542 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -172,12 +208,15 @@ Generated: 2026-05-16T04:18:06+00:00
 | `WORSHIPS` | 92 | 92 | 0 |
 | `CLERGY_OF` | 3 | 3 | 0 |
 | `SACRED_TO` *(unpopulated)* | 0 | 0 | 0 |
+| `OFFICIATES` *(unpopulated)* | 0 | 0 | 0 |
+| `NAMED_AFTER` *(unpopulated)* | 0 | 0 | 0 |
 
-### Narrative & Literary — 1/6 populated, 1 instances
+### Narrative & Literary — 1/7 populated, 1 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
 | `WRITTEN_BY` | 1 | 1 | 0 |
+| `DEPICTED_IN` *(unpopulated)* | 0 | 0 | 0 |
 | `FORESHADOWS` *(unpopulated)* | 0 | 0 | 0 |
 | `PARALLELS` *(unpopulated)* | 0 | 0 | 0 |
 | `SUBVERTS` *(unpopulated)* | 0 | 0 | 0 |
@@ -213,7 +252,7 @@ Generated: 2026-05-16T04:18:06+00:00
 | `MOTIVATES` *(unpopulated)* | 0 | 0 | 0 |
 | `TRIGGERS` *(unpopulated)* | 0 | 0 | 0 |
 
-### Hospitality & Custom — 0/4 populated, 0 instances
+### Hospitality & Custom — 0/5 populated, 0 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -221,28 +260,29 @@ Generated: 2026-05-16T04:18:06+00:00
 | `VIOLATES_GUEST_RIGHT` *(unpopulated)* | 0 | 0 | 0 |
 | `GRANTS_SAFE_CONDUCT` *(unpopulated)* | 0 | 0 | 0 |
 | `ATTENDS` *(unpopulated)* | 0 | 0 | 0 |
+| `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` *(unpopulated)* | 0 | 0 | 0 |
 
-## Unpopulated Types (67 total — Stage 4 targets)
+## Unpopulated Types (107 total — Stage 4 targets)
 
 These are the types with zero instances in the current graph.
 They are the primary targets for Stage 4 (prose-edge classification).
 
-- **Kinship & Family:** `MARRIES_OFF`, `NEPHEW_OF`, `UNCLE_OF`
-- **Political & Authority:** `APPOINTS`, `BREAKS_VOW`, `DEPOSES`, `VOWS_TO`
-- **Factional & Diplomatic:** `NEGOTIATES_WITH`
-- **Military & Conflict:** `BESIEGES`, `IMPRISONS`, `KILLED_WITH`, `POISONS`, `RANSOMS`
-- **Knowledge & Information:** `DECEIVES`, `HEALS`, `HOARDS`, `IGNORANT_OF`, `INVESTIGATES`, `KNOWS`, `REVEALS_TO`, `TUTORS`
-- **Emotional & Perceptual:** `DISTRUSTS`, `FEARS`, `HATES`, `MOURNS`, `PERCEIVED_AS`, `RESENTS`, `TRUSTS`
-- **Spatial & Temporal:** `CONTEMPORARY_WITH`, `TRAVELS_TO`
-- **Possession & Ownership:** `EXECUTED_WITH`, `FORGED_BY`, `GIFTED_TO`, `INHERITED_BY`, `LOOTED_BY`, `MADE_OF`, `REFORGED_INTO`, `WIELDED_IN`
+- **Kinship & Family:** `COURTS`, `COUSIN_OF`, `IN_LAW_OF`, `MARRIES_OFF`, `MILK_BROTHER_OF`, `NEPHEW_OF`, `NURSED_BY`, `PROPOSED_AS_BRIDE`, `STEP_CHILD_OF`, `STEP_PARENT_OF`, `UNCLE_OF`, `WET_NURSE_OF`
+- **Political & Authority:** `APPOINTS`, `BANISHES`, `BREAKS_VOW`, `DEPOSES`, `VOWS_TO`
+- **Factional & Diplomatic:** `CONSPIRES_WITH`, `CONTRACTED_WITH`, `NEGOTIATES_WITH`
+- **Military & Conflict:** `AGENT_IN`, `ASSAULTS`, `ATTACKS`, `BESIEGES`, `BESTOWS_KNIGHTHOOD_ON`, `GUARDS`, `IMPRISONS`, `KILLED_WITH`, `KNIGHTED_BY`, `PARTICIPATES_IN`, `POISONS`, `PRISONER_EXCHANGE_FOR`, `RANSOMS`, `RESCUES`, `TORTURES`, `VICTIM_IN`
+- **Knowledge & Information:** `AFFLICTED_BY`, `DECEIVES`, `DIED_OF`, `HEALS`, `HOARDS`, `IGNORANT_OF`, `INFORMS`, `INVESTIGATES`, `REVEALS_TO`, `SPIES_ON`, `TUTORS`
+- **Emotional & Perceptual:** `COMPANION_OF`, `DISTRUSTS`, `ENCOUNTERS`, `FEARS`, `HATES`, `MOURNS`, `PERCEIVED_AS`, `REPUTED_AS`, `RESENTS`, `TRUSTS`
+- **Spatial & Temporal:** `CONTEMPORARY_WITH`, `IMPRISONED_AT`, `TRAVELS_TO`, `TRAVELS_WITH`
+- **Possession & Ownership:** `BUILT`, `CAPTAIN_OF`, `CREW_OF`, `EXECUTED_WITH`, `FORGED_BY`, `GIFTED_TO`, `INHERITED_BY`, `LOOTED_BY`, `MADE_OF`, `PURCHASED_FROM`, `REFORGED_INTO`, `WIELDED_IN`
 - **Identity & Disguise:** `IMPERSONATES`
-- **Magic & Supernatural:** `BONDED_TO`, `CURSES`, `RESURRECTS`, `SACRIFICES`, `WARGS_INTO`
-- **Cultural & Religious:** `SACRED_TO`
-- **Narrative & Literary:** `CONTRASTS`, `ECHOES`, `FORESHADOWS`, `PARALLELS`, `SUBVERTS`
+- **Magic & Supernatural:** `BONDED_TO`, `CURSES`, `PRACTICES`, `RESURRECTS`, `SACRIFICES`, `WARGS_INTO`
+- **Cultural & Religious:** `NAMED_AFTER`, `OFFICIATES`, `SACRED_TO`
+- **Narrative & Literary:** `CONTRASTS`, `DEPICTED_IN`, `ECHOES`, `FORESHADOWS`, `PARALLELS`, `SUBVERTS`
 - **Prophecy:** `APPEARS_TO_FULFILL`, `DREAMS_OF`, `FULFILLS`, `PROPHESIED_BY`, `SUBJECT_OF_PROPHECY`, `SUBVERTS_PROPHECY`
 - **Evidentiary (Theory Support):** `CITED_BY`, `CONTRADICTS`, `SUPPORTS`
 - **Causal & Plot:** `ENABLES`, `MOTIVATES`, `PREVENTS`, `TRIGGERS`
-- **Hospitality & Custom:** `ATTENDS`, `GRANTS_SAFE_CONDUCT`, `GUEST_OF`, `VIOLATES_GUEST_RIGHT`
+- **Hospitality & Custom:** `ATTENDS`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `GRANTS_SAFE_CONDUCT`, `GUEST_OF`, `VIOLATES_GUEST_RIGHT`
 
 ## Drift Types
 

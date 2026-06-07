@@ -75,6 +75,44 @@ Reification only fixes the inconsistency if the scattered binaries are **removed
 ### D3 — The hubs to anchor to mostly don't exist; backfill needs a node-minting step (resolved → built into Plate 3)
 All 371 event nodes are battle/war/tournament. There are **zero** fine-grained nodes for individual killings/poisonings/defenestrations. The Red Wedding anchors fine (filed under `event.battle`), but **Bran's defenestration, Tywin's privy death, and the Purple Wedding poisoning have no hub** — i.e. exactly the cases that motivated reification. Plate 3 therefore includes a **node-minting sub-step**, and Plate 2 produces the gating count ("how many Pass-1 events have a node vs. need one minted").
 
+> **D3 RE-EXAMINED — 2026-06-05 (Plate 2 findings; this note corrects the paragraph above).**
+> Plate 2's coverage join (`working/edge-modeling/plate2-event-coverage.{md,json}`) showed the
+> claim above is **partly wrong**, and the real shape is different and more important:
+> - **Tywin's privy death and the Purple Wedding poisoning DO have nodes today** —
+>   `graph/nodes/events/assassination-of-tywin-lannister.node.md` and
+>   `graph/nodes/events/purple-wedding.node.md` both exist. What they lack is **chapter linkage**,
+>   not existence. (Bran's defenestration genuinely has no node — original claim holds there.)
+> - The real problem is **coverage, not absence**: of 8,384 Pass-1 event entries (8,317 distinct
+>   titles), only **1** exact-matched an event-node slug, and only **38 of 371** event nodes have
+>   any Pass-1 chapter linkage. The chapter→event index was built from the Wars & Conflicts column,
+>   so it catches historical names, not narrative beats.
+> - Pass-1 events are overwhelmingly **narrative micro-beats** ("Departure at daybreak"), not named
+>   events. A naive reify-all would mint ~8,300 junk hubs.
+> **Consequences for Plate 3:** (1) it needs a **chapter-rebind sub-step** for existing nodes (not
+> just minting) — a plan addition; (2) reification MUST be **selective** (a kill/death/attack/
+> poisoning/wedding/betrayal/capture trigger list), not all-events — this is open Matt question Q1;
+> (3) a **fuzzy-title reuse pass** should precede minting so `tywin-privy-death` rebinds to the
+> existing `assassination-of-tywin-lannister` rather than minting a duplicate — open Matt question Q2.
+
+### D8 — Reify on n-ary STRUCTURE, not event TYPE (2026-06-06; sharpens Q1 and the §2 disposition)
+The disposition table (§2) says "reify the killing/ceremony/siege families." That is too coarse:
+it would put a hub around clean one-on-one killings that have no head problem. **The trigger is
+structure, not type:**
+- **Clean dyad** (single agent + single patient, no instigator/ordering third party, not a
+  shared named occasion) → **keep as a direct typed edge** (`KILLS source→target`), direction-fixed
+  by Plate 0. **No hub. No hops added.** (Empirically: 0 of the 102 current `KILLS` rows carry an
+  instigator signal — almost all are clean dyads. Jaime/Aerys is the archetype: nobody disputes the
+  agent, so no hub.)
+- **N-ary event** (instigator ≠ executor, multiple killers/victims, OR a named set-piece other
+  edges reference) → **reify onto an event hub**, connect participants via role edges, and *Replace*
+  the scattered binaries **for that event only**. (Red Wedding, Renly's shadow-death, ordered
+  assassinations.)
+**Consequence:** D2=Replace applies ONLY to reified (n-ary) events. Clean dyads are never reified,
+so the 2-hop only ever exists where the head was genuinely contested — i.e. exactly where the
+divergent-collapse bug lives. This also shrinks node-minting to near-zero: the reify-family is ~280
+edge instances collapsing to ~100–200 distinct events, and the named set-pieces (sacks, assassinations,
+weddings, tourneys) **already have nodes**. **Reuse-before-mint is mandatory** (see Plate 2.5 inventory).
+
 ### D4 — Retroactive cleanups are cheap, high-value, and were dropped by the plan; promote them to a first plate (resolved → Plate 0)
 - **Head-direction inversion sweep** (the "normalizer", see §4): a deterministic, ~$0, no-LLM script that flips the existing inverted edges using the self-witnessing `asserted_relation` field. Fixes `cressen KILLS melisandre` et al. and the 232 bidirectional pairs on the live graph. The Pass-1 head rule (Plate 1) only fixes *future* extractions; this fixes the *existing* 3,811 edges.
 - **Aerys slug-split merge**: `aerys-targaryen` (2 edges, incl. the regicide `KILLS`) vs. canonical `aerys-ii-targaryen` (~8 edges). Both node files exist; traversal is bisected. **Must run before any reification** — reifying onto a phantom slug relocates the bug rather than fixing it.

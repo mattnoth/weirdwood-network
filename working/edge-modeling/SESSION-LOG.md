@@ -243,3 +243,230 @@ Each carries the required "Recommended model" line, lists its preconditions, and
 
 ### Trust hierarchy reminder (CLAUDE.md rule #9)
 If the design doc's §3 D3 disagrees with this SESSION-LOG on whether Purple Wedding / Tywin's death have hubs: **trust SESSION-LOG + plate2-event-coverage.md**. They reflect actual repo state as of 2026-06-05; the design doc's D3 was written before the coverage probe ran.
+
+## Repo Report — Plate 2.5 (Event-Node Inventory) — 2026-06-06 — read-only
+
+**What ran:** `scripts/event-node-inventory.py` (new; stdlib-only; READ-ONLY on graph/). Built the event-node catalog + fuzzy reuse lookup that gate Plate 3 reuse-before-mint (design doc D8 / Plate 3 precondition).
+
+**Outputs (staging only):**
+- `working/edge-modeling/event-node-inventory.md`
+- `working/edge-modeling/event-node-reuse-lookup.json`
+
+**Facts:**
+- 371 event nodes (292 battle / 32 war / 35 tournament); 359 reuse-eligible.
+- 12 suspected category-drift nodes (Winds-of-Winter chapter entries + ASOS prologue/epilogue misfiled as event.battle) — excluded from reuse lookup; flagged for reclassification.
+- 1,033 reuse keys; 6 collision keys (near-duplicate event nodes, e.g. battle-at-the-red-fork vs battle-of-the-red-fork) — flagged for merge before minting.
+- 279 reify-family edges in edges.jsonl; ~124 (44%) already plausibly map to an existing hub. KILLS reuse coverage 29% (consistent with most KILLS being clean dyads → D8 no-reify).
+- Spot check: sack-of-kings-landing, red-wedding, assassination-of-tywin-lannister, purple-wedding all present in lookup.
+
+**graph/ untouched.** No nodes minted, no edges written.
+
+**Flags for the Auditor:**
+- [ ] 12 category-drift nodes still typed event.battle (reclassify out before/at Plate 3).
+- [ ] 6 collision near-duplicate event nodes (merge before minting to avoid wrong-twin rebind).
+
+**Validator checks (bash):**
+```bash
+python3 scripts/event-node-inventory.py            # reproduces the summary
+jq "keys|length" working/edge-modeling/event-node-reuse-lookup.json 2>/dev/null || python3 -c "import json;print(len(json.load(open(\"working/edge-modeling/event-node-reuse-lookup.json\"))))"
+ls graph/nodes/events | wc -l                       # expect 371
+wc -l graph/edges/edges.jsonl                       # expect 3811 (unchanged)
+```
+
+---
+
+## Alignment Audit — Plates 0–2.5 block — 2026-06-06
+
+> **Role:** Independent fresh-session ALIGNMENT AUDITOR (not the executor). Judges the whole
+> pre-Plate-3 block at once: Plates 0, 1, 2, 2.5 + staged cleanups (drift-reclassify,
+> collision-merge) + the Plate 3 Red-Wedding smoke test. PLATE_JUST_RUN = "0-through-2.5+cleanups+smoke".
+> **Model:** Opus (judgment work, per runbook). **Trust hierarchy:** worklog.md is authoritative;
+> it agrees with the design doc + SESSION-LOG on state this block — no contradiction to flag.
+
+### Recomputed load-bearing numbers (run independently, NOT trusted from the report)
+
+| Check | Command | Result | Expected | Verdict |
+|---|---|---|---|---|
+| Staging discipline | `wc -l graph/edges/edges.jsonl` | **3811** | 3811 | ✅ untouched |
+| Graph mutation | `git status --short graph/` | **empty** (zero modified files) | empty | ✅ nothing written |
+| Canonical vocab | `build-edge-type-counts.py` → `canonical_type_count` | **165** (not grepped) | 165 | ✅ |
+| New vocab present | AGENT_IN / VICTIM_IN in type map | **both PRESENT, count 0** (staged, unemitted) | present | ✅ |
+| Anti-sprawl (D1) | COMMANDER_OF / INSTRUMENT_IN in vocab | **both absent** | absent | ✅ +2 not +4 |
+| Event nodes | `ls graph/nodes/events \| wc -l` | **371** | 371 | ✅ no minting |
+| Phantom Aerys | `aerys-targaryen.node.md` present? | **yes, still present** (May 7) | present | ✅ merge staged-not-applied |
+| Drift nodes | 2 spot-checks (`a-storm-of-swords-prologue`, `mercy-...`) | **still `type: event.battle`** | unchanged | ✅ reclassify staged-not-applied |
+| Normalizer flips | `normalizer_action` tally over 3811 rows | **10 flipped / 3800 kept / 1 flagged** | 10 | ✅ |
+
+**Flip-count reconciliation (the logged 10-vs-11 ambiguity): it is 10.** `normalizer-candidates.jsonl`
+is the full 3,811-row graph annotated in place (one row per edge with a `normalizer_action` field),
+NOT a flips-only file. The exact tally is `flipped=10, kept=3800, flagged=1` (sums to 3,811). The
+"11" confusion most plausibly arose from adding the 1 flagged mutual-kill row (`donal-noye ↔
+mag-mar-tun-doh-weg`, both-directions signal) to the 10 flips, or from conflating the Aerys merge's
+3 repointed edges. The flagged row is correctly NOT a flip (it is held for human judgment, not
+guessed) — design doc §4 "where direction is ambiguous and unsignaled, flag rather than guess."
+Discrepancy is benign and now explained.
+
+### Done-criteria — per plate
+
+**Plate 0 (§7.0):** MET. Normalizer built (`scripts/edge-direction-normalizer.py`); 10 confirmed
+inversions flipped incl. all three design-doc §1 self-witnessing cases (cressen/melisandre KILLS,
+arya/sandor CAPTURES, tyrion/shae BETRAYS — verified in SESSION-LOG probes); {flipped,kept,flagged}
+counts reported; Aerys merge staged (3 edges repointed to `aerys-ii-targaryen`, `aerys-i-targaryen`
+untouched). edges.jsonl NOT written (confirmed: still 3811, git clean). ✅
+
+**Plate 1 (§7.1):** MET. Head rule + optional role sub-bullets in `mechanical-extractor.md`; parser
+non-breakage verified (`stage4-pass1-extra-tables.py` numbered-item regex skips sub-bullets);
+AGENT_IN + VICTIM_IN in architecture.md, COMMANDS_IN widened, WIELDED_IN note; vocab 163→**165
+(recomputed, confirmed)**; validator Contract 10 (AGENT_IN/VICTIM_IN → event.* targets). No Pass-1
+rerun. ✅
+
+**Plate 2 (§7.2):** MET. Node-existence count produced (8,384 entries / 8,317 distinct / 1 exact
+slug-match / 38-of-371 with chapter linkage); graph-query.py `--path` confirmed to traverse
+person→event→person untyped/unfiltered (`cmd_path` lines 794–809); **D2 RESOLVED → (a) Replace**,
+recorded in design doc §3 + worklog. Honestly surfaced that design §3 D3 was partly wrong (Tywin/
+Purple-Wedding nodes DO exist) and appended the **D3 RE-EXAMINED** correction in the design doc — good
+self-correction, not drift. ✅
+
+**Plate 2.5 (inventory):** MET. `event-node-inventory.py` (read-only) → 371 nodes, 359 reuse-eligible,
+1,033 reuse keys, 12 drift nodes + 6 collision groups flagged. Reuse-before-mint catalog (design D8
+precondition) in place. graph/ untouched. ✅
+
+**Staged cleanups (drift-reclassify, collision-merge):** MET as STAGING. drift-reclassify proposes
+12 `event.battle → meta.chapter` (Winds-of-Winter chapter articles + ASOS prologue/epilogue), 0
+affected edges; collision-merge proposes 6 groups (4 high-conf via existing `same_as` redirects, 1
+medium, 1 low needing human judgment), 0 affected edges, SAME_AS-redirect mechanism (no deletion —
+CLAUDE.md hard rule honored). Both write candidates + summaries only; **independently confirmed the
+12 drift nodes are still `event.battle` on disk** — staged, not applied. ✅
+
+**Plate 3 smoke test (Red Wedding):** MET as a dry-run smoke. 12 role edges on ONE `red-wedding` hub;
+validation keep=12/flag=0/drop=0; 9 superseded person→person binaries identified (**independently
+confirmed 3 of them — roose-bolton BETRAYS robb-stark, raymund-frey KILLS catelyn-stark, ryman-frey
+KILLS dacey-mormont — are real rows in edges.jsonl**); `dry_run: true`, $0, nothing written to graph/.
+✅
+
+### Sequencing / Staging / Decisions / Reversibility / Scope
+
+**Sequencing (§6):** PASS. Plate 2 (D2 resolve) + Plate 1c (schema) both landed before the Plate 3
+smoke ran — smoke uses AGENT_IN/VICTIM_IN, which exist only because 1c shipped. Aerys merge (0b) is
+staged ahead of any reification, and the smoke is a dry-run that wrote nothing — no reification has
+yet landed on the phantom slug (the load-bearing ordering is preserved because Plate 5 hasn't run).
+Plate 4 has not run, so the D6 "promote-candidates through normalizer first" ordering is not yet
+testable — correctly still HELD.
+
+**Staging discipline (the #1 risk):** PASS — the decisive check. `git status --short graph/` is
+**empty**; edges.jsonl = 3,811 byte-for-byte; events nodes = 371; phantom Aerys present; drift nodes
+still event.battle. Across ALL of Plates 0–2.5 + cleanups + smoke, **zero canonical writes to
+graph/edges/edges.jsonl or graph/nodes/.** Only Plate 5 may write, and it hasn't. No automatic NO-GO
+condition is present.
+
+**Design decisions honored:** D1 PASS (+2 exactly; COMMANDER_OF/INSTRUMENT_IN absent). D2 PASS
+(Replace recorded AND applied in the smoke: superseded binaries marked-for-supersession, no
+materialized dyad emitted). D3 PASS (one deduped Red Wedding hub from 2 chapters, not 3 fragments;
+D3 RE-EXAMINED correction logged). D7 PASS (smoke gives orderers Walder Frey / Tywin / Lothar
+`COMMANDS_IN`, executors `AGENT_IN`, victims `VICTIM_IN`, one node, no instigator→victim collapse).
+D8 PASS (Red Wedding is the archetypal n-ary case — instigator≠executor, multiple killers/victims —
+exactly what D8 says to reify; clean dyads are explicitly left as direct edges, e.g. the inventory's
+29% KILLS reuse coverage matches "most KILLS are clean dyads → no hub"). D5: smoke ran as dry-run
+($0) so the legacy-Sonnet cost honesty is not yet exercised — fine for a smoke; must hold at real
+Plate 3.
+
+**Reversibility (§8):** PASS. Everything is throwaway staging under `working/edge-modeling/`; no
+`sources/`/`extractions/` deletions; supersession via `superseded_by`/SAME_AS markers, not removal;
+the one irreversible write (Plate 5) is correctly deferred and unrun.
+
+**Scope creep:** MINOR-BENIGN. The drift-reclassify + collision-merge cleanups and the Plate 2.5
+inventory were not in the original §5 plate table (which jumps Plate 2 → Plate 3). However they are
+direct, necessary consequences of D8's **"reuse-before-mint is mandatory"** rule and the Plate-2.5
+inventory's two explicit Auditor flags (12 drift + 6 collisions "merge before minting to avoid
+wrong-twin rebind"). They are staged-only, edge-impact-zero, and gate Plate 3 correctly — this is
+plan-faithful elaboration, not bolt-on. The Red-Wedding smoke is named as a Plate 3 done-criterion
+(§7.3: "Red Wedding hub populated … as a smoke test") and was run as a dry-run — in scope.
+
+### Goal-alignment note
+
+This block moves **genuinely toward** the real goal (graph quality for agent traversal; consistent
+"who killed X" / "who was behind the Red Wedding"). The smoke test is the proof: after Plate 5 merge,
+`--path walder-frey robb-stark` will surface the `red-wedding` hub with a `COMMANDS_IN` leg, and
+`--path roose-bolton robb-stark` an `AGENT_IN`→`VICTIM_IN` walk — and the divergent legacy binaries
+(`roose-bolton BETRAYS robb-stark` vs `walder-frey BETRAYS robb-stark`) get demoted via
+`superseded_by` so 1-hop no longer returns the inconsistent projections. That is the underdetermination
+fix (§1) actually landing on the canonical example. The work is NOT technically-compliant-but-
+misaligned: D8's structure-not-type trigger keeps hubs only where the head was genuinely contested,
+so the project is not paying a 2-hop tax on clean dyads. One honest residual: this is all still
+**staging + a dry-run** — the alignment is *demonstrated on one event*, not yet *delivered at scale*.
+The real Plate 3 (full selective mining over the reify-family, Sonnet legacy path, actual node-mint/
+rebind) is where scale-alignment gets tested; the smoke earns confidence but is not the deliverable.
+
+### VERDICT: ON COURSE
+
+Done-criteria met across Plates 0/1/2/2.5 + both staged cleanups + the smoke. The #1 risk (premature
+canonical write) is clean: graph/edges/edges.jsonl untouched (3,811), graph/nodes/ unmutated, git
+status empty. Every design decision (D1, D2, D3, D7, D8) is honored in the staged artifacts.
+Sequencing and reversibility intact. The drift/collision cleanups are plan-faithful (reuse-before-mint
+prerequisites), not scope creep. The Red-Wedding smoke demonstrates the headline query fix end-to-end
+in dry-run.
+
+### Next action: LAUNCH Plate 3 (full selective backfill) — with pre-flight reminders
+
+1. **Resolve Matt's two open Plate-3 questions first** (documented in
+   `progress/continue-prompts/2026-06-05-edge-modeling-plate-3-backfill.md`): Q1 reify-selective
+   (trigger list) vs reify-all — **recommend selective**, per D8; Q2 fuzzy-title reuse pass vs
+   slug-floor mint — **recommend the confidence-gated fuzzy reuse pass** over the Plate-2.5 lookup,
+   per D8 reuse-before-mint.
+2. **Apply the 4 high-confidence collision merges (and decide the 1 medium / 1 low) BEFORE minting**,
+   so reuse rebinds to the correct canonical twin (e.g. `battle-on-the-green-fork`, not the redirect).
+   The 12 drift `event.battle → meta.chapter` reclassifications should also clear before Plate 3 reuse
+   so those chapter-articles aren't offered as hubs. Both remain STAGING until the Plate 5 gate, but
+   the reuse pass must read the corrected catalog.
+3. **State Plate 3 cost honestly as the legacy Sonnet path (~$2–10), not $0** (D5) — the dry-run smoke
+   was $0 only because it was a dry-run.
+4. **Keep the staging discipline:** Plate 3 writes role-edges-staging + minted-event-nodes to
+   `working/edge-modeling/` only. The merge to canonical is Plate 5, Matt-gated.
+5. Run the Reporter→Auditor loop again after the real Plate 3 (first at-scale content write).
+
+## Cleanup Decisions RESOLVED — 2026-06-06 (Matt-approved)
+
+Resolved the 3 human-judgment items from Plate 2.5 / collision-merge staging. Authoritative record: `working/edge-modeling/cleanup-decisions-resolved.md`. All verified read-only; **0 affected edges** each; nothing applied (Plate 5 gate executes them).
+
+- **Drift (12):** move graph/nodes/events/* → graph/nodes/chapters/* + retype `meta.chapter`.
+- **Collision (4 high-conf):** merge mummers-ford / red-fork / whispering-wood(3-way) / green-fork to their `battle-at/in/on-*` canonical (SAME_AS + redirect, not deleted).
+- **conquest-of-dorne:** NOT a merge — wiki confirms `The_Conquest_of_Dorne` is Daeron I's BOOK; reclassify `the-conquest-of-dorne` event.war → **object.text** (→ graph/nodes/texts/). Keep `conquest-of-dorne` as the historical event.
+- **maidenpool:** wiki `Tourney_of_Maidenpool` = "Redirect to: Tourney at Maidenpool" → canonical `tourney-at-maidenpool`; merge `tourney-of-maidenpool` in.
+- **Plate 3 rule CONFIRMED:** `house.*` permitted as AGENT_IN source for group actors.
+
+**Auditor (Plates 0–2.5 block):** VERDICT ON COURSE — staging discipline clean (edges.jsonl=3811, git status graph/ empty, 371 event nodes, no minting), flip count reconciled to 10 (flagged mutual-kill held), vocab=165 recomputed, goal-aligned. Full Plate 3 backfill cleared to launch.
+
+## Plate 3 Full-Sweep — Status Report — 2026-06-07
+
+**TL;DR:** Plate 3 logic is fully built, debugged, and the runner is now crash-resilient + resumable. The real full LLM sweep has NOT completed (overnight attempt killed by the rate wall ~6 min in). Graph remains untouched. Ready to resume on command. **Cost is larger than first estimated — see "Revised scope/cost."**
+
+### Done
+- `scripts/edge-reify-backfill.py` built: `--smoke`, `--batch`, `--all`, `--resume`, `--dry-run`.
+- Logic validated on a 12-event mini-batch ($0.81): D8 clean-dyad skip OK (Jaime/Aerys, Tyrion/Tywin skipped), D7 causation OK (instigator->COMMANDS_IN, executor->AGENT_IN, no instigator->victim collapse), multi-chapter dedup OK (Red Wedding 3 chapters -> 1 hub), reuse-before-mint OK (7 reused / 3 minted), group/faction AGENT_IN OK, LOCATED_AT direction OK, Contract 10 68/68 PASS.
+- Supersede false-positive bug found + fixed: added chapter-overlap requirement (edge.evidence_chapter must be in the event's chapter set). Mini-batch supersede 33 -> 12; re-validated: 3 named FPs gone, true positive (roose BETRAYS robb -> red-wedding) retained, Karstark routed to skip.
+- Runner hardened (2026-06-07, code-only, ~0 usage): FAIL-FAST on rate wall (<= ~90s, no multi-hour retry burn -> exits clean, leaves ledger), incremental per-event flush, processed-events ledger, `--resume` (verified 0 duplicates), progress+cost stdout, richer dry-run stub. Verified via full-corpus dry-run + mock-wall tests.
+
+### NOT done
+- The real full sweep. Overnight run was killed ~6 min in by the rate wall (then burned usage in retry loops before the fail-fast fix existed). Produced only 37 staged minted nodes + 11 hub-review-queue entries. No role edges, no summary yet.
+
+### Staged artifacts — working/edge-modeling/plate3-full/
+- minted-event-nodes/ : 37 (STAGING; NOT in graph)
+- hub-review-queue.jsonl : 11
+- role-edges-staging.jsonl / processed-events.jsonl / skipped-clean-dyads.jsonl / supersede-candidates.jsonl : not yet populated (will fill on the real `--resume` run)
+
+### Revised scope/cost (IMPORTANT — flag for Matt)
+- The full-corpus dry-run enumerated ~**2,056 trigger-family candidate events** (vs the earlier 200-300 estimate). Many will be skipped as clean dyads by the D8 gate, but each non-trivially-deterministic candidate still needs one claude -p call to decide reify/skip + assign roles.
+- Real cost is therefore **uncertain: roughly $50-$160** (~$0.08/event), NOT the previously stated $16-24, depending on how many are deterministically skippable.
+- RECOMMENDATION: run a **cost-bounded calibration chunk first** (e.g. one book, or a first ~200 events) with `--resume`, read the actual reify/skip ratio + cost, THEN decide whether to complete all ~2,056. The runner is resumable, so chunking is free.
+
+### Graph integrity
+- `wc -l graph/edges/edges.jsonl` = 3811; 0 nodes minted into `graph/`; `git status graph/` clean. Untouched throughout.
+
+### Resume command (attended)
+    python3 scripts/edge-reify-backfill.py --all --resume
+- Watch the per-10-event progress + running-cost line. Fail-fast leaves the ledger; re-run the same command to continue after a wall.
+
+### After the sweep completes
+- Run Reporter (`audit-repo-reporter-prompt.md`) -> fresh Auditor (`audit-alignment-auditor-prompt.md`) on the full output.
+- Human-review `hub-review-queue.jsonl` (borderline/medium-fuzzy) and `supersede-candidates.jsonl`.
+- Then Plate 5 = the single gated merge into graph/ with before/after sign-off.

@@ -6,7 +6,7 @@ master plan. It consumes (a) the design doc's intent and (b) the Repo Reporter's
 and renders a verdict that **gates the next plate**.
 
 **How to use:** Run it **after** the Repo Reporter (`audit-repo-reporter-prompt.md`) has appended
-its facts to `working/edge-modeling/audit-log.md`. Fill the `SET THIS` block, paste the rest.
+its facts to `working/edge-modeling/SESSION-LOG.md`. Fill the `SET THIS` block, paste the rest.
 Best run as a **different session from the executor** (fresh eyes — the project's out-of-sample /
 fresh-review principle).
 
@@ -27,17 +27,23 @@ fresh-review principle).
 
 ## SET THIS before running
 - PLATE_JUST_RUN: <0 | 1 | 2 | 3 | 4 | 5>
-- The Repo Reporter has appended its Plate <N> facts to working/edge-modeling/audit-log.md: <yes/no>
+- The Repo Reporter has appended its Plate <N> facts to working/edge-modeling/SESSION-LOG.md: <yes/no>
   (if no, STOP — run the Reporter first; you judge facts, you don't gather them.)
 
 ## Read first (intent + facts)
 1. `working/edge-modeling/edge-modeling-reification-design.md` — the PLAN. Internalize:
    §3 design decisions (D1–D7), §5 plate table, §6 sequencing, §7 the prompt for PLATE_JUST_RUN
    (its done-criteria + out-of-scope + declared files), §8 reversibility, §9 open decisions.
-2. The latest `working/edge-modeling/audit-log.md` entry (the Reporter's facts for this plate).
+2. The latest `working/edge-modeling/SESSION-LOG.md` entry (the Reporter's facts for this plate).
 3. The latest `worklog.md` entry.
-4. Spot-check (you MAY read the repo to verify a Reporter claim you doubt — but base the verdict
-   on the design doc's intent, not on re-deriving the facts yourself).
+4. Spot-check. You MAY read the repo to verify a Reporter claim you doubt — base the verdict on
+   the design doc's intent, not on re-deriving every fact yourself. BUT independently recompute the
+   three load-bearing numbers rather than trusting the Reporter's (or a self-report's) figure:
+   (i) `wc -l graph/edges/edges.jsonl` (staging discipline); (ii) `canonical_type_count` via
+   `scripts/build-edge-type-counts.py` — NOT a grep of "165"; (iii) the flip count in
+   `normalizer-candidates.jsonl`. If your recount disagrees with the logged number (e.g. a
+   self-report said 10 flips but you count 11), reconcile it in the verdict — small discrepancies
+   are often a header/comment line, but say so explicitly rather than passing it through.
 
 ## Judge — answer each, with a citation to the design doc and the report
 1. **Done-criteria met?** Walk the PLATE_JUST_RUN prompt's explicit done-criteria one by one.
@@ -79,7 +85,7 @@ Be decisive. If a deviation is benign, say so and don't block. If it's course-al
 and say exactly why. Cite the design doc for every judgment.
 
 ## Output
-APPEND to `working/edge-modeling/audit-log.md` under the Reporter's Plate <N> facts:
+APPEND to `working/edge-modeling/SESSION-LOG.md` under the Reporter's Plate <N> facts:
 
 ```
 ## Alignment Audit — Plate <N> — <date>

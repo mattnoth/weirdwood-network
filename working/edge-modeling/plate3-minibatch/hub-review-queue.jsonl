@@ -1,0 +1,4 @@
+{"event_slug": "purple-wedding", "event_title": "The Purple Wedding", "fuzzy_match": "purple-wedding", "fuzzy_score": 0.667, "action": "review_before_mint"}
+{"event_slug": "red-wedding", "event_title": "The Red Wedding", "fuzzy_match": "red-wedding", "fuzzy_score": 0.667, "action": "review_before_mint"}
+{"event_slug": "execution-of-eddard-stark", "event_title": "Execution of Eddard Stark", "fuzzy_match": "arrest-of-eddard-stark", "fuzzy_score": 0.75, "action": "review_before_mint"}
+{"event_slug": "fall-of-astapor", "event_title": "Fall of Astapor (Sack of Astapor)", "fuzzy_match": "fall-of-astapor", "fuzzy_score": 0.75, "action": "review_before_mint"}

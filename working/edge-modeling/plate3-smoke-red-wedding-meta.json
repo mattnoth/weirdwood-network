@@ -1,0 +1,76 @@
+{
+  "event_slug": "red-wedding",
+  "hub_node_exists": true,
+  "chapters_processed": [
+    "/Users/mnoth/source/asoiaf-chat/extractions/mechanical/asos/asos-catelyn-07.extraction.md",
+    "/Users/mnoth/source/asoiaf-chat/extractions/mechanical/asos/asos-epilogue.extraction.md"
+  ],
+  "role_edges_emitted": 12,
+  "validation": {
+    "keep": 12,
+    "flag": 0,
+    "drop": 0,
+    "passed": true
+  },
+  "superseded_candidates": {
+    "found_in_graph": 9,
+    "not_found": 0,
+    "candidates": [
+      {
+        "edge_type": "BETRAYS",
+        "source_slug": "roose-bolton",
+        "target_slug": "robb-stark"
+      },
+      {
+        "edge_type": "BETRAYS",
+        "source_slug": "walder-frey",
+        "target_slug": "robb-stark"
+      },
+      {
+        "edge_type": "KILLS",
+        "source_slug": "raymund-frey",
+        "target_slug": "catelyn-stark"
+      },
+      {
+        "edge_type": "KILLS",
+        "source_slug": "ryman-frey",
+        "target_slug": "dacey-mormont"
+      },
+      {
+        "edge_type": "KILLS",
+        "source_slug": "hosteen-frey",
+        "target_slug": "lucas-blackwood"
+      },
+      {
+        "edge_type": "VIOLATES_GUEST_RIGHT",
+        "source_slug": "walder-frey",
+        "target_slug": "robb-stark"
+      },
+      {
+        "edge_type": "VIOLATES_GUEST_RIGHT",
+        "source_slug": "walder-frey",
+        "target_slug": "catelyn-stark"
+      },
+      {
+        "edge_type": "VIOLATES_GUEST_RIGHT",
+        "source_slug": "house-frey",
+        "target_slug": "robb-stark"
+      },
+      {
+        "edge_type": "VIOLATES_GUEST_RIGHT",
+        "source_slug": "house-frey",
+        "target_slug": "catelyn-stark"
+      }
+    ]
+  },
+  "llm_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0.0,
+    "elapsed_seconds": 0.0,
+    "model": "claude-sonnet-4-6",
+    "dry_run": true
+  },
+  "produced_at": "2026-06-06T19:49:40.453597+00:00",
+  "model": "claude-sonnet-4-6"
+}

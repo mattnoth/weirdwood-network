@@ -1,10 +1,10 @@
 {
   "version": "v1",
-  "computed_at": "2026-05-16T04:18:06+00:00",
+  "computed_at": "2026-06-06T19:52:38+00:00",
   "graph_nodes_scanned": 8052,
-  "canonical_type_count": 125,
+  "canonical_type_count": 165,
   "populated_type_count": 58,
-  "unpopulated_type_count": 67,
+  "unpopulated_type_count": 107,
   "drift_type_count": 0,
   "total_edge_instances": 21087,
   "edges_by_section": {
@@ -19,6 +19,18 @@
       "by_node_type": {
         "characters": 1
       }
+    },
+    "AFFLICTED_BY": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "AGENT_IN": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
     },
     "ALIAS_OF": {
       "total": 1,
@@ -64,13 +76,37 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "ASSAULTS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "ATTACKS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "ATTENDS": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "BANISHES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "BESIEGES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "BESTOWS_KNIGHTHOOD_ON": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -112,6 +148,12 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "BUILT": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "BURIED_AT": {
       "total": 50,
       "infobox": 50,
@@ -127,6 +169,12 @@
       "by_node_type": {
         "houses": 30
       }
+    },
+    "CAPTAIN_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
     },
     "CAPTURES": {
       "total": 4,
@@ -183,7 +231,25 @@
         "events": 1
       }
     },
+    "COMPANION_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "CONSPIRES_WITH": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "CONTEMPORARY_WITH": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "CONTRACTED_WITH": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -196,6 +262,30 @@
       "by_node_type": {}
     },
     "CONTRASTS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "COURTS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "COUSIN_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "CREW_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "CROWNS_QUEEN_OF_LOVE_AND_BEAUTY": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -243,6 +333,12 @@
         "texts": 3
       }
     },
+    "DEPICTED_IN": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "DEPOSES": {
       "total": 0,
       "infobox": 0,
@@ -257,6 +353,12 @@
         "characters": 923,
         "religions": 1
       }
+    },
+    "DIED_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
     },
     "DISGUISED_AS": {
       "total": 1,
@@ -293,6 +395,12 @@
       "by_node_type": {}
     },
     "ENABLES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "ENCOUNTERS": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -368,6 +476,12 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "GUARDS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "GUEST_OF": {
       "total": 0,
       "infobox": 0,
@@ -437,7 +551,19 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "IMPRISONED_AT": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "IMPRISONS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "INFORMS": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -450,6 +576,12 @@
       "by_node_type": {}
     },
     "INVESTIGATES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "IN_LAW_OF": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -477,7 +609,7 @@
         "characters": 31
       }
     },
-    "KNOWS": {
+    "KNIGHTED_BY": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -545,6 +677,12 @@
         "factions": 5
       }
     },
+    "MILK_BROTHER_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "MOTIVATES": {
       "total": 0,
       "infobox": 0,
@@ -557,6 +695,12 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "NAMED_AFTER": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "NEGOTIATES_WITH": {
       "total": 0,
       "infobox": 0,
@@ -564,6 +708,18 @@
       "by_node_type": {}
     },
     "NEPHEW_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "NURSED_BY": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "OFFICIATES": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -609,6 +765,12 @@
         "religions": 20
       }
     },
+    "PARTICIPATES_IN": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "PART_OF": {
       "total": 1,
       "infobox": 1,
@@ -629,7 +791,19 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "PRACTICES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "PREVENTS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "PRISONER_EXCHANGE_FOR": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -649,6 +823,12 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "PROPOSED_AS_BRIDE": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "PROTECTS": {
       "total": 3,
       "infobox": 3,
@@ -656,6 +836,12 @@
       "by_node_type": {
         "characters": 3
       }
+    },
+    "PURCHASED_FROM": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
     },
     "RANSOMS": {
       "total": 0,
@@ -679,6 +865,18 @@
         "houses": 511,
         "titles": 70
       }
+    },
+    "REPUTED_AS": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "RESCUES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
     },
     "RESENTS": {
       "total": 0,
@@ -770,6 +968,12 @@
         "characters": 121
       }
     },
+    "SPIES_ON": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "SPOUSE_OF": {
       "total": 663,
       "infobox": 663,
@@ -779,6 +983,18 @@
         "events": 1,
         "religions": 1
       }
+    },
+    "STEP_CHILD_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "STEP_PARENT_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
     },
     "SUBJECT_OF_PROPHECY": {
       "total": 0,
@@ -835,7 +1051,19 @@
         "characters": 3
       }
     },
+    "TORTURES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "TRAVELS_TO": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "TRAVELS_WITH": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -865,6 +1093,12 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "VICTIM_IN": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "VIOLATES_GUEST_RIGHT": {
       "total": 0,
       "infobox": 0,
@@ -886,6 +1120,12 @@
       }
     },
     "WARGS_INTO": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "WET_NURSE_OF": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -923,23 +1163,41 @@
     }
   },
   "unpopulated_types": [
+    "AFFLICTED_BY",
+    "AGENT_IN",
     "APPEARS_TO_FULFILL",
     "APPOINTS",
+    "ASSAULTS",
+    "ATTACKS",
     "ATTENDS",
+    "BANISHES",
     "BESIEGES",
+    "BESTOWS_KNIGHTHOOD_ON",
     "BONDED_TO",
     "BREAKS_VOW",
+    "BUILT",
+    "CAPTAIN_OF",
     "CITED_BY",
+    "COMPANION_OF",
+    "CONSPIRES_WITH",
     "CONTEMPORARY_WITH",
+    "CONTRACTED_WITH",
     "CONTRADICTS",
     "CONTRASTS",
+    "COURTS",
+    "COUSIN_OF",
+    "CREW_OF",
+    "CROWNS_QUEEN_OF_LOVE_AND_BEAUTY",
     "CURSES",
     "DECEIVES",
+    "DEPICTED_IN",
     "DEPOSES",
+    "DIED_OF",
     "DISTRUSTS",
     "DREAMS_OF",
     "ECHOES",
     "ENABLES",
+    "ENCOUNTERS",
     "EXECUTED_WITH",
     "FEARS",
     "FORESHADOWS",
@@ -947,98 +1205,120 @@
     "FULFILLS",
     "GIFTED_TO",
     "GRANTS_SAFE_CONDUCT",
+    "GUARDS",
     "GUEST_OF",
     "HATES",
     "HEALS",
     "HOARDS",
     "IGNORANT_OF",
     "IMPERSONATES",
+    "IMPRISONED_AT",
     "IMPRISONS",
+    "INFORMS",
     "INHERITED_BY",
     "INVESTIGATES",
+    "IN_LAW_OF",
     "KILLED_WITH",
-    "KNOWS",
+    "KNIGHTED_BY",
     "LOOTED_BY",
     "MADE_OF",
     "MARRIES_OFF",
+    "MILK_BROTHER_OF",
     "MOTIVATES",
     "MOURNS",
+    "NAMED_AFTER",
     "NEGOTIATES_WITH",
     "NEPHEW_OF",
+    "NURSED_BY",
+    "OFFICIATES",
     "PARALLELS",
+    "PARTICIPATES_IN",
     "PERCEIVED_AS",
     "POISONS",
+    "PRACTICES",
     "PREVENTS",
+    "PRISONER_EXCHANGE_FOR",
     "PROPHESIED_BY",
+    "PROPOSED_AS_BRIDE",
+    "PURCHASED_FROM",
     "RANSOMS",
     "REFORGED_INTO",
+    "REPUTED_AS",
+    "RESCUES",
     "RESENTS",
     "RESURRECTS",
     "REVEALS_TO",
     "SACRED_TO",
     "SACRIFICES",
+    "SPIES_ON",
+    "STEP_CHILD_OF",
+    "STEP_PARENT_OF",
     "SUBJECT_OF_PROPHECY",
     "SUBVERTS",
     "SUBVERTS_PROPHECY",
     "SUPPORTS",
+    "TORTURES",
     "TRAVELS_TO",
+    "TRAVELS_WITH",
     "TRIGGERS",
     "TRUSTS",
     "TUTORS",
     "UNCLE_OF",
+    "VICTIM_IN",
     "VIOLATES_GUEST_RIGHT",
     "VOWS_TO",
     "WARGS_INTO",
+    "WET_NURSE_OF",
     "WIELDED_IN"
   ],
   "drift_types": [],
   "categories": {
     "Kinship & Family": {
       "populated": 9,
-      "unpopulated": 3,
-      "total_types": 12,
+      "unpopulated": 12,
+      "total_types": 21,
       "total_instances": 4313
     },
     "Political & Authority": {
       "populated": 10,
-      "unpopulated": 4,
-      "total_types": 14,
+      "unpopulated": 5,
+      "total_types": 15,
       "total_instances": 9508
     },
     "Factional & Diplomatic": {
       "populated": 6,
-      "unpopulated": 1,
-      "total_types": 7,
+      "unpopulated": 3,
+      "total_types": 9,
       "total_instances": 128
     },
     "Military & Conflict": {
       "populated": 10,
-      "unpopulated": 5,
-      "total_types": 15,
+      "unpopulated": 16,
+      "total_types": 26,
       "total_instances": 637
     },
     "Knowledge & Information": {
       "populated": 3,
-      "unpopulated": 8,
-      "total_types": 11,
+      "unpopulated": 11,
+      "total_types": 14,
       "total_instances": 5
     },
     "Emotional & Perceptual": {
       "populated": 3,
-      "unpopulated": 7,
-      "total_types": 10,
+      "unpopulated": 10,
+      "total_types": 13,
       "total_instances": 6
     },
     "Spatial & Temporal": {
       "populated": 6,
-      "unpopulated": 2,
-      "total_types": 8,
+      "unpopulated": 4,
+      "total_types": 10,
       "total_instances": 2834
     },
     "Possession & Ownership": {
       "populated": 3,
-      "unpopulated": 8,
-      "total_types": 11,
+      "unpopulated": 12,
+      "total_types": 15,
       "total_instances": 108
     },
     "Identity & Disguise": {
@@ -1049,20 +1329,20 @@
     },
     "Magic & Supernatural": {
       "populated": 0,
-      "unpopulated": 5,
-      "total_types": 5,
+      "unpopulated": 6,
+      "total_types": 6,
       "total_instances": 0
     },
     "Cultural & Religious": {
       "populated": 3,
-      "unpopulated": 1,
-      "total_types": 4,
+      "unpopulated": 3,
+      "total_types": 6,
       "total_instances": 3542
     },
     "Narrative & Literary": {
       "populated": 1,
-      "unpopulated": 5,
-      "total_types": 6,
+      "unpopulated": 6,
+      "total_types": 7,
       "total_instances": 1
     },
     "Prophecy": {
@@ -1085,8 +1365,8 @@
     },
     "Hospitality & Custom": {
       "populated": 0,
-      "unpopulated": 4,
-      "total_types": 4,
+      "unpopulated": 5,
+      "total_types": 5,
       "total_instances": 0
     }
   }
