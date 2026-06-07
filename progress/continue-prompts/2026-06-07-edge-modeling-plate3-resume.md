@@ -38,3 +38,45 @@ The dry-run enumerated **~2,056 trigger-family candidate events** (not the earli
 - `scripts/edge-reify-backfill.py` (only if a bug needs fixing mid-run)
 - APPEND to `working/edge-modeling/SESSION-LOG.md`
 - DO NOT modify anything under `graph/`.
+
+---
+
+## OPERATIONAL ADDENDUM (2026-06-07) — survive the 5-hour window; run-strategy + recs
+
+### The `--all` gate bug (FIX FIRST — see "⚠️ BEFORE YOU RUN" above)
+`--batch` applies the D8/Q1 selective gate correctly (mini-batch was clean). `--all` does NOT — the overnight run minted narrative micro-beat hubs (`departure-at-daybreak`, `discussion-of-giants`), meaning minting happens before/independent of the trigger-family + D8 reify/skip filter in the `--all` path. The dry-run stub forces `is_nary=true`, so it BYPASSED the gate and never caught this. **Fix:** filter + decide reify/skip BEFORE minting in `--all`; mint only for passers. **Verify:** run 5-10 REAL events in `--all`, confirm zero micro-beat mints. Status: OPEN.
+
+### Run strategy — DO NOT repeat last night's failure
+Last night: the run hit the 5-hour wall → **retry-looped against the wall for hours, burning the usage window while producing nothing** → got killed at session end → did NOT auto-resume. The runner now has fail-fast (<~90s exit) + `--resume` + a `processed-events.jsonl` ledger, but you must wrap it:
+- **Outer auto-resume wrapper** (adapt `scripts/stage4-run-forever.sh`, or add a `--forever` loop to the runner). Pattern: run `--all --resume` → on the hard-wall fail-fast exit, **sleep until the window resets**, then relaunch `--all --resume`. It survives the 5-hour boundary and keeps going after. (Memory: `project_stage4_run_forever_wrapper`, `project_stage4_sleep_defaults`.)
+- **Pace within the window** with a SHORT inter-batch sleep (seconds-to-tens-of-seconds) to avoid tripping short-term rate limits — NOT a long idle (you have generous usage today; use the window, don't waste it). The LONG sleep is reserved for the hard-wall reset only.
+- **NEVER let it retry-loop against the wall** — fail-fast then sleep-until-reset is the correct shape. That loop is exactly what burned last night.
+
+### Wrapper spec (CANONICAL — reuse the existing apparatus, do NOT reinvent)
+We already have battle-tested rate-limit-survival scripts. Model the reify wrapper on them rather than building from scratch:
+- `scripts/stage4-run-forever.sh` — sleeps until the rate-limit window resets, then relaunches; survives walls unattended (the core pattern).
+- `scripts/stage4-events-bulk-run.sh` — paced auto-resume reference: `sleep_with_stop_check`, stop-file handling, `MAX_ITER`, SIGINT-terminal.
+- `scripts/stage4-tail-classifier.py` — `--sleep-between` (chunked, stop-file-aware) is the in-runner pacing precedent.
+- Memory: `project_stage4_run_forever_wrapper`, `project_stage4_sleep_defaults` (STAGE4_SLEEP: 1200s parallel-safe / 600s burst / 3600+ conservative).
+
+Required behavior (all of these):
+1. **Internal concurrency** stays at the runner's `claude -p` cap (~5). The wrapper is the OUTER sequential loop.
+2. **Pace** with a SHORT inter-batch sleep (seconds → low tens of seconds) to dodge burst limits — NOT a long idle. Usage is generous today; *use* the window.
+3. **On the hard-wall fail-fast exit** (the runner already exits clean <~90s with the ledger intact): the wrapper **sleeps until the window resets**, then relaunches `--all --resume`. Survives the 5-hour boundary and keeps going after, unattended.
+4. **Stop-file** so Matt can halt safely between batches (mirror `sleep_with_stop_check`).
+5. **`MAX_ITER`** backstop so a pathological loop can't run unbounded.
+6. **Fail GRACEFULLY everywhere:** clean exit + intact `processed-events.jsonl` on any wall/interruption; never a retry-loop against the wall (that's last night's failure).
+
+### Sequence
+1. Fix + verify the `--all` gate. 2. `rm -rf working/edge-modeling/plate3-full/` (stale junk). 3. **Calibration chunk first** (~200 events / one book) → read reify/skip ratio + summed cost from `processed-events.jsonl`; extrapolate (~2,056 candidates, ~$50-160) before committing. 4. Full sweep under the auto-resume wrapper. 5. After: Reporter → fresh Auditor → human-review `hub-review-queue.jsonl` + `supersede-candidates.jsonl` → Plate 5 gated merge.
+
+### My recommendations on the open questions (RESOLVED — do not relitigate)
+- **Q1 = reify-SELECTIVE** (trigger families only) + **D8** (reify on n-ary STRUCTURE not type; clean dyads stay direct edges).
+- **Q2 = confidence-gated fuzzy reuse-before-mint** (auto-rebind high-confidence only; queue medium; mint last).
+- **D2 = Replace** (pure 2-hop hub). STILL OWED: verify the 1-hop `--neighbors`/`--edges` modes also surface hub-mediated relations; if not, fall back to (c) Project for high-traffic types only.
+- **D7 = one event node, two roles** (`AGENT_IN` executor + `COMMANDS_IN` orderer); no instigator→victim collapse.
+- **Cleanups:** `conquest-of-dorne` vs `the-conquest-of-dorne` → don't merge, reclassify the BOOK to `object.text`. `tourney-at/of-maidenpool` → resolve canonical from the local wiki cache. 12 drift nodes → `graph/nodes/chapters/` + retype `meta.chapter`. `house.*` allowed as `AGENT_IN` for group actors. `donal-noye`↔`mag` mutual-kill → two directed KILLS edges, NO `MUTUAL_KILL` type.
+
+### Guardrails
+- **Staging only.** NEVER write `graph/` (Plate 5 is the single gated merge). `edges.jsonl` stays 3811.
+- Do NOT auto-run `/endsession`.
