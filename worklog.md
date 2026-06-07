@@ -243,7 +243,14 @@ This is your project memory. When you come back after a break, read Current Stat
 
 **Graph integrity:** `edges.jsonl`=3811, 0 nodes minted into `graph/`, `git status graph/` clean — untouched throughout.
 
-**What's next:** → `progress/continue-prompts/2026-06-07-edge-modeling-plate3-resume.md` (Sonnet; **attended**, calibration chunk first; `python3 scripts/edge-reify-backfill.py --all --resume`). Then Reporter → fresh Auditor → Plate 5 gated merge. Plate 5 folds in the staged cleanups + Plate 4 (Haiku bulk) + the 3 S77 core-cleanups. Full Plate 3 status report in `working/edge-modeling/SESSION-LOG.md`.
+**What's next:** → `progress/continue-prompts/2026-06-07-edge-modeling-plate3-resume.md` (**Opus 4.7** — see addendum; attended, calibration chunk first). Then Reporter → fresh Auditor → Plate 5 gated merge. Plate 5 folds in the staged cleanups + Plate 4 (Haiku bulk) + the 3 S77 core-cleanups. Full Plate 3 status report in `working/edge-modeling/SESSION-LOG.md`.
+
+**Post-endsession addendum (2026-06-07, same session — Plate 3 agent now RUNNING in a separate window):**
+- **`--all` selective-gate bug found + flagged OPEN (NOT fixed).** The overnight `--all` run minted narrative micro-beat hubs (`departure-at-daybreak`, etc.) → the D8/Q1 selective gate is not enforced in the `--all` path (it IS in `--batch`); the dry-run stub bypassed it so it was never verified. That stale partial (`plate3-full/`) was EXCLUDED from git as contaminated. Next session must fix+verify the gate, `rm -rf plate3-full/`, then run. Recommended model bumped Sonnet→**Opus 4.7** (session now leads with the gate-fix reasoning).
+- **Canonical auto-resume wrapper spec** added to the resume prompt (reuse `stage4-run-forever.sh` / `stage4-events-bulk-run.sh` patterns: sleep-until-reset, stop-file, MAX_ITER, short inter-batch pacing, fail-fast + graceful exit, internal `claude -p` cap ~5). Directly prevents a repeat of the overnight retry-loop window-burn.
+- **Memory entry NEW:** `project_edge_modeling_reification_direction` — captures the current edge strategy + how the dead branches (wiki-comention/Pass-1-spine/Events-Haiku/enrichment) relate, so direction can't be lost.
+- **Repo audit queued (post-Plate-3):** → `progress/continue-prompts/2026-06-07-repo-audit-strategy-reconciliation.md` (**Opus 4.7**) — reconcile 84 sessions of strategy sediment, fix stale worklog checkboxes, archive superseded continue prompts, consolidate memory. Linked in todos.md (HIGH, Doc Hygiene). Run it AFTER Plate 3/5 settle.
+- Commits this session-tail: `8aa595bc1` (S84 endsession), `d13fd2c8d` (gate-bug OPEN + Opus), `3b06ea0cb` (wrapper spec), `c22d1181d` (audit-session capture). The live Plate 3 agent owns `scripts/edge-reify-backfill.py` + `plate3-full/` (left uncommitted/untouched here).
 
 ### Session 83 — Edge-modeling reification Plates 0+1+2 shipped (D2 resolved) (2026-06-05)
 
