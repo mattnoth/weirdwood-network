@@ -1,7 +1,7 @@
 # Worklog Archive 017
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 78 (1/5 — start), 79 (2/5).
+> Sessions: 78, 79, 80, 81, 82 (full at 5/5).
 
 ---
 
@@ -78,6 +78,27 @@
 **Decisions:** (1) **No-Go stands but is borderline**, not catastrophic. Promoting `_events-haiku-bulk/` as v2.0 would inject systematic noise into the structural-edge types (TRAVELS_TO/WITH/LOCATED_AT), where Haiku's hint-as-evidence failure mode concentrates. (2) **The 7-step promotion chain is halted at step 1** until Matt picks an escalation path. (3) **Audit script is THROWAWAY** — single-purpose, not generalized into a framework (per chain spec); reused canonical prompt code for parity. (4) **Cost discipline observed** — `--dry-run` default, `--apply` only after explicit Matt-go ($0.93 total spend).
 
 **What's next:** Matt picks one of the 5 escalation paths in `cross-model-audit.md §6`: (A) re-run on Sonnet (~$340), (B) promote long-tail-only, (C) Sonnet-filter named-type rows only (~$2-5, **audit's recommendation**), (D) tighten Haiku prompt to v6 + re-run, (E) abandon Events for v2.0; wait for Dialogue. → `progress/continue-prompts/2026-06-01-events-bulk-escalation-pick.md` (**Opus 4.7** for the pick, then Sonnet 4.6 for whatever mechanical work follows). Stale: the 7 step prompts at `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/02-06-*.md` likely need rewrites once path is picked, or supersede the chain if (E). Still gated on Matt: 3 core-cleanups (drop 2 `cersei↔tyrion` LOVES; ~22 ASSAULTS→ATTACKS; merge-time OWNS→BONDED_TO).
+
+
+---
+
+### Session 82 — Edge/event modeling: cleanroom decision doc + two-way synthesis (2026-06-04)
+
+**Model:** Opus 4.7 (orchestrator + cleanroom analyst). **Detail:** `history/session-details/session-082.md`. **Commit:** `2d971c1c9` (S82 + bundled S80/S81 backlog) + this endsession commit (continue prompt + session-details + todos linkage).
+
+**Changes made (analysis artifacts; no code, no graph, all untracked at repo root):**
+- NEW `EDGE_INVENTORY_REPORT.md` (281KB) — full inventory of current edge-modeling state; input to the analysis.
+- NEW `EDGE_INVENTORY_ANALYSIS_PROMT.md` (14.8KB, typo in filename) — cleanroom brief: §0 mission, §1 conceptual foundation (relations vs events, arity, underdetermination, instigator/executor causative chain, the two fix families, §1.7 diagnostic heuristic, §1.8 grammatical-subject trap).
+- NEW `EDGE_MODELING_DECISION.md` (37KB) — first decision pass, repo-access allowed.
+- NEW `EDGE_MODELING_DECISION-cleanroom.md` (18.7KB) — fresh-context pass, report + brief only, no repo. First line records Write-denied; doc printed inline and captured. Empty `.err` sidecar.
+
+**Synthesis (two-doc convergence — the most important signal of the session):** Both docs diagnose the same root cause: **grammatical-subject leakage at the Pass-1 extraction layer** (`mechanical-extractor.md:176-178`: no head rule on the `| Char A | Relationship | Char B |` table; `python-map` locks direction by column position) compounded by **structurally empty event hubs** (371 `event.*` nodes exist per `graph/index/events/_summary.json`; Red Wedding has only 3 outbound edges, the audit's canonical case). Both prescribe the same fix shape: **reify** the multi-party set-pieces (killings-at-named-occasion, sieges, sacrifices, the wedding/tourney ceremony family, `CONSPIRES_WITH`, `VIOLATES_GUEST_RIGHT`) via role edges (`AGENT_IN`/`VICTIM_IN`/`COMMANDER_OF`/`INSTRUMENT_IN`, participant→event); **canonicalize** the dyadic acts (`ATTACKS`/`DEFEATS`/`DUELS`/`HEALS`/`RESCUES`/`BETRAYS`) under one head rule (semantic agent, never grammatical subject, never POV); **leave true binaries alone** (`PARENT_OF`, kin shortcuts, emotion/perception, spatial endpoints, prophecy/narrative/evidentiary). Cleanroom-specific disagreements with the first doc: (1) `SPOUSE_OF`/`BETROTHED_TO`/`SWORN_TO` are binary STATES, not events — keep the state, reify the ceremony separately; (2) `HEALS`/`RESCUES` over-reified — canonicalize; (3) `LOCATED_AT` is binary.
+
+**Recommended move (NOT YET DECIDED — awaits Matt's call):** Don't trigger a Pass-1 rerun (all-Opus, 344 chapters — its own project). Instead: (a) **reframe S81's Events Haiku escalation pick through the cleanroom lens** — Haiku's measured drift on `TRAVELS_TO`/`TRAVELS_WITH`/`LOCATED_AT` is the **canonicalize bucket**, NOT the reify bucket; path (B) "promote long-tail-only" sharpens to "promote rows that anchor to existing `event.*` nodes; hold rows targeting persons/venues for canonicalize work"; (b) **backfill role edges onto the 371 existing event nodes** using the Haiku run's `**title**` grouping as ready-made clustering (audit path C, ~$2-5; S80 analysis flagged as highest-leverage move on the table); (c) **add the head rule + `## Events Observed` table to the Pass-1 prompt as a doc change now** — no rerun trigger, benefits the next Pass-1 invocation whenever that happens.
+
+**Decisions:** None binding yet — analysis-only. The Events Haiku v2.0 promotion chain (S81's open question) is now coupled to this decision: the cleanroom lens reshapes which Haiku rows promote vs. hold vs. drop.
+
+**What's next:** → `progress/continue-prompts/2026-06-04-edge-modeling-cleanroom-execution.md` (**Opus 4.7**) — verification + planning prep, four execution plates (A-doc / A-schema / B-backfill / A-pick) to Matt as approve/hold/reject. No spend, no execution. **Partially supersedes** `2026-06-01-events-bulk-escalation-pick.md` (the S81 A-E choice is no longer free under the cleanroom lens). If Matt approves any plate → mechanical work follows on Sonnet 4.6. Still gated on Matt: 3 core-cleanups carrying since S77 (drop 2 `cersei↔tyrion` LOVES; ~22 `ASSAULTS`→`ATTACKS`; merge-time `OWNS→BONDED_TO`).
 
 
 ---

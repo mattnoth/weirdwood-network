@@ -63,9 +63,16 @@ Entity
 │   ├── Artifact          (Valyrian steel swords, horns, crowns: Ice, Dragonbinder, Dawn)
 │   └── Text              (in-world books, letters, songs: The Jade Compendium, The Rains of Castamere)
 ├── Event
-│   ├── Battle            (single engagement: Red Wedding, Battle of the Blackwater)
+│   ├── Battle            (single combat engagement: Red Wedding, Battle of the Blackwater)
 │   ├── War               (multi-battle conflict: Robert's Rebellion, War of the Five Kings)
-│   └── Tournament        (formal tourney: Tourney at Harrenhal, Hand's Tourney, Ashford Tourney)
+│   ├── Tournament        (formal tourney: Tourney at Harrenhal, Hand's Tourney, Ashford Tourney)
+│   ├── Wedding           (named wedding event: Purple Wedding, Wedding of Joffrey and Margaery)
+│   ├── Feast             (named feast: Feast in honor of King Robert's visit to Winterfell)
+│   ├── Coronation        (formal coronation: Coronation of Robert I, Coronation of Tommen I)
+│   ├── Trial             (judicial trial event: Sandor Clegane's trial by combat, Tyrion's trial)
+│   ├── Assassination     (targeted killing-as-event: Death of Robert I via boar hunt, Assassination of Tywin)
+│   ├── Execution         (named formal execution as event: Execution of Eddard Stark)
+│   └── Conspiracy        (named secret plot as event: Grand Northern Conspiracy, Faith Militant uprising)
 ├── Species               (biological type, NOT individual: dragons-as-species, Others, Children of the Forest)
 ├── Title                 (formal office: Hand of the King, Lord Commander, High Septon)
 └── Meta                  (out-of-universe constructs — chapters, novels, publication metadata)
@@ -98,9 +105,16 @@ Entity
 | `object.text` | Object | In-world book, document, or song | author, subject, location | The Jade Compendium, The Rains of Castamere |
 | `object.food` | Object | In-world food or drink (hospitality/feast/guest-right artifacts) | regions, ingredients, culture | Bowl of brown, lemon cakes, Arbor gold, dreamwine |
 | `object.material` | Object | Raw material, mineral, or substance (NOT a named artifact — that's object.artifact) | composition, regions, uses, rarity | Dragonglass, dragonbone, Valyrian steel (as substance), gold, salt |
-| `event.battle` | Event | Single engagement or plot event | location, date, participants, outcome | Red Wedding, Battle of the Blackwater |
+| `event.battle` | Event | Single combat engagement or plot event involving armed conflict | location, date, participants, outcome | Red Wedding, Battle of the Blackwater |
 | `event.war` | Event | Multi-battle named conflict | belligerents, causes, phases, battles, outcome | Robert's Rebellion, War of the Five Kings |
 | `event.tournament` | Event | Formal tourney or melee with named participants | location, date, host, champions, participants | Tourney at Harrenhal, Hand's Tourney, Ashford Tourney |
+| `event.wedding` | Event | Named wedding event — distinct from `event.battle` for weddings that turn violent (Red Wedding remains `event.battle` because the slaughter dominates its narrative weight; routine but named weddings are `event.wedding`) | location, date, spouses, host, officiant, attendees | Purple Wedding, Wedding of Joffrey and Margaery, Wedding of Sigorn and Alys Karstark, Wedding of Ramsay and "Arya Stark" |
+| `event.feast` | Event | Named feast or banquet — used for plot-significant hospitality events that are not weddings; often the staging ground for political action | location, date, host, attendees, hospitality_status | Feast in honor of King Robert's visit to Winterfell, Welcoming feast at the Twins |
+| `event.coronation` | Event | Formal coronation event | location, date, monarch, officiant, attendees | Coronation of Robert I Baratheon, Coronation of Tommen I, Aegon's coronations |
+| `event.trial` | Event | Judicial trial event — formal proceeding with named accused, judges, and resolution. Includes trial by combat | location, date, accused, judges, champion, outcome | Sandor Clegane's trial by combat, Tyrion's trial in King's Landing, Tyrion's trial at the Eyrie |
+| `event.assassination` | Event | Named targeted killing event — distinct from `KILLS` (the edge between killer and victim); this is the event-hub for multi-participant killings with planning, conspirators, instrument, victim | location, date, victim, agents, conspirators, instrument | Death of Robert I (boar hunt), Assassination of Tywin Lannister, Murder of Jon Arryn |
+| `event.execution` | Event | Named formal execution as event — distinct from the `EXECUTES` edge (executor → victim) for executions whose narrative weight justifies a hub (orderer + executor + witness + place + instrument) | location, date, victim, executor, orderer, instrument, witnesses | Execution of Eddard Stark, Execution of Lord Rickard Karstark |
+| `event.conspiracy` | Event | Named secret plot as event-hub — multi-participant covert scheme treated as a discrete event for traversal (who conspired, what was the target, what was the outcome) | participants, target, period, outcome | Grand Northern Conspiracy, Faith Militant uprising, Queenmaker plot |
 | `species` | Entity | Non-human biological type — sentient species, magical creatures, in-world flora kinds, AND in-world fauna kinds (NOT named individuals — those are characters) | habitat, abilities, known_specimens | Dragons (species), Others, Children of the Forest, Giants, weirwood, ironwood, direwolves, aurochs |
 | `title` | Entity | Formal office or hereditary title | holders, succession, powers, created_by | Hand of the King, Lord Commander, High Septon |
 | `meta.chapter` | Meta | A chapter of a published ASOIAF novel — out-of-universe literary container (NOT an in-world event; the in-world events that occur within the chapter remain their own `event.*` nodes) | book, chapter_number, pov_character, wiki_source | A Game of Thrones-Chapter 1, A Storm of Swords-Chapter 71 |
@@ -212,7 +226,8 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 |-----------|-------------|---------------|-------------|
 | `FIGHTS_IN` | Participates in a battle, war, or tournament as a combatant. | Person → Event (battle/war/tournament) | — |
 | `COMMANDS_IN` | Holds command role in a battle or war (note which side), OR acts as the orderer/instigator of an event where the commander did NOT personally execute the act (e.g., Tywin ordering the Mountain to attack the Riverlands — Tywin is `COMMANDS_IN` the event, the Mountain is `AGENT_IN`). Covers both the military-command and the instigator/orderer roles to avoid proliferating near-synonym types. | Person → Event/War | — |
-| `PART_OF` | Battle or sub-event is a component of a larger war | Battle → War | Conflict, Battles |
+| `PART_OF` | Battle or sub-event is a component of a larger war — event-in-war containment. Coarse-grained; the source is itself an event (typically a battle), and the target is the war it belongs to | Battle → War | Conflict, Battles |
+| `SUB_BEAT_OF` | A finer-grained event-beat is a moment within a larger named event hub. Distinct from `PART_OF` (event-in-war scope): `SUB_BEAT_OF` is beat-in-event scope, used when a chapter-beat mint (e.g., `lord-walder-calls-for-the-bedding`, `the-bedding-call`, `rains-of-castamere-plays`) names a moment INSIDE a parent event (`red-wedding`) rather than the event itself. Enables temporal-granular queries like "what beats happened before the slaughter started" that would be erased if the beat were collapsed into the parent. Sub-beats inherit the parent's participants, location, and any `VIOLATES_GUEST_RIGHT`-class edges via traversal. Do NOT use for surface-form aliases (use `aliases:` array); do NOT use for event-in-war containment (use `PART_OF`). Tier-3. | Beat → Parent event | — |
 | `KILLS` | Directly causes death | Killer → Killed | — |
 | `KILLED_BY` | Reverse of `KILLS` — emitted on victim nodes pointing to killer | Killed → Killer | — |
 | `EXECUTES` | Formal/judicial killing | Executor → Executed | — |
@@ -317,7 +332,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 
 | Edge Type | Description | Directionality | Wiki Source |
 |-----------|-------------|---------------|-------------|
-| `ALIAS_OF` | Known by another name | Alias → True Identity | Alias, Aliases |
+| `ALIAS_OF` | Known by another name. **Substitution test (canonical rule, S86 2026-06-08):** two strings are aliases iff substituting one for the other in any sentence about the entity does NOT change the truth value. "Wedding at the Twins" ↔ "Red Wedding" passes — same event. "Lord Walder calls for the bedding" ↔ "Red Wedding" FAILS — the bedding-call is a moment WITHIN the Red Wedding, not the whole event. Granularity differences are NOT aliases; emit `SUB_BEAT_OF` instead. The dashes-vs-spaces test catches surface variants only, NOT granularity. | Alias → True Identity | Alias, Aliases |
 | `DISGUISED_AS` | Actively pretending to be someone/something else | Person → Disguise Identity | — |
 | `SAME_AS` | Two references that resolve to the same entity (for cross-identity matching) | Symmetric | — |
 | `IMPERSONATES` | Pretending to be a specific other person | Impersonator → Impersonated | — |
@@ -401,6 +416,61 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `GRANTS_SAFE_CONDUCT` | Promised safe passage | Grantor → Recipient | — |
 | `ATTENDS` | Person present at a named event as guest, witness, or audience — not as combatant (`FIGHTS_IN`), commander (`COMMANDS_IN`), or organizer. Use for tourney spectators, wedding guests, feast attendees, court hearings. | Person → Event | — |
 | `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` | Tournament champion crowns a chosen woman with the laurel wreath of Queen of Love and Beauty. Distinct edge because the act carries outsized narrative weight in ASOIAF (Rhaegar/Lyanna at Harrenhal as a war-trigger; Loras/Margaery; etc.) and chains to political consequences. Source = tournament champion; target = recipient. | Champion → Recipient | — |
+
+---
+
+## Node Frontmatter Conventions
+
+> **Status (Session 86, 2026-06-08):** documented. `era:` is forward-only — NOT backfilled retroactively. Existing 7,000+ nodes do not need an `era` field; new mints stamp it at creation.
+
+Every node carries these frontmatter fields. Required unless marked optional.
+
+| Field | Purpose | Example |
+|-------|---------|---------|
+| `name` | Human-readable surface form. Used by display layers (chat UI, agent system prompts). Every node — wiki-derived AND chapter-beat mint — uses `name:` (NOT `title:`). | `"Red Wedding"` |
+| `slug` | Kebab-case join key. Lower-case ASCII, hyphens. The canonical identifier for cross-file references and graph traversal. | `red-wedding` |
+| `type` | Entity type from the hierarchy above. | `event.battle` |
+| `aliases` | Optional. List of surface-form variants that pass the substitution test (see `ALIAS_OF` row). Used by `scripts/event_alias_resolver.py` and downstream resolvers. NOT for sub-beats — those emit `SUB_BEAT_OF` edges. | `["wedding-at-the-twins", "slaughter-at-the-twins"]` |
+| `confidence` | Tier 1-5. | `tier-1` |
+| `wiki_source` | Optional. URL to the source wiki page (if wiki-derived). | `"https://awoiaf.westeros.org/index.php/Red_Wedding"` |
+| `era` | Optional, forward-only. The narrative epoch this entity belongs to. Set on new mints; NOT backfilled. The narrowing function in `scripts/plate4-wiki-cluster.py` weights `era=current-narrative` higher when classifying current-narrative mints, suppressing false-positive matches against pre-series events. | `current-narrative` |
+| `first_available` | Optional. Spoiler gating field — DEFERRED to post-first-release backfill (see Spoiler Gating section below). | `"AGOT Bran II"` |
+
+### `era:` enum values
+
+```
+era: pre-conquest | age-of-heroes | targaryen-conquest | targaryen-rule
+    | dance-of-dragons | roberts-rebellion | current-narrative
+```
+
+- `pre-conquest` — Before Aegon I (pre-1 AC).
+- `age-of-heroes` — Legendary/mythic era (Brandon the Builder, Long Night).
+- `targaryen-conquest` — Aegon's Conquest and Wars of Conquest (1 AC).
+- `targaryen-rule` — Targaryen dynasty post-Conquest, pre-Dance.
+- `dance-of-dragons` — The Dance and immediate aftermath.
+- `roberts-rebellion` — Pre-AGOT Robert's Rebellion era (excluding the rebellion's deep prehistory, which is `targaryen-rule`).
+- `current-narrative` — AGOT-onward main series (the events the books actually cover from the inside).
+
+When in doubt between two values, prefer the one closer to `current-narrative` if the event has direct narrative consequence in the main series; otherwise prefer the earlier era.
+
+---
+
+## Display Names: slug as identifier, name as surface
+
+> **Status (Session 86, 2026-06-08):** policy documented. The graph layer stores both fields; rendering belongs to the consumer. No prompt-time enforcement.
+
+Every node carries `slug:` (kebab-case join key) and `name:` (human-readable surface). Consumers pick whichever serves them:
+
+- **Programmatic queries / edge endpoints / `scripts/graph-query.py`** — use `slug` everywhere. Slugs are the join key; never substitute the name.
+- **Agent system prompts / agent reasoning in prose** — when the node frontmatter is in context, the agent naturally uses `name` in narrative explanations. No special enforcement; the surface follows the surroundings.
+- **Chat UI rendering** — post-process slugs in agent output to human names at render time. The UI does the conversion via the node index; the graph stays slug-only.
+- **JSONL / edge files** — slug always.
+
+The previous "enforceable at the prompt layer" framing was overengineered — there is nothing to enforce. The two-field schema makes the right surface available to every consumer; how they pick is their concern.
+
+### Schema requirement
+
+`name:` is REQUIRED on every node (wiki-derived AND chapter-beat mint). The historical mint schema used `title:` for the human-readable surface; **as of Session 86, chapter-beat mints rename `title:` → `name:`**. The 219 Plate-3 staged mints will be rewritten at Plate 5 merge.
 
 ---
 
@@ -548,7 +618,7 @@ All agents working in this project should:
 >
 > **There are two related vocabularies in this document, and it matters which one you mean.**
 >
-> 1. **Master edge vocabulary** — the union of all subsections under `## Edge Types (Relationship Categories)` above. Currently **~165 distinct edge types** across 15 categories (kinship, political, factional, military, knowledge, emotional/perceptual, spatial, possession, identity, cultural, narrative, prophecy, evidentiary, causal, hospitality, magic-and-supernatural). **Session 83 (2026-06-05)**: added `AGENT_IN` + `VICTIM_IN` (reification role edges for event hubs); vocab 163 → 165. For an authoritative live count, run `scripts/build-edge-type-counts.py` — its `canonical_type_count` is derived from this file. Session 54 (2026-05-15) added `UNCLE_OF`, `NEPHEW_OF`, `KILLED_WITH`, `ATTENDS` after Stage 4 batch-0012 vocab-gap audit. Session 55 first wave (2026-05-16) added `COUSIN_OF`, `MILK_BROTHER_OF`, `NURSED_BY`, `WET_NURSE_OF`, `KNIGHTED_BY`, `BESTOWS_KNIGHTHOOD_ON`, `DEPICTED_IN` after Stage 4 batches 0012-0018 surfaced these recurring patterns. **Session 55 second wave (2026-05-18) — vocab FINAL**: added 17 types (`AFFLICTED_BY`, `DIED_OF`, `COMPANION_OF`, `PARTICIPATES_IN`, `OFFICIATES`, `ATTACKS`, `ASSAULTS`, `COURTS`, `CONTRACTED_WITH`, `PROPOSED_AS_BRIDE`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `PRACTICES`, `PURCHASED_FROM`, `BUILT`, `CAPTAIN_OF`, `CREW_OF`, `REPUTED_AS`) + 2 description mods (`FIGHTS_IN` extended to "battle, war, or tournament as a combatant"; `MANIPULATES` qualifier-mechanism note). After this wave the classifier prompt flips its gap-filing default to FINAL — vocab-gap questions are no longer filed for remaining batches; non-fitting candidates reject as `no-fitting-type-vocab-locked`. **Session 58 — vocab completeness audit (2026-05-19)**: added 10 types (`SPIES_ON`, `INFORMS`, `NAMED_AFTER`, `STEP_PARENT_OF`, `STEP_CHILD_OF`, `IN_LAW_OF`, `RESCUES`, `BANISHES`, `TORTURES`, `CONSPIRES_WITH`) from vocab-completeness audit of 7,398 P1 rows + 4,207 Stage-4 emits + 135 `no-fitting-type` rejections; vocab 149 → 159. **Session 61 — Stage 4 Haiku residual-resolve patterns (2026-05-19)**: added 5 types (`IMPRISONED_AT`, `TRAVELS_WITH`, `PRISONER_EXCHANGE_FOR`, `GUARDS`, `ENCOUNTERS`) from Stage 4 Haiku residual-resolve surfacing recurring patterns that didn't fit existing vocab; vocab 159 → 164. `ENCOUNTERS` introduces the first **validator-enforced verb gate** (classify-prompt Rule 6) — promotes the prompt-text behavioral constraint pattern (precedent: Rule 2 KNOWS-STOP) to schema enforcement. Normalizer alias `ACCOMPANIES` → `TRAVELS_WITH` added the same session. **Session 63 — KNOWS deprecation (2026-05-21)**: removed `KNOWS` from the active vocabulary (vocab 164 → 163) after Stage 4 overnight run showed 82.3% fallback rate; deferred to a future Pass-1-derived chapter co-occurrence pass. Also added partial-coverage scope-note to `ENCOUNTERS` (wiki-prose register captures only staged meetings, not all real ones). Some types (`FEARS`, `MOURNS`, `IMPERSONATES`, `FORESHADOWS`, `DREAMS_OF`, `WARGS_INTO`, `RESURRECTS`, `MADE_OF`, `LOOTED_BY`, `GIFTED_TO`, etc.) are pre-declared for prose-derived passes and currently have zero instances in the graph — that's expected; they're reserved for Stage 4 classification. This vocabulary is the **single source of truth for every emitter** — Python parsers, Pass-1 mechanical extractor, prose-edge-classifier, voice-analyzer, foreshadowing-scanner, every script, every agent.
+> 1. **Master edge vocabulary** — the union of all subsections under `## Edge Types (Relationship Categories)` above. Currently **~166 distinct edge types** across 15 categories (kinship, political, factional, military, knowledge, emotional/perceptual, spatial, possession, identity, cultural, narrative, prophecy, evidentiary, causal, hospitality, magic-and-supernatural). **Session 86 (2026-06-08)**: added `SUB_BEAT_OF` (beat-in-event scope, distinct from `PART_OF`'s event-in-war scope; formalizes the Plate 4 wiki-cluster chapter-beat → parent-event relation); vocab 165 → 166. **Session 83 (2026-06-05)**: added `AGENT_IN` + `VICTIM_IN` (reification role edges for event hubs); vocab 163 → 165. For an authoritative live count, run `scripts/build-edge-type-counts.py` — its `canonical_type_count` is derived from this file. Session 54 (2026-05-15) added `UNCLE_OF`, `NEPHEW_OF`, `KILLED_WITH`, `ATTENDS` after Stage 4 batch-0012 vocab-gap audit. Session 55 first wave (2026-05-16) added `COUSIN_OF`, `MILK_BROTHER_OF`, `NURSED_BY`, `WET_NURSE_OF`, `KNIGHTED_BY`, `BESTOWS_KNIGHTHOOD_ON`, `DEPICTED_IN` after Stage 4 batches 0012-0018 surfaced these recurring patterns. **Session 55 second wave (2026-05-18) — vocab FINAL**: added 17 types (`AFFLICTED_BY`, `DIED_OF`, `COMPANION_OF`, `PARTICIPATES_IN`, `OFFICIATES`, `ATTACKS`, `ASSAULTS`, `COURTS`, `CONTRACTED_WITH`, `PROPOSED_AS_BRIDE`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `PRACTICES`, `PURCHASED_FROM`, `BUILT`, `CAPTAIN_OF`, `CREW_OF`, `REPUTED_AS`) + 2 description mods (`FIGHTS_IN` extended to "battle, war, or tournament as a combatant"; `MANIPULATES` qualifier-mechanism note). After this wave the classifier prompt flips its gap-filing default to FINAL — vocab-gap questions are no longer filed for remaining batches; non-fitting candidates reject as `no-fitting-type-vocab-locked`. **Session 58 — vocab completeness audit (2026-05-19)**: added 10 types (`SPIES_ON`, `INFORMS`, `NAMED_AFTER`, `STEP_PARENT_OF`, `STEP_CHILD_OF`, `IN_LAW_OF`, `RESCUES`, `BANISHES`, `TORTURES`, `CONSPIRES_WITH`) from vocab-completeness audit of 7,398 P1 rows + 4,207 Stage-4 emits + 135 `no-fitting-type` rejections; vocab 149 → 159. **Session 61 — Stage 4 Haiku residual-resolve patterns (2026-05-19)**: added 5 types (`IMPRISONED_AT`, `TRAVELS_WITH`, `PRISONER_EXCHANGE_FOR`, `GUARDS`, `ENCOUNTERS`) from Stage 4 Haiku residual-resolve surfacing recurring patterns that didn't fit existing vocab; vocab 159 → 164. `ENCOUNTERS` introduces the first **validator-enforced verb gate** (classify-prompt Rule 6) — promotes the prompt-text behavioral constraint pattern (precedent: Rule 2 KNOWS-STOP) to schema enforcement. Normalizer alias `ACCOMPANIES` → `TRAVELS_WITH` added the same session. **Session 63 — KNOWS deprecation (2026-05-21)**: removed `KNOWS` from the active vocabulary (vocab 164 → 163) after Stage 4 overnight run showed 82.3% fallback rate; deferred to a future Pass-1-derived chapter co-occurrence pass. Also added partial-coverage scope-note to `ENCOUNTERS` (wiki-prose register captures only staged meetings, not all real ones). Some types (`FEARS`, `MOURNS`, `IMPERSONATES`, `FORESHADOWS`, `DREAMS_OF`, `WARGS_INTO`, `RESURRECTS`, `MADE_OF`, `LOOTED_BY`, `GIFTED_TO`, etc.) are pre-declared for prose-derived passes and currently have zero instances in the graph — that's expected; they're reserved for Stage 4 classification. This vocabulary is the **single source of truth for every emitter** — Python parsers, Pass-1 mechanical extractor, prose-edge-classifier, voice-analyzer, foreshadowing-scanner, every script, every agent.
 > 2. **Wiki infobox subset** — the table below, mapping wiki infobox FIELD names to edge types. Currently **26 distinct edge types**, all of which are also in the master vocabulary. The parser at `scripts/wiki-infobox-parser.py` (`FIELD_EDGE_MAP` dict) implements only this subset, because infobox fields are the only signal it sees. Prose-derived edges are NOT restricted to this subset — they may emit any of the master vocabulary types (including the new Magic & Supernatural subsection added Session 53).
 >
 > **Why locked:** the graph's value comes from being able to traverse `SPOUSE_OF` everywhere consistently. If one source emits `SPOUSE_OF` and another emits `MARRIED_TO`, traversal breaks. The master edge types were chosen deliberately (curated from infobox-field frequencies + narrative/perception/prophecy needs for later passes, with Magic & Supernatural added Session 53 ahead of Stage 4); expanding the set requires the same deliberation — propose via `curation/edge-vocabulary-candidates.md`, get approval, then update this file + parser + classifier prompt.
