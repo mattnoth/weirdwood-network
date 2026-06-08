@@ -9,6 +9,7 @@
 1. `worklog.md` Session 81 entry — current state and verdict.
 2. `working/audits/events-haiku-bulk-2026-05-29/cross-model-audit.md` — full audit report (banner block at top has the fresh-eyes corrections; §6 lists the 5 escalation paths).
 3. `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/step-01-status.md` — chain halt state.
+4. **`working/edge-modeling/post-plate5-backfill-design.md` "Plus — Future passes fold in edge-modeling lessons" section** — added 2026-06-08 (S86). Whichever path you pick here (especially D "tighten Haiku v6" or E "abandon for Dialogue v2.0"), the next prompt design MUST fold in lessons from S82-S86 edge-modeling work: the Plate 1 head rule (semantic agent, never grammatical subject/POV), reification thinking (anchor candidate edges to event hubs where applicable; AGENT_IN/VICTIM_IN/COMMANDS_IN beat scattered binary edges), and the post-S86 vocab additions (SUB_BEAT_OF, AGENT_IN, VICTIM_IN, 7 new event sub-types). Skipping this step repeats the problems Plates 0-2 fixed.
 
 ## Where things stand
 

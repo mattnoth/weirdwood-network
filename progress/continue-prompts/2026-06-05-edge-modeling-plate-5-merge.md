@@ -1,6 +1,6 @@
 # Plate 5 — Gated merge to edges.jsonl + carried-forward cleanups
 
-> **Recommended model:** Sonnet for the deterministic merge + validation. Matt provides before/after sign-off (this is the one irreversible step).
+> **Recommended model:** Opus 4.7 (upgraded from Sonnet 2026-06-08 S86). This is the only irreversible step in the project — stakes warrant the strongest reasoning. The merge involves real judgment calls: 109-entry hub-review-queue triage (which borderline mints to keep vs drop), 55 supersede-candidate decisions (which scattered binaries get `superseded_by` flag), 3 `DUPLICATE_OF` mint↔wiki merges (repoint role edges correctly), conflict resolution if staged event-type retypes touch nodes with other metadata. Plus the new S86 scope (SUB_BEAT_OF formalization + title→name rewrite) added since the prompt was first drafted under Sonnet recommendation. Matt provides before/after sign-off.
 > **Trust worklog.md over this prompt** (CLAUDE.md rule #9).
 > **Context docs:**
 >   - `working/edge-modeling/PLATE5-READINESS.md` — **READ FIRST** — exhaustive inventory of every staged change across all plates with delta math.
