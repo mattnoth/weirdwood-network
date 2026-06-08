@@ -1,0 +1,413 @@
+{"event_key":"joffrey-orders-execution","hub_slug":"joffrey-orders-execution","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T16:59:45.891693+00:00"}
+{"event_key":"arya-kills-the-stableboy-with-needle","hub_slug":"arya-kills-the-stableboy-with-needle","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T16:59:49.885471+00:00"}
+{"event_key":"street-rumors-about-robert-s-death","hub_slug":"street-rumors-about-robert-s-death","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:00:07.253171+00:00"}
+{"event_key":"arya-sees-the-tower-of-the-hand-under-attack","hub_slug":"arya-sees-the-tower-of-the-hand-under-attack","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:00:10.625196+00:00"}
+{"event_key":"the-execution","hub_slug":"the-execution","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:00:17.300960+00:00"}
+{"event_key":"six-wildling-deserters-ambush-bran","hub_slug":"six-wildling-deserters-ambush-bran","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:00:21.185202+00:00"}
+{"event_key":"the-direwolves-howl-from-a-kill","hub_slug":"the-direwolves-howl-from-a-kill","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:00:24.339062+00:00"}
+{"event_key":"shaggydog-attacks-maester-luwin","hub_slug":"shaggydog-attacks-maester-luwin","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:00:34.356766+00:00"}
+{"event_key":"stiv-takes-bran-hostage-with-a-knife-to-his-throat","hub_slug":"stiv-takes-bran-hostage-with-a-knife-to-his-throat","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:00:35.685919+00:00"}
+{"event_key":"robb-returns-and-attacks","hub_slug":"robb-returns-and-attacks","outcome":"mint","n_role_edges":6,"recorded_at":"2026-06-07T17:00:40.313002+00:00"}
+{"event_key":"catelyn-seizes-the-moment-and-arrests-tyrion","hub_slug":"catelyn-seizes-the-moment-and-arrests-tyrion","outcome":"mint","n_role_edges":6,"recorded_at":"2026-06-07T17:00:59.903225+00:00"}
+{"event_key":"lysa-accuses-tyrion-of-poisoning-jon-arryn","hub_slug":"lysa-accuses-tyrion-of-poisoning-jon-arryn","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:01:04.197200+00:00"}
+{"event_key":"bronn-kills-ser-vardis","hub_slug":"bronn-kills-ser-vardis","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:01:11.318620+00:00"}
+{"event_key":"robb-presents-his-battle-plan","hub_slug":"robb-presents-his-battle-plan","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:01:20.551747+00:00"}
+{"event_key":"bran-s-direwolf-kills-the-assassin","hub_slug":"bran-s-direwolf-kills-the-assassin","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:01:29.457986+00:00"}
+{"event_key":"the-battle-rages-through-the-night","hub_slug":"the-battle-rages-through-the-night","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:01:38.941897+00:00"}
+{"event_key":"the-ambush-begins","hub_slug":"the-ambush-begins","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:01:39.048666+00:00"}
+{"event_key":"dawn-breaks-and-the-battle-ends","hub_slug":"dawn-breaks-and-the-battle-ends","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:01:40.242215+00:00"}
+{"event_key":"jaime-s-kills-are-revealed","hub_slug":"jaime-s-kills-are-revealed","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:01:54.285602+00:00"}
+{"event_key":"pre-wedding-dinner-at-the-manse","hub_slug":"pre-wedding-dinner-at-the-manse","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:02:09.206005+00:00"}
+{"event_key":"wedding-ceremony-begins-at-dawn","hub_slug":"wedding-ceremony-begins-at-dawn","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:02:13.618903+00:00"}
+{"event_key":"jaime-lannister-is-captured-and-brought-before-catelyn","hub_slug":"jaime-lannister-is-captured-and-brought-before-catelyn","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:02:14.398800+00:00"}
+{"event_key":"theon-urges-robb-to-kill-jaime","hub_slug":"theon-urges-robb-to-kill-jaime","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:02:20.319496+00:00"}
+{"event_key":"first-death-at-the-wedding","hub_slug":"first-death-at-the-wedding","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:02:27.411475+00:00"}
+{"event_key":"jhogo-captures-the-wineseller","hub_slug":"jhogo-captures-the-wineseller","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:02:38.769642+00:00"}
+{"event_key":"the-wine-merchant-attempts-to-poison-dany","hub_slug":"the-wine-merchant-attempts-to-poison-dany","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:02:41.711824+00:00"}
+{"event_key":"multiple-deaths-at-the-wedding","hub_slug":"multiple-deaths-at-the-wedding","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:02:59.651062+00:00"}
+{"event_key":"dany-rides-through-the-battlefield-aftermath","hub_slug":"dany-rides-through-the-battlefield-aftermath","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:03:01.799362+00:00"}
+{"event_key":"stallion-heart-ceremony","hub_slug":"stallion-heart-ceremony","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:03:03.560690+00:00"}
+{"event_key":"a-boy-is-run-down-and-killed","hub_slug":"a-boy-is-run-down-and-killed","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:03:11.673451+00:00"}
+{"event_key":"bloodriders-attack-mirri","hub_slug":"bloodriders-attack-mirri","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:03:16.798400+00:00"}
+{"event_key":"qotho-kills-quaro","hub_slug":"qotho-kills-quaro","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:03:17.283299+00:00"}
+{"event_key":"rakharo-and-jhogo-kill-haggo","hub_slug":"rakharo-and-jhogo-kill-haggo","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:03:24.516930+00:00"}
+{"event_key":"the-sacked-town-is-observed","hub_slug":"the-sacked-town-is-observed","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:03:25.109241+00:00"}
+{"event_key":"aggo-kills-cohollo","hub_slug":"aggo-kills-cohollo","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:03:30.743888+00:00"}
+{"event_key":"the-stallion-is-brought-in-and-sacrificed","hub_slug":"the-stallion-is-brought-in-and-sacrificed","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:03:33.870175+00:00"}
+{"event_key":"ser-jorah-fights-and-kills-qotho","hub_slug":"ser-jorah-fights-and-kills-qotho","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:03:35.910321+00:00"}
+{"event_key":"stallion-sacrifice","hub_slug":"stallion-sacrifice","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:03:45.891617+00:00"}
+{"event_key":"dany-mercy-kills-drogo-at-dawn","hub_slug":"dany-mercy-kills-drogo-at-dawn","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:04:00.737206+00:00"}
+{"event_key":"gregor-kills-his-horse-and-attacks-loras","hub_slug":"gregor-kills-his-horse-and-attacks-loras","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:04:08.642872+00:00"}
+{"event_key":"ned-kills-lady","hub_slug":"ned-kills-lady","outcome":"mint","n_role_edges":6,"recorded_at":"2026-06-07T17:04:09.221669+00:00"}
+{"event_key":"ned-claims-the-execution","hub_slug":"ned-claims-the-execution","outcome":"mint","n_role_edges":6,"recorded_at":"2026-06-07T17:04:11.299856+00:00"}
+{"event_key":"cersei-maneuvers-for-lady-s-death","hub_slug":"cersei-maneuvers-for-lady-s-death","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:04:23.783548+00:00"}
+{"event_key":"ned-opposes-the-assassination","hub_slug":"ned-opposes-the-assassination","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:04:26.912082+00:00"}
+{"event_key":"ned-warns-jaime-that-killing-him-means-tyrion-dies","hub_slug":"ned-warns-jaime-that-killing-him-means-tyrion-dies","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:04:37.176199+00:00"}
+{"event_key":"ned-questions-whether-robert-could-be-involved-in-the-conspiracy","hub_slug":"ned-questions-whether-robert-could-be-involved-in-the-conspiracy","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:04:38.102582+00:00"}
+{"event_key":"cersei-attacks-ned-s-honor","hub_slug":"cersei-attacks-ned-s-honor","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:04:50.310368+00:00"}
+{"event_key":"cersei-claims-ned-s-men-attacked-first","hub_slug":"cersei-claims-ned-s-men-attacked-first","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:04:52.747457+00:00"}
+{"event_key":"jaime-sheathes-his-sword-but-orders-ned-s-men-killed","hub_slug":"jaime-sheathes-his-sword-but-orders-ned-s-men-killed","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:04:56.945015+00:00"}
+{"event_key":"ned-orders-daenerys-s-assassination-cancelled","hub_slug":"ned-orders-daenerys-s-assassination-cancelled","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:04:58.386296+00:00"}
+{"event_key":"cersei-orders-ned-s-arrest","hub_slug":"cersei-orders-ned-s-arrest","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:05:03.335041+00:00"}
+{"event_key":"jaime-lannister-ambushes-ned-s-party","hub_slug":"jaime-lannister-ambushes-ned-s-party","outcome":"mint","n_role_edges":8,"recorded_at":"2026-06-07T17:05:05.566576+00:00"}
+{"event_key":"ned-orders-janos-slynt-to-arrest-cersei","hub_slug":"ned-orders-janos-slynt-to-arrest-cersei","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:05:23.714976+00:00"}
+{"event_key":"joffrey-screams-for-killing","hub_slug":"joffrey-screams-for-killing","outcome":"mint","n_role_edges":2,"recorded_at":"2026-06-07T17:05:26.235051+00:00"}
+{"event_key":"joffrey-demands-coronation","hub_slug":"joffrey-demands-coronation","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:05:45.058951+00:00"}
+{"event_key":"ned-confronts-varys-about-standing-by-during-the-slaughter","hub_slug":"ned-confronts-varys-about-standing-by-during-the-slaughter","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:05:55.195761+00:00"}
+{"event_key":"gold-cloaks-betray-ned","hub_slug":"gold-cloaks-betray-ned","outcome":"mint","n_role_edges":9,"recorded_at":"2026-06-07T17:06:02.636794+00:00"}
+{"event_key":"littlefinger-s-final-betrayal","hub_slug":"littlefinger-s-final-betrayal","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:06:09.413992+00:00"}
+{"event_key":"varys-confirms-cersei-s-role-in-robert-s-death","hub_slug":"varys-confirms-cersei-s-role-in-robert-s-death","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:06:19.970049+00:00"}
+{"event_key":"robert-s-death-announced","hub_slug":"robert-s-death-announced","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:06:20.290972+00:00"}
+{"event_key":"mormont-delivers-ceremony-speech","hub_slug":"mormont-delivers-ceremony-speech","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:06:38.620563+00:00"}
+{"event_key":"the-watching-others-kill-royce","hub_slug":"the-watching-others-kill-royce","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:06:44.504980+00:00"}
+{"event_key":"gared-attributes-the-deaths-to-cold","hub_slug":"gared-attributes-the-deaths-to-cold","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:06:44.528800+00:00"}
+{"event_key":"wight-attacks","hub_slug":"wight-attacks","outcome":"mint","n_role_edges":5,"recorded_at":"2026-06-07T17:06:45.924758+00:00"}
+{"event_key":"jon-attacks-ser-alliser-thorne","hub_slug":"jon-attacks-ser-alliser-thorne","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:06:48.390626+00:00"}
+{"event_key":"royce-reanimates-and-kills-will","hub_slug":"royce-reanimates-and-kills-will","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:06:57.321706+00:00"}
+{"event_key":"will-discovers-the-bodies-have-vanished","hub_slug":"will-discovers-the-bodies-have-vanished","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:07:01.148939+00:00"}
+{"event_key":"ser-gregor-kills-a-young-knight","hub_slug":"ser-gregor-kills-a-young-knight","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:07:15.182413+00:00"}
+{"event_key":"ghost-attacks-tyrion","hub_slug":"ghost-attacks-tyrion","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:07:17.277475+00:00"}
+{"event_key":"nymeria-attacks-joffrey","hub_slug":"nymeria-attacks-joffrey","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:07:17.505580+00:00"}
+{"event_key":"they-approach-the-battleground-at-the-ford","hub_slug":"they-approach-the-battleground-at-the-ford","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:07:19.116258+00:00"}
+{"event_key":"a-hedge-knight-kills-dondarrion-s-horse","hub_slug":"a-hedge-knight-kills-dondarrion-s-horse","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:07:31.354727+00:00"}
+{"event_key":"arya-attacks-joffrey","hub_slug":"arya-attacks-joffrey","outcome":"borderline-single-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:07:39.723075+00:00"}
+{"event_key":"the-battle","hub_slug":"the-battle","outcome":"mint","n_role_edges":7,"recorded_at":"2026-06-07T17:07:42.795311+00:00"}
+{"event_key":"tyrion-assessed-the-room-during-capture","hub_slug":"tyrion-assessed-the-room-during-capture","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:07:52.700692+00:00"}
+{"event_key":"tyrion-warns-bronn-about-betrayal","hub_slug":"tyrion-warns-bronn-about-betrayal","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:07:55.344549+00:00"}
+{"event_key":"mountain-clansmen-attack","hub_slug":"mountain-clansmen-attack","outcome":"mint","n_role_edges":11,"recorded_at":"2026-06-07T17:07:57.443816+00:00"}
+{"event_key":"robert-s-death-revealed","hub_slug":"robert-s-death-revealed","outcome":"skip-clean-dyad","n_role_edges":0,"recorded_at":"2026-06-07T17:07:59.556086+00:00"}
+{"event_key":"tyrion-fights-and-kills","hub_slug":"tyrion-fights-and-kills","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:08:00.224522+00:00"}
+{"event_key":"tyrion-arms-for-battle","hub_slug":"tyrion-arms-for-battle","outcome":"non-harming-multi-agent","n_role_edges":0,"recorded_at":"2026-06-07T17:08:12.776429+00:00"}
+{"event_key":"encounter-with-the-three-prisoners","hub_slug":"encounter-with-the-three-prisoners","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:08:17.729804+00:00"}
+{"event_key":"messenger-details-the-battle","hub_slug":"messenger-details-the-battle","outcome":"mint","n_role_edges":6,"recorded_at":"2026-06-07T17:08:20.170941+00:00"}
+{"event_key":"praed-s-death-and-burial","hub_slug":"praed-s-death-and-burial","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:08:21.242398+00:00"}
+{"event_key":"tyrion-asks-bronn-to-protect-him-in-battle","hub_slug":"tyrion-asks-bronn-to-protect-him-in-battle","outcome":"mint","n_role_edges":2,"recorded_at":"2026-06-07T17:08:31.480385+00:00"}
+{"event_key":"gendry-captured","hub_slug":"gendry-captured","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:08:35.867790+00:00"}
+{"event_key":"woth-killed","hub_slug":"woth-killed","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:08:47.781739+00:00"}
+{"event_key":"arya-frees-the-prisoners","hub_slug":"arya-frees-the-prisoners","outcome":"mint","n_role_edges":4,"recorded_at":"2026-06-07T17:08:50.727667+00:00"}
+{"event_key":"arya-captured","hub_slug":"arya-captured","outcome":"mint","n_role_edges":3,"recorded_at":"2026-06-07T17:08:51.055565+00:00"}
+{"event_key":"one-armed-woman-dies","hub_slug":"one-armed-woman-dies","outcome":"mint","n_role_edges":1,"recorded_at":"2026-06-07T17:08:56.455236+00:00"}
+{"event_key": "lord-cerwyn-dies", "hub_slug": "lord-cerwyn-dies", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:14:02.918082+00:00"}
+{"event_key": "chiswyck-dies-three-days-later", "hub_slug": "chiswyck-dies-three-days-later", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:14:09.311550+00:00"}
+{"event_key": "daily-interrogations-and-killings", "hub_slug": "daily-interrogations-and-killings", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:14:18.730228+00:00"}
+{"event_key": "murder-of-a-toddler-and-his-mother", "hub_slug": "murder-of-a-toddler-and-his-mother", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:14:21.563520+00:00"}
+{"event_key": "a-captive-girl-is-beheaded", "hub_slug": "a-captive-girl-is-beheaded", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:14:37.810365+00:00"}
+{"event_key": "scalding-broth-assault-on-dungeon-guards", "hub_slug": "scalding-broth-assault-on-dungeon-guards", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:14:42.769860+00:00"}
+{"event_key": "lommy-yields-and-is-killed", "hub_slug": "lommy-yields-and-is-killed", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:14:43.739718+00:00"}
+{"event_key": "ser-amory-receives-the-prisoners", "hub_slug": "ser-amory-receives-the-prisoners", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:14:47.415602+00:00"}
+{"event_key": "guards-killed", "hub_slug": "guards-killed", "outcome": "mint", "n_role_edges": 6, "recorded_at": "2026-06-07T20:14:51.909338+00:00"}
+{"event_key": "shaggydog-attacks-little-walder", "hub_slug": "shaggydog-attacks-little-walder", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:15:10.931853+00:00"}
+{"event_key": "arya-kills-the-postern-guard", "hub_slug": "arya-kills-the-postern-guard", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:15:13.331742+00:00"}
+{"event_key": "ser-amory-lorch-executed", "hub_slug": "ser-amory-lorch-executed", "outcome": "mint", "n_role_edges": 6, "recorded_at": "2026-06-07T20:15:15.116739+00:00"}
+{"event_key": "death-of-ser-stevron-frey-announced", "hub_slug": "death-of-ser-stevron-frey-announced", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:15:22.863509+00:00"}
+{"event_key": "meera-offers-to-kill-reek", "hub_slug": "meera-offers-to-kill-reek", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:15:25.747198+00:00"}
+{"event_key": "prisoners-freed", "hub_slug": "prisoners-freed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:15:28.626584+00:00"}
+{"event_key": "mikken-is-killed", "hub_slug": "mikken-is-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:15:38.339065+00:00"}
+{"event_key": "shaggydog-kills-the-dying-horse", "hub_slug": "shaggydog-kills-the-dying-horse", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:15:45.448813+00:00"}
+{"event_key": "siege-of-storm-s-end-recalled", "hub_slug": "siege-of-storm-s-end-recalled", "outcome": "queue_review", "n_role_edges": 6, "recorded_at": "2026-06-07T20:15:56.590100+00:00"}
+{"event_key": "fool-s-jest-about-kinslayer-kingslayer", "hub_slug": "fool-s-jest-about-kinslayer-kingslayer", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:16:03.891806+00:00"}
+{"event_key": "brienne-asks-to-arm-renly-for-battle", "hub_slug": "brienne-asks-to-arm-renly-for-battle", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:16:09.315572+00:00"}
+{"event_key": "doreah-dies", "hub_slug": "doreah-dies", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:16:12.048395+00:00"}
+{"event_key": "shadow-assassination-of-renly", "hub_slug": "shadow-assassination-of-renly", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:16:17.051251+00:00"}
+{"event_key": "the-undying-attack-dany", "hub_slug": "the-undying-attack-dany", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:16:18.757404+00:00"}
+{"event_key": "first-lannister-attack-on-the-ford-daytime", "hub_slug": "first-lannister-attack-on-the-ford-daytime", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:16:25.935496+00:00"}
+{"event_key": "second-lannister-attack-after-midnight", "hub_slug": "second-lannister-attack-after-midnight", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:16:34.076250+00:00"}
+{"event_key": "deaths-on-the-march", "hub_slug": "deaths-on-the-march", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:16:35.628788+00:00"}
+{"event_key": "pyat-pree-attacks", "hub_slug": "pyat-pree-attacks", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:16:43.024841+00:00"}
+{"event_key": "sorrowful-man-assassination-attempt", "hub_slug": "sorrowful-man-assassination-attempt", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:16:58.423094+00:00"}
+{"event_key": "fleet-forms-battle-lines", "hub_slug": "fleet-forms-battle-lines", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:16:59.609295+00:00"}
+{"event_key": "renly-s-death-reflection", "hub_slug": "renly-s-death-reflection", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:16:59.934645+00:00"}
+{"event_key": "ghost-kills-craster-s-rabbits", "hub_slug": "ghost-kills-craster-s-rabbits", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:17:08.857984+00:00"}
+{"event_key": "qhorin-orders-ygritte-s-execution", "hub_slug": "qhorin-orders-ygritte-s-execution", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:17:23.812286+00:00"}
+{"event_key": "davos-boards-and-captures-white-hart", "hub_slug": "davos-boards-and-captures-white-hart", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:17:26.899401+00:00"}
+{"event_key": "attack-on-the-wildlings", "hub_slug": "attack-on-the-wildlings", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:17:28.811343+00:00"}
+{"event_key": "eagle-attacks-ghost", "hub_slug": "eagle-attacks-ghost", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:17:34.698595+00:00"}
+{"event_key": "cressen-offers-the-poisoned-cup-to-melisandre", "hub_slug": "cressen-offers-the-poisoned-cup-to-melisandre", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:17:55.755483+00:00"}
+{"event_key": "jon-kills-qhorin-halfhand", "hub_slug": "jon-kills-qhorin-halfhand", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:18:03.661696+00:00"}
+{"event_key": "cersei-advises-sansa-that-love-is-poison", "hub_slug": "cersei-advises-sansa-that-love-is-poison", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:18:05.732567+00:00"}
+{"event_key": "qhorin-commands-jon-to-yield-if-captured", "hub_slug": "qhorin-commands-jon-to-yield-if-captured", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:18:10.023949+00:00"}
+{"event_key": "cressen-drinks-the-poisoned-wine-and-dies", "hub_slug": "cressen-drinks-the-poisoned-wine-and-dies", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:18:10.111561+00:00"}
+{"event_key": "ebben-s-death-confirmed", "hub_slug": "ebben-s-death-confirmed", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:18:12.722632+00:00"}
+{"event_key": "cersei-orders-executions", "hub_slug": "cersei-orders-executions", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:18:22.521093+00:00"}
+{"event_key": "ser-meryn-trant-kills-the-defiant-knight", "hub_slug": "ser-meryn-trant-kills-the-defiant-knight", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:18:23.386893+00:00"}
+{"event_key": "theon-kills-todric-with-an-arrow", "hub_slug": "theon-kills-todric-with-an-arrow", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:18:26.564533+00:00"}
+{"event_key": "sounds-of-battle", "hub_slug": "sounds-of-battle", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:18:37.881580+00:00"}
+{"event_key": "aeron-damphair-demands-benfred-s-death", "hub_slug": "aeron-damphair-demands-benfred-s-death", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:18:37.995918+00:00"}
+{"event_key": "joffrey-sets-sansa-aside-and-agrees-to-wed-margaery", "hub_slug": "joffrey-sets-sansa-aside-and-agrees-to-wed-margaery", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:18:49.011449+00:00"}
+{"event_key": "theon-surveys-the-battlefield-aftermath", "hub_slug": "theon-surveys-the-battlefield-aftermath", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:18:54.723993+00:00"}
+{"event_key": "theon-draws-parallel-to-his-own-hostage-taking", "hub_slug": "theon-draws-parallel-to-his-own-hostage-taking", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:18:59.272627+00:00"}
+{"event_key": "theon-arms-for-battle", "hub_slug": "theon-arms-for-battle", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:19:06.485770+00:00"}
+{"event_key": "theon-threatens-systematic-executions", "hub_slug": "theon-threatens-systematic-executions", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:19:17.776269+00:00"}
+{"event_key": "trail-followed-north-northwest", "hub_slug": "trail-followed-north-northwest", "outcome": "mint", "n_role_edges": 8, "recorded_at": "2026-06-07T20:19:20.392979+00:00"}
+{"event_key": "bolton-forces-attack", "hub_slug": "bolton-forces-attack", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:19:24.876571+00:00"}
+{"event_key": "ser-rodrik-offers-himself-as-hostage", "hub_slug": "ser-rodrik-offers-himself-as-hostage", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:19:47.976670+00:00"}
+{"event_key": "sack-of-winterfell", "hub_slug": "sack-of-winterfell", "outcome": "reuse", "n_role_edges": 11, "recorded_at": "2026-06-07T20:20:02.049419+00:00"}
+{"event_key": "tyrion-confronts-slynt-about-ned-stark-s-execution", "hub_slug": "tyrion-confronts-slynt-about-ned-stark-s-execution", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:20:02.802473+00:00"}
+{"event_key": "tyrion-confirms-cersei-ordered-the-brothel-killing", "hub_slug": "tyrion-confirms-cersei-ordered-the-brothel-killing", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:20:10.389587+00:00"}
+{"event_key": "tyrion-confronts-pycelle-about-betraying-his-letter-to-cersei", "hub_slug": "tyrion-confronts-pycelle-about-betraying-his-letter-to-cersei", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:20:23.386673+00:00"}
+{"event_key": "pycelle-arrested-and-thrown-in-the-black-cells", "hub_slug": "pycelle-arrested-and-thrown-in-the-black-cells", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:20:27.913861+00:00"}
+{"event_key": "tyrion-probes-about-the-brothel-killing", "hub_slug": "tyrion-probes-about-the-brothel-killing", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:20:29.911462+00:00"}
+{"event_key": "aron-santagar-killed", "hub_slug": "aron-santagar-killed", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:20:47.464238+00:00"}
+{"event_key": "redwyne-hostage-decision", "hub_slug": "redwyne-hostage-decision", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:20:53.438708+00:00"}
+{"event_key": "kingsguard-investiture-ceremony", "hub_slug": "kingsguard-investiture-ceremony", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:20:55.824741+00:00"}
+{"event_key": "the-antler-men-conspiracy", "hub_slug": "the-antler-men-conspiracy", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:21:06.759912+00:00"}
+{"event_key": "tyrion-assesses-the-battle-situation", "hub_slug": "tyrion-assesses-the-battle-situation", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:17.416636+00:00"}
+{"event_key": "tyrion-kills-an-attacker-at-his-horse", "hub_slug": "tyrion-kills-an-attacker-at-his-horse", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:19.684260+00:00"}
+{"event_key": "joffrey-s-role-in-battle-debated", "hub_slug": "joffrey-s-role-in-battle-debated", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:22.658269+00:00"}
+{"event_key": "cersei-reacts-to-the-stark-boys-deaths", "hub_slug": "cersei-reacts-to-the-stark-boys-deaths", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:21:23.212674+00:00"}
+{"event_key": "wedge-advances-along-the-walls", "hub_slug": "wedge-advances-along-the-walls", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:28.247201+00:00"}
+{"event_key": "tyrion-kills-his-injured-horse", "hub_slug": "tyrion-kills-his-injured-horse", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:32.600018+00:00"}
+{"event_key": "a-knight-attacks-tyrion-s-shield", "hub_slug": "a-knight-attacks-tyrion-s-shield", "outcome": "mint", "n_role_edges": 1, "recorded_at": "2026-06-07T20:21:35.463535+00:00"}
+{"event_key": "celtigar-spearman-kills-ser-balon-s-horse", "hub_slug": "celtigar-spearman-kills-ser-balon-s-horse", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:43.660503+00:00"}
+{"event_key": "ser-mandon-prepares-to-kill-tyrion", "hub_slug": "ser-mandon-prepares-to-kill-tyrion", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:46.602530+00:00"}
+{"event_key": "tyrion-reasons-the-battle-was-won", "hub_slug": "tyrion-reasons-the-battle-was-won", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:21:58.691220+00:00"}
+{"event_key": "tyrion-processes-the-assassination-attempt", "hub_slug": "tyrion-processes-the-assassination-attempt", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:21:58.792561+00:00"}
+{"event_key": "battlefield-delirium-dream", "hub_slug": "battlefield-delirium-dream", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:22:00.566555+00:00"}
+{"event_key": "lem-recaptures-arya", "hub_slug": "lem-recaptures-arya", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:22:01.188355+00:00"}
+{"event_key": "guard-killed-at-postern-gate", "hub_slug": "guard-killed-at-postern-gate", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:22:06.280261+00:00"}
+{"event_key": "kill-list-recitation-before-sleep", "hub_slug": "kill-list-recitation-before-sleep", "outcome": "mint", "n_role_edges": 7, "recorded_at": "2026-06-07T20:22:13.629502+00:00"}
+{"event_key": "karstark-men-hunting-the-kingslayer", "hub_slug": "karstark-men-hunting-the-kingslayer", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:22:25.679023+00:00"}
+{"event_key": "thoros-at-the-siege-of-pyke", "hub_slug": "thoros-at-the-siege-of-pyke", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:22:26.076747+00:00"}
+{"event_key": "lem-disputes-beric-s-death", "hub_slug": "lem-disputes-beric-s-death", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:22:38.828396+00:00"}
+{"event_key": "arya-accuses-the-hound-of-murdering-mycah", "hub_slug": "arya-accuses-the-hound-of-murdering-mycah", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:22:39.720657+00:00"}
+{"event_key": "arya-gives-water-to-the-prisoners", "hub_slug": "arya-gives-water-to-the-prisoners", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:22:41.804805+00:00"}
+{"event_key": "arya-questions-the-prisoners", "hub_slug": "arya-questions-the-prisoners", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:22:54.409808+00:00"}
+{"event_key": "anguy-mercy-kills-the-prisoners", "hub_slug": "anguy-mercy-kills-the-prisoners", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:22:54.684718+00:00"}
+{"event_key": "kyle-is-killed", "hub_slug": "kyle-is-killed", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:22:57.825949+00:00"}
+{"event_key": "lord-beric-kills-a-dothraki-with-flaming-sword", "hub_slug": "lord-beric-kills-a-dothraki-with-flaming-sword", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:23:00.167023+00:00"}
+{"event_key": "beric-killed", "hub_slug": "beric-killed", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:23:02.295536+00:00"}
+{"event_key": "anguy-kills-the-rooftop-sentinel", "hub_slug": "anguy-kills-the-rooftop-sentinel", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:23:15.954950+00:00"}
+{"event_key": "kyle-and-notch-kill-the-door-guards", "hub_slug": "kyle-and-notch-kill-the-door-guards", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:23:19.142425+00:00"}
+{"event_key": "thoros-signals-full-attack", "hub_slug": "thoros-signals-full-attack", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:23:19.756090+00:00"}
+{"event_key": "sandor-clegane-captures-arya", "hub_slug": "sandor-clegane-captures-arya", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:23:21.291285+00:00"}
+{"event_key": "sandor-kills-polliver", "hub_slug": "sandor-kills-polliver", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:23:44.177921+00:00"}
+{"event_key": "the-hound-guesses-arya-wants-to-kill-sansa", "hub_slug": "the-hound-guesses-arya-wants-to-kill-sansa", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:23:46.438735+00:00"}
+{"event_key": "the-camp-becomes-a-battlefield", "hub_slug": "the-camp-becomes-a-battlefield", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:23:47.205845+00:00"}
+{"event_key": "mercy-killing", "hub_slug": "mercy-killing", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:23:48.260303+00:00"}
+{"event_key": "three-frey-riders-break-from-the-column-to-attack", "hub_slug": "three-frey-riders-break-from-the-column-to-attack", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:23:56.739723+00:00"}
+{"event_key": "arya-kills-the-tickler", "hub_slug": "arya-kills-the-tickler", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:24:09.391684+00:00"}
+{"event_key": "prisoners-brought-before-robb", "hub_slug": "prisoners-brought-before-robb", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:24:16.445633+00:00"}
+{"event_key": "three-squires-attack-the-crannogman", "hub_slug": "three-squires-attack-the-crannogman", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:24:25.870140+00:00"}
+{"event_key": "robb-sentences-karstark-to-death", "hub_slug": "robb-sentences-karstark-to-death", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:24:41.082435+00:00"}
+{"event_key": "dawn-execution-in-the-godswood", "hub_slug": "dawn-execution-in-the-godswood", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:24:44.971994+00:00"}
+{"event_key": "grey-wind-attacks", "hub_slug": "grey-wind-attacks", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:24:45.198288+00:00"}
+{"event_key": "catelyn-secures-guest-right", "hub_slug": "catelyn-secures-guest-right", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:24:51.018548+00:00"}
+{"event_key": "the-crannogman-spots-his-attackers-masters", "hub_slug": "the-crannogman-spots-his-attackers-masters", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:25:02.375472+00:00"}
+{"event_key": "robin-flint-is-killed", "hub_slug": "robin-flint-is-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:25:10.039666+00:00"}
+{"event_key": "the-bedding-ceremony-begins", "hub_slug": "the-bedding-ceremony-begins", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:25:21.909285+00:00"}
+{"event_key": "lord-walder-calls-for-the-bedding", "hub_slug": "lord-walder-calls-for-the-bedding", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:25:31.725522+00:00"}
+{"event_key": "ser-wendel-manderly-is-killed", "hub_slug": "ser-wendel-manderly-is-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:25:33.141411+00:00"}
+{"event_key": "the-wedding-feast-proceeds", "hub_slug": "the-wedding-feast-proceeds", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:25:33.852510+00:00"}
+{"event_key": "crossbows-kill-more-northmen", "hub_slug": "crossbows-kill-more-northmen", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:25:34.211347+00:00"}
+{"event_key": "ser-ryman-kills-dacey-mormont", "hub_slug": "ser-ryman-kills-dacey-mormont", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:25:46.436872+00:00"}
+{"event_key": "catelyn-is-killed", "hub_slug": "catelyn-is-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:25:57.239652+00:00"}
+{"event_key": "robb-is-killed", "hub_slug": "robb-is-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:25:58.801983+00:00"}
+{"event_key": "catelyn-kills-jinglebell", "hub_slug": "catelyn-kills-jinglebell", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:26:14.043125+00:00"}
+{"event_key": "old-grazdan-killed", "hub_slug": "old-grazdan-killed", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:26:16.317872+00:00"}
+{"event_key": "catelyn-takes-jinglebell-hostage", "hub_slug": "catelyn-takes-jinglebell-hostage", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:26:18.609867+00:00"}
+{"event_key": "mero-attacks-dany", "hub_slug": "mero-attacks-dany", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:26:24.675989+00:00"}
+{"event_key": "davos-contemplates-death", "hub_slug": "davos-contemplates-death", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:26:27.432720+00:00"}
+{"event_key": "waiting-during-the-battle", "hub_slug": "waiting-during-the-battle", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:26:32.883623+00:00"}
+{"event_key": "night-attack-planned", "hub_slug": "night-attack-planned", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:26:39.599625+00:00"}
+{"event_key": "arstan-kills-mero", "hub_slug": "arstan-kills-mero", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:26:39.763363+00:00"}
+{"event_key": "ser-axell-and-queen-selyse-attribute-the-deaths-to-r-hllor", "hub_slug": "ser-axell-and-queen-selyse-attribute-the-deaths-to-r-hllor", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:26:55.609838+00:00"}
+{"event_key": "davos-declares-intent-to-kill-melisandre", "hub_slug": "davos-declares-intent-to-kill-melisandre", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:26:59.366534+00:00"}
+{"event_key": "ser-axell-florent-arrests-davos", "hub_slug": "ser-axell-florent-arrests-davos", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:27:00.920055+00:00"}
+{"event_key": "the-queen-s-faction-urges-sacrifice-of-edric-storm", "hub_slug": "the-queen-s-faction-urges-sacrifice-of-edric-storm", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:27:11.231218+00:00"}
+{"event_key": "nightfire-prayer-ceremony", "hub_slug": "nightfire-prayer-ceremony", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:27:16.659185+00:00"}
+{"event_key": "brienne-arrested", "hub_slug": "brienne-arrested", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:27:32.041072+00:00"}
+{"event_key": "bear-killed-by-crossbowmen", "hub_slug": "bear-killed-by-crossbowmen", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:27:37.725194+00:00"}
+{"event_key": "bowman-ambush", "hub_slug": "bowman-ambush", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:27:44.231679+00:00"}
+{"event_key": "jaime-refuses-to-kill-tyrion", "hub_slug": "jaime-refuses-to-kill-tyrion", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:27:58.092262+00:00"}
+{"event_key": "daario-offers-to-kill-jorah", "hub_slug": "daario-offers-to-kill-jorah", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:28:00.306624+00:00"}
+{"event_key": "jaime-questions-the-kingsguard-about-joffrey-s-death", "hub_slug": "jaime-questions-the-kingsguard-about-joffrey-s-death", "outcome": "mint", "n_role_edges": 6, "recorded_at": "2026-06-07T20:28:11.940586+00:00"}
+{"event_key": "styr-orders-jon-to-kill-the-old-man", "hub_slug": "styr-orders-jon-to-kill-the-old-man", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:28:17.283954+00:00"}
+{"event_key": "merrett-attempts-to-defend-his-innocence-in-the-red-wedding", "hub_slug": "merrett-attempts-to-defend-his-innocence-in-the-red-wedding", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:28:34.329488+00:00"}
+{"event_key": "day-passes-without-attack", "hub_slug": "day-passes-without-attack", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:28:36.507205+00:00"}
+{"event_key": "jon-refuses-to-kill", "hub_slug": "jon-refuses-to-kill", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:28:41.066338+00:00"}
+{"event_key": "orell-s-eagle-attacks-jon", "hub_slug": "orell-s-eagle-attacks-jon", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:28:41.287234+00:00"}
+{"event_key": "ygritte-kills-the-old-man", "hub_slug": "ygritte-kills-the-old-man", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:28:45.043815+00:00"}
+{"event_key": "night-attack-begins", "hub_slug": "night-attack-begins", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:29:01.977120+00:00"}
+{"event_key": "kegs-blows-warhorn-for-battle", "hub_slug": "kegs-blows-warhorn-for-battle", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:29:05.108395+00:00"}
+{"event_key": "lightning-strikes-the-tower-direwolf-attacks", "hub_slug": "lightning-strikes-the-tower-direwolf-attacks", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:29:09.981274+00:00"}
+{"event_key": "deaf-dick-follard-killed", "hub_slug": "deaf-dick-follard-killed", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:29:23.621467+00:00"}
+{"event_key": "night-battle-atop-the-wall", "hub_slug": "night-battle-atop-the-wall", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:29:23.814782+00:00"}
+{"event_key": "wildlings-attack-the-gate", "hub_slug": "wildlings-attack-the-gate", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:29:26.611651+00:00"}
+{"event_key": "mammoth-attacks-gate-below", "hub_slug": "mammoth-attacks-gate-below", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:29:35.642806+00:00"}
+{"event_key": "the-other-kills-small-paul", "hub_slug": "the-other-kills-small-paul", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:29:46.928010+00:00"}
+{"event_key": "jon-overhears-the-conspiracy", "hub_slug": "jon-overhears-the-conspiracy", "outcome": "mint", "n_role_edges": 6, "recorded_at": "2026-06-07T20:29:48.638040+00:00"}
+{"event_key": "mormont-s-battle-plan", "hub_slug": "mormont-s-battle-plan", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:29:49.948097+00:00"}
+{"event_key": "chett-goes-to-kill-sam-anyway", "hub_slug": "chett-goes-to-kill-sam-anyway", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:04.009406+00:00"}
+{"event_key": "mutiny-plan-reviewed", "hub_slug": "mutiny-plan-reviewed", "outcome": "mint", "n_role_edges": 10, "recorded_at": "2026-06-07T20:30:13.556148+00:00"}
+{"event_key": "ollo-stabs-mormont", "hub_slug": "ollo-stabs-mormont", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:15.796581+00:00"}
+{"event_key": "sam-kills-the-other-with-dragonglass", "hub_slug": "sam-kills-the-other-with-dragonglass", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:22.203698+00:00"}
+{"event_key": "dirk-murders-craster", "hub_slug": "dirk-murders-craster", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:28.826672+00:00"}
+{"event_key": "bannen-dies", "hub_slug": "bannen-dies", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:33.569970+00:00"}
+{"event_key": "craster-attacks", "hub_slug": "craster-attacks", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:34.401970+00:00"}
+{"event_key": "sam-stabs-paul-with-dragonglass", "hub_slug": "sam-stabs-paul-with-dragonglass", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:40.421783+00:00"}
+{"event_key": "sam-kills-the-wight-with-fire", "hub_slug": "sam-kills-the-wight-with-fire", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:48.388489+00:00"}
+{"event_key": "mormont-dies", "hub_slug": "mormont-dies", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:53.135660+00:00"}
+{"event_key": "ravens-attack-the-wights", "hub_slug": "ravens-attack-the-wights", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:30:58.045530+00:00"}
+{"event_key": "joffrey-calls-for-the-bedding", "hub_slug": "joffrey-calls-for-the-bedding", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:30:59.598176+00:00"}
+{"event_key": "sansa-panics-and-begs-them-not-to-cancel-the-wedding", "hub_slug": "sansa-panics-and-begs-them-not-to-cancel-the-wedding", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:31:08.643786+00:00"}
+{"event_key": "wedding-feast-begins", "hub_slug": "wedding-feast-begins", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:31:17.706310+00:00"}
+{"event_key": "they-depart-for-the-wedding", "hub_slug": "they-depart-for-the-wedding", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:31:18.608786+00:00"}
+{"event_key": "littlefinger-orders-dontos-killed", "hub_slug": "littlefinger-orders-dontos-killed", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:31:22.485580+00:00"}
+{"event_key": "wedding-ceremony", "hub_slug": "wedding-ceremony", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:31:29.106036+00:00"}
+{"event_key": "wedding-feast-and-bedding", "hub_slug": "wedding-feast-and-bedding", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:31:33.316549+00:00"}
+{"event_key": "tyrion-orders-symon-s-assassination", "hub_slug": "tyrion-orders-symon-s-assassination", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:31:37.120201+00:00"}
+{"event_key": "joffrey-s-wedding-feast-planned", "hub_slug": "joffrey-s-wedding-feast-planned", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:31:43.558880+00:00"}
+{"event_key": "wedding-ceremony-at-the-great-sept-of-baelor", "hub_slug": "wedding-ceremony-at-the-great-sept-of-baelor", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:31:53.044963+00:00"}
+{"event_key": "tyrell-plot-revealed", "hub_slug": "tyrell-plot-revealed", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:31:56.748592+00:00"}
+{"event_key": "tyrion-resolves-to-wed-shae-to-ser-tallad", "hub_slug": "tyrion-resolves-to-wed-shae-to-ser-tallad", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:32:00.581841+00:00"}
+{"event_key": "gregor-kills-a-stableboy", "hub_slug": "gregor-kills-a-stableboy", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:32:07.621168+00:00"}
+{"event_key": "gregor-confesses-and-kills-oberyn", "hub_slug": "gregor-confesses-and-kills-oberyn", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:32:22.299398+00:00"}
+{"event_key": "tyrion-prepares-for-death", "hub_slug": "tyrion-prepares-for-death", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:32:26.021340+00:00"}
+{"event_key": "joffrey-dies", "hub_slug": "joffrey-dies", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:32:35.893956+00:00"}
+{"event_key": "tyrion-declares-his-innocence-and-demands-trial-by-battle", "hub_slug": "tyrion-declares-his-innocence-and-demands-trial-by-battle", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:32:43.488314+00:00"}
+{"event_key": "the-priest-tests-arya-s-fear-of-death", "hub_slug": "the-priest-tests-arya-s-fear-of-death", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:32:54.822824+00:00"}
+{"event_key": "red-wedding-revealed", "hub_slug": "red-wedding-revealed", "outcome": "mint", "n_role_edges": 9, "recorded_at": "2026-06-07T20:32:59.337699+00:00"}
+{"event_key": "tywin-dies", "hub_slug": "tywin-dies", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:06.299783+00:00"}
+{"event_key": "shagwell-kills-dick-crabb", "hub_slug": "shagwell-kills-dick-crabb", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:11.864656+00:00"}
+{"event_key": "tyrion-falsely-confesses-to-joffrey-s-murder", "hub_slug": "tyrion-falsely-confesses-to-joffrey-s-murder", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:14.073459+00:00"}
+{"event_key": "the-kindly-man-explains-the-nature-of-death-and-the-candles", "hub_slug": "the-kindly-man-explains-the-nature-of-death-and-the-candles", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:19.357880+00:00"}
+{"event_key": "septon-bennet-s-death", "hub_slug": "septon-bennet-s-death", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:25.219068+00:00"}
+{"event_key": "biter-attacks-brienne", "hub_slug": "biter-attacks-brienne", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:26.455308+00:00"}
+{"event_key": "cat-kills-dareon", "hub_slug": "cat-kills-dareon", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:29.288439+00:00"}
+{"event_key": "brother-clement-s-death", "hub_slug": "brother-clement-s-death", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:32.280274+00:00"}
+{"event_key": "brienne-fights-and-kills-the-man-in-the-hound-s-helm", "hub_slug": "brienne-fights-and-kills-the-man-in-the-hound-s-helm", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:33.385282+00:00"}
+{"event_key": "the-waif-teaches-cat-about-poisons", "hub_slug": "the-waif-teaches-cat-about-poisons", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:52.218830+00:00"}
+{"event_key": "cersei-orders-the-sleeping-guards-executed", "hub_slug": "cersei-orders-the-sleeping-guards-executed", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:33:55.963587+00:00"}
+{"event_key": "cersei-is-dressed-for-the-wedding", "hub_slug": "cersei-is-dressed-for-the-wedding", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:33:57.502505+00:00"}
+{"event_key": "wedding-ceremony-in-the-royal-sept", "hub_slug": "wedding-ceremony-in-the-royal-sept", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:34:16.322847+00:00"}
+{"event_key": "brienne-invokes-guest-right", "hub_slug": "brienne-invokes-guest-right", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:34:26.035850+00:00"}
+{"event_key": "cersei-orders-osney-to-kill-jon-snow", "hub_slug": "cersei-orders-osney-to-kill-jon-snow", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:34:33.307585+00:00"}
+{"event_key": "post-ceremony-congratulations", "hub_slug": "post-ceremony-congratulations", "outcome": "mint", "n_role_edges": 8, "recorded_at": "2026-06-07T20:34:36.363226+00:00"}
+{"event_key": "davos-seaworth-captured", "hub_slug": "davos-seaworth-captured", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:34:37.596746+00:00"}
+{"event_key": "wedding-feast", "hub_slug": "wedding-feast", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:34:43.684152+00:00"}
+{"event_key": "shagwell-attacks", "hub_slug": "shagwell-attacks", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:34:52.899896+00:00"}
+{"event_key": "cersei-plots-the-discovery", "hub_slug": "cersei-plots-the-discovery", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:35:02.649004+00:00"}
+{"event_key": "cersei-confronts-and-arrests-the-blue-bard", "hub_slug": "cersei-confronts-and-arrests-the-blue-bard", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:35:07.967939+00:00"}
+{"event_key": "taena-recounts-renly-s-wedding-night", "hub_slug": "taena-recounts-renly-s-wedding-night", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:35:11.133773+00:00"}
+{"event_key": "cersei-plots-against-margaery", "hub_slug": "cersei-plots-against-margaery", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:35:14.061956+00:00"}
+{"event_key": "cersei-is-stripped-and-imprisoned", "hub_slug": "cersei-is-stripped-and-imprisoned", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:35:23.574788+00:00"}
+{"event_key": "cersei-steers-margaery-toward-trial-by-battle", "hub_slug": "cersei-steers-margaery-toward-trial-by-battle", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:35:30.025064+00:00"}
+{"event_key": "all-accused-arrested-by-sundown", "hub_slug": "all-accused-arrested-by-sundown", "outcome": "mint", "n_role_edges": 12, "recorded_at": "2026-06-07T20:35:33.713077+00:00"}
+{"event_key": "cersei-is-captured-in-the-sept", "hub_slug": "cersei-is-captured-in-the-sept", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:35:35.153954+00:00"}
+{"event_key": "cersei-fills-in-the-arrest-warrants", "hub_slug": "cersei-fills-in-the-arrest-warrants", "outcome": "mint", "n_role_edges": 12, "recorded_at": "2026-06-07T20:35:37.309497+00:00"}
+{"event_key": "jaime-lies-about-cleos-s-death", "hub_slug": "jaime-lies-about-cleos-s-death", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:35:44.988848+00:00"}
+{"event_key": "wolf-attack-on-outrider-s-horse", "hub_slug": "wolf-attack-on-outrider-s-horse", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:35:47.938693+00:00"}
+{"event_key": "lord-nestor-and-the-knights-call-for-marillion-s-death", "hub_slug": "lord-nestor-and-the-knights-call-for-marillion-s-death", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:36:08.796634+00:00"}
+{"event_key": "jaime-orders-siege-equipment-and-gallows-burned", "hub_slug": "jaime-orders-siege-equipment-and-gallows-burned", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:36:09.794359+00:00"}
+{"event_key": "pate-s-death", "hub_slug": "pate-s-death", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:36:20.262766+00:00"}
+{"event_key": "maester-caleotte-checks-doran-s-hand-for-poison", "hub_slug": "maester-caleotte-checks-doran-s-hand-for-poison", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:36:24.739371+00:00"}
+{"event_key": "jaime-ends-the-council-and-announces-attack-at-first-light", "hub_slug": "jaime-ends-the-council-and-announces-attack-at-first-light", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:36:25.439138+00:00"}
+{"event_key": "jaime-demands-the-red-wedding-captives", "hub_slug": "jaime-demands-the-red-wedding-captives", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:36:40.034647+00:00"}
+{"event_key": "doran-orders-arrest-of-the-sand-snakes", "hub_slug": "doran-orders-arrest-of-the-sand-snakes", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:36:42.147714+00:00"}
+{"event_key": "arianne-and-doran-argue-about-the-plot-s-consequences", "hub_slug": "arianne-and-doran-argue-about-the-plot-s-consequences", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:36:48.982556+00:00"}
+{"event_key": "areo-hotah-springs-the-ambush", "hub_slug": "areo-hotah-springs-the-ambush", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:36:56.662017+00:00"}
+{"event_key": "arianne-collapses-and-is-captured", "hub_slug": "arianne-collapses-and-is-captured", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:37:02.641184+00:00"}
+{"event_key": "victarion-admits-euron-s-role-in-his-wife-s-death", "hub_slug": "victarion-admits-euron-s-role-in-his-wife-s-death", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:37:03.980822+00:00"}
+{"event_key": "victarion-slays-multiple-defenders", "hub_slug": "victarion-slays-multiple-defenders", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:37:09.713205+00:00"}
+{"event_key": "ser-arys-is-killed", "hub_slug": "ser-arys-is-killed", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:37:15.971240+00:00"}
+{"event_key": "battle-concluded", "hub_slug": "battle-concluded", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:37:28.222112+00:00"}
+{"event_key": "post-battle-orders", "hub_slug": "post-battle-orders", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:37:45.055037+00:00"}
+{"event_key": "sea-battle-at-the-mouth-of-the-mander", "hub_slug": "sea-battle-at-the-mouth-of-the-mander", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:37:47.035531+00:00"}
+{"event_key": "yellow-dick-found-murdered", "hub_slug": "yellow-dick-found-murdered", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:37:47.858472+00:00"}
+{"event_key": "wight-ambush", "hub_slug": "wight-ambush", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:37:57.027536+00:00"}
+{"event_key": "final-vision-human-sacrifice", "hub_slug": "final-vision-human-sacrifice", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:38:09.098383+00:00"}
+{"event_key": "dany-invokes-guest-right-and-expels-xaro", "hub_slug": "dany-invokes-guest-right-and-expels-xaro", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:13.577623+00:00"}
+{"event_key": "cersei-denies-murder-charges", "hub_slug": "cersei-denies-murder-charges", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:23.871912+00:00"}
+{"event_key": "hostage-decree", "hub_slug": "hostage-decree", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:29.276194+00:00"}
+{"event_key": "reznak-and-skahaz-advise-on-the-murders", "hub_slug": "reznak-and-skahaz-advise-on-the-murders", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:38:30.282591+00:00"}
+{"event_key": "wedding-ceremony-at-the-temple-of-the-graces", "hub_slug": "wedding-ceremony-at-the-temple-of-the-graces", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:44.826260+00:00"}
+{"event_key": "dany-dresses-in-her-tokar-with-baby-pearls-for-the-wedding", "hub_slug": "dany-dresses-in-her-tokar-with-baby-pearls-for-the-wedding", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:46.999772+00:00"}
+{"event_key": "wedding-morning-daario-leaves-angrily", "hub_slug": "wedding-morning-daario-leaves-angrily", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:38:47.009706+00:00"}
+{"event_key": "spotted-cat-kills-his-opponent", "hub_slug": "spotted-cat-kills-his-opponent", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:47.663857+00:00"}
+{"event_key": "khrazz-kills-the-summer-islander", "hub_slug": "khrazz-kills-the-summer-islander", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:50.098328+00:00"}
+{"event_key": "dany-surveys-the-siege-from-the-terrace", "hub_slug": "dany-surveys-the-siege-from-the-terrace", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:38:51.021844+00:00"}
+{"event_key": "drogon-kills-the-spearman", "hub_slug": "drogon-kills-the-spearman", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:39:13.480216+00:00"}
+{"event_key": "drogon-kills-the-boar-with-black-fire", "hub_slug": "drogon-kills-the-boar-with-black-fire", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:39:18.112271+00:00"}
+{"event_key": "barsena-is-gored-and-killed", "hub_slug": "barsena-is-gored-and-killed", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:39:21.348651+00:00"}
+{"event_key": "mock-battle", "hub_slug": "mock-battle", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:39:21.906456+00:00"}
+{"event_key": "unnamed-spearman-attacks-drogon", "hub_slug": "unnamed-spearman-attacks-drogon", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:39:25.642113+00:00"}
+{"event_key": "drogon-kills-a-horse", "hub_slug": "drogon-kills-a-horse", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:39:36.941648+00:00"}
+{"event_key": "hizdahr-orders-drogon-killed", "hub_slug": "hizdahr-orders-drogon-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:39:41.927368+00:00"}
+{"event_key": "lord-wyman-orders-execution", "hub_slug": "lord-wyman-orders-execution", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:39:49.180964+00:00"}
+{"event_key": "lord-wyman-orders-arrest", "hub_slug": "lord-wyman-orders-arrest", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:39:52.645891+00:00"}
+{"event_key": "davos-captured-in-sisterton", "hub_slug": "davos-captured-in-sisterton", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:40:07.733117+00:00"}
+{"event_key": "drogon-kills-more-attackers", "hub_slug": "drogon-kills-more-attackers", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:40:09.863615+00:00"}
+{"event_key": "learning-about-manderly-s-hostage", "hub_slug": "learning-about-manderly-s-hostage", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:40:18.993224+00:00"}
+{"event_key": "jon-orders-slynt-hanged-then-changes-to-beheading", "hub_slug": "jon-orders-slynt-hanged-then-changes-to-beheading", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:40:28.113897+00:00"}
+{"event_key": "mance-rayder-brought-to-execution", "hub_slug": "mance-rayder-brought-to-execution", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:40:28.714626+00:00"}
+{"event_key": "jon-confronts-ser-patrek-about-guest-right", "hub_slug": "jon-confronts-ser-patrek-about-guest-right", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:40:38.198220+00:00"}
+{"event_key": "hostage-negotiation", "hub_slug": "hostage-negotiation", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:40:38.796917+00:00"}
+{"event_key": "jon-attends-the-wedding-feast", "hub_slug": "jon-attends-the-wedding-feast", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:40:51.007568+00:00"}
+{"event_key": "wedding-ceremony-begins", "hub_slug": "wedding-ceremony-begins", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:40:53.049939+00:00"}
+{"event_key": "jon-argues-against-the-dreadfort-attack", "hub_slug": "jon-argues-against-the-dreadfort-attack", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:41:06.753121+00:00"}
+{"event_key": "wun-wun-kills-ser-patrek", "hub_slug": "wun-wun-kills-ser-patrek", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:41:16.307099+00:00"}
+{"event_key": "dryn-given-as-final-hostage", "hub_slug": "dryn-given-as-final-hostage", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:41:18.469649+00:00"}
+{"event_key": "hostage-boys-pass-through", "hub_slug": "hostage-boys-pass-through", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:41:23.428322+00:00"}
+{"event_key": "notable-hostage-fathers-identified", "hub_slug": "notable-hostage-fathers-identified", "outcome": "mint", "n_role_edges": 13, "recorded_at": "2026-06-07T20:41:24.794748+00:00"}
+{"event_key": "bowen-marsh-stabs-jon-in-the-belly", "hub_slug": "bowen-marsh-stabs-jon-in-the-belly", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:41:33.923548+00:00"}
+{"event_key": "jon-is-stabbed-repeatedly", "hub_slug": "jon-is-stabbed-repeatedly", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:41:41.310136+00:00"}
+{"event_key": "adrack-humble-kills-dagon-codd", "hub_slug": "adrack-humble-kills-dagon-codd", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:41:46.037965+00:00"}
+{"event_key": "reek-mercy-kills-ralf-kenning", "hub_slug": "reek-mercy-kills-ralf-kenning", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:41:46.929321+00:00"}
+{"event_key": "ramsay-invites-reek-to-attend-the-wedding", "hub_slug": "ramsay-invites-reek-to-attend-the-wedding", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:41:48.650362+00:00"}
+{"event_key": "the-mail-byrnie-lord-advocates-killing-reek", "hub_slug": "the-mail-byrnie-lord-advocates-killing-reek", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:41:51.151725+00:00"}
+{"event_key": "stick-fighting-attack-in-the-vault", "hub_slug": "stick-fighting-attack-in-the-vault", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:42:07.174625+00:00"}
+{"event_key": "varamyr-fails-and-dies", "hub_slug": "varamyr-fails-and-dies", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:42:16.830877+00:00"}
+{"event_key": "bolton-banner-raised-prisoners-killed", "hub_slug": "bolton-banner-raised-prisoners-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:42:21.250516+00:00"}
+{"event_key": "dog-fight-kills-stout-s-hound", "hub_slug": "dog-fight-kills-stout-s-hound", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:42:24.852173+00:00"}
+{"event_key": "ramsay-promises-food-and-care-for-prisoners", "hub_slug": "ramsay-promises-food-and-care-for-prisoners", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:42:27.800855+00:00"}
+{"event_key": "arch-kills-the-basilisk-serjeant", "hub_slug": "arch-kills-the-basilisk-serjeant", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:42:45.325651+00:00"}
+{"event_key": "quentyn-orders-the-attack", "hub_slug": "quentyn-orders-the-attack", "outcome": "mint", "n_role_edges": 6, "recorded_at": "2026-06-07T20:43:02.516555+00:00"}
+{"event_key": "the-guards-are-killed", "hub_slug": "the-guards-are-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:43:06.806288+00:00"}
+{"event_key": "viserion-loses-interest-and-attacks", "hub_slug": "viserion-loses-interest-and-attacks", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:43:13.573152+00:00"}
+{"event_key": "the-kindly-man-s-teaching-about-killing", "hub_slug": "the-kindly-man-s-teaching-about-killing", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:43:16.104567+00:00"}
+{"event_key": "rhaegal-attacks-from-behind", "hub_slug": "rhaegal-attacks-from-behind", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:43:21.561312+00:00"}
+{"event_key": "three-hostages-returned", "hub_slug": "three-hostages-returned", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:43:22.949721+00:00"}
+{"event_key": "ram-assault-on-gatehouse", "hub_slug": "ram-assault-on-gatehouse", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:43:24.844156+00:00"}
+{"event_key": "defenders-killed-on-battlements", "hub_slug": "defenders-killed-on-battlements", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:43:41.490187+00:00"}
+{"event_key": "maester-killed", "hub_slug": "maester-killed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:43:43.139736+00:00"}
+{"event_key": "victarion-suspects-kerwin-of-poisoning-him", "hub_slug": "victarion-suspects-kerwin-of-poisoning-him", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:43:47.241836+00:00"}
+{"event_key": "prisoners-gathered-in-yard", "hub_slug": "prisoners-gathered-in-yard", "outcome": "mint", "n_role_edges": 6, "recorded_at": "2026-06-07T20:43:51.518591+00:00"}
+{"event_key": "conspiracy-meeting-in-armory", "hub_slug": "conspiracy-meeting-in-armory", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:43:58.210424+00:00"}
+{"event_key": "the-crew-calls-for-moqorro-s-death", "hub_slug": "the-crew-calls-for-moqorro-s-death", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:44:03.312114+00:00"}
+{"event_key": "khrazz-killed", "hub_slug": "khrazz-killed", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:44:08.280503+00:00"}
+{"event_key": "victarion-orders-kerwin-killed", "hub_slug": "victarion-orders-kerwin-killed", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:44:08.965803+00:00"}
+{"event_key": "hizdahr-taken-prisoner", "hub_slug": "hizdahr-taken-prisoner", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:44:21.504795+00:00"}
+{"event_key": "queen-s-men-push-stannis-harder-for-sacrifice", "hub_slug": "queen-s-men-push-stannis-harder-for-sacrifice", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:44:28.813238+00:00"}
+{"event_key": "the-wedding-ceremony", "hub_slug": "the-wedding-ceremony", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:44:35.466947+00:00"}
+{"event_key": "post-ceremony-music", "hub_slug": "post-ceremony-music", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:44:36.883382+00:00"}
+{"event_key": "queen-s-men-begin-calling-for-sacrifice", "hub_slug": "queen-s-men-begin-calling-for-sacrifice", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:44:55.147382+00:00"}
+{"event_key": "sons-of-the-harpy-kill-twenty-nine", "hub_slug": "sons-of-the-harpy-kill-twenty-nine", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:45:07.023904+00:00"}
+{"event_key": "wedding-guests-observed-in-torchlight", "hub_slug": "wedding-guests-observed-in-torchlight", "outcome": "mint", "n_role_edges": 8, "recorded_at": "2026-06-07T20:45:11.323943+00:00"}
+{"event_key": "theon-climbs-the-inner-wall-battlements", "hub_slug": "theon-climbs-the-inner-wall-battlements", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:45:17.827364+00:00"}
+{"event_key": "quentyn-martell-dies", "hub_slug": "quentyn-martell-dies", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:45:28.032049+00:00"}
+{"event_key": "quenton-greyjoy-killed", "hub_slug": "quenton-greyjoy-killed", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:45:30.816168+00:00"}
+{"event_key": "skahaz-demands-hostage-executions", "hub_slug": "skahaz-demands-hostage-executions", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-07T20:45:33.257416+00:00"}
+{"event_key": "ramsay-kills-luton", "hub_slug": "ramsay-kills-luton", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:45:43.659434+00:00"}
+{"event_key": "forest-battle-begins", "hub_slug": "forest-battle-begins", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:45:52.381452+00:00"}
+{"event_key": "hosteen-attacks-manderly", "hub_slug": "hosteen-attacks-manderly", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:45:56.676466+00:00"}
+{"event_key": "murder-announced", "hub_slug": "murder-announced", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:46:01.627640+00:00"}
+{"event_key": "theon-leads-jeyne-holly-and-frenya-toward-battlements-gate", "hub_slug": "theon-leads-jeyne-holly-and-frenya-toward-battlements-gate", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:46:05.031275+00:00"}
+{"event_key": "frenya-kills-second-guard", "hub_slug": "frenya-kills-second-guard", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:46:07.957134+00:00"}
+{"event_key": "arrive-at-battlements-gate", "hub_slug": "arrive-at-battlements-gate", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:46:09.183720+00:00"}
+{"event_key": "tyrion-finds-poisonous-mushrooms", "hub_slug": "tyrion-finds-poisonous-mushrooms", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:46:29.368920+00:00"}
+{"event_key": "tyrion-s-battle-dream", "hub_slug": "tyrion-s-battle-dream", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-07T20:46:30.198579+00:00"}
+{"event_key": "theon-carries-jeyne-up-battlements-stairs", "hub_slug": "theon-carries-jeyne-up-battlements-stairs", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-07T20:46:30.806785+00:00"}
+{"event_key": "holly-kills-first-guard", "hub_slug": "holly-kills-first-guard", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-07T20:46:31.636844+00:00"}
+{"event_key": "holly-killed", "hub_slug": "holly-killed", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:46:41.461640+00:00"}
+{"event_key": "the-cart-travels-through-the-siege-camp", "hub_slug": "the-cart-travels-through-the-siege-camp", "outcome": "non-harming-multi-agent", "n_role_edges": 0, "recorded_at": "2026-06-07T20:46:55.135821+00:00"}
+{"event_key": "penny-attacks-tyrion", "hub_slug": "penny-attacks-tyrion", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-07T20:47:03.057304+00:00"}
+{"event_key": "stone-men-attack-the-shy-maid", "hub_slug": "stone-men-attack-the-shy-maid", "outcome": "mint", "n_role_edges": 6, "recorded_at": "2026-06-07T20:47:21.395378+00:00"}
+{"event_key": "theon-walks-the-battlements-at-the-hour-of-the-wolf", "hub_slug": "theon-walks-the-battlements-at-the-hour-of-the-wolf", "outcome": "skip-clean-dyad", "n_role_edges": 0, "recorded_at": "2026-06-08T01:49:53.207958+00:00"}
+{"event_key": "iron-fleet-captures-ghiscari-dawn", "hub_slug": "iron-fleet-captures-ghiscari-dawn", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-08T01:50:14.628402+00:00"}
+{"event_key": "iron-fleet-captures-myrish-cog-dove", "hub_slug": "iron-fleet-captures-myrish-cog-dove", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-08T01:50:15.623547+00:00"}
+{"event_key": "three-escaped-slaves-are-executed-by-tolosi-slingers", "hub_slug": "three-escaped-slaves-are-executed-by-tolosi-slingers", "outcome": "mint", "n_role_edges": 3, "recorded_at": "2026-06-08T01:50:20.682354+00:00"}
+{"event_key": "two-ghiscari-galleys-chased-and-captured", "hub_slug": "two-ghiscari-galleys-chased-and-captured", "outcome": "mint", "n_role_edges": 5, "recorded_at": "2026-06-08T01:50:22.027651+00:00"}
+{"event_key": "galley-crews-put-to-death-slaves-freed", "hub_slug": "galley-crews-put-to-death-slaves-freed", "outcome": "borderline-single-agent", "n_role_edges": 0, "recorded_at": "2026-06-08T01:50:37.805761+00:00"}
+{"event_key": "slaver-galley-willing-maiden-captured", "hub_slug": "slaver-galley-willing-maiden-captured", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-08T01:50:58.103777+00:00"}
+{"event_key": "slavers-killed-rowers-freed", "hub_slug": "slavers-killed-rowers-freed", "outcome": "mint", "n_role_edges": 4, "recorded_at": "2026-06-08T01:51:12.284240+00:00"}
+{"event_key": "seven-girls-sacrificed-on-burning-ketch", "hub_slug": "seven-girls-sacrificed-on-burning-ketch", "outcome": "mint", "n_role_edges": 2, "recorded_at": "2026-06-08T01:51:20.662599+00:00"}

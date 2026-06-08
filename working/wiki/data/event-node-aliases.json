@@ -1,0 +1,2807 @@
+{
+  "a-storm-of-swords-epilogue": {
+    "canonical_name": "Epilogue",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "a-storm-of-swords-prologue": {
+    "canonical_name": "Prologue",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "aegon-the-uncrowneds-rebellion": {
+    "canonical_name": "Aegon the Uncrowned's rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "aegons-conquest": {
+    "canonical_name": "Aegon's ConquestPart ofWars of Conquest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "aegons-coronations": {
+    "canonical_name": "Aegon's coronations",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "aegons-first-test": {
+    "canonical_name": "Aegon's first test",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "aegons-landing": {
+    "canonical_name": "Aegon's Landing",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "aemonds-march-on-harrenhal": {
+    "canonical_name": "Aemond's march on Harrenhal",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "age-of-heroes": {
+    "canonical_name": "Age of Heroes",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "alayne-i-the-winds-of-winter": {
+    "canonical_name": "Alayne I",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "ambush-at-fair-isle": {
+    "canonical_name": "Ambush at Fair Isle",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "ambush-on-the-wendwater": {
+    "canonical_name": "Ambush on the Wendwater",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "anarchy-in-the-reach": {
+    "canonical_name": "Anarchy in the Reach",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "andal-invasion": {
+    "canonical_name": "Andal Invasion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "anniversary-tourney": {
+    "canonical_name": "Anniversary Tourney",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "archon-of-tyrosh-war-of-the-ninepenny-kings": {
+    "canonical_name": "Archon of Tyrosh",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "arianne-i-the-winds-of-winter": {
+    "canonical_name": "Arianne I",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "arianne-ii-the-winds-of-winter": {
+    "canonical_name": "Arianne II",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "arrest-of-eddard-stark": {
+    "canonical_name": "Arrest of Eddard Stark",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "ashford-tourney": {
+    "canonical_name": "Ashford Tourney",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "assassination-of-tywin-lannister": {
+    "canonical_name": "Assassination of Tywin Lannister",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "assassinations-of-pycelle-and-kevan-lannister": {
+    "canonical_name": "Assassinations of Pycell and Kevan Lannister",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "assault-on-dragonstone": {
+    "canonical_name": "Assault on Dragonstone",
+    "aliases": [
+      "assault-of-dragonstone"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Assault_of_Dragonstone"
+    ]
+  },
+  "assault-on-harrenhal": {
+    "canonical_name": "Assault on Harrenhal",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "attack-on-castle-black": {
+    "canonical_name": "Attack on Castle Black",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "attack-on-old-wyk": {
+    "canonical_name": "Attack on Old Wyk",
+    "aliases": [
+      "siege-of-old-wyk"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Siege_of_Old_Wyk"
+    ]
+  },
+  "barefoot-lambs": {
+    "canonical_name": "Barefoot lambs",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "barristan-i-the-winds-of-winter": {
+    "canonical_name": "Barristan I",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "barristan-ii-the-winds-of-winter": {
+    "canonical_name": "Barristan II",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-above-the-gods-eye": {
+    "canonical_name": "Battle Above the Gods Eye",
+    "aliases": [
+      "dance-over-harrenhal"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Dance_over_Harrenhal"
+    ]
+  },
+  "battle-at-acorn-hall": {
+    "canonical_name": "Battle at Acorn Hall",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-black-bog": {
+    "canonical_name": "Battle at Black Bog",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-duskendale": {
+    "canonical_name": "Battle at Duskendale",
+    "aliases": [
+      "battle-of-duskendale"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Duskendale"
+    ]
+  },
+  "battle-at-fairmarket": {
+    "canonical_name": "Battle at Fairmarket",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-kayce": {
+    "canonical_name": "Battle at Kayce",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-long-lake": {
+    "canonical_name": "Battle at Long Lake",
+    "aliases": [
+      "battle-of-long-lake"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Long_Lake"
+    ]
+  },
+  "battle-at-lordsport": {
+    "canonical_name": "Battle at Lordsport",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-pyke": {
+    "canonical_name": "Battle at Pyke",
+    "aliases": [
+      "siege-of-pyke"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Siege_of_Pyke"
+    ]
+  },
+  "battle-at-rooks-rest": {
+    "canonical_name": "Battle at Rook's Rest",
+    "aliases": [
+      "battle-of-rooks-rest"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Rook's_Rest"
+    ]
+  },
+  "battle-at-stonebridge": {
+    "canonical_name": "Battle at Stonebridge",
+    "aliases": [
+      "battle-of-stonebridge"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Stonebridge"
+    ]
+  },
+  "battle-at-the-burning-septry": {
+    "canonical_name": "Battle at the burning septry",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-the-great-fork": {
+    "canonical_name": "Battle at the Great Fork",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-the-horns-of-hazzat": {
+    "canonical_name": "Battle at the Horns of Hazzat",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-at-the-mummers-ford": {
+    "canonical_name": "Battle at the Mummer's Ford",
+    "aliases": [
+      "battle-of-the-mummers-ford"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Mummer's_Ford"
+    ]
+  },
+  "battle-at-the-red-fork": {
+    "canonical_name": "Battle at the Red Fork",
+    "aliases": [
+      "battle-of-the-red-fork"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Red_Fork"
+    ]
+  },
+  "battle-beneath-the-gods-eye": {
+    "canonical_name": "Battle Beneath the Gods Eye",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-beneath-the-wall": {
+    "canonical_name": "Battle beneath the Wall",
+    "aliases": [
+      "battle-by-the-wall",
+      "battle-for-the-wall"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Battle_by_the_Wall",
+      "Battle_for_the_Wall"
+    ]
+  },
+  "battle-by-the-bloody-pool": {
+    "canonical_name": "Battle by the Bloody Pool",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-by-the-lakeshore": {
+    "canonical_name": "Battle by the Lakeshore/The Fishfeed",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-for-the-dawn": {
+    "canonical_name": "Battle for the Dawn",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-in-the-hills-below-the-golden-tooth": {
+    "canonical_name": "Battle in the hills below the Golden Tooth",
+    "aliases": [
+      "battle-of-the-golden-tooth"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Golden_Tooth"
+    ]
+  },
+  "battle-in-the-howling-hills": {
+    "canonical_name": "Battle in the Howling Hills",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-in-the-ice": {
+    "canonical_name": "Battle in the ice",
+    "aliases": [
+      "battle-of-ice"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Ice"
+    ]
+  },
+  "battle-in-the-waters-off-gulltown": {
+    "canonical_name": "Battle in the waters off Gulltown",
+    "aliases": [
+      "battle-of-gulltown"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Gulltown"
+    ]
+  },
+  "battle-in-the-whispering-wood": {
+    "canonical_name": "Battle in the Whispering Wood",
+    "aliases": [
+      "battle-of-whispering-wood",
+      "battle-of-the-whispering-wood"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Battle_of_Whispering_Wood",
+      "Battle_of_the_Whispering_Wood"
+    ]
+  },
+  "battle-near-yunkai": {
+    "canonical_name": "Battle near Yunkai",
+    "aliases": [
+      "battle-of-yunkai"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Yunkai"
+    ]
+  },
+  "battle-of-ashford": {
+    "canonical_name": "Battle of Ashford",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-bronzegate": {
+    "canonical_name": "Battle of Bronzegate",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-crookwater": {
+    "canonical_name": "Battle of Crookwater",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-oxcross": {
+    "canonical_name": "Battle of Oxcross",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-six-kings": {
+    "canonical_name": "Battle of Six Kings",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-summerfield": {
+    "canonical_name": "Battle of Summerfield",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-bells": {
+    "canonical_name": "Battle of the Bells",
+    "aliases": [
+      "battle-of-stoney-sept"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Stoney_Sept"
+    ]
+  },
+  "battle-of-the-bitter-river": {
+    "canonical_name": "Battle Of The Bitter River",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-blackwater": {
+    "canonical_name": "Battle of the Blackwater",
+    "aliases": [
+      "battle-at-blackwater",
+      "battle-of-blackwater",
+      "battle-of-blackwater-bay",
+      "battle-on-the-blackwater"
+    ],
+    "alias_count": 4,
+    "redirect_sources": [
+      "Battle_at_Blackwater",
+      "Battle_of_Blackwater",
+      "Battle_of_Blackwater_Bay",
+      "Battle_on_the_Blackwater"
+    ]
+  },
+  "battle-of-the-borderland": {
+    "canonical_name": "Battle of the Borderland",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-bridge-of-skulls": {
+    "canonical_name": "Battle Of The Bridge Of Skulls",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-burning-mill": {
+    "canonical_name": "Battle of the Burning Mill",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-camps": {
+    "canonical_name": "Battle of the Camps",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-crag": {
+    "canonical_name": "Battle Of The Crag",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-fist-of-the-first-men": {
+    "canonical_name": "Battle Of The Fist Of The First Men",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-fords": {
+    "canonical_name": "Battle of the Fords",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-fords-of-the-trident": {
+    "canonical_name": "Battle Of The Fords Of The Trident",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-golden-tooth": {
+    "canonical_name": "Battle Of The Golden Tooth",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-green-fork": {
+    "canonical_name": "Battle Of The Green Fork",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-gullet": {
+    "canonical_name": "Battle of the Gullet",
+    "aliases": [
+      "battle-in-the-gullet"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_in_the_Gullet"
+    ]
+  },
+  "battle-of-the-honeywine": {
+    "canonical_name": "Battle of the Honeywine",
+    "aliases": [
+      "battle-on-the-honeywine"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_on_the_Honeywine"
+    ]
+  },
+  "battle-of-the-kingsroad": {
+    "canonical_name": "Battle of the Kingsroad",
+    "aliases": [
+      "muddy-mess"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Muddy_Mess"
+    ]
+  },
+  "battle-of-the-last-storm": {
+    "canonical_name": "Battle Of The Last Storm",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-mummers-ford": {
+    "canonical_name": "Battle Of The Mummers Ford",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-red-fork": {
+    "canonical_name": "Battle Of The Red Fork",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-redgrass-field": {
+    "canonical_name": "Battle of the Redgrass Field",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-reeds": {
+    "canonical_name": "Battle of the Reeds",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-ruby-ford": {
+    "canonical_name": "Battle Of The Ruby Ford",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-seven-stars": {
+    "canonical_name": "Battle of the Seven Stars",
+    "aliases": [
+      "battle-of-seven-stars"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Seven_Stars"
+    ]
+  },
+  "battle-of-the-shield-islands": {
+    "canonical_name": "Battle Of The Shield Islands",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-stony-shore": {
+    "canonical_name": "Battle Of The Stony Shore",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-trident": {
+    "canonical_name": "Battle of the Trident",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-weeping-water": {
+    "canonical_name": "Battle of the Weeping Water",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-the-whispering-wood": {
+    "canonical_name": "Battle Of The Whispering Wood",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-three-armies": {
+    "canonical_name": "Battle of Three Armies",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-torrhens-square": {
+    "canonical_name": "Battle Of Torrhens Square",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-tumbleton": {
+    "canonical_name": "Battle Of Tumbleton",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-wendwater-bridge": {
+    "canonical_name": "Battle of Wendwater Bridge",
+    "aliases": [
+      "wendwater-bridge"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Wendwater_Bridge"
+    ]
+  },
+  "battle-of-whispering-wood": {
+    "canonical_name": "Battle Of Whispering Wood",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-winterfell": {
+    "canonical_name": "Battle Of Winterfell",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-of-yunkai": {
+    "canonical_name": "Battle Of Yunkai",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-on-the-green-fork": {
+    "canonical_name": "Battle on the Green Fork",
+    "aliases": [
+      "battle-of-the-green-fork"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Green_Fork"
+    ]
+  },
+  "battle-on-the-river-slayne": {
+    "canonical_name": "Battle on the river Slayne",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-on-whispering-sound": {
+    "canonical_name": "Battle on Whispering Sound",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "battle-outside-the-gates-of-winterfell": {
+    "canonical_name": "Battle outside the gates of Winterfell",
+    "aliases": [
+      "battle-at-winterfell"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_at_Winterfell"
+    ]
+  },
+  "battle-under-the-walls-of-riverrun": {
+    "canonical_name": "Battle under the walls of Riverrun",
+    "aliases": [
+      "battle-of-riverrun"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Riverrun"
+    ]
+  },
+  "battles-at-summerhall": {
+    "canonical_name": "Battles at Summerhall",
+    "aliases": [
+      "battle-of-summerhall"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Summerhall"
+    ]
+  },
+  "blackfyre-rebellion": {
+    "canonical_name": "Blackfyre Rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "blood-betrayal": {
+    "canonical_name": "Blood Betrayal",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "breaking": {
+    "canonical_name": "Breaking",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "burning-of-harrenhal": {
+    "canonical_name": "Burning of Harrenhal",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "burning-of-jeyne-poore": {
+    "canonical_name": "Burning of Jeyne Poore",
+    "aliases": [
+      "ambush-at-the-wendwater"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Ambush_at_the_Wendwater"
+    ]
+  },
+  "burning-of-pinkmaiden-castle": {
+    "canonical_name": "Burning of Pinkmaiden Castle",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "burning-of-sows-horn": {
+    "canonical_name": "Burning of Sow's Horn",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "burning-of-stone-hedge": {
+    "canonical_name": "Burning of Stone Hedge",
+    "aliases": [
+      "sack-of-stone-hedge"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Sack_of_Stone_Hedge"
+    ]
+  },
+  "burning-of-the-lannister-fleet": {
+    "canonical_name": "Burning of the Lannister fleet",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "burning-of-the-seats-of-the-pious-lords": {
+    "canonical_name": "Burning of the seats of the pious lords",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "burning-of-the-sept-of-remembrance": {
+    "canonical_name": "Burning of the Sept of Remembrance",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "butchers-ball": {
+    "canonical_name": "Butcher's Ball",
+    "aliases": [
+      "battle-at-the-stony-ridge"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_at_the_stony_ridge"
+    ]
+  },
+  "capture-of-darry": {
+    "canonical_name": "Capture of Darry",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "capture-of-harrenhal": {
+    "canonical_name": "Capture of Harrenhal",
+    "aliases": [
+      "retaking-of-harrenhal"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Retaking_of_Harrenhal"
+    ]
+  },
+  "capture-of-torrhens-square": {
+    "canonical_name": "Capture of Torrhen's Square",
+    "aliases": [
+      "fall-of-torrhens-square",
+      "sack-of-torrhens-square",
+      "sack-of-torrhen-s-square",
+      "taking-of-torrhens-square"
+    ],
+    "alias_count": 4,
+    "redirect_sources": [
+      "Fall_of_Torrhen's_Square",
+      "Sack_of_Torrhen's_Square",
+      "Sack_of_Torrhen’s_Square",
+      "Taking_of_Torrhen's_Square"
+    ]
+  },
+  "capture-of-winterfell": {
+    "canonical_name": "Capture of Winterfell",
+    "aliases": [
+      "taking-of-winterfell"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Taking_of_Winterfell"
+    ]
+  },
+  "century-of-blood": {
+    "canonical_name": "Century of Blood",
+    "aliases": [
+      "bleeding-years",
+      "years-of-blood"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Bleeding_Years",
+      "Years_of_Blood"
+    ]
+  },
+  "combat-at-the-tower-of-joy": {
+    "canonical_name": "Combat at the tower of joy",
+    "aliases": [
+      "raid-of-the-tower-of-joy",
+      "raid-on-the-tower-of-joy",
+      "showdown-at-the-tower-of-joy"
+    ],
+    "alias_count": 3,
+    "redirect_sources": [
+      "Raid_of_the_Tower_of_Joy",
+      "Raid_on_the_Tower_of_Joy",
+      "Showdown_at_the_Tower_of_Joy"
+    ]
+  },
+  "coming-of-the-andals": {
+    "canonical_name": "Coming of the Andals",
+    "aliases": [
+      "andal-invasion",
+      "arrival-of-the-andals",
+      "crossing-of-the-andals"
+    ],
+    "alias_count": 3,
+    "redirect_sources": [
+      "Andal_Invasion",
+      "Arrival_of_the_Andals",
+      "Crossing_of_the_Andals"
+    ]
+  },
+  "conquest-of-dorne": {
+    "canonical_name": "Conquest of Dorne",
+    "aliases": [
+      "fifth-dornish-war"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Fifth_Dornish_War"
+    ]
+  },
+  "coronation-of-robert-i-baratheon": {
+    "canonical_name": "Coronation of Robert I Baratheon",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "dance-of-the-dragons": {
+    "canonical_name": "Dance of the DragonsWar of succession",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "daughters-war": {
+    "canonical_name": "Daughter's War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "defenestration-of-sunspear": {
+    "canonical_name": "Defenestration of Sunspear",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "defiance-of-duskendale": {
+    "canonical_name": "Defiance of Duskendale",
+    "aliases": [
+      "siege-of-duskendale"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Siege_of_Duskendale"
+    ]
+  },
+  "destruction-of-house-harroway": {
+    "canonical_name": "Destruction of House Harroway",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "doom-of-valyria": {
+    "canonical_name": "Doom of Valyria",
+    "aliases": [
+      "doom",
+      "the-doom"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Doom",
+      "The_Doom"
+    ]
+  },
+  "dornish-wars": {
+    "canonical_name": "Dornish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "double-wedding-at-casterly-rock": {
+    "canonical_name": "Double wedding at Casterly Rock",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "dragons-wars": {
+    "canonical_name": "Dragon's wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "dry-times": {
+    "canonical_name": "Dry Times",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fair-isle-rebellion": {
+    "canonical_name": "Fair Isle rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "faith-militant-uprising": {
+    "canonical_name": "Faith Militant uprising",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fall-of-astapor": {
+    "canonical_name": "Fall of Astapor",
+    "aliases": [
+      "sack-of-astapor"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Sack_of_Astapor"
+    ]
+  },
+  "fall-of-dragonstone": {
+    "canonical_name": "Fall of Dragonstone",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fall-of-harrenhal": {
+    "canonical_name": "Fall of Harrenhal",
+    "aliases": [
+      "sack-of-harrenhal"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Sack_of_Harrenhal"
+    ]
+  },
+  "fall-of-kings-landing": {
+    "canonical_name": "Fall of King's Landing",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fall-of-mistwood": {
+    "canonical_name": "Fall of Mistwood",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fall-of-moat-cailin": {
+    "canonical_name": "Fall of Moat Cailin",
+    "aliases": [
+      "battle-of-moat-cailin"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Moat_Cailin"
+    ]
+  },
+  "fall-of-raventree-hall": {
+    "canonical_name": "Fall of Raventree Hall",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "famine-winter": {
+    "canonical_name": "Famine Winter",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "feast-in-honor-of-king-roberts-visit-to-winterfell": {
+    "canonical_name": "Feast in honor of King Robert's visit to Winterfell",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "feast-of-skane": {
+    "canonical_name": "Feast of Skane",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "field-of-crows": {
+    "canonical_name": "Field of Crows",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "field-of-fire": {
+    "canonical_name": "Field of Fire",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fight-above-shipbreaker-bay": {
+    "canonical_name": "Fight above Shipbreaker Bay",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fight-at-the-bridge-of-skulls": {
+    "canonical_name": "Fight at the Bridge of Skulls",
+    "aliases": [
+      "battle-of-the-bridge-of-skulls"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Bridge_of_Skulls"
+    ]
+  },
+  "fight-at-the-fist": {
+    "canonical_name": "Fight at the Fist",
+    "aliases": [
+      "battle-of-the-fist-of-the-first-men"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Fist_of_the_First_Men"
+    ]
+  },
+  "fight-at-the-holdfast": {
+    "canonical_name": "Fight at the holdfast",
+    "aliases": [
+      "storming-of-the-gods-eye-town-holdfast"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Storming_of_the_Gods_Eye_town_holdfast"
+    ]
+  },
+  "fight-at-torrhens-square": {
+    "canonical_name": "Fight at Torrhen's Square",
+    "aliases": [
+      "battle-of-torrhens-square"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Torrhen's_Square"
+    ]
+  },
+  "fight-by-deepwood-motte": {
+    "canonical_name": "Fight by Deepwood Motte",
+    "aliases": [
+      "retaking-of-deepwood-motte"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Retaking_of_Deepwood_Motte"
+    ]
+  },
+  "fighting-at-bitterbridge": {
+    "canonical_name": "Fighting at Bitterbridge",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fighting-at-sows-horn": {
+    "canonical_name": "Fighting at Sow's Horn",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fighting-at-the-fords-of-the-trident": {
+    "canonical_name": "Fighting at the fords of the Trident",
+    "aliases": [
+      "battle-at-the-trident-fords",
+      "battle-at-the-fords-of-the-trident",
+      "battle-of-the-ruby-ford",
+      "battle-of-the-fords-of-the-trident"
+    ],
+    "alias_count": 4,
+    "redirect_sources": [
+      "Battle_at_the_Trident_fords",
+      "Battle_at_the_fords_of_the_Trident",
+      "Battle_of_the_Ruby_Ford",
+      "Battle_of_the_fords_of_the_Trident"
+    ]
+  },
+  "fighting-in-the-hornwood": {
+    "canonical_name": "Fighting in the Hornwood",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fighting-on-the-khyzai-pass": {
+    "canonical_name": "Fighting on the Khyzai Pass",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "first-battle-of-tumbleton": {
+    "canonical_name": "First Battle of Tumbleton",
+    "aliases": [
+      "battle-of-tumbleton",
+      "sack-of-tumbleton",
+      "treasons-of-tumbleton"
+    ],
+    "alias_count": 3,
+    "redirect_sources": [
+      "Battle_of_Tumbleton",
+      "Sack_of_Tumbleton",
+      "Treasons_of_Tumbleton"
+    ]
+  },
+  "first-blackfyre-rebellion": {
+    "canonical_name": "First Blackfyre RebellionPart of theBlackfyre Rebellions",
+    "aliases": [
+      "blackfyre-rebellion"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Blackfyre_Rebellion"
+    ]
+  },
+  "first-dornish-war": {
+    "canonical_name": "First Dornish WarPart ofWars of Conquest/Dornish Wars",
+    "aliases": [
+      "dragons-wroth"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Dragon's_Wroth"
+    ]
+  },
+  "first-quarrel": {
+    "canonical_name": "First Quarrel",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "first-sack-of-maidenpool": {
+    "canonical_name": "First sack of Maidenpool",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "first-turtle-war": {
+    "canonical_name": "First Turtle WarPart ofRhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fishermans-war": {
+    "canonical_name": "Fisherman's War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "flight-to-dragonstone": {
+    "canonical_name": "Flight to Dragonstone",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fourth-blackfyre-rebellion": {
+    "canonical_name": "Fourth Blackfyre RebellionPart of theBlackfyre Rebellions",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "fourth-dornish-war": {
+    "canonical_name": "Fourth Dornish War",
+    "aliases": [
+      "prince-morions-madness",
+      "war-of-the-hundred-candles"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Prince_Morion's_Madness",
+      "War_of_the_Hundred_Candles"
+    ]
+  },
+  "ghiscari-wars": {
+    "canonical_name": "Ghiscari Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "golden-wedding": {
+    "canonical_name": "Golden Wedding",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "great-council": {
+    "canonical_name": "Great Council",
+    "aliases": [
+      "first-great-council",
+      "great-council-of-136-ac",
+      "great-council-of-233-ac"
+    ],
+    "alias_count": 3,
+    "redirect_sources": [
+      "First_Great_Council",
+      "Great_Council_of_136_AC",
+      "Great_Council_of_233_AC"
+    ]
+  },
+  "great-council-of-101-ac": {
+    "canonical_name": "Great Council of 101 AC",
+    "aliases": [
+      "great-council-of-harrenhal"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Great_Council_of_Harrenhal"
+    ]
+  },
+  "great-ranging": {
+    "canonical_name": "Great Ranging",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "great-spring-sickness": {
+    "canonical_name": "Great Spring Sickness",
+    "aliases": [
+      "the-great-spring-sickness",
+      "the-spring"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "The_Great_Spring_Sickness",
+      "The_spring"
+    ]
+  },
+  "greyjoy-rebellion": {
+    "canonical_name": "Greyjoy Rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "greyjoys-rebellion": {
+    "canonical_name": "Greyjoy's Rebellion",
+    "aliases": [
+      "greyjoy-rebellion",
+      "the-greyjoy-rebellion"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Greyjoy_Rebellion",
+      "The_Greyjoy_Rebellion"
+    ]
+  },
+  "harren-the-reds-rebellion": {
+    "canonical_name": "Harren the Red's rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "harrying-of-the-stony-shore": {
+    "canonical_name": "Harrying of the Stony Shore",
+    "aliases": [
+      "battle-of-the-stony-shore"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Stony_Shore"
+    ]
+  },
+  "harvest-feast-299": {
+    "canonical_name": "Harvest feast (299)",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "hour-of-the-wolf": {
+    "canonical_name": "Hour of the Wolf",
+    "aliases": [
+      "false-dawn",
+      "judgment-of-the-wolf"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "False_Dawn",
+      "Judgment_of_the_Wolf"
+    ]
+  },
+  "hunt-of-the-poor-fellows": {
+    "canonical_name": "Hunt of the Poor Fellows",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "invasion-of-tarth": {
+    "canonical_name": "Invasion of Tarth",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "invasion-of-the-arbor": {
+    "canonical_name": "Invasion of the Arbor",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "invasion-of-the-iron-islands": {
+    "canonical_name": "Invasion of the Iron IslandsPart ofWars of Conquest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "jaehaerys-targaryens-uprising": {
+    "canonical_name": "Jaehaerys Targaryen's uprising",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "jonos-arryns-rebellion": {
+    "canonical_name": "Jonos Arryn's rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "kingsmoot-on-old-wyk": {
+    "canonical_name": "Kingsmoot on Old Wyk",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "landing-of-the-golden-company": {
+    "canonical_name": "Landing of the Golden Company",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "landing-on-great-wyk": {
+    "canonical_name": "Landing on Great Wyk",
+    "aliases": [
+      "siege-of-great-wyk"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Siege_of_Great_Wyk"
+    ]
+  },
+  "last-storm": {
+    "canonical_name": "The Last Storm",
+    "aliases": [
+      "battle-of-the-last-storm"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Last_Storm"
+    ]
+  },
+  "liberation-of-raventree-hall": {
+    "canonical_name": "Liberation of Raventree Hall",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "liberation-of-stone-hedge": {
+    "canonical_name": "Liberation of Stone Hedge",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "list-of-characters-and-arms-in-the-hedge-knight-graphic-novel-collection": {
+    "canonical_name": "List of characters and arms in The Hedge Knight graphic novel collection",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "list-of-tourneys-in-westeros": {
+    "canonical_name": "List of tourneys in Westeros",
+    "aliases": [
+      "history-of-tourneys-in-westeros"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "History_of_Tourneys_in_Westeros"
+    ]
+  },
+  "lodos-the-twice-drowneds-rebellion": {
+    "canonical_name": "Lodos The Twice Drowneds Rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "lodos-the-twice-drowneds-revolt": {
+    "canonical_name": "Lodos the Twice-Drowned's rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "long-night": {
+    "canonical_name": "Long Night",
+    "aliases": [
+      "the-long-night"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "The_Long_Night"
+    ]
+  },
+  "long-night-that-never-ends": {
+    "canonical_name": "Long night that never ends",
+    "aliases": [
+      "night-that-never-ends"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Night_that_never_ends"
+    ]
+  },
+  "lord-alyns-attack": {
+    "canonical_name": "Lord Alyn's attack",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "lord-rogars-war": {
+    "canonical_name": "Lord Rogars War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "lord-steffons-tourney": {
+    "canonical_name": "Lord Steffon's tourney",
+    "aliases": [
+      "tourney-at-storms-end"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Tourney_at_Storm's_End"
+    ]
+  },
+  "lord-wyl-conquest-of-dorne": {
+    "canonical_name": "Lord Wyl",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "lyonel-baratheons-rebellion": {
+    "canonical_name": "Lyonel Baratheon's rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "lysene-spring": {
+    "canonical_name": "Lysene Spring",
+    "aliases": [
+      "lyseni-spring",
+      "rogare-ascendency"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Lyseni_Spring",
+      "Rogare_Ascendency"
+    ]
+  },
+  "m-l-e-at-last-hearth": {
+    "canonical_name": "Mêlée at Last Hearth",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "m-l-e-at-runestone": {
+    "canonical_name": "Mêlée at Runestone",
+    "aliases": [
+      "melee-at-runestone"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Melee_at_Runestone"
+    ]
+  },
+  "maidens-day-ball": {
+    "canonical_name": "Maiden's Day Ball",
+    "aliases": [
+      "maidens-day-cattle-show"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Maiden's_Day_Cattle_Show"
+    ]
+  },
+  "marriage": {
+    "canonical_name": "Marriage",
+    "aliases": [
+      "annulment",
+      "betrothal",
+      "betrothed",
+      "brides-cloak",
+      "divorce",
+      "maidens-cloak",
+      "married",
+      "put-aside",
+      "set-aside",
+      "wedding"
+    ],
+    "alias_count": 10,
+    "redirect_sources": [
+      "Annulment",
+      "Betrothal",
+      "Betrothed",
+      "Bride's_cloak",
+      "Divorce",
+      "Maiden's_cloak",
+      "Married",
+      "Put_aside",
+      "Set_aside",
+      "Wedding"
+    ]
+  },
+  "martial-games": {
+    "canonical_name": "Martial games",
+    "aliases": [
+      "archery-competition",
+      "axe-throwing-competition",
+      "hastilude",
+      "horse-racing",
+      "joust",
+      "jousting",
+      "lists",
+      "melee",
+      "m-l-e",
+      "quintain",
+      "ride-at-rings",
+      "riding-at-rings",
+      "the-lists"
+    ],
+    "alias_count": 13,
+    "redirect_sources": [
+      "Archery_competition",
+      "Axe-throwing_competition",
+      "Hastilude",
+      "Horse_racing",
+      "Joust",
+      "Jousting",
+      "Lists",
+      "Melee",
+      "Mêlée",
+      "Quintain",
+      "Ride_at_rings",
+      "Riding_at_rings",
+      "The_lists"
+    ]
+  },
+  "master-of-revels": {
+    "canonical_name": "Master of revels",
+    "aliases": [
+      "master-of-the-revels"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Master_of_the_revels"
+    ]
+  },
+  "master-of-the-games": {
+    "canonical_name": "Master of the games",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "melee-at-bitterbridge": {
+    "canonical_name": "Melee at Bitterbridge",
+    "aliases": [
+      "m-l-e-at-bitterbridge"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Mêlée_at_Bitterbridge"
+    ]
+  },
+  "mercy-the-winds-of-winter": {
+    "canonical_name": "Mercy",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "mutiny-at-castle-black": {
+    "canonical_name": "Mutiny at Castle Black",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "mutiny-at-crasters-keep": {
+    "canonical_name": "Mutiny at Craster's Keep",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "myrish-bloodbath": {
+    "canonical_name": "Invasion of TarthPart of the Myrish Bloodbath",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "nights-watch-rebellion-of-50-ac": {
+    "canonical_name": "Night's Watch rebellion of 50 AC",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "nymerias-war": {
+    "canonical_name": "Nymeria's War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "pact": {
+    "canonical_name": "Pact",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "pact-of-ice-and-fire": {
+    "canonical_name": "Pact of Ice and Fire",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "peake-uprising": {
+    "canonical_name": "Peake Uprising",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "plot-to-free-jaime-lannister": {
+    "canonical_name": "Plot to free Jaime Lannister",
+    "aliases": [
+      "scheme-to-free-jaime-lannister"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Scheme_to_free_Jaime_Lannister"
+    ]
+  },
+  "pretenders-claiming-to-be-prince-daeron-the-daring": {
+    "canonical_name": "Pretenders claiming to be Prince Daeron the Daring",
+    "aliases": [
+      "daeron-pretenders"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Daeron_Pretenders"
+    ]
+  },
+  "purple-wedding": {
+    "canonical_name": "Purple Wedding",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "raid-on-saltpans": {
+    "canonical_name": "Raid on Saltpans",
+    "aliases": [
+      "sack-of-saltpans"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Sack_of_Saltpans"
+    ]
+  },
+  "raiding-along-the-westerlands-coast": {
+    "canonical_name": "Raiding along the westerlands coast",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "rape-of-the-three-sisters": {
+    "canonical_name": "Rape of the Three Sisters",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "recapture-of-darry": {
+    "canonical_name": "Recapture of Darry",
+    "aliases": [
+      "liberation-of-darry"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Liberation_of_Darry"
+    ]
+  },
+  "red-wedding": {
+    "canonical_name": "Red Wedding",
+    "aliases": [
+      "the-red-wedding"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "The_Red_Wedding"
+    ]
+  },
+  "regency-of-aegon-iii": {
+    "canonical_name": "Regency of Aegon III",
+    "aliases": [
+      "regent-wars"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Regent_Wars"
+    ]
+  },
+  "regent-wars": {
+    "canonical_name": "Regent Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "retaking-of-rooks-rest": {
+    "canonical_name": "Retaking of Rook's Rest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "reyne-tarbeck-revolt": {
+    "canonical_name": "Reyne-Tarbeck revolt",
+    "aliases": [
+      "reyne-tarbeck-rebellion"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Reyne-Tarbeck_Rebellion"
+    ]
+  },
+  "rhoynar-invasion": {
+    "canonical_name": "Rhoynar Invasion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "rhoynish-wars": {
+    "canonical_name": "Rhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "riot-of-kings-landing-dance-of-the-dragons": {
+    "canonical_name": "Riot of King's Landing",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "riots-in-kings-landing": {
+    "canonical_name": "Riots in King's Landing",
+    "aliases": [
+      "bread-riots",
+      "food-riots-in-kings-landing",
+      "great-riot",
+      "riot-at-kings-landing",
+      "riot-of-kings-landing",
+      "riot-of-king-s-landing"
+    ],
+    "alias_count": 6,
+    "redirect_sources": [
+      "Bread_riots",
+      "Food_riots_in_King's_Landing",
+      "Great_riot",
+      "Riot_at_King's_Landing",
+      "Riot_of_King's_Landing",
+      "Riot_of_King’s_Landing"
+    ]
+  },
+  "roberts-rebellion": {
+    "canonical_name": "Robert's Rebellion",
+    "aliases": [
+      "baratheon-rebellion",
+      "the-war-of-the-usurper",
+      "war-of-the-usurper"
+    ],
+    "alias_count": 3,
+    "redirect_sources": [
+      "Baratheon_Rebellion",
+      "The_War_of_the_Usurper",
+      "War_of_the_Usurper"
+    ]
+  },
+  "sack-of-bitterbridge": {
+    "canonical_name": "Sack of Bitterbridge",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "sack-of-darry": {
+    "canonical_name": "Sack of Darry",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "sack-of-duskendale": {
+    "canonical_name": "Sack of Duskendale",
+    "aliases": [
+      "fall-of-rosby",
+      "fall-of-stokeworth"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Fall_of_Rosby",
+      "Fall_of_Stokeworth"
+    ]
+  },
+  "sack-of-kings-landing": {
+    "canonical_name": "Sack of King's Landing",
+    "aliases": [
+      "sack-of-king-s-landing"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Sack_of_King’s_Landing"
+    ]
+  },
+  "sack-of-qohor": {
+    "canonical_name": "Sack of Qohor",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "sack-of-tyrosh": {
+    "canonical_name": "Sack of Tyrosh",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "sack-of-winterfell": {
+    "canonical_name": "Sack of Winterfell",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "salt-war": {
+    "canonical_name": "Salt WarPart of theRhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "sandor-cleganes-trial-by-combat": {
+    "canonical_name": "Sandor Clegane's trial by combat",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "scouring-of-lorath": {
+    "canonical_name": "Scouring of Lorath",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "sea-battle-off-fair-isle": {
+    "canonical_name": "Sea battle off Fair Isle",
+    "aliases": [
+      "battle-of-fair-isle"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Fair_Isle"
+    ]
+  },
+  "second-battle-of-tumbleton": {
+    "canonical_name": "Second Battle of Tumbleton",
+    "aliases": [
+      "second-tumbleton"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Second_Tumbleton"
+    ]
+  },
+  "second-blackfyre-rebellion": {
+    "canonical_name": "Second Blackfyre Rebellion",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "second-dornish-war": {
+    "canonical_name": "Second Dornish War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "second-quarrel": {
+    "canonical_name": "Second Quarrel",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "second-sack-of-maidenpool": {
+    "canonical_name": "Second sack of Maidenpool",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "second-siege-of-meereen": {
+    "canonical_name": "Second Siege Of Meereen",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "second-spice-war": {
+    "canonical_name": "Second Spice War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "second-turtle-war": {
+    "canonical_name": "Second Turtle WarPart of theRhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "secret-siege": {
+    "canonical_name": "Secret siege",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "seizure-of-westerlands-gold-mines": {
+    "canonical_name": "Seizure of westerlands gold mines",
+    "aliases": [
+      "capture-of-westerland-gold-mines"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Capture_of_Westerland_gold_mines"
+    ]
+  },
+  "shadow-war": {
+    "canonical_name": "Shadow war",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-astapor": {
+    "canonical_name": "Siege of Astapor",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-darry": {
+    "canonical_name": "Siege of Darry",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-dragonstone": {
+    "canonical_name": "Siege of Dragonstone",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-longtable": {
+    "canonical_name": "siege of Longtable",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-meereen": {
+    "canonical_name": "Siege of Meereen",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-moat-cailin": {
+    "canonical_name": "Siege of Moat Cailin",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-raventree": {
+    "canonical_name": "Siege of Raventree",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-riverrun": {
+    "canonical_name": "Siege of Riverrun",
+    "aliases": [
+      "second-siege-of-riverrun"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Second_Siege_of_Riverrun"
+    ]
+  },
+  "siege-of-seagard": {
+    "canonical_name": "Siege of Seagard",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-storms-end": {
+    "canonical_name": "Siege of Storm's End",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-storms-end-299": {
+    "canonical_name": "Siege of Storm's End",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "siege-of-storms-end-300": {
+    "canonical_name": "Siege of Storm's End",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "sistermens-rebellion": {
+    "canonical_name": "Sistermen's RebellionPart ofWars of Conquest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "spice-war": {
+    "canonical_name": "Spice WarPart of theRhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "storming-of-seagard": {
+    "canonical_name": "Storming of Seagard",
+    "aliases": [
+      "battle-of-seagard"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Seagard"
+    ]
+  },
+  "storming-of-starpike": {
+    "canonical_name": "Storming of Starpike",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "storming-of-the-crag": {
+    "canonical_name": "Storming of the Crag",
+    "aliases": [
+      "battle-of-the-crag"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Crag"
+    ]
+  },
+  "storming-of-the-dragonpit": {
+    "canonical_name": "Storming of the Dragonpit",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "struggle-for-power-in-the-iron-islands": {
+    "canonical_name": "Struggle for power in the Iron Islands",
+    "aliases": [
+      "iron-islands-succession-struggle",
+      "struggle-for-power"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Iron_Islands_succession_struggle",
+      "Struggle_for_power"
+    ]
+  },
+  "submission-of-oldtown": {
+    "canonical_name": "Submission of Oldtown",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "submission-of-stokeworth": {
+    "canonical_name": "Submission of Stokeworth",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "submission-of-sunspear": {
+    "canonical_name": "Submission of Sunspear",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "taking-of-ashemark": {
+    "canonical_name": "Taking of Ashemark",
+    "aliases": [
+      "battle-of-ashemark"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Ashemark"
+    ]
+  },
+  "taking-of-crows-nest": {
+    "canonical_name": "Taking of Crow's Nest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "taking-of-deepwood-motte": {
+    "canonical_name": "Taking of Deepwood Motte",
+    "aliases": [
+      "battle-of-deepwood-motte",
+      "fall-of-deepwood-motte"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Battle_of_Deepwood_Motte",
+      "Fall_of_Deepwood_Motte"
+    ]
+  },
+  "taking-of-greenstone": {
+    "canonical_name": "Taking Greenstone",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "taking-of-griffins-roost": {
+    "canonical_name": "Taking of Griffin's Roost",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "taking-of-gulltown": {
+    "canonical_name": "Taking of Gulltown",
+    "aliases": [
+      "battle-of-gulltown-roberts-rebellion"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Gulltown_(Robert's_Rebellion)"
+    ]
+  },
+  "taking-of-maidenpool": {
+    "canonical_name": "Taking of Maidenpool",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "taking-of-rain-house": {
+    "canonical_name": "Taking of Rain House",
+    "aliases": [
+      "taking-of-the-rain-house"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Taking_of_the_Rain_House"
+    ]
+  },
+  "taking-of-stone-hedge": {
+    "canonical_name": "Taking of Stone Hedge",
+    "aliases": [
+      "storming-of-stone-hedge"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Storming_of_Stone_Hedge"
+    ]
+  },
+  "taking-of-storms-end": {
+    "canonical_name": "Taking of Storm's End",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "taking-of-the-shields": {
+    "canonical_name": "Taking of the Shields",
+    "aliases": [
+      "battle-of-the-shield-islands"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_the_Shield_Islands"
+    ]
+  },
+  "targaryen-campaign-in-slavers-bay": {
+    "canonical_name": "Targaryen campaign in Slaver's Bay",
+    "aliases": [
+      "daenerys-war-of-emancipation"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Daenerys'_War_of_Emancipation",
+      "Targaryen_campaign_in_Slavers_Bay"
+    ]
+  },
+  "targaryen-conquest": {
+    "canonical_name": "Targaryen Conquest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "the-conquest-of-dorne": {
+    "canonical_name": "The Conquest of Dorne",
+    "aliases": [
+      "conquest-of-dorne-book"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Conquest_of_Dorne_(book)"
+    ]
+  },
+  "the-forsaken-the-winds-of-winter": {
+    "canonical_name": "The Forsaken",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "the-hands-tourney": {
+    "canonical_name": "The Hands Tourney",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "theon-i-the-winds-of-winter": {
+    "canonical_name": "Theon I",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "third-battle-of-the-boneway": {
+    "canonical_name": "Third Battle of the Boneway",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "third-blackfyre-rebellion": {
+    "canonical_name": "Third Blackfyre RebellionPart of theBlackfyre Rebellions",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "third-dornish-war": {
+    "canonical_name": "Third Dornish War",
+    "aliases": [
+      "lord-rogars-war"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Lord_Rogar's_War"
+    ]
+  },
+  "third-sack-of-maidenpool": {
+    "canonical_name": "Third sack of Maidenpool",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "third-turtle-war": {
+    "canonical_name": "Third Turtle WarPart of theRhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "thousand-years-war": {
+    "canonical_name": "Thousand Years War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "three-thousand-of-qohor": {
+    "canonical_name": "Three Thousand of Qohor",
+    "aliases": [
+      "battle-of-qohor"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Battle_of_Qohor"
+    ]
+  },
+  "tournament-in-honor-of-viseryss-birth": {
+    "canonical_name": "Tournament in honor of Viserys's birth",
+    "aliases": [
+      "lannisport-tourney",
+      "tourney-for-king-aerys-ii"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Lannisport_tourney",
+      "Tourney_for_King_Aerys_II"
+    ]
+  },
+  "tourney": {
+    "canonical_name": "Tourney",
+    "aliases": [
+      "tournament",
+      "tourneys",
+      "tourneys-in-westeros"
+    ],
+    "alias_count": 3,
+    "redirect_sources": [
+      "Tournament",
+      "Tourneys",
+      "Tourneys_in_Westeros"
+    ]
+  },
+  "tourney-at-ashford-meadow": {
+    "canonical_name": "Tourney at Ashford Meadow",
+    "aliases": [
+      "ashford-tourney",
+      "tourney-of-ashford"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Ashford_Tourney",
+      "Tourney_of_Ashford"
+    ]
+  },
+  "tourney-at-duskendale-in-honor-of-lord-darklyns-wedding": {
+    "canonical_name": "Tourney at Duskendale in honor of Lord Darklyn's wedding",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-at-harrenhal": {
+    "canonical_name": "Tourney at Harrenhal",
+    "aliases": [
+      "lord-whents-great-tournament",
+      "tourney-of-harrenhal"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Lord_Whent's_great_tournament",
+      "Tourney_of_Harrenhal"
+    ]
+  },
+  "tourney-at-kings-landing-on-the-anniversary-of-the-kings-coronation": {
+    "canonical_name": "Tourney at King's Landing on the anniversary of the king's coronation",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-at-lannisport": {
+    "canonical_name": "Tourney at Lannisport",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-at-maidenpool": {
+    "canonical_name": "Tourney at Maidenpool",
+    "aliases": [
+      "tourney-of-maidenpool"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Tourney_of_Maidenpool"
+    ]
+  },
+  "tourney-at-old-oak": {
+    "canonical_name": "Tourney at Old Oak",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-at-storms-end": {
+    "canonical_name": "Tourney At Storms End",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-for-king-aerys-ii": {
+    "canonical_name": "Tourney For King Aerys Ii",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-for-king-joffreys-13th-name-day": {
+    "canonical_name": "Tourney For King Joffreys 13Th Name Day",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-for-king-viserys-is-accession": {
+    "canonical_name": "Tourney for King Viserys I's accession",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-for-prince-joffreys-12th-name-day": {
+    "canonical_name": "Tourney For Prince Joffreys 12Th Name Day",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-for-the-completion-of-the-dragonpit": {
+    "canonical_name": "Tourney for the completion of the Dragonpit",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-grounds-kings-landing": {
+    "canonical_name": "Tourney grounds (King's Landing)",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-of-maidenpool": {
+    "canonical_name": "Tourney Of Maidenpool",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-of-the-field-of-roses": {
+    "canonical_name": "Tourney of the Field of Roses",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "tourney-on-king-joffreys-name-day": {
+    "canonical_name": "Tourney on King Joffrey's name day",
+    "aliases": [
+      "tourney-for-king-joffreys-13th-name-day"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Tourney_for_King_Joffrey's_13th_Name_Day"
+    ]
+  },
+  "tourney-on-prince-joffreys-name-day": {
+    "canonical_name": "Tourney on Prince Joffrey's name day",
+    "aliases": [
+      "tourney-for-prince-joffreys-12th-name-day"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Tourney_for_Prince_Joffrey's_12th_Name_Day"
+    ]
+  },
+  "tragedy-at-summerhall": {
+    "canonical_name": "Tragedy at Summerhall",
+    "aliases": [
+      "tragedy-of-summerhall"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Tragedy_of_Summerhall"
+    ]
+  },
+  "tyrion-ii-the-winds-of-winter": {
+    "canonical_name": "Tyrion II",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "unkiss": {
+    "canonical_name": "UnKiss",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "unmasking-of-uthero": {
+    "canonical_name": "Unmasking of Uthero",
+    "aliases": [
+      "uncloaking-of-uthero"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Uncloaking_of_Uthero"
+    ]
+  },
+  "victarion-i-the-winds-of-winter": {
+    "canonical_name": "Victarion I",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "volmark-conspiracy": {
+    "canonical_name": "Volmark conspiracy",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "vulture-hunt": {
+    "canonical_name": "Vulture Hunt",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wailing-willows": {
+    "canonical_name": "Wailing Willows",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-across-the-water": {
+    "canonical_name": "War Across the WaterWorthless War",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-for-the-dawn": {
+    "canonical_name": "War for the dawn",
+    "aliases": [
+      "great-war",
+      "great-battle"
+    ],
+    "alias_count": 2,
+    "redirect_sources": [
+      "Great_War",
+      "Great_battle"
+    ]
+  },
+  "war-for-the-stepstones": {
+    "canonical_name": "War for the Stepstones",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-for-the-white-cloaks": {
+    "canonical_name": "War for the White Cloaks",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-of-the-first-men-and-the-children-of-the-forest": {
+    "canonical_name": "War Of The First Men And The Children Of The Forest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-of-the-five-kings": {
+    "canonical_name": "War of the Five Kings (phase I)",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-of-the-ninepenny-kings": {
+    "canonical_name": "War of the Ninepenny KingsPart of theBlackfyre Rebellions",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-of-the-wolves": {
+    "canonical_name": "War of the Wolves",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-of-the-wombs": {
+    "canonical_name": "War of the Wombs",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-of-three-princes": {
+    "canonical_name": "War of Three PrincesPart of theRhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "war-on-dagger-lake": {
+    "canonical_name": "War on Dagger LakePart of theRhoynish Wars",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wars-of-conquest": {
+    "canonical_name": "Wars of Conquest",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-drogo-and-daenerys-targaryen": {
+    "canonical_name": "Wedding of Drogo and Daenerys Targaryen",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen": {
+    "canonical_name": "Wedding of Hizdahr zo Loraq and Daenerys Targaryen",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen": {
+    "canonical_name": "Wedding of Jaehaerys I Targaryen and Alysanne Targaryen",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-lyonel-corbray-and-lady-corbray": {
+    "canonical_name": "Wedding of Lyonel Corbray and Lady Corbray",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-maron-martell-and-daenerys-targaryen": {
+    "canonical_name": "Wedding of Maron Martell and Daenerys Targaryen",
+    "aliases": [
+      "wedding-of-daenerys-targaryen-and-maron-martell"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Wedding_of_Daenerys_Targaryen_and_Maron_Martell"
+    ]
+  },
+  "wedding-of-petyr-baelish-and-lysa-arryn": {
+    "canonical_name": "Wedding of Petyr Baelish and Lysa Arryn",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-ramsay-bolton-and-arya-stark": {
+    "canonical_name": "Wedding of Ramsay Bolton and Arya Stark",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-renly-baratheon-and-margaery-tyrell": {
+    "canonical_name": "Wedding of Renly Baratheon and Margaery Tyrell",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-rhaena-targaryen-and-androw-farman": {
+    "canonical_name": "Wedding of Rhaena Targaryen and Androw Farman",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-robert-i-baratheon-and-cersei-lannister": {
+    "canonical_name": "Wedding of Robert I Baratheon and Cersei Lannister",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-roose-bolton-and-walda-frey": {
+    "canonical_name": "Wedding of Roose Bolton and Walda Frey",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-sigorn-and-alys-karstark": {
+    "canonical_name": "Wedding of Sigorn and Alys Karstark",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-stannis-baratheon-and-selyse-florent": {
+    "canonical_name": "Wedding of Stannis Baratheon and Selyse Florent",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-tommen-i-baratheon-and-margaery-tyrell": {
+    "canonical_name": "Wedding of Tommen I Baratheon and Margaery Tyrell",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-tyrek-lannister-and-ermesande-hayford": {
+    "canonical_name": "Wedding of Tyrek Lannister and Ermesande Hayford",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-tyrion-lannister-and-sansa-stark": {
+    "canonical_name": "Wedding of Tyrion Lannister and Sansa Stark",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-of-walder-frey-and-joyeuse-erenford": {
+    "canonical_name": "Wedding of Walder Frey and Joyeuse Erenford",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wedding-tourney-at-whitewalls": {
+    "canonical_name": "Wedding tourney at Whitewalls",
+    "aliases": [
+      "whitewalls-tourney"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Whitewalls_Tourney"
+    ]
+  },
+  "weddings-of-catelyn-and-lysa-tully": {
+    "canonical_name": "Weddings of Catelyn and Lysa Tully",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "wildfire-plot": {
+    "canonical_name": "Wildfire plot",
+    "aliases": [
+      "the-wildfire-plot"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "The_Wildfire_Plot"
+    ]
+  },
+  "winter-of-the-widows": {
+    "canonical_name": "Winter of the Widows",
+    "aliases": [
+      "winter-of-widows"
+    ],
+    "alias_count": 1,
+    "redirect_sources": [
+      "Winter_of_Widows"
+    ]
+  },
+  "winter-tourney-at-kings-landing": {
+    "canonical_name": "Winter tourney at King's Landing",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "yielding-of-harrenhal": {
+    "canonical_name": "Yielding of Harrenhal",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  },
+  "yielding-of-rosby": {
+    "canonical_name": "Yielding of Rosby",
+    "aliases": [],
+    "alias_count": 0,
+    "redirect_sources": []
+  }
+}

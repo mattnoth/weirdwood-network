@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-06-08T01:51:20.663482+00:00",
+  "mode": "full-corpus",
+  "model": "claude-sonnet-4-6",
+  "dry_run": false,
+  "resume": true,
+  "rate_limit_hit": false,
+  "chapters_scanned": 344,
+  "trigger_events_found": 628,
+  "gate_e_dialogue_recall_skipped": 213,
+  "unique_hub_groups": 413,
+  "events_attempted_this_run": 9,
+  "skipped_by_ledger": 404,
+  "total_reified": 7,
+  "total_skipped": 1,
+  "total_borderline_queued": 1,
+  "total_errors": 0,
+  "hubs_reused": 0,
+  "hubs_minted": 7,
+  "hubs_queued_review": 0,
+  "total_role_edges": 25,
+  "role_edge_type_counts": {
+    "COMMANDS_IN": 7,
+    "AGENT_IN": 9,
+    "VICTIM_IN": 7,
+    "LOCATED_AT": 2
+  },
+  "total_supersede_candidates": 0,
+  "contract10_passed": true,
+  "contract10_failures": [],
+  "total_cost_usd": 0.566099
+}

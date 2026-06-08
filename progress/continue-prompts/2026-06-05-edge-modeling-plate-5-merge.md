@@ -1,12 +1,16 @@
-# Plate 5 — Gated merge to edges.jsonl + carried-forward S77 cleanups
+# Plate 5 — Gated merge to edges.jsonl + carried-forward cleanups
 
 > **Recommended model:** Sonnet for the deterministic merge + validation. Matt provides before/after sign-off (this is the one irreversible step).
 > **Trust worklog.md over this prompt** (CLAUDE.md rule #9).
-> **Context docs:** `working/edge-modeling/edge-modeling-reification-design.md` §5 (carried-forward cleanups), §8 (reversibility/safety).
+> **Context docs:**
+>   - `working/edge-modeling/PLATE5-READINESS.md` — **READ FIRST** — exhaustive inventory of every staged change across all plates with delta math.
+>   - `working/edge-modeling/edge-modeling-reification-design.md` §5 (carried-forward cleanups), §8 (reversibility/safety)
+>   - `working/edge-modeling/SESSION-2026-06-07-AUTONOMOUS-REPORT.md` — full context of Plate 3 + Plate 4-cluster runs
 > **PRECONDITIONS:**
-> - All Plate 0/3/4 staged outputs exist under `working/edge-modeling/`.
-> - Matt has reviewed each plate's summary and explicitly approved the merge.
+> - All Plate 0/3/4-cluster staged outputs exist under `working/edge-modeling/`.
+> - Matt has reviewed PLATE5-READINESS.md and explicitly approved the merge.
 > - D2 RESOLVED → **(a) Replace** (no materialized agent→patient dyads to emit; superseded scattered binaries get `superseded_by` flag, not deletion).
+> - **Open design question to resolve BEFORE running:** dual-taxonomy vs single-tier for chapter-beat mints. See `progress/continue-prompts/2026-06-08-alias-and-display-design.md`. If Matt picks dual-taxonomy, Plate-3 mints go to a sibling directory (`graph/nodes/events-pass1-beats/`) with `event_tier: pass1-beat` and `SUB_BEAT_OF` edges linking to canonical events.
 
 ## Why
 
@@ -18,8 +22,11 @@ Single gated step that writes all staged work into the canonical graph, with ful
 2. **Merge in order** with a validation pass after each step (use the existing validators: `scripts/stage4-type-contract-validator.py`, schema-drift, orphan-edge):
    - **(a)** Apply Plate 0 normalizer flips (10 flipped rows) — overwrite in place using `working/edge-modeling/normalizer-candidates.jsonl`.
    - **(a')** Apply Aerys slug merge (3 edges repointed `aerys-targaryen` → `aerys-ii-targaryen`) from `working/edge-modeling/aerys-merge-candidates.jsonl`. Quarantine the now-empty `aerys-targaryen` node to `graph/nodes/_conflicts/` per project convention (do NOT delete).
-   - **(b)** Append Plate 3 role edges from `working/edge-modeling/role-edges-staging.jsonl`. Mint event nodes from `working/edge-modeling/minted-event-nodes/` into `graph/nodes/events/`. Mark any superseded scattered binaries with `superseded_by: <hub-slug>` (do not delete — CLAUDE.md source-data rule).
-   - **(c)** Apply Plate 4 promote/sonnet-filter/drop set per `working/edge-modeling/haiku-bulk-disposition.jsonl`.
+   - **(b)** Append Plate 3 role edges from `working/edge-modeling/plate3-full/role-edges-staging.jsonl` (914 edges). Mint event nodes from `working/edge-modeling/plate3-full/minted-event-nodes/` (219 nodes; or sibling dir per dual-taxonomy decision). Mark superseded scattered binaries (55 candidates at `working/edge-modeling/plate3-full/supersede-candidates.jsonl`) with `superseded_by: <hub-slug>` (do not delete — CLAUDE.md source-data rule).
+   - **(b')** Triage `working/edge-modeling/plate3-full/hub-review-queue.jsonl` (109 entries) — Matt's decisions on which borderline mints to keep vs drop. Triage list at `HUB-REVIEW-TRIAGE-LIST.md`.
+   - **(c)** Apply Plate 4-cluster staged edges: 54 cluster edges from `working/edge-modeling/plate4-wiki-cluster/cluster-edges-staging.jsonl` (51 SUB_BEAT_OF + 3 DUPLICATE_OF). The 3 DUPLICATE_OF imply mint→wiki node merges — repoint mint's role edges to the wiki event-node, then mark mint as superseded.
+   - **(c')** Apply Plate 2.5 schema fixes: 27 event-type corrections from `working/edge-modeling/plate2.5-schema-fixes/event-type-corrections.jsonl` (event.battle → event.wedding/feast/coronation/trial). Also apply 12 drift retypes (event.battle → meta.chapter) from `working/edge-modeling/drift-reclassify-candidates.jsonl` + 4 collision merges from `collision-merge-candidates.jsonl`.
+   - **(d)** Add new edge types to `reference/architecture.md` if not already: `SUB_BEAT_OF`, `DUPLICATE_OF`. Add new event sub-types: `event.wedding`, `event.feast`, `event.coronation`, `event.trial`, `event.assassination`, `event.execution`, `event.conspiracy` (the missing-enum bug root cause).
 3. **Carried-forward S77 cleanups** (only if Matt confirms — these were deferred from Session 77 and should not surprise the merge):
    - Drop 2 `cersei ↔ tyrion LOVES` edges (confirmed false from S77 conflict-pairs review).
    - Retype ~22 `ASSAULTS → ATTACKS` edges (`ASSAULTS` is sexual-only per architecture).

@@ -113,8 +113,14 @@ _TRIGGER_KEYWORDS = frozenset({
     # death / killing family
     "kill", "kills", "killed", "murder", "slain", "slaughter", "massacre",
     "assassination", "assassinate", "executed", "execution", "stabbed", "stabs",
-    "dies", "death", "falls", "fall", "throat cut", "slays", "slay",
+    "dies", "death", "throat cut", "slays", "slay",
     "beheaded", "beheading",
+    # (REMOVED 2026-06-07: "falls", "fall" — too narrative; matches "Bran's fall"
+    #  bold titles legitimately but also "Tyrion asks about Bran's fall" / "Catelyn falls",
+    #  and matches the description text under non-event beats.)
+    # (REMOVED 2026-06-07: "fires on", "fire on", "crossbow", "crossbows" — narrative
+    #  micro-action words; the events that legitimately involve crossbows are caught by
+    #  "kill"/"attack"/"betray" already.)
     # wedding / ceremony family
     "wedding", "wed", "bedding", "ceremony", "crowning", "coronation",
     # siege / battle / assault family
@@ -124,7 +130,6 @@ _TRIGGER_KEYWORDS = frozenset({
     "imprisoned", "arrested", "arrest",
     # guest-right / betrayal family
     "betrayal", "betrays", "betray", "betrayed", "guest right", "guest-right",
-    "crossbow", "crossbows", "fires on", "fire on",
     # conspiracy / conspiracy family
     "conspiracy", "plot", "plots", "plotted",
     # sacrifice family
@@ -132,6 +137,99 @@ _TRIGGER_KEYWORDS = frozenset({
     # poison family
     "poison", "poisoned", "poisoning",
 })
+
+# Gate E (added 2026-06-07): dialogue / recall / discussion verb deny-list.
+# These bold-title patterns are recountings, revelations, reflections, or
+# discussions ABOUT events — not events themselves. Reifying them produces
+# duplicate-of-real-event hubs ("cersei-recalls-ned-stark-s-execution") or
+# pure narrative-beat hubs that pollute the graph. Block at the slug-pattern
+# layer BEFORE the LLM call (~21% of GATE-A surviving slugs, ~$10-20 saved).
+#
+# Patterns are matched against the kebab-case slug derived from the bold title.
+# Word-boundary semantics ensure "demands" in "demands-to-know" matches but
+# "aeron-demands-benfred-s-death" does NOT (the latter is a real ordering event).
+_GATE_E_DIALOGUE_RECALL_PATTERNS = re.compile(
+    r"(^|[-_])("
+    # V1 patterns — speech, recall, cognition
+    r"reflects?-on|reflects?|"
+    r"recalls?|remembers?|"
+    r"reveals?|"
+    r"reports?|reported|"
+    r"tells?|told|"
+    r"cryptic-remark|"
+    r"discuss(es|ed|ion)?|discussion-of|"
+    r"debates?|"
+    r"asks?-(about|who|if|that|why|how|whether)|"
+    r"considers?|"
+    r"studies|studied|"
+    r"observes?|"
+    r"questions?-(about|on)|"
+    r"describes?|"
+    r"mentions?|"
+    r"speculates?|"
+    r"deduces?|deduction-of|"
+    r"speaks?-of|"
+    r"warns?-(of|about|that)|"
+    r"suggests?|"
+    r"proposes?|"
+    r"demands?-to-know|"
+    r"claims?-(that|to)|"
+    r"denies-(that|the)|"
+    r"confirms?-(that|the|.*-was|.*-is|.*-killed|.*-died|.*-poisoned)|"
+    r"memory-of|memories-of|"
+    r"dream(s|ed)?-of|"
+    r"vision-(of|that)|"
+    r"flashback|flashbacks?-of|"
+    r"discovery-of|"
+    r"news-of|"
+    r"reactions?-to|"
+    r"recap-of|"
+    r"learns?-(of|about|that|the)|"
+    r"hears?-(of|about|that)|"
+    r"acknowledges?|"
+    r"identifies|"
+    r"agonizes-over|"
+    r"recites?-(her|his)|"
+    r"delivers-news|"
+    r"announcement-of|"
+    r"announcing-the|"
+    r"revelation-(of|that)|"
+    r"raises-the-possibility-of|"
+    r"voice-support-for|"
+    r"voices?-(support|opposition)|"
+    # V2 patterns (2026-06-07) — observed slipthroughs in calibration #2
+    # whisper/mutter speech verbs
+    r"whispers?|whispered|whispering|"
+    r"mutters?|muttered|"
+    r"muses?|mused|"
+    r"wonders?-(if|why|how|what|whether)|"
+    r"thinks?-(of|about|that)|"
+    # aftermath / post-event recap beats
+    r"aftermath-of|"
+    # battle/attack sub-beats (begin, end, rage — not the event itself)
+    r"^(battle|attack|siege)-(begins?|ends?|rages?|outcome|in-progress|assembly|dispositions|becomes|plan|preparations|details|aftermath|formations|outcome-explained|at-the-holdfast|in-the-market-square|in-the-plaza|in-the-street)|"
+    # banquet / feast micro-beats (the actual wedding/coronation are still admitted)
+    r"^(banquet|feast)-(in-progress|begins?|ends?)|"
+    # static scene descriptors
+    r"^bodies-(stored|brought|laid|found|discovered)|"
+    # assignment/insistence/argument beats (not actions)
+    r"is-assigned-to|assigned-to-(kill|spy|find)|"
+    r"insists-(on|that)|"
+    # passive descriptive beats
+    r"rides?-as-prisoner|rides?-with-the|"
+    r"visits?-prisoners?|visits?-the-prisoners?|visits?-dornish-prisoners?|"
+    # plan/preparation beats (not the action)
+    r"plans?-(to|the)|planning-(the|to)"
+    r")([-_]|$)"
+)
+
+
+def is_dialogue_recall_slug(slug: str) -> bool:
+    """Gate E: True if the slug matches a dialogue/recall/discussion verb pattern."""
+    if not slug:
+        return False
+    return bool(_GATE_E_DIALOGUE_RECALL_PATTERNS.search(slug))
+
 
 # Edge types in the reify trigger family (for supersede detection)
 _TRIGGER_EDGE_TYPES = frozenset({
@@ -251,7 +349,18 @@ def load_edges_jsonl(path: Path) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def parse_extraction_sections(md_path: Path) -> dict[str, Any]:
-    """Extract Events & Actions and Relationships Observed from a .extraction.md file."""
+    """Extract Events & Actions and Relationships Observed from a .extraction.md file.
+
+    Each event entry is parsed into:
+        {"bold_title": "<just the **bold** part>", "full_text": "<title + description>"}
+
+    Bold title is what Pass-1 extractor put in `**...**` for that numbered entry
+    (e.g. "Departure at daybreak", "The execution", "Red Wedding"). It is the
+    canonical event name, separate from the narrative description text that
+    follows the em-dash. Plate 3 uses bold_title for trigger-keyword matching
+    and slug generation (full_text would contain promiscuous words like
+    "executed" / "killed" / "slain" in the description and over-admit micro-beats).
+    """
     text = md_path.read_text(encoding="utf-8")
     lines = text.splitlines()
 
@@ -264,7 +373,7 @@ def parse_extraction_sections(md_path: Path) -> dict[str, Any]:
             chapter_id = f"{book} {pov_ch}"
             break
 
-    events: list[str] = []
+    events: list[dict[str, str]] = []
     relationships: list[str] = []
 
     in_events = False
@@ -289,10 +398,14 @@ def parse_extraction_sections(md_path: Path) -> dict[str, Any]:
             continue
 
         if in_events and stripped:
-            clean = re.sub(r"^\d+\.\s*", "", stripped)
-            clean = re.sub(r"\*\*([^*]+)\*\*", r"\1", clean)
+            no_num = re.sub(r"^\d+\.\s*", "", stripped)
+            # Extract bold title from the FIRST **...** block at the start.
+            bold_match = re.match(r"\*\*([^*]+)\*\*", no_num)
+            bold_title = bold_match.group(1).strip() if bold_match else ""
+            # Full clean text = description + title with bold markers stripped.
+            clean = re.sub(r"\*\*([^*]+)\*\*", r"\1", no_num)
             if clean and not clean.startswith("|") and not clean.startswith("-"):
-                events.append(clean)
+                events.append({"bold_title": bold_title, "full_text": clean})
 
         if in_relationships and stripped.startswith("|"):
             if "Character A" in stripped or "---" in stripped:
@@ -307,11 +420,22 @@ def parse_extraction_sections(md_path: Path) -> dict[str, Any]:
     }
 
 
-def filter_trigger_events(events: list[str]) -> list[str]:
-    """Return only events matching Q1 trigger keyword families."""
-    result = []
+def filter_trigger_events(events: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Return only events whose BOLD TITLE matches a Q1 trigger keyword.
+
+    Matching on bold_title (not full_text) is the key gate fix (2026-06-07):
+    Pass-1 description text routinely contains words like "executed", "killed",
+    "slain" in non-event narrative beats — "Bran rides out to see a man executed"
+    is a journey, not an execution event. The bold title is the extractor's
+    declared event name, so it is the right matching surface.
+
+    Falls back to full_text matching if bold_title is empty (extractor didn't
+    use bold formatting), so we don't lose events that lack the bold convention.
+    """
+    result: list[dict[str, str]] = []
     for e in events:
-        if any(kw in e.lower() for kw in _TRIGGER_KEYWORDS):
+        surface = (e.get("bold_title") or e.get("full_text") or "").lower()
+        if any(kw in surface for kw in _TRIGGER_KEYWORDS):
             result.append(e)
     return result
 
@@ -382,11 +506,27 @@ Return ONLY the JSON object. No preamble, no explanation, no markdown fences.
 """
 
 
-def _is_rate_limit_error(returncode: int, stderr: str) -> bool:
-    """Return True if the subprocess failure looks like a hard rate-limit wall."""
-    if returncode in (1, 2):
-        stderr_lower = stderr.lower()
-        return any(pat in stderr_lower for pat in _RATE_LIMIT_STDERR_PATTERNS)
+def _is_rate_limit_error(returncode: int, stderr: str, stdout: str = "") -> bool:
+    """Return True if the subprocess failure looks like a hard rate-limit wall.
+
+    Detection (any of):
+    1. Known rate-limit / quota strings in stderr (or stdout — claude -p sometimes
+       writes the error envelope to stdout instead of stderr).
+    2. **Empty stderr + nonzero exit** (added 2026-06-07): claude -p frequently
+       exits 1 with NO stderr output when the 5-hour usage wall is in effect.
+       That silent-failure mode caused 324 events in a prior run to be misclassified
+       as generic errors and (worse) written to the ledger as "done", causing
+       resume to skip them. Treating silent exit-1 as a wall is the correct safety:
+       worst case it sleeps WALL_SLEEP on a real bug, but never silently loses work.
+    """
+    if returncode not in (1, 2):
+        return False
+    combined = (stderr or "").lower() + " " + (stdout or "").lower()
+    if any(pat in combined for pat in _RATE_LIMIT_STDERR_PATTERNS):
+        return True
+    # Silent failure → assume wall (safe default; never silently mark events done)
+    if not (stderr or "").strip():
+        return True
     return False
 
 
@@ -458,8 +598,9 @@ def call_claude_for_roles(
         elapsed = time.time() - start
 
         if result.returncode != 0:
-            stderr_snippet = result.stderr[:600]
-            if _is_rate_limit_error(result.returncode, result.stderr):
+            stderr_snippet = (result.stderr or "")[:600]
+            stdout_snippet = (result.stdout or "")[:300]
+            if _is_rate_limit_error(result.returncode, result.stderr, result.stdout):
                 rate_limit_count += 1
                 if attempt < max_transient_retries:
                     # One short wait in case it's a brief blip (not a full wall)
@@ -474,11 +615,11 @@ def call_claude_for_roles(
                 # Second rate-limit hit → hard wall; do NOT retry further
                 raise RateLimitError(
                     f"Hard rate-limit wall on event {event_slug!r} "
-                    f"(returncode={result.returncode}): {stderr_snippet}"
+                    f"(returncode={result.returncode}); stderr={stderr_snippet!r} stdout={stdout_snippet!r}"
                 )
             last_exc = RuntimeError(
                 f"claude -p exited {result.returncode} for {event_slug!r}.\n"
-                f"stderr: {stderr_snippet}"
+                f"stderr: {stderr_snippet}\nstdout: {stdout_snippet}"
             )
             if attempt < max_transient_retries:
                 time.sleep(5)
@@ -876,7 +1017,7 @@ def process_event(
         result["warnings"].append(f"Hub resolution=reuse but node not found on disk: {hub_slug}")
 
     # --- Parse extraction files ---
-    all_events: list[str] = []
+    all_events: list[dict[str, str]] = []
     all_relationships: list[str] = []
     chapter_labels: list[str] = []
     source_files: list[str] = []
@@ -888,12 +1029,13 @@ def process_event(
         chapter_labels.append(parsed["chapter"])
         source_files.append(parsed["source_file"])
 
-    # Filter to trigger-family events only
-    relevant_events = filter_trigger_events(all_events)
-    if not relevant_events:
-        # Fall back to all events if none match (can happen for ceremony-type events)
-        relevant_events = all_events[:30]
+    # Filter to trigger-family events only (bold-title-based; see filter_trigger_events).
+    relevant_events_dicts = filter_trigger_events(all_events)
+    if not relevant_events_dicts:
+        relevant_events_dicts = all_events[:30]
         result["warnings"].append("No Q1 trigger events found; using first 30 events as fallback")
+    # Flatten to strings for the LLM prompt (it wants narrative context — full_text).
+    relevant_events = [e.get("full_text", "") for e in relevant_events_dicts]
 
     # --- LLM role assignment ---
     chapter_label = chapter_labels[0] if chapter_labels else ""
@@ -962,8 +1104,9 @@ def process_event(
             result["error"] = str(exc)
             result["hub_resolution"] = f"error-llm-{result['hub_resolution']}"
             print(f"  [{event_slug}] ERROR calling claude -p: {exc}", file=sys.stderr)
-            if ledger_path:
-                write_ledger_entry(ledger_path, event_slug, result.get("hub_slug") or event_slug, "error-llm", 0)
+            # FIX 2026-06-07: do NOT write the ledger on transient LLM errors.
+            # Writing here would cause --resume to SKIP the failed event forever.
+            # Errors are retryable — leave the event uncommitted so the next run picks it up.
             return result
 
     result["usage"] = usage_info
@@ -1023,6 +1166,44 @@ def process_event(
         print(
             f"  [{event_slug}] BORDERLINE: single-agent gate → review queue "
             f"(agents={agent_count}, victims={victim_count}, commands={commands_count})"
+        )
+        return result
+
+    # --- FIX 3: Pure-agent (non-harming-multi-agent) guard (added 2026-06-07) ---
+    # If LLM says n-ary but there are NO VICTIMs and NO COMMANDS (just multiple agents
+    # acting without harm — typical of journeys, councils, observations, discussions),
+    # this is almost certainly a narrative micro-beat that slipped past the keyword filter.
+    # Route to hub-review-queue for human triage. Genuine n-ary events without victims
+    # (e.g. coronations) are rare and worth eyeballing.
+    is_pure_agent_no_harm = (
+        victim_count == 0
+        and commands_count == 0
+        and agent_count >= 2
+    )
+    if is_pure_agent_no_harm:
+        pure_agent_reason = (
+            f"{agent_count} AGENT_IN, 0 VICTIM_IN, 0 COMMANDS_IN — "
+            f"non-harming multi-agent event (likely journey/council/observation). "
+            f"nary_reason from LLM: {nary_reason!r}"
+        )
+        result["hub_resolution"] = "non-harming-multi-agent"
+        result["is_nary"] = False
+        result["nary_reason"] = pure_agent_reason
+        review_entry = {
+            "event_slug": event_slug,
+            "event_title": event_title,
+            "reason": "non-harming-multi-agent",
+            "detail": pure_agent_reason,
+            "llm_nary_reason": nary_reason,
+            "participants": participants_from_llm,
+            "produced_at": datetime.now(timezone.utc).isoformat(),
+        }
+        _append_jsonl_locked(hub_review_path, review_entry)
+        if ledger_path:
+            write_ledger_entry(ledger_path, event_slug, result.get("hub_slug") or event_slug, "non-harming-multi-agent", 0)
+        print(
+            f"  [{event_slug}] NON-HARMING: pure-agent gate → review queue "
+            f"(agents={agent_count}, victims=0, commands=0)"
         )
         return result
 
@@ -1549,7 +1730,7 @@ def smoke_test_red_wedding(
         print(f"  [warn] Hub node NOT found at {hub_node_path}")
 
     print(f"\nStep 2: Parsing {len(chapter_files)} extraction file(s)...")
-    all_events: list[str] = []
+    all_events: list[dict[str, str]] = []
     all_relationships: list[str] = []
     all_chapters: list[str] = []
     all_source_files: list[str] = []
@@ -1568,11 +1749,13 @@ def smoke_test_red_wedding(
     catelyn_07_file = next((cf for cf in chapter_files if "catelyn-07" in cf.name), None)
     if catelyn_07_file:
         catelyn_07_parsed = parse_extraction_sections(catelyn_07_file)
-        relevant_events = catelyn_07_parsed["events"]
+        relevant_events_dicts = catelyn_07_parsed["events"]
         all_relationships_for_event = catelyn_07_parsed["relationships"]
     else:
-        relevant_events = filter_trigger_events(all_events)
+        relevant_events_dicts = filter_trigger_events(all_events)
         all_relationships_for_event = all_relationships
+    # Flatten to strings for the LLM prompt (uses full_text — bold_title + description).
+    relevant_events = [e.get("full_text", "") for e in relevant_events_dicts]
 
     participants = [
         {"slug": "walder-frey",       "name": "Walder Frey (Lord of the Crossing)"},
@@ -1719,6 +1902,7 @@ def run_full_corpus(
     dry_run: bool = False,
     concurrency: int = 5,
     resume: bool = False,
+    max_events: int | None = None,
 ) -> None:
     """Full corpus scan: process all 344 chapter extractions in parallel.
 
@@ -1802,17 +1986,41 @@ def run_full_corpus(
 
     chapters_scanned = 0
     trigger_events_found = 0
+    gate_e_skipped = 0
+    gate_e_skip_path = output_dir / "gate-e-dialogue-recall-skipped.jsonl"
 
     for cf in all_extraction_files:
         chapters_scanned += 1
         parsed = parse_extraction_sections(cf)
         trigger_evts = filter_trigger_events(parsed["events"])
 
-        for evt_text in trigger_evts:
+        for evt in trigger_evts:
             trigger_events_found += 1
 
-            # Try Q2 reuse lookup on the event text (truncated to first 100 chars as title)
-            event_title = evt_text[:100].strip()
+            # Use BOLD TITLE as the canonical event title (clean, declarative event name
+            # like "Red Wedding" / "Bran's fall" / "The execution"). Fall back to full_text
+            # if bold is missing. This is the slug-quality fix (2026-06-07): slugifying the
+            # 80-char description text produced micro-beat slugs like
+            # "departure-at-daybreak-bran-rides-out-with-his-lord-father-...".
+            event_title = (evt.get("bold_title") or "").strip()
+            if not event_title:
+                event_title = evt.get("full_text", "")[:100].strip()
+
+            # Gate E (added 2026-06-07): dialogue/recall/discussion verb deny-list,
+            # applied BEFORE the LLM call. Catches the 1A+1V+1C hole that fools
+            # gates B/C/D (e.g. "Cersei reveals Joffrey ordered Eddard's execution").
+            candidate_slug_for_gate = _title_to_slug_candidate(event_title)
+            if is_dialogue_recall_slug(candidate_slug_for_gate):
+                gate_e_skipped += 1
+                _append_jsonl(gate_e_skip_path, {
+                    "event_slug": candidate_slug_for_gate,
+                    "event_title": event_title,
+                    "source_chapter": str(cf.relative_to(_REPO)),
+                    "reason": "gate-e-dialogue-recall-verb",
+                    "produced_at": datetime.now(timezone.utc).isoformat(),
+                })
+                continue
+
             resolved_slug, match_type, score = resolve_event_slug(event_title, lookup, threshold=0.80)
 
             if match_type in ("exact", "slug", "token_sorted"):
@@ -1841,13 +2049,14 @@ def run_full_corpus(
             if cf_str not in group["seen_chapter_paths"]:
                 group["seen_chapter_paths"].add(cf_str)
                 group["chapter_files"].append(cf)
-            # Keep the longest/most descriptive title
+            # Keep the longest/most descriptive title (still bold-title; rare ties broken on length)
             if len(event_title) > len(group["event_title"]):
                 group["event_title"] = event_title
 
     print(f"Chapters scanned: {chapters_scanned}")
-    print(f"Trigger events found: {trigger_events_found}")
-    print(f"Unique hub groups: {len(hub_to_chapters)}")
+    print(f"Trigger events found (GATE A): {trigger_events_found}")
+    print(f"Gate E (dialogue/recall) skipped: {gate_e_skipped} → {gate_e_skip_path.name}")
+    print(f"Unique hub groups (post-GATE-A+E): {len(hub_to_chapters)}")
     print()
 
     # Build event_cfg dicts from the hub groups
@@ -1874,7 +2083,17 @@ def run_full_corpus(
 
     if resume:
         print(f"Skipped by ledger (--resume): {skipped_by_ledger}")
-    print(f"Events to process this run: {len(events_to_process)}")
+    print(f"Events available to process: {len(events_to_process)}")
+
+    # --max-events: cap this invocation for calibration / cost-bounded chunks.
+    # Selection is deterministic (sorted by hub_slug) so successive --resume runs
+    # under --max-events still make forward progress (ledger excludes done ones).
+    if max_events is not None and len(events_to_process) > max_events:
+        events_to_process.sort(key=lambda e: e["event_slug"])
+        events_to_process = events_to_process[:max_events]
+        print(f"--max-events cap: trimming to first {max_events} (deterministic by event_slug)")
+
+    print(f"Events to process this run:  {len(events_to_process)}")
     print()
 
     if not events_to_process:
@@ -2080,6 +2299,7 @@ def run_full_corpus(
         "rate_limit_hit": rate_limit_hit,
         "chapters_scanned": chapters_scanned,
         "trigger_events_found": trigger_events_found,
+        "gate_e_dialogue_recall_skipped": gate_e_skipped,
         "unique_hub_groups": len(hub_to_chapters),
         "events_attempted_this_run": total_events,
         "skipped_by_ledger": skipped_by_ledger if resume else 0,
@@ -2214,6 +2434,16 @@ def main(argv: list[str] | None = None) -> None:
             "Safe to run after a rate-limit wall exit (exit code 2) or SIGKILL."
         ),
     )
+    parser.add_argument(
+        "--max-events",
+        type=int,
+        default=None,
+        help=(
+            "Cap the number of events processed in this invocation (calibration / cost-bounded "
+            "chunks). Selection is deterministic (sorted by event_slug) so multiple chunked "
+            "--resume runs keep making forward progress. Default: process all eligible."
+        ),
+    )
 
     args = parser.parse_args(argv)
 
@@ -2228,6 +2458,7 @@ def main(argv: list[str] | None = None) -> None:
             dry_run=args.dry_run,
             concurrency=args.concurrency,
             resume=args.resume,
+            max_events=args.max_events,
         )
         return
 

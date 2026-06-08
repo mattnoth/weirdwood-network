@@ -55,3 +55,29 @@
 **Decisions (Matt confirmed all three up front):** (1) **Full re-merge** (one consolidated v2 jsonl, not additive overlay). (2) **Ship Events-only as v2.0 now**; Dialogue lands as v2.1 via a parallel chain spawned by step 7. (3) **`reject_reason` schema fix deferred to Dialogue prep** (not blocking v2.0). Chain shape: 7 self-contained prompts, each declaring prerequisite + deliverable + gate + recommended model. Mechanical steps (contracts, resolver) → Sonnet 4.6; judgment steps (drift audit, precision audit, sensitive write) → Opus 4.7. Hard rule carried: never modify `edges.jsonl` without Matt's before/after sign-off.
 
 **What's next:** Begin the chain. → `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/01-drift-audit.md` (**Sonnet 4.6 + Opus 4.7**) — cross-model audit on a stratified ~50-row sample; gates v2.0 promotion at ≥70% triple / ≥85% pair agreement. Stale: `progress/continue-prompts/2026-05-27-events-haiku-bulk-monitor.md` (the in-flight run it monitored is now complete; obligations absorbed by the new chain) — to archive.
+
+### Session 81 — Events Haiku bulk drift audit → NO-GO (borderline); fresh-eyes corrected the framing (2026-05-31 → 2026-06-01)
+
+**Model:** Opus 4.7 (orchestrator + audit-script author) + general-purpose subagent (cold fresh-eyes review) + Sonnet 4.6 (judge via `claude -p` cwd=/tmp). **Detail:** `history/session-details/session-081.md`. **Commit:** this endsession commit.
+
+**Changes made:**
+- NEW `scripts/events-drift-audit.py` (sha `576cc815649c`, 327 lines, throwaway single-purpose) — reuses canonical `render_classify_prompt` / `invoke_claude` / `parse_batch_response` / `align_batch_output` from `stage4-tail-classifier.py` for byte-identical prompt parity with Haiku's bulk run; custom stratified sampler (≥3 of each of 6 named structural types; remainder proportional by book); seed=531; `--dry-run` default, `--apply` required for spend.
+- NEW `working/audits/events-haiku-bulk-2026-05-29/{audit-sample-50.jsonl, audit-sample-50-judged.jsonl, cross-model-audit.md}` — all carry metadata header (judge_model, judge_cwd, sample_seed, prompt_sha, script_sha, timestamps, judged_count, cost). cross-model-audit.md amended with fresh-eyes banner at top.
+- NEW `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/step-01-status.md` (amended with No-Go + fresh-eyes correction).
+- NEW `progress/continue-prompts/2026-06-01-events-bulk-escalation-pick.md` — next-session entry point, lists 5 escalation paths.
+
+**Audit result:** Stratified 50-row sample (seed=531); Sonnet 4.6 judge, $0.93 total. Triple-level **48 %** (24/50; floor 70 %), pair-level **56 %** (28/50; floor 85 %). 22/50 Haiku emits rejected by Sonnet. Named-type breakdown: TRAVELS_TO 17 % (1/6), TRAVELS_WITH 0 % (0/4), LOCATED_AT 20 % (1/5), COMMANDS 50 %, SERVES 67 %, REVEALS_TO 67 %. Prompt SHA byte-identical to Haiku bulk run (`d31ca56c4768`). Methodology bugs: **none** (verified by fresh-eyes subagent).
+
+**Fresh-eyes pressure-test corrected the framing** (Matt didn't trust the 48 % number; subagent was instructed to read rules cold, then cold-judge the 22 REJECTs, then locate the smoke session):
+- ~11 of 22 REJECTs **are clear Haiku drift** (Rule 4a hint-as-evidence, V5-R2 quote-doesn't-support-both-endpoints, Rule 12 co-presence) — Sonnet correct.
+- **~3-4 are clear Sonnet over-rejections** (judge_idx 2 Edmure TRAVELS_WITH Lymond "on the march"; 6 Jaime TRAVELS_TO Harrenhal "when he came to Harrenhal"; 14 Ramsay REVEALS_TO Roose dispatched riders; 16 Haldon TRAVELS_WITH Duck co-riders).
+- ~7-8 genuinely ambiguous, most lean V5-defensible-reject.
+- **The audit's S69 smoke citation was WRONG** — actual session is **S77**, and S77 measured *hand-read precision on fresh candidates* (Matt's eye), NOT *Sonnet-judges-Haiku-emit on stratified emits-only*. Different metric on different sample shape. The apparent contradiction between the smoke (~85-90 %) and this audit (48 %) is **measurement-shape, not drift**.
+- Adjusted triple agreement crediting all over-rejections + all ambiguous ≈ 56-70 % — at or below the 70 % gate.
+
+**Decisions:** (1) **No-Go stands but is borderline**, not catastrophic. Promoting `_events-haiku-bulk/` as v2.0 would inject systematic noise into the structural-edge types (TRAVELS_TO/WITH/LOCATED_AT), where Haiku's hint-as-evidence failure mode concentrates. (2) **The 7-step promotion chain is halted at step 1** until Matt picks an escalation path. (3) **Audit script is THROWAWAY** — single-purpose, not generalized into a framework (per chain spec); reused canonical prompt code for parity. (4) **Cost discipline observed** — `--dry-run` default, `--apply` only after explicit Matt-go ($0.93 total spend).
+
+**What's next:** Matt picks one of the 5 escalation paths in `cross-model-audit.md §6`: (A) re-run on Sonnet (~$340), (B) promote long-tail-only, (C) Sonnet-filter named-type rows only (~$2-5, **audit's recommendation**), (D) tighten Haiku prompt to v6 + re-run, (E) abandon Events for v2.0; wait for Dialogue. → `progress/continue-prompts/2026-06-01-events-bulk-escalation-pick.md` (**Opus 4.7** for the pick, then Sonnet 4.6 for whatever mechanical work follows). Stale: the 7 step prompts at `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/02-06-*.md` likely need rewrites once path is picked, or supersede the chain if (E). Still gated on Matt: 3 core-cleanups (drop 2 `cersei↔tyrion` LOVES; ~22 ASSAULTS→ATTACKS; merge-time OWNS→BONDED_TO).
+
+
+---
