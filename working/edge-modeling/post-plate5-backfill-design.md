@@ -159,7 +159,7 @@ Adds a single TODO: "fold edge-modeling lessons into Dialogue v2.1 escalation pi
 ## Sequencing recommendation
 
 ```
-Plate 5 lands (Sonnet session, single irreversible step)
+Plate 5 lands (Opus session, first plate to write to canonical edges.jsonl)
          ↓
 Track A Phase 1 (deterministic dictionary, $0, ~100-200 retypes)
          ↓

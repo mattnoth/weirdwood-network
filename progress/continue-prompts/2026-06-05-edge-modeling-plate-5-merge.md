@@ -1,6 +1,6 @@
 # Plate 5 — Gated merge to edges.jsonl + carried-forward cleanups
 
-> **Recommended model:** Opus 4.7 (upgraded from Sonnet 2026-06-08 S86). This is the only irreversible step in the project — stakes warrant the strongest reasoning. The merge involves real judgment calls: 109-entry hub-review-queue triage (which borderline mints to keep vs drop), 55 supersede-candidate decisions (which scattered binaries get `superseded_by` flag), 3 `DUPLICATE_OF` mint↔wiki merges (repoint role edges correctly), conflict resolution if staged event-type retypes touch nodes with other metadata. Plus the new S86 scope (SUB_BEAT_OF formalization + title→name rewrite) added since the prompt was first drafted under Sonnet recommendation. Matt provides before/after sign-off.
+> **Recommended model:** Opus 4.7 (upgraded from Sonnet 2026-06-08 S86). This is the first plate to write to the canonical `graph/edges/edges.jsonl` (staging → production transition). Technically reversible — Step 1 backs up to `_regrounding/edges-pre-reification-<date>.jsonl` and git tracks the change — but high-friction to undo (would need to restore backup, rebuild downstream indexes, communicate the rollback). Stakes warrant the strongest reasoning, and the merge involves real judgment calls: 109-entry hub-review-queue triage (which borderline mints to keep vs drop), 55 supersede-candidate decisions (which scattered binaries get `superseded_by` flag), 3 `DUPLICATE_OF` mint↔wiki merges (repoint role edges correctly), conflict resolution if staged event-type retypes touch nodes with other metadata. Plus the new S86 scope (SUB_BEAT_OF formalization + title→name rewrite) added since the prompt was first drafted under Sonnet recommendation. Matt provides before/after sign-off.
 > **Trust worklog.md over this prompt** (CLAUDE.md rule #9).
 > **Context docs:**
 >   - `working/edge-modeling/PLATE5-READINESS.md` — **READ FIRST** — exhaustive inventory of every staged change across all plates with delta math.
@@ -17,7 +17,7 @@
 
 ## Why
 
-Single gated step that writes all staged work into the canonical graph, with full backup and a before/after diff. This is the only irreversible plate — treat with care.
+Single gated step that writes all staged work into the canonical graph, with full backup and a before/after diff. This is the first plate to write to `graph/edges/edges.jsonl` — backup-recoverable but high-friction to undo. Treat with care.
 
 ## Steps
 

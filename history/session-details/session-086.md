@@ -38,7 +38,9 @@ Wrote `working/edge-modeling/post-plate5-backfill-design.md` — 3 tracks (A/B/C
 
 Then Matt caught a worse error in my framing: I'd written that the backfill memo was "exempt from the S74 no-LLM-enrichment ban." Matt corrected: "S74 was NOT a permanent ban — that was a specific gate failure on a specific run. S75 amended to 'enrichment wanted, gated on precision.'" I had the right memory (`project_enrichment_wanted_events_next.md` says exactly this) and failed to recall it correctly mid-fork. Updated 4 files to correct the framing: the backfill memo (3 spots), the alias-resolver memo (1 spot), the todos HIGH entry, the worklog Session 86 entry.
 
-**Arc 4 — Commit/push/handoff.** Matt approved Plate 5 prompt model upgrade (Sonnet → Opus per his pushback that the irreversible step warrants strongest reasoning) and the Dialogue cross-reference. Two-edit commit `f7667c5a1`. Both commits pushed.
+**Arc 4 — Commit/push/handoff.** Matt approved Plate 5 prompt model upgrade (Sonnet → Opus per his pushback that the highest-stakes step warrants strongest reasoning) and the Dialogue cross-reference. Two-edit commit `f7667c5a1`. Both commits pushed.
+
+**Arc 5 — "Irreversible" framing reframed.** End-of-session, Matt asked "why is it irreversible?" Honest answer: it isn't, technically. Step 1 of Plate 5 backs up to `_regrounding/edges-pre-reification-<date>.jsonl` before any write, and git tracks the change. I'd inherited "irreversible" framing from the S83 continue prompt and propagated it through everything. Reframed across 6 files (this file, worklog Current State + Session 86 entry, Plate 5 prompt, post-Plate-5 backfill design, todos.md) to: "first plate to write to canonical `graph/edges/edges.jsonl`; backup-recoverable but high-friction to undo." Historical session entries (S85 + S83 in worklog Session Log) left untouched per the no-edit-historical rule. Opus recommendation for Plate 5 still stands — justification shifts from "irreversible step" to "first canonical-graph write + judgment calls + multi-part scope."
 
 ## Key decisions
 
@@ -50,7 +52,7 @@ Then Matt caught a worse error in my framing: I'd written that the backfill memo
 - **Substitution test** is the canonical rule for alias-vs-sub-beat distinction. Dashes-vs-spaces test catches surface variants only.
 - **No Haiku augmentation on event_alias_resolver.** Not because of any blanket ban, but because a ~70%-precision LLM tail over a ~95%-precision deterministic lookup has no precision-gate math to win.
 - **Plate 5 stays tight as scoped.** ~50 retroactive cleanups; no backfill scope creep. Each backfill track gets its own gate after Plate 5 lands.
-- **Plate 5 model upgraded Sonnet → Opus 4.7.** Stakes warrant the strongest reasoning (irreversible step, judgment calls, scope additions since prompt was originally drafted).
+- **Plate 5 model upgraded Sonnet → Opus 4.7.** Stakes warrant the strongest reasoning (first canonical-graph write, judgment calls during merge, multi-part scope additions since prompt was originally drafted).
 - **S74's "no LLM enrichment" was a specific gate failure on a specific run, NOT a permanent ban.** S75 amended to "enrichment wanted, gated on precision." All future LLM-touching backfill phases pass the same precision gate. Standing rule restated everywhere.
 - **Post-Plate-5 backfill: 3 tracks (A vocab-drift, B reification of existing edges into event hubs, C head-rule cleanup).** ~$25-75 total for 300-850 edges touched (6-17× Plate 5's retroactive scope). Audit-loop discipline applies (Reporter + Auditor per track).
 - **Dialogue v2.1 escalation pick MUST fold in S82-S86 edge-modeling lessons.** Cross-reference added to the existing escalation-pick continue prompt.
@@ -86,7 +88,7 @@ Unchanged. `edges.jsonl` = 3,811. `graph/nodes/events/` = 371. `git status graph
 
 ## What's next
 
-→ Plate 5 merge (single-session, **Opus 4.7**, irreversible step). Existing prompt at `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` — updated with S86 decisions.
+→ Plate 5 merge (single-session, **Opus 4.7**, first plate to write to canonical `edges.jsonl`). Existing prompt at `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` — updated with S86 decisions.
 
 After Plate 5 lands, the post-Plate-5 backfill work begins per `working/edge-modeling/post-plate5-backfill-design.md`. 3 tracks, each with its own gate. Pass 1 chapter re-extraction stays off the table.
 
