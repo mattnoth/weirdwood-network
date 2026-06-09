@@ -1,6 +1,6 @@
 ---
 name: "Feast in honor of King Robert's visit to Winterfell"
-type: event.battle
+type: event.feast
 slug: feast-in-honor-of-king-roberts-visit-to-winterfell
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Ramsay Bolton and Arya Stark"
-type: event.battle
+type: event.wedding
 slug: wedding-of-ramsay-bolton-and-arya-stark
 aliases: []
 confidence: tier-2

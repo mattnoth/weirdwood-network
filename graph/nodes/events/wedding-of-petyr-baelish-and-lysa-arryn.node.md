@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Petyr Baelish and Lysa Arryn"
-type: event.battle
+type: event.wedding
 slug: wedding-of-petyr-baelish-and-lysa-arryn
 aliases: []
 confidence: tier-2

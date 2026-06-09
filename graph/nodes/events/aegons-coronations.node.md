@@ -1,6 +1,6 @@
 ---
 name: "Aegon's coronations"
-type: event.battle
+type: event.coronation
 slug: aegons-coronations
 aliases: []
 confidence: tier-2

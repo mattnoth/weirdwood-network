@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Renly Baratheon and Margaery Tyrell"
-type: event.battle
+type: event.wedding
 slug: wedding-of-renly-baratheon-and-margaery-tyrell
 aliases: []
 confidence: tier-2

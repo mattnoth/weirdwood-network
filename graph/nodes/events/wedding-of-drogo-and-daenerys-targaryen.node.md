@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Drogo and Daenerys Targaryen"
-type: event.battle
+type: event.wedding
 slug: wedding-of-drogo-and-daenerys-targaryen
 aliases: []
 confidence: tier-2

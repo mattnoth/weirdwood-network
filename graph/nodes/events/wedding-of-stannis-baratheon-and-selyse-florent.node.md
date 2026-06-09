@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Stannis Baratheon and Selyse Florent"
-type: event.battle
+type: event.wedding
 slug: wedding-of-stannis-baratheon-and-selyse-florent
 aliases: []
 confidence: tier-2

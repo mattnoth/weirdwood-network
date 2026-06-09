@@ -1,6 +1,6 @@
 ---
 name: "Coronation of Robert I Baratheon"
-type: event.battle
+type: event.coronation
 slug: coronation-of-robert-i-baratheon
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Weddings of Catelyn and Lysa Tully"
-type: event.battle
+type: event.wedding
 slug: weddings-of-catelyn-and-lysa-tully
 aliases: []
 confidence: tier-2

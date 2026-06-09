@@ -1,6 +1,6 @@
 ---
 name: "The Forsaken (The Winds of Winter)"
-type: event.battle
+type: meta.chapter
 slug: the-forsaken-the-winds-of-winter
 aliases: []
 confidence: tier-1

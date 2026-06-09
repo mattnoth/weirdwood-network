@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Rhaena Targaryen and Androw Farman"
-type: event.battle
+type: event.wedding
 slug: wedding-of-rhaena-targaryen-and-androw-farman
 aliases: []
 confidence: tier-2

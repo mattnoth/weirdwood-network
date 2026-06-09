@@ -1,6 +1,6 @@
 ---
 name: "Victarion I (The Winds of Winter)"
-type: event.battle
+type: meta.chapter
 slug: victarion-i-the-winds-of-winter
 aliases: []
 confidence: tier-1

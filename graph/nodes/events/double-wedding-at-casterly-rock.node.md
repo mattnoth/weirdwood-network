@@ -1,6 +1,6 @@
 ---
 name: "Double wedding at Casterly Rock"
-type: event.battle
+type: event.wedding
 slug: double-wedding-at-casterly-rock
 aliases: []
 confidence: tier-2

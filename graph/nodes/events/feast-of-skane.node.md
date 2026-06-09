@@ -1,6 +1,6 @@
 ---
 name: "Feast of Skane"
-type: event.battle
+type: event.feast
 slug: feast-of-skane
 aliases: []
 confidence: tier-2

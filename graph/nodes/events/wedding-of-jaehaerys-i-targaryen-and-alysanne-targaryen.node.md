@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Jaehaerys I Targaryen and Alysanne Targaryen"
-type: event.battle
+type: event.wedding
 slug: wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen
 aliases: []
 confidence: tier-2

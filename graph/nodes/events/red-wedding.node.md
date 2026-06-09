@@ -1,6 +1,6 @@
 ---
 name: "Red Wedding"
-type: event.battle
+type: event.wedding
 slug: red-wedding
 aliases: []
 confidence: tier-1

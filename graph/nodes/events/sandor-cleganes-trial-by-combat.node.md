@@ -1,6 +1,6 @@
 ---
 name: "Sandor Clegane's trial by combat"
-type: event.battle
+type: event.trial
 slug: sandor-cleganes-trial-by-combat
 aliases: []
 confidence: tier-1

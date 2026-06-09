@@ -1,6 +1,6 @@
 ---
 name: "Alayne I (The Winds of Winter)"
-type: event.battle
+type: meta.chapter
 slug: alayne-i-the-winds-of-winter
 aliases: []
 confidence: tier-1

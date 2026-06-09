@@ -1,6 +1,6 @@
 ---
 name: "Barristan I (The Winds of Winter)"
-type: event.battle
+type: meta.chapter
 slug: barristan-i-the-winds-of-winter
 aliases: []
 confidence: tier-1

@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Sigorn and Alys Karstark"
-type: event.battle
+type: event.wedding
 slug: wedding-of-sigorn-and-alys-karstark
 aliases: []
 confidence: tier-2

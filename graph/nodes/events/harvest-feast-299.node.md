@@ -1,6 +1,6 @@
 ---
 name: "Harvest feast (299)"
-type: event.battle
+type: event.feast
 slug: harvest-feast-299
 aliases: []
 confidence: tier-2

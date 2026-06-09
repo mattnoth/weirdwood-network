@@ -1,6 +1,6 @@
 ---
 name: "Purple Wedding"
-type: event.battle
+type: event.wedding
 slug: purple-wedding
 aliases: []
 confidence: tier-1

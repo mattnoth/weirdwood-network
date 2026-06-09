@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Hizdahr zo Loraq and Daenerys Targaryen"
-type: event.battle
+type: event.wedding
 slug: wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Maron Martell and Daenerys Targaryen"
-type: event.battle
+type: event.wedding
 slug: wedding-of-maron-martell-and-daenerys-targaryen
 aliases: []
 confidence: tier-2

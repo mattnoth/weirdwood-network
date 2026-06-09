@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Walder Frey and Joyeuse Erenford"
-type: event.battle
+type: event.wedding
 slug: wedding-of-walder-frey-and-joyeuse-erenford
 aliases: []
 confidence: tier-2

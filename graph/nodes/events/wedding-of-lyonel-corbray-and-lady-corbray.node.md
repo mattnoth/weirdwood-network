@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Lyonel Corbray and Lady Corbray"
-type: event.battle
+type: event.wedding
 slug: wedding-of-lyonel-corbray-and-lady-corbray
 aliases: []
 confidence: tier-2

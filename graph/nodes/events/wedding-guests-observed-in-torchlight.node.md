@@ -1,0 +1,20 @@
+---
+slug: wedding-guests-observed-in-torchlight
+type: event.ceremony
+name: "Wedding guests observed in torchlight"
+status: minted-plate3
+minted_at: 2026-06-07T20:45:11.319194+00:00
+evidence_chapters:
+  - ADWD The Prince of Winterfell I
+---
+
+# Wedding guests observed in torchlight
+
+Event node minted by Plate 3 full-corpus scan for: Wedding guests observed in torchlight
+
+## Edges
+(populated by Plate 3 role-edge staging; merge at Plate 5)
+
+## Notes
+Node minted by `edge-reify-backfill.py --batch` during Plate 3 mini-batch run.
+Staging only — do NOT promote to graph/nodes/events/ until Plate 5 gated merge.

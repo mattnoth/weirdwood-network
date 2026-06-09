@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Tyrek Lannister and Ermesande Hayford"
-type: event.battle
+type: event.wedding
 slug: wedding-of-tyrek-lannister-and-ermesande-hayford
 aliases: []
 confidence: tier-2

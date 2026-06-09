@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Tyrion Lannister and Sansa Stark"
-type: event.battle
+type: event.wedding
 slug: wedding-of-tyrion-lannister-and-sansa-stark
 aliases: []
 confidence: tier-2

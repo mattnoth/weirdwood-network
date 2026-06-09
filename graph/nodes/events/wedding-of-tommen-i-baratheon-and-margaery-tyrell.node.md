@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Tommen I Baratheon and Margaery Tyrell"
-type: event.battle
+type: event.wedding
 slug: wedding-of-tommen-i-baratheon-and-margaery-tyrell
 aliases: []
 confidence: tier-2

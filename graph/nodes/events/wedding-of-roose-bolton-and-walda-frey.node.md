@@ -1,6 +1,6 @@
 ---
 name: "Wedding of Roose Bolton and Walda Frey"
-type: event.battle
+type: event.wedding
 slug: wedding-of-roose-bolton-and-walda-frey
 aliases: []
 confidence: tier-2

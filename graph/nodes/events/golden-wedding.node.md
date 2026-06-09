@@ -1,6 +1,6 @@
 ---
 name: "Golden Wedding"
-type: event.battle
+type: event.wedding
 slug: golden-wedding
 aliases: []
 confidence: tier-2
