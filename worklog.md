@@ -230,6 +230,33 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 88 — Plate 5 recap + validation track scoped + S87 endsession gap-fill (2026-06-09 → 2026-06-10)
+
+**Model:** Opus 4.7 (orchestrator + execution; no agents delegated). **Detail:** none (light session — wrap-up after S87 cutoff + design substance captured in the validation continue prompt). **Commits:** `cd1f362dc` (WIP gap-fill), this endsession commit.
+
+**Context:** S87 ended abruptly mid-endsession (chat got cut off after the Plate 5 commit landed). Matt returned, asked how Plate 5 went + what the `quoted_evidence` vs `evidence_quote` field-rename was about, then asked to scope the next track ("actually using the graph to do some validation") and to make a WIP commit + push for the missed endsession steps.
+
+**Wrap-up conversation:**
+- Plate 5 recap: `edges.jsonl` 3,811 → **4,757 (+946)**; `events/` 371 → 583 (+212); validator 4,725 kept / 32 dropped (SUB_BEAT_OF empty-evidence rows remain in JSONL as read-only audit); Red Wedding 2-hop smoke passes end-to-end.
+- `quoted_evidence` vs `evidence_quote`: same semantics (verbatim book quote grounding an edge); `evidence_quote` is canonical across the whole schema; `quoted_evidence` was a divergent name in Plate 4 cluster staging; fix-in-place during merge renamed 51 SUB_BEAT_OF rows (19 retained text, 32 got explanatory `plate5_evidence_note` for inference-only Pass-B/Pass-C emissions).
+
+**Validation track scoped:** Four modes — (1) capability validation (does the new structure work; 8 probe queries on reified event hubs); (2) canonical accuracy (fact-check vs. books; partially absorbed by Track A backfill); (3) agent grounding (the real project goal — agent with `graph-query.py` as a tool answers real ASOIAF questions); (4) surprise/discovery (aggregate queries impossible pre-Plate-5). Recommendation: Mode 1 first (cheapest, isolates the graph layer; misses route cleanly to the 6 post-Plate-5 follow-up TODOs or backfill Tracks A/B/C). Mode 3 is the real test but needs Mode 1 to settle first so debugging is tractable.
+
+**S87 endsession gap-fill (WIP commit `cd1f362dc`, pushed):**
+- `working/todos.md`: EDGE/EVENT MODELING entry flipped [~]→[x] "ALL PLATES SHIPPED INCLUDING PLATE 5 (S82-S87)"; added 6 post-Plate-5 follow-up TODOs (display bullets, 32 empty-quote SUB_BEAT_OF, 109 hub-review-queue, 2 deferred collisions, donal-noye↔mag mutual-kill reverse, backfill tracks A/B/C); replaced obsolete `→ continue:` links with new validation prompt.
+- `progress/continue-prompts/2026-06-09-graph-validation.md` (NEW): 4 modes, 8 Mode-1 probes, decision points listed, recommendation noted.
+- `working/edge-modeling/plate3-revalidation/` (NEW): S85-era artifacts (2 minted event nodes, role-edge staging, skipped clean dyads, supersede candidates) committed for the record.
+- `~/.claude/.../project_edge_modeling_reification_direction.md` (memory, outside repo): updated S84 status → S87 ship state with the 6-followup-TODO summary.
+
+**This endsession (additional):**
+- `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` DELETED — Plate 5 shipped, prompt obsolete.
+- `progress/continue-prompts/2026-06-05-edge-modeling-plate-4-haiku-disposition.md` KEPT — its 1,617-row re-bucketing under reify lens is still part of post-Plate-5 backfill Track B; `→ continue:` link re-added under that TODO in todos.md (was accidentally removed during gap-fill edit).
+- Session 83 (Edge-modeling Plates 0+1+2) archived to `history/worklog-archives/archive018.md` (archive018 now 2/5; co-located with S83-/tmp-paths).
+
+**Out of scope (preserved untouched):** Matt's IDE edits to `progress/continue-prompts/2026-06-08-alias-and-display-design.md`; scratch deletions; `Untitled 6.rtf` deletion; `scr` untracked file at repo root.
+
+**What's next:** → `progress/continue-prompts/2026-06-09-graph-validation.md` (**Opus 4.7** — design judgment in interpreting probe results; deterministic query work is `graph-query.py`). Matt picks Mode 1 vs straight-to-Mode-3.
+
 ### Session 87 — Plate 5 SHIPPED — first canonical write to edges.jsonl (2026-06-09)
 
 **Model:** Opus 4.7 (orchestrator + all execution; no agents delegated). **Detail:** none (execution-heavy, design captured in `working/edge-modeling/plate5-merge-diff.md`). **Commit:** this endsession commit.
@@ -331,47 +358,7 @@ Design session resolving the two open questions queued by S85: (1) event-alias-r
 - **Repo audit queued (post-Plate-3):** → `progress/continue-prompts/2026-06-07-repo-audit-strategy-reconciliation.md` (**Opus 4.7**) — reconcile 84 sessions of strategy sediment, fix stale worklog checkboxes, archive superseded continue prompts, consolidate memory. Linked in todos.md (HIGH, Doc Hygiene). Run it AFTER Plate 3/5 settle.
 - Commits this session-tail: `8aa595bc1` (S84 endsession), `d13fd2c8d` (gate-bug OPEN + Opus), `3b06ea0cb` (wrapper spec), `c22d1181d` (audit-session capture). The live Plate 3 agent owns `scripts/edge-reify-backfill.py` + `plate3-full/` (left uncommitted/untouched here).
 
-### Session 83 — Edge-modeling reification Plates 0+1+2 shipped (D2 resolved) (2026-06-05)
-
-**Model:** Opus 4.7 orchestrator. Plate 0 → `script-builder` (Sonnet). Plate 1 → `general-purpose` (Sonnet). Plate 2 → `general-purpose` (Opus, analysis + D2 decision). **Detail:** `history/session-details/session-083.md`. **Commits:** `5bc168b4d` (Plate 0+1), `03442d0a0` (Plate 2 + continue prompts), `a7046ec58` (SESSION-LOG closing summary), this endsession commit.
-
-**Context:** Third Session-83 work-block in calendar-day 2026-06-05, following S83/path-rename (earlier). This block executed the full "safe first move" from `working/edge-modeling/edge-modeling-reification-design.md` §9 Decision #1 — Plates 0+1 in parallel, then Plate 2.
-
-**Plate 0 (deterministic, $0):** `scripts/edge-direction-normalizer.py` + `scripts/aerys-slug-merge.py`. Normalizer flagged **10 inverted edges** out of 3,811 (cressen↔melisandre KILLS, arya↔sandor CAPTURES, tyrion↔shae BETRAYS, +7) using an edge-type-aware reverse-signal lexicon — experience/state types (PRISONER_OF, SERVES, RESENTS) explicitly excluded since their passive phrases are semantic, not inversions. 3,800 kept, 1 flagged (mutual kill). Aerys merge repointed 3 phantom `aerys-targaryen` edges to canonical `aerys-ii-targaryen`. All output staged in `working/edge-modeling/` — `graph/edges/edges.jsonl` UNTOUCHED.
-
-**Plate 1 (doc-only, $0):** `.claude/agents/mechanical-extractor.md` line 188 head rule (Column A = semantic agent, never grammatical subject/POV); line 136 optional Events & Actions role sub-bullets (Agent/Patient/Instrument/Location/Instigator/Outcome). Parser at `scripts/stage4-pass1-extra-tables.py:521-537` VERIFIED sub-bullet-safe (only matches `^\d+\.\s+`). `reference/architecture.md`: `AGENT_IN` + `VICTIM_IN` (Person/House → event.*) added line 237-238, `COMMANDS_IN` widened to cover orderer/instigator role, vocab 163→165 at line 551. `scripts/stage4-type-contract-validator.py` Contract 10 added: AGENT_IN/VICTIM_IN with non-event target → DROP.
-
-**Plate 2 (analysis, $0):**
-- **2a Pass-1 event coverage** — `scripts/plate2-event-coverage.py` walks all 344 extraction files, parses `## Events & Actions` bold titles, joins against `graph/index/events/` chapter-evidence + slug exact-match. Output: `working/edge-modeling/plate2-event-coverage.{md,json}`. Counts: **8,384 total Pass-1 event entries** / **8,317 distinct titles (floor)** / **1 exact title→slug match** / **8,316 distinct titles needing mint (floor)**. Only **38 of 371 event nodes** (10%) have ANY Pass-1 chapter linkage — the rest are wiki-derived nodes built from the Wars & Conflicts column, which only catches historical-event names. The chapter-evidence join CAN'T be Plate 3's primary binding mechanism.
-- **2b `graph-query.py` traversal check** — `working/edge-modeling/plate2-graphquery-traversal.md`. Code-read + live probes. `cmd_path()` (`scripts/graph-query.py:794-809`) computes 2-hop bridges via untyped neighbor-set intersection over `edges.jsonl`. No node-type filter, no edge-type filter. Live probes: `--path eddard-stark robb-stark` already bridges through `winterfell` (location.castle) and `house-frey` (house.*); `--path robb-stark roose-bolton` returns 12 bridges including non-character intermediates. **Person→event→person traversal will work transparently once Plate 3 role edges land.** Zero engineering changes needed.
-- **D2 RESOLVED — option (a) Replace.** Recorded in `working/edge-modeling/edge-modeling-reification-design.md` §3 (new "D2 RESOLVED" subsection after D7). Reification is sufficient — `--path` traverses person→event→person via the same untyped 2-hop mechanism that already handles location/house bridges. No materialized agent→patient dyad: option (c) Project would re-introduce the underdetermination problem D2 was designed to kill (which participant becomes the canonical `source`?). Superseded person→person binaries marked `superseded_by` (NOT deleted; CLAUDE.md hard rule).
-- **Spot-check verdicts:** Bran's defenestration → **NEEDS MINTING** (no node exists). Tywin's privy death → **REUSE `assassination-of-tywin-lannister`** (node exists, chapter linkage broken, re-bind needed). Purple Wedding → **REUSE `purple-wedding`** (same — node exists, chapter linkage broken). The design doc §3 D3's claim "Purple Wedding poisoning and Tywin's privy death have no hub" is FACTUALLY WRONG — both nodes exist; what's missing is the chapter→event linkage in their index. Plate 3 design needs updating for this.
-
-**Unexpected findings:**
-1. 90% of event nodes have no Pass-1 chapter linkage. The chapter-evidence index built from Raw Entity List > Wars & Conflicts catches historical names only, not narrative beats. Plate 3 must mine titles directly.
-2. The "needs minting" floor of ~8,316 distinct titles is only realistic if Plate 3 reifies EVERY narrative micro-beat ("Departure at daybreak", "Ride back toward Winterfell"). A selective Plate 3 (kill/betray/attack/poisoning beats only) would be much smaller. **NEW Plate 3 design question:** reify-all vs reify-selective. Out of scope for Plate 2.
-
-**Decisions:**
-- D2 → option (a) Replace (recorded).
-- Plate 3 may NOT generate canonical agent→patient dyads — events are nodes, full stop.
-- Plate 3 design doc needs a §3 D3 correction (named-event coverage exists more than D3 claimed; mint-scope is narrative micro-beats + a handful of named cases).
-
-**Files touched (this block):**
-- CREATE `scripts/plate2-event-coverage.py`
-- CREATE `working/edge-modeling/plate2-event-coverage.{md,json}`
-- CREATE `working/edge-modeling/plate2-graphquery-traversal.md`
-- APPEND `## D2 RESOLVED` subsection to `working/edge-modeling/edge-modeling-reification-design.md` §3
-- APPEND Plate 2 section to `working/edge-modeling/SESSION-LOG.md`
-- (this entry) `worklog.md` + archive017.md (Session 79 moved)
-- Did NOT touch `graph/edges/edges.jsonl`, `graph/nodes/`, Plate 0 staged outputs, or Plate 1 doc commits.
-
-**What's next:** Three continue prompts written, each self-contained:
-- → `progress/continue-prompts/2026-06-05-edge-modeling-plate-3-backfill.md` (Sonnet; HELD on Matt Q1 reify-all-vs-selective + Q2 fuzzy-reuse-vs-mint-floor — both questions documented inline in PRE-WORK DECISION block)
-- → `progress/continue-prompts/2026-06-05-edge-modeling-plate-4-haiku-disposition.md` (Opus for bucketing, Sonnet for filter pass; HELD on Matt go)
-- → `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` (Sonnet for deterministic merge; HELD on Plates 3+4 staging + Matt before/after sign-off — this is the only irreversible plate)
-
-Plate 4 (1,617 Haiku bulk re-bucketing) absorbs the S81 Events Haiku NO-GO. Plate 5 also folds in the 3 S77 core-cleanups (2 cersei↔tyrion LOVES drops, ~22 ASSAULTS→ATTACKS retypes, OWNS→BONDED_TO for direwolves/dragons). Design-doc §3 D3 needs a stale-mark before Plate 3 runs (named-event nodes mostly EXIST; what's missing is chapter linkage).
-
+> Session 83 (Edge-modeling Plates 0+1+2) archived to `history/worklog-archives/archive018.md` (archive018 now 2/5)
 > Session 83 (Move /tmp paths) archived to `history/worklog-archives/archive018.md` (archive018 started — 1/5)
 > Session 82 archived to `history/worklog-archives/archive017.md` (archive017 now full at 5/5)
 > Session 81 archived to `history/worklog-archives/archive017.md` (archive017 now 4/5)
