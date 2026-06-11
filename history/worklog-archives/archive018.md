@@ -1,7 +1,7 @@
 # Worklog Archive 018
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 83-tmp-paths, 83-edge-modeling (2/5).
+> Sessions: 83-tmp-paths, 83-edge-modeling, 84 (3/5).
 
 ---
 
@@ -64,3 +64,32 @@
 - → `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` (Sonnet for deterministic merge; HELD on Plates 3+4 staging + Matt before/after sign-off — this is the only irreversible plate)
 
 Plate 4 (1,617 Haiku bulk re-bucketing) absorbs the S81 Events Haiku NO-GO. Plate 5 also folds in the 3 S77 core-cleanups (2 cersei↔tyrion LOVES drops, ~22 ASSAULTS→ATTACKS retypes, OWNS→BONDED_TO for direwolves/dragons). Design-doc §3 D3 needs a stale-mark before Plate 3 runs (named-event nodes mostly EXIST; what's missing is chapter linkage).
+
+---
+
+### Session 84 — Edge-modeling Plate 3: audit loop built, pipeline validated, full sweep HELD (resumable) (2026-06-06 → 2026-06-07)
+
+**Model:** Opus 4.7 orchestrator; `script-builder` (Sonnet) for all pipeline/cleanup/hardening tracks; `general-purpose` (Opus) for the independent alignment audit. **Detail:** `history/session-details/session-084.md`. **Commit:** this endsession commit.
+
+**Audit loop (NEW, codified):** two reusable prompts — `working/edge-modeling/audit-repo-reporter-prompt.md` (in-repo agent, gathers facts → `SESSION-LOG.md`) + `audit-alignment-auditor-prompt.md` (fresh session, judges vs design intent → ON-COURSE/DRIFT/NO-GO verdict that gates the next plate). Runbook: `working/runbooks/edge-modeling-audit-loop.md`. An independent Opus auditor blessed the Plates 0–2.5 block = **ON COURSE** (independently recomputed edges.jsonl=3811, canonical_type_count=165, normalizer flips=10, 0 canonical writes).
+
+**Staged cleanups (zero graph writes):** Track A drift-reclassify — 12 `event.battle`→`meta.chapter` candidates (TWoW/ASOS chapter articles misfiled), 0 affected edges. Track B collision-merge — 6 near-dup event groups (4 high-conf auto; `conquest-of-dorne` = book-vs-event, don't-merge → reclassify book to object.text; `tourney-at/of-maidenpool` needs wiki check), 0 affected edges. Plate 2.5 inventory — `scripts/event-node-inventory.py` → reuse lookup (1,033 keys / 359 reuse-eligible / 12 drift flagged).
+
+**D8 (NEW design decision):** reify on n-ary STRUCTURE, not event TYPE — clean dyads (Jaime/Aerys, Tyrion/Tywin) stay direct edges; only contested/multi-participant events reify. Shrinks node-minting to near-zero. Recorded in design doc §3 (+ D3 RE-EXAMINED note: Tywin/Purple-Wedding nodes DO exist, just unlinked).
+
+**Plate 3 pipeline:** `scripts/edge-reify-backfill.py` built + validated on a 12-event mini-batch ($0.81) — D8 gate, D7 causation, multi-chapter dedup, reuse-before-mint, group/faction AGENT_IN, Contract 10 (68/68) all pass. Found + fixed a supersede false-positive bug (added chapter-overlap requirement; mini-batch 33→12, re-validated). Runner HARDENED (code-only): fail-fast on rate wall (<~90s, no retry-burn), incremental per-event flush, `processed-events.jsonl` ledger, `--resume` (verified 0 duplicates via dry-run + mock-wall).
+
+**Incident (postmortem in detail file):** an overnight unattended full sweep was killed ~6 min in by the rate wall, then sat in retry/backoff burning usage before the fail-fast fix existed. Lesson → fail-fast + resumability are mandatory for long `claude -p` passes.
+
+**Revised scope/cost:** dry-run enumerated **~2,056 trigger-family candidate events** (vs the 200-300 estimate); real sweep cost ~$50-160. Recommend a cost-bounded **calibration chunk** before committing to the full run.
+
+**Graph integrity:** `edges.jsonl`=3811, 0 nodes minted into `graph/`, `git status graph/` clean — untouched throughout.
+
+**What's next:** → `progress/continue-prompts/2026-06-07-edge-modeling-plate3-resume.md` (**Opus 4.7** — see addendum; attended, calibration chunk first). Then Reporter → fresh Auditor → Plate 5 gated merge. Plate 5 folds in the staged cleanups + Plate 4 (Haiku bulk) + the 3 S77 core-cleanups. Full Plate 3 status report in `working/edge-modeling/SESSION-LOG.md`.
+
+**Post-endsession addendum (2026-06-07, same session — Plate 3 agent now RUNNING in a separate window):**
+- **`--all` selective-gate bug found + flagged OPEN (NOT fixed).** The overnight `--all` run minted narrative micro-beat hubs (`departure-at-daybreak`, etc.) → the D8/Q1 selective gate is not enforced in the `--all` path (it IS in `--batch`); the dry-run stub bypassed it so it was never verified. That stale partial (`plate3-full/`) was EXCLUDED from git as contaminated. Next session must fix+verify the gate, `rm -rf plate3-full/`, then run. Recommended model bumped Sonnet→**Opus 4.7** (session now leads with the gate-fix reasoning).
+- **Canonical auto-resume wrapper spec** added to the resume prompt (reuse `stage4-run-forever.sh` / `stage4-events-bulk-run.sh` patterns: sleep-until-reset, stop-file, MAX_ITER, short inter-batch pacing, fail-fast + graceful exit, internal `claude -p` cap ~5). Directly prevents a repeat of the overnight retry-loop window-burn.
+- **Memory entry NEW:** `project_edge_modeling_reification_direction` — captures the current edge strategy + how the dead branches (wiki-comention/Pass-1-spine/Events-Haiku/enrichment) relate, so direction can't be lost.
+- **Repo audit queued (post-Plate-3):** → `progress/continue-prompts/2026-06-07-repo-audit-strategy-reconciliation.md` (**Opus 4.7**) — reconcile 84 sessions of strategy sediment, fix stale worklog checkboxes, archive superseded continue prompts, consolidate memory. Linked in todos.md (HIGH, Doc Hygiene). Run it AFTER Plate 3/5 settle.
+- Commits this session-tail: `8aa595bc1` (S84 endsession), `d13fd2c8d` (gate-bug OPEN + Opus), `3b06ea0cb` (wrapper spec), `c22d1181d` (audit-session capture). The live Plate 3 agent owns `scripts/edge-reify-backfill.py` + `plate3-full/` (left uncommitted/untouched here).

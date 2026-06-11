@@ -19,6 +19,7 @@ CANONICAL EDGE LAYER (graph/edges/edges.jsonl):
   python3 scripts/graph-query.py --neighbors <slug>
   python3 scripts/graph-query.py --path <slugA> <slugB>
   python3 scripts/graph-query.py --health
+  python3 scripts/graph-query.py --event-participants <hub-slug>
   python3 scripts/graph-query.py --edges <path>   # override edges.jsonl location
   python3 scripts/graph-query.py --help
 """
@@ -1033,6 +1034,200 @@ def cmd_health(
 
 
 # ---------------------------------------------------------------------------
+# --event-participants <hub-slug>
+# ---------------------------------------------------------------------------
+
+# Role edge types that represent event participants at the beat level.
+# LOCATED_AT is included because it attaches place-nodes (and sometimes
+# character-nodes) to beats and is meaningful for "who/what was at the event".
+PARTICIPANT_ROLE_TYPES: frozenset[str] = frozenset(
+    {
+        "AGENT_IN",
+        "COMMANDS_IN",
+        "VICTIM_IN",
+        "WIELDED_IN",
+        "ATTENDS",
+        "LOCATED_AT",
+    }
+)
+
+
+def cmd_event_participants(
+    hub_slug: str,
+    edges: list[dict],
+    *,
+    json_output: bool = False,
+) -> None:
+    """Union the participant role edges across all SUB_BEAT_OF children of hub_slug
+    and present them as if directly attached to the hub.
+
+    Algorithm:
+      1. Validate hub exists as a node (warn + exit 1 if not).
+      2. Find all edges where target_slug == hub_slug AND edge_type == SUB_BEAT_OF.
+         Those edges' source_slugs are the beat children.
+      3. For each beat child, collect every edge where target_slug == <beat>
+         AND edge_type in PARTICIPANT_ROLE_TYPES.
+      4. Union the tuples and group by role_type for display.
+
+    Edge cases:
+      - Hub not found as a node: "hub not found" message + hint.
+      - Hub found but 0 SUB_BEAT_OF incoming: clean "no beats found" message.
+    """
+    # 1. Hub existence check
+    hub_node_file = find_node_file(hub_slug)
+    if hub_node_file is None:
+        # Try slug-prefix suggestions for a helpful hint
+        suggestions = slug_prefix_suggestions(hub_slug, max_results=5)
+        if json_output:
+            result: dict = {
+                "error": f"hub not found: '{hub_slug}'",
+                "hint": "Check spelling — no node file found for this slug.",
+                "suggestions": suggestions,
+            }
+            print(json.dumps(result, indent=2))
+        else:
+            print(f"ERROR: hub not found: '{hub_slug}'")
+            print("  No node file found for this slug. Check spelling.")
+            if suggestions:
+                print("  Did you mean:")
+                for s in suggestions:
+                    print(f"    {s}")
+        return
+
+    # 2. Find beat children (edges where source SUB_BEAT_OF hub)
+    beat_edges: list[dict] = [
+        e
+        for e in edges
+        if e.get("edge_type") == "SUB_BEAT_OF" and e.get("target_slug") == hub_slug
+    ]
+    beat_slugs: list[str] = [e["source_slug"] for e in beat_edges]
+
+    if not beat_slugs:
+        if json_output:
+            result = {
+                "hub_slug": hub_slug,
+                "hub_node": _node_header(hub_slug),
+                "beat_count": 0,
+                "participant_count": 0,
+                "participants": [],
+                "message": (
+                    "no beats found; this hub has no reified children "
+                    "(no SUB_BEAT_OF edges incoming)"
+                ),
+            }
+            print(json.dumps(result, indent=2))
+        else:
+            hub_label = _node_header(hub_slug)
+            print("=" * 72)
+            print(f"EVENT PARTICIPANTS: {hub_slug}")
+            print(f"  {hub_label}")
+            print()
+            print(
+                "  No beats found — this hub has no reified children "
+                "(no SUB_BEAT_OF edges incoming)."
+            )
+            print(
+                "  All role edges must be directly on the hub itself (check "
+                "--neighbors) or the event has not been mined yet."
+            )
+            print()
+            print("=" * 72)
+            print(f"SUMMARY: 0 beats, 0 participants")
+        return
+
+    # 3. For each beat, collect participant role edges
+    # A "participant record" tracks one (role_type, source_slug, beat_slug) tuple.
+    # We keep full edge data for display / JSON.
+    participant_records: list[dict] = []
+
+    beat_slug_set = set(beat_slugs)
+    for e in edges:
+        if e.get("edge_type") in PARTICIPANT_ROLE_TYPES and e.get("target_slug") in beat_slug_set:
+            participant_records.append(
+                {
+                    "role_type": e["edge_type"],
+                    "source_slug": e.get("source_slug", "?"),
+                    "beat_slug": e.get("target_slug", "?"),
+                    "evidence_book": e.get("evidence_book", ""),
+                    "evidence_chapter": e.get("evidence_chapter", ""),
+                    "evidence_quote": e.get("evidence_quote", ""),
+                    "confidence_tier": e.get("confidence_tier"),
+                }
+            )
+
+    # 4. Output
+
+    if json_output:
+        result = {
+            "hub_slug": hub_slug,
+            "hub_node": _node_header(hub_slug),
+            "beat_count": len(beat_slugs),
+            "beats": beat_slugs,
+            "participant_count": len(participant_records),
+            "participants": [
+                {
+                    **r,
+                    "evidence_quote": _short_quote(r["evidence_quote"], 120),
+                }
+                for r in participant_records
+            ],
+        }
+        print(json.dumps(result, indent=2))
+        return
+
+    # Human-readable output — group by role type
+    hub_label = _node_header(hub_slug)
+    print("=" * 72)
+    print(f"EVENT PARTICIPANTS: {hub_slug}")
+    print(f"  {hub_label}")
+    print(f"  Beats ({len(beat_slugs)}): {', '.join(beat_slugs)}")
+    print()
+
+    if not participant_records:
+        print("  (beats found but no participant role edges on any beat)")
+        print()
+        print("=" * 72)
+        print(f"SUMMARY: {len(beat_slugs)} beats, 0 participant edges")
+        return
+
+    # Group by role_type
+    by_role: dict[str, list[dict]] = defaultdict(list)
+    for r in participant_records:
+        by_role[r["role_type"]].append(r)
+
+    print(f"PARTICIPANTS BY ROLE  ({len(participant_records)} total role edges)")
+    print("-" * 72)
+
+    for role_type in sorted(by_role):
+        group = by_role[role_type]
+        print(f"\n  [{role_type}]  ({len(group)} edge{'s' if len(group) != 1 else ''})")
+        for rec in group:
+            source = rec["source_slug"]
+            beat = rec["beat_slug"]
+            chapter = rec.get("evidence_chapter") or rec.get("evidence_book") or ""
+            quote_raw = rec.get("evidence_quote", "")
+            quote = _short_quote(quote_raw, 120)
+            print(f"    {source}")
+            print(f"      via beat : {beat}")
+            if chapter:
+                print(f"      chapter  : {chapter}")
+            if quote:
+                print(f"      quote    : \"{quote}\"")
+
+    print()
+    print("=" * 72)
+
+    # Count distinct participants (source_slugs) across all roles
+    distinct_sources = {r["source_slug"] for r in participant_records}
+    print(
+        f"SUMMARY: {hub_slug}  |  "
+        f"{len(beat_slugs)} beats, "
+        f"{len(participant_records)} role edges, "
+        f"{len(distinct_sources)} distinct participants"
+    )
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -1046,6 +1241,7 @@ def main() -> None:
             "  graph-query.py --neighbors <slug>\n"
             "  graph-query.py --path <slugA> <slugB>\n"
             "  graph-query.py --health\n"
+            "  graph-query.py --event-participants <hub-slug>\n"
             "  graph-query.py --edges <path>   (override edges.jsonl location)"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -1100,6 +1296,18 @@ def main() -> None:
              "orphan endpoints, and degree leaders.",
     )
     parser.add_argument(
+        "--event-participants",
+        metavar="HUB_SLUG",
+        default=None,
+        dest="event_participants",
+        help=(
+            "Union the participant role edges (AGENT_IN, COMMANDS_IN, VICTIM_IN, "
+            "WIELDED_IN, ATTENDS, LOCATED_AT) across all SUB_BEAT_OF children of "
+            "HUB_SLUG and display them as if attached to the hub. Handles reified "
+            "event hubs where participants live on beat children, not the parent."
+        ),
+    )
+    parser.add_argument(
         "--edges",
         metavar="PATH",
         default=None,
@@ -1109,12 +1317,13 @@ def main() -> None:
     args = parser.parse_args()
 
     # Validate: at most one mode active
-    new_mode = args.neighbors or args.path or args.health
+    new_mode = args.neighbors or args.path or args.health or args.event_participants
     old_mode = args.slug is not None
 
     if new_mode and old_mode:
         parser.error(
-            "Cannot combine a positional slug with --neighbors / --path / --health. "
+            "Cannot combine a positional slug with "
+            "--neighbors / --path / --health / --event-participants. "
             "Use one mode at a time."
         )
 
@@ -1141,6 +1350,11 @@ def main() -> None:
 
         elif args.health:
             cmd_health(edges, NODES_DIR, json_output=args.json_output)
+
+        elif args.event_participants:
+            cmd_event_participants(
+                args.event_participants, edges, json_output=args.json_output
+            )
 
         sys.exit(0)
 
