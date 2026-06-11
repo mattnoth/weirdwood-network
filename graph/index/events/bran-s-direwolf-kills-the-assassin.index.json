@@ -1,0 +1,18 @@
+{
+  "slug": "bran-s-direwolf-kills-the-assassin",
+  "name": "Bran's direwolf kills the assassin",
+  "type": "event.death",
+  "node_path": "graph/nodes/events/bran-s-direwolf-kills-the-assassin.node.md",
+  "generated_at": "2026-06-11T21:07:00.648700+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

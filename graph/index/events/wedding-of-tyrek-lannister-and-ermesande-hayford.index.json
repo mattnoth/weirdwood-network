@@ -1,9 +1,9 @@
 {
   "slug": "wedding-of-tyrek-lannister-and-ermesande-hayford",
   "name": "Wedding of Tyrek Lannister and Ermesande Hayford",
-  "type": "event.battle",
+  "type": "event.wedding",
   "node_path": "graph/nodes/events/wedding-of-tyrek-lannister-and-ermesande-hayford.node.md",
-  "generated_at": "2026-05-26T03:23:02.116350+00:00",
+  "generated_at": "2026-06-11T21:07:00.585393+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

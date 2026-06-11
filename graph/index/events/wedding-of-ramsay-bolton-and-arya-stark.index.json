@@ -1,9 +1,9 @@
 {
   "slug": "wedding-of-ramsay-bolton-and-arya-stark",
   "name": "Wedding of Ramsay Bolton and Arya Stark",
-  "type": "event.battle",
+  "type": "event.wedding",
   "node_path": "graph/nodes/events/wedding-of-ramsay-bolton-and-arya-stark.node.md",
-  "generated_at": "2026-05-26T03:23:02.124335+00:00",
+  "generated_at": "2026-06-11T21:07:00.599040+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

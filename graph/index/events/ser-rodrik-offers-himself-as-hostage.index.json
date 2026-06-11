@@ -1,0 +1,18 @@
+{
+  "slug": "ser-rodrik-offers-himself-as-hostage",
+  "name": "Ser Rodrik offers himself as hostage",
+  "type": "event.capture",
+  "node_path": "graph/nodes/events/ser-rodrik-offers-himself-as-hostage.node.md",
+  "generated_at": "2026-06-11T21:07:00.606638+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

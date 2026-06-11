@@ -1,9 +1,9 @@
 {
   "slug": "wedding-of-maron-martell-and-daenerys-targaryen",
   "name": "Wedding of Maron Martell and Daenerys Targaryen",
-  "type": "event.battle",
+  "type": "event.wedding",
   "node_path": "graph/nodes/events/wedding-of-maron-martell-and-daenerys-targaryen.node.md",
-  "generated_at": "2026-05-26T03:23:02.120773+00:00",
+  "generated_at": "2026-06-11T21:07:00.593697+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

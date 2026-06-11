@@ -2,10 +2,12 @@
 slug: gold-cloaks-betray-ned
 type: event.conspiracy
 name: "Gold cloaks betray Ned"
+aliases: ["Slynt betrays Ned", "Slynt's gold cloaks turn on Ned's household", "betrayal of Ned by Janos Slynt", "the throne room betrayal"]
 status: minted-plate3
 minted_at: 2026-06-07T17:06:02.631845+00:00
 evidence_chapters:
   - AGOT Eddard XIV
+sub_beat_of_proposed: arrest-of-eddard-stark
 ---
 
 # Gold cloaks betray Ned

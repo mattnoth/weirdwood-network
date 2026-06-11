@@ -1,7 +1,7 @@
 # Worklog Archive 018
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 83-tmp-paths, 83-edge-modeling, 84, 85 (4/5).
+> Sessions: 83-tmp-paths, 83-edge-modeling, 84, 85, 86 (FULL 5/5).
 
 ---
 
@@ -115,3 +115,25 @@ Plate 4 (1,617 Haiku bulk re-bucketing) absorbs the S81 Events Haiku NO-GO. Plat
 - → `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` (Sonnet) — UPDATED with new staging items (54 cluster edges, 27 schema fixes, etc). Single irreversible step — Matt sign-off required.
 - Plate 5 prerequisite: Matt picks dual-taxonomy vs single-tier for chapter-beat mints
 - Plate 5 readiness inventory: `working/edge-modeling/PLATE5-READINESS.md`
+
+---
+
+### Session 86 — Alias resolver + display-name design + 4 structural fixes (2026-06-08)
+
+**Model:** Opus 4.7 (design session, no agents delegated). **Detail:** none (design-only session; no incidents, no novel infrastructure). **Commit:** this endsession commit.
+
+Design session resolving the two open questions queued by S85: (1) event-alias-resolver scope/integration, (2) chat-UI slug-vs-name display policy, plus 4 structural fixes from Matt's 23-mint triage. **No code, no `graph/` writes, no Plate 5 work.** Decisions captured in `reference/alias-resolver-design.md` (NEW, ~1,200 words) + 5 surgical edits to `reference/architecture.md`: (a) 7 new event sub-types (`event.wedding/feast/coronation/trial/assassination/execution/conspiracy`) added to type hierarchy + Type Reference Table — fixes the missing-enum bug that caused S85's 27 wiki schema misclassifications; (b) `SUB_BEAT_OF` formalized as canonical edge type (Beat → Parent Event, distinct from `PART_OF`'s event-in-war scope; vocab 165 → 166) — per Matt's call this session, NOT normalized to `PART_OF`; (c) `ALIAS_OF` row gains the canonical substitution test ("two strings are aliases iff substitution preserves truth value"); (d) NEW "Node Frontmatter Conventions" section with the `name`/`slug`/`aliases`/`era` field spec — `era:` is forward-only (no backfill), with 7-value enum (`pre-conquest` → `current-narrative`); (e) NEW "Display Names: slug as identifier, name as surface" section — both fields stored, rendering belongs to UI, no prompt-time enforcement; mint schema renames `title:` → `name:` at Plate 5 merge.
+
+**Decisions:**
+- `scripts/event_alias_resolver.py` to be built (follow-on, NOT this session) — separate from `stage4_name_resolver.py` (events don't have person/house/location collision shape; deterministic lookup-only is sufficient). Harvest broad across all node types; apply as O(1) lookup. No Haiku/LLM layer — not because of any blanket enrichment ban, but because a ~70% LLM tail over a ~95% deterministic lookup has no precision-gate math to win. Standing rule remains S75's: LLM enrichment is wanted, gated on precision.
+- Sub-beat is NOT an alias. Granularity-collapse loses temporal queryability inside an event. `SUB_BEAT_OF` canonical.
+- 4 structural fixes folded into Plate 5 / follow-on: 27 wiki schema-fix corrections, `scripts/wiki-pass2-triage.py` entity-type map update + new `scripts/wiki-event-type-validator.py`, IDF weighting in `scripts/plate4-wiki-cluster.py` narrowing function, `era:` field on new mints, chapter-beat tier accepted.
+- Stannis-approach-to-Winterfell and Winterfell-murders-during-Stannis-approach confirmed as two distinct events (related, link via `CONTEMPORARY_WITH` if both mint).
+
+**Files touched:** CREATE `reference/alias-resolver-design.md`; EDIT `reference/architecture.md` (5 surgical inserts); ARCHIVE Session 82 → archive017.
+
+**Graph state:** `edges.jsonl` still **3,811** (unchanged since S76). `graph/nodes/events/` still 371. `git status graph/` clean.
+
+**What's next:** → Plate 5 merge prompt; follow-on: build `event_alias_resolver.py`.
+
+**Late-session fork — post-Plate-5 backfill design (S86 end):** Matt corrected the over-narrow "no backfill" framing for SUB_BEAT_OF and pushed back on a misread of S74 (precision-gate failure for a specific Events+Dialogue Haiku run, NOT a blanket "no LLM enrichment" ban). 3 backfill tracks designed post-Plate-5: (A) vocab-drift retype, (B) reification of existing edges into event hubs, (C) head-rule retroactive cleanup. ~$25-75 total. Pass 1 re-extraction OFF the table. Design in `working/edge-modeling/post-plate5-backfill-design.md`. Plate 5 still proceeds as scoped.

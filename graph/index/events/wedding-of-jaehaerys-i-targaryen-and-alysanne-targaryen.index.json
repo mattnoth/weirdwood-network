@@ -1,9 +1,9 @@
 {
   "slug": "wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen",
   "name": "Wedding of Jaehaerys I Targaryen and Alysanne Targaryen",
-  "type": "event.battle",
+  "type": "event.wedding",
   "node_path": "graph/nodes/events/wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen.node.md",
-  "generated_at": "2026-05-26T03:23:02.156148+00:00",
+  "generated_at": "2026-06-11T21:07:00.651073+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

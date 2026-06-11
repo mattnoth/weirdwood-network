@@ -1,9 +1,9 @@
 {
   "slug": "wedding-of-walder-frey-and-joyeuse-erenford",
   "name": "Wedding of Walder Frey and Joyeuse Erenford",
-  "type": "event.battle",
+  "type": "event.wedding",
   "node_path": "graph/nodes/events/wedding-of-walder-frey-and-joyeuse-erenford.node.md",
-  "generated_at": "2026-05-26T03:23:02.127466+00:00",
+  "generated_at": "2026-06-11T21:07:00.606309+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

@@ -2,10 +2,12 @@
 slug: ned-orders-janos-slynt-to-arrest-cersei
 type: event.capture
 name: "Ned orders Janos Slynt to arrest Cersei"
+aliases: ["Littlefinger bribes the City Watch for Ned", "Ned procures the gold cloaks via Littlefinger", "Ned commands Slynt to seize Cersei in the throne room", "the bribe of Janos Slynt"]
 status: minted-plate3
 minted_at: 2026-06-07T17:05:23.710240+00:00
 evidence_chapters:
   - AGOT Eddard XIV
+sub_beat_of_proposed: arrest-of-eddard-stark
 ---
 
 # Ned orders Janos Slynt to arrest Cersei

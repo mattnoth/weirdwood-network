@@ -1,9 +1,9 @@
 {
   "slug": "wedding-of-tommen-i-baratheon-and-margaery-tyrell",
   "name": "Wedding of Tommen I Baratheon and Margaery Tyrell",
-  "type": "event.battle",
+  "type": "event.wedding",
   "node_path": "graph/nodes/events/wedding-of-tommen-i-baratheon-and-margaery-tyrell.node.md",
-  "generated_at": "2026-05-26T03:23:02.116721+00:00",
+  "generated_at": "2026-06-11T21:07:00.586047+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

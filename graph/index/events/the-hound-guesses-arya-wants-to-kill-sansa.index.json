@@ -1,0 +1,18 @@
+{
+  "slug": "the-hound-guesses-arya-wants-to-kill-sansa",
+  "name": "The Hound guesses Arya wants to kill Sansa",
+  "type": "event.death",
+  "node_path": "graph/nodes/events/the-hound-guesses-arya-wants-to-kill-sansa.node.md",
+  "generated_at": "2026-06-11T21:07:00.635161+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

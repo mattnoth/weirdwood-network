@@ -1,15 +1,26 @@
 {
-  "generated_at": "2026-05-26T03:23:02.156754+00:00",
+  "generated_at": "2026-06-11T21:07:00.651809+00:00",
   "entity_type": "events",
   "dry_run": false,
-  "entity_count": 371,
+  "entity_count": 573,
   "type_counts": {
-    "event.battle": 304,
+    "event.wedding": 21,
     "event.tournament": 35,
-    "event.war": 32
+    "event.war": 32,
+    "event.execution": 9,
+    "event.battle": 278,
+    "event.death": 70,
+    "event.capture": 39,
+    "event.incident": 49,
+    "event.assassination": 11,
+    "event.feast": 3,
+    "event.ceremony": 16,
+    "event.conspiracy": 7,
+    "event.coronation": 2,
+    "event.trial": 1
   },
-  "entities_with_zero_mentions": 333,
-  "mention_inverse_slugs": 38,
+  "entities_with_zero_mentions": 538,
+  "mention_inverse_slugs": 35,
   "top_by_appearances": [
     {
       "slug": "war-of-the-five-kings",
@@ -84,15 +95,6 @@
       "out_edge_count": 2
     },
     {
-      "slug": "battle-of-the-green-fork",
-      "name": "Battle of the Green Fork",
-      "type": "event.battle",
-      "appearances_total": 3,
-      "chapters_referenced_in": 3,
-      "in_edge_count": 8,
-      "out_edge_count": 0
-    },
-    {
       "slug": "fall-of-astapor",
       "name": "Fall of Astapor",
       "type": "event.battle",
@@ -131,7 +133,7 @@
     {
       "slug": "red-wedding",
       "name": "Red Wedding",
-      "type": "event.battle",
+      "type": "event.wedding",
       "appearances_total": 2,
       "chapters_referenced_in": 2,
       "in_edge_count": 308,
@@ -190,6 +192,15 @@
       "chapters_referenced_in": 1,
       "in_edge_count": 4,
       "out_edge_count": 0
+    },
+    {
+      "slug": "greyjoys-rebellion",
+      "name": "Greyjoy's Rebellion",
+      "type": "event.battle",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 99,
+      "out_edge_count": 12
     }
   ],
   "top_by_in_edges": [
@@ -223,7 +234,7 @@
     {
       "slug": "red-wedding",
       "name": "Red Wedding",
-      "type": "event.battle",
+      "type": "event.wedding",
       "appearances_total": 2,
       "chapters_referenced_in": 2,
       "in_edge_count": 308,
@@ -250,7 +261,7 @@
     {
       "slug": "purple-wedding",
       "name": "Purple Wedding",
-      "type": "event.battle",
+      "type": "event.wedding",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 201,
