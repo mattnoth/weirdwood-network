@@ -283,6 +283,7 @@
     "encounter with the three prisoners": "encounter-with-the-three-prisoners",
     "epilogue": "a-storm-of-swords-epilogue",
     "execution": "the-execution",
+    "execution of eddard stark": "execution-of-eddard-stark",
     "fair isle rebellion": "fair-isle-rebellion",
     "faith militant uprising": "faith-militant-uprising",
     "fall of astapor": "fall-of-astapor",
@@ -401,7 +402,6 @@
     "jaime's kills are revealed": "jaime-s-kills-are-revealed",
     "joffrey calls for the bedding": "joffrey-calls-for-the-bedding",
     "joffrey demands coronation": "joffrey-demands-coronation",
-    "joffrey orders execution": "joffrey-orders-execution",
     "joffrey screams for killing": "joffrey-screams-for-killing",
     "joffrey sets sansa aside and agrees to wed margaery": "joffrey-sets-sansa-aside-and-agrees-to-wed-margaery",
     "jon argues against the dreadfort attack": "jon-argues-against-the-dreadfort-attack",
@@ -516,6 +516,7 @@
     "ned orders daenerys s assassination cancelled": "ned-orders-daenerys-s-assassination-cancelled",
     "ned orders daenerys's assassination cancelled": "ned-orders-daenerys-s-assassination-cancelled",
     "ned orders janos slynt to arrest cersei": "ned-orders-janos-slynt-to-arrest-cersei",
+    "ned's execution": "execution-of-eddard-stark",
     "night attack planned": "night-attack-planned",
     "night battle atop the wall": "night-battle-atop-the-wall",
     "night that never ends": "long-night-that-never-ends",
@@ -936,20 +937,20 @@
       }
     ]
   },
-  "computed_at": "2026-06-11T03:10:02.677708+00:00",
+  "computed_at": "2026-06-11T03:59:00.960743+00:00",
   "stats": {
     "ambiguous_collisions": 1,
     "source_breakdown": {
-      "node-frontmatter-alias": 14,
+      "node-frontmatter-alias": 15,
       "node-name": 583,
       "node-slug": 583,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 2082,
-    "unambiguous_lookups": 875,
-    "unique_phrases": 876
+    "total_entries_scanned": 2083,
+    "unambiguous_lookups": 876,
+    "unique_phrases": 877
   },
   "version": "v1"
 }

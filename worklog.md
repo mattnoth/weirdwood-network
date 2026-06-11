@@ -230,6 +230,27 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 90 — S89 overnight review + primary rename applied + remaining rename decisions queued for Opus (2026-06-11)
+
+**Model:** Opus 4.7 (orchestrator + applied the primary rename). **Detail:** none (review + small apply + handoff session). **Commit:** this endsession commit.
+
+**What this session was:** post-overnight review of Phase 1 results from S89 + first real apply against the renamed-rebuilt graph. Matt read the 3 overnight result files, did slug-vs-victim disambiguation explainers (Ned/Eddard alias chain, "what's a hit", S89 probe count semantics, chapter→graph→dialog query chain). Then applied the **primary** rename himself (`joffrey-orders-execution` → `execution-of-eddard-stark`) — touched 7 artifacts (1 node move + 6 edge rows). Surfaced 2 #8-deliverable bugs + a #10-script gap during apply (postmortem in todos.md #10).
+
+**Bugs found during primary apply (2026-06-11):**
+1. **`event_alias_resolver.py` (Agent #8) parser bug:** only parses inline `aliases: [...]` YAML form; block-style YAML list (`aliases:\n  - "..."`) silently corrupts to a single key. Harden the parser OR enforce inline convention as the canonical form. Matt used inline form for the apply.
+2. **Agent #8's "auto-resolve on rebuild" prediction was wrong:** "Ned's execution" did NOT auto-resolve from the new slug `execution-of-eddard-stark`. It needs an explicit `aliases:` frontmatter entry — which Matt added (`aliases: ["Ned's execution"]`). Lesson: the deterministic resolver is phrase-lookup only; no semantic substitution; reader-natural phrasings must be enumerated.
+3. **`rename-event-node.py` (Agent #10) coverage gap:** script rewrites frontmatter + slug-form refs in JSONL/JSON/MD files, but does NOT touch (a) the renamed node's own H1 + mint-prose body text, (b) free-text `plate5_superseded_note` fields in edge rows. Matt fixed both manually post-apply. Extend the script before any batch run.
+
+**Verification post-primary-apply:** 0 residual old-slug refs in `graph/`; `edges.jsonl` row count unchanged at 4,757; `--health` 0 new orphans; new node's 5 edges traverse; both "Ned's execution" and "execution of eddard stark" resolve to the new slug; old action phrase is dead.
+
+**Documentation polish:** added a plain-English preamble + TL;DR + "Your decisions" scannable table to `working/session-results/2026-06-10-overnight-rename-dryrun.md` so it's not a wall of agent output. Matt filled in his per-slug yes/no/different-suggestion decisions in that same file's "Your decisions" table — for the **5 secondary clean** candidates + **9 flagged** candidates. Those remain queued.
+
+**No further graph writes this session beyond the primary.** `edges.jsonl` 4,757; `events/` 583. The remaining ~14 rename decisions are queued for a fresh Opus session via the new continue prompt.
+
+**What's next:**
+- → `progress/continue-prompts/2026-06-11-execute-rename-decisions.md` (**Opus 4.7**) — fresh Opus reads Matt's filled-in decisions, runs per-slug dry-run-then-apply, adds curated `aliases:` (inline form only — bug #1), patches body H1 + mint-prose + plate5_superseded_note free-text per rename (bug #3), rebuilds events index + event-alias-resolver at the end, verifies alias-chain works. Hardening of bug #1 and bug #3 in-script is OPTIONAL upgrade — work-around pattern documented in the continue prompt.
+- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip. **After** remaining renames land.
+
 ### Session 89 — Mode 1 graph-validation probes complete + Phase 1 overnight kickoff (2026-06-10)
 
 **Model:** Opus 4.7 (orchestrator + probe interpretation). 3 `script-builder` agents launched in background at end-of-session for overnight autonomous work. **Detail:** none — full narrative in `working/session-results/2026-06-09-graph-validation.md`. **Commit:** this endsession commit.
@@ -330,26 +351,7 @@ Design session resolving the two open questions queued by S85: (1) event-alias-r
 
 **Late-session fork — post-Plate-5 backfill design (S86 end):** Matt pushed back on my over-narrow "no backfill" framing for SUB_BEAT_OF and surfaced the bigger question: the edge-modeling lessons (head rule, reification, vocab additions) should be applied to the existing 3,811-edge graph, not just to future emissions. **Matt also corrected my misreading of S74 mid-fork** — S74 was a precision-gate failure on the specific Events+Dialogue Haiku run (74.5%/62.5% vs 75% gate), NOT a blanket "no LLM enrichment" ban. S75 explicitly amended to "enrichment wanted, gated on precision changes." Standing rule for any LLM-touching work: pass the precision gate. Empirical scan of edges.jsonl confirmed 25+ deterministic vocab-drift candidates at a sample floor across 6 of ~12 newer-vocab types (full sweep likely 100-200+). Designed 3 backfill tracks sequenced after Plate 5, each with its own precision gate per S75: (A) vocab-drift retype $0-15, 100-200 retypes; (B) reification of existing edges into event hubs $20-50, 200-600 reifications (cleanroom's main carry-over); (C) head-rule retroactive cleanup beyond Plate 0's 10 flips $0-10. Total ~$25-75 for ~300-850 edges touched (6-17× Plate 5's retroactive scope). Pass 1 chapter re-extraction stays OFF the table. Full design: `working/edge-modeling/post-plate5-backfill-design.md`. New HIGH todo added. **Plate 5 still proceeds as scoped — no scope creep.**
 
-### Session 85 — Plate 3 full sweep + Plate 4 wiki-cluster bridge (2026-06-07 → 2026-06-08)
-
-**Model:** Opus 4.7 orchestrator. Plate 3 reify per-event LLM = Sonnet 4.6 via `claude -p`. Plate 4 cluster cascade: Haiku 4.5 (Pass A) → Opus 4.7 (Pass B inference-only) → Sonnet 4.6 (Pass C distinct). 5 sub-agents (cold-read review, wrapper audit, gate stress-test, cluster validation, alias harvester). **Detail:** `history/session-details/session-085.md`. **Cost:** ~$35 ($0.57 Plate 3 + $34.74 Plate 4-cluster).
-
-**Plate 3 (reify) SHIPPED:** Gate bug fixed (bold-title-only matching + clean slugs); Gate E v1+v2 dialogue/recall deny-list (33.6% kill rate); new wrapper `scripts/edge-reify-run-forever.sh` (5hr-wall-safe); empty-stderr-as-wall + ledger-no-error-write fixes (load-bearing — first sweep silently lost 324 events to a silent wall, full recovery). Final: **413/413 events processed, 0 errors, 219 minted event-nodes, 914 role edges, 55 supersede candidates, 109 hub-review-queue, 213 Gate-E pre-rejected.** 18/18 validation spot-check = 100% precision.
-
-**Plate 4-cluster (NEW track) — wiki-vs-chapter bridge:** discovered only 1/220 Plate-3 mints matched a wiki event-node via slug overlap (wiki uses formal canonical names like `red-wedding`; mints use chapter-beat narrative names like `lord-walder-calls-for-the-bedding` — different taxonomies). Built `scripts/plate4-wiki-cluster.py` hybrid classifier (deterministic narrow + LLM judge). 3-pass cascade: Pass A Haiku $5 (50 sub-beat-of, 167 distinct), Pass B Opus on 71 inference-only $22 (DOWNGRADED 52% to distinct), Pass C Sonnet on 167 distinct partial $7 (144/167 before wall, 10 new sub-beat-of). Human triage of remaining 23: 2 sub-beat-of, 18 distinct, 3 deferred. **Final: 54 cluster edges staged** (51 SUB_BEAT_OF + 3 DUPLICATE_OF). 18/18 spot-check = 100% precision.
-
-**Wiki alias harvest** ($0 deterministic via subagent): 176 aliases from 88 wiki event-nodes (e.g. `red-wedding` ← `wedding-at-the-twins`). 0/219 Plate-3 mints retro-matched (confirms granularity gap can't be bridged by aliases alone — they need LLM judgment).
-
-**4 structural issues surfaced by Matt's triage, all STAGED for follow-on:** (1) 27 wiki schema misclassifications — root cause is wiki ingestion only knew `event.battle/.tournament/.war`, all weddings/coronations/feasts/trials defaulted to event.battle (missing-enum bug); corrections at `working/edge-modeling/plate2.5-schema-fixes/event-type-corrections.jsonl`. (2) IDF-style downweighting needed in narrowing function (mass-participant events like `feast-in-honor` over-score). (3) Era property to add going forward (no backfill). (4) 2-3 genuinely missing wiki nodes (Robert's boar-hunt assassination, Winterfell murders during Stannis approach).
-
-**Graph state:** `edges.jsonl` still **3,811** (unchanged since S76). `graph/nodes/events/` still 371. `git status graph/` clean across all 24+ hours.
-
-**What's next:**
-- → `progress/continue-prompts/2026-06-08-alias-and-display-design.md` (Opus 4.7) — alias resolver extension + chat-UI slug-vs-name display policy + 4 structural fixes including the 27-event schema-bug root-cause analysis
-- → `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` (Sonnet) — UPDATED with new staging items (54 cluster edges, 27 schema fixes, etc). Single irreversible step — Matt sign-off required.
-- Plate 5 prerequisite: Matt picks dual-taxonomy vs single-tier for chapter-beat mints
-- Plate 5 readiness inventory: `working/edge-modeling/PLATE5-READINESS.md`
-
+> Session 85 archived to `history/worklog-archives/archive018.md` (archive018 now 4/5)
 > Session 84 archived to `history/worklog-archives/archive018.md` (archive018 now 3/5)
 > Session 83 (Edge-modeling Plates 0+1+2) archived to `history/worklog-archives/archive018.md` (archive018 now 2/5)
 > Session 83 (Move /tmp paths) archived to `history/worklog-archives/archive018.md` (archive018 started — 1/5)
