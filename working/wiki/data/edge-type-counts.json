@@ -1,10 +1,10 @@
 {
   "version": "v1",
-  "computed_at": "2026-06-06T19:52:38+00:00",
-  "graph_nodes_scanned": 8052,
-  "canonical_type_count": 165,
+  "computed_at": "2026-06-12T16:13:48+00:00",
+  "graph_nodes_scanned": 8263,
+  "canonical_type_count": 166,
   "populated_type_count": 58,
-  "unpopulated_type_count": 107,
+  "unpopulated_type_count": 108,
   "drift_type_count": 0,
   "total_edge_instances": 21087,
   "edges_by_section": {
@@ -1014,6 +1014,12 @@
       "prose_derived": 0,
       "by_node_type": {}
     },
+    "SUB_BEAT_OF": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
     "SUCCEEDS": {
       "total": 192,
       "infobox": 192,
@@ -1256,6 +1262,7 @@
     "SUBJECT_OF_PROPHECY",
     "SUBVERTS",
     "SUBVERTS_PROPHECY",
+    "SUB_BEAT_OF",
     "SUPPORTS",
     "TORTURES",
     "TRAVELS_TO",
@@ -1293,8 +1300,8 @@
     },
     "Military & Conflict": {
       "populated": 10,
-      "unpopulated": 16,
-      "total_types": 26,
+      "unpopulated": 17,
+      "total_types": 27,
       "total_instances": 637
     },
     "Knowledge & Information": {

@@ -1,15 +1,15 @@
 # Edge Type Counts — Weirwood Network
 
-Generated: 2026-06-06T19:52:38+00:00
+Generated: 2026-06-12T16:13:48+00:00
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Node files scanned | 8,052 |
-| Canonical edge types | 165 |
+| Node files scanned | 8,263 |
+| Canonical edge types | 166 |
 | Populated types (≥1 instance) | 58 |
-| Unpopulated types (0 instances) | 107 |
+| Unpopulated types (0 instances) | 108 |
 | Drift types (not in canonical) | 0 |
 | Total edge instances | 21,087 |
 | Infobox edges | 21,087 |
@@ -77,7 +77,7 @@ Generated: 2026-06-06T19:52:38+00:00
 | `CONTRACTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
 | `CONSPIRES_WITH` *(unpopulated)* | 0 | 0 | 0 |
 
-### Military & Conflict — 10/26 populated, 637 instances
+### Military & Conflict — 10/27 populated, 637 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -91,6 +91,7 @@ Generated: 2026-06-06T19:52:38+00:00
 | `KILLED_BY` | 2 | 2 | 0 |
 | `PART_OF` | 1 | 1 | 0 |
 | `EXECUTES` | 1 | 1 | 0 |
+| `SUB_BEAT_OF` *(unpopulated)* | 0 | 0 | 0 |
 | `BESIEGES` *(unpopulated)* | 0 | 0 | 0 |
 | `POISONS` *(unpopulated)* | 0 | 0 | 0 |
 | `RANSOMS` *(unpopulated)* | 0 | 0 | 0 |
@@ -262,7 +263,7 @@ Generated: 2026-06-06T19:52:38+00:00
 | `ATTENDS` *(unpopulated)* | 0 | 0 | 0 |
 | `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` *(unpopulated)* | 0 | 0 | 0 |
 
-## Unpopulated Types (107 total — Stage 4 targets)
+## Unpopulated Types (108 total — Stage 4 targets)
 
 These are the types with zero instances in the current graph.
 They are the primary targets for Stage 4 (prose-edge classification).
@@ -270,7 +271,7 @@ They are the primary targets for Stage 4 (prose-edge classification).
 - **Kinship & Family:** `COURTS`, `COUSIN_OF`, `IN_LAW_OF`, `MARRIES_OFF`, `MILK_BROTHER_OF`, `NEPHEW_OF`, `NURSED_BY`, `PROPOSED_AS_BRIDE`, `STEP_CHILD_OF`, `STEP_PARENT_OF`, `UNCLE_OF`, `WET_NURSE_OF`
 - **Political & Authority:** `APPOINTS`, `BANISHES`, `BREAKS_VOW`, `DEPOSES`, `VOWS_TO`
 - **Factional & Diplomatic:** `CONSPIRES_WITH`, `CONTRACTED_WITH`, `NEGOTIATES_WITH`
-- **Military & Conflict:** `AGENT_IN`, `ASSAULTS`, `ATTACKS`, `BESIEGES`, `BESTOWS_KNIGHTHOOD_ON`, `GUARDS`, `IMPRISONS`, `KILLED_WITH`, `KNIGHTED_BY`, `PARTICIPATES_IN`, `POISONS`, `PRISONER_EXCHANGE_FOR`, `RANSOMS`, `RESCUES`, `TORTURES`, `VICTIM_IN`
+- **Military & Conflict:** `AGENT_IN`, `ASSAULTS`, `ATTACKS`, `BESIEGES`, `BESTOWS_KNIGHTHOOD_ON`, `GUARDS`, `IMPRISONS`, `KILLED_WITH`, `KNIGHTED_BY`, `PARTICIPATES_IN`, `POISONS`, `PRISONER_EXCHANGE_FOR`, `RANSOMS`, `RESCUES`, `SUB_BEAT_OF`, `TORTURES`, `VICTIM_IN`
 - **Knowledge & Information:** `AFFLICTED_BY`, `DECEIVES`, `DIED_OF`, `HEALS`, `HOARDS`, `IGNORANT_OF`, `INFORMS`, `INVESTIGATES`, `REVEALS_TO`, `SPIES_ON`, `TUTORS`
 - **Emotional & Perceptual:** `COMPANION_OF`, `DISTRUSTS`, `ENCOUNTERS`, `FEARS`, `HATES`, `MOURNS`, `PERCEIVED_AS`, `REPUTED_AS`, `RESENTS`, `TRUSTS`
 - **Spatial & Temporal:** `CONTEMPORARY_WITH`, `IMPRISONED_AT`, `TRAVELS_TO`, `TRAVELS_WITH`

@@ -1,0 +1,87 @@
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "alannys-harlaw", "target_slug": "theon-greyjoy", "page": "Alannys Harlaw", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "alerie-hightower", "target_slug": "margaery-tyrell", "page": "Alerie Hightower", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "amerei-frey", "target_slug": "lancel-lannister", "page": "Amerei Frey", "field": "Spouses", "qualifier": "dissolved"}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "doran-martell", "target_slug": "arianne-martell", "page": "Arianne Martell", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "arianne-martell", "target_slug": "arys-oakheart", "page": "Arianne Martell", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "arnolf-karstark", "target_slug": "arthor-karstark", "page": "Arnolf Karstark", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "eddard-stark", "target_slug": "arya-stark", "page": "Arya Stark", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "balon-greyjoy", "target_slug": "asha-greyjoy", "page": "Asha Greyjoy", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "asha-greyjoy", "target_slug": "erik-ironmaker", "page": "Asha Greyjoy", "field": "Spouse", "qualifier": "forced marriage"}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "asha-greyjoy", "target_slug": "tristifer-botley", "page": "Asha Greyjoy", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "asha-greyjoy", "target_slug": "qarl-the-maid", "page": "Asha Greyjoy", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "barbrey-dustin", "target_slug": "brandon-stark", "page": "Barbrey Dustin", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "eddard-stark", "target_slug": "bran-stark", "page": "Bran Stark", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "catelyn-stark", "target_slug": "bran-stark", "page": "Bran Stark", "field": "Mother", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "captains-daughter", "target_slug": "theon-greyjoy", "page": "Captain's daughter", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "hoster-tully", "target_slug": "catelyn-stark", "page": "Catelyn Stark", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "catelyn-stark", "target_slug": "eddard-stark", "page": "Catelyn Stark", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "catelyn-stark", "target_slug": "robb-stark", "page": "Catelyn Stark", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "catelyn-stark", "target_slug": "rickon-stark", "page": "Catelyn Stark", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "tywin-lannister", "target_slug": "cersei-lannister", "page": "Cersei Lannister", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "cersei-lannister", "target_slug": "jaime-lannister", "page": "Cersei Lannister", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "cersei-lannister", "target_slug": "lancel-lannister", "page": "Cersei Lannister", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "cersei-lannister", "target_slug": "osney-kettleblack", "page": "Cersei Lannister", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "cersei-lannister", "target_slug": "taena-merryweather", "page": "Cersei Lannister", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "cersei-lannister", "target_slug": "joffrey-baratheon", "page": "Cersei Lannister", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "cersei-lannister", "target_slug": "myrcella-baratheon", "page": "Cersei Lannister", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "cersei-lannister", "target_slug": "tommen-baratheon", "page": "Cersei Lannister", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SWORN_TO", "source_slug": "cohollo", "target_slug": "drogo", "page": "Cohollo", "field": "Allegiance", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "corpse-queen", "target_slug": "nights-king", "page": "Corpse queen", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "craster", "target_slug": "gilly", "page": "Craster", "field": "Spouses", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "daario-naharis", "target_slug": "daenerys-targaryen", "page": "Daario Naharis", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "daenerys-targaryen", "target_slug": "rhaego", "page": "Daenerys Targaryen", "field": "Issue", "qualifier": "stillborn"}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "davos-seaworth", "target_slug": "marya-seaworth", "page": "Davos Seaworth", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "davos-seaworth", "target_slug": "devan-seaworth", "page": "Davos Seaworth", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "doran-martell", "target_slug": "mellario", "page": "Doran Martell", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "doran-martell", "target_slug": "quentyn-martell", "page": "Doran Martell", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "drogo", "target_slug": "daenerys-targaryen", "page": "Drogo", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "eddard-stark", "target_slug": "robb-stark", "page": "Eddard Stark", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "eddard-stark", "target_slug": "jon-snow", "page": "Eddard Stark", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "eddard-stark", "target_slug": "sansa-stark", "page": "Eddard Stark", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "edmure-tully", "target_slug": "roslin-frey", "page": "Edmure Tully", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "ellaria-sand", "target_slug": "oberyn-martell", "page": "Ellaria Sand", "field": "Lover", "qualifier": "paramour"}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "emma", "target_slug": "rosey", "page": "Emma", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "emmon-frey", "target_slug": "genna-lannister", "page": "Emmon Frey", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "gilly", "target_slug": "samwell-tarly", "page": "Gilly", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "FOUNDED", "source_slug": "aegor-rivers", "target_slug": "golden-company", "page": "Golden Company", "field": "Founder", "qualifier": ""}
+{"rule": "R10", "edge_type": "SWORN_TO", "source_slug": "haggo", "target_slug": "drogo", "page": "Haggo", "field": "Allegiance", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "husband", "target_slug": "sharna", "page": "Husband", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "illyrio-mopatis", "target_slug": "serra", "page": "Illyrio Mopatis", "field": "Spouses", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "tywin-lannister", "target_slug": "jaime-lannister", "page": "Jaime Lannister", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "jarl", "target_slug": "val", "page": "Jarl", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "jeor-mormont", "target_slug": "jorah-mormont", "page": "Jeor Mormont", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "jeyne-poole", "target_slug": "ramsay-snow", "page": "Jeyne Poole", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "jeyne-westerling", "target_slug": "robb-stark", "page": "Jeyne Westerling", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "jon-arryn", "target_slug": "lysa-arryn", "page": "Jon Arryn", "field": "Spouses", "qualifier": ""}
+{"rule": "R10", "edge_type": "SWORN_TO", "source_slug": "jon-snow", "target_slug": "nights-watch", "page": "Jon Snow", "field": "Allegiances", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "jon-snow", "target_slug": "ygritte", "page": "Jon Snow", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "jorah-mormont", "target_slug": "lynesse-hightower", "page": "Jorah Mormont", "field": "Spouses", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "kyra", "target_slug": "theon-greyjoy", "page": "Kyra", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "tanda-stokeworth", "target_slug": "lollys-stokeworth", "page": "Lollys Stokeworth", "field": "Mother", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "mace-tyrell", "target_slug": "loras-tyrell", "page": "Loras Tyrell", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "loras-tyrell", "target_slug": "renly-baratheon", "page": "Loras Tyrell", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "lynesse-hightower", "target_slug": "tregar-ormollen", "page": "Lynesse Hightower", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "lysa-arryn", "target_slug": "petyr-baelish", "page": "Lysa Arryn", "field": "Spouses", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "lysa-arryn", "target_slug": "robert-arryn", "page": "Lysa Arryn", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "mace-tyrell", "target_slug": "margaery-tyrell", "page": "Mace Tyrell", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "margaery-tyrell", "target_slug": "joffrey-baratheon", "page": "Margaery Tyrell", "field": "Spouses", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "margaery-tyrell", "target_slug": "tommen-baratheon", "page": "Margaery Tyrell", "field": "Spouses", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "mariya-darry", "target_slug": "merrett-frey", "page": "Mariya Darry", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "melessa-florent", "target_slug": "samwell-tarly", "page": "Melessa Florent", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "tormund", "target_slug": "munda", "page": "Munda", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "munda", "target_slug": "ryk", "page": "Munda", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "mya-stone", "target_slug": "mychel-redfort", "page": "Mya Stone", "field": "Lover", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "oberyn-martell", "target_slug": "obara-sand", "page": "Obara Sand", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "SWORN_TO", "source_slug": "qotho", "target_slug": "drogo", "page": "Qotho", "field": "Allegiance", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "roose-bolton", "target_slug": "ramsay-snow", "page": "Ramsay Snow", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "randyll-tarly", "target_slug": "samwell-tarly", "page": "Randyll Tarly", "field": "Issue", "qualifier": ""}
+{"rule": "R10", "edge_type": "HEIR_TO", "source_slug": "bran-stark", "target_slug": "robb-stark", "page": "Robb Stark", "field": "Heirs", "qualifier": "believed dead"}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "sansa-stark", "target_slug": "tyrion-lannister", "page": "Sansa Stark", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "selyse-florent", "target_slug": "stannis-baratheon", "page": "Selyse Florent", "field": "Spouse", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "shae", "target_slug": "tyrion-lannister", "page": "Shae", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "LOVER_OF", "source_slug": "shae", "target_slug": "tywin-lannister", "page": "Shae", "field": "Lovers", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "tormund", "target_slug": "toregg", "page": "Toregg", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "PARENT_OF", "source_slug": "tywin-lannister", "target_slug": "tyrion-lannister", "page": "Tyrion Lannister", "field": "Father", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "tyrion-lannister", "target_slug": "tysha", "page": "Tyrion Lannister", "field": "Spouses", "qualifier": "annulled"}
+{"rule": "R10", "edge_type": "SWORN_TO", "source_slug": "varamyr", "target_slug": "mance-rayder", "page": "Varamyr", "field": "Allegiance", "qualifier": ""}
+{"rule": "R10", "edge_type": "SPOUSE_OF", "source_slug": "yandry", "target_slug": "ysilla", "page": "Yandry", "field": "Spouse", "qualifier": ""}

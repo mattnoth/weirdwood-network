@@ -1,0 +1,1037 @@
+{"rule": "R3a", "page": "Addam Velaryon", "field": "Fathers", "target": "Laenor Velaryon", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Addam Velaryon", "field": "Fathers", "target": "Corlys Velaryon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Adrian Thorne", "field": "Titles", "target": "Lion Gate", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Aegon's Conquest", "field": "Result", "target": "Daemon Velaryon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Aegon's first test", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Aegon's first test", "field": "Result", "target": "Duskendale", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Aegon's first test", "field": "Result", "target": "Maidenpool", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Aegon II Targaryen", "field": "Issue", "target": "Gaemon Palehair", "edge_type": "PARENT_OF", "qualifier": "allegedly"}
+{"rule": "R3c", "page": "Aegon IV Targaryen", "field": "Lovers", "target": "Elaena Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Aegon IV Targaryen", "field": "Lovers", "target": "Lord Butterwell", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3e", "page": "Aegon IV Targaryen", "field": "Issue", "target": "Daeron II Targaryen", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R3e", "page": "Aegon IV Targaryen", "field": "Issue", "target": "Viserys Plumm", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Aegon IV Targaryen", "field": "Issue", "target": "Jeyne Lothston", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3a", "page": "Aegon Targaryen (Young Griff)", "field": "Fathers", "target": "Griff", "edge_type": "PARENT_OF", "qualifier": "adoptive father"}
+{"rule": "R3a", "page": "Aegon Targaryen (Young Griff)", "field": "Fathers", "target": "Rhaegar Targaryen", "edge_type": "PARENT_OF", "qualifier": "supposedly"}
+{"rule": "R3a", "page": "Aegon Targaryen (Young Griff)", "field": "Mothers", "target": "Tyroshi", "edge_type": "PARENT_OF", "qualifier": "initially claimed"}
+{"rule": "R3a", "page": "Aegon Targaryen (Young Griff)", "field": "Mothers", "target": "Elia Martell", "edge_type": "PARENT_OF", "qualifier": "supposedly"}
+{"rule": "R6c", "page": "Aegon the Uncrowned's rebellion", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Aegon the Uncrowned's rebellion", "field": "Result", "target": "Aegon Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Aelinor Penrose", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Aemma Arryn", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Aemon Targaryen (son of Maekar I)", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6b", "page": "Aemon Targaryen (son of Maekar I)", "field": "Titles", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Aemon Targaryen (son of Viserys II)", "field": "Lover", "target": "Naerys Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Aemon Targaryen (son of Viserys II)", "field": "Issue", "target": "Daeron II Targaryen", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Aemond Targaryen", "field": "Spouse", "target": "Alys Rivers", "edge_type": "SPOUSE_OF", "qualifier": "allegedly"}
+{"rule": "R3c", "page": "Aerion Targaryen (son of Daemion)", "field": "Issue", "target": "Orys Baratheon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Aeron Greyjoy", "field": "Titles", "target": "Golden Storm", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->artifacts"}
+{"rule": "R6a", "page": "Alannys Harlaw", "field": "Father", "target": "Harlaw", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Alarra Massey", "field": "Title", "target": "Driftmark", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Alastor Reyne", "field": "Titles", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Alayne Baelish", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3c", "page": "Alayne Royce", "field": "Lover", "target": "Rhaena Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Alerie Hightower", "field": "Title", "target": "Highgarden", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Alesander Staedmon", "field": "Title", "target": "Broad Arch", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Alfador", "field": "Title", "target": "Hightower", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Aliandra Martell", "field": "Lover", "target": "Alyn Velaryon", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Alicent Hightower", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Allard Seaworth", "field": "Title", "target": "Lady Marya", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Alliser Thorne", "field": "Titles", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Alton Butterwell", "field": "Titles", "target": "Lord Harroway's Town", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Alyn Velaryon", "field": "Titles", "target": "Queen Rhaenys", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Alyn Velaryon", "field": "Titles", "target": "Lady Baela", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Alyn Velaryon", "field": "Titles", "target": "Bold Marilda", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R3a", "page": "Alyn Velaryon", "field": "Fathers", "target": "Laenor Velaryon", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Alyn Velaryon", "field": "Fathers", "target": "Corlys Velaryon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Alyn Velaryon", "field": "Lovers", "target": "Aliandra Martell", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Alyn Velaryon", "field": "Lovers", "target": "Rue", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Alys Harroway", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3c", "page": "Alys Harroway", "field": "Lovers", "target": "Tyanna of Pentos", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6a", "page": "Alys Karstark", "field": "Spouse", "target": "Thenns", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6b", "page": "Alys Karstark (wife of Brandon)", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Alys Rivers's son", "field": "Father", "target": "Aemond Targaryen", "edge_type": "PARENT_OF", "qualifier": "alleged"}
+{"rule": "R3e", "page": "Alys Rivers", "field": "Father", "target": "Lyonel Strong", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R3c", "page": "Alys Rivers", "field": "Spouse", "target": "Aemond Targaryen", "edge_type": "SPOUSE_OF", "qualifier": "allegedly"}
+{"rule": "R6b", "page": "Alys Turnberry", "field": "Title", "target": "Pebble", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Alys Turnberry", "field": "Issue", "target": "Bastard", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->titles"}
+{"rule": "R6b", "page": "Alysanne Blackwood", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Alysanne Blackwood", "field": "Lover", "target": "Sabitha Frey", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Alysanne Hightower", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Alyssa Velaryon", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Amarei Crakehall", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6c", "page": "Ambush at Fair Isle", "field": "Result", "target": "Ironborn victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Ambush on the Wendwater", "field": "Result", "target": "Inconclusive", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Amethyst Empress", "field": "Titles", "target": "Amethyst Empress", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Amory Lorch", "field": "Titles", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Anarchy in the Reach", "field": "Result", "target": "Storm King", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Anarchy in the Reach", "field": "Result", "target": "King of the Rock", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Anarchy in the Reach", "field": "Result", "target": "Garth X Gardener", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Anarchy in the Reach", "field": "Result", "target": "Oakenseat", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Anarchy in the Reach", "field": "Result", "target": "Highgarden", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Anarchy in the Reach", "field": "Result", "target": "Mern VI Gardener", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Anarchy in the Reach", "field": "Result", "target": "King of the Reach", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6a", "page": "Androw Ashford", "field": "Father", "target": "Ashford", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Anselm", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Areo Hotah", "field": "Title", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Areo Hotah", "field": "Title", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Argella Durrandon", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Argella Durrandon", "field": "Issue", "target": "Raymont Baratheon", "edge_type": "PARENT_OF", "qualifier": "dubious canonicity"}
+{"rule": "R6b", "page": "Arnolf Karstark", "field": "Title", "target": "Karhold", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Aron Santagar", "field": "Titles", "target": "Red Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Arra Norrey", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Arrana Stark", "field": "Title", "target": "Last Hearth", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Arrest of Eddard Stark", "field": "Result", "target": "House Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Arrest of Eddard Stark", "field": "Result", "target": "Joffrey Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3a", "page": "Arwyn Frey", "field": "Fathers", "target": "Walder Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Arwyn Frey", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Arya Stark", "field": "Titles", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "allegedly", "detail": "->locations"}
+{"rule": "R3c", "page": "Arya Stark", "field": "Spouse", "target": "Ramsay Bolton", "edge_type": "SPOUSE_OF", "qualifier": "allegedly"}
+{"rule": "R6b", "page": "Asha Greyjoy", "field": "Titles", "target": "Black Wind", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R3c", "page": "Ashara Dayne", "field": "Lover", "target": "Eddard Stark", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Ashara Dayne", "field": "Issue", "target": "Jon Snow", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6c", "page": "Assassination of Tywin Lannister", "field": "Result", "target": "Tywin Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Assassination of Tywin Lannister", "field": "Result", "target": "Tyrion Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Assassinations of Pycelle and Kevan Lannister", "field": "Result", "target": "Pycelle", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Assassinations of Pycelle and Kevan Lannister", "field": "Result", "target": "Kevan Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Assault on Dragonstone", "field": "Result", "target": "Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Attack on Castle Black", "field": "Result", "target": "Castle Black", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Attack on Old Wyk", "field": "Result", "target": "Royal victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Axell Florent", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6b", "page": "Azzak zo Ghazeen", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Baela Targaryen", "field": "Titles", "target": "Driftmark", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Baelor Blacktyde", "field": "Titles", "target": "Nightflyer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Balder", "field": "Title", "target": "Eastwatch-by-the-Sea", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ballabar", "field": "Title", "target": "Arbor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Balon Byrch", "field": "Titles", "target": "Old Gate", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Balon Greyjoy", "field": "Titles", "target": "Great Kraken", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R3d", "page": "Balon Greyjoy", "field": "Heir", "target": "Theon Greyjoy", "edge_type": "HEIR_TO", "qualifier": "disputed"}
+{"rule": "R3d", "page": "Balon Greyjoy", "field": "Heir", "target": "Asha Greyjoy", "edge_type": "HEIR_TO", "qualifier": "disputed"}
+{"rule": "R6b", "page": "Bambarro Bazanne", "field": "Title", "target": "Magister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Barba Bracken", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Bartimus", "field": "Titles", "target": "Wolf's Den", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Bass", "field": "Title", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Battle Above the Gods Eye", "field": "Result", "target": "Death of all combatants", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle Beneath the Gods Eye", "field": "Result", "target": "Prince Aegon is slain", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Black Bog", "field": "Result", "target": "Weirwood Alliance", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Duskendale", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Fairmarket", "field": "Result", "target": "Hoare", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Kayce", "field": "Result", "target": "Westermen victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Long Lake", "field": "Result", "target": "Northern victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Lordsport", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Pyke", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at Stonebridge", "field": "Result", "target": "Wat the Hewer", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at the Great Fork", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at the Horns of Hazzat", "field": "Result", "target": "Yunkish victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at the Mummer's Ford", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle at the burning septry", "field": "Result", "target": "Brotherhood", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle beneath the Wall", "field": "Result", "target": "Night's Watch", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle beneath the Wall", "field": "Result", "target": "House Baratheon of Dragonstone", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle by the Bloody Pool", "field": "Result", "target": "Durrandon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle for the Dawn", "field": "Result", "target": "Others", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle for the Dawn", "field": "Result", "target": "Long Night", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle in the Whispering Wood", "field": "Result", "target": "Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle in the hills below the Golden Tooth", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle in the waters off Gulltown", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle in the waters off Gulltown", "field": "Result", "target": "Vale", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle near Yunkai", "field": "Result", "target": "Yunkai", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Ashford", "field": "Result", "target": "Royalist victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Bitter River", "field": "Result", "target": "Andal", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Bronzegate", "field": "Result", "target": "House Durrandon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Crookwater", "field": "Result", "target": "House Durrandon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Oxcross", "field": "Result", "target": "Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Six Kings", "field": "Result", "target": "Durrandon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Six Kings", "field": "Result", "target": "House Teague", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Six Kings", "field": "Result", "target": "Storm Kings", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Summerfield", "field": "Result", "target": "Durrandon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Three Armies", "field": "Result", "target": "Gardener", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of Wendwater Bridge", "field": "Result", "target": "House Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Blackwater", "field": "Result", "target": "See below", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Borderland", "field": "Result", "target": "Triarchy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Camps", "field": "Result", "target": "Robb Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Camps", "field": "Result", "target": "King in the North", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Camps", "field": "Result", "target": "King of the Trident", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Fords", "field": "Result", "target": "Tully", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Gullet", "field": "Result", "target": "Driftmark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Gullet", "field": "Result", "target": "Triarchy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Kingsroad", "field": "Result", "target": "Black", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Redgrass Field", "field": "Result", "target": "Loyalist victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Reeds", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Seven Stars", "field": "Result", "target": "Andal", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Seven Stars", "field": "Result", "target": "Artys Arryn", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Seven Stars", "field": "Result", "target": "King of Mountain and Vale", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Trident", "field": "Result", "target": "Decisive rebel victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle of the Weeping Water", "field": "Result", "target": "Northern", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle on Whispering Sound", "field": "Result", "target": "Villages and fields along Whispering Sound are burnt", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle on the Green Fork", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle on the river Slayne", "field": "Result", "target": "Durrandon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle outside the gates of Winterfell", "field": "Result", "target": "Bolton", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battle under the walls of Riverrun", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Battles at Summerhall", "field": "Result", "target": "Rebel victory - Robert wins three battles in a single day.", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Bedwyck", "field": "Title", "target": "Icemark", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Beldon", "field": "Title", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Bellegere Otherys", "field": "Father", "target": "Sealord of Braavos", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->titles"}
+{"rule": "R6a", "page": "Bellegere Otherys", "field": "Mother", "target": "Summer Isles", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Ben Plumm", "field": "Titles", "target": "Second Sons", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->factions"}
+{"rule": "R6a", "page": "Ben Plumm", "field": "Mother", "target": "Dothraki", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6b", "page": "Benedict Broom", "field": "Titles", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3b", "page": "Benedict I Justman", "field": "Father", "target": "Blackwood", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3b", "page": "Benedict I Justman", "field": "Father", "target": "Bracken", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3b", "page": "Benedict I Justman", "field": "Mother", "target": "Blackwood", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3b", "page": "Benedict I Justman", "field": "Mother", "target": "Bracken", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R6b", "page": "Betha Blackwood", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Bethany Bolton", "field": "Title", "target": "Dreadfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Bethany Redwyne", "field": "Title", "target": "Goldengrove", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Bhakaz zo Loraq", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Black Balaq", "field": "Title", "target": "Golden Company", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Black Lorren", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Bloodbeard", "field": "Title", "target": "Company of the Cat", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Bonifer Hasty", "field": "Titles", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Bors the Breaker", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Bowen Marsh", "field": "Titles", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Brandon of the Bloody Blade", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R3c", "page": "Brandon of the Bloody Blade", "field": "Issue", "target": "Brandon the Builder", "edge_type": "PARENT_OF", "qualifier": "in some tales"}
+{"rule": "R3c", "page": "Brandon the Builder", "field": "Father", "target": "Brandon of the Bloody Blade", "edge_type": "PARENT_OF", "qualifier": "in some tales"}
+{"rule": "R6b", "page": "Brenett", "field": "Title", "target": "Twins", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Bronn", "field": "Titles", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Bryan of Oldtown", "field": "Title", "target": "Spearshaker", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Bryen", "field": "Title", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Brynden Tully", "field": "Titles", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6c", "page": "Burning of Harrenhal", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of Harrenhal", "field": "Result", "target": "House Hoare", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of Jeyne Poore", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of Pinkmaiden Castle", "field": "Result", "target": "Westermen victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of Sow's Horn", "field": "Result", "target": "Hogg victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of Stone Hedge", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of Stone Hedge", "field": "Result", "target": "Stone Hedge", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of the Lannister fleet", "field": "Result", "target": "Greyjoy victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of the Sept of Remembrance", "field": "Result", "target": "Iron Throne victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Burning of the seats of the pious lords", "field": "Result", "target": "Destruction of the seats of several pious lords", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Caggo", "field": "Title", "target": "Windblown", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Caleotte", "field": "Title", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Caltrops", "field": "Result", "target": "Hugh is killed by Jon Roxton", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Caltrops", "field": "Result", "target": "Ulf is poisoned by Hobert Hightower", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Captain of the Adventure", "field": "Title", "target": "Adventure", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Captain of the Myraham", "field": "Title", "target": "Myraham", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Captain of the Prince Aemon", "field": "Title", "target": "Prince Aemon", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Captain of the River Arrow", "field": "Title", "target": "River Arrow", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Captain of the Selaesori Qhoran", "field": "Title", "target": "Selaesori Qhoran", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Captain of the Wildwind", "field": "Title", "target": "Wildwind", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6c", "page": "Capture of Darry", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Capture of Harrenhal", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Capture of Torrhen's Square", "field": "Result", "target": "House Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Capture of Winterfell", "field": "Result", "target": "Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Casper Straw", "field": "Titles", "target": "Warrior's Sons", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Cassana Estermont", "field": "Title", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Cassandra Baratheon", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Cassella Vaith", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Casso Mogat", "field": "Title", "target": "Merry Midwife", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Catelyn Stark", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Cerissa Brax", "field": "Title", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Cerrick", "field": "Title", "target": "Coldmoat", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Cersei Lannister", "field": "Lovers", "target": "Osmund Kettleblack", "edge_type": "LOVER_OF", "qualifier": "alleged"}
+{"rule": "R3c", "page": "Cersei Lannister", "field": "Lovers", "target": "Osfryd Kettleblack", "edge_type": "LOVER_OF", "qualifier": "alleged"}
+{"rule": "R6b", "page": "Ceryse Hightower", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Chatana Qo", "field": "Title", "target": "Sweet Lotus Vale", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Clarice Osgrey", "field": "Lover", "target": "George Graceford", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Clegane (father of Gregor and Sandor)", "field": "Titles", "target": "Clegane's Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Clegane (founder)", "field": "Titles", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Clegane (founder)", "field": "Titles", "target": "Clegane's Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Colemon", "field": "Title", "target": "Eyrie", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Colin Florent", "field": "Titles", "target": "Brightwater Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Colmar Frey", "field": "Fathers", "target": "Walder Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Colmar Frey", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6c", "page": "Combat at the tower of joy", "field": "Result", "target": "Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Coming of the Andals", "field": "Result", "target": "Neck", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Coming of the Andals", "field": "Result", "target": "First Men", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Coming of the Andals", "field": "Result", "target": "Pact", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Conquest of Dorne", "field": "Result", "target": "Short-lasting conquest of Dorne, followed by a Dornish rebellion", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Corlys Velaryon", "field": "Lover", "target": "Marilda of Hull", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Corlys Velaryon", "field": "Issue", "target": "Addam Velaryon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Corlys Velaryon", "field": "Issue", "target": "Alyn Velaryon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Corso", "field": "Title", "target": "Summerhall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Cortnay Penrose", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Coryanne Wylde", "field": "Issue", "target": "Bastard", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->titles"}
+{"rule": "R6b", "page": "Cosgrove", "field": "Titles", "target": "Whitewalls", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Cosgrove", "field": "Titles", "target": "Master of the games", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->events"}
+{"rule": "R6b", "page": "Cotter Pyke", "field": "Title", "target": "Eastwatch-by-the-Sea", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Cressen", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Criston Cole", "field": "Lover", "target": "Rhaenyra Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Culiper", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Daegon Shepherd", "field": "Title", "target": "Dagger", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Daella Targaryen (daughter of Jaehaerys I)", "field": "Titles", "target": "Eyrie", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Daemon Sand", "field": "Lovers", "target": "Oberyn Martell", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Daemon Targaryen", "field": "Lovers", "target": "Nettles", "edge_type": "LOVER_OF", "qualifier": "debated"}
+{"rule": "R6b", "page": "Daenaera Velaryon", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Daenerys Targaryen", "field": "Titles", "target": "Seven Kingdoms", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Daenys Targaryen", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Daeron II Targaryen", "field": "Fathers", "target": "Aegon IV Targaryen", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Daeron II Targaryen", "field": "Fathers", "target": "Aemon Targaryen", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Daeron Velaryon", "field": "Titles", "target": "True Heart", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Dagmer", "field": "Titles", "target": "Foamdrinker", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Dagmer", "field": "Titles", "target": "Pyke", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Dale Seaworth", "field": "Title", "target": "Wraith", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6a", "page": "Dalton Greyjoy", "field": "Spouses", "target": "Knight of Kayce", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->titles"}
+{"rule": "R6b", "page": "Damion Lannister", "field": "Titles", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Damon Morrigen", "field": "Titles", "target": "Warrior's Sons", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6c", "page": "Dance of the Dragons", "field": "Result", "target": "Aegon II", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Dance of the Dragons", "field": "Result", "target": "Rhaenyra", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Dance of the Dragons", "field": "Result", "target": "Aegon III", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Dance of the Dragons", "field": "Result", "target": "Wedding of Aegon III Targaryen and Jaehaera Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Darla Deddings", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6c", "page": "Daughters' War", "field": "Result", "target": "Royal fleet", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6a", "page": "Davos Dayne", "field": "Spouse", "target": "Ny Sar", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6c", "page": "Defenestration of Sunspear", "field": "Result", "target": "Dornish victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Denys Mallister", "field": "Titles", "target": "Shadow Tower", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Desmond Grell", "field": "Titles", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Desmond Manderly", "field": "Titles", "target": "Order of the Green Hand", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6c", "page": "Destruction of House Harroway", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Destruction of House Harroway", "field": "Result", "target": "House Harroway", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Destruction of House Harroway", "field": "Result", "target": "House Towers", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Devyn Sealskinner", "field": "Title", "target": "Greenguard", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Dhazzar", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Dogkiller", "field": "Title", "target": "Unsullied", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Doran Martell", "field": "Titles", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Doran Martell", "field": "Spouse", "target": "Norvos", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6a", "page": "Dorian Hightower", "field": "Spouses", "target": "Andal", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6b", "page": "Draqaz", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R3c", "page": "Dreamfyre", "field": "Issue", "target": "Drogon", "edge_type": "PARENT_OF", "qualifier": "unconfirmed"}
+{"rule": "R3c", "page": "Dreamfyre", "field": "Issue", "target": "Rhaegal", "edge_type": "PARENT_OF", "qualifier": "unconfirmed"}
+{"rule": "R3c", "page": "Dreamfyre", "field": "Issue", "target": "Viserion", "edge_type": "PARENT_OF", "qualifier": "unconfirmed"}
+{"rule": "R6b", "page": "Dunstan Drumm", "field": "Titles", "target": "Thunderer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6a", "page": "Durran II Durrandon", "field": "Mother", "target": "Elenei", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Dyanna Dayne", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3c", "page": "Eddard Stark", "field": "Lovers", "target": "Wylla", "edge_type": "LOVER_OF", "qualifier": "supposedly"}
+{"rule": "R3c", "page": "Eddard Stark", "field": "Lovers", "target": "Ashara Dayne", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Elaena Targaryen", "field": "Titles", "target": "Parchments", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Elaena Targaryen", "field": "Lovers", "target": "Aegon IV Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Eldon Estermont", "field": "Issue", "target": "Lomas Estermont", "edge_type": "PARENT_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Elenda Baratheon", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Elenei", "field": "Father", "target": "Sea god", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->religions"}
+{"rule": "R6a", "page": "Elenei", "field": "Mother", "target": "Goddess of the wind", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->religions"}
+{"rule": "R6a", "page": "Elenei", "field": "Spouse", "target": "Durran Godsgrief", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Elenei", "field": "Issue", "target": "Durran II Durrandon", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6b", "page": "Elinor Costayne", "field": "Titles", "target": "Lannisport", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Elissa Farman", "field": "Titles", "target": "Maiden's Fancy", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Elissa Farman", "field": "Titles", "target": "Sun Chaser", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6a", "page": "Ellyn Ever Sweet", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Ellyn Reyne", "field": "Title", "target": "Tarbeck Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Elmar Frey", "field": "Fathers", "target": "Walder Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Elmar Frey", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Elwood Meadows", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6b", "page": "Elyas Scales", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Emmett", "field": "Titles", "target": "Eastwatch-by-the-Sea", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6b", "page": "Emmett", "field": "Titles", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6b", "page": "Emmett", "field": "Titles", "target": "Long Barrow", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Endrew Tarth", "field": "Titles", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Erich Hoare", "field": "Father", "target": "Ravos Hoare", "edge_type": "PARENT_OF", "qualifier": "unconfirmed"}
+{"rule": "R6b", "page": "Erik Ironmaker", "field": "Titles", "target": "Pyke", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Essie", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Euron Greyjoy", "field": "Titles", "target": "Silence", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Eustace (Dance of the Dragons)", "field": "Titles", "target": "Most Devout", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6c", "page": "Fair Isle rebellion", "field": "Result", "target": "Ironborn", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fair Isle rebellion", "field": "Result", "target": "House Farman", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Faith Militant uprising", "field": "Result", "target": "Faith Militant", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Falena Stokeworth", "field": "Title", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Fall of Astapor", "field": "Result", "target": "Conquest of the city", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fall of Harrenhal", "field": "Result", "target": "Bolton", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fall of Maidenpool", "field": "Result", "target": "Andal", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fall of Mistwood", "field": "Result", "target": "Golden Company victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fall of Moat Cailin", "field": "Result", "target": "Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fall of Raventree Hall", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fall of Raventree Hall", "field": "Result", "target": "Raventree Hall", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Field of Crows", "field": "Result", "target": "Decisive Dothraki victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Field of Fire", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Field of Fire", "field": "Result", "target": "House Gardener", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Field of Fire", "field": "Result", "target": "House Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight above Shipbreaker Bay", "field": "Result", "target": "Lucerys Velaryon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight above Shipbreaker Bay", "field": "Result", "target": "Arrax", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight above Shipbreaker Bay", "field": "Result", "target": "House Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight at Torrhen's Square", "field": "Result", "target": "Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight at the Bridge of Skulls", "field": "Result", "target": "Night's Watch", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight at the Fist", "field": "Result", "target": "Others", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight at the holdfast", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "House Baratheon of Dragonstone", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "House Glover", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "Asha Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "Glover", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "Mormont", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "Stannis Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "Hornwoods", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "Cerwyns", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fight by Deepwood Motte", "field": "Result", "target": "Tallharts", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fighting at Bitterbridge", "field": "Result", "target": "House Tyrell", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fighting at Sow's Horn", "field": "Result", "target": "Hogg victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fighting at the fords of the Trident", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fighting in the Hornwood", "field": "Result", "target": "House Manderly captures Hornwood but later withdraws, resulting in a Bolton victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fighting in the Hornwood", "field": "Result", "target": "Ramsay Snow believed dead after intervention of Winterfell", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "First Blackfyre Rebellion", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "First Blackfyre Rebellion", "field": "Result", "target": "House Blackfyre", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "First Blackfyre Rebellion", "field": "Result", "target": "Essos", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "First Dornish War", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "First Turtle War", "field": "Result", "target": "Sar Mell", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "First Turtle War", "field": "Result", "target": "Volon Therys", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Flight to Dragonstone", "field": "Result", "target": "Rhaenyra Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Flight to Dragonstone", "field": "Result", "target": "Queensguards", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Flight to Dragonstone", "field": "Result", "target": "Aegon Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Floris Baratheon", "field": "Title", "target": "Goldengrove", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Florys the Fox", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R3c", "page": "Florys the Fox", "field": "Issue", "target": "Lann the Clever", "edge_type": "PARENT_OF", "qualifier": "allegedly"}
+{"rule": "R6a", "page": "Foss the Archer", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6c", "page": "Fourth Blackfyre Rebellion", "field": "Result", "target": "Daemon III Blackfyre", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Fourth Dornish War", "field": "Result", "target": "House Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Frenken", "field": "Title", "target": "Stokeworth", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Gaemon Palehair", "field": "Fathers", "target": "Lysene", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3a", "page": "Gaemon Palehair", "field": "Fathers", "target": "Aegon II Targaryen", "edge_type": "PARENT_OF", "qualifier": "allegedly"}
+{"rule": "R6b", "page": "Gareth Long", "field": "Titles", "target": "Starpike", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Gareth Long", "field": "Titles", "target": "Red Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Garrison Prester", "field": "Title", "target": "Feastfires", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Garth Greenfield", "field": "Titles", "target": "Greenfield", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Garth the Gardener", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "John the Oak", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Gilbert of the Vines", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Florys the Fox", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Maris the Maid", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Foss the Archer", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Brandon of the Bloody Blade", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Owen Oakenshield", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Harlon the Hunter", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Herndon of the Horn", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Bors the Breaker", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Rose of Red Lake", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Ellyn Ever Sweet", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth Greenhand", "field": "Issue", "target": "Rowan Gold-Tree", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "Garth the Gardener", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Garth the Harelip", "field": "Titles", "target": "Dragon Gate", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Gawen Corbray", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Gawen Wylde", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Genna Lannister", "field": "Titles", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "George Graceford", "field": "Lover", "target": "Clarice Osgrey", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Gerardys", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Gilbert Farring", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Gilbert of the Vines", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Gilliane Glover", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Glendon Flowers", "field": "Father", "target": "Quentyn Ball", "edge_type": "PARENT_OF", "qualifier": "supposed"}
+{"rule": "R6b", "page": "Glendon Hewett", "field": "Titles", "target": "Eastwatch-by-the-Sea", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Glover steward", "field": "Title", "target": "Deepwood Motte", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "God-on-Earth", "field": "Issue", "target": "Pearl Emperor", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->characters"}
+{"rule": "R6a", "page": "God-on-Earth", "field": "Father", "target": "Lion of Night", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->religions"}
+{"rule": "R6a", "page": "God-on-Earth", "field": "Mother", "target": "Maiden-Made-of-Light", "edge_type": "PARENT_OF", "qualifier": "", "detail": "religions->religions"}
+{"rule": "R6b", "page": "Goodwin", "field": "Titles", "target": "Evenfall Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Grazhar zo Galare", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Gregor Clegane", "field": "Titles", "target": "Clegane's Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Grey Worm", "field": "Title", "target": "Unsullied", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6c", "page": "Greyjoy's Rebellion", "field": "Result", "target": "Baratheon of King's Landing", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Greyjoy's Rebellion", "field": "Result", "target": "Rodrik", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Greyjoy's Rebellion", "field": "Result", "target": "Maron Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Greyjoy's Rebellion", "field": "Result", "target": "Theon Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Greyjoy's Rebellion", "field": "Result", "target": "House Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Gulian", "field": "Title", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Gwynesse Harlaw", "field": "Father", "target": "Harlaw", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Hallis Mollen", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Harbert", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Harlon the Hunter", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Harmune", "field": "Title", "target": "Eastwatch-by-the-Sea", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Harras Harlaw", "field": "Father", "target": "Harlaw", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6a", "page": "Harras Hoare", "field": "Spouse", "target": "Andal", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6c", "page": "Harren the Red's rebellion", "field": "Result", "target": "House Qoherys", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Harrying of the Stony Shore", "field": "Result", "target": "Greyjoy victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Harwin Strong", "field": "Lover", "target": "Rhaenyra Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Harwin Strong", "field": "Issue", "target": "Jacaerys Velaryon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Harwin Strong", "field": "Issue", "target": "Lucerys Velaryon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Harwin Strong", "field": "Issue", "target": "Joffrey Velaryon", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Harwood Stout", "field": "Title", "target": "Goldgrass", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Harwyn Plumm", "field": "Titles", "target": "Darry", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Helliweg", "field": "Title", "target": "Runestone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Helya", "field": "Title", "target": "Pyke", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3b", "page": "Henrietta Woodhull", "field": "Father", "target": "Ser", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3b", "page": "Henrietta Woodhull", "field": "Father", "target": "Woodhull", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R6b", "page": "Heriston", "field": "Title", "target": "New Castle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Herndon of the Horn", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Hero", "field": "Title", "target": "Unsullied", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "High Septon (brother of Donnel Hightower)", "field": "Titles", "target": "Most Devout", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Hizdahr zo Loraq", "field": "Titles", "target": "Skahazadhan", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Hother Umber", "field": "Titles", "target": "Last Hearth", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Hour of the Wolf", "field": "Result", "target": "Larys Strong", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Hour of the Wolf", "field": "Result", "target": "Gyles Belgrave", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Hour of the Wolf", "field": "Result", "target": "Dance of the Dragons", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "House Flint of the mountains", "field": "Titles", "target": "The Flint", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->materials"}
+{"rule": "R3c", "page": "House Haigh", "field": "Heir", "target": "Harys Haigh", "edge_type": "HEIR_TO", "qualifier": "possibly"}
+{"rule": "R6b", "page": "House Liddle", "field": "Titles", "target": "The Liddle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "House Manderly", "field": "Titles", "target": "Order of the Green Hand", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R3c", "page": "House Paege", "field": "Heir", "target": "Garrett Paege", "edge_type": "HEIR_TO", "qualifier": "possibly"}
+{"rule": "R6b", "page": "House Prester", "field": "Title", "target": "Feastfires", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "House Qo", "field": "Title", "target": "Sweet Lotus Vale", "edge_type": "HOLDS_TITLE", "qualifier": "ss", "detail": "->locations"}
+{"rule": "R6b", "page": "House Risley", "field": "Titles", "target": "Risley Glade", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6b", "page": "House Slate", "field": "Titles", "target": "Blackpool", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "House Stout", "field": "Title", "target": "Goldgrass", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "House Xaq", "field": "Title", "target": "Koj", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "House Xho", "field": "Title", "target": "Red Flower Vale", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Hullen", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Humfrey Wagstaff", "field": "Titles", "target": "Grandview", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Humfrey Waters", "field": "Titles", "target": "Dragon Gate", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Hunnimore", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Hunt of the Poor Fellows", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Hunt of the Poor Fellows", "field": "Result", "target": "Jeyne Poore", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6a", "page": "Huzhor Amai", "field": "Spouses", "target": "Cymmeri", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6a", "page": "Huzhor Amai", "field": "Spouses", "target": "Zoqora", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6a", "page": "Hyle Hunt", "field": "Issue", "target": "Bastard", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->titles"}
+{"rule": "R6b", "page": "Igon Vyrwel", "field": "Title", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Illyrio Mopatis", "field": "Title", "target": "Magister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ilyn Payne", "field": "Titles", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->factions"}
+{"rule": "R6c", "page": "Invasion of Tarth", "field": "Result", "target": "Golden Company victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Ironborn", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Ryamsport", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Vinetown", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Starfish Harbor", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Stonecrab Cay", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Isle of Pigs", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Mermaid's Palace", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Horseshoe Rock", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Arbor", "field": "Result", "target": "Bastard's Cradle", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Iron Islands", "field": "Result", "target": "Ironborn", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Iron Islands", "field": "Result", "target": "Vickon Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Invasion of the Iron Islands", "field": "Result", "target": "Lord of the Iron Islands", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3a", "page": "Jacaerys Velaryon", "field": "Fathers", "target": "Laenor Velaryon", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Jacaerys Velaryon", "field": "Fathers", "target": "Harwin Strong", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Jacaerys Velaryon", "field": "Spouse", "target": "Sara Snow", "edge_type": "SPOUSE_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Jade Emperor", "field": "Titles", "target": "Jade Emperor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6c", "page": "Jaehaerys Targaryen's uprising", "field": "Result", "target": "Maegor I Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Jaehaerys Targaryen's uprising", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Jaehaerys Targaryen's uprising", "field": "Result", "target": "Jaehaerys Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3e", "page": "Jaime Lannister", "field": "Issue", "target": "Joffrey Baratheon", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Jaime Lannister", "field": "Issue", "target": "Myrcella Baratheon", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Jaime Lannister", "field": "Issue", "target": "Tommen Baratheon", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R6b", "page": "Jalabhar Xho", "field": "Title", "target": "Red Flower Vale", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Janna Fossoway", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Janos Slynt", "field": "Titles", "target": "Iron Gate", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R3c", "page": "Janyce Hunter", "field": "Lover", "target": "Black Walder Frey", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Jate Blackberry", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jennis Templeton", "field": "Title", "target": "Uplands", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Jeyne Darry", "field": "Father", "target": "Darry", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Jeyne Farman", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Jeyne Lothston", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3a", "page": "Jeyne Lothston", "field": "Fathers", "target": "Lucas Lothston", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Jeyne Lothston", "field": "Fathers", "target": "Aegon IV Targaryen", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Jeyne Marbrand", "field": "Title", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jeyne Poole", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jeyne Rowan", "field": "Title", "target": "Horn Hill", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jeyne Royce", "field": "Title", "target": "Eyrie", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jeyne Westerling (wife of Maegor I)", "field": "Titles", "target": "Tarbeck Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jezhene", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Joanna Lannister", "field": "Title", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Joanna Lannister", "field": "Lover", "target": "Aerys II Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Jocasta Lannister", "field": "Title", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jocelyn Baratheon", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3a", "page": "Joffrey Baratheon", "field": "Fathers", "target": "Robert I Baratheon", "edge_type": "PARENT_OF", "qualifier": "legally"}
+{"rule": "R3a", "page": "Joffrey Baratheon", "field": "Fathers", "target": "Jaime Lannister", "edge_type": "PARENT_OF", "qualifier": "biologically"}
+{"rule": "R6b", "page": "Joffrey Doggett", "field": "Titles", "target": "Warrior's Sons", "edge_type": "HOLDS_TITLE", "qualifier": "self-proclaimed", "detail": "->factions"}
+{"rule": "R3a", "page": "Joffrey Velaryon", "field": "Fathers", "target": "Laenor Velaryon", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Joffrey Velaryon", "field": "Fathers", "target": "Harwin Strong", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Johanna Lannister", "field": "Titles", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "John the Oak", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Jokin", "field": "Title", "target": "Stormcrows", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Jon Hollard", "field": "Titles", "target": "Dun Fort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jon Rosby", "field": "Titles", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Jon Snow", "field": "Mothers", "target": "Wylla", "edge_type": "PARENT_OF", "qualifier": "supposedly"}
+{"rule": "R3a", "page": "Jon Snow", "field": "Mothers", "target": "Ashara Dayne", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6c", "page": "Jonos Arryn's rebellion", "field": "Result", "target": "Hubert Arryn", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Jonos Arryn's rebellion", "field": "Result", "target": "Lord of the Eyrie", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Jonos Arryn's rebellion", "field": "Result", "target": "Warden of the East", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Jory Cassel", "field": "Title", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Joseran", "field": "Title", "target": "Blacktyde Castle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jurne", "field": "Title", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Jyana", "field": "Title", "target": "Greywater Watch", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Kasporio", "field": "Title", "target": "Second Sons", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Kedry", "field": "Title", "target": "Yronwood", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Kennet (maester)", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Kerwin", "field": "Title", "target": "Greenshield", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Kezmya Pahl", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Khorane Sathmantes", "field": "Title", "target": "Shayala's Dance", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R3d", "page": "King of the Andals, the Rhoynar, and the First Men", "field": "Heir", "target": "Shireen Baratheon", "edge_type": "HEIR_TO", "qualifier": "disputed by Shireen Baratheon"}
+{"rule": "R6b", "page": "Korra", "field": "Title", "target": "Hag's Teeth", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Kyrie", "field": "Title", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Bracken", "field": "Title", "target": "Stone Hedge", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Lady Buckler", "field": "Spouse", "target": "Lord Buckler", "edge_type": "SPOUSE_OF", "qualifier": "possibly"}
+{"rule": "R3c", "page": "Lady Bulwer's brother", "field": "Father", "target": "Jon Bulwer", "edge_type": "PARENT_OF", "qualifier": "supposed"}
+{"rule": "R3c", "page": "Lady Bulwer's brother", "field": "Mother", "target": "Victaria Tyrell", "edge_type": "PARENT_OF", "qualifier": "supposed"}
+{"rule": "R6b", "page": "Lady Butterwell", "field": "Title", "target": "Whitewalls", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Caswell", "field": "Titles", "target": "Bitterbridge", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Corbray", "field": "Title", "target": "Heart's Home", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Lady Corbray", "field": "Father", "target": "Gulltown", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Lady Deddings", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Lady Farts-a-Lot", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3c", "page": "Lady Merryweather", "field": "Spouse", "target": "Lord Merryweather", "edge_type": "SPOUSE_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Lady Mormont (wife of Alaric Stark)", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Piper (wife of Quellon Greyjoy)", "field": "Title", "target": "Pyke", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Staunton", "field": "Titles", "target": "Rook's Rest", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Stonetree (wife of Quellon Greyjoy)", "field": "Title", "target": "Pyke", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Sunderly (wife of Quellon Greyjoy)", "field": "Title", "target": "Pyke", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady Vyrwel", "field": "Title", "target": "Darkdell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lady of the Leaves", "field": "Title", "target": "Lady of the Leaves", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Laena Velaryon", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3e", "page": "Laenor Velaryon", "field": "Issue", "target": "Jacaerys Velaryon", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R3e", "page": "Laenor Velaryon", "field": "Issue", "target": "Lucerys Velaryon", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R3e", "page": "Laenor Velaryon", "field": "Issue", "target": "Joffrey Velaryon", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R3e", "page": "Laenor Velaryon", "field": "Issue", "target": "Addam Velaryon", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R3e", "page": "Laenor Velaryon", "field": "Issue", "target": "Alyn Velaryon", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R6c", "page": "Landing of the Golden Company", "field": "Result", "target": "Golden Company", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Landing on Great Wyk", "field": "Result", "target": "Royal victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3b", "page": "Lann the Clever", "field": "Mother", "target": "Florys the Fox", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R3b", "page": "Lann the Clever", "field": "Mother", "target": "Rowan Gold-Tree", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R6b", "page": "Lanna Lannister", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Larissa Velaryon", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6a", "page": "Larissa Velaryon", "field": "Spouse", "target": "Tarth", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R3c", "page": "Larissa Velaryon", "field": "Lover", "target": "Rhaena Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Larra Rogare", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6c", "page": "Last Storm", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Last Storm", "field": "Result", "target": "House Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Leathers", "field": "Title", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lelia Lannister", "field": "Titles", "target": "Iron Islands", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lelia Lannister", "field": "Titles", "target": "Hoare Castle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Leo Costayne", "field": "Titles", "target": "Reach", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Leobald Tallhart", "field": "Title", "target": "Torrhen's Square", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Leonette Fossoway", "field": "Title", "target": "Brightwater Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Liberation of Raventree Hall", "field": "Result", "target": "Blackwood", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Liberation of Stone Hedge", "field": "Result", "target": "Bracken", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Lodos the Twice-Drowned's revolt", "field": "Result", "target": "Iron Throne victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Lomas Estermont", "field": "Father", "target": "Eldon Estermont", "edge_type": "PARENT_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Loras Tyrell", "field": "Titles", "target": "Rainbow Guard", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->factions"}
+{"rule": "R6c", "page": "Lord Alyn's attack", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Lord Ashford's daughter", "field": "Title", "target": "Queen of Love and Beauty", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->concepts"}
+{"rule": "R3c", "page": "Lord Buckler", "field": "Spouse", "target": "Lady Buckler", "edge_type": "SPOUSE_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Lord Cafferen", "field": "Title", "target": "Fawnton", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Lord Darry (father of Raymun)", "field": "Issue", "target": "Mariya Darry", "edge_type": "PARENT_OF", "qualifier": "possibly"}
+{"rule": "R3c", "page": "Lord Darry (father of Raymun)", "field": "Issue", "target": "Jeyne Darry", "edge_type": "PARENT_OF", "qualifier": "possibly"}
+{"rule": "R3c", "page": "Lord Merryweather", "field": "Spouse", "target": "Lady Merryweather", "edge_type": "SPOUSE_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Lord Serrett", "field": "Title", "target": "Silverhill", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lord Staunton", "field": "Title", "target": "Rook's Rest", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lord Staunton (father of Cassella)", "field": "Title", "target": "Rook's Rest", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lord Swyft", "field": "Title", "target": "Cornfield", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Lord Tully (successor of Medgar)", "field": "Issue", "target": "Celia Tully", "edge_type": "PARENT_OF", "qualifier": "possibly"}
+{"rule": "R6a", "page": "Lord Uller (husband of Nymeria)", "field": "Spouse", "target": "Ny Sar", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R3d", "page": "Lord of Storm's End", "field": "Heir", "target": "Myrcella Baratheon", "edge_type": "HEIR_TO", "qualifier": "disputed"}
+{"rule": "R3c", "page": "Loren I Lannister", "field": "Issue", "target": "Lyman Lannister", "edge_type": "PARENT_OF", "qualifier": "presumably"}
+{"rule": "R6b", "page": "Lorra Royce", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lothar", "field": "Title", "target": "Whitewalls", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lothar Frey", "field": "Title", "target": "Twins", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lothor Brune", "field": "Titles", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Lucas Inchfield", "field": "Titles", "target": "Coldmoat", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lucas Lothston (husband of Falena)", "field": "Titles", "target": "Red Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Lucerys Velaryon", "field": "Fathers", "target": "Laenor Velaryon", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Lucerys Velaryon", "field": "Fathers", "target": "Harwin Strong", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Lucifer Dryland", "field": "Titles", "target": "Hellgate Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lucifer Dryland", "field": "Titles", "target": "Night's Watch", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Lucinda Tully", "field": "Title", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Luwin", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lyanne Glover", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lyarra Stark", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Lyman Lannister", "field": "Father", "target": "Loren I Lannister", "edge_type": "PARENT_OF", "qualifier": "presumably"}
+{"rule": "R6b", "page": "Lynara Stark", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lynesse Hightower", "field": "Title", "target": "Bear Island", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6c", "page": "Lyonel Baratheon's rebellion", "field": "Result", "target": "Duncan Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Lyonel Baratheon's rebellion", "field": "Result", "target": "Prince of Dragonstone", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Lyonel Baratheon's rebellion", "field": "Result", "target": "Betrothal", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Lyonel Baratheon's rebellion", "field": "Result", "target": "Rhaelle Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Lyonel Baratheon's rebellion", "field": "Result", "target": "Ormund Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Lyonel Baratheon's rebellion", "field": "Result", "target": "Storm King", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Lyonel Baratheon's rebellion", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Lyonel Strong", "field": "Issue", "target": "Alys Rivers", "edge_type": "PARENT_OF", "qualifier": "allegedly"}
+{"rule": "R6b", "page": "Lysa Arryn", "field": "Titles", "target": "Eyrie", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lysa Arryn", "field": "Titles", "target": "Vale of Arryn", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lysa Arryn", "field": "Titles", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lysa Locke", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Lythene Frey", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Malthar Xaq", "field": "Title", "target": "Koj", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Manfrey Martell", "field": "Titles", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Manfryd Merlyn", "field": "Title", "target": "Kite", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->species"}
+{"rule": "R6b", "page": "Margaery Tyrell", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Marghaz zo Loraq", "field": "Title", "target": "Brazen Beasts", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Margot Lannister", "field": "Title", "target": "Starpike", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Marilda of Hull", "field": "Title", "target": "Mouse", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->foods"}
+{"rule": "R3d", "page": "Marilda of Hull", "field": "Lovers", "target": "Laenor Velaryon", "edge_type": "LOVER_OF", "qualifier": "disputed"}
+{"rule": "R3c", "page": "Marilda of Hull", "field": "Lovers", "target": "Corlys Velaryon", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Maris Baratheon", "field": "Title", "target": "Silent sister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6a", "page": "Maris the Maid", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Mariya Darry", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6a", "page": "Mariya Darry", "field": "Father", "target": "Darry", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Marlon Manderly", "field": "Titles", "target": "White Harbor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Marna Locke", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Marselen", "field": "Title", "target": "Mother's Men", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Marwyn Belmore", "field": "Titles", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->factions"}
+{"rule": "R6b", "page": "Marwyn Belmore", "field": "Titles", "target": "Eyrie", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->locations"}
+{"rule": "R6b", "page": "Marwyn Belmore", "field": "Titles", "target": "Gates of the Moon", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Marya Seaworth", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Master of the White Hart", "field": "Title", "target": "White Hart", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Mattheus", "field": "Titles", "target": "Most Devout", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Maynard Holt", "field": "Titles", "target": "Talon", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Medrick", "field": "Title", "target": "Hornwood", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Medrick Manderly", "field": "Titles", "target": "Order of the Green Hand", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Melantha Blackwood", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Melaquin", "field": "Title", "target": "Summerhall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Melara Crane", "field": "Title", "target": "Brightwater Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Melessa Florent", "field": "Title", "target": "Horn Hill", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Melissa Blackwood", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Melony Piper", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3c", "page": "Melony Piper", "field": "Lover", "target": "Rhaena Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Melwys Rivers", "field": "Title", "target": "Rosby", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Mero", "field": "Title", "target": "Second Sons", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Merrell Bullock", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Mezzara Merreq", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Miklaz", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6a", "page": "Miller's sons", "field": "Father", "target": "Acorn Water", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6a", "page": "Miller's wife", "field": "Spouse", "target": "Weeping Water", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6a", "page": "Miller's wife from Acorn Water", "field": "Spouse", "target": "Acorn Water", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Mina Tyrell", "field": "Title", "target": "Arbor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Minisa Tully", "field": "Title", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Mirri Maz Duur", "field": "Titles", "target": "Maegi", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->concepts"}
+{"rule": "R6b", "page": "Mollono Yos Dob", "field": "Title", "target": "Stalwart Shields", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Moreo Tumitis", "field": "Title", "target": "Storm Dancer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Morgan Hightower", "field": "Titles", "target": "Warrior's Sons", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Morna White Mask", "field": "Title", "target": "Queensgate", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Mors Umber", "field": "Title", "target": "Last Hearth", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Morya Frey", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Moryn Tyrell", "field": "Titles", "target": "City Watch of Oldtown", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Mullin", "field": "Title", "target": "Shadow Tower", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Murenmure", "field": "Title", "target": "Hammerhorn", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Mutiny at Castle Black", "field": "Result", "target": "Lord Commander", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Mutiny at Castle Black", "field": "Result", "target": "Jon Snow", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Mylenda Caron", "field": "Lover", "target": "Black Walder Frey", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Myles", "field": "Title", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Myranda Royce", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "briefly", "detail": "->characters"}
+{"rule": "R3a", "page": "Myrcella Baratheon", "field": "Fathers", "target": "Robert I Baratheon", "edge_type": "PARENT_OF", "qualifier": "legally"}
+{"rule": "R3a", "page": "Myrcella Baratheon", "field": "Fathers", "target": "Jaime Lannister", "edge_type": "PARENT_OF", "qualifier": "biologically"}
+{"rule": "R6b", "page": "Myriame Manderly", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Myrish Bloodbath", "field": "Result", "target": "Myrish", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Naerys Targaryen", "field": "Lover", "target": "Aemon Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Nettles", "field": "Lover", "target": "Daemon Targaryen", "edge_type": "LOVER_OF", "qualifier": "debated"}
+{"rule": "R6c", "page": "Night's Watch rebellion of 50 AC", "field": "Result", "target": "Loyalist victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Normund Tyrell", "field": "Title", "target": "Blackcrown", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Norne Goodbrother", "field": "Title", "target": "Shatterstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Norren (House Mooton)", "field": "Title", "target": "Maidenpool", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Nymeria's War", "field": "Result", "target": "House Martell unifies Dorne under their rule as Princes of Dorne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Nymeria's War", "field": "Result", "target": "House Martell becomes House Nymeros Martell", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Nymeria", "field": "Titles", "target": "Ny Sar", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Obara Sand", "field": "Mother", "target": "Oldtown", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R3c", "page": "Oberyn Martell", "field": "Lovers", "target": "Daemon Sand", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6a", "page": "Oberyn Martell", "field": "Lovers", "target": "Volantene", "edge_type": "LOVER_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6a", "page": "Oberyn Martell", "field": "Lovers", "target": "Summer Isles", "edge_type": "LOVER_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Old Tattersalt", "field": "Title", "target": "Blackbird", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Olenna Tyrell", "field": "Titles", "target": "Highgarden", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Olyver Bracken", "field": "Titles", "target": "Rimegate", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Omer Florent", "field": "Title", "target": "Old Oak", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Onyx Emperor", "field": "Titles", "target": "Onyx Emperor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Opal Emperor", "field": "Titles", "target": "Opal Emperor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Ordello", "field": "Title", "target": "Magister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ordello", "field": "Title", "target": "Pentos", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Orys Baratheon", "field": "Father", "target": "Aerion Targaryen", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Orys Baratheon", "field": "Issue", "target": "Raymont Baratheon", "edge_type": "PARENT_OF", "qualifier": "dubious canonicity"}
+{"rule": "R6b", "page": "Oscar Tully", "field": "Titles", "target": "Stormbreakers", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R3e", "page": "Ossifer Plumm", "field": "Issue", "target": "Viserys Plumm", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R6a", "page": "Owen Oakenshield", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Pearl Emperor", "field": "Titles", "target": "Pearl Emperor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6a", "page": "Pearl Emperor", "field": "Father", "target": "God-on-Earth", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Perianne Moore", "field": "Title", "target": "Maidenpool", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Perra Frey", "field": "Fathers", "target": "Petyr Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Perra Frey", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Perra Royce", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3e", "page": "Petyr Frey", "field": "Issue", "target": "Perra Frey", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R6c", "page": "Plot to free Jaime Lannister", "field": "Result", "target": "House Tully", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Plot to free Jaime Lannister", "field": "Result", "target": "Jaime Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Plummer", "field": "Titles", "target": "Ashford", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Plummer", "field": "Titles", "target": "Master of the games", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->events"}
+{"rule": "R6b", "page": "Polliver", "field": "Title", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Pretenders claiming to be Prince Daeron the Daring", "field": "Result", "target": "Pretenders' claims proven false", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Prudence Celtigar", "field": "Title", "target": "Gulltown", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Prunella Celtigar", "field": "Title", "target": "Starpike", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Prunella Celtigar", "field": "Title", "target": "Dunstonbury", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Prunella Celtigar", "field": "Title", "target": "Whitegrove", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Purple Wedding", "field": "Result", "target": "Joffrey Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Purple Wedding", "field": "Result", "target": "Tyrion Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Purple Wedding", "field": "Result", "target": "Sansa Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Pylos", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Qezza Galare", "field": "Title", "target": "Cupbearer", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->customs"}
+{"rule": "R6b", "page": "Qos", "field": "Title", "target": "Wind Witch", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Queen Whore", "field": "Title", "target": "Astapor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Quenton Greyjoy (cousin)", "field": "Title", "target": "Salty Wench", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Quenton Qoherys", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Quentyn Ball", "field": "Titles", "target": "Red Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3e", "page": "Quentyn Ball", "field": "Issue", "target": "Glendon Flowers", "edge_type": "PARENT_OF", "qualifier": "disputed"}
+{"rule": "R6b", "page": "Quhuru Mo", "field": "Title", "target": "Cinnamon Wind", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Quince", "field": "Title", "target": "Eyrie", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ralf Kenning", "field": "Titles", "target": "Moat Cailin", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ralf the Limper", "field": "Title", "target": "Lord Quellon", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Ramsay Snow", "field": "Titles", "target": "Dreadfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3e", "page": "Ramsay Snow", "field": "Spouses", "target": "Arya Stark", "edge_type": "SPOUSE_OF", "qualifier": ""}
+{"rule": "R6c", "page": "Rape of the Three Sisters", "field": "Result", "target": "Northern", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Rape of the Three Sisters", "field": "Result", "target": "Sistermen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Rape of the Three Sisters", "field": "Result", "target": "Vale of Arryn", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Ravella Smallwood", "field": "Title", "target": "Acorn Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Ravos Hoare", "field": "Issue", "target": "Erich Hoare", "edge_type": "PARENT_OF", "qualifier": "unconfirmed"}
+{"rule": "R3e", "page": "Raymont Baratheon", "field": "Father", "target": "Orys Baratheon", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Raymont Baratheon", "field": "Mother", "target": "Argella Durrandon", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R6b", "page": "Raymund Mallery", "field": "Titles", "target": "Sable Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Recapture of Darry", "field": "Result", "target": "Darry", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Red Wedding", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Red Wedding", "field": "Result", "target": "Warden of the North", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Regnar Drumm", "field": "Titles", "target": "Old Wyk", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Reyne-Tarbeck revolt", "field": "Result", "target": "Reyne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Reyne-Tarbeck revolt", "field": "Result", "target": "Tarbeck", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Reyne-Tarbeck revolt", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Reznak mo Reznak", "field": "Title", "target": "Meereen", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rhaelle Targaryen", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Rhaena Targaryen (daughter of Aenys I)", "field": "Lovers", "target": "Larissa Velaryon", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Rhaena Targaryen (daughter of Aenys I)", "field": "Lovers", "target": "Samantha Stokeworth", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Rhaena Targaryen (daughter of Aenys I)", "field": "Lovers", "target": "Melony Piper", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Rhaena Targaryen (daughter of Aenys I)", "field": "Lovers", "target": "Alayne Royce", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Rhaena Targaryen (daughter of Daemon)", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3c", "page": "Rhaenyra Targaryen", "field": "Lovers", "target": "Criston Cole", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Rhaenyra Targaryen", "field": "Lovers", "target": "Harwin Strong", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Rhaenys Targaryen", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rhaenys Targaryen (daughter of Aemon)", "field": "Titles", "target": "Driftmark", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rhea Florent", "field": "Title", "target": "Hightower", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rhodry", "field": "Title", "target": "Castle Cerwyn", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ricasso", "field": "Title", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Storming of the Dragonpit", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Syrax", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Morghul", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Shrykos", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Dreamfyre", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Tyraxes", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Joffrey Velaryon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Rhaenyra Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "King's Landing", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riot of King's Landing (Dance of the Dragons)", "field": "Result", "target": "Moon of the Three Kings", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Riots in King's Landing", "field": "Result", "target": "Curfew under penalty of death ordered", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Robert's Rebellion", "field": "Result", "target": "Targaryen dynasty", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Robert's Rebellion", "field": "Result", "target": "Baratheon dynasty", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6a", "page": "Robert Ashford", "field": "Father", "target": "Ashford", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R3c", "page": "Robert I Baratheon", "field": "Issue", "target": "Joffrey Baratheon", "edge_type": "PARENT_OF", "qualifier": "legally"}
+{"rule": "R3c", "page": "Robert I Baratheon", "field": "Issue", "target": "Myrcella Baratheon", "edge_type": "PARENT_OF", "qualifier": "legally"}
+{"rule": "R3c", "page": "Robert I Baratheon", "field": "Issue", "target": "Tommen Baratheon", "edge_type": "PARENT_OF", "qualifier": "legally"}
+{"rule": "R6b", "page": "Robert Quince", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Robin Ryger", "field": "Titles", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Robin Ryger", "field": "Titles", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Robyn Ryswell", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rodrik Cassel", "field": "Titles", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rodrik Greyjoy (son of Dalton)", "field": "Titles", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rodrik Harlaw", "field": "Titles", "target": "Sea Song", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6a", "page": "Rodrik Harlaw", "field": "Father", "target": "Harlaw", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Rodrik Sparr", "field": "Title", "target": "Grief", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Roggerio Rogare", "field": "Titles", "target": "Mermaid's Daughter", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Rohanne Webber", "field": "Titles", "target": "Standfast", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rohanne Webber", "field": "Titles", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rolland Storm", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Rolph Spicer", "field": "Titles", "target": "Crag", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ronald Connington", "field": "Titles", "target": "Griffin's Roost", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Ronard Storm", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Roro Uhoris", "field": "Title", "target": "Cobblecat", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6a", "page": "Rose of Red Lake", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R6b", "page": "Roslin Frey", "field": "Title", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "briefly", "detail": "->locations"}
+{"rule": "R6a", "page": "Rowan Gold-Tree", "field": "Father", "target": "Garth Greenhand", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->religions"}
+{"rule": "R3c", "page": "Rowan Gold-Tree", "field": "Issue", "target": "Lann the Clever", "edge_type": "PARENT_OF", "qualifier": "allegedly"}
+{"rule": "R6b", "page": "Rowena Arryn", "field": "Title", "target": "Eyrie", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Rue", "field": "Lover", "target": "Alyn Velaryon", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Rufus Leek", "field": "Titles", "target": "Dun Fort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Russ Barleycorn", "field": "Title", "target": "Storm Crow", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Sabitha Frey", "field": "Title", "target": "Twins", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Sabitha Frey", "field": "Lover", "target": "Alysanne Blackwood", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6c", "page": "Sack of Bitterbridge", "field": "Result", "target": "Bitterbridge", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of Darry", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of Darry", "field": "Result", "target": "House Darry", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of King's Landing", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of King's Landing", "field": "Result", "target": "Jaime Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of King's Landing", "field": "Result", "target": "Elia of Dorne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of Qohor", "field": "Result", "target": "Golden Company victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of Tyrosh", "field": "Result", "target": "Archon of Tyrosh", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of Tyrosh", "field": "Result", "target": "Alequo Adarys", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sack of Winterfell", "field": "Result", "target": "Bolton", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6a", "page": "Saera Targaryen", "field": "Lovers", "target": "Triarch of Volantis", "edge_type": "LOVER_OF", "qualifier": "", "detail": "characters->titles"}
+{"rule": "R6b", "page": "Sam Stoops", "field": "Title", "target": "Standfast", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Samantha Stokeworth", "field": "Lover", "target": "Rhaena Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Samantha Tarly", "field": "Titles", "target": "Oldtown", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Samwell Stone", "field": "Titles", "target": "Runestone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Sansa Stark (daughter of Rickon)", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "possibly", "detail": "->locations"}
+{"rule": "R3c", "page": "Sara Snow", "field": "Spouse", "target": "Jacaerys Velaryon", "edge_type": "SPOUSE_OF", "qualifier": "possibly"}
+{"rule": "R6a", "page": "Sarella Sand", "field": "Mother", "target": "Summer Islander", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->factions"}
+{"rule": "R6b", "page": "Sawane Botley", "field": "Titles", "target": "Swiftfin", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6c", "page": "Scouring of Lorath", "field": "Result", "target": "Annihilation of entire Lorathi Andal population", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Sea battle off Fair Isle", "field": "Result", "target": "Decisive royal victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Second Blackfyre Rebellion", "field": "Result", "target": "Brynden Rivers", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Second Blackfyre Rebellion", "field": "Result", "target": "Daemon II Blackfyre", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Second Blackfyre Rebellion", "field": "Result", "target": "House Butterwell", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Second Dornish War", "field": "Result", "target": "Iron Throne victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Second Spice War", "field": "Result", "target": "Valyrian", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Second Spice War", "field": "Result", "target": "Rhoynar", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Second Spice War", "field": "Result", "target": "Essos", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Selyse Florent", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Selyse Florent", "field": "Titles", "target": "Storm's End", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Serala of Myr", "field": "Title", "target": "Duskendale", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Serena Stark", "field": "Title", "target": "Last Hearth", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Serenei of Lys", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6c", "page": "Shadow war", "field": "Result", "target": "Temporarily halted, now resumed", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Sharis Footly", "field": "Titles", "target": "Tumbleton", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Shella", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Shiera Seastar", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3a", "page": "Shirei Frey", "field": "Fathers", "target": "Walder Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Shirei Frey", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6c", "page": "Siege of Astapor", "field": "Result", "target": "Astapor sacked and burned", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Astapor", "field": "Result", "target": "Migration of survivors", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Darry", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Dragonstone", "field": "Result", "target": "Pyrrhic Iron Throne victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Longtable", "field": "Result", "target": "Longtable", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Meereen", "field": "Result", "target": "Daenerys", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Moat Cailin", "field": "Result", "target": "Bolton victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Raventree", "field": "Result", "target": "House Blackwood", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Riverrun", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Seagard", "field": "Result", "target": "Frey", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Storm's End", "field": "Result", "target": "Baratheon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Storm's End (299)", "field": "Result", "target": "House Baratheon of Dragonstone", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Siege of Storm's End (300)", "field": "Result", "target": "Unresolved", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Silvario Pendaerys", "field": "Title", "target": "Magister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Simon Strong", "field": "Titles", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Sistermen's Rebellion", "field": "Result", "target": "Sistermen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Skahaz mo Kandaq", "field": "Title", "target": "Brazen Beasts", "edge_type": "HOLDS_TITLE", "qualifier": "formerly", "detail": "->factions"}
+{"rule": "R6b", "page": "Smike", "field": "Title", "target": "Faircastle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Soren Shieldbreaker", "field": "Title", "target": "Stonedoor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Stannis Baratheon", "field": "Titles", "target": "Nightfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Steelshanks Walton", "field": "Title", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Steelshanks Walton", "field": "Title", "target": "Dreadfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Storming of Seagard", "field": "Result", "target": "Royal victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Storming of the Crag", "field": "Result", "target": "Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Storming of the Dragonpit", "field": "Result", "target": "Mob victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Storming of the Dragonpit", "field": "Result", "target": "Death of five dragons", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Submission of Oldtown", "field": "Result", "target": "Iron Throne", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Submission of Oldtown", "field": "Result", "target": "Faith of the Seven", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Submission of Oldtown", "field": "Result", "target": "Septon Pater", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Submission of Oldtown", "field": "Result", "target": "High Septon", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Submission of Oldtown", "field": "Result", "target": "Faith Militant", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Submission of Stokeworth", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Submission of Stokeworth", "field": "Result", "target": "House Stokeworth", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Sure Spear", "field": "Title", "target": "Unsullied", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6a", "page": "Surly lad", "field": "Issue", "target": "Bastard", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->titles"}
+{"rule": "R6b", "page": "Sybell Spicer", "field": "Title", "target": "Crag", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Sybelle Glover", "field": "Title", "target": "Deepwood Motte", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Sylas Sourmouth", "field": "Title", "target": "Pyke", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Sylva Santagar", "field": "Title", "target": "Greenstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Symon Hollard", "field": "Titles", "target": "Dun Fort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Symon Stripeback", "field": "Title", "target": "Free Brothers", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Symond Staunton", "field": "Titles", "target": "Rook's Rest", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Taena Merryweather", "field": "Title", "target": "Longtable", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Taking of Ashemark", "field": "Result", "target": "Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Crow's Nest", "field": "Result", "target": "Golden Company victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Deepwood Motte", "field": "Result", "target": "Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Greenstone", "field": "Result", "target": "Golden Company victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Griffin's Roost", "field": "Result", "target": "Golden Company", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Gulltown", "field": "Result", "target": "Rebel victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Maidenpool", "field": "Result", "target": "Tarly", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Rain House", "field": "Result", "target": "Golden Company victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Stone Hedge", "field": "Result", "target": "Stone Hedge", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of Storm's End", "field": "Result", "target": "Golden Company", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Taking of the Shields", "field": "Result", "target": "Greyjoy", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Tal Toraq", "field": "Title", "target": "Stalwart Shields", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6c", "page": "Targaryen campaign in Slaver's Bay", "field": "Result", "target": "5. Unknown number of new Unsullied", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Tattered Prince", "field": "Titles", "target": "Windblown", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Teora Kyndall", "field": "Title", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Teora Toland", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Ternesio Terys", "field": "Titles", "target": "Titan's Daughter", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Tessario", "field": "Title", "target": "Fingers", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Theodan Wells", "field": "Titles", "target": "Warrior's Sons", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Theomore Lannister", "field": "Title", "target": "New Castle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Theomore Manderly", "field": "Titles", "target": "Order of the Green Hand", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Theon Greyjoy", "field": "Titles", "target": "Sea Bitch", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6c", "page": "Third Battle of the Boneway", "field": "Result", "target": "Death of Prince Mors Martell", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Third Blackfyre Rebellion", "field": "Result", "target": "Haegon I Blackfyre", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Third Blackfyre Rebellion", "field": "Result", "target": "Aegor Rivers", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Third Dornish War", "field": "Result", "target": "Iron Throne victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Third sack of Maidenpool", "field": "Result", "target": "Partial destruction of town", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Thousand Years War", "field": "Result", "target": "House Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Three-Tooth", "field": "Title", "target": "Ten Towers", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Three Thousand of Qohor", "field": "Result", "target": "Qohorik victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Tigaro Moraqos", "field": "Title", "target": "Magister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Toman", "field": "Title", "target": "Ghost Hill", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Tommard Heddle", "field": "Titles", "target": "Whitewalls", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3a", "page": "Tommen Baratheon", "field": "Fathers", "target": "Robert I Baratheon", "edge_type": "PARENT_OF", "qualifier": "legally"}
+{"rule": "R3a", "page": "Tommen Baratheon", "field": "Fathers", "target": "Jaime Lannister", "edge_type": "PARENT_OF", "qualifier": "biologically"}
+{"rule": "R6b", "page": "Topaz Emperor", "field": "Titles", "target": "Topaz Emperor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Tormund", "field": "Titles", "target": "Ruddy Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Tormund", "field": "Titles", "target": "Oakenshield", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Torreo Haen", "field": "Titles", "target": "Magister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Torrhen Manderly", "field": "Titles", "target": "Order of the Green Hand", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R3c", "page": "Torrhen Stark", "field": "Issue", "target": "Brandon Stark", "edge_type": "PARENT_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Tothmure", "field": "Title", "target": "Harrenhal", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Tourmaline Emperor", "field": "Titles", "target": "Tourmaline Emperor", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Tregar", "field": "Title", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R3c", "page": "Trystane Truefyre", "field": "Father", "target": "Viserys I Targaryen", "edge_type": "PARENT_OF", "qualifier": "allegedly"}
+{"rule": "R3c", "page": "Tyanna of the Tower", "field": "Lover", "target": "Alys Harroway", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Tybald", "field": "Title", "target": "Dreadfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Tyene Sand", "field": "Mother", "target": "Reach", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Umfred", "field": "Title", "target": "Drearfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Urras Greyiron", "field": "Titles", "target": "Orkmont", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Urrathon IV Goodbrother", "field": "Title", "target": "Iron Islands", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Utherydes Wayn", "field": "Title", "target": "Riverrun", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Uthor", "field": "Title", "target": "Dreadfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Valaena Velaryon", "field": "Title", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Valena Toland", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Vardis Egen", "field": "Titles", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Vargo Hoat", "field": "Titles", "target": "Brave Companions", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Varys", "field": "Titles", "target": "Rugen", "edge_type": "HOLDS_TITLE", "qualifier": "as Rugen", "detail": "->characters"}
+{"rule": "R6b", "page": "Vayon Poole", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Victaria Tyrell", "field": "Title", "target": "Blackcrown", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Victarion Greyjoy", "field": "Titles", "target": "Iron Victory", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
+{"rule": "R6b", "page": "Visenya Targaryen", "field": "Titles", "target": "Dragonstone", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Viserys I Targaryen", "field": "Issue", "target": "Trystane Truefyre", "edge_type": "PARENT_OF", "qualifier": "allegedly"}
+{"rule": "R3a", "page": "Viserys Plumm", "field": "Fathers", "target": "Ossifer Plumm", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Viserys Plumm", "field": "Fathers", "target": "Aegon IV Targaryen", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6c", "page": "Volmark conspiracy", "field": "Result", "target": "Iron Throne victory", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Vortimer Crane", "field": "Titles", "target": "Highgarden", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Vylarr", "field": "Title", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6c", "page": "Wailing Willows", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3a", "page": "Walda Frey (daughter of Edwyn)", "field": "Fathers", "target": "Edwyn Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Walda Frey (daughter of Edwyn)", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Walda Frey (daughter of Merrett)", "field": "Title", "target": "Dreadfort", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3e", "page": "Walder Frey", "field": "Issue", "target": "Arwyn Frey", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Walder Frey", "field": "Issue", "target": "Wendel Frey", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Walder Frey", "field": "Issue", "target": "Colmar Frey", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Walder Frey", "field": "Issue", "target": "Waltyr Frey", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Walder Frey", "field": "Issue", "target": "Elmar Frey", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3e", "page": "Walder Frey", "field": "Issue", "target": "Shirei Frey", "edge_type": "PARENT_OF", "qualifier": ""}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Arwyn Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Wendel Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Colmar Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Waltyr Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Elmar Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Shirei Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Perra Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3c", "page": "Walder Frey (son of Ryman)", "field": "Issue", "target": "Walda Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R3a", "page": "Waltyr Frey", "field": "Fathers", "target": "Walder Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Waltyr Frey", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6b", "page": "Walys Flowers", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6a", "page": "Walys Flowers", "field": "Mother", "target": "Hightower", "edge_type": "PARENT_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6c", "page": "War Across the Water", "field": "Result", "target": "House Arryn", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "War for the Stepstones", "field": "Result", "target": "Daemon forms his kingdom and later abandons it", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "War of the Five Kings", "field": "Result", "target": "Golden Company", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "War of the Ninepenny Kings", "field": "Result", "target": "Band of Nine", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "War of the Ninepenny Kings", "field": "Result", "target": "Blackfyre", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "War of the Wolves", "field": "Result", "target": "Stark", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Warg King", "field": "Title", "target": "Warg King", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R3a", "page": "Wendel Frey", "field": "Fathers", "target": "Walder Frey", "edge_type": "PARENT_OF", "qualifier": "officially"}
+{"rule": "R3a", "page": "Wendel Frey", "field": "Fathers", "target": "Black Walder Frey", "edge_type": "PARENT_OF", "qualifier": "rumored"}
+{"rule": "R6c", "page": "Widow's Ford", "field": "Result", "target": "Andal", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Widower", "field": "Title", "target": "Stormcrows", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6c", "page": "Wildfire plot", "field": "Result", "target": "Jaime Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6b", "page": "Will of the Woods", "field": "Title", "target": "Will of the Woods", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
+{"rule": "R6b", "page": "Willam Wythers", "field": "Titles", "target": "Captain of the guards", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Willamen Frey", "field": "Title", "target": "Longbow Hall", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Willem Darry", "field": "Titles", "target": "Red Keep", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R3c", "page": "Wylla", "field": "Lover", "target": "Eddard Stark", "edge_type": "LOVER_OF", "qualifier": "supposedly"}
+{"rule": "R3c", "page": "Wylla", "field": "Issue", "target": "Jon Snow", "edge_type": "PARENT_OF", "qualifier": "supposedly"}
+{"rule": "R6b", "page": "Wyman Manderly", "field": "Titles", "target": "Order of the Green Hand", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
+{"rule": "R6b", "page": "Wynton Stout", "field": "Titles", "target": "Castle Black", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Xanda Qo", "field": "Title", "target": "Sweet Lotus Vale", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6c", "page": "Yielding of Harrenhal", "field": "Result", "target": "Whent", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Yielding of Harrenhal", "field": "Result", "target": "Lannister", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Yielding of Rosby", "field": "Result", "target": "Targaryen", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R6c", "page": "Yielding of Rosby", "field": "Result", "target": "House Rosby", "edge_type": "DEFEATS", "qualifier": ""}
+{"rule": "R3c", "page": "Yorbert Royce", "field": "Issue", "target": "Rhea Royce", "edge_type": "PARENT_OF", "qualifier": "possibly"}
+{"rule": "R6b", "page": "Yorrick", "field": "Title", "target": "New Castle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}

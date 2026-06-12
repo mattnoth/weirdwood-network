@@ -44,3 +44,7 @@ graph/edges/_regrounding/edges-regrounded-candidate.jsonl
 # in S76. It's a per-process lock (sessionId/pid/acquiredAt); a stale one can block legit
 # scheduling. Untracked + ignored so it stops polluting git status.
 .claude/scheduled_tasks.lock
+
+# Long-run supervisor logs + pidfiles (runtime artifacts, regenerated on each run).
+# Log content is transient; use 'weirwood run logs <track>' to stream live output.
+working/logs/

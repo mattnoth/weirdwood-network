@@ -8,6 +8,8 @@
 > - `working/session-results/2026-06-10-overnight-rename-dryrun.md` (NEW TODO #10 — joffrey-orders-execution rename DRY-RUN ONLY)
 >
 > Matt: review those 3 files first. Apply #10 rename if dry-run looks clean (the file has the literal `--apply` command). Then fire this continue prompt.
+>
+> **GATE ADDED 2026-06-12 (Matt's decision, 2026-06-11 audit reply): this dip runs AFTER the infobox merge lands** (`working/infobox-merge/spec.md` → dry-run → Matt review → ship). Running it on the pre-merge graph would mostly rediscover the known 85%-isolation walls. Do not start this prompt until `edges.jsonl` contains the `evidence_kind: wiki-infobox` layer. (S89 #10 rename prerequisite above is already DONE — applied S90/S91.)
 
 ## Context — where we are
 

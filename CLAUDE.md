@@ -21,7 +21,7 @@ This project builds a queryable knowledge graph for ASOIAF by:
 
 ## Critical Rule: The Wiki Is Already Local — Never Re-Fetch (with one narrow exception)
 
-**The entire AWOIAF wiki (17,945 pages, 377 MB) is cached locally at `sources/wiki/_raw/`.** Every Pass 2+ workflow reads from this cache. There is no re-fetching of page bodies. No `WebFetch`, no full re-crawls, no resurrection of the archived Playwright scraper.
+**The entire AWOIAF wiki (17,945 pages fetched → 17,657 unique JSON files on disk; the delta is case-collision/redirect overwrites; 377 MB) is cached locally at `sources/wiki/_raw/`.** Every Pass 2+ workflow reads from this cache. There is no re-fetching of page bodies. No `WebFetch`, no full re-crawls, no resurrection of the archived Playwright scraper.
 
 **Narrow exception — completion-of-original-crawl operations.** A single bounded fetch is permitted ONLY to fill specific metadata gaps the original crawl missed (e.g., MediaWiki categories, which the `action=parse` API stripped from the HTML footer). Each exception requires explicit per-use approval, must target one specific data field, must NOT write to `sources/`, and must hit the MediaWiki API endpoint via a lightweight client (`cloudscraper` for Cloudflare bypass — verified 2026-04-30). The Playwright-based scraper at `scripts/archive/wiki-scraper.py.archive` remains archived and should NOT be restored — exception fetches use the lighter `cloudscraper` path. New exception-fetch scripts are short, single-purpose, throttled, and write to `working/wiki/data/`.
 
@@ -36,17 +36,15 @@ If you think you need to fetch a page's body content, you don't — read it from
 
 The build follows this order. Each step depends on prior steps completing:
 
-| Step | What | How |
-|------|------|-----|
 | Step | What | Status | How |
 |------|------|--------|-----|
 | 0 | **Scaffold** | ✅ Done | Directory structure created |
 | 1 | **Chapter Splitter** | ✅ Done | `scripts/chapter-splitter.py` — splits .txt source files into per-chapter markdown with YAML frontmatter |
 | 2 | **Run Splitter** | ✅ Done | All 5 books split (344 chapters) + 3 D&E novellas |
-| 3 | **Wiki Scrape** | ✅ Done | 17,945 pages cached locally in `sources/wiki/` (one-time crawl, scraper archived to `scripts/archive/`). All Pass 2+ work reads local cache only — never re-fetch. |
+| 3 | **Wiki Scrape** | ✅ Done | 17,945 pages fetched, cached locally in `sources/wiki/` as 17,657 unique JSON files (case-collision/redirect overwrites account for the delta). One-time crawl, scraper archived to `scripts/archive/`. All Pass 2+ work reads local cache only — never re-fetch. |
 | 4 | **Pass 1: Mechanical Extraction** | ✅ Done | v3 schema, all 5 books complete (344/344 as of 2026-05-06) |
-| 5 | **Pass 2: Wiki Ingestion** | Not started | Agent prompt not yet written — will promote wiki cache into `graph/nodes/` |
-| 6 | **Build Index** | Not started | Generate trigger table and entity index from extraction outputs |
+| 5 | **Pass 2: Wiki Ingestion** | ✅ Done | Ran 2026-04-26 → 05-01 (855 agent-promoted nodes Stage 1 + ~7,000 Python promotions Stages 3/3c/Path B). `graph/nodes/` ≈ 8,261 nodes. Pipeline: `working/runbooks/wiki-pass2-pipeline.md` |
+| 6 | **Build Index** | ✅ Done | Entity + chapter indexes built S38–S44, extended to all 21 categories S72 (`scripts/build-entity-indexes.py` → `graph/index/`). Trigger table still open |
 | 7 | **Pass 3+: Analytical Passes** | Not started | Voice analysis, foreshadowing, theory-informed extraction |
 
 ## Subagents
@@ -75,7 +73,7 @@ asoiaf-chat/
 ├── CLAUDE.md                         # THIS FILE — orchestrator guide
 ├── worklog.md                        # Living project history + current state
 ├── .claude/
-│   ├── agents/                       # Subagent definitions (8 agents)
+│   ├── agents/                       # Subagent definitions (28 agents as of 2026-06-11)
 │   └── commands/                     # Custom slash commands
 ├── scripts/                          # Python tooling (chapter-splitter, wiki-pass2 pipeline, etc.)
 │   └── archive/                      # Retired scripts (Playwright wiki-scraper) — DO NOT restore

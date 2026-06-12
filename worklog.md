@@ -22,61 +22,51 @@ After completing work, update:
 - **Ideas & Backlog** if new ideas or tasks surfaced
 
 ### For Matt
-This is your project memory. When you come back after a break, read Current State and the last few Session Log entries to get back up to speed. Add ideas to the backlog whenever they occur to you, even outside of Claude Code sessions.
+This is your project memory. When you come back after a break, **STATUS — at a glance** (top of Current State) is the single "where am I" surface: what's shipped, what's in flight, what's gated on what, what you review next. The checklists below it and the last few Session Log entries carry the detail. Add ideas to the backlog whenever they occur to you, even outside of Claude Code sessions.
 
 ---
 
 ## Current State
 
-### Infrastructure
-- [x] Repository initialized
-- [x] project-context.md in place (master architecture spec)
-- [x] CLAUDE.md in place (orchestration guide)
-- [x] Directory structure created (sources/, extractions/, graph/, index/, curation/, reference/, scripts/)
-- [x] Source .txt files moved to sources/raw/
-- [x] Subagent definitions in .claude/agents/ (2 full: mechanical-extractor, script-builder; 5 stubs: wiki-ingester, voice-analyzer, foreshadowing-scanner, theory-extractor, discovery-agent)
-- [x] Custom slash commands (.claude/commands/endsession.md, continue.md)
-- [x] Working directory with progress.md + todos.md
-- [x] Reference files organized (reference/architecture.md, foreshadowing-events.md, pov-characters.md)
-- [x] Chapter splitter script written (`scripts/chapter-splitter.py`)
-- [x] Chapter splitter tested on one book (AGOT: 73/73)
-- [x] All five books split into chapter files (344 total: AGOT 73, ACOK 70, ASOS 82, AFFC 46, ADWD 73)
-- [x] Wiki scraper script written (`scripts/wiki-scraper.py`) — migrated from urllib to Playwright for Cloudflare bypass
-- [x] Wiki scraper extended with `--mode all` + `--limit N` for full unattended crawl
-- [x] Wiki directory structure created (`sources/wiki/`) — now fully gitignored
-- [x] Full-crawl runbook drafted and updated for Playwright (`working/runbooks/wiki-full-crawl.md`)
-- [x] Full wiki crawl executed (17,945/17,952 pages succeeded, 377 MB on disk)
-- [x] Taxonomy candidates template created (`working/taxonomy-candidates.md`)
-- [x] POV reference table corrected (6 missing chapter headings added)
-- [x] D&E novellas split into chapter files (3 total: THK 1, TSS 1, TMK 1 — each novella is one continuous chapter)
-- [x] TWOIAF OCR'd and extracted to plaintext (179K words, 164MB OCR'd PDF)
-- [x] ocrmypdf + poppler installed (Tesseract, Ghostscript, pdftotext)
+### STATUS — at a glance (verified 2026-06-12)
+
+**SHIPPED**
+- Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
+- Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,263** (events 583; excl. `_conflicts/` staging)
+- Entity + chapter indexes: **all 21 categories** (S72)
+- Edge layer LIVE: **`graph/edges/edges.jsonl` = 4,760 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + 3 deception pilots). Node connectivity **14.7%**.
+- S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script + **dry-run complete** (`working/infobox-merge/dry-run-report-2026-06-12.md`). Expected post-merge: edges 21,766 / connectivity 71.0%.
+
+**IN FLIGHT**
+- (none — S92 audit session complete)
+
+**NEXT TRACK (Matt-greenlit 2026-06-11)**
+- **Infobox-structural wiki merge**: dry-run DONE, awaiting Matt review + 11 open-question answers → ship. → `progress/continue-prompts/2026-06-12-infobox-merge-ship.md`
+- **THEN Mode 3 grounded-agent dip** on the merged graph (`progress/continue-prompts/2026-06-11-phase2-mode3-dip.md`)
+
+**GATED / QUEUED**
+- 2 structural restructures (Wyman-execution, Jaime-sheathes) — Matt ratification (`progress/continue-prompts/2026-06-12-deferred-structural-restructures.md`)
+- Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
+- Nomenclature sweep — GATED on Matt's scheme pick
+- Repo-reorg P1/P2 (~1-1.5 sessions) — per `working/repo-reorg-plan-2026-06-12.md`
+- Backfill Tracks A/B/C (~$25–75) — gated on what the Mode 3 dip reveals
+- Events-Haiku 1,617 typed rows + Dialogue tail — SHELVED (absorbed into backfill Track B)
+- Spoiler gating (`first_available`) — DEFERRED post-first-release; prose-comention wiki edges — DEPRECATED, stays dead
+
+**MATT REVIEWS NEXT:** `working/infobox-merge/dry-run-report-2026-06-12.md` (incl. 11 YOUR-DECISIONS items + 2 semantic-remap flags) → S91 look-at-twice items (Session 91 entry) → restructure decision packets
+
+### Infrastructure (all shipped)
+- [x] Repo scaffold: directory structure, CLAUDE.md, reference files (`architecture.md`, `foreshadowing-events.md`, `pov-characters.md`), slash commands, working/ + progress/ conventions
+- [x] Chapter splitter (`scripts/chapter-splitter.py`) — all 5 books split (344 chapters: AGOT 73, ACOK 70, ASOS 82, AFFC 46, ADWD 73) + 3 D&E novellas; TWOIAF OCR'd to plaintext (179K words)
+- [x] Full wiki crawl executed once: 17,945/17,952 pages fetched → 17,657 unique JSON files on disk (case-collision/redirect overwrites account for the delta), 377 MB; Playwright scraper retired to `scripts/archive/`
+- [x] Subagent definitions in `.claude/agents/` — 28 agents as of 2026-06-11 (fleet expansion S26; inventory in `reference/agents.md`)
 
 ### Extraction Pipeline
-- [x] Pass 1 agent prompt v1 (draft complete — `agents/pass-1-mechanical.md`)
-- [x] Pass 1 v1 run on AGOT (73/73 chapters, archived to `extractions/archives/agot-v1/`)
-- [x] Pass 1 agent prompt v2 — added: Physical Environment, Character Appearances, Food & Drink, Hospitality & Guest Right, Location Descriptions, Spatial Layout & Movement, time_markers, direwolves/dragons-as-characters rule
-- [x] Pass 1 v2 run on AGOT (73/73, archived to `extractions/archives/agot-v2/` — 4-category Raw Entity List)
-- [x] Pass 1 v2 run on ACOK (50/70, archived to `extractions/archives/acok-v2/` — 4-category Raw Entity List)
-- [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
-- [x] Pass 1 v3 run on AGOT (73/73 — complete)
-- [x] Pass 1 v3 run on ACOK (70/70 — complete)
-- [x] Pass 1 v3 run on ASOS (82/82 — complete; Okey ran in parallel on shared Max account, branch `pass1-asos-extraction`)
-- [x] Pass 1 v3 run on AFFC (46/46 — complete)
-- [x] Pass 1 v3 run on ADWD (73/73 — complete)
-- [ ] Pass 1 on Tales of Dunk and Egg (THK, TSS, TMK) — **deferred (enrichment pass for main-arc nodes)**. D&E content will eventually enrich existing main-arc Targaryen-prehistory nodes (Bloodraven, Egg/Aegon V, etc.) but is not on the active critical path. Not dropped, not urgent. Decision 2026-05-06 (Session 37 Q11=b).
-- [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki/data/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
-- [x] AGOT/ACOK supplementary entity index — OBSOLETED 2026-04-25. v3 prompt captures all 12 categories directly; backfill index no longer needed. See `working/todos.md` line ~245.
-- [ ] Pass 2 wiki ingestion agent prompt written
-- [ ] Pass 2 wiki ingestion complete
-- [x] Wiki Pass 2 v1 — core (37/37 buckets complete; 855 nodes; cost $95.33; per-node $0.111 healthy per Stage-2 cold review)
-- [x] Wiki Pass 2 Stage 2 cold review (Session 24; decision was `remediate`, but overturned same session — see Active Decisions)
-- [x] Wiki Pass 2 Stage 3 — secondary (Session 26; FULL pipeline rebuilt as Python-only after design review showed the Stage 3b agent was inertia-driven. 472 buckets / 3,315 candidate pages → 3,314 nodes promoted. Cumulative graph: 855→4,169 then →4,239 after Tier-1+Tier-2 recovery. Cost $0. Wall-clock ~30 sec total. 0 conflicts.) Canonical pipeline: `working/runbooks/wiki-pass2-pipeline.md` (rewritten as v3).
-- [x] Wiki Pass 2 Stage 3c — audit cleanup (Session 27; 4 audits run, 6 parser bugs fixed, 484 nodes re-emitted across multiple targeted runs. Tier 3 promotion campaign Passes A-D + E Phase 1 added 769 new nodes. Cat 1 orphan edges 7,784→2,955 (62% drop). Stale religion-bleed 0. Edge vocabulary lock holds.)
-- [x] Wiki Pass 2 Path B — categorizer extension + promotion campaign (Session 28; bounded MediaWiki categories backfill + parser CATEGORY_TYPE_MAP. `unknown` 12,434 (70.4%) → 2,118 (12.0%). +2,240 graph nodes (5,008 → 7,248). Cat 1 orphan edges 2,955 → 1,973. 5 new dirs bootstrapped: `texts/`, `theories/`, `concepts/`, `species/`, `foods/`. New entity type `object.food`.)
-- [x] Wiki Pass 2 Path B promotion completion + schema-drift audit (Session 29; 4 new entity types added: `object.material`, `concept.language`, `concept.medical`, `concept.custom`. 4 new dirs: `materials/`, `languages/`, `medical/`, `customs/`. `unknown` 2,098 → 1,257. Net +315 graph nodes (7,248 → 7,563). 130 stale-dir mismatches cleaned. Full schema-drift audit on opus: 0 HIGH / 4 MED / 4 LOW. Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary lock holds. Chronology data extracted from 74 year pages: 2,245 events in `working/wiki/data/chronology-events.jsonl` (awaits v2 temporal-edges schema; not graph edges yet).)
-- [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
-- [~] Wiki Pass 2 Stage 4 — prose-derived edge discovery. **PIVOTED 2026-05-22 (S65) to a Pass-1-derived deterministic pipeline; wiki-chapter-summary comention DEPRECATED.** Deterministic spine BUILT + committed (S66, `047e49b3b`): `scripts/stage4-pass1-edge-candidates.py` + `stage4-pass1-evidence-locator.py` + `stage4_name_resolver.py` → **2,818 typed, ~99%-cited `book-pass1` edges at zero LLM cost** (output gitignored under `working/wiki/pass2-buckets/pass1-derived/`; audit reports under `working/wiki/data/pass1-derived-*`). S67: alias-recovery applied (spine 2,818→2,834, +16); 133 comention files deprecate-stamped in-data; **LLM tail RAN (Sonnet via `claude -p`): 2,385 typed edges (78%, $20.88) → total book-pass1 = 5,219**. Remaining: tail-violation cleanup (21/2,385, 0.88%) + 2 resolver levers (Matt's call) + tail dedup + `_tail-typed/` merge. **S68 RECALL EXPANSION:** built `scripts/stage4-pass1-extra-tables.py` (mines the OTHER relational tables; opt-in `--extra-tables`; separate `_extra-tables/` staging, canonical spine untouched) → **+529 deterministic $0 edges from Hospitality (460 GUEST_OF + 69 VIOLATES_GUEST_RIGHT)** + 4,422 Dialogue tail rows (~$30 to type) + Food/Events/Info counted-only. Recall-sample: **A 64% caught now / B 28% table-mineable / C 9% prose-only** — but the high-recall B tables (Events/Info) are prose-shaped (need ~$95+ LLM pass), Hospitality is the deterministic win, Dialogue is lowest-yield. 529 edges NOT yet merged (need endpoint filter; inherit `all-for-joffrey`-class noise). **S69 SMOKES (held at spend gate):** built Events/Info/Food candidate generators + locator-anchored all `_extra-tables` rows to `sources/chapters:line` + `--output-dir` safety flag; wrote **32,194 untyped candidate rows** (Dialogue 4,422 / Events 20,321 / Info 6,653 / Food 798); smoked Dialogue + Events/Info/Food (~$3.60, Sonnet) → both reviewer verdicts **SYSTEMATIC** (strict precision ~60-66%; reject ~90%; Events fan-out ~18% / direction-error ~7% / bare-slug ~15%). Full run re-baselined to **~$270-290 + ~3-4 days wall-clock** — **NOT launched.** 3 $0 fixes needed first: prompt vocab-restriction+anti-patterns; generator direction-validation+slug-quality gate (= endpoint filter, also cleans the 529); `candidate_kind` provenance (`stage4-tail-classifier.py:502`). `graph/edges/` still EMPTY — the FORMALIZE/merge is the milestone. Continue: `progress/continue-prompts/2026-05-25-stage4-smoke-fixes-and-formalize.md` (review doc: `STAGE4-SMOKE-REVIEW.md`). (Older wiki-comention/Haiku-bulk apparatus superseded; `prose-edge-classifier` agent at `.claude/agents/prose-edge-classifier.md` retained for the LLM-tail typing step.)
+- [x] Pass 1 (mechanical) — **COMPLETE, all 5 books, 344/344 chapters (2026-05-06), v3 prompt (12-category Raw Entity List), all Opus.** v1/v2 runs archived under `extractions/archives/`; prompt-version history in `history/worklog-archives/`.
+- [ ] Pass 1 on Tales of Dunk and Egg (THK, TSS, TMK) — **deferred (enrichment pass for main-arc nodes)**. Not on the critical path; not dropped. Decision 2026-05-06 (Session 37 Q11=b).
+- [x] Wiki infobox parser (Track B) — `scripts/wiki-infobox-parser.py` → `working/wiki/data/{infobox-data.jsonl (5,279 pages / 20,614 relationship rows), page-index.jsonl (17,657), parse-stats.md}`. **This layer is the source for the 2026-06-11 greenlit infobox merge.** Open parser issues: `books` field undercount (matters only for the deferred `first_available` backfill); unmapped fields (`dynasty`, `vassal`, `cadet branch`…) worth edge-taxonomy review at merge time. (The `categories[]` gap was fixed by the Path B backfill, S28.)
+- [x] Pass 2 wiki ingestion — **COMPLETE (prompt written S19; ran S22–S29).** Stage 1 core: 855 agent-promoted nodes ($95.33). Stages 3/3c/Path B: ~7,000+ deterministic Python promotions ($0); `unknown` pages 70.4% → ~7%; 9 new entity types + dirs bootstrapped. Cumulative `graph/nodes/` ≈ 8,263. Canonical pipeline: `working/runbooks/wiki-pass2-pipeline.md`. Per-stage detail: `history/worklog-archives/archive005-006.md`. Chronology side-product: 2,245 events in `working/wiki/data/chronology-events.jsonl` (not graph edges yet).
+- [x] Stage 4 prose-edge pipeline (Pass-1-derived) — **SHIPPED; this produced the canonical edge core.** S65 pivot to Pass-1-derived deterministic pipeline (wiki-comention DEPRECATED); S66–S69 built spine + LLM tail + extra-tables recall (5,219 book-pass1 edges + 32,194 untyped candidate rows staged); formalized into `graph/edges/edges.jsonl` S70–S74 (see Index & Graph below). Build detail: `history/worklog-archives/archive014-015.md` + `progress/continue-prompts/2026-05-25-stage4-smoke-fixes-and-formalize.md`. Untyped Events/Info/Food/Dialogue candidate pools remain staged (Events ran S80 → shelved; rest queued behind Mode-3-dip findings).
 - [ ] Pass 3 voice/perception agent prompt written
 - [ ] Pass 4 foreshadowing agent prompt written
 - [ ] Pass 5 theory-informed agent prompt written
@@ -84,18 +74,16 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ### Index & Graph
 - [ ] Trigger table v1
-- [x] Entity index — **REBUILT to all categories (Session 72).** `graph/index/` previously covered only characters/houses/locations/artifacts/chapters; `scripts/build-entity-indexes.py` extended with 14 more `TYPE_CONFIGS` → **1,847 new `*.index.json`** (factions, titles, events, religions, species, texts, concepts, materials, foods, theories, customs, languages, medical, prophecies). This was the real "entities aren't there" gap (the nodes always existed; the index didn't cover them). Mention-stats zero for wiki-sourced entities Pass 1 never tagged (expected).
+- [x] Entity index — **REBUILT to all 21 categories (Session 72).** `graph/index/` previously covered only characters/houses/locations/artifacts/chapters; `scripts/build-entity-indexes.py` extended with 14 more `TYPE_CONFIGS` → **+1,847 new `*.index.json`** at the S72 rebuild (todos.md cites +1,861 for the same rebuild — a ±14 counting discrepancy never reconciled; one S72 event either way, not two rebuilds; index now totals ~7,850 files across 21 category dirs). This was the real "entities aren't there" gap (the nodes always existed; the index didn't cover them).
 - [x] Chapter index (per-chapter `*.mentions.json` under `graph/index/chapters/`)
-- [x] Graph edges formalized — **v1.3 (Session 72)** (`graph/edges/edges.jsonl` = **3,811** cited Pass-1-derived edges; v1 3,842→v1.2 3,825→v1.3 3,811). **v1.2:** type-contract re-validation vs complete node set (−17 wrong, +3 RULES→COMMANDS retype, kept 16 real `COMMANDS→faction`). **v1.3 resolver pass:** title-person disambiguation — 6 ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond, `queen-cersei`, `lord-renly`, `princess-myrcella`, `lady-olenna`, `khal-jhaqo`) were capturing person references via exact slug-match; remapped → their characters (−12 dups) + new `CAPTAIN_OF`/`CREW_OF` target-not-character contract dropped 2 mis-typed "captain of the guard" edges. ~78% strict precision; all `evidence_ref`-carrying. **S74: core SHIPPED — citations re-grounded** (`scripts/stage4-reground-core-citations.py` corrected 3,676/3,811 `evidence_ref` line numbers; quote text + edge set byte-identical; fixed the latent `:11` locator bug — `read_chapter_prose` stripped blanks so all refs pinned to the first prose line). **Graph exercised: 100% of 898 edge endpoints resolve to a node, 0 orphans, fully traversable.** **Haiku Events+Dialogue enrichment = NO-GO, SHELVED** (post-locator-fix out-of-sample smokes 74.5%/62.5%, <75% gate; v5 precision rules authored + kept for any future revisit). Commit `63b8b461a`.
-- [x] Graph query + audit tooling — **NEW (Session 75; extended S89 overnight).** `scripts/graph-query.py` (S39 node-inspection EXTENDED with `--neighbors`/`--path`/`--health`/`--edges` over canonical `edges.jsonl`; S89 added `--event-participants <hub>` beat-union primitive) + NEW `scripts/graph-conflict-pairs.py` (read-only precision-cleanup review queue → `working/wiki/data/graph-conflict-pairs.{md,jsonl}`; 32 flagged pairs, mostly temporal arcs). + S89: `scripts/event_alias_resolver.py` + `working/wiki/data/event-alias-lookup.json` (876 phrases, 1 collision). 920 tests green. `--health` confirms 0 orphans / 100% traversable.
+- [x] Graph edges formalized + SHIPPED — **v1.3 core = 3,811 cited Pass-1-derived edges, ~78% strict precision, 0 orphans** (v1 3,842 → v1.2 type-contract revalidation S72 → v1.3 title-person resolver pass; citations re-grounded S74 fixing the latent `:11` locator bug; commit `63b8b461a`). Haiku Events+Dialogue enrichment NO-GO'd at the 75% gate and shelved (S74). Decision detail: Active Decisions S72/S74 entries below + `history/worklog-archives/archive015-016.md`.
+- [x] Graph query + audit tooling — **NEW (Session 75; extended S89 overnight).** `scripts/graph-query.py` (S39 node-inspection EXTENDED with `--neighbors`/`--path`/`--health`/`--edges` over canonical `edges.jsonl`; S89 added `--event-participants <hub>` beat-union primitive) + NEW `scripts/graph-conflict-pairs.py` (read-only precision-cleanup review queue → `working/wiki/data/graph-conflict-pairs.{md,jsonl}`; 32 flagged pairs, mostly temporal arcs). + S89: `scripts/event_alias_resolver.py` + `working/wiki/data/event-alias-lookup.json` (876 phrases at build; 922 after the S91 rebuild, 1 pre-existing collision). 920 tests green. `--health` confirms 0 orphans / 100% traversable.
 - [x] Edge temporal-scoping — **NEW (Session 76).** `scripts/stage4-edge-temporal-scope.py` (+58 tests) annotates all 3,811 edges with `(book_order, chapter_number)` + temporal-aware conflict re-audit → **31/32 flagged pairs are temporal arcs** (`--window chapter`), 1 true same-window (`cersei↔tyrion`). Read-only on `edges.jsonl`. Outputs `working/wiki/data/edges-temporal-scoped.jsonl` + `graph-conflict-pairs-temporal.{md,jsonl}`.
 - [x] Edge-modeling reification (Plate sequence, S82-S87) — **ALL PLATES SHIPPED including Plate 5 (2026-06-09, S87).** `graph/edges/edges.jsonl` **3,811 → 4,757 (+946)**; `graph/nodes/events/` **371 → 583 (+212)**; `graph/nodes/_conflicts/` **+6** (1 aerys + 5 collision losers). Backup: `graph/edges/_regrounding/edges-pre-reification-2026-06-09.jsonl`. Phases: Plate 0 normalizer 10 flips + 3 aerys repoints; Plate 2.5 27 wiki schema retypes + 12 drift retypes + 4 high-conf collision merges; Plate 4 51 SUB_BEAT_OF + 2 DUPLICATE_OF (1 skipped — meta.chapter target); Plate 3 217 mints (`title:`→`name:` rewrite) + 897 role edges + 55 supersede stamps; S77 carryover 2 LOVES drops + 21 ASSAULTS→ATTACKS retypes. Validators: 4,725 kept / 32 dropped (all SUB_BEAT_OF empty-evidence — read-only audit, rows remain). Red Wedding smoke test ✓ (8 SUB_BEAT_OF, 2-hop participant traversal works). Followups: display-bullet regen, 32 SUB_BEAT_OF empty-quote backfill, 109 hub-review-queue triage, post-Plate-5 tracks A/B/C ($25-75). Diff doc: `working/edge-modeling/plate5-merge-diff.md`. Script: `scripts/plate5-merge.py`.
+- [x] Post-Plate-5 graph validation + rename batch (S89-S91) — Mode 1 probes done, 9 event-node renames + alias work applied, **3 curator deception-pilot edges minted → `edges.jsonl` = 4,760 (current canonical count)**. 2 structural restructures deferred to `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md`. See Session Log S89-S91.
 
-  *(historical S82-S84 detail compressed; see history/session-details/session-082.md through session-085.md.)* Plates 0+1+2+2.5 cleanups, D2 RESOLVED (Replace), D8 added (reify on n-ary structure not type), vocab 163→165 (`AGENT_IN`+`VICTIM_IN`+`COMMANDS_IN` widened), Contract 10 validator, audit loop codified.
-
-- [~] Edge-modeling reification (HISTORICAL, S82-S84 detail) — superseded by line above; kept for archival reference of original sequence.
-  Original entry: Plates 0+1+2+2.5 + staged cleanups + Plate-3 smoke: ALIGNMENT AUDIT 2026-06-06 = ON COURSE. Independent fresh-session auditor recomputed all load-bearing numbers (edges.jsonl=3811 untouched, git status on graph/ empty, canonical_type_count=165, normalizer flips=10 not 11, 371 event nodes, phantom Aerys + 12 drift nodes still unmutated) — zero canonical writes, all of D1/D2/D3/D7/D8 honored in staging, Red-Wedding smoke demonstrates the "who killed/ordered X" 2-hop fix in dry-run. Next: launch full Plate 3 after Matt resolves Q1 (reify-selective) + Q2 (fuzzy reuse) and the 4 high-conf collision merges + 12 drift reclassifications are applied at the Plate-5 gate. Verdict + per-area detail in `working/edge-modeling/SESSION-LOG.md`. **Plates 0+1+2 SHIPPED; Plate 3 unblocked (HELD).** Plate 0: head-direction normalizer flipped 10/3,811 edges + Aerys slug-merge candidate (3 edges) — STAGED at `working/edge-modeling/normalizer-{candidates.jsonl,diff.md}`, `flagged-for-review.jsonl`, `aerys-merge-candidates.jsonl`. Plate 1: Pass-1 head rule + Events sub-bullets in `.claude/agents/mechanical-extractor.md`; `AGENT_IN`+`VICTIM_IN` added + `COMMANDS_IN` widened in `reference/architecture.md` (vocab 163→165); validator Contract 10 added to `scripts/stage4-type-contract-validator.py`. Plate 2: D2 RESOLVED → **option (a) Replace** (reification sufficient; `graph-query.py --path` traverses person→event→person transparently — no materialized dyad). Coverage: 8,384 Pass-1 event entries / 8,317 distinct titles / 8,316 needs-mint floor / only 38/371 (10%) event nodes have chapter linkage. Master design: `working/edge-modeling/edge-modeling-reification-design.md` (D2 resolved in §3). Plates 3+4+5 HELD; Plate 3 has 2 new design questions surfaced by Plate 2 (reify-all-vs-selective + §3 D3 correction). NOT merged into `graph/edges/edges.jsonl` (Plate 5 gate). Session log: `working/edge-modeling/SESSION-LOG.md`. **S84 UPDATE:** Q1 RESOLVED → reify-**selective** (trigger families only); Q2 → confidence-gated fuzzy reuse-before-mint; **D8** added (reify on n-ary STRUCTURE not type — clean dyads stay direct edges). Audit loop codified (Reporter + Auditor prompts + runbook); independent auditor verdict on Plates 0–2.5 = **ON COURSE**. Plate 3 pipeline `scripts/edge-reify-backfill.py` BUILT + validated (12-event mini-batch $0.81, all gates pass) + HARDENED (fail-fast + `--resume`). **Full sweep HELD/incomplete** — overnight attempt killed by rate wall (only 37 staged minted nodes + 11 review-queue; no role edges). Revised scope ~2,056 candidate events (~$50-160) → run a calibration chunk first. RESUME: `progress/continue-prompts/2026-06-07-edge-modeling-plate3-resume.md`.
-- [~] Events edge enrichment (Stage 4) — **BULK RUN COMPLETE (S80), STEP-1 DRIFT AUDIT NO-GO (S81 2026-06-01, borderline).** Bulk: 16,502 → 1,617 typed + 14,884 rejected at `_events-haiku-bulk/` (gitignored), single prompt_sha `d31ca56c4768`, 0 conform_violations. Vs v1.3: 988 net-new triples *if promoted* (TRAVELS_TO/WITH 242, LOCATED_AT 90, COMMANDS 121, REVEALS_TO 66, ATTACKS 43, DREAMS_OF 36 lead). **Drift audit (50-row stratified, Sonnet 4.6 judge, $0.93) returned triple 48 % / pair 56 %** — below gates (70 %/85 %). Fresh-eyes review (S81 general-purpose subagent, cold cold-read of all 22 REJECTs) confirmed ~11 clear Haiku drifts (Rule 4a / V5-R2 / Rule 12 violations) + ~3-4 clear Sonnet over-rejections + ~7-8 ambiguous; adjusted ≈ 56-70 %, still at/below gate. **No-Go stands but borderline.** The 7-step promotion chain at `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/` is halted at step 1 awaiting Matt's escalation pick (5 paths in `cross-model-audit.md §6`; audit recommends Option C — Sonnet-filter the named-type rows only at ~$2-5). Audit script `scripts/events-drift-audit.py` (sha `576cc815649c`) is throwaway-single-purpose, uses canonical prompt code for byte-identical Haiku parity. **NOT merged into `edges.jsonl`.** Schema gap noted: rejected rows have no `reject_reason` — fix-later, Dialogue prep. Analysis: `working/audits/events-haiku-bulk-2026-05-29/analysis.md`. Prior context: S79: Matt re-launched at 240s then asked to lower to **120s** (the S78 "lower before travel" action item is DONE at 120s — NOT 600/300 as the prior plan said). Resume verified: skipped 5,239 done rows, 11,263 remaining / 282 batches at the relaunch, same `v5-precision-rules` sha. Known loose end: a recurring ~40-row acok batch fails with a JSON parse error every run because `classify_failed` is not a skip-key (non-fatal; see S79 entry + todos). As of 2026-05-28 10:26: **batch 92/411 (319 left), $11.34 spent (~$50 proj), 389 edges** (AGOT/ACOK; later books book-ordered, not yet reached). Validate@25/50/75 reject_rate ~0.90 unresolved=0 (no walls, no drift); first-flush human read ~93–96% strict. NOT merged into `edges.jsonl` (gated). Monitor log: `working/session-results/2026-05-27-events-haiku-bulk-monitor-log.md`. Haiku-vs-Sonnet comparison done on the SAME rows (AGOT 600 + ACOK 600 out-of-sample): **Haiku ~85% / ~90% strict** (vs Sonnet's 82-86%), 0 walls, ~$1.8/run → **DECISION: Haiku** for the full run (fresh all-Haiku, single provenance; Sonnet partial `_events-run-20260527/` superseded). Residual errors were **bad candidate slugs** (disambiguation, not model error) → **FIXED**: `stage4-pass1-extra-tables.py` now passes `slug_category` so the title-person rung fires (lord-tywin→tywin-lannister) + endpoint blocklist (bastard/dog/four-storms/hunt) → pass1_events **16,572→16,502 clean rows** (backup `_extra-tables.pre-slugfix-20260527/`). Runner BUILT + HARDENED: `scripts/stage4-tail-classifier.py` gained `--sleep-between` (chunked, stop-file-aware) + `--validate-every`/`--reject-rate-floor` (drift-halt exit 43); wrapper `scripts/stage4-events-bulk-run.sh` (paced auto-resume, `sleep_with_stop_check`, SIGINT-terminal, MAX_ITER, stop-file). **1072 tests green.** Comparison report: `working/session-results/2026-05-27-haiku-vs-sonnet-events.md`. Runbook: `working/runbooks/stage4-events-haiku-bulk.md`. NOT merged into `edges.jsonl` (separate gated milestone).
+  *(Pre-Plate-5 design/staging history — Plates 0+1+2+2.5, D2/D8 decisions, vocab 163→165, Contract 10, audit loop, alignment audits — lives in `history/session-details/session-082.md`–`session-085.md`, `history/worklog-archives/archive017-018.md`, and `working/edge-modeling/SESSION-LOG.md` + `edge-modeling-reification-design.md`. The former HISTORICAL [~] entry here was collapsed 2026-06-11; nothing in it was unique to this file.)*
+- [~] Events edge enrichment (Events-Haiku bulk, S78-S81) — **SHELVED 2026-06-11.** Bulk run completed S80 (16,502 candidates → 1,617 typed + 14,884 rejected at `_events-haiku-bulk/`, ~$50, 0 conform_violations) but the S81 drift audit returned **NO-GO (borderline)** — triple 48%/pair 56% vs 70%/85% gates; fresh-eyes review adjusted to ≈56-70%, still at/below gate. **NOT merged into `edges.jsonl`.** The escalation pick is now absorbed into post-Plate-5 backfill Track B + Mode-3-dip sequencing (no standalone pick pending). Full detail: `working/audits/events-haiku-bulk-2026-05-29/{analysis.md,cross-model-audit.md}`, runbook `working/runbooks/stage4-events-haiku-bulk.md`, promotion chain `progress/continue-prompts/2026-05-31-events-v2-promotion-chain/`, S78-S81 narratives in `history/worklog-archives/archive017.md`. Known loose ends carried in todos: `classify_failed` skip-key parse-fail block; rejected rows lack `reject_reason` (Dialogue prep).
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -110,7 +98,13 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
 
+### DECIDED: Infobox-structural wiki edges greenlit for merge (2026-06-11, Fable audit)
+- **Decision (Matt, `working/reply-to-audit-session-2026-06-11.md`):** merge the wiki infobox-structural layer (~20,614 parsed relationship rows in `working/wiki/data/infobox-data.jsonl`) into `graph/edges/` as deterministic edges — **Tier 2 maximum, never Tier 1** (Tier 1 stays earned-by-book-quote), `evidence_kind: wiki-infobox`, `typed_by: python-infobox-map`, cite `wiki:<Page>`. ~18-19k edges expected after filtering multi-value speculative fields (Jon's two listed mothers) and Unknown/None/Extinct targets; folds in 2 hygiene fixes (115 orphan endpoint slugs, 948 role edges missing `typed_by`/file:line). Moves node connectivity 14.7% → ~72%.
+- **Sequence:** spec → dry-run → Matt review → ship. **Mode 3 grounded-agent dip runs AFTER the merge**, on the merged graph; its failures drive backfill Tracks A/B/C priorities.
+- **Prose-comention wiki edges stay DEPRECATED** (all three layer verdicts in `working/audits/fable-audit-2026-06-11/synthesis.md`).
+
 ### OPEN: Events Haiku bulk — drift audit returned NO-GO (borderline); chain halted at step 1, awaiting Matt's escalation pick (2026-06-01, Session 81)
+- **STATUS 2026-06-11:** no standalone escalation pick pending anymore — the 1,617-row artifact is absorbed into post-Plate-5 backfill **Track B** + Mode-3-dip sequencing (revisited only if the dip proves a gap it would fill). Entry kept as the decision record.
 - **Bulk artifact is complete and clean** (S80): 1,617 typed edges + 14,884 rejected over 16,502 candidates at `_events-haiku-bulk/`; single prompt_sha `d31ca56c4768`, all `typed_by=haiku`, 0 conform_violations.
 - **BUT step 1 drift audit (S81) returned NO-GO** — triple-level 48 % (gate 70 %), pair-level 56 % (gate 85 %); 22/50 sampled Haiku emits rejected by Sonnet judge. Failure concentrates in structural-edge types: TRAVELS_TO 17 %, TRAVELS_WITH 0 %, LOCATED_AT 20 % triple agreement.
 - **Fresh-eyes pressure-test (S81) corrected the framing:** ~11 of 22 REJECTs are clear Haiku drift (Rule 4a hint-as-evidence, V5-R2 quote-doesn't-support, Rule 12 co-presence); ~3-4 are confirmed Sonnet over-rejections (judge_idx 2/6/14/16); ~7-8 ambiguous. Adjusted triple ≈ 56-70 % — at or below the gate. **No-Go stands but is borderline, not catastrophic.** The S69 vs S77 smoke-session contradiction was a misciting + a measurement-shape mismatch (S77 measured hand-read precision on fresh candidates, NOT Sonnet-judges-Haiku-emit on stratified emits) — both can be true.
@@ -120,11 +114,13 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Reports:** `working/audits/events-haiku-bulk-2026-05-29/analysis.md` (S80 bulk analysis) + `cross-model-audit.md` (S81 drift audit).
 
 ### OPEN: 3 gated core-cleanups — still await Matt's before/after sign-off (carried from Session 76)
+- **STATUS 2026-06-11: RESOLVED — all 3 cleanups were applied at Plate 5 (S87):** 2 cersei↔tyrion LOVES drops, 21 ASSAULTS→ATTACKS retypes (11 stay — sexual-violence canon), OWNS→BONDED_TO no-op (0 rows). Entry kept as the decision record.
 - Model decision RESOLVED (→ Haiku, see above). Still pending Matt's OK (do NOT touch `edges.jsonl` without before/after sign-off):
 - **3 gated core-cleanups — await Matt's before/after sign-off (do NOT touch `edges.jsonl` without it):** (1) drop the 2 `cersei↔tyrion` LOVES mis-types (3,811→3,809); (2) retype the ~22 physical `ASSAULTS`→`ATTACKS` (`ASSAULTS`=sexual only per architecture.md:233; fix the spine phrase→type map too); (3) merge-time `OWNS→BONDED_TO` for direwolf/dragon targets (Events output, not core). The Events v5 prompt already obeys the ASSAULTS rule (emitted 0).
 - **Operational:** long unattended runs MUST use a sleep-until-reset auto-resume wrapper — S76's bare worker sat idle all night after one cap wall.
 
 ### AMENDED: Enrichment is DEFERRED, not abandoned — Events is the next surface (2026-05-26, Session 75)
+- **STATUS 2026-06-11:** the Events bulk subsequently ran (S80) and was NO-GO'd (S81, see above); enrichment now sequences as **infobox merge → Mode 3 dip → dip-driven backfill** per the 2026-06-11 DECIDED entry.
 - **Decision (Matt):** Softens the S74 "SHELVE enrichment" below. Matt **does want to enrich the graph** — step by step, with **Events as the next surface**, but **gated behind the precision changes landing first** (the conflict-pair cleanup built this session + the kept v5 precision rules). **Not launched this session** (Matt chose to end + queue it).
 - **Temporal flagging endorsed** — per-edge "when does this apply" is the right structural answer to the contradictory-edges problem, and it's largely deterministic (every edge carries `evidence_book`+`evidence_chapter`; chapter frontmatter has `chapter_number`).
 - **DO NOT** run the ~$270 Events bulk blind — it failed the 75% precision gate (S74). The next Events pass must fold in the precision precursors. Continue: `progress/continue-prompts/2026-05-26-stage4-events-enrichment.md`. Memory: `project_enrichment_wanted_events_next`.
@@ -152,8 +148,10 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Wiki-comention:** DEPRECATED. 130 done files → stamp **in-data** (`status: superseded`, `superseded_by: pass1-derived`, `do_not_promote: true`) — NOT dir-archiving (archiving has been contention-prone because "archived" lives in folder names; provenance must live in the data — same root cause as the schema-mixing problem).
 - **Design doc:** `working/stage4-pass1-derived-edges-design.md`. **Continue:** `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md`.
 - **Status:** direction DECIDED + Matt-endorsed; build not started. Session-65 findings carried in the continue prompt (24 skipped files from a dual-run, run-summary.json overwrite bug, single-instance guard, provenance stamp).
+- **STATUS 2026-06-11:** built and SHIPPED — this pipeline produced the canonical `edges.jsonl` core (v1→v1.3, S66-S74). Entry kept as the pivot record.
 
 ### OPEN: Storage Format — Pure Markdown vs. Graph DB
+- **STATUS 2026-06-11:** de facto settled on the lean — markdown nodes + `edges.jsonl` + `scripts/graph-query.py` (0 orphans, fully traversable); no graph-DB need has emerged. Formally still open if query complexity grows.
 - **Question:** Does the graph live as pure markdown files with edges represented as YAML/frontmatter references, or do we use a lightweight graph DB (Neo4j, SQLite with graph extensions)?
 - **Leaning:** Start with pure markdown. The context base pattern works well for agentic access. Graph DB can come later if query complexity demands it.
 - **Trade-off:** Markdown is portable, version-controlled, and readable by Claude Code natively. Graph DB gives real traversal queries but adds infrastructure.
@@ -162,6 +160,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Decision (2026-04-13):** Scrape the entire AWOIAF wiki once (~17,952 pages, ~5–6 hrs, ~1–2 GB), store as a *reference layer* in `sources/wiki/` (gitignored). Pass 2 (wiki-ingester) decides what gets promoted into `graph/nodes/` with proper `first_available` spoiler tags.
 - **Rationale:** Targeted scraping required us to predict relevance up front. Full crawl is a one-time cost (~5 hrs, ~1.5 GB) and lets us refine classification rules against a static cache for free. Cache + resume means the crawl is interruption-tolerant. The graph is still curated — only the *source layer* is exhaustive.
 - **Open downstream question:** How does Pass 2 decide what to promote? Likely a combination of (a) categories the page belongs to, (b) whether the page subject appears in any chapter extraction, (c) page length / infobox richness as a quality signal. To be designed when Pass 2 prompt is written.
+- **STATUS 2026-06-11:** answered in practice — Pass 2 ran to completion S22-S29 (tier rules + category promotion; ~8.3k nodes). Entry kept as the scope-decision record.
 
 ### OPEN: Descriptive Chapter Title Mapping
 - **Question:** AFFC and ADWD use descriptive chapter titles (THE PROPHET, REEK, THE UGLY LITTLE GIRL) that map to known characters. Should the extraction system normalize these to the character's real name or preserve the title?
@@ -198,18 +197,17 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Capture every idea here, even half-formed ones. Tag with priority: HIGH, MEDIUM, LOW, SOMEDAY.
 
+> Groomed 2026-06-11: shipped items pruned (chapter splitter, Pass 1 AGOT PoC, Pass 2 prompt, node-file schema — all long done); survivors reframed to current reality.
+
 ### HIGH
-- [ ] Write the chapter splitter script (agent prompt ready)
-- [ ] Run Pass 1 on AGOT as proof of concept
-- [ ] Write Pass 2 wiki ingestion agent prompt
-- [ ] Create theory seeds file (top 20-30 theories with confidence tiers)
+- [ ] Create theory seeds file (top 20-30 theories with confidence tiers) — prerequisite for Pass 5 AND for connecting the all-dark `theories/` layer (45 nodes, ~0 real edges; the infobox merge contributes nothing there — see synthesis 2026-06-11)
 
 ### MEDIUM
-- [ ] Design the trigger table schema (what columns, what routing logic)
-- [ ] Write Pass 3 voice analysis prompt — include the cross-POV perception dimension (how Character X is perceived by Character Y's POV vs. their own self-perception)
-- [ ] Write Pass 4 foreshadowing prompt — agent receives the foreshadowing events list and scans chapter extractions for matches
-- [ ] Design the node file schema (what does a single entity file look like in `graph/nodes/`)
-- [ ] Build convergence map for Oldtown as proof of concept
+- [ ] Design the trigger table schema (what columns, what routing logic) — the one unshipped piece of the index layer
+- [ ] Write Pass 3 voice analysis prompt — cross-POV perception dimension; feeds the talk-to-a-character goal
+- [ ] Write Pass 4 foreshadowing prompt — agent receives `reference/foreshadowing-events.md` and scans chapter extractions for matches
+- [ ] Build convergence map for Oldtown as proof of concept (`graph/convergence-maps/` still empty)
+- [ ] Prophecy node layer is undercounted (2 nodes, 0 edges) — mint the canon prophecies (Azor Ahai, valonqar, dragon-has-three-heads…) from existing wiki pages
 
 ### LOW
 - [ ] Explore fan fiction generation as a downstream use case — voice profiles + relationship graph + location descriptions = grounded creative generation
@@ -229,6 +227,23 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
+
+### Session 92 — Fable audit execution: doc truth-pass, project story, infobox merge spec→script→dry-run (2026-06-11 → 2026-06-12)
+
+**Model:** Fable 5 orchestrator; ~40 subagents (Fable for judgment/prose, Sonnet for mechanical/scripts; EVERY major deliverable reviewed by a fresh-eyes critic, all findings applied). **Spend:** hit the monthly extra-usage cap twice mid-session; resumed across plan windows; zero lost/broken work (verified). **Detail:** `history/session-details/session-092.md` (full narrative incl. wall postmortem + critic-loop catches). **Commit:** this endsession commit.
+- **Closeout additions (2026-06-12):** dry-run report rewritten self-explaining at Matt's request (preamble + TL;DR + 13-term glossary incl. `direction_corrected` + fill-in answer lines on all 11 decisions; 275→594 lines); NEW `progress/continue-prompts/2026-06-12-graph-cleanup.md` (double-gated: merge shipped + Matt's curation marks; executes FIX-22 + small followups + the 3 missing Red Wedding SUB_BEAT_OF links); **Olenna verified BOOK-derived** (Pass 1 ASOS Sansa chains, not wiki/show — inference + Littlefinger testimony) → cleanup prompt pins `olenna AGENT_IN death-of-joffrey-baratheon` at Tier 2, never Tier 1; new memory rule: sequential/2-3-batch subagent dispatch when quota headroom low.
+
+- First Fable session. Commissioned by Matt's audit ask + reply file (`working/reply-to-audit-session-2026-06-11.md`). Full 91-session history audit + graph deep-dive persisted to `working/audits/fable-audit-2026-06-11/` (synthesis, history-audit, graph-deep-dive, doc-rot punch list, worth-assessment v2, design-doc proposal, SESSION-CHECKPOINT).
+- **DECIDED (Matt 2026-06-11):** infobox-structural wiki layer (20,614 parsed rows, 98.4% additive) greenlit for merge — Tier 2 max, `evidence_kind: wiki-infobox`; prose-comention stays deprecated; Mode 3 dip runs AFTER the merge.
+- Doc truth-pass: CLAUDE.md pipeline table fixed; worklog rebuilt around the new STATUS block; Principles #4 corrected; todos.md 420→232 (resolved blocks → `history/todo-archives/`); `progress/continue-prompts/README.md` manifest; `reference/schema-legend.md`; `reference/roadmap.md`; nomenclature reform proposal (Matt picks); design-doc structure proposal (Option A recommended, Matt picks).
+- Human-readable layer: `history/project-story/` (8 chapters incl. the reification explainer with a live Red Wedding walkthrough); history/ READMEs; `scripts/README.md` (146 scripts inventoried, 6 LEGACY wrappers); `weirwood run` subcommand banked on longrun.sh (tested, shellcheck-clean).
+- **INFOBOX MERGE TRACK:** spec v2 (adversarial critic CONFIRMED the FIELD_EDGE_MAP direction-inversion on 10 fields; fact-key quarantine closes the Joffrey-mirror leak) → `scripts/infobox-merge.py` + 75 tests → **dry-run reproduces spec v2 EXACTLY** (20,614 → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations; edges.jsonl would go 4,760 → 21,766; connectivity 14.7% → 71.0%). NO graph writes this session. Report: `working/infobox-merge/dry-run-report-2026-06-12.md` (11 decided-by-default open questions for Matt).
+- Curation proposals: `curation/hub-review-triage-2026-06-12.md` (FIX 22 / QUARANTINE 10 / KEEP 81 — incl. live Plate-5 leak F1c and the Purple-Wedding tier-1 false-confession edge) + `curation/plate5-small-followups-2026-06-12.md` (2 collision proposals; donal-noye↔mag reverse edge; 32-empty-quote memo, rec = Contract-6 exemption; display-bullet regen, rec = defer until post-merge).
+- **Graph defects newly surfaced (NOT fixed — no graph writes):** F1c dangling edge (`siege-of-storm-s-end-recalled` source never minted); 3 Red Wedding beats with role edges but no SUB_BEAT_OF link (Dacey Mormont's death missing from beat-union); `robb-is-killed SUB_BEAT_OF red-wedding` carries a wiki display-bullet as its quote; `donal-noye KILLS mag` quote mismatch; LOCATED_AT direction contradicts the design glossary (live data is event→location).
+- Pre-existing test failures noted (predate session): `test_vocab_count_is_163` ×2 (vocab is now 166) + `test_cwd_is_tmp`.
+- **What's next (the chain):** (1) Matt marks the dry-run report's 11 decisions → `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` (Sonnet); (2) Matt marks the 2 curation files → `progress/continue-prompts/2026-06-12-graph-cleanup.md` (Sonnet; gated on merge shipped); (3) Mode 3 dip (`2026-06-11-phase2-mode3-dip.md`, Opus; gated on merge). Parallel-safe anytime: `2026-06-12-deferred-structural-restructures.md` (Opus). Matt's picks (non-blocking): design-doc Option A/B/C, nomenclature scheme, archive018 S86-append judgment, repo-reorg P1/P2 (`working/repo-reorg-plan-2026-06-12.md`). All session files KEPT in place per Matt ("until we are well and truly done").
+
+> Session 87 archived to `history/worklog-archives/archive019.md` (archive019 started — 1/5)
 
 ### Session 91 — Rename execution batch + DECEIVES pilot edges + structural restructures queued (2026-06-11)
 
@@ -323,83 +338,11 @@ This is your project memory. When you come back after a break, read Current Stat
 
 **What's next:** → `progress/continue-prompts/2026-06-09-graph-validation.md` (**Opus 4.7** — design judgment in interpreting probe results; deterministic query work is `graph-query.py`). Matt picks Mode 1 vs straight-to-Mode-3.
 
-### Session 87 — Plate 5 SHIPPED — first canonical write to edges.jsonl (2026-06-09)
-
-**Model:** Opus 4.7 (orchestrator + all execution; no agents delegated). **Detail:** none (execution-heavy, design captured in `working/edge-modeling/plate5-merge-diff.md`). **Commit:** this endsession commit.
-
-Plate 5 — the single gated step that writes all staged edge-modeling work into the canonical graph — landed successfully. Five locked-in decisions (Q1-Q4) captured ahead of execution. Matt stepped out mid-session and explicitly delegated promotion + autonomous validation ("I won't be reviewing everything you promote anyway, so promote them. then we should talk about actually using the graph to do some validation"). Net deltas: `edges.jsonl` **3,811 → 4,757 (+946)**, `events/` nodes **371 → 583 (+212)**, `_conflicts/` **+6** (1 aerys + 5 collision losers).
-
-**What landed (in merge order):**
-- Plate 0: 10 normalizer direction-flips + 3 aerys-targaryen→aerys-ii-targaryen repoints + node quarantine. 1 mutual-kill left flagged (donal-noye↔mag) per Q4=a.
-- Plate 2.5: 27 wiki schema fixes (event.battle → event.wedding/feast/coronation/trial/assassination/execution/conspiracy per S86 vocab), 12 drift retypes (10 applied + 2 already-done), 4 high-conf collision merges (5 losing nodes quarantined). 2 medium/low collisions skipped per cleanup-decisions-resolved.md.
-- Plate 4 cluster: 51 SUB_BEAT_OF appended + 2/3 DUPLICATE_OF applied (7 role edges repointed to wiki nodes). 1 DUPLICATE_OF skipped (`mutiny-plan-reviewed → a-storm-of-swords-prologue`: target becoming meta.chapter would violate Contract 10).
-- Plate 3: 217 of 219 mints written to `events/` (2 skipped per DUPLICATE_OF); `title:` → `name:` rewrite at mint per S86 canonical surface field. 897 of 914 role edges appended (5 dropped for fuzzy-match queue per Q1=a; 12 dropped for unresolvable LOCATED_AT; 22 LOCATED_AT remapped via small fix-map per Q2=a; 7 repointed for DUPLICATE_OF). 55/55 supersede stamps applied (1 via swapped-key fallback because Plate 0 had flipped the original direction).
-- S77 carryover: 2 cersei↔tyrion LOVES rows dropped, 21 ASSAULTS → ATTACKS retyped (11 stay ASSAULTS — sexual-violence canon). OWNS→BONDED_TO no-op (0 such rows).
-
-**Validators:**
-- **Type-contract validator:** kept 4,725 / dropped 32 (0.7%). All 32 drops are SUB_BEAT_OF edges with empty `evidence_quote` (Plate 4 Pass-B/Pass-C inference-only emissions; rationale-only, no quote). Rows remain in `edges.jsonl` — validator is read-only audit. **Field-name fix applied in-place** during validator review: Plate 4 staging used `quoted_evidence` instead of canonical `evidence_quote`; renamed across all 51 SUB_BEAT_OF rows (19 retained text, 32 now have an explanatory `plate5_evidence_note` field).
-- **Orphan-edges audit:** node-display bullets predate Plate 5 (display bullets are pre-merge state). Net 217 fewer cat1 orphans vs 2026-05-12 baseline. Bullets NOT regenerated this session — no canonical `build-node-display-edges.py` exists; canonical authority is edges.jsonl (graph-query.py reads from there).
-- **Red Wedding smoke test PASSES.** `python3 scripts/graph-query.py --neighbors red-wedding` shows 8 SUB_BEAT_OF incoming. 2-hop traversal (red-wedding ← SUB_BEAT_OF ← catelyn-is-killed) surfaces AGENT_IN (house-frey), VICTIM_IN (catelyn-stark), COMMANDS_IN (walder-frey), LOCATED_AT (twins) — all with verbatim book quotes. Reification end-to-end working as designed.
-
-**Decisions captured (5 ahead of execution):**
-- Q1=a: hub-review-queue defaults applied (0/109 minted; 5 role edges dropped for the 2 fuzzy-match queue items).
-- Q2=a: built 8-slug location alias fix-map (the-eyrie→eyrie, king-s-landing→kings-landing, etc.); 10 unresolvable slugs skipped (~12 edges).
-- Q3=a: 2 LOVES drops + 21-ASSAULTS retype (11 stay) + OWNS no-op.
-- Q4=a: 4 high-conf collisions only; mutual-kill left flagged.
-- Mid-merge DUPLICATE_OF call: skip `mutiny-plan-reviewed` because its wiki target is being retyped to meta.chapter (would violate Contract 10).
-
-**Files modified:** `graph/edges/edges.jsonl` (the gated write); `graph/nodes/events/` +217; `graph/nodes/_conflicts/` +6; 37 node frontmatter type retypes (27 wiki + 10 drift); `graph/edges/_regrounding/edges-pre-reification-2026-06-09.jsonl` (backup). NEW: `scripts/plate5-merge.py` (~450 lines, supports `--dry-run`/`--apply`); `working/edge-modeling/plate5-merge-diff.md` (full before/after report). NEW: `history/worklog-archives/archive018.md` (S83-/tmp moved here).
-
-**Follow-up TODOs:** (1) Display-bullet regeneration script — `## Edges` sections in node files are pre-Plate-5 state; graph-query.py works from edges.jsonl correctly, but human readers see stale bullets. (2) The 32 SUB_BEAT_OF without quoted evidence — decide between re-emit / quote backfill / Contract-6 exemption for structural edges. (3) 109 hub-review-queue entries — still in staging, defaults applied = none minted. (4) 2 deferred collision merges (conquest-of-dorne, tourney-at-maidenpool). (5) donal-noye↔mag mutual-kill — add reverse direction. (6) Post-Plate-5 backfill tracks A/B/C (~$25-75, ~300-850 edges) per `working/edge-modeling/post-plate5-backfill-design.md`.
-
-**What's next:** Matt's stated next track is "actually using the graph to do some validation" — use the merged graph to fact-check claims, run cross-character traversal queries, exercise the reified event hubs for the use-cases the design supported. No dedicated continue prompt yet; will draft one when Matt returns and we scope the validation conversation. The 6 follow-up TODOs above are non-blocking and can be picked up opportunistically. `graph/edges/edges.jsonl` is now LIVE at 4,757 rows; `events/` at 583 nodes.
-
-> Session 85 archived to `history/worklog-archives/archive018.md` (archive018 now 4/5)
-> Session 84 archived to `history/worklog-archives/archive018.md` (archive018 now 3/5)
-> Session 83 (Edge-modeling Plates 0+1+2) archived to `history/worklog-archives/archive018.md` (archive018 now 2/5)
-> Session 83 (Move /tmp paths) archived to `history/worklog-archives/archive018.md` (archive018 started — 1/5)
-> Session 82 archived to `history/worklog-archives/archive017.md` (archive017 now full at 5/5)
-> Session 81 archived to `history/worklog-archives/archive017.md` (archive017 now 4/5)
-> Session 80 archived to `history/worklog-archives/archive017.md` (archive017 now 3/5)
-> Session 79 archived to `history/worklog-archives/archive017.md` (archive017 now 2/5)
-> Session 78 archived to `history/worklog-archives/archive017.md` (archive017 started — 1/5)
-> Session 77 archived to `history/worklog-archives/archive016.md` (archive016 now full at 5/5)
-> Session 76 archived to `history/worklog-archives/archive016.md` (archive016 now 4/5)
-> Session 75 archived to `history/worklog-archives/archive016.md` (archive016 now 3/5)
-> Session 74 archived to `history/worklog-archives/archive016.md` (archive016 now 2/5)
-> Session 73 archived to `history/worklog-archives/archive016.md` (archive016 started — 1/5)
-> Session 72 archived to `history/worklog-archives/archive015.md` (archive015 now full at 5/5)
-> Session 71 archived to `history/worklog-archives/archive015.md` (archive015 now 4/5)
-> Session 70 archived to `history/worklog-archives/archive015.md` (archive015 now 3/5)
-> Session 69 archived to `history/worklog-archives/archive015.md` (archive015 now 2/5)
-> Session 68 archived to `history/worklog-archives/archive015.md`
-> Session 67 archived to `history/worklog-archives/archive014.md` (archive014 now full at 5/5)
-> Session 66 archived to `history/worklog-archives/archive014.md`
-> Session 65 archived to `history/worklog-archives/archive014.md` (archive014 now 3/5)
-> Session 64 archived to `history/worklog-archives/archive014.md` (archive014 now 2/5)
-> Session 63 archived to `history/worklog-archives/archive014.md` (archive014 started — 1/5)
-> Session 62 archived to `history/worklog-archives/archive013.md` (archive013 now full at 5/5)
-> Sessions 58-61 archived to `history/worklog-archives/archive013.md`
-> Sessions 57-56 archived to `history/worklog-archives/archive012.md` (archive012 full at 5/5 entries)
-> Session 55 archived to `history/worklog-archives/archive012.md`
-> Session 54 archived to `history/worklog-archives/archive012.md`
-> Session 53 archived to `history/worklog-archives/archive012.md`
-> Session 52 archived to `history/worklog-archives/archive011.md` (archive011 now full)
-> Session 51 archived to `history/worklog-archives/archive011.md`
-> Session 50 archived to `history/worklog-archives/archive011.md`
-> Session 49b archived to `history/worklog-archives/archive011.md`
-> Session 49 archived to `history/worklog-archives/archive011.md`
-> Sessions 44-48 archived to `history/worklog-archives/archive010.md` (full at 5 entries)
-> Sessions 39–43 archived to `history/worklog-archives/archive009.md` (full at 5 entries)
-> Sessions 34–38 archived to `history/worklog-archives/archive008.md` (full at 5 entries)
-> Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)
-> Sessions 25–29 archived to `history/worklog-archives/archive006.md`
-> Sessions 22–24 archived to `history/worklog-archives/archive005.md`
-> Sessions 16-21 archived to `history/worklog-archives/archive004.md`
-
-> Sessions 8–15 archived to `history/worklog-archives/archive003.md`
-> Sessions 5–7 archived to `history/worklog-archives/archive002.md`
-> Sessions 0–4 archived to `history/worklog-archives/archive001.md`
+> **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
+> archive019 = S87 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
+> archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
+> archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4
 
 ---
 
@@ -410,7 +353,7 @@ Plate 5 — the single gated step that writes all staged edge-modeling work into
 1. **The chapter text is immutable.** Source files in `sources/chapters/` never change. Everything else layers on top.
 2. **Facts before interpretations.** Mechanical extraction before analytical. Tier 1 before Tier 4.
 3. **Agents propose, humans decide.** Analytical findings go to the curation queue. Matt assigns confidence.
-4. **Spoiler gating is architectural.** Every node has `first_available`. This is not a feature to add later.
+4. **Spoiler gating is deferred, not dropped.** `first_available` is optional in v1 nodes and backfills via deterministic script post-first-release (DEFERRED decision, 2026-04-27/S24). Don't spend context reasoning out individual values; the wiki cite_ref/infobox sources for the backfill are documented in architecture.md.
 5. **The index and the graph are complementary.** The index routes. The graph traverses. Both are needed.
 6. **Each token should be productive.** Structure exists to reduce waste — agents should read relevant, trustworthy content, not re-derive known relationships.
 7. **Start with the foundation, not the flashiest feature.** Chapter files → mechanical extraction → wiki → index → graph → analytical passes. In that order.

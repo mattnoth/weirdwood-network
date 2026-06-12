@@ -134,6 +134,17 @@ weirwood() {
       esac
       ;;
 
+    # ── Long-run track registry ────────────────────────────────────────────────
+    run)
+      local run_script="$project_dir/scripts/weirwood-run.sh"
+      if [[ ! -f "$run_script" ]]; then
+        echo "ERROR: weirwood-run.sh not found at $run_script"
+        return 1
+      fi
+      shift
+      bash "$run_script" "$@"
+      ;;
+
     # ── Stage 4 subcommand ─────────────────────────────────────────────────────
     stage4)
       if [[ ! -f "$stage4_script" ]]; then
@@ -197,6 +208,7 @@ weirwood() {
       echo "  weirwood stop                     Soft stop (see below)"
       echo "  weirwood wiki <subcommand>        Wiki Pass 2 — see 'weirwood wiki --help'"
       echo "  weirwood stage4 <subcommand>      Stage 4 prose-edge classifier"
+      echo "  weirwood run <subcommand>         Long-run track registry — see 'weirwood run --help'"
       echo ""
       echo "Examples:"
       echo "  weirwood acok                     What's left in ACOK?"
@@ -206,6 +218,8 @@ weirwood() {
       echo "  weirwood wiki triage --accept     Commit wiki triage manifests"
       echo "  weirwood wiki core 2 3            Launch wiki core tier (2 tabs, 3 waves)"
       echo "  weirwood stage4 5                 Launch 5 Stage 4 worker tabs"
+      echo "  weirwood run list                 List long-run tracks"
+      echo "  weirwood run start custom -- python3 scripts/my-runner.py --resume"
       echo ""
       echo "Books: agot acok asos affc adwd"
       echo ""

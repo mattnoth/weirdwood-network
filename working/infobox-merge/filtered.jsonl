@@ -1,0 +1,1128 @@
+{"rule": "R1", "reason": "source-unresolved", "page": "A Song of Ice and Fire", "field": "Author", "target": "George R. R. Martin", "edge_type": "WRITTEN_BY"}
+{"rule": "R1", "reason": "source-unresolved", "page": "A Song of Ice and Fire Campaign Guide", "field": "Author", "target": "David Chart, Joshua J. Frost, Brian Kirby, Jon Leitheusser, Anthony Pryor, Robert J. Schwalb, and Owen K. C. Stephens", "edge_type": "WRITTEN_BY"}
+{"rule": "R1", "reason": "source-unresolved", "page": "A Song of Ice and Fire Roleplaying", "field": "Author", "target": "Robert J. Schwalb", "edge_type": "WRITTEN_BY"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Addam Hightower", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Aegon Targaryen (son of Gaemon)", "field": "Issue", "target": "Aerys Targaryen", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Aelinor Penrose", "field": "Titles", "target": "Queen consort", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Aelyx Targaryen", "field": "Father", "target": "Aerys Targaryen", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Aemond Targaryen", "field": "Titles", "target": "Prince Regent", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Aemond Targaryen", "field": "Issue", "target": "Alleged son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Aenar Targaryen", "field": "Spouse", "target": "Several wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Aerys II Targaryen", "field": "Died", "target": "Great Hall", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Aerys I Targaryen", "field": "Issue", "target": "None", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Agnes Blackwood", "field": "Issue", "target": "At least four sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alannys Harlaw", "field": "Titles", "target": "Lady Greyjoy", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Albar Royce", "field": "Mother", "target": "Deceased", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Albin Manwoody", "field": "Heir", "target": "Unknown", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Albin Manwoody", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Alequo Adarys", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alfyn Crowkiller", "field": "Issue", "target": "At least four sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Allaquo", "field": "Allegiance", "target": "Ship", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Alleras", "field": "Race", "target": "Mixed", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alleras", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alvyn Sharp", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Alyce Graceford", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Alyn Tarbeck", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alyn Velaryon", "field": "Titles", "target": "Admiral", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alys Arryn", "field": "Born", "target": "~219\u2013251 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alys Arryn (wife of Rhaegel)", "field": "Born", "target": "~144\u2013197 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alys Rivers", "field": "Issue", "target": "Son by Aemond", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alys Stackspear", "field": "Born", "target": "~192\u2013233 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alys Stackspear", "field": "Father", "target": "Lord Stackspear", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Alysane Mormont", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Alysane Mormont", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alysanne Blackwood", "field": "Allegiances", "target": "Lads", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alyse Ladybright", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Alyssa Blackwood", "field": "Born", "target": "~217\u2013254 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Amarei Crakehall", "field": "Born", "target": "~212\u2013246 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Ambrose Butterwell", "field": "Issue", "target": "Three sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Ambrose Butterwell", "field": "Issue", "target": "Three daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Amerei Frey", "field": "Lover", "target": "Three grooms", "edge_type": "LOVER_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Andrew Estermont", "field": "Allegiances", "target": "King's men", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Annara Farring", "field": "Born", "target": "~240\u2013273 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Antario Jast", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Anya Waynwood", "field": "Spouse", "target": "Deceased husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Archon's daughter (Jaehaerys I)", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Archon of Tyrosh (War of the Ninepenny Kings)", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Argelle Stark", "field": "Title", "target": "Cerwyn", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Argelle Stark", "field": "Issue", "target": "Children", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Arlan III Durrandon", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Arlan I Durrandon", "field": "Issue", "target": "At least one son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Armen Peake", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Arrana Stark", "field": "Issue", "target": "Children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Artys I Arryn", "field": "Successor", "target": "His eldest son", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Artys I Arryn", "field": "Issue", "target": "At least three sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Arwyn Oakheart", "field": "Spouse", "target": "Deceased husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Assadora", "field": "Allegiance", "target": "Happy Port", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Attack on Castle Black", "field": "Conflict", "target": "Conflict beyond the Wall", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Baelish (sellsword)", "field": "Issue", "target": "Ser Baelish", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Baelon Targaryen (son of Aerys)", "field": "Father", "target": "Aerys Targaryen", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Baelor I Targaryen", "field": "Issue", "target": "None", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Balon Greyjoy", "field": "Successor", "target": "Euron III Greyjoy", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Balon Greyjoy", "field": "Died", "target": "Pyke, the Iron Islands", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Bambarro Bazanne", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Bambarro Bazanne", "field": "Issue", "target": "Children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Band of Nine", "field": "Founder", "target": "Ninepenny Kings", "edge_type": "FOUNDED"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Barbara Bracken", "field": "Mother", "target": "Jonos's first wife", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Barra", "field": "Mother", "target": "Unnamed whore", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Barth (brewer)", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bathi Ma Lo", "field": "Title", "target": "Empress", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Battle beneath the Wall", "field": "Conflict", "target": "Conflict beyond the Wall", "edge_type": "FIGHTS_IN"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Battle on Whispering Sound", "field": "Result", "target": "Unknown", "edge_type": "DEFEATS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bearded priests", "field": "Seat", "target": "Unnamed fortress-temple", "edge_type": "SEAT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bearded priests", "field": "Allegiance", "target": "Unidentified god", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Beck", "field": "Title", "target": "Goodman", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bedwyck", "field": "Title", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bellegere Otherys", "field": "Spouse", "target": "Many supposed husbands", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Bellenora Otherys", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Belwas", "field": "Allegiances", "target": "Ruling council of Meereen", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Ben Plumm", "field": "Culture", "target": "Mixed", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Benedict Blackmont", "field": "Heir", "target": "Unknown", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Benedict Royce", "field": "Issue", "target": "Three daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Benjen Stark (son of Artos)", "field": "Issue", "target": "Child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Benjicot Blackwood", "field": "Allegiances", "target": "Lads", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Bernarr II Justman", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Bernarr II Justman", "field": "Issue", "target": "Three sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bertrand Tyrell", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bessaro Reyaan", "field": "Allegiances", "target": "Iron Bank", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bethany Bracken", "field": "Born", "target": "156 AC or later", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bethany Redwyne", "field": "Issue", "target": "One daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bethany Redwyne", "field": "Issue", "target": "Two other children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bethany Rosby", "field": "Born", "target": "~230\u2013266 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bethany Rosby", "field": "Died", "target": "282 AC, 283 AC or 284 AC", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Big Brusco", "field": "Allegiance", "target": "Gate", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Bloodstone Emperor", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bluetooth", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bluetooth", "field": "Spouse", "target": "Unknown wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Blushing Bethany", "field": "Allegiance", "target": "Happy Port", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Bobono", "field": "Allegiance", "target": "Gate", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Boots", "field": "Owner", "target": "Tommen I Baratheon", "edge_type": "OWNS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Boremund Harlaw", "field": "Issue", "target": "3 sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Borys Baratheon", "field": "Issue", "target": "Issue", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Boy", "field": "Father", "target": "Husband", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Braavos", "field": "Religion", "target": "Mixed religions", "edge_type": "WORSHIPS"}
+{"rule": "R8", "reason": "self-loop", "page": "Brandon Norrey", "field": "Issue", "target": "Brandon Norrey", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Brandon Stark", "field": "Died", "target": "Great Hall", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Brandon Stark (son of Artos)", "field": "Issue", "target": "Children", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Brandon Stark (the Boisterous)", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Brandon Stark (the Daughterless)", "field": "Issue", "target": "A daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Brass-seller", "field": "Spouse", "target": "Unknown number of wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Braxton Beesbury", "field": "Issue", "target": "Bastard in the Reach", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Braxton Beesbury", "field": "Issue", "target": "Bastard in King's Landing", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Brogg", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Brude", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Bryen Caron", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Brynden Tully", "field": "Father", "target": "Tully", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Byam Flint", "field": "Allegiances", "target": "House Flint", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Byan Votyris", "field": "Title", "target": "Merchant Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Captain of the Myraham", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Caraxes", "field": "Born", "target": "In before 72 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cassana Estermont", "field": "Born", "target": "~225\u2013250 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cassella Vaith", "field": "Father", "target": "Lord Vaith", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Casso Mogat", "field": "Culture", "target": "Mixed", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Celia Tully", "field": "Father", "target": "Tully", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Chella", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Choq Choq", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Choq Choq", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "City Watch of King's Landing", "field": "Seat", "target": "East Barracks", "edge_type": "SEAT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "City Watch of King's Landing", "field": "Seat", "target": "West Barracks", "edge_type": "SEAT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "City Watch of King's Landing", "field": "Seat", "target": "Red Keep Barracks", "edge_type": "SEAT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Clarice Osgrey", "field": "Title", "target": "Mistress of the Queen's household", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Clarice Osgrey", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Clegane (father of Gregor and Sandor)", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Clegane (founder)", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Clement", "field": "Title", "target": "Brother", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cleon", "field": "Spouse", "target": "At least four wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Cleon", "field": "Issue", "target": "Three daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cley Cerwyn", "field": "Born", "target": "Cerwyn", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Colin Florent", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Corenna Swann", "field": "Born", "target": "~233\u2013237 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Corenna Swann", "field": "Died", "target": "~245\u2013249 AC", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Corwyn Corbray", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cotter Pyke", "field": "Title", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Craghas Drahar", "field": "Title", "target": "Prince-admiral", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Craster", "field": "Spouses", "target": "14 other wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cregan Karstark", "field": "Spouses", "target": "1: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cregan Karstark", "field": "Spouses", "target": "2: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Crunch", "field": "Died", "target": "Yunkish", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Cyrelle Tarbeck", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Cyrenna Swann", "field": "Born", "target": "~196\u2013237 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Daario Naharis", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Daella Targaryen (daughter of Maekar I)", "field": "Issue", "target": "Issue", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Daemion Targaryen", "field": "Father", "target": "Aerys Targaryen", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Daena (mummer)", "field": "Allegiance", "target": "Gate", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Daenerys Targaryen (daughter of Aegon IV)", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Daeron I Targaryen", "field": "Issue", "target": "None", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Daeron Vaith", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Dagon Greyjoy", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Dale Seaworth", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Dalton Greyjoy", "field": "Spouses", "target": "Lannister of Lannisport", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Damon Hightower", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Dancer", "field": "Died", "target": "In 299 AC, Winterfell", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Danelle Lothston", "field": "Successor", "target": "Lord Whent", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Danny Flint", "field": "Allegiances", "target": "House Flint", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Darke (Seven Swords)", "field": "Spouse", "target": "Unknown husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Darry", "field": "Ruler", "target": "Lord Darry", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Davos Dayne", "field": "Issue", "target": "A son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Delonne Allyrion", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Denys Arryn", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Denys Drumm", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Denys Mallister", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Denys Mallister", "field": "Father", "target": "Lord Mallister", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Denys Swann", "field": "Born", "target": "~64 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Denzo D'han", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Derrick Fossoway", "field": "Allegiances", "target": "House Fossoway", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Desmond Manderly", "field": "Titles", "target": "Lord Marshal of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Devyn Sealskinner", "field": "Title", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Dhako", "field": "Spouse", "target": "Unknown wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Dhako", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Donel Greyjoy", "field": "Mother", "target": "Stonetree", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Doniphos Paenymion", "field": "Allegiance", "target": "Elephants", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Donnel Drumm", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Donnel Hightower", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Dorian Hightower", "field": "Issue", "target": "Children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Dorna Swyft", "field": "Born", "target": "~244\u2013261 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Draper's wife", "field": "Spouse", "target": "Unnamed husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Dreamfyre", "field": "Born", "target": "In or shortly before 32 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Drinkwater twins", "field": "Father", "target": "Ser Drinkwater", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Drogo", "field": "Died", "target": "Dothraki sea, Essos", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Duncan the Tall", "field": "Issue", "target": "At least one son or daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Dwarf brother", "field": "Title", "target": "Brother", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Dyanna Dayne", "field": "Born", "target": "~149\u2013179 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Dywen Shell", "field": "Spouse", "target": "Wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Eddara Tallhart", "field": "Title", "target": "Lady of Torrhen's Square", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Edmure Tully", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Edmyn Tully", "field": "Issue", "target": "Three daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Edric Dayne", "field": "Father", "target": "Lord Dayne", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Elaena Targaryen (daughter of Gaemon)", "field": "Issue", "target": "Aerys Targaryen", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Elenda Baratheon", "field": "Titles", "target": "Lady Regent", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Elenda Baratheon", "field": "Born", "target": "~79\u201397 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Elinor Costayne", "field": "Issue", "target": "Three sons by Ser Theo", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Elinor Costayne", "field": "Issue", "target": "Stillborn son by King Maegor", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ella Lannister", "field": "Born", "target": "~204\u2013261 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Elston Tully", "field": "Died", "target": "~400 BC", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Emmett", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Emmon Cuy", "field": "Born", "target": "Sunflower Hall", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Erich Durrandon (Kin-Killer)", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Estermont (cousin of Robert)", "field": "Spouse", "target": "Deceased husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Euron Greyjoy", "field": "Predecessor", "target": "Balon IX Greyjoy", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Euron Greyjoy", "field": "Heir", "target": "None", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Eustace Brune", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Eustace Hightower", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Eustace Hightower", "field": "Issue", "target": "Children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ezzara", "field": "Title", "target": "Blue Grace", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Faith Militant uprising", "field": "Battles", "target": "Battle of Stonebridge", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Faith Militant uprising", "field": "Battles", "target": "Ambush at the Wendwater", "edge_type": "FIGHTS_IN"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Falia Flowers", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Fawnton", "field": "Ruler", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Fern", "field": "Issue", "target": "At least one child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Fight at the Bridge of Skulls", "field": "Conflict", "target": "Conflict Beyond the Wall", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Fight at the Fist", "field": "Conflict", "target": "Conflict beyond the Wall", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Florence Fossoway", "field": "Allegiances", "target": "House Fossoway", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Florys the Fox", "field": "Spouse", "target": "Three husbands", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Fogo", "field": "Allegiance", "target": "Khal Ogo's khalasar", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Forrest Frey", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Fralegg the Strong", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Fredo Rogare", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gareth Clifton", "field": "Issue", "target": "Twelve children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Garlan Tyrell", "field": "Allegiances", "target": "House Tyrell of Highgarden", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Garland II Gardener", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Garmund Hightower", "field": "Issue", "target": "Six daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Garon Baratheon", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Garon Baratheon", "field": "Issue", "target": "Issue", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Garrison Fowler", "field": "Heir", "target": "Unknown", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Garrison Fowler", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Garth VII Gardener", "field": "Successor", "target": "A great-grandson", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Garth VII Gardener", "field": "Died", "target": "Unknown", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Garth VII Gardener", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Garth VII Gardener", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Garth X Gardener", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Garth the Gardener", "field": "Issue", "target": "Issue", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "George R. R. Martin", "field": "Born", "target": "September 20", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "George R. R. Martin", "field": "Born", "target": "Bayonne, New Jersey", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerald Gower", "field": "Allegiances", "target": "King's men", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerold Grafton (king)", "field": "Spouses", "target": "1: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerold Grafton (king)", "field": "Spouses", "target": "2: A daughter of King Osgood", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Gerold Grafton (king)", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Gerold Grafton (king)", "field": "Issue", "target": "A child", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Gerold III Lannister", "field": "Heir", "target": "A daughter", "edge_type": "HEIR_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerold III Lannister", "field": "Successor", "target": "Joffrey Lydden", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerold III Lannister", "field": "Issue", "target": "A single daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Gerrick Kingsblood", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerrick Kingsblood", "field": "Issue", "target": "Eldest daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerrick Kingsblood", "field": "Issue", "target": "Second daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerrick Kingsblood", "field": "Issue", "target": "Youngest daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gerris Drinkwater", "field": "Father", "target": "Ser Drinkwater", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Gillam", "field": "Title", "target": "Brother", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gilliane Glover", "field": "Born", "target": "~57\u201396 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Glendon Hewett", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "God-on-Earth", "field": "Predecessor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Godric Borrell", "field": "Issue", "target": "At least two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gormond Drumm", "field": "Issue", "target": "Hundred sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gowen Baratheon", "field": "Father", "target": "Baratheon", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Gowen Baratheon", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gregor Clegane", "field": "Spouse", "target": "Three unknown wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Grey Ghost", "field": "Owner", "target": "None", "edge_type": "OWNS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Grey King", "field": "Issue", "target": "A hundred sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Grover Tully", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Gwynesse Harlaw", "field": "Spouse", "target": "Deceased husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gylo Rhegan", "field": "Titles", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Gylo Rhegan", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Haegon I Blackfyre", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Hagen the Horn", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Halder", "field": "Father", "target": "Quarryman", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Harlan Tyrell", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Harlan Tyrell", "field": "Died", "target": "Dornish desert", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Harlon Greyjoy", "field": "Mother", "target": "Stonetree", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Harlon the Hunter", "field": "Spouse", "target": "A woods witch", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Harren Half-Hoare", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Harren Hoare", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Harren Hoare", "field": "Issue", "target": "At least four sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Harwin Strong", "field": "Titles", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Harys Haigh", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Harys Swyft", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Hazel Harte", "field": "Born", "target": "~75\u2013115 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Helman Tallhart", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Herbert Bolling", "field": "Died", "target": "Mouth of the Blackwater Rush", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Herndon of the Horn", "field": "Spouse", "target": "A woods witch", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Herrock Kenning", "field": "Issue", "target": "Issue", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "High King of the Vale, the Fingers, and the Mountains of the Moon", "field": "Region", "target": "Vale", "edge_type": "REGION_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Hizdahr zo Loraq", "field": "Titles", "target": "Scion", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Hizdahr zo Loraq", "field": "Titles", "target": "Octarch", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Hizdahr zo Loraq", "field": "Issue", "target": "Bastard daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Hizdahr zo Loraq", "field": "Issue", "target": "Bastard son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Hoarfrost Umber", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Holy Hundred", "field": "Allegiance", "target": "House Baratheon of Storm's End", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Horton Redfort", "field": "Spouse", "target": "Three wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Hoster Tully", "field": "Father", "target": "Tully", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Hot Pie", "field": "Mother", "target": "A baker", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Hotho Harlaw", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Algood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Amber", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Appleton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ashford", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ashwood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Baelish", "field": "Seats", "target": "Unnamed tower", "edge_type": "SEAT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Baelish", "field": "Founder", "target": "A hedge knight", "edge_type": "FOUNDED"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ball", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Baratheon of Dragonstone", "field": "Head", "target": "Stannis I Baratheon", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Baratheon of King's Landing", "field": "Head", "target": "Tommen I Baratheon", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Belgrave", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Belgrave", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bettley", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bigglestone", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Blackbar", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Blackberry", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Blackfyre", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Blackfyre", "field": "Founder", "target": "Daemon Blackfyre", "edge_type": "FOUNDED"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Blackmyre", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Blacktyde", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Blanetree", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Blount", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Boggs", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Boggs (north)", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bole", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bolling", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Bolton of Winterfell", "field": "Overlord", "target": "House Bolton of the Dreadfort", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "House Borrell", "field": "Region", "target": "Three Sisters", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bourney", "field": "Seat", "target": "Unknown", "edge_type": "SEAT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bourney", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Branch", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Breakstone", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Briar", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Briar", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bridges", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Brook", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Brook", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Broom", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Broome", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Brownhill", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Brownhill", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Buckwell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bullock", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Burley", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Burley", "field": "Titles", "target": "The Burley", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Burley", "field": "Titles", "target": "Lord Burley", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bush", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bush", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bushy", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Butterwell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Byrch", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Bywater", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cafferen", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cargyll", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Caron", "field": "Overlords", "target": "House Baratheon of Storm's End", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Casterly", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cave", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Chambers", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Charlton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Chelsted", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Chester", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Clegane", "field": "Head", "target": "Presumed extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cobb", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cockshaw", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Codd", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cole", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Condon", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Conklyn", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cordwayner", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Cox", "field": "Heir", "target": "Quincy's eldest son", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Crabb", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Crane", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cray", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Crayne", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cressey", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Crowl", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cupps", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Cupps", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Dargood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Darke", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Darklyn", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Darkwood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Deddings", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Doggett", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Dondarrion", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Dondarrion", "field": "Founder", "target": "Unnamed messenger", "edge_type": "FOUNDED"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Donniger", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Donniger", "field": "Region", "target": "Vale", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Drinkwater", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Drox", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Dryland", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Dunn", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Durrandon", "field": "Heir", "target": "Extinct", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Durwell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Dutton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Edgerton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Egen", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Elesham", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Elesham", "field": "Region", "target": "Vale", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Erenford", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Falwell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Farring", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Farrow", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Farrow", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Fell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Fell", "field": "Overlords", "target": "House Baratheon of Storm's End", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Fenn", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ferren", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Fisher", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Fisher of the Stony Shore", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Flint of Breakstone Hill", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Flint of Flint's Finger", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Flint of the mountains", "field": "Titles", "target": "Lord Flint", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Follard", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Foote", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Footly", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Forrester", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Forrester (Telltale)", "field": "Seat", "target": "Ironrath", "edge_type": "SEAT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Forrester (Telltale)", "field": "Head", "target": "Rodrik Forrester", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Forrester (Telltale)", "field": "Head", "target": "Asher Forrester", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Forrester (Telltale)", "field": "Titles", "target": "Ironrath", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Forrester (Telltale)", "field": "Heir", "target": "Ryon Forrester", "edge_type": "HEIR_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Forrester (Telltale)", "field": "Founder", "target": "Gerhard Forrester", "edge_type": "FOUNDED"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Fossoway of Cider Hall", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Fossoway of New Barrel", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Foxglove", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Foxglove", "field": "Region", "target": "Southern", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Frost", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Gardener", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Garner", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Gaunt", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Goodbrother of Corpse Lake", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Goodbrother of Crow Spike Keep", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Goodbrother of Downdelving", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Goodbrother of Orkmont", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Goode", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Goode", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Gower", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Graves", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Greengood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Greenhill", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Greenhill", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Greenwood", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Grell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Grey", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Greyiron", "field": "Overlord", "target": "Extinct", "edge_type": "OVERLORD_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Greyjoy", "field": "Head", "target": "Euron III Greyjoy", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Greystark", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Groves", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Groves", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hamell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Harclay", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Harclay", "field": "Titles", "target": "The Harclay", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Harclay", "field": "Titles", "target": "Lord Harclay", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hardy", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Harlaw", "field": "Cadet branches", "target": "Harlaws of Grey Garden", "edge_type": "CADET_BRANCH_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Harlaw", "field": "Cadet branches", "target": "Harlaws of Harlaw Hall", "edge_type": "CADET_BRANCH_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Harlaw", "field": "Cadet branches", "target": "Harlaws of Harridan Hill", "edge_type": "CADET_BRANCH_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Harlaw", "field": "Cadet branches", "target": "Harlaws of the Tower of Glimmering", "edge_type": "CADET_BRANCH_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Harroway", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Harte", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hastwyck", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hawick", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hawthorne", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Herston", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hersy", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hewett", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hoare", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hollard", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Holt (Dorne)", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Holt (Dorne)", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hook", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Horpe", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hull", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hull", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Humble", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hunt", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Hutcheson", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Inchfield", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ironsmith", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Justman", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Keath", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Kellington", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Kidwell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Knott", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Knott", "field": "Titles", "target": "The Knott", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Knott", "field": "Titles", "target": "Lord Knott", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Kyndall", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ladybright", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lake (Dorne)", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lake (Dorne)", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Langward", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lannett", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lannister of Lannisport", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lanny", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lansdale", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lansdale", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lantell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Largent", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Leek", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Leek", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Leygood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Liddle", "field": "Titles", "target": "Lord Liddle", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lightfoot", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lipps", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lolliston", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Long", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "House Longthorpe", "field": "Region", "target": "Three Sisters", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Longwaters", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lonmouth", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lothston", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lowther", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Lyberr", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Magnar", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Mallery", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Manderly", "field": "Titles", "target": "Lord Marshal of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Mandrake", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Mandrake", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Manning", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Marsh", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Massey", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Melcolm", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Middlebury", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Mollen", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Moore", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Moss", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Mudd", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Musgood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Myatt", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Nayland", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Netley", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Norcross", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Norrey", "field": "Titles", "target": "Lord Norrey", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Norridge", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Nutt", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Oldflowers", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Orme", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Osgrey", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Osgrey of Leafy Lake", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Osgrey of Leafy Lake", "field": "Overlord", "target": "House Osgrey of Standfast", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Overton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Parren", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Payne", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Peat", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Peckledon", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Pemford", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Penny", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Penny", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Perryn", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Polander", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Polander", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Pommingham", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Poole", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Potter", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Potter", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Pryor", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Pryor", "field": "Region", "target": "Vale", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Pyle", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Pyne", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Qoherys", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Quagg", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rambton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rankenfell", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rankenfell", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Redbeard", "field": "Heir", "target": "Gerrick's son", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Redding", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Reyne", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rhysling", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Risley", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rodden", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Rogare", "field": "Ancestral weapon", "target": "Truth", "edge_type": "ANCESTRAL_WEAPON_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rogers", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rollingford", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Roote", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Rosby", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Roxton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ruskyn", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ruskyn", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ruthermont", "field": "Seat", "target": "Unknown", "edge_type": "SEAT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ruthermont", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ryder", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Ryger", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Sarsfield", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Sawyer", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Sawyer", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Scales", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Sharp", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Shawney", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Shell (Dorne)", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Shell (Dorne)", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Shepherd", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Shermer", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Shett of Gulltown", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Sloane", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Sparr", "field": "Head", "target": "Sparr", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Stackhouse", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Stane", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Stark", "field": "Titles", "target": "King of Winter/King in the North", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Staunton", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Stilwood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Stonehouse", "field": "Head", "target": "Stonehouse", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Stonetree", "field": "Head", "target": "Stonetree", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Straw", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Straw", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Strickland", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Strong", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Suggs", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Suggs", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "House Sunderland", "field": "Region", "target": "Three Sisters", "edge_type": "REGION_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Sunglass", "field": "Head", "target": "Sunglass", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Swygert", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Tarbeck", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Teague", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Terrick", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Thorne", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "House Torrent", "field": "Region", "target": "Three Sisters", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Towers of Harrenhal", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Toyne", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Trant", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Tudbury", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Turnberry", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Tyrell", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Tyrell of Brightwater Keep", "field": "Heir", "target": "None", "edge_type": "HEIR_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Tyrell of Brightwater Keep", "field": "Overlord", "target": "House Tyrell of Highgarden", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Uffering", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Umber", "field": "Head", "target": "Jon \"Greatjon\" Umber", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Vyrwel", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wade", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wade", "field": "Overlord", "target": "None", "edge_type": "OVERLORD_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wagstaff", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Warrick", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Warrick", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Waterman", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wayn", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Weatherwax", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Weatherwax", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Weaver", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Webber", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wells (Dorne)", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wells (north)", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wendwater", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wensington", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Westbrook", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Westford", "field": "Head", "target": "Mors Westford", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Whent", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Whitehill", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Whitehill (Telltale)", "field": "Seat", "target": "Highpoint", "edge_type": "SEAT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Whitehill (Telltale)", "field": "Head", "target": "Either Ludd or Torrhen", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Whitehill (Telltale)", "field": "Title", "target": "Lord of Highpoint", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Whitehill (Telltale)", "field": "Heir", "target": "Either Torrhen or Gryff", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Whitfield", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Whitfield", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wode", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Woodfoot", "field": "Head", "target": "Extinct", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Woodhull", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Woods", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Woodwright", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Woolfield", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wormwood", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wormwood", "field": "Region", "target": "Unknown", "edge_type": "REGION_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "House Wull", "field": "Titles", "target": "Lord Wull", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wydman", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wyl", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Wythers", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Yarwyck", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House Yelshire", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House of Merreq", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House of Pahl", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House of Yherizan", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "House of Zhak", "field": "Head", "target": "Unknown", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Howard Bullock", "field": "Allegiances", "target": "Free Company", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Howard Bullock", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Howd Wanderer", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Hubard Rambton", "field": "Issue", "target": "3 sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Hubert Arryn", "field": "Issue", "target": "Six sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Hugh Arryn", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Hugh Hammer", "field": "Race", "target": "Uncertain", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Humfrey Bracken", "field": "Spouse", "target": "Three wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Humfrey Hewett", "field": "Died", "target": "Hewett's castle", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Humfrey Hewett", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Huzhor Amai", "field": "Spouses", "target": "Gipp", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Illyrio Mopatis", "field": "Spouses", "target": "Cousin to the Prince of Pentos", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ironbelly", "field": "Title", "target": "Goodman", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Isembard Arryn", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Izembaro", "field": "Allegiance", "target": "The Gate", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jaenara Belaerys", "field": "Allegiance", "target": "Belaerys family", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Janos Slynt", "field": "Father", "target": "Unknown butcher", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jason Lannister", "field": "Issue", "target": "Cerelle Lannister", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jasper Arryn", "field": "Born", "target": "In or before ~208 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jasper Waynwood", "field": "Born", "target": "~239\u2013271 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jasper Waynwood", "field": "Died", "target": "~242\u2013275 AC", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jasper Wylde", "field": "Spouse", "target": "Four wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jasper Wylde", "field": "Issue", "target": "Twenty-nine children", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jax", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jayne Bracken", "field": "Mother", "target": "Jonos's first wife", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jayne Ladybright", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jena Dondarrion", "field": "Born", "target": "~131\u2013181 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Jeremy Hightower", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Arryn", "field": "Titles", "target": "Lady of the Eyrie", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Arryn", "field": "Titles", "target": "Lady Regent", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Arryn", "field": "Died", "target": "Motherhouse of Maris", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Arryn", "field": "Father", "target": "Arryn", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Farman", "field": "Issue", "target": "Twelve children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Marbrand", "field": "Born", "target": "~203\u2013230 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Nutt", "field": "Titles", "target": "River queen", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jeyne Nutt", "field": "Titles", "target": "Queen of the Rivers and the Hills", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jeyne Royce", "field": "Issue", "target": "Stillborn daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jeyne Westerling (wife of Maegor I)", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jhaqo", "field": "Allegiances", "target": "Jhaqo's khalasar", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Joanna Lannister", "field": "Died", "target": "Casterly Rock, the westerlands", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Joanna Swyft", "field": "Mother", "target": "Unknown", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jocasta Lannister", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jocelyn Stark", "field": "Born", "target": "~198\u2013227 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jocelyn Stark", "field": "Issue", "target": "Three daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Joffrey Baratheon", "field": "Successor", "target": "Tommen I Baratheon", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Joffrey Baratheon", "field": "Died", "target": "Great Hall", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Johanna Lannister", "field": "Issue", "target": "Cerelle Lannister", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jommo", "field": "Spouse", "target": "Four wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Jon Bettley", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jon Brightstone", "field": "Issue", "target": "At least a daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jon Bulwer", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jon Connington", "field": "Titles", "target": "Hand of the True King", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jon Heddle", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jon Hollard", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jon Myre", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Jon Roxton", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Jon Umber", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Jon Waters", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Jonelle Cerwyn", "field": "Born", "target": "Cerwyn", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Josua Massey", "field": "Issue", "target": "A son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Josua Massey", "field": "Issue", "target": "A daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Joy Penrose", "field": "Born", "target": "~187\u2013200 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Joyeuse Erenford", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Kaeth", "field": "Born", "target": "175 AC, 176 AC or 177 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Karlon Stark", "field": "Allegiances", "target": "House Stark of Winterfell", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Karlon Stark", "field": "Allegiances", "target": "House Stark of Karl's Hold", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Kella", "field": "Issue", "target": "Many children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Kermit Tully", "field": "Allegiances", "target": "Lads", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Khiara the Great", "field": "Spouses", "target": "YiTish consort", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Khiara the Great", "field": "Spouses", "target": "Lengii consort", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Kiera of Tyrosh", "field": "Born", "target": "~170\u2013197 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "King's Landing", "field": "Ruler", "target": "Tommen I Baratheon", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Kyleg of the Wooden Ear", "field": "Issue", "target": "At least one son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lady Buckler", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lady Caswell", "field": "Spouse", "target": "Lord Caswell", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lady Caswell", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lady Caswell", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lady Corbray", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lady Fell", "field": "Title", "target": "Lady of Felwood", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lady Stork", "field": "Allegiance", "target": "Gate", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lady Whiskers", "field": "Owner", "target": "Tommen I Baratheon", "edge_type": "OWNS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Laena Penrose", "field": "Born", "target": "~185\u2013198 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lancel Lannister", "field": "Allegiances", "target": "House Lannister of Casterly Rock", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lann the Clever", "field": "Issue", "target": "A hundred sons and a hundred daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lanna (Happy Port)", "field": "Allegiance", "target": "Happy Port", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lanna Lannister", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Larissa Velaryon", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lark", "field": "Born", "target": "Three Sisters", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Leathers", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lelia Lannister", "field": "Father", "target": "Lannister", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lem (Standfast)", "field": "Born", "target": "In or around 161 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Leo Lefford", "field": "Died", "target": "Red Fork of the Trident", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Leo Tyrell (Longthorn)", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Leonette Fossoway", "field": "Allegiances", "target": "House Fossoway", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Leonette Fossoway", "field": "Allegiances", "target": "House Tyrell of Highgarden", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lewys the Fishwife", "field": "Allegiances", "target": "King's men", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lo Bu", "field": "Successor", "target": "None, dynasty ended", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Loras Tyrell", "field": "Titles", "target": "Lord Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Ashford", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Blackwood (Aegon's Conquest)", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Bracken (Aerys II)", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Buckler", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Butterwell (grandfather of Ambrose)", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Butterwell (grandfather of Ambrose)", "field": "Issue", "target": "Three daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Caswell (Dance)", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Caswell (Dance)", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Costayne (Daeron II)", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lord Darry (Dance)", "field": "Issue", "target": "One son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lord Darry (Dance)", "field": "Issue", "target": "Other children", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Lord Dayne (father of Edric)", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lord Footly", "field": "Issue", "target": "One posthumous son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Frey", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Rosby", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Rosby", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lord Ryswell (Night's Watch)", "field": "Issue", "target": "Youngest son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Stokeworth", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lord Stokeworth", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lord Vyrwel", "field": "Title", "target": "Lord of Darkdell", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lord of Casterly Rock", "field": "Heir", "target": "Tommen I Baratheon", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Lord of Winterfell", "field": "Heir", "target": "None", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lorent Caswell", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lorent Tyrell (steward)", "field": "Mother", "target": "Gardener", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Loreon I Lannister", "field": "Issue", "target": "At least five sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lorimar Peake", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lucamore Strong", "field": "Spouse", "target": "Three wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lucamore Strong", "field": "Issue", "target": "Sixteen children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lucas Codd", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lucos Chyttering", "field": "Father", "target": "Lord Chyttering", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Luthor Tyrell", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lyarra Stark", "field": "Born", "target": "~215 AC - 250 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lymond Hightower", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lymond Lychester", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lynora Hill", "field": "Mother", "target": "Unknown serving girl", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Lyonel Baratheon", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lyonel Baratheon", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lyonel Corbray", "field": "Spouses", "target": "A merchant's daughter", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lyonel Corbray", "field": "Issue", "target": "Sickly babe", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lyonel Corbray", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lyonel Hightower", "field": "Issue", "target": "6 children", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lyonel Strong", "field": "Spouses", "target": "1: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lyonel Strong", "field": "Spouses", "target": "2: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lyonel Strong", "field": "Spouses", "target": "3: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Lysa Arryn", "field": "Titles", "target": "Lady Regent", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Lysaro Rogare", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mace Tyrell", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Mad Huntsman", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Maegelle Frey", "field": "Born", "target": "~250\u2013268 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Maggy the Frog", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Maggy the Frog", "field": "Issue", "target": "Other child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mago", "field": "Allegiances", "target": "Jhaqo's khalasar", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Manfred Hightower (Aegon's Conquest)", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Manfred Hightower (son of Addam)", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Manfrey Martell", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Margaery Tyrell", "field": "Titles", "target": "Queen Consort", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Marianne Vance", "field": "Born", "target": "~262\u2013290 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Marilda of Hull", "field": "Father", "target": "A shipwright", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Maris (Mother)", "field": "Title", "target": "Mother", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Maris the Maid", "field": "Title", "target": "Queen of the High Tower", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Marna Locke", "field": "Born", "target": "~178\u2013238 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Maron Botley", "field": "Issue", "target": "Three sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Maron Greyjoy", "field": "Father", "target": "Balon IX Greyjoy", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Maron Martell", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Marq Farman", "field": "Father", "target": "Lord Farman", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Marro", "field": "Allegiance", "target": "Gate", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Martyn Cassel", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Mary Mertyns", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Marya Seaworth", "field": "Father", "target": "A carpenter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Masha Heddle", "field": "Died", "target": "Crossroads inn", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mathis Rowan", "field": "Issue", "target": "One daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Mathos II Arryn", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mathos Mallarawan", "field": "Spouse", "target": "Unnamed wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Matteno Orthys", "field": "Allegiance", "target": "House Orthys", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Matthos Tyrell", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Maynard Holt", "field": "Allegiances", "target": "House Holt", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mazor Alexi", "field": "Culture", "target": "Sarnori", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mebble", "field": "Title", "target": "Understeward", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Medger Cerwyn", "field": "Born", "target": "Cerwyn", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Medrick Manderly", "field": "Titles", "target": "Lord Marshal of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Megette", "field": "Born", "target": "~106\u2013143 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Melessa Florent", "field": "Born", "target": "~235\u2013271 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Meleys", "field": "Born", "target": "In before 75 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Melisandre", "field": "Allegiances", "target": "Faith of R'hllor", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Meralyn", "field": "Allegiance", "target": "Happy Port", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Mern IX Gardener", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Miller's wife from Acorn Water", "field": "Issue", "target": "Two young sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Moredo Prestayn", "field": "Title", "target": "Tradesman-Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Morna White Mask", "field": "Title", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Morna White Mask", "field": "Issue", "target": "A son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Moro (Century of Blood)", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Morosh the Myrman", "field": "Title", "target": "Admiral", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Mors Martell", "field": "Issue", "target": "Four daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Mors Umber", "field": "Spouse", "target": "Deceased wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Mors Umber", "field": "Issue", "target": "Deceased sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Mors Umber", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Moryn Tyrell", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Motho", "field": "Allegiance", "target": "Khal Motho's khalasar", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mutiny at Castle Black", "field": "Conflict", "target": "Conflict beyond the Wall", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mutiny at Craster's Keep", "field": "Conflict", "target": "Conflict beyond the Wall", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Mycah", "field": "Father", "target": "A butcher", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Myranda Royce", "field": "Titles", "target": "Acting Lady of the Gates of the Moon", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Myranda Royce", "field": "Mother", "target": "Deceased", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Myranda Royce", "field": "Spouse", "target": "Deceased husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Narbert", "field": "Titles", "target": "Brother", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nate", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Nella", "field": "Issue", "target": "Six sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Nestor Royce", "field": "Spouse", "target": "Deceased wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nyessos Vhassar", "field": "Allegiance", "target": "Elephants", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nymella Toland", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nymeria", "field": "Heir", "target": "Eldest daughter", "edge_type": "HEIR_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nymeria", "field": "Successor", "target": "Eldest daughter", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nymeria", "field": "Issue", "target": "With Mors Martell: Four daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nymeria", "field": "Issue", "target": "With Davos Dayne: Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Nymeria Sand", "field": "Mother", "target": "Volantene noblewoman", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Nymor Martell", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Oberyn Martell", "field": "Race", "target": "\"Salty\" Dornishman", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ogo", "field": "Allegiance", "target": "Khal Ogo's khalasar", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Old Empire of Ghis", "field": "Religion", "target": "Mixed", "edge_type": "WORSHIPS"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Old Nan", "field": "Issue", "target": "Two sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Old Nan", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Olyvar Martell", "field": "Mother", "target": "Princess Martell", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Olyver Bracken", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Omer Blackberry", "field": "Allegiances", "target": "King's men", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Onqo", "field": "Issue", "target": "At least one son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Order of the Green Hand", "field": "Allegiance", "target": "Kings of the Reach", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Orryn Baratheon", "field": "Spouse", "target": "Daughter of the Archon of Tyrosh", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Orryn Baratheon", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Oscar Tully", "field": "Allegiances", "target": "Lads", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Osgood III Shett", "field": "Heir", "target": "A son", "edge_type": "HEIR_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Osgood III Shett", "field": "Issue", "target": "A son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Osgood III Shett", "field": "Issue", "target": "A daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Osmynd", "field": "Died", "target": "Long before 299 AC", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Osric Umber", "field": "Issue", "target": "Child", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Otto Hightower", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Owen Merryweather", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Patrek Vance", "field": "Born", "target": "~264\u2013294 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Penny", "field": "Born", "target": "281 AC, 282 AC or 283 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Perceon III Gardener", "field": "Successor", "target": "Gwayne Gardener", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Perceon III Gardener", "field": "Issue", "target": "Gwayne Gardener", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Pereno Pendaerys", "field": "Allegiance", "target": "House Pendaerys", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Perra Royce", "field": "Born", "target": "~187\u2013222 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Petyr Piper", "field": "Issue", "target": "At least one child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Pilman", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Pinchbottom Pate", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Pono", "field": "Allegiances", "target": "Pono's khalasar", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Pranelis", "field": "Allegiance", "target": "House Pranelis", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Princess of Dorne (mother of Doran)", "field": "Born", "target": "~205\u2013236 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Pyke", "field": "Ruler", "target": "Euron III Greyjoy", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Pykewood Peake", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Pynto", "field": "Allegiance", "target": "Pynto's", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Qhorin Volmark", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Qos", "field": "Culture", "target": "Myrhish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Quellon Greyjoy", "field": "Spouses", "target": "Stonetree", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Quellon Greyjoy", "field": "Spouses", "target": "Lady Piper", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Quence", "field": "Allegiance", "target": "Ship", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Quentin Tyrell", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Quenton Greyjoy", "field": "Mother", "target": "Stonetree", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Quenton Hightower", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Quenton Qoherys", "field": "Issue", "target": "Two sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Quentyn Ball", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Quincy Cox", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Quincy Cox", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Quort", "field": "Spouse", "target": "Unknown wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Quort", "field": "Issue", "target": "One child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Racallio Ryndoon", "field": "Allegiances", "target": "Kingdom of the Three Daughters", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Racallio Ryndoon", "field": "Allegiances", "target": "Kingdom of the Narrow Sea", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Racallio Ryndoon", "field": "Spouse", "target": "Dozen wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ragnor Pyke", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ramsay Snow", "field": "Allegiances", "target": "House Bolton of the Dreadfort", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rawney", "field": "Title", "target": "Brother", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Raymun Darry", "field": "Father", "target": "Lord Darry", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Raymun Redbeard", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Raymund Mallery", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Red Oarsman", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Renfred Rykker", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Renfred Rykker", "field": "Issue", "target": "Children", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Rhae Targaryen", "field": "Issue", "target": "Issue", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rhaena Targaryen (daughter of Daemon)", "field": "Issue", "target": "Six daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rhaenys Targaryen (daughter of Aemon)", "field": "Born", "target": "7 day of the 7 moon of 74 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rhea Royce", "field": "Title", "target": "Lady of Runestone", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ricasso", "field": "Title", "target": "Seneschal", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rickard Stark", "field": "Died", "target": "Great Hall", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Robard Cerwyn", "field": "Issue", "target": "Child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Robert's Rebellion", "field": "Battles", "target": "Battle at the Mander", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Robert I Baratheon", "field": "Successor", "target": "Joffrey I Baratheon", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Robert I Baratheon", "field": "Lovers", "target": "Estermont cousin", "edge_type": "LOVER_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Robin Penrose", "field": "Born", "target": "~184\u2013197 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rodrik Cassel", "field": "Spouse", "target": "Three wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rodrik Flint", "field": "Allegiances", "target": "House Flint", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rodrik Greyjoy", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rodrik Greyjoy", "field": "Father", "target": "Balon IX Greyjoy", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rodrik Greyjoy (son of Dalton)", "field": "Titles", "target": "Court fool", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rodrik Harlaw", "field": "Spouse", "target": "Deceased wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rodrik Harlaw", "field": "Issue", "target": "Two deceased sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rodrik Stark", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rodrik Stark (son of Beron)", "field": "Died", "target": "In or after ~214 AC", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rogar Bolton", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rohanne Webber", "field": "Titles", "target": "Lady of Coldmoat", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rohanne of Tyrosh", "field": "Born", "target": "~141\u2013172 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Roland I Arryn", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Rolland Uffering", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ronard Storm", "field": "Spouse", "target": "22 wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ronard Storm", "field": "Issue", "target": "99 sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Ronnal Baratheon", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Ronnal Baratheon", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Ronnal Baratheon", "field": "Issue", "target": "Two daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rosamund Lannister", "field": "Allegiances", "target": "House Lannister of Casterly Rock", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Roslin Frey", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Runcel Hightower", "field": "Issue", "target": "Bastard son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Rupert Falwell", "field": "Died", "target": "Great Fork of the Blackwater", "edge_type": "DIED_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ryman Frey", "field": "Born", "target": "~245\u2013249 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Ryman Frey", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Sabitha Frey", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Saffron", "field": "Issue", "target": "Unborn bastard", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sailor's Wife", "field": "Allegiance", "target": "Happy Port", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Salladhor Saan", "field": "Spouse", "target": "Wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sallor the Bald", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sam Stoops", "field": "Spouse", "target": "Unnamed wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Samantha Tarly", "field": "Issue", "target": "Six children", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Sarella Sand", "field": "Race", "target": "Mixed", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Second Blackfyre Rebellion", "field": "Conflict", "target": "Blackfyre Rebellions", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Second Dornish War", "field": "Battles", "target": "Battle at Stonehelm", "edge_type": "FIGHTS_IN"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Second Dornish War", "field": "Battles", "target": "Siege of Nightsong", "edge_type": "FIGHTS_IN"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Selwyn Tarth", "field": "Spouse", "target": "Deceased wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ser Pounce", "field": "Owner", "target": "Tommen I Baratheon", "edge_type": "OWNS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sharako Lohar", "field": "Title", "target": "Admiral", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sharis Footly", "field": "Issue", "target": "1 son of disputed paternity", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Sharna", "field": "Spouse", "target": "Husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Shella Whent", "field": "Issue", "target": "Four sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Shella Whent", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Sigfryd Harlaw", "field": "Issue", "target": "Issue", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sigorn", "field": "Born", "target": "Thenn", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Silvario Pendaerys", "field": "Allegiance", "target": "House Pendaerys", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Silver Denys", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Simon Staunton", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Simon Strong", "field": "Issue", "target": "At least one son or daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Skahaz mo Kandaq", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Snapper", "field": "Allegiance", "target": "Gate", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Soren Shieldbreaker", "field": "Title", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Soren Shieldbreaker", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Stannis Baratheon", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Steely Pate", "field": "Title", "target": "Goodman", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Steffon Frey", "field": "Born", "target": "~260\u2013280 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Steffon Sunderland", "field": "Issue", "target": "Two sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Steffon Swyft", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Styr", "field": "Allegiance", "target": "Thenn", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Styr", "field": "Born", "target": "Thenn", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sunspear", "field": "Ruler", "target": "Doran Nymeros Martell", "edge_type": "RULES"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sweetfoot", "field": "Owners", "target": "Henly", "edge_type": "OWNS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Sylwa Paege", "field": "Born", "target": "~236\u2013275 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Temmo", "field": "Spouse", "target": "Wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Temmo", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Teora Kyndall", "field": "Born", "target": "~157\u2013197 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Teora Kyndall", "field": "Issue", "target": "Cerelle Lannister", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Teora Toland", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "The Stonehouse", "field": "Title", "target": "Lord Stonehouse", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Theo Bolling", "field": "Issue", "target": "Three sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Theo Tyrell", "field": "Titles", "target": "Lord Paramount of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Theomore Harlaw", "field": "Spouse", "target": "Six wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Theomore Harlaw", "field": "Issue", "target": "Three sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Theomore Harlaw", "field": "Issue", "target": "At least one more child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Theomore Manderly", "field": "Titles", "target": "Lord Marshal of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Theomore Manderly", "field": "Spouse", "target": "Four wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Theon Greyjoy", "field": "Lovers", "target": "Barth's wife", "edge_type": "LOVER_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Third Sword", "field": "Title", "target": "Third Sword of Braavos", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Thoros", "field": "Allegiances", "target": "Faith of R'hllor", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tigaro Moraqos", "field": "Allegiance", "target": "House Moraqos", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Timeon", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R8", "reason": "self-loop", "page": "Timett", "field": "Father", "target": "Timett", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Tom Tanglebeard", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tommen Baratheon", "field": "Predecessor", "target": "Joffrey I Baratheon", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Torghen Flint", "field": "Allegiance", "target": "First Flints", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Torghen Flint", "field": "Spouses", "target": "1: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Torghen Flint", "field": "Spouses", "target": "2: Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tormund", "field": "Titles", "target": "Mead-king", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tormund", "field": "Titles", "target": "Commander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Tormund", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Torone", "field": "Allegiance", "target": "House Torone", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Torreo Haen", "field": "Lover", "target": "Unknown mistress", "edge_type": "LOVER_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Torrhen Manderly", "field": "Titles", "target": "Lord Marshal of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Torrhen Manderly", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Torrhen Stark", "field": "Predecessor", "target": "Unknown", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Torrhen Stark", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Torwold Browntooth", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tregar Ormollen", "field": "Spouse", "target": "Unknown wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tremond Gargalen", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Triarchy", "field": "Religion", "target": "Mixed", "edge_type": "WORSHIPS"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Tristifer V Mudd", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tristimun", "field": "Allegiances", "target": "Sea watch", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Triston Farwynd", "field": "Allegiance", "target": "House Farwynd", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Triston Hightower", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Triston Sunderland", "field": "Issue", "target": "Seven sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Triston of Tally Hill", "field": "Allegiances", "target": "King's men", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Tya Lannister", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tyana Wylde", "field": "Born", "target": "~217\u2013261 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Tybolt Hetherspoon", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tybolt Lannister", "field": "Issue", "target": "Cerelle Lannister", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tymond Lannister", "field": "Father", "target": "Lord Lannister", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Tyrion Tanner", "field": "Father", "target": "Unknown", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tytos Lannister", "field": "Lovers", "target": "First mistress", "edge_type": "LOVER_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Tytos Lannister", "field": "Lovers", "target": "Second mistress", "edge_type": "LOVER_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Ulf White", "field": "Race", "target": "Uncertain", "edge_type": "CULTURE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Unwin Peake", "field": "Spouse", "target": "Three wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Urswyck", "field": "Title", "target": "Lieutenant", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Urswyck", "field": "Spouse", "target": "Deceased wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Valarr Targaryen", "field": "Issue", "target": "Stillborn sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Valena Toland", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Valyrian Freehold", "field": "Ruler", "target": "Archons", "edge_type": "RULES"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Valyrian Freehold", "field": "Religion", "target": "Mixed", "edge_type": "WORSHIPS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Varamyr", "field": "Issue", "target": "At least one son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Vardis Egen", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Vardis Egen", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Varys", "field": "Allegiance", "target": "Aegon VI Targaryen", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Victaria Tyrell", "field": "Issue", "target": "Son", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Victarion Greyjoy", "field": "Spouses", "target": "Unnamed", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Victarion Greyjoy", "field": "Issue", "target": "Stillborn daughter", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Victor Tyrell", "field": "Spouse", "target": "Unknown", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Violet", "field": "Spouse", "target": "Deceased husband", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Viserys Plumm", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Vogarro", "field": "Allegiance", "target": "Elephants", "edge_type": "SWORN_TO"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Vorian Dayne", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Walda Frey (daughter of Merrett)", "field": "Issue", "target": "Unborn child", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Walder Vance", "field": "Born", "target": "~263\u2013291 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Walgrave", "field": "Born", "target": "After 198 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Walter Brownhill", "field": "Issue", "target": "Sixteen children", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Walter Whent", "field": "Issue", "target": "Four sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Walter Whent", "field": "Issue", "target": "Daughter", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Walter Wyl", "field": "Title", "target": "Lord of Wyl", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Walton Frey", "field": "Born", "target": "~250\u2013268 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Warden of the Southern Marches", "field": "Region", "target": "Kingdom of the North", "edge_type": "REGION_OF"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Warg King", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Warg King", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Warg King", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wat (orphan)", "field": "Allegiance", "target": "Crossroads inn", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Weese", "field": "Title", "target": "Understeward", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Wendell Webber", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Wendell Webber", "field": "Issue", "target": "Daughters", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wendeyne", "field": "Allegiance", "target": "Gate", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wet Wat", "field": "Born", "target": "~191\u2013196 AC", "edge_type": "BORN_AT"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Wilbert", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Will Humble", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Willit", "field": "Title", "target": "Goodman", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Willit", "field": "Issue", "target": "Two sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wisewoman's daughter", "field": "Mother", "target": "A wisewoman", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wulfe One-Ear", "field": "Title", "target": "Captain", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wun Weg Wun Dar Wun", "field": "Race", "target": "Giant", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wyl of Wyl", "field": "Title", "target": "Lord of Wyl", "edge_type": "HOLDS_TITLE"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wylla Fenn", "field": "Born", "target": "~100\u2013183 AC", "edge_type": "BORN_AT"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Wyman Manderly", "field": "Titles", "target": "Lord Marshal of the Mander", "edge_type": "HOLDS_TITLE"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Wyman Manderly", "field": "Spouse", "target": "Deceased wife", "edge_type": "SPOUSE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Yandry", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ygon Oldfather", "field": "Spouse", "target": "Eighteen wives", "edge_type": "SPOUSE_OF"}
+{"rule": "R2", "reason": "noise-bare-kinship", "page": "Ygon Oldfather", "field": "Issue", "target": "Sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Yna", "field": "Allegiance", "target": "Happy Port", "edge_type": "SWORN_TO"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ynys Yronwood", "field": "Issue", "target": "2 sons", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Yorbert Royce", "field": "Died", "target": "101 AC, 102 AC or 103 AC", "edge_type": "DIED_AT"}
+{"rule": "R2", "reason": "noise-placeholder", "page": "Yorick V Yronwood", "field": "Successor", "target": "None", "edge_type": "SUCCEEDS"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Yorwyck VI Royce", "field": "Issue", "target": "At least one son", "edge_type": "PARENT_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Ysilla", "field": "Culture", "target": "Dornish", "edge_type": "CULTURE_OF"}
+{"rule": "R4", "reason": "target-unresolved", "page": "Zekko", "field": "Allegiance", "target": "Khal Zekko's khalasar", "edge_type": "SWORN_TO"}
