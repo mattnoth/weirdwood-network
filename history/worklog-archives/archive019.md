@@ -1,6 +1,6 @@
 # Worklog Archive 019
 
-> archive019 started — 1/5
+> archive019 — 2/5
 
 ---
 
@@ -34,3 +34,32 @@ Plate 5 — the single gated step that writes all staged edge-modeling work into
 **Follow-up TODOs:** (1) Display-bullet regeneration script — `## Edges` sections in node files are pre-Plate-5 state; graph-query.py works from edges.jsonl correctly, but human readers see stale bullets. (2) The 32 SUB_BEAT_OF without quoted evidence — decide between re-emit / quote backfill / Contract-6 exemption for structural edges. (3) 109 hub-review-queue entries — still in staging, defaults applied = none minted. (4) 2 deferred collision merges (conquest-of-dorne, tourney-at-maidenpool). (5) donal-noye↔mag mutual-kill — add reverse direction. (6) Post-Plate-5 backfill tracks A/B/C (~$25-75, ~300-850 edges) per `working/edge-modeling/post-plate5-backfill-design.md`.
 
 **What's next:** Matt's stated next track is "actually using the graph to do some validation" — use the merged graph to fact-check claims, run cross-character traversal queries, exercise the reified event hubs for the use-cases the design supported. No dedicated continue prompt yet; will draft one when Matt returns and we scope the validation conversation. The 6 follow-up TODOs above are non-blocking and can be picked up opportunistically. `graph/edges/edges.jsonl` is now LIVE at 4,757 rows; `events/` at 583 nodes.
+
+---
+
+### Session 88 — Plate 5 recap + validation track scoped + S87 endsession gap-fill (2026-06-09 → 2026-06-10)
+
+**Model:** Opus 4.7 (orchestrator + execution; no agents delegated). **Detail:** none (light session — wrap-up after S87 cutoff + design substance captured in the validation continue prompt). **Commits:** `cd1f362dc` (WIP gap-fill), this endsession commit.
+
+**Context:** S87 ended abruptly mid-endsession (chat got cut off after the Plate 5 commit landed). Matt returned, asked how Plate 5 went + what the `quoted_evidence` vs `evidence_quote` field-rename was about, then asked to scope the next track ("actually using the graph to do some validation") and to make a WIP commit + push for the missed endsession steps.
+
+**Wrap-up conversation:**
+- Plate 5 recap: `edges.jsonl` 3,811 → **4,757 (+946)**; `events/` 371 → 583 (+212); validator 4,725 kept / 32 dropped (SUB_BEAT_OF empty-evidence rows remain in JSONL as read-only audit); Red Wedding 2-hop smoke passes end-to-end.
+- `quoted_evidence` vs `evidence_quote`: same semantics (verbatim book quote grounding an edge); `evidence_quote` is canonical across the whole schema; `quoted_evidence` was a divergent name in Plate 4 cluster staging; fix-in-place during merge renamed 51 SUB_BEAT_OF rows (19 retained text, 32 got explanatory `plate5_evidence_note` for inference-only Pass-B/Pass-C emissions).
+
+**Validation track scoped:** Four modes — (1) capability validation (does the new structure work; 8 probe queries on reified event hubs); (2) canonical accuracy (fact-check vs. books; partially absorbed by Track A backfill); (3) agent grounding (the real project goal — agent with `graph-query.py` as a tool answers real ASOIAF questions); (4) surprise/discovery (aggregate queries impossible pre-Plate-5). Recommendation: Mode 1 first (cheapest, isolates the graph layer; misses route cleanly to the 6 post-Plate-5 follow-up TODOs or backfill Tracks A/B/C). Mode 3 is the real test but needs Mode 1 to settle first so debugging is tractable.
+
+**S87 endsession gap-fill (WIP commit `cd1f362dc`, pushed):**
+- `working/todos.md`: EDGE/EVENT MODELING entry flipped [~]→[x] "ALL PLATES SHIPPED INCLUDING PLATE 5 (S82-S87)"; added 6 post-Plate-5 follow-up TODOs (display bullets, 32 empty-quote SUB_BEAT_OF, 109 hub-review-queue, 2 deferred collisions, donal-noye↔mag mutual-kill reverse, backfill tracks A/B/C); replaced obsolete `→ continue:` links with new validation prompt.
+- `progress/continue-prompts/2026-06-09-graph-validation.md` (NEW): 4 modes, 8 Mode-1 probes, decision points listed, recommendation noted.
+- `working/edge-modeling/plate3-revalidation/` (NEW): S85-era artifacts (2 minted event nodes, role-edge staging, skipped clean dyads, supersede candidates) committed for the record.
+- `~/.claude/.../project_edge_modeling_reification_direction.md` (memory, outside repo): updated S84 status → S87 ship state with the 6-followup-TODO summary.
+
+**This endsession (additional):**
+- `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` DELETED — Plate 5 shipped, prompt obsolete.
+- `progress/continue-prompts/2026-06-05-edge-modeling-plate-4-haiku-disposition.md` KEPT — its 1,617-row re-bucketing under reify lens is still part of post-Plate-5 backfill Track B; `→ continue:` link re-added under that TODO in todos.md (was accidentally removed during gap-fill edit).
+- Session 83 (Edge-modeling Plates 0+1+2) archived to `history/worklog-archives/archive018.md` (archive018 now 2/5; co-located with S83-/tmp-paths).
+
+**Out of scope (preserved untouched):** Matt's IDE edits to `progress/continue-prompts/2026-06-08-alias-and-display-design.md`; scratch deletions; `Untitled 6.rtf` deletion; `scr` untracked file at repo root.
+
+**What's next:** → `progress/continue-prompts/2026-06-09-graph-validation.md` (**Opus 4.7** — design judgment in interpreting probe results; deterministic query work is `graph-query.py`). Matt picks Mode 1 vs straight-to-Mode-3.

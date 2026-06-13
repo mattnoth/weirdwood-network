@@ -260,9 +260,9 @@ persona), but persona-collapse is a judgment call.*
 
 These two remaps collapse an in-story *persona* onto the underlying person. They follow established project conventions (alias-resolver already canonicalizes them, impersonation-edges rule applies), but persona-collapse is a judgment call. The default can be overridden before `--apply`.
 
-- **`lady-stoneheart` → `catelyn-stark`** (1 row(s) affected)
+- **`lady-stoneheart` → `catelyn-stark`** (1 row(s) affected)  *(Matt 2026-06-12 S93: ACCEPTED — per impersonation-edges rule)*
   - `COMMANDS_IN lady-stoneheart → merrett-attempts-to-defend-his-innocence-in-the-red-wedding` (extractions/mechanical/asos/asos-epilogue.extraction.md)
-- **`abel` → `mance-rayder`** (1 row(s) affected)
+- **`abel` → `mance-rayder`** (1 row(s) affected)  *(Matt 2026-06-12 S93: ACCEPTED — per impersonation-edges rule)*
   - `COMMANDS_IN abel → holly-kills-first-guard` (extractions/mechanical/adwd/adwd-theon-01.extraction.md)
 
 ### 3b. Honorific-Strip Remaps (26 slugs / 33 rows, characters-only)
@@ -463,6 +463,8 @@ Q2 default for rows where the wiki gave no qualifier.*
 
 ## 8. YOUR-DECISIONS — Open Questions (11 items, spec §8)
 
+> **CLOSEOUT 2026-06-12 (Matt, S93 session):** All 11 decisions ACCEPTED AS DEFAULT. Both §3a semantic remaps (lady-stoneheart → catelyn-stark; abel → mance-rayder) ACCEPTED per impersonation-edges rule. Report is fully marked; the ship continue prompt (`progress/continue-prompts/2026-06-12-infobox-merge-ship.md`) is GO. Recommended model for the apply session: **Sonnet 4.6**.
+
 *The spec flagged 11 open questions. None block anything: every one has a
 decided-by-default answer already baked into the dry-run numbers above. If you do nothing,
 the defaults ship. Each item below: the question in one sentence → what the default does
@@ -477,7 +479,7 @@ line; the ship session reads this section.*
 - *If you override:* the parser and architecture.md keep the inverted directions; only
   future re-parses or doc readers would be misled.
 - *Recommendation (unchanged):* yes, fix FIELD_EDGE_MAP + architecture.md in the --apply session (CLAUDE.md rule 6: schema and architecture.md must not stay contradictory).
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **2. When the wiki gives no qualifier, what should the default qualifier be?**
 - *If you do nothing:* unqualified HOLDS_TITLE/SWORN_TO/SPOUSE_OF rows ship as
@@ -487,7 +489,7 @@ line; the ship session reads this section.*
   titles/allegiances/marriages are *currently held*, which over-claims for the wiki's
   many historical figures. Cheap to change before apply.
 - *Recommendation (unchanged):* default shipped (`unknown`). Change before --apply if preferred.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **3. What to do with the 43 ship-captaincy rows caught by the title contract?**
 - *If you do nothing:* rows like `aeron-greyjoy HOLDS_TITLE golden-storm` (a ship, i.e.
@@ -495,7 +497,7 @@ line; the ship session reads this section.*
 - *If you override:* nothing changes in this run; the alternative is queuing a small
   follow-up pass that retypes them to a future `CAPTAIN_OF`.
 - *Recommendation (unchanged):* default: quarantined. Future: retype to CAPTAIN_OF in a small follow-up pass.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **4. Accept 927 CULTURE_OF edges whose target is a region, not a culture node?**
 - *If you do nothing:* rows where the wiki used a region name as the culture ("Reach",
@@ -505,7 +507,7 @@ line; the ship session reads this section.*
 - *If you override:* hold those 927 rows out until `reachmen`/`crownlanders`-style
   culture nodes are minted and retargeted.
 - *Recommendation (unchanged):* default: merged as-is. Future: mint reachmen/crownlanders culture nodes.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **5. Accept wholesale quarantine of the 315 Result-field DEFEATS rows?**
 - *If you do nothing:* all 315 stay quarantined. The victor-extraction these rows needed
@@ -514,7 +516,7 @@ line; the ship session reads this section.*
 - *If you override:* nothing changes in this run; the alternative is queuing a curator
   pass that extracts the actual victor/defeated pairs from the result text.
 - *Recommendation (unchanged):* default: quarantined wholesale. Future: curator pass for victor-extraction.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **6. Let the `the-` strip resolve names the alias file marks "ambiguous"?**
 - *If you do nothing:* names like "The Citadel"/"The Wall" resolve by stripping the
@@ -523,7 +525,7 @@ line; the ship session reads this section.*
   candidate. 89 target rows + 4 orphan rows depend on this rung.
 - *If you override:* those 93 rows fall to unresolved (filtered / left orphaned).
 - *Recommendation (unchanged):* default: the-strip wins (exact-match only, no fuzzy).
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93; reaffirmed after clarification about 'the Wall' usage)*
 
 **7. Keep the honorific-strip rung in hygiene fix A?**
 - *If you do nothing:* the 26 slugs / 33 rows in §3b (`ser-jorah-mormont` →
@@ -532,7 +534,7 @@ line; the ship session reads this section.*
 - *If you override:* Fix A restricts to pure alias remaps (23 slugs / 35 rows) and the
   26 honorific slugs stay orphaned.
 - *Recommendation (unchanged):* default: included.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **8. Do anything with the 87 corroborations beyond logging them?**
 - *If you do nothing:* the 87 wiki rows that restate an existing Tier-1 book edge are
@@ -540,7 +542,7 @@ line; the ship session reads this section.*
 - *If you override:* apply time additionally stamps `corroborated_by: wiki-infobox` on
   the 87 matching Tier-1 edges — "the wiki agrees" recorded as metadata.
 - *Recommendation (unchanged):* default: log-only. Future: stamp at apply time.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **9. Accept quarantining the 24 individually-clean mirror rows (fact-key closure)?**
 - *If you do nothing:* the 24 R3e rows (see "fact key" in the glossary — e.g. Jaime's
@@ -550,7 +552,7 @@ line; the ship session reads this section.*
 - *If you override:* you can promote individual facts back per-fact from
   `quarantined.jsonl` (e.g. decide Jaime's paternity should merge with a qualifier).
 - *Recommendation (unchanged):* default: quarantine (conservative). Override per-fact from quarantined.jsonl.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **10. Accept the dedupe-conflict policy (qualified beats unqualified; conflicts quarantine)?**
 - *If you do nothing:* when the same fact appears qualified on one page and unqualified
@@ -560,7 +562,7 @@ line; the ship session reads this section.*
 - *If you override (alternative):* union both qualifiers into `wiki_qualifier` and merge
   anyway, never quarantining on conflict.
 - *Recommendation (unchanged):* default: qualified row beats unqualified; conflicting qualifiers quarantine.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93)*
 
 **11. Emit `evidence_book`/`evidence_chapter` as explicit nulls?**
 - *If you do nothing:* every merged edge carries both keys set to `null`. The keys exist
@@ -571,7 +573,7 @@ line; the ship session reads this section.*
   exactly one — a special case that changes meaning per-row; revisit only if per-row
   citations are ever re-parsed from the infobox HTML.
 - *Recommendation (unchanged):* default: null.
-- **Your answer:** [ ] accept default — [ ] override: ____________
+- **Your answer:** [x] accept default — [ ] override: ____________  *(Matt 2026-06-12 S93 — ship null now AND queue v2.1 per-fact citation backfill as a separate pass: harvest cite_ref anchors from infobox values, resolve to chapter slugs, populate evidence_chapter retroactively. NOT a blanket "we don't care" — explicit deferral until after Mode 3 dip lands. Food/dialog use cases are covered by Pass 1 extractions independently.)*
 
 ---
 

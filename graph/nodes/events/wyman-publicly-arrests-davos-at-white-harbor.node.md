@@ -11,7 +11,7 @@ evidence_chapters:
 
 # Wyman Publicly Arrests Davos at White Harbor
 
-Event node minted by Plate 3 full-corpus scan: Wyman Manderly publicly orders the arrest of Davos Seaworth in the Merman's Court at White Harbor ("Guards! Seize this man!"). The arrest is theatrical — staged to deceive Frey envoys and the Iron Throne while Wyman secretly allies with Davos and the Stark cause (revealed in ADWD Davos IV). Davos is held in comfortable Wolf's Den captivity; a substitute body is later executed in his place. (Note: sibling event `lord-wyman-orders-execution` is part of the same deception arc and queued for restructure review.)
+Beat 1 of the Wyman Manderly deception arc (`wyman-manderly-stages-fake-execution-of-davos`). Wyman publicly orders the arrest of Davos Seaworth in the Merman's Court at White Harbor ("Guards! Seize this man!"). The arrest is theatrical — staged to deceive Frey envoys and the Iron Throne while Wyman secretly allies with Davos and the Stark cause (revealed in ADWD Davos IV). Davos is held in comfortable Wolf's Den captivity; the staged execution order (beat 2, `wyman-publicly-orders-davos-execution`) and the substitute beheading (beat 3, `execution-of-davos-lookalike-at-white-harbor`) follow; the Frey small-council testimony (beat 4, `frey-witnesses-attest-davos-dead-at-small-council`) closes the deception loop and ransoms Wylis Manderly.
 
 ## Edges
 (populated by Plate 3 role-edge staging; merge at Plate 5)

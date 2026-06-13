@@ -292,7 +292,7 @@ Qualifier-optional (Tier 2): `BETROTHED_TO LOVER_OF KILLS CONTRACTED_WITH DECEIV
 | `characters/` | 3,925 | `character.human`, `character.dragon` | name, slug, aliases, born, died, culture, allegiance |
 | `houses/` | 556 | `organization.house` | name, slug, sigil, words, seat, head, overlord |
 | `locations/` | 1,097 | `place.location`, `place.region` | name, slug, ruler, region, defensive_features |
-| `events/` | 583 | `event.battle`, `event.incident`, `event.death`, `event.capture`, `event.wedding` | name, slug, type, location, participants |
+| `events/` | 585 | `event.battle`, `event.incident`, `event.death`, `event.capture`, `event.wedding`, `event.deception` (S93) | name, slug, type, location, participants |
 | `chapters/` | 344 | `meta.chapter` | book, chapter_number, pov_character, wiki_source |
 | `titles/` | 542 | `title` | name, slug, holders, succession |
 | `factions/` | 191 | `organization.faction`, `concept.culture` | name, slug, purpose, leadership, headquarters |

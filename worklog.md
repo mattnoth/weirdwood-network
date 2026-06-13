@@ -32,20 +32,20 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
-- Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,263** (events 583; excl. `_conflicts/` staging)
+- Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,518** (events 585; excl. `_conflicts/` staging)
 - Entity + chapter indexes: **all 21 categories** (S72)
-- Edge layer LIVE: **`graph/edges/edges.jsonl` = 4,760 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + 3 deception pilots). Node connectivity **14.7%**.
-- S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script + **dry-run complete** (`working/infobox-merge/dry-run-report-2026-06-12.md`). Expected post-merge: edges 21,766 / connectivity 71.0%.
+- Edge layer LIVE: **`graph/edges/edges.jsonl` = 4,764 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + 3 deception pilots → S93 Wyman + Jaime restructures). Node connectivity **14.7%**.
+- S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script + **dry-run complete** (`working/infobox-merge/dry-run-report-2026-06-12.md`). Expected post-merge: edges 21,770 / connectivity 71.0%.
+- S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 
 **IN FLIGHT**
-- (none — S92 audit session complete)
+- (none — S93 restructure session complete)
 
 **NEXT TRACK (Matt-greenlit 2026-06-11)**
 - **Infobox-structural wiki merge**: dry-run DONE, awaiting Matt review + 11 open-question answers → ship. → `progress/continue-prompts/2026-06-12-infobox-merge-ship.md`
 - **THEN Mode 3 grounded-agent dip** on the merged graph (`progress/continue-prompts/2026-06-11-phase2-mode3-dip.md`)
 
 **GATED / QUEUED**
-- 2 structural restructures (Wyman-execution, Jaime-sheathes) — Matt ratification (`progress/continue-prompts/2026-06-12-deferred-structural-restructures.md`)
 - Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
 - Nomenclature sweep — GATED on Matt's scheme pick
 - Repo-reorg P1/P2 (~1-1.5 sessions) — per `working/repo-reorg-plan-2026-06-12.md`
@@ -53,7 +53,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - Events-Haiku 1,617 typed rows + Dialogue tail — SHELVED (absorbed into backfill Track B)
 - Spoiler gating (`first_available`) — DEFERRED post-first-release; prose-comention wiki edges — DEPRECATED, stays dead
 
-**MATT REVIEWS NEXT:** `working/infobox-merge/dry-run-report-2026-06-12.md` (incl. 11 YOUR-DECISIONS items + 2 semantic-remap flags) → S91 look-at-twice items (Session 91 entry) → restructure decision packets
+**MATT REVIEWS NEXT:** `working/infobox-merge/dry-run-report-2026-06-12.md` (incl. 11 YOUR-DECISIONS items + 2 semantic-remap flags) → S93 look-at-twice items (Session 93 entry, 5 items) → S91 look-at-twice items (Session 91 entry)
 
 ### Infrastructure (all shipped)
 - [x] Repo scaffold: directory structure, CLAUDE.md, reference files (`architecture.md`, `foreshadowing-events.md`, `pov-characters.md`), slash commands, working/ + progress/ conventions
@@ -228,6 +228,27 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 93 — Deferred structural restructures: Wyman fake-execution arc + Jaime street-brawl merge; `event.deception` vocab added (2026-06-12)
+
+**Model:** Opus 4.7 (orchestrator + all writes; no agents delegated — structural work too tightly coupled to fan out). **Detail:** `history/session-details/session-093.md` (design narrative — wiki research methodology, `event.deception` vocab rationale, Jaime-collapse decision, Q11 reframing). **Execution writeup:** `working/session-results/2026-06-12-deferred-restructures.md` (file paths, edge JSON, verification commands, hard-rule audit). **Commit:** this endsession commit.
+
+- **Vocab change (cheap):** Added **`event.deception`** to entity-type table (`reference/architecture.md:118`) + `schema-legend.md:295` events row. Cost: 2-line documentation update. No TYPE_DIR_MAP / validator / drift-detection change (no global event-subtype validator exists; events route to one dir; hand-minted not bulk LLM). Definition: "Named discrete act-of-deceiving as event-hub — single staged moment whose purpose is to propagate a false belief to a specific audience. Distinct from event.conspiracy (ongoing scheme) and DECEIVES (dyadic edge). Nested INSIDE event.conspiracy hubs (Wyman's farce sits inside Grand Northern Conspiracy)." Schema row lists 4 canonical seed examples (Wyman, Cersei's false-attack claim, Theon's burned boys, Jeyne-as-Arya).
+- **Wyman arc — 4 beats not 2:** Wiki research (`Wyman_Manderly.json`) revealed the canonical arc has 4 distinct beats. Minted parent `wyman-manderly-stages-fake-execution-of-davos` (`event.deception`) + 2 new sub-beats (`execution-of-davos-lookalike-at-white-harbor` for the substitute beheading; `frey-witnesses-attest-davos-dead-at-small-council` for Cersei's small-council propagation in AFFC Cersei IV). Renamed `lord-wyman-orders-execution` → `wyman-publicly-orders-davos-execution`. Patched arrest-beat body to reference all siblings + parent. 6 edges appended: 4 × SUB_BEAT_OF + 1 × DECEIVES wyman→cersei (qualifier="by_false_witness", AFFC Cersei IV) + 1 × CONSPIRES_WITH wyman↔stannis (Tier-3 no qualifier; rickon-return clause + via-davos-envoy in rationale).
+- **Jaime arc — collapse to single hub, not parent+children:** AWOIAF has NO discrete event page for the street brawl (treated as "melee" in Ned's biography). Renamed `jaime-lannister-ambushes-ned-s-party` → `attack-on-ned-stark-in-the-streets-of-kings-landing` (event.battle, was event.incident). Deleted sibling `jaime-sheathes-his-sword-but-orders-ned-s-men-killed.node.md`. Of its 5 role edges: 1 unique COMMANDS_IN repointed to the renamed hub (tagged `merged_from_sheathes_sibling`); 4 duplicates (AGENT_IN house-lannister, VICTIM_IN jory/heward/wyl) dropped. 2 new edges appended: DECEIVES jaime→ned qualifier="by_omission" (sheathe-and-order cinematic pivot, AGOT Eddard IX); TRIGGERS attack→`cersei-claims-ned-s-men-attacked-first` (causal link to Cersei's downstream lie, AGOT Eddard X). No separate parent layer minted — survivor IS the canonical hub.
+- **Counts:** `edges.jsonl` **4,760 → 4,764 (+4 net: +6 Wyman, +2 Jaime, −4 dups)**. `events/` **583 → 585 (+2: +3 Wyman mints, −1 Jaime sibling delete)**. `event-alias-lookup.json` **922 → 954 (+32)**. Orphan endpoints **115 (unchanged)**. Edge types active **112 (unchanged)**.
+- **Verification:** `--health` clean (8,518 nodes, 4,764 edges); `--event-participants wyman-manderly-stages-fake-execution-of-davos` traverses all 4 beats and surfaces 5 distinct participants end-to-end; `--neighbors attack-on-ned-stark-in-the-streets-of-kings-landing` shows 2 outgoing + 8 incoming (3 AGENT_IN + 1 COMMANDS_IN + 4 VICTIM_IN, no double-counting); 16/16 alias-chain probes HIT (resolver convention strips leading "the "); 0 stale source/target/superseded_by refs to old slugs in edges.jsonl. Cleaned up 3 stale index files (renamed/deleted node leftovers).
+
+**Look-at-twice items for Matt:** (a) `lord-wyman-manderly` slug-collision visible in beat-union traversal (pre-existing from S87 Plate 3 mints, NOT introduced by S93; candidate for slug-merge cleanup); (b) S91 pilot `DECEIVES wyman→house-frey` uses non-enum qualifier `"staged-arrest"` while my new wyman→cersei uses enum-conforming `by_false_witness` — normalize the S91 row to `by_omission` or leave? (c) 2 new SUB_BEAT_OF rows carry `plate5_evidence_note` instead of verbatim quotes (substitute beheading off-page; Frey small-council in summary-register) — falls under the existing 32-empty-quote Contract-6-exemption followup, not S93-specific; (d) `event.deception` has 2 instances so far (Wyman parent + Frey small-council); future passes could promote 3 more canonical examples deliberately; (e) Jaime DECEIVES target choice — picked Ned per original subagent rec; alternative read is Robert (plausible deniability) — Cersei-claim TRIGGERS edge already captures Robert as the downstream-deception audience.
+
+**Hard rules held:** rename `--dry-run` before `--apply` (both renames); no auto-/endsession (stopped at writeup + worklog); old slugs preserved as final alias entries; Bug 1 inline aliases throughout; Bug 3 plate5_superseded_note patches applied (2 stale free-text notes patched: 1 Wyman, 1 Jaime).
+
+**What's next (HANDOFFs from session start unchanged):**
+- HANDOFF 1: `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — still gated on Matt marking the dry-run report's 11 decisions
+- HANDOFF 2: `progress/continue-prompts/2026-06-12-graph-cleanup.md` — gated on HANDOFF 1 shipping + curation marks
+- HANDOFF 3: `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` — gated on infobox merge shipping
+- Parallel-safe restructures track (this session) — **DONE**, prompt can be retired
+- `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md` can be deleted after Matt confirms the writeup.
+
 ### Session 92 — Fable audit execution: doc truth-pass, project story, infobox merge spec→script→dry-run (2026-06-11 → 2026-06-12)
 
 **Model:** Fable 5 orchestrator; ~40 subagents (Fable for judgment/prose, Sonnet for mechanical/scripts; EVERY major deliverable reviewed by a fresh-eyes critic, all findings applied). **Spend:** hit the monthly extra-usage cap twice mid-session; resumed across plan windows; zero lost/broken work (verified). **Detail:** `history/session-details/session-092.md` (full narrative incl. wall postmortem + critic-loop catches). **Commit:** this endsession commit.
@@ -311,35 +332,11 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - Matt wakes up → review 3 overnight result files → run `--apply` for #10 if dry-run is clean → fire continue prompt to start Phase 2.
 - → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — light Mode 3 grounded-agent dip (5-10 queries against the graph), failure modes drive Track B priorities. Depends on #7+#8 agents completing successfully overnight.
 
-### Session 88 — Plate 5 recap + validation track scoped + S87 endsession gap-fill (2026-06-09 → 2026-06-10)
 
-**Model:** Opus 4.7 (orchestrator + execution; no agents delegated). **Detail:** none (light session — wrap-up after S87 cutoff + design substance captured in the validation continue prompt). **Commits:** `cd1f362dc` (WIP gap-fill), this endsession commit.
-
-**Context:** S87 ended abruptly mid-endsession (chat got cut off after the Plate 5 commit landed). Matt returned, asked how Plate 5 went + what the `quoted_evidence` vs `evidence_quote` field-rename was about, then asked to scope the next track ("actually using the graph to do some validation") and to make a WIP commit + push for the missed endsession steps.
-
-**Wrap-up conversation:**
-- Plate 5 recap: `edges.jsonl` 3,811 → **4,757 (+946)**; `events/` 371 → 583 (+212); validator 4,725 kept / 32 dropped (SUB_BEAT_OF empty-evidence rows remain in JSONL as read-only audit); Red Wedding 2-hop smoke passes end-to-end.
-- `quoted_evidence` vs `evidence_quote`: same semantics (verbatim book quote grounding an edge); `evidence_quote` is canonical across the whole schema; `quoted_evidence` was a divergent name in Plate 4 cluster staging; fix-in-place during merge renamed 51 SUB_BEAT_OF rows (19 retained text, 32 got explanatory `plate5_evidence_note` for inference-only Pass-B/Pass-C emissions).
-
-**Validation track scoped:** Four modes — (1) capability validation (does the new structure work; 8 probe queries on reified event hubs); (2) canonical accuracy (fact-check vs. books; partially absorbed by Track A backfill); (3) agent grounding (the real project goal — agent with `graph-query.py` as a tool answers real ASOIAF questions); (4) surprise/discovery (aggregate queries impossible pre-Plate-5). Recommendation: Mode 1 first (cheapest, isolates the graph layer; misses route cleanly to the 6 post-Plate-5 follow-up TODOs or backfill Tracks A/B/C). Mode 3 is the real test but needs Mode 1 to settle first so debugging is tractable.
-
-**S87 endsession gap-fill (WIP commit `cd1f362dc`, pushed):**
-- `working/todos.md`: EDGE/EVENT MODELING entry flipped [~]→[x] "ALL PLATES SHIPPED INCLUDING PLATE 5 (S82-S87)"; added 6 post-Plate-5 follow-up TODOs (display bullets, 32 empty-quote SUB_BEAT_OF, 109 hub-review-queue, 2 deferred collisions, donal-noye↔mag mutual-kill reverse, backfill tracks A/B/C); replaced obsolete `→ continue:` links with new validation prompt.
-- `progress/continue-prompts/2026-06-09-graph-validation.md` (NEW): 4 modes, 8 Mode-1 probes, decision points listed, recommendation noted.
-- `working/edge-modeling/plate3-revalidation/` (NEW): S85-era artifacts (2 minted event nodes, role-edge staging, skipped clean dyads, supersede candidates) committed for the record.
-- `~/.claude/.../project_edge_modeling_reification_direction.md` (memory, outside repo): updated S84 status → S87 ship state with the 6-followup-TODO summary.
-
-**This endsession (additional):**
-- `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` DELETED — Plate 5 shipped, prompt obsolete.
-- `progress/continue-prompts/2026-06-05-edge-modeling-plate-4-haiku-disposition.md` KEPT — its 1,617-row re-bucketing under reify lens is still part of post-Plate-5 backfill Track B; `→ continue:` link re-added under that TODO in todos.md (was accidentally removed during gap-fill edit).
-- Session 83 (Edge-modeling Plates 0+1+2) archived to `history/worklog-archives/archive018.md` (archive018 now 2/5; co-located with S83-/tmp-paths).
-
-**Out of scope (preserved untouched):** Matt's IDE edits to `progress/continue-prompts/2026-06-08-alias-and-display-design.md`; scratch deletions; `Untitled 6.rtf` deletion; `scr` untracked file at repo root.
-
-**What's next:** → `progress/continue-prompts/2026-06-09-graph-validation.md` (**Opus 4.7** — design judgment in interpreting probe results; deterministic query work is `graph-query.py`). Matt picks Mode 1 vs straight-to-Mode-3.
+> Session 88 archived to `history/worklog-archives/archive019.md` (archive019 now 2/5)
 
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive019 = S87 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive019 = S87–S88 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4
