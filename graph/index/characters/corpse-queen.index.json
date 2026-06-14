@@ -3,16 +3,27 @@
   "name": "Corpse queen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/corpse-queen.node.md",
-  "generated_at": "2026-05-11T22:49:53.999869+00:00",
+  "generated_at": "2026-06-13T15:02:33.117116+00:00",
   "stats": {
-    "appearances_total": 0,
+    "appearances_total": 1,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 0,
+    "chapters_mentioned_in": 1,
     "out_edge_count": 1,
-    "in_edge_count": 2
+    "in_edge_count": 5
   },
   "chapters": {
     "pov": [],
-    "mentioned_in": []
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-bran-04",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
   }
 }

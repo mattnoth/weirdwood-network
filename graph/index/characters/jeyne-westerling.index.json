@@ -3,13 +3,13 @@
   "name": "Jeyne Westerling",
   "type": "character.human",
   "node_path": "graph/nodes/characters/jeyne-westerling.node.md",
-  "generated_at": "2026-05-11T22:49:54.077893+00:00",
+  "generated_at": "2026-06-13T15:02:33.215981+00:00",
   "stats": {
     "appearances_total": 14,
     "chapters_pov": 0,
     "chapters_mentioned_in": 11,
     "out_edge_count": 8,
-    "in_edge_count": 60
+    "in_edge_count": 76
   },
   "chapters": {
     "pov": [],

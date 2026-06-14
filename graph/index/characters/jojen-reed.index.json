@@ -3,13 +3,13 @@
   "name": "Jojen Reed",
   "type": "character.human",
   "node_path": "graph/nodes/characters/jojen-reed.node.md",
-  "generated_at": "2026-05-11T22:49:53.876621+00:00",
+  "generated_at": "2026-06-13T15:02:32.930261+00:00",
   "stats": {
     "appearances_total": 31,
     "chapters_pov": 0,
     "chapters_mentioned_in": 14,
     "out_edge_count": 6,
-    "in_edge_count": 32
+    "in_edge_count": 81
   },
   "chapters": {
     "pov": [],

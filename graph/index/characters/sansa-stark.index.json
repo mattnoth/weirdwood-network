@@ -3,13 +3,13 @@
   "name": "Sansa Stark",
   "type": "character.human",
   "node_path": "graph/nodes/characters/sansa-stark.node.md",
-  "generated_at": "2026-05-11T22:49:53.981553+00:00",
+  "generated_at": "2026-06-13T15:02:33.075935+00:00",
   "stats": {
     "appearances_total": 172,
     "chapters_pov": 24,
     "chapters_mentioned_in": 112,
     "out_edge_count": 13,
-    "in_edge_count": 434
+    "in_edge_count": 690
   },
   "chapters": {
     "pov": [

@@ -496,8 +496,15 @@ def type_contract_pass(
             )
 
     # Contract 6: empty evidence_quote — no textual support, drop unconditionally.
+    # EXEMPTION (2026-06-14, S96): SUB_BEAT_OF structural classification edges are exempt
+    # from the evidence_quote requirement per 2026-06-12 decision. These edges assert that
+    # one event is a sub-beat of a parent event; their truth is grounded by the event-hub
+    # structure, the evidence_chapter field, and the rationale field — not a single prose
+    # quotation. Contract 5 (evidence_kind + evidence_book + evidence_chapter) remains
+    # ENFORCED for all SUB_BEAT_OF rows.
+    _CONTRACT6_EXEMPT = {"SUB_BEAT_OF"}
     evidence_quote = (row.get("evidence_quote") or "").strip()
-    if not evidence_quote:
+    if not evidence_quote and et not in _CONTRACT6_EXEMPT:
         return "drop", (
             f"CONTRACT_VIOLATED: evidence_quote is empty — no textual support "
             f"for {et} edge ({src!r} -> {tgt!r})"

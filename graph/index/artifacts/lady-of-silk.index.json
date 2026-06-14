@@ -3,13 +3,13 @@
   "name": "Lady of Silk",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/lady-of-silk.node.md",
-  "generated_at": "2026-05-11T23:36:15.774705+00:00",
+  "generated_at": "2026-06-14T20:36:15.623505+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 1,
+    "in_edge_count": 3,
     "chapters_in_artifacts_section": 0
   },
   "chapters": {

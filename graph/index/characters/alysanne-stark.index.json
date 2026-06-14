@@ -3,13 +3,13 @@
   "name": "Alysanne Stark",
   "type": "character.human",
   "node_path": "graph/nodes/characters/alysanne-stark.node.md",
-  "generated_at": "2026-05-11T22:49:53.888342+00:00",
+  "generated_at": "2026-06-13T15:02:32.946385+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 4,
-    "in_edge_count": 0
+    "in_edge_count": 1
   },
   "chapters": {
     "pov": [],

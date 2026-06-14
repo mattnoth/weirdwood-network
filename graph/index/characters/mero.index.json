@@ -3,13 +3,13 @@
   "name": "Mero",
   "type": "character.human",
   "node_path": "graph/nodes/characters/mero.node.md",
-  "generated_at": "2026-05-11T22:49:53.901903+00:00",
+  "generated_at": "2026-06-13T15:02:32.964519+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_pov": 0,
     "chapters_mentioned_in": 3,
     "out_edge_count": 5,
-    "in_edge_count": 12
+    "in_edge_count": 16
   },
   "chapters": {
     "pov": [],

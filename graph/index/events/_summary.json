@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-13T01:13:24.043320+00:00",
+  "generated_at": "2026-06-14T20:36:09.902396+00:00",
   "entity_type": "events",
   "dry_run": false,
-  "entity_count": 575,
+  "entity_count": 580,
   "type_counts": {
-    "event.wedding": 21,
-    "event.tournament": 35,
-    "event.war": 32,
+    "event.wedding": 22,
+    "event.tournament": 34,
+    "event.war": 31,
     "event.execution": 10,
     "event.battle": 279,
-    "event.death": 69,
+    "event.death": 70,
     "event.capture": 39,
-    "event.incident": 48,
-    "event.assassination": 11,
+    "event.incident": 49,
+    "event.assassination": 12,
     "event.deception": 2,
-    "event.feast": 3,
-    "event.ceremony": 16,
+    "event.feast": 5,
+    "event.ceremony": 17,
     "event.conspiracy": 7,
     "event.coronation": 2,
     "event.trial": 1
   },
-  "entities_with_zero_mentions": 540,
-  "mention_inverse_slugs": 35,
+  "entities_with_zero_mentions": 546,
+  "mention_inverse_slugs": 34,
   "top_by_appearances": [
     {
       "slug": "war-of-the-five-kings",
@@ -186,15 +186,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "the-conquest-of-dorne",
-      "name": "The Conquest of Dorne",
-      "type": "event.war",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 4,
-      "out_edge_count": 0
-    },
-    {
       "slug": "greyjoys-rebellion",
       "name": "Greyjoy's Rebellion",
       "type": "event.battle",
@@ -202,6 +193,15 @@
       "chapters_referenced_in": 1,
       "in_edge_count": 99,
       "out_edge_count": 12
+    },
+    {
+      "slug": "battle-of-the-camps",
+      "name": "Battle of the Camps",
+      "type": "event.battle",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 87,
+      "out_edge_count": 4
     }
   ],
   "top_by_in_edges": [

@@ -3,13 +3,13 @@
   "name": "Jon Umber (son of Jon)",
   "type": "character.human",
   "node_path": "graph/nodes/characters/jon-umber-son-of-jon.node.md",
-  "generated_at": "2026-05-11T22:49:54.111755+00:00",
+  "generated_at": "2026-06-13T15:02:33.256879+00:00",
   "stats": {
     "appearances_total": 5,
     "chapters_pov": 0,
     "chapters_mentioned_in": 5,
     "out_edge_count": 5,
-    "in_edge_count": 7
+    "in_edge_count": 9
   },
   "chapters": {
     "pov": [],

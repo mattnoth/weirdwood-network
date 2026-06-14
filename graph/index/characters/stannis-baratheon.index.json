@@ -3,13 +3,13 @@
   "name": "Stannis Baratheon",
   "type": "character.human",
   "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
-  "generated_at": "2026-05-11T22:49:54.106986+00:00",
+  "generated_at": "2026-06-13T15:02:33.251273+00:00",
   "stats": {
     "appearances_total": 183,
     "chapters_pov": 0,
     "chapters_mentioned_in": 136,
     "out_edge_count": 17,
-    "in_edge_count": 631
+    "in_edge_count": 1070
   },
   "chapters": {
     "pov": [],

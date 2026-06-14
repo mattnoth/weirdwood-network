@@ -3,13 +3,13 @@
   "name": "Theomar Smallwood",
   "type": "character.human",
   "node_path": "graph/nodes/characters/theomar-smallwood.node.md",
-  "generated_at": "2026-05-11T22:49:53.815440+00:00",
+  "generated_at": "2026-06-13T15:02:32.840445+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 5,
-    "in_edge_count": 2
+    "in_edge_count": 3
   },
   "chapters": {
     "pov": [],

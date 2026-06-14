@@ -3,13 +3,13 @@
   "name": "Daenerys Targaryen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
-  "generated_at": "2026-05-11T22:49:53.785299+00:00",
+  "generated_at": "2026-06-13T15:02:32.792858+00:00",
   "stats": {
-    "appearances_total": 76,
+    "appearances_total": 77,
     "chapters_pov": 31,
-    "chapters_mentioned_in": 31,
+    "chapters_mentioned_in": 32,
     "out_edge_count": 19,
-    "in_edge_count": 515
+    "in_edge_count": 968
   },
   "chapters": {
     "pov": [
@@ -231,6 +231,16 @@
           "Characters Referenced"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-epilogue",
+        "book": "adwd",
+        "pov_character_slug": "kevan-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "adwd-the-discarded-knight-01",

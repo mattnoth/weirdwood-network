@@ -3,13 +3,13 @@
   "name": "House Greyjoy",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-greyjoy.node.md",
-  "generated_at": "2026-05-11T23:36:16.194552+00:00",
+  "generated_at": "2026-06-14T20:36:15.720653+00:00",
   "stats": {
     "appearances_total": 17,
     "chapters_referenced_in": 16,
     "chapters_in_raw_list": 16,
     "out_edge_count": 13,
-    "in_edge_count": 55
+    "in_edge_count": 83
   },
   "chapters": {
     "in_raw_list": [

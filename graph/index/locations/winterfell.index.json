@@ -3,13 +3,13 @@
   "name": "Winterfell",
   "type": "place.location",
   "node_path": "graph/nodes/locations/winterfell.node.md",
-  "generated_at": "2026-05-11T23:36:05.641802+00:00",
+  "generated_at": "2026-06-14T20:36:15.769175+00:00",
   "stats": {
     "appearances_total": 300,
     "chapters_referenced_in": 191,
     "chapters_in_raw_list": 59,
     "out_edge_count": 3,
-    "in_edge_count": 408,
+    "in_edge_count": 773,
     "chapters_in_locations_section": 188
   },
   "chapters": {

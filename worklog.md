@@ -28,22 +28,23 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 ## Current State
 
-### STATUS — at a glance (verified 2026-06-12)
+### STATUS — at a glance (verified 2026-06-13)
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
 - Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,518** (events 585; excl. `_conflicts/` staging)
 - Entity + chapter indexes: **all 21 categories** (S72)
-- Edge layer LIVE: **`graph/edges/edges.jsonl` = 4,764 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + 3 deception pilots → S93 Wyman + Jaime restructures). Node connectivity **14.7%**.
-- S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script + **dry-run complete** (`working/infobox-merge/dry-run-report-2026-06-12.md`). Expected post-merge: edges 21,770 / connectivity 71.0%.
+- Edge layer LIVE: **`graph/edges/edges.jsonl` = 21,829 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + deception pilots → S93 Wyman + Jaime restructures → S94 infobox merge +17,006 wiki-infobox → **S96 graph-cleanup +59: FIX-22 + plate5 followups + 27 S95 edges incl. first narrative-arc reification `incident-at-the-trident`**). Node connectivity **~71%**. 5 evidence kinds: wiki-infobox 17,006 / book-pass1 3,864 / book-pass1-reified 897 / plate4-wiki-cluster 51 / book-curator 11.
+- S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script.
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
+- **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
 
 **IN FLIGHT**
-- (none — S93 restructure session complete)
+- (none — S94 ship session complete)
 
-**NEXT TRACK (Matt-greenlit 2026-06-11)**
-- **Infobox-structural wiki merge**: dry-run DONE, awaiting Matt review + 11 open-question answers → ship. → `progress/continue-prompts/2026-06-12-infobox-merge-ship.md`
-- **THEN Mode 3 grounded-agent dip** on the merged graph (`progress/continue-prompts/2026-06-11-phase2-mode3-dip.md`)
+**NEXT TRACK (S96 dip-driven)**
+- **Track 7 — alias-resolver fix** (PRIMARY per Mode 3 dip; $0 deterministic; ~4/10→~7/10; makes Trident/Joffrey arcs findable). Needs a continue prompt. → then followup #9 historical structural-attachment → then narrative-arc wave 1 (Red Wedding arc, Joffrey/Littlefinger arc).
+- DONE this session: Mode 3 dip (S96) + graph-cleanup/promotion (S96, both gates cleared).
 
 **GATED / QUEUED**
 - Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
@@ -200,6 +201,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 > Groomed 2026-06-11: shipped items pruned (chapter splitter, Pass 1 AGOT PoC, Pass 2 prompt, node-file schema — all long done); survivors reframed to current reality.
 
 ### HIGH
+- [ ] **Narrative-arc reification track (NEW S95 2026-06-13)** — apply the S87 Plate-5 event-hub reification pattern ONE LEVEL UP to causal/narrative arcs. The graph carries event hubs densely (585 events) but NOT the consequence-chains GRRM actually writes in. Reader feels Trident → Lady-and-Mycah → Sansa-Arya rift as one arc; agent sees only isolated beats. Reification pattern: parent event hub + SUB_BEAT_OF children attaching existing/new hubs + TRIGGERS/PRECEDES between sub-beats; role edges live at beat level (Red Wedding precedent). **First instance shipped S95 (Q5 in `curation/s95-quarantine-resolutions-2026-06-13.md`):** `incident-at-the-trident` parent + `death-of-mycah` new sub-beat + retroactive SUB_BEAT_OF for 3 existing Lady-arc hubs. **Sequencing: DIP-DRIVEN, not mass-mint** — Mode 3 dip surfaces which arc-shaped queries agents fumble on; that prioritizes arc-mint order. Memo: `working/narrative-arcs-design-memo-2026-06-13.md`. Memory: `project_narrative_arc_reification`. Connects to [[project_real_goal_graph_for_agents]] + [[project_stage4_richest_form]] + [[user_asoiaf_design_values]].
 - [ ] Create theory seeds file (top 20-30 theories with confidence tiers) — prerequisite for Pass 5 AND for connecting the all-dark `theories/` layer (45 nodes, ~0 real edges; the infobox merge contributes nothing there — see synthesis 2026-06-11)
 
 ### MEDIUM
@@ -227,6 +229,91 @@ This is your project memory. When you come back after a break, **STATUS — at a
 ## Session Log
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
+
+### Session 96 — Mode 3 dip + graph-cleanup/promotion SHIPPED (FIX-22 + plate5 + S95 incl. Trident & Joffrey arcs) (2026-06-14)
+
+**Model:** Opus 4.8 (orchestrator) + fresh `general-purpose` subagents — one ran the Mode 3 dip and reached its own findings ("ask a fresh subagent… have it decide"); one (Sonnet) executed the graph-cleanup under Opus orchestration + verification. **Detail:** dip findings in `working/session-results/2026-06-14-mode3-dip-results.md`. **Commit:** this commit (also captures the previously-uncommitted S94 infobox merge + S95 research).
+
+**Changes made:**
+- **NEW** `working/session-results/2026-06-14-mode3-dip-results.md` — full dip: 10 grounded Qs, per-query results table, failure-mode taxonomy, routing decision, + §6 post-dip Q4/Q5 corrections.
+- `working/todos.md` — Track 2 (Mode 3 dip) marked **DONE**; **NEW Track 7** (query-layer tooling — alias-resolver fix, dip primary); POST-PLATE-5 followup #9 **ungated** as dip secondary; at-a-glance line updated.
+- `worklog.md` — this entry; **Session 91 archived to `history/worklog-archives/archive019.md` (now full 5/5)**.
+- **NO graph writes** — the dip is read-only (verified: `edges.jsonl` mtime unchanged, untouched 2026-06-13 10:00; `graph/` `M` marks predate this session, from the S94 merge).
+
+**Findings & decisions:**
+- **Score: 4 correct / 2 partial / 4 failed.** The graph is genuinely useful to a consumer agent **today** for the two highest-frequency shapes: relationship queries (`--path`, best-in-class) and on-page-event queries (`--event-participants` over beat-reified hubs). Post-infobox kinship/allegiance/title/culture is dense and reliable.
+- **(D1) Dominant failure = slug-discoverability.** In Q1/Q3/Q7 the perfect, quote-cited answer was already in the graph; the ONLY failure was the alias resolver MISSing natural phrasings ("Robb Stark's death", "Ned Stark's execution"). A deployed agent can't fs-grep around that. → **Primary next track = fix the alias resolver** (fuzzy fallback + index death/execution hubs by victim + return character-node candidates). ~4/10 → ~7/10 for $0. (NEW Track 7.)
+- **(D2) Secondary = historical structural-attachment (followup #9, ungated).** Isolated hubs (`tourney-at-harrenhal` 0 edges; `battle-of-the-trident` only PART_OF) whose underlying facts already exist elsewhere as dyads. Q5 is the worked example: the `rhaegar-targaryen → lyanna-stark` CROWNS edge exists with a quote that literally names Harrenhal — it's just not attached to the tourney hub. Fix = attach existing dyads, no new extraction.
+- **(D3) Narrative-arc reification DE-PRIORITIZED** for now — only 2 Qs were arc-shaped, one already scheduled (Trident); the dominant problem is a lookup bug sitting on correct data, not missing arcs. Arc track stays HIGH long-term but slots behind Track 7 + #9.
+- **(D4) Q4 correction (Matt 2026-06-14):** re-graded `failed` → not-applicable. The weapon that killed Robb IS known (Roose's longsword, asos-catelyn-07.md:135) but it's unnamed — not an `object.artifact` — so `WIELDED_IN` is correctly absent. No defect, no backfill. (Contrast: Ned's execution carries `WIELDED_IN → Ice` because Ice is named.)
+
+**Look-at-twice for Matt:** none new — the dip was read-only and made no graph claims to ratify.
+
+**Graph cleanup / promotion SHIPPED (same session, both gates cleared):**
+- `edges.jsonl` **21,770 → 21,829 (+59 net)**: FIX-22 (F1 siege repair, F2 wrong-direction retypes/drop, F3a+b Purple Wedding beats, F4a Red Wedding guest-right, F5 Tyrion→Joffrey demoted tier-1→tier-4 false-confession, F6a–l 12 canon-death dyads incl. **F6h `rhaegal KILLS quentyn-martell`** resolved from text not generic) + plate5 small-followups (A1 conquest-of-dorne→object.text, A2 maidenpool merge, B mutual-kill reverse edge, C-1 Contract-6 SUB_BEAT_OF quote-exemption + C-2 quote fix) + **27 S95 edges** (Q1–Q5).
+- **10 new nodes**: 3 wedding beats (incl. `death-of-joffrey-baratheon` event.assassination w/ `## Quotes` block) + 7 S95 (postern-guard, ghiscari-galley-crews, stallion-who-mounts-the-world prophecy, stallion-heart-ceremony, wedding-feast-at-the-red-keep, **incident-at-the-trident**, **death-of-mycah**).
+- **First narrative-arc reification live**: `incident-at-the-trident` parent + 4 sub-beats (Cersei/Lady/Mycah cluster), beat-union traverses end-to-end. Joffrey cluster: Olenna AGENT_IN tier-2 + **Littlefinger COMMANDS_IN** both carrying his ASOS Sansa VI reveal quote (marquee-dialogue capture per new firm rule [[feedback_capture_quotes_during_research]]).
+- `architecture.md` gained `event.incident` row; validator gained SUB_BEAT_OF Contract-6 exemption. Backup: `_regrounding/edges-pre-graph-cleanup-2026-06-14T15-26-24.jsonl`. Verification: `--health` clean (62 orphans, −1), pytest 1144 pass + 3 documented pre-existing failures only.
+- **Minor look-at-twice:** `death-of-joffrey-baratheon LOCATED_AT red-keep` edge carries the Olenna-wine quote instead of a location line (cosmetic; correct target/tier).
+
+**What's next (dip-driven sequencing):**
+- → **NEW Track 7** alias-resolver fix — the dip's PRIMARY, highest-leverage $0/deterministic move (~4/10→~7/10); makes the just-shipped Trident/Joffrey arcs findable by natural phrasing. Recommend NEXT, ahead of arc-minting. Needs a continue prompt. (**Sonnet 4.6**)
+- → followup #9 historical structural-attachment — dip's secondary, ungated. (**Sonnet 4.6**)
+- → narrative-arc wave 1 — HIGH; Red Wedding ARC (origins→event→consequences, above the already-reified event hub) + Joffrey/Littlefinger arc are prime candidates. Sequenced after Track 7 so new arcs are immediately discoverable.
+
+### Session 95 — Post-merge research: 5 QUARANTINE items resolved + Trident-incident reification + **narrative-arc track surfaced** (2026-06-13)
+
+**Model:** Opus 4.7 (orchestrator + design judgment) + 4 parallel Sonnet 4.6 research subagents. **Detail:** none separate — the design content is in the memo (`working/narrative-arcs-design-memo-2026-06-13.md`). **Commit:** this endsession commit.
+
+**Changes made:**
+- **NEW** `curation/s95-quarantine-resolutions-2026-06-13.md` — single source-of-truth file for the cleanup session: 5 dossiers (eagle, postern-guard, galley-crews, stallion-heart, wedding-feast) + **Q5 Trident-incident reification (Matt-added 2026-06-13)** + slug-naming confirmations. **27 JSON-ready edges + 7 new node files**, all verbatim-grounded.
+- `curation/hub-review-triage-2026-06-12.md` — QUARANTINE table updated with per-item S95 status column (5 RESOLVED, 2 SKIP w/ rationale, 3 remain Track-B routed); a-boy-is-run-down clarification (NOT Mycah — Lhazareen-boy from Drogo sack; Mycah's death reified separately as Q5).
+- `progress/continue-prompts/2026-06-12-graph-cleanup.md` — source-files list updated to point at S95 resolutions; 3 out-of-scope flags added (Varamyr-eagle-attacks-Jon followup, `the-stallion-is-brought-in-and-sacrificed` mis-slug rename, `a-captive-girl-is-beheaded` Pass-1 audit).
+- **NEW** `working/narrative-arcs-design-memo-2026-06-13.md` — design memo for the narrative-arc reification track: pattern (parent event hub + SUB_BEAT_OF children + TRIGGERS for causal direction), 15 candidate-arc seeds (small/medium/epic), 6 open design questions, fit with current queue.
+- **NEW** memory entry `project_narrative_arc_reification.md` + MEMORY.md index updated.
+- `worklog.md` — Ideas & Backlog HIGH gained narrative-arc track at top (above theory-seeds).
+- Continue-prompt updates for SEQUENTIAL EXECUTION (Matt 2026-06-13): Mode 3 dip prompt + graph-cleanup prompt + README manifest now reflect sequential rather than parallel-safe; arc-question script enhancement added to dip prompt.
+
+**Decisions:**
+- **(D1) 5 QUARANTINE items resolved via subagent research, 2 SKIP, 3 stay Track-B-routed.** Eagle ATTACKS attaches to Orell (only scene is ACOK Jon VII, Orell still alive — Varamyr post-takeover is later). Unnamed-victim policy = P4 mixed: mint for narrative-role-significant kills (Arya postern-guard, Victarion galley-crews), skip for atrocity-flavor (Lhazareen boy, Harrenhal captive girl — latter also flagged as possible Pass-1 paraphrase). Stallion-heart ceremony mints as distinct event + Stallion-Who-Mounts-the-World prophecy node + SUBJECT_OF_PROPHECY/PROPHESIED_BY edges. Wedding-feast attaches as new sub-beat under existing Tommen-Margaery hub.
+- **(D2) Q5 Trident-incident reification (Matt-added).** New parent `incident-at-the-trident` (event.incident) + new sub-beat `death-of-mycah` (event.death) + retroactive SUB_BEAT_OF for 3 existing standalone hubs (cersei-maneuvers / ned-kills-lady / ned-claims-the-execution). Bride/groom = AGENT_IN their own wedding, not ATTENDS (Matt clarification — applied to Tommen/Margaery wedding-feast roles; convention noted in resolution file).
+- **(D3) NARRATIVE-ARC REIFICATION as a new HIGH-priority track.** Apply the S87 Plate-5 event-hub pattern ONE LEVEL UP to causal chains spanning multiple existing event hubs. The graph carries events; it does NOT carry the consequence-chains GRRM writes in. First instance = Q5 Trident incident. No new vocab needed (SUB_BEAT_OF + TRIGGERS + existing event types suffice). Sequencing: **dip-driven, NOT mass-mint** — Mode 3 dip's arc-question failures become the priority signal.
+- **(D4) Execution order = SEQUENTIAL (Matt 2026-06-13).** Mode 3 dip → graph cleanup (incl. all S95 resolutions) → narrative-arc track wave 1. NOT parallel-safe. Continue prompts updated to reflect.
+
+**Look-at-twice items for Matt (S95):**
+- `event.incident` type — confirm in vocab list before cleanup mints `incident-at-the-trident` (was original type for the Jaime-ambush hub before S93 promoted to `event.battle`; should still be available)
+- The 4 Mode 3 dip arc-questions (added in script enhancement) — review/edit before launching the dip; current set is a placeholder
+- Mycah death-of-mycah is now reified BUT the existing `sandor-clegane KILLS mycah` Tier-1 dyad stays — sibling per S87 convention. Confirm both layers coexist cleanly post-cleanup.
+- The Mode 3 dip will likely also surface arc-shaped gaps for: Tower of Joy (all-dark zone per S89), Sack of King's Landing (no causal chain to Mountain's later acts), Robert's Rebellion (no chain to Joffrey coronation). Those become arc-track wave 1 candidates.
+
+**What's next (SEQUENTIAL per Matt 2026-06-13):**
+- 1️⃣ → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip on the merged graph. Now includes 2-3 arc-shaped questions per Matt's narrative-arc track decision.
+- 2️⃣ → `progress/continue-prompts/2026-06-12-graph-cleanup.md` (**Sonnet 4.6**) — FIX-22 + S95 resolutions (incl. Q5 Trident reification) + plate5 followups. Run AFTER Mode 3 dip lands.
+- 3️⃣ → narrative-arc track wave 1 — gets a continue prompt after the dip's findings sharpen the candidate list. ~3-5 small arcs minted using S95's parallel-research-subagent pattern.
+
+### Session 94 — Infobox merge SHIPPED + 2 bug-fixes (continue-prompt schema, script report-rewrite guard) (2026-06-13)
+
+**Model:** Opus 4.7 (deterministic apply + verification + 2 small fixes; Matt-preferred override of the continue-prompt's Sonnet 4.6 recommendation, taken for insurance value during a 4-step graph-mutating run). **Detail:** none (execution-heavy). **Commit:** this endsession commit.
+
+**Changes made:**
+- `graph/edges/edges.jsonl` — applied infobox merge: **4,764 → 21,770 rows (+17,006 wiki-infobox, +52 hygiene A slug remaps, +944 hygiene B typed_by stamps)**. Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`.
+- `graph/index/` — rebuilt all 18 category indexes (locations, artifacts, houses, factions, titles, events, religions, species, texts, concepts, materials, foods, theories, customs, languages, medical, prophecies via `build-entity-indexes.py`; characters via `build-character-indexes.py`).
+- `working/wiki/data/event-alias-lookup.json` — rebuilt: 953 unambiguous + 1 pre-existing collision (954 unique phrases, unchanged from S93).
+- `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — step 3c snippets corrected: `type` → `edge_type`, `source`/`target` → `source_slug`/`target_slug` (matches actual edges.jsonl schema; old field names returned `UNKNOWN: 21770` until corrected).
+- `scripts/infobox-merge.py` — guarded `write_dry_run_report()` behind `if not apply_mode:`. `--apply` was silently rewriting the curated dry-run report on every run, wiping Matt's S93 closeout banner + 11 `[x] accept default` marks. Marks restored from git after each rewrite this session; the guard prevents recurrence. 75 infobox-merge tests still green.
+- `working/infobox-merge/dry-run-report-2026-06-12.md` — restored to its committed marked form (script wiped it twice mid-session; git checkout each time).
+- `worklog.md` STATUS block — connectivity 14.7% → 71.0%; edges 4,764 → 21,770; evidence_kind breakdown documented (wiki-infobox 17,006 / book-pass1 3,809 / book-pass1-reified 893 / plate4-wiki-cluster 51 / book-curator 11).
+- `working/todos.md` Track 1 — Ship item marked DONE; Track 2 (Mode 3 dip) flipped from GATED to READY.
+- `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` — "GATE CLEARED 2026-06-13 (S94)" banner added under the existing gate note.
+
+**Decisions:** Followed the handoff's hard rule (re-run dry-run first; halt if counts deviate). Dry-run reproduced spec v2 EXACTLY (17,006 / 1,128 / 1,037 / 1,356 / 87, bucket sum 20,614 ✓), so applied immediately. Verification gates all passed: `--health` reports only the 63 documented orphans (spec §5), 123 edge types, 0 UNKNOWN; pytest 1144 pass + 3 documented pre-existing failures (vocab-163 ×2 — now 166 since S93's `event.deception`; cwd ≠ /tmp). No new structural defects surfaced. The continue-prompt field-name mismatch and the script's unconditional report-rewrite both qualify as quality-of-life bugs introduced earlier — fixed inline rather than queued.
+
+**Look-at-twice items for Matt:** none. Apply was clean. Backup is intact at `_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl` if any post-hoc revert is wanted.
+
+**What's next:**
+- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip on the now-merged graph. Gate cleared today; the prompt's banner notes the new counts.
+- Parallel-safe: `progress/continue-prompts/2026-06-12-graph-cleanup.md` (FIX-22 + small followups + 3 missing Red Wedding SUB_BEAT_OF links). Still double-gated on Matt's curation marks in `curation/hub-review-triage-2026-06-12.md` + `curation/plate5-small-followups-2026-06-12.md`.
+- `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — completed this session; delete in step 3 below.
 
 ### Session 93 — Deferred structural restructures: Wyman fake-execution arc + Jaime street-brawl merge; `event.deception` vocab added (2026-06-12)
 
@@ -266,77 +353,10 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Session 87 archived to `history/worklog-archives/archive019.md` (archive019 started — 1/5)
 
-### Session 91 — Rename execution batch + DECEIVES pilot edges + structural restructures queued (2026-06-11)
-
-**Model:** Opus 4.7 (orchestrator + applied 9 renames + minted 3 pilot edges; 9 background sub-agents delegated for rename analysis / source verification / deception-feasibility). **Detail:** none (execution-heavy; subagent decision packets reproduced into the deferred-restructures continue prompt). **Commit:** this endsession commit.
-
-**Changes made:**
-- `graph/nodes/events/` — 9 file renames + 11 files patched (H1, mint-prose, inline-form aliases): Sand Snakes, Slynt, Dontos, Symon, Kerwin, cersei→execution-of-the-blackwater-deserters, qhorin→jon-spares-ygritte, cersei→cersei-s-plot-to-assassinate-jon-snow, wyman→wyman-publicly-arrests-davos-at-white-harbor; plus aliases-only on `ned-orders-janos-slynt-to-arrest-cersei` + sibling `gold-cloaks-betray-ned` (subagent KEEP rec).
-- `graph/edges/edges.jsonl` — atomic field updates across 33 rows + 3 manual `plate5_superseded_note` free-text patches (Bug 3 — Slynt, Symon, Qhorin) + **3 curator pilot edges appended**. Count: **4,757 → 4,760**.
-- 3 pilot edges: BETRAYS janos-slynt→eddard-stark (accepts-bribe-then-defects, AGOT Eddard XIV); DECEIVES cersei-lannister→jon-snow (contract-assassination, AFFC Cersei IV); DECEIVES wyman-manderly→house-frey (staged-arrest, ADWD Davos IV). Tagged `candidate_kind=curator-s91-deception-pilot`, `typed_by=curator-s91`.
-- `graph/index/events/` — rebuilt via `scripts/build-entity-indexes.py --type events --all`.
-- `working/wiki/data/event-alias-lookup.json` — rebuilt: 876 → 922 phrases, 1 pre-existing ambiguous collision (`conquest-of-dorne` duplicate node, NOT introduced by S91).
-- CREATE `working/session-results/2026-06-11-rename-execution.md` + `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md`. DELETE `progress/continue-prompts/2026-06-11-execute-rename-decisions.md` (task complete).
-- `working/todos.md` — closed POST-PLATE-5 followup #10.
-
-**Decisions:** 9 renames applied + 1 aliases-only treatment per the 9 subagent decision packets (5 ambiguous-flagged subagents launched mid-session per Matt's "use fresh sub agents for open questions"). 2 structural restructures **deferred** (Wyman-execution arc + Jaime-sheathes arc) — bigger than rename: new parent events + SUB_BEAT_OF restructure + multi-edge mints + type-field decisions; subagent decision packets reproduced verbatim into the continue prompt for Matt's ratification. Side-asks verified inline: Tyrion ordered Symon (Bronn=agent, ASOS Tyrion IV); Kerwin source backed up (ADWD Iron Suitor + wiki); WIELDS longclaw→Slynt-execution edge already existed. Deception-edges feasibility: `DECEIVES` (11 live) + `BETRAYS` (38 live) already in locked vocab — zero schema cost — pilot 3 edges now, queue scripted surfacer for ~30-50 medium-confidence retypes.
-
-**Verification:** 10/10 alias-chain probes HIT; `--neighbors` confirms full role-edge sets attached on all 9 renamed slugs; `--health` clean; final `grep -r '<old-slug>' graph/` returns only deliberate old-slug-as-alias backrefs. Bug 1 (inline-form aliases only) + Bug 3 (body-text + plate5_superseded_note manual patches) workarounds held per rename. Mid-session surprise: alias resolver doesn't auto-convert kebab→spaces; Wyman + Qhorin aliases re-spelled in space-form.
-
-**Look-at-twice items for Matt:** (a) `jon-spares-ygritte` typed `event.execution` (execution doesn't happen); (b) `cersei-s-plot-to-assassinate-jon-snow` typed `event.death` (Jon doesn't die); (c) `execution-of-the-blackwater-deserters` missing VICTIM_IN edge; (d) stale `status: minted-plate3` + "Staging only" body notes on all renamed nodes (Plate 5 merged but script doesn't flip status); (e) pre-existing `conquest-of-dorne` duplicate; (f) `cersei-claims-ned-s-men-attacked-first` flagged as DECEIVES candidate by 2 independent subagents (not minted — not being renamed).
-
-**What's next:**
-- → `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md` (**Opus 4.7**) — apply Wyman-execution + Jaime-sheathes restructures per the verbatim subagent decision packets in-prompt. Open questions enumerated for Matt's ratification.
-- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Phase 2 Mode 3 grounded-agent dip. Unblocked. Can run before OR after restructures (parallel-safe).
-- Backlog (deception-edges scaling): 3 pilot edges done, 7 to go per subagent C rec; then build `scripts/surface-deception-candidates.py` to mine the broader 30-50 retypes from `hint_raw` markers.
-
-> Session 86 archived to `history/worklog-archives/archive018.md` (archive018 now full at 5/5)
-
-### Session 90 — S89 overnight review + primary rename applied + remaining rename decisions queued for Opus (2026-06-11)
-
-**Model:** Opus 4.7 (orchestrator + applied the primary rename). **Detail:** none (review + small apply + handoff session). **Commit:** this endsession commit.
-
-**What this session was:** post-overnight review of Phase 1 results from S89 + first real apply against the renamed-rebuilt graph. Matt read the 3 overnight result files, did slug-vs-victim disambiguation explainers (Ned/Eddard alias chain, "what's a hit", S89 probe count semantics, chapter→graph→dialog query chain). Then applied the **primary** rename himself (`joffrey-orders-execution` → `execution-of-eddard-stark`) — touched 7 artifacts (1 node move + 6 edge rows). Surfaced 2 #8-deliverable bugs + a #10-script gap during apply (postmortem in todos.md #10).
-
-**Bugs found during primary apply (2026-06-11):**
-1. **`event_alias_resolver.py` (Agent #8) parser bug:** only parses inline `aliases: [...]` YAML form; block-style YAML list (`aliases:\n  - "..."`) silently corrupts to a single key. Harden the parser OR enforce inline convention as the canonical form. Matt used inline form for the apply.
-2. **Agent #8's "auto-resolve on rebuild" prediction was wrong:** "Ned's execution" did NOT auto-resolve from the new slug `execution-of-eddard-stark`. It needs an explicit `aliases:` frontmatter entry — which Matt added (`aliases: ["Ned's execution"]`). Lesson: the deterministic resolver is phrase-lookup only; no semantic substitution; reader-natural phrasings must be enumerated.
-3. **`rename-event-node.py` (Agent #10) coverage gap:** script rewrites frontmatter + slug-form refs in JSONL/JSON/MD files, but does NOT touch (a) the renamed node's own H1 + mint-prose body text, (b) free-text `plate5_superseded_note` fields in edge rows. Matt fixed both manually post-apply. Extend the script before any batch run.
-
-**Verification post-primary-apply:** 0 residual old-slug refs in `graph/`; `edges.jsonl` row count unchanged at 4,757; `--health` 0 new orphans; new node's 5 edges traverse; both "Ned's execution" and "execution of eddard stark" resolve to the new slug; old action phrase is dead.
-
-**Documentation polish:** added a plain-English preamble + TL;DR + "Your decisions" scannable table to `working/session-results/2026-06-10-overnight-rename-dryrun.md` so it's not a wall of agent output. Matt filled in his per-slug yes/no/different-suggestion decisions in that same file's "Your decisions" table — for the **5 secondary clean** candidates + **9 flagged** candidates. Those remain queued.
-
-**No further graph writes this session beyond the primary.** `edges.jsonl` 4,757; `events/` 583. The remaining ~14 rename decisions are queued for a fresh Opus session via the new continue prompt.
-
-**What's next:**
-- → `progress/continue-prompts/2026-06-11-execute-rename-decisions.md` (**Opus 4.7**) — fresh Opus reads Matt's filled-in decisions, runs per-slug dry-run-then-apply, adds curated `aliases:` (inline form only — bug #1), patches body H1 + mint-prose + plate5_superseded_note free-text per rename (bug #3), rebuilds events index + event-alias-resolver at the end, verifies alias-chain works. Hardening of bug #1 and bug #3 in-script is OPTIONAL upgrade — work-around pattern documented in the continue prompt.
-- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip. **After** remaining renames land.
-
-### Session 89 — Mode 1 graph-validation probes complete + Phase 1 overnight kickoff (2026-06-10)
-
-**Model:** Opus 4.7 (orchestrator + probe interpretation). 3 `script-builder` agents launched in background at end-of-session for overnight autonomous work. **Detail:** none — full narrative in `working/session-results/2026-06-09-graph-validation.md`. **Commit:** this endsession commit.
-
-**Probes 5-8 finished:** (5) historical-events dark zone CONFIRMED — 8/10 anchors have 0 edges; 5 exist as nodes but isolated; `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` fires exactly 1× (Rhaegar→Lyanna from AGOT Eddard XV — Pass-1 caught the dyadic act but didn't attach it to the `tourney-at-harrenhal` hub; **refines NEW TODO #9 to "structural attachment" not "extraction"**). (6) Tywin↔Mountain — 4 direct + 6 2-hop, all person-mediated, zero event bridges (Sack-of-KL absent — same dark zone). (7) Red Wedding beat-union: Walder Frey 7/8 + Roose 1, Tywin absent (off-page architect); 3 NEW wrong-direction role edges for hub-review #3. (8) `robb-is-killed` has roles + structural but NO WIELDED_IN (weapon class dark — dagger, not a named sword; continue-prompt-stated "longsword" was wrong, fixed in writeup).
-
-**Writeup landed:** `working/session-results/2026-06-09-graph-validation.md` (full 8-probe narrative + Mode 1→Mode 3 readiness call recommending **hybrid**: build #7+#8 + apply #10 first, then light Mode 3 dip drives Track B priorities). 5 NEW TODOs (#7 `--event-participants` primitive, #8 event-alias-resolver, #9 historical-anchor structural-backfill, #10 rename `joffrey-orders-execution`, #11 role-edge citation harmonization). Plus 4 NEW hub-review-queue items (S87 followup #3 grew).
-
-**Overnight autonomous kickoff (Matt 2026-06-10, going to bed):** 3 `script-builder` agents launched in background:
-- **Agent 1 — `--event-participants` primitive (#7): DONE.** `scripts/graph-query.py` extended with `cmd_event_participants()`. 4/4 smoke tests pass: red-wedding (8 beats, 29 role edges, 13 distinct participants), tourney-at-harrenhal (clean "no beats" message), nonexistent slug (clean "hub not found"), --json (valid). Results: `working/session-results/2026-06-10-overnight-event-participants.md`.
-- **Agent 2 — Event-alias-resolver (#8): DONE.** `scripts/event_alias_resolver.py` + `working/wiki/data/event-alias-lookup.json` (876 phrases, 1 correct collision on `conquest-of-dorne`). 7/9 smoke tests HIT; 2 MISS are correct ("Ned's execution" auto-resolves after #10 rename + rebuild; "the Trident" needs editorial `aliases:` entry). Results: `working/session-results/2026-06-10-overnight-alias-resolver.md`.
-- **Agent 3 — Rename script + DRY-RUN (#10): DONE post-commit.** `scripts/rename-event-node.py` (513 lines, `--dry-run`/`--apply`, atomic writes). Dry-run clean: 1 node file + **6 edge rows** (5 source/target + 1 superseded_by — **matches S89 probe count exactly**) + 0 reference-file hits. Action-slug audit: 29 candidates → 6 rename / 14 keep / 9 flagged for Matt. Results: `working/session-results/2026-06-10-overnight-rename-dryrun.md`. APPLY command queued in todos #10.
-
-**Hard rules carried:** no writes to `edges.jsonl` or `graph/nodes/`, no auto-/endsession, no progression past Phase 1. All probe commands were read-only. Plate 5 state preserved: edges.jsonl=4,757, events/=583.
-
-**What's next:**
-- Matt wakes up → review 3 overnight result files → run `--apply` for #10 if dry-run is clean → fire continue prompt to start Phase 2.
-- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — light Mode 3 grounded-agent dip (5-10 queries against the graph), failure modes drive Track B priorities. Depends on #7+#8 agents completing successfully overnight.
-
-
-> Session 88 archived to `history/worklog-archives/archive019.md` (archive019 now 2/5)
+> Session 91 archived to `history/worklog-archives/archive019.md` (archive019 now full at 5/5)
 
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive019 = S87–S88 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

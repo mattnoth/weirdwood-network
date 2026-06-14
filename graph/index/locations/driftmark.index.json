@@ -3,13 +3,13 @@
   "name": "Driftmark",
   "type": "place.location",
   "node_path": "graph/nodes/locations/driftmark.node.md",
-  "generated_at": "2026-05-11T23:36:05.629137+00:00",
+  "generated_at": "2026-06-14T20:36:15.751978+00:00",
   "stats": {
     "appearances_total": 7,
     "chapters_referenced_in": 6,
     "chapters_in_raw_list": 2,
     "out_edge_count": 0,
-    "in_edge_count": 68,
+    "in_edge_count": 111,
     "chapters_in_locations_section": 5
   },
   "chapters": {

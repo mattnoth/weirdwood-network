@@ -3,13 +3,13 @@
   "name": "Arianne Martell",
   "type": "character.human",
   "node_path": "graph/nodes/characters/arianne-martell.node.md",
-  "generated_at": "2026-05-11T22:49:54.091191+00:00",
+  "generated_at": "2026-06-13T15:02:33.231186+00:00",
   "stats": {
     "appearances_total": 12,
     "chapters_pov": 2,
     "chapters_mentioned_in": 7,
     "out_edge_count": 9,
-    "in_edge_count": 139
+    "in_edge_count": 233
   },
   "chapters": {
     "pov": [

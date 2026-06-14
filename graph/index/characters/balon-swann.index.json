@@ -3,13 +3,13 @@
   "name": "Balon Swann",
   "type": "character.human",
   "node_path": "graph/nodes/characters/balon-swann.node.md",
-  "generated_at": "2026-05-11T22:49:53.808702+00:00",
+  "generated_at": "2026-06-13T15:02:32.829164+00:00",
   "stats": {
     "appearances_total": 44,
     "chapters_pov": 0,
     "chapters_mentioned_in": 34,
     "out_edge_count": 6,
-    "in_edge_count": 53
+    "in_edge_count": 97
   },
   "chapters": {
     "pov": [],

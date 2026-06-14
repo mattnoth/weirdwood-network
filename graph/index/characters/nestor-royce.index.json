@@ -3,13 +3,13 @@
   "name": "Nestor Royce",
   "type": "character.human",
   "node_path": "graph/nodes/characters/nestor-royce.node.md",
-  "generated_at": "2026-05-11T22:49:53.991112+00:00",
+  "generated_at": "2026-06-13T15:02:33.086561+00:00",
   "stats": {
     "appearances_total": 10,
     "chapters_pov": 0,
     "chapters_mentioned_in": 7,
     "out_edge_count": 11,
-    "in_edge_count": 32
+    "in_edge_count": 59
   },
   "chapters": {
     "pov": [],

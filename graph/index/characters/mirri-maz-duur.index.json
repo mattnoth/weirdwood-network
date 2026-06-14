@@ -3,13 +3,13 @@
   "name": "Mirri Maz Duur",
   "type": "character.human",
   "node_path": "graph/nodes/characters/mirri-maz-duur.node.md",
-  "generated_at": "2026-05-11T22:49:54.089062+00:00",
+  "generated_at": "2026-06-13T15:02:33.228674+00:00",
   "stats": {
     "appearances_total": 23,
     "chapters_pov": 0,
     "chapters_mentioned_in": 13,
     "out_edge_count": 5,
-    "in_edge_count": 24
+    "in_edge_count": 48
   },
   "chapters": {
     "pov": [],

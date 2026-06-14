@@ -3,13 +3,13 @@
   "name": "Stevron Frey",
   "type": "character.human",
   "node_path": "graph/nodes/characters/stevron-frey.node.md",
-  "generated_at": "2026-05-11T22:49:54.016600+00:00",
+  "generated_at": "2026-06-13T15:02:33.138679+00:00",
   "stats": {
     "appearances_total": 14,
     "chapters_pov": 0,
     "chapters_mentioned_in": 10,
     "out_edge_count": 14,
-    "in_edge_count": 24
+    "in_edge_count": 33
   },
   "chapters": {
     "pov": [],

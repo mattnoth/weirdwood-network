@@ -2,7 +2,7 @@
 name: "Tourney at Maidenpool"
 type: event.tournament
 slug: tourney-at-maidenpool
-aliases: []
+aliases: ["Tourney of Maidenpool"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Tourney_at_Maidenpool"
 bucket_id: tier3-pathb-events

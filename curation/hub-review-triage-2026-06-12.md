@@ -2,6 +2,14 @@
 
 **What this is:** Proposal-only triage of the 109-item Plate 3 hub-review queue, plus the 4 wrong-direction role-edge items S89 added. **Nothing here has been applied to the graph.** Every FIX is a proposed action awaiting Matt's approval.
 
+> ## ✅ MATT REVIEW — 2026-06-14 (S96 walkthrough): GATE 2 CLEARED
+> All FIX-22 items **APPROVED as proposed**, with these specific decisions/amendments:
+> - **F3a (death-of-joffrey-baratheon):** `olenna-tyrell AGENT_IN` at **tier 2** (book-canon by inference + Littlefinger's ASOS Sansa VI reveal, NOT on-page — show-only confession does not apply). **ADD `petyr-baelish COMMANDS_IN death-of-joffrey-baratheon`** (tier 2, architect/orderer role) carrying Littlefinger's reveal quote as `evidence_quote`: *"someone told you that your hair net was crooked and straightened it for you… Lady Olenna was not about to let Joff harm her precious darling granddaughter"* — `evidence_ref: sources/chapters/asos/asos-sansa-06.md:183` (also see :145, :193). **ALSO add a `## Quotes` block** to the death-of-joffrey-baratheon node with the hairnet/missing-stone passage (asos-sansa-05:23) + Littlefinger's reveal (asos-sansa-06:145/183/193). *(Per new firm rule [[feedback_capture_quotes_during_research]] — capture the marquee dialogue so "who really poisoned Joffrey?" pulls Littlefinger's words straight from the graph.)*
+> - **F5 (Tyrion false confession):** CONFIRMED — demote `tyrion-lannister POISONS joffrey-baratheon` tier-1 → **tier-4** + `false-confession` qualifier. Execute together with F3a (no gap).
+> - **F6h (Quentyn's death):** RESOLVED — **not** ambiguous. Emit `rhaegal KILLS quentyn-martell` (qualifier: dragonfire), **tier 2**, evidence_quote: *"Rhaegal, he reminded himself, the green one is Rhaegal. When he raised his whip, he saw that the lash was burning. His hand as well. All of him, all of him was burning."* — `evidence_ref: sources/chapters/adwd/adwd-the-dragontamer-01.md:265`. (Verified S96: Quentyn reaches for Viserion; Rhaegal torches him from behind. Tier 2 because flame-source is by-sequence, not a clean SVO sentence.)
+> - **F1/F2/F4/F6 (rest):** ship all as proposed, all verbatim-cited.
+> - **QUARANTINE:** governed by `s95-quarantine-resolutions-2026-06-13.md` (5 resolved, 2 SKIP, 3 Track-B). No change here.
+
 **Where the queue lives:**
 - `working/edge-modeling/plate3-full/hub-review-queue.jsonl` — 109 rows (75 borderline-single-agent, 32 non-harming-multi-agent, 2 fuzzy-match duplicate rows for one event)
 - Human-readable companion: `working/edge-modeling/plate3-full/HUB-REVIEW-TRIAGE-LIST.md`
@@ -26,7 +34,7 @@
 
 ## FIX (22 items — exact proposed actions)
 
-### F1. Fuzzy-match pair + Plate 5 leak — `siege-of-storm-s-end-recalled` (2 queue rows) — **[scriptable]**
+### F1. Fuzzy-match pair + Plate 5 leak — `siege-of-storm-s-end-recalled` (2 queue rows) — **[scriptable]** [EXECUTED 2026-06-14]
 
 The 2 fuzzy rows are duplicates of one event, matched to existing node `siege-of-storms-end-299` (score 0.833 — the match is correct; same siege, recalled in ACOK Catelyn IV / prologue). Three sub-actions:
 
@@ -34,7 +42,7 @@ The 2 fuzzy rows are duplicates of one event, matched to existing node `siege-of
 - **F1b.** Note: `stannis COMMANDS_IN` should arguably be the defender-AGENT and `mace-tyrell` the besieging COMMANDS_IN — review roles at merge.
 - **F1c. BUG (found this triage):** the 6th staged edge **leaked into the live graph**: `{"edge_type":"LOCATED_AT","source_slug":"siege-of-storm-s-end-recalled","target_slug":"storms-end"}` is live in `edges.jsonl` (plate5_merged_at 2026-06-09) with a **dangling source** — that node was never minted. Repoint source to `siege-of-storms-end-299` (it already has no LOCATED_AT) or drop. Worklog said "5 role edges dropped"; the LOCATED_AT row escaped the drop filter.
 
-### F2. S89 wrong-direction role edges (4 items, all live in edges.jsonl) — **[manual — retype/drop judgment per edge]**
+### F2. S89 wrong-direction role edges (4 items, all live in edges.jsonl) — **[manual — retype/drop judgment per edge]** [EXECUTED 2026-06-14]
 
 | # | Live edge | Proposed action |
 |---|---|---|
@@ -43,22 +51,22 @@ The 2 fuzzy rows are duplicates of one event, matched to existing node `siege-of
 | F2c | `catelyn-stark AGENT_IN the-wedding-feast-proceeds` | **Retype → ATTENDS.** POV attendee (and eventual victim); mining picked up her direct-object Pass-1 mention. |
 | F2d | `house-tyrell VICTIM_IN tyrell-plot-revealed` | **Retype → AGENT_IN.** It was *their* plot being revealed; framed-conspirator is not a victim role. (Probe 2.) |
 
-### F3. Mint two Purple Wedding beats (fills Probe 2's confirmed gap) — **[manual-light: mint from queue JSON]**
+### F3. Mint two Purple Wedding beats (fills Probe 2's confirmed gap) — **[manual-light: mint from queue JSON]** [EXECUTED 2026-06-14]
 
 Probe 2 (S89): purple-wedding hub has exactly 1 SUB_BEAT_OF (`tyrell-plot-revealed` — not even about the poisoning). The queue contains the missing beats; Q1=a declined them.
 
 - **F3a. `joffrey-dies`** — MINT hub + `SUB_BEAT_OF purple-wedding`. Queue participants are the *correct* attribution: `lady-olenna-tyrell AGENT_IN` (resolve slug → live `olenna-tyrell`), `joffrey-baratheon VICTIM_IN`, `golden-wedding-chalice WIELDED_IN` (no artifact node — mint or drop role), `red-keep LOCATED_AT`. **This matters doubly:** the only death edge live today is `tyrion-lannister POISONS joffrey-baratheon` at tier 1 — Tyrion's sarcastic ADWD false confession ("Oh, and my nephew Joffrey, I poisoned him") — see F5. Suggest slug `death-of-joffrey-baratheon` per the S90/S91 rename convention (event-named, not action-named).
 - **F3b. `wedding-ceremony-at-the-great-sept-of-baelor`** — MINT + `SUB_BEAT_OF purple-wedding` (Joffrey+Margaery vows; participants joffrey/margaery/mace + great-sept-of-baelor LOCATED_AT). Gives the hub its ceremony beat.
 
-### F4. Mint Red Wedding guest-right beat — **[manual-light]**
+### F4. Mint Red Wedding guest-right beat — **[manual-light]** [EXECUTED 2026-06-14]
 
 - **F4a. `catelyn-secures-guest-right`** — MINT + `SUB_BEAT_OF red-wedding`. The bread-and-salt beat (catelyn + walder-frey, the-twins) is the thematic cornerstone of the Red Wedding's guest-right violation; hospitality is a first-class extraction target in this project. Red Wedding's 8 existing beats don't include it.
 
-### F5. Retier the false-confession edge — **[scriptable]** *(adjacent to queue item `tyrion-falsely-confesses-to-joffrey-s-murder`)*
+### F5. Retier the false-confession edge — **[scriptable]** *(adjacent to queue item `tyrion-falsely-confesses-to-joffrey-s-murder`)* [EXECUTED 2026-06-14]
 
 - Live edge `tyrion-lannister POISONS joffrey-baratheon` carries `confidence_tier: 1` while its own `asserted_relation` says "Claims to have poisoned (unverified)". Retier (Tier 4/5) and/or add a `false-confession` qualifier. Once F3a lands, the graph stops asserting the wrong poisoner as its strongest Joffrey-death signal.
 
-### F6. Add missing canon-death/attack dyads — **[scriptable from queue JSON + slug-resolution map]**
+### F6. Add missing canon-death/attack dyads — **[scriptable from queue JSON + slug-resolution map]** [EXECUTED 2026-06-14]
 
 D8's KEEP-DYAD default assumed the direct edge already existed in the Pass-1 spine. Verified against live `edges.jsonl`: **none of these have one.** Proposed: emit direct edges using each queue item's participants + evidence quote (chapter-scope provenance, like Plate 3 role edges).
 
@@ -81,18 +89,20 @@ D8's KEEP-DYAD default assumed the direct edge already existed in the Pass-1 spi
 
 ## QUARANTINE (10 items — needs Matt or a policy decision)
 
-| Queue slug | What's unresolvable |
-|---|---|
-| multiple-deaths-at-the-wedding | `dothraki-warriors` is both AGENT_IN and VICTIM_IN of itself (Drogo's wedding brawls); no coherent dyad or hub shape — needs a "collective self-harm event" convention or a drop. |
-| a-boy-is-run-down-and-killed | Victim unnamed, no node. Needs the unnamed-minor-victim node policy before any edge is mintable. |
-| a-captive-girl-is-beheaded | Same unnamed-victim class. |
-| arya-kills-the-postern-guard | Victim unnamed (`postern-guard`, no node) — but this is a canonical entry in Arya's kill list (her live KILLS list lacks it). Mint a minor node or accept the list stays incomplete: Matt's call. |
-| galley-crews-put-to-death-slaves-freed | Victim is an unnamed collective (`ghiscari-galley-crews`, no node); same node-policy question at faction scale. |
-| eagle-attacks-ghost | Attacker is Orell's skinchanged eagle (later Varamyr's). Attaching ATTACKS to species node `eagle` loses the skinchanger identity the project cares about — needs an identity-attachment decision (analog of the impersonation rule). |
-| forest-battle-begins | This micro-beat (northern-forces vs asha at Deepwood Motte) is the graph's only trace of the Battle of Deepwood Motte. A dyad undersells it; a hub is Track B mining territory. Route to Track B, don't resolve here. |
-| three-squires-attack-the-crannogman | Knight of the Laughing Tree backstory — crannogman↔howland-reed identity inference + unnamed squires + Probe 3's "Tourney at Harrenhal: 0 beats" gap. Belongs to a deliberate Harrenhal/KotLT mining decision (Track B), not a one-off edge. |
-| stallion-heart-ceremony | Design said spot-check non-harming for legit ceremonies — this is one: named Dothraki rite carrying the "stallion who mounts the world" prophecy payload (6 agents + Vaes Dothrak). Mint-worthiness is a prophecy-linkage judgment for Matt. |
-| wedding-feast | Queue evidence conflates Tommen's vows with feast beats (participants: tommen, margaery, butterbumps, moon-boy, blue-bard). Which wedding-event this belongs to is ambiguous; Tommen-Margaery has no hub to attach to. |
+> **S95 (2026-06-13) — 5 of 10 items RESOLVED via parallel research subagents.** See `curation/s95-quarantine-resolutions-2026-06-13.md` for full dossiers, JSON-ready edges, and minted-node frontmatter. Cleanup session: read that file as the source of truth for these rows.
+
+| Queue slug | What's unresolvable | S95 status |
+|---|---|---|
+| multiple-deaths-at-the-wedding | `dothraki-warriors` is both AGENT_IN and VICTIM_IN of itself (Drogo's wedding brawls); no coherent dyad or hub shape — needs a "collective self-harm event" convention or a drop. | open |
+| a-boy-is-run-down-and-killed | Victim unnamed, no node. Needs the unnamed-minor-victim node policy before any edge is mintable. | **SKIP — accept gap** (Lhazar sack; **Matt 2026-06-13: NOT Mycah** — Mycah's death already exists as Tier-1 dyad + S95 Q5 reifies it as `death-of-mycah` event hub under `incident-at-the-trident` parent) |
+| a-captive-girl-is-beheaded | Same unnamed-victim class. | **SKIP — accept gap + Pass-1 audit flag** (queue verbatim not located in-corpus; likely LLM paraphrase) |
+| arya-kills-the-postern-guard | Victim unnamed (`postern-guard`, no node) — but this is a canonical entry in Arya's kill list (her live KILLS list lacks it). Mint a minor node or accept the list stays incomplete: Matt's call. | **MINT** `postern-guard-of-harrenhal` (character.human) + KILLS edge (Tier 1, acok-arya-10:295) |
+| galley-crews-put-to-death-slaves-freed | Victim is an unnamed collective (`ghiscari-galley-crews`, no node); same node-policy question at faction scale. | **MINT** `ghiscari-galley-crews-isle-of-cedars` (character.minor collective) + KILLS edge (Tier 1, adwd-victarion-01:53) |
+| eagle-attacks-ghost | Attacker is Orell's skinchanged eagle (later Varamyr's). Attaching ATTACKS to species node `eagle` loses the skinchanger identity the project cares about — needs an identity-attachment decision (analog of the impersonation rule). | **MINT** ATTACKS `orell → ghost` (only scene: ACOK Jon-07:101 — Orell still alive at time of attack; Varamyr-takeover is later); skinchanger-identity convention parallels impersonation rule |
+| forest-battle-begins | This micro-beat (northern-forces vs asha at Deepwood Motte) is the graph's only trace of the Battle of Deepwood Motte. A dyad undersells it; a hub is Track B mining territory. Route to Track B, don't resolve here. | open (route Track B) |
+| three-squires-attack-the-crannogman | Knight of the Laughing Tree backstory — crannogman↔howland-reed identity inference + unnamed squires + Probe 3's "Tourney at Harrenhal: 0 beats" gap. Belongs to a deliberate Harrenhal/KotLT mining decision (Track B), not a one-off edge. | open (route Track B) |
+| stallion-heart-ceremony | Design said spot-check non-harming for legit ceremonies — this is one: named Dothraki rite carrying the "stallion who mounts the world" prophecy payload (6 agents + Vaes Dothrak). Mint-worthiness is a prophecy-linkage judgment for Matt. | **MINT** event hub `stallion-heart-ceremony` (event.ceremony) + prophecy node `stallion-who-mounts-the-world` + SUBJECT_OF_PROPHECY (`rhaego→prophecy`) + PROPHESIED_BY (`prophecy→dosh-khaleen`) + 6 role edges. **Bonus finding:** existing `the-stallion-is-brought-in-and-sacrificed` is mis-slugged (it's Mirri's bloodmagic, not the Vaes Dothrak rite) — rename queued for future session |
+| wedding-feast | Queue evidence conflates Tommen's vows with feast beats (participants: tommen, margaery, butterbumps, moon-boy, blue-bard). Which wedding-event this belongs to is ambiguous; Tommen-Margaery has no hub to attach to. | **MINT** sub-beat `wedding-feast-at-the-red-keep` SUB_BEAT_OF `wedding-of-tommen-i-baratheon-and-margaery-tyrell` (existing hub) + 3 AGENT_IN performers + 2 ATTENDS bride/groom (AFFC Cersei III, affc-cersei-03:147) |
 
 ---
 

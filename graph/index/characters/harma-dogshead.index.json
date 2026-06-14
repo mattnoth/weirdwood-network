@@ -3,13 +3,13 @@
   "name": "Harma Dogshead",
   "type": "character.human",
   "node_path": "graph/nodes/characters/harma-dogshead.node.md",
-  "generated_at": "2026-05-11T22:49:54.031354+00:00",
+  "generated_at": "2026-06-13T15:02:33.157581+00:00",
   "stats": {
-    "appearances_total": 13,
+    "appearances_total": 19,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 9,
+    "chapters_mentioned_in": 13,
     "out_edge_count": 3,
-    "in_edge_count": 4
+    "in_edge_count": 5
   },
   "chapters": {
     "pov": [],
@@ -46,6 +46,27 @@
           "Raw Entity List > Characters"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-jon-03",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-jon-05",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "asos-jon-06",
@@ -107,6 +128,27 @@
           "Characters Referenced"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jon-07",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-prologue",
+        "book": "adwd",
+        "pov_character_slug": "varamyr",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
       }
     ]
   }

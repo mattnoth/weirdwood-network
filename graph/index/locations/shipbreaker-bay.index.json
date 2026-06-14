@@ -3,13 +3,13 @@
   "name": "Shipbreaker Bay",
   "type": "place.location",
   "node_path": "graph/nodes/locations/shipbreaker-bay.node.md",
-  "generated_at": "2026-05-11T23:36:05.639118+00:00",
+  "generated_at": "2026-06-14T20:36:15.765526+00:00",
   "stats": {
     "appearances_total": 11,
     "chapters_referenced_in": 6,
     "chapters_in_raw_list": 5,
     "out_edge_count": 0,
-    "in_edge_count": 24,
+    "in_edge_count": 36,
     "chapters_in_locations_section": 6
   },
   "chapters": {

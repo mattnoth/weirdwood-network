@@ -1,0 +1,29 @@
+{
+  "slug": "grazdan-mo-ullhor",
+  "name": "Grazdan mo Ullhor",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/grazdan-mo-ullhor.node.md",
+  "generated_at": "2026-06-13T15:02:33.022578+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-daenerys-06",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

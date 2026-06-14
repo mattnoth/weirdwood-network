@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-11T22:49:54.153707+00:00",
+  "generated_at": "2026-06-13T15:02:33.306650+00:00",
   "dry_run": false,
-  "character_count": 3911,
+  "character_count": 3922,
   "type_counts": {
-    "character.human": 3877,
+    "character.human": 3888,
     "character.dragon": 28,
     "character.direwolf": 6
   },
   "pov_characters_count": 31,
-  "characters_with_zero_mentions": 2176,
+  "characters_with_zero_mentions": 2161,
   "year_pages_emitted_as_characters": 10,
   "pov_inverse_slugs": 31,
-  "mention_inverse_slugs": 9487,
+  "mention_inverse_slugs": 9419,
   "top_by_appearances": [
     {
       "slug": "eddard-stark",
@@ -20,7 +20,7 @@
       "chapters_pov": 15,
       "chapters_mentioned_in": 185,
       "appearances_total": 264,
-      "in_edge_count": 493,
+      "in_edge_count": 816,
       "out_edge_count": 22
     },
     {
@@ -30,7 +30,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 175,
       "appearances_total": 240,
-      "in_edge_count": 474,
+      "in_edge_count": 731,
       "out_edge_count": 10
     },
     {
@@ -40,7 +40,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 166,
       "appearances_total": 213,
-      "in_edge_count": 28,
+      "in_edge_count": 97,
       "out_edge_count": 0
     },
     {
@@ -50,7 +50,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 157,
       "appearances_total": 210,
-      "in_edge_count": 524,
+      "in_edge_count": 848,
       "out_edge_count": 22
     },
     {
@@ -60,7 +60,7 @@
       "chapters_pov": 17,
       "chapters_mentioned_in": 134,
       "appearances_total": 198,
-      "in_edge_count": 767,
+      "in_edge_count": 1122,
       "out_edge_count": 25
     },
     {
@@ -70,7 +70,7 @@
       "chapters_pov": 12,
       "chapters_mentioned_in": 122,
       "appearances_total": 194,
-      "in_edge_count": 586,
+      "in_edge_count": 949,
       "out_edge_count": 27
     },
     {
@@ -80,7 +80,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 136,
       "appearances_total": 183,
-      "in_edge_count": 631,
+      "in_edge_count": 1070,
       "out_edge_count": 17
     },
     {
@@ -90,7 +90,7 @@
       "chapters_pov": 47,
       "chapters_mentioned_in": 101,
       "appearances_total": 173,
-      "in_edge_count": 763,
+      "in_edge_count": 1272,
       "out_edge_count": 16
     },
     {
@@ -100,7 +100,7 @@
       "chapters_pov": 24,
       "chapters_mentioned_in": 112,
       "appearances_total": 172,
-      "in_edge_count": 434,
+      "in_edge_count": 690,
       "out_edge_count": 13
     },
     {
@@ -110,7 +110,7 @@
       "chapters_pov": 33,
       "chapters_mentioned_in": 92,
       "appearances_total": 158,
-      "in_edge_count": 490,
+      "in_edge_count": 843,
       "out_edge_count": 14
     },
     {
@@ -120,7 +120,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 110,
       "appearances_total": 157,
-      "in_edge_count": 329,
+      "in_edge_count": 652,
       "out_edge_count": 13
     },
     {
@@ -130,7 +130,7 @@
       "chapters_pov": 25,
       "chapters_mentioned_in": 98,
       "appearances_total": 156,
-      "in_edge_count": 457,
+      "in_edge_count": 685,
       "out_edge_count": 19
     },
     {
@@ -140,7 +140,7 @@
       "chapters_pov": 42,
       "chapters_mentioned_in": 75,
       "appearances_total": 154,
-      "in_edge_count": 666,
+      "in_edge_count": 973,
       "out_edge_count": 8
     },
     {
@@ -150,7 +150,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 88,
       "appearances_total": 135,
-      "in_edge_count": 180,
+      "in_edge_count": 290,
       "out_edge_count": 6
     },
     {
@@ -160,7 +160,7 @@
       "chapters_pov": 21,
       "chapters_mentioned_in": 89,
       "appearances_total": 131,
-      "in_edge_count": 229,
+      "in_edge_count": 461,
       "out_edge_count": 13
     },
     {
@@ -170,7 +170,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 93,
       "appearances_total": 118,
-      "in_edge_count": 226,
+      "in_edge_count": 385,
       "out_edge_count": 12
     },
     {
@@ -180,7 +180,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 78,
       "appearances_total": 114,
-      "in_edge_count": 163,
+      "in_edge_count": 285,
       "out_edge_count": 11
     },
     {
@@ -190,7 +190,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 56,
       "appearances_total": 105,
-      "in_edge_count": 34,
+      "in_edge_count": 80,
       "out_edge_count": 1
     },
     {
@@ -200,7 +200,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 72,
       "appearances_total": 101,
-      "in_edge_count": 242,
+      "in_edge_count": 419,
       "out_edge_count": 12
     },
     {
@@ -210,21 +210,11 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 70,
       "appearances_total": 96,
-      "in_edge_count": 49,
+      "in_edge_count": 103,
       "out_edge_count": 6
     }
   ],
   "top_by_in_edges": [
-    {
-      "slug": "jaime-lannister",
-      "name": "Jaime Lannister",
-      "type": "character.human",
-      "chapters_pov": 17,
-      "chapters_mentioned_in": 134,
-      "appearances_total": 198,
-      "in_edge_count": 767,
-      "out_edge_count": 25
-    },
     {
       "slug": "tyrion-lannister",
       "name": "Tyrion Lannister",
@@ -232,18 +222,18 @@
       "chapters_pov": 47,
       "chapters_mentioned_in": 101,
       "appearances_total": 173,
-      "in_edge_count": 763,
+      "in_edge_count": 1272,
       "out_edge_count": 16
     },
     {
-      "slug": "jon-snow",
-      "name": "Jon Snow",
+      "slug": "jaime-lannister",
+      "name": "Jaime Lannister",
       "type": "character.human",
-      "chapters_pov": 42,
-      "chapters_mentioned_in": 75,
-      "appearances_total": 154,
-      "in_edge_count": 666,
-      "out_edge_count": 8
+      "chapters_pov": 17,
+      "chapters_mentioned_in": 134,
+      "appearances_total": 198,
+      "in_edge_count": 1122,
+      "out_edge_count": 25
     },
     {
       "slug": "stannis-baratheon",
@@ -252,8 +242,28 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 136,
       "appearances_total": 183,
-      "in_edge_count": 631,
+      "in_edge_count": 1070,
       "out_edge_count": 17
+    },
+    {
+      "slug": "jon-snow",
+      "name": "Jon Snow",
+      "type": "character.human",
+      "chapters_pov": 42,
+      "chapters_mentioned_in": 75,
+      "appearances_total": 154,
+      "in_edge_count": 973,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "daenerys-targaryen",
+      "name": "Daenerys Targaryen",
+      "type": "character.human",
+      "chapters_pov": 31,
+      "chapters_mentioned_in": 32,
+      "appearances_total": 77,
+      "in_edge_count": 968,
+      "out_edge_count": 19
     },
     {
       "slug": "cersei-lannister",
@@ -262,7 +272,7 @@
       "chapters_pov": 12,
       "chapters_mentioned_in": 122,
       "appearances_total": 194,
-      "in_edge_count": 586,
+      "in_edge_count": 949,
       "out_edge_count": 27
     },
     {
@@ -272,27 +282,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 157,
       "appearances_total": 210,
-      "in_edge_count": 524,
-      "out_edge_count": 22
-    },
-    {
-      "slug": "daenerys-targaryen",
-      "name": "Daenerys Targaryen",
-      "type": "character.human",
-      "chapters_pov": 31,
-      "chapters_mentioned_in": 31,
-      "appearances_total": 76,
-      "in_edge_count": 515,
-      "out_edge_count": 19
-    },
-    {
-      "slug": "eddard-stark",
-      "name": "Eddard Stark",
-      "type": "character.human",
-      "chapters_pov": 15,
-      "chapters_mentioned_in": 185,
-      "appearances_total": 264,
-      "in_edge_count": 493,
+      "in_edge_count": 848,
       "out_edge_count": 22
     },
     {
@@ -302,18 +292,18 @@
       "chapters_pov": 33,
       "chapters_mentioned_in": 92,
       "appearances_total": 158,
-      "in_edge_count": 490,
+      "in_edge_count": 843,
       "out_edge_count": 14
     },
     {
-      "slug": "robb-stark",
-      "name": "Robb Stark",
+      "slug": "eddard-stark",
+      "name": "Eddard Stark",
       "type": "character.human",
-      "chapters_pov": 0,
-      "chapters_mentioned_in": 175,
-      "appearances_total": 240,
-      "in_edge_count": 474,
-      "out_edge_count": 10
+      "chapters_pov": 15,
+      "chapters_mentioned_in": 185,
+      "appearances_total": 264,
+      "in_edge_count": 816,
+      "out_edge_count": 22
     },
     {
       "slug": "robert-i-baratheon",
@@ -322,18 +312,18 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 7,
       "appearances_total": 9,
-      "in_edge_count": 458,
+      "in_edge_count": 761,
       "out_edge_count": 30
     },
     {
-      "slug": "catelyn-stark",
-      "name": "Catelyn Stark",
+      "slug": "robb-stark",
+      "name": "Robb Stark",
       "type": "character.human",
-      "chapters_pov": 25,
-      "chapters_mentioned_in": 98,
-      "appearances_total": 156,
-      "in_edge_count": 457,
-      "out_edge_count": 19
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 175,
+      "appearances_total": 240,
+      "in_edge_count": 731,
+      "out_edge_count": 10
     },
     {
       "slug": "sansa-stark",
@@ -342,7 +332,27 @@
       "chapters_pov": 24,
       "chapters_mentioned_in": 112,
       "appearances_total": 172,
-      "in_edge_count": 434,
+      "in_edge_count": 690,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "catelyn-stark",
+      "name": "Catelyn Stark",
+      "type": "character.human",
+      "chapters_pov": 25,
+      "chapters_mentioned_in": 98,
+      "appearances_total": 156,
+      "in_edge_count": 685,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "joffrey-baratheon",
+      "name": "Joffrey Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 110,
+      "appearances_total": 157,
+      "in_edge_count": 652,
       "out_edge_count": 13
     },
     {
@@ -352,18 +362,28 @@
       "chapters_pov": 13,
       "chapters_mentioned_in": 50,
       "appearances_total": 81,
-      "in_edge_count": 345,
+      "in_edge_count": 514,
       "out_edge_count": 12
     },
     {
-      "slug": "joffrey-baratheon",
-      "name": "Joffrey Baratheon",
+      "slug": "bran-stark",
+      "name": "Bran Stark",
+      "type": "character.human",
+      "chapters_pov": 21,
+      "chapters_mentioned_in": 89,
+      "appearances_total": 131,
+      "in_edge_count": 461,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "jaehaerys-i-targaryen",
+      "name": "Jaehaerys I Targaryen",
       "type": "character.human",
       "chapters_pov": 0,
-      "chapters_mentioned_in": 110,
-      "appearances_total": 157,
-      "in_edge_count": 329,
-      "out_edge_count": 13
+      "chapters_mentioned_in": 12,
+      "appearances_total": 15,
+      "in_edge_count": 455,
+      "out_edge_count": 32
     },
     {
       "slug": "davos-seaworth",
@@ -372,38 +392,18 @@
       "chapters_pov": 13,
       "chapters_mentioned_in": 9,
       "appearances_total": 25,
-      "in_edge_count": 282,
+      "in_edge_count": 430,
       "out_edge_count": 16
     },
     {
-      "slug": "barristan-selmy",
-      "name": "Barristan Selmy",
-      "type": "character.human",
-      "chapters_pov": 4,
-      "chapters_mentioned_in": 57,
-      "appearances_total": 89,
-      "in_edge_count": 247,
-      "out_edge_count": 12
-    },
-    {
-      "slug": "petyr-baelish",
-      "name": "Petyr Baelish",
+      "slug": "rhaenyra-targaryen",
+      "name": "Rhaenyra Targaryen",
       "type": "character.human",
       "chapters_pov": 0,
-      "chapters_mentioned_in": 72,
-      "appearances_total": 101,
-      "in_edge_count": 242,
-      "out_edge_count": 12
-    },
-    {
-      "slug": "roose-bolton",
-      "name": "Roose Bolton",
-      "type": "character.human",
-      "chapters_pov": 0,
-      "chapters_mentioned_in": 65,
-      "appearances_total": 95,
-      "in_edge_count": 240,
-      "out_edge_count": 9
+      "chapters_mentioned_in": 3,
+      "appearances_total": 4,
+      "in_edge_count": 420,
+      "out_edge_count": 24
     },
     {
       "slug": "aegon-i-targaryen",
@@ -412,7 +412,7 @@
       "chapters_pov": 0,
       "chapters_mentioned_in": 47,
       "appearances_total": 61,
-      "in_edge_count": 234,
+      "in_edge_count": 419,
       "out_edge_count": 18
     }
   ],
@@ -424,7 +424,7 @@
       "chapters_pov": 47,
       "chapters_mentioned_in": 101,
       "appearances_total": 173,
-      "in_edge_count": 763,
+      "in_edge_count": 1272,
       "out_edge_count": 16
     },
     {
@@ -434,7 +434,7 @@
       "chapters_pov": 42,
       "chapters_mentioned_in": 75,
       "appearances_total": 154,
-      "in_edge_count": 666,
+      "in_edge_count": 973,
       "out_edge_count": 8
     },
     {
@@ -444,7 +444,7 @@
       "chapters_pov": 33,
       "chapters_mentioned_in": 92,
       "appearances_total": 158,
-      "in_edge_count": 490,
+      "in_edge_count": 843,
       "out_edge_count": 14
     },
     {
@@ -452,9 +452,9 @@
       "name": "Daenerys Targaryen",
       "type": "character.human",
       "chapters_pov": 31,
-      "chapters_mentioned_in": 31,
-      "appearances_total": 76,
-      "in_edge_count": 515,
+      "chapters_mentioned_in": 32,
+      "appearances_total": 77,
+      "in_edge_count": 968,
       "out_edge_count": 19
     },
     {
@@ -464,7 +464,7 @@
       "chapters_pov": 25,
       "chapters_mentioned_in": 98,
       "appearances_total": 156,
-      "in_edge_count": 457,
+      "in_edge_count": 685,
       "out_edge_count": 19
     },
     {
@@ -474,7 +474,7 @@
       "chapters_pov": 24,
       "chapters_mentioned_in": 112,
       "appearances_total": 172,
-      "in_edge_count": 434,
+      "in_edge_count": 690,
       "out_edge_count": 13
     },
     {
@@ -484,7 +484,7 @@
       "chapters_pov": 21,
       "chapters_mentioned_in": 89,
       "appearances_total": 131,
-      "in_edge_count": 229,
+      "in_edge_count": 461,
       "out_edge_count": 13
     },
     {
@@ -494,7 +494,7 @@
       "chapters_pov": 17,
       "chapters_mentioned_in": 134,
       "appearances_total": 198,
-      "in_edge_count": 767,
+      "in_edge_count": 1122,
       "out_edge_count": 25
     },
     {
@@ -504,7 +504,7 @@
       "chapters_pov": 15,
       "chapters_mentioned_in": 185,
       "appearances_total": 264,
-      "in_edge_count": 493,
+      "in_edge_count": 816,
       "out_edge_count": 22
     },
     {
@@ -514,7 +514,7 @@
       "chapters_pov": 13,
       "chapters_mentioned_in": 9,
       "appearances_total": 25,
-      "in_edge_count": 282,
+      "in_edge_count": 430,
       "out_edge_count": 16
     },
     {
@@ -524,7 +524,7 @@
       "chapters_pov": 13,
       "chapters_mentioned_in": 50,
       "appearances_total": 81,
-      "in_edge_count": 345,
+      "in_edge_count": 514,
       "out_edge_count": 12
     },
     {
@@ -534,7 +534,7 @@
       "chapters_pov": 12,
       "chapters_mentioned_in": 122,
       "appearances_total": 194,
-      "in_edge_count": 586,
+      "in_edge_count": 949,
       "out_edge_count": 27
     },
     {
@@ -544,7 +544,7 @@
       "chapters_pov": 10,
       "chapters_mentioned_in": 24,
       "appearances_total": 53,
-      "in_edge_count": 221,
+      "in_edge_count": 379,
       "out_edge_count": 9
     },
     {
@@ -554,7 +554,7 @@
       "chapters_pov": 8,
       "chapters_mentioned_in": 26,
       "appearances_total": 55,
-      "in_edge_count": 87,
+      "in_edge_count": 116,
       "out_edge_count": 10
     },
     {
@@ -564,7 +564,7 @@
       "chapters_pov": 4,
       "chapters_mentioned_in": 11,
       "appearances_total": 20,
-      "in_edge_count": 97,
+      "in_edge_count": 178,
       "out_edge_count": 12
     },
     {
@@ -574,7 +574,7 @@
       "chapters_pov": 4,
       "chapters_mentioned_in": 57,
       "appearances_total": 89,
-      "in_edge_count": 247,
+      "in_edge_count": 385,
       "out_edge_count": 12
     },
     {
@@ -584,7 +584,7 @@
       "chapters_pov": 4,
       "chapters_mentioned_in": 8,
       "appearances_total": 16,
-      "in_edge_count": 127,
+      "in_edge_count": 259,
       "out_edge_count": 8
     },
     {
@@ -594,7 +594,7 @@
       "chapters_pov": 4,
       "chapters_mentioned_in": 10,
       "appearances_total": 20,
-      "in_edge_count": 196,
+      "in_edge_count": 292,
       "out_edge_count": 11
     },
     {
@@ -604,7 +604,7 @@
       "chapters_pov": 2,
       "chapters_mentioned_in": 10,
       "appearances_total": 17,
-      "in_edge_count": 93,
+      "in_edge_count": 157,
       "out_edge_count": 7
     },
     {
@@ -614,7 +614,7 @@
       "chapters_pov": 2,
       "chapters_mentioned_in": 3,
       "appearances_total": 9,
-      "in_edge_count": 21,
+      "in_edge_count": 43,
       "out_edge_count": 7
     },
     {
@@ -624,7 +624,7 @@
       "chapters_pov": 2,
       "chapters_mentioned_in": 16,
       "appearances_total": 29,
-      "in_edge_count": 128,
+      "in_edge_count": 180,
       "out_edge_count": 10
     },
     {
@@ -634,7 +634,7 @@
       "chapters_pov": 2,
       "chapters_mentioned_in": 7,
       "appearances_total": 12,
-      "in_edge_count": 139,
+      "in_edge_count": 233,
       "out_edge_count": 9
     },
     {
@@ -644,7 +644,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 0,
       "appearances_total": 1,
-      "in_edge_count": 26,
+      "in_edge_count": 45,
       "out_edge_count": 8
     },
     {
@@ -654,7 +654,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 36,
       "appearances_total": 47,
-      "in_edge_count": 167,
+      "in_edge_count": 231,
       "out_edge_count": 18
     },
     {
@@ -664,7 +664,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 4,
       "appearances_total": 8,
-      "in_edge_count": 12,
+      "in_edge_count": 31,
       "out_edge_count": 3
     },
     {
@@ -674,7 +674,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 9,
       "appearances_total": 19,
-      "in_edge_count": 25,
+      "in_edge_count": 51,
       "out_edge_count": 5
     },
     {
@@ -684,7 +684,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 33,
       "appearances_total": 60,
-      "in_edge_count": 171,
+      "in_edge_count": 276,
       "out_edge_count": 3
     },
     {
@@ -694,7 +694,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 16,
       "appearances_total": 24,
-      "in_edge_count": 54,
+      "in_edge_count": 80,
       "out_edge_count": 8
     },
     {
@@ -704,7 +704,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 5,
       "appearances_total": 7,
-      "in_edge_count": 13,
+      "in_edge_count": 22,
       "out_edge_count": 2
     },
     {
@@ -714,7 +714,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 9,
       "appearances_total": 14,
-      "in_edge_count": 44,
+      "in_edge_count": 61,
       "out_edge_count": 6
     },
     {
@@ -724,7 +724,7 @@
       "chapters_pov": 1,
       "chapters_mentioned_in": 6,
       "appearances_total": 8,
-      "in_edge_count": 79,
+      "in_edge_count": 96,
       "out_edge_count": 11
     }
   ]

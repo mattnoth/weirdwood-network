@@ -3,13 +3,13 @@
   "name": "Needle",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/needle.node.md",
-  "generated_at": "2026-05-11T23:36:15.797841+00:00",
+  "generated_at": "2026-06-14T20:36:15.672598+00:00",
   "stats": {
     "appearances_total": 34,
     "chapters_referenced_in": 22,
     "chapters_in_raw_list": 11,
     "out_edge_count": 0,
-    "in_edge_count": 10,
+    "in_edge_count": 28,
     "chapters_in_artifacts_section": 21
   },
   "chapters": {

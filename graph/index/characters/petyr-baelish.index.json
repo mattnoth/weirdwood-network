@@ -3,13 +3,13 @@
   "name": "Petyr Baelish",
   "type": "character.human",
   "node_path": "graph/nodes/characters/petyr-baelish.node.md",
-  "generated_at": "2026-05-11T22:49:53.837104+00:00",
+  "generated_at": "2026-06-13T15:02:32.874112+00:00",
   "stats": {
     "appearances_total": 101,
     "chapters_pov": 0,
     "chapters_mentioned_in": 72,
     "out_edge_count": 12,
-    "in_edge_count": 242
+    "in_edge_count": 419
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "Citadel",
   "type": "place.location",
   "node_path": "graph/nodes/locations/citadel.node.md",
-  "generated_at": "2026-05-11T23:36:05.655912+00:00",
+  "generated_at": "2026-06-14T20:36:15.789405+00:00",
   "stats": {
     "appearances_total": 40,
     "chapters_referenced_in": 31,
     "chapters_in_raw_list": 5,
     "out_edge_count": 0,
-    "in_edge_count": 93,
+    "in_edge_count": 185,
     "chapters_in_locations_section": 29
   },
   "chapters": {

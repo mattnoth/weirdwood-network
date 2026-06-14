@@ -3,13 +3,13 @@
   "name": "Mormont's raven",
   "type": "character.human",
   "node_path": "graph/nodes/characters/mormonts-raven.node.md",
-  "generated_at": "2026-05-11T22:49:54.088687+00:00",
+  "generated_at": "2026-06-13T15:02:33.228139+00:00",
   "stats": {
     "appearances_total": 44,
     "chapters_pov": 0,
     "chapters_mentioned_in": 25,
     "out_edge_count": 2,
-    "in_edge_count": 8
+    "in_edge_count": 13
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "Robert Arryn",
   "type": "character.human",
   "node_path": "graph/nodes/characters/robert-arryn.node.md",
-  "generated_at": "2026-05-11T22:49:54.121033+00:00",
+  "generated_at": "2026-06-13T15:02:33.268131+00:00",
   "stats": {
     "appearances_total": 33,
     "chapters_pov": 0,
     "chapters_mentioned_in": 22,
     "out_edge_count": 7,
-    "in_edge_count": 70
+    "in_edge_count": 148
   },
   "chapters": {
     "pov": [],

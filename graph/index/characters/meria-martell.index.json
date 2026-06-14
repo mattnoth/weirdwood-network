@@ -3,13 +3,13 @@
   "name": "Meria Martell",
   "type": "character.human",
   "node_path": "graph/nodes/characters/meria-martell.node.md",
-  "generated_at": "2026-05-11T22:49:53.776742+00:00",
+  "generated_at": "2026-06-13T15:02:32.779268+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 5,
-    "in_edge_count": 13
+    "in_edge_count": 19
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "Rhaenyra Targaryen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/rhaenyra-targaryen.node.md",
-  "generated_at": "2026-05-11T22:49:53.780625+00:00",
+  "generated_at": "2026-06-13T15:02:32.784706+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_pov": 0,
     "chapters_mentioned_in": 3,
     "out_edge_count": 24,
-    "in_edge_count": 228
+    "in_edge_count": 420
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "House Frey",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-frey.node.md",
-  "generated_at": "2026-05-11T23:36:16.201264+00:00",
+  "generated_at": "2026-06-14T20:36:15.731084+00:00",
   "stats": {
-    "appearances_total": 25,
-    "chapters_referenced_in": 25,
+    "appearances_total": 29,
+    "chapters_referenced_in": 26,
     "chapters_in_raw_list": 25,
     "out_edge_count": 7,
-    "in_edge_count": 198
+    "in_edge_count": 299
   },
   "chapters": {
     "in_raw_list": [
@@ -185,11 +185,12 @@
         "chapter_id": "asos-tyrion-07",
         "book": "asos",
         "pov_character_slug": "tyrion-lannister",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Characters Referenced",
           "Raw Entity List > Houses"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -281,8 +282,9 @@
         "chapter_id": "adwd-reek-02",
         "book": "adwd",
         "pov_character_slug": "theon-greyjoy",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Raw Entity List > Cultures & Peoples",
           "Raw Entity List > Houses"
         ],
         "resolved_via": "direct",
@@ -293,11 +295,12 @@
         "chapter_id": "adwd-the-griffin-reborn-01",
         "book": "adwd",
         "pov_character_slug": "jon-connington",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Characters Referenced",
           "Raw Entity List > Houses"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -487,11 +490,12 @@
         "chapter_id": "asos-tyrion-07",
         "book": "asos",
         "pov_character_slug": "tyrion-lannister",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Characters Referenced",
           "Raw Entity List > Houses"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -530,6 +534,18 @@
         "resolved_via": "direct",
         "in_primary_section": false,
         "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-cersei-05",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
       },
       {
         "chapter_id": "affc-sansa-01",
@@ -583,8 +599,9 @@
         "chapter_id": "adwd-reek-02",
         "book": "adwd",
         "pov_character_slug": "theon-greyjoy",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Raw Entity List > Cultures & Peoples",
           "Raw Entity List > Houses"
         ],
         "resolved_via": "direct",
@@ -595,11 +612,12 @@
         "chapter_id": "adwd-the-griffin-reborn-01",
         "book": "adwd",
         "pov_character_slug": "jon-connington",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Characters Referenced",
           "Raw Entity List > Houses"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },

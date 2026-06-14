@@ -3,13 +3,13 @@
   "name": "Qhorin Halfhand",
   "type": "character.human",
   "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
-  "generated_at": "2026-05-11T22:49:54.118548+00:00",
+  "generated_at": "2026-06-13T15:02:33.265168+00:00",
   "stats": {
-    "appearances_total": 42,
+    "appearances_total": 44,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 28,
+    "chapters_mentioned_in": 29,
     "out_edge_count": 3,
-    "in_edge_count": 42
+    "in_edge_count": 70
   },
   "chapters": {
     "pov": [],
@@ -33,6 +33,17 @@
           "Characters Referenced"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-jon-02",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "acok-jon-04",

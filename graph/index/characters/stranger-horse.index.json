@@ -3,13 +3,13 @@
   "name": "Stranger (horse)",
   "type": "character.human",
   "node_path": "graph/nodes/characters/stranger-horse.node.md",
-  "generated_at": "2026-05-11T22:49:54.043949+00:00",
+  "generated_at": "2026-06-13T15:02:33.172056+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_pov": 0,
     "chapters_mentioned_in": 1,
     "out_edge_count": 2,
-    "in_edge_count": 6
+    "in_edge_count": 13
   },
   "chapters": {
     "pov": [],

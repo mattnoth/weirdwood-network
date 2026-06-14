@@ -3,13 +3,13 @@
   "name": "Selhorys",
   "type": "place.location",
   "node_path": "graph/nodes/locations/selhorys.node.md",
-  "generated_at": "2026-05-11T23:36:05.658232+00:00",
+  "generated_at": "2026-06-14T20:36:15.792912+00:00",
   "stats": {
     "appearances_total": 9,
     "chapters_referenced_in": 5,
     "chapters_in_raw_list": 3,
     "out_edge_count": 0,
-    "in_edge_count": 21,
+    "in_edge_count": 41,
     "chapters_in_locations_section": 5
   },
   "chapters": {

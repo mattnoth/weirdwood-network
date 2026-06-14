@@ -3,13 +3,13 @@
   "name": "Robyn Rhysling",
   "type": "character.human",
   "node_path": "graph/nodes/characters/robyn-rhysling.node.md",
-  "generated_at": "2026-05-11T22:49:53.861756+00:00",
+  "generated_at": "2026-06-13T15:02:32.910618+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 4,
-    "in_edge_count": 1
+    "in_edge_count": 5
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "House Flint of Flint's Finger",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-flint-of-flints-finger.node.md",
-  "generated_at": "2026-05-11T23:36:16.200694+00:00",
+  "generated_at": "2026-06-14T20:36:15.729358+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
     "chapters_in_raw_list": 0,
     "out_edge_count": 5,
-    "in_edge_count": 2
+    "in_edge_count": 6
   },
   "chapters": {
     "in_raw_list": [],

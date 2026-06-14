@@ -1,6 +1,6 @@
 # Worklog Archive 019
 
-> archive019 — 2/5
+> archive019 — 5/5
 
 ---
 
@@ -63,3 +63,71 @@ Plate 5 — the single gated step that writes all staged edge-modeling work into
 **Out of scope (preserved untouched):** Matt's IDE edits to `progress/continue-prompts/2026-06-08-alias-and-display-design.md`; scratch deletions; `Untitled 6.rtf` deletion; `scr` untracked file at repo root.
 
 **What's next:** → `progress/continue-prompts/2026-06-09-graph-validation.md` (**Opus 4.7** — design judgment in interpreting probe results; deterministic query work is `graph-query.py`). Matt picks Mode 1 vs straight-to-Mode-3.
+### Session 89 — Mode 1 graph-validation probes complete + Phase 1 overnight kickoff (2026-06-10)
+
+**Model:** Opus 4.7 (orchestrator + probe interpretation). 3 `script-builder` agents launched in background at end-of-session for overnight autonomous work. **Detail:** none — full narrative in `working/session-results/2026-06-09-graph-validation.md`. **Commit:** this endsession commit.
+
+**Probes 5-8 finished:** (5) historical-events dark zone CONFIRMED — 8/10 anchors have 0 edges; 5 exist as nodes but isolated; `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` fires exactly 1× (Rhaegar→Lyanna from AGOT Eddard XV — Pass-1 caught the dyadic act but didn't attach it to the `tourney-at-harrenhal` hub; **refines NEW TODO #9 to "structural attachment" not "extraction"**). (6) Tywin↔Mountain — 4 direct + 6 2-hop, all person-mediated, zero event bridges (Sack-of-KL absent — same dark zone). (7) Red Wedding beat-union: Walder Frey 7/8 + Roose 1, Tywin absent (off-page architect); 3 NEW wrong-direction role edges for hub-review #3. (8) `robb-is-killed` has roles + structural but NO WIELDED_IN (weapon class dark — dagger, not a named sword; continue-prompt-stated "longsword" was wrong, fixed in writeup).
+
+**Writeup landed:** `working/session-results/2026-06-09-graph-validation.md` (full 8-probe narrative + Mode 1→Mode 3 readiness call recommending **hybrid**: build #7+#8 + apply #10 first, then light Mode 3 dip drives Track B priorities). 5 NEW TODOs (#7 `--event-participants` primitive, #8 event-alias-resolver, #9 historical-anchor structural-backfill, #10 rename `joffrey-orders-execution`, #11 role-edge citation harmonization). Plus 4 NEW hub-review-queue items (S87 followup #3 grew).
+
+**Overnight autonomous kickoff (Matt 2026-06-10, going to bed):** 3 `script-builder` agents launched in background:
+- **Agent 1 — `--event-participants` primitive (#7): DONE.** `scripts/graph-query.py` extended with `cmd_event_participants()`. 4/4 smoke tests pass: red-wedding (8 beats, 29 role edges, 13 distinct participants), tourney-at-harrenhal (clean "no beats" message), nonexistent slug (clean "hub not found"), --json (valid). Results: `working/session-results/2026-06-10-overnight-event-participants.md`.
+- **Agent 2 — Event-alias-resolver (#8): DONE.** `scripts/event_alias_resolver.py` + `working/wiki/data/event-alias-lookup.json` (876 phrases, 1 correct collision on `conquest-of-dorne`). 7/9 smoke tests HIT; 2 MISS are correct ("Ned's execution" auto-resolves after #10 rename + rebuild; "the Trident" needs editorial `aliases:` entry). Results: `working/session-results/2026-06-10-overnight-alias-resolver.md`.
+- **Agent 3 — Rename script + DRY-RUN (#10): DONE post-commit.** `scripts/rename-event-node.py` (513 lines, `--dry-run`/`--apply`, atomic writes). Dry-run clean: 1 node file + **6 edge rows** (5 source/target + 1 superseded_by — **matches S89 probe count exactly**) + 0 reference-file hits. Action-slug audit: 29 candidates → 6 rename / 14 keep / 9 flagged for Matt. Results: `working/session-results/2026-06-10-overnight-rename-dryrun.md`. APPLY command queued in todos #10.
+
+**Hard rules carried:** no writes to `edges.jsonl` or `graph/nodes/`, no auto-/endsession, no progression past Phase 1. All probe commands were read-only. Plate 5 state preserved: edges.jsonl=4,757, events/=583.
+
+**What's next:**
+- Matt wakes up → review 3 overnight result files → run `--apply` for #10 if dry-run is clean → fire continue prompt to start Phase 2.
+- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — light Mode 3 grounded-agent dip (5-10 queries against the graph), failure modes drive Track B priorities. Depends on #7+#8 agents completing successfully overnight.
+
+---
+### Session 90 — S89 overnight review + primary rename applied + remaining rename decisions queued for Opus (2026-06-11)
+
+**Model:** Opus 4.7 (orchestrator + applied the primary rename). **Detail:** none (review + small apply + handoff session). **Commit:** this endsession commit.
+
+**What this session was:** post-overnight review of Phase 1 results from S89 + first real apply against the renamed-rebuilt graph. Matt read the 3 overnight result files, did slug-vs-victim disambiguation explainers (Ned/Eddard alias chain, "what's a hit", S89 probe count semantics, chapter→graph→dialog query chain). Then applied the **primary** rename himself (`joffrey-orders-execution` → `execution-of-eddard-stark`) — touched 7 artifacts (1 node move + 6 edge rows). Surfaced 2 #8-deliverable bugs + a #10-script gap during apply (postmortem in todos.md #10).
+
+**Bugs found during primary apply (2026-06-11):**
+1. **`event_alias_resolver.py` (Agent #8) parser bug:** only parses inline `aliases: [...]` YAML form; block-style YAML list (`aliases:\n  - "..."`) silently corrupts to a single key. Harden the parser OR enforce inline convention as the canonical form. Matt used inline form for the apply.
+2. **Agent #8's "auto-resolve on rebuild" prediction was wrong:** "Ned's execution" did NOT auto-resolve from the new slug `execution-of-eddard-stark`. It needs an explicit `aliases:` frontmatter entry — which Matt added (`aliases: ["Ned's execution"]`). Lesson: the deterministic resolver is phrase-lookup only; no semantic substitution; reader-natural phrasings must be enumerated.
+3. **`rename-event-node.py` (Agent #10) coverage gap:** script rewrites frontmatter + slug-form refs in JSONL/JSON/MD files, but does NOT touch (a) the renamed node's own H1 + mint-prose body text, (b) free-text `plate5_superseded_note` fields in edge rows. Matt fixed both manually post-apply. Extend the script before any batch run.
+
+**Verification post-primary-apply:** 0 residual old-slug refs in `graph/`; `edges.jsonl` row count unchanged at 4,757; `--health` 0 new orphans; new node's 5 edges traverse; both "Ned's execution" and "execution of eddard stark" resolve to the new slug; old action phrase is dead.
+
+**Documentation polish:** added a plain-English preamble + TL;DR + "Your decisions" scannable table to `working/session-results/2026-06-10-overnight-rename-dryrun.md` so it's not a wall of agent output. Matt filled in his per-slug yes/no/different-suggestion decisions in that same file's "Your decisions" table — for the **5 secondary clean** candidates + **9 flagged** candidates. Those remain queued.
+
+**No further graph writes this session beyond the primary.** `edges.jsonl` 4,757; `events/` 583. The remaining ~14 rename decisions are queued for a fresh Opus session via the new continue prompt.
+
+**What's next:**
+- → `progress/continue-prompts/2026-06-11-execute-rename-decisions.md` (**Opus 4.7**) — fresh Opus reads Matt's filled-in decisions, runs per-slug dry-run-then-apply, adds curated `aliases:` (inline form only — bug #1), patches body H1 + mint-prose + plate5_superseded_note free-text per rename (bug #3), rebuilds events index + event-alias-resolver at the end, verifies alias-chain works. Hardening of bug #1 and bug #3 in-script is OPTIONAL upgrade — work-around pattern documented in the continue prompt.
+- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip. **After** remaining renames land.
+
+---
+
+### Session 91 — Rename execution batch + DECEIVES pilot edges + structural restructures queued (2026-06-11)
+
+**Model:** Opus 4.7 (orchestrator + applied 9 renames + minted 3 pilot edges; 9 background sub-agents delegated for rename analysis / source verification / deception-feasibility). **Detail:** none (execution-heavy; subagent decision packets reproduced into the deferred-restructures continue prompt). **Commit:** this endsession commit.
+
+**Changes made:**
+- `graph/nodes/events/` — 9 file renames + 11 files patched (H1, mint-prose, inline-form aliases): Sand Snakes, Slynt, Dontos, Symon, Kerwin, cersei→execution-of-the-blackwater-deserters, qhorin→jon-spares-ygritte, cersei→cersei-s-plot-to-assassinate-jon-snow, wyman→wyman-publicly-arrests-davos-at-white-harbor; plus aliases-only on `ned-orders-janos-slynt-to-arrest-cersei` + sibling `gold-cloaks-betray-ned` (subagent KEEP rec).
+- `graph/edges/edges.jsonl` — atomic field updates across 33 rows + 3 manual `plate5_superseded_note` free-text patches (Bug 3 — Slynt, Symon, Qhorin) + **3 curator pilot edges appended**. Count: **4,757 → 4,760**.
+- 3 pilot edges: BETRAYS janos-slynt→eddard-stark (accepts-bribe-then-defects, AGOT Eddard XIV); DECEIVES cersei-lannister→jon-snow (contract-assassination, AFFC Cersei IV); DECEIVES wyman-manderly→house-frey (staged-arrest, ADWD Davos IV). Tagged `candidate_kind=curator-s91-deception-pilot`, `typed_by=curator-s91`.
+- `graph/index/events/` — rebuilt via `scripts/build-entity-indexes.py --type events --all`.
+- `working/wiki/data/event-alias-lookup.json` — rebuilt: 876 → 922 phrases, 1 pre-existing ambiguous collision (`conquest-of-dorne` duplicate node, NOT introduced by S91).
+- CREATE `working/session-results/2026-06-11-rename-execution.md` + `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md`. DELETE `progress/continue-prompts/2026-06-11-execute-rename-decisions.md` (task complete).
+- `working/todos.md` — closed POST-PLATE-5 followup #10.
+
+**Decisions:** 9 renames applied + 1 aliases-only treatment per the 9 subagent decision packets (5 ambiguous-flagged subagents launched mid-session per Matt's "use fresh sub agents for open questions"). 2 structural restructures **deferred** (Wyman-execution arc + Jaime-sheathes arc) — bigger than rename: new parent events + SUB_BEAT_OF restructure + multi-edge mints + type-field decisions; subagent decision packets reproduced verbatim into the continue prompt for Matt's ratification. Side-asks verified inline: Tyrion ordered Symon (Bronn=agent, ASOS Tyrion IV); Kerwin source backed up (ADWD Iron Suitor + wiki); WIELDS longclaw→Slynt-execution edge already existed. Deception-edges feasibility: `DECEIVES` (11 live) + `BETRAYS` (38 live) already in locked vocab — zero schema cost — pilot 3 edges now, queue scripted surfacer for ~30-50 medium-confidence retypes.
+
+**Verification:** 10/10 alias-chain probes HIT; `--neighbors` confirms full role-edge sets attached on all 9 renamed slugs; `--health` clean; final `grep -r '<old-slug>' graph/` returns only deliberate old-slug-as-alias backrefs. Bug 1 (inline-form aliases only) + Bug 3 (body-text + plate5_superseded_note manual patches) workarounds held per rename. Mid-session surprise: alias resolver doesn't auto-convert kebab→spaces; Wyman + Qhorin aliases re-spelled in space-form.
+
+**Look-at-twice items for Matt:** (a) `jon-spares-ygritte` typed `event.execution` (execution doesn't happen); (b) `cersei-s-plot-to-assassinate-jon-snow` typed `event.death` (Jon doesn't die); (c) `execution-of-the-blackwater-deserters` missing VICTIM_IN edge; (d) stale `status: minted-plate3` + "Staging only" body notes on all renamed nodes (Plate 5 merged but script doesn't flip status); (e) pre-existing `conquest-of-dorne` duplicate; (f) `cersei-claims-ned-s-men-attacked-first` flagged as DECEIVES candidate by 2 independent subagents (not minted — not being renamed).
+
+**What's next:**
+- → `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md` (**Opus 4.7**) — apply Wyman-execution + Jaime-sheathes restructures per the verbatim subagent decision packets in-prompt. Open questions enumerated for Matt's ratification.
+- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Phase 2 Mode 3 grounded-agent dip. Unblocked. Can run before OR after restructures (parallel-safe).
+- Backlog (deception-edges scaling): 3 pilot edges done, 7 to go per subagent C rec; then build `scripts/surface-deception-candidates.py` to mine the broader 30-50 retypes from `hint_raw` markers.
+
+---

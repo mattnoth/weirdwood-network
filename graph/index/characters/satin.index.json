@@ -3,13 +3,13 @@
   "name": "Satin",
   "type": "character.human",
   "node_path": "graph/nodes/characters/satin.node.md",
-  "generated_at": "2026-05-11T22:49:53.920788+00:00",
+  "generated_at": "2026-06-13T15:02:32.993129+00:00",
   "stats": {
     "appearances_total": 20,
     "chapters_pov": 0,
     "chapters_mentioned_in": 16,
     "out_edge_count": 3,
-    "in_edge_count": 19
+    "in_edge_count": 25
   },
   "chapters": {
     "pov": [],

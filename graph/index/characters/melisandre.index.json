@@ -3,13 +3,13 @@
   "name": "Melisandre",
   "type": "character.human",
   "node_path": "graph/nodes/characters/melisandre.node.md",
-  "generated_at": "2026-05-11T22:49:53.890034+00:00",
+  "generated_at": "2026-06-13T15:02:32.948554+00:00",
   "stats": {
     "appearances_total": 60,
     "chapters_pov": 1,
     "chapters_mentioned_in": 33,
     "out_edge_count": 3,
-    "in_edge_count": 171
+    "in_edge_count": 276
   },
   "chapters": {
     "pov": [

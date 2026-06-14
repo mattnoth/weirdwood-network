@@ -3,13 +3,13 @@
   "name": "Skahaz mo Kandaq",
   "type": "character.human",
   "node_path": "graph/nodes/characters/skahaz-mo-kandaq.node.md",
-  "generated_at": "2026-05-11T22:49:53.846241+00:00",
+  "generated_at": "2026-06-13T15:02:32.887208+00:00",
   "stats": {
     "appearances_total": 22,
     "chapters_pov": 0,
     "chapters_mentioned_in": 12,
     "out_edge_count": 8,
-    "in_edge_count": 46
+    "in_edge_count": 92
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "Skahazadhan",
   "type": "place.location",
   "node_path": "graph/nodes/locations/skahazadhan.node.md",
-  "generated_at": "2026-05-11T23:36:05.598530+00:00",
+  "generated_at": "2026-06-14T20:36:15.694283+00:00",
   "stats": {
     "appearances_total": 15,
     "chapters_referenced_in": 12,
     "chapters_in_raw_list": 3,
     "out_edge_count": 0,
-    "in_edge_count": 13,
+    "in_edge_count": 21,
     "chapters_in_locations_section": 12
   },
   "chapters": {

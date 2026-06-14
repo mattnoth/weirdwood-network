@@ -3,13 +3,13 @@
   "name": "Jon Umber",
   "type": "character.human",
   "node_path": "graph/nodes/characters/jon-umber.node.md",
-  "generated_at": "2026-05-11T22:49:53.849895+00:00",
+  "generated_at": "2026-06-13T15:02:32.892374+00:00",
   "stats": {
     "appearances_total": 31,
     "chapters_pov": 0,
     "chapters_mentioned_in": 25,
     "out_edge_count": 7,
-    "in_edge_count": 43
+    "in_edge_count": 58
   },
   "chapters": {
     "pov": [],

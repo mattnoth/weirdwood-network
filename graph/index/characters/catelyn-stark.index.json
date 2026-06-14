@@ -3,13 +3,13 @@
   "name": "Catelyn Stark",
   "type": "character.human",
   "node_path": "graph/nodes/characters/catelyn-stark.node.md",
-  "generated_at": "2026-05-11T22:49:53.886182+00:00",
+  "generated_at": "2026-06-13T15:02:32.943653+00:00",
   "stats": {
     "appearances_total": 156,
     "chapters_pov": 25,
     "chapters_mentioned_in": 98,
     "out_edge_count": 19,
-    "in_edge_count": 457
+    "in_edge_count": 685
   },
   "chapters": {
     "pov": [

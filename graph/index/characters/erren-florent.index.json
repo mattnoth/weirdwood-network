@@ -3,13 +3,13 @@
   "name": "Erren Florent",
   "type": "character.human",
   "node_path": "graph/nodes/characters/erren-florent.node.md",
-  "generated_at": "2026-05-11T22:49:53.844806+00:00",
+  "generated_at": "2026-06-13T15:02:32.885008+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 4,
-    "in_edge_count": 3
+    "in_edge_count": 6
   },
   "chapters": {
     "pov": [],

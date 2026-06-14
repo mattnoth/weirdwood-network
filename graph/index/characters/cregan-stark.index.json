@@ -3,13 +3,13 @@
   "name": "Cregan Stark",
   "type": "character.human",
   "node_path": "graph/nodes/characters/cregan-stark.node.md",
-  "generated_at": "2026-05-11T22:49:53.828540+00:00",
+  "generated_at": "2026-06-13T15:02:32.860345+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_pov": 0,
     "chapters_mentioned_in": 2,
     "out_edge_count": 22,
-    "in_edge_count": 50
+    "in_edge_count": 98
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "House Redwyne",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-redwyne.node.md",
-  "generated_at": "2026-05-11T23:36:16.170133+00:00",
+  "generated_at": "2026-06-14T20:36:15.680731+00:00",
   "stats": {
     "appearances_total": 13,
     "chapters_referenced_in": 12,
     "chapters_in_raw_list": 12,
     "out_edge_count": 8,
-    "in_edge_count": 16
+    "in_edge_count": 38
   },
   "chapters": {
     "in_raw_list": [

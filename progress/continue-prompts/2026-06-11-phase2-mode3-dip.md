@@ -10,6 +10,18 @@
 > Matt: review those 3 files first. Apply #10 rename if dry-run looks clean (the file has the literal `--apply` command). Then fire this continue prompt.
 >
 > **GATE ADDED 2026-06-12 (Matt's decision, 2026-06-11 audit reply): this dip runs AFTER the infobox merge lands** (`working/infobox-merge/spec.md` → dry-run → Matt review → ship). Running it on the pre-merge graph would mostly rediscover the known 85%-isolation walls. Do not start this prompt until `edges.jsonl` contains the `evidence_kind: wiki-infobox` layer. (S89 #10 rename prerequisite above is already DONE — applied S90/S91.)
+>
+> **GATE CLEARED 2026-06-13 (S94):** infobox merge shipped — `edges.jsonl` 4,764 → 21,770 (+17,006 `evidence_kind: wiki-infobox` rows); node connectivity 14.7% → 71.0%; 63 documented orphans only; 123 edge types; tests 1144 pass (3 documented pre-existing failures). This continue prompt is now actionable; the post-merge graph is what Phase 2 dips against.
+>
+> **SEQUENTIAL EXECUTION (Matt 2026-06-13, S95):** This is the NEXT session. After it completes, the queue is: → graph-cleanup (Sonnet 4.6) → narrative-arc track wave 1. **NOT parallel** — graph cleanup ships 27 S95 edges + 7 new nodes incl. the `incident-at-the-trident` parent arc + `death-of-mycah` sub-beat (Q5 in `curation/s95-quarantine-resolutions-2026-06-13.md`). Running cleanup in parallel would mean the dip evaluates a graph that's changing under it.
+>
+> **NARRATIVE-ARC TRACK CONTEXT (NEW S95 2026-06-13):** This dip is now the priority-signal for a new HIGH-priority track — narrative-arc reification (parent event hubs spanning multiple existing hubs via SUB_BEAT_OF + TRIGGERS, the S87 Plate-5 pattern applied one level up to causal chains). See `working/narrative-arcs-design-memo-2026-06-13.md` + memory `project_narrative_arc_reification` + worklog Ideas&Backlog HIGH (top bullet). **Add 2-3 arc-shaped questions to the dip script** to test which arcs the post-cleanup graph traverses cleanly vs which the agent has to LLM-reason. Suggested arc-questions (review/edit before launching):
+> 1. *"What set the Trident incident in motion?"* — should be answerable post-cleanup (Trident incident reified as Q5).
+> 2. *"What are the consequences of the Battle of the Trident?"* — currently unanswerable; failure points at Sack-of-KL arc as a candidate.
+> 3. *"What's the causal chain from Robert's Rebellion to Joffrey's coronation?"* — currently unanswerable; failure points at "Robert's Rebellion" arc.
+> 4. *"Why did Sandor kill Mycah?"* — should be answerable post-cleanup (Q5 incident-at-the-trident parent + TRIGGERS edge).
+>
+> The dip's *failures* on these become the priority list for which arcs to mint in wave 1 of the narrative-arc track.
 
 ## Context — where we are
 

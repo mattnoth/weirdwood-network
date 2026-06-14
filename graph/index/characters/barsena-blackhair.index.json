@@ -3,13 +3,13 @@
   "name": "Barsena Blackhair",
   "type": "character.human",
   "node_path": "graph/nodes/characters/barsena-blackhair.node.md",
-  "generated_at": "2026-05-11T22:49:53.936395+00:00",
+  "generated_at": "2026-06-13T15:02:33.016308+00:00",
   "stats": {
-    "appearances_total": 4,
+    "appearances_total": 5,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 3,
+    "chapters_mentioned_in": 4,
     "out_edge_count": 2,
-    "in_edge_count": 7
+    "in_edge_count": 14
   },
   "chapters": {
     "pov": [],
@@ -44,6 +44,16 @@
           "Characters Present"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-kingbreaker-01",
+        "book": "adwd",
+        "pov_character_slug": "barristan-selmy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
       }
     ]
   }

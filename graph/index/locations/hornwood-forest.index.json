@@ -3,13 +3,13 @@
   "name": "Hornwood (forest)",
   "type": "place.location",
   "node_path": "graph/nodes/locations/hornwood-forest.node.md",
-  "generated_at": "2026-05-11T23:36:05.640609+00:00",
+  "generated_at": "2026-06-14T20:36:15.767621+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 3,
+    "in_edge_count": 4,
     "chapters_in_locations_section": 0
   },
   "chapters": {

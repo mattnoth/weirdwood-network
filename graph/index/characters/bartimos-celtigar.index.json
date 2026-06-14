@@ -3,13 +3,13 @@
   "name": "Bartimos Celtigar",
   "type": "character.human",
   "node_path": "graph/nodes/characters/bartimos-celtigar.node.md",
-  "generated_at": "2026-05-11T22:49:53.927716+00:00",
+  "generated_at": "2026-06-13T15:02:33.003272+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 9,
-    "in_edge_count": 7
+    "in_edge_count": 10
   },
   "chapters": {
     "pov": [],

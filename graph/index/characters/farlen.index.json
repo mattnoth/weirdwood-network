@@ -3,13 +3,13 @@
   "name": "Farlen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/farlen.node.md",
-  "generated_at": "2026-05-11T22:49:53.913732+00:00",
+  "generated_at": "2026-06-13T15:02:32.984113+00:00",
   "stats": {
     "appearances_total": 13,
     "chapters_pov": 0,
     "chapters_mentioned_in": 10,
     "out_edge_count": 5,
-    "in_edge_count": 1
+    "in_edge_count": 12
   },
   "chapters": {
     "pov": [],

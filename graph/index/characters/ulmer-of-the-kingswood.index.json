@@ -3,17 +3,27 @@
   "name": "Ulmer of the Kingswood",
   "type": "character.human",
   "node_path": "graph/nodes/characters/ulmer-of-the-kingswood.node.md",
-  "generated_at": "2026-05-11T22:49:53.968295+00:00",
+  "generated_at": "2026-06-13T15:02:33.059794+00:00",
   "stats": {
-    "appearances_total": 5,
+    "appearances_total": 10,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 5,
+    "chapters_mentioned_in": 9,
     "out_edge_count": 3,
-    "in_edge_count": 7
+    "in_edge_count": 8
   },
   "chapters": {
     "pov": [],
     "mentioned_in": [
+      {
+        "chapter_id": "asos-jon-06",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
       {
         "chapter_id": "asos-jon-12",
         "book": "asos",
@@ -23,6 +33,37 @@
           "Characters Present"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-samwell-02",
+        "book": "asos",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "affc-samwell-01",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-02",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "adwd-jon-03",

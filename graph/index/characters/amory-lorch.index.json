@@ -3,13 +3,13 @@
   "name": "Amory Lorch",
   "type": "character.human",
   "node_path": "graph/nodes/characters/amory-lorch.node.md",
-  "generated_at": "2026-05-11T22:49:53.844344+00:00",
+  "generated_at": "2026-06-13T15:02:32.884312+00:00",
   "stats": {
     "appearances_total": 32,
     "chapters_pov": 0,
     "chapters_mentioned_in": 23,
     "out_edge_count": 8,
-    "in_edge_count": 51
+    "in_edge_count": 84
   },
   "chapters": {
     "pov": [],

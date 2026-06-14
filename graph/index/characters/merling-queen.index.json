@@ -3,13 +3,13 @@
   "name": "Merling Queen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/merling-queen.node.md",
-  "generated_at": "2026-05-11T22:49:54.053243+00:00",
+  "generated_at": "2026-06-13T15:02:33.183838+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_pov": 0,
     "chapters_mentioned_in": 2,
     "out_edge_count": 1,
-    "in_edge_count": 1
+    "in_edge_count": 2
   },
   "chapters": {
     "pov": [],

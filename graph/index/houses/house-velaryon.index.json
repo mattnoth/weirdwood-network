@@ -3,13 +3,13 @@
   "name": "House Velaryon",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-velaryon.node.md",
-  "generated_at": "2026-05-11T23:36:16.197548+00:00",
+  "generated_at": "2026-06-14T20:36:15.725079+00:00",
   "stats": {
     "appearances_total": 5,
     "chapters_referenced_in": 5,
     "chapters_in_raw_list": 5,
     "out_edge_count": 8,
-    "in_edge_count": 51
+    "in_edge_count": 84
   },
   "chapters": {
     "in_raw_list": [

@@ -3,13 +3,13 @@
   "name": "Jynessa Blackmont",
   "type": "character.human",
   "node_path": "graph/nodes/characters/jynessa-blackmont.node.md",
-  "generated_at": "2026-05-11T22:49:53.803910+00:00",
+  "generated_at": "2026-06-13T15:02:32.821616+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_pov": 0,
     "chapters_mentioned_in": 1,
     "out_edge_count": 3,
-    "in_edge_count": 2
+    "in_edge_count": 3
   },
   "chapters": {
     "pov": [],

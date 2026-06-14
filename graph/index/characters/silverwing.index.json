@@ -3,13 +3,13 @@
   "name": "Silverwing",
   "type": "character.dragon",
   "node_path": "graph/nodes/characters/silverwing.node.md",
-  "generated_at": "2026-05-11T22:49:54.082706+00:00",
+  "generated_at": "2026-06-13T15:02:33.221800+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_pov": 0,
     "chapters_mentioned_in": 3,
     "out_edge_count": 2,
-    "in_edge_count": 31
+    "in_edge_count": 58
   },
   "chapters": {
     "pov": [],

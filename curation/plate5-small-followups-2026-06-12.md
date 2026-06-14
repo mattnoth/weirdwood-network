@@ -2,11 +2,17 @@
 **Date:** 2026-06-12  
 **Scope:** Track 3 followups #1 / #2 / #4 / #5. All proposals only — nothing writes to graph/ or sources/.
 
+> ## ✅ MATT REVIEW — 2026-06-14 (S96 walkthrough): GATE 2 CLEARED
+> - **A (collision merges A1 conquest-of-dorne → object.text; A2 tourney-of-maidenpool merge):** APPROVED as proposed.
+> - **B (donal-noye ↔ mag mutual-kill reverse edge + optional forward-quote fix):** APPROVED (do B-2 too — fix the forward quote).
+> - **C (Contract-6 exemption for SUB_BEAT_OF):** APPROVED. **Clarification of what the exemption means (Matt asked):** it waives ONLY the verbatim `evidence_quote` requirement — `evidence_kind` + `evidence_book` + `evidence_chapter` + `rationale` are STILL required (Contract 5 enforced). SUB_BEAT_OF is a structural grouping claim, not a single-sentence fact, so it's grounded by hub-structure + chapter, not a quote. Also fix the `robb-is-killed` mis-sourced quote (C-2).
+> - **D (display-bullet regeneration):** DEFER confirmed — no action.
+
 ---
 
 ## A. Two Deferred Collision Merges (followup #4)
 
-### A1. `conquest-of-dorne` — reclassify `the-conquest-of-dorne` book→object.text
+### A1. `conquest-of-dorne` — reclassify `the-conquest-of-dorne` book→object.text [EXECUTED 2026-06-14]
 
 **Live node inventory:**
 | Slug | Path | Type | Pass |
@@ -35,7 +41,7 @@
 
 ---
 
-### A2. `tourney-at-maidenpool` — merge redirect node into canonical
+### A2. `tourney-at-maidenpool` — merge redirect node into canonical [EXECUTED 2026-06-14]
 
 **Live node inventory:**
 | Slug | Path | Type | Edges |
@@ -60,7 +66,7 @@
 
 ---
 
-## B. donal-noye ↔ mag-mar-tun-doh-weg Mutual-Kill Reverse Edge (followup #5)
+## B. donal-noye ↔ mag-mar-tun-doh-weg Mutual-Kill Reverse Edge (followup #5) [EXECUTED 2026-06-14]
 
 ### Existing forward edge (line 1154 in edges.jsonl)
 
@@ -106,7 +112,7 @@ This confirms the mutual kill unambiguously: Noye killed Mag by stabbing him in 
 
 ---
 
-## C. 32 Empty-Quote SUB_BEAT_OF Disposition Memo (followup #2)
+## C. 32 Empty-Quote SUB_BEAT_OF Disposition Memo (followup #2) [C-1 EXECUTED 2026-06-14; C-2 EXECUTED 2026-06-14; C-3 deferred]
 
 ### Data summary
 

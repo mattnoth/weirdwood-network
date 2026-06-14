@@ -3,13 +3,13 @@
   "name": "Rymund the Rhymer",
   "type": "character.human",
   "node_path": "graph/nodes/characters/rymund-the-rhymer.node.md",
-  "generated_at": "2026-05-11T22:49:53.905721+00:00",
+  "generated_at": "2026-06-13T15:02:32.969840+00:00",
   "stats": {
-    "appearances_total": 3,
+    "appearances_total": 4,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 3,
+    "chapters_mentioned_in": 4,
     "out_edge_count": 0,
-    "in_edge_count": 3
+    "in_edge_count": 12
   },
   "chapters": {
     "pov": [],
@@ -33,6 +33,16 @@
           "Characters Present"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-catelyn-07",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "asos-catelyn-02",

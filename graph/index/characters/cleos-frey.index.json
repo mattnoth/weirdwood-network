@@ -3,13 +3,13 @@
   "name": "Cleos Frey",
   "type": "character.human",
   "node_path": "graph/nodes/characters/cleos-frey.node.md",
-  "generated_at": "2026-05-11T22:49:53.795243+00:00",
+  "generated_at": "2026-06-13T15:02:32.810279+00:00",
   "stats": {
     "appearances_total": 26,
     "chapters_pov": 0,
     "chapters_mentioned_in": 17,
     "out_edge_count": 11,
-    "in_edge_count": 40
+    "in_edge_count": 64
   },
   "chapters": {
     "pov": [],

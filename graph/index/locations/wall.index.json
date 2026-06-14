@@ -3,13 +3,13 @@
   "name": "Wall",
   "type": "place.location",
   "node_path": "graph/nodes/locations/wall.node.md",
-  "generated_at": "2026-05-11T23:36:05.606401+00:00",
+  "generated_at": "2026-06-14T20:36:15.709455+00:00",
   "stats": {
     "appearances_total": 205,
     "chapters_referenced_in": 121,
     "chapters_in_raw_list": 54,
     "out_edge_count": 0,
-    "in_edge_count": 382,
+    "in_edge_count": 652,
     "chapters_in_locations_section": 118
   },
   "chapters": {

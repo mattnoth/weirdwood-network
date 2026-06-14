@@ -3,13 +3,13 @@
   "name": "Eddard Stark",
   "type": "character.human",
   "node_path": "graph/nodes/characters/eddard-stark.node.md",
-  "generated_at": "2026-05-11T22:49:53.779694+00:00",
+  "generated_at": "2026-06-13T15:02:32.783376+00:00",
   "stats": {
     "appearances_total": 264,
     "chapters_pov": 15,
     "chapters_mentioned_in": 185,
     "out_edge_count": 22,
-    "in_edge_count": 493
+    "in_edge_count": 816
   },
   "chapters": {
     "pov": [

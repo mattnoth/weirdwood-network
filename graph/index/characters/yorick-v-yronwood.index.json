@@ -3,13 +3,13 @@
   "name": "Yorick V Yronwood",
   "type": "character.human",
   "node_path": "graph/nodes/characters/yorick-v-yronwood.node.md",
-  "generated_at": "2026-05-11T22:49:54.104747+00:00",
+  "generated_at": "2026-06-13T15:02:33.248083+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 10,
-    "in_edge_count": 2
+    "in_edge_count": 7
   },
   "chapters": {
     "pov": [],

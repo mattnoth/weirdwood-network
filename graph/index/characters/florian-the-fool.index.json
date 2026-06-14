@@ -3,13 +3,13 @@
   "name": "Florian the Fool",
   "type": "character.human",
   "node_path": "graph/nodes/characters/florian-the-fool.node.md",
-  "generated_at": "2026-05-11T22:49:53.973723+00:00",
+  "generated_at": "2026-06-13T15:02:33.065981+00:00",
   "stats": {
     "appearances_total": 12,
     "chapters_pov": 0,
     "chapters_mentioned_in": 8,
     "out_edge_count": 3,
-    "in_edge_count": 12
+    "in_edge_count": 17
   },
   "chapters": {
     "pov": [],

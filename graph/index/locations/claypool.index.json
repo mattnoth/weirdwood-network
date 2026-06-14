@@ -3,13 +3,13 @@
   "name": "Claypool",
   "type": "place.location",
   "node_path": "graph/nodes/locations/claypool.node.md",
-  "generated_at": "2026-05-11T23:36:05.620401+00:00",
+  "generated_at": "2026-06-14T20:36:15.738434+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 0,
+    "in_edge_count": 17,
     "chapters_in_locations_section": 1
   },
   "chapters": {

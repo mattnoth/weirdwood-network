@@ -3,13 +3,13 @@
   "name": "Harys Haigh",
   "type": "character.human",
   "node_path": "graph/nodes/characters/harys-haigh.node.md",
-  "generated_at": "2026-05-11T22:49:53.881389+00:00",
+  "generated_at": "2026-06-13T15:02:32.936596+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_pov": 0,
     "chapters_mentioned_in": 4,
     "out_edge_count": 8,
-    "in_edge_count": 6
+    "in_edge_count": 9
   },
   "chapters": {
     "pov": [],

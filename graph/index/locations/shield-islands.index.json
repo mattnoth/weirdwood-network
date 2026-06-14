@@ -3,14 +3,14 @@
   "name": "Shield Islands",
   "type": "place.location",
   "node_path": "graph/nodes/locations/shield-islands.node.md",
-  "generated_at": "2026-05-11T23:36:05.643878+00:00",
+  "generated_at": "2026-06-14T20:36:15.771879+00:00",
   "stats": {
-    "appearances_total": 7,
-    "chapters_referenced_in": 5,
-    "chapters_in_raw_list": 1,
+    "appearances_total": 13,
+    "chapters_referenced_in": 10,
+    "chapters_in_raw_list": 2,
     "out_edge_count": 0,
-    "in_edge_count": 23,
-    "chapters_in_locations_section": 5
+    "in_edge_count": 51,
+    "chapters_in_locations_section": 9
   },
   "chapters": {
     "in_locations_section": [
@@ -52,6 +52,18 @@
         "in_raw_list": false
       },
       {
+        "chapter_id": "affc-cersei-08",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "affc-samwell-05",
         "book": "affc",
         "pov_character_slug": "samwell-tarly",
@@ -75,6 +87,43 @@
         "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-epilogue",
+        "book": "adwd",
+        "pov_character_slug": "kevan-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-the-iron-suitor-01",
+        "book": "adwd",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-watcher-01",
+        "book": "adwd",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
       }
     ],
     "in_raw_list": [
@@ -88,6 +137,19 @@
           "Raw Entity List > Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-iron-suitor-01",
+        "book": "adwd",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       }
@@ -131,6 +193,18 @@
         "in_raw_list": false
       },
       {
+        "chapter_id": "affc-cersei-08",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "affc-samwell-05",
         "book": "affc",
         "pov_character_slug": "samwell-tarly",
@@ -152,6 +226,55 @@
           "Location Descriptions"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-epilogue",
+        "book": "adwd",
+        "pov_character_slug": "kevan-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-jon-13",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-the-iron-suitor-01",
+        "book": "adwd",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-watcher-01",
+        "book": "adwd",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }

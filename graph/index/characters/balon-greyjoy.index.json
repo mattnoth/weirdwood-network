@@ -3,13 +3,13 @@
   "name": "Balon Greyjoy",
   "type": "character.human",
   "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
-  "generated_at": "2026-05-11T22:49:54.066269+00:00",
+  "generated_at": "2026-06-13T15:02:33.201747+00:00",
   "stats": {
     "appearances_total": 53,
     "chapters_pov": 0,
     "chapters_mentioned_in": 44,
     "out_edge_count": 21,
-    "in_edge_count": 129
+    "in_edge_count": 253
   },
   "chapters": {
     "pov": [],

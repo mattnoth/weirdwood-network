@@ -3,13 +3,13 @@
   "name": "Beyond the Wall",
   "type": "place.region",
   "node_path": "graph/nodes/locations/beyond-the-wall.node.md",
-  "generated_at": "2026-05-11T23:36:05.673232+00:00",
+  "generated_at": "2026-06-14T20:36:15.812293+00:00",
   "stats": {
     "appearances_total": 13,
     "chapters_referenced_in": 6,
     "chapters_in_raw_list": 5,
     "out_edge_count": 0,
-    "in_edge_count": 104,
+    "in_edge_count": 184,
     "chapters_in_locations_section": 5
   },
   "chapters": {

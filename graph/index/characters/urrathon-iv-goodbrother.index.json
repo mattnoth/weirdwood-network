@@ -3,16 +3,27 @@
   "name": "Urrathon IV Goodbrother",
   "type": "character.human",
   "node_path": "graph/nodes/characters/urrathon-iv-goodbrother.node.md",
-  "generated_at": "2026-05-11T22:49:53.906312+00:00",
+  "generated_at": "2026-06-13T15:02:32.970670+00:00",
   "stats": {
-    "appearances_total": 0,
+    "appearances_total": 1,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 0,
+    "chapters_mentioned_in": 1,
     "out_edge_count": 4,
-    "in_edge_count": 4
+    "in_edge_count": 10
   },
   "chapters": {
     "pov": [],
-    "mentioned_in": []
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-the-wayward-bride-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
   }
 }

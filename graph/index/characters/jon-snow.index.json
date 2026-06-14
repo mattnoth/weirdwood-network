@@ -3,13 +3,13 @@
   "name": "Jon Snow",
   "type": "character.human",
   "node_path": "graph/nodes/characters/jon-snow.node.md",
-  "generated_at": "2026-05-11T22:49:54.052525+00:00",
+  "generated_at": "2026-06-13T15:02:33.182969+00:00",
   "stats": {
     "appearances_total": 154,
     "chapters_pov": 42,
     "chapters_mentioned_in": 75,
     "out_edge_count": 8,
-    "in_edge_count": 666
+    "in_edge_count": 973
   },
   "chapters": {
     "pov": [

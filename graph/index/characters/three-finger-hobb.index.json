@@ -3,13 +3,13 @@
   "name": "Three-Finger Hobb",
   "type": "character.human",
   "node_path": "graph/nodes/characters/three-finger-hobb.node.md",
-  "generated_at": "2026-05-11T22:49:53.976418+00:00",
+  "generated_at": "2026-06-13T15:02:33.069267+00:00",
   "stats": {
-    "appearances_total": 14,
+    "appearances_total": 21,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 13,
+    "chapters_mentioned_in": 19,
     "out_edge_count": 3,
-    "in_edge_count": 1
+    "in_edge_count": 7
   },
   "chapters": {
     "pov": [],
@@ -23,6 +23,16 @@
           "Characters Present"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-jon-07",
+        "book": "agot",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "agot-jon-09",
@@ -45,6 +55,16 @@
         "resolved_via": "direct"
       },
       {
+        "chapter_id": "asos-jon-06",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
         "chapter_id": "asos-jon-07",
         "book": "asos",
         "pov_character_slug": "jon-snow",
@@ -65,6 +85,16 @@
         "resolved_via": "direct"
       },
       {
+        "chapter_id": "asos-jon-09",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
         "chapter_id": "asos-jon-12",
         "book": "asos",
         "pov_character_slug": "jon-snow",
@@ -83,6 +113,17 @@
           "Characters Referenced"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-samwell-03",
+        "book": "asos",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "asos-samwell-04",
@@ -115,6 +156,16 @@
         "resolved_via": "direct"
       },
       {
+        "chapter_id": "adwd-jon-01",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
         "chapter_id": "adwd-jon-02",
         "book": "adwd",
         "pov_character_slug": "jon-snow",
@@ -123,6 +174,16 @@
           "Characters Present"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jon-09",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "adwd-jon-10",

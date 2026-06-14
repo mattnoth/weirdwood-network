@@ -1,0 +1,46 @@
+{
+  "slug": "bone-flute",
+  "name": "Bone flute",
+  "type": "object.artifact",
+  "node_path": "graph/nodes/artifacts/bone-flute.node.md",
+  "generated_at": "2026-06-14T20:36:15.681371+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 2,
+    "chapters_in_artifacts_section": 0
+  },
+  "chapters": {
+    "in_artifacts_section": [],
+    "in_raw_list": [
+      {
+        "chapter_id": "adwd-tyrion-10",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "adwd-tyrion-10",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

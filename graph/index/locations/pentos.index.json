@@ -3,13 +3,13 @@
   "name": "Pentos",
   "type": "place.location",
   "node_path": "graph/nodes/locations/pentos.node.md",
-  "generated_at": "2026-05-11T23:36:05.601520+00:00",
+  "generated_at": "2026-06-14T20:36:15.699410+00:00",
   "stats": {
     "appearances_total": 68,
     "chapters_referenced_in": 44,
     "chapters_in_raw_list": 24,
     "out_edge_count": 0,
-    "in_edge_count": 128,
+    "in_edge_count": 279,
     "chapters_in_locations_section": 42
   },
   "chapters": {

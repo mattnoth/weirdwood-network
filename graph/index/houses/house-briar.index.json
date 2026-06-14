@@ -3,13 +3,13 @@
   "name": "House Briar",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-briar.node.md",
-  "generated_at": "2026-05-11T23:36:16.211420+00:00",
+  "generated_at": "2026-06-14T20:36:15.745282+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
     "chapters_in_raw_list": 0,
     "out_edge_count": 4,
-    "in_edge_count": 0
+    "in_edge_count": 2
   },
   "chapters": {
     "in_raw_list": [],

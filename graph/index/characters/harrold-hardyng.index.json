@@ -3,13 +3,13 @@
   "name": "Harrold Hardyng",
   "type": "character.human",
   "node_path": "graph/nodes/characters/harrold-hardyng.node.md",
-  "generated_at": "2026-05-11T22:49:53.943814+00:00",
+  "generated_at": "2026-06-13T15:02:33.027047+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_pov": 0,
     "chapters_mentioned_in": 2,
     "out_edge_count": 11,
-    "in_edge_count": 24
+    "in_edge_count": 40
   },
   "chapters": {
     "pov": [],

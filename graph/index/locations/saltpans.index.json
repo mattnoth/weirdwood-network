@@ -3,13 +3,13 @@
   "name": "Saltpans",
   "type": "place.location",
   "node_path": "graph/nodes/locations/saltpans.node.md",
-  "generated_at": "2026-05-11T23:36:05.668912+00:00",
+  "generated_at": "2026-06-14T20:36:15.806926+00:00",
   "stats": {
     "appearances_total": 21,
     "chapters_referenced_in": 12,
     "chapters_in_raw_list": 4,
     "out_edge_count": 0,
-    "in_edge_count": 24,
+    "in_edge_count": 45,
     "chapters_in_locations_section": 12
   },
   "chapters": {

@@ -3,13 +3,13 @@
   "name": "Tion Lannister",
   "type": "character.human",
   "node_path": "graph/nodes/characters/tion-lannister.node.md",
-  "generated_at": "2026-05-11T22:49:54.003970+00:00",
+  "generated_at": "2026-06-13T15:02:33.122547+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 9,
-    "in_edge_count": 15
+    "in_edge_count": 19
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "Widow's Wail",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/widows-wail.node.md",
-  "generated_at": "2026-05-11T23:36:15.783774+00:00",
+  "generated_at": "2026-06-14T20:36:15.640898+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_referenced_in": 2,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 6,
+    "in_edge_count": 17,
     "chapters_in_artifacts_section": 2
   },
   "chapters": {

@@ -3,13 +3,13 @@
   "name": "Lyanna Mormont",
   "type": "character.human",
   "node_path": "graph/nodes/characters/lyanna-mormont.node.md",
-  "generated_at": "2026-05-11T22:49:53.911568+00:00",
+  "generated_at": "2026-06-13T15:02:32.981580+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_pov": 0,
     "chapters_mentioned_in": 2,
     "out_edge_count": 4,
-    "in_edge_count": 5
+    "in_edge_count": 9
   },
   "chapters": {
     "pov": [],

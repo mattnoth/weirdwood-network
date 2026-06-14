@@ -3,13 +3,13 @@
   "name": "Josua Willum",
   "type": "character.human",
   "node_path": "graph/nodes/characters/josua-willum.node.md",
-  "generated_at": "2026-05-11T22:49:53.774197+00:00",
+  "generated_at": "2026-06-13T15:02:32.775697+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,
     "chapters_mentioned_in": 0,
     "out_edge_count": 3,
-    "in_edge_count": 0
+    "in_edge_count": 1
   },
   "chapters": {
     "pov": [],

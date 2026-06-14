@@ -3,13 +3,13 @@
   "name": "Davos Seaworth",
   "type": "character.human",
   "node_path": "graph/nodes/characters/davos-seaworth.node.md",
-  "generated_at": "2026-05-11T22:49:53.864092+00:00",
+  "generated_at": "2026-06-13T15:02:32.913835+00:00",
   "stats": {
     "appearances_total": 25,
     "chapters_pov": 13,
     "chapters_mentioned_in": 9,
     "out_edge_count": 16,
-    "in_edge_count": 282
+    "in_edge_count": 430
   },
   "chapters": {
     "pov": [

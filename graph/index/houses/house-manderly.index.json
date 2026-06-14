@@ -3,13 +3,13 @@
   "name": "House Manderly",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-manderly.node.md",
-  "generated_at": "2026-05-11T23:36:16.210406+00:00",
+  "generated_at": "2026-06-14T20:36:15.744130+00:00",
   "stats": {
     "appearances_total": 8,
     "chapters_referenced_in": 8,
     "chapters_in_raw_list": 8,
     "out_edge_count": 18,
-    "in_edge_count": 61
+    "in_edge_count": 115
   },
   "chapters": {
     "in_raw_list": [

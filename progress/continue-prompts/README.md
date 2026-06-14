@@ -10,10 +10,10 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-12-graph-cleanup.md` | 2026-06-12 | Graph cleanup — hub-triage FIX-22 + Plate-5 followups | **GATED** | Sonnet 4.6 | Runs after infobox merge ships (edges.jsonl ≈ 21,766 + wiki-infobox rows) AND after Matt approves curation files; 9-step work plan, ~30–45 rows touched |
-| `2026-06-12-infobox-merge-ship.md` | 2026-06-12 | Infobox merge — apply to graph/ | **LIVE** | Sonnet 4.6 | Spec/script/dry-run all done (S92); Step 0 = Matt reviews dry-run report + 11 YOUR-DECISIONS items before launch |
-| `2026-06-12-deferred-structural-restructures.md` | 2026-06-12 | Rename / restructure (Wyman + Jaime arcs) | **LIVE** | Opus 4.7 | Next queued session per S91; subagent decision packets reproduced in-prompt |
-| `2026-06-11-phase2-mode3-dip.md` | 2026-06-11 | Graph validation Mode 3 | **LIVE — RE-SEQUENCED** | Opus 4.7 | Unblocked but Matt decided today it runs *after* infobox-merge track lands; see `working/reply-to-audit-session-2026-06-11.md` |
+| `2026-06-11-phase2-mode3-dip.md` | 2026-06-11 | Graph validation Mode 3 | **LIVE — GATE CLEARED S94** | Opus 4.7 | Infobox merge shipped 2026-06-13; this is now the top-of-queue track |
+| `2026-06-12-graph-cleanup.md` | 2026-06-12 | Graph cleanup — hub-triage FIX-22 + Plate-5 followups | **GATED** | Sonnet 4.6 | Infobox merge ✓ shipped (edges.jsonl=21,770); still gated on Matt approving curation files; 9-step work plan, ~30–45 rows touched |
+| ~~`2026-06-12-infobox-merge-ship.md`~~ | 2026-06-12 | Infobox merge — apply to graph/ | **DONE (S94 2026-06-13) — file deleted** | n/a | Shipped; edges 4,764 → 21,770; backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl` |
+| `2026-06-12-deferred-structural-restructures.md` | 2026-06-12 | Rename / restructure (Wyman + Jaime arcs) | **DONE (S93 2026-06-12)** — file kept pending Matt's writeup-confirm per S93 worklog | Opus 4.7 | Wyman+Jaime arcs landed S93; edges 4,760 → 4,764; can be deleted after Matt confirms `working/session-results/2026-06-12-deferred-restructures.md` |
 | `2026-06-07-repo-audit-strategy-reconciliation.md` | 2026-06-07 | Repo hygiene + memory consolidation | **DONE (S92)** — file kept per Matt's keep-everything rule | Opus 4.7 | Fable audit session executed the doc/strategy items; reorg plan delivered at `working/repo-reorg-plan-2026-06-12.md`; only the optional `consolidate-memory` skill run remains (fold into a future session) |
 | `2026-06-05-edge-modeling-plate-4-haiku-disposition.md` | 2026-06-05 | Post-Plate-5 backfill Track B (1,617 Haiku bulk re-bucketing) | **LIVE** | Opus (review) / Sonnet (filter pass) | Explicitly KEPT in S88 + re-linked in todos.md; queued under post-Plate-5 backfill Track B |
 | `2026-05-31-events-v2-promotion-chain/` (folder) | 2026-05-31 | Events v2 promotion (7-step chain) | **HALTED-gated-on-Matt's-escalation-pick** | See per-step files | Chain halted at step 1 (S81 NO-GO); step-01-status.md documents the verdict; absorbed into backfill Track B under edge-modeling reification lens |
@@ -46,9 +46,9 @@ All archive files are **DONE** or **STALE-superseded**. Summary:
 
 ## Open threads right now (LIVE, recommended execution order)
 
-1. **`2026-06-12-infobox-merge-ship.md`** (Sonnet 4.6) — FIRST: Matt reviews `working/infobox-merge/dry-run-report-2026-06-12.md` + records decisions; then launch apply. Short + deterministic. Unblocks Mode 3.
-1a. **`2026-06-12-graph-cleanup.md`** (Sonnet 4.6) — **GATED**: runs only after infobox merge ships + Matt approves curation files. FIX-22 hub-triage + Plate-5 small followups. ~30–45 rows. 9 steps.
-2. **`2026-06-12-deferred-structural-restructures.md`** (Opus 4.7) — apply Wyman-execution arc + Jaime-sheathes arc restructures from S91 subagent decision packets. Parallel-safe with #1.
-3. **`2026-06-11-phase2-mode3-dip.md`** (Opus 4.7) — light Mode 3 grounded-agent dip. Runs *after* infobox-merge track lands.
-4. **`2026-06-05-edge-modeling-plate-4-haiku-disposition.md`** (Opus) — Haiku bulk re-bucketing under reify lens; post-Plate-5 backfill Track B. Lower priority; can run any time after Mode 3.
-5. ~~`2026-06-07-repo-audit-strategy-reconciliation.md`~~ — DONE S92 (reorg plan at `working/repo-reorg-plan-2026-06-12.md`); only the optional memory-consolidation skill run remains.
+1. **`2026-06-11-phase2-mode3-dip.md`** (Opus 4.7) — top of queue. Gate cleared S94 (2026-06-13) when infobox merge shipped. Light Mode 3 grounded-agent dip on the 21,770-edge merged graph; failure modes drive backfill Track B priorities.
+2. **`2026-06-12-graph-cleanup.md`** (Sonnet 4.6) — **PARTIALLY GATED**: infobox merge ✓ shipped; still waits on Matt approving the two curation files. Parallel-safe with #1.
+3. **`2026-06-05-edge-modeling-plate-4-haiku-disposition.md`** (Opus) — Haiku bulk re-bucketing under reify lens; post-Plate-5 backfill Track B. Lower priority; can run any time after Mode 3.
+4. ~~`2026-06-12-infobox-merge-ship.md`~~ — DONE S94 (2026-06-13); file deleted.
+5. ~~`2026-06-12-deferred-structural-restructures.md`~~ — DONE S93 (2026-06-12); file kept pending writeup-confirm.
+6. ~~`2026-06-07-repo-audit-strategy-reconciliation.md`~~ — DONE S92 (reorg plan at `working/repo-reorg-plan-2026-06-12.md`); only the optional memory-consolidation skill run remains.

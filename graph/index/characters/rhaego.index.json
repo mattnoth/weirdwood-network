@@ -3,13 +3,13 @@
   "name": "Rhaego",
   "type": "character.human",
   "node_path": "graph/nodes/characters/rhaego.node.md",
-  "generated_at": "2026-05-11T22:49:53.773435+00:00",
+  "generated_at": "2026-06-13T15:02:32.774482+00:00",
   "stats": {
     "appearances_total": 12,
     "chapters_pov": 0,
     "chapters_mentioned_in": 9,
     "out_edge_count": 7,
-    "in_edge_count": 15
+    "in_edge_count": 35
   },
   "chapters": {
     "pov": [],

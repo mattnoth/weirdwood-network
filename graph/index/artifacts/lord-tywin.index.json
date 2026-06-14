@@ -3,13 +3,13 @@
   "name": "Lord Tywin",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/lord-tywin.node.md",
-  "generated_at": "2026-05-11T23:36:15.793413+00:00",
+  "generated_at": "2026-06-14T20:36:15.662551+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_referenced_in": 4,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 1,
+    "in_edge_count": 4,
     "chapters_in_artifacts_section": 1
   },
   "chapters": {

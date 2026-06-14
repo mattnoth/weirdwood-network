@@ -3,13 +3,13 @@
   "name": "Tarber",
   "type": "character.human",
   "node_path": "graph/nodes/characters/tarber.node.md",
-  "generated_at": "2026-05-11T22:49:54.068978+00:00",
+  "generated_at": "2026-06-13T15:02:33.205212+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_pov": 0,
     "chapters_mentioned_in": 3,
     "out_edge_count": 1,
-    "in_edge_count": 5
+    "in_edge_count": 10
   },
   "chapters": {
     "pov": [],

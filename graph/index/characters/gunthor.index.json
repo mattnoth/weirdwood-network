@@ -3,16 +3,50 @@
   "name": "Gunthor",
   "type": "character.human",
   "node_path": "graph/nodes/characters/gunthor.node.md",
-  "generated_at": "2026-05-11T22:49:54.048793+00:00",
+  "generated_at": "2026-06-13T15:02:33.178266+00:00",
   "stats": {
-    "appearances_total": 0,
+    "appearances_total": 6,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 0,
+    "chapters_mentioned_in": 3,
     "out_edge_count": 3,
-    "in_edge_count": 1
+    "in_edge_count": 6
   },
   "chapters": {
     "pov": [],
-    "mentioned_in": []
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-tyrion-06",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "agot-tyrion-07",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-arya-12",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
   }
 }

@@ -3,13 +3,13 @@
   "name": "Iron Throne",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/iron-throne.node.md",
-  "generated_at": "2026-05-11T23:36:15.782139+00:00",
+  "generated_at": "2026-06-14T20:36:15.637977+00:00",
   "stats": {
     "appearances_total": 95,
     "chapters_referenced_in": 59,
     "chapters_in_raw_list": 8,
     "out_edge_count": 0,
-    "in_edge_count": 546,
+    "in_edge_count": 815,
     "chapters_in_artifacts_section": 35
   },
   "chapters": {

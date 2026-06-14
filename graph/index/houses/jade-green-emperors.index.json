@@ -3,13 +3,13 @@
   "name": "Jade-green emperors",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/jade-green-emperors.node.md",
-  "generated_at": "2026-05-11T23:36:16.162037+00:00",
+  "generated_at": "2026-06-14T20:36:15.667559+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 0
+    "in_edge_count": 1
   },
   "chapters": {
     "in_raw_list": [],

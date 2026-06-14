@@ -3,13 +3,13 @@
   "name": "Marlon Manderly",
   "type": "character.human",
   "node_path": "graph/nodes/characters/marlon-manderly.node.md",
-  "generated_at": "2026-05-11T22:49:53.979630+00:00",
+  "generated_at": "2026-06-13T15:02:33.073257+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_pov": 0,
     "chapters_mentioned_in": 1,
     "out_edge_count": 6,
-    "in_edge_count": 3
+    "in_edge_count": 15
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "Ellyn Reyne",
   "type": "character.human",
   "node_path": "graph/nodes/characters/ellyn-reyne.node.md",
-  "generated_at": "2026-05-11T22:49:53.795698+00:00",
+  "generated_at": "2026-06-13T15:02:32.810893+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_pov": 0,
     "chapters_mentioned_in": 1,
     "out_edge_count": 13,
-    "in_edge_count": 13
+    "in_edge_count": 21
   },
   "chapters": {
     "pov": [],

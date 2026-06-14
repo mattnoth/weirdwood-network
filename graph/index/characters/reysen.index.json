@@ -3,13 +3,13 @@
   "name": "Reysen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/reysen.node.md",
-  "generated_at": "2026-05-11T22:49:53.788174+00:00",
+  "generated_at": "2026-06-13T15:02:32.798206+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_pov": 0,
     "chapters_mentioned_in": 3,
     "out_edge_count": 1,
-    "in_edge_count": 3
+    "in_edge_count": 5
   },
   "chapters": {
     "pov": [],

@@ -3,13 +3,13 @@
   "name": "King Robert's Hammer",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/king-roberts-hammer.node.md",
-  "generated_at": "2026-05-11T23:36:15.776699+00:00",
+  "generated_at": "2026-06-14T20:36:15.627762+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 3,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 2,
+    "in_edge_count": 13,
     "chapters_in_artifacts_section": 3
   },
   "chapters": {

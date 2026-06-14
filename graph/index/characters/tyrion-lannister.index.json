@@ -3,13 +3,13 @@
   "name": "Tyrion Lannister",
   "type": "character.human",
   "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
-  "generated_at": "2026-05-11T22:49:53.823604+00:00",
+  "generated_at": "2026-06-13T15:02:32.852598+00:00",
   "stats": {
     "appearances_total": 173,
     "chapters_pov": 47,
     "chapters_mentioned_in": 101,
     "out_edge_count": 16,
-    "in_edge_count": 763
+    "in_edge_count": 1272
   },
   "chapters": {
     "pov": [

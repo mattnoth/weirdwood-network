@@ -3,13 +3,13 @@
   "name": "House with the red door",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-with-the-red-door.node.md",
-  "generated_at": "2026-05-11T23:36:16.171950+00:00",
+  "generated_at": "2026-06-14T20:36:15.683640+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 1,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 8
+    "in_edge_count": 15
   },
   "chapters": {
     "in_raw_list": [],

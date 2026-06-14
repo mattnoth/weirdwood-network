@@ -3,13 +3,13 @@
   "name": "Visenya's Hill",
   "type": "place.location",
   "node_path": "graph/nodes/locations/visenyas-hill.node.md",
-  "generated_at": "2026-05-11T23:36:05.657928+00:00",
+  "generated_at": "2026-06-14T20:36:15.792537+00:00",
   "stats": {
     "appearances_total": 19,
     "chapters_referenced_in": 13,
     "chapters_in_raw_list": 6,
     "out_edge_count": 0,
-    "in_edge_count": 26,
+    "in_edge_count": 41,
     "chapters_in_locations_section": 12
   },
   "chapters": {

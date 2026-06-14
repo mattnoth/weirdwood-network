@@ -3,13 +3,13 @@
   "name": "House Yronwood",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-yronwood.node.md",
-  "generated_at": "2026-05-11T23:36:16.167976+00:00",
+  "generated_at": "2026-06-14T20:36:15.677427+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 3,
     "chapters_in_raw_list": 3,
     "out_edge_count": 15,
-    "in_edge_count": 7
+    "in_edge_count": 21
   },
   "chapters": {
     "in_raw_list": [

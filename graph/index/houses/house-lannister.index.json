@@ -3,13 +3,13 @@
   "name": "House Lannister",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-lannister.node.md",
-  "generated_at": "2026-05-11T23:36:16.179214+00:00",
+  "generated_at": "2026-06-14T20:36:15.695594+00:00",
   "stats": {
     "appearances_total": 71,
     "chapters_referenced_in": 70,
     "chapters_in_raw_list": 70,
     "out_edge_count": 14,
-    "in_edge_count": 429
+    "in_edge_count": 687
   },
   "chapters": {
     "in_raw_list": [

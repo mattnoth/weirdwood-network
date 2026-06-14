@@ -3,13 +3,13 @@
   "name": "Petyr Frey",
   "type": "character.human",
   "node_path": "graph/nodes/characters/petyr-frey.node.md",
-  "generated_at": "2026-05-11T22:49:53.781098+00:00",
+  "generated_at": "2026-06-13T15:02:32.785602+00:00",
   "stats": {
     "appearances_total": 9,
     "chapters_pov": 0,
     "chapters_mentioned_in": 6,
     "out_edge_count": 7,
-    "in_edge_count": 24
+    "in_edge_count": 34
   },
   "chapters": {
     "pov": [],

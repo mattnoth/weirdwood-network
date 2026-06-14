@@ -3,13 +3,13 @@
   "name": "Waif",
   "type": "character.human",
   "node_path": "graph/nodes/characters/waif.node.md",
-  "generated_at": "2026-05-11T22:49:54.005667+00:00",
+  "generated_at": "2026-06-13T15:02:33.125260+00:00",
   "stats": {
     "appearances_total": 11,
     "chapters_pov": 0,
     "chapters_mentioned_in": 5,
     "out_edge_count": 3,
-    "in_edge_count": 4
+    "in_edge_count": 16
   },
   "chapters": {
     "pov": [],

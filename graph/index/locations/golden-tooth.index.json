@@ -3,13 +3,13 @@
   "name": "Golden Tooth",
   "type": "place.location",
   "node_path": "graph/nodes/locations/golden-tooth.node.md",
-  "generated_at": "2026-05-11T23:36:05.656553+00:00",
+  "generated_at": "2026-06-14T20:36:15.790773+00:00",
   "stats": {
     "appearances_total": 18,
     "chapters_referenced_in": 15,
     "chapters_in_raw_list": 3,
     "out_edge_count": 3,
-    "in_edge_count": 32,
+    "in_edge_count": 50,
     "chapters_in_locations_section": 15
   },
   "chapters": {

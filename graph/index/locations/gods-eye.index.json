@@ -3,13 +3,13 @@
   "name": "Gods Eye",
   "type": "place.location",
   "node_path": "graph/nodes/locations/gods-eye.node.md",
-  "generated_at": "2026-05-11T23:36:05.658088+00:00",
+  "generated_at": "2026-06-14T20:36:15.792728+00:00",
   "stats": {
     "appearances_total": 22,
     "chapters_referenced_in": 14,
     "chapters_in_raw_list": 6,
     "out_edge_count": 0,
-    "in_edge_count": 67,
+    "in_edge_count": 106,
     "chapters_in_locations_section": 14
   },
   "chapters": {

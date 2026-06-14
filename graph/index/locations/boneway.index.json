@@ -3,13 +3,13 @@
   "name": "Boneway",
   "type": "place.location",
   "node_path": "graph/nodes/locations/boneway.node.md",
-  "generated_at": "2026-05-11T23:36:05.610362+00:00",
+  "generated_at": "2026-06-14T20:36:15.716568+00:00",
   "stats": {
     "appearances_total": 10,
     "chapters_referenced_in": 9,
     "chapters_in_raw_list": 1,
     "out_edge_count": 0,
-    "in_edge_count": 14,
+    "in_edge_count": 28,
     "chapters_in_locations_section": 9
   },
   "chapters": {

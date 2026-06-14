@@ -3,13 +3,13 @@
   "name": "Dreadfort",
   "type": "place.location",
   "node_path": "graph/nodes/locations/dreadfort.node.md",
-  "generated_at": "2026-05-11T23:36:05.670617+00:00",
+  "generated_at": "2026-06-14T20:36:15.808878+00:00",
   "stats": {
     "appearances_total": 40,
     "chapters_referenced_in": 31,
     "chapters_in_raw_list": 8,
     "out_edge_count": 1,
-    "in_edge_count": 73,
+    "in_edge_count": 114,
     "chapters_in_locations_section": 30
   },
   "chapters": {

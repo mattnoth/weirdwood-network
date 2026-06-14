@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T23:36:16.216088+00:00",
+  "generated_at": "2026-06-14T20:36:15.749920+00:00",
   "entity_type": "houses",
   "dry_run": false,
   "entity_count": 556,
@@ -15,7 +15,7 @@
       "type": "organization.house",
       "appearances_total": 77,
       "chapters_referenced_in": 77,
-      "in_edge_count": 193,
+      "in_edge_count": 360,
       "out_edge_count": 19
     },
     {
@@ -24,7 +24,7 @@
       "type": "organization.house",
       "appearances_total": 71,
       "chapters_referenced_in": 70,
-      "in_edge_count": 429,
+      "in_edge_count": 687,
       "out_edge_count": 14
     },
     {
@@ -33,25 +33,25 @@
       "type": "organization.house",
       "appearances_total": 52,
       "chapters_referenced_in": 52,
-      "in_edge_count": 54,
+      "in_edge_count": 103,
       "out_edge_count": 15
     },
     {
       "slug": "house-targaryen",
       "name": "House Targaryen",
       "type": "organization.house",
-      "appearances_total": 43,
-      "chapters_referenced_in": 43,
-      "in_edge_count": 285,
+      "appearances_total": 46,
+      "chapters_referenced_in": 44,
+      "in_edge_count": 487,
       "out_edge_count": 18
     },
     {
       "slug": "house-frey",
       "name": "House Frey",
       "type": "organization.house",
-      "appearances_total": 25,
-      "chapters_referenced_in": 25,
-      "in_edge_count": 198,
+      "appearances_total": 29,
+      "chapters_referenced_in": 26,
+      "in_edge_count": 299,
       "out_edge_count": 7
     },
     {
@@ -60,7 +60,7 @@
       "type": "organization.house",
       "appearances_total": 22,
       "chapters_referenced_in": 22,
-      "in_edge_count": 129,
+      "in_edge_count": 201,
       "out_edge_count": 11
     },
     {
@@ -69,7 +69,7 @@
       "type": "organization.house",
       "appearances_total": 21,
       "chapters_referenced_in": 21,
-      "in_edge_count": 76,
+      "in_edge_count": 122,
       "out_edge_count": 9
     },
     {
@@ -78,7 +78,7 @@
       "type": "organization.house",
       "appearances_total": 19,
       "chapters_referenced_in": 18,
-      "in_edge_count": 109,
+      "in_edge_count": 181,
       "out_edge_count": 12
     },
     {
@@ -87,7 +87,7 @@
       "type": "organization.house",
       "appearances_total": 17,
       "chapters_referenced_in": 16,
-      "in_edge_count": 55,
+      "in_edge_count": 83,
       "out_edge_count": 13
     },
     {
@@ -96,7 +96,7 @@
       "type": "organization.house",
       "appearances_total": 16,
       "chapters_referenced_in": 16,
-      "in_edge_count": 60,
+      "in_edge_count": 117,
       "out_edge_count": 13
     },
     {
@@ -105,7 +105,7 @@
       "type": "organization.house",
       "appearances_total": 13,
       "chapters_referenced_in": 12,
-      "in_edge_count": 16,
+      "in_edge_count": 38,
       "out_edge_count": 8
     },
     {
@@ -114,7 +114,7 @@
       "type": "organization.house",
       "appearances_total": 13,
       "chapters_referenced_in": 5,
-      "in_edge_count": 24,
+      "in_edge_count": 62,
       "out_edge_count": 0
     },
     {
@@ -123,7 +123,7 @@
       "type": "organization.house",
       "appearances_total": 11,
       "chapters_referenced_in": 11,
-      "in_edge_count": 21,
+      "in_edge_count": 36,
       "out_edge_count": 9
     },
     {
@@ -132,7 +132,7 @@
       "type": "organization.house",
       "appearances_total": 11,
       "chapters_referenced_in": 11,
-      "in_edge_count": 6,
+      "in_edge_count": 11,
       "out_edge_count": 5
     },
     {
@@ -141,7 +141,7 @@
       "type": "organization.house",
       "appearances_total": 9,
       "chapters_referenced_in": 9,
-      "in_edge_count": 44,
+      "in_edge_count": 73,
       "out_edge_count": 25
     },
     {
@@ -150,7 +150,7 @@
       "type": "organization.house",
       "appearances_total": 9,
       "chapters_referenced_in": 8,
-      "in_edge_count": 23,
+      "in_edge_count": 49,
       "out_edge_count": 6
     },
     {
@@ -159,7 +159,7 @@
       "type": "organization.house",
       "appearances_total": 8,
       "chapters_referenced_in": 8,
-      "in_edge_count": 61,
+      "in_edge_count": 115,
       "out_edge_count": 18
     },
     {
@@ -168,7 +168,7 @@
       "type": "organization.house",
       "appearances_total": 7,
       "chapters_referenced_in": 7,
-      "in_edge_count": 33,
+      "in_edge_count": 48,
       "out_edge_count": 8
     },
     {
@@ -177,7 +177,7 @@
       "type": "organization.house",
       "appearances_total": 7,
       "chapters_referenced_in": 7,
-      "in_edge_count": 14,
+      "in_edge_count": 28,
       "out_edge_count": 9
     },
     {
@@ -186,7 +186,7 @@
       "type": "organization.house",
       "appearances_total": 6,
       "chapters_referenced_in": 6,
-      "in_edge_count": 19,
+      "in_edge_count": 26,
       "out_edge_count": 7
     }
   ],
@@ -197,26 +197,17 @@
       "type": "organization.house",
       "appearances_total": 71,
       "chapters_referenced_in": 70,
-      "in_edge_count": 429,
+      "in_edge_count": 687,
       "out_edge_count": 14
     },
     {
       "slug": "house-targaryen",
       "name": "House Targaryen",
       "type": "organization.house",
-      "appearances_total": 43,
-      "chapters_referenced_in": 43,
-      "in_edge_count": 285,
+      "appearances_total": 46,
+      "chapters_referenced_in": 44,
+      "in_edge_count": 487,
       "out_edge_count": 18
-    },
-    {
-      "slug": "house-frey",
-      "name": "House Frey",
-      "type": "organization.house",
-      "appearances_total": 25,
-      "chapters_referenced_in": 25,
-      "in_edge_count": 198,
-      "out_edge_count": 7
     },
     {
       "slug": "house-stark",
@@ -224,8 +215,17 @@
       "type": "organization.house",
       "appearances_total": 77,
       "chapters_referenced_in": 77,
-      "in_edge_count": 193,
+      "in_edge_count": 360,
       "out_edge_count": 19
+    },
+    {
+      "slug": "house-frey",
+      "name": "House Frey",
+      "type": "organization.house",
+      "appearances_total": 29,
+      "chapters_referenced_in": 26,
+      "in_edge_count": 299,
+      "out_edge_count": 7
     },
     {
       "slug": "house-bolton",
@@ -233,7 +233,7 @@
       "type": "organization.house",
       "appearances_total": 22,
       "chapters_referenced_in": 22,
-      "in_edge_count": 129,
+      "in_edge_count": 201,
       "out_edge_count": 11
     },
     {
@@ -242,7 +242,7 @@
       "type": "organization.house",
       "appearances_total": 19,
       "chapters_referenced_in": 18,
-      "in_edge_count": 109,
+      "in_edge_count": 181,
       "out_edge_count": 12
     },
     {
@@ -251,17 +251,8 @@
       "type": "organization.house",
       "appearances_total": 21,
       "chapters_referenced_in": 21,
-      "in_edge_count": 76,
+      "in_edge_count": 122,
       "out_edge_count": 9
-    },
-    {
-      "slug": "house-manderly",
-      "name": "House Manderly",
-      "type": "organization.house",
-      "appearances_total": 8,
-      "chapters_referenced_in": 8,
-      "in_edge_count": 61,
-      "out_edge_count": 18
     },
     {
       "slug": "house-arryn",
@@ -269,26 +260,17 @@
       "type": "organization.house",
       "appearances_total": 16,
       "chapters_referenced_in": 16,
-      "in_edge_count": 60,
+      "in_edge_count": 117,
       "out_edge_count": 13
     },
     {
-      "slug": "house-greyjoy",
-      "name": "House Greyjoy",
+      "slug": "house-manderly",
+      "name": "House Manderly",
       "type": "organization.house",
-      "appearances_total": 17,
-      "chapters_referenced_in": 16,
-      "in_edge_count": 55,
-      "out_edge_count": 13
-    },
-    {
-      "slug": "house-hightower",
-      "name": "House Hightower",
-      "type": "organization.house",
-      "appearances_total": 6,
-      "chapters_referenced_in": 6,
-      "in_edge_count": 55,
-      "out_edge_count": 16
+      "appearances_total": 8,
+      "chapters_referenced_in": 8,
+      "in_edge_count": 115,
+      "out_edge_count": 18
     },
     {
       "slug": "house-baratheon",
@@ -296,8 +278,17 @@
       "type": "organization.house",
       "appearances_total": 52,
       "chapters_referenced_in": 52,
-      "in_edge_count": 54,
+      "in_edge_count": 103,
       "out_edge_count": 15
+    },
+    {
+      "slug": "house-hightower",
+      "name": "House Hightower",
+      "type": "organization.house",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 89,
+      "out_edge_count": 16
     },
     {
       "slug": "house-velaryon",
@@ -305,8 +296,17 @@
       "type": "organization.house",
       "appearances_total": 5,
       "chapters_referenced_in": 5,
-      "in_edge_count": 51,
+      "in_edge_count": 84,
       "out_edge_count": 8
+    },
+    {
+      "slug": "house-greyjoy",
+      "name": "House Greyjoy",
+      "type": "organization.house",
+      "appearances_total": 17,
+      "chapters_referenced_in": 16,
+      "in_edge_count": 83,
+      "out_edge_count": 13
     },
     {
       "slug": "house-blackwood",
@@ -314,7 +314,7 @@
       "type": "organization.house",
       "appearances_total": 3,
       "chapters_referenced_in": 3,
-      "in_edge_count": 46,
+      "in_edge_count": 82,
       "out_edge_count": 15
     },
     {
@@ -323,7 +323,7 @@
       "type": "organization.house",
       "appearances_total": 3,
       "chapters_referenced_in": 3,
-      "in_edge_count": 45,
+      "in_edge_count": 79,
       "out_edge_count": 13
     },
     {
@@ -332,17 +332,17 @@
       "type": "organization.house",
       "appearances_total": 9,
       "chapters_referenced_in": 9,
-      "in_edge_count": 44,
+      "in_edge_count": 73,
       "out_edge_count": 25
     },
     {
-      "slug": "house-blackfyre",
-      "name": "House Blackfyre",
+      "slug": "house-of-the-undying",
+      "name": "House of the Undying",
       "type": "organization.house",
-      "appearances_total": 1,
+      "appearances_total": 2,
       "chapters_referenced_in": 1,
-      "in_edge_count": 42,
-      "out_edge_count": 8
+      "in_edge_count": 72,
+      "out_edge_count": 0
     },
     {
       "slug": "house-hoare",
@@ -350,26 +350,26 @@
       "type": "organization.house",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 40,
+      "in_edge_count": 68,
       "out_edge_count": 10
     },
     {
-      "slug": "house-karstark",
-      "name": "House Karstark",
+      "slug": "house-of-black-and-white",
+      "name": "House of Black and White",
       "type": "organization.house",
-      "appearances_total": 6,
-      "chapters_referenced_in": 6,
-      "in_edge_count": 37,
-      "out_edge_count": 7
+      "appearances_total": 13,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 62,
+      "out_edge_count": 0
     },
     {
-      "slug": "house-rogare",
-      "name": "House Rogare",
+      "slug": "house-blackfyre",
+      "name": "House Blackfyre",
       "type": "organization.house",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 35,
-      "out_edge_count": 2
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 62,
+      "out_edge_count": 8
     }
   ]
 }

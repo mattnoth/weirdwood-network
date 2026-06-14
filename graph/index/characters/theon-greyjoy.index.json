@@ -3,13 +3,13 @@
   "name": "Theon Greyjoy",
   "type": "character.human",
   "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
-  "generated_at": "2026-05-11T22:49:54.001502+00:00",
+  "generated_at": "2026-06-13T15:02:33.119335+00:00",
   "stats": {
     "appearances_total": 81,
     "chapters_pov": 13,
     "chapters_mentioned_in": 50,
     "out_edge_count": 12,
-    "in_edge_count": 345
+    "in_edge_count": 514
   },
   "chapters": {
     "pov": [

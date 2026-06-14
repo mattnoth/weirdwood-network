@@ -3,13 +3,13 @@
   "name": "Doran Martell",
   "type": "character.human",
   "node_path": "graph/nodes/characters/doran-martell.node.md",
-  "generated_at": "2026-05-11T22:49:53.755862+00:00",
+  "generated_at": "2026-06-13T15:02:32.750121+00:00",
   "stats": {
     "appearances_total": 42,
     "chapters_pov": 0,
     "chapters_mentioned_in": 31,
     "out_edge_count": 12,
-    "in_edge_count": 100
+    "in_edge_count": 180
   },
   "chapters": {
     "pov": [],

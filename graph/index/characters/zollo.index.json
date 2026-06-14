@@ -3,13 +3,13 @@
   "name": "Zollo",
   "type": "character.human",
   "node_path": "graph/nodes/characters/zollo.node.md",
-  "generated_at": "2026-05-11T22:49:53.900168+00:00",
+  "generated_at": "2026-06-13T15:02:32.962507+00:00",
   "stats": {
     "appearances_total": 7,
     "chapters_pov": 0,
     "chapters_mentioned_in": 6,
     "out_edge_count": 3,
-    "in_edge_count": 12
+    "in_edge_count": 17
   },
   "chapters": {
     "pov": [],

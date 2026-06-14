@@ -3,13 +3,13 @@
   "name": "Qyburn",
   "type": "character.human",
   "node_path": "graph/nodes/characters/qyburn.node.md",
-  "generated_at": "2026-05-11T22:49:53.806946+00:00",
+  "generated_at": "2026-06-13T15:02:32.826300+00:00",
   "stats": {
     "appearances_total": 29,
     "chapters_pov": 0,
     "chapters_mentioned_in": 22,
     "out_edge_count": 10,
-    "in_edge_count": 63
+    "in_edge_count": 121
   },
   "chapters": {
     "pov": [],

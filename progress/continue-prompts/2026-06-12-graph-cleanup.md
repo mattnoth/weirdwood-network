@@ -1,8 +1,10 @@
 # Continue Prompt: Graph Cleanup — Hub-Triage FIX-22 + Plate-5 Small Followups
 
-**Status:** GATED (see gates below)
+**Status:** GATED — runs AFTER Mode 3 dip per Matt's S95 sequential-execution decision (2026-06-13)
 **Recommended model:** Sonnet 4.6 (scripted edits + verification; all judgment calls were made in the curation files Matt approves at Step 0)
-**Created:** 2026-06-12 (Session 92)
+**Created:** 2026-06-12 (Session 92); S95 resolutions appended 2026-06-13
+
+**SEQUENTIAL EXECUTION (Matt 2026-06-13, S95):** This was previously labelled parallel-safe with the Mode 3 dip. NO LONGER PARALLEL — runs AFTER the dip completes. Reason: this cleanup ships 27 S95 edges + 7 new nodes incl. the `incident-at-the-trident` parent arc (Q5). Running in parallel would mean the dip evaluates a moving target. Order: Mode 3 dip → this → narrative-arc track wave 1.
 
 ---
 
@@ -11,11 +13,17 @@
 Two curation files produced in S92 contain the full analysis and proposed actions for this cleanup session. Nothing has been applied to the graph yet.
 
 **Source files:**
-- `curation/hub-review-triage-2026-06-12.md` — FIX 22 / QUARANTINE 10 / KEEP 81 (full hub-review queue triage + 4 S89 wrong-direction role edges)
+- `curation/hub-review-triage-2026-06-12.md` — FIX 22 / QUARANTINE 10 / KEEP 81 (full hub-review queue triage + 4 S89 wrong-direction role edges). **5 of 10 QUARANTINE items were resolved in S95** — see next bullet.
+- `curation/s95-quarantine-resolutions-2026-06-13.md` — **S95 RESEARCH RESOLUTIONS** (2026-06-13, Opus 4.7 + 4 parallel Sonnet research agents). Resolves: `eagle-attacks-ghost`, `arya-kills-the-postern-guard`, `galley-crews-put-to-death-slaves-freed`, `stallion-heart-ceremony`, `wedding-feast`. Includes JSON-ready edges (19 new rows), minimal-frontmatter for 5 new nodes, and 2 explicit SKIPs (`a-boy-is-run-down-and-killed`, `a-captive-girl-is-beheaded`). Also confirms 3 new-hub slug names (F3a/F3b/F4a). This file is the source of truth for those items — read it first, then cross-reference back to the triage file's status column.
 - `curation/plate5-small-followups-2026-06-12.md` — 4 followup groups: A (collision merges), B (donal-noye↔mag reverse edge + forward-edge quote fix), C (32 empty-quote SUB_BEAT_OF disposition + robb-is-killed mis-sourced quote fix), D (display-bullet regeneration — DEFERRED)
 - `working/todos.md` Track 3 — F1c dangling edge, 3 unlinked Red Wedding beats (incl. Dacey Mormont's death), LOCATED_AT direction doc reconcile
 
-**Expected magnitude:** ~30–45 edge rows touched (adds/drops/retypes) + 2–4 node moves. The point is precision, not volume.
+**Expected magnitude:** ~30–45 edge rows touched (adds/drops/retypes from the FIX-22 + plate5 followups) + ~19 new S95 edges + 2–4 node moves + 5 new node mints (from S95). The point is precision, not volume.
+
+**S95 bonus / out-of-scope flags (DO NOT execute this session):**
+- Eagle-attacks-Jon scene (Varamyr-via-Orell's-eagle) — needs a separate edge with `ECHOES_IN orell→varamyr` sibling per S95 research; queue for a future session.
+- Rename `the-stallion-is-brought-in-and-sacrificed` → `mirri-maz-duur-bloodmagic-ritual` (S95 found this node is mis-slugged: it covers Mirri's healing-sacrifice in AGOT Dany VIII, not the Vaes Dothrak rite the name implies). Queue for a rename pass with `scripts/rename-event-node.py`.
+- `a-captive-girl-is-beheaded` queue verbatim couldn't be located in-corpus — likely a Pass-1 LLM paraphrase, not a citable scene. Surface to a Pass-1 audit queue.
 
 ---
 
@@ -36,7 +44,7 @@ print('GATE OPEN' if wiki > 0 and len(rows) > 20000 else 'GATE CLOSED — infobo
 
 **Why this gate exists:** The infobox merge script (`scripts/infobox-merge.py`) performs a dry-run-reverification that halts on any `edges.jsonl` drift. If cleanup edits land in `edges.jsonl` before the merge ships, the merge's expected-count check will fail and block the ship. The infobox merge is the higher-priority track and must complete first.
 
-**Sequencing pointer:** `progress/continue-prompts/2026-06-12-infobox-merge-ship.md`
+**Sequencing pointer:** ~~`progress/continue-prompts/2026-06-12-infobox-merge-ship.md`~~ — **GATE 1 CLEARED 2026-06-13 (S94)**: infobox merge shipped (`edges.jsonl` 4,764 → 21,770; backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`). Gate 2 (Matt's curation marks) still pending.
 
 ---
 

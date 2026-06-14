@@ -3,13 +3,13 @@
   "name": "Lucan",
   "type": "character.human",
   "node_path": "graph/nodes/characters/lucan.node.md",
-  "generated_at": "2026-05-11T22:49:53.837479+00:00",
+  "generated_at": "2026-06-13T15:02:32.874702+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_pov": 0,
     "chapters_mentioned_in": 2,
     "out_edge_count": 4,
-    "in_edge_count": 1
+    "in_edge_count": 2
   },
   "chapters": {
     "pov": [],

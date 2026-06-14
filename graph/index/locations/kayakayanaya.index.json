@@ -3,13 +3,13 @@
   "name": "Kayakayanaya",
   "type": "place.location",
   "node_path": "graph/nodes/locations/kayakayanaya.node.md",
-  "generated_at": "2026-05-11T23:36:05.598752+00:00",
+  "generated_at": "2026-06-14T20:36:15.694753+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_referenced_in": 1,
     "chapters_in_raw_list": 1,
     "out_edge_count": 0,
-    "in_edge_count": 2,
+    "in_edge_count": 7,
     "chapters_in_locations_section": 1
   },
   "chapters": {

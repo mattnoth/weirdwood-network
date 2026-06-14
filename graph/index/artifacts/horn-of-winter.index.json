@@ -3,13 +3,13 @@
   "name": "Horn of Winter",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/horn-of-winter.node.md",
-  "generated_at": "2026-05-11T23:36:15.789892+00:00",
+  "generated_at": "2026-06-14T20:36:15.654481+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_referenced_in": 6,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
-    "in_edge_count": 8,
+    "in_edge_count": 14,
     "chapters_in_artifacts_section": 5
   },
   "chapters": {

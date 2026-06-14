@@ -3,13 +3,13 @@
   "name": "Denys Drumm",
   "type": "character.human",
   "node_path": "graph/nodes/characters/denys-drumm.node.md",
-  "generated_at": "2026-05-11T22:49:54.020648+00:00",
+  "generated_at": "2026-06-13T15:02:33.143967+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_pov": 0,
     "chapters_mentioned_in": 1,
     "out_edge_count": 4,
-    "in_edge_count": 2
+    "in_edge_count": 4
   },
   "chapters": {
     "pov": [],

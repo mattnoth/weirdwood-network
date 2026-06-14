@@ -3,13 +3,13 @@
   "name": "Simon Toyne",
   "type": "character.human",
   "node_path": "graph/nodes/characters/simon-toyne.node.md",
-  "generated_at": "2026-05-11T22:49:53.870452+00:00",
+  "generated_at": "2026-06-13T15:02:32.921890+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_pov": 0,
     "chapters_mentioned_in": 5,
     "out_edge_count": 4,
-    "in_edge_count": 7
+    "in_edge_count": 9
   },
   "chapters": {
     "pov": [],

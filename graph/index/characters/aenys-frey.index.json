@@ -3,13 +3,13 @@
   "name": "Aenys Frey",
   "type": "character.human",
   "node_path": "graph/nodes/characters/aenys-frey.node.md",
-  "generated_at": "2026-05-11T22:49:53.980230+00:00",
+  "generated_at": "2026-06-13T15:02:33.074167+00:00",
   "stats": {
     "appearances_total": 19,
     "chapters_pov": 0,
     "chapters_mentioned_in": 13,
     "out_edge_count": 10,
-    "in_edge_count": 42
+    "in_edge_count": 54
   },
   "chapters": {
     "pov": [],

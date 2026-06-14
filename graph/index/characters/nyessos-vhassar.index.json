@@ -3,16 +3,60 @@
   "name": "Nyessos Vhassar",
   "type": "character.human",
   "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
-  "generated_at": "2026-05-11T22:49:53.977419+00:00",
+  "generated_at": "2026-06-13T15:02:33.070481+00:00",
   "stats": {
-    "appearances_total": 0,
+    "appearances_total": 7,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 0,
+    "chapters_mentioned_in": 4,
     "out_edge_count": 4,
-    "in_edge_count": 0
+    "in_edge_count": 5
   },
   "chapters": {
     "pov": [],
-    "mentioned_in": []
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-tyrion-04",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-tyrion-05",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-tyrion-06",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-tyrion-07",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
   }
 }

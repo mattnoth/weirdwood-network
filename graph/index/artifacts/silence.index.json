@@ -3,13 +3,13 @@
   "name": "Silence",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/silence.node.md",
-  "generated_at": "2026-05-11T23:36:15.781229+00:00",
+  "generated_at": "2026-06-14T20:36:15.636429+00:00",
   "stats": {
     "appearances_total": 7,
     "chapters_referenced_in": 6,
     "chapters_in_raw_list": 1,
     "out_edge_count": 0,
-    "in_edge_count": 16,
+    "in_edge_count": 32,
     "chapters_in_artifacts_section": 6
   },
   "chapters": {

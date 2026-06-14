@@ -3,13 +3,13 @@
   "name": "Aerys II Targaryen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/aerys-ii-targaryen.node.md",
-  "generated_at": "2026-05-11T22:49:53.809850+00:00",
+  "generated_at": "2026-06-13T15:02:32.831179+00:00",
   "stats": {
     "appearances_total": 53,
     "chapters_pov": 0,
     "chapters_mentioned_in": 44,
     "out_edge_count": 22,
-    "in_edge_count": 217
+    "in_edge_count": 382
   },
   "chapters": {
     "pov": [],

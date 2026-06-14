@@ -3,13 +3,13 @@
   "name": "Tysha",
   "type": "character.human",
   "node_path": "graph/nodes/characters/tysha.node.md",
-  "generated_at": "2026-05-11T22:49:53.943443+00:00",
+  "generated_at": "2026-06-13T15:02:33.026487+00:00",
   "stats": {
     "appearances_total": 32,
     "chapters_pov": 0,
     "chapters_mentioned_in": 21,
     "out_edge_count": 2,
-    "in_edge_count": 10
+    "in_edge_count": 27
   },
   "chapters": {
     "pov": [],

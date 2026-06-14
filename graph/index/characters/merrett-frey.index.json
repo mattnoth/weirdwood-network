@@ -3,13 +3,13 @@
   "name": "Merrett Frey",
   "type": "character.human",
   "node_path": "graph/nodes/characters/merrett-frey.node.md",
-  "generated_at": "2026-05-11T22:49:54.099232+00:00",
+  "generated_at": "2026-06-13T15:02:33.240888+00:00",
   "stats": {
     "appearances_total": 8,
     "chapters_pov": 1,
     "chapters_mentioned_in": 6,
     "out_edge_count": 11,
-    "in_edge_count": 79
+    "in_edge_count": 96
   },
   "chapters": {
     "pov": [

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-11T23:36:05.698503+00:00",
+  "generated_at": "2026-06-14T20:36:15.843732+00:00",
   "entity_type": "locations",
   "dry_run": false,
-  "entity_count": 1056,
+  "entity_count": 1097,
   "type_counts": {
-    "place.location": 1033,
-    "place.region": 23
+    "place.location": 1064,
+    "place.region": 33
   },
-  "entities_with_zero_mentions": 434,
-  "mention_inverse_slugs": 622,
+  "entities_with_zero_mentions": 435,
+  "mention_inverse_slugs": 662,
   "top_by_appearances": [
     {
       "slug": "kings-landing",
@@ -16,7 +16,7 @@
       "type": "place.location",
       "appearances_total": 304,
       "chapters_referenced_in": 217,
-      "in_edge_count": 914,
+      "in_edge_count": 1570,
       "out_edge_count": 3
     },
     {
@@ -25,7 +25,7 @@
       "type": "place.location",
       "appearances_total": 300,
       "chapters_referenced_in": 191,
-      "in_edge_count": 408,
+      "in_edge_count": 773,
       "out_edge_count": 3
     },
     {
@@ -34,7 +34,7 @@
       "type": "place.location",
       "appearances_total": 205,
       "chapters_referenced_in": 121,
-      "in_edge_count": 382,
+      "in_edge_count": 652,
       "out_edge_count": 0
     },
     {
@@ -43,7 +43,7 @@
       "type": "place.location",
       "appearances_total": 158,
       "chapters_referenced_in": 117,
-      "in_edge_count": 151,
+      "in_edge_count": 304,
       "out_edge_count": 3
     },
     {
@@ -52,7 +52,7 @@
       "type": "place.location",
       "appearances_total": 143,
       "chapters_referenced_in": 98,
-      "in_edge_count": 275,
+      "in_edge_count": 418,
       "out_edge_count": 3
     },
     {
@@ -61,7 +61,7 @@
       "type": "place.location",
       "appearances_total": 138,
       "chapters_referenced_in": 96,
-      "in_edge_count": 300,
+      "in_edge_count": 540,
       "out_edge_count": 0
     },
     {
@@ -70,7 +70,7 @@
       "type": "place.location",
       "appearances_total": 118,
       "chapters_referenced_in": 79,
-      "in_edge_count": 264,
+      "in_edge_count": 473,
       "out_edge_count": 3
     },
     {
@@ -79,7 +79,7 @@
       "type": "place.location",
       "appearances_total": 114,
       "chapters_referenced_in": 74,
-      "in_edge_count": 300,
+      "in_edge_count": 532,
       "out_edge_count": 3
     },
     {
@@ -88,7 +88,7 @@
       "type": "place.location",
       "appearances_total": 101,
       "chapters_referenced_in": 58,
-      "in_edge_count": 271,
+      "in_edge_count": 441,
       "out_edge_count": 0
     },
     {
@@ -97,7 +97,7 @@
       "type": "place.location",
       "appearances_total": 91,
       "chapters_referenced_in": 68,
-      "in_edge_count": 94,
+      "in_edge_count": 168,
       "out_edge_count": 0
     },
     {
@@ -106,7 +106,7 @@
       "type": "place.location",
       "appearances_total": 85,
       "chapters_referenced_in": 65,
-      "in_edge_count": 196,
+      "in_edge_count": 328,
       "out_edge_count": 4
     },
     {
@@ -115,7 +115,7 @@
       "type": "place.region",
       "appearances_total": 85,
       "chapters_referenced_in": 63,
-      "in_edge_count": 237,
+      "in_edge_count": 437,
       "out_edge_count": 0
     },
     {
@@ -124,7 +124,7 @@
       "type": "place.location",
       "appearances_total": 85,
       "chapters_referenced_in": 54,
-      "in_edge_count": 190,
+      "in_edge_count": 414,
       "out_edge_count": 0
     },
     {
@@ -133,7 +133,7 @@
       "type": "place.location",
       "appearances_total": 79,
       "chapters_referenced_in": 59,
-      "in_edge_count": 231,
+      "in_edge_count": 416,
       "out_edge_count": 1
     },
     {
@@ -142,7 +142,7 @@
       "type": "place.location",
       "appearances_total": 77,
       "chapters_referenced_in": 56,
-      "in_edge_count": 206,
+      "in_edge_count": 288,
       "out_edge_count": 2
     },
     {
@@ -151,7 +151,7 @@
       "type": "place.location",
       "appearances_total": 76,
       "chapters_referenced_in": 63,
-      "in_edge_count": 104,
+      "in_edge_count": 194,
       "out_edge_count": 2
     },
     {
@@ -160,7 +160,7 @@
       "type": "place.location",
       "appearances_total": 71,
       "chapters_referenced_in": 48,
-      "in_edge_count": 138,
+      "in_edge_count": 242,
       "out_edge_count": 0
     },
     {
@@ -169,7 +169,7 @@
       "type": "place.location",
       "appearances_total": 71,
       "chapters_referenced_in": 50,
-      "in_edge_count": 84,
+      "in_edge_count": 157,
       "out_edge_count": 1
     },
     {
@@ -178,7 +178,7 @@
       "type": "place.location",
       "appearances_total": 68,
       "chapters_referenced_in": 44,
-      "in_edge_count": 128,
+      "in_edge_count": 279,
       "out_edge_count": 0
     },
     {
@@ -187,7 +187,7 @@
       "type": "place.location",
       "appearances_total": 67,
       "chapters_referenced_in": 47,
-      "in_edge_count": 122,
+      "in_edge_count": 275,
       "out_edge_count": 3
     }
   ],
@@ -198,7 +198,7 @@
       "type": "place.location",
       "appearances_total": 304,
       "chapters_referenced_in": 217,
-      "in_edge_count": 914,
+      "in_edge_count": 1570,
       "out_edge_count": 3
     },
     {
@@ -207,17 +207,8 @@
       "type": "place.location",
       "appearances_total": 300,
       "chapters_referenced_in": 191,
-      "in_edge_count": 408,
+      "in_edge_count": 773,
       "out_edge_count": 3
-    },
-    {
-      "slug": "wall",
-      "name": "Wall",
-      "type": "place.location",
-      "appearances_total": 205,
-      "chapters_referenced_in": 121,
-      "in_edge_count": 382,
-      "out_edge_count": 0
     },
     {
       "slug": "westeros",
@@ -225,7 +216,16 @@
       "type": "place.region",
       "appearances_total": 34,
       "chapters_referenced_in": 26,
-      "in_edge_count": 364,
+      "in_edge_count": 668,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "wall",
+      "name": "Wall",
+      "type": "place.location",
+      "appearances_total": 205,
+      "chapters_referenced_in": 121,
+      "in_edge_count": 652,
       "out_edge_count": 0
     },
     {
@@ -234,17 +234,8 @@
       "type": "place.location",
       "appearances_total": 34,
       "chapters_referenced_in": 27,
-      "in_edge_count": 331,
+      "in_edge_count": 551,
       "out_edge_count": 4
-    },
-    {
-      "slug": "riverlands",
-      "name": "Riverlands",
-      "type": "place.region",
-      "appearances_total": 33,
-      "chapters_referenced_in": 23,
-      "in_edge_count": 312,
-      "out_edge_count": 0
     },
     {
       "slug": "red-keep",
@@ -252,7 +243,7 @@
       "type": "place.location",
       "appearances_total": 138,
       "chapters_referenced_in": 96,
-      "in_edge_count": 300,
+      "in_edge_count": 540,
       "out_edge_count": 0
     },
     {
@@ -261,8 +252,17 @@
       "type": "place.location",
       "appearances_total": 114,
       "chapters_referenced_in": 74,
-      "in_edge_count": 300,
+      "in_edge_count": 532,
       "out_edge_count": 3
+    },
+    {
+      "slug": "riverlands",
+      "name": "Riverlands",
+      "type": "place.region",
+      "appearances_total": 33,
+      "chapters_referenced_in": 23,
+      "in_edge_count": 495,
+      "out_edge_count": 0
     },
     {
       "slug": "north",
@@ -270,25 +270,7 @@
       "type": "place.region",
       "appearances_total": 7,
       "chapters_referenced_in": 6,
-      "in_edge_count": 277,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "riverrun",
-      "name": "Riverrun",
-      "type": "place.location",
-      "appearances_total": 143,
-      "chapters_referenced_in": 98,
-      "in_edge_count": 275,
-      "out_edge_count": 3
-    },
-    {
-      "slug": "castle-black",
-      "name": "Castle Black",
-      "type": "place.location",
-      "appearances_total": 101,
-      "chapters_referenced_in": 58,
-      "in_edge_count": 271,
+      "in_edge_count": 474,
       "out_edge_count": 0
     },
     {
@@ -297,8 +279,17 @@
       "type": "place.location",
       "appearances_total": 118,
       "chapters_referenced_in": 79,
-      "in_edge_count": 264,
+      "in_edge_count": 473,
       "out_edge_count": 3
+    },
+    {
+      "slug": "castle-black",
+      "name": "Castle Black",
+      "type": "place.location",
+      "appearances_total": 101,
+      "chapters_referenced_in": 58,
+      "in_edge_count": 441,
+      "out_edge_count": 0
     },
     {
       "slug": "dorne",
@@ -306,8 +297,17 @@
       "type": "place.region",
       "appearances_total": 85,
       "chapters_referenced_in": 63,
-      "in_edge_count": 237,
+      "in_edge_count": 437,
       "out_edge_count": 0
+    },
+    {
+      "slug": "riverrun",
+      "name": "Riverrun",
+      "type": "place.location",
+      "appearances_total": 143,
+      "chapters_referenced_in": 98,
+      "in_edge_count": 418,
+      "out_edge_count": 3
     },
     {
       "slug": "oldtown",
@@ -315,26 +315,8 @@
       "type": "place.location",
       "appearances_total": 79,
       "chapters_referenced_in": 59,
-      "in_edge_count": 231,
+      "in_edge_count": 416,
       "out_edge_count": 1
-    },
-    {
-      "slug": "twins",
-      "name": "Twins",
-      "type": "place.location",
-      "appearances_total": 77,
-      "chapters_referenced_in": 56,
-      "in_edge_count": 206,
-      "out_edge_count": 2
-    },
-    {
-      "slug": "storms-end",
-      "name": "Storm's End",
-      "type": "place.location",
-      "appearances_total": 85,
-      "chapters_referenced_in": 65,
-      "in_edge_count": 196,
-      "out_edge_count": 4
     },
     {
       "slug": "braavos",
@@ -342,26 +324,8 @@
       "type": "place.location",
       "appearances_total": 85,
       "chapters_referenced_in": 54,
-      "in_edge_count": 190,
+      "in_edge_count": 414,
       "out_edge_count": 0
-    },
-    {
-      "slug": "westerlands",
-      "name": "Westerlands",
-      "type": "place.region",
-      "appearances_total": 3,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 167,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "casterly-rock",
-      "name": "Casterly Rock",
-      "type": "place.location",
-      "appearances_total": 158,
-      "chapters_referenced_in": 117,
-      "in_edge_count": 151,
-      "out_edge_count": 3
     },
     {
       "slug": "meereen",
@@ -369,7 +333,43 @@
       "type": "place.location",
       "appearances_total": 63,
       "chapters_referenced_in": 38,
-      "in_edge_count": 143,
+      "in_edge_count": 369,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "storms-end",
+      "name": "Storm's End",
+      "type": "place.location",
+      "appearances_total": 85,
+      "chapters_referenced_in": 65,
+      "in_edge_count": 328,
+      "out_edge_count": 4
+    },
+    {
+      "slug": "casterly-rock",
+      "name": "Casterly Rock",
+      "type": "place.location",
+      "appearances_total": 158,
+      "chapters_referenced_in": 117,
+      "in_edge_count": 304,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "twins",
+      "name": "Twins",
+      "type": "place.location",
+      "appearances_total": 77,
+      "chapters_referenced_in": 56,
+      "in_edge_count": 288,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "volantis",
+      "name": "Volantis",
+      "type": "place.location",
+      "appearances_total": 50,
+      "chapters_referenced_in": 34,
+      "in_edge_count": 283,
       "out_edge_count": 0
     }
   ]

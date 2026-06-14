@@ -3,13 +3,13 @@
   "name": "Leo Tyrell (son of Moryn)",
   "type": "character.human",
   "node_path": "graph/nodes/characters/leo-tyrell-son-of-moryn.node.md",
-  "generated_at": "2026-05-11T22:49:54.102190+00:00",
+  "generated_at": "2026-06-13T15:02:33.244664+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_pov": 0,
     "chapters_mentioned_in": 1,
     "out_edge_count": 6,
-    "in_edge_count": 14
+    "in_edge_count": 26
   },
   "chapters": {
     "pov": [],

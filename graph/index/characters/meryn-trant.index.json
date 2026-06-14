@@ -3,13 +3,13 @@
   "name": "Meryn Trant",
   "type": "character.human",
   "node_path": "graph/nodes/characters/meryn-trant.node.md",
-  "generated_at": "2026-05-11T22:49:54.122465+00:00",
+  "generated_at": "2026-06-13T15:02:33.269819+00:00",
   "stats": {
     "appearances_total": 83,
     "chapters_pov": 0,
     "chapters_mentioned_in": 53,
     "out_edge_count": 6,
-    "in_edge_count": 17
+    "in_edge_count": 38
   },
   "chapters": {
     "pov": [],

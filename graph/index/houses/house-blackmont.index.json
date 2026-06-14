@@ -3,13 +3,13 @@
   "name": "House Blackmont",
   "type": "organization.house",
   "node_path": "graph/nodes/houses/house-blackmont.node.md",
-  "generated_at": "2026-05-11T23:36:16.166688+00:00",
+  "generated_at": "2026-06-14T20:36:15.675573+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
     "chapters_in_raw_list": 0,
     "out_edge_count": 7,
-    "in_edge_count": 1
+    "in_edge_count": 5
   },
   "chapters": {
     "in_raw_list": [],

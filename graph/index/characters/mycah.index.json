@@ -3,13 +3,13 @@
   "name": "Mycah",
   "type": "character.human",
   "node_path": "graph/nodes/characters/mycah.node.md",
-  "generated_at": "2026-05-11T22:49:53.993247+00:00",
+  "generated_at": "2026-06-13T15:02:33.106289+00:00",
   "stats": {
     "appearances_total": 13,
     "chapters_pov": 0,
     "chapters_mentioned_in": 10,
     "out_edge_count": 3,
-    "in_edge_count": 8
+    "in_edge_count": 25
   },
   "chapters": {
     "pov": [],

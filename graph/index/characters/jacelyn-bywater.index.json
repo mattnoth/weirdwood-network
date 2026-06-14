@@ -3,13 +3,13 @@
   "name": "Jacelyn Bywater",
   "type": "character.human",
   "node_path": "graph/nodes/characters/jacelyn-bywater.node.md",
-  "generated_at": "2026-05-11T22:49:53.760858+00:00",
+  "generated_at": "2026-06-13T15:02:32.756962+00:00",
   "stats": {
     "appearances_total": 20,
     "chapters_pov": 0,
     "chapters_mentioned_in": 16,
     "out_edge_count": 10,
-    "in_edge_count": 20
+    "in_edge_count": 39
   },
   "chapters": {
     "pov": [],

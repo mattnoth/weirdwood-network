@@ -3,13 +3,13 @@
   "name": "Tanda Stokeworth",
   "type": "character.human",
   "node_path": "graph/nodes/characters/tanda-stokeworth.node.md",
-  "generated_at": "2026-05-11T22:49:53.897098+00:00",
+  "generated_at": "2026-06-13T15:02:32.958148+00:00",
   "stats": {
     "appearances_total": 12,
     "chapters_pov": 0,
     "chapters_mentioned_in": 11,
     "out_edge_count": 7,
-    "in_edge_count": 19
+    "in_edge_count": 33
   },
   "chapters": {
     "pov": [],

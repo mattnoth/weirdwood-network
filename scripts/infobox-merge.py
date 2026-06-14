@@ -1300,7 +1300,11 @@ def main():
     write_jsonl(OUTPUT_DIR / "corroborations.jsonl", result["corroborations"])
     write_jsonl(OUTPUT_DIR / "hygiene-a-remaps.jsonl", result["hygiene_a_log"])
     write_jsonl(OUTPUT_DIR / "hygiene-b-stamps.jsonl", result["hygiene_b_log"])
-    write_dry_run_report(result, OUTPUT_DIR, rng_seed=args.seed)
+    # The dry-run report is the human-curated approval surface (Matt's CLOSEOUT
+    # banner + per-decision [x] marks live in it). Only rewrite it on dry-run
+    # runs; --apply must NOT silently wipe it.
+    if not apply_mode:
+        write_dry_run_report(result, OUTPUT_DIR, rng_seed=args.seed)
 
     if apply_mode:
         print("[infobox-merge] --apply mode: writing to graph/...", file=sys.stderr)
