@@ -10,7 +10,10 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-11-phase2-mode3-dip.md` | 2026-06-11 | Graph validation Mode 3 | **LIVE — GATE CLEARED S94** | Opus 4.7 | Infobox merge shipped 2026-06-13; this is now the top-of-queue track |
+| `2026-06-15-script-consolidation.md` | 2026-06-15 | Orchestration/pacer + script cleanup | **LIVE — TOP OF QUEUE (S97)** | Sonnet 4.6 | TWO sessions: Session 1 pacer build, Session 2 cleanup. Spec = `working/orchestration-pacer-design-2026-06-15.md` (§13 must-fixes binding) |
+| `2026-06-15-historical-anchor-wave2.md` | 2026-06-15 | Historical-anchor #9 wave 2 | **LIVE** | Sonnet 4.6 | Wave 1 shipped S97 (+121 edges, 8 hubs); wave 2 = remaining main-saga-recalled historical hubs; tooling `scripts/historical-anchor-*.py` |
+| `2026-06-15-arc-wave1-mint.md` | 2026-06-14 | Narrative-arc wave 1 mint (Red Wedding + Joffrey) | **HALTED-gated-on-Matt's-3-decisions** | Sonnet 4.6 | Drafts+review done; gated on RW-4 role edges / arc boundaries / RECIPIENT_IN vocab. De-prioritized by S96 dip |
+| `2026-06-11-phase2-mode3-dip.md` | 2026-06-11 | Graph validation Mode 3 | **DONE (S96 2026-06-14)** | Opus 4.7 | Dip ran on merged graph; results `working/session-results/2026-06-14-mode3-dip-results.md`; drove Track 7 + #9 |
 | `2026-06-12-graph-cleanup.md` | 2026-06-12 | Graph cleanup — hub-triage FIX-22 + Plate-5 followups | **GATED** | Sonnet 4.6 | Infobox merge ✓ shipped (edges.jsonl=21,770); still gated on Matt approving curation files; 9-step work plan, ~30–45 rows touched |
 | ~~`2026-06-12-infobox-merge-ship.md`~~ | 2026-06-12 | Infobox merge — apply to graph/ | **DONE (S94 2026-06-13) — file deleted** | n/a | Shipped; edges 4,764 → 21,770; backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl` |
 | `2026-06-12-deferred-structural-restructures.md` | 2026-06-12 | Rename / restructure (Wyman + Jaime arcs) | **DONE (S93 2026-06-12)** — file kept pending Matt's writeup-confirm per S93 worklog | Opus 4.7 | Wyman+Jaime arcs landed S93; edges 4,760 → 4,764; can be deleted after Matt confirms `working/session-results/2026-06-12-deferred-restructures.md` |

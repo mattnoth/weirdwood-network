@@ -28,13 +28,13 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 ## Current State
 
-### STATUS — at a glance (verified 2026-06-13)
+### STATUS — at a glance (verified 2026-06-15)
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
 - Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,518** (events 585; excl. `_conflicts/` staging)
 - Entity + chapter indexes: **all 21 categories** (S72)
-- Edge layer LIVE: **`graph/edges/edges.jsonl` = 21,829 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + deception pilots → S93 Wyman + Jaime restructures → S94 infobox merge +17,006 wiki-infobox → **S96 graph-cleanup +59: FIX-22 + plate5 followups + 27 S95 edges incl. first narrative-arc reification `incident-at-the-trident`**). Node connectivity **~71%**. 5 evidence kinds: wiki-infobox 17,006 / book-pass1 3,864 / book-pass1-reified 897 / plate4-wiki-cluster 51 / book-curator 11.
+- Edge layer LIVE: **`graph/edges/edges.jsonl` = 21,950 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + deception pilots → S93 Wyman + Jaime restructures → S94 infobox merge +17,006 wiki-infobox → S96 graph-cleanup +59 (FIX-22 + plate5 + 27 S95 edges incl. first narrative-arc reification `incident-at-the-trident`) → **S97 historical-anchor #9 wave 1 +121: 8 isolated R+L=J/Robert's-Rebellion hubs attached (tourney-at-harrenhal 0→25, the-hands-tourney 0→33, battle-of-the-trident 2→16) + Trident commanders**). Node connectivity **~71%**. **6 evidence kinds** (now incl. **`wiki-historical-anchor`** Tier-2, +~19 S97): wiki-infobox 17,006 / book-pass1 ~3,963 / book-pass1-reified 897 / plate4-wiki-cluster 51 / book-curator 11 / wiki-historical-anchor 19.
 - S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script.
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 - **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
@@ -42,9 +42,10 @@ This is your project memory. When you come back after a break, **STATUS — at a
 **IN FLIGHT**
 - (none — S94 ship session complete)
 
-**NEXT TRACK (S96 dip-driven)**
-- **Track 7 — alias-resolver fix** (PRIMARY per Mode 3 dip; $0 deterministic; ~4/10→~7/10; makes Trident/Joffrey arcs findable). Needs a continue prompt. → then followup #9 historical structural-attachment → then narrative-arc wave 1 (Red Wedding arc, Joffrey/Littlefinger arc).
-- DONE this session: Mode 3 dip (S96) + graph-cleanup/promotion (S96, both gates cleared).
+**NEXT TRACK (S97)**
+- **Script consolidation — Session 1 (orchestration/pacer)** — RECOMMENDED NEXT. Build `pace.py` v1 + worker-contract template + telemetry ledger per `working/orchestration-pacer-design-2026-06-15.md` (§13 must-fixes binding). Continue: `progress/continue-prompts/2026-06-15-script-consolidation.md` (Sonnet 4.6). Then Session 2 = script cleanup/aliasing/README.
+- **historical-anchor #9 wave 2** (`2026-06-15-historical-anchor-wave2.md`, Sonnet) + **narrative-arc wave 1 mint** (`2026-06-15-arc-wave1-mint.md`, Sonnet — GATED on Matt's 3 decisions) remain queued.
+- DONE prior: Track 7 alias-resolver fix (S96 commit `c58770549`); Mode 3 dip + graph-cleanup (S96); historical-anchor #9 wave 1 (S97).
 
 **GATED / QUEUED**
 - Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
@@ -210,6 +211,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - [ ] Write Pass 4 foreshadowing prompt — agent receives `reference/foreshadowing-events.md` and scans chapter extractions for matches
 - [ ] Build convergence map for Oldtown as proof of concept (`graph/convergence-maps/` still empty)
 - [ ] Prophecy node layer is undercounted (2 nodes, 0 edges) — mint the canon prophecies (Azor Ahai, valonqar, dragon-has-three-heads…) from existing wiki pages
+- [ ] **Non-saga source ingestion — TWOIAF (6th source) + Fire & Blood (7th source)** (NEW S97 2026-06-15, Matt). Would convert the ~300 deep-lore isolated historical hubs (Doom of Valyria, Blackfyre Rebellions, Targaryen Conquest, Dance of the Dragons) from `wiki-historical-anchor` (Tier-2) to book-grounded dyads. **TWOIAF is already on disk** (`sources/raw/TWOIAF.txt`, 179K-word OCR) but never Pass-1-extracted → cheaper first step. **F&B is NOT on disk** (only wiki *pages about* it in `_raw/`) → must acquire text first. Caveat: both are non-POV history register (Yandel / Gyldayn), closer to the wiki than a chapter, and the wiki cache is largely derived from them — unique value is verbatim primary-text Tier-1 quotes + detail the wiki compressed. Own ingestion track (different extraction shape than a POV novel). **For now: use the wiki for those hubs (Matt 2026-06-15); enrich with TWOIAF/F&B later.** Connects to historical-anchor #9 wave 2 + the theory-node layer (pre-series events anchor R+L=J / KotLT theories).
 
 ### LOW
 - [ ] Explore fan fiction generation as a downstream use case — voice profiles + relationship graph + location descriptions = grounded creative generation
@@ -229,6 +231,27 @@ This is your project memory. When you come back after a break, **STATUS — at a
 ## Session Log
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
+
+### Session 97 — Historical-anchor #9 wave 1 SHIPPED + Orchestration/Pacer design doc (2026-06-15)
+**Detail:** `history/session-details/session-097.md`
+**Model:** Opus 4.8 orchestrator + Sonnet 4.6 subagents (8 historical-anchor research + 1 sequencing advisor + 1 design reviewer). **Commit:** uncommitted at endsession (Matt to decide).
+
+**Changes made:**
+- `graph/edges/edges.jsonl` **21,829 → 21,950 (+121)**: historical-anchor #9 wave 1 (+118 across 8 isolated R+L=J/Robert's-Rebellion hubs) + 3 Trident COMMANDS_IN (Robert/Rhaegar/Lewyn). Hubs: `tourney-at-harrenhal` 0→25, `the-hands-tourney` 0→33, `battle-of-the-trident` 2→16, `sack-of-kings-landing`, `combat-at-the-tower-of-joy`, `greyjoy-rebellion`, `defiance-of-duskendale`, `tragedy-at-summerhall`. **NEW evidence_kind `wiki-historical-anchor`** (Tier-2 max; 19 edges). Backups in `_regrounding/`.
+- NEW scripts: `scripts/historical-anchor-{candidates,validate,mint}.py` + `working/historical-anchor/SPEC.md` + per-hub candidate/notes files. NEW `tests/test_longrun_supervisor.py` (6 tests, longrun exit-10/2/0/crash/resume verified).
+- NEW `working/orchestration-pacer-design-2026-06-15.md` — design doc (supervisor/worker/pacer architecture, exit-code contract, telemetry ledger, §1.5 script taxonomy A/B/C/D, §11 Script Org Standard, §13 review amendments, §14 two-session scope). Fresh-reviewed.
+- NEW memory `project_rebuild_derived_artifacts_after_node_mutation` (+ MEMORY.md index). NEW continue prompts: `2026-06-15-historical-anchor-wave2.md`, `2026-06-15-script-consolidation.md` (2-session split).
+- `worklog.md` (this entry; S92 archived → `archive020.md`), `working/todos.md` (#9 wave1 done, script-consolidation pointer), `working/historical-anchor/`.
+
+**Decisions:**
+- **Pivoted from the queued arc-mint to followup #9** (fresh advisor + worklog order both said #9-first; arc mint maps to 0 dip questions). **Arc wave-1 mint stays drafted-but-unminted, still gated on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). #9 method: curate the main-saga-recalled cluster (the ~300 deep-lore hubs are wiki-only, out of scope), per-hub Sonnet subagent → JSON attach edges → 2-stage verbatim validation → curator drop/fix (6 dropped, 4 fixed). Provenance: book-pass1 tier-1/2 earned by chapter quote; wiki-only → `wiki-historical-anchor` tier-2 max.
+- **Script consolidation = design-doc-first** (Matt). Architecture: bash `longrun.sh` wraps a resumable Python worker (emits 0/2/10) + a Python `pace.py` pacer mining past run-stats; `weirwood` CLI front door; per-worker JSONL telemetry (fixes the real CSV-append race). Review found 4 must-fix spec gaps (positive wall-detect-or-crash; atomic state writes; honest thin wall-cadence backfill; shared next-eligible for concurrency → v1 single-worker). **Honest scope = TWO sessions** (pacer, then cleanup).
+- **TWOIAF (6th source, on disk unextracted) + F&B (7th, not on disk) backlogged**; use wiki for deep-lore hubs now.
+
+**What's next:**
+- → **Script consolidation Session 1 (orchestration/pacer)** — `progress/continue-prompts/2026-06-15-script-consolidation.md` (Sonnet 4.6). Recommended next.
+- → historical-anchor #9 wave 2 — `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (Sonnet 4.6).
+- → narrative-arc wave 1 mint — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (Sonnet 4.6) — **GATED on Matt's 3 decisions**.
 
 ### Session 96 — Mode 3 dip + graph-cleanup/promotion SHIPPED (FIX-22 + plate5 + S95 incl. Trident & Joffrey arcs) (2026-06-14)
 
@@ -338,27 +361,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - Parallel-safe restructures track (this session) — **DONE**, prompt can be retired
 - `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md` can be deleted after Matt confirms the writeup.
 
-### Session 92 — Fable audit execution: doc truth-pass, project story, infobox merge spec→script→dry-run (2026-06-11 → 2026-06-12)
-
-**Model:** Fable 5 orchestrator; ~40 subagents (Fable for judgment/prose, Sonnet for mechanical/scripts; EVERY major deliverable reviewed by a fresh-eyes critic, all findings applied). **Spend:** hit the monthly extra-usage cap twice mid-session; resumed across plan windows; zero lost/broken work (verified). **Detail:** `history/session-details/session-092.md` (full narrative incl. wall postmortem + critic-loop catches). **Commit:** this endsession commit.
-- **Closeout additions (2026-06-12):** dry-run report rewritten self-explaining at Matt's request (preamble + TL;DR + 13-term glossary incl. `direction_corrected` + fill-in answer lines on all 11 decisions; 275→594 lines); NEW `progress/continue-prompts/2026-06-12-graph-cleanup.md` (double-gated: merge shipped + Matt's curation marks; executes FIX-22 + small followups + the 3 missing Red Wedding SUB_BEAT_OF links); **Olenna verified BOOK-derived** (Pass 1 ASOS Sansa chains, not wiki/show — inference + Littlefinger testimony) → cleanup prompt pins `olenna AGENT_IN death-of-joffrey-baratheon` at Tier 2, never Tier 1; new memory rule: sequential/2-3-batch subagent dispatch when quota headroom low.
-
-- First Fable session. Commissioned by Matt's audit ask + reply file (`working/reply-to-audit-session-2026-06-11.md`). Full 91-session history audit + graph deep-dive persisted to `working/audits/fable-audit-2026-06-11/` (synthesis, history-audit, graph-deep-dive, doc-rot punch list, worth-assessment v2, design-doc proposal, SESSION-CHECKPOINT).
-- **DECIDED (Matt 2026-06-11):** infobox-structural wiki layer (20,614 parsed rows, 98.4% additive) greenlit for merge — Tier 2 max, `evidence_kind: wiki-infobox`; prose-comention stays deprecated; Mode 3 dip runs AFTER the merge.
-- Doc truth-pass: CLAUDE.md pipeline table fixed; worklog rebuilt around the new STATUS block; Principles #4 corrected; todos.md 420→232 (resolved blocks → `history/todo-archives/`); `progress/continue-prompts/README.md` manifest; `reference/schema-legend.md`; `reference/roadmap.md`; nomenclature reform proposal (Matt picks); design-doc structure proposal (Option A recommended, Matt picks).
-- Human-readable layer: `history/project-story/` (8 chapters incl. the reification explainer with a live Red Wedding walkthrough); history/ READMEs; `scripts/README.md` (146 scripts inventoried, 6 LEGACY wrappers); `weirwood run` subcommand banked on longrun.sh (tested, shellcheck-clean).
-- **INFOBOX MERGE TRACK:** spec v2 (adversarial critic CONFIRMED the FIELD_EDGE_MAP direction-inversion on 10 fields; fact-key quarantine closes the Joffrey-mirror leak) → `scripts/infobox-merge.py` + 75 tests → **dry-run reproduces spec v2 EXACTLY** (20,614 → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations; edges.jsonl would go 4,760 → 21,766; connectivity 14.7% → 71.0%). NO graph writes this session. Report: `working/infobox-merge/dry-run-report-2026-06-12.md` (11 decided-by-default open questions for Matt).
-- Curation proposals: `curation/hub-review-triage-2026-06-12.md` (FIX 22 / QUARANTINE 10 / KEEP 81 — incl. live Plate-5 leak F1c and the Purple-Wedding tier-1 false-confession edge) + `curation/plate5-small-followups-2026-06-12.md` (2 collision proposals; donal-noye↔mag reverse edge; 32-empty-quote memo, rec = Contract-6 exemption; display-bullet regen, rec = defer until post-merge).
-- **Graph defects newly surfaced (NOT fixed — no graph writes):** F1c dangling edge (`siege-of-storm-s-end-recalled` source never minted); 3 Red Wedding beats with role edges but no SUB_BEAT_OF link (Dacey Mormont's death missing from beat-union); `robb-is-killed SUB_BEAT_OF red-wedding` carries a wiki display-bullet as its quote; `donal-noye KILLS mag` quote mismatch; LOCATED_AT direction contradicts the design glossary (live data is event→location).
-- Pre-existing test failures noted (predate session): `test_vocab_count_is_163` ×2 (vocab is now 166) + `test_cwd_is_tmp`.
-- **What's next (the chain):** (1) Matt marks the dry-run report's 11 decisions → `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` (Sonnet); (2) Matt marks the 2 curation files → `progress/continue-prompts/2026-06-12-graph-cleanup.md` (Sonnet; gated on merge shipped); (3) Mode 3 dip (`2026-06-11-phase2-mode3-dip.md`, Opus; gated on merge). Parallel-safe anytime: `2026-06-12-deferred-structural-restructures.md` (Opus). Matt's picks (non-blocking): design-doc Option A/B/C, nomenclature scheme, archive018 S86-append judgment, repo-reorg P1/P2 (`working/repo-reorg-plan-2026-06-12.md`). All session files KEPT in place per Matt ("until we are well and truly done").
-
-> Session 87 archived to `history/worklog-archives/archive019.md` (archive019 started — 1/5)
-
-> Session 91 archived to `history/worklog-archives/archive019.md` (archive019 now full at 5/5)
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive020 = S92 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4
