@@ -256,10 +256,12 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - `architecture.md` gained `event.incident` row; validator gained SUB_BEAT_OF Contract-6 exemption. Backup: `_regrounding/edges-pre-graph-cleanup-2026-06-14T15-26-24.jsonl`. Verification: `--health` clean (62 orphans, −1), pytest 1144 pass + 3 documented pre-existing failures only.
 - **Minor look-at-twice:** `death-of-joffrey-baratheon LOCATED_AT red-keep` edge carries the Olenna-wine quote instead of a location line (cosmetic; correct target/tier).
 
+**New standing rules (S96):** (1) **Capture load-bearing quotes during research** — FIRM rule, any time a session is in chapter/wiki text for ANY purpose (researched or happenstance) and finds a quotable death/feast/description/dialogue/prophecy line, attach it to the graph (edge `evidence_quote` or node `## Quotes`) before moving on; lightweight `working/quote-capture-queue.md` backlog allowed when full inline capture would derail the task. Memory `feedback_capture_quotes_during_research`. (2) **Arc parent-shape** — arc parent = NEW `event.conspiracy` hub WRAPPING the existing event hub (event becomes one sub-beat); pre/post-event beats attach to the conspiracy, in-feast beats to the event (scope test). Memory `project_narrative_arc_reification`.
+
 **What's next (dip-driven sequencing):**
 - → **NEW Track 7** alias-resolver fix — the dip's PRIMARY, highest-leverage $0/deterministic move (~4/10→~7/10); makes the just-shipped Trident/Joffrey arcs findable by natural phrasing. Recommend NEXT, ahead of arc-minting. Needs a continue prompt. (**Sonnet 4.6**)
 - → followup #9 historical structural-attachment — dip's secondary, ungated. (**Sonnet 4.6**)
-- → narrative-arc wave 1 — HIGH; Red Wedding ARC (origins→event→consequences, above the already-reified event hub) + Joffrey/Littlefinger arc are prime candidates. Sequenced after Track 7 so new arcs are immediately discoverable.
+- → narrative-arc wave 1 — **DRAFTS STAGED FOR MATT REVIEW (S96, 2026-06-14):** `curation/narrative-arc-wave1-red-wedding-draft-2026-06-14.md` (proposes `red-wedding-conspiracy` parent, 5 new mints + 22 edges) + `curation/narrative-arc-wave1-joffrey-draft-2026-06-14.md` (proposes `joffrey-poisoning-conspiracy` parent, 4 new nodes + 18 edges). Both are DRAFT-ONLY (nothing minted). Each has open design Qs for Matt (arc boundaries; a vocab gap — no role type for Sansa's "unwitting instrument"). After Matt's review → a mint session applies them (S95-style). Track 7 resolver fix landed first so new arcs are discoverable.
 
 ### Session 95 — Post-merge research: 5 QUARANTINE items resolved + Trident-incident reification + **narrative-arc track surfaced** (2026-06-13)
 
