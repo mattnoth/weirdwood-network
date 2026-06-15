@@ -10,7 +10,7 @@
 #   The cycle survives the 5-hour usage window: each relaunch exits in <~90s
 #   if the wall is still up, so wasted LLM cost across the window is minimal.
 #
-# Modeled on scripts/stage4-events-bulk-run.sh (proven for multi-day bulk runs).
+# Modeled on scripts/archive/stage4-events-bulk-run.sh (archived 2026-06-15; proven for multi-day bulk runs).
 #
 # Exit codes from edge-reify-backfill.py:
 #   0   — clean completion (all events done OR --max-events cap reached)

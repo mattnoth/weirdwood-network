@@ -1,6 +1,30 @@
 # Worklog Archive 020 — Sessions 92–96
 
-> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 92 archived 2026-06-15 (Session 97 endsession); Session 93 archived 2026-06-15 (Session 98 endsession).
+> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 92 archived 2026-06-15 (Session 97 endsession); Session 93 archived 2026-06-15 (Session 98 endsession); Session 94 archived 2026-06-15 (Session 99 endsession).
+
+### Session 94 — Infobox merge SHIPPED + 2 bug-fixes (continue-prompt schema, script report-rewrite guard) (2026-06-13)
+
+**Model:** Opus 4.7 (deterministic apply + verification + 2 small fixes; Matt-preferred override of the continue-prompt's Sonnet 4.6 recommendation, taken for insurance value during a 4-step graph-mutating run). **Detail:** none (execution-heavy). **Commit:** this endsession commit.
+
+**Changes made:**
+- `graph/edges/edges.jsonl` — applied infobox merge: **4,764 → 21,770 rows (+17,006 wiki-infobox, +52 hygiene A slug remaps, +944 hygiene B typed_by stamps)**. Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`.
+- `graph/index/` — rebuilt all 18 category indexes (locations, artifacts, houses, factions, titles, events, religions, species, texts, concepts, materials, foods, theories, customs, languages, medical, prophecies via `build-entity-indexes.py`; characters via `build-character-indexes.py`).
+- `working/wiki/data/event-alias-lookup.json` — rebuilt: 953 unambiguous + 1 pre-existing collision (954 unique phrases, unchanged from S93).
+- `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — step 3c snippets corrected: `type` → `edge_type`, `source`/`target` → `source_slug`/`target_slug` (matches actual edges.jsonl schema; old field names returned `UNKNOWN: 21770` until corrected).
+- `scripts/infobox-merge.py` — guarded `write_dry_run_report()` behind `if not apply_mode:`. `--apply` was silently rewriting the curated dry-run report on every run, wiping Matt's S93 closeout banner + 11 `[x] accept default` marks. Marks restored from git after each rewrite this session; the guard prevents recurrence. 75 infobox-merge tests still green.
+- `working/infobox-merge/dry-run-report-2026-06-12.md` — restored to its committed marked form (script wiped it twice mid-session; git checkout each time).
+- `worklog.md` STATUS block — connectivity 14.7% → 71.0%; edges 4,764 → 21,770; evidence_kind breakdown documented (wiki-infobox 17,006 / book-pass1 3,809 / book-pass1-reified 893 / plate4-wiki-cluster 51 / book-curator 11).
+- `working/todos.md` Track 1 — Ship item marked DONE; Track 2 (Mode 3 dip) flipped from GATED to READY.
+- `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` — "GATE CLEARED 2026-06-13 (S94)" banner added under the existing gate note.
+
+**Decisions:** Followed the handoff's hard rule (re-run dry-run first; halt if counts deviate). Dry-run reproduced spec v2 EXACTLY (17,006 / 1,128 / 1,037 / 1,356 / 87, bucket sum 20,614 ✓), so applied immediately. Verification gates all passed: `--health` reports only the 63 documented orphans (spec §5), 123 edge types, 0 UNKNOWN; pytest 1144 pass + 3 documented pre-existing failures (vocab-163 ×2 — now 166 since S93's `event.deception`; cwd ≠ /tmp). No new structural defects surfaced. The continue-prompt field-name mismatch and the script's unconditional report-rewrite both qualify as quality-of-life bugs introduced earlier — fixed inline rather than queued.
+
+**Look-at-twice items for Matt:** none. Apply was clean. Backup is intact at `_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl` if any post-hoc revert is wanted.
+
+**What's next:**
+- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip on the now-merged graph. Gate cleared today; the prompt's banner notes the new counts.
+- Parallel-safe: `progress/continue-prompts/2026-06-12-graph-cleanup.md` (FIX-22 + small followups + 3 missing Red Wedding SUB_BEAT_OF links). Still double-gated on Matt's curation marks in `curation/hub-review-triage-2026-06-12.md` + `curation/plate5-small-followups-2026-06-12.md`.
+- `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — completed S94.
 
 ### Session 93 — Deferred structural restructures: Wyman fake-execution arc + Jaime street-brawl merge; `event.deception` vocab added (2026-06-12)
 

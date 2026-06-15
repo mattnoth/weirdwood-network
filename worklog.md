@@ -39,15 +39,16 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 - **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
 
-- **Orchestration/pacer Session 1 (S98)**: `scripts/pace.py` v1 (backfill+report-only) + telemetry ledger (`working/telemetry/`, 484 rows/9 tracks) + `scripts/worker-template.py` (M1/M2/M4) + 40 tests. `longrun.sh` supervisor was already done+tested (S97). pytest 1231 pass / 3 documented fails.
+- **Orchestration/pacer + script consolidation DONE (S98+S99)**: `scripts/pace.py` v1 (backfill+report-only) + telemetry ledger (`working/telemetry/`, 476 work rows + 8 wall events / 9 tracks) + `scripts/worker-template.py` (M1/M2/M4) + `longrun.sh` supervisor (S97). **S99 cleanup:** 30 one-offs/wrappers `git mv`→`scripts/archive/` (32 total); 9 frozen CSVs→`_archive/`; `weirwood graph/resolve/refresh` aliased (+ `scripts/weirwood-refresh.sh`); `scripts/README.md` rewritten as universal index (Class A/B/C/D + provenance, all 124 live + 32 archived covered); design §0 fully BUILT. pytest 1231 pass / 3 documented fails.
 
 **IN FLIGHT**
-- (none — S98 build session complete)
+- (none — S99 cleanup session complete)
 
-**NEXT TRACK (S98 → S99)**
-- **Script consolidation — Session 2 (cleanup/CLI/README)** — RECOMMENDED NEXT. Archive 24 one-offs + resolve 2 blocked; legacy-wrapper disposition (do NOT archive edge-reify — PLANNED); `weirwood graph/resolve/refresh` aliasing; README class/provenance refresh; CSV-archival decision; reconcile design §0 anti-drift table. Continue: `progress/continue-prompts/2026-06-15-script-consolidation.md` steps 5–8 (Sonnet 4.6).
-- **historical-anchor #9 wave 2** (`2026-06-15-historical-anchor-wave2.md`, Sonnet) + **narrative-arc wave 1 mint** (`2026-06-15-arc-wave1-mint.md`, Sonnet — GATED on Matt's 3 decisions) remain queued.
-- DONE prior: orchestration/pacer Session 1 (S98); historical-anchor #9 wave 1 (S97); Track 7 alias-resolver fix + Mode 3 dip + graph-cleanup (S96).
+**NEXT TRACK (S99 → S100)**
+- **historical-anchor #9 wave 2** — RECOMMENDED NEXT. `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (**Sonnet 4.6**).
+- **narrative-arc wave 1 mint** — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (**Sonnet 4.6**) — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN).
+- Loose end: wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in (in todos).
+- DONE prior: script consolidation S1+S2 (S98/S99); historical-anchor #9 wave 1 (S97); Track 7 alias-resolver fix + Mode 3 dip + graph-cleanup (S96).
 
 **GATED / QUEUED**
 - Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
@@ -234,6 +235,26 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 99 — Script consolidation Session 2: archive one-offs + weirwood CLI aliasing + README refresh (2026-06-15)
+**Detail:** `history/session-details/session-099.md`
+**Model:** Opus 4.8 (1M context) — mechanical work (continue prompt recommended Sonnet 4.6; Opus was the active session). **Commit:** this endsession commit.
+
+**Changes made:**
+- **Archived 30 scripts** `git mv` → `scripts/archive/` (24 verified-safe early Stage-4 `classify-*`/`temp-*` one-offs + `stage4-haiku-smoke-prep.py` sibling + `migrate-stats-csv.py` + 4 shelved wrappers: `stage4-haiku-run-forever.sh`, `stage4-haiku-loop.sh`, `stage4-tail-bulk-forever.sh`, `stage4-events-bulk-run.sh`). **KEPT** `stage4-run-forever.sh` (proven ref) + `edge-reify-run-forever.sh` (registry PLANNED) + 27 comention scripts. Archive now 32 files.
+- **9 frozen stats CSVs** `git mv` → `working/extraction-stats/_archive/` (Pass 1 = 344/344; nothing appends). Added `_archive/` read-fallback to `pace.py backfill`, `extract.sh status`, `wiki-pass2.sh` cost glob so nothing silently degrades; fixed 2 `test_pace.py` skip-guards (suite back to 0 skips).
+- `scripts/extract.sh` — de-referenced `migrate-stats-csv.py` call (one-time migration complete; breadcrumb comment).
+- **NEW** `scripts/weirwood-refresh.sh` (rebuild all 17 entity-index types + character indexes + alias resolver; `--check` staleness warn per §13 S8). Wired `weirwood graph`/`resolve`/`refresh` into `scripts/weirwood.zsh` + help text on running any script under longrun.
+- `scripts/weirwood-run.sh` — 3 archived-wrapper paths → `scripts/archive/`; header rewritten.
+- `scripts/README.md` — **rewritten as universal index**: Class (A/B/C/D) column + `Added` git-date provenance + invocation + §11.5 new-script checklist. Existence-truth: all 124 live + 32 archived scripts have a row.
+- `working/orchestration-pacer-design-2026-06-15.md` §0 — 4 Session-2 rows flipped to **BUILT S99** (file + verification); banner → BUILT; CSV-quirk RESOLVED; corrected "484 rows" → 476 work rows + 8 wall events.
+
+**Decisions:** Three Matt-decisions (AskUserQuestion, all "Recommended"): de-reference+archive `migrate-stats-csv.py`; archive frozen CSVs to `_archive/`; archive the 4 shelved wrappers + update registry. One cross-scope judgment call flagged: the moved CSVs are read by 3 living status commands → added read-only `_archive/` fallbacks rather than accept silent degradation. pytest **1231 pass / 3 documented pre-existing fails** (vocab 166≠163 ×2; cwd-is-tmp), 0 skips. Orchestration/pacer track (design §0) now fully BUILT.
+
+**What's next:**
+- → **historical-anchor #9 wave 2** — `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (**Sonnet 4.6**).
+- → **narrative-arc wave 1 mint** — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (**Sonnet 4.6**) — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN).
+- Loose end (todos): wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in.
+
 ### Session 98 — Script consolidation Session 1: orchestration/pacer BUILT + design-doc anti-drift convention (2026-06-15)
 **Detail:** `history/session-details/session-098.md`
 **Model:** Opus 4.8 (orchestrator + direct verification) + script-builder subagent (the build). **Commit:** this endsession commit.
@@ -340,32 +361,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - 2️⃣ → `progress/continue-prompts/2026-06-12-graph-cleanup.md` (**Sonnet 4.6**) — FIX-22 + S95 resolutions (incl. Q5 Trident reification) + plate5 followups. Run AFTER Mode 3 dip lands.
 - 3️⃣ → narrative-arc track wave 1 — gets a continue prompt after the dip's findings sharpen the candidate list. ~3-5 small arcs minted using S95's parallel-research-subagent pattern.
 
-### Session 94 — Infobox merge SHIPPED + 2 bug-fixes (continue-prompt schema, script report-rewrite guard) (2026-06-13)
-
-**Model:** Opus 4.7 (deterministic apply + verification + 2 small fixes; Matt-preferred override of the continue-prompt's Sonnet 4.6 recommendation, taken for insurance value during a 4-step graph-mutating run). **Detail:** none (execution-heavy). **Commit:** this endsession commit.
-
-**Changes made:**
-- `graph/edges/edges.jsonl` — applied infobox merge: **4,764 → 21,770 rows (+17,006 wiki-infobox, +52 hygiene A slug remaps, +944 hygiene B typed_by stamps)**. Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`.
-- `graph/index/` — rebuilt all 18 category indexes (locations, artifacts, houses, factions, titles, events, religions, species, texts, concepts, materials, foods, theories, customs, languages, medical, prophecies via `build-entity-indexes.py`; characters via `build-character-indexes.py`).
-- `working/wiki/data/event-alias-lookup.json` — rebuilt: 953 unambiguous + 1 pre-existing collision (954 unique phrases, unchanged from S93).
-- `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — step 3c snippets corrected: `type` → `edge_type`, `source`/`target` → `source_slug`/`target_slug` (matches actual edges.jsonl schema; old field names returned `UNKNOWN: 21770` until corrected).
-- `scripts/infobox-merge.py` — guarded `write_dry_run_report()` behind `if not apply_mode:`. `--apply` was silently rewriting the curated dry-run report on every run, wiping Matt's S93 closeout banner + 11 `[x] accept default` marks. Marks restored from git after each rewrite this session; the guard prevents recurrence. 75 infobox-merge tests still green.
-- `working/infobox-merge/dry-run-report-2026-06-12.md` — restored to its committed marked form (script wiped it twice mid-session; git checkout each time).
-- `worklog.md` STATUS block — connectivity 14.7% → 71.0%; edges 4,764 → 21,770; evidence_kind breakdown documented (wiki-infobox 17,006 / book-pass1 3,809 / book-pass1-reified 893 / plate4-wiki-cluster 51 / book-curator 11).
-- `working/todos.md` Track 1 — Ship item marked DONE; Track 2 (Mode 3 dip) flipped from GATED to READY.
-- `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` — "GATE CLEARED 2026-06-13 (S94)" banner added under the existing gate note.
-
-**Decisions:** Followed the handoff's hard rule (re-run dry-run first; halt if counts deviate). Dry-run reproduced spec v2 EXACTLY (17,006 / 1,128 / 1,037 / 1,356 / 87, bucket sum 20,614 ✓), so applied immediately. Verification gates all passed: `--health` reports only the 63 documented orphans (spec §5), 123 edge types, 0 UNKNOWN; pytest 1144 pass + 3 documented pre-existing failures (vocab-163 ×2 — now 166 since S93's `event.deception`; cwd ≠ /tmp). No new structural defects surfaced. The continue-prompt field-name mismatch and the script's unconditional report-rewrite both qualify as quality-of-life bugs introduced earlier — fixed inline rather than queued.
-
-**Look-at-twice items for Matt:** none. Apply was clean. Backup is intact at `_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl` if any post-hoc revert is wanted.
-
-**What's next:**
-- → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip on the now-merged graph. Gate cleared today; the prompt's banner notes the new counts.
-- Parallel-safe: `progress/continue-prompts/2026-06-12-graph-cleanup.md` (FIX-22 + small followups + 3 missing Red Wedding SUB_BEAT_OF links). Still double-gated on Matt's curation marks in `curation/hub-review-triage-2026-06-12.md` + `curation/plate5-small-followups-2026-06-12.md`.
-- `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — completed this session; delete in step 3 below.
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive020 = S92–93 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive020 = S92–94 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

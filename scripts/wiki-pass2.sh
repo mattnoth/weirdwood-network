@@ -1112,7 +1112,7 @@ print(ct[:19].replace('T', ' ') if ct else '—')
   total_cost=$(python3 -c "
 import csv, glob, os
 total = 0.0
-for f in glob.glob('${STATS_DIR}/wiki-pass2-stats-*-${VERSION}.csv'):
+for f in glob.glob('${STATS_DIR}/wiki-pass2-stats-*-${VERSION}.csv') + glob.glob('${STATS_DIR}/_archive/wiki-pass2-stats-*-${VERSION}.csv'):
     try:
         with open(f) as fh:
             for row in csv.DictReader(fh):

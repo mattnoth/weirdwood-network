@@ -18,12 +18,14 @@
 #   10  — iteration done, more work remains; sleeps LONGRUN_SLEEP_BETWEEN then relaunches
 #   other nonzero — crash; supervisor retries up to LONGRUN_MAX_CRASHES times
 #
-# LEGACY tracks listed here are NOT launchable until their runner adopts the
-# longrun.sh exit-code contract (0/2/10/crash).  The legacy wrappers
-# (stage4-tail-bulk-forever.sh, stage4-haiku-run-forever.sh,
-# stage4-events-bulk-run.sh) use their own exit codes (42/43/130) and
-# bespoke loop logic — they remain unchanged under scripts/ until manually
-# migrated track-by-track.
+# LEGACY tracks listed here are NOT launchable here — their tracks are
+# shelved/shipped and the wrappers were archived to scripts/archive/ during the
+# 2026-06-15 script consolidation (Session 2). The legacy wrappers
+# (scripts/archive/stage4-tail-bulk-forever.sh, scripts/archive/stage4-haiku-run-forever.sh,
+# scripts/archive/stage4-events-bulk-run.sh) use their own exit codes (42/43/130)
+# and bespoke loop logic. Their good ideas (rate-limit detect, sleep defaults)
+# are folded into pace.py + scripts/worker-template.py; revive from archive only
+# if a track is reopened and migrated to the longrun.sh 0/2/10 contract.
 
 set -uo pipefail
 
@@ -70,17 +72,17 @@ TRACK_CMD+=("")
 
 TRACK_NAMES+=("stage4-tail")
 TRACK_STATUS+=("LEGACY-not-yet-migrated")
-TRACK_DESC+=("Stage 4 tail-model bulk classifier — scripts/stage4-tail-bulk-forever.sh (exit codes 42/43/130 — not longrun.sh compatible)")
+TRACK_DESC+=("Stage 4 tail-model bulk classifier — scripts/archive/stage4-tail-bulk-forever.sh (archived; exit codes 42/43/130 — not longrun.sh compatible)")
 TRACK_CMD+=("")
 
 TRACK_NAMES+=("stage4-haiku")
 TRACK_STATUS+=("LEGACY-not-yet-migrated")
-TRACK_DESC+=("Stage 4 Haiku bulk classifier — scripts/stage4-haiku-run-forever.sh (exit codes 42/43/130 — not longrun.sh compatible)")
+TRACK_DESC+=("Stage 4 Haiku bulk classifier — scripts/archive/stage4-haiku-run-forever.sh (archived; exit codes 42/43/130 — not longrun.sh compatible)")
 TRACK_CMD+=("")
 
 TRACK_NAMES+=("stage4-events")
 TRACK_STATUS+=("LEGACY-not-yet-migrated")
-TRACK_DESC+=("Stage 4 pass1_events Haiku typing run — scripts/stage4-events-bulk-run.sh (exit codes 42/43/130 — not longrun.sh compatible)")
+TRACK_DESC+=("Stage 4 pass1_events Haiku typing run — scripts/archive/stage4-events-bulk-run.sh (archived; exit codes 42/43/130 — not longrun.sh compatible)")
 TRACK_CMD+=("")
 
 # ---------------------------------------------------------------------------
@@ -181,10 +183,10 @@ cmd_start() {
             echo "  exit 2 for rate-limit wall, and exit 0 for completion; then change its" >&2
             echo "  status to READY in the TRACK_STATUS registry in scripts/weirwood-run.sh." >&2
             echo "" >&2
-            echo "  To run the legacy wrapper directly:" >&2
-            echo "    bash scripts/stage4-events-bulk-run.sh   (for stage4-events)" >&2
-            echo "    bash scripts/stage4-haiku-run-forever.sh  (for stage4-haiku)" >&2
-            echo "    bash scripts/stage4-tail-bulk-forever.sh  (for stage4-tail)" >&2
+            echo "  To run the (archived) legacy wrapper directly:" >&2
+            echo "    bash scripts/archive/stage4-events-bulk-run.sh   (for stage4-events)" >&2
+            echo "    bash scripts/archive/stage4-haiku-run-forever.sh  (for stage4-haiku)" >&2
+            echo "    bash scripts/archive/stage4-tail-bulk-forever.sh  (for stage4-tail)" >&2
             return 1
             ;;
         PLANNED)

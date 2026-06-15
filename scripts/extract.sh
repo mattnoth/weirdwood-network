@@ -252,6 +252,8 @@ cmd_status() {
   # Token summary from stats CSV
   local STATS_FILE
   STATS_FILE=$(stats_file_for "$book")
+  # Pass-1 CSVs were archived once Pass 1 froze (344/344); status still reads them.
+  [[ -f "$STATS_FILE" ]] || STATS_FILE="${STATS_DIR}/_archive/$(basename "$STATS_FILE")"
   local cost_summary=""
   if [[ -f "$STATS_FILE" ]]; then
     cost_summary=$(python3 -c "
@@ -370,8 +372,9 @@ cmd_run() {
   local STATS_FILE
   STATS_FILE=$(stats_file_for "$book")
 
-  # Migrate old-schema CSV to new schema (idempotent)
-  python3 scripts/migrate-stats-csv.py "$STATS_FILE" 2>/dev/null || true
+  # (Old-schema 13→16-col CSV migration was a one-time step; complete as of
+  #  Pass 1 344/344. Script archived to scripts/archive/migrate-stats-csv.py.
+  #  Fresh CSVs are created with the 16-col header below, so no migration runs.)
 
   # Sweep stale started/working rows from crashed terminals
   python3 scripts/extract-status-sweep.py "$STATS_FILE" \

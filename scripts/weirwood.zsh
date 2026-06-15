@@ -145,6 +145,33 @@ weirwood() {
       bash "$run_script" "$@"
       ;;
 
+    # ── Standing tools (class C/D) ───────────────────────────────────────────────
+    graph)
+      # Graph query/audit tool — thin pass-through to graph-query.py.
+      #   weirwood graph --neighbors <slug> | --path <a> <b> | --health
+      #   weirwood graph --edges <slug> | --event-participants <hub>
+      shift
+      python3 "$project_dir/scripts/graph-query.py" "$@"
+      ;;
+    resolve)
+      # Event alias resolver (class D) — thin pass-through to event_alias_resolver.py.
+      #   weirwood resolve --lookup "<phrase>" | --build | --stats
+      shift
+      python3 "$project_dir/scripts/event_alias_resolver.py" "$@"
+      ;;
+    refresh)
+      # Rebuild ALL derived artifacts (class C/D) — the standard post-node-mutation step.
+      #   weirwood refresh            Rebuild entity+character indexes + alias resolver
+      #   weirwood refresh --check    WARN if artifacts are stale vs graph/nodes/
+      local refresh_script="$project_dir/scripts/weirwood-refresh.sh"
+      if [[ ! -f "$refresh_script" ]]; then
+        echo "ERROR: weirwood-refresh.sh not found at $refresh_script"
+        return 1
+      fi
+      shift
+      bash "$refresh_script" "$@"
+      ;;
+
     # ── Stage 4 subcommand ─────────────────────────────────────────────────────
     stage4)
       if [[ ! -f "$stage4_script" ]]; then
@@ -209,6 +236,9 @@ weirwood() {
       echo "  weirwood wiki <subcommand>        Wiki Pass 2 — see 'weirwood wiki --help'"
       echo "  weirwood stage4 <subcommand>      Stage 4 prose-edge classifier"
       echo "  weirwood run <subcommand>         Long-run track registry — see 'weirwood run --help'"
+      echo "  weirwood graph <args>             Graph query/audit (graph-query.py pass-through)"
+      echo "  weirwood resolve <args>           Event alias resolver (event_alias_resolver.py)"
+      echo "  weirwood refresh [--check]        Rebuild all derived artifacts (post-node-mutation)"
       echo ""
       echo "Examples:"
       echo "  weirwood acok                     What's left in ACOK?"
@@ -219,7 +249,15 @@ weirwood() {
       echo "  weirwood wiki core 2 3            Launch wiki core tier (2 tabs, 3 waves)"
       echo "  weirwood stage4 5                 Launch 5 Stage 4 worker tabs"
       echo "  weirwood run list                 List long-run tracks"
-      echo "  weirwood run start custom -- python3 scripts/my-runner.py --resume"
+      echo "  weirwood graph --neighbors ned-stark   Inspect a node's edges"
+      echo "  weirwood graph --path arya-stark jaqen-hghar"
+      echo "  weirwood resolve --lookup \"Ned Stark's execution\""
+      echo "  weirwood refresh                  Rebuild indexes + alias resolver after a node add/rename"
+      echo "  weirwood refresh --check          Warn if derived artifacts are stale"
+      echo ""
+      echo "Run ANY long job under longrun supervision (no new wrapper needed):"
+      echo "  weirwood run start custom -- python3 scripts/<your-worker>.py --resume"
+      echo "  (worker emits exit 0=done / 2=wall / 10=more-work; see scripts/worker-template.py)"
       echo ""
       echo "Books: agot acok asos affc adwd"
       echo ""

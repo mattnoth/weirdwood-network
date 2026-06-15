@@ -596,6 +596,8 @@ def cmd_backfill(dry_run: bool = False) -> None:
     for fname, book in pass1_books:
         path = STATS_DIR / fname
         if not path.exists():
+            path = STATS_DIR / "_archive" / fname   # frozen CSVs archived once Pass 1 completed (344/344)
+        if not path.exists():
             print(f"  SKIP (not found): {path}")
             continue
         track = f"pass1-{book}"
@@ -611,6 +613,8 @@ def cmd_backfill(dry_run: bool = False) -> None:
     ]
     for fname, tier in wiki_files:
         path = STATS_DIR / fname
+        if not path.exists():
+            path = STATS_DIR / "_archive" / fname   # frozen CSVs archived once Pass 2 completed
         if not path.exists():
             print(f"  SKIP (not found): {path}")
             continue

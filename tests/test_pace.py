@@ -626,7 +626,9 @@ class TestBackfillIntegration(unittest.TestCase):
     def test_backfill_produces_per_track_files(self):
         """Backfill creates at least one JSONL file per known Pass-1 book."""
         stats_dir = REPO_ROOT / "working" / "extraction-stats"
-        if not (stats_dir / "extraction-stats-agot-pass1-v3.csv").exists():
+        # Pass-1 CSVs were archived once Pass 1 froze (344/344); backfill falls back to _archive/.
+        if not (stats_dir / "extraction-stats-agot-pass1-v3.csv").exists() \
+           and not (stats_dir / "_archive" / "extraction-stats-agot-pass1-v3.csv").exists():
             self.skipTest("Real stats files not present")
 
         import io
@@ -660,7 +662,10 @@ class TestBackfillIntegration(unittest.TestCase):
 
     def test_acok_dedup_removes_failed_stale(self):
         """The real acok CSV's many failed-stale rows are all dropped."""
-        acok_path = REPO_ROOT / "working" / "extraction-stats" / "extraction-stats-acok-pass1-v3.csv"
+        stats_dir = REPO_ROOT / "working" / "extraction-stats"
+        acok_path = stats_dir / "extraction-stats-acok-pass1-v3.csv"
+        if not acok_path.exists():
+            acok_path = stats_dir / "_archive" / "extraction-stats-acok-pass1-v3.csv"
         if not acok_path.exists():
             self.skipTest("Real acok CSV not present")
 
