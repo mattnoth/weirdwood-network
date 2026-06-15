@@ -46,8 +46,9 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 **NEXT TRACK (S99 → S100)**
 - **historical-anchor #9 wave 2** — RECOMMENDED NEXT. `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (**Sonnet 4.6**).
-- **narrative-arc wave 1 mint** — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (**Sonnet 4.6**) — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN).
+- **narrative-arc wave 1 mint** — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `progress/continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy S99); restore when Matt decides. (**Sonnet 4.6**)
 - Loose end: wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in (in todos).
+- **Continue-prompt hygiene (FIRM, Matt S99):** live `continue-prompts/` dir = the ONE actionable next track only; gated/backlog prompts park in `archive/` (recoverable). Never present a menu of "next" prompts.
 - DONE prior: script consolidation S1+S2 (S98/S99); historical-anchor #9 wave 1 (S97); Track 7 alias-resolver fix + Mode 3 dip + graph-cleanup (S96).
 
 **GATED / QUEUED**
@@ -252,7 +253,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 **What's next:**
 - → **historical-anchor #9 wave 2** — `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (**Sonnet 4.6**).
-- → **narrative-arc wave 1 mint** — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (**Sonnet 4.6**) — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN).
+- → **narrative-arc wave 1 mint** — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy, Matt S99); restore when decided. (**Sonnet 4.6**)
 - Loose end (todos): wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in.
 
 ### Session 98 — Script consolidation Session 1: orchestration/pacer BUILT + design-doc anti-drift convention (2026-06-15)
