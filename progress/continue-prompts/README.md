@@ -8,35 +8,24 @@
 
 ## Active Prompts (sorted: LIVE → HALTED → STALE → DONE)
 
+> **Hygiene (S97 2026-06-15):** the live dir now holds ONLY actionable tracks (LIVE + HALTED-gated). All DONE/STALE prompts were `git mv`'d to `archive/` (kept, organized — per Matt's "archive, don't delete"). Per `/endsession` step 3, this is the standing discipline going forward.
+
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-15-script-consolidation.md` | 2026-06-15 | Orchestration/pacer + script cleanup | **LIVE — TOP OF QUEUE (S97)** | Sonnet 4.6 | TWO sessions: Session 1 pacer build, Session 2 cleanup. Spec = `working/orchestration-pacer-design-2026-06-15.md` (§13 must-fixes binding) |
+| `2026-06-15-script-consolidation.md` | 2026-06-15 | Orchestration/pacer + script cleanup | **LIVE — TOP OF QUEUE (S97)** | Sonnet 4.6 | TWO sessions: S1 pacer build, S2 cleanup. Spec = `working/orchestration-pacer-design-2026-06-15.md` (§13 must-fixes binding) |
 | `2026-06-15-historical-anchor-wave2.md` | 2026-06-15 | Historical-anchor #9 wave 2 | **LIVE** | Sonnet 4.6 | Wave 1 shipped S97 (+121 edges, 8 hubs); wave 2 = remaining main-saga-recalled historical hubs; tooling `scripts/historical-anchor-*.py` |
 | `2026-06-15-arc-wave1-mint.md` | 2026-06-14 | Narrative-arc wave 1 mint (Red Wedding + Joffrey) | **HALTED-gated-on-Matt's-3-decisions** | Sonnet 4.6 | Drafts+review done; gated on RW-4 role edges / arc boundaries / RECIPIENT_IN vocab. De-prioritized by S96 dip |
-| `2026-06-11-phase2-mode3-dip.md` | 2026-06-11 | Graph validation Mode 3 | **DONE (S96 2026-06-14)** | Opus 4.7 | Dip ran on merged graph; results `working/session-results/2026-06-14-mode3-dip-results.md`; drove Track 7 + #9 |
-| `2026-06-12-graph-cleanup.md` | 2026-06-12 | Graph cleanup — hub-triage FIX-22 + Plate-5 followups | **GATED** | Sonnet 4.6 | Infobox merge ✓ shipped (edges.jsonl=21,770); still gated on Matt approving curation files; 9-step work plan, ~30–45 rows touched |
-| ~~`2026-06-12-infobox-merge-ship.md`~~ | 2026-06-12 | Infobox merge — apply to graph/ | **DONE (S94 2026-06-13) — file deleted** | n/a | Shipped; edges 4,764 → 21,770; backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl` |
-| `2026-06-12-deferred-structural-restructures.md` | 2026-06-12 | Rename / restructure (Wyman + Jaime arcs) | **DONE (S93 2026-06-12)** — file kept pending Matt's writeup-confirm per S93 worklog | Opus 4.7 | Wyman+Jaime arcs landed S93; edges 4,760 → 4,764; can be deleted after Matt confirms `working/session-results/2026-06-12-deferred-restructures.md` |
-| `2026-06-07-repo-audit-strategy-reconciliation.md` | 2026-06-07 | Repo hygiene + memory consolidation | **DONE (S92)** — file kept per Matt's keep-everything rule | Opus 4.7 | Fable audit session executed the doc/strategy items; reorg plan delivered at `working/repo-reorg-plan-2026-06-12.md`; only the optional `consolidate-memory` skill run remains (fold into a future session) |
-| `2026-06-05-edge-modeling-plate-4-haiku-disposition.md` | 2026-06-05 | Post-Plate-5 backfill Track B (1,617 Haiku bulk re-bucketing) | **LIVE** | Opus (review) / Sonnet (filter pass) | Explicitly KEPT in S88 + re-linked in todos.md; queued under post-Plate-5 backfill Track B |
-| `2026-05-31-events-v2-promotion-chain/` (folder) | 2026-05-31 | Events v2 promotion (7-step chain) | **HALTED-gated-on-Matt's-escalation-pick** | See per-step files | Chain halted at step 1 (S81 NO-GO); step-01-status.md documents the verdict; absorbed into backfill Track B under edge-modeling reification lens |
-| `2026-06-01-events-bulk-escalation-pick.md` | 2026-06-01 | Events Haiku bulk escalation decision | **STALE-superseded-by-backfill-Track-B** | Opus 4.7 / Sonnet 4.6 | Reframed per todos.md — no longer a free-choice menu; the 5 path descriptions remain reference-only |
-| `2026-06-08-alias-and-display-design.md` | 2026-06-08 | Post-Plate-5 backfill design (Track A/B/C vocab-drift + reification) | **STALE — not a continue prompt** | n/a | File is a raw agent chat export (no YAML frontmatter, no task structure); the design it captured was formalized in `working/edge-modeling/post-plate5-backfill-design.md`. Should be deleted or renamed to a `working/` doc. |
-| `2026-05-26-stage4-events-enrichment.md` | 2026-05-26 | Events enrichment (precision-gated) | **STALE-superseded-by-plate4-haiku-disposition** | Opus 4.7 / Sonnet 4.6 / Haiku 4.5 | Status block at top of file already flags S76 in-progress state; worklog confirms Events bulk ran (S79-S80), drifted (S81 NO-GO), and is now framed as backfill Track B — this prompt predates that pivot |
-| `2026-05-23-stage4-pass1-finishing.md` | 2026-05-23 | Stage 4 tail cleanup + resolver levers + merge | **STALE-superseded-by-edges-v1.3** | Sonnet 4.6 / Opus 4.7 | Describes edges "un-merged"; worklog confirms edges v1.3 shipped (S72-S74, 3,811 edges). Resolver levers absorbed into the v1.3 commit. |
-| `2026-05-16-stage4-bulk-resume.md` | 2026-05-16 | Stage 4 v1 bulk run (wiki-comention) | **STALE-superseded-by-pass1-derived-pivot** | Sonnet 4.6 | Wiki-comention DEPRECATED (S65); this prompt targets the old comention approach |
-| `2026-05-17-stage4-bulk-watcher.md` | 2026-05-17 | Stage 4 v1 bulk watcher | **STALE-superseded-by-pass1-derived-pivot** | Sonnet 4.6 | Same track as above; comention apparatus superseded |
-| `2026-05-02-stage4-v1-prose-edge-classifier.md` | 2026-05-02 | Stage 4 v1 prose-edge classifier (comention) | **STALE-superseded-by-pass1-derived-pivot** | Sonnet 4.6 / Haiku 4.5 | Original comention approach; pivoted S65 |
-| `2026-05-05-dialogue-meals-mention-index-design.md` | 2026-05-05 | Dialogue + meals + mention-index pass design | **STALE** | Sonnet | Design framing predates Stage 4 pivot + edge-modeling reification; Dialogue is deferred to v2.1 and now must fold in Plate 1 head rule + reification lessons per todos.md |
+| `2026-06-05-edge-modeling-plate-4-haiku-disposition.md` | 2026-06-05 | Post-Plate-5 backfill Track B (1,617 Haiku bulk re-bucketing) | **LIVE** | Opus (review) / Sonnet (filter) | Explicitly KEPT in S88 + re-linked in todos.md; queued under post-Plate-5 backfill Track B |
 
 ---
 
-## Archive (`archive/` subfolder — 16 files)
+## Archive (`archive/` subfolder — 26 files)
 
 All archive files are **DONE** or **STALE-superseded**. Summary:
 
 | Group | Files | Status |
 |-------|-------|--------|
+| Stage-4 comention + events + design prompts (2026-05-02 → 2026-06-08) | 10 files | Archived S97 — DONE/STALE (comention deprecated S65; events absorbed into Track B; repo-audit done S92; alias-and-display was a chat export). Incl. the `2026-05-31-events-v2-promotion-chain/` folder. |
 | Wiki Pass 2 Stage 1-3 prompts (2026-04-26 to 2026-04-27) | 6 files | DONE — wiki Pass 2 Stages 1-3 shipped (Sessions 20-27; 7,563+ nodes) |
 | Tier 3 Pass E Phase 2 (2026-05-01) | 1 file | DONE — Path B promotion campaign complete (S28) |
 | Pass 1 remaining books (2026-05-02 to 2026-05-04) | 4 files | DONE — all 5 books 344/344 (S30-S36) |
