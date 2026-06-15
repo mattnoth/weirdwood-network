@@ -39,13 +39,15 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 - **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
 
-**IN FLIGHT**
-- (none — S94 ship session complete)
+- **Orchestration/pacer Session 1 (S98)**: `scripts/pace.py` v1 (backfill+report-only) + telemetry ledger (`working/telemetry/`, 484 rows/9 tracks) + `scripts/worker-template.py` (M1/M2/M4) + 40 tests. `longrun.sh` supervisor was already done+tested (S97). pytest 1231 pass / 3 documented fails.
 
-**NEXT TRACK (S97)**
-- **Script consolidation — Session 1 (orchestration/pacer)** — RECOMMENDED NEXT. Build `pace.py` v1 + worker-contract template + telemetry ledger per `working/orchestration-pacer-design-2026-06-15.md` (§13 must-fixes binding). Continue: `progress/continue-prompts/2026-06-15-script-consolidation.md` (Sonnet 4.6). Then Session 2 = script cleanup/aliasing/README.
+**IN FLIGHT**
+- (none — S98 build session complete)
+
+**NEXT TRACK (S98 → S99)**
+- **Script consolidation — Session 2 (cleanup/CLI/README)** — RECOMMENDED NEXT. Archive 24 one-offs + resolve 2 blocked; legacy-wrapper disposition (do NOT archive edge-reify — PLANNED); `weirwood graph/resolve/refresh` aliasing; README class/provenance refresh; CSV-archival decision; reconcile design §0 anti-drift table. Continue: `progress/continue-prompts/2026-06-15-script-consolidation.md` steps 5–8 (Sonnet 4.6).
 - **historical-anchor #9 wave 2** (`2026-06-15-historical-anchor-wave2.md`, Sonnet) + **narrative-arc wave 1 mint** (`2026-06-15-arc-wave1-mint.md`, Sonnet — GATED on Matt's 3 decisions) remain queued.
-- DONE prior: Track 7 alias-resolver fix (S96 commit `c58770549`); Mode 3 dip + graph-cleanup (S96); historical-anchor #9 wave 1 (S97).
+- DONE prior: orchestration/pacer Session 1 (S98); historical-anchor #9 wave 1 (S97); Track 7 alias-resolver fix + Mode 3 dip + graph-cleanup (S96).
 
 **GATED / QUEUED**
 - Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
@@ -232,6 +234,28 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 98 — Script consolidation Session 1: orchestration/pacer BUILT + design-doc anti-drift convention (2026-06-15)
+**Detail:** `history/session-details/session-098.md`
+**Model:** Opus 4.8 (orchestrator + direct verification) + script-builder subagent (the build). **Commit:** this endsession commit.
+
+**Changes made:**
+- **NEW** `scripts/pace.py` (Class A-pacer; v1 report-only): `backfill` normalizes 6 heterogeneous stat schemas → per-track `working/telemetry/<track>.jsonl`; `report` prints per-`(track,model,unit_type)` baselines + conservative `LONGRUN_SLEEP_BETWEEN=600` + honest M3 wall-cadence disclaimer; `emit_telemetry_row()` importable helper. **NO ETA/headroom/concurrency in v1** (wall data too thin, §13 M3).
+- **NEW** `working/telemetry/` — backfilled ledger: 484 rows / 9 tracks (pass1-{agot,acok,asos,affc,adwd}, wiki-pass2-{core,secondary}, stage4-{haiku,v1-bulk-sonnet}) + 2 `.walls.jsonl` sidecars. Dup-race deduped (`acok-davos-02` kept 247s row, dropped 6s placeholder).
+- **NEW** `scripts/worker-template.py` (copy-me reference worker): §4 contract + §13 M1 (positive-wall `exit(2)` only + `next-eligible`) / M2 (atomic `os.replace` + `O_EXCL` claim) / M4 (single-worker-durable v1). **NEW** `tests/test_pace.py` (40 tests).
+- `working/orchestration-pacer-design-2026-06-15.md` — Status flipped DESIGN→PARTIALLY BUILT; **NEW §0 Implementation Status table** (anti-drift seam) + CSV-quirk note.
+- `progress/continue-prompts/2026-06-15-script-consolidation.md` — Session 1 marked DONE; Session-2 carryover (CSV archival decision) + anti-drift definition-of-done gate added.
+- **NEW** memory `feedback_design_doc_implementation_status` (+ MEMORY.md index). S93 archived → `archive020.md` (now 2/5).
+
+**Decisions:**
+- **§11 open questions NOT re-asked** — design §12 already resolved them (per-track files / advisory-only / sequential-default / v1 report-only) after fresh review; continue-prompt step-2 instruction was stale (CLAUDE.md rule #9 → trusted updated doc).
+- **Verified the build directly** (not just subagent claim): grepped worker-template for M1/M2 implementation; confirmed dedup + report output. pytest **1231 pass / 3 documented pre-existing fails** (vocab 166≠163 ×2; cwd-is-tmp), was 1191.
+- **Anti-drift convention** (Matt's drift concern): design docs get a §0 Implementation Status table (BUILT/DEFERRED/DRIFT + file + test); README = existence-truth; Fable doc-truth audit checks parity; def-of-done gate. The §0 table is a convention, not code-enforced — only `weirwood refresh --check` is mechanical; Fable audit = periodic backstop.
+- **Honest scope held:** Session 2 (cleanup/CLI/README) NOT started — deferred per design §14.
+
+**What's next:**
+- → **Script consolidation Session 2** — `progress/continue-prompts/2026-06-15-script-consolidation.md` steps 5–8 (**Sonnet 4.6**): archive 24 one-offs + resolve 2 blocked; legacy-wrapper disposition (do NOT archive edge-reify); `weirwood graph/resolve/refresh` aliasing; README class/provenance refresh; CSV-archival decision; reconcile §0 anti-drift table.
+- → historical-anchor #9 wave 2 (`2026-06-15-historical-anchor-wave2.md`, Sonnet) + narrative-arc wave 1 mint (`2026-06-15-arc-wave1-mint.md`, Sonnet — GATED on Matt's 3 decisions).
+
 ### Session 97 — Historical-anchor #9 wave 1 SHIPPED + Orchestration/Pacer design doc (2026-06-15)
 **Detail:** `history/session-details/session-097.md`
 **Model:** Opus 4.8 orchestrator + Sonnet 4.6 subagents (8 historical-anchor research + 1 sequencing advisor + 1 design reviewer). **Commit:** uncommitted at endsession (Matt to decide).
@@ -340,29 +364,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - Parallel-safe: `progress/continue-prompts/2026-06-12-graph-cleanup.md` (FIX-22 + small followups + 3 missing Red Wedding SUB_BEAT_OF links). Still double-gated on Matt's curation marks in `curation/hub-review-triage-2026-06-12.md` + `curation/plate5-small-followups-2026-06-12.md`.
 - `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — completed this session; delete in step 3 below.
 
-### Session 93 — Deferred structural restructures: Wyman fake-execution arc + Jaime street-brawl merge; `event.deception` vocab added (2026-06-12)
-
-**Model:** Opus 4.7 (orchestrator + all writes; no agents delegated — structural work too tightly coupled to fan out). **Detail:** `history/session-details/session-093.md` (design narrative — wiki research methodology, `event.deception` vocab rationale, Jaime-collapse decision, Q11 reframing). **Execution writeup:** `working/session-results/2026-06-12-deferred-restructures.md` (file paths, edge JSON, verification commands, hard-rule audit). **Commit:** this endsession commit.
-
-- **Vocab change (cheap):** Added **`event.deception`** to entity-type table (`reference/architecture.md:118`) + `schema-legend.md:295` events row. Cost: 2-line documentation update. No TYPE_DIR_MAP / validator / drift-detection change (no global event-subtype validator exists; events route to one dir; hand-minted not bulk LLM). Definition: "Named discrete act-of-deceiving as event-hub — single staged moment whose purpose is to propagate a false belief to a specific audience. Distinct from event.conspiracy (ongoing scheme) and DECEIVES (dyadic edge). Nested INSIDE event.conspiracy hubs (Wyman's farce sits inside Grand Northern Conspiracy)." Schema row lists 4 canonical seed examples (Wyman, Cersei's false-attack claim, Theon's burned boys, Jeyne-as-Arya).
-- **Wyman arc — 4 beats not 2:** Wiki research (`Wyman_Manderly.json`) revealed the canonical arc has 4 distinct beats. Minted parent `wyman-manderly-stages-fake-execution-of-davos` (`event.deception`) + 2 new sub-beats (`execution-of-davos-lookalike-at-white-harbor` for the substitute beheading; `frey-witnesses-attest-davos-dead-at-small-council` for Cersei's small-council propagation in AFFC Cersei IV). Renamed `lord-wyman-orders-execution` → `wyman-publicly-orders-davos-execution`. Patched arrest-beat body to reference all siblings + parent. 6 edges appended: 4 × SUB_BEAT_OF + 1 × DECEIVES wyman→cersei (qualifier="by_false_witness", AFFC Cersei IV) + 1 × CONSPIRES_WITH wyman↔stannis (Tier-3 no qualifier; rickon-return clause + via-davos-envoy in rationale).
-- **Jaime arc — collapse to single hub, not parent+children:** AWOIAF has NO discrete event page for the street brawl (treated as "melee" in Ned's biography). Renamed `jaime-lannister-ambushes-ned-s-party` → `attack-on-ned-stark-in-the-streets-of-kings-landing` (event.battle, was event.incident). Deleted sibling `jaime-sheathes-his-sword-but-orders-ned-s-men-killed.node.md`. Of its 5 role edges: 1 unique COMMANDS_IN repointed to the renamed hub (tagged `merged_from_sheathes_sibling`); 4 duplicates (AGENT_IN house-lannister, VICTIM_IN jory/heward/wyl) dropped. 2 new edges appended: DECEIVES jaime→ned qualifier="by_omission" (sheathe-and-order cinematic pivot, AGOT Eddard IX); TRIGGERS attack→`cersei-claims-ned-s-men-attacked-first` (causal link to Cersei's downstream lie, AGOT Eddard X). No separate parent layer minted — survivor IS the canonical hub.
-- **Counts:** `edges.jsonl` **4,760 → 4,764 (+4 net: +6 Wyman, +2 Jaime, −4 dups)**. `events/` **583 → 585 (+2: +3 Wyman mints, −1 Jaime sibling delete)**. `event-alias-lookup.json` **922 → 954 (+32)**. Orphan endpoints **115 (unchanged)**. Edge types active **112 (unchanged)**.
-- **Verification:** `--health` clean (8,518 nodes, 4,764 edges); `--event-participants wyman-manderly-stages-fake-execution-of-davos` traverses all 4 beats and surfaces 5 distinct participants end-to-end; `--neighbors attack-on-ned-stark-in-the-streets-of-kings-landing` shows 2 outgoing + 8 incoming (3 AGENT_IN + 1 COMMANDS_IN + 4 VICTIM_IN, no double-counting); 16/16 alias-chain probes HIT (resolver convention strips leading "the "); 0 stale source/target/superseded_by refs to old slugs in edges.jsonl. Cleaned up 3 stale index files (renamed/deleted node leftovers).
-
-**Look-at-twice items for Matt:** (a) `lord-wyman-manderly` slug-collision visible in beat-union traversal (pre-existing from S87 Plate 3 mints, NOT introduced by S93; candidate for slug-merge cleanup); (b) S91 pilot `DECEIVES wyman→house-frey` uses non-enum qualifier `"staged-arrest"` while my new wyman→cersei uses enum-conforming `by_false_witness` — normalize the S91 row to `by_omission` or leave? (c) 2 new SUB_BEAT_OF rows carry `plate5_evidence_note` instead of verbatim quotes (substitute beheading off-page; Frey small-council in summary-register) — falls under the existing 32-empty-quote Contract-6-exemption followup, not S93-specific; (d) `event.deception` has 2 instances so far (Wyman parent + Frey small-council); future passes could promote 3 more canonical examples deliberately; (e) Jaime DECEIVES target choice — picked Ned per original subagent rec; alternative read is Robert (plausible deniability) — Cersei-claim TRIGGERS edge already captures Robert as the downstream-deception audience.
-
-**Hard rules held:** rename `--dry-run` before `--apply` (both renames); no auto-/endsession (stopped at writeup + worklog); old slugs preserved as final alias entries; Bug 1 inline aliases throughout; Bug 3 plate5_superseded_note patches applied (2 stale free-text notes patched: 1 Wyman, 1 Jaime).
-
-**What's next (HANDOFFs from session start unchanged):**
-- HANDOFF 1: `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` — still gated on Matt marking the dry-run report's 11 decisions
-- HANDOFF 2: `progress/continue-prompts/2026-06-12-graph-cleanup.md` — gated on HANDOFF 1 shipping + curation marks
-- HANDOFF 3: `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` — gated on infobox merge shipping
-- Parallel-safe restructures track (this session) — **DONE**, prompt can be retired
-- `progress/continue-prompts/2026-06-12-deferred-structural-restructures.md` can be deleted after Matt confirms the writeup.
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive020 = S92 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive020 = S92–93 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

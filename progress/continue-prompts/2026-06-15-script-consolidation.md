@@ -9,6 +9,20 @@
 
 ## SCOPE — this is TWO sessions, not one (fresh review + backfill reality, design §14)
 
+> **SESSION 1 DONE — shipped S98 (2026-06-15).** `pace.py` v1 (backfill normalizer + report-only +
+> `emit_telemetry_row` helper), telemetry ledger (`working/telemetry/<track>.jsonl`, 484 rows / 9 tracks,
+> dup-race deduped), and `scripts/worker-template.py` (M1/M2/M4 verified in-code) are BUILT. pytest
+> 1231 pass / 3 documented fails. **§11 open questions were already resolved in design §12 — do NOT
+> re-ask Matt.** Design-doc §0 Implementation Status table is now the per-component truth. **What's left
+> below is SESSION 2 only (steps 5–8).**
+>
+> **Carryover quirk for Session-2 step 5 (CSV archival):** the legacy `working/extraction-stats/*.csv` are
+> the messy multi-terminal-append artifacts (dup `acok-davos-02`; agot CSV even holds stray ACOK rows). They
+> are now **frozen** (Pass 1 = 344/344) and serve only as backfill source. The per-worker JSONL ledger
+> retires the race going forward. **Decide in Session 2:** physically archive the frozen CSVs (e.g.
+> `working/extraction-stats/_archive/`) vs leave-in-place-as-backfill-source. Either way the ledger is the
+> live artifact now.
+
 Do **Session 1 (orchestration/pacer) FIRST** — it has the real correctness stakes — then Session 2 (cleanup)
 as the mechanical follow-up. Cramming both risks a rushed, half-tested pacer.
 **Before building, read design §12 (decisions), §13 (BINDING spec amendments M1–M4 / S5–S9), §14 (scope).**
@@ -76,5 +90,8 @@ temp-classify-glovers.py.
 `scripts/` organized (central scripts obvious, one-offs archived/CLI-folded); ALL long-runs go through ONE
 proven path (`longrun.sh` via `weirwood run`); `pace.py` reports baselines + recommended sleep from
 backfilled stats; README current with purpose + session-provenance + invocation; tests green (minus the 3
-documented fails). Downstream after this: narrative-arc wave-1 mint (still gated on Matt's 3 decisions);
-historical-anchor #9 wave 2.
+documented fails). **Anti-drift gate (NEW S98):** before declaring done, reconcile the design doc's §0
+Implementation Status table against actual `scripts/` + `scripts/README.md` + `pytest` — every BUILT row
+must name a file that exists and a test that passes; every Session-2 row flips to BUILT or DRIFT (named gap).
+The README is the existence-truth; the design doc is intent — they must agree. Downstream after this:
+narrative-arc wave-1 mint (still gated on Matt's 3 decisions); historical-anchor #9 wave 2.

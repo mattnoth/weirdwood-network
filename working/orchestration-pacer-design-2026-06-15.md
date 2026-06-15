@@ -1,9 +1,42 @@
 # Orchestration & Pacing — Design Doc (2026-06-15)
 
-> **Status:** DESIGN — for Matt's review before build. Companion to `scripts/README.md` (the per-script
-> inventory) and `progress/continue-prompts/2026-06-15-script-consolidation.md` (the execution session).
+> **Status:** PARTIALLY BUILT — Session 1 (orchestration/pacer) shipped 2026-06-15 (S98); Session 2
+> (cleanup/CLI/README) not started. See **§0 Implementation Status** below for the per-component truth.
+> Companion to `scripts/README.md` (the per-script inventory) and
+> `progress/continue-prompts/2026-06-15-script-consolidation.md` (the execution session).
 > **Origin:** Matt wants one durable, aliased way to run any long, rate-limited, multi-window job, with
 > timing/headroom prediction from past run stats — replacing the 6 divergent run-forever wrappers.
+
+---
+
+## 0. Implementation Status (keep in sync with reality — update the row when a component ships)
+
+> **Anti-drift rule:** this table is the seam between this design doc and the actual scripts. When a
+> component is built, flip its row to BUILT + name the implementing file + the test that proves it. When the
+> design changes but the code hasn't caught up (or vice-versa), the row says DRIFT and names the gap. A
+> doc-truth audit (the Fable pass) checks this table against `scripts/` + `scripts/README.md` and against
+> `pytest`. If a row claims BUILT and the file/test is gone, that's the drift to fix.
+
+| Component | Design § | Status | Implementing file | Verified by |
+|---|---|---|---|---|
+| Supervisor (`longrun.sh`) | §2–§3 | **BUILT** (pre-S98) | `scripts/longrun.sh` | `tests/test_longrun_supervisor.py` (6) |
+| Telemetry ledger schema + backfill normalizer | §5 | **BUILT** S98 | `scripts/pace.py` (`backfill`) → `working/telemetry/<track>.jsonl` | `tests/test_pace.py` (40); backfill 484 rows / 9 tracks, dup-race deduped |
+| Pacer report (v1 = report-only) | §6, §12 | **BUILT** S98 | `scripts/pace.py` (`report`) | `tests/test_pace.py`; prints baselines + conservative sleep + M3 wall note |
+| `emit_telemetry_row` helper | §4.4, §6 | **BUILT** S98 | `scripts/pace.py` | imported by `worker-template.py` |
+| Worker contract template (M1/M2/M4) | §4, §13 | **BUILT** S98 | `scripts/worker-template.py` | atomic `os.replace` + `O_EXCL` claim + positive-wall `exit(2)` + `next-eligible` verified in-code; demo 10→10→0 + resume |
+| Pacer ETA / headroom / concurrency-rec | §6, §7 | **DEFERRED to v2** | — | gated on live wall-cadence rows (M3) |
+| Multi-worker burst (shared next-eligible) | §7, §13 M4 | **DEFERRED to v2** | — | v1 ships single-worker-durable; template writes the file |
+| Archive 24 one-offs + 2 blocked | §10.1, §13 S7 | **NOT STARTED** (Session 2) | — | — |
+| Legacy-wrapper disposition | §10.2, §13 S7 | **NOT STARTED** (Session 2) | — | edge-reify wrapper = PLANNED, do NOT archive |
+| `weirwood graph/resolve/refresh` aliasing | §8, §11.4, §11.6 | **NOT STARTED** (Session 2) | — | — |
+| `scripts/README.md` class/provenance refresh | §10.3, §11.3 | **NOT STARTED** (Session 2) | — | the universal index — reconciles doc↔reality |
+
+**Known data quirk surfaced at build (S98):** the legacy `working/extraction-stats/*.csv` are messy —
+`extraction-stats-agot-pass1-v3.csv` even contains some ACOK rows (the same multi-terminal CSV-append race
+that dup'd `acok-davos-02`), so the backfill tags them `track=pass1-agot`. The `unit` field is
+self-describing and chapter-duration baselines are unaffected; **this is exactly the mess the per-worker
+JSONL ledger retires going forward.** Not worth backfilling around. Session-2 decision: whether to
+physically archive the frozen CSVs (Pass 1 is 344/344 complete; nothing appends to them anymore).
 
 ---
 

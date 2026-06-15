@@ -1,0 +1,1 @@
+{"run_id": "2026-05-19-stage4-haiku", "track": "stage4-haiku", "worker_id": null, "unit": "batch-0164-chunk-00", "unit_type": "chunk", "started_at": null, "elapsed_s": 157.34, "input_tokens": null, "cache_creation": null, "cache_read": null, "output_tokens": null, "cost_usd": 0.452717, "exit_reason": "ok", "rate_limited": false, "sleep_taken_s": null, "model": "claude-haiku"}

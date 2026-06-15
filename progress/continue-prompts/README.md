@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-11 (after S91)  
+**Generated:** 2026-06-15 (refreshed after S98)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-15-script-consolidation.md` | 2026-06-15 | Orchestration/pacer + script cleanup | **LIVE — TOP OF QUEUE (S97)** | Sonnet 4.6 | TWO sessions: S1 pacer build, S2 cleanup. Spec = `working/orchestration-pacer-design-2026-06-15.md` (§13 must-fixes binding) |
+| `2026-06-15-script-consolidation.md` | 2026-06-15 | Orchestration/pacer + script cleanup | **LIVE — TOP OF QUEUE (Session 2 only)** | Sonnet 4.6 | **Session 1 (pacer build) DONE S98** — pace.py + ledger + worker-template + 40 tests. **Session 2 = steps 5–8** (cleanup/CLI/README/CSV-archival/anti-drift reconcile). Spec = `working/orchestration-pacer-design-2026-06-15.md` (§0 status table now live) |
 | `2026-06-15-historical-anchor-wave2.md` | 2026-06-15 | Historical-anchor #9 wave 2 | **LIVE** | Sonnet 4.6 | Wave 1 shipped S97 (+121 edges, 8 hubs); wave 2 = remaining main-saga-recalled historical hubs; tooling `scripts/historical-anchor-*.py` |
 | `2026-06-15-arc-wave1-mint.md` | 2026-06-14 | Narrative-arc wave 1 mint (Red Wedding + Joffrey) | **HALTED-gated-on-Matt's-3-decisions** | Sonnet 4.6 | Drafts+review done; gated on RW-4 role edges / arc boundaries / RECIPIENT_IN vocab. De-prioritized by S96 dip |
 | `2026-06-05-edge-modeling-plate-4-haiku-disposition.md` | 2026-06-05 | Post-Plate-5 backfill Track B (1,617 Haiku bulk re-bucketing) | **LIVE** | Opus (review) / Sonnet (filter) | Explicitly KEPT in S88 + re-linked in todos.md; queued under post-Plate-5 backfill Track B |
@@ -38,9 +38,9 @@ All archive files are **DONE** or **STALE-superseded**. Summary:
 
 ## Open threads right now (LIVE, recommended execution order)
 
-1. **`2026-06-11-phase2-mode3-dip.md`** (Opus 4.7) — top of queue. Gate cleared S94 (2026-06-13) when infobox merge shipped. Light Mode 3 grounded-agent dip on the 21,770-edge merged graph; failure modes drive backfill Track B priorities.
-2. **`2026-06-12-graph-cleanup.md`** (Sonnet 4.6) — **PARTIALLY GATED**: infobox merge ✓ shipped; still waits on Matt approving the two curation files. Parallel-safe with #1.
-3. **`2026-06-05-edge-modeling-plate-4-haiku-disposition.md`** (Opus) — Haiku bulk re-bucketing under reify lens; post-Plate-5 backfill Track B. Lower priority; can run any time after Mode 3.
-4. ~~`2026-06-12-infobox-merge-ship.md`~~ — DONE S94 (2026-06-13); file deleted.
-5. ~~`2026-06-12-deferred-structural-restructures.md`~~ — DONE S93 (2026-06-12); file kept pending writeup-confirm.
-6. ~~`2026-06-07-repo-audit-strategy-reconciliation.md`~~ — DONE S92 (reorg plan at `working/repo-reorg-plan-2026-06-12.md`); only the optional memory-consolidation skill run remains.
+1. **`2026-06-15-script-consolidation.md`** (Sonnet 4.6) — **TOP OF QUEUE. Session 2 only** (Session 1 pacer build shipped S98). Steps 5–8: archive 24 one-offs + resolve 2 blocked; legacy-wrapper disposition (do NOT archive edge-reify — PLANNED); `weirwood graph/resolve/refresh` aliasing; README class/provenance refresh; CSV-archival decision; reconcile design §0 anti-drift table.
+2. **`2026-06-15-historical-anchor-wave2.md`** (Sonnet 4.6) — historical-anchor #9 wave 2 (remaining main-saga-recalled hubs); wave 1 shipped S97 (+121 edges). Parallel-safe with #1.
+3. **`2026-06-15-arc-wave1-mint.md`** (Sonnet 4.6) — **HALTED**, gated on Matt's 3 decisions (RW-4 role edges / arc boundaries / RECIPIENT_IN vocab). De-prioritized by S96 dip.
+4. **`2026-06-05-edge-modeling-plate-4-haiku-disposition.md`** (Opus review / Sonnet filter) — Haiku bulk re-bucketing; post-Plate-5 backfill Track B. Lower priority.
+
+*Done & archived (no longer live): Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94), deferred-structural-restructures (S93), repo-audit-reconciliation (S92).*
