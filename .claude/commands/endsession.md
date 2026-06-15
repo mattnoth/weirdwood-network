@@ -14,9 +14,11 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 
    Also update the Current State checkboxes and Extraction Pipeline checklist if any items were completed or status changed.
 
-3. **Manage continue prompts** —
-   - **Create** new ones if work tracks are mid-flight. Write to `progress/continue-prompts/{date}-{short-description}.md` with enough context for a fresh agent to pick up the work. Reference the path from the worklog entry's "What's next" section. **Also link it from todos.md** — add a `→ continue:` line under the relevant todo item so `/continue` can find it by priority.
-   - **Delete** any continue prompts that were completed this session. Also remove the `→ continue:` line from the corresponding todo in todos.md (and check the todo item itself if the work is fully done).
+3. **Manage continue prompts** — *Keep the LIVE set small. Continue prompts are operational, NOT permanent records (unlike worklog/session-details) — prune them aggressively.*
+   - **Create** new ones ONLY for genuinely mid-flight tracks. Write to `progress/continue-prompts/{date}-{short-description}.md` with enough context for a fresh agent to pick up the work. Reference the path from the worklog entry's "What's next" section. **Also link it from todos.md** — add a `→ continue:` line under the relevant todo item so `/continue` can find it by priority. **One prompt per track** — do not leave two prompts covering the same work; supersede/merge instead.
+   - **Delete** any continue prompts that were completed OR superseded this session (`git rm` — they live in git history if ever needed). Remove the `→ continue:` line from the corresponding todo (and check the todo item if fully done). Do NOT apply the "keep everything" rule to continue prompts — that rule is for `history/` records, not the live continue-prompt set.
+   - **Contradiction check:** if any surviving prompt's project-state claims contradict `worklog.md` (CLAUDE.md rule #9), fix the prompt or delete it — never leave a stale/contradictory prompt in the live set (this session's arc-wave1 vs worklog ordering was exactly this failure).
+   - **Refresh the manifest:** update `progress/continue-prompts/README.md` so its status column matches reality (new prompts as LIVE; this session's completed ones as DONE/deleted). The manifest is the single index — it must not lag.
 
 4. **Update progress files** — If extraction waves ran, update the relevant `progress/pass1-{book}.md` file. (Do NOT read or triage the top-level scratch file — that's Matt's private notes; per CLAUDE.md, only touch it if Matt explicitly asks in the current turn.)
 
@@ -97,3 +99,11 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
    - The block(s) must be self-contained — a fresh Claude with no carry-over context should be able to start work from this paste alone.
    - Always include a model recommendation — never leave it implicit.
    - Prefer slash commands (`/watcher`, `/worker`, `/continue`) over raw kickoff prose where one exists.
+
+10. **Commit and push** — Stage THIS session's work and commit to `main` (the project's established convention — every prior endsession committed directly to main), then `git push`.
+    - Stage explicitly by path — do NOT blanket `git add -A`. Include the files you created/modified this session (graph edges + backups, scripts, tests, docs, worklog, todos, continue prompts, session-details, worklog-archives). EXCLUDE pre-existing/stray untracked files you did not create, and NEVER add the gitignored `scratch` / `scr` files.
+    - Commit message: a one-line `SNN: <summary>` subject + a short bullet body of what changed. End with the required trailer:
+      `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>`
+    - `git push`. Report the pushed commit hash + branch.
+    - If anything is uncommittable or you're unsure whether a stray file should be included, stage what's clearly yours, commit that, and flag the leftover rather than guessing.
+    - (Memory entries under `~/.claude/.../memory/` live outside the repo and are not committed — that's expected.)
