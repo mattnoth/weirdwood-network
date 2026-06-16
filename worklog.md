@@ -28,13 +28,13 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 ## Current State
 
-### STATUS — at a glance (verified 2026-06-15)
+### STATUS — at a glance (verified 2026-06-15, S100)
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
 - Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,518** (events 585; excl. `_conflicts/` staging)
 - Entity + chapter indexes: **all 21 categories** (S72)
-- Edge layer LIVE: **`graph/edges/edges.jsonl` = 21,950 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + deception pilots → S93 Wyman + Jaime restructures → S94 infobox merge +17,006 wiki-infobox → S96 graph-cleanup +59 (FIX-22 + plate5 + 27 S95 edges incl. first narrative-arc reification `incident-at-the-trident`) → **S97 historical-anchor #9 wave 1 +121: 8 isolated R+L=J/Robert's-Rebellion hubs attached (tourney-at-harrenhal 0→25, the-hands-tourney 0→33, battle-of-the-trident 2→16) + Trident commanders**). Node connectivity **~71%**. **6 evidence kinds** (now incl. **`wiki-historical-anchor`** Tier-2, +~19 S97): wiki-infobox 17,006 / book-pass1 ~3,963 / book-pass1-reified 897 / plate4-wiki-cluster 51 / book-curator 11 / wiki-historical-anchor 19.
+- Edge layer LIVE: **`graph/edges/edges.jsonl` = 21,993 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + deception pilots → S93 Wyman + Jaime restructures → S94 infobox merge +17,006 wiki-infobox → S96 graph-cleanup +59 (FIX-22 + plate5 + 27 S95 edges incl. first narrative-arc reification `incident-at-the-trident`) → S97 historical-anchor #9 wave 1 +121: 8 isolated R+L=J/Robert's-Rebellion hubs attached → **S100 historical-anchor #9 wave 2 +43: 4 WO5K hubs attached (siege-of-riverrun 2→13, battle-of-the-camps 1→12, melee-at-bitterbridge 0→14, battle-of-oxcross 1→8)**). Node connectivity **~71%**. **6 evidence kinds** (incl. **`wiki-historical-anchor`** Tier-2, ~29 total after S100 +10): wiki-infobox 17,006 / book-pass1 ~3,996 / book-pass1-reified 897 / plate4-wiki-cluster 51 / book-curator 11 / wiki-historical-anchor ~29.
 - S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script.
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 - **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
@@ -44,12 +44,12 @@ This is your project memory. When you come back after a break, **STATUS — at a
 **IN FLIGHT**
 - (none — S99 cleanup session complete)
 
-**NEXT TRACK (S99 → S100)**
-- **historical-anchor #9 wave 2** — RECOMMENDED NEXT. `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (**Sonnet 4.6**).
-- **narrative-arc wave 1 mint** — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `progress/continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy S99); restore when Matt decides. (**Sonnet 4.6**)
+**NEXT TRACK (S100 → S101)**
+- **narrative-arc wave 1 mint** — RECOMMENDED NEXT, but **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `progress/continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy S99); restore to live when Matt decides. (**Sonnet 4.6**)
+- historical-anchor #9 **wave 3 (optional, low)** — deep-lore wiki-only set (approach b); `siege-of-storms-end` cluster needs dedup first. Defer until a dip shows demand. Wave-2 prompt archived S100.
 - Loose end: wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in (in todos).
 - **Continue-prompt hygiene (FIRM, Matt S99):** live `continue-prompts/` dir = the ONE actionable next track only; gated/backlog prompts park in `archive/` (recoverable). Never present a menu of "next" prompts.
-- DONE prior: script consolidation S1+S2 (S98/S99); historical-anchor #9 wave 1 (S97); Track 7 alias-resolver fix + Mode 3 dip + graph-cleanup (S96).
+- DONE prior: historical-anchor #9 wave 2 (S100); script consolidation S1+S2 (S98/S99); historical-anchor #9 wave 1 (S97); Track 7 alias-resolver fix + Mode 3 dip + graph-cleanup (S96).
 
 **GATED / QUEUED**
 - Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
@@ -236,6 +236,24 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 100 — Historical-anchor #9 wave 2 SHIPPED (4 WO5K hubs attached) (2026-06-15)
+**Detail:** none (pure-execution session — wave-2 attach via the established S97 machine; worklog entry suffices).
+**Model:** Opus 4.8 (1M context) orchestrator + 4 parallel Sonnet 4.6 `general-purpose` research subagents (one per hub). Continue prompt recommended Sonnet 4.6; Opus was the active session (graph-mutating-run insurance). **Commit:** uncommitted at write time (endsession pending Matt's permission).
+
+**Changes made:**
+- `graph/edges/edges.jsonl` **21,950 → 21,993 (+43)**: historical-anchor #9 wave 2 — attached 4 isolated WO5K hubs that POV chars witnessed/recall. **siege-of-riverrun** 2→13 (AFFC Jaime POV; 11 on-page tier-1: Daven/Jaime/Ryman/Blackfish COMMANDS_IN, Edmure VICTIM_IN, Frey-parley + garrison ATTENDS), **battle-of-the-camps** 1→12 (AGOT Catelyn; Robb/Brynden/Jaime COMMANDS_IN, Tytos/Umber/Forley/Grey-Wind FIGHTS_IN, Edmure/Brax VICTIM_IN, Hoster ATTENDS), **battle-of-oxcross** 1→8 (ACOK recalled, all tier-2: Stafford/Stevron/Martyn VICTIM_IN, Karstark/Grey-Wind AGENT_IN), **melee-at-bitterbridge** 0→14 (ACOK Catelyn; Brienne/Loras/Ronnet FIGHTS_IN, Renly/Catelyn/gallery + feast-night lords ATTENDS). Provenance: 33 book-pass1 (22 tier-1 / 11 tier-2 recalled) + 10 wiki-historical-anchor (tier-2 max). Backup `graph/edges/_regrounding/edges-pre-historical-anchor-2026-06-15T23-03-00.jsonl`.
+- Tooling reused unchanged (`scripts/historical-anchor-{candidates,validate,mint}.py`). Candidates+notes in `working/historical-anchor/`; **wave-1 stale candidate artifacts archived** → `working/historical-anchor/wave1-archive/` (8 hub files + wave-1 `_merged`) so validate/mint only see wave-2.
+
+**Decisions / judgment calls:**
+- **Curated 4 hubs, deferred 3.** Skipped `battle-of-oxcross`-class hubs already well-connected by the S94 infobox merge (oxcross/camps were still isolated; `battle-of-the-fords`/`ashford` pair already connected or duplicate-tangled). **Deferred `siege-of-storms-end`** — it is part of a duplicate cluster (`-299`/`-300`/`-recalled`); attaching to one risks worsening fragmentation. Needs a dedup decision before attach.
+- **2 curator fixes pre-mint:** (a) `battle-of-the-camps` Robb/Brynden COMMANDS_IN quote was non-verbatim (straight-vs-curly quotes) and over-tiered — repaired to a verbatim substring + downgraded tier-1→2 (Catelyn affirms outcome after arriving, not on-page command-witness). (b) DROPPED `melee` emmon-cuy ATTENDS — its quote was from a different chapter describing Rainbow-Guard sentry duty, not melee attendance (semantic-drift failure mode the SPEC warns against).
+- **Verification:** validator 0 issues (43 edges); `--health` orphans unchanged at 62 (no new orphans, all endpoints node-resolved); flagship `--neighbors` confirm all 4 hubs traversable; pytest **1231 pass / 3 documented pre-existing fails** (vocab 166≠163 ×2, cwd-is-tmp). Consumer query for these direct-attach hubs is `--neighbors` (not `--event-participants`, which traverses SUB_BEAT_OF only).
+
+**What's next:**
+- → **narrative-arc wave 1 mint** — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (**Sonnet 4.6**) — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN).
+- → historical-anchor #9 **wave 3 (optional, low priority):** the deep-lore wiki-only set (Doom of Valyria, Blackfyre Rebellions, etc.) is approach (b) — pure `wiki-historical-anchor`, defer until a dip shows agents asking about them. `siege-of-storms-end` cluster needs dedup first.
+- → Track 6 script consolidation: the 3 `historical-anchor-*.py` scripts are one-offs to fold into the `weirwood` CLI per Matt's directive.
+
 ### Session 99 — Script consolidation Session 2: archive one-offs + weirwood CLI aliasing + README refresh (2026-06-15)
 **Detail:** `history/session-details/session-099.md`
 **Model:** Opus 4.8 (1M context) — mechanical work (continue prompt recommended Sonnet 4.6; Opus was the active session). **Commit:** this endsession commit.
@@ -332,38 +350,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - → followup #9 historical structural-attachment — dip's secondary, ungated. (**Sonnet 4.6**)
 - → narrative-arc wave 1 — **DRAFTS STAGED FOR MATT REVIEW (S96, 2026-06-14):** `curation/narrative-arc-wave1-red-wedding-draft-2026-06-14.md` (proposes `red-wedding-conspiracy` parent, 5 new mints + 22 edges) + `curation/narrative-arc-wave1-joffrey-draft-2026-06-14.md` (proposes `joffrey-poisoning-conspiracy` parent, 4 new nodes + 18 edges). Both are DRAFT-ONLY (nothing minted). Each has open design Qs for Matt (arc boundaries; a vocab gap — no role type for Sansa's "unwitting instrument"). After Matt's review → a mint session applies them (S95-style). Track 7 resolver fix landed first so new arcs are discoverable.
 
-### Session 95 — Post-merge research: 5 QUARANTINE items resolved + Trident-incident reification + **narrative-arc track surfaced** (2026-06-13)
-
-**Model:** Opus 4.7 (orchestrator + design judgment) + 4 parallel Sonnet 4.6 research subagents. **Detail:** none separate — the design content is in the memo (`working/narrative-arcs-design-memo-2026-06-13.md`). **Commit:** this endsession commit.
-
-**Changes made:**
-- **NEW** `curation/s95-quarantine-resolutions-2026-06-13.md` — single source-of-truth file for the cleanup session: 5 dossiers (eagle, postern-guard, galley-crews, stallion-heart, wedding-feast) + **Q5 Trident-incident reification (Matt-added 2026-06-13)** + slug-naming confirmations. **27 JSON-ready edges + 7 new node files**, all verbatim-grounded.
-- `curation/hub-review-triage-2026-06-12.md` — QUARANTINE table updated with per-item S95 status column (5 RESOLVED, 2 SKIP w/ rationale, 3 remain Track-B routed); a-boy-is-run-down clarification (NOT Mycah — Lhazareen-boy from Drogo sack; Mycah's death reified separately as Q5).
-- `progress/continue-prompts/2026-06-12-graph-cleanup.md` — source-files list updated to point at S95 resolutions; 3 out-of-scope flags added (Varamyr-eagle-attacks-Jon followup, `the-stallion-is-brought-in-and-sacrificed` mis-slug rename, `a-captive-girl-is-beheaded` Pass-1 audit).
-- **NEW** `working/narrative-arcs-design-memo-2026-06-13.md` — design memo for the narrative-arc reification track: pattern (parent event hub + SUB_BEAT_OF children + TRIGGERS for causal direction), 15 candidate-arc seeds (small/medium/epic), 6 open design questions, fit with current queue.
-- **NEW** memory entry `project_narrative_arc_reification.md` + MEMORY.md index updated.
-- `worklog.md` — Ideas & Backlog HIGH gained narrative-arc track at top (above theory-seeds).
-- Continue-prompt updates for SEQUENTIAL EXECUTION (Matt 2026-06-13): Mode 3 dip prompt + graph-cleanup prompt + README manifest now reflect sequential rather than parallel-safe; arc-question script enhancement added to dip prompt.
-
-**Decisions:**
-- **(D1) 5 QUARANTINE items resolved via subagent research, 2 SKIP, 3 stay Track-B-routed.** Eagle ATTACKS attaches to Orell (only scene is ACOK Jon VII, Orell still alive — Varamyr post-takeover is later). Unnamed-victim policy = P4 mixed: mint for narrative-role-significant kills (Arya postern-guard, Victarion galley-crews), skip for atrocity-flavor (Lhazareen boy, Harrenhal captive girl — latter also flagged as possible Pass-1 paraphrase). Stallion-heart ceremony mints as distinct event + Stallion-Who-Mounts-the-World prophecy node + SUBJECT_OF_PROPHECY/PROPHESIED_BY edges. Wedding-feast attaches as new sub-beat under existing Tommen-Margaery hub.
-- **(D2) Q5 Trident-incident reification (Matt-added).** New parent `incident-at-the-trident` (event.incident) + new sub-beat `death-of-mycah` (event.death) + retroactive SUB_BEAT_OF for 3 existing standalone hubs (cersei-maneuvers / ned-kills-lady / ned-claims-the-execution). Bride/groom = AGENT_IN their own wedding, not ATTENDS (Matt clarification — applied to Tommen/Margaery wedding-feast roles; convention noted in resolution file).
-- **(D3) NARRATIVE-ARC REIFICATION as a new HIGH-priority track.** Apply the S87 Plate-5 event-hub pattern ONE LEVEL UP to causal chains spanning multiple existing event hubs. The graph carries events; it does NOT carry the consequence-chains GRRM writes in. First instance = Q5 Trident incident. No new vocab needed (SUB_BEAT_OF + TRIGGERS + existing event types suffice). Sequencing: **dip-driven, NOT mass-mint** — Mode 3 dip's arc-question failures become the priority signal.
-- **(D4) Execution order = SEQUENTIAL (Matt 2026-06-13).** Mode 3 dip → graph cleanup (incl. all S95 resolutions) → narrative-arc track wave 1. NOT parallel-safe. Continue prompts updated to reflect.
-
-**Look-at-twice items for Matt (S95):**
-- `event.incident` type — confirm in vocab list before cleanup mints `incident-at-the-trident` (was original type for the Jaime-ambush hub before S93 promoted to `event.battle`; should still be available)
-- The 4 Mode 3 dip arc-questions (added in script enhancement) — review/edit before launching the dip; current set is a placeholder
-- Mycah death-of-mycah is now reified BUT the existing `sandor-clegane KILLS mycah` Tier-1 dyad stays — sibling per S87 convention. Confirm both layers coexist cleanly post-cleanup.
-- The Mode 3 dip will likely also surface arc-shaped gaps for: Tower of Joy (all-dark zone per S89), Sack of King's Landing (no causal chain to Mountain's later acts), Robert's Rebellion (no chain to Joffrey coronation). Those become arc-track wave 1 candidates.
-
-**What's next (SEQUENTIAL per Matt 2026-06-13):**
-- 1️⃣ → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip on the merged graph. Now includes 2-3 arc-shaped questions per Matt's narrative-arc track decision.
-- 2️⃣ → `progress/continue-prompts/2026-06-12-graph-cleanup.md` (**Sonnet 4.6**) — FIX-22 + S95 resolutions (incl. Q5 Trident reification) + plate5 followups. Run AFTER Mode 3 dip lands.
-- 3️⃣ → narrative-arc track wave 1 — gets a continue prompt after the dip's findings sharpen the candidate list. ~3-5 small arcs minted using S95's parallel-research-subagent pattern.
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive020 = S92–94 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive020 = S92–95 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

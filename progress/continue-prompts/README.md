@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-15 (refreshed after S99)  
+**Generated:** 2026-06-15 (refreshed after S100)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,11 +12,11 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-15-historical-anchor-wave2.md` | 2026-06-15 | Historical-anchor #9 wave 2 | **LIVE — the single active track** | Sonnet 4.6 | Wave 1 shipped S97 (+121 edges, 8 hubs); wave 2 = remaining main-saga-recalled historical hubs; tooling `scripts/historical-anchor-*.py` |
+| *(none live)* | — | — | **No actionable track** | — | Next track (narrative-arc wave 1) is gated on Matt's 3 decisions — parked in `archive/`. Restore when Matt decides. |
 
 ---
 
-## Archive (`archive/` subfolder — 29 files)
+## Archive (`archive/` subfolder — 30 files)
 
 Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog — recoverable; restore when next). Summary:
 
@@ -24,6 +24,7 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 |-------|-------|--------|
 | `2026-06-15-arc-wave1-mint.md` | 1 file | **PARKED S99** — gated on Matt's 3 decisions (RW-4 role edges / arc boundaries / RECIPIENT_IN vocab). Drafts+review done. Restore when Matt decides. Context: worklog S95/S97 + `curation/narrative-arc-wave1-*-draft-2026-06-14.md`. |
 | `2026-06-05-edge-modeling-plate-4-haiku-disposition.md` | 1 file | **PARKED S99** — post-Plate-5 backfill Track B (1,617 Haiku bulk re-bucketing); lower-priority backlog, de-prioritized by S96 dip. Context: `working/todos.md` Track B. |
+| `2026-06-15-historical-anchor-wave2.md` | 1 file | **DONE S100** — wave 2 shipped: 4 WO5K hubs attached (siege-of-riverrun/battle-of-the-camps/battle-of-oxcross/melee-at-bitterbridge), +43 edges (21,950→21,993), validated + minted. `siege-of-storms-end` deferred (dup cluster). Wave 3 (deep-lore wiki-only) optional/low. |
 | `2026-06-15-script-consolidation.md` | 1 file | **DONE S99** — Session 1 (pacer/orchestration) S98 + Session 2 (archive 30 one-offs/wrappers, `weirwood graph/resolve/refresh` aliasing, README universal-index refresh, design §0 fully BUILT) S99. |
 | Stage-4 comention + events + design prompts (2026-05-02 → 2026-06-08) | 10 files | Archived S97 — DONE/STALE (comention deprecated S65; events absorbed into Track B; repo-audit done S92; alias-and-display was a chat export). Incl. the `2026-05-31-events-v2-promotion-chain/` folder. |
 | Wiki Pass 2 Stage 1-3 prompts (2026-04-26 to 2026-04-27) | 6 files | DONE — wiki Pass 2 Stages 1-3 shipped (Sessions 20-27; 7,563+ nodes) |
@@ -36,9 +37,9 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open thread right now (the single live track)
+## Open thread right now (no live track)
 
-1. **`2026-06-15-historical-anchor-wave2.md`** (Sonnet 4.6) — historical-anchor #9 wave 2 (remaining main-saga-recalled hubs); wave 1 shipped S97 (+121 edges). **In progress (Matt started it S99).**
+**Nothing is fire-ready.** The next recommended track — **narrative-arc wave 1 mint** — is **gated on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN vocab); its prompt is parked in `archive/2026-06-15-arc-wave1-mint.md`, restore to live when Matt decides. Optional/low: historical-anchor #9 wave 3 (deep-lore wiki-only set; `siege-of-storms-end` cluster needs dedup first).
 
 *Parked in `archive/` (restore when next, not deleted): arc-wave1-mint (gated on Matt's 3 decisions), edge-modeling-plate-4 Track B (backlog).*
-*Done & archived (no longer live): script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94), deferred-structural-restructures (S93), repo-audit-reconciliation (S92).*
+*Done & archived (no longer live): historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94), deferred-structural-restructures (S93), repo-audit-reconciliation (S92).*

@@ -1,6 +1,36 @@
 # Worklog Archive 020 — Sessions 92–96
 
-> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 92 archived 2026-06-15 (Session 97 endsession); Session 93 archived 2026-06-15 (Session 98 endsession); Session 94 archived 2026-06-15 (Session 99 endsession).
+> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 92 archived 2026-06-15 (Session 97 endsession); Session 93 archived 2026-06-15 (Session 98 endsession); Session 94 archived 2026-06-15 (Session 99 endsession); Session 95 archived 2026-06-15 (Session 100).
+
+### Session 95 — Post-merge research: 5 QUARANTINE items resolved + Trident-incident reification + **narrative-arc track surfaced** (2026-06-13)
+
+**Model:** Opus 4.7 (orchestrator + design judgment) + 4 parallel Sonnet 4.6 research subagents. **Detail:** none separate — the design content is in the memo (`working/narrative-arcs-design-memo-2026-06-13.md`). **Commit:** this endsession commit.
+
+**Changes made:**
+- **NEW** `curation/s95-quarantine-resolutions-2026-06-13.md` — single source-of-truth file for the cleanup session: 5 dossiers (eagle, postern-guard, galley-crews, stallion-heart, wedding-feast) + **Q5 Trident-incident reification (Matt-added 2026-06-13)** + slug-naming confirmations. **27 JSON-ready edges + 7 new node files**, all verbatim-grounded.
+- `curation/hub-review-triage-2026-06-12.md` — QUARANTINE table updated with per-item S95 status column (5 RESOLVED, 2 SKIP w/ rationale, 3 remain Track-B routed); a-boy-is-run-down clarification (NOT Mycah — Lhazareen-boy from Drogo sack; Mycah's death reified separately as Q5).
+- `progress/continue-prompts/2026-06-12-graph-cleanup.md` — source-files list updated to point at S95 resolutions; 3 out-of-scope flags added (Varamyr-eagle-attacks-Jon followup, `the-stallion-is-brought-in-and-sacrificed` mis-slug rename, `a-captive-girl-is-beheaded` Pass-1 audit).
+- **NEW** `working/narrative-arcs-design-memo-2026-06-13.md` — design memo for the narrative-arc reification track: pattern (parent event hub + SUB_BEAT_OF children + TRIGGERS for causal direction), 15 candidate-arc seeds (small/medium/epic), 6 open design questions, fit with current queue.
+- **NEW** memory entry `project_narrative_arc_reification.md` + MEMORY.md index updated.
+- `worklog.md` — Ideas & Backlog HIGH gained narrative-arc track at top (above theory-seeds).
+- Continue-prompt updates for SEQUENTIAL EXECUTION (Matt 2026-06-13): Mode 3 dip prompt + graph-cleanup prompt + README manifest now reflect sequential rather than parallel-safe; arc-question script enhancement added to dip prompt.
+
+**Decisions:**
+- **(D1) 5 QUARANTINE items resolved via subagent research, 2 SKIP, 3 stay Track-B-routed.** Eagle ATTACKS attaches to Orell (only scene is ACOK Jon VII, Orell still alive — Varamyr post-takeover is later). Unnamed-victim policy = P4 mixed: mint for narrative-role-significant kills (Arya postern-guard, Victarion galley-crews), skip for atrocity-flavor (Lhazareen boy, Harrenhal captive girl — latter also flagged as possible Pass-1 paraphrase). Stallion-heart ceremony mints as distinct event + Stallion-Who-Mounts-the-World prophecy node + SUBJECT_OF_PROPHECY/PROPHESIED_BY edges. Wedding-feast attaches as new sub-beat under existing Tommen-Margaery hub.
+- **(D2) Q5 Trident-incident reification (Matt-added).** New parent `incident-at-the-trident` (event.incident) + new sub-beat `death-of-mycah` (event.death) + retroactive SUB_BEAT_OF for 3 existing standalone hubs (cersei-maneuvers / ned-kills-lady / ned-claims-the-execution). Bride/groom = AGENT_IN their own wedding, not ATTENDS (Matt clarification — applied to Tommen/Margaery wedding-feast roles; convention noted in resolution file).
+- **(D3) NARRATIVE-ARC REIFICATION as a new HIGH-priority track.** Apply the S87 Plate-5 event-hub pattern ONE LEVEL UP to causal chains spanning multiple existing event hubs. The graph carries events; it does NOT carry the consequence-chains GRRM writes in. First instance = Q5 Trident incident. No new vocab needed (SUB_BEAT_OF + TRIGGERS + existing event types suffice). Sequencing: **dip-driven, NOT mass-mint** — Mode 3 dip's arc-question failures become the priority signal.
+- **(D4) Execution order = SEQUENTIAL (Matt 2026-06-13).** Mode 3 dip → graph cleanup (incl. all S95 resolutions) → narrative-arc track wave 1. NOT parallel-safe. Continue prompts updated to reflect.
+
+**Look-at-twice items for Matt (S95):**
+- `event.incident` type — confirm in vocab list before cleanup mints `incident-at-the-trident` (was original type for the Jaime-ambush hub before S93 promoted to `event.battle`; should still be available)
+- The 4 Mode 3 dip arc-questions (added in script enhancement) — review/edit before launching the dip; current set is a placeholder
+- Mycah death-of-mycah is now reified BUT the existing `sandor-clegane KILLS mycah` Tier-1 dyad stays — sibling per S87 convention. Confirm both layers coexist cleanly post-cleanup.
+- The Mode 3 dip will likely also surface arc-shaped gaps for: Tower of Joy (all-dark zone per S89), Sack of King's Landing (no causal chain to Mountain's later acts), Robert's Rebellion (no chain to Joffrey coronation). Those become arc-track wave 1 candidates.
+
+**What's next (SEQUENTIAL per Matt 2026-06-13):**
+- 1️⃣ → `progress/continue-prompts/2026-06-11-phase2-mode3-dip.md` (**Opus 4.7**) — Mode 3 grounded-agent dip on the merged graph. Now includes 2-3 arc-shaped questions per Matt's narrative-arc track decision.
+- 2️⃣ → `progress/continue-prompts/2026-06-12-graph-cleanup.md` (**Sonnet 4.6**) — FIX-22 + S95 resolutions (incl. Q5 Trident reification) + plate5 followups. Run AFTER Mode 3 dip lands.
+- 3️⃣ → narrative-arc track wave 1 — gets a continue prompt after the dip's findings sharpen the candidate list. ~3-5 small arcs minted using S95's parallel-research-subagent pattern.
 
 ### Session 94 — Infobox merge SHIPPED + 2 bug-fixes (continue-prompt schema, script report-rewrite guard) (2026-06-13)
 
