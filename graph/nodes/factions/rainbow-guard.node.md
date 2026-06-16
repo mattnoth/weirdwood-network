@@ -44,3 +44,8 @@ Following the death of Renly at [Storm's End](wiki:Siege_of_Storm's_End_(299)) i
 > I was one of King [Renly's](wiki:Renly_Baratheon) chosen seven. With his own hands, he cloaked me with the striped silk of the Rainbow Guard.(wiki:Rainbow_Guard.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
 >
 > —[Brienne of Tarth](wiki:Brienne_of_Tarth), to [Jaime Lannister](wiki:Jaime_Lannister)
+
+> The green light shone strangely against the purple plums of Ser Parmen’s surcoat, and gave a sickly hue to the sunflowers that covered every inch of Ser Emmon’s enameled yellow plate. Long silken plumes flew from their helms, and rainbow cloaks draped their shoulders.
+>
+> — sources/chapters/acok/acok-catelyn-04.md:45 · Direct visual description of two Rainbow Guard members (Parmen Crane, Emmon Cuy) in their individual livery  _(capture: chapter-quote sweep, physical)_
+

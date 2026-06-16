@@ -88,6 +88,10 @@ When Jaime, the [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Ki
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
+> Ser Daven’s bristling beard and bushy mustache grew into sidewhiskers as thick as a hedgerow, and those into the tangled yellow thicket atop his head, matted down by the helm he was removing. Somewhere in the midst of all that hair lurked a pug nose and a pair of lively hazel eyes.
+>
+> — sources/chapters/affc/affc-jaime-05.md:17 · Best physical description of Daven Lannister: pug nose, hazel eyes, signature yellow bristling hair-and-beard.  _(capture: chapter-quote sweep, physical)_
+
 ## Edges
 
 - HOLDS_TITLE: Ser (cite: track_b: Titles)

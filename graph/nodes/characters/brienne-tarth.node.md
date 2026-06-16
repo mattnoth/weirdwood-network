@@ -175,3 +175,16 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 > The queen remembered the Maid of Tarth, a huge, ugly, shambling thing who dressed in man's mail. [Jaime](wiki:Jaime_Lannister) would never abandon me for such a creature.(wiki:Brienne_Tarth.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-1)
 >
 > —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+
+> Beauty, they called her . . . mocking. The hair beneath the visor was a squirrel’s nest of dirty straw, and her face . . . Brienne’s eyes were large and very blue, a young girl’s eyes, trusting and guileless, but the rest . . . her features were broad and coarse, her teeth prominent and crooked, her mouth too wide, her lips so plump they seemed swollen. A thousand freckles speckled her cheeks and brow, and her nose had been broken more than once.
+>
+> — sources/chapters/acok/acok-catelyn-02.md:145 · Primary full physical description of Brienne, including the Brienne the Beauty ironic epithet origin  _(capture: chapter-quote sweep, physical)_
+
+> Brienne of Tarth had been seated at the far end of the high table. She did not gown herself as a lady, but chose a knight’s finery instead, a velvet doublet quartered rose-and-azure, breeches and boots and a fine-tooled swordbelt, her new rainbow cloak flowing down her back. No garb could disguise her plainness, though; the huge freckled hands, the wide flat face, the thrust of her teeth. Out of armor, her body seemed ungainly, broad of hip and thick of limb, with hunched muscular shoulders but no bosom to speak of.
+>
+> — sources/chapters/acok/acok-catelyn-02.md:203 · Brienne's physical appearance out of armor at the feast — complements the helm-off melee description  _(capture: chapter-quote sweep, physical)_
+
+> ”
+>
+> — sources/chapters/acok/acok-catelyn-02.md:139 · Verbatim oath/request that marks Brienne's recruitment to the Rainbow Guard — best book source for the event  _(capture: chapter-quote sweep, other)_
+

@@ -174,6 +174,22 @@ During the [siege of Raventree](wiki:Siege_of_Raventree), Lord [Tytos Blackwood]
 >
 > —[Tytos Blackwood](wiki:Tytos_Blackwood) and [Jaime Lannister](wiki:Jaime_Lannister)
 
+> Ser Edmure Tully was a stocky young man with a shaggy head of auburn hair and a fiery beard. His breastplate was scratched and dented from battle, his blue-and-red cloak stained by blood and smoke.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:19 · Canonical physical description of Edmure — stocky build, auburn hair, fiery beard; also shows his post-battle condition at Riverrun  _(capture: chapter-quote sweep, physical)_
+
+> Atop the gallows, the Lord of Riverrun stood staring at the trap beneath him. His feet were black and caked with mud, his legs bare. Edmure wore a soiled silken tunic striped in Tully red and blue, and a noose of hempen rope. At the sound of Jaime’s footsteps, he raised his head and licked his dry, cracked lips.
+>
+> — sources/chapters/affc/affc-jaime-06.md:223 · Book-text description of Edmure's degraded condition on the gallows during the siege.  _(capture: chapter-quote sweep, physical)_
+
+> Thin as he was, Edmure still looked more lordly than Emmon Frey. He wore a quilted doublet of red wool with a leaping trout embroidered on its chest. His boots were black, his breeches blue. His auburn hair had been washed and barbered, his red beard neatly trimmed.
+>
+> — sources/chapters/affc/affc-jaime-07.md:17 · Post-rescue appearance of Edmure: Tully colours, auburn hair, red beard — cross-reference with earlier degraded gallows state.  _(capture: chapter-quote sweep, physical)_
+
+> “Lew, heat some bathwater for my guest. Pia, find him some clean clothing. Nothing with lions on it, if you please. Peck, wine for Lord Tully. Are you hungry, my lord?”
+>
+> — sources/chapters/affc/affc-jaime-06.md:309 · Jaime's hospitality extended to Edmure after freeing him from the gallows: bath, clean clothes, wine, food — a deliberate guest-right gesture before the coercion speech.  _(capture: chapter-quote sweep, food)_
+
 ## Edges
 
 - HOLDS_TITLE: Ser (track_b: Titles)

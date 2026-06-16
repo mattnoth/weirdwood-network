@@ -139,3 +139,8 @@ The [siege of Riverrun](wiki:Siege_of_Riverrun) is settled peacefully by Ser [Ja
 > **Forley**: [Gawen's](wiki:Gawen_Westerling) girl? She's—
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Forley Prester](wiki:Forley_Prester)
+
+> Jeyne was a willowy girl, no more than fifteen or sixteen, more awkward than graceful. She had narrow hips, breasts the size of apples, a mop of chestnut curls, and the soft brown eyes of a doe. Pretty enough for a child, Jaime decided, but not a girl to lose a kingdom for.
+>
+> — sources/chapters/affc/affc-jaime-07.md:69 · Only extended POV physical description of Jeyne Westerling; Jaime's 'not a girl to lose a kingdom for' is load-bearing for her node.  _(capture: chapter-quote sweep, physical)_
+

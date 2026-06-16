@@ -132,6 +132,10 @@ Ser Loras is reportedly gravely injured at [Dragonstone](wiki:Dragonstone). The 
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) and [Aurane Waters](wiki:Aurane_Waters)
 
+> Ser Loras rode a tall white stallion in silver mail, and fought with a long-handled axe. A crest of golden roses ran down the center of his helm.
+>
+> — sources/chapters/acok/acok-catelyn-02.md:111 · Direct description of Loras's melee kit: white stallion, silver mail, golden-rose crest — best on-page source  _(capture: chapter-quote sweep, physical)_
+
 ## Edges
 
 - HOLDS_TITLE: Ser (cite: track_b: Titles)

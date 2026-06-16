@@ -99,3 +99,8 @@ Tom jokes he will make a song called "Talking to the Fish" about Lord [Emmon Fre
 > Fifty if he's a day, thought Jaime, a hedge harp, and hard used by life.(wiki:Tom_of_Sevenstreams.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+
+> “Tom of Sevenstreams, if it please my lord.” The singer doffed his hat. “Most call me Tom o’ Sevens, though.”
+>
+> — sources/chapters/affc/affc-jaime-07.md:245 · Tom of Sevenstreams introduces himself by name to Jaime at Riverrun — only book-text scene where he is named on-page outside a Brotherhood context.  _(capture: chapter-quote sweep, other)_
+

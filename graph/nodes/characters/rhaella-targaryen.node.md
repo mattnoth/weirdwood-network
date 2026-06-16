@@ -139,6 +139,10 @@ Barristan Selmy remembers the tourney at Harrenhal and regrets his loss to Rhaeg
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
+> They said the queen looked as if some beast had savaged her, clawing at her thighs and chewing on her breasts. A crowned beast, Jaime knew.
+>
+> — sources/chapters/affc/affc-jaime-02.md:135 · Book-text evidence of Aerys's physical abuse of Rhaella — load-bearing for Rhaella's node and the Aerys-Rhaella relationship.  _(capture: chapter-quote sweep, other)_
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Titles)

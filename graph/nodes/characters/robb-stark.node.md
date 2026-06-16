@@ -233,3 +233,12 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 > Robb who had been more a brother to Theon than any son born of [Balon Greyjoy](wiki:Balon_Greyjoy)'s loins. Murdered at the [Red Wedding](wiki:Red_Wedding), butchered by the [Freys](wiki:House_Frey). I should have been with him. Where was I? I should have died with him.(wiki:Robb_Stark.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-2)
 >
 > —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+
+> Even war-trained destriers went mad. Knights were trampled to death in their pavilions, and the rabble woke in terror and fled, casting aside their weapons to run the faster. Those who survived are spreading wild tales and swearing that the old gods of the north march with your brother.
+>
+> — sources/chapters/acok/acok-sansa-03.md:153 · Tyrion's eyewitness-quality account (via intelligence) of the panic Grey Wind caused — best evidence for Robb's supernatural-terror reputation at Oxcross.  _(capture: chapter-quote sweep, other)_
+
+> Catelyn watched a breeze stir his auburn hair, so like her own, and wondered when her son had grown so big. Fifteen, and near as tall as she was.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:27 · POV confirmation of Robb's age (fifteen) and physical description (auburn hair from Tully side) at Whispering Wood — clearest age-anchor in the chapter  _(capture: chapter-quote sweep, physical)_
+

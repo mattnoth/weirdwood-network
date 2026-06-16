@@ -282,6 +282,26 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
+> Even at a distance, Ser Jaime Lannister was unmistakable. The moonlight had silvered his armor and the gold of his hair, and turned his crimson cloak to black. He was not wearing a helm.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:65 · Recognition-at-distance moment — the gold hair and silvered armor are the visual identity markers Catelyn uses to ID Jaime in darkness  _(capture: chapter-quote sweep, identity)_
+
+> “I have a new one, made of gold. There’s much to be said for being one-handed. I drink less wine for fear of spilling and am seldom inclined to scratch my arse at court.”
+>
+> — sources/chapters/affc/affc-jaime-05.md:25 · Jaime's own voice confirming the golden prosthetic hand and its awkwardness — best self-description in the siege arc.  _(capture: chapter-quote sweep, physical)_
+
+> Underneath his steel and wool and boiled leather Jaime Lannister was a tapestry of cuts and scabs and bruises.
+>
+> — sources/chapters/affc/affc-jaime-05.md:149 · Best single-line evidence of Jaime's physical state during nightly sword-training with Ilyn Payne — documents ongoing injury accumulation.  _(capture: chapter-quote sweep, physical)_
+
+> Pia was mulling wine for them, stirring the kettle with a spoon. ... Peck served the wine on a golden platter. Ser Daven pulled off his gloves and took a cup.
+>
+> — sources/chapters/affc/affc-jaime-05.md:45 · Camp hospitality in Jaime's tent: mulled wine served on a golden platter — details the domestic arrangements of his field headquarters.  _(capture: chapter-quote sweep, food)_
+
+> “Come, let’s drink some more of Hoster Tully’s good red wine.”
+>
+> — sources/chapters/affc/affc-jaime-07.md:173 · Jaime drinking from Hoster Tully's cellar at Riverrun post-surrender — hospitality detail linking the castle's provisions to his nightly ritual with Ilyn Payne.  _(capture: chapter-quote sweep, food)_
+
 ## Edges
 
 - SWORN_TO: House Lannister (cite: track_b: Allegiances)

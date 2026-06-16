@@ -158,6 +158,14 @@ Following the resolution of the [siege of Riverrun](wiki:Siege_of_Riverrun), Jai
 >
 > —[Notch](wiki:Notch) to [Gendry](wiki:Gendry)
 
+> Hoster Tully had always been a big man; tall and broad in his youth, portly as he grew older. Now he seemed shrunken, the muscle and meat melted off his bones. Even his face sagged. The last time Catelyn had seen him, his hair and beard had been brown, well streaked with grey. Now they had gone white as snow.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:47 · Best direct-text evidence for Hoster's dying physical condition — before/after contrast of size and coloring  _(capture: chapter-quote sweep, physical)_
+
+> The crabs are in my belly … pinching, always pinching. Day and night. They have fierce claws, the crabs. Maester Vyman makes me dreamwine, milk of the poppy … I sleep a lot … but I wanted to be awake to see you, when you came.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:55 · Hoster's own words describing his terminal illness (abdominal cancer metaphor) and palliative care — character voice + medical detail  _(capture: chapter-quote sweep, other)_
+
 ## Edges
 
 - HOLDS_TITLE: Lord Paramount of the Trident (track_b: Titles)

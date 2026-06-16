@@ -84,6 +84,22 @@ Jon Snow's direwolf, [Ghost](wiki:Ghost), is aware that his littermate Grey Wind
 >
 > —[Walder Frey](wiki:Walder_Frey) and [Robb Stark](wiki:Robb_Stark)
 
+> The beast sniffed out a goat track that wound down a defile and up along beneath a ridge, a crooked and stony way, yet wide enough for men riding single file. The Lannisters in their watchtowers got not so much a glimpse of them.
+>
+> — sources/chapters/acok/acok-catelyn-05.md:53 · Best direct-text evidence for Grey Wind's scouting ability — used his wolf senses to find a hidden path that bypassed the Golden Tooth entirely.  _(capture: chapter-quote sweep, physical)_
+
+> There's some say that after the battle, the king cut out Stafford Lannister's heart and fed it to the wolf.
+>
+> — sources/chapters/acok/acok-catelyn-05.md:53 · Canonical rumor that cements Grey Wind's fearsome reputation and the 'wolf feeding on enemies' mythos around Robb's war identity.  _(capture: chapter-quote sweep, other)_
+
+> And Grey Wind threw back his head and howled. The sound seemed to go right through Catelyn Stark, and she found herself shivering. It was a terrible sound, a frightening sound, yet there was music in it too. For a second she felt something like pity for the Lannisters below. So this is what death sounds like, she thought.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:79 · Grey Wind's battle howl as the signal to spring the trap — best evidence for the wolf's role in the Whispering Wood ambush and the psychological effect on enemies  _(capture: chapter-quote sweep, other)_
+
+> I saw him tear one man's arm from his shoulder, and their horses went mad at the scent of him. I couldn't tell you how many men were thrown—
+>
+> — sources/chapters/agot/agot-catelyn-11.md:117 · Eyewitness (Theon) account of Grey Wind's combat lethality at Whispering Wood — arm-tearing and horse-panic are the two signature acts  _(capture: chapter-quote sweep, other)_
+
 ## Edges
 
 - OWNS: Robb Stark (track_b: Owner)

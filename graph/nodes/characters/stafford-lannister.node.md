@@ -53,6 +53,10 @@ Daven had vowed not to cut his hair until he had avenged his father's death,(wik
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Sansa Stark](wiki:Sansa_Stark)
 
+> His host was raw—apprentice boys, miners, fieldhands, fisherfolk, the sweepings of Lannisport. My mutton-headed uncle had not even troubled to post sentries.
+>
+> — sources/chapters/acok/acok-sansa-03.md:157 · Best direct characterization of Stafford Lannister's military incompetence and the quality of his host — key to understanding his defeat.  _(capture: chapter-quote sweep, other)_
+
 ## Edges
 
 - HOLDS_TITLE: Ser (cite: track_b_row.relationships.Title)

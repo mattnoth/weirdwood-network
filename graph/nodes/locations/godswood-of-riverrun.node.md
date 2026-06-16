@@ -54,3 +54,12 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) is sent to resolve the [siege of Riv
 
 The [godswood](wiki:Godswood) there was a garden, bright and airy, where tall redwoods spread dappled shadows across tinkling streams, birds sang from hidden nests, and the air was spicy with the scent of flowers.(wiki:Godswood_of_Riverrun.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 The [Tullys](wiki:House_Tully) kept a [godswood](wiki:Godswood), as all the [great houses](wiki:Great_houses) did, but it was only a place to walk or read or lie in the sun. Worship was for the [sept](wiki:Sept).(wiki:Godswood_of_Riverrun.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+> She found Robb beneath the green canopy of leaves, surrounded by tall redwoods and great old elms, kneeling before the heart tree, a slender weirwood with a face more sad than fierce.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:125 · Best description of the godswood's tree species composition and the heart tree's specific carved expression — face 'more sad than fierce' is distinctive  _(capture: chapter-quote sweep, physical)_
+
+> There was always mint growing in the godswood, and Petyr had liked to chew it.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:129 · Specific flora detail for the Riverrun godswood — mint is unusual and anchors Catelyn's memory of young Petyr Baelish here  _(capture: chapter-quote sweep, other)_
+

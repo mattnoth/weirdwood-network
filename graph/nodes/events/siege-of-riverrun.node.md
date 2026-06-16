@@ -49,3 +49,8 @@ Edmure is sent to [Casterly Rock](wiki:Casterly_Rock), accompanied by [Jeyne Wes
 > [Your uncle](wiki:Brynden_Tully) is an old man. Valiant, yes, but the best part of his life is done. He has no bride to grieve for him, no children to defend. A good death is all the Blackfish can hope for ... but you have years remaining, Edmure. And you are the rightful lord of [House Tully](wiki:House_Tully), not him. Your uncle serves at your pleasure. The fate of [Riverrun](wiki:Riverrun) is in your hands.(wiki:Siege_of_Riverrun.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Edmure Tully](wiki:Edmure_Tully)
+
+> “So long as there are fish in the rivers, we won’t starve, though I don’t know how we’re going to feed the horses. The Freys are hauling food and fodder down from the Twins, but Ser Ryman claims he does not have enough to share, so we must forage for ourselves.
+>
+> — sources/chapters/affc/affc-jaime-05.md:113 · Describes provisioning conditions during the siege: river fishing as primary subsistence, Frey food-sharing disputes, foraging losses.  _(capture: chapter-quote sweep, food)_
+

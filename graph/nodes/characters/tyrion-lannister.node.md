@@ -221,6 +221,10 @@ While in the Second Sons, Tyrion attempts to sway Brown Ben Plumm's mind over a 
 >
 > —[Genna Lannister](wiki:Genna_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
 
+> Sorcery is the sauce fools spoon over failure to hide the flavor of their own incompetence.
+>
+> — sources/chapters/acok/acok-sansa-03.md:157 · Signature Tyrion epigram — characterizes his rationalist worldview and his contemptuous assessment of the Lannister military failure at Oxcross.  _(capture: chapter-quote sweep, other)_
+
 ## Edges
 
 - HOLDS_TITLE: Hand of the King (cite: track_b_row.relationships.Titles, qualifier: formerly)

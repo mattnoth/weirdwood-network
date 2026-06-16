@@ -275,3 +275,8 @@ Barristan tries to explain the actions of Lord Stark to Daenerys, [Queen of Meer
 > They said [the queen](wiki:Rhaella_Targaryen) looked as if some beast had savaged her, clawing at her thighs and chewing on her breasts. A crowned beast, Jaime knew.(wiki:Aerys_II_Targaryen.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-4)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+
+> By the end the Mad King had become so fearful that he would allow no blade in his presence, save for the swords his Kingsguard wore. His beard was matted and unwashed, his hair a silver-gold tangle that reached his waist, his fingernails cracked yellow claws nine inches long. Yet still the blades tormented him, the ones he could never escape, the blades of the Iron Throne. His arms and legs were always covered with scabs and half-healed cuts.
+>
+> — sources/chapters/affc/affc-jaime-02.md:137 · Most detailed book-text physical description of Aerys II in his final years: matted beard, waist-length hair, nine-inch yellow fingernails, Iron Throne wounds.  _(capture: chapter-quote sweep, physical)_
+

@@ -143,6 +143,18 @@ Brynden has been declared an outlaw.(wiki:Brynden_Tully.cite_ref-Radwd48.7B.7B.7
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
 
+> Her uncle's craggy face showed his pain plain. He ran his fingers through his thick grey hair.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:107 · Best physical description of Brynden Tully from the text — craggy face and grey hair are his defining visual markers  _(capture: chapter-quote sweep, physical)_
+
+> The brooch that fastened Ser Brynden Tully’s cloak was a black fish, wrought in jet and gold. His ringmail was grim and grey. Over it he wore greaves, gorget, gauntlets, pauldron, and poleyns of blackened steel, none half so dark as the look upon his face as he waited for Jaime Lannister at the end of the drawbridge, alone atop a chestnut courser caparisoned in red and blue.
+>
+> — sources/chapters/affc/affc-jaime-06.md:11 · Only book-text head-to-toe description of the Blackfish's battle kit: jet-and-gold black-fish brooch, blackened-steel armour, red-and-blue caparisoned mount.  _(capture: chapter-quote sweep, physical)_
+
+> Tully had a craggy face, deeply lined and windburnt beneath a shock of stiff grey hair, but Jaime could still see the great knight who had once enthralled a squire with tales of the Ninepenny Kings.
+>
+> — sources/chapters/affc/affc-jaime-06.md:13 · Primary book-text physical description of Brynden Tully's face and colouring in his late career.  _(capture: chapter-quote sweep, physical)_
+
 ## Edges
 
 - HOLDS_TITLE: Ser (track_b: Titles)

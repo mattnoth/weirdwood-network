@@ -44,3 +44,8 @@ Randyll carries Heartsbane while bringing order to [Maidenpool](wiki:Maidenpool)
 Heartsbane must go to a man strong enough to wield her, and you are not worthy to touch her hilt.(wiki:Heartsbane.cite_ref-Ragot26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 I was heir to my father's blade once. Heartsbane. Lord [Randyll](wiki:Randyll_Tarly) let me hold it a few times, but it always scared me. It was [Valyrian steel](wiki:Valyrian_steel), beautiful but so sharp I was afraid I'd hurt one of my sisters. [Dickon](wiki:Dickon_Tarly) will have it now.(wiki:Heartsbane.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 Dunstan: Lord [Tarly](wiki:Randyll_Tarly) bears the greatsword Heartsbane, forged of [Valyrian steel](wiki:Valyrian_steel), and he is always in Lord [Tyrell's](wiki:Mace_Tyrell) van.Victarion: Let him come. I will take his sword for mine own, as [your own forebear](wiki:Hilmar_Drumm) took [Red Rain](wiki:Red_Rain).(wiki:Heartsbane.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+> Lord Randyll Tarly of Horn Hill, his greatsword Heartsbane propped up against the back of his seat.
+>
+> — sources/chapters/acok/acok-catelyn-02.md:101 · Only on-page book citation of Heartsbane in a scene context — places artifact at Bitterbridge with Tarly  _(capture: chapter-quote sweep, other)_
+

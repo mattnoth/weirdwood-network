@@ -200,6 +200,14 @@ After being attacked by [Biter](wiki:Biter) and falling into a fever, Brienne ha
 >
 > —[Brienne Tarth](wiki:Brienne_Tarth) and [Hyle Hunt](wiki:Hyle_Hunt)
 
+> a suit of forest-green plate, its fittings chased with gold, the helm crowned by a great rack of golden antlers.
+>
+> — sources/chapters/acok/acok-catelyn-02.md:199 · Describes Renly's signature armor set (green-and-gold with antler helm) as seen in his pavilion  _(capture: chapter-quote sweep, physical)_
+
+> The king’s armor was a deep green, the green of leaves in a summer wood, so dark it drank the candlelight. Gold highlights gleamed from inlay and fastenings like distant fires in that wood, winking every time he moved.
+>
+> — sources/chapters/acok/acok-catelyn-04.md:49 · Second scene of Renly's battle armor — complements the pavilion-display description; both together give full green-and-gold kit  _(capture: chapter-quote sweep, physical)_
+
 ## Edges
 
 - HOLDS_TITLE: Lord of Storm's End (track_b: Titles)

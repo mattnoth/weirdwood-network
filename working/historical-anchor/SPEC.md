@@ -59,7 +59,7 @@ Every edge carries an `evidence_kind` + `confidence_tier`:
 
 Tier-1 is earned ONLY by a real book quote. When in doubt, tier down.
 
-## Output (write exactly two files; do not touch the graph)
+## Output (write these files; do not touch the graph)
 
 1. `working/historical-anchor/<hub>.candidates.jsonl` — one edge object per line. Schema per edge:
 ```json
@@ -70,6 +70,31 @@ Tier-1 is earned ONLY by a real book quote. When in doubt, tier down.
 2. `working/historical-anchor/<hub>.notes.md` — short: which place/war you attached, count of
    FIGHTS_IN vs ATTENDS vs role edges, book-grounded vs wiki-only counts, any `unresolved`
    participants (named, no node), and anything you deliberately skipped + why.
+
+3. `working/historical-anchor/quotes/<hub>.quotes.jsonl` — see "Capture incidental quotes" below.
+   (Skip the file only if the chapters you read yielded zero load-bearing quotes beyond your edges.)
+
+## Capture incidental load-bearing quotes as you go (FIRM project rule)
+
+While you are already inside the chapter/wiki text grounding your edges, you WILL pass other
+load-bearing verbatim quotes. The project rule (`capture-quotes-during-research`): **every pass
+over the text must enrich the graph — do not let a quote you found go uncaptured.** Beyond the
+quotes you use as edge evidence, watch especially for the project's first-class targets:
+
+- **Food / hospitality / feast detail** (bowls of brown, what was served, guest-right moments)
+- **Physical descriptions** of characters/places (appearance, sigils-in-scene, the look of a castle)
+- **Cross-identity / disguise tells** (a character recognized, a name slipping, an alias moment)
+- Any other quote that is the BEST direct-text evidence for a fact about an existing node.
+
+For each such quote, append one line to `working/historical-anchor/quotes/<hub>.quotes.jsonl`:
+```json
+{"target_node_slug":"<existing node slug>","category":"food|physical|identity|other","quote":"<verbatim substring>","source_ref":"sources/chapters/<book>/<file>.md:<line>","why":"<one line: what node fact this evidences>","produced_at":"..."}
+```
+Rules: quote must be a VERBATIM substring; `target_node_slug` must resolve via
+`python3 scripts/graph-query.py <slug>` (skip + omit if no node); these are CANDIDATES for a
+node `## Quotes` section — do NOT edit node files yourself. Bound it (the strongest few per
+chapter, not every line). This is additive and node-scoped, so it is safe to run alongside
+other agents.
 
 ## Rules
 - Do NOT modify `graph/`, `edges.jsonl`, `sources/`, or any node file. Output is candidates only.

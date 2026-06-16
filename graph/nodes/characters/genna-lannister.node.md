@@ -104,6 +104,10 @@ Edmure eventually surrenders Riverrun, but he allows his uncle Brynden to escape
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Tom of Sevenstreams](wiki:Tom_of_Sevenstreams)
 
+> Genna Lannister had been a shapely woman in her youth, always threatening to overflow her bodice. Now the only shape she had was square. Her face was broad and smooth, her neck a thick pink pillar, her bosom enormous. She carried enough flesh to make two of her husband.
+>
+> — sources/chapters/affc/affc-jaime-05.md:191 · Only detailed physical description of Genna Lannister in the text; establishes her imposing size relative to Emmon Frey.  _(capture: chapter-quote sweep, physical)_
+
 ## Edges
 
 - SWORN_TO: House Lannister (cite: track_b: Allegiances)

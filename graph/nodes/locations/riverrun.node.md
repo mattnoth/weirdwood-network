@@ -140,3 +140,20 @@ After resolving the [siege of Raventree](wiki:Siege_of_Raventree), Jaime is said
 > This was [my father's](wiki:Hoster_Tully) solar. He ruled the [riverlands](wiki:Riverlands) from here, wisely and well. He liked to sit beside that window. The light was good there, and whenever he looked up from his work he could see [the river](wiki:Red_Fork). When his eyes were tired he would have [Cat](wiki:Catelyn_Stark) read to him. [Littlefinger](wiki:Petyr_Baelish) and I built a castle out of wooden blocks once, there beside the door. You will never know how sick it makes me to see you in this room, Kingslayer. You will never know how much I despise you.(wiki:Riverrun.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
 >
 > —[Edmure Tully](wiki:Edmure_Tully) to [Jaime Lannister](wiki:Jaime_Lannister)
+
+> The keep was three-sided, like Riverrun itself, and Lord Hoster's solar was triangular as well, with a stone balcony that jutted out to the east like the prow of some great sandstone ship. From there the lord of the castle could look down on his walls and battlements, and beyond, to where the waters met.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:45 · Direct architectural description of Riverrun's three-sided shape and the solar's relationship to the rivers — canonical castle geometry  _(capture: chapter-quote sweep, physical)_
+
+> The wide arch of the Water Gate came into view, and she heard the creak of heavy chains as the great iron portcullis was winched upward. It rose slowly as they approached, and Catelyn saw that the lower half of it was red with rust. The bottom foot dripped brown mud on them as they passed underneath, the barbed spikes mere inches above their heads.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:17 · Precise description of the Water Gate portcullis — the rust detail is an in-universe structural condition fact  _(capture: chapter-quote sweep, physical)_
+
+> The Tully castle looked like a great stone ship with its prow pointed downriver. Its sandstone walls were drenched in red-gold light, and seemed higher and thicker than Jaime had remembered.
+>
+> — sources/chapters/affc/affc-jaime-05.md:157 · Best direct-text physical description of Riverrun's silhouette, material (sandstone), and river-junction position.  _(capture: chapter-quote sweep, physical)_
+
+> A great grey gallows loomed above the tents, as tall as any trebuchet. On it stood a solitary figure with a rope about his neck. Edmure Tully.
+>
+> — sources/chapters/affc/affc-jaime-05.md:159 · Establishes the gallows as a landmark of the siege-era Riverrun camp and conveys the scale of Ryman Frey's encampment north of the Tumblestone.  _(capture: chapter-quote sweep, physical)_
+
