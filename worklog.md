@@ -28,7 +28,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 ## Current State
 
-### STATUS — at a glance (verified 2026-06-15, S100)
+### STATUS — at a glance (verified 2026-06-16, S102)
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
@@ -38,14 +38,15 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script.
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 - **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
+- **Event in-world dating (S101–S102):** **118 `event.*` nodes** carry an `occurred:` block (`ac_year`, optional `ac_year_end` span; signed int = AC/BC; `precision` enum; tier-3 from wiki year-pages) + 29 carry `narrative_first`. Schema in architecture.md §459. S102 closed the tail: 5 spans + `long-night` (null/`relative-only`) dated; **10 mis-promoted year-page nodes deleted** (year-lookup now via `occurred.ac_year`, not year nodes). Ordering edges (`PRECEDES`/`FOLLOWS`) deliberately NOT authored — derived/gated (decision #1).
 
 - **Orchestration/pacer + script consolidation DONE (S98+S99)**: `scripts/pace.py` v1 (backfill+report-only) + telemetry ledger (`working/telemetry/`, 476 work rows + 8 wall events / 9 tracks) + `scripts/worker-template.py` (M1/M2/M4) + `longrun.sh` supervisor (S97). **S99 cleanup:** 30 one-offs/wrappers `git mv`→`scripts/archive/` (32 total); 9 frozen CSVs→`_archive/`; `weirwood graph/resolve/refresh` aliased (+ `scripts/weirwood-refresh.sh`); `scripts/README.md` rewritten as universal index (Class A/B/C/D + provenance, all 124 live + 32 archived covered); design §0 fully BUILT. pytest 1231 pass / 3 documented fails.
 
 **IN FLIGHT**
-- (none — S101 endsession complete.) **S101 SHIPPED event in-world dating:** 112 `event.*` nodes carry `occurred.ac_year` (deterministic, tier-3) + 29 `narrative_first`; Mode-3 dip RE-RUN 4/6/0 (was 4/2/4); `occurred:` schema in architecture.md. **4 next-move decisions await Matt** — see NEXT TRACK banner.
+- (none — S102 endsession complete.) **S102 FINISHED Track 3 (dating leftovers):** 5 spans dated via `ac_year_end` (+1 single-year first-blackfyre) + `long-night` null/`relative-only`; **10 mistyped year-page nodes DELETED** (8,528→8,518); vocab-count test reconciled 163→166. **3 next-move decisions remain** (#1 PRECEDES/FOLLOWS · #2 causal TRIGGERS · #4 Fable) — see NEXT TRACK banner. Event nodes with `occurred:` 112→118.
 
-**NEXT TRACK (S101 → S102)**
-- ⚠️ **2026-06-16 (uncommitted, pre-/endsession): START AT `working/next-move-decisions-2026-06-16.md`.** This session re-ran the Mode 3 dip (arcs DE-PRIORITIZED a 2nd time), decided the events/time + era schema (signed `ac_year`, no `era:AC|BC` — collides with epoch `era`), and SHIPPED deterministic event dating: **112 `event.*` nodes gained an `occurred:` block (`ac_year`) + 29 gained `narrative_first`** (scripts `date-event-nodes.py` + `backfill-narrative-first.py`; pytest 1295/3; `architecture.md` amended). UNCOMMITTED; Session-101 log entry + STATUS refresh pending `/endsession`. The **4 next-move decisions** (1: PRECEDES/FOLLOWS vocab D3 + grouping · 2: causal TRIGGERS sign-off · 3: dating leftovers — 5 spans/long-night/conquest-of-dorne/10 mistyped year nodes · 4: Fable nomenclature + repo-reorg) live in that doc + `working/session-results/2026-06-16-event-dating-APPLIED.md`. The arc line below is SUPERSEDED as "recommended next."
+**NEXT TRACK (S102 → S103)**
+- **START AT `progress/continue-prompts/2026-06-16-next-move-decisions.md` (LIVE, Sonnet 4.6).** S102's advisory board (4 lenses) picked **Track 3 (dating leftovers) — now DONE.** The board's endorsed roadmap for the remaining decisions: **#1 ordering → #2 causal pilot → #4 Fable.** **3 next-move decisions remain, all Matt's:** (1) `PRECEDES`/`FOLLOWS` — needs vocab-add OK (D3, currently absent from vocab) + grouping basis (0 dated events share a `PART_OF` parent; same-year would lean on `narrative_first`) · (2) causal `TRIGGERS` — **already in vocab** (no add), needs sign-off on the Robert's Rebellion pilot (Harrenhal→Trident→Sack→Tower of Joy; interpretive/pollution-sensitive) · (3) Fable cleanup — nomenclature scheme (`working/nomenclature-reform-proposal.md`) + repo-reorg (`working/repo-reorg-plan-2026-06-12.md`). Full menu: `working/next-move-decisions-2026-06-16.md` (#3 struck).
 - **narrative-arc wave 1 mint** — RECOMMENDED NEXT, but **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `progress/continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy S99); restore to live when Matt decides. (**Sonnet 4.6**)
 - historical-anchor #9 **wave 3 (optional, low)** — deep-lore wiki-only set (approach b); `siege-of-storms-end` cluster needs dedup first. Defer until a dip shows demand. Wave-2 prompt archived S100.
 - Loose end: wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in (in todos).
@@ -237,6 +238,22 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 102 — Advisory board → Track 3 dating-leftovers finished + vocab-test reconcile (2026-06-16)
+**Detail:** `history/session-details/session-102.md`
+**Model:** Opus 4.8 (1M context) orchestrator + 4 parallel Sonnet 4.6 `general-purpose` advisors. **Commit:** this endsession commit.
+
+**Changes made (deterministic, $0, +0 edges):**
+- **5 multi-year span events dated** via existing `ac_year_end` field: `dance-of-the-dragons` 129→132, `war-of-the-five-kings` 298→300, `greyjoy-rebellion` 289→290, `regency-of-aegon-iii` 131→136; `first-blackfyre-rebellion` = single-year **196** (dropped wiki cross-link error 212). `long-night` → `ac_year:null`/`precision:relative-only` (architecture.md:476; wiki's spurious 297 AC noted+excluded). `conquest-of-dorne` **verified** (date on `event.battle` node; book is separate `texts/` node — no change). Event nodes with `occurred:` block **112 → 118**.
+- **10 mistyped year-page nodes DELETED** (`{129,130,131,134,143,157,209,283,286,298}-ac.node.md`, all `character.human`/0-edges/boilerplate) + their 10 index files + alias-resolver resync (`all-node-alias-lookup.json` dropped 10 slugs) + `characters/_summary.json` `year_pages_emitted_as_characters: 10→0`. Nodes **8,528 → 8,518**; edges/orphans unchanged (21,993/62).
+- **Vocab-count test reconciled 163 → 166** (`tests/test_stage4_tail_classifier.py` + `tests/test_validate_edge_jsonl.py`; +3 = reification AGENT_IN/VICTIM_IN/SUB_BEAT_OF). **pytest 1297 pass / 1 fail** (only the environmental `cwd-is-tmp`; the 2 vocab fails now green — net 3 documented fails → 1).
+- Reverted **7,921 timestamp-only** `weirwood refresh` index churns; kept only real content diffs. Final staged diff: 22 files, +25/−439.
+
+**Decisions:**
+- Matt declined a direct pick and ran an **advisory board** (4 Sonnet advisors: query-value / cost-risk / schema / curatorial). **3 of 4 → Track 3 (dating leftovers); top rec won.** Board roadmap (broadly endorsed): **#3 now → #1 ordering → #2 causal pilot → #4 Fable.** Two board findings actioned: **`TRIGGERS` already in vocab** (#2 needs no vocab add); **`PRECEDES`/`FOLLOWS` absent** (#1 needs one). Year-nodes: **delete** (Matt) — aligns with chronology-extractor design ("year pages aren't nodes"); year-lookup now via `occurred.ac_year`. Vocab-test: **reconcile to 166** (Matt) — restores the drift-detector.
+
+**What's next** (live continue prompt updated: `progress/continue-prompts/2026-06-16-next-move-decisions.md`, **Sonnet 4.6**):
+- → **3 decisions remain, all Matt's:** (1) `PRECEDES`/`FOLLOWS` vocab-add (D3) + grouping basis (0 dated events share a `PART_OF` parent) · (2) causal `TRIGGERS` sign-off (Robert's Rebellion pilot; no vocab add) · (3) Fable cleanup (nomenclature scheme + repo-reorg). Track 3 (dating leftovers) is DONE.
+
 ### Session 101 — Events/time design + deterministic event dating SHIPPED + Mode-3 dip re-run (2026-06-16)
 **Detail:** `history/session-details/session-101.md`
 **Model:** Opus 4.8 (1M context) orchestrator + ~14 Sonnet 4.6 subagents (dip re-run; 4-lens events/time panel; era research→analysis pipeline; 4-stance next-move panel; worklog-rotation advisor; 2 script-builder runs). **Commits:** `36abaabf` (archival) + `2eacbf7c` (dating+design) + this endsession commit.
@@ -317,29 +334,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - → **Script consolidation Session 2** — `progress/continue-prompts/2026-06-15-script-consolidation.md` steps 5–8 (**Sonnet 4.6**): archive 24 one-offs + resolve 2 blocked; legacy-wrapper disposition (do NOT archive edge-reify); `weirwood graph/resolve/refresh` aliasing; README class/provenance refresh; CSV-archival decision; reconcile §0 anti-drift table.
 - → historical-anchor #9 wave 2 (`2026-06-15-historical-anchor-wave2.md`, Sonnet) + narrative-arc wave 1 mint (`2026-06-15-arc-wave1-mint.md`, Sonnet — GATED on Matt's 3 decisions).
 
-### Session 97 — Historical-anchor #9 wave 1 SHIPPED + Orchestration/Pacer design doc (2026-06-15)
-**Detail:** `history/session-details/session-097.md`
-**Model:** Opus 4.8 orchestrator + Sonnet 4.6 subagents (8 historical-anchor research + 1 sequencing advisor + 1 design reviewer). **Commit:** uncommitted at endsession (Matt to decide).
-
-**Changes made:**
-- `graph/edges/edges.jsonl` **21,829 → 21,950 (+121)**: historical-anchor #9 wave 1 (+118 across 8 isolated R+L=J/Robert's-Rebellion hubs) + 3 Trident COMMANDS_IN (Robert/Rhaegar/Lewyn). Hubs: `tourney-at-harrenhal` 0→25, `the-hands-tourney` 0→33, `battle-of-the-trident` 2→16, `sack-of-kings-landing`, `combat-at-the-tower-of-joy`, `greyjoy-rebellion`, `defiance-of-duskendale`, `tragedy-at-summerhall`. **NEW evidence_kind `wiki-historical-anchor`** (Tier-2 max; 19 edges). Backups in `_regrounding/`.
-- NEW scripts: `scripts/historical-anchor-{candidates,validate,mint}.py` + `working/historical-anchor/SPEC.md` + per-hub candidate/notes files. NEW `tests/test_longrun_supervisor.py` (6 tests, longrun exit-10/2/0/crash/resume verified).
-- NEW `working/orchestration-pacer-design-2026-06-15.md` — design doc (supervisor/worker/pacer architecture, exit-code contract, telemetry ledger, §1.5 script taxonomy A/B/C/D, §11 Script Org Standard, §13 review amendments, §14 two-session scope). Fresh-reviewed.
-- NEW memory `project_rebuild_derived_artifacts_after_node_mutation` (+ MEMORY.md index). NEW continue prompts: `2026-06-15-historical-anchor-wave2.md`, `2026-06-15-script-consolidation.md` (2-session split).
-- `worklog.md` (this entry; S92 archived → `archive020.md`), `working/todos.md` (#9 wave1 done, script-consolidation pointer), `working/historical-anchor/`.
-
-**Decisions:**
-- **Pivoted from the queued arc-mint to followup #9** (fresh advisor + worklog order both said #9-first; arc mint maps to 0 dip questions). **Arc wave-1 mint stays drafted-but-unminted, still gated on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). #9 method: curate the main-saga-recalled cluster (the ~300 deep-lore hubs are wiki-only, out of scope), per-hub Sonnet subagent → JSON attach edges → 2-stage verbatim validation → curator drop/fix (6 dropped, 4 fixed). Provenance: book-pass1 tier-1/2 earned by chapter quote; wiki-only → `wiki-historical-anchor` tier-2 max.
-- **Script consolidation = design-doc-first** (Matt). Architecture: bash `longrun.sh` wraps a resumable Python worker (emits 0/2/10) + a Python `pace.py` pacer mining past run-stats; `weirwood` CLI front door; per-worker JSONL telemetry (fixes the real CSV-append race). Review found 4 must-fix spec gaps (positive wall-detect-or-crash; atomic state writes; honest thin wall-cadence backfill; shared next-eligible for concurrency → v1 single-worker). **Honest scope = TWO sessions** (pacer, then cleanup).
-- **TWOIAF (6th source, on disk unextracted) + F&B (7th, not on disk) backlogged**; use wiki for deep-lore hubs now.
-
-**What's next:**
-- → **Script consolidation Session 1 (orchestration/pacer)** — `progress/continue-prompts/2026-06-15-script-consolidation.md` (Sonnet 4.6). Recommended next.
-- → historical-anchor #9 wave 2 — `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (Sonnet 4.6).
-- → narrative-arc wave 1 mint — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (Sonnet 4.6) — **GATED on Matt's 3 decisions**.
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive021 = S97– (current, 1/5) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

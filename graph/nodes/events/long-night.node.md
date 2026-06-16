@@ -9,6 +9,10 @@ bucket_id: tier3-pathb-events
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+occurred:
+  ac_year: null
+  precision: relative-only
+  note: "Prehistoric/legendary (Age of Heroes, ~8000 years before Aegon's Conquest); not datable to an AC year. The wiki mention-index spuriously linked the page to 297 AC — excluded."
 ---
 
 ## Identity

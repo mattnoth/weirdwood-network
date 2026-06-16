@@ -5,9 +5,9 @@
 > Everything below is a DECISION for Matt, not mechanical work. Pick one to make it the live continue prompt.
 > Session detail: `working/session-results/2026-06-16-event-dating-APPLIED.md`.
 >
-> **Pre-req housekeeping (do first, when Matt authorizes):** this session's graph mutation is UNCOMMITTED
-> (112 dated event nodes + 29 `narrative_first`, all under `graph/nodes/events/`) and worklog/todos are NOT
-> updated. Run `/endsession` (commit + Session 101 log entry + worklog STATUS/NEXT refresh) before starting new work.
+> **UPDATE (S102, 2026-06-16):** Decision **#3 (dating leftovers) is DONE** — see the struck §3 below and
+> `history/session-details/session-102.md`. S101's dating + S102's cleanup are both committed. **3 decisions
+> remain (#1 PRECEDES/FOLLOWS · #2 causal TRIGGERS · #4 Fable).** Board roadmap: #1 → #2 → #4.
 
 ---
 
@@ -31,7 +31,12 @@
   → Sack 283 → Tower of Joy), which now has participants (historical-anchor waves 1+2) + dates. Sonnet, small
   pilot, Matt reviews before any bulk. Vocab: `TRIGGERS` may also need a vocab add (check before minting).
 
-## 3. Staged leftovers from the dating pass  — mostly deterministic cleanups + 2 type calls
+## 3. ~~Staged leftovers from the dating pass~~  — ✅ DONE S102 (advisory board pick; all sub-items resolved)
+> **Resolved S102:** 4 spans dated as ranges (`dance` 129–132, `wo5k` 298–300, `greyjoy` 289–290, `regency` 131–136);
+> `first-blackfyre` = single-year 196 (212 dropped as wiki cross-link error); `long-night` = `ac_year:null`/
+> `precision:relative-only` (297 mention-index error excluded); `conquest-of-dorne` verified (date on event, not book);
+> 10 mistyped year-page nodes DELETED + indexes/alias-resolver resynced. Detail: `history/session-details/session-102.md`.
+
 - **5 multi-year spans** need `ac_year_end`/split decisions: `dance-of-the-dragons` [129–132],
   `war-of-the-five-kings` [298–300], `greyjoy-rebellion` [289–290], `regency-of-aegon-iii` [131–136],
   `first-blackfyre-rebellion` [196,212] (the 212 looks like a wiki page error).

@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-14T23:49:34.044492+00:00",
+  "computed_at": "2026-06-16T23:06:52.834702+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -23,86 +23,6 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
-      }
-    ],
-    "129 ac": [
-      {
-        "canonical_slug": "129-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "130 ac": [
-      {
-        "canonical_slug": "130-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "131 ac": [
-      {
-        "canonical_slug": "131-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "134 ac": [
-      {
-        "canonical_slug": "134-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "143 ac": [
-      {
-        "canonical_slug": "143-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "157 ac": [
-      {
-        "canonical_slug": "157-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "209 ac": [
-      {
-        "canonical_slug": "209-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "283 ac": [
-      {
-        "canonical_slug": "283-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "286 ac": [
-      {
-        "canonical_slug": "286-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "298 ac": [
-      {
-        "canonical_slug": "298-ac",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
       }
     ],
     "abel": [
@@ -89151,8 +89071,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18500,
-    "unique_phrases": 11046
+    "total_node_entries": 18480,
+    "unique_phrases": 11036
   },
   "version": "v1"
 }

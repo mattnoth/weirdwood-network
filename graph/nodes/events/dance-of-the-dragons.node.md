@@ -9,6 +9,13 @@ bucket_id: battles-b-d
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+occurred:
+  ac_year: 129
+  ac_year_end: 132
+  precision: year
+  basis_source: wiki-year-page
+  basis_reliability: tertiary-fan
+  date_confidence: tier-3
 ---
 
 ## Identity

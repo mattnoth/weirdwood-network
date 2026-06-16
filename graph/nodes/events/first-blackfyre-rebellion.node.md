@@ -9,6 +9,13 @@ bucket_id: battles-d-f
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+occurred:
+  ac_year: 196
+  precision: year
+  basis_source: wiki-year-page
+  basis_reliability: tertiary-fan
+  date_confidence: tier-3
+  note: "Single-year event (Battle of the Redgrass Field, 196 AC). A spurious 212 AC attestation in the wiki year-page index was excluded as a cross-link error."
 ---
 
 ## Identity

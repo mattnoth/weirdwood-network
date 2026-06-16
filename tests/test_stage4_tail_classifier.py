@@ -566,18 +566,20 @@ class TestVocabLoading(unittest.TestCase):
             self.assertNotIn(t, self.vocab)
 
     # ------------------------------------------------------------------
-    # Regression: load_locked_vocab must return the canonical 163-type set,
-    # not the naive backtick-scrape which yields 170 polluted tokens.
+    # Regression: load_locked_vocab must return the canonical 166-type set,
+    # not the naive backtick-scrape which yields polluted tokens.
     # Pollutants dropped: ACCOMPANIES, ADWD, FIELD_EDGE_MAP, FOSTERED_BY,
     # KNOWS, LOCATED_IN, MARRIED_TO, POV, RELIGION_OF
+    # Baseline history: S63 = 163 (KNOWS deprecated); S82–S87 reification
+    # added AGENT_IN, VICTIM_IN, SUB_BEAT_OF → 166 (reconciled S102 2026-06-16).
     # ------------------------------------------------------------------
 
-    def test_vocab_count_is_163(self):
-        """Canonical locked vocab must contain exactly 163 types."""
+    def test_vocab_count_is_166(self):
+        """Canonical locked vocab must contain exactly 166 types."""
         self.assertEqual(
             len(self.vocab),
-            163,
-            f"Expected 163 canonical types, got {len(self.vocab)}. "
+            166,
+            f"Expected 166 canonical types, got {len(self.vocab)}. "
             f"Extra: {sorted(self.vocab - frozenset())}",
         )
 
