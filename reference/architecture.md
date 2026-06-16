@@ -437,6 +437,7 @@ Every node carries these frontmatter fields. Required unless marked optional.
 | `wiki_source` | Optional. URL to the source wiki page (if wiki-derived). | `"https://awoiaf.westeros.org/index.php/Red_Wedding"` |
 | `era` | Optional, forward-only. The narrative epoch this entity belongs to. Set on new mints; NOT backfilled. The narrowing function in `scripts/plate4-wiki-cluster.py` weights `era=current-narrative` higher when classifying current-narrative mints, suppressing false-positive matches against pre-series events. | `current-narrative` |
 | `first_available` | Optional. Spoiler gating field — DEFERRED to post-first-release backfill (see Spoiler Gating section below). | `"AGOT Bran II"` |
+| `occurred` | Optional, `event.*` only. Block recording in-world event time (when it happened, not when the reader meets it). See `occurred:` block subsection below. | `{ ac_year: 283, … }` |
 
 ### `era:` enum values
 
@@ -454,6 +455,25 @@ era: pre-conquest | age-of-heroes | targaryen-conquest | targaryen-rule
 - `current-narrative` — AGOT-onward main series (the events the books actually cover from the inside).
 
 When in doubt between two values, prefer the one closer to `current-narrative` if the event has direct narrative consequence in the main series; otherwise prefer the earlier era.
+
+### `occurred:` block (in-world event time)
+
+> **Status (2026-06-16):** v1 populated. 112 `event.*` nodes dated deterministically from `working/wiki/data/chronology-events.jsonl` (single attested year + exact slug match) via `scripts/date-event-nodes.py`. Schema decision + 9-invariant validator: `working/design-opinions/2026-06-16-era-field-analysis.md`. Full design: `working/design-opinions/2026-06-15-events-time-SYNTHESIS.md`.
+
+Optional block on `event.*` nodes recording WHEN the event happened in-world — distinct from where the reader encounters it (that axis is `narrative_first`, deferred). In-world reckoning is carried by a **signed `ac_year` integer (negative = BC)**. There is deliberately **no `era: AC|BC`** sub-field, because `era:` (above) already means narrative epoch — the sign on `ac_year` carries AC/BC instead.
+
+| Sub-field | Meaning | Example |
+|-----------|---------|---------|
+| `ac_year` | Signed int. Positive = AC, negative = BC. null when unknown/mythological. | `283` |
+| `ac_year_end` | Optional. SPAN endpoint only (wars/reigns); must be > `ac_year`. NOT for uncertainty. | `300` |
+| `uncertainty_radius` | Optional. ± years for a fuzzy point estimate. Mutually exclusive with `ac_year_end`. | `5` |
+| `precision` | `exact \| year \| decade \| century \| era \| relative-only` | `year` |
+| `basis_source` | `narrative-prose \| appendix \| twoiaf \| wiki-year-page \| inferred` | `wiki-year-page` |
+| `basis_reliability` | `primary-source \| secondary-source \| tertiary-fan \| inferred-only`. `tertiary-fan` caps `date_confidence` at tier-3. | `tertiary-fan` |
+| `date_confidence` | Tier 1-5 — confidence in the DATE specifically (separate from node `confidence`, which is confidence the event *happened*). | `tier-3` |
+| `dispute` | Optional sub-map. Populated only when ≥2 competing canon dates exist (e.g. GRRM-acknowledged inconsistencies). | — |
+
+**v1 applied subset:** `ac_year`, `precision`, `basis_source`, `basis_reliability`, `date_confidence` only — all from `wiki-year-page` / `tertiary-fan` / `tier-3`. Deferred: `ac_year_end` spans (5 multi-year hubs staged for review), `uncertainty_radius`, `dispute`, the narrative reading-position axis (`narrative_first`, blocked on edge chapter-ref format normalization), BC dates (the deterministic source has none), and epoch `era` on event nodes. Mythological/legendary events (e.g. the Long Night) get NO `ac_year` — left null / `relative-only`.
 
 ---
 

@@ -9,6 +9,13 @@ bucket_id: battles-a
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+occurred:
+  ac_year: 298
+  precision: year
+  basis_source: wiki-year-page
+  basis_reliability: tertiary-fan
+  date_confidence: tier-3
+  narrative_first: "agot-50"
 ---
 
 ## Identity
