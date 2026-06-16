@@ -18,6 +18,7 @@
 6. **Extraction infra: longrun.sh migration** — **[OPEN]** supervisor built same-day; migrate legacy wrappers as their tracks finish. → Track 6
 7. **Hooks & mechanical enforcement** — **[OPEN]** two PreToolUse hooks to spec. → § Hooks
 8. **Small fixes** — **[OPEN]** classify_failed retry, year-page mistypes, categorizer map, blackwater-song type; + 3 pre-existing test failures (S92). → § Small Fixes
+9. **Event dating + narrative_first** — **[SHIPPED S101 2026-06-16]** 112 `event.*` nodes dated (`occurred.ac_year`, deterministic from chronology-events.jsonl) + 29 `narrative_first`. Mode-3 dip RE-RUN: 4/6/0 (was 4/2/4). **4 follow-up decisions, ALL Matt's** → `progress/continue-prompts/2026-06-16-next-move-decisions.md` (+ `working/next-move-decisions-2026-06-16.md`). → § Timeline & Chronology
 
 Standing rule: **Model-fit policy** (next section). Everything else is in **§ Dormant / Long-lead** (parked, tagged) or archived.
 
@@ -64,7 +65,7 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 ## Track 7 — Query-Layer Tooling (NEW S96 2026-06-14, dip-driven PRIMARY)
 
-- [ ] **[READY — dip primary] Fix the alias resolver / slug-discoverability gap.** The Mode 3 dip's #1 finding: the graph repeatedly holds the correct answer but `event_alias_resolver.py --lookup` returns MISS on natural phrasings, so a consumer agent never reaches the node. Cheapest, highest-leverage fix; converts ~3 fails/partials to correct (~4/10 → ~7/10) with ZERO new graph data. Scope: (a) fuzzy/substring fallback against the node-slug index when exact lookup misses; (b) index `event.death`/`event.execution` hubs by their victim so "X's death" / "X's execution" resolve (e.g. "Robb Stark's death" → `robb-is-killed`, "Ned Stark's execution" → `execution-of-eddard-stark`); (c) when a phrase names a character, return that character node as a candidate so node-attached edges (e.g. QoLB) are reachable. Deterministic Python, $0. Smoke-test against the dip's 10 questions before/after. NEEDS a continue prompt when picked up. (**Sonnet 4.6** — deterministic script work.)
+- [x] **[DONE S96 (commit c58770549); S101 dip re-run CONFIRMED it works — natural phrasings now HIT] Fix the alias resolver / slug-discoverability gap.** The Mode 3 dip's #1 finding: the graph repeatedly holds the correct answer but `event_alias_resolver.py --lookup` returns MISS on natural phrasings, so a consumer agent never reaches the node. Cheapest, highest-leverage fix; converts ~3 fails/partials to correct (~4/10 → ~7/10) with ZERO new graph data. Scope: (a) fuzzy/substring fallback against the node-slug index when exact lookup misses; (b) index `event.death`/`event.execution` hubs by their victim so "X's death" / "X's execution" resolve (e.g. "Robb Stark's death" → `robb-is-killed`, "Ned Stark's execution" → `execution-of-eddard-stark`); (c) when a phrase names a character, return that character node as a candidate so node-attached edges (e.g. QoLB) are reachable. Deterministic Python, $0. Smoke-test against the dip's 10 questions before/after. NEEDS a continue prompt when picked up. (**Sonnet 4.6** — deterministic script work.)
 
 ## Track 3 — Post-Plate-5 Followups (edge/event modeling)
 
@@ -134,6 +135,7 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 - [ ] **[OPEN]** **PreToolUse hook — block edits to historical archives** — Add a `PreToolUse` hook in `.claude/settings.json` that blocks `Edit|Write|MultiEdit` on paths matching `history/worklog-archives/`, `history/session-details/session-*.md`, or `progress/continue-prompts/archive/`. These are records-of-thought-at-the-time and the no-edit-historical-archives rule has been violated by drift before. Surfaced 2026-05-06 (Session 37 handoff § 0).
 - [ ] **[OPEN]** **PreToolUse hook — block writes under `sources/`** — Add a `PreToolUse` hook that blocks `Edit|Write|MultiEdit` on any path under `sources/`. The "Anything in the source folder, period, cannot be written to or overwritten" rule is currently prose-only; the gitignore + permission denials don't catch in-place writes that would corrupt source data. Surfaced 2026-05-06 (Session 37 handoff § 0).
+- [ ] **[LOW, optional — S101 advisor idea]** **Worklog rotation pytest-guard.** A ~20-line `tests/test_worklog_rotation.py` that fails when `worklog.md` has > 5 `^### Session` headers UNLESS a `ROTATION_PAUSED_UNTIL: <trigger>` marker is present in the Session Log header. Makes a *paused* rotation self-healing/visible instead of silently lapsing (the documented failure mode). NOT needed while we never pause (S101 chose archive-normally); build only if Matt ever wants to pause rotation for connected-session runs.
 
 ## Small Fixes (open)
 
@@ -192,6 +194,10 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 ### Timeline & Chronology
 
+- [x] **[SHIPPED S101 2026-06-16] Event in-world dating + narrative reading-position.** 112 `event.*` nodes carry `occurred.ac_year` (signed int; deterministic from `chronology-events.jsonl`; tier-3/wiki-year-page) + 29 carry `occurred.narrative_first`. Schema: `working/design-opinions/2026-06-16-era-field-analysis.md` (signed ac_year, no `era:AC|BC`; 9-invariant validator). Scripts `date-event-nodes.py` + `backfill-narrative-first.py`. Architecture documented.
+- [ ] **[DECISION — Matt, gated] `PRECEDES`/`FOLLOWS` ordering edges.** NOT mechanical: (a) the edge types aren't in the locked vocab — a deferred schema decision (roadmap D3); adding them shifts the vocab-count test baseline; (b) the 112 dated events share NO `PART_OF` parent → no cluster to order within. Needs Matt's vocab add + grouping basis. → continue: `progress/continue-prompts/2026-06-16-next-move-decisions.md`
+- [ ] **[DECISION — Matt, sign-off] Causal `TRIGGERS`/consequence edges** — the Mode-3 dip's measured gap (Trident has participants+date, 0 consequence edges). Interpretive/pollution-sensitive. Pilot: Robert's Rebellion chain. → same continue prompt.
+- [ ] **[CLEANUP, mostly deterministic] Dating leftovers** — 5 multi-year spans need `ac_year_end`/split (`dance-of-the-dragons`, `war-of-the-five-kings`, `greyjoy-rebellion`, `regency-of-aegon-iii`, `first-blackfyre-rebellion` [196,212 — 212 likely a wiki error]); `long-night` → `ac_year:null`+`precision:era`; confirm `conquest-of-dorne` dated node is the event not the `object.text` book; 10 mistyped `*-ac` year-page nodes in `graph/nodes/characters/` (type/dir decision). Detail: `working/next-move-decisions-2026-06-16.md`.
 - [ ] **[DORMANT]** **Timeline reconstruction pass or script** — Once all books have Pass 1 extractions with `time_markers` fields, build a dedicated pass (or Python script) that attempts fan-community-style relative timeline reconstruction from the captured markers across all chapters. Cross-reference with known travel times, moon-turn references, and seasonal indicators.
 
 ### Chat / Query UI (placeholder — downstream of the graph)

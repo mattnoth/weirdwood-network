@@ -2,6 +2,39 @@
 
 > Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 92 archived 2026-06-15 (Session 97 endsession); Session 93 archived 2026-06-15 (Session 98 endsession); Session 94 archived 2026-06-15 (Session 99 endsession); Session 95 archived 2026-06-15 (Session 100).
 
+### Session 96 — Mode 3 dip + graph-cleanup/promotion SHIPPED (FIX-22 + plate5 + S95 incl. Trident & Joffrey arcs) (2026-06-14)
+
+**Model:** Opus 4.8 (orchestrator) + fresh `general-purpose` subagents — one ran the Mode 3 dip and reached its own findings ("ask a fresh subagent… have it decide"); one (Sonnet) executed the graph-cleanup under Opus orchestration + verification. **Detail:** dip findings in `working/session-results/2026-06-14-mode3-dip-results.md`. **Commit:** this commit (also captures the previously-uncommitted S94 infobox merge + S95 research).
+
+**Changes made:**
+- **NEW** `working/session-results/2026-06-14-mode3-dip-results.md` — full dip: 10 grounded Qs, per-query results table, failure-mode taxonomy, routing decision, + §6 post-dip Q4/Q5 corrections.
+- `working/todos.md` — Track 2 (Mode 3 dip) marked **DONE**; **NEW Track 7** (query-layer tooling — alias-resolver fix, dip primary); POST-PLATE-5 followup #9 **ungated** as dip secondary; at-a-glance line updated.
+- `worklog.md` — this entry; **Session 91 archived to `history/worklog-archives/archive019.md` (now full 5/5)**.
+- **NO graph writes** — the dip is read-only (verified: `edges.jsonl` mtime unchanged, untouched 2026-06-13 10:00; `graph/` `M` marks predate this session, from the S94 merge).
+
+**Findings & decisions:**
+- **Score: 4 correct / 2 partial / 4 failed.** The graph is genuinely useful to a consumer agent **today** for the two highest-frequency shapes: relationship queries (`--path`, best-in-class) and on-page-event queries (`--event-participants` over beat-reified hubs). Post-infobox kinship/allegiance/title/culture is dense and reliable.
+- **(D1) Dominant failure = slug-discoverability.** In Q1/Q3/Q7 the perfect, quote-cited answer was already in the graph; the ONLY failure was the alias resolver MISSing natural phrasings ("Robb Stark's death", "Ned Stark's execution"). A deployed agent can't fs-grep around that. → **Primary next track = fix the alias resolver** (fuzzy fallback + index death/execution hubs by victim + return character-node candidates). ~4/10 → ~7/10 for $0. (NEW Track 7.)
+- **(D2) Secondary = historical structural-attachment (followup #9, ungated).** Isolated hubs (`tourney-at-harrenhal` 0 edges; `battle-of-the-trident` only PART_OF) whose underlying facts already exist elsewhere as dyads. Q5 is the worked example: the `rhaegar-targaryen → lyanna-stark` CROWNS edge exists with a quote that literally names Harrenhal — it's just not attached to the tourney hub. Fix = attach existing dyads, no new extraction.
+- **(D3) Narrative-arc reification DE-PRIORITIZED** for now — only 2 Qs were arc-shaped, one already scheduled (Trident); the dominant problem is a lookup bug sitting on correct data, not missing arcs. Arc track stays HIGH long-term but slots behind Track 7 + #9.
+- **(D4) Q4 correction (Matt 2026-06-14):** re-graded `failed` → not-applicable. The weapon that killed Robb IS known (Roose's longsword, asos-catelyn-07.md:135) but it's unnamed — not an `object.artifact` — so `WIELDED_IN` is correctly absent. No defect, no backfill. (Contrast: Ned's execution carries `WIELDED_IN → Ice` because Ice is named.)
+
+**Look-at-twice for Matt:** none new — the dip was read-only and made no graph claims to ratify.
+
+**Graph cleanup / promotion SHIPPED (same session, both gates cleared):**
+- `edges.jsonl` **21,770 → 21,829 (+59 net)**: FIX-22 (F1 siege repair, F2 wrong-direction retypes/drop, F3a+b Purple Wedding beats, F4a Red Wedding guest-right, F5 Tyrion→Joffrey demoted tier-1→tier-4 false-confession, F6a–l 12 canon-death dyads incl. **F6h `rhaegal KILLS quentyn-martell`** resolved from text not generic) + plate5 small-followups (A1 conquest-of-dorne→object.text, A2 maidenpool merge, B mutual-kill reverse edge, C-1 Contract-6 SUB_BEAT_OF quote-exemption + C-2 quote fix) + **27 S95 edges** (Q1–Q5).
+- **10 new nodes**: 3 wedding beats (incl. `death-of-joffrey-baratheon` event.assassination w/ `## Quotes` block) + 7 S95 (postern-guard, ghiscari-galley-crews, stallion-who-mounts-the-world prophecy, stallion-heart-ceremony, wedding-feast-at-the-red-keep, **incident-at-the-trident**, **death-of-mycah**).
+- **First narrative-arc reification live**: `incident-at-the-trident` parent + 4 sub-beats (Cersei/Lady/Mycah cluster), beat-union traverses end-to-end. Joffrey cluster: Olenna AGENT_IN tier-2 + **Littlefinger COMMANDS_IN** both carrying his ASOS Sansa VI reveal quote (marquee-dialogue capture per new firm rule [[feedback_capture_quotes_during_research]]).
+- `architecture.md` gained `event.incident` row; validator gained SUB_BEAT_OF Contract-6 exemption. Backup: `_regrounding/edges-pre-graph-cleanup-2026-06-14T15-26-24.jsonl`. Verification: `--health` clean (62 orphans, −1), pytest 1144 pass + 3 documented pre-existing failures only.
+- **Minor look-at-twice:** `death-of-joffrey-baratheon LOCATED_AT red-keep` edge carries the Olenna-wine quote instead of a location line (cosmetic; correct target/tier).
+
+**New standing rules (S96):** (1) **Capture load-bearing quotes during research** — FIRM rule, any time a session is in chapter/wiki text for ANY purpose (researched or happenstance) and finds a quotable death/feast/description/dialogue/prophecy line, attach it to the graph (edge `evidence_quote` or node `## Quotes`) before moving on; lightweight `working/quote-capture-queue.md` backlog allowed when full inline capture would derail the task. Memory `feedback_capture_quotes_during_research`. (2) **Arc parent-shape** — arc parent = NEW `event.conspiracy` hub WRAPPING the existing event hub (event becomes one sub-beat); pre/post-event beats attach to the conspiracy, in-feast beats to the event (scope test). Memory `project_narrative_arc_reification`.
+
+**What's next (dip-driven sequencing):**
+- → **NEW Track 7** alias-resolver fix — the dip's PRIMARY, highest-leverage $0/deterministic move (~4/10→~7/10); makes the just-shipped Trident/Joffrey arcs findable by natural phrasing. Recommend NEXT, ahead of arc-minting. Needs a continue prompt. (**Sonnet 4.6**)
+- → followup #9 historical structural-attachment — dip's secondary, ungated. (**Sonnet 4.6**)
+- → narrative-arc wave 1 — **DRAFTS STAGED FOR MATT REVIEW (S96, 2026-06-14):** `curation/narrative-arc-wave1-red-wedding-draft-2026-06-14.md` (proposes `red-wedding-conspiracy` parent, 5 new mints + 22 edges) + `curation/narrative-arc-wave1-joffrey-draft-2026-06-14.md` (proposes `joffrey-poisoning-conspiracy` parent, 4 new nodes + 18 edges). Both are DRAFT-ONLY (nothing minted). Each has open design Qs for Matt (arc boundaries; a vocab gap — no role type for Sansa's "unwitting instrument"). After Matt's review → a mint session applies them (S95-style). Track 7 resolver fix landed first so new arcs are discoverable.
+
 ### Session 95 — Post-merge research: 5 QUARANTINE items resolved + Trident-incident reification + **narrative-arc track surfaced** (2026-06-13)
 
 **Model:** Opus 4.7 (orchestrator + design judgment) + 4 parallel Sonnet 4.6 research subagents. **Detail:** none separate — the design content is in the memo (`working/narrative-arcs-design-memo-2026-06-13.md`). **Commit:** this endsession commit.
@@ -91,4 +124,4 @@
 - Pre-existing test failures noted (predate session): `test_vocab_count_is_163` ×2 (vocab is now 166) + `test_cwd_is_tmp`.
 - **What's next (the chain):** (1) Matt marks the dry-run report's 11 decisions → `progress/continue-prompts/2026-06-12-infobox-merge-ship.md` (Sonnet); (2) Matt marks the 2 curation files → `progress/continue-prompts/2026-06-12-graph-cleanup.md` (Sonnet; gated on merge shipped); (3) Mode 3 dip (`2026-06-11-phase2-mode3-dip.md`, Opus; gated on merge). Parallel-safe anytime: `2026-06-12-deferred-structural-restructures.md` (Opus). Matt's picks (non-blocking): design-doc Option A/B/C, nomenclature scheme, archive018 S86-append judgment, repo-reorg P1/P2 (`working/repo-reorg-plan-2026-06-12.md`). All session files KEPT in place per Matt ("until we are well and truly done").
 
-*(Sessions 93–96 remain in `worklog.md` as of this archive; they move here as later sessions push them out.)*
+*(archive020 is now full at 5/5: S92–S96. S96 moved here at S101 endsession; S97–S101 remain live in `worklog.md`.)*

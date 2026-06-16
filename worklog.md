@@ -42,9 +42,9 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - **Orchestration/pacer + script consolidation DONE (S98+S99)**: `scripts/pace.py` v1 (backfill+report-only) + telemetry ledger (`working/telemetry/`, 476 work rows + 8 wall events / 9 tracks) + `scripts/worker-template.py` (M1/M2/M4) + `longrun.sh` supervisor (S97). **S99 cleanup:** 30 one-offs/wrappers `git mv`→`scripts/archive/` (32 total); 9 frozen CSVs→`_archive/`; `weirwood graph/resolve/refresh` aliased (+ `scripts/weirwood-refresh.sh`); `scripts/README.md` rewritten as universal index (Class A/B/C/D + provenance, all 124 live + 32 archived covered); design §0 fully BUILT. pytest 1231 pass / 3 documented fails.
 
 **IN FLIGHT**
-- (none — S99 cleanup session complete)
+- (none — S101 endsession complete.) **S101 SHIPPED event in-world dating:** 112 `event.*` nodes carry `occurred.ac_year` (deterministic, tier-3) + 29 `narrative_first`; Mode-3 dip RE-RUN 4/6/0 (was 4/2/4); `occurred:` schema in architecture.md. **4 next-move decisions await Matt** — see NEXT TRACK banner.
 
-**NEXT TRACK (S100 → S101)**
+**NEXT TRACK (S101 → S102)**
 - ⚠️ **2026-06-16 (uncommitted, pre-/endsession): START AT `working/next-move-decisions-2026-06-16.md`.** This session re-ran the Mode 3 dip (arcs DE-PRIORITIZED a 2nd time), decided the events/time + era schema (signed `ac_year`, no `era:AC|BC` — collides with epoch `era`), and SHIPPED deterministic event dating: **112 `event.*` nodes gained an `occurred:` block (`ac_year`) + 29 gained `narrative_first`** (scripts `date-event-nodes.py` + `backfill-narrative-first.py`; pytest 1295/3; `architecture.md` amended). UNCOMMITTED; Session-101 log entry + STATUS refresh pending `/endsession`. The **4 next-move decisions** (1: PRECEDES/FOLLOWS vocab D3 + grouping · 2: causal TRIGGERS sign-off · 3: dating leftovers — 5 spans/long-night/conquest-of-dorne/10 mistyped year nodes · 4: Fable nomenclature + repo-reorg) live in that doc + `working/session-results/2026-06-16-event-dating-APPLIED.md`. The arc line below is SUPERSEDED as "recommended next."
 - **narrative-arc wave 1 mint** — RECOMMENDED NEXT, but **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `progress/continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy S99); restore to live when Matt decides. (**Sonnet 4.6**)
 - historical-anchor #9 **wave 3 (optional, low)** — deep-lore wiki-only set (approach b); `siege-of-storms-end` cluster needs dedup first. Defer until a dip shows demand. Wave-2 prompt archived S100.
@@ -237,6 +237,25 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 101 — Events/time design + deterministic event dating SHIPPED + Mode-3 dip re-run (2026-06-16)
+**Detail:** `history/session-details/session-101.md`
+**Model:** Opus 4.8 (1M context) orchestrator + ~14 Sonnet 4.6 subagents (dip re-run; 4-lens events/time panel; era research→analysis pipeline; 4-stance next-move panel; worklog-rotation advisor; 2 script-builder runs). **Commits:** `36abaabf` (archival) + `2eacbf7c` (dating+design) + this endsession commit.
+
+**Changes made:**
+- **Event in-world dating SHIPPED (deterministic, $0, +0 edges):** 112 `event.*` nodes gained an `occurred:` block (`ac_year` + `precision:year` + `basis_source:wiki-year-page` + `basis_reliability:tertiary-fan` + `date_confidence:tier-3`) from `chronology-events.jsonl` (single attested year + exact slug match); **29 also gained `narrative_first`** (`{book}-{chapter_number}`, min reader-encounter, resolve-all-or-skip across both edge ref formats). NEW `scripts/date-event-nodes.py` + `scripts/backfill-narrative-first.py` (+64 tests; **pytest 1295 pass / 3 documented fails**). Frontmatter-only, idempotent, bodies byte-preserved, `--health` unchanged (8,528/21,993/62). `reference/architecture.md`: `occurred:` schema + sub-field table documented.
+- **Mode-3 dip RE-RUN** → `working/session-results/2026-06-15-mode3-dip-rerun.md`: **4 correct / 6 partial / 0 failed** (was 4/2/4). + temporal mini-probe (4/5 time queries fail today → motivated dating).
+- **Design trail:** `working/design-opinions/` (events/time 4-lens panel + SYNTHESIS; era research + analysis) · `working/next-move-decisions-2026-06-16.md` (the 4 entry points) · `working/session-results/2026-06-16-event-dating-{dryrun,APPLIED}.md` + `2026-06-16-narrative-first-dryrun.md`.
+- **Repo hygiene:** 4 historic top-level markdowns `git mv` → `history/archive/` (BEFORE-LEAVE-RESUME, EDGE_MODELING_VALIDATOR_LOG, STAGE4-SMOKE-REVIEW, next.md). Top level keeps CLAUDE/worklog/README + clusters-primer + scr.
+
+**Decisions:**
+- **Re-ran the S96 Mode-3 dip (now in archive020) on the current graph** — its arc DE-PRIORITIZATION (S96 D3) CONFIRMED a 2nd time (the measured gaps are causal-edge + `ATTENDS`, not missing arcs); recent work paid off (4 fails→0; Tourney-at-Harrenhal 0→25 edges; S96 Track-7 resolver fix verified shipped). Arc wave 1 stays parked; shipped **event dating** instead (dip-driven sequencing).
+- **Events/time = TWO axes** (in-world `ac_year` vs narrative `narrative_first`); time lives in node frontmatter; ordering edges DERIVED not authored. **Era schema: signed `ac_year` (negative=BC), NO `era:AC|BC`** (collides with the existing epoch `era` field, architecture.md:438); 9-invariant validator. `long-night` excluded (wiki mention-index error — prehistoric, not 297 AC).
+- **`PRECEDES`/`FOLLOWS` is GATED, not mechanical:** not in the locked vocab (deferred schema decision, roadmap D3) AND 0 dated events share a `PART_OF` parent → no cluster to order within. Needs Matt's vocab + grouping call. **Causal `TRIGGERS`** = the dip's measured gap; interpretive → Matt sign-off.
+- **Worklog rotation:** archived S96 normally (→ archive020, 5/5) + anchored the S96-dip reference in this entry, rather than pausing rotation (fresh-advisor call: a paused rotation silently lapses after one context reset — a documented failure mode here). Optional future safeguard logged in todos (pytest session-count guard).
+
+**What's next — 4 decisions, ALL for Matt** (`working/next-move-decisions-2026-06-16.md`):
+- → **resolve all 4:** (1) `PRECEDES`/`FOLLOWS` vocab D3 + grouping basis · (2) causal `TRIGGERS` sign-off (Robert's Rebellion pilot) · (3) dating leftovers (5 spans / `long-night`-as-era / `conquest-of-dorne` book-vs-event / 10 mistyped `*-ac` year nodes) · (4) Fable cleanup (nomenclature scheme + repo-reorg). Continue: `progress/continue-prompts/2026-06-16-next-move-decisions.md` (**Sonnet 4.6**) — opens by asking Matt to answer them.
+
 ### Session 100 — Historical-anchor #9 wave 2 SHIPPED (4 WO5K hubs attached) (2026-06-15)
 **Detail:** none (pure-execution session — wave-2 attach via the established S97 machine; worklog entry suffices).
 **Model:** Opus 4.8 (1M context) orchestrator + 4 parallel Sonnet 4.6 `general-purpose` research subagents (one per hub). Continue prompt recommended Sonnet 4.6; Opus was the active session (graph-mutating-run insurance). **Commit:** uncommitted at write time (endsession pending Matt's permission).
@@ -319,41 +338,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - → historical-anchor #9 wave 2 — `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (Sonnet 4.6).
 - → narrative-arc wave 1 mint — `progress/continue-prompts/2026-06-15-arc-wave1-mint.md` (Sonnet 4.6) — **GATED on Matt's 3 decisions**.
 
-### Session 96 — Mode 3 dip + graph-cleanup/promotion SHIPPED (FIX-22 + plate5 + S95 incl. Trident & Joffrey arcs) (2026-06-14)
-
-**Model:** Opus 4.8 (orchestrator) + fresh `general-purpose` subagents — one ran the Mode 3 dip and reached its own findings ("ask a fresh subagent… have it decide"); one (Sonnet) executed the graph-cleanup under Opus orchestration + verification. **Detail:** dip findings in `working/session-results/2026-06-14-mode3-dip-results.md`. **Commit:** this commit (also captures the previously-uncommitted S94 infobox merge + S95 research).
-
-**Changes made:**
-- **NEW** `working/session-results/2026-06-14-mode3-dip-results.md` — full dip: 10 grounded Qs, per-query results table, failure-mode taxonomy, routing decision, + §6 post-dip Q4/Q5 corrections.
-- `working/todos.md` — Track 2 (Mode 3 dip) marked **DONE**; **NEW Track 7** (query-layer tooling — alias-resolver fix, dip primary); POST-PLATE-5 followup #9 **ungated** as dip secondary; at-a-glance line updated.
-- `worklog.md` — this entry; **Session 91 archived to `history/worklog-archives/archive019.md` (now full 5/5)**.
-- **NO graph writes** — the dip is read-only (verified: `edges.jsonl` mtime unchanged, untouched 2026-06-13 10:00; `graph/` `M` marks predate this session, from the S94 merge).
-
-**Findings & decisions:**
-- **Score: 4 correct / 2 partial / 4 failed.** The graph is genuinely useful to a consumer agent **today** for the two highest-frequency shapes: relationship queries (`--path`, best-in-class) and on-page-event queries (`--event-participants` over beat-reified hubs). Post-infobox kinship/allegiance/title/culture is dense and reliable.
-- **(D1) Dominant failure = slug-discoverability.** In Q1/Q3/Q7 the perfect, quote-cited answer was already in the graph; the ONLY failure was the alias resolver MISSing natural phrasings ("Robb Stark's death", "Ned Stark's execution"). A deployed agent can't fs-grep around that. → **Primary next track = fix the alias resolver** (fuzzy fallback + index death/execution hubs by victim + return character-node candidates). ~4/10 → ~7/10 for $0. (NEW Track 7.)
-- **(D2) Secondary = historical structural-attachment (followup #9, ungated).** Isolated hubs (`tourney-at-harrenhal` 0 edges; `battle-of-the-trident` only PART_OF) whose underlying facts already exist elsewhere as dyads. Q5 is the worked example: the `rhaegar-targaryen → lyanna-stark` CROWNS edge exists with a quote that literally names Harrenhal — it's just not attached to the tourney hub. Fix = attach existing dyads, no new extraction.
-- **(D3) Narrative-arc reification DE-PRIORITIZED** for now — only 2 Qs were arc-shaped, one already scheduled (Trident); the dominant problem is a lookup bug sitting on correct data, not missing arcs. Arc track stays HIGH long-term but slots behind Track 7 + #9.
-- **(D4) Q4 correction (Matt 2026-06-14):** re-graded `failed` → not-applicable. The weapon that killed Robb IS known (Roose's longsword, asos-catelyn-07.md:135) but it's unnamed — not an `object.artifact` — so `WIELDED_IN` is correctly absent. No defect, no backfill. (Contrast: Ned's execution carries `WIELDED_IN → Ice` because Ice is named.)
-
-**Look-at-twice for Matt:** none new — the dip was read-only and made no graph claims to ratify.
-
-**Graph cleanup / promotion SHIPPED (same session, both gates cleared):**
-- `edges.jsonl` **21,770 → 21,829 (+59 net)**: FIX-22 (F1 siege repair, F2 wrong-direction retypes/drop, F3a+b Purple Wedding beats, F4a Red Wedding guest-right, F5 Tyrion→Joffrey demoted tier-1→tier-4 false-confession, F6a–l 12 canon-death dyads incl. **F6h `rhaegal KILLS quentyn-martell`** resolved from text not generic) + plate5 small-followups (A1 conquest-of-dorne→object.text, A2 maidenpool merge, B mutual-kill reverse edge, C-1 Contract-6 SUB_BEAT_OF quote-exemption + C-2 quote fix) + **27 S95 edges** (Q1–Q5).
-- **10 new nodes**: 3 wedding beats (incl. `death-of-joffrey-baratheon` event.assassination w/ `## Quotes` block) + 7 S95 (postern-guard, ghiscari-galley-crews, stallion-who-mounts-the-world prophecy, stallion-heart-ceremony, wedding-feast-at-the-red-keep, **incident-at-the-trident**, **death-of-mycah**).
-- **First narrative-arc reification live**: `incident-at-the-trident` parent + 4 sub-beats (Cersei/Lady/Mycah cluster), beat-union traverses end-to-end. Joffrey cluster: Olenna AGENT_IN tier-2 + **Littlefinger COMMANDS_IN** both carrying his ASOS Sansa VI reveal quote (marquee-dialogue capture per new firm rule [[feedback_capture_quotes_during_research]]).
-- `architecture.md` gained `event.incident` row; validator gained SUB_BEAT_OF Contract-6 exemption. Backup: `_regrounding/edges-pre-graph-cleanup-2026-06-14T15-26-24.jsonl`. Verification: `--health` clean (62 orphans, −1), pytest 1144 pass + 3 documented pre-existing failures only.
-- **Minor look-at-twice:** `death-of-joffrey-baratheon LOCATED_AT red-keep` edge carries the Olenna-wine quote instead of a location line (cosmetic; correct target/tier).
-
-**New standing rules (S96):** (1) **Capture load-bearing quotes during research** — FIRM rule, any time a session is in chapter/wiki text for ANY purpose (researched or happenstance) and finds a quotable death/feast/description/dialogue/prophecy line, attach it to the graph (edge `evidence_quote` or node `## Quotes`) before moving on; lightweight `working/quote-capture-queue.md` backlog allowed when full inline capture would derail the task. Memory `feedback_capture_quotes_during_research`. (2) **Arc parent-shape** — arc parent = NEW `event.conspiracy` hub WRAPPING the existing event hub (event becomes one sub-beat); pre/post-event beats attach to the conspiracy, in-feast beats to the event (scope test). Memory `project_narrative_arc_reification`.
-
-**What's next (dip-driven sequencing):**
-- → **NEW Track 7** alias-resolver fix — the dip's PRIMARY, highest-leverage $0/deterministic move (~4/10→~7/10); makes the just-shipped Trident/Joffrey arcs findable by natural phrasing. Recommend NEXT, ahead of arc-minting. Needs a continue prompt. (**Sonnet 4.6**)
-- → followup #9 historical structural-attachment — dip's secondary, ungated. (**Sonnet 4.6**)
-- → narrative-arc wave 1 — **DRAFTS STAGED FOR MATT REVIEW (S96, 2026-06-14):** `curation/narrative-arc-wave1-red-wedding-draft-2026-06-14.md` (proposes `red-wedding-conspiracy` parent, 5 new mints + 22 edges) + `curation/narrative-arc-wave1-joffrey-draft-2026-06-14.md` (proposes `joffrey-poisoning-conspiracy` parent, 4 new nodes + 18 edges). Both are DRAFT-ONLY (nothing minted). Each has open design Qs for Matt (arc boundaries; a vocab gap — no role type for Sansa's "unwitting instrument"). After Matt's review → a mint session applies them (S95-style). Track 7 resolver fix landed first so new arcs are discoverable.
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive020 = S92–95 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-15 (refreshed after S100)  
+**Generated:** 2026-06-16 (refreshed after S101)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| *(none live)* | — | — | **No actionable track** | — | Next track (narrative-arc wave 1) is gated on Matt's 3 decisions — parked in `archive/`. Restore when Matt decides. |
+| `2026-06-16-next-move-decisions.md` | 2026-06-16 | Next-move decisions (4) | **LIVE** | Sonnet 4.6 | Opens next session by asking Matt to resolve 4 decisions: PRECEDES/FOLLOWS vocab+grouping · causal TRIGGERS sign-off · dating leftovers · Fable nomenclature+repo-reorg. Detail: `working/next-move-decisions-2026-06-16.md`. |
 
 ---
 
@@ -37,9 +37,12 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open thread right now (no live track)
+## Open thread right now (ONE live track)
 
-**Nothing is fire-ready.** The next recommended track — **narrative-arc wave 1 mint** — is **gated on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN vocab); its prompt is parked in `archive/2026-06-15-arc-wave1-mint.md`, restore to live when Matt decides. Optional/low: historical-anchor #9 wave 3 (deep-lore wiki-only set; `siege-of-storms-end` cluster needs dedup first).
+**LIVE: `2026-06-16-next-move-decisions.md`** — a decision-triage prompt: next session OPENS by asking Matt to
+resolve the 4 open decisions (PRECEDES/FOLLOWS vocab+grouping · causal TRIGGERS sign-off · dating leftovers ·
+Fable nomenclature+repo-reorg), then executes whichever he picks. This is the single actionable next thing;
+each underlying track becomes its own prompt once Matt chooses it. Full menu: `working/next-move-decisions-2026-06-16.md`.
 
-*Parked in `archive/` (restore when next, not deleted): arc-wave1-mint (gated on Matt's 3 decisions), edge-modeling-plate-4 Track B (backlog).*
+*Parked in `archive/` (restore when next, not deleted): arc-wave1-mint (gated on Matt's 3 decisions — de-prioritized AGAIN by the S101 dip re-run), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94), deferred-structural-restructures (S93), repo-audit-reconciliation (S92).*
