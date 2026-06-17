@@ -28,13 +28,13 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 ## Current State
 
-### STATUS — at a glance (verified 2026-06-16, S102)
+### STATUS — at a glance (verified 2026-06-17, S104)
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
 - Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,518** (events 585; excl. `_conflicts/` staging)
 - Entity + chapter indexes: **all 21 categories** (S72)
-- Edge layer LIVE: **`graph/edges/edges.jsonl` = 21,993 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + deception pilots → S93 Wyman + Jaime restructures → S94 infobox merge +17,006 wiki-infobox → S96 graph-cleanup +59 (FIX-22 + plate5 + 27 S95 edges incl. first narrative-arc reification `incident-at-the-trident`) → S97 historical-anchor #9 wave 1 +121: 8 isolated R+L=J/Robert's-Rebellion hubs attached → **S100 historical-anchor #9 wave 2 +43: 4 WO5K hubs attached (siege-of-riverrun 2→13, battle-of-the-camps 1→12, melee-at-bitterbridge 0→14, battle-of-oxcross 1→8)**). Node connectivity **~71%**. **6 evidence kinds** (incl. **`wiki-historical-anchor`** Tier-2, ~29 total after S100 +10): wiki-infobox 17,006 / book-pass1 ~3,996 / book-pass1-reified 897 / plate4-wiki-cluster 51 / book-curator 11 / wiki-historical-anchor ~29.
+- Edge layer LIVE: **`graph/edges/edges.jsonl` = 22,169 cited edges** (deterministic core v1.3 → Plate 5 reification S87 → S91 renames + deception pilots → S93 Wyman + Jaime restructures → S94 infobox merge +17,006 wiki-infobox → S96 graph-cleanup +59 → S97 historical-anchor #9 wave 1 +121 → S100 historical-anchor #9 wave 2 +43 → **S104 +176: PRECEDES temporal-ordering edges (174, derived-chronology) + 2 causal CAUSES pilot edges (Trident→Sack→Coronation)**). Node connectivity **~71%**. **7 evidence kinds** (incl. **`derived-chronology`** Tier-3 NEW S104, 174; **`wiki-historical-anchor`** Tier-2 ~29): wiki-infobox 17,006 / book-pass1 ~3,996 / book-pass1-reified 897 / derived-chronology 174 / plate4-wiki-cluster 51 / wiki-historical-anchor ~29 / book-curator 11 (+2 causal-curator-pilot). **127 edge types** (PRECEDES + CAUSES now have instances). Vocab **167** (PRECEDES added S104).
 - S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script.
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 - **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
@@ -43,10 +43,12 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - **Orchestration/pacer + script consolidation DONE (S98+S99)**: `scripts/pace.py` v1 (backfill+report-only) + telemetry ledger (`working/telemetry/`, 476 work rows + 8 wall events / 9 tracks) + `scripts/worker-template.py` (M1/M2/M4) + `longrun.sh` supervisor (S97). **S99 cleanup:** 30 one-offs/wrappers `git mv`→`scripts/archive/` (32 total); 9 frozen CSVs→`_archive/`; `weirwood graph/resolve/refresh` aliased (+ `scripts/weirwood-refresh.sh`); `scripts/README.md` rewritten as universal index (Class A/B/C/D + provenance, all 124 live + 32 archived covered); design §0 fully BUILT. pytest 1231 pass / 3 documented fails.
 
 **IN FLIGHT**
-- (none — S102 endsession complete.) **S102 FINISHED Track 3 (dating leftovers):** 5 spans dated via `ac_year_end` (+1 single-year first-blackfyre) + `long-night` null/`relative-only`; **10 mistyped year-page nodes DELETED** (8,528→8,518); vocab-count test reconciled 163→166. **3 next-move decisions remain** (#1 PRECEDES/FOLLOWS · #2 causal TRIGGERS · #4 Fable) — see NEXT TRACK banner. Event nodes with `occurred:` 112→118.
+- (none — S104 endsession complete.) **S104 closed both remaining next-move decisions:** #1 `PRECEDES` ordering edges SHIPPED (174, deterministic); #2 causal pilot SHIPPED small (2 `CAUSES` edges, Trident→Sack→Coronation, subagent-verified). The next-move-decisions prompt is fully consumed → archived. New live track = causal-edges + spark-node minting (see NEXT TRACK).
 
-**NEXT TRACK (S102 → S103)**
-- **START AT `progress/continue-prompts/2026-06-16-next-move-decisions.md` (LIVE, Sonnet 4.6).** S102's advisory board (4 lenses) picked **Track 3 (dating leftovers) — now DONE.** The board's endorsed roadmap for the remaining decisions: **#1 ordering → #2 causal pilot → #4 Fable.** **3 next-move decisions remain, all Matt's:** (1) `PRECEDES`/`FOLLOWS` — needs vocab-add OK (D3, currently absent from vocab) + grouping basis (0 dated events share a `PART_OF` parent; same-year would lean on `narrative_first`) · (2) causal `TRIGGERS` — **already in vocab** (no add), needs sign-off on the Robert's Rebellion pilot (Harrenhal→Trident→Sack→Tower of Joy; interpretive/pollution-sensitive) · (3) Fable cleanup — nomenclature scheme (`working/nomenclature-reform-proposal.md`) + repo-reorg (`working/repo-reorg-plan-2026-06-12.md`). Full menu: `working/next-move-decisions-2026-06-16.md` (#3 struck).
+**NEXT TRACK (S104 → S105)**
+- **START AT `progress/continue-prompts/2026-06-17-causal-edges-and-spark-nodes.md` (LIVE, Sonnet 4.6 + fresh-subagent verify).** Continuation of decision #2: mint the 3 missing Robert's Rebellion spark-beat nodes (`abduction-of-lyanna`, `execution-of-brandon-and-rickard-stark`, `aerys-demands-ned-and-robert`) from local-source evidence → rebuild indexes/alias-resolver (node ADD) → wire the full causal chain as `TRIGGERS` at beat granularity. Then scale to other historical hubs. **Verification model (Matt S104, FIRM):** interpretive/causal edges are checked by fresh subagents against the LOCAL wiki/book cache; Matt gates at policy level, not per-edge. This is the narrative-arc-reification pattern (`project_narrative_arc_reification`) on a historical arc.
+- Background task spawned: fix 9 inverted `PART_OF` (war→battle) edges on `roberts-rebellion`, audit graph-wide + check the emitter (`task_e0a62b08`).
+- Still parked (restore from `archive/` when next): arc-wave1 mint (gated on Matt's 3 decisions); Fable repo-reorg (`working/repo-reorg-plan-2026-06-12.md`); 2 narrow vocab follow-ups (todos: live non-confidence "Tier"→class/level; pull-channel pointer in ~8 agents).
 - **narrative-arc wave 1 mint** — RECOMMENDED NEXT, but **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `progress/continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy S99); restore to live when Matt decides. (**Sonnet 4.6**)
 - historical-anchor #9 **wave 3 (optional, low)** — deep-lore wiki-only set (approach b); `siege-of-storms-end` cluster needs dedup first. Defer until a dip shows demand. Wave-2 prompt archived S100.
 - Loose end: wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in (in todos).
@@ -249,6 +251,23 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 104 — PRECEDES ordering edges + causal CAUSES pilot (the 2 remaining next-move decisions) (2026-06-17)
+**Detail:** `history/session-details/session-104.md`
+**Model:** Opus 4.8 orchestrator + 1 fresh `general-purpose` verification subagent. **Commit:** this endsession commit.
+
+**Changes made (edges + vocab + docs; +176 edges):**
+- **Decision #1 — `PRECEDES` ordering edges SHIPPED.** Added `PRECEDES` only to the locked vocab (new "Temporal & Sequencing" subsection in `architecture.md`; `FOLLOWS`/`OCCURRED_IN_YEAR` deliberately NOT added); vocab **166 → 167**, both count-tests updated. New `scripts/build-precedes-edges.py` → **174 edges** (17 same-book narrative + 157 cross-year), Tier-3, `evidence_kind: derived-chronology` (7th kind), `typed_by: python-chronology-chain`, each tagged `order_basis`. Basis: global year-chain by `occurred.ac_year`; same-year tiebreak by `narrative_first` but **restricted to same-book** (reading-order proxy inverts cross-book — caught + fixed the wrong `red-wedding→renly-wedding` edge). Unit model (each `(year,book)` nf-run = a unit, bridged cross-year to adjacent-year reps) keeps all 117 events in one connected timeline; also fixed consecutive-floater-year ordering.
+- **Decision #2 — causal pilot SHIPPED (small).** 2 `CAUSES` edges (Tier-2, `candidate_kind: causal-curator-pilot`): `battle-of-the-trident → sack-of-kings-landing → coronation-of-robert-i-baratheon`. Typed `CAUSES` not `TRIGGERS` (coarse battle-node granularity; the specific spark = Tywin's gate-opening, no node). Both `verified_by` a fresh subagent against the local cache; EDGE 2 re-cited to `Coronation_of_Robert_I_Baratheon` per the verdict.
+- `edges.jsonl`: **21,993 → 22,169**; edge types 125 → **127**; orphans **62 unchanged**. Backups: `_regrounding/edges-pre-{precedes,causal-pilot,recite}-2026-06-17.jsonl`. pytest 1297 pass / 1 documented `cwd-is-tmp` fail.
+
+**Decisions:**
+- Matt picked **#1 first**, then **#2**. #1 sub-calls: PRECEDES-only / global-year-chain / P2-floater-bridged / **same-book narrative only** (chosen after a fresh-eyes case showed `narrative_first` inverts across books). #2: emit as **CAUSES** (not TRIGGERS — overclaims at this granularity); **defer** minting the 3 Rebellion spark-beat nodes (abduction/executions/demand) to a dedicated track. **NEW standing method (Matt):** interpretive/causal edges are verified by **fresh subagents against the LOCAL wiki/book cache** — Matt gates at policy level, not per-edge (memory `feedback_subagent_verify_not_matt`). Unblocks scaling causal work.
+
+**What's next:**
+- → **Causal-edges + spark-node track (LIVE):** mint the 3 missing Rebellion beat-nodes (local-source evidence) → index/alias rebuild → wire the full chain as `TRIGGERS` at beat granularity, under the subagent-verification gate. Narrative-arc-reification pattern on a historical arc. `progress/continue-prompts/2026-06-17-causal-edges-and-spark-nodes.md` (**Sonnet 4.6** + subagent verify).
+- Background task spawned: fix 9 inverted `PART_OF` (war→battle) edges on `roberts-rebellion` graph-wide (`task_e0a62b08`).
+- Still parked: arc-wave1 mint (gated on Matt's 3 decisions); Fable repo-reorg; 2 vocab follow-ups (todos).
+
 ### Session 103 — Fable cleanup: canonical vocabulary DECIDED (3 terms, not 6) (2026-06-16)
 **Detail:** `history/session-details/session-103.md`
 **Model:** Opus 4.8 (1M context) orchestrator + 4 parallel Sonnet 4.6 `general-purpose` advisors (minimalist / empirical / mechanism / ROI-skeptic). **Commit:** this endsession commit.
@@ -323,28 +342,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - → historical-anchor #9 **wave 3 (optional, low priority):** the deep-lore wiki-only set (Doom of Valyria, Blackfyre Rebellions, etc.) is approach (b) — pure `wiki-historical-anchor`, defer until a dip shows agents asking about them. `siege-of-storms-end` cluster needs dedup first.
 - → Track 6 script consolidation: the 3 `historical-anchor-*.py` scripts are one-offs to fold into the `weirwood` CLI per Matt's directive.
 
-### Session 99 — Script consolidation Session 2: archive one-offs + weirwood CLI aliasing + README refresh (2026-06-15)
-**Detail:** `history/session-details/session-099.md`
-**Model:** Opus 4.8 (1M context) — mechanical work (continue prompt recommended Sonnet 4.6; Opus was the active session). **Commit:** this endsession commit.
-
-**Changes made:**
-- **Archived 30 scripts** `git mv` → `scripts/archive/` (24 verified-safe early Stage-4 `classify-*`/`temp-*` one-offs + `stage4-haiku-smoke-prep.py` sibling + `migrate-stats-csv.py` + 4 shelved wrappers: `stage4-haiku-run-forever.sh`, `stage4-haiku-loop.sh`, `stage4-tail-bulk-forever.sh`, `stage4-events-bulk-run.sh`). **KEPT** `stage4-run-forever.sh` (proven ref) + `edge-reify-run-forever.sh` (registry PLANNED) + 27 comention scripts. Archive now 32 files.
-- **9 frozen stats CSVs** `git mv` → `working/extraction-stats/_archive/` (Pass 1 = 344/344; nothing appends). Added `_archive/` read-fallback to `pace.py backfill`, `extract.sh status`, `wiki-pass2.sh` cost glob so nothing silently degrades; fixed 2 `test_pace.py` skip-guards (suite back to 0 skips).
-- `scripts/extract.sh` — de-referenced `migrate-stats-csv.py` call (one-time migration complete; breadcrumb comment).
-- **NEW** `scripts/weirwood-refresh.sh` (rebuild all 17 entity-index types + character indexes + alias resolver; `--check` staleness warn per §13 S8). Wired `weirwood graph`/`resolve`/`refresh` into `scripts/weirwood.zsh` + help text on running any script under longrun.
-- `scripts/weirwood-run.sh` — 3 archived-wrapper paths → `scripts/archive/`; header rewritten.
-- `scripts/README.md` — **rewritten as universal index**: Class (A/B/C/D) column + `Added` git-date provenance + invocation + §11.5 new-script checklist. Existence-truth: all 124 live + 32 archived scripts have a row.
-- `working/orchestration-pacer-design-2026-06-15.md` §0 — 4 Session-2 rows flipped to **BUILT S99** (file + verification); banner → BUILT; CSV-quirk RESOLVED; corrected "484 rows" → 476 work rows + 8 wall events.
-
-**Decisions:** Three Matt-decisions (AskUserQuestion, all "Recommended"): de-reference+archive `migrate-stats-csv.py`; archive frozen CSVs to `_archive/`; archive the 4 shelved wrappers + update registry. One cross-scope judgment call flagged: the moved CSVs are read by 3 living status commands → added read-only `_archive/` fallbacks rather than accept silent degradation. pytest **1231 pass / 3 documented pre-existing fails** (vocab 166≠163 ×2; cwd-is-tmp), 0 skips. Orchestration/pacer track (design §0) now fully BUILT.
-
-**What's next:**
-- → **historical-anchor #9 wave 2** — `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (**Sonnet 4.6**).
-- → **narrative-arc wave 1 mint** — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy, Matt S99); restore when decided. (**Sonnet 4.6**)
-- Loose end (todos): wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in.
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive021 = S97–S98 (current, 2/5) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive021 = S97–S99 (current, 3/5) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

@@ -22,13 +22,14 @@ class TestLoadCanonicalVocab(unittest.TestCase):
     description prose. The fix was a stricter regex matching only
     table-row keys. These tests freeze that contract."""
 
-    def test_parses_real_architecture_at_166(self):
+    def test_parses_real_architecture_at_167(self):
         """Vocab count history: S63 = 163 (KNOWS deprecated); S82–S87 reification
-        added AGENT_IN, VICTIM_IN, SUB_BEAT_OF → 166 (reconciled S102 2026-06-16)."""
+        added AGENT_IN, VICTIM_IN, SUB_BEAT_OF → 166 (reconciled S102 2026-06-16);
+        S104 (2026-06-17) added PRECEDES (temporal ordering edges) → 167."""
         vocab = validator.load_canonical_vocab(REPO_ROOT / "reference/architecture.md")
         # Current canonical count; if vocab changes again, update this number.
-        self.assertEqual(len(vocab), 166,
-                         f"Expected 166 canonical edge types, got {len(vocab)}. "
+        self.assertEqual(len(vocab), 167,
+                         f"Expected 167 canonical edge types, got {len(vocab)}. "
                          f"Update this test if vocab has changed.")
 
     def test_excludes_deprecated_synonyms(self):

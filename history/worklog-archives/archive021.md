@@ -1,6 +1,26 @@
-# Worklog Archive 021 — Sessions 97–
+# Worklog Archive 021 — Sessions 97–99
 
-> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 97 archived 2026-06-16 (Session 102 endsession); Session 98 archived 2026-06-16 (Session 103 endsession).
+> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 97 archived 2026-06-16 (Session 102 endsession); Session 98 archived 2026-06-16 (Session 103 endsession); Session 99 archived 2026-06-17 (Session 104 endsession).
+
+### Session 99 — Script consolidation Session 2: archive one-offs + weirwood CLI aliasing + README refresh (2026-06-15)
+**Detail:** `history/session-details/session-099.md`
+**Model:** Opus 4.8 (1M context) — mechanical work (continue prompt recommended Sonnet 4.6; Opus was the active session). **Commit:** this endsession commit.
+
+**Changes made:**
+- **Archived 30 scripts** `git mv` → `scripts/archive/` (24 verified-safe early Stage-4 `classify-*`/`temp-*` one-offs + `stage4-haiku-smoke-prep.py` sibling + `migrate-stats-csv.py` + 4 shelved wrappers: `stage4-haiku-run-forever.sh`, `stage4-haiku-loop.sh`, `stage4-tail-bulk-forever.sh`, `stage4-events-bulk-run.sh`). **KEPT** `stage4-run-forever.sh` (proven ref) + `edge-reify-run-forever.sh` (registry PLANNED) + 27 comention scripts. Archive now 32 files.
+- **9 frozen stats CSVs** `git mv` → `working/extraction-stats/_archive/` (Pass 1 = 344/344; nothing appends). Added `_archive/` read-fallback to `pace.py backfill`, `extract.sh status`, `wiki-pass2.sh` cost glob so nothing silently degrades; fixed 2 `test_pace.py` skip-guards (suite back to 0 skips).
+- `scripts/extract.sh` — de-referenced `migrate-stats-csv.py` call (one-time migration complete; breadcrumb comment).
+- **NEW** `scripts/weirwood-refresh.sh` (rebuild all 17 entity-index types + character indexes + alias resolver; `--check` staleness warn per §13 S8). Wired `weirwood graph`/`resolve`/`refresh` into `scripts/weirwood.zsh` + help text on running any script under longrun.
+- `scripts/weirwood-run.sh` — 3 archived-wrapper paths → `scripts/archive/`; header rewritten.
+- `scripts/README.md` — **rewritten as universal index**: Class (A/B/C/D) column + `Added` git-date provenance + invocation + §11.5 new-script checklist. Existence-truth: all 124 live + 32 archived scripts have a row.
+- `working/orchestration-pacer-design-2026-06-15.md` §0 — 4 Session-2 rows flipped to **BUILT S99** (file + verification); banner → BUILT; CSV-quirk RESOLVED; corrected "484 rows" → 476 work rows + 8 wall events.
+
+**Decisions:** Three Matt-decisions (AskUserQuestion, all "Recommended"): de-reference+archive `migrate-stats-csv.py`; archive frozen CSVs to `_archive/`; archive the 4 shelved wrappers + update registry. One cross-scope judgment call flagged: the moved CSVs are read by 3 living status commands → added read-only `_archive/` fallbacks rather than accept silent degradation. pytest **1231 pass / 3 documented pre-existing fails** (vocab 166≠163 ×2; cwd-is-tmp), 0 skips. Orchestration/pacer track (design §0) now fully BUILT.
+
+**What's next:**
+- → **historical-anchor #9 wave 2** — `progress/continue-prompts/2026-06-15-historical-anchor-wave2.md` (**Sonnet 4.6**).
+- → **narrative-arc wave 1 mint** — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy, Matt S99); restore when decided. (**Sonnet 4.6**)
+- Loose end (todos): wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in.
 
 ### Session 98 — Script consolidation Session 1: orchestration/pacer BUILT + design-doc anti-drift convention (2026-06-15)
 **Detail:** `history/session-details/session-098.md`
