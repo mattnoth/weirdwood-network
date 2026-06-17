@@ -49,8 +49,9 @@
   TYPE_DIR_MAP). The dip's Q4 ("what happened in 283 AC") tripped on this.
 
 ## 4. Fable cleanup — the original loose end (your S100 observation)
-- **Nomenclature sweep** (the "track/plate" verbiage) — GATED on you picking a scheme from
-  `working/nomenclature-reform-proposal.md`.
+- ~~**Nomenclature sweep**~~ — ✅ **DONE S103.** Matt rejected the 6-term proposal as overkill → canon is
+  **3 terms (Pass/Track/Tier) + lowercase `step`**, landed in `reference/glossary.md` + CLAUDE.md stub. The full
+  retroactive doc-sweep was DECLINED as churn; 2 narrow follow-ups queued in todos (Tier-rename; agent pointers).
 - **Repo / working-dir reorg** — plan exists at `working/repo-reorg-plan-2026-06-12.md` ("plan only, no moves");
   never executed. Risk-ordered sequencing inside.
 - Both were delivered by the Fable audit as proposals only; neither was ever executed.

@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-16-next-move-decisions.md` | 2026-06-16 | Next-move decisions (3 remain) | **LIVE** | Sonnet 4.6 | Track 3 (dating leftovers) **DONE S102** via advisory board. Opens next session by asking Matt to resolve the **3 remaining**: #1 PRECEDES/FOLLOWS vocab+grouping · #2 causal TRIGGERS sign-off (already in vocab) · #4 Fable nomenclature+repo-reorg. Board roadmap: #1→#2→#4. Detail: `working/next-move-decisions-2026-06-16.md`. |
+| `2026-06-16-next-move-decisions.md` | 2026-06-16 | Next-move decisions (2 remain) | **LIVE** | Sonnet 4.6 | Track 3 (dating) **DONE S102**; Fable **nomenclature DONE S103** (3-term canon, `reference/glossary.md`). Opens next session by asking Matt to resolve the **2 remaining**: #1 PRECEDES/FOLLOWS vocab+grouping · #2 causal TRIGGERS sign-off (already in vocab). Board order #1→#2. Lower-priority leftovers: Fable repo-reorg + 2 vocab follow-ups (todos). Detail: `working/next-move-decisions-2026-06-16.md`. |
 
 ---
 
@@ -39,11 +39,13 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ## Open thread right now (ONE live track)
 
-**LIVE: `2026-06-16-next-move-decisions.md`** — a decision-triage prompt: **Track 3 (dating leftovers) is DONE
-(S102, advisory-board pick).** Next session OPENS by asking Matt to resolve the **3 remaining** open decisions
-(#1 PRECEDES/FOLLOWS vocab+grouping · #2 causal TRIGGERS sign-off · #4 Fable nomenclature+repo-reorg), then
-executes whichever he picks. Board roadmap: #1→#2→#4. This is the single actionable next thing; each underlying
-track becomes its own prompt once Matt chooses it. Full menu: `working/next-move-decisions-2026-06-16.md`.
+**LIVE: `2026-06-16-next-move-decisions.md`** — a decision-triage prompt: **Track 3 (dating) DONE (S102);
+Fable nomenclature DONE (S103 — 3-term canon in `reference/glossary.md`, full doc-sweep declined as churn).**
+Next session OPENS by asking Matt to resolve the **2 remaining** open decisions (#1 PRECEDES/FOLLOWS
+vocab+grouping · #2 causal TRIGGERS sign-off), then executes whichever he picks. Board order #1→#2.
+Lower-priority leftovers (not on the path): Fable repo-reorg half + 2 narrow vocab follow-ups (todos).
+This is the single actionable next thing; each underlying track becomes its own prompt once Matt chooses it.
+Full menu: `working/next-move-decisions-2026-06-16.md`.
 
 *Parked in `archive/` (restore when next, not deleted): arc-wave1-mint (gated on Matt's 3 decisions — de-prioritized AGAIN by the S101 dip re-run), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94), deferred-structural-restructures (S93), repo-audit-reconciliation (S92).*

@@ -132,6 +132,17 @@ asoiaf-chat/
 - **Confidence tiers:** Tier 1 (verified canon) through Tier 5 (crackpot) — tag everything
 - **Agents propose, Matt decides** — analytical findings go to `curation/candidates.md`, not directly into the graph
 
+## Vocabulary (canonical — DECIDED 2026-06-16, S103)
+
+Use these words for **new** work. Full definitions + the retired-term decode list: `reference/glossary.md`.
+
+- **Pass** — a big numbered sweep over the whole book corpus (Passes 1–6). Grandfathered.
+- **Track** — a *named* chunk of work toward one deliverable (e.g. *the infobox-merge track*). Never lettered/numbered as its identifier — use the name.
+- **step** (lowercase) — an ordered piece inside a Track ("step 2 of the X track"). Replaces the old Stage/Plate/Phase/Wave habit — don't mint a fresh word when you sequence work.
+- **Tier** — confidence rating **1–5 only**. Never used for work or process (it's stamped on the data — a stray meaning corrupts the graph). Other graded systems use class/level/priority.
+
+Rules: adding a new capitalized term needs a worklog Active Decision; version numbers attach only to artifacts (prompt v5, `edges.jsonl` v1.3), never to efforts. Retired terms (Stage/Plate/Mode/Wave/Bucket/Phase, letter-tracks) are valid only when citing past sessions. Script/skill/command names are exempt. **When you spawn a subagent that will name a Track, number steps, or label a sequence, paste these terms into its prompt** — subagents don't load this file.
+
 ## Working Directory
 
 `working/` is the scratchpad for active in-progress work. Frozen historical records (session details, worklog archives, retired sketches) live under top-level `history/`, not here.

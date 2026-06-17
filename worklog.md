@@ -55,7 +55,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 **GATED / QUEUED**
 - Design-doc consolidation build (~3-4 sessions) — GATED on Matt's Option A/B/C pick
-- Nomenclature sweep — GATED on Matt's scheme pick
+- Nomenclature: **scheme DECIDED S103** (3 terms — Pass/Track/Tier + lowercase `step`; `reference/glossary.md`). Full retroactive sweep DECLINED as churn; 2 narrow follow-ups queued in todos (rename live non-confidence "Tier"→class/level; pull-channel pointer in ~8 live agents)
 - Repo-reorg P1/P2 (~1-1.5 sessions) — per `working/repo-reorg-plan-2026-06-12.md`
 - Backfill Tracks A/B/C (~$25–75) — gated on what the Mode 3 dip reveals
 - Events-Haiku 1,617 typed rows + Dialogue tail — SHELVED (absorbed into backfill Track B)
@@ -105,6 +105,17 @@ This is your project memory. When you come back after a break, **STATUS — at a
 ## Active Decisions
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
+
+### DECIDED: Canonical vocabulary — 3 terms, not 6 (2026-06-16, S103 — Fable cleanup, nomenclature half)
+- **Decision (Matt, after a 4-lens advisory fan-out):** the 2026-06-12 six-term proposal was **rejected as overkill** ("six is too many, I don't know what they mean"). The empirical advisor measured living docs and found the famous collisions are mostly already tidied (S99/S101/S102) — the only genuine live ambiguity was **Track** (number-vs-letter), plus one *data* hazard (**Tier** overloading). So the canon is **three capitalized terms + one default lowercase word**:
+  - **Pass** — big numbered corpus sweeps (1–6), grandfathered (baked into pipeline/`extractions/`).
+  - **Track** — a *named* workstream toward a deliverable; the lettered/numbered idiom (`Track A/B/C`) is **retired going forward**, use the name.
+  - **step** (lowercase) — ordered piece inside a Track; **replaces** the Stage/Plate/Phase/Wave proliferation.
+  - **Tier** — confidence **1–5 only**; never work/process/promotion-class/qualifier-level (stamped on data → stray meaning = graph corruption). This is the one rule with teeth.
+- **Landed this session:** `reference/glossary.md` (canonical forward vocab + retired-term decode + the consistency mechanism) + `CLAUDE.md` "## Vocabulary" stub (with the "paste terms into naming/sequencing subagents" instruction) + memory `feedback_vocabulary_canon` + this entry. The 2026-06-12 six-term proposal got a superseded preamble.
+- **The mechanism (Matt's "keep it consistent + give it necessary info"):** one source of truth (`reference/glossary.md`); orchestrator gets it via CLAUDE.md every session; **subagent gap** closed by **push** (orchestrator pastes vocab into naming/sequencing subagent prompts — the only channel for `claude -p` cwd=/tmp workers) + **pull** (queued: one-line pointer in live `.claude/agents/*` defs). Grep linter **deferred** until drift recurs.
+- **NOT done (deliberately): the ~175–250-edit retroactive doc sweep** — judged churn-for-tidiness (re-creates the S102 "timestamp diffs bury the real change" problem); the history glossary decodes old docs, we move forward. **Queued narrow follow-ups** in todos: rename live non-confidence "Tier" uses → class/level (the only data-error fix); add the pull-channel pointer to ~8 live agents.
+- **Repo-reorg half of the Fable decision NOT taken up** (Matt picked nomenclature only). Mostly overtaken by S99/S101 hygiene; remaining leftovers + deferred MATT register stay in `working/repo-reorg-plan-2026-06-12.md`.
 
 ### DECIDED: Infobox-structural wiki edges greenlit for merge (2026-06-11, Fable audit)
 - **Decision (Matt, `working/reply-to-audit-session-2026-06-11.md`):** merge the wiki infobox-structural layer (~20,614 parsed relationship rows in `working/wiki/data/infobox-data.jsonl`) into `graph/edges/` as deterministic edges — **Tier 2 maximum, never Tier 1** (Tier 1 stays earned-by-book-quote), `evidence_kind: wiki-infobox`, `typed_by: python-infobox-map`, cite `wiki:<Page>`. ~18-19k edges expected after filtering multi-value speculative fields (Jon's two listed mothers) and Unknown/None/Extinct targets; folds in 2 hygiene fixes (115 orphan endpoint slugs, 948 role edges missing `typed_by`/file:line). Moves node connectivity 14.7% → ~72%.
@@ -238,6 +249,26 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 103 — Fable cleanup: canonical vocabulary DECIDED (3 terms, not 6) (2026-06-16)
+**Detail:** `history/session-details/session-103.md`
+**Model:** Opus 4.8 (1M context) orchestrator + 4 parallel Sonnet 4.6 `general-purpose` advisors (minimalist / empirical / mechanism / ROI-skeptic). **Commit:** this endsession commit.
+
+**Changes made (additive docs only, +33/−3, no code/graph change):**
+- **NEW `reference/glossary.md`** — canonical forward vocabulary + retired-term decode + the consistency mechanism + queued follow-ups.
+- `CLAUDE.md` — NEW `## Vocabulary` stub (3 terms + `step`) with the "paste terms into naming/sequencing subagents" instruction (closes the subagent-doesn't-load-CLAUDE.md gap = the "give it necessary info" answer).
+- `working/nomenclature-reform-proposal.md` — superseded preamble (the 6-term scheme is no longer live).
+- **NEW memory `feedback_vocabulary_canon`** (+ MEMORY.md index). `working/todos.md` — scheme marked DONE + 2 narrow follow-ups queued. Current State GATED line updated.
+
+**Decisions:**
+- Matt rejected the 2026-06-12 **six-term** scheme as overkill ("six is too many, I don't know what they mean") and ran a 4-lens advisory fan-out. Result: **3 capitalized terms + 1 lowercase word** — **Pass** (grandfathered numbered corpus sweeps) · **Track** (named workstream; lettered idiom retired) · **step** (lowercase, ordered sub-unit; replaces Stage/Plate/Phase/Wave) · **Tier** (confidence **1–5 only**, never work/process — the one rule with teeth, since Tier is stamped on edge data). Empirical advisor confirmed the famous collisions are mostly already tidied (S99/S101/S102); the only live ambiguity was Track, the only data hazard was Tier overload.
+- **Full ~175–250-edit retroactive doc sweep DECLINED** as churn-for-tidiness (re-creates the S102 "timestamp diffs bury the real change" problem). History glossary decodes old docs; move forward. Two narrow follow-ups queued instead: rename live non-confidence "Tier"→class/level (the only data-error fix); pull-channel pointer in ~8 live agents. Grep linter deferred until drift recurs.
+- **Mechanism** (Matt's "keep it consistent + give it necessary info"): one source of truth (`reference/glossary.md`) + CLAUDE.md stub + **push** (orchestrator pastes vocab into naming/sequencing subagent prompts) + **pull** (queued agent-def pointers). Reuses existing vocab-lockdown / drift-detection patterns, no new infra.
+- **Repo-reorg half of Fable cleanup NOT taken up** (Matt's scope choice); mostly overtaken by S99/S101 hygiene anyway.
+
+**What's next** — 2 of the 3 next-move decisions remain, both Matt's (board order #1 → #2):
+- → **#1 `PRECEDES`/`FOLLOWS`** — needs vocab-add OK (D3; absent from vocab; bumps the 166 count) + grouping basis (0 dated events share a `PART_OF` parent). $0 deterministic.
+- → **#2 causal `TRIGGERS`** — already in vocab; needs sign-off on the Robert's Rebellion pilot (interpretive/pollution-sensitive). Continue: `progress/continue-prompts/2026-06-16-next-move-decisions.md` (**Sonnet 4.6**).
+
 ### Session 102 — Advisory board → Track 3 dating-leftovers finished + vocab-test reconcile (2026-06-16)
 **Detail:** `history/session-details/session-102.md`
 **Model:** Opus 4.8 (1M context) orchestrator + 4 parallel Sonnet 4.6 `general-purpose` advisors. **Commit:** this endsession commit.
@@ -312,30 +343,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - → **narrative-arc wave 1 mint** — **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy, Matt S99); restore when decided. (**Sonnet 4.6**)
 - Loose end (todos): wire `weirwood refresh --check` into a git pre-commit hook (design §13 S8) — needs Matt's workflow buy-in.
 
-### Session 98 — Script consolidation Session 1: orchestration/pacer BUILT + design-doc anti-drift convention (2026-06-15)
-**Detail:** `history/session-details/session-098.md`
-**Model:** Opus 4.8 (orchestrator + direct verification) + script-builder subagent (the build). **Commit:** this endsession commit.
-
-**Changes made:**
-- **NEW** `scripts/pace.py` (Class A-pacer; v1 report-only): `backfill` normalizes 6 heterogeneous stat schemas → per-track `working/telemetry/<track>.jsonl`; `report` prints per-`(track,model,unit_type)` baselines + conservative `LONGRUN_SLEEP_BETWEEN=600` + honest M3 wall-cadence disclaimer; `emit_telemetry_row()` importable helper. **NO ETA/headroom/concurrency in v1** (wall data too thin, §13 M3).
-- **NEW** `working/telemetry/` — backfilled ledger: 484 rows / 9 tracks (pass1-{agot,acok,asos,affc,adwd}, wiki-pass2-{core,secondary}, stage4-{haiku,v1-bulk-sonnet}) + 2 `.walls.jsonl` sidecars. Dup-race deduped (`acok-davos-02` kept 247s row, dropped 6s placeholder).
-- **NEW** `scripts/worker-template.py` (copy-me reference worker): §4 contract + §13 M1 (positive-wall `exit(2)` only + `next-eligible`) / M2 (atomic `os.replace` + `O_EXCL` claim) / M4 (single-worker-durable v1). **NEW** `tests/test_pace.py` (40 tests).
-- `working/orchestration-pacer-design-2026-06-15.md` — Status flipped DESIGN→PARTIALLY BUILT; **NEW §0 Implementation Status table** (anti-drift seam) + CSV-quirk note.
-- `progress/continue-prompts/2026-06-15-script-consolidation.md` — Session 1 marked DONE; Session-2 carryover (CSV archival decision) + anti-drift definition-of-done gate added.
-- **NEW** memory `feedback_design_doc_implementation_status` (+ MEMORY.md index). S93 archived → `archive020.md` (now 2/5).
-
-**Decisions:**
-- **§11 open questions NOT re-asked** — design §12 already resolved them (per-track files / advisory-only / sequential-default / v1 report-only) after fresh review; continue-prompt step-2 instruction was stale (CLAUDE.md rule #9 → trusted updated doc).
-- **Verified the build directly** (not just subagent claim): grepped worker-template for M1/M2 implementation; confirmed dedup + report output. pytest **1231 pass / 3 documented pre-existing fails** (vocab 166≠163 ×2; cwd-is-tmp), was 1191.
-- **Anti-drift convention** (Matt's drift concern): design docs get a §0 Implementation Status table (BUILT/DEFERRED/DRIFT + file + test); README = existence-truth; Fable doc-truth audit checks parity; def-of-done gate. The §0 table is a convention, not code-enforced — only `weirwood refresh --check` is mechanical; Fable audit = periodic backstop.
-- **Honest scope held:** Session 2 (cleanup/CLI/README) NOT started — deferred per design §14.
-
-**What's next:**
-- → **Script consolidation Session 2** — `progress/continue-prompts/2026-06-15-script-consolidation.md` steps 5–8 (**Sonnet 4.6**): archive 24 one-offs + resolve 2 blocked; legacy-wrapper disposition (do NOT archive edge-reify); `weirwood graph/resolve/refresh` aliasing; README class/provenance refresh; CSV-archival decision; reconcile §0 anti-drift table.
-- → historical-anchor #9 wave 2 (`2026-06-15-historical-anchor-wave2.md`, Sonnet) + narrative-arc wave 1 mint (`2026-06-15-arc-wave1-mint.md`, Sonnet — GATED on Matt's 3 decisions).
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive021 = S97– (current, 1/5) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive021 = S97–S98 (current, 2/5) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

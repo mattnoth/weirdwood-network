@@ -1,6 +1,28 @@
 # Worklog Archive 021 — Sessions 97–
 
-> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 97 archived 2026-06-16 (Session 102 endsession).
+> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 97 archived 2026-06-16 (Session 102 endsession); Session 98 archived 2026-06-16 (Session 103 endsession).
+
+### Session 98 — Script consolidation Session 1: orchestration/pacer BUILT + design-doc anti-drift convention (2026-06-15)
+**Detail:** `history/session-details/session-098.md`
+**Model:** Opus 4.8 (orchestrator + direct verification) + script-builder subagent (the build). **Commit:** this endsession commit.
+
+**Changes made:**
+- **NEW** `scripts/pace.py` (Class A-pacer; v1 report-only): `backfill` normalizes 6 heterogeneous stat schemas → per-track `working/telemetry/<track>.jsonl`; `report` prints per-`(track,model,unit_type)` baselines + conservative `LONGRUN_SLEEP_BETWEEN=600` + honest M3 wall-cadence disclaimer; `emit_telemetry_row()` importable helper. **NO ETA/headroom/concurrency in v1** (wall data too thin, §13 M3).
+- **NEW** `working/telemetry/` — backfilled ledger: 484 rows / 9 tracks (pass1-{agot,acok,asos,affc,adwd}, wiki-pass2-{core,secondary}, stage4-{haiku,v1-bulk-sonnet}) + 2 `.walls.jsonl` sidecars. Dup-race deduped (`acok-davos-02` kept 247s row, dropped 6s placeholder).
+- **NEW** `scripts/worker-template.py` (copy-me reference worker): §4 contract + §13 M1 (positive-wall `exit(2)` only + `next-eligible`) / M2 (atomic `os.replace` + `O_EXCL` claim) / M4 (single-worker-durable v1). **NEW** `tests/test_pace.py` (40 tests).
+- `working/orchestration-pacer-design-2026-06-15.md` — Status flipped DESIGN→PARTIALLY BUILT; **NEW §0 Implementation Status table** (anti-drift seam) + CSV-quirk note.
+- `progress/continue-prompts/2026-06-15-script-consolidation.md` — Session 1 marked DONE; Session-2 carryover (CSV archival decision) + anti-drift definition-of-done gate added.
+- **NEW** memory `feedback_design_doc_implementation_status` (+ MEMORY.md index). S93 archived → `archive020.md` (now 2/5).
+
+**Decisions:**
+- **§11 open questions NOT re-asked** — design §12 already resolved them (per-track files / advisory-only / sequential-default / v1 report-only) after fresh review; continue-prompt step-2 instruction was stale (CLAUDE.md rule #9 → trusted updated doc).
+- **Verified the build directly** (not just subagent claim): grepped worker-template for M1/M2 implementation; confirmed dedup + report output. pytest **1231 pass / 3 documented pre-existing fails** (vocab 166≠163 ×2; cwd-is-tmp), was 1191.
+- **Anti-drift convention** (Matt's drift concern): design docs get a §0 Implementation Status table (BUILT/DEFERRED/DRIFT + file + test); README = existence-truth; Fable doc-truth audit checks parity; def-of-done gate. The §0 table is a convention, not code-enforced — only `weirwood refresh --check` is mechanical; Fable audit = periodic backstop.
+- **Honest scope held:** Session 2 (cleanup/CLI/README) NOT started — deferred per design §14.
+
+**What's next:**
+- → **Script consolidation Session 2** — `progress/continue-prompts/2026-06-15-script-consolidation.md` steps 5–8 (**Sonnet 4.6**): archive 24 one-offs + resolve 2 blocked; legacy-wrapper disposition (do NOT archive edge-reify); `weirwood graph/resolve/refresh` aliasing; README class/provenance refresh; CSV-archival decision; reconcile §0 anti-drift table.
+- → historical-anchor #9 wave 2 (`2026-06-15-historical-anchor-wave2.md`, Sonnet) + narrative-arc wave 1 mint (`2026-06-15-arc-wave1-mint.md`, Sonnet — GATED on Matt's 3 decisions).
 
 ### Session 97 — Historical-anchor #9 wave 1 SHIPPED + Orchestration/Pacer design doc (2026-06-15)
 **Detail:** `history/session-details/session-097.md`

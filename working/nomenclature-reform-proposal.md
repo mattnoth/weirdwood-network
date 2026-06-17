@@ -1,5 +1,11 @@
 # Nomenclature Reform Proposal
 
+> **⚠️ SUPERSEDED 2026-06-16 (S103).** Matt rejected this six-term scheme as overkill. The CANONICAL
+> vocabulary now lives in `reference/glossary.md`: **three** capitalized terms (Pass / Track / Tier) +
+> lowercase `step`; the full retroactive doc-sweep below was DECLINED as churn-for-tidiness. This file is
+> kept as the design record + the source of the retired-term collision map (§2), which `reference/glossary.md`
+> and `history/project-story/glossary.md` distill. Read `reference/glossary.md` for what's actually in force.
+>
 > **2026-06-12 — for Matt's decision. Proposal only; nothing has been renamed.**
 > Companion to the project-story glossary (`history/project-story/glossary.md`), which decodes
 > historical terms. This document retires the chaos *going forward*. Historical docs are never
