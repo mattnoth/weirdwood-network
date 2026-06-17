@@ -2,7 +2,7 @@
 
 > **Recommended model:** Sonnet 4.6 (curatorial/deterministic) + a fresh `general-purpose` subagent for verification. Opus only if orchestration gets hairy.
 >
-> **Status (S104, 2026-06-17):** The S104 causal pilot shipped 2 `CAUSES` edges (`battle-of-the-trident → sack-of-kings-landing → coronation-of-robert-i-baratheon`) and proved the method, but found the **spark half of Robert's Rebellion can't be expressed** — its pivotal beats have no nodes. This track mints them and wires the full chain. **This is the continuation of next-move decision #2** (decisions #1 PRECEDES + #2 causal pilot are both DONE — see worklog S104).
+> **Status (S104, 2026-06-17 — Robert's Rebellion DONE):** The pilot + the full Robert's Rebellion arc are now SHIPPED. Phase 1 done: 3 spark-beat nodes minted (`abduction-of-lyanna`, `execution-of-brandon-and-rickard-stark`, `aerys-demands-ned-and-robert`) + indexed + alias-resolvable. Phase 2 done: full chain wired + subagent-verified — `tourney-at-harrenhal —CAUSES→ abduction —CAUSES→ executions —TRIGGERS→ demand —TRIGGERS→ roberts-rebellion`, plus the earlier `battle-of-the-trident —CAUSES→ sack —CAUSES→ coronation`. **REMAINING WORK = SCALE to other historical hubs** (the open question for Matt below) using the exact same method.
 
 ## Goal
 Make the Robert's Rebellion causal arc fully traversable, then scale the pattern to other historical hubs. Two phases:

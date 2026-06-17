@@ -1,5 +1,8 @@
 {
   "alias_to_canonical": {
+    "abduction of lyanna": "abduction-of-lyanna",
+    "abduction of lyanna stark": "abduction-of-lyanna",
+    "abduction-of-lyanna-stark": "abduction-of-lyanna",
     "abel assassinated": "mance-rayder-brought-to-execution",
     "abel death": "mance-rayder-brought-to-execution",
     "abel execution": "mance-rayder-brought-to-execution",
@@ -30,6 +33,8 @@
     "aemonds march on harrenhal": "aemonds-march-on-harrenhal",
     "aeron damphair demands benfred s death": "aeron-damphair-demands-benfred-s-death",
     "aeron damphair demands benfred's death": "aeron-damphair-demands-benfred-s-death",
+    "aerys demands ned and robert": "aerys-demands-ned-and-robert",
+    "aerys demands the heads of eddard stark and robert baratheon": "aerys-demands-ned-and-robert",
     "aerys the third assassinated": "death-of-joffrey-baratheon",
     "aerys the third death": "death-of-joffrey-baratheon",
     "aerys the third execution": "death-of-joffrey-baratheon",
@@ -38,6 +43,8 @@
     "aerys the third murdered": "death-of-joffrey-baratheon",
     "aerys the third's death": "death-of-joffrey-baratheon",
     "aerys the third's execution": "death-of-joffrey-baratheon",
+    "aerys-demand-for-stark-and-baratheon": "aerys-demands-ned-and-robert",
+    "aerys-demands-the-heads-of-ned-and-robert": "aerys-demands-ned-and-robert",
     "age of heroes": "age-of-heroes",
     "alayne i": "alayne-i-the-winds-of-winter",
     "alayne i (the winds of winter)": "alayne-i-the-winds-of-winter",
@@ -914,6 +921,7 @@
     "execution of boy king": "death-of-joffrey-baratheon",
     "execution of boy wolf": "robb-is-killed",
     "execution of boyman": "tyrion-processes-the-assassination-attempt",
+    "execution of brandon and rickard stark": "execution-of-brandon-and-rickard-stark",
     "execution of breaker of chains": "ned-orders-daenerys-s-assassination-cancelled",
     "execution of bride of fire": "ned-orders-daenerys-s-assassination-cancelled",
     "execution of cat": "catelyn-is-killed",
@@ -1034,6 +1042,7 @@
     "execution of yollo": "tyrion-processes-the-assassination-attempt",
     "execution of young usurper": "death-of-joffrey-baratheon",
     "execution of young wolf": "robb-is-killed",
+    "execution-of-rickard-and-brandon-stark": "execution-of-brandon-and-rickard-stark",
     "fair isle rebellion": "fair-isle-rebellion",
     "faith militant uprising": "faith-militant-uprising",
     "fall of astapor": "fall-of-astapor",
@@ -1865,6 +1874,7 @@
     "murder of yollo": "tyrion-processes-the-assassination-attempt",
     "murder of young usurper": "death-of-joffrey-baratheon",
     "murder of young wolf": "robb-is-killed",
+    "murder-of-the-starks-in-kings-landing": "execution-of-brandon-and-rickard-stark",
     "mutiny at castle black": "mutiny-at-castle-black",
     "mutiny at craster's keep": "mutiny-at-crasters-keep",
     "mutiny at crasters keep": "mutiny-at-crasters-keep",
@@ -2077,6 +2087,7 @@
     "reyne tarbeck revolt": "reyne-tarbeck-revolt",
     "reyne-tarbeck revolt": "reyne-tarbeck-revolt",
     "reznak and skahaz advise on the murders": "reznak-and-skahaz-advise-on-the-murders",
+    "rhaegar-takes-lyanna": "abduction-of-lyanna",
     "rhoynar invasion": "rhoynar-invasion",
     "rhoynish wars": "rhoynish-wars",
     "ride at rings": "martial-games",
@@ -3770,21 +3781,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-14T23:49:33.842514+00:00",
+  "computed_at": "2026-06-17T22:09:35.266276+00:00",
   "stats": {
     "ambiguous_collisions": 45,
     "source_breakdown": {
-      "node-frontmatter-alias": 111,
-      "node-name": 590,
-      "node-slug": 590,
+      "node-frontmatter-alias": 117,
+      "node-name": 593,
+      "node-slug": 593,
       "victim-index": 2085,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 4278,
-    "unambiguous_lookups": 2957,
-    "unique_phrases": 3002
+    "total_entries_scanned": 4290,
+    "unambiguous_lookups": 2968,
+    "unique_phrases": 3013
   },
   "version": "v2"
 }

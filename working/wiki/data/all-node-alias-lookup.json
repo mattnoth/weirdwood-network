@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-16T23:06:52.834702+00:00",
+  "computed_at": "2026-06-17T22:09:35.467215+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -23,6 +23,30 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "abduction of lyanna": [
+      {
+        "canonical_slug": "abduction-of-lyanna",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "abduction of lyanna stark": [
+      {
+        "canonical_slug": "abduction-of-lyanna",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "abduction-of-lyanna-stark": [
+      {
+        "canonical_slug": "abduction-of-lyanna",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "abel": [
@@ -1157,6 +1181,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "aerys demands ned and robert": [
+      {
+        "canonical_slug": "aerys-demands-ned-and-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "aerys demands the heads of eddard stark and robert baratheon": [
+      {
+        "canonical_slug": "aerys-demands-ned-and-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "aerys i targaryen": [
       {
         "canonical_slug": "aerys-i-targaryen",
@@ -1219,6 +1259,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "aerys-demand-for-stark-and-baratheon": [
+      {
+        "canonical_slug": "aerys-demands-ned-and-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "aerys-demands-the-heads-of-ned-and-robert": [
+      {
+        "canonical_slug": "aerys-demands-ned-and-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "aethan": [
@@ -22627,6 +22683,14 @@
         "source": "node-slug"
       }
     ],
+    "execution of brandon and rickard stark": [
+      {
+        "canonical_slug": "execution-of-brandon-and-rickard-stark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "execution of davos lookalike at white harbor": [
       {
         "canonical_slug": "execution-of-davos-lookalike-at-white-harbor",
@@ -22665,6 +22729,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "execution-of-rickard-and-brandon-stark": [
+      {
+        "canonical_slug": "execution-of-brandon-and-rickard-stark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "exile knight": [
@@ -58543,6 +58615,14 @@
         "source": "node-slug"
       }
     ],
+    "murder-of-the-starks-in-kings-landing": [
+      {
+        "canonical_slug": "execution-of-brandon-and-rickard-stark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "murenmure": [
       {
         "canonical_slug": "murenmure",
@@ -67623,6 +67703,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "rhaegar-takes-lyanna": [
+      {
+        "canonical_slug": "abduction-of-lyanna",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "rhaegel targaryen": [
@@ -89071,8 +89159,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18480,
-    "unique_phrases": 11036
+    "total_node_entries": 18492,
+    "unique_phrases": 11047
   },
   "version": "v1"
 }
