@@ -269,8 +269,9 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - State now: **8,521 nodes / 22,157 edges**, 62 orphans, pytest 1297 pass / 1 documented fail.
 
 **What's next:**
-- → **Causal-edges track (LIVE) — Robert's Rebellion DONE; remaining = SCALE to other historical hubs** (dip-driven, Matt's open question). `progress/continue-prompts/2026-06-17-causal-edges-and-spark-nodes.md` (**Sonnet 4.6** + subagent verify).
-- 1 flagged edge for Matt: `shadow-war→targaryen-campaign-in-slavers-bay` (keep as-is or flip?).
+- → **NEXT = a PURE-ANALYSIS session (Matt's call, S104)** on the strategy for causal/narrative-arc edges across the WHOLE graph (scaling beyond Robert's Rebellion). No graph writes — produce a prioritized plan. This affects all of narrative-arc reification, so it's analysis-first. `progress/continue-prompts/2026-06-17-causal-edges-and-spark-nodes.md` (**Opus or Sonnet 4.6**, analysis only).
+- `shadow-war→targaryen-campaign-in-slavers-bay` **RESOLVED S104** (subagent vs local wiki): KEEP as-is — the shadow war (Sons of the Harpy insurgency in Meereen) is a wiki-attested component of the broader Slaver's Bay campaign. No change.
+- Small-fix backlog (subagent-surfaced S104): `shadow-war` + `targaryen-campaign-in-slavers-bay` carry junk `DEFEATS`/`FIGHTS_IN` edges (misparsed infobox Result/Conflict/Strength fields) and are mistyped `event.battle` (should be war/campaign). → todos § Small Fixes.
 - Still parked: arc-wave1 mint (gated on Matt's 3 decisions); Fable repo-reorg; 2 vocab follow-ups (todos).
 
 ### Session 103 — Fable cleanup: canonical vocabulary DECIDED (3 terms, not 6) (2026-06-16)

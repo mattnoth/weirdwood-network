@@ -1,37 +1,26 @@
-# Continue — Causal edges + Robert's Rebellion spark-node minting
+# Continue — Causal / narrative-arc STRATEGY (pure-analysis session)
 
-> **Recommended model:** Sonnet 4.6 (curatorial/deterministic) + a fresh `general-purpose` subagent for verification. Opus only if orchestration gets hairy.
+> **Recommended model:** Opus (analysis/judgment) or Sonnet 4.6. **This is a PURE-ANALYSIS session — NO graph writes.** Matt's call (S104): the "how far to scale causal edges" question gets its own analysis session first, because the answer governs *all* of narrative-arc reification, not just one arc.
 >
-> **Status (S104, 2026-06-17 — Robert's Rebellion DONE):** The pilot + the full Robert's Rebellion arc are now SHIPPED. Phase 1 done: 3 spark-beat nodes minted (`abduction-of-lyanna`, `execution-of-brandon-and-rickard-stark`, `aerys-demands-ned-and-robert`) + indexed + alias-resolvable. Phase 2 done: full chain wired + subagent-verified — `tourney-at-harrenhal —CAUSES→ abduction —CAUSES→ executions —TRIGGERS→ demand —TRIGGERS→ roberts-rebellion`, plus the earlier `battle-of-the-trident —CAUSES→ sack —CAUSES→ coronation`. **REMAINING WORK = SCALE to other historical hubs** (the open question for Matt below) using the exact same method.
+> **Status going in (S104, 2026-06-17):** The method is proven and one exemplar is shipped. Robert's Rebellion now has a full causal arc — 3 minted spark-beat nodes (`abduction-of-lyanna`, `execution-of-brandon-and-rickard-stark`, `aerys-demands-ned-and-robert`) + 6 causal edges (`tourney→abduction→executions→demand→rebellion` and `Trident→Sack→Coronation`), all fresh-subagent-verified against the local wiki. The pilot (`CAUSES` Trident→Sack→Coronation) is also in. So the *technique* is settled; what's open is the *strategy*.
 
-## Goal
-Make the Robert's Rebellion causal arc fully traversable, then scale the pattern to other historical hubs. Two phases:
+## The question to answer
+**How far, and in what order, should causal/narrative-arc structure be built across the whole graph?** The graph has ~588 event nodes densely connected by participants and (now) `PRECEDES` chronology, but causal consequence-chains (`CAUSES`/`TRIGGERS`) and reified narrative arcs exist only for a handful (Red Wedding, Trident incident, Robert's Rebellion). Reader-felt arcs ("X led to Y led to Z") are mostly absent. Deciding the scaling policy here sets the direction for the whole narrative-arc-reification track ([[project_narrative_arc_reification]]).
 
-### Phase 1 — mint the 3 missing spark-beat nodes
-Create `event.*` nodes (in `graph/nodes/events/`) for the beats that currently have no node:
-- `abduction-of-lyanna` (281/282 AC — Rhaegar takes Lyanna near Harrenhal; the inciting act)
-- `execution-of-brandon-and-rickard-stark` (282 AC — Aerys burns Rickard, strangles Brandon)
-- `aerys-demands-ned-and-robert` (282 AC — Aerys orders Jon Arryn to send Ned & Robert's heads; the direct war trigger)
+## What this session should PRODUCE (a written plan, no graph edits)
+Write findings to `working/` (e.g. `working/causal-arc-strategy-2026-06-NN.md`). Cover:
+1. **Inventory.** Survey existing `event.*` nodes + edges. Which major arcs/conflicts already have causal structure, which are isolated chronology-only, which lack nodes for their pivotal beats (like RR's spark beats did). Use `scripts/graph-query.py`, the indexes, and the local wiki cache.
+2. **Criteria for "worth reifying."** What makes an arc worth the spark-node + causal-edge investment? Candidate signals: query-value (does a grounded-agent dip fumble it?), reader-salience, beat-nodes missing, cross-POV reach. Propose a rubric.
+3. **Prioritized list.** Rank the next N arcs/conflicts to treat (e.g. War of the Five Kings sub-arcs, the Dance of the Dragons, R+L=J, Greyjoy Rebellion, Daenerys's Slaver's Bay campaign…), with the reasoning.
+4. **Approach + cost per arc.** Reuse the RR template: mint missing beat-nodes from local sources → index/alias rebuild → wire `CAUSES`/`TRIGGERS` → fresh-subagent verify. Estimate effort/cost per arc and recommend dip-driven vs batch.
+5. **Open design questions for Matt** — anything that needs his policy call before execution (e.g. how aggressively to mint beat-nodes, Tier policy for interpretive causal edges, where arc reification overlaps the parked arc-wave1 mint).
 
-For each: pull evidence from the LOCAL cache (`sources/wiki/_raw/Robert's_Rebellion.json` has the full narrative in its `html` field; cross-check `sources/chapters/` for any POV recollection, e.g. Ned's AGOT memories). Stamp `occurred.ac_year`, `era: roberts-rebellion`, `confidence`, `wiki_source`, and a `## Quotes` block with verbatim evidence ([[feedback_capture_quotes_during_research]]). Follow the node schema in `reference/architecture.md`.
-
-**After minting (node ADD):** rebuild indexes + alias-resolver — prefer targeted ops over a full `weirwood refresh` (re-stamps ~7.9k timestamps; S102 lesson). See `project_rebuild_derived_artifacts_after_node_mutation`.
-
-### Phase 2 — wire the causal chain
-Now that beats exist, the spark chain can be `TRIGGERS` (immediate-spark granularity is finally accurate):
-`tourney-at-harrenhal` (the crowning) → `abduction-of-lyanna` → `execution-of-brandon-and-rickard-stark` → `aerys-demands-ned-and-robert` → `roberts-rebellion` → … → `battle-of-the-trident` (already CAUSES `sack-of-kings-landing` → `coronation-of-robert-i-baratheon`).
-Pick `TRIGGERS` vs `CAUSES` per the architecture definitions (TRIGGERS = the specific spark; CAUSES = leads-to). Both are in vocab — no vocab change. Tier-2 (wiki-attested) unless a book quote earns Tier-1.
-
-## Verification gate (FIRM — Matt S104)
-Do NOT ask Matt to review individual edges. For every interpretive/causal edge AND every minted node, run a **fresh adversarial subagent** that confirms/refutes against the LOCAL cache only (never refetch — [[feedback_no_external_wiki_fetch]]): quote-verbatim check + direction check + CONFIRM/REFUTE/UNCERTAIN verdict. Keep CONFIRMed, drop REFUTEd, surface UNCERTAIN. Stamp survivors `verified_by`. Present Matt a **summary** (counts/verdicts/drops), not an edge-list. (memory `feedback_subagent_verify_not_matt`)
-
-## Mechanics / hard rules
-- Backup `graph/edges/edges.jsonl` to `_regrounding/` before any edge write. Edge rows mirror the S104 causal-pilot shape (`candidate_kind: causal-curator-pilot` or similar, `evidence_kind: wiki-historical-anchor`, `typed_by: curator-causal-pilot`).
-- Edge-only writes need no index rebuild; node ADDs do (Phase 1).
-- Re-run `python3 scripts/graph-query.py --health` (orphans should not increase) + `python3 -m pytest -q` (baseline 1297 pass / 1 documented `cwd-is-tmp` fail) after changes.
-- Do NOT `/endsession` without Matt's permission. Do NOT refetch the wiki.
+## Hard rules
+- **NO graph writes this session** — analysis only. Output is a plan Matt reviews.
+- Use ONLY the local wiki/book cache; never refetch ([[feedback_no_external_wiki_fetch]]).
+- When execution later resumes from this plan, the verification gate is fresh subagents vs the local cache; Matt gates at policy level, not per-edge ([[feedback_subagent_verify_not_matt]]).
 
 ## Context / source-of-truth
-- `history/session-details/session-104.md` — the pilot, the CAUSES-vs-TRIGGERS finding, the verification method.
-- `working/narrative-arcs-design-memo-2026-06-13.md` — this is the narrative-arc-reification pattern on a historical arc (`project_narrative_arc_reification`).
-- Open question for Matt: how far to scale Phase 2 beyond Robert's Rebellion (which historical hubs next) — dip-driven, not mass-mint.
+- `history/session-details/session-104.md` — the RR exemplar, the CAUSES-vs-TRIGGERS granularity finding, the verification method.
+- `working/narrative-arcs-design-memo-2026-06-13.md` + memory `project_narrative_arc_reification` — the reification pattern this generalizes.
+- Resolved S104 (no action): `shadow-war → targaryen-campaign-in-slavers-bay` PART_OF is correct (subagent-confirmed). Small node-quality fixes on those two nodes are queued in todos § Small Fixes.
