@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-19T16:41:34.854148+00:00",
+  "computed_at": "2026-06-19T20:23:25.811424+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -6477,6 +6477,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "beheading-of-lord-rickard-karstark": [
+      {
+        "canonical_slug": "execution-of-rickard-karstark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "belandra": [
       {
         "canonical_slug": "belandra",
@@ -11741,6 +11749,14 @@
         "source": "node-slug"
       }
     ],
+    "catelyn releases jaime lannister": [
+      {
+        "canonical_slug": "catelyn-releases-jaime-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "catelyn secures guest right": [
       {
         "canonical_slug": "catelyn-secures-guest-right",
@@ -11792,6 +11808,30 @@
     "catelyn-captures-tyrion-at-the-crossroads-inn": [
       {
         "canonical_slug": "catelyn-seizes-the-moment-and-arrests-tyrion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "catelyn-frees-jaime": [
+      {
+        "canonical_slug": "catelyn-releases-jaime-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "catelyn-frees-jaime-lannister": [
+      {
+        "canonical_slug": "catelyn-releases-jaime-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "catelyn-releases-the-kingslayer": [
+      {
+        "canonical_slug": "catelyn-releases-jaime-lannister",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -18301,6 +18341,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "death-of-robb-stark": [
+      {
+        "canonical_slug": "robb-is-killed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "deaths on the march": [
       {
         "canonical_slug": "deaths-on-the-march",
@@ -22843,6 +22891,14 @@
         "source": "node-slug"
       }
     ],
+    "execution of rickard karstark": [
+      {
+        "canonical_slug": "execution-of-rickard-karstark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "execution of the blackwater deserters": [
       {
         "canonical_slug": "execution-of-the-blackwater-deserters",
@@ -22857,6 +22913,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "execution-of-lord-rickard-karstark": [
+      {
+        "canonical_slug": "execution-of-rickard-karstark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "execution-of-rickard-and-brandon-stark": [
@@ -43487,6 +43551,22 @@
         "source": "node-slug"
       }
     ],
+    "karstark murders prisoners at riverrun": [
+      {
+        "canonical_slug": "karstark-murders-prisoners-at-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "karstark-kills-the-lannister-and-frey-captives": [
+      {
+        "canonical_slug": "karstark-murders-prisoners-at-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "karyl vance": [
       {
         "canonical_slug": "karyl-vance",
@@ -58871,9 +58951,25 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "murder-of-robb-stark": [
+      {
+        "canonical_slug": "robb-is-killed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "murder-of-the-starks-in-kings-landing": [
       {
         "canonical_slug": "execution-of-brandon-and-rickard-stark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "murder-of-tion-frey-and-willem-lannister": [
+      {
+        "canonical_slug": "karstark-murders-prisoners-at-riverrun",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -67497,6 +67593,14 @@
         "source": "node-slug"
       }
     ],
+    "red wedding conspiracy": [
+      {
+        "canonical_slug": "red-wedding-conspiracy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "red wedding revealed": [
       {
         "canonical_slug": "red-wedding-revealed",
@@ -68385,6 +68489,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "rickard karstark murders the prisoners at riverrun": [
+      {
+        "canonical_slug": "karstark-murders-prisoners-at-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "rickard liddle": [
       {
         "canonical_slug": "rickard-liddle",
@@ -68447,6 +68559,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "rickard-karstark-murders-the-prisoners": [
+      {
+        "canonical_slug": "karstark-murders-prisoners-at-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "rickon stark": [
@@ -68815,12 +68935,76 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "robb weds jeyne westerling": [
+      {
+        "canonical_slug": "robb-weds-jeyne-westerling",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "robb-beheads-rickard-karstark": [
+      {
+        "canonical_slug": "execution-of-rickard-karstark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robb-breaks-his-frey-marriage-pact": [
+      {
+        "canonical_slug": "robb-weds-jeyne-westerling",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robb-executes-rickard-karstark": [
+      {
+        "canonical_slug": "execution-of-rickard-karstark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robb-marries-jeyne-westerling": [
+      {
+        "canonical_slug": "robb-weds-jeyne-westerling",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robb-stark-is-killed": [
+      {
+        "canonical_slug": "robb-is-killed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robb-stark-weds-jeyne-westerling": [
+      {
+        "canonical_slug": "robb-weds-jeyne-westerling",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "robber knight": [
       {
         "canonical_slug": "robber-knight",
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "robbs-marriage-to-jeyne-westerling": [
+      {
+        "canonical_slug": "robb-weds-jeyne-westerling",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "robert arryn": [
@@ -79651,6 +79835,38 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "the-freeing-of-the-kingslayer": [
+      {
+        "canonical_slug": "catelyn-releases-jaime-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "the-frey-bolton-conspiracy": [
+      {
+        "canonical_slug": "red-wedding-conspiracy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "the-frey-lannister-bolton-plot": [
+      {
+        "canonical_slug": "red-wedding-conspiracy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "the-killing-of-the-prisoners-at-riverrun": [
+      {
+        "canonical_slug": "karstark-murders-prisoners-at-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "the-kingslaying": [
       {
         "canonical_slug": "slaying-of-aerys-ii-the-kingslaying",
@@ -79662,6 +79878,14 @@
     "the-mountain-raids-the-riverlands": [
       {
         "canonical_slug": "gregor-raids-the-riverlands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "the-plot-behind-the-red-wedding": [
+      {
+        "canonical_slug": "red-wedding-conspiracy",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -79705,6 +79929,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-alias:artifacts"
+      }
+    ],
+    "the-young-wolf-is-slain": [
+      {
+        "canonical_slug": "robb-is-killed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "thenn (valley)": [
@@ -79867,6 +80099,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "theon greyjoy taken as ward": [
+      {
+        "canonical_slug": "theon-greyjoy-taken-as-ward",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "theon greyjoy taken as ward of house stark": [
+      {
+        "canonical_slug": "theon-greyjoy-taken-as-ward",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "theon i (the winds of winter)": [
       {
         "canonical_slug": "theon-i-the-winds-of-winter",
@@ -79921,6 +80169,46 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "theon-as-ward-of-winterfell": [
+      {
+        "canonical_slug": "theon-greyjoy-taken-as-ward",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "theon-given-to-eddard-stark": [
+      {
+        "canonical_slug": "theon-greyjoy-taken-as-ward",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "theon-greyjoy-hostage-of-the-starks": [
+      {
+        "canonical_slug": "theon-greyjoy-taken-as-ward",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "theon-greyjoy-taken-as-ward": [
+      {
+        "canonical_slug": "theon-greyjoy-taken-as-ward",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "theon-taken-from-pyke": [
+      {
+        "canonical_slug": "theon-greyjoy-taken-as-ward",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "theories": [
@@ -85279,6 +85567,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "walder-frey-conspires-with-roose-bolton": [
+      {
+        "canonical_slug": "red-wedding-conspiracy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "walderan tarbeck": [
       {
         "canonical_slug": "walderan-tarbeck",
@@ -89559,8 +89855,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18546,
-    "unique_phrases": 11097
+    "total_node_entries": 18587,
+    "unique_phrases": 11134
   },
   "version": "v1"
 }
