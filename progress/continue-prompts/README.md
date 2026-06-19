@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-19 (refreshed after S106)  
+**Generated:** 2026-06-19 (refreshed after S107)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (rewritten S106) | Causal-arc execution: re-dip, then Tier B | **LIVE** | Sonnet 4.6 | S106: chain-as-arc RATIFIED; `--causal-chain` primitive + Sack-of-KL + Purple-Wedding arcs SHIPPED + fresh-subagent verified. **Next action = arc-weighted Mode-3 dip BEFORE any Tier-B minting** (dip-driven, not mass-mint); the dip re-ranks Tier B. Spec: `working/causal-arc-strategy-2026-06-18.md`; terms: `reference/narrative-arc-glossary.md`. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (rewritten S107) | Causal-arc execution: B3 (Ned's downfall), then re-dip | **LIVE** | Sonnet 4.6 | S107: dip ran (5/10; all prior arcs validated) → minted B1 (Red-Wedding-upstream) + B2 (Greyjoy→Theon-ward), both fresh-subagent verified; post-build re-dip 6/10, Q7 confirmed fixed. **Next action = build B3 (Ned's-downfall arc, the Q10 gap: discovery→Littlefinger betrayal→arrest→execution), then re-dip.** Spec: `working/causal-arc-strategy-2026-06-18.md`; dips: `working/session-results/2026-06-19-arc-weighted-{dip,redip}.md`; terms: `reference/narrative-arc-glossary.md`. |
 
 ---
 
