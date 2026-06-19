@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-17T22:09:35.467215+00:00",
+  "computed_at": "2026-06-19T03:17:41.924194+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -9349,12 +9349,44 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "bran witnesses jaime and cersei": [
+      {
+        "canonical_slug": "bran-witnesses-jaime-and-cersei",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "bran's direwolf kills the assassin": [
       {
         "canonical_slug": "bran-s-direwolf-kills-the-assassin",
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "bran-catches-the-lannister-twins": [
+      {
+        "canonical_slug": "bran-witnesses-jaime-and-cersei",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran-s-fall": [
+      {
+        "canonical_slug": "jaime-pushes-bran-from-the-tower",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran-sees-jaime-and-cersei": [
+      {
+        "canonical_slug": "bran-witnesses-jaime-and-cersei",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "branda stark": [
@@ -11339,6 +11371,14 @@
         "source": "node-slug"
       }
     ],
+    "capture-of-tyrion-at-the-inn": [
+      {
+        "canonical_slug": "catelyn-seizes-the-moment-and-arrests-tyrion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "caraxes": [
       {
         "canonical_slug": "caraxes",
@@ -11712,6 +11752,22 @@
     "catelyn's guest-right invocation": [
       {
         "canonical_slug": "catelyn-secures-guest-right",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "catelyn-captures-tyrion-at-the-crossroads-inn": [
+      {
+        "canonical_slug": "catelyn-seizes-the-moment-and-arrests-tyrion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "catelyn-seizes-tyrion": [
+      {
+        "canonical_slug": "catelyn-seizes-the-moment-and-arrests-tyrion",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -30215,6 +30271,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "gregor clegane raids the riverlands": [
+      {
+        "canonical_slug": "gregor-raids-the-riverlands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "gregor confesses and kills oberyn": [
       {
         "canonical_slug": "gregor-confesses-and-kills-oberyn",
@@ -30229,6 +30293,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "gregor raids the riverlands": [
+      {
+        "canonical_slug": "gregor-raids-the-riverlands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "grenn": [
@@ -41045,6 +41117,14 @@
         "source": "node-slug"
       }
     ],
+    "jaime pushes bran from the tower": [
+      {
+        "canonical_slug": "jaime-pushes-bran-from-the-tower",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "jaime questions the kingsguard about joffrey s death": [
       {
         "canonical_slug": "jaime-questions-the-kingsguard-about-joffrey-s-death",
@@ -41104,6 +41184,14 @@
     "jaime-lannister-ambushes-ned-s-party": [
       {
         "canonical_slug": "attack-on-ned-stark-in-the-streets-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jaime-pushes-bran": [
+      {
+        "canonical_slug": "jaime-pushes-bran-from-the-tower",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -46737,6 +46825,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "lannister-raids-on-the-trident": [
+      {
+        "canonical_slug": "gregor-raids-the-riverlands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "lanns point": [
       {
         "canonical_slug": "lanns-point",
@@ -48359,12 +48455,36 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "littlefinger names the dagger as tyrion s": [
+      {
+        "canonical_slug": "littlefinger-names-the-dagger-as-tyrion-s",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "littlefinger names the dagger as tyrion's": [
+      {
+        "canonical_slug": "littlefinger-names-the-dagger-as-tyrion-s",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "littlefinger's blade": [
       {
         "canonical_slug": "littlefingers-blade",
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-name:artifacts"
+      }
+    ],
+    "littlefinger-lies-about-the-catspaw-dagger": [
+      {
+        "canonical_slug": "littlefinger-names-the-dagger-as-tyrion-s",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "littlefinger-orders-dontos-killed": [
@@ -63205,6 +63325,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "petyr-frames-tyrion-with-the-dagger": [
+      {
+        "canonical_slug": "littlefinger-names-the-dagger-as-tyrion-s",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "pewter": [
@@ -79323,12 +79451,28 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "the-mountain-raids-the-riverlands": [
+      {
+        "canonical_slug": "gregor-raids-the-riverlands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "the-ship": [
       {
         "canonical_slug": "ship-playhouse",
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-alias:artifacts"
+      }
+    ],
+    "the-things-i-do-for-love": [
+      {
+        "canonical_slug": "jaime-pushes-bran-from-the-tower",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "the-wall": [
@@ -89159,8 +89303,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18492,
-    "unique_phrases": 11047
+    "total_node_entries": 18512,
+    "unique_phrases": 11065
   },
   "version": "v1"
 }

@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-17 (refreshed after S104)  
+**Generated:** 2026-06-18 (refreshed after S105)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,16 +12,17 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-17-causal-edges-and-spark-nodes.md` | 2026-06-17 | Causal / narrative-arc STRATEGY (pure-analysis) | **LIVE** | Opus or Sonnet 4.6, analysis-only | Robert's Rebellion causal arc DONE S104 (3 spark-nodes + 6 causal edges, subagent-verified). **Next session = PURE ANALYSIS, no graph writes** (Matt's call S104): produce a prioritized plan for scaling causal/narrative-arc structure across the whole graph — it governs all of narrative-arc reification. Output a written strategy to `working/` for Matt to review. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 | Causal-arc execution: traversal primitive + first Tier-A batch | **LIVE (gated on Matt's parent-node ratification)** | Sonnet 4.6 | Strategy written + technique proven twice (RR S104, Bran's fall S105). Next: (1) build `--causal-chain` traversal primitive in `graph-query.py`; (2) first Tier-A arc batch (Sack of KL / Purple Wedding) with the S105 lessons folded in (pre-mint dedup lookup + agency-collapse check). Spec: `working/causal-arc-strategy-2026-06-18.md`. Parent-node rec (awaiting ratify): causal-chain-as-arc, NO umbrella parents. |
 
 ---
 
-## Archive (`archive/` subfolder — 31 files)
+## Archive (`archive/` subfolder — 32 files)
 
 Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog — recoverable; restore when next). Summary:
 
 | Group | Files | Status |
 |-------|-------|--------|
+| `2026-06-17-causal-edges-and-spark-nodes.md` | 1 file | **DONE S105** — pure-analysis strategy delivered (`working/causal-arc-strategy-2026-06-18.md`) + second smoke-test arc (Bran's fall) built + 4-lens advisory board run. Superseded by the causal-arc-execution live track. |
 | `2026-06-16-next-move-decisions.md` | 1 file | **DONE S104** — both remaining decisions resolved: #1 `PRECEDES` ordering edges SHIPPED (174); #2 causal pilot SHIPPED (2 `CAUSES` edges). Superseded by the causal-edges+spark-nodes live track. |
 | `2026-06-15-arc-wave1-mint.md` | 1 file | **PARKED S99** — gated on Matt's 3 decisions (RW-4 role edges / arc boundaries / RECIPIENT_IN vocab). Drafts+review done. Restore when Matt decides. Context: worklog S95/S97 + `curation/narrative-arc-wave1-*-draft-2026-06-14.md`. |
 | `2026-06-05-edge-modeling-plate-4-haiku-disposition.md` | 1 file | **PARKED S99** — post-Plate-5 backfill Track B (1,617 Haiku bulk re-bucketing); lower-priority backlog, de-prioritized by S96 dip. Context: `working/todos.md` Track B. |
@@ -40,13 +41,14 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ## Open thread right now (ONE live track)
 
-**LIVE: `2026-06-17-causal-edges-and-spark-nodes.md`** — Robert's Rebellion causal arc is DONE (S104: 3
-spark-beat nodes + 6 `CAUSES`/`TRIGGERS` edges, subagent-verified). **Next session = PURE ANALYSIS, no graph
-writes** (Matt's call S104): produce a prioritized strategy for scaling causal/narrative-arc structure across
-the WHOLE graph — inventory which arcs lack causal/beat structure, a rubric for "worth reifying", a ranked
-list, per-arc cost, and design questions for Matt. The answer governs all of narrative-arc reification, so it
-goes first. Output a written plan to `working/`. (When execution later resumes: fresh-subagent verification vs
-the LOCAL cache, Matt gates at policy level.)
+**LIVE: `2026-06-18-causal-arc-execution.md`** (gated on Matt ratifying the parent-node rec) — the causal-arc
+technique is proven twice (RR S104, Bran's fall S105) and the scaling strategy is written
+(`working/causal-arc-strategy-2026-06-18.md`). Next: (1) build the `--causal-chain` directed-traversal
+primitive in `graph-query.py` (walks CAUSES/TRIGGERS/MOTIVATES both ways — without it the chains are latent);
+(2) run the first Tier-A arc batch (Sack of KL / Purple Wedding) with the two S105 lessons folded in as HARD
+steps — **pre-mint dedup lookup** + **agency-collapse check**. Causal edges Tier-2, fresh-subagent-verified vs
+the LOCAL cache. **Parent-node recommendation (awaiting Matt's ratify): causal-chain-as-arc, NO umbrella parent
+nodes** — deliver whole-arc queries via the primitive, not a parent hub.
 
-*Parked in `archive/` (restore when next, not deleted): arc-wave1-mint (gated on Matt's 3 decisions), edge-modeling-plate-4 Track B (backlog).*
-*Done & archived (no longer live): next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*
+*Parked in `archive/` (restore when next, not deleted): arc-wave1-mint (gated on Matt's 3 decisions; the S105 parent-node rec supersedes its umbrella-vs-chain fork), edge-modeling-plate-4 Track B (backlog).*
+*Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*
