@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-19T03:17:41.555498+00:00",
+  "generated_at": "2026-06-19T16:41:34.482979+00:00",
   "entity_type": "events",
   "dry_run": false,
   "entity_count": 1,
   "type_counts": {
-    "event.incident": 1
+    "event.deception": 1
   },
   "entities_with_zero_mentions": 1,
   "mention_inverse_slugs": 0,
   "top_by_appearances": [
     {
-      "slug": "gregor-raids-the-riverlands",
-      "name": "Gregor Clegane raids the Riverlands",
-      "type": "event.incident",
+      "slug": "littlefinger-smuggles-sansa-out-of-kings-landing",
+      "name": "Littlefinger smuggles Sansa out of King's Landing",
+      "type": "event.deception",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,
@@ -21,9 +21,9 @@
   ],
   "top_by_in_edges": [
     {
-      "slug": "gregor-raids-the-riverlands",
-      "name": "Gregor Clegane raids the Riverlands",
-      "type": "event.incident",
+      "slug": "littlefinger-smuggles-sansa-out-of-kings-landing",
+      "name": "Littlefinger smuggles Sansa out of King's Landing",
+      "type": "event.deception",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,

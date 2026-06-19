@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-19T03:17:41.924194+00:00",
+  "computed_at": "2026-06-19T16:41:34.854148+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -1181,6 +1181,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "aerys commands the city burned": [
+      {
+        "canonical_slug": "aerys-commands-the-city-burned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "aerys demands ned and robert": [
       {
         "canonical_slug": "aerys-demands-ned-and-robert",
@@ -1229,6 +1237,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "aerys orders the wildfire fired": [
+      {
+        "canonical_slug": "aerys-commands-the-city-burned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "aerys targaryen (son of aegon)": [
       {
         "canonical_slug": "aerys-targaryen-son-of-aegon",
@@ -1272,6 +1288,14 @@
     "aerys-demands-the-heads-of-ned-and-robert": [
       {
         "canonical_slug": "aerys-demands-ned-and-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "aerys-orders-rossart-to-burn-the-city": [
+      {
+        "canonical_slug": "aerys-commands-the-city-burned",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -10731,6 +10755,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "burn-them-all-order": [
+      {
+        "canonical_slug": "aerys-commands-the-city-burned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "burned men": [
       {
         "canonical_slug": "burned-men",
@@ -12176,6 +12208,14 @@
     "cersei's small council is deceived about davos": [
       {
         "canonical_slug": "frey-witnesses-attest-davos-dead-at-small-council",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei-accuses-tyrion-of-regicide": [
+      {
+        "canonical_slug": "tyrion-accused-of-poisoning-joffrey",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -18253,12 +18293,28 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "death-of-aerys-ii-targaryen": [
+      {
+        "canonical_slug": "slaying-of-aerys-ii-the-kingslaying",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "deaths on the march": [
       {
         "canonical_slug": "deaths-on-the-march",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "deaths-of-rhaegars-children": [
+      {
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "deep den": [
@@ -19334,6 +19390,22 @@
     "dontos's death": [
       {
         "canonical_slug": "killing-of-dontos-hollard",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "dontos-gives-sansa-the-hairnet": [
+      {
+        "canonical_slug": "sansa-receives-the-poisoned-hairnet",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "dontos-leads-sansa-from-the-castle": [
+      {
+        "canonical_slug": "littlefinger-smuggles-sansa-out-of-kings-landing",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -30303,6 +30375,14 @@
         "source": "node-slug"
       }
     ],
+    "gregor-and-amory-murder-the-targaryen-children": [
+      {
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "grenn": [
       {
         "canonical_slug": "grenn",
@@ -41181,6 +41261,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "jaime-kills-aerys": [
+      {
+        "canonical_slug": "slaying-of-aerys-ii-the-kingslaying",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jaime-lannister-ambushes-ned-s-party": [
       {
         "canonical_slug": "attack-on-ned-stark-in-the-streets-of-kings-landing",
@@ -44827,6 +44915,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "kingslaying \u2014 jaime slays aerys ii": [
+      {
+        "canonical_slug": "slaying-of-aerys-ii-the-kingslaying",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "kingsmoot": [
       {
         "canonical_slug": "kingsmoot",
@@ -48469,6 +48565,22 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "littlefinger smuggles sansa out of king's landing": [
+      {
+        "canonical_slug": "littlefinger-smuggles-sansa-out-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "littlefinger smuggles sansa out of kings landing": [
+      {
+        "canonical_slug": "littlefinger-smuggles-sansa-out-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "littlefinger's blade": [
@@ -58735,6 +58847,30 @@
         "source": "node-slug"
       }
     ],
+    "murder of elia martell and rhaegar's children": [
+      {
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "murder of elia martell and rhaegars children": [
+      {
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "murder-of-elia-and-her-children": [
+      {
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "murder-of-the-starks-in-kings-landing": [
       {
         "canonical_slug": "execution-of-brandon-and-rickard-stark",
@@ -64771,12 +64907,44 @@
         "source": "node-slug"
       }
     ],
+    "pycelle convinces aerys to open the gates": [
+      {
+        "canonical_slug": "pycelle-opens-the-gates-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "pycelle opens the gates of kings landing": [
+      {
+        "canonical_slug": "pycelle-opens-the-gates-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "pycelle's serving girl": [
       {
         "canonical_slug": "pycelles-serving-girl",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-name:characters"
+      }
+    ],
+    "pycelle-betrays-aerys-to-tywin": [
+      {
+        "canonical_slug": "pycelle-opens-the-gates-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "pycelle-bids-aerys-open-the-gates": [
+      {
+        "canonical_slug": "pycelle-opens-the-gates-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "pycelles serving girl": [
@@ -71259,6 +71427,22 @@
         "source": "node-slug"
       }
     ],
+    "sansa receives the poisoned hair net": [
+      {
+        "canonical_slug": "sansa-receives-the-poisoned-hairnet",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "sansa receives the poisoned hairnet": [
+      {
+        "canonical_slug": "sansa-receives-the-poisoned-hairnet",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "sansa stark": [
       {
         "canonical_slug": "sansa-stark",
@@ -71297,6 +71481,14 @@
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-name:theories"
+      }
+    ],
+    "sansa-escapes-kings-landing": [
+      {
+        "canonical_slug": "littlefinger-smuggles-sansa-out-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "sansara tarly": [
@@ -74433,6 +74625,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "slaying of aerys ii the kingslaying": [
+      {
+        "canonical_slug": "slaying-of-aerys-ii-the-kingslaying",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "slayne": [
@@ -79451,6 +79651,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "the-kingslaying": [
+      {
+        "canonical_slug": "slaying-of-aerys-ii-the-kingslaying",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "the-mountain-raids-the-riverlands": [
       {
         "canonical_slug": "gregor-raids-the-riverlands",
@@ -79465,6 +79673,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-alias:artifacts"
+      }
+    ],
+    "the-silver-hairnet-with-the-strangler": [
+      {
+        "canonical_slug": "sansa-receives-the-poisoned-hairnet",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "the-things-i-do-for-love": [
@@ -81657,6 +81873,14 @@
         "source": "all-node-slug:concepts"
       }
     ],
+    "trial of tyrion lannister": [
+      {
+        "canonical_slug": "trial-of-tyrion-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "trianna": [
       {
         "canonical_slug": "trianna",
@@ -82453,6 +82677,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "tyrion accused of poisoning joffrey": [
+      {
+        "canonical_slug": "tyrion-accused-of-poisoning-joffrey",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "tyrion asks bronn to protect him in battle": [
       {
         "canonical_slug": "tyrion-asks-bronn-to-protect-him-in-battle",
@@ -82621,6 +82853,22 @@
         "source": "all-node-name:species"
       }
     ],
+    "tyrion-arrested-for-joffreys-murder": [
+      {
+        "canonical_slug": "tyrion-accused-of-poisoning-joffrey",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tyrion-demands-trial-by-combat": [
+      {
+        "canonical_slug": "trial-of-tyrion-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tyrion-orders-symon-s-assassination": [
       {
         "canonical_slug": "assassination-of-symon-silver-tongue",
@@ -82635,6 +82883,14 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-slug:species"
+      }
+    ],
+    "tyrions-trial-for-joffreys-murder": [
+      {
+        "canonical_slug": "trial-of-tyrion-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "tyrosh": [
@@ -89303,8 +89559,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18512,
-    "unique_phrases": 11065
+    "total_node_entries": 18546,
+    "unique_phrases": 11097
   },
   "version": "v1"
 }

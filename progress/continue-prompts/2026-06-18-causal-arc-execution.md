@@ -1,36 +1,39 @@
-# Continue — Causal-arc execution: traversal primitive + first Tier-A batch
+# Continue — Causal-arc execution: re-dip, then Tier B
 
-> **Recommended model:** Sonnet 4.6 (deterministic script work for the primitive; subagent-driven arc minting). Opus only if a hard interpretive judgment needs it.
-> **Gated on:** Matt ratifying the S105 parent-node recommendation (see below). If he's pushed back, re-read his direction first.
+> **Recommended model:** Sonnet 4.6 (the dip is graph-only Q&A + scoring; arc minting is subagent-driven). Opus only if a hard interpretive judgment needs it.
+> **Status:** chain-as-arc ratified (S106). `--causal-chain` primitive + 2 Tier-A arcs SHIPPED. Next action is a re-dip — NOT more minting yet.
 
-## Where this stands (S105, 2026-06-18)
+## Where this stands (after S106, 2026-06-19)
 
-The causal/narrative-arc **technique is proven twice** (Robert's Rebellion S104; Bran's fall S105) and the **scaling strategy is written**: `working/causal-arc-strategy-2026-06-18.md` (rubric + prioritized arc list + cost model + 7 policy Qs + smoke-test analysis + advisory-board outcome + the agency-collapse lesson). Read it first — it is the spec for this track.
+The causal/narrative-arc **technique is proven 4× and productionized**: Robert's Rebellion (S104), Bran's fall (S105), **Sack of King's Landing + Purple Wedding (S106)**. The scaling strategy + rubric is `working/causal-arc-strategy-2026-06-18.md` (read it first). Term reference: `reference/narrative-arc-glossary.md`.
 
-**Parent-node decision (S105 recommendation, awaiting Matt's ratification):** **causal-chain-as-arc, NO umbrella parent nodes.** Deliver "show me the whole arc" via a `--causal-chain` query primitive, not a parent hub. This supersedes the umbrella-vs-chain fork in the parked `archive/2026-06-15-arc-wave1-mint.md`. Do NOT mint `event.arc` parent nodes unless Matt overrides.
+**DONE in S106:**
+- **Step 1 — `--causal-chain <slug>` primitive** in `scripts/graph-query.py` (walks CAUSES/TRIGGERS/MOTIVATES both directions; +10 tests). The whole-arc query that made "no umbrella parent" real.
+- **Chain-as-arc ratified by Matt** — arcs live as causal chains queried via `--causal-chain`; NO `event.arc` umbrella nodes. (Supersedes the umbrella-vs-chain fork in `archive/2026-06-15-arc-wave1-mint.md`.)
+- **Sack of KL** (4 beats, 21 edges) + **Purple Wedding** (4 beats, 20 edges) — both fresh-subagent verified ALL-CONFIRM. Mint scripts: `scripts/mint_{sack_kl,purple_wedding}_arc.py`.
 
 ## The work, in order
 
-### Step 1 — build the `--causal-chain` directed-traversal primitive (Track 7 prerequisite)
-In `scripts/graph-query.py`, add `--causal-chain <slug>` that walks **CAUSES / TRIGGERS / MOTIVATES** edges forward AND backward from the given node (transitively), returning the ordered consequence-chain. This is what makes a causal arc actually queryable ("what set X in motion / what did X lead to"). Without it the chains are latent. Smoke-test it on the Bran's-fall arc (`bran-witnesses-jaime-and-cersei` → … → `gregor-raids-the-riverlands`). Deterministic; add tests.
+### Step A (NEXT) — arc-weighted Mode-3 dip, BEFORE any Tier-B minting
+The strategy's cadence is **dip-driven, not mass-mint**. Run a Mode-3 grounded-agent dip (a graph-only agent answers reader-style questions; the ones it fumbles for lack of structure are the evidence) **weighted toward arc/consequence shapes** ("what set X in motion", "what were the consequences of Y", "who is to blame for Z"). Prior dips: `working/session-results/2026-06-15-mode3-dip-rerun.md` + the S96 dip. Let the failures **re-rank Tier B** — don't pre-commit.
 
-### Step 2 — first Tier-A arc batch (dip-gated, small)
-Mint 1–2 Tier-A arcs from the strategy's prioritized list — **Sack of King's Landing** and/or **Purple Wedding**. Reuse the RR/Bran template, with the two S105 lessons folded in as HARD steps:
-- **Pre-mint dedup lookup (mandatory):** before minting ANY beat-node, run its description through `python3 scripts/event_alias_resolver.py --lookup "<phrase>"` AND eyeball the all-node fuzzy index for matches ≥0.6. The ~200 verbose-slug Plate-3 beats are the collision surface — slug-guessing misses them (S105 minted a dup this way).
-- **Agency-collapse check:** before emitting `A CAUSES B`, ask whose decision sits between them. If a person chooses to act, model the agency — insert the decision as a beat node (if it's a scene, e.g. Littlefinger's lie) OR `MOTIVATES`→actor + the actor's `COMMANDS_IN`/`AGENT_IN` on B (if it's a choice, e.g. Tywin).
-- Don't mint thin hubs — every new beat gets role edges (AGENT_IN/VICTIM_IN/COMMANDS_IN/LOCATED_AT) like the Plate-3 beats.
+### Step B — Tier-B arcs, ordered by what the dip surfaces
+Candidates (strategy §3 Tier B): **Catelyn-frees-Jaime → Robb's-host-turns → Jeyne-Westerling → (feeds) Red Wedding**; **Greyjoy Rebellion → Theon-as-hostage → ironborn invasion of the North**. Reuse the proven machine (below). Mint only what the dip shows agents fumble.
+
+## The proven arc-mint machine (reuse for every arc)
+1. **Research subagent** (read-only, local cache): identify reader-load-bearing beats; **dedup-check each** via `python3 scripts/event_alias_resolver.py --lookup "<phrase>"` + grep `graph/nodes/events/`; gather VERBATIM chapter quotes with `file:line`; propose nodes + role/SUB_BEAT_OF/causal edges.
+2. **Orchestrator trims + mints** via a `scripts/mint_<arc>_arc.py` script (backup `edges.jsonl` to `_regrounding/` + re-run guard). Write beat-node `.md` files directly (prose + `## Quotes`).
+3. **Rebuild** targeted indexes (`build-entity-indexes.py --type events --slug <s>`) + `event_alias_resolver.py --build`.
+4. **Fresh-subagent verify** each causal edge + agency modeling vs local cache; mint causal edges with `verified_by: pending-*` then stamp on CONFIRM.
+5. **Smoke-test** `graph-query.py --causal-chain <beat>` + natural-phrase discoverability.
 
 ## Policy / guardrails (FIRM)
-- **Tier:** causal edges capped **Tier-2** (interpretive link); role edges Tier-1 (factual presence).
-- **CAUSES vs TRIGGERS:** TRIGGERS = immediate specific spark; CAUSES = mediated cause (S104 rule).
-- **Hard-stop discipline:** don't chain CAUSES into a multi-attributed terminus (e.g. don't assert `X CAUSES war-of-the-five-kings`).
-- **Verification:** every causal edge verified by a **fresh subagent vs the LOCAL cache** (chapters + `sources/wiki/_raw/`); never re-fetch. Matt gates at policy level, not per-edge.
-- **Node ADD → rebuild** targeted indexes (`build-entity-indexes.py --type events --slug <s>`) + `event_alias_resolver.py --build`. Back up `edges.jsonl` to `_regrounding/` before mutation.
-- **Vocabulary:** Pass/Track/Tier + lowercase `step`; Tier = confidence 1–5 ONLY. (paste into any naming/sequencing subagent.)
-
-## Open questions for Matt
-- Ratify (or revise) the parent-node recommendation before Step 2.
-- Which Tier-A arc first — Sack of KL (extends shipped RR/Trident work, answers dip Q10) or Purple Wedding (beats partly exist from FIX-22)?
+- **Tier:** causal edges capped **Tier-2** (interpretive link); role edges Tier-1. (Tier = confidence 1–5 ONLY.)
+- **CAUSES** = mediated; **TRIGGERS** = immediate specific spark; **MOTIVATES** = event/condition → actor; **PRECEDES** = pure chronology (NOT causal).
+- **Pre-mint dedup is mandatory** (S105 minted a dup without it; S106 it caught `fall-of-kings-landing` + 2 already-modeled layers).
+- **Agency-collapse check:** before `A CAUSES B`, model the human decision between them (beat node OR MOTIVATES→actor + COMMANDS_IN/AGENT_IN). Don't assert a frame as fact (PW: Tyrion VICTIM_IN only, never POISONS).
+- **Hard-stop:** don't chain CAUSES into a multi-attributed terminus (e.g. `→ war-of-the-five-kings`).
+- **Verification (FIRM, Matt):** interpretive/causal edges verified by fresh subagents vs LOCAL cache; never re-fetch; Matt gates at policy level, not per-edge.
 
 ## Vocabulary to paste into subagents
 Pass (numbered corpus sweep) · Track (named workstream) · step (lowercase, ordered piece) · Tier (confidence 1–5 ONLY). Source: `reference/glossary.md`.

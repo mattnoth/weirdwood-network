@@ -23,13 +23,20 @@ Adding a new capitalized term requires a worklog **Active Decision** entry.
 **Version numbers attach only to artifacts** (schema v3, prompt v5, `edges.jsonl` v1.3) — never to
 efforts, eras, or workstreams. Always qualify with the artifact name ("Pass-1 prompt v3").
 
+## Method terms (live, lowercase)
+
+Not governance terms (lowercase, no Active Decision needed to use them), but they recur often enough to pin down here.
+
+- **dip** — a *grounded-agent dip*: a validation probe in which an agent restricted to **graph-only** answers (no outside ASOIAF knowledge — it may only use what the graph can traverse) is posed a batch of reader-style questions. The questions it **fumbles for lack of graph structure** — not for lack of facts — are the evidence for what to build next. It's "dipping" a consumer agent into the graph to see where it comes up dry. Past runs: S96 (10 questions, 2 arc-shaped; the dominant failure was slug-discoverability, not missing arcs), S101 re-run (4 correct / 6 partial / 0 failed). An **arc-weighted dip** skews the batch toward consequence / "what set X in motion" / "who is to blame for Y" shapes to rank the causal-arc backlog specifically. Results land in `working/session-results/`. (Formerly called "Mode 3" — see Retired.)
+- **dip-driven** — the cadence rule that follows from it: ship a small validating batch, then **re-dip** and let *its* failures re-rank the next batch, rather than mass-minting up front. Source: `working/causal-arc-strategy-2026-06-18.md` §4; applied to the causal-arc track (`reference/narrative-arc-glossary.md`).
+
 ## Retired from reuse (historical-only)
 
 These are valid when **citing a past session** ("the Plate-3 work", "Stage 4 of Pass 2") and never
 coined anew. The history glossary decodes them in old docs; living docs use the canonical terms above.
 
 - **Stage, Plate, Phase, Wave, Bucket** → for new sequencing, use lowercase **step**.
-- **Mode** → "the validation probes"; "Mode 3" specifically = "the grounded-agent dip".
+- **Mode** → "the validation probes"; "Mode 3" specifically = the **dip** (now the live term — see *Method terms*).
 - **Sprint** → never actually used; ignore.
 - **Letter/number tracks** (`Track A/B/C`, `Track W`, `Track 1–6` as identifiers) → use the Track's **name**.
 - **Mission / watcher / worker** → stay inside the mission-protocol namespace only; not general vocabulary.

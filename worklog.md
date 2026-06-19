@@ -28,13 +28,13 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 ## Current State
 
-### STATUS — at a glance (verified 2026-06-18, S105)
+### STATUS — at a glance (verified 2026-06-19, S106)
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
-- Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,525** (events 593 incl. S104 RR spark-beats + 5 S105 Bran's-fall arc beats; excl. `_conflicts/` staging)
+- Wiki cache local (17,945 fetched → 17,657 unique files) + Pass 2 promotion: **graph/nodes/ = 8,533** (events incl. S104 RR spark-beats + 5 S105 Bran's-fall beats + **8 S106 arc beats: 4 Sack-of-KL + 4 Purple-Wedding**; excl. `_conflicts/` staging)
 - Entity + chapter indexes: **all 21 categories** (S72)
-- Edge layer LIVE: **`graph/edges/edges.jsonl` = 22,174 cited edges** (deterministic core v1.3 → … → S104 PRECEDES + RR causal chain → **S105 +17: the Bran's-fall causal arc — `witness→push→catspaw→littlefinger-lie→capture→gregor-raids` (CAUSES/TRIGGERS, HARD STOP before WO5K) + role edges + `capture MOTIVATES tywin` + `petyr DECEIVES catelyn`**). Node connectivity **~71%**. **7 evidence kinds** (incl. **`derived-chronology`** Tier-3 S104; **`wiki-historical-anchor`** Tier-2): wiki-infobox 17,006 / book-pass1 ~4,010 / book-pass1-reified 897 / derived-chronology 174 / plate4-wiki-cluster 51 / wiki-historical-anchor ~29 / book-curator 11 (+ causal-curator-pilot ~17). **128 edge types** (`MOTIVATES` now live, S105). Vocab **167**.
+- Edge layer LIVE: **`graph/edges/edges.jsonl` = 22,215 cited edges** (deterministic core v1.3 → … → S104 PRECEDES + RR causal chain → S105 Bran's-fall arc → **S106 +41: two Tier-A causal arcs — Sack-of-KL (`pycelle-opens-gates CAUSES sack`; `aerys-burn-order TRIGGERS kingslaying`; `murders MOTIVATES ned`; Tywin COMMANDS_IN vs Gregor/Amory AGENT_IN agency-split) + Purple-Wedding (`hairnet CAUSES joffrey-death TRIGGERS tyrion-accusation CAUSES trial`; whodunnit-safe — Tyrion VICTIM_IN only)**). NEW query primitive **`graph-query.py --causal-chain`** (walks CAUSES/TRIGGERS/MOTIVATES both directions). Node connectivity **~71%**. **7 evidence kinds** (incl. **`derived-chronology`** Tier-3 S104; **`wiki-historical-anchor`** Tier-2): wiki-infobox 17,006 / book-pass1 ~4,010 / book-pass1-reified 897 / derived-chronology 174 / plate4-wiki-cluster 51 / wiki-historical-anchor ~29 / book-curator 11 (+ causal-curator-pilot ~17). **128 edge types** (`MOTIVATES` now live, S105). Vocab **167**.
 - S92 Fable audit: doc truth-pass, project-story 8 chapters, infobox-merge spec v2 + script.
 - S93 deferred-restructures DONE: Wyman fake-execution arc (4-beat `event.deception` parent + 2 new sub-beats + 1 rename) + Jaime street-brawl merge (renamed survivor → `attack-on-ned-stark-in-the-streets-of-kings-landing`, sibling deleted, edges deduped). New vocab type: `event.deception`. See Session 93 entry.
 - **S94 (2026-06-13) infobox merge SHIPPED**: spec v2 → dry-run reproduction gate → apply. 20,614 wiki-infobox rows → 17,006 merged / 1,128 filtered / 1,037 quarantined / 1,356 deduped / 87 corroborations (bucket sum 20,614 ✓). Hygiene fixes folded in (52 slug remaps + 944 typed_by stamps). Backup at `graph/edges/_regrounding/edges-pre-infobox-merge-2026-06-13.jsonl`. See Session 94 entry.
@@ -43,10 +43,11 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - **Orchestration/pacer + script consolidation DONE (S98+S99)**: `scripts/pace.py` v1 (backfill+report-only) + telemetry ledger (`working/telemetry/`, 476 work rows + 8 wall events / 9 tracks) + `scripts/worker-template.py` (M1/M2/M4) + `longrun.sh` supervisor (S97). **S99 cleanup:** 30 one-offs/wrappers `git mv`→`scripts/archive/` (32 total); 9 frozen CSVs→`_archive/`; `weirwood graph/resolve/refresh` aliased (+ `scripts/weirwood-refresh.sh`); `scripts/README.md` rewritten as universal index (Class A/B/C/D + provenance, all 124 live + 32 archived covered); design §0 fully BUILT. pytest 1231 pass / 3 documented fails.
 
 **IN FLIGHT**
-- (none — S105 endsession complete.) **S105 produced the causal-arc scaling strategy + a second smoke-test arc (Bran's fall) + a 4-lens advisory board.** The S104 continue prompt (pure-analysis) is fully consumed → archived. **One open item awaiting Matt: ratify the parent-node recommendation** (causal-chain-as-arc + a `--causal-chain` traversal primitive, NO umbrella parent nodes). New live track = causal-arc execution (see NEXT TRACK).
+- (none — S106 endsession complete.) **S106 ratified chain-as-arc (no umbrella parents), shipped the `--causal-chain` primitive, and minted+verified the two Tier-A causal arcs (Sack of KL, Purple Wedding) as one validating batch.** Continue prompt `2026-06-18-causal-arc-execution.md`: Step 1 DONE; Step 2 partially consumed (2 of the Tier-A arcs shipped; rest is dip-gated).
 
-**NEXT TRACK (S105 → S106)**
-- **START AT `progress/continue-prompts/2026-06-18-causal-arc-execution.md` (LIVE, Sonnet 4.6 + fresh-subagent verify).** Gated on Matt ratifying the parent-node rec. Sequence: (1) build the `--causal-chain` directed-traversal primitive in `graph-query.py` (Track 7 prerequisite — walks CAUSES/TRIGGERS/MOTIVATES both directions); (2) run the first Tier-A arc batch (Sack of King's Landing, Purple Wedding) **with the two S105 lessons folded in: pre-mint dedup lookup + agency-collapse check.** Strategy + rubric: `working/causal-arc-strategy-2026-06-18.md`. **Verification (FIRM, Matt):** interpretive/causal edges checked by fresh subagents vs LOCAL cache; Matt gates at policy level, not per-edge.
+**NEXT TRACK (S106 → S107)**
+- **Re-run an arc-weighted Mode-3 dip BEFORE any Tier-B minting** (strategy's dip-driven cadence — don't mass-mint). The dip's failures re-rank Tier B (Catelyn-frees-Jaime→Red-Wedding-feed; Greyjoy→Theon-hostage→Northern-invasion). Strategy + rubric: `working/causal-arc-strategy-2026-06-18.md`; continue prompt `progress/continue-prompts/2026-06-18-causal-arc-execution.md` (Step 2 ongoing). **Verification (FIRM, Matt):** interpretive/causal edges checked by fresh subagents vs LOCAL cache; Matt gates at policy level, not per-edge. (**Sonnet 4.6**)
+- Reusable arc-mint machine now proven 4× (RR, Bran, Sack, PW): research subagent (dedup + quotes + edge proposal) → orchestrator trims/mints via a `scripts/mint_*_arc.py` script (backup + re-run guard) → targeted index + alias rebuild → fresh-subagent verify (causal edges `verified_by: pending` until CONFIRM) → `--causal-chain` smoke test.
 - Still parked (restore from `archive/` when next): arc-wave1 mint (gated on Matt's 3 decisions); Fable repo-reorg (`working/repo-reorg-plan-2026-06-12.md`); 2 narrow vocab follow-ups (todos: live non-confidence "Tier"→class/level; pull-channel pointer in ~8 agents).
 - **narrative-arc wave 1 mint** — RECOMMENDED NEXT, but **GATED on Matt's 3 decisions** (RW-4 role edges / arc boundaries / RECIPIENT_IN). Prompt PARKED in `progress/continue-prompts/archive/2026-06-15-arc-wave1-mint.md` (one-live-prompt policy S99); restore to live when Matt decides. (**Sonnet 4.6**)
 - historical-anchor #9 **wave 3 (optional, low)** — deep-lore wiki-only set (approach b); `siege-of-storms-end` cluster needs dedup first. Defer until a dip shows demand. Wave-2 prompt archived S100.
@@ -250,6 +251,26 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 106 — Causal-arc execution: `--causal-chain` primitive + Sack-of-KL & Purple-Wedding arcs (2026-06-19)
+**Detail:** `history/session-details/session-106.md`
+**Model:** Opus 4.8 orchestrator + 1 background `general-purpose` doc agent + 4 `general-purpose` subagents (2 arc-research + 2 fresh edge-verification). **Commit:** this endsession commit.
+
+**Changes made:**
+- **Step 1 — `--causal-chain <slug>` traversal primitive SHIPPED** in `scripts/graph-query.py` (walks CAUSES/TRIGGERS/MOTIVATES transitively, both directions; PRECEDES deliberately excluded as pure-chronology). +10 tests (`tests/test_graph_query_edges.py`). The Track-7 prerequisite that makes causal arcs queryable from any beat — and what made the chain-as-arc decision real ("show me the whole arc" without an umbrella node).
+- **NEW `reference/narrative-arc-glossary.md`** (~28 terms, 5 sections) — data-model/method companion to `glossary.md` (process vocab) + `architecture.md` (schema). Written by a background agent.
+- **Sack of King's Landing arc** — 4 new beat nodes (`pycelle-opens-the-gates-of-kings-landing` [event.deception], `aerys-commands-the-city-burned` [event.incident], `slaying-of-aerys-ii-the-kingslaying` [event.assassination], `murder-of-elia-martell-and-rhaegars-children` [event.assassination]) + **21 edges** (14 role Tier-1 + 4 SUB_BEAT_OF + 3 causal Tier-2). Mint script `scripts/mint_sack_kl_arc.py`; backup `_regrounding/edges-pre-sack-kl-arc-2026-06-19.jsonl`.
+- **Purple Wedding arc** — 4 new beat nodes (`sansa-receives-the-poisoned-hairnet` [event.deception], `tyrion-accused-of-poisoning-joffrey` [event.incident], `trial-of-tyrion-lannister` [event.trial], `littlefinger-smuggles-sansa-out-of-kings-landing` [event.deception]) + **20 edges** (14 role + 3 SUB_BEAT_OF + 3 causal Tier-2). Mint script `scripts/mint_purple_wedding_arc.py`; backup `_regrounding/edges-pre-purple-wedding-arc-2026-06-19.jsonl`.
+- **Totals:** nodes **8,525 → 8,533** (+8 beats); edges **22,174 → 22,215** (+41); orphans **62 unchanged**; edge types **128** (no new types); **0 pending** verified_by (all 6 causal edges fresh-subagent CONFIRMED). pytest **1307 pass / 1 documented `cwd-is-tmp` fail**.
+
+**Decisions:**
+- **Parent-node rec ratified by Matt → chain-as-arc, NO `event.arc` umbrella nodes** (the `--causal-chain` primitive delivers the whole-arc query; supersedes the umbrella-vs-chain fork in the parked arc-wave1 prompt).
+- **Scope = 2 Tier-A arcs as one validating batch** (Matt), NOT a minting fleet — a fleet was considered and rejected as wrong-shaped (arc-minting is low-volume + judgment-heavy + write-conflicting; the agency-collapse check and pre-mint dedup don't parallelize). **D&E noted as main-arc in priority** (Bloodraven-in-the-flesh seeds theory anchors); it stays after in-saga arcs only because its chapters aren't Pass-1-extracted yet.
+- **Discipline held end-to-end:** pre-mint dedup gate caught 2 real collisions (`fall-of-kings-landing` = the Dance-era fall, kept distinct; the existing flat role-layer on the sack hub + the existing Littlefinger/Olenna conspiracy on the death node — NOT duplicated). Agency-collapse modeled (Tywin COMMANDS_IN vs Gregor/Amory AGENT_IN; PW whodunnit = zero `tyrion POISONS joffrey`, Tyrion VICTIM_IN only). Causal edges Tier-2-capped; role Tier-1. All 8 beats natural-phrase discoverable (closes the S105 Track-7 gap). Both fresh verifiers returned ALL-CONFIRM.
+
+**What's next:**
+- → **Per the strategy's dip-driven cadence: re-run an arc-weighted Mode-3 dip before committing Tier B** (Catelyn-frees-Jaime→Red-Wedding-feed; Greyjoy→Theon-hostage→Northern-invasion). Don't mass-mint. Strategy: `working/causal-arc-strategy-2026-06-18.md`; continue prompt `progress/continue-prompts/2026-06-18-causal-arc-execution.md` (Step 1 done; Step 2 ongoing, dip-gated). (**Sonnet 4.6**)
+- Small cleanups surfaced by verifiers (→ todos § Small Fixes): duplicate `robert-baratheon` vs `robert-i-baratheon` node; sack hub's junk `DEFEATS: Elia of Dorne` infobox edge.
+
 ### Session 105 — Causal-arc scaling strategy + Bran's-fall smoke test #2 + advisory board (2026-06-18)
 **Detail:** `history/session-details/session-105.md`
 **Model:** Opus 4.8 (1M context) orchestrator + 5 Sonnet 4.6 `general-purpose` subagents (2 edge-verification + 4-lens advisory board). **Commit:** this endsession commit.
@@ -324,27 +345,8 @@ This is your project memory. When you come back after a break, **STATUS — at a
 **What's next** (live continue prompt updated: `progress/continue-prompts/2026-06-16-next-move-decisions.md`, **Sonnet 4.6**):
 - → **3 decisions remain, all Matt's:** (1) `PRECEDES`/`FOLLOWS` vocab-add (D3) + grouping basis (0 dated events share a `PART_OF` parent) · (2) causal `TRIGGERS` sign-off (Robert's Rebellion pilot; no vocab add) · (3) Fable cleanup (nomenclature scheme + repo-reorg). Track 3 (dating leftovers) is DONE.
 
-### Session 101 — Events/time design + deterministic event dating SHIPPED + Mode-3 dip re-run (2026-06-16)
-**Detail:** `history/session-details/session-101.md`
-**Model:** Opus 4.8 (1M context) orchestrator + ~14 Sonnet 4.6 subagents (dip re-run; 4-lens events/time panel; era research→analysis pipeline; 4-stance next-move panel; worklog-rotation advisor; 2 script-builder runs). **Commits:** `36abaabf` (archival) + `2eacbf7c` (dating+design) + this endsession commit.
-
-**Changes made:**
-- **Event in-world dating SHIPPED (deterministic, $0, +0 edges):** 112 `event.*` nodes gained an `occurred:` block (`ac_year` + `precision:year` + `basis_source:wiki-year-page` + `basis_reliability:tertiary-fan` + `date_confidence:tier-3`) from `chronology-events.jsonl` (single attested year + exact slug match); **29 also gained `narrative_first`** (`{book}-{chapter_number}`, min reader-encounter, resolve-all-or-skip across both edge ref formats). NEW `scripts/date-event-nodes.py` + `scripts/backfill-narrative-first.py` (+64 tests; **pytest 1295 pass / 3 documented fails**). Frontmatter-only, idempotent, bodies byte-preserved, `--health` unchanged (8,528/21,993/62). `reference/architecture.md`: `occurred:` schema + sub-field table documented.
-- **Mode-3 dip RE-RUN** → `working/session-results/2026-06-15-mode3-dip-rerun.md`: **4 correct / 6 partial / 0 failed** (was 4/2/4). + temporal mini-probe (4/5 time queries fail today → motivated dating).
-- **Design trail:** `working/design-opinions/` (events/time 4-lens panel + SYNTHESIS; era research + analysis) · `working/next-move-decisions-2026-06-16.md` (the 4 entry points) · `working/session-results/2026-06-16-event-dating-{dryrun,APPLIED}.md` + `2026-06-16-narrative-first-dryrun.md`.
-- **Repo hygiene:** 4 historic top-level markdowns `git mv` → `history/archive/` (BEFORE-LEAVE-RESUME, EDGE_MODELING_VALIDATOR_LOG, STAGE4-SMOKE-REVIEW, next.md). Top level keeps CLAUDE/worklog/README + clusters-primer + scr.
-
-**Decisions:**
-- **Re-ran the S96 Mode-3 dip (now in archive020) on the current graph** — its arc DE-PRIORITIZATION (S96 D3) CONFIRMED a 2nd time (the measured gaps are causal-edge + `ATTENDS`, not missing arcs); recent work paid off (4 fails→0; Tourney-at-Harrenhal 0→25 edges; S96 Track-7 resolver fix verified shipped). Arc wave 1 stays parked; shipped **event dating** instead (dip-driven sequencing).
-- **Events/time = TWO axes** (in-world `ac_year` vs narrative `narrative_first`); time lives in node frontmatter; ordering edges DERIVED not authored. **Era schema: signed `ac_year` (negative=BC), NO `era:AC|BC`** (collides with the existing epoch `era` field, architecture.md:438); 9-invariant validator. `long-night` excluded (wiki mention-index error — prehistoric, not 297 AC).
-- **`PRECEDES`/`FOLLOWS` is GATED, not mechanical:** not in the locked vocab (deferred schema decision, roadmap D3) AND 0 dated events share a `PART_OF` parent → no cluster to order within. Needs Matt's vocab + grouping call. **Causal `TRIGGERS`** = the dip's measured gap; interpretive → Matt sign-off.
-- **Worklog rotation:** archived S96 normally (→ archive020, 5/5) + anchored the S96-dip reference in this entry, rather than pausing rotation (fresh-advisor call: a paused rotation silently lapses after one context reset — a documented failure mode here). Optional future safeguard logged in todos (pytest session-count guard).
-
-**What's next — 4 decisions, ALL for Matt** (`working/next-move-decisions-2026-06-16.md`):
-- → **resolve all 4:** (1) `PRECEDES`/`FOLLOWS` vocab D3 + grouping basis · (2) causal `TRIGGERS` sign-off (Robert's Rebellion pilot) · (3) dating leftovers (5 spans / `long-night`-as-era / `conquest-of-dorne` book-vs-event / 10 mistyped `*-ac` year nodes) · (4) Fable cleanup (nomenclature scheme + repo-reorg). Continue: `progress/continue-prompts/2026-06-16-next-move-decisions.md` (**Sonnet 4.6**) — opens by asking Matt to answer them.
-
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive021 = S97–S100 (current, 4/5) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive021 = S97–S101 (FULL, 5/5 — next = archive022, starts S102) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

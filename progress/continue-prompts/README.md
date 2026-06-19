@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-18 (refreshed after S105)  
+**Generated:** 2026-06-19 (refreshed after S106)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 | Causal-arc execution: traversal primitive + first Tier-A batch | **LIVE (gated on Matt's parent-node ratification)** | Sonnet 4.6 | Strategy written + technique proven twice (RR S104, Bran's fall S105). Next: (1) build `--causal-chain` traversal primitive in `graph-query.py`; (2) first Tier-A arc batch (Sack of KL / Purple Wedding) with the S105 lessons folded in (pre-mint dedup lookup + agency-collapse check). Spec: `working/causal-arc-strategy-2026-06-18.md`. Parent-node rec (awaiting ratify): causal-chain-as-arc, NO umbrella parents. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (rewritten S106) | Causal-arc execution: re-dip, then Tier B | **LIVE** | Sonnet 4.6 | S106: chain-as-arc RATIFIED; `--causal-chain` primitive + Sack-of-KL + Purple-Wedding arcs SHIPPED + fresh-subagent verified. **Next action = arc-weighted Mode-3 dip BEFORE any Tier-B minting** (dip-driven, not mass-mint); the dip re-ranks Tier B. Spec: `working/causal-arc-strategy-2026-06-18.md`; terms: `reference/narrative-arc-glossary.md`. |
 
 ---
 
@@ -24,7 +24,7 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 |-------|-------|--------|
 | `2026-06-17-causal-edges-and-spark-nodes.md` | 1 file | **DONE S105** — pure-analysis strategy delivered (`working/causal-arc-strategy-2026-06-18.md`) + second smoke-test arc (Bran's fall) built + 4-lens advisory board run. Superseded by the causal-arc-execution live track. |
 | `2026-06-16-next-move-decisions.md` | 1 file | **DONE S104** — both remaining decisions resolved: #1 `PRECEDES` ordering edges SHIPPED (174); #2 causal pilot SHIPPED (2 `CAUSES` edges). Superseded by the causal-edges+spark-nodes live track. |
-| `2026-06-15-arc-wave1-mint.md` | 1 file | **PARKED S99** — gated on Matt's 3 decisions (RW-4 role edges / arc boundaries / RECIPIENT_IN vocab). Drafts+review done. Restore when Matt decides. Context: worklog S95/S97 + `curation/narrative-arc-wave1-*-draft-2026-06-14.md`. |
+| `2026-06-15-arc-wave1-mint.md` | 1 file | **STALE-superseded-by-chain-as-arc (S106)** — its `event.conspiracy` umbrella-parent model is reversed by the S105/S106 chain-as-arc decision (arcs = causal chains queried via `--causal-chain`, NO parent hubs). Kept for historical reference only; do NOT restore as-is. The Red-Wedding/Joffrey arcs it drafted are now candidates for the chain-as-arc machine. (Prompt body unchanged per the manifest hard rule; staleness tracked here.) See memory `project_narrative_arc_reification`. |
 | `2026-06-05-edge-modeling-plate-4-haiku-disposition.md` | 1 file | **PARKED S99** — post-Plate-5 backfill Track B (1,617 Haiku bulk re-bucketing); lower-priority backlog, de-prioritized by S96 dip. Context: `working/todos.md` Track B. |
 | `2026-06-15-historical-anchor-wave2.md` | 1 file | **DONE S100** — wave 2 shipped: 4 WO5K hubs attached (siege-of-riverrun/battle-of-the-camps/battle-of-oxcross/melee-at-bitterbridge), +43 edges (21,950→21,993), validated + minted. `siege-of-storms-end` deferred (dup cluster). Wave 3 (deep-lore wiki-only) optional/low. |
 | `2026-06-15-script-consolidation.md` | 1 file | **DONE S99** — Session 1 (pacer/orchestration) S98 + Session 2 (archive 30 one-offs/wrappers, `weirwood graph/resolve/refresh` aliasing, README universal-index refresh, design §0 fully BUILT) S99. |
@@ -41,14 +41,12 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ## Open thread right now (ONE live track)
 
-**LIVE: `2026-06-18-causal-arc-execution.md`** (gated on Matt ratifying the parent-node rec) — the causal-arc
-technique is proven twice (RR S104, Bran's fall S105) and the scaling strategy is written
-(`working/causal-arc-strategy-2026-06-18.md`). Next: (1) build the `--causal-chain` directed-traversal
-primitive in `graph-query.py` (walks CAUSES/TRIGGERS/MOTIVATES both ways — without it the chains are latent);
-(2) run the first Tier-A arc batch (Sack of KL / Purple Wedding) with the two S105 lessons folded in as HARD
-steps — **pre-mint dedup lookup** + **agency-collapse check**. Causal edges Tier-2, fresh-subagent-verified vs
-the LOCAL cache. **Parent-node recommendation (awaiting Matt's ratify): causal-chain-as-arc, NO umbrella parent
-nodes** — deliver whole-arc queries via the primitive, not a parent hub.
+**LIVE: `2026-06-18-causal-arc-execution.md`** — chain-as-arc ratified (S106); the `--causal-chain` primitive +
+the two Tier-A arcs (Sack of KL, Purple Wedding) are SHIPPED and fresh-subagent-verified. **Next action = run an
+arc-weighted Mode-3 dip BEFORE any Tier-B minting** (Catelyn-frees-Jaime→Red-Wedding-feed; Greyjoy→Theon-hostage→
+Northern-invasion). Dip-driven, not mass-mint: the dip's fumbles re-rank Tier B. Reuse the proven mint machine
+(research subagent → trim+mint script → index/alias rebuild → fresh-subagent verify → `--causal-chain` smoke).
+Spec: `working/causal-arc-strategy-2026-06-18.md`; terms: `reference/narrative-arc-glossary.md`.
 
-*Parked in `archive/` (restore when next, not deleted): arc-wave1-mint (gated on Matt's 3 decisions; the S105 parent-node rec supersedes its umbrella-vs-chain fork), edge-modeling-plate-4 Track B (backlog).*
+*Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*

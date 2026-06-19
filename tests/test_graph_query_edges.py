@@ -331,6 +331,126 @@ class TestHealth:
 
 
 # ---------------------------------------------------------------------------
+# --causal-chain tests
+# ---------------------------------------------------------------------------
+
+# A linear causal chain with one downstream branch at the focal node `d`, plus
+# a non-causal edge (PRECEDES) that must be ignored:
+#
+#   a --[TRIGGERS]--> b --[CAUSES]--> c --[CAUSES]--> d --[CAUSES]--> e
+#                                                     d --[MOTIVATES]--> x
+#   a --[PRECEDES]--> e    (chronology only — must NOT appear)
+CAUSAL_FIXTURE = [
+    {"edge_type": "TRIGGERS", "source_slug": "a", "target_slug": "b",
+     "confidence_tier": 2, "evidence_ref": "x.md:1", "evidence_quote": "spark"},
+    {"edge_type": "CAUSES", "source_slug": "b", "target_slug": "c",
+     "confidence_tier": 2, "evidence_ref": "x.md:2", "evidence_quote": ""},
+    {"edge_type": "CAUSES", "source_slug": "c", "target_slug": "d",
+     "confidence_tier": 2, "evidence_ref": "x.md:3", "evidence_quote": ""},
+    {"edge_type": "CAUSES", "source_slug": "d", "target_slug": "e",
+     "confidence_tier": 2, "evidence_ref": "x.md:4", "evidence_quote": ""},
+    {"edge_type": "MOTIVATES", "source_slug": "d", "target_slug": "x",
+     "confidence_tier": 2, "evidence_ref": "x.md:5", "evidence_quote": ""},
+    {"edge_type": "PRECEDES", "source_slug": "a", "target_slug": "e",
+     "confidence_tier": 3, "evidence_ref": "x.md:6", "evidence_quote": ""},
+]
+
+
+class TestCausalChain:
+    """Tests for cmd_causal_chain via JSON output."""
+
+    def _run(self, slug: str, edges: list[dict], tmp_path: Path) -> dict:
+        import io
+        from contextlib import redirect_stdout
+
+        edges_file = _write_edges(tmp_path, edges)
+        loaded = gq.load_edges(edges_file)
+        buf = io.StringIO()
+        with redirect_stdout(buf):
+            gq.cmd_causal_chain(slug, loaded, json_output=True)
+        return json.loads(buf.getvalue())
+
+    def test_full_chain_from_middle(self, tmp_path):
+        # From focal node `d`: 3 upstream (a→b, b→c, c→d) + 2 downstream (d→e, d→x)
+        result = self._run("d", CAUSAL_FIXTURE, tmp_path)
+        assert result["upstream_count"] == 3
+        assert result["downstream_count"] == 2
+
+    def test_all_downstream_from_root(self, tmp_path):
+        # From the root `a`: 0 upstream, 5 downstream (whole arc minus PRECEDES)
+        result = self._run("a", CAUSAL_FIXTURE, tmp_path)
+        assert result["upstream_count"] == 0
+        assert result["downstream_count"] == 5
+
+    def test_all_upstream_from_leaf(self, tmp_path):
+        # From leaf `e`: 4 upstream (a→b, b→c, c→d, d→e), 0 downstream
+        result = self._run("e", CAUSAL_FIXTURE, tmp_path)
+        assert result["upstream_count"] == 4
+        assert result["downstream_count"] == 0
+
+    def test_precedes_excluded(self, tmp_path):
+        # PRECEDES (a→e) is chronology, not causation — must not appear anywhere.
+        result = self._run("a", CAUSAL_FIXTURE, tmp_path)
+        types = {edge["edge_type"] for edge in result["downstream"]}
+        assert "PRECEDES" not in types
+        # e is reached only via the CAUSES chain, not the direct PRECEDES edge
+        assert all(edge["edge_type"] in {"CAUSES", "TRIGGERS", "MOTIVATES"}
+                   for edge in result["downstream"])
+
+    def test_motivates_branch_captured(self, tmp_path):
+        result = self._run("d", CAUSAL_FIXTURE, tmp_path)
+        down = {(e["source_slug"], e["edge_type"], e["target_slug"])
+                for e in result["downstream"]}
+        assert ("d", "CAUSES", "e") in down
+        assert ("d", "MOTIVATES", "x") in down
+
+    def test_depth_assigned(self, tmp_path):
+        # Downstream depths from root: b=1, c=2, d=3, e=4, x=4
+        result = self._run("a", CAUSAL_FIXTURE, tmp_path)
+        depth_by_target = {e["target_slug"]: e["depth"] for e in result["downstream"]}
+        assert depth_by_target["b"] == 1
+        assert depth_by_target["e"] == 4
+        assert depth_by_target["x"] == 4
+
+    def test_isolated_node(self, tmp_path):
+        result = self._run("ghost", CAUSAL_FIXTURE, tmp_path)
+        assert result["upstream_count"] == 0
+        assert result["downstream_count"] == 0
+
+    def test_cycle_safe(self, tmp_path):
+        # A→B→A cycle must terminate and emit each edge once.
+        cyclic = [
+            {"edge_type": "CAUSES", "source_slug": "p", "target_slug": "q",
+             "confidence_tier": 2, "evidence_ref": "x.md:1", "evidence_quote": ""},
+            {"edge_type": "CAUSES", "source_slug": "q", "target_slug": "p",
+             "confidence_tier": 2, "evidence_ref": "x.md:2", "evidence_quote": ""},
+        ]
+        result = self._run("p", cyclic, tmp_path)
+        assert result["downstream_count"] == 2
+
+    def test_node_lists(self, tmp_path):
+        result = self._run("d", CAUSAL_FIXTURE, tmp_path)
+        assert set(result["upstream_nodes"]) == {"a", "b", "c"}
+        assert set(result["downstream_nodes"]) == {"e", "x"}
+
+    def test_text_mode_renders(self, tmp_path):
+        # Text mode calls _node_header (node-file lookup); should not crash even
+        # when the node file is absent.
+        import io
+        from contextlib import redirect_stdout
+
+        edges_file = _write_edges(tmp_path, CAUSAL_FIXTURE)
+        loaded = gq.load_edges(edges_file)
+        buf = io.StringIO()
+        with redirect_stdout(buf):
+            gq.cmd_causal_chain("d", loaded, json_output=False)
+        out = buf.getvalue()
+        assert "CAUSAL CHAIN: d" in out
+        assert "UPSTREAM" in out
+        assert "DOWNSTREAM" in out
+
+
+# ---------------------------------------------------------------------------
 # load_edges error handling
 # ---------------------------------------------------------------------------
 

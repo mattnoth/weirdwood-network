@@ -11,6 +11,22 @@
     "abel murdered": "mance-rayder-brought-to-execution",
     "abel's death": "mance-rayder-brought-to-execution",
     "abel's execution": "mance-rayder-brought-to-execution",
+    "aegon targaryen (son of rhaegar) assassinated": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen (son of rhaegar) death": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen (son of rhaegar) execution": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen (son of rhaegar) is killed": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen (son of rhaegar) killed": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen (son of rhaegar) murdered": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen (son of rhaegar)'s death": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen (son of rhaegar)'s execution": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar assassinated": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar death": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar execution": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar is killed": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar killed": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar murdered": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar's death": "murder-of-elia-martell-and-rhaegars-children",
+    "aegon targaryen son of rhaegar's execution": "murder-of-elia-martell-and-rhaegars-children",
     "aegon the conqueror with teats assassinated": "ned-orders-daenerys-s-assassination-cancelled",
     "aegon the conqueror with teats death": "ned-orders-daenerys-s-assassination-cancelled",
     "aegon the conqueror with teats execution": "ned-orders-daenerys-s-assassination-cancelled",
@@ -33,8 +49,10 @@
     "aemonds march on harrenhal": "aemonds-march-on-harrenhal",
     "aeron damphair demands benfred s death": "aeron-damphair-demands-benfred-s-death",
     "aeron damphair demands benfred's death": "aeron-damphair-demands-benfred-s-death",
+    "aerys commands the city burned": "aerys-commands-the-city-burned",
     "aerys demands ned and robert": "aerys-demands-ned-and-robert",
     "aerys demands the heads of eddard stark and robert baratheon": "aerys-demands-ned-and-robert",
+    "aerys orders the wildfire fired": "aerys-commands-the-city-burned",
     "aerys the third assassinated": "death-of-joffrey-baratheon",
     "aerys the third death": "death-of-joffrey-baratheon",
     "aerys the third execution": "death-of-joffrey-baratheon",
@@ -45,6 +63,7 @@
     "aerys the third's execution": "death-of-joffrey-baratheon",
     "aerys-demand-for-stark-and-baratheon": "aerys-demands-ned-and-robert",
     "aerys-demands-the-heads-of-ned-and-robert": "aerys-demands-ned-and-robert",
+    "aerys-orders-rossart-to-burn-the-city": "aerys-commands-the-city-burned",
     "age of heroes": "age-of-heroes",
     "alayne i": "alayne-i-the-winds-of-winter",
     "alayne i (the winds of winter)": "alayne-i-the-winds-of-winter",
@@ -94,6 +113,8 @@
     "arys oakheart's execution": "ser-arys-is-killed",
     "ashford tourney": "ashford-tourney",
     "assassination of abel": "mance-rayder-brought-to-execution",
+    "assassination of aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "assassination of aegon targaryen son of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "assassination of aegon the conqueror with teats": "ned-orders-daenerys-s-assassination-cancelled",
     "assassination of aerys the third": "death-of-joffrey-baratheon",
     "assassination of arys oakheart": "ser-arys-is-killed",
@@ -133,6 +154,8 @@
     "assassination of dragonmother": "ned-orders-daenerys-s-assassination-cancelled",
     "assassination of drogon": "hizdahr-orders-drogon-killed",
     "assassination of eddard stark": "execution-of-eddard-stark",
+    "assassination of elia martell": "murder-of-elia-martell-and-rhaegars-children",
+    "assassination of elia of dorne": "murder-of-elia-martell-and-rhaegars-children",
     "assassination of freak": "tyrion-processes-the-assassination-attempt",
     "assassination of giant of lannister": "tyrion-processes-the-assassination-attempt",
     "assassination of halfman": "tyrion-processes-the-assassination-attempt",
@@ -183,12 +206,13 @@
     "assassination of onion lord": "wyman-publicly-orders-davos-execution",
     "assassination of onion smuggler": "wyman-publicly-orders-davos-execution",
     "assassination of praed": "praed-s-death-and-burial",
-    "assassination of prince that was promised": "ned-orders-daenerys-s-assassination-cancelled",
     "assassination of pup": "robb-is-killed",
     "assassination of queen across the waters": "ned-orders-daenerys-s-assassination-cancelled",
     "assassination of queen's monster": "hizdahr-orders-drogon-killed",
     "assassination of quiet wolf": "execution-of-eddard-stark",
     "assassination of redhands": "tyrion-processes-the-assassination-attempt",
+    "assassination of rhaenys targaryen (daughter of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "assassination of rhaenys targaryen daughter of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "assassination of robb stark": "robb-is-killed",
     "assassination of robb the boy": "robb-is-killed",
     "assassination of robb the lord": "robb-is-killed",
@@ -497,6 +521,7 @@
     "brienne asks to arm renly for battle": "brienne-asks-to-arm-renly-for-battle",
     "bronn kills ser vardis": "bronn-kills-ser-vardis",
     "bronn kills symon": "assassination-of-symon-silver-tongue",
+    "burn-them-all-order": "aerys-commands-the-city-burned",
     "burning of harrenhal": "burning-of-harrenhal",
     "burning of jeyne poore": "burning-of-jeyne-poore",
     "burning of pinkmaiden castle": "burning-of-pinkmaiden-castle",
@@ -579,6 +604,7 @@
     "cersei's plan to send osney to the wall": "cersei-s-plot-to-assassinate-jon-snow",
     "cersei's plot to assassinate jon snow": "cersei-s-plot-to-assassinate-jon-snow",
     "cersei's small council is deceived about davos": "frey-witnesses-attest-davos-dead-at-small-council",
+    "cersei-accuses-tyrion-of-regicide": "tyrion-accused-of-poisoning-joffrey",
     "cersei-orders-executions": "execution-of-the-blackwater-deserters",
     "cersei-orders-osney-to-kill-jon-snow": "cersei-s-plot-to-assassinate-jon-snow",
     "child of three assassinated": "ned-orders-daenerys-s-assassination-cancelled",
@@ -697,6 +723,8 @@
     "deaf dick follard's death": "deaf-dick-follard-killed",
     "deaf dick follard's execution": "deaf-dick-follard-killed",
     "death of abel": "mance-rayder-brought-to-execution",
+    "death of aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "death of aegon targaryen son of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "death of aegon the conqueror with teats": "ned-orders-daenerys-s-assassination-cancelled",
     "death of aerys the third": "death-of-joffrey-baratheon",
     "death of arys oakheart": "ser-arys-is-killed",
@@ -737,6 +765,8 @@
     "death of dragonmother": "ned-orders-daenerys-s-assassination-cancelled",
     "death of drogon": "hizdahr-orders-drogon-killed",
     "death of eddard stark": "execution-of-eddard-stark",
+    "death of elia martell": "murder-of-elia-martell-and-rhaegars-children",
+    "death of elia of dorne": "murder-of-elia-martell-and-rhaegars-children",
     "death of freak": "tyrion-processes-the-assassination-attempt",
     "death of giant of lannister": "tyrion-processes-the-assassination-attempt",
     "death of halfman": "tyrion-processes-the-assassination-attempt",
@@ -788,12 +818,13 @@
     "death of onion lord": "wyman-publicly-orders-davos-execution",
     "death of onion smuggler": "wyman-publicly-orders-davos-execution",
     "death of praed": "praed-s-death-and-burial",
-    "death of prince that was promised": "ned-orders-daenerys-s-assassination-cancelled",
     "death of pup": "robb-is-killed",
     "death of queen across the waters": "ned-orders-daenerys-s-assassination-cancelled",
     "death of queen's monster": "hizdahr-orders-drogon-killed",
     "death of quiet wolf": "execution-of-eddard-stark",
     "death of redhands": "tyrion-processes-the-assassination-attempt",
+    "death of rhaenys targaryen (daughter of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "death of rhaenys targaryen daughter of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "death of robb stark": "robb-is-killed",
     "death of robb the boy": "robb-is-killed",
     "death of robb the lord": "robb-is-killed",
@@ -832,7 +863,9 @@
     "death of yollo": "tyrion-processes-the-assassination-attempt",
     "death of young usurper": "death-of-joffrey-baratheon",
     "death of young wolf": "robb-is-killed",
+    "death-of-aerys-ii-targaryen": "slaying-of-aerys-ii-the-kingslaying",
     "deaths on the march": "deaths-on-the-march",
+    "deaths-of-rhaegars-children": "murder-of-elia-martell-and-rhaegars-children",
     "defenders killed on battlements": "defenders-killed-on-battlements",
     "defenestration of sunspear": "defenestration-of-sunspear",
     "defiance of duskendale": "defiance-of-duskendale",
@@ -857,6 +890,8 @@
     "dog fight kills stout s hound": "dog-fight-kills-stout-s-hound",
     "dog fight kills stout's hound": "dog-fight-kills-stout-s-hound",
     "dontos's death": "killing-of-dontos-hollard",
+    "dontos-gives-sansa-the-hairnet": "sansa-receives-the-poisoned-hairnet",
+    "dontos-leads-sansa-from-the-castle": "littlefinger-smuggles-sansa-out-of-kings-landing",
     "doom": "doom-of-valyria",
     "doom of valyria": "doom-of-valyria",
     "doran arrests the sand snakes": "arrest-of-the-sand-snakes",
@@ -909,10 +944,28 @@
     "eddard stark murdered": "execution-of-eddard-stark",
     "eddard stark's death": "execution-of-eddard-stark",
     "eddard stark's execution": "execution-of-eddard-stark",
+    "elia martell assassinated": "murder-of-elia-martell-and-rhaegars-children",
+    "elia martell death": "murder-of-elia-martell-and-rhaegars-children",
+    "elia martell execution": "murder-of-elia-martell-and-rhaegars-children",
+    "elia martell is killed": "murder-of-elia-martell-and-rhaegars-children",
+    "elia martell killed": "murder-of-elia-martell-and-rhaegars-children",
+    "elia martell murdered": "murder-of-elia-martell-and-rhaegars-children",
+    "elia martell's death": "murder-of-elia-martell-and-rhaegars-children",
+    "elia martell's execution": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne assassinated": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne death": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne execution": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne is killed": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne killed": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne murdered": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne's death": "murder-of-elia-martell-and-rhaegars-children",
+    "elia of dorne's execution": "murder-of-elia-martell-and-rhaegars-children",
     "encounter with the three prisoners": "encounter-with-the-three-prisoners",
     "epilogue": "a-storm-of-swords-epilogue",
     "execution": "the-execution",
     "execution of abel": "mance-rayder-brought-to-execution",
+    "execution of aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "execution of aegon targaryen son of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "execution of aegon the conqueror with teats": "ned-orders-daenerys-s-assassination-cancelled",
     "execution of aerys the third": "death-of-joffrey-baratheon",
     "execution of arys oakheart": "ser-arys-is-killed",
@@ -954,6 +1007,8 @@
     "execution of dragonmother": "ned-orders-daenerys-s-assassination-cancelled",
     "execution of drogon": "hizdahr-orders-drogon-killed",
     "execution of eddard stark": "execution-of-eddard-stark",
+    "execution of elia martell": "murder-of-elia-martell-and-rhaegars-children",
+    "execution of elia of dorne": "murder-of-elia-martell-and-rhaegars-children",
     "execution of freak": "tyrion-processes-the-assassination-attempt",
     "execution of giant of lannister": "tyrion-processes-the-assassination-attempt",
     "execution of halfman": "tyrion-processes-the-assassination-attempt",
@@ -1004,12 +1059,13 @@
     "execution of onion lord": "wyman-publicly-orders-davos-execution",
     "execution of onion smuggler": "wyman-publicly-orders-davos-execution",
     "execution of praed": "praed-s-death-and-burial",
-    "execution of prince that was promised": "ned-orders-daenerys-s-assassination-cancelled",
     "execution of pup": "robb-is-killed",
     "execution of queen across the waters": "ned-orders-daenerys-s-assassination-cancelled",
     "execution of queen's monster": "hizdahr-orders-drogon-killed",
     "execution of quiet wolf": "execution-of-eddard-stark",
     "execution of redhands": "tyrion-processes-the-assassination-attempt",
+    "execution of rhaenys targaryen (daughter of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "execution of rhaenys targaryen daughter of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "execution of robb stark": "robb-is-killed",
     "execution of robb the boy": "robb-is-killed",
     "execution of robb the lord": "robb-is-killed",
@@ -1143,6 +1199,7 @@
     "gregor clegane raids the riverlands": "gregor-raids-the-riverlands",
     "gregor confesses and kills oberyn": "gregor-confesses-and-kills-oberyn",
     "gregor raids the riverlands": "gregor-raids-the-riverlands",
+    "gregor-and-amory-murder-the-targaryen-children": "murder-of-elia-martell-and-rhaegars-children",
     "grey wind attacks": "grey-wind-attacks",
     "greyjoy rebellion": "greyjoy-rebellion",
     "greyjoy's rebellion": "greyjoys-rebellion",
@@ -1240,6 +1297,7 @@
     "jaime sheathes his sword but orders ned's men killed": "attack-on-ned-stark-in-the-streets-of-kings-landing",
     "jaime's kills are revealed": "jaime-s-kills-are-revealed",
     "jaime's retaliation for tyrion's capture": "attack-on-ned-stark-in-the-streets-of-kings-landing",
+    "jaime-kills-aerys": "slaying-of-aerys-ii-the-kingslaying",
     "jaime-lannister-ambushes-ned-s-party": "attack-on-ned-stark-in-the-streets-of-kings-landing",
     "jaime-pushes-bran": "jaime-pushes-bran-from-the-tower",
     "jaime-sheathes-his-sword-but-orders-ned-s-men-killed": "attack-on-ned-stark-in-the-streets-of-kings-landing",
@@ -1343,6 +1401,8 @@
     "khrazz's execution": "khrazz-killed",
     "kill list recitation before sleep": "kill-list-recitation-before-sleep",
     "killing of abel": "mance-rayder-brought-to-execution",
+    "killing of aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "killing of aegon targaryen son of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "killing of aegon the conqueror with teats": "ned-orders-daenerys-s-assassination-cancelled",
     "killing of aerys the third": "death-of-joffrey-baratheon",
     "killing of arys oakheart": "ser-arys-is-killed",
@@ -1384,6 +1444,8 @@
     "killing of dragonmother": "ned-orders-daenerys-s-assassination-cancelled",
     "killing of drogon": "hizdahr-orders-drogon-killed",
     "killing of eddard stark": "execution-of-eddard-stark",
+    "killing of elia martell": "murder-of-elia-martell-and-rhaegars-children",
+    "killing of elia of dorne": "murder-of-elia-martell-and-rhaegars-children",
     "killing of freak": "tyrion-processes-the-assassination-attempt",
     "killing of giant of lannister": "tyrion-processes-the-assassination-attempt",
     "killing of halfman": "tyrion-processes-the-assassination-attempt",
@@ -1435,12 +1497,13 @@
     "killing of onion lord": "wyman-publicly-orders-davos-execution",
     "killing of onion smuggler": "wyman-publicly-orders-davos-execution",
     "killing of praed": "praed-s-death-and-burial",
-    "killing of prince that was promised": "ned-orders-daenerys-s-assassination-cancelled",
     "killing of pup": "robb-is-killed",
     "killing of queen across the waters": "ned-orders-daenerys-s-assassination-cancelled",
     "killing of queen's monster": "hizdahr-orders-drogon-killed",
     "killing of quiet wolf": "execution-of-eddard-stark",
     "killing of redhands": "tyrion-processes-the-assassination-attempt",
+    "killing of rhaenys targaryen (daughter of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "killing of rhaenys targaryen daughter of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "killing of robb stark": "robb-is-killed",
     "killing of robb the boy": "robb-is-killed",
     "killing of robb the lord": "robb-is-killed",
@@ -1496,6 +1559,7 @@
     "king who lost the north's execution": "robb-is-killed",
     "king's landing street melee": "attack-on-ned-stark-in-the-streets-of-kings-landing",
     "kingsguard investiture ceremony": "kingsguard-investiture-ceremony",
+    "kingslaying \u2014 jaime slays aerys ii": "slaying-of-aerys-ii-the-kingslaying",
     "kingsmoot on old wyk": "kingsmoot-on-old-wyk",
     "knight attacks tyrion s shield": "a-knight-attacks-tyrion-s-shield",
     "knight attacks tyrion's shield": "a-knight-attacks-tyrion-s-shield",
@@ -1553,6 +1617,8 @@
     "littlefinger has dontos killed": "killing-of-dontos-hollard",
     "littlefinger names the dagger as tyrion s": "littlefinger-names-the-dagger-as-tyrion-s",
     "littlefinger names the dagger as tyrion's": "littlefinger-names-the-dagger-as-tyrion-s",
+    "littlefinger smuggles sansa out of king's landing": "littlefinger-smuggles-sansa-out-of-kings-landing",
+    "littlefinger smuggles sansa out of kings landing": "littlefinger-smuggles-sansa-out-of-kings-landing",
     "littlefinger-lies-about-the-catspaw-dagger": "littlefinger-names-the-dagger-as-tyrion-s",
     "littlefinger-orders-dontos-killed": "killing-of-dontos-hollard",
     "lodos the twice drowneds rebellion": "lodos-the-twice-drowneds-rebellion",
@@ -1757,6 +1823,8 @@
     "murder announced": "murder-announced",
     "murder of a toddler and his mother": "murder-of-a-toddler-and-his-mother",
     "murder of abel": "mance-rayder-brought-to-execution",
+    "murder of aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "murder of aegon targaryen son of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "murder of aegon the conqueror with teats": "ned-orders-daenerys-s-assassination-cancelled",
     "murder of aerys the third": "death-of-joffrey-baratheon",
     "murder of arys oakheart": "ser-arys-is-killed",
@@ -1796,6 +1864,10 @@
     "murder of dragonmother": "ned-orders-daenerys-s-assassination-cancelled",
     "murder of drogon": "hizdahr-orders-drogon-killed",
     "murder of eddard stark": "execution-of-eddard-stark",
+    "murder of elia martell": "murder-of-elia-martell-and-rhaegars-children",
+    "murder of elia martell and rhaegar's children": "murder-of-elia-martell-and-rhaegars-children",
+    "murder of elia martell and rhaegars children": "murder-of-elia-martell-and-rhaegars-children",
+    "murder of elia of dorne": "murder-of-elia-martell-and-rhaegars-children",
     "murder of freak": "tyrion-processes-the-assassination-attempt",
     "murder of giant of lannister": "tyrion-processes-the-assassination-attempt",
     "murder of halfman": "tyrion-processes-the-assassination-attempt",
@@ -1846,12 +1918,13 @@
     "murder of onion lord": "wyman-publicly-orders-davos-execution",
     "murder of onion smuggler": "wyman-publicly-orders-davos-execution",
     "murder of praed": "praed-s-death-and-burial",
-    "murder of prince that was promised": "ned-orders-daenerys-s-assassination-cancelled",
     "murder of pup": "robb-is-killed",
     "murder of queen across the waters": "ned-orders-daenerys-s-assassination-cancelled",
     "murder of queen's monster": "hizdahr-orders-drogon-killed",
     "murder of quiet wolf": "execution-of-eddard-stark",
     "murder of redhands": "tyrion-processes-the-assassination-attempt",
+    "murder of rhaenys targaryen (daughter of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "murder of rhaenys targaryen daughter of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "murder of robb stark": "robb-is-killed",
     "murder of robb the boy": "robb-is-killed",
     "murder of robb the lord": "robb-is-killed",
@@ -1889,6 +1962,7 @@
     "murder of yollo": "tyrion-processes-the-assassination-attempt",
     "murder of young usurper": "death-of-joffrey-baratheon",
     "murder of young wolf": "robb-is-killed",
+    "murder-of-elia-and-her-children": "murder-of-elia-martell-and-rhaegars-children",
     "murder-of-the-starks-in-kings-landing": "execution-of-brandon-and-rickard-stark",
     "mutiny at castle black": "mutiny-at-castle-black",
     "mutiny at craster's keep": "mutiny-at-crasters-keep",
@@ -2013,14 +2087,6 @@
     "praed's execution": "praed-s-death-and-burial",
     "pretenders claiming to be prince daeron the daring": "pretenders-claiming-to-be-prince-daeron-the-daring",
     "prince morions madness": "fourth-dornish-war",
-    "prince that was promised assassinated": "ned-orders-daenerys-s-assassination-cancelled",
-    "prince that was promised death": "ned-orders-daenerys-s-assassination-cancelled",
-    "prince that was promised execution": "ned-orders-daenerys-s-assassination-cancelled",
-    "prince that was promised is killed": "ned-orders-daenerys-s-assassination-cancelled",
-    "prince that was promised killed": "ned-orders-daenerys-s-assassination-cancelled",
-    "prince that was promised murdered": "ned-orders-daenerys-s-assassination-cancelled",
-    "prince that was promised's death": "ned-orders-daenerys-s-assassination-cancelled",
-    "prince that was promised's execution": "ned-orders-daenerys-s-assassination-cancelled",
     "prisoners brought before robb": "prisoners-brought-before-robb",
     "prisoners freed": "prisoners-freed",
     "prisoners gathered in yard": "prisoners-gathered-in-yard",
@@ -2037,6 +2103,10 @@
     "put aside": "marriage",
     "pyat pree attacks": "pyat-pree-attacks",
     "pycelle arrested and thrown in the black cells": "pycelle-arrested-and-thrown-in-the-black-cells",
+    "pycelle convinces aerys to open the gates": "pycelle-opens-the-gates-of-kings-landing",
+    "pycelle opens the gates of kings landing": "pycelle-opens-the-gates-of-kings-landing",
+    "pycelle-betrays-aerys-to-tywin": "pycelle-opens-the-gates-of-kings-landing",
+    "pycelle-bids-aerys-open-the-gates": "pycelle-opens-the-gates-of-kings-landing",
     "qhorin commands jon to yield if captured": "qhorin-commands-jon-to-yield-if-captured",
     "qhorin orders ygritte killed": "jon-spares-ygritte",
     "qhorin-orders-ygritte-s-execution": "jon-spares-ygritte",
@@ -2104,6 +2174,22 @@
     "reyne-tarbeck revolt": "reyne-tarbeck-revolt",
     "reznak and skahaz advise on the murders": "reznak-and-skahaz-advise-on-the-murders",
     "rhaegar-takes-lyanna": "abduction-of-lyanna",
+    "rhaenys targaryen (daughter of rhaegar) assassinated": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen (daughter of rhaegar) death": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen (daughter of rhaegar) execution": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen (daughter of rhaegar) is killed": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen (daughter of rhaegar) killed": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen (daughter of rhaegar) murdered": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen (daughter of rhaegar)'s death": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen (daughter of rhaegar)'s execution": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar assassinated": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar death": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar execution": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar is killed": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar killed": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar murdered": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar's death": "murder-of-elia-martell-and-rhaegars-children",
+    "rhaenys targaryen daughter of rhaegar's execution": "murder-of-elia-martell-and-rhaegars-children",
     "rhoynar invasion": "rhoynar-invasion",
     "rhoynish wars": "rhoynish-wars",
     "ride at rings": "martial-games",
@@ -2191,6 +2277,9 @@
     "sandor clegane's trial by combat": "sandor-cleganes-trial-by-combat",
     "sandor cleganes trial by combat": "sandor-cleganes-trial-by-combat",
     "sansa panics and begs them not to cancel the wedding": "sansa-panics-and-begs-them-not-to-cancel-the-wedding",
+    "sansa receives the poisoned hair net": "sansa-receives-the-poisoned-hairnet",
+    "sansa receives the poisoned hairnet": "sansa-receives-the-poisoned-hairnet",
+    "sansa-escapes-kings-landing": "littlefinger-smuggles-sansa-out-of-kings-landing",
     "scalding broth assault on dungeon guards": "scalding-broth-assault-on-dungeon-guards",
     "scarecrow knight assassinated": "lem-disputes-beric-s-death",
     "scarecrow knight death": "lem-disputes-beric-s-death",
@@ -2337,6 +2426,7 @@
     "slayer of lies murdered": "ned-orders-daenerys-s-assassination-cancelled",
     "slayer of lies's death": "ned-orders-daenerys-s-assassination-cancelled",
     "slayer of lies's execution": "ned-orders-daenerys-s-assassination-cancelled",
+    "slaying of aerys ii the kingslaying": "slaying-of-aerys-ii-the-kingslaying",
     "slynt betrays ned": "gold-cloaks-betray-ned",
     "slynt's execution": "execution-of-janos-slynt",
     "slynt's gold cloaks turn on ned's household": "gold-cloaks-betray-ned",
@@ -2416,7 +2506,9 @@
     "targaryen campaign in slavers bay": "targaryen-campaign-in-slavers-bay",
     "targaryen conquest": "targaryen-conquest",
     "tarred head on the seal gate": "execution-of-davos-lookalike-at-white-harbor",
+    "the-kingslaying": "slaying-of-aerys-ii-the-kingslaying",
     "the-mountain-raids-the-riverlands": "gregor-raids-the-riverlands",
+    "the-silver-hairnet-with-the-strangler": "sansa-receives-the-poisoned-hairnet",
     "the-things-i-do-for-love": "jaime-pushes-bran-from-the-tower",
     "theon carries jeyne up battlements stairs": "theon-carries-jeyne-up-battlements-stairs",
     "theon i": "theon-i-the-winds-of-winter",
@@ -2476,9 +2568,11 @@
     "trail followed north northwest": "trail-followed-north-northwest",
     "trail followed north-northwest": "trail-followed-north-northwest",
     "treasons of tumbleton": "first-battle-of-tumbleton",
+    "trial of tyrion lannister": "trial-of-tyrion-lannister",
     "trident incident": "incident-at-the-trident",
     "two ghiscari galleys chased and captured": "two-ghiscari-galleys-chased-and-captured",
     "tyrell plot revealed": "tyrell-plot-revealed",
+    "tyrion accused of poisoning joffrey": "tyrion-accused-of-poisoning-joffrey",
     "tyrion asks bronn to protect him in battle": "tyrion-asks-bronn-to-protect-him-in-battle",
     "tyrion assessed the room during capture": "tyrion-assessed-the-room-during-capture",
     "tyrion confirms cersei ordered the brothel killing": "tyrion-confirms-cersei-ordered-the-brothel-killing",
@@ -2501,7 +2595,10 @@
     "tyrion resolves to wed shae to ser tallad": "tyrion-resolves-to-wed-shae-to-ser-tallad",
     "tyrion s battle dream": "tyrion-s-battle-dream",
     "tyrion's battle dream": "tyrion-s-battle-dream",
+    "tyrion-arrested-for-joffreys-murder": "tyrion-accused-of-poisoning-joffrey",
+    "tyrion-demands-trial-by-combat": "trial-of-tyrion-lannister",
     "tyrion-orders-symon-s-assassination": "assassination-of-symon-silver-tongue",
+    "tyrions-trial-for-joffreys-murder": "trial-of-tyrion-lannister",
     "unburnt king assassinated": "mance-rayder-brought-to-execution",
     "unburnt king death": "mance-rayder-brought-to-execution",
     "unburnt king execution": "mance-rayder-brought-to-execution",
@@ -2618,6 +2715,8 @@
     "white knight's execution": "ser-arys-is-killed",
     "whitewalls tourney": "wedding-tourney-at-whitewalls",
     "who killed abel": "mance-rayder-brought-to-execution",
+    "who killed aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "who killed aegon targaryen son of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "who killed aegon the conqueror with teats": "ned-orders-daenerys-s-assassination-cancelled",
     "who killed aerys the third": "death-of-joffrey-baratheon",
     "who killed arys oakheart": "ser-arys-is-killed",
@@ -2657,6 +2756,8 @@
     "who killed dragonmother": "ned-orders-daenerys-s-assassination-cancelled",
     "who killed drogon": "hizdahr-orders-drogon-killed",
     "who killed eddard stark": "execution-of-eddard-stark",
+    "who killed elia martell": "murder-of-elia-martell-and-rhaegars-children",
+    "who killed elia of dorne": "murder-of-elia-martell-and-rhaegars-children",
     "who killed freak": "tyrion-processes-the-assassination-attempt",
     "who killed giant of lannister": "tyrion-processes-the-assassination-attempt",
     "who killed halfman": "tyrion-processes-the-assassination-attempt",
@@ -2707,12 +2808,13 @@
     "who killed onion lord": "wyman-publicly-orders-davos-execution",
     "who killed onion smuggler": "wyman-publicly-orders-davos-execution",
     "who killed praed": "praed-s-death-and-burial",
-    "who killed prince that was promised": "ned-orders-daenerys-s-assassination-cancelled",
     "who killed pup": "robb-is-killed",
     "who killed queen across the waters": "ned-orders-daenerys-s-assassination-cancelled",
     "who killed queen's monster": "hizdahr-orders-drogon-killed",
     "who killed quiet wolf": "execution-of-eddard-stark",
     "who killed redhands": "tyrion-processes-the-assassination-attempt",
+    "who killed rhaenys targaryen (daughter of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "who killed rhaenys targaryen daughter of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "who killed robb stark": "robb-is-killed",
     "who killed robb the boy": "robb-is-killed",
     "who killed robb the lord": "robb-is-killed",
@@ -2751,6 +2853,8 @@
     "who killed young usurper": "death-of-joffrey-baratheon",
     "who killed young wolf": "robb-is-killed",
     "who murdered abel": "mance-rayder-brought-to-execution",
+    "who murdered aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "who murdered aegon targaryen son of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "who murdered aegon the conqueror with teats": "ned-orders-daenerys-s-assassination-cancelled",
     "who murdered aerys the third": "death-of-joffrey-baratheon",
     "who murdered arys oakheart": "ser-arys-is-killed",
@@ -2790,6 +2894,8 @@
     "who murdered dragonmother": "ned-orders-daenerys-s-assassination-cancelled",
     "who murdered drogon": "hizdahr-orders-drogon-killed",
     "who murdered eddard stark": "execution-of-eddard-stark",
+    "who murdered elia martell": "murder-of-elia-martell-and-rhaegars-children",
+    "who murdered elia of dorne": "murder-of-elia-martell-and-rhaegars-children",
     "who murdered freak": "tyrion-processes-the-assassination-attempt",
     "who murdered giant of lannister": "tyrion-processes-the-assassination-attempt",
     "who murdered halfman": "tyrion-processes-the-assassination-attempt",
@@ -2840,12 +2946,13 @@
     "who murdered onion lord": "wyman-publicly-orders-davos-execution",
     "who murdered onion smuggler": "wyman-publicly-orders-davos-execution",
     "who murdered praed": "praed-s-death-and-burial",
-    "who murdered prince that was promised": "ned-orders-daenerys-s-assassination-cancelled",
     "who murdered pup": "robb-is-killed",
     "who murdered queen across the waters": "ned-orders-daenerys-s-assassination-cancelled",
     "who murdered queen's monster": "hizdahr-orders-drogon-killed",
     "who murdered quiet wolf": "execution-of-eddard-stark",
     "who murdered redhands": "tyrion-processes-the-assassination-attempt",
+    "who murdered rhaenys targaryen (daughter of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
+    "who murdered rhaenys targaryen daughter of rhaegar": "murder-of-elia-martell-and-rhaegars-children",
     "who murdered robb stark": "robb-is-killed",
     "who murdered robb the boy": "robb-is-killed",
     "who murdered robb the lord": "robb-is-killed",
@@ -3024,6 +3131,24 @@
         "source": "victim-index"
       }
     ],
+    "assassination of prince that was promised": [
+      {
+        "alias": "assassination of prince that was promised",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "assassination of prince that was promised",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
     "assassination of renly baratheon": [
       {
         "alias": "assassination of renly baratheon",
@@ -3075,6 +3200,24 @@
         "confidence": "high",
         "node_type": "event.death",
         "raw": "The King in the South (VICTIM_IN \u2192 renly-s-death-reflection)",
+        "source": "victim-index"
+      }
+    ],
+    "death of prince that was promised": [
+      {
+        "alias": "death of prince that was promised",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "death of prince that was promised",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
         "source": "victim-index"
       }
     ],
@@ -3132,6 +3275,24 @@
         "source": "victim-index"
       }
     ],
+    "execution of prince that was promised": [
+      {
+        "alias": "execution of prince that was promised",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "execution of prince that was promised",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
     "execution of renly baratheon": [
       {
         "alias": "execution of renly baratheon",
@@ -3183,6 +3344,24 @@
         "confidence": "high",
         "node_type": "event.death",
         "raw": "The King in the South (VICTIM_IN \u2192 renly-s-death-reflection)",
+        "source": "victim-index"
+      }
+    ],
+    "killing of prince that was promised": [
+      {
+        "alias": "killing of prince that was promised",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "killing of prince that was promised",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
         "source": "victim-index"
       }
     ],
@@ -3528,6 +3707,24 @@
         "source": "victim-index"
       }
     ],
+    "murder of prince that was promised": [
+      {
+        "alias": "murder of prince that was promised",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "murder of prince that was promised",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
     "murder of renly baratheon": [
       {
         "alias": "murder of renly baratheon",
@@ -3543,6 +3740,150 @@
         "confidence": "high",
         "node_type": "event.death",
         "raw": "Renly Baratheon (VICTIM_IN \u2192 renly-s-death-reflection)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised assassinated": [
+      {
+        "alias": "prince that was promised assassinated",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised assassinated",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised death": [
+      {
+        "alias": "prince that was promised death",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised death",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised execution": [
+      {
+        "alias": "prince that was promised execution",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised execution",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised is killed": [
+      {
+        "alias": "prince that was promised is killed",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised is killed",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised killed": [
+      {
+        "alias": "prince that was promised killed",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised killed",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised murdered": [
+      {
+        "alias": "prince that was promised murdered",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised murdered",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised's death": [
+      {
+        "alias": "prince that was promised's death",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised's death",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
+    "prince that was promised's execution": [
+      {
+        "alias": "prince that was promised's execution",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "prince that was promised's execution",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
         "source": "victim-index"
       }
     ],
@@ -3726,6 +4067,24 @@
         "source": "victim-index"
       }
     ],
+    "who killed prince that was promised": [
+      {
+        "alias": "who killed prince that was promised",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "who killed prince that was promised",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
     "who killed renly baratheon": [
       {
         "alias": "who killed renly baratheon",
@@ -3780,6 +4139,24 @@
         "source": "victim-index"
       }
     ],
+    "who murdered prince that was promised": [
+      {
+        "alias": "who murdered prince that was promised",
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 ned-orders-daenerys-s-assassination-cancelled)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "who murdered prince that was promised",
+        "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "The prince that was promised (VICTIM_IN \u2192 murder-of-elia-martell-and-rhaegars-children)",
+        "source": "victim-index"
+      }
+    ],
     "who murdered renly baratheon": [
       {
         "alias": "who murdered renly baratheon",
@@ -3799,21 +4176,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-19T03:17:41.737182+00:00",
+  "computed_at": "2026-06-19T16:41:34.666159+00:00",
   "stats": {
-    "ambiguous_collisions": 45,
+    "ambiguous_collisions": 60,
     "source_breakdown": {
-      "node-frontmatter-alias": 129,
-      "node-name": 597,
-      "node-slug": 597,
-      "victim-index": 2085,
+      "node-frontmatter-alias": 147,
+      "node-name": 605,
+      "node-slug": 605,
+      "victim-index": 2190,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 4310,
-    "unambiguous_lookups": 2986,
-    "unique_phrases": 3031
+    "total_entries_scanned": 4449,
+    "unambiguous_lookups": 3093,
+    "unique_phrases": 3153
   },
   "version": "v2"
 }

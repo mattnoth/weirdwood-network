@@ -1,6 +1,25 @@
-# Worklog Archive 021 — Sessions 97–100
+# Worklog Archive 021 — Sessions 97–101
 
-> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file). Newest-first within the file follows the worklog convention. Session 97 archived 2026-06-16 (Session 102 endsession); Session 98 archived 2026-06-16 (Session 103 endsession); Session 99 archived 2026-06-17 (Session 104 endsession); Session 100 archived 2026-06-18 (Session 105 endsession).
+> Archived from `worklog.md` per CLAUDE.md rule #8 (5 entries per archive file — now FULL, 5/5). Newest-first within the file follows the worklog convention. Session 97 archived 2026-06-16 (Session 102 endsession); Session 98 archived 2026-06-16 (Session 103 endsession); Session 99 archived 2026-06-17 (Session 104 endsession); Session 100 archived 2026-06-18 (Session 105 endsession); Session 101 archived 2026-06-19 (Session 106 worklog update).
+
+### Session 101 — Events/time design + deterministic event dating SHIPPED + Mode-3 dip re-run (2026-06-16)
+**Detail:** `history/session-details/session-101.md`
+**Model:** Opus 4.8 (1M context) orchestrator + ~14 Sonnet 4.6 subagents (dip re-run; 4-lens events/time panel; era research→analysis pipeline; 4-stance next-move panel; worklog-rotation advisor; 2 script-builder runs). **Commits:** `36abaabf` (archival) + `2eacbf7c` (dating+design) + this endsession commit.
+
+**Changes made:**
+- **Event in-world dating SHIPPED (deterministic, $0, +0 edges):** 112 `event.*` nodes gained an `occurred:` block (`ac_year` + `precision:year` + `basis_source:wiki-year-page` + `basis_reliability:tertiary-fan` + `date_confidence:tier-3`) from `chronology-events.jsonl` (single attested year + exact slug match); **29 also gained `narrative_first`** (`{book}-{chapter_number}`, min reader-encounter, resolve-all-or-skip across both edge ref formats). NEW `scripts/date-event-nodes.py` + `scripts/backfill-narrative-first.py` (+64 tests; **pytest 1295 pass / 3 documented fails**). Frontmatter-only, idempotent, bodies byte-preserved, `--health` unchanged (8,528/21,993/62). `reference/architecture.md`: `occurred:` schema + sub-field table documented.
+- **Mode-3 dip RE-RUN** → `working/session-results/2026-06-15-mode3-dip-rerun.md`: **4 correct / 6 partial / 0 failed** (was 4/2/4). + temporal mini-probe (4/5 time queries fail today → motivated dating).
+- **Design trail:** `working/design-opinions/` (events/time 4-lens panel + SYNTHESIS; era research + analysis) · `working/next-move-decisions-2026-06-16.md` (the 4 entry points) · `working/session-results/2026-06-16-event-dating-{dryrun,APPLIED}.md` + `2026-06-16-narrative-first-dryrun.md`.
+- **Repo hygiene:** 4 historic top-level markdowns `git mv` → `history/archive/` (BEFORE-LEAVE-RESUME, EDGE_MODELING_VALIDATOR_LOG, STAGE4-SMOKE-REVIEW, next.md). Top level keeps CLAUDE/worklog/README + clusters-primer + scr.
+
+**Decisions:**
+- **Re-ran the S96 Mode-3 dip (now in archive020) on the current graph** — its arc DE-PRIORITIZATION (S96 D3) CONFIRMED a 2nd time (the measured gaps are causal-edge + `ATTENDS`, not missing arcs); recent work paid off (4 fails→0; Tourney-at-Harrenhal 0→25 edges; S96 Track-7 resolver fix verified shipped). Arc wave 1 stays parked; shipped **event dating** instead (dip-driven sequencing).
+- **Events/time = TWO axes** (in-world `ac_year` vs narrative `narrative_first`); time lives in node frontmatter; ordering edges DERIVED not authored. **Era schema: signed `ac_year` (negative=BC), NO `era:AC|BC`** (collides with the existing epoch `era` field, architecture.md:438); 9-invariant validator. `long-night` excluded (wiki mention-index error — prehistoric, not 297 AC).
+- **`PRECEDES`/`FOLLOWS` is GATED, not mechanical:** not in the locked vocab (deferred schema decision, roadmap D3) AND 0 dated events share a `PART_OF` parent → no cluster to order within. Needs Matt's vocab + grouping call. **Causal `TRIGGERS`** = the dip's measured gap; interpretive → Matt sign-off.
+- **Worklog rotation:** archived S96 normally (→ archive020, 5/5) + anchored the S96-dip reference in this entry, rather than pausing rotation (fresh-advisor call: a paused rotation silently lapses after one context reset — a documented failure mode here). Optional future safeguard logged in todos (pytest session-count guard).
+
+**What's next — 4 decisions, ALL for Matt** (`working/next-move-decisions-2026-06-16.md`):
+- → **resolve all 4:** (1) `PRECEDES`/`FOLLOWS` vocab D3 + grouping basis (0 dated events share a `PART_OF` parent) · (2) causal `TRIGGERS` sign-off (Robert's Rebellion pilot) · (3) dating leftovers (5 spans / `long-night`-as-era / `conquest-of-dorne` book-vs-event / 10 mistyped `*-ac` year nodes) · (4) Fable cleanup (nomenclature scheme + repo-reorg). Continue: `progress/continue-prompts/2026-06-16-next-move-decisions.md` (**Sonnet 4.6**) — opens by asking Matt to answer them.
 
 ### Session 100 — Historical-anchor #9 wave 2 SHIPPED (4 WO5K hubs attached) (2026-06-15)
 **Detail:** none (pure-execution session — wave-2 attach via the established S97 machine; worklog entry suffices).

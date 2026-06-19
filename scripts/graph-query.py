@@ -1228,6 +1228,135 @@ def cmd_event_participants(
 
 
 # ---------------------------------------------------------------------------
+# --causal-chain <slug>
+# ---------------------------------------------------------------------------
+
+# Edge types that carry causal consequence (vs. PRECEDES, which is pure
+# chronology). MOTIVATES is event-or-condition → actor; CAUSES/TRIGGERS are
+# event → event. Walking all three reconstructs a narrative-arc consequence
+# chain ("what set X in motion / what did X lead to") that no single edge holds.
+CAUSAL_EDGE_TYPES: frozenset[str] = frozenset({"CAUSES", "TRIGGERS", "MOTIVATES"})
+
+
+def _walk_causal(start: str, edges: list[dict], *, direction: str) -> list[dict]:
+    """BFS-walk causal edges transitively from `start`.
+
+    direction='down' follows edges where source_slug == current node (effects).
+    direction='up'   follows edges where target_slug == current node (causes).
+
+    Returns a list of edge dicts, each with an added `depth` key (1 = adjacent
+    to `start`), in breadth-first order. Cycle-safe: each node is expanded at
+    most once, so every edge is emitted exactly once even across diamonds.
+    """
+    causal = [e for e in edges if e.get("edge_type") in CAUSAL_EDGE_TYPES]
+    adj: dict[str, list[dict]] = defaultdict(list)
+    if direction == "down":
+        key_here, key_next = "source_slug", "target_slug"
+    elif direction == "up":
+        key_here, key_next = "target_slug", "source_slug"
+    else:  # pragma: no cover - guarded by caller
+        raise ValueError(f"direction must be 'up' or 'down', got {direction!r}")
+    for e in causal:
+        adj[e.get(key_here)].append(e)
+
+    visited: set[str] = {start}
+    result: list[dict] = []
+    frontier: list[tuple[str, int]] = [(start, 0)]
+    while frontier:
+        node, depth = frontier.pop(0)
+        for e in adj.get(node, []):
+            rec = dict(e)
+            rec["depth"] = depth + 1
+            result.append(rec)
+            nxt = e.get(key_next)
+            if nxt and nxt not in visited:
+                visited.add(nxt)
+                frontier.append((nxt, depth + 1))
+    return result
+
+
+def _causal_brief(e: dict) -> dict:
+    """Compact JSON-serializable view of a causal edge for --json output."""
+    return {
+        "edge_type": e.get("edge_type"),
+        "source_slug": e.get("source_slug"),
+        "target_slug": e.get("target_slug"),
+        "depth": e.get("depth"),
+        "confidence_tier": e.get("confidence_tier"),
+        "evidence_ref": e.get("evidence_ref"),
+        "evidence_quote": _short_quote(e.get("evidence_quote", ""), 120),
+    }
+
+
+def cmd_causal_chain(
+    slug: str,
+    edges: list[dict],
+    *,
+    json_output: bool = False,
+) -> None:
+    """Walk CAUSES/TRIGGERS/MOTIVATES both directions from `slug` and print the
+    transitive consequence-chain (upstream causes + downstream effects)."""
+    upstream = _walk_causal(slug, edges, direction="up")
+    downstream = _walk_causal(slug, edges, direction="down")
+
+    upstream_nodes = sorted({e["source_slug"] for e in upstream})
+    downstream_nodes = sorted({e["target_slug"] for e in downstream})
+
+    if json_output:
+        result = {
+            "slug": slug,
+            "causal_edge_types": sorted(CAUSAL_EDGE_TYPES),
+            "upstream_count": len(upstream),
+            "downstream_count": len(downstream),
+            "upstream": [_causal_brief(e) for e in upstream],
+            "downstream": [_causal_brief(e) for e in downstream],
+            "upstream_nodes": upstream_nodes,
+            "downstream_nodes": downstream_nodes,
+        }
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    type_label = " / ".join(sorted(CAUSAL_EDGE_TYPES))
+    print("=" * 72)
+    print(f"CAUSAL CHAIN: {slug}")
+    print(f"  {_node_header(slug)}")
+    print(f"  walks {type_label} (transitive, both directions)")
+    print()
+
+    # Upstream: render furthest-cause first so the chain reads INTO the node.
+    n_up = len(upstream)
+    print(f"UPSTREAM — what led to this  ({n_up} edge{'s' if n_up != 1 else ''})")
+    print("-" * 72)
+    if not upstream:
+        print("  (none — no causal antecedents)")
+    else:
+        for e in sorted(upstream, key=lambda r: (-r["depth"], r["source_slug"])):
+            indent = "  " * (e["depth"] - 1)
+            print(f"  {indent}{e['source_slug']} --[{e['edge_type']}]--> "
+                  f"{e['target_slug']}")
+    print()
+
+    # Downstream: render nearest-effect first, chain reads OUT of the node.
+    n_down = len(downstream)
+    print(f"DOWNSTREAM — what this led to  ({n_down} edge{'s' if n_down != 1 else ''})")
+    print("-" * 72)
+    if not downstream:
+        print("  (none — no causal consequences)")
+    else:
+        for e in sorted(downstream, key=lambda r: (r["depth"], r["target_slug"])):
+            indent = "  " * (e["depth"] - 1)
+            print(f"  {indent}{e['source_slug']} --[{e['edge_type']}]--> "
+                  f"{e['target_slug']}")
+    print()
+    print("=" * 72)
+    total = n_up + n_down
+    print(
+        f"SUMMARY: {slug}  |  {n_up} upstream + {n_down} downstream "
+        f"= {total} causal edge{'s' if total != 1 else ''}"
+    )
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -1242,6 +1371,7 @@ def main() -> None:
             "  graph-query.py --path <slugA> <slugB>\n"
             "  graph-query.py --health\n"
             "  graph-query.py --event-participants <hub-slug>\n"
+            "  graph-query.py --causal-chain <slug>\n"
             "  graph-query.py --edges <path>   (override edges.jsonl location)"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -1308,6 +1438,18 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--causal-chain",
+        metavar="SLUG",
+        default=None,
+        dest="causal_chain",
+        help=(
+            "Walk CAUSES / TRIGGERS / MOTIVATES edges transitively, both "
+            "directions, from SLUG. Returns the upstream causes and downstream "
+            "effects — the consequence-chain of a narrative arc that no single "
+            "edge holds (e.g. 'what set Tyrion's capture in motion, 3 steps back')."
+        ),
+    )
+    parser.add_argument(
         "--edges",
         metavar="PATH",
         default=None,
@@ -1317,14 +1459,20 @@ def main() -> None:
     args = parser.parse_args()
 
     # Validate: at most one mode active
-    new_mode = args.neighbors or args.path or args.health or args.event_participants
+    new_mode = (
+        args.neighbors
+        or args.path
+        or args.health
+        or args.event_participants
+        or args.causal_chain
+    )
     old_mode = args.slug is not None
 
     if new_mode and old_mode:
         parser.error(
             "Cannot combine a positional slug with "
-            "--neighbors / --path / --health / --event-participants. "
-            "Use one mode at a time."
+            "--neighbors / --path / --health / --event-participants / "
+            "--causal-chain. Use one mode at a time."
         )
 
     if not new_mode and not old_mode:
@@ -1354,6 +1502,11 @@ def main() -> None:
         elif args.event_participants:
             cmd_event_participants(
                 args.event_participants, edges, json_output=args.json_output
+            )
+
+        elif args.causal_chain:
+            cmd_causal_chain(
+                args.causal_chain, edges, json_output=args.json_output
             )
 
         sys.exit(0)
