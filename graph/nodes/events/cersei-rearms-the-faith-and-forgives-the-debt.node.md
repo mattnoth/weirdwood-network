@@ -24,7 +24,7 @@ Pressed by the crown's crushing debts, [Cersei Lannister](cersei-lannister) firs
 
 ## Edges
 
-(Causal/role edges live in `graph/edges/edges.jsonl`, S114 causal-arc track. This act CAUSES [Cersei's capture in the sept](cersei-is-captured-in-the-sept) (Tier-2) — the rearmed Faith is the institution with the armed authority to seize a queen. [Cersei Lannister](cersei-lannister) and the [High Septon](high-sparrow) are both parties to the deal (AGENT_IN, Tier-1). This is the upstream root of the AFFC Cersei's-downfall arc; the walk of atonement and trial are deferred ADWD beats.)
+(Causal/role edges live in `graph/edges/edges.jsonl`, S114 causal-arc track. This act is CAUSED BY the [assassination of Tywin Lannister](assassination-of-tywin-lannister) (Tier-2, S115) — with the father who controlled crown policy dead, the unchecked Queen Regent is free to strike this bargain ("Even her lord father could have done no better") — and in turn CAUSES [Cersei's capture in the sept](cersei-is-captured-in-the-sept) (Tier-2): the rearmed Faith is the institution with the armed authority to seize a queen. [Cersei Lannister](cersei-lannister) and the [High Septon](high-sparrow) are both parties to the deal (AGENT_IN, Tier-1). The Tywin root joins this arc cross-book into the S109 Tywin's-death chain — `--causal-chain cersei-is-stripped-and-imprisoned` walks back to Sansa's poisoned hairnet. The walk of atonement and trial are deferred ADWD beats.)
 
 ## Quotes
 
