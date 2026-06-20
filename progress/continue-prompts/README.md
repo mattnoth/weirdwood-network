@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-20 (refreshed after S110)  
+**Generated:** 2026-06-20 (refreshed after S113)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110; PIVOTED S112) | Causal-arc: planned major-arc backlog | **LIVE** | Sonnet 4.6 | **STRATEGY PIVOTED S112** — no longer dip-cheapest; now backlog-driven (`working/major-arc-backlog.md`) + container decomposition dips; cheap dips secondary (`working/cheap-dip-backlog.md`); dip = post-build check. **NEXT BUILD = J3 Robb-proclaimed-King-in-the-North** (WO5K decomposition #1, `working/wo5k-decomposition.md`; 1 mint + 2 edges, extends B3). Adopt 4-lens corrections (mint robb-king + robert-orders-assassination; alias-fix bran's-fall + tyrion-kills-tywin). |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110; PIVOTED S112; J3 done S113) | Causal-arc: planned major-arc backlog | **LIVE** | Sonnet 4.6 | **STRATEGY PIVOTED S112** — backlog-driven (`working/major-arc-backlog.md`) + container decomposition dips; dip = post-build check. **J3 Robb-proclaimed-King-in-the-North DONE (S113)** + Bran alias fix + harvest settling pass. **NEXT = AFFC smoke test FIRST** (Matt's S113 steer — causal layer ~zero AFFC/ADWD; read-only Loremaster-demo/arc-dip against AFFC arc-queries to re-prioritize), then default Rank-2/Q5 (Crag→Jeyne). |
 
 ---
 

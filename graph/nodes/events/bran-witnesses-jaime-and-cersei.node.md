@@ -2,7 +2,7 @@
 name: "Bran witnesses Jaime and Cersei"
 type: event.incident
 slug: bran-witnesses-jaime-and-cersei
-aliases: ["bran-catches-the-lannister-twins", "bran-sees-jaime-and-cersei"]
+aliases: ["Bran witnesses Jaime and Cersei", "Bran sees Jaime and Cersei", "Bran catches the Lannister twins", "Bran catches Jaime and Cersei", "bran-catches-the-lannister-twins", "bran-sees-jaime-and-cersei"]
 confidence: tier-1
 era: war-of-the-five-kings-prelude
 pass_origin: s105-causal-track

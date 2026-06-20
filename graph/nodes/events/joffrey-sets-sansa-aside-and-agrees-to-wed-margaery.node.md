@@ -12,6 +12,12 @@ evidence_chapters:
 
 Event node minted by Plate 3 full-corpus scan for: Joffrey sets Sansa aside and agrees to wed Margaery
 
+## Quotes
+
+> "Your Grace, in the judgment of your small council, it would be neither proper nor wise for you to wed the daughter of a man beheaded for treason, a girl whose brother is in open rebellion against the throne even now. Sire, your councillors beg you, for the good of your realm, set Sansa Stark aside. The Lady Margaery will make you a far more suitable queen."
+
+— Queen Cersei to Joffrey, formally proposing the Tyrell match, ACOK Sansa VIII (`sources/chapters/acok/acok-sansa-08.md:41`)
+
 ## Edges
 (populated by Plate 3 role-edge staging; merge at Plate 5)
 

@@ -1,18 +1,18 @@
 # Edge Type Counts — Weirwood Network
 
-Generated: 2026-06-12T16:13:48+00:00
+Generated: 2026-06-20T18:43:53+00:00
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Node files scanned | 8,263 |
-| Canonical edge types | 166 |
+| Node files scanned | 8,294 |
+| Canonical edge types | 167 |
 | Populated types (≥1 instance) | 58 |
-| Unpopulated types (0 instances) | 108 |
+| Unpopulated types (0 instances) | 109 |
 | Drift types (not in canonical) | 0 |
-| Total edge instances | 21,087 |
-| Infobox edges | 21,087 |
+| Total edge instances | 21,083 |
+| Infobox edges | 21,083 |
 | Prose-derived edges | 0 |
 
 ## By Category
@@ -77,12 +77,12 @@ Generated: 2026-06-12T16:13:48+00:00
 | `CONTRACTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
 | `CONSPIRES_WITH` *(unpopulated)* | 0 | 0 | 0 |
 
-### Military & Conflict — 10/27 populated, 637 instances
+### Military & Conflict — 10/27 populated, 633 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
-| `DEFEATS` | 352 | 352 | 0 |
-| `FIGHTS_IN` | 234 | 234 | 0 |
+| `DEFEATS` | 349 | 349 | 0 |
+| `FIGHTS_IN` | 233 | 233 | 0 |
 | `KILLS` | 31 | 31 | 0 |
 | `PRISONER_OF` | 5 | 5 | 0 |
 | `COMMANDS_IN` | 4 | 4 | 0 |
@@ -253,6 +253,12 @@ Generated: 2026-06-12T16:13:48+00:00
 | `MOTIVATES` *(unpopulated)* | 0 | 0 | 0 |
 | `TRIGGERS` *(unpopulated)* | 0 | 0 | 0 |
 
+### Temporal & Sequencing — 0/1 populated, 0 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `PRECEDES` *(unpopulated)* | 0 | 0 | 0 |
+
 ### Hospitality & Custom — 0/5 populated, 0 instances
 
 | Edge Type | Instances | Infobox | Prose |
@@ -263,7 +269,7 @@ Generated: 2026-06-12T16:13:48+00:00
 | `ATTENDS` *(unpopulated)* | 0 | 0 | 0 |
 | `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` *(unpopulated)* | 0 | 0 | 0 |
 
-## Unpopulated Types (108 total — Stage 4 targets)
+## Unpopulated Types (109 total — Stage 4 targets)
 
 These are the types with zero instances in the current graph.
 They are the primary targets for Stage 4 (prose-edge classification).
@@ -283,6 +289,7 @@ They are the primary targets for Stage 4 (prose-edge classification).
 - **Prophecy:** `APPEARS_TO_FULFILL`, `DREAMS_OF`, `FULFILLS`, `PROPHESIED_BY`, `SUBJECT_OF_PROPHECY`, `SUBVERTS_PROPHECY`
 - **Evidentiary (Theory Support):** `CITED_BY`, `CONTRADICTS`, `SUPPORTS`
 - **Causal & Plot:** `ENABLES`, `MOTIVATES`, `PREVENTS`, `TRIGGERS`
+- **Temporal & Sequencing:** `PRECEDES`
 - **Hospitality & Custom:** `ATTENDS`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `GRANTS_SAFE_CONDUCT`, `GUEST_OF`, `VIOLATES_GUEST_RIGHT`
 
 ## Drift Types
@@ -303,9 +310,9 @@ None. All emitted edge types are in the canonical vocabulary.
 | 8 | `REGION_OF` | Spatial & Temporal | 615 |
 | 9 | `OVERLORD_OF` | Political & Authority | 582 |
 | 10 | `RULES` | Political & Authority | 562 |
-| 11 | `DEFEATS` | Military & Conflict | 352 |
+| 11 | `DEFEATS` | Military & Conflict | 349 |
 | 12 | `SEAT_OF` | Spatial & Temporal | 338 |
-| 13 | `FIGHTS_IN` | Military & Conflict | 234 |
+| 13 | `FIGHTS_IN` | Military & Conflict | 233 |
 | 14 | `HEIR_TO` | Kinship & Family | 206 |
 | 15 | `SUCCEEDS` | Political & Authority | 192 |
 | 16 | `LOVER_OF` | Kinship & Family | 182 |

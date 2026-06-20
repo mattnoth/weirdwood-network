@@ -7,13 +7,19 @@
 
 The arc machine is proven 9× (RR, Bran, Sack, PW, B1, B2, B3, Tywin, Blackwater-downstream). The WO5K **container** has been decomposed (`working/wo5k-decomposition.md`) — it's a trigger-tree rooted at `death-of-robert-baratheon`, with 6–10 real junctures, ranked. **NEXT BUILD = J3 below.** Cross-book chains auto-join via shared nodes + the `--causal-chain` walk (chain-as-arc, no umbrella) — so root each new arc at its existing upstream node.
 
-## NEXT BUILD — J3: Robb proclaimed King in the North (WO5K decomposition #1)
+## J3 DONE (S113, 2026-06-20) — NEXT = AFFC smoke test, then Q5
 
-Cheapest real WO5K gap. `execution-of-eddard-stark` has 0 causal *downstream*. Mint `robb-proclaimed-king-in-the-north` (event; ASOS/AGOT Catelyn — the Greatjon's "The King in the North!") + wire `execution-of-eddard-stark CAUSES robb-proclaimed-king-in-the-north` (the North secedes in response to the execution) + the agency edge (`execution... MOTIVATES robb-stark` / Robb AGENT_IN). Extends the built B3 chain one hop. ~1 mint + 2 edges. Then re-dip. Full ranked queue (#2 Q5 Crag→Jeyne · #3 Blackwater-upstream Renly→Stannis · #4 Karstark→Robb-isolation · #5 Balon→Winterfell; SKIP westerlands battle sequence) + scopes + attach-points: `working/wo5k-decomposition.md`.
+**J3 Robb-proclaimed-King-in-the-North SHIPPED:** minted `robb-proclaimed-king-in-the-north` (event.ceremony, AGOT Catelyn XI) + 3 edges (`execution-of-eddard-stark CAUSES` it + `execution-of-eddard-stark MOTIVATES robb-stark`, both Tier-2 fresh-subagent CONFIRMED + `robb-stark AGENT_IN` Tier-1). `scripts/mint_robb_king_arc.py`. Bran spaced-alias fix done (corrected target — "bran's fall" → `jaime-pushes-bran-from-the-tower`, the fall node; `assassination-of-tywin-lannister` "tyrion kills tywin" was already present). `robert-orders-daenerys-assassination` mint still deferred to the Essos bridges. S113 also ran the harvest settling pass (folded in the parallel demo-window's 9 attachments incl. the Ned-execution `## Quotes`; 5 net-new; 6 rows left open).
 
-### Adopt these 4-lens-review corrections when building (S112):
-- Mint missing `robb-proclaimed-king-in-the-north` (this build) + `robert-orders-daenerys-assassination` (when the Essos bridges are built — only the Ned-cancels version exists).
-- Add natural SPACED aliases to two old hubs whose natural phrases resolve to NOTHING: `bran-witnesses-jaime-and-cersei` (add "bran's fall") + `assassination-of-tywin-lannister` (add "tyrion kills tywin").
+## NEXT (Matt's steer, S113 endsession) — AFFC smoke test FIRST
+
+The causal layer has **~zero AFFC/ADWD coverage** (S112 note: causal reaches ~8% of event nodes, all AGOT–ASOS). Before building the next arc, run a **read-only smoke test** to find where AFFC arc-shaped queries go dark — this is the S112 "dip-as-check" used as a *prioritizer* for the next book's worth of arcs.
+
+**How:** run the Loremaster demo (`working/demo-asoiaf-loremaster.md`) and/or an arc-weighted dip against **AFFC-centric arc-queries** — e.g. Cersei's downfall (small-council paranoia → arming the Faith → her own walk of atonement), Brienne's hunt → Lady Stoneheart, the Kingsmoot → Euron seizing the Seastone Chair → Reach raids, Dorne / Myrcella / the Sand Snakes' vengeance plot, Greyjoy succession. Grade each: does `--causal-chain` / `--neighbors` return a walkable arc, or is it dark? Record fumbles in `working/session-results/<date>-affc-smoke.md`. **The demo doubles as QA (Matt's S112 note #1) — it surfaces bare nodes** (e.g. `gregor-confesses-and-kills-oberyn` is bare → harvest-queue row open). **Demo prompt must NOT spoiler-check** (gating deferred; already fixed in the demo file). Output = a ranked AFFC fumble list that **re-prioritizes the next build** (it may bump Q5).
+
+## NEXT BUILD (after the smoke test) — default Rank 2 / Q5: Storming of the Crag → Robb weds Jeyne
+
+"Why did Robb marry Jeyne?" — the B1 chain bottoms out at the marriage. Both `storming-of-the-crag` AND `robb-weds-jeyne-westerling` exist → likely a **1-edge wire** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`), maybe + 1 intermediate mint (`robb-receives-false-news-of-brans-death`? check existence). **Dedup-check `battle-of-the-crag` vs `storming-of-the-crag` FIRST.** Theory-loaded (Sybell Spicer / moon-tea reading) — Matt flagged: do NOT lose. In-saga ASOS (Catelyn/Jaime POV recall). Then re-dip-check. Full ranked queue (#3 Blackwater-upstream J2+J9 Renly→Stannis→Tyrell · #4 Karstark→Robb-isolation J7 · #5 Balon→Winterfell J4; SKIP westerlands battle sequence J6) + scopes + attach-points: `working/wo5k-decomposition.md`.
 
 ## (historical) The pre-pivot dip queue — superseded by the backlog above, kept for reference
 

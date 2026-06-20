@@ -41,6 +41,8 @@ Lord Blackwood appreciates honor and chivalry.(wiki:Tytos_Blackwood.cite_ref-Ras
 
 Tytos owns bright yellow [armor](wiki:Armor) inlaid with [jet](wiki:Jet) in elaborate vine-and-leaf patterns.(wiki:Tytos_Blackwood.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) Another armor set he possesses is burnished scarlet, featuring in [silver](wiki:Silver) inlay the dead [weirwood](wiki:Weirwood) tree of [Raventree Hall](wiki:Raventree_Hall) surrounded by [onyx](wiki:Onyx) [ravens](wiki:Raven) taking flight.(wiki:Tytos_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) Tytos often wears a "magnificent" raven-feather cloak.(wiki:Tytos_Blackwood.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)(wiki:Tytos_Blackwood.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)(wiki:Tytos_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 
+Catelyn Stark's first-hand sighting at Riverrun supplies a navigable book anchor for this description: "the Lord Tytos Blackwood, a hard pike of a man with close-cropped salt-and-pepper whiskers and a hook nose. His bright yellow armor was inlaid with jet in elaborate vine-and-leaf patterns, and a cloak sewn from raven feathers draped his thin shoulders." (`sources/chapters/agot/agot-catelyn-11.md:19`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

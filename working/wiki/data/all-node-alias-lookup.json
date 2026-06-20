@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-20T15:02:17.408639+00:00",
+  "computed_at": "2026-06-20T18:45:50.686532+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -9349,12 +9349,36 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "bran catches jaime and cersei": [
+      {
+        "canonical_slug": "bran-witnesses-jaime-and-cersei",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran catches the lannister twins": [
+      {
+        "canonical_slug": "bran-witnesses-jaime-and-cersei",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "bran s direwolf kills the assassin": [
       {
         "canonical_slug": "bran-s-direwolf-kills-the-assassin",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "bran sees jaime and cersei": [
+      {
+        "canonical_slug": "bran-witnesses-jaime-and-cersei",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "bran stark": [
@@ -9395,6 +9419,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "bran's fall": [
+      {
+        "canonical_slug": "jaime-pushes-bran-from-the-tower",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "bran-catches-the-lannister-twins": [
@@ -23243,6 +23275,14 @@
         "source": "node-slug"
       }
     ],
+    "fall of bran": [
+      {
+        "canonical_slug": "jaime-pushes-bran-from-the-tower",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "fall of dragonstone": [
       {
         "canonical_slug": "fall-of-dragonstone",
@@ -30261,6 +30301,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "greatjon proclaims robb king": [
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "greatjon umber": [
@@ -44309,6 +44357,20 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "king in the north proclamation": [
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "king in the south": [
@@ -60603,12 +60665,28 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "north secedes": [
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "north star": [
       {
         "canonical_slug": "north-star",
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "northern lords proclaim robb king": [
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "northern mountain clans": [
@@ -69175,9 +69253,33 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "robb crowned king in the north": [
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robb declared king in the north": [
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "robb is killed": [
       {
         "canonical_slug": "robb-is-killed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "robb proclaimed king in the north": [
+      {
+        "canonical_slug": "robb-proclaimed-king-in-the-north",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -80651,6 +80753,14 @@
         "source": "all-node-slug:species"
       }
     ],
+    "things i do for love": [
+      {
+        "canonical_slug": "jaime-pushes-bran-from-the-tower",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "third battle of the boneway": [
       {
         "canonical_slug": "third-battle-of-the-boneway",
@@ -90415,8 +90525,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18664,
-    "unique_phrases": 11204
+    "total_node_entries": 18681,
+    "unique_phrases": 11217
   },
   "version": "v1"
 }

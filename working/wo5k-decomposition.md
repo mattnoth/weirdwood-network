@@ -399,8 +399,10 @@ Multiple human decisions. Needs: MOTIVATES(shadow-assassination → loras-tyrell
 
 **Priority 1 (build first):** Cheapest real cause, best beat-readiness, clean attach + terminus, extends already-built chain.
 
-### Rank 1 — J3: Robb Proclaimed King in the North
-**1 mint, 2 edges. Extends B3 (ned-exec) one hop downstream.**
+### Rank 1 — J3: Robb Proclaimed King in the North ✅ DONE (S113, 2026-06-20)
+SHIPPED: minted `robb-proclaimed-king-in-the-north` (event.ceremony, AGOT Catelyn XI) + 3 edges — `execution-of-eddard-stark CAUSES robb-proclaimed-king-in-the-north` (Tier-2) + `execution-of-eddard-stark MOTIVATES robb-stark` (Tier-2, both fresh-subagent CONFIRMED) + `robb-stark AGENT_IN robb-proclaimed-king-in-the-north` (Tier-1 role). `scripts/mint_robb_king_arc.py`. `--causal-chain robb-proclaimed-king-in-the-north` walks 4 hops upstream to death-of-robert-baratheon. **Next = Rank 2 / Q5.**
+
+**(original plan) 1 mint, 2 edges. Extends B3 (ned-exec) one hop downstream.**
 - Mint: `robb-proclaimed-king-in-the-north` (event.ceremony, AGOT Catelyn XI)
 - Wire: `execution-of-eddard-stark --[CAUSES]--> robb-proclaimed-king-in-the-north`
 - Wire: `execution-of-eddard-stark --[MOTIVATES]--> robb-stark` (his grief → accepting the crown)

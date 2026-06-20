@@ -1,14 +1,14 @@
 {
   "version": "v1",
-  "computed_at": "2026-06-12T16:13:48+00:00",
-  "graph_nodes_scanned": 8263,
-  "canonical_type_count": 166,
+  "computed_at": "2026-06-20T18:43:53+00:00",
+  "graph_nodes_scanned": 8294,
+  "canonical_type_count": 167,
   "populated_type_count": 58,
-  "unpopulated_type_count": 108,
+  "unpopulated_type_count": 109,
   "drift_type_count": 0,
-  "total_edge_instances": 21087,
+  "total_edge_instances": 21083,
   "edges_by_section": {
-    "infobox": 21087,
+    "infobox": 21083,
     "prose_derived": 0
   },
   "type_counts": {
@@ -324,12 +324,12 @@
       "by_node_type": {}
     },
     "DEFEATS": {
-      "total": 352,
-      "infobox": 352,
+      "total": 349,
+      "infobox": 349,
       "prose_derived": 0,
       "by_node_type": {
         "characters": 2,
-        "events": 347,
+        "events": 344,
         "texts": 3
       }
     },
@@ -427,12 +427,12 @@
       "by_node_type": {}
     },
     "FIGHTS_IN": {
-      "total": 234,
-      "infobox": 234,
+      "total": 233,
+      "infobox": 233,
       "prose_derived": 0,
       "by_node_type": {
         "characters": 23,
-        "events": 208,
+        "events": 207,
         "texts": 3
       }
     },
@@ -792,6 +792,12 @@
       "by_node_type": {}
     },
     "PRACTICES": {
+      "total": 0,
+      "infobox": 0,
+      "prose_derived": 0,
+      "by_node_type": {}
+    },
+    "PRECEDES": {
       "total": 0,
       "infobox": 0,
       "prose_derived": 0,
@@ -1242,6 +1248,7 @@
     "PERCEIVED_AS",
     "POISONS",
     "PRACTICES",
+    "PRECEDES",
     "PREVENTS",
     "PRISONER_EXCHANGE_FOR",
     "PROPHESIED_BY",
@@ -1302,7 +1309,7 @@
       "populated": 10,
       "unpopulated": 17,
       "total_types": 27,
-      "total_instances": 637
+      "total_instances": 633
     },
     "Knowledge & Information": {
       "populated": 3,
@@ -1369,6 +1376,12 @@
       "unpopulated": 4,
       "total_types": 5,
       "total_instances": 2
+    },
+    "Temporal & Sequencing": {
+      "populated": 0,
+      "unpopulated": 1,
+      "total_types": 1,
+      "total_instances": 0
     },
     "Hospitality & Custom": {
       "populated": 0,

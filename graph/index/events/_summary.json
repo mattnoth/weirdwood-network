@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-20T15:02:17.037520+00:00",
+  "generated_at": "2026-06-20T18:45:50.306652+00:00",
   "entity_type": "events",
   "dry_run": false,
   "entity_count": 1,
   "type_counts": {
-    "event.incident": 1
+    "event.ceremony": 1
   },
   "entities_with_zero_mentions": 1,
   "mention_inverse_slugs": 0,
   "top_by_appearances": [
     {
-      "slug": "tywin-named-savior-of-the-city",
-      "name": "Tywin named Savior of the City",
-      "type": "event.incident",
+      "slug": "robb-proclaimed-king-in-the-north",
+      "name": "Robb proclaimed King in the North",
+      "type": "event.ceremony",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,
@@ -21,9 +21,9 @@
   ],
   "top_by_in_edges": [
     {
-      "slug": "tywin-named-savior-of-the-city",
-      "name": "Tywin named Savior of the City",
-      "type": "event.incident",
+      "slug": "robb-proclaimed-king-in-the-north",
+      "name": "Robb proclaimed King in the North",
+      "type": "event.ceremony",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,

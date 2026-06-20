@@ -125,6 +125,10 @@ After resolving the [siege of Raventree](wiki:Siege_of_Raventree), Jaime is said
 >
 > —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
 
+> She found Robb beneath the green canopy of leaves, surrounded by tall redwoods and great old elms, kneeling before the heart tree, a slender weirwood with a face more sad than fierce. His longsword was before him, the point thrust in the earth, his gloved hands clasped around the hilt. Around him others knelt: Greatjon Umber, Rickard Karstark, Maege Mormont, Galbart Glover, and more. Even Tytos Blackwood was among them, the great raven cloak fanned out behind him. *These are the ones who keep the old gods,* she realized.
+>
+> — Catelyn Stark, the godswood on the eve of Robb's proclamation as King in the North, AGOT Catelyn XI (`sources/chapters/agot/agot-catelyn-11.md:125`)
+
 > **Harys**: How could this happen? How? Even after the [Whispering Wood](wiki:Battle_in_the_Whispering_Wood), you had Riverrun ringed in iron, surrounded by a great host ... what madness made Ser [Jaime](wiki:Jaime_Lannister) decide to split his men into [three separate camps](wiki:Battle_of_the_Camps)? Surely he knew how vulnerable that would leave them? **Kevan**: I would have done the same. You have never seen Riverrun, Ser Harys, or you would know that Jaime had little choice in the matter.(wiki:Riverrun.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
 >
 > —[Harys Swyft](wiki:Harys_Swyft) and [Kevan Lannister](wiki:Kevan_Lannister)
