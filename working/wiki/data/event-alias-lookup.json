@@ -217,7 +217,6 @@
     "assassination of robb stark": "robb-is-killed",
     "assassination of robb the boy": "robb-is-killed",
     "assassination of robb the lord": "robb-is-killed",
-    "assassination of robert baratheon": "varys-confirms-cersei-s-role-in-robert-s-death",
     "assassination of robert the second": "death-of-joffrey-baratheon",
     "assassination of robin flint": "robin-flint-is-killed",
     "assassination of scarecrow knight": "lem-disputes-beric-s-death",
@@ -835,7 +834,8 @@
     "death of robb stark": "robb-is-killed",
     "death of robb the boy": "robb-is-killed",
     "death of robb the lord": "robb-is-killed",
-    "death of robert baratheon": "varys-confirms-cersei-s-role-in-robert-s-death",
+    "death of robert baratheon": "death-of-robert-baratheon",
+    "death of robert i baratheon": "death-of-robert-baratheon",
     "death of robert the second": "death-of-joffrey-baratheon",
     "death of robin flint": "robin-flint-is-killed",
     "death of scarecrow knight": "lem-disputes-beric-s-death",
@@ -872,6 +872,8 @@
     "death of young wolf": "robb-is-killed",
     "death-of-aerys-ii-targaryen": "slaying-of-aerys-ii-the-kingslaying",
     "death-of-robb-stark": "robb-is-killed",
+    "death-of-robert-baratheon": "death-of-robert-baratheon",
+    "death-of-robert-i-baratheon": "death-of-robert-baratheon",
     "deaths on the march": "deaths-on-the-march",
     "deaths-of-rhaegars-children": "murder-of-elia-martell-and-rhaegars-children",
     "defenders killed on battlements": "defenders-killed-on-battlements",
@@ -952,6 +954,8 @@
     "eddard stark murdered": "execution-of-eddard-stark",
     "eddard stark's death": "execution-of-eddard-stark",
     "eddard stark's execution": "execution-of-eddard-stark",
+    "eddard-discovers-cersei-and-jaime-s-children": "ned-discovers-the-truth-of-joffrey-s-parentage",
+    "eddard-stark-s-false-confession": "ned-confesses-to-treason",
     "elia martell assassinated": "murder-of-elia-martell-and-rhaegars-children",
     "elia martell death": "murder-of-elia-martell-and-rhaegars-children",
     "elia martell execution": "murder-of-elia-martell-and-rhaegars-children",
@@ -1078,7 +1082,6 @@
     "execution of robb stark": "robb-is-killed",
     "execution of robb the boy": "robb-is-killed",
     "execution of robb the lord": "robb-is-killed",
-    "execution of robert baratheon": "varys-confirms-cersei-s-role-in-robert-s-death",
     "execution of robert the second": "death-of-joffrey-baratheon",
     "execution of robin flint": "robin-flint-is-killed",
     "execution of scarecrow knight": "lem-disputes-beric-s-death",
@@ -1520,7 +1523,6 @@
     "killing of robb stark": "robb-is-killed",
     "killing of robb the boy": "robb-is-killed",
     "killing of robb the lord": "robb-is-killed",
-    "killing of robert baratheon": "varys-confirms-cersei-s-role-in-robert-s-death",
     "killing of robert the second": "death-of-joffrey-baratheon",
     "killing of robin flint": "robin-flint-is-killed",
     "killing of scarecrow knight": "lem-disputes-beric-s-death",
@@ -1554,6 +1556,7 @@
     "killing of yollo": "tyrion-processes-the-assassination-attempt",
     "killing of young usurper": "death-of-joffrey-baratheon",
     "killing of young wolf": "robb-is-killed",
+    "killing-of-king-robert": "death-of-robert-baratheon",
     "king on the iron throne assassinated": "death-of-joffrey-baratheon",
     "king on the iron throne death": "death-of-joffrey-baratheon",
     "king on the iron throne execution": "death-of-joffrey-baratheon",
@@ -1942,7 +1945,6 @@
     "murder of robb stark": "robb-is-killed",
     "murder of robb the boy": "robb-is-killed",
     "murder of robb the lord": "robb-is-killed",
-    "murder of robert baratheon": "varys-confirms-cersei-s-role-in-robert-s-death",
     "murder of robert the second": "death-of-joffrey-baratheon",
     "murder of robin flint": "robin-flint-is-killed",
     "murder of scarecrow knight": "lem-disputes-beric-s-death",
@@ -1998,7 +2000,10 @@
     "ned assassinated": "execution-of-eddard-stark",
     "ned claims the execution": "ned-claims-the-execution",
     "ned commands slynt to seize cersei in the throne room": "ned-orders-janos-slynt-to-arrest-cersei",
+    "ned confesses to treason": "ned-confesses-to-treason",
     "ned death": "execution-of-eddard-stark",
+    "ned discovers the truth of joffrey s parentage": "ned-discovers-the-truth-of-joffrey-s-parentage",
+    "ned discovers the truth of joffrey's parentage": "ned-discovers-the-truth-of-joffrey-s-parentage",
     "ned execution": "execution-of-eddard-stark",
     "ned is killed": "execution-of-eddard-stark",
     "ned killed": "execution-of-eddard-stark",
@@ -2019,6 +2024,15 @@
     "ned stark's execution": "execution-of-eddard-stark",
     "ned's death": "execution-of-eddard-stark",
     "ned's execution": "execution-of-eddard-stark",
+    "ned-confesses-his-treason": "ned-confesses-to-treason",
+    "ned-confesses-to-treason": "ned-confesses-to-treason",
+    "ned-discovers-joffrey-is-a-bastard": "ned-discovers-the-truth-of-joffrey-s-parentage",
+    "ned-discovers-the-truth-of-joffrey-s-parentage": "ned-discovers-the-truth-of-joffrey-s-parentage",
+    "ned-learns-joffreys-true-parentage": "ned-discovers-the-truth-of-joffrey-s-parentage",
+    "ned-proclaims-joffrey-the-true-heir": "ned-confesses-to-treason",
+    "ned-s-confession-at-baelor": "ned-confesses-to-treason",
+    "ned-uncovers-the-incest": "ned-discovers-the-truth-of-joffrey-s-parentage",
+    "ned-works-out-joffrey-s-true-father": "ned-discovers-the-truth-of-joffrey-s-parentage",
     "night attack planned": "night-attack-planned",
     "night battle atop the wall": "night-battle-atop-the-wall",
     "night that never ends": "long-night-that-never-ends",
@@ -2263,14 +2277,6 @@
     "robb-stark-is-killed": "robb-is-killed",
     "robb-stark-weds-jeyne-westerling": "robb-weds-jeyne-westerling",
     "robbs-marriage-to-jeyne-westerling": "robb-weds-jeyne-westerling",
-    "robert baratheon assassinated": "varys-confirms-cersei-s-role-in-robert-s-death",
-    "robert baratheon death": "varys-confirms-cersei-s-role-in-robert-s-death",
-    "robert baratheon execution": "varys-confirms-cersei-s-role-in-robert-s-death",
-    "robert baratheon is killed": "varys-confirms-cersei-s-role-in-robert-s-death",
-    "robert baratheon killed": "varys-confirms-cersei-s-role-in-robert-s-death",
-    "robert baratheon murdered": "varys-confirms-cersei-s-role-in-robert-s-death",
-    "robert baratheon's death": "varys-confirms-cersei-s-role-in-robert-s-death",
-    "robert baratheon's execution": "varys-confirms-cersei-s-role-in-robert-s-death",
     "robert the second assassinated": "death-of-joffrey-baratheon",
     "robert the second death": "death-of-joffrey-baratheon",
     "robert the second execution": "death-of-joffrey-baratheon",
@@ -2280,6 +2286,9 @@
     "robert the second's death": "death-of-joffrey-baratheon",
     "robert the second's execution": "death-of-joffrey-baratheon",
     "robert's rebellion": "roberts-rebellion",
+    "robert-baratheon-killed-by-the-boar": "death-of-robert-baratheon",
+    "robert-gored-by-the-boar": "death-of-robert-baratheon",
+    "robert-s-boar-hunt-death": "death-of-robert-baratheon",
     "roberts rebellion": "roberts-rebellion",
     "robin flint assassinated": "robin-flint-is-killed",
     "robin flint death": "robin-flint-is-killed",
@@ -2541,13 +2550,16 @@
     "targaryen campaign in slavers bay": "targaryen-campaign-in-slavers-bay",
     "targaryen conquest": "targaryen-conquest",
     "tarred head on the seal gate": "execution-of-davos-lookalike-at-white-harbor",
+    "the-confession-of-eddard-stark": "ned-confesses-to-treason",
     "the-freeing-of-the-kingslayer": "catelyn-releases-jaime-lannister",
     "the-frey-bolton-conspiracy": "red-wedding-conspiracy",
     "the-frey-lannister-bolton-plot": "red-wedding-conspiracy",
     "the-killing-of-the-prisoners-at-riverrun": "karstark-murders-prisoners-at-riverrun",
+    "the-kings-boar-hunt": "death-of-robert-baratheon",
     "the-kingslaying": "slaying-of-aerys-ii-the-kingslaying",
     "the-mountain-raids-the-riverlands": "gregor-raids-the-riverlands",
     "the-plot-behind-the-red-wedding": "red-wedding-conspiracy",
+    "the-seed-is-strong": "ned-discovers-the-truth-of-joffrey-s-parentage",
     "the-silver-hairnet-with-the-strangler": "sansa-receives-the-poisoned-hairnet",
     "the-things-i-do-for-love": "jaime-pushes-bran-from-the-tower",
     "the-young-wolf-is-slain": "robb-is-killed",
@@ -2868,7 +2880,6 @@
     "who killed robb stark": "robb-is-killed",
     "who killed robb the boy": "robb-is-killed",
     "who killed robb the lord": "robb-is-killed",
-    "who killed robert baratheon": "varys-confirms-cersei-s-role-in-robert-s-death",
     "who killed robert the second": "death-of-joffrey-baratheon",
     "who killed robin flint": "robin-flint-is-killed",
     "who killed scarecrow knight": "lem-disputes-beric-s-death",
@@ -3007,7 +3018,6 @@
     "who murdered robb stark": "robb-is-killed",
     "who murdered robb the boy": "robb-is-killed",
     "who murdered robb the lord": "robb-is-killed",
-    "who murdered robert baratheon": "varys-confirms-cersei-s-role-in-robert-s-death",
     "who murdered robert the second": "death-of-joffrey-baratheon",
     "who murdered robin flint": "robin-flint-is-killed",
     "who murdered scarecrow knight": "lem-disputes-beric-s-death",
@@ -3218,6 +3228,24 @@
         "source": "victim-index"
       }
     ],
+    "assassination of robert baratheon": [
+      {
+        "alias": "assassination of robert baratheon",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "assassination of robert baratheon",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
     "death of king in highgarden": [
       {
         "alias": "death of king in highgarden",
@@ -3362,6 +3390,24 @@
         "source": "victim-index"
       }
     ],
+    "execution of robert baratheon": [
+      {
+        "alias": "execution of robert baratheon",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "execution of robert baratheon",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
     "killing of king in highgarden": [
       {
         "alias": "killing of king in highgarden",
@@ -3431,6 +3477,24 @@
         "confidence": "high",
         "node_type": "event.death",
         "raw": "Renly Baratheon (VICTIM_IN \u2192 renly-s-death-reflection)",
+        "source": "victim-index"
+      }
+    ],
+    "killing of robert baratheon": [
+      {
+        "alias": "killing of robert baratheon",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "killing of robert baratheon",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
         "source": "victim-index"
       }
     ],
@@ -3794,6 +3858,24 @@
         "source": "victim-index"
       }
     ],
+    "murder of robert baratheon": [
+      {
+        "alias": "murder of robert baratheon",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "murder of robert baratheon",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
     "prince that was promised assassinated": [
       {
         "alias": "prince that was promised assassinated",
@@ -4082,6 +4164,150 @@
         "source": "victim-index"
       }
     ],
+    "robert baratheon assassinated": [
+      {
+        "alias": "robert baratheon assassinated",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon assassinated",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
+    "robert baratheon death": [
+      {
+        "alias": "robert baratheon death",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon death",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
+    "robert baratheon execution": [
+      {
+        "alias": "robert baratheon execution",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon execution",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
+    "robert baratheon is killed": [
+      {
+        "alias": "robert baratheon is killed",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon is killed",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
+    "robert baratheon killed": [
+      {
+        "alias": "robert baratheon killed",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon killed",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
+    "robert baratheon murdered": [
+      {
+        "alias": "robert baratheon murdered",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon murdered",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
+    "robert baratheon's death": [
+      {
+        "alias": "robert baratheon's death",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon's death",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
+    "robert baratheon's execution": [
+      {
+        "alias": "robert baratheon's execution",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "robert baratheon's execution",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
+    ],
     "who killed king in highgarden": [
       {
         "alias": "who killed king in highgarden",
@@ -4151,6 +4377,24 @@
         "confidence": "high",
         "node_type": "event.death",
         "raw": "Renly Baratheon (VICTIM_IN \u2192 renly-s-death-reflection)",
+        "source": "victim-index"
+      }
+    ],
+    "who killed robert baratheon": [
+      {
+        "alias": "who killed robert baratheon",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "who killed robert baratheon",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
         "source": "victim-index"
       }
     ],
@@ -4225,23 +4469,41 @@
         "raw": "Renly Baratheon (VICTIM_IN \u2192 renly-s-death-reflection)",
         "source": "victim-index"
       }
+    ],
+    "who murdered robert baratheon": [
+      {
+        "alias": "who murdered robert baratheon",
+        "canonical_slug": "varys-confirms-cersei-s-role-in-robert-s-death",
+        "confidence": "high",
+        "node_type": "event.death",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 varys-confirms-cersei-s-role-in-robert-s-death)",
+        "source": "victim-index"
+      },
+      {
+        "alias": "who murdered robert baratheon",
+        "canonical_slug": "death-of-robert-baratheon",
+        "confidence": "high",
+        "node_type": "event.assassination",
+        "raw": "Robert Baratheon (VICTIM_IN \u2192 death-of-robert-baratheon)",
+        "source": "victim-index"
+      }
     ]
   },
-  "computed_at": "2026-06-19T20:23:25.623743+00:00",
+  "computed_at": "2026-06-19T21:03:07.566018+00:00",
   "stats": {
-    "ambiguous_collisions": 60,
+    "ambiguous_collisions": 74,
     "source_breakdown": {
-      "node-frontmatter-alias": 176,
-      "node-name": 611,
-      "node-slug": 611,
-      "victim-index": 2205,
+      "node-frontmatter-alias": 196,
+      "node-name": 614,
+      "node-slug": 614,
+      "victim-index": 2220,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 4505,
-    "unambiguous_lookups": 3144,
-    "unique_phrases": 3204
+    "total_entries_scanned": 4546,
+    "unambiguous_lookups": 3154,
+    "unique_phrases": 3228
   },
   "version": "v2"
 }

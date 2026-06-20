@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-19T20:23:25.811424+00:00",
+  "computed_at": "2026-06-19T21:03:07.766731+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -18317,6 +18317,22 @@
         "source": "node-slug"
       }
     ],
+    "death of robert baratheon": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "death of robert i baratheon": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "death of ser stevron frey announced": [
       {
         "canonical_slug": "death-of-ser-stevron-frey-announced",
@@ -18344,6 +18360,22 @@
     "death-of-robb-stark": [
       {
         "canonical_slug": "robb-is-killed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "death-of-robert-baratheon": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "death-of-robert-i-baratheon": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -21203,6 +21235,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "eddard-discovers-cersei-and-jaime-s-children": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "eddard-stark-s-false-confession": [
+      {
+        "canonical_slug": "ned-confesses-to-treason",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "edderion stark": [
@@ -44015,6 +44063,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "killing-of-king-robert": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "kin of the stag": [
       {
         "canonical_slug": "kin-of-the-stag",
@@ -59661,6 +59717,30 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "ned confesses to treason": [
+      {
+        "canonical_slug": "ned-confesses-to-treason",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "ned discovers the truth of joffrey s parentage": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "ned discovers the truth of joffrey's parentage": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "ned ferryman": [
       {
         "canonical_slug": "ned-ferryman",
@@ -59736,6 +59816,78 @@
     "ned's execution": [
       {
         "canonical_slug": "execution-of-eddard-stark",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-confesses-his-treason": [
+      {
+        "canonical_slug": "ned-confesses-to-treason",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-confesses-to-treason": [
+      {
+        "canonical_slug": "ned-confesses-to-treason",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-discovers-joffrey-is-a-bastard": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-discovers-the-truth-of-joffrey-s-parentage": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-learns-joffreys-true-parentage": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-proclaims-joffrey-the-true-heir": [
+      {
+        "canonical_slug": "ned-confesses-to-treason",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-s-confession-at-baelor": [
+      {
+        "canonical_slug": "ned-confesses-to-treason",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-uncovers-the-incest": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned-works-out-joffrey-s-true-father": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -69253,6 +69405,30 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-name:artifacts"
+      }
+    ],
+    "robert-baratheon-killed-by-the-boar": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robert-gored-by-the-boar": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robert-s-boar-hunt-death": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "roberts rebellion": [
@@ -79835,6 +80011,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "the-confession-of-eddard-stark": [
+      {
+        "canonical_slug": "ned-confesses-to-treason",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "the-freeing-of-the-kingslayer": [
       {
         "canonical_slug": "catelyn-releases-jaime-lannister",
@@ -79867,6 +80051,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "the-kings-boar-hunt": [
+      {
+        "canonical_slug": "death-of-robert-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "the-kingslaying": [
       {
         "canonical_slug": "slaying-of-aerys-ii-the-kingslaying",
@@ -79886,6 +80078,14 @@
     "the-plot-behind-the-red-wedding": [
       {
         "canonical_slug": "red-wedding-conspiracy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "the-seed-is-strong": [
+      {
+        "canonical_slug": "ned-discovers-the-truth-of-joffrey-s-parentage",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -89855,8 +90055,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18587,
-    "unique_phrases": 11134
+    "total_node_entries": 18613,
+    "unique_phrases": 11159
   },
   "version": "v1"
 }

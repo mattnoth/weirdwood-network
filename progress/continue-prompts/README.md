@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-19 (refreshed after S107)  
+**Generated:** 2026-06-19 (refreshed after S108)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (rewritten S107) | Causal-arc execution: B3 (Ned's downfall), then re-dip | **LIVE** | Sonnet 4.6 | S107: dip ran (5/10; all prior arcs validated) → minted B1 (Red-Wedding-upstream) + B2 (Greyjoy→Theon-ward), both fresh-subagent verified; post-build re-dip 6/10, Q7 confirmed fixed. **Next action = build B3 (Ned's-downfall arc, the Q10 gap: discovery→Littlefinger betrayal→arrest→execution), then re-dip.** Spec: `working/causal-arc-strategy-2026-06-18.md`; dips: `working/session-results/2026-06-19-arc-weighted-{dip,redip}.md`; terms: `reference/narrative-arc-glossary.md`. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (rewritten S108) | Causal-arc execution: dip-gated refinements (Tier-B done) | **LIVE** | Sonnet 4.6 | S108: built B3 (Ned's-downfall arc, Q10) — 3 beats + 14 edges, fresh-subagent verified; post-B3 re-dip **Q10 + Q8 → correct** (arc layer 8 correct / 1 policy-stop-short / 2 partial). Tier-A + Tier-B all shipped. **Next action = dip-gated REFINEMENTS only (B3 closed the richest gap): #1 Q7 `robb-weds-jeyne` upstream (extends B1), #2 Q3 Trident inbound CAUSES, #3 execution downstream (low). Re-dip to confirm demand before building.** Spec: `working/causal-arc-strategy-2026-06-18.md`; dips: `working/session-results/2026-06-19-post-b3-redip.md`; terms: `reference/narrative-arc-glossary.md`. |
 
 ---
 
@@ -41,12 +41,15 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ## Open thread right now (ONE live track)
 
-**LIVE: `2026-06-18-causal-arc-execution.md`** — chain-as-arc ratified (S106); the `--causal-chain` primitive +
-the two Tier-A arcs (Sack of KL, Purple Wedding) are SHIPPED and fresh-subagent-verified. **Next action = run an
-arc-weighted Mode-3 dip BEFORE any Tier-B minting** (Catelyn-frees-Jaime→Red-Wedding-feed; Greyjoy→Theon-hostage→
-Northern-invasion). Dip-driven, not mass-mint: the dip's fumbles re-rank Tier B. Reuse the proven mint machine
-(research subagent → trim+mint script → index/alias rebuild → fresh-subagent verify → `--causal-chain` smoke).
-Spec: `working/causal-arc-strategy-2026-06-18.md`; terms: `reference/narrative-arc-glossary.md`.
+**LIVE: `2026-06-18-causal-arc-execution.md`** — Tier-A (Sack of KL, Purple Wedding, S106) + Tier-B (B1 Red-Wedding-
+upstream, B2 Greyjoy→Theon-ward, B3 Ned's-downfall, S107–S108) all SHIPPED + fresh-subagent-verified. The arc layer
+answers **8 of 10** arc-weighted dip questions correctly. **Next action = dip-gated REFINEMENTS only** — B3 closed the
+richest gap (Q10), so what's left are refinements: #1 Q7 `robb-weds-jeyne` upstream (extends B1), #2 Q3 Trident inbound
+CAUSES, #3 execution downstream (low). Re-run an arc-weighted dip to confirm demand before building; if nothing
+fumbles, the track is at a natural pause — archive this prompt and move to another track. Reuse the proven mint machine
+(research subagent → trim+mint script → index/alias rebuild → fresh-subagent verify → `--causal-chain` smoke; **paste
+the harvest snippet into each text-reading subagent**). Spec: `working/causal-arc-strategy-2026-06-18.md`; terms:
+`reference/narrative-arc-glossary.md`.
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*

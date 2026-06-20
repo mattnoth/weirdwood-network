@@ -22,4 +22,26 @@
 
 ---
 
-*(Sessions 103–106 will be appended here as they rotate out of the live worklog. This file currently holds S102 only; it fills to 5 entries — S102–S106 — before a new archive023 begins.)*
+### Session 103 — Fable cleanup: canonical vocabulary DECIDED (3 terms, not 6) (2026-06-16)
+**Detail:** `history/session-details/session-103.md`
+**Model:** Opus 4.8 (1M context) orchestrator + 4 parallel Sonnet 4.6 `general-purpose` advisors (minimalist / empirical / mechanism / ROI-skeptic). **Commit:** this endsession commit.
+
+**Changes made (additive docs only, +33/−3, no code/graph change):**
+- **NEW `reference/glossary.md`** — canonical forward vocabulary + retired-term decode + the consistency mechanism + queued follow-ups.
+- `CLAUDE.md` — NEW `## Vocabulary` stub (3 terms + `step`) with the "paste terms into naming/sequencing subagents" instruction (closes the subagent-doesn't-load-CLAUDE.md gap = the "give it necessary info" answer).
+- `working/nomenclature-reform-proposal.md` — superseded preamble (the 6-term scheme is no longer live).
+- **NEW memory `feedback_vocabulary_canon`** (+ MEMORY.md index). `working/todos.md` — scheme marked DONE + 2 narrow follow-ups queued. Current State GATED line updated.
+
+**Decisions:**
+- Matt rejected the 2026-06-12 **six-term** scheme as overkill ("six is too many, I don't know what they mean") and ran a 4-lens advisory fan-out. Result: **3 capitalized terms + 1 lowercase word** — **Pass** (grandfathered numbered corpus sweeps) · **Track** (named workstream; lettered idiom retired) · **step** (lowercase, ordered sub-unit; replaces Stage/Plate/Phase/Wave) · **Tier** (confidence **1–5 only**, never work/process — the one rule with teeth, since Tier is stamped on edge data). Empirical advisor confirmed the famous collisions are mostly already tidied (S99/S101/S102); the only live ambiguity was Track, the only data hazard was Tier overload.
+- **Full ~175–250-edit retroactive doc sweep DECLINED** as churn-for-tidiness (re-creates the S102 "timestamp diffs bury the real change" problem). History glossary decodes old docs; move forward. Two narrow follow-ups queued instead: rename live non-confidence "Tier"→class/level (the only data-error fix); pull-channel pointer in ~8 live agents. Grep linter deferred until drift recurs.
+- **Mechanism** (Matt's "keep it consistent + give it necessary info"): one source of truth (`reference/glossary.md`) + CLAUDE.md stub + **push** (orchestrator pastes vocab into naming/sequencing subagent prompts) + **pull** (queued agent-def pointers). Reuses existing vocab-lockdown / drift-detection patterns, no new infra.
+- **Repo-reorg half of Fable cleanup NOT taken up** (Matt's scope choice); mostly overtaken by S99/S101 hygiene anyway.
+
+**What's next** — 2 of the 3 next-move decisions remain, both Matt's (board order #1 → #2):
+- → **#1 `PRECEDES`/`FOLLOWS`** — needs vocab-add OK (D3; absent from vocab; bumps the 166 count) + grouping basis (0 dated events share a `PART_OF` parent). $0 deterministic.
+- → **#2 causal `TRIGGERS`** — already in vocab; needs sign-off on the Robert's Rebellion pilot (interpretive/pollution-sensitive). Continue: `progress/continue-prompts/2026-06-16-next-move-decisions.md` (**Sonnet 4.6**).
+
+---
+
+*(Sessions 104–106 will be appended here as they rotate out of the live worklog. This file now holds S102–S103 (2/5); it fills to 5 entries — S102–S106 — before a new archive023 begins.)*
