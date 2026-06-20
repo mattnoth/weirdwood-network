@@ -2,6 +2,7 @@
 slug: cersei-is-stripped-and-imprisoned
 type: event.capture
 name: "Cersei is stripped and imprisoned"
+aliases: ["Cersei imprisoned by the Faith", "Cersei's imprisonment", "Cersei stripped and jailed", "Cersei's confinement in the sept"]
 status: minted-plate3
 minted_at: 2026-06-07T20:35:23.570286+00:00
 evidence_chapters:

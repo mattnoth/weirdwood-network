@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-20T18:45:50.686532+00:00",
+  "computed_at": "2026-06-20T19:58:03.601729+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -3423,6 +3423,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "arming the faith militant": [
+      {
+        "canonical_slug": "cersei-rearms-the-faith-and-forgives-the-debt",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "armistead vance": [
@@ -12093,6 +12101,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "cersei captured by the faith": [
+      {
+        "canonical_slug": "cersei-is-captured-in-the-sept",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "cersei claims ned s men attacked first": [
       {
         "canonical_slug": "cersei-claims-ned-s-men-attacked-first",
@@ -12125,12 +12141,28 @@
         "source": "node-slug"
       }
     ],
+    "cersei frames margaery": [
+      {
+        "canonical_slug": "cersei-plots-against-margaery",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "cersei frey": [
       {
         "canonical_slug": "cersei-frey",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "cersei imprisoned by the faith": [
+      {
+        "canonical_slug": "cersei-is-stripped-and-imprisoned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "cersei is captured in the sept": [
@@ -12155,6 +12187,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "cersei lets the faith bear arms again": [
+      {
+        "canonical_slug": "cersei-rearms-the-faith-and-forgives-the-debt",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "cersei maneuvers for lady s death": [
@@ -12245,12 +12285,76 @@
         "source": "node-name"
       }
     ],
+    "cersei rearms the faith": [
+      {
+        "canonical_slug": "cersei-rearms-the-faith-and-forgives-the-debt",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei rearms the faith and forgives the debt": [
+      {
+        "canonical_slug": "cersei-rearms-the-faith-and-forgives-the-debt",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "cersei rearms the faith militant and forgives the crown debt": [
+      {
+        "canonical_slug": "cersei-rearms-the-faith-and-forgives-the-debt",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "cersei s plot to assassinate jon snow": [
       {
         "canonical_slug": "cersei-s-plot-to-assassinate-jon-snow",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "cersei seized in the sept": [
+      {
+        "canonical_slug": "cersei-is-captured-in-the-sept",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei stripped and jailed": [
+      {
+        "canonical_slug": "cersei-is-stripped-and-imprisoned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei's arrest": [
+      {
+        "canonical_slug": "cersei-is-captured-in-the-sept",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei's arrest by the faith": [
+      {
+        "canonical_slug": "cersei-is-captured-in-the-sept",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei's confinement in the sept": [
+      {
+        "canonical_slug": "cersei-is-stripped-and-imprisoned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "cersei's contract on jon snow": [
@@ -12269,9 +12373,25 @@
         "source": "all-node-name:artifacts"
       }
     ],
+    "cersei's imprisonment": [
+      {
+        "canonical_slug": "cersei-is-stripped-and-imprisoned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "cersei's plan to send osney to the wall": [
       {
         "canonical_slug": "cersei-s-plot-to-assassinate-jon-snow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei's plot against margaery": [
+      {
+        "canonical_slug": "cersei-plots-against-margaery",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -12291,6 +12411,22 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei's walk of atonement": [
+      {
+        "canonical_slug": "walk-of-atonement",
+        "node_category": "customs",
+        "node_type": "concept.custom",
+        "source": "all-node-alias:customs"
+      }
+    ],
+    "cersei's walk of shame": [
+      {
+        "canonical_slug": "walk-of-atonement",
+        "node_category": "customs",
+        "node_type": "concept.custom",
+        "source": "all-node-alias:customs"
       }
     ],
     "cersei-accuses-tyrion-of-regicide": [
@@ -14653,6 +14789,14 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "confession that backfires on cersei": [
+      {
+        "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "confessor": [
       {
         "canonical_slug": "confessor",
@@ -15657,6 +15801,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "crown's debt to the faith forgiven": [
+      {
+        "canonical_slug": "cersei-rearms-the-faith-and-forgives-the-debt",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "crownlander": [
@@ -23187,6 +23339,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "faith arrests cersei": [
+      {
+        "canonical_slug": "cersei-is-captured-in-the-sept",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "faith militant": [
       {
         "canonical_slug": "faith-militant",
@@ -25559,6 +25719,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "framing margaery": [
+      {
+        "canonical_slug": "cersei-plots-against-margaery",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "franklyn farman": [
@@ -59757,6 +59925,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "naked walk of atonement": [
+      {
+        "canonical_slug": "walk-of-atonement",
+        "node_category": "customs",
+        "node_type": "concept.custom",
+        "source": "all-node-alias:customs"
+      }
+    ],
     "name day": [
       {
         "canonical_slug": "name-day",
@@ -62507,6 +62683,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "osney confesses to the high sparrow": [
+      {
+        "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "osney kettleblack": [
       {
         "canonical_slug": "osney-kettleblack",
@@ -62518,6 +62702,46 @@
     "osney kettleblack assassination plot": [
       {
         "canonical_slug": "cersei-s-plot-to-assassinate-jon-snow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "osney kettleblack betrays cersei": [
+      {
+        "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "osney kettleblack confesses to high sparrow": [
+      {
+        "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "osney kettleblack confesses to the high sparrow": [
+      {
+        "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "osney names cersei to the faith": [
+      {
+        "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "osney's confession": [
+      {
+        "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -64265,6 +64489,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "plot against queen margaery": [
+      {
+        "canonical_slug": "cersei-plots-against-margaery",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "plot to free jaime lannister": [
@@ -68349,6 +68581,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "restoring the warrior's sons": [
+      {
+        "canonical_slug": "cersei-rearms-the-faith-and-forgives-the-debt",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "retaking of rook's rest": [
@@ -73791,6 +74031,14 @@
         "node_category": "medical",
         "node_type": "concept.medical",
         "source": "all-node-slug:medical"
+      }
+    ],
+    "shaming walk": [
+      {
+        "canonical_slug": "walk-of-atonement",
+        "node_category": "customs",
+        "node_type": "concept.custom",
+        "source": "all-node-alias:customs"
       }
     ],
     "shamyriana": [
@@ -86285,6 +86533,14 @@
         "source": "all-node-slug:customs"
       }
     ],
+    "walk of shame": [
+      {
+        "canonical_slug": "walk-of-atonement",
+        "node_category": "customs",
+        "node_type": "concept.custom",
+        "source": "all-node-alias:customs"
+      }
+    ],
     "walking lizard": [
       {
         "canonical_slug": "walking-lizard",
@@ -90525,8 +90781,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18681,
-    "unique_phrases": 11217
+    "total_node_entries": 18713,
+    "unique_phrases": 11249
   },
   "version": "v1"
 }

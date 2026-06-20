@@ -2,7 +2,7 @@
 name: "Walk of atonement"
 type: concept.custom
 slug: walk-of-atonement
-aliases: []
+aliases: ["walk of shame", "Cersei's walk of atonement", "Cersei's walk of shame", "naked walk of atonement", "the shaming walk"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Walk_of_atonement"
 bucket_id: tier3-pathb-longtail

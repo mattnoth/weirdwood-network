@@ -2,6 +2,7 @@
 slug: cersei-plots-against-margaery
 type: event.conspiracy
 name: "Cersei plots against Margaery"
+aliases: ["Cersei's plot against Margaery", "framing Margaery", "Cersei frames Margaery", "the plot against Queen Margaery"]
 status: minted-plate3
 minted_at: 2026-06-07T20:35:14.057314+00:00
 evidence_chapters:

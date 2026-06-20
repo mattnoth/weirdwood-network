@@ -2,6 +2,7 @@
 slug: cersei-is-captured-in-the-sept
 type: event.capture
 name: "Cersei is captured in the sept"
+aliases: ["Cersei's arrest", "the Faith arrests Cersei", "Cersei seized in the sept", "Cersei captured by the Faith", "Cersei's arrest by the Faith"]
 status: minted-plate3
 minted_at: 2026-06-07T20:35:35.149512+00:00
 evidence_chapters:
