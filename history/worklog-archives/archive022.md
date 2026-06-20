@@ -44,4 +44,28 @@
 
 ---
 
-*(Sessions 104–106 will be appended here as they rotate out of the live worklog. This file now holds S102–S103 (2/5); it fills to 5 entries — S102–S106 — before a new archive023 begins.)*
+### Session 104 — PRECEDES ordering edges + causal CAUSES pilot (the 2 remaining next-move decisions) (2026-06-17)
+**Detail:** `history/session-details/session-104.md`
+**Model:** Opus 4.8 orchestrator + 1 fresh `general-purpose` verification subagent. **Commit:** this endsession commit.
+
+**Changes made (edges + vocab + docs; +176 edges):**
+- **Decision #1 — `PRECEDES` ordering edges SHIPPED.** Added `PRECEDES` only to the locked vocab (new "Temporal & Sequencing" subsection in `architecture.md`; `FOLLOWS`/`OCCURRED_IN_YEAR` deliberately NOT added); vocab **166 → 167**, both count-tests updated. New `scripts/build-precedes-edges.py` → **174 edges** (17 same-book narrative + 157 cross-year), Tier-3, `evidence_kind: derived-chronology` (7th kind), `typed_by: python-chronology-chain`, each tagged `order_basis`. Basis: global year-chain by `occurred.ac_year`; same-year tiebreak by `narrative_first` but **restricted to same-book** (reading-order proxy inverts cross-book — caught + fixed the wrong `red-wedding→renly-wedding` edge). Unit model (each `(year,book)` nf-run = a unit, bridged cross-year to adjacent-year reps) keeps all 117 events in one connected timeline; also fixed consecutive-floater-year ordering.
+- **Decision #2 — causal pilot SHIPPED (small).** 2 `CAUSES` edges (Tier-2, `candidate_kind: causal-curator-pilot`): `battle-of-the-trident → sack-of-kings-landing → coronation-of-robert-i-baratheon`. Typed `CAUSES` not `TRIGGERS` (coarse battle-node granularity; the specific spark = Tywin's gate-opening, no node). Both `verified_by` a fresh subagent against the local cache; EDGE 2 re-cited to `Coronation_of_Robert_I_Baratheon` per the verdict.
+- `edges.jsonl`: **21,993 → 22,169**; edge types 125 → **127**; orphans **62 unchanged**. Backups: `_regrounding/edges-pre-{precedes,causal-pilot,recite}-2026-06-17.jsonl`. pytest 1297 pass / 1 documented `cwd-is-tmp` fail.
+
+**Decisions:**
+- Matt picked **#1 first**, then **#2**. #1 sub-calls: PRECEDES-only / global-year-chain / P2-floater-bridged / **same-book narrative only** (chosen after a fresh-eyes case showed `narrative_first` inverts across books). #2: emit as **CAUSES** (not TRIGGERS — overclaims at this granularity); **defer** minting the 3 Rebellion spark-beat nodes (abduction/executions/demand) to a dedicated track. **NEW standing method (Matt):** interpretive/causal edges are verified by **fresh subagents against the LOCAL wiki/book cache** — Matt gates at policy level, not per-edge (memory `feedback_subagent_verify_not_matt`). Unblocks scaling causal work.
+
+**Post-endsession continuation (same day, S104):** Matt asked for unattended follow-up work; a background agent died to a network error so this ran inline.
+- **Inverted `PART_OF` fix SHIPPED** (commit `e6c031015`): dropped 16 war→battle inversions graph-wide (15 with correct forward edge + 1 malformed `roberts-rebellion→tower-of-joy`, target is a location); left 1 flagged (`shadow-war→targaryen-campaign-in-slavers-bay`, ambiguous war-vs-campaign). Root cause = S94 infobox merge (no direction guard on conflict/part-of field). edges 22,169→22,153.
+- **Causal track Phase 1+2 for Robert's Rebellion DONE** (was "deferred"): minted **3 spark-beat nodes** (`abduction-of-lyanna`, `execution-of-brandon-and-rickard-stark`, `aerys-demands-ned-and-robert`; `event.incident`/`event.execution`, tier-1, 282 AC, local-source `## Quotes`) + targeted index + alias rebuild (nodes 8,518→8,521). Wired the full spark chain **verified by a fresh subagent** (all CONFIRM): `tourney-at-harrenhal —CAUSES→ abduction —CAUSES→ executions —TRIGGERS→ demand —TRIGGERS→ roberts-rebellion` (E1/E2 CAUSES not TRIGGERS per verifier — mediated). edges 22,153→22,157. All `verified_by: subagent-local-source-check-20260617`.
+- State now: **8,521 nodes / 22,157 edges**, 62 orphans, pytest 1297 pass / 1 documented fail.
+
+**What's next:**
+- → **NEXT = a PURE-ANALYSIS session (Matt's call, S104)** on the strategy for causal/narrative-arc edges across the WHOLE graph (scaling beyond Robert's Rebellion). No graph writes — produce a prioritized plan. `progress/continue-prompts/2026-06-17-causal-edges-and-spark-nodes.md`.
+- `shadow-war→targaryen-campaign-in-slavers-bay` **RESOLVED S104** (subagent vs local wiki): KEEP as-is — the shadow war (Sons of the Harpy insurgency in Meereen) is a wiki-attested component of the broader Slaver's Bay campaign.
+- Small-fix backlog (subagent-surfaced S104): `shadow-war` + `targaryen-campaign-in-slavers-bay` carry junk `DEFEATS`/`FIGHTS_IN` edges (misparsed infobox fields) and are mistyped `event.battle`. → todos § Small Fixes.
+
+---
+
+*(Sessions 105–106 will be appended here as they rotate out of the live worklog. This file now holds S102–S104 (3/5); it fills to 5 entries — S102–S106 — before a new archive023 begins.)*

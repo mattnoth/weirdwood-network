@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-19T21:03:07.766731+00:00",
+  "computed_at": "2026-06-20T04:26:48.642182+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -18341,6 +18341,30 @@
         "source": "node-slug"
       }
     ],
+    "death of shae": [
+      {
+        "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of tywin": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of tywin lannister": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "death's head harry": [
       {
         "canonical_slug": "harys-horpe",
@@ -25567,6 +25591,14 @@
         "node_category": "concepts",
         "node_type": "concept.culture",
         "source": "all-node-slug:concepts"
+      }
+    ],
+    "freeing of tyrion lannister": [
+      {
+        "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "frenken": [
@@ -41237,6 +41269,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "jaime confesses the tysha lie": [
+      {
+        "canonical_slug": "jaime-reveals-the-truth-of-tysha",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jaime corbray": [
       {
         "canonical_slug": "jaime-corbray",
@@ -41248,6 +41288,22 @@
     "jaime demands the red wedding captives": [
       {
         "canonical_slug": "jaime-demands-the-red-wedding-captives",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "jaime frees tyrion": [
+      {
+        "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jaime frees tyrion from the black cells": [
+      {
+        "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -41301,6 +41357,14 @@
         "source": "node-name"
       }
     ],
+    "jaime opens tyrion's cell": [
+      {
+        "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jaime orders siege equipment and gallows burned": [
       {
         "canonical_slug": "jaime-orders-siege-equipment-and-gallows-burned",
@@ -41339,6 +41403,30 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "jaime rescues tyrion": [
+      {
+        "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jaime reveals the truth of tysha": [
+      {
+        "canonical_slug": "jaime-reveals-the-truth-of-tysha",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "jaime reveals the truth of tysha to tyrion": [
+      {
+        "canonical_slug": "jaime-reveals-the-truth-of-tysha",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "jaime s kills are revealed": [
@@ -44058,6 +44146,14 @@
     "killing of symon silver tongue": [
       {
         "canonical_slug": "assassination-of-symon-silver-tongue",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "killing of tywin lannister": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -73467,6 +73563,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "shae in tywin's bed": [
+      {
+        "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "shaena targaryen": [
       {
         "canonical_slug": "shaena-targaryen",
@@ -78341,6 +78445,14 @@
         "source": "all-node-slug:medical"
       }
     ],
+    "strangling of shae": [
+      {
+        "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "street brawl outside chataya's brothel": [
       {
         "canonical_slug": "attack-on-ned-stark-in-the-streets-of-kings-landing",
@@ -82673,6 +82785,22 @@
         "source": "all-node-slug:texts"
       }
     ],
+    "truth of tyrion's first wife": [
+      {
+        "canonical_slug": "jaime-reveals-the-truth-of-tysha",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "truth of tysha": [
+      {
+        "canonical_slug": "jaime-reveals-the-truth-of-tysha",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "truth sword": [
       {
         "canonical_slug": "truth-sword",
@@ -83213,6 +83341,14 @@
         "source": "node-slug"
       }
     ],
+    "tyrion finds shae with tywin": [
+      {
+        "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tyrion has symon killed": [
       {
         "canonical_slug": "assassination-of-symon-silver-tongue",
@@ -83251,6 +83387,46 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "tyrion kills his father": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tyrion kills shae": [
+      {
+        "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tyrion kills shae in tywin's bed": [
+      {
+        "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "tyrion kills shae in tywins bed": [
+      {
+        "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "tyrion kills tywin": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "tyrion lannister": [
@@ -83309,6 +83485,14 @@
         "source": "node-slug"
       }
     ],
+    "tyrion shoots tywin": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tyrion tanner": [
       {
         "canonical_slug": "tyrion-tanner",
@@ -83331,6 +83515,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "tyrion's escape from the dungeons": [
+      {
+        "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "tyrion's mushrooms": [
@@ -83427,6 +83619,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "tysha revelation": [
+      {
+        "canonical_slug": "jaime-reveals-the-truth-of-tysha",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tysha was no whore": [
+      {
+        "canonical_slug": "jaime-reveals-the-truth-of-tysha",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "tyshara lannister": [
@@ -83557,6 +83765,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "tywin killed on the privy": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tywin lannister": [
       {
         "canonical_slug": "tywin-lannister",
@@ -83579,6 +83795,14 @@
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-name:theories"
+      }
+    ],
+    "tywin shot with a crossbow": [
+      {
+        "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "ugly girl": [
@@ -84783,6 +85007,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "varys's plan to free tyrion": [
+      {
+        "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "vayon poole": [
@@ -90055,8 +90287,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18613,
-    "unique_phrases": 11159
+    "total_node_entries": 18643,
+    "unique_phrases": 11188
   },
   "version": "v1"
 }

@@ -1,14 +1,14 @@
 {
   "slug": "assassination-of-tywin-lannister",
   "name": "Assassination of Tywin Lannister",
-  "type": "event.battle",
+  "type": "event.assassination",
   "node_path": "graph/nodes/events/assassination-of-tywin-lannister.node.md",
-  "generated_at": "2026-06-14T20:36:09.895789+00:00",
+  "generated_at": "2026-06-20T04:24:08.965652+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
     "chapters_in_raw_list": 0,
-    "out_edge_count": 4,
+    "out_edge_count": 0,
     "in_edge_count": 0
   },
   "chapters": {
