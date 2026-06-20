@@ -1,4 +1,4 @@
-# Worklog Archive 023 — Sessions 107–
+# Worklog Archive 023 — Sessions 107–110
 
 > Archived from `worklog.md` per CLAUDE.md rule #8 (Session Log holds 5 entries; oldest rotates out). 5 entries per archive file. This file starts at Session 107.
 
@@ -58,3 +58,25 @@
 - **Shae killing modeled as a SIBLING beat** (caused-by the same revelation, NOT causing the patricide — Tysha is the patricide's motive). Avoids granularity-overclaim; verifier concurred.
 - **Downstream consequences DEFERRED** (Cersei's regency, Tommen's reign) — those beat-nodes don't exist; a long-distance ASOS→ADWD CAUSES would be "a thesis, not an edge." Logged for the next dip-gated batch.
 - **Dip-driven cadence held** — built ONE validating batch (Tywin), re-confirmed Q14 fixed, did NOT mass-mint Q11/Q12. **Harvest-queue 2-dip review done** (Matt's smoke test): 28 open rows, push works, buckets healthy, no split/merge, push stays memory-only; queue now big enough for a batched harvest pass.
+
+### Session 110 — Harvest pass: consume `working/harvest-queue.md` (2026-06-20)
+**Detail:** worklog entry sufficient (execution session). **Model:** Sonnet 4.6 orchestrator (read-and-attach) + 1 `general-purpose` fresh-verify subagent. **Commit:** this endsession commit.
+
+**Changes made:**
+- **Ran the first batched HARVEST PASS** — consumed all **28 `status: open` rows** in `working/harvest-queue.md` (the S108 deferred-capture ledger), attaching each to the graph and flipping every row to `done`. This **proves the queue→graph half of the harvest mechanism** end-to-end (the push half was already proven S108-S109).
+- **Quotes** → `## Quotes` blocks: `eddard-stark` (Ned's honor refusal), `jaime-lannister` ("still my brother"), `tyrion-lannister` (Cersei-whore reveal), `robb-weds-jeyne-westerling` (expanded the truncated "took her castle" quote), `fall-of-astapor` (NEW `## Quotes` — Dany's High-Valyrian concealment), `jaime-frees-tyrion-from-the-black-cells` (×3: Handless/Noseless, the debt, Varys-Jaime-recruited), `trial-of-tyrion-lannister` (×2), `assassination-of-tywin-lannister` (the "puppets on strings" patricide-foreshadow).
+- **Appearance** → `## Appearances & Description` book-`chapter:line` overlay onto wiki-cite prose: renly (bloodied greens), petyr-baelish (mockingbird cape), varys (lavender/powdered), jaime (gaunt+stump), gregor + oberyn (trial armour).
+- **Food** → minted **`bread`** node (was missing; central to guest-right) + attached to `beer` (sweet beer + nut-brown ale), `cheese` (guest-right line), `dragon-pepper` (Tyrion's Dornish-pepper breakfast). **DATA FIX:** retyped `milk-of-the-poppy` `object.food`→`concept.medical`, `git mv` foods/→medical/ (architecture's canonical `concept.medical` example), aliases→spaced.
+- **Place** → `black-cells` (Varys's four-level account + the dragon-mosaic juncture below the Tower of the Hand). **Object** → `shae` (the Hand's golden-hands chain).
+- **Relationship** → minted **ADVISES** edge `rodrik-harlaw → balon-greyjoy` (`wiki-historical-anchor`, Tier-2, verified vs local cache); `edges.jsonl` **22,272 → 22,273** (first ADVISES instance → edge-type count 128→129, a canonical type, not invented).
+- **Totals:** nodes **8,545 → 8,546** (+`bread`; milk-of-poppy moved not added); `weirwood refresh` rebuilt all indexes + resolver; removed stale `foods/milk-of-the-poppy.index.json`. Graph health: 0 new orphans (62 unchanged). Backup `_regrounding/edges-pre-harvest-pass-2026-06-20.jsonl`.
+
+**Decisions:**
+- **Verification (FIRM rule):** every cited `chapter:line` opened + confirmed before attaching; a fresh `general-purpose` subagent re-verified 24 items vs local cache → **23 SUPPORTED + 1 wording drift** (Littlefinger "night before"→"night previous", fixed). These are verbatim-quote/description attachments (factual), not interpretive edges, so a light verify sufficed.
+- **Book-citation overlay is high-value (Matt: "this is huge"):** the real payoff isn't gap-filling — it's upgrading Tier-2 non-navigable wiki `cite_ref` prose to openable Tier-1 book `chapter:line` provenance an agent can read in context. DO it even when the wiki node already states the fact. New memory `feedback_book_citation_overlay_value`.
+- **Dedup (no-op):** row 67 (Jeyne appearance) + row 77 (Tywin "shit gold") already present in their nodes — confirmed, flipped, no double-mint.
+- **Judgment calls surfaced, NOT guessed (for Matt):** (a) possible dup `greyjoy-rebellion` (event.war) vs `greyjoys-rebellion` (event.battle) — flagged, not merged (cross-identity is its own track); (b) did NOT mint granular single-mention dish nodes (applecakes/blood-sausage/eggs) or a `chamber-of-the-dragon-mosaic` place node — attached to existing homes instead.
+
+**What's next:**
+- Harvest queue is empty (all done). Next text-reading dip/research will refill it via the push snippet; run the next harvest pass when it re-accumulates.
+- **Causal-arc track resumes as the live next track** — restored to live: `progress/continue-prompts/2026-06-18-causal-arc-execution.md`. Next gap (re-rank via fresh dip first): Q12 Battle-of-the-Blackwater downstream (cheapest), then Q11 Daenerys/Slaver's-Bay, Q5 robb-weds-jeyne upstream.

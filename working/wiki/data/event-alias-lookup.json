@@ -427,6 +427,7 @@
     "beric dondarrion murdered": "lem-disputes-beric-s-death",
     "beric dondarrion's death": "lem-disputes-beric-s-death",
     "beric dondarrion's execution": "lem-disputes-beric-s-death",
+    "beric's last kiss revives catelyn": "catelyn-rises-as-lady-stoneheart",
     "betrayal of ned by janos slynt": "gold-cloaks-betray-ned",
     "betrothal": "marriage",
     "betrothed": "marriage",
@@ -527,6 +528,10 @@
     "brides cloak": "marriage",
     "brienne arrested": "brienne-arrested",
     "brienne asks to arm renly for battle": "brienne-asks-to-arm-renly-for-battle",
+    "brienne brought before lady stoneheart": "brienne-brought-before-lady-stoneheart",
+    "brienne captured by the brotherhood": "brienne-brought-before-lady-stoneheart",
+    "brienne condemned by lady stoneheart": "brienne-brought-before-lady-stoneheart",
+    "brienne's trial in the hollow hill": "brienne-brought-before-lady-stoneheart",
     "bronn kills ser vardis": "bronn-kills-ser-vardis",
     "bronn kills symon": "assassination-of-symon-silver-tongue",
     "burn-them-all-order": "aerys-commands-the-city-burned",
@@ -561,6 +566,8 @@
     "cat's execution": "catelyn-is-killed",
     "catelyn is killed": "catelyn-is-killed",
     "catelyn releases jaime lannister": "catelyn-releases-jaime-lannister",
+    "catelyn rises as lady stoneheart": "catelyn-rises-as-lady-stoneheart",
+    "catelyn rises as stoneheart": "catelyn-rises-as-lady-stoneheart",
     "catelyn secures guest right": "catelyn-secures-guest-right",
     "catelyn seizes the moment and arrests tyrion": "catelyn-seizes-the-moment-and-arrests-tyrion",
     "catelyn stark assassinated": "catelyn-is-killed",
@@ -569,6 +576,7 @@
     "catelyn stark is killed": "catelyn-is-killed",
     "catelyn stark killed": "catelyn-is-killed",
     "catelyn stark murdered": "catelyn-is-killed",
+    "catelyn stark resurrected": "catelyn-rises-as-lady-stoneheart",
     "catelyn stark's death": "catelyn-is-killed",
     "catelyn stark's execution": "catelyn-is-killed",
     "catelyn tully assassinated": "catelyn-is-killed",
@@ -1658,6 +1666,8 @@
     "lady stoneheart is killed": "catelyn-is-killed",
     "lady stoneheart killed": "catelyn-is-killed",
     "lady stoneheart murdered": "catelyn-is-killed",
+    "lady stoneheart revealed": "catelyn-rises-as-lady-stoneheart",
+    "lady stoneheart takes the brotherhood": "catelyn-rises-as-lady-stoneheart",
     "lady stoneheart's death": "catelyn-is-killed",
     "lady stoneheart's execution": "catelyn-is-killed",
     "lady's death": "cersei-maneuvers-for-lady-s-death",
@@ -2606,6 +2616,8 @@
     "submission of stokeworth": "submission-of-stokeworth",
     "submission of sunspear": "submission-of-sunspear",
     "substitute beheading at white harbor": "execution-of-davos-lookalike-at-white-harbor",
+    "sword or noose ultimatum": "brienne-brought-before-lady-stoneheart",
+    "sword or the noose": "brienne-brought-before-lady-stoneheart",
     "symon silver tongue assassinated": "assassination-of-symon-silver-tongue",
     "symon silver tongue death": "assassination-of-symon-silver-tongue",
     "symon silver tongue execution": "assassination-of-symon-silver-tongue",
@@ -4613,21 +4625,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-20T19:58:03.414899+00:00",
+  "computed_at": "2026-06-20T21:48:01.346695+00:00",
   "stats": {
     "ambiguous_collisions": 74,
     "source_breakdown": {
-      "node-frontmatter-alias": 268,
-      "node-name": 622,
-      "node-slug": 622,
+      "node-frontmatter-alias": 278,
+      "node-name": 624,
+      "node-slug": 624,
       "victim-index": 2265,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 4679,
-    "unambiguous_lookups": 3278,
-    "unique_phrases": 3352
+    "total_entries_scanned": 4693,
+    "unambiguous_lookups": 3290,
+    "unique_phrases": 3364
   },
   "version": "v2"
 }

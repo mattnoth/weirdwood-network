@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-20T19:58:03.601729+00:00",
+  "computed_at": "2026-06-20T21:48:01.534354+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -7155,6 +7155,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "beric's last kiss revives catelyn": [
+      {
+        "canonical_slug": "catelyn-rises-as-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "beric's men": [
       {
         "canonical_slug": "brotherhood-without-banners",
@@ -10141,6 +10149,30 @@
         "source": "node-slug"
       }
     ],
+    "brienne brought before lady stoneheart": [
+      {
+        "canonical_slug": "brienne-brought-before-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "brienne captured by the brotherhood": [
+      {
+        "canonical_slug": "brienne-brought-before-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "brienne condemned by lady stoneheart": [
+      {
+        "canonical_slug": "brienne-brought-before-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "brienne of tarth": [
       {
         "canonical_slug": "brienne-tarth",
@@ -10187,6 +10219,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "brienne's trial in the hollow hill": [
+      {
+        "canonical_slug": "brienne-brought-before-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "bright banners": [
@@ -11805,6 +11845,22 @@
         "source": "node-slug"
       }
     ],
+    "catelyn rises as lady stoneheart": [
+      {
+        "canonical_slug": "catelyn-rises-as-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "catelyn rises as stoneheart": [
+      {
+        "canonical_slug": "catelyn-rises-as-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "catelyn secures guest right": [
       {
         "canonical_slug": "catelyn-secures-guest-right",
@@ -11827,6 +11883,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "catelyn stark resurrected": [
+      {
+        "canonical_slug": "catelyn-rises-as-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "catelyn tully": [
@@ -46903,6 +46967,22 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "lady stoneheart revealed": [
+      {
+        "canonical_slug": "catelyn-rises-as-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "lady stoneheart takes the brotherhood": [
+      {
+        "canonical_slug": "catelyn-rises-as-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "lady stonetree (wife of quellon greyjoy)": [
       {
         "canonical_slug": "lady-stonetree-wife-of-quellon-greyjoy",
@@ -79499,6 +79579,22 @@
         "source": "all-node-slug:titles"
       }
     ],
+    "sword or noose ultimatum": [
+      {
+        "canonical_slug": "brienne-brought-before-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "sword or the noose": [
+      {
+        "canonical_slug": "brienne-brought-before-lady-stoneheart",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "swordfish": [
       {
         "canonical_slug": "swordfish",
@@ -90781,8 +90877,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18713,
-    "unique_phrases": 11249
+    "total_node_entries": 18727,
+    "unique_phrases": 11261
   },
   "version": "v1"
 }

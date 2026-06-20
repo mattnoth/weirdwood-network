@@ -208,6 +208,14 @@ After [Theon Greyjoy](wiki:Theon_Greyjoy) returns to [Winterfell](wiki:Winterfel
 >
 > —[Merrett Frey](wiki:Merrett_Frey)'s thoughts
 
+> Lady Stoneheart lowered her hood and unwound the grey wool scarf from her face. Her hair was dry and brittle, white as bone. Her brow was mottled green and grey, spotted with the brown blooms of decay. The flesh of her face clung in ragged strips from her eyes down to her jaw. Some of the rips were crusted with dried blood, but others gaped open to reveal the skull beneath.
+>
+> —the unhooding before [Brienne](wiki:Brienne_of_Tarth), AFFC Brienne VIII (`sources/chapters/affc/affc-brienne-08.md:307`)
+
+> Her voice was halting, broken, tortured. The sound seemed to come from her throat, part croak, part wheeze, part death rattle. The language of the damned, thought Brienne.
+>
+> —Lady Stoneheart's mutilated voice, AFFC Brienne VIII (`sources/chapters/affc/affc-brienne-08.md:289`)
+
 > And there's this [other band](wiki:Brotherhood_without_banners), led by this woman Stoneheart... Lord [Beric's](wiki:Beric_Dondarrion) lover, according to one tale. Supposedly she was hanged by [the Freys](wiki:House_Frey), but Dondarrion kissed her and brought her back to life, and now she cannot die, no more than he.(wiki:Catelyn_Stark.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 >
 > —[Hyle Hunt](wiki:Hyle_Hunt) to [Brienne Tarth](wiki:Brienne_Tarth)
