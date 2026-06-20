@@ -1,11 +1,23 @@
-# Continue — Causal-arc execution: dip-gated refinements (Tywin arc done)
+# Continue — Causal-arc: planned major-arc backlog (STRATEGY PIVOTED S112)
 
-> **Recommended model:** Sonnet 4.6 (graph-only dip + subagent-driven minting). Opus only for a hard interpretive call.
-> **Status:** Tier-A (S106) + Tier-B (B1/B2/B3, S107–S108) + Tywin's-death arc (S109) + **Q12 Battle-of-the-Blackwater downstream (S111)** all SHIPPED. The arc layer now spans Purple-Wedding → trial → patricide as one walkable chain, and the Blackwater hub now carries its 3 downstream consequences. What remains are **dip-gated refinements** — NOT critical gaps. **Do NOT mass-mint. Re-run a fresh arc-weighted dip BEFORE building, to confirm demand.**
+> **Recommended model:** Sonnet 4.6 (subagent-driven minting). Opus only for a hard interpretive call.
+> **STRATEGY PIVOTED (S112, 2026-06-20):** the track is **no longer dip-cheapest-driven.** S111's 3-edge session exposed that the dip ranks by *cheapest gap* and was scraping refinements while the major arcs stayed dark (causal layer reaches only ~8% of event nodes; zero AFFC/ADWD). **New model = two tracks:** PRIMARY = a planned, magnitude-ordered **major-arc backlog** (`working/major-arc-backlog.md`, anchored on the 30 foreshadowed events) + **container decomposition dips**; SECONDARY = opportunistic cheap dips (`working/cheap-dip-backlog.md`). **The dip is now a post-build CHECK, not the prioritizer.** Full rationale: worklog S112 + `history/session-details/session-112.md`.
 
-## Where this stands (after S111, 2026-06-20)
+## Where this stands (after S112, 2026-06-20)
 
-**S111 shipped Q12** (fresh dip → 2 beats `stannis-retreats-to-dragonstone` + `tywin-named-savior-of-the-city` + 3 causal CAUSES from `battle-of-the-blackwater`, all fresh-subagent CONFIRMED; `battle-of-the-blackwater` 0→3 downstream causal edges; Q12 failed→CORRECT). Latest dip: `working/session-results/2026-06-20-fresh-arc-dip.md` (no regressions on built arcs). **NEXT = Step C below (Q5), re-dip first.**
+The arc machine is proven 9× (RR, Bran, Sack, PW, B1, B2, B3, Tywin, Blackwater-downstream). The WO5K **container** has been decomposed (`working/wo5k-decomposition.md`) — it's a trigger-tree rooted at `death-of-robert-baratheon`, with 6–10 real junctures, ranked. **NEXT BUILD = J3 below.** Cross-book chains auto-join via shared nodes + the `--causal-chain` walk (chain-as-arc, no umbrella) — so root each new arc at its existing upstream node.
+
+## NEXT BUILD — J3: Robb proclaimed King in the North (WO5K decomposition #1)
+
+Cheapest real WO5K gap. `execution-of-eddard-stark` has 0 causal *downstream*. Mint `robb-proclaimed-king-in-the-north` (event; ASOS/AGOT Catelyn — the Greatjon's "The King in the North!") + wire `execution-of-eddard-stark CAUSES robb-proclaimed-king-in-the-north` (the North secedes in response to the execution) + the agency edge (`execution... MOTIVATES robb-stark` / Robb AGENT_IN). Extends the built B3 chain one hop. ~1 mint + 2 edges. Then re-dip. Full ranked queue (#2 Q5 Crag→Jeyne · #3 Blackwater-upstream Renly→Stannis · #4 Karstark→Robb-isolation · #5 Balon→Winterfell; SKIP westerlands battle sequence) + scopes + attach-points: `working/wo5k-decomposition.md`.
+
+### Adopt these 4-lens-review corrections when building (S112):
+- Mint missing `robb-proclaimed-king-in-the-north` (this build) + `robert-orders-daenerys-assassination` (when the Essos bridges are built — only the Ned-cancels version exists).
+- Add natural SPACED aliases to two old hubs whose natural phrases resolve to NOTHING: `bran-witnesses-jaime-and-cersei` (add "bran's fall") + `assassination-of-tywin-lannister` (add "tyrion kills tywin").
+
+## (historical) The pre-pivot dip queue — superseded by the backlog above, kept for reference
+
+**Q12 Battle-of-the-Blackwater downstream ✅ DONE (S111)**: `battle-of-the-blackwater` 0→3 downstream CAUSES (→ joffrey-sets-sansa-aside [existing] / stannis-retreats-to-dragonstone / tywin-named-savior-of-the-city); `scripts/mint_blackwater_arc.py`.
 
 ## (historical) Where this stood (after S109, 2026-06-19)
 
@@ -13,13 +25,13 @@ The causal/narrative-arc **machine is proven 8×**: Robert's Rebellion (S104), B
 
 **Latest dip:** `working/session-results/2026-06-19-fresh-arc-dip.md` — a FRESH 14-question dip (7 new probes) confirmed the track is NOT at a pause (3 new failures). Q14 (Tywin) was the #1 fumble and is now built + CORRECT. The remaining queue is below.
 
-## The work, in order (each dip-gated — re-run a fresh arc-weighted dip BEFORE building to confirm demand)
+## (historical, pre-S112-pivot) The old dip queue — SUPERSEDED by the major-arc backlog + WO5K decomposition above. Kept for reference only.
 
-### Step A — Q12: Battle of the Blackwater downstream consequences ✅ DONE (S111)
+### Q12: Battle of the Blackwater downstream consequences ✅ DONE (S111)
 SHIPPED 2026-06-20: `battle-of-the-blackwater` 0→3 downstream CAUSES (→ `joffrey-sets-sansa-aside-and-agrees-to-wed-margaery` [existing] / → `stannis-retreats-to-dragonstone` [new] / → `tywin-named-savior-of-the-city` [new]); all Tier-2 fresh-subagent CONFIRMED. `scripts/mint_blackwater_arc.py`.
 
-### Step C (NEXT) — Q5: `robb-weds-jeyne-westerling` upstream (extends B1)
-"Why did Robb marry Jeyne?" is unplumbed — the B1 chain bottoms out at the marriage. The S111 dip reports BOTH `storming-of-the-crag` AND `robb-weds-jeyne-westerling` nodes EXIST (verified: `storming-of-the-crag.node.md` present) — so this may be a **1-edge wire** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`), the cheapest remaining gap. **Watch for a dup:** a separate `battle-of-the-crag.node.md` also exists — dedup-check before wiring. Optionally finer: storming-of-the-Crag → Robb wounded → Jeyne nurses him → news of Bran/Rickon → he dishonors the Frey betrothal. In-saga ASOS (Catelyn/Jaime POV recall) + ACOK Catelyn. Re-dip first to confirm demand.
+### Q5: `robb-weds-jeyne-westerling` upstream (now a SECONDARY cheap dip — `working/cheap-dip-backlog.md`; also = WO5K decomposition #2)
+"Why did Robb marry Jeyne?" — the B1 chain bottoms out at the marriage. Both `storming-of-the-crag` AND `robb-weds-jeyne-westerling` exist — likely a **1-edge wire** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`). **Dedup-check `battle-of-the-crag` vs `storming-of-the-crag` first.** Theory-loaded (Sybell Spicer / moon-tea reading) — Matt flagged: do NOT lose. Build between major arcs or when a session ends light.
 
 ### Step B — Q11: Daenerys / fall of Astapor → Slaver's Bay campaign
 NEW Essos territory (no prior arc there). `fall-of-astapor` has 0 causal edges; the campaign sub-battles exist as PART_OF but no causal spine; `targaryen-campaign-in-slavers-bay` has an alias gap ("Daenerys conquest of Slaver's Bay" misses). Larger: ~3–5 beats + 4–6 edges. In-saga ASOS Daenerys.

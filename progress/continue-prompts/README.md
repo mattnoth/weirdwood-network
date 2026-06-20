@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110) | Causal-arc execution: dip-gated refinements | **LIVE** | Sonnet 4.6 | Arc machine proven 9× (Tier-A + Tier-B + Tywin + **Q12 Blackwater-downstream S111** all shipped). Remaining = dip-gated refinements, NOT critical gaps. **Re-run a fresh arc-weighted dip BEFORE building.** Next: **Q5 robb-weds-jeyne upstream** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`; both nodes exist — likely 1-edge wire, dedup-check vs `battle-of-the-crag` first); then Q11 Daenerys/Slaver's-Bay, Q13 Sack-of-Winterfell. Spec: `working/causal-arc-strategy-2026-06-18.md`. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110; PIVOTED S112) | Causal-arc: planned major-arc backlog | **LIVE** | Sonnet 4.6 | **STRATEGY PIVOTED S112** — no longer dip-cheapest; now backlog-driven (`working/major-arc-backlog.md`) + container decomposition dips; cheap dips secondary (`working/cheap-dip-backlog.md`); dip = post-build check. **NEXT BUILD = J3 Robb-proclaimed-King-in-the-North** (WO5K decomposition #1, `working/wo5k-decomposition.md`; 1 mint + 2 edges, extends B3). Adopt 4-lens corrections (mint robb-king + robert-orders-assassination; alias-fix bran's-fall + tyrion-kills-tywin). |
 
 ---
 
