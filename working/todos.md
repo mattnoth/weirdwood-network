@@ -185,6 +185,13 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 ### Future Passes 3–6 (long-lead)
 
+> **⮕ TRIGGER — "let's start theories" (Matt, S110 2026-06-20):** when Matt says *"let's start theories"* (or
+> equivalent) in a session, the orchestrator pulls up **`working/theories-staging/README.md`** and runs that
+> deferred track (theory-seeds file → wire `theories/` evidence edges). **Gated DELIBERATELY** until after a lot
+> more dip + narrative-arc work — theories are edge-heavy and need a dense evidence layer first. First seed already
+> drafted: `working/theories-staging/eldritch-apocalypse-seed.md` (the Lovecraftian / Eldritch-Apocalypse theory).
+> Do NOT start unprompted. (Memory: `project_theories_track_deferred`.)
+
 **Agent prompts to write:**
 
 - [ ] **[DORMANT]** **Pass 3: voice-analyzer** — Full prompt. Needs: voice profile schema, perception mapping format, identity-split handling.
@@ -194,7 +201,7 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 **Reference files to create:**
 
-- [ ] **[DORMANT]** **theory-seeds.md** — Top 20-30 ASOIAF theories with descriptions and confidence tiers. Input for Pass 5.
+- [ ] **[DORMANT — staged]** **theory-seeds.md** — Top 20-30 ASOIAF theories with descriptions and confidence tiers. Input for Pass 5. **Staging + first seed: `working/theories-staging/` (trigger: "let's start theories" — see TRIGGER note above).**
 - [ ] **[DORMANT]** **taxonomy.md** — Standalone reference for entity types, edge types, confidence tiers (currently embedded in architecture.md).
 - [ ] **[DORMANT]** **node-schema.md** — What does a single entity node file look like? Frontmatter fields, required sections.
 - [ ] **[DORMANT]** **Expand `reference/foreshadowing-events.md` before Pass 4** — currently 26 events + 15 Chekhov's guns. Audit/expand both: more event anchors (deaths, identity reveals, plot reveals, magic returnings, prophecy fulfillments) AND a richer Chekhov's gun *pattern library* so the scanner can flag candidate unknown foreshadowing, not just match known events. Each gun entry should describe **setup** (where introduced), **payoff shape** (or "unfired" if open), and **textual pattern** that signals "this matters later" (named in dialogue, dwelt on by POV, contrasted with normal description). The pattern library — not the named-events list — is the real scanner input. Long-lead — Pass 4 is many sessions away.
