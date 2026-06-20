@@ -38,6 +38,10 @@ Loras is beloved by the [smallfolk](wiki:Smallfolk), especially women. While cou
 
 Despite his youth and slender frame, Loras is a capable warrior, using axes, lances, morningstars, and swords to deadly effect.(wiki:Loras_Tyrell.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)(wiki:Loras_Tyrell.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) According to [George R. R. Martin](wiki:George_R._R._Martin), a case can be made that Loras is the greatest active swordsman in Westeros.(wiki:Loras_Tyrell.cite_ref-20) When asked about the strongest fighters, he again mentions Loras.(wiki:Loras_Tyrell.cite_ref-21) Loras's silver armor, which is decorated with [sapphires](wiki:Sapphire) and twining black vines,(wiki:Loras_Tyrell.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0) was made by [Tobho Mott](wiki:Tobho_Mott).(wiki:Loras_Tyrell.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0) He also uses silver mail and a green shield.(wiki:Loras_Tyrell.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4) Golden [roses](wiki:Rose) decorate the crest of his helm.(wiki:Loras_Tyrell.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5) Loras wears a cloak of forget-me-nots sewn to a heavy woolen cape.(wiki:Loras_Tyrell.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1) His horses include a speedy grey mare(wiki:Loras_Tyrell.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-2) and a tall white stallion.(wiki:Loras_Tyrell.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6)
 
+> His sons followed him in; Ser Loras and his older brother Ser Garlan the Gallant. The three dressed alike, in green velvet trimmed with sable.
+>
+> — Sansa's POV, the Tyrell brothers at the post-Blackwater honors ceremony, ACOK Sansa VIII (`sources/chapters/acok/acok-sansa-08.md:23`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

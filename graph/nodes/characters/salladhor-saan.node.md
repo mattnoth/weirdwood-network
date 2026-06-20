@@ -88,6 +88,10 @@ Queen [Selyse Florent](wiki:Selyse_Florent) feasts Salladhor at Eastwatch.(wiki:
 >
 > —Salladhor to [Davos Seaworth](wiki:Davos_Seaworth)
 
+> Meizo Mahr, be a good eunuch and take my friend Davos to the owner's cabin. Fetch him some hot wine with cloves, I am misliking the sound of that cough. Squeeze some lime in it as well. And bring white cheese and a bowl of those cracked green olives we counted earlier! ... Do not eat all the olives, or I must be cross with you!
+>
+> —Salladhor Saan, welcoming the cough-stricken Davos aboard the *Bountiful Harvest* with shipboard hospitality — hot wine with cloves and lime, white cheese, cracked green olives, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:49`)
+
 ### Quotes about Salladhor
 
 > The [Lyseni](wiki:Lys) was a sleek, smiling man whose flamboyance was a byword on both sides of the [narrow sea](wiki:Narrow_sea).(wiki:Salladhor_Saan.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)

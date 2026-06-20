@@ -41,6 +41,10 @@ Mace has a generally jovial personality.(wiki:Mace_Tyrell.cite_ref-Rasos19.7B.7B
 
 Mace dresses in green velvet trimmed with sable,(wiki:Mace_Tyrell.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1) as well as a gold mantle over green.(wiki:Mace_Tyrell.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
+> Pride of place was given to Mace Tyrell, the Lord of Highgarden, a once-powerful man gone to fat, yet still handsome. His sons followed him in; Ser Loras and his older brother Ser Garlan the Gallant. The three dressed alike, in green velvet trimmed with sable.
+>
+> — Sansa's POV, the Tyrells at the post-Blackwater honors ceremony, ACOK Sansa VIII (`sources/chapters/acok/acok-sansa-08.md:23`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

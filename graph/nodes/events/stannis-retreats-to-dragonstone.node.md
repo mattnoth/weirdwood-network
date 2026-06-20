@@ -32,3 +32,7 @@ After his catastrophic defeat at the [Battle of the Blackwater](battle-of-the-bl
 > "Since the battle, he sees no one, but broods in his Stone Drum. ... But it is a little kingdom they are ruling, poor and rocky, yes."
 
 — Salladhor Saan, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:89`)
+
+> "Did none keep faith?" he asked. / "Some few," the captain said. "The queen's kin, them in chief. We took off many who wore the fox-and-flowers, though many more were left ashore, with all manner of badges. Lord Florent is the King's Hand on Dragonstone now."
+
+— Davos Seaworth and Captain Khorane, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:27`)

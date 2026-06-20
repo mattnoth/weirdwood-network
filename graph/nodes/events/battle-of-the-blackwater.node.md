@@ -90,7 +90,7 @@ During [the wedding](wiki:Purple_Wedding) of Joffrey and Margaery, [Hamish the H
 
 > A wall of red-hot steel, blazing wood, and swirling [green flame](wiki:Wildfire) stretched before him. The mouth of the [Blackwater Rush](wiki:Blackwater_Rush) had turned into the mouth of hell.(wiki:Battle_of_the_Blackwater.cite_ref-Racok58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-59)
 >
-> —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts
+> —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:147`)
 
 > He saw another of the hulks he'd stuffed full of King [Aerys's](wiki:Aerys_II_Targaryen) fickle fruits engulfed by the hungry flames. A fountain of [burning jade](wiki:Wildfire) rose from the [the river](wiki:Blackwater_Rush), the blast so bright he had to shield his eyes. Plumes of fire thirty and forty feet high danced upon the waters, crackling and hissing. For a few moments they washed out the screams. There were hundreds in the water, drowning or burning or doing a little of both. Do you hear them shrieking, [Stannis](wiki:Stannis_Baratheon)? Do you see them burning? This is your work as much as mine.(wiki:Battle_of_the_Blackwater.cite_ref-Racok59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
 >
@@ -102,7 +102,7 @@ During [the wedding](wiki:Purple_Wedding) of Joffrey and Margaery, [Hamish the H
 
 > My hirelings betray me, my friends are scourged and shamed, and I lie here rotting. I thought I won the bloody battle. Is this what triumph tastes like?(wiki:Battle_of_the_Blackwater.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-13)
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts, ASOS Tyrion I (`sources/chapters/asos/asos-tyrion-01.md:79`)
 
 > **Tyrion**: Is it true that [Stannis](wiki:Stannis_Baratheon) was put to rout by [Renly's](wiki:Renly_Baratheon) [ghost](wiki:Ghost)? **Bronn**: From the winch towers, all we saw was banners in the mud and men throwing down their spears to run, but there's hundreds in the pot shops and brothels who'll tell you how they saw Lord Renly kill this one or that one. Most of Stannis's host had been Renly's to start, and they went right back over at the sight of him in that shiny green armor.(wiki:Battle_of_the_Blackwater.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-14)
 >
@@ -123,3 +123,7 @@ During [the wedding](wiki:Purple_Wedding) of Joffrey and Margaery, [Hamish the H
 > Too many good men died that day.(wiki:Battle_of_the_Blackwater.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-4)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Kem](wiki:Kem)
+
+> Thousands sailed up the [Blackwater Rush](wiki:Blackwater_Rush), and hundreds came back, Davos reflected. My sons did not die alone. May the Mother have mercy on them all.
+>
+> —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts, returning to Dragonstone, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:153`)

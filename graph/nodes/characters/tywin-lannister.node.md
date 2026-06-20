@@ -98,6 +98,10 @@ Tywin loves his elder children, Queen [Cersei](wiki:Cersei_Lannister) and Ser [J
 
 Tywin's [steel](wiki:Steel) plate armor is enameled in deep crimson and highlighted with gold, and its rondels are golden sunbursts. Tywin's heavy cloth-of-gold greatcloak is clasped with gold miniature [lionesses](wiki:Lion), and his greathelm is decorated with a roaring lion with [ruby](wiki:Ruby) eyes.(wiki:Tywin_Lannister.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)(wiki:Tywin_Lannister.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) He also owns a thick ermine cloak.(wiki:Tywin_Lannister.cite_ref-Racok38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1) Tywin's [longsword](wiki:Longsword) has a gold pommel.(wiki:Tywin_Lannister.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2) His [charger](wiki:Horse) is a stallion(wiki:Tywin_Lannister.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2) with its own gilded armor.(wiki:Tywin_Lannister.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) The destrier has a blanket with enameled crimson scales and gilded crinet and chamfron,(wiki:Tywin_Lannister.cite_ref-Racok38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-2) as well as crimson silk bardings decorated with the lion of the Lannisters.(wiki:Tywin_Lannister.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 
+> Sansa had never seen such armor; all burnished red steel, inlaid with golden scrollwork and ornamentation. His rondels were sunbursts, the roaring lion that crowned his helm had ruby eyes, and a lioness on each shoulder fastened a cloth-of-gold cloak so long and heavy that it draped the hindquarters of his charger. Even the horse's armor was gilded, and his bardings were shimmering crimson silk emblazoned with the lion of Lannister.
+>
+> — Sansa's POV, Tywin's entrance at the post-Blackwater honors ceremony, ACOK Sansa VIII (`sources/chapters/acok/acok-sansa-08.md:17`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

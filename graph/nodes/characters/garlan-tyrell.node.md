@@ -39,6 +39,10 @@ Garlan is similar in appearance to his younger brother, Ser [Loras Tyrell](wiki:
 
 Garlan is an exceptionally skilled swordsman, preferring to train against three or four swordsmen, so as to better prepare himself for actual battle,(wiki:Garlan_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3) but his lack of interest in gaining glory makes him less famous than Loras.
 
+> His sons followed him in; Ser Loras and his older brother Ser Garlan the Gallant. The three dressed alike, in green velvet trimmed with sable.
+>
+> — Sansa's POV, the Tyrell brothers at the post-Blackwater honors ceremony, ACOK Sansa VIII (`sources/chapters/acok/acok-sansa-08.md:23`)
+
 ## Narrative Arc
 
 ### A Clash of Kings
