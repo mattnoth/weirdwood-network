@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-20T06:08:21.152712+00:00",
+  "computed_at": "2026-06-20T15:02:17.408639+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -22389,6 +22389,14 @@
         "source": "node-slug"
       }
     ],
+    "end of stannis's hopes": [
+      {
+        "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "end of the tall men": [
       {
         "canonical_slug": "the-end-of-the-tall-men",
@@ -42417,6 +42425,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "joffrey names tywin savior of the city": [
+      {
+        "canonical_slug": "tywin-named-savior-of-the-city",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "joffrey screams for killing": [
@@ -76311,12 +76327,52 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "stannis broken after the blackwater": [
+      {
+        "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis flees to dragonstone": [
+      {
+        "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis retreats to dragonstone": [
+      {
+        "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "stannis seaworth": [
       {
         "canonical_slug": "stannis-seaworth",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "stannis withdraws from king's landing": [
+      {
+        "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis's retreat after the blackwater": [
+      {
+        "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "stanny": [
@@ -83829,9 +83885,49 @@
         "source": "all-node-name:theories"
       }
     ],
+    "tywin made hand of the king again": [
+      {
+        "canonical_slug": "tywin-named-savior-of-the-city",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tywin named savior of the city": [
+      {
+        "canonical_slug": "tywin-named-savior-of-the-city",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "tywin proclaimed savior of the city": [
+      {
+        "canonical_slug": "tywin-named-savior-of-the-city",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tywin restored as hand after the blackwater": [
+      {
+        "canonical_slug": "tywin-named-savior-of-the-city",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tywin shot with a crossbow": [
       {
         "canonical_slug": "assassination-of-tywin-lannister",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tywin's honors ceremony after the blackwater": [
+      {
+        "canonical_slug": "tywin-named-savior-of-the-city",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -90319,8 +90415,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18650,
-    "unique_phrases": 11192
+    "total_node_entries": 18664,
+    "unique_phrases": 11204
   },
   "version": "v1"
 }

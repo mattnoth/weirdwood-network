@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110) | Causal-arc execution: dip-gated refinements | **LIVE** | Sonnet 4.6 | Arc machine proven 8× (Tier-A + Tier-B + Tywin all shipped). Remaining = dip-gated refinements, NOT critical gaps. **Re-run a fresh arc-weighted dip BEFORE building.** Next: Q12 Battle-of-the-Blackwater downstream (cheapest, `joffrey-sets-sansa-aside…` exists, 2–3 edges); then Q11 Daenerys/Slaver's-Bay, Q5 robb-weds-jeyne upstream. Spec: `working/causal-arc-strategy-2026-06-18.md`. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110) | Causal-arc execution: dip-gated refinements | **LIVE** | Sonnet 4.6 | Arc machine proven 9× (Tier-A + Tier-B + Tywin + **Q12 Blackwater-downstream S111** all shipped). Remaining = dip-gated refinements, NOT critical gaps. **Re-run a fresh arc-weighted dip BEFORE building.** Next: **Q5 robb-weds-jeyne upstream** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`; both nodes exist — likely 1-edge wire, dedup-check vs `battle-of-the-crag` first); then Q11 Daenerys/Slaver's-Bay, Q13 Sack-of-Winterfell. Spec: `working/causal-arc-strategy-2026-06-18.md`. |
 
 ---
 

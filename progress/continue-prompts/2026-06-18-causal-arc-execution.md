@@ -1,9 +1,13 @@
 # Continue — Causal-arc execution: dip-gated refinements (Tywin arc done)
 
 > **Recommended model:** Sonnet 4.6 (graph-only dip + subagent-driven minting). Opus only for a hard interpretive call.
-> **Status:** Tier-A (S106) + Tier-B (B1/B2/B3, S107–S108) + Tywin's-death arc (S109) all SHIPPED. The arc layer now spans Purple-Wedding → trial → patricide as one walkable chain. What remains are **dip-gated refinements** — NOT critical gaps. **Do NOT mass-mint. Re-run a fresh arc-weighted dip BEFORE building, to confirm demand.**
+> **Status:** Tier-A (S106) + Tier-B (B1/B2/B3, S107–S108) + Tywin's-death arc (S109) + **Q12 Battle-of-the-Blackwater downstream (S111)** all SHIPPED. The arc layer now spans Purple-Wedding → trial → patricide as one walkable chain, and the Blackwater hub now carries its 3 downstream consequences. What remains are **dip-gated refinements** — NOT critical gaps. **Do NOT mass-mint. Re-run a fresh arc-weighted dip BEFORE building, to confirm demand.**
 
-## Where this stands (after S109, 2026-06-19)
+## Where this stands (after S111, 2026-06-20)
+
+**S111 shipped Q12** (fresh dip → 2 beats `stannis-retreats-to-dragonstone` + `tywin-named-savior-of-the-city` + 3 causal CAUSES from `battle-of-the-blackwater`, all fresh-subagent CONFIRMED; `battle-of-the-blackwater` 0→3 downstream causal edges; Q12 failed→CORRECT). Latest dip: `working/session-results/2026-06-20-fresh-arc-dip.md` (no regressions on built arcs). **NEXT = Step C below (Q5), re-dip first.**
+
+## (historical) Where this stood (after S109, 2026-06-19)
 
 The causal/narrative-arc **machine is proven 8×**: Robert's Rebellion (S104), Bran's fall (S105), Sack of KL + Purple Wedding (S106), B1 Red-Wedding-upstream + B2 Greyjoy→Theon-ward (S107), B3 Ned's-downfall (S108), **Tywin's-death (S109)**. Strategy + rubric: `working/causal-arc-strategy-2026-06-18.md`. Terms: `reference/narrative-arc-glossary.md`.
 
@@ -11,8 +15,11 @@ The causal/narrative-arc **machine is proven 8×**: Robert's Rebellion (S104), B
 
 ## The work, in order (each dip-gated — re-run a fresh arc-weighted dip BEFORE building to confirm demand)
 
-### Step A (NEXT) — Q12: Battle of the Blackwater downstream consequences
-CHEAPEST real gap. `battle-of-the-blackwater` has 0 causal edges; the node `joffrey-sets-sansa-aside-and-agrees-to-wed-margaery` ALREADY EXISTS but isn't wired. Add 2–3 downstream CAUSES (Blackwater → Joffrey sets Sansa aside / wed Margaery; → Stannis retreats to Dragonstone; → Lannister-Tyrell alliance / Tywin Savior of the City). In-saga ACOK Tyrion/Davos + ASOS aftermath. ~2–3 edges, mostly to existing nodes.
+### Step A — Q12: Battle of the Blackwater downstream consequences ✅ DONE (S111)
+SHIPPED 2026-06-20: `battle-of-the-blackwater` 0→3 downstream CAUSES (→ `joffrey-sets-sansa-aside-and-agrees-to-wed-margaery` [existing] / → `stannis-retreats-to-dragonstone` [new] / → `tywin-named-savior-of-the-city` [new]); all Tier-2 fresh-subagent CONFIRMED. `scripts/mint_blackwater_arc.py`.
+
+### Step C (NEXT) — Q5: `robb-weds-jeyne-westerling` upstream (extends B1)
+"Why did Robb marry Jeyne?" is unplumbed — the B1 chain bottoms out at the marriage. The S111 dip reports BOTH `storming-of-the-crag` AND `robb-weds-jeyne-westerling` nodes EXIST (verified: `storming-of-the-crag.node.md` present) — so this may be a **1-edge wire** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`), the cheapest remaining gap. **Watch for a dup:** a separate `battle-of-the-crag.node.md` also exists — dedup-check before wiring. Optionally finer: storming-of-the-Crag → Robb wounded → Jeyne nurses him → news of Bran/Rickon → he dishonors the Frey betrothal. In-saga ASOS (Catelyn/Jaime POV recall) + ACOK Catelyn. Re-dip first to confirm demand.
 
 ### Step B — Q11: Daenerys / fall of Astapor → Slaver's Bay campaign
 NEW Essos territory (no prior arc there). `fall-of-astapor` has 0 causal edges; the campaign sub-battles exist as PART_OF but no causal spine; `targaryen-campaign-in-slavers-bay` has an alias gap ("Daenerys conquest of Slaver's Bay" misses). Larger: ~3–5 beats + 4–6 edges. In-saga ASOS Daenerys.

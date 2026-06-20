@@ -86,3 +86,23 @@
 ---
 
 *(Session 106 will be appended here as it rotates out of the live worklog. This file now holds S102–S105 (4/5); it fills to 5 entries — S102–S106 — before a new archive023 begins.)*
+
+### Session 106 — Causal-arc execution: `--causal-chain` primitive + Sack-of-KL & Purple-Wedding arcs (2026-06-19)
+**Detail:** `history/session-details/session-106.md`
+**Model:** Opus 4.8 orchestrator + 1 background `general-purpose` doc agent + 4 `general-purpose` subagents (2 arc-research + 2 fresh edge-verification). **Commit:** this endsession commit.
+
+**Changes made:**
+- **Step 1 — `--causal-chain <slug>` traversal primitive SHIPPED** in `scripts/graph-query.py` (walks CAUSES/TRIGGERS/MOTIVATES transitively, both directions; PRECEDES deliberately excluded as pure-chronology). +10 tests (`tests/test_graph_query_edges.py`). The Track-7 prerequisite that makes causal arcs queryable from any beat — and what made the chain-as-arc decision real ("show me the whole arc" without an umbrella node).
+- **NEW `reference/narrative-arc-glossary.md`** (~28 terms, 5 sections) — data-model/method companion to `glossary.md` (process vocab) + `architecture.md` (schema). Written by a background agent.
+- **Sack of King's Landing arc** — 4 new beat nodes (`pycelle-opens-the-gates-of-kings-landing` [event.deception], `aerys-commands-the-city-burned` [event.incident], `slaying-of-aerys-ii-the-kingslaying` [event.assassination], `murder-of-elia-martell-and-rhaegars-children` [event.assassination]) + **21 edges** (14 role Tier-1 + 4 SUB_BEAT_OF + 3 causal Tier-2). Mint script `scripts/mint_sack_kl_arc.py`; backup `_regrounding/edges-pre-sack-kl-arc-2026-06-19.jsonl`.
+- **Purple Wedding arc** — 4 new beat nodes (`sansa-receives-the-poisoned-hairnet` [event.deception], `tyrion-accused-of-poisoning-joffrey` [event.incident], `trial-of-tyrion-lannister` [event.trial], `littlefinger-smuggles-sansa-out-of-kings-landing` [event.deception]) + **20 edges** (14 role + 3 SUB_BEAT_OF + 3 causal Tier-2). Mint script `scripts/mint_purple_wedding_arc.py`; backup `_regrounding/edges-pre-purple-wedding-arc-2026-06-19.jsonl`.
+- **Totals:** nodes **8,525 → 8,533** (+8 beats); edges **22,174 → 22,215** (+41); orphans **62 unchanged**; edge types **128** (no new types); **0 pending** verified_by (all 6 causal edges fresh-subagent CONFIRMED). pytest **1307 pass / 1 documented `cwd-is-tmp` fail**.
+
+**Decisions:**
+- **Parent-node rec ratified by Matt → chain-as-arc, NO `event.arc` umbrella nodes** (the `--causal-chain` primitive delivers the whole-arc query; supersedes the umbrella-vs-chain fork in the parked arc-wave1 prompt).
+- **Scope = 2 Tier-A arcs as one validating batch** (Matt), NOT a minting fleet — a fleet was considered and rejected as wrong-shaped (arc-minting is low-volume + judgment-heavy + write-conflicting; the agency-collapse check and pre-mint dedup don't parallelize). **D&E noted as main-arc in priority** (Bloodraven-in-the-flesh seeds theory anchors); it stays after in-saga arcs only because its chapters aren't Pass-1-extracted yet.
+- **Discipline held end-to-end:** pre-mint dedup gate caught 2 real collisions (`fall-of-kings-landing` = the Dance-era fall, kept distinct; the existing flat role-layer on the sack hub + the existing Littlefinger/Olenna conspiracy on the death node — NOT duplicated). Agency-collapse modeled (Tywin COMMANDS_IN vs Gregor/Amory AGENT_IN; PW whodunnit = zero `tyrion POISONS joffrey`, Tyrion VICTIM_IN only). Causal edges Tier-2-capped; role Tier-1. All 8 beats natural-phrase discoverable (closes the S105 Track-7 gap). Both fresh verifiers returned ALL-CONFIRM.
+
+**What's next:**
+- → **Per the strategy's dip-driven cadence: re-run an arc-weighted Mode-3 dip before committing Tier B** (Catelyn-frees-Jaime→Red-Wedding-feed; Greyjoy→Theon-hostage→Northern-invasion). Don't mass-mint. Strategy: `working/causal-arc-strategy-2026-06-18.md`; continue prompt `progress/continue-prompts/2026-06-18-causal-arc-execution.md` (Step 1 done; Step 2 ongoing, dip-gated). (**Sonnet 4.6**)
+- Small cleanups surfaced by verifiers (→ todos § Small Fixes): duplicate `robert-baratheon` vs `robert-i-baratheon` node; sack hub's junk `DEFEATS: Elia of Dorne` infobox edge.

@@ -980,6 +980,7 @@
     "elia of dorne's death": "murder-of-elia-martell-and-rhaegars-children",
     "elia of dorne's execution": "murder-of-elia-martell-and-rhaegars-children",
     "encounter with the three prisoners": "encounter-with-the-three-prisoners",
+    "end of stannis's hopes": "stannis-retreats-to-dragonstone",
     "epilogue": "a-storm-of-swords-epilogue",
     "execution": "the-execution",
     "execution of abel": "mance-rayder-brought-to-execution",
@@ -1374,6 +1375,7 @@
     "joffrey i baratheon murdered": "death-of-joffrey-baratheon",
     "joffrey i baratheon's death": "death-of-joffrey-baratheon",
     "joffrey i baratheon's execution": "death-of-joffrey-baratheon",
+    "joffrey names tywin savior of the city": "tywin-named-savior-of-the-city",
     "joffrey screams for killing": "joffrey-screams-for-killing",
     "joffrey sets sansa aside and agrees to wed margaery": "joffrey-sets-sansa-aside-and-agrees-to-wed-margaery",
     "joffrey the illborn assassinated": "death-of-joffrey-baratheon",
@@ -2523,6 +2525,11 @@
     "staged beheading at white harbor": "wyman-manderly-stages-fake-execution-of-davos",
     "stallion heart ceremony": "stallion-heart-ceremony",
     "stallion is brought in and sacrificed": "the-stallion-is-brought-in-and-sacrificed",
+    "stannis broken after the blackwater": "stannis-retreats-to-dragonstone",
+    "stannis flees to dragonstone": "stannis-retreats-to-dragonstone",
+    "stannis retreats to dragonstone": "stannis-retreats-to-dragonstone",
+    "stannis withdraws from king's landing": "stannis-retreats-to-dragonstone",
+    "stannis's retreat after the blackwater": "stannis-retreats-to-dragonstone",
     "stevron frey assassinated": "death-of-ser-stevron-frey-announced",
     "stevron frey death": "death-of-ser-stevron-frey-announced",
     "stevron frey execution": "death-of-ser-stevron-frey-announced",
@@ -2722,7 +2729,12 @@
     "tywin lannister murdered": "assassination-of-tywin-lannister",
     "tywin lannister's death": "assassination-of-tywin-lannister",
     "tywin lannister's execution": "assassination-of-tywin-lannister",
+    "tywin made hand of the king again": "tywin-named-savior-of-the-city",
+    "tywin named savior of the city": "tywin-named-savior-of-the-city",
+    "tywin proclaimed savior of the city": "tywin-named-savior-of-the-city",
+    "tywin restored as hand after the blackwater": "tywin-named-savior-of-the-city",
     "tywin shot with a crossbow": "assassination-of-tywin-lannister",
+    "tywin's honors ceremony after the blackwater": "tywin-named-savior-of-the-city",
     "unburnt king assassinated": "mance-rayder-brought-to-execution",
     "unburnt king death": "mance-rayder-brought-to-execution",
     "unburnt king execution": "mance-rayder-brought-to-execution",
@@ -4560,21 +4572,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-20T04:26:48.445007+00:00",
+  "computed_at": "2026-06-20T15:02:17.224461+00:00",
   "stats": {
     "ambiguous_collisions": 74,
     "source_breakdown": {
-      "node-frontmatter-alias": 220,
-      "node-name": 617,
-      "node-slug": 617,
+      "node-frontmatter-alias": 230,
+      "node-name": 619,
+      "node-slug": 619,
       "victim-index": 2265,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 4621,
-    "unambiguous_lookups": 3225,
-    "unique_phrases": 3299
+    "total_entries_scanned": 4635,
+    "unambiguous_lookups": 3237,
+    "unique_phrases": 3311
   },
   "version": "v2"
 }
