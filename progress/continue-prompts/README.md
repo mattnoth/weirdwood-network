@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-20 (refreshed after S109)  
+**Generated:** 2026-06-20 (refreshed after S110)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-20-harvest-pass.md` | 2026-06-20 (S109) | Harvest pass: consume `working/harvest-queue.md` | **LIVE** | Sonnet 4.6 | Matt's chosen next track (S109). ~28 `status: open` rows accumulated across 2 dips → past the batched-pass threshold. Turn cheap pointers into graph: `object.food` (foods/), `concept.medical` (milk-of-poppy), `## Quotes`, character appearance/description, location/place. Dedup + spaced aliases + cite-verify + rebuild indexes/resolver; surface judgment calls. Also proves the queue→graph half of the harvest mechanism. Convention: memory `feedback_harvest_queue`. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110) | Causal-arc execution: dip-gated refinements | **LIVE** | Sonnet 4.6 | Arc machine proven 8× (Tier-A + Tier-B + Tywin all shipped). Remaining = dip-gated refinements, NOT critical gaps. **Re-run a fresh arc-weighted dip BEFORE building.** Next: Q12 Battle-of-the-Blackwater downstream (cheapest, `joffrey-sets-sansa-aside…` exists, 2–3 edges); then Q11 Daenerys/Slaver's-Bay, Q5 robb-weds-jeyne upstream. Spec: `working/causal-arc-strategy-2026-06-18.md`. |
 
 ---
 
@@ -22,7 +22,7 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 | Group | Files | Status |
 |-------|-------|--------|
-| `2026-06-18-causal-arc-execution.md` | 1 file | **PARKED S109** — the causal-arc track is at a dip-gated pause; Tier-A + Tier-B + Tywin's-death arc all shipped (8× proven machine). Restore to live when arc work resumes. Next gap if/when: Q12 Battle-of-the-Blackwater downstream (`joffrey-sets-sansa-aside…` exists, 2–3 edges); then Q11 Daenerys/Slaver's-Bay, Q5 robb-weds-jeyne upstream. Re-rank via a fresh arc-weighted dip. Spec: `working/causal-arc-strategy-2026-06-18.md`; last dip: `working/session-results/2026-06-19-fresh-arc-dip.md`. |
+| `2026-06-20-harvest-pass.md` | 1 file | **DONE S110** — consumed all 28 `working/harvest-queue.md` rows into the graph (quotes/appearance/food/place/object + 1 ADVISES edge + milk-of-poppy retype), fresh-verified 23/24, flipped all rows to `done`. Proved the queue→graph half of the harvest mechanism. The harvest pass is **recurring/on-demand** — re-run when the queue re-accumulates (no standing live prompt; convention in memory `feedback_harvest_queue` + worklog NEXT TRACK). |
 | `2026-06-17-causal-edges-and-spark-nodes.md` | 1 file | **DONE S105** — pure-analysis strategy delivered (`working/causal-arc-strategy-2026-06-18.md`) + second smoke-test arc (Bran's fall) built + 4-lens advisory board run. Superseded by the causal-arc-execution live track. |
 | `2026-06-16-next-move-decisions.md` | 1 file | **DONE S104** — both remaining decisions resolved: #1 `PRECEDES` ordering edges SHIPPED (174); #2 causal pilot SHIPPED (2 `CAUSES` edges). Superseded by the causal-edges+spark-nodes live track. |
 | `2026-06-15-arc-wave1-mint.md` | 1 file | **STALE-superseded-by-chain-as-arc (S106)** — its `event.conspiracy` umbrella-parent model is reversed by the S105/S106 chain-as-arc decision (arcs = causal chains queried via `--causal-chain`, NO parent hubs). Kept for historical reference only; do NOT restore as-is. The Red-Wedding/Joffrey arcs it drafted are now candidates for the chain-as-arc machine. (Prompt body unchanged per the manifest hard rule; staleness tracked here.) See memory `project_narrative_arc_reification`. |

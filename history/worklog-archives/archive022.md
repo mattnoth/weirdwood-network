@@ -68,4 +68,21 @@
 
 ---
 
-*(Sessions 105–106 will be appended here as they rotate out of the live worklog. This file now holds S102–S104 (3/5); it fills to 5 entries — S102–S106 — before a new archive023 begins.)*
+### Session 105 — Causal-arc scaling strategy + Bran's-fall smoke test #2 + advisory board (2026-06-18)
+**Detail:** `history/session-details/session-105.md`
+**Model:** Opus 4.8 (1M context) orchestrator + 5 Sonnet 4.6 `general-purpose` subagents (2 edge-verification + 4-lens advisory board). **Commit:** this endsession commit.
+
+**Changes made:**
+- **NEW `working/causal-arc-strategy-2026-06-18.md`** — the causal/narrative-arc scaling plan (rubric + prioritized arc list + cost model + 7 policy Qs + the smoke-test analysis + advisory-board outcome + the agency-collapse lesson). This is the deliverable of the continue prompt.
+- **Built the "Bran's fall" causal arc (smoke test #2)** — `edges.jsonl` **22,157 → 22,174**, nodes 8,521 → **8,525**, edge types **127 → 128** (`MOTIVATES` now live). Chain: `bran-witnesses-jaime-and-cersei →TRIGGERS→ jaime-pushes-bran-from-the-tower →CAUSES→ bran-s-direwolf-kills-the-assassin →CAUSES→ littlefinger-names-the-dagger-as-tyrion-s →CAUSES→ catelyn-seizes-the-moment-and-arrests-tyrion →CAUSES→ gregor-raids-the-riverlands` (HARD STOP, no edge to WO5K). Plus role edges on all new beats + `capture MOTIVATES tywin` + `petyr DECEIVES catelyn`. 5 new nodes minted (`bran-witnesses…`, `jaime-pushes…`, `littlefinger-names-the-dagger…` [event.deception], `gregor-raids-the-riverlands` [event.incident]; 1 dup `catelyn-captures-tyrion-at-the-crossroads-inn` minted-then-deleted). 2 pre-existing beats enriched (`bran-s-direwolf-kills-the-assassin`, `catelyn-seizes-the-moment-and-arrests-tyrion`). All causal edges Tier-2 + fresh-subagent-verified; role edges Tier-1.
+- Backups: `_regrounding/edges-pre-bran-arc-2026-06-18.jsonl`, `…-littlefinger-fix-2026-06-18.jsonl`. Targeted index builds (`--slug`) + alias rebuild. 62 orphans unchanged; pytest 1297 pass / 1 documented `cwd-is-tmp` fail.
+
+**Decisions:**
+- Session started as pure-analysis (per continue prompt); Matt expanded scope to a live smoke test + a 4-lens advisory board (narrative-craft / graph-modeling / canon / skeptic). **Parent-node recommendation (awaits Matt's ratification): causal-chain-as-arc, NO umbrella parent nodes** — deliver "show me the whole arc" via a `--causal-chain` traversal primitive, not a parent hub (dissolves the multi-parent-ownership trap; supersedes the umbrella-vs-chain fork in the parked arc-wave1 prompt). **Tier policy:** causal edges capped Tier-2 (interpretive). **Three reusable lessons banked:** (1) **pre-mint dedup lookup** is mandatory (a dup was minted this session); (2) **agency-collapse check** — before `A CAUSES B`, model the human decision between them (insert a beat node OR `MOTIVATES`→actor + COMMANDS_IN); (3) cost model is "patchwork mint," not "pure wiring."
+
+**What's next:**
+- → **Matt ratifies the parent-node rec**, then: build the `--causal-chain` directed-traversal primitive (Track 7 prerequisite), then run the first Tier-A arc batch (Sack of KL, Purple Wedding) dip-gated. Continue: `progress/continue-prompts/2026-06-18-causal-arc-execution.md`.
+
+---
+
+*(Session 106 will be appended here as it rotates out of the live worklog. This file now holds S102–S105 (4/5); it fills to 5 entries — S102–S106 — before a new archive023 begins.)*

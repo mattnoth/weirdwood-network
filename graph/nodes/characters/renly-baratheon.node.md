@@ -46,6 +46,8 @@ Renly wears expensive attire, usually combining the Baratheon [sigil](wiki:Sigil
 
 Unbeknownst to the realm at large, and despite the many women who are attracted to him, Renly is homosexual.(wiki:Renly_Baratheon.cite_ref-Rawoiafrenly_baratheon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)(wiki:Renly_Baratheon.cite_ref-Rssm1316.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)(wiki:Renly_Baratheon.cite_ref-Rssm5457.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)(wiki:Renly_Baratheon.cite_ref-unionsquare_21-0) According to his lover, Loras, Renly disdains book learning, believing that books should only be read by [maesters](wiki:Maesters). Despite this, he owns books with "drawings that would turn a [septon](wiki:Septon) blind", implying some kind of pornography.(wiki:Renly_Baratheon.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
 
+When [Robert I Baratheon](wiki:Robert_I_Baratheon) is brought back to the Red Keep dying of his boar wound, Renly comes straight from the hunt still in his hunting greens, his cloak spattered with blood. (Eddard XIII, AGOT — `sources/chapters/agot/agot-eddard-13.md:35`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

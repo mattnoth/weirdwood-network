@@ -94,6 +94,8 @@ Jaime is a born warrior, with little interest in politics and court intrigue. He
 
 Jaime is rash, headstrong, and angers quickly.(wiki:Jaime_Lannister.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)(wiki:Jaime_Lannister.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0) He is known to have little patience,(wiki:Jaime_Lannister.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1) and he worries about the consequences of his actions only after committing the act.(wiki:Jaime_Lannister.cite_ref-Racok54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0) A great(wiki:Jaime_Lannister.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0) and especially skilled warrior,(wiki:Jaime_Lannister.cite_ref-32) Jaime inspires loyalty in his men.(wiki:Jaime_Lannister.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)(wiki:Jaime_Lannister.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0) He is bold(wiki:Jaime_Lannister.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0) and does not fear death.(wiki:Jaime_Lannister.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0) According to [Catelyn Stark](wiki:Catelyn_Stark), Jaime is an experienced battle commander.(wiki:Jaime_Lannister.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
 
+When [Tyrion](wiki:Tyrion_Lannister) sees him again in the black cells the night of the escape, captivity has left Jaime gaunt, his hair hacked short, and his sword hand gone — he lifts his arm to show the stump of his right wrist ("I left a hand at Harrenhal"). (Tyrion XI, ASOS — `sources/chapters/asos/asos-tyrion-11.md:25`)
+
 ## Narrative Arc
 
 ### A Game of Thrones
@@ -301,6 +303,10 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 > “Come, let’s drink some more of Hoster Tully’s good red wine.”
 >
 > — sources/chapters/affc/affc-jaime-07.md:173 · Jaime drinking from Hoster Tully's cellar at Riverrun post-surrender — hospitality detail linking the castle's provisions to his nightly ritual with Ilyn Payne.  _(capture: chapter-quote sweep, food)_
+
+> "He is still my brother." He shoved his stump at her face, in case she failed to see it. "And I am in no fit state to be killing anyone."
+>
+> — sources/chapters/asos/asos-jaime-07.md:209 · Jaime refusing Cersei's demand that he avenge Joffrey by killing Tyrion — his moral stance at the trial, prefiguring the loyalty that leads him to free Tyrion.  _(capture: harvest pass, quote)_
 
 ## Edges
 

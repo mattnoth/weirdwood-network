@@ -52,6 +52,8 @@ Rumor has it that Oberyn is [bisexual](wiki:Gender_and_sexuality).(wiki:Oberyn_M
 
 Oberyn has an interest in fine [horseflesh](wiki:Horse).(wiki:Oberyn_Martell.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-9) His [sand steed](wiki:Sand_steed) is a stallion "black as sin", with a mane and tail the color of fire.(wiki:Oberyn_Martell.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-10) Oberyn has been known to wear a cloak of pale red [silk](wiki:Silk), an armored shirt of overlapping rows of glittering [copper](wiki:Copper) disks, and a high [gilded](wiki:Gold) helm with a copper sun on its brow.(wiki:Oberyn_Martell.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-11) His round [steel](wiki:Steel) shield is brightly polished, and displays the Martell sun-and-spear in red gold, yellow gold, white gold, and copper.(wiki:Oberyn_Martell.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-12)(wiki:Oberyn_Martell.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
 
+At his trial-by-combat duel with Ser [Gregor Clegane](wiki:Gregor_Clegane), Oberyn fights lightly armored — greaves, vambraces, gorget, spaulder, and a steel codpiece over supple leather and flowing silks, with his gleaming copper scales worn over a byrnie. His visor is removed, leaving his helm effectively a half-helm lacking even a nasal — a deliberate trade of protection for speed against the Mountain's heavy plate. (Tyrion X, ASOS — `sources/chapters/asos/asos-tyrion-10.md:173`)
+
 ## Narrative Arc
 
 ### A Storm of Swords

@@ -78,6 +78,8 @@ Petyr owns a slashed velvet doublet in cream-and-[silver](wiki:Silver),(wiki:Pet
 
 Petyr's chambers in the [Red Keep](wiki:Red_Keep) are located across the Great Yard from the [Tower of the Hand](wiki:Tower_of_the_Hand).(wiki:Petyr_Baelish.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0) He enjoys pomegranates(wiki:Petyr_Baelish.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4) and drinks [wine](wiki:Wine).(wiki:Petyr_Baelish.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)(wiki:Petyr_Baelish.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
 
+At the small council convened the morning of [Robert I Baratheon](wiki:Robert_I_Baratheon)'s death, Littlefinger arrives still garbed in the blue velvets and silver mockingbird cape he had worn the night previous, his boots dusty from riding. (Eddard XIV, AGOT — `sources/chapters/agot/agot-eddard-14.md:49`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

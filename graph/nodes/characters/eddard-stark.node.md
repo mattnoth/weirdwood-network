@@ -238,6 +238,10 @@ During the [walk of atonement](wiki:Walk_of_atonement) by [Cersei Lannister](wik
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
 
+> "Robert is not dead yet. The gods may spare him. If not, I shall convene the council to hear his final words and consider the matter of the succession, but I will not dishonor his last hours on earth by shedding blood in his halls and dragging frightened children from their beds."
+
+— Eddard, refusing Renly's plan to seize Cersei's children as Robert lies dying, AGOT Eddard XIII (`sources/chapters/agot/agot-eddard-13.md:169`)
+
 ## Edges
 
 - HOLDS_TITLE: Lord of Winterfell (track_b: Titles)

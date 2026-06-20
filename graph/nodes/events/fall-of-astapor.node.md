@@ -33,3 +33,13 @@ The exchange takes place the next morning, at the [Plaza of Punishment](wiki:Pla
 ## Aftermath
 
 Before leaving for [Yunkai](wiki:Yunkai), Daenerys leaves a council of three men—a healer, a scholar and a priest—to rule. They are later deposed by [Cleon](wiki:Cleon), a former butcher, who leads the people to believe that the three intend to return the [Good Masters](wiki:Good_Masters) to their positions of power. Naming himself king after having the council executed, Cleon has all the highborn boys seized to begin training new Unsullied. Each pyramid within Astapor is now an armed camp and the dead lie in the streets and the markets of devoid of food and slaves to purchase.(wiki:Fall_of_Astapor.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The city is later [besieged by the Yunkai'i](wiki:Siege_of_Astapor).(wiki:Fall_of_Astapor.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Quotes
+
+> Dany let them argue, sipping the tart persimmon wine and trying to keep her face blank and ignorant.
+
+— Daenerys, concealing from the Good Masters that she understands their High Valyrian as they bargain and insult her — the tactical deception that sets up the turn at the Plaza of Punishment, ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:35`)
+
+> He hears me speak Valyrian. The other slavers were not listening.
+
+— Daenerys, as old Grazdan alone realizes she understood them all along, ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:247`)

@@ -35,3 +35,7 @@ Tyrion Lannister kills his father, Lord Tywin, with a crossbow as Tywin sits on 
 > Lord Tywin Lannister did not, in the end, shit gold.
 
 — Tyrion XI, ASOS (`sources/chapters/asos/asos-tyrion-11.md:269`)
+
+> It all goes back and back, Tyrion thought, to our mothers and fathers and theirs before them. We are puppets dancing on the strings of those who came before us, and one day our own children will take up our strings and dance on in our steads.
+
+— Tyrion, the night before the killing — a meditation on dynastic causation that foreshadows his patricide breaking the chain, ASOS Tyrion X (`sources/chapters/asos/asos-tyrion-10.md:159`)

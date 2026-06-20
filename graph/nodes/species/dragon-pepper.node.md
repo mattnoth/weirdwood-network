@@ -24,6 +24,10 @@ At the [winter tourney](wiki:Winter_tourney_at_King's_Landing) at [King's Landin
 
 ## Narrative Arc
 
+### A Storm of Swords
+
+On the morning of his trial by combat, [Tyrion Lannister](wiki:Tyrion_Lannister) breaks his fast on fried bread, blood sausage, applecakes, and a double helping of eggs cooked with onions and fiery Dornish peppers. When Ser [Gregor Clegane](wiki:Gregor_Clegane) crushes Prince [Oberyn Martell](wiki:Oberyn_Martell)'s skull, that breakfast comes "boiling back up" — Tyrion retches up the bacon, sausage, applecakes, and the double helping of fried eggs cooked with onions and fiery Dornish peppers. (Tyrion X, ASOS — `sources/chapters/asos/asos-tyrion-10.md:101`, `:247`)
+
 ### A Feast for Crows[ ]
 
 In the shadow city of [Sunspear](wiki:Sunspear), Ser [Arys Oakheart](wiki:Arys_Oakheart) watches a man grilling snakes with such pungent sauces that they bring tears to Arys's eyes.(wiki:Dragon_pepper.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)

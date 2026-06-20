@@ -56,3 +56,11 @@ He tried a swallow of the ale. It was brown and yeasty, so thick you could almos
 A man could use another taste of beer.(wiki:Beer.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
 A man may prefer the taste of [hippocras](wiki:Hippocras), yet if you set a tankard of ale before him, he will quaff it quick enough.(wiki:Beer.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0)
 Theon broke his own fast with a tankard of dark ale, cloudy with yeast and thick enough to chew on. A few more tankards, and perhaps [Abel](wiki:Abel)'s plan might not seem quite so mad.(wiki:Beer.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-0)
+
+> He called his servants and sent them running, then gratefully accepted Ned's offer of a chair and a cup of sweet beer.
+>
+> — sources/chapters/agot/agot-eddard-14.md:43 · Grand Maester Pycelle served sweet beer in the Hand's solar as Ned convenes the council the morning Robert dies — a small-council hospitality detail.  _(capture: harvest pass, food)_
+
+> ...the smallfolk were celebrating Edmure's imminent return and Robb's conquest of the Crag by hoisting horns of nut-brown ale.
+>
+> — sources/chapters/acok/acok-catelyn-07.md:13 · Riverrun revelry: twenty casks broached and nut-brown ale drunk to celebrate the Crag victory and Edmure's return.  _(capture: harvest pass, food)_

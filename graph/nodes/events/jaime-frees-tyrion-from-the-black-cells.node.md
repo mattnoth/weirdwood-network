@@ -32,3 +32,15 @@ Three hours past midnight, the night before Tyrion is to be beheaded, Jaime Lann
 > "Asleep. The other three as well. The eunuch dosed their wine with sweetsleep, but not enough to kill them. Or so he swears. He is waiting back at the stair, dressed up in a septon's robe. You're going down into the sewers, and from there to the river."
 
 — Jaime, ASOS Tyrion XI (`sources/chapters/asos/asos-tyrion-11.md:57`)
+
+> "Oh, gods," he said. "Jaime, I am so sorry, but . . . gods be good, look at the two of us. Handless and Noseless, the Lannister boys."
+
+— Tyrion, on seeing Jaime's stump as he is freed, ASOS Tyrion XI (`sources/chapters/asos/asos-tyrion-11.md:27`)
+
+> "Thank you, Brother," Tyrion said. "For my life." / "It was . . . a debt I owed you." Jaime's voice was strange.
+
+— Tyrion and Jaime, ASOS Tyrion XI (`sources/chapters/asos/asos-tyrion-11.md:61`)
+
+> "Your brother can be most persuasive."
+
+— Varys, confirming that Jaime is the one who recruited him into the escape (Jaime as instigator, Varys as orchestrator), ASOS Tyrion XI (`sources/chapters/asos/asos-tyrion-11.md:133`)

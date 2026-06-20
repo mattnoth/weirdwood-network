@@ -63,6 +63,8 @@ Lord Varys is not a true [lord](wiki:Lord), but he is addressed as such as a cou
 
 Vary's small and spare apartments are three snug windowless chambers under the north wall of the [Red Keep](wiki:Red_Keep), and he sleeps on a stone bed.(wiki:Varys.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
 
+Arriving at the small council the morning [Robert I Baratheon](wiki:Robert_I_Baratheon) dies, Varys enters "in a wash of lavender, pink from his bath, his plump face scrubbed and freshly powdered, his soft slippers all but soundless." (Eddard XIV, AGOT — `sources/chapters/agot/agot-eddard-14.md:51`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

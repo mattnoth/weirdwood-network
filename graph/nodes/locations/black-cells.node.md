@@ -39,6 +39,10 @@ The Red Keep has four levels of dungeons. The third level has small cells with n
 
 There are no windows or beds in the black cells, and not even a bucket for waste. The straw on the floor smells of urine and feces. The doors are made of wood, four inches thick and studded with iron. The dark is absolute. The only light the prisoners receive is when the door is opened to feed them, or if they receive a visitor with a torch.(wiki:Black_cells.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The cells are bitterly cold.(wiki:Black_cells.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
+Varys describes Maegor's four levels in full as he leads Tyrion out: the upper level holds large shared cells for common criminals, with narrow windows set high in the walls; the second level has smaller windowless cells for highborn captives, lit only by torches in the halls; the third level — the black cells proper, with wooden doors — held both Tyrion and Eddard Stark before him; and below all of these is a fourth level, built by Maegor for torment, where "once a man is taken down to the fourth level, he never sees the sun again, nor hears a human voice, nor breathes a breath free of agonizing pain." (Tyrion XI, ASOS — `sources/chapters/asos/asos-tyrion-11.md:145`)
+
+The fourth level opens onto a small round juncture chamber directly below the [Tower of the Hand](tower-of-the-hand). Five iron-barred doors open off it, with an opening in the ceiling and a series of rungs set in the wall leading upward; an ornate brazier fashioned in the shape of a dragon's head holds coals burnt down to a sullen orange glow, and the floor bears a mosaic of a three-headed dragon wrought in red and black tiles. A long-closed, rust-frozen door from this chamber leads out to the river — the route by which Varys spirits Tyrion out of the city. (Tyrion XI, ASOS — `sources/chapters/asos/asos-tyrion-11.md:153`)
+
 ## Narrative Arc
 
 ### A Game of Thrones

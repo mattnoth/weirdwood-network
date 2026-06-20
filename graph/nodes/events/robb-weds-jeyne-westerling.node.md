@@ -25,9 +25,9 @@ After taking the Crag by storm and being wounded, Robb Stark is nursed by Jeyne 
 
 ## Quotes
 
-> "And she was with me when the Greatjon brought me the news of . . . of Winterfell. Bran and Rickon. That night, she . . . she comforted me, Mother." Catelyn did not need to be told what sort of comfort Jeyne Westerling had offered her son. "And you wed her the next day."
+> "I took her castle and she took my heart." Robb smiled. "The Crag was weakly garrisoned, so we took it by storm one night. ... I took an arrow in the arm just before Ser Rolph yielded us the castle. It seemed nothing at first, but it festered. Jeyne had me taken to her own bed, and she nursed me until the fever passed. And she was with me when the Greatjon brought me the news of . . . of Winterfell. Bran and Rickon. ... That night, she . . . she comforted me, Mother."
 
-— Robb and Catelyn Stark, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:143`)
+— Robb to Catelyn Stark, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:143`)
 
 > "Not only have you broken your oath, but you've slighted the honor of the Twins by choosing a bride from a lesser house."
 

@@ -225,6 +225,10 @@ While in the Second Sons, Tyrion attempts to sway Brown Ben Plumm's mind over a 
 >
 > — sources/chapters/acok/acok-sansa-03.md:157 · Signature Tyrion epigram — characterizes his rationalist worldview and his contemptuous assessment of the Lannister military failure at Oxcross.  _(capture: chapter-quote sweep, other)_
 
+> "Cersei is a lying whore, she's been fucking Lancel and Osmund Kettleblack and probably Moon Boy for all I know. And I am the monster they all say I am. Yes, I killed your vile son."
+>
+> — sources/chapters/asos/asos-tyrion-11.md:119 · Tyrion's parting bombshell to Jaime as he leaves the black cells — both confirms Joffrey's murder and discloses Cersei's adultery, the revelation that detonates the twins' bond.  _(capture: harvest pass, quote)_
+
 ## Edges
 
 - HOLDS_TITLE: Hand of the King (cite: track_b_row.relationships.Titles, qualifier: formerly)

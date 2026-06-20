@@ -30,3 +30,11 @@ Tyrion Lannister is tried in King's Landing for the murder of King Joffrey, befo
 > "Nothing but this: I did not do it. Yet now I wish I had." He turned to face the hall, that sea of pale faces. "I wish I had enough poison for you all. ... I am innocent, but I will get no justice here. You leave me no choice but to appeal to the gods. I demand trial by battle."
 
 — Tyrion, ASOS Tyrion X (`sources/chapters/asos/asos-tyrion-10.md:65`)
+
+> I saved you all, Tyrion thought. I saved this vile city and all your worthless lives. There were hundreds in the throne room, every one of them laughing but his father.
+
+— Tyrion, watching the court laugh at "my giant of Lannister," ASOS Tyrion X (`sources/chapters/asos/asos-tyrion-10.md:43`)
+
+> He never heard his father speak the words that condemned him. Perhaps no words were necessary. I put my life in the Red Viper's hands, and he dropped it.
+
+— Tyrion, as the sentence lands after Oberyn's death, ASOS Tyrion X (`sources/chapters/asos/asos-tyrion-10.md:249`)

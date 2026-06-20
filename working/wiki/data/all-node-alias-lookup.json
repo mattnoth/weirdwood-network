@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-20T04:26:48.642182+00:00",
+  "computed_at": "2026-06-20T06:08:21.152712+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -9923,6 +9923,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "bread": [
+      {
+        "canonical_slug": "bread",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "bread and salt at the twins": [
@@ -48951,6 +48959,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "loaf": [
+      {
+        "canonical_slug": "bread",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "lobster": [
       {
         "canonical_slug": "lobster",
@@ -57582,9 +57598,9 @@
     "milk of the poppy": [
       {
         "canonical_slug": "milk-of-the-poppy",
-        "node_category": "foods",
-        "node_type": "object.food",
-        "source": "all-node-slug:foods"
+        "node_category": "medical",
+        "node_type": "concept.medical",
+        "source": "all-node-slug:medical"
       }
     ],
     "milk snakes": [
@@ -64347,6 +64363,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "poppy juice": [
+      {
+        "canonical_slug": "milk-of-the-poppy",
+        "node_category": "medical",
+        "node_type": "concept.medical",
+        "source": "all-node-alias:medical"
+      }
+    ],
+    "poppy wine": [
+      {
+        "canonical_slug": "milk-of-the-poppy",
+        "node_category": "medical",
+        "node_type": "concept.medical",
+        "source": "all-node-alias:medical"
       }
     ],
     "porridge": [
@@ -90287,8 +90319,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18643,
-    "unique_phrases": 11188
+    "total_node_entries": 18650,
+    "unique_phrases": 11192
   },
   "version": "v1"
 }

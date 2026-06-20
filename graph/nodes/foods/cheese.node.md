@@ -53,3 +53,7 @@ While staying in the [cave of the three-eyed crow](wiki:Cave_of_the_three-eyed_c
 
 Have some of this cheese, it goes splendidly with the [wine](wiki:Wine).(wiki:Cheese.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 The dungeons of [Riverrun](wiki:Riverrun) were not the cleanest place in the [Seven Kingdoms](wiki:Seven_Kingdoms). By now he must smell like an overripe cheese.(wiki:Cheese.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
+
+> The next visitor who calls on you could bring you bread and cheese and the milk of the poppy for your pain … or he could bring you Sansa's head.
+>
+> — sources/chapters/agot/agot-eddard-15.md:155 · Varys offers the captive Ned the image of bread and cheese as ordinary mercy, set against the threat of his daughter's death — bread-and-cheese as humble [guest right](guest-right) sustenance.  _(capture: harvest pass, food)_
