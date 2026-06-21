@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-20 (refreshed after S114)  
+**Generated:** 2026-06-21 (refreshed after S117)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,11 +12,13 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (PIVOTED S112; J3 S113; AFFC opened S114; #3 S115; **#2 + first enrichment pass S116**) | Causal-arc: planned major-arc backlog | **LIVE** | Sonnet 4.6 | **STRATEGY PIVOTED S112** — backlog-driven + dip = post-build check. AFFC arcs SHIPPED: **#1 Cersei's-downfall (S114)** + **#3 Brienne→Stoneheart (S115)** + **#2 Kingsmoot→Euron (S116, standalone) + its first enrichment pass (Asha/Aeron/Victarion sub-arcs + 3 bridge nodes + `SUSPECTED_OF` edge type)**. **NEXT = AFFC #4 Dorne/Myrcella** (mint `myrcella-wounded`; `arrest-of-the-sand-snakes` exists/bare; TRAP `conquest-of-dorne`=Aegon's historical conquest). Then Essos container. Secondary Q5 (Crag→Jeyne). New: arc-enrichment track (`working/arc-enrichment-backlog.md`, spine-first) + harvest `parked` status. |
+| `2026-06-21-graph-hygiene-and-harvest.md` | 2026-06-21 | Maintenance: ATTENDS cleanup + harvest consume → then Essos | **LIVE** | Opus 4.8 orch + Sonnet/Haiku subagents | **S117.** One coherent maintenance session before the next build. **step 1** ATTENDS cleanup (2 mistargets + 5 siege→GARRISONS/HELD_AT + candidate `tragedy-of-summerhall` node). **step 2** harvest consume-pass (26 open rows; park Essos-gated rows). **What's next** = the **Essos container** decomposition (major-arc backlog #2) — its prompt gets written when this lands; the arc-mint machine is in the archived `2026-06-18-causal-arc-execution.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 33 files)
+## Archive (`archive/` subfolder — 35 files)
+
+> **`2026-06-18-causal-arc-execution.md`** — archived S117. **DONE (AFFC causal-arc spine phase, S112–S117):** the planned major-arc backlog track shipped all 4 AFFC arcs (#1 Cersei S114 · #3 Brienne→Stoneheart S115 · #2 Kingsmoot→Euron + first enrichment pass S116 · #4 Dorne/Myrcella S117). Holds the canonical **arc-mint machine** + policy/guardrails — restore/reference it for the Essos build. Superseded as the live prompt by the S117 maintenance pass (then Essos gets a fresh prompt).
 
 Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog — recoverable; restore when next). Summary:
 

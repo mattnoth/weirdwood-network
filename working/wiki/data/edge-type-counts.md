@@ -1,15 +1,15 @@
 # Edge Type Counts — Weirwood Network
 
-Generated: 2026-06-20T18:43:53+00:00
+Generated: 2026-06-21T05:26:57+00:00
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Node files scanned | 8,294 |
-| Canonical edge types | 167 |
+| Node files scanned | 8,308 |
+| Canonical edge types | 169 |
 | Populated types (≥1 instance) | 58 |
-| Unpopulated types (0 instances) | 109 |
+| Unpopulated types (0 instances) | 111 |
 | Drift types (not in canonical) | 0 |
 | Total edge instances | 21,083 |
 | Infobox edges | 21,083 |
@@ -77,7 +77,7 @@ Generated: 2026-06-20T18:43:53+00:00
 | `CONTRACTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
 | `CONSPIRES_WITH` *(unpopulated)* | 0 | 0 | 0 |
 
-### Military & Conflict — 10/27 populated, 633 instances
+### Military & Conflict — 10/28 populated, 633 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -108,6 +108,7 @@ Generated: 2026-06-20T18:43:53+00:00
 | `TORTURES` *(unpopulated)* | 0 | 0 | 0 |
 | `AGENT_IN` *(unpopulated)* | 0 | 0 | 0 |
 | `VICTIM_IN` *(unpopulated)* | 0 | 0 | 0 |
+| `WITNESS_IN` *(unpopulated)* | 0 | 0 | 0 |
 
 ### Knowledge & Information — 3/14 populated, 5 instances
 
@@ -243,7 +244,7 @@ Generated: 2026-06-20T18:43:53+00:00
 | `CONTRADICTS` *(unpopulated)* | 0 | 0 | 0 |
 | `CITED_BY` *(unpopulated)* | 0 | 0 | 0 |
 
-### Causal & Plot — 1/5 populated, 2 instances
+### Causal & Plot — 1/6 populated, 2 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -252,6 +253,7 @@ Generated: 2026-06-20T18:43:53+00:00
 | `ENABLES` *(unpopulated)* | 0 | 0 | 0 |
 | `MOTIVATES` *(unpopulated)* | 0 | 0 | 0 |
 | `TRIGGERS` *(unpopulated)* | 0 | 0 | 0 |
+| `SUSPECTED_OF` *(unpopulated)* | 0 | 0 | 0 |
 
 ### Temporal & Sequencing — 0/1 populated, 0 instances
 
@@ -269,7 +271,7 @@ Generated: 2026-06-20T18:43:53+00:00
 | `ATTENDS` *(unpopulated)* | 0 | 0 | 0 |
 | `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` *(unpopulated)* | 0 | 0 | 0 |
 
-## Unpopulated Types (109 total — Stage 4 targets)
+## Unpopulated Types (111 total — Stage 4 targets)
 
 These are the types with zero instances in the current graph.
 They are the primary targets for Stage 4 (prose-edge classification).
@@ -277,7 +279,7 @@ They are the primary targets for Stage 4 (prose-edge classification).
 - **Kinship & Family:** `COURTS`, `COUSIN_OF`, `IN_LAW_OF`, `MARRIES_OFF`, `MILK_BROTHER_OF`, `NEPHEW_OF`, `NURSED_BY`, `PROPOSED_AS_BRIDE`, `STEP_CHILD_OF`, `STEP_PARENT_OF`, `UNCLE_OF`, `WET_NURSE_OF`
 - **Political & Authority:** `APPOINTS`, `BANISHES`, `BREAKS_VOW`, `DEPOSES`, `VOWS_TO`
 - **Factional & Diplomatic:** `CONSPIRES_WITH`, `CONTRACTED_WITH`, `NEGOTIATES_WITH`
-- **Military & Conflict:** `AGENT_IN`, `ASSAULTS`, `ATTACKS`, `BESIEGES`, `BESTOWS_KNIGHTHOOD_ON`, `GUARDS`, `IMPRISONS`, `KILLED_WITH`, `KNIGHTED_BY`, `PARTICIPATES_IN`, `POISONS`, `PRISONER_EXCHANGE_FOR`, `RANSOMS`, `RESCUES`, `SUB_BEAT_OF`, `TORTURES`, `VICTIM_IN`
+- **Military & Conflict:** `AGENT_IN`, `ASSAULTS`, `ATTACKS`, `BESIEGES`, `BESTOWS_KNIGHTHOOD_ON`, `GUARDS`, `IMPRISONS`, `KILLED_WITH`, `KNIGHTED_BY`, `PARTICIPATES_IN`, `POISONS`, `PRISONER_EXCHANGE_FOR`, `RANSOMS`, `RESCUES`, `SUB_BEAT_OF`, `TORTURES`, `VICTIM_IN`, `WITNESS_IN`
 - **Knowledge & Information:** `AFFLICTED_BY`, `DECEIVES`, `DIED_OF`, `HEALS`, `HOARDS`, `IGNORANT_OF`, `INFORMS`, `INVESTIGATES`, `REVEALS_TO`, `SPIES_ON`, `TUTORS`
 - **Emotional & Perceptual:** `COMPANION_OF`, `DISTRUSTS`, `ENCOUNTERS`, `FEARS`, `HATES`, `MOURNS`, `PERCEIVED_AS`, `REPUTED_AS`, `RESENTS`, `TRUSTS`
 - **Spatial & Temporal:** `CONTEMPORARY_WITH`, `IMPRISONED_AT`, `TRAVELS_TO`, `TRAVELS_WITH`
@@ -288,7 +290,7 @@ They are the primary targets for Stage 4 (prose-edge classification).
 - **Narrative & Literary:** `CONTRASTS`, `DEPICTED_IN`, `ECHOES`, `FORESHADOWS`, `PARALLELS`, `SUBVERTS`
 - **Prophecy:** `APPEARS_TO_FULFILL`, `DREAMS_OF`, `FULFILLS`, `PROPHESIED_BY`, `SUBJECT_OF_PROPHECY`, `SUBVERTS_PROPHECY`
 - **Evidentiary (Theory Support):** `CITED_BY`, `CONTRADICTS`, `SUPPORTS`
-- **Causal & Plot:** `ENABLES`, `MOTIVATES`, `PREVENTS`, `TRIGGERS`
+- **Causal & Plot:** `ENABLES`, `MOTIVATES`, `PREVENTS`, `SUSPECTED_OF`, `TRIGGERS`
 - **Temporal & Sequencing:** `PRECEDES`
 - **Hospitality & Custom:** `ATTENDS`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `GRANTS_SAFE_CONDUCT`, `GUEST_OF`, `VIOLATES_GUEST_RIGHT`
 

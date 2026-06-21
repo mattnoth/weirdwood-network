@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-21T03:15:10.928436+00:00",
+  "computed_at": "2026-06-21T04:33:01.635668+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -2677,6 +2677,14 @@
         "source": "node-slug"
       }
     ],
+    "ambush at the greenblood": [
+      {
+        "canonical_slug": "areo-hotah-springs-the-ambush",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "ambush begins": [
       {
         "canonical_slug": "the-ambush-begins",
@@ -2691,6 +2699,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "ambush that foiled the queenmaker plot": [
+      {
+        "canonical_slug": "areo-hotah-springs-the-ambush",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "amerei frey": [
@@ -3393,6 +3409,14 @@
         "source": "node-slug"
       }
     ],
+    "arianne is captured": [
+      {
+        "canonical_slug": "arianne-collapses-and-is-captured",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "arianne martell": [
       {
         "canonical_slug": "arianne-martell",
@@ -3401,12 +3425,60 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "arianne martell captured": [
+      {
+        "canonical_slug": "arianne-collapses-and-is-captured",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arianne plots to crown myrcella": [
+      {
+        "canonical_slug": "the-queenmaker-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arianne taken at the greenblood": [
+      {
+        "canonical_slug": "arianne-collapses-and-is-captured",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "arianne tarth": [
       {
         "canonical_slug": "arianne-tarth",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "arianne's capture": [
+      {
+        "canonical_slug": "arianne-collapses-and-is-captured",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arianne's plot to crown myrcella": [
+      {
+        "canonical_slug": "the-queenmaker-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arianne's scheme to crown myrcella": [
+      {
+        "canonical_slug": "the-queenmaker-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "arlan i durrandon": [
@@ -11627,6 +11699,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "capture of arianne": [
+      {
+        "canonical_slug": "arianne-collapses-and-is-captured",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "capture of darry": [
       {
         "canonical_slug": "capture-of-darry",
@@ -18411,6 +18491,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "darkstar maims myrcella": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "darkwash": [
@@ -31047,6 +31135,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "greenblood ambush": [
+      {
+        "canonical_slug": "areo-hotah-springs-the-ambush",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "greenfield": [
       {
         "canonical_slug": "greenfield",
@@ -35653,6 +35749,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "hotah ambushes arianne": [
+      {
+        "canonical_slug": "areo-hotah-springs-the-ambush",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "hother umber": [
@@ -55679,6 +55783,14 @@
         "source": "all-node-slug:texts"
       }
     ],
+    "maiming of myrcella": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "main gates of winterfell": [
       {
         "canonical_slug": "main-gates-of-winterfell",
@@ -60153,6 +60265,54 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "myrcella is maimed": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "myrcella is maimed by darkstar": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "myrcella is wounded": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "myrcella loses her ear": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "myrcella maimed": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "myrcella wounded": [
+      {
+        "canonical_slug": "myrcella-is-maimed-by-darkstar",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "myria jordayne": [
@@ -65001,6 +65161,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "plot to crown myrcella": [
+      {
+        "canonical_slug": "the-queenmaker-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "plot to free jaime lannister": [
       {
         "canonical_slug": "plot-to-free-jaime-lannister",
@@ -67051,6 +67219,30 @@
         "node_category": "characters",
         "node_type": "character.dragon",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "queenmaker": [
+      {
+        "canonical_slug": "the-queenmaker-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "queenmaker conspiracy": [
+      {
+        "canonical_slug": "the-queenmaker-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "queenmaker plot": [
+      {
+        "canonical_slug": "the-queenmaker-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "queens ballroom": [
@@ -91331,8 +91523,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18796,
-    "unique_phrases": 11317
+    "total_node_entries": 18826,
+    "unique_phrases": 11341
   },
   "version": "v1"
 }

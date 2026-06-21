@@ -56,8 +56,10 @@
 > Kinds: `quote` (homeless load-bearing line) · `food` (food/drink/hospitality consumable) · `appearance`
 > (a character's physical look/dress) · `place` (a location's look/atmosphere) · `object` (an
 > artifact/material's look or provenance) · `hospitality` (guest-right/host-guest custom) ·
-> `foreshadowing` · `relationship` · `other`. POINT, don't extract; don't stop your task to attach it;
-> don't pre-dedup. If nothing notable comes up, add nothing.
+> `foreshadowing` · `relationship` · `witness` (a character who load-bearingly SEES a charged event —
+> an execution, murder, bout, battle — candidate for a `WITNESS_IN` edge; note WHO saw WHAT, and only
+> if the text shows they actually saw it, not merely present) · `other`. POINT, don't extract; don't
+> stop your task to attach it; don't pre-dedup. If nothing notable comes up, add nothing.
 
 ## Queue
 
@@ -188,3 +190,29 @@
 | done | food | affc | affc-the-reaver-01.md:145 | Oakenshield feast: roast ox (rare and bloody), stuffed ducks, buckets of fresh crabs — Euron's victory feast off Hewett's stores. | 2026-06-20 s116-enrich | **[S116 harvest: attached to taking-of-the-shields ## Quotes (book cite :167 — feast description at :167 not :145; :145 is Nute/Victarion dialogue)]** |
 | done | hospitality | affc | affc-the-reaver-01.md:173 | Euron forces Lady Hewett and her daughters to serve at table naked — guest-right inversion, deliberate humiliation of a lord in his own hall. | 2026-06-20 s116-enrich | **[S116 harvest: attached to taking-of-the-shields ## Quotes (book cite :173)]** |
 | done | appearance | affc | affc-the-prophet-01.md:91 | Nine sons of Quellon Greyjoy genealogy passage — half-brothers, mothers listed (Stonetrees, Sunderly, Piper). Useful for Greyjoy character nodes. | 2026-06-20 s116-enrich | **[S116 harvest: attached to quellon-greyjoy ## Quotes as book-cite overlay (affc-the-prophet-01.md:91); specific named-mothers genealogy not in node before]** |
+| open | foreshadowing | affc | affc-the-captain-of-guards-01.md:135 | Hotah foresees he will one day kill Arys Oakheart with his longaxe — pays off exactly in Queenmaker I | 2026-06-20 s117-dorne-arc |
+| open | quote | affc | affc-the-captain-of-guards-01.md:59 | Doran's maxim "Words are like arrows, Arianne. Once loosed, you cannot call them back." | 2026-06-20 s117-dorne-arc |
+| open | quote | affc | affc-the-captain-of-guards-01.md:51 | Doran: "He was slain in single combat during a trial by battle. By law, that is no murder." (Oberyn-death motif) | 2026-06-20 s117-dorne-arc |
+| open | relationship | affc | affc-the-captain-of-guards-01.md:347 | Sarella Sand "is a woman grown, almost twenty… Leave her to her game" — Alleras/Citadel cross-identity hook | 2026-06-20 s117-dorne-arc |
+| open | object | affc | affc-the-captain-of-guards-01.md:271 | Tyene knows Oberyn's slow poison; "Soon we may hear the Mountain screaming" — foreshadows Gregor's fate | 2026-06-20 s117-dorne-arc |
+| open | hospitality | affc | affc-the-captain-of-guards-01.md:153 | Doran's supper: purple olives, flatbread, cheese, chickpea paste, sweet heavy strongwine | 2026-06-20 s117-dorne-arc |
+| open | food | affc | affc-the-captain-of-guards-01.md:157 | Norvoshi wintercake (ginger, pine nuts, cherry) + nahsa (fermented goat's milk in iron cup, honey-laced) | 2026-06-20 s117-dorne-arc |
+| open | food | affc | affc-the-soiled-knight-01.md:21 | Dornish grilled snake with venom-drop snake sauce, mustard seeds, dragon peppers | 2026-06-20 s117-dorne-arc |
+| open | object | affc | affc-the-soiled-knight-01.md:23 | Cyvasse arrives at the Planky Town from Volantis; orphans spread it up the Greenblood | 2026-06-20 s117-dorne-arc |
+| open | foreshadowing | affc | affc-the-soiled-knight-01.md:269 | Arianne on House Toland's arms: "A dragon eating its own tail… The dragon is time… all things come round again" | 2026-06-20 s117-dorne-arc |
+| open | quote | affc | affc-the-soiled-knight-01.md:121 | Arianne on Doran: "My father is very good at doing nothing. He calls it thinking." | 2026-06-20 s117-dorne-arc |
+| open | relationship | affc | affc-the-soiled-knight-01.md:261 | Golden Company breaks its Myr contract — Arianne reads it as Quentyn hiring them (actually the fAegon thread) | 2026-06-20 s117-dorne-arc |
+| open | appearance | affc | affc-the-queenmaker-01.md:31 | Darkstar: aquiline nose, silver hair with a midnight-black streak, dark purple "dark and angry" eyes | 2026-06-20 s117-dorne-arc |
+| open | place | affc | affc-the-queenmaker-01.md:11 | Shandystone — abandoned dry-well holdfast, fluted columns, triple arches; the muster site | 2026-06-20 s117-dorne-arc |
+| open | quote | affc | affc-the-queenmaker-01.md:299 | Hotah: "Someone told. Someone always tells." (the unresolved Dorne-informer mystery) | 2026-06-20 s117-dorne-arc |
+| open | place | affc | affc-the-princess-in-the-tower-01.md:27 | Ghaston Grey — crumbling prison-castle on a rock in the Sea of Dorne for the vilest criminals | 2026-06-20 s117-dorne-arc |
+| open | object | affc | affc-the-princess-in-the-tower-01.md:325 | Doran's reveal climax: presses an onyx dragon into Arianne's palm, whispers "Fire and blood" (Quentyn → Targaryen pact) | 2026-06-20 s117-dorne-arc |
+| open | relationship | affc | affc-the-princess-in-the-tower-01.md:293 | Doran reveals Arianne was secretly betrothed for years to a now-dead man killed by "a pot of molten gold" (Viserys) | 2026-06-20 s117-dorne-arc |
+| open | hospitality | affc | affc-the-princess-in-the-tower-01.md:47 | Prison meals: kid roasted with lemon and honey; grape leaves stuffed with raisins, onions, mushrooms, dragon peppers | 2026-06-20 s117-dorne-arc |
+| open | food | agot | agot-arya-05.md:19 | Flea Bottom tart pushcart — "the smells sang of blueberries and lemons and apricots"; three coppers each; Arya tries to barter a fat pigeon, vendor refuses ("The Others take your pigeon"). Street-food + barter-economy vignette. | 2026-06-21 s117-happenstance |
+| open | appearance | agot | agot-arya-05.md:107 | Redwyne twins Ser Horas & Ser Hobber — "homely youths with orange hair and square, freckled faces"; Sansa & Jeyne Poole's mocking nickname "Ser Horror and Ser Slobber". (appearance + nickname/relationship) | 2026-06-21 s117-happenstance |
+| open | appearance | agot | agot-arya-05.md:29 | Gold cloaks / City Watch uniform — "cloaks hung almost to the ground, the heavy wool dyed a rich gold; their mail and boots and gloves were black." (faction appearance) | 2026-06-21 s117-happenstance |
+| open | quote | agot | agot-catelyn-11.md:63 | Hoster Tully's "had to see… watched from the battlements" — vivid first-person witness of the Battle of the Camps (now the basis for his WITNESS_IN edge). | 2026-06-21 attends-reaudit |
+| open | foreshadowing | asos | asos-arya-08.md:77 | Ghost of High Heart "I gorged on grief at Summerhall" — confirms she survived the Tragedy of Summerhall; supports minting a tragedy-of-summerhall event node (+ the Jenny-of-Oldstones/woods-witch identity thread). | 2026-06-21 attends-reaudit |
+| open | relationship | affc | affc-jaime-07.md:215 | Desmond Grell + Robin Ryger choose the black rather than leave Riverrun ("This castle's been my home for forty years") — garrison-loyalty; candidate GARRISONS/TAKES_THE_BLACK edges. | 2026-06-21 attends-reaudit |
+| open | appearance | affc | affc-jaime-06.md:131 | Lady Genna Frey "claimed her stool with a look that dared any man to question her presence" — characterization + presence at the Riverrun war council. | 2026-06-21 attends-reaudit |

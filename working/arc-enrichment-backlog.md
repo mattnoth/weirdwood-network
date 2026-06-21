@@ -25,6 +25,23 @@ them. Rationale (proven by S116's own deferrals):
 **Today's S116 Kingsmoot enrichment was a deliberate smoke-test exception** (run while we
 were already deep in the cluster). The standing default is spine-first.
 
+### The enrichment-phase TRIGGER (concrete — added S117, "defer to when?")
+
+"Spine-first" is not an open-ended "later." The enrichment PHASE begins — and the whole
+backlog below (incl. Dorne, Cersei, Brienne→Stoneheart, and the AGOT/ASOS arcs) becomes
+eligible — when the **major-arc spine queue is down to its long tail**. Concrete gate:
+
+> **Enrichment opens once the ESSOS container is spine-built** (the next big build) **AND
+> the WO5K junctures #3/#4/#5 are built.** At that point AFFC + Essos + WO5K-core spines
+> all exist, the `major-arc-backlog.md` DARK count is just the deep-lore / theory long
+> tail, and circling back to enrich is the highest-value next move.
+
+Until that gate, enrichment candidates are PRESERVED as harvest pointers (never lost) and
+NOT built — except the same in-cluster smoke-test exception that produced S116 (if a
+session is already deep in a cluster's text and the enrichment is cheap, take it). A
+single cluster can also jump the queue if Matt names it. This gate is a *condition*, not a
+date — it trips when the spine work is done, however many sessions that takes.
+
 ## The enrichment-pass machine (smoke-tested S116)
 
 1. **Fan out 2–3 fresh subagents, each a different lens** on the built cluster:
@@ -67,6 +84,7 @@ Still genuinely deferred (no local upstream/source yet):
 - **WO5K container** — needs MORE than one enrichment pass (Matt: "gonna need more than that treatment"). Many braided sub-plots (Karstark, Frey, Bolton, the Riverlands chevauchée, Robb's westerlands campaign).
 - Red Wedding / Purple Wedding / Tywin's death / Blackwater / Ned's downfall / Bran / Robert's Rebellion / Sack of KL — each has side-plots not on its spine.
 - Cersei's downfall + Brienne→Stoneheart (AFFC arcs S114/S115) — secondary beats (the Blue Bard, the Faith Militant's rise, the Brotherhood's hangings).
+- **Dorne / Myrcella (Queenmaker, spine S117)** — rich secondary layer left on the harvest queue: the unresolved **"Someone always tells" informer mystery**; **Arys Oakheart's seduction sub-arc** (The Soiled Knight POV); the **conspirator dispersal** (Drey→Norvos, Garin→Tyrosh, Sylva→Greenstone marriage); **Darkstar's escape** into the deep sand (downstream-dark — his TWOW payoff); and the **Quentyn/Doran "Fire and blood" reveal** (which is really an Essos-bridge seed → belongs to the Essos container's enrichment, not Dorne's). 19 harvest rows pushed S117.
 
 ## Process rules
 - Forward-dangling cross-book nodes **defer to the downstream container's enrichment**, not minted into a void.

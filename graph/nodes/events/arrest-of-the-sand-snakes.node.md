@@ -11,10 +11,13 @@ evidence_chapters:
 
 # Arrest of the Sand Snakes
 
-Event node minted by Plate 3 full-corpus scan for: Arrest of the Sand Snakes (Doran orders the arrest of Oberyn's daughters)
-
-## Edges
-(populated by Plate 3 role-edge staging; merge at Plate 5)
+In the wake of Oberyn Martell's death in trial by combat at King's Landing, Dorne
+boils for war — the smallfolk cry for vengeance and Oberyn's eight bastard daughters,
+the Sand Snakes, agitate to lead it. To cool the war-fever, keep his nieces from
+forcing his hand, and signal his loyalty to Lord Tywin, Prince Doran orders Captain
+Areo Hotah to take Oberyn's daughters into custody and confine them in the cells atop
+the Spear Tower. The arrest does not calm the waters as Doran hoped, and it becomes one
+of the grievances that drives Arianne to her own reckless scheme.
 
 ## Quotes
 
@@ -23,5 +26,6 @@ Event node minted by Plate 3 full-corpus scan for: Arrest of the Sand Snakes (Do
 — [Doran Martell](doran-martell) ordering [Areo Hotah](areo-hotah) to arrest the Sand Snakes ([Obara](obara-sand), [Nymeria](nymeria-sand), [Tyene](tyene-sand)), AFFC The Captain of Guards I (`sources/chapters/affc/affc-the-captain-of-guards-01.md:341`)
 
 ## Notes
-Node minted by `edge-reify-backfill.py --batch` during Plate 3 mini-batch run.
-Staging only — do NOT promote to graph/nodes/events/ until Plate 5 gated merge.
+Originally minted by Plate 3 full-corpus scan; promoted to the live graph. Prose body +
+causal root (`gregor-confesses-and-kills-oberyn CAUSES` this; this `MOTIVATES arianne-martell`)
+added S117 (2026-06-20) with the Dorne/Myrcella causal arc.
