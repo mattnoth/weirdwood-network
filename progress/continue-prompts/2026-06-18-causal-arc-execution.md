@@ -3,11 +3,11 @@
 > **Recommended model:** Sonnet 4.6 (subagent-driven minting). Opus only for a hard interpretive call.
 > **STRATEGY PIVOTED (S112, 2026-06-20):** the track is **no longer dip-cheapest-driven.** S111's 3-edge session exposed that the dip ranks by *cheapest gap* and was scraping refinements while the major arcs stayed dark (causal layer reaches only ~8% of event nodes; zero AFFC/ADWD). **New model = two tracks:** PRIMARY = a planned, magnitude-ordered **major-arc backlog** (`working/major-arc-backlog.md`, anchored on the 30 foreshadowed events) + **container decomposition dips**; SECONDARY = opportunistic cheap dips (`working/cheap-dip-backlog.md`). **The dip is now a post-build CHECK, not the prioritizer.** Full rationale: worklog S112 + `history/session-details/session-112.md`.
 
-## Where this stands (after S112, 2026-06-20)
+## (historical) Where this stood (after S112, 2026-06-20)
 
-The arc machine is proven 9× (RR, Bran, Sack, PW, B1, B2, B3, Tywin, Blackwater-downstream). The WO5K **container** has been decomposed (`working/wo5k-decomposition.md`) — it's a trigger-tree rooted at `death-of-robert-baratheon`, with 6–10 real junctures, ranked. **NEXT BUILD = J3 below.** Cross-book chains auto-join via shared nodes + the `--causal-chain` walk (chain-as-arc, no umbrella) — so root each new arc at its existing upstream node.
+The arc machine is proven 9× (RR, Bran, Sack, PW, B1, B2, B3, Tywin, Blackwater-downstream). The WO5K **container** has been decomposed (`working/wo5k-decomposition.md`) — it's a trigger-tree rooted at `death-of-robert-baratheon`, with 6–10 real junctures, ranked. (J3 was the S113 build; AFFC builds followed S114–S115 — see the live NEXT BUILD section below.) Cross-book chains auto-join via shared nodes + the `--causal-chain` walk (chain-as-arc, no umbrella) — so root each new arc at its existing upstream node.
 
-## AFFC SMOKE TEST + Cersei's-downfall arc DONE (S114, 2026-06-20) — NEXT = AFFC #3 Brienne → Lady Stoneheart
+## (historical) AFFC SMOKE TEST + Cersei's-downfall arc DONE (S114, 2026-06-20)
 
 **AFFC smoke test SHIPPED** (`working/session-results/2026-06-20-affc-smoke.md`): all 5 AFFC arc-clusters causally DARK (0+0); controls HIT (genuine coverage gap). Ranked fumble list: **#1 Cersei's downfall · #2 Kingsmoot→Euron · #3 Brienne→Stoneheart · #4 Dorne/Myrcella.** Two orthogonal findings: AFFC natural-phrase **discoverability broken** (spaced-alias gap) + **3 node traps** (`faith-militant-uprising`=historical Aenys/Maegor; `brienne-arrested`=ASOS Harrenhal; `conquest-of-dorne`=Aegon's). **Bumped Q5** as predicted.
 
