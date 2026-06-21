@@ -55,6 +55,10 @@ The ironborn would never seat a stranger in the Seastone Chair.[2]—"Esgred" to
 
 The god took me deep beneath the waves and drowned the worthless thing I was. When he cast me forth again he gave me eyes to see, ears to hear, and a voice to spread his word, that I might be his prophet and teach his truth to those who have forgotten. I was not made to sit upon the Seastone Chair ... no more than Euron Crow's Eye. For I have heard the god, who says, No godless man may sit my Seastone Chair![8]—Aeron Greyjoy to his drowned men
 
+> The god took me deep beneath the waves and drowned the worthless thing I was. When he cast me forth again he gave me eyes to see, ears to hear, and a voice to spread his word, that I might be his prophet and teach his truth to those who have forgotten. I was not made to sit upon the Seastone Chair . . . no more than Euron Crow's Eye. For I have heard the god, who says, No godless man may sit my Seastone Chair!
+
+— [Aeron Damphair](aeron-greyjoy) to his drowned men at Pebbleton, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:209`) *(book-cite overlay — same speech appears as wiki prose above)*
+
 Aeron: We shall have no king but from the kingsmoot. No godless man—
 Euron: —may sit the Seastone Chair, aye. As it happens I have oft sat upon the Seastone Chair of late. It raises no objections.[13]—Aeron Greyjoy and Euron Greyjoy
 

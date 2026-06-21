@@ -1,0 +1,18 @@
+{
+  "slug": "euron-seizes-the-seastone-chair",
+  "name": "Euron seizes the Seastone Chair",
+  "type": "event.incident",
+  "node_path": "graph/nodes/events/euron-seizes-the-seastone-chair.node.md",
+  "generated_at": "2026-06-21T00:23:13.270501+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

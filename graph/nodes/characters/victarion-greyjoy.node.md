@@ -89,6 +89,10 @@ Just as the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Vic
 
 ### Quotes by Victarion
 
+> He stole my wife and he stole my throne, and now he steals my glory.
+
+— Victarion Greyjoy on [Euron Greyjoy](euron-greyjoy), after the taking of the Shields, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:57`)
+
 > Words are wind, and the only good wind is that which fills our sails.(wiki:Victarion_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-21)
 >
 > —Victarion to his captains

@@ -222,6 +222,10 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 >
 > —Cersei's thoughts before her [walk of atonement](wiki:Walk_of_atonement)
 
+> No golden shrouds, no valonqar, I am free of your croaking malice at last.
+
+— Cersei celebrating Margaery's arrest, believing herself proof against Maggy's prophecy — just as the trap closes on her, AFFC Cersei X (`sources/chapters/affc/affc-cersei-10.md:49`)
+
 ### Quotes about Cersei
 
 > She was as beautiful as men said. A jeweled tiara gleamed amidst her long golden hair, its [emeralds](wiki:Emerald) a perfect match for the green of her eyes.(wiki:Cersei_Lannister.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)

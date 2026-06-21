@@ -22,6 +22,14 @@ Grey King's Hall is a location from the AWOIAF wiki.
 
 Forty-four stone ribs are located on the top of [Nagga's hill](wiki:Nagga's_hill). There are nine steep and wide stone steps which lead to where the hall's doors once stood.(wiki:Grey_King's_Hall.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
+> wearing robes of woven seaweed and a tall pale crown made from Nagga's teeth.
+
+— The Grey King's legendary regalia as recalled by [Aeron Damphair](aeron-greyjoy) at Nagga's Hill, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:19`)
+
+> The hall had been warmed by Nagga's living fire, which the Grey King had made his thrall. On its walls hung tapestries woven from silver seaweed most pleasing to the eyes. The Grey King's warriors had feasted on the bounty of the sea at a table in the shape of a great starfish, whilst seated upon thrones carved from mother-of-pearl. Gone, all the glory gone. Men were smaller now. Their lives had grown short. The Storm God drowned Nagga's fire after the Grey King's death, the chairs and tapestries had been stolen, the roof and walls had rotted away. Even the Grey King's great throne of fangs had been swallowed by the sea.
+
+— The hall's legendary furnishings as recalled by [Aeron Damphair](aeron-greyjoy), AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:21`) *(book-cite overlay — same facts appear in ## Origins below)*
+
 ## Origins
 
 [Nagga](wiki:Nagga)'s ribs became the beams and pillars and her jaws the throne. According to legend, the Hall had been warmed by Nagga's living fire and on the walls hung [tapestries](wiki:Tapestries) made of silver seaweed. The men sworn to the [Grey King](wiki:Grey_King) ate at a table shaped like a large starfish while seated on thrones made from [mother-of-pearl](wiki:Mother-of-pearl). Upon the Grey King's death, the [Storm God](wiki:Storm_God) snuffed out Nagga's fire and the sea stole the fanged throne.(wiki:Grey_King's_Hall.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

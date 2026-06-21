@@ -15,6 +15,12 @@ Event node minted by Plate 3 full-corpus scan for: Victarion admits Euron's role
 ## Edges
 (populated by Plate 3 role-edge staging; merge at Plate 5)
 
+## Quotes
+
+> "He put a baby in her belly and made me do the killing." — [Asha Greyjoy](asha-greyjoy) names [Euron](euron-greyjoy)'s act to [Victarion](victarion-greyjoy), AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:267`)
+
+> "He put a baby in her belly and made me do the killing. I would have killed him too, but Balon would have no kinslaying in his hall." — Victarion confirming the story to Asha, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:269`)
+
 ## Notes
 Node minted by `edge-reify-backfill.py --batch` during Plate 3 mini-batch run.
 Staging only — do NOT promote to graph/nodes/events/ until Plate 5 gated merge.

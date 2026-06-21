@@ -22,6 +22,14 @@ Silence is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
 
 Silence has a single mast,(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) black sails, and dark red hull.(wiki:Silence.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Its decks are painted red to better hide the blood that soaks them. The ship's figurehead is a mouthless maiden with one arm outstretched. The figure is made of black [iron](wiki:Iron), with long shapely legs, a slender waist, and high breasts, and has streaming black iron hair and [mother-of-pearl](wiki:Mother-of-pearl) eyes.(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 The Silence is crewed by mutes(wiki:Silence.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and mongrels from throughout the [known world](wiki:Known_world).(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+> On her prow was a black iron maiden with one arm outstretched. Her waist was slender, her breasts high and proud, her legs long and shapely. A windblown mane of black iron hair streamed from her head, and her eyes were mother-of-pearl, but she had no mouth.
+
+— [Victarion Greyjoy](victarion-greyjoy) sighting Silence at anchor in Nagga's Cradle, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:37`)
+
+> Victarion's gaze was drawn to the iron figurehead at her prow, the mouthless maiden with the windblown hair and outstretched arm. Her mother-of-pearl eyes seemed to follow him. She had a mouth like any other woman, till the Crow's Eye sewed it shut.
+
+— [Victarion Greyjoy](victarion-greyjoy) passing Silence at Lord Hewett's harbor after the taking of the Shields, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:113`)
 [Theon Greyjoy](wiki:Theon_Greyjoy) thinks of his uncle's ship as being lean and terrible,(wiki:Silence.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) and [Victarion Greyjoy](wiki:Victarion_Greyjoy) considers Silence to be cruel and fast.(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 ## Origins

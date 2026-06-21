@@ -2,7 +2,7 @@
 name: "Taking of the Shields"
 type: event.battle
 slug: taking-of-the-shields
-aliases: []
+aliases: ["the taking of the Shields", "Euron invades the Reach", "the ironborn attack the Shield Islands", "Euron takes the Shield Islands", "ironborn raid the Reach"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Taking_of_the_Shields"
 bucket_id: battles-t-y
@@ -60,6 +60,14 @@ Later, after capturing his brother [Aeron Damphair](wiki:Aeron_Greyjoy), Euron a
 >
 > —[Victarion Greyjoy](wiki:Victarion_Greyjoy)'s thoughts
 
+> The feast was good. The wine was of the best, and there was roast ox, rare and bloody, and stuffed ducks as well, and buckets of fresh crabs.
+
+— Euron's victory feast at Oakenshield Castle, [Victarion Greyjoy](victarion-greyjoy) POV, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:167`)
+
 > This was my victory, not his. Where was he? Back on [Oakenshield](wiki:Oakenshield), lazing in [a castle](wiki:Oakenshield_Castle). He stole [my wife](wiki:Victarion_Greyjoy's_third_wife) and he stole [my throne](wiki:Seastone_Chair), and now he steals my glory.(wiki:Taking_of_the_Shields.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-21)
 >
 > —[Victarion Greyjoy](wiki:Victarion_Greyjoy)'s thoughts, regarding [Euron Greyjoy](wiki:Euron_Greyjoy)
+
+> "Good ladies," he called out to his highborn serving women, "Falia is concerned for your fine gowns. She would not have them stained with grease and wine and dirty groping fingers, since I have promised that she may choose her own clothes from your wardrobes after the feast. So you had best disrobe."
+
+— [Euron Greyjoy](euron-greyjoy) at the Oakenshield victory feast, forcing Lady Hewett and her daughters to serve naked — guest-right inversion, [Victarion Greyjoy](victarion-greyjoy) POV, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:173`)

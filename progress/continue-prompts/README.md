@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (restored S110; PIVOTED S112; J3 done S113; AFFC opened S114; #3 done S115) | Causal-arc: planned major-arc backlog | **LIVE** | Sonnet 4.6 | **STRATEGY PIVOTED S112** — backlog-driven + dip = post-build check. AFFC arcs SHIPPED: **#1 Cersei's-downfall (S114)** + **#3 Brienne→Lady Stoneheart (S115)** (rooted cross-book at `catelyn-is-killed`). **NEXT = AFFC #2 Kingsmoot→Euron** (standalone — mints `death-of-balon-greyjoy` + Euron-wins beat + retype `kingsmoot-on-old-wyk`); remaining queue #4 Dorne/Myrcella; secondary Q5 (Crag→Jeyne); dedicated harvest pass for 16 open rows. |
+| `2026-06-18-causal-arc-execution.md` | 2026-06-18 (PIVOTED S112; J3 S113; AFFC opened S114; #3 S115; **#2 + first enrichment pass S116**) | Causal-arc: planned major-arc backlog | **LIVE** | Sonnet 4.6 | **STRATEGY PIVOTED S112** — backlog-driven + dip = post-build check. AFFC arcs SHIPPED: **#1 Cersei's-downfall (S114)** + **#3 Brienne→Stoneheart (S115)** + **#2 Kingsmoot→Euron (S116, standalone) + its first enrichment pass (Asha/Aeron/Victarion sub-arcs + 3 bridge nodes + `SUSPECTED_OF` edge type)**. **NEXT = AFFC #4 Dorne/Myrcella** (mint `myrcella-wounded`; `arrest-of-the-sand-snakes` exists/bare; TRAP `conquest-of-dorne`=Aegon's historical conquest). Then Essos container. Secondary Q5 (Crag→Jeyne). New: arc-enrichment track (`working/arc-enrichment-backlog.md`, spine-first) + harvest `parked` status. |
 
 ---
 

@@ -37,7 +37,17 @@ Moqorro says whoever blows the horn will die, but any dragons that hear will obe
 
 When Victarion and the [Iron Fleet](wiki:Iron_Fleet) arrive at [Slaver's Bay](wiki:Slaver's_Bay), Victarion still has the horn with him in his cabin.(wiki:Dragonbinder.cite_ref-8) Some of the Iron Fleet arrives at the bay of [Meereen](wiki:Meereen), just as the [second siege of Meereen](wiki:Second_siege_of_Meereen) is about to resume.(wiki:Dragonbinder.cite_ref-9)
 
+## Appearances & Description
+
+> The horn he blew was shiny black and twisted, and taller than a man as he held it with both hands. It was bound about with bands of red gold and dark steel, incised with ancient Valyrian glyphs that seemed to glow redly as the sound swelled.
+
+— Dragonbinder's appearance as Cragorn blows it at the kingsmoot, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:149-151`)
+
 ## Quotes
 
 Bright and baneful was its voice, a shivering hot scream that made a man's bones seem to thrum within him ... It is the horn of hell.(wiki:Dragonbinder.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+
+> Bright and baneful was its voice, a shivering hot scream that made a man's bones seem to thrum within him … a thin wisp of smoke was rising from the horn, and the priest saw blood and blisters upon the lips of the man who'd sounded it. The bird on his chest was bleeding too.
+
+— [Cragorn](cragorn) blows Dragonbinder at the kingsmoot; [Aeron Damphair](aeron-greyjoy) witnesses, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:145-155`)
 That horn you heard I found amongst the smoking ruins that were [Valyria](wiki:Valyria), where no man has dared to walk but me. You heard its call, and felt its power. It is a [dragon horn](wiki:Dragon_horn), bound with bands of red gold and [Valyrian steel](wiki:Valyrian_steel) graven with enchantments. The [dragonlords](wiki:Dragonlords) of old sounded such horns, before [the Doom](wiki:Doom_of_Valyria) devoured them. With this horn, [ironmen](wiki:Ironmen), I can bind dragons to my will.(wiki:Dragonbinder.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)

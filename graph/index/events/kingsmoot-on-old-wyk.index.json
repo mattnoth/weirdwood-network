@@ -1,9 +1,9 @@
 {
   "slug": "kingsmoot-on-old-wyk",
   "name": "Kingsmoot on Old Wyk",
-  "type": "event.battle",
+  "type": "event.ceremony",
   "node_path": "graph/nodes/events/kingsmoot-on-old-wyk.node.md",
-  "generated_at": "2026-06-14T20:36:09.839416+00:00",
+  "generated_at": "2026-06-21T00:23:13.614875+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

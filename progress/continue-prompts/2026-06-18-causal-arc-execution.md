@@ -13,19 +13,19 @@ The arc machine is proven 9× (RR, Bran, Sack, PW, B1, B2, B3, Tywin, Blackwater
 
 **Cersei's-downfall arc SHIPPED (smoke-test #1):** 2 beats (`cersei-rearms-the-faith-and-forgives-the-debt`, `osney-kettleblack-confesses-to-high-sparrow`) + 5 causal Tier-2 (fresh-subagent CONFIRMED) + 5 role Tier-1. Self-caused irony: `cersei-rearms-the-faith CAUSES cersei-is-captured-in-the-sept CAUSES cersei-is-stripped-and-imprisoned`; backfire `cersei-plots-against-margaery CAUSES osney-confesses TRIGGERS capture`. Spaced aliases added to all wired nodes; `LOCATED_AT` data fix. `scripts/mint_cersei_downfall_arc.py`. AFFC layer no longer 100% dark.
 
-## AFFC #3 Brienne → Lady Stoneheart DONE (S115) — NEXT = AFFC #2 Kingsmoot → Euron
+## AFFC #2 Kingsmoot → Euron DONE (S116) — NEXT = AFFC #4 Dorne/Myrcella
 
-**S115 SHIPPED** the Brienne→Stoneheart arc: 2 beats (`catelyn-rises-as-lady-stoneheart` [event.incident], `brienne-brought-before-lady-stoneheart` [event.capture]) + 11 edges (2 causal Tier-2 fresh-subagent CONFIRMED + 9 role Tier-1). **Cross-book hinge = `catelyn-is-killed`** (a SUB_BEAT_OF red-wedding, was 0 causal): `catelyn-is-killed CAUSES catelyn-rises-as-lady-stoneheart CAUSES brienne-brought-before-lady-stoneheart`. Rooted at the death beat (not red-wedding directly) — that's the precise causal antecedent of the resurrection; the SUB_BEAT_OF gives the structural auto-join. TRAP `brienne-arrested` (ASOS Harrenhal) correctly avoided. `scripts/mint_brienne_stoneheart_arc.py`. Harvest pass ran (7 in-context rows; 16 remain).
+**S116 SHIPPED** the standalone Kingsmoot→Euron arc (J8): 2 new beats (`death-of-balon-greyjoy` [event.death], `euron-seizes-the-seastone-chair` [event.incident]) + `kingsmoot-on-old-wyk` retyped event.battle→event.ceremony + spaced aliases + repaired junk-stub + 11 edges (4 causal Tier-2 fresh-subagent CONFIRMED + 7 role Tier-1). Spine: `death-of-balon-greyjoy TRIGGERS euron-seizes-the-seastone-chair CAUSES kingsmoot-on-old-wyk CAUSES taking-of-the-shields`; agency `euron-seizes MOTIVATES aeron-greyjoy`. **Root-check: 0-upstream DECLARED INTENTIONAL** (Balon's death is the prime mover — the genuine standalone exception, machine 5b). **TRAP avoided:** `anarchy-in-the-reach` = the HISTORICAL Gardener-era Reach succession war, NOT Euron's invasion — downstream redirected to the real node `taking-of-the-shields`. SKIP: `victarion-admits-euron-s-role-in-his-wife-s-death` (tangential backstory; the "Euron murdered Balon" link is Tier-4/5 theory). `scripts/mint_kingsmoot_euron_arc.py`. **Dedicated harvest pass RAN (23 rows attached; 6 intended-skip remain: 117 wrong-cite + 142–145 Essos-gated).**
 
-## NEXT BUILD (S115 endsession pick): AFFC #2 Kingsmoot → Euron
+## NEXT BUILD (S116 endsession pick): AFFC #4 Dorne / Myrcella
 
-**Standalone** (no cross-book upstream root — Balon's death is the trigger and it stands alone). Likely **2–3 mints** + edges:
-- `death-of-balon-greyjoy` (the trigger — MISS today, no node) — Balon falls from a bridge in a storm (Euron-suspected; Victarion later "admits Euron's role").
-- A Euron-wins-the-kingsmoot / seizes-the-Seastone-Chair beat (MISS today).
-- `kingsmoot-on-old-wyk` EXISTS but near-bare: **retype `event.battle`→`event.ceremony`** (it's an assembly/election, not a battle), add spaced aliases (`the Kingsmoot`, `Euron seizes the Seastone Chair` MISS today), 0 participant role edges.
-- `anarchy-in-the-reach` / `victarion-admits-euron-s-role-in-his-wife-s-death` exist — wire Euron-causation. Source: AFFC Iron Islands chapters (The Prophet / The Drowned Man / The Reaver POVs). Matches J8 in `working/wo5k-decomposition.md`. Use SPACED aliases. Then re-check + harvest.
+The last AFFC smoke-test fumble (#4). Likely **1–2 mints** + edges:
+- `myrcella-wounded` (the maiming during the failed Queenmaker plot to crown her) — MISS today, needs mint.
+- `arrest-of-the-sand-snakes` EXISTS but was bare; got a `## Quotes` via harvest row 160 this session — wire Doran's-response causation.
+- The Queenmaker/Arianne plot beats. Source: AFFC Dorne chapters (The Queenmaker / The Soiled Knight / Arys/Arianne, Areo Hotah POVs). Use SPACED aliases.
+- **TRAP (hard):** `conquest-of-dorne` = **Aegon's historical conquest of Dorne**, NOT the AFFC Queenmaker plot. Do not wire to it. (Same AFFC trap-class as `anarchy-in-the-reach`/`faith-militant-uprising`/`brienne-arrested` — always dedup-check the era of a same-named wiki node before wiring.)
 
-**Remaining AFFC queue:** #4 Dorne/Myrcella (needs `myrcella-wounded` mint; `arrest-of-the-sand-snakes` exists, bare; TRAP `conquest-of-dorne`=Aegon's historical conquest). **Secondary cheap dip Q5** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`, ASOS; dedup-check `battle-of-the-crag` first; theory-loaded Sybell-Spicer/moon-tea — do-not-lose). **Dedicated harvest pass** for the 16 open queue rows (Cersei bare-node quotes now attachable post-S114). WO5K junctures (#3 Blackwater-upstream J2+J9 · #4 Karstark J7 · #5 Balon→Winterfell J4; SKIP J6): `working/wo5k-decomposition.md`.
+**Also queued:** **Secondary cheap dip Q5** (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`, ASOS; dedup-check `battle-of-the-crag` first; theory-loaded Sybell-Spicer/moon-tea — do-not-lose). WO5K junctures (#3 Blackwater-upstream J2+J9 · #4 Karstark J7 · #5 Balon→Winterfell J4; SKIP J6): `working/wo5k-decomposition.md`. Harvest queue at 6 open (5 real: 1 wrong-cite to re-resolve + 4 Essos-bridge rows gated to a future Essos arc).
 
 ## (historical) The pre-pivot dip queue — superseded by the backlog above, kept for reference
 

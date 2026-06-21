@@ -29,3 +29,7 @@ King Euron has the Iron Fleet close the bay after being crowned. When Lord [Bael
 ## Quotes
 
 The wind was blowing from the north as the [Iron Victory](wiki:Iron_Victory) came round the point and entered the holy bay called Nagga's Cradle.(wiki:Nagga's_Cradle.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+> Ahead loomed the sacred shore of Old Wyk and the grassy hill above it, where the ribs of Nagga rose from the earth like the trunks of great white trees, as wide around as a dromond's mast and twice as tall.
+
+— [Victarion Greyjoy](victarion-greyjoy) entering Nagga's Cradle aboard [Iron Victory](iron-victory) before the kingsmoot, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:13`)

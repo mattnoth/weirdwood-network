@@ -56,6 +56,10 @@ A handsome man, Euron is the most comely of the sons of the late Lord [Quellon G
 
 Euron wears a black leather patch over his left eye,(wiki:Euron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3) and sometimes a red leather eyepatch.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) He is nicknamed Crow's Eye, possibly because the leather patch conceals a "black eye shining with malice", per his nephew, [Theon Greyjoy](wiki:Theon_Greyjoy).(wiki:Euron_Greyjoy.cite_ref-9) Euron's right eye is as blue as the summer sky and is called his "smiling eye".(wiki:Euron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4) Additionally, since Euron has begun drinking [shade of the evening](wiki:Shade_of_the_evening), his lips have turned blue.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 
+> His hair was still black as a midnight sea, with never a whitecap to be seen, and his face was still smooth and pale beneath his neat dark beard. A black leather patch covered Euron's left eye, but his right was blue as a summer sky.
+
+— [Victarion Greyjoy](victarion-greyjoy)'s first sight of Euron at the kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:137`)
+
 Euron has a black reputation.(wiki:Euron_Greyjoy.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) He is considered cunning(wiki:Euron_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) and mocking,(wiki:Euron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2) and has a glib tongue.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3) The Crow's Eye is hated by his brothers [Aeron](wiki:Aeron_Greyjoy),(wiki:Euron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) who considers him [godless](wiki:God), and [Victarion](wiki:Victarion_Greyjoy), as Euron impregnated [his third wife](wiki:Victarion_Greyjoy's_third_wife).(wiki:Euron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 
 Despite his dangerous and mercurial nature, Euron has little trouble in drawing men to his service, especially freaks and fools.(wiki:Euron_Greyjoy.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) While most [ironborn](wiki:Ironborn) captains keep the lion's share of plunder, Euron takes almost nothing for himself.(wiki:Euron_Greyjoy.cite_ref-Forsaken_12-0) Victarion thinks of Euron's supporters as his pets.(wiki:Euron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
@@ -129,6 +133,14 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 > —Euron to Aeron Greyjoy
 
 ### Quotes about Euron
+
+> The Crow's Eye brings three sons to show before the kingsmoot.
+
+— [Hotho Harlaw](hotho-harlaw) to [Victarion Greyjoy](victarion-greyjoy) at the pre-kingsmoot feast, planting Euron's bastard sons as future claimants, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:75`)
+
+> Better to be scorned by Balon the Brave than beloved of Euron Crow's Eye.
+
+— [Aeron Damphair](aeron-greyjoy) on his brothers, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:93`)
 
 > Lord [Balon's](wiki:Balon_Greyjoy) eldest brother had never given up the [Old Way](wiki:Old_Way), even for a day. His *[Silence](wiki:Silence)*, with its black sails and dark red hull, was infamous in every port from [Ibben](wiki:Port_of_Ibben) to [Asshai](wiki:Asshai), it was said.(wiki:Euron_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 >

@@ -18,6 +18,12 @@ Walk of atonement is a species from the AWOIAF wiki.
 ## Edges
 
 
+## Foreshadowing
+
+> She dreamt she sat the Iron Throne, high above them all … Until the dwarf appeared as if from nowhere, pointing at her and howling with laughter. The lords and ladies began to chuckle too, hiding their smiles behind their hands. Only then did the queen realize she was naked. Horrified, she tried to cover herself with her hands. The barbs and blades of the Iron Throne bit into her flesh as she crouched to hide her shame.
+
+— Cersei's opening dream in AFFC Cersei I, foreshadowing her naked walk of shame; the helpless exposure before a laughing crowd mirrors the walk precisely (`sources/chapters/affc/affc-cersei-01.md:11-15`)
+
 ## Origins
 
 After Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) fled [King's Landing](wiki:King's_Landing) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Ser [Garth the Harelip](wiki:Garth_the_Harelip) surrendered the [Red Keep](wiki:Red_Keep) to Ser [Perkin the Flea](wiki:Perkin_the_Flea) and his [gutter knights](wiki:Gutter_knights). [Mysaria](wiki:Mysaria), Rhaenyra's hated [mistress of whisperers](wiki:Mistress_of_whisperers), was taken while attempting to flee the castle. Perkin informed Mysaria that if she could travel naked through the city to the [Gate of the Gods](wiki:Gate_of_the_Gods) while being whipped, she would be allowed to live. Mysaria only made it halfway before dying on the city's cobblestones.(wiki:Walk_of_atonement.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
@@ -39,3 +45,7 @@ Moelle: [This sinner](wiki:Cersei_Lannister) has confessed her sins and begged f
 I have sinned and must atone, must parade my shame before the eyes of every beggar in [the city](wiki:King's_Landing). They think that this will break my pride, that it will make an end to me, but they are wrong.(wiki:Walk_of_atonement.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 This is my penance, Cersei told herself. I have sinned most grievously, this is my atonement. It will be over soon, it will be behind me, then I can forget.(wiki:Walk_of_atonement.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 All the self-seekers who had named themselves her friends and cultivated her favor had abandoned her quickly enough when [Tywin](wiki:Tywin_Lannister) had her stripped naked and paraded through [Lannisport](wiki:Lannisport) to the docks, like a common [whore](wiki:Whore). Though no man laid a hand on her, that walk spelled the end of her power. Surely Tywin would never have dreamed that same fate awaited his own [golden daughter](wiki:Cersei_Lannister).
+
+> Septa Unella and Septa Moelle kept pace with her, with Septa Scolera scurrying behind, ringing a bell. "Shame," the old hag called, "shame upon the sinner, shame, shame." … Septa Scolera rang her bell, singing, "Shame, shame, shame upon the sinner, shame, shame."
+
+— [Cersei Lannister](cersei-lannister)'s walk of atonement through King's Landing, ADWD Cersei II (`sources/chapters/adwd/adwd-cersei-02.md:115`)

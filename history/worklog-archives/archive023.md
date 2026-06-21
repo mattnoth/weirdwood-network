@@ -80,3 +80,22 @@
 **What's next:**
 - Harvest queue is empty (all done). Next text-reading dip/research will refill it via the push snippet; run the next harvest pass when it re-accumulates.
 - **Causal-arc track resumes as the live next track** — restored to live: `progress/continue-prompts/2026-06-18-causal-arc-execution.md`. Next gap (re-rank via fresh dip first): Q12 Battle-of-the-Blackwater downstream (cheapest), then Q11 Daenerys/Slaver's-Bay, Q5 robb-weds-jeyne upstream.
+
+---
+
+### Session 111 — Causal-arc: fresh arc-weighted dip → Q12 Battle-of-the-Blackwater downstream (2026-06-20)
+**Detail:** worklog entry sufficient (execution session). **Model:** Opus 4.8 orchestrator + 3 Sonnet 4.6 `general-purpose` subagents (1 fresh arc-weighted dip + 1 arc-research + 1 fresh edge-verification). **Commit:** pending Matt's OK.
+
+**Changes made:**
+- **Step A — FRESH arc-weighted dip RAN (the dip-driven "re-dip FIRST" gate)** (`working/session-results/2026-06-20-fresh-arc-dip.md`). Re-confirmed the post-S109 ranking against the live graph: **all built-arc controls passed (no regressions)** — Tyrion-trial chain (3 up + 6 down), Robert's Rebellion, and the S109 Tywin's-death arc (alias "death of Tywin"/"Tyrion kills Tywin" both resolve cleanly, 7-edge upstream chain intact). **#1 fumble re-confirmed = Q12 Battle-of-the-Blackwater downstream** (`battle-of-the-blackwater` had ZERO causal edges).
+- **Step B — Q12 Blackwater-downstream arc MINTED + verified** (the dip's clear #1, cheapest real gap). **2 new beat-nodes** (`stannis-retreats-to-dragonstone` [event.incident, ASOS Davos II], `tywin-named-savior-of-the-city` [event.incident, ACOK Sansa VIII]; both Tier-1, `occurred.ac_year: 299`, `## Quotes` with verified verbatim cites, natural SPACED-phrase aliases) + **3 causal Tier-2 CAUSES edges** from `battle-of-the-blackwater` (was 0 causal): → `joffrey-sets-sansa-aside-and-agrees-to-wed-margaery` (existing node, wired) · → `stannis-retreats-to-dragonstone` · → `tywin-named-savior-of-the-city`. Mint script `scripts/mint_blackwater_arc.py`; backup `_regrounding/edges-pre-blackwater-arc-2026-06-20.jsonl`. All 3 fresh-subagent CONFIRMED → `verified_by: subagent-local-source-check-2026-06-20`.
+- **Smoke test:** `--causal-chain battle-of-the-blackwater` now returns 3 downstream CAUSES (was 0); all new-node natural-phrase lookups HIT. **Q12 grade: failed → CORRECT.**
+- **Totals:** nodes **8,546 → 8,548** (+2 beats); edges **22,273 → 22,276** (+3 causal); orphans **62 unchanged** (0 new); edge types **129** (no new types). pytest **1307 pass / 1 documented `cwd-is-tmp` fail**.
+
+**Decisions:**
+- **CAUSES (not TRIGGERS) for all three**, coarse battle-hub → mediated consequence (S104 rule). **Agency-collapse: verifier confirmed all 3 CLEAR for mediated CAUSES** — no intermediate beat mandatory; edge 1's Tyrell-compact agency is already carried by the pre-existing `tywin-lannister COMMANDS_IN` role edge on the Sansa-aside node. **Downstream-of-downstream DEFERRED** (Stannis's northern gambit; Tommen's reign under Tywin-as-Hand) — would chain toward multi-attributed territory.
+- **Dip-driven cadence held** — built ONE validating batch (Q12), re-confirmed fixed, did NOT mass-mint Q5/Q11. Pre-mint dedup ruled out collisions (`flight-to-dragonstone` = the Dance-of-the-Dragons Rhaenyra event, NOT Stannis; `savior-of-the-city` is a bare TITLE node, distinct from the conferral event).
+- **Harvest:** dip/research/verify subagents appended new pointer rows to `working/harvest-queue.md` (refilling the queue emptied by the S110 harvest pass) — to be consumed by a future harvest pass.
+
+**What's next (dip-driven, NOT mass-mint — re-dip before building each):**
+- **Re-rank via fresh dip, then build #1.** Current queue: #1 Q5 robb-weds-jeyne upstream (`storming-of-the-crag CAUSES robb-weds-jeyne-westerling`; this dip says both nodes exist — 1 edge); #2 Q11 Daenerys/Slaver's-Bay (new Essos territory, alias fix + 2-3 beats + 3-5 edges); #3 Q13 Sack-of-Winterfell (extends B2, 2 edges, targets exist); Q6 Trident inbound CAUSES (1 edge). Continue prompt: `progress/continue-prompts/2026-06-18-causal-arc-execution.md`. (**Sonnet 4.6**)

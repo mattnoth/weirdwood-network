@@ -36,6 +36,10 @@ Aeron is tall and thin with fierce black eyes and a beak of a nose,(wiki:Aeron_G
 
 The Damphair garbs himself in roughspun wool robes dyed in the green, grey, and blue of the [Drowned God](wiki:Drowned_God).(wiki:Aeron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1) When drowning his [acolytes](wiki:Drowned_men), he wears only a [sealskin](wiki:Seal) clout to cover his privates.(wiki:Aeron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2) Aeron carries a waterskin filled with seawater, which he uses to bless those who desire it.(wiki:Aeron_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
+> Aeron Damphair was waiting for him in the surf … The priest was gaunt and tall, though shorter than Victarion. His nose rose like a shark's fin from a bony face, and his eyes were iron. His beard reached to his waist, and tangled ropes of hair slapped at the back of his legs when the wind blew.
+
+— [Victarion Greyjoy](victarion-greyjoy) arriving at Nagga's Cradle, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:53`)
+
 Aeron was once an amiable man, fond of songs, [ale](wiki:Ale), and women.(wiki:Aeron_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) At the age of sixteen he sang, danced, japed, played the [pipes](wiki:Reed_pipes), juggled, and rode [horses](wiki:Horse).(wiki:Aeron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3) Aeron's transformation has made him devoutly devoted to the god in his watery halls, however. He is now a dour, humorless man who views every breath as a gift that is wasted if it is not used to extol the virtues of following the Drowned God's path.(wiki:Aeron_Greyjoy.cite_ref-Rrpggreenronin.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 
 Aeron considers himself a prophet(wiki:Aeron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4) who can hear the Drowned God.(wiki:Aeron_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) He attributes discord in the [Iron Islands](wiki:Iron_Islands) to the hated [Storm God](wiki:Storm_God).(wiki:Aeron_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) Aeron sometimes swallows salt water to strength his faith.(wiki:Aeron_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)(wiki:Aeron_Greyjoy.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
@@ -107,6 +111,14 @@ Aeron is later taken to a captured island castle located near the [Arbor](wiki:A
 > I have my voice, and [the god](wiki:Drowned_God) is with me. Mine is the strength of the sea, a strength the [Crow's Eye](wiki:Euron_Greyjoy) cannot hope to withstand. The waves may break upon the mountain, yet still they come, wave upon wave, and in the end only pebbles remain where once the mountain stood. And soon even the pebbles are swept away, to be ground beneath the sea for all eternity.(wiki:Aeron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
 >
 > —Aeron to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+
+> "Euron's blasphemies will bring down the Drowned God's wroth upon us all. We must stop him, brother. We are still of Balon's blood, are we not?"
+
+— [Aeron Damphair](aeron-greyjoy) to [Victarion Greyjoy](victarion-greyjoy) on Old Wyk after the kingsmoot, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:75`)
+
+> "Not mine," the priest declared. "The Drowned God helps bold men, not those who cower below their decks when the storm is rising. If you will not bestir yourself to remove the Crow's Eye from the Seastone Chair, I must take the task upon myself."
+
+— [Aeron Damphair](aeron-greyjoy) to [Victarion Greyjoy](victarion-greyjoy) refusing to accept Euron's kingship, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:87`)
 
 > The [ironborn](wiki:Ironborn) shall be waves ... Not the great and lordly, but the [simple folk](wiki:Smallfolk), tillers of the soil and fishers of the sea. The captains and the kings raised [Euron](wiki:Euron_Greyjoy) up, but the common folk shall tear him down. I shall go to [Great Wyk](wiki:Great_Wyk), to [Harlaw](wiki:Harlaw), to [Orkmont](wiki:Orkmont), to [Pyke](wiki:Pyke_(island)) itself. In every town and village shall my words be heard. No godless man may sit the [Seastone Chair](wiki:Seastone_Chair)(wiki:Aeron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
 >

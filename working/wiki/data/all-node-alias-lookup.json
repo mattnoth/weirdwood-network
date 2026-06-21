@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-20T21:48:01.534354+00:00",
+  "computed_at": "2026-06-21T03:15:10.928436+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -1141,6 +1141,14 @@
         "source": "all-node-slug:concepts"
       }
     ],
+    "aeron calls the kingsmoot": [
+      {
+        "canonical_slug": "kingsmoot-on-old-wyk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "aeron damphair": [
       {
         "canonical_slug": "aeron-greyjoy",
@@ -1165,12 +1173,52 @@
         "source": "node-name"
       }
     ],
+    "aeron damphair's vow": [
+      {
+        "canonical_slug": "aeron-vows-to-raise-the-ironborn-smallfolk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "aeron disappears from old wyk": [
+      {
+        "canonical_slug": "aeron-vows-to-raise-the-ironborn-smallfolk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "aeron greyjoy": [
       {
         "canonical_slug": "aeron-greyjoy",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "aeron turns against euron": [
+      {
+        "canonical_slug": "aeron-vows-to-raise-the-ironborn-smallfolk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "aeron vows to raise the ironborn smallfolk": [
+      {
+        "canonical_slug": "aeron-vows-to-raise-the-ironborn-smallfolk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "aeron vows to raise the smallfolk": [
+      {
+        "canonical_slug": "aeron-vows-to-raise-the-ironborn-smallfolk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "aeryn targaryen": [
@@ -3903,12 +3951,92 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "asha claims the kingsmoot": [
+      {
+        "canonical_slug": "asha-claims-the-kingsmoot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "asha claims the seastone chair": [
+      {
+        "canonical_slug": "asha-claims-the-kingsmoot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "asha greyjoy": [
       {
         "canonical_slug": "asha-greyjoy",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "asha makes her claim": [
+      {
+        "canonical_slug": "asha-claims-the-kingsmoot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "asha married in absentia": [
+      {
+        "canonical_slug": "euron-weds-asha-to-erik-ironmaker-in-absentia",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "asha wed by proxy": [
+      {
+        "canonical_slug": "euron-weds-asha-to-erik-ironmaker-in-absentia",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "asha's claim at the kingsmoot": [
+      {
+        "canonical_slug": "asha-claims-the-kingsmoot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "asha's forced marriage": [
+      {
+        "canonical_slug": "euron-weds-asha-to-erik-ironmaker-in-absentia",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "asha's queensmoot": [
+      {
+        "canonical_slug": "asha-claims-the-kingsmoot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "asha's third way": [
+      {
+        "canonical_slug": "asha-claims-the-kingsmoot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "asha's wayward marriage": [
+      {
+        "canonical_slug": "euron-weds-asha-to-erik-ironmaker-in-absentia",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "ashara dayne": [
@@ -3965,6 +4093,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "assassination of balon greyjoy": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "assassination of symon silver tongue": [
@@ -4709,6 +4845,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "balon falls at pyke": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "balon falls from the bridge": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "balon greyjoy": [
       {
         "canonical_slug": "balon-greyjoy",
@@ -4717,12 +4869,28 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "balon greyjoy dies": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "balon greyjoy theories": [
       {
         "canonical_slug": "balon-greyjoy-theories",
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-slug:theories"
+      }
+    ],
+    "balon greyjoy's death": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "balon greyjoy/theories": [
@@ -16865,6 +17033,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "damphair's resistance": [
+      {
+        "canonical_slug": "aeron-vows-to-raise-the-ironborn-smallfolk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "dance of the dragons": [
       {
         "canonical_slug": "the-dance-of-the-dragons",
@@ -18525,6 +18701,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "death of balon greyjoy": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "death of dontos hollard": [
       {
         "canonical_slug": "killing-of-dontos-hollard",
@@ -18600,6 +18784,14 @@
     "death of shae": [
       {
         "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of the iron king": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -23051,12 +23243,36 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "euron claims the seastone chair": [
+      {
+        "canonical_slug": "euron-seizes-the-seastone-chair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron commissions victarion to fetch daenerys": [
+      {
+        "canonical_slug": "euron-commissions-victarion-to-fetch-daenerys",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "euron crow's eye": [
       {
         "canonical_slug": "euron-greyjoy",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "euron crow's eye claims the crown": [
+      {
+        "canonical_slug": "euron-seizes-the-seastone-chair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "euron croweye": [
@@ -23067,12 +23283,156 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "euron drowns sawane botley": [
+      {
+        "canonical_slug": "euron-seizes-the-seastone-chair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron gives victarion the dragonhorn": [
+      {
+        "canonical_slug": "euron-commissions-victarion-to-fetch-daenerys",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "euron greyjoy": [
       {
         "canonical_slug": "euron-greyjoy",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "euron hunts aeron": [
+      {
+        "canonical_slug": "euron-hunts-aeron-damphair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron hunts aeron damphair": [
+      {
+        "canonical_slug": "euron-hunts-aeron-damphair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "euron hunts the damphair": [
+      {
+        "canonical_slug": "euron-hunts-aeron-damphair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron invades the reach": [
+      {
+        "canonical_slug": "taking-of-the-shields",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron is chosen king": [
+      {
+        "canonical_slug": "kingsmoot-on-old-wyk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron marries off asha": [
+      {
+        "canonical_slug": "euron-weds-asha-to-erik-ironmaker-in-absentia",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron returns from exile": [
+      {
+        "canonical_slug": "euron-seizes-the-seastone-chair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron seizes the seastone chair": [
+      {
+        "canonical_slug": "euron-seizes-the-seastone-chair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "euron sends victarion to slaver's bay": [
+      {
+        "canonical_slug": "euron-commissions-victarion-to-fetch-daenerys",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron takes pyke": [
+      {
+        "canonical_slug": "euron-seizes-the-seastone-chair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron takes the shield islands": [
+      {
+        "canonical_slug": "taking-of-the-shields",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron weds asha to erik ironmaker": [
+      {
+        "canonical_slug": "euron-weds-asha-to-erik-ironmaker-in-absentia",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron weds asha to erik ironmaker in absentia": [
+      {
+        "canonical_slug": "euron-weds-asha-to-erik-ironmaker-in-absentia",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "euron wins the kingsmoot": [
+      {
+        "canonical_slug": "kingsmoot-on-old-wyk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron's hunt for aeron": [
+      {
+        "canonical_slug": "euron-hunts-aeron-damphair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "euron's mission to fetch the dragon queen": [
+      {
+        "canonical_slug": "euron-commissions-victarion-to-fetch-daenerys",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "euron's mongrel sons": [
@@ -41053,6 +41413,38 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "ironborn attack the shield islands": [
+      {
+        "canonical_slug": "taking-of-the-shields",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ironborn choose a king": [
+      {
+        "canonical_slug": "kingsmoot-on-old-wyk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ironborn raid the reach": [
+      {
+        "canonical_slug": "taking-of-the-shields",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ironborn shall be waves": [
+      {
+        "canonical_slug": "aeron-vows-to-raise-the-ironborn-smallfolk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "ironfoot": [
       {
         "canonical_slug": "urras-greyiron",
@@ -41067,6 +41459,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "ironmaker searches for the damphair": [
+      {
+        "canonical_slug": "euron-hunts-aeron-damphair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "ironman's bay": [
@@ -45479,6 +45879,20 @@
         "node_category": "concepts",
         "node_type": "concept.culture",
         "source": "all-node-slug:concepts"
+      },
+      {
+        "canonical_slug": "kingsmoot-on-old-wyk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "kingsmoot at nagga's hill": [
+      {
+        "canonical_slug": "kingsmoot-on-old-wyk",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "kingsmoot on old wyk": [
@@ -59421,6 +59835,14 @@
         "source": "node-slug"
       }
     ],
+    "murder of balon greyjoy": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "murder of elia martell and rhaegar's children": [
       {
         "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
@@ -66679,6 +67101,14 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "queensmoot": [
+      {
+        "canonical_slug": "asha-claims-the-kingsmoot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "queer qarl kenning": [
       {
         "canonical_slug": "qarl-kenning",
@@ -72987,6 +73417,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "search for aeron damphair": [
+      {
+        "canonical_slug": "euron-hunts-aeron-damphair",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "seashell knight": [
@@ -85807,6 +86245,14 @@
         "source": "node-slug"
       }
     ],
+    "victarion's dragon-quest": [
+      {
+        "canonical_slug": "euron-commissions-victarion-to-fetch-daenerys",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "victarion-orders-kerwin-killed": [
       {
         "canonical_slug": "killing-of-maester-kerwin",
@@ -88375,6 +88821,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "who killed balon greyjoy": [
+      {
+        "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "whore (weapon)": [
       {
         "canonical_slug": "whore-weapon",
@@ -90877,8 +91331,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18727,
-    "unique_phrases": 11261
+    "total_node_entries": 18796,
+    "unique_phrases": 11317
   },
   "version": "v1"
 }

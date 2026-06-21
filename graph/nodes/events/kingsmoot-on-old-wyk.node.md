@@ -1,8 +1,8 @@
 ---
 name: "Kingsmoot on Old Wyk"
-type: event.battle
+type: event.ceremony
 slug: kingsmoot-on-old-wyk
-aliases: []
+aliases: ["the Kingsmoot", "the kingsmoot on Old Wyk", "Euron wins the kingsmoot", "Euron is chosen king", "Aeron calls the kingsmoot", "the ironborn choose a king", "kingsmoot at Nagga's Hill"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Kingsmoot_on_Old_Wyk"
 bucket_id: tier3-pathb-events
@@ -19,10 +19,11 @@ occurred:
 
 ## Identity
 
-Kingsmoot on Old Wyk is a battle/event from the AWOIAF wiki.
+The Kingsmoot on Old Wyk is the assembly of ironborn captains and kings convened on the holy isle of [Old Wyk](old-wyk) at [Nagga's Hill](naggas-hill) to choose a successor after [Balon Greyjoy's death](death-of-balon-greyjoy) — the first true kingsmoot held in thousands of years. [Aeron Damphair](aeron-greyjoy) summons it in the name of the Drowned God to deny the godless [Euron Greyjoy](euron-greyjoy), who has already [seized the Seastone Chair](euron-seizes-the-seastone-chair). [Asha Greyjoy](asha-greyjoy) (offering peace and the north) and [Victarion Greyjoy](victarion-greyjoy) (offering to finish Balon's war) both stake claims, but Euron wins the driftwood crown by sounding the Valyrian dragon-horn [Dragonbinder](dragonbinder) and promising to conquer all of Westeros. Retyped from `event.battle` to `event.ceremony` (S116) — it is an election/assembly, not an armed engagement.
 
 ## Edges
 
+(Causal/role edges live in `graph/edges/edges.jsonl`, S116 causal-arc track. CAUSED by [Euron's seizure of the Seastone Chair](euron-seizes-the-seastone-chair) (Tier-2 — Aeron calls it to challenge the godless claim). Participants: [Euron Greyjoy](euron-greyjoy) (AGENT_IN — the chosen king), [Aeron Greyjoy](aeron-greyjoy) (AGENT_IN — caller and crowner), [Asha Greyjoy](asha-greyjoy) and [Victarion Greyjoy](victarion-greyjoy) (AGENT_IN — rival claimants), all Tier-1. The kingsmoot CAUSES the [taking of the Shields](taking-of-the-shields) (Tier-2 — Euron's promised invasion of the Reach).)
 
 ## Origins
 
@@ -43,6 +44,14 @@ Euron sails with the loyal [ironborn](wiki:Ironborn) and the [Iron Fleet](wiki:I
 ## Quotes
 
 Seek the [hill of Nagga](wiki:Nagga's_hill) and the bones of the [Grey King's Hall](wiki:Grey_King's_Hall), for in that holy place when the moon has drowned and come again we shall make ourselves a worthy king, a godly king. Listen! Listen to the waves! Listen to [the god](wiki:Drowned_God)! He is speaking to us, and he says, We shall have no king but from the [kingsmoot](wiki:Kingsmoot)!(wiki:Kingsmoot_on_Old_Wyk.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+
+> That night the men of the Iron Fleet raised a huge sailcloth tent above the tideline, so Victarion might feast half a hundred famous captains on roast kid, salted cod, and lobster. Aeron came as well. He ate fish and drank water, whilst the captains quaffed enough ale to float the Iron Fleet.
+
+— [Victarion Greyjoy](victarion-greyjoy)'s pre-kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:73`)
+
+> Dark clouds ran before the wind as the first light stole into the world … Beneath them, thralls and salt wives begin to move about, stirring coals into new life and gutting fish for the captains and the kings to break their fasts. The dawnlight touched the stony strand, and he watched men wake from sleep, throwing aside their sealskin blankets as they called for their first horn of ale.
+
+— [Aeron Damphair](aeron-greyjoy) at dawn before the kingsmoot, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:27`)
 The [Drowned God](wiki:Drowned_God) must have shoved a pricklefish up [Uncle Aeron's](wiki:Aeron_Greyjoy) arse. A [kingsmoot](wiki:Kingsmoot)? Is this some jape, or does he mean it truly?(wiki:Kingsmoot_on_Old_Wyk.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 [Balon](wiki:Balon_Greyjoy) is dead ... but an [iron king](wiki:Iron_king) shall rise again, to sit upon the [Seastone Chair](wiki:Seastone_Chair) and rule [the isles](wiki:Iron_Islands).(wiki:Kingsmoot_on_Old_Wyk.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-29)
 Peace. Land. Victory. I'll give you [Sea Dragon Point](wiki:Sea_Dragon_Point) and the [Stony Shore](wiki:Stony_Shore), black earth and tall trees and stones enough for every younger son to build a hall. We'll have the [northmen](wiki:Northmen) too ... as friends, to stand with us against the [Iron Throne](wiki:Iron_Throne). Your choice is simple. Crown me, for peace and victory. Or crown [my nuncle](wiki:Victarion_Greyjoy), for more war and more defeat.(wiki:Kingsmoot_on_Old_Wyk.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-30)
