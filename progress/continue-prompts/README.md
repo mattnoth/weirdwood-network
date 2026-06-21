@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-21 (refreshed after S118)  
+**Generated:** 2026-06-21 (refreshed after S119)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-21-essos-container-decomposition.md` | 2026-06-21 | ESSOS container: decomposition dip → build junctures (major-arc backlog #2) | **LIVE** | Sonnet 4.6 | **S118.** The next big build. **step 1** = Essos decomposition dip (WO5K template → `working/essos-decomposition.md`): rank Dany-thread junctures (Drogo's-death/dragon-birth → Slaver's-Bay → Meereen) + first-class Westeros↔Essos bridges (Robert's assassination order→Dany; Illyrio↔Varys; Jorah-channel; the Quentyn "Fire and blood" pact). **step 2** = build ranked junctures one at a time via the arc-mint machine (archived `2026-06-18-causal-arc-execution.md`). Auto-joins the pre-placed S116 bridge `euron-commissions-victarion-to-fetch-daenerys`; unblocks parked harvest rows 149–152, 204, 209–210. |
+| `2026-06-21-essos-container-decomposition.md` | 2026-06-21 | ESSOS container: build remaining junctures (E3 next, then E5) — major-arc backlog #2 | **LIVE** | Sonnet 4.6 | **Updated S119.** Decomposition DONE (`working/essos-decomposition.md`, 8 junctures E1–E8) + **E4+E1+E2 BUILT** (the whole Dany spine was causally dark; now walks order→dragon-birth and Astapor→Hizdahr-marriage; +5 nodes incl. `death-of-khal-drogo`, +23 edges). **NEXT = E3** (Daznak's Pit → Drogon flees → lost on the Dothraki sea, ~3 mints, ADWD terminus; roots at `wedding-of-hizdahr`), **then E5** (Doran-pact → Quentyn, closes the S117 Dorne arc; unblocks parked harvest rows 204/209/210). Lower: E6/E7/E8 bridges. Harvest-consume pass DUE (~30 open). Arc-mint machine: archived `2026-06-18-causal-arc-execution.md` + the S119 `mint_essos_*` scripts. |
 
 ---
 

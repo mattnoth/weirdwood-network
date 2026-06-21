@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-21T04:33:01.257520+00:00",
+  "generated_at": "2026-06-21T16:04:12.555691+00:00",
   "entity_type": "events",
   "dry_run": false,
   "entity_count": 1,
   "type_counts": {
-    "event.capture": 1
+    "event.assassination": 1
   },
   "entities_with_zero_mentions": 1,
   "mention_inverse_slugs": 0,
   "top_by_appearances": [
     {
-      "slug": "arrest-of-the-sand-snakes",
-      "name": "Arrest of the Sand Snakes",
-      "type": "event.capture",
+      "slug": "ned-orders-daenerys-s-assassination-cancelled",
+      "name": "Ned orders Daenerys's assassination cancelled",
+      "type": "event.assassination",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,
@@ -21,9 +21,9 @@
   ],
   "top_by_in_edges": [
     {
-      "slug": "arrest-of-the-sand-snakes",
-      "name": "Arrest of the Sand Snakes",
-      "type": "event.capture",
+      "slug": "ned-orders-daenerys-s-assassination-cancelled",
+      "name": "Ned orders Daenerys's assassination cancelled",
+      "type": "event.assassination",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,

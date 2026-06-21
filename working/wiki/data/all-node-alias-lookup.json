@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-21T04:33:01.635668+00:00",
+  "computed_at": "2026-06-21T16:04:12.928880+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -4167,6 +4167,14 @@
         "source": "all-node-slug:titles"
       }
     ],
+    "assassination attempt at vaes dothrak": [
+      {
+        "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "assassination of balon greyjoy": [
       {
         "canonical_slug": "death-of-balon-greyjoy",
@@ -4317,6 +4325,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "attempt on daenerys at the western market": [
+      {
+        "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "aubrey ambrose": [
@@ -7833,6 +7849,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "birth of the dragons": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "bitch queen": [
       {
         "canonical_slug": "rhaenyra-targaryen",
@@ -8789,6 +8813,14 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-name:species"
+      }
+    ],
+    "blood-magic ritual": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "bloodbeard": [
@@ -16539,6 +16571,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "daenerys smothers drogo": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "daenerys targaryen": [
       {
         "canonical_slug": "daenerys-targaryen",
@@ -16577,6 +16617,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "daenerys walks into the fire": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "daenerys-stormborn": [
@@ -18405,6 +18453,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "dany ends drogo's life": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "dany's heart-eating": [
       {
         "canonical_slug": "stallion-heart-ceremony",
@@ -18805,6 +18861,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "death of drogo": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "death of joffrey": [
       {
         "canonical_slug": "death-of-joffrey-baratheon",
@@ -18816,6 +18880,14 @@
     "death of joffrey baratheon": [
       {
         "canonical_slug": "death-of-joffrey-baratheon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "death of khal drogo": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -20411,6 +20483,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "dragon hatching on drogo pyre": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "dragon horn": [
       {
         "canonical_slug": "dragonbinder",
@@ -20639,12 +20719,44 @@
         "source": "all-node-name:artifacts"
       }
     ],
+    "dragons are born": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "dragons born on the pyre": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "dragons breath": [
       {
         "canonical_slug": "dragons-breath",
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-slug:species"
+      }
+    ],
+    "dragons hatch": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "dragons hatch on drogo's pyre": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "dragons mechanical": [
@@ -20903,6 +21015,62 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "drogo blood magic ritual": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "drogo dies": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogo pledges to cross the poison water": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogo swears to take the seven kingdoms": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogo vows to cross the sea": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogo westward vow": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "drogo's death": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "drogo's khalasar": [
       {
         "canonical_slug": "drogos-khalasar",
@@ -20919,6 +21087,22 @@
         "source": "all-node-name:locations"
       }
     ],
+    "drogo's oath to invade westeros": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogo's pyre": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "drogo's red": [
       {
         "canonical_slug": "drogos-stallion",
@@ -20933,6 +21117,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-name:characters"
+      }
+    ],
+    "drogo's vow": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogo's westward vow": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "drogon": [
@@ -21779,6 +21979,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "eddard countermands the order to kill daenerys": [
+      {
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "eddard karstark": [
@@ -33851,6 +34059,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "hatching of the dragons": [
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "hathay": [
       {
         "canonical_slug": "hathay",
@@ -40951,6 +41167,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "i want them dead mother and child both": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "ib": [
       {
         "canonical_slug": "ib",
@@ -44797,6 +45021,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "khal dies": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "khal jhaqo": [
@@ -48835,6 +49067,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "let her live": [
+      {
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "let me drink your beauty": [
@@ -54975,6 +55215,14 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "lyseni wine merchant": [
+      {
+        "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "lysono maar": [
       {
         "canonical_slug": "lysono-maar",
@@ -55213,6 +55461,14 @@
         "node_category": "concepts",
         "node_type": "concept.magic",
         "source": "all-node-slug:concepts"
+      }
+    ],
+    "maegi's dark magic on drogo": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "maegon targaryen": [
@@ -57827,6 +58083,14 @@
         "source": "node-name"
       }
     ],
+    "mercy killing of drogo": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "mercy the winds of winter": [
       {
         "canonical_slug": "mercy-the-winds-of-winter",
@@ -58549,6 +58813,46 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "mirri maz duur heals drogo": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "mirri maz duur's blood magic": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "mirri maz duur's blood-magic ritual": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "mirri maz duur's ritual": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "mirri's spell to save drogo": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "misery, the white worm": [
@@ -59539,6 +59843,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "mother of mountains": [
@@ -60729,6 +61039,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "ned calls off the assassins": [
+      {
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ned cancels daenerys's assassination": [
+      {
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "ned claims the execution": [
       {
         "canonical_slug": "ned-claims-the-execution",
@@ -60817,6 +61143,14 @@
         "source": "node-slug"
       }
     ],
+    "ned orders the assassination cancelled": [
+      {
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "ned procures the gold cloaks via littlefinger": [
       {
         "canonical_slug": "ned-orders-janos-slynt-to-arrest-cersei",
@@ -60831,6 +61165,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "ned tries to call off the killers": [
+      {
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "ned woods": [
@@ -62889,6 +63231,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "only death can pay for life": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "onqo": [
       {
         "canonical_slug": "onqo",
@@ -62999,6 +63349,22 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      }
+    ],
+    "order to kill daenerys": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "order to murder the targaryen children": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "orell": [
@@ -65265,12 +65631,28 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "poisoned arbor wine": [
+      {
+        "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "poisoned locusts": [
       {
         "canonical_slug": "poisoned-locusts",
         "node_category": "foods",
         "node_type": "object.food",
         "source": "all-node-slug:foods"
+      }
+    ],
+    "poisoned wine attempt": [
+      {
+        "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "poisoner": [
@@ -70037,6 +70419,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "ritual to heal drogo": [
+      {
+        "canonical_slug": "drogo-blood-magic-ritual",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "river arrow": [
       {
         "canonical_slug": "river-arrow",
@@ -70483,6 +70873,46 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "robert orders daenerys assassination": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "robert orders daenerys killed": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robert orders daenerys's assassination": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "robert orders the assassination of daenerys": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robert orders the targaryen girl killed": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "robert paege": [
       {
         "canonical_slug": "robert-paege",
@@ -70577,6 +71007,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "robert's assassination order": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robert's change of heart about daenerys": [
+      {
+        "canonical_slug": "ned-orders-daenerys-s-assassination-cancelled",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "robert's rebellion": [
@@ -76311,6 +76757,14 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "small council votes to kill daenerys": [
+      {
+        "canonical_slug": "robert-orders-daenerys-assassination",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "small hall": [
       {
         "canonical_slug": "small-hall",
@@ -77353,6 +77807,14 @@
         "node_category": "concepts",
         "node_type": "concept.prophecy",
         "source": "all-node-slug:concepts"
+      }
+    ],
+    "stallion who mounts the world vow": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "stalwart shield": [
@@ -86765,6 +87227,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "vow before the mother of mountains": [
+      {
+        "canonical_slug": "drogo-westward-vow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "vow unspoken": [
       {
         "canonical_slug": "the-vow-unspoken",
@@ -89021,6 +89491,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "who killed khal drogo": [
+      {
+        "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "whore (weapon)": [
       {
         "canonical_slug": "whore-weapon",
@@ -89817,6 +90295,14 @@
         "source": "all-node-slug:foods"
       }
     ],
+    "wine merchant attempts to poison daenerys": [
+      {
+        "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "wine merchant attempts to poison dany": [
       {
         "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
@@ -89847,6 +90333,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "wineseller tries to poison dany": [
+      {
+        "canonical_slug": "the-wine-merchant-attempts-to-poison-dany",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "winesink": [
@@ -91523,8 +92017,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18826,
-    "unique_phrases": 11341
+    "total_node_entries": 18892,
+    "unique_phrases": 11402
   },
   "version": "v1"
 }

@@ -1,81 +1,82 @@
-# Continue — ESSOS container: decomposition dip → build junctures (major-arc backlog #2)
+# Continue — ESSOS container: build remaining junctures (E3 next, then E5) — major-arc backlog #2
 
-> **Recommended model:** Sonnet 4.6 (orchestration + research/verify subagents). This is a BIG build — a whole
-> continent-thread, too large for one arc. Treat it as a CONTAINER: it earns its own **decomposition research dip**
-> first (the WO5K template), THEN you build its ranked junctures one at a time, dip-gated, via the proven arc-mint
-> machine. Do NOT try to mint the whole thing in one pass.
+> **Recommended model:** Sonnet 4.6 (orchestration + research/verify subagents). The ESSOS container is
+> decomposed and its first 3 junctures are built; this prompt resumes the build of the remaining ranked
+> junctures, one at a time, dip-gated, via the proven arc-mint machine. Do NOT mint the rest in one pass.
 
-> **State trust (CLAUDE.md rule #9):** `worklog.md` is authoritative. As of S118: nodes **8,562** · edges **22,342** ·
-> live edge types **132** · vocab **169** · harvest queue **0 open / 12 parked / 112 done**. The AFFC causal-arc spine
-> phase is COMPLETE (all 4 fumbles built S114–S117). S118 was a hygiene session (ATTENDS cleanup + harvest) — no arc work.
+> **State trust (CLAUDE.md rule #9):** `worklog.md` is authoritative. As of **S119**: nodes **8,567** ·
+> edges **22,365** · edge types **132** · vocab **169**. The ESSOS **decomposition is DONE**
+> (`working/essos-decomposition.md` — 8 ranked junctures E1–E8) and **E4 + E1 + E2 are BUILT + verified**
+> (the whole Daenerys spine was causally dark at S119 start; it now walks from Robert's assassination
+> order → the dragon birth, and Astapor → the Hizdahr marriage).
 
 ## Vocabulary to paste into subagents (they don't load CLAUDE.md)
 Pass (numbered corpus sweep) · Track (named workstream) · step (lowercase ordered piece) · Tier (confidence 1–5 ONLY).
 Source: `reference/glossary.md`.
 
----
+## What's already built (do NOT rebuild — dedup-check first)
+- **E4** (bridge): `robert-orders-daenerys-assassination CAUSES the-wine-merchant-attempts-to-poison-dany CAUSES drogo-westward-vow`. (Standalone root; `ned-orders-daenerys-s-assassination-cancelled` deliberately has NO causal upstream — its cause is Robert's unmodeled deathbed change of heart.)
+- **E1** (dragon birth): `drogo-westward-vow ENABLES drogo-blood-magic-ritual CAUSES death-of-khal-drogo CAUSES dragon-hatching-on-drogo-pyre`; `mirri-maz-duur SACRIFICES rhaego`; `the-wine-merchant-attempts-to-poison-dany MOTIVATES drogo`.
+- **E2** (Slaver's Bay): `fall-of-astapor ENABLES battle-near-yunkai ENABLES siege-of-meereen`; `siege-of-meereen MOTIVATES daenerys-targaryen` + `CAUSES sons-of-the-harpy-kill-twenty-nine`; `sons-of-the-harpy-kill-twenty-nine MOTIVATES daenerys-targaryen` + `TRIGGERS wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen`.
 
-## step 1 — the ESSOS decomposition dip (read-only research → `working/essos-decomposition.md`)
+## NEXT — E3 (Meereen stalemate → Daznak's Pit → Drogon flees → Dany lost on the Dothraki sea)
 
-Mirror `working/wo5k-decomposition.md`. A research subagent (reading the LOCAL book + wiki cache — **never fetch**)
-enumerates and **magnitude-ranks** Essos's load-bearing causal junctures + the first-class Westeros↔Essos bridges.
-Output a ranked, buildable juncture list (each: the beat(s), candidate edge(s), local upstream root, dedup-check of
-existing nodes, verbatim quote pointers). Do NOT mint anything in this step.
+The ADWD terminus of Dany's published arc. Scored 11/12 in the decomposition. **~3 mints + 4–5 edges.**
+Roots at E2's terminus `wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen` (the wedding's fighting-pit
+reopening is the concession that brings Drogon back into the arena). Per the arc-mint machine:
 
-**Essos spine (Dany thread) — candidate junctures to enumerate/rank:**
-- Drogo's death + Dany's failed resurrection of him (Mirri Maz Duur) → **the dragons hatch on Drogo's pyre** (the
-  prime mover of the whole Essos arc).
-- Slaver's Bay campaign: **fall of Astapor** (the Unsullied / "Dracarys") → **Yunkai** → **conquest/occupation of
-  Meereen** → the stalemate + the Sons of the Harpy insurgency.
-- Drogon's flight from the pit (Daznak's) → Dany lost on the Dothraki sea (ADWD endpoint).
-- The Quentyn-to-Meereen thread (his quest → the dragons → his death) — joins the Dorne "Fire and blood" pact.
+**Mints (dedup-check each first via `event_alias_resolver.py --lookup` + `ls graph/nodes/events/ | grep`):**
+- `drogon-returns-to-daznak-pit` (event.incident; ADWD Daenerys IX — Drogon descends on the pit, kills Barsena, the spearman attacks, chaos).
+- `dany-mounts-drogon-and-flees-meereen` (event.incident; ADWD Daenerys IX; evidence pointer adwd-daenerys-09:55 "North they flew … nothing beneath them but grass").
+- `dany-lost-on-dothraki-sea` (event.incident; ADWD Daenerys X — barefoot in the grass, the Dothraki sea; the published terminus).
 
-**First-class Westeros↔Essos BRIDGES (Matt: bridges are first-class, S112) — these are the high-value cross-book joins:**
-- **Robert's assassination order → Daenerys.** MINT `robert-orders-daenerys-assassination` (only the Ned-cancels-it
-  version exists in-graph; the order itself is unmodeled — harvest row 149, agot-eddard-08:13 "I want them dead, mother
-  and child both"). Its downstream: the wine-merchant attempt → **Drogo's westward vow** (harvest row 150,
-  agot-daenerys-06:179) → motivates the Dothraki-cross-the-sea thread.
-- **Illyrio ↔ Varys conspiracy** (harvest row 151, agot-arya-03:89-93 "If one Hand can die, why not a second?"). An
-  edge (`CONSPIRES_WITH`) anchoring the Pentoshi-magisters' long game.
-- **Jorah informs for Varys/Robert** — DEMOTED to an `INFORMS`/`SPIES_ON` dyad (information channel, NOT a causal arc;
-  harvest row 152, agot-daenerys-07:147).
-- **Euron commissions Victarion to fetch Daenerys** — node **already minted in-place S116**
-  (`euron-commissions-victarion-to-fetch-daenerys`, downstream dark). The Essos arc connects its spine here
-  (cross-book auto-join — just tag the attach-point).
-- **The Quentyn / Dorne "Fire and blood" pact** — Doran's onyx-dragon reveal (parked harvest row 209). The Dorne→Essos
-  marriage-pact bridge; joins the Dorne arc (S117) to Quentyn's Meereen quest.
+**Existing Daznak nodes to wire (all EXIST, all causally dark) — dedup, don't re-mint:**
+`hizdahr-orders-drogon-killed`, `drogon-kills-more-attackers`, `unnamed-spearman-attacks-drogon`,
+`quentyn-orders-the-attack` (the last is E5's, not E3). Consider `SUB_BEAT_OF drogon-returns-to-daznak-pit`
+for the existing pit-incident nodes.
 
-**Unblocks these PARKED harvest rows** (flip to `open` as their home nodes get built): 149 (Robert's order), 150
-(Drogo's vow), 151 (Varys-Illyrio), 152 (Jorah-channel), 204 (Golden Company/fAegon), 209 (Fire-and-blood pact),
-210 (Arianne↔Viserys betrothal). They're `parked (blocked: arc — Essos)` in `working/harvest-queue.md`.
+**Proposed spine (the research+verify subagent must adjudicate types — esp. wedding→Daznak):**
+`wedding-of-hizdahr CAUSES/ENABLES drogon-returns-to-daznak-pit TRIGGERS dany-mounts-drogon-and-flees-meereen CAUSES dany-lost-on-dothraki-sea`.
+The decomposition flagged `wedding→Daznak` as mediated (the pit-reopening concession, not the wedding
+itself) — let the verifier pick CAUSES vs ENABLES, as it did for E2's Astapor link.
 
-## step 2 — build the top-ranked junctures, ONE at a time, dip-gated (the arc-mint machine)
+## THEN — E5 (Doran's "Fire and blood" pact → Quentyn's quest → death of Quentyn Martell)
 
-The machine (proven 11× — RR/Bran/Sack/PW/B1/B2/B3/Tywin/Blackwater/J3/4×AFFC) is documented in the **archived**
-`progress/continue-prompts/archive/2026-06-18-causal-arc-execution.md` — restore/reference it. Per juncture:
+Closes the S117 Dorne arc cross-book into Essos. **~2 mints + 3–4 edges.** Scored 10/12.
+- Mint `doran-reveals-fire-and-blood-pact` (event.incident; AFFC Princess-in-the-Tower:325 "Fire and blood" — already a parked harvest row 209) and `death-of-quentyn-martell` (event.death; ADWD Dragontamer/Barristan).
+- Root at the S117-built `arianne-collapses-and-is-captured` (her imprisonment forces Doran's reveal).
+- `quentyn-orders-the-attack` EXISTS (0 causal) → `TRIGGERS death-of-quentyn-martell`.
+- `doran-reveals-fire-and-blood-pact` gets `doran-martell AGENT_IN` + `arianne-martell WITNESS_IN` (she load-bearingly sees the onyx-dragon reveal — text-anchor gate passes).
+- **Unblocks parked harvest rows 204 (Golden Company/fAegon), 209 (Fire-and-blood pact), 210 (Arianne↔Viserys betrothal).**
 
-1. **research subagent** (dedup-check existing nodes FIRST — Essos has many wiki nodes already; verbatim quotes;
-   edge proposals VERIFIED vs `edges.jsonl`, not node prose).
-2. **orchestrator** trims + mints via a `scripts/mint_*_arc.py` (backup to `_regrounding/` + re-run guard).
-3. **node aliases = natural SPACED phrases, not kebab** (S109 resolver lesson).
-4. targeted **index + alias-resolver rebuild** (a node was added → required; `weirwood refresh` / the rebuild scripts).
-5. **fresh-subagent verify** each interpretive/causal edge vs LOCAL cache (`verified_by: pending` until CONFIRM;
-   verifier adjudicates CAUSES vs TRIGGERS). Run `scripts/verify-edge-quotes.py` on any edge carrying a verbatim quote.
-6. `--causal-chain` **smoke test** + **root-check (machine step 5b)**: root at the **LOCAL antecedent**, not the deepest
-   hairnet ancestor; declare genuinely-standalone threads explicitly (Drogo's death is a plausible standalone prime mover,
-   like Balon's in S116).
-7. **harvest** — paste the harvest snippet (`working/harvest-queue.md` header) into every text-reading subagent.
+## Lower-priority remainder (after E3/E5)
+- **E6** (Euron→Victarion downstream): `euron-commissions-victarion-to-fetch-daenerys` (EXISTS, 1 upstream CAUSES from `taking-of-the-shields`, S116) → wire its dark downstream voyage (`slaver-galley-willing-maiden-captured` → `slavers-killed-rowers-freed`, both exist). Low salience (single POV).
+- **E7** (Illyrio/Varys): a `CONSPIRES_WITH` dyad on the character nodes + `arya-stark WITNESS_IN` — NOT a causal event arc. Verify dyad-vs-event-node shape first.
+- **E8** (Jorah informant): `INFORMS`/`SPIES_ON` dyad — NOT a causal arc.
 
-## Guardrails / rules (FIRM)
-- **Verify before inventing edge types.** Run `scripts/build-edge-type-counts.py` and check `reference/architecture.md`;
-  if a needed relation isn't in the locked vocab, reuse an existing type or file a worklog Active Decision — **never
-  invent silently** (S118 lesson: `GARRISONS`/`HELD_AT` weren't in vocab → used `PARTICIPATES_IN`).
-- **Unproven agency uses `SUSPECTED_OF` (Tier-2), never asserted as fact** (e.g. who poisoned whom).
-- **Cross-book auto-join** is automatic via shared nodes + `--causal-chain` — no umbrella/parent hubs (chain-as-arc,
-  S105/S106). Tag each juncture's local upstream attach-point.
-- Verification is FIRM (Matt): causal edges checked by **fresh subagents vs LOCAL cache**; Matt gates at policy, not per-edge.
+## The arc-mint machine (reuse for every juncture)
+1. **Research subagent** (read-only, LOCAL cache): dedup-check each candidate node (`event_alias_resolver.py --lookup` + grep `graph/nodes/events/`); gather VERBATIM `file:line` quotes; propose nodes + role/causal edges. **VERIFY claims against `edges.jsonl` / `graph-query.py --neighbors`, NOT stale node `## Edges` prose.** PASTE the harvest snippet (`working/harvest-queue.md` header) into the prompt.
+2. **Orchestrator** trims + mints via a `scripts/mint_essos_<juncture>_arc.py` (model on `scripts/mint_essos_e2_slavers_bay_arc.py`; backup `edges.jsonl` → `_regrounding/` + re-run guard). Write beat-node `.md` files directly (prose + `## Quotes` + **SPACED aliases, never kebab**).
+3. **Rebuild** indexes (`build-entity-indexes.py --type events --slug <s>`) + `event_alias_resolver.py --build` (a node was added → required).
+4. **Fresh-subagent verify** each causal/agency edge vs LOCAL cache (adjudicate CAUSES/TRIGGERS/ENABLES/MOTIVATES; `verified_by: pending` until CONFIRM, then stamp `subagent-local-source-check-<date>`). For a small wire (like E2) you can run research+verify as ONE pass before minting. **Re-pin every `evidence_ref` line against the actual chapter file — Sonnet drifts line numbers.**
+5. **Smoke-test** `graph-query.py --causal-chain <terminus>` + natural-phrase discoverability; **root-check (5b)**: root at the LOCAL antecedent or declare standalone in the worklog with a reason (NOTE: `--causal-chain` does NOT walk ENABLES, so an ENABLES hinge reads as a segment break — that's correct, not a bug).
+6. **Harvest sweep** — paste the harvest snippet into every text-reading subagent.
+
+## Guardrails (FIRM)
+- **Verify before inventing edge types** (`scripts/build-edge-type-counts.py` + `reference/architecture.md`); reuse existing or file a worklog Active Decision — never invent silently. E4/E1/E2 used only locked-vocab types.
+- **Unproven agency → `SUSPECTED_OF` (Tier-2), never asserted as fact.** Causal edges cap Tier-2; role edges Tier-1.
+- **Verification is FIRM (Matt):** causal edges checked by fresh subagents vs LOCAL cache; Matt gates at policy, not per-edge.
+
+## Flagged refinements (NOT blocking — → todos)
+- Mint a `sons-of-the-harpy-insurgency` **condition** node + demote `sons-of-the-harpy-kill-twenty-nine` to a `TRIGGERS` sub-beat of it (the incident node is currently overloaded as both occupation-consequence and marriage-driver — E2 verifier's biggest concern).
+- `battle-of-yunkai` is a redirect-stub dup of `battle-near-yunkai` (small-fixes).
+
+## Harvest pass DUE
+Queue is over the trigger (~30 open — the S119 decomp+verify+E2 subagents pushed rows). Several are Essos
+quotes for E3/E5 nodes not yet built (parked-by-arc — they home when those nodes are minted). Run a
+harvest-consume pass before or alongside E3.
 
 ## DO NOT
-Re-fetch the wiki (local cache only) · invent edge types (verify vocab first) · use kebab aliases (SPACED phrases only) ·
-assert unproven agency as fact (`SUSPECTED_OF`, Tier-2) · mint the whole container in one pass (decompose first, build
-junctures one at a time) · run `/endsession` without explicit permission.
+Re-fetch the wiki (local cache only) · invent edge types (verify vocab first) · use kebab aliases (SPACED
+phrases only) · assert unproven agency as fact (`SUSPECTED_OF`, Tier-2) · mint the whole container in one
+pass (one juncture at a time, dip-gated) · run `/endsession` without explicit permission.

@@ -1,0 +1,18 @@
+{
+  "slug": "drogo-westward-vow",
+  "name": "Drogo's westward vow",
+  "type": "event.ceremony",
+  "node_path": "graph/nodes/events/drogo-westward-vow.node.md",
+  "generated_at": "2026-06-21T16:04:10.860911+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}
