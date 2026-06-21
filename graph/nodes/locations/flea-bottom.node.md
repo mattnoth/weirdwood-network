@@ -65,6 +65,8 @@ In cheap pot-shops along the alleys one can get a '[bowl o' brown](wiki:Bowl_of_
 
 After escaping the [purge of House Stark](wiki:Arrest_of_Eddard_Stark) from the [Red Keep](wiki:Red_Keep), [Arya Stark](wiki:Arya_Stark) sleeps in rooftops and stables in Flea Bottom.(wiki:Flea_Bottom.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
+**Street food (agot-arya-05:19):** "A man was pushing a load of tarts by on a two-wheeled cart; the smells sang of blueberries and lemons and apricots." Arya tried to barter a fat pigeon for one; the vendor refused ("Three coppers"), and she could not afford it.
+
 ### A Clash of Kings
 
 Flea Bottom is set afire during the [riots in King's Landing](wiki:Riots_in_King's_Landing). [Tyrion Lannister](wiki:Tyrion_Lannister) tasks [Bronn](wiki:Bronn) and [Sandor Clegane](wiki:Sandor_Clegane) with having the water wagons protected so that the fire cannot reach the [Guildhall of the Alchemists](wiki:Guildhall_of_the_Alchemists).(wiki:Flea_Bottom.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)

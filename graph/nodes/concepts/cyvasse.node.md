@@ -49,7 +49,7 @@ Arianne Martell, on her way to [Jon Connington](wiki:Jon_Connington), loses in g
 
 ## Quotes
 
-Cyvasse, the game was called. It had come to the Planky Town on a trading galley from Volantis, and the orphans had spread it up and down the Greenblood. The Dornish court was mad for it. Ser Arys just found it maddening.[2]—thoughts of Arys Oakheart
+Cyvasse, the game was called. It had come to the Planky Town on a trading galley from Volantis, and the orphans had spread it up and down the Greenblood. The Dornish court was mad for it. Ser Arys just found it maddening.[2] (affc-the-soiled-knight-01:23–25) —thoughts of Arys Oakheart
 
 I hope Your Grace will pardon me. Your king is trapped. Death in four.[5]—Tyrion Lannister when defeating Young Griff
 

@@ -32,6 +32,12 @@ Their blazon is a green dragon biting its own tail on gold; formerly, a ghost (w
 
 During the First Dornish War, Lord Toland sent his mad fool as champion to face Aegon the Conqueror. After Aegon slew the man, he learned it was the Tolands' fool, while Lord Toland himself had escaped (wiki:House_Toland). The Dornishmen quickly recaptured Ghost Hill after Aegon departed. In 8 AC, Queen Visenya burned Ghost Hill from dragonback. During the Dragon's Wroth, Lady Toland was murdered for the Iron Throne's ransom on her head (wiki:House_Toland).
 
+## Quotes
+
+> "A dragon eating its own tail?" ... "The dragon is time. It has no beginning and no ending, so all things come round again." (affc-the-soiled-knight-01:269–271)
+>
+> —[Arys Oakheart](wiki:Arys_Oakheart) names the sigil ("A dragon eating its own tail?"); [Arianne Martell](wiki:Arianne_Martell) gives the meaning — on the arms of House Toland
+
 ## Edges
 
 - SEAT_OF (reverse): Ghost Hill (track_b: Seat)

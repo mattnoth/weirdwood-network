@@ -112,6 +112,10 @@ Doran has received a letter from Jon Connington stating that his sister Elia's s
 
 ### Quotes by Doran
 
+> He was slain in single combat during a trial by battle. By law, that is no murder. (affc-the-captain-of-guards-01:51)
+>
+> —Doran to [Obara Sand](wiki:Obara_Sand), on the death of [Oberyn Martell](wiki:Oberyn_Martell)
+
 > [My mother](wiki:Princess_of_Dorne_(mother_of_Doran)) taught me long ago that only madmen fight wars they cannot win.(wiki:Doran_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
 >
 > —Doran to [Arys Oakheart](wiki:Arys_Oakheart)
@@ -150,7 +154,7 @@ Doran has received a letter from Jon Connington stating that his sister Elia's s
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Though he was but two-and-fifty, Doran Martell seemed much older. His body was soft and shapeless beneath his linen robes, and his legs were hard to look upon. The gout had swollen and reddened his joints grotesquely; his left knee was an apple, his right a melon, and his toes had turned to dark red grapes, so ripe it seemed as though a touch would burst them. Even the weight of a coverlet could make him shudder, though he bore the pain without complaint. Silence is a prince's friend, the captain had heard him tell his daughter once. Words are like arrows, [Arianne](wiki:Arianne_Martell). Once loosed, you cannot call them back.(wiki:Doran_Martell.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-18)
+> Though he was but two-and-fifty, Doran Martell seemed much older. His body was soft and shapeless beneath his linen robes, and his legs were hard to look upon. The gout had swollen and reddened his joints grotesquely; his left knee was an apple, his right a melon, and his toes had turned to dark red grapes, so ripe it seemed as though a touch would burst them. Even the weight of a coverlet could make him shudder, though he bore the pain without complaint. Silence is a prince's friend, the captain had heard him tell his daughter once. Words are like arrows, [Arianne](wiki:Arianne_Martell). Once loosed, you cannot call them back.(wiki:Doran_Martell.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-18) (affc-the-captain-of-guards-01:59)
 >
 > —thoughts of [Areo Hotah](wiki:Areo_Hotah)
 
@@ -186,6 +190,12 @@ Doran has received a letter from Jon Connington stating that his sister Elia's s
 - PARENT_OF: Trystane Martell (cite: track_b: Issue)
 - SIBLING_OF: Elia Martell (cite: wiki:Doran_Martell)
 - SIBLING_OF: Oberyn Martell (cite: wiki:Doran_Martell)
+
+## Appearances & Description (book cite overlays)
+
+**Dornish table at Water Gardens (affc-the-captain-of-guards-01:153):** At supper beneath the orange trees, a serving man brought Doran a bowl of purple olives, with flatbread, cheese, and chickpea paste, and a cup of the sweet, heavy strongwine that he loved.
+
+**Norvoshi wintercake — Hotah's memory (affc-the-captain-of-guards-01:157):** Areo recalls "the taste of wintercake ... rich with ginger and pine nuts and bits of cherry, with nahsa to wash it down, fermented goat's milk served in an iron cup and laced with honey" — a Norvoshi memory surfacing while he sharpens his axe at the Water Gardens.
 
 ## Notes
 

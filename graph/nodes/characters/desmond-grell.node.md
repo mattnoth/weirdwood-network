@@ -73,9 +73,9 @@ After Jaime achieves the [surrender of Riverrun](wiki:Siege_of_Riverrun), Desmon
 >
 > —Desmond, [Utherydes Wayn](wiki:Utherydes_Wayn), and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> [This castle's](wiki:Riverrun) been my home for forty years. You say I'm free to go, but where? I'm too old and too stout to make a [hedge knight](wiki:Hedge_knight). But men are always welcome at the [Wall](wiki:Wall).(wiki:Desmond_Grell.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> [This castle's](wiki:Riverrun) been my home for forty years. You say I'm free to go, but where? I'm too old and too stout to make a [hedge knight](wiki:Hedge_knight). But men are always welcome at the [Wall](wiki:Wall).(wiki:Desmond_Grell.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1) (affc-jaime-07:215)
 >
-> —Desmond to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Desmond to [Jaime Lannister](wiki:Jaime_Lannister) *(Ser [Robin Ryger](wiki:Robin_Ryger), Riverrun's captain of guards, made the same choice in the same scene)*
 
 ### Quotes about Desmond
 

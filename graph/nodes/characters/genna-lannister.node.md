@@ -94,7 +94,7 @@ Edmure eventually surrenders Riverrun, but he allows his uncle Brynden to escape
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
-> Lady Genna claimed her stool with a look that dared any man there to question her presence. None did.(wiki:Genna_Lannister.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Lady Genna claimed her stool with a look that dared any man there to question her presence. None did.(wiki:Genna_Lannister.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3) (affc-jaime-06:131)
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 

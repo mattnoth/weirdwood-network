@@ -40,7 +40,7 @@ Like all of Oberyn's daughters, Sarella was armed by her father so that she woul
 
 ## Quotes
 
-> **Areo**: What of Sarella? She is a woman grown, almost twenty. **Doran**: Unless she returns to [Dorne](wiki:Dorne), there's naught I can do about Sarella save pray that she shows more sense than [her sisters](wiki:Sand_Snakes). Leave her to her... game.(wiki:Sarella_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> **Areo**: What of Sarella? She is a woman grown, almost twenty. **Doran**: Unless she returns to [Dorne](wiki:Dorne), there's naught I can do about Sarella save pray that she shows more sense than [her sisters](wiki:Sand_Snakes). Leave her to her... game.(wiki:Sarella_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) (affc-the-captain-of-guards-01:347)
 >
 > —[Areo Hotah](wiki:Areo_Hotah) and [Doran Martell](wiki:Doran_Martell)
 
@@ -56,3 +56,5 @@ Like all of Oberyn's daughters, Sarella was armed by her father so that she woul
 ## Notes
 
 The widely-discussed theory that Sarella is disguised as "Alleras" the Sphinx at the Citadel is Pass 5–6 territory and not recorded here. Doran's cryptic "leave her to her game" hints at this but is not explicit canon.
+
+*Cross-identity note (S118 harvest):* Node `alleras` exists in the graph. The Sarella/Alleras SAME_AS relationship is a flagged edge candidate (see orchestrator report) — not attached here per harvest rules (no new edges minted during harvest passes).

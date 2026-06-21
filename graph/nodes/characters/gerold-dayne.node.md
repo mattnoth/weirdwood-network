@@ -32,6 +32,8 @@ At some point, Gerold was one of the lovers of [Arianne Martell](wiki:Arianne_Ma
 
 Gerold is in his late twenties.(wiki:Gerold_Dayne.cite_ref-Rawoiafgerold_dayne.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) A handsome man, he has a clean-shaven face with an aquiline nose, high cheekbones, dark [purple eyes](wiki:Purple_eyes), and a strong jaw. Gerold has collar-length thick silver hair, divided by a streak of midnight black.(wiki:Gerold_Dayne.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
+**Book cite (affc-the-queenmaker-01:31):** "Ser Gerold Dayne had an aquiline nose, high cheekbones, a strong jaw. He kept his face clean-shaven, but his thick hair fell to his collar like a silver glacier, divided by a streak of midnight black. He has a cruel mouth, though, and a crueler tongue. His eyes seemed black as he sat outlined against the dying sun, sharpening his steel, but she had looked at them from a closer vantage and she knew that they were purple. Dark purple. Dark and angry."
+
 Despite his beauty and valor, Gerold is a cruel man with angry eyes. He is jealous of his famous cousin, the late Ser [Arthur Dayne](wiki:Arthur_Dayne), who was the [Sword of the Morning](wiki:Sword_of_the_Morning). Darkstar wields a [longsword](wiki:Longsword). He prefers to drink unsweetened [lemonwater](wiki:Lemon) instead of [summerwine](wiki:Wine).(wiki:Gerold_Dayne.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 
 ## Narrative Arc

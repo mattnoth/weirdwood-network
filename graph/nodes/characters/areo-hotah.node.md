@@ -66,11 +66,11 @@ Areo joins Obara and Balon on their mission to hunt and kill the rogue knight Da
 >
 > —thoughts of Areo
 
-> Hotah had felt a certain sadness whenever he saw the man in the long [snowy cloak](wiki:Kingsguard), the times [the prince](wiki:Doran_Martell) had sent him down to [Sunspear](wiki:Sunspear). One day, he sensed, the two of them would fight; on that day [Oakheart](wiki:Arys_Oakheart) would die, with the captain's longaxe crashing through his skull. He slid his hand along the smooth ashen shaft of his axe and wondered if that day was drawing nigh.(wiki:Areo_Hotah.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15)
+> Hotah had felt a certain sadness whenever he saw the man in the long [snowy cloak](wiki:Kingsguard), the times [the prince](wiki:Doran_Martell) had sent him down to [Sunspear](wiki:Sunspear). One day, he sensed, the two of them would fight; on that day [Oakheart](wiki:Arys_Oakheart) would die, with the captain's longaxe crashing through his skull. He slid his hand along the smooth ashen shaft of his axe and wondered if that day was drawing nigh.(wiki:Areo_Hotah.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15) (affc-the-captain-of-guards-01:135) *(foreshadowing — pays off at the Greenblood ambush, AFFC ch. 21, when Hotah beheads Arys Oakheart)*
 >
 > —thoughts of Areo
 
-> **Arianne**: How could [he](wiki:Doran_Martell) know? I was so careful. How could he know? **Areo**: Someone told. Someone always tells.(wiki:Areo_Hotah.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> **Arianne**: How could [he](wiki:Doran_Martell) know? I was so careful. How could he know? **Areo**: Someone told. Someone always tells.(wiki:Areo_Hotah.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3) (affc-the-queenmaker-01:299)
 >
 > —[Arianne Martell](wiki:Arianne_Martell) and Areo
 

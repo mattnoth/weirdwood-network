@@ -51,7 +51,7 @@ Robin is sent by Ser [Desmond Grell](wiki:Desmond_Grell)(wiki:Robin_Ryger.cite_r
 
 ### A Feast for Crows
 
-After the [surrender of Riverrun](wiki:Siege_of_Riverrun), Robin and Ser [Desmond Grell](wiki:Desmond_Grell) ask to join the [Night's Watch](wiki:Night's_Watch). Both are to be escorted to [Maidenpool](wiki:Maidenpool) by a dozen of the [Mountain's men](wiki:Mountain's_men) under the command of [Raff the Sweetling](wiki:Rafford).(wiki:Robin_Ryger.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+After the [surrender of Riverrun](wiki:Siege_of_Riverrun), Robin and Ser [Desmond Grell](wiki:Desmond_Grell) ask to join the [Night's Watch](wiki:Night's_Watch). Both are to be escorted to [Maidenpool](wiki:Maidenpool) by a dozen of the [Mountain's men](wiki:Mountain's_men) under the command of [Raff the Sweetling](wiki:Rafford).(wiki:Robin_Ryger.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Desmond's explanation is given verbatim: "This castle's been my home for forty years. You say I'm free to go, but where? I'm too old and too stout to make a hedge knight. But men are always welcome at the Wall." (affc-jaime-07:215) Robin made the same choice in that scene.
 
 ## Quotes
 

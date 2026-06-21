@@ -18,6 +18,10 @@ Ghaston Grey is a location from the AWOIAF wiki.
 ## Edges
 
 
+## Appearances & Description
+
+**Book cite (affc-the-princess-in-the-tower-01:27):** "Ghaston Grey was a crumbling old castle perched on a rock in the Sea of Dorne, a drear and dreadful prison where the vilest of criminals were sent to rot and die." Arianne's co-conspirators (Garin, Drey, Spotted Sylva) were shipped here on ship's biscuits and salt beef to await Doran's sentences.
+
 ## Narrative Arc
 
 ### A Feast For Crows[ ]

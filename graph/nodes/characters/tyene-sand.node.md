@@ -58,6 +58,10 @@ After the feast, Arianne and her elder cousins meet with Doran in his solar. [El
 
 ### Quotes by Tyene
 
+> I know the poison that my father used, and there is none slower or more agonizing. Soon we may hear the Mountain screaming, even here in Sunspear. (affc-the-captain-of-guards-01:271) *(foreshadowing: Gregor Clegane's death by manticore venom, confirmed in AFFC)*
+>
+> —Tyene to [Doran Martell](wiki:Doran_Martell)
+
 > **Doran**: [Obara](wiki:Obara_Sand) cries to me for war. [Nym](wiki:Nymeria_Sand) will be content with murder. And you? **Tyene**: War, though not my sister's war. [Dornishmen](wiki:Dornishmen) fight best at home, so I say let us hone our spears and wait. When the [Lannisters](wiki:House_Lannister) and the [Tyrells](wiki:House_Tyrell) come down on us, we shall bleed them in the passes and bury them beneath the blowing sands, as we have a hundred times before.(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
 >
 > —[Doran Martell](wiki:Doran_Martell) and Tyene

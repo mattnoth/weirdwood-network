@@ -22,6 +22,8 @@ Shandystone is a location from the AWOIAF wiki.
 
 The modest ruins have fluted pillars, triple arches, and a dry well. It contains mosaics and statues, but most of the building has been overtaken by the sands, including the mosaics inside, while the faces of the statues have been scoured away by it. Nearby are dead trees whose branches have been bleached white(wiki:Shandystone.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
+**Book cite (affc-the-queenmaker-01:11):** "The well at Shandystone had gone dry a hundred years before ... abandoning their modest holdfast with its fluted columns and triple arches." The ruins glow pink and red at sunset, fallen columns shimmering, red shadows crossing cracked stone floors. (affc-the-queenmaker-01:11–13)
+
 ## Origins
 
 The holdfast was abandoned when the well went dry circa [200 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Shandystone.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
