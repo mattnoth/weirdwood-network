@@ -25,6 +25,10 @@ At the Western Market of [Vaes Dothrak](vaes-dothrak), a smooth Lyseni wine merc
 
 (Causal/role edges live in `graph/edges/edges.jsonl`. [Robert Baratheon](robert-baratheon) is the orderer (COMMANDS_IN, Tier-1); the wineseller is the agent (AGENT_IN, Tier-1); [Daenerys](daenerys-targaryen) is the target (VICTIM_IN, Tier-1). Caused by [Robert's assassination order](robert-orders-daenerys-assassination) (CAUSES, Tier-2). The attempt CAUSES [Drogo's westward vow](drogo-westward-vow) and MOTIVATES [Drogo](drogo) (Tier-2). Node repaired S119 essos-root track [was a bare Plate-3 skeleton].)
 
+## Appearances & Description
+
+The wine merchant is a small man, slender and handsome, his flaxen hair curled and perfumed after the fashion of Lys — a Lysene fashion note that Jorah later uses to identify him as a spy rather than a legitimate trader. (`sources/chapters/agot/agot-daenerys-06.md:83`) [book-cite overlay; the "fashion of Lys" tells Jorah the man's true origin]
+
 ## Quotes
 
 > "A taste for the khaleesi? ... A cask, a cup, a swallow? One taste, and you will name your child after me."

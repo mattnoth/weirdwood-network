@@ -1,6 +1,9 @@
 # OS
 .DS_Store
 
+# Personal explainer / learning doc (Matt's reference, not project state).
+graph-concepts-explainer.md
+
 # Python
 __pycache__/
 *.pyc

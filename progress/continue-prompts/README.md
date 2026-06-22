@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-21 (refreshed after S119)  
+**Generated:** 2026-06-21 (refreshed after S120)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-21-essos-container-decomposition.md` | 2026-06-21 | ESSOS container: build remaining junctures (E3 next, then E5) — major-arc backlog #2 | **LIVE** | Sonnet 4.6 | **Updated S119.** Decomposition DONE (`working/essos-decomposition.md`, 8 junctures E1–E8) + **E4+E1+E2 BUILT** (the whole Dany spine was causally dark; now walks order→dragon-birth and Astapor→Hizdahr-marriage; +5 nodes incl. `death-of-khal-drogo`, +23 edges). **NEXT = E3** (Daznak's Pit → Drogon flees → lost on the Dothraki sea, ~3 mints, ADWD terminus; roots at `wedding-of-hizdahr`), **then E5** (Doran-pact → Quentyn, closes the S117 Dorne arc; unblocks parked harvest rows 204/209/210). Lower: E6/E7/E8 bridges. Harvest-consume pass DUE (~30 open). Arc-mint machine: archived `2026-06-18-causal-arc-execution.md` + the S119 `mint_essos_*` scripts. |
+| `2026-06-21-essos-container-decomposition.md` | 2026-06-21 | post-Essos: hardening → container-split fan-out → WO5K (3-step next-session plan) | **LIVE** | Sonnet 4.6 | **Rewritten S120 (post-advisory-board).** ESSOS high-value spine **E1–E5 COMPLETE** (E3 Daznak + E5 Quentyn built S120; +5 nodes, +14 edges; harvest queue 0 open). A 4-lens advisory board + fresh-critic reviewed both containers → on-track, yes-with-caveats. **NEXT = 3 steps:** (1) HARDENING [ENABLES `--full-chain`/`--expand-beats`, ENABLES-vs-CAUSES doc, slug/alias mint pre-check, harvest line-check, L1/L2 verify-gate-levels, `sons-of-harpy→wedding` join-hub refactor, `containers:` field decision, seam annotations, E7/E8→dyad-queue, **mint `littlefinger-betrays-ned`** + fix the broken BETRAYS-dyad quote + fix `arrest-of-eddard-stark` mistype], (2) CONTAINER-SPLIT advisory fan-out [NORTH/AEGON, Jon/Bran own-container?, Winterfell/Robert's-order dual-membership], (3) BUILD WO5K remainder. Driven by `working/session-results/2026-06-21-container-advisory-board.md`; concept ref `graph-concepts-explainer.md`. |
 
 ---
 
@@ -45,15 +45,18 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ## Open thread right now (ONE live track)
 
-**LIVE: `2026-06-21-essos-container-decomposition.md`** — the AFFC causal-arc spine phase is COMPLETE (all 4 fumbles +
-10 AGOT/ASOS arcs + WO5K J3 shipped, S105–S117) and S118 closed the ATTENDS-cleanup + harvest loose ends. **Next big build =
-the ESSOS container** (major-arc backlog #2). It's a CONTAINER → **step 1 = its own decomposition dip** (WO5K template →
-`working/essos-decomposition.md`): rank the Dany-thread junctures (Drogo's death/dragon-birth → Slaver's-Bay → Meereen) +
-the first-class Westeros↔Essos bridges (Robert's assassination order→Dany; Illyrio↔Varys; Jorah-channel; Quentyn "Fire and
-blood" pact). **step 2 = build ranked junctures one at a time** via the proven arc-mint machine (archived
-`2026-06-18-causal-arc-execution.md`). Auto-joins the pre-placed S116 bridge `euron-commissions-victarion-to-fetch-daenerys`;
-unblocks parked harvest rows 149–152, 204, 209–210. **Use SPACED aliases; verify vocab before inventing; root at the LOCAL
-antecedent; paste the harvest snippet + vocab terms into each text-reading subagent.** (**Sonnet 4.6**)
+**LIVE: `2026-06-21-essos-container-decomposition.md`** — the ESSOS container's high-value spine (E1–E5) is COMPLETE
+(E4+E1+E2 S119; E3 Daznak + E5 Quentyn S120). A 4-lens advisory board + a fresh-critic reviewed the two containers + the
+narrative-arc hierarchy → **on-track, yes-with-caveats**. The live prompt now carries the **3-step next-session plan**:
+**(1) HARDENING pass** (ENABLES `--full-chain`/`--expand-beats` traversal fix + ENABLES-vs-CAUSES doc + slug/alias mint
+pre-check + harvest line-check + L1/L2 verify-gate-levels + `sons-of-harpy→wedding` join-hub refactor + `containers:`
+frontmatter-field decision + seam annotations + E7/E8→dyad-queue + **mint `littlefinger-betrays-ned`** [confirmed gap] +
+fix the broken `petyr-baelish BETRAYS eddard-stark` quote + fix `arrest-of-eddard-stark` mistype) **→ (2) CONTAINER-SPLIT
+advisory fan-out** (NORTH/Wall + AEGON containers; Jon/Bran own-container?; Winterfell/Robert's-order dual-membership;
+retro-group standalones) **→ (3) BUILD WO5K remainder** with settled boundaries. Driven by
+`working/session-results/2026-06-21-container-advisory-board.md`; concept ref `graph-concepts-explainer.md` (gitignored).
+**Use SPACED aliases; verify vocab before inventing; root at the LOCAL antecedent; paste the harvest snippet + vocab terms
+into each text-reading subagent.** (**Sonnet 4.6**)
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*

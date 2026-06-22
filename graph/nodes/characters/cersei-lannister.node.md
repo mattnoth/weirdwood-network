@@ -188,7 +188,7 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 
 > When you play the game of thrones, you win or you die. There is no middle ground.(wiki:Cersei_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-8)
 >
-> —Cersei to [Eddard Stark](wiki:Eddard_Stark)
+> —Cersei to [Eddard Stark](wiki:Eddard_Stark) in the godswood, AGOT Eddard XII (`sources/chapters/agot/agot-eddard-12.md:169`) — the line the series title is drawn from
 
 > [Jaime](wiki:Jaime_Lannister) and I are more than brother and sister. We are one person in two bodies. We shared a womb together. He came into this world holding my foot, our old maester said. When he is in me, I feel ... whole.(wiki:Cersei_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-9)
 >

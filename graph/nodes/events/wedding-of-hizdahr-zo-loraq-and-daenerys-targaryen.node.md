@@ -47,3 +47,7 @@ Reznak: Magnificence, you do not understand. The washing of the feet is hallowed
 Daenerys: All those pearls will make me rattle when I walk.
 Hizdahr: Words are wind, as you yourself have so oft said. No words of yours will secure this peace for [Meereen](wiki:Meereen). [Your foes](wiki:Second_siege_of_Meereen) require deeds. They would see us wed, and they would see me crowned as [king](wiki:King_of_Meereen), to rule beside you.
 Daenerys: Marriage or carnage. A wedding or a war. Are those my choices?
+
+> if a husband could help end the slaughter, then she owed it to her dead to marry.
+
+— Daenerys's internal logic connecting Harpy killings to the Hizdahr marriage decision, ADWD Daenerys IV (`sources/chapters/adwd/adwd-daenerys-04.md:67`) [book-cite overlay onto wiki-stated decision]

@@ -43,3 +43,19 @@ Before leaving for [Yunkai](wiki:Yunkai), Daenerys leaves a council of three men
 > He hears me speak Valyrian. The other slavers were not listening.
 
 — Daenerys, as old Grazdan alone realizes she understood them all along, ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:247`)
+
+> She had chosen a Qartheen gown today. The deep violet silk brought out the purple of her eyes. The cut of it bared her left breast. While the Good Masters of Astapor conferred among themselves in low voices, Dany sipped tart persimmon wine from a tall silver flute.
+
+— Daenerys's dress and demeanor during the negotiation — the bared-breast Qartheen gown is deliberate power-display, ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:15`) [appearance + food overlay]
+
+> "Dracarys."
+
+— Daenerys, the single word that triggers the fall of Astapor — spoken to Drogon as she strikes Kraznys with the harpy's fingers, ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:253`)
+
+> Jars of saffron, jars of myrrh, jars of pepper and curry and cardamom, an onyx mask, twelve jade monkeys, casks of ink in red and black and green, a box of rare black amethysts, a box of pearls, a cask of pitted olives stuffed with maggots, a dozen casks of pickled cave fish … Her people stacked it all before the slavers.
+
+— The trade goods laid out in exchange for the Unsullied (Daenerys's entire worldly inventory), ASOS Daenerys IV (`sources/chapters/asos/asos-daenerys-04.md:227`)
+
+> "Astapor was complacent and vulnerable. Yunkai is forewarned."
+
+— Ser Jorah Mormont explicitly contrasting the two Slaver's Bay campaigns, ASOS Daenerys IV (`sources/chapters/asos/asos-daenerys-04.md:27`)

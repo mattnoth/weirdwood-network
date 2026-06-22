@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-21T16:04:12.928880+00:00",
+  "computed_at": "2026-06-21T17:57:25.429645+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -11187,6 +11187,14 @@
         "source": "node-slug"
       }
     ],
+    "burning of quentyn martell": [
+      {
+        "canonical_slug": "death-of-quentyn-martell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "burning of sow's horn": [
       {
         "canonical_slug": "burning-of-sows-horn",
@@ -16571,9 +16579,41 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "daenerys alone in the grass sea": [
+      {
+        "canonical_slug": "dany-lost-on-dothraki-sea",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "daenerys barefoot in the grass": [
+      {
+        "canonical_slug": "dany-lost-on-dothraki-sea",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "daenerys mounts drogon in daznak's pit": [
+      {
+        "canonical_slug": "dany-mounts-drogon-and-flees-meereen",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "daenerys smothers drogo": [
       {
         "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "daenerys stranded on the dothraki sea": [
+      {
+        "canonical_slug": "dany-lost-on-dothraki-sea",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -16622,6 +16662,14 @@
     "daenerys walks into the fire": [
       {
         "canonical_slug": "dragon-hatching-on-drogo-pyre",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "daenerys's wild flight from meereen": [
+      {
+        "canonical_slug": "dany-mounts-drogon-and-flees-meereen",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -18461,6 +18509,54 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "dany flees meereen on drogon": [
+      {
+        "canonical_slug": "dany-mounts-drogon-and-flees-meereen",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "dany lost on dothraki sea": [
+      {
+        "canonical_slug": "dany-lost-on-dothraki-sea",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "dany lost on the dothraki sea": [
+      {
+        "canonical_slug": "dany-lost-on-dothraki-sea",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "dany mounts drogon and flees meereen": [
+      {
+        "canonical_slug": "dany-mounts-drogon-and-flees-meereen",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "dany rides drogon out of the pit": [
+      {
+        "canonical_slug": "dany-mounts-drogon-and-flees-meereen",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "dany vaults onto drogon and flies": [
+      {
+        "canonical_slug": "dany-mounts-drogon-and-flees-meereen",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "dany's heart-eating": [
       {
         "canonical_slug": "stallion-heart-ceremony",
@@ -18475,6 +18571,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "dany's sojourn on dragonstone hill": [
+      {
+        "canonical_slug": "dany-lost-on-dothraki-sea",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "dareon": [
@@ -18912,6 +19016,14 @@
     "death of mycah": [
       {
         "canonical_slug": "death-of-mycah",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "death of quentyn martell": [
+      {
+        "canonical_slug": "death-of-quentyn-martell",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -20163,12 +20275,52 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "doran discloses the targaryen marriage pact": [
+      {
+        "canonical_slug": "doran-reveals-fire-and-blood-pact",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "doran martell": [
       {
         "canonical_slug": "doran-martell",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "doran reveals fire and blood pact": [
+      {
+        "canonical_slug": "doran-reveals-fire-and-blood-pact",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "doran reveals the fire and blood pact": [
+      {
+        "canonical_slug": "doran-reveals-fire-and-blood-pact",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "doran tells arianne of the secret pact": [
+      {
+        "canonical_slug": "doran-reveals-fire-and-blood-pact",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "doran's pact reveal": [
+      {
+        "canonical_slug": "doran-reveals-fire-and-blood-pact",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "doran-orders-arrest-of-the-sand-snakes": [
@@ -20441,6 +20593,14 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-slug:species"
+      }
+    ],
+    "dragon at daznak's pit": [
+      {
+        "canonical_slug": "drogon-returns-to-daznak-pit",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "dragon dreams": [
@@ -21143,12 +21303,60 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "drogon appears at the games": [
+      {
+        "canonical_slug": "drogon-returns-to-daznak-pit",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogon descends on daznak's pit": [
+      {
+        "canonical_slug": "drogon-returns-to-daznak-pit",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "drogon kills barsena and the boar": [
+      {
+        "canonical_slug": "drogon-returns-to-daznak-pit",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "drogon kills more attackers": [
       {
         "canonical_slug": "drogon-kills-more-attackers",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "drogon returns to daznak pit": [
+      {
+        "canonical_slug": "drogon-returns-to-daznak-pit",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "drogon returns to daznak's pit": [
+      {
+        "canonical_slug": "drogon-returns-to-daznak-pit",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "drogon's return to the fighting pit": [
+      {
+        "canonical_slug": "drogon-returns-to-daznak-pit",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "drogos khalasar": [
@@ -25633,6 +25841,14 @@
         "source": "all-node-name:texts"
       }
     ],
+    "fire and blood whisper": [
+      {
+        "canonical_slug": "doran-reveals-fire-and-blood-pact",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "fire blood being a history of the targaryen kings of westeros": [
       {
         "canonical_slug": "fire-blood-being-a-history-of-the-targaryen-kings-of-westeros",
@@ -26629,6 +26845,14 @@
         "node_category": "foods",
         "node_type": "object.food",
         "source": "all-node-slug:foods"
+      }
+    ],
+    "frog burned by the dragon": [
+      {
+        "canonical_slug": "death-of-quentyn-martell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "frogboy": [
@@ -40621,6 +40845,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "how quentyn martell died": [
+      {
+        "canonical_slug": "death-of-quentyn-martell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "howard bullock": [
@@ -67825,6 +68057,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "quentyn burned by rhaegal": [
+      {
+        "canonical_slug": "death-of-quentyn-martell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "quentyn martell": [
       {
         "canonical_slug": "quentyn-martell",
@@ -89235,6 +89475,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "where daenerys's adwd arc ends": [
+      {
+        "canonical_slug": "dany-lost-on-dothraki-sea",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "whipping boy": [
       {
         "canonical_slug": "whipping-boy",
@@ -92017,8 +92265,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18892,
-    "unique_phrases": 11402
+    "total_node_entries": 18928,
+    "unique_phrases": 11433
   },
   "version": "v1"
 }

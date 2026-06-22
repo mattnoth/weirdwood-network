@@ -39,3 +39,25 @@ At nightfall Daenerys sends a diversion force of two hundred men to set fire to 
 Meereen is sacked savagely after its fall. The stepped pyramids of the mighty are spared the worst of the ravages, but the humbler parts of the city are given over to an orgy of looting and killing as the city's [slaves](wiki:Slave) rise up and the starving hordes who followed Daenerys from Yunkai and Astapor pour through the broken gates.(wiki:Siege_of_Meereen.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 In contrast to her previous [Ghiscari](wiki:Ghiscari) conquests, Daenerys chooses to remain in Meereen, installing herself as queen with the [Great Pyramid](wiki:Great_Pyramid) as her seat. This is because at this time, she receives word that her ruling council in Astapor has been overthrown by [Cleon](wiki:Cleon), a tyrannical butcher, resulting in much suffering. Not wanting to let this happen to Meereen, she decides to stay.(wiki:Siege_of_Meereen.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) Her [Unsullied](wiki:Unsullied) finally restore order, but the sack leaves a plague of problems in its wake.(wiki:Siege_of_Meereen.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+## Quotes
+
+> Meereen was as large as Astapor and Yunkai combined. … Her walls were higher than Yunkai's and in better repair, studded with bastions and anchored by great defensive towers at every angle. Behind them, huge against the sky, could be seen the top of the Great Pyramid, a monstrous thing eight hundred feet tall with a towering bronze harpy at its top.
+
+— Daenerys first sees Meereen, ASOS Daenerys V (`sources/chapters/asos/asos-daenerys-05.md:11`)
+
+> They had nailed a slave child up on every milepost along the coast road from Yunkai, nailed them up still living with their entrails hanging out and one arm always outstretched to point the way to Meereen. … "I will see them," she said. "I will see every one, and count them, and look upon their faces. And I will remember."
+
+— Daenerys's vow before 163 crucified children; the motivation that drives her to take Meereen, ASOS Daenerys V (`sources/chapters/asos/asos-daenerys-05.md:33`)
+
+> she had taken Meereen with sewer rats and a wooden cock, in less than a day.
+
+— Daenerys's own summary of the siege's method (the sewer-infiltration tactic and the battering ram "Joso's Cock"), ASOS Daenerys VI (`sources/chapters/asos/asos-daenerys-06.md:27`)
+
+> "Stay," she said. "Rule. And be a queen."
+
+— Daenerys's pivotal decision to remain and govern rather than march for Westeros, ASOS Daenerys VI (`sources/chapters/asos/asos-daenerys-06.md:325`)
+
+> That night her handmaids brought her lamb, with a salad of raisins and carrots soaked in wine, and a hot flaky bread dripping with honey. She could eat none of it.
+
+— Daenerys's first night as Queen of Meereen; the food is generous but she is too burdened to eat, ASOS Daenerys VI (`sources/chapters/asos/asos-daenerys-06.md:283`)

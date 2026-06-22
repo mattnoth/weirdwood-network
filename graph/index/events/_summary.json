@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-21T16:04:12.555691+00:00",
+  "generated_at": "2026-06-21T17:57:25.055501+00:00",
   "entity_type": "events",
   "dry_run": false,
   "entity_count": 1,
   "type_counts": {
-    "event.assassination": 1
+    "event.death": 1
   },
   "entities_with_zero_mentions": 1,
   "mention_inverse_slugs": 0,
   "top_by_appearances": [
     {
-      "slug": "ned-orders-daenerys-s-assassination-cancelled",
-      "name": "Ned orders Daenerys's assassination cancelled",
-      "type": "event.assassination",
+      "slug": "death-of-quentyn-martell",
+      "name": "Death of Quentyn Martell",
+      "type": "event.death",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,
@@ -21,9 +21,9 @@
   ],
   "top_by_in_edges": [
     {
-      "slug": "ned-orders-daenerys-s-assassination-cancelled",
-      "name": "Ned orders Daenerys's assassination cancelled",
-      "type": "event.assassination",
+      "slug": "death-of-quentyn-martell",
+      "name": "Death of Quentyn Martell",
+      "type": "event.death",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,

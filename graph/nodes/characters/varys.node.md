@@ -139,7 +139,7 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 
 > The [High Septon](wiki:High_Septon_(fat_one)) once told me that as we sin, so do we suffer. If that's true, Lord Eddard, tell me ... why is it always the innocents who suffer most, when you high lords play your game of thrones??(wiki:Varys.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-5)
 >
-> —Varys to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to [Eddard Stark](wiki:Eddard_Stark) in the black cells, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:155`)
 
 > May I leave you with a bit of a riddle, Lord Tyrion? In a room sit three great men, a [king](wiki:King), a priest, and a rich man with his gold. Between them stands a [sellsword](wiki:Sellsword), a little man of common birth and no great mind. Each of the great ones bids him slay the other two. ‘Do it,’ says the king, ‘for I am your lawful ruler.’ ‘Do it,’ says the priest, ‘for I command you in the names of the gods.’ ‘Do it,’ says the rich man, ‘and all this gold shall be yours.’ So tell me—who lives and who dies?(wiki:Varys.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-3)
 >

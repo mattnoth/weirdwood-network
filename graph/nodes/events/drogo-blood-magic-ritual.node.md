@@ -35,3 +35,23 @@ After [Khal Drogo](drogo) is wounded raiding the Lhazareen and the cut festers �
 > "Only death can pay for life." ... "The price was paid," Dany said. "The horse, my child, Quaro and Qotho, Haggo and Cohollo. The price was paid and paid and paid."
 
 — Mirri Maz Duur and Daenerys, AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:127`)
+
+> "Twisted. I drew him forth myself. He was scaled like a lizard, blind, with the stub of a tail and small leather wings like the wings of a bat. When I touched him, the flesh sloughed off the bone, and inside he was full of graveworms and the stink of corruption. He had been dead for years."
+
+— Mirri Maz Duur describes Rhaego's stillbirth (the ritual's price in full), AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:115`)
+
+> "When the sun rises in the west and sets in the east," said Mirri Maz Duur. "When the seas go dry and mountains blow in the wind like leaves. When your womb quickens again, and you bear a living child. Then he will return, and not before."
+
+— Mirri's curse: the impossible-condition prophecy, AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:179`)
+
+> "You knew what I was buying, and you knew the price, and yet you let me pay it." … "It was wrong of them to burn my temple. That angered the Great Shepherd."
+
+— Dany confronts Mirri; Mirri names her true motive (revenge), AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:127–183`)
+
+> "the maegi Mirri Maz Duur had murdered Rhaego in her womb, and Dany had smothered the empty shell of Khal Drogo with her own two hands."
+
+— Daenerys's retrospective summary of the ritual's cost, ADWD Daenerys X (`sources/chapters/adwd/adwd-daenerys-10.md:49`)
+
+> When he saw the scarlet footprints her boots had left on the ground, the color seemed to drain from his face. "What have you done, you little fool?" he asked hoarsely.
+
+— Ser Jorah Mormont, the first witness to the ritual's aftermath, AGOT Daenerys VIII (`sources/chapters/agot/agot-daenerys-08.md:225`) [S120 harvest: Jorah is WITNESS_IN to the ritual aftermath — edge candidate for orchestrator]

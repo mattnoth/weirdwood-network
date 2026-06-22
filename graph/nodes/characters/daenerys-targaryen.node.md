@@ -241,6 +241,20 @@ Daenerys still lives, however. Drogon has flown her to a hill in the Dothraki se
 >
 > —Daenerys having a fever dream of [Jorah Mormont](wiki:Jorah_Mormont)
 
+### Quotes by Daenerys — ADWD
+
+> She was the blood of the dragon. She could kill the Sons of the Harpy, and the sons of the sons, and the sons of the sons of the sons. But a dragon could not feed a hungry child nor help a dying woman's pain. And who would ever dare to love a dragon?
+
+— Daenerys's governing dilemma: power vs. care, ADWD Daenerys II (`sources/chapters/adwd/adwd-daenerys-02.md:107`)
+
+> "I cannot fight two enemies, one within and one without. If I am to hold Meereen, I must have the city behind me. … I need Hizdahr zo Loraq."
+
+— Daenerys names her necessity for the marriage, driven by the shadow war + siege, ADWD Daenerys V (`sources/chapters/adwd/adwd-daenerys-05.md:307`)
+
+> "Fire and Blood," Daenerys told the swaying grass.
+
+— Daenerys alone on the Dothraki sea, reciting her House words to fix her identity; the arc-closing beat of her ADWD chapters, ADWD Daenerys X (`sources/chapters/adwd/adwd-daenerys-10.md:199`)
+
 ### Quotes about Daenerys
 
 > **Armen**: The tales are not the same. [Dragons](wiki:Dragon) in [Asshai](wiki:Asshai), dragons in [Qarth](wiki:Qarth), dragons in [Meereen](wiki:Meereen), [Dothraki](wiki:Dothraki) dragons, dragons [freeing slaves](wiki:Targaryen_campaign_in_Slaver's_Bay) ... each telling differs from the last. **Mollander**: Only in details. All speak of dragons, and a beautiful young queen.(wiki:Daenerys_Targaryen.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-1)
