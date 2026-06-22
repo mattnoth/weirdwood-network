@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-22 (refreshed after S126)  
+**Generated:** 2026-06-22 (refreshed after S127)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,13 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-25-aegon-container-decomposition.md` | 2026-06-25 | AEGON container decomp dip (graph track) | **LIVE** | Sonnet 4.6 | **New S126.** READ-ONLY decomp dip → `working/aegon-decomposition.md` (mirrors the NORTH/WO5K/Essos dip template). AEGON is the subagent-recommended next container over Bran: 8+ Golden-Company campaign nodes already on disk (ready scaffolding nested under `landing-of-the-golden-company` via PART_OF), and it unblocks the parked Varys/Illyrio + Jorah dyads (`working/dyad-queue.md`). The 2 mis-filed `PART_OF war-of-the-five-kings` edges get fixed at the BUILD's step 1, NOT the dip. Bran decomp = runner-up (greenfield). |
+| `2026-06-26-aegon-spine-build.md` | 2026-06-26 | AEGON spine build (graph track) | **LIVE** | Sonnet 4.6 | **New S127.** WRITES to graph — builds the AEGON causal spine from `working/aegon-decomposition.md` §5. **2 mints total** (`golden-company-sails-for-westeros`, `aegon-revealed-to-the-golden-company`); everything else is edge/role/tag wiring on existing nodes. Ranked: A2 sail-west→landing (1 mint, the CAUSES that lights the 6-node fan) → A4 Varys-assassinations→KL-attach (0 mints) → A3 Stormlands-campaign (0 mints; PART_OF is the right sibling structure) → A1 conspiracy-seed→reveal (1 mint + the `varys CONSPIRES_WITH illyrio` dyad). **Build-step 0 = fix the 2 mis-filed `PART_OF war-of-five-kings` edges + delete the suspicious `landing PRECEDES hizdahr-wedding` edge.** D1 dyad resolved dyad-only. Same arc-mint machine as NORTH/WO5K. |
 
 ---
 
-## Archive (`archive/` subfolder — 45 files)
+## Archive (`archive/` subfolder — 44 files)
 
+> **`2026-06-25-aegon-container-decomposition.md`** — archived S127. **DONE (S127):** the read-only AEGON decomposition dip ran → `working/aegon-decomposition.md` (8-section structure = NORTH template; junctures A1–A4). AEGON is entirely causally dark (all PART_OF/role scaffolding, 0 causal edges). **Scaffolding correction:** verified **6** PART_OF children, not the handoff's "8+". Top-3 = A2 sail-west (11/12, 1 mint) · A4 Varys-assassinations (11/12, 0 mints) · A3 Stormlands-campaign (9/12, 0 mints); **2 mints total**. D1 Varys↔Illyrio resolved **dyad-only**. 12 harvest pointers added. 0 graph writes (read-only contract held). Superseded as live by the AEGON spine build.
 > **`2026-06-24-north-spine-build-n3-n4.md`** — archived S126. **DONE (S126):** built NORTH N3 (LC election → Slynt execution; minted `jon-elected-lord-commander`) + N4 (free folk → Pink Letter → stabbing; minted `jon-allows-free-folk-through-the-wall` + `pink-letter-delivered`) **+ executed the `mutiny-at-castle-black`→`jon-is-stabbed-repeatedly` merge** (loser→`same_as` redirect, survivor absorbed the tier-1 wiki Origins; junk PRECEDES dropped). +3 nodes / +9 edges −1 junk (22,424→22,432); agency-preserving topology (fresh-verify REJECTED any blunt free-folk→stabbing CAUSES — all routes through `MOTIVATES bowen-marsh` + the Pink-Letter TRIGGERS); 2 cites re-pointed at fresh-verify. Container north 13→17; **NORTH spine-complete (both termini wired).** Superseded as live by the AEGON decomp dip.
 > **`2026-06-23-north-spine-build.md`** — archived S125. **DONE (S125):** built the NORTH top-3 (N5 Roose-Warden + N2 Stannis-at-the-Wall [enrich-not-mint: `battle-beneath-the-wall` already is the rout, so only the `stannis-moves-to-the-wall` bridge was minted] + N1 great-ranging-wire). +2 nodes / +13 edges (22,411→22,424); every causal edge fresh-verified (dropped N5 MOTIVATES; retyped N2 bridge→battle; downgraded attack→battle Tier-3; corrected N1 mutiny source to the Fist). Container north 2→13; WO5K→NORTH seam traverses end-to-end. Dedup resolved (canonical=`jon-is-stabbed-repeatedly`, merge deferred to N4). Harvest consume-pass ran (queue 0 open). Superseded as live by the N3+N4 build.
 > **`2026-06-23-north-container-decomposition.md`** — archived S124. **DONE (S124):** the read-only NORTH decomposition dip ran → `working/north-decomposition.md` (603 lines; trigger-tree + scorecard + ranked build order). NORTH is greenfield, two spines (Jon's Watch arc + Bolton/Stannis political thread); 13 key junctures = 4 HIT-but-dark / 6 MISS / 2 partial. Top-3 = N5 Roose-Warden (11/12, 1 mint) · N2 Stannis-defeats-wildlings (11/12, 2 mints) · N1 great-ranging-wire (10/12, 0 mints). Superseded as the live prompt by the NORTH spine build.
@@ -50,20 +51,20 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (ONE live track — the AEGON decomp dip)
+## Open threads right now (ONE live track — the AEGON spine build)
 
-> The live dir holds ONE track: the AEGON container decomposition dip (read-only). NORTH went spine-complete S126
-> (N5/N2/N1 built S125; N3/N4 + the mutiny merge built S126 — both prompts archived). The chat-UI persona track was
-> parked S123 (Matt: "side thing, will come back to it") — in `archive/`, recoverable.
+> The live dir holds ONE track: the AEGON spine build (writes to graph). The read-only AEGON decomp dip ran S127
+> → `working/aegon-decomposition.md` (prompt archived). NORTH went spine-complete S126. The chat-UI persona track
+> was parked S123 (Matt: "side thing, will come back to it") — in `archive/`, recoverable.
 
-**LIVE (graph): `2026-06-25-aegon-container-decomposition.md`** — READ-ONLY decomp dip producing
-`working/aegon-decomposition.md` (mirrors the NORTH/WO5K/Essos dip template). AEGON is the subagent-recommended next
-container over Bran: 8+ Golden-Company campaign nodes already on disk (ready scaffolding), and it unblocks the parked
-Varys/Illyrio + Jorah dyads (`working/dyad-queue.md`). The 2 mis-filed `PART_OF war-of-the-five-kings` edges get fixed
-at the BUILD's step 1, not the dip. (**Sonnet 4.6**)
+**LIVE (graph): `2026-06-26-aegon-spine-build.md`** — builds the AEGON causal spine from
+`working/aegon-decomposition.md` §5. **2 mints total** (`golden-company-sails-for-westeros`,
+`aegon-revealed-to-the-golden-company`); everything else is edge/role/tag wiring. Ranked A2→A4→A3→A1.
+**Build-step 0 = fix the 2 mis-filed `PART_OF war-of-five-kings` edges + delete the suspicious
+`landing PRECEDES hizdahr-wedding` edge.** D1 Varys↔Illyrio resolved dyad-only. Same arc-mint machine as NORTH/WO5K. (**Sonnet 4.6**)
 
-**Queued behind it:** the AEGON build (after the dip), then Bran (greenfield flight-to-the-north spine — its own
-decomp dip first). SET = `{essos✓, wo5k✓, north✓, aegon, bran}`.
+**Queued behind it:** Bran (greenfield flight-to-the-north spine — its own decomp dip first). Building AEGON
+also discharges the parked Varys/Illyrio (D1) + Jorah (D2) dyads. SET = `{essos✓, wo5k✓, north✓, aegon◐, bran}`.
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*

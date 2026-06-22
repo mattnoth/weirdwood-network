@@ -31,8 +31,12 @@
   on the two character nodes and the WITNESS_IN waits for that anchor.
 - **Harvest row (parked):** `working/harvest-queue.md` carries the Arya-witness pointer (agot-arya-03:73),
   parked until this node exists.
-- **Open question for the AEGON fan-out:** conspiracy-meeting event node vs character-dyad-only? (decide
-  when AEGON is scoped — it depends on whether downstream AEGON beats need the meeting as an attach point.)
+- **Open question for the AEGON fan-out:** conspiracy-meeting event node vs character-dyad-only? — **RESOLVED
+  S127 (AEGON decomp dip): DYAD-ONLY, do NOT mint the tunnel-meeting node.** Juncture A1's reveal node
+  (`aegon-revealed-to-the-golden-company`) gives the spine its anchor, so the conspiracy attaches as the
+  `varys CONSPIRES_WITH illyrio-mopatis` dyad on the character nodes; `arya-stark WITNESS_IN` stays parked
+  (Arya's seeing has no clean outgoing causal edge → agency-collapse → never earns a node). Full justification:
+  `working/aegon-decomposition.md` §6.
 
 ### D2. Jorah informant channel dyad  (was Essos E8)
 - **Pure information channel — causal load 0.** Jorah informs on Dany to the Small Council for a royal
