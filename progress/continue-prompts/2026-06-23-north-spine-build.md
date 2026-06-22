@@ -33,6 +33,19 @@ rebuild → `stamp_containers.py` → `--causal-chain` smoke). Lib: `scripts/min
   **Wire the declared edges directly** (great-ranging → fight-at-the-fist → mutiny-at-crasters-keep), fresh-verify the
   quotes, + 3 container tags `[north]`/`[north, jon]`. Highest beat-readiness of any juncture.
 
+## Harvest consume-pass — DUE this session (fold it in)
+The harvest queue is at the trigger (**12 open in `working/harvest-queue.md` + 10 un-migrated pointers in §8 of
+`working/north-decomposition.md` = ~22 effective**). Run a consume-pass as part of this session — it's natural here
+because you're already reading NORTH/Bolton/Stannis text and several open rows attach to adjacent nodes:
+- **Migrate the 10 NORTH dip §8 pointers** into `working/harvest-queue.md` (or attach directly): Watch-oath /
+  Stannis-at-the-Wall / Slynt-execution / Pink-Letter / stabbing quotes onto the nodes you build or that already exist.
+- **Attach the 12 open S123 rows** (line-checked at the cite first): Renly's-ghost (Garlan in green armor) →
+  `littlefinger-brokers-tyrell-lannister-alliance` / `battle-of-the-blackwater` `## Quotes`; Theon book-cite overlays
+  ("iron price", "We Do Not Sow", "thirty men", occupied-Winterfell cruelties) → `capture-of-winterfell` / `theon-greyjoy`;
+  Grey-Wind/Spicer + "five wolf pups" foreshadowing → `storming-of-the-crag` / `robb-weds-jeyne-westerling` `## Foreshadowing`.
+- **Fresh-verify** attachments (sample) and flip consumed rows to `done`; record open/parked/done counts in the worklog.
+- **Don't lose:** moon-tea/Sybell-Spicer theory material stays PARKED (theories track gated).
+
 ## Boundary calls to resolve at build (from the dip)
 1. **`great-ranging` staging-vs-live:** wire the declared edges, don't re-mint.
 2. **Dedup `mutiny-at-castle-black` ↔ `jon-is-stabbed-repeatedly`** (likely the SAME ADWD event) BEFORE touching the
