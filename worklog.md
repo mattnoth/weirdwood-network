@@ -28,7 +28,9 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 ## Current State
 
-### STATUS — at a glance (verified 2026-06-22, S130)
+### STATUS — at a glance (verified 2026-06-22, S132)
+
+**TRACKS IN FLIGHT (parallel windows):** **A = graph** (enrichment phase — `progress/continue-prompts/2026-06-29-enrichment-phase.md`; latest = S132) · **B = D&E Pass-1** (v4 prompt smoke — `progress/continue-prompts/2026-06-29-dunk-egg-pass1-smoke.md`; latest = S131, currently running). Parallel-safe (no shared files). Session numbers = write-order tiebreaker; entries tagged `[Track: …]`.
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
@@ -276,8 +278,10 @@ This is your project memory. When you come back after a break, **STATUS — at a
 ## Session Log
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
+>
+> **Concurrent tracks (S132 convention):** sessions can run in parallel windows (e.g. `graph` enrichment + `D&E` Pass-1). The global session number is the **write-order tiebreaker** — whoever commits their worklog entry first claims the number; the next bumps (so two same-day parallel sessions get consecutive numbers, NOT the same one). Each header carries a **`[Track: <name>]`** tag so concurrent sessions stay distinguishable. Live parallel tracks are listed in **STATUS — at a glance**.
 
-### Session 132 — Low-value container remainders: AEGON Victarion-voyage + NORTH N6 (2026-06-22)
+### Session 132 — Low-value container remainders: AEGON Victarion-voyage + NORTH N6 — [Track: graph] (2026-06-22)
 **Detail:** none (execution — two arc builds via the proven mint machine; light decisions captured here + in the enrichment ledger). **Model:** Opus 4.8 orchestrator + Sonnet-class `general-purpose` subagents (3-lens advisory board + 2 research dips + 3 fresh-verify). **Note:** this is S132 — the parallel D&E track took S131 (both handoffs were stamped "131"; D&E wrote first, so the graph track is 132 per rule #9).
 
 **Cleared both deferred low-value remainders** (Matt: "fan out advisory board, let them decide the order"). A 3-lens advisory board (connectivity / reader-demand / cost-risk) ordered AEGON Euron/Victarion #1, NORTH N6 #2, Bran-enrichment → fold into the Bloodraven/Bran enrichment unit (not a standalone remainder). **Graph: nodes 8,595 → 8,599 (+4), edges 22,476 → 22,497 (+21), 0 citation drift across all 21 edges, 132 edge types (zero invented vocab), no new orphans.**
@@ -289,7 +293,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 **Decisions:** RED LINES held on N6 — Battle of Ice (`battle-of-winterfell`) not minted/wired; Pink Letter not wired upstream (unwritten battle between); **Arnolf Karstark SUSPECTED_OF DROPPED** (he's suspected of an intended betrayal that doesn't execute in published ADWD = TWOW-gated semantic mis-fit; existing `BETRAYS` character edge suffices). Container tag for the Victarion voyage = `[essos]` (its theater), NOT `aegon` (the upstream ironborn thread is untagged; "AEGON" in the handoff was a label, not membership). **Matt S132 enrichment-sequencing refinements:** (a) enrichment dips run in their OWN sessions; (b) the order is a top-down DESCENT — major narrative arcs → granular clusters/sub-plots within them → individual characters (maybe, last); (c) Bloodraven is ONE of many character candidates, NOT the focus (broad roster); (d) harvest-consume is the on-ramp to each enrichment dip.
 **What's next:** **enrichment phase opens** (own session). First task = harvest-consume the 33-row queue as the on-ramp (Bran cave-cluster rows fold into the Bloodraven/Bran unit; Victarion/N6 rows attach to the just-built nodes), then the first major narrative-arc enrichment. Continue prompt: `progress/continue-prompts/2026-06-29-enrichment-phase.md`. Parallel D&E track (`2026-06-29-dunk-egg-pass1-smoke.md`) still live. Minor flag: junk edge `battle-on-the-green-fork PRECEDES fight-by-deepwood-motte` (derived-chronology, unrelated ACOK battle) — defer to a chronology-cleanup pass. (**Sonnet 4.6** for the enrichment session.)
 
-### Session 131 — Dunk & Egg Pass-1: unattended harness design + v4 prompt hardening (2026-06-22)
+### Session 131 — Dunk & Egg Pass-1: unattended harness design + v4 prompt hardening — [Track: D&E] (2026-06-22)
 **Detail:** `history/session-details/session-131.md`. **Model:** Opus 4.8. **Type:** DESIGN (HANDOFF B, parallel-safe with the remainders track). **Launched nothing** — extraction stays gated (`feedback_no_extraction_without_asking`).
 
 Designed + scaffolded the unattended D&E Pass-1 harness and **substantially hardened the v3 prompt → v4**. All deliverables under `working/dunk-egg-pass1/`.
@@ -300,7 +304,7 @@ Designed + scaffolded the unattended D&E Pass-1 harness and **substantially hard
 **Decisions:** (1) **LOCKED relationship vocab in Pass 1** — the Relationship column is now a forced controlled UPPER_CASE type from a curated character-to-character subset, NOT free text. This **realigns to `architecture.md:687`** (already names the Pass-1 extractor a vocab emitter) and **supersedes the stale `:161` free-text note** (predates the vocab) — a rule-#6 paired doc-fix is owed when v4 ships (logged as Active Decision below). Guardrails: `NEEDS_VOCAB:` gap-hatch (`:159` "edge types cheaper than lost info"), `KNOWS` ban (deprecated S63), analytical-type ban (`FORESHADOWS`/`PARALLELS` would re-open isolation). (2) Other fold-ins, discriminated not dumped: forward-direction-only inverse rule (pruned 3 reverse types — *shrank* the prompt); deepened optional-qualifier capture (8 enums embedded); Events sub-bullets→reification roles (added Witness→WITNESS_IN); **`causal-spine` harvest breadcrumb** (point for the arc-mint pass, NOT inline `CAUSES`). **Excluded on purpose:** causal-edge emission, convergence-points, narrative-arcs (graph-layer, invisible under isolation). (3) Evidence-driven: real-extraction audit found isolation already clean (no extra rules) but interpretive-qualifier leak (`symbolic`/`ironic`/`(implicit)`) is the #1 rule-9 defect → banned-word list + "bare names only" on the Raw Entity List. Table structure stays byte-frozen (no downstream parser break). Names de-abbreviated (`de-pass1`→`dunk-egg-pass1`; `thk/tss/tmk` kept = canonical book codes). Versioning added for smoke-testing variants.
 **What's next:** smoke-test v4 on THK → fresh-judge → promote or iterate to v4b → then full-run prereqs. Continue prompt: `progress/continue-prompts/2026-06-29-dunk-egg-pass1-smoke.md` (Dunk & Egg track, parallel-safe). The remainders track (`2026-06-29-low-value-remainders.md`) runs in parallel. (**Opus 4.8** for the smoke-judge session.)
 
-### Session 130 — BRAN spine build: causal arc mint (Batch A + Batch B) (2026-06-22)
+### Session 130 — BRAN spine build: causal arc mint (Batch A + Batch B) — [Track: graph] (2026-06-22)
 **Detail:** `history/session-details/session-130.md` (design adjudications: BR1 fold, BR4 Luwin-correction, journey ENABLES-topology, agency modeling). **Model:** Opus 4.8 orchestrator + Sonnet-class `general-purpose` subagents (2 research dips + 2 independent fresh-verify). **Commit:** this endsession commit.
 
 **Built the BRAN causal spine** from `working/bran-decomposition.md` (S129 dip) — container was **greenfield** (Spine 2 = 0 event nodes) → now fully lit. **+8 nodes, +35 edges (12 causal/agency Tier-2 + 23 role Tier-1; 8,587→8,595 nodes, 22,441→22,476 edges)**; container `bran` **5 → 13**; `--full-chain bran-becomes-a-greenseer` walks 9 hops end-to-end (sack → crypts → split → Black Gate → Coldhands → cave → greenseer). All 35 pass `verify-edge-quotes` (0 drift), 0 new orphans (62), **0 invented edge types (132)**, vocab 169.
@@ -320,7 +324,7 @@ Designed + scaffolded the unattended D&E Pass-1 harness and **substantially hard
 
 ---
 
-### Session 129 — BRAN container decomposition dip (read-only) + AEGON harvest consume (2026-06-22)
+### Session 129 — BRAN container decomposition dip (read-only) + AEGON harvest consume — [Track: graph] (2026-06-22)
 **Detail:** none (execution dip — read-only research mirroring the NORTH/AEGON decomp template; no design decisions, scope settled S122). **Model:** Opus 4.8 orchestrator + 1 Sonnet-class `general-purpose` text-grounding subagent (Bran's 21 POV chapters; 31 tool uses, ~90K tokens). **Commit:** this endsession commit.
 
 **STEP 0 — AEGON harvest consume (the ONLY graph writes; bounded book-citation-overlay pass, prose-only — 0 edges / 0 new nodes):**
@@ -338,7 +342,7 @@ Designed + scaffolded the unattended D&E Pass-1 harness and **substantially hard
 
 ---
 
-### Session 128 — AEGON spine build: A2 + A4 + A3 + A1 (causal arc mint) (2026-06-22)
+### Session 128 — AEGON spine build: A2 + A4 + A3 + A1 (causal arc mint) — [Track: graph] (2026-06-22)
 **Detail:** none (execution build, same machine as S123/S125/S126; clean — 9/9 fresh-verify confirm, 0 adjust). **Model:** Opus 4.8 orchestrator + 1 Sonnet-class `general-purpose` independent fresh-verify subagent. **Commit:** pending Matt's `/endsession`.
 
 **Built the AEGON causal spine** from `working/aegon-decomposition.md` §5 — container `aegon` was **entirely causally DARK** → now fully lit. **+2 nodes, +12 edges (8,585→8,587 nodes; 22,432→22,441 edges)**; container `aegon` **2 → 12 nodes**; `--causal-chain landing` went from **0/0 → 12 upstream + 2 downstream**. All 12 edges pass `verify-edge-quotes` (0 drift), 0 new orphans (62 unchanged), 0 invented edge types (**132**), vocab 169.
