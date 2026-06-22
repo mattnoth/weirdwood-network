@@ -5,6 +5,16 @@
 > **Recommended model:** Sonnet 4.6 (Opus 4.8 orchestrator + 1 Sonnet-class `general-purpose` research subagent for the dip). Same read-only decomposition machine as the NORTH (S124) and AEGON (S127) dips.
 > **This is a READ-ONLY DIP — 0 graph writes (0 nodes minted, 0 edges added).** Local cache only: no HTTP, no wiki refetch. The deliverable is a planning doc; the BUILD is a separate later session.
 
+## STEP 0 — AEGON harvest consume (do FIRST; the ONLY node writes this session)
+Carried from S128 (Matt: "leave it firing next continue prompt"). This is a **bounded book-citation-overlay + bookkeeping pass — node `## Quotes` prose only, NO edges / NO new nodes / NO graph-structure changes.** It does NOT make the BRAN dip itself non-read-only; keep it cleanly separate (do it, then start the dip). Rows live in `working/harvest-queue.md` (the `| ... | aegon-dip |` / `| aegon-verify |` rows).
+1. **Flip to `done`** the 7 rows already attached by the S128 build (their quote is live as an edge `evidence_quote` or a new-node `## Quotes` entry — just update the queue status): `agot-arya-03:93` (dyad) · `adwd-the-lost-lord-01:127` (reveal) · `:217` (sail-west) · `adwd-the-griffin-reborn-01:173` (Storm's End) · `adwd-epilogue:281` (Varys→Kevan) · `:293` (Varys motive) · `:297` (upbringing speech).
+2. **Overlay then flip `done`** the ~6 genuinely-unconsumed rows onto the EXISTING node they enrich (add a `## Quotes` block with the verbatim line + `sources/...:line` cite; line-check each first):
+   - `adwd-the-lost-lord-01:237` + `adwd-the-griffin-reborn-01:141` (Connington's greyscale death-clock) → `jon-connington` node (a CONDITION/greyscale note — this is the "MOTIVATES his haste" detail the AEGON dip flagged, NOT an event node).
+   - `adwd-the-lost-lord-01:61` (Aegon's dyed-blue-hair + Illyrio's rubies disguise) → `aegon-targaryen-young-griff` node (physical description).
+   - `adwd-the-griffin-reborn-01:135` (Griffin's Roost first meal) + `adwd-tyrion-06:161` (Shy Maid provisions + Ysilla's poison-warding) → food/hospitality: attach to the relevant location/food node or `jon-connington`/`shy-maid` per your judgment (these are the harvest "food/hospitality first-class" targets).
+   - `agot-arya-03:79` (Varys "the wolf and lion will soon be at each other's throats") → `varys` node or the dyad context (corroborating, lower priority — overlay if cheap, else flip `done` as captured-by-:93).
+3. After: `working/harvest-queue.md` AEGON rows should be 0 open. Rebuild derived artifacts ONLY if you added/renamed a node (you won't — overlay is prose-only) — so NO `weirwood refresh` needed for this step.
+
 ## Goal
 Produce `working/bran-decomposition.md` — the BRAN container's internal causal trigger-tree, juncture scorecard, and ranked build order — following the **8-section structure of `working/aegon-decomposition.md` / `working/north-decomposition.md`** (use those as the template, exactly). BRAN is the 5th and last of Matt's approved containers (`{essos, wo5k, north, aegon, bran}`) without a decomposition dip. It is **greenfield** (Bran added by Matt's override — container-sized but with almost no scaffolding).
 
