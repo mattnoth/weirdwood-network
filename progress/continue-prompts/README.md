@@ -12,7 +12,8 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-29-low-value-remainders.md` | 2026-06-29 | Low-value container remainders (then enrichment dips) | **LIVE** | Sonnet 4.6 | **New S130.** All 5 approved containers are spine-complete → mop up the deferred low-value remainders, then move to enrichment dips. Backlog: (1) AEGON Euron/Victarion downstream voyage wire; (2) NORTH N6 Stannis-marches-south (+ optional Theon/Jeyne escape); (3) Bran greenseer-enrichment (4 open `bran-dip` harvest rows) / Rickon-Skagos deferral. Pick the highest-demand remainder via a quick dip; skip pure-sequence/wiki-only. **Then enrichment dips** (arc-enrichment 2nd-pass track, memory `project_arc_enrichment_track` + `working/arc-enrichment-backlog.md`). Same arc-mint machine; fresh-verify every causal edge. TWOW/gated-theory material OUT. |
+| `2026-06-29-low-value-remainders.md` | 2026-06-29 | Low-value container remainders (then enrichment dips) | **LIVE** (parallel A) | Sonnet 4.6 | **New S130.** All 5 approved containers are spine-complete → mop up the deferred low-value remainders, then move to enrichment dips. Backlog: (1) AEGON Euron/Victarion downstream voyage wire; (2) NORTH N6 Stannis-marches-south (+ optional Theon/Jeyne escape); (3) Bran greenseer-enrichment (4 open `bran-dip` harvest rows) / Rickon-Skagos deferral. Pick the highest-demand remainder via a quick dip; skip pure-sequence/wiki-only. **Then enrichment dips** (arc-enrichment 2nd-pass track, memory `project_arc_enrichment_track` + `working/arc-enrichment-backlog.md`). Same arc-mint machine; fresh-verify every causal edge. TWOW/gated-theory material OUT. |
+| `2026-06-29-de-longrun-harness-planning.md` | 2026-06-29 | D&E Pass-1 via longrun.sh — harness planning | **LIVE** (parallel B) | Opus 4.8 | **New S130.** PARALLEL-SAFE with parallel-A (different files, different window). **Design session, launches nothing:** plan how to run the Dunk & Egg full-Opus Pass-1 batch (THK/TSS/TMK) UNATTENDED via `longrun.sh` + the unified `scripts/worker-template.py`, passing in a D&E orchestrator sub-script — and use it to exercise/validate the post-Fable-audit unified-script harness. Produces a run-plan + sub-script scaffold; flags the v3-prompt-improvement prereq + chapter-split decision. **Confirm with Matt before any actual extraction** (`feedback_no_extraction_without_asking`). |
 
 ---
 
@@ -55,21 +56,23 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (ONE live track — low-value remainders, then enrichment dips)
+## Open threads right now (TWO parallel-safe live tracks — A graph-building, B harness-design)
 
-> **All 5 approved containers are spine-complete: `{essos✓, wo5k✓, north✓, aegon✓, bran✓}`.** The live dir holds
-> ONE track: the low-value remainders (writes to graph). The chat-UI persona track was parked S123 (Matt: "side
-> thing, will come back to it") — in `archive/`, recoverable.
+> **All 5 approved containers are spine-complete: `{essos✓, wo5k✓, north✓, aegon✓, bran✓}`.** Two LIVE tracks,
+> deliberately parallel (different files, different windows — this is the endsession "one file per independent
+> work track" case, NOT a menu for the same slot). The chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE (graph): `2026-06-29-low-value-remainders.md`** — mop up the deferred low-value container remainders
-(AEGON Euron/Victarion downstream voyage · NORTH N6 Stannis-marches-south · Bran greenseer-enrichment /
-Rickon-Skagos), dip-gated, then move to **enrichment dips** (the arc-enrichment 2nd-pass track — Matt's S130
-directive: remainders first, then enrichment). Same arc-mint machine; fresh-verify every causal edge;
-TWOW/gated-theory material OUT. (**Sonnet 4.6**)
+**LIVE A (graph): `2026-06-29-low-value-remainders.md`** — mop up the deferred low-value container remainders
+(AEGON Euron/Victarion · NORTH N6 · Bran greenseer-enrichment / Rickon-Skagos), dip-gated, then the
+**enrichment phase** (ledger `working/arc-enrichment-backlog.md`; pass-COUNT per unit; arc enrichments first →
+planning session → granular dips). Same arc-mint machine; fresh-verify. TWOW/gated-theory OUT. (**Sonnet 4.6**)
 
-**Queued behind it:** enrichment dips (memory `project_arc_enrichment_track`, backlog
-`working/arc-enrichment-backlog.md`). All container dyads discharged (D1 Varys↔Illyrio + D2 Jorah at AEGON;
-D3 Bran↔Jojen surfaced, consume-on-demand).
+**LIVE B (infra/design): `2026-06-29-de-longrun-harness-planning.md`** — plan running the D&E full-Opus Pass-1
+batch UNATTENDED via `longrun.sh` + the unified `scripts/worker-template.py` (passing in a D&E orchestrator
+sub-script), and validate that post-Fable-audit harness. Design only — launches nothing; confirm before any
+extraction. (**Opus 4.8**)
+
+All container dyads discharged (D1 Varys↔Illyrio + D2 Jorah at AEGON; D3 Bran↔Jojen surfaced, consume-on-demand).
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*
