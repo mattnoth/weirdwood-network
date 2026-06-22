@@ -31,6 +31,15 @@ Enrichment isn't only arc/cluster-shaped. A unit is anything with a built skelet
 character / event can be enriched repeatedly — each pass (fresh subagents + accumulated harvest finds +
 newly-built neighbor units) yields new connections. Track the **pass number** per unit below.
 
+### Sequencing + "no lead" (Matt S130)
+
+**Order: major ARC/cluster enrichments first, THEN the granular character/event units.** Within any tier
+there is **no single "lead" — everything is important** (Matt: "there is no 'lead' you know what I mean?").
+Don't elevate a unit just because it came up in conversation. If we ever do rank character units by raw
+importance, **Jon Snow and Dany are the heavyweights**, not Bloodraven — but the working principle is flat
+priority + sensible sequencing (arc → character → event), not a ranked queue. Pick the next unit by what's
+ready / what a dip shows demand for, not by a standing "#1."
+
 ---
 
 ## DONE (enrichment passes shipped)
@@ -43,9 +52,13 @@ newly-built neighbor units) yields new connections. Track the **pass number** pe
 
 ---
 
-## QUEUED — character units (Matt-named S130, highest current interest)
+## QUEUED — character units (flat priority — comes AFTER the arc enrichments)
 
-### Bloodraven / Brynden Rivers — deep connections back through Dunk & Egg  ⭐ lead character unit
+> No "lead" here (Matt S130). By raw importance the heavyweights are **Jon Snow** and **Daenerys** (each a huge
+> cross-container web — queue them when the character phase opens). **Bloodraven, Bran, Euron** below are
+> Matt-flagged specifics with concrete hooks, not a ranking. Also eventually: Littlefinger, Varys, Tyrion, etc.
+
+### Bloodraven / Brynden Rivers — deep connections back through Dunk & Egg
 **Matt S130: "we def need more bloodraven deep connections going all the way back to dunk and egg bc
 bloodraven / brynden rivers big in theories."** Full scope + dedup baseline: memory
 `project_bloodraven_enrichment_dip`. Builds the *evidence substrate* (Tier 1–2 connection edges) the
