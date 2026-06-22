@@ -3,7 +3,7 @@
   "name": "Defenders killed on battlements",
   "type": "event.battle",
   "node_path": "graph/nodes/events/defenders-killed-on-battlements.node.md",
-  "generated_at": "2026-06-22T15:19:07.689389+00:00",
+  "generated_at": "2026-06-22T16:25:08.094338+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

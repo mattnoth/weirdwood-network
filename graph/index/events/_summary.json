@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-06-22T15:19:07.734977+00:00",
+  "generated_at": "2026-06-22T16:25:08.141031+00:00",
   "entity_type": "events",
   "dry_run": false,
-  "entity_count": 643,
+  "entity_count": 646,
   "type_counts": {
     "event.wedding": 23,
     "event.tournament": 34,
     "event.war": 31,
     "event.execution": 12,
-    "event.battle": 276,
-    "event.incident": 89,
+    "event.battle": 275,
+    "event.incident": 91,
     "event.death": 74,
-    "event.ceremony": 21,
+    "event.ceremony": 22,
     "event.capture": 40,
     "event.assassination": 18,
     "event.deception": 6,
     "event.feast": 5,
     "event.conspiracy": 10,
     "event.trial": 2,
+    "event.decree": 1,
     "event.coronation": 2
   },
-  "entities_with_zero_mentions": 609,
+  "entities_with_zero_mentions": 612,
   "mention_inverse_slugs": 34,
   "top_by_appearances": [
     {

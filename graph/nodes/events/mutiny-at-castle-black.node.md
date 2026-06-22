@@ -1,32 +1,21 @@
 ---
 name: "Mutiny at Castle Black"
-type: event.battle
+type: event.incident
 slug: mutiny-at-castle-black
 aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mutiny_at_Castle_Black"
 bucket_id: battles-f-p
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
-occurred:
-  ac_year: 300
-  precision: year
-  basis_source: wiki-year-page
-  basis_reliability: tertiary-fan
-  date_confidence: tier-3
+same_as: jon-is-stabbed-repeatedly
 ---
 
 ## Identity
 
-Mutiny at Castle Black is a event.battle from the AWOIAF wiki.
+Redirect page. "Mutiny at Castle Black" is an alternative name for the event canonicalized as [Jon is stabbed repeatedly](jon-is-stabbed-repeatedly) — the ADWD Jon XIII assassination of Lord Commander Jon Snow by his own officers. Merged S126 (NORTH spine build, N4); the tier-1 wiki Origins prose was ported to the survivor, which carries the curated role-edge structure and is the NORTH-container terminus.
 
-## Edges
+## Notes
 
-- FIGHTS_IN: Conflict beyond the Wall (track_b: Conflict)
-- DEFEATS: Lord Commander (track_b: Result)
-- DEFEATS: Jon Snow (track_b: Result)
-
-## Origins
-
-Weeks after [Stannis Baratheon](wiki:Stannis_Baratheon) departed for [Winterfell](wiki:Winterfell), [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch) [Jon Snow](wiki:Jon_Snow) receives a taunting [letter](wiki:Bastard_Letter) purportedly from [Ramsay Bolton](wiki:Ramsay_Bolton), addressed to 'Bastard,' which claims that Stannis has been defeated and [Mance Rayder](wiki:Mance_Rayder) captured. It demands fealty from Jon to [House Bolton](wiki:House_Bolton) if the Night's Watch is to survive and gives a detailed account of Ramsay's actions. Jon views it in disgust, as it repeatedly sullies the honor of what was once the ancient seat of [House Stark](wiki:House_Stark).(wiki:Mutiny_at_Castle_Black.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) He responds to Ramsay's letter by relinquishing command of an impending ranging to [Hardhome](wiki:Hardhome) and announces his intention to ride south against the Boltons. He does not order the Night's Watch to fight with him, but asks both [wildlings](wiki:Wildlings) and black brothers alike to join him of their own volition.
+Former standalone wiki node. Its lone edge — a bogus `battle-on-the-green-fork PRECEDES mutiny-at-castle-black` cross-year chronology artifact — was dropped at the merge. See `jon-is-stabbed-repeatedly` for the live node.

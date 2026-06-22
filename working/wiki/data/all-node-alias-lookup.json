@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-22T15:19:08.115740+00:00",
+  "computed_at": "2026-06-22T16:25:08.529952+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -4178,6 +4178,14 @@
     "assassination of balon greyjoy": [
       {
         "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "assassination of jon snow": [
+      {
+        "canonical_slug": "jon-is-stabbed-repeatedly",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -13257,6 +13265,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "choosing of jon snow": [
+      {
+        "canonical_slug": "jon-elected-lord-commander",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "choq choq": [
@@ -26567,6 +26583,14 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-name:texts"
+      }
+    ],
+    "for the watch": [
+      {
+        "canonical_slug": "jon-is-stabbed-repeatedly",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "ford": [
@@ -44043,6 +44067,30 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "jon admits the wildlings through the wall": [
+      {
+        "canonical_slug": "jon-allows-free-folk-through-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jon allows free folk through the wall": [
+      {
+        "canonical_slug": "jon-allows-free-folk-through-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "jon allows the free folk through the wall": [
+      {
+        "canonical_slug": "jon-allows-free-folk-through-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "jon argues against the dreadfort attack": [
       {
         "canonical_slug": "jon-argues-against-the-dreadfort-attack",
@@ -44147,6 +44195,22 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "jon elected lord commander": [
+      {
+        "canonical_slug": "jon-elected-lord-commander",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "jon elected the 998th lord commander of the night's watch": [
+      {
+        "canonical_slug": "jon-elected-lord-commander",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jon executes slynt": [
       {
         "canonical_slug": "execution-of-janos-slynt",
@@ -44219,6 +44283,14 @@
         "source": "node-slug"
       }
     ],
+    "jon lets the free folk through the wall": [
+      {
+        "canonical_slug": "jon-allows-free-folk-through-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jon lets ygritte go": [
       {
         "canonical_slug": "jon-spares-ygritte",
@@ -44275,6 +44347,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "jon opens the wall to the free folk": [
+      {
+        "canonical_slug": "jon-allows-free-folk-through-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jon overhears the conspiracy": [
       {
         "canonical_slug": "jon-overhears-the-conspiracy",
@@ -44313,6 +44393,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "jon reads ramsay's letter": [
+      {
+        "canonical_slug": "pink-letter-delivered",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jon receives the pink letter": [
+      {
+        "canonical_slug": "pink-letter-delivered",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jon redfort": [
@@ -44369,6 +44465,30 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "jon snow becomes the 998th lord commander": [
+      {
+        "canonical_slug": "jon-elected-lord-commander",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jon snow chosen lord commander": [
+      {
+        "canonical_slug": "jon-elected-lord-commander",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jon snow is stabbed": [
+      {
+        "canonical_slug": "jon-is-stabbed-repeatedly",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jon snow theories": [
@@ -51387,6 +51507,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "lord commander choosing": [
+      {
+        "canonical_slug": "jon-elected-lord-commander",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "lord commander crowl": [
@@ -61987,6 +62115,14 @@
         "source": "all-node-name:factions"
       }
     ],
+    "night's watch mutiny against jon snow": [
+      {
+        "canonical_slug": "jon-is-stabbed-repeatedly",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "night's watch rebellion of 50 ac": [
       {
         "canonical_slug": "nights-watch-rebellion-of-50-ac",
@@ -63763,6 +63899,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "opening of the gate to the free folk": [
+      {
+        "canonical_slug": "jon-allows-free-folk-through-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "oppo": [
@@ -65821,6 +65965,38 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-slug:species"
+      }
+    ],
+    "pink letter arrives": [
+      {
+        "canonical_slug": "pink-letter-delivered",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "pink letter arrives at castle black": [
+      {
+        "canonical_slug": "pink-letter-delivered",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "pink letter delivered": [
+      {
+        "canonical_slug": "pink-letter-delivered",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "pink letter is delivered": [
+      {
+        "canonical_slug": "pink-letter-delivered",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "pink priest": [
@@ -69263,6 +69439,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "reading of the bastard letter": [
+      {
+        "canonical_slug": "pink-letter-delivered",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "realm of the jhogwin": [
@@ -92703,8 +92887,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18990,
-    "unique_phrases": 11487
+    "total_node_entries": 19015,
+    "unique_phrases": 11510
   },
   "version": "v1"
 }

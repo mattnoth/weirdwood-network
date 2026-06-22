@@ -3,7 +3,7 @@
   "name": "Siege of Meereen",
   "type": "event.battle",
   "node_path": "graph/nodes/events/siege-of-meereen.node.md",
-  "generated_at": "2026-06-22T15:19:07.700784+00:00",
+  "generated_at": "2026-06-22T16:25:08.106417+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_referenced_in": 2,

@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-22 (refreshed after S125)  
+**Generated:** 2026-06-22 (refreshed after S126)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,13 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-24-north-spine-build-n3-n4.md` | 2026-06-24 | NORTH spine build pt.2 (graph track) | **LIVE** | Sonnet 4.6 | **New S125.** NORTH top-3 (N5/N2/N1) BUILT S125 (worklog S125; container north=13). **BUILD session** (mutates graph): **N3** LC election → Slynt execution (mint `jon-elected-lord-commander`, 1 mint) · **N4** free folk → Pink Letter → stabbing (mint `jon-allows-free-folk-through-the-wall` + `pink-letter-delivered`, ~2 mints) **+ execute the `mutiny-at-castle-black`↔`jon-is-stabbed-repeatedly` merge** (canonical = the stabbing node). Fresh-verify every causal edge; agency-collapse care on the stabbing MOTIVATES chain; `jon-is-stabbed-repeatedly` is the hard terminus (no TWOW). Spec `working/north-decomposition.md` §3 Rank4/Rank5. AEGON (fix `PART_OF war-of-five-kings` edge bug first) + Bran decomp dips queued behind it. |
+| `2026-06-25-aegon-container-decomposition.md` | 2026-06-25 | AEGON container decomp dip (graph track) | **LIVE** | Sonnet 4.6 | **New S126.** READ-ONLY decomp dip → `working/aegon-decomposition.md` (mirrors the NORTH/WO5K/Essos dip template). AEGON is the subagent-recommended next container over Bran: 8+ Golden-Company campaign nodes already on disk (ready scaffolding nested under `landing-of-the-golden-company` via PART_OF), and it unblocks the parked Varys/Illyrio + Jorah dyads (`working/dyad-queue.md`). The 2 mis-filed `PART_OF war-of-the-five-kings` edges get fixed at the BUILD's step 1, NOT the dip. Bran decomp = runner-up (greenfield). |
 
 ---
 
-## Archive (`archive/` subfolder — 43 files)
+## Archive (`archive/` subfolder — 45 files)
 
+> **`2026-06-24-north-spine-build-n3-n4.md`** — archived S126. **DONE (S126):** built NORTH N3 (LC election → Slynt execution; minted `jon-elected-lord-commander`) + N4 (free folk → Pink Letter → stabbing; minted `jon-allows-free-folk-through-the-wall` + `pink-letter-delivered`) **+ executed the `mutiny-at-castle-black`→`jon-is-stabbed-repeatedly` merge** (loser→`same_as` redirect, survivor absorbed the tier-1 wiki Origins; junk PRECEDES dropped). +3 nodes / +9 edges −1 junk (22,424→22,432); agency-preserving topology (fresh-verify REJECTED any blunt free-folk→stabbing CAUSES — all routes through `MOTIVATES bowen-marsh` + the Pink-Letter TRIGGERS); 2 cites re-pointed at fresh-verify. Container north 13→17; **NORTH spine-complete (both termini wired).** Superseded as live by the AEGON decomp dip.
 > **`2026-06-23-north-spine-build.md`** — archived S125. **DONE (S125):** built the NORTH top-3 (N5 Roose-Warden + N2 Stannis-at-the-Wall [enrich-not-mint: `battle-beneath-the-wall` already is the rout, so only the `stannis-moves-to-the-wall` bridge was minted] + N1 great-ranging-wire). +2 nodes / +13 edges (22,411→22,424); every causal edge fresh-verified (dropped N5 MOTIVATES; retyped N2 bridge→battle; downgraded attack→battle Tier-3; corrected N1 mutiny source to the Fist). Container north 2→13; WO5K→NORTH seam traverses end-to-end. Dedup resolved (canonical=`jon-is-stabbed-repeatedly`, merge deferred to N4). Harvest consume-pass ran (queue 0 open). Superseded as live by the N3+N4 build.
 > **`2026-06-23-north-container-decomposition.md`** — archived S124. **DONE (S124):** the read-only NORTH decomposition dip ran → `working/north-decomposition.md` (603 lines; trigger-tree + scorecard + ranked build order). NORTH is greenfield, two spines (Jon's Watch arc + Bolton/Stannis political thread); 13 key junctures = 4 HIT-but-dark / 6 MISS / 2 partial. Top-3 = N5 Roose-Warden (11/12, 1 mint) · N2 Stannis-defeats-wildlings (11/12, 2 mints) · N1 great-ranging-wire (10/12, 0 mints). Superseded as the live prompt by the NORTH spine build.
 > **`2026-06-22-chat-ui-personality-design.md`** — archived S123 (parked, recoverable). **PARKED:** Matt deprioritized the chat-UI persona/voice design ("side thing, will come back to it"). The design task is unchanged and self-contained — restore to live when Matt wants the front-end track. Not started.
@@ -49,19 +50,20 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (ONE live track — the NORTH spine build)
+## Open threads right now (ONE live track — the AEGON decomp dip)
 
-> The live dir holds ONE track: the NORTH spine build. The NORTH decomp dip is DONE (S124, archived). The chat-UI
-> persona track was parked S123 (Matt: "side thing, will come back to it") — in `archive/`, recoverable.
+> The live dir holds ONE track: the AEGON container decomposition dip (read-only). NORTH went spine-complete S126
+> (N5/N2/N1 built S125; N3/N4 + the mutiny merge built S126 — both prompts archived). The chat-UI persona track was
+> parked S123 (Matt: "side thing, will come back to it") — in `archive/`, recoverable.
 
-**LIVE (graph): `2026-06-23-north-spine-build.md`** — the NORTH decomp dip (S124) ranked the junctures; this BUILD
-session mints the top-3 in order: **N5** Red Wedding → `roose-named-warden-of-the-north` (1 mint, opens the Bolton
-spine) → **N2** Wall battle → `stannis-defeats-wildlings-at-the-wall` + `stannis-moves-to-the-wall` bridge (2 mints,
-the NORTH pivot) → **N1** `great-ranging` declared-but-unwired edge-wire (0 mints). 3 mints for the top-3; fresh-verify
-every causal edge; spec = `working/north-decomposition.md`. (**Sonnet 4.6**)
+**LIVE (graph): `2026-06-25-aegon-container-decomposition.md`** — READ-ONLY decomp dip producing
+`working/aegon-decomposition.md` (mirrors the NORTH/WO5K/Essos dip template). AEGON is the subagent-recommended next
+container over Bran: 8+ Golden-Company campaign nodes already on disk (ready scaffolding), and it unblocks the parked
+Varys/Illyrio + Jorah dyads (`working/dyad-queue.md`). The 2 mis-filed `PART_OF war-of-the-five-kings` edges get fixed
+at the BUILD's step 1, not the dip. (**Sonnet 4.6**)
 
-**Queued behind it (each its own decomp dip first):** AEGON (Golden Company; fix the `PART_OF war-of-the-five-kings`
-edge-hygiene bug first) and Bran (greenfield flight-to-the-north spine). SET = `{essos✓, wo5k✓, north, aegon, bran}`.
+**Queued behind it:** the AEGON build (after the dip), then Bran (greenfield flight-to-the-north spine — its own
+decomp dip first). SET = `{essos✓, wo5k✓, north✓, aegon, bran}`.
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*
