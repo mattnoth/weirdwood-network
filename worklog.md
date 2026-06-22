@@ -281,6 +281,13 @@ This is your project memory. When you come back after a break, **STATUS — at a
 
 **What's next:** **All 5 approved containers are spine-complete.** Matt's pick: **(1) low-value remainders first** (AEGON Euron/Victarion downstream wire, NORTH N6 Stannis-marches-south, Bran greenseer-enrichment / Rickon-Skagos), **(2) then enrichment dips** (the arc-enrichment 2nd-pass track, `project_arc_enrichment_track`). Live continue prompt `progress/continue-prompts/2026-06-29-low-value-remainders.md`; this build prompt archived. (**Sonnet 4.6**)
 
+**Post-build chat (S130) — enrichment-phase decisions (folded into `working/arc-enrichment-backlog.md`, now a running ENRICHMENT LEDGER):**
+- **Enrichment phase is now OPEN** — the S116/S117 spine-first gate tripped (all 5 containers spine-complete). Enrichment is the primary track after the low-value remainders.
+- **Ledger broadened to 3 unit kinds:** arc/cluster · major **character** · major **event-within-container**. **Status = a pass-COUNT, not a done/queued binary** (a unit is never "done" — "1 pass done / pass 2 / N"; 0 = not started). Multi-pass per unit is the norm.
+- **No "lead" unit — flat priority; everything's important** (Matt walked back my Bloodraven-as-lead framing). By raw weight Jon/Dany are the heavyweight character units. Bloodraven (deep connections back through **Dunk & Egg**; memory `project_bloodraven_enrichment_dip`), Bran, Euron (incl. the gated Euron↔Bloodraven *evidence-substrate* thread) are Matt-flagged specifics, not a ranking. **Theory READINGS stay gated**; enrichment builds the Tier-1/2 evidence layer only.
+- **Sequence:** low-value remainders → major arc/cluster enrichments → **[dedicated planning session: scope the granular cluster/character/event dip list]** → granular character/event dips. The current character/event entries are SEEDS, not the final plan.
+- **D&E Pass 1 UN-DEFERRED** (THK/TSS/TMK, full Opus, improve the v3 prompt first). **NEW (Matt): run it UNATTENDED via `longrun.sh` + the unified `scripts/worker-template.py` as a TEST of that machinery** — D&E is the ideal small/self-contained payload; this **decouples D&E from the enrichment ordering** (can run concurrently / in the background when Matt has spare usage or is away). Confirm before launching (per `feedback_no_extraction_without_asking`).
+
 ---
 
 ### Session 129 — BRAN container decomposition dip (read-only) + AEGON harvest consume (2026-06-22)

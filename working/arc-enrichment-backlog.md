@@ -130,15 +130,22 @@ substrate. Surface to the theories track when it opens.
 
 ## ROADMAP — Dunk & Egg full Opus Pass-1 batch (Matt S130)
 
-**D&E Pass 1 is being UN-DEFERRED.** Matt S130: "we can do Dunk And Egg full Opus analysis batch job soon,
-after the first enrichment passes … cake compared to doing an analysis over a whole book, plus we have come so
-far since the first book passes, we can def make those prompts better." So:
-- **Sequence:** after the first enrichment passes (esp. once the Bloodraven character unit shows what D&E
-  coverage it needs). NOT now.
+**D&E Pass 1 is being UN-DEFERRED.** Matt S130: "we can do Dunk And Egg full Opus analysis batch job soon …
+cake compared to doing an analysis over a whole book, plus we have come so far since the first book passes, we
+can def make those prompts better." So:
 - **Scope:** the 3 novellas (THK/TSS/TMK), full Opus mechanical Pass 1 — small vs a full book.
 - **Improve the prompts first:** the v3 Pass-1 prompt predates everything we've learned; revise before running
-  (this is the "make those prompts better" step). The D&E extractions then feed the Bloodraven enrichment with
-  proper structured nodes instead of book-cite-overlay-only.
+  (the "make those prompts better" step). The D&E extractions then feed the Bloodraven enrichment with proper
+  structured nodes instead of book-cite-overlay-only.
+- **RUN IT UNATTENDED via `longrun.sh` — and use it to TEST that machinery (Matt S130).** D&E is the ideal
+  test payload for the unified worker script (`scripts/worker-template.py`) + `longrun.sh` supervisor (S97/S99;
+  survives rate-limit walls, auto-resumes — cf. `scripts/stage4-run-forever.sh`, memory
+  `project_stage4_run_forever_wrapper`): small, self-contained, mechanical. Write a D&E **sub-script** (worker
+  config for the 3 novellas) and let longrun drive it. This **decouples D&E from the enrichment ordering** — it
+  no longer has to wait for "after the first enrichment passes"; it can run **CONCURRENTLY / in the background**
+  whenever Matt has spare usage or is away during the (interactive, one-at-a-time) enrichment runs. Two wins in
+  one: get D&E extracted AND exercise the unattended-longrun pipeline that hasn't been run in a while.
+  **Caveat:** per `feedback_no_extraction_without_asking`, confirm with Matt before launching any extraction.
 - Today (before that batch): Bloodraven D&E links come via the **book-citation-overlay** pattern
   (`feedback_book_citation_overlay_value`) — read the novella files directly, attach `chapter:line` cites.
 
