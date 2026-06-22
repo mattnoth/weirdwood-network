@@ -2,6 +2,7 @@
 name: "Taking of Greenstone"
 type: event.battle
 slug: taking-of-greenstone
+containers: [aegon]
 aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Taking_of_Greenstone"

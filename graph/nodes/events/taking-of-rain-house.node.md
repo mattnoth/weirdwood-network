@@ -2,6 +2,7 @@
 name: "Taking of Rain House"
 type: event.battle
 slug: taking-of-rain-house
+containers: [aegon]
 aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Taking_of_Rain_House"

@@ -2,6 +2,7 @@
 name: "Fall of Mistwood"
 type: event.battle
 slug: fall-of-mistwood
+containers: [aegon]
 aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Fall_of_Mistwood"

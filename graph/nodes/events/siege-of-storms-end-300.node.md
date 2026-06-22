@@ -2,6 +2,7 @@
 name: "Siege of Storm's End (300)"
 type: event.battle
 slug: siege-of-storms-end-300
+containers: [aegon, wo5k]
 aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Siege_of_Storm's_End_(300)"

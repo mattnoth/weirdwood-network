@@ -2,6 +2,7 @@
 name: "Taking of Griffin's Roost"
 type: event.battle
 slug: taking-of-griffins-roost
+containers: [aegon]
 aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Taking_of_Griffin's_Roost"

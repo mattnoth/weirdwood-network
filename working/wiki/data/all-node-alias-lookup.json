@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-22T16:25:08.529952+00:00",
+  "computed_at": "2026-06-22T18:15:35.989051+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -311,6 +311,22 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "aegon claims the iron throne himself": [
+      {
+        "canonical_slug": "golden-company-sails-for-westeros",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "aegon decides to sail west": [
+      {
+        "canonical_slug": "golden-company-sails-for-westeros",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "aegon dragonlord": [
       {
         "canonical_slug": "aegon-i-targaryen",
@@ -391,6 +407,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "aegon is revealed to the golden company": [
+      {
+        "canonical_slug": "aegon-revealed-to-the-golden-company",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "aegon iv targaryen": [
       {
         "canonical_slug": "aegon-iv-targaryen",
@@ -407,12 +431,28 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "aegon revealed to the golden company": [
+      {
+        "canonical_slug": "aegon-revealed-to-the-golden-company",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "aegon rhaenys and visenya islands": [
       {
         "canonical_slug": "aegon-rhaenys-and-visenya-islands",
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "aegon shown to the war council": [
+      {
+        "canonical_slug": "aegon-revealed-to-the-golden-company",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "aegon targaryen": [
@@ -485,6 +525,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-name:characters"
+      }
+    ],
+    "aegon targaryen revealed": [
+      {
+        "canonical_slug": "aegon-revealed-to-the-golden-company",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "aegon targaryen son of aenys i": [
@@ -15275,6 +15323,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "connington reveals the prince": [
+      {
+        "canonical_slug": "aegon-revealed-to-the-golden-company",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "conquest": [
@@ -30473,6 +30529,30 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "golden company crosses to westeros": [
+      {
+        "canonical_slug": "golden-company-sails-for-westeros",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "golden company sails for westeros": [
+      {
+        "canonical_slug": "golden-company-sails-for-westeros",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "golden company sails west": [
+      {
+        "canonical_slug": "golden-company-sails-for-westeros",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "golden dragon": [
       {
         "canonical_slug": "golden-dragon",
@@ -32203,6 +32283,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "griff reveals aegon's identity": [
+      {
+        "canonical_slug": "aegon-revealed-to-the-golden-company",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "griffin": [
@@ -86605,6 +86693,14 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "unveiling of young griff": [
+      {
+        "canonical_slug": "aegon-revealed-to-the-golden-company",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "unwin peake": [
       {
         "canonical_slug": "unwin-peake",
@@ -88789,6 +88885,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "war council votes to invade": [
+      {
+        "canonical_slug": "golden-company-sails-for-westeros",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "war for the dawn": [
@@ -92887,8 +92991,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19015,
-    "unique_phrases": 11510
+    "total_node_entries": 19029,
+    "unique_phrases": 11523
   },
   "version": "v1"
 }

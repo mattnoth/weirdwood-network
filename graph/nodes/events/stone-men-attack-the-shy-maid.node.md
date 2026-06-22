@@ -1,5 +1,6 @@
 ---
 slug: stone-men-attack-the-shy-maid
+containers: [aegon]
 type: event.incident
 name: "Stone men attack the Shy Maid"
 status: minted-plate3

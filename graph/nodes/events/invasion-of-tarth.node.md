@@ -2,6 +2,7 @@
 name: "Invasion of Tarth"
 type: event.battle
 slug: invasion-of-tarth
+containers: [aegon]
 aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Invasion_of_Tarth"
