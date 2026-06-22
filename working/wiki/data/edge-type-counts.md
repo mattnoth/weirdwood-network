@@ -1,18 +1,18 @@
 # Edge Type Counts — Weirwood Network
 
-Generated: 2026-06-21T15:58:54+00:00
+Generated: 2026-06-22T06:38:32+00:00
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Node files scanned | 8,308 |
+| Node files scanned | 8,321 |
 | Canonical edge types | 169 |
-| Populated types (≥1 instance) | 58 |
-| Unpopulated types (0 instances) | 111 |
+| Populated types (≥1 instance) | 59 |
+| Unpopulated types (0 instances) | 110 |
 | Drift types (not in canonical) | 0 |
-| Total edge instances | 21,083 |
-| Infobox edges | 21,083 |
+| Total edge instances | 21,084 |
+| Infobox edges | 21,084 |
 | Prose-derived edges | 0 |
 
 ## By Category
@@ -77,21 +77,21 @@ Generated: 2026-06-21T15:58:54+00:00
 | `CONTRACTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
 | `CONSPIRES_WITH` *(unpopulated)* | 0 | 0 | 0 |
 
-### Military & Conflict — 10/28 populated, 633 instances
+### Military & Conflict — 11/28 populated, 632 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
-| `DEFEATS` | 349 | 349 | 0 |
-| `FIGHTS_IN` | 233 | 233 | 0 |
+| `DEFEATS` | 347 | 347 | 0 |
+| `FIGHTS_IN` | 232 | 232 | 0 |
 | `KILLS` | 31 | 31 | 0 |
 | `PRISONER_OF` | 5 | 5 | 0 |
 | `COMMANDS_IN` | 4 | 4 | 0 |
 | `CAPTURES` | 4 | 4 | 0 |
 | `DUELS` | 3 | 3 | 0 |
+| `PART_OF` | 2 | 2 | 0 |
 | `KILLED_BY` | 2 | 2 | 0 |
-| `PART_OF` | 1 | 1 | 0 |
+| `SUB_BEAT_OF` | 1 | 1 | 0 |
 | `EXECUTES` | 1 | 1 | 0 |
-| `SUB_BEAT_OF` *(unpopulated)* | 0 | 0 | 0 |
 | `BESIEGES` *(unpopulated)* | 0 | 0 | 0 |
 | `POISONS` *(unpopulated)* | 0 | 0 | 0 |
 | `RANSOMS` *(unpopulated)* | 0 | 0 | 0 |
@@ -244,11 +244,11 @@ Generated: 2026-06-21T15:58:54+00:00
 | `CONTRADICTS` *(unpopulated)* | 0 | 0 | 0 |
 | `CITED_BY` *(unpopulated)* | 0 | 0 | 0 |
 
-### Causal & Plot — 1/6 populated, 2 instances
+### Causal & Plot — 1/6 populated, 4 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
-| `CAUSES` | 2 | 2 | 0 |
+| `CAUSES` | 4 | 4 | 0 |
 | `PREVENTS` *(unpopulated)* | 0 | 0 | 0 |
 | `ENABLES` *(unpopulated)* | 0 | 0 | 0 |
 | `MOTIVATES` *(unpopulated)* | 0 | 0 | 0 |
@@ -271,7 +271,7 @@ Generated: 2026-06-21T15:58:54+00:00
 | `ATTENDS` *(unpopulated)* | 0 | 0 | 0 |
 | `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` *(unpopulated)* | 0 | 0 | 0 |
 
-## Unpopulated Types (111 total — Stage 4 targets)
+## Unpopulated Types (110 total — Stage 4 targets)
 
 These are the types with zero instances in the current graph.
 They are the primary targets for Stage 4 (prose-edge classification).
@@ -279,7 +279,7 @@ They are the primary targets for Stage 4 (prose-edge classification).
 - **Kinship & Family:** `COURTS`, `COUSIN_OF`, `IN_LAW_OF`, `MARRIES_OFF`, `MILK_BROTHER_OF`, `NEPHEW_OF`, `NURSED_BY`, `PROPOSED_AS_BRIDE`, `STEP_CHILD_OF`, `STEP_PARENT_OF`, `UNCLE_OF`, `WET_NURSE_OF`
 - **Political & Authority:** `APPOINTS`, `BANISHES`, `BREAKS_VOW`, `DEPOSES`, `VOWS_TO`
 - **Factional & Diplomatic:** `CONSPIRES_WITH`, `CONTRACTED_WITH`, `NEGOTIATES_WITH`
-- **Military & Conflict:** `AGENT_IN`, `ASSAULTS`, `ATTACKS`, `BESIEGES`, `BESTOWS_KNIGHTHOOD_ON`, `GUARDS`, `IMPRISONS`, `KILLED_WITH`, `KNIGHTED_BY`, `PARTICIPATES_IN`, `POISONS`, `PRISONER_EXCHANGE_FOR`, `RANSOMS`, `RESCUES`, `SUB_BEAT_OF`, `TORTURES`, `VICTIM_IN`, `WITNESS_IN`
+- **Military & Conflict:** `AGENT_IN`, `ASSAULTS`, `ATTACKS`, `BESIEGES`, `BESTOWS_KNIGHTHOOD_ON`, `GUARDS`, `IMPRISONS`, `KILLED_WITH`, `KNIGHTED_BY`, `PARTICIPATES_IN`, `POISONS`, `PRISONER_EXCHANGE_FOR`, `RANSOMS`, `RESCUES`, `TORTURES`, `VICTIM_IN`, `WITNESS_IN`
 - **Knowledge & Information:** `AFFLICTED_BY`, `DECEIVES`, `DIED_OF`, `HEALS`, `HOARDS`, `IGNORANT_OF`, `INFORMS`, `INVESTIGATES`, `REVEALS_TO`, `SPIES_ON`, `TUTORS`
 - **Emotional & Perceptual:** `COMPANION_OF`, `DISTRUSTS`, `ENCOUNTERS`, `FEARS`, `HATES`, `MOURNS`, `PERCEIVED_AS`, `REPUTED_AS`, `RESENTS`, `TRUSTS`
 - **Spatial & Temporal:** `CONTEMPORARY_WITH`, `IMPRISONED_AT`, `TRAVELS_TO`, `TRAVELS_WITH`
@@ -312,9 +312,9 @@ None. All emitted edge types are in the canonical vocabulary.
 | 8 | `REGION_OF` | Spatial & Temporal | 615 |
 | 9 | `OVERLORD_OF` | Political & Authority | 582 |
 | 10 | `RULES` | Political & Authority | 562 |
-| 11 | `DEFEATS` | Military & Conflict | 349 |
+| 11 | `DEFEATS` | Military & Conflict | 347 |
 | 12 | `SEAT_OF` | Spatial & Temporal | 338 |
-| 13 | `FIGHTS_IN` | Military & Conflict | 233 |
+| 13 | `FIGHTS_IN` | Military & Conflict | 232 |
 | 14 | `HEIR_TO` | Kinship & Family | 206 |
 | 15 | `SUCCEEDS` | Political & Authority | 192 |
 | 16 | `LOVER_OF` | Kinship & Family | 182 |
@@ -328,19 +328,19 @@ None. All emitted edge types are in the canonical vocabulary.
 | Rank | Edge Type | Category | Instances |
 |------|-----------|----------|-----------|
 | 1 | `WRITTEN_BY` | Narrative & Literary | 1 |
-| 2 | `SEEKS` | Knowledge & Information | 1 |
-| 3 | `SAME_AS` | Identity & Disguise | 1 |
-| 4 | `RESPECTS` | Emotional & Perceptual | 1 |
-| 5 | `PART_OF` | Military & Conflict | 1 |
+| 2 | `SUB_BEAT_OF` | Military & Conflict | 1 |
+| 3 | `SEEKS` | Knowledge & Information | 1 |
+| 4 | `SAME_AS` | Identity & Disguise | 1 |
+| 5 | `RESPECTS` | Emotional & Perceptual | 1 |
 | 6 | `EXECUTES` | Military & Conflict | 1 |
 | 7 | `DISGUISED_AS` | Identity & Disguise | 1 |
 | 8 | `DECEIVED_BY` | Knowledge & Information | 1 |
 | 9 | `ALIAS_OF` | Identity & Disguise | 1 |
 | 10 | `ADVISES` | Political & Authority | 1 |
 | 11 | `WIELDS` | Possession & Ownership | 2 |
-| 12 | `LOVES` | Emotional & Perceptual | 2 |
-| 13 | `KILLED_BY` | Military & Conflict | 2 |
-| 14 | `CAUSES` | Causal & Plot | 2 |
+| 12 | `PART_OF` | Military & Conflict | 2 |
+| 13 | `LOVES` | Emotional & Perceptual | 2 |
+| 14 | `KILLED_BY` | Military & Conflict | 2 |
 | 15 | `BETRAYS` | Factional & Diplomatic | 2 |
 | 16 | `ANCESTOR_OF` | Kinship & Family | 2 |
 | 17 | `TEACHES` | Knowledge & Information | 3 |

@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-22T01:13:37.991603+00:00",
+  "computed_at": "2026-06-22T07:03:13.113349+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -4941,6 +4941,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "balon crowns himself king of the iron islands": [
+      {
+        "canonical_slug": "balon-declares-himself-king",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "balon declares himself king": [
+      {
+        "canonical_slug": "balon-declares-himself-king",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "balon falls at pyke": [
       {
         "canonical_slug": "death-of-balon-greyjoy",
@@ -4965,9 +4981,25 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "balon greyjoy declares himself king": [
+      {
+        "canonical_slug": "balon-declares-himself-king",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "balon greyjoy dies": [
       {
         "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "balon greyjoy proclaims himself king": [
+      {
+        "canonical_slug": "balon-declares-himself-king",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -4995,6 +5027,30 @@
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-name:theories"
+      }
+    ],
+    "balon launches the ironborn invasion": [
+      {
+        "canonical_slug": "ironborn-invasion-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "balon pays the iron price for his crown": [
+      {
+        "canonical_slug": "balon-declares-himself-king",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "balon rejects robb's offer": [
+      {
+        "canonical_slug": "balon-declares-himself-king",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "balon swann": [
@@ -5059,6 +5115,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "balon's invasion of the north": [
+      {
+        "canonical_slug": "ironborn-invasion-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "bambarro bazanne": [
@@ -7903,6 +7967,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "bitterbridge alliance": [
+      {
+        "canonical_slug": "littlefinger-brokers-tyrell-lannister-alliance",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "bittersteel": [
@@ -24481,6 +24553,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "false news of bran and rickon's deaths": [
+      {
+        "canonical_slug": "robb-receives-false-news-of-brans-death",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "false shepherd": [
       {
         "canonical_slug": "false-shepherd",
@@ -31445,6 +31525,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "greatjon brings robb news of winterfell": [
+      {
+        "canonical_slug": "robb-receives-false-news-of-brans-death",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "greatjon proclaims robb king": [
@@ -41879,6 +41967,14 @@
         "source": "node-slug"
       }
     ],
+    "iron fleet sails on the north": [
+      {
+        "canonical_slug": "ironborn-invasion-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "iron gate": [
       {
         "canonical_slug": "iron-gate",
@@ -42035,6 +42131,22 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "ironborn hosting against the north": [
+      {
+        "canonical_slug": "ironborn-invasion-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "ironborn invasion of the north": [
+      {
+        "canonical_slug": "ironborn-invasion-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "ironborn raid the reach": [
@@ -44991,6 +45103,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "karstark host deserts robb": [
+      {
+        "canonical_slug": "karstark-host-deserts-robb",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "karstark men desert riverrun": [
+      {
+        "canonical_slug": "karstark-host-deserts-robb",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "karstark men hunting the kingslayer": [
       {
         "canonical_slug": "karstark-men-hunting-the-kingslayer",
@@ -45007,9 +45135,25 @@
         "source": "node-slug"
       }
     ],
+    "karstark riders melt away": [
+      {
+        "canonical_slug": "karstark-host-deserts-robb",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "karstark-kills-the-lannister-and-frey-captives": [
       {
         "canonical_slug": "karstark-murders-prisoners-at-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "karstarks abandon robb": [
+      {
+        "canonical_slug": "karstark-host-deserts-robb",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -45739,6 +45883,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "balon-declares-himself-king",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "king of seals": [
@@ -50155,6 +50305,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "littlefinger brokers the tyrell-lannister alliance": [
+      {
+        "canonical_slug": "littlefinger-brokers-tyrell-lannister-alliance",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "littlefinger brokers tyrell lannister alliance": [
+      {
+        "canonical_slug": "littlefinger-brokers-tyrell-lannister-alliance",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "littlefinger has dontos killed": [
       {
         "canonical_slug": "killing-of-dontos-hollard",
@@ -50193,6 +50359,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "littlefinger wins highgarden for joffrey": [
+      {
+        "canonical_slug": "littlefinger-brokers-tyrell-lannister-alliance",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "littlefinger's betrayal of ned": [
@@ -61711,6 +61885,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "news of winterfell reaches the crag": [
+      {
+        "canonical_slug": "robb-receives-false-news-of-brans-death",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "nicol": [
       {
         "canonical_slug": "nicol",
@@ -65423,6 +65605,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "petyr baelish brokers the tyrell marriage pact": [
+      {
+        "canonical_slug": "littlefinger-brokers-tyrell-lannister-alliance",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "petyr frey": [
@@ -69915,6 +70105,14 @@
         "source": "node-slug"
       }
     ],
+    "renly's army defects to stannis": [
+      {
+        "canonical_slug": "stannis-absorbs-renly-s-host",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "renly's death reflection": [
       {
         "canonical_slug": "renly-s-death-reflection",
@@ -69929,6 +70127,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "renly's host swears to stannis": [
+      {
+        "canonical_slug": "stannis-absorbs-renly-s-host",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "renly's little rose": [
@@ -70913,9 +71119,41 @@
         "source": "node-slug"
       }
     ],
+    "robb learns his brothers are dead": [
+      {
+        "canonical_slug": "robb-receives-false-news-of-brans-death",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "robb loses the mounted strength of karhold": [
+      {
+        "canonical_slug": "karstark-host-deserts-robb",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "robb proclaimed king in the north": [
       {
         "canonical_slug": "robb-proclaimed-king-in-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "robb receives false news of bran and rickon's deaths": [
+      {
+        "canonical_slug": "robb-receives-false-news-of-brans-death",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "robb receives false news of brans death": [
+      {
+        "canonical_slug": "robb-receives-false-news-of-brans-death",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -78145,6 +78383,22 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "stannis absorbs renly s host": [
+      {
+        "canonical_slug": "stannis-absorbs-renly-s-host",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "stannis absorbs renly's host": [
+      {
+        "canonical_slug": "stannis-absorbs-renly-s-host",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "stannis baratheon": [
       {
         "canonical_slug": "stannis-baratheon",
@@ -78164,6 +78418,14 @@
     "stannis flees to dragonstone": [
       {
         "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis gains renly's stormlords": [
+      {
+        "canonical_slug": "stannis-absorbs-renly-s-host",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -80253,6 +80515,14 @@
         "node_category": "locations",
         "node_type": "place.region",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "stormlords go over to stannis": [
+      {
+        "canonical_slug": "stannis-absorbs-renly-s-host",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "storms end": [
@@ -85221,6 +85491,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "tyrell-lannister marriage alliance": [
+      {
+        "canonical_slug": "littlefinger-brokers-tyrell-lannister-alliance",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "tyria": [
@@ -92329,8 +92607,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18939,
-    "unique_phrases": 11441
+    "total_node_entries": 18976,
+    "unique_phrases": 11475
   },
   "version": "v1"
 }
