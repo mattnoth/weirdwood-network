@@ -35,6 +35,8 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 
 9. **Write handoff file(s) AND print the literal copy-paste in chat.** The long-form context (full task description, success criteria, DO-NOTs, slug lists) goes to a file at `progress/continue-prompts/<date>-<short-slug>.md` — that's where the next session's agent reads from. BUT the literal copy-paste commands Matt needs to fire the next session MUST ALSO appear inline in chat at session close, so he doesn't have to open the file to know what command to run.
 
+   **Stamp the next session number first (always).** Immediately ABOVE the handoff block(s) — before the opening `━━━` bar — print a single line declaring the next session number: `**Next session: S<N+1>**`, where N is the session number you just wrote to the worklog this session (e.g. if this session is S127, print `**Next session: S128**`). This tells whoever fires the handoff which `### Session N` heading to stamp. One stamp covers all blocks if multiple tracks are queued.
+
    **What to print inline (always):** the Shape A or Shape B block below — it contains the literal `/continue <slug>` / `/watcher <substring>` / `/worker <substring> <wave-id>` command(s) plus model recommendation. Short — typically 4-12 lines per block. Multi-line handoff *prose* (long task descriptions, slug lists, success criteria) stays in the file, NOT in chat — those belong to the future agent, not to Matt-at-session-close.
 
    **What goes only in the file:** task description prose, success criteria, slug lists, DO-NOTs, sub-step instructions, slug-mapping tables, anything > 12 lines. The file is what `/continue` reads when fired.
