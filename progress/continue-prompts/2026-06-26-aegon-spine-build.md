@@ -1,4 +1,6 @@
-# Continue — AEGON spine build (causal arc mint)
+# S128 — AEGON spine build (causal arc mint)
+
+> **This is Session 128.** Stamp your worklog entry `### Session 128` at endsession.
 
 > **Recommended model:** Sonnet 4.6 (Opus 4.8 orchestrator + Sonnet-class `general-purpose` subagents: 1 API-health probe → research dips → independent fresh-verify). Same arc-mint machine as the NORTH (S125/S126) and WO5K-remainder (S123) builds.
 > **This WRITES to the graph** (mints nodes + edges). Local cache only — no HTTP / no wiki refetch.
