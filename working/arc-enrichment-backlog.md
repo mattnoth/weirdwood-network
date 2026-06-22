@@ -42,17 +42,32 @@ ready / what a dip shows demand for, not by a standing "#1."
 
 ---
 
-## DONE (enrichment passes shipped)
+## Ledger — enrichment passes per unit
 
-| Unit | Kind | Pass | Session | Yield |
-|------|------|------|---------|-------|
-| Kingsmoot → Euron | arc/cluster | pass 1 | S116 | +2 beat-nodes, +6 edges, +12 descriptive attachments, +1 edge type (`SUSPECTED_OF`), ~14 harvest pointers; + 3 bridge nodes minted-in-place (Asha proxy-marriage, Victarion-commission, Euron-hunts-Aeron) |
-| AEGON harvest-consume | arc/cluster | pass 0 (prose-only) | S129 | book-cite overlays onto jon-connington (greyscale), aegon-young-griff, varys; caught + fixed an unattached S128 quote |
-| Bloodraven / Bran (incidental) | character | pass 0 (incidental) | S130 | during the BRAN spine build: book-cite overlay onto `brynden-rivers` (ADWD "half-corpse and half-tree" cave-form appearance + self-id cite); 12 anchor quotes onto the 8 new Bran beat-nodes. NOT a deliberate enrichment pass — the real Bloodraven/Bran passes are QUEUED below. |
+> **Status is a COUNT, not a binary** (Matt S130). A unit is never "done" — it's "1 enrichment pass done,"
+> "pass 2 done," "3 done," and can always take another (multi-pass is the norm). `0` = no deliberate pass yet
+> (may carry incidental overlays from a spine build — noted). Increment the count + log the pass when one ships.
+
+| Unit | Kind | Passes done | Last pass | Notes |
+|------|------|:-----------:|-----------|-------|
+| Kingsmoot → Euron | arc/cluster | **1** | S116 | +2 beat-nodes, +6 edges, +12 descriptive attachments, +1 edge type (`SUSPECTED_OF`), ~14 harvest pointers; + 3 bridge nodes minted-in-place. Pass 2 candidates: Crow's Eye voyages, dragonbinder, bastard sons. |
+| Bloodraven / Brynden Rivers | character | **0** | — | incidental S130 overlay only (cave-form appearance + self-id book-cite). Pass 1 = the D&E deep-connections dip (scope below). |
+| Bran (greenseer arc) | character | **0** | — | incidental S130: 12 anchor quotes on the 8 new beats. Pass 1 = the journey-deepening dip (scope below). |
+| AEGON cluster | arc/cluster | **0** | — | S129 prose-only harvest-consume (overlays onto jon-connington/aegon/varys) — not a full pass. |
+| WO5K container | arc/cluster | **0** | — | needs MANY passes (Karstark/Frey/Bolton/Riverlands/westerlands). |
+| Red Wedding · Purple Wedding · Tywin's death · Blackwater · Ned's downfall · RR · Sack of KL | arc/cluster | **0** | — | each has off-spine side-plots. |
+| Cersei's downfall · Brienne→Stoneheart | arc/cluster | **0** | — | AFFC secondary beats. |
+| Dorne / Myrcella (Queenmaker) | arc/cluster | **0** | — | 19 harvest rows pushed S117. |
+| Essos clusters | arc/cluster | **0** | — | Slaver's Bay/Meereen sub-plots; Fire-and-blood reveal. |
+| Euron | character | **0** | — | + the gated Euron↔Bloodraven evidence thread (scope below). |
+| Jon Snow · Daenerys | character | **0** | — | heavyweight character units (huge cross-container webs) — character phase. |
+| Purple Wedding whodunit · Red Wedding Frey/Bolton mechanics | event | **0** | — | event-unit candidates. |
+
+*(The detailed next-pass scope for the Matt-flagged units follows; the table above is the at-a-glance count.)*
 
 ---
 
-## QUEUED — character units (flat priority — comes AFTER the arc enrichments)
+## Next-pass scope — character units (flat priority — comes AFTER the arc enrichments)
 
 > No "lead" here (Matt S130). By raw importance the heavyweights are **Jon Snow** and **Daenerys** (each a huge
 > cross-container web — queue them when the character phase opens). **Bloodraven, Bran, Euron** below are
@@ -86,7 +101,7 @@ Bloodraven links (the shade-of-the-evening / sorcery / "thousand eyes" resonance
 — the theory that they're connected is a GATED reading, but the on-page links that fuel it are fair Tier-2
 substrate. Surface to the theories track when it opens.
 
-## QUEUED — arc / cluster units (when their turn comes; multi-pass expected)
+## Next-pass scope — arc / cluster units (these go first; multi-pass expected)
 - **WO5K container** — needs MORE than one pass (Matt: "gonna need more than that treatment"): Karstark, Frey,
   Bolton, the Riverlands chevauchée, Robb's westerlands campaign.
 - Red Wedding · Purple Wedding · Tywin's death · Blackwater · Ned's downfall · Robert's Rebellion · Sack of KL —
@@ -99,7 +114,7 @@ substrate. Surface to the theories track when it opens.
 - **Essos clusters** — the Slaver's Bay / Meereen braided sub-plots; the Quentyn/Doran "Fire and blood" reveal
   (Essos-bridge seed).
 
-## QUEUED — event units within containers
+## Next-pass scope — event units within containers
 - Purple Wedding whodunit layer (the poisoner attribution — `SUSPECTED_OF` candidates).
 - Red Wedding internal Frey/Bolton mechanics.
 - (add as dips surface them.)
