@@ -180,6 +180,31 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 > Parked, not dead. Nothing here blocks the live tracks. Where an item was collapsed to a one-liner, the full original text lives in `history/todo-archives/2026-06-11-resolved-blocks.md`.
 
+### Lineage — genealogy query + diagram — [DEFERRED] (NEW S123 2026-06-22)
+
+- [ ] **[DEFERRED — sequence: after the narrative-arc containers, possibly before enrichment (Matt, S123)]** **Build `graph-query.py --lineage <house|character>` → a renderable family-tree diagram.**
+
+  **Origin:** Matt asked *"Can the graph build a diagram if someone asks for 'the Targaryen line'?"* Investigation (2026-06-22): **the data substrate is good, but it's not a one-command diagram today.**
+  - **What exists:** PARENT_OF = **3,095** edges, SPOUSE_OF = **663** (character→character, Tier-tagged with book evidence; ~**320** PARENT_OF edges touch Targaryen-slugged characters). `graph-query.py --neighbors rhaegar-targaryen` correctly returns his children (PARENT_OF) + spouse (SPOUSE_OF) — the genealogical bones are wired and queryable per-node.
+  - **Three gaps block "ask → diagram":**
+    1. **No member-set seed.** `house-targaryen` has NO membership edge (its edges are SEAT_OF/OVERLORD_OF/HOLDS_TITLE/etc.); there is **no `MEMBER_OF`/`SCION_OF` edge type anywhere** in the graph. The only house-affiliation signal in the wiki infobox is the **`Allegiances` field → `SWORN_TO` edges, which is *allegiance, not bloodline*** (over-includes Velaryons, bannermen, Kingsguard — verified on the `Addam Velaryon` infobox row, which lists `Allegiances: House Velaryon / House Targaryen / Blacks`). So there is **no clean deterministic blood-member edge to mint.**
+    2. **No genealogy traversal.** `graph-query.py` walks *causal* chains (`--causal-chain`/`--full-chain`) but nothing does transitive PARENT_OF/SPOUSE_OF closure; `--neighbors` is one hop only.
+    3. **No diagram renderer.** All `graph-query.py` output is text; no mermaid/graphviz/dot emitter exists in `scripts/`.
+
+  **Deliverable:** `graph-query.py --lineage <house|character>` → a family tree rendered as **mermaid `graph TD`** (PARENT_OF = solid edge, SPOUSE_OF = dashed `-.-`), written to a `.md`/`.mmd`. Would be the first outward-facing "demonstration of graph value" artifact (ties to the dormant Chat/Query-UI placeholder above + the deferred convergence/braid layer, live-tracks Track 17).
+
+  **Why "possibly before enrichment" is well-motivated:** this is a **deterministic, $0 query/structural capability** — same class as the S94 infobox merge and the Track 7 resolver work — **NOT an LLM second-pass** like the gated Arc-enrichment (live Track 13) or Events-enrichment surfaces. Landing a cheap deterministic capability ahead of LLM spend is reasonable. Decision factor: it can precede enrichment **as long as step 1 stays deterministic** (it does — seed is surname + kin-component, no LLM).
+
+  **Steps (lowercase):**
+  - **step 1 — seed-set.** Deterministic seed = **surname-match (slug `*-targaryen`) ∪ the PARENT_OF/SPOUSE_OF connected component grown from those anchors ∪ known legitimized bastards** (Waters/Snow). **Do NOT seed from the infobox `Allegiances`/`SWORN_TO` field** — it's allegiance, over-broad. A `MEMBER_OF`/`SCION_OF` edge layer is an **optional durability upgrade** (needs a vocab add + Matt sign-off), **NOT a prerequisite** — the kin-component seed is self-sufficient. Defer the edge-layer decision until the prototype shows whether surname+component coverage is adequate.
+  - **step 2 — genealogy traversal.** Transitive closure over PARENT_OF (ancestors + descendants, bounded depth) + SPOUSE_OF (marriage links), seeded by step 1 (house slug → kin set; character slug → their kin component). Returns generation-ordered nodes. Deterministic Python, $0.
+  - **step 3 — diagram renderer.** Emit mermaid `graph TD` (markdown-native/clickable — fits the terminal + a future chat UI better than graphviz). Write to `.md`/`.mmd`. $0.
+  - **step 4 — validation/smoke.** Run on `house-targaryen` + a hard case (Jon Snow bastardy line; a married-in case like Martell↔Targaryen). Measure coverage vs the canonical tree; report missing PARENT_OF edges as a small backfill candidate (→ harvest queue / a deterministic infobox-parentage pass).
+
+  **De-risk first (cheap, read-only):** before committing, **prototype the Targaryen tree from existing PARENT_OF/SPOUSE_OF only** (skip step 1's edge-layer question) — it measures real coverage and reveals whether the membership-edge investment is even needed.
+
+  **Model-fit:** **Sonnet 4.6** throughout (deterministic script work; matches Track 7 / infobox precedent). No Opus, no LLM bulk. **NEEDS a continue prompt when picked up** (not before — gated; keeps the live continue-prompts dir to one actionable next per the one-live-prompt rule).
+
 ### Mission Protocol & Orchestration — [DORMANT] (untouched since S45–S49; full section text archived)
 
 - [ ] **[DORMANT]** Refine watcher.md v1 → v2 after the next mission runs.
