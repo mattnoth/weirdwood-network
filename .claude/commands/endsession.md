@@ -35,7 +35,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 
 9. **Write handoff file(s) AND print the literal copy-paste in chat.** The long-form context (full task description, success criteria, DO-NOTs, slug lists) goes to a file at `progress/continue-prompts/<date>-<short-slug>.md` — that's where the next session's agent reads from. BUT the literal copy-paste commands Matt needs to fire the next session MUST ALSO appear inline in chat at session close, so he doesn't have to open the file to know what command to run.
 
-   **Stamp the next session number first (always).** Immediately ABOVE the handoff block(s) — before the opening `━━━` bar — print a single line declaring the next session number: `**Next session: S<N+1>**`, where N is the session number you just wrote to the worklog this session (e.g. if this session is S127, print `**Next session: S128**`). This tells whoever fires the handoff which `### Session N` heading to stamp. One stamp covers all blocks if multiple tracks are queued.
+   **Stamp the next session number first (always) — INSIDE the copy-pastable block.** The FIRST line inside the handoff code block, directly above the opening `━━━ HANDOFF` bar, is `# SESSION <N+1>`, where N is the session number you just wrote to the worklog this session (e.g. if this session is S127, the first line is `# SESSION 128`). It lives inside the same fenced block as the handoff so it copy-pastes together and the next chat auto-titles with the session number. One stamp covers all blocks if multiple tracks are queued (put it once, at the top of the first block).
 
    **What to print inline (always):** the Shape A or Shape B block below — it contains the literal `/continue <slug>` / `/watcher <substring>` / `/worker <substring> <wave-id>` command(s) plus model recommendation. Short — typically 4-12 lines per block. Multi-line handoff *prose* (long task descriptions, slug lists, success criteria) stays in the file, NOT in chat — those belong to the future agent, not to Matt-at-session-close.
 
@@ -51,6 +51,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
    When the next work is a mission (multiple parallel workers + a watcher reading their state), output ONE handoff block per role. Always include model recommendation.
 
    ```
+   # SESSION <N+1>
    ━━━ HANDOFF — WATCHER (window 1) ━━━
    Model: Opus 4.7
    In a fresh Claude Code session, type:
@@ -78,6 +79,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
    When the next work is a single deterministic task (no watcher needed, no parallel workers), output one block. Always include model recommendation.
 
    ```
+   # SESSION <N+1>
    ━━━ HANDOFF — SINGLE-SESSION TASK ━━━
    Model: {Sonnet 4.6 | Haiku 4.5 | Opus 4.7} — {one-line reason}
    In a fresh Claude Code session, paste:
