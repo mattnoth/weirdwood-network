@@ -25,6 +25,12 @@ Aegon is lithe and well-made, with a lanky build. [Tyrion Lannister](wiki:Tyrion
 
 Aegon [dyes](wiki:Hair_dye) his hair blue in the custom of [Tyrosh](wiki:Tyrosh), making his [purple eyes](wiki:Purple_eyes) appear dark blue.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) He is as tall as [Jon Connington](wiki:Jon_Connington).(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
+Connington dresses the boy as "a proper prince" for his presentation to the Golden Company — a deliberate Targaryen-colors disguise funded by Illyrio:
+
+> The prince wore sword and dagger, black boots polished to a high sheen, a black cloak lined with blood-red silk. With his hair washed and cut and freshly dyed a deep, dark blue, his eyes looked blue as well. At his throat he wore three huge square-cut rubies on a chain of black iron, a gift from Magister Illyrio. Red and black. Dragon colors.
+
+— `sources/chapters/adwd/adwd-the-lost-lord-01.md:61` (book-cite overlay)
+
 [Illyrio Mopatis](wiki:Illyrio_Mopatis) says there has never been a nobler lad than Young Griff.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Quotes

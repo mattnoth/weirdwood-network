@@ -47,6 +47,20 @@
   mint). Both edge types are live in the locked vocab (Knowledge & Information section).
 - **No node, no causal edge.** Background condition only.
 
+### D3. Bran ↔ Jojen — the greendreaming bond  (surfaced S129, bran-decomp dip)
+- **Belongs to the BRAN container** (the flight/journey arc). Surfaced by the BRAN decomposition dip
+  (`working/bran-decomposition.md` §6) as the wrong shape for a causal node: it is a *relationship*, not an event.
+- **Why a dyad, not a juncture:** Jojen guides, names ("Warg," acok-bran-05:97), and shepherds Bran north on the
+  strength of his green dreams. The greendreams act as MOTIVATES *causes* on the flight beats (BR4 party-split,
+  BR5 journey) — but the standing Bran↔Jojen tie beneath those edges is a mentor/guide relationship best carried
+  on the two character nodes, not reified as an event chain.
+- **Model (dyad):** `jojen-reed GUIDES bran-stark` (or `MENTORS`; pick from the locked vocab at mint — verify the
+  exact type is live) + optionally `jojen-reed WARNS bran-stark` (the "you will never fly / you are losing yourself
+  to the wolf" counsel, asos-bran-01). Tier-2, `evidence_kind: book-curator`. Cites: acok-bran-05:97/:113,
+  asos-bran-01:103-105.
+- **Consume on demand** (enrichment pass), NOT in BRAN build-priority order. The BRAN causal spine roots fine
+  without it (the greendreams attach as MOTIVATES edges on BR4/BR5 directly).
+
 ## Carried harvest WITNESS_IN candidates (S120, text-anchored, not yet minted)
 These are clean role-edge candidates from the S120 Essos harvest pass — small curator mints (verify the
 line, append the edge), no causal walk:

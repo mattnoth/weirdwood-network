@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-22T18:15:35.989051+00:00",
+  "computed_at": "2026-06-22T20:57:05.670013+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -3743,6 +3743,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "arrival at the greenseer's cave": [
+      {
+        "canonical_slug": "bran-reaches-the-cave-of-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "arron": [
@@ -9773,6 +9781,38 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "bran and rickon hide in the crypts": [
+      {
+        "canonical_slug": "bran-and-rickon-survive-the-sack-in-the-crypts",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran and rickon part ways": [
+      {
+        "canonical_slug": "bran-s-party-splits-from-rickon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran and rickon survive the sack in the crypts": [
+      {
+        "canonical_slug": "bran-and-rickon-survive-the-sack-in-the-crypts",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "bran becomes a greenseer": [
+      {
+        "canonical_slug": "bran-becomes-a-greenseer",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "bran catches jaime and cersei": [
       {
         "canonical_slug": "bran-witnesses-jaime-and-cersei",
@@ -9789,9 +9829,89 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "bran eats the weirwood paste": [
+      {
+        "canonical_slug": "bran-becomes-a-greenseer",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran meets coldhands": [
+      {
+        "canonical_slug": "bran-meets-coldhands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "bran opens his third eye": [
+      {
+        "canonical_slug": "bran-becomes-a-greenseer",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran passes beneath the nightfort": [
+      {
+        "canonical_slug": "bran-passes-the-black-gate",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran passes the black gate": [
+      {
+        "canonical_slug": "bran-passes-the-black-gate",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "bran reaches bloodraven": [
+      {
+        "canonical_slug": "bran-reaches-the-cave-of-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran reaches the cave of the three eyed crow": [
+      {
+        "canonical_slug": "bran-reaches-the-cave-of-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "bran reaches the cave of the three-eyed crow": [
+      {
+        "canonical_slug": "bran-reaches-the-cave-of-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "bran s coma and the three eyed crow": [
+      {
+        "canonical_slug": "bran-s-coma-and-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "bran s direwolf kills the assassin": [
       {
         "canonical_slug": "bran-s-direwolf-kills-the-assassin",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "bran s party splits from rickon": [
+      {
+        "canonical_slug": "bran-s-party-splits-from-rickon",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -9829,12 +9949,44 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "bran the winged wolf": [
+      {
+        "canonical_slug": "jojen-reed-names-bran-a-warg",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran wakes from his coma": [
+      {
+        "canonical_slug": "bran-s-coma-and-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "bran witnesses jaime and cersei": [
       {
         "canonical_slug": "bran-witnesses-jaime-and-cersei",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "bran's coma and the three-eyed crow": [
+      {
+        "canonical_slug": "bran-s-coma-and-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "bran's coma dream": [
+      {
+        "canonical_slug": "bran-s-coma-and-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "bran's direwolf kills the assassin": [
@@ -9845,12 +9997,36 @@
         "source": "node-name"
       }
     ],
+    "bran's escort north of the wall begins": [
+      {
+        "canonical_slug": "bran-meets-coldhands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "bran's fall": [
       {
         "canonical_slug": "jaime-pushes-bran-from-the-tower",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran's first greensight": [
+      {
+        "canonical_slug": "bran-becomes-a-greenseer",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bran's party splits from rickon": [
+      {
+        "canonical_slug": "bran-s-party-splits-from-rickon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "bran-catches-the-lannister-twins": [
@@ -15095,6 +15271,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "coldhands meets the party beyond the wall": [
+      {
+        "canonical_slug": "bran-meets-coldhands",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "coldhands theories": [
       {
         "canonical_slug": "coldhands-theories",
@@ -16225,6 +16409,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "crossing beneath the wall": [
+      {
+        "canonical_slug": "bran-passes-the-black-gate",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "crossroads inn": [
@@ -26561,6 +26753,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "fly or die": [
+      {
+        "canonical_slug": "bran-s-coma-and-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "foamdrinker": [
       {
         "canonical_slug": "foamdrinker",
@@ -35111,6 +35311,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "hiding in father's tomb": [
+      {
+        "canonical_slug": "bran-and-rickon-survive-the-sack-in-the-crypts",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "high council of the triarchy": [
@@ -44099,12 +44307,36 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "jojen names bran a warg": [
+      {
+        "canonical_slug": "jojen-reed-names-bran-a-warg",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jojen recognizes bran's gift": [
+      {
+        "canonical_slug": "jojen-reed-names-bran-a-warg",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jojen reed": [
       {
         "canonical_slug": "jojen-reed",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "jojen reed names bran a warg": [
+      {
+        "canonical_slug": "jojen-reed-names-bran-a-warg",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "jokin": [
@@ -65101,6 +65333,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "party divides after the sack": [
+      {
+        "canonical_slug": "bran-s-party-splits-from-rickon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "pascal dabell": [
       {
         "canonical_slug": "pascal-dabell",
@@ -73963,6 +74203,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "sam opens the black gate": [
+      {
+        "canonical_slug": "bran-passes-the-black-gate",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "sam salt": [
       {
         "canonical_slug": "sam-salt",
@@ -78335,6 +78583,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "split at the godswood": [
+      {
+        "canonical_slug": "bran-s-party-splits-from-rickon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "spotted bear": [
       {
         "canonical_slug": "spotted-bear",
@@ -78877,6 +79133,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "stark boys survive the sack of winterfell": [
+      {
+        "canonical_slug": "bran-and-rickon-survive-the-sack-in-the-crypts",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "starpike": [
@@ -83479,6 +83743,14 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-name:species"
+      }
+    ],
+    "three-eyed crow tells bran to fly": [
+      {
+        "canonical_slug": "bran-s-coma-and-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "three-finger hobb": [
@@ -90729,6 +91001,14 @@
         "source": "node-slug"
       }
     ],
+    "wight attack at the cave mouth": [
+      {
+        "canonical_slug": "bran-reaches-the-cave-of-the-three-eyed-crow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "wight attacks": [
       {
         "canonical_slug": "wight-attacks",
@@ -92991,8 +93271,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19029,
-    "unique_phrases": 11523
+    "total_node_entries": 19069,
+    "unique_phrases": 11558
   },
   "version": "v1"
 }

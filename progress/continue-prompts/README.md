@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-22 (refreshed after S128)  
+**Generated:** 2026-06-22 (refreshed after S130)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,11 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-27-bran-container-decomposition.md` | 2026-06-27 | BRAN container decomposition dip (read-only) | **LIVE** | Sonnet 4.6 | **New S128.** READ-ONLY dip → produces `working/bran-decomposition.md` (8-section AEGON/NORTH template). BRAN is the 5th + last approved container without a dip; greenfield (3 container nodes; many related event nodes exist on disk, likely dark). Map the spine (catspaw attempt → the fall → coma/warging → Theon's sack forces flight → journey beyond the Wall → Bloodraven/greenseer), score junctures, rank build. Seams: `jaime-pushes-bran-from-the-tower` `[bran,wo5k]`, `sack-of-winterfell`/`capture-of-winterfell` `[bran,north,wo5k]` (ATTACH, never rebuild). Theories (Night-King/cosmology) OUT. 0 graph writes (dip). **STEP 0 first:** consume the 13 carried AEGON harvest rows (flip 7 already-attached → done; overlay 6 greyscale/disguise/food onto `jon-connington`/`aegon-targaryen-young-griff` — node `## Quotes` prose only). |
+| `2026-06-29-low-value-remainders.md` | 2026-06-29 | Low-value container remainders (then enrichment dips) | **LIVE** | Sonnet 4.6 | **New S130.** All 5 approved containers are spine-complete → mop up the deferred low-value remainders, then move to enrichment dips. Backlog: (1) AEGON Euron/Victarion downstream voyage wire; (2) NORTH N6 Stannis-marches-south (+ optional Theon/Jeyne escape); (3) Bran greenseer-enrichment (4 open `bran-dip` harvest rows) / Rickon-Skagos deferral. Pick the highest-demand remainder via a quick dip; skip pure-sequence/wiki-only. **Then enrichment dips** (arc-enrichment 2nd-pass track, memory `project_arc_enrichment_track` + `working/arc-enrichment-backlog.md`). Same arc-mint machine; fresh-verify every causal edge. TWOW/gated-theory material OUT. |
 
 ---
 
-## Archive (`archive/` subfolder — 45 files)
+## Archive (`archive/` subfolder — 47 files)
+
+> **`2026-06-28-bran-spine-build.md`** — archived S130. **DONE (S130):** built the BRAN causal spine — greenfield container lit end-to-end. **+8 nodes / +35 edges** (12 causal/agency Tier-2 + 23 role Tier-1; 8,587→8,595 nodes, 22,441→22,476 edges); container `bran` 5→13; `--full-chain bran-becomes-a-greenseer` walks 9 hops sack→…→greenseer. Batch A (BR1 coma [waking folded], BR2 warg-naming, BR3 crypts) + Batch B (BR4 split, BR5 Black-Gate + Coldhands, BR6 cave, BR7 greenseer). 12/12 causal/agency fresh-verify CONFIRM across 2 independent subagents; 0 drift; 0 invented types (132). Build-step-0 found 2 stale-spec items (rule #9): `brynden-rivers` aliases already present (no-op), suspicious `sack PRECEDES purple-wedding` = legit chronology (no fix). Key correction: Luwin does NOT counsel the split → BR3→BR4 ENABLES not TRIGGERS. Harvest: 16 bran-dip rows consumed incl. a book-cite overlay onto `brynden-rivers` (ADWD cave-form). Superseded as live by the low-value-remainders track.
+> **`2026-06-27-bran-container-decomposition.md`** — archived S129. **DONE (S129):** the read-only BRAN decomposition dip ran → `working/bran-decomposition.md` (8-section AEGON/NORTH template; junctures BR1–BR7). BRAN is greenfield, two spines — Spine 1 (the fall) is the S105-built chain forking into WO5K (the coma→three-eyed-crow→wakes middle is MISS); Spine 2 (the entire flight + journey-north + greenseer arc) is **0 event nodes**. Container `bran`=3. 7 junctures scored (all gate ≥7); tied-highest 9/12 = BR3 (sack→crypts, off the built sack hub) · BR5 (Black Gate, dual-POV) · BR7 (becomes-greenseer, Q=2 terminus). 8–9 mints, ranked build front-loads the two anchored junctures. Flagged: untagged `bran-s-direwolf-kills-the-assassin` seam, `brynden-rivers` empty aliases, `three-eyed-crow` species-slug trap, 4 decoys, suspicious `sack PRECEDES purple-wedding`. D3 Bran↔Jojen dyad surfaced. STEP 0 (carried AEGON harvest consume — caught + fixed an unattached S128 quote) ran cleanly: AEGON rows 0 open. 0 graph writes in the dip itself. Superseded as live by the BRAN spine build.
 
 > **`2026-06-26-aegon-spine-build.md`** — archived S128. **DONE (S128):** built the AEGON causal spine — container `aegon` was entirely causally DARK → now fully lit. Build-step 0 dropped the 2 mis-filed `PART_OF wo5k` bug rows + the cross-theater `wedding-hizdahr PRECEDES landing` artifact (22,432→22,429). Then 4 arcs (A2 sail-west, A4 Varys-assassinations, A3 Stormlands-siege, A1 conspiracy-reveal) = +2 nodes / +12 edges (8 causal/agency + 3 role + the `varys CONSPIRES_WITH illyrio` dyad). 9/9 independent fresh-verify CONFIRM (incl. the contested A4 cross-theater seam — Varys names the landing as his motive in-scene), 0 drift, 0 invented types (132). NO Kevan-regency node exists → A4 role-attach only; NO CAUSES between the 6 sibling takings. Container `aegon` 2→12; `--causal-chain landing` 0/0 → 12 up + 2 down. Superseded as live by the BRAN decomp dip.
 > **`2026-06-25-aegon-container-decomposition.md`** — archived S127. **DONE (S127):** the read-only AEGON decomposition dip ran → `working/aegon-decomposition.md` (8-section structure = NORTH template; junctures A1–A4). AEGON is entirely causally dark (all PART_OF/role scaffolding, 0 causal edges). **Scaffolding correction:** verified **6** PART_OF children, not the handoff's "8+". Top-3 = A2 sail-west (11/12, 1 mint) · A4 Varys-assassinations (11/12, 0 mints) · A3 Stormlands-campaign (9/12, 0 mints); **2 mints total**. D1 Varys↔Illyrio resolved **dyad-only**. 12 harvest pointers added. 0 graph writes (read-only contract held). Superseded as live by the AEGON spine build.
@@ -52,20 +55,21 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (ONE live track — the AEGON spine build)
+## Open threads right now (ONE live track — low-value remainders, then enrichment dips)
 
-> The live dir holds ONE track: the AEGON spine build (writes to graph). The read-only AEGON decomp dip ran S127
-> → `working/aegon-decomposition.md` (prompt archived). NORTH went spine-complete S126. The chat-UI persona track
-> was parked S123 (Matt: "side thing, will come back to it") — in `archive/`, recoverable.
+> **All 5 approved containers are spine-complete: `{essos✓, wo5k✓, north✓, aegon✓, bran✓}`.** The live dir holds
+> ONE track: the low-value remainders (writes to graph). The chat-UI persona track was parked S123 (Matt: "side
+> thing, will come back to it") — in `archive/`, recoverable.
 
-**LIVE (graph): `2026-06-26-aegon-spine-build.md`** — builds the AEGON causal spine from
-`working/aegon-decomposition.md` §5. **2 mints total** (`golden-company-sails-for-westeros`,
-`aegon-revealed-to-the-golden-company`); everything else is edge/role/tag wiring. Ranked A2→A4→A3→A1.
-**Build-step 0 = fix the 2 mis-filed `PART_OF war-of-five-kings` edges + delete the suspicious
-`landing PRECEDES hizdahr-wedding` edge.** D1 Varys↔Illyrio resolved dyad-only. Same arc-mint machine as NORTH/WO5K. (**Sonnet 4.6**)
+**LIVE (graph): `2026-06-29-low-value-remainders.md`** — mop up the deferred low-value container remainders
+(AEGON Euron/Victarion downstream voyage · NORTH N6 Stannis-marches-south · Bran greenseer-enrichment /
+Rickon-Skagos), dip-gated, then move to **enrichment dips** (the arc-enrichment 2nd-pass track — Matt's S130
+directive: remainders first, then enrichment). Same arc-mint machine; fresh-verify every causal edge;
+TWOW/gated-theory material OUT. (**Sonnet 4.6**)
 
-**Queued behind it:** Bran (greenfield flight-to-the-north spine — its own decomp dip first). Building AEGON
-also discharges the parked Varys/Illyrio (D1) + Jorah (D2) dyads. SET = `{essos✓, wo5k✓, north✓, aegon◐, bran}`.
+**Queued behind it:** enrichment dips (memory `project_arc_enrichment_track`, backlog
+`working/arc-enrichment-backlog.md`). All container dyads discharged (D1 Varys↔Illyrio + D2 Jorah at AEGON;
+D3 Bran↔Jojen surfaced, consume-on-demand).
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*

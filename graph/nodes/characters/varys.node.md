@@ -123,6 +123,10 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 
 ### Quotes by Varys
 
+> The fools tried to kill his son, and what's worse, they made a mummer's farce of it. He's not a man to put that aside. I warn you, the wolf and lion will soon be at each other's throats, whether we will it or no.
+>
+> —Varys to [Illyrio Mopatis](wiki:Illyrio_Mopatis), in the tunnels beneath the Red Keep ([Arya](wiki:Arya_Stark) overhears) — the AGOT conspiracy seed of the AEGON / Targaryen-restoration thread (`sources/chapters/agot/agot-arya-03.md:79`, book-cite overlay; evidence for the `varys CONSPIRES_WITH illyrio-mopatis` dyad)
+
 > A [eunuch](wiki:Eunuch) has no honor, and a spider does not enjoy the luxury of scruples, my lord.(wiki:Varys.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
 >
 > —Varys to [Eddard Stark](wiki:Eddard_Stark)

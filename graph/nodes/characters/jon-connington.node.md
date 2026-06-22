@@ -62,6 +62,22 @@ Jon is a capable warrior and commander. He was described in his youth as proud, 
 
 [George R.R. Martin](wiki:George_R.R._Martin) has confirmed that Jon Connington is [gay](wiki:Gender_and_sexuality).(wiki:Jon_Connington.cite_ref-Rssm5457.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)(wiki:Jon_Connington.cite_ref-18) It is implied that Jon was in love with Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen). Jon refers to Rhaegar as "my silver prince" when he reminisces about him,(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-5) and Jon believes Rhaegar's wife, Princess [Elia Martell](wiki:Elia_Martell), to have been unworthy of him.(wiki:Jon_Connington.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2) Jon also thinks very fondly of the late Ser [Myles Toyne](wiki:Myles_Toyne), remembering that his ugly features did not matter "when he smiled at you".(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-6)
 
+### Greyscale — the death-clock (book-cite overlay)
+
+Jon contracts [greyscale](wiki:Greyscale) in his right hand while rescuing Tyrion in the Sorrows, and hides it through the whole ADWD campaign. It is a slow death sentence — the condition that **MOTIVATES his haste** to seat Aegon on the Iron Throne before he dies ("All he asked was time"). On-page progression and concealment:
+
+> The nail on his middle finger had turned as black as jet, he saw, and the grey had crept up almost to the first knuckle. The tip of his ring finger had begun to darken too, and when he touched it with the point of his dagger, he felt nothing.
+
+— Jon's thoughts, alone in his tent (`sources/chapters/adwd/adwd-the-lost-lord-01.md:237`)
+
+> The nails on all four fingers were black now, though not yet on his thumb. On the middle finger, the grey had crept up past the second knuckle. ... men who would cheerfully face battle and risk death to rescue a companion would abandon that same companion in a heartbeat if he were known to have greyscale.
+
+— Connington soaks his hand at Griffin's Roost, hiding the disease behind a daily request for wine rather than the tell-tale vinegar (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:141`)
+
+> Boiled eggs, fried bread, and beans. And a jug of wine. The worst wine in the cellar.
+
+— Connington's first meal in his reclaimed seat. He asks for "the worst wine" because the jug is for soaking his greyscaled hand, not for drinking — a hospitality detail that doubles as a concealment beat (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:135`)
+
 ## Narrative Arc
 
 ### A Clash of Kings

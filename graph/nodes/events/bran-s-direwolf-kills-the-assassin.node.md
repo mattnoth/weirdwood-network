@@ -2,6 +2,7 @@
 slug: bran-s-direwolf-kills-the-assassin
 type: event.death
 name: "Bran's direwolf kills the assassin"
+containers: [bran, wo5k]
 status: minted-plate3
 minted_at: 2026-06-07T17:01:29.454755+00:00
 evidence_chapters:

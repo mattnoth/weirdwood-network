@@ -84,6 +84,8 @@ Brynden lost an eye during the [First Blackfyre Rebellion](wiki:First_Blackfyre_
 
 Brynden was rumored to be a sinister [sorcerer](wiki:Sorcerer) and [spymaster](wiki:Espionage),(wiki:Brynden_Rivers.cite_ref-GreatBastards_14-6)(wiki:Brynden_Rivers.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-2) who effectively ruled the kingdom "with spies and spells" and as "Lord Bloodraven".(wiki:Brynden_Rivers.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) A popular riddle asked was, "*How many eyes does Lord Bloodraven have? A thousand eyes, and one*".(wiki:Brynden_Rivers.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-3) The song "[A Thousand Eyes, and One](wiki:A_Thousand_Eyes,_and_One)" was written about Brynden.(wiki:Brynden_Rivers.cite_ref-Raffc15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
+**By the time [Bran](bran-stark) reaches him in the cave beyond the Wall (ADWD), Brynden is "half-corpse and half-tree"** — enthroned in a woven weirwood throne of roots that has grown over, under, and through him. His skin is white save for the bloody blotch on his neck and cheek; a spray of dark red weirwood leaves sprouts from his skull, grey mushrooms spot his brow, roots coil around his limbs and burrow through his flesh, and the only living thing in his ruined face is his one red eye, "burning like the last coal in a dead fire." Book-cited overlay onto the wiki description: `sources/chapters/adwd/adwd-bran-02.md:191`, `:193`, `sources/chapters/adwd/adwd-bran-03.md:115`.
+
 ## Narrative Arc
 
 ### A Feast for Crows
@@ -106,9 +108,9 @@ Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) tells [Samwell Tarly](wi
 >
 > —Brynden to [Duncan the Tall](wiki:Duncan_the_Tall) and [Aegon Targaryen](wiki:Aegon_V_Targaryen)
 
-> I wore many names when I was quick, but even I had [a mother](wiki:Melissa_Blackwood), and the name she gave me at her breast was Brynden.(wiki:Brynden_Rivers.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> I wore many names when I was quick, but even I once had [a mother](wiki:Melissa_Blackwood), and the name she gave me at her breast was Brynden.(wiki:Brynden_Rivers.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >
-> —the [three-eyed crow](wiki:Three-eyed_crow) to [Meera Reed](wiki:Meera_Reed)
+> —the [three-eyed crow](wiki:Three-eyed_crow) to [Meera Reed](wiki:Meera_Reed) (book cite: `sources/chapters/adwd/adwd-bran-03.md:19`)
 
 > I have my own ghosts, Bran. A brother that I loved, [a brother that I hated](wiki:Aegor_Rivers), [a woman I desired](wiki:Shiera_Seastar). Through [the trees](wiki:Weirwood), I see them still, but no word of mine has ever reached them. The past remains the past. We can learn from it, but we cannot change it.(wiki:Brynden_Rivers.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 >
