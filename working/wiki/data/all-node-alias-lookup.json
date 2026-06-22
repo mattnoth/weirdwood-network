@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-22T07:03:13.113349+00:00",
+  "computed_at": "2026-06-22T15:19:08.115740+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -72519,6 +72519,30 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "roose bolton appointed warden of the north": [
+      {
+        "canonical_slug": "roose-named-warden-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "roose bolton becomes warden of the north": [
+      {
+        "canonical_slug": "roose-named-warden-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "roose bolton named warden of the north": [
+      {
+        "canonical_slug": "roose-named-warden-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "roose bolton theories": [
       {
         "canonical_slug": "roose-bolton-theories",
@@ -72533,6 +72557,14 @@
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-name:theories"
+      }
+    ],
+    "roose named warden of the north": [
+      {
+        "canonical_slug": "roose-named-warden-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "roose ryswell": [
@@ -78399,12 +78431,36 @@
         "source": "node-name"
       }
     ],
+    "stannis answers the night's watch plea": [
+      {
+        "canonical_slug": "stannis-moves-to-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "stannis baratheon": [
       {
         "canonical_slug": "stannis-baratheon",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "stannis baratheon comes to the wall": [
+      {
+        "canonical_slug": "stannis-moves-to-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis baratheon sails north to the wall": [
+      {
+        "canonical_slug": "stannis-moves-to-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "stannis broken after the blackwater": [
@@ -78431,12 +78487,36 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "stannis moves to the wall": [
+      {
+        "canonical_slug": "stannis-moves-to-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "stannis relieves the wall": [
+      {
+        "canonical_slug": "stannis-moves-to-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "stannis retreats to dragonstone": [
       {
         "canonical_slug": "stannis-retreats-to-dragonstone",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "stannis sails north to the wall": [
+      {
+        "canonical_slug": "stannis-moves-to-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "stannis seaworth": [
@@ -86029,6 +86109,14 @@
         "source": "node-slug"
       }
     ],
+    "tywin names roose bolton warden of the north": [
+      {
+        "canonical_slug": "roose-named-warden-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tywin proclaimed savior of the city": [
       {
         "canonical_slug": "tywin-named-savior-of-the-city",
@@ -88717,6 +88805,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "wardenship of the north": [
+      {
+        "canonical_slug": "roose-named-warden-of-the-north",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "warg king": [
@@ -92607,8 +92703,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18976,
-    "unique_phrases": 11475
+    "total_node_entries": 18990,
+    "unique_phrases": 11487
   },
   "version": "v1"
 }

@@ -5,7 +5,7 @@ slug: balon-declares-himself-king
 aliases: ["Balon crowns himself King of the Iron Islands", "Balon rejects Robb's offer", "Balon Greyjoy proclaims himself king", "King of Salt and Rock", "Balon pays the iron price for his crown"]
 confidence: tier-1
 era: war-of-the-five-kings
-containers: [wo5k]
+containers: [wo5k, north]
 pass_origin: s123-wo5k-j4
 node_version: 1
 evidence_chapters:

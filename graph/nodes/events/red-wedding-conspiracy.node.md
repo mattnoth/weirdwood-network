@@ -35,3 +35,9 @@ After Robb Stark breaks his marriage pact, Lord Walder Frey turns to revenge. He
 > "The blood is on Walder Frey's hands, not mine."
 
 — Tywin Lannister, ASOS Tyrion VI (`sources/chapters/asos/asos-tyrion-06.md:203`)
+
+## Foreshadowing
+
+> One of Robb's white banners lay on the ground, and one of the knights turned his horse and trampled over the direwolf as he spurred toward the gate. Several others did the same. [...] She thought she recognized Ser Perwyn Frey [...] and his bastard half brother Martyn Rivers as well [...] Close to forty men poured out through the castle gates [...]
+
+— The Frey riders depart Riverrun in fury, trampling Robb's white direwolf banner into the ground — the visual omen of the Frey breach that becomes the Red Wedding. Catelyn POV, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:17`)

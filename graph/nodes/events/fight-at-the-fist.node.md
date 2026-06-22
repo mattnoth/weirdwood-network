@@ -4,6 +4,7 @@ type: event.battle
 slug: fight-at-the-fist
 aliases: []
 confidence: tier-1
+containers: [north]
 wiki_source: "https://awoiaf.westeros.org/index.php/Fight_at_the_Fist"
 bucket_id: battles-d-f
 prompt_version: v1-python

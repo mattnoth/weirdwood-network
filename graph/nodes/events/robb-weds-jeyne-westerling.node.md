@@ -32,3 +32,17 @@ After taking the Crag by storm and being wounded, Robb Stark is nursed by Jeyne 
 > "Not only have you broken your oath, but you've slighted the honor of the Twins by choosing a bride from a lesser house."
 
 — Catelyn Stark to Robb, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:165`)
+
+> "Fifty. A dozen knights." His voice was glum, as well it might be. When the marriage contract had been made at the Twins, old Lord Walder Frey had sent Robb off with a thousand mounted knights and near three thousand foot.
+
+— The strategic cost of the broken Frey oath, quantified: Jeyne's dower of fifty swords against the host Walder Frey had originally pledged. Robb to Catelyn Stark, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:139`)
+
+## Foreshadowing
+
+> "Grey Wind doesn't like her uncle either. He bares his teeth every time Ser Rolph comes near him." [...] A chill went through her. "Send Ser Rolph away. At once."
+
+— The direwolf as treachery-detector: Grey Wind bares his teeth at Ser Rolph Spicer, foreshadowing the Spicer/Westerling betrayal of Robb. Robb and Catelyn Stark, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:189`)
+
+> "Any man Grey Wind mislikes is a man I do not want close to you. These wolves are more than wolves, Robb. ... I think perhaps the gods sent them to us. Your father's gods, the old gods of the north. Five wolf pups, Robb, five for five Stark children."
+
+— Catelyn on the direwolves as old-gods omens; load-bearing direwolf-bond foreshadowing. Catelyn Stark to Robb, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:199`)

@@ -5,7 +5,7 @@ slug: ironborn-invasion-of-the-north
 aliases: ["Balon's invasion of the North", "the ironborn hosting against the North", "Balon launches the ironborn invasion", "the iron fleet sails on the North"]
 confidence: tier-1
 era: war-of-the-five-kings
-containers: [wo5k]
+containers: [wo5k, north]
 pass_origin: s123-wo5k-j4
 node_version: 1
 evidence_chapters:

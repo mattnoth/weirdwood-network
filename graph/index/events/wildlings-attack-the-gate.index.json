@@ -3,7 +3,7 @@
   "name": "Wildlings attack the gate",
   "type": "event.incident",
   "node_path": "graph/nodes/events/wildlings-attack-the-gate.node.md",
-  "generated_at": "2026-06-22T01:13:38.404872+00:00",
+  "generated_at": "2026-06-22T15:19:07.707945+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

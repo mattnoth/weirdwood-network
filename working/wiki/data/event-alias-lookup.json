@@ -2610,6 +2610,10 @@
     "robin flint's death": "robin-flint-is-killed",
     "robin flint's execution": "robin-flint-is-killed",
     "rogare ascendency": "lysene-spring",
+    "roose bolton appointed warden of the north": "roose-named-warden-of-the-north",
+    "roose bolton becomes warden of the north": "roose-named-warden-of-the-north",
+    "roose bolton named warden of the north": "roose-named-warden-of-the-north",
+    "roose named warden of the north": "roose-named-warden-of-the-north",
     "sack of astapor": "fall-of-astapor",
     "sack of bitterbridge": "sack-of-bitterbridge",
     "sack of darry": "sack-of-darry",
@@ -2775,10 +2779,16 @@
     "stallion who mounts the world vow": "drogo-westward-vow",
     "stannis absorbs renly s host": "stannis-absorbs-renly-s-host",
     "stannis absorbs renly's host": "stannis-absorbs-renly-s-host",
+    "stannis answers the night's watch plea": "stannis-moves-to-the-wall",
+    "stannis baratheon comes to the wall": "stannis-moves-to-the-wall",
+    "stannis baratheon sails north to the wall": "stannis-moves-to-the-wall",
     "stannis broken after the blackwater": "stannis-retreats-to-dragonstone",
     "stannis flees to dragonstone": "stannis-retreats-to-dragonstone",
     "stannis gains renly's stormlords": "stannis-absorbs-renly-s-host",
+    "stannis moves to the wall": "stannis-moves-to-the-wall",
+    "stannis relieves the wall": "stannis-moves-to-the-wall",
     "stannis retreats to dragonstone": "stannis-retreats-to-dragonstone",
+    "stannis sails north to the wall": "stannis-moves-to-the-wall",
     "stannis withdraws from king's landing": "stannis-retreats-to-dragonstone",
     "stannis's retreat after the blackwater": "stannis-retreats-to-dragonstone",
     "stevron frey assassinated": "death-of-ser-stevron-frey-announced",
@@ -2987,6 +2997,7 @@
     "tywin lannister's execution": "assassination-of-tywin-lannister",
     "tywin made hand of the king again": "tywin-named-savior-of-the-city",
     "tywin named savior of the city": "tywin-named-savior-of-the-city",
+    "tywin names roose bolton warden of the north": "roose-named-warden-of-the-north",
     "tywin proclaimed savior of the city": "tywin-named-savior-of-the-city",
     "tywin restored as hand after the blackwater": "tywin-named-savior-of-the-city",
     "tywin shot with a crossbow": "assassination-of-tywin-lannister",
@@ -3059,6 +3070,7 @@
     "war of the wombs": "war-of-the-wombs",
     "war of three princes": "war-of-three-princes",
     "war on dagger lake": "war-on-dagger-lake",
+    "wardenship of the north": "roose-named-warden-of-the-north",
     "wars between ghiscar and valyria": "ghiscari-wars",
     "wars of conquest": "wars-of-conquest",
     "wedding": "marriage",
@@ -9814,21 +9826,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-22T07:03:12.922791+00:00",
+  "computed_at": "2026-06-22T15:19:07.928050+00:00",
   "stats": {
     "ambiguous_collisions": 344,
     "source_breakdown": {
-      "node-frontmatter-alias": 473,
-      "node-name": 651,
-      "node-slug": 651,
+      "node-frontmatter-alias": 483,
+      "node-name": 653,
+      "node-slug": 653,
       "victim-index": 2820,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 5497,
-    "unambiguous_lookups": 3499,
-    "unique_phrases": 3843
+    "total_entries_scanned": 5511,
+    "unambiguous_lookups": 3511,
+    "unique_phrases": 3855
   },
   "version": "v2"
 }

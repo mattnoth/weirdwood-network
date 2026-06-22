@@ -587,6 +587,11 @@ Required for ranked top-5 arcs:
 
 ## 8. Harvest Queue Additions
 
+> **MIGRATED S125** — all 10 pointers below were migrated into `working/harvest-queue.md` during the S125 harvest
+> consume-pass. The warden / Slynt-execution / stabbing / Stannis-held-the-gate quotes were ATTACHED to existing
+> nodes; the Pink-Letter / Shieldhall / free-folk / Watch-oath / cart-before-the-horse rows were PARKED there
+> (homes are N3/N4 nodes not yet minted). This table is now a frozen record — consume from the queue, not here.
+
 *(Collected incidentally during NORTH wiki + graph + chapter investigation — POINT, don't extract)*
 
 | status | kind | book | ref | note | session |

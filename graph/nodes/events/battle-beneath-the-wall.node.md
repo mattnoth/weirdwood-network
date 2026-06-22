@@ -4,6 +4,7 @@ type: event.battle
 slug: battle-beneath-the-wall
 aliases: []
 confidence: tier-1
+containers: [north]
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_beneath_the_Wall"
 bucket_id: battles-a-b
 prompt_version: v1-python

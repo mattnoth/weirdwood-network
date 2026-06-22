@@ -5,7 +5,7 @@ slug: robb-proclaimed-king-in-the-north
 aliases: ["the King in the North", "Robb crowned King in the North", "northern lords proclaim Robb king", "the King in the North proclamation", "Greatjon proclaims Robb king", "Robb declared King in the North", "the North secedes"]
 confidence: tier-1
 era: war-of-the-five-kings
-containers: [wo5k]
+containers: [wo5k, north]
 pass_origin: s113-causal-track
 node_version: 1
 evidence_chapters:

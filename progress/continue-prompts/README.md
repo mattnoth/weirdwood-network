@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-22 (refreshed after S124)  
+**Generated:** 2026-06-22 (refreshed after S125)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,13 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-23-north-spine-build.md` | 2026-06-23 | NORTH spine build (graph track) | **LIVE** | Sonnet 4.6 | **New S124.** The NORTH decomp dip is DONE (`working/north-decomposition.md`). **BUILD session** (mutates graph): mint the top-3 ranked junctures in order — **N5** Red Wedding → `roose-named-warden-of-the-north` (1 mint, Bolton-thread entry) · **N2** Wall battle → `stannis-defeats-wildlings-at-the-wall` + `stannis-moves-to-the-wall` bridge (2 mints) · **N1** `great-ranging` edge-wire (0 mints — declared-but-unwired). 3 mints for the top-3; fresh-verify every causal edge; dedup `mutiny-at-castle-black`↔`jon-is-stabbed-repeatedly` first. AEGON (fix `PART_OF war-of-five-kings` edge bug first) + Bran decomp dips queued behind it. |
+| `2026-06-24-north-spine-build-n3-n4.md` | 2026-06-24 | NORTH spine build pt.2 (graph track) | **LIVE** | Sonnet 4.6 | **New S125.** NORTH top-3 (N5/N2/N1) BUILT S125 (worklog S125; container north=13). **BUILD session** (mutates graph): **N3** LC election → Slynt execution (mint `jon-elected-lord-commander`, 1 mint) · **N4** free folk → Pink Letter → stabbing (mint `jon-allows-free-folk-through-the-wall` + `pink-letter-delivered`, ~2 mints) **+ execute the `mutiny-at-castle-black`↔`jon-is-stabbed-repeatedly` merge** (canonical = the stabbing node). Fresh-verify every causal edge; agency-collapse care on the stabbing MOTIVATES chain; `jon-is-stabbed-repeatedly` is the hard terminus (no TWOW). Spec `working/north-decomposition.md` §3 Rank4/Rank5. AEGON (fix `PART_OF war-of-five-kings` edge bug first) + Bran decomp dips queued behind it. |
 
 ---
 
-## Archive (`archive/` subfolder — 41 files)
+## Archive (`archive/` subfolder — 43 files)
 
+> **`2026-06-23-north-spine-build.md`** — archived S125. **DONE (S125):** built the NORTH top-3 (N5 Roose-Warden + N2 Stannis-at-the-Wall [enrich-not-mint: `battle-beneath-the-wall` already is the rout, so only the `stannis-moves-to-the-wall` bridge was minted] + N1 great-ranging-wire). +2 nodes / +13 edges (22,411→22,424); every causal edge fresh-verified (dropped N5 MOTIVATES; retyped N2 bridge→battle; downgraded attack→battle Tier-3; corrected N1 mutiny source to the Fist). Container north 2→13; WO5K→NORTH seam traverses end-to-end. Dedup resolved (canonical=`jon-is-stabbed-repeatedly`, merge deferred to N4). Harvest consume-pass ran (queue 0 open). Superseded as live by the N3+N4 build.
 > **`2026-06-23-north-container-decomposition.md`** — archived S124. **DONE (S124):** the read-only NORTH decomposition dip ran → `working/north-decomposition.md` (603 lines; trigger-tree + scorecard + ranked build order). NORTH is greenfield, two spines (Jon's Watch arc + Bolton/Stannis political thread); 13 key junctures = 4 HIT-but-dark / 6 MISS / 2 partial. Top-3 = N5 Roose-Warden (11/12, 1 mint) · N2 Stannis-defeats-wildlings (11/12, 2 mints) · N1 great-ranging-wire (10/12, 0 mints). Superseded as the live prompt by the NORTH spine build.
 > **`2026-06-22-chat-ui-personality-design.md`** — archived S123 (parked, recoverable). **PARKED:** Matt deprioritized the chat-UI persona/voice design ("side thing, will come back to it"). The design task is unchanged and self-contained — restore to live when Matt wants the front-end track. Not started.
 > **`2026-06-22-wo5k-remainder-build.md`** — archived S123. **DONE (S123):** built all 4 WO5K-remainder junctures (Q5 + J2+J9 + J7 + J4) — +6 nodes / +27 edges (22,384→22,411), every causal/agency edge fresh-verified, 0 citation drift, 0 invented edge types. WO5K container now spine-complete; emergent cross-arc spine `balon-declares → … → robb-is-killed`. Verify-driven corrections: Q5 sack→capture, J7 source exec→murders + terminus=conspiracy, J2+J9 broker CAUSES→ENABLES, J4 −1 mint −2 edges. Next graph track = NORTH/AEGON/Bran (Matt picks; each needs its own decomp dip).

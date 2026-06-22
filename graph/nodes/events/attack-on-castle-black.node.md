@@ -4,6 +4,7 @@ type: event.battle
 slug: attack-on-castle-black
 aliases: []
 confidence: tier-1
+containers: [north, jon]
 wiki_source: "https://awoiaf.westeros.org/index.php/Attack_on_Castle_Black"
 bucket_id: battles-a
 prompt_version: v1-python

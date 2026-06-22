@@ -4,6 +4,7 @@ type: event.battle
 slug: mutiny-at-crasters-keep
 aliases: []
 confidence: tier-1
+containers: [north]
 wiki_source: "https://awoiaf.westeros.org/index.php/Mutiny_at_Craster's_Keep"
 bucket_id: battles-f-p
 prompt_version: v1-python

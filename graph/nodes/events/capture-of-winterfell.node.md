@@ -48,11 +48,11 @@ When [Asha Greyjoy](wiki:Asha_Greyjoy) travels from [Deepwood Motte](wiki:Deepwo
 
 > I am no [Stark](wiki:House_Stark). I am a [Greyjoy](wiki:House_Greyjoy), and I mean to be [my father's](wiki:Balon_Greyjoy) heir. How can I do that unless I prove myself with some great deed?(wiki:Capture_of_Winterfell.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Dagmer](wiki:Dagmer)
+> —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Dagmer](wiki:Dagmer), ACOK Theon III (`sources/chapters/acok/acok-theon-03.md:119`)
 
 > All's well, Greyjoy. Hear the quiet? You ought to be drunk with joy. You took Winterfell with fewer than thirty men, a feat to sing of.(wiki:Capture_of_Winterfell.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy), ACOK Theon IV (`sources/chapters/acok/acok-theon-04.md:23`)
 
 > **Theon**: With thirty men, I captured Winterfell in a night. You needed a thousand and a moon's turn to [take Deepwood Motte](wiki:Taking_of_Deepwood_Motte). **Asha**: Well, I'm no great warrior like you, brother, I saw the heads above your gates. Tell me true, which one gave you the fiercest fight, [the cripple](wiki:Bran_Stark) or [the babe](wiki:Rickon_Stark)?(wiki:Capture_of_Winterfell.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >
@@ -65,3 +65,7 @@ When [Asha Greyjoy](wiki:Asha_Greyjoy) travels from [Deepwood Motte](wiki:Deepwo
 > **Asha**: How could you be such a bloody fool? Children ... **Theon**: They defied me! And it was blood for blood besides, two sons of [Eddard Stark](wiki:Eddard_Stark) to pay for [Rodrik](wiki:Rodrik_Greyjoy) and [Maron](wiki:Maron_Greyjoy).(wiki:Capture_of_Winterfell.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
 >
 > —[Asha Greyjoy](wiki:Asha_Greyjoy) and [Theon Greyjoy](wiki:Theon_Greyjoy)
+
+> I'll give them reason to sob. I've used them gently, and this is how they repay me. [...] Mikken had killed himself with his mouth, just as Benfred had. As for Chayle, he had to give someone to the Drowned God, his men expected it. "I bear you no ill will," he'd told the septon before they threw him down the well, "but you and your gods have no place here now."
+
+— Theon's cruel rule of occupied Winterfell (aftermath): Mikken and Benfred killed, septon Chayle thrown down the well as an offering to the Drowned God; he had also had two of his own men whipped for raping a kennel girl. Theon POV, ACOK Theon IV (`sources/chapters/acok/acok-theon-04.md:45`)
