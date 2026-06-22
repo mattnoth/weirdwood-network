@@ -21,8 +21,13 @@ The persona's behavior has to match what the graph can actually answer + cite:
   surface evidence ("per AGOT, Eddard XII…").
 - **In-world vs meta** — the graph separates in-world entities (Red Wedding, Tywin) from out-of-universe `meta.*`
   (chapters, the books themselves). The persona's voice has to pick a stance on this boundary.
-- **Spoiler-gating (`first_available`) is DEFERRED** (not built). So the persona's spoiler behavior is an OPEN
-  design choice, not something the data enforces yet — see open question 3.
+- **Spoiler-gating (`first_available`) is DEFERRED — and stays deferred for this session.** It is gated on a
+  fixed precondition: the remaining narrative-arc skeletons (NORTH / AEGON / Bran / WO5K-remainder) built +
+  the dip-enrichment passes run over them; only THEN does the deterministic backfill happen. **Do NOT reopen
+  that deferral here.** For the persona, treat spoiler behavior as a **full-knowledge default for now**, with a
+  "read up to book/chapter X" gate noted as a *known future layer* the persona will support once the field
+  backfills — design the voice so that gate can slot in later without a rewrite. This is a note-and-move-on
+  item, not a design fork.
 - **Theory nodes** exist at Tiers 4–5 (e.g., the deferred theories track) — the persona needs an uncertainty/
   hedging stance for these.
 
@@ -34,9 +39,9 @@ The persona's behavior has to match what the graph can actually answer + cite:
    literary scholar/analyst) vs a toggle between them?
 2. **Persona identity:** a *named* character voice (a Citadel maester, Samwell, a weirwood/three-eyed-crow
    oracle) or an unnamed knowledgeable guide?
-3. **Spoiler stance** (intersects the deferred `first_available` work): full-knowledge, or warn/gate by a
-   user-set "I've read up to book/chapter X" point? This is the highest-leverage choice — it may pull the
-   deferred spoiler-gating work onto the critical path.
+3. ~~Spoiler stance~~ — **NOT an open question.** Spoiler-gating is deferred (see context above): persona
+   default = full-knowledge now, "read up to X" gate = known future layer. Design the voice to accommodate the
+   gate later; do not treat it as a fork to resolve, and do not pull `first_available` forward.
 4. **Evidence surfacing:** how much does it cite? Show Tier? Distinguish Tier-1 canon from Tier-4/5 theory?
    Hedge on low-confidence claims vs state them flat?
 5. **Tone:** scholarly / playful / dramatic / terse? How it handles "we don't know" (genuine series mysteries).
