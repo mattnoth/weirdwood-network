@@ -6,6 +6,7 @@ status: minted-plate3
 minted_at: 2026-06-07T17:00:21.181374+00:00
 evidence_chapters:
   - AGOT Bran V
+containers: [bran]
 ---
 
 # Six wildling deserters ambush Bran

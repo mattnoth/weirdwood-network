@@ -5,6 +5,7 @@ slug: theon-greyjoy-taken-as-ward
 aliases: ["theon-greyjoy-taken-as-ward", "theon-greyjoy-hostage-of-the-starks", "theon-given-to-eddard-stark", "theon-taken-from-pyke", "theon-as-ward-of-winterfell"]
 confidence: tier-1
 era: greyjoy-rebellion
+containers: [wo5k]
 pass_origin: s107-causal-track
 node_version: 1
 occurred:

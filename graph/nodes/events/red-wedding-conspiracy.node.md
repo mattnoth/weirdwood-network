@@ -5,6 +5,7 @@ slug: red-wedding-conspiracy
 aliases: ["the-frey-bolton-conspiracy", "walder-frey-conspires-with-roose-bolton", "the-plot-behind-the-red-wedding", "the-frey-lannister-bolton-plot"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [wo5k]
 pass_origin: s107-causal-track
 node_version: 1
 occurred:

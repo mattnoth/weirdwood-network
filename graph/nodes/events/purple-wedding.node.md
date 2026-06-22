@@ -4,6 +4,7 @@ type: event.wedding
 slug: purple-wedding
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Purple_Wedding"
 bucket_id: battles-p-s
 prompt_version: v1-python

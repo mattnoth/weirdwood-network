@@ -15,6 +15,7 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-scene
   date_confidence: tier-2
+containers: [wo5k]
 ---
 
 # Robb is killed

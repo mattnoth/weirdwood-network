@@ -5,6 +5,7 @@ slug: brienne-brought-before-lady-stoneheart
 aliases: ["Brienne captured by the Brotherhood", "the sword or the noose", "Brienne condemned by Lady Stoneheart", "Brienne's trial in the hollow hill", "sword or noose ultimatum"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [wo5k]
 pass_origin: s115-causal-track
 node_version: 1
 evidence_chapters:

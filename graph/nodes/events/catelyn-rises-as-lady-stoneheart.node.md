@@ -5,6 +5,7 @@ slug: catelyn-rises-as-lady-stoneheart
 aliases: ["Lady Stoneheart revealed", "Catelyn Stark resurrected", "Catelyn rises as Stoneheart", "Beric's last kiss revives Catelyn", "Lady Stoneheart takes the Brotherhood"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [wo5k]
 pass_origin: s115-causal-track
 node_version: 1
 evidence_chapters:

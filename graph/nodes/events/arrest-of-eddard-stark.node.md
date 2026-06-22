@@ -4,6 +4,7 @@ type: event.incident
 slug: arrest-of-eddard-stark
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Arrest_of_Eddard_Stark"
 bucket_id: battles-a
 prompt_version: v1-python

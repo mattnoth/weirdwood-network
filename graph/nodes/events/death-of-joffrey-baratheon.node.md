@@ -4,6 +4,7 @@ type: event.assassination
 slug: death-of-joffrey-baratheon
 aliases: ["Poisoning of Joffrey Baratheon", "death of joffrey", "joffrey's poisoning"]
 confidence: tier-2
+containers: [wo5k]
 sources: ["asos-sansa-03", "asos-sansa-05", "asos-sansa-06"]
 pass_origin: curator-s96-graph-cleanup
 ---

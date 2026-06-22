@@ -4,6 +4,7 @@ type: event.battle
 slug: landing-of-the-golden-company
 aliases: []
 confidence: tier-1
+containers: [aegon]
 wiki_source: "https://awoiaf.westeros.org/index.php/Landing_of_the_Golden_Company"
 bucket_id: battles-f-p
 prompt_version: v1-python

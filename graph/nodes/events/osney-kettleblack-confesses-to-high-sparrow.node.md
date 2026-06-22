@@ -5,6 +5,7 @@ slug: osney-kettleblack-confesses-to-high-sparrow
 aliases: ["Osney confesses to the High Sparrow", "Osney Kettleblack betrays Cersei", "Osney names Cersei to the Faith", "the confession that backfires on Cersei", "Osney's confession"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [wo5k]
 pass_origin: s114-causal-track
 node_version: 1
 evidence_chapters:

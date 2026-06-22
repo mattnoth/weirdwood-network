@@ -4,6 +4,7 @@ type: event.battle
 slug: sack-of-winterfell
 aliases: []
 confidence: tier-1
+containers: [wo5k, north]
 wiki_source: "https://awoiaf.westeros.org/index.php/Sack_of_Winterfell"
 bucket_id: battles-p-s
 prompt_version: v1-python

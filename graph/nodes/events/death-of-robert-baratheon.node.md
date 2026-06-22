@@ -5,6 +5,7 @@ slug: death-of-robert-baratheon
 aliases: ["death-of-robert-baratheon", "death-of-robert-i-baratheon", "robert-baratheon-killed-by-the-boar", "robert-s-boar-hunt-death", "the-kings-boar-hunt", "killing-of-king-robert", "robert-gored-by-the-boar"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [wo5k]
 pass_origin: s108-causal-track
 node_version: 1
 occurred:

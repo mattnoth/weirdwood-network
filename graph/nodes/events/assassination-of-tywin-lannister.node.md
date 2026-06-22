@@ -5,6 +5,7 @@ slug: assassination-of-tywin-lannister
 aliases: ["death of Tywin", "death of Tywin Lannister", "Tyrion kills Tywin", "Tyrion shoots Tywin", "Tyrion kills his father", "Tywin killed on the privy", "killing of Tywin Lannister", "Tywin shot with a crossbow"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Assassination_of_Tywin_Lannister"
 bucket_id: battles-a
 prompt_version: v1-python

@@ -5,6 +5,7 @@ slug: cersei-rearms-the-faith-and-forgives-the-debt
 aliases: ["Cersei rearms the Faith", "arming the Faith Militant", "restoring the Warrior's Sons", "the crown's debt to the Faith forgiven", "Cersei lets the Faith bear arms again"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [wo5k]
 pass_origin: s114-causal-track
 node_version: 1
 evidence_chapters:

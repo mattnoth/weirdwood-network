@@ -7,6 +7,7 @@ status: minted-plate3
 minted_at: 2026-06-07T20:35:35.149512+00:00
 evidence_chapters:
   - AFFC Cersei X
+containers: [wo5k]
 ---
 
 # Cersei is captured in the sept

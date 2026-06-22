@@ -4,6 +4,7 @@ type: event.battle
 slug: capture-of-winterfell
 aliases: []
 confidence: tier-1
+containers: [wo5k, north]
 wiki_source: "https://awoiaf.westeros.org/index.php/Capture_of_Winterfell"
 bucket_id: battles-b-d
 prompt_version: v1-python
