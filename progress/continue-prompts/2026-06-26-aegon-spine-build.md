@@ -1,4 +1,4 @@
-# S128 — AEGON spine build (causal arc mint)
+# SESSION 128 — AEGON spine build (causal arc mint)
 
 > **This is Session 128.** Stamp your worklog entry `### Session 128` at endsession.
 
