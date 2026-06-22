@@ -40,6 +40,13 @@ importance, **Jon Snow and Dany are the heavyweights**, not Bloodraven — but t
 priority + sensible sequencing (arc → character → event), not a ranked queue. Pick the next unit by what's
 ready / what a dip shows demand for, not by a standing "#1."
 
+**A dedicated PLANNING session sits between the two phases (Matt S130):** after the major arc enrichments are
+done, run a session whose whole job is to *enumerate and scope the granular cluster/character/event dip list*.
+The character/event entries below are **seeds**, not the final plan — by the time the arc work is done we'll
+know far more about what each cluster actually needs, so the real granular list gets built then. Full sequence:
+**low-value remainders → major arc/cluster enrichments → [planning session: scope the granular dip list] →
+granular character/event dips** (D&E full-Opus Pass-1 batch slots in after the first enrichment passes).
+
 ---
 
 ## Ledger — enrichment passes per unit
