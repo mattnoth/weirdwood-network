@@ -1,5 +1,6 @@
 ---
 slug: seven-girls-sacrificed-on-burning-ketch
+containers: [essos]
 type: event.incident
 name: "Seven girls sacrificed on burning ketch"
 status: minted-plate3

@@ -1,5 +1,6 @@
 ---
 slug: iron-fleet-captures-myrish-cog-dove
+containers: [essos]
 type: event.capture
 name: "Iron Fleet captures Myrish cog Dove"
 status: minted-plate3

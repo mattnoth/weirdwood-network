@@ -1,5 +1,6 @@
 ---
 slug: slaver-galley-willing-maiden-captured
+containers: [essos]
 type: event.capture
 name: "Slaver galley Willing Maiden captured"
 status: minted-plate3

@@ -1,5 +1,6 @@
 ---
 slug: the-crew-calls-for-moqorro-s-death
+containers: [essos]
 type: event.death
 name: "The crew calls for Moqorro's death"
 status: minted-plate3

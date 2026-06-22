@@ -1,5 +1,6 @@
 ---
 slug: slavers-killed-rowers-freed
+containers: [essos]
 type: event.death
 name: "Slavers killed, rowers freed"
 status: minted-plate3

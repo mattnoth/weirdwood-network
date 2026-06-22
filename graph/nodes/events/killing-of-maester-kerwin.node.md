@@ -1,5 +1,6 @@
 ---
 slug: killing-of-maester-kerwin
+containers: [essos]
 type: event.death
 name: "Killing of Maester Kerwin"
 aliases: ["Maester Kerwin's death", "Victarion kills Kerwin", "the killing of Maester Kerwin", "Kerwin's killing", "victarion-orders-kerwin-killed"]

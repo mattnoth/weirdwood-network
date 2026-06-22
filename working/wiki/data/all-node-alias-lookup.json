@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-22T20:57:05.670013+00:00",
+  "computed_at": "2026-06-22T22:49:04.097567+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -8909,6 +8909,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "blood for fire, fire for blood": [
+      {
+        "canonical_slug": "moqorro-reads-dragonbinder-glyphs",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "blood horse": [
@@ -21117,6 +21125,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "dragonbinder inscription revealed": [
+      {
+        "canonical_slug": "moqorro-reads-dragonbinder-glyphs",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "dragonbone": [
@@ -36575,6 +36591,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "host snowbound at the crofters' village": [
+      {
+        "canonical_slug": "stannis-s-army-stalls-at-crofters-village",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "hostage boys pass through": [
       {
         "canonical_slug": "hostage-boys-pass-through",
@@ -42287,12 +42311,52 @@
         "source": "node-slug"
       }
     ],
+    "iron fleet departs for slaver's bay": [
+      {
+        "canonical_slug": "iron-fleet-departs-for-slavers-bay",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "iron fleet departs for slavers bay": [
+      {
+        "canonical_slug": "iron-fleet-departs-for-slavers-bay",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "iron fleet sails on the north": [
       {
         "canonical_slug": "ironborn-invasion-of-the-north",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "iron fleet's slaver's bay voyage": [
+      {
+        "canonical_slug": "iron-fleet-departs-for-slavers-bay",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "iron fleet's voyage to meereen": [
+      {
+        "canonical_slug": "iron-fleet-departs-for-slavers-bay",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "iron fleet's voyage to slaver's bay": [
+      {
+        "canonical_slug": "iron-fleet-departs-for-slavers-bay",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "iron gate": [
@@ -57481,6 +57545,22 @@
         "source": "all-node-slug:materials"
       }
     ],
+    "march on winterfell": [
+      {
+        "canonical_slug": "stannis-march-on-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "march through the wolfswood": [
+      {
+        "canonical_slug": "stannis-march-on-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "marcher": [
       {
         "canonical_slug": "marcher",
@@ -60209,6 +60289,38 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "moqorro examines dragonbinder": [
+      {
+        "canonical_slug": "moqorro-reads-dragonbinder-glyphs",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "moqorro reads dragonbinder glyphs": [
+      {
+        "canonical_slug": "moqorro-reads-dragonbinder-glyphs",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "moqorro reads the dragonbinder glyphs": [
+      {
+        "canonical_slug": "moqorro-reads-dragonbinder-glyphs",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "moqorro reveals the dragon horn's inscription": [
+      {
+        "canonical_slug": "moqorro-reads-dragonbinder-glyphs",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "mord": [
@@ -78873,6 +78985,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "stall at the crofters' village": [
+      {
+        "canonical_slug": "stannis-s-army-stalls-at-crofters-village",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "stallion heart": [
       {
         "canonical_slug": "stallion-heart",
@@ -79015,6 +79135,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "stannis march on winterfell": [
+      {
+        "canonical_slug": "stannis-march-on-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "stannis marches on winterfell": [
+      {
+        "canonical_slug": "stannis-march-on-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "stannis moves to the wall": [
       {
         "canonical_slug": "stannis-moves-to-the-wall",
@@ -79034,6 +79170,14 @@
     "stannis retreats to dragonstone": [
       {
         "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "stannis s army stalls at crofters village": [
+      {
+        "canonical_slug": "stannis-s-army-stalls-at-crofters-village",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -79061,6 +79205,46 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis's army stalls at the crofters' village": [
+      {
+        "canonical_slug": "stannis-s-army-stalls-at-crofters-village",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "stannis's army stalls in the blizzard": [
+      {
+        "canonical_slug": "stannis-s-army-stalls-at-crofters-village",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis's host snowbound": [
+      {
+        "canonical_slug": "stannis-s-army-stalls-at-crofters-village",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis's march from deepwood motte": [
+      {
+        "canonical_slug": "stannis-march-on-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis's march on winterfell": [
+      {
+        "canonical_slug": "stannis-march-on-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "stannis's retreat after the blackwater": [
@@ -88113,6 +88297,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "victarion sails east for meereen": [
+      {
+        "canonical_slug": "iron-fleet-departs-for-slavers-bay",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "victarion slays multiple defenders": [
       {
         "canonical_slug": "victarion-slays-multiple-defenders",
@@ -88124,6 +88316,14 @@
     "victarion's dragon-quest": [
       {
         "canonical_slug": "euron-commissions-victarion-to-fetch-daenerys",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "victarion's voyage to fetch daenerys": [
+      {
+        "canonical_slug": "iron-fleet-departs-for-slavers-bay",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -93271,8 +93471,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19069,
-    "unique_phrases": 11558
+    "total_node_entries": 19095,
+    "unique_phrases": 11583
   },
   "version": "v1"
 }

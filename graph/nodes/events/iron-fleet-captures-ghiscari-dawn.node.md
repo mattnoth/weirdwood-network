@@ -1,5 +1,6 @@
 ---
 slug: iron-fleet-captures-ghiscari-dawn
+containers: [essos]
 type: event.capture
 name: "Iron Fleet captures Ghiscari Dawn"
 status: minted-plate3

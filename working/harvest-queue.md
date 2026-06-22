@@ -347,3 +347,18 @@
 | open | quote | adwd | adwd-bran-02.md:141 | Children of the forest self-name: "those who sing the song of earth"; giants called them "woh dak nag gran, the squirrel people" | bran-build-batchB |
 | open | description | adwd | adwd-bran-02.md:191 | Bloodraven on his weirwood throne: skeletal pale lord, one red eye, white root in empty socket, roots grown through his body | bran-build-batchB |
 | open | quote | adwd | adwd-bran-03.md:163 | Weirwood paste tastes "of honey, of new-fallen snow, of pepper and cinnamon and the last kiss his mother ever gave him" | bran-build-batchB |
+| open | foreshadowing | adwd | adwd-victarion-01:55 | Victarion hears the Drowned God: "You shall serve me well, my captain... It was for this I made you" — dueling-gods motif | S132 Victarion-voyage dip |
+| open | description | adwd | adwd-victarion-01:57 | Victarion's Moqorro-healed burned arm: "pork crackling from elbow to fingertips... yet the arm was stronger than it had ever been"; "Two gods are with me now" | S132 Victarion-voyage dip |
+| open | foreshadowing | adwd | adwd-victarion-01:45 | Moqorro's fire-vision: "Behind come the tigers. Ahead awaits your dragon" — "tigers" unresolved in ADWD | S132 Victarion-voyage dip |
+| open | description | adwd | adwd-victarion-01:41 | The Myrish eye Victarion claims: "two glass lenses in a series of brass tubes... until the eye was no longer than a dirk" | S132 Victarion-voyage dip |
+| open | description | adwd | adwd-the-iron-suitor-01:23 | Moqorro in new Greyjoy-black robes, "a mask of red-and-orange flames tattooed across his face"; crew shuns him | S132 Victarion-voyage dip |
+| open | foreshadowing | adwd | adwd-victarion-01:65 | Fisherman: "The silver queen is gone. She flew away upon her dragon, beyond the Dothraki sea" — Victarion's intel-gap vs Dany's real location | S132 Victarion-voyage dip |
+| open | description | adwd | adwd-victarion-01:105 | Dragonbinder's sound: "It was like some long scream. A thousand screams, all melted into one" — complements the AFFC Drowned-Man quote on the dragonbinder node | S132 Victarion-voyage dip |
+| open | quote | adwd | adwd-victarion-01:21 | Moqorro insists Daenerys lives: "his red god R'hllor had shown him the queen's face in his sacred fires" — Victarion has the lying captain's tongue torn out | S132 Victarion-voyage dip |
+| open | description | adwd | adwd-the-iron-suitor-01:25 | The storm a day out of Old Volantis that scattered/sank the Iron Fleet ("My brother's work, he'd thought") — the voyage's opening loss | S132 Victarion-voyage dip |
+| open | food | adwd | adwd-the-kings-prize-01:191 | Stannis's host eating its own horses: 800 horses at Deepwood Motte → 64 by The Sacrifice — hospitality-inversion (eating the mounts, not feasting) | S132 N6 dip |
+| open | description | adwd | adwd-the-sacrifice-01:75 | Arnolf Karstark physical: "Gaunt and bent and crooked, with a left shoulder half a foot higher than his right" | S132 N6 dip |
+| open | description | adwd | adwd-the-sacrifice-01:33 | Weirwood on the frozen lake island, "its bole and branches white as the surrounding snows… frozen blood" — possible BRAN-container link | S132 N6 dip |
+| open | foreshadowing | adwd | adwd-the-sacrifice-01:47 | "They had been three days from Winterfell for nineteen days" — ironic crystallization of the stall | S132 N6 dip |
+| open | quote | adwd | adwd-the-kings-prize-01:65 | Stannis: "I am not Robert. But we will march, and we will free Winterfell … or die in the attempt." — the march resolve | S132 N6 dip |
+| open | quote | adwd | adwd-the-kings-prize-01:73 | Justin Massey's theory of victory: "Stannis need only bloody Bolton, and the northmen will abandon him" (Red Wedding grievance) | S132 N6 dip |

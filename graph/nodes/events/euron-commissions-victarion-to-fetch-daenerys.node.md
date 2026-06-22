@@ -33,4 +33,4 @@ In the wake of the [taking of the Shields](taking-of-the-shields), King [Euron G
 
 > "I could sail the Iron Fleet to hell if need be." When Victarion opened his hand, his palm was red with blood. "I'll go to Slaver's Bay, aye. I'll find this dragon woman, and I'll bring her back." But not for you. You stole my wife and despoiled her, so I'll have yours. The fairest woman in the world, for me.
 
-— Victarion Greyjoy, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:286`)
+— Victarion Greyjoy, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:285`)

@@ -31,21 +31,36 @@ Enrichment isn't only arc/cluster-shaped. A unit is anything with a built skelet
 character / event can be enriched repeatedly — each pass (fresh subagents + accumulated harvest finds +
 newly-built neighbor units) yields new connections. Track the **pass number** per unit below.
 
-### Sequencing + "no lead" (Matt S130)
+### Sequencing — the descent (Matt S130, SHARPENED S131)
 
-**Order: major ARC/cluster enrichments first, THEN the granular character/event units.** Within any tier
-there is **no single "lead" — everything is important** (Matt: "there is no 'lead' you know what I mean?").
-Don't elevate a unit just because it came up in conversation. If we ever do rank character units by raw
-importance, **Jon Snow and Dany are the heavyweights**, not Bloodraven — but the working principle is flat
-priority + sensible sequencing (arc → character → event), not a ranked queue. Pick the next unit by what's
-ready / what a dip shows demand for, not by a standing "#1."
+**One enrichment dip per session (Matt S131).** Enrichment is its own session each time — don't bolt it onto a
+remainder/build session. The low-value remainders are now CLEARED (S131: AEGON Victarion-voyage + NORTH N6);
+the next session opens the enrichment phase proper.
 
-**A dedicated PLANNING session sits between the two phases (Matt S130):** after the major arc enrichments are
-done, run a session whose whole job is to *enumerate and scope the granular cluster/character/event dip list*.
-The character/event entries below are **seeds**, not the final plan — by the time the arc work is done we'll
-know far more about what each cluster actually needs, so the real granular list gets built then. Full sequence:
-**low-value remainders → major arc/cluster enrichments → [planning session: scope the granular dip list] →
-granular character/event dips** (D&E full-Opus Pass-1 batch slots in after the first enrichment passes).
+**The order is a top-down DESCENT, not a flat two-bucket split (Matt S131):**
+1. **Major narrative arcs FIRST** — the big causal spines (Red Wedding, Robert's Rebellion, the Essos/Dany
+   spine, the AEGON invasion, the WO5K, etc.). Deepen the arc as a whole before zooming in.
+2. **THEN granular clusters / sub-plots WITHIN those arcs** — the braided side-plots, secondary-character
+   threads, and revelation-events that hang off each major arc (e.g. within the Red Wedding: the Frey/Bolton
+   mechanics; within Dorne: the Queenmaker informer mystery).
+3. **THEN individual characters — maybe, and LAST** (Matt S131: "and then individual characters maybe?").
+   The character phase is tentative and comes after the arc + sub-plot work, because by then most of a
+   character's web is already built as a by-product of the arcs they appear in.
+
+**"No lead" + a BROAD roster, not a Bloodraven focus (Matt S131):** within any level everything matters — no
+single "#1." **Bloodraven is flagged but is one of MANY character candidates, NOT the focus** (Matt S131:
+"bloodraven is flagged but there should be more characters so we don't focus solely on him"). The character
+roster is wide — Jon Snow, Daenerys (the raw-importance heavyweights), Littlefinger, Varys, Tyrion, Cersei,
+Jaime, Stannis, Bran, Euron, Bloodraven, and more. Pick the next unit by what's ready / what a dip shows
+demand for, not by a standing favorite.
+
+**A dedicated PLANNING session sits between the arc phase and the granular phase (Matt S130):** after the major
+arc enrichments are done, run a session whose whole job is to *enumerate and scope the granular cluster/
+sub-plot/character dip list*. The character/event entries below are **seeds**, not the final plan — by the
+time the arc work is done we'll know far more about what each cluster actually needs, so the real granular list
+gets built then. Full sequence: **low-value remainders [DONE S131] → major narrative-arc enrichments →
+[planning session: scope the granular dip list] → granular clusters/sub-plots → individual characters (maybe)**
+(D&E full-Opus Pass-1 batch slots in after the first enrichment passes).
 
 ---
 
@@ -74,7 +89,13 @@ granular character/event dips** (D&E full-Opus Pass-1 batch slots in after the f
 
 ---
 
-## Next-pass scope — character units (flat priority — comes AFTER the arc enrichments)
+## Next-pass scope — character units (broad roster — comes LAST, after arcs AND their sub-plots; Matt S131)
+
+> **Characters are the LAST level of the descent and tentative** ("individual characters maybe?", Matt S131).
+> Most of a character's web gets built as a by-product of the arc + sub-plot enrichments they appear in, so the
+> dedicated character phase is for what's left. **Bloodraven is ONE of many, not the focus** — the roster is wide
+> (Jon, Dany, Littlefinger, Varys, Tyrion, Cersei, Jaime, Stannis, Bran, Euron, Bloodraven, …). The Bloodraven
+> hooks below are kept because they're concrete, not because he leads.
 
 > No "lead" here (Matt S130). By raw importance the heavyweights are **Jon Snow** and **Daenerys** (each a huge
 > cross-container web — queue them when the character phase opens). **Bloodraven, Bran, Euron** below are

@@ -1,5 +1,6 @@
 ---
 slug: two-ghiscari-galleys-chased-and-captured
+containers: [essos]
 type: event.capture
 name: "Two Ghiscari galleys chased and captured"
 status: minted-plate3
