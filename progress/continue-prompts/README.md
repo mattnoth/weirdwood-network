@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-22 (refreshed after S122)  
+**Generated:** 2026-06-22 (refreshed after S124)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,13 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-23-north-container-decomposition.md` | 2026-06-23 | NORTH container decomposition dip (graph track) | **LIVE** | Sonnet 4.6 | **New S123.** essos✓ + wo5k✓ are spine-complete; NORTH is the biggest greenfield gap and adjacent to the Theon/Winterfell seam just built. **READ-ONLY decomp dip** (no mints) → `working/north-decomposition.md` (trigger-tree + ranked junctures), template = `working/wo5k-decomposition.md`. Scope: Watch + wildling + political North (NOT White Walkers); Jon's spine roots at `execution-of-eddard-stark` → terminus `jon-is-stabbed-repeatedly`; Theon/Reek capture+sack is WO5K-owned (don't rebuild); post-Ramsay Winterfell + Stannis-march are `[north]`. AEGON/Bran are valid alternative picks (AEGON needs the `PART_OF war-of-five-kings` bug fixed first). Then a separate build session. |
+| `2026-06-23-north-spine-build.md` | 2026-06-23 | NORTH spine build (graph track) | **LIVE** | Sonnet 4.6 | **New S124.** The NORTH decomp dip is DONE (`working/north-decomposition.md`). **BUILD session** (mutates graph): mint the top-3 ranked junctures in order — **N5** Red Wedding → `roose-named-warden-of-the-north` (1 mint, Bolton-thread entry) · **N2** Wall battle → `stannis-defeats-wildlings-at-the-wall` + `stannis-moves-to-the-wall` bridge (2 mints) · **N1** `great-ranging` edge-wire (0 mints — declared-but-unwired). 3 mints for the top-3; fresh-verify every causal edge; dedup `mutiny-at-castle-black`↔`jon-is-stabbed-repeatedly` first. AEGON (fix `PART_OF war-of-five-kings` edge bug first) + Bran decomp dips queued behind it. |
 
 ---
 
-## Archive (`archive/` subfolder — 40 files)
+## Archive (`archive/` subfolder — 41 files)
 
+> **`2026-06-23-north-container-decomposition.md`** — archived S124. **DONE (S124):** the read-only NORTH decomposition dip ran → `working/north-decomposition.md` (603 lines; trigger-tree + scorecard + ranked build order). NORTH is greenfield, two spines (Jon's Watch arc + Bolton/Stannis political thread); 13 key junctures = 4 HIT-but-dark / 6 MISS / 2 partial. Top-3 = N5 Roose-Warden (11/12, 1 mint) · N2 Stannis-defeats-wildlings (11/12, 2 mints) · N1 great-ranging-wire (10/12, 0 mints). Superseded as the live prompt by the NORTH spine build.
 > **`2026-06-22-chat-ui-personality-design.md`** — archived S123 (parked, recoverable). **PARKED:** Matt deprioritized the chat-UI persona/voice design ("side thing, will come back to it"). The design task is unchanged and self-contained — restore to live when Matt wants the front-end track. Not started.
 > **`2026-06-22-wo5k-remainder-build.md`** — archived S123. **DONE (S123):** built all 4 WO5K-remainder junctures (Q5 + J2+J9 + J7 + J4) — +6 nodes / +27 edges (22,384→22,411), every causal/agency edge fresh-verified, 0 citation drift, 0 invented edge types. WO5K container now spine-complete; emergent cross-arc spine `balon-declares → … → robb-is-killed`. Verify-driven corrections: Q5 sack→capture, J7 source exec→murders + terminus=conspiracy, J2+J9 broker CAUSES→ENABLES, J4 −1 mint −2 edges. Next graph track = NORTH/AEGON/Bran (Matt picks; each needs its own decomp dip).
 > **`2026-06-21-container-shape-analysis.md`** — archived S122. **DONE (S122):** ran the 4-lens container-split fan-out (API healthy; the S121 529 outage had blocked it). The fan-out REFUTED the proposal's 6-set — Matt's SET = **5 containers** (`essos, wo5k, north, aegon` + `bran` by Matt's override; `riverlands`/`kl-faith` fold to wo5k as downstream branches; iron-islands/dorne fold via seam tags). Stamps applied (`--container` wo5k 2→24). Superseded as the live prompt by the WO5K-remainder build.
@@ -47,21 +48,19 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (ONE live track — the NORTH decomp dip)
+## Open threads right now (ONE live track — the NORTH spine build)
 
-> The live dir holds ONE track: the NORTH container decomposition dip. The chat-UI persona track was parked S123
-> (Matt: "side thing, will come back to it") — in `archive/`, recoverable. NORTH is the recommended next container,
-> but AEGON / Bran are valid alternatives (Matt's pick at session start).
+> The live dir holds ONE track: the NORTH spine build. The NORTH decomp dip is DONE (S124, archived). The chat-UI
+> persona track was parked S123 (Matt: "side thing, will come back to it") — in `archive/`, recoverable.
 
-**LIVE (graph): `2026-06-23-north-container-decomposition.md`** — essos✓ + wo5k✓ are spine-complete (Essos S119–120;
-WO5K-remainder S123). NORTH is the biggest greenfield gap and adjacent to the Theon/Winterfell seam just built.
-**READ-ONLY decomp dip** (no mints) → `working/north-decomposition.md` (trigger-tree + ranked junctures), template
-`working/wo5k-decomposition.md`. Scope = Watch + wildling + political North (NOT White Walkers); Jon's spine roots at
-`execution-of-eddard-stark` → `jon-is-stabbed-repeatedly`. Then a separate build session. (**Sonnet 4.6**)
+**LIVE (graph): `2026-06-23-north-spine-build.md`** — the NORTH decomp dip (S124) ranked the junctures; this BUILD
+session mints the top-3 in order: **N5** Red Wedding → `roose-named-warden-of-the-north` (1 mint, opens the Bolton
+spine) → **N2** Wall battle → `stannis-defeats-wildlings-at-the-wall` + `stannis-moves-to-the-wall` bridge (2 mints,
+the NORTH pivot) → **N1** `great-ranging` declared-but-unwired edge-wire (0 mints). 3 mints for the top-3; fresh-verify
+every causal edge; spec = `working/north-decomposition.md`. (**Sonnet 4.6**)
 
-**Alternatives if Matt picks differently:** AEGON (Golden Company; fix the `PART_OF war-of-the-five-kings` edge-hygiene
-bug first) or Bran (greenfield flight-to-the-north spine). Same dip recipe — swap the target. SET = `{essos✓, wo5k✓,
-north, aegon, bran}`.
+**Queued behind it (each its own decomp dip first):** AEGON (Golden Company; fix the `PART_OF war-of-the-five-kings`
+edge-hygiene bug first) and Bran (greenfield flight-to-the-north spine). SET = `{essos✓, wo5k✓, north, aegon, bran}`.
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
 *Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*
