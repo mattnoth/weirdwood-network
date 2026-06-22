@@ -284,6 +284,7 @@
     "attack on the wildlings": "attack-on-the-wildlings",
     "attempt on daenerys at the western market": "the-wine-merchant-attempts-to-poison-dany",
     "axe throwing competition": "martial-games",
+    "baelish betrays eddard stark": "littlefinger-betrays-ned",
     "balerion come again assassinated": "hizdahr-orders-drogon-killed",
     "balerion come again death": "hizdahr-orders-drogon-killed",
     "balerion come again execution": "hizdahr-orders-drogon-killed",
@@ -724,6 +725,7 @@
     "daenerys war of emancipation": "targaryen-campaign-in-slavers-bay",
     "daenerys's wild flight from meereen": "dany-mounts-drogon-and-flees-meereen",
     "daeron pretenders": "pretenders-claiming-to-be-prince-daeron-the-daring",
+    "dagger under ned's chin": "littlefinger-betrays-ned",
     "daily interrogations and killings": "daily-interrogations-and-killings",
     "damphair's resistance": "aeron-vows-to-raise-the-ironborn-smallfolk",
     "dance of the dragons": "dance-of-the-dragons",
@@ -1311,6 +1313,8 @@
     "frog murdered": "death-of-quentyn-martell",
     "frog's death": "death-of-quentyn-martell",
     "frog's execution": "death-of-quentyn-martell",
+    "galazza counsels the ghiscari marriage": "galazza-counsels-the-ghiscari-marriage",
+    "galazza urges dany to wed a ghiscari king": "galazza-counsels-the-ghiscari-marriage",
     "gendry captured": "gendry-captured",
     "ghiscari wars": "ghiscari-wars",
     "giant of lannister assassinated": "tyrion-processes-the-assassination-attempt",
@@ -1358,6 +1362,8 @@
     "great spring sickness": "great-spring-sickness",
     "great war": "war-for-the-dawn",
     "greatjon proclaims robb king": "robb-proclaimed-king-in-the-north",
+    "green grace counsels the marriage": "galazza-counsels-the-ghiscari-marriage",
+    "green grace's marriage counsel": "galazza-counsels-the-ghiscari-marriage",
     "greenblood ambush": "areo-hotah-springs-the-ambush",
     "gregor clegane raids the riverlands": "gregor-raids-the-riverlands",
     "gregor confesses and kills oberyn": "gregor-confesses-and-kills-oberyn",
@@ -1823,12 +1829,14 @@
     "list of characters and arms in the hedge knight graphic novel collection": "list-of-characters-and-arms-in-the-hedge-knight-graphic-novel-collection",
     "list of tourneys in westeros": "list-of-tourneys-in-westeros",
     "lists": "martial-games",
+    "littlefinger betrays ned": "littlefinger-betrays-ned",
     "littlefinger bribes the city watch for ned": "ned-orders-janos-slynt-to-arrest-cersei",
     "littlefinger has dontos killed": "killing-of-dontos-hollard",
     "littlefinger names the dagger as tyrion s": "littlefinger-names-the-dagger-as-tyrion-s",
     "littlefinger names the dagger as tyrion's": "littlefinger-names-the-dagger-as-tyrion-s",
     "littlefinger smuggles sansa out of king's landing": "littlefinger-smuggles-sansa-out-of-kings-landing",
     "littlefinger smuggles sansa out of kings landing": "littlefinger-smuggles-sansa-out-of-kings-landing",
+    "littlefinger's betrayal of ned": "littlefinger-betrays-ned",
     "littlefinger-lies-about-the-catspaw-dagger": "littlefinger-names-the-dagger-as-tyrion-s",
     "littlefinger-orders-dontos-killed": "killing-of-dontos-hollard",
     "lodos the twice drowneds rebellion": "lodos-the-twice-drowneds-rebellion",
@@ -9771,21 +9779,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-21T17:57:25.243958+00:00",
+  "computed_at": "2026-06-22T01:13:37.791351+00:00",
   "stats": {
     "ambiguous_collisions": 344,
     "source_breakdown": {
-      "node-frontmatter-alias": 441,
-      "node-name": 643,
-      "node-slug": 643,
+      "node-frontmatter-alias": 448,
+      "node-name": 645,
+      "node-slug": 645,
       "victim-index": 2820,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 5449,
-    "unambiguous_lookups": 3456,
-    "unique_phrases": 3800
+    "total_entries_scanned": 5460,
+    "unambiguous_lookups": 3464,
+    "unique_phrases": 3808
   },
   "version": "v2"
 }

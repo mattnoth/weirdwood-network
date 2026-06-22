@@ -382,6 +382,10 @@ OR: `wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen` (HIT, 0 causal out) →
 
 ### E7. Illyrio/Varys Conspiracy Dyad (AGOT Arya III Witness)
 
+> **⤳ EXTRACTED to `working/dyad-queue.md` D1 (S121).** Wrong shape for an Essos causal arc (dyad, not
+> chain) AND belongs to the future **AEGON / Targaryen-restoration container**, not Essos (board lens 4).
+> Removed from the Essos juncture priority list; the analysis below is retained as the source notes.
+
 **Description:** Arya witnesses Varys and Illyrio talking in the tunnels beneath the Red Keep (agot-arya-03:73–97). They discuss: the princess is pregnant (Dany), the Dothraki khal won't move until the son is born, Ned Stark "troubles my sleep," the need to delay. This is the conspiracy-as-process: Varys and Illyrio are actively managing the Targaryen restoration from King's Landing. The conversation is load-bearing: Arya tells Ned what she heard (partially), and Ned dismisses it ("they were mummers") — his failure to take it seriously is a factor in his downfall.
 
 **Anti-signal check:** The dyadic relationship `CONSPIRES_WITH(varys, illyrio)` is real canon — the text shows them coordinating on protecting Dany, managing the Small Council, and trying to preserve Ned long enough for the Dothraki to cross. However, a single conversation event node is borderline: does the ACT of conspiring in this specific scene carry its own causal consequence? The answer is: Arya tells Ned, Ned dismisses it — which is the missed intelligence that contributes to his arrest. This IS a causal node (the conversation CAUSES the missed-intelligence, which MOTIVATES Ned's over-confidence). But the causation is weak and mediated by multiple further decisions.
@@ -399,6 +403,9 @@ OR: `wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen` (HIT, 0 causal out) →
 ---
 
 ### E8. Jorah as Informant for Varys/Robert (Information Channel Dyad)
+
+> **⤳ EXTRACTED to `working/dyad-queue.md` D2 (S121).** Pure information-channel dyad, causal load 0;
+> removed from the Essos juncture priority list. Analysis below retained as source notes.
 
 **Description:** Jorah Mormont informs on Dany to the Small Council in exchange for a royal pardon for his slave-trading crimes. The intel channel is confirmed: Illyrio's letter (agot-daenerys-07:41: "Illyrio writes that they had a plague last year…" — Illyrio uses Jorah as a conduit). The wine merchant assassination attempt is Robert's response to Jorah's report of Dany's pregnancy. This is NOT a causal arc — it's an information channel dyad.
 
@@ -431,6 +438,12 @@ OR: `wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen` (HIT, 0 causal out) →
 
 ### Rank 1 — E4: Robert's Assassination Order → Wine Merchant → Drogo's Westward Vow
 **2 mints, 3–4 causal edges. Bridges WO5K into Essos; Tier-1 verbatim-grounded.**
+
+> **⊗ CROSS-CONTAINER SEAM (S121).** `robert-orders-daenerys-assassination` is **dual-membership**:
+> a downstream beat of WO5K (Robert's small-council decision, his court) AND the upstream prime mover of
+> the Essos/Daenerys spine. It is NOT a "standalone prime mover" — it is the *join* between the two biggest
+> containers. **`containers: [wo5k, essos]`** on the node (stamped S121). Build once; it surfaces under
+> both `--container wo5k` and `--container essos`. Same pattern flagged in `working/wo5k-decomposition.md`.
 - Mint: `robert-orders-daenerys-assassination` (event.assassination; AGOT Eddard VIII:13)
 - Mint: `drogo-westward-vow` (event.ceremony; AGOT Dany VI:179)
 - Wire: `robert-orders-daenerys-assassination CAUSES the-wine-merchant-attempts-to-poison-dany` (Tier-2)

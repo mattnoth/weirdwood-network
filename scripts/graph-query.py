@@ -1237,18 +1237,40 @@ def cmd_event_participants(
 # chain ("what set X in motion / what did X lead to") that no single edge holds.
 CAUSAL_EDGE_TYPES: frozenset[str] = frozenset({"CAUSES", "TRIGGERS", "MOTIVATES"})
 
+# ENABLES is a *precondition*, not a consequence — excluded from --causal-chain by
+# design, included by --full-chain (rendered "(precondition)"). See architecture.md
+# "The ENABLES vs CAUSES vs TRIGGERS contract".
+FULL_CHAIN_EDGE_TYPES: frozenset[str] = CAUSAL_EDGE_TYPES | frozenset({"ENABLES"})
 
-def _walk_causal(start: str, edges: list[dict], *, direction: str) -> list[dict]:
+# Reification role edges (participant slots on an event hub). Surfaced by
+# --expand-beats so an event that reads sparse in the causal walk shows its
+# real richness (who acted/suffered/ordered/saw/wielded within its sub-beats).
+ROLE_EDGE_TYPES: frozenset[str] = frozenset(
+    {"AGENT_IN", "VICTIM_IN", "COMMANDS_IN", "WITNESS_IN", "WIELDED_IN"}
+)
+
+
+def _walk_causal(
+    start: str,
+    edges: list[dict],
+    *,
+    direction: str,
+    edge_types: frozenset[str] = CAUSAL_EDGE_TYPES,
+) -> list[dict]:
     """BFS-walk causal edges transitively from `start`.
 
     direction='down' follows edges where source_slug == current node (effects).
     direction='up'   follows edges where target_slug == current node (causes).
 
+    `edge_types` selects which edge types the walk follows — default is the strict
+    causal set {CAUSES,TRIGGERS,MOTIVATES}; --full-chain passes FULL_CHAIN_EDGE_TYPES
+    (which adds ENABLES) so a spine reads end-to-end through its preconditions.
+
     Returns a list of edge dicts, each with an added `depth` key (1 = adjacent
     to `start`), in breadth-first order. Cycle-safe: each node is expanded at
     most once, so every edge is emitted exactly once even across diamonds.
     """
-    causal = [e for e in edges if e.get("edge_type") in CAUSAL_EDGE_TYPES]
+    causal = [e for e in edges if e.get("edge_type") in edge_types]
     adj: dict[str, list[dict]] = defaultdict(list)
     if direction == "down":
         key_here, key_next = "source_slug", "target_slug"
@@ -1288,24 +1310,75 @@ def _causal_brief(e: dict) -> dict:
     }
 
 
+def _edge_label(e: dict) -> str:
+    """Render an edge_type, tagging ENABLES as a precondition (for --full-chain)."""
+    et = e.get("edge_type", "")
+    return "ENABLES (precondition)" if et == "ENABLES" else et
+
+
+def _beats_for_node(node: str, edges: list[dict]) -> list[dict]:
+    """Return the SUB_BEAT_OF children of `node`, each annotated with its role edges.
+
+    A 'beat child' is the source of a `SUB_BEAT_OF` edge whose target is `node`.
+    Each returned dict: {beat: <slug>, roles: [(role_type, participant_slug), ...]}.
+    """
+    children = sorted(
+        e["source_slug"]
+        for e in edges
+        if e.get("edge_type") == "SUB_BEAT_OF" and e.get("target_slug") == node
+    )
+    out: list[dict] = []
+    for child in children:
+        roles = sorted(
+            (e["edge_type"], e["source_slug"])
+            for e in edges
+            if e.get("target_slug") == child and e.get("edge_type") in ROLE_EDGE_TYPES
+        )
+        out.append({"beat": child, "roles": roles})
+    return out
+
+
 def cmd_causal_chain(
     slug: str,
     edges: list[dict],
     *,
     json_output: bool = False,
+    edge_types: frozenset[str] = CAUSAL_EDGE_TYPES,
+    expand_beats: bool = False,
 ) -> None:
-    """Walk CAUSES/TRIGGERS/MOTIVATES both directions from `slug` and print the
-    transitive consequence-chain (upstream causes + downstream effects)."""
-    upstream = _walk_causal(slug, edges, direction="up")
-    downstream = _walk_causal(slug, edges, direction="down")
+    """Walk causal edges both directions from `slug` and print the transitive
+    consequence-chain (upstream causes + downstream effects).
+
+    `edge_types` defaults to the strict causal set (--causal-chain); --full-chain
+    passes FULL_CHAIN_EDGE_TYPES so ENABLES preconditions are followed too.
+    `expand_beats` additionally surfaces each chain node's SUB_BEAT_OF children
+    and their role edges (--expand-beats)."""
+    upstream = _walk_causal(slug, edges, direction="up", edge_types=edge_types)
+    downstream = _walk_causal(slug, edges, direction="down", edge_types=edge_types)
 
     upstream_nodes = sorted({e["source_slug"] for e in upstream})
     downstream_nodes = sorted({e["target_slug"] for e in downstream})
+    full = "ENABLES" in edge_types
+    mode = "full-chain" if full else "causal-chain"
+
+    # Every distinct node touched by the chain (for beat expansion).
+    chain_nodes: list[str] = [slug]
+    seen = {slug}
+    for e in upstream + downstream:
+        for s in (e["source_slug"], e["target_slug"]):
+            if s not in seen:
+                seen.add(s)
+                chain_nodes.append(s)
+    beat_map = (
+        {n: b for n in chain_nodes if (b := _beats_for_node(n, edges))}
+        if expand_beats else {}
+    )
 
     if json_output:
         result = {
             "slug": slug,
-            "causal_edge_types": sorted(CAUSAL_EDGE_TYPES),
+            "mode": mode,
+            "edge_types": sorted(edge_types),
             "upstream_count": len(upstream),
             "downstream_count": len(downstream),
             "upstream": [_causal_brief(e) for e in upstream],
@@ -1313,14 +1386,18 @@ def cmd_causal_chain(
             "upstream_nodes": upstream_nodes,
             "downstream_nodes": downstream_nodes,
         }
+        if expand_beats:
+            result["beats"] = beat_map
         print(json.dumps(result, indent=2, default=str))
         return
 
-    type_label = " / ".join(sorted(CAUSAL_EDGE_TYPES))
+    type_label = " / ".join(sorted(edge_types))
     print("=" * 72)
-    print(f"CAUSAL CHAIN: {slug}")
+    print(f"{'FULL CHAIN' if full else 'CAUSAL CHAIN'}: {slug}")
     print(f"  {_node_header(slug)}")
     print(f"  walks {type_label} (transitive, both directions)")
+    if full:
+        print("  (ENABLES hops shown as preconditions; --causal-chain omits them)")
     print()
 
     # Upstream: render furthest-cause first so the chain reads INTO the node.
@@ -1332,7 +1409,7 @@ def cmd_causal_chain(
     else:
         for e in sorted(upstream, key=lambda r: (-r["depth"], r["source_slug"])):
             indent = "  " * (e["depth"] - 1)
-            print(f"  {indent}{e['source_slug']} --[{e['edge_type']}]--> "
+            print(f"  {indent}{e['source_slug']} --[{_edge_label(e)}]--> "
                   f"{e['target_slug']}")
     print()
 
@@ -1345,15 +1422,104 @@ def cmd_causal_chain(
     else:
         for e in sorted(downstream, key=lambda r: (r["depth"], r["target_slug"])):
             indent = "  " * (e["depth"] - 1)
-            print(f"  {indent}{e['source_slug']} --[{e['edge_type']}]--> "
+            print(f"  {indent}{e['source_slug']} --[{_edge_label(e)}]--> "
                   f"{e['target_slug']}")
     print()
+
+    if expand_beats:
+        n_beat_nodes = len(beat_map)
+        print(f"BEAT EXPANSION — sub-beats & roles within chain nodes  "
+              f"({n_beat_nodes} node{'s' if n_beat_nodes != 1 else ''} with beats)")
+        print("-" * 72)
+        if not beat_map:
+            print("  (no SUB_BEAT_OF children on any chain node)")
+        else:
+            for node in chain_nodes:
+                if node not in beat_map:
+                    continue
+                print(f"  {node}")
+                for b in beat_map[node]:
+                    print(f"    {b['beat']}  [SUB_BEAT_OF]")
+                    for role_type, participant in b["roles"]:
+                        print(f"      {participant} --[{role_type}]--> {b['beat']}")
+        print()
+
     print("=" * 72)
     total = n_up + n_down
     print(
         f"SUMMARY: {slug}  |  {n_up} upstream + {n_down} downstream "
-        f"= {total} causal edge{'s' if total != 1 else ''}"
+        f"= {total} {'chain' if full else 'causal'} edge{'s' if total != 1 else ''}"
+        + (f"  |  {len(beat_map)} node(s) with beats" if expand_beats else "")
     )
+
+
+# ---------------------------------------------------------------------------
+# --container <name>
+# ---------------------------------------------------------------------------
+
+def _node_containers(fields: dict) -> list[str]:
+    """Normalize a node's `containers:` frontmatter into a list of names.
+
+    Handles pyyaml lists (`['essos']`), the simple-parser string fallback
+    (`"[essos, wo5k]"`), null/None, and absent. Never returns a phantom value.
+    """
+    raw = fields.get("containers")
+    if raw is None:
+        return []
+    if isinstance(raw, list):
+        return [str(x).strip().strip("'\"") for x in raw if str(x).strip()]
+    if isinstance(raw, str):
+        s = raw.strip()
+        if s in ("", "null", "~", "[]"):
+            return []
+        s = s.strip("[]")
+        return [x.strip().strip("'\"") for x in s.split(",") if x.strip()]
+    return []
+
+
+def cmd_container(name: str, *, json_output: bool = False) -> None:
+    """Bag-retrieval: list every node whose `containers:` array contains `name`.
+
+    UNORDERED — this is "what's in this storyline", NOT "show me the arc"
+    (for the ordered causal walk use --causal-chain / --full-chain)."""
+    target = name.strip().lower()
+    index = build_node_index()  # {slug: path}
+    matches: list[dict] = []
+    for slug, path in index.items():
+        try:
+            fields, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        names = [c.lower() for c in _node_containers(fields)]
+        if target in names:
+            matches.append({
+                "slug": slug,
+                "type": fields.get("type", ""),
+                "name": fields.get("name", slug),
+                "containers": _node_containers(fields),
+            })
+    matches.sort(key=lambda m: (m["type"], m["slug"]))
+
+    if json_output:
+        print(json.dumps(
+            {"container": name, "count": len(matches), "nodes": matches},
+            indent=2, default=str,
+        ))
+        return
+
+    print("=" * 72)
+    print(f"CONTAINER: {name}   (bag-retrieval — unordered; for the arc use --causal-chain)")
+    print("-" * 72)
+    if not matches:
+        print(f"  (no nodes carry containers: [... {name} ...])")
+    else:
+        for m in matches:
+            extra = [c for c in m["containers"] if c.lower() != target]
+            seam = f"  (+{', '.join(extra)})" if extra else ""
+            print(f"  {m['slug']}  —  {m['type']}{seam}")
+    print("=" * 72)
+    print(f"SUMMARY: container '{name}' = {len(matches)} node"
+          f"{'s' if len(matches) != 1 else ''}")
 
 
 # ---------------------------------------------------------------------------
@@ -1446,7 +1612,40 @@ def main() -> None:
             "Walk CAUSES / TRIGGERS / MOTIVATES edges transitively, both "
             "directions, from SLUG. Returns the upstream causes and downstream "
             "effects — the consequence-chain of a narrative arc that no single "
-            "edge holds (e.g. 'what set Tyrion's capture in motion, 3 steps back')."
+            "edge holds (e.g. 'what set Tyrion's capture in motion, 3 steps back'). "
+            "Excludes ENABLES preconditions by design (use --full-chain for those)."
+        ),
+    )
+    parser.add_argument(
+        "--full-chain", "--include-enables",
+        metavar="SLUG",
+        default=None,
+        dest="full_chain",
+        help=(
+            "Like --causal-chain but ALSO follows ENABLES preconditions (rendered "
+            "'(precondition)'), so a spine with ENABLES hinges reads end-to-end "
+            "instead of as disconnected segments."
+        ),
+    )
+    parser.add_argument(
+        "--expand-beats",
+        action="store_true",
+        dest="expand_beats",
+        help=(
+            "Modifier for --causal-chain / --full-chain: also surface each chain "
+            "node's SUB_BEAT_OF children and their role edges (AGENT_IN / VICTIM_IN "
+            "/ COMMANDS_IN / WITNESS_IN / WIELDED_IN), so an event that reads sparse "
+            "in the causal walk shows its real richness."
+        ),
+    )
+    parser.add_argument(
+        "--container",
+        metavar="NAME",
+        default=None,
+        help=(
+            "Bag-retrieval: list every node whose containers: frontmatter array "
+            "contains NAME (unordered). NOT 'show me the arc' — for the ordered "
+            "causal walk use --causal-chain / --full-chain."
         ),
     )
     parser.add_argument(
@@ -1465,6 +1664,8 @@ def main() -> None:
         or args.health
         or args.event_participants
         or args.causal_chain
+        or args.full_chain
+        or args.container
     )
     old_mode = args.slug is not None
 
@@ -1472,7 +1673,13 @@ def main() -> None:
         parser.error(
             "Cannot combine a positional slug with "
             "--neighbors / --path / --health / --event-participants / "
-            "--causal-chain. Use one mode at a time."
+            "--causal-chain / --full-chain / --container. Use one mode at a time."
+        )
+
+    # --expand-beats is a modifier, only valid with a causal walk.
+    if args.expand_beats and not (args.causal_chain or args.full_chain):
+        parser.error(
+            "--expand-beats must be combined with --causal-chain or --full-chain."
         )
 
     if not new_mode and not old_mode:
@@ -1483,6 +1690,11 @@ def main() -> None:
     # NEW EDGE-LAYER MODES
     # ------------------------------------------------------------------
     if new_mode:
+        # --container reads node frontmatter, not the edge layer.
+        if args.container:
+            cmd_container(args.container, json_output=args.json_output)
+            sys.exit(0)
+
         edges_path = Path(args.edges) if args.edges else DEFAULT_EDGES_FILE
         try:
             edges = load_edges(edges_path)
@@ -1506,7 +1718,14 @@ def main() -> None:
 
         elif args.causal_chain:
             cmd_causal_chain(
-                args.causal_chain, edges, json_output=args.json_output
+                args.causal_chain, edges, json_output=args.json_output,
+                expand_beats=args.expand_beats,
+            )
+
+        elif args.full_chain:
+            cmd_causal_chain(
+                args.full_chain, edges, json_output=args.json_output,
+                edge_types=FULL_CHAIN_EDGE_TYPES, expand_beats=args.expand_beats,
             )
 
         sys.exit(0)

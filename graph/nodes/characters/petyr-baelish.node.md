@@ -174,7 +174,11 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 
 > **Eddard**: I ... am grateful for your help. Perhaps I was wrong to distrust you. **Petyr**: You are slow to learn, Lord Eddard. Distrusting me was the wisest thing you've done since you climbed down off your horse.(wiki:Petyr_Baelish.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-1)
 >
-> —[Eddard Stark](wiki:Eddard_Stark) and Petyr
+> —[Eddard Stark](wiki:Eddard_Stark) and Petyr — AGOT, Eddard V (`agot-eddard-05.md:173`)
+>
+> *Planted-betrayal foreshadow (S121 book-cite overlay): Littlefinger tells Ned to his face that
+> distrusting him is wise — the warning that earns the payoff "I did warn you not to trust me" when he
+> draws the dagger in `littlefinger-betrays-ned` (AGOT Eddard XIV, agot-eddard-14.md:125).*
 
 > [Your mother](wiki:Catelyn_Stark) was my [queen of beauty](wiki:Queen_of_beauty) once. You have her hair.(wiki:Petyr_Baelish.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 >

@@ -5,6 +5,7 @@ slug: drogo-blood-magic-ritual
 aliases: ["Mirri Maz Duur's ritual", "the blood-magic ritual", "Mirri Maz Duur's blood magic", "Mirri's spell to save Drogo", "the ritual to heal Drogo", "Mirri Maz Duur heals Drogo", "only death can pay for life", "the maegi's dark magic on Drogo"]
 confidence: tier-1
 era: roberts-reign
+containers: [essos]
 pass_origin: s119-essos-root-track
 node_version: 1
 evidence_chapters:

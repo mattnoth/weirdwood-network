@@ -5,6 +5,7 @@ slug: death-of-khal-drogo
 aliases: ["death of Khal Drogo", "Drogo's death", "Drogo dies", "the khal dies", "Daenerys smothers Drogo", "Dany ends Drogo's life", "the mercy killing of Drogo", "death of Drogo", "who killed Khal Drogo"]
 confidence: tier-1
 era: roberts-reign
+containers: [essos]
 pass_origin: s119-essos-root-track
 node_version: 1
 evidence_chapters:

@@ -5,6 +5,7 @@ slug: dany-lost-on-dothraki-sea
 aliases: ["Dany lost on the Dothraki sea", "Daenerys stranded on the Dothraki sea", "Daenerys barefoot in the grass", "Dany's sojourn on Dragonstone hill", "Daenerys alone in the grass sea", "where Daenerys's ADWD arc ends"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [essos]
 pass_origin: s120-essos-e3-track
 node_version: 1
 evidence_chapters:

@@ -1,33 +1,389 @@
 {
-  "generated_at": "2026-06-21T17:57:25.055501+00:00",
+  "generated_at": "2026-06-22T01:13:38.430610+00:00",
   "entity_type": "events",
   "dry_run": false,
-  "entity_count": 1,
+  "entity_count": 635,
   "type_counts": {
-    "event.death": 1
+    "event.wedding": 23,
+    "event.tournament": 34,
+    "event.war": 31,
+    "event.execution": 12,
+    "event.battle": 276,
+    "event.incident": 83,
+    "event.death": 74,
+    "event.ceremony": 20,
+    "event.capture": 40,
+    "event.assassination": 18,
+    "event.deception": 6,
+    "event.feast": 5,
+    "event.conspiracy": 9,
+    "event.trial": 2,
+    "event.coronation": 2
   },
-  "entities_with_zero_mentions": 1,
-  "mention_inverse_slugs": 0,
+  "entities_with_zero_mentions": 601,
+  "mention_inverse_slugs": 34,
   "top_by_appearances": [
     {
-      "slug": "death-of-quentyn-martell",
-      "name": "Death of Quentyn Martell",
-      "type": "event.death",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
+      "slug": "war-of-the-five-kings",
+      "name": "War of the Five Kings",
+      "type": "event.war",
+      "appearances_total": 54,
+      "chapters_referenced_in": 54,
+      "in_edge_count": 445,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "battle-of-the-blackwater",
+      "name": "Battle of the Blackwater",
+      "type": "event.battle",
+      "appearances_total": 17,
+      "chapters_referenced_in": 17,
+      "in_edge_count": 444,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "roberts-rebellion",
+      "name": "Robert's Rebellion",
+      "type": "event.battle",
+      "appearances_total": 16,
+      "chapters_referenced_in": 16,
+      "in_edge_count": 288,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "doom-of-valyria",
+      "name": "Doom of Valyria",
+      "type": "event.battle",
+      "appearances_total": 7,
+      "chapters_referenced_in": 7,
+      "in_edge_count": 109,
       "out_edge_count": 0
+    },
+    {
+      "slug": "field-of-fire",
+      "name": "Field of Fire",
+      "type": "event.battle",
+      "appearances_total": 6,
+      "chapters_referenced_in": 4,
+      "in_edge_count": 53,
+      "out_edge_count": 4
+    },
+    {
+      "slug": "siege-of-storms-end",
+      "name": "Siege of Storm's End",
+      "type": "event.battle",
+      "appearances_total": 4,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 44,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "battle-of-the-trident",
+      "name": "Battle of the Trident",
+      "type": "event.battle",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 112,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "conquest-of-dorne",
+      "name": "Conquest of Dorne",
+      "type": "event.battle",
+      "appearances_total": 3,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 40,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "fall-of-astapor",
+      "name": "Fall of Astapor",
+      "type": "event.battle",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 38,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "greyjoy-rebellion",
+      "name": "Greyjoy Rebellion",
+      "type": "event.war",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 7,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "battle-of-oxcross",
+      "name": "Battle of Oxcross",
+      "type": "event.battle",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 72,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "century-of-blood",
+      "name": "Century of Blood",
+      "type": "event.war",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 80,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "red-wedding",
+      "name": "Red Wedding",
+      "type": "event.wedding",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 308,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "siege-of-meereen",
+      "name": "Siege of Meereen",
+      "type": "event.battle",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 51,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "tourney-at-harrenhal",
+      "name": "Tourney at Harrenhal",
+      "type": "event.tournament",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 68,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "sack-of-kings-landing",
+      "name": "Sack of King's Landing",
+      "type": "event.battle",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 98,
+      "out_edge_count": 4
+    },
+    {
+      "slug": "long-night",
+      "name": "Long Night",
+      "type": "event.war",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 55,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "tourney-on-prince-joffreys-name-day",
+      "name": "Tourney on Prince Joffrey's name day",
+      "type": "event.tournament",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 32,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "greyjoys-rebellion",
+      "name": "Greyjoy's Rebellion",
+      "type": "event.battle",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 99,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "battle-of-the-camps",
+      "name": "Battle of the Camps",
+      "type": "event.battle",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 87,
+      "out_edge_count": 4
     }
   ],
   "top_by_in_edges": [
     {
-      "slug": "death-of-quentyn-martell",
-      "name": "Death of Quentyn Martell",
-      "type": "event.death",
+      "slug": "dance-of-the-dragons",
+      "name": "Dance of the Dragons",
+      "type": "event.battle",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 0,
+      "in_edge_count": 594,
+      "out_edge_count": 5
+    },
+    {
+      "slug": "war-of-the-five-kings",
+      "name": "War of the Five Kings",
+      "type": "event.war",
+      "appearances_total": 54,
+      "chapters_referenced_in": 54,
+      "in_edge_count": 445,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "battle-of-the-blackwater",
+      "name": "Battle of the Blackwater",
+      "type": "event.battle",
+      "appearances_total": 17,
+      "chapters_referenced_in": 17,
+      "in_edge_count": 444,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "red-wedding",
+      "name": "Red Wedding",
+      "type": "event.wedding",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 308,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "roberts-rebellion",
+      "name": "Robert's Rebellion",
+      "type": "event.battle",
+      "appearances_total": 16,
+      "chapters_referenced_in": 16,
+      "in_edge_count": 288,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "aegons-conquest",
+      "name": "Aegon's Conquest",
+      "type": "event.battle",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 280,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "purple-wedding",
+      "name": "Purple Wedding",
+      "type": "event.wedding",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 201,
+      "out_edge_count": 4
+    },
+    {
+      "slug": "tourney",
+      "name": "Tourney",
+      "type": "event.tournament",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 168,
       "out_edge_count": 0
+    },
+    {
+      "slug": "battle-beneath-the-wall",
+      "name": "Battle beneath the Wall",
+      "type": "event.battle",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 158,
+      "out_edge_count": 4
+    },
+    {
+      "slug": "siege-of-riverrun",
+      "name": "Siege of Riverrun",
+      "type": "event.battle",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 148,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "coming-of-the-andals",
+      "name": "Coming of the Andals",
+      "type": "event.battle",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 135,
+      "out_edge_count": 5
+    },
+    {
+      "slug": "first-blackfyre-rebellion",
+      "name": "First Blackfyre Rebellion",
+      "type": "event.battle",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 129,
+      "out_edge_count": 4
+    },
+    {
+      "slug": "siege-of-storms-end-299",
+      "name": "Siege of Storm's End (299)",
+      "type": "event.battle",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 127,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "tourney-at-ashford-meadow",
+      "name": "Tourney at Ashford Meadow",
+      "type": "event.tournament",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 127,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "regency-of-aegon-iii",
+      "name": "Regency of Aegon III",
+      "type": "event.battle",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 121,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "kingsmoot-on-old-wyk",
+      "name": "Kingsmoot on Old Wyk",
+      "type": "event.ceremony",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 119,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "battle-of-the-trident",
+      "name": "Battle of the Trident",
+      "type": "event.battle",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 112,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "taking-of-the-shields",
+      "name": "Taking of the Shields",
+      "type": "event.battle",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 112,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "doom-of-valyria",
+      "name": "Doom of Valyria",
+      "type": "event.battle",
+      "appearances_total": 7,
+      "chapters_referenced_in": 7,
+      "in_edge_count": 109,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "great-ranging",
+      "name": "Great Ranging",
+      "type": "event.battle",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 105,
+      "out_edge_count": 10
     }
   ]
 }

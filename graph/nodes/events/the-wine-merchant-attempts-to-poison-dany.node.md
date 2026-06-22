@@ -5,6 +5,7 @@ slug: the-wine-merchant-attempts-to-poison-dany
 aliases: ["the wine merchant attempts to poison Daenerys", "the poisoned wine attempt", "the wineseller tries to poison Dany", "the assassination attempt at Vaes Dothrak", "the Lyseni wine merchant", "the attempt on Daenerys at the Western Market", "the poisoned Arbor wine"]
 confidence: tier-1
 era: roberts-reign
+containers: [essos]
 pass_origin: s119-essos-root-track
 node_version: 2
 evidence_chapters:

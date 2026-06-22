@@ -5,6 +5,7 @@ slug: robert-orders-daenerys-assassination
 aliases: ["Robert orders Daenerys killed", "Robert orders the assassination of Daenerys", "the order to kill Daenerys", "Robert's assassination order", "I want them dead mother and child both", "the small council votes to kill Daenerys", "Robert orders the Targaryen girl killed", "the order to murder the Targaryen children"]
 confidence: tier-1
 era: roberts-reign
+containers: [essos, wo5k]
 pass_origin: s119-essos-root-track
 node_version: 1
 evidence_chapters:

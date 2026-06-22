@@ -5,6 +5,7 @@ slug: drogo-westward-vow
 aliases: ["Drogo's vow", "Drogo's westward vow", "Drogo vows to cross the sea", "Drogo swears to take the Seven Kingdoms", "the vow before the Mother of Mountains", "Drogo pledges to cross the poison water", "Drogo's oath to invade Westeros", "the stallion who mounts the world vow"]
 confidence: tier-1
 era: roberts-reign
+containers: [essos]
 pass_origin: s119-essos-root-track
 node_version: 1
 evidence_chapters:

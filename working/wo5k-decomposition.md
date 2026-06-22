@@ -4,6 +4,16 @@
 > **Purpose:** Map the War of the Five Kings internal causal trigger-tree; mark what's built vs dark; rank buildable arcs.
 > **Read-only:** no graph writes. Local cache only.
 
+> **⊗ CROSS-CONTAINER SEAMS (S121).** Two WO5K nodes are dual-membership and get a `containers:` array on
+> both names — built once, surfaced under two containers:
+> - **`robert-orders-daenerys-assassination`** = WO5K (Robert's small-council decision, downstream of his
+>   reign) ∩ **Essos** (prime mover of the Daenerys spine). `containers: [wo5k, essos]`. Built S119; this is
+>   the *join* between the two biggest containers, not a standalone. See `working/essos-decomposition.md`
+>   Rank 1 / E4.
+> - **`capture-of-winterfell` / `sack-of-winterfell`** (Theon's seizure + Roose/Ramsay) = WO5K ∩ **NORTH**.
+>   When NORTH is opened (Step 2 fan-out), these carry `containers: [wo5k, north]`. The Theon/Reek arc
+>   straddles both and is flagged as a Step-2 boundary case — do NOT build it twice; build once, tag both.
+
 ---
 
 ## 1. Current Causal State — Verified Against Live Graph

@@ -5,6 +5,7 @@ slug: dany-mounts-drogon-and-flees-meereen
 aliases: ["Daenerys mounts Drogon in Daznak's Pit", "Dany flees Meereen on Drogon", "Dany vaults onto Drogon and flies", "Daenerys's wild flight from Meereen", "Dany rides Drogon out of the pit"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [essos]
 pass_origin: s120-essos-e3-track
 node_version: 1
 evidence_chapters:

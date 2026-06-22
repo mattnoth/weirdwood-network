@@ -11,6 +11,10 @@
 > nothing and you're already in the text. The graph still gets enriched — just batched, later, by a pass
 > whose *whole job* is harvesting. Companion to the FIRM `feedback_capture_quotes_during_research` rule.
 >
+> **Line-check rule (S121).** Before appending a row, re-read the line at the exact `chapter:line` you're
+> citing and confirm the quote/detail is really there. You're already in the passage — cite-drift caught
+> here is free; caught at harvest time it costs a file re-open. (3 cites drifted in the S120 pass.)
+>
 > **Row status values (DECIDED S116, Matt):**
 > - `open` — ready to consume; **counts toward the ~20–30 harvest-pass trigger.**
 > - `done` — attached/homed (keep the row as an audit trail).
@@ -60,6 +64,9 @@
 > an execution, murder, bout, battle — candidate for a `WITNESS_IN` edge; note WHO saw WHAT, and only
 > if the text shows they actually saw it, not merely present) · `other`. POINT, don't extract; don't
 > stop your task to attach it; don't pre-dedup. If nothing notable comes up, add nothing.
+> **LINE-CHECK (S121): before you append the row, re-read the line at that exact `chapter:line` cite and
+> confirm the quote/detail is actually there.** You are already in the text — catching cite-drift now is
+> free; catching it at harvest time (re-opening the file) is expensive. (3 queue cites drifted in S120.)
 
 ## Queue
 

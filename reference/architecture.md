@@ -411,6 +411,26 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `TRIGGERS` | Immediate cause (narrower than CAUSES — the specific spark) | Trigger → Result | — |
 | `SUSPECTED_OF` | A character is suspected — in-world and/or by the reader — of being the agent or cause of an event, where the published text does NOT prove it. The unproven counterpart to `AGENT_IN`/`KILLS`/`CAUSES`: use when the suspicion is itself load-bearing but the act is unconfirmed in the 5 published books. **Capped at Tier-2 — NEVER Tier-1** (Tier-1 is reserved for proven canon; an asserted-as-fact killing uses `KILLS`/`AGENT_IN`). Cite the in-text basis (accusation, portents, timing) in the rationale; out-of-text corroboration (TWOW-preview, author statements) may be noted but does not raise the tier. Added Session 116 (2026-06-20) — first instance: `euron-greyjoy SUSPECTED_OF death-of-balon-greyjoy` (Asha's accusation "Silence returns within a day of my lord father's death" + the storm-portents; Euron's confession exists only in the *Forsaken* TWOW-preview chapter, not published canon, so the killing stays unproven and the node stays `event.death`, not `event.assassination`). | Suspect → Event (`event.*`) | — |
 
+#### The `ENABLES` vs `CAUSES` vs `TRIGGERS` contract (S121, 2026-06-21)
+
+The three forward-causal edges are NOT interchangeable; they form a strength ladder, and the choice is load-bearing for graph honesty (the "sequence-only trap" — drawing causation where only chronology exists). Pick by this rubric:
+
+- **`TRIGGERS`** — A is the **immediate spark** of B; B is the very next beat, nothing decisional sits between them. *Is B the very next thing, or is there a step in between?* If next → TRIGGERS. (`ned-confesses-to-treason TRIGGERS execution-of-eddard-stark`.)
+- **`CAUSES`** — A **produces** B, possibly through intermediate (modeled or unmodeled) steps. Real causation, mediation allowed. (`siege-of-meereen CAUSES sons-of-the-harpy-kill-twenty-nine` — occupation breeds insurgency.)
+- **`ENABLES`** — A is a **precondition** that makes B *possible* but does NOT force it; a third party or a character's free decision actually produces B. *Did A force B, or just open the door while someone/something else walked through?* If door-opener → ENABLES. This is the **relief valve for the sequence trap**: a military campaign's city→city transitions (`fall-of-astapor ENABLES battle-near-yunkai`) are ENABLES, never CAUSES — Astapor didn't *cause* Yunkai; Dany running a campaign did, and she *chose* to march. ENABLES also preserves third-party / dragon / human agency (`wedding-of-hizdahr ENABLES drogon-returns-to-daznak-pit` — the wedding only opened the pit; Drogon *chose* to descend).
+- **`MOTIVATES`** — drives an **actor's** decision; target is a **character**, never an event. Use it to route a human choice instead of collapsing it into a false `A CAUSES B` (the agency-collapse check).
+
+**`--causal-chain` excludes `ENABLES` by design.** The walk tool `graph-query.py --causal-chain` follows only `{CAUSES, TRIGGERS, MOTIVATES}` — every `ENABLES` edge is a deliberate **segment break** in that walk (a precondition is not a consequence, so "what caused X?" arguably should not cross it). **To traverse a spine end-to-end including its preconditions, use `--full-chain` (alias `--include-enables`)**, which renders ENABLES hops labeled `(precondition)`. Correct ENABLES data therefore reads as "missing" in `--causal-chain` unless you switch tools — that is expected, not a defect. (S120 board finding: the Essos spine's 4 ENABLES hinges made it read as 3 disconnected segments under `--causal-chain`.)
+
+#### Two verification gate-levels for causal edges (S121, 2026-06-21)
+
+Causal/role-edge minting uses two named gate-levels so the weaker level does not silently creep onto the hardest edges:
+
+- **L1 — verified-at-mint.** The *same* subagent that researches the edge also adjudicates it (reads local cache, pins quotes, picks the edge type). Acceptable for `ENABLES` / role edges (`AGENT_IN`/`VICTIM_IN`/`WITNESS_IN`/`COMMANDS_IN`) / `SUB_BEAT_OF` and for obvious single-chapter calls. The `mint_essos_e3`/`e5` arcs are L1 exemplars.
+- **L2 — independent fresh-verify.** A *separate* subagent with no prior context re-checks the edge against the local book/wiki cache. **REQUIRED for cross-book or contested `CAUSES`/`TRIGGERS`** (the Mirri-blood-magic / Rhaegal-not-Viserion class). Until L2 confirms, the edge carries `verified_by: pending`.
+
+Matt gates at the policy level, not per-edge (memory `feedback_subagent_verify_not_matt`); these two levels are the policy.
+
 ### Temporal & Sequencing
 
 | Edge Type | Description | Directionality | Wiki Source |
@@ -446,6 +466,7 @@ Every node carries these frontmatter fields. Required unless marked optional.
 | `era` | Optional, forward-only. The narrative epoch this entity belongs to. Set on new mints; NOT backfilled. The narrowing function in `scripts/plate4-wiki-cluster.py` weights `era=current-narrative` higher when classifying current-narrative mints, suppressing false-positive matches against pre-series events. | `current-narrative` |
 | `first_available` | Optional. Spoiler gating field — DEFERRED to post-first-release backfill (see Spoiler Gating section below). | `"AGOT Bran II"` |
 | `occurred` | Optional, `event.*` only. Block recording in-world event time (when it happened, not when the reader meets it). See `occurred:` block subsection below. | `{ ac_year: 283, … }` |
+| `containers` | Optional, primarily `event.*`. **Array** of lowercase-kebab container names this node belongs to. A *tag*, NOT an umbrella parent node (see subsection). Omit the key or set `null` when untagged — **never `[]`**. | `[wo5k, north]` |
 
 ### `era:` enum values
 
@@ -482,6 +503,21 @@ Optional block on `event.*` nodes recording WHEN the event happened in-world —
 | `dispute` | Optional sub-map. Populated only when ≥2 competing canon dates exist (e.g. GRRM-acknowledged inconsistencies). | — |
 
 **v1 applied subset:** `ac_year`, `precision`, `basis_source`, `basis_reliability`, `date_confidence` only — all from `wiki-year-page` / `tertiary-fan` / `tier-3`. Deferred: `ac_year_end` spans (5 multi-year hubs staged for review), `uncertainty_radius`, `dispute`, the narrative reading-position axis (`narrative_first`, blocked on edge chapter-ref format normalization), BC dates (the deterministic source has none), and epoch `era` on event nodes. Mythological/legendary events (e.g. the Long Night) get NO `ac_year` — left null / `relative-only`.
+
+### `containers:` field (narrative-container membership tag) — S121, 2026-06-21
+
+A **container** is a big storyline tackled as a build unit (Essos, WO5K, NORTH, AEGON). The `containers:` field is an **array of lowercase-kebab container names** stamped on the event nodes that belong to that storyline:
+
+```yaml
+containers: [wo5k, north]
+```
+
+**It is a TAG, not a graph object.** There is no `wo5k` umbrella *node* with beats hanging off it — that would be the "bag-not-path" anti-pattern the project deliberately rejected (chain-as-arc / no-umbrella; an umbrella node loses the order and the why). `containers:` is pure node metadata; it adds no new graph object and so does **not** violate that decision.
+
+- **Query:** `graph-query.py --container <name>` is **bag-retrieval** — it returns the set of nodes carrying that tag, **unordered**. It is explicitly NOT "show me the arc." For the ordered causal walk of a storyline, use `--causal-chain` / `--full-chain`. (A bag answers "what's in this storyline?"; a path answers "in what order, and why?")
+- **Dual membership / seams:** a node on the boundary between two storylines carries both, e.g. `robert-orders-daenerys-assassination` is `containers: [wo5k, essos]` (a cross-container bridge). This is the natural representation of a seam — the node is built once and surfaces under both containers.
+- **Untagged nodes:** omit the key or set `containers: null`. **Never use `[]`** — an empty-array "uncategorized" class becomes its own maintenance burden.
+- **Backfill is incremental:** stamp as you build a container; retro-tagging the older floating standalone arcs (Red Wedding, Purple Wedding, etc.) is a separate decision, not automatic.
 
 ---
 

@@ -4,6 +4,7 @@ type: event.battle
 slug: siege-of-meereen
 aliases: []
 confidence: tier-1
+containers: [essos]
 wiki_source: "https://awoiaf.westeros.org/index.php/Siege_of_Meereen"
 bucket_id: battles-s-t
 prompt_version: v1-python

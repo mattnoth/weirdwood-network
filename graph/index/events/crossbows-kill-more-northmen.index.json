@@ -3,7 +3,7 @@
   "name": "Crossbows kill more northmen",
   "type": "event.death",
   "node_path": "graph/nodes/events/crossbows-kill-more-northmen.node.md",
-  "generated_at": "2026-06-14T20:36:09.887932+00:00",
+  "generated_at": "2026-06-22T01:13:38.417400+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

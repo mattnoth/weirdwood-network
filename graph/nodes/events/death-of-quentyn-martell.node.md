@@ -5,6 +5,7 @@ slug: death-of-quentyn-martell
 aliases: ["death of Quentyn Martell", "burning of Quentyn Martell", "Quentyn burned by Rhaegal", "Frog burned by the dragon", "how Quentyn Martell died"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [essos]
 pass_origin: s120-essos-e5-track
 node_version: 1
 evidence_chapters:

@@ -5,6 +5,7 @@ slug: dragon-hatching-on-drogo-pyre
 aliases: ["the dragons hatch", "birth of the dragons", "the dragons are born", "dragons born on the pyre", "Drogo's pyre", "the hatching of the dragons", "Daenerys walks into the fire", "the dragons hatch on Drogo's pyre", "mother of dragons"]
 confidence: tier-1
 era: roberts-reign
+containers: [essos]
 pass_origin: s119-essos-root-track
 node_version: 1
 evidence_chapters:

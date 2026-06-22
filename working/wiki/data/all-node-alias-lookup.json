@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-21T17:57:25.429645+00:00",
+  "computed_at": "2026-06-22T01:13:37.991603+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -4579,6 +4579,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-name:characters"
+      }
+    ],
+    "baelish betrays eddard stark": [
+      {
+        "canonical_slug": "littlefinger-betrays-ned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "baelish hedge knight": [
@@ -16883,6 +16891,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "dagger under ned's chin": [
+      {
+        "canonical_slug": "littlefinger-betrays-ned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "daggerleaf": [
       {
         "canonical_slug": "daggerleaf",
@@ -26999,12 +27015,28 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "galazza counsels the ghiscari marriage": [
+      {
+        "canonical_slug": "galazza-counsels-the-ghiscari-marriage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "galazza galare": [
       {
         "canonical_slug": "galazza-galare",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "galazza urges dany to wed a ghiscari king": [
+      {
+        "canonical_slug": "galazza-counsels-the-ghiscari-marriage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "galbart glover": [
@@ -31493,6 +31525,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "green grace counsels the marriage": [
+      {
+        "canonical_slug": "galazza-counsels-the-ghiscari-marriage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "green grace's marriage counsel": [
+      {
+        "canonical_slug": "galazza-counsels-the-ghiscari-marriage",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "green hell": [
@@ -50091,6 +50139,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "littlefinger betrays ned": [
+      {
+        "canonical_slug": "littlefinger-betrays-ned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "littlefinger bribes the city watch for ned": [
       {
         "canonical_slug": "ned-orders-janos-slynt-to-arrest-cersei",
@@ -50137,6 +50193,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "littlefinger's betrayal of ned": [
+      {
+        "canonical_slug": "littlefinger-betrays-ned",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "littlefinger's blade": [
@@ -92265,8 +92329,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 18928,
-    "unique_phrases": 11433
+    "total_node_entries": 18939,
+    "unique_phrases": 11441
   },
   "version": "v1"
 }

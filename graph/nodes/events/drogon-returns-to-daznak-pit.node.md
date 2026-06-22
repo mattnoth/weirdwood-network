@@ -5,6 +5,7 @@ slug: drogon-returns-to-daznak-pit
 aliases: ["Drogon descends on Daznak's Pit", "Drogon's return to the fighting pit", "Drogon appears at the games", "Drogon kills Barsena and the boar", "the dragon at Daznak's Pit"]
 confidence: tier-1
 era: war-of-the-five-kings
+containers: [essos]
 pass_origin: s120-essos-e3-track
 node_version: 1
 evidence_chapters:

@@ -4,6 +4,7 @@ type: event.battle
 slug: fall-of-astapor
 aliases: []
 confidence: tier-1
+containers: [essos]
 wiki_source: "https://awoiaf.westeros.org/index.php/Fall_of_Astapor"
 bucket_id: battles-d-f
 prompt_version: v1-python

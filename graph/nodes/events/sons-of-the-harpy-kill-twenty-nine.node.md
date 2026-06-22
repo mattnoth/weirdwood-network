@@ -6,6 +6,7 @@ status: minted-plate3
 minted_at: 2026-06-07T20:45:07.019473+00:00
 evidence_chapters:
   - ADWD The Queen's Hand I
+containers: [essos]
 ---
 
 # Sons of the Harpy kill twenty-nine

@@ -3,7 +3,7 @@
   "name": "Jaime's kills are revealed",
   "type": "event.death",
   "node_path": "graph/nodes/events/jaime-s-kills-are-revealed.node.md",
-  "generated_at": "2026-06-14T20:36:09.844947+00:00",
+  "generated_at": "2026-06-22T01:13:38.382457+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

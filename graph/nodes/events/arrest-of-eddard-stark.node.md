@@ -1,6 +1,6 @@
 ---
 name: "Arrest of Eddard Stark"
-type: event.battle
+type: event.incident
 slug: arrest-of-eddard-stark
 aliases: []
 confidence: tier-1
@@ -24,9 +24,14 @@ Arrest of Eddard Stark is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-- FIGHTS_IN: War of the Five Kings (track_b: Conflict)
-- DEFEATS: House Lannister (track_b: Result)
-- DEFEATS: Joffrey Baratheon (track_b: Result)
+> Display bullets corrected S121 (the old FIGHTS_IN/DEFEATS infobox bullets were junk — this is an
+> `event.incident`, not a battle that "defeats" houses; no such edges exist in `edges.jsonl`). Canonical
+> authority is `graph/edges/edges.jsonl` — query with `graph-query.py --neighbors arrest-of-eddard-stark`.
+
+- PART_OF: war-of-the-five-kings
+- CAUSES (in): death-of-robert-baratheon → arrest-of-eddard-stark
+- CAUSES (out): arrest-of-eddard-stark → execution-of-eddard-stark
+- SUB_BEAT_OF (beats within): cersei-orders-ned-s-arrest · gold-cloaks-betray-ned · ned-orders-janos-slynt-to-arrest-cersei · littlefinger-betrays-ned
 
 ## Origins
 

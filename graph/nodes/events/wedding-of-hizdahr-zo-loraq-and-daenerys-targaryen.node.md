@@ -4,6 +4,7 @@ type: event.wedding
 slug: wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen
 aliases: []
 confidence: tier-2
+containers: [essos]
 wiki_source: "https://awoiaf.westeros.org/index.php/Wedding_of_Hizdahr_zo_Loraq_and_Daenerys_Targaryen"
 bucket_id: tier3-pathb-events
 prompt_version: v1-python

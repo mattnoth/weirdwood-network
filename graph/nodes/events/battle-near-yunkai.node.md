@@ -4,6 +4,7 @@ type: event.battle
 slug: battle-near-yunkai
 aliases: []
 confidence: tier-1
+containers: [essos]
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_near_Yunkai"
 bucket_id: battles-a-b
 prompt_version: v1-python
