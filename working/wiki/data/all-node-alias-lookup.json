@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-23T06:06:59.274039+00:00",
+  "computed_at": "2026-06-23T22:44:44.526320+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -8671,6 +8671,22 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "blackwater chain": [
+      {
+        "canonical_slug": "blackwater-chain-boom",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
+    "blackwater chain boom": [
+      {
+        "canonical_slug": "blackwater-chain-boom",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
+      }
+    ],
     "blackwater rush": [
       {
         "canonical_slug": "blackwater-rush",
@@ -11539,6 +11555,14 @@
         "source": "node-slug"
       }
     ],
+    "burning of the blackwater": [
+      {
+        "canonical_slug": "wildfire-trap-on-the-blackwater",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "burning of the lannister fleet": [
       {
         "canonical_slug": "burning-of-the-lannister-fleet",
@@ -12949,6 +12973,14 @@
         "source": "node-slug"
       }
     ],
+    "cersei pulls joffrey from the walls": [
+      {
+        "canonical_slug": "joffrey-recalled-to-the-red-keep",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "cersei reacts to the stark boys deaths": [
       {
         "canonical_slug": "cersei-reacts-to-the-stark-boys-deaths",
@@ -13187,6 +13219,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "chain boom of the blackwater": [
+      {
+        "canonical_slug": "blackwater-chain-boom",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
       }
     ],
     "chains": [
@@ -29013,6 +29053,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "garlan tyrell routs stannis as renly s ghost": [
+      {
+        "canonical_slug": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "garlan tyrell routs stannis as renly's ghost": [
+      {
+        "canonical_slug": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "garland ii": [
       {
         "canonical_slug": "garland-ii",
@@ -31535,6 +31591,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "great chain": [
+      {
+        "canonical_slug": "blackwater-chain-boom",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
     "great council": [
       {
         "canonical_slug": "great-council",
@@ -31973,6 +32037,14 @@
         "node_category": "medical",
         "node_type": "concept.medical",
         "source": "all-node-slug:medical"
+      }
+    ],
+    "green fire on the blackwater": [
+      {
+        "canonical_slug": "wildfire-trap-on-the-blackwater",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "green fork": [
@@ -36861,6 +36933,22 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "hound quits the kingsguard": [
+      {
+        "canonical_slug": "sandor-clegane-deserts-the-kingsguard",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "hound's failure of nerve": [
+      {
+        "canonical_slug": "sandor-clegane-deserts-the-kingsguard",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "hour of the wolf": [
@@ -44299,6 +44387,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "joffrey leaves the mud gate": [
+      {
+        "canonical_slug": "joffrey-recalled-to-the-red-keep",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "joffrey lonmouth": [
       {
         "canonical_slug": "joffrey-lonmouth",
@@ -44313,6 +44409,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "joffrey recalled to the red keep": [
+      {
+        "canonical_slug": "joffrey-recalled-to-the-red-keep",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "joffrey screams for killing": [
@@ -46909,6 +47013,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-name:locations"
+      }
+    ],
+    "king's gate sortie": [
+      {
+        "canonical_slug": "tyrion-s-sortie-at-the-king-s-gate",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "king's justice": [
@@ -54311,6 +54423,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "lord renly's shade at the blackwater": [
+      {
+        "canonical_slug": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "lord renlys ride": [
@@ -70911,6 +71031,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "renly's host swears to stannis": [
@@ -74731,6 +74857,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "sandor clegane deserts the kingsguard": [
+      {
+        "canonical_slug": "sandor-clegane-deserts-the-kingsguard",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "sandor clegane's trial by combat": [
       {
         "canonical_slug": "sandor-cleganes-trial-by-combat",
@@ -74753,6 +74887,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "sandor refuses the sortie": [
+      {
+        "canonical_slug": "sandor-clegane-deserts-the-kingsguard",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "sandpiper": [
@@ -86653,6 +86795,14 @@
         "source": "all-node-slug:texts"
       }
     ],
+    "tyrion leads the sortie": [
+      {
+        "canonical_slug": "tyrion-s-sortie-at-the-king-s-gate",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tyrion probes about the brothel killing": [
       {
         "canonical_slug": "tyrion-probes-about-the-brothel-killing",
@@ -86680,6 +86830,14 @@
     "tyrion s battle dream": [
       {
         "canonical_slug": "tyrion-s-battle-dream",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "tyrion s sortie at the king s gate": [
+      {
+        "canonical_slug": "tyrion-s-sortie-at-the-king-s-gate",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -86731,6 +86889,14 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-name:species"
+      }
+    ],
+    "tyrion's sortie at the king's gate": [
+      {
+        "canonical_slug": "tyrion-s-sortie-at-the-king-s-gate",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "tyrion-arrested-for-joffreys-murder": [
@@ -88169,6 +88335,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "vanguard breaks stannis": [
+      {
+        "canonical_slug": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "vanyon": [
@@ -91457,6 +91631,14 @@
         "source": "node-slug"
       }
     ],
+    "wildfire trap on the blackwater": [
+      {
+        "canonical_slug": "wildfire-trap-on-the-blackwater",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "wildling prince": [
       {
         "canonical_slug": "aemon-steelsong",
@@ -93647,8 +93829,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19127,
-    "unique_phrases": 11605
+    "total_node_entries": 19153,
+    "unique_phrases": 11627
   },
   "version": "v1"
 }
