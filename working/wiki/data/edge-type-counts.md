@@ -1,18 +1,18 @@
 # Edge Type Counts — Weirwood Network
 
-Generated: 2026-06-22T06:38:32+00:00
+Generated: 2026-06-23T17:58:00+00:00
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Node files scanned | 8,321 |
-| Canonical edge types | 169 |
+| Node files scanned | 8,351 |
+| Canonical edge types | 170 |
 | Populated types (≥1 instance) | 59 |
-| Unpopulated types (0 instances) | 110 |
+| Unpopulated types (0 instances) | 111 |
 | Drift types (not in canonical) | 0 |
-| Total edge instances | 21,084 |
-| Infobox edges | 21,084 |
+| Total edge instances | 21,080 |
+| Infobox edges | 21,080 |
 | Prose-derived edges | 0 |
 
 ## By Category
@@ -77,12 +77,12 @@ Generated: 2026-06-22T06:38:32+00:00
 | `CONTRACTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
 | `CONSPIRES_WITH` *(unpopulated)* | 0 | 0 | 0 |
 
-### Military & Conflict — 11/28 populated, 632 instances
+### Military & Conflict — 11/28 populated, 629 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
-| `DEFEATS` | 347 | 347 | 0 |
-| `FIGHTS_IN` | 232 | 232 | 0 |
+| `DEFEATS` | 345 | 345 | 0 |
+| `FIGHTS_IN` | 231 | 231 | 0 |
 | `KILLS` | 31 | 31 | 0 |
 | `PRISONER_OF` | 5 | 5 | 0 |
 | `COMMANDS_IN` | 4 | 4 | 0 |
@@ -202,7 +202,7 @@ Generated: 2026-06-22T06:38:32+00:00
 | `CURSES` *(unpopulated)* | 0 | 0 | 0 |
 | `PRACTICES` *(unpopulated)* | 0 | 0 | 0 |
 
-### Cultural & Religious — 3/6 populated, 3,542 instances
+### Cultural & Religious — 3/7 populated, 3,542 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
@@ -211,6 +211,7 @@ Generated: 2026-06-22T06:38:32+00:00
 | `CLERGY_OF` | 3 | 3 | 0 |
 | `SACRED_TO` *(unpopulated)* | 0 | 0 | 0 |
 | `OFFICIATES` *(unpopulated)* | 0 | 0 | 0 |
+| `HONORED_AT` *(unpopulated)* | 0 | 0 | 0 |
 | `NAMED_AFTER` *(unpopulated)* | 0 | 0 | 0 |
 
 ### Narrative & Literary — 1/7 populated, 1 instances
@@ -244,11 +245,11 @@ Generated: 2026-06-22T06:38:32+00:00
 | `CONTRADICTS` *(unpopulated)* | 0 | 0 | 0 |
 | `CITED_BY` *(unpopulated)* | 0 | 0 | 0 |
 
-### Causal & Plot — 1/6 populated, 4 instances
+### Causal & Plot — 1/6 populated, 3 instances
 
 | Edge Type | Instances | Infobox | Prose |
 |-----------|-----------|---------|-------|
-| `CAUSES` | 4 | 4 | 0 |
+| `CAUSES` | 3 | 3 | 0 |
 | `PREVENTS` *(unpopulated)* | 0 | 0 | 0 |
 | `ENABLES` *(unpopulated)* | 0 | 0 | 0 |
 | `MOTIVATES` *(unpopulated)* | 0 | 0 | 0 |
@@ -271,7 +272,7 @@ Generated: 2026-06-22T06:38:32+00:00
 | `ATTENDS` *(unpopulated)* | 0 | 0 | 0 |
 | `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` *(unpopulated)* | 0 | 0 | 0 |
 
-## Unpopulated Types (110 total — Stage 4 targets)
+## Unpopulated Types (111 total — Stage 4 targets)
 
 These are the types with zero instances in the current graph.
 They are the primary targets for Stage 4 (prose-edge classification).
@@ -286,7 +287,7 @@ They are the primary targets for Stage 4 (prose-edge classification).
 - **Possession & Ownership:** `BUILT`, `CAPTAIN_OF`, `CREW_OF`, `EXECUTED_WITH`, `FORGED_BY`, `GIFTED_TO`, `INHERITED_BY`, `LOOTED_BY`, `MADE_OF`, `PURCHASED_FROM`, `REFORGED_INTO`, `WIELDED_IN`
 - **Identity & Disguise:** `IMPERSONATES`
 - **Magic & Supernatural:** `BONDED_TO`, `CURSES`, `PRACTICES`, `RESURRECTS`, `SACRIFICES`, `WARGS_INTO`
-- **Cultural & Religious:** `NAMED_AFTER`, `OFFICIATES`, `SACRED_TO`
+- **Cultural & Religious:** `HONORED_AT`, `NAMED_AFTER`, `OFFICIATES`, `SACRED_TO`
 - **Narrative & Literary:** `CONTRASTS`, `DEPICTED_IN`, `ECHOES`, `FORESHADOWS`, `PARALLELS`, `SUBVERTS`
 - **Prophecy:** `APPEARS_TO_FULFILL`, `DREAMS_OF`, `FULFILLS`, `PROPHESIED_BY`, `SUBJECT_OF_PROPHECY`, `SUBVERTS_PROPHECY`
 - **Evidentiary (Theory Support):** `CITED_BY`, `CONTRADICTS`, `SUPPORTS`
@@ -312,9 +313,9 @@ None. All emitted edge types are in the canonical vocabulary.
 | 8 | `REGION_OF` | Spatial & Temporal | 615 |
 | 9 | `OVERLORD_OF` | Political & Authority | 582 |
 | 10 | `RULES` | Political & Authority | 562 |
-| 11 | `DEFEATS` | Military & Conflict | 347 |
+| 11 | `DEFEATS` | Military & Conflict | 345 |
 | 12 | `SEAT_OF` | Spatial & Temporal | 338 |
-| 13 | `FIGHTS_IN` | Military & Conflict | 232 |
+| 13 | `FIGHTS_IN` | Military & Conflict | 231 |
 | 14 | `HEIR_TO` | Kinship & Family | 206 |
 | 15 | `SUCCEEDS` | Political & Authority | 192 |
 | 16 | `LOVER_OF` | Kinship & Family | 182 |

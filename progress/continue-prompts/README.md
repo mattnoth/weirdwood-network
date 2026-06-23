@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-23-enrichment-phase-s135.md` | 2026-06-23 | Enrichment phase: 3rd major-arc dip | **LIVE** (parallel A) | Sonnet 4.6 board + Opus 4.8 orch | **New S134.** Enrichment phase; RR pass 1 (S133) + Red Wedding pass 1 (S134) shipped. Pick the 3rd arc via demand-dip/board (Essos-Dany / Sack-of-KL / WO5K / Purple-Wedding / Tywin's-death), then run the **4-lens** machine (lens 4 = existing-node↔existing-node causal-wiring is now STANDING). Do NOT launch the PARKED graph-wide causal track. Ledger: `working/arc-enrichment-backlog.md`. |
-| `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **LIVE** (parallel B) | Opus 4.8 | **New S131** (supersedes the harness-planning prompt, now archived). PARALLEL-SAFE with parallel-A. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT: smoke v4 on THK → fresh-judge (vocab held? qualifiers? isolation? identity reveals? completeness?) → promote or iterate to v4b → full-run prereqs (graduate worker to `scripts/`, register `weirwood run` track, split A/B decision, correct stale `architecture.md:161` per S131 Active Decision). **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). |
+| `2026-06-23-enrichment-phase-s136.md` | 2026-06-23 | Enrichment phase: 4th major-arc dip | **LIVE** (graph) | Sonnet 4.6 board + Opus 4.8 orch | **New S135** (supersedes the s135 prompt, now archived). 3 dips shipped (RR S133 / Red Wedding S134 / Purple Wedding S135). Board-pick the 4th arc (Sack-of-KL / Ned's-downfall / Blackwater READY; Tywin's-death + Cersei's-downfall need spine-build FIRST; Essos gated), run the 4-lens machine. **SPLIT-THE-BAR landed in-prompt** (tight edges / wide-open harvest). Do NOT launch the PARKED graph-wide causal track. Ledger: `working/arc-enrichment-backlog.md`. |
+| `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 51 files)
+## Archive (`archive/` subfolder — 52 files)
+
+> **`2026-06-23-enrichment-phase-s135.md`** — archived S135. **DONE (S135):** 3rd major-arc enrichment dip = **Purple Wedding pass 1** (board-picked — 3-advisor consensus). +16 edges / +0 nodes (edge-only). Lit the 0-causal hub → `death-of-joffrey-baratheon` walks 18 edges downstream; whodunit SUSPECTED_OF layer (Tyrion + Sansa) + 5 WITNESS_IN + object edges (Widow's Wail / chalice / Strangler); `petyr MOTIVATES olenna`; LF-alliance ENABLES the betrothal. Independent fresh-verify 6C/3R (caught a temporal-inversion + an agency-collapse + a co-location). 0 drift, 0 new types. Also: ran the harvest-capture board → split-the-bar landed in S136; texture-sweep+grep design DEFERRED (`working/harvest-texture-sweep-deferred.md`). Superseded as live by `2026-06-23-enrichment-phase-s136.md`.
 
 > **`2026-06-23-enrichment-phase-s134.md`** — archived S134. **DONE (S134):** resolved the 2 S133 open decisions — causal-wiring scope → **4th causal-wiring lens now standing + a graph-wide causal-wiring track PARKED** (advisory board, Matt-delegated); off-vocab `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` → **converted to beat-node `crowning-of-lyanna-at-harrenhal` + new `HONORED_AT` edge type**. Consumed 19 RR harvest rows. STEP 2 = **Red Wedding enrichment pass 1** (board-picked): +2 nodes / +23 edges / +14 descriptive attaches; fixed the dead-end hub (downstream 1→ traversing chain to Stannis/north + fArya); wired 2 causal islands via the new lens (Wendel→Wyman-revenge; Rains→Red-Wedding); fresh-verify 3C/3A; 0 drift. Superseded as live by `2026-06-23-enrichment-phase-s135.md`.
 > **`2026-06-29-enrichment-phase.md`** — archived S133. **DONE (S133):** the enrichment phase opened. STEP 0 harvest on-ramp consumed all 33 rows (31 attached + 2 no-op). STEP 1 = first major-arc enrichment = **Robert's Rebellion pass 1** (board-picked unanimous): +3 nodes / +24 net edges (22 board −1 junk −1 reject + 2 A/B-bonus); wired the dead-end RR cluster forward (RR→AEGON via Connington's exile, RR→WO5K via the Cersei marriage, RR→Essos via Robert's kill-order); Jon-Arryn-murder reified; R+L held gated. Fresh-verify 6C/2A/1R; 0 drift; 0 new types. Ran a Sonnet-board-vs-Opus A/B (~90% convergence — board validated; → add a causal-wiring lens). Superseded as live by `2026-06-23-enrichment-phase-s134.md`.
@@ -66,18 +68,17 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > deliberately parallel (different files, different windows — this is the endsession "one file per independent
 > work track" case, NOT a menu for the same slot). The chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE A (graph): `2026-06-23-enrichment-phase-s135.md`** — enrichment phase; **RR pass 1 (S133) + Red Wedding
-pass 1 (S134) shipped** (2 major-arc dips). S134 also resolved the 2 open decisions: causal-wiring → **4th lens
-standing + graph-wide track PARKED**; CROWNS → **beat-node + `HONORED_AT` type**. NEXT (S135): the **third**
-major-arc dip — pick via demand-dip/board (Essos-Dany / Sack-of-KL / WO5K / Purple-Wedding / Tywin's-death) and run
-the **4-lens** machine (lens 4 = existing-node↔existing-node causal-wiring is now standing; memory
-`feedback_enrichment_board_causal_lens`). Do NOT launch the parked graph-wide causal track.
-Ledger `working/arc-enrichment-backlog.md` (pass-COUNT per unit). Fresh-verify; TWOW/gated-theory OUT. (**Sonnet 4.6 board + Opus 4.8 orch**)
+**LIVE (graph): `2026-06-23-enrichment-phase-s136.md`** — enrichment phase; **3 major-arc dips shipped** (RR pass 1 S133 +
+Red Wedding pass 1 S134 + Purple Wedding pass 1 S135). NEXT (S136): the **fourth** major-arc dip — board-pick the arc
+(Sack-of-KL / Ned's-downfall / Blackwater READY; Tywin's-death + Cersei's-downfall need a spine-build FIRST; Essos gated)
+and run the **4-lens** machine (lens 4 = existing-node↔existing-node causal-wiring is standing). **SPLIT-THE-BAR landed
+in-prompt** (tight edges / wide-open harvest — Matt wants lots of harvest rows). Do NOT launch the parked graph-wide causal
+track. Ledger `working/arc-enrichment-backlog.md` (pass-COUNT per unit). Fresh-verify; TWOW/gated-theory OUT. (**Sonnet 4.6 board + Opus 4.8 orch**)
 
-**LIVE B (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — harness + v4 prompt DESIGNED S131, Bloodraven
-priming scrubbed S132b; nothing run. NEXT: smoke-test v4 on THK (gated on Matt's go) → fresh-judge → promote or
-iterate to v4b. Extraction gated — confirm before any extraction incl. smoke. (**Opus 4.8**) **Track state →
-`worklog-dunk-egg.md` (DE-N numbering, split S132c) — a fired D&E session writes its DE-N entry there, not `worklog.md`.**
+**PARKED (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — **PARKED by Matt 2026-06-23** (concurrent-with-enrichment
+was too confusing — revisit when fresh). Harness + v4 prompt DESIGNED S131; nothing run (smoke un-run). When un-parked:
+smoke-test v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. Extraction gated — confirm before any
+extraction incl. smoke. (**Opus 4.8**) **Track state → `worklog-dunk-egg.md` (DE-N numbering, split S132c).**
 
 All container dyads discharged (D1 Varys↔Illyrio + D2 Jorah at AEGON; D3 Bran↔Jojen surfaced, consume-on-demand).
 
