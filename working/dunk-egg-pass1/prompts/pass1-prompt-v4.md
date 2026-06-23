@@ -33,8 +33,8 @@ So v4 **self-contains** every rule the extractor needs, and it folds in three ye
 2. **Harvest + capture-quote pointers are baked in** (memory `feedback_harvest_queue`,
    `feedback_capture_quotes_during_research`) — these normally live in CLAUDE.md, which `claude -p`
    never sees, so they MUST travel in the prompt or the saga-connection breadcrumbs are lost.
-3. **D&E-specific handling** for concealed identity (Egg = Aegon), the Bloodraven evidence substrate,
-   and the no-Pass-1-yet status of these novellas.
+3. **D&E-specific handling** for concealed identity (Egg = Aegon) and the no-Pass-1-yet status of these
+   novellas.
 4. **"More room" exploitation** — only 3 units, so we can afford to be slower, more exhaustive, and to
    self-checkpoint. Budget is not the constraint here; completeness is.
 
@@ -144,18 +144,17 @@ history and is being backfilled deterministically later. Just mirror the frontma
 ## Harvest sidecar — drop breadcrumbs, do NOT analyze (only if `{HARVEST_PATH}` is given)
 
 While you read, you will notice things that are **real and saga-important but do not belong in this
-unit's factual inventory** — most importantly **Bloodraven / Brynden Rivers** material (D&E is the
-designated evidence substrate for the Bloodraven enrichment work — memory
-`project_bloodraven_enrichment_dip`), Targaryen-history hooks, and Targaryen-prophecy seeds. You do
-**not** extract or interpret these (that would violate isolation). You **point** at them for a later
-harvest pass, one line each, appended to `{HARVEST_PATH}`:
+unit's factual inventory** — Targaryen-history hooks, prophecy seeds, loadbearing food/hospitality
+descriptions, and concealed-identity reveals. You do **not** extract or interpret these (that would
+violate isolation). You **point** at them for a later harvest pass, one line each, appended to
+`{HARVEST_PATH}`:
 
 ```
-THK / <short verbatim anchor> / bloodraven / Brynden Rivers named as Hand; "..." — one-line note
+THK / <short verbatim anchor> / targaryen-history / House succession claim mentioned; "..." — one-line note
 ```
 
 Format per line: `{BOOK} / {short verbatim anchor} / {kind} / {one-line note}`. `kind` ∈
-{`bloodraven`, `targaryen-history`, `prophecy`, `food`, `description`, `hospitality`, `cross-identity`,
+{`targaryen-history`, `prophecy`, `food`, `description`, `hospitality`, `cross-identity`,
 `foreshadow-hook`, `causal-spine`, `other`}. **Point, don't extract.** If `{HARVEST_PATH}` is not
 provided, skip this section entirely. Do not let harvesting bleed analytical commentary back into the
 extraction tables.
@@ -414,7 +413,7 @@ name. If something is only implied and not named in the text, either omit it or 
 | # | Change | Why / source |
 |---|--------|--------------|
 | 1 | Self-contained vocab + isolation + never-invent (no reliance on CLAUDE.md/architecture being in context) | `claude -p` cwd=/tmp loads none of it (`reference_llm_pass_via_claude_p`) |
-| 2 | Harvest sidecar instruction (Bloodraven/Targaryen/prophecy breadcrumbs) | `feedback_harvest_queue` + `project_bloodraven_enrichment_dip` — CLAUDE.md rule the model never sees |
+| 2 | Harvest sidecar instruction (saga-important breadcrumbs: Targaryen history, prophecy, food, hospitality) | `feedback_harvest_queue` — CLAUDE.md rule the model never sees; Bloodraven enrichment runs separately post-extraction |
 | 3 | Verbatim-quote capture for cite-locator; **explicit "do NOT hand-author line numbers"** | `feedback_capture_quotes_during_research` + the `:11` locator bug class |
 | 4 | IN-TEXT identity-reveal exception → `same_as` (Egg→Aegon, the old man→Ser Arlan) | D&E concealed-identity engine; `user_asoiaf_design_values` cross-identity use case |
 | 5 | `first_available` = copy frontmatter, do NOT infer | known parser-bug class; field is deferred |

@@ -116,8 +116,8 @@ optimize is **completeness**, not spend ("we have considerably more room" — Ma
 
 Drafted: `working/dunk-egg-pass1/prompts/pass1-prompt-v4.md`. Headlines (full change table in its appendix):
 - **Self-contains every rule** (`claude -p` in /tmp loads no CLAUDE.md/architecture).
-- **Harvest + capture-quote pointers baked in** ("drop pointers like the harvester") — aimed at the
-  **Bloodraven** evidence substrate (`feedback_harvest_queue`, `project_bloodraven_enrichment_dip`).
+- **Harvest + capture-quote pointers baked in** ("drop pointers like the harvester") — generic
+  saga-important breadcrumbs for downstream harvest passes (`feedback_harvest_queue`).
 - **In-text identity-reveal → `SAME_AS`** (Egg→Aegon, the old man→Ser Arlan) — D&E's engine.
 - **"More room"**: section-checkpointing + a final self-audit to beat the long-generation
   skimped-late-tables failure.
@@ -251,8 +251,8 @@ needed.
    leakage, meta-commentary in cells, Head-rule violations, and that every in-text identity reveal
    became a `same_as`. Summary to Matt, not an edge-list (`feedback_subagent_verify_not_matt`). PASTE
    the vocab line into its prompt (Pass/Track/step/Tier — subagents don't load CLAUDE.md).
-3. **Harvest sidecar review** — confirm `working/dunk-egg-pass1/harvest-dunk-egg.jsonl` accumulated the
-   Bloodraven / Targaryen breadcrumbs (these feed the Bloodraven enrichment dip).
+3. **Harvest sidecar review** — confirm `working/dunk-egg-pass1/harvest-dunk-egg.jsonl` accumulated
+   generic saga-important breadcrumbs (Targaryen history, prophecy seeds, etc. for later harvest passes).
 
 **On success:** worker exits 0; update worklog + the "Pass 1 on Tales of Dunk and Egg" checklist line;
 the new extractions are now structured nodes for the Bloodraven enrichment unit (until now D&E links came
