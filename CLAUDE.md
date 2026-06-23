@@ -5,10 +5,10 @@ You are the orchestrator for the Weirwood Network project — a structured knowl
 ## First Steps — Every Session
 
 1. Read `reference/architecture.md` for the data model: entity types, edge types, confidence tiers, file naming conventions, and spoiler gating
-2. Read `worklog.md` for current project state, active decisions, and recent session history
+2. Read `worklog.md` for current project state, active decisions, and recent session history. **Track-aware:** if you are working the **D&E Pass-1 track**, read **`worklog-dunk-egg.md`** instead (its own Current State + Session Log) — you may SKIP the giant graph Current State — and skim only the `worklog.md` STATUS cross-track block for awareness. `worklog.md` always holds the **shared** state (Active Decisions, Ideas & Backlog, Principles) for **every** track.
 3. Read `working/todos.md` for actionable items and agent improvement notes
-4. Determine what needs to happen next based on the worklog's Current State checklist
-5. Update `worklog.md` at the end of every session with what was done, decisions made, and ideas that surfaced
+4. Determine what needs to happen next based on the Current State checklist (in `worklog.md`, or `worklog-dunk-egg.md` for the D&E track)
+5. Update **your track's worklog** at the end of every session — `worklog.md` for graph/meta sessions, `worklog-dunk-egg.md` for D&E Pass-1 (numbered DE-N) — with what was done, decisions made, and ideas that surfaced. Shared/project-wide decisions always go to `worklog.md` Active Decisions regardless of track.
 
 ## Project Overview
 
@@ -71,7 +71,8 @@ See `reference/agents.md` for a full description of each agent and its current s
 ```
 asoiaf-chat/
 ├── CLAUDE.md                         # THIS FILE — orchestrator guide
-├── worklog.md                        # Living project history + current state
+├── worklog.md                        # Living project history + current state (GRAPH track + shared state; global S-numbers)
+├── worklog-dunk-egg.md               # D&E Pass-1 track's OWN worklog (DE-N numbering; does NOT archive to history/)
 ├── .claude/
 │   ├── agents/                       # Subagent definitions (28 agents as of 2026-06-11)
 │   └── commands/                     # Custom slash commands
@@ -143,6 +144,8 @@ Use these words for **new** work. Full definitions + the retired-term decode lis
 
 Rules: adding a new capitalized term needs a worklog Active Decision; version numbers attach only to artifacts (prompt v5, `edges.jsonl` v1.3), never to efforts. Retired terms (Stage/Plate/Mode/Wave/Bucket/Phase, letter-tracks) are valid only when citing past sessions. Script/skill/command names are exempt. **When you spawn a subagent that will name a Track, number steps, or label a sequence, paste these terms into its prompt** — subagents don't load this file.
 
+**Session numbering (parallel tracks, split 2026-06-22, S132c):** graph + meta sessions number globally (**S133, S134…**) in `worklog.md`; **D&E Pass-1** sessions number **DE-1, DE-2…** in `worklog-dunk-egg.md`. The two number-spaces are **independent** — there is no cross-track write-order tiebreaker anymore (it now only orders same-day graph/meta sessions). Don't re-collide them (the ambiguity S132/S132b/S132c worked around).
+
 ## Working Directory
 
 `working/` is the scratchpad for active in-progress work. Frozen historical records (session details, worklog archives, retired sketches) live under top-level `history/`, not here.
@@ -177,5 +180,5 @@ A file named `scratch` (or `scratch.md` / `scratch.txt`) at the repo root is **M
    - **worklog.md session entries** (~20-30 lines): agent-facing, concise. What changed, what was decided, what's next. This file is loaded every session — keep it lean.
    - **history/session-details/session-NNN.md**: optional, *as-needed*. Write one when the session contains design discussion, an incident worth a postmortem, or novel decisions worth a long-form narrative. Pure-execution sessions don't need one — the worklog entry is sufficient. Existing detail files are inconsistently applied (the prior rule was "every session"); audit/backfill is an auxiliary project-story todo, not blocking.
    - **Continue prompts** (`progress/continue-prompts/`): self-contained resumption context for specific work tracks. A fresh agent should be able to pick up the work from the continue prompt alone, without reading session history.
-8. **Worklog Session Log holds at most 5 entries.** When a 6th session lands, archive the oldest to `history/worklog-archives/archiveNNN.md`. Each archive file holds exactly 5 entries (start a new `archiveNNN.md` when the current one is full). The worklog itself keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries.
-9. **When a continue prompt's project-state claims contradict `worklog.md`, trust `worklog.md` and flag the contradiction.** Continue prompts are task-scoped snapshots written at end-of-session under context pressure; they may lag worklog by multiple sessions. `worklog.md` is the authoritative state file, updated every session. If a continue prompt says "X is incomplete" but `worklog.md` says "X is done" (or vice versa), say so explicitly at session start before proceeding: *"The continue prompt states [X claim], but worklog.md says [Y claim]. Trusting worklog.md. The continue prompt may need updating."* Do not silently propagate the stale claim into your session work. The same rule applies to memory entries — they're point-in-time snapshots, not live state. (Root cause precedent: Session 55, 2026-05-18, stale "ACOK 20/70" propagation.)
+8. **Worklog Session Log holds at most 5 entries.** When a 6th session lands, archive the oldest to `history/worklog-archives/archiveNNN.md`. Each archive file holds exactly 5 entries (start a new `archiveNNN.md` when the current one is full). The worklog itself keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries. **This rule applies to `worklog.md` only.** The D&E track's `worklog-dunk-egg.md` is **exempt** — it does NOT archive to `history/worklog-archives/`; if it ever exceeds 5 entries it self-contains overflow in an `## Archived sessions` section at its own foot, and the whole file is frozen to `history/` when D&E Pass-1 completes.
+9. **When a continue prompt's project-state claims contradict `worklog.md`, trust `worklog.md` and flag the contradiction.** Continue prompts are task-scoped snapshots written at end-of-session under context pressure; they may lag worklog by multiple sessions. `worklog.md` is the authoritative state file, updated every session. **Per-track authority (split 2026-06-22, S132c):** `worklog.md` is authoritative for the **graph track + all shared state** (Active Decisions, Ideas & Backlog, Principles); **`worklog-dunk-egg.md` is authoritative for D&E Pass-1 status.** Defer to whichever file owns the claim; project-wide decisions live in `worklog.md` Active Decisions even when first made in a D&E session. The STATUS cross-track pointer in `worklog.md` is deliberately dateless — it names the D&E file, never mirrors its number/status, so it can't drift. If a continue prompt says "X is incomplete" but `worklog.md` says "X is done" (or vice versa), say so explicitly at session start before proceeding: *"The continue prompt states [X claim], but worklog.md says [Y claim]. Trusting worklog.md. The continue prompt may need updating."* Do not silently propagate the stale claim into your session work. The same rule applies to memory entries — they're point-in-time snapshots, not live state. (Root cause precedent: Session 55, 2026-05-18, stale "ACOK 20/70" propagation.)

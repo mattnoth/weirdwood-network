@@ -2,7 +2,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 
 1. **Write session detail file (only if warranted)** — Session-details files are **as-needed**, not every session. Write `history/session-details/session-NNN.md` ONLY IF the session contains: design discussion, architecture decisions, novel problem-solving, an incident worth a postmortem, or substantial reasoning that doesn't fit in a worklog entry. Pure-execution sessions (extraction waves, batch operations, hygiene/cleanup) skip this step — the worklog entry is sufficient. When you do write one, it's the **human-facing** full narrative: what was explored, what was tried, what was rejected, coverage numbers, reasoning. Not for agents.
 
-2. **Update worklog.md** — Add a **concise** session log entry (~20-30 lines max) to the Session Log section. This is **agent-facing** — future sessions load this file, so keep it tight. Format:
+2. **Update your track's worklog** — **Graph/meta sessions** → `worklog.md` (global `### Session N`). **D&E Pass-1 sessions** → `worklog-dunk-egg.md` (`### Session DE-N`); a D&E session does NOT touch the `worklog.md` Session Log (only update `worklog.md` if you changed **shared** state — e.g. a project-wide Active Decision, which always lives there). Add a **concise** session log entry (~20-30 lines max) to the Session Log section. This is **agent-facing** — future sessions load this file, so keep it tight. Format:
 
    ```
    ### Session N — Short Title (YYYY-MM-DD)
@@ -24,7 +24,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 
 5. **Update working/todos.md** — If new TODOs surfaced during the session, add them to the appropriate section.
 
-6. **Archive worklog if > 5 entries** — Count session entries in worklog.md Session Log. If more than 5, move the oldest entries to `history/worklog-archives/archiveNNN.md` until exactly 5 remain. Each archive file holds exactly 5 entries; if the current `archiveNNN.md` is already full, start a new one (`archive(NNN+1).md`). The worklog keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries.
+6. **Archive worklog if > 5 entries** — Count session entries in worklog.md Session Log. If more than 5, move the oldest entries to `history/worklog-archives/archiveNNN.md` until exactly 5 remain. Each archive file holds exactly 5 entries; if the current `archiveNNN.md` is already full, start a new one (`archive(NNN+1).md`). The worklog keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries. **This step applies to `worklog.md` only.** The D&E log (`worklog-dunk-egg.md`) does NOT archive to `history/worklog-archives/` — if it ever exceeds 5 entries, spill the oldest to an `## Archived sessions` section at the foot of that same file.
 
 7. **Verify extraction archive rules** — If extractions ran this session:
    - **Check:** Do old archives (v1, v2, etc. in `extractions/archives/`) still exist? They should NOT be deleted.
@@ -105,7 +105,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
    - Prefer slash commands (`/watcher`, `/worker`, `/continue`) over raw kickoff prose where one exists.
 
 10. **Commit and push** — Stage THIS session's work and commit to `main` (the project's established convention — every prior endsession committed directly to main), then `git push`.
-    - Stage explicitly by path — do NOT blanket `git add -A`. Include the files you created/modified this session (graph edges + backups, scripts, tests, docs, worklog, todos, continue prompts, session-details, worklog-archives). EXCLUDE pre-existing/stray untracked files you did not create, and NEVER add the gitignored `scratch` / `scr` files.
+    - Stage explicitly by path — do NOT blanket `git add -A`. Include the files you created/modified this session (graph edges + backups, scripts, tests, docs, worklog **or `worklog-dunk-egg.md`** for your track, todos, continue prompts, session-details, worklog-archives). EXCLUDE pre-existing/stray untracked files you did not create, and NEVER add the gitignored `scratch` / `scr` files. **Parallel-track safety:** if another track is mid-flight in the same working tree (uncommitted files you didn't create — e.g. another session's `graph/` writes), stage ONLY your own files by explicit path; never `git add -A`.
     - Commit message: a one-line `SNN: <summary>` subject + a short bullet body of what changed. End with the required trailer:
       `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>`
     - `git push`. Report the pushed commit hash + branch.

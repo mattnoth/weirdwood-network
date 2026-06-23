@@ -72,7 +72,8 @@ TWOW/gated-theory OUT. (**Sonnet 4.6**)
 
 **LIVE B (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — harness + v4 prompt DESIGNED S131, Bloodraven
 priming scrubbed S132b; nothing run. NEXT: smoke-test v4 on THK (gated on Matt's go) → fresh-judge → promote or
-iterate to v4b. Extraction gated — confirm before any extraction incl. smoke. (**Opus 4.8**)
+iterate to v4b. Extraction gated — confirm before any extraction incl. smoke. (**Opus 4.8**) **Track state →
+`worklog-dunk-egg.md` (DE-N numbering, split S132c) — a fired D&E session writes its DE-N entry there, not `worklog.md`.**
 
 All container dyads discharged (D1 Varys↔Illyrio + D2 Jorah at AEGON; D3 Bran↔Jojen surfaced, consume-on-demand).
 

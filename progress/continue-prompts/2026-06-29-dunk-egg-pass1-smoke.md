@@ -1,10 +1,11 @@
 # TRACK: Dunk & Egg Pass-1 — v4 prompt SMOKE TEST (run on THK, judge, then promote or iterate)
 
 > **This is the Dunk & Egg track** (Pass-1 extraction of the THK/TSS/TMK novellas). It is
-> **parallel-safe** with the low-value-remainders track (`2026-06-29-low-value-remainders.md`) — they
-> touch different files and can run in different windows.
-> **Session number:** do NOT hardcode. Stamp your worklog entry with the **next free `### Session N`** per
-> `worklog.md` at endsession (this track and the remainders track may land in either order).
+> **parallel-safe** with the graph-enrichment track — they touch different files and run in different windows.
+> **Track state file:** this track logs to its OWN worklog → **`worklog-dunk-egg.md`** (read it for the D&E
+> Current State; `worklog.md` holds the shared Active Decisions / Principles).
+> **Session number:** stamp your entry **`### Session DE-N`** (next free DE-number) in **`worklog-dunk-egg.md`**,
+> NOT `worklog.md` — independent of the global S-number, no cross-track write-order race.
 >
 > **Recommended model:** Opus 4.8 (you are judging prompt quality + deciding whether to promote/iterate v4
 > — design-adjacent judgment). NOTE: the extraction itself runs on Opus regardless — the worker hardcodes
