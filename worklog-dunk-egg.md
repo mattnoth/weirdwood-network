@@ -31,6 +31,13 @@
 
 > Newest first. DE-N numbering. **Strict 5-entry max**, but this log **self-contains overflow** (spill the oldest to `## Archived sessions` at the foot — it does NOT archive to `history/worklog-archives/`). The S131/S132b entries are **pre-split** and kept their global numbers — see the header note. The next entry is **DE-2**.
 
+### Session DE-2 — Clarification: auth mechanism & smoke command ready (2026-06-23)
+**Model:** Haiku 4.5. **Type:** CLARIFICATION (no changes). 
+**Summary:** User asked "what API are we hitting if chapters are already local?" Clarified: the 401 is a subprocess auth issue (child `claude -p` spawned from Claude Code doesn't inherit host OAuth), not a missing-chapters problem. Confirmed smoke command is ready and provided the exact command to run from iTerm.
+**What's next:** Matt runs the smoke test from a logged-in iTerm session: `python3 working/dunk-egg-pass1/dunk-egg-pass1-extraction.py --smoke --only thk --prompt-version v4`. Once `working/dunk-egg-pass1/smoke/v4/thk-dunk-01.extraction.md` is produced, fresh session judges it via `/continue 2026-06-29-dunk-egg-pass1-smoke.md` (existing continue prompt, already in place).
+
+---
+
 ### Session DE-1 — v4 smoke: queue built, smoke blocked on nested-claude-p auth (401) (2026-06-23)
 **Model:** Opus 4.8. **Type:** EXECUTION + infra finding (no extraction output produced).
 **Changes made:**
@@ -38,7 +45,7 @@
 - Pre-flight (read-only) verified the worker scaffold: `--build-queue/--smoke/--only/--prompt-version` wired; v4 prompt has the `═`×79 body delimiters + all 4 path placeholders; THK source present (~31,669 words); `claude` on PATH; `pace.py` importable.
 - Fired the THK v4 smoke (`--smoke --only thk --prompt-version v4`) with Matt's explicit go → **crashed in 4.7s on `401 Invalid authentication credentials`**, 0 output tokens, no file written (smoke/v4/ empty; canonical tree untouched). Worker classified it correctly (crash, not wall/invalid). Telemetry crash row → `working/telemetry/dunk-egg-pass1.jsonl`.
 **Finding (durable):** a nested `claude -p` spawned from inside a Claude Code session **cannot authenticate** — this session's host-managed OAuth (gateway `ANTHROPIC_BASE_URL`) is not inherited by a child process; 401 reproduced WITH and WITHOUT scrubbing the base-URL. This is the concrete mechanism behind `feedback_no_extraction_without_asking` (memory updated with the WHY). The canonical `claude -p` smoke must launch from a logged-in interactive CLI/iTerm. Offered an in-session Agent-tool subagent proxy as the alternative; **Matt chose to run it himself via the `claude` CLI.** Queue is pre-built, so his command is just `python3 working/dunk-egg-pass1/dunk-egg-pass1-extraction.py --smoke --only thk --prompt-version v4`.
-**What's next (DE-2):** judge `smoke/v4/thk-dunk-01.extraction.md` cold with a fresh `extraction-quality-auditor` (Haiku ok; paste the vocab line — subagents don't load CLAUDE.md) — locked vocab held? qualifiers? forward-only? isolation? no interpretive-qualifier leak? identity→`SAME_AS`? harvest sidecar? no skimped late tables? → SUMMARY → decide **promote v4** or **iterate v4b**. Continue prompt: `progress/continue-prompts/2026-06-29-dunk-egg-pass1-smoke.md`.
+**What's next (DE-2):** See DE-2 entry above (clarification session, then smoke runs from iTerm). Judge `smoke/v4/thk-dunk-01.extraction.md` after it's produced (DE-3? or wrapped into DE-2 judge? → use `/continue 2026-06-29-dunk-egg-pass1-smoke.md`).
 
 ---
 
