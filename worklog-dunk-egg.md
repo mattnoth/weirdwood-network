@@ -12,10 +12,10 @@
 
 ## Current State — D&E Pass-1
 
-**Status:** harness + **v4 prompt** DESIGNED (S131); Bloodraven priming scrubbed + the de-bias audited (S132c — see `worklog.md`). **Nothing has run.** Gated — **confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`).
+**Status:** harness + **v4 prompt** DESIGNED (S131); de-bias audited (S132c). **Queue BUILT (DE-1)**; v4/THK smoke **attempted DE-1 but blocked by a nested-`claude -p` auth wall (401)** — it runs from a logged-in CLI/iTerm only, NOT from inside a Claude Code session. Matt is running the smoke himself via the `claude` CLI. Still gated — **confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`).
 
 **Unit checklist** (status ∈ not-started · smoke · extracting · done):
-- [ ] **THK** — `sources/chapters/thk/thk-dunk-01.md` (31,669 words) — **not-started · the v4 smoke runs HERE first**
+- [ ] **THK** — `sources/chapters/thk/thk-dunk-01.md` (31,669 words) — **smoke-attempted DE-1 (auth-blocked, 0 output); re-run via logged-in CLI, then judge**
 - [ ] **TSS** — `sources/chapters/tss/tss-dunk-01.md` (36,677 words) — not-started
 - [ ] **TMK** — `sources/chapters/tmk/tmk-dunk-01.md` (36,808 words) — not-started
 
@@ -29,7 +29,18 @@
 
 ## Session Log
 
-> Newest first. DE-N numbering. **Strict 5-entry max**, but this log **self-contains overflow** (spill the oldest to `## Archived sessions` at the foot — it does NOT archive to `history/worklog-archives/`). The two entries below are **pre-split** and kept their global numbers (S131, S132b) — see the header note. The next entry is **DE-1**.
+> Newest first. DE-N numbering. **Strict 5-entry max**, but this log **self-contains overflow** (spill the oldest to `## Archived sessions` at the foot — it does NOT archive to `history/worklog-archives/`). The S131/S132b entries are **pre-split** and kept their global numbers — see the header note. The next entry is **DE-2**.
+
+### Session DE-1 — v4 smoke: queue built, smoke blocked on nested-claude-p auth (401) (2026-06-23)
+**Model:** Opus 4.8. **Type:** EXECUTION + infra finding (no extraction output produced).
+**Changes made:**
+- Ran `--build-queue` → `working/dunk-egg-pass1/queue.jsonl` (3 units) + created canonical empty dirs `extractions/mechanical/{thk,tss,tmk}/` (never archive — `feedback_extraction_archive_rules`).
+- Pre-flight (read-only) verified the worker scaffold: `--build-queue/--smoke/--only/--prompt-version` wired; v4 prompt has the `═`×79 body delimiters + all 4 path placeholders; THK source present (~31,669 words); `claude` on PATH; `pace.py` importable.
+- Fired the THK v4 smoke (`--smoke --only thk --prompt-version v4`) with Matt's explicit go → **crashed in 4.7s on `401 Invalid authentication credentials`**, 0 output tokens, no file written (smoke/v4/ empty; canonical tree untouched). Worker classified it correctly (crash, not wall/invalid). Telemetry crash row → `working/telemetry/dunk-egg-pass1.jsonl`.
+**Finding (durable):** a nested `claude -p` spawned from inside a Claude Code session **cannot authenticate** — this session's host-managed OAuth (gateway `ANTHROPIC_BASE_URL`) is not inherited by a child process; 401 reproduced WITH and WITHOUT scrubbing the base-URL. This is the concrete mechanism behind `feedback_no_extraction_without_asking` (memory updated with the WHY). The canonical `claude -p` smoke must launch from a logged-in interactive CLI/iTerm. Offered an in-session Agent-tool subagent proxy as the alternative; **Matt chose to run it himself via the `claude` CLI.** Queue is pre-built, so his command is just `python3 working/dunk-egg-pass1/dunk-egg-pass1-extraction.py --smoke --only thk --prompt-version v4`.
+**What's next (DE-2):** judge `smoke/v4/thk-dunk-01.extraction.md` cold with a fresh `extraction-quality-auditor` (Haiku ok; paste the vocab line — subagents don't load CLAUDE.md) — locked vocab held? qualifiers? forward-only? isolation? no interpretive-qualifier leak? identity→`SAME_AS`? harvest sidecar? no skimped late tables? → SUMMARY → decide **promote v4** or **iterate v4b**. Continue prompt: `progress/continue-prompts/2026-06-29-dunk-egg-pass1-smoke.md`.
+
+---
 
 ### Session 132b — D&E v4 prompt fix: removed Bloodraven pre-flagging from harvest — [Track: D&E] (2026-06-22)
 **Model:** Haiku 4.5 (lightweight fix). **Type:** REFINEMENT + HANDOFF (no extraction launched).

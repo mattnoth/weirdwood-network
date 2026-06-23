@@ -1,11 +1,18 @@
-# TRACK: Dunk & Egg Pass-1 — v4 prompt SMOKE TEST (run on THK, judge, then promote or iterate)
+# SESSION DE-2 — Dunk & Egg Pass-1 v4 SMOKE: judge THK output, then promote or iterate
 
 > **This is the Dunk & Egg track** (Pass-1 extraction of the THK/TSS/TMK novellas). It is
 > **parallel-safe** with the graph-enrichment track — they touch different files and run in different windows.
 > **Track state file:** this track logs to its OWN worklog → **`worklog-dunk-egg.md`** (read it for the D&E
 > Current State; `worklog.md` holds the shared Active Decisions / Principles).
-> **Session number:** stamp your entry **`### Session DE-N`** (next free DE-number) in **`worklog-dunk-egg.md`**,
-> NOT `worklog.md` — independent of the global S-number, no cross-track write-order race.
+> **Session number:** stamp your entry **`### Session DE-2`** in **`worklog-dunk-egg.md`**, NOT `worklog.md`
+> — independent of the global S-number, no cross-track write-order race.
+>
+> **STATE (after DE-1):** queue **already built** (`queue.jsonl`, 3 units; canonical dirs exist). The v4/THK
+> smoke was **attempted DE-1 but hit a 401 auth wall** — a nested `claude -p` cannot authenticate from inside
+> a Claude Code session (host-managed OAuth not inherited by a child; confirmed with/without
+> `ANTHROPIC_BASE_URL`). **The smoke runs from a logged-in interactive CLI/iTerm only.** Matt was running it
+> himself via the `claude` CLI at DE-1 close — so `smoke/v4/thk-dunk-01.extraction.md` may already exist
+> (check first; judge if so).
 >
 > **Recommended model:** Opus 4.8 (you are judging prompt quality + deciding whether to promote/iterate v4
 > — design-adjacent judgment). NOTE: the extraction itself runs on Opus regardless — the worker hardcodes
@@ -33,13 +40,18 @@ A smoke run is a **live `claude -p` extraction**. Per `feedback_no_extraction_wi
 **explicit go** before firing it. Do not launch on your own initiative.
 
 ## Sequence
-1. **Setup + smoke (one-time queue build, then the THK smoke) — fire only after Matt's go:**
-   ```
-   python3 working/dunk-egg-pass1/dunk-egg-pass1-extraction.py --build-queue && \
-   python3 working/dunk-egg-pass1/dunk-egg-pass1-extraction.py --smoke --only thk --prompt-version v4
-   ```
-   Output → `working/dunk-egg-pass1/smoke/v4/thk-dunk-01.extraction.md`; stream log →
-   `working/dunk-egg-pass1/logs/v4-thk.json`; telemetry stamped `prompt_version=v4 mode=smoke`.
+1. **Get the THK v4 smoke output.** First check whether it already exists:
+   `ls -la working/dunk-egg-pass1/smoke/v4/thk-dunk-01.extraction.md`
+   - **Exists** (Matt ran it via CLI) → skip to step 2 (judge).
+   - **Missing** → it must run from a **logged-in interactive CLI/iTerm** (a nested `claude -p` from inside a
+     Claude Code session 401s — DE-1 finding). Queue is already built, so the command is just:
+     ```
+     python3 working/dunk-egg-pass1/dunk-egg-pass1-extraction.py --smoke --only thk --prompt-version v4
+     ```
+     ~20–35 min on Opus. Output → `smoke/v4/thk-dunk-01.extraction.md`; stream log → `logs/v4-thk.json`;
+     telemetry `prompt_version=v4 mode=smoke`. **Do NOT fire it via the Bash tool / a background subagent**
+     (auth wall + `feedback_no_extraction_without_asking`). In-session alternative = an Agent-tool subagent
+     proxy (authenticated) — offer as an explicit override, don't default to it.
 2. **Fresh-judge the output (a separate `extraction-quality-auditor` subagent, Haiku ok).** PASTE the
    vocab line into its prompt (below — subagents don't load CLAUDE.md). Have it check, against
    `working/dunk-egg-pass1/smoke/v4/thk-dunk-01.extraction.md` + the THK source:
