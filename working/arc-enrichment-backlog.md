@@ -9,6 +9,57 @@
 > **Created 2026-06-20 (S116)** as the arc-enrichment backlog; **broadened to a full ledger
 > 2026-06-22 (S130, Matt)** to cover three UNIT kinds and to track status, not just queue work.
 
+## The scope model — why we enrich EVENTS, not "containers" (codified S136, Matt)
+
+> Read this first if "are we enriching WO5K, or Red Wedding, and why aren't those the same scale?"
+> ever confuses you again. It confused us in S136 — this section is the answer.
+
+**The unit of enrichment is the event-arc (a node + its edge-chain), NOT the container.** This is not a
+preference — it falls out of two earlier structural decisions that leave nothing else to grab:
+
+1. **No umbrella / parent nodes** (DECIDED S105/S106, `project_narrative_arc_reification`). An "arc" is a
+   *chain of CAUSES/TRIGGERS/MOTIVATES edges* between event nodes. There is **no `war-of-the-five-kings`
+   node**, no super-node for any arc.
+2. **A "container" is a frontmatter TAG, not a node** (DECIDED S121, `project_containers_field_and_query_modes`).
+   `red-wedding` carries `containers: [wo5k]`; `--container wo5k` is **bag-retrieval** over the tagged event
+   nodes. WO5K/Essos/North/Aegon/Bran are **labels stamped on bags of events**, not objects.
+
+→ So "enrich WO5K" has **no object to point a dip at.** The only things that physically exist on disk to
+deepen are **event nodes and the edges between them.** The **event-arc is the largest graspable object**;
+everything above it (a container, "the WO5K arc") is an abstraction — a tag or an edge-chain, not a thing.
+We never chose "event over container"; the container was never a grabbable option.
+
+**What is notated WHERE (the S136 question):**
+- **Container *membership* IS in the graph** — the `containers:` frontmatter tag on each event node, queried
+  via `--container`. Live tags (S136): wo5k 33 · essos 26 · north 19 · bran 13 · aegon 12 (+ a stray `jon` 4,
+  a North-build leak, not an approved container — cleanup item).
+- **The *canon list* "these 5 ARE the major containers" is NOT a graph object** — no registry node. It lives
+  only in `worklog.md` Active Decisions (SET=5, S122) + memory. The graph knows *which nodes are in wo5k*; it
+  does **not** contain a claim that *wo5k is a major container*. That's planning state.
+
+**The descent has THREE granularity levels** (`Sequencing — the descent`, below). The level-1/level-2 line is
+where S136 tripped:
+- **Level 1 — major arcs** = event-arcs: *Robert's Rebellion, Red Wedding, Purple Wedding, Ned's-downfall,
+  Blackwater.* ← the phase is here. (These are small next to "WO5K," but they are the TOP level — because they
+  are the graspable objects.)
+- **Level 2 — granular sub-plots WITHIN one arc** = the threads *inside* a level-1 event. Inside Ned's-downfall:
+  gold-cloak bribery mechanics, the throne-room massacre of Stark guards, Littlefinger's maneuvering. Inside the
+  Red Wedding: the Frey-pies / GNC layer. **"Granular" = smaller than an event-arc, not the event-arc itself.**
+- **Level 3 — individual characters** (maybe, last).
+
+**Multi-pass is real AND has two senses** (don't fuse them): (a) a *single event* can be enriched repeatedly
+(RR/RW/PW all log pass-2 candidates); (b) "WO5K needs many passes" means WO5K has *many events*, each getting
+its own dip. Both are true at once.
+
+**Lens 4 is how the container-level connective tissue gets built — node-by-node, not by tag.** Lens 4
+(existing-node↔existing-node causal-wiring) finds real causal edges between two already-built nodes that no
+topic-lens owned. It is **cross-NODE, agnostic to container boundaries** — it fires both *within* a container
+(`the-rains-of-castamere TRIGGERS red-wedding`, both wo5k) and *across* containers (`exile-of-jon-connington
+ENABLES aegon-revealed` = RR→AEGON; `roberts-rebellion MOTIVATES robert-orders-daenerys-assassination` =
+RR→Essos). The cross-container seams are the high-value ones (they wire dead-end arcs into the rest of the
+graph). So the "deepen the whole theater's connective tissue" instinct **is** being served — accreted one dip
+at a time through lens 4, instead of in one container-wide pass.
+
 ## STATUS: enrichment PHASE is OPEN (gate tripped S130)
 
 The S116/S117 gate was "enrichment opens once Essos is spine-built AND WO5K #3/#4/#5 are built."
