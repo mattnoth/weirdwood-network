@@ -423,3 +423,36 @@
 | open | foreshadowing | asos | asos-tyrion-08.md:91 | Shae: "Couldn't I come serve at table? I so want to see the pigeons fly out of the pie." — innocent remark, retrospective horror (pigeon-pie = the cover story); candidate Quotes on purple-wedding | S135 PW-lens3 |
 | open | quote | asos | asos-sansa-06.md:335 | Lysa on poison: "A man will tell you poison is dishonorable, but a woman's honor is different. The Mother shaped us to protect our children..." — thematic echo of Olenna's protective-poisoning method | S135 PW-lens4 |
 | open | quote | asos | asos-tyrion-09.md:379 | Oberyn raises Dornish succession: Myrcella should inherit over Tommen — "my brother may not crown Myrcella, down in Sunspear." — downstream political consequence of Joffrey's death; candidate future Dorne/Aegon seam | S135 PW-lens1 |
+
+<!-- S137 Ned's-downfall enrichment dip — curated high-value rows. The EXHAUSTIVE ~165-row
+     capture (split-the-bar: every meal/description/quote) lives in the 3 lens files:
+     working/enrichment/neds-downfall/lens-{1-downstream,2-secondary,3-descriptive}.md.
+     Several agot-eddard-13/14/15 rows are already `done` (S108 B3) — not re-listed here. -->
+| open | food | agot | agot-eddard-13:85 | Robert's dying funeral-feast command: "Serve the boar at my funeral feast. Apple in its mouth, skin seared crisp. Eat the bastard." — marquee food/hospitality; candidate Quotes on death-of-robert-baratheon | S137 ND-lens1/2 |
+| open | food | agot | agot-eddard-13:103 | Robert's deathbed milk-of-poppy draught: "His black beard was beaded with thick white droplets when he threw the empty cup aside." | S137 ND-lens2 |
+| open | food | agot | agot-eddard-15:35 | Ned's first prison water — clay jug "cool and beaded with moisture … gulped eagerly … drank until he thought he would be sick"; no food, only water in the black cells | S137 ND-lens1/2 |
+| open | food | agot | agot-eddard-15:59 | Varys's wineskin of "dregs" in the cell; Ned fears it the same poison that killed Robert — hospitality at its most degraded | S137 ND-lens2/3 |
+| open | food | agot | agot-arya-05:43 | The Flea Bottom "bowl o' brown": tubs simmering for years, "trade half your bird for a heel of yesterday's bread … barley, carrot, onion, turnip, sometimes apple, a film of grease … Mostly she tried not to think about the meat." — marquee street-food | S137 ND-lens1/2/3 |
+| open | food | agot | agot-arya-05:19 | Pushcart tarts on the Street of Flour: "the smells sang of blueberries and lemons and apricots"; Arya tries to barter a dead pigeon, refused | S137 ND-lens3 |
+| open | food | agot | agot-eddard-14:15 | Ned's last family breakfast: "Sansa … stared sullenly at her food and refused to eat, but Arya wolfed down everything that was set in front of her." — food as character contrast | S137 ND-lens2 |
+| open | food | agot | agot-sansa-04:23 | Sansa & Jeyne's captive meals at Maegor's: "hard cheese and fresh-baked bread and milk … roast chicken and greens at midday … a late supper of beef and barley stew" — fed despite imprisonment | S137 ND-lens1/2/3 |
+| open | food | agot | agot-sansa-06:13 | Sansa's grief food-refusal after the execution: "the dishes piled up on the table … untouched and spoiling, until the servants took them away again" | S137 ND-lens1/2/3 |
+| open | food | agot | agot-sansa-06:67 | "She drank a glass of buttermilk and nibbled at some sweet biscuits as she waited, to settle her stomach." — the only food Sansa keeps down | S137 ND-lens1/3 |
+| open | food | agot | agot-sansa-06:19 | Pycelle doses Sansa: "a potion of honeywater and herbs … She drank it all right then and went back to sleep." | S137 ND-lens3 |
+| open | food | agot | agot-eddard-12:33 | "Ned called for a cup of honeyed wine" while injured, processing the parentage discovery | S137 ND-lens1 |
+| open | quote | agot | agot-eddard-12:169 | "When you play the game of thrones, you win or you die. There is no middle ground." — THE keynote line; candidate Quotes on cersei-lannister | S137 ND-lens1/2/3 |
+| open | quote | agot | agot-eddard-12:117 | Cersei on her bond with Jaime: "We are one person in two bodies." (+ "He came into this world holding my foot") — candidate Quotes cersei/jaime | S137 ND-lens3 |
+| open | quote | agot | agot-eddard-12:141 | Cersei on Robert's wedding-night betrayal: "he called me by your sister's name … he whispered Lyanna." — root of her hatred | S137 ND-lens1/4 |
+| open | quote | agot | agot-eddard-13:267 | Littlefinger: "You wear your honor like a suit of armor, Stark. You think it keeps you safe, but all it does is weigh you down and make it hard for you to move." — candidate Quotes on petyr-baelish | S137 ND-lens2/3 |
+| open | quote | agot | agot-eddard-13:71 | Ned writing "my heir" not "Joffrey": "The lies we tell for love, he thought. May the gods forgive me." — candidate Quotes on eddard-stark | S137 ND-lens3 |
+| open | quote | agot | agot-eddard-13:107 | Robert's last words: "I will give Lyanna your love, Ned. Take care of my children for me." — candidate Quotes on death-of-robert-baratheon | S137 ND-lens1 |
+| open | quote | agot | agot-eddard-15:111 | Varys: "It was not wine that killed the king. It was your mercy." — second-most load-bearing arc line; candidate Quotes on varys-confirms-cersei-s-role-in-robert-s-death | S137 ND-lens1/3/4 |
+| open | quote | agot | agot-eddard-15:143 | Varys: "I serve the realm, and the realm needs peace." — candidate Quotes on varys | S137 ND-lens3 |
+| open | quote | agot | agot-arya-05:153 | Ned's full false confession ("I betrayed the faith of my king … Joffrey Baratheon is the one true heir …") — candidate Quotes on ned-confesses-to-treason | S137 ND-lens3 |
+| open | quote | agot | agot-sansa-06:87 | Sansa's verdict: "Life is not a song, sweetling … In life, the monsters win." — candidate Quotes on sansa-stark | S137 ND-lens1/3 |
+| open | appearance | agot | agot-arya-05:137 | Ned on the pulpit: "rich grey velvet doublet with a white wolf sewn on the front in beads … thinner than Arya had ever seen him … the cast over his broken leg was grey and rotten." | S137 ND-lens1/2/3 |
+| open | appearance | agot | agot-arya-05:171 | Ice at the execution: "sunlight seemed to ripple and dance down the dark metal, glinting off an edge sharper than any razor." | S137 ND-lens1/2/3 |
+| open | place | agot | agot-eddard-15:11 | The black cell: "straw … stank of urine … no window, no bed, not even a slop bucket … walls of pale red stone festooned with patches of nitre … The dark was absolute." | S137 ND-lens2/3 |
+| open | appearance | agot | agot-sansa-06:131 | Ned's head on the wall: "had been dipped in tar to preserve it longer … It did not really look like Lord Eddard … it did not even look real." | S137 ND-lens1/3 |
+| open | object | agot | agot-eddard-13:253 | The Catspaw dagger produced to confront Littlefinger: "a length of dragonbone and Valyrian steel, as sharp as the difference between right and wrong" — NO valyrian-dagger/catspaw NODE yet (mint candidate) | S137 ND-lens3 |
+| open | foreshadowing | agot | agot-sansa-06:165 | Sansa's first homicidal thought toward Joffrey on the battlements: "All it would take was a shove … You could do it, she told herself." — interrupted by Sandor | S137 ND-lens1/2/4 |
