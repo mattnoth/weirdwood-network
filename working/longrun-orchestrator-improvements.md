@@ -19,18 +19,18 @@ Proven on: Stage 4 edge-classify bulk work (unattended overnight), now scaffolde
 
 ## What breaks: The 5-hour session timeout
 
-**Problem:** Claude Code sessions die after 5 hours. If a worker is deep in a long run and hits a rate limit wall near hour 4:00–4:30, the supervisor sleeps for 1 hour and tries to relaunch at hour 5:00+. Session is dead; process never recovers gracefully.
+**Problem:** Claude Code sessions die after 5 hours. If a worker is deep in a long run and hits a rate-limit **wall** (`exit(2)`) in the back half of the session — say ~4:35 elapsed — the supervisor sleeps for 1 hour (`WALL_SLEEP=3600`) and only *tries* to relaunch at ~5:35. But the session has already died at 5:00. The process never recovers gracefully within that session.
 
-**Symptom:** A successful, resumable crash happens at 4:55 elapsed. Supervisor exits(2), sleeps 3600s, *tries* to relaunch at 5:55. Session timeout fires before the relaunch. The manifest says "incomplete" but there's no recovery path within the same session.
+**Symptom:** A clean, resumable **wall** hit (`exit(2)` — NOT a crash; crash is "any other nonzero") lands at 4:35 elapsed. The supervisor sleeps 3600s and would relaunch at 5:35 — past the 5:00 session death. The manifest is clean and resumable, but there's no recovery path *within the same session*.
 
-**Example timeline:**
+**Example timeline** (one consistent scenario — wall at 4:35):
 ```
-4:00  — unit 3 starts (20-35 min expected)
-4:35  — unit 3 hits rate limit wall → exit(2)
-4:35  — supervisor sleeps 3600s
-5:35  — supervisor tries relaunch
-5:00  — SESSION TIMEOUT (process dead)
-       manifest is clean + resumable, but the session is gone
+4:00  — unit 3 starts (20–35 min expected)
+4:35  — unit 3 hits rate-limit WALL → exit(2)
+4:35  — supervisor sleeps 3600s (WALL_SLEEP)
+5:00  — SESSION TIMEOUT fires (process dead)
+5:35  — supervisor *would* relaunch here — but the session is already gone
+       manifest is clean + resumable, but nothing is alive to resume it
 ```
 
 ---

@@ -281,6 +281,22 @@ This is your project memory. When you come back after a break, **STATUS — at a
 >
 > **Concurrent tracks (S132 convention):** sessions can run in parallel windows (e.g. `graph` enrichment + `D&E` Pass-1). The global session number is the **write-order tiebreaker** — whoever commits their worklog entry first claims the number; the next bumps (so two same-day parallel sessions get consecutive numbers, NOT the same one). Each header carries a **`[Track: <name>]`** tag so concurrent sessions stay distinguishable. Live parallel tracks are listed in **STATUS — at a glance**.
 
+### Session 132c — Audit + cleanup of the Haiku S132b D&E de-bias work — [Track: meta] (2026-06-22)
+**Detail:** none (review + doc-hygiene; 0 graph/extraction writes). **Model:** Opus 4.8 orchestrator + 3 fresh-eyes `general-purpose` verifiers (background workflow `haiku-session-audit`; ~233K subagent tokens). **Type:** REVIEW + CLEANUP (Matt: "I was in Haiku for S132b — rate it + clean up").
+
+**Audit verdict on S132b (Haiku):** the core de-bias is CORRECT + COMPLETE — a fresh full read of the 30KB v4 prompt confirms zero model-visible Bloodraven priming survives (the only mentions are appendix meta-notes the model never sees); harvest kind-enum stayed consistent; Bloodraven material still gets harvested generically under `targaryen-history` (name-free = ideal). Every quantitative chat claim about the longrun harness was verbatim-accurate vs `longrun.sh`/`pace.py` (crash 5×300s, wall 3600s, between-default 1200s with 600s a chosen burst, positive-signal-only wall detection, sound 5-hr-timeout reasoning). Slice grades: prompt **A** / tech **A−** / state **B+**.
+
+**3 defects found + FIXED (all secondary — none in the model-facing prompt):**
+- `progress/continue-prompts/2026-06-29-dunk-egg-pass1-smoke.md` — the smoke JUDGE checklist still told the judge to confirm the harvest "accumulated Bloodraven/Targaryen" (the very framing S132b scrubbed from the prompt — would re-leak into a v4b iteration). Now generic breadcrumbs.
+- `working/longrun-orchestrator-improvements.md` — the Example-timeline block was non-chronological (5:00 TIMEOUT printed after the 5:35 relaunch), mixed 3 inconsistent wall-hit times (4:00-4:30 / 4:55 / 4:35), and mislabeled an `exit(2)` wall a "crash." Rewritten to one consistent scenario (wall @ 4:35).
+- `progress/continue-prompts/README.md` — the "Open threads" trailer was 2 generations stale (named the archived S130/S131 prompts); synced to the current live pair.
+
+**Decisions:** (1) **"Two live continue prompts" is NOT a violation** — it's the sanctioned PARALLEL-SAFE carve-out in `feedback_one_live_continue_prompt` (enrichment = parallel-A, D&E-smoke = parallel-B, already labeled); my initial flag was a false positive, retracted. (2) That copy-paste-block rule (`feedback_one_handoff_per_block`, one fireable command per fence) is a SEPARATE rule from the no-menu-of-live-prompts rule — don't conflate them. (3) Stamped **132c** (addendum to S132b) to avoid colliding with the concurrently-running **S133** graph/enrichment session.
+
+**What's next:** two live parallel tracks, unchanged. **Track A = enrichment RUNNING NOW as S133** (Red Wedding — its `graph/` + `working/enrichment/` writes are uncommitted in the shared tree; it commits at its own endsession). **Track B = D&E v4 smoke on THK** (`progress/continue-prompts/2026-06-29-dunk-egg-pass1-smoke.md`, Opus, gated on Matt's go). longrun session-chaining infra still deferred (`working/longrun-orchestrator-improvements.md` + todos).
+
+---
+
 ### Session 132b — D&E v4 prompt fix: removed Bloodraven pre-flagging from harvest — [Track: D&E] (2026-06-22)
 **Model:** Haiku 4.5 (lightweight fix). **Type:** REFINEMENT + HANDOFF (no extraction launched).
 
@@ -340,28 +356,10 @@ Designed + scaffolded the unattended D&E Pass-1 harness and **substantially hard
 
 ---
 
-### Session 129 — BRAN container decomposition dip (read-only) + AEGON harvest consume — [Track: graph] (2026-06-22)
-**Detail:** none (execution dip — read-only research mirroring the NORTH/AEGON decomp template; no design decisions, scope settled S122). **Model:** Opus 4.8 orchestrator + 1 Sonnet-class `general-purpose` text-grounding subagent (Bran's 21 POV chapters; 31 tool uses, ~90K tokens). **Commit:** this endsession commit.
-
-**STEP 0 — AEGON harvest consume (the ONLY graph writes; bounded book-citation-overlay pass, prose-only — 0 edges / 0 new nodes):**
-- Verified all 13 carried AEGON rows against the live graph. **Caught a real gap:** the `:281` Varys-to-dying-Kevan quote that S128's handoff claimed was "already attached" was **not attached anywhere** (0 hits in nodes + edges) — overlaid it onto `assassinations-of-pycelle-and-kevan-lannister` ## Quotes (and consolidated a pre-existing duplicate ## Quotes block there).
-- Overlaid 5 genuinely-unconsumed rows: greyscale death-clock (`:237`,`:141`) + first-meal (`:135`) → `jon-connington` (new `### Greyscale — the death-clock` block); blue-dye/rubies disguise (`:61`) → `aegon-targaryen-young-griff`; wolf-lion conspiracy line (`:79`) → `varys`. Parked 1 row (`:161` Shy Maid provisions — no `shy-maid` vessel node; STEP 0 forbids minting). **AEGON rows now 0 open** (12 done, 1 parked). No `weirwood refresh` (prose-only).
-
-**BRAN decomposition dip DONE** → `working/bran-decomposition.md` (8-section structure = AEGON/NORTH template; junctures BR1–BR7). **NO graph mutation in the dip itself** (`edges.jsonl` untouched, 0 mints — verified via git).
-- **Causal state:** BRAN is **greenfield**, **two spines**. Spine 1 (the fall) is the S105-built chain (`witnesses TRIGGERS push CAUSES direwolf-kills`) forking into the WO5K Tyrion-accusation chain — but the fall→**coma→three-eyed-crow→wakes** middle is MISS. Spine 2 (the **entire** flight + journey-north + greenseer arc) is **0 event nodes** — verified by event-node sweep. Container `--container bran` = 3 nodes.
-- **7 junctures scored** (all gate ≥7): tied-highest 9/12 = **BR3** sack→crypts (opens Spine 2 off the built `sack-of-winterfell` hub) · **BR5** Black Gate→Coldhands (dual-POV Sam) · **BR7** becomes-greenseer (Q=2 terminus, the canonical failed query). Ranked build front-loads the two *anchored* junctures (BR3 off the sack seam, BR1 off the built fall spine). **8–9 mints** (vs AEGON 2 — greenfield); recommended 2 batches.
-- **Text-grounded** by the subagent across Bran's 21 chapters; orchestrator line-checked every spine anchor and **caught + fixed 2 cite-drifts** (warg-naming `acok-bran-05:97` not -04; Black Gate `:317` not :313). 20 harvest rows added (`bran-dip`).
-- **Flagged for build (not fixed):** untagged `bran-s-direwolf-kills-the-assassin` seam → `[bran,wo5k]`; retag `sack-of-winterfell` → `[wo5k,north,bran]`; **`brynden-rivers` (=Bloodraven) has empty aliases** (query-invisible — backfill + `weirwood refresh`); `three-eyed-crow` is a `species` node (slug trap — greenseer edges target `brynden-rivers`); `summer`/`brans-direwolf` orphan slug; 4 decoys (`battle-of-winterfell`=TWOW Ice, `battle-of-the-reeds`=historical, `lightning-strikes-the-tower…`=Jon/Ghost, `battle-outside-the-gates…`); suspicious `sack PRECEDES purple-wedding`.
-- **D3 Bran↔Jojen dyad** surfaced to `working/dyad-queue.md` (greendreaming bond — relationship, not a causal node).
-
-**What's next:** **BRAN spine build** (separate session) — the build this dip specs out; same arc-mint machine as NORTH/AEGON. Live continue prompt `progress/continue-prompts/2026-06-28-bran-spine-build.md`; this dip prompt archived. **Open question for Matt at build:** build BRAN next, or revisit the parked AEGON-remainder / lower-value NORTH remainder (N6) first. (**Sonnet 4.6**)
-
----
-
 ---
 
 > **Archive map** (`history/worklog-archives/`, 5 entries per file; per-session pointer lines collapsed to this map 2026-06-11):
-> archive027 = S127– (filling) · archive026 = S122–S126 (FULL) · archive025 = S117–S121 (FULL) · archive024 = S112–S116 · archive023 = S107–S111 (FULL) · archive022 = S102–S106 (FULL) · archive021 = S97–S101 (FULL) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
+> archive027 = S127–S129 (filling) · archive026 = S122–S126 (FULL) · archive025 = S117–S121 (FULL) · archive024 = S112–S116 · archive023 = S107–S111 (FULL) · archive022 = S102–S106 (FULL) · archive021 = S97–S101 (FULL) · archive020 = S92–96 · archive019 = S87–S91 · archive018 = S83(×2: /tmp-paths + Plates 0-2)–S86 · archive017 = S78–82 · archive016 = S73–77 · archive015 = S68–72
 > archive014 = S63–67 · archive013 = S58–62 · archive012 = S53–57 · archive011 = S49 (incl. 49b)–52 · archive010 = S44–48
 > archive009 = S39–43 · archive008 = S34–38 · archive007 = S30–33 · archive006 = S25–29 · archive005 = S22–24
 > archive004 = S16–21 · archive003 = S8–15 · archive002 = S5–7 · archive001 = S0–4

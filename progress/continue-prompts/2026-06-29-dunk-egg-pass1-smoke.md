@@ -50,8 +50,9 @@ A smoke run is a **live `claude -p` extraction**. Per `feedback_no_extraction_wi
    - **Isolation clean?** No cross-unit / reader-knowledge leakage; no analytical types (`FORESHADOWS`).
    - **No interpretive-qualifier leak** (`symbolic`/`ironic`/`(implicit)`) in cells or the Raw Entity List.
    - **Identity reveals → `SAME_AS`** (Egg→Aegon, the old man→Ser Arlan) captured.
-   - **Harvest sidecar** (`harvest-dunk-egg.jsonl`) accumulated Bloodraven/Targaryen + `causal-spine`
-     breadcrumbs.
+   - **Harvest sidecar** (`harvest-dunk-egg.jsonl`) accumulated generic saga-important breadcrumbs
+     (Targaryen history, prophecy, food, hospitality, cross-identity, `causal-spine`) — NO entity
+     pre-flagging (the v4 de-bias, S132b).
    - **Completeness** — late tables not skimped (the long-generation failure mode); all 12 Raw-List headers.
    Report a SUMMARY to Matt (not an edge-list — `feedback_subagent_verify_not_matt`).
 3. **Decide with Matt:**

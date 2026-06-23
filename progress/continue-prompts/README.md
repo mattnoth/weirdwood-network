@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-22 (refreshed after S132)  
+**Generated:** 2026-06-22 (refreshed after S132c)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -58,21 +58,21 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (TWO parallel-safe live tracks — A graph-building, B harness-design)
+## Open threads right now (TWO parallel-safe live tracks — A graph enrichment, B D&E Pass-1 smoke)
 
 > **All 5 approved containers are spine-complete: `{essos✓, wo5k✓, north✓, aegon✓, bran✓}`.** Two LIVE tracks,
 > deliberately parallel (different files, different windows — this is the endsession "one file per independent
 > work track" case, NOT a menu for the same slot). The chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE A (graph): `2026-06-29-low-value-remainders.md`** — mop up the deferred low-value container remainders
-(AEGON Euron/Victarion · NORTH N6 · Bran greenseer-enrichment / Rickon-Skagos), dip-gated, then the
-**enrichment phase** (ledger `working/arc-enrichment-backlog.md`; pass-COUNT per unit; arc enrichments first →
-planning session → granular dips). Same arc-mint machine; fresh-verify. TWOW/gated-theory OUT. (**Sonnet 4.6**)
+**LIVE A (graph): `2026-06-29-enrichment-phase.md`** — both low-value remainders cleared S132, so the
+**enrichment phase** is open. STEP 0 = harvest-consume the 33-row queue (the on-ramp); STEP 1 = first major
+narrative-arc enrichment via the fan-out-lenses machine (ledger `working/arc-enrichment-backlog.md`; pass-COUNT
+per unit; arcs first → planning session → granular character/event dips). Same arc-mint machine; fresh-verify.
+TWOW/gated-theory OUT. (**Sonnet 4.6**)
 
-**LIVE B (infra/design): `2026-06-29-de-longrun-harness-planning.md`** — plan running the D&E full-Opus Pass-1
-batch UNATTENDED via `longrun.sh` + the unified `scripts/worker-template.py` (passing in a D&E orchestrator
-sub-script), and validate that post-Fable-audit harness. Design only — launches nothing; confirm before any
-extraction. (**Opus 4.8**)
+**LIVE B (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — harness + v4 prompt DESIGNED S131, Bloodraven
+priming scrubbed S132b; nothing run. NEXT: smoke-test v4 on THK (gated on Matt's go) → fresh-judge → promote or
+iterate to v4b. Extraction gated — confirm before any extraction incl. smoke. (**Opus 4.8**)
 
 All container dyads discharged (D1 Varys↔Illyrio + D2 Jorah at AEGON; D3 Bran↔Jojen surfaced, consume-on-demand).
 
