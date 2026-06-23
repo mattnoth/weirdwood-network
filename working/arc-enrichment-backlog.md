@@ -113,18 +113,22 @@ gets built then. Full sequence: **low-value remainders [DONE S131] → major nar
 [planning session: scope the granular dip list] → granular clusters/sub-plots → individual characters (maybe)**
 (D&E full-Opus Pass-1 batch slots in after the first enrichment passes).
 
-> **NOW LIVE — harvest texture-sweep (NOT parked; timing condition met).** S135 said "raise it after the
-> first round of enrichments" (Matt); the first round is DONE (RR/RW/PW/ND, S133–S137) → the checkpoint is
-> reached and Matt wants it BUILT. **Maximal capture is the goal (Matt S137): "I want all meals. Maximal …
-> I want to be able to just ask and get full on meal descriptions."** Good news — the schema already supports
-> this: `object.food` nodes (~75 exist: bread, bowl-of-brown, lemon-cake, boar, pigeon…) accumulate EVERY
-> occurrence in a `## Narrative Arc` section (per-book, verbatim + `chapter:line` cite) + `## Quotes`, and
-> are indexed under `graph/index/foods/`. So "all meals" = the foods category; "full description of X" =
-> that dish node's Narrative Arc. Spec/design `working/harvest-texture-sweep-deferred.md` (Sonnet
-> full-chapter sweep run BROADLY across the corpus — not just dip chapters; Python grep as a POST-pass
-> auditor/seeder, never a pre-filter; `dedup_key` + attach cadence). **Food/meals are the priority slice;
-> mint a node per dish (maximal), append every occurrence.** The "split the harvest bar" piece (Tier 1,
-> free) is separate and already in the live dip prompts.
+> **Maximal meal capture = STANDING harvest-bar rule inside enrichment dips (Matt S137). NOT a separate pass.**
+> Matt's "I want all meals, maximal, just ask and get full descriptions" + "any time anyone eats, incl. bark/
+> starvation/no-food" was said **in the CONTEXT of the enrichment runs** — endorsing that the dip harvest
+> captures lots of food. Keep the dip harvest bar WIDE-OPEN on food (split-the-bar, already in the dip
+> prompts; bake the grim/starvation register into every dip's harvest snippet). The schema already supports
+> "ask and get descriptions": `object.food` nodes (~75: bread, bowl-of-brown, lemon-cake, boar, pigeon…)
+> accumulate EVERY occurrence in `## Narrative Arc` (per-book, verbatim + `chapter:line`) + `## Quotes`,
+> indexed at `graph/index/foods/`. So "all meals" = the foods category; "full description of X" = that dish
+> node's Narrative Arc.
+>
+> **DEFERRED (post arc-enrichment, Matt S137): a Python food-keyword GREP to scrape all chapters for meals.**
+> IF we ever want true full-corpus meal coverage, the safe/cheap way is a **deterministic Python script** with
+> a food-keyword list (dish names + eat/feast/supper/hungry/starv*/bread/meat…) grepping all 344 chapters →
+> seed rows for attach — NOT an LLM sweep. **Deferred until the narrative-arc enrichment runs are done.** (My
+> S137 "LLM sweep all 5 books as a dedicated session" framing was an over-extension Matt never asked for —
+> RETRACTED. See the deferred todo in `working/todos.md`.)
 
 ---
 
