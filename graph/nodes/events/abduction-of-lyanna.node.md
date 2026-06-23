@@ -49,6 +49,10 @@ The abduction of Lyanna Stark by Prince Rhaegar Targaryen near Harrenhal at the 
 
 — Bran Stark, AGOT Bran VII (`sources/chapters/agot/agot-bran-07.md:79`)
 
+> "And Rhaegar … how many times do you think he raped your sister? How many hundreds of times?"
+
+— Robert Baratheon to Eddard Stark, AGOT Eddard II (`sources/chapters/agot/agot-eddard-02.md:79`) — book-cite overlay (S134 harvest-consume); Robert's rawest statement of the abduction-as-rape framing, the engine of his hatred
+
 **The opposing testimony — a love the realm called a crime:**
 
 > Her brother Rhaegar had died for the woman he loved.

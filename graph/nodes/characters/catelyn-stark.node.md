@@ -142,6 +142,14 @@ After [Theon Greyjoy](wiki:Theon_Greyjoy) returns to [Winterfell](wiki:Winterfel
 
 ### Quotes by Catelyn
 
+> "He is my son. My first son, and my last. Let him go. Let him go and I swear we will forget this . . . forget all you've done here. I swear it by the old gods and new, we . . . we will take no vengeance . . ."
+>
+> — Catelyn to Walder Frey, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:115`)
+
+> It hurts so much, she thought. Our children, Ned, all our sweet babes. Rickon, Bran, Arya, Sansa, Robb . . . Robb . . . please, Ned, please, make it stop, make it stop hurting . . .
+>
+> — Catelyn's last coherent thought, internal monologue, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:141`)
+
 > My son lies here broken and dying, Luwin, and you wish to discuss a new [master of horse](wiki:Master_of_horse)? Do you think I care what happens in the stables? Do you think it matters to me one whit? I would gladly butcher every [horse](wiki:Horse) in [Winterfell](wiki:Winterfell) with my own hands if it would open [Bran's](wiki:Bran_Stark) eyes, do you understand that? Do you?(wiki:Catelyn_Stark.cite_ref-Ragot14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-4)
 >
 > —Catelyn to [Luwin](wiki:Luwin)

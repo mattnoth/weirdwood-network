@@ -188,6 +188,14 @@ Jon discusses the issue of trust with Aegon, and then recalls that Rhaegar had b
 >
 > —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
 
+> The dragon prince sang a song so sad it made the wolf maid sniffle, but when her pup brother teased her for crying she poured wine over his head.
+
+— Meera Reed's Knight of the Laughing Tree story (Rhaegar singing at the Harrenhal feast, Lyanna weeping), ASOS Bran II (`sources/chapters/asos/asos-bran-02.md:191`) — book-cite overlay (S134 harvest-consume); Rhaegar's musicianship
+
+> At the welcoming feast, the prince had taken up his silver-stringed harp and played for them. A song of love and doom, Jon Connington recalled, and every woman in the hall was weeping when he put down the harp.
+
+— Jon Connington's memory of Rhaegar at Griffin's Roost, ADWD The Griffin Reborn I (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:51`) — book-cite overlay (S134 harvest-consume); Rhaegar's harp and melancholy songcraft
+
 ## Edges
 
 - HOLDS_TITLE: Prince of Dragonstone (track_b: Titles)

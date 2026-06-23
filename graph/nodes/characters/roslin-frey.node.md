@@ -67,6 +67,14 @@ At [Raventree Hall](wiki:Siege_of_Raventree), Jaime mentions to Lord [Tytos Blac
 
 ### Quotes by Roslin
 
+> Poor Roslin's smile had a fixed quality to it, as if someone had sewn it onto her face.
+>
+> — Catelyn Stark's POV at the feast, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:21`)
+
+> She's crying too, Catelyn realized as she watched Ser Marq Piper pull off one of the bride's shoes. I hope Edmure is gentle with the poor child.
+>
+> — Catelyn Stark's POV during the bedding, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:91`)
+
 > **Roslin**: Lord Edmure, I hope I am not a disappointment to you.
 >
 > **Edmure**: You are a delight to me, my lady. And ever will be, I know. **Roslin**: My [lord](wiki:Lord) is kind. **Edmure**: My lady is beautiful. But why are you crying?

@@ -56,6 +56,10 @@ Jon Snow, now Lord Commander, accepts [Alys Karstark](wiki:Alys_Karstark) as a g
 
 ## Quotes
 
+> "So much for guest right."
+>
+> — Tyrion Lannister, on learning of the Red Wedding, ASOS Tyrion VI (`sources/chapters/asos/asos-tyrion-06.md:201`)
+
 Once I had eaten at [his](wiki:Eddard_Stark) board I was protected by guest right. The laws of hospitality are as old as the [First Men](wiki:First_Men), and sacred as a [heart tree](wiki:Heart_tree) … Here you are the guest, and safe from harm at my hands … this night, at least.(wiki:Guest_right.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 Jeor: The gods will curse us. There is no crime so foul as for a guest to bring murder into a [man's hall](wiki:Craster's_Keep). By all the laws of the hearth, we- Dirk: There are no laws [beyond the Wall](wiki:Beyond_the_Wall), old man.(wiki:Guest_right.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 In the [north](wiki:North), we hold the laws of hospitality sacred still.(wiki:Guest_right.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0)

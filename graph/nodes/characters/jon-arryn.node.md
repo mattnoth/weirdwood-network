@@ -128,6 +128,10 @@ A [Waxley](wiki:House_Waxley) knight states that Lysa had given Jon's favorite [
 >
 > —writings of [Yandel](wiki:Yandel)
 
+> The tears of Lys, they call it. A rare and costly thing, clear and sweet as water, and it leaves no trace.
+
+— Varys to Eddard Stark, naming the poison that killed Jon Arryn, AGOT Eddard VII (`sources/chapters/agot/agot-eddard-07.md:311`) — book-cite overlay (S134 harvest-consume); the murder weapon
+
 ## Edges
 
 - PARENT_OF: Robert Arryn (track_b: Issue)

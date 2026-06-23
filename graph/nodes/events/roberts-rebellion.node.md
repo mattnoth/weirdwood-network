@@ -101,3 +101,7 @@ The deaths of Princess [Elia Martell](wiki:Elia_Martell) and her two young child
 > And so ended both the reign of [House Targaryen](wiki:House_Targaryen) and Robert's Rebellion—the war that put an end to nearly three hundred years of Targaryen rule and ushered in a new golden era under the auspices of [House Baratheon](wiki:House_Baratheon_of_King's_Landing).(wiki:Robert's_Rebellion.cite_ref-Rtwoiaf_the_fall_of_the_dragons:_the_end.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-3)
 >
 > —writings of [Yandel](wiki:Yandel)
+
+> The midnight flight to Dragonstone, moonlight shimmering on the ship's black sails. Her brother Rhaegar battling the Usurper in the bloody waters of the Trident and dying for the woman he loved. The sack of King's Landing by the ones Viserys called the Usurper's dogs, the lords Lannister and Stark.
+
+— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — book-cite overlay (S134 harvest-consume); the rebellion as the exiled Targaryen children inherited it

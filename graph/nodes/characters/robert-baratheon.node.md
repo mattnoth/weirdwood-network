@@ -17,3 +17,9 @@ Robert Baratheon is a character from the AWOIAF wiki.
 
 ## Edges
 
+## Quotes
+
+> Rhaegar … Rhaegar won, damn him. I killed him, Ned, I drove the spike right through that black armor into his black heart, and he died at my feet. They made up songs about it. Yet somehow he still won. He has Lyanna now, and I have her.
+
+— Robert Baratheon to Eddard Stark, AGOT Eddard X (`sources/chapters/agot/agot-eddard-10.md:171`) — book-cite overlay (S134 harvest-consume); the hollow-victory lament over Lyanna and Rhaegar
+

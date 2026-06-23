@@ -13,6 +13,12 @@ containers: [wo5k]
 
 Event node minted by Plate 3 full-corpus scan for: Catelyn is killed
 
+## Quotes
+
+> Finally someone took the knife away from her. The tears burned like vinegar as they ran down her cheeks. Ten fierce ravens were raking her face with sharp talons and tearing off strips of flesh, leaving deep furrows that ran red with blood. She could taste it on her lips.
+>
+> — Catelyn Stark (narrator), onset of her madness after Robb's death, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:139`)
+
 ## Edges
 (populated by Plate 3 role-edge staging; merge at Plate 5)
 

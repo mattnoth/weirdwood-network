@@ -52,6 +52,10 @@ King [Robert I Baratheon](wiki:Robert_I_Baratheon) granted Dragonstone to [Stann
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Cressen](wiki:Cressen)
 
+> The garrison had been prepared to sell them to the Usurper, but one night Ser Willem Darry and four loyal men had broken into the nursery and stolen them both, along with her wet nurse, and set sail under cover of darkness for the safety of the Braavosian coast.
+
+— Daenerys Targaryen's received memory, AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:41`) — book-cite overlay (S134 harvest-consume); the Targaryen-exile smuggling beat the Narrative Arc above paraphrases
+
 > I built a fleet at [Robert's](wiki:Robert_I_Baratheon) command, took [Dragonstone](wiki:Dragonstone) in his name. Did he take my hand and say, "Well done, brother, whatever should I do without you?" No, he blamed me for letting [Willem Darry](wiki:Willem_Darry) steal away [Viserys](wiki:Viserys_Targaryen) and [the babe](wiki:Daenerys_Targaryen), as if I could have stopped it.(wiki:Assault_on_Dragonstone.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Cressen](wiki:Cressen)

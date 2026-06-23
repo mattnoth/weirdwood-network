@@ -117,3 +117,7 @@ Theon resolves the [siege of Moat Cailin](wiki:Siege_of_Moat_Cailin), with the m
 > [My father](wiki:Eddard_Stark) knew the worth of Howland Reed.(wiki:Howland_Reed.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
 >
 > —[Robb Stark](wiki:Robb_Stark), to [Galbart Glover](wiki:Galbart_Glover)
+
+> The little crannogman, Howland Reed, had taken her hand from his.
+
+— thoughts of Eddard Stark, AGOT Eddard I (`sources/chapters/agot/agot-eddard-01.md:71`) — book-cite overlay (S134 harvest-consume); places Howland at Lyanna's death, the witness who took her hand from Ned's

@@ -39,6 +39,10 @@ In [297 AC](wiki:297_AC),(wiki:Roose_Bolton.cite_ref-23) Domeric died after vis
 
 ## Appearances & Description
 
+> A man in dark armor and a pale pink cloak spotted with blood stepped up to Robb.
+>
+> — Catelyn Stark (narrator) describing Roose's Red Wedding battle attire / concealed mail, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:135`)
+
 Roose has an unremarkable body, neither plump, thin, nor muscular.(wiki:Roose_Bolton.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) He has pasty skin and a pallid chest,(wiki:Roose_Bolton.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Roose_Bolton.cite_ref-Rasos3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) which is soft and hairless.(wiki:Roose_Bolton.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Roose has short, strong fingers.(wiki:Roose_Bolton.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) He has a plain face, beardless and ordinary,(wiki:Roose_Bolton.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) with his only noticeable feature being his strange eyes, paler than stone and darker than milk,(wiki:Roose_Bolton.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) like two white moons.(wiki:Roose_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2) The color is sometimes called "ghost grey".(wiki:Roose_Bolton.cite_ref-Radwd12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) His eyes are paler than those of his son, [Ramsay](wiki:Ramsay_Bolton).(wiki:Roose_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 
 Though mild-mannered, Roose is remorseless and implacable.(wiki:Roose_Bolton.cite_ref-Rawoiafroose_bolton.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) He is considered to be cold and cunning.(wiki:Roose_Bolton.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)(wiki:Roose_Bolton.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) Roose's voice is small and soft; he rarely raises his voice, forcing those who listen to do so intently, falling silent.(wiki:Roose_Bolton.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)(wiki:Roose_Bolton.cite_ref-Rasos3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)(wiki:Roose_Bolton.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)(wiki:Roose_Bolton.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0) Roose is convinced that regular [leechings](wiki:Leech) improve a person's health, and as such frequently has himself leeched.(wiki:Roose_Bolton.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
@@ -104,6 +108,10 @@ Having escaped Winterfell with [Jeyne Poole](wiki:Jeyne_Poole), [Theon Greyjoy](
 ## Quotes
 
 ### Quotes by Roose
+
+> "Jaime Lannister sends his regards."
+>
+> — Roose Bolton to Robb Stark before the killing blow, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:135`)
 
 > Frequent [leechings](wiki:Leech) are the secret of a long life. A man must purge himself of bad blood.(wiki:Roose_Bolton.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6)
 >

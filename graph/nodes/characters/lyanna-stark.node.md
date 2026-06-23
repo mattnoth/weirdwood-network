@@ -120,6 +120,10 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) regrets having been defeated by Rhae
 >
 > —Lyanna to [Eddard Stark](wiki:Eddard_Stark)
 
+> Promise me, Ned, his sister had whispered from her bed of blood. She had loved the scent of winter roses.
+
+— recalled by Eddard Stark, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:49`) — book-cite overlay (S134 harvest-consume); the fuller deathbed line with the winter-roses detail
+
 ### Quotes about Lyanna
 
 > Lyanna had only been sixteen, a child-woman of surpassing loveliness. Ned had loved her with all his heart. [Robert](wiki:Robert_I_Baratheon) had loved her even more. She was to have been his bride.(wiki:Lyanna_Stark.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-13)
@@ -165,6 +169,14 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) regrets having been defeated by Rhae
 > The [northern](wiki:North) girl had a wild beauty, as he recalled, though however bright a torch might burn it could never match [the rising sun](wiki:Cersei_Lannister).(wiki:Lyanna_Stark.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1)
 >
 > —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+
+> "That's my father's man you're kicking," howled the she-wolf.
+
+— Meera Reed's Knight of the Laughing Tree story (Lyanna as "the she-wolf" defending Howland Reed at Harrenhal), ASOS Bran II (`sources/chapters/asos/asos-bran-02.md:183`) — book-cite overlay (S134 harvest-consume)
+
+> That evening there was to be a feast in Harrenhal, to mark the opening of the tourney, and the she-wolf insisted that the lad attend. He was of high birth, with as much a right to a place on the bench as any other man. She was not easy to refuse, this wolf maid, so he let the young pup find him garb suitable to a king's feast, and went up to the great castle.
+
+— Meera Reed's Knight of the Laughing Tree story (Lyanna insists Howland attend the feast and has Benjen find him garb), ASOS Bran II (`sources/chapters/asos/asos-bran-02.md:189`) — book-cite overlay (S134 harvest-consume); hospitality detail
 
 ## Edges
 

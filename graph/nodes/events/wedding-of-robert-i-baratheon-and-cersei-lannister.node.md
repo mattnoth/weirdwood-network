@@ -57,3 +57,11 @@ Margaery: But I never knew that King [Robert](wiki:Robert_I_Baratheon) was so ac
 Dry those tears, little one. Have you ever seen a [lion](wiki:Lion) weep? [Your father](wiki:Tywin_Lannister) will find another man for you, a better man than [Rhaegar](wiki:Rhaegar_Targaryen).(wiki:Wedding_of_Robert_I_Baratheon_and_Cersei_Lannister.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 If she had only married [Rhaegar](wiki:Rhaegar_Targaryen) as [the gods](wiki:Faith_of_the_Seven) intended, he would never have looked twice at the [wolf girl](wiki:Lyanna_Stark). Rhaegar would be our king today and I would be his queen, the mother of his sons. She had never forgiven [Robert](wiki:Robert_I_Baratheon) for killing him. But then, [lions](wiki:Lion) were not good at forgiving.(wiki:Wedding_of_Robert_I_Baratheon_and_Cersei_Lannister.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 The day she wed [Robert Baratheon](wiki:Robert_I_Baratheon), thousands had turned out to cheer for them. All the women wore their best, and half the men had children on their shoulders. When she had emerged from inside [the sept](wiki:Great_Sept_of_Baelor), hand in hand with the young king, the crowd sent up a roar so loud it could be heard in [Lannisport](wiki:Lannisport).(wiki:Wedding_of_Robert_I_Baratheon_and_Cersei_Lannister.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+
+## Book Citations
+
+> Navigable `chapter:line` anchor (S134 harvest-consume) for the Robert quote quoted above ("Cersei Lannister would be a good match...") — upgrades the wiki cite_ref to openable book provenance.
+
+> And Cersei … I have Jon Arryn to thank for her. I had no wish to marry after Lyanna was taken from me, but Jon said the realm needed an heir. Cersei Lannister would be a good match, he told me, she would bind Lord Tywin to me should Viserys Targaryen ever try to win back his father's throne.
+
+— Robert Baratheon to Eddard Stark, AGOT Eddard VII (`sources/chapters/agot/agot-eddard-07.md:101`) — the political logic of the match (binding Tywin against a Targaryen restoration)

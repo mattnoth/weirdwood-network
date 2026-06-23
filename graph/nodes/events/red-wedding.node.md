@@ -61,6 +61,10 @@ Thousands of [sparrows](wiki:Sparrow) in [King's Landing](wiki:King's_Landing) a
 
 ## Quotes
 
+> "Stupid little bitch. You go in there, you won't come out. Maybe Frey will let you kiss your mother's corpse."
+>
+> — Sandor Clegane to Arya Stark (external-witness punctuation), ASOS Arya XI (`sources/chapters/asos/asos-arya-11.md:51`)
+
 > I dreamt [a wolf](wiki:Grey_Wind) howling in the rain, but no one heard his grief. I dreamt such a clangor I thought my head might burst, drums and horns and pipes and screams, but the saddest sound was the [little bells](wiki:Jinglebell).(wiki:Red_Wedding.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
 >
 > —the [ghost of High Heart](wiki:Ghost_of_High_Heart) to [Beric Dondarrion](wiki:Beric_Dondarrion), [Lem](wiki:Lem), and [Thoros of Myr](wiki:Thoros_of_Myr)
