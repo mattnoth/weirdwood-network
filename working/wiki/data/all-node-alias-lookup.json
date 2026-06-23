@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-23T02:26:18.929385+00:00",
+  "computed_at": "2026-06-23T06:06:59.274039+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -12075,6 +12075,14 @@
         "source": "node-slug"
       }
     ],
+    "capture of edmure tully": [
+      {
+        "canonical_slug": "edmure-taken-hostage-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "capture of harrenhal": [
       {
         "canonical_slug": "capture-of-harrenhal",
@@ -16523,6 +16531,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "crowning of lyanna": [
+      {
+        "canonical_slug": "crowning-of-lyanna-at-harrenhal",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "crowning of lyanna at harrenhal": [
+      {
+        "canonical_slug": "crowning-of-lyanna-at-harrenhal",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "crownlander": [
       {
         "canonical_slug": "crownlander",
@@ -19336,6 +19360,14 @@
     "death of drogo": [
       {
         "canonical_slug": "death-of-khal-drogo",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of grey wind": [
+      {
+        "canonical_slug": "grey-wind-killed-at-the-twins",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -22789,6 +22821,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "edmure taken captive at the twins": [
+      {
+        "canonical_slug": "edmure-taken-hostage-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "edmure taken hostage at the twins": [
+      {
+        "canonical_slug": "edmure-taken-hostage-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "edmure tully": [
       {
         "canonical_slug": "edmure-tully",
@@ -22811,6 +22859,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "edmure tully held hostage": [
+      {
+        "canonical_slug": "edmure-taken-hostage-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "edmyn tully": [
@@ -32341,6 +32397,22 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "grey wind killed at the twins": [
+      {
+        "canonical_slug": "grey-wind-killed-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "grey wind's head sewn on robb": [
+      {
+        "canonical_slug": "grey-wind-killed-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "grey worm": [
@@ -46119,6 +46191,14 @@
         "source": "node-slug"
       }
     ],
+    "killing of grey wind": [
+      {
+        "canonical_slug": "grey-wind-killed-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "killing of maester kerwin": [
       {
         "canonical_slug": "killing-of-maester-kerwin",
@@ -49520,6 +49600,14 @@
     "laughing tree incident": [
       {
         "canonical_slug": "knight-of-the-laughing-tree-incident",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "laurel of winter roses": [
+      {
+        "canonical_slug": "crowning-of-lyanna-at-harrenhal",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -68577,6 +68665,14 @@
         "source": "all-node-slug:concepts"
       }
     ],
+    "queen of love and beauty crowning": [
+      {
+        "canonical_slug": "crowning-of-lyanna-at-harrenhal",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "queen of meereen": [
       {
         "canonical_slug": "queen-of-meereen",
@@ -70988,6 +71084,14 @@
     "rhaegar carries off lyanna": [
       {
         "canonical_slug": "abduction-of-lyanna",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "rhaegar crowns lyanna": [
+      {
+        "canonical_slug": "crowning-of-lyanna-at-harrenhal",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -93543,8 +93647,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19111,
-    "unique_phrases": 11592
+    "total_node_entries": 19127,
+    "unique_phrases": 11605
   },
   "version": "v1"
 }
