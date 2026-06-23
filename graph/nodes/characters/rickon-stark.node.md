@@ -94,7 +94,7 @@ Theon, who has been [tortured](wiki:Torture) by Ramsay, is hated and considered 
 
 > Are we going [home](wiki:Winterfell)? I want my [horse](wiki:Horse). And I want applecakes and butter and honey, and [Shaggy](wiki:Shaggydog). Are we going where Shaggydog is?(wiki:Rickon_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
-> —Rickon to [Bran Stark](wiki:Bran_Stark)
+> —Rickon to [Bran Stark](wiki:Bran_Stark) (book cite: `sources/chapters/acok/acok-bran-07.md:85`) [child-voice food/hospitality beat]
 
 ### Quotes about Rickon
 

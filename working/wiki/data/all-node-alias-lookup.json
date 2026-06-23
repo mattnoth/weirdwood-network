@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-22T22:49:04.097567+00:00",
+  "computed_at": "2026-06-23T02:26:18.929385+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -39,14 +39,6 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
-      }
-    ],
-    "abduction-of-lyanna-stark": [
-      {
-        "canonical_slug": "abduction-of-lyanna",
-        "node_category": "events",
-        "node_type": "",
-        "source": "node-frontmatter-alias"
       }
     ],
     "abel": [
@@ -1299,6 +1291,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "aerys exiles jon connington": [
+      {
+        "canonical_slug": "exile-of-jon-connington",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "aerys i targaryen": [
@@ -15525,6 +15525,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "connington stripped and exiled": [
+      {
+        "canonical_slug": "exile-of-jon-connington",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "conquest": [
       {
         "canonical_slug": "conquest",
@@ -19347,6 +19355,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "death of jon arryn": [
+      {
+        "canonical_slug": "murder-of-jon-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "death of khal drogo": [
@@ -24505,6 +24521,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "exile of jon connington": [
+      {
+        "canonical_slug": "exile-of-jon-connington",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "eyrie": [
@@ -47531,6 +47555,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "knight of the laughing tree incident": [
+      {
+        "canonical_slug": "knight-of-the-laughing-tree-incident",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "knight of the laughing tree theories": [
       {
         "canonical_slug": "knight-of-the-laughing-tree-theories",
@@ -49483,6 +49515,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "laughing tree incident": [
+      {
+        "canonical_slug": "knight-of-the-laughing-tree-incident",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "laurent": [
@@ -61311,6 +61351,14 @@
         "source": "node-slug"
       }
     ],
+    "murder of jon arryn": [
+      {
+        "canonical_slug": "murder-of-jon-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "murder-of-elia-and-her-children": [
       {
         "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
@@ -61829,6 +61877,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "mystery knight at harrenhal": [
+      {
+        "canonical_slug": "knight-of-the-laughing-tree-incident",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "m\u00eal\u00e9e at last hearth": [
@@ -66773,6 +66829,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "poisoning of jon arryn": [
+      {
+        "canonical_slug": "murder-of-jon-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "pol": [
       {
         "canonical_slug": "pol",
@@ -70921,6 +70985,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "rhaegar carries off lyanna": [
+      {
+        "canonical_slug": "abduction-of-lyanna",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "rhaegar frey": [
       {
         "canonical_slug": "rhaegar-frey",
@@ -70929,20 +71001,20 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "rhaegar takes lyanna": [
+      {
+        "canonical_slug": "abduction-of-lyanna",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "rhaegar targaryen": [
       {
         "canonical_slug": "rhaegar-targaryen",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
-      }
-    ],
-    "rhaegar-takes-lyanna": [
-      {
-        "canonical_slug": "abduction-of-lyanna",
-        "node_category": "events",
-        "node_type": "",
-        "source": "node-frontmatter-alias"
       }
     ],
     "rhaegel targaryen": [
@@ -93471,8 +93543,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19095,
-    "unique_phrases": 11583
+    "total_node_entries": 19111,
+    "unique_phrases": 11592
   },
   "version": "v1"
 }

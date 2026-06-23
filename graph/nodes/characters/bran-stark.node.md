@@ -127,7 +127,7 @@ A mutilated Theon is brought back to Winterfell by [Roose](wiki:Roose_Bolton) an
 
 > The stone is strong ... The roots of the trees grow deep, and under the ground the [Kings of Winter](wiki:King_in_the_North) sit their thrones. So long as those remained, [Winterfell](wiki:Winterfell) remained. It was not dead, just broken. Like me ... I'm not dead either.(wiki:Bran_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-3)
 >
-> —Bran's thoughts after the [sack of Winterfell](wiki:Sack_of_Winterfell)
+> —Bran's thoughts after the [sack of Winterfell](wiki:Sack_of_Winterfell) (book cite: `sources/chapters/acok/acok-bran-07.md:209`)
 
 > Old stories are like old friends. You have to visit them from time to time.(wiki:Bran_Stark.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-2)
 >
@@ -178,6 +178,16 @@ A mutilated Theon is brought back to Winterfell by [Roose](wiki:Roose_Bolton) an
 > They know. [The gods](wiki:Old_gods) know. They [saw what I did](wiki:Capture_of_Winterfell). And for one strange moment it seemed as if it were Bran's face carved into the pale trunk of the [weirwood](wiki:Godswood_of_Winterfell), staring down at him with eyes red and wise and sad. Bran's ghost, he thought, but that was madness. Why should Bran want to haunt him? He had been fond of the boy, had never done him any harm. It was not Bran we killed. It was not [Rickon](wiki:Rickon_Stark). They were only miller's sons, from the mill by the [Acorn Water](wiki:Acorn_Water).(wiki:Bran_Stark.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-1)
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
+
+## Foreshadowing
+
+> So as cold and death filled the earth, the last hero determined to seek out the children, in the hopes that their ancient magics could win back what the armies of men had lost.
+
+— [Old Nan](wiki:Old_Nan)'s tale of the [Others](wiki:Others), the [Long Night](wiki:Long_Night), and the [last hero](wiki:Last_hero) — the enemy Bran will ultimately confront through the trees, and the children of the forest he will seek out himself. Planted-detail. Bran POV, AGOT Bran IV (`sources/chapters/agot/agot-bran-04.md:53`; the framing of the Others as "cold things, dead things" at `:49`, Old Nan's "long night" warning at `:41`)
+
+> One day I will be like him. The thought filled Bran with dread. ... Was he doomed to lose the rest too, to spend all of his years with a weirwood growing in him and through him?
+
+— Bran anticipates becoming a weirwood-rooted greenseer like [Brynden Rivers](brynden-rivers) — foreshadowing his ultimate fate. Bran POV, ADWD Bran III (`sources/chapters/adwd/adwd-bran-03.md:119`)
 
 ## Edges
 

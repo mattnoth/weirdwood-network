@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-22 (refreshed after S132c)  
+**Generated:** 2026-06-23 (refreshed after S133)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,13 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-29-enrichment-phase.md` | 2026-06-29 | Enrichment phase: harvest-consume → first major narrative-arc enrichment | **LIVE** (parallel A) | Sonnet 4.6 | **New S132.** All 5 containers spine-complete + both low-value remainders cleared (S132) → the enrichment phase opens. STEP 0 = harvest-consume the 33-row queue (the on-ramp; Bran rows fold into the Bloodraven/Bran unit, Victarion/N6 rows attach to the just-built nodes). STEP 1 = first major narrative-arc enrichment via the fan-out-lenses machine. Matt S132 sequencing: own session per dip; descent = arcs → sub-plots → characters (maybe, last); broad character roster (Bloodraven is one of many, not the focus). Ledger: `working/arc-enrichment-backlog.md`. |
+| `2026-06-23-enrichment-phase-s134.md` | 2026-06-23 | Enrichment phase: 2nd major-arc dip (+ resolve 2 open decisions) | **LIVE** (parallel A) | Sonnet 4.6 board + Opus 4.8 orch | **New S133.** Enrichment phase open; RR pass 1 shipped S133. STEP 0 = resolve 2 OPEN decisions (causal-wiring scope; off-vocab CROWNS edge) + harvest-consume 19 RR-refill rows. STEP 1 = second major-arc dip (Red Wedding / Essos / WO5K / Sack-of-KL candidates) via the fan-out machine — **+ a new 4th "existing-node↔existing-node causal-wiring" lens** (the S133 A/B finding). Ledger: `working/arc-enrichment-backlog.md`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **LIVE** (parallel B) | Opus 4.8 | **New S131** (supersedes the harness-planning prompt, now archived). PARALLEL-SAFE with parallel-A. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT: smoke v4 on THK → fresh-judge (vocab held? qualifiers? isolation? identity reveals? completeness?) → promote or iterate to v4b → full-run prereqs (graduate worker to `scripts/`, register `weirwood run` track, split A/B decision, correct stale `architecture.md:161` per S131 Active Decision). **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). |
 
 ---
 
-## Archive (`archive/` subfolder — 49 files)
+## Archive (`archive/` subfolder — 50 files)
 
+> **`2026-06-29-enrichment-phase.md`** — archived S133. **DONE (S133):** the enrichment phase opened. STEP 0 harvest on-ramp consumed all 33 rows (31 attached + 2 no-op). STEP 1 = first major-arc enrichment = **Robert's Rebellion pass 1** (board-picked unanimous): +3 nodes / +24 net edges (22 board −1 junk −1 reject + 2 A/B-bonus); wired the dead-end RR cluster forward (RR→AEGON via Connington's exile, RR→WO5K via the Cersei marriage, RR→Essos via Robert's kill-order); Jon-Arryn-murder reified; R+L held gated. Fresh-verify 6C/2A/1R; 0 drift; 0 new types. Ran a Sonnet-board-vs-Opus A/B (~90% convergence — board validated; → add a causal-wiring lens). Superseded as live by `2026-06-23-enrichment-phase-s134.md`.
 > **`2026-06-29-low-value-remainders.md`** — archived S132. **DONE (S132):** cleared both deferred low-value remainders (advisory-board-ordered). AEGON Euron/Victarion voyage wire (+2 nodes/+15 edges — dangling S116 bridge wired down through the Victarion ADWD voyage; float cluster grouped; `dragonbinder` artifact wired in; container essos 16→26) + NORTH N6 Stannis-marches-south (+2 nodes/+6 edges — march→stall chain + the `battle-beneath-the-wall ENABLES fight-by-deepwood-motte` integrating edge; `--full-chain` walks 11 hops to Renly/Blackwater; Battle-of-Ice/Pink-Letter/Arnolf red lines held). All interpretive edges fresh-verified, 0 drift, 0 invented types. Bran greenseer-enrichment graduated into the enrichment phase (folds into the Bloodraven/Bran unit). Superseded as live by the enrichment-phase prompt.
 > **`2026-06-29-de-longrun-harness-planning.md`** — archived S131. **DONE (S131):** the D&E unattended-harness design ran. Produced (in `working/dunk-egg-pass1/`) the run-plan, the worker scaffold `dunk-egg-pass1-extraction.py` (proven `claude -p` loop, `--prompt-version`/`--smoke` aware, runs through generic `longrun.sh` via the named `weirwood run` track), and a substantially hardened **v4 prompt** (`prompts/pass1-prompt-v4.md`, appendix rows 1–15 incl. the LOCKED relationship vocab + qualifier capture + forward-only + causal-spine breadcrumb). Flagged the chapter-split decision (rec A=scene-split) + the rule-#6 paired `architecture.md:161` fix (S131 Active Decision). Superseded as live by the smoke-test prompt.
 > **`2026-06-28-bran-spine-build.md`** — archived S130. **DONE (S130):** built the BRAN causal spine — greenfield container lit end-to-end. **+8 nodes / +35 edges** (12 causal/agency Tier-2 + 23 role Tier-1; 8,587→8,595 nodes, 22,441→22,476 edges); container `bran` 5→13; `--full-chain bran-becomes-a-greenseer` walks 9 hops sack→…→greenseer. Batch A (BR1 coma [waking folded], BR2 warg-naming, BR3 crypts) + Batch B (BR4 split, BR5 Black-Gate + Coldhands, BR6 cave, BR7 greenseer). 12/12 causal/agency fresh-verify CONFIRM across 2 independent subagents; 0 drift; 0 invented types (132). Build-step-0 found 2 stale-spec items (rule #9): `brynden-rivers` aliases already present (no-op), suspicious `sack PRECEDES purple-wedding` = legit chronology (no fix). Key correction: Luwin does NOT counsel the split → BR3→BR4 ENABLES not TRIGGERS. Harvest: 16 bran-dip rows consumed incl. a book-cite overlay onto `brynden-rivers` (ADWD cave-form). Superseded as live by the low-value-remainders track.
@@ -64,11 +65,12 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > deliberately parallel (different files, different windows — this is the endsession "one file per independent
 > work track" case, NOT a menu for the same slot). The chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE A (graph): `2026-06-29-enrichment-phase.md`** — both low-value remainders cleared S132, so the
-**enrichment phase** is open. STEP 0 = harvest-consume the 33-row queue (the on-ramp); STEP 1 = first major
-narrative-arc enrichment via the fan-out-lenses machine (ledger `working/arc-enrichment-backlog.md`; pass-COUNT
-per unit; arcs first → planning session → granular character/event dips). Same arc-mint machine; fresh-verify.
-TWOW/gated-theory OUT. (**Sonnet 4.6**)
+**LIVE A (graph): `2026-06-23-enrichment-phase-s134.md`** — enrichment phase open; **RR pass 1 shipped S133**
+(first major-arc dip; +3 nodes/+24 edges; RR→AEGON/WO5K/Essos bridges traverse). NEXT (S134): resolve 2 open
+decisions (causal-wiring scope; off-vocab CROWNS edge) + harvest-consume 19 RR-refill rows, then the **second**
+major-arc dip (Red Wedding / Essos / WO5K / Sack-of-KL candidates) via the fan-out machine **+ a new 4th
+existing-node↔existing-node causal-wiring lens** (S133 A/B finding, memory `feedback_enrichment_board_causal_lens`).
+Ledger `working/arc-enrichment-backlog.md` (pass-COUNT per unit). Fresh-verify; TWOW/gated-theory OUT. (**Sonnet 4.6 board + Opus 4.8 orch**)
 
 **LIVE B (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — harness + v4 prompt DESIGNED S131, Bloodraven
 priming scrubbed S132b; nothing run. NEXT: smoke-test v4 on THK (gated on Matt's go) → fresh-judge → promote or

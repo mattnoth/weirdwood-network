@@ -39,3 +39,9 @@ After [Jaime Lannister](jaime-lannister) [pushes him from the tower](jaime-pushe
 > A pair of yellow eyes looked into his own, shining like the sun.
 
 — Summer on Bran's bed at the moment he wakes from the coma — his first skinchanger contact on waking. Bran POV, AGOT Bran III (`sources/chapters/agot/agot-bran-03.md:125`)
+
+## Foreshadowing
+
+> He saw the bones of a thousand other dreamers impaled upon their points.
+
+— In the coma-flight dream, the jagged ice spires below are hung with the bones of dreamers who fell — a planted-detail foreshadowing the lethality and cost of the greenseer/greendreamer path. Bran POV, AGOT Bran III (`sources/chapters/agot/agot-bran-03.md:101`)

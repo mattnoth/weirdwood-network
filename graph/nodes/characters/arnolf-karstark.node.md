@@ -29,6 +29,12 @@ Arnolf Karstark is a character.human from the AWOIAF wiki.
 
 Arnolf is gaunt, crooked, and bent from age, and he walks with a blackthorn cane.(wiki:Arnolf_Karstark.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) His left shoulder is half a foot higher then his right. Arnolf has a scrawny neck, squinty grey eyes, and is a few white hairs away from complete baldness. His teeth are yellow and his ragged, forked beard is grey and white.(wiki:Arnolf_Karstark.cite_ref-Radwd12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)(wiki:Arnolf_Karstark.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) [Theon Greyjoy](wiki:Theon_Greyjoy) considers Arnolf, whose grey woolen cloak is bordered in [sable](wiki:Sable), to be "a poor excuse for a man".(wiki:Arnolf_Karstark.cite_ref-Rtwow.5B.5Btheon_i_.28the_winds_of_winter.29.7Ctheon_i.5D.5D.7B.7B.7B4.7D.7D.7D_8-0)
 
+Book provenance (Asha's first impression):
+
+> Gaunt and bent and crooked, with a left shoulder half a foot higher than his right, he had a scrawny neck, squinty grey eyes, and yellow teeth.
+
+— ADWD The Sacrifice (`sources/chapters/adwd/adwd-the-sacrifice-01.md:77`)
+
 ## Narrative Arc
 
 ### A Dance with Dragons

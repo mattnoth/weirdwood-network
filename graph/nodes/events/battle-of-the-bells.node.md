@@ -79,3 +79,19 @@ The Battle of the Bells forced King [Aerys II Targaryen](wiki:Aerys_II_Targaryen
 > I wanted the glory of slaying [Robert](wiki:Robert_I_Baratheon) in single combat, and I did not want the name of butcher. So Robert escaped me and cut down [Rhaegar](wiki:Rhaegar_Targaryen) on the [Trident](wiki:Battle_of_the_Trident).(wiki:Battle_of_the_Bells.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 >
 > —thoughts of [Jon Connington](wiki:Jon_Connington)
+
+## Book Citations
+
+> Book-cite overlay (S133 RR-enrichment): navigable `chapter:line` anchors for the wiki-sourced quotes above. Role edges `jon-connington COMMANDS_IN battle-of-the-bells` and `robert-baratheon AGENT_IN battle-of-the-bells` are wired in `edges.jsonl`; the defeat `CAUSES` the [exile of Jon Connington](exile-of-jon-connington).
+
+> After dancing griffins lost the Battle of the Bells, Aerys exiled him. He had finally realized that Robert was no mere outlaw lord to be crushed at whim, but the greatest threat House Targaryen had faced since Daemon Blackfyre.
+
+— Jaime Lannister, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:53`)
+
+> I rose too high, loved too hard, dared too much. I tried to grasp a star, overreached, and fell.
+
+— Jon Connington's reflection, ADWD The Griffin Reborn (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:55`)
+
+> "I failed the father," he said, "but I will not fail the son."
+
+— Jon Connington, ADWD The Griffin Reborn (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:71`) — the exile's resolve that drives the AEGON arc

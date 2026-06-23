@@ -35,3 +35,7 @@ During [Theon and Ramsay's sack of Winterfell](sack-of-winterfell), [Bran](bran-
 > "We never went," said Bran. "Well, only to the edge, and then doubled back. I sent the wolves on to make a trail, but we hid in Father's tomb."
 
 — Bran reveals the crypt-hiding retrospectively to the dying Luwin. Bran POV, ACOK Bran VII (`sources/chapters/acok/acok-bran-07.md:155`)
+
+> Lyanna and Brandon, Lord Rickard Stark their father, Lord Edwyle his father, Lord Willam and his brother Artos the Implacable, Lord Donnor and Lord Beron and Lord Rodwell, one-eyed Lord Jonnel, Lord Barth and Lord Brandon and Lord Cregan who had fought the Dragonknight.
+
+— The roll-call of dead Starks among whom the boys shelter in the crypt. Bran POV, ACOK Bran VII (`sources/chapters/acok/acok-bran-07.md:67`)

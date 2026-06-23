@@ -35,3 +35,7 @@ Over the dying [Maester Luwin](luwin) at the burned Winterfell godswood, the sur
 > "Our road is north," Jojen announced.
 
 — The northward course, driven by Jojen's green dreams. Bran POV, ACOK Bran VII (`sources/chapters/acok/acok-bran-07.md:207`)
+
+> Osha found some loaves of burned bread that were still edible, and even a cold roast fowl that she ripped in half. Meera unearthed a crock of honey and a big sack of apples.
+
+— Provisions scavenged from the ruined Winterfell kitchens before the divided parties depart. Bran POV, ACOK Bran VII (`sources/chapters/acok/acok-bran-07.md:201`) [food / flight-provisions beat]

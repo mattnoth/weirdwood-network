@@ -43,6 +43,8 @@ When Victarion and the [Iron Fleet](wiki:Iron_Fleet) arrive at [Slaver's Bay](wi
 
 — Dragonbinder's appearance as Cragorn blows it at the kingsmoot, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:149-151`)
 
+Victarion recalls the sound of the horn when it was blown at the kingsmoot on Old Wyk: "It seemed as if the sound would never end. It was like some long scream. A thousand screams, all melted into one." (adwd-victarion-01.md:105) [Dragonbinder's sound — a thousand screams]
+
 ## Quotes
 
 Bright and baneful was its voice, a shivering hot scream that made a man's bones seem to thrum within him ... It is the horn of hell.(wiki:Dragonbinder.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)

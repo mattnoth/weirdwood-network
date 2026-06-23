@@ -36,3 +36,13 @@ Three days short of Winterfell, [Stannis Baratheon's](stannis-baratheon) host ha
 > "We had eight hundred horses when we marched from Deepwood Motte. Last night the count was sixty-four."
 
 — Justin Massey, ADWD The Sacrifice (`sources/chapters/adwd/adwd-the-sacrifice-01.md:139`)
+
+> Any horse that went down was butchered on the spot for meat.
+
+— ADWD The King's Prize (`sources/chapters/adwd/adwd-the-kings-prize-01.md:191`) — hospitality-inversion: the host eats its own mounts
+
+## Foreshadowing
+
+> They had been three days from Winterfell for nineteen days.
+
+— ADWD The Sacrifice (`sources/chapters/adwd/adwd-the-sacrifice-01.md:47`) — the ironic crystallization of the stall: forever "three days away" as the blizzard freezes the campaign in place

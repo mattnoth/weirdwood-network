@@ -3,7 +3,7 @@
   "name": "Qhorin commands Jon to yield if captured",
   "type": "event.capture",
   "node_path": "graph/nodes/events/qhorin-commands-jon-to-yield-if-captured.node.md",
-  "generated_at": "2026-06-22T16:25:08.097393+00:00",
+  "generated_at": "2026-06-23T02:26:13.698446+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

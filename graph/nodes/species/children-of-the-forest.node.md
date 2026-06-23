@@ -21,3 +21,9 @@ OPPOSES: Andals (driven out during Andal conquest)
 SACRED_TO: Old Gods (weirwood groves are their sacred sites)
 LOCATED_AT: Isle of Faces (Pact location)
 LOCATED_AT: Cave of the three-eyed crow (surviving remnant)
+
+## Quotes
+
+> "The First Men named us children," the little woman said. "The giants called us woh dak nag gran, the squirrel people, because we were small and quick and fond of trees, but we are no squirrels, no children. Our name in the True Tongue means those who sing the song of earth."
+
+— [Leaf](leaf) gives the children's three names — the First Men's "children," the giants' *woh dak nag gran* (squirrel people), and their own True Tongue self-name, "those who sing the song of earth." Bran POV, ADWD Bran II (`sources/chapters/adwd/adwd-bran-02.md:141`)

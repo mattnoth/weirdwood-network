@@ -65,3 +65,19 @@ Feverish and rambling in the bathhouse at [Harrenhal](wiki:Harrenhal), [Jaime La
 > [The Targaryens](wiki:House_Targaryen) never bury their dead, [they burn them](wiki:House_Targaryen). [Aerys](wiki:Aerys_II_Targaryen) meant to have the greatest funeral pyre of them all. Though if truth be told, I do not believe he truly expected to die. Like [Aerion Brightfire](wiki:Aerion_Brightfire) before him, Aerys thought the fire would transform him... that he would rise again, reborn as a [dragon](wiki:Dragon), and turn all his enemies to ash.(wiki:Wildfire_plot.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+
+## Book Citations
+
+> Book-cite overlay (S133 RR-enrichment): navigable `chapter:line` anchors for the wiki-sourced prose above, from Jaime's bathhouse confession to Brienne. Role edges `aerys-ii-targaryen COMMANDS_IN wildfire-plot` and `rossart AGENT_IN wildfire-plot` are wired in `edges.jsonl` off these cites.
+
+> So His Grace commanded his alchemists to place caches of wildfire all over King's Landing. Beneath Baelor's Sept and the hovels of Flea Bottom, under stables and storehouses, at all seven gates, even in the cellars of the Red Keep itself.
+
+— Jaime Lannister, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:53`)
+
+> Aerys burnt him alive for that, and hung his chain about the neck of Rossart, his favorite pyromancer.
+
+— Jaime Lannister, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:55`) — Rossart raised to Hand, the lead pyromancer of the plot
+
+> The traitors want my city, I heard him tell Rossart, but I'll give them naught but ashes. Let Robert be king over charred bones and cooked meat.
+
+— Jaime Lannister, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:57`)

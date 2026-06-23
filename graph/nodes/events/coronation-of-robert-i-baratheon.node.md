@@ -38,3 +38,11 @@ Robert: Damn you, Ned Stark. You and [Jon Arryn](wiki:Jon_Arryn), I loved you bo
 I remember [Robert](wiki:Robert_I_Baratheon) as he was the day he took [the throne](wiki:Iron_Throne), every inch a king.(wiki:Coronation_of_Robert_I_Baratheon.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
 I tell you this—[Robert](wiki:Robert_I_Baratheon) was never the same after he put on that crown. Some men are like swords, made for fighting. Hang them up and they go to rust.(wiki:Coronation_of_Robert_I_Baratheon.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
 At [Robert's](wiki:Robert_I_Baratheon) coronation, I was made to kneel at the royal feet beside Grand Maester [Pycelle](wiki:Pycelle) and [Varys](wiki:Varys) the eunuch, so that he might forgive us our crimes before he took us into his service.(wiki:Coronation_of_Robert_I_Baratheon.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Book Citations
+
+> Book-cite overlay (S133 RR-enrichment): navigable `chapter:line` anchor for the wiki-cited Robert quote above. This node now `ENABLES` the [wedding of Robert and Cersei](wedding-of-robert-i-baratheon-and-cersei-lannister) (the Lannister match Jon Arryn brokered) in `edges.jsonl` — the RR→War-of-the-Five-Kings seam.
+
+> Robert sat down again. "Damn you, Ned Stark. You and Jon Arryn, I loved you both. What have you done to me? You were the one should have been king, you or Jon."
+
+— Robert Baratheon, AGOT Eddard VII (`sources/chapters/agot/agot-eddard-07.md:93`)

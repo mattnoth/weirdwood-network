@@ -29,3 +29,11 @@ With the cave's torches extinguished by the [children of the forest](wiki:Childr
 ## Quotes
 
 Bran: Will this make me a [greenseer](wiki:Greenseer)? Brynden: Your blood makes you a greenseer. This will help awaken your gifts and wed you to the [trees](wiki:Weirwood).(wiki:Weirwood_paste.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+> Inside was a white paste, thick and heavy, with dark red veins running through it.
+
+— The paste's appearance, served in a weirwood bowl carved with a dozen faces. Bran POV, ADWD Bran III (`sources/chapters/adwd/adwd-bran-03.md:149`) [book-cite overlay; appearance/object description]
+
+> It tasted of honey, of new-fallen snow, of pepper and cinnamon and the last kiss his mother ever gave him.
+
+— The paste's taste as Bran eats it. Bran POV, ADWD Bran III (`sources/chapters/adwd/adwd-bran-03.md:163`) [book-cite overlay onto the wiki-paraphrased taste in the Narrative Arc]

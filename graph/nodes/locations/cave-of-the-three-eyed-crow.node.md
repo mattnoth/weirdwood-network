@@ -37,3 +37,7 @@ Summer digs his way through the snowdrifts at the entrance to the cave whenever 
 
 The roots were everywhere, twisting through earth and stone, closing off some passages and holding up the roofs of others. All the color is gone, Bran realized suddenly. The world was black soil and white wood. The [heart tree at Winterfell](wiki:Godswood_of_Winterfell) had roots as thick around as a [giant](wiki:Giant)'s legs, but these were even thicker. And Bran had never seen so many of them. There must be a whole grove of [weirwoods](wiki:Weirwood) growing up above us.(wiki:Cave_of_the_three-eyed_crow.cite_ref-Radwd13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 Men should not go wandering in this place. The river you hear is swift and black, and flows down and down to a sunless sea. And there are passages that go even deeper, bottomless pits and sudden shafts, forgotten ways that lead to the very center of the earth. Even [my people](wiki:Children_of_the_forest) have not explored them all, and we have lived here for a thousand thousand of your man-years.(wiki:Cave_of_the_three-eyed_crow.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
+
+> Bran saw a bear skull and a wolf skull, half a dozen human skulls and near as many giants. All the rest were small, queerly formed. Children of the forest. The roots had grown in and around and through them, every one.
+
+— The cave floor's bones and the skulls in the wall niches. Bran POV, ADWD Bran II (`sources/chapters/adwd/adwd-bran-02.md:183`) [book-cite overlay onto the wiki-paraphrased bones description]

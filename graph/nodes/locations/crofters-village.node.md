@@ -22,6 +22,16 @@ Crofters' village is a location from the AWOIAF wiki.
 
 The village is inhabited by crofters and is located between two lakes. It consists of a few huts, a longhall, and a watchtower by the lakeshore.(wiki:Crofters'_village.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) The larger lake is dotted with small wooded islands, one of which has an ancient [weirwood](wiki:Weirwood) [heart tree](wiki:Heart_tree) growing on it. The longhall has space to comfortably seat fifty men.(wiki:Crofters'_village.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
+Book provenance for the island weirwood (Asha's view across the frozen lake):
+
+> From one such island rose a weirwood gnarled and ancient, its bole and branches white as the surrounding snows.
+
+— ADWD The Sacrifice (`sources/chapters/adwd/adwd-the-sacrifice-01.md:33`)
+
+> It is only sap, she'd told herself, the red sap that flows inside these weirwoods. But her eyes were unconvinced; seeing was believing, and what they saw was frozen blood.
+
+— ADWD The Sacrifice (`sources/chapters/adwd/adwd-the-sacrifice-01.md:33`)
+
 ## Narrative Arc
 
 ### A Dance with Dragons[ ]

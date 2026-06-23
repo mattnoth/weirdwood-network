@@ -2,7 +2,7 @@
 name: "Abduction of Lyanna Stark"
 type: event.incident
 slug: abduction-of-lyanna
-aliases: ["abduction-of-lyanna-stark", "rhaegar-takes-lyanna"]
+aliases: ["abduction of Lyanna Stark", "Rhaegar takes Lyanna", "Rhaegar carries off Lyanna"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert's_Rebellion"
 era: roberts-rebellion
@@ -35,3 +35,22 @@ The abduction of Lyanna Stark by Prince Rhaegar Targaryen near Harrenhal at the 
 > Instead of crowning his wife, the Dornish princess Elia Martell, Rhaegar rode past her and crowned Lyanna Stark of Winterfell instead. Eddard Stark would later recall this moment as "the moment when all smiles died".
 
 — [Robert's Rebellion](wiki:Robert's_Rebellion), AWOIAF (the crowning at Harrenhal that preceded the abduction)
+
+## Evidence — contested agency (abduction vs. elopement)
+
+> The graph holds this event under its in-world name ("abduction") and models the dominant realm-narrative
+> via [`rhaegar-targaryen SUSPECTED_OF abduction-of-lyanna`](../../edges/edges.jsonl) (Tier-2 — the
+> in-world suspicion, NOT an assertion of force). The R+L=J reading (that Lyanna went willingly) is a GATED
+> theory; the opposing on-page testimony is recorded here as substrate, not asserted.
+
+**The dominant in-world framing — abduction and rape (Robert's war-narrative):**
+
+> "Robert was betrothed to marry her, but Prince Rhaegar carried her off and raped her," Bran explained.
+
+— Bran Stark, AGOT Bran VII (`sources/chapters/agot/agot-bran-07.md:79`)
+
+**The opposing testimony — a love the realm called a crime:**
+
+> Her brother Rhaegar had died for the woman he loved.
+
+— Daenerys Targaryen, AGOT Daenerys VIII (`sources/chapters/agot/agot-daenerys-08.md:187`) — a biased source (his sister), but the on-page counter-frame to the abduction narrative; pairs with the existing `rhaegar-targaryen LOVES lyanna-stark` and `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` edges.

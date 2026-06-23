@@ -37,3 +37,7 @@ Acting on [Euron's charge](euron-commissions-victarion-to-fetch-daenerys), [Vict
 > Near the end, before the smoking ketch was swallowed by the sea, the cries of the seven sweetlings changed to joyous song, it seemed to Victarion Greyjoy. A great wind came up then, a wind that filled their sails and swept them north and east and north again, toward Meereen and its pyramids of many-colored bricks.
 
 — ADWD Victarion (`sources/chapters/adwd/adwd-victarion-01.md:97`)
+
+> As the sea crashed around him and the deck rose and fell beneath his feet, he had seen Dagon's Feast and Red Tide slammed together so violently that both exploded into splinters. My brother's work, he'd thought.
+
+— Victarion in the first storm a day out of Old Volantis — the voyage's opening loss, which scatters and sinks much of the Iron Fleet, ADWD The Iron Suitor (`sources/chapters/adwd/adwd-the-iron-suitor-01.md:25`) [storm out of Old Volantis — opening loss]

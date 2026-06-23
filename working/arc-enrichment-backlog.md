@@ -73,11 +73,12 @@ gets built then. Full sequence: **low-value remainders [DONE S131] → major nar
 | Unit | Kind | Passes done | Last pass | Notes |
 |------|------|:-----------:|-----------|-------|
 | Kingsmoot → Euron | arc/cluster | **1** | S116 | +2 beat-nodes, +6 edges, +12 descriptive attachments, +1 edge type (`SUSPECTED_OF`), ~14 harvest pointers; + 3 bridge nodes minted-in-place. Pass 2 candidates: Crow's Eye voyages, dragonbinder, bastard sons. |
+| Robert's Rebellion | arc/cluster | **1** | S133 | First major-arc enrichment (board-picked, unanimous A/B/C). +3 nodes (`knight-of-the-laughing-tree-incident`, `exile-of-jon-connington`, `murder-of-jon-arryn`) + 24 edges (22 board + 2 A/B-bonus; 1 junk `GUEST_OF` dropped, 1 ENABLES rejected at fresh-verify) + 4 book-cite overlays + alias fix. Wired the dead-end cluster FORWARD: **RR→AEGON** (`battle-of-the-bells CAUSES exile-of-jon-connington ENABLES aegon-revealed`) + **RR→WO5K** (`coronation ENABLES wedding-of-robert-and-cersei`). Jon-Arryn-murder reified (lysa AGENT_IN; petyr+cersei SUSPECTED_OF — the false in-world misdirection); R+L contested-agency `rhaegar SUSPECTED_OF abduction-of-lyanna`; Howland/Ned WITNESS_IN ToJ; wildfire-cache agents. Fresh-verify 6 CONFIRM/2 ADJUST/1 REJECT (dropped `wedding ENABLES death-of-robert` as agency-collapse — RR→WO5K death-link deferred to a properly-sourced MOTIVATES). 0 drift, 0 new types. **Pass 2 candidates:** RR→Essos seam (`exile-of-viserys-and-daenerys`, deferred to Essos enrichment); Tower-of-Joy interior (gated); the Knight-of-the-Laughing-Tree squire identities; `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` vocab decision (Matt). |
 | Bloodraven / Brynden Rivers | character | **0** | — | incidental S130 overlay only (cave-form appearance + self-id book-cite). Pass 1 = the D&E deep-connections dip (scope below). |
 | Bran (greenseer arc) | character | **0** | — | incidental S130: 12 anchor quotes on the 8 new beats. Pass 1 = the journey-deepening dip (scope below). |
 | AEGON cluster | arc/cluster | **0** | — | S129 prose-only harvest-consume (overlays onto jon-connington/aegon/varys) — not a full pass. |
 | WO5K container | arc/cluster | **0** | — | needs MANY passes (Karstark/Frey/Bolton/Riverlands/westerlands). |
-| Red Wedding · Purple Wedding · Tywin's death · Blackwater · Ned's downfall · RR · Sack of KL | arc/cluster | **0** | — | each has off-spine side-plots. |
+| Red Wedding · Purple Wedding · Tywin's death · Blackwater · Ned's downfall · Sack of KL | arc/cluster | **0** | — | each has off-spine side-plots. |
 | Cersei's downfall · Brienne→Stoneheart | arc/cluster | **0** | — | AFFC secondary beats. |
 | Dorne / Myrcella (Queenmaker) | arc/cluster | **0** | — | 19 harvest rows pushed S117. |
 | Essos clusters | arc/cluster | **0** | — | Slaver's Bay/Meereen sub-plots; Fire-and-blood reveal. |
@@ -171,6 +172,36 @@ can def make those prompts better." So:
   (`feedback_book_citation_overlay_value`) — read the novella files directly, attach `chapter:line` cites.
 
 ---
+
+## A/B model experiment — Sonnet-lens board vs. max-effort Opus (S133, Matt-requested)
+
+**Setup.** After shipping the RR pass via the standard machine (3 Sonnet lenses + Opus orchestrator synthesis +
+Sonnet fresh-verify), we ran ONE max-effort **Opus** analyst doing the ENTIRE RR enrichment scope as a single
+blind pass (deduped against `baseline.md` only; did not read the lens/synthesis files; treated the parallel-minted
+nodes as non-existent). Proposal: `working/enrichment/rr/proposal-opus-ab.md` (51 items).
+
+**Verdict — a MODEST but real difference; orchestration matters more than proposer-tier.**
+- **~90% convergence on the high-value core.** Opus independently arrived at the SAME 3 new nodes (KotLT-incident,
+  exile-of-jon-connington, murder-of-jon-arryn), the SAME RR→AEGON bridge, the SAME Jon-Arryn substrate
+  (lysa AGENT_IN / petyr+cersei SUSPECTED_OF), the SAME ToJ witnesses, the SAME wildfire overlays, the SAME junk-drop
+  and the SAME `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` NEEDS_VOCAB hold. → **strong validation of the cheaper Sonnet board.**
+- **Opus caught a real coverage SEAM the lens-division missed:** existing-node→existing-node causal edges that no
+  single Sonnet lens "owned." Two were genuine, well-grounded, structural-gap fixes and were **minted as A/B bonus**
+  (run_id `rr-enrichment-s133-ab`): **`roberts-rebellion MOTIVATES robert-orders-daenerys-assassination`** (gave the RR
+  hub its FIRST real outgoing edge — the cluster head was a dead-end; also a clean RR→Essos seam) +
+  **`wildfire-plot MOTIVATES slaying-of-aerys-ii-the-kingslaying`** (Jaime's stated motive for the kingslaying).
+- **Opus was slightly NOISIER on dedup** (re-proposed 4 already-existing nodes; correct per its blind rule but it would
+  have needed a synthesis pass to filter). Its rejection reasoning was strong (caught agency-collapse, Rhaegar-died-first,
+  granularity overclaim) — comparable to our fresh-verify.
+- **Caveat (not a clean RCT):** the Sonnet path had Opus orchestration + a fresh-verify layer; the Opus path was a raw
+  single agent with neither. The honest lesson: **the model tier of the proposal agents is NOT the bottleneck — the
+  orchestration structure (shared dedup baseline + holistic causal-wiring lens + fresh-verify) is.** The lens division
+  itself created the only real gap, and a holistic causal pass (any tier) closes it. RECOMMENDATION for future dips: keep
+  the cheap fanned-out board, but ADD one explicit "existing-node↔existing-node causal wiring" lens to the board so the
+  seam doesn't recur (Opus-as-proposer is not required to get those edges).
+- **Held for RR pass 2** (Opus-found, lower-priority / more interpretive): `murder-of-elia… MOTIVATES landing-of-the-golden-company`
+  (Tier-2, the survival-claim premise — wants fresh-verify); trident book-cite overlay (Robert "drove the spike… into his
+  black heart", agot-eddard-10:171); `lyanna LOCATED_AT tower-of-joy`; atrocity-node AGENT_IN re-targeting.
 
 ## The enrichment-pass machine (smoke-tested S116)
 

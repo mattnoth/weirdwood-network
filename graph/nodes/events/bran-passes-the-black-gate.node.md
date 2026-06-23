@@ -35,3 +35,7 @@ At the abandoned [Nightfort](nightfort), [Bran](bran-stark)'s party reaches the 
 > "Then pass," the door said.
 
 — The Black Gate opens after Sam speaks the words. Bran POV, ASOS Bran IV (`sources/chapters/asos/asos-bran-04.md:317`)
+
+> "I am the sword in the darkness," Samwell Tarly said. "I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers. I am the shield that guards the realms of men."
+
+— Sam recites the Night's Watch oath to open the gate — the words that prove him a sworn brother. Bran POV, ASOS Bran IV (`sources/chapters/asos/asos-bran-04.md:315`)

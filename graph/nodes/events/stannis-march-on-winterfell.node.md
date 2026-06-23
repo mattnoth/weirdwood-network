@@ -35,3 +35,11 @@ After winning [the fight by Deepwood Motte](fight-by-deepwood-motte) and the [ba
 > Asha Greyjoy rode in the baggage train, in a covered wayn with two huge iron-rimmed wheels, fettered at wrist and ankle … His Grace King Stannis was taking no chances on his prize escaping captivity.
 
 — ADWD The King's Prize (`sources/chapters/adwd/adwd-the-kings-prize-01.md:19`)
+
+> I am not Robert. But we will march, and we will free Winterfell … or die in the attempt.
+
+— Stannis Baratheon, ADWD The King's Prize (`sources/chapters/adwd/adwd-the-kings-prize-01.md:65`) — the march resolve
+
+> Stannis need only bloody Bolton, and the northmen will abandon him.
+
+— Justin Massey to Asha, ADWD The King's Prize (`sources/chapters/adwd/adwd-the-kings-prize-01.md:69`) — Massey's theory of victory, banking on the north's Red Wedding grievance against the Boltons and Freys

@@ -39,6 +39,10 @@ Victarion is a follower of the [Drowned God](wiki:Drowned_God),(wiki:Victarion_G
 
 The Lord Captain wears heavy grey chain mail over boiled black leather.(wiki:Victarion_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7) When preparing for combat, Victarion also wears heavy plate.(wiki:Victarion_Greyjoy.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) He wears padded gloves underneath his iron gauntlets of lobstered steel plate.(wiki:Victarion_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3) Victarion's tall black warhelm is decorated with an iron [kraken](wiki:Kraken), whose tentacles coil down below his jaw.(wiki:Victarion_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8) He carries a [longsword](wiki:Longsword) and a dirk,(wiki:Victarion_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9) but prefers to use his fearsome steel axe(wiki:Victarion_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) with a shield.(wiki:Victarion_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4) Victarion's cloak is made of nine layers of gold cloth sewn like the kraken of his House, and its arms reach his boots.(wiki:Victarion_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
 
+After Moqorro heals his sword-wounded hand with fire-magic, Victarion's arm is hideous but stronger: "The arm the priest had healed was hideous to look upon, pork crackling from elbow to fingertips. Sometimes when Victarion closed his hand the skin would split and smoke, yet the arm was stronger than it had ever been." (adwd-victarion-01.md:57) [Moqorro-healed burned arm]
+
+The Myrish eye Victarion claims from the captain of the captured cog *Dove* is a far-seeing glass: "two glass lenses in a series of brass tubes, cunningly wrought so that each section slid into the next, until the eye was no longer than a dirk." (adwd-victarion-01.md:41) [Myrish eye spyglass]
+
 Victarion dislikes laughter, fearing that it means he is being made fun of by others, and the realization of mockery angers him.(wiki:Victarion_Greyjoy.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) Theon and [Asha Greyjoy](wiki:Asha_Greyjoy) consider their uncle to be a grey bullock, with Theon recalling Victarion as dutiful but unambitious and Asha finding him dim.(wiki:Victarion_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) According to [George R. R. Martin](wiki:George_R._R._Martin), Victarion is "dumb as a stump"(wiki:Victarion_Greyjoy.cite_ref-13) and "a dullard and a brute".(wiki:Victarion_Greyjoy.cite_ref-14)
 
 ## Narrative Arc
@@ -154,6 +158,14 @@ Just as the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Vic
 > He shall be [our king](wiki:King_of_the_Isles_and_the_North). What man could look on him and doubt it?(wiki:Victarion_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
 >
 > —[Aeron Greyjoy](wiki:Aeron_Greyjoy)'s thoughts
+
+## Foreshadowing
+
+- On the voyage to Meereen, Victarion seems to hear the Drowned God claim him, echoing the dueling-gods motif that runs through his ADWD arc: "You shall serve me well, my captain, the waves seemed to say. It was for this I made you." (adwd-victarion-01.md:55) [Drowned God claims Victarion / dueling-gods motif]
+
+- Moqorro's fire-vision before the prize-taking names a threat behind and a prize ahead — the "tigers" go unresolved in ADWD (commonly read as the Volantene tiger-cloaks / green galleys pursuing the fleet): "Behind come the tigers. Ahead awaits your dragon." (adwd-victarion-01.md:45) [Moqorro fire-vision — tigers unresolved]
+
+- A captured fisherman reports Daenerys's departure on dragonback, marking Victarion's intelligence gap versus Dany's true location: "The silver queen is gone... She flew away upon her dragon, beyond the Dothraki sea." (adwd-victarion-01.md:65) [Victarion's intel-gap re Daenerys]
 
 ## Edges
 
