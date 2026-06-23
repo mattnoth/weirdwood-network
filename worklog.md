@@ -34,7 +34,7 @@ This is your project memory. When you come back after a break, **STATUS — at a
 - **graph-enrichment** — logged in THIS file (`worklog.md`), global **S-numbers**; enrichment phase, continue prompt `progress/continue-prompts/2026-06-29-enrichment-phase.md`.
 - **D&E-Pass-1** — logged in its **own** file → **`worklog-dunk-egg.md`** (numbered **DE-N**); continue prompt `progress/continue-prompts/2026-06-29-dunk-egg-pass1-smoke.md`. *(Dateless pointer — see that file for live status; never mirror its state here.)*
 
-Parallel-safe (different files). The global S-number is **graph/meta-only**; the old cross-track write-order tiebreaker is retired (split 2026-06-22, S132c).
+Parallel-safe (different files). The global S-number is **graph/meta-only**; the old cross-track write-order tiebreaker is retired (split 2026-06-22, S132c). **Running them isolated:** `working/runbooks/parallel-sessions-worktrees.md` — shared tree + stage-by-path is the default; reach for a `git worktree` only if two parallel sessions ever need to write the same area.
 
 **SHIPPED**
 - Pass 1 mechanical extraction: **344/344 chapters, all 5 books** (done 2026-05-06, all Opus)
