@@ -120,3 +120,11 @@ Thousands of [sparrows](wiki:Sparrow) in [King's Landing](wiki:King's_Landing) a
 > Some of it can be difficult to do. I mean the Red Wedding was the hardest thing I ever wrote. I wrote [the entire book](wiki:A_Storm_of_Swords), I skipped over the Red Wedding and wrote all the way to the end, and then I came back and did the Red Wedding, because it was just emotionally difficult to do that. But you know, hopefully, if it's hard to write, it'll be hard to read, too. It’ll affect the reader emotionally. I mean if the reader is just reading the book and terrible things happen, and they just put it aside and say, “What’s for dinner,” you’ve kind of failed. Your characters haven't achieved any reality here. If sad things happen in the book, the readers should be sad about them. And that does involve a certain amount of emotional vulnerability on the part of the writer.(wiki:Red_Wedding.cite_ref-44)
 >
 > —[George R. R. Martin](wiki:George_R._R._Martin)
+
+> half the musicians had crossbows in their hands instead of drums or lutes
+
+— Catelyn Stark POV, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:103`) — book-cite overlay (S134 harvest-consume); the moment the slaughter begins in the great hall
+
+> Dacey Mormont, who seemed to be the only woman left in the hall besides Catelyn, stepped up behind Edwyn Frey, and touched him lightly on the arm as she said something in his ear. Edwyn wrenched himself away from her with unseemly violence. "No," he said, too loudly. "I'm done with dancing for the nonce." Dacey paled and turned away.
+
+— Catelyn Stark POV, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:97`) — book-cite overlay (S134 harvest-consume); Dacey Mormont's rebuff by Edwyn Frey, the foreshadowing beat that tips Catelyn off to the trap

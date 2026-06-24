@@ -54,4 +54,8 @@ Magister [Illyrio Mopatis](wiki:Illyrio_Mopatis) has plates of snails served to 
 Aegon: Be careful, ser. The other squires say Ser [Uthor](wiki:Uthor_Underleaf) has a good seat. And he's quick. Duncan: Quick? He has a snail on his shield. How quick can he be?(wiki:Snail.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 A snail hides in his shell, Dunk remembered.(wiki:Snail.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 Think on my offer, ser. The snail may leave a trail of slime behind him, but a little slime will do a man no harm… whilst if you dance with [dragons](wiki:Dragon), you must expect to burn.(wiki:Snail.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> The first dish was a creamy soup of mushrooms and buttered snails, served in gilded bowls. Tyrion had scarcely touched the breakfast, and the wine had already gone to his head, so the food was welcome.
+
+— ASOS Chapter 60 (Purple Wedding), `sources/chapters/asos/asos-tyrion-08.md:133`
+
 Sansa had never eaten snails before; [Joffrey](wiki:Joffrey_Baratheon) showed her how to get the snail out of the shell, and fed her the first sweet morsel himself.(wiki:Snail.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)

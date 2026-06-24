@@ -73,4 +73,20 @@ I'd skin you alive for a cup of wine, girl.(wiki:Wine.cite_ref-Rasos74.7B.7B.7B3
 You see the wonders than can be worked with lies and [Arbor gold](wiki:Arbor_gold)?(wiki:Wine.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-0)
 Will you take a cup of Lord [Hewett's](wiki:Humfrey_Hewett) wine? There's no wine half so sweet as wine taken from a beaten foe.(wiki:Wine.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_57-0)
 The world is full of wine.(wiki:Wine.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-8)
-Japes are one way to keep the fear away. Wine's another.(wiki:Wine.cite_ref-58)
+Japes are one way to keep the fear away. Wine's another.
+
+> "Wine," a voice answered. … He thrust a wineskin into Ned's hands. … "Not the equal of the vintage you offered me the night of the tourney, but no more poisonous than most," he concluded, wiping his lips.
+
+— AGOT Chapter 48 (Eddard XV), `sources/chapters/agot/agot-eddard-15.md:59`
+
+> When Pycelle was gone, Ned called for a cup of honeyed wine. That clouded the mind as well, yet not as badly. He needed to be able to think.
+
+— AGOT Chapter 45 (Eddard XII), `sources/chapters/agot/agot-eddard-12.md:33`
+
+> Cersei beckoned to her page for another cup of wine, a golden vintage from the Arbor, fruity and rich.
+
+— ACOK Chapter 52 (Sansa VI), `sources/chapters/acok/acok-sansa-06.md:19`
+
+> The queen took a flagon of sweet plum wine from a passing serving girl and filled Sansa's cup. "Drink," she commanded coldly. … Sansa lifted the cup to her lips and took a sip. The wine was cloyingly sweet, but very strong.
+
+— ACOK Chapter 52 (Sansa VI), `sources/chapters/acok/acok-sansa-06.md:101`(wiki:Wine.cite_ref-58)

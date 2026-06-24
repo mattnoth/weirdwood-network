@@ -37,3 +37,11 @@ Such a small thing to hold the power of life and death.(wiki:Strangler.cite_ref-
 They said a victim's face turned as purple as the little crystal seed from which his death was grown, but so too did a man choking on a morsel of food.(wiki:Strangler.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 I dreamt of a [maid](wiki:Sansa_Stark) at a [feast](wiki:Purple_Wedding) with purple serpents in her hair, venom dripping from their fangs.(wiki:Strangler.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 Sansa: You said I must wear the hair net. The [silver](wiki:Silver) net with... what sort of stones are those?Dontos: [Amethysts](wiki:Amethyst). Black amethysts from [Asshai](wiki:Asshai), my lady.Sansa: They're no amethysts. Are they? Are they? You lied.Dontos: Black amethysts. There was [magic](wiki:Magic) in them.Sansa: There was murder in them!(wiki:Strangler.cite_ref-Rasos61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+> "They're no amethysts. Are they?... You lied." / "There was magic in them." / "There was murder in them!"
+
+— Sansa and Dontos, ASOS Sansa V, `sources/chapters/asos/asos-sansa-05.md:39`
+
+> "When I was a boy at the Citadel, my teachers named it simply the strangler."
+
+— Pycelle (at Tyrion's trial), ASOS Tyrion IX, `sources/chapters/asos/asos-tyrion-09.md:251`

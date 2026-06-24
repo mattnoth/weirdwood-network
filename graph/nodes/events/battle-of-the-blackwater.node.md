@@ -132,3 +132,15 @@ During [the wedding](wiki:Purple_Wedding) of Joffrey and Margaery, [Hamish the H
 > Thousands sailed up the [Blackwater Rush](wiki:Blackwater_Rush), and hundreds came back, Davos reflected. My sons did not die alone. May the Mother have mercy on them all.
 >
 > —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts, returning to Dragonstone, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:153`)
+
+> Fifty feet high, a swirling demon of green flame danced upon the river. It had a dozen hands, in each a whip, and whatever they touched burst into fire.
+
+— Davos Seaworth POV, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:137`) — book-cite overlay (S134 harvest-consume); the wildfire demon after the Swordfish ignites the hulk; Davos treading water watching his fleet consumed
+
+> From inside her Davos saw green gushing from a thousand broken jars, poison from the entrails of a dying beast, glistening, shining, spreading across the surface of the river…
+
+— Davos Seaworth POV, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:131`) — book-cite overlay (S134 harvest-consume); the moment of ignition, Swordfish ramming the wildfire hulk
+
+> A terrible beauty. Like dragonfire. Tyrion wondered if Aegon the Conqueror had felt like this as he flew above his Field of Fire.
+
+— Tyrion Lannister POV watching the river burn, ACOK Tyrion XIII (`sources/chapters/acok/acok-tyrion-13.md:15`) — book-cite overlay (S134 harvest-consume); the wildfire compared to dragonfire; the Field of Fire invoked

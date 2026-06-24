@@ -30,6 +30,10 @@ Young(wiki:Balon_Swann.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-
 
 Balon's [greathelm](wiki:Greathelm) is decorated with wide white wings.(wiki:Balon_Swann.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) The trappings of his [horse](wiki:Horse) display battling black-and-white [swans](wiki:Swan).(wiki:Balon_Swann.cite_ref-Racok61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) The [silver](wiki:Silver) brooch that clasps his cloak is decorated with [ivory](wiki:Ivory) and [onyx](wiki:Onyx) swans.(wiki:Balon_Swann.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4) Balon is good with a [lance](wiki:Lance), better with a [morningstar](wiki:Morningstar), and exceptional with a [bow](wiki:Bow).(wiki:Balon_Swann.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)(wiki:Balon_Swann.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)(wiki:Balon_Swann.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 
+> Every bit of Ser Balon was spattered with gore and smudged by smoke. He raised his mace to point downriver. Bits of brain and bone clung to its head. "He's more a spotted knight than a white one," Tyrion thought inanely.
+
+— Balon Swann during the Blackwater river fighting; Tyrion's POV, ACOK Tyrion XIV, `sources/chapters/acok/acok-tyrion-14.md:45`
+
 ## Narrative Arc
 
 ### A Game of Thrones

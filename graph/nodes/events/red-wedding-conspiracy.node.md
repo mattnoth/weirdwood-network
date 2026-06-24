@@ -36,6 +36,12 @@ After Robb Stark breaks his marriage pact, Lord Walder Frey turns to revenge. He
 
 — Tywin Lannister, ASOS Tyrion VI (`sources/chapters/asos/asos-tyrion-06.md:203`)
 
+## Book Citations
+
+> Lord Walder had ordered the slaughter of the Starks at Roslin's wedding, but it had been Lame Lothar who had plotted it out with Roose Bolton, all the way down to which songs would be played.
+
+— Merrett Frey's POV, ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:31`) — book-cite upgrade: names Lothar as the operative planner alongside Bolton (the note in Identity that Lothar's role is "wiki / AFFC only" should be re-evaluated against this ASOS Epilogue attestation)
+
 ## Foreshadowing
 
 > One of Robb's white banners lay on the ground, and one of the knights turned his horse and trampled over the direwolf as he spurred toward the gate. Several others did the same. [...] She thought she recognized Ser Perwyn Frey [...] and his bastard half brother Martyn Rivers as well [...] Close to forty men poured out through the castle gates [...]

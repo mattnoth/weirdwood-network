@@ -2313,6 +2313,7 @@
     "mutiny at craster's keep": "mutiny-at-crasters-keep",
     "mutiny at crasters keep": "mutiny-at-crasters-keep",
     "mutiny plan reviewed": "mutiny-plan-reviewed",
+    "my giant of lannister": "shae-testifies-against-tyrion-at-trial",
     "mycah assassinated": "death-of-mycah",
     "mycah death": "death-of-mycah",
     "mycah execution": "death-of-mycah",
@@ -2834,6 +2835,10 @@
     "shadow assassination of renly": "shadow-assassination-of-renly",
     "shadow war": "shadow-war",
     "shae in tywin's bed": "tyrion-kills-shae-in-tywins-bed",
+    "shae testifies against tyrion at his trial": "shae-testifies-against-tyrion-at-trial",
+    "shae testifies against tyrion at trial": "shae-testifies-against-tyrion-at-trial",
+    "shae the final witness": "shae-testifies-against-tyrion-at-trial",
+    "shae's false testimony": "shae-testifies-against-tyrion-at-trial",
     "showdown at the tower of joy": "combat-at-the-tower-of-joy",
     "siege of astapor": "siege-of-astapor",
     "siege of darry": "siege-of-darry",
@@ -3109,6 +3114,7 @@
     "tyrion shoots tywin": "assassination-of-tywin-lannister",
     "tyrion's battle dream": "tyrion-s-battle-dream",
     "tyrion's escape from the dungeons": "jaime-frees-tyrion-from-the-black-cells",
+    "tyrion's escape into exile": "varys-smuggles-tyrion-out-of-kings-landing",
     "tyrion's sortie at the king's gate": "tyrion-s-sortie-at-the-king-s-gate",
     "tyrion-arrested-for-joffreys-murder": "tyrion-accused-of-poisoning-joffrey",
     "tyrion-demands-trial-by-combat": "trial-of-tyrion-lannister",
@@ -3164,6 +3170,9 @@
     "vanguard breaks stannis": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
     "varys confirms cersei s role in robert s death": "varys-confirms-cersei-s-role-in-robert-s-death",
     "varys confirms cersei's role in robert's death": "varys-confirms-cersei-s-role-in-robert-s-death",
+    "varys smuggles tyrion out of king's landing": "varys-smuggles-tyrion-out-of-kings-landing",
+    "varys smuggles tyrion out of kings landing": "varys-smuggles-tyrion-out-of-kings-landing",
+    "varys spirits tyrion away": "varys-smuggles-tyrion-out-of-kings-landing",
     "varys's plan to free tyrion": "jaime-frees-tyrion-from-the-black-cells",
     "victarion admits euron s role in his wife s death": "victarion-admits-euron-s-role-in-his-wife-s-death",
     "victarion admits euron's role in his wife's death": "victarion-admits-euron-s-role-in-his-wife-s-death",
@@ -9963,21 +9972,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-23T22:44:44.337244+00:00",
+  "computed_at": "2026-06-24T02:18:49.238881+00:00",
   "stats": {
     "ambiguous_collisions": 344,
     "source_breakdown": {
-      "node-frontmatter-alias": 586,
-      "node-name": 681,
-      "node-slug": 681,
+      "node-frontmatter-alias": 591,
+      "node-name": 683,
+      "node-slug": 683,
       "victim-index": 2820,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 5670,
-    "unambiguous_lookups": 3648,
-    "unique_phrases": 3992
+    "total_entries_scanned": 5679,
+    "unambiguous_lookups": 3657,
+    "unique_phrases": 4001
   },
   "version": "v2"
 }

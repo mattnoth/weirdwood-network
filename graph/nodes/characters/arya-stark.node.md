@@ -170,6 +170,10 @@ However, as the play is about to begin, Arya notices that one of Harys's guards 
 
 ### Quotes about Arya
 
+> "Dead," he shouted back at her. "Do you think they'd slaughter his men and leave him alive?"
+
+— Sandor Clegane to Arya Stark (telling her Robb is dead), ASOS Arya XI (`sources/chapters/asos/asos-arya-11.md:45`)
+
 > Ah, Arya. You have a wildness in you, child. The '[wolf blood](wiki:Wolf_blood),' [my father](wiki:Rickard_Stark) used to call it. [Lyanna](wiki:Lyanna_Stark) had a touch of it, and my brother [Brandon](wiki:Brandon_Stark) more than a touch. It brought them both to an early grave. Lyanna might have carried a sword, if my lord father had allowed it. You remind me of her sometimes. You even look like her.(wiki:Arya_Stark.cite_ref-Ragot22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 >
 > —[Eddard Stark](wiki:Eddard_Stark) to Arya

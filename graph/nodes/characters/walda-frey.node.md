@@ -15,5 +15,11 @@ pass_origin: pass2-wiki-deterministic
 
 Walda Frey is a character from the AWOIAF wiki.
 
+## Quotes
+
+> "I weigh six stone more than Fair Walda, but that was the first time I was glad of it. I'm Lady Bolton now and my cousin's still a maid, and she'll be nineteen soon, poor thing."
+
+— Walda Frey (Lady Bolton) to Ser Wendel Manderly, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:29`)
+
 ## Edges
 

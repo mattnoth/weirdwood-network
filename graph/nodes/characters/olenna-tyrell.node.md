@@ -98,6 +98,10 @@ Tommen chooses the name *[Lady Olenna](wiki:Lady_Olenna)* for one of the [new dr
 >
 > —Olenna to [Sansa Stark](wiki:Sansa_Stark)
 
+> "The wind has been at your hair, though." The little old woman reached up and fussed at the loose strands, tucking them back into place and straightening Sansa's hair net. "I was very sorry to hear about your losses," she said as she tugged and fiddled.
+
+— Olenna at the Purple Wedding feast, adjusting Sansa's hairnet — the moment the Strangler crystal was lifted from the net, ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:101`
+
 ### Quotes about Olenna
 
 > **Sansa**: The Queen of Thorns, she's called. Isn't that right? **Loras**: It is. You'd best not use that name in her presence, though, or you're like to get pricked.(wiki:Olenna_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-23)

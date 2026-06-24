@@ -80,3 +80,9 @@ Cersei has Qyburn torture the [Blue Bard](wiki:Blue_Bard) in the black cells, to
 ### A Dance with Dragons
 
 Falyse Stokeworth has died screaming in the black cells.(wiki:Black_cells.cite_ref-Radwdappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)
+
+## Quotes
+
+> The straw on the floor stank of urine. There was no window, no bed, not even a slop bucket. He remembered walls of pale red stone festooned with patches of nitre, a grey door of splintered wood, four inches thick and studded with iron. He had seen them, briefly, a quick glimpse as they shoved him inside. Once the door had slammed shut, he had seen no more. The dark was absolute.
+
+— Eddard Stark's recollection of his cell, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:11`) — book-cite overlay (S134 harvest-consume); the physical description of a black cell from a prisoner's perspective

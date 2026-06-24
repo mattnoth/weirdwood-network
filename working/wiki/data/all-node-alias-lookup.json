@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-23T22:44:44.526320+00:00",
+  "computed_at": "2026-06-24T02:18:49.429955+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -4221,6 +4221,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "assassin's dagger": [
+      {
+        "canonical_slug": "catspaw-dagger",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "assassination attempt at vaes dothrak": [
@@ -8519,6 +8527,22 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "blackberry tart": [
+      {
+        "canonical_slug": "blackberry-tart",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "blackberry tarts": [
+      {
+        "canonical_slug": "blackberry-tart",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "blackbird": [
       {
         "canonical_slug": "blackbird",
@@ -8709,6 +8733,22 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "blancmange": [
+      {
+        "canonical_slug": "blandissory",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "blandissory": [
+      {
+        "canonical_slug": "blandissory",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "blane": [
@@ -10549,6 +10589,14 @@
         "source": "all-node-alias:locations"
       }
     ],
+    "brawn": [
+      {
+        "canonical_slug": "leche-of-brawn",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "braxton beesbury": [
       {
         "canonical_slug": "braxton-beesbury",
@@ -11691,6 +11739,14 @@
         "source": "all-node-slug:medical"
       }
     ],
+    "buttermilk": [
+      {
+        "canonical_slug": "buttermilk",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "butters": [
       {
         "canonical_slug": "butterbumps",
@@ -12605,6 +12661,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "catspaw dagger": [
+      {
+        "canonical_slug": "catspaw-dagger",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
+      }
+    ],
     "causeway": [
       {
         "canonical_slug": "causeway",
@@ -13229,6 +13293,14 @@
         "source": "all-node-name:artifacts"
       }
     ],
+    "chain of golden hands": [
+      {
+        "canonical_slug": "hands-chain-of-office",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
     "chains": [
       {
         "canonical_slug": "chain",
@@ -13385,6 +13457,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "chestnut soup": [
+      {
+        "canonical_slug": "chestnut-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "chestnut tree": [
@@ -16227,6 +16307,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "creamy chestnut soup": [
+      {
+        "canonical_slug": "chestnut-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "cregan karstark": [
       {
         "canonical_slug": "cregan-karstark",
@@ -16441,6 +16529,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "crossbow on the wall": [
+      {
+        "canonical_slug": "tywins-crossbow",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "crossbow ridge": [
@@ -21229,6 +21325,14 @@
         "node_category": "materials",
         "node_type": "object.material",
         "source": "all-node-slug:materials"
+      }
+    ],
+    "dragonbone dagger": [
+      {
+        "canonical_slug": "catspaw-dagger",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "dragonglass": [
@@ -29701,6 +29805,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "gentle mother": [
+      {
+        "canonical_slug": "gentle-mother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "all-node-slug:texts"
+      }
+    ],
+    "gentle mother font of mercy": [
+      {
+        "canonical_slug": "gentle-mother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "all-node-alias:texts"
+      }
+    ],
     "geoff": [
       {
         "canonical_slug": "geoff",
@@ -33791,6 +33911,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "ham": [
+      {
+        "canonical_slug": "honeyed-ham",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "hamish the harper": [
       {
         "canonical_slug": "hamish-the-harper",
@@ -33901,12 +34029,36 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "hand's chain of office": [
+      {
+        "canonical_slug": "hands-chain-of-office",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
+      }
+    ],
+    "hand's golden chain": [
+      {
+        "canonical_slug": "hands-chain-of-office",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
     "hand's tourney": [
       {
         "canonical_slug": "the-hands-tourney",
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "hands chain of office": [
+      {
+        "canonical_slug": "hands-chain-of-office",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
       }
     ],
     "hands tourney": [
@@ -36337,6 +36489,22 @@
         "source": "all-node-slug:foods"
       }
     ],
+    "honeyed ham": [
+      {
+        "canonical_slug": "honeyed-ham",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "honeyed pork": [
+      {
+        "canonical_slug": "honeyed-ham",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "honeyfingers": [
       {
         "canonical_slug": "honeyfingers",
@@ -36949,6 +37117,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "hound's white cloak": [
+      {
+        "canonical_slug": "sandor-cleganes-white-cloak",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "hour of the wolf": [
@@ -49163,6 +49339,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "lamprey pie": [
+      {
+        "canonical_slug": "lamprey-pie",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "lamprey pies": [
+      {
+        "canonical_slug": "lamprey-pie",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "lance": [
       {
         "canonical_slug": "lance",
@@ -49821,6 +50013,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "leche": [
+      {
+        "canonical_slug": "leche-of-brawn",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "leche of brawn": [
+      {
+        "canonical_slug": "leche-of-brawn",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "leech": [
       {
         "canonical_slug": "leech",
@@ -49835,6 +50043,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "leek soup": [
+      {
+        "canonical_slug": "leek-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "left hand lew": [
@@ -54827,6 +55043,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "lord tywin's crossbow": [
+      {
+        "canonical_slug": "tywins-crossbow",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "lord tywin's doom": [
@@ -61153,6 +61377,14 @@
         "source": "all-node-slug:religions"
       }
     ],
+    "mother's hymn": [
+      {
+        "canonical_slug": "gentle-mother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "all-node-alias:texts"
+      }
+    ],
     "mother's men": [
       {
         "canonical_slug": "mothers-men",
@@ -61685,6 +61917,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "my giant of lannister": [
+      {
+        "canonical_slug": "shae-testifies-against-tyrion-at-trial",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "my lady wife": [
@@ -63583,12 +63823,36 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "oberyn martell's spear": [
+      {
+        "canonical_slug": "oberyn-spear",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
+      }
+    ],
+    "oberyn spear": [
+      {
+        "canonical_slug": "oberyn-spear",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
+      }
+    ],
     "oberyn viper": [
       {
         "canonical_slug": "oberyn-martell",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "oberyn's poisoned spear": [
+      {
+        "canonical_slug": "oberyn-spear",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "observations upon the recent blood letting on the stepstones": [
@@ -67141,6 +67405,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "porridge and apples": [
+      {
+        "canonical_slug": "porridge",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "porridge and honey": [
+      {
+        "canonical_slug": "porridge",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "port moraq": [
       {
         "canonical_slug": "port-moraq",
@@ -70647,6 +70927,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "red viper's spear": [
+      {
+        "canonical_slug": "oberyn-spear",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "red walder": [
@@ -74873,12 +75161,28 @@
         "source": "node-name"
       }
     ],
+    "sandor clegane's white cloak": [
+      {
+        "canonical_slug": "sandor-cleganes-white-cloak",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
+      }
+    ],
     "sandor cleganes trial by combat": [
       {
         "canonical_slug": "sandor-cleganes-trial-by-combat",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "sandor cleganes white cloak": [
+      {
+        "canonical_slug": "sandor-cleganes-white-cloak",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
       }
     ],
     "sandor frey": [
@@ -74895,6 +75199,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "sandor's kingsguard cloak": [
+      {
+        "canonical_slug": "sandor-cleganes-white-cloak",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "sandpiper": [
@@ -76636,6 +76948,38 @@
     "shae in tywin's bed": [
       {
         "canonical_slug": "tyrion-kills-shae-in-tywins-bed",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "shae testifies against tyrion at his trial": [
+      {
+        "canonical_slug": "shae-testifies-against-tyrion-at-trial",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "shae testifies against tyrion at trial": [
+      {
+        "canonical_slug": "shae-testifies-against-tyrion-at-trial",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "shae the final witness": [
+      {
+        "canonical_slug": "shae-testifies-against-tyrion-at-trial",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "shae's false testimony": [
+      {
+        "canonical_slug": "shae-testifies-against-tyrion-at-trial",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -78639,6 +78983,14 @@
         "node_category": "prophecies",
         "node_type": "concept.prophecy",
         "source": "all-node-slug:prophecies"
+      }
+    ],
+    "song of the mother": [
+      {
+        "canonical_slug": "gentle-mother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "all-node-alias:texts"
       }
     ],
     "song of the sea how the lands were severed": [
@@ -82211,6 +82563,14 @@
         "source": "all-node-slug:medical"
       }
     ],
+    "sweet biscuits": [
+      {
+        "canonical_slug": "buttermilk",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "sweet cersei": [
       {
         "canonical_slug": "sweet-cersei",
@@ -83113,6 +83473,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "tart": [
+      {
+        "canonical_slug": "blackberry-tart",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "tarth": [
       {
         "canonical_slug": "tarth",
@@ -83871,6 +84239,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "thin leek soup": [
+      {
+        "canonical_slug": "leek-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "thing that came in the night": [
@@ -86883,6 +87259,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "tyrion's escape into exile": [
+      {
+        "canonical_slug": "varys-smuggles-tyrion-out-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tyrion's mushrooms": [
       {
         "canonical_slug": "tyrions-mushrooms",
@@ -87211,12 +87595,28 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "tywin's crossbow": [
+      {
+        "canonical_slug": "tywins-crossbow",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
+      }
+    ],
     "tywin's honors ceremony after the blackwater": [
       {
         "canonical_slug": "tywin-named-savior-of-the-city",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "tywins crossbow": [
+      {
+        "canonical_slug": "tywins-crossbow",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
       }
     ],
     "ugly girl": [
@@ -88305,6 +88705,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "valyrian steel dagger": [
+      {
+        "canonical_slug": "catspaw-dagger",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
     "valyrian-glyphs": [
       {
         "canonical_slug": "high-valyrian",
@@ -88429,6 +88837,30 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "varys smuggles tyrion out of king's landing": [
+      {
+        "canonical_slug": "varys-smuggles-tyrion-out-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "varys smuggles tyrion out of kings landing": [
+      {
+        "canonical_slug": "varys-smuggles-tyrion-out-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "varys spirits tyrion away": [
+      {
+        "canonical_slug": "varys-smuggles-tyrion-out-of-kings-landing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "varys the spider": [
@@ -93829,8 +94261,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19153,
-    "unique_phrases": 11627
+    "total_node_entries": 19222,
+    "unique_phrases": 11681
   },
   "version": "v1"
 }

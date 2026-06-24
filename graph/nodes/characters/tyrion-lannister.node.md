@@ -69,6 +69,16 @@ Tyrion generally receives little respect and is often mocked. His deformity is t
 
 At a young age, Tyrion married [Tysha](wiki:Tysha), a commoner, but eventually Jaime told him the girl was a [whore](wiki:Prostitution) he had paid to take Tyrion's virginity. Tyrion was crushed, and the memory of her has long haunted him.(wiki:Tyrion_Lannister.cite_ref-Racok29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1) Believing that no girl could ever truly love him for who he was,(wiki:Tyrion_Lannister.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)(wiki:Tyrion_Lannister.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)(wiki:Tyrion_Lannister.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0) he began to seek his pleasure with prostitutes.(wiki:Tyrion_Lannister.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0) Tywin felt this brought more shame on their house,(wiki:Tyrion_Lannister.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-2) further deteriorating their relationship.
 
+## Appearances & Description (battle, Blackwater)
+
+> His big red stallion wore crinet and chamfron. Crimson silk draped his hindquarters, over a coat of mail. The high saddle was gilded. Podrik Payne handed up helm and shield, heavy oak emblazoned with a golden hand on red, surrounded by small golden lions.
+
+— Tyrion riding out to lead the Blackwater sortie, ACOK Tyrion XIII, `sources/chapters/acok/acok-tyrion-13.md:83`
+
+> The gash was long and crooked, starting a hair under his left eye and ending on the right side of his jaw. Three-quarters of his nose was gone, and a chunk of his lip. Someone had sewn the torn flesh together with catgut, and their clumsy stitches were still in place across the seam of raw, red, half-healed flesh.
+
+— Tyrion sees his face for the first time after Mandon Moore's slash at the Blackwater, ACOK Tyrion XV, `sources/chapters/acok/acok-tyrion-15.md:95`
+
 ## Narrative Arc
 
 ### A Game of Thrones
@@ -228,6 +238,30 @@ While in the Second Sons, Tyrion attempts to sway Brown Ben Plumm's mind over a 
 > "Cersei is a lying whore, she's been fucking Lancel and Osmund Kettleblack and probably Moon Boy for all I know. And I am the monster they all say I am. Yes, I killed your vile son."
 >
 > — sources/chapters/asos/asos-tyrion-11.md:119 · Tyrion's parting bombshell to Jaime as he leaves the black cells — both confirms Joffrey's murder and discloses Cersei's adultery, the revelation that detonates the twins' bond.  _(capture: harvest pass, quote)_
+
+> "Before or after I tell her how we murdered her mother and her brother?"
+
+— Tyrion to Tywin (on when Sansa might "be at her most fertile"), ASOS Tyrion VI, `sources/chapters/asos/asos-tyrion-06.md:217`
+
+> "Those are brave men. Let's go kill them."
+
+— Tyrion to Ser Balon Swann, watching Stannis's men crossing the wrecked bridge of galleys on the Blackwater, ACOK Tyrion XIV, `sources/chapters/acok/acok-tyrion-14.md:51`
+
+> He shook his axe at the stars and heard them call out "Halfman! Halfman!" Tyrion felt drunk.
+
+— Tyrion's war cry during the Blackwater sortie, arm red to the elbow, ACOK Tyrion XIV, `sources/chapters/acok/acok-tyrion-14.md:37` (see full context of Halfman chant at :31)
+
+> Of Joffrey's death I am innocent. I am guilty of a more monstrous crime. I was born. I lived. I am guilty of being a dwarf, I confess it. And no matter how many times my good father forgave me, I have persisted in my infamy.
+
+— Tyrion at his trial (weaponized self-condemnation, pivoting to demand trial by battle), ASOS Tyrion X, `sources/chapters/asos/asos-tyrion-10.md:57`
+
+> "I wish I had enough poison for you all. You make me sorry that I am not the monster you would have me be, yet there it is. I am innocent, but I will get no justice here. You leave me no choice but to appeal to the gods. I demand trial by battle."
+
+— Tyrion to the trial hall, ASOS Tyrion X, `sources/chapters/asos/asos-tyrion-10.md:65`
+
+> My work, thought Tyrion Lannister. They died at my command.
+
+— Tyrion's post-Blackwater fever dream, walking through the grey world of the dead on the tourney fields, ACOK Tyrion XV, `sources/chapters/acok/acok-tyrion-15.md:13`
 
 ## Edges
 

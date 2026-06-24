@@ -12,13 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-24-next-arc-enrichment.md` | 2026-06-24 | Enrichment: next dip (board-pick) | **LIVE** (graph) | Sonnet 4.6 lenses/verify + Opus 4.8 orch | **NEW S139.** 5 dips shipped (RR/RW/PW/Ned/Blackwater). **No pre-picked target** — STEP 0 forks: (1) continue the L1 descent (board-pick: Tywin's death / Sack of KL [check double-dip] / Cersei's downfall / Brienne→Stoneheart) or (2) the L2-granular planning session (Matt S130). Recommend fork 1; confirm with Matt. Then run the proven 4-lens machine. Candidates + state: `worklog.md` S138 "What's next" + `working/arc-enrichment-backlog.md`. |
+| `2026-06-25-next-arc-enrichment-s140.md` | 2026-06-25 | Enrichment: next dip OR L2-planning | **LIVE** (graph) | Sonnet 4.6 lenses/verify + Opus 4.8 orch | **NEW S140.** 6 dips shipped (RR/RW/PW/Ned/Blackwater/**Tywin's-Death S139**). Harvest queue DRAINED S139. **No pre-picked target** — STEP 0 forks: (1) continue the L1 descent — only 2 enrich-ready arcs left (**Cersei's downfall** S114 spine, **Brienne→Stoneheart** S115 spine; Sack-of-KL = double-dip, check overlap) or (2) the **L2-granular planning session** (Matt S130 — now a genuine option, the L1 round is winding down). **Confirm the pick with Matt** (don't auto-assume fork 1). Then run the proven 4-lens machine. State: `worklog.md` S139 "What's next" + `working/arc-enrichment-backlog.md`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 53 files)
+## Archive (`archive/` subfolder — 54 files)
 
+> **`2026-06-24-next-arc-enrichment.md`** — archived S139. **DONE (S139):** 6th major-arc enrichment dip = **Tywin's Death pass 1** (Fork-1 board pick, Matt). +5 nodes / +34 edges (22,615→22,649). Built the off-spine substrate: the murder instruments (crossbow/Hand's-chain/Oberyn's-spear), the marquee `murder-of-elia MOTIVATES oberyn` cross-arc seam (Sack-of-KL→Tywin), `tywin DECEIVES tyrion` (Tysha lie), `tyrion-kills-shae ENABLES assassination` (→12-hop `--full-chain`), Shae's testimony reified, the escape→exile, the trial hub lit to 15-in. Line-check caught lenses mis-citing Shae's testimony to the wrong chapter. Fresh-verify 6C/5A/1R — dropped `oberyn POISONS gregor`+`manticore-venom` (ASOS unconfirmed) + the redundant testimony-CAUSES-kill. **Plus a full HARVEST PASS** (124 open → 0; 5 parallel disjoint-dir attachers; ~76 attaches + 12 nodes; 9 parked). Superseded as live by `2026-06-25-next-arc-enrichment-s140.md`.
 > **`2026-06-23-food-meal-harvest-RETRACTED.md`** — archived S137. **RETRACTED (never run):** I over-scoped Matt's "capture all meals maximally" (said in passing, in the CONTEXT of enrichment dips) into a standalone full-corpus food-harvest session sweeping all 5 books. Matt never asked for that. Maximal meal capture is a STANDING harvest-bar rule INSIDE each enrichment dip (split-the-bar), not a separate pass. Kept in archive as a record of the mistake; do NOT resurrect.
 > **`2026-06-23-enrichment-phase-s137-neds-downfall.md`** — archived S137. **DONE (S137):** 4th major-arc enrichment dip = **Ned's Downfall pass 1**. +12 edges / +0 nodes (22,562→22,574). Wired the conspiracy substrate: `ned-discovers... ENABLES arrest` (was islanded → 2-cause convergence on the spine), `cersei SUSPECTED_OF death-of-robert` (the strongwine), `petyr/varys/pycelle DECEIVES eddard`, witness substrate (`arya/varys/cersei WITNESS_IN execution`, `high-septon OFFICIATES confession` — first-use OFFICIATES), throne-room massacre kills. Independent fresh-verify 11C/1A/2R — dropped `varys-confirms ENABLES confession` (mistarget, narrow wine-reveal node) + backed out the whole Renly-offer node (semantic inversion). Synthesis caught `cersei-orders-the-SLEEPING-guards` = AFFC event (wrong book) + `littlefinger CAUSES arrest` (agency-collapse). 0 drift, 0 invented types. Superseded as live by the food/meal harvest track.
 > **`2026-06-23-enrichment-phase-s136.md`** — archived S136. **SUPERSEDED-by-`2026-06-23-enrichment-phase-s137-neds-downfall.md`.** The S136 session ran the prompt's STEP 1 (the 4th-arc board) → **unanimous Ned's Downfall** + codified the enrichment scope model (event-arc-vs-container), but **deferred the dip itself to S137** (Matt). The s137 prompt is the same machine with the board pre-resolved. Not a "done" — the dip moved forward a session.
@@ -71,13 +72,13 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > track's live prompt is the next enrichment dip (board-pick the arc first); the D&E Pass-1 track is PARKED. The
 > chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE (graph): `2026-06-24-next-arc-enrichment.md`** — enrichment phase; **5 major-arc dips shipped** (RR S133 + Red Wedding S134
-+ Purple Wedding S135 + Ned's Downfall S137 + **Blackwater S138**). **No pre-picked target** — the prompt's STEP 0 forks: (1) continue
-the L1 descent (board-pick: Tywin's death / Sack of KL [check double-dip] / Cersei's downfall / Brienne→Stoneheart — some need a
-spine-build first), or (2) the **L2-granular planning session** (Matt S130, scopes the sub-plot/character dip list). Recommend fork 1;
-confirm with Matt. Then run the proven 4-lens machine (lens 4 = existing-node↔existing-node causal-wiring is standing; SPLIT-THE-BAR
-harvest in-prompt). Do NOT launch the parked graph-wide causal track. Read the ledger's "scope model" section first. Fresh-verify;
-TWOW/gated-theory OUT. (**Sonnet 4.6 lenses/verify + Opus 4.8 orch**)
+**LIVE (graph): `2026-06-25-next-arc-enrichment-s140.md`** — enrichment phase; **6 major-arc dips shipped** (RR S133 + Red Wedding S134
++ Purple Wedding S135 + Ned's Downfall S137 + Blackwater S138 + **Tywin's Death S139**); harvest queue DRAINED S139. **No pre-picked
+target** — the prompt's STEP 0 forks: (1) continue the L1 descent — only **2 enrich-ready arcs left** (Cersei's downfall S114 spine,
+Brienne→Stoneheart S115 spine; Sack-of-KL = double-dip, check overlap), or (2) the **L2-granular planning session** (Matt S130 — now a
+genuine option, the L1 round is winding down). **Confirm the pick with Matt** (don't auto-assume fork 1). Then run the proven 4-lens
+machine (lens 4 = existing-node↔existing-node causal-wiring is standing; SPLIT-THE-BAR harvest in-prompt). Do NOT launch the parked
+graph-wide causal track; don't assert chapter-unconfirmed facts (S139 drop). Read the ledger's "scope model" first. (**Sonnet 4.6 lenses/verify + Opus 4.8 orch**)
 
 **PARKED (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — **PARKED by Matt 2026-06-23** (concurrent-with-enrichment
 was too confusing — revisit when fresh). Harness + v4 prompt DESIGNED S131; nothing run (smoke un-run). When un-parked:

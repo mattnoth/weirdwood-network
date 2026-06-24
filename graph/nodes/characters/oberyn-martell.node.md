@@ -96,6 +96,10 @@ After [Gregor Clegane](wiki:Gregor_Clegane)'s [skull](wiki:Mountain's_skull) has
 
 ### Quotes about Oberyn
 
+> "The day I fear a dwarf's wrath is the day I drown myself in a cask of red."
+
+— Oberyn to the judges at Tyrion's trial (dismissing Cersei's call for fetters), ASOS Tyrion IX, `sources/chapters/asos/asos-tyrion-09.md:231`
+
 > Oberyn has always been half-mad.(wiki:Oberyn_Martell.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)

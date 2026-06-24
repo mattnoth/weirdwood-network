@@ -32,6 +32,14 @@ Upon [Joffrey's death](wiki:Purple_Wedding), Widow's Wail passes to his younger 
 
 ## Quotes
 
+> "'Widow's Wail!' he cried. 'Yes! It shall make many a widow, too!'"
+
+— Joffrey naming the sword, ASOS Sansa IV, `sources/chapters/asos/asos-sansa-04.md:105`
+
+> "Ser Ilyn's greatsword was as long and wide as Ice, but it was too silvery-bright… 'What has Ser Ilyn done with my father's sword?'"
+
+— Tyrion/Sansa (Sansa recognizes Ice has been reforged into Widow's Wail), ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:275`
+
 Most [Valyrian steel](wiki:Valyrian_steel) was a grey so dark it looked almost black, as was true here as well. But blended into the folds was a red so deep as the grey. The two colors lapped over one another without ever touching, each ripple distinct, like waves of night and blood upon some steely shore.(wiki:Widow's_Wail.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 Widow's Wail! Yes! It shall make many a widow, too! And when I face my uncle [Stannis](wiki:Stannis_Baratheon) it will break [his magic sword](wiki:Lightbringer) clean in two.(wiki:Widow's_Wail.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 Addam: Have a care, Your Grace. [Valyrian steel](wiki:Valyrian_steel) is perilously sharp. Joffrey: I remember. Sharp! I told you, I am no stranger to Valyrian steel.(wiki:Widow's_Wail.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)

@@ -22,7 +22,13 @@ Dreamwine is a food or drink from the AWOIAF wiki.
 
 ### A Game of Thrones[ ]
 
-Maester [Vyman](wiki:Vyman) provides dreamwine and [milk of the poppy](wiki:Milk_of_the_poppy) to the ailing Lord [Hoster Tully](wiki:Hoster_Tully).(wiki:Dreamwine.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+Maester [Vyman](wiki:Vyman) provides dreamwine and [milk of the poppy](wiki:Milk_of_the_poppy) to the ailing Lord [Hoster Tully](wiki:Hoster_Tully).
+
+## Quotes
+
+> The queen commanded Maester Frenken to put her to bed with a cup of dreamwine. "Tears," she said scornfully to Sansa as the woman was led from the hall. "The woman's weapon, my lady mother used to call them."
+
+— ACOK Chapter 52 (Sansa VI), `sources/chapters/acok/acok-sansa-06.md:23`(wiki:Dreamwine.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 ### A Clash of Kings[ ]
 

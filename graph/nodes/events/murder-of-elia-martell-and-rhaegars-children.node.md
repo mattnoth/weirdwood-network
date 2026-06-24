@@ -36,3 +36,7 @@ During the Sack, Lannister men murdered Rhaegar Targaryen's family in the Red Ke
 > Ned had named that murder; Robert called it war. When he had protested that the young prince and princess were no more than babes, his new-made king had replied, "I see no babes. Only dragonspawn."
 
 — Eddard recalling the quarrel with Robert, AGOT Eddard II (`sources/chapters/agot/agot-eddard-02.md:71`)
+
+> Princess Elia of Dorne pleading for mercy as Rhaegar's heir was ripped from her breast and murdered before her eyes.
+
+— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — book-cite overlay (S134 harvest-consume); Dany's inherited image of the murder, transmitted through Viserys's narrative of the Sack

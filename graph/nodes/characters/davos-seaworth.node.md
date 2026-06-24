@@ -54,6 +54,10 @@ Davos is a slight man with brown eyes(wiki:Davos_Seaworth.cite_ref-Racokprologue
 
 Instead of the expensive attire of the lords of the [narrow sea](wiki:Narrow_sea), Davos wears a simple brown and green wool mantle,(wiki:Davos_Seaworth.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) or alternatively a blue tunic with old boots and brown breeches.(wiki:Davos_Seaworth.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2) Davos owns a brown cloak(wiki:Davos_Seaworth.cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) and a mantle of undyed wool fastened with a wooden clasp.(wiki:Davos_Seaworth.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3) Leather gloves serve to hide his shortened fingers.(wiki:Davos_Seaworth.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4) He rarely wears mail.(wiki:Davos_Seaworth.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
 
+> A jerkin of boiled leather and a pothelm at his feet were his only armor. At sea, heavy steel was as like to cost a man his life as to save it, he believed.
+
+— Davos at the helm of Black Betha on the eve of the Battle of the Blackwater, ACOK Davos III, `sources/chapters/acok/acok-davos-03.md:39`
+
 Once a notorious smuggler,(wiki:Davos_Seaworth.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7) Davos is looked down upon by most [lords](wiki:Lord).(wiki:Davos_Seaworth.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) He is known for his unvarnished honesty.(wiki:Davos_Seaworth.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)(wiki:Davos_Seaworth.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1) Davos follows the [Faith of the Seven](wiki:Faith_of_the_Seven), but he is not devout.(wiki:Davos_Seaworth.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) The Onion Knight is illiterate and does not speak [High Valyrian](wiki:High_Valyrian).(wiki:Davos_Seaworth.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
 ## Narrative Arc

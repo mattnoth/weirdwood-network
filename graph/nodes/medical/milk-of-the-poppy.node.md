@@ -63,3 +63,11 @@ After Prince [Quentyn Martell](wiki:Quentyn_Martell) is mortally wounded by [dra
 [The maester](wiki:Ballabar) poured a slow trickle down his throat. Tyrion swallowed, scarcely tasting. Too late, he realized the liquid was milk of the poppy. By the time the maester removed the funnel from his mouth, he was already spiralling back to sleep.(wiki:Milk_of_the_poppy.cite_ref-Racok67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 Maester, could I trouble you for some milk of the poppy? A thimble cup will suffice.(wiki:Milk_of_the_poppy.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
 I shall not walk that road again.(wiki:Milk_of_the_poppy.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
+
+> Grand Maester Pycelle lingered, his hands shaking as he offered the king a cup of thick white liquid. "The milk of the poppy, Your Grace," he said. "Drink. For your pain."
+
+— AGOT Eddard XIII, `sources/chapters/agot/agot-eddard-13.md:57`
+
+> Hurriedly Grand Maester Pycelle mixed him another draught of the milk of the poppy. This time the king drank deeply. His black beard was beaded with thick white droplets when he threw the empty cup aside.
+
+— AGOT Eddard XIII, `sources/chapters/agot/agot-eddard-13.md:103`

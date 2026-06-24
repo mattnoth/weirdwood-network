@@ -33,3 +33,7 @@ King Robert I Baratheon is mortally gored by a boar while hunting in the kingswo
 > "Oh, indeed. Cersei gave him the wineskins, and told him it was Robert's favorite vintage." … "It was not wine that killed the king. It was your mercy."
 
 — Varys, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:111`)
+
+> "I will give Lyanna your love, Ned. Take care of my children for me."
+
+— Robert Baratheon's last words to Eddard Stark, AGOT Eddard XIII (`sources/chapters/agot/agot-eddard-13.md:107`) — book-cite overlay (S134 harvest-consume); the dying king's final breath, naming Lyanna and asking Ned to guard his children

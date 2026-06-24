@@ -48,6 +48,14 @@ The cynical(wiki:Sandor_Clegane.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D
 
 The Hound regularly wears an olive-green cloak over plain, soot-dark armor,(wiki:Sandor_Clegane.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0) and a distinctive helm sculpted into the shape of a [snarling dog's head](wiki:Hound).(wiki:Sandor_Clegane.cite_ref-Ragot9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) He also sometimes wears a brown roughspun tunic and studded leather jerkin.(wiki:Sandor_Clegane.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2) He also has worn a red woolen tunic with a leather dog's head sewn on the front.(wiki:Sandor_Clegane.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-14) When wearing the white woolen cloak of the [Kingsguard](wiki:Kingsguard), he fastens it with a jeweled brooch.(wiki:Sandor_Clegane.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-3) Sandor wields a longsword,(wiki:Sandor_Clegane.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2) a warhammer,(wiki:Sandor_Clegane.cite_ref-Ragot51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0) and a dagger,(wiki:Sandor_Clegane.cite_ref-Racok62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1) and can wield an axe.(wiki:Sandor_Clegane.cite_ref-Rasos52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0) His stallion is a heavy courser named [Stranger](wiki:Stranger_(horse)).(wiki:Sandor_Clegane.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0) He has had at least one unnamed squire.(wiki:Sandor_Clegane.cite_ref-Ragot9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
+> The steel was scorched and dented, the left ear of the snarling hound sheared off. A gash above one eye had sent a wash of blood down across the Hound's old burn scars, masking half his face.
+
+— Sandor after multiple Blackwater sorties, at the King's Gate when Tyrion arrives, ACOK Tyrion XIII, `sources/chapters/acok/acok-tyrion-13.md:53`
+
+> He saw him for a moment, all black and green, the blood on his face dark as tar, his eyes glowing like a dog's in the sudden glare. Then the light faded and he was only a hulking darkness in a stained white cloak.
+
+— Sandor in Sansa's chamber on the night of the Blackwater, lit by wildfire flash, ACOK Sansa VII, `sources/chapters/acok/acok-sansa-07.md:67`
+
 ## Narrative Arc
 
 ### A Game of Thrones
@@ -163,6 +171,10 @@ With the [siege of Riverrun](wiki:Siege_of_Riverrun) ended, Lyle Crakehall tells
 > Bugger that. Bugger him. Bugger you.(wiki:Sandor_Clegane.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_58-1)
 >
 > —Sandor to the [Tickler](wiki:Tickler)
+
+> "I only know who's lost. Me."
+
+— Sandor to Sansa in her chamber on the night of the Blackwater, ACOK Sansa VII, `sources/chapters/acok/acok-sansa-07.md:73`
 
 ### Quotes about Sandor
 

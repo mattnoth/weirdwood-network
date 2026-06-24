@@ -60,6 +60,10 @@ Jon Snow's direwolf, [Ghost](wiki:Ghost), is aware that his littermate Grey Wind
 
 ### Quotes about Grey Wind
 
+> "So you sewed his head on Robb Stark's neck after both o' them were dead," said yellow cloak.
+
+— BWB member (yellow cloak), ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:163`)
+
 > She heard the crash of distant battle, and closer the wild howling of a wolf. Grey Wind, she remembered too late.
 >
 > — Catelyn Stark, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:113`)

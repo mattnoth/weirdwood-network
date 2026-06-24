@@ -144,6 +144,16 @@ In [White Harbor](wiki:White_Harbor), [Wylla Manderly](wiki:Wylla_Manderly) reca
 
 During the [walk of atonement](wiki:Walk_of_atonement) by [Cersei Lannister](wiki:Cersei_Lannister) through [King's Landing](wiki:King's_Landing), the face of one of the [smallfolk](wiki:Smallfolk) reminds her of Eddard.(wiki:Eddard_Stark.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_86-0)
 
+## Appearances & Description
+
+> He was dressed in a rich grey velvet doublet with a white wolf sewn on the front in beads, and a grey wool cloak trimmed with fur, but he was thinner than Arya had ever seen him, his long face drawn with pain. He was not standing so much as being held up; the cast over his broken leg was grey and rotten.
+
+— Arya's POV, AGOT Arya V (`sources/chapters/agot/agot-arya-05.md:137`)
+
+> The severed head had been dipped in tar to preserve it longer. Sansa looked at it calmly, not seeing it at all. It did not really look like Lord Eddard, she thought; it did not even look real.
+
+— Sansa's POV (Ned's head on the wall), AGOT Sansa VI (`sources/chapters/agot/agot-sansa-06.md:131`)
+
 ## Quotes
 
 ### Quotes by Eddard
@@ -237,6 +247,10 @@ During the [walk of atonement](wiki:Walk_of_atonement) by [Cersei Lannister](wik
 > Your father was a stubborn man as well. Honor, he called it. Well, honor has its costs, as Lord Eddard learned to his sorrow.(wiki:Eddard_Stark.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-1)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+
+> The lies we tell for love, he thought. May the gods forgive me.
+
+— Ned's thoughts (writing "my heir" rather than "my son Joffrey"), AGOT Eddard XIII (`sources/chapters/agot/agot-eddard-13.md:71`)
 
 > "Robert is not dead yet. The gods may spare him. If not, I shall convene the council to hear his final words and consider the matter of the succession, but I will not dishonor his last hours on earth by shedding blood in his halls and dragging frightened children from their beds."
 

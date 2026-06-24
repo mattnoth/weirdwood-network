@@ -82,6 +82,14 @@ With the exception of his mother, [Cersei Lannister](wiki:Cersei_Lannister), Jof
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Melisandre](wiki:Melisandre)
 
+> a thousand guests and seventy-seven courses, with singers and jugglers and mummers
+
+— Sansa Stark POV (pre-wedding morning), ASOS Sansa IV (`sources/chapters/asos/asos-sansa-04.md:33`) — book-cite overlay (S134 harvest-consume); Sansa's anticipation of the feast scale, distinct from Tyrion's accounting version
+
+> "My lady. Couldn't I come serve at table? I so want to see the pigeons fly out of the pie."
+
+— Shae to Sansa Stark, ASOS Tyrion VIII (`sources/chapters/asos/asos-tyrion-08.md:91`) — book-cite overlay (S134 harvest-consume); retrospective horror — Shae's innocent excitement about the very feast where Joffrey dies
+
 > Whenever she closed her eyes she saw [Joffrey](wiki:Joffrey_Baratheon) tearing at his collar, clawing at the soft skin of his throat, dying with flakes of pie crust on his lips and [wine](wiki:Wine) stains on his doublet. And the wind keening in the lines reminded her of the terrible thin sucking sound he'd made as he fought to draw in air.(wiki:Purple_Wedding.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
 >
 > —thoughts of [Sansa Stark](wiki:Sansa_Stark)

@@ -51,6 +51,18 @@ King Joffrey receives one of the new longswords from his grandfather Tywin as a 
 
 ## Quotes
 
+> "As he lifted the blade above his head, sunlight seemed to ripple and dance down the dark metal, glinting off an edge sharper than any razor. Ice, she thought, he has Ice!"
+
+— Arya, AGOT Arya V, `sources/chapters/agot/agot-arya-05.md:171`
+
+> "He carried Ice unsheathed. Her father had always cleaned the blade in the godswood after he took a man's head, Sansa recalled, but Ser Ilyn was not so fastidious. There was blood drying on the rippling steel, the red already fading to brown."
+
+— Sansa (Ilyn Payne holds Ice to execute the women if Stannis wins), ACOK Sansa VI, `sources/chapters/acok/acok-sansa-06.md:115`
+
+> "Ser Ilyn's greatsword was as long and wide as Ice, but it was too silvery-bright; Valyrian steel had a darkness to it, a smokiness in its soul. Sansa clutched his arm. 'What has Ser Ilyn done with my father's sword?'"
+
+— Tyrion (Sansa and Tyrion realize Ice has been reforged), ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:275`
+
 The blade was [Valyrian steel](wiki:Valyrian_steel), [spell](wiki:Spell)-forged and dark as smoke. Nothing held an edge like Valyrian steel.(wiki:Ice.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 Catelyn had no love for swords, but she could not deny that Ice had its own beauty.(wiki:Ice.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 What has Ser [Ilyn](wiki:Ilyn_Payne) done with [my father's](wiki:Eddard_Stark) sword?(wiki:Ice.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)

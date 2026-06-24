@@ -45,6 +45,10 @@ When [Kem](wiki:Kem) reminisces about his favorite pot shop, Tyrion refers to th
 
 ## Quotes
 
+> In the Bottom there were pot-shops along the alleys where huge tubs of stew had been simmering for years, and you could trade half your bird for a heel of yesterday's bread and a "bowl o' brown," and they'd even stick the other half in the fire and crisp it up for you, so long as you plucked the feathers yourself. … It usually had barley in it, and chunks of carrot and onion and turnip, and sometimes even apple, with a film of grease swimming on top. Mostly she tried not to think about the meat.
+
+— AGOT Chapter 65 (Arya V), `sources/chapters/agot/agot-arya-05.md:43`
+
 Mostly she tried not to think about the meat.(wiki:Bowl_of_brown.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 Prices had risen sickeningly high on greens, roots, flour, and fruit, and Tyrion did not want to think about what sorts of flesh might be going into the kettles of the pot-shops down in [Flea Bottom](wiki:Flea_Bottom).(wiki:Bowl_of_brown.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 Bronn: There's a pot shop I know in [Flea Bottom](wiki:Flea_Bottom) makes a savory bowl of brown. All kinds of meat in it, I hear. Tyrion: Make certain I never eat there.(wiki:Bowl_of_brown.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

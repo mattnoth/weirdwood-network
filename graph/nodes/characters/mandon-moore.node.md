@@ -36,6 +36,10 @@ Mandon is a skilled warrior,(wiki:Mandon_Moore.cite_ref-Racok59.7B.7B.7B3.7D.7D.
 
 Mandon wields a [sword](wiki:Sword), lance, white shield, and enameled white steel plate.(wiki:Mandon_Moore.cite_ref-Racok57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)(wiki:Mandon_Moore.cite_ref-Racok59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2) Wearing the white raiment of the Kingsguard makes him look like a corpse in a shroud.(wiki:Mandon_Moore.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) Mandon rides a coal-black stallion barded in white.(wiki:Mandon_Moore.cite_ref-Racok59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 
+> Ser Mandon Moore took the place to his right, flames shimmering against the white enamel of his armor, his dead eyes shining passionlessly through his helm. He rode a coal-black horse barded all in white, with the pure white shield of the Kingsguard strapped to his arm.
+
+— Mandon at Tyrion's right during the Blackwater sortie, ACOK Tyrion XIV, `sources/chapters/acok/acok-tyrion-14.md:13`
+
 ## Narrative Arc
 
 ### A Game of Thrones

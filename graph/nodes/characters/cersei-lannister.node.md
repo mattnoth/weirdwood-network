@@ -74,6 +74,10 @@ The queen's fine gowns include one of sea-green silk trimmed with pale [Myrish l
 
 Cersei's [jewelry](wiki:Jewelry) includes a [golden](wiki:Gold) ring with a large [emerald](wiki:Emerald),(wiki:Cersei_Lannister.cite_ref-Ragot49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-1) a necklace of [diamonds](wiki:Diamond) and emeralds,(wiki:Cersei_Lannister.cite_ref-Ragot57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) and a golden necklace with a large emerald.(wiki:Cersei_Lannister.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1) Her jeweled tiara is also decorated with emeralds.(wiki:Cersei_Lannister.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)(wiki:Cersei_Lannister.cite_ref-Ragot49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-2) Cersei's huge royal [wheelhouse](wiki:Wheelhouse) is a double-decked carriage of oiled [oak](wiki:Oak) and gilded metal,(wiki:Cersei_Lannister.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0) and the queen has an ornate barge located at the harbor of [King's Landing](wiki:King's_Landing).(wiki:Cersei_Lannister.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0) Cersei is fond of [Arbor gold](wiki:Arbor_gold).(wiki:Cersei_Lannister.cite_ref-Racok60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-3)(wiki:Cersei_Lannister.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0)(wiki:Cersei_Lannister.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-0)
 
+> Low-cut deep green velvet gown, golden hair spilling across bare shoulders, woven belt studded with emeralds — Cersei presiding over the women sheltering in the Great Hall during the Battle of the Blackwater.
+
+— ACOK Sansa VI, `sources/chapters/acok/acok-sansa-06.md:29`
+
 ## Narrative Arc
 
 ### A Game of Thrones
@@ -197,6 +201,18 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 > A true man does what he will, not what he must.(wiki:Cersei_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-10)
 >
 > —Cersei to [Eddard Stark](wiki:Eddard_Stark)
+
+> "The night of our wedding feast, the first time we shared a bed, he called me by your sister's name. He was on top of me, in me, stinking of wine, and he whispered Lyanna."
+
+— Cersei to Eddard Stark, explaining the root of her hatred for Robert, AGOT Eddard XII, `sources/chapters/agot/agot-eddard-12.md:141`
+
+> "Tears," she said scornfully to Sansa as the woman was led from the hall. "The woman's weapon, my lady mother used to call them. The man's weapon is a sword. And that tells us all you need to know, doesn't it?"
+
+— Cersei to Sansa during the Battle of the Blackwater, ACOK Sansa VI, `sources/chapters/acok/acok-sansa-06.md:23`
+
+> "Stannis may take the city and he may take the throne, but I will not suffer him to judge me. I do not mean for him to have us alive."
+
+— Cersei to Sansa at Maegor's Holdfast during the Blackwater, ACOK Sansa VI, `sources/chapters/acok/acok-sansa-06.md:119`
 
 > A woman's life is nine parts mess to one part [magic](wiki:Magic), you'll learn that soon enough... and the parts that look like magic often turn out to be messiest of all.(wiki:Cersei_Lannister.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_100-0)
 >

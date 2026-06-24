@@ -49,6 +49,10 @@ When Robb goes to the Twins to make amends with Lord Walder Frey over breaking h
 
 ## Quotes
 
+> Lame Lothar said something amusing to Ser Hosteen, and Ser Hosteen laughed.
+
+— Catelyn's POV (narrative), ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:75`)
+
 > Lothar was a very amusing fellow to get drunk with, but Merrett would never be so foolish as to turn his back on him.(wiki:Lothar_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 >
 > —thoughts of [Merrett Frey](wiki:Merrett_Frey)

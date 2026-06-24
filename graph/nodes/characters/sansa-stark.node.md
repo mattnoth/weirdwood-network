@@ -147,6 +147,20 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 >
 > —Sansa's thoughts
 
+> All it would take was a shove, she told herself. He was standing right there, right there, smirking at her with those fat wormlips. You could do it, she told herself. You could. Do it right now. It wouldn't even matter if she went over with him. It wouldn't matter at all.
+
+— Sansa's thoughts (considering pushing Joffrey from the wall), AGOT Sansa VI (`sources/chapters/agot/agot-sansa-06.md:165`)
+
+> Gentle Mother, font of mercy,
+>
+> save our sons from war, we pray,
+>
+> stay the swords and stay the arrows,
+>
+> let them know a better day.
+
+— Sansa singing under Sandor's knife, ACOK Sansa VII (`sources/chapters/acok/acok-sansa-07.md:109`)
+
 > **Petyr**: Can you be my daughter in your heart?
 >
 > **Sansa**: I ... I am Alayne, Father. Who else would I be?

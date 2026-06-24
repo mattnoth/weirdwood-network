@@ -161,7 +161,19 @@ Having fled to [Essos](wiki:Essos), Tyrion lies to [Griff](wiki:Jon_Connington) 
 >
 > —Joffrey and [Margaery Tyrell](wiki:Margaery_Tyrell) as he dies
 
+> "Widow's Wail!" he cried. "Yes! It shall make many a widow, too!"
+
+— Joffrey naming his Valyrian steel sword at the Purple Wedding gift-giving, ASOS Sansa IV, `sources/chapters/asos/asos-sansa-04.md:105`
+
 ### Quotes about Joffrey
+
+> As he did, the boy's eyes met Tyrion's. He has Jaime's eyes. Only he had never seen Jaime look so scared. The boy's only thirteen.
+
+— Tyrion's POV as Joffrey chokes and dies at the Purple Wedding, ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:305`
+
+> Joffrey was almost upon him, red-faced and staggering, wine slopping over the rim of the great golden wedding chalice he carried in both hands. [...] the king upended the chalice over his head. The wine washed down over his face in a red torrent. [...] "I wasn't serving you, either." [...] "I have no wine. How can I drink a toast if I have no wine? Uncle Imp, you can serve me." [...] "It's not meant to be an honor! Bend down and pick up my chalice." [...] "No, on your knees, dwarf."
+
+— Joffrey humiliates Tyrion at the Purple Wedding feast (chalice upending → forced cupbearer at knifepoint of humiliation), ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:223–253`
 
 > Joffrey is truly a little shit.(wiki:Joffrey_Baratheon.cite_ref-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-6)
 >

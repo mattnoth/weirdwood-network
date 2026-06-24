@@ -60,4 +60,8 @@ Jaime is served trout while staying at [Hayford](wiki:Hayford).(wiki:Trout.cite_
 During one of their louder quarrels, when Catelyn was eight, Lord [Hoster](wiki:Hoster_Tully) had called [Brynden](wiki:Brynden_Tully) "the black goat of the Tully flock." Laughing, Brynden had pointed out that the sigil of [their house](wiki:House_Tully) was a leaping trout, so he ought to be a black fish rather than a black goat, and from that day forward he had taken it as his personal emblem.(wiki:Trout.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
 Birds flew overhead, or cried out from the trees along the shore, and Jaime glimpsed silvery fish knifing through [the water](wiki:Red_Fork).(wiki:Trout.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 [Meera](wiki:Meera_Reed) was a fine huntress, and even better at taking fish from streams with her three-pronged frog spear. Bran liked to watch her, admiring her quickness, the way she sent the spear lancing down and pulled it back with a silvery trout wriggling on the end of it.(wiki:Trout.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+> Hamish left them, his place taken by a smallish elderly bear who danced clumsily to pipe and drum while the wedding guests ate trout cooked in a crust of crushed almonds.
+
+— ASOS Chapter 60 (Purple Wedding), `sources/chapters/asos/asos-tyrion-08.md:155`
+
 Jaime: How does Lord [Walder](wiki:Walder_Frey) relish dining on [trout](wiki:Edmure_Tully) in place of [wolf](wiki:Robb_Stark)? Roose: Oh, trout makes for a tasty supper.(wiki:Trout.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)

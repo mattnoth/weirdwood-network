@@ -69,5 +69,9 @@ Some of the [Brazen Beasts](wiki:Brazen_Beasts) wear boar masks in [Mereen](wiki
 
 ## Quotes
 
-Serve the boar at my funeral feast. Apple in its mouth, skin seared crisp. Eat the bastard. Don't care if you choke on him. Promise me, Ned.(wiki:Boar.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+Serve the boar at my funeral feast. Apple in its mouth, skin seared crisp. Eat the bastard. Don't care if you choke on him. Promise me, Ned.
+
+> "Serve the boar at my funeral feast," Robert rasped. "Apple in its mouth, skin seared crisp. Eat the bastard. Don't care if you choke on him. Promise me, Ned."
+
+— AGOT Chapter 47, `sources/chapters/agot/agot-eddard-13.md:85`(wiki:Boar.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 When [Lancel](wiki:Lancel_Lannister) saw that [Robert](wiki:Robert_I_Baratheon) was going after boar, he gave him [strongwine](wiki:Strongwine). His favorite sour red, but fortified, three times as potent as he was used to. The great stinking fool loved it. He could have stopped swilling it down anytime he cared to, but no, he drained one skin and told Lancel to fetch another. The boar did the rest. You should have been at the feast, Tyrion. There has never been a boar so delicious. They cooked it with [mushrooms](wiki:Mushroom_(fungi)) and apples, and it tasted like triumph.(wiki:Boar.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)

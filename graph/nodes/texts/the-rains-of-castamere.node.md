@@ -49,6 +49,10 @@ Tyrion, a captive [slave](wiki:Slave) outside [Meereen](wiki:Meereen), sees anot
 
 ## Quotes
 
+> "And now the rains weep o'er his hall, with not a soul to hear."
+
+— fourth stanza, in Arya's interior voice as the Red Wedding massacre begins outside the Twins, ASOS Arya XI, `sources/chapters/asos/asos-arya-11.md:47`
+
 [You](wiki:House_Lannister) are not the only [lions](wiki:Lion) in the [west](wiki:Westerlands), ser. [My brothers](wiki:House_Reyne) are coming, and their claws are just as long and sharp as yours.(wiki:The_Rains_of_Castamere.cite_ref-sample_3-2)
 Lord [Tywin](wiki:Tywin_Lannister) did not suffer disloyalty in his vassals. He had [extinguished](wiki:Reyne-Tarbeck_revolt) the proud [Reynes](wiki:House_Reyne) of [Castamere](wiki:Castamere) and the ancient [Tarbecks](wiki:House_Tarbeck) of [Tarbeck Hall](wiki:Tarbeck_Hall) root and branch when he was still half a boy. The singers had even made a rather gloomy song of it.(wiki:The_Rains_of_Castamere.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 [No one sang the words](wiki:Red_Wedding), but Catelyn knew "The Rains of Castamere" when she heard it.(wiki:The_Rains_of_Castamere.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)

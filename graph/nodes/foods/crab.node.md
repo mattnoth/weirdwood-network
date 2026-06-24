@@ -63,6 +63,10 @@ Lord Manderly brings crates of crabs to [Barrowton](wiki:Barrowton) for the [wed
 
 ## Quotes
 
+> Crabclaw pies followed the salad. Then came mutton roasted with leeks and carrots, served in trenchers of hollowed bread.
+
+— ACOK Chapter 52 (Sansa VI), `sources/chapters/acok/acok-sansa-06.md:61`
+
 We should put [every man of them](wiki:Ironborn) to the sword, and sell their wives and children to the [slavers](wiki:Slavers) of the [east](wiki:East). Let the seagulls and the crabs claim [those worthless rocks](wiki:Iron_Islands).(wiki:Crab.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0)
 The crabs had arrived from [Eastwatch](wiki:Eastwatch-by-the-Sea) only this morning, packed in a barrel of snow, and they were succulent.(wiki:Crab.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1)
 A hundred yards out, [Meribald](wiki:Meribald) turned abruptly toward the south, so his back was almost to [the septry](wiki:Quiet_Isle). He proceeded in that direction for another hundred yards, leading them between two shallow tidal pools. [Dog](wiki:Dog_(Meribald)) stuck his nose in one and yelped when a crab pinched it with his claw. A brief but furious struggle ensued before the dog came trotting back, wet and mud-spattered, with the crab between his jaws.(wiki:Crab.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)

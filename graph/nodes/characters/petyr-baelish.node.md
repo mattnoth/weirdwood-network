@@ -222,6 +222,10 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —Petyr to [Sansa Stark](wiki:Sansa_Stark)
 
+> "You wear your honor like a suit of armor, Stark. You think it keeps you safe, but all it does is weigh you down and make it hard for you to move. Look at you now. You know why you summoned me here. You know what you want to ask me to do. You know it has to be done … but it's not honorable, so the words stick in your throat."
+
+— Petyr Baelish to Eddard Stark, AGOT Eddard XIII, `sources/chapters/agot/agot-eddard-13.md:267`
+
 ### Quotes about Petyr
 
 > **Rodrik**: Littlefinger sits on the [small council](wiki:Small_council) now. **Catelyn**: I knew he would rise high. He was always clever, even as a boy, but it is one thing to be clever and another to be wise.(wiki:Petyr_Baelish.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
