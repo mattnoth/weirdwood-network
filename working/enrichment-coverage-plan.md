@@ -1,0 +1,181 @@
+# Enrichment Coverage Plan — the full ranked dip list (S143)
+
+> **Created S143 (2026-06-24)** as the dedicated planning deliverable Matt scheduled between the arc phase and
+> the granular phase. **Supersedes the "L2-only" framing of the handoff** — see the Key Finding below.
+> Companion to `working/arc-enrichment-backlog.md` (the scope model + the per-unit pass-count ledger).
+> **Planning only — nothing minted this session.** Vocab: a *dip* = one focused enrichment pass over one unit;
+> *spine* = the bare causal skeleton (event nodes wired CAUSES/TRIGGERS/MOTIVATES) without the side-plot/
+> participant/whodunit depth. L1 = a major narrative arc; L2 = a granular sub-plot inside one L1 arc. Confidence
+> ratings are 1–5 only.
+
+## KEY FINDING — Matt was right: 9 dips is NOT enough; the L1 round only covered HALF the saga
+
+Matt's S143 challenge: *"are there other major narrative points we are missing here? 9 doesn't seem like enough."*
+**Confirmed by the graph.** The 9 enriched arcs (RR · Red Wedding · Purple Wedding · Ned's Downfall · Blackwater ·
+Tywin's Death · Cersei's Downfall · Brienne→Stoneheart · Sack of KL) cluster almost entirely in **King's Landing /
+the Riverlands / two backstory arcs.** Edge-density proves it — event-hub degree by container:
+
+| container | rich hubs (deg≥15) | max hub degree | enrichment status |
+|-----------|:---:|:---:|---|
+| **wo5k** (KL/Riverlands) | **5** | 39 (Blackwater) | **ENRICHED** — this is where the 9 dips landed |
+| essos (Daenerys) | **0** | 12 | spine-only — **0 dips** |
+| north (Jon + Bolton/Stannis) | **0** | 8 | spine-only — **0 dips** |
+| aegon (Golden Company) | **0** | 10 | spine-only — **0 dips** |
+| bran (greenseer) | **0** | 8 | spine-only — **0 dips** |
+
+The other half of the saga — **Daenerys's Essos conquest, Jon at the Wall, the AEGON invasion, Bran's greenseer
+journey** — got *spine builds* (S119–S130) but **never an enrichment dip.** And a whole tier of L1-scale arcs was
+**never even spined**: Theon→Reek, Sansa's Vale/Alayne arc, Arya's Braavos arc, Tyrion's ADWD Essos journey, the
+core WO5K battles. The board's edge counts make the gap vivid: **Jon Snow has 348 edges but 0 are arc-connected;
+Daenerys 304/0; Bran 135/0** — their connections are wiki-dyadic social web, not the causal event substrate the
+enriched KL characters (Tyrion 362/33, Cersei 291/28) have.
+
+**→ The recommendation is to REOPEN the L1 round before descending to L2.** The "major narrative points we're
+missing" Matt named are real L1-scale arcs, not L2 sub-plots. They go next.
+
+---
+
+## How the three classes overlap — the organizing principle
+
+Classes A/B/C below overlap heavily, and that's the key to sequencing. **Enrich the EVENT-ARC and the character
+web comes mostly for free** (Matt's S131 "characters last — most of a character's web is built as a by-product of
+the arcs they're in"). Concretely:
+
+- Dany/Meereen arc (A1.1) builds ~most of the Daenerys character web (C6).
+- Jon/Wall arc (A1.2) builds Jon's web (C5).
+- AEGON arc (A1.3) + Antler Men (B5) + Ned black-cells (B4) build most of the **Varys** web (C1).
+- Sansa/Vale arc (A2.2) builds most of the **Petyr Baelish** web (C2).
+- Bran arc (A1.4) + the D&E book-cite overlay build most of **Bloodraven** (C3).
+- Kingsmoot/Euron arc (A1.6) builds **Euron** (C4).
+
+So: **drive the next round by event-arc.** Pure character-web dips are the residual cleanup for the cross-cutting
+manipulators (Varys, Petyr, Bloodraven) whose webs no single arc fully covers — and even those pair with an arc.
+
+---
+
+## CLASS A — L1-scale arcs not yet enriched (the gap). Ranked.
+
+### A1 — spine ALREADY built → READY to enrich now (a dip like the 9 we did)
+
+| # | Arc | Scope of the missing enrichment | Weight | Scale | Notes |
+|:--:|-----|------------------------|:--:|:--:|-------|
+| **A1.1** | **Daenerys / Meereen** | The Slaver's Bay political+whodunit layer: Sons of the Harpy insurgency, the Shavepate (Skahaz), the Green Grace/Galazza, **Hizdahr-as-the-Harpy whodunit**, the poisoned locusts, reopening the fighting pits, the Astapor plague + Yunkish siege, the Brazen Beasts, Barristan/Daario/Brown Ben, Quaithe's warnings, Drogon's returns. | **1** | Large (25+) | **READY.** `siege-of-meereen` = 4 edges; the whole political layer is absent. Biggest spine-only arc; exactly our whodunit/participant wheelhouse. Builds the Dany web (C6). |
+| **A1.2** | **Jon Snow / the Wall** | The Watch leadership arc: wildling-integration politics, **the Bowen Marsh assassination conspiracy (the whodunit)**, the Pink Letter fallout, the Stannis relationship + Mance/"Rattleshirt" glamour, Hardhome (revelation-event), Val/Tormund, Slynt-execution texture, Shieldhall. | **2** | Large (25+) | **READY.** NORTH spine built; Jon 348 edges but **0 arc-connected**. Co-equal with Dany. Builds the Jon web (C5). |
+| **A1.3** | **AEGON / Golden Company** | Stormlands-campaign texture, the JonCon greyscale thread, the Connington/exile backstory, the GC's Blackfyre lineage, Varys's hidden hand. | 4 | Med (10–20) | Spine built S128, thin (max hub 10). Heavy **Varys** overlap (C1). |
+| **A1.4** | **Bran / greenseer** | Bloodraven mentorship substrate, the greendreams catalogue, the weirwood-net, the cave cluster (children of the forest, Leaf), Jojen-paste, Summer warging. | 5 | Med (10–20) | Spine built S130. Overlaps **Bloodraven** (C3) — scope together. Partly theory-gated (Hodor, R+L glimpses) — gated parts stay out. |
+| **A1.5** | **Dorne / Queenmaker** | The "someone always tells" informer mystery, Arys Oakheart's seduction sub-arc, the conspirator dispersal (Drey→Norvos, Garin→Tyrosh, Sylva→Greenstone), Darkstar's escape. | 6 | Med (10–15) | Spine built S117, 0 dips. 19 harvest rows already pushed S117. |
+| **A1.6** | **Kingsmoot / Euron** | Euron's expansion: the Shield Islands taking, the Reader, the dragon-horn theft narrative, the warlock-killing backstory, the Crow's-Eye voyages. | 7 | Med (10–15) | Spine + 1 early enrichment (S116, pre-formal-L1). Overlaps **Euron** (C4). Theory-adjacent (Euron↔Bloodraven) stays as evidence-edges only. |
+
+### A2 — NOT spined → build the spine + enrich (higher cost, but L1-scale)
+
+| # | Arc | Scope | Weight | Scale | Notes |
+|:--:|-----|-------|:--:|:--:|-------|
+| **A2.1** | **Theon: capture-of-Winterfell → Reek** | ACOK capture + sack of Winterfell (thin nodes exist) + the ADWD Reek/Ramsay captivity + fArya rescue (mostly unbuilt). | **3** | Large (25+) | **Cross-identity Reek=Theon is a flagged key graph use case.** High weight, high build cost. |
+| **A2.2** | **Sansa: Vale / Alayne Stone** | `littlefinger-smuggles-sansa` (confirmed dead-end) → the Eyrie → **death of Lysa Arryn** → the Alayne-Stone identity → Sweetrobin → Harry-the-Heir/tourney setup. | **3=** | Med–Large (20+) | **Highest cross-arc payoff per dip** (fixes the longest-orphaned node + the hairnet chain). Alayne=Sansa SAME_AS case. Builds most of **Petyr** (C2). |
+| **A2.3** | **Arya: Braavos / House of B&W** | Braavos landing → the Kindly Man → Cat of the Canals → blinding → Mercy. | 8 | Large (25+) | Identity-dissolution arc; **architecturally isolated** (low cross-arc payoff) — that's why it ranks below Sansa/Theon despite similar scale. |
+| **A2.4** | **Tyrion: ADWD Essos journey** | Pentos → Volantis → Penny → captured by Jorah → sold → Daznak's Pit → the Second Sons. | 9 | Large (25+) | The *events* are the value (Tyrion the character is already saturated, 362 edges). |
+| **A2.5** | **WO5K — the battles** | Whispering Wood (Jaime captured), Battle of the Camps, Oxcross, the Fords, Duskendale; the military arc that makes Robb the Young Wolf. | 10 | Large (25+) | WO5K flagged "needs many passes." `battle-on-the-green-fork` already rich (29); the others thin/absent. |
+| **A2.6** | **Jaime: Riverlands command (AFFC)** | Harrenhal, the Riverrun siege resolution, Edmure's surrender, the Blackfish's escape, the burning-of-Cersei's-letter rupture. | 11 | Med (15–20) | Overlaps **RW pass-2** Riverrun-siege downstream (B, Red Wedding). |
+| **A2.7** | **Stannis** | Dragonstone self-isolation → Renly's-war + the shadow-baby → Blackwater → the Wall → the march. Mostly an event-arc spread across containers. | 12 | Med (15–20) | Much already wired via Blackwater + NORTH spines; a dip adds the Melisandre-submission + Renly-kinslaying MOTIVATES substrate. |
+| **A2.8** | **Davos / Sam** | Davos: Blackwater near-death → Manderly mission → Skagos. Sam: Fist → Gilly → Citadel road. | 13 | Small–Med | Smaller, Stannis/Jon-adjacent; do as residuals. |
+
+---
+
+## CLASS B — L2 granular sub-plots inside the 9 enriched arcs. Top picks ranked.
+
+(Full per-arc enumeration in the board output; these are the highest-value, filtered against readiness +
+cross-arc payoff + reader-salience.)
+
+| # | L2 sub-plot | Parent arc | Why | Scale | Ready? |
+|:--:|-----------|-----------|-----|:--:|:--:|
+| **B1** | **Frey-pies / Grand Northern Conspiracy** | Red Wedding | `frey-pies-theories` = 0-evidence dead-end; **all constituent nodes already built** (Wyman, Wylis, the 4 S93 deception events) — only the GNC hub + the `ENABLES stannis-march-on-winterfell` seam are missing. Reader-salient, wo5k→north seam. | Med | **YES** |
+| **B2** | **Creation of Robert Strong** (Oberyn POISONS Gregor + Qyburn) | Tywin's Death ∩ Cersei's Downfall | **Closes two dead-ends at once** (`robert-strong-theories` + the deferred S139 venom). AFFC names the manticore venom (affc-cersei-02). Hinge between two enriched arcs. | Med | YES (AFFC source) |
+| **B3** | **Sandor's "death" / Quiet Isle gravedigger** | Brienne→Stoneheart | Reader-salience 10/10; `elder-brother HEALS sandor` + `gravedigger SWORN_TO quiet-isle` exist but unconnected; fixes `gravedigger-theories`; extends the S141 hound-helm chain. | Med | YES |
+| **B4** | **Black-cells / Varys-visits-Ned** | Ned's Downfall | Fixes the arc's biggest causal gap — `ned-confesses` has no proximate cause; the black-cells visit IS the mechanism. Wires Varys's double-agency. | Small | YES |
+| **B5** | **Antler Men conspiracy** | Blackwater | 4-edge hub for a named conspiracy; wires Stannis's KL fifth column + the Varys whodunit. Feeds **Varys** (C1). | Small–Med | YES |
+| **B6** | **Ice reforged → Widow's Wail + Oathkeeper** | Tywin's Death | `REFORGED_INTO` has **0 instantiations** graph-wide; a 3-arc artifact chain (Ned looted → Tywin reforges → Oathkeeper to Brienne). | Small | check node existence |
+| **B7** | **Kingslayer quote → `slaying-of-aerys-ii`** | Sack of KL | Cheapest fix, highest salience: the hub has **no `## Quotes`**; attach Jaime's justification monologue, upgrade the KILLS edge T2→T1 book-cite. | Tiny | YES |
+| **B8** | **Lancel AGENT_IN Robert's death** | Ned's Downfall | Tiny; completes the strongwine whodunit (Lancel is the operational hand; connects to `lancel MEMBER_OF warriors-sons` S140). | Tiny | YES |
+
+**Not a dip — run as a script:** the **Blackwater named-ship `WIELDED_IN` roster** (~20 ships, acok-davos-03:47)
+is a **deterministic Python batch** (artifact nodes exist with empty edges), already flagged S139. Do NOT spend a
+reasoning dip on it.
+
+**Naturally A-class, surfaced as L2:** the board floated *Sansa Alayne/Vale*, *Dornish-succession gambit*, and
+*Tyrion-loses-the-Handship* under L2 — but these are really **A2.2 / A1.5 / a Blackwater→Tywin seam**. Build them
+as their own arcs, not as sub-plots, to avoid minting into a not-yet-built container.
+
+---
+
+## CLASS C — character-web units. Ranked (residual after the arcs).
+
+These are the cross-cutting manipulators whose webs **no single arc fully covers** — the genuine standalone
+character dips. Everyone else's web is a by-product of their arc (do the arc instead).
+
+| # | Character | Current density | What a dip adds | Pairs with |
+|:--:|-----------|-----------------|-----------------|-----------|
+| **C1** | **Varys** | thin (59 edges, the thinnest major player) | CONSPIRES_WITH/COMMANDS_IN/DECEIVES web across Ned/Tyrion/Cersei/Joffrey; the Aegon spy-network; the Rugen identity; Kevan-assassination motive. | AEGON (A1.3), Antler Men (B5), Ned black-cells (B4) |
+| **C2** | **Petyr Baelish** | partial, under-threaded (109/5) | the full manipulation web (DECEIVES Ned/Lysa/Cersei/Olenna); the Vale plot; SUSPECTED_OF `murder-of-jon-arryn` (S133) properly anchored. | Sansa/Vale (A2.2) |
+| **C3** | **Bloodraven / Brynden Rivers** | **stub (19 edges)** | everything — kin web (Bittersteel/Shiera/Bloodraven Great-Bastard set), Raven's Teeth, Blackfyre wars, Hand tenure, the cave-mentor substrate. **D&E book-cite overlay** (novellas readable directly; D&E Pass-1 parked). | Bran (A1.4); the Matt-flagged dip |
+| **C4** | **Euron** | extremely thin (43/0) | artifact web (Dragonbinder), Shield Islands, warlock backstory, the SUSPECTED_OF/PARALLELS Bloodraven thread (evidence-only). | Kingsmoot (A1.6) |
+| **C5** | **Jon Snow** | 348 edges, **0 arc-connected** | the MOTIVATES substrate above the NORTH spine — Stannis relationship, leadership decisions, assassination motives, non-gated identity layer. | Jon/Wall (A1.2) — do the arc |
+| **C6** | **Daenerys** | 304/0 | the MOTIVATES substrate above the Essos spine; Westeros seams (RR trauma). Mostly gated above that (Azor Ahai). | Dany/Meereen (A1.1) — do the arc |
+
+**Intentionally excluded:** Tyrion (362/33 — saturated), Cersei (291/28 — her arc-dip ran S140).
+
+---
+
+## RECOMMENDED SEQUENCE + top pick
+
+**Reopen the L1 round. Drive by event-arc; characters fall out as by-products.** Suggested order:
+
+1. **A1.1 Daenerys / Meereen** ← **recommended next dip.** Biggest spine-only arc, READY, the richest
+   whodunit+political layer in the saga (Hizdahr-as-Harpy, the poisoned locusts, the Shavepate) — squarely our
+   wheelhouse. One dip also builds most of the Dany character web.
+2. **A1.2 Jon / the Wall** (co-equal; the Bowen-Marsh assassination whodunit is the marquee). Alternate #1 pick.
+3. Interleave the cheap high-payoff **L2s** between the big arcs so the enriched cluster keeps deepening:
+   **B1 Frey-pies/GNC**, **B2 Robert Strong**, **B3 gravedigger**, **B4 Ned black-cells**, **B7 Kingslayer quote**.
+4. **A2.2 Sansa/Vale** (build+enrich; fixes the longest dead-end + builds Petyr) → **A2.1 Theon/Reek** (cross-identity).
+5. The remaining spine-only arcs: **A1.3 AEGON** (+ Varys C1), **A1.4 Bran** (+ Bloodraven C3), **A1.5 Dorne**, **A1.6 Euron**.
+6. The rest of A2 (Arya, Tyrion-Essos, WO5K-battles, Jaime-Riverlands, Stannis) + character residuals (Varys, Petyr, Bloodraven).
+7. Run the **Blackwater ship-roster Python batch** opportunistically (not a dip).
+
+**Strategic fork for Matt** (the one real decision): do we (a) **reopen L1** and make Dany/Meereen the next dip
+[recommended], or (b) hold L1 as "done enough" and start the L2 sub-plot round with Frey-pies/GNC? The data says (a).
+
+---
+
+## Scope cards — the top 3 candidates (for whichever is picked next)
+
+### A1.1 — Daenerys / Meereen  [RECOMMENDED NEXT]
+- **Built:** the Essos spine E1–E5 (fall-of-astapor → battle-near-yunkai → siege-of-meereen → wedding-of-hizdahr
+  → drogon-returns-to-daznak → dany-flees → lost-on-the-dothraki-sea); `sons-of-the-harpy-kill-twenty-nine`.
+- **Missing:** the political/whodunit texture — Sons-of-the-Harpy as an insurgency hub (flagged condition-node,
+  Essos refinement (a)); the Shavepate/Brazen Beasts; **Hizdahr SUSPECTED_OF being the Harpy**; the poisoned-locusts
+  attempt (SUSPECTED_OF candidates); the pit-reopening decision; the Astapor plague + the Yunkish/Volantene siege
+  ring; Barristan's command, Daario, Brown Ben's defection; Quaithe's warnings (FORESHADOWS). Participant roles on
+  the thin battle hubs. Cross-arc: the `battle-of-yunkai` redirect-stub dup to resolve first (Essos refinement (b)).
+- **Scale:** Large (25+ edges, ~4–6 new nodes). **Dependency:** none (spine ready). **Kind:** arc/cluster (+char by-product).
+
+### A1.2 — Jon Snow / the Wall  [co-equal alternate]
+- **Built:** NORTH spine N1–N6 (great-ranging → Fist → Craster's-mutiny → battle-beneath-the-wall → LC-election →
+  Slynt-execution → free-folk → pink-letter → jon-stabbed; Roose-warden → Stannis-march → Crofter's-village).
+- **Missing:** **the Bowen-Marsh assassination conspiracy** (the whodunit — who else was in on it; the Shieldhall
+  march as the trigger is wired, the conspirators' agency is thin); the wildling-integration politics; Hardhome as
+  a revelation-event; the Mance/"Rattleshirt" glamour deception; the Stannis-at-the-Wall relationship texture;
+  Val/Tormund; Slynt-execution color. Jon's MOTIVATES substrate (C5).
+- **Scale:** Large (25+). **Dependency:** none. **Kind:** arc/cluster (+Jon char by-product).
+
+### B1 — Frey-pies / Grand Northern Conspiracy  [cheapest high-value L2]
+- **Built:** the 4 S93 Wyman/Davos deception events; `wylis-manderly`, `wyman-manderly`, the RW spine, `siege-of-
+  riverrun`, `stannis-march-on-winterfell`.
+- **Missing:** a `grand-northern-conspiracy` event.conspiracy hub tying them together; `manderly bakes the pies`
+  beat; the `GNC ENABLES stannis-march-on-winterfell` seam; the Wylis-hostage→Wyman-silenced→Wylis-returned causal
+  thread. Fixes the `frey-pies-theories` 0-evidence dead-end.
+- **Scale:** Med (1–2 nodes, ~20 edges). **Dependency:** none (nodes ready). **Kind:** L2 sub-plot (high cross-arc payoff).
+
+---
+
+*Board inputs (Sonnet 4.6, S143): three lenses — L1 census, L2 sub-plot enumeration, character-unit ranking.
+Their full outputs are summarized into the rankings above; the key disagreements were resolved by graph-grounding
+(Sansa-Vale dead-end + Meereen 4-edge density verified directly this session).*

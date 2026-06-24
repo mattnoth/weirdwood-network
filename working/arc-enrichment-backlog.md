@@ -40,9 +40,14 @@ We never chose "event over container"; the container was never a grabbable optio
 **The descent has THREE granularity levels** (`Sequencing — the descent`, below). The level-1/level-2 line is
 where S136 tripped:
 - **Level 1 — major arcs** = event-arcs: *Robert's Rebellion, Red Wedding, Purple Wedding, Ned's-downfall,
-  Blackwater, Tywin's-death, Cersei's-downfall, Brienne→Stoneheart, Sack-of-KL.* ← **L1 ROUND COMPLETE (S142,
-  9 dips incl. the Sack double-dip).** Next = the L2-granular PLANNING session (below). (These are small next to
-  "WO5K," but they are the TOP level — because they are the graspable objects.)
+  Blackwater, Tywin's-death, Cersei's-downfall, Brienne→Stoneheart, Sack-of-KL.* ← these 9 dips are done — **BUT
+  the S143 planning session (Matt: "9 doesn't seem like enough") found they cluster ENTIRELY in King's Landing /
+  the Riverlands / backstory.** The **Daenerys/Essos, Jon/Wall, AEGON, Bran** halves of the saga are L1-scale and
+  got SPINE builds but **0 enrichment dips** (verified: 0 rich event-hubs in those containers). So the **L1 round
+  is REOPENED** — the next dips are the spine-only heavyweight arcs. Full ranked plan: **`working/enrichment-
+  coverage-plan.md`** (S143). Matt's pick for the next dip = **Daenerys/Meereen** (`progress/continue-prompts/
+  2026-06-26-dany-meereen-enrichment-s144.md`). (These are small next to "WO5K," but they are the TOP level —
+  because they are the graspable objects.)
 - **Level 2 — granular sub-plots WITHIN one arc** = the threads *inside* a level-1 event. Inside Ned's-downfall:
   gold-cloak bribery mechanics, the throne-room massacre of Stark guards, Littlefinger's maneuvering. Inside the
   Red Wedding: the Frey-pies / GNC layer. **"Granular" = smaller than an event-arc, not the event-arc itself.**
@@ -61,7 +66,13 @@ RR→Essos). The cross-container seams are the high-value ones (they wire dead-e
 graph). So the "deepen the whole theater's connective tissue" instinct **is** being served — accreted one dip
 at a time through lens 4, instead of in one container-wide pass.
 
-## STATUS: enrichment PHASE is OPEN (gate tripped S130)
+## STATUS: enrichment PHASE is OPEN (gate tripped S130); L1 ROUND REOPENED (S143)
+
+> **S143 reframe (Matt-prompted).** "9 dips" only covered the King's-Landing/Riverlands/backstory cluster. Half the
+> saga's L1-scale arcs (Dany/Essos, Jon/Wall, AEGON, Bran — spine-built, 0 dips) + several never spined (Theon→Reek,
+> Sansa/Vale, Arya, Tyrion-Essos, WO5K-battles) are still un-enriched. **Next round = those, NOT L2.** Ranked plan
+> with scope cards: **`working/enrichment-coverage-plan.md`**. Next dip = Daenerys/Meereen (S144).
+
 
 The S116/S117 gate was "enrichment opens once Essos is spine-built AND WO5K #3/#4/#5 are built."
 **As of S130 ALL 5 approved containers are spine-complete** (essos S119–120 · wo5k S123 · north
