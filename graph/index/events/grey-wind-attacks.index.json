@@ -3,7 +3,7 @@
   "name": "Grey Wind attacks",
   "type": "event.incident",
   "node_path": "graph/nodes/events/grey-wind-attacks.node.md",
-  "generated_at": "2026-06-24T02:18:43.825526+00:00",
+  "generated_at": "2026-06-24T03:45:19.572744+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

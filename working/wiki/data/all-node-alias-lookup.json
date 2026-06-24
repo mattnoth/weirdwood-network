@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-24T02:18:49.429955+00:00",
+  "computed_at": "2026-06-24T03:45:24.634227+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -12925,6 +12925,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "cersei has the old high septon murdered": [
+      {
+        "canonical_slug": "murder-of-the-old-high-septon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "cersei imprisoned by the faith": [
       {
         "canonical_slug": "cersei-is-stripped-and-imprisoned",
@@ -13085,6 +13093,22 @@
         "source": "node-name"
       }
     ],
+    "cersei resolves on trial by battle": [
+      {
+        "canonical_slug": "cersei-resolves-on-trial-by-combat",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei resolves on trial by combat": [
+      {
+        "canonical_slug": "cersei-resolves-on-trial-by-combat",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "cersei s plot to assassinate jon snow": [
       {
         "canonical_slug": "cersei-s-plot-to-assassinate-jon-snow",
@@ -13096,6 +13120,14 @@
     "cersei seized in the sept": [
       {
         "canonical_slug": "cersei-is-captured-in-the-sept",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cersei sends for jaime": [
+      {
+        "canonical_slug": "cersei-resolves-on-trial-by-combat",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -13165,6 +13197,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "cersei's plea to jaime": [
+      {
+        "canonical_slug": "cersei-resolves-on-trial-by-combat",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "cersei's plot against margaery": [
       {
         "canonical_slug": "cersei-plots-against-margaery",
@@ -13179,6 +13219,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "cersei's prophecy": [
+      {
+        "canonical_slug": "maggy-the-frogs-prophecy",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "all-node-alias:prophecies"
       }
     ],
     "cersei's small council is deceived about davos": [
@@ -19608,6 +19656,14 @@
     "death of the iron king": [
       {
         "canonical_slug": "death-of-balon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of the old high septon": [
+      {
+        "canonical_slug": "murder-of-the-old-high-septon",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -36023,6 +36079,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "high septon killed in his sleep": [
+      {
+        "canonical_slug": "murder-of-the-old-high-septon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "high septon maekar i": [
@@ -57181,6 +57245,38 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "maggy the frog's foretelling": [
+      {
+        "canonical_slug": "maggy-the-frogs-prophecy",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "all-node-alias:prophecies"
+      }
+    ],
+    "maggy the frog's prophecy": [
+      {
+        "canonical_slug": "maggy-the-frogs-prophecy",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "all-node-name:prophecies"
+      }
+    ],
+    "maggy the frogs prophecy": [
+      {
+        "canonical_slug": "maggy-the-frogs-prophecy",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "all-node-slug:prophecies"
+      }
+    ],
+    "maggy's prophecy": [
+      {
+        "canonical_slug": "maggy-the-frogs-prophecy",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "all-node-alias:prophecies"
+      }
+    ],
     "magic": [
       {
         "canonical_slug": "magic",
@@ -61799,6 +61895,14 @@
         "source": "node-slug"
       }
     ],
+    "murder of the old high septon": [
+      {
+        "canonical_slug": "murder-of-the-old-high-septon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "murder-of-elia-and-her-children": [
       {
         "canonical_slug": "murder-of-elia-martell-and-rhaegars-children",
@@ -65344,6 +65448,14 @@
     "osney names cersei to the faith": [
       {
         "canonical_slug": "osney-kettleblack-confesses-to-high-sparrow",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "osney smothers the high septon": [
+      {
+        "canonical_slug": "murder-of-the-old-high-septon",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -86167,6 +86279,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "trial by battle": [
+      {
+        "canonical_slug": "cersei-resolves-on-trial-by-combat",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "trial by combat": [
       {
         "canonical_slug": "trial-by-combat",
@@ -88615,6 +88735,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "valonqar prophecy": [
+      {
+        "canonical_slug": "maggy-the-frogs-prophecy",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "all-node-alias:prophecies"
       }
     ],
     "valonqar theories": [
@@ -94011,6 +94139,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "younger and more beautiful queen": [
+      {
+        "canonical_slug": "maggy-the-frogs-prophecy",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "all-node-alias:prophecies"
+      }
+    ],
     "yrma of the golden bowl": [
       {
         "canonical_slug": "yrma-peake",
@@ -94261,8 +94397,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19222,
-    "unique_phrases": 11681
+    "total_node_entries": 19241,
+    "unique_phrases": 11698
   },
   "version": "v1"
 }

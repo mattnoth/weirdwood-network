@@ -3,7 +3,7 @@
   "name": "Attack on Castle Black",
   "type": "event.battle",
   "node_path": "graph/nodes/events/attack-on-castle-black.node.md",
-  "generated_at": "2026-06-24T02:18:43.811398+00:00",
+  "generated_at": "2026-06-24T03:45:19.557657+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
