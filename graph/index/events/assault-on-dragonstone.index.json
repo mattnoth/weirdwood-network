@@ -3,7 +3,7 @@
   "name": "Assault on Dragonstone",
   "type": "event.battle",
   "node_path": "graph/nodes/events/assault-on-dragonstone.node.md",
-  "generated_at": "2026-06-24T03:45:19.593176+00:00",
+  "generated_at": "2026-06-24T05:40:13.794912+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,

@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-24T03:45:24.634227+00:00",
+  "computed_at": "2026-06-24T05:40:18.857746+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -2717,12 +2717,28 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "ambush at crossroads inn": [
+      {
+        "canonical_slug": "ambush-at-crossroads-inn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "ambush at fair isle": [
       {
         "canonical_slug": "ambush-at-fair-isle",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "ambush at the crossroads inn": [
+      {
+        "canonical_slug": "ambush-at-crossroads-inn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "ambush at the greenblood": [
@@ -10829,6 +10845,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "brienne kills rorge": [
+      {
+        "canonical_slug": "ambush-at-crossroads-inn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "brienne of tarth": [
       {
         "canonical_slug": "brienne-tarth",
@@ -10875,6 +10899,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "brienne's fight with the brave companions remnant": [
+      {
+        "canonical_slug": "fight-at-the-whispers",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "brienne's trial in the hollow hill": [
@@ -16635,6 +16667,14 @@
         "source": "all-node-alias:locations"
       }
     ],
+    "crossroads inn fight": [
+      {
+        "canonical_slug": "ambush-at-crossroads-inn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "crossroads-inn": [
       {
         "canonical_slug": "inn-at-the-crossroads",
@@ -20499,12 +20539,28 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "dog's head greathelm": [
+      {
+        "canonical_slug": "hound-helm",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
     "dog's nose": [
       {
         "canonical_slug": "dogs-nose",
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-name:artifacts"
+      }
+    ],
+    "dog's-head helm": [
+      {
+        "canonical_slug": "hound-helm",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "dogkiller": [
@@ -26324,6 +26380,22 @@
     "fight at the holdfast": [
       {
         "canonical_slug": "fight-at-the-holdfast",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "fight at the inn": [
+      {
+        "canonical_slug": "ambush-at-crossroads-inn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "fight at the whispers": [
+      {
+        "canonical_slug": "fight-at-the-whispers",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -37167,6 +37239,14 @@
         "source": "node-slug"
       }
     ],
+    "hound helm": [
+      {
+        "canonical_slug": "hound-helm",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
+      }
+    ],
     "hound quits the kingsguard": [
       {
         "canonical_slug": "sandor-clegane-deserts-the-kingsguard",
@@ -37181,6 +37261,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "hound's helm": [
+      {
+        "canonical_slug": "hound-helm",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
       }
     ],
     "hound's white cloak": [
@@ -63307,6 +63395,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "nimble dick's death": [
+      {
+        "canonical_slug": "fight-at-the-whispers",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "nine eunuchs": [
       {
         "canonical_slug": "nine-eunuchs",
@@ -73909,6 +74005,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "rorge's attack on the inn": [
+      {
+        "canonical_slug": "ambush-at-crossroads-inn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "roro uhoris": [
       {
         "canonical_slug": "roro-uhoris",
@@ -78975,6 +79079,14 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-slug:species"
+      }
+    ],
+    "snarling dog helm": [
+      {
+        "canonical_slug": "hound-helm",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "snatch": [
@@ -94397,8 +94509,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19241,
-    "unique_phrases": 11698
+    "total_node_entries": 19258,
+    "unique_phrases": 11712
   },
   "version": "v1"
 }

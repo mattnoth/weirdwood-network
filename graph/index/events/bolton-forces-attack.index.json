@@ -3,7 +3,7 @@
   "name": "Bolton forces attack",
   "type": "event.incident",
   "node_path": "graph/nodes/events/bolton-forces-attack.node.md",
-  "generated_at": "2026-06-24T03:45:19.568301+00:00",
+  "generated_at": "2026-06-24T05:40:13.771221+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

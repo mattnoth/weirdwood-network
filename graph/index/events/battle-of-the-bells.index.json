@@ -3,7 +3,7 @@
   "name": "Battle of the Bells",
   "type": "event.battle",
   "node_path": "graph/nodes/events/battle-of-the-bells.node.md",
-  "generated_at": "2026-06-24T03:45:19.601937+00:00",
+  "generated_at": "2026-06-24T05:40:13.804263+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,

@@ -73,7 +73,9 @@
     "alayne i (the winds of winter)": "alayne-i-the-winds-of-winter",
     "alayne i the winds of winter": "alayne-i-the-winds-of-winter",
     "all accused arrested by sundown": "all-accused-arrested-by-sundown",
+    "ambush at crossroads inn": "ambush-at-crossroads-inn",
     "ambush at fair isle": "ambush-at-fair-isle",
+    "ambush at the crossroads inn": "ambush-at-crossroads-inn",
     "ambush at the greenblood": "areo-hotah-springs-the-ambush",
     "ambush at the wendwater": "burning-of-jeyne-poore",
     "ambush begins": "the-ambush-begins",
@@ -619,6 +621,8 @@
     "brienne brought before lady stoneheart": "brienne-brought-before-lady-stoneheart",
     "brienne captured by the brotherhood": "brienne-brought-before-lady-stoneheart",
     "brienne condemned by lady stoneheart": "brienne-brought-before-lady-stoneheart",
+    "brienne kills rorge": "ambush-at-crossroads-inn",
+    "brienne's fight with the brave companions remnant": "fight-at-the-whispers",
     "brienne's trial in the hollow hill": "brienne-brought-before-lady-stoneheart",
     "bronn kills ser vardis": "bronn-kills-ser-vardis",
     "bronn kills symon": "assassination-of-symon-silver-tongue",
@@ -766,6 +770,7 @@
     "crossbows kill more northmen": "crossbows-kill-more-northmen",
     "crossing beneath the wall": "bran-passes-the-black-gate",
     "crossing of the andals": "coming-of-the-andals",
+    "crossroads inn fight": "ambush-at-crossroads-inn",
     "crown's debt to the faith forgiven": "cersei-rearms-the-faith-and-forgives-the-debt",
     "crowning of lyanna": "crowning-of-lyanna-at-harrenhal",
     "crowning of lyanna at harrenhal": "crowning-of-lyanna-at-harrenhal",
@@ -1322,6 +1327,8 @@
     "fight at the bridge of skulls": "fight-at-the-bridge-of-skulls",
     "fight at the fist": "fight-at-the-fist",
     "fight at the holdfast": "fight-at-the-holdfast",
+    "fight at the inn": "ambush-at-crossroads-inn",
+    "fight at the whispers": "fight-at-the-whispers",
     "fight at torrhen's square": "fight-at-torrhens-square",
     "fight at torrhens square": "fight-at-torrhens-square",
     "fight by deepwood motte": "fight-by-deepwood-motte",
@@ -2387,6 +2394,7 @@
     "night's watch mutiny against jon snow": "jon-is-stabbed-repeatedly",
     "night's watch rebellion of 50 ac": "nights-watch-rebellion-of-50-ac",
     "nights watch rebellion of 50 ac": "nights-watch-rebellion-of-50-ac",
+    "nimble dick's death": "fight-at-the-whispers",
     "no-nose assassinated": "tyrion-processes-the-assassination-attempt",
     "no-nose death": "tyrion-processes-the-assassination-attempt",
     "no-nose execution": "tyrion-processes-the-assassination-attempt",
@@ -2736,6 +2744,7 @@
     "roose bolton becomes warden of the north": "roose-named-warden-of-the-north",
     "roose bolton named warden of the north": "roose-named-warden-of-the-north",
     "roose named warden of the north": "roose-named-warden-of-the-north",
+    "rorge's attack on the inn": "ambush-at-crossroads-inn",
     "sack of astapor": "fall-of-astapor",
     "sack of bitterbridge": "sack-of-bitterbridge",
     "sack of darry": "sack-of-darry",
@@ -9982,21 +9991,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-24T03:45:24.445891+00:00",
+  "computed_at": "2026-06-24T05:40:18.668141+00:00",
   "stats": {
     "ambiguous_collisions": 344,
     "source_breakdown": {
-      "node-frontmatter-alias": 599,
-      "node-name": 685,
-      "node-slug": 685,
+      "node-frontmatter-alias": 606,
+      "node-name": 687,
+      "node-slug": 687,
       "victim-index": 2820,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 5691,
-    "unambiguous_lookups": 3667,
-    "unique_phrases": 4011
+    "total_entries_scanned": 5702,
+    "unambiguous_lookups": 3676,
+    "unique_phrases": 4020
   },
   "version": "v2"
 }

@@ -3,7 +3,7 @@
   "name": "Murder announced",
   "type": "event.assassination",
   "node_path": "graph/nodes/events/murder-announced.node.md",
-  "generated_at": "2026-06-24T03:45:19.594395+00:00",
+  "generated_at": "2026-06-24T05:40:13.796246+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
