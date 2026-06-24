@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-24 (refreshed after S141)  
+**Generated:** 2026-06-24 (refreshed after S142)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-26-l2-granular-planning-s142.md` | 2026-06-26 | The L2-granular PLANNING session (scope the dip list) | **LIVE** (graph) | Opus 4.8 (planning) | **NEW S142.** The L1 major-arc round is **COMPLETE** (8 dips: RR/RW/PW/Ned/Blackwater/Tywin/Cersei/**Brienne→Stoneheart S141**; Sack-of-KL = double-dip remnant only). Per Matt S130, run the dedicated PLANNING session between the arc phase and the granular phase: enumerate + scope the L2 granular sub-plot/event/character dip list into a ranked plan (what's built / what's missing / mint size / dependency order). **No minting.** Confirm with Matt this is the next move. Input: `working/arc-enrichment-backlog.md` Next-pass-scope sections + pass-2-candidate columns + S141 parks. Output → extend the ledger or `working/l2-granular-plan.md`. |
+| `2026-06-26-l2-granular-planning-s142.md` | 2026-06-26 | The L2-granular PLANNING session (scope the dip list) | **LIVE** (graph) → fires as **S143** | Opus 4.8 (planning) | **Now genuinely next (S143).** The L1 major-arc round is **FULLY COMPLETE** — at S142's STEP 0 Matt picked the **Sack-of-KL double-dip** over this planning session, so the 9th & last L1 dip shipped (S142: +2 nodes/+17 edges incl. the wildfire-thread integration + the marquee `wildfire-plot ENABLES wildfire-trap-on-the-blackwater` T2 seam). 9 dips done: RR/RW/PW/Ned/Blackwater/Tywin/Cersei/Brienne→Stoneheart/**Sack S142**. Per Matt S130, run the dedicated PLANNING session: enumerate + scope the L2 granular sub-plot/event/character dip list into a ranked plan (what's built / what's missing / mint size / dependency order). **No minting.** Input: `working/arc-enrichment-backlog.md` Next-pass-scope sections + pass-2-candidate columns + S142 Sack-pass-2 items. Output → extend the ledger or `working/l2-granular-plan.md`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
