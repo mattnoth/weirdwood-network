@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-25T15:10:27.748042+00:00",
+  "computed_at": "2026-06-25T22:28:07.183266+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -749,6 +749,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "aegon's dragon-colors chain": [
+      {
+        "canonical_slug": "illyrios-ruby-chain",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "aegon's faction": [
@@ -16697,6 +16705,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "crossbow that killed kevan lannister": [
+      {
+        "canonical_slug": "varys-crossbow",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "crossbows kill more northmen": [
@@ -42735,6 +42751,14 @@
         "source": "all-node-name:locations"
       }
     ],
+    "illyrio's ruby chain": [
+      {
+        "canonical_slug": "illyrios-ruby-chain",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
+      }
+    ],
     "illyrios chests": [
       {
         "canonical_slug": "illyrios-chests",
@@ -42749,6 +42773,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "illyrios ruby chain": [
+      {
+        "canonical_slug": "illyrios-ruby-chain",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
       }
     ],
     "ilyn payne": [
@@ -85035,6 +85067,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "three rubies on a chain of black iron": [
+      {
+        "canonical_slug": "illyrios-ruby-chain",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
     "three sisters": [
       {
         "canonical_slug": "three-sisters",
@@ -89377,6 +89417,14 @@
         "source": "node-name"
       }
     ],
+    "varys crossbow": [
+      {
+        "canonical_slug": "varys-crossbow",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
+      }
+    ],
     "varys smuggles tyrion out of king's landing": [
       {
         "canonical_slug": "varys-smuggles-tyrion-out-of-kings-landing",
@@ -89407,6 +89455,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "varys's crossbow": [
+      {
+        "canonical_slug": "varys-crossbow",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
       }
     ],
     "varys's plan to free tyrion": [
@@ -94807,8 +94863,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19303,
-    "unique_phrases": 11750
+    "total_node_entries": 19310,
+    "unique_phrases": 11757
   },
   "version": "v1"
 }
