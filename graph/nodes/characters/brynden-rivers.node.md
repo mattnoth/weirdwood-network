@@ -116,6 +116,14 @@ Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) tells [Samwell Tarly](wi
 >
 > —the [three-eyed crow](wiki:Three-eyed_crow) to [Bran Stark](wiki:Bran_Stark)
 
+> I have watched you for a long time, watched you with a thousand eyes and one. I saw your birth, and that of your lord father before you. I saw your first step, heard your first word, was part of your first dream. I was watching when you fell.
+>
+> —the three-eyed crow to [Bran](bran-stark), the moment they meet in the cave, ADWD Bran II (book cite: `sources/chapters/adwd/adwd-bran-02.md:197`). *Bloodraven's own first-person form of the "a thousand eyes, and one" riddle; grounds his `LOCATED_AT` the cave + `MOTIVATES` the coma summons (S146 enrichment).*
+
+> Never fear the darkness, Bran. The strongest trees are rooted in the dark places of the earth. Darkness will be your cloak, your shield, your mother's milk. Darkness will make you strong.
+>
+> —Brynden tutoring [Bran](bran-stark) on the weirwood throne, ADWD Bran III (book cite: `sources/chapters/adwd/adwd-bran-03.md:45`). *The signature mentorship line; anchors `brynden-rivers TUTORS bran-stark` (S146 enrichment).*
+
 ### Quotes about Brynden
 
 > [The Mother](wiki:Mother_(the_Seven)) marked Lord Rivers on the day that he was born, and [Bittersteel](wiki:Aegor_Rivers) marked him once again upon the [Redgrass Field](wiki:Redgrass_Field).(wiki:Brynden_Rivers.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
