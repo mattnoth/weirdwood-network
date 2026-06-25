@@ -122,6 +122,11 @@ While being stabbed by [Bowen Marsh](wiki:Bowen_Marsh) and his cronies in the [m
 
 - OWNS: Jon Snow (track_b: Owner)
 
+
+> The big white direwolf would not lie still. He paced from one end of the armory to the other, past the cold forge and back again. "Easy, Ghost," Jon called. "Down. Sit, Ghost. Down." Yet when he made to touch him, the wolf bristled and bared his teeth.
+
+— Ghost's agitation before the stabbing, ADWD Jon XIII (`sources/chapters/adwd/adwd-jon-13.md:129`) — S145
+
 ## Notes
 
 - The track_b parser classified Ghost as `character.human`; corrected to `character.direwolf` per architecture.md convention #8.

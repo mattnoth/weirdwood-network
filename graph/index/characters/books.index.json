@@ -3,7 +3,7 @@
   "name": "Books",
   "type": "character.human",
   "node_path": "graph/nodes/characters/books.node.md",
-  "generated_at": "2026-06-25T01:43:25.699015+00:00",
+  "generated_at": "2026-06-25T15:10:27.031360+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_pov": 0,

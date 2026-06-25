@@ -2,7 +2,7 @@
 name: "Lord of Bones"
 type: character.human
 slug: lord-of-bones
-aliases: ["Rattleshirt", "Lord o' Bones", "Bag o' Bones", "Bag of Bones", "Mance Rayder"]
+aliases: ["Rattleshirt", "Lord o' Bones", "Bag o' Bones", "Bag of Bones"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_of_Bones"
 bucket_id: characters-other-l

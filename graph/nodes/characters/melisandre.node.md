@@ -166,3 +166,7 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 > Lady Melisandre wore no crown, but every man there knew that she was [Stannis Baratheon](wiki:Stannis_Baratheon)'s real queen, not [the homely woman](wiki:Selyse_Florent) he had left to shiver at [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea).(wiki:Melisandre.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
 >
 > —[Jon Snow](wiki:Jon_Snow)'s thoughts
+
+> The bones help. The bones remember. The strongest glamors are built of such things. A dead man's boots, a hank of hair, a bag of fingerbones. With whispered words and prayer, a man's shadow can be drawn forth from such and draped about another like a cloak. The wearer's essence does not change, only his seeming.
+
+— Melisandre on glamour, ADWD Melisandre I (`sources/chapters/adwd/adwd-melisandre-01.md:267`) — S145

@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-24T05:40:18.857746+00:00",
+  "computed_at": "2026-06-25T15:10:27.748042+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -5405,6 +5405,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "barristan arrests hizdahr": [
+      {
+        "canonical_slug": "barristan-arrests-hizdahr",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "barristan i (the winds of winter)": [
       {
         "canonical_slug": "barristan-i-the-winds-of-winter",
@@ -5443,6 +5451,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "barristan selmy arrests hizdahr zo loraq": [
+      {
+        "canonical_slug": "barristan-arrests-hizdahr",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "barristan the bold": [
@@ -7161,6 +7177,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "ben plumm defects to yunkai": [
+      {
+        "canonical_slug": "ben-plumm-defects-to-yunkai",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "ben plumm theories": [
@@ -9357,6 +9381,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "bodies before the throne": [
+      {
+        "canonical_slug": "tywin-presents-bodies-to-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "bokkoko": [
       {
         "canonical_slug": "bokkoko",
@@ -11155,6 +11187,22 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "bronze harpy": [
+      {
+        "canonical_slug": "bronze-harpy-of-meereen",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
+    "bronze harpy of meereen": [
+      {
+        "canonical_slug": "bronze-harpy-of-meereen",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
+      }
+    ],
     "bronze king": [
       {
         "canonical_slug": "bronze-king",
@@ -11265,6 +11313,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "brown ben plumm defects to the yunkai'i": [
+      {
+        "canonical_slug": "ben-plumm-defects-to-yunkai",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "brown ben's defection": [
+      {
+        "canonical_slug": "ben-plumm-defects-to-yunkai",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "brown bernarr": [
@@ -16067,6 +16131,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "cotter pyke's letter from hardhome": [
+      {
+        "canonical_slug": "hardhome-catastrophe",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "council": [
       {
         "canonical_slug": "small-council",
@@ -19531,6 +19603,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "dead things in the water": [
+      {
+        "canonical_slug": "hardhome-catastrophe",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "deaf della": [
@@ -34315,6 +34395,30 @@
         "source": "all-node-slug:texts"
       }
     ],
+    "hardhome catastrophe": [
+      {
+        "canonical_slug": "hardhome-catastrophe",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "hardhome disaster": [
+      {
+        "canonical_slug": "hardhome-catastrophe",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "hardhome letter": [
+      {
+        "canonical_slug": "hardhome-catastrophe",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "hardhome: an account of three years spent beyond-the-wall among savages, raiders, and woods-witches": [
       {
         "canonical_slug": "hardhome-an-account-of-three-years-spent-beyond-the-wall-among-savages-raiders-and-woods-witches",
@@ -34713,6 +34817,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-name:artifacts"
+      }
+    ],
+    "harpy's shadow war": [
+      {
+        "canonical_slug": "sons-of-the-harpy-insurgency",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "harpy/theories": [
@@ -37285,6 +37397,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "hour of the wolf coup": [
+      {
+        "canonical_slug": "barristan-arrests-hizdahr",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "house algood": [
@@ -42391,6 +42511,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "i see no babes only dragonspawn": [
+      {
+        "canonical_slug": "tywin-presents-bodies-to-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "i want them dead mother and child both": [
       {
         "canonical_slug": "robert-orders-daenerys-assassination",
@@ -43605,6 +43733,14 @@
         "source": "node-slug"
       }
     ],
+    "jaime found seated on the iron throne": [
+      {
+        "canonical_slug": "jaime-found-seated-on-the-iron-throne",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "jaime frees tyrion": [
       {
         "canonical_slug": "jaime-frees-tyrion-from-the-black-cells",
@@ -43667,6 +43803,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-name"
+      }
+    ],
+    "jaime on the iron throne": [
+      {
+        "canonical_slug": "jaime-found-seated-on-the-iron-throne",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jaime opens tyrion's cell": [
@@ -45315,6 +45459,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "jon reads the pink letter aloud": [
+      {
+        "canonical_slug": "the-shieldhall-speech",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jon receives the pink letter": [
       {
         "canonical_slug": "pink-letter-delivered",
@@ -45505,6 +45657,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "jon's shieldhall address": [
+      {
+        "canonical_slug": "the-shieldhall-speech",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jon-orders-slynt-hanged-then-changes-to-beheading": [
@@ -47463,6 +47623,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "kingbreaker": [
+      {
+        "canonical_slug": "barristan-arrests-hizdahr",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "kingdom of omber": [
       {
         "canonical_slug": "kingdom-of-omber",
@@ -47677,6 +47845,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "kingslayer on the throne": [
+      {
+        "canonical_slug": "jaime-found-seated-on-the-iron-throne",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "kingslaying \u2014 jaime slays aerys ii": [
@@ -57927,12 +58103,6 @@
     ],
     "mance rayder": [
       {
-        "canonical_slug": "lord-of-bones",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-alias:characters"
-      },
-      {
         "canonical_slug": "mance-rayder",
         "node_category": "characters",
         "node_type": "character.human",
@@ -58204,6 +58374,14 @@
     "march on winterfell": [
       {
         "canonical_slug": "stannis-march-on-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "march on winterfell announcement": [
+      {
+        "canonical_slug": "the-shieldhall-speech",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -62829,6 +63007,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "ned finds jaime on the throne": [
+      {
+        "canonical_slug": "jaime-found-seated-on-the-iron-throne",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "ned kills lady": [
       {
         "canonical_slug": "ned-kills-lady",
@@ -66711,6 +66897,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "pentos bargain": [
+      {
+        "canonical_slug": "quentyn-contracts-tattered-prince",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "pentoshi": [
       {
         "canonical_slug": "pentoshi",
@@ -69703,12 +69897,36 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "quentyn contracts tattered prince": [
+      {
+        "canonical_slug": "quentyn-contracts-tattered-prince",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "quentyn hires the windblown": [
+      {
+        "canonical_slug": "quentyn-contracts-tattered-prince",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "quentyn martell": [
       {
         "canonical_slug": "quentyn-martell",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "quentyn martell contracts the tattered prince": [
+      {
+        "canonical_slug": "quentyn-contracts-tattered-prince",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "quentyn orders the attack": [
@@ -76253,6 +76471,14 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "second sons go over": [
+      {
+        "canonical_slug": "ben-plumm-defects-to-yunkai",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "second spice war": [
       {
         "canonical_slug": "second-spice-war",
@@ -77089,6 +77315,14 @@
         "source": "node-slug"
       }
     ],
+    "shadow war of meereen": [
+      {
+        "canonical_slug": "sons-of-the-harpy-insurgency",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "shadowbinder": [
       {
         "canonical_slug": "shadowbinder",
@@ -77629,6 +77863,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "shieldhall speech": [
+      {
+        "canonical_slug": "the-shieldhall-speech",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "shields": [
@@ -79271,6 +79513,14 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      }
+    ],
+    "sons of the harpy insurgency": [
+      {
+        "canonical_slug": "sons-of-the-harpy-insurgency",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "sons of the harpy kill twenty nine": [
@@ -84529,6 +84779,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "third treason": [
+      {
+        "canonical_slug": "ben-plumm-defects-to-yunkai",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "third turtle war": [
       {
         "canonical_slug": "third-turtle-war",
@@ -86279,6 +86537,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "towering bronze harpy": [
+      {
+        "canonical_slug": "bronze-harpy-of-meereen",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
     "trader town": [
       {
         "canonical_slug": "trader-town",
@@ -87803,6 +88069,30 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "tywin presents bodies to robert": [
+      {
+        "canonical_slug": "tywin-presents-bodies-to-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "tywin presents the bodies": [
+      {
+        "canonical_slug": "tywin-presents-bodies-to-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tywin presents the bodies before the throne": [
+      {
+        "canonical_slug": "tywin-presents-bodies-to-robert",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "tywin proclaimed savior of the city": [
       {
         "canonical_slug": "tywin-named-savior-of-the-city",
@@ -87838,6 +88128,14 @@
     "tywin's honors ceremony after the blackwater": [
       {
         "canonical_slug": "tywin-named-savior-of-the-city",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tywin's token of fealty": [
+      {
+        "canonical_slug": "tywin-presents-bodies-to-robert",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -94509,8 +94807,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19258,
-    "unique_phrases": 11712
+    "total_node_entries": 19303,
+    "unique_phrases": 11750
   },
   "version": "v1"
 }

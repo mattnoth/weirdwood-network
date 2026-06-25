@@ -83,3 +83,7 @@ Jon: Lord [Mormont's](wiki:Jeor_Mormont) [raven](wiki:Raven) likes fruit and cor
 Pypar: Sam, Sam, Sam the wizard, Sam the wonder, Sam Sam the marvel man, he did it. But when did you hide the raven in the kettle, Sam, and how in seven hells could you be certain it would fly to [Jon](wiki:Jon_Snow)? It would have mucked up everything if the bird had decided to perch on [Janos Slynt](wiki:Janos_Slynt)'s fat head. Samwell: I had nothing to do with the bird. When it flew out of the kettle I almost wet myself.(wiki:Mormont's_raven.cite_ref-Rasos79.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 Do you take me for your [thrall](wiki:Thrall)?(wiki:Mormont's_raven.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
 That bird is too clever by half. It had been the [Old Bear's](wiki:Jeor_Mormont) companion for long years, but that had not stopped it from eating Mormont's face [once he died](wiki:Mutiny_at_Craster's_Keep).(wiki:Mormont's_raven.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
+
+> "Snow," the bird kept screaming. "Snow, snow, snow." Jon shooed him off...
+
+— the assassination-morning omen, ADWD Jon XIII (`sources/chapters/adwd/adwd-jon-13.md:131`) — S145
