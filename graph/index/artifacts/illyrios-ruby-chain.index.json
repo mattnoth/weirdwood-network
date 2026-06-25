@@ -1,0 +1,20 @@
+{
+  "slug": "illyrios-ruby-chain",
+  "name": "Illyrio's ruby chain",
+  "type": "object.artifact",
+  "node_path": "graph/nodes/artifacts/illyrios-ruby-chain.node.md",
+  "generated_at": "2026-06-25T22:28:00.289689+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0,
+    "chapters_in_artifacts_section": 0
+  },
+  "chapters": {
+    "in_artifacts_section": [],
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

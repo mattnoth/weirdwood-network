@@ -3,7 +3,7 @@
   "name": "Book Tower",
   "type": "place.location",
   "node_path": "graph/nodes/locations/book-tower.node.md",
-  "generated_at": "2026-06-25T15:10:20.636608+00:00",
+  "generated_at": "2026-06-25T22:27:59.925431+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_referenced_in": 1,
