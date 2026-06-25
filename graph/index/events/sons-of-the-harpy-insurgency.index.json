@@ -1,0 +1,44 @@
+{
+  "slug": "sons-of-the-harpy-insurgency",
+  "name": "Sons of the Harpy Insurgency",
+  "type": "event.incident",
+  "node_path": "graph/nodes/events/sons-of-the-harpy-insurgency.node.md",
+  "generated_at": "2026-06-25T01:43:21.330404+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "adwd-daenerys-01",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Wars & Conflicts"
+        ],
+        "resolved_via": "unresolved",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "adwd-daenerys-01",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Wars & Conflicts"
+        ],
+        "resolved_via": "unresolved",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

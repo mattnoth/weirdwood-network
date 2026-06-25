@@ -52,3 +52,11 @@ Daenerys: Marriage or carnage. A wedding or a war. Are those my choices?
 > if a husband could help end the slaughter, then she owed it to her dead to marry.
 
 — Daenerys's internal logic connecting Harpy killings to the Hizdahr marriage decision, ADWD Daenerys IV (`sources/chapters/adwd/adwd-daenerys-04.md:67`) [book-cite overlay onto wiki-stated decision]
+
+> and Hizdahr zo Loraq went to his knees, unlaced her sandals, and washed her feet whilst fifty eunuchs sang and ten thousand eyes looked on.
+
+— The Ghiscari foot-washing rite at the wedding (a ceremony Dany first refused), ADWD Daenerys VII (`sources/chapters/adwd/adwd-daenerys-07.md:347`) [S144 harvest]
+
+> Four hours later, they emerged again as man and wife, bound together wrist and ankle with chains of yellow gold.
+
+— The wedding's close; the chains-of-gold image is the arc's defining irony (the freedom-queen bound), ADWD Daenerys VII (`sources/chapters/adwd/adwd-daenerys-07.md:351`) [S144 harvest]

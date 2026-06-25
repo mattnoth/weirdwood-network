@@ -40,3 +40,11 @@ At the reopening of [Daznak's Pit](daznaks-pit) — the fighting games [Daenerys
 > I am looking into hell, but I dare not look away. She had never been so certain of anything. If I run from him, he will burn me and devour me.
 
 — Daenerys's internal state as Drogon bears down on her in the pit; the moment of submission/dominance that precedes her mounting him, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:257`) [book-cite overlay — the drogon.node.md has this as a wiki-cite; this cite is navigable]
+
+> He is fire made flesh, she thought, and so am I.
+
+— The thematic peak of the pit sequence; the identity-merger that precedes her mounting Drogon, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:263`) [S144 harvest]
+
+> Yes, she thought, yes, now, now, do it, do it, take me, take me, FLY!
+
+— The first flight consummated; "FLY!" is the final word of Dany's Meereen arc, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:269`) [S144 harvest]

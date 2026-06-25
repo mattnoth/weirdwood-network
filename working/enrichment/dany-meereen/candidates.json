@@ -1,0 +1,490 @@
+{
+  "new_nodes": [
+    {
+      "slug": "sons-of-the-harpy-insurgency",
+      "type": "event.incident",
+      "name": "Sons of the Harpy Insurgency",
+      "containers": [
+        "essos"
+      ],
+      "aliases": [
+        "the shadow war of Meereen",
+        "the Harpy's shadow war"
+      ],
+      "identity": "The masked-killer insurgency the Sons of the Harpy wage by night against Daenerys's freedmen and Meereenese supporters after she takes the city \u2014 the 'shadow war' that drives her to the Ghiscari marriage and the Brazen Beasts counter-force."
+    },
+    {
+      "slug": "barristan-arrests-hizdahr",
+      "type": "event.incident",
+      "name": "Barristan Selmy Arrests Hizdahr zo Loraq",
+      "containers": [
+        "essos"
+      ],
+      "aliases": [
+        "the Kingbreaker",
+        "the hour of the wolf coup"
+      ],
+      "identity": "During the hour of the wolf after Daenerys flees on Drogon, Ser Barristan Selmy and Skahaz the Shavepate seize King Hizdahr \u2014 Barristan kills the pit fighter Khrazz in single combat and takes Hizdahr prisoner on suspicion of the poisoned locusts and the Harpy killings."
+    },
+    {
+      "slug": "quentyn-contracts-tattered-prince",
+      "type": "event.incident",
+      "name": "Quentyn Martell Contracts the Tattered Prince",
+      "containers": [
+        "essos"
+      ],
+      "aliases": [
+        "the Pentos bargain"
+      ],
+      "identity": "Quentyn Martell secretly meets the Tattered Prince at the Purple Lotus cellar and bargains: the Windblown will help him steal a dragon in exchange for the promise of Pentos."
+    },
+    {
+      "slug": "ben-plumm-defects-to-yunkai",
+      "type": "event.incident",
+      "name": "Brown Ben Plumm Defects to the Yunkai'i",
+      "containers": [
+        "essos"
+      ],
+      "aliases": [
+        "the third treason"
+      ],
+      "identity": "Brown Ben Plumm leads the Second Sons out of Daenerys's service and over to the Yunkai'i once he concludes she cannot loose her chained dragons \u2014 the treason 'for gold' of the three-treasons prophecy."
+    },
+    {
+      "slug": "bronze-harpy-of-meereen",
+      "type": "object.artifact",
+      "name": "Bronze Harpy of Meereen",
+      "containers": [],
+      "aliases": [
+        "the bronze harpy",
+        "the towering bronze harpy"
+      ],
+      "identity": "The great bronze statue of a harpy that stood eight hundred feet up atop the Great Pyramid of Meereen \u2014 a symbol of Ghiscari slaver-power \u2014 until Daenerys ordered it taken down after the conquest."
+    }
+  ],
+  "edges": [
+    {
+      "id": "B1",
+      "source": "sons-of-the-harpy",
+      "type": "AGENT_IN",
+      "target": "sons-of-the-harpy-insurgency",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-02.md:31",
+      "quote": "Every night the shadow war was waged anew beneath the stepped pyramids of Meereen."
+    },
+    {
+      "id": "B2",
+      "source": "sons-of-the-harpy-kill-twenty-nine",
+      "type": "SUB_BEAT_OF",
+      "target": "sons-of-the-harpy-insurgency",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-queens-hand-01.md:61",
+      "quote": "The Sons of the Harpy had resumed their shadow war two days ago."
+    },
+    {
+      "id": "B3",
+      "source": "brazen-beasts",
+      "type": "OPPOSES",
+      "target": "sons-of-the-harpy-insurgency",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-02.md:55",
+      "quote": "Skahaz, make me a new watch, made up in equal parts of shavepates and freedmen."
+    },
+    {
+      "id": "B4",
+      "source": "skahaz-mo-kandaq",
+      "type": "OPPOSES",
+      "target": "sons-of-the-harpy-insurgency",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-02.md:39",
+      "quote": "Give them to the Shavepate."
+    },
+    {
+      "id": "B7",
+      "source": "sons-of-the-harpy-insurgency",
+      "type": "MOTIVATES",
+      "target": "daenerys-targaryen",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-daenerys-04.md:67",
+      "quote": "if a husband could help end the slaughter, then she owed it to her dead to marry"
+    },
+    {
+      "id": "B8",
+      "source": "sons-of-the-harpy-insurgency",
+      "type": "ENABLES",
+      "target": "wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-daenerys-04.md:141",
+      "quote": "Give me ninety days and ninety nights without a murder, and I will know that you are worthy of a throne."
+    },
+    {
+      "id": "B9",
+      "source": "hizdahr-zo-loraq",
+      "type": "SUSPECTED_OF",
+      "target": "sons-of-the-harpy-insurgency",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-the-kingbreaker-01.md:277",
+      "quote": "You say that, yet when you told them to stop killing they obeyed."
+    },
+    {
+      "id": "B10",
+      "source": "hizdahr-zo-loraq",
+      "type": "SUSPECTED_OF",
+      "target": "sons-of-the-harpy-kill-twenty-nine",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-the-kingbreaker-01.md:277",
+      "quote": "Why would they do that if you were not one of them?"
+    },
+    {
+      "id": "B17",
+      "source": "reznak-and-skahaz-advise-on-the-murders",
+      "type": "SUB_BEAT_OF",
+      "target": "sons-of-the-harpy-insurgency",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-02.md:23",
+      "quote": "The rest she had from Skahaz, Reznak, and Grey Worm, when they were ushered into her presence."
+    },
+    {
+      "id": "B11",
+      "source": "poisoned-locusts",
+      "type": "WIELDED_IN",
+      "target": "drogon-returns-to-daznak-pit",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-daenerys-09.md:109",
+      "quote": "a big bowl of honeyed locusts"
+    },
+    {
+      "id": "B12",
+      "source": "hizdahr-zo-loraq",
+      "type": "SUSPECTED_OF",
+      "target": "poisoned-locusts",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-the-kingbreaker-01.md:257",
+      "quote": "You urged Her Grace to try the locusts but never tasted one yourself."
+    },
+    {
+      "id": "B13",
+      "source": "sons-of-the-harpy",
+      "type": "SUSPECTED_OF",
+      "target": "poisoned-locusts",
+      "tier": 3,
+      "ref": "sources/chapters/adwd/adwd-the-queensguard-01.md:155",
+      "quote": "The Sons of the Harpy took his daughter and swore she would be returned unharmed once the queen was dead."
+    },
+    {
+      "id": "B15",
+      "source": "belwas",
+      "type": "VICTIM_IN",
+      "target": "drogon-returns-to-daznak-pit",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-09.md:231",
+      "quote": "Strong Belwas gave a moan, stumbled from his seat, and fell to his knees."
+    },
+    {
+      "id": "B16",
+      "source": "daenerys-targaryen",
+      "type": "VICTIM_IN",
+      "target": "poisoned-locusts",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-the-queens-hand-01.md:295",
+      "quote": "In return he gave her poisoned locusts."
+    },
+    {
+      "id": "A_baco",
+      "source": "barristan-selmy",
+      "type": "COMMANDS_IN",
+      "target": "barristan-arrests-hizdahr",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-kingbreaker-01.md:295",
+      "quote": "I am here for Hizdahr,"
+    },
+    {
+      "id": "A_skco",
+      "source": "skahaz-mo-kandaq",
+      "type": "AGENT_IN",
+      "target": "barristan-arrests-hizdahr",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-kingbreaker-01.md:13",
+      "quote": "All my men will be in place. The word is Groleo."
+    },
+    {
+      "id": "A_bbco",
+      "source": "brazen-beasts",
+      "type": "PARTICIPATES_IN",
+      "target": "barristan-arrests-hizdahr",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-kingbreaker-01.md:173",
+      "quote": "Six Brazen Beasts were with him."
+    },
+    {
+      "id": "A_badv",
+      "source": "barristan-selmy",
+      "type": "ADVISES",
+      "target": "daenerys-targaryen",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-05.md:259",
+      "quote": "I do not think we should allow them to invest us."
+    },
+    {
+      "id": "A_bmo",
+      "source": "barristan-selmy",
+      "type": "MOURNS",
+      "target": "groleo",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-discarded-knight-01.md:79",
+      "quote": "Groleo was a good man. He did not deserve this end."
+    },
+    {
+      "id": "A_dapo",
+      "source": "daario-naharis",
+      "type": "PRISONER_OF",
+      "target": "yunkai",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-queensguard-01.md:15",
+      "quote": "Jhogo, Daario Naharis, Admiral Groleo, and Hero of the Unsullied remained hostages of the Yunkai'i."
+    },
+    {
+      "id": "A_grpo",
+      "source": "groleo",
+      "type": "PRISONER_OF",
+      "target": "yunkai",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-queensguard-01.md:15",
+      "quote": "Jhogo, Daario Naharis, Admiral Groleo, and Hero of the Unsullied remained hostages of the Yunkai'i."
+    },
+    {
+      "id": "A_grkb",
+      "source": "groleo",
+      "type": "KILLED_BY",
+      "target": "yunkai",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-discarded-knight-01.md:65",
+      "quote": "Bloodbeard pulled a severed head from his sack and flung it at the seneschal."
+    },
+    {
+      "id": "A_bpco",
+      "source": "ben-plumm",
+      "type": "COMMANDS_IN",
+      "target": "ben-plumm-defects-to-yunkai",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-08.md:75",
+      "quote": "We went over to the winning side, is all. Same as we done before."
+    },
+    {
+      "id": "A_ssag",
+      "source": "second-sons",
+      "type": "AGENT_IN",
+      "target": "ben-plumm-defects-to-yunkai",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-08.md:75",
+      "quote": "It weren't all me, neither. I put it to my men."
+    },
+    {
+      "id": "A_rzadv",
+      "source": "reznak-mo-reznak",
+      "type": "ADVISES",
+      "target": "daenerys-targaryen",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-05.md:229",
+      "quote": "take the noble Hizdahr for your king at once"
+    },
+    {
+      "id": "A_gladv",
+      "source": "galazza-galare",
+      "type": "ADVISES",
+      "target": "daenerys-targaryen",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-05.md:135",
+      "quote": "We must pray,"
+    },
+    {
+      "id": "A_mgco",
+      "source": "marghaz-zo-loraq",
+      "type": "COMMANDS",
+      "target": "brazen-beasts",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-discarded-knight-01.md:23",
+      "quote": "Marghaz zo Loraq, the king's cousin, new commander of the Brazen Beasts."
+    },
+    {
+      "id": "A_hzap",
+      "source": "hizdahr-zo-loraq",
+      "type": "APPOINTS",
+      "target": "marghaz-zo-loraq",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-queensguard-01.md:87",
+      "quote": "given command of the Brazen Beasts to his cousin Marghaz zo Loraq"
+    },
+    {
+      "id": "A_bpro",
+      "source": "barristan-selmy",
+      "type": "PROTECTS",
+      "target": "quentyn-martell",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-discarded-knight-01.md:133",
+      "quote": "You and your friends should go down the steps and leave."
+    },
+    {
+      "id": "A_qneg",
+      "source": "quentyn-martell",
+      "type": "NEGOTIATES_WITH",
+      "target": "tattered-prince",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-spurned-suitor-01.md:185",
+      "quote": "I need you to help me steal a dragon."
+    },
+    {
+      "id": "A_qcon",
+      "source": "quentyn-martell",
+      "type": "CONTRACTED_WITH",
+      "target": "tattered-prince",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-spurned-suitor-01.md:193",
+      "quote": "What I want,"
+    },
+    {
+      "id": "A_qag",
+      "source": "quentyn-martell",
+      "type": "AGENT_IN",
+      "target": "quentyn-contracts-tattered-prince",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-spurned-suitor-01.md:185",
+      "quote": "I need you to help me steal a dragon."
+    },
+    {
+      "id": "A_tpag",
+      "source": "tattered-prince",
+      "type": "AGENT_IN",
+      "target": "quentyn-contracts-tattered-prince",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-spurned-suitor-01.md:193",
+      "quote": "What I want,"
+    },
+    {
+      "id": "A_qen",
+      "source": "quentyn-contracts-tattered-prince",
+      "type": "ENABLES",
+      "target": "quentyn-orders-the-attack",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-dragontamer-01.md:99",
+      "quote": "It's dog."
+    },
+    {
+      "id": "A_gwco",
+      "source": "grey-worm",
+      "type": "COMMANDS",
+      "target": "unsullied",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-queens-hand-01.md:145",
+      "quote": "Grey Worm said only that the Unsullied would obey, whatever might be asked of them."
+    },
+    {
+      "id": "A_unco",
+      "source": "unsullied",
+      "type": "PARTICIPATES_IN",
+      "target": "siege-of-meereen",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-the-queens-hand-01.md:55",
+      "quote": "The Unsullied man the walls and towers, ready for any assault."
+    },
+    {
+      "id": "D1",
+      "source": "doran-reveals-fire-and-blood-pact",
+      "type": "MOTIVATES",
+      "target": "quentyn-orders-the-attack",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-the-spurned-suitor-01.md:71",
+      "quote": "This is what I have to do. For Dorne. For my father."
+    },
+    {
+      "id": "D2",
+      "source": "dany-mounts-drogon-and-flees-meereen",
+      "type": "ENABLES",
+      "target": "quentyn-orders-the-attack",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-the-spurned-suitor-01.md:127",
+      "quote": "Your bride flew off on a dragon."
+    },
+    {
+      "id": "D4",
+      "source": "dragon-hatching-on-drogo-pyre",
+      "type": "ENABLES",
+      "target": "fall-of-astapor",
+      "tier": 2,
+      "ref": "sources/chapters/asos/asos-daenerys-01.md:257",
+      "quote": "Dragons will be as great a wonder in Astapor as they were in Qarth."
+    },
+    {
+      "id": "D5",
+      "source": "dany-mounts-drogon-and-flees-meereen",
+      "type": "TRIGGERS",
+      "target": "second-siege-of-meereen",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-the-queensguard-01.md:159",
+      "quote": "Daenerys gone, Yurkhaz dead. In place of one old lion, a pack of jackals."
+    },
+    {
+      "id": "C_drag",
+      "source": "drogon",
+      "type": "AGENT_IN",
+      "target": "drogon-returns-to-daznak-pit",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-09.md:233",
+      "quote": "His scales were black, his eyes and horns and spinal plates blood red."
+    },
+    {
+      "id": "C_drloc",
+      "source": "drogon-returns-to-daznak-pit",
+      "type": "LOCATED_AT",
+      "target": "daznaks-pit",
+      "tier": 1,
+      "ref": "sources/chapters/adwd/adwd-daenerys-09.md:103",
+      "quote": "At the gates of Daznak's Pit two towering bronze warriors stood locked in mortal combat."
+    },
+    {
+      "id": "C_bhloc",
+      "source": "bronze-harpy-of-meereen",
+      "type": "LOCATED_AT",
+      "target": "great-pyramid",
+      "tier": 1,
+      "ref": "sources/chapters/asos/asos-daenerys-05.md:11",
+      "quote": "the top of the Great Pyramid, a monstrous thing eight hundred feet tall with a towering bronze harpy at its top"
+    },
+    {
+      "id": "C_bhdep",
+      "source": "bronze-harpy-of-meereen",
+      "type": "DEPICTED_IN",
+      "target": "siege-of-meereen",
+      "tier": 2,
+      "ref": "sources/chapters/asos/asos-daenerys-05.md:11",
+      "quote": "the top of the Great Pyramid, a monstrous thing eight hundred feet tall with a towering bronze harpy at its top"
+    },
+    {
+      "id": "C_tksac",
+      "source": "tokar",
+      "type": "SACRED_TO",
+      "target": "ghiscari",
+      "tier": 2,
+      "ref": "sources/chapters/adwd/adwd-daenerys-01.md:99",
+      "quote": "The Mother of Dragons must don the tokar"
+    },
+    {
+      "id": "C_qf1",
+      "source": "quaithe",
+      "type": "FORESHADOWS",
+      "target": "dany-mounts-drogon-and-flees-meereen",
+      "tier": 3,
+      "ref": "sources/chapters/adwd/adwd-daenerys-02.md:139",
+      "quote": "Soon comes the pale mare, and after her the others."
+    },
+    {
+      "id": "C_qf2",
+      "source": "quaithe",
+      "type": "FORESHADOWS",
+      "target": "second-siege-of-meereen",
+      "tier": 3,
+      "ref": "sources/chapters/adwd/adwd-daenerys-02.md:139",
+      "quote": "Soon comes the pale mare, and after her the others."
+    }
+  ]
+}

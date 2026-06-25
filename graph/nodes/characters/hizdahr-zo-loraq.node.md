@@ -123,3 +123,7 @@ Several of Daenerys's supporters, such as Ser Barristan and Skahaz mo Kandaq, su
 > Naked men felt vulnerable and were less inclined to acts of suicidal heroism.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
 >
 > —thoughts of [Barristan Selmy](wiki:Barristan_Selmy), prior to capturing Hizdahr
+
+> A queer look passed across Hizdahr zo Loraq's long, pale face—part fear, part lust, part rapture. He licked his lips.
+
+— Hizdahr's reaction to Drogon's arrival at Daznak; the "lust, rapture" tell that feeds the Harpy-suspect reading, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:235`) [S144 harvest]
