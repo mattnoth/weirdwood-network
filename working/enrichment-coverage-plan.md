@@ -83,6 +83,11 @@ manipulators (Varys, Petyr, Bloodraven) whose webs no single arc fully covers �
 
 ## CLASS B — L2 granular sub-plots inside the 9 enriched arcs. Top picks ranked.
 
+> **✅ DONE S151 (the cheap-L2 round, all in one session):** **B1 Frey-pies/GNC**, **B2 Robert Strong**, **B3
+> gravedigger**, **B4 Ned black-cells**, **B7 Kingslayer-quote**. Remaining unrun: **B5 Antler Men**, **B6 Ice→
+> Widow's-Wail+Oathkeeper** (REFORGED_INTO still 0-instantiation — check node existence), **B8 Lancel AGENT_IN
+> Robert's death**, + the Blackwater ship-roster Python batch (deterministic, not a dip).
+
 (Full per-arc enumeration in the board output; these are the highest-value, filtered against readiness +
 cross-arc payoff + reader-salience.)
 
@@ -122,6 +127,31 @@ character dips. Everyone else's web is a by-product of their arc (do the arc ins
 | **C6** | **Daenerys** | 304/0 | the MOTIVATES substrate above the Essos spine; Westeros seams (RR trauma). Mostly gated above that (Azor Ahai). | Dany/Meereen (A1.1) — do the arc |
 
 **Intentionally excluded:** Tyrion (362/33 — saturated), Cersei (291/28 — her arc-dip ran S140).
+
+---
+
+## CLASS D — big event clusters NOT in the A/B/C lists (Matt S151). Candidates to scope.
+
+> **Added S151 (2026-06-26).** After the cheap-L2 round, Matt: *"I think there are some other maybe not major,
+> but big event clusters we can do that are not listed."* He's right — the A/B/C lists are organized around POV
+> arcs + the 9 enriched KL/Riverlands arcs, so several large **event clusters** that aren't any single POV's "arc"
+> fell through. These are mostly **current-narrative battle/spectacle/journey clusters** (not deep-lore — that's a
+> separate gated tier). Ranked by enrichment value (reader-salience × current density × cross-arc payoff). NOT yet
+> graph-verified for existing density — a scoping pass should baseline each before picking. Treat like Class A/B:
+> build the spine where thin, then enrich.
+
+| # | Cluster | Why it's big & not-listed | Likely current state | Notes |
+|:--:|---------|---------------------------|----------------------|-------|
+| **D1** | **Battle of Castle Black / the Wall defense** (ASOS) | Mance's assault on the Wall, Jon's defense, the giants & mammoths, the burning of the gate, Ygritte's death, Donal Noye, the relief by Stannis. A MAJOR current-narrative battle that no single POV "arc" owns (Jon/Wall S145 enriched the *leadership* arc, not this battle). | likely thin/islanded battle nodes | Top pick — highest salience, clearly current, cross-cuts Jon + wildlings + Stannis. |
+| **D2** | **The Hand's Tourney** (AGOT) | The KL spectacle: Loras unhorses Gregor, **Gregor beheads his own horse + attacks Loras**, the Hound saves Loras, the melee, Littlefinger's bets. Character-rich KL set-piece feeding Gregor/Sandor/Loras/Renly. | scattered | Great whodunit-free character-wiring dip; pairs with the Robert-Strong / Clegane material. |
+| **D3** | **Greyjoy's Rebellion** (289 AC) | Balon's first crown, the burning of the Lannister fleet at Lannisport, the siege & storming of Pyke, Theon taken hostage, Euron/Victarion, Robert+Ned+Stannis+Jaime roles, Rodrik Greyjoy & Maron killed. | partly built (some nodes) | Load-bearing backstory hub — connects Iron Islands + Starks + Baratheons + Lannisters. |
+| **D4** | **The Riot of King's Landing** (ACOK) | The bread riots, the High Septon torn apart, Sansa nearly raped & rescued by the Hound, Tyrion struck, Lollys assaulted. A vivid KL mob event. | likely thin | Smaller; pairs with the Blackwater/KL cluster. |
+| **D5** | **Arya's AGOT→ACOK flight & Harrenhal** | Yoren's recruits, the gold-cloak attack & Needle's first kill, the journey north, the capture, **Harrenhal** (the Tickler, weasel soup, Jaqen's three deaths, the iron coin's origin), the Bloody Mummers. | event nodes mostly absent | Big current-narrative journey cluster; the *origin* of the iron-coin seam the Arya/Braavos arc (S150) hangs off. |
+| **D6** | **The Rebellion prelude** (Defiance of Duskendale 277 → Tourney at Harrenhal 281) | Aerys's captivity & Barristan's rescue (the madness turning-point), the "year of the false spring," Rhaegar crowns Lyanna. Deep backstory but **theory-adjacent** (Lyanna/R+L) — evidence edges only, readings stay gated. | partly built (KotLT from RR S133) | Lower priority (backstory + partly gated); the RR enrichment (S133) already touched the edges. |
+
+**Also possible but deferred as pure deep-lore (a separate gated tier, NOT current-narrative):** the Dance of the
+Dragons, Aegon's Conquest, the Doom of Valyria, the Long Night. These are TWOIAF/Fire-&-Blood layers — out of scope
+until a deliberate historical-layer track opens.
 
 ---
 

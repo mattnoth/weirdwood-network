@@ -786,6 +786,7 @@
     "cotter pyke's letter from hardhome": "hardhome-catastrophe",
     "crannogman spots his attackers masters": "the-crannogman-spots-his-attackers-masters",
     "crannogman spots his attackers' masters": "the-crannogman-spots-his-attackers-masters",
+    "creation of robert strong": "creation-of-robert-strong",
     "crew calls for moqorro s death": "the-crew-calls-for-moqorro-s-death",
     "crew calls for moqorro's death": "the-crew-calls-for-moqorro-s-death",
     "criminal beheaded in davos's place": "execution-of-davos-lookalike-at-white-harbor",
@@ -1393,6 +1394,7 @@
     "freak's execution": "tyrion-processes-the-assassination-attempt",
     "freeing of tyrion lannister": "jaime-frees-tyrion-from-the-black-cells",
     "frey envoys confirm manderly executed the onion lord": "frey-witnesses-attest-davos-dead-at-small-council",
+    "frey pies": "manderly-bakes-the-frey-pies",
     "frey small-council testimony about davos's head": "frey-witnesses-attest-davos-dead-at-small-council",
     "frey witnesses attest davos dead at small council": "frey-witnesses-attest-davos-dead-at-small-council",
     "frey witnesses attest to davos's death at cersei's small council": "frey-witnesses-attest-davos-dead-at-small-council",
@@ -1407,6 +1409,7 @@
     "frog's execution": "death-of-quentyn-martell",
     "galazza counsels the ghiscari marriage": "galazza-counsels-the-ghiscari-marriage",
     "galazza urges dany to wed a ghiscari king": "galazza-counsels-the-ghiscari-marriage",
+    "gaoler visit to eddard stark": "varys-visits-ned-in-the-black-cells",
     "garlan tyrell routs stannis as renly s ghost": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
     "garlan tyrell routs stannis as renly's ghost": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
     "gendry captured": "gendry-captured",
@@ -1425,6 +1428,7 @@
     "golden company sails for westeros": "golden-company-sails-for-westeros",
     "golden company sails west": "golden-company-sails-for-westeros",
     "golden wedding": "golden-wedding",
+    "grand northern conspiracy": "grand-northern-conspiracy",
     "great battle": "war-for-the-dawn",
     "great council": "great-council",
     "great council of 101 ac": "great-council-of-101-ac",
@@ -2125,8 +2129,11 @@
     "maidens day ball": "maidens-day-ball",
     "maidens day cattle show": "maidens-day-ball",
     "maiming of myrcella": "myrcella-is-maimed-by-darkstar",
+    "making of robert strong": "creation-of-robert-strong",
     "mammoth attacks gate below": "mammoth-attacks-gate-below",
     "mance rayder brought to execution": "mance-rayder-brought-to-execution",
+    "manderly bakes the frey pies": "manderly-bakes-the-frey-pies",
+    "manderly pies": "manderly-bakes-the-frey-pies",
     "manderly's fake execution of davos": "wyman-manderly-stages-fake-execution-of-davos",
     "march on winterfell": "stannis-march-on-winterfell",
     "march on winterfell announcement": "the-shieldhall-speech",
@@ -2204,7 +2211,6 @@
     "mother of dragons": "dragon-hatching-on-drogo-pyre",
     "mountain clansmen attack": "mountain-clansmen-attack",
     "muddy mess": "battle-of-the-kingsroad",
-    "mummer's farce": "wyman-manderly-stages-fake-execution-of-davos",
     "murder announced": "murder-announced",
     "murder of a toddler and his mother": "murder-of-a-toddler-and-his-mother",
     "murder of aegon targaryen (son of rhaegar)": "murder-of-elia-martell-and-rhaegars-children",
@@ -2434,7 +2440,9 @@
     "no-nose murdered": "tyrion-processes-the-assassination-attempt",
     "no-nose's death": "tyrion-processes-the-assassination-attempt",
     "no-nose's execution": "tyrion-processes-the-assassination-attempt",
+    "north remembers plot": "grand-northern-conspiracy",
     "north secedes": "robb-proclaimed-king-in-the-north",
+    "northern conspiracy": "grand-northern-conspiracy",
     "northern lords proclaim robb king": "robb-proclaimed-king-in-the-north",
     "notable hostage fathers identified": "notable-hostage-fathers-identified",
     "nymeria's war": "nymerias-war",
@@ -2522,6 +2530,7 @@
     "poisoned wine attempt": "the-wine-merchant-attempts-to-poison-dany",
     "poisoning of joffrey baratheon": "death-of-joffrey-baratheon",
     "poisoning of jon arryn": "murder-of-jon-arryn",
+    "pork pies": "manderly-bakes-the-frey-pies",
     "post battle orders": "post-battle-orders",
     "post ceremony congratulations": "post-ceremony-congratulations",
     "post-battle orders": "post-battle-orders",
@@ -2626,6 +2635,8 @@
     "quiet wolf's death": "execution-of-eddard-stark",
     "quiet wolf's execution": "execution-of-eddard-stark",
     "quintain": "martial-games",
+    "qyburn's experiments on gregor clegane": "creation-of-robert-strong",
+    "qyburn's work in the black cells": "creation-of-robert-strong",
     "raid of the tower of joy": "combat-at-the-tower-of-joy",
     "raid on saltpans": "raid-on-saltpans",
     "raid on the tower of joy": "combat-at-the-tower-of-joy",
@@ -3236,9 +3247,11 @@
     "vanguard breaks stannis": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
     "varys confirms cersei s role in robert s death": "varys-confirms-cersei-s-role-in-robert-s-death",
     "varys confirms cersei's role in robert's death": "varys-confirms-cersei-s-role-in-robert-s-death",
+    "varys persuades ned to confess": "varys-visits-ned-in-the-black-cells",
     "varys smuggles tyrion out of king's landing": "varys-smuggles-tyrion-out-of-kings-landing",
     "varys smuggles tyrion out of kings landing": "varys-smuggles-tyrion-out-of-kings-landing",
     "varys spirits tyrion away": "varys-smuggles-tyrion-out-of-kings-landing",
+    "varys visits ned in the black cells": "varys-visits-ned-in-the-black-cells",
     "varys's plan to free tyrion": "jaime-frees-tyrion-from-the-black-cells",
     "victarion admits euron s role in his wife s death": "victarion-admits-euron-s-role-in-his-wife-s-death",
     "victarion admits euron's role in his wife's death": "victarion-admits-euron-s-role-in-his-wife-s-death",
@@ -3313,6 +3326,7 @@
     "wedding of tyrek lannister and ermesande hayford": "wedding-of-tyrek-lannister-and-ermesande-hayford",
     "wedding of tyrion lannister and sansa stark": "wedding-of-tyrion-lannister-and-sansa-stark",
     "wedding of walder frey and joyeuse erenford": "wedding-of-walder-frey-and-joyeuse-erenford",
+    "wedding pies at winterfell": "manderly-bakes-the-frey-pies",
     "wedding tourney at whitewalls": "wedding-tourney-at-whitewalls",
     "weddings of catelyn and lysa tully": "weddings-of-catelyn-and-lysa-tully",
     "wendel manderly assassinated": "ser-wendel-manderly-is-killed",
@@ -7552,6 +7566,22 @@
         "source": "victim-index"
       }
     ],
+    "mummer's farce": [
+      {
+        "alias": "mummer's farce",
+        "canonical_slug": "grand-northern-conspiracy",
+        "confidence": "high",
+        "raw": "the mummer's farce",
+        "source": "node-frontmatter-alias"
+      },
+      {
+        "alias": "mummer's farce",
+        "canonical_slug": "wyman-manderly-stages-fake-execution-of-davos",
+        "confidence": "high",
+        "raw": "the mummer's farce",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "murder of aegon the conqueror with teats": [
       {
         "alias": "murder of aegon the conqueror with teats",
@@ -10035,21 +10065,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-26T14:18:03.078178+00:00",
+  "computed_at": "2026-06-26T15:30:50.353526+00:00",
   "stats": {
-    "ambiguous_collisions": 344,
+    "ambiguous_collisions": 345,
     "source_breakdown": {
-      "node-frontmatter-alias": 673,
-      "node-name": 710,
-      "node-slug": 710,
+      "node-frontmatter-alias": 687,
+      "node-name": 714,
+      "node-slug": 714,
       "victim-index": 2775,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 5770,
-    "unambiguous_lookups": 3720,
-    "unique_phrases": 4064
+    "total_entries_scanned": 5792,
+    "unambiguous_lookups": 3734,
+    "unique_phrases": 4079
   },
   "version": "v2"
 }

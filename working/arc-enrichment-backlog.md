@@ -54,8 +54,15 @@ where S136 tripped:
   Reek tangle). **UPDATE (S150): A2.3 Arya/Braavos DONE** — the THIRD build+enrich, the most architecturally-
   isolated arc; built the whole Braavos identity-dissolution spine from scratch (8 events + iron-coin/finger-knife;
   +44 edges−1), `--full-chain` now walks the terminal assassination 7 edges back to the iron-coin (Harrenhal
-  seam). Next = the cheap **L2 round (B1 Frey-pies/GNC** — the Manderly Rat-Cook seed is now harvested)
-  OR the remaining A2 arcs (Tyrion-Essos, WO5K-battles, Jaime-Riverlands, Stannis).
+  seam). **UPDATE (S151): the cheap L2 ROUND is DONE — all 5 in one session** (B1 Frey-pies/GNC, B2 Robert
+  Strong, B3 gravedigger, B4 Ned black-cells, B7 Kingslayer; Matt relaxed one-dip-per-session: "you should be
+  able to do all of that"). +4 nodes / net +34 edges (22,950→22,984); fresh-verify 9C/2A/0R, gated-boundaries
+  PASS×3 (Robert-Strong≠Gregor, gravedigger≠Sandor, Frey-pies=implication all held); 0 drift. **DECISION: the 3
+  `*-theories` dead-end nodes were NOT wired** (only 1/45 theory nodes has any edge — no convention; theory-track-
+  gated) — the dead-ends are addressed by the evidence CLUSTER. Next = the remaining **A2 arcs** (A2.4 Tyrion-Essos,
+  A2.5 WO5K-battles, A2.6 Jaime-Riverlands, A2.7 Stannis) OR the **big event clusters NOT in the A2 list** (new
+  **Class D** in `working/enrichment-coverage-plan.md` — Matt S151 flagged these) OR the **OVERDUE harvest pass**
+  (225 open rows, well over the ~20-30 trigger).
   (These are small
   next to "WO5K," but they are the TOP level — because they are the graspable objects.)
 - **Level 2 — granular sub-plots WITHIN one arc** = the threads *inside* a level-1 event. Inside Ned's-downfall:

@@ -190,6 +190,10 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 
 ### Quotes by Jaime
 
+> "By what right does the wolf judge the lion? By what right?"
+
+— Jaime on Ned Stark judging him for the Kingslaying without a hearing, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:71`)
+
 > The things I do [for love](wiki:Cersei_Lannister).(wiki:Jaime_Lannister.cite_ref-Ragot8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
 >
 > —Jaime pushing [Bran Stark](wiki:Bran_Stark) from the [First Keep](wiki:First_Keep)

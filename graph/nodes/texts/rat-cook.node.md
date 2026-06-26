@@ -33,7 +33,7 @@ While in the Nightfort, [Bran Stark](wiki:Bran_Stark) remembers the tale of the 
 
 ### A Dance with Dragons[ ]
 
-At the [wedding of Ramsay Bolton and Arya Stark](wiki:Wedding_of_Ramsay_Bolton_and_Arya_Stark) at [Winterfell](wiki:Winterfell), Lord [Wyman Manderly](wiki:Wyman_Manderly) asks [Abel the Bard](wiki:Mance_Rayder) to sing about the Rat Cook after he serves [three large pork pies](wiki:Frey_Pies/Theories).(wiki:Rat_Cook.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+At the [wedding of Ramsay Bolton and Arya Stark](wiki:Wedding_of_Ramsay_Bolton_and_Arya_Stark) at [Winterfell](wiki:Winterfell), Lord [Wyman Manderly](wiki:Wyman_Manderly) asks [Abel the Bard](wiki:Mance_Rayder) to sing about the Rat Cook after he serves [three large pork pies](wiki:Frey_Pies/Theories).(wiki:Rat_Cook.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) **Book-cite overlay (S151):** Wyman, carried drunk from the hall, mutters *"We should have a song about the Rat Cook ... Singer, give us a song about the Rat Cook"* (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:175`); this node is the target of [manderly-bakes-the-frey-pies](manderly-bakes-the-frey-pies) ECHOES rat-cook.
 
 ## Quotes
 

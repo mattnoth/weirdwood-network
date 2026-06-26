@@ -31,3 +31,15 @@ During the Sack of King's Landing, Ser Jaime Lannister of the Kingsguard slew th
 > "When I came on Rossart, he was dressed as a common man-at-arms, hurrying to a postern gate. I slew him first. Then I slew Aerys, before he could find someone else to carry his message to the pyromancers."
 
 — Jaime to Brienne, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:63`)
+
+> "So His Grace commanded his alchemists to place caches of wildfire all over King's Landing. Beneath Baelor's Sept and the hovels of Flea Bottom, under stables and storehouses, at all seven gates, even in the cellars of the Red Keep itself."
+
+— Jaime on the wildfire caches that made the Mad King's burn-plan real, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:53`)
+
+> "The traitors want my city, I heard him tell Rossart, but I'll give them naught but ashes. Let Robert be king over charred bones and cooked meat."
+
+— Aerys II's burn-order, recalled by Jaime, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:57`)
+
+> Beneath the empty eyes of the skulls on the walls, Jaime hauled the last dragonking bodily off the steps, squealing like a pig and smelling like a privy. A single slash across his throat was all it took to end it.
+
+— the killing at the foot of the Iron Throne, ASOS Jaime II (`sources/chapters/asos/asos-jaime-02.md:295`)

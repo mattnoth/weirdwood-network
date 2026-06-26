@@ -1,0 +1,13 @@
+# 12 existing edges BETWEEN two core kingslayer-quote nodes (the re-mint dedup set)
+aerys-commands-the-city-burned	TRIGGERS	slaying-of-aerys-ii-the-kingslaying	T2
+aerys-ii-targaryen	COMMANDS_IN	aerys-commands-the-city-burned	T1
+aerys-ii-targaryen	COMMANDS_IN	wildfire-plot	T1
+aerys-ii-targaryen	FEARS	jaime-lannister	T1
+aerys-ii-targaryen	VICTIM_IN	slaying-of-aerys-ii-the-kingslaying	T1
+jaime-lannister	AGENT_IN	slaying-of-aerys-ii-the-kingslaying	T1
+jaime-lannister	KILLS	aerys-ii-targaryen	T1
+jaime-lannister	RESENTS	aerys-ii-targaryen	T1
+jaime-lannister	SERVES	aerys-ii-targaryen	T1
+jaime-lannister	VOWS_TO	aerys-ii-targaryen	T1
+wildfire-plot	ENABLES	aerys-commands-the-city-burned	T1
+wildfire-plot	MOTIVATES	slaying-of-aerys-ii-the-kingslaying	T1
