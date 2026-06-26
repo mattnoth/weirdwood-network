@@ -1,0 +1,18 @@
+{
+  "slug": "death-of-ygritte",
+  "name": "Death of Ygritte",
+  "type": "event.death",
+  "node_path": "graph/nodes/events/death-of-ygritte.node.md",
+  "generated_at": "2026-06-26T21:00:16.529030+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

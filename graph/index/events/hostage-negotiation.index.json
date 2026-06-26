@@ -3,7 +3,7 @@
   "name": "Hostage negotiation",
   "type": "event.capture",
   "node_path": "graph/nodes/events/hostage-negotiation.node.md",
-  "generated_at": "2026-06-26T19:44:52.081495+00:00",
+  "generated_at": "2026-06-26T21:00:16.551790+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

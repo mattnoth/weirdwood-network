@@ -1,0 +1,270 @@
+TOTAL edges touching core set: 814 raw / 807 unique (type,s,t)
+INTERNAL (both endpoints in core): 180
+
+==== INTERNAL CLUSTER EDGES (dedup) ====
+  aemon-targaryen-son-of-maekar-i            DISTRUSTS        melisandre                                 [1] sources/chapters/affc/affc-samwell-04.md:33
+  aemon-targaryen-son-of-maekar-i            HEALS            jon-snow                                   [1] sources/chapters/asos/asos-jon-06.md:129
+  aemon-targaryen-son-of-maekar-i            PROTECTS         jon-snow                                   [1] sources/chapters/asos/asos-jon-09.md:135
+  aemon-targaryen-son-of-maekar-i            RESPECTS         jon-snow                                   [1] sources/chapters/agot/agot-jon-05.md:149
+  aemon-targaryen-son-of-maekar-i            TUTORS           jon-snow                                   [1] sources/chapters/asos/asos-jon-08.md:159
+  attack-on-castle-black                     CAUSES           battle-beneath-the-wall                    [3] sources/chapters/asos/asos-jon-08.md:55
+  battle-beneath-the-wall                    CAUSES           mance-rayder-brought-to-execution          [2] sources/chapters/asos/asos-jon-11.md:155
+  bowen-marsh                                BETRAYS          jon-snow                                   [1] sources/chapters/adwd/adwd-jon-13.md:131
+  bowen-marsh                                DISTRUSTS        jon-snow                                   [1] sources/chapters/asos/asos-samwell-04.md:73
+  bowen-marsh                                FEARS            jon-snow                                   [1] sources/chapters/adwd/adwd-jon-07.md:43
+  bowen-marsh                                OPPOSES          jon-snow                                   [1] sources/chapters/adwd/adwd-jon-05.md:17
+  bowen-marsh                                RESENTS          jon-snow                                   [1] sources/chapters/adwd/adwd-melisandre-01.md:19
+  bowen-marsh                                SERVES           jon-snow                                   [1] sources/chapters/adwd/adwd-jon-03.md:119
+  deaf-dick-follard-killed                   SUB_BEAT_OF      attack-on-castle-black                     [2] sources/chapters/asos/asos-jon-07.md
+  del                                        SWORN_TO         mance-rayder                               [2] wiki:Del
+  del                                        VICTIM_IN        lightning-strikes-the-tower-direwolf-attacks [1] sources/chapters/asos/asos-jon-05.md
+  donal-noye                                 ALLIES_WITH      aemon-targaryen-son-of-maekar-i            [1] sources/chapters/asos/asos-jon-07.md:33
+  donal-noye                                 COMMANDS_IN      mammoth-attacks-gate-below                 [2] sources/chapters/asos/asos-jon-08.md
+  donal-noye                                 COMMANDS_IN      night-battle-atop-the-wall                 [1] sources/chapters/asos/asos-jon-08.md
+  donal-noye                                 COMMANDS_IN      wildlings-attack-the-gate                  [1] sources/chapters/asos/asos-jon-08.md
+  donal-noye                                 KILLS            mag-mar-tun-doh-weg                        [1] sources/chapters/asos/asos-jon-08.md:171
+  donal-noye                                 PROTECTS         jon-snow                                   [1] sources/chapters/asos/asos-jon-06.md:59
+  donal-noye                                 SERVES           stannis-baratheon                          [1] sources/chapters/agot/agot-jon-03.md:123
+  donal-noye                                 TRUSTS           jon-snow                                   [1] sources/chapters/asos/asos-jon-08.md:35
+  donal-noye                                 TUTORS           jon-snow                                   [1] sources/chapters/agot/agot-jon-03.md:107
+  ebben                                      AGENT_IN         jon-spares-ygritte                         [2] sources/chapters/acok/acok-jon-06.md
+  ebben                                      OPPOSES          ygritte                                    [1] sources/chapters/acok/acok-jon-06.md:237
+  ghost                                      AGENT_IN         lightning-strikes-the-tower-direwolf-attacks [2] sources/chapters/asos/asos-jon-05.md
+  ghost                                      ATTACKS          qhorin-halfhand                            [1] sources/chapters/acok/acok-jon-08.md:209
+  ghost                                      BONDED_TO        jon-snow                                   [1] sources/chapters/agot/agot-tyrion-03.md:169
+  ghost                                      COMPANION_OF     jon-snow                                   [1] sources/chapters/agot/agot-jon-02.md:11
+  ghost                                      TRUSTS           melisandre                                 [1] sources/chapters/adwd/adwd-jon-06.md:187
+  godry-farring                              AGENT_IN         mance-rayder-brought-to-execution          [1] sources/chapters/adwd/adwd-jon-03.md
+  godry-farring                              OPPOSES          jon-snow                                   [1] sources/chapters/adwd/adwd-jon-04.md:143
+  great-ranging                              CAUSES           fight-at-the-fist                          [2] sources/chapters/asos/asos-samwell-01.md:49
+  grenn                                      AGENT_IN         mammoth-attacks-gate-below                 [1] sources/chapters/asos/asos-jon-08.md
+  grenn                                      AGENT_IN         wildlings-attack-the-gate                  [1] sources/chapters/asos/asos-jon-08.md
+  grenn                                      ALLIES_WITH      jon-snow                                   [1] sources/chapters/agot/agot-jon-04.md:211
+  grenn                                      ATTACKS          jon-snow                                   [1] sources/chapters/agot/agot-jon-03.md:19
+  grenn                                      COMPANION_OF     jon-snow                                   [1] sources/chapters/asos/asos-jon-08.md:21
+  grenn                                      SERVES           jon-snow                                   [1] sources/chapters/asos/asos-jon-09.md:99
+  jarl                                       DISTRUSTS        jon-snow                                   [1] sources/chapters/asos/asos-jon-03.md:57
+  jarl                                       IN_LAW_OF        mance-rayder                               [1] sources/chapters/asos/asos-jon-03.md:55
+  jarl                                       SERVES           mance-rayder                               [1] sources/chapters/asos/asos-jon-04.md:27
+  jarl                                       SWORN_TO         mance-rayder                               [2] wiki:Jarl
+  jon-snow                                   AGENT_IN         attack-on-the-wildlings                    [1] sources/chapters/acok/acok-jon-06.md
+  jon-snow                                   AGENT_IN         jon-refuses-to-kill                        [1] sources/chapters/asos/asos-jon-05.md
+  jon-snow                                   AGENT_IN         jon-spares-ygritte                         [1] sources/chapters/acok/acok-jon-06.md
+  jon-snow                                   AGENT_IN         night-battle-atop-the-wall                 [1] sources/chapters/asos/asos-jon-08.md
+  jon-snow                                   AGENT_IN         styr-orders-jon-to-kill-the-old-man        [1] sources/chapters/asos/asos-jon-05.md
+  jon-snow                                   ALLIES_WITH      stannis-baratheon                          [1] sources/chapters/affc/affc-samwell-01.md:139
+  jon-snow                                   BONDED_TO        ghost                                      [1] sources/chapters/agot/agot-arya-01.md:175
+  jon-snow                                   BREAKS_VOW       stannis-baratheon                          [1] sources/chapters/adwd/adwd-jon-08.md:31
+  jon-snow                                   CAPTURES         ygritte                                    [1] sources/chapters/acok/acok-jon-06.md:93
+  jon-snow                                   COMMANDS         bowen-marsh                                [1] sources/chapters/adwd/adwd-melisandre-01.md:165
+  jon-snow                                   COMMANDS         ghost                                      [1] sources/chapters/adwd/adwd-jon-04.md:79
+  jon-snow                                   COMMANDS         qhorin-halfhand                            [1] sources/chapters/acok/acok-jon-06.md:19
+  jon-snow                                   COMMANDS         satin                                      [1] sources/chapters/adwd/adwd-jon-11.md:123
+  jon-snow                                   COMPANION_OF     donal-noye                                 [1] sources/chapters/acok/acok-jon-01.md:97
+  jon-snow                                   COMPANION_OF     grenn                                      [1] sources/chapters/agot/agot-jon-05.md:23
+  jon-snow                                   COMPANION_OF     pypar                                      [1] sources/chapters/agot/agot-jon-05.md:23
+  jon-snow                                   DEFEATS          grenn                                      [1] sources/chapters/agot/agot-jon-03.md:19
+  jon-snow                                   DISTRUSTS        bowen-marsh                                [1] sources/chapters/adwd/adwd-jon-03.md:101
+  jon-snow                                   DISTRUSTS        lord-of-bones                              [1] sources/chapters/asos/asos-jon-11.md:35
+  jon-snow                                   DISTRUSTS        melisandre                                 [1] sources/chapters/adwd/adwd-jon-01.md:313
+  jon-snow                                   GUEST_OF         mance-rayder                               [1] sources/chapters/asos/asos-jon-10.md:151
+  jon-snow                                   HATES            styr                                       [1] sources/chapters/asos/asos-jon-07.md:181
+  jon-snow                                   KILLS            qhorin-halfhand                            [1] sources/chapters/asos/asos-jon-01.md:17
+  jon-snow                                   LOVER_OF         ygritte                                    [1] sources/chapters/asos/asos-jon-03.md:133
+  jon-snow                                   LOVES            ygritte                                    [1] sources/chapters/asos/asos-jon-02.md:61
+  jon-snow                                   MOURNS           aemon-targaryen-son-of-maekar-i            [1] sources/chapters/adwd/adwd-jon-05.md:31
+  jon-snow                                   MOURNS           donal-noye                                 [1] sources/chapters/adwd/adwd-jon-07.md:183
+  jon-snow                                   MOURNS           ygritte                                    [1] sources/chapters/asos/asos-jon-08.md:13
+  jon-snow                                   OPPOSES          bowen-marsh                                [1] sources/chapters/adwd/adwd-jon-11.md:399
+  jon-snow                                   OPPOSES          mance-rayder                               [1] sources/chapters/adwd/adwd-melisandre-01.md:255
+  jon-snow                                   OPPOSES          stannis-baratheon                          [1] sources/chapters/adwd/adwd-jon-01.md:277
+  jon-snow                                   OWNS             ghost                                      [2] wiki:Ghost
+  jon-snow                                   PROTECTS         aemon-targaryen-son-of-maekar-i            [1] sources/chapters/affc/affc-samwell-01.md:271
+  jon-snow                                   PROTECTS         ygritte                                    [1] sources/chapters/acok/acok-jon-08.md:183
+  jon-snow                                   RESPECTS         aemon-targaryen-son-of-maekar-i            [1] sources/chapters/agot/agot-jon-05.md:99
+  jon-snow                                   RESPECTS         donal-noye                                 [1] sources/chapters/asos/asos-jon-07.md:179
+  jon-snow                                   RESPECTS         lord-of-bones                              [1] sources/chapters/adwd/adwd-jon-06.md:23
+  jon-snow                                   RESPECTS         mag-mar-tun-doh-weg                        [1] sources/chapters/asos/asos-jon-08.md:171
+  jon-snow                                   RESPECTS         mance-rayder                               [1] sources/chapters/asos/asos-jon-02.md:129
+  jon-snow                                   RESPECTS         qhorin-halfhand                            [1] sources/chapters/acok/acok-jon-05.md:55
+  jon-snow                                   RESPECTS         stonesnake                                 [1] sources/chapters/asos/asos-jon-04.md:25
+  jon-snow                                   RESPECTS         ygritte                                    [1] sources/chapters/acok/acok-jon-07.md:53
+  jon-snow                                   SERVES           qhorin-halfhand                            [1] sources/chapters/acok/acok-jon-08.md:11
+  jon-snow                                   SERVES           stannis-baratheon                          [1] sources/chapters/asos/asos-jon-11.md:39
+  jon-snow                                   SERVES           styr                                       [1] sources/chapters/asos/asos-jon-05.md:121
+  jon-snow                                   SPIES_ON         mance-rayder                               [1] sources/chapters/asos/asos-jon-01.md:71
+  jon-snow                                   TEACHES          grenn                                      [1] sources/chapters/agot/agot-jon-03.md:13
+  jon-snow                                   TEACHES          satin                                      [1] sources/chapters/asos/asos-jon-11.md:11
+  jon-snow                                   TRAVELS_WITH     stonesnake                                 [1] sources/chapters/acok/acok-jon-06.md:41
+  jon-snow                                   TRUSTS           aemon-targaryen-son-of-maekar-i            [1] sources/chapters/adwd/adwd-jon-02.md:15
+  jon-snow                                   TRUSTS           donal-noye                                 [1] sources/chapters/asos/asos-jon-06.md:71
+  jon-snow                                   TRUSTS           grenn                                      [1] sources/chapters/asos/asos-jon-09.md:57
+  jon-snow                                   TRUSTS           pypar                                      [1] sources/chapters/asos/asos-jon-09.md:23
+  jon-snow                                   TUTORS           satin                                      [1] sources/chapters/asos/asos-jon-07.md:101
+  jon-snow                                   WARGS_INTO       ghost                                      [1] sources/chapters/acok/acok-jon-04.md:37
+  lightning-strikes-the-tower-direwolf-attacks SUB_BEAT_OF      attack-on-castle-black                     [2] sources/chapters/asos/asos-jon-05.md
+  lord-of-bones                              DISGUISED_AS     mance-rayder                               [1] sources/chapters/adwd/adwd-melisandre-01.md:259
+  lord-of-bones                              DISTRUSTS        jon-snow                                   [1] sources/chapters/asos/asos-jon-02.md:207
+  lord-of-bones                              GUARDS           jon-snow                                   [1] sources/chapters/asos/asos-jon-01.md:17
+  lord-of-bones                              OPPOSES          jon-snow                                   [1] sources/chapters/acok/acok-jon-08.md:153
+  lord-of-bones                              OPPOSES          qhorin-halfhand                            [1] sources/chapters/acok/acok-jon-08.md:161
+  lord-of-bones                              SERVES           mance-rayder                               [1] sources/chapters/asos/asos-jon-01.md:159
+  lord-of-bones                              SWORN_TO         mance-rayder                               [2] wiki:Lord_of_Bones
+  lord-of-bones                              VICTIM_IN        mance-rayder-brought-to-execution          [1] sources/chapters/adwd/adwd-melisandre-01.md:259
+  mag-mar-tun-doh-weg                        KILLS            donal-noye                                 [1] sources/chapters/asos/asos-jon-08.md:171
+  mammoth-attacks-gate-below                 SUB_BEAT_OF      attack-on-castle-black                     [1] sources/chapters/asos/asos-jon-08.md
+  mance-rayder                               ALLIES_WITH      melisandre                                 [1] sources/chapters/adwd/adwd-melisandre-01.md:265
+  mance-rayder                               COMMANDS         jon-snow                                   [1] sources/chapters/asos/asos-jon-02.md:33
+  mance-rayder                               COMMANDS         lord-of-bones                              [1] sources/chapters/asos/asos-jon-02.md:337
+  mance-rayder                               COMMANDS         styr                                       [1] sources/chapters/asos/asos-jon-02.md:307
+  mance-rayder                               DISTRUSTS        bowen-marsh                                [1] sources/chapters/asos/asos-jon-02.md:303
+  mance-rayder                               DISTRUSTS        jon-snow                                   [1] sources/chapters/asos/asos-jon-10.md:175
+  mance-rayder                               IMPERSONATES     lord-of-bones                              [1] sources/chapters/adwd/adwd-melisandre-01.md:259
+  mance-rayder                               OPPOSES          bowen-marsh                                [1] sources/chapters/adwd/adwd-melisandre-01.md:93
+  mance-rayder                               OPPOSES          qhorin-halfhand                            [1] sources/chapters/asos/asos-jon-01.md:29
+  mance-rayder                               VIOLATES_GUEST_RIGHT jon-snow                                   [1] sources/chapters/asos/asos-jon-01.md:157
+  melisandre                                 AGENT_IN         mance-rayder-brought-to-execution          [1] sources/chapters/adwd/adwd-melisandre-01.md:245
+  melisandre                                 COMMANDS         lord-of-bones                              [1] sources/chapters/adwd/adwd-jon-04.md:231
+  melisandre                                 COMMANDS         mance-rayder                               [1] sources/chapters/adwd/adwd-melisandre-01.md:87
+  melisandre                                 MANIPULATES      lord-of-bones                              [2] sources/chapters/adwd/adwd-melisandre-01.md:87
+  melisandre                                 OPPOSES          aemon-targaryen-son-of-maekar-i            [1] sources/chapters/affc/affc-samwell-01.md:263
+  melisandre                                 OPPOSES          mance-rayder                               [1] sources/chapters/affc/affc-samwell-01.md:159
+  melisandre                                 SEEKS            jon-snow                                   [1] sources/chapters/adwd/adwd-jon-06.md:149
+  melisandre                                 SERVES           stannis-baratheon                          [1] sources/chapters/acok/acok-davos-02.md:21
+  night-battle-atop-the-wall                 SUB_BEAT_OF      attack-on-castle-black                     [2] sources/chapters/asos/asos-jon-08.md
+  pypar                                      AGENT_IN         mammoth-attacks-gate-below                 [1] sources/chapters/asos/asos-jon-08.md
+  pypar                                      AGENT_IN         wildlings-attack-the-gate                  [1] sources/chapters/asos/asos-jon-08.md
+  pypar                                      ALLIES_WITH      jon-snow                                   [1] sources/chapters/agot/agot-jon-04.md:183
+  pypar                                      COMPANION_OF     grenn                                      [1] sources/chapters/agot/agot-jon-05.md:15
+  pypar                                      COMPANION_OF     jon-snow                                   [1] sources/chapters/asos/asos-jon-08.md:23
+  pypar                                      RESENTS          jon-snow                                   [1] sources/chapters/affc/affc-samwell-01.md:75
+  qhorin-halfhand                            COMMANDS         jon-snow                                   [1] sources/chapters/acok/acok-jon-08.md:11
+  qhorin-halfhand                            COMMANDS_IN      attack-on-the-wildlings                    [2] sources/chapters/acok/acok-jon-06.md
+  qhorin-halfhand                            COMMANDS_IN      jon-spares-ygritte                         [1] sources/chapters/acok/acok-jon-06.md
+  qhorin-halfhand                            COMPANION_OF     jon-snow                                   [1] sources/chapters/acok/acok-jon-08.md:11
+  qhorin-halfhand                            COMPANION_OF     stonesnake                                 [1] sources/chapters/acok/acok-jon-08.md:33
+  qhorin-halfhand                            RESPECTS         jon-snow                                   [1] sources/chapters/acok/acok-jon-05.md:43
+  qhorin-halfhand                            TUTORS           jon-snow                                   [1] sources/chapters/acok/acok-jon-07.md:23
+  satin                                      SERVES           jon-snow                                   [1] sources/chapters/asos/asos-jon-07.md:101
+  stannis-baratheon                          AGENT_IN         stannis-moves-to-the-wall                  [1] sources/chapters/asos/asos-jon-11.md:155
+  stannis-baratheon                          ALLIES_WITH      jon-snow                                   [1] sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:217
+  stannis-baratheon                          APPOINTS         jon-snow                                   [1] sources/chapters/asos/asos-jon-11.md:111
+  stannis-baratheon                          COMMANDS         melisandre                                 [1] sources/chapters/adwd/adwd-jon-01.md:35
+  stannis-baratheon                          COMMANDS_IN      mance-rayder-brought-to-execution          [1] sources/chapters/adwd/adwd-jon-03.md
+  stannis-baratheon                          COMPANION_OF     melisandre                                 [1] sources/chapters/asos/asos-davos-02.md:95
+  stannis-baratheon                          EXECUTES         mance-rayder                               [1] sources/chapters/asos/asos-jon-11.md:155
+  stannis-baratheon                          GUEST_OF         jon-snow                                   [1] sources/chapters/affc/affc-samwell-01.md:139
+  stannis-baratheon                          LOVER_OF         melisandre                                 [1] sources/chapters/asos/asos-davos-05.md:69
+  stannis-baratheon                          MOURNS           donal-noye                                 [1] sources/chapters/asos/asos-jon-11.md:61
+  stannis-baratheon                          OPPOSES          jon-snow                                   [1] sources/chapters/adwd/adwd-jon-01.md:55
+  stannis-baratheon                          RESPECTS         jon-snow                                   [1] sources/chapters/adwd/adwd-jon-01.md:55
+  stannis-baratheon                          REVEALS_TO       aemon-targaryen-son-of-maekar-i            [1] sources/chapters/asos/asos-samwell-05.md:105
+  stannis-baratheon                          TRUSTS           melisandre                                 [1] sources/chapters/acok/acok-davos-01.md:27
+  stannis-moves-to-the-wall                  CAUSES           battle-beneath-the-wall                    [2] sources/chapters/asos/asos-jon-10.md:287
+  stonesnake                                 AGENT_IN         attack-on-the-wildlings                    [1] sources/chapters/acok/acok-jon-06.md
+  stonesnake                                 COMMANDS         qhorin-halfhand                            [1] sources/chapters/acok/acok-jon-06.md:83
+  styr                                       ALLIES_WITH      mance-rayder                               [1] sources/chapters/asos/asos-jon-01.md:161
+  styr                                       COMMANDS         jon-snow                                   [1] sources/chapters/asos/asos-jon-03.md:55
+  styr                                       COMMANDS_IN      jon-refuses-to-kill                        [1] sources/chapters/asos/asos-jon-05.md
+  styr                                       COMMANDS_IN      styr-orders-jon-to-kill-the-old-man        [1] sources/chapters/asos/asos-jon-05.md
+  styr                                       COMMANDS_IN      ygritte-kills-the-old-man                  [2] sources/chapters/asos/asos-jon-05.md
+  styr                                       DISTRUSTS        jon-snow                                   [1] sources/chapters/asos/asos-jon-05.md:121
+  styr                                       OPPOSES          jon-snow                                   [1] sources/chapters/asos/asos-jon-01.md:53
+  styr                                       RESENTS          jarl                                       [1] sources/chapters/asos/asos-jon-03.md:55
+  wildlings-attack-the-gate                  SUB_BEAT_OF      attack-on-castle-black                     [1] sources/chapters/asos/asos-jon-08.md
+  ygritte                                    AGENT_IN         ygritte-kills-the-old-man                  [1] sources/chapters/asos/asos-jon-05.md
+  ygritte                                    COMMANDS_IN      jon-refuses-to-kill                        [2] sources/chapters/asos/asos-jon-05.md
+  ygritte                                    FEARS            ghost                                      [1] sources/chapters/acok/acok-jon-06.md:217
+  ygritte                                    GUARDS           jon-snow                                   [1] sources/chapters/asos/asos-jon-01.md:77
+  ygritte                                    LOVER_OF         jon-snow                                   [1] sources/chapters/asos/asos-jon-02.md:61
+  ygritte                                    LOVES            jon-snow                                   [1] sources/chapters/asos/asos-jon-07.md:205
+  ygritte                                    OPPOSES          styr                                       [1] sources/chapters/asos/asos-jon-05.md:167
+  ygritte                                    PROTECTS         jon-snow                                   [1] sources/chapters/asos/asos-jon-05.md:69
+  ygritte                                    SWORN_TO         mance-rayder                               [2] wiki:Ygritte
+  ygritte                                    VICTIM_IN        jon-spares-ygritte                         [1] sources/chapters/acok/acok-jon-06.md
+
+==== edge-type histogram across all core-touching edges ====
+  SWORN_TO           82
+  OPPOSES            50
+  DISTRUSTS          42
+  AGENT_IN           42
+  RESPECTS           36
+  COMMANDS           34
+  SERVES             32
+  PROTECTS           29
+  GUEST_OF           27
+  COMPANION_OF       26
+  HATES              23
+  MOURNS             21
+  TRUSTS             21
+  ALLIES_WITH        19
+  RESENTS            18
+  VICTIM_IN          18
+  COMMANDS_IN        18
+  CULTURE_OF         18
+  LOVES              16
+  HOLDS_TITLE        16
+  BORN_AT            14
+  FEARS              13
+  DIED_AT            12
+  TUTORS             10
+  SIBLING_OF         9
+  ATTACKS            8
+  KILLS              8
+  PARENT_OF          8
+  SEEKS              5
+  BETRAYS            5
+  LOVER_OF           5
+  HEIR_TO            5
+  SUB_BEAT_OF        5
+  LOCATED_AT         5
+  PRECEDES           5
+  CAUSES             5
+  MOTIVATES          5
+  GUARDS             4
+  TRAVELS_WITH       4
+  PARALLELS          4
+  ENABLES            4
+  BONDED_TO          3
+  DEFEATS            3
+  UNCLE_OF           3
+  TEACHES            3
+  CONSPIRES_WITH     3
+  MEMBER_OF          3
+  DREAMS_OF          3
+  SPOUSE_OF          3
+  VIOLATES_GUEST_RIGHT 3
+  RULES              3
+  OWNS               3
+  HEALS              2
+  GIFTED_TO          2
+  IN_LAW_OF          2
+  CAPTURES           2
+  EXECUTES           2
+  PRISONER_OF        2
+  NEGOTIATES_WITH    2
+  CONTRASTS          2
+  SACRIFICES         2
+  APPOINTS           2
+  REVEALS_TO         2
+  NEPHEW_OF          1
+  WARGS_INTO         1
+  BESIEGES           1
+  POISONS            1
+  BESTOWS_KNIGHTHOOD_ON 1
+  MILK_BROTHER_OF    1
+  CONTRACTED_WITH    1
+  SPIES_ON           1
+  BREAKS_VOW         1
+  MARRIES_OFF        1
+  WIELDED_IN         1
+  DECEIVES           1
+  PART_OF            1
+  FOUNDED            1
+  ANCESTRAL_WEAPON_OF 1
+  SUCCEEDS           1
+  IMPERSONATES       1
+  DISGUISED_AS       1
+  MANIPULATES        1
+  SUSPECTED_OF       1
+  FORESHADOWS        1

@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-26T19:44:57.325182+00:00",
+  "computed_at": "2026-06-26T21:00:21.803183+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -9897,6 +9897,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "bowen marsh marches out": [
+      {
+        "canonical_slug": "bowen-marsh-marches-the-garrison-from-castle-black",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "bowen marsh marches the garrison from castle black": [
+      {
+        "canonical_slug": "bowen-marsh-marches-the-garrison-from-castle-black",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "bowl of brown": [
@@ -19929,6 +19945,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "death of donal noye": [
+      {
+        "canonical_slug": "noye-and-mag-die-in-the-tunnel",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "death of dontos hollard": [
       {
         "canonical_slug": "killing-of-dontos-hollard",
@@ -20009,6 +20033,14 @@
         "source": "node-slug"
       }
     ],
+    "death of mag the mighty": [
+      {
+        "canonical_slug": "noye-and-mag-die-in-the-tunnel",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "death of mycah": [
       {
         "canonical_slug": "death-of-mycah",
@@ -20087,6 +20119,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of ygritte": [
+      {
+        "canonical_slug": "death-of-ygritte",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "death's head harry": [
@@ -21005,6 +21045,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "donal noye and mag the mighty kill each other in the tunnel": [
+      {
+        "canonical_slug": "noye-and-mag-die-in-the-tunnel",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "donald tarly": [
@@ -29823,6 +29871,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "garrison leaves castle black": [
+      {
+        "canonical_slug": "bowen-marsh-marches-the-garrison-from-castle-black",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "garrison prester": [
@@ -45935,6 +45991,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "jon sent to kill mance": [
+      {
+        "canonical_slug": "jon-sortie-to-mance-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jon snow": [
       {
         "canonical_slug": "jon-snow",
@@ -45967,6 +46031,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "jon snow takes command of the wall": [
+      {
+        "canonical_slug": "jon-takes-command-of-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
     "jon snow theories": [
       {
         "canonical_slug": "jon-snow-theories",
@@ -45983,6 +46055,14 @@
         "source": "all-node-name:theories"
       }
     ],
+    "jon sortie to mance camp": [
+      {
+        "canonical_slug": "jon-sortie-to-mance-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "jon spares ygritte": [
       {
         "canonical_slug": "jon-spares-ygritte",
@@ -45997,6 +46077,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "jon takes command of the wall": [
+      {
+        "canonical_slug": "jon-takes-command-of-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "jon tollett": [
@@ -46077,6 +46165,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "jon's sortie to mance's camp": [
+      {
+        "canonical_slug": "jon-sortie-to-mance-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "jon-orders-slynt-hanged-then-changes-to-beheading": [
@@ -64455,6 +64551,30 @@
         "source": "all-node-slug:titles"
       }
     ],
+    "noye and mag die in the gate tunnel": [
+      {
+        "canonical_slug": "noye-and-mag-die-in-the-tunnel",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "noye and mag die in the tunnel": [
+      {
+        "canonical_slug": "noye-and-mag-die-in-the-tunnel",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "noye gives jon the wall": [
+      {
+        "canonical_slug": "jon-takes-command-of-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "noyne": [
       {
         "canonical_slug": "noyne",
@@ -66871,6 +66991,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "parley assassination sortie": [
+      {
+        "canonical_slug": "jon-sortie-to-mance-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "parmen crane": [
@@ -80253,6 +80381,14 @@
         "source": "all-node-slug:species"
       }
     ],
+    "southern thenn assault on castle black": [
+      {
+        "canonical_slug": "southern-thenn-assault-on-castle-black",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "southron": [
       {
         "canonical_slug": "southron",
@@ -83351,6 +83487,14 @@
         "source": "node-slug"
       }
     ],
+    "styr's attack from the south": [
+      {
+        "canonical_slug": "southern-thenn-assault-on-castle-black",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "submission of oldtown": [
       {
         "canonical_slug": "submission-of-oldtown",
@@ -85059,6 +85203,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-name:locations"
+      }
+    ],
+    "thenn assault on castle black": [
+      {
+        "canonical_slug": "southern-thenn-assault-on-castle-black",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "thenn valley": [
@@ -91233,6 +91385,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "wall is yours, jon snow": [
+      {
+        "canonical_slug": "jon-takes-command-of-the-wall",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "wallace massey": [
       {
         "canonical_slug": "wallace-massey",
@@ -94975,12 +95135,28 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "ygritte dies at castle black": [
+      {
+        "canonical_slug": "death-of-ygritte",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "ygritte kills the old man": [
       {
         "canonical_slug": "ygritte-kills-the-old-man",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "ygritte's death": [
+      {
+        "canonical_slug": "death-of-ygritte",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "yi ti": [
@@ -95569,8 +95745,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19433,
-    "unique_phrases": 11843
+    "total_node_entries": 19458,
+    "unique_phrases": 11865
   },
   "version": "v1"
 }

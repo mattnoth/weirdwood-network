@@ -3,7 +3,7 @@
   "name": "Redwyne hostage decision",
   "type": "event.capture",
   "node_path": "graph/nodes/events/redwyne-hostage-decision.node.md",
-  "generated_at": "2026-06-26T19:44:52.047134+00:00",
+  "generated_at": "2026-06-26T21:00:16.519594+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
