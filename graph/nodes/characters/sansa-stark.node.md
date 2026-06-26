@@ -123,6 +123,12 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 
 ### Quotes by Sansa
 
+> It was the taste of Winterfell. The taste of innocence. The taste of dreams.
+>
+> —Sansa's thoughts, building the snow castle of Winterfell at the Eyrie — ASOS, Sansa VII (`asos-sansa-07.md:31`)
+>
+> *S148 Vale book-cite overlay: the snow-castle scene — Sansa rebuilds Winterfell in snow moments before [Littlefinger](wiki:Petyr_Baelish)'s kiss and [Lysa's death](death-of-lysa-arryn).*
+
 > All she wanted was for things to be nice and pretty, the way they were in the songs.(wiki:Sansa_Stark.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
 > —Sansa's thoughts

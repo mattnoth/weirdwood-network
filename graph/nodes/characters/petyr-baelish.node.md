@@ -168,6 +168,12 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 
 ### Quotes by Petyr
 
+> In King's Landing, there are two sorts of people. The players and the pieces.
+>
+> —Petyr to [Sansa Stark](wiki:Sansa_Stark) — ASOS, Sansa VI (`asos-sansa-06.md:137`)
+>
+> *S148 Vale book-cite overlay: Littlefinger's defining worldview, told to Sansa aboard the Merling King; the thesis under his whole arc. Her reply — "And I was a piece?" — gets "Yes, but don't let that trouble you. You're still half a child."*
+
 > **Catelyn**: I will not forget the help you gave me, Petyr. When your men came for me, I did not know whether they were taking me to a friend or an enemy. I have found you more than a friend. I have found a brother I'd thought lost. **Petyr**: I am desperately sentimental, sweet lady. Best not tell anyone. I have spent years convincing the court that I am wicked and cruel, and I should hate to see all that hard work go for naught.(wiki:Petyr_Baelish.cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-3)
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) and Petyr

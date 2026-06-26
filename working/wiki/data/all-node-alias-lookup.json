@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-25T22:28:07.183266+00:00",
+  "computed_at": "2026-06-26T00:28:37.495951+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -1651,6 +1651,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "alayne stone disguise": [
+      {
+        "canonical_slug": "sansa-adopts-the-alayne-stone-identity",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "albar royce": [
@@ -19739,6 +19747,14 @@
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-name:theories"
+      }
+    ],
+    "death of lysa arryn": [
+      {
+        "canonical_slug": "death-of-lysa-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "death of mycah": [
@@ -55613,6 +55629,30 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "lords declarant confront littlefinger": [
+      {
+        "canonical_slug": "lords-declarant-confront-littlefinger",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "lords declarant pact against littlefinger": [
+      {
+        "canonical_slug": "lords-declarant-confront-littlefinger",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "lords declarant parley": [
+      {
+        "canonical_slug": "lords-declarant-confront-littlefinger",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "lords freeholder": [
       {
         "canonical_slug": "lords-freeholder",
@@ -56709,6 +56749,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "lyn corbray draws lady forlorn": [
+      {
+        "canonical_slug": "lords-declarant-confront-littlefinger",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "lynara stark": [
       {
         "canonical_slug": "lynara-stark",
@@ -56925,6 +56973,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "lysa arryn thrown from the moon door": [
+      {
+        "canonical_slug": "death-of-lysa-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "lysa farman": [
       {
         "canonical_slug": "lysa-farman",
@@ -56955,6 +57011,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "lysa's fall": [
+      {
+        "canonical_slug": "death-of-lysa-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "lysandro rogare": [
@@ -62191,6 +62255,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "murder of lysa arryn": [
+      {
+        "canonical_slug": "death-of-lysa-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "murder of the old high septon": [
@@ -75715,6 +75787,22 @@
         "source": "all-node-slug:materials"
       }
     ],
+    "sansa adopts the alayne stone identity": [
+      {
+        "canonical_slug": "sansa-adopts-the-alayne-stone-identity",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "sansa becomes alayne stone": [
+      {
+        "canonical_slug": "sansa-adopts-the-alayne-stone-identity",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "sansa panics and begs them not to cancel the wedding": [
       {
         "canonical_slug": "sansa-panics-and-begs-them-not-to-cancel-the-wedding",
@@ -75777,6 +75865,14 @@
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-name:theories"
+      }
+    ],
+    "sansa's bastard-daughter cover": [
+      {
+        "canonical_slug": "sansa-adopts-the-alayne-stone-identity",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "sansa-escapes-kings-landing": [
@@ -94863,8 +94959,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19310,
-    "unique_phrases": 11757
+    "total_node_entries": 19325,
+    "unique_phrases": 11769
   },
   "version": "v1"
 }

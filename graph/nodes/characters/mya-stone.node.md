@@ -69,6 +69,12 @@ Mya informs young Robert that Lady [Anya Waynwood](wiki:Anya_Waynwood)'s party h
 
 ### Quotes by Mya
 
+> A mountain is not a man, though, and a stone is a mountain's daughter. I trust my father, and I trust my mules. I won't fall.
+>
+> —Mya to [Alayne Stone](wiki:Sansa_Stark) on the descent from the Eyrie — AFFC, Alayne II (`affc-alayne-02.md:367`)
+>
+> *S148 Vale book-cite overlay: Mya's coping philosophy — her abandonment by [Robert Baratheon](wiki:Robert_Baratheon) (her unacknowledged father) encoded as a childhood memory of being thrown in the air and caught, "till one day he wasn't."*
+
 > I promise you, my lady, no harm will come to you. It would be my honor to take you up. I've made [the dark climb](wiki:Giant's_Lance) a hundred times. [Mychel](wiki:Mychel_Redfort) says my father must have been a [goat](wiki:Goat).(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
 >
 > —Mya to [Catelyn Stark](wiki:Catelyn_Stark)
