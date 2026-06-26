@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-26T00:28:37.495951+00:00",
+  "computed_at": "2026-06-26T01:29:30.280401+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -10736,6 +10736,22 @@
     "breaking": [
       {
         "canonical_slug": "breaking",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "breaking of theon": [
+      {
+        "canonical_slug": "breaking-of-theon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "breaking of theon greyjoy": [
+      {
+        "canonical_slug": "breaking-of-theon-greyjoy",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -21863,6 +21879,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "dreadfort captivity of theon": [
+      {
+        "canonical_slug": "breaking-of-theon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "dreamfyre": [
       {
         "canonical_slug": "dreamfyre",
@@ -25265,6 +25289,14 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-slug:texts"
+      }
+    ],
+    "false deaths of bran and rickon": [
+      {
+        "canonical_slug": "theon-fakes-the-deaths-of-bran-and-rickon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "false knight": [
@@ -30507,6 +30539,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "ghost in winterfell": [
+      {
+        "canonical_slug": "the-winterfell-murders",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "ghost of high heart": [
@@ -50365,6 +50405,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "leap from the battlements": [
+      {
+        "canonical_slug": "theon-and-jeyne-escape-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "learning about manderly s hostage": [
       {
         "canonical_slug": "learning-about-manderly-s-hostage",
@@ -60661,6 +60709,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "miller's boys charade": [
+      {
+        "canonical_slug": "theon-fakes-the-deaths-of-bran-and-rickon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "miller's sons": [
@@ -79515,6 +79571,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "snowbound killings at winterfell": [
+      {
+        "canonical_slug": "the-winterfell-murders",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "snowylocks": [
       {
         "canonical_slug": "snowylocks",
@@ -84683,9 +84747,41 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "theon and jeyne escape winterfell": [
+      {
+        "canonical_slug": "theon-and-jeyne-escape-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "theon and jeyne flee winterfell": [
+      {
+        "canonical_slug": "theon-and-jeyne-escape-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "theon becomes reek": [
+      {
+        "canonical_slug": "breaking-of-theon-greyjoy",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "theon carries jeyne up battlements stairs": [
       {
         "canonical_slug": "theon-carries-jeyne-up-battlements-stairs",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "theon fakes the deaths of bran and rickon": [
+      {
+        "canonical_slug": "theon-fakes-the-deaths-of-bran-and-rickon",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -84747,6 +84843,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "theon rescues jeyne poole": [
+      {
+        "canonical_slug": "theon-and-jeyne-escape-winterfell",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "theon stark": [
       {
         "canonical_slug": "theon-stark",
@@ -84769,6 +84873,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "theon's burned stark boys": [
+      {
+        "canonical_slug": "theon-fakes-the-deaths-of-bran-and-rickon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "theon-as-ward-of-winterfell": [
@@ -93419,6 +93531,22 @@
         "source": "all-node-alias:locations"
       }
     ],
+    "winterfell murder spree": [
+      {
+        "canonical_slug": "the-winterfell-murders",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "winterfell murders": [
+      {
+        "canonical_slug": "the-winterfell-murders",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "winterfell's crypts": [
       {
         "canonical_slug": "crypt-of-winterfell",
@@ -94959,8 +95087,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19325,
-    "unique_phrases": 11769
+    "total_node_entries": 19345,
+    "unique_phrases": 11785
   },
   "version": "v1"
 }

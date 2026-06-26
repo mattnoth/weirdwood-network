@@ -24,6 +24,15 @@ first_available:
 same_as: null
 ---
 
+## Cross-identity: Theon as "Reek (III)"
+
+In *A Dance with Dragons*, [Ramsay Bolton](ramsay-snow) breaks Theon by torture and renames him
+**"Reek"** (the alias `Reek (III)` on this node) — see [the breaking of Theon Greyjoy](breaking-of-theon-greyjoy).
+The name "Reek" has **three bearers** across the books and must not be collapsed into one identity:
+**Reek (I)** is the original Bolton servant (the [reek](reek) node); **Ramsay-as-Reek** is the ACOK
+disguise (modeled `ramsay-snow IMPERSONATES reek`); **Reek (III)** is Theon. A query for "Reek" in an
+ADWD context resolves here. (S149 Theon/Reek enrichment.)
+
 ## Origins
 
 Theon refers to [Theon Stark](wiki:Theon_Stark), a [King in the North](wiki:King_in_the_North), as his [namesake](wiki:Namesake).(wiki:Theon_Greyjoy.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1) Theon received beatings at [Pyke](wiki:Pyke) from his older brothers, [Rodrik](wiki:Rodrik_Greyjoy) and [Maron](wiki:Maron_Greyjoy).(wiki:Theon_Greyjoy.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) He received his first sword from [Dagmer Cleftjaw](wiki:Dagmer_Cleftjaw).(wiki:Theon_Greyjoy.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)

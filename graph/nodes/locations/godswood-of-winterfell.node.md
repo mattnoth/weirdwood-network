@@ -82,3 +82,7 @@ The red leaves of the weirwood were a blaze of flame among the green. Ned Stark'
 Candles flickered beside the wandering path and back amongst the trees, pale fireflies floating in a warm grey soup. It felt like some strange underworld, some timeless place between the worlds, where the damned wandered mournfully for a time before finding their way down to whatever hell their sins had earned them.[3]—thoughts of Theon Greyjoy
 
 And for one strange moment it seemed as if it were Bran's face carved into the pale trunk of the weirwood, staring down at him with eyes red and wise and sad. Bran's ghost, he thought, but that was madness.[24]—thoughts of Theon Greyjoy
+
+> The night was windless, the snow drifting straight down out of a cold black sky, yet the leaves of the heart tree were rustling his name. "Theon," they seemed to whisper, "Theon." ... A leaf drifted down from above ... "… Bran," the tree murmured.
+>
+> —the heart tree whispering to Theon, ADWD A Ghost in Winterfell (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:241`). The greenseer ([Bran](bran-stark)/[Bloodraven](brynden-rivers)) reaching Theon through the weirwood-net; S149 overlay.

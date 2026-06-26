@@ -69,3 +69,7 @@ When [Asha Greyjoy](wiki:Asha_Greyjoy) travels from [Deepwood Motte](wiki:Deepwo
 > I'll give them reason to sob. I've used them gently, and this is how they repay me. [...] Mikken had killed himself with his mouth, just as Benfred had. As for Chayle, he had to give someone to the Drowned God, his men expected it. "I bear you no ill will," he'd told the septon before they threw him down the well, "but you and your gods have no place here now."
 
 — Theon's cruel rule of occupied Winterfell (aftermath): Mikken and Benfred killed, septon Chayle thrown down the well as an offering to the Drowned God; he had also had two of his own men whipped for raping a kennel girl. Theon POV, ACOK Theon IV (`sources/chapters/acok/acok-theon-04.md:45`)
+
+> The north. The Starks were done and doomed the night that you took Winterfell. All this is only squabbling over spoils.
+>
+> —[Roose Bolton](roose-bolton) to Theon, ADWD Reek III — Bolton's cold verdict on what the capture achieved (`sources/chapters/adwd/adwd-reek-03.md:283`). S149 book-cite overlay.

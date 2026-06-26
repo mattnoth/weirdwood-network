@@ -15,6 +15,13 @@ pass_origin: pass2-wiki-deterministic
 
 Reek is a character.human from the AWOIAF wiki.
 
+> **Cross-identity note (the three Reeks — S149).** This node is **Reek (I)**, the original Bolton
+> servant (Ramsay's stinking tutor-in-cruelty, died 299 AC). The name "Reek" passes to two others and
+> must not be merged: **Ramsay-as-Reek** wore this dead man's name and rags as an ACOK disguise
+> (edge `ramsay-snow IMPERSONATES reek`); **Reek (III)** is [Theon Greyjoy](theon-greyjoy), whom
+> Ramsay renames after breaking him in ADWD. In an ADWD context, "Reek" means Theon — see
+> [theon-greyjoy](theon-greyjoy). NOT a `SAME_AS` chain (that would transitively imply Theon = Ramsay).
+
 ## Edges
 
 - SWORN_TO: House Bolton (track_b: Allegiance)

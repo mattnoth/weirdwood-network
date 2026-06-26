@@ -3,7 +3,7 @@
   "name": "Anguy mercy-kills the prisoners",
   "type": "event.death",
   "node_path": "graph/nodes/events/anguy-mercy-kills-the-prisoners.node.md",
-  "generated_at": "2026-06-26T00:28:32.377096+00:00",
+  "generated_at": "2026-06-26T01:29:25.128149+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
