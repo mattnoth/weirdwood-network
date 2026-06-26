@@ -1,0 +1,163 @@
+{
+  "checked": 31,
+  "supported": 21,
+  "minor": 6,
+  "issue": 4,
+  "items": [
+    {
+      "qline": 348,
+      "verdict": "SUPPORTED",
+      "finding": "dedup-noop for cod at adwd-the-prince-of-winterfell-01.md:129 — text at line 129 confirms 'cod cakes' at the Manderly wedding feast; no attachment made, correct."
+    },
+    {
+      "qline": 351,
+      "verdict": "MINOR",
+      "finding": "Wyman gluttony detail is attached to wyman-manderly.node.md and cod.node.md (Narrative Arc), not a null-node character route. Text at adwd-the-prince-of-winterfell-01.md:131 verbatim matches 'devoured six portions ... smacking his lips ... gravy stains.' The cite in cod.node.md reads :130 (not :131). Drift of 1 line — source text straddles 129-131; technically begins at :131. Suggest updating cod.node.md cite to :131."
+    },
+    {
+      "qline": 354,
+      "verdict": "SUPPORTED",
+      "finding": "Lady Dustin food-tasting quote attached to manderly-bakes-the-frey-pies event node. Text at adwd-the-prince-of-winterfell-01.md:153 verbatim matches 'No dish so much as touches Roose's lips until he sees Lord Wyman eat of it first.' Cite exact. Home (foreshadowing section of the Frey-pie event node) is sensible."
+    },
+    {
+      "qline": 517,
+      "verdict": "SUPPORTED",
+      "finding": "Cersei strongwine attached to wine.node.md Narrative Arc at affc-cersei-02.md:227. Source text exactly reads 'she poured herself a cup of strongwine and drank it by the window.' Cite exact. Section (Narrative Arc, AFFC) is correct."
+    },
+    {
+      "qline": 528,
+      "verdict": "MINOR",
+      "finding": "Valonqar nightmare quote attached to cersei-lannister.node.md at affc-cersei-08.md:263. Source text at line 263 reads 'The valonqar shall wrap his hands about your throat ... fingers dug deep into her neck' — verbatim match. However, the item is placed in the ## Quotes section (Quotes by Cersei) rather than ## Foreshadowing. The route sheet says 'foreshadowing' kind. Placement in Quotes is defensible (it is a direct passage) but not ideal for a foreshadowing-kind item. Minor section mismatch — suggest moving to ## Foreshadowing or cross-referencing."
+    },
+    {
+      "qline": 550,
+      "verdict": "SUPPORTED",
+      "finding": "dedup-noop: Long Jeyne Heddle 'Guest right don't mean so much' already present in guest-right.node.md at exactly line 70 of the node file. No edit made. Correct."
+    },
+    {
+      "qline": 551,
+      "verdict": "SUPPORTED",
+      "finding": "Lichyard book-cite overlay on gravedigger.node.md ## Appearances & Description. Text at affc-brienne-06.md:79 verbatim: 'a brother bigger than Brienne was struggling to dig a grave ... lame ... When Dog went to sniff him he dropped his spade and scratched his ear.' Cite is line 79. Identity gated; no SAME_AS edge to sandor-clegane was asserted. Both gating conditions confirmed."
+    },
+    {
+      "qline": 553,
+      "verdict": "MINOR",
+      "finding": "Meribald wolf-pack quote attached to nymeria-direwolf.node.md. The route sheet cited affc-brienne-07.md:259, but the passage actually appears at affc-brienne-05.md:259 — confirmed by source read. The node CORRECTLY records the citation as affc-brienne-05.md:259 and flags the drift inline: '[DRIFT: route cited brienne-07:259; passage is in brienne-05 at that line number.]' The agent self-caught the drift and recorded the correct cite. Attachment is verbatim-grounded. MINOR only because the route-sheet still shows the wrong file; the node itself is accurate."
+    },
+    {
+      "qline": 572,
+      "verdict": "SUPPORTED",
+      "finding": "Dragonpit wildfire-cache discovery attached to wildfire-plot.node.md Narrative Arc at acok-tyrion-11.md:107. Source text at line 107 verbatim: 'Some whores have been using the ruins to entertain their patrons, and one of them fell through a patch of rotted floor into a cellar. When he felt the jars, he mistook them for wine. He was so drunk he broke the seal and drank some.' Home (wildfire-plot event node) is correct and sensible."
+    },
+    {
+      "qline": 575,
+      "verdict": "SUPPORTED",
+      "finding": "Horsemeat feast attached to horsemeat.node.md Narrative Arc at adwd-daenerys-08.md:15. Source text at line 15 lists 'camel, crocodile, singing squid, lacquered ducks and spiny grubs, with goat and ham and horse for those whose tastes were less exotic.' Horse confirmed present. Cite exact."
+    },
+    {
+      "qline": 591,
+      "verdict": "ISSUE",
+      "finding": "Apple/Hobb boiled-eggs detail cited as adwd-jon-13.md:33, but no such text exists in that file. The Hobb boiled-eggs/black-sausage/apples-stewed-with-prunes passage is in adwd-jon-01.md:33 (Dolorous Edd quote about Hobb's breakfast). The apple.node.md cite reads adwd-jon-13.md:33 which is unrelated dialogue about a ranging offer. Fix: update apple.node.md cite from adwd-jon-13.md:33 to adwd-jon-01.md:33."
+    },
+    {
+      "qline": 603,
+      "verdict": "MINOR",
+      "finding": "Val description attached to val.node.md ## Appearances & Description. The node records cite as adwd-jon-03.md:35, but the verify-sample records qline route as adwd-jon-03.md:37. Source text: the Val description block begins at line 35 ('He is stone and she is flame. The king's eyes were blue bruises ... Val stood beside him, tall and fair ...') — line 35 is where 'she looked more regal in bronze than Stannis did in gold' actually appears. The node cite of :35 is correct; the verify-sample shows :37 which is a different paragraph. Minor: the route sheet cite is slightly off; the node file itself records :35 which is accurate."
+    },
+    {
+      "qline": 613,
+      "verdict": "SUPPORTED",
+      "finding": "Mushroom-fungi node updated at adwd-bran-03.md:89. Source text at line 89: 'a hundred kinds of mushrooms grew down here.' Cite exact. Node (mushroom-fungi.node.md, Narrative Arc) is correct."
+    },
+    {
+      "qline": 620,
+      "verdict": "SUPPORTED",
+      "finding": "Hodor icicle description attached to hodor.node.md ## Appearances & Description at adwd-bran-02.md:21. Source text at line 21: 'Icicles hung from the brown briar of his beard, and his mustache was a lump of frozen snot, glittering redly in the light of sunset.' Verbatim match. Cite exact. Section correct."
+    },
+    {
+      "qline": 632,
+      "verdict": "SUPPORTED",
+      "finding": "Bread node updated with JonCon breakfast at adwd-the-griffin-reborn-01.md:135. Source text at line 135: '\"Boiled eggs, fried bread, and beans. And a jug of wine. The worst wine in the cellar.\"' Verbatim match. Section correct; context note about greyscale soak is accurate (confirmed by line 141)."
+    },
+    {
+      "qline": 636,
+      "verdict": "SUPPORTED",
+      "finding": "cream-cakes.node.md minted. Source text at adwd-epilogue.md:205: 'as they were waiting for the cream cakes. Cream cakes were the king's favorite.' Verbatim match. Node well-formed: type object.food, spaced aliases ['cream cake', 'cream cakes'], Identity and Narrative Arc present with correct cite. Not a duplicate — no prior cream-cakes node existed."
+    },
+    {
+      "qline": 643,
+      "verdict": "SUPPORTED",
+      "finding": "Lysono Maar description attached to lysono-maar.node.md ## Appearances & Description (book-cite overlay in Quotes section near description). Source text at adwd-the-lost-lord-01.md:107 verbatim: 'The spymaster was new to Griff, a Lyseni named Lysono Maar, with lilac eyes and white-gold hair and lips that would have been the envy of a whore ... His fingernails were painted purple, and his earlobes dripped with pearls and amethysts.' Cite exact. Home correct."
+    },
+    {
+      "qline": 652,
+      "verdict": "SUPPORTED",
+      "finding": "Shy Maid 'sweet boat' description attached to shy-maid.node.md (in Quotes section with book-cite overlay note). Source text at adwd-tyrion-04.md:83: 'The Shy Maid was a sweet boat. Her draft was so shallow she could work her way up even the smallest of the river's vassal streams ...' Verbatim match. Cite exact. Section sensible."
+    },
+    {
+      "qline": 661,
+      "verdict": "ISSUE",
+      "finding": "Dreamwine/Sweetrobin entry in dreamwine.node.md cites asos-sansa-07:131, but the cite in the node uses a non-standard path (no .md extension in verify-sample: 'asos-sansa-07:131'). Source text confirmed at sources/chapters/asos/asos-sansa-07.md:131: 'The maester held the little lord's head and gave him half a cup of dreamwine, murmuring soothing words.' Text is correct and verbatim. Additionally, the node section header (## A Storm of Swords, a second instance after the existing ## A Storm of Swords wiki section) is duplicated — there are two ASOS headers in the node. Fix: ensure the cite uses full path 'sources/chapters/asos/asos-sansa-07.md:131' and merge or rename the duplicate ASOS section header."
+    },
+    {
+      "qline": 668,
+      "verdict": "MINOR",
+      "finding": "Marillion post-torture appearance attached to marillion.node.md ## Appearances & Description at affc-sansa-01.md:167. Source text at exactly line 167: 'White silk gloves covered his hands, while a white silk bandage spared the lords the sight of his eyes.' The verify-sample describe 'burned-out eyes' — text says 'white silk bandage spared the lords the sight of his eyes' (tortured/gouged eyes implied, not explicitly 'burned-out'). Node correctly quotes the actual text. The detail descriptor in verify-sample slightly over-specifies. Node itself is accurate; route-sheet detail wording is imprecise but harmless."
+    },
+    {
+      "qline": 673,
+      "verdict": "SUPPORTED",
+      "finding": "ASSAULTS edge (marillion→sansa-stark) and RESCUES edge (lothor-brune→sansa-stark) minted in edges.jsonl with run_id harvest-s152. ASSAULTS evidence_quote: 'He put a hand on her breast, and squeezed.' confirmed at asos-sansa-06.md:279. RESCUES evidence_quote: 'I\\'ll do worse, if you don\\'t go.' confirmed at asos-sansa-06.md:285. Both lines exact. Edge types in locked vocab. Directions correct (actor→recipient). Confidence tiers 1 appropriate for book text."
+    },
+    {
+      "qline": 685,
+      "verdict": "MINOR",
+      "finding": "Sheep node cite for Barrowton feast is adwd-reek-03:59. Source text at line 59 confirms feast, winter-stores cook complaint — but the actual feast menu at line 61 lists 'ox ... roasts and ribs, barley bread, a mash of carrots and pease' — no sheep or mutton explicitly named at line 59-61. The verify-sample says 'Mutton and lamb among the stores' but the feast food is ox/ribs. The sheep/mutton connection is an inference from 'winter stores' context, not explicit at lines 59-61. The site is cite-adjacent. Minor: sheep.node.md should note the food is inferred from winter-stores context, not explicitly named at the cited line."
+    },
+    {
+      "qline": 694,
+      "verdict": "ISSUE",
+      "finding": "Roose Bolton appearance cited as adwd-reek-03.md:89, but the full-portrait text is actually at adwd-reek-02.md:221. The node correctly identifies and records this drift: 'note: route-sheet cited reek-03:89 in error — actual text at sources/chapters/adwd/adwd-reek-02.md:221.' The node itself uses the correct cite (adwd-reek-02.md:221). The verify-sample cite (adwd-reek-03:89) is wrong. Verdict: ISSUE in the route-sheet / verify-sample — the node is actually correct, but this item should be flagged as a route-sheet error. At adwd-reek-03.md:89, the text is about Jojen's warning and the dead warged animals — nothing about Roose's appearance. Fix: the route-sheet cite for q694 should be updated to adwd-reek-02.md:221."
+    },
+    {
+      "qline": 702,
+      "verdict": "SUPPORTED",
+      "finding": "ENABLES edge (breaking-of-theon-greyjoy→fall-of-moat-cailin) minted. Evidence_quote 'No man would ever yield to a creature such as Reek, no matter how desperate his situation. He must pretend to be a prince again.' confirmed at adwd-reek-02.md:65 verbatim. Evidence_ref matches. Edge type ENABLES is in vocab. Causal direction is sound: Theon's conditioning by breaking is what makes him the usable instrument for the negotiation. Confidence tier 2 appropriate (causal inference, well-supported)."
+    },
+    {
+      "qline": 705,
+      "verdict": "SUPPORTED",
+      "finding": "Honeyed-ham node updated at affc-arya-02.md:91. Source text at line 91 confirmed: kindly man's 'It is pork, child, only pork' after Arya's suspicion about pale white meat (confirmed at line 91 from full text search). The cite is exact. Home (honeyed-ham.node.md, Narrative Arc) is sensible."
+    },
+    {
+      "qline": 714,
+      "verdict": "MINOR",
+      "finding": "Onion-broth node updated with adwd-the-ugly-little-girl-01.md:113. Source text at line 113: 'a cup of onion broth cooling at his elbow.' Guard tasting detail confirmed at line 145: 'the short one always tasted the onion broth first. The old man waited until the broth had cooled ...' The node's cite of :113 records the onion broth introduction, but the poison-anxiety guard-tastes detail is actually at line 145. Detail description in verify-sample says 'guard tastes first, old man waits for it to cool' — this is at :145, not :113. The node's Narrative Arc entry reads :113 for the whole description. Minor: note should also cite :145 for the guard-tasting detail, or update the primary cite to :145 where the protocol is explicit."
+    },
+    {
+      "qline": 720,
+      "verdict": "SUPPORTED",
+      "finding": "Parked/blocked: unnamed insurance underwriter deliberately not noded. Route decision is correct — the character is unnamed and single-use. No attachment made. No issue."
+    },
+    {
+      "qline": 728,
+      "verdict": "SUPPORTED",
+      "finding": "Lady Dustin 'does not have the belly for it' attached to manderly-bakes-the-frey-pies event node at adwd-the-prince-of-winterfell-01.md:149. Source text exactly: 'he does not have the belly for it, for all his girth.' Cite exact. Placement in Frey-pie event node as dramatic irony note is sensible and correctly identified."
+    },
+    {
+      "qline": 734,
+      "verdict": "ISSUE",
+      "finding": "Moon-tea node updated with agot-eddard-15.md:155, citing 'milk of the poppy' as closest node moon-tea (therapeutic/herbal-drink). However, 'milk of the poppy' is NOT moon tea — they are distinct substances. Moon tea is an abortifacient; milk of the poppy is a sedative/painkiller. The note acknowledges '(closest node: moon-tea as the therapeutic/herbal-drink category)' but this is wrong home. The same cite is correctly placed on bread.node.md, cheese.node.md, wine.node.md, and varys-visits-ned-in-the-black-cells event node — all more appropriate. Fix: remove the agot-eddard-15.md:155 entry from moon-tea.node.md; it is misclassified. The milk of the poppy is a separate substance that should go on a medical-substances node if one exists, not moon-tea."
+    },
+    {
+      "qline": 743,
+      "verdict": "SUPPORTED",
+      "finding": "dedup-noop: Jaime 'By what right does the wolf judge the lion?' already in jaime-lannister.node.md at line 193 (## Quotes by Jaime section) with cite asos-jaime-05.md:71. Source text at exactly line 71: 'By what right does the wolf judge the lion? By what right?' Verbatim confirmed. No edit made. Correct."
+    },
+    {
+      "qline": 749,
+      "verdict": "SUPPORTED",
+      "finding": "Robert Strong 'took neither food nor drink' book-cite overlay attached to robert-strong.node.md ## Appearances & Description at adwd-epilogue.md:101. Source text at line 101: 'Meryn Trant claimed that Strong took neither food nor drink, and Boros Blount went so far as to say he had never seen the man use the privy.' Verbatim match. Cite exact. Identity gated — no SAME_AS or RESURRECTS edge to gregor-clegane asserted; node explicitly states '(Identity gated — no SAME_AS to [Gregor Clegane] is asserted; the structural relationship lives on [creation-of-robert-strong].)' Both gating conditions confirmed."
+    }
+  ]
+}

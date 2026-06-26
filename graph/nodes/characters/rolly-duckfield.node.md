@@ -73,7 +73,7 @@ Duck and Jon participate in the [landing of the Golden Company](wiki:Landing_of_
 
 > Duck will die for me if need be, and that's all I require in my [Kingsguard](wiki:Kingsguard).(wiki:Rolly_Duckfield.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 >
-> —[Aegon Targaryen](wiki:Aegon_Targaryen_(Young_Griff)) to [Jon Connington](wiki:Jon_Connington)
+> —[Aegon Targaryen](wiki:Aegon_Targaryen_(Young_Griff)) to [Jon Connington](wiki:Jon_Connington). Book-cite overlay: ADWD The Griffin Reborn (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:189`). Aegon invokes the Kingslayer as a counter-example while JonCon presses for "warriors of greater renown." The full exchange grounds `rolly-duckfield SWORN_TO kingsguard` with book provenance.
 
 > At least I convinced [him](wiki:Aegon_Targaryen_(Young_Griff)) to leave the other six slots open, else Duck might have six ducklings trailing after him, each more blindingly adequate than the last.(wiki:Rolly_Duckfield.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 >

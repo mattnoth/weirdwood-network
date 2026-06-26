@@ -27,6 +27,34 @@ Pressed by the crown's crushing debts, [Cersei Lannister](cersei-lannister) firs
 
 (Causal/role edges live in `graph/edges/edges.jsonl`, S114 causal-arc track. This act is CAUSED BY the [assassination of Tywin Lannister](assassination-of-tywin-lannister) (Tier-2, S115) — with the father who controlled crown policy dead, the unchecked Queen Regent is free to strike this bargain ("Even her lord father could have done no better") — and in turn CAUSES [Cersei's capture in the sept](cersei-is-captured-in-the-sept) (Tier-2): the rearmed Faith is the institution with the armed authority to seize a queen. [Cersei Lannister](cersei-lannister) and the [High Septon](high-sparrow) are both parties to the deal (AGENT_IN, Tier-1). The Tywin root joins this arc cross-book into the S109 Tywin's-death chain — `--causal-chain cersei-is-stripped-and-imprisoned` walks back to Sansa's poisoned hairnet. The walk of atonement and trial are deferred ADWD beats.)
 
+## Description
+
+Book-cite overlays (S152 harvest): Two atmosphere details from Cersei's AFFC Cersei VI visit to the Great Sept that frame the political context of the rearming deal:
+
+**The sparrow encampment on Baelor's plaza (q519):**
+
+> "Their cookfires filled the air with smoke and stinks. Roughspun tents and miserable hovels made of mud and scrap wood besmirched the pristine white marble."
+
+— AFFC Cersei VI (`sources/chapters/affc/affc-cersei-06.md:109`) — the mass of sparrows camped on Baelor's plaza that Cersei walks through to reach the High Sparrow; the physical pressure that makes her bargain feel politically necessary.
+
+**Baelor's statue under the war-dead (q520):**
+
+> "The great marble statue that had smiled serenely over the plaza for a hundred years was waist-deep in a heap of bones and skulls. Some of the skulls had scraps of flesh still clinging to them. A crow sat atop one such, enjoying a dry, leathery feast. Flies were everywhere."
+
+— AFFC Cersei VI (`sources/chapters/affc/affc-cersei-06.md:131`) — the sparrows have piled war-dead around Baelor the Beloved's statue; the visual context for the Faith's leverage.
+
+**The crown's debt figure (q525):**
+
+> "Nine hundred thousand six hundred and seventy-four dragons. Gold that could feed the hungry and rebuild a thousand septs."
+
+— High Septon (High Sparrow) to Cersei, AFFC Cersei VI (`sources/chapters/affc/affc-cersei-06.md:269`) — exact sum forgiven in the rearming bargain; navigable book cite.
+
+**The High Septon's crown sold (q526):**
+
+> "That crown has been sold. So have the others in our vaults, and all our rings, and our robes of cloth-of-gold and cloth-of-silver. Wool will keep a man as warm."
+
+— High Sparrow to Cersei, AFFC Cersei VI (`sources/chapters/affc/affc-cersei-06.md:186`) — the crystal-and-spun-gold crown Tywin gave the old High Septon has been sold; the High Sparrow's deliberate ostentatious-poverty signal.
+
 ## Quotes
 
 > "Accordingly, I have decided to defer our repayment of the sums owed the Holy Faith and the Iron Bank of Braavos until war's end." The new High Septon would doubtless wring his holy hands, and the Braavosi would squeak and squawk at her, but what of it?

@@ -64,6 +64,10 @@ Brienne and her small band arrive at the inn before the Saltpans marauders. Led 
 >
 > —the [Elder Brother](wiki:Elder_Brother_(Quiet_Isle)) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
 
+> Book-cite overlay (S152 harvest): The hanged road approaching the crossroads — Brienne encounters the first salt-stuffed corpse at line 11: "Someone had shoved a jagged white rock between his teeth. A rock, or ... 'Salt,' said Septon Meribald." The hanged men bear heraldic badges in their mouths, turning roadside gibbets into a visible record of Lady Stoneheart's vengeance campaign.
+
+— AFFC Brienne VII (`sources/chapters/affc/affc-brienne-07.md:11`) — book-cite overlay for the salt-in-mouths detail; confirmed at this line.
+
 > At [Saltpans](wiki:Saltpans), they had found only death and desolation. By the time Brienne and her companions were ferried over from the [Quiet Isle](wiki:Quiet_Isle), the survivors had fled and the dead had been given to the ground, but the corpse of the town itself remained, ashen and unburied.(wiki:Raid_on_Saltpans.cite_ref-Raffc37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
 >
 > —thoughts of [Brienne of Tarth](wiki:Brienne_of_Tarth)

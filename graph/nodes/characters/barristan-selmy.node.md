@@ -76,6 +76,8 @@ A dutiful(wiki:Barristan_Selmy.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.
 
 Like other members of the Kingsguard, Barristan's plate armor, cloak, and shield are all in white.(wiki:Barristan_Selmy.cite_ref-Ragot57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0) His enameled scales have silver chasings and clasps.(wiki:Barristan_Selmy.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1) He wields a [longsword](wiki:Longsword)(wiki:Barristan_Selmy.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) and a dagger.(wiki:Barristan_Selmy.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 
+Book-cite overlay — Barristan donning Daenerys's gift armor on the night of the coup (Barristan POV, ADWD The Kingbreaker): "The armor that the queen had given him as a token of her esteem. The mail was gilded, finely wrought, the links as supple as good leather, the plate enameled, hard as ice and bright as new-fallen snow. His dagger went on one hip, his longsword on the other, hung from a white leather belt with golden buckles. Last of all he took down his long white cloak and fastened it about his shoulders." (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:163`) The armor description is the centerpiece of this chapter — Barristan arming himself before the confrontation with Hizdahr.
+
 ## Narrative Arc
 
 ### A Game of Thrones

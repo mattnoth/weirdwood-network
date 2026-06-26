@@ -38,5 +38,13 @@ The mutiny at [Castle Black](castle-black): the assassination of Lord Commander 
 
 — The mutiny: Bowen Marsh delivers the fatal blow. Jon POV, ADWD Jon XIII (`sources/chapters/adwd/adwd-jon-13.md:323`)
 
+## Foreshadowing
+
+Melisandre warned Jon Snow directly in the Shieldhall exchange weeks earlier:
+
+> "Ice, I see, and daggers in the dark. Blood frozen red and hard, and naked steel. It was very cold."
+
+— Melisandre to Jon Snow, ADWD Jon I (`sources/chapters/adwd/adwd-jon-01.md:321`) — direct foreshadowing of this event; she specifies "daggers in the dark" (the conspirators attack from behind/ambush) and "ice" (the Wall setting). Tier-1 cite.
+
 ## Notes
 Survivor of the S126 `mutiny-at-castle-black` → `jon-is-stabbed-repeatedly` merge (N4 of the NORTH spine build). Origins prose ported from the tier-1 wiki node; the redirect's lone junk PRECEDES edge (`battle-on-the-green-fork PRECEDES …`, a bogus cross-year chronology artifact) was dropped at merge.

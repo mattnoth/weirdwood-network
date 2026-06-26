@@ -43,5 +43,9 @@ Most [Valyrian steel](wiki:Valyrian_steel) was a grey so dark it looked almost b
 This one was thicker and heavier, a half-inch wider and three inches longer, but they shared the same fine clean lines and the same distinctive color, the ripples of blood and night.(wiki:Oathkeeper.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 There was a time that I would have given my right hand to wield a sword like that. Now it appears I have, so the blade is wasted on me. Take it.(wiki:Oathkeeper.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 Black and red the ripples ran, deep within the steel. Valyrian steel, spell-forged. It was a sword fit for a hero.(wiki:Oathkeeper.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+> "Black and red the ripples ran, deep within the steel. Valyrian steel, spell-forged."
+
+— Brienne examining Oathkeeper by candlelight in an inn, AFFC Brienne I (`sources/chapters/affc/affc-brienne-01.md:283`) — book-cite overlay; navigable provenance for the visual detail above, confirmed at exactly this line.
 She had failed [Renly](wiki:Renly_Baratheon), had failed [Lady Catelyn](wiki:Catelyn_Stark). She must not fail [Jaime](wiki:Jaime_Lannister). He trusted me with his sword. He trusted me with his honor.(wiki:Oathkeeper.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 Even the sound of it is sharper than an ordinary sword.(wiki:Oathkeeper.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)

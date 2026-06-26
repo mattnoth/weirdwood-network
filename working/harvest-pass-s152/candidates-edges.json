@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "session": "S152",
+    "track": "harvest pass — edge proposals consumed from the EDGES bucket + agent FORESHADOWS proposals",
+    "model": "Opus 4.8 orchestrator; quotes line-checked + grep-confirmed verbatim",
+    "note": "4 edges. q702 ENABLES (both event nodes exist, new); q673 ASSAULTS+RESCUES (S148-deferred, now verbatim-verified asos-sansa-06); q607/q608 collapse to ONE melisandre FORESHADOWS jon-is-stabbed-repeatedly (target exists; canonical Chekhov's gun). Conservative: valonqar/three-treasons/cloak-exchange/Hardhome/Dareon/HoBaW-retype all PARKED, not minted."
+  },
+  "edges": [
+    {"id": "H1", "unit": "theon-reek-causal", "source": "breaking-of-theon-greyjoy", "type": "ENABLES", "target": "fall-of-moat-cailin", "tier": 2, "book": "adwd", "chapter": "adwd-reek-02", "quote": "No man would ever yield to a creature such as Reek, no matter how desperate his situation. He must pretend to be a prince again.", "note": "Ramsay deploys the broken Theon (now Reek) as the false-prince negotiator; the breaking is what makes him the obedient instrument that talks the garrison into surrender."},
+    {"id": "H2", "unit": "sansa-fingers", "source": "marillion", "type": "ASSAULTS", "target": "sansa-stark", "tier": 1, "book": "asos", "chapter": "asos-sansa-06", "quote": "He put a hand on her breast, and squeezed.", "note": "Marillion's drunken attempted sexual assault on Sansa at the Fingers (attempted; stopped by Lothor Brune)."},
+    {"id": "H3", "unit": "sansa-fingers", "source": "lothor-brune", "type": "RESCUES", "target": "sansa-stark", "tier": 1, "book": "asos", "chapter": "asos-sansa-06", "quote": "I'll do worse, if you don't go.", "note": "Lothor Brune, posted by Littlefinger, drives Marillion off at knifepoint — single-moment extraction from danger."},
+    {"id": "H4", "unit": "jon-foreshadow", "source": "melisandre", "type": "FORESHADOWS", "target": "jon-is-stabbed-repeatedly", "tier": 2, "book": "adwd", "chapter": "adwd-jon-01", "quote": "Ice, I see, and daggers in the dark. Blood frozen red and hard, and naked steel. It was very cold.", "note": "Melisandre's vision (covers q607 daggers-in-the-dark + q608 skulls/Jon-Snow) directly foreshadows the Castle Black assassination. Canonical Chekhov's gun; target event node exists."}
+  ]
+}

@@ -1,0 +1,321 @@
+[
+  {
+    "qline": 354,
+    "action": "attached",
+    "target_node": "graph/nodes/events/manderly-bakes-the-frey-pies.node.md",
+    "section": "## Foreshadowing",
+    "cite_used": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:153",
+    "detail": "Lady Dustin's 'No dish so much as touches Roose's lips until he sees Lord Wyman eat of it first' — Roose's miscalibrated food-tasting threat model. Added as second foreshadowing item in a new ## Foreshadowing section (along with q728 and q729 which were also attached in this pass)."
+  },
+  {
+    "qline": 356,
+    "action": "attached",
+    "target_node": "graph/nodes/texts/the-night-that-ended.node.md",
+    "section": "## Narrative Arc / A Dance with Dragons",
+    "cite_used": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:141",
+    "detail": "Wyman calls for 'The Night That Ended' and 'brave young Danny Flint' in same sentence. Attached verbatim quote + interpretive note (both songs carry murder-at-the-Wall subtext; Wyman serving pies in parallel). Note links to brave-danny-flint node."
+  },
+  {
+    "qline": 519,
+    "action": "attached",
+    "target_node": "graph/nodes/events/cersei-rearms-the-faith-and-forgives-the-debt.node.md",
+    "section": "## Description (new)",
+    "cite_used": "sources/chapters/affc/affc-cersei-06.md:109",
+    "detail": "Sparrows encamped on Baelor's plaza: 'Their cookfires filled the air with smoke and stinks. Roughspun tents and miserable hovels made of mud and scrap wood besmirched the pristine white marble.' Four book-cite overlays added in the same section (q519, q520, q525, q526)."
+  },
+  {
+    "qline": 520,
+    "action": "attached",
+    "target_node": "graph/nodes/events/cersei-rearms-the-faith-and-forgives-the-debt.node.md",
+    "section": "## Description (new)",
+    "cite_used": "sources/chapters/affc/affc-cersei-06.md:131",
+    "detail": "Baelor's marble statue 'waist-deep in a heap of bones and skulls ... A crow sat atop one such, enjoying a dry, leathery feast. Flies were everywhere.' — war dead brought to the Sept. Part of the four-overlay block."
+  },
+  {
+    "qline": 524,
+    "action": "attached",
+    "target_node": "graph/nodes/events/cersei-is-captured-in-the-sept.node.md",
+    "section": "## Description (new)",
+    "cite_used": "sources/chapters/affc/affc-cersei-10.md:135",
+    "detail": "Margaery's cell: 'eight feet long and six feet wide, no furnishings but a straw-stuffed pallet and a bench for prayer, a ewer of water, a copy of The Seven-Pointed Star, and a candle.' Cell dimensions provide stark contrast to Cersei's palace lifestyle."
+  },
+  {
+    "qline": 525,
+    "action": "attached",
+    "target_node": "graph/nodes/events/cersei-rearms-the-faith-and-forgives-the-debt.node.md",
+    "section": "## Description (new)",
+    "cite_used": "sources/chapters/affc/affc-cersei-06.md:269",
+    "detail": "Exact debt figure: 'Nine hundred thousand six hundred and seventy-four dragons' — forgiven by Cersei's bargain. Book-cite overlay gives the navigable exact number."
+  },
+  {
+    "qline": 526,
+    "action": "attached",
+    "target_node": "graph/nodes/events/cersei-rearms-the-faith-and-forgives-the-debt.node.md",
+    "section": "## Description (new)",
+    "cite_used": "sources/chapters/affc/affc-cersei-06.md:186",
+    "detail": "Crystal-and-spun-gold crown Tywin gave the old High Septon, now sold by the High Sparrow: 'That crown has been sold. So have the others in our vaults, and all our rings.' Faith's performed poverty gesture."
+  },
+  {
+    "qline": 544,
+    "action": "attached",
+    "target_node": "graph/nodes/artifacts/oathkeeper.node.md",
+    "section": "## Quotes",
+    "cite_used": "sources/chapters/affc/affc-brienne-01.md:283",
+    "detail": "'Black and red the ripples ran, deep within the steel. Valyrian steel, spell-forged.' Node had wiki version of this quote; added navigable book-cite overlay upgrading Tier-2 wiki cite to Tier-1 book provenance."
+  },
+  {
+    "qline": 547,
+    "action": "attached",
+    "target_node": "graph/nodes/events/raid-on-saltpans.node.md",
+    "section": "## Description (prepended before existing block)",
+    "cite_used": "sources/chapters/affc/affc-brienne-07.md:11",
+    "detail": "Road of hanged men with salt packed in their mouths and heraldic badges — the Stoneheart vengeance campaign made visible. Book-cite overlay prepended to the existing 'At Saltpans' quote block."
+  },
+  {
+    "qline": 550,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/customs/guest-right.node.md",
+    "cite_checked": "sources/chapters/affc/affc-brienne-08.md:103",
+    "detail": "Long Jeyne Heddle 'Guest right don't mean so much as it used to' already present in guest-right.node.md at line 70 of the node file. No edit needed."
+  },
+  {
+    "qline": 552,
+    "action": "attached",
+    "target_node": "graph/nodes/locations/quiet-isle.node.md",
+    "section": "## Origins",
+    "cite_used": "sources/chapters/affc/affc-brienne-06.md:117",
+    "detail": "'Six have been found. We are all waiting for the seventh.' — Rhaegar's rubies. Node prose only, no FORESHADOWS edge proposed (no single clean target event node). Book-cite overlay upgrades Tier-2 wiki fact to navigable Tier-1 cite. Note: cite in rows.json was :113 (the question line); verbatim quote is at :117; TRUE line used."
+  },
+  {
+    "qline": 559,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/slaying-of-aerys-ii-the-kingslaying.node.md",
+    "cite_checked": "sources/chapters/asos/asos-jaime-02.md:291",
+    "detail": "'A single slash across his throat was all it took' already present in the node. Confirmed DEDUP."
+  },
+  {
+    "qline": 560,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/wildfire-plot.node.md",
+    "cite_checked": "sources/chapters/asos/asos-jaime-05.md:57",
+    "detail": "Aerys 'The traitors want my city… let Robert be king over charred bones' — already present as a cite on the wildfire-plot node (confirmed from prior session). CHARS-routed quote also targets aerys-ii-targaryen which is outside owned dirs; DEDUP on events side."
+  },
+  {
+    "qline": 563,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/wildfire-plot.node.md",
+    "cite_checked": "sources/chapters/asos/asos-jaime-05.md:53",
+    "detail": "Wildfire cache geography already present in wildfire-plot node at :53. Confirmed DEDUP."
+  },
+  {
+    "qline": 564,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/murder-of-elia-martell-and-rhaegars-children.node.md",
+    "cite_checked": "sources/chapters/asos/asos-tyrion-06.md:187",
+    "detail": "Tywin 'Elia need not have been harmed at all, that was sheer folly' already present in murder-of-elia node. Confirmed DEDUP."
+  },
+  {
+    "qline": 565,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/murder-of-elia-martell-and-rhaegars-children.node.md",
+    "cite_checked": "sources/chapters/asos/asos-tyrion-06.md:191",
+    "detail": "Tywin on rape + Rhaenys/Amory Lorch already present in murder-of-elia node. Confirmed DEDUP."
+  },
+  {
+    "qline": 566,
+    "action": "attached",
+    "target_node": "graph/nodes/events/murder-of-elia-martell-and-rhaegars-children.node.md",
+    "section": "## Quotes",
+    "cite_used": "sources/chapters/asos/asos-tyrion-09.md:411",
+    "detail": "'Crimson Lannister cloaks' the children's bodies were wrapped in — visual proof of Tywin's deliberate staging of the presentation. Added as new quote with navigable cite."
+  },
+  {
+    "qline": 567,
+    "action": "attached",
+    "target_node": "graph/nodes/events/murder-of-elia-martell-and-rhaegars-children.node.md",
+    "section": "## Quotes",
+    "cite_used": "sources/chapters/agot/agot-eddard-02.md:73",
+    "detail": "'Torn from his mother's breast and dashed his head against a wall' — Ned's account of Aegon's murder. Added as new quote block."
+  },
+  {
+    "qline": 572,
+    "action": "attached",
+    "target_node": "graph/nodes/events/wildfire-plot.node.md",
+    "section": "## Narrative Arc / A Clash of Kings",
+    "cite_used": "sources/chapters/acok/acok-tyrion-11.md:107",
+    "detail": "Dragonpit wildfire-cache discovery: Hallyne reports a whore fell through a rotted floor, found the Rossart-era jars, drank one mistaking it for wine. Added to ACOK Narrative Arc section."
+  },
+  {
+    "qline": 583,
+    "action": "attached",
+    "target_node": "graph/nodes/factions/brazen-beasts.node.md",
+    "section": "## Appearances",
+    "cite_used": "sources/chapters/adwd/adwd-daenerys-09.md:73",
+    "detail": "Mask inventory on parade to Daznak's Pit: 'boars and bulls, hawks and herons, lions and tigers and bears, fork-tongued serpents and hideous basilisks.' Book-cite overlay added."
+  },
+  {
+    "qline": 584,
+    "action": "attached",
+    "target_node": "graph/nodes/factions/windblown.node.md",
+    "section": "## Culture",
+    "cite_used": "sources/chapters/adwd/adwd-the-dragontamer-01.md:93",
+    "detail": "Windblown/Brazen-Beast infiltration disguise kit: 'A bull, a lion, and an ape' — three patchwork cloaks, three cudgels, three brass masks for Quentyn's dragon-tamers disguised as Brazen Beasts."
+  },
+  {
+    "qline": 587,
+    "action": "candidate-flagged",
+    "target_node": "NONE — no three-treasons-prophecy node exists",
+    "cite_used": "sources/chapters/adwd/adwd-daenerys-09.md:129",
+    "detail": "Dany names three treasons fulfilled: Mirri Maz Duur, Jorah, Brown Ben Plumm. No prophecies/ node for the House of the Undying three-treasons exists. Flagged in candidates-events.json for node minting. Gated: prophecy-layer deferred.",
+    "see_also": "candidates-events.json"
+  },
+  {
+    "qline": 607,
+    "action": "attached",
+    "target_node": "graph/nodes/events/jon-is-stabbed-repeatedly.node.md",
+    "section": "## Foreshadowing (new)",
+    "cite_used": "sources/chapters/adwd/adwd-jon-01.md:321",
+    "cite_drift": "rows.json listed :317; TRUE line is :321 (DRIFT +4). Used :321.",
+    "detail": "Melisandre to Jon: 'Ice, I see, and daggers in the dark. Blood frozen red and hard, and naked steel. It was very cold.' Direct foreshadowing of the assassination. Added in new ## Foreshadowing section. FORESHADOWS edge proposal in candidates-events.json."
+  },
+  {
+    "qline": 612,
+    "action": "attached",
+    "target_node": "graph/nodes/artifacts/horn-of-winter.node.md",
+    "section": "## Quotes",
+    "cite_used": "sources/chapters/adwd/adwd-jon-12.md:173 and :175",
+    "detail": "Tormund: 'Would that I had the Horn of Joramun' at :173; 'We never found the true horn, or if we did, we never knew it' at :175. Row had no line — searched chapter, found at :173 and :175. Added as two sequential quotes."
+  },
+  {
+    "qline": 640,
+    "action": "attached",
+    "target_node": "graph/nodes/factions/golden-company.node.md",
+    "section": "## Membership / Officers",
+    "cite_used": "sources/chapters/adwd/adwd-the-lost-lord-01.md:107",
+    "detail": "Officer wealth description: plate-and-mail with polished steel, officers in cloaks with sable trim, black-and-gold surcoats, heavy gold chains. Book-cite overlay for the officer wealth/status signal."
+  },
+  {
+    "qline": 645,
+    "action": "attached",
+    "target_node": "graph/nodes/factions/golden-company.node.md",
+    "section": "## Equipment / Ranged Weapons",
+    "cite_used": "sources/chapters/adwd/adwd-the-griffin-reborn-01.md:19",
+    "detail": "Bow hierarchy: crossbow < eastern horn-and-sinew < yew longbow < goldenheart < dragonbone. Attached to golden-company node covering Black Balaq's archers."
+  },
+  {
+    "qline": 644,
+    "action": "attached",
+    "target_node": "graph/nodes/medical/greyscale.node.md",
+    "section": "## Disease Progression (new)",
+    "cite_used": "sources/chapters/adwd/adwd-tyrion-05.md:127",
+    "detail": "Tyrion observes Penny's brother's exposure site, Haldon explains full greyscale progression: stone flesh, the illness advancing, mercy in madness 'before the flesh turns'. Added as new section with full book-cite overlay quote."
+  },
+  {
+    "qline": 652,
+    "action": "attached",
+    "target_node": "graph/nodes/artifacts/shy-maid.node.md",
+    "section": "## Quotes / Description",
+    "cite_used": "sources/chapters/adwd/adwd-tyrion-04.md:83",
+    "detail": "Shy Maid described as a 'sweet boat' with shallow draft suited to the Rhoyne's tricky shallows. Book-cite overlay added."
+  },
+  {
+    "qline": 670,
+    "action": "attached",
+    "target_node": "graph/nodes/locations/eyrie.node.md",
+    "section": "## Description (new)",
+    "cite_used": "sources/chapters/affc/affc-alayne-02.md:153",
+    "detail": "'The Eyrie might be the most beautiful place she had ever seen, but it was still a prison, a cold white prison high in the sky.' Node had wiki version; added navigable book-cite overlay. Also attached snow-castle note (q671) in same section."
+  },
+  {
+    "qline": 671,
+    "action": "attached",
+    "target_node": "graph/nodes/locations/eyrie.node.md",
+    "section": "## Description",
+    "cite_used": "sources/chapters/asos/asos-sansa-07.md:41",
+    "detail": "Sansa builds a snow model of Winterfell in the Eyrie's courtyard. Added as second item in the new Description section."
+  },
+  {
+    "qline": 675,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/death-of-joffrey-baratheon.node.md",
+    "cite_checked": "sources/chapters/asos/asos-sansa-06.md:183",
+    "detail": "LF names Olenna as Joffrey's poisoner — already present in death-of-joffrey node at :193. Cite drift: rows.json said asos-sansa-07:167, actual content is asos-sansa-06:183-187. Confirmed DEDUP."
+  },
+  {
+    "qline": 681,
+    "action": "attached",
+    "target_node": "graph/nodes/locations/drearfort.node.md",
+    "section": "## Appearances & Description",
+    "cite_used": "sources/chapters/asos/asos-sansa-06.md:83",
+    "detail": "Verbatim heraldry of the Baelish shield: 'a grey stone head with fiery eyes, upon a light green field' (the Titan of Braavos). Petyr explains his Braavosi grandfather's origins. Book-cite overlay inserted inline in the Appearances section."
+  },
+  {
+    "qline": 698,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/manderly-bakes-the-frey-pies.node.md",
+    "cite_checked": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:134",
+    "detail": "Manderly 'The best pie you have ever tasted' and 'give us a song about the Rat Cook' already present in the manderly-bakes-the-frey-pies node ## Quotes. Confirmed DEDUP."
+  },
+  {
+    "qline": 725,
+    "action": "attached",
+    "target_node": "graph/nodes/events/grand-northern-conspiracy.node.md",
+    "section": "## Quotes",
+    "cite_used": "sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:89",
+    "detail": "Wyman to Ser Hosteen Frey: 'The road has many dangers, ser. I gave your brothers guest gifts when we took our leave of White Harbor. We swore we would meet again at the wedding. Many and more bore witness to our parting.' The cover story: formal guest gifts + witnesses = alibi for the Freys' disappearance. Sinister hospitality inversion."
+  },
+  {
+    "qline": 726,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/manderly-bakes-the-frey-pies.node.md",
+    "cite_checked": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:141",
+    "detail": "Wyman calls for the Rat Cook song — already present. Also confirmed on graph/nodes/texts/rat-cook.node.md (S151 overlay already done). DEDUP."
+  },
+  {
+    "qline": 727,
+    "action": "dedup-noop",
+    "target_node": "graph/nodes/events/grand-northern-conspiracy.node.md",
+    "cite_checked": "sources/chapters/adwd/adwd-davos-04.md:125",
+    "detail": "Wendel Manderly's guest-right speech ('My son Wendel came to the Twins a guest...') already present in grand-northern-conspiracy.node.md ## Quotes as the motivating quote. Confirmed DEDUP."
+  },
+  {
+    "qline": 728,
+    "action": "attached",
+    "target_node": "graph/nodes/events/manderly-bakes-the-frey-pies.node.md",
+    "section": "## Foreshadowing (new)",
+    "cite_used": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:149",
+    "detail": "Lady Dustin: 'He does not have the belly for it, for all his girth.' Dramatic irony: spoken while Wyman is actively serving the Frey pies."
+  },
+  {
+    "qline": 729,
+    "action": "attached",
+    "target_node": "graph/nodes/events/manderly-bakes-the-frey-pies.node.md",
+    "section": "## Foreshadowing",
+    "cite_used": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:153",
+    "detail": "Lady Dustin: 'No dish so much as touches Roose's lips until he sees Lord Wyman eat of it first.' Roose suspects poison, not cannibalism — miscalibrated threat model. Contiguous with q728 in the same foreshadowing block. (Also counted as q354.)"
+  },
+  {
+    "qline": 735,
+    "action": "attached",
+    "target_node": "graph/nodes/events/varys-visits-ned-in-the-black-cells.node.md",
+    "section": "## Quotes",
+    "cite_used": "sources/chapters/agot/agot-eddard-15.md:155",
+    "detail": "Varys ultimatum ('The next visitor who calls on you could bring you bread and cheese and the milk of the poppy for your pain . . . or he could bring you Sansa's head') already in node but WITHOUT navigable cite. Added book-cite overlay attribution line after the first quote. Longer passage starts at :153."
+  },
+  {
+    "qline": 739,
+    "action": "attached",
+    "target_node": "graph/nodes/locations/quiet-isle.node.md",
+    "section": "## Supper & Hospitality (new)",
+    "cite_used": "sources/chapters/affc/affc-brienne-06.md:141",
+    "detail": "'Their supper in the septry was as strange a meal as Brienne had ever eaten, though not at all unpleasant.' Full menu: crusty bread, fresh-churned butter, hive honey, thick crab-mussels-fish stew, mead, sweet cider. Model of monastic hospitality."
+  },
+  {
+    "qline": 741,
+    "action": "attached",
+    "target_node": "graph/nodes/locations/harrenhal.node.md",
+    "section": "## Appearances & Description / Buildings (bathhouse bullet)",
+    "cite_used": "sources/chapters/asos/asos-jaime-05.md:11",
+    "detail": "'Harrenhal's bathhouse was a dim, steamy, low-ceilinged room filled with great stone tubs.' Book-cite overlay appended inline to the bathhouse bullet. Scene context: this is where Jaime reveals the Wildfire Plot to Brienne — the single-entrance privacy enables the confession."
+  }
+]

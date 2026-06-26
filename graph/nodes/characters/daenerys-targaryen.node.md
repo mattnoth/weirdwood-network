@@ -255,6 +255,10 @@ Daenerys still lives, however. Drogon has flown her to a hill in the Dothraki se
 
 — Daenerys alone on the Dothraki sea, reciting her House words to fix her identity; the arc-closing beat of her ADWD chapters, ADWD Daenerys X (`sources/chapters/adwd/adwd-daenerys-10.md:199`)
 
+> "I want to plant my olive trees and see them fruit." Does it matter that Hizdahr's kisses do not please me? Peace will please me. Am I a queen or just a woman?
+
+— Daenerys to herself before the wedding, weighing pragmatic peace against personal desire; her most succinct statement of the governing-vs.-living tension in ADWD. Daenerys VII, ADWD (`sources/chapters/adwd/adwd-daenerys-07.md:307`)
+
 ### Quotes about Daenerys
 
 > **Armen**: The tales are not the same. [Dragons](wiki:Dragon) in [Asshai](wiki:Asshai), dragons in [Qarth](wiki:Qarth), dragons in [Meereen](wiki:Meereen), [Dothraki](wiki:Dothraki) dragons, dragons [freeing slaves](wiki:Targaryen_campaign_in_Slaver's_Bay) ... each telling differs from the last. **Mollander**: Only in details. All speak of dragons, and a beautiful young queen.(wiki:Daenerys_Targaryen.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-1)

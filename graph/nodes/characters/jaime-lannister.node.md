@@ -246,6 +246,30 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 >
 > —Jaime and [Brynden Tully](wiki:Brynden_Tully)
 
+> "It's not Aerys I rue, it's Robert. 'I hear they've named you Kingslayer,' he said to me at his coronation feast. 'Just don't think to make it a habit.' And he laughed. Why is it that no one names Robert oathbreaker? He tore the realm apart, yet I am the one with shit for honor."
+
+— Jaime to Brienne in the bathhouse at Harrenhal — the double-standard he has lived under for fifteen years, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:41`) [q740]
+
+> "Like Aerion Brightfire before him, Aerys thought the fire would transform him . . . that he would rise again, reborn as a dragon, and turn all his enemies to ash."
+
+— Jaime recounting Aerys's self-delusion to Brienne — the Mad King believed he would be reborn as a dragon in the wildfire that killed the city, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:57`) [q561]
+
+> The hand that made me Kingslayer. The goat had robbed him of his glory and his shame, both at once. Leaving what? Who am I now?
+
+— Jaime's internal question staring at his severed stump in the Harrenhal baths — identity stripped of the sword that defined him, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:65`) [q562]
+
+> Jaime, he thought, my name is Jaime.
+
+— Jaime's silent correction as Brienne shouts "The Kingslayer!" while he collapses — the one thing he has left, ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:75`) [q744]
+
+> "Proclaim who you bloody well like," he told Crakehall. Then he climbed the Iron Throne and seated himself with his sword across his knees, to see who would come to claim the kingdom.
+
+— Jaime in the immediate aftermath of killing Aerys — he had briefly considered making Viserys king or naming his father Hand, then rejected it and sat the throne in exhausted contempt, waiting, ASOS Jaime II (`sources/chapters/asos/asos-jaime-02.md:303`) [q569]
+
+> Ser Jaime of House Lannister. Firstborn son of Lord Tywin and Lady Joanna of Casterly Rock. Served against the Kingswood Brotherhood as squire to Lord Summer Crakehall. Knighted in his 15th year by Ser Arthur Dayne of the Kingsguard, for valor in the field. Chosen for the Kingsguard in his 15th year by King Aerys II Targaryen. During the Sack of King's Landing, slew King Aerys II at the foot of the Iron Throne. Thereafter known as the "Kingslayer." Pardoned for his crime by King Robert I Baratheon. Served in the honor guard that brought his sister the Lady Cersei Lannister to King's Landing to wed King Robert. Champion in the tourney held at King's Landing on the occasion of their wedding.
+
+— Jaime's White Book entry, read in full by himself — "Summed up like that, his life seemed a rather scant and mingy thing," ASOS Jaime VIII (`sources/chapters/asos/asos-jaime-08.md:39`) [q568]
+
 ### Quotes about Jaime
 
 > They called him the [Lion](wiki:Lion) of [Lannister](wiki:House_Lannister) to his face and whispered "Kingslayer" behind his back. Jon found it hard to look away from him. "This is what [a king](wiki:Robert_I_Baratheon) should look like", he thought to himself as he passed.(wiki:Jaime_Lannister.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)

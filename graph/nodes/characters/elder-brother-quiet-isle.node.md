@@ -54,7 +54,7 @@ After Brienne and her companions leave the Quiet Isle, Brienne thinks that the E
 
 > [The man](wiki:Rorge) who [raped and killed](wiki:Raid_on_Saltpans) at [Saltpans](wiki:Saltpans) was not [Sandor Clegane](wiki:Sandor_Clegane), though he may be as dangerous. The [riverlands](wiki:Riverlands) are full of such scavengers. I will not call them [wolves](wiki:Wolves). Wolves are nobler than that... and so are [dogs](wiki:Dog), I think.(wiki:Elder_Brother_(Quiet_Isle).cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
 >
-> —the Elder Brother, to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —the Elder Brother, to [Brienne of Tarth](wiki:Brienne_of_Tarth). Book-cite overlay: AFFC Brienne VI (`sources/chapters/affc/affc-brienne-06.md:185`). The "wolves are nobler… and so are dogs" line redeems both Nymeria's pack and the Hound's nickname simultaneously; Elder Brother speaks it just before revealing he buried Sandor.
 
 > **Brienne:** You sound as if you pity [him](wiki:Sandor_Clegane). **Elder Brother:** I did. You would have pitied him as well, if you had seen him at the end. I came upon him by the [Trident](wiki:Trident), drawn by his cries of pain. He begged me for the [gift of mercy](wiki:Gift_of_mercy), but I am sworn not to kill again.(wiki:Elder_Brother_(Quiet_Isle).cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
 >

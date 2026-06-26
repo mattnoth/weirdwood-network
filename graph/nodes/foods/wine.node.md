@@ -60,6 +60,23 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) observes that his sister, Queen Rege
 
 ### A Dance with Dragons[ ]
 
+- (A Ghost in Winterfell I, ADWD — `sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:105`) Snowbound Winterfell: stout, beer, and Arbor wines poured at the great Ramsay-Arya wedding feast (see adwd-the-prince-of-winterfell-01), the alcohol carrying the celebration's grim irony.
+- (Jon X, ADWD — `sources/chapters/adwd/adwd-jon-10.md:195`) Alys/Sigorn wedding feast: mulled wine with cinnamon and cloves — the warming drink at a sparse winter wedding, presaging that the butter will run out within a moon's turn.
+- (Jon XIII, ADWD — `sources/chapters/adwd/adwd-jon-13.md:157`) Satin pours mulled wine for the Marsh/Yarwyck conference — wine as the social lubricant of a meeting that is about to end Jon's life.
+- (The Griffin Reborn I, ADWD — `sources/chapters/adwd/adwd-the-griffin-reborn-01.md:135`) JonCon's first breakfast as restored lord: "the worst wine in the cellar" used as greyscale vinegar-soak, NOT drinking — wine repurposed as medicine/disguise.
+- (The Griffin Reborn I, ADWD — `sources/chapters/adwd/adwd-the-griffin-reborn-01.md:81`) Victory feast: "rich red wines" at the celebration after Griffin's Roost recaptured.
+- (The Lost Lord I, ADWD — `sources/chapters/adwd/adwd-the-lost-lord-01.md:121`) JonCon's wartime austerity: "We will drink water" — wine refused as a marker of wartime discipline and personal gravity.
+- (Sansa I, AFFC — `sources/chapters/affc/affc-sansa-01.md:197`) Nestor Royce bribery scene: Arbor gold fills Lord Nestor's cup; wine as the vehicle of the lie in which Sansa confirms that Lysa jumped willingly.
+- (Cersei II, AFFC — `sources/chapters/affc/affc-cersei-02.md:227`) Cersei's strongwine: "she poured herself a cup of strongwine and drank it by the window" after supper with Ser Kevan — wine as Cersei's private self-medication.
+- (Cersei X, AFFC — `sources/chapters/affc/affc-cersei-10.md:267`) Prison: Cersei demands wine ("demanded wine to wash it down. No wine appeared") after grey gruel and fish — wine's absence as punishment.
+- (Cersei III, AFFC — `sources/chapters/affc/affc-cersei-03.md:152`) Tommen's wedding feast: Cersei "drank several cups of wine and pushed her food around a golden plate"; later "the wine tastes of bile" — wine as dissociation, the feast a punishment she endures rather than enjoys.
+- (Cersei VII, AFFC — `sources/chapters/affc/affc-cersei-07.md:259`) Cersei with Taena: "I had a flagon with my supper, and another with the widow Stokeworth" — tracking Cersei's escalating drinking.
+
+### A Game of Thrones
+
+- (Eddard XV, AGOT — `sources/chapters/agot/agot-eddard-15.md:59`) Varys disguised as a gaoler brings wine to Ned in the black cells: "Wine … Drink, Lord Eddard." The wineskin goes back and forth between them; Ned drinks on an empty stomach ("the wine was strong, and it had been too long since he'd eaten"); Varys notes it is "no more poisonous than most." Wine as coercive hospitality — sustenance withheld then offered as a lever.
+- (Eddard XV, AGOT — `sources/chapters/agot/agot-eddard-15.md:155`) Varys's parting threat frames the choice as "bread and cheese and the milk of the poppy for your pain … or Sansa's head" — food/wine withheld and then promised as the bribe for compliance; structurally mirrors the starvation tactic above.
+
 When travelling towards [Meereen](wiki:Meereen) in secret, Prince [Quentyn Martell](wiki:Quentyn_Martell) and his companions, Ser [Gerris Drinkwater](wiki:Gerris_Drinkwater) and Ser [Archibald Yronwood](wiki:Archibald_Yronwood), pretend to be merchants looking to sell their Dornish wine.(wiki:Wine.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
 The [giant](wiki:Giant) [Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun) takes a liking to wine after trying it at [Castle Black](wiki:Castle_Black).(wiki:Wine.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-0)
 During his journey through [Essos](wiki:Essos), Tyrion learns that Lord [Varys](wiki:Varys) swapped Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar)) with [an infant](wiki:Pisswater_prince) whose features resembled Aegon close enough, preventing Aegon from being killed during the [Sack of King's Landing](wiki:Sack_of_King's_Landing) during [Robert's Rebellion](wiki:Robert's_Rebellion). According to Aegon, Varys had purchased the child who had died in his stead by trading him for a jug of [Arbor gold](wiki:Arbor_gold).(wiki:Wine.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-2)

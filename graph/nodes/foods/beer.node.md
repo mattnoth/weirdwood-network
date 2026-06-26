@@ -45,6 +45,9 @@ Chilled [autumn](wiki:Autumn) ale is served during the [harvest feast](wiki:Harv
 ### A Dance with Dragons[ ]
 
 Lord [Wyman Manderly](wiki:Wyman_Manderly) supplies black stout and yellow beer for the wedding of [Ramsay Bolton](wiki:Ramsay_Snow) to "[Arya Stark](wiki:Jeyne_Poole)" at Winterfell.(wiki:Beer.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+- (The Prince of Winterfell I, ADWD — `sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:129`) Ramsay/Arya wedding feast: "stout" and "beer" alongside Arbor wines — the contrast between Manderly's stout/beer and the Arbor wines maps class/origin distinctions at the feast table.
+- (Jon XIII, ADWD — `sources/chapters/adwd/adwd-jon-13.md:195`) Tormund arrives at Castle Black roaring for "a horn of ale and something hot to eat" — the simplest possible demand for hospitality, from the Mead-King of Ruddy Hall.
 During the [siege of Moat Cailin](wiki:Siege_of_Moat_Cailin), the [ironborn](wiki:Ironborn) garrison consume ale because water in the nearby [Neck](wiki:Neck) is unsafe to drink.(wiki:Beer.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-0)
 
 ## Quotes

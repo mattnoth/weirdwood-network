@@ -38,6 +38,8 @@ Maester [Frenken](wiki:Frenken) gives dreamwine to [Sansa Stark](wiki:Sansa_Star
 
 Lord [Tywin Lannister](wiki:Tywin_Lannister) orders that King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) be given dreamwine,(wiki:Dreamwine.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) and Lady [Tanda Stokeworth](wiki:Tanda_Stokeworth) gives her daughter [Lollys](wiki:Lollys_Stokeworth) dreamwine to help her sleep.(wiki:Dreamwine.cite_ref-Rasos58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 
+- (Sansa VII, ASOS — `sources/chapters/asos/asos-sansa-07.md:131`) Maester Colemon gives Sweetrobin "half a cup of dreamwine" — sedation used in tandem with the sweetsleep regime Petyr Baelish is orchestrating.
+
 ### A Feast for Crows[ ]
 
 Maester [Colemon](wiki:Colemon) mixes dreamwine and milk of the poppy for Lord [Robert Arryn](wiki:Robert_Arryn).(wiki:Dreamwine.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) [Samwell Tarly](wiki:Samwell_Tarly) is only able to afford half a flask of dreamwine for Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) when he visits the [House of the Red Hands](wiki:House_of_the_Red_Hands).(wiki:Dreamwine.cite_ref-Raffc26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)

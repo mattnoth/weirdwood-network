@@ -46,6 +46,8 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) sees trout in the [Red Fork](wiki:Re
 [Meera Reed](wiki:Meera_Reed) catches two small silvery trout and six fat green frogs in the [wolfswood](wiki:Wolfswood).(wiki:Trout.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 Trout cooked in a crust of crushed almonds is served during [the wedding feast](wiki:Purple_Wedding) of King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) and Queen [Margaery Tyrell](wiki:Margaery_Tyrell).(wiki:Trout.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
 
+- (Bran IV, ASOS — `sources/chapters/asos/asos-bran-04.md:127`) Meera "boned the fish she'd caught at the last stream they'd crossed" and cooks it in the Nightfort kitchen — the first fire kindled in the Rat Cook's cursed hearth in years; Bran thinks "at least it's not a meat pie" as the Rat Cook legend rises in his mind. The fish is not named but the context (streams of the Gift) and Meera's characteristic three-pronged frog-spear technique point to trout.
+
 ### A Feast for Crows[ ]
 
 Ser [Creighton Longbough](wiki:Creighton_Longbough) and Ser [Illifer the Penniless](wiki:Illifer_the_Penniless) offer grilled trout to [Brienne of Tarth](wiki:Brienne_of_Tarth).(wiki:Trout.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)

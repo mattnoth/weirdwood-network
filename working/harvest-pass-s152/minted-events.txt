@@ -1,0 +1,5 @@
+# S152 EVENTS attach — minted nodes
+
+(none)
+
+No new nodes were minted during this pass. All rows either attached to existing nodes or were flagged as candidates for node creation (see candidates-events.json).

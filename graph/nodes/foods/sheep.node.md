@@ -60,6 +60,10 @@ Lord [Walder Frey](wiki:Walder_Frey) mocks his son [Merrett](wiki:Merrett_Frey) 
 
 ### A Dance with Dragons[ ]
 
+- (Daenerys IV, ADWD — `sources/chapters/adwd/adwd-daenerys-04.md:15`) Private supper with the Green Grace: "honeyed lamb, fragrant with crushed mint and served with the small green figs she liked so much" — diplomatic hospitality in the Great Pyramid, served by hostage children. Dany pushes her food around while discussing murders.
+- (Reek III, ADWD — `sources/chapters/adwd/adwd-reek-03.md:59`) Barrowton feast — Ramsay eats through the winter stores; cook's complaint that the provisions meant to last through winter are being consumed in one feast. Mutton and lamb among the stores.
+- (The Prince of Winterfell I, ADWD — `sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:129`) Ramsay/Arya wedding feast: "mutton" among cod cakes, winter squash, neeps, wheels of cheese, beef ribs, and three wagon-wheel wedding pies.
+
 While [Reznak mo Reznak](wiki:Reznak_mo_Reznak) claims that they are sheep bones, [Daenerys Targaryen](wiki:Daenerys_Targaryen) recognizes that they are the bones of [a child](wiki:Hazzea).(wiki:Sheep.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 [Arya Stark](wiki:Arya_Stark) has [a dream](wiki:Skinchanging) of [Nymeria](wiki:Nymeria)'s pack of [wolves](wiki:Wolves) attacking a flock of sheep.(wiki:Sheep.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
 Ser [Jorah Mormont](wiki:Jorah_Mormont) claims a greathelm sporting ram's horns, one of which is broken, from the armament of the [Second Sons](wiki:Second_Sons).(wiki:Sheep.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)

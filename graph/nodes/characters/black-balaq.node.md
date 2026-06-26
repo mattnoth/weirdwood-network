@@ -25,6 +25,8 @@ Black Balaq is a character from the AWOIAF wiki.
 
 Black Balaq is a white-haired [Summer Islander](wiki:Summer_Isles) with skin as dark as soot. He wears his worldly wealth upon his person, including a feathered cloak of green and orange which is magnificent to behold. He wears a lord's ransom in golden arm rings.(wiki:Black_Balaq.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
+Book-cite overlay (Jon Connington POV at the Golden Company muster, ADWD The Lost Lord): "Black Balaq, a white-haired Summer Islander with skin dark as soot, commanded the company's archers, as in Blackheart's day. He wore a feathered cloak of green and orange, magnificent to behold." (`sources/chapters/adwd/adwd-the-lost-lord-01.md:107`)
+
 ## Narrative Arc
 
 ### A Dance with Dragons[ ]

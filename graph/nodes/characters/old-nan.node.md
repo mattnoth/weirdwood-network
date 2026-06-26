@@ -87,7 +87,7 @@ According to [Theon Greyjoy](wiki:Theon_Greyjoy), who was held captive at the Dr
 
 > Fear is for the [winter](wiki:Winter), my little lord, when the snows fall a hundred feet deep and the ice wind comes howling out of the north. Fear is for the [long night](wiki:Long_night), when the [sun](wiki:Sun) hides its face for years at a time, and little children are born and live and die all in darkness while the [direwolves](wiki:Direwolves) grow gaunt and hungry, and the [white walkers](wiki:White_walkers) move through the woods.(wiki:Old_Nan.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
 >
-> —Old Nan to [Bran Stark](wiki:Bran_Stark)
+> —Old Nan to [Bran Stark](wiki:Bran_Stark) — AGOT Bran IV (`sources/chapters/agot/agot-bran-04.md:41`) [q624] — the first full description of the Long Night and the Others in the series; begins the bedtime-tale tradition that carries through to ADWD Bran IV
 
 > Stories wait, my little lord, and when you come back to them, why, there they are. Visitors are not so patient, and ofttimes they bring stories of their own.(wiki:Old_Nan.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
 >

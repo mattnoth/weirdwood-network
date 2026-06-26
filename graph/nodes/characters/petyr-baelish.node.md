@@ -200,7 +200,11 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > **Sansa**: What... what game?
 >
-> —Petyr and [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr and [Sansa Stark](wiki:Sansa_Stark) — ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:167`) [q677]
+
+> "In a better world, you might have been mine, not Eddard Stark's. My loyal loving daughter . . . Put Joffrey from your mind, sweetling. Dontos, Tyrion, all of them. They will never trouble you again. You are safe now, that's all that matters. You are safe with me, and sailing home."
+
+— Petyr to Sansa aboard the Merling King — his obsession with Catelyn Tully projected onto Sansa, delivered as comfort immediately after the Purple Wedding, ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:171`) [q678]
 
 > Everyone wants something, Alayne. And when you know what a man wants you know who he is, and how to move him.(wiki:Petyr_Baelish.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-21)
 >

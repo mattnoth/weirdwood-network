@@ -115,6 +115,10 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 > —thoughts of Brienne
 
 > Young or old, a [true knight](wiki:True_knight) is sworn to protect those who are weaker than himself, or die in the attempt.(wiki:Brienne_Tarth.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-5)
+
+> "Sapphires," she whispered at him, as she gave her blade a hard twist that made him shudder.
+
+— Brienne killing Rorge (who wore Sandor's Hound helm), AFFC Brienne VII (`sources/chapters/affc/affc-brienne-07.md:293`). The word pays back Jaime's bribe to Vargo Hoat — "sapphires" for [Tarth](wiki:Tarth), the Sapphire Isle — and redeems the oath on Oathkeeper; the dying man inside the hound helm echoes the Sandor mirror throughout AFFC.
 >
 > —thoughts of Brienne
 

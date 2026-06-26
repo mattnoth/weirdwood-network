@@ -98,6 +98,14 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 
 ### Quotes by Wyman
 
+> I am too fat to sit a horse, as any man with eyes can plainly see. As a boy I loved to ride, and as a young man I handled a mount well enough to win some small acclaim in the lists, but those days are done. My body has become a prison more dire than the Wolf's Den.
+
+— Wyman to Davos, after Wylis's return home, ADWD Davos IV (`sources/chapters/adwd/adwd-davos-04.md:171`). The definitive self-description; grounds the `too fat to sit a horse` wiki fact with navigable book provenance.
+
+> The best pie you have ever tasted, my lords. Wash it down with Arbor gold and savor every bite. I know I shall.
+
+— Wyman to Roose Bolton, Hosteen Frey, and Aenys Frey, serving from the three great pies at the wedding feast of Ramsay Bolton at Winterfell. Wyman then "devoured six portions, two from each of the three pies, smacking his lips and slapping his belly." ADWD The Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:129`).
+
 > If I had thought to see war again in my lifetime, I should have eaten a few less eels.(wiki:Wyman_Manderly.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 >
 > —Wyman, to [Catelyn Stark](wiki:Catelyn_Stark)
@@ -135,6 +143,10 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 > —[Hosteen Frey](wiki:Hosteen_Frey) and Wyman
 
 ### Quotes about Wyman
+
+> He is almost dancing. Serving with his own hands. … He's drunk. Drowning his fears. He is craven to the bone, that one.
+
+— Lady Barbrey Dustin's read of Wyman's jolly-fat-man performance at the wedding feast, gesturing at him with her wine cup. Theon POV, ADWD The Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:141`).
 
 > The great pig Manderly was too craven to leave [White Harbor](wiki:White_Harbor), or we would have brought him as well.(wiki:Wyman_Manderly.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
 >

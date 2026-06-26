@@ -33,6 +33,15 @@ Lord [Roose Bolton](wiki:Roose_Bolton) drinks hippocras when he hosts Ser [Jaime
 
 Queen [Cersei Lannister](wiki:Cersei_Lannister) has [Falyse Stokeworth](wiki:Falyse_Stokeworth) and her husband, Ser [Balman Byrch](wiki:Balman_Byrch), as guests for dinner. By the time she joins them in her [solar](wiki:Solar) a flagon of hippocras is already half empty.(wiki:Hippocras.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Cersei and [Taena Merryweather](wiki:Taena_Merryweather) celebrate with hippocras after the queen comes to an arrangement with the [High Sparrow](wiki:High_Sparrow).(wiki:Hippocras.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 
+### A Storm of Swords
+
+- (Jaime V, ASOS — `sources/chapters/asos/asos-jaime-05.md:41`) Roose Bolton's Harrenhal supper: Bolton drinks hippocras while Jaime has red wine and Brienne has water — the distinctive drink marking Bolton's fastidious, bloodless character.
+- (Jaime V, ASOS — `sources/chapters/asos/asos-jaime-05.md:193`) Continuation: Bolton's prunes and bloody roast at the same supper, with Arbor gold and hippocras distinguishing the table's hierarchy.
+
+### A Feast for Crows
+
+- (Cersei V, AFFC — `sources/chapters/affc/affc-cersei-05.md:373`) Cersei-Falyse-Balman supper: "hippocras and buttered beets, hot-baked bread, herb-crusted pike, and ribs of wild boar" — hippocras alongside rich feast food for a dinner that ends in Falyse's ruin.
+
 ### A Dance with Dragons[ ]
 
 Lord [Wyman Manderly](wiki:Wyman_Manderly) brings casks of hippocras with him from [White Harbor](wiki:White_Harbor) to [Barrowton](wiki:Barrowton).(wiki:Hippocras.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

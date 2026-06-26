@@ -38,6 +38,14 @@ Later, as the free folk pass through the Wall, Tormund mentions to Jon that Manc
 ## Quotes
 
 We never found the Horn of Winter. We opened half a hundred graves and let all those shades loose in the world, and never found the Horn of Joramun to bring [this cold thing down](wiki:Wall)!(wiki:Horn_of_Winter.cite_ref-Rasos30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+
+> "Would that I had the Horn of Joramun. I'd give it a nice toot and we'd climb through the rubble."
+
+— Tormund Giantsbane to Jon Snow, ADWD Jon XII (`sources/chapters/adwd/adwd-jon-12.md:173`)
+
+> "She burned that fine big horn, aye. A bloody sin, I call it. A thousand years old, that was. We found it in a giant's grave, and no man o' us had ever seen a horn so big. That must have been why Mance got the notion to tell you it were Joramun's. He wanted you crows to think he had it in his power to blow your bloody Wall down about your knees. But we never found the true horn, not for all our digging."
+
+— Tormund to Jon, revealing Mance's deception, ADWD Jon XII (`sources/chapters/adwd/adwd-jon-12.md:175`)
 Jon: [The Halfhand](wiki:Qhorin) feared that [Mance](wiki:Mance_Rayder) might have found the Horn of Winter ... Alliser: The Horn of Winter? Were you commanded to count their [snarks](wiki:Snarks) as well, Lord Snow?(wiki:Horn_of_Winter.cite_ref-Rasos69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
 The Horn of [Joramun](wiki:Joramun)? No. Call it the Horn of Darkness. If the [Wall](wiki:Wall) falls, night falls as well, the [long night](wiki:Long_Night) that never ends. It must not happen, will not happen!(wiki:Horn_of_Winter.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
 Tormund: Would that I had the Horn of Joramun. I'd give it a nice toot and we'd climb through the rubble.

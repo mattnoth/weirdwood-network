@@ -1,0 +1,19 @@
+[
+  {
+    "qline": 607,
+    "action": "propose-foreshadows-edge",
+    "source_slug": "jon-is-stabbed-repeatedly",
+    "edge_type": "FORESHADOWS",
+    "target_slug": "jon-is-stabbed-repeatedly",
+    "note": "Melisandre's vision at adwd-jon-01.md:321 — 'Ice, I see, and daggers in the dark. Blood frozen red and hard, and naked steel. It was very cold.' Proposed FORESHADOWS edge FROM the attached quote block on the jon-is-stabbed-repeatedly node TO itself (i.e., the Melisandre prophecy foreshadows the assassination). Edge would be: source=melisandre-vision-daggers-in-the-dark (no node; inline quote on the event node), target=jon-is-stabbed-repeatedly. Alternatively, add a FORESHADOWS self-referential edge in edges.jsonl from the quote's cite_ref to the event slug.",
+    "confidence": "tier-1",
+    "evidence_kind": "book-pass1"
+  },
+  {
+    "qline": 587,
+    "action": "mint-node-needed",
+    "proposed_slug": "house-of-the-undying-prophecies",
+    "proposed_type": "object.prophecy-collection",
+    "note": "Dany names three treasons: 'Three treasons shall you know ... She was the first, Jorah was the second, Brown Ben Plumm the third.' at adwd-daenerys-09.md:129. This is a fulfillment beat for the House of the Undying visions (ACOK). No prophecies/ node currently exists for the House of the Undying three-treasons prophecy. Recommend minting: graph/nodes/prophecies/three-treasons-prophecy.node.md. Once minted, attach this fulfillment quote at :129. GATED: prophecy-layer work is deferred until Matt says 'start theories/prophecies.'"
+  }
+]

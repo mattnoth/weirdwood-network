@@ -1,0 +1,21 @@
+{
+  "owner": "EDGES",
+  "note": "Orchestrator-handled EDGES bucket (10) + 3 handbacks from FOODS/CHARS. DONE rows minted edges or attached gated prose; PARKED rows are blocked (need-node / not-causal / out-of-harvest-scope).",
+  "rows": [
+    {"qline": 702, "status": "done", "action": "edge-minted", "node": "breaking-of-theon-greyjoy ENABLES fall-of-moat-cailin", "detail": "H1 Tier-2, adwd-reek-02:65 (run_id harvest-s152)"},
+    {"qline": 673, "status": "done", "action": "edge-minted", "node": "marillion ASSAULTS sansa-stark + lothor-brune RESCUES sansa-stark", "detail": "H2/H3 Tier-1, asos-sansa-06:279/:285 — S148-deferred, now verbatim-verified"},
+    {"qline": 674, "status": "done", "action": "dedup-noop", "node": "robert-baratheon PARENT_OF mya-stone", "detail": "edge already exists (infobox-merge); parentage tell captured via q672 mya-stone appearance overlay (Robert's eyes/hair)"},
+    {"qline": 551, "status": "done", "action": "attached-prose-gated", "node": "gravedigger", "detail": "lichyard book-cite overlay onto ## Appearances & Description; gravedigger=Sandor reading kept theory-gated (no identity edge)"},
+    {"qline": 664, "status": "done", "action": "attached-prose", "node": "robert-arryn", "detail": "HANDBACK from FOODS — Lysa breastfed past infancy book-cite added to ## Notes"},
+    {"qline": 696, "status": "done", "action": "attached-prose", "node": "winterfell", "detail": "HANDBACK from CHARS — ruined snowbound Winterfell book-cite paragraph added to ## Appearances & Description"},
+    {"qline": 749, "status": "done", "action": "attached-prose-gated", "node": "robert-strong", "detail": "HANDBACK from FOODS — 'took neither food nor drink' book-cite overlay onto ## Appearances & Description; identity gated"},
+
+    {"qline": 703, "status": "parked", "action": "park", "node": "wedding-of-ramsay-bolton-and-arya-stark", "detail": "blocked: Stark-cloak/Bolton-cloak object nodes do not exist — don't mint into a void; revisit if cloak object nodes are built"},
+    {"qline": 716, "status": "parked", "action": "park", "node": "death-of-lysa-arryn", "detail": "blocked: cross-arc dramatic-irony seam (Arya overhears Lysa's death in Braavos), no downstream consequence — not a causal edge; revisit at the braid/convergence layer"},
+    {"qline": 717, "status": "parked", "action": "park", "node": "hardhome-catastrophe", "detail": "blocked: informational North-seam (wildling slaves from Hardhome sold in Braavos), no clean edge yet; revisit at braid/convergence layer"},
+    {"qline": 718, "status": "parked", "action": "park", "node": "maester-aemon", "detail": "blocked: no death-of-maester-aemon node — don't mint dareon ENABLES <void>; belongs to a future Sam/Oldtown arc enrichment"},
+    {"qline": 719, "status": "parked", "action": "park", "node": "house-of-black-and-white", "detail": "blocked: schema re-type/re-file (organization.house -> place.location TEMPLE) needs a careful node-mutation pass + index rebuild + edge-source updates — out of harvest scope; flagged to worklog Small Fixes"},
+    {"qline": 720, "status": "parked", "action": "park", "node": "arya-assassinates-the-insurance-broker", "detail": "blocked: the unnamed insurance underwriter is single-use/unnamed — deliberately not noded; revisit only if ever named/needed"},
+    {"qline": 587, "status": "parked", "action": "park", "node": "three-treasons-prophecy", "detail": "blocked: prophecy-layer node not built (House of the Undying three-treasons); prophecy/theory track is GATED until Matt starts it"}
+  ]
+}

@@ -72,6 +72,8 @@ Lady Stark regards [Jon Snow](wiki:Jon_Snow) as an outsider to her family,(wiki:
 
 Catelyn holds to the [Faith of the Seven](wiki:Faith_of_the_Seven).(wiki:Catelyn_Stark.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0) Her attire includes gowns(wiki:Catelyn_Stark.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1)(wiki:Catelyn_Stark.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)(wiki:Catelyn_Stark.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1) and a woolen dress of Tully red and blue.(wiki:Catelyn_Stark.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0)
 
+As Lady Stoneheart she wears grey — the color of silent sisters — and carries the bronze crown of the brotherhood without banners: "Behind it sat a woman all in grey, cloaked and hooded. In her hands was a crown, a bronze circlet ringed by iron swords." Her eyes "glimmered under her hood." Book-cite overlay: AFFC Brienne VIII (`sources/chapters/affc/affc-brienne-08.md:239`).
+
 ## Narrative Arc
 
 ### A Game of Thrones

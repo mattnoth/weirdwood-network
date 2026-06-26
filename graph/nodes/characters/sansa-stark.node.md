@@ -39,6 +39,8 @@ Sansa's relationship with her younger sister [Arya](wiki:Arya_Stark) is often st
 
 Sansa is fond of [lemon cakes](wiki:Lemon_cake),(wiki:Sansa_Stark.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0) with [Gage](wiki:Gage) making the treats whenever possible.(wiki:Sansa_Stark.cite_ref-31)
 
+As Alayne Stone she dyes her auburn hair: "The wash her aunt had given her changed her own rich auburn into Alayne's burnt brown, but it was seldom long before the red began creeping back at the roots." Book-cite overlay: AFFC Alayne I (`sources/chapters/affc/affc-alayne-01.md:25`).
+
 ## Narrative Arc
 
 ### A Game of Thrones
@@ -119,6 +121,12 @@ Once at the Gates of the Moon, Alayne is introduced to Petyr's newly hired hedge
 
 To find a means of meeting her betrothed, Alayne suggests that a personal guard be formed to protect Lord [Robert Arryn](wiki:Robert_Arryn), named the [Brotherhood of Winged Knights](wiki:Brotherhood_of_Winged_Knights), whose initial members would be selected in a [tourney](wiki:Tourney). She meets the newly-knighted [Harrold Hardyng](wiki:Harrold_Hardyng) when he comes to the [Gates of the Moon](wiki:Gates_of_the_Moon) to compete for a position in the brotherhood. When he first meets Alayne, he treats her with contempt for her [bastard](wiki:Bastard) status. Sansa remembers that [Joffrey Baratheon](wiki:Joffrey_Baratheon) was attractive as well, but cruel, while the ugly [Tyrion Lannister](wiki:Tyrion_Lannister) was kinder. At the behest of Petyr, she attempts to beguile Harrold during a feast held that evening.(wiki:Sansa_Stark.cite_ref-twow_20-1)
 
+## Foreshadowing
+
+> It sounds like a wolf, thought Sansa. A ghost wolf, big as mountains.
+
+— Sansa's internal thought as the wind howls at the High Pass, crossing the ice-path to the Eyrie, AFFC Alayne II (`sources/chapters/affc/affc-alayne-02.md:355`). The "ghost wolf" image links back to Lady and forward to Nymeria's pack — the wolf she abandoned still haunts her subconscious. Possible FORESHADOWS edge: `sansa-stark FORESHADOWS ghost-wolf-return` (no named target node yet; propose only when Winds of Winter materializes the arc).
+
 ## Quotes
 
 ### Quotes by Sansa
@@ -176,6 +184,10 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 > As [the boy's](wiki:Robert_Arryn) lips touched her own she found herself thinking of [another kiss](wiki:UnKiss). She could still remember how it felt, when [his cruel mouth](wiki:Sandor_Clegane) pressed down on her own. He had come to Sansa in the darkness as [green fire](wiki:Wildfire) filled the sky. He took a song and a kiss, and left me nothing but a bloody cloak.(wiki:Sansa_Stark.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-4)
 >
 > —Sansa's thoughts
+
+> He was Petyr, her protector, warm and funny and gentle . . . but he was also Littlefinger, the lord she'd known at King's Landing, smiling slyly and stroking his beard as he whispered in Queen Cersei's ear. And Littlefinger was no friend of hers. When Joff had her beaten, the Imp defended her, not Littlefinger. When the mob sought to rape her, the Hound carried her to safety, not Littlefinger. When the Lannisters wed her to Tyrion against her will, Ser Garlan the Gallant gave her comfort, not Littlefinger. Littlefinger never lifted so much as his little finger for her.
+
+— Sansa's Petyr/LF duality monologue, AFFC Sansa I (`sources/chapters/affc/affc-sansa-01.md:69`). [DRIFT: route cited :117, which is the later "men see what they expect to see" exchange; the duality passage is at :69.] The clearest articulation of why she cannot fully trust him even as she depends on him.
 
 ### Quotes about Sansa
 

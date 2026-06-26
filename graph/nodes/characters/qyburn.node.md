@@ -82,6 +82,14 @@ Qyburn continues to work with the whisperers, reporting information on the [Gold
 >
 > —Qyburn to [Cersei Lannister](wiki:Cersei_Lannister)
 
+> "The archmaesters are all craven at heart. The grey sheep, Marwyn calls them. I was as skilled a healer as Ebrose, but aspired to surpass him. For hundreds of years the men of the Citadel have opened the bodies of the dead, to study the nature of life. I wished to understand the nature of death, so I opened the bodies of the living. For that crime the grey sheep shamed me and forced me into exile . . . but I understand the nature of life and death better than any man in Oldtown."
+
+— Qyburn explaining his Citadel expulsion to Cersei, AFFC Cersei II (`sources/chapters/affc/affc-cersei-02.md:217`) [q748]
+
+> Lord Qyburn ran a hand up the Blue Bard's chest. "Does she take your nipples in her mouth during your love play?" He took one between his thumb and forefinger, and twisted. "Some men enjoy that. Their nipples are as sensitive as a woman's." The razor flashed, the singer shrieked. On his chest a wet red eye wept blood.
+
+— Qyburn torturing the Blue Bard in the black cells to extract testimony against Margaery Tyrell — witnessed by Cersei, AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:191`) [q531]
+
 > This [poison](wiki:Poison)... it would be useful to know more about it, would it not? Send a [knight](wiki:Knight) to slay a knight and an archer to kill an archer, the [smallfolk](wiki:Smallfolk) often say. To combat the [black arts](wiki:Magic) ...(wiki:Qyburn.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
 >
 > —Qyburn to [Cersei Lannister](wiki:Cersei_Lannister)

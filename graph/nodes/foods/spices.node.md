@@ -50,6 +50,8 @@ Trade boomed in [King's Landing](wiki:King's_Landing) during the [Lysene Spring]
 
 [Davos Seaworth](wiki:Davos_Seaworth) is served a bowl of [sister's stew](wiki:Sister's_stew) by Lord [Godric Borrell](wiki:Godric_Borrell), cooked with rarer spices than usual, including the costly saffron that Davos has only tasted once before in his life.(wiki:Spices.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 
+- (Tyrion III, ADWD — `sources/chapters/adwd/adwd-tyrion-03.md:53`) Illyrio's parting gift packed in the chests: "candied ginger, for the boy" — Illyrio's odd tenderness toward Young Griff expressed in a sweetmeat. Ginger is a costly eastern import, and Illyrio as spice-merchant makes the gift doubly characteristic.
+
 ### The Winds of Winter[ ]
 
 [Saffron](wiki:Saffron), the daughter of a spice merchant from [Gulltown](wiki:Gulltown) who is one of the richest men in the city, is pregnant with the [bastard](wiki:Bastard) of Ser [Harrold Hardyng](wiki:Harrold_Hardyng).(wiki:Spices.cite_ref-twow_29-0)

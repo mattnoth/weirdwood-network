@@ -139,3 +139,5 @@ Robert immediately approves of [Alayne Stone's](wiki:Sansa_Stark) suggestion he 
 ## Notes
 
 Robert's fostering plans are a key plot element: Jon wanted Dragonstone (Stannis), Robert I suggested Casterly Rock (Tywin), Lysa refused both. The Lords Declarant later demand he be fostered at Runestone with Bronze Yohn Royce. His seizure condition and Colemon's careful sweetsleep dosing are potential narrative threads.
+
+Maester Colemon notes that Lady Lysa "would give his lordship her breast whenever he grew overwrought" — she breastfed Robert long past infancy, part of the smothering, coddled upbringing behind his frailty. (Alayne I, AFFC — `sources/chapters/affc/affc-alayne-01.md:81`)

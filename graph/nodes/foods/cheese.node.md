@@ -47,6 +47,11 @@ On the morning of King [Joffrey I Baratheon](wiki:Joffrey_Baratheon)'s marriage 
 ### A Dance with Dragons[ ]
 
 [Tyrion Lannister](wiki:Tyrion_Lannister) thinks of [Illyrio Mopatis](wiki:Illyrio_Mopatis), a cheesemonger and [magister](wiki:Magister) of [Pentos](wiki:Pentos), as the "lord of cheese". Tyrion is served foul-smelling cheeses while staying at [Illyrio's manse](wiki:Illyrio's_manse).(wiki:Cheese.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
+
+- (The Dragontamer I, ADWD — `sources/chapters/adwd/adwd-the-dragontamer-01.md:81`) Quentyn's last meal: "fruit and bread and cheese, washed down with goat milk" — humble provisions before the dragon attempt that kills him.
+- (The Blind Girl I, ADWD — `sources/chapters/adwd/adwd-the-blind-girl-01.md:175`) Pynto's charity: "a chunk of stinky cheese" alongside watered wine and half an eel pie.
+- (Brienne VIII, AFFC — `sources/chapters/affc/affc-brienne-08.md:179`) Brotherhood cave food: "cold greasy stew, hard bread, harder cheese" — Brienne says she'd "never eaten anything half so good."
+- (Brienne VI, AFFC — `sources/chapters/affc/affc-brienne-06.md:165`) Quiet Isle women's cottage supplies: "some bread and cheese" as basic provisioning alongside a flagon of cider.
 While staying in the [cave of the three-eyed crow](wiki:Cave_of_the_three-eyed_crow), [Bran Stark](wiki:Bran_Stark) and his companions have cheese and milk from the goats living in the caverns.(wiki:Cheese.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
 
 ## Quotes

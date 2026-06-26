@@ -175,6 +175,14 @@ Jon intends to rescue Cotter at Hardhome, but he is interrupted by a [taunting l
 >
 > —Jon to [Eddison Tollett](wiki:Eddison_Tollett), before the execution of [Janos Slynt](wiki:Janos_Slynt)
 
+> Kill the boy within you, I told him the day I took ship for the Wall. It takes a man to rule. An Aegon, not an Egg. Kill the boy and let the man be born. … You are half the age that Egg was, and your own burden is a crueler one, I fear. You will have little joy of your command, but I think you have the strength in you to do the things that must be done. Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.
+
+— Maester Aemon's parting counsel to Jon, recalled the morning after Aemon departs; the "kill the boy" injunction frames Jon's entire ADWD arc. ADWD Jon II (`sources/chapters/adwd/adwd-jon-02.md:215`).
+
+> "I am the sword in the darkness," said the six … "I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men." … "I pledge my life and honor to the Night's Watch, for this night and all the nights to come."
+
+— Jon's weirwood-grove oath renewal with the six new recruits in the haunted forest, Ghost at his shoulder; the ritual invocation grounds `jon-snow SWORN_TO night-s-watch` with direct book provenance. ADWD Jon VII (`sources/chapters/adwd/adwd-jon-07.md:159`)
+
 > **Cregan**: I see what you are, Snow. Half a [wolf](wiki:Wolf) and half a [wildling](wiki:Free_folk), [baseborn](wiki:Baseborn) get of a [traitor](wiki:Eddard_Stark) and a [whore](wiki:Whore). You would deliver a [highborn maid](wiki:Alys_Karstark) to the bed of [some stinking savage](wiki:Sigorn). Did you sample her yourself first? If you mean to kill me, do it and be damned for a [kinslayer](wiki:Kinslayer). [Stark](wiki:House_Stark) and [Karstark](wiki:House_Karstark) are one blood.
 >
 > **Jon**: My name is Snow. **Cregan**: **Bastard**.

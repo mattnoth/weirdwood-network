@@ -30,6 +30,12 @@ Capons stuffed with onions, herbs, mushrooms, and roasted chestnuts were served 
 
 Fat mushrooms are among the foods served at the [crossroads inn](wiki:Crossroads_inn).(wiki:Mushroom_(fungi).cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 
+### A Dance with Dragons
+
+- (Bran III, ADWD — `sources/chapters/adwd/adwd-bran-03.md:89`) Cave larder in the three-eyed crow's caverns: "a hundred kinds of mushrooms" listed among the stored provisions — alongside blind white fish, goat cheese, oats, barleycorn, and dried fruit.
+- (Jon III, ADWD — `sources/chapters/adwd/adwd-jon-03.md:167`) Post-execution supper at Castle Black: boiled beef and beets served, with Hobb noted as out of horseradish — context note that mushrooms were NOT on this sparse menu (absence signal).
+- (Epilogue, ADWD — `sources/chapters/adwd/adwd-epilogue.md:197`) Kevan Lannister's final supper includes "mushrooms" alongside beef-and-barley soup, quail, pike, turnips, hot bread and butter.
+
 ## Quotes
 
 > The first dish was a creamy soup of mushrooms and buttered snails, served in gilded bowls.

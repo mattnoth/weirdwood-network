@@ -64,3 +64,9 @@ The [White Hart](wiki:White_Hart) and [Stag of the Sea](wiki:Stag_of_the_Sea) ar
 The roof of [Mance Rayder](wiki:Mance_Rayder)'s tent is crowned with a set of a great elk's antlers.(wiki:Deer.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
 [Bran Stark](wiki:Bran_Stark) hunts a deer while [skingchanging](wiki:Skinchanger) Summer.(wiki:Deer.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
 [Coldhands](wiki:Coldhands) travels the lands [beyond the Wall](wiki:Beyond_the_Wall) on a [great elk](wiki:Great_elk).(wiki:Deer.cite_ref-Rasos46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
+
+- (Bran IV, ASOS — `sources/chapters/asos/asos-bran-04.md:127`) Meera bones and cooks fish in the Nightfort kitchen — the great elk that carried Bran's party had collapsed twelve days earlier and Coldhands had slit its throat; Bran "wept like a little girl when the bright blood came rushing out" and had eaten from it twice (ADWD Bran II, see below).
+
+### A Dance with Dragons
+
+- (Bran II, ADWD — `sources/chapters/adwd/adwd-bran-02.md:65`) GRIM: twelve days since the great elk collapsed; Coldhands slit its throat so they could eat. "Bran wept like a little girl when the bright blood came rushing out" — elk consumed twice before the chapter opens.

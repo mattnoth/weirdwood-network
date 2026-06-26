@@ -169,6 +169,8 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 >
 > —Varys to [Kevan Lannister](wiki:Kevan_Lannister)
 
+Book-cite overlay (verbatim from the Epilogue scene, ADWD): "Ser Kevan. Forgive me if you can. I bear you no ill will. This was not done from malice. It was for the realm. For the children." — then later: "There are many like you, good men in service to bad causes … but you were threatening to undo all the queen's good work, to reconcile Highgarden and Casterly Rock, bind the Faith to your little king, unite the Seven Kingdoms under Tommen's rule. So …" (`sources/chapters/adwd/adwd-epilogue.md:281`, `:285`)
+
 ### Quotes about Varys
 
 > Nothing happens in [this city](wiki:King's_Landing) without Varys knowing. Ofttimes he knows about it before it happens. He has informants everywhere. His [little birds](wiki:Little_birds), he calls them.(wiki:Varys.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)

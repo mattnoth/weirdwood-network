@@ -35,8 +35,16 @@ During the Sack, Lannister men murdered Rhaegar Targaryen's family in the Red Ke
 
 > Ned had named that murder; Robert called it war. When he had protested that the young prince and princess were no more than babes, his new-made king had replied, "I see no babes. Only dragonspawn."
 
+> "Lord Tywin's soldiers had torn him from his mother's breast and dashed his head against a wall."
+
+— Eddard Stark recounting the death of infant Prince Aegon, AGOT Eddard II (`sources/chapters/agot/agot-eddard-02.md:73`) — Ned's eyewitness-adjacent account (received); complements Gregor Clegane's later confession at the trial; navigable book-cite overlay (S152 harvest).
+
 — Eddard recalling the quarrel with Robert, AGOT Eddard II (`sources/chapters/agot/agot-eddard-02.md:71`)
 
 > Princess Elia of Dorne pleading for mercy as Rhaegar's heir was ripped from her breast and murdered before her eyes.
 
 — Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — book-cite overlay (S134 harvest-consume); Dany's inherited image of the murder, transmitted through Viserys's narrative of the Sack
+
+> "It was Lord Tywin who presented my sister's children to King Robert all wrapped up in crimson Lannister cloaks."
+
+— Oberyn Martell to Tyrion, ASOS Tyrion IX (`sources/chapters/asos/asos-tyrion-09.md:411`) — the visual proof of Tywin's deliberate staging: Lannister livery wrapped around murdered royal children to announce fealty; the primary cite for Tywin's agency in the presentation even if not the killing order. Also attaches to `tywin-presents-bodies-to-robert`.

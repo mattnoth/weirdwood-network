@@ -61,6 +61,8 @@ Capons stuffed with leeks and mushrooms are served when Ser [Jaime Lannister](wi
 
 Lord [Davos Seaworth](wiki:Davos_Seaworth) sees chickens underfoot at [Fishfoot Yard](wiki:Fishfoot_Yard) in [White Harbor](wiki:White_Harbor).(wiki:Chicken.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
 [Theon Greyjoy](wiki:Theon_Greyjoy) has to fight the [Bastard's girls](wiki:Bastard's_girls) for half a chicken.(wiki:Chicken.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+
+- (Reek II, ADWD — `sources/chapters/adwd/adwd-reek-02.md:203`) Reek's reward for his service: "half a chicken, had to fight the dogs for the meat, but it was the best meal he'd had since Winterfell" — chicken as the peak of Theon's degraded world.
 Capons glazed with honey are served when Ser [Balon Swann](wiki:Balon_Swann) visits [Sunspear](wiki:Sunspear).(wiki:Chicken.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)
 [Jon Snow](wiki:Jon_Snow) sees Ser [Axell Florent](wiki:Axell_Florent) eating capons at [Castle Black](wiki:Castle_Black).(wiki:Chicken.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
 

@@ -22,6 +22,10 @@ SACRED_TO: Old Gods (weirwood groves are their sacred sites)
 LOCATED_AT: Isle of Faces (Pact location)
 LOCATED_AT: Cave of the three-eyed crow (surviving remnant)
 
+## Appearances & Description
+
+The children who dwell in the cave beyond the Wall are "small compared to men, as a wolf is smaller than a direwolf." They have nut-brown skin dappled like a deer's with paler spots, and large ears "that could hear things that no man could hear." Their eyes are "big too, great golden cat's eyes that could see down passages where a boy's eyes saw only blackness." Their hands have only three fingers and a thumb, "with sharp black claws instead of nails." They sing in True Tongue — voices "as pure as winter air." (Bran POV, adwd-bran-03 — `sources/chapters/adwd/adwd-bran-03.md:93`)
+
 ## Quotes
 
 > "The First Men named us children," the little woman said. "The giants called us woh dak nag gran, the squirrel people, because we were small and quick and fond of trees, but we are no squirrels, no children. Our name in the True Tongue means those who sing the song of earth."

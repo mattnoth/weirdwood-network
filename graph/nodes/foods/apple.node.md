@@ -65,6 +65,12 @@ Ser [Addam Marbrand](wiki:Addam_Marbrand)'s scouts find that some of Ser [Daven 
 ### A Dance with Dragons[ ]
 
 Lord [Davos Seaworth](wiki:Davos_Seaworth) speaks with an apple seller at [Fishfoot Yard](wiki:Fishfoot_Yard) in [White Harbor](wiki:White_Harbor).(wiki:Apple.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
+
+- (Jon I, ADWD — `sources/chapters/adwd/adwd-jon-01.md:33`) Dolorous Edd's breakfast complaint at Castle Black — Hobb has made "boiled eggs, black sausage, and apples stewed with prunes."
+- (Tyrion IV, ADWD — `sources/chapters/adwd/adwd-tyrion-04.md:161`) Resupply at the river: "sacks of oranges/apples/pears" among the Shy Maid's provisions — fruit as essential resupply on the Rhoyne journey.
+- (Cersei IX, AFFC — `sources/chapters/affc/affc-cersei-09.md:121`) Supper before the Blue Bard arrest: "baked apples with a sharp white cheese" as one of the courses — a carefully assembled high-table meal preceding a calculated act of cruelty.
+- (Cersei III, AFFC — `sources/chapters/affc/affc-cersei-03.md:17`) Failed wedding-morning breakfast: "two boiled eggs, a loaf of bread, and a pot of honey" before the bloody half-formed chick moment — apples absent; substitute note that the morning's food goes wrong before Tommen's wedding.
+- (Cersei VII, AFFC — `sources/chapters/affc/affc-cersei-07.md:229`) Cersei orders "bread and cheese, a meat pie and some apples. And wine" — apple as part of a self-sufficient, unfussy solo meal ordered while plotting.
 Apples are among the rations given by the Night's Watch to [free folk](wiki:Free_folk) at [Mole's Town](wiki:Mole's_Town).(wiki:Apple.cite_ref-Radwd21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
 The [ironborn](wiki:Ironborn) of [Asha Greyjoy](wiki:Asha_Greyjoy) drink [Galbart Glover](wiki:Galbart_Glover)'s apple wine.(wiki:Apple.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0)
 

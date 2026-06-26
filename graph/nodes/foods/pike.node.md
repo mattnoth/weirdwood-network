@@ -39,6 +39,12 @@ When a huge pike is caught in the [Skahazadhan](wiki:Skahazadhan), the fisherman
 Pike is served during the [wedding of Sigorn and Alys Karstark](wiki:Wedding_of_Sigorn_and_Alys_Karstark) at [Castle Black](wiki:Castle_Black).(wiki:Pike.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 King [Tommen I Baratheon](wiki:Tommen_Baratheon) serves morsels of pike to his kittens, [Boots](wiki:Boots), [Lady Whiskers](wiki:Lady_Whiskers), and [Ser Pounce](wiki:Ser_Pounce).(wiki:Pike.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 
+- (Jon X, ADWD — `sources/chapters/adwd/adwd-jon-10.md:247`) Alys/Sigorn wedding feast: the pike being boned at the feast's continuation — Hobb's complaint; pike as centerpiece fish at the Castle Black wedding.
+- (Tyrion VI, ADWD — `sources/chapters/adwd/adwd-tyrion-06.md:161`) Ysilla squeezing lemon onto a pike spitting over the brazier at Selhorys — domestic Shy Maid scene, pike as the Tyrion journey's river-fish staple.
+- (Tyrion IV, ADWD — `sources/chapters/adwd/adwd-tyrion-04.md:161`) Resupply at the river: "a pike as large as Tyrion" among the provisions purchased — comic sizing note; pike listed alongside salt, flour, butter, bacon, and sacks of fruit.
+- (Cersei V, AFFC — `sources/chapters/affc/affc-cersei-05.md:373`) Cersei-Falyse-Balman supper: "herb-crusted pike" alongside hippocras and boar ribs.
+- (Epilogue, ADWD — `sources/chapters/adwd/adwd-epilogue.md:197`) Kevan's final supper: "roast pike near three feet" — the largest pike in Kevan's last meal.
+
 ### The Winds of Winter[ ]
 
 Pike, [trout](wiki:Trout), and [salmon](wiki:Salmon) from the lakes and rivers of the [Vale of Arryn](wiki:Vale_of_Arryn) are served at the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Pike.cite_ref-9)

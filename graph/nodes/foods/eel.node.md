@@ -30,7 +30,9 @@ The hour of the eel is one of the [named hours](wiki:Named_hours).(wiki:Eel.cite
 
 ### A Feast for Crows[ ]
 
-Disguised in [Braavos](wiki:Braavos), [Arya Stark](wiki:Arya_Stark) helps [Umma](wiki:Umma) prepare red eels, black eels, and striped eels taken from the city's lagoon. Some nights Umma cooks the eels with chopped garlic.(wiki:Eel.cite_ref-Raffc22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) Gylano teaches Arya the best place to catch eels.(wiki:Eel.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) Arya warns a sailor that [S'vrone](wiki:S'vrone) is said to have killed a dozen men and rolled their bodies into the canals to feed eels.(wiki:Eel.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+Disguised in [Braavos](wiki:Braavos), [Arya Stark](wiki:Arya_Stark) helps [Umma](wiki:Umma) prepare red eels, black eels, and striped eels taken from the city's lagoon. Some nights Umma cooks the eels with chopped garlic.(wiki:Eel.cite_ref-Raffc22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+
+- (Arya II, AFFC — `sources/chapters/affc/affc-arya-02.md:67`) Umma's HoBaW kitchen inventory: "eels with chopped garlic" as one of Umma's standard preparations alongside fish with sea salt and cracked peppercorns, occasional saffron; lagoon shellfish list (clams, cockles, mussels, eels, crabs, oysters). Gylano teaches Arya the best place to catch eels.(wiki:Eel.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) Arya warns a sailor that [S'vrone](wiki:S'vrone) is said to have killed a dozen men and rolled their bodies into the canals to feed eels.(wiki:Eel.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
 
 ### A Dance with Dragons[ ]
 

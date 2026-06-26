@@ -36,6 +36,8 @@ Herring from [White Harbor](wiki:White_Harbor) is served at the [harvest feast](
 
 [Arya Stark](wiki:Arya_Stark), acting at Cat of the Canals, sees herring being sold at the fishmarket in [Braavos](wiki:Braavos).(wiki:Herring.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
+- (Cat of the Canals I, AFFC — `sources/chapters/affc/affc-cat-of-the-canals-01.md:143`) Dareon's boast: "Yesterday I ate herring with the whores, but within the year I'll be having emperor crab with courtesans" — herring as the low-status food of his present life, contrasted with his ambitions; also recorded in herring's Quotes section.
+
 ### A Dance with Dragons[ ]
 
 [Tyrion Lannister](wiki:Tyrion_Lannister) is served creamed herring while at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Herring.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

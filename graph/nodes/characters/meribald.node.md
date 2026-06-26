@@ -43,3 +43,7 @@ Meribald guides Brienne and her companions to the [Quiet Isle](wiki:Quiet_Isle) 
 
 I have a weakness for the [orange](wiki:Orange), I confess.(wiki:Meribald.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 Hyle: The [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings)? Meribald: So they called it, though I never saw a king, nor earned a penny. It was war, though. That it was.(wiki:Meribald.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+
+> "Almost all are common-born, simple folk who had never been more than a mile from the house where they were born until the day some lord came round to take them off to war. Poorly shod and poorly clad, they march away beneath his banners . . . Brothers march with brothers, sons with fathers, friends with friends . . . And one day they look around and realize all their friends and kin are gone, that they are fighting beside strangers beneath a banner that they hardly recognize . . . And the knights come down on them, faceless men clad all in steel, and the iron thunder of their charge seems to fill the world . . . And the man breaks."
+
+— Meribald's "broken men" sermon to Brienne, Podrick, and Hyle Hunt, AFFC Brienne V (`sources/chapters/affc/affc-brienne-05.md:293`). The definitive in-universe account of how soldiers become outlaws; grounds `meribald KNOWS broken-men-phenomenon` and his own origin story.

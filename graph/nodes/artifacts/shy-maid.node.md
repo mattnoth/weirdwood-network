@@ -28,3 +28,7 @@ The boat is used by [Griff](wiki:Griff) to transport his party down the [Rhoyne]
 ## Quotes
 
 She looks like dirt … but no doubt that’s the point.(wiki:Shy_Maid.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+> "The Shy Maid was a sweet boat. Her draft was so shallow she could work her way up even the smallest of the river’s vassal streams, negotiating sandbars that would have stranded larger vessels, yet with her sail raised and a current under her, she could make good speed."
+
+— Tyrion’s assessment, ADWD Tyrion IV (`sources/chapters/adwd/adwd-tyrion-04.md:83`) — book-cite overlay; navigable provenance for the Shy Maid’s shallow-draft capability, upgrades wiki-only description.

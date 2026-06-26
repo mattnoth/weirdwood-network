@@ -27,3 +27,9 @@ The song is sung during the [harvest feast](wiki:Harvest_feast) at [Winterfell](
 ### A Dance with Dragons[ ]
 
 After the marriage of [Ramsay Bolton](wiki:Ramsay_Snow) and "[Arya Stark](wiki:Arya_Stark)" (actually [Jeyne Poole](wiki:Jeyne_Poole)), a banquet is held in the [Great Hall of Winterfell](wiki:Great_Hall_of_Winterfell). Lord [Wyman Manderly](wiki:Wyman_Manderly) is in a jolly mood and calls out to the musicians for various tunes, one of which is "The Night That Ended". Wyman remarks that the bride will like that song.(wiki:The_Night_That_Ended.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+**Book-cite overlay (S152 harvest):** Verbatim call, Theon's POV, at the wedding feast immediately after Wyman serves his pork pies:
+
+> "'Give us "The Night That Ended," singer,' he bellowed. 'The bride will like that one, I know. Or sing to us of brave young Danny Flint and make us weep.'"
+
+— Wyman Manderly calling for songs, ADWD The Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:141`) — both "The Night That Ended" and [Brave Danny Flint](brave-danny-flint) called for in the same breath; Wyman's subtext: a song about the Long Night and a song about a girl murdered by her own brothers, at a feast where the "pork pies" he serves contain the missing Freys. The bride will like the Night That Ended = Jeyne Poole, who has lived her own night of horrors.

@@ -82,6 +82,12 @@ When Ser [Jaime Lannister](wiki:Jaime_Lannister) arrives at [Pennytree](wiki:Pen
 Onion broth flavored with bits of goat and carrot is served at the [wedding of Sigorn and Alys Karstark](wiki:Wedding_of_Sigorn_and_Alys_Karstark) at [Castle Black](wiki:Castle_Black).(wiki:Goat.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
 Goat is served at [Great Pyramid](wiki:Great_Pyramid) when Daenerys hosts the Yunkai'i in [Meereen](wiki:Meereen).(wiki:Goat.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-0) Prince [Quentyn Martell](wiki:Quentyn_Martell), Ser [Gerris Drinkwater](wiki:Gerris_Drinkwater), and Ser [Archibald Yronwood](wiki:Archibald_Yronwood) have goat's milk as part of their breakfast.(wiki:Goat.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-0)
 
+- (Theon II, ACOK — `sources/chapters/acok/acok-theon-02.md:365`) Pyke ironborn feast: "spiceless goat" served alongside fish stews and black bread — goat as the only meat at a characteristically austere Ironborn board.
+- (Bran III, ADWD — `sources/chapters/adwd/adwd-bran-03.md:89`) Cave larder: goat cheese and milk listed among the stored provisions in the three-eyed crow's caverns, alongside a hundred kinds of mushrooms and blind white fish.
+- (The Dragontamer I, ADWD — `sources/chapters/adwd/adwd-the-dragontamer-01.md:81`) Quentyn Martell's last meal: "fruit and bread and cheese, washed down with goat milk" — goat milk as the humble close of his life before the dragon attempt.
+- (Jon X, ADWD — `sources/chapters/adwd/adwd-jon-10.md:195`) Alys/Sigorn wedding feast at Castle Black: onion broth flavored with "bits of goat and carrot" — goat as the only meat protein in this sparse Northern winter wedding.
+- (Alayne II, AFFC — `sources/chapters/affc/affc-alayne-02.md:87`) Snow waycastle: "a hot meal of stewed goat and onions" — road food on the descent of the Giant's Lance.
+
 ## Quotes
 
 Dunk lifted the skewer and bit into a chunk of meat. Goat, flavored with some lordly [spice](wiki:Spice) he'd never tasted before.(wiki:Goat.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)

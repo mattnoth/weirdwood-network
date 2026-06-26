@@ -242,6 +242,14 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 
 — Cersei celebrating Margaery's arrest, believing herself proof against Maggy's prophecy — just as the trap closes on her, AFFC Cersei X (`sources/chapters/affc/affc-cersei-10.md:49`)
 
+> "It is blood I need, not water. Tyrion's blood, the blood of the valonqar."
+
+— Cersei hallucinating Maggy's prophecy words during the funeral vigil for Tywin, AFFC Cersei I (`sources/chapters/affc/affc-cersei-01.md:173`) [q529]
+
+> The valonqar shall wrap his hands about your throat, the queen heard . . . his fingers dug deep into her neck . . .
+
+— Cersei's nightmare in which Tyrion strangles her — the Maggy prophecy invading her sleep, AFFC Cersei VIII (`sources/chapters/affc/affc-cersei-08.md:263`) [q528]
+
 ### Quotes about Cersei
 
 > She was as beautiful as men said. A jeweled tiara gleamed amidst her long golden hair, its [emeralds](wiki:Emerald) a perfect match for the green of her eyes.(wiki:Cersei_Lannister.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)
@@ -283,6 +291,12 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 > This head of mine is worth a [lordship](wiki:Lord)... back in [Westeros](wiki:Westeros), half a world away. By the time you get it there, only [bone](wiki:Bone) and maggots will remain. My sweet sister will deny the head is mine and cheat you of the promised reward. You know how it is with queens. Fickle cunts, the lot of them, and Cersei is the worst.(wiki:Cersei_Lannister.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_102-0)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Ben Plumm](wiki:Ben_Plumm)
+
+## Foreshadowing
+
+> If he dares mention gold, I will deal with this one as I did the last and find a pious eight-year-old to wear the crystal crown.
+
+— Cersei's internal thought as she negotiates with the new High Septon who will become the High Sparrow — her murderous contempt for the Faith foreshadows her catastrophic miscalculation in rearming them, AFFC Cersei VI (`sources/chapters/affc/affc-cersei-06.md:235`) [q530]
 
 ## Edges
 

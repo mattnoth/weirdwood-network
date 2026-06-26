@@ -37,6 +37,13 @@ A dozen [free folk](wiki:Free_folk) villages paid homage to [Varamyr Sixskins](w
 
 [Brienne of Tarth](wiki:Brienne_of_Tarth) drinks a cup of cider at the [Inn of the Kneeling Man](wiki:Inn_of_the_Kneeling_Man).(wiki:Cider.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) When [Arya Stark](wiki:Arya_Stark) visits the inn, [Sharna](wiki:Sharna) states they have run out of cider.(wiki:Cider.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
+- (Jaime II, ASOS — `sources/chapters/asos/asos-jaime-02.md:85`) Inn of the Kneeling Man: Brienne drinks cider while Jaime and Cleos have ale — the specific drink choice confirming the ASOS narrative record.
+
+### A Feast for Crows
+
+- (Brienne VI, AFFC — `sources/chapters/affc/affc-brienne-06.md:113`) Elder Brother serves "sweet cider" to guests in cups carved from driftwood on the Quiet Isle — the septry's hospitality before the main supper.
+- (Brienne VI, AFFC — `sources/chapters/affc/affc-brienne-06.md:165`) Brienne's women's cottage supplies at the Quiet Isle: "a flagon of cider, some bread and cheese" — the septry's cider as the go-to provision for guests.
+
 ### A Feast for Crows[ ]
 
 [Pate](wiki:Pate_(novice)) and his companions drink tankards of strong cider at the [Quill and Tankard](wiki:Quill_and_Tankard).(wiki:Cider.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

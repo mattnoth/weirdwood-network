@@ -16,6 +16,12 @@ Lamprey pie is a rich, high-status delicacy eaten at feasts throughout Westeros 
 ## Edges
 
 
+## Narrative Arc
+
+### A Dance with Dragons
+
+- (Davos IV, ADWD — `sources/chapters/adwd/adwd-davos-04.md:93`) Merman's Court welcome feast for Davos Seaworth: "lamprey pie and venison with roasted chestnuts" — White Harbor hospitality, served in the great hall beneath the painted shoals of herring and cod.
+
 ## Quotes
 
 > They started with a creamy chestnut soup, crusty hot bread, and greens dressed with apples and pine nuts. Then came lamprey pie, honeyed ham, buttered carrots, white beans and bacon, and roast swan stuffed with mushrooms and oysters.

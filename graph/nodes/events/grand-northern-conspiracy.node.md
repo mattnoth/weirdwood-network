@@ -39,3 +39,9 @@ political engine behind the [Frey pies](manderly-bakes-the-frey-pies) and Stanni
 > "It's not a king I need but a smuggler."
 
 > "My son Wendel came to the Twins a guest. He ate Lord Walder's bread and salt, and hung his sword upon the wall to feast with friends. And they murdered him."
+
+— Wyman Manderly to Davos Seaworth, ADWD Davos IV (`sources/chapters/adwd/adwd-davos-04.md:125`) — the guest-right grievance that motivates the conspiracy; navigable book-cite overlay (S151; confirmed present).
+
+> "The road has many dangers, ser. I gave your brothers guest gifts when we took our leave of White Harbor. We swore we would meet again at the wedding. Many and more bore witness to our parting."
+
+— Wyman to Ser Hosteen Frey (when challenged about the missing Freys), ADWD A Ghost in Winterfell I (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:89`) — the cover story: Wyman gave the Freys formal guest gifts and called witnesses to their departure; the "guest gifts" (palfreys) are the alibi that makes their disappearance look like highway misfortune rather than murder. Sinister hospitality inversion: the form of guest right used to conceal its violation.

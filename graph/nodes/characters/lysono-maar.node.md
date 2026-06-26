@@ -57,7 +57,7 @@ Near [Griffin's Roost](wiki:Griffin's_Roost), Princess [Arianne Martell](wiki:Ar
 
 > The spymaster was new to Griff, a [Lyseni](wiki:Lys) named Lysono Maar, with lilac eyes and white-gold hair and lips that would have been the envy of a [whore](wiki:Whore). At first glance, Griff had almost taken him for a woman.(wiki:Lysono_Maar.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of [Jon Connington](wiki:Jon_Connington). Book-cite overlay: `sources/chapters/adwd/adwd-the-lost-lord-01.md:107` (full text: "His fingernails were painted purple, and his earlobes dripped with pearls and amethysts.")
 
 > Arianne's company was met by a column of sellswords down from [Griffin's Roost](wiki:Griffin's_Roost), led by the most exotic creature that the princess had ever laid her eyes on, with painted fingernails and gemstones sparkling in his ears.(wiki:Lysono_Maar.cite_ref-Ar2_2-5)
 >

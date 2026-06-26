@@ -38,11 +38,15 @@ Lemon cakes in the shape of roses are served at King [Renly Baratheon](wiki:Renl
 
 ### A Feast for Crows[ ]
 
+- (Alayne II, AFFC — `sources/chapters/affc/affc-alayne-02.md:87`) Lemon cakes as Sweetrobin behaviour-management: Sansa offers "lemony lemony lemon cakes … a hundred" to soothe Robert — the promise of lemon cakes becomes an identity-bridging moment between Alayne (Sansa) and Sweetrobin.
+
 At the [Gates of the Moon](wiki:Gates_of_the_Moon), when [Petyr Baelish](wiki:Petyr_Baelish) tells Sansa Stark he has brought her a gift, something better than gowns or jewels, she asks him if he has brought lemons, as she has promised young Lord [Robert Arryn](wiki:Robert_Arryn) lemon cake.(wiki:Lemon_cake.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
 ### A Dance with Dragons[ ]
 
 In the [House of Black and White](wiki:House_of_Black_and_White), the [kindly man](wiki:Kindly_man) gives [Arya Stark](wiki:Arya_Stark) a drink that is so tart, she compares it to biting into a lemon, which reminds her of [a girl](wiki:Sansa_Stark) she once knew who loved lemon cakes.(wiki:Lemon_cake.cite_ref-Radwd64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+- (The Ugly Little Girl I, ADWD — `sources/chapters/adwd/adwd-the-ugly-little-girl-01.md:197`) The face-change ritual drink, "very tart, like biting into a lemon" — triggers Sansa/lemon-cakes identity memory in Arya. The tart drink bridges lemon and lemon-cake as a cross-identity identity thread.
 
 ### The Winds of Winter[ ]
 

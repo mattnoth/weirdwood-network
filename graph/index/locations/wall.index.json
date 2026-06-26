@@ -3,7 +3,7 @@
   "name": "Wall",
   "type": "place.location",
   "node_path": "graph/nodes/locations/wall.node.md",
-  "generated_at": "2026-06-26T15:30:43.367225+00:00",
+  "generated_at": "2026-06-26T19:44:49.894755+00:00",
   "stats": {
     "appearances_total": 205,
     "chapters_referenced_in": 121,

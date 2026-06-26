@@ -53,9 +53,14 @@ While pretending to be the servant Nan at [Harrenhal](wiki:Harrenhal), [Arya Sta
 
 Roast boar is served at the wedding feast of Lord [Petyr Baelish](wiki:Petyr_Baelish) and Lady [Lysa Arryn](wiki:Lysa_Arryn) at the [Fingers](wiki:Drearfort).(wiki:Boar.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
 
+- (Sansa VI, ASOS — `sources/chapters/asos/asos-sansa-06.md:245`) LF–Lysa wedding feast at the Fingers: "roast boar" among quail, venison, and fine mead — a lavish spread for a coerced private wedding.
+
 ### A Feast for Crows[ ]
 
 Cersei, [regent](wiki:Regent) for King [Tommen I Baratheon](wiki:Tommen_Baratheon), has become very fond of eating boar since Robert's death.(wiki:Boar.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)(wiki:Boar.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
+
+- (Cersei V, AFFC — `sources/chapters/affc/affc-cersei-05.md:373`) Cersei-Falyse-Balman supper: "ribs of wild boar" on the menu alongside hippocras, buttered beets, pike, and hot-baked bread — Cersei's appetite for boar persisting as a post-Robert signature.
+- (Queensguard I, ADWD — `sources/chapters/adwd/adwd-the-queensguard-01.md:53`) Barristan's knighting-feast memory: "ribs of wild boar, prepared the Dornish way with dragon peppers, so hot they burned his mouth" — boar at the feast where Aegon V knighted him at age sixteen.
 
 ### A Dance with Dragons[ ]
 

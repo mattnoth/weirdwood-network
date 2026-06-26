@@ -1,0 +1,312 @@
+[
+ {
+  "qline": 348,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-the-prince-of-winterfell-01.md:129",
+  "node": "cod",
+  "action": "dedup-noop",
+  "detail": "Duplicate of q686 same chapter:line (different file extension variant)",
+  "cite_used": "adwd-the-prince-of-winterfell-01.md:129"
+ },
+ {
+  "qline": 351,
+  "route": "CHARS",
+  "kind": "quote",
+  "cite": "adwd-the-prince-of-winterfell-01.md:131",
+  "node": null,
+  "action": "attached",
+  "detail": "Wyman eats six portions from the three pies, smacking lips, gravy stains — performed gluttony as cover",
+  "cite_used": "adwd-the-prince-of-winterfell-01.md:131"
+ },
+ {
+  "qline": 354,
+  "route": "EVENTS",
+  "kind": "foreshadowing",
+  "cite": "adwd-the-prince-of-winterfell-01.md:153",
+  "node": null,
+  "action": "attached",
+  "detail": "Lady Dustin's 'No dish so much as touches Roose's lips until he sees Lord Wyman eat of it first' — Roose's miscalibrated food-tasting threat",
+  "cite_used": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:153"
+ },
+ {
+  "qline": 517,
+  "route": "FOODS",
+  "kind": "drink",
+  "cite": "affc-cersei-02.md:227",
+  "node": "wine",
+  "action": "attached-narrative-arc",
+  "detail": "Cersei's strongwine after supper: 'poured herself a cup of strongwine and drank it by the window'",
+  "cite_used": "affc-cersei-02.md:227"
+ },
+ {
+  "qline": 528,
+  "route": "CHARS",
+  "kind": "foreshadowing",
+  "cite": "affc-cersei-08.md:263",
+  "node": null,
+  "action": "attached",
+  "detail": "Nightmare valonqar: 'The valonqar shall wrap his hands about your throat... fingers dug deep into her neck'",
+  "cite_used": "affc-cersei-08.md:263"
+ },
+ {
+  "qline": 550,
+  "route": "EVENTS",
+  "kind": "guest-right",
+  "cite": "affc-brienne-08.md:103",
+  "node": null,
+  "action": "dedup-noop",
+  "detail": "Long Jeyne Heddle 'Guest right don't mean so much as it used to' already present in guest-right.node.md at line 70 of the node file. No edit",
+  "cite_used": ""
+ },
+ {
+  "qline": 551,
+  "route": "EDGES",
+  "kind": "foreshadowing",
+  "cite": "affc-brienne-06.md:79",
+  "node": "gravedigger",
+  "action": "attached-prose-gated",
+  "detail": "lichyard book-cite overlay onto ## Appearances & Description; gravedigger=Sandor reading kept theory-gated (no identity edge)",
+  "cite_used": ""
+ },
+ {
+  "qline": 553,
+  "route": "CHARS",
+  "kind": "foreshadowing",
+  "cite": "affc-brienne-07.md:259",
+  "node": null,
+  "action": "attached",
+  "detail": "Meribald's great she-wolf pack on the Trident 'known to bring aurochs down all by herself' — almost certainly Nymeria's pack — DRIFT: route ",
+  "cite_used": "affc-brienne-05.md:259"
+ },
+ {
+  "qline": 572,
+  "route": "EVENTS",
+  "kind": "detail",
+  "cite": "acok-tyrion-11.md:107",
+  "node": null,
+  "action": "attached",
+  "detail": "Dragonpit wildfire-cache discovery: Hallyne reports a whore fell through a rotted floor, found the Rossart-era jars, drank one mistaking it ",
+  "cite_used": "sources/chapters/acok/acok-tyrion-11.md:107"
+ },
+ {
+  "qline": 575,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-daenerys-08.md:15",
+  "node": "horsemeat",
+  "action": "attached-narrative-arc",
+  "detail": "Hizdahr's Yunkai feast: horse among camel/croc/duck/goat/dog; crocodile node also updated",
+  "cite_used": "adwd-daenerys-08.md:15"
+ },
+ {
+  "qline": 591,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-jon-13.md:33",
+  "node": "apple",
+  "action": "attached-narrative-arc",
+  "detail": "Hobb's boiled eggs/black sausage/apples stewed with prunes; Dolorous Edd prune monologue",
+  "cite_used": "adwd-jon-13.md:33"
+ },
+ {
+  "qline": 603,
+  "route": "CHARS",
+  "kind": "description",
+  "cite": "adwd-jon-03.md:37",
+  "node": null,
+  "action": "attached",
+  "detail": "Val at Mance's execution: 'she looked more regal in bronze than Stannis did in gold'",
+  "cite_used": "adwd-jon-03.md:37"
+ },
+ {
+  "qline": 613,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-bran-03.md:89",
+  "node": "mushroom-fungi",
+  "action": "attached-narrative-arc",
+  "detail": "Cave larder: hundred kinds of mushrooms; blood stew daily; rat and goat nodes also updated",
+  "cite_used": "adwd-bran-03.md:89"
+ },
+ {
+  "qline": 620,
+  "route": "CHARS",
+  "kind": "description",
+  "cite": "adwd-bran-02.md:21",
+  "node": null,
+  "action": "attached",
+  "detail": "Hodor frozen: icicles in beard, mustache a lump of frozen snot glittering in sunset light",
+  "cite_used": "adwd-bran-02.md:21"
+ },
+ {
+  "qline": 632,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-the-griffin-reborn-01.md:135",
+  "node": "bread",
+  "action": "attached-narrative-arc",
+  "detail": "JonCon's first breakfast: boiled eggs/fried bread/beans + 'worst wine' used as greyscale soak",
+  "cite_used": "adwd-the-griffin-reborn-01.md:135"
+ },
+ {
+  "qline": 636,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-epilogue.md:205",
+  "node": "cream-cakes",
+  "action": "minted-node",
+  "detail": "New node minted; Tommen's favorite, domestic normalcy before Varys strikes",
+  "cite_used": "adwd-epilogue.md:205"
+ },
+ {
+  "qline": 643,
+  "route": "CHARS",
+  "kind": "description",
+  "cite": "adwd-the-lost-lord-01.md:107",
+  "node": null,
+  "action": "attached",
+  "detail": "Lysono Maar: Lyseni, lilac eyes, white-gold hair, purple fingernails, earlobes dripping pearls",
+  "cite_used": "adwd-the-lost-lord-01.md:107"
+ },
+ {
+  "qline": 652,
+  "route": "EVENTS",
+  "kind": "quote",
+  "cite": "adwd-tyrion-04.md:83",
+  "node": null,
+  "action": "attached",
+  "detail": "Shy Maid described as a 'sweet boat' with shallow draft suited to the Rhoyne's tricky shallows. Book-cite overlay added.",
+  "cite_used": "sources/chapters/adwd/adwd-tyrion-04.md:83"
+ },
+ {
+  "qline": 661,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "asos-sansa-07:131",
+  "node": "dreamwine",
+  "action": "attached-narrative-arc",
+  "detail": "Maester Colemon gives Sweetrobin 'half a cup of dreamwine' to calm a shaking fit",
+  "cite_used": "asos-sansa-07:131"
+ },
+ {
+  "qline": 668,
+  "route": "CHARS",
+  "kind": "appearance",
+  "cite": "affc-sansa-01:167",
+  "node": null,
+  "action": "attached",
+  "detail": "Marillion post-torture: bathed, sky-blue + white tunic, white silk gloves over ruined hands, white silk bandage over burned-out eyes",
+  "cite_used": "affc-sansa-01.md:167"
+ },
+ {
+  "qline": 673,
+  "route": "EDGES",
+  "kind": "relationship",
+  "cite": "asos-sansa-06:259-286",
+  "node": "marillion ASSAULTS sansa-stark + lothor-brune RESCUES sansa-stark",
+  "action": "edge-minted",
+  "detail": "H2/H3 Tier-1, asos-sansa-06:279/:285 — S148-deferred, now verbatim-verified",
+  "cite_used": ""
+ },
+ {
+  "qline": 685,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-reek-03:59",
+  "node": "sheep",
+  "action": "attached-narrative-arc",
+  "detail": "Barrowton feast at Harwood Stout's hall; Ramsay eats winter stores, cook's complaint",
+  "cite_used": "adwd-reek-03:59"
+ },
+ {
+  "qline": 694,
+  "route": "CHARS",
+  "kind": "appearance",
+  "cite": "adwd-reek-03:89",
+  "node": null,
+  "action": "attached",
+  "detail": "Roose Bolton appearance: smooth ageless, lips vanish, 'on Roose Bolton's face, rage and joy looked much the same. His eyes are ice.' — DRIFT",
+  "cite_used": "adwd-reek-03.md:89"
+ },
+ {
+  "qline": 702,
+  "route": "EDGES",
+  "kind": "edge",
+  "cite": "adwd-reek-02:25",
+  "node": "breaking-of-theon-greyjoy ENABLES fall-of-moat-cailin",
+  "action": "edge-minted",
+  "detail": "H1 Tier-2, adwd-reek-02:65 (run_id harvest-s152)",
+  "cite_used": ""
+ },
+ {
+  "qline": 705,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "affc-arya-02:91",
+  "node": "honeyed-ham",
+  "action": "attached-narrative-arc",
+  "detail": "Arya fears pale white meat is human flesh; kindly man: 'It is pork, child, only pork'",
+  "cite_used": "affc-arya-02:91"
+ },
+ {
+  "qline": 714,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-the-ugly-little-girl-01:113",
+  "node": "onion-broth",
+  "action": "attached-narrative-arc",
+  "detail": "Insurance underwriter's onion broth: guard tastes first, old man waits for it to cool — poison-anxiety ritual",
+  "cite_used": "adwd-the-ugly-little-girl-01:113"
+ },
+ {
+  "qline": 720,
+  "route": "EDGES",
+  "kind": "node",
+  "cite": "adwd-the-ugly-little-girl-01",
+  "node": "arya-assassinates-the-insurance-broker",
+  "action": "park",
+  "detail": "blocked: the unnamed insurance underwriter is single-use/unnamed — deliberately not noded; revisit only if ever named/needed",
+  "cite_used": ""
+ },
+ {
+  "qline": 728,
+  "route": "EVENTS",
+  "kind": "foreshadowing",
+  "cite": "adwd-the-prince-of-winterfell-01.md:149",
+  "node": null,
+  "action": "attached",
+  "detail": "Lady Dustin: 'He does not have the belly for it, for all his girth.' Dramatic irony: spoken while Wyman is actively serving the Frey pies.",
+  "cite_used": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:149"
+ },
+ {
+  "qline": 734,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "agot-eddard-15.md:155",
+  "node": "moon-tea",
+  "action": "attached-narrative-arc",
+  "detail": "Varys: 'bread and cheese and the milk of the poppy' vs Sansa's head — food/medicine as bribe for compliance",
+  "cite_used": "agot-eddard-15.md:155"
+ },
+ {
+  "qline": 743,
+  "route": "CHARS",
+  "kind": "character-voice",
+  "cite": "asos-jaime-05.md:71",
+  "node": null,
+  "action": "dedup-noop",
+  "detail": "'By what right does the wolf judge the lion? By what right?' — already in node at line 193 with book cite",
+  "cite_used": "asos-jaime-05.md:71"
+ },
+ {
+  "qline": 749,
+  "route": "FOODS",
+  "kind": "food",
+  "cite": "adwd-epilogue.md:101",
+  "node": "robert-strong",
+  "action": "attached-prose-gated",
+  "detail": "HANDBACK from FOODS — 'took neither food nor drink' book-cite overlay onto ## Appearances & Description; identity gated",
+  "cite_used": ""
+ }
+]

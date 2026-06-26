@@ -46,6 +46,10 @@ Oranges are among the goods brought by the [Myraham](wiki:Myraham) to [Lordsport
 [Butterbumps](wiki:Butterbumps) uses oranges while performing at the [Red Keep](wiki:Red_Keep).(wiki:Orange.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
 [Oswell Kettleblack](wiki:Oswell_Kettleblack) brings oranges and [pomegranates](wiki:Pomegranate) to [the tower](wiki:Drearfort) of [House Baelish](wiki:House_Baelish). Sansa and Lord [Petyr Baelish](wiki:Petyr_Baelish) share a blood orange.(wiki:Orange.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
 
+### A Storm of Swords
+
+- (Sansa VI, ASOS — `sources/chapters/asos/asos-sansa-06.md:133`) LF manipulation scene at the Fingers: a platter of apples, pears, pomegranates, a "huge blood orange" arrives with bread and butter; Petyr eats pomegranate seeds off his dagger-point while revealing the Tyrells' role in Joffrey's death, then squeezes the blood orange into his mouth — the fruit becomes part of the seduction/confession choreography.
+
 ### A Feast for Crows[ ]
 
 [Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), and [Areo Hotah](wiki:Areo_Hotah) observe that the blood oranges at the [Water Gardens](wiki:Water_Gardens) are past being ripe, with some falling onto the terrace. Doran rests in the shade of the trees.(wiki:Orange.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) Arriving in [Sunspear](wiki:Sunspear), Doran's retinue is accosted by townspeople calling for vengeance for his slain brother, Prince [Oberyn Martell](wiki:Oberyn_Martell). The townsfolk pelt [lemons](wiki:Lemon), [limes](wiki:Lime), and oranges at Doran's litter.(wiki:Orange.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) [Dorea Sand](wiki:Dorea_Sand) knocks oranges off the trees with her morningstar.(wiki:Orange.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
@@ -53,9 +57,15 @@ Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) splits an orange with [Sy
 While in [Maidenpool](wiki:Maidenpool), [Brienne Tarth](wiki:Brienne_Tarth) purchases an orange from the [Seastrider](wiki:Seastrider) for [Podrick Payne](wiki:Podrick_Payne). Septon [Meribald](wiki:Meribald) has nine sacks of oranges among his provisions for the poor and hungry of the [riverlands](wiki:Riverlands). He exchanges oranges for [clams](wiki:Clam) with fisherwomen of the [Bay of Crabs](wiki:Bay_of_Crabs).(wiki:Orange.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2) All of Meribald's oranges are gone by the time he reaches the [inn at the crossroads](wiki:Inn_at_the_crossroads), but he offers to bring some to the inn in the spring.(wiki:Orange.cite_ref-Raffc37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
 Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) and her son, King [Tommen I Baratheon](wiki:Tommen_Baratheon), have blood oranges from [Dorne](wiki:Dorne) as part of their breakfast.(wiki:Orange.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 
+### A Feast for Crows
+
+- (Brienne VII, AFFC — `sources/chapters/affc/affc-brienne-07.md:161`) Meribald distributes his last oranges to the orphan children at the crossroads inn — the wandering septon's charity exhausted here; oranges as comfort food for children amid war's wreckage.
+
 ### A Dance with Dragons[ ]
 
-[Yandry](wiki:Yandry) and [Ysilla](wiki:Ysilla) return to the [Shy Maid](wiki:Shy_Maid) with sacks of oranges from [Selhorys](wiki:Selhorys).(wiki:Orange.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) [Tyrion Lannister](wiki:Tyrion_Lannister) sees a wagon filled with limes and oranges at the northern gate of [Volantis](wiki:Volantis).(wiki:Orange.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+[Yandry](wiki:Yandry) and [Ysilla](wiki:Ysilla) return to the [Shy Maid](wiki:Shy_Maid) with sacks of oranges from [Selhorys](wiki:Selhorys).(wiki:Orange.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+
+- (Tyrion IV, ADWD — `sources/chapters/adwd/adwd-tyrion-04.md:161`) Resupply at the river: "sacks of oranges/apples/pears" among the Shy Maid's provisions at Selhorys — Essosi river-journey provisioning detail. [Tyrion Lannister](wiki:Tyrion_Lannister) sees a wagon filled with limes and oranges at the northern gate of [Volantis](wiki:Volantis).(wiki:Orange.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
 A [snake](wiki:Snake) stew simmered with [dragon peppers](wiki:Dragon_pepper) and blood oranges is served at the feast welcoming Ser [Balon Swann](wiki:Balon_Swann) to [Sunspear](wiki:Sunspear).(wiki:Orange.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 
 ## Quotes

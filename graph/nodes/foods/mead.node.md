@@ -39,7 +39,13 @@ The party of Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) celebrated with
 [Samwell Tarly](wiki:Samwell_Tarly) tells [Gilly](wiki:Gilly) that [Dareon](wiki:Dareon)'s singing is as sweet as mead.(wiki:Mead.cite_ref-Rasos46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 Casks and wagons of [ale](wiki:Ale), mead, and [wine](wiki:Wine) are provided by [House Frey](wiki:House_Frey) during the [Red Wedding](wiki:Red_Wedding).(wiki:Mead.cite_ref-Rasos50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)(wiki:Mead.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) Flagons of mead, milk, and golden wine are served at the breakfast feast when King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) receives wedding gifts.(wiki:Mead.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) A fine light mead is served for the wedding of [Lysa Arryn](wiki:Lysa_Arryn) to [Petyr Baelish](wiki:Petyr_Baelish) at the [Fingers](wiki:Drearfort).(wiki:Mead.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
 
+### A Storm of Swords
+
+- (Sansa VI, ASOS — `sources/chapters/asos/asos-sansa-06.md:245`) LF–Lysa wedding feast at the Fingers: "fine light mead" served at a tiny private wedding — the sweetness of mead contrasting with the coercion embedded in the marriage.
+
 ### A Feast for Crows[ ]
+
+- (Brienne VI, AFFC — `sources/chapters/affc/affc-brienne-06.md:141`) Quiet Isle septry supper: mead alongside sweet cider, crusty bread, fresh-churned butter, honey from the septry's hives, and a thick fish-and-shellfish stew — the septry's famous mead in its native context.
 
 Brother [Clement](wiki:Clement) sells mead from the [Quiet Isle](wiki:Quiet_Isle) at [Saltpans](wiki:Saltpans), but he is killed when the town is [raided by outlaws](wiki:Raid_on_Saltpans).(wiki:Mead.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 

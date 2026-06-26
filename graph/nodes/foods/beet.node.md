@@ -30,9 +30,13 @@ During the [Winterfell](wiki:Winterfell) [harvest feast](wiki:Harvest_feast), [B
 
 ### A Feast for Crows[ ]
 
+- (Cersei II, AFFC — `sources/chapters/affc/affc-cersei-02.md:233`) Supper with Ser Kevan: "beets and bread and bloody beef with a flagon of Dornish red" — a deliberately simple supper that Cersei uses to project frugality while she plots.
+
 When [Kevan Lannister](wiki:Kevan_Lannister) meets with Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) for dinner, they eat a simple supper of beets and bread and bloody beef(wiki:Beet.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) When Cersei has [Falyse Stokeworth](wiki:Falyse_Stokeworth) and her husband, Ser [Balman Byrch](wiki:Balman_Byrch), as guests for dinner buttered beets feature on the menu.(wiki:Beet.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ### A Dance with Dragons[ ]
+
+- (Jon III, ADWD — `sources/chapters/adwd/adwd-jon-03.md:167`) Post-execution supper at Castle Black: "boiled beef and beets" — Hobb's austere post-hanging meal, with the note he is out of horseradish.
 
 At the [Fishermonger's Square](wiki:Fishermonger's_Square_(Volantis)) of [Volantis](wiki:Volantis), Prince [Quentyn Martell](wiki:Quentyn_Martell) sees several vendors frying chunks of fish with onions and beets, and notes how popular beets are in the city.(wiki:Beet.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 [Dolorous Edd](wiki:Dolorous_Edd) tells [Jon Snow](wiki:Jon_Snow) boiled beef and beets are for supper.(wiki:Beet.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) There are pickled beets in the vaults of [Castle Black](wiki:Castle_Black).(wiki:Beet.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

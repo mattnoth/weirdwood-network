@@ -27,6 +27,12 @@ There is enmity between the Windblown and the [Company of the Cat](wiki:Company_
 
 ## Culture
 
+**Book-cite overlay (S152 harvest):** The Dornish infiltration kit — Quentyn and his companions disguise themselves as Brazen Beasts to infiltrate the Great Pyramid:
+
+> "Within were three long hooded cloaks made from myriad small squares of cloth sewn together, three cudgels, three shortswords, three masks of polished brass. A bull, a lion, and an ape."
+
+— Quentyn's POV preparing for the dragon theft, ADWD The Dragontamer I (`sources/chapters/adwd/adwd-the-dragontamer-01.md:93`) — the specific Brazen Beast disguises supplied by the Tattered Prince from Windblown stock; connects Windblown operational support to Quentyn's dragon-theft attempt.
+
 The Windblown's standards are fork-tailed blue-and-white banners, with streamers of pale blue silk on their lances. Their command tent is a great grey sailcloth pavilion which the [Tattered Prince](wiki:Tattered_Prince) calls his canvas castle. It can take the Windblown less than an hour to strike camp.(wiki:Windblown.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 The men of the Windblown chose their own names, and can change them as they wish. The closest thing the Windblown have to a company tongue is classic [High Valyrian](wiki:High_Valyrian).(wiki:Windblown.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)

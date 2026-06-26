@@ -25,7 +25,13 @@ Brazen Beasts is a organization.faction from the AWOIAF wiki.
 
 > *See also: [Images of Brazen Beasts](wiki:Category:Images_of_Brazen_Beasts)*
 
-The Brazen Beasts wear [brass](wiki:Brass) masks with the faces of [animals](wiki:Animal). Over the masks, they wear dark hoods.(wiki:Brazen_Beasts.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Ser [Barristan Selmy](wiki:Barristan_Selmy) hates the masks, as he dislikes not knowing who is behind them(wiki:Brazen_Beasts.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) and he feels that honest men should not hide their faces.(wiki:Brazen_Beasts.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+The Brazen Beasts wear [brass](wiki:Brass) masks with the faces of [animals](wiki:Animal). Over the masks, they wear dark hoods.(wiki:Brazen_Beasts.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+**Book-cite overlay (S152 harvest):** Mask inventory on the parade to Daznak's Pit:
+
+> "Their masks gleamed in the sun: boars and bulls, hawks and herons, lions and tigers and bears, fork-tongued serpents and hideous basilisks."
+
+— ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:73`) — the most complete single-passage enumeration of Brazen Beast mask types on parade; confirms the many-colored patchwork cloaks and pleated skirts at the same scene. Ser [Barristan Selmy](wiki:Barristan_Selmy) hates the masks, as he dislikes not knowing who is behind them(wiki:Brazen_Beasts.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) and he feels that honest men should not hide their faces.(wiki:Brazen_Beasts.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 The Brazen Beasts wear pleated skirts and leather sandals, and many-colored patchwork cloaks to represent the many-colored bricks of Meereen.(wiki:Brazen_Beasts.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) They are armed with cudgels, staves,(wiki:Brazen_Beasts.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) spears, and shortswords.(wiki:Brazen_Beasts.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 

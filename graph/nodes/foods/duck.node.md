@@ -48,6 +48,8 @@ The [ironborn](wiki:Ironborn) have stuffed ducks at [Lord Hewett's castle](wiki:
 
 Ser [Jorah Mormont](wiki:Jorah_Mormont) shares a roast duck with [Tyrion Lannister](wiki:Tyrion_Lannister) at the [Merchant's House](wiki:Merchant's_House) in [Volantis](wiki:Volantis).(wiki:Duck.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
 Three duck's eggs fried in drippings are served to [Jon Snow](wiki:Jon_Snow) at [Castle Black](wiki:Castle_Black).(wiki:Duck.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+
+- (Jon XIII, ADWD — `sources/chapters/adwd/adwd-jon-13.md:93`) Jon's barely-eaten breakfast before the stabbing: "duck's eggs fried in drippings" as the first item listed — a full meal that goes largely untouched because he has no appetite before the fatal ranging decision.
 Ser [Jaime Lannister](wiki:Jaime_Lannister) finds the namesake tree of [Pennytree](wiki:Pennytree) between a duck pond and a blacksmith's forge.(wiki:Duck.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
 Lacquered ducks are served at the [Great Pyramid](wiki:Great_Pyramid) in [Meereen](wiki:Meereen).(wiki:Duck.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
 

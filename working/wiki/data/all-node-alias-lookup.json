@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-26T15:30:50.541793+00:00",
+  "computed_at": "2026-06-26T19:44:57.325182+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -16687,6 +16687,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "cream cake": [
+      {
+        "canonical_slug": "cream-cakes",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "cream cakes": [
+      {
+        "canonical_slug": "cream-cakes",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "creamy chestnut soup": [
       {
         "canonical_slug": "chestnut-soup",
@@ -17173,6 +17189,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "cup of onion broth": [
+      {
+        "canonical_slug": "onion-broth",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "cupbearer": [
@@ -23623,6 +23647,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "eel pie": [
+      {
+        "canonical_slug": "eel-pie",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "egbert": [
@@ -34291,6 +34323,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "half an eel pie": [
+      {
+        "canonical_slug": "eel-pie",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "half blind garron": [
       {
         "canonical_slug": "half-blind-garron",
@@ -37427,6 +37467,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "horse meat": [
+      {
+        "canonical_slug": "horsemeat",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "horse tribes being a study of the nomads of the eastern plains of essos": [
       {
         "canonical_slug": "horse-tribes-being-a-study-of-the-nomads-of-the-eastern-plains-of-essos",
@@ -37441,6 +37489,22 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-name:texts"
+      }
+    ],
+    "horsemeat": [
+      {
+        "canonical_slug": "horsemeat",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "horsemeat feast": [
+      {
+        "canonical_slug": "horsemeat",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "horseshoe hills": [
@@ -65649,6 +65713,14 @@
         "source": "all-node-name:characters"
       }
     ],
+    "onion broth": [
+      {
+        "canonical_slug": "onion-broth",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "onion knight": [
       {
         "canonical_slug": "davos-seaworth",
@@ -83623,12 +83695,28 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "sweet milk": [
+      {
+        "canonical_slug": "sweetsleep",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "sweet serenei": [
       {
         "canonical_slug": "serenei-of-lys",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "sweet sleep": [
+      {
+        "canonical_slug": "sweetsleep",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "sweetberry": [
@@ -83645,6 +83733,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "sweetmilk": [
+      {
+        "canonical_slug": "sweetsleep",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "sweetport sound": [
@@ -83690,9 +83786,9 @@
     "sweetsleep": [
       {
         "canonical_slug": "sweetsleep",
-        "node_category": "medical",
-        "node_type": "concept.medical",
-        "source": "all-node-slug:medical"
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "sweetwater river": [
@@ -95473,8 +95569,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19412,
-    "unique_phrases": 11831
+    "total_node_entries": 19433,
+    "unique_phrases": 11843
   },
   "version": "v1"
 }

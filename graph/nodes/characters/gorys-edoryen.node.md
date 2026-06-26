@@ -29,6 +29,8 @@ Gorys is originally from [Volantis](wiki:Volantis). He replaced Ser [Harry Stric
 
 Gorys is as pale and thin as a cadaver. He has a pointed black beard, but blood-red hair that tumbles about his shoulders in oiled ringlets. He wears a [lord](wiki:Lord)'s ransom in [golden](wiki:Gold) arm rings, and a [leopard](wiki:Leopard) skin draped across one shoulder.(wiki:Gorys_Edoryen.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
+Book-cite overlay (Jon Connington POV, ADWD The Lost Lord): "The cadaverous Volantene, Gorys Edoryen, had replaced Strickland as paymaster. A leopard skin was draped across one shoulder, and hair as red as blood tumbled to his shoulders in oiled ringlets though his pointed beard was black." (`sources/chapters/adwd/adwd-the-lost-lord-01.md:107`)
+
 ## Narrative Arc
 
 ### A Dance with Dragons

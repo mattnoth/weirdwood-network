@@ -33,6 +33,8 @@ mechanism the spine lacked.
 
 > "The next visitor who calls on you could bring you bread and cheese and the milk of the poppy for your pain . . . or he could bring you Sansa's head. The choice, my dear lord Hand, is entirely yours."
 
+— Varys's closing ultimatum to Ned Stark, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:155`) — book-cite overlay (S152 harvest); the longer passage beginning "Rhaenys was a child too" runs from :153; the ultimatum itself at :155. This is the decisive pressure point that leads Ned to confess.
+
 > Varys had transformed himself into a grizzled turnkey, reeking of sweat and sour wine.
 
 > "I want you to serve the realm," Varys said. "Tell the queen that you will confess your vile treason, command your son to lay down his sword, and proclaim Joffrey as the true heir."

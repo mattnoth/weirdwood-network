@@ -47,6 +47,8 @@ Theon has slept with numerous women,(wiki:Theon_Greyjoy.cite_ref-Racok11.7B.7B.7
 
 ## Appearances & Description
 
+In a nightmare before Winterfell's fall, Theon dreamed of feasting with the dead: King Robert with his guts spilling out, Lord Eddard headless, Robb walking in from the night with Grey Wind, "man and wolf alike bled from half a hundred savage wounds." A girl crowned in pale blue roses with a white gown spattered in gore stood among them — only Lyanna. The dream is an early ACOK foreshadowing of the Red Wedding (Bran Stark POV, acok-theon-05 — `sources/chapters/acok/acok-theon-05.md:140`)
+
 Theon is a lean, dark, handsome youth,(wiki:Theon_Greyjoy.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) with black hair, and a lean, dark face.(wiki:Theon_Greyjoy.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) He seems to find everything amusing.(wiki:Theon_Greyjoy.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1) He is known for his confidence(wiki:Theon_Greyjoy.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) and his cocky smile.(wiki:Theon_Greyjoy.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1) He is promiscuous and vain,(wiki:Theon_Greyjoy.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)(wiki:Theon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0) but behind his arrogant exterior hides insecurities relating to his uncertain familial and social identity. Theon seeks approval from the Starks, but usually feels unsatisfied.(wiki:Theon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)(wiki:Theon_Greyjoy.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) The youth is not particularly religious.(wiki:Theon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
 
 Theon wears a fur-lined cloak, black silk gloves, black leather boots, silvery-grey lambswool breeches, a white leather belt, and a black velvet doublet embroidered with the [kraken](wiki:Kraken) of [House Greyjoy](wiki:House_Greyjoy). He has purchased a [golden](wiki:Gold) chain by paying the "[gold price](wiki:Currency)".(wiki:Theon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3) Another outfit includes a striped black and gold satin tunic, and a leather jerkin with [silver](wiki:Silver) studs.(wiki:Theon_Greyjoy.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) For combat situations Theon wears a black kraken-emblazoned surcoat over a shirt of fine mail.(wiki:Theon_Greyjoy.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
@@ -140,6 +142,14 @@ Theon recalls how he confessed to [Asha](wiki:Asha_Greyjoy) the truth about [Bra
 When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_Fleet) arrive in [Meereen](wiki:Meereen), Ser [Barristan Selmy](wiki:Barristan_Selmy) wonders if it has something to do with Theon.(wiki:Theon_Greyjoy.cite_ref-54)
 
 ## Quotes
+
+> My name is Reek. It rhymes with leek ... He had not been born with that name.
+>
+> — Theon-as-Reek (identity-destruction mantra, ADWD Reek I, `sources/chapters/adwd/adwd-reek-01.md:53`)
+
+> I have done terrible things ... betrayed my own, turned my cloak, ordered the death of men who trusted me ... but I am no kinslayer.
+>
+> — Theon to Rowan (ADWD Theon I, `sources/chapters/adwd/adwd-theon-01.md:125`)
 
 > [A dead enemy](wiki:Stiv) is a thing of beauty.(wiki:Theon_Greyjoy.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-8)
 >

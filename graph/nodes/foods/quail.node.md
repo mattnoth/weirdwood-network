@@ -34,6 +34,12 @@ Ser [Wendel Manderly](wiki:Wendel_Manderly) offers to hunt quail for [Catelyn St
 
 Quail is served at the [wedding of Petyr Baelish and Lysa Arryn](wiki:Wedding_of_Petyr_Baelish_and_Lysa_Arryn).(wiki:Quail.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 
+- (Sansa VI, ASOS — `sources/chapters/asos/asos-sansa-06.md:245`) LF–Lysa wedding feast: quail served alongside venison, roast boar, and fine light mead — confirming quail's presence at the Fingers wedding.
+
+### A Dance with Dragons
+
+- (Epilogue, ADWD — `sources/chapters/adwd/adwd-epilogue.md:197`) Kevan Lannister's final supper: "brace of quail" among beef-and-barley soup, roast pike, turnips, mushrooms, and hot bread — quail as a high-table complement to Kevan's last meal.
+
 ### A Dance with Dragons[ ]
 
 Tyrion is served quails in honey at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Quail.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Ser [Kevan Lannister](wiki:Kevan_Lannister) has a brace of quail at the [Red Keep](wiki:Red_Keep).(wiki:Quail.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)

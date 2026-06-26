@@ -108,6 +108,14 @@ Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) tells [Samwell Tarly](wi
 >
 > —Brynden to [Duncan the Tall](wiki:Duncan_the_Tall) and [Aegon Targaryen](wiki:Aegon_V_Targaryen)
 
+> For men, time is a river. We are trapped in its flow, hurtling from past to present, always in the same direction. The lives of trees are different. They root and grow and die in one place, and that river does not move them. The oak is the acorn, the acorn is the oak. And the weirwood … a thousand human years are a moment to a weirwood, and through such gates you and I may gaze into the past.
+>
+> — Brynden/three-eyed crow to Bran (ADWD Bran III — `sources/chapters/adwd/adwd-bran-03.md:191`). The core statement of weirwood greensight's time-mechanics.
+
+> "Winterfell," Bran whispered. His father looked up. "Who's there?" he asked, turning …
+>
+> — Bran's first greensight flash through the weirwood: Ned Stark cleaning Ice beside the black pool in Winterfell's godswood, before the vision pulls away. Greenseer's POV, ADWD Bran III (`sources/chapters/adwd/adwd-bran-03.md:173`). Demonstrates the range and emotional weight of weirwood sight — Brynden's tutelage has opened a window to the recent past.
+
 > I wore many names when I was quick, but even I once had [a mother](wiki:Melissa_Blackwood), and the name she gave me at her breast was Brynden.(wiki:Brynden_Rivers.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >
 > —the [three-eyed crow](wiki:Three-eyed_crow) to [Meera Reed](wiki:Meera_Reed) (book cite: `sources/chapters/adwd/adwd-bran-03.md:19`)

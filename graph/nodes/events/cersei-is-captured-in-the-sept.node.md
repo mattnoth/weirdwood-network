@@ -17,6 +17,14 @@ Event node minted by Plate 3 full-corpus scan for: Cersei is captured in the sep
 ## Edges
 (populated by Plate 3 role-edge staging; merge at Plate 5)
 
+## Description
+
+**Margaery's confinement cell (q524):** Book-cite overlay — Cersei visits Margaery in her sept tower cell during AFFC Cersei X:
+
+> "Her cell was eight feet long and six feet wide, with no furnishings but a straw-stuffed pallet and a bench for prayer, a ewer of water, a copy of The Seven-Pointed Star, and a candle to read it by. The only window was hardly wider than an arrow slit."
+
+— Cersei's POV seeing Margaery's conditions, AFFC Cersei X (`sources/chapters/affc/affc-cersei-10.md:135`) — physical conditions of the Faith Militant's arrest cells; Margaery barefoot in a novice's roughspun shift.
+
 ## Quotes
 
 > "Aye." The chains rattled softly as Osney twisted in his shackles. "That one there. She's the queen I fucked, the one sent me to kill the old High Septon. He never had no guards. I just come in when he was sleeping and pushed a pillow down across his face."

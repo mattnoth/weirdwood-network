@@ -30,6 +30,18 @@ baked a king's son into a pie and served him to his father. The implication (uni
 textually confirmed) is that the three missing Freys are in the pies. The pies are the
 [Grand Northern Conspiracy](grand-northern-conspiracy)'s reprisal for the Red Wedding made literal.
 
+## Foreshadowing
+
+**Lady Dustin's dramatic irony (S152 harvest):** Two contiguous observations from Theon's POV (adwd-the-prince-of-winterfell-01.md) that completely misread Wyman's performance:
+
+> "He does not have the belly for it, for all his girth."
+
+— Lady Dustin dismissing Wyman as too craven to betray the Boltons, ADWD Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:149`) — spoken while Wyman is actively serving the pies; Dustin's misread is itself load-bearing dramatic irony.
+
+> "No dish so much as touches Roose's lips until he sees Lord Wyman eat of it first."
+
+— Lady Dustin on Roose Bolton's food-tasting precaution, ADWD Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:153`) — Roose suspects poison, not cannibalism; his miscalibrated threat model makes him eat from the same pies as everyone else.
+
 ## Quotes
 
 > "The best pie you have ever tasted, my lords. Wash it down with Arbor gold and savor every bite. I know I shall."

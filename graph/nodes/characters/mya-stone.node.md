@@ -39,6 +39,8 @@ Mya is a wiry girl,(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4
 
 Mya wears riding leathers and a light shirt of silvered ringmail.(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)(wiki:Mya_Stone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 
+Book-cite overlay — Sansa's first good look at Mya preparing to descend the Giant's Lance: "Slim and sinewy, Mya looked as tough as the old riding leathers she wore beneath her silvery ringmail shirt. Her hair was black as a raven's wing, so short and shaggy that Alayne suspected that she cut it with a dagger. Mya's eyes were her best feature, big and blue. She could be pretty, if she would dress up like a girl." — also: "those are his eyes, and she has his hair too, the thick black hair he shared with Renly" (Robert's physical inheritance confirmed), AFFC Alayne II (`sources/chapters/affc/affc-alayne-02.md:181`) [q672]
+
 Mya has a relationship with the squire [Mychel Redfort](wiki:Mychel_Redfort).(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
 
 Mya is a calm and capable guide on the [Giant's Lance](wiki:Giant's_Lance).(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)(wiki:Mya_Stone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4) Mychel has remarked that her father must have been a [goat](wiki:Goat) and that she has the eyes of an [owl](wiki:Owl),(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7) with the girl repeating the claims to others.(wiki:Mya_Stone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)

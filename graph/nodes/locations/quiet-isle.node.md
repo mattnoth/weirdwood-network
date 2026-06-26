@@ -47,6 +47,20 @@ The cottages are not often used but the brothers keep them clean and dry. On the
 
 Six rubies from Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen)'s armor, knocked loose by Lord [Robert Baratheon's](wiki:Robert_I_Baratheon) warhammer during the [Battle of the Trident](wiki:Battle_of_the_Trident), have washed ashore at the Quiet Isle and been recovered by the brothers. Believing in the [Faith of the Seven](wiki:Faith_of_the_Seven), the brothers await the appearance of a seventh ruby.(wiki:Quiet_Isle.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
 
+**Book-cite overlay (S152 harvest):** Verbatim from Brienne's visit, spoken by the Elder Brother:
+
+> "Six have been found. We are all waiting for the seventh."
+
+— Elder Brother to Ser Hyle Hunt, AFFC Brienne VI (`sources/chapters/affc/affc-brienne-06.md:117`) — Rhaegar's rubies as a Chekhov's gun: six recovered from the river; the seventh outstanding. The waiting-for-the-seventh framing is the Quiet Isle's particular way of holding expectation about Rhaegar's legacy. Note: this is node prose only — no FORESHADOWS edge proposed (no single clean target event node).
+
+## Supper & Hospitality
+
+**Book-cite overlay (S152 harvest):** Brienne's account of the community meal in the septry hall:
+
+> "Their supper in the septry was as strange a meal as Brienne had ever eaten, though not at all unpleasant. The food was plain, but very good; there were loaves of crusty bread still warm from the ovens, crocks of fresh-churned butter, honey from the septry's hives, and a thick stew of crabs, mussels, and at least three different kinds of fish. Septon Meribald and Ser Hyle drank the mead the brothers made, and pronounced it excellent, whilst she and Podrick contented themselves with more sweet cider."
+
+— Brienne's POV, AFFC Brienne VI (`sources/chapters/affc/affc-brienne-06.md:141`) — the Quiet Isle's silent communal table: bread from their ovens, butter, hive honey, crab-and-fish stew, their famous mead and sweet cider; one brother plays the high harp, proctors read from *The Seven-Pointed Star*. Model of monastic self-sufficiency and hospitality by example (no words needed).
+
 ## Narrative Arc
 
 ### A Feast for Crows[ ]

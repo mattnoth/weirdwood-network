@@ -50,7 +50,15 @@ During the [War of the Five Kings](wiki:War_of_the_Five_Kings), [Lannisters](wik
 
 [Brienne of Tarth](wiki:Brienne_of_Tarth) recalls that Ser [Hugh Beesbury](wiki:Hugh_Beesbury) had given her a pot of honey in an attempt to woo her at [Highgarden](wiki:Highgarden).(wiki:Honey.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0) While staying at the [Quiet Isle](wiki:Quiet_Isle), Brienne and her companions are served honey from the [septry](wiki:Septry)'s hives.(wiki:Honey.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-0)
 
+### A Feast for Crows
+
+- (Brienne VI, AFFC — `sources/chapters/affc/affc-brienne-06.md:141`) Quiet Isle septry supper: "honey from the septry's hives" served alongside crusty bread, fresh-churned butter, mead, sweet cider, and a thick fish-and-shellfish stew.
+- (Cersei III, AFFC — `sources/chapters/affc/affc-cersei-03.md:17`) Wedding-morning breakfast at the Red Keep: "a pot of honey" alongside boiled eggs and bread — the meal disrupted when a bloody half-formed chick is found in the first egg.
+- (Cersei IX, AFFC — `sources/chapters/affc/affc-cersei-09.md:121`) Supper before the Blue Bard arrest: "ham studded with cloves and basted with honey and dried cherries" as a main course — honey-glazed ham as signal of Cersei's still-intact wealth and power.
+
 ### A Dance with Dragons[ ]
+
+- (Tyrion IV, ADWD — `sources/chapters/adwd/adwd-tyrion-04.md:81`) Ysilla pressing "hot honeyed biscuits (dripping butter)" on Young Griff at breakfast — honey as warmth and maternal care on the Shy Maid.
 
 During the celebrations for her marriage to [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq) at [Daznak's Pit](wiki:Daznak's_Pit) in [Meereen](wiki:Meereen), Daenerys is served [honeyed locusts](wiki:Poisoned_locusts), which she refuses despite Hizdahr urging her to taste them. Her [Queensguard](wiki:Queensguard), [Strong Belwas](wiki:Strong_Belwas), gorges on them, only to retch them minutes later.(wiki:Honey.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-0) The locusts turn out to have been [poisoned](wiki:Poison).(wiki:Honey.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
 

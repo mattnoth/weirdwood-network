@@ -1,0 +1,49 @@
+{
+  "proposals": [
+    {
+      "qline": "q529",
+      "edge_type": "FORESHADOWS",
+      "source_node": "cersei-lannister",
+      "proposed_target": "valonqar-kills-cersei",
+      "evidence_quote": "It is blood I need, not water. Tyrion's blood, the blood of the valonqar.",
+      "cite": "sources/chapters/affc/affc-cersei-01.md:173",
+      "note": "Target event node 'valonqar-kills-cersei' may not yet exist — gated on TWOW/future events. Hold as candidate."
+    },
+    {
+      "qline": "q528",
+      "edge_type": "FORESHADOWS",
+      "source_node": "cersei-lannister",
+      "proposed_target": "valonqar-kills-cersei",
+      "evidence_quote": "The valonqar shall wrap his hands about your throat... fingers dug deep into her neck",
+      "cite": "sources/chapters/affc/affc-cersei-08.md:263",
+      "note": "Same target as q529. Nightmare version of the same foreshadowing beat — stronger sensory imagery."
+    },
+    {
+      "qline": "q608",
+      "edge_type": "FORESHADOWS",
+      "source_node": "melisandre",
+      "proposed_target": "jon-snow-assassination",
+      "evidence_quote": "Skulls. A thousand skulls, and the bastard boy again. Jon Snow.",
+      "cite": "sources/chapters/adwd/adwd-melisandre-01.md:29",
+      "note": "jon-snow-assassination event node exists (or should exist as the stabbing at Castle Black, ADWD Jon XIII). Melisandre-POV FORESHADOWS that event."
+    },
+    {
+      "qline": "q680",
+      "edge_type": "FORESHADOWS",
+      "source_node": "sansa-stark",
+      "proposed_target": null,
+      "evidence_quote": "It sounds like a wolf, thought Sansa. A ghost wolf, big as mountains.",
+      "cite": "sources/chapters/affc/affc-alayne-02.md:355",
+      "note": "No clean named target event node yet. The 'ghost wolf' image likely foreshadows Sansa's Stark-identity resurgence and/or the direwolf pack's role in TWOW. Hold — do not mint a FORESHADOWS edge until the target is named."
+    },
+    {
+      "qline": "q530",
+      "edge_type": "FORESHADOWS",
+      "source_node": "cersei-lannister",
+      "proposed_target": "cersei-arrested-by-faith",
+      "evidence_quote": "If he dares mention gold, I will deal with this one as I did the last and find a pious eight-year-old to wear the crystal crown.",
+      "cite": "sources/chapters/affc/affc-cersei-06.md:235",
+      "note": "Cersei's contempt for the High Sparrow at the moment she should fear him most; foreshadows her arrest. Target event node 'cersei-arrested-by-faith' may need minting."
+    }
+  ]
+}

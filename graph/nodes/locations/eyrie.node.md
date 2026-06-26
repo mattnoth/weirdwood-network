@@ -15,6 +15,18 @@ pass_origin: pass2-wiki-deterministic
 
 Eyrie is a place.location from the AWOIAF wiki.
 
+## Description
+
+> "In winter this will be a cold white prison."
+
+— Sansa (as Alayne) on the Eyrie in winter, AFFC Alayne II (`sources/chapters/affc/affc-alayne-02.md:153`) — her settled assessment of the castle's isolation; contrasts the white stone beauty against the coming claustrophobia of winter. *Book-cite overlay for the wiki quote in ## Quotes below.*
+
+**Sansa's Snow Castle of Winterfell (q671):** While Sansa shelters at the Eyrie, she builds a replica of Winterfell in the courtyard from snow — walls, towers, armory, stables, godswood twigs, bark gravestones:
+
+> "It was only a castle when she began, but before very long Sansa knew it was Winterfell."
+
+— Sansa POV, ASOS Sansa VII (`sources/chapters/asos/asos-sansa-07.md:41`) — the snow castle sequence begins here; a scene of memory and grief disguised as play; the Eyrie courtyard becomes a grief-space for Winterfell's loss.
+
 ## Edges
 
 - RULES: Jon Arryn (track_b: Ruler) [AGoT]

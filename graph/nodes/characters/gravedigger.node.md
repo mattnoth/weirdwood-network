@@ -25,6 +25,8 @@ Gravedigger is a character.human from the AWOIAF wiki.
 
 The gravedigger is bigger than [Brienne of Tarth](wiki:Brienne_of_Tarth) and lame. Like the other brothers he is cowled in dun-and-brown so his face is hidden.(wiki:Gravedigger.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
+Book-cite overlay (Brienne VI, AFFC — the lichyard on the Quiet Isle): "a brother bigger than Brienne was struggling to dig a grave. From the way he moved, it was plain to see that he was lame. As he flung a spadeful of the stony soil over one shoulder, some chanced to spatter against their feet … When Dog went to sniff him he dropped his spade and scratched his ear." (`sources/chapters/affc/affc-brienne-06.md:79`) *(Gated: the gravedigger-is-Sandor reading stays theory-track-gated — no identity edge to [Sandor Clegane](sandor-clegane) is asserted.)*
+
 ## Narrative Arc
 
 ### A Feast for Crows
