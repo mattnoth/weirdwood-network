@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-26T01:29:30.280401+00:00",
+  "computed_at": "2026-06-26T14:18:03.263894+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -4009,12 +4009,76 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "arya arrives at the house of black and white": [
+      {
+        "canonical_slug": "arya-arrives-at-the-house-of-black-and-white",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "arya assassinates the insurance broker": [
+      {
+        "canonical_slug": "arya-assassinates-the-insurance-broker",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "arya becomes a novice of the faceless men": [
+      {
+        "canonical_slug": "arya-becomes-cat-of-the-canals",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya becomes cat of the canals": [
+      {
+        "canonical_slug": "arya-becomes-cat-of-the-canals",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "arya boards the titan's daughter": [
+      {
+        "canonical_slug": "arya-departs-for-braavos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "arya captured": [
       {
         "canonical_slug": "arya-captured",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "arya comes to the house of black and white": [
+      {
+        "canonical_slug": "arya-arrives-at-the-house-of-black-and-white",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya departs for braavos": [
+      {
+        "canonical_slug": "arya-departs-for-braavos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "arya earns her face": [
+      {
+        "canonical_slug": "arya-assassinates-the-insurance-broker",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "arya flint": [
@@ -4041,12 +4105,76 @@
         "source": "node-slug"
       }
     ],
+    "arya hides needle beneath the temple steps": [
+      {
+        "canonical_slug": "arya-hides-needle-beneath-the-temple-steps",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "arya horseface": [
       {
         "canonical_slug": "arya-stark",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "arya is blinded": [
+      {
+        "canonical_slug": "blinding-of-arya",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya keeps needle": [
+      {
+        "canonical_slug": "arya-hides-needle-beneath-the-temple-steps",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya kills dareon": [
+      {
+        "canonical_slug": "killing-of-dareon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya kills the insurance underwriter": [
+      {
+        "canonical_slug": "arya-assassinates-the-insurance-broker",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya loses her sight": [
+      {
+        "canonical_slug": "blinding-of-arya",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya recovers her sight": [
+      {
+        "canonical_slug": "arya-trains-blind-and-regains-her-sight",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya sails for braavos": [
+      {
+        "canonical_slug": "arya-departs-for-braavos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "arya stark": [
@@ -4061,6 +4189,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "arya takes the cat of the canals identity": [
+      {
+        "canonical_slug": "arya-becomes-cat-of-the-canals",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya trains blind and regains her sight": [
+      {
+        "canonical_slug": "arya-trains-blind-and-regains-her-sight",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "arya underfoot": [
@@ -8893,6 +9037,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "arya-trains-blind-and-regains-her-sight",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "blind bowman": [
@@ -8917,6 +9067,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "blind girl's training": [
+      {
+        "canonical_slug": "arya-trains-blind-and-regains-her-sight",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "blind jon hogg": [
@@ -8965,6 +9123,14 @@
         "node_category": "medical",
         "node_type": "concept.medical",
         "source": "all-node-slug:medical"
+      }
+    ],
+    "blinding of arya": [
+      {
+        "canonical_slug": "blinding-of-arya",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "blood": [
@@ -12643,6 +12809,20 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "arya-becomes-cat-of-the-canals",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "cat's finger knife": [
+      {
+        "canonical_slug": "finger-knife",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "catelyn bracken": [
@@ -15573,6 +15753,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "coin of the faceless men": [
+      {
+        "canonical_slug": "iron-coin",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
+    "coin-swap assassination": [
+      {
+        "canonical_slug": "arya-assassinates-the-insurance-broker",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "coldhands": [
@@ -19691,6 +19887,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "death of dareon the singer": [
+      {
+        "canonical_slug": "killing-of-dareon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "death of dontos hollard": [
@@ -26655,6 +26859,14 @@
         "node_category": "concepts",
         "node_type": "concept.custom",
         "source": "all-node-slug:concepts"
+      }
+    ],
+    "finger knife": [
+      {
+        "canonical_slug": "finger-knife",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
       }
     ],
     "fingerdancer": [
@@ -43007,6 +43219,14 @@
         "source": "all-node-slug:texts"
       }
     ],
+    "iron coin": [
+      {
+        "canonical_slug": "iron-coin",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
+      }
+    ],
     "iron emmett": [
       {
         "canonical_slug": "emmett",
@@ -44123,6 +44343,14 @@
         "node_category": "theories",
         "node_type": "concept.theory",
         "source": "all-node-slug:theories"
+      }
+    ],
+    "jaqen's coin": [
+      {
+        "canonical_slug": "iron-coin",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "jaqqa rhan": [
@@ -46850,6 +47078,14 @@
     "kill list recitation before sleep": [
       {
         "canonical_slug": "kill-list-recitation-before-sleep",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "killing of dareon": [
+      {
+        "canonical_slug": "killing-of-dareon",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -63343,6 +63579,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "needle hidden on the house of black and white steps": [
+      {
+        "canonical_slug": "arya-hides-needle-beneath-the-temple-steps",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "nefer": [
       {
         "canonical_slug": "nefer",
@@ -79011,6 +79255,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "skull test": [
+      {
+        "canonical_slug": "arya-arrives-at-the-house-of-black-and-white",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "skulls of the targaryen dragons": [
       {
         "canonical_slug": "skulls-of-the-targaryen-dragons",
@@ -91207,6 +91459,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "warm milk": [
+      {
+        "canonical_slug": "blinding-of-arya",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "warren": [
       {
         "canonical_slug": "warren",
@@ -95087,8 +95347,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19345,
-    "unique_phrases": 11785
+    "total_node_entries": 19390,
+    "unique_phrases": 11816
   },
   "version": "v1"
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-26T01:29:23.576603+00:00",
+  "generated_at": "2026-06-26T14:17:56.599489+00:00",
   "entity_type": "artifacts",
   "dry_run": false,
-  "entity_count": 292,
+  "entity_count": 294,
   "type_counts": {
-    "object.artifact": 292
+    "object.artifact": 294
   },
   "entities_with_zero_mentions": 150,
-  "mention_inverse_slugs": 142,
+  "mention_inverse_slugs": 144,
   "top_by_appearances": [
     {
       "slug": "iron-throne",
@@ -136,6 +136,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "iron-coin",
+      "name": "Iron coin",
+      "type": "object.artifact",
+      "appearances_total": 9,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
       "slug": "littlefingers-blade",
       "name": "Littlefinger's blade",
       "type": "object.artifact",
@@ -178,15 +187,6 @@
       "appearances_total": 7,
       "chapters_referenced_in": 6,
       "in_edge_count": 13,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "silence",
-      "name": "Silence",
-      "type": "object.artifact",
-      "appearances_total": 7,
-      "chapters_referenced_in": 6,
-      "in_edge_count": 32,
       "out_edge_count": 0
     }
   ],
