@@ -324,8 +324,17 @@ nodes as non-existent). Proposal: `working/enrichment/rr/proposal-opus-ab.md` (5
    Paste vocab + the harvest snippet; tell them PROPOSE-don't-mint + dedup-check every node.
 2. **Synthesize + decide** what's worth minting vs deferring (forward-dangling cross-book nodes defer).
 3. **Verify every cited line against the files** (subagents reconstruct quotes — always check),
-   mint nodes/edges via a `scripts/mint_<unit>_enrichment.py` (backup + re-run guard),
-   **fresh-verify the interpretive edges**, stamp, rebuild derived artifacts.
+   then mint via the **parameterized tool — NO fresh per-dip script** (S158): write the dip's data to
+   `working/enrichment/<unit>/candidates.json` (the `{_meta:{run_id,new_node_slugs,…}, edges:[…]}`
+   schema) + any new-node bodies as `working/enrichment/<unit>/nodes/<slug>.node.md`, then run
+   `python scripts/mint_enrichment.py --candidates working/enrichment/<unit>/candidates.json`
+   (does slug pre-check + re-run guard + quote re-grep + backup + node-create + edge-append).
+   **Fresh-verify the interpretive edges**, then apply the verdicts as data:
+   `python scripts/finalize_enrichment.py --verdicts working/enrichment/<unit>/verdicts.json`
+   (drops / note-patches / `verified_by` stamp / bug re-points). Then stamp/rebuild derived artifacts.
+   *(Do NOT hand-write `mint_<unit>_enrichment_sNNN.py` / `finalize_<unit>_sNNN.py` anymore — that was
+   the copy-paste debt retired S158. The ~74 historical per-dip scripts are frozen in
+   `scripts/enrichment/archive/`; the going-forward path + JSON schemas are in `scripts/enrichment/README.md`.)*
 4. **Consume the harvest pointers** the dip refilled (attach load-bearing quotes to existing
    node `## Quotes` inline; park food/description/foreshadowing rows in `working/harvest-queue.md`).
    **THEN check the whole queue's open-row count** (`grep -c '^| open ' working/harvest-queue.md`):
