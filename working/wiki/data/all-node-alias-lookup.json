@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-26T21:00:21.803183+00:00",
+  "computed_at": "2026-06-27T00:56:20.392605+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -4081,6 +4081,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "arya escapes harrenhal": [
+      {
+        "canonical_slug": "arya-escapes-harrenhal",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "arya flint": [
       {
         "canonical_slug": "arya-flint",
@@ -4153,12 +4161,44 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "arya kills the stableboy": [
+      {
+        "canonical_slug": "stableboy-killing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "arya loses her sight": [
       {
         "canonical_slug": "blinding-of-arya",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya names jaqen h'ghar": [
+      {
+        "canonical_slug": "arya-names-jaqen-himself",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya names jaqen himself": [
+      {
+        "canonical_slug": "arya-names-jaqen-himself",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "arya names jaqen himself (the naming-gambit)": [
+      {
+        "canonical_slug": "arya-names-jaqen-himself",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "arya recovers her sight": [
@@ -4213,6 +4253,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "arya's escape from harrenhal": [
+      {
+        "canonical_slug": "arya-escapes-harrenhal",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "arya, gendry and hot pie flee harrenhal": [
+      {
+        "canonical_slug": "arya-escapes-harrenhal",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "arys oakheart": [
@@ -13577,6 +13633,14 @@
         "source": "all-node-alias:customs"
       }
     ],
+    "cersei's warrant for gendry": [
+      {
+        "canonical_slug": "gold-cloaks-demand-gendry",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "cersei-accuses-tyrion-of-regicide": [
       {
         "canonical_slug": "tyrion-accused-of-poisoning-joffrey",
@@ -20119,6 +20183,22 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of weese": [
+      {
+        "canonical_slug": "death-of-weese",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "death of weese (jaqen's second death)": [
+      {
+        "canonical_slug": "death-of-weese",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "death of ygritte": [
@@ -31595,6 +31675,30 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "gold cloaks come for gendry": [
+      {
+        "canonical_slug": "gold-cloaks-demand-gendry",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "gold cloaks demand gendry": [
+      {
+        "canonical_slug": "gold-cloaks-demand-gendry",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "gold cloaks demand gendry from yoren's band": [
+      {
+        "canonical_slug": "gold-cloaks-demand-gendry",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "golden company": [
@@ -43379,6 +43483,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "iron coin and valar morghulis": [
+      {
+        "canonical_slug": "jaqen-gives-arya-the-iron-coin",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "iron emmett": [
       {
         "canonical_slug": "emmett",
@@ -44465,6 +44577,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "jaqen gives arya the iron coin": [
+      {
+        "canonical_slug": "jaqen-gives-arya-the-iron-coin",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "jaqen h'ghar": [
       {
         "canonical_slug": "jaqen-hghar",
@@ -44503,6 +44623,22 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-alias:artifacts"
+      }
+    ],
+    "jaqen's farewell": [
+      {
+        "canonical_slug": "jaqen-gives-arya-the-iron-coin",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "jaqen's second death": [
+      {
+        "canonical_slug": "death-of-weese",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jaqqa rhan": [
@@ -47329,6 +47465,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "killing of the stableboy (needle's first kill)": [
+      {
+        "canonical_slug": "stableboy-killing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "killing of tywin lannister": [
@@ -63451,6 +63595,14 @@
         "source": "all-node-slug:customs"
       }
     ],
+    "naming gambit": [
+      {
+        "canonical_slug": "arya-names-jaqen-himself",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "nan": [
       {
         "canonical_slug": "arya-stark",
@@ -63804,6 +63956,14 @@
     "needle hidden on the house of black and white steps": [
       {
         "canonical_slug": "arya-hides-needle-beneath-the-temple-steps",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "needle's first kill": [
+      {
+        "canonical_slug": "stableboy-killing",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -80843,6 +81003,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "stableboy killing": [
+      {
+        "canonical_slug": "stableboy-killing",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "stafford lannister": [
       {
         "canonical_slug": "stafford-lannister",
@@ -92605,6 +92773,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "weese's death": [
+      {
+        "canonical_slug": "death-of-weese",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "weirwood": [
       {
         "canonical_slug": "weirwood",
@@ -95745,8 +95921,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19458,
-    "unique_phrases": 11865
+    "total_node_entries": 19482,
+    "unique_phrases": 11887
   },
   "version": "v1"
 }

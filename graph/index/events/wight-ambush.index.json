@@ -3,7 +3,7 @@
   "name": "Wight ambush",
   "type": "event.incident",
   "node_path": "graph/nodes/events/wight-ambush.node.md",
-  "generated_at": "2026-06-26T21:00:16.516065+00:00",
+  "generated_at": "2026-06-27T00:56:15.059649+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

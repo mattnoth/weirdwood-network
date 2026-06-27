@@ -1,5 +1,13 @@
 # Enrichment Coverage Plan — the full ranked dip list (S143)
 
+> **🅰 ACTIVE CAMPAIGN (Matt, S154): ROUND UP THE REMAINING A ARCS** — a multi-session campaign (one dip/session)
+> to close out the major-arc tier. **Order: START with A2.7 Stannis (S155)**, then the two ready A1s (A1.5 Dorne,
+> A1.6 Euron), then A2.6 Jaime/Riverlands, A2.4 Tyrion-Essos, **A2.5 WO5K-battles LAST (it's multi-pass, its own
+> mini-track)**, A2.8 Davos/Sam residual. After A is done → the descent drops to granular L2 / character / (gated)
+> theory. Remaining Class-D clusters (D2 Hand's Tourney · D3 Greyjoy's Rebellion · D4 Riot of KL) are parked behind
+> the A roundup. ✅ DONE so far: all A1 spine-only heavyweights (Dany/Jon/Bran/AEGON S144–S147) + A2.1/A2.2/A2.3
+> (Theon/Sansa/Arya S148–S150) + D1 Castle Black (S153) + D5 Arya/Harrenhal (S154).
+>
 > **Created S143 (2026-06-24)** as the dedicated planning deliverable Matt scheduled between the arc phase and
 > the granular phase. **Supersedes the "L2-only" framing of the handoff** — see the Key Finding below.
 > Companion to `working/arc-enrichment-backlog.md` (the scope model + the per-unit pass-count ledger).
@@ -146,7 +154,7 @@ character dips. Everyone else's web is a by-product of their arc (do the arc ins
 | **D2** | **The Hand's Tourney** (AGOT) | The KL spectacle: Loras unhorses Gregor, **Gregor beheads his own horse + attacks Loras**, the Hound saves Loras, the melee, Littlefinger's bets. Character-rich KL set-piece feeding Gregor/Sandor/Loras/Renly. | scattered | Great whodunit-free character-wiring dip; pairs with the Robert-Strong / Clegane material. |
 | **D3** | **Greyjoy's Rebellion** (289 AC) | Balon's first crown, the burning of the Lannister fleet at Lannisport, the siege & storming of Pyke, Theon taken hostage, Euron/Victarion, Robert+Ned+Stannis+Jaime roles, Rodrik Greyjoy & Maron killed. | partly built (some nodes) | Load-bearing backstory hub — connects Iron Islands + Starks + Baratheons + Lannisters. |
 | **D4** | **The Riot of King's Landing** (ACOK) | The bread riots, the High Septon torn apart, Sansa nearly raped & rescued by the Hound, Tyrion struck, Lollys assaulted. A vivid KL mob event. | likely thin | Smaller; pairs with the Blackwater/KL cluster. |
-| **D5** | **Arya's AGOT→ACOK flight & Harrenhal** | Yoren's recruits, the gold-cloak attack & Needle's first kill, the journey north, the capture, **Harrenhal** (the Tickler, weasel soup, Jaqen's three deaths, the iron coin's origin), the Bloody Mummers. | event nodes mostly absent | Big current-narrative journey cluster; the *origin* of the iron-coin seam the Arya/Braavos arc (S150) hangs off. |
+| ~~**D5**~~ **✅ DONE S154** | **Arya's AGOT→ACOK flight & Harrenhal** | Yoren's recruits, the gold-cloak attack & Needle's first kill, the journey north, the capture, **Harrenhal** (the Tickler, weasel soup, Jaqen's three deaths, the iron coin's origin), the Bloody Mummers. | ~~event nodes mostly absent~~ → was: dense dyad layer, causally-islanded event spine | **DONE S154:** +6 nodes / net +43 edges (→ 23,065). The iron-coin ORIGIN seam (`jaqen-gives-arya-the-iron-coin ENABLES arya-departs-for-braavos`) threads the cluster into the S150 Braavos arc; fixed `fight-at-the-holdfast` (0 causal) + `needle` (0 out); reified the naming-gambit, Weese's death, the stableboy-kill, the escape. Fresh-verify 8C/1A/0R, theory-gate clean. |
 | **D6** | **The Rebellion prelude** (Defiance of Duskendale 277 → Tourney at Harrenhal 281) | Aerys's captivity & Barristan's rescue (the madness turning-point), the "year of the false spring," Rhaegar crowns Lyanna. Deep backstory but **theory-adjacent** (Lyanna/R+L) — evidence edges only, readings stay gated. | partly built (KotLT from RR S133) | Lower priority (backstory + partly gated); the RR enrichment (S133) already touched the edges. |
 
 **Also possible but deferred as pure deep-lore (a separate gated tier, NOT current-narrative):** the Dance of the
