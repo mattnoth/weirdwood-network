@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-27T06:53:24.329571+00:00",
+  "generated_at": "2026-06-27T18:51:39.976751+00:00",
   "entity_type": "foods",
   "dry_run": false,
-  "entity_count": 88,
+  "entity_count": 104,
   "type_counts": {
-    "object.food": 88
+    "object.food": 104
   },
-  "entities_with_zero_mentions": 75,
-  "mention_inverse_slugs": 13,
+  "entities_with_zero_mentions": 89,
+  "mention_inverse_slugs": 15,
   "top_by_appearances": [
     {
       "slug": "dreamwine",
@@ -37,6 +37,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "sourleaf",
+      "name": "Sourleaf",
+      "type": "object.food",
+      "appearances_total": 4,
+      "chapters_referenced_in": 4,
+      "in_edge_count": 11,
+      "out_edge_count": 0
+    },
+    {
       "slug": "lamprey",
       "name": "Lamprey",
       "type": "object.food",
@@ -61,6 +70,15 @@
       "appearances_total": 3,
       "chapters_referenced_in": 2,
       "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "peach",
+      "name": "Peach",
+      "type": "object.food",
+      "appearances_total": 2,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 24,
       "out_edge_count": 0
     },
     {
@@ -145,6 +163,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "black-sausage",
+      "name": "Black sausage",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
       "slug": "monkfish",
       "name": "Monkfish",
       "type": "object.food",
@@ -160,33 +187,6 @@
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "whitefish",
-      "name": "Whitefish",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 2,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "leche-of-brawn",
-      "name": "Leche of brawn",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "lark-bird",
-      "name": "Lark (bird)",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 2,
       "out_edge_count": 0
     }
   ],
@@ -216,6 +216,15 @@
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 34,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "peach",
+      "name": "Peach",
+      "type": "object.food",
+      "appearances_total": 2,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 24,
       "out_edge_count": 0
     },
     {
@@ -360,15 +369,6 @@
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 12,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "stallion-heart",
-      "name": "Stallion heart",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 11,
       "out_edge_count": 0
     }
   ]

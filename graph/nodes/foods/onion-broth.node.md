@@ -14,6 +14,10 @@ Onion broth is a plain soup base appearing in two distinct contexts in ADWD: as 
 
 ## Narrative Arc
 
+### A Storm of Swords
+
+- (Jon VIII, ASOS — `sources/chapters/asos/asos-jon-08.md:85`) Mid-battle feeding atop the Wall: "Hobb rode up the chain with cups of onion broth, and Owen and Clydas served them to the archers where they stood, so they could gulp them down between arrows." Onion broth as the minimum sustenance — served hot at combat posts, under fire, so archers need not leave their positions.
+
 ### A Dance with Dragons
 
 - (Jon X, ADWD — `sources/chapters/adwd/adwd-jon-10.md:195`) Alys Karstark / Sigorn wedding feast at Castle Black: "onion broth with goat and carrot" as the opening course — austere Northern hospitality under wartime scarcity, with the note that "the last of the butter would be gone within a moon's turn."

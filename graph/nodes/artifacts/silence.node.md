@@ -57,6 +57,10 @@ Lord [Rodrik Harlaw](wiki:Rodrik_Harlaw) tells Euron's niece, [Asha](wiki:Asha_G
 
 ## Quotes
 
+> "The decks of Euron's ship were painted red, to better hide the blood that soaked them."
+
+— Aeron Damphair's interior observation, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:169`)
+
 Even at anchor Silence looked both cruel and fast.(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 On her decks a motley crew of mutes and mongrels spoke no word as the [Iron Victory](wiki:Iron_Victory) drew nigh. Men black as tar stared out at him, and others squat and hairy as the apes of [Sothoros](wiki:Sothoryos). Monsters, Victarion thought.(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 From [Ib](wiki:Ib) to [Asshai](wiki:Asshai), when men see my sails, they pray.(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)

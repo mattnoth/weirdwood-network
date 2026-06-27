@@ -151,6 +151,12 @@ Loras remains at Dragonstone, still dying of his wounds.(wiki:Dragonstone.cite_r
 
 In the [Dothraki sea](wiki:Dothraki_sea), [Daenerys Targaryen](wiki:Daenerys_Targaryen) names [a hill](wiki:Dragonstone_(hill)) "Dragonstone", after the citadel she had been born in.(wiki:Dragonstone.cite_ref-Radwd71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-0)
 
+## Book-cite Overlays (S157 harvest)
+
+> The kitchens were a dragon curled up in a ball, with the smoke and steam of the ovens vented through its nostrils. The towers were dragons hunched above the walls or poised for flight; the Windwyrm seemed to scream defiance, while Sea Dragon Tower gazed serenely out across the waves. Smaller dragons framed the gates. Dragon claws emerged from walls to grasp at torches, great stone wings enfolded the smith and armory, and tails formed arches, bridges, and exterior stairs. Men entered through its open mouth.
+
+— Davos Seaworth surveying Dragonstone's carved-dragon architecture from the yard, ASOS Davos V (`sources/chapters/asos/asos-davos-05.md:161`)
+
 ## Quotes
 
 > Dragonstone was grim beyond a doubt, a lonely citadel in the wet waste surrounded by storm and salt, with the smoking shadow of [the mountain](wiki:Dragonmont) at its back.(wiki:Dragonstone.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16)

@@ -44,6 +44,12 @@ Myrcella's maiming by Darkstar, and Arianne's capture and imprisonment.
 
 — [Arianne Martell](arianne-martell) on what she truly seeks, AFFC The Queenmaker (`sources/chapters/affc/affc-the-queenmaker-01.md:85`)
 
+## Foreshadowing
+
+Areo Hotah's premonition planted before the ambush (AFFC The Captain of Guards I, line 135): "One day, he sensed, the two of them would fight; on that day Oakheart would die, with the captain's longaxe crashing through his skull." This is fulfilled at the Greenblood ambush (AFFC The Queenmaker I, line 289) when Hotah kills Arys Oakheart with exactly that blow.
+
+— AFFC The Captain of Guards I (`sources/chapters/affc/affc-the-captain-of-guards-01.md:135`) → fulfilled at (`sources/chapters/affc/affc-the-queenmaker-01.md:289`)
+
 ## Notes
 Minted S117 (2026-06-20) as the prime-mover beat of the AFFC Dorne/Myrcella causal
 arc. `event.conspiracy` carries the conspirators' agency via role edges (chain-as-arc;

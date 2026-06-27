@@ -1,8 +1,8 @@
 # Enrichment Coverage Plan — the full ranked dip list (S143)
 
 > **🅰 ACTIVE CAMPAIGN (Matt, S154): ROUND UP THE REMAINING A ARCS** — a multi-session campaign (one dip/session)
-> to close out the major-arc tier. **Order: ✅ A2.7 Stannis (S155) · ✅ A1.5 Dorne (S156)**, then **NEXT → A1.6 Euron**,
-> then A2.6 Jaime/Riverlands, A2.4 Tyrion-Essos, **A2.5 WO5K-battles LAST (it's multi-pass, its own
+> to close out the major-arc tier. **Order: ✅ A2.7 Stannis (S155) · ✅ A1.5 Dorne (S156) · ✅ A1.6 Euron (S157)**, then **NEXT → A2.6 Jaime/Riverlands**
+> (after the S157-queued script-consolidation cleanup), A2.4 Tyrion-Essos, **A2.5 WO5K-battles LAST (it's multi-pass, its own
 > mini-track)**, A2.8 Davos/Sam residual. After A is done → the descent drops to granular L2 / character / (gated)
 > theory. Remaining Class-D clusters (D2 Hand's Tourney · D3 Greyjoy's Rebellion · D4 Riot of KL) are parked behind
 > the A roundup. ✅ DONE so far: all A1 spine-only heavyweights (Dany/Jon/Bran/AEGON S144–S147) + A2.1/A2.2/A2.3
@@ -72,7 +72,7 @@ manipulators (Varys, Petyr, Bloodraven) whose webs no single arc fully covers �
 | **A1.3** | **AEGON / Golden Company** | Stormlands-campaign texture, the JonCon greyscale thread, the Connington/exile backstory, the GC's Blackfyre lineage, Varys's hidden hand. | 4 | Med (10–20) | Spine built S128, thin (max hub 10). Heavy **Varys** overlap (C1). |
 | **A1.4** | **Bran / greenseer** | Bloodraven mentorship substrate, the greendreams catalogue, the weirwood-net, the cave cluster (children of the forest, Leaf), Jojen-paste, Summer warging. | 5 | Med (10–20) | Spine built S130. Overlaps **Bloodraven** (C3) — scope together. Partly theory-gated (Hodor, R+L glimpses) — gated parts stay out. |
 | **A1.5** | **Dorne / Queenmaker** ✅ DONE S156 | The "someone always tells" informer mystery, Arys Oakheart's seduction sub-arc, the conspirator dispersal (Drey→Norvos, Garin→Tyrosh, Sylva→Greenstone), Darkstar's escape. | 6 | Med (10–15) | **DONE S156** (+3 nodes/net +36 edges; net pass-1). The whodunit done HONESTLY (no informer SUSPECTED_OF — text leaves it unproven); the Arys soiled-knight sub-arc; garin-of-the-orphans bug-fix; murder-of-elia→doran + first CLAIMS-iron-throne seams. |
-| **A1.6** | **Kingsmoot / Euron** | Euron's expansion: the Shield Islands taking, the Reader, the dragon-horn theft narrative, the warlock-killing backstory, the Crow's-Eye voyages. | 7 | Med (10–15) | Spine + 1 early enrichment (S116, pre-formal-L1). Overlaps **Euron** (C4). Theory-adjacent (Euron↔Bloodraven) stays as evidence-edges only. |
+| **A1.6** | **Kingsmoot / Euron** ✅ DONE S157 | Euron's expansion: the Shield Islands taking, the Reader, the dragon-horn theft narrative, the warlock-killing backstory, the Crow's-Eye voyages. | 7 | Med (10–15) | **DONE S157** (+37 edges / **0 new nodes** — heaviest dedup, all targets pre-existed; net pass-1). Lit the 0-role taking-of-the-shields hub + the full kingsmoot (naggas-hill/OFFICIATES/dragonbinder/claimants/champions) + the Reader + 0-edge objects (silence/iron-victory/dragonbinder); whodunit HONEST (no new SUSPECTED_OF; euron MANIPULATES hotho via_bribe); DROPPED the S116 `anarchy-in-the-reach` TRAP. Theory-adjacent (Euron↔Bloodraven, Dragonbinder=Horn) stayed node-prose/gated. |
 
 ### A2 — NOT spined → build the spine + enrich (higher cost, but L1-scale)
 

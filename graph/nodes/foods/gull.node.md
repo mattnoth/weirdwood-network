@@ -34,6 +34,8 @@ The remains of [Arrax](wiki:Arrax) were feasted upon by [crabs](wiki:Crab) and s
 
 [Salladhor Saan](wiki:Salladhor_Saan) has roasted gull stuffed with mushrooms and fennel and onion prepared for him on [Valyrian](wiki:Valyrian_(ship)).(wiki:Gull.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 
+- (Davos I, ACOK — `sources/chapters/acok/acok-davos-01.md:147`) Salladhor's dinner menu aboard Valyrian as he bids Davos farewell: "Minced lamb with pepper and roasted gull stuffed with mushrooms and fennel and onion" — Lyseni feast cooking; the stuffed gull is a show-piece dish for a pirate who styles himself a prince.
+
 ### A Storm of Swords[ ]
 
 Ser [Davos Seaworth](wiki:Davos_Seaworth) sees gulls at the [spears of the Merling King](wiki:Spears_of_the_Merling_King).(wiki:Gull.cite_ref-Rasos5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)

@@ -207,6 +207,10 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 >
 > —Stannis to [Catelyn Stark](wiki:Catelyn_Stark)
 
+> A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. You were a hero and a smuggler.
+
+— Stannis to [Davos Seaworth](davos-seaworth), ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:165`) [L826]
+
 > These pardoned lords would do well to reflect on that. Good men and true will fight for [Joffrey](wiki:Joffrey_Baratheon), wrongly believing him the true king. A [northman](wiki:Northman) might even say the same of [Robb Stark](wiki:Robb_Stark). But these lords who flocked to [my brother's](wiki:Renly_Baratheon) banners knew him for a usurper. They turned their backs on their rightful king for no better reason than dreams of power and glory, and I have marked them for what they are. Pardoned them, yes. Forgiven. But not forgotten.(wiki:Stannis_Baratheon.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-6)
 >
 > —Stannis to [Davos Seaworth](wiki:Davos_Seaworth)
@@ -294,3 +298,23 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 > His eyes were sunk in deep pits, his close-cropped beard no more than a shadow across his hollow cheeks and bony jawbone. Yet there was power in his stare, an iron ferocity that told Asha this man would never, ever turn back from his course.(wiki:Stannis_Baratheon.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-4)
 >
 > —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+
+> Stannis Baratheon, Lord of Dragonstone and by the grace of the gods rightful heir to the Iron Throne of the Seven Kingdoms of Westeros, was broad of shoulder and sinewy of limb, with a tightness to his face and flesh that spoke of leather cured in the sun until it was as tough as steel. Hard was the word men used when they spoke of Stannis, and hard he was. Though he was not yet five-and-thirty, only a fringe of thin black hair remained on his head, circling behind his ears like the shadow of a crown... They lay like a blue-black shadow across his square jaw and the bony hollows of his cheeks. His eyes were open wounds beneath his heavy brows, a blue as dark as the sea by night. His mouth would have given despair to even the drollest of fools; it was a mouth made for frowns and scowls and sharply worded commands, all thin pale lips and clenched muscles, a mouth that had forgotten how to smile and had never known how to laugh.
+
+— Maester Cressen's perspective, ACOK Prologue (`sources/chapters/acok/acok-prologue.md:169`) [L823]
+
+> He seemed ten years older than the man that Davos had left at Storm's End when he set sail for the Blackwater and the battle that would be their undoing. The king's close-cropped beard was spiderwebbed with grey hairs, and he had dropped two stone or more of weight. He had never been a fleshy man, but now the bones moved beneath his skin like spears, fighting to cut free. Even his crown seemed too large for his head. His eyes were blue pits lost in deep hollows, and the shape of a skull could be seen beneath his face.
+
+— Davos's first sight of Stannis post-Blackwater, ASOS Davos IV (`sources/chapters/asos/asos-davos-04.md:75`) [L843]
+
+> I stopped believing in gods the day I saw the Windproud break up across the bay. Any gods so monstrous as to drown my mother and father would never have my worship, I vowed.
+
+— Stannis to Davos, ACOK Davos I (`sources/chapters/acok/acok-davos-01.md:253`) [L824]
+
+> The Seven have never brought me so much as a sparrow. It is time I tried another hawk, Davos. A red hawk.
+
+— Stannis to Davos, ACOK Davos I (`sources/chapters/acok/acok-davos-01.md:263`) [L825]
+
+> Lightbringer! It glimmers prettily, I'll grant you, but on the Blackwater this magic sword served me no better than any common steel.
+
+— Stannis to Davos, ASOS Davos V (`sources/chapters/asos/asos-davos-05.md:147`) [L827]

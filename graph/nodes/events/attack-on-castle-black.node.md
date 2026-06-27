@@ -36,6 +36,30 @@ Next, Mance sends [Styr](wiki:Styr), the Magnar of [Thenn](wiki:Thenn_(region)),
 
 Styr leads his warriors off the Wall at [Greyguard](wiki:Greyguard), an abandoned castle of the Night's Watch where the presence of huge stone steps improve the descent. From there, the group goes deeply into the [Gift](wiki:Gift), passing a few inhabited villages and scattered roundtowers on the way.(wiki:Attack_on_Castle_Black.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) At [Queenscrown](wiki:Queenscrown), Jon Snow escapes the raiding party and travels back to [Castle Black](wiki:Castle_Black) by the way of [Mole's Town](wiki:Mole's_Town) in time to warn the remaining brothers of the [Night's Watch](wiki:Night's_Watch) of the on-coming attack from the south.(wiki:Attack_on_Castle_Black.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)(wiki:Attack_on_Castle_Black.cite_ref-Rasos48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) Three-quarters of the residents of Mole's Town flee to the castle, all of them helping prepare for the assault in some way. Donal Noye and Jon organize the defense around archers in the towers and a line of fighting men on the massive wooden staircase that zigzags up the south face of the Wall. As suggested by Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)), "scarecrow sentinels", dummy soldiers dressed in the clothes of a brother of the Night's Watch, are posted at roofs and windows to inflate their numbers.(wiki:Attack_on_Castle_Black.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Further, Aemon sent letters to each of the four kings in the realm, aswell as [Oldtown](wiki:Oldtown) and the [Citadel](wiki:Citadel), and half a hundred lords, including many northern lords.(wiki:Attack_on_Castle_Black.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)(wiki:Attack_on_Castle_Black.cite_ref-9)
 
+## Quotes
+
+> Beneath the trees were all the wildlings in the world; raiders and giants, wargs and skinchangers, mountain men, salt sea sailors, ice river cannibals, cave dwellers with dyed faces, dog chariots from the Frozen Shore, Hornfoot men with their soles like boiled leather, all the queer wild folk Mance had gathered to break the Wall.
+
+— Jon Snow surveying the wildling host at dawn, the full scale of the main assault, ASOS Jon VIII (`sources/chapters/asos/asos-jon-08.md:97`)
+
+> The scarecrow sentinels.
+
+(Maester Aemon's ruse) Straw-stuffed black cloaks with spears and crossbows propped at every tower and in half the windows to inflate the apparent garrison. "Donal Noye placed them on every tower and in half the windows." Jon: "Only we're the crows, and most of us were scared enough."
+
+— Jon Snow on the Maekar Aemon ruse, ASOS Jon VII (`sources/chapters/asos/asos-jon-07.md:33`)
+
+> The turtle was a hull turned upside down and opened fore and aft; a longhall on wheels.
+
+The siege engine: a rounded top on eight huge wheels, raw mammoth-hide and sheepskin roof over a stout wooden frame. Satin thought they were building a ship.
+
+— Jon Snow observing the wildling siege engine through the Myrish eye, ASOS Jon IX (`sources/chapters/asos/asos-jon-09.md:29`)
+
+> It felt like walking down the gullet of an ice dragon.
+
+The gate tunnel during the fight for the inner gate: "The ice pressed close around them … the weight of the Wall above his head." Donal Noye and Mag the Mighty died here.
+
+— Jon Snow moving through the Wall tunnel after the battle, ASOS Jon VIII (`sources/chapters/asos/asos-jon-08.md:161`)
+
 ## Aftermath
 
 After the deaths of Styr and his men, Jon Snow leaves the King's Tower with the help of Satin. Below, he finds many of the [free folk](wiki:Free_folk) and the Thenns he had known either dead or dying. Jon finds [Ygritte](wiki:Ygritte), who is wounded by an arrow and dies in Jon's arms.(wiki:Attack_on_Castle_Black.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5) Jon personally burns her remains.(wiki:Attack_on_Castle_Black.cite_ref-Rasos64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)

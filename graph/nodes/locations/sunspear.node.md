@@ -68,6 +68,12 @@ The closest thing to a true city that the [Dornishmen](wiki:Dornishmen) have, th
 
 Around [400 BC](wiki:Years_before_Aegon's_Conquest), the three Winding Walls were raised,(wiki:Sunspear.cite_ref-winding_walls_9-0) running through the shadow city, forming a defensive curtain. Only the Threefold Gate provides a straight path to the Old Palace, allowing visitors to pass all three of the Winding Walls directly, without having to pass through the labyrinth of the shadow city.(wiki:Sunspear.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8) If need be, these gates can be heavily defended.(wiki:Sunspear.cite_ref-Rtwoiafdorne:_sunspear.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
 
+## Book-cite Overlays (S157 harvest)
+
+> First the slender Spear Tower, a hundred-and-a-half feet tall and crowned with a spear of gilded steel that added another thirty feet to its height; then the mighty Tower of the Sun, with its dome of gold and leaded glass; last the dun-colored Sandship, looking like some monstrous dromond that had washed ashore and turned to stone.
+
+— Areo Hotah approaching Sunspear with Prince Doran's litter, AFFC The Captain of Guards I (`sources/chapters/affc/affc-the-captain-of-guards-01.md:217`)
+
 ## Narrative Arc
 
 ### A Feast for Crows

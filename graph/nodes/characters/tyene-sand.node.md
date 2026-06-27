@@ -34,7 +34,11 @@ Princess [Arianne Martell](wiki:Arianne_Martell) is especially close with Tyene,
 
 Despite her innocent and pious persona, Tyene is regarded as treacherous. Her soft pale hands are as deadly as Obara's callused ones.(wiki:Tyene_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) She shares her father Oberyn's knowledge of [poisons](wiki:Poison), her chosen weapon.(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) Tyene disapproves of the cautious nature of her uncle, [Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne).(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)(wiki:Tyene_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 
-Tyene owns a clinging gown of pale blue samite with sleeves of [Myrish](wiki:Myr) lace,(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5) as well as a modest cream and green gown with long lace sleeves.(wiki:Tyene_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3) Tyene is envious of Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon)'s curls.(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+Tyene owns a clinging gown of pale blue samite with sleeves of [Myrish](wiki:Myr) lace,(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5) as well as a modest cream and green gown with long lace sleeves.(wiki:Tyene_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+
+> Her gown was cream and green, with long lace sleeves, so modest and so innocent that any man who looked at her might think her the most chaste of maids.
+
+— Areo Hotah's observation of Tyene at Sunspear, ADWD The Watcher I (`sources/chapters/adwd/adwd-the-watcher-01.md:37`) [L858] Tyene is envious of Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon)'s curls.(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
 
 ## Narrative Arc
 

@@ -65,6 +65,12 @@ Lord [Beric Dondarrion](wiki:Beric_Dondarrion) sends [Greenbeard](wiki:Greenbear
 
 Ironborn raiders sail up the Mander deep into the heart of the Reach.(wiki:Mander.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
 
+## Book-cite Overlays (S157 harvest)
+
+> It was a lazy river, wide and slow and treacherous with snags and sandbars. Most seagoing vessels dared not sail beyond Highgarden, but longships with their shallow draughts could navigate as far upstream as Bitterbridge. In ancient days, the ironborn had boldly sailed the river road and plundered all along the Mander and its vassal streams.
+
+— Victarion Greyjoy reflecting on the ironborn raiding-road after the Taking of the Shields, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:63`)
+
 ## Quotes
 
 As the river is called the Mander, though the [Manderlys](wiki:House_Manderly) were driven from its banks a thousand years ago.(wiki:Mander.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)

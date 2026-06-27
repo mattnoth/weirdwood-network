@@ -37,6 +37,9 @@ During the [Hand's tourney](wiki:Hand's_tourney), King [Robert I Baratheon](wiki
 Chilled [autumn](wiki:Autumn) ale is served during the [harvest feast](wiki:Harvest_feast) at [Winterfell](wiki:Winterfell).(wiki:Beer.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0)
 [Shagga](wiki:Shagga) dislikes the weaker ale served in [King's Landing](wiki:King's_Landing).(wiki:Beer.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-0)
 
+- (Davos I, ACOK — `sources/chapters/acok/acok-davos-01.md:91`) Salladhor Saan eating grapes from a wooden bowl, urging Davos to eat with him; Davos orders ale instead of partaking in the grapes — the characterization contrast (Lyseni luxury vs. Westerosi austerity) expressed through their drink choices.
+- (Arya II, ACOK — `sources/chapters/acok/acok-arya-02.md:33`) Inn at the crossroads: the innkeeper gives Yoren's Watch column a round of beer "on the house" for a brother who took the black (loved pepper) — an instance of the old guest-custom for black brothers, presented as increasingly rare under war conditions.
+
 ### A Storm of Swords[ ]
 
 [Sybell Spicer](wiki:Sybell_Spicer) makes a posset of herbs, milk, and ale for her daughter, [Jeyne Westerling](wiki:Jeyne_Westerling).(wiki:Beer.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)

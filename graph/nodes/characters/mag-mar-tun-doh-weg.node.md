@@ -25,6 +25,10 @@ Mag Mar Tun Doh Weg is a character.human from the AWOIAF wiki.
 
 > *See also: [Images of Mag Mar Tun Doh Weg](wiki:Category:Images_of_Mag_Mar_Tun_Doh_Weg)*
 
+> Still the giant found the strength to reach through, twist the head off Spotted Pate, seize the iron gate, and wrench the bars apart. Links of broken chain lay strewn across the floor. One giant. All this was the work of one giant.
+
+— Jon Snow's assessment after the battle at the gate, ASOS Jon VIII (`sources/chapters/asos/asos-jon-08.md:167`) [L761]
+
 Mag the Mighty has a grey pelt streaked with white. His mouth is full of huge square teeth. His laughter sounds like a rumbling belch.(wiki:Mag_Mar_Tun_Doh_Weg.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) The giant speaks the [Old Tongue](wiki:Old_Tongue).(wiki:Mag_Mar_Tun_Doh_Weg.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Mag is smaller than [Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun).(wiki:Mag_Mar_Tun_Doh_Weg.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
 Mag's [mammoth](wiki:Mammoth) has the same coloring and is larger than other mammoths, denoting its older age.(wiki:Mag_Mar_Tun_Doh_Weg.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

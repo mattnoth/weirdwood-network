@@ -154,6 +154,10 @@ During the feast held to celebrate Wylis's return to White Harbor, Lord Wyman ha
 >
 > —Davos writing to [Marya Seaworth](wiki:Marya_Seaworth)
 
+> The last time it was life I brought to Storm's End, shaped to look like onions. This time it is death, in the shape of Melisandre of Asshai.
+
+— Davos's thoughts on the shadow-birth night, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:279`) [L831]
+
 ### Quotes about Davos
 
 > A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. You were [a hero](wiki:Siege_of_Storm's_End) and a smuggler.(wiki:Davos_Seaworth.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)

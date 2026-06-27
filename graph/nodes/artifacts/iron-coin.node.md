@@ -25,3 +25,7 @@ ACOK Harrenhal arc forward into the Braavos arc.
 > She pressed it into his hand, the small black iron coin that Jaqen H'ghar had given her, so worn the man whose head it bore had no features.
 
 > "Jaqen told me to come. I have the iron coin." She pulled it from her pouch and held it up. "See? Valar morghulis."
+
+> "She still had the stupid coin he'd given her, a piece of iron no larger than a penny and rusted along the rim. One side had writing on it, queer words she could not read. The other showed a man's head, but so worn that all his features had rubbed off. He said it was of great value, but that was probably a lie too, like his name and even his face."
+
+— Arya's description of the iron coin at Harrenhal, ACOK Arya V (`sources/chapters/acok/acok-arya-10.md:53`)

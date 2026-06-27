@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-08-20-next-enrichment-s157-euron.md` | 2026-08-20 | A-arc roundup #3 — A1.6 Kingsmoot / Euron enrichment | **LIVE** (graph) → fires as **S157** | Sonnet 4.6 lenses/fresh-verify + Opus 4.8 orch | **A2.7 Stannis DONE S155 · A1.5 Dorne DONE S156.** Per the A-roundup order, S157 = **A1.6 Kingsmoot / Euron** (unit LOCKED, no STEP-0 fork). Spine + 1 early enrichment (S116) + the S132 Victarion-voyage wire → **DEDUP HEAVY**, WIRE+ENRICH. Scope: the Shield Islands taking, the Reader (Rodrik Harlaw), Dragonbinder/the dragon-horn (provenance gated), the Crow's-Eye backstory (warlock-killing / the Silence's mute crew / the dusky woman), the Aeron/Euron rupture. **Published only — The Forsaken is TWOW, DO NOT use.** Euron↔Bloodraven stays evidence-only (gated). Baseline FIRST. NO container tag (Iron-Islands not one of the approved 5; the S132 voyage beats are `[essos]` because the fleet sails to Slaver's Bay). Order after: A2.6 Jaime → A2.4 Tyrion-Essos → A2.5 WO5K-battles (LAST, multi-pass) → A2.8 Davos/Sam. Plan: `working/enrichment-coverage-plan.md` § A1.6 + 🅰 banner. |
+| `2026-08-27-script-consolidation.md` | 2026-08-27 | Enrichment script consolidation (kill disposable-mint clutter) | **LIVE** (graph) → fires as **S158** | Sonnet 4.6 refactor + Opus 4.8 design/validation | **NOT a dip — a cleanup/refactor (Matt S157).** The ~33 disposable per-dip `mint_*`/`finalize_*` scripts are copy-paste debt. Build ONE parameterized `scripts/mint_enrichment.py` + `finalize_enrichment.py` reading candidates.json + a verdicts file; validate by reproducing a recent dip byte-identical; archive the disposables to `scripts/enrichment/archive/` (KEEP, don't delete); update the machine docs so it stops re-accreting. AFTER it: resume the A-roundup at **A2.6 Jaime / Riverlands**. (A1.6 Euron DONE S157, archived.) |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
@@ -97,14 +97,14 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > track's live prompt is the next enrichment dip (board-pick the arc first); the D&E Pass-1 track is PARKED. The
 > chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE (graph): `2026-08-12-next-enrichment-s155-stannis.md`** — **A-arc roundup #1 (fires as S155).** **18 major-arc dips shipped** — the reopened
-L1 round, all 3 A2 build+enrich arcs (Sansa/Vale S148 · Theon/Reek S149 · Arya/Braavos S150), the cheap L2 round (B1/B2/B3/B4/B7, S151), the
-dedicated harvest pass (S152), and BOTH Class-D event clusters (**D1 Battle of Castle Black S153** · **D5 Arya/Harrenhal S154**). Matt directed
-(S154) the **A-arc roundup** — a multi-session campaign to close out the major-arc tier, **starting with A2.7 Stannis** (unit LOCKED, no STEP-0
-fork; build+enrich, much pre-wired via Blackwater+NORTH). Order after: A1.5 Dorne → A1.6 Euron → A2.6 Jaime/Riverlands → A2.4 Tyrion-Essos →
-A2.5 WO5K-battles (LAST, multi-pass) → A2.8 Davos/Sam residual (`working/enrichment-coverage-plan.md` 🅰 banner). Baseline FIRST, then run the
-proven 18×-dip machine. Theory readings stay GATED. D&E Pass-1 PARKED.
-(**Sonnet 4.6 attach-subagents/verify + Opus 4.8 orch**)
+**LIVE (graph): `2026-08-27-script-consolidation.md`** — **NOT a dip — a cleanup/refactor (fires as S158).** **21 major-arc dips shipped** —
+the reopened L1 round, the 3 A2 build+enrich arcs (S148–S150), the cheap L2 round (S151), the dedicated harvest pass (S152), both Class-D clusters
+(S153/S154), and the **🅰 A-roundup so far: A2.7 Stannis S155 · A1.5 Dorne S156 · A1.6 Euron S157.** Matt flagged process drift at S157: the per-dip
+`mint_*`/`finalize_*` scripts (~33) are disposable copy-paste clutter → **S158 = consolidate them** into ONE parameterized `mint_enrichment.py` +
+`finalize_enrichment.py` (reading candidates.json + a verdicts file), validate by reproducing a recent dip byte-identical, archive the disposables to
+`scripts/enrichment/archive/` (KEEP), update the machine docs. **AFTER it: resume the A-roundup at A2.6 Jaime/Riverlands** → A2.4 Tyrion-Essos →
+A2.5 WO5K-battles (LAST, multi-pass) → A2.8 Davos/Sam (`working/enrichment-coverage-plan.md` 🅰 banner). **Harvest auto-drain now RESTORED** (endsession
+step 0). **SIFT track DEFERRED** until after enrichment. D&E Pass-1 PARKED. (**Sonnet 4.6 refactor + Opus 4.8 design/validation**)
 
 **PARKED (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — **PARKED by Matt 2026-06-23** (concurrent-with-enrichment
 was too confusing — revisit when fresh). Harness + v4 prompt DESIGNED S131; nothing run (smoke un-run). When un-parked:

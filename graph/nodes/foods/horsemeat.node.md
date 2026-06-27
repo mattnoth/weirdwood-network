@@ -24,6 +24,7 @@ Horsemeat is eaten during crisis conditions — siege, starvation, or wartime co
 
 ### A Dance with Dragons
 
+- (The King's Prize I, ADWD — `sources/chapters/adwd/adwd-the-kings-prize-01.md:221`) Stannis's Winterfell march: "On the twenty-sixth day of the fifteen-day march, the last of the vegetables was consumed. On the thirty-second day, the last of the grain and fodder." Dead draft horses are butchered for meat; Asha wonders "how long a man could live on raw, half-frozen horse meat." The systematic collapse of the supply chain leads to horses as last-resort rations.
 - (A Ghost in Winterfell I, ADWD — `sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:105`) After the new stables collapse and twenty-six horses die, Bolton's garrison feasts on fresh horsemeat: "great slabs of fresh horsemeat, charred outside and bloody red within, with roast onions and neeps … for once, the common soldiers ate as well as the lords and knights." Theon cannot chew it due to his broken teeth.
 - (Daenerys V, ADWD — `sources/chapters/adwd/adwd-daenerys-05.md:171`) Fall of Astapor: survivors "ate cats and rats and leather. A horsehide was a feast" — horsemeat as the last stage before total starvation.
 - (Daenerys VIII, ADWD — `sources/chapters/adwd/adwd-daenerys-08.md:15`) Hizdahr's feast for the Yunkai'i includes horse among camel, crocodile, duck, goat, and dog — here as one delicacy among many, showing Essosi range.

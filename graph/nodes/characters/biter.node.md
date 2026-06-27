@@ -29,6 +29,8 @@ According to a semi-canon source, Biter was found as an orphaned child by [Rorge
 
 Biter is enormous and bald, with soft, doughy flesh. His tongue has been cut out and he does not speak, except to hiss. His teeth have been filed into points.(wiki:Biter.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) His weight is enough to make a [courser](wiki:Horse) look half-ready to collapse when riding.(wiki:Biter.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
+Book-cite overlay — Arya's first description: "the gross fat bald one with the pointed teeth and the weeping sores on his cheeks had eyes like nothing human." ACOK Arya I (`sources/chapters/acok/acok-arya-01.md:21`) [L794]
+
 ## Narrative Arc
 
 ### A Clash of Kings

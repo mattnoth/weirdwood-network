@@ -80,6 +80,10 @@ Queen [Selyse Florent](wiki:Selyse_Florent) feasts Salladhor at Eastwatch.(wiki:
 >
 > —Salladhor to [Davos Seaworth](wiki:Davos_Seaworth)
 
+> That sword was not Lightbringer, my friend.
+
+— Salladhor Saan to [Davos Seaworth](davos-seaworth), ACOK Davos I (`sources/chapters/acok/acok-davos-01.md:125`) [L828]
+
 > **Davos**: How is it you come by [a Pentoshi ship](wiki:Bountiful_Harvest)? Have you gone [pirate](wiki:Pirate) again, my lord? **Salladhor**: Vile calumny. Who has suffered more from pirates than Salladhor Saan? I ask only what is due me. Much gold is owed, oh yes, but I am not without reason, so in place of coin I have taken a handsome parchment, very crisp. It bears the name and seal of Lord [Alester Florent](wiki:Alester_Florent), the [Hand of the King](wiki:Hand_of_the_King). I am made [Lord of Blackwater Bay](wiki:Lord_of_Blackwater_Bay), and no vessel may be crossing my lordly waters without my lordly leave, no. And when these outlaws are trying to steal past me in the night to avoid my lawful duties and customs, why, they are no better than smugglers, so I am well within my rights to seize them.(wiki:Salladhor_Saan.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 >
 > —[Davos Seaworth](wiki:Davos_Seaworth) and Salladhor

@@ -179,6 +179,18 @@ It is reported that Harrenhal's former lady, [Shella Whent](wiki:Shella_Whent), 
 
 Sent to bring peace to the [riverlands](wiki:Riverlands), [Jaime Lannister](wiki:Jaime_Lannister) returns to Harrenhal and learns it is leaderless. Gregor had appointed [Polliver](wiki:Polliver) as its castellan, but Polliver was killed by [Sandor Clegane](wiki:Sandor_Clegane) at the [inn at the crossroads](wiki:Inn_at_the_crossroads).(wiki:Harrenhal.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-1) Jaime clears out the [Mountain's men](wiki:Mountain's_men) and replaces the garrison with the pious regiment known as the [Holy Hundred](wiki:Holy_Hundred). Jaime appoints their leader, Ser [Bonifer Hasty](wiki:Bonifer_Hasty), as castellan until the time when Lord Baelish claims his castle.(wiki:Harrenhal.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4) Jaime releases Ser [Wylis Manderly](wiki:Wylis_Manderly) from imprisonment and has Ser [Ilyn Payne](wiki:Ilyn_Payne) execute one of the Mountain's men for having raped [Pia](wiki:Pia).(wiki:Harrenhal.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 
+## Book-cite Overlays (S157 harvest)
+
+> They looked like some old man's gnarled, knuckly fingers groping after a passing cloud. ... lumpy and runneled and cracked.
+
+The five melted towers as first seen by Arya approaching on the road: "the stone had melted and flowed like candlewax." Each tower more grotesque and misshapen than the last.
+
+— Arya Stark approaching Harrenhal with the Mountain's column, ACOK Arya VI (`sources/chapters/acok/acok-arya-06.md:69`)
+
+Harrenhal's inhuman scale as observed by Arya once inside: "covered thrice as much ground as Winterfell"; stables for a thousand horses; godswood over twenty acres; Hall of a Hundred Hearths (only thirty-three or thirty-five hearths, "but it could entertain an army"). Tower names: Tower of Dread, Widow's Tower, Wailing Tower, Tower of Ghosts, Kingspyre.
+
+— Arya Stark serving as castle mouse, ACOK Arya VII (`sources/chapters/acok/acok-arya-07.md:31`)
+
 ## Quotes
 
 > Whose notion was it to make this [Janos Slynt](wiki:Janos_Slynt) a [lord](wiki:Lord_of_Harrenhal)? The man's father was a butcher, and they grant him Harrenhal. Harrenhal, that was the seat of kings! Not that he will ever set foot inside it, if I have a say.(wiki:Harrenhal.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-2)

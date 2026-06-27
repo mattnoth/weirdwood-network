@@ -17,3 +17,11 @@ During *A Game of Thrones*, the inn is where Catelyn Stark arrests Tyrion Lannis
 
 REGION_OF: Riverlands
 LOCATED_AT: Ruby Ford (nearby)
+
+## Hospitality Record
+
+> The innkeeper gave them a round of beer on the house. "I had a brother took the black, years ago. Serving boy, clever, but one day he got seen filching pepper from m'lord's table... Just a pinch o' pepper, but Ser Malcolm was a hard man. You get pepper on the Wall?" When Yoren shook his head, the man sighed. "Shame. Lync loved that pepper."
+
+Served alongside hot pork pies and baked apples. Yoren's Night's Watch column heading north during the War of the Five Kings; the innkeeper extends guest-right (a round of beer on the house) for a brother who took the black. Arya Stark present.
+
+— ACOK Arya II (`sources/chapters/acok/acok-arya-02.md:33`)

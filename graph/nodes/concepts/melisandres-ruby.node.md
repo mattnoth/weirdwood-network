@@ -37,6 +37,10 @@ Melisandre remembers that when the flames were burning Rattleshirt glamoured as 
 
 ## Quotes
 
+> "The ruby at her throat had grown so hot that she had feared her own flesh might start to smoke and blacken."
+
+— Melisandre on the glamour's toll as Rattleshirt burned, ADWD Melisandre I (`sources/chapters/adwd/adwd-melisandre-01.md:269`)
+
 [Melisandre](wiki:Melisandre) was seated near the fire, her [ruby](wiki:Ruby) glimmering against the pale skin of her throat.(wiki:Melisandre's_ruby.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 Her eyes were two red stars, shining in the dark. At her throat, her [ruby](wiki:Ruby) gleamed, a third eye glowing brighter than the others.(wiki:Melisandre's_ruby.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 Melisandre felt the warmth in the hollow of her throat as her [ruby](wiki:Ruby) stirred at the closeness of [its slave](wiki:Mance_Rayder).(wiki:Melisandre's_ruby.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)

@@ -58,7 +58,11 @@ Euron wears a black leather patch over his left eye,(wiki:Euron_Greyjoy.cite_ref
 
 > His hair was still black as a midnight sea, with never a whitecap to be seen, and his face was still smooth and pale beneath his neat dark beard. A black leather patch covered Euron's left eye, but his right was blue as a summer sky.
 
-— [Victarion Greyjoy](victarion-greyjoy)'s first sight of Euron at the kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:137`)
+— [Victarion Greyjoy](victarion-greyjoy)'s first sight of Euron at the kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:137`) [L886]
+
+> He wore the sable cloak he took from Blacktyde, his red leather eye patch, and nothing else.
+
+— Euron at the victory feast at Lord Hewett's Town after the Taking of the Shields, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:227`) [L896]
 
 Euron has a black reputation.(wiki:Euron_Greyjoy.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) He is considered cunning(wiki:Euron_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) and mocking,(wiki:Euron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2) and has a glib tongue.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3) The Crow's Eye is hated by his brothers [Aeron](wiki:Aeron_Greyjoy),(wiki:Euron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) who considers him [godless](wiki:God), and [Victarion](wiki:Victarion_Greyjoy), as Euron impregnated [his third wife](wiki:Victarion_Greyjoy's_third_wife).(wiki:Euron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 
@@ -116,6 +120,10 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 >
 > —Euron to [Aeron Greyjoy](wiki:Aeron_Greyjoy)
 
+> Who knows more of gods than I? Horse gods and fire gods, gods made of gold with gemstone eyes, gods carved of cedar wood, gods chiseled into mountains, gods of empty air . . . I know them all. I have seen their peoples garland them with flowers, and shed the blood of goats and bulls and children in their names. And I have heard the prayers, in half a hundred tongues. Cure my withered leg, make the maiden love me, grant me a healthy son. Save me, succor me, make me wealthy . . . protect me! ... Godless? Why, Aeron, I am the godliest man ever to raise sail! You serve one god, Damphair, but I have served ten thousand. From Ib to Asshai, when men see my sails, they pray.
+
+— Euron to [Aeron Greyjoy](aeron-greyjoy) in Euron's tent on Old Wyk, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:145`) [L885]
+
 > We are the [ironborn](wiki:Ironborn), and once we were conquerors. Our writ ran everywhere the sound of the waves was heard. [My brother](wiki:Victarion_Greyjoy) would have you be content with the cold and dismal [north](wiki:North), [my niece](wiki:Asha_Greyjoy) with even less ... but I shall give you [Lannisport](wiki:Lannisport). [Highgarden](wiki:Highgarden). The [Arbor](wiki:Arbor). [Oldtown](wiki:Oldtown). The [riverlands](wiki:Riverlands) and the [Reach](wiki:Reach), the [kingswood](wiki:Kingswood) and the [rainwood](wiki:Rainwood), [Dorne](wiki:Dorne) and the [marches](wiki:Dornish_Marches), the [Mountains of the Moon](wiki:Mountains_of_the_Moon) and the [Vale of Arryn](wiki:Vale_of_Arryn), [Tarth](wiki:Tarth) and the [Stepstones](wiki:Stepstones). I say we take it *all!* I say, we take *[Westeros](wiki:Westeros)*.(wiki:Euron_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
 >
 > —Euron at the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk)
@@ -123,6 +131,14 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 > I am the storm, my lord. The first storm, and the last.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-17)
 >
 > —Euron to [Rodrik Harlaw](wiki:Rodrik_Harlaw)
+
+> I am the storm, my lord. The first storm, and the last. I have taken the Silence on longer voyages than this, and ones far more hazardous. Have you forgotten? I have sailed the Smoking Sea and seen Valyria.
+
+— Euron to [Rodrik Harlaw](rodrik-harlaw) at Lord Hewett's Town, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:199`) [L892]
+
+> When the kraken weds the dragon, brother, let all the world beware.
+
+— Euron to [Victarion Greyjoy](victarion-greyjoy), AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:269`) [L894]
 
 > Perhaps we can fly. All of us. How will we ever know unless we leap from some tall tower? No man ever truly knows what he can do unless he dares to leap.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-18)
 >
@@ -157,6 +173,14 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 > **Tristifer**: The Crow's Eye brought back monsters from the east ... aye, and [wizards](wiki:Warlocks) too. **Asha**: Nuncle always had a fondness for freaks and fools. [My father](wiki:Balon_Greyjoy) used to fight with him about it. Let the wizards call upon their gods. [The Damphair](wiki:Aeron_Greyjoy) will call on [ours](wiki:Drowned_God), and drown them.(wiki:Euron_Greyjoy.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
 >
 > —[Tristifer Botley](wiki:Tristifer_Botley) and [Asha Greyjoy](wiki:Asha_Greyjoy)
+
+> The decks of Euron's ship were painted red, to better hide the blood that soaked them.
+
+— Aeron Greyjoy's thought, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:169`) [L891]
+
+> Balon was mad, Aeron is madder, and Euron is maddest of them all.
+
+— [Baelor Blacktyde](baelor-blacktyde) to [Victarion Greyjoy](victarion-greyjoy) at the pre-kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:83`) [L893]
 
 > [Balon](wiki:Balon_Greyjoy) was mad, [Aeron](wiki:Aeron_Greyjoy) is madder, and Euron is the maddest of them all.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-19)
 >

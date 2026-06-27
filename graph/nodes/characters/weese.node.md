@@ -27,6 +27,8 @@ Weese is a character.human from the AWOIAF wiki.
 
 Weese is a squat man with boils near one corner of his lips and a fleshy carbuncle nose.(wiki:Weese.cite_ref-Racok26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) He is an abusive man, resorting to violence at the slightest provocation.(wiki:Weese.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) He keeps a [spotted dog](wiki:Spotted_dog).(wiki:Weese.cite_ref-Racok38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
+Book-cite overlay — Arya's first description: "Weese was understeward for the Wailing Tower, a squat man with a fleshy carbuncle of a nose and a nest of angry red boils near one corner of his plump lips." ACOK Arya VI (`sources/chapters/acok/acok-arya-06.md:93`) [L792]
+
 ## Narrative Arc
 
 ### A Clash of Kings

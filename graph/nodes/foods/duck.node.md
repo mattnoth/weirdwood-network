@@ -44,6 +44,8 @@ While hawking along [Blackwater Bay](wiki:Blackwater_Bay), [Sansa Stark](wiki:Sa
 
 The [ironborn](wiki:Ironborn) have stuffed ducks at [Lord Hewett's castle](wiki:Lord_Hewett's_castle) after the [taking of the Shields](wiki:Taking_of_the_Shields).(wiki:Duck.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 
+- (The Reaver I, AFFC — `sources/chapters/affc/affc-the-reaver-01.md:145`) Victory feast at Lord Hewett's Town: "roast ox rare and bloody, stuffed ducks, buckets of fresh crabs, captains eating off solid silver platters" — the ironborn eating off the conquered lord's silver, the ducks as an upscale feast item that marks how thoroughly the Shields have been taken.
+
 ### A Dance with Dragons[ ]
 
 Ser [Jorah Mormont](wiki:Jorah_Mormont) shares a roast duck with [Tyrion Lannister](wiki:Tyrion_Lannister) at the [Merchant's House](wiki:Merchant's_House) in [Volantis](wiki:Volantis).(wiki:Duck.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)

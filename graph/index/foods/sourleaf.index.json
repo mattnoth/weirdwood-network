@@ -1,0 +1,92 @@
+{
+  "slug": "sourleaf",
+  "name": "Sourleaf",
+  "type": "object.food",
+  "node_path": "graph/nodes/foods/sourleaf.node.md",
+  "generated_at": "2026-06-27T18:51:39.975946+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_referenced_in": 4,
+    "chapters_in_raw_list": 2,
+    "out_edge_count": 0,
+    "in_edge_count": 11
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-arya-01",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Other"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-12",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Other"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-arya-01",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Other"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-arya-03",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-samwell-05",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-tyrion-12",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Other"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

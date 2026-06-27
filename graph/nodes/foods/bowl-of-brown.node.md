@@ -29,6 +29,8 @@ When he was young, Ser [Duncan the Tall](wiki:Duncan_the_Tall) would sell [cats]
 
 [Arya Stark](wiki:Arya_Stark) eats bowls of brown while living on the streets of [King's Landing](wiki:King's_Landing).(wiki:Bowl_of_brown.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 
+- (Arya V, AGOT — `sources/chapters/agot/agot-arya-05.md:41`) Flea Bottom pot-shops: Arya trades half a pigeon for "a heel of yesterday's bread and a 'bowl o' brown'"; "It usually had barley in it, and chunks of carrot and onion and turnip, and sometimes even apple, with a film of grease swimming on top. Mostly she tried not to think about the meat." The richest description of bowl o' brown's actual contents: the ambiguous "meat" is the sinister note. She also ate raw pigeon and "often went to bed hungry" — the brown pot-shop as the best poverty option available in Flea Bottom.
+
 ### A Clash of Kings[ ]
 
 The quality of ingredients in brown declines as prices rise during the [War of the Five Kings](wiki:War_of_the_Five_Kings).(wiki:Bowl_of_brown.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

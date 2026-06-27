@@ -56,6 +56,14 @@ Crabs reportedly eat King [Balon Greyjoy](wiki:Balon_Greyjoy)'s eyes after he fa
 [Cat of the Canals](wiki:Arya_Stark) sells crabs in [Braavos](wiki:Braavos).(wiki:Crab.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
 [Ironborn](wiki:Ironborn) feast on buckets of fresh crabs at [Lord Hewett's castle](wiki:Lord_Hewett's_castle) after the [taking of the Shields](wiki:Taking_of_the_Shields).(wiki:Crab.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 
+### A Storm of Swords
+
+- (Davos I, ASOS — `sources/chapters/asos/asos-davos-01.md:19`) Davos shipwrecked on a rock spire in Blackwater Bay: "When the tide was low, he could sometimes find tiny crabs along the stony strand where he had washed ashore after the battle. They nipped his fingers painfully before he smashed them apart on the rocks to suck the meat from their claws and the guts from their shells." Survival eating — the only food available on a barren sea-rock; contrasts with the Lyseni feast aboard Salladhor's ship once rescued.
+
+### A Feast for Crows
+
+- (The Reaver I, AFFC — `sources/chapters/affc/affc-the-reaver-01.md:145`) Victory feast at Lord Hewett's Town after the taking of the Shields: ironborn eating "buckets of fresh crabs" alongside roast ox and stuffed ducks, off Lord Hewett's silver platters — conquered hospitality, the victors feasting on the vanquished's provisions.
+
 ### A Dance with Dragons[ ]
 
 Lord Manderly brings crates of crabs to [Barrowton](wiki:Barrowton) for the [wedding of Ramsay Bolton and Arya Stark](wiki:Wedding_of_Ramsay_Bolton_and_Arya_Stark).(wiki:Crab.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)

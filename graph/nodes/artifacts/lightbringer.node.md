@@ -56,6 +56,14 @@ Instead of having [Theon Greyjoy](wiki:Theon_Greyjoy) burned at the [crofters' v
 
 ## Quotes
 
+> "That sword was not Lightbringer, my friend."
+
+— [Salladhor Saan](salladhor-saan) to Davos, doubting Stannis's drawn blade, ACOK Davos I (`sources/chapters/acok/acok-davos-01.md:125`)
+
+> "It glimmers prettily, I'll grant you, but on the Blackwater this magic sword served me no better than any common steel."
+
+— [Stannis Baratheon](stannis-baratheon) on Lightbringer's battlefield performance, ASOS Davos V (`sources/chapters/asos/asos-davos-05.md:147`)
+
 In ancient books of [Asshai](wiki:Asshai) it is written that there will come a day after a long summer when the stars bleed and the cold breath of darkness falls heavy on the world. In this dread hour a warrior shall draw from the fire a burning sword. And that sword shall be Lightbringer, the Red Sword of Heroes, and he who clasps it shall be [Azor Ahai](wiki:Azor_Ahai) come again, and the darkness shall flee before him. Azor Ahai, beloved of [R'hllor](wiki:R'hllor)! The Warrior of Light, the Son of Fire! Come forth, your sword awaits you! Come forth and take it into your hand!(wiki:Lightbringer.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 Be glad that it is just a burnt sword that [His Grace](wiki:Stannis_Baratheon) pulled from that fire. Too much light can hurt the eyes, my friend, and fire burns.(wiki:Lightbringer.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 Are you afraid I'll piss on your burning sword and put it out?(wiki:Lightbringer.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)

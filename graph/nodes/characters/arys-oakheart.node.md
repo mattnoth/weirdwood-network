@@ -93,3 +93,7 @@ The Dornish court informs Ser Balon Swann that Arys was killed by Ser [Gerold Da
 > Did he charge at [Areo Hotah](wiki:Areo_Hotah) in hopes of saving me? Or did he do it to escape me, to wash out his dishonor with his life's blood?(wiki:Arys_Oakheart.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
 >
 > —thoughts of [Arianne Martell](wiki:Arianne_Martell)
+
+> A noble vow. But you are only one man, ser. I had hoped that imprisoning my headstrong nieces would help to calm the waters, but all we've done is drive the roaches back beneath the rushes. Every night I hear them whispering and sharpening their knives.
+
+— Doran Martell to Arys Oakheart, AFFC The Soiled Knight I (`sources/chapters/affc/affc-the-soiled-knight-01.md:45`) [L849]

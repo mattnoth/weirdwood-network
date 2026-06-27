@@ -73,6 +73,10 @@ Prince [Jaehaerys Targaryen](wiki:Jaehaerys_Targaryen_(son_of_Aerys_II))
 
 ## Quotes
 
+> "He caught some vipers and showed Tyene the safest way to milk them for their venom."
+
+— Arianne Martell recalling Oberyn teaching Tyene Sand the Dornish poison craft at Shandystone, AFFC The Queenmaker I (`sources/chapters/affc/affc-the-queenmaker-01.md:17`)
+
 The poisoner is beneath contempt.(wiki:Poison.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 All the world knew that a [maester](wiki:Maester) forged his [silver](wiki:Silver) link when he learned the art of [healing](wiki:Medicine)—but the world preferred to forget that men who knew how to heal also knew how to kill.(wiki:Poison.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 No true man killed with poison. Poison was for cravens, women, and [Dornishmen](wiki:Dornishmen).(wiki:Poison.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)

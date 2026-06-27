@@ -15,8 +15,13 @@ Porridge is a plain grain-based breakfast staple, typically served with fruit or
 
 ## Narrative Arc
 
+### A Storm of Swords
+
+- (Davos III, ASOS — `sources/chapters/asos/asos-davos-03.md:21`) Dragonstone dungeon: the gaoler Davos names "Porridge" — "broad and squat, with thick shoulders and huge strong hands" — brings "a bowl of oaten porridge" once a day, "sometimes sweetened with honey or poured in a bit of milk." The name "Porridge" survives as a quiet characterization of the mundane cruelty of captivity.
+
 ### A Dance with Dragons
 
+- (Jon IV, ADWD — `sources/chapters/adwd/adwd-jon-04.md:313`) Stannis on hospitality to the mountain clans: "For three thousand men, I suppose I can endure some pipes and porridge" — porridge as the emblematic plain food of the northern mountain clans, the minimum hospitality Stannis grudgingly accepts as political necessity.
 - (Reek I, ADWD — `sources/chapters/adwd/adwd-reek-01.md:138`) Ramsay lures Reek from the dungeon with the promise of "nice soft porridge … perhaps a pease pie laced with bacon" — porridge as comfort food weaponized by a torturer; the softest food imaginable offered to a man with broken teeth.
 - (A Ghost in Winterfell I, ADWD — `sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:17`) Garrison midday meal: blood sausage, leeks, and brown bread — pease porridge served above the salt at the snowbound Winterfell garrison (porridge as the one warm staple available).
 

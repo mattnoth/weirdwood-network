@@ -28,6 +28,10 @@ Obara is a big-boned woman near to thirty, long-legged, with close-set eyes and 
 
 A prickly, hot-tempered woman,(wiki:Obara_Sand.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Obara is given to martial pursuits as she considers herself [a warrior](wiki:Woman_warrior). She wears a mottled sandsilk cloak of dun and gold over brown riding leathers and wields a spear, a whip, and a round shield of [steel](wiki:Steel) and [copper](wiki:Copper).(wiki:Obara_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) Instead of a gown, fierce Obara prefers men's breeches, a calf-length linen tunic, and a belt of copper suns.(wiki:Obara_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 
+> Even without her whip and shield, she had an angry mannish look to her. In place of a gown, she wore men's breeches and a calf-length linen tunic, cinched at the waist with a belt of copper suns. Her brown hair was tied back in a knot.
+
+— Areo Hotah's observation of Obara at Sunspear, ADWD The Watcher I (`sources/chapters/adwd/adwd-the-watcher-01.md:25`) [L858]
+
 Obara is a confident rider who uses spurs, often to the point where the [animal](wiki:Animal) is bloody, and she always rides stallions.(wiki:Obara_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) Obara is also fond of [wine](wiki:Wine).(wiki:Obara_Sand.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 
 ## Narrative Arc

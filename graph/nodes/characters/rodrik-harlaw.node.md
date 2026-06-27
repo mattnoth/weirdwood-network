@@ -40,6 +40,10 @@ Rodrik is a widower,(wiki:Rodrik_Harlaw.cite_ref-Rawoiafrodrik_harlaw.7B.7B.7B3.
 
 An average-looking man, Rodrik has brown hair and eyes, and a short, neat beard that is grey. He has requested a [Myrish lens](wiki:Myrish_lens) to assist with his vision.(wiki:Rodrik_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
+> Lord Rodrik Harlaw was neither fat nor slim; neither tall nor short; neither ugly nor handsome. His hair was brown, as were his eyes, though the short, neat beard he favored had gone grey.
+
+— Asha Greyjoy's first sight of her uncle at Ten Towers, AFFC The Kraken's Daughter I (`sources/chapters/affc/affc-the-krakens-daughter-01.md:55`) [L897]
+
 The cautious(wiki:Rodrik_Harlaw.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Rodrik enjoys reading.(wiki:Rodrik_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 
 ## Narrative Arc

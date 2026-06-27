@@ -60,7 +60,13 @@ Herds of goats are part of the [free folk](wiki:Free_folk) host gathered by [Man
 [Bran Stark](wiki:Bran_Stark) sees pale goats in the [northern mountains](wiki:Northern_mountains).(wiki:Goat.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0)
 Goats wander among the [freedmen](wiki:Freedmen) who accompany Daenerys from [Astapor](wiki:Astapor) to [Yunkai](wiki:Yunkai).(wiki:Goat.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
 Herds of goat are among Robb's host as he travels from [Riverrun](wiki:Riverrun) to the [Twins](wiki:Twins).(wiki:Goat.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)
-When [Jon Snow](wiki:Jon_Snow) uses a [Myrish eye](wiki:Myrish_eye) during the [battle beneath the Wall](wiki:Battle_beneath_the_Wall), he sees [Val](wiki:Val) milking a she-goat outside of Mance's tent and [Tormund](wiki:Tormund) eating the roast leg of a goat.(wiki:Goat.cite_ref-Rasos69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0) Since [Dalla](wiki:Dalla) dies in childbirth, [her babe](wiki:Aemon_Steelsong) is given goats' milk.(wiki:Goat.cite_ref-Rasos75.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)
+When [Jon Snow](wiki:Jon_Snow) uses a [Myrish eye](wiki:Myrish_eye) during the [battle beneath the Wall](wiki:Battle_beneath_the_Wall), he sees [Val](wiki:Val) milking a she-goat outside of Mance's tent and [Tormund](wiki:Tormund) eating the roast leg of a goat.(wiki:Goat.cite_ref-Rasos69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
+
+- (Jon IX, ASOS — `sources/chapters/asos/asos-jon-09.md:44`) Wildling-camp normalcy contrast: Jon spies through the Myrish eye and sees "Tormund Giantsbane eating the roast leg of a goat and bellowing orders" while Val milks a she-goat by Mance's tent — the domesticity of the wildling camp set against Castle Black's starvation-rations and siege-exhaustion.
+
+### A Feast for Crows (Ironborn)
+
+- (The Iron Captain I, AFFC — `sources/chapters/affc/affc-the-iron-captain-01.md:73`) Victarion's pre-kingsmoot feast: "roast kid" listed first among the feast's provisions (alongside salted cod and lobster) — the kid (young goat) as an ironborn feast centerpiece before the kingsmoot. Since [Dalla](wiki:Dalla) dies in childbirth, [her babe](wiki:Aemon_Steelsong) is given goats' milk.(wiki:Goat.cite_ref-Rasos75.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)
 
 ### A Feast for Crows[ ]
 

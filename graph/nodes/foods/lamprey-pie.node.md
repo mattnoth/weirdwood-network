@@ -18,9 +18,17 @@ Lamprey pie is a rich, high-status delicacy eaten at feasts throughout Westeros 
 
 ## Narrative Arc
 
+### A Storm of Swords
+
+- (Davos III, ASOS — `sources/chapters/asos/asos-davos-03.md:21`) Dragonstone dungeon: the gaoler Davos names "Lamprey" brings him "half a lamprey pie" — "a rare treat for a prisoner in a dungeon." Davos could not keep it down; "The lamprey was so rich he could not keep it down." The gaoler earns his name from this single act of relative generosity.
+
 ### A Dance with Dragons
 
 - (Davos IV, ADWD — `sources/chapters/adwd/adwd-davos-04.md:93`) Merman's Court welcome feast for Davos Seaworth: "lamprey pie and venison with roasted chestnuts" — White Harbor hospitality, served in the great hall beneath the painted shoals of herring and cod.
+
+### A Dance with Dragons (Dorne)
+
+- (The Watcher I, ADWD — `sources/chapters/adwd/adwd-the-watcher-01.md:51`) 7-course feast welcoming Ser Balon Swann at Sunspear: lamprey pies among seven courses. Ser Balon "shunned the lamprey pie" entirely — even before the snake stew that broke his nerve.
 
 ## Quotes
 

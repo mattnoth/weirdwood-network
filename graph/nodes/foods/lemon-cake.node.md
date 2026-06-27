@@ -28,6 +28,14 @@ Lemon cakes are a favorite of [Sansa Stark](wiki:Sansa_Stark).(wiki:Lemon_cake.c
 
 Lemon cakes are served in Queen [Cersei Lannister](wiki:Cersei_Lannister)'s [wheelhouse](wiki:Wheelhouse),(wiki:Lemon_cake.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) and at the feast for the [Hand's Tourney](wiki:Hand's_Tourney).(wiki:Lemon_cake.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
+- (Arya V, AGOT — `sources/chapters/agot/agot-arya-05.md:19`) Flea Bottom street: a pushcart selling tarts "still warm" — blueberry, lemon, and apricot. Arya, starving, tries to trade a pigeon for one; the cart man wants 3 coppers and refuses. "Arya would have given anything for a cup of milk and a lemon cake" — the lemon cake here is the remembered comfort of her former life, contrasted against actual starvation-level want. The tart-cart is as close as she comes to it in Flea Bottom.
+
+### A Clash of Kings[ ]
+
+- (Catelyn II, ACOK — `sources/chapters/acok/acok-catelyn-02.md:205`) Renly's Bitterbridge feast: "lemon cakes in the shape of roses" served alongside cream swans and spun-sugar unicorns — one of the richest feast sweet-courses in the series, exemplifying Renly's southern abundance and extravagance the night before his death.
+
+Lemon cakes in the shape of roses are served at King [Renly Baratheon](wiki:Renly_Baratheon)'s feast for the [Melee at Bitterbridge](wiki:Melee_at_Bitterbridge).(wiki:Lemon_cake.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
 ### A Clash of Kings[ ]
 
 Lemon cakes in the shape of roses are served at King [Renly Baratheon](wiki:Renly_Baratheon)'s feast for the [Melee at Bitterbridge](wiki:Melee_at_Bitterbridge).(wiki:Lemon_cake.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

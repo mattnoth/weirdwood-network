@@ -1,0 +1,338 @@
+==============================================================================
+INTERNAL EDGES (both endpoints in core): 230 unique
+==============================================================================
+  aeron-greyjoy  [AGENT_IN]  kingsmoot-on-old-wyk  | 1
+  aeron-greyjoy  [AGENT_IN]  aeron-vows-to-raise-the-ironborn-smallfolk  | 1
+  aeron-greyjoy  [BORN_AT]  pyke  | 2
+  aeron-greyjoy  [CLERGY_OF]  drowned-god  | 1
+  aeron-greyjoy  [COMMANDS_IN]  aeron-damphair-demands-benfred-s-death  | 1
+  aeron-greyjoy  [FEARS]  euron-greyjoy  | 1
+  aeron-greyjoy  [GUEST_OF]  theon-greyjoy  | 1
+  aeron-greyjoy  [GUEST_OF]  victarion-greyjoy  | 1
+  aeron-greyjoy  [GUEST_OF]  gorold-goodbrother  | 1
+  aeron-greyjoy  [OPPOSES]  euron-greyjoy  | 1
+  aeron-greyjoy  [OPPOSES]  asha-greyjoy  | 1
+  aeron-greyjoy  [RESENTS]  balon-greyjoy  | 1
+  aeron-greyjoy  [SWORN_TO]  house-greyjoy  | 2
+  aeron-greyjoy  [UNCLE_OF]  theon-greyjoy  | 1
+  aeron-greyjoy  [VICTIM_IN]  euron-hunts-aeron-damphair  | 1
+  aeron-vows-to-raise-the-ironborn-smallfolk  [CAUSES]  euron-hunts-aeron-damphair  | 2
+  alannys-harlaw  [BORN_AT]  harlaw  | 2
+  alannys-harlaw  [PARENT_OF]  theon-greyjoy  | 1
+  alannys-harlaw  [PARENT_OF]  asha-greyjoy  | 2
+  alannys-harlaw  [SPOUSE_OF]  balon-greyjoy  | 2
+  alannys-harlaw  [SWORN_TO]  house-greyjoy  | 2
+  alannys-harlaw  [SWORN_TO]  house-harlaw  | 2
+  asha-claims-the-kingsmoot  [SUB_BEAT_OF]  kingsmoot-on-old-wyk  | 1
+  asha-greyjoy  [AGENT_IN]  kingsmoot-on-old-wyk  | 1
+  asha-greyjoy  [AGENT_IN]  asha-claims-the-kingsmoot  | 1
+  asha-greyjoy  [ALLIES_WITH]  house-harlaw  | 1
+  asha-greyjoy  [ALLIES_WITH]  tristifer-botley  | 1
+  asha-greyjoy  [BORN_AT]  pyke  | 2
+  asha-greyjoy  [COMMANDS]  balon-greyjoy  | 1
+  asha-greyjoy  [DECEIVES]  theon-greyjoy  | 1
+  asha-greyjoy  [FEARS]  euron-greyjoy  | 1
+  asha-greyjoy  [GUEST_OF]  theon-greyjoy  | 1
+  asha-greyjoy  [GUEST_OF]  victarion-greyjoy  | 1
+  asha-greyjoy  [HEIR_TO]  balon-greyjoy  | 1
+  asha-greyjoy  [LOVER_OF]  tristifer-botley  | 1
+  asha-greyjoy  [MOURNS]  alannys-harlaw  | 1
+  asha-greyjoy  [MOURNS]  balon-greyjoy  | 1
+  asha-greyjoy  [MOURNS]  theon-greyjoy  | 1
+  asha-greyjoy  [OPPOSES]  victarion-greyjoy  | 1
+  asha-greyjoy  [OPPOSES]  erik-ironmaker  | 1
+  asha-greyjoy  [OPPOSES]  euron-greyjoy  | 1
+  asha-greyjoy  [RESPECTS]  balon-greyjoy  | 1
+  asha-greyjoy  [SEEKS]  victarion-greyjoy  | 1
+  asha-greyjoy  [SIBLING_OF]  theon-greyjoy  | 1
+  asha-greyjoy  [SPOUSE_OF]  erik-ironmaker  | 1
+  asha-greyjoy  [SWORN_TO]  house-greyjoy  | 2
+  asha-greyjoy  [SWORN_TO]  house-ironmaker  | 2
+  asha-greyjoy  [UNCLE_OF]  euron-greyjoy  | 1
+  asha-greyjoy  [UNCLE_OF]  victarion-greyjoy  | 1
+  asha-greyjoy  [VICTIM_IN]  euron-weds-asha-to-erik-ironmaker-in-absentia  | 1
+  baelor-blacktyde  [CULTURE_OF]  ironborn  | 2
+  baelor-blacktyde  [DIED_AT]  old-wyk  | 2
+  baelor-blacktyde  [PROTECTS]  tristifer-botley  | 1
+  baelor-blacktyde  [SWORN_TO]  house-blacktyde  | 2
+  balon-botley  [HEIR_TO]  house-botley  | 2
+  balon-botley  [SWORN_TO]  house-botley  | 2
+  balon-declares-himself-king  [MOTIVATES]  theon-greyjoy  | 2
+  balon-greyjoy  [AGENT_IN]  balon-declares-himself-king  | 1
+  balon-greyjoy  [BANISHES]  euron-greyjoy  | 1
+  balon-greyjoy  [BORN_AT]  pyke  | 2
+  balon-greyjoy  [BORN_AT]  iron-islands  | 2
+  balon-greyjoy  [COMMANDS]  aeron-greyjoy  | 1
+  balon-greyjoy  [COMMANDS]  victarion-greyjoy  | 1
+  balon-greyjoy  [COMMANDS_IN]  victarion-admits-euron-s-role-in-his-wife-s-death  | 1
+  balon-greyjoy  [CULTURE_OF]  ironborn  | 2
+  balon-greyjoy  [DISTRUSTS]  theon-greyjoy  | 1
+  balon-greyjoy  [PARENT_OF]  asha-greyjoy  | 1
+  balon-greyjoy  [PARENT_OF]  theon-greyjoy  | 2
+  balon-greyjoy  [RULES]  pyke  | 2
+  balon-greyjoy  [SUCCEEDS]  quellon-greyjoy  | 2
+  balon-greyjoy  [VICTIM_IN]  death-of-balon-greyjoy  | 1
+  death-of-balon-greyjoy  [TRIGGERS]  euron-seizes-the-seastone-chair  | 2
+  dragonbinder  [WIELDED_IN]  moqorro-reads-dragonbinder-glyphs  | 1
+  dusky-woman  [SWORN_TO]  house-greyjoy  | 2
+  erik-ironmaker  [AGENT_IN]  euron-weds-asha-to-erik-ironmaker-in-absentia  | 2
+  erik-ironmaker  [AGENT_IN]  euron-hunts-aeron-damphair  | 1
+  erik-ironmaker  [BORN_AT]  iron-islands  | 2
+  erik-ironmaker  [CULTURE_OF]  ironborn  | 2
+  erik-ironmaker  [RULES]  house-ironmaker  | 2
+  erik-ironmaker  [SWORN_TO]  house-ironmaker  | 2
+  erik-ironmaker  [SWORN_TO]  house-greyjoy  | 2
+  euron-commissions-victarion-to-fetch-daenerys  [ENABLES]  iron-fleet-departs-for-slavers-bay  | 2
+  euron-greyjoy  [AGENT_IN]  euron-seizes-the-seastone-chair  | 1
+  euron-greyjoy  [AGENT_IN]  kingsmoot-on-old-wyk  | 1
+  euron-greyjoy  [AGENT_IN]  euron-weds-asha-to-erik-ironmaker-in-absentia  | 1
+  euron-greyjoy  [APPOINTS]  erik-ironmaker  | 1
+  euron-greyjoy  [BETRAYS]  victarion-greyjoy  | 1
+  euron-greyjoy  [BORN_AT]  pyke  | 2
+  euron-greyjoy  [CLAIMS]  seastone-chair  | 1
+  euron-greyjoy  [COMMANDS_IN]  victarion-admits-euron-s-role-in-his-wife-s-death  | 2
+  euron-greyjoy  [COMMANDS_IN]  euron-commissions-victarion-to-fetch-daenerys  | 1
+  euron-greyjoy  [COMMANDS_IN]  euron-hunts-aeron-damphair  | 1
+  euron-greyjoy  [CULTURE_OF]  ironborn  | 2
+  euron-greyjoy  [DEFEATS]  victarion-greyjoy  | 1
+  euron-greyjoy  [EXECUTES]  baelor-blacktyde  | 1
+  euron-greyjoy  [GIFTED_TO]  victarion-greyjoy  | 1
+  euron-greyjoy  [GUEST_OF]  victarion-greyjoy  | 1
+  euron-greyjoy  [KILLS]  balon-greyjoy  | 1
+  euron-greyjoy  [KILLS]  sawane-botley  | 1
+  euron-greyjoy  [SUSPECTED_OF]  death-of-balon-greyjoy  | 2
+  euron-greyjoy  [UNCLE_OF]  theon-greyjoy  | 1
+  euron-seizes-the-seastone-chair  [CAUSES]  kingsmoot-on-old-wyk  | 2
+  euron-seizes-the-seastone-chair  [MOTIVATES]  aeron-greyjoy  | 2
+  gorold-goodbrother  [RULES]  house-goodbrother  | 2
+  gorold-goodbrother  [SWORN_TO]  house-goodbrother  | 2
+  gwynesse-harlaw  [SWORN_TO]  house-harlaw  | 2
+  hammerhorn  [SEAT_OF]  house-goodbrother  | 2
+  harlaw-hall  [SEAT_OF]  house-harlaw  | 2
+  harras-harlaw  [HEIR_TO]  house-harlaw  | 2
+  hotho-harlaw  [BORN_AT]  harlaw  | 2
+  hotho-harlaw  [SEEKS]  victarion-greyjoy  | 1
+  hotho-harlaw  [SERVES]  rodrik-harlaw  | 1
+  house-blacktyde  [REGION_OF]  iron-islands  | 2
+  house-botley  [REGION_OF]  iron-islands  | 2
+  house-drumm  [REGION_OF]  iron-islands  | 2
+  house-goodbrother  [REGION_OF]  iron-islands  | 2
+  house-greyjoy  [AGENT_IN]  iron-fleet-captures-myrish-cog-dove  | 1
+  house-greyjoy  [OVERLORD_OF]  house-blacktyde  | 2
+  house-greyjoy  [OVERLORD_OF]  house-botley  | 2
+  house-greyjoy  [OVERLORD_OF]  house-drumm  | 2
+  house-greyjoy  [OVERLORD_OF]  house-goodbrother  | 2
+  house-greyjoy  [OVERLORD_OF]  house-harlaw  | 2
+  house-greyjoy  [OVERLORD_OF]  house-ironmaker  | 2
+  house-greyjoy  [OVERLORD_OF]  house-merlyn  | 2
+  house-greyjoy  [OVERLORD_OF]  house-sparr  | 2
+  house-greyjoy  [OVERLORD_OF]  house-stonehouse  | 2
+  house-greyjoy  [REGION_OF]  iron-islands  | 2
+  house-harlaw  [OVERLORD_OF]  house-volmark  | 2
+  house-harlaw  [REGION_OF]  iron-islands  | 2
+  house-ironmaker  [REGION_OF]  iron-islands  | 2
+  house-merlyn  [REGION_OF]  iron-islands  | 2
+  house-sparr  [REGION_OF]  iron-islands  | 2
+  house-stonehouse  [REGION_OF]  iron-islands  | 2
+  house-volmark  [REGION_OF]  iron-islands  | 2
+  iron-fleet  [AGENT_IN]  iron-fleet-captures-ghiscari-dawn  | 1
+  iron-fleet  [AGENT_IN]  iron-fleet-departs-for-slavers-bay  | 1
+  iron-fleet-captures-ghiscari-dawn  [SUB_BEAT_OF]  iron-fleet-departs-for-slavers-bay  | 1
+  iron-fleet-captures-myrish-cog-dove  [SUB_BEAT_OF]  iron-fleet-departs-for-slavers-bay  | 1
+  kingsmoot-on-old-wyk  [CAUSES]  taking-of-the-shields  | 2
+  kingsmoot-on-old-wyk  [CAUSES]  euron-weds-asha-to-erik-ironmaker-in-absentia  | 2
+  kingsmoot-on-old-wyk  [TRIGGERS]  aeron-vows-to-raise-the-ironborn-smallfolk  | 2
+  lordsport  [RELIGION_OF]  drowned-god  | 2
+  lordsport  [SEAT_OF]  house-botley  | 2
+  maron-volmark  [RULES]  house-volmark  | 2
+  maron-volmark  [SWORN_TO]  house-volmark  | 2
+  moqorro  [AGENT_IN]  moqorro-reads-dragonbinder-glyphs  | 1
+  moqorro  [HEALS]  victarion-greyjoy  | 1
+  moqorro  [OPPOSES]  drowned-god  | 1
+  moqorro  [SERVES]  victarion-greyjoy  | 1
+  moqorro  [VICTIM_IN]  the-crew-calls-for-moqorro-s-death  | 1
+  moqorro-reads-dragonbinder-glyphs  [SUB_BEAT_OF]  iron-fleet-departs-for-slavers-bay  | 1
+  nute-the-barber  [BORN_AT]  iron-islands  | 2
+  nute-the-barber  [SWORN_TO]  house-greyjoy  | 2
+  old-wyk  [SEAT_OF]  house-stonehouse  | 2
+  pyke  [RELIGION_OF]  drowned-god  | 2
+  pyke  [SEAT_OF]  house-greyjoy  | 2
+  quellon-botley  [SWORN_TO]  house-botley  | 2
+  quellon-greyjoy  [PARENT_OF]  aeron-greyjoy  | 2
+  quellon-greyjoy  [PARENT_OF]  balon-greyjoy  | 2
+  quellon-greyjoy  [PARENT_OF]  euron-greyjoy  | 2
+  quellon-greyjoy  [PARENT_OF]  victarion-greyjoy  | 2
+  quellon-greyjoy  [SWORN_TO]  house-greyjoy  | 2
+  rodrik-harlaw  [ADVISES]  balon-greyjoy  | 2
+  rodrik-harlaw  [BORN_AT]  harlaw  | 2
+  rodrik-harlaw  [OPPOSES]  euron-greyjoy  | 1
+  rodrik-harlaw  [RULES]  house-harlaw  | 2
+  rodrik-harlaw  [RULES]  ten-towers  | 2
+  rodrik-harlaw  [SWORN_TO]  house-harlaw  | 2
+  sawane-botley  [DIED_AT]  pyke  | 2
+  sawane-botley  [PARENT_OF]  tristifer-botley  | 2
+  sawane-botley  [RULES]  lordsport  | 2
+  sawane-botley  [SWORN_TO]  house-botley  | 2
+  sawane-botley  [VICTIM_IN]  euron-seizes-the-seastone-chair  | 1
+  sigfryd-harlaw  [CULTURE_OF]  ironborn  | 2
+  taking-of-the-shields  [CAUSES]  euron-commissions-victarion-to-fetch-daenerys  | 2
+  ten-towers  [SEAT_OF]  house-harlaw  | 2
+  the-crew-calls-for-moqorro-s-death  [SUB_BEAT_OF]  iron-fleet-departs-for-slavers-bay  | 1
+  theon-greyjoy  [BORN_AT]  pyke  | 2
+  theon-greyjoy  [BORN_AT]  iron-islands  | 2
+  theon-greyjoy  [DISTRUSTS]  aeron-greyjoy  | 1
+  theon-greyjoy  [DISTRUSTS]  euron-greyjoy  | 1
+  theon-greyjoy  [DISTRUSTS]  victarion-greyjoy  | 1
+  theon-greyjoy  [FEARS]  asha-greyjoy  | 1
+  theon-greyjoy  [FEARS]  balon-greyjoy  | 1
+  theon-greyjoy  [GUEST_OF]  balon-greyjoy  | 1
+  theon-greyjoy  [HEIR_TO]  balon-greyjoy  | 1
+  theon-greyjoy  [NEPHEW_OF]  aeron-greyjoy  | 1
+  theon-greyjoy  [RESENTS]  asha-greyjoy  | 1
+  theon-greyjoy  [RESENTS]  balon-greyjoy  | 1
+  theon-greyjoy  [SEEKS]  balon-greyjoy  | 1
+  theon-greyjoy  [SIBLING_OF]  asha-greyjoy  | 1
+  theon-greyjoy  [SWORN_TO]  balon-greyjoy  | 1
+  theon-greyjoy  [SWORN_TO]  house-greyjoy  | 2
+  tristifer-botley  [BORN_AT]  lordsport  | 2
+  tristifer-botley  [LOVES]  asha-greyjoy  | 1
+  tristifer-botley  [MOURNS]  sawane-botley  | 1
+  tristifer-botley  [RESENTS]  euron-greyjoy  | 1
+  tristifer-botley  [RULES]  house-botley  | 2
+  tristifer-botley  [SWORN_TO]  house-botley  | 2
+  victarion-admits-euron-s-role-in-his-wife-s-death  [MOTIVATES]  victarion-greyjoy  | 2
+  victarion-greyjoy  [AGENT_IN]  victarion-admits-euron-s-role-in-his-wife-s-death  | 1
+  victarion-greyjoy  [AGENT_IN]  victarion-slays-multiple-defenders  | 1
+  victarion-greyjoy  [AGENT_IN]  kingsmoot-on-old-wyk  | 1
+  victarion-greyjoy  [AGENT_IN]  euron-commissions-victarion-to-fetch-daenerys  | 1
+  victarion-greyjoy  [AGENT_IN]  iron-fleet-departs-for-slavers-bay  | 1
+  victarion-greyjoy  [AGENT_IN]  moqorro-reads-dragonbinder-glyphs  | 1
+  victarion-greyjoy  [ALLIES_WITH]  moqorro  | 1
+  victarion-greyjoy  [BORN_AT]  pyke  | 2
+  victarion-greyjoy  [CAPTAIN_OF]  iron-fleet  | 1
+  victarion-greyjoy  [COMMANDS]  iron-fleet  | 1
+  victarion-greyjoy  [COMMANDS]  nute-the-barber  | 1
+  victarion-greyjoy  [COMMANDS_IN]  iron-fleet-captures-ghiscari-dawn  | 1
+  victarion-greyjoy  [COMMANDS_IN]  iron-fleet-captures-myrish-cog-dove  | 1
+  victarion-greyjoy  [COMPANION_OF]  dusky-woman  | 1
+  victarion-greyjoy  [COMPANION_OF]  moqorro  | 1
+  victarion-greyjoy  [COURTS]  daenerys-targaryen  | 1
+  victarion-greyjoy  [CULTURE_OF]  ironborn  | 2
+  victarion-greyjoy  [DISTRUSTS]  moqorro  | 1
+  victarion-greyjoy  [KILLS]  euron-greyjoy  | 1
+  victarion-greyjoy  [LOVES]  euron-greyjoy  | 1
+  victarion-greyjoy  [OPPOSES]  asha-greyjoy  | 1
+  victarion-greyjoy  [OPPOSES]  euron-greyjoy  | 1
+  victarion-greyjoy  [RESENTS]  euron-greyjoy  | 1
+  victarion-greyjoy  [RESPECTS]  balon-greyjoy  | 1
+  victarion-greyjoy  [SEEKS]  daenerys-targaryen  | 1
+  victarion-greyjoy  [SERVES]  euron-greyjoy  | 1
+  victarion-greyjoy  [SIBLING_OF]  aeron-greyjoy  | 1
+  victarion-greyjoy  [SWORN_TO]  house-greyjoy  | 2
+  victarion-greyjoy  [UNCLE_OF]  theon-greyjoy  | 1
+  victarion-greyjoy  [UNCLE_OF]  asha-greyjoy  | 1
+
+==============================================================================
+CAUSAL INTERNAL SUB-WEB (CAUSES/TRIGGERS/MOTIVATES/ENABLES): 11
+==============================================================================
+  aeron-vows-to-raise-the-ironborn-smallfolk  [CAUSES]  euron-hunts-aeron-damphair
+  euron-seizes-the-seastone-chair  [CAUSES]  kingsmoot-on-old-wyk
+  kingsmoot-on-old-wyk  [CAUSES]  taking-of-the-shields
+  kingsmoot-on-old-wyk  [CAUSES]  euron-weds-asha-to-erik-ironmaker-in-absentia
+  taking-of-the-shields  [CAUSES]  euron-commissions-victarion-to-fetch-daenerys
+  euron-commissions-victarion-to-fetch-daenerys  [ENABLES]  iron-fleet-departs-for-slavers-bay
+  balon-declares-himself-king  [MOTIVATES]  theon-greyjoy
+  euron-seizes-the-seastone-chair  [MOTIVATES]  aeron-greyjoy
+  victarion-admits-euron-s-role-in-his-wife-s-death  [MOTIVATES]  victarion-greyjoy
+  death-of-balon-greyjoy  [TRIGGERS]  euron-seizes-the-seastone-chair
+  kingsmoot-on-old-wyk  [TRIGGERS]  aeron-vows-to-raise-the-ironborn-smallfolk
+
+==============================================================================
+EVENT-NODE causal degree (cOut/cIn) — 0/0 = causally ISLANDED hub (gap candidate)
+==============================================================================
+  aeron-damphair-demands-benfred-s-death             cOut= 0 cIn= 0  (tot out= 1 in= 2)  <-- CAUSALLY ISLANDED
+  aeron-vows-to-raise-the-ironborn-smallfolk         cOut= 1 cIn= 1  (tot out= 1 in= 2)
+  asha-claims-the-kingsmoot                          cOut= 0 cIn= 0  (tot out= 1 in= 1)  <-- CAUSALLY ISLANDED
+  balon-declares-himself-king                        cOut= 1 cIn= 0  (tot out= 2 in= 1)
+  death-of-balon-greyjoy                             cOut= 1 cIn= 0  (tot out= 1 in= 2)
+  euron-commissions-victarion-to-fetch-daenerys      cOut= 1 cIn= 1  (tot out= 1 in= 3)
+  euron-hunts-aeron-damphair                         cOut= 0 cIn= 1  (tot out= 0 in= 4)
+  euron-seizes-the-seastone-chair                    cOut= 2 cIn= 1  (tot out= 2 in= 3)
+  euron-weds-asha-to-erik-ironmaker-in-absentia      cOut= 0 cIn= 1  (tot out= 0 in= 4)
+  iron-fleet-captures-ghiscari-dawn                  cOut= 0 cIn= 0  (tot out= 2 in= 3)  <-- CAUSALLY ISLANDED
+  iron-fleet-captures-myrish-cog-dove                cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  iron-fleet-departs-for-slavers-bay                 cOut= 0 cIn= 1  (tot out= 0 in=12)
+  kingsmoot-on-old-wyk                               cOut= 3 cIn= 1  (tot out= 3 in= 7)
+  moqorro-reads-dragonbinder-glyphs                  cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  taking-of-the-shields                              cOut= 1 cIn= 1  (tot out= 2 in= 2)
+  the-crew-calls-for-moqorro-s-death                 cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  victarion-admits-euron-s-role-in-his-wife-s-death  cOut= 1 cIn= 0  (tot out= 1 in= 4)
+  victarion-slays-multiple-defenders                 cOut= 0 cIn= 0  (tot out= 0 in= 5)  <-- CAUSALLY ISLANDED
+
+==============================================================================
+CAST/PLACE degree (out/in within core + boundary)
+==============================================================================
+  aeron-greyjoy                              core_out=18 core_in= 8  boundary=  5
+  alannys-harlaw                             core_out= 9 core_in= 1  boundary=  3
+  asha-greyjoy                               core_out=41 core_in=16  boundary= 21
+  baelor-blacktyde                           core_out= 7 core_in= 3  boundary=  5
+  balon-botley                               core_out= 2 core_in= 1  boundary=  1
+  balon-greyjoy                              core_out=28 core_in=22  boundary= 20
+  daenerys-targaryen                         core_out=172 core_in=137  boundary=307
+  dragonbinder                               core_out= 1 core_in= 0  boundary=  0
+  drowned-god                                core_out= 0 core_in=11  boundary=  7
+  dusky-woman                                core_out= 1 core_in= 1  boundary=  0
+  erik-ironmaker                             core_out=10 core_in= 3  boundary=  3
+  euron-greyjoy                              core_out=25 core_in=18  boundary=  9
+  eurons-mongrel-sons                        core_out= 0 core_in= 0  boundary=  0
+  gorold-goodbrother                         core_out= 8 core_in= 1  boundary=  6
+  great-keep-of-pyke                         core_out= 0 core_in= 0  boundary=  0
+  great-kraken                               core_out= 0 core_in= 0  boundary=  0
+  greenshield                                core_out= 1 core_in= 1  boundary=  2
+  greyshield                                 core_out= 1 core_in= 0  boundary=  1
+  gwynesse-harlaw                            core_out= 1 core_in= 0  boundary=  0
+  hagen-the-horn                             core_out= 1 core_in= 0  boundary=  1
+  hammerhorn                                 core_out= 1 core_in= 3  boundary=  3
+  harlaw                                     core_out= 4 core_in= 5  boundary=  6
+  harlaw-hall                                core_out= 2 core_in= 0  boundary=  1
+  harras-harlaw                              core_out= 7 core_in= 1  boundary=  7
+  hotho-harlaw                               core_out= 7 core_in= 0  boundary=  4
+  house-blacktyde                            core_out= 3 core_in= 8  boundary=  8
+  house-botley                               core_out= 2 core_in=20  boundary= 13
+  house-drumm                                core_out= 4 core_in=12  boundary= 14
+  house-goodbrother                          core_out= 6 core_in=21  boundary= 22
+  house-greyjoy                              core_out=41 core_in=85  boundary=105
+  house-harlaw                               core_out=13 core_in=14  boundary= 16
+  house-ironmaker                            core_out= 1 core_in= 7  boundary=  3
+  house-merlyn                               core_out= 2 core_in= 5  boundary=  5
+  house-sparr                                core_out= 1 core_in= 5  boundary=  4
+  house-stonehouse                           core_out= 1 core_in= 4  boundary=  2
+  house-volmark                              core_out= 4 core_in= 5  boundary=  5
+  iron-fleet                                 core_out= 2 core_in= 3  boundary=  1
+  iron-islands                               core_out= 0 core_in=53  boundary= 38
+  iron-victory                               core_out= 0 core_in= 0  boundary=  0
+  ironborn                                   core_out= 0 core_in=45  boundary= 39
+  lonely-light                               core_out= 1 core_in= 1  boundary=  2
+  lordsport                                  core_out= 2 core_in= 4  boundary=  2
+  maron-volmark                              core_out= 4 core_in= 0  boundary=  2
+  moqorro                                    core_out= 9 core_in= 5  boundary=  6
+  naggas-cradle                              core_out= 0 core_in= 0  boundary=  0
+  naggas-hill                                core_out= 0 core_in= 0  boundary=  0
+  nute-the-barber                            core_out= 3 core_in= 1  boundary=  1
+  old-wyk                                    core_out= 1 core_in= 4  boundary=  3
+  oldtown                                    core_out= 4 core_in=28  boundary= 32
+  pyke                                       core_out= 3 core_in=17  boundary= 10
+  pyke-island                                core_out= 0 core_in= 0  boundary=  0
+  quellon-botley                             core_out= 1 core_in= 1  boundary=  1
+  quellon-greyjoy                            core_out=13 core_in= 5  boundary= 12
+  rodrik-harlaw                              core_out= 9 core_in= 1  boundary=  3
+  sawane-botley                              core_out=12 core_in= 2  boundary=  7
+  seastone-chair                             core_out= 0 core_in= 1  boundary=  0
+  shield-islands                             core_out= 0 core_in= 5  boundary=  5
+  sigfryd-harlaw                             core_out= 4 core_in= 0  boundary=  3
+  silence                                    core_out= 0 core_in= 0  boundary=  0
+  southshield                                core_out= 1 core_in= 0  boundary=  1
+  ten-towers                                 core_out= 1 core_in= 1  boundary=  0
+  theon-greyjoy                              core_out=91 core_in=49  boundary=112
+  tristifer-botley                           core_out= 7 core_in= 5  boundary=  2
+  victarion-greyjoy                          core_out=47 core_in=26  boundary= 27

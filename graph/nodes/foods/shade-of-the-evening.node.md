@@ -35,6 +35,8 @@ While strolling the [port of Qarth](wiki:Port_of_Qarth), Daenerys sees for sale 
 
 [Euron Greyjoy](wiki:Euron_Greyjoy), the new [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North), gives his brother [Victarion](wiki:Victarion_Greyjoy) a cup of shade of the evening, claiming to have taken possession of a cask from a captured galleas out of Qarth which was carrying warlocks. Victarion tries a small amount and promptly spits it out, referring to it as foul.(wiki:Shade_of_the_evening.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
+- (The Reaver I, AFFC — `sources/chapters/affc/affc-the-reaver-01.md:255`) Euron at the Shields victory feast: "The Crow's Eye filled two cups with a strange black wine that flowed as thick as honey." Victarion takes the cup Euron had not offered, sniffs it: "Seen up close, it looked more blue than black. It was thick and oily, with a smell like rotted flesh. He tried a small swallow, and spit it out at once. 'Foul stuff. Do you mean to poison me?'" Euron drinks deep and smiles — "Shade-of-the-evening, the wine of the warlocks." Euron claims he captured a cask from a Qartheen galleas along with four warlocks, one of whom he killed and fed to the other three.
+
 ### The Winds of Winter[ ]
 
 Euron forces his captive brother [Aeron Greyjoy](wiki:Aeron_Greyjoy) to drink the liquid. Aeron has several nightmarish [visions](wiki:Dreams) afterwards.(wiki:Shade_of_the_evening.cite_ref-Forsaken_4-1)

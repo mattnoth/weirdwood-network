@@ -45,6 +45,18 @@ Melisandre remains at [Castle Black](wiki:Castle_Black) after the [battle beneat
 
 ## Quotes
 
+> "There are spells woven into the stones. Dark walls that no shadow can pass."
+
+— Melisandre to Davos, explaining why she must enter Storm's End bodily, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:331`)
+
+> "You are more ignorant than a child, ser knight. There are no shadows in the dark. Shadows are the servants of light, the children of fire. The brightest flame casts the darkest shadows."
+
+— Melisandre to Davos on shadow doctrine, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:335`)
+
+> "Shadows only live when given birth by light, and the king's fires burn so low I dare not draw off any more to make another son. It might well kill him."
+
+— Melisandre to Davos on why she cannot make another shadow for Stannis, ASOS Davos III (`sources/chapters/asos/asos-davos-03.md:53`)
+
 The shadows come to dance, my lord, dance my lord, dance my lord. The shadows come to stay, my lord, stay my lord, stay my lord.(wiki:Shadow_child.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 Something dark and evil had happened here, she knew, something that she could not begin to understand. [Renly](wiki:Renly_Baratheon) never cast that shadow. Death came in that door and blew the life out of him as swift as the wind snuffed out his candles.(wiki:Shadow_child.cite_ref-Racok33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 Catelyn: I swear it, you know me, it was [Stannis](wiki:Stannis_Baratheon) killed [him](wiki:Renly_Baratheon). Robar: Stannis? How? Catelyn: I do not know. Sorcery, some dark [magic](wiki:Magic), there was a shadow, a shadow. A shadow with a [sword](wiki:Sword), I swear it, I saw.(wiki:Shadow_child.cite_ref-Racok33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)

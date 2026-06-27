@@ -104,6 +104,10 @@ After [Gregor Clegane](wiki:Gregor_Clegane)'s [skull](wiki:Mountain's_skull) has
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
+> He caught some vipers and showed Tyene the safest way to milk them for their venom.
+
+— Arianne Martell's memory of Oberyn's teaching at Shandystone ruins, AFFC The Queenmaker I (`sources/chapters/affc/affc-the-queenmaker-01.md:17`) [L871]
+
 > The man's infamous, and not just for [poisoning](wiki:Poison) his sword. He has more [bastards](wiki:Bastard) than [Robert](wiki:Robert_I_Baratheon), and beds with boys as well.(wiki:Oberyn_Martell.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Tywin Lannister](wiki:Tywin_Lannister)

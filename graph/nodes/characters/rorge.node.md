@@ -30,6 +30,8 @@ According to a semi-canon source, Rorge owned a [pot shop](wiki:Pot_shop) or tav
 
 Rorge is described as squat, bulky, and hairy, with black hair covering most of his body. He is also described as thick and powerful.(wiki:Rorge.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He is missing his nose, and the nasal bar of the black iron half-helm he comes to wear does not completely conceal the hole.(wiki:Rorge.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
+Book-cite overlay — Arya's first description: "One had no nose, only the hole in his face where it had been cut off." ACOK Arya I (`sources/chapters/acok/acok-arya-01.md:21`) [L794]
+
 ## Narrative Arc
 
 ### A Clash of Kings

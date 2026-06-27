@@ -143,6 +143,18 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 >
 > —Melisandre's thoughts
 
+> This Storm's End is an old place. There are spells woven into the stones. Dark walls that no shadow can pass — ancient, forgotten, yet still in place.
+
+— Melisandre to [Davos Seaworth](davos-seaworth) in the rowboat approaching Storm's End, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:332`) [L838]
+
+> Shadows are the servants of light, the children of fire. The brightest flame casts the darkest shadows.
+
+— Melisandre to [Davos Seaworth](davos-seaworth), ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:334`) [L839]
+
+> Shadows only live when given birth by light, and the king's fires burn so low I dare not draw off any more to make another son. It might well kill him.
+
+— Melisandre to [Davos Seaworth](davos-seaworth) at Dragonstone, ASOS Davos III (`sources/chapters/asos/asos-davos-03.md:53`) [L840]
+
 > With [Stannis](wiki:Stannis_Baratheon) gone, her bed saw little use. She had no time for sleep, with the weight of the world upon her shoulders. And she feared to dream. Sleep is a little death, dreams the whisperings of [the Other](wiki:Great_Other), who would drag us all into his eternal night. She would sooner sit bathed in the ruddy glow of [her red lord's](wiki:R'hllor) blessed flames, her cheeks flushed by the wash of heat as if by a lover's kisses.(wiki:Melisandre.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-14)
 >
 > —Melisandre's thoughts
@@ -152,6 +164,10 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 > Her hair was not the orange or strawberry color of common red-haired men, but a deep burnished [copper](wiki:Copper) that shone in the light of the torches. Even her eyes were red ... but her skin was smooth and white, unblemished, pale as cream. Slender she was, graceful, taller than most [knights](wiki:Knight), with full breasts and narrow waist and a heart-shaped face. Men's eyes that once found her did not quickly look away, not even a [maester](wiki:Maester)'s eyes. Many called her beautiful. She was not beautiful. She was red, and terrible, and red.(wiki:Melisandre.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0)
 >
 > —[Cressen](wiki:Cressen)'s thoughts
+
+> Melisandre of Asshai, sorceress, shadowbinder, and priestess to R'hllor, the Lord of Light, the Heart of Fire, the God of Flame and Shadow.
+
+— Cressen's thoughts on Melisandre's full identity and office, ACOK Prologue (`sources/chapters/acok/acok-prologue.md:265`) [L830]
 
 > Half my [knights](wiki:Knight) are afraid even to say her name, did you know? If she can do nothing else, a sorceress who can inspire such dread in grown men is not to be despised. A frightened man is a beaten man. And perhaps she can do more. I mean to find out.(wiki:Melisandre.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 >

@@ -76,6 +76,18 @@ The towheaded boy's brother(wiki:Water_Gardens.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7
 Lady [Larra Blackmont](wiki:Larra_Blackmont)'s younger children(wiki:Water_Gardens.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 A round-faced [orphan](wiki:Orphans_of_the_Greenblood) girl whose father was a [spice](wiki:Spice) merchant(wiki:Water_Gardens.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
 
+## Book-cite Overlays (S157 harvest)
+
+> The blood oranges are well past ripe.
+
+Opening image: blood oranges fallen to burst on the pale pink marble, "the sharp sweet smell of them" filling the air. Doran sits beneath the trees in his rolling chair while children splash in the pools and fountains.
+
+— Areo Hotah's opening line, Water Gardens opening scene, AFFC The Captain of Guards I (`sources/chapters/affc/affc-the-captain-of-guards-01.md:11`)
+
+Origin narrated by Doran to Ser Balon Swann: "One of my ancestors had them built to please his Targaryen bride and free her from the dust and heat of Sunspear. Daenerys was her name. She was sister to King Daeron the Good, and it was her marriage that made Dorne part of the Seven Kingdoms ... It was Daenerys who filled the gardens with laughing children." Later she invited the sons and daughters of grooms, cooks, and serving men to use the pools and fountains — a tradition that endures.
+
+— Doran Martell to Ser Balon Swann, ADWD The Watcher I (`sources/chapters/adwd/adwd-the-watcher-01.md:93`)
+
 ## Quotes
 
 The Water Gardens are my favorite place in this world.(wiki:Water_Gardens.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)

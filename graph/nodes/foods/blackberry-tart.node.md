@@ -15,6 +15,11 @@ Blackberry tarts served as the sweet course at the pre-Blackwater supper shared 
 
 ## Edges
 
+## Narrative Arc
+
+### A Clash of Kings
+
+- (Catelyn II, ACOK — `sources/chapters/acok/acok-catelyn-02.md:205`) Renly's Bitterbridge feast sweets course: "blackberry tarts" among "cream swans and spun-sugar unicorns, lemon cakes in the shape of roses, spiced honey biscuits and blackberry tarts, apple crisps and wheels of buttery cheese" — the richest dessert spread in the pre-war south; Renly's last feast.
 
 ## Quotes
 

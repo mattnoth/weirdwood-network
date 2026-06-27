@@ -40,6 +40,8 @@ Cod is among the seafood brought to the [harvest feast](wiki:Harvest_feast_(299)
 ### A Feast for Crows[ ]
 
 Salted cod is served at the feast hosted by [Victarion Greyjoy](wiki:Victarion_Greyjoy) during the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk).(wiki:Cod.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+
+- (The Iron Captain I, AFFC — `sources/chapters/affc/affc-the-iron-captain-01.md:73`) Victarion's pre-kingsmoot feast: "roast kid, salted cod, and lobster" — ironborn feast food before the kingsmoot; the fish-and-water contrast between Aeron and the ale-drinking captains.
 [Arya Stark](wiki:Arya_Stark) sees cod wives selling the fish at the fishmarket of [Braavos](wiki:Braavos). When [Quill](wiki:Quill) offers to teach her how a woman kisses, [Tagganaro](wiki:Tagganaro) smacks him with a codfish.(wiki:Cod.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
 Orphans living at the [inn at the crossroads](wiki:Inn_at_the_crossroads) quarrel over codfish.(wiki:Cod.cite_ref-Raffc37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
 

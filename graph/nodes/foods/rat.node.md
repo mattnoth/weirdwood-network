@@ -63,6 +63,10 @@ Lord [Petyr Baelish](wiki:Petyr_Baelish) refers to the informants of Lord [Varys
 
 Searching for the vanished [Tyrion Lannister](wiki:Tyrion_Lannister) after the death of Lord [Tywin Lannister](wiki:Tywin_Lannister), Ser [Jaime Lannister](wiki:Jaime_Lannister) and his men find only rats in their search of the [Red Keep](wiki:Red_Keep).(wiki:Rat.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)(wiki:Rat.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0) Jaime almost walks on a rat when he enters the chambers of Ser [Ilyn Payne](wiki:Ilyn_Payne).(wiki:Rat.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
 
+### A Clash of Kings (ACOK-specific)
+
+- (Catelyn IV, ACOK — `sources/chapters/acok/acok-catelyn-04.md:61`) Storm's End siege backstory: "Stannis ate rats rather than open his gates"; Maester Cressen had warned they "might be forced to eat our dead." Stannis's rat-eating is the canonical emblem of his endurance during Robert's Rebellion siege.
+
 ### A Dance with Dragons[ ]
 
 [Theon Greyjoy](wiki:Theon_Greyjoy) eats a rat in the dungeon of the [Dreadfort](wiki:Dreadfort).(wiki:Rat.cite_ref-Radwd12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)

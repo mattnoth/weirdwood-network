@@ -100,6 +100,10 @@ During her imprisonment by the [Faith](wiki:Faith_of_the_Seven), Cersei Lanniste
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
+> All eyes were on your white knight so no one seems quite certain just what happened, but it would appear that her horse shied away from his at the last instant, else he would have taken off the top of the girl's skull. As it is, the slash opened her cheek down to the bone and sliced off her right ear. Maester Caleotte was able to save her life, but no poultice nor potion will ever restore her face.
+
+— Doran Martell to Arianne, on Darkstar's attack on Myrcella, AFFC The Princess in the Tower I (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:169`) [L853]
+
 > **Sansa**: A royal [wheelhouse](wiki:Wheelhouse) is no place for [a wolf](wiki:Nymeria_(direwolf)). And Princess Myrcella is afraid of them, you know that. **Arya**: Myrcella is a little baby.(wiki:Myrcella_Baratheon.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and [Arya Stark](wiki:Arya_Stark)

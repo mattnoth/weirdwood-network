@@ -47,6 +47,10 @@ Victarion recalls the sound of the horn when it was blown at the kingsmoot on Ol
 
 ## Quotes
 
+> "The man who blew my dragon horn. When the maester cut him open, his lungs were charred as black as soot."
+
+— Euron Greyjoy on Cragorn's death — Dragonbinder's blood price, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:247`)
+
 Bright and baneful was its voice, a shivering hot scream that made a man's bones seem to thrum within him ... It is the horn of hell.(wiki:Dragonbinder.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
 > Bright and baneful was its voice, a shivering hot scream that made a man's bones seem to thrum within him … a thin wisp of smoke was rising from the horn, and the priest saw blood and blisters upon the lips of the man who'd sounded it. The bird on his chest was bleeding too.

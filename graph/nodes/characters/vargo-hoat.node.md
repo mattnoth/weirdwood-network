@@ -40,6 +40,8 @@ Vargo is more cunning than he seems.(wiki:Vargo_Hoat.cite_ref-Rasos37.7B.7B.7B3.
 
 Vargo wears a chain of linked [coins](wiki:Coin) from all the places where he has fought. The coins are of every shape and size, cast and hammered, bearing the likenesses of kings, wizards, gods, demons, and all manner of fanciful beasts. Vargo rides a [zorse](wiki:Zorse). His coat of arms feature the [Black Goat of Qohor](wiki:Black_Goat_of_Qohor) and he wears a helm shaped as a goat's head.(wiki:Vargo_Hoat.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 
+Book-cite overlay — Arya's first sight of Vargo leading the Brave Companions into Harrenhal: "At their head was a man stick-thin and very tall, with a drawn emaciated face made even longer by the ropy black beard that grew from his pointed chin nearly to his waist. The helm that hung from his saddle horn was black steel, fashioned in the shape of a goat's head. About his neck he wore a chain made of linked coins of many different sizes, shapes, and metals, and his horse was one of the strange black-and-white ones." ACOK Arya VII (`sources/chapters/acok/acok-arya-07.md:39`) [L790]
+
 ## Narrative Arc
 
 ### A Game of Thrones

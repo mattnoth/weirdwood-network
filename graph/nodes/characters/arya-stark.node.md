@@ -174,6 +174,22 @@ However, as the play is about to begin, Arya notices that one of Harys's guards 
 
 — Sandor Clegane to Arya Stark (telling her Robb is dead), ASOS Arya XI (`sources/chapters/asos/asos-arya-11.md:45`)
 
+> Ser Gregor. Dunsen, Polliver, Chiswyck, Raff the Sweetling. The Tickler and the Hound. Ser Amory, Ser Ilyn, Ser Meryn, King Joffrey, Queen Cersei.
+
+— Arya's kill-list prayer (the ritual origin), ACOK Arya VI (`sources/chapters/acok/acok-arya-06.md:59`) [L797]
+
+> Jaqen made me brave again. He made me a ghost instead of a mouse.
+
+— Arya's thoughts on Jaqen's influence, ACOK Arya IX (`sources/chapters/acok/acok-arya-09.md:117`) [L798]
+
+> You are Arya of Winterfell, daughter of the north. You told me you could be strong. You have the wolf blood in you. ... The wolf blood. I'll be as strong as Robb. I said I would.
+
+— Arya's inner voice (Ned's remembered words and her response), ACOK Arya X (`sources/chapters/acok/acok-arya-10.md:213–219`) [L800]
+
+> She walked fast, to keep ahead of her fear, and it felt as though Syrio Forel walked beside her, and Yoren, and Jaqen H'ghar, and Jon Snow.
+
+— Arya's ghost-companions during the escape, ACOK Arya X (`sources/chapters/acok/acok-arya-10.md:293`) [L801]
+
 > Ah, Arya. You have a wildness in you, child. The '[wolf blood](wiki:Wolf_blood),' [my father](wiki:Rickard_Stark) used to call it. [Lyanna](wiki:Lyanna_Stark) had a touch of it, and my brother [Brandon](wiki:Brandon_Stark) more than a touch. It brought them both to an early grave. Lyanna might have carried a sword, if my lord father had allowed it. You remind me of her sometimes. You even look like her.(wiki:Arya_Stark.cite_ref-Ragot22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 >
 > —[Eddard Stark](wiki:Eddard_Stark) to Arya
@@ -214,6 +230,10 @@ However, as the play is about to begin, Arya notices that one of Harys's guards 
 - OWNS: Nymeria (wiki:Arya_Stark)
 - WIELDS: Needle (wiki:Arya_Stark)
 - BORN_AT: Winterfell (track_b: Born)
+
+## Nymeria Thread
+
+Inn gossip near the Gods Eye of a she-wolf leading a great pack (ACOK Arya II, `sources/chapters/acok/acok-arya-02.md:59`). First Arya/pack encounter — twelve pairs of eyes from the woods; a lone wolf pads out, bares teeth, then turns back without attacking (ACOK Arya III, `sources/chapters/acok/acok-arya-03.md:97`). [L805]
 
 ## Notes
 

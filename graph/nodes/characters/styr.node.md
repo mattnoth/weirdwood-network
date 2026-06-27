@@ -37,6 +37,8 @@ The [Magnar of Thenn](wiki:Magnar_of_Thenn) rules with an iron fist and commands
 
 Styr wears [bronze](wiki:Bronze) scale [armor](wiki:Armor) and a helm.(wiki:Styr.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) He wields a [weirwood](wiki:Weirwood) spear with an ornate bronze head(wiki:Styr.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) and slings a two-handed greatsword across his back in a leather sheath.(wiki:Styr.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) The Magnar also carries a long knife.(wiki:Styr.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
+Book-cite overlay — Styr's battle appearance at the Attack on Castle Black: "The Magnar was climbing up the barricade, over the gutted corn sacks and smashed barrels and the bodies of friends and foe alike. His bronze scale armor gleamed darkly in the firelight. Styr had taken off his helm to survey the scene of his triumph, and the bald earless whoreson was smiling. In his hand was a long weirwood spear with an ornate bronze head." ASOS Jon VII (`sources/chapters/asos/asos-jon-07.md:171`) [L763]
+
 ## Narrative Arc
 
 ### A Storm of Swords

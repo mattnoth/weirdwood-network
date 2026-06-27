@@ -32,6 +32,20 @@ acting); Melisandre `AGENT_IN`; Cortnay `VICTIM_IN`; Davos `PARTICIPATES_IN` (ro
 `WITNESS_IN` (the perception that turns him against Melisandre). The death `ENABLES`
 [taking-of-storms-end](taking-of-storms-end).
 
+## Description
+
+The mechanics of the second shadow-birth, as described by Melisandre rowing under Storm's End:
+
+Storm's End is warded against shadow-magic: "There are spells woven into the stones. Dark walls that no shadow can pass—ancient, forgotten, yet still in place." Because of these wards Melisandre must enter the sea-cave physically, rather than send the shadow from without as she did with Renly.
+
+> Shadows are the servants of light, the children of fire. The brightest flame casts the darkest shadows.
+
+— Melisandre explaining shadow doctrine to Davos in the boat, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:335`)
+
+The shadow-births deplete Stannis: "the king's fires burn so low I dare not draw off any more to make another son. It might well kill him." The two shadows together nearly exhaust him.
+
+— Melisandre to Davos explaining why no third shadow is possible, ASOS Davos III (`sources/chapters/asos/asos-davos-03.md:53`)
+
 ## Quotes
 
 > Ser Cortnay will be dead within the day. Melisandre has seen it in the flames of the future. His death and the manner of it.
