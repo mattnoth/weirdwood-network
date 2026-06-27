@@ -3,7 +3,7 @@
   "name": "Warhammer",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/warhammer.node.md",
-  "generated_at": "2026-06-27T05:00:44.157327+00:00",
+  "generated_at": "2026-06-27T06:53:20.658578+00:00",
   "stats": {
     "appearances_total": 5,
     "chapters_referenced_in": 5,

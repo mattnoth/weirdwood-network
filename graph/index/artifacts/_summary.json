@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-27T05:00:44.177270+00:00",
+  "generated_at": "2026-06-27T06:53:20.678700+00:00",
   "entity_type": "artifacts",
   "dry_run": false,
-  "entity_count": 294,
+  "entity_count": 295,
   "type_counts": {
-    "object.artifact": 294
+    "object.artifact": 295
   },
-  "entities_with_zero_mentions": 150,
+  "entities_with_zero_mentions": 151,
   "mention_inverse_slugs": 144,
   "top_by_appearances": [
     {

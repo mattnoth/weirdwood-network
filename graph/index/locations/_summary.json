@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-27T05:00:43.807024+00:00",
+  "generated_at": "2026-06-27T06:53:20.307665+00:00",
   "entity_type": "locations",
   "dry_run": false,
-  "entity_count": 1097,
+  "entity_count": 1098,
   "type_counts": {
-    "place.location": 1064,
+    "place.location": 1065,
     "place.region": 33
   },
   "entities_with_zero_mentions": 435,
-  "mention_inverse_slugs": 662,
+  "mention_inverse_slugs": 663,
   "top_by_appearances": [
     {
       "slug": "kings-landing",

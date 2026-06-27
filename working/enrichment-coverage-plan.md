@@ -1,12 +1,12 @@
 # Enrichment Coverage Plan — the full ranked dip list (S143)
 
 > **🅰 ACTIVE CAMPAIGN (Matt, S154): ROUND UP THE REMAINING A ARCS** — a multi-session campaign (one dip/session)
-> to close out the major-arc tier. **Order: START with A2.7 Stannis (S155)**, then the two ready A1s (A1.5 Dorne,
-> A1.6 Euron), then A2.6 Jaime/Riverlands, A2.4 Tyrion-Essos, **A2.5 WO5K-battles LAST (it's multi-pass, its own
+> to close out the major-arc tier. **Order: ✅ A2.7 Stannis (S155) · ✅ A1.5 Dorne (S156)**, then **NEXT → A1.6 Euron**,
+> then A2.6 Jaime/Riverlands, A2.4 Tyrion-Essos, **A2.5 WO5K-battles LAST (it's multi-pass, its own
 > mini-track)**, A2.8 Davos/Sam residual. After A is done → the descent drops to granular L2 / character / (gated)
 > theory. Remaining Class-D clusters (D2 Hand's Tourney · D3 Greyjoy's Rebellion · D4 Riot of KL) are parked behind
 > the A roundup. ✅ DONE so far: all A1 spine-only heavyweights (Dany/Jon/Bran/AEGON S144–S147) + A2.1/A2.2/A2.3
-> (Theon/Sansa/Arya S148–S150) + D1 Castle Black (S153) + D5 Arya/Harrenhal (S154).
+> (Theon/Sansa/Arya S148–S150) + D1 Castle Black (S153) + D5 Arya/Harrenhal (S154) + **A2.7 Stannis (S155) + A1.5 Dorne (S156)**.
 >
 > **Created S143 (2026-06-24)** as the dedicated planning deliverable Matt scheduled between the arc phase and
 > the granular phase. **Supersedes the "L2-only" framing of the handoff** — see the Key Finding below.
@@ -71,7 +71,7 @@ manipulators (Varys, Petyr, Bloodraven) whose webs no single arc fully covers �
 | **A1.2** | **Jon Snow / the Wall** | The Watch leadership arc: wildling-integration politics, **the Bowen Marsh assassination conspiracy (the whodunit)**, the Pink Letter fallout, the Stannis relationship + Mance/"Rattleshirt" glamour, Hardhome (revelation-event), Val/Tormund, Slynt-execution texture, Shieldhall. | **2** | Large (25+) | **READY.** NORTH spine built; Jon 348 edges but **0 arc-connected**. Co-equal with Dany. Builds the Jon web (C5). |
 | **A1.3** | **AEGON / Golden Company** | Stormlands-campaign texture, the JonCon greyscale thread, the Connington/exile backstory, the GC's Blackfyre lineage, Varys's hidden hand. | 4 | Med (10–20) | Spine built S128, thin (max hub 10). Heavy **Varys** overlap (C1). |
 | **A1.4** | **Bran / greenseer** | Bloodraven mentorship substrate, the greendreams catalogue, the weirwood-net, the cave cluster (children of the forest, Leaf), Jojen-paste, Summer warging. | 5 | Med (10–20) | Spine built S130. Overlaps **Bloodraven** (C3) — scope together. Partly theory-gated (Hodor, R+L glimpses) — gated parts stay out. |
-| **A1.5** | **Dorne / Queenmaker** | The "someone always tells" informer mystery, Arys Oakheart's seduction sub-arc, the conspirator dispersal (Drey→Norvos, Garin→Tyrosh, Sylva→Greenstone), Darkstar's escape. | 6 | Med (10–15) | Spine built S117, 0 dips. 19 harvest rows already pushed S117. |
+| **A1.5** | **Dorne / Queenmaker** ✅ DONE S156 | The "someone always tells" informer mystery, Arys Oakheart's seduction sub-arc, the conspirator dispersal (Drey→Norvos, Garin→Tyrosh, Sylva→Greenstone), Darkstar's escape. | 6 | Med (10–15) | **DONE S156** (+3 nodes/net +36 edges; net pass-1). The whodunit done HONESTLY (no informer SUSPECTED_OF — text leaves it unproven); the Arys soiled-knight sub-arc; garin-of-the-orphans bug-fix; murder-of-elia→doran + first CLAIMS-iron-throne seams. |
 | **A1.6** | **Kingsmoot / Euron** | Euron's expansion: the Shield Islands taking, the Reader, the dragon-horn theft narrative, the warlock-killing backstory, the Crow's-Eye voyages. | 7 | Med (10–15) | Spine + 1 early enrichment (S116, pre-formal-L1). Overlaps **Euron** (C4). Theory-adjacent (Euron↔Bloodraven) stays as evidence-edges only. |
 
 ### A2 — NOT spined → build the spine + enrich (higher cost, but L1-scale)
