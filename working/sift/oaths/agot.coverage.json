@@ -1,0 +1,260 @@
+{
+  "lens": "oaths",
+  "lens_version": 2,
+  "book": "agot",
+  "book_label": "AGOT",
+  "total_pointers": 172,
+  "n_clusters": 133,
+  "n_triggers": 74,
+  "n_triggered": 57,
+  "n_zero_hit": 17,
+  "triggers": [
+    {
+      "surface": "I swear",
+      "hits": 32
+    },
+    {
+      "surface": "take the black",
+      "hits": 11
+    },
+    {
+      "surface": "white cloak",
+      "hits": 10
+    },
+    {
+      "surface": "said the words",
+      "hits": 9
+    },
+    {
+      "surface": "bend the knee",
+      "hits": 7
+    },
+    {
+      "surface": "sworn brother",
+      "hits": 7
+    },
+    {
+      "surface": "swear fealty",
+      "hits": 5
+    },
+    {
+      "surface": "I vow",
+      "hits": 4
+    },
+    {
+      "surface": "protect and defend",
+      "hits": 4
+    },
+    {
+      "surface": "say the words",
+      "hits": 4
+    },
+    {
+      "surface": "seven oils",
+      "hits": 4
+    },
+    {
+      "surface": "I am yours to command",
+      "hits": 3
+    },
+    {
+      "surface": "bent the knee",
+      "hits": 3
+    },
+    {
+      "surface": "knight of the Kingsguard",
+      "hits": 3
+    },
+    {
+      "surface": "on my honor",
+      "hits": 3
+    },
+    {
+      "surface": "taken the black",
+      "hits": 3
+    },
+    {
+      "surface": "the hospitality of",
+      "hits": 3
+    },
+    {
+      "surface": "to wife",
+      "hits": 3
+    },
+    {
+      "surface": "I pledge",
+      "hits": 2
+    },
+    {
+      "surface": "anointed knight",
+      "hits": 2
+    },
+    {
+      "surface": "father no children",
+      "hits": 2
+    },
+    {
+      "surface": "swore an oath",
+      "hits": 2
+    },
+    {
+      "surface": "sworn brotherhood",
+      "hits": 2
+    },
+    {
+      "surface": "sworn sword",
+      "hits": 2
+    },
+    {
+      "surface": "sworn to defend",
+      "hits": 2
+    },
+    {
+      "surface": "sworn to protect",
+      "hits": 2
+    },
+    {
+      "surface": "take your vows",
+      "hits": 2
+    },
+    {
+      "surface": "taking the black",
+      "hits": 2
+    },
+    {
+      "surface": "the shield that guards the realms of men",
+      "hits": 2
+    },
+    {
+      "surface": "the sword in the darkness",
+      "hits": 2
+    },
+    {
+      "surface": "the watcher on the walls",
+      "hits": 2
+    },
+    {
+      "surface": "took the black",
+      "hits": 2
+    },
+    {
+      "surface": "your liege",
+      "hits": 2
+    },
+    {
+      "surface": "Arise, Ser",
+      "hits": 1
+    },
+    {
+      "surface": "I shall take no wife",
+      "hits": 1
+    },
+    {
+      "surface": "Night gathers, and now my watch begins",
+      "hits": 1
+    },
+    {
+      "surface": "came a guest into",
+      "hits": 1
+    },
+    {
+      "surface": "give you my word",
+      "hits": 1
+    },
+    {
+      "surface": "hold no lands",
+      "hits": 1
+    },
+    {
+      "surface": "hold to his vows",
+      "hits": 1
+    },
+    {
+      "surface": "holy vows",
+      "hits": 1
+    },
+    {
+      "surface": "keeping faith",
+      "hits": 1
+    },
+    {
+      "surface": "kept his vows",
+      "hits": 1
+    },
+    {
+      "surface": "knightly vows",
+      "hits": 1
+    },
+    {
+      "surface": "laid his sword at",
+      "hits": 1
+    },
+    {
+      "surface": "lay his sword at",
+      "hits": 1
+    },
+    {
+      "surface": "making his vows",
+      "hits": 1
+    },
+    {
+      "surface": "man and wife",
+      "hits": 1
+    },
+    {
+      "surface": "stand your vigil",
+      "hits": 1
+    },
+    {
+      "surface": "sword is yours",
+      "hits": 1
+    },
+    {
+      "surface": "swords are yours",
+      "hits": 1
+    },
+    {
+      "surface": "swore to defend",
+      "hits": 1
+    },
+    {
+      "surface": "swore to obey",
+      "hits": 1
+    },
+    {
+      "surface": "sworn to serve",
+      "hits": 1
+    },
+    {
+      "surface": "take the oath",
+      "hits": 1
+    },
+    {
+      "surface": "took a vow",
+      "hits": 1
+    },
+    {
+      "surface": "you have my word",
+      "hits": 1
+    }
+  ],
+  "zero_hit": [
+    "I am your man",
+    "I do solemnly swear",
+    "a guest beneath",
+    "bread and salt",
+    "do you swear",
+    "eaten my bread",
+    "guest right",
+    "in the name of the Warrior",
+    "keep faith",
+    "one flesh, one heart, one soul",
+    "pledge fealty",
+    "take a vow",
+    "take this man",
+    "take this woman",
+    "under my roof",
+    "with this kiss I pledge",
+    "your grace's man"
+  ]
+}

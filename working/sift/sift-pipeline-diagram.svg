@@ -1,0 +1,61 @@
+<svg viewBox="0 0 680 446" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>The Sift pipeline and the multi-fire cluster collapse</title>
+<desc>One Night's Watch vow scene produces 9 pointers in Stage 1 (pure Python), which group into 1 cluster, which would become 1 Haiku call in the deferred Stage 2. Stage 2 ran 0 times.</desc>
+<style>
+  .th{font-family:Arial,Helvetica,sans-serif;font-weight:500;font-size:15px;fill:#1a1a1a}
+  .t{font-family:Arial,Helvetica,sans-serif;font-weight:500;font-size:14px;fill:#1a1a1a}
+  .ts{font-family:Arial,Helvetica,sans-serif;font-weight:400;font-size:12px;fill:#5b5f66}
+</style>
+<rect width="680" height="446" fill="#ffffff"/>
+
+<text class="th" x="40" y="30">The Sift — one oath ceremony through the pipeline</text>
+<text class="ts" x="40" y="49">Stage 1 (Python) ran. Stage 2 (Haiku) did not — it is a deferred stub.</text>
+
+<rect x="60" y="70" width="250" height="50" rx="8" fill="#f4f5f7" stroke="#c2c6cc"/>
+<text class="t" x="185" y="92" text-anchor="middle">Chapter passage</text>
+<text class="ts" x="185" y="108" text-anchor="middle">agot-jon-06.md — the vow scene</text>
+<line x1="185" y1="120" x2="185" y2="150" stroke="#8a8f98" stroke-width="1.5"/>
+<path d="M181 144 L185 150 L189 144" fill="none" stroke="#8a8f98" stroke-width="1.5"/>
+<text class="ts" x="185" y="138" text-anchor="middle">Stage 1 · Python regex · $0</text>
+
+<rect x="60" y="152" width="250" height="50" rx="8" fill="#dcf3ef" stroke="#1aa294"/>
+<text class="t" x="185" y="174" text-anchor="middle">9 pointers (multi-fire)</text>
+<text class="ts" x="185" y="190" text-anchor="middle">8 hits on line 147, 1 on line 145</text>
+<line x1="185" y1="202" x2="185" y2="232" stroke="#8a8f98" stroke-width="1.5"/>
+<path d="M181 226 L185 232 L189 226" fill="none" stroke="#8a8f98" stroke-width="1.5"/>
+<text class="ts" x="185" y="220" text-anchor="middle">group by cluster_id — still Python</text>
+
+<rect x="60" y="234" width="250" height="50" rx="8" fill="#dcf3ef" stroke="#1aa294"/>
+<text class="t" x="185" y="256" text-anchor="middle">1 cluster</text>
+<text class="ts" x="185" y="272" text-anchor="middle">agot-jon-06.md:145 · size 9</text>
+<line x1="185" y1="286" x2="185" y2="330" stroke="#8a8f98" stroke-width="1.5"/>
+<path d="M181 324 L185 330 L189 324" fill="none" stroke="#8a8f98" stroke-width="1.5"/>
+<text class="ts" x="185" y="303" text-anchor="middle">Stage 2 · Haiku · one call per cluster</text>
+<text class="ts" x="185" y="319" text-anchor="middle">deferred stub — 0 calls ran today</text>
+
+<rect x="60" y="332" width="250" height="50" rx="8" fill="#fcefcf" stroke="#d79a1e" stroke-dasharray="4 3"/>
+<text class="t" x="185" y="354" text-anchor="middle">1 candidate</text>
+<text class="ts" x="185" y="370" text-anchor="middle">swore_to · jon → night's-watch</text>
+
+<rect x="352" y="70" width="288" height="84" rx="8" fill="#f4f5f7" stroke="#c2c6cc"/>
+<text class="t" x="366" y="92">Today's run</text>
+<text class="ts" x="366" y="114">Stage 1 (Python): 172 pointers</text>
+<text class="ts" x="366" y="131">grouped into 133 clusters</text>
+<text class="ts" x="366" y="148">Stage 2 (Haiku): 0 calls — stub</text>
+
+<rect x="352" y="166" width="288" height="64" rx="8" fill="#f4f5f7" stroke="#c2c6cc"/>
+<text class="t" x="366" y="188">When you run Stage 2</text>
+<text class="ts" x="366" y="210">one Haiku call per cluster</text>
+<text class="ts" x="366" y="227">= 133 calls, not 172</text>
+
+<rect x="352" y="242" width="288" height="92" rx="8" fill="#fcefcf" stroke="#d79a1e"/>
+<text class="t" x="366" y="264">Why cluster_id matters</text>
+<text class="ts" x="366" y="286">without it, this one oath becomes</text>
+<text class="ts" x="366" y="303">9 Haiku calls + up to 9</text>
+<text class="ts" x="366" y="320">duplicate candidates</text>
+
+<rect x="60" y="398" width="12" height="12" rx="2" fill="#dcf3ef" stroke="#1aa294"/>
+<text class="ts" x="78" y="408">Stage 1 — Python (ran today)</text>
+<rect x="300" y="398" width="12" height="12" rx="2" fill="#fcefcf" stroke="#d79a1e"/>
+<text class="ts" x="318" y="408">Stage 2 — Haiku (deferred)</text>
+</svg>
