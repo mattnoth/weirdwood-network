@@ -3,7 +3,7 @@
   "name": "Slavers killed, rowers freed",
   "type": "event.death",
   "node_path": "graph/nodes/events/slavers-killed-rowers-freed.node.md",
-  "generated_at": "2026-06-27T00:56:15.125953+00:00",
+  "generated_at": "2026-06-27T05:00:45.744322+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

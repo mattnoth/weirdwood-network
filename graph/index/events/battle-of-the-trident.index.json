@@ -3,7 +3,7 @@
   "name": "Battle of the Trident",
   "type": "event.battle",
   "node_path": "graph/nodes/events/battle-of-the-trident.node.md",
-  "generated_at": "2026-06-27T00:56:15.062100+00:00",
+  "generated_at": "2026-06-27T05:00:45.695701+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 3,
