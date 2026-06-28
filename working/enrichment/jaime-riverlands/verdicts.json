@@ -1,0 +1,11 @@
+{
+  "run_id": "jaime-riverlands-enrichment-s159",
+  "verified_by": "fresh-verify-s159",
+  "drop": ["E14", "E15"],
+  "note_patch": {
+    "E12": "The surrender created confusion that let the Blackfish's escape go undetected until morning. ENABLES is defensible but requires care: the escape mechanism (Water Gate raised three feet) was PRE-PLANNED and set up BEFORE the surrender — Edmure 'waited most of the day before hauling down the direwolf' (affc-jaime-07:39), meaning the gate gap was already in place. The surrender's role was to provide cover/confusion for the timing of discovery, not to open the physical route. ENABLES is still honest — without the surrender and the confusion of the castle changing hands, the escape would likely have been detected sooner — but this is ENABLES-as-cover-window, not ENABLES-as-precondition-for-execution.",
+    "E19": "Cersei is the absent sender whose plea is burned unanswered — she suffers the real-world consequence of Jaime's refusal to come to her aid. VICTIM_IN here means victim of the refusal-to-respond, not of the physical act of burning parchment. She is not present at Riverrun; the harm is that her desperate plea goes answered with silence. This is the most interpretive use of VICTIM_IN in this run — flagged for schema-consistency review."
+  },
+  "bug_drop": [],
+  "bug_repoint": []
+}

@@ -1,0 +1,377 @@
+==============================================================================
+INTERNAL EDGES (both endpoints in core): 280 unique
+==============================================================================
+  addam-marbrand  [SWORN_TO]  house-lannister  | 2
+  aerys-commands-the-city-burned  [SUB_BEAT_OF]  sack-of-kings-landing  | 1
+  aerys-commands-the-city-burned  [TRIGGERS]  slaying-of-aerys-ii-the-kingslaying  | 2
+  arya-escapes-harrenhal  [LOCATED_AT]  harrenhal  | tier-1
+  battle-of-the-camps  [LOCATED_AT]  riverrun  | 2
+  battle-of-the-camps  [PART_OF]  war-of-the-five-kings  | 2
+  battle-under-the-walls-of-riverrun  [PART_OF]  war-of-the-five-kings  | 2
+  brienne-tarth  [ATTACKS]  vargo-hoat  | 1
+  brienne-tarth  [CAPTURES]  jaime-lannister  | 1
+  brienne-tarth  [COMPANION_OF]  jaime-lannister  | 1
+  brienne-tarth  [DUELS]  jaime-lannister  | 1
+  brienne-tarth  [GUARDS]  jaime-lannister  | 1
+  brienne-tarth  [HATES]  jaime-lannister  | 1
+  brienne-tarth  [LOVES]  jaime-lannister  | 1
+  brienne-tarth  [PRISONER_OF]  vargo-hoat  | 1
+  brienne-tarth  [PROTECTS]  jaime-lannister  | 1
+  brienne-tarth  [RESCUES]  jaime-lannister  | 1
+  brienne-tarth  [RESPECTS]  jaime-lannister  | 1
+  brienne-tarth  [SWORN_TO]  house-tully  | 2
+  brienne-tarth  [TRAVELS_WITH]  jaime-lannister  | 1
+  brienne-tarth  [TRUSTS]  jaime-lannister  | 1
+  brienne-tarth  [VOWS_TO]  jaime-lannister  | 1
+  brynden-tully  [BORN_AT]  riverrun  | 2
+  brynden-tully  [COMMANDS_IN]  battle-of-the-camps  | 2
+  brynden-tully  [COMMANDS_IN]  siege-of-riverrun  | 1
+  brynden-tully  [GUARDS]  riverrun  | 1
+  brynden-tully  [RESCUES]  edmure-tully  | 1
+  brynden-tully  [SIBLING_OF]  hoster-tully  | 1
+  brynden-tully  [SWORN_TO]  house-tully  | 2
+  capture-of-harrenhal  [PART_OF]  war-of-the-five-kings  | 2
+  cersei-lannister  [ALLIES_WITH]  tyrion-lannister  | 1
+  cersei-lannister  [COMMANDS]  lancel-lannister  | 1
+  cersei-lannister  [COMMANDS]  tyrion-lannister  | 1
+  cersei-lannister  [COMMANDS]  ilyn-payne  | 1
+  cersei-lannister  [CONTRASTS]  jaime-lannister  | 1
+  cersei-lannister  [DISTRUSTS]  tyrion-lannister  | 1
+  cersei-lannister  [FEARS]  tyrion-lannister  | 1
+  cersei-lannister  [HATES]  tyrion-lannister  | 1
+  cersei-lannister  [HATES]  lancel-lannister  | 1
+  cersei-lannister  [LOVER_OF]  jaime-lannister  | 1
+  cersei-lannister  [LOVER_OF]  lancel-lannister  | 1
+  cersei-lannister  [LOVES]  jaime-lannister  | 1
+  cersei-lannister  [MOURNS]  jaime-lannister  | 1
+  cersei-lannister  [OPPOSES]  tyrion-lannister  | 1
+  cersei-lannister  [OPPOSES]  jaime-lannister  | 1
+  cersei-lannister  [PROTECTS]  jaime-lannister  | 1
+  cersei-lannister  [RESENTS]  jaime-lannister  | 1
+  cersei-lannister  [RESENTS]  ilyn-payne  | 1
+  cersei-lannister  [RESENTS]  lancel-lannister  | 1
+  cersei-lannister  [RESPECTS]  jaime-lannister  | 1
+  cersei-lannister  [SEEKS]  tyrion-lannister  | 1
+  cersei-lannister  [SIBLING_OF]  jaime-lannister  | 1
+  cersei-lannister  [SWORN_TO]  house-lannister  | 2
+  cersei-lannister  [VIOLATES_GUEST_RIGHT]  tyrion-lannister  | 1
+  cleos-frey  [COUSIN_OF]  jaime-lannister  | 1
+  cleos-frey  [GUEST_OF]  tyrion-lannister  | 1
+  cleos-frey  [SWORN_TO]  house-frey  | 2
+  cleos-frey  [SWORN_TO]  house-lannister  | 2
+  daven-lannister  [COMMANDS_IN]  siege-of-riverrun  | 1
+  daven-lannister  [RESPECTS]  brynden-tully  | 1
+  daven-lannister  [SWORN_TO]  house-lannister  | 2
+  desmond-grell  [PARTICIPATES_IN]  siege-of-riverrun  | 1
+  edmure-taken-hostage-at-the-twins  [ENABLES]  siege-of-riverrun  | 1
+  edmure-taken-hostage-at-the-twins  [SUB_BEAT_OF]  red-wedding  | 1
+  edmure-tully  [BORN_AT]  riverrun  | 2
+  edmure-tully  [DISTRUSTS]  brienne-tarth  | 1
+  edmure-tully  [GUEST_OF]  edwyn-frey  | 1
+  edmure-tully  [GUEST_OF]  walder-frey  | 1
+  edmure-tully  [GUEST_OF]  jaime-lannister  | 1
+  edmure-tully  [HATES]  jaime-lannister  | 1
+  edmure-tully  [HEIR_TO]  hoster-tully  | 1
+  edmure-tully  [MOURNS]  hoster-tully  | 1
+  edmure-tully  [NEPHEW_OF]  brynden-tully  | 1
+  edmure-tully  [OPPOSES]  jaime-lannister  | 1
+  edmure-tully  [OPPOSES]  house-frey  | 1
+  edmure-tully  [RULES]  house-tully  | 2
+  edmure-tully  [SEEKS]  hoster-tully  | 1
+  edmure-tully  [SERVES]  hoster-tully  | 1
+  edmure-tully  [SWORN_TO]  house-tully  | 2
+  edmure-tully  [VICTIM_IN]  battle-of-the-camps  | 1
+  edmure-tully  [VICTIM_IN]  siege-of-riverrun  | 1
+  edmure-tully  [VICTIM_IN]  edmure-taken-hostage-at-the-twins  | 1
+  edwyn-frey  [AGENT_IN]  jaime-demands-the-red-wedding-captives  | 2
+  edwyn-frey  [AGENT_IN]  red-wedding  | 1
+  edwyn-frey  [HATES]  ryman-frey  | 1
+  edwyn-frey  [HEIR_TO]  house-frey  | 2
+  edwyn-frey  [PARTICIPATES_IN]  siege-of-riverrun  | 1
+  edwyn-frey  [SWORN_TO]  house-frey  | 2
+  emmon-frey  [ATTACKS]  brienne-tarth  | 1
+  emmon-frey  [IN_LAW_OF]  genna-lannister  | 1
+  emmon-frey  [PARENT_OF]  cleos-frey  | 2
+  emmon-frey  [PARENT_OF]  walder-frey  | 2
+  emmon-frey  [PARTICIPATES_IN]  siege-of-riverrun  | 1
+  emmon-frey  [RULES]  riverrun  | 2
+  emmon-frey  [SPOUSE_OF]  genna-lannister  | 1
+  emmon-frey  [SWORN_TO]  house-frey  | 2
+  emmon-frey  [SWORN_TO]  house-lannister  | 2
+  emmon-frey  [VICTIM_IN]  jaime-lies-about-cleos-s-death  | 1
+  fall-of-harrenhal  [ENABLES]  arya-escapes-harrenhal  | tier-2
+  fall-of-harrenhal  [PART_OF]  war-of-the-five-kings  | 2
+  genna-lannister  [PARENT_OF]  cleos-frey  | 2
+  genna-lannister  [PARENT_OF]  walder-frey  | 2
+  genna-lannister  [SWORN_TO]  house-lannister  | 2
+  genna-lannister  [UNCLE_OF]  cersei-lannister  | 1
+  genna-lannister  [VICTIM_IN]  jaime-lies-about-cleos-s-death  | 1
+  gregor-raids-the-riverlands  [LOCATED_AT]  riverlands  | 1
+  hoster-tully  [BORN_AT]  riverrun  | 2
+  hoster-tully  [DIED_AT]  riverrun  | 2
+  hoster-tully  [DISTRUSTS]  walder-frey  | 1
+  hoster-tully  [PARENT_OF]  edmure-tully  | 2
+  hoster-tully  [RESENTS]  brynden-tully  | 1
+  hoster-tully  [RULES]  riverrun  | 2
+  hoster-tully  [SWORN_TO]  house-tully  | 2
+  hoster-tully  [WITNESS_IN]  battle-of-the-camps  | 1
+  house-blackwood  [OPPOSES]  house-bracken  | 1
+  house-blackwood  [OVERLORD_OF]  house-bracken  | 2
+  house-blackwood  [REGION_OF]  riverlands  | 2
+  house-bracken  [OVERLORD_OF]  house-blackwood  | 2
+  house-bracken  [REGION_OF]  riverlands  | 2
+  house-frey  [AGENT_IN]  edmure-taken-hostage-at-the-twins  | 1
+  house-frey  [REGION_OF]  riverlands  | 2
+  house-frey  [SWORN_TO]  house-tully  | 1
+  house-tully  [OVERLORD_OF]  house-blackwood  | 2
+  house-tully  [OVERLORD_OF]  house-bracken  | 2
+  house-tully  [OVERLORD_OF]  house-frey  | 2
+  house-tully  [REGION_OF]  riverlands  | 2
+  ilyn-payne  [SWORN_TO]  house-lannister  | 2
+  jaime-found-seated-on-the-iron-throne  [SUB_BEAT_OF]  slaying-of-aerys-ii-the-kingslaying  | 1
+  jaime-frees-tyrion-from-the-black-cells  [CAUSES]  jaime-reveals-the-truth-of-tysha  | 2
+  jaime-lannister  [AGENT_IN]  jaime-s-kills-are-revealed  | 1
+  jaime-lannister  [AGENT_IN]  jaime-lies-about-cleos-s-death  | 1
+  jaime-lannister  [AGENT_IN]  jaime-demands-the-red-wedding-captives  | 1
+  jaime-lannister  [AGENT_IN]  hostage-negotiation  | 1
+  jaime-lannister  [AGENT_IN]  sack-of-kings-landing  | 1
+  jaime-lannister  [AGENT_IN]  slaying-of-aerys-ii-the-kingslaying  | 1
+  jaime-lannister  [AGENT_IN]  jaime-frees-tyrion-from-the-black-cells  | 1
+  jaime-lannister  [AGENT_IN]  jaime-reveals-the-truth-of-tysha  | 1
+  jaime-lannister  [AGENT_IN]  jaime-found-seated-on-the-iron-throne  | 1
+  jaime-lannister  [CAPTURES]  edmure-tully  | 1
+  jaime-lannister  [COMMANDS]  ryman-frey  | 1
+  jaime-lannister  [COMMANDS]  emmon-frey  | 1
+  jaime-lannister  [COMMANDS_IN]  jaime-orders-siege-equipment-and-gallows-burned  | 1
+  jaime-lannister  [COMMANDS_IN]  battle-of-the-camps  | 2
+  jaime-lannister  [COMMANDS_IN]  siege-of-riverrun  | 1
+  jaime-lannister  [COMPANION_OF]  ilyn-payne  | 1
+  jaime-lannister  [COMPANION_OF]  lyle-crakehall  | 1
+  jaime-lannister  [CONSPIRES_WITH]  cersei-lannister  | 1
+  jaime-lannister  [COUSIN_OF]  cleos-frey  | 1
+  jaime-lannister  [COUSIN_OF]  lancel-lannister  | 1
+  jaime-lannister  [COUSIN_OF]  daven-lannister  | 1
+  jaime-lannister  [DECEIVES]  tyrion-lannister  | 1
+  jaime-lannister  [DISTRUSTS]  cersei-lannister  | 1
+  jaime-lannister  [GUEST_OF]  lancel-lannister  | 1
+  jaime-lannister  [GUEST_OF]  hoster-tully  | 1
+  jaime-lannister  [GUEST_OF]  tytos-blackwood  | 1
+  jaime-lannister  [HATES]  cleos-frey  | 1
+  jaime-lannister  [HATES]  brienne-tarth  | 1
+  jaime-lannister  [HATES]  vargo-hoat  | 1
+  jaime-lannister  [HATES]  lancel-lannister  | 1
+  jaime-lannister  [HATES]  emmon-frey  | 1
+  jaime-lannister  [IN_LAW_OF]  walder-frey  | 1
+  jaime-lannister  [LOVER_OF]  cersei-lannister  | 1
+  jaime-lannister  [LOVES]  tyrion-lannister  | 1
+  jaime-lannister  [LOVES]  cersei-lannister  | 1
+  jaime-lannister  [LOVES]  brienne-tarth  | 1
+  jaime-lannister  [MOURNS]  cleos-frey  | 1
+  jaime-lannister  [NEGOTIATES_WITH]  jonos-bracken  | 1
+  jaime-lannister  [NEGOTIATES_WITH]  tytos-blackwood  | 1
+  jaime-lannister  [NEPHEW_OF]  lancel-lannister  | 1
+  jaime-lannister  [NEPHEW_OF]  genna-lannister  | 1
+  jaime-lannister  [NEPHEW_OF]  emmon-frey  | 1
+  jaime-lannister  [OPPOSES]  brienne-tarth  | 1
+  jaime-lannister  [OPPOSES]  vargo-hoat  | 1
+  jaime-lannister  [PARALLELS]  cersei-lannister  | 1
+  jaime-lannister  [PREVENTS]  aerys-commands-the-city-burned  | 1
+  jaime-lannister  [PRISONER_OF]  brienne-tarth  | 1
+  jaime-lannister  [PRISONER_OF]  vargo-hoat  | 1
+  jaime-lannister  [PROTECTS]  cersei-lannister  | 1
+  jaime-lannister  [PROTECTS]  brienne-tarth  | 1
+  jaime-lannister  [PROTECTS]  pia  | 1
+  jaime-lannister  [RESCUES]  tyrion-lannister  | 1
+  jaime-lannister  [RESENTS]  tyrion-lannister  | 1
+  jaime-lannister  [RESPECTS]  brienne-tarth  | 1
+  jaime-lannister  [REVEALS_TO]  tyrion-lannister  | 1
+  jaime-lannister  [SERVES]  cersei-lannister  | 1
+  jaime-lannister  [SIBLING_OF]  cersei-lannister  | 1
+  jaime-lannister  [SIBLING_OF]  tyrion-lannister  | 1
+  jaime-lannister  [SWORN_TO]  house-lannister  | 2
+  jaime-lannister  [TRAVELS_WITH]  brienne-tarth  | 1
+  jaime-orders-siege-equipment-and-gallows-burned  [LOCATED_AT]  riverrun  | 2
+  jaime-orders-siege-equipment-and-gallows-burned  [SUB_BEAT_OF]  siege-of-riverrun  | 2
+  jaime-reveals-the-truth-of-tysha  [MOTIVATES]  tyrion-lannister  | 2
+  jeyne-westerling  [GUEST_OF]  jaime-lannister  | 1
+  jeyne-westerling  [PARTICIPATES_IN]  siege-of-riverrun  | 1
+  jonos-bracken  [BESIEGES]  tytos-blackwood  | 1
+  jonos-bracken  [OPPOSES]  tytos-blackwood  | 1
+  jonos-bracken  [RESPECTS]  brynden-tully  | 1
+  jonos-bracken  [RULES]  house-bracken  | 2
+  jonos-bracken  [SWORN_TO]  hoster-tully  | 1
+  jonos-bracken  [SWORN_TO]  house-bracken  | 2
+  karstark-murders-prisoners-at-riverrun  [LOCATED_AT]  riverrun  | 1
+  lancel-lannister  [BETRAYS]  cersei-lannister  | 1
+  lancel-lannister  [COUSIN_OF]  cersei-lannister  | 1
+  lancel-lannister  [COUSIN_OF]  tyrion-lannister  | 1
+  lancel-lannister  [GUEST_OF]  tyrion-lannister  | 1
+  lancel-lannister  [LOVER_OF]  cersei-lannister  | 1
+  lancel-lannister  [OPPOSES]  tyrion-lannister  | 1
+  lancel-lannister  [RESPECTS]  tyrion-lannister  | 1
+  lancel-lannister  [SERVES]  cersei-lannister  | 1
+  lancel-lannister  [SPIES_ON]  tyrion-lannister  | 1
+  pia  [BORN_AT]  harrenhal  | 2
+  pia  [SWORN_TO]  house-lannister  | 2
+  raventree-hall  [SEAT_OF]  house-blackwood  | 2
+  red-wedding  [ENABLES]  siege-of-riverrun  | 2
+  red-wedding  [PART_OF]  war-of-the-five-kings  | 2
+  riverrun  [SEAT_OF]  house-tully  | 2
+  robin-ryger  [PARTICIPATES_IN]  siege-of-riverrun  | 1
+  robin-ryger  [SWORN_TO]  house-tully  | 2
+  ryman-frey  [COMMANDS_IN]  siege-of-riverrun  | 1
+  ryman-frey  [HEIR_TO]  walder-frey  | 1
+  ryman-frey  [PARENT_OF]  edwyn-frey  | 2
+  ryman-frey  [PARENT_OF]  walder-frey  | 2
+  ryman-frey  [SWORN_TO]  house-frey  | 2
+  siege-of-darry  [PART_OF]  war-of-the-five-kings  | 2
+  siege-of-raventree  [PART_OF]  war-of-the-five-kings  | 2
+  siege-of-riverrun  [LOCATED_AT]  riverrun  | 1
+  siege-of-riverrun  [PART_OF]  war-of-the-five-kings  | 2
+  siege-of-seagard  [PART_OF]  war-of-the-five-kings  | 2
+  slaying-of-aerys-ii-the-kingslaying  [SUB_BEAT_OF]  sack-of-kings-landing  | 1
+  tyrion-lannister  [ATTACKS]  jaime-lannister  | 1
+  tyrion-lannister  [CONTRASTS]  jaime-lannister  | 1
+  tyrion-lannister  [COUSIN_OF]  cleos-frey  | 1
+  tyrion-lannister  [COUSIN_OF]  lancel-lannister  | 1
+  tyrion-lannister  [DISTRUSTS]  cersei-lannister  | 1
+  tyrion-lannister  [DISTRUSTS]  jaime-lannister  | 1
+  tyrion-lannister  [DISTRUSTS]  lancel-lannister  | 1
+  tyrion-lannister  [DREAMS_OF]  jaime-lannister  | 1
+  tyrion-lannister  [FEARS]  cersei-lannister  | 1
+  tyrion-lannister  [GUEST_OF]  cersei-lannister  | 1
+  tyrion-lannister  [HATES]  cersei-lannister  | 1
+  tyrion-lannister  [HATES]  jaime-lannister  | 1
+  tyrion-lannister  [LOVES]  jaime-lannister  | 1
+  tyrion-lannister  [MOURNS]  jaime-lannister  | 1
+  tyrion-lannister  [OPPOSES]  cersei-lannister  | 1
+  tyrion-lannister  [PROTECTS]  jaime-lannister  | 1
+  tyrion-lannister  [RESENTS]  cersei-lannister  | 1
+  tyrion-lannister  [RESENTS]  jaime-lannister  | 1
+  tyrion-lannister  [RESPECTS]  jaime-lannister  | 1
+  tyrion-lannister  [REVEALS_TO]  jaime-lannister  | 1
+  tyrion-lannister  [SIBLING_OF]  cersei-lannister  | 1
+  tyrion-lannister  [SIBLING_OF]  jaime-lannister  | 1
+  tyrion-lannister  [SPIES_ON]  cersei-lannister  | 1
+  tyrion-lannister  [SWORN_TO]  house-lannister  | 2
+  tyrion-lannister  [VOWS_TO]  jaime-lannister  | 1
+  tytos-blackwood  [BORN_AT]  raventree-hall  | 2
+  tytos-blackwood  [FIGHTS_IN]  battle-of-the-camps  | 1
+  tytos-blackwood  [RESCUES]  edmure-tully  | 1
+  tytos-blackwood  [RESPECTS]  brynden-tully  | 1
+  tytos-blackwood  [RULES]  house-blackwood  | 2
+  tytos-blackwood  [RULES]  raventree-hall  | 2
+  tytos-blackwood  [SWORN_TO]  house-blackwood  | 2
+  tytos-blackwood  [VICTIM_IN]  hostage-negotiation  | 2
+  vargo-hoat  [DIED_AT]  harrenhal  | 2
+  vargo-hoat  [PRISONER_OF]  brienne-tarth  | 1
+  vargo-hoat  [RESENTS]  brienne-tarth  | 1
+  vargo-hoat  [TORTURES]  jaime-lannister  | 1
+  walder-frey  [AGENT_IN]  edmure-taken-hostage-at-the-twins  | 1
+  walder-frey  [COMPANION_OF]  house-lannister  | 1
+  walder-frey  [PARENT_OF]  emmon-frey  | 2
+  walder-frey  [PARENT_OF]  walder-rivers  | 2
+  walder-frey  [RESENTS]  house-tully  | 1
+  walder-frey  [RULES]  house-frey  | 2
+  walder-frey  [SWORN_TO]  hoster-tully  | 1
+  walder-frey  [SWORN_TO]  riverrun  | 1
+  walder-frey  [SWORN_TO]  house-frey  | 2
+  walder-frey  [VICTIM_IN]  jaime-demands-the-red-wedding-captives  | 1
+  walder-rivers  [SWORN_TO]  house-frey  | 2
+  wildfire-plot  [ENABLES]  aerys-commands-the-city-burned  | 1
+  wildfire-plot  [MOTIVATES]  slaying-of-aerys-ii-the-kingslaying  | 1
+  yielding-of-harrenhal  [PART_OF]  war-of-the-five-kings  | 2
+
+==============================================================================
+CAUSAL INTERNAL SUB-WEB (CAUSES/TRIGGERS/MOTIVATES/ENABLES): 8
+==============================================================================
+  jaime-frees-tyrion-from-the-black-cells  [CAUSES]  jaime-reveals-the-truth-of-tysha
+  edmure-taken-hostage-at-the-twins  [ENABLES]  siege-of-riverrun
+  fall-of-harrenhal  [ENABLES]  arya-escapes-harrenhal
+  red-wedding  [ENABLES]  siege-of-riverrun
+  wildfire-plot  [ENABLES]  aerys-commands-the-city-burned
+  jaime-reveals-the-truth-of-tysha  [MOTIVATES]  tyrion-lannister
+  wildfire-plot  [MOTIVATES]  slaying-of-aerys-ii-the-kingslaying
+  aerys-commands-the-city-burned  [TRIGGERS]  slaying-of-aerys-ii-the-kingslaying
+
+==============================================================================
+EVENT-NODE causal degree (cOut/cIn) — 0/0 = causally ISLANDED hub (gap candidate)
+==============================================================================
+  aemonds-march-on-harrenhal                       cOut= 0 cIn= 0  (tot out= 1 in= 0)  <-- CAUSALLY ISLANDED
+  aerys-commands-the-city-burned                   cOut= 1 cIn= 1  (tot out= 3 in= 3)
+  arya-escapes-harrenhal                           cOut= 0 cIn= 1  (tot out= 1 in= 5)
+  assault-on-harrenhal                             cOut= 0 cIn= 0  (tot out=13 in= 1)  <-- CAUSALLY ISLANDED
+  battle-of-the-camps                              cOut= 0 cIn= 0  (tot out= 3 in=11)  <-- CAUSALLY ISLANDED
+  battle-under-the-walls-of-riverrun               cOut= 0 cIn= 0  (tot out= 2 in= 1)  <-- CAUSALLY ISLANDED
+  burning-of-harrenhal                             cOut= 0 cIn= 0  (tot out= 1 in= 1)  <-- CAUSALLY ISLANDED
+  capture-of-harrenhal                             cOut= 0 cIn= 0  (tot out= 2 in= 0)  <-- CAUSALLY ISLANDED
+  edmure-taken-hostage-at-the-twins                cOut= 1 cIn= 0  (tot out= 2 in= 3)
+  fall-of-harrenhal                                cOut= 1 cIn= 0  (tot out= 5 in= 5)
+  gregor-raids-the-riverlands                      cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  hostage-negotiation                              cOut= 0 cIn= 0  (tot out= 0 in= 3)  <-- CAUSALLY ISLANDED
+  jaime-demands-the-red-wedding-captives           cOut= 0 cIn= 0  (tot out= 0 in= 4)  <-- CAUSALLY ISLANDED
+  jaime-found-seated-on-the-iron-throne            cOut= 0 cIn= 0  (tot out= 2 in= 2)  <-- CAUSALLY ISLANDED
+  jaime-frees-tyrion-from-the-black-cells          cOut= 1 cIn= 0  (tot out= 3 in= 3)
+  jaime-lies-about-cleos-s-death                   cOut= 0 cIn= 0  (tot out= 0 in= 3)  <-- CAUSALLY ISLANDED
+  jaime-orders-siege-equipment-and-gallows-burned  cOut= 0 cIn= 0  (tot out= 2 in= 1)  <-- CAUSALLY ISLANDED
+  jaime-reveals-the-truth-of-tysha                 cOut= 1 cIn= 1  (tot out= 4 in= 2)
+  jaime-s-kills-are-revealed                       cOut= 0 cIn= 0  (tot out= 0 in= 4)  <-- CAUSALLY ISLANDED
+  karstark-murders-prisoners-at-riverrun           cOut= 0 cIn= 0  (tot out= 3 in= 4)  <-- CAUSALLY ISLANDED
+  red-wedding                                      cOut= 1 cIn= 0  (tot out= 5 in=21)
+  sack-of-kings-landing                            cOut= 0 cIn= 0  (tot out= 3 in=15)  <-- CAUSALLY ISLANDED
+  siege-of-darry                                   cOut= 0 cIn= 0  (tot out= 2 in= 1)  <-- CAUSALLY ISLANDED
+  siege-of-raventree                               cOut= 0 cIn= 0  (tot out= 1 in= 1)  <-- CAUSALLY ISLANDED
+  siege-of-riverrun                                cOut= 0 cIn= 2  (tot out= 2 in=13)
+  siege-of-seagard                                 cOut= 0 cIn= 0  (tot out= 1 in= 0)  <-- CAUSALLY ISLANDED
+  slaying-of-aerys-ii-the-kingslaying              cOut= 0 cIn= 2  (tot out= 2 in= 6)
+  war-of-the-five-kings                            cOut= 0 cIn= 0  (tot out= 1 in=68)  <-- CAUSALLY ISLANDED
+  wildfire-plot                                    cOut= 2 cIn= 0  (tot out= 5 in= 6)
+  yielding-of-harrenhal                            cOut= 0 cIn= 0  (tot out= 2 in= 1)  <-- CAUSALLY ISLANDED
+
+==============================================================================
+CAST/PLACE degree (out/in within core + boundary)
+==============================================================================
+  addam-marbrand                       core_out= 9 core_in= 1  boundary=  9
+  brienne-tarth                        core_out=79 core_in=50  boundary=103
+  brynden-tully                        core_out=18 core_in= 8  boundary= 14
+  cersei-lannister                     core_out=200 core_in=94  boundary=249
+  cleos-frey                           core_out=13 core_in= 8  boundary= 11
+  darry                                core_out= 2 core_in= 6  boundary=  8
+  daven-lannister                      core_out= 7 core_in= 3  boundary=  6
+  desmond-grell                        core_out= 7 core_in= 0  boundary=  6
+  edmure-tully                         core_out=36 core_in=18  boundary= 32
+  edwyn-frey                           core_out=12 core_in= 6  boundary= 10
+  emmon-frey                           core_out=18 core_in= 5  boundary=  9
+  genna-lannister                      core_out=12 core_in= 5  boundary=  9
+  godswood-of-riverrun                 core_out= 0 core_in= 0  boundary=  0
+  great-hall-of-riverrun               core_out= 0 core_in= 0  boundary=  0
+  harrenhal                            core_out=11 core_in=40  boundary= 48
+  hoster-tully                         core_out=18 core_in=17  boundary= 19
+  house-blackwood                      core_out= 6 core_in=40  boundary= 38
+  house-bracken                        core_out= 5 core_in=36  boundary= 34
+  house-frey                           core_out=26 core_in=160  boundary=173
+  house-lannister                      core_out=66 core_in=137  boundary=192
+  house-tully                          core_out=42 core_in=43  boundary= 72
+  ice                                  core_out= 5 core_in= 0  boundary=  5
+  ilyn-payne                           core_out=13 core_in= 8  boundary= 17
+  jaime-lannister                      core_out=156 core_in=74  boundary=130
+  jeyne-westerling                     core_out=14 core_in= 7  boundary= 19
+  jonos-bracken                        core_out=18 core_in= 4  boundary= 15
+  lancel-lannister                     core_out=23 core_in=14  boundary= 18
+  lyle-crakehall                       core_out= 5 core_in= 2  boundary=  6
+  oathkeeper                           core_out= 2 core_in= 0  boundary=  2
+  pia                                  core_out= 4 core_in= 4  boundary=  5
+  raventree-hall                       core_out= 2 core_in= 5  boundary=  4
+  riverlands                           core_out= 0 core_in=101  boundary= 96
+  riverrun                             core_out= 3 core_in=32  boundary= 22
+  robin-ryger                          core_out= 6 core_in= 0  boundary=  4
+  ryman-frey                           core_out=14 core_in= 5  boundary= 12
+  seagard                              core_out= 2 core_in= 6  boundary=  8
+  strongboar                           core_out= 0 core_in= 0  boundary=  0
+  the-twins                            core_out= 0 core_in= 0  boundary=  0
+  tyrion-lannister                     core_out=227 core_in=136  boundary=317
+  tytos-blackwood                      core_out=19 core_in= 4  boundary= 11
+  vargo-hoat                           core_out=17 core_in=10  boundary= 18
+  walder-frey                          core_out=66 core_in=36  boundary= 85
+  walder-rivers                        core_out= 9 core_in= 3  boundary= 10
+  widows-wail                          core_out= 0 core_in= 1  boundary=  1

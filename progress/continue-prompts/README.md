@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-08-28-next-enrichment-s159-jaime-riverlands.md` | 2026-08-28 | A2.6 Jaime / Riverlands enrichment (A-roundup #4) | **LIVE** (graph) → fires as **S159** | Sonnet 4.6 lenses + Opus 4.8 synthesis | A2.6 = the 4th A-roundup dip + the FIRST to use the new generic `mint_enrichment.py`/`finalize_enrichment.py` (S158). Riverrun-siege resolution / Edmure's surrender / Blackfish escape / Harrenhal command / the burning-of-Cersei's-letter rupture; DEDUP HEAVY (overlaps S100 historical-anchor siege-of-riverrun + S141 Brienne + S142 wildfire). AFTER: A2.4 Tyrion-Essos → A2.5 WO5K-battles [LAST] → A2.8 Davos/Sam. |
+| `2026-09-04-next-enrichment-s160-tyrion-essos.md` | 2026-09-04 | A2.4 Tyrion / Essos enrichment (A-roundup #5) | **LIVE** (graph) → fires as **S160** | Sonnet 4.6 lenses + Opus 4.8 synthesis | A2.4 = the 5th A-roundup dip. Tyrion's ADWD Essos journey: Pentos/Illyrio → the Shy Maid Rhoyne voyage → greyscale/stone men → Jorah capture → Volantis → the Penny slaver-auction/pale-mare → the Second Sons turn at Meereen. BUILD+ENRICH; DEDUP HEAVY (overlaps S147 Shy-Maid/AEGON voyage + S144 Meereen siege + S109/S139 Tywin's-death). `essos` IS an approved container — tag genuine Essos beats. AFTER: A2.5 WO5K-battles [LAST, multi-pass] → A2.8 Davos/Sam. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 76 files)
+## Archive (`archive/` subfolder — 77 files)
+
+> **`2026-08-28-next-enrichment-s159-jaime-riverlands.md`** — archived S159. **DONE (S159): A2.6 Jaime/Riverlands enrichment** (A-roundup #4; FIRST dip on the generic mint tool). BUILD+ENRICH, +3 nodes (`edmure-yields-riverrun`, `blackfish-escapes-riverrun`, `jaime-burns-cerseis-letter`) / +22 net edges (23,169→23,191; nodes→8,692). Lit the Riverrun-siege resolution (siege ENABLES edmure-yields ENABLES {blackfish-escape, gallows-burned}; --full-chain walks 19 edges into the WO5K spine), `jaime MANIPULATES edmure via_threat`, the Jaime↔Cersei letter-burning rupture (cersei-imprisonment seam), the Oathkeeper/Ice cluster (REFORGED_INTO ×2 + GIFTED_TO brienne + jaime OWNS). Whodunit HONEST: fresh-verify 19C/2A/2R dropped 2 diffuse riverlord SUSPECTED_OF. 0 drift, 0 invented types. **PLUS** fixed the quotecheck per-dip copy-paste debt → `scripts/quotecheck_enrichment.py` (4 clones deleted). Superseded as live by `2026-09-04-next-enrichment-s160-tyrion-essos.md`.
 
 > **`2026-08-27-script-consolidation.md`** — archived S158. **DONE (S158): enrichment script consolidation** (cleanup/refactor, NOT a dip — Matt S157). Retired the ~74 disposable per-dip `mint_*`/`finalize_*`/`stamp_*` scripts (the S133–S157 dips + the S106–S132 `*_arc.py` spine builds + misc one-shots) → built ONE parameterized pair: `scripts/mint_enrichment.py` (reads `candidates.json` `{_meta,edges}` + `nodes/<slug>.node.md` bodies) + `scripts/finalize_enrichment.py` (reads `verdicts.json`: drops/note-patch/`verified_by` stamp/bug drop+re-point). **Validated byte-identical** (diff-only, no graph mutation) against euron S157 (37 edges, 0 nodes — mint+finalize) and dorne S156 (39 edges, 3 new nodes, 1 drop, 2-edge garin bug-repoint — mint edges + node routing + finalize). Archived the 74 disposables → `scripts/enrichment/archive/` (KEPT, never deleted); left `scripts/enrichment/README.md` (going-forward path + JSON schemas); updated `arc-enrichment-backlog.md` machine step 3. No graph edges/nodes changed. Superseded as live by `2026-08-28-next-enrichment-s159-jaime-riverlands.md`.
 >
@@ -99,14 +101,14 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > track's live prompt is the next enrichment dip (board-pick the arc first); the D&E Pass-1 track is PARKED. The
 > chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE (graph): `2026-08-27-script-consolidation.md`** — **NOT a dip — a cleanup/refactor (fires as S158).** **21 major-arc dips shipped** —
+**LIVE (graph): `2026-09-04-next-enrichment-s160-tyrion-essos.md`** — **A2.4 Tyrion/Essos enrichment (fires as S160; A-roundup #5).** **22 major-arc dips shipped** —
 the reopened L1 round, the 3 A2 build+enrich arcs (S148–S150), the cheap L2 round (S151), the dedicated harvest pass (S152), both Class-D clusters
-(S153/S154), and the **🅰 A-roundup so far: A2.7 Stannis S155 · A1.5 Dorne S156 · A1.6 Euron S157.** Matt flagged process drift at S157: the per-dip
-`mint_*`/`finalize_*` scripts (~33) are disposable copy-paste clutter → **S158 = consolidate them** into ONE parameterized `mint_enrichment.py` +
-`finalize_enrichment.py` (reading candidates.json + a verdicts file), validate by reproducing a recent dip byte-identical, archive the disposables to
-`scripts/enrichment/archive/` (KEEP), update the machine docs. **AFTER it: resume the A-roundup at A2.6 Jaime/Riverlands** → A2.4 Tyrion-Essos →
-A2.5 WO5K-battles (LAST, multi-pass) → A2.8 Davos/Sam (`working/enrichment-coverage-plan.md` 🅰 banner). **Harvest auto-drain now RESTORED** (endsession
-step 0). **SIFT track DEFERRED** until after enrichment. D&E Pass-1 PARKED. (**Sonnet 4.6 refactor + Opus 4.8 design/validation**)
+(S153/S154), the **🅰 A-roundup so far: A2.7 Stannis S155 · A1.5 Dorne S156 · A1.6 Euron S157 · A2.6 Jaime/Riverlands S159**, and the S158 script-consolidation
+between. **S160 = A2.4 Tyrion/Essos:** the ADWD journey Pentos→Shy-Maid-Rhoyne-voyage→greyscale→Jorah-capture→Volantis→Penny-slaver-auction/pale-mare→the
+Second-Sons turn at Meereen. BUILD+ENRICH, dedup HEAVY (overlaps S147 Shy-Maid/AEGON + S144 Meereen siege + S109/S139 Tywin's-death). `essos` IS an approved
+container — tag genuine Essos beats. **AFTER it: A2.5 WO5K-battles (LAST, multi-pass, its own mini-track)** → A2.8 Davos/Sam (`working/enrichment-coverage-plan.md`
+🅰 banner). Mint via the generic `mint_enrichment.py`/`finalize_enrichment.py`/`quotecheck_enrichment.py` (no per-dip clones — S158/S159). **Harvest queue at 25
+open** post-S159 — a Tyrion dip will push it over 30, so plan to drain. **SIFT track DEFERRED.** D&E Pass-1 PARKED. (**Sonnet 4.6 lenses + Opus 4.8 synthesis**)
 
 **PARKED (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — **PARKED by Matt 2026-06-23** (concurrent-with-enrichment
 was too confusing — revisit when fresh). Harness + v4 prompt DESIGNED S131; nothing run (smoke un-run). When un-parked:

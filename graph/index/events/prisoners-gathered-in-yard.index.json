@@ -3,7 +3,7 @@
   "name": "Prisoners gathered in yard",
   "type": "event.capture",
   "node_path": "graph/nodes/events/prisoners-gathered-in-yard.node.md",
-  "generated_at": "2026-06-27T18:51:37.839326+00:00",
+  "generated_at": "2026-06-28T01:06:52.979839+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

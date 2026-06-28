@@ -1,12 +1,12 @@
 # Enrichment Coverage Plan — the full ranked dip list (S143)
 
 > **🅰 ACTIVE CAMPAIGN (Matt, S154): ROUND UP THE REMAINING A ARCS** — a multi-session campaign (one dip/session)
-> to close out the major-arc tier. **Order: ✅ A2.7 Stannis (S155) · ✅ A1.5 Dorne (S156) · ✅ A1.6 Euron (S157)**, then **NEXT → A2.6 Jaime/Riverlands**
-> (after the S157-queued script-consolidation cleanup), A2.4 Tyrion-Essos, **A2.5 WO5K-battles LAST (it's multi-pass, its own
+> to close out the major-arc tier. **Order: ✅ A2.7 Stannis (S155) · ✅ A1.5 Dorne (S156) · ✅ A1.6 Euron (S157) · ✅ A2.6 Jaime/Riverlands (S159)**, then **NEXT → A2.4 Tyrion-Essos**,
+> **A2.5 WO5K-battles LAST (it's multi-pass, its own
 > mini-track)**, A2.8 Davos/Sam residual. After A is done → the descent drops to granular L2 / character / (gated)
 > theory. Remaining Class-D clusters (D2 Hand's Tourney · D3 Greyjoy's Rebellion · D4 Riot of KL) are parked behind
 > the A roundup. ✅ DONE so far: all A1 spine-only heavyweights (Dany/Jon/Bran/AEGON S144–S147) + A2.1/A2.2/A2.3
-> (Theon/Sansa/Arya S148–S150) + D1 Castle Black (S153) + D5 Arya/Harrenhal (S154) + **A2.7 Stannis (S155) + A1.5 Dorne (S156)**.
+> (Theon/Sansa/Arya S148–S150) + D1 Castle Black (S153) + D5 Arya/Harrenhal (S154) + **A2.7 Stannis (S155) + A1.5 Dorne (S156) + A1.6 Euron (S157) + A2.6 Jaime/Riverlands (S159)**.
 >
 > **Created S143 (2026-06-24)** as the dedicated planning deliverable Matt scheduled between the arc phase and
 > the granular phase. **Supersedes the "L2-only" framing of the handoff** — see the Key Finding below.
@@ -83,7 +83,7 @@ manipulators (Varys, Petyr, Bloodraven) whose webs no single arc fully covers �
 | **A2.3** | **Arya: Braavos / House of B&W** | Braavos landing → the Kindly Man → Cat of the Canals → blinding → Mercy. | 8 | Large (25+) | Identity-dissolution arc; **architecturally isolated** (low cross-arc payoff) — that's why it ranks below Sansa/Theon despite similar scale. |
 | **A2.4** | **Tyrion: ADWD Essos journey** | Pentos → Volantis → Penny → captured by Jorah → sold → Daznak's Pit → the Second Sons. | 9 | Large (25+) | The *events* are the value (Tyrion the character is already saturated, 362 edges). |
 | **A2.5** | **WO5K — the battles** | Whispering Wood (Jaime captured), Battle of the Camps, Oxcross, the Fords, Duskendale; the military arc that makes Robb the Young Wolf. | 10 | Large (25+) | WO5K flagged "needs many passes." `battle-on-the-green-fork` already rich (29); the others thin/absent. |
-| **A2.6** | **Jaime: Riverlands command (AFFC)** | Harrenhal, the Riverrun siege resolution, Edmure's surrender, the Blackfish's escape, the burning-of-Cersei's-letter rupture. | 11 | Med (15–20) | Overlaps **RW pass-2** Riverrun-siege downstream (B, Red Wedding). |
+| **A2.6** ✅ **DONE S159** | **Jaime: Riverlands command (AFFC)** | ✅ Riverrun siege resolution (edmure-yields + blackfish-escapes), trebuchet coercion (MANIPULATES via_threat), Cersei-letter rupture, Oathkeeper/Ice cluster. +3 nodes/+22 edges. | 11 | Med (15–20) → **22 net** | Overlapped RW pass-2 + S141 Brienne + S142 wildfire — dedup-heavy as predicted. |
 | **A2.7** | **Stannis** | Dragonstone self-isolation → Renly's-war + the shadow-baby → Blackwater → the Wall → the march. Mostly an event-arc spread across containers. | 12 | Med (15–20) | Much already wired via Blackwater + NORTH spines; a dip adds the Melisandre-submission + Renly-kinslaying MOTIVATES substrate. |
 | **A2.8** | **Davos / Sam** | Davos: Blackwater near-death → Manderly mission → Skagos. Sam: Fist → Gilly → Citadel road. | 13 | Small–Med | Smaller, Stannis/Jon-adjacent; do as residuals. |
 

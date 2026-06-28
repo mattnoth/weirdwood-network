@@ -5,6 +5,7 @@ Use the two parameterized tools (they live in `scripts/`, NOT here):
 
 | Step | Tool | Reads | Does |
 |------|------|-------|------|
+| (pre-flight) | `scripts/quotecheck_enrichment.py <dip>/candidates.json` | the dip's `candidates.json` | OPTIONAL: locate every edge quote in its chapter via the mint's `norm()` (green here ⇒ the mint's own fail-fast line-check passes). Replaces the per-dip `working/enrichment/<unit>/quotecheck.py` clones — do NOT copy one per dip (S159). |
 | mint | `scripts/mint_enrichment.py --candidates <dip>/candidates.json` | the dip's `candidates.json` (+ optional `<dip>/nodes/*.node.md`) | slug pre-check · re-run guard · quote re-grep (fail-fast) · backup · create new nodes · append edges |
 | finalize | `scripts/finalize_enrichment.py --verdicts <dip>/verdicts.json` | the dip's `verdicts.json` | drop fresh-verify REJECTs · note patches · `verified_by` stamp on `pending` edges · pre-existing-edge bug drop/re-point · backup |
 

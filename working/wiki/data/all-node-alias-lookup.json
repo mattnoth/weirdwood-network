@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-27T00:56:20.392605+00:00",
+  "computed_at": "2026-06-28T01:06:58.226670+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -119,6 +119,22 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "acorn mash": [
+      {
+        "canonical_slug": "acorn-paste",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "acorn paste": [
+      {
+        "canonical_slug": "acorn-paste",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "acorn water": [
@@ -3385,6 +3401,14 @@
         "source": "node-slug"
       }
     ],
+    "areo hotah's longaxe": [
+      {
+        "canonical_slug": "hotahs-longaxe",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-name:artifacts"
+      }
+    ],
     "argella durrandon": [
       {
         "canonical_slug": "argella-durrandon",
@@ -4309,6 +4333,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "ash-and-iron wife": [
+      {
+        "canonical_slug": "hotahs-longaxe",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "asha claims the kingsmoot": [
@@ -8595,6 +8627,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "black olives": [
+      {
+        "canonical_slug": "olive",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "black one": [
       {
         "canonical_slug": "drogon",
@@ -8669,6 +8709,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "black sausage": [
+      {
+        "canonical_slug": "black-sausage",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "black shepherd": [
@@ -8837,6 +8885,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "blackfish escapes riverrun": [
+      {
+        "canonical_slug": "blackfish-escapes-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "blackfish slips the siege": [
+      {
+        "canonical_slug": "blackfish-escapes-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "blackfyre": [
@@ -11505,6 +11569,22 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "broth of clams": [
+      {
+        "canonical_slug": "clam-broth",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "broth of clams and seaweed": [
+      {
+        "canonical_slug": "clam-broth",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "brotherhood": [
       {
         "canonical_slug": "brotherhood-without-banners",
@@ -11801,6 +11881,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "brynden tully escapes riverrun": [
+      {
+        "canonical_slug": "blackfish-escapes-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "bryndon hightower": [
       {
         "canonical_slug": "bryndon-hightower",
@@ -11977,6 +12065,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "burning of the gods at dragonstone": [
+      {
+        "canonical_slug": "burning-of-the-seven-at-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "burning of the lannister fleet": [
       {
         "canonical_slug": "burning-of-the-lannister-fleet",
@@ -11996,6 +12092,14 @@
     "burning of the sept of remembrance": [
       {
         "canonical_slug": "burning-of-the-sept-of-remembrance",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "burning of the seven at dragonstone": [
+      {
+        "canonical_slug": "burning-of-the-seven-at-dragonstone",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -12471,6 +12575,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-name:characters"
+      }
+    ],
+    "captain's longaxe": [
+      {
+        "canonical_slug": "hotahs-longaxe",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
       }
     ],
     "captain's sister": [
@@ -13943,6 +14055,14 @@
         "source": "all-node-slug:foods"
       }
     ],
+    "chickpea paste": [
+      {
+        "canonical_slug": "chickpea-paste",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "chief crossing of the trident": [
       {
         "canonical_slug": "ruby-ford",
@@ -14285,6 +14405,14 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      }
+    ],
+    "clam broth": [
+      {
+        "canonical_slug": "clam-broth",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "clanker lord": [
@@ -16597,6 +16725,14 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      }
+    ],
+    "cracked green olives": [
+      {
+        "canonical_slug": "olive",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "crag": [
@@ -20001,6 +20137,14 @@
         "source": "node-slug"
       }
     ],
+    "death of cortnay penrose": [
+      {
+        "canonical_slug": "shadow-killing-of-cortnay-penrose",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "death of dareon the singer": [
       {
         "canonical_slug": "killing-of-dareon",
@@ -20961,6 +21105,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "dish of onion soup": [
+      {
+        "canonical_slug": "onion-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "disputed lands": [
       {
         "canonical_slug": "disputed-lands",
@@ -21069,6 +21221,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "dolmades": [
+      {
+        "canonical_slug": "stuffed-grape-leaves",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "dolorous edd": [
@@ -21573,6 +21733,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "dornish snake stew": [
+      {
+        "canonical_slug": "snake-stew",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "dornish wars": [
@@ -23577,6 +23745,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "edmure surrenders riverrun": [
+      {
+        "canonical_slug": "edmure-yields-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "edmure taken captive at the twins": [
       {
         "canonical_slug": "edmure-taken-hostage-at-the-twins",
@@ -23620,6 +23796,22 @@
     "edmure tully held hostage": [
       {
         "canonical_slug": "edmure-taken-hostage-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "edmure yields riverrun": [
+      {
+        "canonical_slug": "edmure-yields-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "edmure yields the castle": [
+      {
+        "canonical_slug": "edmure-yields-riverrun",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -27341,12 +27533,28 @@
         "source": "node-slug"
       }
     ],
+    "fish and shellfish stew": [
+      {
+        "canonical_slug": "fish-stew",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "fish market": [
       {
         "canonical_slug": "fish-market",
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "fish stew": [
+      {
+        "canonical_slug": "fish-stew",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "fisher queens": [
@@ -29763,6 +29971,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "garin (orphan of the greenblood)": [
+      {
+        "canonical_slug": "garin-of-the-orphans",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "all-node-name:characters"
+      }
+    ],
+    "garin of the orphans": [
+      {
+        "canonical_slug": "garin-of-the-orphans",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "all-node-slug:characters"
+      }
+    ],
     "garin the great": [
       {
         "canonical_slug": "garin-the-great",
@@ -30383,6 +30607,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "gay garin": [
+      {
+        "canonical_slug": "garin-of-the-orphans",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "all-node-alias:characters"
       }
     ],
     "gedmund great-axe": [
@@ -32259,6 +32491,14 @@
         "source": "all-node-slug:materials"
       }
     ],
+    "grape leaves stuffed": [
+      {
+        "canonical_slug": "stuffed-grape-leaves",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "grass": [
       {
         "canonical_slug": "dothraki-sea",
@@ -32969,6 +33209,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "green olives": [
+      {
+        "canonical_slug": "olive",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "green queen": [
@@ -33783,6 +34031,14 @@
         "source": "all-node-slug:foods"
       }
     ],
+    "gull eggs": [
+      {
+        "canonical_slug": "gulls-egg",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "gull tower": [
       {
         "canonical_slug": "gull-tower",
@@ -33791,12 +34047,44 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "gull's egg": [
+      {
+        "canonical_slug": "gulls-egg",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-name:foods"
+      }
+    ],
+    "gull's eggs": [
+      {
+        "canonical_slug": "gulls-egg",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "gullet": [
       {
         "canonical_slug": "gullet",
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "gulls egg": [
+      {
+        "canonical_slug": "gulls-egg",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "gulls eggs": [
+      {
+        "canonical_slug": "gulls-egg",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "gulltown": [
@@ -37795,12 +38083,36 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "hot pork pies": [
+      {
+        "canonical_slug": "pork-pie",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "hotah ambushes arianne": [
       {
         "canonical_slug": "areo-hotah-springs-the-ambush",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "hotah's longaxe": [
+      {
+        "canonical_slug": "hotahs-longaxe",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-alias:artifacts"
+      }
+    ],
+    "hotahs longaxe": [
+      {
+        "canonical_slug": "hotahs-longaxe",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "all-node-slug:artifacts"
       }
     ],
     "hother umber": [
@@ -42923,6 +43235,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "hummus": [
+      {
+        "canonical_slug": "chickpea-paste",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "humphrey bulwer": [
       {
         "canonical_slug": "humphrey-bulwer",
@@ -44281,6 +44601,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "jaime burns cersei's letter": [
+      {
+        "canonical_slug": "jaime-burns-cerseis-letter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "jaime burns cerseis letter": [
+      {
+        "canonical_slug": "jaime-burns-cerseis-letter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "jaime confesses the tysha lie": [
       {
         "canonical_slug": "jaime-reveals-the-truth-of-tysha",
@@ -44425,12 +44761,28 @@
         "source": "node-name"
       }
     ],
+    "jaime refuses cersei's plea": [
+      {
+        "canonical_slug": "jaime-burns-cerseis-letter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "jaime refuses to kill tyrion": [
       {
         "canonical_slug": "jaime-refuses-to-kill-tyrion",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "jaime refuses to ride to cersei's aid": [
+      {
+        "canonical_slug": "jaime-burns-cerseis-letter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jaime rescues tyrion": [
@@ -48131,6 +48483,14 @@
         "source": "all-node-slug:texts"
       }
     ],
+    "king's blood leeches": [
+      {
+        "canonical_slug": "leeching-of-edric-storm",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "king's council": [
       {
         "canonical_slug": "small-council",
@@ -51041,6 +51401,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "leeching of edric storm": [
+      {
+        "canonical_slug": "leeching-of-edric-storm",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "leek soup": [
       {
         "canonical_slug": "leek-soup",
@@ -51138,6 +51506,30 @@
     "lemon cake": [
       {
         "canonical_slug": "lemon-cake",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "lemon water": [
+      {
+        "canonical_slug": "lemonwater",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "lemonsweet": [
+      {
+        "canonical_slug": "lemonwater",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "lemonwater": [
+      {
+        "canonical_slug": "lemonwater",
         "node_category": "foods",
         "node_type": "object.food",
         "source": "all-node-slug:foods"
@@ -52627,6 +53019,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "long black sausages": [
+      {
+        "canonical_slug": "black-sausage",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "long bridge": [
@@ -63003,6 +63403,22 @@
         "source": "all-node-slug:foods"
       }
     ],
+    "mustard": [
+      {
+        "canonical_slug": "mustard",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "mustard seeds": [
+      {
+        "canonical_slug": "mustard",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "mutiny at castle black": [
       {
         "canonical_slug": "mutiny-at-castle-black",
@@ -64007,6 +64423,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "nettle tea": [
+      {
+        "canonical_slug": "nettle-tea",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "nettles": [
@@ -65787,6 +66211,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "olive": [
+      {
+        "canonical_slug": "olive",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "olives": [
+      {
+        "canonical_slug": "olive",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "ollidar": [
       {
         "canonical_slug": "ollidar",
@@ -66023,6 +66463,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "onion soup": [
+      {
+        "canonical_slug": "onion-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "only death can pay for life": [
@@ -67558,9 +68006,9 @@
     "peach": [
       {
         "canonical_slug": "peach",
-        "node_category": "locations",
-        "node_type": "place.location",
-        "source": "all-node-slug:locations"
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "peacock": [
@@ -68641,7 +69089,21 @@
         "source": "all-node-alias:medical"
       }
     ],
+    "pork pie": [
+      {
+        "canonical_slug": "pork-pie",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "pork pies": [
+      {
+        "canonical_slug": "pork-pie",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      },
       {
         "canonical_slug": "manderly-bakes-the-frey-pies",
         "node_category": "events",
@@ -69501,6 +69963,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "purple olives": [
+      {
+        "canonical_slug": "olive",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "purple wedding": [
@@ -72641,6 +73111,12 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-name:artifacts"
+      },
+      {
+        "canonical_slug": "peach",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "renlys peach": [
@@ -76821,6 +77297,14 @@
         "source": "all-node-slug:titles"
       }
     ],
+    "savory snake stew": [
+      {
+        "canonical_slug": "snake-stew",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "sawane botley": [
       {
         "canonical_slug": "sawane-botley",
@@ -77343,6 +77827,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "second shadow": [
+      {
+        "canonical_slug": "shadow-killing-of-cortnay-penrose",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "second siege of meereen": [
@@ -78157,6 +78649,14 @@
         "source": "node-slug"
       }
     ],
+    "shadow at storm's end": [
+      {
+        "canonical_slug": "shadow-killing-of-cortnay-penrose",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "shadow child": [
       {
         "canonical_slug": "shadow-child",
@@ -78171,6 +78671,14 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      }
+    ],
+    "shadow killing of cortnay penrose": [
+      {
+        "canonical_slug": "shadow-killing-of-cortnay-penrose",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "shadow lands": [
@@ -80181,6 +80689,22 @@
         "source": "all-node-slug:species"
       }
     ],
+    "snake sauce": [
+      {
+        "canonical_slug": "snake-stew",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
+    "snake stew": [
+      {
+        "canonical_slug": "snake-stew",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "snakewood": [
       {
         "canonical_slug": "snakewood",
@@ -80525,6 +81049,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "sour leaf": [
+      {
+        "canonical_slug": "sourleaf",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "sour sam": [
       {
         "canonical_slug": "samgood-of-sour-hill",
@@ -80536,9 +81068,9 @@
     "sourleaf": [
       {
         "canonical_slug": "sourleaf",
-        "node_category": "species",
-        "node_type": "species",
-        "source": "all-node-slug:species"
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "southern thenn assault on castle black": [
@@ -80635,6 +81167,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "spear tower": [
+      {
+        "canonical_slug": "spear-tower",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "all-node-slug:locations"
       }
     ],
     "spears of the merling king": [
@@ -81180,6 +81720,14 @@
     "stannis broken after the blackwater": [
       {
         "canonical_slug": "stannis-retreats-to-dragonstone",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "stannis burns the seven": [
+      {
+        "canonical_slug": "burning-of-the-seven-at-dragonstone",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -83615,6 +84163,14 @@
         "source": "node-slug"
       }
     ],
+    "stuffed grape leaves": [
+      {
+        "canonical_slug": "stuffed-grape-leaves",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "sty": [
       {
         "canonical_slug": "sty",
@@ -83909,6 +84465,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "surrender of riverrun": [
+      {
+        "canonical_slug": "edmure-yields-riverrun",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "svrone": [
@@ -86091,6 +86655,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "three usurpers leeching": [
+      {
+        "canonical_slug": "leeching-of-edric-storm",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "three whores": [
@@ -89437,6 +90009,14 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      }
+    ],
+    "unsweetened lemonwater": [
+      {
+        "canonical_slug": "lemonwater",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "unveiling of young griff": [
@@ -95921,8 +96501,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19482,
-    "unique_phrases": 11887
+    "total_node_entries": 19595,
+    "unique_phrases": 11958
   },
   "version": "v1"
 }
