@@ -4,6 +4,7 @@ type: event.battle
 slug: battle-in-the-whispering-wood
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_in_the_Whispering_Wood"
 bucket_id: battles-a-b
 prompt_version: v1-python
@@ -70,3 +71,25 @@ Having Jaime as a hostage, and recognizing his value as a prisoner, the Starks g
 > [Robb Stark](wiki:Robb_Stark) took me unawares in the [Whispering Wood](wiki:Whispering_Wood). That will never happen again.(wiki:Battle_in_the_Whispering_Wood.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Addam Marbrand](wiki:Addam_Marbrand)
+
+### Book-cited (AGOT Catelyn X — book-citation overlay, S163)
+
+> Here was a hush in the night, moonlight and shadows, a thick carpet of dead leaves underfoot, densely wooded ridges sloping gently down to the streambed, the underbrush thinning as the ground fell away.
+
+— AGOT Catelyn X (`sources/chapters/agot/agot-catelyn-10.md:73`)
+
+> Here was the call of Maege Mormont's warhorn, a long low blast that rolled down the valley from the east, to tell them that the last of Jaime's riders had entered the trap. And Grey Wind threw back his head and howled.
+
+— The trap is sprung, AGOT Catelyn X (`sources/chapters/agot/agot-catelyn-10.md:77`)
+
+> there was an instant, the smallest part of a heartbeat, when all Catelyn saw was the moonlight on the points of their lances, as if a thousand willowisps were coming down the ridge, wreathed in silver flame.
+
+— The Greatjon's riders charge, AGOT Catelyn X (`sources/chapters/agot/agot-catelyn-10.md:89`)
+
+> "Lady Stark," he said from his knees. Blood ran down one cheek from a gash across his scalp, but the pale light of dawn had put the glint of gold back in his hair. "I would offer you my sword, but I seem to have mislaid it."
+
+— Jaime Lannister, captured and brought before Catelyn, AGOT Catelyn X (`sources/chapters/agot/agot-catelyn-10.md:103`)
+
+> "He mislaid his sword in Eddard Karstark's neck, after he took Torrhen's hand off and split Daryn Hornwood's skull open," Robb said.
+
+— Robb Stark, on Jaime's final charge, AGOT Catelyn X (`sources/chapters/agot/agot-catelyn-10.md:133`)

@@ -1,0 +1,235 @@
+==============================================================================
+CORE slugs WITHOUT a live node file (1) — candidates to BUILD if load-bearing:
+  battle-of-the-whispering-wood
+==============================================================================
+
+INTERNAL EDGES (both endpoints in core): 176 unique
+==============================================================================
+  andros-brax  [DIED_AT]  riverrun  | 2
+  andros-brax  [VICTIM_IN]  battle-of-the-camps  | 2
+  battle-of-the-camps  [LOCATED_AT]  riverrun  | 2
+  brynden-tully  [BORN_AT]  riverrun  | 2
+  brynden-tully  [COMMANDS_IN]  battle-of-the-camps  | 2
+  brynden-tully  [COMMANDS_IN]  siege-of-riverrun  | 1
+  brynden-tully  [GUARDS]  riverrun  | 1
+  brynden-tully  [RESCUES]  edmure-tully  | 1
+  brynden-tully  [SIBLING_OF]  hoster-tully  | 1
+  brynden-tully  [UNCLE_OF]  catelyn-stark  | 1
+  catelyn-stark  [BORN_AT]  riverrun  | 2
+  catelyn-stark  [CAPTURES]  jaime-lannister  | 1
+  catelyn-stark  [DIED_AT]  twins  | 2
+  catelyn-stark  [DISTRUSTS]  walder-frey  | 1
+  catelyn-stark  [DISTRUSTS]  roose-bolton  | 1
+  catelyn-stark  [DISTRUSTS]  jaime-lannister  | 1
+  catelyn-stark  [DISTRUSTS]  cleos-frey  | 1
+  catelyn-stark  [FEARS]  edmure-tully  | 1
+  catelyn-stark  [FEARS]  hoster-tully  | 1
+  catelyn-stark  [GRANTS_SAFE_CONDUCT]  jaime-lannister  | 1
+  catelyn-stark  [GUEST_OF]  walder-frey  | 1
+  catelyn-stark  [GUEST_OF]  edmure-tully  | 1
+  catelyn-stark  [HATES]  jaime-lannister  | 1
+  catelyn-stark  [IN_LAW_OF]  edmure-tully  | 1
+  catelyn-stark  [LOVES]  maege-mormont  | 1
+  catelyn-stark  [LOVES]  robb-stark  | 1
+  catelyn-stark  [MOURNS]  hoster-tully  | 1
+  catelyn-stark  [OPPOSES]  edmure-tully  | 1
+  catelyn-stark  [PARENT_OF]  robb-stark  | 1
+  catelyn-stark  [RESPECTS]  hoster-tully  | 1
+  catelyn-stark  [SEEKS]  jaime-lannister  | 1
+  catelyn-stark  [SERVES]  robb-stark  | 1
+  catelyn-stark  [SIBLING_OF]  edmure-tully  | 1
+  catelyn-stark  [TRUSTS]  brynden-tully  | 1
+  catelyn-stark  [TUTORS]  robb-stark  | 1
+  catelyn-stark  [UNCLE_OF]  brynden-tully  | 1
+  cleos-frey  [BORN_AT]  casterly-rock  | 2
+  cleos-frey  [COUSIN_OF]  jaime-lannister  | 1
+  cleos-frey  [GUEST_OF]  robb-stark  | 1
+  edmure-tully  [BORN_AT]  riverrun  | 2
+  edmure-tully  [GUEST_OF]  walder-frey  | 1
+  edmure-tully  [GUEST_OF]  jaime-lannister  | 1
+  edmure-tully  [HATES]  jaime-lannister  | 1
+  edmure-tully  [HEIR_TO]  hoster-tully  | 1
+  edmure-tully  [MOURNS]  hoster-tully  | 1
+  edmure-tully  [NEPHEW_OF]  brynden-tully  | 1
+  edmure-tully  [OPPOSES]  jaime-lannister  | 1
+  edmure-tully  [OPPOSES]  catelyn-stark  | 1
+  edmure-tully  [RESENTS]  catelyn-stark  | 1
+  edmure-tully  [RESENTS]  robb-stark  | 1
+  edmure-tully  [SEEKS]  hoster-tully  | 1
+  edmure-tully  [SERVES]  hoster-tully  | 1
+  edmure-tully  [VICTIM_IN]  battle-of-the-camps  | 1
+  edmure-tully  [VICTIM_IN]  siege-of-riverrun  | 1
+  execution-of-eddard-stark  [CAUSES]  robb-proclaimed-king-in-the-north  | 2
+  execution-of-eddard-stark  [MOTIVATES]  robb-stark  | 2
+  forley-prester  [FIGHTS_IN]  battle-of-the-camps  | 2
+  forley-prester  [SERVES]  jaime-lannister  | 1
+  galbart-glover  [DISTRUSTS]  catelyn-stark  | 1
+  galbart-glover  [SERVES]  robb-stark  | 1
+  grey-wind  [AGENT_IN]  battle-of-oxcross  | 2
+  grey-wind  [BONDED_TO]  robb-stark  | 1
+  grey-wind  [COMPANION_OF]  robb-stark  | 1
+  grey-wind  [DIED_AT]  twins  | 2
+  grey-wind  [FIGHTS_IN]  battle-of-the-camps  | 2
+  grey-wind  [GUEST_OF]  walder-frey  | 1
+  grey-wind  [PROTECTS]  robb-stark  | 1
+  grey-wind  [TRUSTS]  catelyn-stark  | 1
+  harys-swyft  [IN_LAW_OF]  kevan-lannister  | 1
+  hoster-tully  [BORN_AT]  riverrun  | 2
+  hoster-tully  [DIED_AT]  riverrun  | 2
+  hoster-tully  [DISTRUSTS]  walder-frey  | 1
+  hoster-tully  [PARENT_OF]  catelyn-stark  | 1
+  hoster-tully  [PARENT_OF]  edmure-tully  | 2
+  hoster-tully  [RESENTS]  brynden-tully  | 1
+  hoster-tully  [RULES]  riverrun  | 2
+  hoster-tully  [WITNESS_IN]  battle-of-the-camps  | 1
+  jaime-lannister  [BORN_AT]  casterly-rock  | 2
+  jaime-lannister  [CAPTURES]  edmure-tully  | 1
+  jaime-lannister  [COMMANDS_IN]  battle-of-the-camps  | 2
+  jaime-lannister  [COMMANDS_IN]  siege-of-riverrun  | 1
+  jaime-lannister  [COUSIN_OF]  cleos-frey  | 1
+  jaime-lannister  [GUEST_OF]  catelyn-stark  | 1
+  jaime-lannister  [GUEST_OF]  roose-bolton  | 1
+  jaime-lannister  [GUEST_OF]  hoster-tully  | 1
+  jaime-lannister  [GUEST_OF]  tytos-blackwood  | 1
+  jaime-lannister  [HATES]  stafford-lannister  | 1
+  jaime-lannister  [HATES]  cleos-frey  | 1
+  jaime-lannister  [HATES]  harys-swyft  | 1
+  jaime-lannister  [IN_LAW_OF]  walder-frey  | 1
+  jaime-lannister  [MANIPULATES]  edmure-tully  | tier-1
+  jaime-lannister  [MOURNS]  cleos-frey  | 1
+  jaime-lannister  [MOURNS]  tywin-lannister  | 1
+  jaime-lannister  [NEGOTIATES_WITH]  tytos-blackwood  | 1
+  jaime-lannister  [NEGOTIATES_WITH]  brynden-tully  | tier-1
+  jaime-lannister  [NEPHEW_OF]  kevan-lannister  | 1
+  jaime-lannister  [OPPOSES]  robb-stark  | 1
+  jaime-lannister  [PARALLELS]  tywin-lannister  | 1
+  jaime-lannister  [PRISONER_OF]  robb-stark  | 1
+  jaime-lannister  [RESPECTS]  roose-bolton  | 1
+  jaime-lannister  [VOWS_TO]  catelyn-stark  | 1
+  jon-umber  [COMMANDS]  robb-stark  | 1
+  jon-umber  [FIGHTS_IN]  battle-of-the-camps  | 2
+  jon-umber  [SERVES]  robb-stark  | 1
+  jon-umber  [SWORN_TO]  robb-stark  | 1
+  kevan-lannister  [BORN_AT]  casterly-rock  | 2
+  kevan-lannister  [IN_LAW_OF]  harys-swyft  | 1
+  kevan-lannister  [LOVES]  tywin-lannister  | 1
+  kevan-lannister  [SERVES]  tywin-lannister  | 1
+  maege-mormont  [RESPECTS]  robb-stark  | 1
+  maege-mormont  [RESPECTS]  catelyn-stark  | 1
+  marq-piper  [COMPANION_OF]  edmure-tully  | 1
+  rickard-karstark  [AGENT_IN]  battle-of-oxcross  | 2
+  rickard-karstark  [DIED_AT]  riverrun  | 2
+  rickard-karstark  [OPPOSES]  catelyn-stark  | 1
+  rickard-karstark  [OPPOSES]  robb-stark  | 1
+  rickard-karstark  [SEEKS]  jaime-lannister  | 1
+  rickard-karstark  [SWORN_TO]  robb-stark  | 1
+  robb-stark  [AGENT_IN]  robb-proclaimed-king-in-the-north  | 1
+  robb-stark  [BONDED_TO]  grey-wind  | 1
+  robb-stark  [BORN_AT]  riverrun  | 2
+  robb-stark  [COMMANDS]  catelyn-stark  | 1
+  robb-stark  [COMMANDS]  grey-wind  | 1
+  robb-stark  [COMMANDS]  roose-bolton  | 1
+  robb-stark  [COMMANDS_IN]  battle-of-oxcross  | 2
+  robb-stark  [COMMANDS_IN]  battle-of-the-camps  | 2
+  robb-stark  [COMPANION_OF]  grey-wind  | 1
+  robb-stark  [CONTRACTED_WITH]  walder-frey  | 1
+  robb-stark  [DIED_AT]  twins  | 2
+  robb-stark  [DISTRUSTS]  catelyn-stark  | 1
+  robb-stark  [EXECUTES]  rickard-karstark  | 1
+  robb-stark  [FEARS]  roose-bolton  | 1
+  robb-stark  [GUEST_OF]  walder-frey  | 1
+  robb-stark  [GUEST_OF]  edmure-tully  | 1
+  robb-stark  [LOVES]  catelyn-stark  | 1
+  robb-stark  [OPPOSES]  edmure-tully  | 1
+  robb-stark  [OVERLORD_OF]  jon-umber  | 1
+  robb-stark  [OVERLORD_OF]  maege-mormont  | 1
+  robb-stark  [OVERLORD_OF]  rickard-karstark  | 1
+  robb-stark  [OVERLORD_OF]  edmure-tully  | 1
+  robb-stark  [OWNS]  grey-wind  | 2
+  robb-stark  [PRISONER_OF]  cleos-frey  | 1
+  robb-stark  [PRISONER_OF]  jaime-lannister  | 1
+  robb-stark  [PROTECTS]  catelyn-stark  | 1
+  robb-stark  [RESENTS]  catelyn-stark  | 1
+  robb-stark  [RESPECTS]  jaime-lannister  | 1
+  robb-stark  [SERVES]  walder-frey  | 1
+  roose-bolton  [BETRAYS]  robb-stark  | 1
+  roose-bolton  [CAPTURES]  jaime-lannister  | 1
+  roose-bolton  [COMMANDS]  robb-stark  | 1
+  roose-bolton  [OPPOSES]  walder-frey  | 1
+  roose-bolton  [SERVES]  robb-stark  | 1
+  roose-bolton  [SWORN_TO]  robb-stark  | 1
+  siege-of-riverrun  [LOCATED_AT]  riverrun  | 1
+  stafford-lannister  [VICTIM_IN]  battle-of-oxcross  | 2
+  tytos-blackwood  [FIGHTS_IN]  battle-of-the-camps  | 1
+  tytos-blackwood  [RESCUES]  edmure-tully  | 1
+  tytos-blackwood  [RESPECTS]  brynden-tully  | 1
+  tywin-lannister  [ALLIES_WITH]  roose-bolton  | 1
+  tywin-lannister  [APPOINTS]  roose-bolton  | 1
+  tywin-lannister  [BORN_AT]  casterly-rock  | 2
+  tywin-lannister  [BURIED_AT]  casterly-rock  | 2
+  tywin-lannister  [COMMANDS]  jaime-lannister  | 1
+  tywin-lannister  [CONSPIRES_WITH]  walder-frey  | 1
+  tywin-lannister  [LOVES]  jaime-lannister  | 1
+  tywin-lannister  [PARENT_OF]  jaime-lannister  | 1
+  tywin-lannister  [RULES]  casterly-rock  | 2
+  tywin-lannister  [TRUSTS]  kevan-lannister  | 1
+  walder-frey  [BETRAYS]  robb-stark  | 1
+  walder-frey  [BORN_AT]  twins  | 2
+  walder-frey  [OPPOSES]  grey-wind  | 1
+  walder-frey  [RULES]  twins  | 2
+  walder-frey  [SWORN_TO]  hoster-tully  | 1
+  walder-frey  [SWORN_TO]  riverrun  | 1
+  walder-frey  [VIOLATES_GUEST_RIGHT]  robb-stark  | 1
+  walder-frey  [VIOLATES_GUEST_RIGHT]  catelyn-stark  | 1
+
+==============================================================================
+CAUSAL INTERNAL SUB-WEB (CAUSES/TRIGGERS/MOTIVATES/ENABLES): 2
+==============================================================================
+  execution-of-eddard-stark  [CAUSES]  robb-proclaimed-king-in-the-north
+  execution-of-eddard-stark  [MOTIVATES]  robb-stark
+
+==============================================================================
+EVENT-NODE causal degree (cOut/cIn) — 0/0 = causally ISLANDED hub (gap candidate)
+==============================================================================
+  battle-of-oxcross                          cOut= 0 cIn= 0  (tot out= 3 in= 7)  <-- CAUSALLY ISLANDED
+  battle-of-the-camps                        cOut= 0 cIn= 0  (tot out= 3 in=11)  <-- CAUSALLY ISLANDED
+  battle-of-the-fords                        cOut= 0 cIn= 0  (tot out= 2 in= 2)  <-- CAUSALLY ISLANDED
+  battle-of-the-whispering-wood              cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [NO node file]
+  battle-on-the-green-fork                   cOut= 0 cIn= 0  (tot out=16 in=13)  <-- CAUSALLY ISLANDED
+  execution-of-eddard-stark                  cOut= 2 cIn= 0  (tot out= 3 in=11)
+  robb-proclaimed-king-in-the-north          cOut= 0 cIn= 1  (tot out= 0 in= 2)
+  siege-of-riverrun                          cOut= 0 cIn= 0  (tot out= 3 in=15)  <-- CAUSALLY ISLANDED
+
+==============================================================================
+CAST/PLACE degree (out/in within core + boundary)
+==============================================================================
+  andros-brax                  core_out= 8 core_in= 0  boundary=  6
+  brynden-tully                core_out=19 core_in= 9  boundary= 15
+  casterly-rock                core_out= 3 core_in=23  boundary= 20
+  catelyn-stark                core_out=119 core_in=69  boundary=146
+  cleos-frey                   core_out=13 core_in= 8  boundary= 13
+  edmure-tully                 core_out=38 core_in=19  boundary= 28
+  forley-prester               core_out= 5 core_in= 0  boundary=  3
+  galbart-glover               core_out= 8 core_in= 0  boundary=  6
+  golden-tooth                 core_out= 2 core_in= 3  boundary=  5
+  green-fork                   core_out= 0 core_in= 3  boundary=  3
+  grey-wind                    core_out=15 core_in= 8  boundary= 10
+  harys-swyft                  core_out=15 core_in= 6  boundary= 18
+  hoster-tully                 core_out=18 core_in=17  boundary= 17
+  jaime-lannister              core_out=157 core_in=74  boundary=190
+  jon-umber                    core_out=17 core_in= 3  boundary= 15
+  karyl-vance                  core_out=10 core_in= 1  boundary= 11
+  kevan-lannister              core_out=23 core_in=13  boundary= 29
+  maege-mormont                core_out=12 core_in= 5  boundary= 13
+  marq-piper                   core_out= 8 core_in= 3  boundary= 10
+  rickard-karstark             core_out=18 core_in= 2  boundary= 12
+  riverrun                     core_out= 3 core_in=35  boundary= 25
+  robb-stark                   core_out=76 core_in=84  boundary=106
+  roose-bolton                 core_out=52 core_in=36  boundary= 75
+  stafford-lannister           core_out= 8 core_in= 5  boundary= 11
+  tumblestone                  core_out= 0 core_in= 0  boundary=  0
+  twins                        core_out= 2 core_in=50  boundary= 47
+  tytos-blackwood              core_out=19 core_in= 4  boundary= 18
+  tywin-lannister              core_out=79 core_in=46  boundary=111
+  walder-frey                  core_out=66 core_in=32  boundary= 79
+  whispering-wood              core_out= 0 core_in= 3  boundary=  3

@@ -4,6 +4,7 @@ type: event.battle
 slug: battle-of-the-camps
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_of_the_Camps"
 bucket_id: battles-b
 prompt_version: v1-python

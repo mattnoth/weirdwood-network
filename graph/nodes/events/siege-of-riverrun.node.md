@@ -4,6 +4,7 @@ type: event.battle
 slug: siege-of-riverrun
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Siege_of_Riverrun"
 bucket_id: battles-s-t
 prompt_version: v1-python

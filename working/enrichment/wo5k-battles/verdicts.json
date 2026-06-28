@@ -1,0 +1,14 @@
+{
+  "run_id": "wo5k-battles-enrichment-s163",
+  "verified_by": "fresh-verify-s163",
+  "drop": [],
+  "note_patch": {
+    "E14": "Theon rode in Robb's 30-man battle guard (cat-10:53, 'Theon Greyjoy' named) and is at the head of the victorious fighters dragging Jaime up the slope (cat-10:101, 'with Theon and the Greatjon at their head'); the node's wiki prose also states he 'kills men in the battle' (ACOK). Tier-2 -- present and fighting; the explicit book combat-act line is thin (the cat-10:53 guard-membership is the load-bearing basis)."
+  },
+  "bug_drop": [
+    ["roose-bolton", "CAPTURES", "jaime-lannister"],
+    ["catelyn-stark", "CAPTURES", "jaime-lannister"],
+    ["robb-stark", "PRISONER_OF", "jaime-lannister"]
+  ],
+  "bug_repoint": []
+}
