@@ -159,6 +159,29 @@ gets built then. Full sequence: **low-value remainders [DONE S131] → major nar
 > S137 "LLM sweep all 5 books as a dedicated session" framing was an over-extension Matt never asked for —
 > RETRACTED. See the deferred todo in `working/todos.md`.)
 
+> **Generalize "ask-and-get-descriptions" beyond food → a description-quote surface for a few high-traffic
+> NON-food classes (Matt, 2026-06-27, chat-UI demo).** The food model — every occurrence accrued to
+> `## Narrative Arc` (verbatim + `chapter:line`) + `## Quotes`, so "describe X" returns real book lines —
+> should extend to the OTHER description-rich classes a chat persona gets asked to *render on demand*:
+> **supernatural creatures** (the Others/white walkers, wights, giants, direwolves, dragons), **signature
+> artifacts/weapons** (Valyrian-steel blades, dragonglass, named swords), and maybe a few **iconic
+> structures** (the Wall, the Eyrie). The persona pattern Matt wants is *summary-with-embedded-quote*: the
+> sentence makes the claim, the verbatim line sits right where the claim lands ("their sword → *'alive with
+> moonlight, translucent, a shard of crystal…'*"). That only works if the quotes are already ON the node.
+> **Driver / worked example:** the demo's Others answer needed exactly that, but `graph/nodes/species/others.node.md`'s
+> `## Quotes` section was **EMPTY** — its body is non-navigable wiki `cite_ref` tags, so the book lines had to
+> be grepped live from the chapters. The Others is the natural pilot.
+> **Mechanism = the same dip machine, deterministic-first** (Python-before-agent): node→chapters is already in
+> the entity index → a Python grep of those chapters for descriptive lines (appearance / sensory /
+> signature-action keywords) seeds candidates → an agent SELECTS + FRAMES the strongest verbatim per
+> claim-facet (appearance, weapon, habitat, sound, origin) → verify-lines confirms each quote is verbatim at
+> its `chapter:line` → attach to `## Quotes` (+ Narrative Arc). NOT a freestyle prose pass; gated behind the
+> enrichment gate.
+> **Scope discipline:** a SMALL deliberately-curated class list — the entities a chat user actually asks "what
+> do they look like / what's their X" — NOT every node. Picking the list is its own planning step (like the
+> granular-dip list). Ties to: the chat-UI track (`working/chat-ui/`, persona is quote-first per the demo),
+> the book-citation-overlay value, and the ASOIAF design-value that physical descriptions are first-class.
+
 ---
 
 ## Ledger — enrichment passes per unit

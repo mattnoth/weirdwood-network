@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-25 (refreshed after S158)  
+**Generated:** 2026-06-25 (refreshed after S160)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-09-04-next-enrichment-s160-tyrion-essos.md` | 2026-09-04 | A2.4 Tyrion / Essos enrichment (A-roundup #5) | **LIVE** (graph) → fires as **S160** | Sonnet 4.6 lenses + Opus 4.8 synthesis | A2.4 = the 5th A-roundup dip. Tyrion's ADWD Essos journey: Pentos/Illyrio → the Shy Maid Rhoyne voyage → greyscale/stone men → Jorah capture → Volantis → the Penny slaver-auction/pale-mare → the Second Sons turn at Meereen. BUILD+ENRICH; DEDUP HEAVY (overlaps S147 Shy-Maid/AEGON voyage + S144 Meereen siege + S109/S139 Tywin's-death). `essos` IS an approved container — tag genuine Essos beats. AFTER: A2.5 WO5K-battles [LAST, multi-pass] → A2.8 Davos/Sam. |
+| `2026-09-04-next-enrichment-s161-tyrion-essos.md` | 2026-09-04 | A2.4 Tyrion / Essos enrichment (A-roundup #5) | **LIVE** (graph) → fires as **S161** (bumped from S160 — a meta chat-UI demo took S160) | Sonnet 4.6 lenses + Opus 4.8 synthesis | A2.4 = the 5th A-roundup dip. Tyrion's ADWD Essos journey: Pentos/Illyrio → the Shy Maid Rhoyne voyage → greyscale/stone men → Jorah capture → Volantis → the Penny slaver-auction/pale-mare → the Second Sons turn at Meereen. BUILD+ENRICH; DEDUP HEAVY (overlaps S147 Shy-Maid/AEGON voyage + S144 Meereen siege + S109/S139 Tywin's-death). `essos` IS an approved container — tag genuine Essos beats. AFTER: A2.5 WO5K-battles [LAST, multi-pass] → A2.8 Davos/Sam. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
@@ -101,10 +101,10 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > track's live prompt is the next enrichment dip (board-pick the arc first); the D&E Pass-1 track is PARKED. The
 > chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE (graph): `2026-09-04-next-enrichment-s160-tyrion-essos.md`** — **A2.4 Tyrion/Essos enrichment (fires as S160; A-roundup #5).** **22 major-arc dips shipped** —
+**LIVE (graph): `2026-09-04-next-enrichment-s161-tyrion-essos.md`** — **A2.4 Tyrion/Essos enrichment (fires as S161; A-roundup #5).** **22 major-arc dips shipped** —
 the reopened L1 round, the 3 A2 build+enrich arcs (S148–S150), the cheap L2 round (S151), the dedicated harvest pass (S152), both Class-D clusters
 (S153/S154), the **🅰 A-roundup so far: A2.7 Stannis S155 · A1.5 Dorne S156 · A1.6 Euron S157 · A2.6 Jaime/Riverlands S159**, and the S158 script-consolidation
-between. **S160 = A2.4 Tyrion/Essos:** the ADWD journey Pentos→Shy-Maid-Rhoyne-voyage→greyscale→Jorah-capture→Volantis→Penny-slaver-auction/pale-mare→the
+between (S160 = a meta chat-UI demo). **S161 = A2.4 Tyrion/Essos:** the ADWD journey Pentos→Shy-Maid-Rhoyne-voyage→greyscale→Jorah-capture→Volantis→Penny-slaver-auction/pale-mare→the
 Second-Sons turn at Meereen. BUILD+ENRICH, dedup HEAVY (overlaps S147 Shy-Maid/AEGON + S144 Meereen siege + S109/S139 Tywin's-death). `essos` IS an approved
 container — tag genuine Essos beats. **AFTER it: A2.5 WO5K-battles (LAST, multi-pass, its own mini-track)** → A2.8 Davos/Sam (`working/enrichment-coverage-plan.md`
 🅰 banner). Mint via the generic `mint_enrichment.py`/`finalize_enrichment.py`/`quotecheck_enrichment.py` (no per-dip clones — S158/S159). **Harvest queue at 25
