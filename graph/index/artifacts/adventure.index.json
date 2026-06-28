@@ -3,7 +3,7 @@
   "name": "Adventure",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/adventure.node.md",
-  "generated_at": "2026-06-28T01:06:51.373675+00:00",
+  "generated_at": "2026-06-28T04:58:18.113393+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 1,

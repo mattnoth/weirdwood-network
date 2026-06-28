@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "unit": "A2.4 Tyrion / Essos (supplement)",
+    "session": "S161",
+    "run_id": "tyrion-essos-enrichment-s161-suppl",
+    "new_node_slugs": [],
+    "note": "Supplement: the fresh-verify REJECTED E37 (tyrion-joins-the-second-sons ENABLES siege-of-meereen) — the siege predates the joining, so ENABLES over-claimed. Replacement seam per the verifier's recommendation: tyrion-lannister PARTICIPATES_IN siege-of-meereen (Tier-2), Tyrion now a non-combat strategic asset in the besieging Second Sons. Wires the Tyrion-Essos arc terminus into the S144 Meereen container honestly.",
+    "typed_by": "curator-tyrion-essos-enrichment"
+  },
+  "edges": [
+    {"id": "S1", "type": "PARTICIPATES_IN", "source": "tyrion-lannister", "target": "siege-of-meereen", "book": "adwd", "chapter": "adwd-tyrion-12", "quote": "The Second Sons are on the losing side.", "tier": "tier-2", "note": "Replacement for the rejected E37 ENABLES. Tyrion, now enrolled in the Second Sons in the Yunkish siege lines, reckons the siege from inside as a strategic asset (non-combat involvement). Honest seam wiring the Tyrion-Essos arc into siege-of-meereen without claiming the join enabled the pre-existing siege."}
+  ]
+}

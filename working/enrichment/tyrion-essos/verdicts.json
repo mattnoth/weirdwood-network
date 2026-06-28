@@ -1,0 +1,10 @@
+{
+  "run_id": "tyrion-essos-enrichment-s161",
+  "verified_by": "fresh-verify-s161",
+  "drop": ["E37", "E45"],
+  "note_patch": {
+    "E5": "CONFIRMED distinct from the existing jaime-reveals-tysha MOTIVATES tyrion: that edge drove the killing (Tysha revelation -> patricide); THIS edge is the post-patricide guilt/dissolution that governs the whole ADWD exile ('He drank his way across the narrow sea'; 'His father was dead. He'd killed him.')."
+  },
+  "bug_drop": [],
+  "bug_repoint": []
+}

@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-28T01:06:58.226670+00:00",
+  "computed_at": "2026-06-28T04:58:25.013101+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -9523,6 +9523,14 @@
         "source": "all-node-slug:medical"
       }
     ],
+    "bloody flux outbreak": [
+      {
+        "canonical_slug": "pale-mare-sweeps-the-yunkish-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "bloody gate": [
       {
         "canonical_slug": "bloody-gate",
@@ -12615,6 +12623,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "capture at selhorys": [
+      {
+        "canonical_slug": "jorah-captures-tyrion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "capture of arianne": [
@@ -20255,6 +20271,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "death of oppo": [
+      {
+        "canonical_slug": "oppo-killed-by-sailors-in-volantis",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "death of quentyn martell": [
@@ -46797,6 +46821,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "jorah captures tyrion": [
+      {
+        "canonical_slug": "jorah-captures-tyrion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "jorah mallister": [
       {
         "canonical_slug": "jorah-mallister",
@@ -46811,6 +46843,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "jorah mormont captures tyrion at selhorys": [
+      {
+        "canonical_slug": "jorah-captures-tyrion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "jorah mormont seizes tyrion": [
+      {
+        "canonical_slug": "jorah-captures-tyrion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jorah stark": [
@@ -47790,6 +47838,14 @@
     "killing of grey wind": [
       {
         "canonical_slug": "grey-wind-killed-at-the-twins",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "killing of groat": [
+      {
+        "canonical_slug": "oppo-killed-by-sailors-in-volantis",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -66545,6 +66601,22 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "oppo beheaded in volantis": [
+      {
+        "canonical_slug": "oppo-killed-by-sailors-in-volantis",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "oppo killed by sailors in volantis": [
+      {
+        "canonical_slug": "oppo-killed-by-sailors-in-volantis",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "orange": [
       {
         "canonical_slug": "orange",
@@ -67543,6 +67615,30 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "pale mare in the yunkish camp": [
+      {
+        "canonical_slug": "pale-mare-sweeps-the-yunkish-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "pale mare sweeps the siege camp": [
+      {
+        "canonical_slug": "pale-mare-sweeps-the-yunkish-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "pale mare sweeps the yunkish camp": [
+      {
+        "canonical_slug": "pale-mare-sweeps-the-yunkish-camp",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "palla": [
@@ -79335,6 +79431,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "shipwreck of the selaesori qhoran": [
+      {
+        "canonical_slug": "shipwreck-of-the-selaesori-qhoran",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "shireen baratheon": [
       {
         "canonical_slug": "shireen-baratheon",
@@ -80327,6 +80431,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "slaver's auction outside meereen": [
+      {
+        "canonical_slug": "tyrion-and-penny-sold-to-yezzan",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "slaver's bay": [
@@ -82245,6 +82357,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "stinky steward shipwreck": [
+      {
+        "canonical_slug": "shipwreck-of-the-selaesori-qhoran",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "stiv": [
       {
         "canonical_slug": "stiv",
@@ -83833,6 +83953,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "storm that broke the cog": [
+      {
+        "canonical_slug": "shipwreck-of-the-selaesori-qhoran",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "storm's end": [
@@ -89107,6 +89235,46 @@
         "source": "node-slug"
       }
     ],
+    "tyrion and penny enslaved": [
+      {
+        "canonical_slug": "tyrion-and-penny-sold-to-yezzan",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tyrion and penny sold to yezzan": [
+      {
+        "canonical_slug": "tyrion-and-penny-sold-to-yezzan",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "tyrion and penny sold to yezzan zo qaggaz": [
+      {
+        "canonical_slug": "tyrion-and-penny-sold-to-yezzan",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
+      }
+    ],
+    "tyrion arrives at pentos": [
+      {
+        "canonical_slug": "tyrion-arrives-in-pentos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tyrion arrives in pentos": [
+      {
+        "canonical_slug": "tyrion-arrives-in-pentos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "tyrion asks bronn to protect him in battle": [
       {
         "canonical_slug": "tyrion-asks-bronn-to-protect-him-in-battle",
@@ -89137,6 +89305,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "tyrion enrolls in the second sons": [
+      {
+        "canonical_slug": "tyrion-joins-the-second-sons",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "tyrion fights and kills": [
@@ -89193,6 +89369,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "tyrion in illyrio's manse": [
+      {
+        "canonical_slug": "tyrion-arrives-in-pentos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tyrion joins the second sons": [
+      {
+        "canonical_slug": "tyrion-joins-the-second-sons",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "tyrion kills his father": [
@@ -89315,6 +89507,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "tyrion signs the second sons' book": [
+      {
+        "canonical_slug": "tyrion-joins-the-second-sons",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "tyrion sold to yezzan": [
+      {
+        "canonical_slug": "tyrion-and-penny-sold-to-yezzan",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "tyrion tanner": [
       {
         "canonical_slug": "tyrion-tanner",
@@ -89329,6 +89537,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "tyrion's arrival in pentos": [
+      {
+        "canonical_slug": "tyrion-arrives-in-pentos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "tyrion's battle dream": [
@@ -95347,6 +95563,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "wreck of the selaesori qhoran": [
+      {
+        "canonical_slug": "shipwreck-of-the-selaesori-qhoran",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "wrong-way ranger": [
       {
         "canonical_slug": "richard-horpe",
@@ -96501,8 +96725,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19595,
-    "unique_phrases": 11958
+    "total_node_entries": 19630,
+    "unique_phrases": 11986
   },
   "version": "v1"
 }

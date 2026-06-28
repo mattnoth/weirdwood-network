@@ -933,3 +933,32 @@
 | open | quote | agot | agot-tyrion-03:107 | Jeor Mormont: "The fisherfolk near Eastwatch have glimpsed white walkers on the shore." — the Eastwatch sighting; attach to others / jeor-mormont / eastwatch-by-the-sea | demo Others Q&A |
 | open | quote | agot | agot-tyrion-03:109 | Tyrion (skeptic foil): "The fisherfolk of Lannisport often glimpse merlings." — carries the "Others are fairy tales now" theme; pair w/ :107 | demo Others Q&A |
 | open | quote | agot | agot-tyrion-03:207 | Tyrion atop the Wall: "felt as though he could almost believe the talk of the Others, the enemy in the night. His jokes of grumkins and snarks no longer seemed quite so droll." — skeptic's doubt-beat | demo Others Q&A |
+| open | food | adwd | adwd-tyrion-01:179 | Illyrio's first feast: broth of crab and monkfish, cold egg-lime soup, quails in honey, saddle of lamb, goose livers drowned in wine, buttered parsnips, suckling pig | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-01:213 | Illyrio's second course: heron stuffed with figs, veal cutlets blanched in almond milk, creamed herring, candied onions, snails and sweetbreads, a black swan in her plumage | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-01:247 | dessert at Illyrio's: black cherries in sweet cream | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-01:187 | the suspected-poison mushroom course "Kissed with garlic and bathed in butter" — Illyrio eats two to prove them safe (hospitality-test set-piece) | S161 tyrion-essos |
+| open | drink | adwd | adwd-tyrion-01:107 | Illyrio's cellar: Arbor gold, pale Pentoshi ambers, green nectar of Myr, wines from Qarth, Yi Ti and Asshai by the Shadow | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-02:31 | litter-journey fare: spiced sausage + smokeberry brown; jellied eels + Dornish reds; sliced hams, boiled eggs, larks stuffed with garlic; Myrish fire wine | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-03:53 | candied ginger — Illyrio's parting gift for Young Griff ("He was always fond of it") | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-03:147 | first Shy Maid meal: salt pork and cold white beans washed down with ale — "a pleasant change from all the rich food" | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-04:65 | Ysilla's shipboard cooking: biscuits and bacon, bacon and biscuits, a fish once a fortnight; hot biscuits dripping honey and butter | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-06:295 | Painted Turtle inn, Selhorys: roasted goat on sliced onions, spiced and fragrant, charred outside, red and juicy within | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-07:247 | Merchant's House breakfast (Tyrion in chains): warm flatbread, pink fish roe, honey sausage, fried locusts, bittersweet black ale | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-08:117 | shipboard supper on the Selaesori Qhoran: buttered beets, cold fish stew, biscuits "that could have been used to drive nails" | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-09:25 | Selaesori Qhoran rationing: captain's wine ran out; "You could get drunk much quicker on rum than on wine" | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-10:199 | Yunkish siege camp: "one man skinning a dog for his stewpot" — slave-camp dog stew | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-11:69 | Nurse's death soup: "dogtail soup, with slivers of mushroom in the broth" — Tyrion's poisoned meal (load-bearing; tyrions-mushrooms) | S161 tyrion-essos |
+| open | food | adwd | adwd-tyrion-12:183 | Kem's Flea Bottom bowl o' brown nostalgia: "So thick you could stand your spoon up in the bowl, with chunks of this and that" | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-01:55 | Illyrio: grotesque fat man, forked yellow beard, breasts "like sacks of suet," reminded Tyrion of "a dead sea cow" | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-01:159 | Illyrio's rings: onyx, opal, tiger's eye, tourmaline, ruby, amethyst, sapphire, emerald, jet, jade, a black diamond, a green pearl | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-03:185 | the Shy Maid: muddy greyish-brown paintwork, mottled and flaking — "She looks like dirt" | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-05:127 | Bridge of Dream: collapsed arches pulled down by grey moss; stone men shuffling around the lamps "like slow grey moths" | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-05:225 | Summer-Islander stone man: skin "black as midnight where it was not grey," cracked split knuckles seeping blood he doesn't feel | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-04:119 | Tyrion's jester motley (Lemore's handiwork): doublet split purple-velvet / yellow-wool, breeches split green / red-and-white | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-10:123 | Yezzan's gilded slave collars, his name in Valyrian glyphs, "a pair of tiny bells affixed below the ears" tinkling at every step | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-11:33 | Yezzan dying of the pale mare: "squirming fitfully in a pool of his own excrement … brown slime streaked with blood" | S161 tyrion-essos |
+| open | description | adwd | adwd-tyrion-12:213 | Jorah in mismatched company armor; the demon's-mask slave-brand burned into his right cheek "would never leave him" | S161 tyrion-essos |
+| open | object | adwd | adwd-tyrion-10:197 | six named Yunkish trebuchets: Dragonbreaker, Harridan, Harpy's Daughter, Wicked Sister, Ghost of Astapor, Mazdhan's Fist — attach to siege-of-meereen | S161 tyrion-essos |
+| open | quote | adwd | adwd-tyrion-12:81 | Second Sons company-book names Aegor Rivers (Bittersteel), Aerion Targaryen, Rodrik Stark "the Wandering Wolf" — book-citation overlay for those 3 nodes | S161 tyrion-essos |
+| open | quote | adwd | adwd-tyrion-02:165 | Illyrio keeps dead wife Serra's hands in his bedchamber, swears "by my sweet Serra's hands" — load-bearing for illyrio-mopatis node | S161 tyrion-essos |
+| open | quote | adwd | adwd-tyrion-08:49 | Moqorro's fire-vision of Tyrion: "A small man with a big shadow, snarling in the midst of all" — THEORY-GATED pointer (do not assert; node-prose only) | S161 tyrion-essos |

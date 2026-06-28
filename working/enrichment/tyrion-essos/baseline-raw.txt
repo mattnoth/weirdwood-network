@@ -1,0 +1,278 @@
+==============================================================================
+CORE slugs WITHOUT a node file (0) — candidates to BUILD if load-bearing:
+  
+==============================================================================
+
+INTERNAL EDGES (both endpoints in core): 180 unique
+==============================================================================
+  aegon-revealed-to-the-golden-company  [TRIGGERS]  golden-company-sails-for-westeros  | 2
+  aegon-targaryen-young-griff  [COMPANION_OF]  tyrion-lannister  | 1
+  aegon-targaryen-young-griff  [DEFEATS]  duck  | 1
+  aegon-targaryen-young-griff  [GUEST_OF]  ysilla  | 1
+  aegon-targaryen-young-griff  [MOTIVATES]  golden-company-sails-for-westeros  | 2
+  aegon-targaryen-young-griff  [OPPOSES]  jon-connington  | 1
+  aegon-targaryen-young-griff  [OWNS]  illyrios-ruby-chain  | 1
+  aegon-targaryen-young-griff  [PARTICIPATES_IN]  aegon-revealed-to-the-golden-company  | 2
+  aegon-targaryen-young-griff  [VICTIM_IN]  stone-men-attack-the-shy-maid  | 1
+  aegon-targaryen-young-griff  [WARD_OF]  jon-connington  | 1
+  battle-near-yunkai  [ENABLES]  siege-of-meereen  | 2
+  ben-plumm  [BETRAYS]  daenerys-targaryen  | 1
+  ben-plumm  [COMMANDS]  second-sons  | 1
+  ben-plumm  [COMMANDS_IN]  ben-plumm-defects-to-yunkai  | 1
+  ben-plumm  [SERVES]  daenerys-targaryen  | 1
+  ben-plumm  [SWORN_TO]  second-sons  | 2
+  daenerys-targaryen  [APPOINTS]  jorah-mormont  | 1
+  daenerys-targaryen  [BANISHES]  jorah-mormont  | 1
+  daenerys-targaryen  [COMMANDS]  jorah-mormont  | 1
+  daenerys-targaryen  [DISTRUSTS]  illyrio-mopatis  | 1
+  daenerys-targaryen  [DISTRUSTS]  mero  | 1
+  daenerys-targaryen  [DISTRUSTS]  ben-plumm  | 1
+  daenerys-targaryen  [DISTRUSTS]  jorah-mormont  | 1
+  daenerys-targaryen  [GUEST_OF]  illyrio-mopatis  | 1
+  daenerys-targaryen  [MOURNS]  jorah-mormont  | 1
+  daenerys-targaryen  [MOURNS]  ben-plumm  | 1
+  daenerys-targaryen  [RESENTS]  jorah-mormont  | 1
+  daenerys-targaryen  [RULES]  meereen  | 1
+  daenerys-targaryen  [SEEKS]  jorah-mormont  | 1
+  daenerys-targaryen  [TRUSTS]  jorah-mormont  | 1
+  duck  [COMPANION_OF]  tyrion-lannister  | 1
+  duck  [GUEST_OF]  ysilla  | 1
+  duck  [SERVES]  jon-connington  | 1
+  duck  [TEACHES]  aegon-targaryen-young-griff  | 1
+  duck  [VICTIM_IN]  stone-men-attack-the-shy-maid  | 2
+  exile-of-jon-connington  [ENABLES]  aegon-revealed-to-the-golden-company  | 2
+  fall-of-astapor  [ENABLES]  battle-near-yunkai  | 2
+  golden-company  [NEGOTIATES_WITH]  yunkai  | 2
+  golden-company-sails-for-westeros  [CAUSES]  landing-of-the-golden-company  | 2
+  greyscale  [MOTIVATES]  jon-connington  | 2
+  haldon  [COMPANION_OF]  tyrion-lannister  | 1
+  haldon  [CONTRADICTS]  ysilla  | 1
+  haldon  [DISTRUSTS]  tyrion-lannister  | 1
+  haldon  [SERVES]  jon-connington  | 1
+  haldon  [TRAVELS_WITH]  aegon-targaryen-young-griff  | 2
+  haldon  [TUTORS]  aegon-targaryen-young-griff  | 1
+  illyrio-mopatis  [ALLIES_WITH]  daenerys-targaryen  | 1
+  illyrio-mopatis  [ALLIES_WITH]  varys  | 1
+  illyrio-mopatis  [ALLIES_WITH]  jon-connington  | 1
+  illyrio-mopatis  [BORN_AT]  pentos  | 2
+  illyrio-mopatis  [COMPANION_OF]  varys  | 1
+  illyrio-mopatis  [CONSPIRES_WITH]  daenerys-targaryen  | 1
+  illyrio-mopatis  [CONSPIRES_WITH]  varys  | 1
+  illyrio-mopatis  [GIFTED_TO]  daenerys-targaryen  | 1
+  illyrio-mopatis  [GIFTED_TO]  aegon-targaryen-young-griff  | 1
+  illyrio-mopatis  [MARRIES_OFF]  daenerys-targaryen  | 1
+  illyrio-mopatis  [PROTECTS]  tyrion-lannister  | 1
+  illyrio-mopatis  [SEEKS]  tyrion-lannister  | 1
+  illyrio-mopatis  [TRUSTS]  jon-connington  | 1
+  jaime-frees-tyrion-from-the-black-cells  [CAUSES]  jaime-reveals-the-truth-of-tysha  | 2
+  jaime-frees-tyrion-from-the-black-cells  [ENABLES]  varys-smuggles-tyrion-out-of-kings-landing  | 2
+  jaime-reveals-the-truth-of-tysha  [CAUSES]  assassination-of-tywin-lannister  | 2
+  jaime-reveals-the-truth-of-tysha  [CAUSES]  tyrion-kills-shae-in-tywins-bed  | 2
+  jaime-reveals-the-truth-of-tysha  [MOTIVATES]  tyrion-lannister  | 2
+  jon-connington  [AFFLICTED_BY]  greyscale  | 1
+  jon-connington  [AGENT_IN]  aegon-revealed-to-the-golden-company  | 1
+  jon-connington  [COMMANDS]  aegon-targaryen-young-griff  | 1
+  jon-connington  [COMMANDS]  tyrion-lannister  | 1
+  jon-connington  [COMMANDS]  haldon  | 1
+  jon-connington  [DECEIVES]  golden-company  | 1
+  jon-connington  [DISTRUSTS]  tyrion-lannister  | 1
+  jon-connington  [DISTRUSTS]  haldon  | 1
+  jon-connington  [PARENT_OF]  aegon-targaryen-young-griff  | 1
+  jon-connington  [PROTECTS]  aegon-targaryen-young-griff  | 1
+  jon-connington  [RESCUES]  tyrion-lannister  | 1
+  jon-connington  [RESENTS]  illyrio-mopatis  | 1
+  jon-connington  [RESENTS]  varys  | 1
+  jon-connington  [SERVES]  tyrion-lannister  | 1
+  jon-connington  [SERVES]  illyrio-mopatis  | 1
+  jon-connington  [SWORN_TO]  golden-company  | 2
+  jon-connington  [TRUSTS]  lemore  | 1
+  jon-connington  [VICTIM_IN]  exile-of-jon-connington  | 1
+  jorah-mormont  [BETRAYS]  daenerys-targaryen  | 1
+  jorah-mormont  [CAPTURES]  tyrion-lannister  | 1
+  jorah-mormont  [COURTS]  daenerys-targaryen  | 1
+  jorah-mormont  [DISTRUSTS]  illyrio-mopatis  | 1
+  jorah-mormont  [LOVES]  daenerys-targaryen  | 1
+  jorah-mormont  [MEMBER_OF]  second-sons  | 1
+  jorah-mormont  [PROTECTS]  daenerys-targaryen  | 1
+  jorah-mormont  [PROTECTS]  tyrion-lannister  | 1
+  jorah-mormont  [RESPECTS]  daenerys-targaryen  | 1
+  jorah-mormont  [SERVES]  daenerys-targaryen  | 1
+  jorah-mormont  [SERVES]  varys  | 1
+  jorah-mormont  [SWORN_TO]  second-sons  | 2
+  kasporio  [DISTRUSTS]  tyrion-lannister  | 1
+  kasporio  [SWORN_TO]  second-sons  | 2
+  lemore  [COMPANION_OF]  tyrion-lannister  | 1
+  lemore  [GUARDS]  aegon-targaryen-young-griff  | 1
+  lemore  [HEALS]  tyrion-lannister  | 1
+  lemore  [PROTECTS]  aegon-targaryen-young-griff  | 1
+  lemore  [TRAVELS_WITH]  aegon-targaryen-young-griff  | 2
+  lemore  [TUTORS]  aegon-targaryen-young-griff  | 1
+  mero  [DIED_AT]  meereen  | 2
+  mero  [GUEST_OF]  daenerys-targaryen  | 1
+  mero  [SEEKS]  daenerys-targaryen  | 1
+  mero  [SWORN_TO]  second-sons  | 2
+  mero  [VICTIM_IN]  arstan-kills-mero  | 1
+  nurse  [BORN_AT]  slavers-bay  | 2
+  nurse  [DIED_AT]  meereen  | 2
+  oppo  [DIED_AT]  volantis  | 2
+  penny  [COMPANION_OF]  tyrion-lannister  | 1
+  penny  [GUEST_OF]  tyrion-lannister  | 1
+  penny  [LOVES]  tyrion-lannister  | 1
+  penny  [MOURNS]  oppo  | 1
+  penny  [OPPOSES]  tyrion-lannister  | 1
+  penny  [SWORN_TO]  second-sons  | 2
+  qavo-nogarys  [DEFEATS]  tyrion-lannister  | 1
+  rolly-duckfield  [PROTECTS]  aegon-targaryen-young-griff  | 1
+  rolly-duckfield  [SWORN_TO]  golden-company  | 2
+  rolly-duckfield  [TEACHES]  aegon-targaryen-young-griff  | 1
+  rolly-duckfield  [TRAVELS_WITH]  aegon-targaryen-young-griff  | 2
+  second-sons  [AGENT_IN]  ben-plumm-defects-to-yunkai  | 1
+  siege-of-meereen  [MOTIVATES]  daenerys-targaryen  | 2
+  stone-men  [AGENT_IN]  stone-men-attack-the-shy-maid  | 1
+  stone-men-attack-the-shy-maid  [LOCATED_AT]  shy-maid  | 1
+  tyrion-kills-shae-in-tywins-bed  [ENABLES]  assassination-of-tywin-lannister  | 2
+  tyrion-lannister  [AGENT_IN]  assassination-of-tywin-lannister  | 1
+  tyrion-lannister  [AGENT_IN]  tyrion-kills-shae-in-tywins-bed  | 1
+  tyrion-lannister  [AGENT_IN]  varys-smuggles-tyrion-out-of-kings-landing  | 1
+  tyrion-lannister  [ALLIES_WITH]  varys  | 1
+  tyrion-lannister  [ALLIES_WITH]  penny  | 1
+  tyrion-lannister  [COMPANION_OF]  penny  | 1
+  tyrion-lannister  [COMPANION_OF]  aegon-targaryen-young-griff  | 1
+  tyrion-lannister  [COMPANION_OF]  haldon  | 1
+  tyrion-lannister  [CONSPIRES_WITH]  varys  | 1
+  tyrion-lannister  [DISTRUSTS]  varys  | 1
+  tyrion-lannister  [DISTRUSTS]  illyrio-mopatis  | 1
+  tyrion-lannister  [DISTRUSTS]  lemore  | 1
+  tyrion-lannister  [GUEST_OF]  illyrio-mopatis  | 1
+  tyrion-lannister  [GUEST_OF]  jon-connington  | 1
+  tyrion-lannister  [GUEST_OF]  ysilla  | 1
+  tyrion-lannister  [HATES]  jorah-mormont  | 1
+  tyrion-lannister  [KILLS]  nurse  | 1
+  tyrion-lannister  [MANIPULATES]  aegon-targaryen-young-griff  | 2
+  tyrion-lannister  [MEMBER_OF]  second-sons  | 1
+  tyrion-lannister  [MOTIVATES]  golden-company-sails-for-westeros  | 2
+  tyrion-lannister  [OPPOSES]  jon-connington  | 1
+  tyrion-lannister  [OPPOSES]  jorah-mormont  | 1
+  tyrion-lannister  [OPPOSES]  kasporio  | 1
+  tyrion-lannister  [PROTECTS]  aegon-targaryen-young-griff  | 1
+  tyrion-lannister  [PROTECTS]  penny  | 1
+  tyrion-lannister  [RESPECTS]  varys  | 1
+  tyrion-lannister  [RESPECTS]  penny  | 1
+  tyrion-lannister  [SWORN_TO]  second-sons  | 2
+  tyrion-lannister  [TRAVELS_WITH]  jorah-mormont  | 1
+  tyrion-lannister  [TRUSTS]  varys  | 1
+  tyrion-lannister  [VICTIM_IN]  stone-men-attack-the-shy-maid  | 2
+  tyrion-lannister  [VICTIM_IN]  trial-of-tyrion-lannister  | 1
+  varys  [AGENT_IN]  varys-smuggles-tyrion-out-of-kings-landing  | 1
+  varys  [BETRAYS]  tyrion-lannister  | 1
+  varys  [COMMANDS]  jorah-mormont  | 1
+  varys  [COMMANDS_IN]  jaime-frees-tyrion-from-the-black-cells  | 1
+  varys  [CONSPIRES_WITH]  illyrio-mopatis  | 1
+  varys  [DECEIVES]  golden-company  | 2
+  varys  [MOTIVATES]  aegon-revealed-to-the-golden-company  | 2
+  varys  [PARTICIPATES_IN]  trial-of-tyrion-lannister  | 1
+  varys  [RESCUES]  tyrion-lannister  | 1
+  varys  [RESPECTS]  tyrion-lannister  | 1
+  varys  [SERVES]  tyrion-lannister  | 1
+  yandry  [CAPTAIN_OF]  shy-maid  | 2
+  yandry  [OPPOSES]  tyrion-lannister  | 1
+  yandry  [SPOUSE_OF]  ysilla  | 1
+  yandry  [TRAVELS_WITH]  aegon-targaryen-young-griff  | 2
+  yandry  [WORSHIPS]  mother-rhoyne  | 1
+  ysilla  [COMPANION_OF]  aegon-targaryen-young-griff  | 1
+  ysilla  [COMPANION_OF]  duck  | 1
+  ysilla  [CREW_OF]  shy-maid  | 1
+  ysilla  [FEARS]  tyrion-lannister  | 1
+  ysilla  [TRAVELS_WITH]  aegon-targaryen-young-griff  | 2
+  ysilla  [VICTIM_IN]  stone-men-attack-the-shy-maid  | 1
+
+==============================================================================
+CAUSAL INTERNAL SUB-WEB (CAUSES/TRIGGERS/MOTIVATES/ENABLES): 16
+==============================================================================
+  golden-company-sails-for-westeros  [CAUSES]  landing-of-the-golden-company
+  jaime-frees-tyrion-from-the-black-cells  [CAUSES]  jaime-reveals-the-truth-of-tysha
+  jaime-reveals-the-truth-of-tysha  [CAUSES]  assassination-of-tywin-lannister
+  jaime-reveals-the-truth-of-tysha  [CAUSES]  tyrion-kills-shae-in-tywins-bed
+  battle-near-yunkai  [ENABLES]  siege-of-meereen
+  exile-of-jon-connington  [ENABLES]  aegon-revealed-to-the-golden-company
+  fall-of-astapor  [ENABLES]  battle-near-yunkai
+  jaime-frees-tyrion-from-the-black-cells  [ENABLES]  varys-smuggles-tyrion-out-of-kings-landing
+  tyrion-kills-shae-in-tywins-bed  [ENABLES]  assassination-of-tywin-lannister
+  aegon-targaryen-young-griff  [MOTIVATES]  golden-company-sails-for-westeros
+  greyscale  [MOTIVATES]  jon-connington
+  jaime-reveals-the-truth-of-tysha  [MOTIVATES]  tyrion-lannister
+  siege-of-meereen  [MOTIVATES]  daenerys-targaryen
+  tyrion-lannister  [MOTIVATES]  golden-company-sails-for-westeros
+  varys  [MOTIVATES]  aegon-revealed-to-the-golden-company
+  aegon-revealed-to-the-golden-company  [TRIGGERS]  golden-company-sails-for-westeros
+
+==============================================================================
+EVENT-NODE causal degree (cOut/cIn) — 0/0 = causally ISLANDED hub (gap candidate)
+==============================================================================
+  aegon-revealed-to-the-golden-company                 cOut= 1 cIn= 2  (tot out= 1 in= 8)
+  arstan-kills-mero                                    cOut= 0 cIn= 0  (tot out= 0 in= 3)  <-- CAUSALLY ISLANDED
+  assassination-of-tywin-lannister                     cOut= 0 cIn= 2  (tot out= 3 in= 5)
+  battle-near-yunkai                                   cOut= 1 cIn= 1  (tot out= 3 in= 2)
+  battle-of-yunkai                                     cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [0 edges in core]
+  ben-plumm-defects-to-yunkai                          cOut= 0 cIn= 0  (tot out= 0 in= 2)  <-- CAUSALLY ISLANDED
+  exile-of-jon-connington                              cOut= 1 cIn= 0  (tot out= 1 in= 3)
+  fall-of-astapor                                      cOut= 1 cIn= 0  (tot out= 2 in= 1)
+  golden-company-sails-for-westeros                    cOut= 1 cIn= 3  (tot out= 1 in= 4)
+  jaime-frees-tyrion-from-the-black-cells              cOut= 2 cIn= 0  (tot out= 3 in= 3)
+  jaime-reveals-the-truth-of-tysha                     cOut= 3 cIn= 1  (tot out= 4 in= 2)
+  landing-of-the-golden-company                        cOut= 0 cIn= 1  (tot out= 2 in=10)
+  second-siege-of-meereen                              cOut= 0 cIn= 0  (tot out= 0 in= 2)  <-- CAUSALLY ISLANDED
+  siege-of-meereen                                     cOut= 1 cIn= 1  (tot out= 3 in= 3)
+  stone-men-attack-the-shy-maid                        cOut= 0 cIn= 0  (tot out= 1 in= 5)  <-- CAUSALLY ISLANDED
+  trial-of-tyrion-lannister                            cOut= 0 cIn= 0  (tot out= 2 in=15)  <-- CAUSALLY ISLANDED
+  tyrion-kills-shae-in-tywins-bed                      cOut= 1 cIn= 1  (tot out= 2 in= 4)
+  varys-smuggles-tyrion-out-of-kings-landing           cOut= 0 cIn= 1  (tot out= 1 in= 3)
+  wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen   cOut= 0 cIn= 0  (tot out= 1 in= 4)  <-- CAUSALLY ISLANDED
+
+==============================================================================
+CAST/PLACE degree (out/in within core + boundary)
+==============================================================================
+  aegon-targaryen-young-griff    core_out=18 core_in=22  boundary= 11
+  ben-plumm                      core_out= 7 core_in= 5  boundary=  5
+  bloody-flux                    core_out= 0 core_in= 0  boundary=  0
+  bridge-of-dream                core_out= 0 core_in= 0  boundary=  0
+  cyvasse                        core_out= 0 core_in= 0  boundary=  0
+  daenerys-targaryen             core_out=171 core_in=137  boundary=279
+  duck                           core_out= 7 core_in= 2  boundary=  2
+  golden-company                 core_out= 1 core_in=36  boundary= 32
+  greyscale                      core_out= 1 core_in= 1  boundary=  0
+  haldon                         core_out=10 core_in= 3  boundary=  4
+  illyrio-mopatis                core_out=19 core_in=14  boundary= 12
+  illyrios-chests                core_out= 0 core_in= 0  boundary=  0
+  illyrios-manse                 core_out= 0 core_in= 0  boundary=  0
+  illyrios-ruby-chain            core_out= 0 core_in= 1  boundary=  0
+  jon-connington                 core_out=49 core_in=21  boundary= 43
+  jorah-mormont                  core_out=48 core_in=18  boundary= 42
+  kasporio                       core_out= 3 core_in= 2  boundary=  2
+  lemore                         core_out=11 core_in= 2  boundary=  5
+  little-rhoyne                  core_out= 0 core_in= 0  boundary=  0
+  meereen                        core_out=12 core_in=53  boundary= 62
+  meris                          core_out= 4 core_in= 2  boundary=  6
+  mero                           core_out= 7 core_in= 1  boundary=  2
+  mother-rhoyne                  core_out= 0 core_in= 1  boundary=  0
+  nurse                          core_out= 5 core_in= 1  boundary=  3
+  oppo                           core_out= 2 core_in= 2  boundary=  2
+  penny                          core_out=14 core_in= 6  boundary= 10
+  pentos                         core_out= 0 core_in=16  boundary= 15
+  qavo-nogarys                   core_out= 2 core_in= 0  boundary=  1
+  rhoyne                         core_out= 0 core_in= 0  boundary=  0
+  rolly-duckfield                core_out=10 core_in= 0  boundary=  6
+  second-sons                    core_out= 1 core_in=23  boundary= 14
+  selhorys                       core_out= 0 core_in= 2  boundary=  2
+  shy-maid                       core_out= 0 core_in= 3  boundary=  0
+  slavers-bay                    core_out= 0 core_in=15  boundary= 14
+  stone-men                      core_out= 1 core_in= 1  boundary=  1
+  tyrion-lannister               core_out=224 core_in=136  boundary=301
+  tyrions-mushrooms              core_out= 0 core_in= 0  boundary=  0
+  upper-rhoyne                   core_out= 0 core_in= 0  boundary=  0
+  varys                          core_out=43 core_in=21  boundary= 43
+  volantis                       core_out= 1 core_in=10  boundary= 10
+  widow-of-the-waterfront        core_out= 0 core_in= 1  boundary=  1
+  yandry                         core_out= 7 core_in= 0  boundary=  2
+  ysilla                         core_out= 8 core_in= 6  boundary=  3
+  yunkai                         core_out= 2 core_in=27  boundary= 28
