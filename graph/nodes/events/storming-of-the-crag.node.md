@@ -4,6 +4,7 @@ type: event.battle
 slug: storming-of-the-crag
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Storming_of_the_Crag"
 bucket_id: battles-s-t
 prompt_version: v1-python
@@ -47,3 +48,5 @@ Robb is nursed back to health by Lady [Jeyne Westerling](wiki:Jeyne_Westerling).
 > **Robb**: I took her castle and she took my heart. The [Crag](wiki:Crag) was weakly garrisoned, so we took it by storm one night. [Black Walder](wiki:Walder_Frey_(son_of_Ryman)) and [the Smalljon](wiki:Jon_Umber_(son_of_Jon)) led scaling parties over the walls, while I broke the main gate with a ram. I took an arrow in the arm just before Ser [Rolph](wiki:Rolph_Spicer) yielded us the castle. It seemed nothing at first, but it festered. [Jeyne](wiki:Jeyne_Westerling) had me taken to her own bed, and she nursed me until the fever passed. And she was with me when [the Greatjon](wiki:Jon_Umber) brought me the news of ... of [Winterfell](wiki:Capture_of_Winterfell). [Bran](wiki:Bran_Stark) and [Rickon](wiki:Rickon_Stark). That night, she ... she comforted me, Mother. **Catelyn**: And you wed her the next day.(wiki:Storming_of_the_Crag.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 >
 > —[Robb Stark](wiki:Robb_Stark) and [Catelyn Stark](wiki:Catelyn_Stark)
+
+> **Book-cited (S164 book-citation overlay — PASS 2):** the Crag-storming account above is navigable at `asos-catelyn-02:143` (verbatim). Grey Wind's raid kill-tally — *"Grey Wind killed a man at the Crag, another at Ashemark, and six or seven at Oxcross."* — is `asos-catelyn-02:185`. Robb's framing of the Crag→marriage nexus — *"I took her castle and she took my heart."* — `asos-catelyn-02:143`.

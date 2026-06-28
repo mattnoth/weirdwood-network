@@ -1,0 +1,10 @@
+{
+  "run_id": "wo5k-battles-pass2-enrichment-s164",
+  "verified_by": "fresh-verify-s164",
+  "drop": [],
+  "note_patch": {
+    "E11": "Robb took an arrow wound in the arm storming the Crag; it festered, and Jeyne Westerling took him to her own bed and nursed him through the fever -- the full sentence at asos-catelyn-02:143 reads 'Jeyne had me taken to her own bed, and she nursed me until the fever passed', so the minted evidence_quote substring 'she nursed me until the fever passed' refers to Jeyne (the explicit healer). The nursing led directly to the marriage (and, via the Frey slight, to the Red Wedding). HEALS (healer -> healed)."
+  },
+  "bug_drop": [],
+  "bug_repoint": []
+}

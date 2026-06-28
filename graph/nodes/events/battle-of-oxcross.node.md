@@ -4,6 +4,7 @@ type: event.battle
 slug: battle-of-oxcross
 aliases: []
 confidence: tier-2
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_of_Oxcross"
 bucket_id: tier3-pathb-events
 prompt_version: v1-python
@@ -50,3 +51,5 @@ Remembering his uncle Stafford's mistake, Ser [Jaime Lannister](wiki:Jaime_Lanni
 Using some vile sorcery, [your brother](wiki:Robb_Stark) fell upon Ser [Stafford Lannister](wiki:Stafford_Lannister) with an army of [wargs](wiki:Warg), not three days ride from [Lannisport](wiki:Lannisport). Thousands of good men were butchered as they slept, without the chance to lift sword. After the slaughter, the [northmen](wiki:Northmen) feasted on the [flesh of the slain](wiki:Cannibalism).(wiki:Battle_of_Oxcross.cite_ref-Racok32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 Do not take Oxcross too much to heart, my lady. A battle is not a war, and [my lord father](wiki:Tywin_Lannister) is assuredly not [my uncle Stafford](wiki:Stafford_Lannister).(wiki:Battle_of_Oxcross.cite_ref-Racok32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 Martyn: There's some say that after the battle, [the king](wiki:Robb_Stark) cut out [Stafford Lannister](wiki:Stafford_Lannister)'s heart and fed it to [the wolf](wiki:Grey_Wind). Catelyn: I would not believe such tales. My son is no savage.(wiki:Battle_of_Oxcross.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+
+> **Book-cited (S164 book-citation overlay — PASS 2):** Tyrion's first-hand account of how the battle was won — *"The northmen crept into my uncle's camp and cut his horse lines, and Lord Stark sent his wolf among them. Even war-trained destriers went mad. Knights were trampled to death in their pavilions, and the rabble woke in terror and fled, casting aside their weapons to run the faster. Ser Stafford was slain as he chased after a horse. Lord Rickard Karstark drove a lance through his chest."* — `acok-sansa-03:153`. Lancel's "vile sorcery" propaganda above is `acok-sansa-03:39`; Tyrion's "Do not take Oxcross too much to heart" is `acok-sansa-03:185`. Rymund the Rhymer's victory song — *"And the stars in the night were the eyes of his wolves, and the wind itself was their song."* — `acok-catelyn-06:181`.

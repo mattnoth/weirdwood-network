@@ -1,0 +1,193 @@
+==============================================================================
+CORE slugs WITHOUT a live node file (0) — candidates to BUILD if load-bearing:
+  (none — all core slugs resolve to live nodes)
+==============================================================================
+
+INTERNAL EDGES (both endpoints in core): 126 unique
+==============================================================================
+  battle-in-the-whispering-wood  [ENABLES]  battle-of-the-camps  | tier-2
+  battle-in-the-whispering-wood  [PRECEDES]  battle-of-the-camps  | 3
+  battle-of-oxcross  [LOCATED_AT]  oxcross  | 2
+  battle-of-oxcross  [PRECEDES]  harrying-of-the-stony-shore  | 3
+  battle-of-the-camps  [ENABLES]  robb-proclaimed-king-in-the-north  | tier-2
+  castamere  [SEAT_OF]  house-spicer  | 2
+  casterly-rock  [SEAT_OF]  house-lannister  | 2
+  crag  [SEAT_OF]  house-westerling  | 2
+  gawen-westerling  [BORN_AT]  crag  | 2
+  gawen-westerling  [PARENT_OF]  raynald-westerling  | 2
+  gawen-westerling  [PARENT_OF]  jeyne-westerling  | 2
+  gawen-westerling  [PARENT_OF]  rollam-westerling  | 2
+  gawen-westerling  [RULES]  house-westerling  | 2
+  gawen-westerling  [SPOUSE_OF]  sybell-spicer  | 2
+  gawen-westerling  [SWORN_TO]  house-westerling  | 2
+  gawen-westerling  [VICTIM_IN]  battle-in-the-whispering-wood  | tier-2
+  grey-wind  [AGENT_IN]  battle-of-oxcross  | 2
+  grey-wind  [BONDED_TO]  robb-stark  | 1
+  grey-wind  [COMPANION_OF]  robb-stark  | 1
+  grey-wind  [FIGHTS_IN]  battle-of-the-camps  | 2
+  grey-wind  [FIGHTS_IN]  battle-in-the-whispering-wood  | tier-1
+  grey-wind  [OPPOSES]  rolph-spicer  | 1
+  grey-wind  [PROTECTS]  robb-stark  | 1
+  house-lannister  [OVERLORD_OF]  house-spicer  | 2
+  house-lannister  [OVERLORD_OF]  house-westerling  | 2
+  house-stark  [OVERLORD_OF]  house-westerling  | 2
+  house-westerling  [GUEST_OF]  house-lannister  | 1
+  jaime-lannister  [BORN_AT]  casterly-rock  | 2
+  jaime-lannister  [COMMANDS_IN]  battle-of-the-camps  | 2
+  jaime-lannister  [HATES]  stafford-lannister  | 1
+  jaime-lannister  [HATES]  sybell-spicer  | 1
+  jaime-lannister  [MOURNS]  tywin-lannister  | 1
+  jaime-lannister  [NEPHEW_OF]  kevan-lannister  | 1
+  jaime-lannister  [OPPOSES]  robb-stark  | 1
+  jaime-lannister  [PARALLELS]  tywin-lannister  | 1
+  jaime-lannister  [PRISONER_OF]  robb-stark  | 1
+  jaime-lannister  [SWORN_TO]  house-lannister  | 2
+  jaime-lannister  [VICTIM_IN]  battle-in-the-whispering-wood  | tier-1
+  jeyne-westerling  [AGENT_IN]  robb-weds-jeyne-westerling  | 1
+  jeyne-westerling  [BORN_AT]  crag  | 2
+  jeyne-westerling  [FEARS]  grey-wind  | 1
+  jeyne-westerling  [GUEST_OF]  jaime-lannister  | 1
+  jeyne-westerling  [MOURNS]  robb-stark  | 1
+  jeyne-westerling  [SPOUSE_OF]  robb-stark  | 1
+  jeyne-westerling  [SWORN_TO]  house-westerling  | 2
+  jeyne-westerling  [SWORN_TO]  house-stark  | 2
+  jon-umber  [COMMANDS]  robb-stark  | 1
+  jon-umber  [FIGHTS_IN]  battle-of-the-camps  | 2
+  jon-umber  [FIGHTS_IN]  battle-in-the-whispering-wood  | tier-1
+  jon-umber  [PARENT_OF]  jon-umber-son-of-jon  | 2
+  jon-umber  [SERVES]  house-stark  | 1
+  jon-umber  [SERVES]  robb-stark  | 1
+  jon-umber  [SWORN_TO]  robb-stark  | 1
+  jon-umber-son-of-jon  [PROTECTS]  robb-stark  | 1
+  kevan-lannister  [BORN_AT]  casterly-rock  | 2
+  kevan-lannister  [LOVES]  tywin-lannister  | 1
+  kevan-lannister  [PARENT_OF]  martyn-lannister  | 2
+  kevan-lannister  [SERVES]  tywin-lannister  | 1
+  kevan-lannister  [SWORN_TO]  house-lannister  | 2
+  martyn-lannister  [SWORN_TO]  house-lannister  | 2
+  martyn-lannister  [VICTIM_IN]  battle-of-oxcross  | 2
+  raynald-westerling  [BORN_AT]  crag  | 2
+  raynald-westerling  [SWORN_TO]  house-westerling  | 2
+  rickard-karstark  [AGENT_IN]  battle-of-oxcross  | 2
+  rickard-karstark  [FIGHTS_IN]  battle-in-the-whispering-wood  | tier-1
+  rickard-karstark  [OPPOSES]  robb-stark  | 1
+  rickard-karstark  [SEEKS]  jaime-lannister  | 1
+  rickard-karstark  [SWORN_TO]  robb-stark  | 1
+  robb-receives-false-news-of-brans-death  [MOTIVATES]  robb-stark  | 2
+  robb-receives-false-news-of-brans-death  [TRIGGERS]  robb-weds-jeyne-westerling  | 2
+  robb-stark  [AGENT_IN]  robb-weds-jeyne-westerling  | 1
+  robb-stark  [AGENT_IN]  robb-proclaimed-king-in-the-north  | 1
+  robb-stark  [AGENT_IN]  battle-in-the-whispering-wood  | tier-1
+  robb-stark  [BONDED_TO]  grey-wind  | 1
+  robb-stark  [COMMANDS]  grey-wind  | 1
+  robb-stark  [COMMANDS_IN]  battle-of-oxcross  | 2
+  robb-stark  [COMMANDS_IN]  battle-of-the-camps  | 2
+  robb-stark  [COMMANDS_IN]  battle-in-the-whispering-wood  | tier-1
+  robb-stark  [COMPANION_OF]  grey-wind  | 1
+  robb-stark  [EXECUTES]  rickard-karstark  | 1
+  robb-stark  [LOVES]  jeyne-westerling  | 1
+  robb-stark  [OVERLORD_OF]  jon-umber  | 1
+  robb-stark  [OVERLORD_OF]  rickard-karstark  | 1
+  robb-stark  [OWNS]  grey-wind  | 2
+  robb-stark  [PROTECTS]  raynald-westerling  | 1
+  robb-stark  [RESPECTS]  jaime-lannister  | 1
+  robb-stark  [SPOUSE_OF]  jeyne-westerling  | 1
+  robb-weds-jeyne-westerling  [LOCATED_AT]  crag  | 1
+  robb-weds-jeyne-westerling  [TRIGGERS]  red-wedding-conspiracy  | 2
+  rollam-westerling  [BORN_AT]  crag  | 2
+  rollam-westerling  [HEIR_TO]  house-westerling  | 2
+  rollam-westerling  [SERVES]  robb-stark  | 1
+  rollam-westerling  [SWORN_TO]  house-westerling  | 2
+  rolph-spicer  [FOUNDED]  house-spicer  | 2
+  rolph-spicer  [RULES]  castamere  | 2
+  rolph-spicer  [RULES]  house-spicer  | 2
+  rolph-spicer  [SWORN_TO]  house-spicer  | 2
+  rolph-spicer  [SWORN_TO]  house-westerling  | 2
+  stafford-lannister  [DIED_AT]  oxcross  | 2
+  stafford-lannister  [SWORN_TO]  house-lannister  | 2
+  stafford-lannister  [VICTIM_IN]  battle-of-oxcross  | 2
+  stevron-frey  [COMPANION_OF]  robb-stark  | 1
+  stevron-frey  [DIED_AT]  oxcross  | 2
+  stevron-frey  [VICTIM_IN]  battle-of-oxcross  | 2
+  storming-of-the-crag  [ENABLES]  robb-weds-jeyne-westerling  | 2
+  sybell-spicer  [COMMANDS]  jeyne-westerling  | 1
+  sybell-spicer  [CONSPIRES_WITH]  tywin-lannister  | 1
+  sybell-spicer  [FEARS]  grey-wind  | 1
+  sybell-spicer  [GUEST_OF]  jaime-lannister  | 1
+  sybell-spicer  [HEIR_TO]  house-spicer  | 2
+  sybell-spicer  [PARENT_OF]  jeyne-westerling  | 2
+  sybell-spicer  [PARENT_OF]  raynald-westerling  | 2
+  sybell-spicer  [PARENT_OF]  rollam-westerling  | 2
+  sybell-spicer  [SWORN_TO]  house-spicer  | 2
+  sybell-spicer  [SWORN_TO]  house-westerling  | 2
+  tywin-lannister  [BORN_AT]  casterly-rock  | 2
+  tywin-lannister  [BURIED_AT]  casterly-rock  | 2
+  tywin-lannister  [COMMANDS]  jaime-lannister  | 1
+  tywin-lannister  [COMMANDS_IN]  red-wedding-conspiracy  | 2
+  tywin-lannister  [LOVES]  jaime-lannister  | 1
+  tywin-lannister  [PARENT_OF]  jaime-lannister  | 1
+  tywin-lannister  [PROTECTS]  house-stark  | 1
+  tywin-lannister  [RULES]  casterly-rock  | 2
+  tywin-lannister  [SWORN_TO]  house-lannister  | 2
+  tywin-lannister  [TRUSTS]  kevan-lannister  | 1
+  walder-frey-son-of-ryman  [OPPOSES]  robb-stark  | 1
+
+==============================================================================
+CAUSAL INTERNAL SUB-WEB (CAUSES/TRIGGERS/MOTIVATES/ENABLES): 6
+==============================================================================
+  battle-in-the-whispering-wood  [ENABLES]  battle-of-the-camps
+  battle-of-the-camps  [ENABLES]  robb-proclaimed-king-in-the-north
+  storming-of-the-crag  [ENABLES]  robb-weds-jeyne-westerling
+  robb-receives-false-news-of-brans-death  [MOTIVATES]  robb-stark
+  robb-receives-false-news-of-brans-death  [TRIGGERS]  robb-weds-jeyne-westerling
+  robb-weds-jeyne-westerling  [TRIGGERS]  red-wedding-conspiracy
+
+==============================================================================
+EVENT-NODE causal degree (cOut/cIn) — 0/0 = causally ISLANDED hub (gap candidate)
+==============================================================================
+  battle-in-the-whispering-wood              cOut= 1 cIn= 0  (tot out= 4 in=18)
+  battle-of-oxcross                          cOut= 0 cIn= 0  (tot out= 3 in= 7)  <-- CAUSALLY ISLANDED
+  battle-of-the-camps                        cOut= 1 cIn= 1  (tot out= 4 in=13)
+  harrying-of-the-stony-shore                cOut= 0 cIn= 0  (tot out= 3 in= 3)  <-- CAUSALLY ISLANDED
+  red-wedding-conspiracy                     cOut= 0 cIn= 1  (tot out= 2 in= 8)
+  robb-proclaimed-king-in-the-north          cOut= 0 cIn= 1  (tot out= 0 in= 3)
+  robb-receives-false-news-of-brans-death    cOut= 2 cIn= 0  (tot out= 2 in= 1)
+  robb-weds-jeyne-westerling                 cOut= 1 cIn= 2  (tot out= 2 in= 4)
+  storming-of-the-crag                       cOut= 1 cIn= 0  (tot out= 3 in= 1)
+  taking-of-ashemark                         cOut= 0 cIn= 0  (tot out= 2 in= 1)  <-- CAUSALLY ISLANDED
+
+==============================================================================
+CAST/PLACE/HOUSE degree (out/in within core + boundary)
+==============================================================================
+  ashemark                     core_out= 2 core_in= 2  boundary=  4
+  black-walder-frey            core_out= 3 core_in= 0  boundary=  3
+  castamere                    core_out= 3 core_in= 5  boundary=  6
+  casterly-rock                core_out= 3 core_in=23  boundary= 20
+  crag                         core_out= 1 core_in= 6  boundary=  1
+  gawen-westerling             core_out=11 core_in= 0  boundary=  3
+  golden-tooth                 core_out= 2 core_in= 3  boundary=  5
+  grey-wind                    core_out=16 core_in= 8  boundary= 11
+  house-lannister              core_out=66 core_in=137  boundary=194
+  house-spicer                 core_out= 1 core_in= 9  boundary=  3
+  house-stark                  core_out=55 core_in=160  boundary=211
+  house-westerling             core_out= 3 core_in=18  boundary=  9
+  jaime-lannister              core_out=165 core_in=72  boundary=219
+  jeyne-westerling             core_out=14 core_in= 7  boundary=  8
+  jon-umber                    core_out=18 core_in= 3  boundary= 13
+  jon-umber-son-of-jon         core_out= 6 core_in= 1  boundary=  5
+  kevan-lannister              core_out=23 core_in=13  boundary= 29
+  lannisport                   core_out= 6 core_in= 4  boundary= 10
+  lymond-vikary                core_out= 4 core_in= 0  boundary=  4
+  martyn-lannister             core_out= 4 core_in= 2  boundary=  3
+  oxcross                      core_out= 0 core_in= 5  boundary=  2
+  raynald-westerling           core_out= 6 core_in= 3  boundary=  4
+  rickard-karstark             core_out=19 core_in= 2  boundary= 14
+  robb-stark                   core_out=79 core_in=84  boundary=129
+  rollam-westerling            core_out= 6 core_in= 2  boundary=  2
+  rolph-spicer                 core_out=10 core_in= 1  boundary=  5
+  stafford-lannister           core_out= 8 core_in= 5  boundary=  9
+  stevron-frey                 core_out=15 core_in= 5  boundary= 17
+  stone-mill                   core_out= 0 core_in= 0  boundary=  0
+  sybell-spicer                core_out=13 core_in= 2  boundary=  3
+  tywin-lannister              core_out=79 core_in=46  boundary=110
+  walder-frey-son-of-ryman     core_out= 4 core_in= 3  boundary=  6
