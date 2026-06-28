@@ -78,6 +78,10 @@ At [White Harbor](wiki:White_Harbor), [Davos Seaworth](wiki:Davos_Seaworth) lear
 >
 > —[Bran Stark](wiki:Bran_Stark) and Osha
 
+> "Why do you think I run south with Stiv and Hali and the rest of them fools? Mance thinks he'll fight, the brave sweet stubborn man, like the white walkers were no more than rangers, but what does he know? He can call himself King-beyond-the-Wall all he likes, but he's still just another old black crow who flew down from the Shadow Tower. He's never tasted winter. I was born up there, child, like my mother and her mother before her and her mother before her, born of the Free Folk. We remember."
+>
+> — Osha to Bran Stark, AGOT Bran VI, `sources/chapters/agot/agot-bran-06.md:145` (load-bearing: Osha fled the Others; wildlings FLEE the Others, not allied with them; Mance dismissed as underestimating the threat)
+
 > **Bran**: But the [children of the forest](wiki:Children_of_the_forest) are all gone now, you said.
 >
 > **Osha**: [Here](wiki:North), they are. [North of the Wall](wiki:Beyond_the_Wall), things are different. That's where the children went, and the [giants](wiki:Giants), and the other old races.

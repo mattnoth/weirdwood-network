@@ -30,6 +30,10 @@ Bread is the most common staple food across the Seven Kingdoms — served at nea
 
 As Eddard Stark lies a prisoner under sentence and his daughter Sansa's life hangs in the balance, Varys frames the choice he is offering with a homely image of mercy: "The next visitor who calls on you could bring you bread and cheese and the milk of the poppy for your pain … or he could bring you Sansa's head." Bread and cheese stand here for ordinary comfort and survival, set against the threat of execution. (Eddard XV, AGOT — `sources/chapters/agot/agot-eddard-15.md:155`)
 
+### A Feast for Crows
+
+- (Jaime VI, AFFC — `sources/chapters/affc/affc-jaime-06.md:309`) Hospitality-as-coercion for captive Edmure Tully: Jaime orders "wine and food" plus a singer for the prisoner; "Lew, heat some bathwater for my guest … Peck, wine for Lord Tully. Are you hungry?" Meanwhile Little Lew Piper hollows a stale-bread trencher — bread here as the container for Edmure's first proper meal as prisoner, the trencher's staleness marking his humiliation.
+
 ### A Storm of Swords
 
 - (Epilogue, ASOS — `sources/chapters/asos/asos-epilogue.md:11`) Riverlands famine signal: "Between rains, floods, fire, and war, they had lost two harvests" — bread absent as the staple it should be; macro famine registered through its absence.

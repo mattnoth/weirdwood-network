@@ -69,6 +69,10 @@ In order to save thousands of wildlings trapped at [Hardhome](wiki:Hardhome), Co
 
 ## Quotes
 
+> "The fisherfolk near Eastwatch have glimpsed white walkers on the shore."
+>
+> — Jeor Mormont to Tyrion Lannister, AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:107`
+
 > Davos had traded at Eastwatch in his smuggling days. The [black brothers](wiki:Night's_Watch) made hard enemies but good customers, for a ship with the right cargo.(wiki:Eastwatch-by-the-Sea.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
 >
 > —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)

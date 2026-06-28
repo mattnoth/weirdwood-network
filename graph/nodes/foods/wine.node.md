@@ -58,6 +58,9 @@ King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) is killed at his own [wedding
 
 Ser [Jaime Lannister](wiki:Jaime_Lannister) observes that his sister, Queen Regent Cersei, frequently has flagons of wine available, although she had criticized King Robert for his drinking when he was alive.(wiki:Wine.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-0)
 
+- (Jaime V, AFFC — `sources/chapters/affc/affc-jaime-05.md:45`) Riverrun siege camp: Pia mulls wine "stirring the kettle with a spoon"; Peck serves warm wine to Ser Daven Lannister on a golden platter — domestic comfort inside the besieging camp while the garrison holds.
+- (Jaime VII, AFFC — `sources/chapters/affc/affc-jaime-07.md:173`) Post-sparring nightcap at Riverrun: Jaime and Ser Ilyn drink from Hoster Tully's cellar — "a deep red, sweet and heavy. It warmed him going down." Wine-as-trophy: the Tully cellar now Jaime's to plunder.
+
 ### A Dance with Dragons[ ]
 
 - (A Ghost in Winterfell I, ADWD — `sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:105`) Snowbound Winterfell: stout, beer, and Arbor wines poured at the great Ramsay-Arya wedding feast (see adwd-the-prince-of-winterfell-01), the alcohol carrying the celebration's grim irony.
@@ -76,6 +79,8 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) observes that his sister, Queen Rege
 
 - (Eddard XV, AGOT — `sources/chapters/agot/agot-eddard-15.md:59`) Varys disguised as a gaoler brings wine to Ned in the black cells: "Wine … Drink, Lord Eddard." The wineskin goes back and forth between them; Ned drinks on an empty stomach ("the wine was strong, and it had been too long since he'd eaten"); Varys notes it is "no more poisonous than most." Wine as coercive hospitality — sustenance withheld then offered as a lever.
 - (Eddard XV, AGOT — `sources/chapters/agot/agot-eddard-15.md:155`) Varys's parting threat frames the choice as "bread and cheese and the milk of the poppy for your pain … or Sansa's head" — food/wine withheld and then promised as the bribe for compliance; structurally mirrors the starvation tactic above.
+
+- (Tyrion I, ADWD — `sources/chapters/adwd/adwd-tyrion-01.md:107`) Illyrio's cellar inventory: "Arbor gold, pale Pentoshi ambers, the green nectar of Myr, three score casks of Arbor gold, even wines from the fabled east, from Qarth and Yi Ti and Asshai by the Shadow" — one of the most complete wine inventories in the text; Tyrion selects a cask of strongwine from Lord Runceford Redwyne's private stock.
 
 When travelling towards [Meereen](wiki:Meereen) in secret, Prince [Quentyn Martell](wiki:Quentyn_Martell) and his companions, Ser [Gerris Drinkwater](wiki:Gerris_Drinkwater) and Ser [Archibald Yronwood](wiki:Archibald_Yronwood), pretend to be merchants looking to sell their Dornish wine.(wiki:Wine.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
 The [giant](wiki:Giant) [Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun) takes a liking to wine after trying it at [Castle Black](wiki:Castle_Black).(wiki:Wine.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-0)
@@ -107,3 +112,7 @@ Japes are one way to keep the fear away. Wine's another.
 > The queen took a flagon of sweet plum wine from a passing serving girl and filled Sansa's cup. "Drink," she commanded coldly. … Sansa lifted the cup to her lips and took a sip. The wine was cloyingly sweet, but very strong.
 
 — ACOK Chapter 52 (Sansa VI), `sources/chapters/acok/acok-sansa-06.md:101`(wiki:Wine.cite_ref-58)
+
+> "Come, let's drink some more of Hoster Tully's good red wine." … The wine was a deep red, sweet and heavy. It warmed him going down.
+
+— AFFC Chapter 44 (Jaime VII), `sources/chapters/affc/affc-jaime-07.md:173`

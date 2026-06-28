@@ -62,3 +62,7 @@ In contrast to her previous [Ghiscari](wiki:Ghiscari) conquests, Daenerys choose
 > That night her handmaids brought her lamb, with a salad of raisins and carrots soaked in wine, and a hot flaky bread dripping with honey. She could eat none of it.
 
 — Daenerys's first night as Queen of Meereen; the food is generous but she is too burdened to eat, ASOS Daenerys VI (`sources/chapters/asos/asos-daenerys-06.md:283`)
+
+## Notes
+
+**Six named Yunkish trebuchets (ADWD investment)** — The Yunkish besieging force raises six huge trebuchets arrayed on three sides of Meereen (all but the river side), each given a name: *Dragonbreaker, Harridan, Harpy's Daughter, Wicked Sister, Ghost of Astapor, Mazdhan's Fist.* Forty feet tall, they are the siege camp's chief landmarks. — ADWD Tyrion X, `sources/chapters/adwd/adwd-tyrion-10.md:197`

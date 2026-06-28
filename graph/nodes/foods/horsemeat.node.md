@@ -20,6 +20,7 @@ Horsemeat is eaten during crisis conditions — siege, starvation, or wartime co
 
 ### A Feast for Crows
 
+- (Jaime III, AFFC — `sources/chapters/affc/affc-jaime-03.md:157`) Riverlands march: a horse killed by wolves is salvaged — Jaime "gave orders for the rest of the carcass to be cut apart and salted down; it might be they would need the meat" — wartime provisioning logic: cavalry mounts become emergency rations.
 - (Brienne VII, AFFC — `sources/chapters/affc/affc-brienne-07.md:95`) Crossroads inn in wartime: only horsemeat available to eat; orphan children go hungry.
 
 ### A Dance with Dragons

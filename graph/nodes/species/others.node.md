@@ -83,8 +83,32 @@ The Other said something in a language that Will did not know; his voice was lik
 The Others are as dead as the [children of the forest](wiki:Children_of_the_forest), gone eight thousand years. Maester [Luwin](wiki:Luwin) will tell you they never lived at all. No living man has ever seen one.(wiki:Others.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
 If the Others ever come for us, I pray they have archers, because you lot are fit for nothing more than arrow fodder.(wiki:Others.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0)
 The Others are only a story, a tale to make children shiver. If they ever lived at all, they are gone eight thousand years.(wiki:Others.cite_ref-Ragot52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
-The cold gods. The ones in the night. The white shadows.(wiki:Others.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+The cold gods. The ones in the night. The white shadows.(wiki:Others.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) — Book-citation overlay: Gilly to Jon Snow, ACOK Jon III, `sources/chapters/acok/acok-jon-03.md:293` (context: "He gives the boys to the gods. Come the white cold…" at :289; full exchange confirms Craster sacrifices sons to the Others)
 The white walkers of the wood, the cold shadows, the monsters of the tales that made him squeak and tremble as a boy, riding their [giant ice-spiders](wiki:Giant_ice-spiders), hungry for blood ...(wiki:Others.cite_ref-Rasos18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
 A godly man got no cause to fear such. I said as much to that [Mance Rayder](wiki:Mance_Rayder) once, when he come sniffing round. He never listened, no more'n you crows with your swords and your bloody fires. That won't help you none when the white cold comes. Only the gods will help you then. You best get right with the gods.(wiki:Others.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-6)
 Melisandre: [Necromancy](wiki:Necromancy) animates these [wights](wiki:Wights), yet they are still only dead flesh. [Steel](wiki:Steel) and fire will serve for them. The ones you call the Others are something more. Stannis: [Demons](wiki:Demons) made of snow and ice and cold. The ancient enemy. The only enemy that matters.(wiki:Others.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-5)
 They're never far, you know. They won't come out by day, not when that old sun's shining, but don't think that means they went away. Shadows never go away. Might be you don't see them, but they're always clinging to your heels.(wiki:Others.cite_ref-Radwd58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-4)
+
+> "They were cold things, dead things, that hated iron and fire and the touch of the sun, and every creature with hot blood in its veins."
+>
+> — Old Nan to Bran Stark, AGOT Bran IV, `sources/chapters/agot/agot-bran-04.md:49`
+
+> "In its hand was a longsword like none that Will had ever seen. No human metal had gone into the forging of that blade. It was alive with moonlight, translucent, a shard of crystal so thin that it seemed almost to vanish when seen edge-on. There was a faint blue shimmer to the thing, a ghost-light that played around its edges, and somehow Will knew it was sharper than any razor."
+>
+> — Will observing an Other's blade, AGOT Prologue, `sources/chapters/agot/agot-prologue.md:187` (the blade also "sliced through ringmail as if it were silk," :213)
+
+> *[In-world legend / folklore — not asserted as canon fact; this is Old Nan's hearth-tale as reported by Bran's narration:]* "And their women lay with the Others in the Long Night to sire terrible half-human children."
+>
+> — Old Nan's hearth-tale as recalled by Bran Stark, AGOT Bran I, `sources/chapters/agot/agot-bran-01.md:13`
+
+> "The fisherfolk near Eastwatch have glimpsed white walkers on the shore."
+>
+> — Jeor Mormont to Tyrion Lannister, AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:107`
+
+> "The fisherfolk of Lannisport often glimpse merlings."
+>
+> — Tyrion Lannister (skeptic foil to Mormont's warning), AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:109`
+
+> "… Tyrion Lannister felt as though he could almost believe the talk of the Others, the enemy in the night. His jokes of grumkins and snarks no longer seemed quite so droll."
+>
+> — thoughts of Tyrion Lannister atop the Wall, AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:207`

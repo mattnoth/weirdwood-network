@@ -34,3 +34,7 @@ The pole-boat passes under the bridge again shortly afterwards. This time three 
 
 The Bridge of Dream, [Griff](wiki:Griff) called it, but this dream was smashed and broken.
 Tyrion: The Bridge of Dream. Haldon: Inconceivable. We've left the bridge behind. Rivers only run one way.(wiki:Bridge_of_Dream.cite_ref-Radwd18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+> The Bridge of Dream, Griff called it, but this dream was smashed and broken. Pale stone arches marched off into the fog, reaching from the Palace of Sorrow to the river's western bank. Half of them had collapsed, pulled down by the weight of the grey moss that draped them and the thick black vines that snaked upward from the water. The broad wooden span of the bridge had rotted through, but some of the lamps that lined the way were still aglow. As the Shy Maid drew closer, Tyrion could see the shapes of stone men moving in the light, shuffling aimlessly around the lamps like slow grey moths. Some were naked, others clad in shrouds.
+>
+> — ADWD Tyrion V, `sources/chapters/adwd/adwd-tyrion-05.md:127` · Physical description: collapsed arches, grey moss, black vines, rotted wooden span, lingering lamps — and stone men as slow grey moths.

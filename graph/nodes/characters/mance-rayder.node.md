@@ -123,7 +123,7 @@ It is reported in [a letter](wiki:Bastard_Letter) to Jon purportedly from Ramsay
 
 ### Quotes about Mance
 
-> Mance thinks he'll fight, the brave sweet stubborn man, like the [white walkers](wiki:Others) were no more than [rangers](wiki:Rangers), but what does he know? He can call himself [King-beyond-the-Wall](wiki:King-beyond-the-Wall) all he likes, but he's still just another old [black crow](wiki:Night's_Watch) who flew down from the [Shadow Tower](wiki:Shadow_Tower). He's never tasted winter.(wiki:Mance_Rayder.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
+> Mance thinks he'll fight, the brave sweet stubborn man, like the [white walkers](wiki:Others) were no more than [rangers](wiki:Rangers), but what does he know? He can call himself [King-beyond-the-Wall](wiki:King-beyond-the-Wall) all he likes, but he's still just another old [black crow](wiki:Night's_Watch) who flew down from the [Shadow Tower](wiki:Shadow_Tower). He's never tasted winter.(wiki:Mance_Rayder.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0) — Book-citation overlay: AGOT Bran VI, `sources/chapters/agot/agot-bran-06.md:145`
 >
 > —[Osha](wiki:Osha) to [Bran Stark](wiki:Bran_Stark)
 

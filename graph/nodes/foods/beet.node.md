@@ -42,6 +42,8 @@ At the [Fishermonger's Square](wiki:Fishermonger's_Square_(Volantis)) of [Volant
 [Dolorous Edd](wiki:Dolorous_Edd) tells [Jon Snow](wiki:Jon_Snow) boiled beef and beets are for supper.(wiki:Beet.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) There are pickled beets in the vaults of [Castle Black](wiki:Castle_Black).(wiki:Beet.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 Aboard the [Selaesori Qhoran](wiki:Selaesori_Qhoran) [Tyrion Lannister](wiki:Tyrion_Lannister) eats a supper of buttered beets, cold fish stew and biscuits that could be used to drive nails.(wiki:Beet.cite_ref-Radwd33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 
+- (Tyrion VIII, ADWD — `sources/chapters/adwd/adwd-tyrion-08.md:117`) Selaesori Qhoran shipboard supper: "buttered beets, cold fish stew, and biscuits that could have been used to drive nails" — the complete poverty-supper of the cog's crossing.
+
 ### The Winds of Winter[ ]
 
 Lord [Nestor Royce](wiki:Nestor_Royce)'s cooks have prepared a large quantity of [food](wiki:Food), including beets, for the feast on the eve of the [tourney](wiki:Tourney) held at the [Gates of the Moon](wiki:Gates_of_the_Moon) that will determine the first members of the [Brotherhood of Winged Knights](wiki:Brotherhood_of_Winged_Knights).(wiki:Beet.cite_ref-Winds_9-0)

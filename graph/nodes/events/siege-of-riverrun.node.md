@@ -54,3 +54,15 @@ Edmure is sent to [Casterly Rock](wiki:Casterly_Rock), accompanied by [Jeyne Wes
 >
 > — sources/chapters/affc/affc-jaime-05.md:113 · Describes provisioning conditions during the siege: river fishing as primary subsistence, Frey food-sharing disputes, foraging losses.  _(capture: chapter-quote sweep, food)_
 
+> A great grey gallows loomed above the tents, as tall as any trebuchet. On it stood a solitary figure with a rope about his neck. Edmure Tully.
+>
+> — AFFC Jaime V, `sources/chapters/affc/affc-jaime-05.md:159` · Ryman Frey’s coercion-theatre gallows as siege landmark; Edmure kept noosed daily.
+
+> At least he would have no trouble feeding them; the Blackfish had left Riverrun amply provisioned, just as he had claimed.
+>
+> — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:49` · The Blackfish’s defensive provisioning: the garrison inherits two years’ stores — the logistical reason the siege could have dragged indefinitely.
+
+> The Tully garrison departed the next morning, stripped of all their arms and armor. Each man was allowed three days’ food and the clothing on his back, after he swore a solemn oath never to take up arms against Lord Emmon or House Lannister.
+>
+> — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:207` · The surrender terms: austere provisioning for the released Tully garrison.
+

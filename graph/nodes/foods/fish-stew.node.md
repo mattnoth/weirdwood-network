@@ -24,8 +24,16 @@ Fish stew appears in two distinct contexts: as the humble soldier's fare at Drag
 
 - (Brienne VI, AFFC — `sources/chapters/affc/affc-brienne-06.md`) Quiet Isle septry supper: "a thick fish-and-shellfish stew" alongside mead, sweet cider, crusty bread, fresh-churned butter, and honey — the septry's famous mead in its native context.
 
+### A Dance with Dragons
+
+- (Tyrion VIII, ADWD — `sources/chapters/adwd/adwd-tyrion-08.md:117`) Selaesori Qhoran shipboard supper: "cold fish stew" alongside buttered beets and biscuits "that could have been used to drive nails" — the quintessential poor sea-rations, contrasted with the river barge's fresh-cooked food.
+
 ## Quotes
 
 > The lower tables were crowded with knights, archers, and sellsword captains, tearing apart loaves of black bread to soak in their fish stew.
 
 — ACOK (Prologue), `sources/chapters/acok/acok-prologue.md:287`
+
+> "So long as there are fish in the rivers, we won't starve, though I don't know how we're going to feed the horses."
+
+— AFFC Chapter 30 (Jaime V), `sources/chapters/affc/affc-jaime-05.md:105` (Ser Daven to Jaime, on Riverrun siege provisioning via nets set in the boom)

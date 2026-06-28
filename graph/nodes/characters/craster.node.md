@@ -75,6 +75,10 @@ Following the [fight at the Fist](wiki:Fight_at_the_Fist), Craster allows the su
 
 ### Quotes about Craster
 
+> "He gives the boys to the gods. Come the white cold, he does, and of late it comes more often. That's why he started giving them sheep, even though he has a taste for mutton. Only now the sheep's gone too."
+>
+> — Gilly to Jon Snow (describing Craster's sacrifices to the Others), ACOK Jon III, `sources/chapters/acok/acok-jon-03.md:289` (Gilly's name for the Others: "The cold gods. The ones in the night. The white shadows." :293)
+
 > [Dolorous Edd](wiki:Eddison_Tollett) says Craster's a terrible savage. He marries [his daughters](wiki:Craster's_wives) and obeys no laws but those he makes himself. And [Dywen](wiki:Dywen) told [Grenn](wiki:Grenn) he's got black blood in his veins. His mother was a [wildling](wiki:Wildling) woman who lay with a [ranger](wiki:Ranger), so he's a [bas](wiki:Bastardy) ...(wiki:Craster.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
 >
 > —[Samwell Tarly](wiki:Samwell_Tarly) to [Jon Snow](wiki:Jon_Snow)

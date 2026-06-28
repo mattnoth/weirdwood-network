@@ -16,6 +16,10 @@ Black sausage is a smoked/cured sausage used as a march ration and a Night's Wat
 
 ## Narrative Arc
 
+### A Feast for Crows
+
+- (Jaime IV, AFFC — `sources/chapters/affc/affc-jaime-04.md:213`) Sparrows at Darry gather round a dozen cookfires to "watch fat sausages spit and sizzle above the flames" — the smallfolk pilgrims' humble meal in the castle yard while Jaime dines at the high table inside; Jaime reflects these "useless mouths" will be eating rats by winter.
+
 ### A Dance with Dragons
 
 - (The King's Prize I, ADWD — `sources/chapters/adwd/adwd-the-kings-prize-01.md:157`) March rations on day 3: "each man got a heel of bread and a chunk of black sausage no longer than a finger, washed down with the last of Galbart Glover's ale" — while Stannis's tent supped on venison stew. The king-vs-common-soldier contrast in a single paragraph.

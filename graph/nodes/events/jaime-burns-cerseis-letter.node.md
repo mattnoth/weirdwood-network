@@ -37,3 +37,7 @@ S140 Cersei's-downfall arc; LOCATED_AT [Riverrun](riverrun).)
 > Come at once, she said. Help me. Save me. I need you now as I have never needed you before. I love you. I love you. I love you. Come at once.
 
 > "No," he said. "Put this in the fire."
+
+> A snowflake landed on the letter. As it melted, the ink began to blur. Jaime rolled the parchment up again, as tight as one hand would allow, and handed it to Peck.
+>
+> — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:295` · The snowflake-on-ink image that frames the refusal; navigable book cite for the scene's pivot moment.

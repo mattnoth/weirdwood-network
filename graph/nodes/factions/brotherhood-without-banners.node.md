@@ -56,3 +56,7 @@ Under Lady Stoneheart's leadership the brotherhood's character shifts markedly. 
 > "We're looking for a dog that ran away … He answers to the name Sandor Clegane. Thoros says he was making for the Twins. We found the ferrymen who took him across the Trident, and the poor sod he robbed on the kingsroad … He would have had a child with him. A skinny girl, about ten."
 
 — A brotherhood singer (Merrett Frey's captor) describing the post-Red-Wedding pursuit of [Sandor Clegane](sandor-clegane) and [Arya Stark](arya-stark), ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:135`)
+
+## Notes
+
+**Signal-fire network around Riverrun (AFFC)** — Ser Daven Lannister reports to Jaime: *"My scouts report fires in the high places at night. Signal fires, they think … as if there were a ring of watchers all around us. And there are fires in the villages as well."* — AFFC Jaime V, `sources/chapters/affc/affc-jaime-05.md:121` · Sourced evidence of the Brotherhood's surveillance network encircling the Riverrun siege camp; the ring-of-watchers phrasing establishes organized intelligence-gathering, not mere bandit presence.

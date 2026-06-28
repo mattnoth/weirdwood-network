@@ -28,6 +28,8 @@ Rum is a food or drink from the AWOIAF wiki.
 
 To get to [Yunkai](wiki:Yunkai) the [Windblown](wiki:Windblown) sail on an overcrowded ship tossed by wind and sea, eat hard-bread crawling with weevils, and drink black tar rum to sweet oblivion.(wiki:Rum.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 [Tyrion Lannister](wiki:Tyrion_Lannister) celebrates his survival of the first storm that hits the [Selaesori Qhoran](wiki:Selaesori_Qhoran) by sharing a few tots of black tar rum and playing [cyvasse](wiki:Cyvasse) with the ship's cook.(wiki:Rum.cite_ref-Radwd33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+- (Tyrion IX, ADWD — `sources/chapters/adwd/adwd-tyrion-09.md:25`) Selaesori Qhoran becalmed in the Gulf of Grief: the captain's wine ran out; Tyrion consents to perform the mummer's joust in part because the crew's rum ration is also running low — "You could get drunk much quicker on rum than on wine, Tyrion Lannister had discovered."
 While in [Pynto's](wiki:Pynto's), [Arya Stark](wiki:Arya_Stark) observes [Lyseni](wiki:Lys) sailors off the [Goodheart](wiki:Goodheart) speaking quietly over cups of black tar rum.(wiki:Rum.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 ## Quotes

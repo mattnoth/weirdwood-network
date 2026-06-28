@@ -82,6 +82,8 @@ The [unicorns](wiki:Unicorn) of [Skagos](wiki:Skagos) appear to be large animals
 At [Fishfoot Yard](wiki:Fishfoot_Yard) in [White Harbor](wiki:White_Harbor), Lord [Davos Seaworth](wiki:Davos_Seaworth) sees a young girl selling cups of fresh milk from her nanny goat.(wiki:Goat.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0)
 Jon Snow, now [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night's_Watch), advises King [Stannis Baratheon](wiki:Stannis_Baratheon) to bring sure-footed garrons who can handle goat tracks in the northern mountains.(wiki:Goat.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
 Tyrion has roasted goat served on a bed of sliced onions while playing [cyvasse](wiki:Cyvasse) with [Qavo Nogarys](wiki:Qavo_Nogarys) in [Selhorys](wiki:Selhorys).(wiki:Goat.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-0)
+
+- (Tyrion VI, ADWD — `sources/chapters/adwd/adwd-tyrion-06.md:295`) Painted Turtle inn, Selhorys: "a plate of roasted goat served on a bed of sliced onions. The meat was spiced and fragrant, charred outside and red and juicy within" — Tyrion eating during a cyvasse game with Qavo Nogarys while discussing Daenerys and the slave-city politics.
 [Ramsay Bolton](wiki:Ramsay_Snow) kills an old man who calls him Lord Snow. The [Bastard's Boys](wiki:Bastard's_Boys) milk the victim's old nanny goat and roasts four kids.(wiki:Goat.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0)
 Bran has cheese and milk from the goats which inhabit the [cave of the three-eyed crow](wiki:Cave_of_the_three-eyed_crow).(wiki:Goat.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0)
 When Ser [Jaime Lannister](wiki:Jaime_Lannister) arrives at [Pennytree](wiki:Pennytree), [Harry Merrell](wiki:Harry_Merrell) finds a nanny goat in a vegetable garden.(wiki:Goat.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-0)
@@ -98,4 +100,8 @@ Goat is served at [Great Pyramid](wiki:Great_Pyramid) when Daenerys hosts the Yu
 
 Dunk lifted the skewer and bit into a chunk of meat. Goat, flavored with some lordly [spice](wiki:Spice) he'd never tasted before.(wiki:Goat.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
 Tyrion: Come share our fire, the night is cold. I fear we've no [wine](wiki:Wine) to offer you, but you're welcome to some of our goat. Shagga: [Our mountain](wiki:Mountains_of_the_Moon). Our goat.(wiki:Goat.cite_ref-Ragot42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-1)
+
+> Supper was a plate of roasted goat served on a bed of sliced onions. The meat was spiced and fragrant, charred outside and red and juicy within.
+
+— ADWD Chapter 22 (Tyrion VI), `sources/chapters/adwd/adwd-tyrion-06.md:295`
 Jon: We will need to find another [wet nurse](wiki:Wet_nurse) for [his milk brother](wiki:Aemon_Steelsong). Samwell: Goat's milk might serve, until you do. It's better for a babe than [cow](wiki:Cow)'s milk.(wiki:Goat.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)

@@ -55,6 +55,8 @@ Moqorro studies the [Valyrian glyphs](wiki:High_Valyrian) on the [dragon horn](w
 >
 > —Moqorro to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
+Book-cite overlay: confirmed verbatim in chapter — ADWD Tyrion VIII, `sources/chapters/adwd/adwd-tyrion-08.md:49` [in-world R'hllor fire-vision; node-prose only — THEORY-GATED, no theory/prophecy edge asserted]
+
 > The [Lord of Light](wiki:R'hllor) has shown me your worth, [lord Captain](wiki:Victarion_Greyjoy). Every night in my fires I glimpse the glory that awaits you.(wiki:Moqorro.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
 > —Moqorro to [Victarion Greyjoy](wiki:Victarion_Greyjoy)

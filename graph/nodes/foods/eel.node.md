@@ -37,6 +37,8 @@ Disguised in [Braavos](wiki:Braavos), [Arya Stark](wiki:Arya_Stark) helps [Umma]
 ### A Dance with Dragons[ ]
 
 [Tyrion Lannister](wiki:Tyrion_Lannister) eats jellied eels while traveling with [Illyrio Mopatis](wiki:Illyrio_Mopatis).(wiki:Eel.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+- (Tyrion II, ADWD — `sources/chapters/adwd/adwd-tyrion-02.md:31`) Illyrio's litter-journey afternoon fare: "jellied eels and Dornish reds" — served in the afternoon of the first road-day toward the Rhoyne, a richer preparation than the morning's spiced sausage.
 Prince [Quentyn Martell](wiki:Quentyn_Martell) see eels hanging from a stall in [Fishermonger's Square](wiki:Fishermonger's_Square_(Volantis)) in [Volantis](wiki:Volantis).(wiki:Eel.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 
 ### The Winds of Winter[ ]

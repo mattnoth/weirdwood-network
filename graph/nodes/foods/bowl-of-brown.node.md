@@ -45,6 +45,8 @@ A [Tyrell](wiki:House_Tyrell) man-at-arms is killed and two [Gargalen](wiki:Hous
 Ser [Barristan Selmy](wiki:Barristan_Selmy) tells Queen [Daenerys Targaryen](wiki:Daenerys_Targaryen) that he ate in pot shops before fleeing King's Landing for [Essos](wiki:Essos).(wiki:Bowl_of_brown.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 When [Kem](wiki:Kem) reminisces about his favorite pot shop, Tyrion refers to the brown as "singer's stew".(wiki:Bowl_of_brown.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
+- (Tyrion XII, ADWD — `sources/chapters/adwd/adwd-tyrion-12.md:183`) Kem's Flea Bottom nostalgia: "No one ever made a bowl o' brown like them. So thick you could stand your spoon up in the bowl, with chunks of this and that." Tyrion calls it "singer's stew" (Symon Silver Tongue reference). Navigable book cite overlay on the wiki cite above.
+
 ## Quotes
 
 > In the Bottom there were pot-shops along the alleys where huge tubs of stew had been simmering for years, and you could trade half your bird for a heel of yesterday's bread and a "bowl o' brown," and they'd even stick the other half in the fire and crisp it up for you, so long as you plucked the feathers yourself. … It usually had barley in it, and chunks of carrot and onion and turnip, and sometimes even apple, with a film of grease swimming on top. Mostly she tried not to think about the meat.
@@ -56,3 +58,7 @@ Prices had risen sickeningly high on greens, roots, flour, and fruit, and Tyrion
 Bronn: There's a pot shop I know in [Flea Bottom](wiki:Flea_Bottom) makes a savory bowl of brown. All kinds of meat in it, I hear. Tyrion: Make certain I never eat there.(wiki:Bowl_of_brown.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 Kem: Rats wouldn't eat my mother's cooking. There was this pot shop, though. No one ever made a bowl o' brown like them. So thick you could stand your spoon up in the bowl, with chunks of this and that. You ever have yourself a bowl o' brown, Halfman?
 Tyrion: A time or two. [Singer's](wiki:Symon_Silver_Tongue) stew, I call it. Kem: Why's that? Tyrion: It tastes so good it makes me want to sing.
+
+> "No one ever made a bowl o' brown like them. So thick you could stand your spoon up in the bowl, with chunks of this and that."
+
+— ADWD Chapter 66 (Tyrion XII), `sources/chapters/adwd/adwd-tyrion-12.md:183`

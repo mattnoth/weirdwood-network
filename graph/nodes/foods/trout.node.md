@@ -53,6 +53,8 @@ Trout cooked in a crust of crushed almonds is served during [the wedding feast](
 Ser [Creighton Longbough](wiki:Creighton_Longbough) and Ser [Illifer the Penniless](wiki:Illifer_the_Penniless) offer grilled trout to [Brienne of Tarth](wiki:Brienne_of_Tarth).(wiki:Trout.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
 Jaime is served trout while staying at [Hayford](wiki:Hayford).(wiki:Trout.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
 
+- (Jaime III, AFFC — `sources/chapters/affc/affc-jaime-03.md:125`) Supper at Lady Hayford's castle: "a course of trout was served" as Jaime's companions discuss the disappearance of young Tyrek Lannister during the King's Landing riots — the first named meal on the Riverlands march.
+
 ### The Winds of Winter[ ]
 
 [Pike](wiki:Pike), [salmon](wiki:Salmon), and trout are served at the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Trout.cite_ref-Alayne_7-1)

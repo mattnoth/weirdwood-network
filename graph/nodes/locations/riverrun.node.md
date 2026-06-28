@@ -161,3 +161,11 @@ After resolving the [siege of Raventree](wiki:Siege_of_Raventree), Jaime is said
 >
 > — sources/chapters/affc/affc-jaime-05.md:159 · Establishes the gallows as a landmark of the siege-era Riverrun camp and conveys the scale of Ryman Frey's encampment north of the Tumblestone.  _(capture: chapter-quote sweep, physical)_
 
+> "We raised the portcullis on the Water Gate. Not all the way, just three feet or so. Enough to leave a gap under the water, though the gate still appeared to be closed. My uncle is a strong swimmer. After dark, he pulled himself beneath the spikes."
+>
+> — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:37` · Edmure reveals the Water Gate escape mechanism: portcullis raised three feet underwater leaving a submerged gap while appearing closed — how the Blackfish escaped.
+
+> The yard below was covered by a thin white blanket, growing thicker even as he watched. The merlons on the battlements wore white cowls. The flakes fell silently, a few drifting in the window to melt upon his face. Jaime could see his own breath.
+>
+> — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:279` · First snow at Riverrun; winter's arrival in the riverlands announced through Jaime's window-view of the yards and battlements.
+

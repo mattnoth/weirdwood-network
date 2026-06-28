@@ -31,7 +31,9 @@ Roast heron is one of the dishes served at the [wedding feast](wiki:Purple_Weddi
 
 ### A Dance with Dragons[ ]
 
-A heron stuffed with figs is served to [Tyrion Lannister](wiki:Tyrion_Lannister) at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Heron.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Tyrion sees egrets and herons along the [Rhoyne](wiki:Rhoyne).(wiki:Heron.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+A heron stuffed with figs is served to [Tyrion Lannister](wiki:Tyrion_Lannister) at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Heron.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+- (Tyrion I, ADWD — `sources/chapters/adwd/adwd-tyrion-01.md:213`) Illyrio's second-course feast: "heron stuffed with figs" listed alongside veal cutlets blanched in almond milk, creamed herring, candied onions, snails and sweetbreads, and a black swan in her plumage. Tyrion sees egrets and herons along the [Rhoyne](wiki:Rhoyne).(wiki:Heron.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 The [Windblown](wiki:Windblown) mock [Paezhar zo Myraq](wiki:Paezhar_zo_Myraq) as the "Little Pigeon" and refer to his long-legged, stilt-using warrirs as Herons.(wiki:Heron.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 In [Meereen](wiki:Meereen), the animal-headed [brass](wiki:Brass) masks of the [Brazen Beasts](wiki:Brazen_Beasts) include the heads of herons.(wiki:Heron.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 

@@ -22,6 +22,8 @@ Oathkeeper is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
 
 It has grey-black and red ripples through the steel, with the red almost as dark as the grey. Its scabbard glitters gold, and is decorated with a row of [lion](wiki:Lion)'s heads and smoldering red [rubies](wiki:Rubies).(wiki:Oathkeeper.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) The pommel has a [golden lion's](wiki:House_Lannister) head, with ruby eyes that shine like two red stars.(wiki:Oathkeeper.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
+"Blood and black the ripples shone. A finger of reflected light ran red along the edge." — Brienne drawing Oathkeeper for the first time, ASOS Jaime IX, `sources/chapters/asos/asos-jaime-09.md:269`
+
 ## Narrative Arc
 
 ### A Storm of Swords[ ]
@@ -47,5 +49,9 @@ Black and red the ripples ran, deep within the steel. Valyrian steel, spell-forg
 > "Black and red the ripples ran, deep within the steel. Valyrian steel, spell-forged."
 
 — Brienne examining Oathkeeper by candlelight in an inn, AFFC Brienne I (`sources/chapters/affc/affc-brienne-01.md:283`) — book-cite overlay; navigable provenance for the visual detail above, confirmed at exactly this line.
+> "So you'll be defending Ned Stark's daughter with Ned Stark's own steel, if that makes any difference to you."
+>
+> — Jaime Lannister to Brienne, ASOS Jaime IX, `sources/chapters/asos/asos-jaime-09.md:283` (the Oathkeeper irony: Ice reforged, now sworn to protect Stark's daughter)
+
 She had failed [Renly](wiki:Renly_Baratheon), had failed [Lady Catelyn](wiki:Catelyn_Stark). She must not fail [Jaime](wiki:Jaime_Lannister). He trusted me with his sword. He trusted me with his honor.(wiki:Oathkeeper.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 Even the sound of it is sharper than an ordinary sword.(wiki:Oathkeeper.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)

@@ -49,6 +49,8 @@ Roast geese is served at [Bitterbridge](wiki:Bitterbridge).(wiki:Goose.cite_ref-
 
 Tyrion is served goose livers drowned in [wine](wiki:Wine) at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Goose.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 
+- (Tyrion I, ADWD — `sources/chapters/adwd/adwd-tyrion-01.md:179`) Illyrio's first feast: "goose livers drowned in wine" — Tyrion spears one on the point of his knife and muses "no man is as cursed as the kinslayer, but I could learn to like this hell."
+
 ## Quotes
 
 You fight like a goose. He pecks you and you peck him harder. Parry! Block the blow. Goose fighting will not suffice. If those were real swords, the first peck would take your arm off!(wiki:Goose.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)

@@ -41,6 +41,8 @@ Herring from [White Harbor](wiki:White_Harbor) is served at the [harvest feast](
 ### A Dance with Dragons[ ]
 
 [Tyrion Lannister](wiki:Tyrion_Lannister) is served creamed herring while at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Herring.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+- (Tyrion I, ADWD — `sources/chapters/adwd/adwd-tyrion-01.md:213`) Illyrio's second-course feast: "creamed herring" listed alongside heron stuffed with figs, veal cutlets blanched in almond milk, candied onions, snails and sweetbreads, and a black swan in her plumage.
 Lord [Davos Seaworth](wiki:Davos_Seaworth) sees a woman offering herring with chopped onions at [Fishfoot Yard](wiki:Fishfoot_Yard) in [White Harbor](wiki:White_Harbor).(wiki:Herring.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 Pickled herring is among the stores of [Castle Black](wiki:Castle_Black).(wiki:Herring.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 The great cog [Noble Lady](wiki:Noble_Lady), carrying salt [cod](wiki:Cod), [whale](wiki:Whale) oil, and pickled herring, is captured by [Iron Victory](wiki:Iron_Victory) in the [Stepstones](wiki:Stepstones).(wiki:Herring.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)

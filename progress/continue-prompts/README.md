@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-28-harvest-drain-s162.md` | 2026-06-28 | Harvest-queue drain (queue at ~62 open) | **LIVE** (graph) → fires as **S162** | Opus 4.8 orchestrator + Sonnet 4.6 attachers | Dedicated harvest drain (the S152/S157 parallel-attacher machine): route ~62 open rows → disjoint node-dirs → 4 parallel Sonnet attachers → fresh-verify sample → flip to `done`. Drains BEFORE the next dip per the anti-balloon rule. AFTER: A2.5 WO5K-battles [LAST A-roundup, multi-pass mini-track] → A2.8 Davos/Sam. Carries the `/endsession` auto-run bypass line. |
+| `2026-06-28-a25-wo5k-battles-s163.md` | 2026-06-28 | A2.5 WO5K-battles — PASS 1 (LAST A-roundup unit, multi-pass) | **LIVE** (graph) → fires as **S163** | Sonnet 4.6 lenses/fresh-verify + Opus 4.8 synthesis | The **LAST 🅰 A-roundup unit**, a **multi-pass mini-track** (Whispering Wood / Camps / Oxcross / the Fords / Duskendale — the arc that makes Robb the Young Wolf). PASS 1 = scope a sub-cluster (rec: Whispering-Wood→Camps→king-in-the-north), log the remainder for PASS 2/3. DEDUP HARD vs the 9 prior WO5K dips (green-fork=29, camps=S100 4-hub, RW-upstream spine). Carries the `/endsession` **AUTO-RUN** bypass. AFTER A2.5's passes: A2.8 Davos/Sam residual closes the A-roundup. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 78 files)
+## Archive (`archive/` subfolder — 79 files)
+
+> **`2026-06-28-harvest-drain-s162.md`** — archived S162. **DONE (S162): harvest-queue drain 62→0** (the post-S161 balloon: S159 jaime-riverlands 25 + S160 demo-Others 8 + S161 tyrion-essos 29). The S152/S157 parallel-attacher machine: routed 62 rows → 4 DISJOINT node-dir groups (foods / characters / locations+events / Others-cluster+artifacts — verified no two attachers share a node FILE) → 4 parallel Sonnet attachers → orchestrator flipped all 62 `open`→`done` centrally (kept the shared queue file collision-free). **+6 `object.food` nodes** (egg-lime-soup, black-cherries-in-cream, candied-ginger, salt-pork, biscuit, dog-meat → foods 104→110, nodes→8,721); **edges UNCHANGED 23,235** (quotes/descriptions/notes only). Book-cite overlays on others/illyrio/yezzan/moqorro (navigable book cites onto existing wiki-cited prose). 3 food-parked provisioning rows re-homed onto `siege-of-riverrun`. **Fresh-verify 19/19 PASS, 0 FAIL**; cite-drift caught+fixed in 5 rows (903/925/958[+96]/963/926). Queue now open 0 / done 772 / parked 83. Superseded as live by `2026-06-28-a25-wo5k-battles-s163.md`.
 
 > **`2026-09-04-next-enrichment-s161-tyrion-essos.md`** — archived S161. **DONE (S161): A2.4 Tyrion/Essos enrichment** (A-roundup #5; BUILD+ENRICH, HEAVY dedup). +7 nodes (all `[essos]`: `tyrion-arrives-in-pentos`, `jorah-captures-tyrion`, `oppo-killed-by-sailors-in-volantis`, `shipwreck-of-the-selaesori-qhoran`, `tyrion-and-penny-sold-to-yezzan`, `pale-mare-sweeps-the-yunkish-camp`, `tyrion-joins-the-second-sons`) / net +44 edges (23,191→23,235; nodes→8,699). Built the islanded ADWD-Essos spine; wired the launch forward (`varys-smuggles ENABLES pentos-arrival`), lit the 0-edge `bloody-flux`/`tyrions-mushrooms`/`pretty-pig`/`crunch`/`hop-bean`, `tyrion MANIPULATES ben-plumm via_flattery`, terminus seam `tyrion PARTICIPATES_IN siege-of-meereen`. Whodunit HONEST (`cersei SUSPECTED_OF oppo-killed`). Fresh-verify 7C/0A/2R (dropped the siege-ENABLES over-claim → PARTICIPATES_IN; dropped the broken event→disease greyscale edge → node-prose). 0 drift, 0 invented types. Superseded as live by `2026-06-28-harvest-drain-s162.md`.
 
@@ -103,14 +105,15 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > track's live prompt is the next enrichment dip (board-pick the arc first); the D&E Pass-1 track is PARKED. The
 > chat-UI persona track stays parked S123 in `archive/`.
 
-**LIVE (graph): `2026-09-04-next-enrichment-s161-tyrion-essos.md`** — **A2.4 Tyrion/Essos enrichment (fires as S161; A-roundup #5).** **22 major-arc dips shipped** —
+**LIVE (graph): `2026-06-28-a25-wo5k-battles-s163.md`** — **A2.5 WO5K-battles — PASS 1 (fires as S163; A-roundup #6, the LAST unit).** **23 major-arc dips shipped** —
 the reopened L1 round, the 3 A2 build+enrich arcs (S148–S150), the cheap L2 round (S151), the dedicated harvest pass (S152), both Class-D clusters
-(S153/S154), the **🅰 A-roundup so far: A2.7 Stannis S155 · A1.5 Dorne S156 · A1.6 Euron S157 · A2.6 Jaime/Riverlands S159**, and the S158 script-consolidation
-between (S160 = a meta chat-UI demo). **S161 = A2.4 Tyrion/Essos:** the ADWD journey Pentos→Shy-Maid-Rhoyne-voyage→greyscale→Jorah-capture→Volantis→Penny-slaver-auction/pale-mare→the
-Second-Sons turn at Meereen. BUILD+ENRICH, dedup HEAVY (overlaps S147 Shy-Maid/AEGON + S144 Meereen siege + S109/S139 Tywin's-death). `essos` IS an approved
-container — tag genuine Essos beats. **AFTER it: A2.5 WO5K-battles (LAST, multi-pass, its own mini-track)** → A2.8 Davos/Sam (`working/enrichment-coverage-plan.md`
-🅰 banner). Mint via the generic `mint_enrichment.py`/`finalize_enrichment.py`/`quotecheck_enrichment.py` (no per-dip clones — S158/S159). **Harvest queue at 25
-open** post-S159 — a Tyrion dip will push it over 30, so plan to drain. **SIFT track DEFERRED.** D&E Pass-1 PARKED. (**Sonnet 4.6 lenses + Opus 4.8 synthesis**)
+(S153/S154), the **🅰 A-roundup so far: A2.7 Stannis S155 · A1.5 Dorne S156 · A1.6 Euron S157 · A2.6 Jaime/Riverlands S159 · A2.4 Tyrion/Essos S161**, with the S158
+script-consolidation, S160 chat-UI demo, and **S162 harvest-drain 62→0** between (all non-dip). **S163 = A2.5 WO5K-battles:** the battle cluster of Robb's war
+(Whispering Wood / Battle of the Camps / Oxcross / the Fords / Duskendale — the military arc that makes Robb the Young Wolf). **MULTI-PASS mini-track** — PASS 1 scopes a
+sub-cluster (rec: Whispering-Wood→Camps→king-in-the-north) and logs the remainder for PASS 2/3. DEDUP HARD vs the 9 prior WO5K dips (green-fork=29, camps=S100 4-hub,
+RW-upstream spine). `wo5k` IS an approved container — tag genuine WO5K-trigger-tree beats. **AFTER A2.5's passes: A2.8 Davos/Sam residual** closes the A-roundup
+(`working/enrichment-coverage-plan.md` 🅰 banner). Mint via the generic `mint_enrichment.py`/`finalize_enrichment.py`/`quotecheck_enrichment.py`. Carries the
+`/endsession` **AUTO-RUN** bypass. **Harvest queue at 0** post-S162. **SIFT track DEFERRED.** D&E Pass-1 PARKED. (**Sonnet 4.6 lenses + Opus 4.8 synthesis**)
 
 **PARKED (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — **PARKED by Matt 2026-06-23** (concurrent-with-enrichment
 was too confusing — revisit when fresh). Harness + v4 prompt DESIGNED S131; nothing run (smoke un-run). When un-parked:

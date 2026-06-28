@@ -18,6 +18,10 @@ Shy Maid is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
 ## Edges
 
 
+## Appearances & Description
+
+"Her paintwork was a muddy greyish brown, mottled and flaking." — Tyrion Lannister's first sight of the Shy Maid, ADWD Tyrion III, `sources/chapters/adwd/adwd-tyrion-03.md:185` (Tyrion's immediate reaction: "She looks like dirt … but no doubt that's the point.")
+
 ## Narrative Arc
 
 ### A Dance with Dragons[ ]

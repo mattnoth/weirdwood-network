@@ -132,6 +132,10 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 
 ### Quotes about Brienne
 
+> "So you'll be defending Ned Stark's daughter with Ned Stark's own steel, if that makes any difference to you."
+>
+> — Jaime Lannister to Brienne (presenting Oathkeeper), ASOS Jaime IX, `sources/chapters/asos/asos-jaime-09.md:283`
+
 > Brienne the Beauty, they name her ... though not to her face, lest they be called upon to defend those words with their bodies.(wiki:Brienne_Tarth.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
 >
 > —[Colen of Greenpools](wiki:Colen_of_Greenpools) to [Catelyn Stark](wiki:Catelyn_Stark)

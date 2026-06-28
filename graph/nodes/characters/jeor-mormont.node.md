@@ -94,6 +94,10 @@ Mormont's raven remains by Jon's side.(wiki:Jeor_Mormont.cite_ref-Radwd3.7B.7B.7
 
 ### Quotes by Jeor
 
+> "The fisherfolk near Eastwatch have glimpsed white walkers on the shore."
+>
+> — Jeor Mormont to Tyrion Lannister at Castle Black, AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:107`
+
 > The cold winds are rising. Summer is at an end, and a winter is coming such as [this world](wiki:Known_world) has never seen.(wiki:Jeor_Mormont.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-5)
 >
 > —Jeor to [Jon Snow](wiki:Jon_Snow)

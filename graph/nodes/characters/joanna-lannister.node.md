@@ -64,6 +64,12 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) tells [Daenerys Targaryen](wiki:Daen
 
 ## Quotes
 
+### Quotes by Joanna (in Jaime's dream)
+
+> "Count your hands, child."
+
+— Joanna's ghost-figure in Jaime's vigil-dream at the Great Sept of Baelor, appearing as a silent sister with green eyes — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:265` [node-prose/quote only; Pass-4 foreshadowing pointer — no FORESHADOWS edge asserted]
+
 ### Quotes about Joanna
 
 > Only Lady Joanna truly knows [the man beneath the armor](wiki:Tywin_Lannister), and all his smiles belong to her and her alone. I do avow that I have even observed her make him laugh, not once, but on three separate occasions!(wiki:Joanna_Lannister.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)

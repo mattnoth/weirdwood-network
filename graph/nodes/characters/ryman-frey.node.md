@@ -105,3 +105,7 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) ends the [siege of Raventree](wiki:S
 > **Jaime**: Edwyn, I am giving you your father's command. Try not to be so stupid as your sire. **Edwyn**: That ought not pose much difficulty, my lord.(wiki:Ryman_Frey.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Edwyn Frey](wiki:Edwyn_Frey)
+
+## Notes
+
+**Death by the Brotherhood / Lady Stoneheart** — Edwyn Frey reports to Jaime: *"Hanged with all his party. The outlaws caught them two leagues south of Fairmarket."* Jaime asks if it was Dondarrion; Edwyn answers: *"Him, or Thoros, or this woman Stoneheart."* — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:123` · Sourced book-cite confirming Ryman's execution by the Brotherhood/Stoneheart and naming the perpetrators; Edwyn's naming of "this woman Stoneheart" is one of the few in-text uses of her title in AFFC.

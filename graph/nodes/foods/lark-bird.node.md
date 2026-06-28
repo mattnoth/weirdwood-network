@@ -30,7 +30,9 @@ A begging brother in [King's Landing](wiki:King's_Landing) preaches against [Tyr
 
 ### A Dance with Dragons[ ]
 
-Tyrion has roasted larks stuffed with garlic and onions while traveling in the litter of [Illyrio Mopatis](wiki:Illyrio_Mopatis).(wiki:Lark_(bird).cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Tyrion later hears river larks along the [Rhoyne](wiki:Rhoyne).(wiki:Lark_(bird).cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+Tyrion has roasted larks stuffed with garlic and onions while traveling in the litter of [Illyrio Mopatis](wiki:Illyrio_Mopatis).(wiki:Lark_(bird).cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+- (Tyrion II, ADWD — `sources/chapters/adwd/adwd-tyrion-02.md:31`) Litter-journey evening supper: "sliced hams, boiled eggs, and roasted larks stuffed with garlic and onions" — the richest course of the road-day, accompanied by pale ales and Myrish fire wines. Tyrion later hears river larks along the [Rhoyne](wiki:Rhoyne).(wiki:Lark_(bird).cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
 ## Quotes
 

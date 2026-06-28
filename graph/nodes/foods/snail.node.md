@@ -49,6 +49,8 @@ The first dish served at the [royal wedding](wiki:Purple_Wedding) of King [Joffr
 
 Magister [Illyrio Mopatis](wiki:Illyrio_Mopatis) has plates of snails served to [Tyrion Lannister](wiki:Tyrion_Lannister) at [his manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Snail.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) While they travel toward [Ghoyan Drohe](wiki:Ghoyan_Drohe), Illyrio opens a pot of garlic snails.(wiki:Snail.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
+- (Tyrion I, ADWD — `sources/chapters/adwd/adwd-tyrion-01.md:213`) Illyrio's second-course feast: "snails and sweetbreads" among the courses — the full second course is heron stuffed with figs, veal in almond milk, creamed herring, candied onions, snails and sweetbreads, and black swan in plumage.
+
 ## Quotes
 
 Aegon: Be careful, ser. The other squires say Ser [Uthor](wiki:Uthor_Underleaf) has a good seat. And he's quick. Duncan: Quick? He has a snail on his shield. How quick can he be?(wiki:Snail.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)

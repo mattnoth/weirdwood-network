@@ -18,3 +18,13 @@ The free folk's defining historical relationship is with the Night's Watch and t
 ## Edges
 
 None derived — no infobox entry found for this slug in infobox-data.jsonl.
+
+## Quotes
+
+> "Why do you think I run south with Stiv and Hali and the rest of them fools? Mance thinks he'll fight, the brave sweet stubborn man, like the white walkers were no more than rangers, but what does he know?"
+>
+> — Osha to Bran Stark, AGOT Bran VI, `sources/chapters/agot/agot-bran-06.md:145` (load-bearing: wildlings FLEE the Others, not allied with them)
+
+> *[In-world legend / folklore — not asserted as canon fact; this is Old Nan's hearth-tale as reported by Bran's narration:]* "And their women lay with the Others in the Long Night to sire terrible half-human children."
+>
+> — Old Nan's hearth-tale as recalled by Bran Stark, AGOT Bran I, `sources/chapters/agot/agot-bran-01.md:13` (folkloric counterpoint to any "in league with Others" reading — treat as in-universe legend, not canon)

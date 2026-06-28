@@ -45,6 +45,8 @@ Slivers of swan poached in a sauce of saffron and peaches are served at [the wed
 
 Tyrion refuses black swan when it is served to him at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Swan.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
 
+- (Tyrion I, ADWD — `sources/chapters/adwd/adwd-tyrion-01.md:213`) Illyrio's second-course feast: "a black swan in her plumage" served as the centerpiece — Tyrion declines it; "The swan was too rich for his taste."
+
 ### The Winds of Winter[ ]
 
 Swans in almond milk are served at the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Swan.cite_ref-12)

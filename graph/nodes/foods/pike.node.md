@@ -33,6 +33,8 @@ River pike poached in almond milk is served at the [Twins](wiki:Twins) during th
 
 Herb-crusted pike is served to Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) at the [Red Keep](wiki:Red_Keep).(wiki:Pike.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Ser [Jaime Lannister](wiki:Jaime_Lannister) has river pike baked in a crust of herbs and crushed nuts while at [Darry](wiki:Darry).(wiki:Pike.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
+- (Jaime IV, AFFC — `sources/chapters/affc/affc-jaime-04.md:157`) Darry feast fish course: "a river pike baked in a crust of herbs and crushed nuts" served to Jaime and Lady Amerei's table — the meal also includes bean-and-bacon soup, venison, and capons stuffed with leeks and mushrooms.
+
 ### A Dance with Dragons[ ]
 
 When a huge pike is caught in the [Skahazadhan](wiki:Skahazadhan), the fisherman who caught the fish presents it to [Daenerys Targaryen](wiki:Daenerys_Targaryen), [Queen of Meereen](wiki:Queen_of_Meereen).(wiki:Pike.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

@@ -44,6 +44,8 @@ Bran promises himself one day he will repay a hundredfold the [Liddle](wiki:Hous
 
 ### A Feast for Crows[ ]
 
+- (Jaime III, AFFC — `sources/chapters/affc/affc-jaime-03.md:104`) Little Lew Piper arrives at the marching column with "a helm full of blackberries"; Jaime eats a handful and tells the boy to share the rest with the other squires and Ser Ilyn Payne — foraged fruit as minor hospitality between lord and squire on the Riverlands march.
+
 The postern gate on the north side of the [Whispers](wiki:Whispers)
 
 ## Quotes
@@ -51,3 +53,7 @@ The postern gate on the north side of the [Whispers](wiki:Whispers)
 > A man was pushing a load of tarts by on a two-wheeled cart; the smells sang of blueberries and lemons and apricots.
 
 — AGOT Chapter 65 (Arya V), `sources/chapters/agot/agot-arya-05.md:19` is overun by a huge blackberry bramble.(wiki:Berry.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+
+> When Little Lew Piper came galloping up with a helm full of blackberries, Jaime ate a handful and told the boy to share the rest with his fellow squires and Ser Ilyn Payne.
+
+— AFFC Chapter 27 (Jaime III), `sources/chapters/affc/affc-jaime-03.md:104`

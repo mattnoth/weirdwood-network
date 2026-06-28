@@ -97,6 +97,14 @@ Jon has nightmares about Gilly,(wiki:Gilly.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B
 
 ### Quotes by Gilly
 
+> "He gives the boys to the gods. Come the white cold, he does, and of late it comes more often. That's why he started giving them sheep, even though he has a taste for mutton. Only now the sheep's gone too. Next it will be dogs, till . . ."
+>
+> — Gilly to Jon Snow (on Craster's sacrifice of sons to the Others), ACOK Jon III, `sources/chapters/acok/acok-jon-03.md:289`
+
+> "The cold gods. The ones in the night. The white shadows."
+>
+> — Gilly to Jon Snow (naming the Others), ACOK Jon III, `sources/chapters/acok/acok-jon-03.md:293` (Jon asks "What color are their eyes?" — "Blue. As bright as blue stars, and as cold." She has seen them; Craster lied.)
+
 > **Gilly**: They say [the king](wiki:Robert_I_Baratheon) gives justice and protects the weak. M'lord, I beg you— **Jon**: Don't beg me anything.(wiki:Gilly.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 >
 > —Gilly and [Jon Snow](wiki:Jon_Snow)

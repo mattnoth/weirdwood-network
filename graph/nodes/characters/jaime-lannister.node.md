@@ -96,6 +96,10 @@ Jaime is rash, headstrong, and angers quickly.(wiki:Jaime_Lannister.cite_ref-Rag
 
 When [Tyrion](wiki:Tyrion_Lannister) sees him again in the black cells the night of the escape, captivity has left Jaime gaunt, his hair hacked short, and his sword hand gone — he lifts his arm to show the stump of his right wrist ("I left a hand at Harrenhal"). (Tyrion XI, ASOS — `sources/chapters/asos/asos-tyrion-11.md:25`)
 
+The golden hand he wears to replace it is wrought of gold, very lifelike, with inlaid nails of mother-of-pearl, its fingers and thumb half closed so as to slip around a goblet's stem — AFFC Jaime III, `sources/chapters/affc/affc-jaime-03.md:119`
+
+The hand also functions as a weapon: Jaime's golden hand cracked Red Ronnet Connington across the mouth so hard the other knight went stumbling down the steps, for mocking Brienne of Tarth — AFFC Jaime III, `sources/chapters/affc/affc-jaime-03.md:343`
+
 ## Narrative Arc
 
 ### A Game of Thrones
@@ -269,6 +273,10 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 > Ser Jaime of House Lannister. Firstborn son of Lord Tywin and Lady Joanna of Casterly Rock. Served against the Kingswood Brotherhood as squire to Lord Summer Crakehall. Knighted in his 15th year by Ser Arthur Dayne of the Kingsguard, for valor in the field. Chosen for the Kingsguard in his 15th year by King Aerys II Targaryen. During the Sack of King's Landing, slew King Aerys II at the foot of the Iron Throne. Thereafter known as the "Kingslayer." Pardoned for his crime by King Robert I Baratheon. Served in the honor guard that brought his sister the Lady Cersei Lannister to King's Landing to wed King Robert. Champion in the tourney held at King's Landing on the occasion of their wedding.
 
 — Jaime's White Book entry, read in full by himself — "Summed up like that, his life seemed a rather scant and mingy thing," ASOS Jaime VIII (`sources/chapters/asos/asos-jaime-08.md:39`) [q568]
+
+> "Count your hands, child."
+
+— The silent sister (Joanna) in Jaime's vigil-dream at the Great Sept, forcing him to reckon with his stump — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:265` [node-prose/quote only; Pass-4 foreshadowing pointer — no FORESHADOWS edge asserted]
 
 ### Quotes about Jaime
 

@@ -43,3 +43,5 @@ Quail is served at the [wedding of Petyr Baelish and Lysa Arryn](wiki:Wedding_of
 ### A Dance with Dragons[ ]
 
 Tyrion is served quails in honey at [Illyrio's manse](wiki:Illyrio's_manse) in [Pentos](wiki:Pentos).(wiki:Quail.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Ser [Kevan Lannister](wiki:Kevan_Lannister) has a brace of quail at the [Red Keep](wiki:Red_Keep).(wiki:Quail.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+- (Tyrion I, ADWD — `sources/chapters/adwd/adwd-tyrion-01.md:179`) Illyrio's first feast: "quails in honey" listed among the courses alongside crab-and-monkfish broth, cold egg-lime soup, saddle of lamb, goose livers drowned in wine, buttered parsnips, and suckling pig — Tyrion sucks the meat off quail bones while questioning Illyrio about events in the east.

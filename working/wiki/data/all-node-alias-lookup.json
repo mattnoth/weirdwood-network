@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-28T04:58:25.013101+00:00",
+  "computed_at": "2026-06-28T17:40:58.422500+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -8289,6 +8289,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "biscuit": [
+      {
+        "canonical_slug": "biscuit",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "biscuits": [
+      {
+        "canonical_slug": "biscuit",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "bitch queen": [
       {
         "canonical_slug": "rhaenyra-targaryen",
@@ -8489,6 +8505,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "black cherries in cream": [
+      {
+        "canonical_slug": "black-cherries-in-cream",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "black cherries in sweet cream": [
+      {
+        "canonical_slug": "black-cherries-in-cream",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-name:foods"
       }
     ],
     "black cliffs": [
@@ -12425,6 +12457,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "candied ginger": [
+      {
+        "canonical_slug": "candied-ginger",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "canker jeyne": [
       {
         "canonical_slug": "canker-jeyne",
@@ -14013,6 +14053,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "cherries in sweet cream": [
+      {
+        "canonical_slug": "black-cherries-in-cream",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "chestnut": [
@@ -15993,6 +16041,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "cold egg lime soup": [
+      {
+        "canonical_slug": "egg-lime-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "coldhands": [
@@ -21191,12 +21247,28 @@
         "source": "node-name"
       }
     ],
+    "dog meat": [
+      {
+        "canonical_slug": "dog-meat",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "dog meribald": [
       {
         "canonical_slug": "dog-meribald",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "dog stew": [
+      {
+        "canonical_slug": "dog-meat",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "dog's head greathelm": [
@@ -21237,6 +21309,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "dogtail soup": [
+      {
+        "canonical_slug": "dog-meat",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "dolf": [
@@ -24015,6 +24095,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "egg lime soup": [
+      {
+        "canonical_slug": "egg-lime-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
+    "egg-lime soup": [
+      {
+        "canonical_slug": "egg-lime-soup",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-name:foods"
       }
     ],
     "eggen": [
@@ -31455,6 +31551,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "ginger": [
+      {
+        "canonical_slug": "candied-ginger",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "ginger jack": [
       {
         "canonical_slug": "ginger-jack",
@@ -35175,6 +35279,14 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-slug:texts"
+      }
+    ],
+    "hard biscuits": [
+      {
+        "canonical_slug": "biscuit",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "hard hugh": [
@@ -76705,6 +76817,14 @@
         "source": "all-node-slug:titles"
       }
     ],
+    "salt pork": [
+      {
+        "canonical_slug": "salt-pork",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
+      }
+    ],
     "salt shore": [
       {
         "canonical_slug": "salt-shore",
@@ -76735,6 +76855,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "salted pork": [
+      {
+        "canonical_slug": "salt-pork",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "saltpans": [
@@ -79421,6 +79549,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "ship's biscuit": [
+      {
+        "canonical_slug": "biscuit",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
       }
     ],
     "shipbreaker bay": [
@@ -96725,8 +96861,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19630,
-    "unique_phrases": 11986
+    "total_node_entries": 19657,
+    "unique_phrases": 12003
   },
   "version": "v1"
 }

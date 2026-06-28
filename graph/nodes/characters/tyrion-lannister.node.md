@@ -69,6 +69,8 @@ Tyrion generally receives little respect and is often mocked. His deformity is t
 
 At a young age, Tyrion married [Tysha](wiki:Tysha), a commoner, but eventually Jaime told him the girl was a [whore](wiki:Prostitution) he had paid to take Tyrion's virginity. Tyrion was crushed, and the memory of her has long haunted him.(wiki:Tyrion_Lannister.cite_ref-Racok29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1) Believing that no girl could ever truly love him for who he was,(wiki:Tyrion_Lannister.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)(wiki:Tyrion_Lannister.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)(wiki:Tyrion_Lannister.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0) he began to seek his pleasure with prostitutes.(wiki:Tyrion_Lannister.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0) Tywin felt this brought more shame on their house,(wiki:Tyrion_Lannister.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-2) further deteriorating their relationship.
 
+While travelling as "Hugor Hill" on the Rhoyne, Tyrion wears jester's motley sewn by Septa Lemore from Illyrio's chest of children's clothing: doublet split purple-velvet (left) / yellow-wool embroidered in green floral (right), breeches split green (right leg) / red-and-white striped (left leg) — ADWD Tyrion IV, `sources/chapters/adwd/adwd-tyrion-04.md:119`
+
 ## Appearances & Description (battle, Blackwater)
 
 > His big red stallion wore crinet and chamfron. Crimson silk draped his hindquarters, over a coat of mail. The high saddle was gilded. Podrik Payne handed up helm and shield, heavy oak emblazoned with a golden hand on red, surrounded by small golden lions.
