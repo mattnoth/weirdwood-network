@@ -70,3 +70,11 @@ The dungeons of [Riverrun](wiki:Riverrun) were not the cleanest place in the [Se
 > The next visitor who calls on you could bring you bread and cheese and the milk of the poppy for your pain … or he could bring you Sansa's head.
 >
 > — sources/chapters/agot/agot-eddard-15.md:155 · Varys offers the captive Ned the image of bread and cheese as ordinary mercy, set against the threat of his daughter's death — bread-and-cheese as humble [guest right](guest-right) sustenance.  _(capture: harvest pass, food)_
+
+> There was ale and cheese on the table. Catelyn filled a horn, sat, sipped, and studied her son.
+>
+> — sources/chapters/agot/agot-catelyn-08.md:63 · Catelyn and Robb's private war-council at Moat Cailin: ale and cheese as the working provisions for a mother–son discussion of the campaign.  _(capture: harvest pass, food)_
+
+> Maester Vyman returned at evenfall to minister to Lord Tully and bring Catelyn a modest supper of bread, cheese, and boiled beef with horseradish.
+>
+> — sources/chapters/asos/asos-catelyn-01.md:81 · Catelyn under house-watch at Riverrun; Maester Vyman brings a plain domestic supper — cheese as part of a humble care-giving meal while Hoster Tully lies dying.  _(capture: harvest pass, food)_

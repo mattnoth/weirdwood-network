@@ -38,6 +38,12 @@ House Westerling's fortunes changed dramatically when Jeyne Westerling married K
 - OVERLORD_OF (reverse): House Lannister (track_b: Overlords) [AGOT]
 - OVERLORD_OF (reverse): House Stark (track_b: Overlords) [ASOS]
 
+## Heraldry & Sigil
+
+> a young knight in a sand-colored surcoat blazoned with seashells
+>
+> — sources/chapters/asos/asos-catelyn-02.md:37 · First visual description of Westerling livery — Raynald Westerling's surcoat at Riverrun; confirmed as Westerling sigil at line 93 ("Their banner is six seashells, white on sand").  _(capture: harvest pass, appearance)_
+
 ## Notes
 
 Parser first_available was ASOS ch11, but cite_refs show AGOT ch63 as earliest appearance, confirmed by pass1_mentions in agot-catelyn-10. Set to "always available" pending correction. Dual overlord entries reflect the Westerlings briefly swearing to Robb Stark through the marriage alliance before reverting to Lannister vassalage.

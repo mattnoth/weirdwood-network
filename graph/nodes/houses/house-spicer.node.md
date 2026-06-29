@@ -32,6 +32,12 @@ House Spicer was founded by Rolph Spicer. The family rose from humble origins th
 
 The Spicers are entwined with the Westerling marriage to Robb Stark. Sybell Spicer (married into House Westerling) conspired with Tywin Lannister regarding her daughter Jeyne's marriage to Robb. After the Red Wedding and the fall of House Stark's cause, Rolph Spicer was rewarded with Castamere for the family's role. The house appears extensively in ASOS and AFFC court intrigues. (wiki:House_Spicer)
 
+## Heraldry & Sigil
+
+> an older one who wore three black pepperpots on a saffron bend, across a field of green and silver stripes
+>
+> — sources/chapters/asos/asos-catelyn-02.md:37 · First visual description of Spicer livery — Rolph Spicer's surcoat at Riverrun, as observed by Catelyn Stark.  _(capture: harvest pass, appearance)_
+
 ## Edges
 
 - SEAT_OF (reverse): Castamere (track_b: Seat)

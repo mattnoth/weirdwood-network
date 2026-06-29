@@ -93,6 +93,14 @@ Brynden has been declared an outlaw.(wiki:Brynden_Tully.cite_ref-Radwd48.7B.7B.7
 
 ### Quotes by Brynden
 
+> The Kingslayer is restless, and quick to anger.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:25 · Brynden reading Jaime's character to Robb before the Whispering Wood — the psychological assessment that underpins the trap gamble.  _(capture: harvest pass, quote)_
+
+> Patience.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:43 · Brynden's one-word answer when Robb asks what Jaime lacks — the distillation of his tactical doctrine.  _(capture: harvest pass, quote)_
+
 > I asked [your sister](wiki:Lysa_Arryn) for leave to take a thousand seasoned men and ride for [Riverrun](wiki:Riverrun) with all haste. Do you know what she told me? '[The Vale](wiki:Vale_of_Arryn) cannot spare a thousand swords, nor even one, Uncle,' she said. 'You are the [Knight of the Gate](wiki:Knight_of_the_Gate). Your place is here.' Well, I told her she could bloody well find herself a new Knight of the Gate. Black fish or no, I am still a [Tully](wiki:House_Tully). I shall leave for Riverrun by evenfall.(wiki:Brynden_Tully.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
 >
 > —Brynden to [Catelyn Stark](wiki:Catelyn_Stark)

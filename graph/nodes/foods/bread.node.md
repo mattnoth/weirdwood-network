@@ -52,6 +52,10 @@ On the morning of his trial by combat against Ser Gregor Clegane, Tyrion Lannist
 
 ## Quotes
 
+> Maester Vyman returned at evenfall to minister to Lord Tully and bring Catelyn a modest supper of bread, cheese, and boiled beef with horseradish.
+>
+> — sources/chapters/asos/asos-catelyn-01.md:81 · Catelyn under house-watch at Riverrun; Maester Vyman brings a plain domestic supper — bread as part of a humble care-giving meal while Hoster Tully lies dying.  _(capture: harvest pass, food)_
+
 > The next visitor who calls on you could bring you bread and cheese and the milk of the poppy for your pain … or he could bring you Sansa's head.
 
 — Varys to Eddard Stark, in the black cells, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:155`)

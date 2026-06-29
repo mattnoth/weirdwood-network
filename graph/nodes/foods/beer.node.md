@@ -70,3 +70,15 @@ Theon broke his own fast with a tankard of dark ale, cloudy with yeast and thick
 > ...the smallfolk were celebrating Edmure's imminent return and Robb's conquest of the Crag by hoisting horns of nut-brown ale.
 >
 > — sources/chapters/acok/acok-catelyn-07.md:13 · Riverrun revelry: twenty casks broached and nut-brown ale drunk to celebrate the Crag victory and Edmure's return.  _(capture: harvest pass, food)_
+
+> There was ale and cheese on the table. Catelyn filled a horn, sat, sipped, and studied her son.
+>
+> — sources/chapters/agot/agot-catelyn-08.md:63 · Catelyn and Robb's private war-council at Moat Cailin: ale and cheese as the working provisions for a mother–son discussion of the campaign.  _(capture: harvest pass, food)_
+
+> Theon Greyjoy was seated on a bench in Riverrun's Great Hall, enjoying a horn of ale and regaling her father's garrison with an account of the slaughter in the Whispering Wood.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:117 · Theon drinking a victory horn of ale in the Great Hall at Riverrun, retelling the Whispering Wood to the garrison — ale as the celebratory drink of a battle survivor.  _(capture: harvest pass, food)_
+
+> Yet she allowed Ser Desmond to spread the word, and agreed when he suggested breaking open some casks in honor of Stone Mill. The mood within Riverrun had been strained and somber; they would all be better for a little drink and hope.
+>
+> — sources/chapters/acok/acok-catelyn-06.md:211 · Catelyn agrees to broach casks for the garrison in honor of Edmure's Stone Mill victory — ale as a deliberate garrison-morale tool under siege.  _(capture: harvest pass, food)_

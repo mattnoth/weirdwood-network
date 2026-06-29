@@ -37,6 +37,12 @@ After taking the Crag by storm and being wounded, Robb Stark is nursed by Jeyne 
 
 — The strategic cost of the broken Frey oath, quantified: Jeyne's dower of fifty swords against the host Walder Frey had originally pledged. Robb to Catelyn Stark, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:139`)
 
+## Quotes (continued)
+
+> "We wed without his consent, I fear, and this marriage puts him in dire peril. The Crag is not strong. For love of me, Jeyne may lose all."
+>
+> — sources/chapters/asos/asos-catelyn-02.md:131 · Robb to Catelyn on the cost to the Westerlings — the marriage's peril for Jeyne's family.  _(capture: harvest pass, quote)_
+
 ## Foreshadowing
 
 > "Grey Wind doesn't like her uncle either. He bares his teeth every time Ser Rolph comes near him." [...] A chill went through her. "Send Ser Rolph away. At once."

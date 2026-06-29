@@ -34,6 +34,10 @@ In the story of the [Knight of the Laughing Tree](wiki:Knight_of_the_Laughing_Tr
 
 ## Appearances & Description
 
+> Their bridge was a massive arch of smooth grey rock, wide enough for two wagons to pass abreast; the Water Tower rose from the center of the span, commanding both road and river with its arrow slits, murder holes, and portcullises.
+>
+> — sources/chapters/agot/agot-catelyn-09.md:97 · First in-text physical description of the Frey bridge, giving its construction material, width, and the Water Tower's tactical features.  _(capture: harvest pass, appearance)_
+
 The Twins consist of two identical stone castles standing on a margin of the [Green Fork](wiki:Green_Fork) of the [Trident](wiki:Trident), where the river runs swift and deep.(wiki:Twins.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) The castles have high curtain walls, deep moats, and a barbican and portcullis in each.(wiki:Twins.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) Channels have been dug to form moats, turning each castle into an island.(wiki:Twins.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) Scorpions can be placed on the battlements.(wiki:Twins.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) Each castle has a courtyard, and the Freys can slide plank bridges from sally ports to cross their moats.(wiki:Twins.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) The castles have high tower windows.(wiki:Twins.cite_ref-Rasos50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 
 A bridge of smooth grey rock arches between the castles, with the bridge footings rising from within the inner keeps. This bridge is wide enough for two wagons to cross abreast. It is the only crossing point over the Green Fork for hundreds of miles in either direction, from the [north](wiki:North) to the western riverlands. It lies directly athwart the main route from [Winterfell](wiki:Winterfell) to [Riverrun](wiki:Riverrun).(wiki:Twins.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)

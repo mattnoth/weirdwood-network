@@ -50,6 +50,18 @@ Robb is his father [Eddard's](wiki:Eddard_Stark) son, with a keen sense of [just
 
 On formal occasions Robb wears grey wool trimmed with white, the colors of [House Stark](wiki:House_Stark),(wiki:Robb_Stark.cite_ref-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0) and he also has ringmail and boiled leather.(wiki:Robb_Stark.cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0) Robb wields a [longsword](wiki:Longsword)(wiki:Robb_Stark.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1)(wiki:Robb_Stark.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) and a dagger on his belt,(wiki:Robb_Stark.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-1) and his [oak](wiki:Oak) shield, banded white and grey with [iron](wiki:Iron), is decorated with a snarling [direwolf](wiki:Direwolf)'s head.(wiki:Robb_Stark.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-2)(wiki:Robb_Stark.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)(wiki:Robb_Stark.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3) Robb has a fur-trimmed cloak(wiki:Robb_Stark.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-3) which he wears over his surcoat, both of which are white.(wiki:Robb_Stark.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) When on campaign, his armor includes grey chainmail over bleached leathers,(wiki:Robb_Stark.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-4) plate,(wiki:Robb_Stark.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) mailed gloves,(wiki:Robb_Stark.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4) and a visor with a helm.(wiki:Robb_Stark.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5) His [horses](wiki:Horse) include a big grey-and-white gelding,(wiki:Robb_Stark.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-2) a grey stallion,(wiki:Robb_Stark.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6) and a piebald gelding.(wiki:Robb_Stark.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-7) Robb is better with a lance than Jon, although Jon is more skilled with a sword.(wiki:Robb_Stark.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)
 
+> When he lowered it over the face she loved so well, a tall young knight sat on his grey stallion where her son had been.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:47 · Catelyn's first sight of Robb fully helmed before the Whispering Wood — the moment the boy becomes a knight in her eyes.  _(capture: harvest pass, appearance)_
+
+> The wolf's head on his shield was slashed half to pieces, raw wood showing where deep gouges had been hacked in the oak.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:97 · State of Robb's shield after the Whispering Wood battle — battle-damage detail showing the ferocity of the fight.  _(capture: harvest pass, appearance)_
+
+> War had melted all the softness from his face and left him hard and lean.
+>
+> — sources/chapters/asos/asos-catelyn-02.md:29 · Catelyn's first sight of Robb in ASOS — primary evidence of his war-hardened physical transformation; the bronze-and-iron sword crown is noted in the same passage ("He bears it like a king").  _(capture: harvest pass, appearance)_
+
 ## Narrative Arc
 
 ### A Game of Thrones
@@ -177,6 +189,18 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 > If you keep all your treasures in one purse, you only make it easier for those who would rob you.(wiki:Robb_Stark.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 >
 > —Robb to [Catelyn Stark](wiki:Catelyn_Stark)
+
+> He's more use alive than dead. And my lord father never condoned the murder of prisoners after a battle.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:113 · Robb refusing Theon's call to execute Jaime Lannister after the Whispering Wood — establishes his Stark honour and sets up Jaime's captivity arc.  _(capture: harvest pass, quote)_
+
+> I would kill for a cup of wine.
+>
+> — sources/chapters/asos/asos-catelyn-02.md:173 · Robb in the audience chamber at Riverrun — offhand line that punctuates a tense political moment and shows the exhaustion beneath the kingly surface.  _(capture: harvest pass, quote)_
+
+> I took an arrow in the arm just before Ser Rolph yielded us the castle. It seemed nothing at first, but it festered.
+>
+> — sources/chapters/asos/asos-catelyn-02.md:143 · Robb's own account of the Crag wound — the injury that led to Jeyne nursing him and the consequent marriage that broke the Frey alliance.  _(capture: harvest pass, quote)_
 
 ### Quotes about Robb
 

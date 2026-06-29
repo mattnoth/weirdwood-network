@@ -93,3 +93,7 @@ Having Jaime as a hostage, and recognizing his value as a prisoner, the Starks g
 > "He mislaid his sword in Eddard Karstark's neck, after he took Torrhen's hand off and split Daryn Hornwood's skull open," Robb said.
 
 — Robb Stark, on Jaime's final charge, AGOT Catelyn X (`sources/chapters/agot/agot-catelyn-10.md:133`)
+
+> Beneath the trees, warhorses whickered softly and pawed at the moist, leafy ground, while men made nervous jests in hushed voices. Now and again, she heard the chink of spears, the faint metallic slither of chain mail, but even those sounds were muffled.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:13 · Night-march hush before the battle: the pre-ambush silence in the Whispering Wood.  _(capture: harvest pass, description)_

@@ -144,6 +144,14 @@ After [Theon Greyjoy](wiki:Theon_Greyjoy) returns to [Winterfell](wiki:Winterfel
 
 ### Quotes by Catelyn
 
+> So this is what death sounds like, she thought.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:81 · Catelyn's reaction to Grey Wind's battle howl as the signal to spring the Whispering Wood trap — her moment of visceral dread and pity for the Lannisters below.  _(capture: harvest pass, quote)_
+
+> We have won a battle, not a war.
+>
+> — sources/chapters/agot/agot-catelyn-10.md:135 · Catelyn to Robb after the Whispering Wood — her clear-eyed strategic counsel against celebrating prematurely.  _(capture: harvest pass, quote)_
+
 > "He is my son. My first son, and my last. Let him go. Let him go and I swear we will forget this . . . forget all you've done here. I swear it by the old gods and new, we . . . we will take no vengeance . . ."
 >
 > — Catelyn to Walder Frey, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:115`)

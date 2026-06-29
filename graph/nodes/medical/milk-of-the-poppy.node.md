@@ -60,6 +60,10 @@ After Prince [Quentyn Martell](wiki:Quentyn_Martell) is mortally wounded by [dra
 
 ## Quotes
 
+> Maester Vyman makes me dreamwine, milk of the poppy … I sleep a lot … but I wanted to be awake to see you, when you came.
+>
+> — sources/chapters/agot/agot-catelyn-11.md:55 · Hoster Tully in palliative care at Riverrun, speaking to Catelyn — milk of the poppy named alongside dreamwine as his daily pain-management regimen; primary-text attestation of the paired sedative practice.  _(capture: harvest pass, food)_
+
 [The maester](wiki:Ballabar) poured a slow trickle down his throat. Tyrion swallowed, scarcely tasting. Too late, he realized the liquid was milk of the poppy. By the time the maester removed the funnel from his mouth, he was already spiralling back to sleep.(wiki:Milk_of_the_poppy.cite_ref-Racok67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 Maester, could I trouble you for some milk of the poppy? A thimble cup will suffice.(wiki:Milk_of_the_poppy.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
 I shall not walk that road again.(wiki:Milk_of_the_poppy.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
