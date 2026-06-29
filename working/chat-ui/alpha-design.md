@@ -15,23 +15,33 @@
 
 ## 0. Implementation status
 
-Anti-drift table — every row is DESIGN / NOT STARTED at discussion stage; the first build session flips rows and fills in the file + proving test.
+Anti-drift table — the first build session flips rows and fills in the file + proving test.
+
+**Locked S171 (2026-06-29, the step-0 spike):** RUNTIME = **Netlify Edge Functions (Deno/TS)** —
+the 50 ms limit is CPU-only and excludes time waiting on the Claude API (40 s response-header window),
+so a streaming multi-tool turn fits; a Node function's 10 s/26 s wall-clock would not. MODEL =
+**`claude-opus-4-8`** (persona smoke-test favored its prose + the tidbit/gap-restraint rules over
+Sonnet 4.6; built swappable via one config constant). Retrieval shape = **Option A** (tool-use agent),
+scope = **curated-MVP first, live search fast-follow** (Matt-confirmed).
 
 | Component | Status | Implementing file | Proving test |
 |---|---|---|---|
-| Retrieval tools (resolve / walk_chain / neighbors / read_node / search_chapters / read_passage) | DESIGN — not started | — | — |
-| Agentic tool loop + bounding | DESIGN — not started | — | — |
-| Streaming transport (Edge vs sync) | DESIGN — not started | — | — |
-| Bloodraven system prompt | DESIGN — not started | — | — |
-| Persona + faithfulness eval | DESIGN — not started | — | — |
-| Cost cap (global daily ceiling + per-request bounds) | DESIGN — not started | — | — |
-| Prompt caching | DESIGN — not started | — | — |
-| Live-quote telemetry feed | DESIGN — not started | — | — |
-| Chat page | DESIGN — not started | — | — |
-| Theme tokens | DESIGN — not started | — | — |
-| Featured Tywin exchange (static transcript) | DESIGN — not started | — | — |
-| Typed-edge receipts panel | DESIGN — not started | — | — |
-| Deploy (private repo → Netlify, env var) | DESIGN — not started | — | — |
+| Build-time graph export | ✅ DONE (S171) | `scripts/build-chat-export.py` | 8.8 MB bundle; Tywin chain = 7 links / 8 beats verified |
+| Theme tokens (dark / soft / dusty-red) | ✅ DONE (S171) | `web/public/theme/tokens.css` | one-file theme swap; renders palette |
+| `netlify.toml` (Edge runtime + build) | ✅ DONE (S171) | `netlify.toml` | publish=web/public, /api/chat → chat |
+| Landing page (placeholder) | ✅ DONE (S171) | `web/public/index.html` | title/tagline/about render on theme |
+| Streaming transport (Edge vs sync) | ✅ DECIDED (S171) | Edge (Deno) — `netlify.toml` | spike: CPU-excludes-waiting, 40 s window |
+| Retrieval tools (resolve / walk_chain / neighbors / read_node / search_chapters / read_passage) | ⏳ NEXT (retrieval-core) | `web/src/lib/` | tools return correct typed-edge JSON |
+| Agentic tool loop + bounding | ⏳ (function chunk) | `web/netlify/edge-functions/chat.ts` | local `netlify dev` answers "who killed Tywin?" |
+| Bloodraven system prompt | ⏳ (function chunk) | `chat.ts` | matches demo richness on full grounding |
+| Persona + faithfulness eval | ⏳ (function chunk) | — | emitted cites verified to exist before present |
+| Cost cap (global daily ceiling + per-request bounds) | ⏳ (function chunk) | `chat.ts` + Netlify Blobs/KV | ceiling trips → graceful state |
+| Prompt caching | ⏳ (function chunk) | `chat.ts` | cache_read_input_tokens > 0 on repeat |
+| Live-quote telemetry feed | ⏳ (with live search) | — | logs each live quote fetch |
+| Chat page (thread + tool-gathering trace) | ⏳ (front-end chunk) | `web/public/` | streams reply + trace |
+| Featured Tywin exchange (static transcript) | 🟡 DATA DONE (S171) | `web/data/featured-tywin.json` | render pending (front-end chunk) |
+| Typed-edge receipts panel | ⏳ (front-end chunk) | `web/public/` | renders typed edges from structured return |
+| Deploy (private repo → Netlify, env var) | ⏳ (ship) | Netlify | local run approved → deploy |
 
 ---
 
@@ -314,7 +324,13 @@ retrofit.
 > to Netlify from private, graph + front end + book text all co-located **here** (no separate repo, no boundary, no
 > scrub). The publish/copyright question is CLOSED — see §7. (2) **Deploy text boundary** — gone; nothing to decide.
 
-- **Retrieval shape:** Option A (tool-use agent, live grep — current lean) vs B (RAG-lite)? Confirm.
+> **RESOLVED S171 (2026-06-29) — do not reopen:** (3) **Runtime** = Netlify Edge Functions (Deno/TS) — spike proved
+> the 50 ms limit is CPU-only and excludes API-wait time (40 s response window). (4) **Model** = `claude-opus-4-8`,
+> swappable via one config constant (persona smoke-test favored it over Sonnet 4.6). (5) **Retrieval shape** =
+> Option A. (6) **Scope** = curated-MVP first, live `search_chapters` as the fast-follow. (7) **Bundle size** = the
+> whole curated graph is 8.8 MB → loads in memory, no lazy-loading needed.
+
+- **Retrieval shape:** ~~Option A vs B~~ → **RESOLVED: Option A** (S171).
 - **Theme:** lean is set (modern/simple, dark default, soft weirwood-tree background — not hard black/red); open
   parts are the exact palette values + how the weirwood tree is rendered (SVG / CSS / image).
 - **Model:** Sonnet 4.6 (cost) vs Opus 4.8 (prose) — smoke-test the persona on both (§8 step 0b).

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Weirwood Network</title>
+  <meta name="description" content="A book-grounded ASOIAF loremaster, standing on a hand-built knowledge graph." />
+  <link rel="stylesheet" href="/theme/tokens.css" />
+  <style>
+    /* PLACEHOLDER PAGE (Foundation chunk, S171). The real chat thread, featured
+       Tywin exchange, and typed-edge receipts panel are built in the front-end
+       chunk. This page exists to (a) verify the theme renders and (b) give a
+       landing while the rest is built. It reads ONLY the theme tokens. */
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh;
+      background: radial-gradient(120% 90% at 50% -10%, var(--c-bg) 40%, var(--c-bg-deep) 100%);
+      color: var(--c-text); font-family: var(--font-ui);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: var(--sp-6); text-align: center;
+    }
+    .mark { width: 14px; height: 14px; border-radius: 50%;
+      background: var(--c-accent); box-shadow: 0 0 18px 2px var(--c-accent-faint);
+      margin-bottom: var(--sp-5); }
+    h1 { font-family: var(--font-prose); font-size: var(--fs-display);
+      font-weight: 500; letter-spacing: 0.01em; margin: 0 0 var(--sp-2); }
+    .tagline { font-family: var(--font-prose); font-style: italic;
+      color: var(--c-accent-soft); font-size: 1.15rem; margin: 0 0 var(--sp-5); }
+    .about { max-width: 34rem; color: var(--c-text-dim); line-height: var(--lh-prose);
+      font-size: var(--fs-body); margin: 0 0 var(--sp-6); }
+    .well { width: min(90vw, var(--maxw-reading)); background: var(--c-surface);
+      border: 1px solid var(--c-border); border-radius: var(--radius);
+      padding: var(--sp-4) var(--sp-4); color: var(--c-text-faint);
+      font-family: var(--font-prose); font-style: italic; text-align: left; }
+    .status { margin-top: var(--sp-7); font-size: var(--fs-cite);
+      color: var(--c-text-faint); font-family: var(--font-mono); }
+    footer { margin-top: var(--sp-4); font-size: var(--fs-cite); color: var(--c-text-faint); }
+  </style>
+</head>
+<body>
+  <div class="mark" aria-hidden="true"></div>
+  <h1>The Weirwood Network</h1>
+  <p class="tagline">a thousand eyes, and one</p>
+  <p class="about">
+    A book-grounded loremaster for <em>A Song of Ice and Fire</em>. Ask a question and
+    it answers in the voice of the old record-keeper — dropping the real lines from the
+    books with their chapter citations, and showing the typed chain of cause and
+    consequence it walked to get there. It does not bluff.
+  </p>
+  <div class="well">Ask your questions.</div>
+  <p class="status">// alpha — foundation in place; chat thread under construction</p>
+  <footer>a fan project · quotes © George R.R. Martin, used for commentary</footer>
+</body>
+</html>

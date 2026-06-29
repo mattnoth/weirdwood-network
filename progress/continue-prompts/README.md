@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-29 (refreshed after S170)  
+**Generated:** 2026-06-29 (refreshed after S171)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-29-chat-ui-alpha.md` | 2026-06-29 | Chat-UI alpha (Bloodraven loremaster) — Matt's job-portfolio demo | **LIVE** (meta) → fires as **S171** (scoped S168 · reviewed S169 · architecture settled S170) | Opus 4.8 | Build a deployable ASOIAF chat over the graph: Netlify + serverless fn (API key on deploy / **subscription OAuth profile locally** = plan quota) · Bloodraven persona (notes as-is) · graph + curated `## Quotes` + a **live `search_chapters` grep tool** (no embeddings) · dark-default soft-weirwood theme · typed-edge "chain walked" receipts · Tywin featured landing · self-curating quote loop. **S170 SETTLED publishing/repo/auth** → `working/chat-ui/alpha-design.md` (§0 status table · §4 auth modes · **§7 Publishing SETTLED: private repo + co-located `web/`, book text bundles as-is — NO boundary/scrub work, do NOT re-raise** · §8 repo layout + step-0 spike GATE · structured receipts · global spend ceiling). **Built by a FRESH session (Matt). START with the §8 step-0 spike; resolve remaining §9 + confirm with Matt before building/deploying.** |
+| `2026-06-29-chat-ui-retrieval-core.md` | 2026-06-29 | Chat-UI alpha — retrieval-core chunk (2nd of 4) | **LIVE** (meta) → fires as **S172** | Sonnet 4.6 | Port the read-only retrieval tools to Deno/TS under `web/src/lib/` (resolve / walkChain / neighbors / readNode), reading the S171 `web/data/` bundle; unit-test vs the bundle (no API). DECISIONS LOCKED S171 (design §0/§9): runtime = Edge Functions (Deno/TS), model = `claude-opus-4-8` swappable, Option A, curated-MVP-first. **DEFER** live `searchChapters`/`readPassage` (need a build-time inverted index for the 50 ms CPU budget). Then function chunk (Opus), then front-end+ship. Read first: `web/README.md` + `web/src/lib/README.md`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 84 files)
+## Archive (`archive/` subfolder — 85 files)
+
+> **`2026-06-29-chat-ui-alpha.md`** — archived S171. **DONE (S171): it fired the chat-UI BUILD session.** Ran the §8 step-0 spike → locked RUNTIME = Netlify Edge Functions (Deno/TS) (50 ms = CPU-only, excludes Claude-API wait; 40 s window) + MODEL = `claude-opus-4-8` swappable (persona smoke-test). Confirmed Option A / MVP-then-live with Matt; split the build into **4 chunks**. Built the **Foundation chunk**: `scripts/build-chat-export.py` → `web/data/` 8.8 MB bundle (whole curated graph in memory; Tywin chain verified 7 links) + `web/` scaffold + theme tokens + `netlify.toml`. Superseded as live by `2026-06-29-chat-ui-retrieval-core.md` (chunk 2 of 4).
 
 > **`2026-06-30-granular-dip-planning.md`** — archived S168. **DONE (S168): the granular-dip PLANNING session.** STEP 0 drained the harvest queue 39→0 (+2 FORESHADOWS edges → 23,330). Produced the ranked, graph-grounded granular-dip plan → `working/granular-dip-plan.md` (opener = D2 Hand's Tourney, no-build WIRE+ENRICH; corrected 3 stale coverage-plan notes — B6 REFORGED_INTO now 2-not-0, B5 antler-men dup, D3 greyjoy dup live). **Granular dips then PARKED by Matt** (held for review). Session PIVOTED to the chat-UI alpha (see the LIVE prompt above). Superseded as live by `2026-06-29-chat-ui-alpha.md`.
 

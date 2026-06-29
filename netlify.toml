@@ -1,0 +1,29 @@
+# Netlify config — The Weirwood Network chat-UI alpha (Session 171).
+#
+# Deploys a BUILD OUTPUT, never the whole repo: the static page in web/public +
+# the Edge function in web/netlify/edge-functions. The 8.8 MB generated data
+# bundle (web/data/, gitignored) is produced by `scripts/build-chat-export.py`
+# at build time and read by the Edge function at cold start.
+#
+# Runtime decision (S171 spike): EDGE FUNCTIONS (Deno/TypeScript). Their 50 ms
+# limit is CPU-only and EXCLUDES time spent waiting on the Claude API, with a
+# 40 s response-header window — the right fit for a streaming multi-tool turn.
+# (A Node Function's 10 s/26 s wall-clock would strangle the agentic loop.)
+
+[build]
+  publish = "web/public"
+  edge_functions = "web/netlify/edge-functions"
+  # The data bundle is generated, not committed. Regenerate it during deploy so
+  # Netlify always ships from the live graph. (python3 is available in Netlify's
+  # build image.) Local dev can just run the script once by hand.
+  command = "python3 scripts/build-chat-export.py --built-at \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\""
+
+# The chat endpoint. The browser POSTs here; the function holds ANTHROPIC_API_KEY
+# server-side and streams the reply back. (Implemented in the function chunk.)
+[[edge_functions]]
+  path = "/api/chat"
+  function = "chat"
+
+[functions]
+  # No standard (Node) Functions in the alpha — the chat path is an Edge function.
+  # Placeholder kept so the section exists if a non-streaming helper is added later.

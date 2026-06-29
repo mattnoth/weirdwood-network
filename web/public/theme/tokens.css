@@ -1,0 +1,78 @@
+/* ============================================================================
+   The Weirwood Network — theme tokens (SINGLE SOURCE OF TRUTH for the look).
+
+   Swapping the entire theme = editing THIS FILE. Components read these custom
+   properties and never hard-code a colour, font, or size. Matt's S168 brief:
+   modern / simple, DARK-MODE DEFAULT, soft palette — NOT hard black, NOT hard
+   red. Muted charcoal / deep-warm-neutral ground, bone text, a *dusty* (desat-
+   urated) red accent, and a subtle weirwood-tree motif behind the content.
+   ========================================================================== */
+
+:root {
+  /* ---- Palette: warm dark ground (never #000), bone text, dusty red ------ */
+  --c-bg:            #1b1814;  /* deep warm charcoal — the page ground        */
+  --c-bg-deep:       #161310;  /* slightly deeper, for vignette / footer      */
+  --c-surface:       #241f1a;  /* lifted panel (chain panel, input well)      */
+  --c-surface-2:     #2c2620;  /* hover / secondary surface                   */
+  --c-bubble-user:   #2f2922;  /* the visitor's message bubble                */
+  --c-bubble-bot:    transparent; /* Bloodraven speaks on the ground itself   */
+  --c-border:        #3a322a;  /* hairline borders, low contrast              */
+  --c-border-soft:   #2a241e;
+
+  --c-text:          #e9e1d2;  /* bone / off-white — primary text             */
+  --c-text-dim:      #b3a994;  /* muted secondary text                        */
+  --c-text-faint:    #8a8170;  /* captions, cites, timestamps                 */
+
+  --c-accent:        #c2664c;  /* dusty weirwood red — desaturated, not blood */
+  --c-accent-deep:   #9c4a38;  /* pressed / deep accent                       */
+  --c-accent-soft:   #d98f76;  /* light accent for links on dark              */
+  --c-accent-faint:  rgba(194,102,76,0.14); /* accent wash (chips, hovers)    */
+
+  --c-weirwood-pale: #ddd2bf;  /* bone-white weirwood bark (the tree motif)   */
+
+  /* Edge-type colours for the "chain walked" connectors (typed receipts).
+     Distinct but all muted so the panel reads calm, not a rainbow. */
+  --c-edge-causes:    #c2664c;  /* CAUSES   — the dusty red                    */
+  --c-edge-triggers:  #c9925a;  /* TRIGGERS — amber                           */
+  --c-edge-motivates: #8f9b6a;  /* MOTIVATES— sage                            */
+  --c-edge-enables:   #6f93a3;  /* ENABLES  — slate blue                      */
+  --c-edge-default:   #9a8f7d;  /* any other relation                         */
+
+  /* ---- Typography -------------------------------------------------------- */
+  /* Serif for the persona's prose + display (old-world, weighty); system sans
+     for UI chrome (buttons, labels) so the interface reads modern/clean.     */
+  --font-prose: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  --fs-display: 2.4rem;   /* site title                                      */
+  --fs-h1: 1.5rem;
+  --fs-body: 1.05rem;     /* chat prose                                       */
+  --fs-small: 0.9rem;
+  --fs-cite: 0.8rem;      /* chapter:line citations                           */
+  --lh-prose: 1.62;
+
+  /* ---- Space / shape / motion ------------------------------------------- */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px;
+
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 16px;
+
+  --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.28);
+  --ring: 0 0 0 2px var(--c-accent-faint);
+
+  --maxw-reading: 44rem;  /* comfortable line length for the chat column      */
+  --transition: 160ms ease;
+
+  /* ---- Weirwood-tree backdrop knobs (the actual SVG/illustration drops in
+     during the front-end chunk; these control its presence so it stays a
+     low-contrast motif behind content, never loud). ------------------------ */
+  --weirwood-opacity: 0.06;
+  --weirwood-blend: soft-light;
+}
+
+/* A light theme is intentionally NOT shipped for the alpha (dark is the brief).
+   When one is wanted, add `:root[data-theme="light"] { ... }` overriding the
+   tokens above — nothing else in the app needs to change. */
