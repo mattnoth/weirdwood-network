@@ -65,6 +65,11 @@ where S136 tripped:
   (225 open rows, well over the ~20-30 trigger).
   (These are small
   next to "WO5K," but they are the TOP level — because they are the graspable objects.)
+  **UPDATE (S167): the 🅰 A-ROUNDUP IS CLOSED.** All major-arc units done (Stannis S155 · Dorne S156 · Euron S157 ·
+  Jaime/Riverlands S159 · Tyrion/Essos S161 · WO5K-battles S163/S164/S166 · **Davos/Sam residual S167** — the last).
+  **27 major-arc dips total.** The descent now drops to the **granular tier** — a dedicated PLANNING session (Matt
+  S130) scopes the L2 sub-plot / character-web / event-within-container / Class-D-cluster dip list next. NOT another
+  arc dip. (Graph at edges 23,328 / nodes 8,475 after S167.)
 - **Level 2 — granular sub-plots WITHIN one arc** = the threads *inside* a level-1 event. Inside Ned's-downfall:
   gold-cloak bribery mechanics, the throne-room massacre of Stark guards, Littlefinger's maneuvering. Inside the
   Red Wedding: the Frey-pies / GNC layer. **"Granular" = smaller than an event-arc, not the event-arc itself.**

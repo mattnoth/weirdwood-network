@@ -1,0 +1,14 @@
+{
+  "run_id": "davos-sam-residual-enrichment-s167",
+  "verified_by": "fresh-verify-s167",
+  "drop": ["D16"],
+  "note_patch": {
+    "D4": "Davos's four eldest sons died in the wildfire at the Blackwater; the loss drives his revenge-resolve, which restarts his Dragonstone arc. fresh-verify-s167 AMEND: the quote ('she gave my sons to the fire. I will cut the living heart from her breast') attributes the drive to MELISANDRE personally, so the source was repointed battle-of-the-blackwater -> melisandre (melisandre MOTIVATES davos-seaworth). Distinct from the existing davos HATES/OPPOSES/FEARS melisandre (emotion/stance) -- MOTIVATES captures that she drives his actions (the assassination attempt).",
+    "D15": "Privately Wyman reveals his enmity toward the Boltons even as he publicly feigns loyalty to Roose, his Warden. fresh-verify-s167 AMEND: the quote names 'the Bastard of Bolton who put Winterfell to the sword' (Ramsay), so the target was repointed roose-bolton -> ramsay-snow to match the evidence. The hidden opposition that powers the GNC.",
+    "S19": "MARQUEE cross-half seam. Jon cites the king's-blood-for-magic danger as why Aemon -- a Targaryen -- must leave the Wall; that journey kills him. fresh-verify-s167 AMEND (tier-2 upheld): Jon's quote frames the danger GENERICALLY ('if the red woman requires king's blood for her spells') and does NOT name the Edric-Storm leeching; leeching-of-edric-storm is retained as the correct in-graph precedent event for that danger, but the causal link is inferential (the leeching is the precedent, not invoked by name) -- hence tier-2, not tier-1."
+  },
+  "bug_repoint": [
+    {"match": ["battle-of-the-blackwater", "MOTIVATES", "davos-seaworth"], "new_source": "melisandre", "note": "fresh-verify-s167: repointed source battle-of-the-blackwater -> melisandre; the evidence quote attributes Davos's revenge-drive to Melisandre personally, not the battle as event. Quote/evidence_ref (asos-davos-02) now correctly support melisandre MOTIVATES davos-seaworth."},
+    {"match": ["wyman-manderly", "OPPOSES", "roose-bolton"], "new_target": "ramsay-snow", "note": "fresh-verify-s167: repointed target roose-bolton -> ramsay-snow; the quote names the Bastard of Bolton (Ramsay), not Roose."}
+  ]
+}

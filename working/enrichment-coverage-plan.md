@@ -1,12 +1,11 @@
 # Enrichment Coverage Plan — the full ranked dip list (S143)
 
-> **🅰 ACTIVE CAMPAIGN (Matt, S154): ROUND UP THE REMAINING A ARCS** — a multi-session campaign (one dip/session)
-> to close out the major-arc tier. **Order: ✅ A2.7 Stannis (S155) · ✅ A1.5 Dorne (S156) · ✅ A1.6 Euron (S157) · ✅ A2.6 Jaime/Riverlands (S159)**, then **NEXT → A2.4 Tyrion-Essos**,
-> **A2.5 WO5K-battles LAST (it's multi-pass, its own
-> mini-track)**, A2.8 Davos/Sam residual. After A is done → the descent drops to granular L2 / character / (gated)
-> theory. Remaining Class-D clusters (D2 Hand's Tourney · D3 Greyjoy's Rebellion · D4 Riot of KL) are parked behind
-> the A roundup. ✅ DONE so far: all A1 spine-only heavyweights (Dany/Jon/Bran/AEGON S144–S147) + A2.1/A2.2/A2.3
-> (Theon/Sansa/Arya S148–S150) + D1 Castle Black (S153) + D5 Arya/Harrenhal (S154) + **A2.7 Stannis (S155) + A1.5 Dorne (S156) + A1.6 Euron (S157) + A2.6 Jaime/Riverlands (S159)**.
+> **🅰 A-ROUNDUP — ✅ CLOSED (S167).** The multi-session campaign to close out the major-arc tier is COMPLETE.
+> **Order, all done: ✅ A2.7 Stannis (S155) · ✅ A1.5 Dorne (S156) · ✅ A1.6 Euron (S157) · ✅ A2.6 Jaime/Riverlands (S159) · ✅ A2.4 Tyrion-Essos (S161) · ✅ A2.5 WO5K-battles (PASS 1 S163 / PASS 2 S164 / PASS 3 S166, its own multi-pass mini-track) · ✅ A2.8 Davos/Sam residual (S167 — the LAST unit).**
+> **→ NEXT: the granular-dip PLANNING session** (Matt S130) — scope the descent to granular L2 / character / event-within-container /
+> (gated) theory + the remaining Class-D clusters (D2 Hand's Tourney · D3 Greyjoy's Rebellion · D4 Riot of KL). NOT another arc dip.
+> ✅ Full A-roundup DONE: all A1 spine-only heavyweights (Dany/Jon/Bran/AEGON S144–S147) + A2.1/A2.2/A2.3
+> (Theon/Sansa/Arya S148–S150) + D1 Castle Black (S153) + D5 Arya/Harrenhal (S154) + **A2.7 Stannis (S155) + A1.5 Dorne (S156) + A1.6 Euron (S157) + A2.6 Jaime/Riverlands (S159) + A2.4 Tyrion-Essos (S161) + A2.5 WO5K-battles (S163/S164/S166) + A2.8 Davos/Sam (S167)**.
 >
 > **Created S143 (2026-06-24)** as the dedicated planning deliverable Matt scheduled between the arc phase and
 > the granular phase. **Supersedes the "L2-only" framing of the handoff** — see the Key Finding below.
@@ -85,7 +84,7 @@ manipulators (Varys, Petyr, Bloodraven) whose webs no single arc fully covers �
 | **A2.5** 🔄 **PASS 2 DONE S164** | **WO5K — the battles** (multi-pass mini-track) | **PASS 1 ✅ (S163): Robb's relief rise** — enriched the wiki-shell `battle-in-the-whispering-wood` (0→22 edges: 11 roles + Jaime's 3 KILLS + 3 casualty VICTIM_IN + gawen-westerling capture seam) and wired the **causal ENABLES spine** green-fork→whispering-wood→camps→king-in-the-north + siege-of-riverrun→camps; stamped 4 hubs `[wo5k]`; **3 bug-drops** (roose/catelyn CAPTURES jaime + inverted robb PRISONER_OF jaime). +19 net edges, 0 new nodes. **PASS 2 ✅ (S164): the Westerlands raid** — WIRE+ENRICH, 0 new nodes, +14 edges: lit the 2 ISLANDED raid hubs (battle-of-oxcross/taking-of-ashemark, both 0/0) + the roster-EMPTY storming-of-the-crag (7 roles), the ENABLES spine king-in-the-north→oxcross→ashemark→the-crag into the built marriage spine; +jeyne HEALS robb, +rickard KILLS stafford; 3 hubs `[wo5k]` (52→55); whodunit HONEST (0 SUSPECTED_OF — Spicer-trap already wired). **PASS 3 (next): the unravelling** (the Fords / Duskendale → RW-upstream; incl. the 7-edge Spicer-betrayal thread list). | 10 | Large (25+) | WO5K flagged "needs many passes." `battle-on-the-green-fork` already rich (29). |
 | **A2.6** ✅ **DONE S159** | **Jaime: Riverlands command (AFFC)** | ✅ Riverrun siege resolution (edmure-yields + blackfish-escapes), trebuchet coercion (MANIPULATES via_threat), Cersei-letter rupture, Oathkeeper/Ice cluster. +3 nodes/+22 edges. | 11 | Med (15–20) → **22 net** | Overlapped RW pass-2 + S141 Brienne + S142 wildfire — dedup-heavy as predicted. |
 | **A2.7** | **Stannis** | Dragonstone self-isolation → Renly's-war + the shadow-baby → Blackwater → the Wall → the march. Mostly an event-arc spread across containers. | 12 | Med (15–20) | Much already wired via Blackwater + NORTH spines; a dip adds the Melisandre-submission + Renly-kinslaying MOTIVATES substrate. |
-| **A2.8** | **Davos / Sam** | Davos: Blackwater near-death → Manderly mission → Skagos. Sam: Fist → Gilly → Citadel road. | 13 | Small–Med | Smaller, Stannis/Jon-adjacent; do as residuals. |
+| **A2.8** ✅ **DONE S167** | **Davos / Sam** | ✅ Davos (WIRE+ENRICH, heavy dedup): lit the islanded S93 deception cluster + built the Skagos-commission hub. Sam (BUILD): the unbuilt Citadel road — Other-kill, Coldhands-rescue, Aemon's death. +4 nodes / net +43 edges. Marquee cross-half seam `leeching-of-edric-storm MOTIVATES death-of-maester-aemon`. | 13 | Small–Med → **43 net** | **CLOSES the A-roundup.** whodunit HONEST (0 SUSPECTED_OF — both arcs overt); fresh-verify 5C/4A/0R; theory-gated clean. |
 
 ---
 

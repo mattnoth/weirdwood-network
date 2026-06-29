@@ -1,0 +1,859 @@
+==============================================================================
+CORE slugs WITHOUT a live node file (11) — candidates to BUILD if load-bearing:
+  coldhands-rescues-sam-and-gilly, davos-rescued-after-the-blackwater, davos-sent-to-fetch-rickon-from-skagos, death-of-maester-aemon, eastwatch, sam-and-gilly-reach-oldtown, sam-kills-the-other, the-citadel, the-fist-of-the-first-men, the-wall, the-wolfs-den
+==============================================================================
+
+INTERNAL EDGES (both endpoints in core): 325 unique
+==============================================================================
+  aemon-targaryen-son-of-maekar-i  [APPOINTS]  jon-snow  | 1
+  aemon-targaryen-son-of-maekar-i  [BORN_AT]  kings-landing  | 2
+  aemon-targaryen-son-of-maekar-i  [DISTRUSTS]  melisandre  | 1
+  aemon-targaryen-son-of-maekar-i  [HEALS]  jon-snow  | 1
+  aemon-targaryen-son-of-maekar-i  [PROTECTS]  jon-snow  | 1
+  aemon-targaryen-son-of-maekar-i  [RESPECTS]  jon-snow  | 1
+  aemon-targaryen-son-of-maekar-i  [SWORN_TO]  nights-watch  | 2
+  aemon-targaryen-son-of-maekar-i  [TUTORS]  jon-snow  | 1
+  aemon-targaryen-son-of-maekar-i  [TUTORS]  samwell-tarly  | 1
+  allard-seaworth  [DIED_AT]  blackwater-bay  | 2
+  allard-seaworth  [SWORN_TO]  house-seaworth  | 2
+  axell-florent  [COMMANDS_IN]  ser-axell-florent-arrests-davos  | 1
+  axell-florent  [CONSPIRES_WITH]  salladhor-saan  | 1
+  axell-florent  [GUEST_OF]  stannis-baratheon  | 1
+  axell-florent  [OPPOSES]  davos-seaworth  | 1
+  axell-florent  [PROTECTS]  melisandre  | 1
+  axell-florent  [RESENTS]  davos-seaworth  | 1
+  bartimus  [BORN_AT]  white-harbor  | 2
+  bartimus  [GUARDS]  davos-seaworth  | 1
+  bartimus  [RESCUES]  wyman-manderly  | 1
+  bartimus  [SWORN_TO]  house-manderly  | 2
+  blackwater-chain-boom  [WIELDED_IN]  battle-of-the-blackwater  | 1
+  bowen-marsh  [BETRAYS]  jon-snow  | 1
+  bowen-marsh  [DISTRUSTS]  jon-snow  | 1
+  bowen-marsh  [FEARS]  jon-snow  | 1
+  bowen-marsh  [OPPOSES]  jon-snow  | 1
+  bowen-marsh  [RESENTS]  jon-snow  | 1
+  bowen-marsh  [SERVES]  jon-snow  | 1
+  bowen-marsh  [SWORN_TO]  nights-watch  | 2
+  castle-black  [SEAT_OF]  nights-watch  | 2
+  chett  [ATTACKS]  samwell-tarly  | 1
+  chett  [BETRAYS]  jeor-mormont  | 1
+  chett  [CONSPIRES_WITH]  small-paul  | 1
+  chett  [DISTRUSTS]  jon-snow  | 1
+  chett  [HATES]  samwell-tarly  | 1
+  chett  [OPPOSES]  jon-snow  | 1
+  chett  [RESENTS]  jon-snow  | 1
+  chett  [SERVES]  aemon-targaryen-son-of-maekar-i  | 1
+  chett  [SWORN_TO]  nights-watch  | 2
+  coldhands  [AGENT_IN]  bran-meets-coldhands  | 1
+  coldhands  [KILLS]  nights-watch  | 1
+  coldhands  [SWORN_TO]  nights-watch  | 2
+  craster  [DIED_AT]  crasters-keep  | 2
+  craster  [DISTRUSTS]  nights-watch  | 1
+  craster  [HATES]  mance-rayder  | 1
+  craster  [OPPOSES]  mance-rayder  | 1
+  craster  [OPPOSES]  nights-watch  | 1
+  craster  [PARENT_OF]  gilly  | 2
+  craster  [SPOUSE_OF]  gillys-mother  | 2
+  craster  [VICTIM_IN]  mutiny-at-crasters-keep  | 1
+  craster  [VIOLATES_GUEST_RIGHT]  nights-watch  | 1
+  dale-seaworth  [DIED_AT]  blackwater-rush  | 2
+  dale-seaworth  [SWORN_TO]  house-seaworth  | 2
+  dareon  [BETRAYS]  nights-watch  | 1
+  dareon  [COMPANION_OF]  jon-snow  | 1
+  dareon  [DIED_AT]  braavos  | 2
+  dareon  [HATES]  gilly  | 1
+  dareon  [OPPOSES]  samwell-tarly  | 1
+  dareon  [RESENTS]  jon-snow  | 1
+  dareon  [SWORN_TO]  nights-watch  | 2
+  davos-seaworth  [BORN_AT]  kings-landing  | 2
+  davos-seaworth  [COMPANION_OF]  salladhor-saan  | 1
+  davos-seaworth  [DISTRUSTS]  axell-florent  | 1
+  davos-seaworth  [DISTRUSTS]  melisandre  | 1
+  davos-seaworth  [DISTRUSTS]  imry-florent  | 1
+  davos-seaworth  [DISTRUSTS]  salladhor-saan  | 1
+  davos-seaworth  [FEARS]  melisandre  | 1
+  davos-seaworth  [FIGHTS_IN]  battle-of-the-blackwater  | 1
+  davos-seaworth  [FOUNDED]  house-seaworth  | 2
+  davos-seaworth  [GUEST_OF]  salladhor-saan  | 1
+  davos-seaworth  [GUEST_OF]  stannis-baratheon  | 1
+  davos-seaworth  [GUEST_OF]  khorane-sathmantes  | 1
+  davos-seaworth  [GUEST_OF]  wyman-manderly  | 1
+  davos-seaworth  [HATES]  melisandre  | 1
+  davos-seaworth  [LOVES]  devan-seaworth  | 1
+  davos-seaworth  [MOTIVATES]  stannis-baratheon  | tier-2
+  davos-seaworth  [MOURNS]  allard-seaworth  | 1
+  davos-seaworth  [MOURNS]  dale-seaworth  | 1
+  davos-seaworth  [MOURNS]  marya-seaworth  | 1
+  davos-seaworth  [OPPOSES]  melisandre  | 1
+  davos-seaworth  [PARENT_OF]  devan-seaworth  | 1
+  davos-seaworth  [PARENT_OF]  allard-seaworth  | 2
+  davos-seaworth  [PARENT_OF]  dale-seaworth  | 2
+  davos-seaworth  [PARENT_OF]  matthos-seaworth  | 2
+  davos-seaworth  [PARENT_OF]  maric-seaworth  | 2
+  davos-seaworth  [PROTECTS]  edric-storm  | 1
+  davos-seaworth  [RESCUES]  edric-storm  | 1
+  davos-seaworth  [RESPECTS]  salladhor-saan  | 1
+  davos-seaworth  [RULES]  house-seaworth  | 2
+  davos-seaworth  [SEEKS]  rickon-stark  | 1
+  davos-seaworth  [SERVES]  stannis-baratheon  | 1
+  davos-seaworth  [SERVES]  imry-florent  | 1
+  davos-seaworth  [SPOUSE_OF]  marya-seaworth  | 1
+  davos-seaworth  [SWORN_TO]  stannis-baratheon  | 1
+  davos-seaworth  [SWORN_TO]  house-seaworth  | 2
+  davos-seaworth  [SWORN_TO]  house-baratheon-of-dragonstone  | 2
+  davos-seaworth  [TRAVELS_WITH]  melisandre  | 1
+  davos-seaworth  [TRUSTS]  salladhor-saan  | 1
+  davos-seaworth  [VICTIM_IN]  ser-axell-florent-arrests-davos  | 1
+  davos-seaworth  [VICTIM_IN]  davos-seaworth-captured  | 1
+  davos-seaworth  [VICTIM_IN]  wyman-publicly-orders-davos-execution  | 1
+  davos-seaworth  [VICTIM_IN]  wyman-publicly-arrests-davos-at-white-harbor  | 1
+  davos-seaworth  [WITNESS_IN]  leeching-of-edric-storm  | tier-1
+  davos-seaworth-captured  [LOCATED_AT]  white-harbor  | 1
+  devan-seaworth  [HEIR_TO]  house-seaworth  | 2
+  devan-seaworth  [LOVES]  melisandre  | 1
+  devan-seaworth  [SERVES]  stannis-baratheon  | 1
+  devan-seaworth  [SWORN_TO]  house-seaworth  | 2
+  devan-seaworth  [SWORN_TO]  house-baratheon-of-dragonstone  | 2
+  dragonstone  [SEAT_OF]  house-baratheon-of-dragonstone  | 2
+  edric-storm  [RESENTS]  stannis-baratheon  | 1
+  edric-storm  [VICTIM_IN]  leeching-of-edric-storm  | tier-1
+  execution-of-davos-lookalike-at-white-harbor  [SUB_BEAT_OF]  wyman-manderly-stages-fake-execution-of-davos  | 1
+  fight-at-the-fist  [CAUSES]  mutiny-at-crasters-keep  | 2
+  fight-at-the-fist  [MOTIVATES]  mance-rayder  | 2
+  frey-witnesses-attest-davos-dead-at-small-council  [SUB_BEAT_OF]  wyman-manderly-stages-fake-execution-of-davos  | 1
+  gilly  [BORN_AT]  crasters-keep  | 2
+  gilly  [COMPANION_OF]  samwell-tarly  | 1
+  gilly  [FEARS]  craster  | 1
+  gilly  [FEARS]  melisandre  | 1
+  gilly  [GUEST_OF]  stannis-baratheon  | 1
+  gilly  [SEEKS]  jon-snow  | 1
+  gilly  [SPOUSE_OF]  craster  | 1
+  gilly  [TRUSTS]  samwell-tarly  | 1
+  gillys-mother  [PARENT_OF]  gilly  | 2
+  gillys-mother  [PROTECTS]  gilly  | 1
+  great-ranging  [CAUSES]  fight-at-the-fist  | 2
+  grenn  [ALLIES_WITH]  jon-snow  | 1
+  grenn  [ATTACKS]  jon-snow  | 1
+  grenn  [COMPANION_OF]  jon-snow  | 1
+  grenn  [SERVES]  jon-snow  | 1
+  grenn  [SWORN_TO]  nights-watch  | 2
+  house-baratheon-of-dragonstone  [OVERLORD_OF]  house-seaworth  | 2
+  house-manderly  [AGENT_IN]  wyman-publicly-arrests-davos-at-white-harbor  | 1
+  house-stark  [OVERLORD_OF]  house-manderly  | 2
+  imry-florent  [COMMANDS_IN]  battle-of-the-blackwater  | 1
+  imry-florent  [DIED_AT]  blackwater-rush  | 2
+  imry-florent  [DISTRUSTS]  davos-seaworth  | 1
+  imry-florent  [DISTRUSTS]  salladhor-saan  | 1
+  imry-florent  [IN_LAW_OF]  stannis-baratheon  | 1
+  jeor-mormont  [COMMANDS]  jon-snow  | 1
+  jeor-mormont  [DIED_AT]  crasters-keep  | 2
+  jeor-mormont  [PROTECTS]  jon-snow  | 1
+  jeor-mormont  [RESPECTS]  aemon-targaryen-son-of-maekar-i  | 1
+  jeor-mormont  [SWORN_TO]  nights-watch  | 2
+  jeor-mormont  [TUTORS]  jon-snow  | 1
+  jeor-mormont  [VICTIM_IN]  mutiny-at-crasters-keep  | 1
+  jon-snow  [ADVISES]  stannis-baratheon  | tier-2
+  jon-snow  [ALLIES_WITH]  stannis-baratheon  | 1
+  jon-snow  [BREAKS_VOW]  stannis-baratheon  | 1
+  jon-snow  [COMMANDS]  jeor-mormont  | 1
+  jon-snow  [COMMANDS]  gilly  | 1
+  jon-snow  [COMMANDS]  samwell-tarly  | 1
+  jon-snow  [COMMANDS]  nights-watch  | 1
+  jon-snow  [COMMANDS]  bowen-marsh  | 1
+  jon-snow  [COMPANION_OF]  grenn  | 1
+  jon-snow  [COMPANION_OF]  samwell-tarly  | 1
+  jon-snow  [DEFEATS]  grenn  | 1
+  jon-snow  [DISTRUSTS]  chett  | 1
+  jon-snow  [DISTRUSTS]  melisandre  | 1
+  jon-snow  [DISTRUSTS]  nights-watch  | 1
+  jon-snow  [DISTRUSTS]  bowen-marsh  | 1
+  jon-snow  [DISTRUSTS]  axell-florent  | 1
+  jon-snow  [FEARS]  gilly  | 1
+  jon-snow  [GUEST_OF]  mance-rayder  | 1
+  jon-snow  [HATES]  nights-watch  | 1
+  jon-snow  [HEIR_TO]  house-stark  | 2
+  jon-snow  [LOVES]  rickon-stark  | 1
+  jon-snow  [MEMBER_OF]  nights-watch  | 1
+  jon-snow  [MOURNS]  rickon-stark  | 1
+  jon-snow  [MOURNS]  aemon-targaryen-son-of-maekar-i  | 1
+  jon-snow  [OPPOSES]  stannis-baratheon  | 1
+  jon-snow  [OPPOSES]  bowen-marsh  | 1
+  jon-snow  [OPPOSES]  mance-rayder  | 1
+  jon-snow  [PROTECTS]  aemon-targaryen-son-of-maekar-i  | 1
+  jon-snow  [PROTECTS]  gilly  | 1
+  jon-snow  [PROTECTS]  samwell-tarly  | 1
+  jon-snow  [RESENTS]  chett  | 1
+  jon-snow  [RESPECTS]  aemon-targaryen-son-of-maekar-i  | 1
+  jon-snow  [RESPECTS]  mance-rayder  | 1
+  jon-snow  [SERVES]  nights-watch  | 1
+  jon-snow  [SERVES]  stannis-baratheon  | 1
+  jon-snow  [SERVES]  jeor-mormont  | 1
+  jon-snow  [SPIES_ON]  mance-rayder  | 1
+  jon-snow  [SWORN_TO]  nights-watch  | 1
+  jon-snow  [SWORN_TO]  house-stark  | 2
+  jon-snow  [TEACHES]  grenn  | 1
+  jon-snow  [TRUSTS]  grenn  | 1
+  jon-snow  [TRUSTS]  aemon-targaryen-son-of-maekar-i  | 1
+  jon-snow  [TRUSTS]  samwell-tarly  | 1
+  jon-snow  [TUTORS]  samwell-tarly  | 1
+  khorane-sathmantes  [RESCUES]  davos-seaworth  | 1
+  khorane-sathmantes  [SERVES]  salladhor-saan  | 1
+  learning-about-manderly-s-hostage  [MOTIVATES]  wyman-manderly  | 1
+  leeching-of-edric-storm  [LOCATED_AT]  dragonstone  | tier-1
+  leeching-of-edric-storm  [MOTIVATES]  davos-seaworth  | tier-2
+  mance-rayder  [ALLIES_WITH]  melisandre  | 1
+  mance-rayder  [COMMANDS]  jon-snow  | 1
+  mance-rayder  [DECEIVES]  jon-snow  | 1
+  mance-rayder  [DISTRUSTS]  bowen-marsh  | 1
+  mance-rayder  [DISTRUSTS]  jon-snow  | 1
+  mance-rayder  [MANIPULATES]  bowen-marsh  | 2
+  mance-rayder  [OPPOSES]  bowen-marsh  | 1
+  mance-rayder  [SWORN_TO]  nights-watch  | 1
+  mance-rayder  [VIOLATES_GUEST_RIGHT]  jon-snow  | 1
+  maric-seaworth  [DIED_AT]  blackwater-rush  | 2
+  maric-seaworth  [SWORN_TO]  house-seaworth  | 2
+  marlon-manderly  [AGENT_IN]  wyman-publicly-orders-davos-execution  | 1
+  marlon-manderly  [BORN_AT]  white-harbor  | 2
+  marlon-manderly  [COUSIN_OF]  wyman-manderly  | 1
+  marlon-manderly  [SWORN_TO]  house-manderly  | 2
+  marya-seaworth  [PARENT_OF]  allard-seaworth  | 2
+  marya-seaworth  [PARENT_OF]  dale-seaworth  | 2
+  marya-seaworth  [PARENT_OF]  devan-seaworth  | 2
+  marya-seaworth  [PARENT_OF]  maric-seaworth  | 2
+  marya-seaworth  [PARENT_OF]  matthos-seaworth  | 2
+  marya-seaworth  [SWORN_TO]  house-seaworth  | 2
+  matthos-seaworth  [DIED_AT]  blackwater-rush  | 2
+  matthos-seaworth  [SWORN_TO]  house-seaworth  | 2
+  melisandre  [ADVISES]  stannis-baratheon  | tier-1
+  melisandre  [AGENT_IN]  leeching-of-edric-storm  | tier-1
+  melisandre  [COMMANDS]  mance-rayder  | 1
+  melisandre  [DISTRUSTS]  davos-seaworth  | 1
+  melisandre  [OPPOSES]  davos-seaworth  | 1
+  melisandre  [OPPOSES]  aemon-targaryen-son-of-maekar-i  | 1
+  melisandre  [OPPOSES]  mance-rayder  | 1
+  melisandre  [PROTECTS]  devan-seaworth  | 1
+  melisandre  [PROTECTS]  davos-seaworth  | 1
+  melisandre  [SACRIFICES]  edric-storm  | 1
+  melisandre  [SEEKS]  jon-snow  | 1
+  melisandre  [SERVES]  stannis-baratheon  | 1
+  melisandre  [SWORN_TO]  house-baratheon-of-dragonstone  | 2
+  nights-watch  [GUEST_OF]  craster  | 1
+  osha  [PROTECTS]  rickon-stark  | 1
+  osha  [SWORN_TO]  mance-rayder  | 1
+  osha  [SWORN_TO]  house-stark  | 2
+  osha  [TRAVELS_WITH]  rickon-stark  | 1
+  rickon-stark  [HEIR_TO]  house-stark  | 2
+  rickon-stark  [SWORN_TO]  house-stark  | 2
+  robett-glover  [ALLIES_WITH]  wyman-manderly  | 1
+  salladhor-saan  [ALLIES_WITH]  stannis-baratheon  | 1
+  salladhor-saan  [ALLIES_WITH]  davos-seaworth  | 1
+  salladhor-saan  [BETRAYS]  stannis-baratheon  | 1
+  salladhor-saan  [COMMANDS]  stannis-baratheon  | 1
+  salladhor-saan  [COMPANION_OF]  davos-seaworth  | 1
+  salladhor-saan  [CONTRACTED_WITH]  stannis-baratheon  | 1
+  salladhor-saan  [DISTRUSTS]  stannis-baratheon  | 1
+  salladhor-saan  [GUEST_OF]  stannis-baratheon  | 1
+  salladhor-saan  [RESENTS]  davos-seaworth  | 1
+  salladhor-saan  [RESENTS]  imry-florent  | 1
+  salladhor-saan  [SWORN_TO]  house-baratheon-of-dragonstone  | 2
+  samwell-tarly  [COMPANION_OF]  jon-snow  | 1
+  samwell-tarly  [GIFTED_TO]  jon-snow  | 1
+  samwell-tarly  [KILLS]  small-paul  | 1
+  samwell-tarly  [LOVER_OF]  gilly  | 1
+  samwell-tarly  [PROTECTS]  gilly  | 1
+  samwell-tarly  [PROTECTS]  jon-snow  | 1
+  samwell-tarly  [PROTECTS]  aemon-targaryen-son-of-maekar-i  | 1
+  samwell-tarly  [RESENTS]  jon-snow  | 1
+  samwell-tarly  [RESPECTS]  jon-snow  | 1
+  samwell-tarly  [SERVES]  jon-snow  | 1
+  samwell-tarly  [SERVES]  aemon-targaryen-son-of-maekar-i  | 1
+  samwell-tarly  [SERVES]  jeor-mormont  | 1
+  samwell-tarly  [SWORN_TO]  house-tarly  | 2
+  samwell-tarly  [SWORN_TO]  nights-watch  | 2
+  ser-wendel-manderly-is-killed  [MOTIVATES]  wyman-manderly-stages-fake-execution-of-davos  | 1
+  small-paul  [CONSPIRES_WITH]  chett  | 1
+  small-paul  [SERVES]  chett  | 1
+  small-paul  [SWORN_TO]  nights-watch  | 2
+  stannis-baratheon  [AGENT_IN]  leeching-of-edric-storm  | tier-1
+  stannis-baratheon  [ALLIES_WITH]  jon-snow  | 1
+  stannis-baratheon  [APPOINTS]  jon-snow  | 1
+  stannis-baratheon  [BESTOWS_KNIGHTHOOD_ON]  davos-seaworth  | 1
+  stannis-baratheon  [COMMANDS]  melisandre  | 1
+  stannis-baratheon  [COMMANDS]  davos-seaworth  | 1
+  stannis-baratheon  [COMMANDS]  nights-watch  | 1
+  stannis-baratheon  [COMMANDS_IN]  battle-of-the-blackwater  | 1
+  stannis-baratheon  [COMPANION_OF]  melisandre  | 1
+  stannis-baratheon  [DISTRUSTS]  salladhor-saan  | 1
+  stannis-baratheon  [EXECUTES]  mance-rayder  | 1
+  stannis-baratheon  [FOUNDED]  house-baratheon-of-dragonstone  | 2
+  stannis-baratheon  [GUEST_OF]  nights-watch  | 1
+  stannis-baratheon  [GUEST_OF]  jon-snow  | 1
+  stannis-baratheon  [LOVER_OF]  melisandre  | 1
+  stannis-baratheon  [OPPOSES]  jon-snow  | 1
+  stannis-baratheon  [OPPOSES]  kings-landing  | 1
+  stannis-baratheon  [PROTECTS]  edric-storm  | 1
+  stannis-baratheon  [RESPECTS]  davos-seaworth  | 1
+  stannis-baratheon  [RESPECTS]  jon-snow  | 1
+  stannis-baratheon  [REVEALS_TO]  aemon-targaryen-son-of-maekar-i  | 1
+  stannis-baratheon  [RULES]  dragonstone  | 2
+  stannis-baratheon  [TRUSTS]  davos-seaworth  | 1
+  stannis-baratheon  [TRUSTS]  melisandre  | 1
+  stannis-baratheon  [UNCLE_OF]  edric-storm  | 1
+  wendel-manderly  [BORN_AT]  white-harbor  | 2
+  wendel-manderly  [SWORN_TO]  house-manderly  | 2
+  wendel-manderly  [VICTIM_IN]  ser-wendel-manderly-is-killed  | 1
+  white-harbor  [CADET_BRANCH_OF]  house-stark  | 2
+  white-harbor  [SEAT_OF]  house-manderly  | 2
+  wildfire-trap-on-the-blackwater  [SUB_BEAT_OF]  battle-of-the-blackwater  | 1
+  wolfs-den  [SEAT_OF]  house-manderly  | 2
+  wylis-manderly  [BORN_AT]  white-harbor  | 2
+  wylis-manderly  [GUEST_OF]  wyman-manderly  | 1
+  wylis-manderly  [HEIR_TO]  house-manderly  | 2
+  wylis-manderly  [SWORN_TO]  house-manderly  | 2
+  wylis-manderly  [VICTIM_IN]  learning-about-manderly-s-hostage  | 1
+  wyman-manderly  [AGENT_IN]  davos-seaworth-captured  | 1
+  wyman-manderly  [AGENT_IN]  manderly-bakes-the-frey-pies  | 1
+  wyman-manderly  [BORN_AT]  white-harbor  | 2
+  wyman-manderly  [COMMANDS_IN]  wyman-publicly-orders-davos-execution  | 1
+  wyman-manderly  [COMMANDS_IN]  wyman-publicly-arrests-davos-at-white-harbor  | 1
+  wyman-manderly  [CONSPIRES_WITH]  stannis-baratheon  | 1
+  wyman-manderly  [CONSPIRES_WITH]  robett-glover  | 1
+  wyman-manderly  [MOURNS]  wendel-manderly  | 1
+  wyman-manderly  [PARENT_OF]  wendel-manderly  | 2
+  wyman-manderly  [PARENT_OF]  wylis-manderly  | 2
+  wyman-manderly  [REVEALS_TO]  davos-seaworth  | 1
+  wyman-manderly  [RULES]  house-manderly  | 2
+  wyman-manderly  [SEEKS]  rickon-stark  | 1
+  wyman-manderly  [SWORN_TO]  house-manderly  | 2
+  wyman-manderly  [VICTIM_IN]  learning-about-manderly-s-hostage  | 1
+  wyman-manderly  [VIOLATES_GUEST_RIGHT]  davos-seaworth  | 1
+  wyman-publicly-arrests-davos-at-white-harbor  [SUB_BEAT_OF]  wyman-manderly-stages-fake-execution-of-davos  | 1
+  wyman-publicly-orders-davos-execution  [LOCATED_AT]  wolfs-den  | 1
+  wyman-publicly-orders-davos-execution  [SUB_BEAT_OF]  wyman-manderly-stages-fake-execution-of-davos  | 1
+
+==============================================================================
+CAUSAL INTERNAL SUB-WEB: 7
+==============================================================================
+  fight-at-the-fist  [CAUSES]  mutiny-at-crasters-keep
+  great-ranging  [CAUSES]  fight-at-the-fist
+  davos-seaworth  [MOTIVATES]  stannis-baratheon
+  fight-at-the-fist  [MOTIVATES]  mance-rayder
+  learning-about-manderly-s-hostage  [MOTIVATES]  wyman-manderly
+  leeching-of-edric-storm  [MOTIVATES]  davos-seaworth
+  ser-wendel-manderly-is-killed  [MOTIVATES]  wyman-manderly-stages-fake-execution-of-davos
+
+==============================================================================
+EVENT-NODE causal degree (cOut/cIn) — 0/0 = causally ISLANDED hub (gap candidate)
+==============================================================================
+  battle-of-the-blackwater                         cOut= 0 cIn= 0  (tot out= 6 in=33)  <-- CAUSALLY ISLANDED
+  battle-of-the-fist-of-the-first-men              cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [0 edges in core]
+  blackwater-chain-boom                            cOut= 0 cIn= 0  (tot out= 1 in= 0)  <-- CAUSALLY ISLANDED
+  bran-meets-coldhands                             cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  coldhands-rescues-sam-and-gilly                  cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [NO node file]
+  davos-rescued-after-the-blackwater               cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [NO node file]
+  davos-seaworth-captured                          cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  davos-sent-to-fetch-rickon-from-skagos           cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [NO node file]
+  death-of-maester-aemon                           cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [NO node file]
+  execution-of-davos-lookalike-at-white-harbor     cOut= 0 cIn= 0  (tot out= 1 in= 0)  <-- CAUSALLY ISLANDED
+  execution-of-the-blackwater-deserters            cOut= 0 cIn= 0  (tot out= 0 in= 2)  <-- CAUSALLY ISLANDED
+  fight-at-the-fist                                cOut= 2 cIn= 1  (tot out= 4 in= 2)
+  frey-witnesses-attest-davos-dead-at-small-council cOut= 0 cIn= 0  (tot out= 1 in= 0)  <-- CAUSALLY ISLANDED
+  great-ranging                                    cOut= 1 cIn= 0  (tot out= 1 in= 0)
+  learning-about-manderly-s-hostage                cOut= 1 cIn= 0  (tot out= 1 in= 3)
+  leeching-of-edric-storm                          cOut= 1 cIn= 0  (tot out= 2 in= 4)
+  manderly-bakes-the-frey-pies                     cOut= 0 cIn= 0  (tot out= 2 in= 4)  <-- CAUSALLY ISLANDED
+  mutiny-at-castle-black                           cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [0 edges in core]
+  mutiny-at-crasters-keep                          cOut= 0 cIn= 1  (tot out= 0 in= 5)
+  sam-and-gilly-reach-oldtown                      cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [NO node file]
+  sam-kills-the-other                              cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [NO node file]
+  ser-axell-florent-arrests-davos                  cOut= 0 cIn= 0  (tot out= 0 in= 3)  <-- CAUSALLY ISLANDED
+  ser-wendel-manderly-is-killed                    cOut= 1 cIn= 0  (tot out= 3 in= 3)
+  wildfire-trap-on-the-blackwater                  cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  wyman-manderly-stages-fake-execution-of-davos    cOut= 0 cIn= 1  (tot out= 1 in= 5)
+  wyman-publicly-arrests-davos-at-white-harbor     cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  wyman-publicly-orders-davos-execution            cOut= 0 cIn= 0  (tot out= 2 in= 3)  <-- CAUSALLY ISLANDED
+
+==============================================================================
+CAST/HOUSE/PLACE degree (out/in within core + boundary)
+==============================================================================
+  aemon-targaryen                          core_out= 3 core_in= 7  boundary= 10
+  aemon-targaryen-son-of-maekar-i          core_out=27 core_in=17  boundary= 25
+  allard-seaworth                          core_out= 5 core_in= 3  boundary=  3
+  axell-florent                            core_out=17 core_in= 3  boundary= 12
+  bartimus                                 core_out= 7 core_in= 0  boundary=  3
+  blackwater-bay                           core_out= 0 core_in= 7  boundary=  6
+  blackwater-rush                          core_out= 0 core_in=13  boundary=  9
+  bowen-marsh                              core_out=16 core_in=10  boundary= 13
+  braavos                                  core_out= 0 core_in=24  boundary= 23
+  castle-black                             core_out= 1 core_in=36  boundary= 36
+  chett                                    core_out=16 core_in= 7  boundary= 10
+  coldhands                                core_out= 9 core_in= 2  boundary=  8
+  craster                                  core_out=16 core_in= 8  boundary= 12
+  crasters-keep                            core_out= 0 core_in= 8  boundary=  5
+  crasters-sons                            core_out= 0 core_in= 0  boundary=  0
+  crasters-wives                           core_out= 0 core_in= 0  boundary=  0
+  dale-seaworth                            core_out= 5 core_in= 3  boundary=  3
+  dareon                                   core_out=14 core_in= 2  boundary=  9
+  davos-seaworth                           core_out=70 core_in=25  boundary= 34
+  devan-seaworth                           core_out= 7 core_in= 4  boundary=  2
+  dragonstone                              core_out= 6 core_in=86  boundary= 89
+  eastwatch                                core_out= 0 core_in= 0  boundary=  0  [NO node file]
+  eastwatch-by-the-sea                     core_out= 0 core_in= 1  boundary=  1
+  edric-storm                              core_out= 8 core_in=12  boundary= 13
+  gilly                                    core_out=17 core_in=10  boundary= 10
+  gillys-mother                            core_out= 3 core_in= 1  boundary=  1
+  grenn                                    core_out= 9 core_in= 6  boundary=  6
+  house-baratheon-of-dragonstone           core_out=35 core_in=59  boundary= 87
+  house-manderly                           core_out= 9 core_in=32  boundary= 30
+  house-seaworth                           core_out= 1 core_in=13  boundary=  3
+  house-stark                              core_out=55 core_in=160  boundary=208
+  house-tarly                              core_out= 4 core_in=23  boundary= 26
+  imry-florent                             core_out=11 core_in= 5  boundary=  8
+  jeor-mormont                             core_out=23 core_in=11  boundary= 23
+  jon-snow                                 core_out=209 core_in=153  boundary=278
+  khorane-sathmantes                       core_out= 3 core_in= 1  boundary=  1
+  kings-landing                            core_out= 5 core_in=253  boundary=255
+  mance-rayder                             core_out=27 core_in=76  boundary= 83
+  maric-seaworth                           core_out= 3 core_in= 2  boundary=  1
+  marlon-manderly                          core_out= 7 core_in= 0  boundary=  3
+  marya-seaworth                           core_out= 8 core_in= 2  boundary=  2
+  matthos-seaworth                         core_out= 3 core_in= 2  boundary=  1
+  melisandre                               core_out=32 core_in=20  boundary= 24
+  nights-watch                             core_out=10 core_in=205  boundary=190
+  oldtown                                  core_out= 4 core_in=28  boundary= 32
+  osha                                     core_out=23 core_in= 5  boundary= 24
+  rickon-stark                             core_out=24 core_in=23  boundary= 39
+  robett-glover                            core_out=14 core_in= 3  boundary= 15
+  salladhor-saan                           core_out=19 core_in=10  boundary=  9
+  samwell-tarly                            core_out=29 core_in=20  boundary= 24
+  skagos                                   core_out= 0 core_in= 0  boundary=  0
+  small-paul                               core_out= 9 core_in= 2  boundary=  6
+  stannis-baratheon                        core_out=94 core_in=70  boundary=116
+  the-citadel                              core_out= 0 core_in= 0  boundary=  0  [NO node file]
+  the-fist-of-the-first-men                core_out= 0 core_in= 0  boundary=  0  [NO node file]
+  the-wall                                 core_out= 0 core_in= 0  boundary=  0  [NO node file]
+  the-wolfs-den                            core_out= 0 core_in= 0  boundary=  0  [NO node file]
+  wendel-manderly                          core_out= 7 core_in= 3  boundary=  5
+  white-harbor                             core_out= 3 core_in=12  boundary=  7
+  wolfs-den                                core_out= 7 core_in= 1  boundary=  6
+  wylis-manderly                           core_out=11 core_in= 5  boundary= 10
+  wyman-manderly                           core_out=36 core_in=21  boundary= 35
+
+==============================================================================
+FULL EDGE DUMP for dedup-sensitive nodes (the two Fist dups + Davos beats + key cast)
+==============================================================================
+
+--- fight-at-the-fist  (6 edges) ---
+  [ IN] PRECEDES             wedding-of-drogo-and-daenerys-targaryen        | 3 | 
+  [OUT] PRECEDES             purple-wedding                                 | 3 | 
+  [ IN] CAUSES               great-ranging                                  | 2 | asos-samwell-01
+  [OUT] CAUSES               mutiny-at-crasters-keep                        | 2 | asos-samwell-02
+  [OUT] ENABLES              attack-on-castle-black                         | 2 | asos-jon-06
+  [OUT] MOTIVATES            mance-rayder                                   | 2 | asos-jon-10
+
+--- battle-of-the-fist-of-the-first-men  (0 edges) ---
+
+--- great-ranging  (1 edges) ---
+  [OUT] CAUSES               fight-at-the-fist                              | 2 | asos-samwell-01
+
+--- mutiny-at-crasters-keep  (5 edges) ---
+  [ IN] CAUSES               fight-at-the-fist                              | 2 | asos-samwell-02
+  [ IN] VICTIM_IN            jeor-mormont                                   | 1 | asos-samwell-02
+  [ IN] AGENT_IN             ollo-lophand                                   | 1 | asos-samwell-02
+  [ IN] VICTIM_IN            craster                                        | 1 | asos-samwell-02
+  [ IN] AGENT_IN             dirk                                           | 1 | asos-samwell-02
+
+--- bran-meets-coldhands  (4 edges) ---
+  [ IN] ENABLES              bran-passes-the-black-gate                     | 2 | adwd-bran-01
+  [ IN] AGENT_IN             bran-stark                                     | 1 | adwd-bran-01
+  [ IN] AGENT_IN             coldhands                                      | 1 | adwd-bran-01
+  [OUT] ENABLES              bran-reaches-the-cave-of-the-three-eyed-crow   | 2 | adwd-bran-02
+
+--- davos-seaworth  (97 edges) ---
+  [OUT] DISTRUSTS            axell-florent                                  | 1 | acok-davos-01
+  [OUT] MOURNS               cressen                                        | 1 | acok-davos-01
+  [OUT] DISTRUSTS            melisandre                                     | 1 | acok-davos-01
+  [OUT] FEARS                melisandre                                     | 1 | acok-davos-02
+  [OUT] SERVES               stannis-baratheon                              | 1 | acok-davos-02
+  [ IN] TRUSTS               stannis-baratheon                              | 1 | acok-davos-02
+  [OUT] SERVES               imry-florent                                   | 1 | acok-davos-03
+  [OUT] RESPECTS             salladhor-saan                                 | 1 | acok-davos-03
+  [ IN] DISTRUSTS            imry-florent                                   | 1 | acok-davos-03
+  [OUT] RESPECTS             cressen                                        | 1 | acok-prologue
+  [ IN] RESPECTS             stannis-baratheon                              | 1 | acok-prologue
+  [OUT] OPPOSES              melisandre                                     | 1 | asos-davos-01
+  [ IN] OPPOSES              axell-florent                                  | 1 | asos-davos-02
+  [OUT] MOURNS               allard-seaworth                                | 1 | asos-davos-02
+  [OUT] MOURNS               dale-seaworth                                  | 1 | asos-davos-02
+  [OUT] LOVES                devan-seaworth                                 | 1 | asos-davos-02
+  [OUT] HATES                melisandre                                     | 1 | asos-davos-02
+  [ IN] COMPANION_OF         salladhor-saan                                 | 1 | asos-davos-02
+  [OUT] MOURNS               his-high-holiness                              | 1 | asos-davos-03
+  [ IN] HEALS                pylos                                          | 1 | asos-davos-03
+  [ IN] RESENTS              axell-florent                                  | 1 | asos-davos-04
+  [OUT] PROTECTS             edric-storm                                    | 1 | asos-davos-05
+  [OUT] ALLIES_WITH          gerald-gower                                   | 1 | asos-davos-05
+  [OUT] MOURNS               marya-seaworth                                 | 1 | asos-davos-05
+  [OUT] SERVES               roro-uhoris                                    | 1 | asos-davos-05
+  [ IN] ALLIES_WITH          salladhor-saan                                 | 1 | asos-davos-05
+  [ IN] RESENTS              salladhor-saan                                 | 1 | asos-davos-05
+  [OUT] RESPECTS             bastard                                        | 1 | asos-davos-06
+  [OUT] TRUSTS               salladhor-saan                                 | 1 | asos-davos-06
+  [ IN] OPPOSES              melisandre                                     | 1 | asos-davos-06
+  [OUT] OPPOSES              house-frey                                     | 1 | adwd-davos-03
+  [ IN] OPPOSES              jared-frey                                     | 1 | adwd-davos-03
+  [OUT] COMPANION_OF         salladhor-saan                                 | 1 | acok-davos-01
+  [OUT] SWORN_TO             stannis-baratheon                              | 1 | acok-davos-01
+  [ IN] DISTRUSTS            melisandre                                     | 1 | acok-davos-01
+  [ IN] BESTOWS_KNIGHTHOOD_ON stannis-baratheon                              | 1 | acok-davos-01
+  [OUT] DISTRUSTS            imry-florent                                   | 1 | acok-davos-03
+  [OUT] OPPOSES              rhllor                                         | 1 | acok-davos-03
+  [OUT] CAPTAIN_OF           black-betha                                    | 1 | asos-davos-01
+  [OUT] TRAVELS_WITH         melisandre                                     | 1 | asos-davos-01
+  [ IN] RESCUES              khorane-sathmantes                             | 1 | asos-davos-02
+  [OUT] COMPANION_OF         alester-florent                                | 1 | asos-davos-03
+  [OUT] DISTRUSTS            salladhor-saan                                 | 1 | asos-davos-03
+  [ IN] GUARDS               lamprey                                        | 1 | asos-davos-03
+  [ IN] GUARDS               porridge                                       | 1 | asos-davos-03
+  [ IN] COMPANION_OF         alester-florent                                | 1 | asos-davos-04
+  [ IN] PROTECTS             melisandre                                     | 1 | asos-davos-04
+  [OUT] PARENT_OF            devan-seaworth                                 | 1 | asos-davos-06
+  [OUT] SPOUSE_OF            marya-seaworth                                 | 1 | asos-davos-06
+  [OUT] RESENTS              pylos                                          | 1 | asos-davos-06
+  [ IN] COMMANDS             stannis-baratheon                              | 1 | asos-davos-06
+  [ IN] IMPRISONS            godric-borrell                                 | 1 | adwd-davos-01
+  [OUT] RESCUES              edric-storm                                    | 1 | adwd-davos-02
+  [ IN] GUARDS               bartimus                                       | 1 | adwd-davos-04
+  [ IN] GUARDS               therry                                         | 1 | adwd-davos-04
+  [OUT] GUEST_OF             salladhor-saan                                 | 1 | acok-davos-01
+  [OUT] GUEST_OF             stannis-baratheon                              | 1 | acok-prologue
+  [OUT] GUEST_OF             khorane-sathmantes                             | 1 | asos-davos-02
+  [OUT] GUEST_OF             godric-borrell                                 | 1 | adwd-davos-01
+  [OUT] GUEST_OF             godric-borrell                                 | 1 | adwd-davos-01
+  [OUT] GUEST_OF             wyman-manderly                                 | 1 | adwd-davos-03
+  [OUT] GUEST_OF             wyman-manderly                                 | 1 | adwd-davos-03
+  [ IN] VIOLATES_GUEST_RIGHT wyman-manderly                                 | 1 | adwd-davos-03
+  [OUT] AGENT_IN             fleet-forms-battle-lines                       | 1 | ACOK Davos III
+  [OUT] AGENT_IN             renly-s-death-reflection                       | 1 | ACOK Davos II
+  [OUT] VICTIM_IN            ser-axell-florent-arrests-davos                | 1 | ASOS Davos II
+  [OUT] VICTIM_IN            davos-seaworth-captured                        | 1 | AFFC Cersei IV
+  [OUT] VICTIM_IN            wyman-publicly-orders-davos-execution          | 1 | ADWD Davos III
+  [OUT] VICTIM_IN            wyman-publicly-arrests-davos-at-white-harbor   | 1 | ADWD Davos III
+  [OUT] PARENT_OF            allard-seaworth                                | 2 | None
+  [OUT] PARENT_OF            dale-seaworth                                  | 2 | None
+  [OUT] HOLDS_TITLE          ser                                            | 2 | None
+  [OUT] HOLDS_TITLE          lord-of-the-rainwood                           | 2 | None
+  [OUT] HOLDS_TITLE          admiral-of-the-narrow-sea                      | 2 | None
+  [OUT] HOLDS_TITLE          hand-of-the-king                               | 2 | None
+  [OUT] SWORN_TO             house-seaworth                                 | 2 | None
+  [OUT] SWORN_TO             house-baratheon-of-dragonstone                 | 2 | None
+  [OUT] CULTURE_OF           crownlands                                     | 2 | None
+  [OUT] BORN_AT              kings-landing                                  | 2 | None
+  [OUT] PARENT_OF            matthos-seaworth                               | 2 | None
+  [OUT] PARENT_OF            maric-seaworth                                 | 2 | None
+  [OUT] PARENT_OF            stannis-seaworth                               | 2 | None
+  [OUT] PARENT_OF            steffon-seaworth                               | 2 | None
+  [OUT] RULES                house-seaworth                                 | 2 | None
+  [OUT] FOUNDED              house-seaworth                                 | 2 | None
+  [OUT] AGENT_IN             siege-of-storms-end-299                        | 1 | acok-catelyn-04
+  [OUT] FIGHTS_IN            battle-of-the-blackwater                       | 1 | acok-davos-03
+  [OUT] AGENT_IN             grand-northern-conspiracy                      | 1 | adwd-davos-04
+  [ IN] REVEALS_TO           wyman-manderly                                 | 1 | adwd-davos-04
+  [OUT] SEEKS                rickon-stark                                   | 1 | adwd-davos-04
+  [OUT] WITNESS_IN           burning-of-the-seven-at-dragonstone            | tier-1 | acok-davos-01
+  [OUT] PARTICIPATES_IN      shadow-killing-of-cortnay-penrose              | tier-1 | acok-davos-02
+  [OUT] WITNESS_IN           shadow-killing-of-cortnay-penrose              | tier-1 | acok-davos-02
+  [OUT] MOTIVATES            stannis-baratheon                              | tier-2 | asos-davos-06
+  [OUT] WITNESS_IN           leeching-of-edric-storm                        | tier-1 | asos-davos-04
+  [ IN] MOTIVATES            leeching-of-edric-storm                        | tier-2 | asos-davos-04
+  [OUT] RESCUES              edric-storm                                    | tier-2 | asos-davos-06
+
+--- khorane-sathmantes  (4 edges) ---
+  [OUT] SERVES               salladhor-saan                                 | 1 | asos-davos-02
+  [OUT] RESCUES              davos-seaworth                                 | 1 | asos-davos-02
+  [ IN] GUEST_OF             davos-seaworth                                 | 1 | asos-davos-02
+  [OUT] CULTURE_OF           lyseni                                         | 2 | None
+
+--- salladhor-saan  (29 edges) ---
+  [OUT] ALLIES_WITH          stannis-baratheon                              | 1 | acok-davos-01
+  [ IN] RESPECTS             davos-seaworth                                 | 1 | acok-davos-03
+  [ IN] DISTRUSTS            imry-florent                                   | 1 | acok-davos-03
+  [ IN] DISTRUSTS            stannis-baratheon                              | 1 | acok-davos-03
+  [OUT] OWNS                 lysene-spring                                  | 1 | asos-davos-01
+  [ IN] SERVES               khorane-sathmantes                             | 1 | asos-davos-02
+  [OUT] COMPANION_OF         davos-seaworth                                 | 1 | asos-davos-02
+  [ IN] CONSPIRES_WITH       axell-florent                                  | 1 | asos-davos-04
+  [OUT] ALLIES_WITH          davos-seaworth                                 | 1 | asos-davos-05
+  [OUT] RESENTS              davos-seaworth                                 | 1 | asos-davos-05
+  [ IN] TRUSTS               davos-seaworth                                 | 1 | asos-davos-06
+  [OUT] COMMANDS             stannis-baratheon                              | 1 | adwd-davos-02
+  [ IN] COMPANION_OF         davos-seaworth                                 | 1 | acok-davos-01
+  [OUT] DISTRUSTS            stannis-baratheon                              | 1 | acok-davos-01
+  [OUT] RESENTS              imry-florent                                   | 1 | acok-davos-03
+  [OUT] CONTRACTED_WITH      stannis-baratheon                              | 1 | asos-davos-02
+  [ IN] DISTRUSTS            davos-seaworth                                 | 1 | asos-davos-03
+  [OUT] BETRAYS              stannis-baratheon                              | 1 | adwd-davos-01
+  [ IN] GUEST_OF             davos-seaworth                                 | 1 | acok-davos-01
+  [OUT] GUEST_OF             stannis-baratheon                              | 1 | acok-prologue
+  [OUT] GUEST_OF             selyse-florent                                 | 1 | adwd-davos-02
+  [ IN] SWORN_TO             meizo-mahr                                     | 2 | None
+  [OUT] HOLDS_TITLE          prince-of-the-narrow-sea                       | 2 | None
+  [OUT] HOLDS_TITLE          lord-of-blackwater-bay                         | 2 | None
+  [OUT] SWORN_TO             saan-family                                    | 2 | None
+  [OUT] SWORN_TO             house-baratheon-of-dragonstone                 | 2 | None
+  [OUT] CULTURE_OF           valyrian                                       | 2 | None
+  [OUT] CULTURE_OF           lyseni                                         | 2 | None
+  [OUT] BORN_AT              lys                                            | 2 | None
+
+--- wyman-manderly-stages-fake-execution-of-davos  (6 edges) ---
+  [ IN] SUB_BEAT_OF          wyman-publicly-arrests-davos-at-white-harbor   | 1 | ADWD Davos III
+  [ IN] SUB_BEAT_OF          wyman-publicly-orders-davos-execution          | 1 | ADWD Davos III
+  [ IN] SUB_BEAT_OF          execution-of-davos-lookalike-at-white-harbor   | 1 | ADWD Davos IV
+  [ IN] SUB_BEAT_OF          frey-witnesses-attest-davos-dead-at-small-council | 1 | AFFC Cersei IV
+  [ IN] MOTIVATES            ser-wendel-manderly-is-killed                  | 1 | adwd-davos-04
+  [OUT] SUB_BEAT_OF          grand-northern-conspiracy                      | 1 | adwd-davos-04
+
+--- rickon-stark  (47 edges) ---
+  [OUT] BONDED_TO            shaggydog                                      | 1 | agot-bran-02
+  [ IN] PROTECTS             bran-stark                                     | 1 | agot-bran-07
+  [OUT] MOURNS               eddard-stark                                   | 1 | agot-bran-07
+  [OUT] OPPOSES              luwin                                          | 1 | agot-bran-07
+  [ IN] BONDED_TO            shaggydog                                      | 1 | agot-bran-07
+  [ IN] MOURNS               jon-snow                                       | 1 | agot-jon-03
+  [ IN] LOVES                jon-snow                                       | 1 | agot-tyrion-03
+  [ IN] PROTECTS             shaggydog                                      | 1 | acok-bran-01
+  [OUT] MOURNS               robb-stark                                     | 1 | acok-bran-05
+  [ IN] PROTECTS             meera                                          | 1 | acok-bran-06
+  [ IN] MOURNS               bran-stark                                     | 1 | asos-bran-02
+  [ IN] SIBLING_OF           arya-stark                                     | 1 | agot-arya-05
+  [ IN] BONDED_TO            grey-wind                                      | 1 | agot-bran-04
+  [OUT] SIBLING_OF           robb-stark                                     | 1 | agot-bran-06
+  [ IN] PARENT_OF            catelyn-stark                                  | 1 | agot-catelyn-03
+  [ IN] SIBLING_OF           bran-stark                                     | 1 | acok-bran-03
+  [OUT] LOVES                catelyn-stark                                  | 1 | acok-bran-03
+  [ IN] PROTECTS             osha                                           | 1 | acok-bran-07
+  [OUT] COMPANION_OF         hodor                                          | 1 | acok-bran-07
+  [ IN] MOURNS               arya-stark                                     | 1 | affc-arya-01
+  [OUT] GUEST_OF             winterfell                                     | 1 | acok-bran-07
+  [OUT] VICTIM_IN            trail-followed-north-northwest                 | 2 | ACOK Theon IV
+  [OUT] VICTIM_IN            cersei-reacts-to-the-stark-boys-deaths         | 2 | ACOK Tyrion XII
+  [ IN] PARENT_OF            arra-norrey                                    | 2 | None
+  [ IN] PARENT_OF            benjen-stark-lord                              | 2 | None
+  [OUT] PARENT_OF            cregan-stark                                   | 2 | None
+  [ IN] PARENT_OF            cregan-stark                                   | 2 | None
+  [ IN] PARENT_OF            eddard-stark                                   | 2 | None
+  [ IN] SPOUSE_OF            gilliane-glover                                | 2 | None
+  [OUT] HEIR_TO              house-stark                                    | 2 | None
+  [ IN] SPOUSE_OF            jeyne-manderly                                 | 2 | None
+  [ IN] PARENT_OF            lysa-locke                                     | 2 | None
+  [OUT] HOLDS_TITLE          prince                                         | 2 | None
+  [OUT] SWORN_TO             house-stark                                    | 2 | None
+  [OUT] CULTURE_OF           northmen                                       | 2 | None
+  [OUT] BORN_AT              winterfell                                     | 2 | None
+  [OUT] BORN_AT              north                                          | 2 | None
+  [OUT] PARENT_OF            sansa-stark-daughter-of-rickon                 | 2 | None
+  [OUT] PARENT_OF            sara-snow                                      | 2 | None
+  [OUT] PARENT_OF            serena-stark                                   | 2 | None
+  [OUT] OWNS                 shaggydog                                      | 2 | None
+  [OUT] VICTIM_IN            bran-and-rickon-survive-the-sack-in-the-crypts | 1 | acok-bran-07
+  [OUT] VICTIM_IN            bran-s-party-splits-from-rickon                | 1 | acok-bran-07
+  [ IN] TRAVELS_WITH         osha                                           | 1 | acok-bran-07
+  [OUT] VICTIM_IN            theon-fakes-the-deaths-of-bran-and-rickon      | 1 | acok-theon-05
+  [ IN] SEEKS                davos-seaworth                                 | 1 | adwd-davos-04
+  [ IN] SEEKS                wyman-manderly                                 | 1 | adwd-davos-04
+
+--- samwell-tarly  (49 edges) ---
+  [ IN] COMPANION_OF         jon-snow                                       | 1 | agot-jon-05
+  [ IN] HATES                chett                                          | 1 | agot-jon-07
+  [ IN] TRUSTS               gilly                                          | 1 | asos-bran-04
+  [OUT] PROTECTS             gilly                                          | 1 | asos-bran-04
+  [ IN] TRUSTS               summer                                         | 1 | asos-bran-04
+  [ IN] TUTORS               aemon-targaryen-son-of-maekar-i                | 1 | affc-samwell-02
+  [ IN] OPPOSES              dareon                                         | 1 | affc-samwell-02
+  [OUT] MOURNS               dickon-tarly                                   | 1 | affc-samwell-02
+  [OUT] MOURNS               his-high-holiness                              | 1 | affc-samwell-02
+  [OUT] RESPECTS             jon-snow                                       | 1 | affc-samwell-02
+  [OUT] FEARS                randyll-tarly                                  | 1 | affc-samwell-02
+  [ IN] TUTORS               jon-snow                                       | 1 | adwd-jon-01
+  [OUT] SERVES               jon-snow                                       | 1 | adwd-jon-01
+  [ IN] COMMANDS             jon-snow                                       | 1 | adwd-jon-02
+  [ IN] HATES                alliser-thorne                                 | 1 | agot-jon-04
+  [ IN] PROTECTS             ghost                                          | 1 | agot-jon-04
+  [ IN] PROTECTS             jon-snow                                       | 1 | agot-jon-04
+  [ IN] PARENT_OF            melessa-florent                                | 1 | agot-jon-04
+  [ IN] PARENT_OF            randyll-tarly                                  | 1 | agot-jon-04
+  [OUT] SIBLING_OF           dickon-tarly                                   | 1 | agot-jon-04
+  [OUT] SERVES               aemon-targaryen-son-of-maekar-i                | 1 | agot-jon-06
+  [OUT] COMPANION_OF         jon-snow                                       | 1 | agot-jon-08
+  [OUT] GIFTED_TO            jon-snow                                       | 1 | agot-jon-08
+  [OUT] PROTECTS             jon-snow                                       | 1 | agot-jon-09
+  [ IN] TRUSTS               bran-stark                                     | 1 | asos-bran-04
+  [ IN] REVEALS_TO           bran-stark                                     | 1 | asos-bran-04
+  [OUT] SERVES               jeor-mormont                                   | 1 | asos-bran-04
+  [ IN] ATTACKS              chett                                          | 1 | asos-prologue
+  [OUT] LOVER_OF             gilly                                          | 1 | asos-samwell-04
+  [ IN] COMPANION_OF         gilly                                          | 1 | affc-samwell-02
+  [ IN] ATTACKS              hobber-redwyne                                 | 1 | affc-samwell-02
+  [ IN] ATTACKS              horas-redwyne                                  | 1 | affc-samwell-02
+  [OUT] PROTECTS             aemon-targaryen-son-of-maekar-i                | 1 | affc-samwell-02
+  [OUT] RESENTS              jon-snow                                       | 1 | affc-samwell-02
+  [ IN] TRUSTS               jon-snow                                       | 1 | adwd-jon-02
+  [OUT] GUEST_OF             three-finger-hobb                              | 1 | affc-samwell-01
+  [OUT] GUEST_OF             paxter-redwyne                                 | 1 | affc-samwell-02
+  [OUT] VICTIM_IN            mormont-delivers-ceremony-speech               | 1 | AGOT Jon VI
+  [OUT] VICTIM_IN            mutiny-plan-reviewed                           | 1 | ASOS Prologue
+  [OUT] HOLDS_TITLE          novice                                         | 2 | None
+  [OUT] SWORN_TO             house-tarly                                    | 2 | None
+  [OUT] SWORN_TO             nights-watch                                   | 2 | None
+  [OUT] SWORN_TO             citadel                                        | 2 | None
+  [OUT] CULTURE_OF           marcher                                        | 2 | None
+  [OUT] BORN_AT              horn-hill                                      | 2 | None
+  [OUT] KILLS                others                                         | 1 | asos-samwell-01
+  [OUT] KILLS                small-paul                                     | 1 | asos-samwell-01
+  [OUT] ENABLES              bran-passes-the-black-gate                     | 2 | asos-bran-04
+  [OUT] AGENT_IN             bran-passes-the-black-gate                     | 1 | asos-bran-04
+
+--- gilly  (27 edges) ---
+  [OUT] FEARS                craster                                        | 1 | acok-jon-03
+  [OUT] TRUSTS               samwell-tarly                                  | 1 | asos-bran-04
+  [ IN] PROTECTS             samwell-tarly                                  | 1 | asos-bran-04
+  [ IN] PROTECTS             gillys-mother                                  | 1 | asos-samwell-02
+  [ IN] PROTECTS             jon-snow                                       | 1 | affc-samwell-01
+  [ IN] OPPOSES              blackbird                                      | 1 | affc-samwell-02
+  [ IN] HATES                dareon                                         | 1 | affc-samwell-02
+  [OUT] MOURNS               her-little-flower                              | 1 | affc-samwell-02
+  [OUT] TRUSTS               kojja-mo                                       | 1 | affc-samwell-04
+  [OUT] FEARS                melisandre                                     | 1 | affc-samwell-04
+  [ IN] COMMANDS             jon-snow                                       | 1 | adwd-jon-02
+  [ IN] FEARS                jon-snow                                       | 1 | adwd-jon-05
+  [OUT] SEEKS                jon-snow                                       | 1 | acok-jon-03
+  [OUT] SPOUSE_OF            craster                                        | 1 | asos-samwell-03
+  [ IN] LOVER_OF             samwell-tarly                                  | 1 | asos-samwell-04
+  [OUT] COMPANION_OF         samwell-tarly                                  | 1 | affc-samwell-02
+  [OUT] PARENT_OF            her-little-flower                              | 1 | adwd-jon-02
+  [OUT] GUEST_OF             blackbird                                      | 1 | affc-samwell-02
+  [OUT] GUEST_OF             horn-hill                                      | 1 | affc-samwell-02
+  [OUT] GUEST_OF             quhuru-mo                                      | 1 | affc-samwell-04
+  [OUT] GUEST_OF             kojja-mo                                       | 1 | affc-samwell-05
+  [OUT] GUEST_OF             stannis-baratheon                              | 1 | adwd-jon-01
+  [ IN] PARENT_OF            craster                                        | 2 | None
+  [ IN] PARENT_OF            gillys-mother                                  | 2 | None
+  [OUT] CULTURE_OF           free-folk                                      | 2 | None
+  [OUT] BORN_AT              crasters-keep                                  | 2 | None
+  [OUT] PARENT_OF            monster                                        | 2 | None
+
+--- coldhands  (11 edges) ---
+  [OUT] KILLS                nights-watch                                   | 1 | adwd-bran-01
+  [OUT] SERVES               brynden-rivers                                 | 1 | adwd-bran-01
+  [ IN] DISTRUSTS            meera                                          | 1 | adwd-bran-01
+  [ IN] OPPOSES              summer                                         | 1 | adwd-bran-01
+  [OUT] PROTECTS             bran-stark                                     | 1 | adwd-bran-01
+  [OUT] SWORN_TO             nights-watch                                   | 2 | None
+  [OUT] SWORN_TO             brynden-rivers                                 | 2 | None
+  [OUT] DIED_AT              beyond-the-wall                                | 2 | None
+  [OUT] AGENT_IN             bran-meets-coldhands                           | 1 | adwd-bran-01
+  [OUT] AGENT_IN             bran-reaches-the-cave-of-the-three-eyed-crow   | 1 | adwd-bran-02
+  [OUT] REVEALS_TO           meera-reed                                     | 2 | adwd-bran-01
+
+--- aemon-targaryen-son-of-maekar-i  (44 edges) ---
+  [OUT] RESPECTS             jon-snow                                       | 1 | agot-jon-05
+  [ IN] RESPECTS             jon-snow                                       | 1 | agot-jon-05
+  [OUT] MOURNS               house-targaryen                                | 1 | agot-jon-08
+  [ IN] RESPECTS             jeor-mormont                                   | 1 | agot-jon-09
+  [OUT] HEALS                gared                                          | 1 | agot-prologue
+  [ IN] RESPECTS             will                                           | 1 | agot-prologue
+  [OUT] RESPECTS             tyrion-lannister                               | 1 | agot-tyrion-03
+  [ IN] RESPECTS             tyrion-lannister                               | 1 | agot-tyrion-03
+  [OUT] TUTORS               jon-snow                                       | 1 | asos-jon-08
+  [OUT] PROTECTS             jon-snow                                       | 1 | asos-jon-09
+  [ IN] PROTECTS             jon-snow                                       | 1 | affc-samwell-01
+  [ IN] OPPOSES              melisandre                                     | 1 | affc-samwell-01
+  [OUT] TUTORS               samwell-tarly                                  | 1 | affc-samwell-02
+  [OUT] MOURNS               aegon-v-targaryen                              | 1 | affc-samwell-03
+  [OUT] FEARS                death-of-laenor-velaryon-and-harwin-strong-theories | 1 | affc-samwell-03
+  [OUT] DISTRUSTS            melisandre                                     | 1 | affc-samwell-04
+  [OUT] UNCLE_OF             rhaelle-targaryen                              | 1 | affc-samwell-04
+  [ IN] RESPECTS             alleras                                        | 1 | affc-samwell-05
+  [ IN] TRUSTS               jon-snow                                       | 1 | adwd-jon-02
+  [ IN] MOURNS               jon-snow                                       | 1 | adwd-jon-05
+  [ IN] SERVES               chett                                          | 1 | agot-jon-05
+  [ IN] SERVES               clydas                                         | 1 | agot-jon-05
+  [OUT] COMPANION_OF         clydas                                         | 1 | agot-jon-06
+  [ IN] SERVES               samwell-tarly                                  | 1 | agot-jon-06
+  [OUT] HEALS                jon-snow                                       | 1 | asos-jon-06
+  [ IN] ALLIES_WITH          donal-noye                                     | 1 | asos-jon-07
+  [ IN] REVEALS_TO           stannis-baratheon                              | 1 | asos-samwell-05
+  [OUT] TRAVELS_WITH         duncan-the-tall                                | 1 | affc-samwell-02
+  [ IN] PROTECTS             samwell-tarly                                  | 1 | affc-samwell-02
+  [OUT] GUEST_OF             quhuru-mo                                      | 1 | affc-samwell-04
+  [OUT] HOLDS_TITLE          prince                                         | 2 | None
+  [OUT] HOLDS_TITLE          maester                                        | 2 | None
+  [OUT] SWORN_TO             house-targaryen                                | 2 | None
+  [OUT] SWORN_TO             citadel                                        | 2 | None
+  [OUT] SWORN_TO             nights-watch                                   | 2 | None
+  [OUT] CULTURE_OF           valyrian                                       | 2 | None
+  [OUT] CULTURE_OF           crownlands                                     | 2 | None
+  [OUT] BORN_AT              kings-landing                                  | 2 | None
+  [OUT] DIED_AT              cinnamon-wind                                  | 2 | None
+  [OUT] DIED_AT              dorne                                          | 2 | None
+  [OUT] DIED_AT              summer-sea                                     | 2 | None
+  [ IN] PARENT_OF            maekar-i-targaryen                             | 2 | None
+  [ IN] PARENT_OF            dyanna-dayne                                   | 2 | None
+  [OUT] APPOINTS             jon-snow                                       | 1 | asos-jon-08
+
+--- aemon-targaryen  (10 edges) ---
+  [ IN] PARENT_OF            alysanne-targaryen                             | 2 | None
+  [OUT] OWNS                 caraxes                                        | 2 | None
+  [ IN] PARENT_OF            dyanna-dayne                                   | 2 | None
+  [OUT] HEIR_TO              jaehaerys-i-targaryen                          | 2 | None
+  [ IN] PARENT_OF            jaehaerys-i-targaryen                          | 2 | None
+  [ IN] SPOUSE_OF            jocelyn-baratheon                              | 2 | None
+  [ IN] PARENT_OF            larra-rogare                                   | 2 | None
+  [ IN] PARENT_OF            maekar-i-targaryen                             | 2 | None
+  [OUT] PARENT_OF            rhaenys-targaryen-daughter-of-aemon            | 2 | None
+  [ IN] PARENT_OF            viserys-ii-targaryen                           | 2 | None
+
+--- craster  (25 edges) ---
+  [OUT] OPPOSES              mance-rayder                                   | 1 | acok-jon-03
+  [ IN] DISTRUSTS            dywen                                          | 1 | acok-jon-03
+  [ IN] FEARS                gilly                                          | 1 | acok-jon-03
+  [ IN] HATES                ygritte                                        | 1 | asos-jon-03
+  [OUT] OPPOSES              nights-watch                                   | 1 | asos-samwell-02
+  [ IN] KILLS                dirk                                           | 1 | asos-samwell-02
+  [OUT] DISTRUSTS            nights-watch                                   | 1 | acok-jon-03
+  [ IN] GUEST_OF             mormont                                        | 1 | acok-jon-03
+  [ IN] TRUSTS               thoren-smallwood                               | 1 | acok-jon-03
+  [ IN] SPOUSE_OF            gilly                                          | 1 | asos-samwell-03
+  [OUT] HATES                mance-rayder                                   | 1 | asos-samwell-04
+  [OUT] GUEST_OF             mormont                                        | 1 | acok-jon-03
+  [ IN] GUEST_OF             nights-watch                                   | 1 | acok-jon-03
+  [OUT] VIOLATES_GUEST_RIGHT nights-watch                                   | 1 | asos-samwell-02
+  [ IN] GUEST_OF             nights-watch                                   | 1 | asos-samwell-02
+  [OUT] CULTURE_OF           free-folk                                      | 2 | None
+  [OUT] BORN_AT              whitetree                                      | 2 | None
+  [OUT] DIED_AT              crasters-keep                                  | 2 | None
+  [OUT] SPOUSE_OF            dyah                                           | 2 | None
+  [OUT] SPOUSE_OF            ferny                                          | 2 | None
+  [OUT] SPOUSE_OF            nella                                          | 2 | None
+  [OUT] SPOUSE_OF            gillys-mother                                  | 2 | None
+  [OUT] PARENT_OF            gilly                                          | 2 | None
+  [OUT] PARENT_OF            monster                                        | 2 | None
+  [OUT] VICTIM_IN            mutiny-at-crasters-keep                        | 1 | asos-samwell-02
+
+--- dareon  (16 edges) ---
+  [OUT] COMPANION_OF         jon-snow                                       | 1 | agot-jon-04
+  [OUT] RESENTS              jon-snow                                       | 1 | agot-jon-06
+  [OUT] HATES                gilly                                          | 1 | affc-samwell-02
+  [OUT] OPPOSES              samwell-tarly                                  | 1 | affc-samwell-02
+  [OUT] LOVER_OF             blushing-bethany                               | 1 | affc-cat-of-the-canals-01
+  [OUT] COURTS               lanna                                          | 1 | affc-cat-of-the-canals-01
+  [ IN] TEACHES              alliser-thorne                                 | 1 | affc-samwell-02
+  [OUT] BETRAYS              nights-watch                                   | 1 | affc-samwell-03
+  [ IN] KILLS                arya-stark                                     | 1 | adwd-the-blind-girl-01
+  [OUT] VICTIM_IN            mormont-delivers-ceremony-speech               | 1 | AGOT Jon VI
+  [OUT] SWORN_TO             nights-watch                                   | 2 | None
+  [OUT] CULTURE_OF           reach                                          | 2 | None
+  [OUT] BORN_AT              westeros                                       | 2 | None
+  [OUT] DIED_AT              braavos                                        | 2 | None
+  [OUT] VICTIM_IN            killing-of-dareon                              | 1 | affc-cat-of-the-canals-01
+  [OUT] MOTIVATES            arya-stark                                     | 1 | adwd-the-blind-girl-01
