@@ -31,7 +31,7 @@ Anti-drift table — every row is DESIGN / NOT STARTED at discussion stage; the 
 | Theme tokens | DESIGN — not started | — | — |
 | Featured Tywin exchange (static transcript) | DESIGN — not started | — | — |
 | Typed-edge receipts panel | DESIGN — not started | — | — |
-| Deploy + secret / text-boundary | DESIGN — not started | — | — |
+| Deploy (private repo → Netlify, env var) | DESIGN — not started | — | — |
 
 ---
 
@@ -61,8 +61,8 @@ store, FastAPI backend, D&D-group auth, shared-password). That's a much bigger p
   ("death of Tywin", "the Red Wedding") into node slugs. (There's also a node alias resolver / `aliases:`
   frontmatter — natural spaced phrases, per memory `project_node_alias_spaced_phrases`.)
 - **Full book text:** `sources/chapters/<book>/<book>-<pov>-<nn>.md` — all 344 chapters, line-numbered,
-  currently git-**tracked** (only `sources/raw/` is gitignored). The repo is currently **private**, so exposure is
-  latent. The public-deploy text boundary is an open decision — see §7.
+  git-tracked. The repo stays **private** and deploys to Netlify from private; the book text is bundled into the
+  function as-is. No boundary work — see §7 (SETTLED).
 
 **The proven retrieval recipe** (`working/demo-asoiaf-loremaster.md`): resolve phrase → walk chain / get neighbors
 → open each beat's node file → weave the chain as a narrated story **with the verbatim quotes as blockquotes + the
@@ -139,7 +139,7 @@ one context block → single Claude call to narrate.
   KV), per-request `max_tokens` + iteration bounds, and an **Anthropic-side billing alert** as the backstop. Budget
   honestly: tens of dollars for hundreds of questions on cached Sonnet — small absolute, but the real exposure is
   an unbounded public endpoint.
-- **Local dev:** same code runs locally with the key in a `.env`; deploy is just wiring the function + env var.
+- **Local dev — two auth modes, same code (DECIDED S170):** the Anthropic SDK resolves credentials in order `ANTHROPIC_API_KEY` → `ANTHROPIC_AUTH_TOKEN` → an **`ant auth login` OAuth profile**. So local testing can run on **Matt's Claude subscription** (a bare `new Anthropic()` picks up the profile — `ant auth login`, ensure `ANTHROPIC_API_KEY` is *unset* or it silently overrides) — this spends **plan quota, not API dollars** (same pool Claude Code uses; heavy load-tests should still use a metered key so they don't eat the plan allowance). The **deployed Netlify function uses `ANTHROPIC_API_KEY`** (metered) — OAuth tokens are short-lived, not headless-refreshable, and a personal subscription isn't the supported way to power a public endpoint. **Identical function code; the only difference is whether a key is present in the environment** — a clean dev/prod split, not extra work. (`claude -p` also spends plan quota but is the wrong *shape* for a streaming tool-loop backend — use the SDK + OAuth profile for the chat, per `reference_llm_pass_via_claude_p` which proves the subscription-auth path in this repo.)
 
 ---
 
@@ -213,26 +213,40 @@ graph over time — so the chat gets richer for free as the graph does. Design t
 
 ---
 
-## 7. Copyright posture (settled enough — not a blocker)
+## 7. Publishing & source material — SETTLED (S170), do not re-raise
 
-Matt: "not advertising this, the wiki uses quotes from the books all the time." Agreed — this is a non-monetized,
-low-profile fan project quoting cited passages, same as the AWOIAF wiki does on every page. **Do not over-engineer
-this.** One footer line is enough: *"a fan project · quotes © George R.R. Martin, used for commentary · will honor
-any takedown request."* (It's commentary/research fair-use territory, not "parody" specifically.)
+**DECIDED 2026-06-29 (S170):** this repo **stays private and deploys to Netlify directly from the private repo**
+(Netlify deploys private repos on every tier). The graph, the front end, and the book text **all live here
+together** — graph + front end co-located, no separate repo, no boundary. The book text is bundled into the
+serverless function as-is. There is **no text-boundary work, no `git rm --cached`, no history scrub, no build
+secret, no public/private split to design.**
 
-**OPEN DECISION — deploy text boundary.** The chapter files are git-tracked today and the repo is private.
-Before any public move (including the §9 mattnoth.com fold-in) this must be decided: either (a) keep the deploy
-repo private (simplest — chapters stay tracked, API key stays in a Netlify env var), or (b) `git rm --cached` the
-chapters + scrub history + deliver the text to the function via a build secret or blob store (cleanest long-term,
-but work). Do not defer this past the first public deploy.
+This question is **closed.** Matt has decided he wants this published and has said so repeatedly — future sessions
+must not reopen it, re-float a copyright concern, or surface "should we push this publicly" as a question. If a
+copyright artifact is wanted at all, one footer line covers it: *"a fan project · quotes © George R.R. Martin, used
+for commentary."* Don't add more.
 
-**Output-quotation norm:** quote short load-bearing lines, not paragraphs — cap any single quoted block to a few
-lines. One perfect cited line lands harder than a block excerpt, and it is the line between cited commentary and
-republishing.
+**Output-quotation norm (a craft choice, not a legal hedge):** quote short load-bearing lines, not paragraphs —
+one perfect cited line lands harder than a block excerpt. That's about prose impact, nothing else.
 
 ---
 
 ## 8. Rough build plan (Option A path) — sequence, not a commitment
+
+**Repo layout (DECIDED S170 — front end co-located in this private repo):** one new top-level `web/` dir; Netlify
+deploys a *build output* (the static page + the function bundle), never the whole repo. A new
+`scripts/build-chat-export.py` reads `graph/` + `sources/chapters/` and writes an **allowlisted** static bundle into
+`web/data/` (gitignored, regenerated) — the allowlist exists for bundle *size* (never ship the 1.8 GB
+`graph/edges/` backup dir — only `edges.jsonl`), not for any publish concern (§7 settled).
+```
+web/
+├── public/                  # static chat page — index.html + src/theme/tokens.css (swap theme = edit tokens)
+├── src/lib/                 # ported JS retrieval tools (resolve / walk_chain / neighbors / read_node /
+│                            #   search_chapters / read_passage) — port graph-query.py + event_alias_resolver.py
+├── data/                    # GENERATED (gitignored): alias-map.json, featured-tywin.json, node-quotes.json, chapters/
+└── netlify/functions/chat   # Claude tool-runner loop + Bloodraven prompt + streaming + ANTHROPIC_API_KEY
+```
+`netlify.toml`: `publish = web/public`, `functions = web/netlify/functions`.
 
 0. **Runtime + persona spike** (GATE — do this before writing any application code):
    - **(0a) Streaming proof:** deploy a hard-coded Netlify Function that streams a canned multi-second,
@@ -243,8 +257,8 @@ republishing.
      both `claude-sonnet-4-6` and `claude-opus-4-8` on 3–4 canned questions; judge against the golden
      lines/anti-patterns in `working/chat-ui/bloodraven-persona-notes.md`. Decide the model here — don't defer
      it to the full build session.
-   - **(0c) Deploy text boundary:** decide §7's open question (private repo vs. chapters-out-of-public-artifact)
-     before writing any deploy configuration.
+
+   (Deploy posture is settled — private repo → Netlify, env var; see §7. No spike step needed.)
 
    **MVP vertical slice** (minimal end-to-end proof): one question ("who killed Tywin?") → `resolve` →
    `walk_chain` → `read_node` → narrate → stream one cited blockquote + the typed-edge receipts strip.
@@ -274,10 +288,11 @@ wants, so it's in scope.
 
 ---
 
-## 8b. Future evolution — the self-curating quote loop (Matt, S168) — drop the book text over time
+## 8b. Future evolution — the self-curating quote loop (Matt, S168) — grow the curated quote layer
 
 A key long-game insight that shapes the build: the live `search_chapters` tool isn't just a feature, it's a
-**discovery engine for what to curate.** The loop:
+**discovery engine for what to curate.** (This is the standing goal Matt reaffirmed S170: keep amassing
+direct-from-text quotes onto edges/nodes.) The loop:
 
 1. The chat answers questions; when it has to **search the book text live** for a quote (because the quote wasn't
    already curated onto a node/edge), **log that hit** — a harvest-style pointer (`chapter:line` / the quote / the
@@ -285,16 +300,19 @@ A key long-game insight that shapes the build: the live `search_chapters` tool i
 2. Periodically (after enrichment passes + chat smoke-tests), a **harvest/mint pass** consumes those pointers and
    attaches the quotes to the right nodes' `## Quotes` (the existing harvest machine — memory `feedback_harvest_queue`).
 3. Over time the **curated quote layer absorbs the load-bearing quotes** — the ones visitors actually pull.
-4. Once curated coverage is high enough, the chat can rely on the graph's quotes and **stop needing the full book
-   text bundled in the deploy** — and eventually the verbatim text can leave the repo entirely. The live-search tool
-   makes itself progressively unnecessary.
+4. Once curated coverage is high enough, the chat leans mostly on the graph's own quotes — the curated layer
+   becomes self-sufficient and the live-search tool fires less and less. (This is a graph-quality milestone, not a
+   copyright move — the book text bundles fine in the private deploy; see §7.)
 
 **Build implication:** instrument `search_chapters` / `read_passage` from day one to **emit a log of live quote
 fetches** (a queue/telemetry feed), so this curation loop has data to run on later. Cheap to add now, expensive to
-retrofit. This is also the cleanest answer to the "we're shipping the copyrighted book text" discomfort — it's a
-temporary scaffold that the curated graph grows to replace.
+retrofit.
 
 ## 9. Open questions for the fresh session to resolve with Matt
+
+> **RESOLVED S170 (2026-06-29) — do not reopen:** (1) **Repo / publishing** — this repo stays **private**, deploys
+> to Netlify from private, graph + front end + book text all co-located **here** (no separate repo, no boundary, no
+> scrub). The publish/copyright question is CLOSED — see §7. (2) **Deploy text boundary** — gone; nothing to decide.
 
 - **Retrieval shape:** Option A (tool-use agent, live grep — current lean) vs B (RAG-lite)? Confirm.
 - **Theme:** lean is set (modern/simple, dark default, soft weirwood-tree background — not hard black/red); open
@@ -303,8 +321,6 @@ temporary scaffold that the curated graph grows to replace.
 - **Runtime / function language** (**gating step 0 decision**): Edge Function (Deno, ~40s) vs sync function
   (~10–26s)? Background Functions are out (can't stream). What language are the retrieval tools written in?
   Decide in step 0a before writing anything else.
-- **Deploy text boundary:** private repo vs. `git rm --cached` + build secret (§7 open decision; §8 step 0c).
-  Must be resolved before any public move or mattnoth.com fold-in.
 - **Persona + faithfulness eval harness:** does Bloodraven stay in voice and not hallucinate a quote at a fake
   cite? Need a lightweight check: emitted `chapter:line` cites are verified to exist via `read_passage` before
   presenting. Decide scope of automated vs manual eval.
@@ -317,8 +333,8 @@ temporary scaffold that the curated graph grows to replace.
   deferred until live search ships.
 - **Chapter bundle:** ~4 MB gzipped, a non-issue for size. Explicit file allowlist required (never `graph/edges/`
   backup dir — only `edges.jsonl`).
-- **Standalone deploy first, fold into mattnoth.com later** — confirmed direction, but integration details
-  (submodule vs copy, page wiring) are deferred.
+- **Lives in this repo under `web/`** (graph + front end co-located — RESOLVED S170). Stands alone first; folding
+  into mattnoth.com later is optional and its wiring is deferred — not a boundary question anymore.
 - **Scope of the alpha:** ship curated-quotes-only first and add live search as a fast-follow, or build live search
   into v1? (Matt leans toward wanting the live search — plan is: curated-only for the MVP spike, live search v1.)
 

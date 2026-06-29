@@ -80,10 +80,10 @@ asoiaf-chat/
 │   └── archive/                      # Retired scripts (Playwright wiki-scraper) — DO NOT restore
 ├── sources/
 │   ├── raw/                          # Original .txt files (GITIGNORED)
-│   ├── chapters/                     # Split chapter files (GITIGNORED)
+│   ├── chapters/                     # Split chapter files (git-TRACKED — 347 files; the chat-UI bundles these)
 │   │   ├── agot/ acok/ asos/ affc/ adwd/
 │   ├── reference/                    # Non-narrative sources — TWOIAF, etc. (GITIGNORED)
-│   └── wiki/                         # Scraped AWOIAF wiki cache (GITIGNORED)
+│   └── wiki/                         # Scraped AWOIAF wiki cache (git-TRACKED — ~35k files; only sources/raw is ignored)
 │       ├── _raw/                     # 17,657 JSON files (page HTML + metadata)
 │       ├── characters/ locations/ houses/ events/ artifacts/
 │       └── _uncategorized/           # ~17,305 pages awaiting classification
