@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-28 (refreshed after S165)  
+**Generated:** 2026-06-28 (refreshed after S166)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-30-wo5k-battles-pass3.md` | 2026-06-30 | A2.5 WO5K-battles PASS 3 (Spicer-betrayal / Fords-Duskendale → RW-upstream) | **LIVE** (graph) → fires as **S166** | Opus 4.8 orchestration + Sonnet 4.6 subagents | The unravelling half of the WO5K arc: the Spicer-betrayal mechanism (lens-B thread list pre-scouted from `affc-jaime-05/07`) + the army-thinning losses (Battle of Duskendale / the Fords) feeding the B1 Red-Wedding-upstream spine. Un-parks harvest rows 983/999. **IS an enrichment dip** (auto-run convention applies, still confirm). After it: **A2.8 Davos/Sam residual** closes the A-roundup. |
+| `2026-07-01-a28-davos-sam-residual.md` | 2026-07-01 | A2.8 Davos/Sam residual (CLOSES the 🅰 A-roundup) | **LIVE** (graph) → fires as **S167** | Opus 4.8 orchestration + Sonnet 4.6 subagents | The LAST A-roundup residual. Davos: Blackwater near-death → Manderly mission (DEDUP vs the S93 Wyman/Davos deception spine) → Skagos. Sam: Fist → Gilly/Craster's → Citadel road (Aemon's death). HEAVY dedup, Stannis/Jon-adjacent, WIRE+ENRICH. **IS an enrichment dip** (auto-run convention applies, still confirm). After it: the A-roundup is CLOSED → run a granular-dip PLANNING session. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 81 files)
+## Archive (`archive/` subfolder — 82 files)
+
+> **`2026-06-30-wo5k-battles-pass3.md`** — archived S166. **DONE (S166): A2.5 WO5K-battles PASS 3** (the unravelling — Spicer betrayal mechanism + Fords/Duskendale army-thinning; CLOSES the A2.5 mini-track). WIRE+ENRICH, **+1 node / net +17 edges** (23,268→23,285). **HALF A (Spicer):** new `jeyne-westerling-kept-barren` hub (`event.incident`, `[wo5k]`; sybell AGENT_IN / jeyne VICTIM_IN / tywin COMMANDS_IN) + `tywin MANIPULATES sybell-spicer via_bribe` + `sybell BETRAYS robb-stark` + `grey-wind FORESHADOWS` the hub (un-parks row 999); moon-tea mechanism kept GATED. **HALF B (army-thinning):** lit the 2 causally-ISLANDED, roster-EMPTY battle hubs `battle-at-duskendale` (Tarly COMMANDS_IN, Glover+Tallhart VICTIM_IN, LOCATED_AT) + `fighting-at-the-fords-of-the-trident` (Gregor+Roose COMMANDS_IN, Wylis Manderly VICTIM_IN, LOCATED_AT); both **ENABLES red-wedding-conspiracy** (mirrors karstark precedent; causal-in 2→4). **Whodunit:** `roose SUSPECTED_OF battle-at-duskendale` (fresh-verify STRONG, corroborated asos-jaime-05:129) — **Ruby-Ford SUSPECTED_OF DROPPED at fresh-verify** (structural over-read → node prose). 3 book-cite overlays; container wo5k 55→58; canonical slugs confirmed vs the `battle-of-the-fords` (ACOK) + historical Duskendale namesakes; same_as-redirect dup shells flagged for a small-fix; 0 drift, 0 invented types. Fresh-verify 6C/1R. Superseded as live by `2026-07-01-a28-davos-sam-residual.md`.
 
 > **`2026-06-29-harvest-drain-s165.md`** — archived S165. **DONE (S165): harvest-queue drain 35→0** (the post-S163/S164 balloon). The S152/S162 disjoint-dir parallel-attacher machine: routed 35 rows → 4 DISJOINT node-dir owners (FOODS=foods+medical / CHARS=characters / EVENTS=events / LOC+HOUSES=locations+houses) → 4 parallel Sonnet attachers → orchestrator central-flip. **21 new attaches + 10 dedup-done** (S164 had attached several but left them `open` — incl. nut-brown-ale on `beer` + both oxcross overlays; the read-node-first dedup caught all) **+ 3 `object.food` nodes** (beef/hardbread/mutton; foods 110→113) **+ 4 parked** (969 no-AGOT-Frey-crossing-node; 983/999 un-park in WO5K PASS 3; 984 Jon-Arryn theory-layer). Fresh-verify 13-item stratified → **0 issues**. 1 cite-drift fixed (row 980 ch11→ch10). Edges UNCHANGED (node-prose only). Superseded as live by `2026-06-30-wo5k-battles-pass3.md`.
 >

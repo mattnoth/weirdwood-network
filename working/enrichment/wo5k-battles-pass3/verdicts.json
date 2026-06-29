@@ -1,0 +1,8 @@
+{
+  "run_id": "wo5k-battles-pass3-enrichment-s166",
+  "verified_by": "fresh-verify-s166",
+  "drop": ["B10"],
+  "note_patch": {
+    "B9": "Roose (Robb's Harrenhal commander) is suspected of having sent Glover & Tallhart to their destruction at Duskendale to thin the Stark-loyal infantry ahead of his defection. In-text basis: Robb's bafflement signals he never authorized the march ('Why would they go to Duskendale?' / 'A third of my foot, lost for Duskendale?'); the dead were all non-Bolton bannermen while Roose's own Dreadfort men were spared. CORROBORATED by Roose's own words at asos-jaime-05:129 -- 'I gave him all the Karhold men still with me and sent him off with Glover. I do hope nothing ill befell him at Duskendale' (he personally dispatched the rival Karstark men, then voices a soft false concern; quote captured on the battle-at-duskendale node ## Quotes). UNPROVEN in the 5 books (no confession) -- SUSPECTED_OF capped tier-2; fresh-verify-s166 rated this STRONG and undersold."
+  }
+}

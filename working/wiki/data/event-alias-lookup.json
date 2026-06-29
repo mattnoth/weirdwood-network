@@ -1674,6 +1674,8 @@
     "jaqen gives arya the iron coin": "jaqen-gives-arya-the-iron-coin",
     "jaqen's farewell": "jaqen-gives-arya-the-iron-coin",
     "jaqen's second death": "death-of-weese",
+    "jeyne westerling kept barren": "jeyne-westerling-kept-barren",
+    "jeyne westerling kept childless": "jeyne-westerling-kept-barren",
     "joff assassinated": "death-of-joffrey-baratheon",
     "joff death": "death-of-joffrey-baratheon",
     "joff execution": "death-of-joffrey-baratheon",
@@ -3117,6 +3119,8 @@
     "surrender of riverrun": "edmure-yields-riverrun",
     "sword or noose ultimatum": "brienne-brought-before-lady-stoneheart",
     "sword or the noose": "brienne-brought-before-lady-stoneheart",
+    "sybell keeps jeyne barren": "jeyne-westerling-kept-barren",
+    "sybell spicer keeps jeyne westerling barren": "jeyne-westerling-kept-barren",
     "symon silver tongue assassinated": "assassination-of-symon-silver-tongue",
     "symon silver tongue death": "assassination-of-symon-silver-tongue",
     "symon silver tongue execution": "assassination-of-symon-silver-tongue",
@@ -3443,6 +3447,7 @@
     "wendel manderly's death": "ser-wendel-manderly-is-killed",
     "wendel manderly's execution": "ser-wendel-manderly-is-killed",
     "wendwater bridge": "battle-of-wendwater-bridge",
+    "westerling marriage kept fruitless": "jeyne-westerling-kept-barren",
     "wet king assassinated": "death-of-balon-greyjoy",
     "wet king death": "death-of-balon-greyjoy",
     "wet king execution": "death-of-balon-greyjoy",
@@ -10184,21 +10189,21 @@
       }
     ]
   },
-  "computed_at": "2026-06-28T17:40:58.220309+00:00",
+  "computed_at": "2026-06-29T02:09:06.695580+00:00",
   "stats": {
     "ambiguous_collisions": 345,
     "source_breakdown": {
-      "node-frontmatter-alias": 749,
-      "node-name": 739,
-      "node-slug": 739,
+      "node-frontmatter-alias": 752,
+      "node-name": 740,
+      "node-slug": 740,
       "victim-index": 2805,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 5934,
-    "unambiguous_lookups": 3853,
-    "unique_phrases": 4198
+    "total_entries_scanned": 5939,
+    "unambiguous_lookups": 3858,
+    "unique_phrases": 4203
   },
   "version": "v2"
 }

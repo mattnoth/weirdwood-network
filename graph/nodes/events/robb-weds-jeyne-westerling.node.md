@@ -43,6 +43,10 @@ After taking the Crag by storm and being wounded, Robb Stark is nursed by Jeyne 
 >
 > — sources/chapters/asos/asos-catelyn-02.md:131 · Robb to Catelyn on the cost to the Westerlings — the marriage's peril for Jeyne's family.  _(capture: harvest pass, quote)_
 
+> "And you are to wed one of his daughters, once the fighting is done," she finished. "His lordship has graciously consented to allow you to choose whichever girl you prefer."
+>
+> — Catelyn Stark relaying the terms of the Frey crossing-pact to Robb, AGOT Catelyn IX (`sources/chapters/agot/agot-catelyn-09.md:241`). The betrothal vow Robb later breaks by wedding Jeyne — the origin of the slight that becomes the Red Wedding trigger. Book-cite (S166 harvest, un-parks queue row). The dyadic layer (`robb-stark CONTRACTED_WITH walder-frey`, `robb-stark BREAKS_VOW house-frey`) already exists; this is the promise's navigable Tier-1 origin cite.
+
 ## Foreshadowing
 
 > "Grey Wind doesn't like her uncle either. He bares his teeth every time Ser Rolph comes near him." [...] A chill went through her. "Send Ser Rolph away. At once."

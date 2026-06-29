@@ -4,6 +4,7 @@ type: event.battle
 slug: fighting-at-the-fords-of-the-trident
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Fighting_at_the_fords_of_the_Trident"
 bucket_id: battles-d-f
 prompt_version: v1-python
@@ -31,3 +32,9 @@ Gregor attacks the northern rear guard with heavy cavalry. Wylis rallies as best
 Lord [Roose Bolton](wiki:Roose_Bolton), unable to aid the men south of the ford, continues on to the [Twins](wiki:Twins), leaving behind six hundred men—spearmen from the [Rills](wiki:Rills), the [mountains](wiki:Northern_mountain_clans), and the [White Knife](wiki:White_Knife), a hundred longbow archers from [House Hornwood](wiki:House_Hornwood), some [freeriders](wiki:Mercenary) and [hedge knights](wiki:Hedge_knight), and some [Stout](wiki:House_Stout) and [Cerwyn](wiki:House_Cerwyn) men—under the command of [Ronnel Stout](wiki:Ronnel_Stout) and Ser [Kyle Condon](wiki:Kyle_Condon) to hold the northern shore and prevent Ser [Gregor Clegane](wiki:Gregor_Clegane) from crossing the [Trident](wiki:Trident). Remaining with Roose are five hundred mounted men and three thousand infantry, mostly from [House Bolton](wiki:House_Bolton) with some [Karstark](wiki:House_Karstark) presence.(wiki:Fighting_at_the_fords_of_the_Trident.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
 
 Once at the Twins, the Boltons betrays [House Stark](wiki:House_Stark) in the [Red Wedding](wiki:Red_Wedding).(wiki:Fighting_at_the_fords_of_the_Trident.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) It is reported after that massacre that Gregor has seized the ruby ford.(wiki:Fighting_at_the_fords_of_the_Trident.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) [Wylis Manderly](wiki:Wylis_Manderly) and other highborn northern hostages are held at [Harrenhal](wiki:Harrenhal).(wiki:Fighting_at_the_fords_of_the_Trident.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+## Quotes
+
+> "I blame myself. I delayed too long before leaving Harrenhal. Aenys Frey departed several days before me and crossed the Trident at the ruby ford, though not without difficulty. But by the time we came up the river was a torrent. I had no choice but to ferry my men across in small boats, of which we had too few. Two-thirds of my strength was on the north side when the Lannisters attacked those still waiting to cross. Norrey, Locke, and Burley men chiefly, with Ser Wylis Manderly and his White Harbor knights as rear guard. I was on the wrong side of the Trident, powerless to help them. Ser Wylis rallied our men as best he could, but Gregor Clegane attacked with heavy horse and drove them into the river. As many drowned as were cut down."
+
+> —[Roose Bolton](roose-bolton) to [Catelyn Stark](catelyn-stark) and [Robb Stark](robb-stark), the eve of the Red Wedding, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:281`) — book-cite (S166). Roose's own self-exculpatory account of the Ruby Ford loss. The Stark-loyal Norrey/Locke/Burley men and Wylis Manderly's rear guard absorbed the casualties while Roose's own Dreadfort men survived — the structural basis for the deliberate-thinning reading (left as node prose, NOT minted as a SUSPECTED_OF edge: fresh-verify-s166 judged the Ruby-Ford suspicion too thin to clear the gate, unlike Duskendale).

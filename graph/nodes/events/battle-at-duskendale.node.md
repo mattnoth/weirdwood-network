@@ -4,6 +4,7 @@ type: event.battle
 slug: battle-at-duskendale
 aliases: []
 confidence: tier-1
+containers: [wo5k]
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_at_Duskendale"
 bucket_id: battles-a-b
 prompt_version: v1-python
@@ -55,3 +56,7 @@ The northmen are buried in a common grave by the sea marked only by a wooden sig
 > **Robb**: **Duskendale**. [Robett Glover](wiki:Robett_Glover) will answer for that when I see him, I promise you. **Roose**: A folly, but Glover was heedless after he learned that [Deepwood Moote had fallen](wiki:Taking_of_Deepwood_Motte). Grief and fear will do that to a man.(wiki:Battle_at_Duskendale.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
 >
 > —[Robb Stark](wiki:Robb_Stark) and [Roose Bolton](wiki:Roose_Bolton)
+
+> "Harrion Karstark was captive here when we took the castle, did you know? I gave him all the Karhold men still with me and sent him off with Glover. I do hope nothing ill befell him at Duskendale . . . else Alys Karstark would be all that remains of Lord Rickard's progeny."
+
+> —[Roose Bolton](roose-bolton) to [Jaime Lannister](jaime-lannister), ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:129`) — book-cite (S166). Roose's own chilling account: he dispatched the *rival* Karstark men with Glover toward Duskendale, then voices a soft, false concern for them. The strongest in-text basis for `roose-bolton SUSPECTED_OF battle-at-duskendale` — the deliberate spending of Stark-loyal northmen ahead of his defection.

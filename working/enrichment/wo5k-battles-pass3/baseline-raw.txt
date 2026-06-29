@@ -1,0 +1,556 @@
+==============================================================================
+CORE slugs WITHOUT a live node file (1) — candidates to BUILD if load-bearing:
+  the-twins
+==============================================================================
+
+INTERNAL EDGES (both endpoints in core): 218 unique
+==============================================================================
+  battle-in-the-whispering-wood  [ENABLES]  battle-of-the-camps  | tier-2
+  battle-in-the-whispering-wood  [PRECEDES]  battle-of-the-camps  | 3
+  battle-of-oxcross  [ENABLES]  taking-of-ashemark  | tier-2
+  battle-of-the-camps  [ENABLES]  robb-proclaimed-king-in-the-north  | tier-2
+  castamere  [SEAT_OF]  house-spicer  | 2
+  catelyn-stark  [DIED_AT]  twins  | 2
+  catelyn-stark  [DISTRUSTS]  walder-frey  | 1
+  catelyn-stark  [DISTRUSTS]  roose-bolton  | 1
+  catelyn-stark  [DISTRUSTS]  jaime-lannister  | 1
+  catelyn-stark  [GRANTS_SAFE_CONDUCT]  jaime-lannister  | 1
+  catelyn-stark  [GUEST_OF]  walder-frey  | 1
+  catelyn-stark  [HATES]  jaime-lannister  | 1
+  catelyn-stark  [LOVES]  robb-stark  | 1
+  catelyn-stark  [PARENT_OF]  robb-stark  | 1
+  catelyn-stark  [SEEKS]  jaime-lannister  | 1
+  catelyn-stark  [SERVES]  robb-stark  | 1
+  catelyn-stark  [SWORN_TO]  house-stark  | 2
+  catelyn-stark  [TUTORS]  robb-stark  | 1
+  catelyn-stark  [TUTORS]  jeyne-westerling  | 1
+  catelyn-stark  [VICTIM_IN]  red-wedding-revealed  | 2
+  crag  [SEAT_OF]  house-westerling  | 2
+  defiance-of-duskendale  [LOCATED_AT]  duskendale  | 1
+  gawen-westerling  [BORN_AT]  crag  | 2
+  gawen-westerling  [HOLDS_TITLE]  lord-of-the-crag  | 2
+  gawen-westerling  [PARENT_OF]  raynald-westerling  | 2
+  gawen-westerling  [PARENT_OF]  jeyne-westerling  | 2
+  gawen-westerling  [PARENT_OF]  rollam-westerling  | 2
+  gawen-westerling  [RULES]  house-westerling  | 2
+  gawen-westerling  [SPOUSE_OF]  sybell-spicer  | 2
+  gawen-westerling  [SWORN_TO]  house-westerling  | 2
+  gawen-westerling  [VICTIM_IN]  battle-in-the-whispering-wood  | tier-2
+  gregor-clegane  [SERVES]  tywin-lannister  | 1
+  gregor-clegane  [SWORN_TO]  tywin-lannister  | 1
+  gregor-clegane  [SWORN_TO]  house-lannister  | 2
+  grey-wind  [AGENT_IN]  battle-of-oxcross  | 2
+  grey-wind  [BONDED_TO]  robb-stark  | 1
+  grey-wind  [COMPANION_OF]  robb-stark  | 1
+  grey-wind  [DIED_AT]  twins  | 2
+  grey-wind  [FIGHTS_IN]  battle-of-the-camps  | 2
+  grey-wind  [FIGHTS_IN]  battle-in-the-whispering-wood  | tier-1
+  grey-wind  [FIGHTS_IN]  storming-of-the-crag  | tier-1
+  grey-wind  [FIGHTS_IN]  taking-of-ashemark  | tier-1
+  grey-wind  [GUEST_OF]  walder-frey  | 1
+  grey-wind  [OPPOSES]  rolph-spicer  | 1
+  grey-wind  [OPPOSES]  house-frey  | 1
+  grey-wind  [PROTECTS]  robb-stark  | 1
+  grey-wind  [TRUSTS]  catelyn-stark  | 1
+  grey-wind  [VICTIM_IN]  grey-wind-killed-at-the-twins  | 1
+  grey-wind-killed-at-the-twins  [SUB_BEAT_OF]  red-wedding  | 1
+  helman-tallhart  [DIED_AT]  duskendale  | 2
+  helman-tallhart  [SWORN_TO]  house-tallhart  | 2
+  house-bolton  [AGENT_IN]  red-wedding-revealed  | 2
+  house-bolton  [OVERLORD_OF]  house-karstark  | 2
+  house-bolton  [OVERLORD_OF]  house-stark  | 2
+  house-bolton  [OVERLORD_OF]  house-tallhart  | 2
+  house-frey  [AGENT_IN]  red-wedding-revealed  | 1
+  house-frey  [AGENT_IN]  grey-wind-killed-at-the-twins  | 1
+  house-frey  [GUEST_OF]  roose-bolton  | 1
+  house-frey  [VIOLATES_GUEST_RIGHT]  catelyn-stark  | 1
+  house-frey  [VIOLATES_GUEST_RIGHT]  robb-stark  | 1
+  house-karstark  [CADET_BRANCH_OF]  house-stark  | 2
+  house-lannister  [OVERLORD_OF]  house-spicer  | 2
+  house-lannister  [OVERLORD_OF]  house-westerling  | 2
+  house-spicer  [HOLDS_TITLE]  lord-of-castamere  | 2
+  house-stark  [OVERLORD_OF]  house-bolton  | 2
+  house-stark  [OVERLORD_OF]  house-glover  | 2
+  house-stark  [OVERLORD_OF]  house-karstark  | 2
+  house-stark  [OVERLORD_OF]  house-tallhart  | 2
+  house-stark  [OVERLORD_OF]  house-westerling  | 2
+  house-westerling  [GUEST_OF]  house-lannister  | 1
+  house-westerling  [HOLDS_TITLE]  lord-of-the-crag  | 2
+  jaime-lannister  [COMMANDS_IN]  battle-of-the-camps  | 2
+  jaime-lannister  [GUEST_OF]  catelyn-stark  | 1
+  jaime-lannister  [GUEST_OF]  roose-bolton  | 1
+  jaime-lannister  [HATES]  sybell-spicer  | 1
+  jaime-lannister  [IN_LAW_OF]  walder-frey  | 1
+  jaime-lannister  [MOURNS]  tywin-lannister  | 1
+  jaime-lannister  [NEPHEW_OF]  kevan-lannister  | 1
+  jaime-lannister  [OPPOSES]  robb-stark  | 1
+  jaime-lannister  [PARALLELS]  tywin-lannister  | 1
+  jaime-lannister  [PRISONER_OF]  robb-stark  | 1
+  jaime-lannister  [RESPECTS]  roose-bolton  | 1
+  jaime-lannister  [SWORN_TO]  house-lannister  | 2
+  jaime-lannister  [VICTIM_IN]  battle-in-the-whispering-wood  | tier-1
+  jaime-lannister  [VOWS_TO]  catelyn-stark  | 1
+  jeyne-westerling  [AGENT_IN]  robb-weds-jeyne-westerling  | 1
+  jeyne-westerling  [BORN_AT]  crag  | 2
+  jeyne-westerling  [FEARS]  grey-wind  | 1
+  jeyne-westerling  [GUEST_OF]  catelyn-stark  | 1
+  jeyne-westerling  [GUEST_OF]  jaime-lannister  | 1
+  jeyne-westerling  [HEALS]  robb-stark  | tier-1
+  jeyne-westerling  [MOURNS]  robb-stark  | 1
+  jeyne-westerling  [SEEKS]  catelyn-stark  | 1
+  jeyne-westerling  [SPOUSE_OF]  robb-stark  | 1
+  jeyne-westerling  [SWORN_TO]  house-westerling  | 2
+  jeyne-westerling  [SWORN_TO]  house-stark  | 2
+  karstark-host-deserts-robb  [ENABLES]  red-wedding-conspiracy  | 2
+  kevan-lannister  [LOVES]  tywin-lannister  | 1
+  kevan-lannister  [SERVES]  tywin-lannister  | 1
+  kevan-lannister  [SWORN_TO]  house-lannister  | 2
+  raynald-westerling  [BORN_AT]  crag  | 2
+  raynald-westerling  [DIED_AT]  twins  | 2
+  raynald-westerling  [HEIR_TO]  lord-of-the-crag  | 2
+  raynald-westerling  [SWORN_TO]  house-westerling  | 2
+  red-wedding  [MOTIVATES]  catelyn-stark  | 1
+  red-wedding-conspiracy  [CAUSES]  red-wedding  | 2
+  red-wedding-revealed  [SUB_BEAT_OF]  red-wedding  | 1
+  rickard-karstark  [AGENT_IN]  battle-of-oxcross  | 2
+  rickard-karstark  [FIGHTS_IN]  battle-in-the-whispering-wood  | tier-1
+  rickard-karstark  [OPPOSES]  catelyn-stark  | 1
+  rickard-karstark  [OPPOSES]  robb-stark  | 1
+  rickard-karstark  [SEEKS]  jaime-lannister  | 1
+  rickard-karstark  [SWORN_TO]  robb-stark  | 1
+  rickard-karstark  [SWORN_TO]  house-karstark  | 2
+  rickard-karstark  [VICTIM_IN]  execution-of-rickard-karstark  | 1
+  robb-proclaimed-king-in-the-north  [ENABLES]  battle-of-oxcross  | tier-2
+  robb-receives-false-news-of-brans-death  [MOTIVATES]  robb-stark  | 2
+  robb-receives-false-news-of-brans-death  [TRIGGERS]  robb-weds-jeyne-westerling  | 2
+  robb-stark  [AGENT_IN]  execution-of-rickard-karstark  | 1
+  robb-stark  [AGENT_IN]  robb-weds-jeyne-westerling  | 1
+  robb-stark  [AGENT_IN]  robb-proclaimed-king-in-the-north  | 1
+  robb-stark  [AGENT_IN]  battle-in-the-whispering-wood  | tier-1
+  robb-stark  [AGENT_IN]  storming-of-the-crag  | tier-1
+  robb-stark  [ALLIES_WITH]  house-frey  | 1
+  robb-stark  [BONDED_TO]  grey-wind  | 1
+  robb-stark  [BREAKS_VOW]  house-frey  | 1
+  robb-stark  [COMMANDS]  catelyn-stark  | 1
+  robb-stark  [COMMANDS]  grey-wind  | 1
+  robb-stark  [COMMANDS]  roose-bolton  | 1
+  robb-stark  [COMMANDS_IN]  battle-of-oxcross  | 2
+  robb-stark  [COMMANDS_IN]  battle-of-the-camps  | 2
+  robb-stark  [COMMANDS_IN]  battle-in-the-whispering-wood  | tier-1
+  robb-stark  [COMMANDS_IN]  storming-of-the-crag  | tier-1
+  robb-stark  [COMPANION_OF]  grey-wind  | 1
+  robb-stark  [CONTRACTED_WITH]  walder-frey  | 1
+  robb-stark  [DIED_AT]  twins  | 2
+  robb-stark  [DISTRUSTS]  catelyn-stark  | 1
+  robb-stark  [EXECUTES]  rickard-karstark  | 1
+  robb-stark  [FEARS]  roose-bolton  | 1
+  robb-stark  [GUEST_OF]  walder-frey  | 1
+  robb-stark  [LOVES]  jeyne-westerling  | 1
+  robb-stark  [LOVES]  catelyn-stark  | 1
+  robb-stark  [OVERLORD_OF]  rickard-karstark  | 1
+  robb-stark  [OWNS]  grey-wind  | 2
+  robb-stark  [PROTECTS]  catelyn-stark  | 1
+  robb-stark  [PROTECTS]  raynald-westerling  | 1
+  robb-stark  [RESENTS]  catelyn-stark  | 1
+  robb-stark  [RESENTS]  robett-glover  | 1
+  robb-stark  [RESPECTS]  jaime-lannister  | 1
+  robb-stark  [SERVES]  walder-frey  | 1
+  robb-stark  [SPOUSE_OF]  jeyne-westerling  | 1
+  robb-stark  [VICTIM_IN]  red-wedding-revealed  | 1
+  robb-weds-jeyne-westerling  [LOCATED_AT]  crag  | 1
+  robb-weds-jeyne-westerling  [TRIGGERS]  red-wedding-conspiracy  | 2
+  robett-glover  [HEIR_TO]  house-glover  | 2
+  robett-glover  [SWORN_TO]  house-glover  | 2
+  rollam-westerling  [BORN_AT]  crag  | 2
+  rollam-westerling  [HEIR_TO]  house-westerling  | 2
+  rollam-westerling  [SERVES]  robb-stark  | 1
+  rollam-westerling  [SWORN_TO]  house-westerling  | 2
+  rolph-spicer  [COMMANDS_IN]  storming-of-the-crag  | tier-1
+  rolph-spicer  [FOUNDED]  house-spicer  | 2
+  rolph-spicer  [HOLDS_TITLE]  lord-of-castamere  | 2
+  rolph-spicer  [RULES]  castamere  | 2
+  rolph-spicer  [RULES]  house-spicer  | 2
+  rolph-spicer  [SWORN_TO]  house-spicer  | 2
+  rolph-spicer  [SWORN_TO]  house-westerling  | 2
+  roose-bolton  [AGENT_IN]  red-wedding-conspiracy  | 1
+  roose-bolton  [ALLIES_WITH]  house-frey  | 1
+  roose-bolton  [BETRAYS]  robb-stark  | 1
+  roose-bolton  [COMMANDS]  robb-stark  | 1
+  roose-bolton  [COMMANDS_IN]  red-wedding-revealed  | 2
+  roose-bolton  [OPPOSES]  walder-frey  | 1
+  roose-bolton  [RULES]  house-bolton  | 2
+  roose-bolton  [SERVES]  robb-stark  | 1
+  roose-bolton  [SWORN_TO]  robb-stark  | 1
+  roose-bolton  [SWORN_TO]  house-bolton  | 2
+  roose-bolton  [VIOLATES_GUEST_RIGHT]  house-frey  | 1
+  samwell-spicer  [SWORN_TO]  house-spicer  | 2
+  storming-of-the-crag  [ENABLES]  robb-weds-jeyne-westerling  | 2
+  storming-of-the-crag  [LOCATED_AT]  crag  | tier-1
+  sybell-spicer  [COMMANDS]  jeyne-westerling  | 1
+  sybell-spicer  [CONSPIRES_WITH]  tywin-lannister  | 1
+  sybell-spicer  [FEARS]  grey-wind  | 1
+  sybell-spicer  [GUEST_OF]  jaime-lannister  | 1
+  sybell-spicer  [HEIR_TO]  house-spicer  | 2
+  sybell-spicer  [PARENT_OF]  jeyne-westerling  | 2
+  sybell-spicer  [PARENT_OF]  raynald-westerling  | 2
+  sybell-spicer  [PARENT_OF]  rollam-westerling  | 2
+  sybell-spicer  [SWORN_TO]  house-spicer  | 2
+  sybell-spicer  [SWORN_TO]  house-westerling  | 2
+  taking-of-ashemark  [ENABLES]  storming-of-the-crag  | tier-2
+  twins  [SEAT_OF]  house-frey  | 2
+  tywin-lannister  [ALLIES_WITH]  roose-bolton  | 1
+  tywin-lannister  [APPOINTS]  roose-bolton  | 1
+  tywin-lannister  [COMMANDS]  gregor-clegane  | 1
+  tywin-lannister  [COMMANDS]  jaime-lannister  | 1
+  tywin-lannister  [COMMANDS_IN]  red-wedding-revealed  | 1
+  tywin-lannister  [COMMANDS_IN]  defiance-of-duskendale  | 1
+  tywin-lannister  [COMMANDS_IN]  red-wedding-conspiracy  | 2
+  tywin-lannister  [CONSPIRES_WITH]  walder-frey  | 1
+  tywin-lannister  [LOVES]  jaime-lannister  | 1
+  tywin-lannister  [PARENT_OF]  jaime-lannister  | 1
+  tywin-lannister  [PROTECTS]  house-stark  | 1
+  tywin-lannister  [PROTECTS]  gregor-clegane  | 1
+  tywin-lannister  [SWORN_TO]  house-lannister  | 2
+  tywin-lannister  [TRUSTS]  kevan-lannister  | 1
+  walder-frey  [BETRAYS]  robb-stark  | 1
+  walder-frey  [BORN_AT]  twins  | 2
+  walder-frey  [COMMANDS_IN]  red-wedding-revealed  | 1
+  walder-frey  [COMMANDS_IN]  red-wedding-conspiracy  | 1
+  walder-frey  [COMPANION_OF]  house-lannister  | 1
+  walder-frey  [OPPOSES]  grey-wind  | 1
+  walder-frey  [RULES]  house-frey  | 2
+  walder-frey  [RULES]  twins  | 2
+  walder-frey  [SWORN_TO]  house-frey  | 2
+  walder-frey  [VIOLATES_GUEST_RIGHT]  robb-stark  | 1
+  walder-frey  [VIOLATES_GUEST_RIGHT]  catelyn-stark  | 1
+
+==============================================================================
+CAUSAL INTERNAL SUB-WEB: 12
+==============================================================================
+  red-wedding-conspiracy  [CAUSES]  red-wedding
+  battle-in-the-whispering-wood  [ENABLES]  battle-of-the-camps
+  battle-of-oxcross  [ENABLES]  taking-of-ashemark
+  battle-of-the-camps  [ENABLES]  robb-proclaimed-king-in-the-north
+  karstark-host-deserts-robb  [ENABLES]  red-wedding-conspiracy
+  robb-proclaimed-king-in-the-north  [ENABLES]  battle-of-oxcross
+  storming-of-the-crag  [ENABLES]  robb-weds-jeyne-westerling
+  taking-of-ashemark  [ENABLES]  storming-of-the-crag
+  red-wedding  [MOTIVATES]  catelyn-stark
+  robb-receives-false-news-of-brans-death  [MOTIVATES]  robb-stark
+  robb-receives-false-news-of-brans-death  [TRIGGERS]  robb-weds-jeyne-westerling
+  robb-weds-jeyne-westerling  [TRIGGERS]  red-wedding-conspiracy
+
+==============================================================================
+EVENT-NODE causal degree (cOut/cIn) — 0/0 = causally ISLANDED hub (gap candidate)
+==============================================================================
+  battle-at-duskendale                       cOut= 0 cIn= 0  (tot out= 1 in= 0)  <-- CAUSALLY ISLANDED
+  battle-in-the-whispering-wood              cOut= 1 cIn= 0  (tot out= 4 in=18)
+  battle-of-oxcross                          cOut= 1 cIn= 1  (tot out= 4 in= 9)
+  battle-of-the-camps                        cOut= 1 cIn= 1  (tot out= 4 in=13)
+  battle-of-the-fords                        cOut= 0 cIn= 0  (tot out= 2 in= 2)  <-- CAUSALLY ISLANDED
+  battle-of-the-fords-of-the-trident         cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [0 edges in core]
+  battle-of-the-ruby-ford                    cOut= 0 cIn= 0  (tot out= 0 in= 0)  <-- CAUSALLY ISLANDED   [0 edges in core]
+  defiance-of-duskendale                     cOut= 0 cIn= 0  (tot out= 1 in=10)  <-- CAUSALLY ISLANDED
+  execution-of-rickard-karstark              cOut= 0 cIn= 0  (tot out= 1 in= 3)  <-- CAUSALLY ISLANDED
+  fighting-at-the-fords-of-the-trident       cOut= 0 cIn= 0  (tot out= 1 in= 0)  <-- CAUSALLY ISLANDED
+  first-lannister-attack-on-the-ford-daytime cOut= 0 cIn= 0  (tot out= 0 in= 3)  <-- CAUSALLY ISLANDED
+  grey-wind-killed-at-the-twins              cOut= 0 cIn= 0  (tot out= 1 in= 2)  <-- CAUSALLY ISLANDED
+  karstark-host-deserts-robb                 cOut= 1 cIn= 0  (tot out= 1 in= 1)
+  red-wedding                                cOut= 1 cIn= 1  (tot out= 5 in=21)
+  red-wedding-conspiracy                     cOut= 1 cIn= 2  (tot out= 2 in= 8)
+  red-wedding-revealed                       cOut= 0 cIn= 0  (tot out= 2 in= 8)  <-- CAUSALLY ISLANDED
+  robb-proclaimed-king-in-the-north          cOut= 1 cIn= 1  (tot out= 1 in= 3)
+  robb-receives-false-news-of-brans-death    cOut= 2 cIn= 0  (tot out= 2 in= 1)
+  robb-weds-jeyne-westerling                 cOut= 1 cIn= 2  (tot out= 2 in= 4)
+  sack-of-duskendale                         cOut= 0 cIn= 0  (tot out= 2 in= 1)  <-- CAUSALLY ISLANDED
+  storming-of-the-crag                       cOut= 1 cIn= 1  (tot out= 4 in= 8)
+  taking-of-ashemark                         cOut= 1 cIn= 1  (tot out= 3 in= 3)
+
+==============================================================================
+CAST/TITLE/HOUSE degree (out/in within core + boundary)
+==============================================================================
+  castamere                            core_out= 3 core_in= 5  boundary=  6
+  catelyn-stark                        core_out=118 core_in=69  boundary=158
+  crag                                 core_out= 1 core_in= 7  boundary=  1
+  duskendale                           core_out= 2 core_in=15  boundary= 15
+  gawen-westerling                     core_out=11 core_in= 0  boundary=  2
+  gregor-clegane                       core_out=31 core_in=19  boundary= 45
+  grey-wind                            core_out=18 core_in= 8  boundary=  5
+  helman-tallhart                      core_out= 8 core_in= 0  boundary=  6
+  house-bolton                         core_out=42 core_in=28  boundary= 63
+  house-frey                           core_out=25 core_in=160  boundary=172
+  house-glover                         core_out= 7 core_in=16  boundary= 20
+  house-karstark                       core_out= 5 core_in=16  boundary= 17
+  house-lannister                      core_out=66 core_in=137  boundary=195
+  house-spicer                         core_out= 1 core_in= 9  boundary=  1
+  house-stark                          core_out=55 core_in=160  boundary=205
+  house-tallhart                       core_out= 2 core_in=12  boundary= 11
+  house-westerling                     core_out= 3 core_in=18  boundary=  8
+  jaime-lannister                      core_out=161 core_in=72  boundary=208
+  jeyne-westerling                     core_out=15 core_in= 7  boundary=  5
+  kevan-lannister                      core_out=23 core_in=13  boundary= 31
+  lord-of-castamere                    core_out= 1 core_in= 6  boundary=  5
+  lord-of-the-crag                     core_out= 1 core_in= 4  boundary=  2
+  randyll-tarly                        core_out=20 core_in= 9  boundary= 29
+  raynald-westerling                   core_out= 6 core_in= 3  boundary=  2
+  rickard-karstark                     core_out=20 core_in= 2  boundary= 12
+  robb-stark                           core_out=79 core_in=85  boundary=107
+  robett-glover                        core_out=13 core_in= 3  boundary= 13
+  rollam-westerling                    core_out= 6 core_in= 2  boundary=  2
+  rolph-spicer                         core_out=11 core_in= 1  boundary=  4
+  roose-bolton                         core_out=51 core_in=35  boundary= 67
+  ruby-ford                            core_out= 0 core_in= 2  boundary=  2
+  samwell-spicer                       core_out= 3 core_in= 0  boundary=  2
+  sybell-spicer                        core_out=13 core_in= 2  boundary=  3
+  the-twins                            core_out= 0 core_in= 0  boundary=  0  [NO node file]
+  twins                                core_out= 2 core_in=50  boundary= 45
+  tywin-lannister                      core_out=79 core_in=46  boundary=104
+  walder-frey                          core_out=66 core_in=33  boundary= 79
+
+==============================================================================
+FULL EDGE DUMP for the Fords/Duskendale dedup minefield + Spicer entities
+==============================================================================
+
+--- battle-of-the-fords  (4 edges) ---
+  [ IN] SUB_BEAT_OF          second-lannister-attack-after-midnight     | 2 | ACOK Catelyn VI
+  [OUT] PART_OF              war-of-the-five-kings                      | 2 | None
+  [ IN] PRECEDES             harrying-of-the-stony-shore                | 3 | 
+  [OUT] PRECEDES             fall-of-harrenhal                          | 3 | 
+
+--- battle-of-the-fords-of-the-trident  (0 edges) ---
+
+--- battle-of-the-ruby-ford  (0 edges) ---
+
+--- fighting-at-the-fords-of-the-trident  (1 edges) ---
+  [OUT] PART_OF              war-of-the-five-kings                      | 2 | None
+
+--- first-lannister-attack-on-the-ford-daytime  (3 edges) ---
+  [ IN] AGENT_IN             house-brax                                 | 1 | ACOK Catelyn VI
+  [ IN] COMMANDS_IN          jason-mallister                            | 1 | ACOK Catelyn VI
+  [ IN] AGENT_IN             house-mallister                            | 1 | ACOK Catelyn VI
+
+--- battle-at-duskendale  (1 edges) ---
+  [OUT] PART_OF              war-of-the-five-kings                      | 2 | None
+
+--- sack-of-duskendale  (3 edges) ---
+  [OUT] PART_OF              dance-of-the-dragons                       | 2 | None
+  [ IN] PRECEDES             war-for-the-stepstones                     | 3 | 
+  [OUT] PRECEDES             battle-above-the-gods-eye                  | 3 | 
+
+--- defiance-of-duskendale  (11 edges) ---
+  [OUT] LOCATED_AT           duskendale                                 | 1 | adwd-the-queensguard-01
+  [ IN] VICTIM_IN            aerys-ii-targaryen                         | 1 | adwd-the-kingbreaker-01
+  [ IN] AGENT_IN             barristan-selmy                            | 1 | asos-jaime-08
+  [ IN] AGENT_IN             denys-darklyn                              | 2 | 
+  [ IN] COMMANDS_IN          tywin-lannister                            | 1 | adwd-the-kingbreaker-01
+  [ IN] VICTIM_IN            dontos-hollard                             | 2 | 
+  [ IN] VICTIM_IN            serala-of-myr                              | 2 | 
+  [ IN] VICTIM_IN            jon-hollard                                | 2 | 
+  [ IN] VICTIM_IN            robin-hollard                              | 2 | 
+  [ IN] VICTIM_IN            house-darklyn                              | 2 | 
+  [ IN] VICTIM_IN            house-hollard                              | 2 | 
+
+--- roose-bolton  (90 edges) ---
+  [ IN] FEARS                robb-stark                                 | 1 | agot-catelyn-08
+  [OUT] SERVES               robb-stark                                 | 1 | agot-catelyn-08
+  [OUT] COMMANDS             robb-stark                                 | 1 | agot-catelyn-09
+  [OUT] EXECUTES             amory-lorch                                | 1 | acok-arya-09
+  [OUT] COMMANDS             arya-stark                                 | 1 | acok-arya-09
+  [ IN] FEARS                arya-stark                                 | 1 | acok-arya-10
+  [ IN] SERVES               elmar-frey                                 | 1 | acok-arya-10
+  [OUT] COMMANDS             steelshanks-walton                         | 1 | acok-arya-10
+  [ IN] DISTRUSTS            catelyn-stark                              | 1 | asos-catelyn-06
+  [OUT] PROTECTS             ramsay-snow                                | 1 | asos-catelyn-06
+  [OUT] BETRAYS              robb-stark                                 | 1 | asos-catelyn-07
+  [OUT] OPPOSES              walder-frey                                | 1 | asos-catelyn-07
+  [OUT] PROTECTS             brienne-tarth                              | 1 | asos-jaime-04
+  [ IN] SERVES               vargo-hoat                                 | 1 | asos-jaime-04
+  [ IN] RESPECTS             jaime-lannister                            | 1 | asos-jaime-05
+  [OUT] BETRAYS              brienne-tarth                              | 1 | asos-jaime-05
+  [OUT] COMMANDS             qyburn                                     | 1 | asos-jaime-06
+  [ IN] SERVES               steelshanks-walton                         | 1 | asos-jaime-06
+  [ IN] ALLIES_WITH          tywin-lannister                            | 1 | asos-tyrion-06
+  [OUT] COMMANDS             ramsay-snow                                | 1 | adwd-a-ghost-in-winterfell-01
+  [OUT] OPPOSES              wyman-manderly                             | 1 | adwd-davos-02
+  [OUT] ALLIES_WITH          house-frey                                 | 1 | adwd-davos-04
+  [ IN] DISTRUSTS            jon-snow                                   | 1 | adwd-jon-07
+  [ IN] OPPOSES              stannis-baratheon                          | 1 | adwd-jon-07
+  [ IN] ALLIES_WITH          arnolf-karstark                            | 1 | adwd-jon-09
+  [ IN] COMMANDS             aenys-frey                                 | 1 | adwd-reek-02
+  [ IN] COMMANDS             hosteen-frey                               | 1 | adwd-reek-02
+  [OUT] DISTRUSTS            crannogmen                                 | 1 | adwd-reek-02
+  [ IN] SERVES               arnolf-karstark                            | 1 | adwd-reek-03
+  [ IN] RESENTS              ramsay-snow                                | 1 | adwd-reek-03
+  [OUT] RESPECTS             domeric-bolton                             | 1 | adwd-reek-03
+  [OUT] DISTRUSTS            hother-umber                               | 1 | adwd-reek-03
+  [OUT] DISTRUSTS            ramsay-snow                                | 1 | adwd-reek-03
+  [OUT] LOVES                walda-frey-daughter-of-merrett             | 1 | adwd-reek-03
+  [OUT] ALLIES_WITH          arnolf-karstark                            | 1 | adwd-the-prince-of-winterfell-01
+  [OUT] DISTRUSTS            wyman-manderly                             | 1 | adwd-the-prince-of-winterfell-01
+  [OUT] COMMANDS             hosteen-frey                               | 1 | adwd-theon-01
+  [OUT] SWORN_TO             robb-stark                                 | 1 | agot-bran-06
+  [OUT] OPPOSES              barristan-selmy                            | 1 | agot-eddard-08
+  [ IN] SWORN_TO             vargo-hoat                                 | 1 | acok-arya-09
+  [OUT] CLAIMS               hornwood                                   | 1 | acok-bran-05
+  [ IN] SERVES               arya-stark                                 | 1 | asos-arya-02
+  [ IN] COMMANDS             robb-stark                                 | 1 | asos-catelyn-05
+  [ IN] CONSPIRES_WITH       lothar-frey                                | 1 | asos-epilogue
+  [OUT] DEFEATS              amory-lorch                                | 1 | asos-jaime-01
+  [ IN] SWORN_TO             brave-companions                           | 1 | asos-jaime-03
+  [ IN] APPOINTS             tywin-lannister                            | 1 | asos-jon-11
+  [ IN] ALLIES_WITH          barbrey-dustin                             | 1 | adwd-a-ghost-in-winterfell-01
+  [ IN] SWORN_TO             roger-ryswell                              | 1 | adwd-a-ghost-in-winterfell-01
+  [ IN] PRISONER_OF          theon-greyjoy                              | 1 | adwd-a-ghost-in-winterfell-01
+  [ IN] SERVES               grunt                                      | 1 | adwd-reek-01
+  [ IN] HEIR_TO              ramsay-snow                                | 1 | adwd-reek-01
+  [OUT] MARRIES_OFF          ramsay-snow                                | 1 | adwd-reek-01
+  [OUT] PARENT_OF            ramsay-snow                                | 1 | adwd-reek-03
+  [ IN] OPPOSES              barbrey-dustin                             | 1 | adwd-the-prince-of-winterfell-01
+  [OUT] OPPOSES              stannis-baratheon                          | 1 | adwd-the-prince-of-winterfell-01
+  [ IN] SERVES               theon-greyjoy                              | 1 | adwd-the-prince-of-winterfell-01
+  [ IN] GUEST_OF             brienne-tarth                              | 1 | asos-jaime-04
+  [ IN] GUEST_OF             jaime-lannister                            | 1 | asos-jaime-04
+  [ IN] GUEST_OF             brienne-tarth                              | 1 | asos-jaime-05
+  [ IN] GUEST_OF             jaime-lannister                            | 1 | asos-jaime-05
+  [OUT] VIOLATES_GUEST_RIGHT brienne-tarth                              | 1 | asos-jaime-05
+  [ IN] GUEST_OF             jaime-lannister                            | 1 | asos-jaime-06
+  [ IN] GUEST_OF             jaime-lannister                            | 1 | asos-jaime-06
+  [OUT] GUEST_OF             barbrey-dustin                             | 1 | adwd-reek-03
+  [ IN] GUEST_OF             house-frey                                 | 1 | adwd-the-prince-of-winterfell-01
+  [ IN] GUEST_OF             house-frey                                 | 1 | adwd-the-turncloak-01
+  [ IN] GUEST_OF             theon-greyjoy                              | 1 | adwd-the-turncloak-01
+  [OUT] VIOLATES_GUEST_RIGHT house-frey                                 | 1 | adwd-theon-01
+  [OUT] COMMANDS_IN          ser-amory-lorch-executed                   | 2 | ACOK Arya IX
+  [OUT] COMMANDS_IN          sack-of-winterfell                         | 2 | ACOK Theon VI
+  [OUT] AGENT_IN             the-wedding-feast-proceeds                 | 1 | ASOS Catelyn VII
+  [OUT] COMMANDS_IN          crossbows-kill-more-northmen               | 2 | ASOS Catelyn VII
+  [OUT] AGENT_IN             robb-is-killed                             | 2 | ASOS Catelyn VII
+  [OUT] COMMANDS_IN          red-wedding-revealed                       | 2 | ASOS Tyrion VI
+  [OUT] COMMANDS_IN          wedding-of-ramsay-bolton-and-arya-stark    | 2 | ADWD The Prince of Winterfell I
+  [OUT] VICTIM_IN            wedding-guests-observed-in-torchlight      | 2 | ADWD The Prince of Winterfell I
+  [ IN] SPOUSE_OF            bethany-bolton                             | 2 | None
+  [OUT] PARENT_OF            domeric-bolton                             | 2 | None
+  [OUT] RULES                dreadfort                                  | 2 | None
+  [OUT] RULES                house-bolton                               | 2 | None
+  [OUT] HOLDS_TITLE          lord-of-the-dreadfort                      | 2 | None
+  [OUT] HOLDS_TITLE          warden-of-the-north                        | 2 | None
+  [OUT] SWORN_TO             house-bolton                               | 2 | None
+  [OUT] CULTURE_OF           northmen                                   | 2 | None
+  [OUT] BORN_AT              dreadfort                                  | 2 | None
+  [OUT] SPOUSE_OF            fat-walda-frey                             | 2 | None
+  [ IN] SPOUSE_OF            walda-frey-daughter-of-merrett             | 2 | None
+  [OUT] AGENT_IN             red-wedding-conspiracy                     | 1 | asos-catelyn-07
+  [OUT] RULES                harrenhal                                  | tier-1 | acok-arya-09
+
+--- robett-glover  (16 edges) ---
+  [OUT] ALLIES_WITH          wyman-manderly                             | 1 | adwd-davos-02
+  [OUT] RESPECTS             arya-stark                                 | 1 | acok-arya-09
+  [ IN] RESENTS              robb-stark                                 | 1 | asos-catelyn-06
+  [ IN] VIOLATES_GUEST_RIGHT vargo-hoat                                 | 1 | acok-arya-09
+  [OUT] VICTIM_IN            ser-amory-receives-the-prisoners           | 1 | ACOK Arya IX
+  [OUT] VICTIM_IN            prisoners-freed                            | 1 | ACOK Arya IX
+  [OUT] PARENT_OF            erena-glover                               | 2 | None
+  [OUT] PARENT_OF            gawen-glover                               | 2 | None
+  [OUT] HEIR_TO              house-glover                               | 2 | None
+  [OUT] HEIR_TO              master-of-deepwood-motte                   | 2 | None
+  [OUT] SWORN_TO             house-glover                               | 2 | None
+  [OUT] CULTURE_OF           northmen                                   | 2 | None
+  [OUT] BORN_AT              deepwood-motte                             | 2 | None
+  [OUT] SPOUSE_OF            sybelle-glover                             | 2 | None
+  [OUT] AGENT_IN             grand-northern-conspiracy                  | 1 | adwd-davos-04
+  [ IN] CONSPIRES_WITH       wyman-manderly                             | 1 | adwd-davos-04
+
+--- helman-tallhart  (8 edges) ---
+  [OUT] PARENT_OF            benfred-tallhart                           | 2 | None
+  [OUT] PARENT_OF            eddara-tallhart                            | 2 | None
+  [OUT] HOLDS_TITLE          ser                                        | 2 | None
+  [OUT] HOLDS_TITLE          master-of-torrhens-square                  | 2 | None
+  [OUT] SWORN_TO             house-tallhart                             | 2 | None
+  [OUT] CULTURE_OF           northmen                                   | 2 | None
+  [OUT] BORN_AT              torrhens-square                            | 2 | None
+  [OUT] DIED_AT              duskendale                                 | 2 | None
+
+--- sybell-spicer  (15 edges) ---
+  [OUT] FEARS                grey-wind                                  | 1 | asos-catelyn-02
+  [ IN] HATES                jaime-lannister                            | 1 | affc-jaime-07
+  [OUT] COMMANDS             jeyne-westerling                           | 1 | affc-jaime-07
+  [OUT] CONSPIRES_WITH       tywin-lannister                            | 1 | affc-jaime-07
+  [OUT] GUEST_OF             jaime-lannister                            | 1 | affc-jaime-07
+  [OUT] PARENT_OF            eleyna-westerling                          | 2 | None
+  [ IN] SPOUSE_OF            gawen-westerling                           | 2 | None
+  [OUT] HEIR_TO              house-spicer                               | 2 | None
+  [OUT] PARENT_OF            jeyne-westerling                           | 2 | None
+  [OUT] PARENT_OF            raynald-westerling                         | 2 | None
+  [OUT] PARENT_OF            rollam-westerling                          | 2 | None
+  [OUT] SWORN_TO             house-spicer                               | 2 | None
+  [OUT] SWORN_TO             house-westerling                           | 2 | None
+  [OUT] CULTURE_OF           westermen                                  | 2 | None
+  [OUT] BORN_AT              westerlands                                | 2 | None
+
+--- rolph-spicer  (12 edges) ---
+  [ IN] OPPOSES              grey-wind                                  | 1 | asos-catelyn-02
+  [OUT] RULES                castamere                                  | 2 | None
+  [OUT] RULES                house-spicer                               | 2 | None
+  [OUT] FOUNDED              house-spicer                               | 2 | None
+  [OUT] HOLDS_TITLE          ser                                        | 2 | None
+  [OUT] HOLDS_TITLE          castellan                                  | 2 | None
+  [OUT] HOLDS_TITLE          lord-of-castamere                          | 2 | None
+  [OUT] SWORN_TO             house-spicer                               | 2 | None
+  [OUT] SWORN_TO             house-westerling                           | 2 | None
+  [OUT] CULTURE_OF           westermen                                  | 2 | None
+  [OUT] BORN_AT              westerlands                                | 2 | None
+  [OUT] COMMANDS_IN          storming-of-the-crag                       | tier-1 | asos-catelyn-02
+
+--- jeyne-westerling  (22 edges) ---
+  [ IN] LOVES                robb-stark                                 | 1 | asos-catelyn-02
+  [ IN] TUTORS               catelyn-stark                              | 1 | asos-catelyn-03
+  [OUT] SEEKS                catelyn-stark                              | 1 | asos-catelyn-03
+  [OUT] MOURNS               robb-stark                                 | 1 | affc-jaime-07
+  [ IN] COMMANDS             sybell-spicer                              | 1 | affc-jaime-07
+  [OUT] FEARS                grey-wind                                  | 1 | asos-catelyn-02
+  [OUT] SPOUSE_OF            robb-stark                                 | 1 | asos-catelyn-03
+  [ IN] SPOUSE_OF            robb-stark                                 | 1 | asos-catelyn-05
+  [OUT] GUEST_OF             catelyn-stark                              | 1 | asos-catelyn-02
+  [OUT] GUEST_OF             jaime-lannister                            | 1 | affc-jaime-07
+  [ IN] SPOUSE_OF            alyn-tarbeck                               | 2 | None
+  [ IN] PARENT_OF            gawen-westerling                           | 2 | None
+  [OUT] HOLDS_TITLE          queen                                      | 2 | None
+  [OUT] SWORN_TO             house-westerling                           | 2 | None
+  [OUT] SWORN_TO             house-stark                                | 2 | None
+  [OUT] CULTURE_OF           westermen                                  | 2 | None
+  [OUT] BORN_AT              crag                                       | 2 | None
+  [ IN] PARENT_OF            sybell-spicer                              | 2 | None
+  [OUT] PARENT_OF            lord-tarbeck-son-of-alyn                   | 2 | None
+  [OUT] PARTICIPATES_IN      siege-of-riverrun                          | 1 | affc-jaime-07
+  [OUT] AGENT_IN             robb-weds-jeyne-westerling                 | 1 | asos-catelyn-02
+  [OUT] HEALS                robb-stark                                 | tier-1 | asos-catelyn-02
+
+--- raynald-westerling  (9 edges) ---
+  [ IN] PROTECTS             robb-stark                                 | 1 | asos-catelyn-06
+  [ IN] PARENT_OF            gawen-westerling                           | 2 | None
+  [OUT] HEIR_TO              lord-of-the-crag                           | 2 | None
+  [OUT] HOLDS_TITLE          ser                                        | 2 | None
+  [OUT] SWORN_TO             house-westerling                           | 2 | None
+  [OUT] CULTURE_OF           westermen                                  | 2 | None
+  [OUT] BORN_AT              crag                                       | 2 | None
+  [OUT] DIED_AT              twins                                      | 2 | None
+  [ IN] PARENT_OF            sybell-spicer                              | 2 | None
+
+--- lord-of-castamere  (7 edges) ---
+  [ IN] HOLDS_TITLE          house-reyne                                | 2 | None
+  [ IN] HOLDS_TITLE          house-spicer                               | 2 | None
+  [ IN] HOLDS_TITLE          lord-reyne                                 | 2 | None
+  [OUT] REGION_OF            westerlands                                | 2 | None
+  [ IN] HOLDS_TITLE          robert-reyne                               | 2 | None
+  [ IN] HOLDS_TITLE          roger-reyne                                | 2 | None
+  [ IN] HOLDS_TITLE          rolph-spicer                               | 2 | None
+
+--- castamere  (8 edges) ---
+  [ IN] RULES                rolph-spicer                               | 2 | None
+  [OUT] RELIGION_OF          faith-of-the-seven                         | 2 | None
+  [ IN] BORN_AT              ellyn-reyne                                | 2 | None
+  [OUT] SEAT_OF              house-reyne                                | 2 | None
+  [OUT] SEAT_OF              house-spicer                               | 2 | None
+  [ IN] DIED_AT              reynard-reyne                              | 2 | None
+  [ IN] BORN_AT              robb-reyne                                 | 2 | None
+  [ IN] DIED_AT              roger-reyne                                | 2 | None
