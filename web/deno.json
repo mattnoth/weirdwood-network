@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "test": "deno test --allow-read src/lib/",
+    "check": "deno check src/lib/mod.ts"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "include": ["src/"]
+  },
+  "lint": {
+    "include": ["src/"]
+  }
+}

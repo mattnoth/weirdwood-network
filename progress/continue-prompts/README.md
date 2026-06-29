@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-29-chat-ui-retrieval-core.md` | 2026-06-29 | Chat-UI alpha — retrieval-core chunk (2nd of 4) | **LIVE** (meta) → fires as **S172** | Sonnet 4.6 | Port the read-only retrieval tools to Deno/TS under `web/src/lib/` (resolve / walkChain / neighbors / readNode), reading the S171 `web/data/` bundle; unit-test vs the bundle (no API). DECISIONS LOCKED S171 (design §0/§9): runtime = Edge Functions (Deno/TS), model = `claude-opus-4-8` swappable, Option A, curated-MVP-first. **DEFER** live `searchChapters`/`readPassage` (need a build-time inverted index for the 50 ms CPU budget). Then function chunk (Opus), then front-end+ship. Read first: `web/README.md` + `web/src/lib/README.md`. |
+| `2026-06-29-chat-ui-function.md` | 2026-06-29 | Chat-UI alpha — function chunk (3rd of 4) | **LIVE** (meta) → fires as **S173** | Sonnet 4.6 | Write the Edge function `web/netlify/edge-functions/chat.ts`: Claude tool-loop over the S172 `web/src/lib/` tools + Bloodraven system prompt + SSE streaming + global spend cap + cite-verification gate. DECISIONS LOCKED S171 (Edge/Deno · `claude-opus-4-8` swappable · Option A · curated-MVP). The only true proof is a local `netlify dev` run, which **spends real API $** → gate on Matt's go-ahead; build + static-validate first. Read first: `web/netlify/edge-functions/README.md` (the spec) + `web/src/lib/README.md`. Then front-end+ship. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 85 files)
+## Archive (`archive/` subfolder — 86 files)
+
+> **`2026-06-29-chat-ui-retrieval-core.md`** — archived S172. **DONE (S172): the retrieval-core chunk (2nd of 4).** Ported the read-only graph tools Python→Deno/TS under `web/src/lib/` — `resolve` (exact alias-map → fuzzy token-overlap fallback), `walkChain` (BFS over CAUSES/TRIGGERS/MOTIVATES, +ENABLES for full), `neighbors`, `readNode` — pure over the in-memory `web/data/` bundle, no Python shell-out / no network / no LLM. 21 deno tests green vs the real bundle; both required assertions pass (`resolve("death of Tywin")`→`assassination-of-tywin-lannister`; `walkChain`→the 7-link featured chain). Live `searchChapters`/`readPassage` DEFERRED (need a build-time inverted index). Installed Deno 2.9.0. Docs flipped (web READMEs + design §0). Superseded as live by `2026-06-29-chat-ui-function.md` (chunk 3 of 4).
 
 > **`2026-06-29-chat-ui-alpha.md`** — archived S171. **DONE (S171): it fired the chat-UI BUILD session.** Ran the §8 step-0 spike → locked RUNTIME = Netlify Edge Functions (Deno/TS) (50 ms = CPU-only, excludes Claude-API wait; 40 s window) + MODEL = `claude-opus-4-8` swappable (persona smoke-test). Confirmed Option A / MVP-then-live with Matt; split the build into **4 chunks**. Built the **Foundation chunk**: `scripts/build-chat-export.py` → `web/data/` 8.8 MB bundle (whole curated graph in memory; Tywin chain verified 7 links) + `web/` scaffold + theme tokens + `netlify.toml`. Superseded as live by `2026-06-29-chat-ui-retrieval-core.md` (chunk 2 of 4).
 
@@ -113,13 +115,16 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (graph-enrichment: next-arc dip · D&E Pass-1: PARKED)
+## Open threads right now (LIVE track: chat-UI alpha build · graph-enrichment + D&E Pass-1: PARKED)
 
-> **All 5 approved containers are spine-complete: `{essos✓, wo5k✓, north✓, aegon✓, bran✓}`.** The graph-enrichment
-> track's live prompt is the next enrichment dip (board-pick the arc first); the D&E Pass-1 track is PARKED. The
-> chat-UI persona track stays parked S123 in `archive/`.
+> **The LIVE track is the chat-UI alpha BUILD** (Matt's job-portfolio demo) — a 4-chunk split: Foundation ✅ S171 →
+> retrieval-core ✅ S172 → **function ⏳ (next, S173)** → front-end+ship. The graph-enrichment track is PARKED behind it
+> (the 🅰 A-roundup CLOSED S167; granular dips planned S168 then parked by Matt for review — `working/granular-dip-plan.md`,
+> opener D2 Hand's Tourney). D&E Pass-1 PARKED. The chat-UI persona-design prompt stays parked S123 in `archive/`. SIFT DEFERRED.
 
-**LIVE (graph): `2026-06-30-granular-dip-planning.md`** — **Granular-dip PLANNING session (fires as S168).** **The 🅰 A-roundup is CLOSED** (S167 — A2.8 Davos/Sam was the LAST unit; **27 major-arc dips total**; graph at **23,328 edges / 8,475 live nodes**). The arc phase is complete — all A1 heavyweights (Dany/Jon/Bran/AEGON S144–147) + A2 build+enrich (Theon/Sansa/Arya S148–150) + the A-roundup (Stannis S155 · Dorne S156 · Euron S157 · Jaime S159 · Tyrion-Essos S161 · WO5K-battles S163/164/166 · Davos/Sam S167) + Class-D D1/D5. **NEXT = the granular PLANNING session** (Matt S130 — the deliberate session between the arc phase and the granular phase): scope the descent into a ranked, graph-grounded dip list (Class-B L2 sub-plots · Class-C character webs [Varys/Petyr/Bloodraven] · Class-D event clusters [Hand's Tourney · Greyjoy Rebellion · Riot of KL] · event-within-container). **STEP 0 = drain the harvest queue (39 open, ≥30 — staged into the planning session per the endsession step-0 rule).** **PLANNING is NOT a dip → NO `/endsession` auto-run; ASK before close-out.** **SIFT track DEFERRED.** D&E Pass-1 PARKED. (**Opus 4.8**)
+**LIVE (meta): `2026-06-29-chat-ui-function.md`** — **Chat-UI alpha FUNCTION chunk (fires as S173).** Write the Edge function `web/netlify/edge-functions/chat.ts`: a Claude tool-loop over the S172 retrieval tools (`web/src/lib/`) + Bloodraven system prompt + SSE streaming + a global daily spend cap + a cite-verification gate. Decisions LOCKED S171 (Edge/Deno · `claude-opus-4-8` swappable · Option A · curated-MVP). Spec: `web/netlify/edge-functions/README.md`. The only true proof is a local `netlify dev` run, which **spends real API $** → gate on Matt's go-ahead; build + static-validate first. Then front-end+ship. (**Sonnet 4.6** to write it.)
+
+**PARKED (graph-enrichment): `working/granular-dip-plan.md`** — the ranked granular-dip list (planned S168, opener D2 Hand's Tourney); restore a dip prompt from there when the chat-UI track unblocks the graph track. Graph at **23,330 edges / 8,475 live nodes**.
 
 **PARKED (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — **PARKED by Matt 2026-06-23** (concurrent-with-enrichment
 was too confusing — revisit when fresh). Harness + v4 prompt DESIGNED S131; nothing run (smoke un-run). When un-parked:

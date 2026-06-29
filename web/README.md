@@ -28,8 +28,8 @@ netlify.toml                    # publish=web/public, edge_functions=web/netlify
 | Theme tokens (dark / soft / dusty-red) | ✅ done | `web/public/theme/tokens.css` |
 | Landing placeholder | ✅ done | `web/public/index.html` |
 | `netlify.toml` (Edge runtime) | ✅ done | `netlify.toml` |
-| Retrieval tools (resolve/walk_chain/read_node/neighbors) | ⏳ next | `web/src/lib/` |
-| Edge function (tool-loop + Bloodraven prompt + streaming + spend cap) | ⏳ | `web/netlify/edge-functions/chat.ts` |
+| Retrieval tools (resolve/walk_chain/read_node/neighbors) | ✅ done (S172) | `web/src/lib/` — `deno task test` (21 green) |
+| Edge function (tool-loop + Bloodraven prompt + streaming + spend cap) | ⏳ next | `web/netlify/edge-functions/chat.ts` |
 | Front-end (chat thread, static Tywin exchange, typed-edge receipts) | ⏳ | `web/public/` |
 | live `search_chapters` / `read_passage` | ⏳ fast-follow | — |
 

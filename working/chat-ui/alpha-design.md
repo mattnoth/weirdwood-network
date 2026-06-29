@@ -31,7 +31,8 @@ scope = **curated-MVP first, live search fast-follow** (Matt-confirmed).
 | `netlify.toml` (Edge runtime + build) | ✅ DONE (S171) | `netlify.toml` | publish=web/public, /api/chat → chat |
 | Landing page (placeholder) | ✅ DONE (S171) | `web/public/index.html` | title/tagline/about render on theme |
 | Streaming transport (Edge vs sync) | ✅ DECIDED (S171) | Edge (Deno) — `netlify.toml` | spike: CPU-excludes-waiting, 40 s window |
-| Retrieval tools (resolve / walk_chain / neighbors / read_node / search_chapters / read_passage) | ⏳ NEXT (retrieval-core) | `web/src/lib/` | tools return correct typed-edge JSON |
+| Retrieval tools (resolve / walk_chain / neighbors / read_node) | ✅ DONE (S172) | `web/src/lib/` | 21 Deno tests green vs the real bundle; resolve("death of Tywin")→assassination-of-tywin-lannister, walkChain→7-link chain |
+| Live search tools (search_chapters / read_passage) | ⏳ fast-follow | `web/src/lib/` | needs a build-time inverted index (deferred — curated MVP uses graph quotes) |
 | Agentic tool loop + bounding | ⏳ (function chunk) | `web/netlify/edge-functions/chat.ts` | local `netlify dev` answers "who killed Tywin?" |
 | Bloodraven system prompt | ⏳ (function chunk) | `chat.ts` | matches demo richness on full grounding |
 | Persona + faithfulness eval | ⏳ (function chunk) | — | emitted cites verified to exist before present |
@@ -209,9 +210,16 @@ as broken to an uninitiated visitor.
   mapped" empty state reframed positively in chrome ("The graph doesn't have a chain here yet — here's what I do
   have:"); (3) error, cost-cap-tripped, and API timeout states; (4) mobile layout.
 - Footer disclaimer (see §7).
-- **About page (SECONDARY, Matt S168):** a page that's basically the project README — what the Weirwood Network is,
-  how it's built (graph + cited quotes + book-grounded retrieval), the fan-project disclaimer. Lower priority than
-  the chat itself; build after the core works.
+- **About / "how it works" page — an EXPANDED design-philosophy document (Matt S168 → broadened S172):** more than a
+  README blurb — a readable design document explaining the data model itself: what the Weirwood Network IS (entities →
+  typed **nodes**; the **trust/tier gap** — Tier-1 book-cited vs Tier-2 wiki vs interpretive, and why that distinction
+  is load-bearing; typed **edges** + the causal-chain model; how `resolve`/`walkChain`/`neighbors` retrieval works; the
+  receipts/"chain walked" contract). This is the **portfolio-legibility surface** — it shows a hiring reader the real
+  engineering under the prose, not an LLM freestyling. **Pair it with showing the graph AS the chat works** (Matt S172):
+  the featured Tywin causal chain should carry far more detail — per-link evidence quotes + tiers, the full
+  upstream+downstream walk, beat expansion — so the design doc and a live exchange reinforce each other. See §"The
+  chains themselves can be enriched" below for the per-link drill-in. Lower priority than the chat itself; build after
+  the core works (front-end chunk or later). Backlog: `worklog.md` Ideas & Backlog (MEDIUM, S172).
 
 ### The chains themselves can be enriched (Matt, S168)
 The Tywin chain shown in the mockups is real but terse. The underlying causal chains can surface **a lot more
