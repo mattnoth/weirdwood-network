@@ -1,7 +1,7 @@
 # Worklog archive 035
 
 > Archived Session Log entries from `worklog.md` (graph + meta track), oldest-batch-out per CLAUDE.md rule #8.
-> This file holds up to 5 entries. First entry: Session 167 (archived 2026-06-29, S172).
+> This file holds up to 5 entries. First entry: Session 167 (archived 2026-06-29, S172). Then: Session 168 (archived 2026-06-29, S173).
 
 ---
 
@@ -18,3 +18,15 @@
 - **HARVEST:** the 3 lenses pushed **18 high-value rows** (`S167 davos-sam-residual`: Sister's stew + pepper hoard + shipboard/voyage food, Stannis-after-Blackwater + Davos-incognito + Coldhands appearances, White Harbor + Fishfoot Yard + Wolf's Den places, Iron Throne + Mormont true-purpose + Marwyn-on-dragons quotes, glass-candle object, Skagos-reputation foreshadow, the R+L=J-context Jon-Snow-name-origin flagged theory-gated). **Open-row count 21→39 — OVER the ~30 drain threshold → drain due (see What's next).**
 **Decisions:** none new (applied existing policy). The honest-whodunit principle held (0 SUSPECTED_OF where the text is overt). Process note: the fresh-verify's source/target repoints (D4→melisandre, D15→ramsay) are the gate working as designed — the orchestrator proposed event/Warden targets; the independent verifier corrected them to what the quote actually supports.
 **What's next:** **the 🅰 A-roundup is CLOSED.** Next session is the **granular-dip PLANNING session** (Matt S130 — scope the L2 / character / event-within-container dip list), **NOT another arc dip**. Live prompt `progress/continue-prompts/2026-06-30-granular-dip-planning.md`. **Harvest queue at 39 open (≥30) → drain due** (endsession step 0): either drained this session or the planning session opens with a drain. **D&E Pass-1 still PARKED. SIFT still DEFERRED.**
+
+---
+
+### Session 168 — Granular-dip planning + chat-UI alpha scoped (the post-A-roundup pivot) — [Track: meta] (2026-06-29)
+**Detail:** chat-UI design discussion captured in `working/chat-ui/alpha-design.md` (no separate session-details file).
+**Model:** Opus 4.8 orchestrator + 5× Sonnet 4.6 fan-out (4 harvest attachers + 1 fresh-verify). Parallel-safe w/ PARKED D&E; staged by path.
+**Changes made:**
+- **STEP 0 — harvest drain 39 open → 0** (38 done / 1 parked): S152/S162/S165 disjoint-dir machine — 4 parallel Sonnet attachers on disjoint node-dirs (foods / characters / locations+artifacts+concepts / events+houses+customs), node-prose only; orchestrator central-flip. **+2 FORESHADOWS edges** minted centrally (`grey-wind` + `roslin-frey` → `red-wedding`; edges 23,328→**23,330**). Row 1016 no-op (edge already existed); **row 1018 PARKED** (cite `affc-jaime-05:101` doesn't support the `gawen-westerling PRISONER_OF jason-mallister` claim — never mint an unverified edge). Fresh-verify 11C/1-cite-fix (roslin :151→:153); ~6 cite-drifts caught at attach. No new nodes → no index rebuild.
+- **Granular-dip PLANNING done** → `working/granular-dip-plan.md` (ranked, graph-grounded census). Overturned 3 stale coverage-plan notes: B6 `REFORGED_INTO` now has 2 instantiations (not 0); B5 `antler-men` is a DUP; D3 `greyjoy-rebellion`/`greyjoys-rebellion` dup still live. Density drift recorded (Varys 65, Petyr 121/1, Bloodraven 26, Euron 52). Opener = **D2 Hand's Tourney** (no-build WIRE+ENRICH).
+- **PIVOT (Matt): chat-UI alpha for his JOB PORTFOLIO** is now a LIVE track (overrides the old "chat is stale sketch" framing; memory `project_real_goal_graph_for_agents` updated). Scoped: Netlify + serverless fn holds the API key · Bloodraven persona (notes as-is) · graph + curated `## Quotes` + a **live `search_chapters` grep tool** (no embeddings) · modern/simple **dark-default soft-weirwood** theme (themeable token layer) · **typed-edge "chain walked"** receipts · Tywin chain as featured landing · about page (secondary) · the **self-curating quote loop** (log live fetches → mint → eventually drop the bundled book text). Design doc `working/chat-ui/alpha-design.md`; continue prompt created.
+**Decisions:** Granular phase HELD by Matt (plan parked for review). Chat-UI alpha greenlit as the live track, **built by a FRESH session, not this one** (Matt). Copyright = non-blocker (fan project, wiki precedent, footer disclaimer); not "parody". Model open (Sonnet 4.6 vs Opus 4.8 — smoke-test the persona).
+**What's next:** **chat-UI alpha BUILD** (fresh session) → `progress/continue-prompts/2026-06-29-chat-ui-alpha.md` (`/continue chat-ui-alpha`), Opus 4.8. Parked: granular dips (`working/granular-dip-plan.md`, D2 opener), D&E Pass-1, SIFT.

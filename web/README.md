@@ -29,7 +29,7 @@ netlify.toml                    # publish=web/public, edge_functions=web/netlify
 | Landing placeholder | ✅ done | `web/public/index.html` |
 | `netlify.toml` (Edge runtime) | ✅ done | `netlify.toml` |
 | Retrieval tools (resolve/walk_chain/read_node/neighbors) | ✅ done (S172) | `web/src/lib/` — `deno task test` (21 green) |
-| Edge function (tool-loop + Bloodraven prompt + streaming + spend cap) | ⏳ next | `web/netlify/edge-functions/chat.ts` |
+| Edge function (tool-loop + Bloodraven prompt + streaming + spend cap + cite-gate) | ✅ done (S173) | `web/netlify/edge-functions/chat.ts` + `agent.ts` — `deno task test` (27 green), `check:fn` clean; **live `netlify dev` proof gated on Matt** |
 | Front-end (chat thread, static Tywin exchange, typed-edge receipts) | ⏳ | `web/public/` |
 | live `search_chapters` / `read_passage` | ⏳ fast-follow | — |
 

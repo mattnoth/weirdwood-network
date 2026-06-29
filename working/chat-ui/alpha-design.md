@@ -33,11 +33,11 @@ scope = **curated-MVP first, live search fast-follow** (Matt-confirmed).
 | Streaming transport (Edge vs sync) | ✅ DECIDED (S171) | Edge (Deno) — `netlify.toml` | spike: CPU-excludes-waiting, 40 s window |
 | Retrieval tools (resolve / walk_chain / neighbors / read_node) | ✅ DONE (S172) | `web/src/lib/` | 21 Deno tests green vs the real bundle; resolve("death of Tywin")→assassination-of-tywin-lannister, walkChain→7-link chain |
 | Live search tools (search_chapters / read_passage) | ⏳ fast-follow | `web/src/lib/` | needs a build-time inverted index (deferred — curated MVP uses graph quotes) |
-| Agentic tool loop + bounding | ⏳ (function chunk) | `web/netlify/edge-functions/chat.ts` | local `netlify dev` answers "who killed Tywin?" |
-| Bloodraven system prompt | ⏳ (function chunk) | `chat.ts` | matches demo richness on full grounding |
-| Persona + faithfulness eval | ⏳ (function chunk) | — | emitted cites verified to exist before present |
-| Cost cap (global daily ceiling + per-request bounds) | ⏳ (function chunk) | `chat.ts` + Netlify Blobs/KV | ceiling trips → graceful state |
-| Prompt caching | ⏳ (function chunk) | `chat.ts` | cache_read_input_tokens > 0 on repeat |
+| Agentic tool loop + bounding | ✅ DONE (S173) | `web/netlify/edge-functions/agent.ts` (loop) + `chat.ts` (SDK/SSE) | 6 stubbed-client tests green (resolve→read→walk→answer, no-grounding, loop-bound); `check:fn` clean; **live `netlify dev` proof gated on Matt** |
+| Bloodraven system prompt | ✅ DONE (S173) | `agent.ts` `SYSTEM_PROMPT` | persona notes baked verbatim; full beat-level grounding via rich (untruncated) tool returns |
+| Persona + faithfulness eval (cite-verification gate) | ✅ DONE (S173) | `agent.ts` `verifyCites`/`harvestResult` | gate flags any prose cite not returned by the tools this turn; test asserts fabricated cite caught, real cite passes |
+| Cost cap (global daily ceiling + per-request bounds) | ✅ DONE (S173) | `chat.ts` + Netlify Blobs (`spend-YYYY-MM-DD`) | pre-check trips → `cost-cap-tripped` SSE; per-request `max_tokens` 4096 + 6-iteration bound; Blobs-absent (local) degrades gracefully |
+| Prompt caching | ✅ DONE (S173) | `chat.ts` `SYSTEM_BLOCKS` `cache_control` | stable persona+tools prefix cached; `cache_read_input_tokens > 0` verifiable only in the live run |
 | Live-quote telemetry feed | ⏳ (with live search) | — | logs each live quote fetch |
 | Chat page (thread + tool-gathering trace) | ⏳ (front-end chunk) | `web/public/` | streams reply + trace |
 | Featured Tywin exchange (static transcript) | 🟡 DATA DONE (S171) | `web/data/featured-tywin.json` | render pending (front-end chunk) |

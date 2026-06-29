@@ -1,0 +1,360 @@
+// Agent core for the Bloodraven loremaster chat — the SDK-free, testable half of
+// the function chunk (S173). chat.ts wires this to the Anthropic SDK + Netlify;
+// everything here is pure logic over the bound retrieval tools so it can be
+// driven by a stubbed model in `deno test` (no API spend, no network).
+//
+// What lives here: the Bloodraven system prompt (persona notes baked in verbatim),
+// the four tool definitions, the streaming tool-loop, the cite-verification gate,
+// and the cost estimate. What lives in chat.ts: the real Anthropic client, the
+// SSE Response, request parsing, and the durable spend cap.
+
+import type { Tools } from "../../src/lib/mod.ts";
+
+// ---- Wire types (a minimal local shape so this module never imports the SDK) ----
+
+/** A tool_use block as it arrives in an assistant turn. */
+export interface ToolUseBlock {
+  type: "tool_use";
+  id: string;
+  name: string;
+  input: Record<string, unknown>;
+}
+
+/** Any assistant content block. We only introspect tool_use; the rest pass through
+ *  opaque (text, and — with adaptive thinking on — thinking blocks that MUST be
+ *  echoed back unchanged on the next turn, which pushing the whole array preserves). */
+export type ContentBlock = ToolUseBlock | { type: string; [k: string]: unknown };
+
+/** A message in the conversation we resend each turn (the API is stateless). */
+export interface ChatMessage {
+  role: "user" | "assistant";
+  content: string | ContentBlock[];
+}
+
+/** What one model turn returns once its stream is drained. */
+export interface TurnResult {
+  content: ContentBlock[];
+  stopReason: string | null;
+  usage: { input: number; output: number };
+}
+
+/** Run one model turn. Streams prose via `onText` (deltas) and resolves with the
+ *  final message. chat.ts implements this over client.messages.stream(); tests
+ *  pass a canned stub. */
+export type RunTurn = (
+  messages: ChatMessage[],
+  onText: (delta: string) => void,
+) => Promise<TurnResult>;
+
+/** SSE event sink. chat.ts enqueues these onto the response stream. */
+export type Emit = (event: SseEvent, data: unknown) => void;
+
+export type SseEvent = "status" | "token" | "receipt" | "cite-check" | "error" | "done";
+
+// ---- Tuning constants ----
+
+/** Hard ceiling on tool round-trips per question — a runaway-loop backstop. */
+export const MAX_TOOL_ITERATIONS = 6;
+
+/** Per-1M-token pricing by model (USD). Used for the daily spend estimate. */
+export const PRICING: Record<string, { input: number; output: number }> = {
+  "claude-opus-4-8": { input: 5, output: 25 },
+  "claude-sonnet-4-6": { input: 3, output: 15 },
+};
+
+// ---- The Bloodraven system prompt ----
+//
+// Persona notes (working/chat-ui/bloodraven-persona-notes.md) baked in verbatim:
+// the golden lines, the "tidbit, don't volunteer" rule, and the flagged
+// anti-patterns are Matt's explicit calibration calls. The tool/grounding/cite
+// rules below them are the function-chunk contract. Kept stable (no interpolation)
+// so it caches as a prefix.
+export const SYSTEM_PROMPT =
+  `You are Brynden Rivers — called Bloodraven — answering a visitor's questions about the world of A Song of Ice and Fire. You answer from a structured knowledge graph of the books, reached through the tools described below.
+
+# Who you are
+- You are Bloodraven, but you NEVER announce it. No "I am Bloodraven." Your opener, when you greet at all, is bare: "Ask your questions…" — and nothing more.
+- Very dry, terse, undertone. Little personality on the surface. Flat declaratives. No flourish for its own sake.
+- Honest about gaps. When the text holds no scene, say so plainly rather than inventing one — this restraint is the point, not a failing to apologize for.
+- Symbolism is allowed but kept undertone. A single quiet image lands; a paragraph of it does not. One image, then stop.
+
+# The "tidbit, don't volunteer" rule
+- Do NOT offer your own biography, service, or résumé. Never "I served Aerys and Maekar," never a list of your offices. That breaks the spell.
+- You MAY drop a LIGHT tidbit about someone you personally knew — as a hook, then stop: "When I knew him, he was…" — and leave it there. The visitor must ASK to get more. If they don't ask, it stays unmentioned.
+- Your personal connection surfaces as character insight about OTHERS, never as self-report about yourself.
+- Right: (only if Daeron II comes up) "Daeron. The Good, they named him. Gentler than his father — and it cost him." …then silence unless asked.
+- Wrong: "I served as Hand to the two kings after my half-brother." (résumé — volunteered)
+
+# Calibration anchors (the voice that lands)
+- "So: he was with a direwolf, and otherwise no one. The text gives you a man's grief, not the giving of the news."
+- "the dragon's line unbroken for seventeen kings, then taken by a warhammer at the Trident and passed to a stag."
+
+# Anti-patterns — do NOT do these
+- No meta or provenance editorializing to the visitor. Never narrate that a fact is "recorded" or "not my reckoning" or where it came from. Provenance stays invisible in your voice — the interface shows sources, you do not. This kind of line kills an ending; do not write it.
+- No over-cute, obscure references that need a footnote. Not "The Unworthy got me." A casual visitor cannot parse a riddle.
+- Do not pile on symbolism; one image, then stop.
+
+# How you reach the text — tools
+You have read-only tools over the graph. Use them; do not answer from memory when a tool can ground the answer. A grounded, specific answer is the whole value here.
+- resolve(phrase): turn a name or phrase ("death of Tywin", "Jon Snow") into candidate node slugs. Call this FIRST to find the right node before any other tool.
+- read_node(slug): a node's name, type, a short identity summary, and its curated book quotes (each with a chapter:line citation). Call this to get real book lines and the gist of an entity or event.
+- walk_chain(slug): the causal chain through an event — what led to it (upstream) and what it caused (downstream), as typed links (CAUSES / TRIGGERS / MOTIVATES), each with its own evidence quote and citation. Call this for "why" and "what happened because of" questions about an event. Pass full=true to also follow ENABLES preconditions for a fuller spine.
+- neighbors(slug): everything directly connected to a node, grouped by relationship. Call this for "who is connected to / related to X" questions that are not a causal chain.
+
+Work in steps: resolve the phrase, read the node, walk or fan out as the question needs. Prefer one or two well-chosen calls over many.
+
+# Quoting and citations — strict
+- A book line is ONLY the verbatim text a tool returns as a quote (read_node quotes, or a link's evidence quote), and it always carries a chapter:line citation. That text — and only that text — may be quoted verbatim.
+- A node's identity summary and any other returned prose is CONTEXT, not a book line. Never present context as a quotation and never attach a citation to it.
+- NEVER invent a chapter:line citation. Only ground in locations the tools actually returned this turn. If you have no quote for a claim, state it plainly without one.
+- Keep citations out of your spoken voice (that is provenance editorializing — see the anti-patterns). The interface surfaces sources beside your answer; you do not narrate them.
+
+# When the text is silent
+If the tools return nothing, or nothing that answers the question, say so plainly in your voice — the graph not holding a scene is the honest answer. Do not invent a moment that is not there.`;
+
+/** The four tools, in the Anthropic tool-definition shape. Stable (cacheable). */
+export const TOOL_DEFS = [
+  {
+    name: "resolve",
+    description:
+      'Resolve a name or natural-language phrase (e.g. "death of Tywin", "Jon Snow") to candidate node slugs in the graph. Call this FIRST to find the right node before reading or walking it.',
+    input_schema: {
+      type: "object",
+      properties: {
+        phrase: { type: "string", description: "The name or phrase to resolve." },
+      },
+      required: ["phrase"],
+    },
+  },
+  {
+    name: "read_node",
+    description:
+      "Read a node by slug: its name, type, a short identity summary, and its curated book quotes (each with a chapter:line citation). Call this to get real, quotable book lines and the gist of an entity or event.",
+    input_schema: {
+      type: "object",
+      properties: {
+        slug: { type: "string", description: "The kebab-case node slug from resolve()." },
+      },
+      required: ["slug"],
+    },
+  },
+  {
+    name: "walk_chain",
+    description:
+      'Walk the causal chain through an event node: upstream causes and downstream consequences as typed links (CAUSES / TRIGGERS / MOTIVATES), each with an evidence quote and citation. Call this for "why did X happen" and "what did X cause" questions. Pass full=true to also follow ENABLES preconditions.',
+    input_schema: {
+      type: "object",
+      properties: {
+        slug: { type: "string", description: "The event node slug." },
+        full: {
+          type: "boolean",
+          description: "Also follow ENABLES preconditions for a fuller spine.",
+        },
+      },
+      required: ["slug"],
+    },
+  },
+  {
+    name: "neighbors",
+    description:
+      'List everything directly connected to a node, grouped by relationship type and direction. Call this for "who/what is connected to X" questions that are not a causal chain.',
+    input_schema: {
+      type: "object",
+      properties: {
+        slug: { type: "string", description: "The node slug." },
+      },
+      required: ["slug"],
+    },
+  },
+];
+
+// ---- Tool dispatch ----
+
+/** Route one tool_use to the bound retrieval tool. The tools self-validate
+ *  (invalid slug/phrase → empty result), so this is the trust boundary's
+ *  far side: bad input yields data, never an exception. */
+export function dispatchTool(
+  name: string,
+  input: Record<string, unknown>,
+  tools: Tools,
+): unknown {
+  const slug = typeof input.slug === "string" ? input.slug : "";
+  switch (name) {
+    case "resolve":
+      return tools.resolve(typeof input.phrase === "string" ? input.phrase : "");
+    case "read_node":
+      return tools.readNode(slug);
+    case "walk_chain":
+      return tools.walkChain(slug, { full: input.full === true });
+    case "neighbors":
+      return tools.neighbors(slug);
+    default:
+      return { error: `unknown tool: ${name}` };
+  }
+}
+
+// ---- Grounding + cite collection (the cite-verification gate) ----
+
+/** Pull every citation (node-quote `cite`, link `ref`) out of a tool result into
+ *  the allowlist, and count how much real evidence the turn surfaced. A turn that
+ *  only resolved names contributes 0 grounding (resolve carries no evidence). */
+export function harvestResult(
+  result: unknown,
+  validCites: Set<string>,
+): number {
+  let grounding = 0;
+  if (!result || typeof result !== "object") return 0;
+  const r = result as Record<string, unknown>;
+
+  // read_node → { quotes: [{ cite }] }
+  if (Array.isArray(r.quotes)) {
+    for (const q of r.quotes as Array<Record<string, unknown>>) {
+      if (typeof q.cite === "string" && q.cite) validCites.add(q.cite);
+      grounding++;
+    }
+  }
+
+  // walk_chain → { upstream: [{ ref }], downstream: [{ ref }] }
+  for (const key of ["upstream", "downstream"] as const) {
+    if (Array.isArray(r[key])) {
+      for (const link of r[key] as Array<Record<string, unknown>>) {
+        if (typeof link.ref === "string" && link.ref) validCites.add(link.ref);
+        grounding++;
+      }
+    }
+  }
+
+  // neighbors → { outgoing: { TYPE: [{ ref }] }, incoming: {...} }
+  for (const key of ["outgoing", "incoming"] as const) {
+    const groups = r[key];
+    if (groups && typeof groups === "object") {
+      for (const links of Object.values(groups as Record<string, unknown>)) {
+        if (Array.isArray(links)) {
+          for (const link of links as Array<Record<string, unknown>>) {
+            if (typeof link.ref === "string" && link.ref) validCites.add(link.ref);
+            grounding++;
+          }
+        }
+      }
+    }
+  }
+
+  return grounding;
+}
+
+// A chapter:line citation token, e.g. "sources/chapters/asos/asos-sansa-05.md:45"
+// or a bare "asos-sansa-05.md:45". Used to find cites the model emitted in prose.
+const CITE_RE = /(?:sources\/chapters\/)?[\w/-]+\.md:\d+/gi;
+
+/** The gate: any chapter:line the model wrote in prose that the tools did NOT
+ *  return this turn is unverified — a fabricated citation. The interface keeps
+ *  cites out of the spoken voice, so this is a safety net; chat.ts emits the
+ *  result on the `cite-check` channel for the receipts panel / dev view. */
+export function verifyCites(prose: string, validCites: Set<string>): string[] {
+  const seen = new Set<string>();
+  const unverified: string[] = [];
+  for (const m of prose.matchAll(CITE_RE)) {
+    const cite = m[0];
+    if (seen.has(cite)) continue;
+    seen.add(cite);
+    if (!validCites.has(cite)) unverified.push(cite);
+  }
+  return unverified;
+}
+
+// ---- Cost estimate ----
+
+/** USD estimate for one request's token usage at a model's rates. */
+export function estimateCostUsd(
+  usage: { input: number; output: number },
+  model: string,
+): number {
+  const rate = PRICING[model] ?? PRICING["claude-opus-4-8"];
+  return (usage.input / 1_000_000) * rate.input + (usage.output / 1_000_000) * rate.output;
+}
+
+// ---- The tool loop ----
+
+export interface AgentResult {
+  usage: { input: number; output: number };
+  toolCalls: number;
+  grounding: number;
+  unverifiedCites: string[];
+  stopState: "end_turn" | "loop-bound-hit" | "refusal" | "other";
+}
+
+/**
+ * Drive the Bloodraven turn: stream prose, run tool calls, emit receipts, and
+ * gate citations. `runTurn` abstracts the model (real SDK in chat.ts, stub in
+ * tests). `tools` is the bound retrieval set. `emit` writes SSE events.
+ *
+ * Receipts are emitted from the tool RETURNS (structured typed-edge JSON), on a
+ * channel separate from the streamed prose — the panel renders from these, not
+ * by parsing narration (design §3).
+ */
+export async function runAgent(
+  messages: ChatMessage[],
+  tools: Tools,
+  runTurn: RunTurn,
+  emit: Emit,
+): Promise<AgentResult> {
+  const validCites = new Set<string>();
+  let prose = "";
+  let toolCalls = 0;
+  let grounding = 0;
+  const usage = { input: 0, output: 0 };
+  let stopState: AgentResult["stopState"] = "other";
+
+  for (let i = 0; i < MAX_TOOL_ITERATIONS; i++) {
+    const turn = await runTurn(messages, (delta) => {
+      prose += delta;
+      emit("token", { text: delta });
+    });
+    usage.input += turn.usage.input;
+    usage.output += turn.usage.output;
+    messages.push({ role: "assistant", content: turn.content });
+
+    if (turn.stopReason !== "tool_use") {
+      stopState = turn.stopReason === "end_turn"
+        ? "end_turn"
+        : turn.stopReason === "refusal"
+        ? "refusal"
+        : "other";
+      break;
+    }
+
+    // Execute every tool_use in this assistant turn; one tool_result per call.
+    const toolUses = turn.content.filter(
+      (b): b is ToolUseBlock => b.type === "tool_use",
+    );
+    const results: ContentBlock[] = [];
+    for (const tu of toolUses) {
+      toolCalls++;
+      const out = dispatchTool(tu.name, tu.input, tools);
+      grounding += harvestResult(out, validCites);
+      emit("receipt", { tool: tu.name, input: tu.input, result: out });
+      results.push({
+        type: "tool_result",
+        tool_use_id: tu.id,
+        content: JSON.stringify(out),
+      });
+    }
+    messages.push({ role: "user", content: results });
+
+    if (i === MAX_TOOL_ITERATIONS - 1) {
+      stopState = "loop-bound-hit";
+      emit("status", { state: "loop-bound-hit" });
+    }
+  }
+
+  const unverifiedCites = verifyCites(prose, validCites);
+  emit("cite-check", { unverified: unverifiedCites, validCount: validCites.size });
+  if (unverifiedCites.length > 0) {
+    emit("status", { state: "unverified-cites", cites: unverifiedCites });
+  }
+  if (grounding === 0) {
+    emit("status", { state: "no-grounding" });
+  }
+
+  return { usage, toolCalls, grounding, unverifiedCites, stopState };
+}
