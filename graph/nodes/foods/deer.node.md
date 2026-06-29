@@ -70,3 +70,8 @@ The roof of [Mance Rayder](wiki:Mance_Rayder)'s tent is crowned with a set of a 
 ### A Dance with Dragons
 
 - (Bran II, ADWD — `sources/chapters/adwd/adwd-bran-02.md:65`) GRIM: twelve days since the great elk collapsed; Coldhands slit its throat so they could eat. "Bran wept like a little girl when the bright blood came rushing out" — elk consumed twice before the chapter opens.
+- (Davos IV, ADWD — `sources/chapters/adwd/adwd-davos-04.md:93`) Venison as feast dish: in the Merman's Court, Lord Wyman Manderly's welcome feast for his returned son Wylis serves "lamprey pie and venison with roasted chestnuts" — the noisy decoy banquet Wyman stages for the Freys while he secretly treats with Davos below. (See also `lamprey-pie`.)
+
+> In the Merman's Court they are eating lamprey pie and venison with roasted chestnuts.
+
+— ADWD (Davos IV), `sources/chapters/adwd/adwd-davos-04.md:93` · Wyman Manderly describing his decoy feast for the Freys.  _(capture: harvest pass, food)_

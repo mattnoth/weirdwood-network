@@ -37,6 +37,10 @@ Lothar has served as his father's steward at the [Twins](wiki:Twins) for twelve 
 
 Lothar is plump, portly, and soft-bodied, with close-set eyes, a pointed beard, and dark hair in ringlets to his shoulders. He is intelligent, cunning, and well-spoken. His nickname derives from a leg twisted at birth.(wiki:Lothar_Frey.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) According to [Merrett Frey](wiki:Merrett_Frey), Lothar is more dangerous than most other members of [House Frey](wiki:House_Frey).(wiki:Lothar_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
+> A plump man in his middle thirties, Lothar Frey had close-set eyes, a pointed beard, and dark hair that fell to his shoulders in ringlets. A leg twisted at birth had earned him the name Lame Lothar.
+>
+> — Catelyn's POV, ASOS Catelyn IV (`sources/chapters/asos/asos-catelyn-04.md:69`)
+
 ## Narrative Arc
 
 ### A Storm of Swords

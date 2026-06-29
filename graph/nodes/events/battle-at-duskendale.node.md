@@ -60,3 +60,11 @@ The northmen are buried in a common grave by the sea marked only by a wooden sig
 > "Harrion Karstark was captive here when we took the castle, did you know? I gave him all the Karhold men still with me and sent him off with Glover. I do hope nothing ill befell him at Duskendale . . . else Alys Karstark would be all that remains of Lord Rickard's progeny."
 
 > —[Roose Bolton](roose-bolton) to [Jaime Lannister](jaime-lannister), ASOS Jaime V (`sources/chapters/asos/asos-jaime-05.md:129`) — book-cite (S166). Roose's own chilling account: he dispatched the *rival* Karstark men with Glover toward Duskendale, then voices a soft, false concern for them. The strongest in-text basis for `roose-bolton SUSPECTED_OF battle-at-duskendale` — the deliberate spending of Stark-loyal northmen ahead of his defection.
+
+> "Duskendale, on the narrow sea? Why would they go to Duskendale?" He'd shook his head, bewildered. "A third of my foot, lost for Duskendale?"
+
+— Robb Stark, on learning of the defeat, as recalled in Catelyn Stark's POV, ASOS Catelyn IV (`sources/chapters/asos/asos-catelyn-04.md:91`) — book-cite overlay (harvest row 1004); the non-authorization evidence — Robb's bewilderment that his foot went to Duskendale at all, since he never ordered the march there. (Wiki Quotes section carries a near-identical line cited to ASOS 35 / Galbart Glover; this is the direct book-text instance in Catelyn's POV.)
+
+> "A folly," Lord Bolton agreed, "but Glover was heedless after he learned that Deepwood Motte had fallen. Grief and fear will do that to a man."
+
+— Roose Bolton to Robb Stark, the eve of the Red Wedding, Catelyn Stark POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:293`) — book-cite overlay (harvest row 1007); Roose's self-exculpatory framing, pinning the disastrous march on Robett Glover's grief-driven recklessness rather than his own orders. (Wiki Quotes section carries this cited to ASOS 49; this is the direct book-text instance.)

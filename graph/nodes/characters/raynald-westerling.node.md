@@ -31,6 +31,10 @@ Raynald is young and lean, with a thick mop of chestnut hair and a bushy mustach
 
 Raynald is a cheerful [knight](wiki:Knight).(wiki:Raynald_Westerling.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
+> The seashell knight smiled beneath a bushy mustache. Young, lean, rough-hewn, he had good teeth and a thick mop of chestnut hair.
+>
+> — Catelyn's POV, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:95`)
+
 ## Narrative Arc
 
 ### A Storm of Swords

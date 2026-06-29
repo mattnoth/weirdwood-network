@@ -36,6 +36,12 @@ Jeyne is a pretty girl.(wiki:Jeyne_Westerling.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7
 
 Although she is shy, Jeyne is polite and caring.(wiki:Jeyne_Westerling.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)(wiki:Jeyne_Westerling.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)(wiki:Jeyne_Westerling.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) [Kevan Lannister](wiki:Kevan_Lannister) thought she was a sweet child,(wiki:Jeyne_Westerling.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) and [Jaime Lannister](wiki:Jaime_Lannister) thinks that as an adolescent, Jeyne is more awkward than graceful.(wiki:Jeyne_Westerling.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 
+When Jaime interviews her at Riverrun after the [siege](wiki:Siege_of_Riverrun), her grief leaves visible marks:
+
+> Her face was puffy, and there was a scab on her forehead, half-hidden by a lock of brown hair.
+>
+> — Jaime's POV, AFFC Jaime VII (`sources/chapters/affc/affc-jaime-07.md:69`) · the scab is from the fight with [Sybell Spicer](wiki:Sybell_Spicer) over Robb's crown
+
 ## Narrative Arc
 
 ### A Game of Thrones

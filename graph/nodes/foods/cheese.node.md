@@ -78,3 +78,7 @@ The dungeons of [Riverrun](wiki:Riverrun) were not the cleanest place in the [Se
 > Maester Vyman returned at evenfall to minister to Lord Tully and bring Catelyn a modest supper of bread, cheese, and boiled beef with horseradish.
 >
 > — sources/chapters/asos/asos-catelyn-01.md:81 · Catelyn under house-watch at Riverrun; Maester Vyman brings a plain domestic supper — cheese as part of a humble care-giving meal while Hoster Tully lies dying.  _(capture: harvest pass, food)_
+
+> "And bring white cheese and a bowl of those cracked green olives we counted earlier!"
+>
+> — sources/chapters/asos/asos-davos-02.md:49 · Salladhor Saan's hospitality to the rescued, half-drowned Davos aboard the Pentoshi merchanter — white cheese and cracked green olives served alongside hot spiced wine; Lyseni guest-fare offered to a friend believed dead.  _(capture: harvest pass, food)_

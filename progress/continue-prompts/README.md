@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-29 (refreshed after S167)  
+**Generated:** 2026-06-29 (refreshed after S168)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-30-granular-dip-planning.md` | 2026-06-30 | Granular-dip PLANNING session (🅰 A-roundup CLOSED) | **LIVE** (graph) → fires as **S168** | Opus 4.8 | The 🅰 A-roundup is CLOSED (S167 — A2.8 Davos/Sam was the last unit; 27 major-arc dips). PLANNING session, NOT a dip: scope the granular tier (Class-B L2 sub-plots / Class-C character webs / Class-D event clusters / event-within-container) into a ranked, graph-grounded dip list. **STEP 0 = drain the harvest queue (39 open, ≥30).** Confirm before `/endsession` (not a dip → no auto-run). |
+| `2026-06-29-chat-ui-alpha.md` | 2026-06-29 | Chat-UI alpha (Bloodraven loremaster) — Matt's job-portfolio demo | **LIVE** (meta) → fires as **S169** | Opus 4.8 | Build a deployable ASOIAF chat over the graph: Netlify + serverless fn (holds the API key) · Bloodraven persona (notes as-is) · graph + curated `## Quotes` + a **live `search_chapters` grep tool** (no embeddings) · modern/simple dark-default soft-weirwood theme (themeable) · typed-edge "chain walked" receipts · Tywin chain featured landing · about page (secondary) · self-curating quote loop. **Built by a FRESH session, not the scoping one (Matt).** Design `working/chat-ui/alpha-design.md`. Resolve design §9 opens + confirm architecture with Matt before building/deploying. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 83 files)
+## Archive (`archive/` subfolder — 84 files)
+
+> **`2026-06-30-granular-dip-planning.md`** — archived S168. **DONE (S168): the granular-dip PLANNING session.** STEP 0 drained the harvest queue 39→0 (+2 FORESHADOWS edges → 23,330). Produced the ranked, graph-grounded granular-dip plan → `working/granular-dip-plan.md` (opener = D2 Hand's Tourney, no-build WIRE+ENRICH; corrected 3 stale coverage-plan notes — B6 REFORGED_INTO now 2-not-0, B5 antler-men dup, D3 greyjoy dup live). **Granular dips then PARKED by Matt** (held for review). Session PIVOTED to the chat-UI alpha (see the LIVE prompt above). Superseded as live by `2026-06-29-chat-ui-alpha.md`.
 
 > **`2026-07-01-a28-davos-sam-residual.md`** — archived S167. **DONE (S167): A2.8 Davos/Sam residual — the LAST A-roundup unit → the 🅰 A-roundup is CLOSED.** TWO halves. **HALF A = Davos** (WIRE+ENRICH, heavy dedup): lit the causally-islanded S93 deception cluster (`staged-execution → frey-witnesses-attest → grand-northern-conspiracy`) + built the one Davos gap, `davos-sent-to-fetch-rickon-from-skagos` (SUB_BEAT_OF the GNC). **HALF B = Sam** (BUILD — the AFFC Citadel road was 0% built): `sam-kills-the-other`, `coldhands-rescues-sam-and-gilly`, `death-of-maester-aemon` + the journey/reveal spine. **Marquee cross-half seam** `leeching-of-edric-storm MOTIVATES death-of-maester-aemon`. **+4 nodes / net +43 edges** (23,285→23,328). Whodunit HONEST (0 SUSPECTED_OF — both arcs overt); theory-gated clean (Aemon's TPTWP belief = a REVEALS_TO disclosure). Fresh-verify 5C/4A/0R (D4→melisandre + D15→ramsay repoints, D16 dropped, S19 note-patch); 0 drift, 0 invented types, 0 orphans. Superseded as live by `2026-06-30-granular-dip-planning.md`.
 

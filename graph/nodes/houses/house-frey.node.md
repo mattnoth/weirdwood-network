@@ -178,3 +178,7 @@ The Frey force at Winterfell falls prey to a trap set by [Mors Umber](wiki:Mors_
 > So young. Though mayhaps this was a blessing. Had he lived he would have grown up to be a Frey.(wiki:House_Frey.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_64-1)
 >
 > —[Wyman Manderly](wiki:Wyman_Manderly) about the death of ["Little" Walder](wiki:Walder_Frey_(son_of_Merrett))
+
+> "Bread and salt. Heh. Of course, of course." The old man clapped his hands together, and servants came into the hall, bearing flagons of wine and trays of bread, cheese, and butter. Lord Walder took a cup of red himself, and raised it high with a spotted hand. "My guests," he said. "My honored guests. Be welcome beneath my roof, and at my table."
+
+— Walder Frey grants guest right to Robb Stark and his party at the Twins, Catelyn Stark POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:167`) — book-cite overlay (harvest row 1013); the sacred bread-and-salt rite Walder extends here is the very [guest right](guest-right) House Frey violates days later at the [Red Wedding](red-wedding).

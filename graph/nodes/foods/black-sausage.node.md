@@ -16,6 +16,14 @@ Black sausage is a smoked/cured sausage used as a march ration and a Night's Wat
 
 ## Narrative Arc
 
+### A Storm of Swords
+
+- (Samwell III, ASOS — `sources/chapters/asos/asos-samwell-03.md:125`) Flight south from Craster's Keep: Sam and Gilly's only remaining food is "a few black sausages, as hard as wood." Sam saws thin slices; "If you chewed the slices long enough they softened up, and tasted good. Craster's wives seasoned them with garlic." Black sausage as the last hard ration on a desperate winter journey.
+
+> Nothing was left but a few black sausages, as hard as wood.
+
+— ASOS (Samwell III), `sources/chapters/asos/asos-samwell-03.md:125` · Craster's garlic-seasoned black sausages, the last food on Sam and Gilly's flight to the Wall.  _(capture: harvest pass, food)_
+
 ### A Feast for Crows
 
 - (Jaime IV, AFFC — `sources/chapters/affc/affc-jaime-04.md:213`) Sparrows at Darry gather round a dozen cookfires to "watch fat sausages spit and sizzle above the flames" — the smallfolk pilgrims' humble meal in the castle yard while Jaime dines at the high table inside; Jaime reflects these "useless mouths" will be eating rats by winter.

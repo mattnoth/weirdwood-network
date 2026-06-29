@@ -19,6 +19,14 @@ Porridge is a plain grain-based breakfast staple, typically served with fruit or
 
 - (Davos III, ASOS — `sources/chapters/asos/asos-davos-03.md:21`) Dragonstone dungeon: the gaoler Davos names "Porridge" — "broad and squat, with thick shoulders and huge strong hands" — brings "a bowl of oaten porridge" once a day, "sometimes sweetened with honey or poured in a bit of milk." The name "Porridge" survives as a quiet characterization of the mundane cruelty of captivity.
 
+### A Feast for Crows
+
+- (Samwell II, AFFC — `sources/chapters/affc/affc-samwell-02.md:57`) Sea-voyage rations aboard the Watch galley *Blackbird*: "They ate oaten porridge in the mornings, pease porridge in the afternoons, and salt beef, salt cod, and salt mutton at night, and washed it down with ale." Porridge (oaten then pease) as two of the three daily meals on the long voyage to Braavos with Maester Aemon and Gilly — the rest being salt-preserved provisions for a journey of unknown length. _(Pease porridge, salt beef, salt cod, and salt mutton are recorded here as provenance on `porridge` rather than as separate nodes — salt-preserved one-off rations.)_
+
+> They ate oaten porridge in the mornings, pease porridge in the afternoons, and salt beef, salt cod, and salt mutton at night, and washed it down with ale.
+
+— AFFC (Samwell II), `sources/chapters/affc/affc-samwell-02.md:57` · *Blackbird* sea-rations on the voyage toward Braavos.  _(capture: harvest pass, food)_
+
 ### A Dance with Dragons
 
 - (Jon IV, ADWD — `sources/chapters/adwd/adwd-jon-04.md:313`) Stannis on hospitality to the mountain clans: "For three thousand men, I suppose I can endure some pipes and porridge" — porridge as the emblematic plain food of the northern mountain clans, the minimum hospitality Stannis grudgingly accepts as political necessity.

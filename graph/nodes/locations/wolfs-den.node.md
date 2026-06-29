@@ -31,6 +31,8 @@ A thousand years before [Aegon's Conquest](wiki:Aegon's_Conquest), the [Manderly
 
 Ser [Bartimus](wiki:Bartimus) received the Wolf's Den from Lord [Wyman Manderly](wiki:Wyman_Manderly) as a reward for saving his life at the [Battle of the Trident](wiki:Battle_of_the_Trident).(wiki:Wolf's_Den.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 
+Ser Bartimus recounts the castle's long, bloody history to Davos: the ancient First Men fortress was raised by King Jon Stark, then held in turn by the Greystarks and by Houses Flint, Locke, Slate, Long, Holt, and Ashwood; reavers from the Three Sisters took it once as their toehold in the north; it was besieged by Osgood Arryn and burned by his son Oswin the Talon; and it was captured by slavers out of the Stepstones when King Edrick Stark grew too feeble to defend his realm. (adwd-davos-04:35–37)
+
 ## Appearances & Description
 
 The Wolf's Den looms over the inner harbor of [White Harbor](wiki:White_Harbor), and houses cling to its crumbling black walls like barnacles.(wiki:Wolf's_Den.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) The [Castle Stair](wiki:Castle_Stair) is a stepped street which runs from the ancient castle to the [New Castle](wiki:New_Castle) on a nearby hill.(wiki:Wolf's_Den.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)

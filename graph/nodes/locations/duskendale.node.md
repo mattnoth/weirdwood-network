@@ -64,6 +64,8 @@ Duskendale spreads out around its harbor and has cobbled streets. The gatehouse 
 
 South of the town is a rocky headland that shelters the harbor from the storms of the [narrow sea](wiki:Narrow_sea) and north of it rise chalk cliffs. The [Duskendale road](wiki:Duskendale_road) runs northeast beside the shore between the grey-green sea and low limestone hills, and the ruins of the [Hollard castle](wiki:Hollard_castle) are found where the road forks to [Crackclaw Point](wiki:Crackclaw_Point) and [Maidenpool](wiki:Maidenpool). Fishing villages dot the road for miles.(wiki:Duskendale.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) The [Rosby road](wiki:Rosby_road) connects [King's Landing](wiki:King's_Landing) to Duskendale.(wiki:Duskendale.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
+Duskendale is a port accessible by sea: Robett Glover was put aboard a ship at Duskendale to be exchanged north. (asos-catelyn-05:29)
+
 ## Narrative Arc
 
 ### A Storm of Swords

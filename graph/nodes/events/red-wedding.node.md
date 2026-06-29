@@ -128,3 +128,11 @@ Thousands of [sparrows](wiki:Sparrow) in [King's Landing](wiki:King's_Landing) a
 > Dacey Mormont, who seemed to be the only woman left in the hall besides Catelyn, stepped up behind Edwyn Frey, and touched him lightly on the arm as she said something in his ear. Edwyn wrenched himself away from her with unseemly violence. "No," he said, too loudly. "I'm done with dancing for the nonce." Dacey paled and turned away.
 
 — Catelyn Stark POV, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:97`) — book-cite overlay (S134 harvest-consume); Dacey Mormont's rebuff by Edwyn Frey, the foreshadowing beat that tips Catelyn off to the trap
+
+> We'll have music, such sweet music, and wine, heh, the red will run, and we'll put some wrongs aright.
+
+— Walder Frey to his guests, while showing the Starks to their quarters at the Twins, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:155`) — book-cite overlay (harvest row 1001); the host's foreshadowing-laden double meaning — "the red will run" naming the wine and, sinisterly, the blood to come. (Wiki Quotes section attributes a near-identical line to ASOS 49; this is the direct book-text instance, in Catelyn's own POV.)
+
+> "Robb, listen to me. Once you have eaten of his bread and salt, you have the guest right, and the laws of hospitality protect you beneath his roof."
+
+— Catelyn Stark to Robb, approaching the Twins, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:27`) — book-cite overlay (harvest row 1005); Catelyn's insistence on observing guest right — bread and salt — ironic foreshadowing: her care proves insufficient against the Freys' deliberate violation of the very custom she trusts.

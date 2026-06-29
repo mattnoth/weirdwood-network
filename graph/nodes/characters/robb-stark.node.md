@@ -178,7 +178,7 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 
 > I have won every battle, yet somehow I'm losing the war.(wiki:Robb_Stark.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-3)
 >
-> —Robb to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Robb to [Catelyn Stark](wiki:Catelyn_Stark), ASOS Catelyn IV (`sources/chapters/asos/asos-catelyn-04.md:101`)
 
 > **Catelyn**: You would not be the first king to bend the knee, nor even the first [Stark](wiki:House_Stark).
 >

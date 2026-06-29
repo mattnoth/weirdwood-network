@@ -112,6 +112,10 @@ Jon Snow's direwolf, [Ghost](wiki:Ghost), is aware that his littermate Grey Wind
 >
 > — sources/chapters/agot/agot-catelyn-11.md:117 · Eyewitness (Theon) account of Grey Wind's combat lethality at Whispering Wood — arm-tearing and horse-panic are the two signature acts  _(capture: chapter-quote sweep, other)_
 
+> Grey Wind was at the king's side once more. Where he belongs.
+>
+> — Catelyn's POV, ASOS Catelyn V (`sources/chapters/asos/asos-catelyn-05.md:29`) · narratorial wolf-as-protector — Grey Wind restored to [Robb](wiki:Robb_Stark)'s side after [Rolph Spicer](wiki:Rolph_Spicer) is sent away
+
 ## Edges
 
 - OWNS: Robb Stark (track_b: Owner)

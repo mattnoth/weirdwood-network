@@ -76,6 +76,10 @@ Wendel's bones are returned to his father by a trio of [Freys](wiki:House_Frey)�
 >
 > —Wendel to [Martyn Rivers](wiki:Martyn_Rivers)
 
+> "Lannisters on the Trident," said Ser Wendel unhappily. "My brother is taken again."
+>
+> — Wendel Manderly, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:245`) · confirms [Wylis Manderly](wiki:Wylis_Manderly)'s second capture (fighting at the fords of the Trident)
+
 ### Quotes about Wendel
 
 > A valiant boy, and jolly.(wiki:Wendel_Manderly.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)

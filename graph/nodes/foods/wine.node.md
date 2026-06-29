@@ -51,6 +51,8 @@ Daenerys visits the [Pureborn](wiki:Pureborn) of [Qarth](wiki:Qarth). While the 
 
 ### A Storm of Swords[ ]
 
+- (Davos II, ASOS — `sources/chapters/asos/asos-davos-02.md:49`) Salladhor Saan's hospitality to the rescued Davos: "Fetch him some hot wine with cloves, I am misliking the sound of that cough. Squeeze some lime in it as well." — spiced hot wine offered as restorative care to the half-drowned onion knight; Salla apologizes the vintage is Pentoshi.
+
 For his support during the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater), the [small council](wiki:Small_council) grants Lord [Paxter Redwyne](wiki:Paxter_Redwyne) a thirty years remission on taxes applied to certain fine wines of the [Arbor](wiki:Arbor).(wiki:Wine.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
 King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) is killed at his own [wedding feast](wiki:Purple_Wedding) by drinking poisoned wine.(wiki:Wine.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-0)(wiki:Wine.cite_ref-Rasos61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-0) His uncle, [Tyrion Lannister](wiki:Tyrion_Lannister), is arrested for the crime.(wiki:Wine.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-1)(wiki:Wine.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
 

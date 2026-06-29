@@ -25,6 +25,16 @@ Coldhands is a character.human from the AWOIAF wiki.
 
 Coldhands is dressed in the mottled blacks and greys(wiki:Coldhands.cite_ref-Rasos46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) of the [Night's Watch](wiki:Night's_Watch) with a black wool scarf concealing his pale face.(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) He is armored in boiled leather and ringmail,(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) and he wields a sword.(wiki:Coldhands.cite_ref-Radwd13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) His ungloved hands are black and cold as ice, and he rides a [great elk](wiki:Great_elk).(wiki:Coldhands.cite_ref-Rasos46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) A flock of [ravens](wiki:Raven) flies under his command(wiki:Coldhands.cite_ref-Rasos46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) and brings him information.(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) Thin and gaunt, he speaks with a rattling voice and does not breathe.(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
+His first appearance, rescuing [Samwell Tarly](wiki:Samwell_Tarly) and [Gilly](wiki:Gilly) in the [haunted forest](wiki:Haunted_forest):
+
+> Beneath the trees, a man muffled head to heels in mottled blacks and greys sat astride an elk.
+>
+> — Samwell's POV, ASOS Samwell III (`sources/chapters/asos/asos-samwell-03.md:185`)
+
+> Only when he grasped the offered hand did he realize that the rider wore no glove. His hand was black and cold, with fingers hard as stone.
+>
+> — Samwell's POV, ASOS Samwell III (`sources/chapters/asos/asos-samwell-03.md:187`) · the [great elk](wiki:Great_elk) is "ten feet tall at the shoulder"
+
 [Summer](wiki:Summer) does not like the way Coldhands smells.(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) Though Coldhands is often described as dead, his eyes are described as black,(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6) in contrast to the light blue of [wights](wiki:Wights)' eyes.(wiki:Coldhands.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Coldhands.cite_ref-Radwd13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Narrative Arc

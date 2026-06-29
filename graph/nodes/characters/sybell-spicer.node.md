@@ -38,6 +38,10 @@ Sybell is a handsome older woman(wiki:Sybell_Spicer.cite_ref-Rasos14.7B.7B.7B3.7
 
 Lady Westerling has a gown of green velvet and a necklace of golden seashells.(wiki:Sybell_Spicer.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 
+> A necklace of golden seashells looped about her long, thin neck.
+>
+> — Jaime's POV, AFFC Jaime VII (`sources/chapters/affc/affc-jaime-07.md:71`) · she wears [House Westerling](wiki:House_Westerling)'s six-seashell sigil as jewelry
+
 ## Narrative Arc
 
 ### A Storm of Swords
@@ -90,4 +94,4 @@ Jaime makes his contempt for Sybell plain and warns her to stay out of his sight
 
 > Jaime had to wonder how much Lord [Gawen](wiki:Gawen_Westerling) knew about his wife's scheming. How much do we men ever know?(wiki:Sybell_Spicer.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister), AFFC Jaime VII (`sources/chapters/affc/affc-jaime-07.md:97`)

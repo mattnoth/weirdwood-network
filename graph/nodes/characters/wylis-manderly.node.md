@@ -104,6 +104,10 @@ At [Winterfell](wiki:Winterfell), where the wedding of [Ramsay Bolton](wiki:Rams
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
+> "Lannisters on the Trident," said Ser Wendel unhappily. "My brother is taken again."
+>
+> —[Wendel Manderly](wiki:Wendel_Manderly), ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:245`) · book-cite for Wylis's second capture at the [fighting at the fords of the Trident](wiki:Fighting_at_the_fords_of_the_Trident) ("taken again" — first captured at the [Green Fork](wiki:Battle_on_the_Green_Fork))
+
 > The [north](wiki:North) remembers, Lord Davos. The north remembers, and the [mummer](wiki:Mummer)'s farce is almost done. My son is [home](wiki:New_Castle).(wiki:Wylis_Manderly.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 >
 > —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)

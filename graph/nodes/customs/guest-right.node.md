@@ -72,3 +72,7 @@ Tyrion: In the [Seven Kingdoms](wiki:Seven_Kingdoms) it is considered a grave br
 I will see the dawn, at least … I have eaten of his bread and salt.(wiki:Guest_right.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 Ser [Balon](wiki:Balon_Swann) is a guest beneath [my roof](wiki:Sunspear). He has eaten of my bread and salt. I will not do him harm.(wiki:Guest_right.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-1)
 [Walder Frey](wiki:Walder_Frey)'s [fourth wife](wiki:Alyssa_Blackwood) was a [Blackwood](wiki:House_Blackwood), but kinship counts for no more than guest right at the [Twins](wiki:Twins).(wiki:Guest_right.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
+
+> Walder Frey's mouth moved in and out. "Food, heh. A loaf of bread, a bite of cheese, mayhaps a sausage."
+
+— Catelyn Stark POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:163`) — book-cite overlay (harvest row 1013); the literal guest-right exchange at the Twins before the Red Wedding. Robb immediately asks for salt to complete the rite ("Some wine to wash it down," Robb said. "And salt.", `:165`), and Walder grants it ("Bread and salt. Heh. Of course, of course. ... Be welcome beneath my roof, and at my table.", `:167`) — the very custom the Freys then violate.

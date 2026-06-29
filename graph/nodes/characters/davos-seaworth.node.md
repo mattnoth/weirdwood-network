@@ -58,6 +58,12 @@ Instead of the expensive attire of the lords of the [narrow sea](wiki:Narrow_sea
 
 — Davos at the helm of Black Betha on the eve of the Battle of the Blackwater, ACOK Davos III, `sources/chapters/acok/acok-davos-03.md:39`
 
+Arriving incognito at [White Harbor](wiki:White_Harbor) in *A Dance with Dragons*, Davos deliberately dresses to pass as a common seaman:
+
+> His garb was plain as well: old boots, brown breeches and blue tunic, a woolen mantle of undyed wool, fastened with a wooden clasp. He wore a pair of salt-stained leather gloves to hide the stubby fingers of the hand that Stannis had shortened, so many years ago.
+>
+> — Davos's POV, ADWD Davos II (`sources/chapters/adwd/adwd-davos-02.md:53`)
+
 Once a notorious smuggler,(wiki:Davos_Seaworth.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7) Davos is looked down upon by most [lords](wiki:Lord).(wiki:Davos_Seaworth.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) He is known for his unvarnished honesty.(wiki:Davos_Seaworth.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)(wiki:Davos_Seaworth.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1) Davos follows the [Faith of the Seven](wiki:Faith_of_the_Seven), but he is not devout.(wiki:Davos_Seaworth.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) The Onion Knight is illiterate and does not speak [High Valyrian](wiki:High_Valyrian).(wiki:Davos_Seaworth.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
 ## Narrative Arc

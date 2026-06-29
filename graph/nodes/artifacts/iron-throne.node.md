@@ -192,3 +192,7 @@ The exiled Lord [Jon Connington](wiki:Jon_Connington) leads the [landing of the 
 > I will claim the Iron Throne by myself, with your swords and your allegiance.(wiki:Iron_Throne.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_98-0)
 >
 > —[Aegon Targaryen](wiki:Aegon_Targaryen_(Young_Griff)) to the [Golden Company](wiki:Golden_Company)
+
+> Have you ever seen the Iron Throne? The barbs along the back, the ribbons of twisted steel, the jagged ends of swords and knives all tangled up and melted? It is not a comfortable seat, ser. Aerys cut himself so often men took to calling him King Scab, and Maegor the Cruel was murdered in that chair. (asos-davos-04:149)
+>
+> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)

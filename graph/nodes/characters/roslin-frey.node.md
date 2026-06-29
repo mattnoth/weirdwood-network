@@ -35,6 +35,10 @@ According to [Lothar Frey](wiki:Lothar_Frey), Roslin has a gentle nature and a t
 
 Roslin's pale blue gown has a lacy bodice.(wiki:Roslin_Frey.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 
+> Roslin was small for her years, her skin as white as if she had just risen from a milk bath. Her face was comely, with a small chin, delicate nose, and big brown eyes. Thick chestnut hair fell in loose waves to a waist so tiny that Edmure would be able to put his hands around it.
+>
+> — Catelyn's POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:141`)
+
 ## Narrative Arc
 
 ### A Clash of Kings
