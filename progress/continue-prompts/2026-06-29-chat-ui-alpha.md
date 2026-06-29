@@ -1,10 +1,12 @@
-# SESSION 169 — Weirwood chat-UI alpha (build track)
+# SESSION 170 — Weirwood chat-UI alpha (build track)
 
-> **This is Session 169.** If you log to `worklog.md`, stamp your entry `### Session 169` (meta track). (This is app
+> **This is Session 170.** If you log to `worklog.md`, stamp your entry `### Session 170` (meta track). (This is app
 > work, a new sub-track — the number is for the worklog stamp; not a graph-enrichment dip.)
 > **Recommended model:** Opus 4.8 (design/architecture + build judgment; Sonnet 4.6 fine for mechanical scaffolding).
-> **This is a fresh-context handoff.** A prior session (S168) scoped this with Matt; it did NOT build anything.
-> **Matt's explicit instruction: a *fresh* session builds this — not the scoping session.** That's you.
+> **This is a fresh-context handoff.** S168 scoped this with Matt; **S169 ran a 6-lens adversarial design review and
+> folded the findings into `working/chat-ui/alpha-design.md`** (it did NOT build anything). The design is now
+> decision→build-ready — read it fresh; it carries a §0 status table and the review corrections.
+> **Matt's explicit instruction: a *fresh* session builds this — not the scoping/review sessions.** That's you.
 
 ## What this is
 Build a deployable **ASOIAF loremaster chat** for Matt's **job-application portfolio** (linkable from his profile):
@@ -14,7 +16,11 @@ that it doesn't bluff and can **find quotes live by reading the chapter text**, 
 
 ## STEP 0 — read first (the design is already written)
 - **`working/chat-ui/alpha-design.md`** ← the full working design (corpus, retrieval architecture options, model
-  connection, persona, theme, build plan, open questions). START HERE.
+  connection, persona, theme, build plan, open questions). START HERE. **S169 review folded in:** §0 status table;
+  §7 deploy-boundary OPEN DECISION (the book text is git-TRACKED, NOT gitignored — decide before any public move);
+  a new §8 **step-0 runtime+persona spike** that GATES the build; structured typed-edge receipts + no-chain fallback;
+  prompt-caching + a global daily spend ceiling; silent-turn/empty/error UX states; expanded §9 opens.
+  **Begin with the §8 step-0 spike — do not build the export/tools until runtime + model are decided.**
 - `working/chat-ui/bloodraven-persona-notes.md` — the voice (use as-is per Matt; bake into the system prompt).
 - `working/demo-asoiaf-loremaster.md` — the PROVEN retrieval recipe this productizes (run it to feel the target).
 - memory `project_real_goal_graph_for_agents` (chat-UI alpha is a live track), `project_arc_enrichment_track`
@@ -47,16 +53,21 @@ that it doesn't bluff and can **find quotes live by reading the chapter text**, 
   use adaptive thinking; stream the reply. Add a per-day/IP cost cap in the function.
 
 ## Your job
-1. Read STEP 0. 2. Resolve the design §9 open questions with Matt (retrieval shape, palette/weirwood-tree rendering,
-Netlify-function runtime limits for a streaming multi-tool turn, model). 3. Build per design §8: graph-data export →
-retrieval tools (incl. `search_chapters`/`read_passage` for live quotes) → the function (tool-runner loop + persona
-+ streaming + cost cap) → the themeable chat page (featured Tywin exchange + typed-edge receipts) → local run →
-Netlify deploy. 4. **Confirm with Matt before committing to the architecture and before any deploy.**
+1. Read STEP 0 (esp. the sharpened design + §0/§9). 2. **Do the §8 step-0 spike FIRST (the gate):** (a) prove a
+streaming multi-tool turn fits the Netlify runtime — Edge/Deno vs sync function (Background Functions can't stream);
+(b) smoke-test the Bloodraven persona on Sonnet 4.6 vs Opus 4.8 over the API with a stubbed multi-tool turn, decide
+the model; (c) decide the §7 deploy text-boundary. 3. Resolve the rest of the §9 open questions with Matt. 4. Build
+per design §8: build-time `--json` export (NOT python shell-out) → retrieval tools (incl. `search_chapters`/
+`read_passage`, with structured typed-edge output + bounded inputs) → the function (tool-runner loop + persona +
+streaming + a global spend ceiling) → the themeable chat page (static featured Tywin exchange + typed-edge receipts
++ tool-gathering trace) → local run → Netlify deploy. Ship the curated-quotes MVP slice first; live search is the
+fast-follow (still the v1 goal). 5. **Confirm with Matt before committing to the architecture and before any deploy.**
 
 ## DO NOT
 re-fetch the wiki · run Pass-1 extractions · mint enrichment edges/nodes (this is app work, not graph work) ·
-treat the old `chat-ui-architecture.md` as the plan · over-engineer the copyright posture · bundle the full book
-text into the PUBLIC repo (it's gitignored; it goes into the function deploy artifact only) · auto-run `/endsession`.
+treat the old `chat-ui-architecture.md` as the plan · over-engineer the copyright posture · push the book text to a
+PUBLIC repo/artifact (it is currently git-TRACKED and the repo is private — resolve the §7 deploy-boundary decision
+BEFORE any public move; the old "it's gitignored" claim was false and is corrected in the design) · auto-run `/endsession`.
 
 ## The Claude API
 Use the `claude-api` skill for all API/SDK/model details (model IDs, tool-runner loop, streaming, pricing) — do not

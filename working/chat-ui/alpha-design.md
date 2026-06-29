@@ -3,12 +3,35 @@
 > **Status: DISCUSSION, nothing locked.** This is a working design from a brainstorming session (S168, 2026-06-29),
 > written so a fresh session can pick the thread up. Every "decision" below is a *current lean* or an *open
 > question* — treat it as a starting point for Matt to react to, not a committed spec. Where it says "Matt wants",
-> that's a stated preference; where it says "open", it's genuinely undecided.
+> that's a stated preference; where it says "open", it's genuinely undecided. A design-review pass (S169,
+> 2026-06-29) sharpened several sections and added the §0 status table and corrections below.
 >
 > Companion files: `working/chat-ui/bloodraven-persona-notes.md` (the voice), `working/demo-asoiaf-loremaster.md`
 > (the PROVEN retrieval pattern this productizes), `history/archive/sketches/chat-ui-architecture.md` (the OLD full
 > vision — far heavier than this alpha; mine it for ideas, don't treat as the plan). Memory:
 > `project_real_goal_graph_for_agents` (updated S168 — chat-UI alpha is a live track for Matt's job portfolio).
+
+---
+
+## 0. Implementation status
+
+Anti-drift table — every row is DESIGN / NOT STARTED at discussion stage; the first build session flips rows and fills in the file + proving test.
+
+| Component | Status | Implementing file | Proving test |
+|---|---|---|---|
+| Retrieval tools (resolve / walk_chain / neighbors / read_node / search_chapters / read_passage) | DESIGN — not started | — | — |
+| Agentic tool loop + bounding | DESIGN — not started | — | — |
+| Streaming transport (Edge vs sync) | DESIGN — not started | — | — |
+| Bloodraven system prompt | DESIGN — not started | — | — |
+| Persona + faithfulness eval | DESIGN — not started | — | — |
+| Cost cap (global daily ceiling + per-request bounds) | DESIGN — not started | — | — |
+| Prompt caching | DESIGN — not started | — | — |
+| Live-quote telemetry feed | DESIGN — not started | — | — |
+| Chat page | DESIGN — not started | — | — |
+| Theme tokens | DESIGN — not started | — | — |
+| Featured Tywin exchange (static transcript) | DESIGN — not started | — | — |
+| Typed-edge receipts panel | DESIGN — not started | — | — |
+| Deploy + secret / text-boundary | DESIGN — not started | — | — |
 
 ---
 
@@ -37,8 +60,9 @@ store, FastAPI backend, D&D-group auth, shared-password). That's a much bigger p
 - **Alias resolution:** `scripts/event_alias_resolver.py --lookup "<phrase>"` turns natural phrases
   ("death of Tywin", "the Red Wedding") into node slugs. (There's also a node alias resolver / `aliases:`
   frontmatter — natural spaced phrases, per memory `project_node_alias_spaced_phrases`.)
-- **Full book text:** `sources/chapters/<book>/<book>-<pov>-<nn>.md` — all 344 chapters, line-numbered, **gitignored**
-  (copyrighted). This is what enables *live* quote-finding beyond curated quotes.
+- **Full book text:** `sources/chapters/<book>/<book>-<pov>-<nn>.md` — all 344 chapters, line-numbered,
+  currently git-**tracked** (only `sources/raw/` is gitignored). The repo is currently **private**, so exposure is
+  latent. The public-deploy text boundary is an open decision — see §7.
 
 **The proven retrieval recipe** (`working/demo-asoiaf-loremaster.md`): resolve phrase → walk chain / get neighbors
 → open each beat's node file → weave the chain as a narrated story **with the verbatim quotes as blockquotes + the
@@ -66,12 +90,22 @@ give "find a quote not on any node/edge" — the model greps the books the way C
 vector store.** That's the key insight: the live quote-finding Matt loves is a *grep tool*, not a RAG pipeline.
 
 - **Pros:** faithful to the demo; live quote discovery for free; no embeddings/vector infra; the agent decides when
-  to lean on graph vs raw text; the "chain walked" receipts fall out of the tool-call trace.
+  to lean on graph vs raw text.
+  - **Note on receipts:** the typed-edge "chain walked" receipts do NOT fall out of the raw tool-call trace for
+    free. The retrieval tools must RETURN structured typed-edge JSON `{source, edge_type, target, evidence_quote,
+    chapter:line}` on a channel separate from the streamed prose; the receipts panel renders from that structured
+    return, not by parsing the narration.
 - **Cons:** agentic loop = more tokens + more latency per answer; needs streaming + a function runtime that tolerates
-  multi-second multi-tool turns (Netlify sync functions are ~10s — may need a streaming/background function or Edge);
-  bundling 344 chapters of text into the deploy artifact (size + the book text living in the function bundle).
-- **Open:** exact tool set; whether to shell out to the existing `.py` scripts or reimplement traversal in the
-  function's language; how to bound the loop (max tool iterations / `task_budget`); how big the chapter bundle is.
+  multi-second multi-tool turns (Netlify sync functions are ~10s — may need Edge; see §8 step 0a); bundling the
+  chapter text into the deploy artifact (the chapter text at ~4 MB gzipped is a non-issue; the real hazard is
+  accidentally bundling the 1.8 GB `graph/edges/` backup directory instead of just `edges.jsonl` — use an explicit
+  file allowlist).
+- **Open:** exact tool set; the `.py`-scripts shell-out is likely impossible (Netlify runtimes are Node/Go — no
+  `python3`); do the graph traversal at build time via `--json` export and port only the small live-query subset to
+  JS (see §8 step 1); how to bound the loop (max tool iterations + `max_tokens` + `read_passage` line span).
+- **Cost & bounding:** cache the stable prefix (persona + tool definitions) — 5-min TTL, helps multi-turn; set
+  `output_config` effort explicitly (start medium); hard-cap tool iterations + `max_tokens`; validate/allowlist all
+  tool inputs — the tool layer is the trust boundary; treat returned book text as untrusted (not an instruction).
 
 ### Option B — deterministic retrieve-then-synthesize (RAG-lite) — fallback
 Function does fixed retrieval (resolve → traverse → pull node quotes + top-K chapter passages by keyword) → stuffs
@@ -98,8 +132,13 @@ one context block → single Claude call to narrate.
 - **Model:** open. Lean `claude-sonnet-4-6` for cost ($3/$15 per 1M tok) with `claude-opus-4-8` as the
   richer-prose option — smoke-test both on the persona before deciding. Use **adaptive thinking**. (Per `claude-api`
   skill: model IDs `claude-sonnet-4-6` / `claude-opus-4-8`, no date suffixes.)
-- **Cost / abuse guard:** add a simple per-day or per-IP cap in the function so a visitor can't run up the bill. A
-  portfolio piece fielding hundreds of questions is a few dollars.
+- **Prompt caching:** cache the stable prefix (persona notes + tool definitions) — 5-min TTL; mostly helps
+  multi-turn. Build the system prompt so the stable part is one contiguous leading block.
+- **Cost / abuse guard:** a per-IP in-function counter cannot hold state (serverless is stateless; per-IP is
+  bypassable). The load-bearing controls are: a **global daily spend ceiling** in durable state (Netlify Blobs /
+  KV), per-request `max_tokens` + iteration bounds, and an **Anthropic-side billing alert** as the backstop. Budget
+  honestly: tens of dollars for hundreds of questions on cached Sonnet — small absolute, but the real exposure is
+  an unbounded public endpoint.
 - **Local dev:** same code runs locally with the key in a `.env`; deploy is just wiring the function + env var.
 
 ---
@@ -135,8 +174,15 @@ Voice = `working/chat-ui/bloodraven-persona-notes.md`, unchanged:
 ### Featured / landing exchange (Matt wants this)
 The site **opens with the Tywin chain pre-loaded** as a showpiece so a visitor gets the wow + the laugh before
 typing: the 7-link chain from the poisoned hairnet → … → patricide, ending on
-*"Lord Tywin Lannister did not, in the end, shit gold."* (`asos-tyrion-11:269`). Seed example prompts in the input
-("why did Robert's Rebellion start?", "what led to the Red Wedding?").
+*"Lord Tywin Lannister did not, in the end, shit gold."* (`asos-tyrion-11:269`). This exchange should be a
+**pre-rendered static transcript** (with its real receipts captured at build/curate time) — not a live agentic
+call on every page load. Seed example prompts in the input ("why did Robert's Rebellion start?", "what led to the
+Red Wedding?").
+
+**Out-of-character framing (required):** add one subheading or intro block above the fold explaining what the
+project is — so a lore-blind visitor understands why the chat answers as it does. The bot stays fully in character
+(never announces itself); the page chrome carries the explanation. Without it the "never announces" persona reads
+as broken to an uninitiated visitor.
 
 ### UI elements discussed
 - Chat thread (user bubble + Bloodraven reply with blockquotes + cites).
@@ -146,6 +192,12 @@ typing: the 7-link chain from the poisoned hairnet → … → patricide, ending
   the connectors). This is the proof-of-realness and a strong portfolio signal — it shows a genuine typed knowledge
   graph underneath, not an LLM freestyling. Consider per-link expansion (click a link → its evidence quote + cite).
   A small visual node-graph rendering of the walked chain is a natural extension.
+  - **NO-CHAIN fallback:** neighbor/relational queries (`neighbors`) walk no linear chain, so show a
+    neighbors/relationship view (e.g., "connections to Jon Snow: …") instead of an empty panel.
+- **Required UX states:** (1) a visible tool-gathering trace during the silent agentic turn — e.g. "resolving
+  'death of Tywin'… reading asos-tyrion-11…" — this fills the latency and IS the "watch it dig" wow; (2) a "not
+  mapped" empty state reframed positively in chrome ("The graph doesn't have a chain here yet — here's what I do
+  have:"); (3) error, cost-cap-tripped, and API timeout states; (4) mobile layout.
 - Footer disclaimer (see §7).
 - **About page (SECONDARY, Matt S168):** a page that's basically the project README — what the Weirwood Network is,
   how it's built (graph + cited quotes + book-grounded retrieval), the fan-project disclaimer. Lower priority than
@@ -166,21 +218,51 @@ graph over time — so the chat gets richer for free as the graph does. Design t
 Matt: "not advertising this, the wiki uses quotes from the books all the time." Agreed — this is a non-monetized,
 low-profile fan project quoting cited passages, same as the AWOIAF wiki does on every page. **Do not over-engineer
 this.** One footer line is enough: *"a fan project · quotes © George R.R. Martin, used for commentary · will honor
-any takedown request."* (It's commentary/research fair-use territory, not "parody" specifically.) The book text is
-gitignored from the public repo; it would be bundled into the (private) function deploy.
+any takedown request."* (It's commentary/research fair-use territory, not "parody" specifically.)
+
+**OPEN DECISION — deploy text boundary.** The chapter files are git-tracked today and the repo is private.
+Before any public move (including the §9 mattnoth.com fold-in) this must be decided: either (a) keep the deploy
+repo private (simplest — chapters stay tracked, API key stays in a Netlify env var), or (b) `git rm --cached` the
+chapters + scrub history + deliver the text to the function via a build secret or blob store (cleanest long-term,
+but work). Do not defer this past the first public deploy.
+
+**Output-quotation norm:** quote short load-bearing lines, not paragraphs — cap any single quoted block to a few
+lines. One perfect cited line lands harder than a block excerpt, and it is the line between cited commentary and
+republishing.
 
 ---
 
 ## 8. Rough build plan (Option A path) — sequence, not a commitment
 
-1. **Graph data export** — a one-time script that flattens what the function needs into deploy-bundleable form:
-   node files (or a nodes JSON), `edges.jsonl`, alias maps, and the chapter text. Decide bundle shape + size.
+0. **Runtime + persona spike** (GATE — do this before writing any application code):
+   - **(0a) Streaming proof:** deploy a hard-coded Netlify Function that streams a canned multi-second,
+     multi-chunk SSE to a page and verify it holds a loop-length turn within the timeout. Use this to decide
+     **Edge Function (Deno, ~40s, CPU-gated)** vs sync function (~10–26s). Strike **Background Functions** from
+     consideration — they run 15 min but cannot stream to the browser.
+   - **(0b) Persona smoke-test:** run the real Bloodraven system prompt + a stubbed multi-tool turn through
+     both `claude-sonnet-4-6` and `claude-opus-4-8` on 3–4 canned questions; judge against the golden
+     lines/anti-patterns in `working/chat-ui/bloodraven-persona-notes.md`. Decide the model here — don't defer
+     it to the full build session.
+   - **(0c) Deploy text boundary:** decide §7's open question (private repo vs. chapters-out-of-public-artifact)
+     before writing any deploy configuration.
+
+   **MVP vertical slice** (minimal end-to-end proof): one question ("who killed Tywin?") → `resolve` →
+   `walk_chain` → `read_node` → narrate → stream one cited blockquote + the typed-edge receipts strip.
+   Use **curated-quotes-only** for this slice (no `search_chapters`/`read_passage` yet). Live search is the
+   confirmed v1 goal Matt named — sequence it after the spike, not dropped.
+
+1. **Build-time graph export** — run `graph-query.py --json` offline and produce static JSON the function loads
+   at cold start: alias map, featured-chain typed-edge adjacency (Tywin chain), node quotes. Chapter text via an
+   **explicit file allowlist** (never the `graph/edges/` backup directory — only `graph/edges/edges.jsonl`).
+   Shape the bundle so live-query JS ports are small.
 2. **Retrieval tools** — implement `resolve / walk_chain / neighbors / read_node / search_chapters / read_passage`
-   (port `graph-query.py` + `event_alias_resolver.py` logic, or shell to them if the runtime allows).
+   in the function's language (JS). Port `graph-query.py` + `event_alias_resolver.py` logic from the build-time
+   JSON export; no shelling to `.py` (Netlify runtimes are Node/Go).
 3. **The function** — Claude tool-runner loop + Bloodraven system prompt (persona notes baked in) + streaming +
-   the per-day cost cap + the `ANTHROPIC_API_KEY` env var.
-4. **Chat page** — simple, themeable (token file), streams the reply, renders blockquotes + cites + the receipts
-   panel, pre-loads the Tywin featured exchange, seeds example prompts.
+   the global daily cost cap + `ANTHROPIC_API_KEY` env var.
+4. **Chat page** — simple, themeable (token file), streams the reply with tool-gathering trace visible, renders
+   blockquotes + cites + the typed-edge receipts panel, pre-loads the static Tywin featured exchange, seeds
+   example prompts.
 5. **Local run** — verify Bloodraven answers against the real graph + live chapter search before deploying.
 6. **Netlify deploy** — function + page + env var; link from Matt's profile.
 7. **(Later)** embeddings only if grep recall is weak; the visual node-graph; full mattnoth.com integration; more
@@ -217,14 +299,28 @@ temporary scaffold that the curated graph grows to replace.
 - **Retrieval shape:** Option A (tool-use agent, live grep — current lean) vs B (RAG-lite)? Confirm.
 - **Theme:** lean is set (modern/simple, dark default, soft weirwood-tree background — not hard black/red); open
   parts are the exact palette values + how the weirwood tree is rendered (SVG / CSS / image).
-- **Model:** Sonnet 4.6 (cost) vs Opus 4.8 (prose) — smoke-test the persona on both.
-- **Runtime:** can a Netlify Function host a multi-tool streaming agentic turn within its limits, or do we need
-  Edge / background / a different host? (Investigate Netlify Functions streaming + timeout.)
-- **Chapter bundle:** size of 344 chapters as a function-bundled asset; any need to compress/index.
-- **Standalone deploy first, fold into mattnoth.com later** — confirmed direction, but the integration details
+- **Model:** Sonnet 4.6 (cost) vs Opus 4.8 (prose) — smoke-test the persona on both (§8 step 0b).
+- **Runtime / function language** (**gating step 0 decision**): Edge Function (Deno, ~40s) vs sync function
+  (~10–26s)? Background Functions are out (can't stream). What language are the retrieval tools written in?
+  Decide in step 0a before writing anything else.
+- **Deploy text boundary:** private repo vs. `git rm --cached` + build secret (§7 open decision; §8 step 0c).
+  Must be resolved before any public move or mattnoth.com fold-in.
+- **Persona + faithfulness eval harness:** does Bloodraven stay in voice and not hallucinate a quote at a fake
+  cite? Need a lightweight check: emitted `chapter:line` cites are verified to exist via `read_passage` before
+  presenting. Decide scope of automated vs manual eval.
+- **Failure-mode UX:** what does the chat show when: no graph grounding exists / loop bound hit / API error /
+  timeout / cost-cap tripped? These states need explicit design, not just "handle errors."
+- **Conversation/session state:** serverless is stateless — multi-turn history (which the persona's "ask to get
+  more" rule needs) must be re-sent from the client each call. Decide max history window + truncation strategy.
+- **§8b-vs-§9 telemetry tension:** if v1 is curated-quotes-only (no live `search_chapters`), the §8b telemetry
+  feed has no data source. Resolve: either live search is in v1, or the telemetry instrumentation itself is
+  deferred until live search ships.
+- **Chapter bundle:** ~4 MB gzipped, a non-issue for size. Explicit file allowlist required (never `graph/edges/`
+  backup dir — only `edges.jsonl`).
+- **Standalone deploy first, fold into mattnoth.com later** — confirmed direction, but integration details
   (submodule vs copy, page wiring) are deferred.
 - **Scope of the alpha:** ship curated-quotes-only first and add live search as a fast-follow, or build live search
-  into v1? (Matt leans toward wanting the live search.)
+  into v1? (Matt leans toward wanting the live search — plan is: curated-only for the MVP spike, live search v1.)
 
 ---
 
