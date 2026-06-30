@@ -6,49 +6,127 @@
   <title>The Weirwood Network</title>
   <meta name="description" content="A book-grounded ASOIAF loremaster, standing on a hand-built knowledge graph." />
   <link rel="stylesheet" href="/theme/tokens.css" />
-  <style>
-    /* PLACEHOLDER PAGE (Foundation chunk, S171). The real chat thread, featured
-       Tywin exchange, and typed-edge receipts panel are built in the front-end
-       chunk. This page exists to (a) verify the theme renders and (b) give a
-       landing while the rest is built. It reads ONLY the theme tokens. */
-    * { box-sizing: border-box; }
-    body {
-      margin: 0; min-height: 100vh;
-      background: radial-gradient(120% 90% at 50% -10%, var(--c-bg) 40%, var(--c-bg-deep) 100%);
-      color: var(--c-text); font-family: var(--font-ui);
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      padding: var(--sp-6); text-align: center;
-    }
-    .mark { width: 14px; height: 14px; border-radius: 50%;
-      background: var(--c-accent); box-shadow: 0 0 18px 2px var(--c-accent-faint);
-      margin-bottom: var(--sp-5); }
-    h1 { font-family: var(--font-prose); font-size: var(--fs-display);
-      font-weight: 500; letter-spacing: 0.01em; margin: 0 0 var(--sp-2); }
-    .tagline { font-family: var(--font-prose); font-style: italic;
-      color: var(--c-accent-soft); font-size: 1.15rem; margin: 0 0 var(--sp-5); }
-    .about { max-width: 34rem; color: var(--c-text-dim); line-height: var(--lh-prose);
-      font-size: var(--fs-body); margin: 0 0 var(--sp-6); }
-    .well { width: min(90vw, var(--maxw-reading)); background: var(--c-surface);
-      border: 1px solid var(--c-border); border-radius: var(--radius);
-      padding: var(--sp-4) var(--sp-4); color: var(--c-text-faint);
-      font-family: var(--font-prose); font-style: italic; text-align: left; }
-    .status { margin-top: var(--sp-7); font-size: var(--fs-cite);
-      color: var(--c-text-faint); font-family: var(--font-mono); }
-    footer { margin-top: var(--sp-4); font-size: var(--fs-cite); color: var(--c-text-faint); }
-  </style>
+  <link rel="stylesheet" href="/app.css" />
 </head>
 <body>
-  <div class="mark" aria-hidden="true"></div>
-  <h1>The Weirwood Network</h1>
-  <p class="tagline">a thousand eyes, and one</p>
-  <p class="about">
-    A book-grounded loremaster for <em>A Song of Ice and Fire</em>. Ask a question and
-    it answers in the voice of the old record-keeper — dropping the real lines from the
-    books with their chapter citations, and showing the typed chain of cause and
-    consequence it walked to get there. It does not bluff.
-  </p>
-  <div class="well">Ask your questions.</div>
-  <p class="status">// alpha — foundation in place; chat thread under construction</p>
-  <footer>a fan project · quotes © George R.R. Martin, used for commentary</footer>
+  <!-- Low-contrast weirwood backdrop. Presence is token-controlled
+       (--weirwood-opacity / --weirwood-blend); never loud, behind content. -->
+  <div class="weirwood-bg" aria-hidden="true">
+    <svg viewBox="0 0 680 560" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+      <g fill="var(--c-accent)">
+        <circle cx="250" cy="150" r="58"/><circle cx="330" cy="110" r="66"/>
+        <circle cx="420" cy="140" r="60"/><circle cx="300" cy="190" r="56"/>
+        <circle cx="390" cy="195" r="54"/><circle cx="475" cy="190" r="44"/>
+        <circle cx="200" cy="200" r="42"/>
+      </g>
+      <path d="M312 540 C300 470 296 420 308 360 C300 330 296 300 300 268 C282 250 268 230 262 206 C258 196 268 192 274 200 C282 220 296 238 312 252 C314 234 318 220 326 206 C320 184 318 162 326 140 C330 130 340 132 340 142 C340 162 338 184 344 204 C352 220 360 234 364 252 C380 236 394 218 402 198 C408 190 418 194 414 204 C408 228 392 248 374 266 C380 300 380 332 372 362 C384 422 382 472 372 540 Z"
+        fill="var(--c-weirwood-pale)"/>
+      <g stroke="var(--c-weirwood-pale)" stroke-width="9" stroke-linecap="round" fill="none">
+        <path d="M310 268 C286 244 262 232 232 196"/><path d="M232 196 C220 180 210 168 196 150"/>
+        <path d="M232 196 C214 188 200 184 178 184"/><path d="M330 252 C326 214 326 184 332 142"/>
+        <path d="M332 142 C330 118 332 100 326 78"/><path d="M332 142 C346 122 354 108 372 92"/>
+        <path d="M362 256 C390 232 410 218 440 188"/><path d="M440 188 C458 176 472 168 492 160"/>
+        <path d="M440 188 C448 166 458 152 470 134"/>
+      </g>
+      <g fill="var(--c-bg-deep)">
+        <ellipse cx="318" cy="320" rx="6" ry="4"/><ellipse cx="362" cy="320" rx="6" ry="4"/>
+        <path d="M318 410 C330 422 350 422 362 410 C350 416 330 416 318 410 Z"/>
+      </g>
+    </svg>
+  </div>
+
+  <header class="site-head">
+    <div class="head-inner">
+      <div class="brand">
+        <span class="mark" aria-hidden="true"></span>
+        <div class="brand-text">
+          <h1>The Weirwood Network</h1>
+          <p class="tagline">a thousand eyes, and one</p>
+        </div>
+      </div>
+      <button class="about-toggle" id="about-toggle" aria-expanded="false" aria-controls="about-panel">
+        How it works
+      </button>
+    </div>
+  </header>
+
+  <!-- Out-of-character framing (design §5, REQUIRED) — the page chrome carries
+       the explanation; the bot itself never announces what it is. -->
+  <section class="intro" id="about-panel">
+    <p class="intro-lead">
+      A book-grounded loremaster for <em>A Song of Ice and Fire</em>. Ask a question
+      and it answers in the voice of an old record-keeper — dropping the real lines
+      from the books with their chapter citations, and showing the
+      <strong>typed chain of cause and consequence</strong> it walked through the
+      knowledge graph to get there. It does not bluff: every claim traces to the
+      graph or the books.
+    </p>
+    <details class="intro-more">
+      <summary>What is the Weirwood Network?</summary>
+      <div class="intro-body">
+        <p>
+          The Weirwood Network is a hand-built knowledge graph of the ASOIAF books:
+          <strong>~8,500 typed nodes</strong> (characters, events, places, houses,
+          artifacts) joined by <strong>~23,000 typed edges</strong>
+          (<span class="et et-causes">CAUSES</span>,
+          <span class="et et-triggers">TRIGGERS</span>,
+          <span class="et et-motivates">MOTIVATES</span>,
+          <span class="et et-enables">ENABLES</span>, and more).
+        </p>
+        <p>
+          Every node and edge carries a <strong>confidence tier</strong> — Tier&nbsp;1
+          is a verbatim book line with a <code>chapter:line</code> citation; Tier&nbsp;2
+          is sourced from the wiki; higher tiers are interpretive. That gap is
+          load-bearing: the loremaster quotes only what the graph can cite.
+        </p>
+        <p>
+          When you ask a question, an agent <em>resolves</em> your phrase to a node,
+          <em>reads</em> it, and <em>walks</em> the causal chain or its neighbours —
+          then narrates what it found. The <strong>“chain walked” panel</strong> beside
+          the answer is rendered straight from that typed graph traversal, not scraped
+          from the prose. That is the proof there is a real graph underneath, not a
+          model freestyling.
+        </p>
+      </div>
+    </details>
+  </section>
+
+  <main class="stage">
+    <!-- Full-width chain band (BAND layout). The typed-edge "chain walked" lifts
+         here when the layout toggle is set to Band; hidden in Spine layout. -->
+    <section class="chain-band" id="chain-band" aria-label="The chain walked" hidden></section>
+
+    <!-- The conversation column. -->
+    <section class="thread-col" aria-label="Conversation">
+      <div class="thread" id="thread"><!-- bubbles injected here --></div>
+
+      <form class="composer" id="composer" autocomplete="off">
+        <div class="examples" id="examples" aria-label="Example questions">
+          <button type="button" class="chip" data-q="Why did Robert's Rebellion start?">Why did Robert&rsquo;s Rebellion start?</button>
+          <button type="button" class="chip" data-q="What led to the Red Wedding?">What led to the Red Wedding?</button>
+          <button type="button" class="chip" data-q="Who is connected to Jon Snow?">Who is connected to Jon Snow?</button>
+        </div>
+        <div class="composer-row">
+          <textarea id="input" class="input" rows="1" placeholder="Ask your questions…"
+            aria-label="Ask a question"></textarea>
+          <button type="submit" id="send" class="send" aria-label="Send">Ask</button>
+        </div>
+        <p class="composer-note" id="composer-note"></p>
+      </form>
+    </section>
+
+    <!-- The receipts column: the chain walked (SPINE layout) + supporting receipts
+         (resolve / neighbors). Rendered from structured tool returns, never from
+         the prose (design §3). The chain carries its own title + layout toggle. -->
+    <aside class="receipts-col" aria-label="The chain walked">
+      <div class="receipts" id="receipts"><!-- receipt cards injected here --></div>
+    </aside>
+  </main>
+
+  <footer class="site-foot">
+    a fan project · quotes © George R.R. Martin, used for commentary
+  </footer>
+
+  <script src="/app.js" type="module"></script>
 </body>
 </html>

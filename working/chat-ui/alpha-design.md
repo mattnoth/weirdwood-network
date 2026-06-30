@@ -39,10 +39,11 @@ scope = **curated-MVP first, live search fast-follow** (Matt-confirmed).
 | Cost cap (global daily ceiling + per-request bounds) | ✅ DONE (S173) | `chat.ts` + Netlify Blobs (`spend-YYYY-MM-DD`) | pre-check trips → `cost-cap-tripped` SSE; per-request `max_tokens` 4096 + 6-iteration bound; Blobs-absent (local) degrades gracefully |
 | Prompt caching | ✅ DONE (S173) | `chat.ts` `SYSTEM_BLOCKS` `cache_control` | stable persona+tools prefix cached; `cache_read_input_tokens > 0` verifiable only in the live run |
 | Live-quote telemetry feed | ⏳ (with live search) | — | logs each live quote fetch |
-| Chat page (thread + tool-gathering trace) | ⏳ (front-end chunk) | `web/public/` | streams reply + trace |
-| Featured Tywin exchange (static transcript) | 🟡 DATA DONE (S171) | `web/data/featured-tywin.json` | render pending (front-end chunk) |
-| Typed-edge receipts panel | ⏳ (front-end chunk) | `web/public/` | renders typed edges from structured return |
-| Deploy (private repo → Netlify, env var) | ⏳ (ship) | Netlify | local run approved → deploy |
+| Chat page (thread + streaming bubble) | ✅ DONE (S174) | `web/public/index.html` + `app.css` + `app.js` | streams `token` deltas into the Bloodraven bubble; dry-validated via simulated SSE (no API spend) |
+| Featured Tywin exchange (static transcript) | 🟡 RENDER DONE / ANSWER PLACEHOLDER (S174) | `web/data/featured-tywin.json` → `app.js renderFeatured()` | real chain + beat quotes render; the answer PROSE is a design-fixture placeholder — replace with a CAPTURED REAL transcript before public deploy (Matt: no mocked AI prose) |
+| Typed-edge receipts panel | ✅ DONE (S174) | `app.js` (`linkRow`/`chainCard`/`neighborsCard`/`nodeCard`) | renders typed edges from the structured `receipt.result`, never from prose; click a link → evidence quote + cite + tier. One renderer serves featured + live |
+| Failure-mode UX (status states) | ✅ DONE (S174) | `app.js` `STATUS_UX` | no-grounding / loop-bound-hit / unverified-cites / api-error / cost-cap-tripped + `error` all render distinct UI; dry-tested |
+| Deploy (private repo → Netlify, env var) | ⏳ **gated on Matt** (ship) | Netlify | local `netlify dev` run + featured-transcript capture approved → deploy; real API $ |
 
 ---
 

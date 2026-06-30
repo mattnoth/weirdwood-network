@@ -16,7 +16,10 @@
   # The data bundle is generated, not committed. Regenerate it during deploy so
   # Netlify always ships from the live graph. (python3 is available in Netlify's
   # build image.) Local dev can just run the script once by hand.
-  command = "python3 scripts/build-chat-export.py --built-at \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\""
+  # Build the bundle, then publish the featured exchange (the static landing
+  # transcript, S174) into the served dir so the browser can fetch it at
+  # /data/featured-tywin.json — web/data/ itself is read only by the Edge fn.
+  command = "python3 scripts/build-chat-export.py --built-at \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" && mkdir -p web/public/data && cp web/data/featured-tywin.json web/public/data/featured-tywin.json"
 
 # The chat endpoint. The browser POSTs here; the function holds ANTHROPIC_API_KEY
 # server-side and streams the reply back. (Implemented in the function chunk.)

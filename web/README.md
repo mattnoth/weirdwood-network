@@ -11,7 +11,10 @@ Netlify. Full design: [`working/chat-ui/alpha-design.md`](../working/chat-ui/alp
 ```
 web/
 ├── public/                     # static site (Netlify `publish`)
-│   ├── index.html              # landing page (placeholder → chat thread in the front-end chunk)
+│   ├── index.html              # the chat page: header/framing, thread, receipts panel, composer
+│   ├── app.css                 # component styles — reads ONLY theme/tokens.css custom props
+│   ├── app.js                  # SSE client + shared renderers (featured + live) + failure UX
+│   ├── data/                   # GENERATED, gitignored — served copy of featured-tywin.json (deploy cp)
 │   └── theme/tokens.css        # ← SWAP THE WHOLE LOOK BY EDITING THIS ONE FILE
 ├── src/lib/                    # ported JS/TS retrieval tools (retrieval-core chunk)
 ├── data/                       # GENERATED, gitignored — see "Data bundle" below
@@ -30,7 +33,9 @@ netlify.toml                    # publish=web/public, edge_functions=web/netlify
 | `netlify.toml` (Edge runtime) | ✅ done | `netlify.toml` |
 | Retrieval tools (resolve/walk_chain/read_node/neighbors) | ✅ done (S172) | `web/src/lib/` — `deno task test` (21 green) |
 | Edge function (tool-loop + Bloodraven prompt + streaming + spend cap + cite-gate) | ✅ done (S173) | `web/netlify/edge-functions/chat.ts` + `agent.ts` — `deno task test` (27 green), `check:fn` clean; **live `netlify dev` proof gated on Matt** |
-| Front-end (chat thread, static Tywin exchange, typed-edge receipts) | ⏳ | `web/public/` |
+| Front-end (chat thread, static Tywin exchange, typed-edge receipts) | ✅ done (S174) | `web/public/index.html` + `app.css` + `app.js` — one renderer drives featured + live; SSE client + failure-mode UX; dry-validated (preview render + simulated SSE), **no API spend** |
+| Deploy (private repo → Netlify, `ANTHROPIC_API_KEY` env) | ⏳ **gated on Matt** | live `netlify dev` / deploy spend real API $ |
+| Featured answer = captured REAL transcript (replace placeholder) | ⏳ **gated on Matt** | `app.js` `FEATURED_PLACEHOLDER_ANSWER` is a design fixture — swap for genuine model output before public deploy (no mocked AI prose) |
 | live `search_chapters` / `read_passage` | ⏳ fast-follow | — |
 
 ## Data bundle (`web/data/`, generated — never committed)
