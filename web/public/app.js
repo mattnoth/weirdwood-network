@@ -49,6 +49,22 @@ function pretty(slug) {
   return s ? s[0].toUpperCase() + s.slice(1) : "—";
 }
 
+/** Strip wiki-markup artifacts the build left in some curated quotes:
+ *  `[label](wiki:Page)` → `label`, and bare `(wiki:…cite_ref…)` → removed. */
+function cleanQuote(text) {
+  return String(text || "")
+    .replace(/\[([^\]]+)\]\(wiki:[^)]*\)/g, "$1")
+    .replace(/\(wiki:[^)]*\)/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/** A node's type, prettified for the card subtitle ("event.wedding" → "event · wedding"). */
+function prettyType(t) {
+  const s = String(t || "").trim();
+  return s ? s.replace(/[._]/g, " · ") : "";
+}
+
 // Normalize a typed-edge link from EITHER the live walk_chain/neighbors shape
 // ({source, target, ref}) OR the build-export chain shape ({source_name,
 // target_name, evidence_ref}) into one render contract. Slug stays in
@@ -59,6 +75,8 @@ function normLink(l) {
     targetSlug: l.target || "",
     source: l.source_name || pretty(l.source),
     target: l.target_name || pretty(l.target),
+    sourceType: l.source_type || "",
+    targetType: l.target_type || "",
     edgeType: l.edge_type || l.type || "",
     quote: l.evidence_quote ?? l.quote ?? null,
     ref: l.evidence_ref ?? l.ref ?? null,
@@ -68,16 +86,27 @@ function normLink(l) {
 
 /** Collapse a list of typed links into a deduped node/edge sequence: a shared
  *  node (target of one link == source of the next) is emitted ONCE. */
-function buildSequence(rawLinks) {
+function buildSequence(rawLinks, querySlug) {
   const items = [];
+  const seen = new Set();
   let lastSlug = null;
+  const nodeItem = (slug, name, nodeType) => ({
+    type: "node",
+    slug,
+    name,
+    nodeType,
+    queried: !!querySlug && slug === querySlug,
+    repeat: seen.has(slug), // already shown once → render as a slim back-reference
+  });
   for (const raw of rawLinks) {
     const l = normLink(raw);
     if (l.sourceSlug !== lastSlug) {
-      items.push({ type: "node", slug: l.sourceSlug, name: l.source });
+      items.push(nodeItem(l.sourceSlug, l.source, l.sourceType));
+      seen.add(l.sourceSlug);
     }
     items.push({ type: "edge", link: l });
-    items.push({ type: "node", slug: l.targetSlug, name: l.target, terminal: true });
+    items.push(nodeItem(l.targetSlug, l.target, l.targetType));
+    seen.add(l.targetSlug);
     lastSlug = l.targetSlug;
   }
   // Mark only the final node terminal.
@@ -97,8 +126,13 @@ function buildSequence(rawLinks) {
 
 let turn = freshTurn();
 function freshTurn() {
-  return { chainLinks: [], nodes: new Map(), resolves: [], neighbors: [], title: "" };
+  return { chainLinks: [], nodes: new Map(), resolves: [], neighbors: [], title: "", querySlug: null };
 }
+
+// The last turn that produced a chain. The featured chain persists across a
+// failed/empty turn (design fix): a new turn only REPLACES it once it has its
+// own chain — so a "no scene here" answer never blanks the showpiece.
+let lastGoodChain = null;
 
 function addChainLinks(links, title) {
   turn.chainLinks.push(...links);
@@ -113,7 +147,7 @@ function addNode(slug, rec) {
 function quoteList(quotes) {
   return el("div", { class: "quotes" }, (quotes || []).map((q) =>
     el("div", { class: "quote-row" }, [
-      el("p", { class: "quote" }, `“${q.text}”`),
+      el("p", { class: "quote" }, `“${cleanQuote(q.text)}”`),
       (q.attribution || q.cite)
         ? el("span", { class: "attribution" }, q.attribution || q.cite)
         : false,
@@ -123,7 +157,7 @@ function quoteList(quotes) {
 
 function edgeEvidence(l) {
   const body = [];
-  if (l.quote) body.push(el("p", { class: "quote" }, `“${l.quote}”`));
+  if (l.quote) body.push(el("p", { class: "quote" }, `“${cleanQuote(l.quote)}”`));
   if (l.ref) body.push(el("span", { class: "cite" }, l.ref));
   if (l.tier != null) body.push(el("span", { class: "tier-badge" }, `Tier ${l.tier}`));
   return body.length
@@ -156,11 +190,11 @@ function layoutToggle() {
   ]);
 }
 
-function chainHeader() {
+function chainHeader(chainTurn) {
   return el("div", { class: "chain-header" }, [
     el("div", {}, [
       el("h2", { class: "chain-title" }, "The chain walked"),
-      turn.title ? el("p", { class: "chain-sub" }, turn.title) : false,
+      chainTurn.title ? el("p", { class: "chain-sub" }, chainTurn.title) : false,
     ]),
     layoutToggle(),
   ]);
@@ -173,11 +207,11 @@ function selectDetail(content) {
   bandDetailEl.replaceChildren(content);
 }
 
-function renderBand(seq) {
+function renderBand(seq, chainTurn) {
   const flow = el("div", { class: "chain-flow band" });
   for (const it of seq) {
     if (it.type === "node") {
-      const rec = turn.nodes.get(it.slug);
+      const rec = chainTurn.nodes.get(it.slug);
       const cls = "chain-node" + (it.terminal ? " terminal" : "") + (rec?.quotes?.length ? " has-quotes" : "");
       flow.append(el("button", {
         class: cls, type: "button",
@@ -202,37 +236,56 @@ function renderBand(seq) {
   }
   bandDetailEl = el("div", { class: "chain-detail" },
     el("p", { class: "detail-empty" }, "Click a node for its book quotes, or an edge for the evidence line."));
-  chainBandEl.replaceChildren(chainHeader(), flow, bandDetailEl);
+  chainBandEl.replaceChildren(chainHeader(chainTurn), flow, bandDetailEl);
   chainBandEl.hidden = false;
 }
 
-function renderSpine(seq) {
+// One node in the annotated spine: a card showing name + type, the queried node
+// highlighted as the hub (and its book quotes open by default), a node already
+// shown above collapsed to a slim back-reference.
+function spineNode(it, chainTurn) {
+  const rec = chainTurn.nodes.get(it.slug);
+  const cls = "spine-node"
+    + (it.queried ? " hub" : "")
+    + (it.terminal ? " terminal" : "")
+    + (it.repeat ? " repeat" : "");
+  if (it.repeat) {
+    return el("div", { class: cls }, el("span", { class: "node-name" }, it.name));
+  }
+  const head = el("div", { class: "node-head" }, [
+    el("span", { class: "node-name" }, it.name),
+    it.nodeType ? el("span", { class: "node-type" }, prettyType(it.nodeType)) : false,
+  ]);
+  if (rec?.quotes?.length) {
+    return el("details", { class: cls, open: it.queried }, [
+      el("summary", {}, [head]),
+      el("div", { class: "spine-body" }, quoteList(rec.quotes)),
+    ]);
+  }
+  return el("div", { class: cls }, head);
+}
+
+function renderSpine(seq, chainTurn) {
   bandDetailEl = null;
   const flow = el("div", { class: "chain-flow spine" });
   for (const it of seq) {
     if (it.type === "node") {
-      const rec = turn.nodes.get(it.slug);
-      const cls = "spine-node" + (it.terminal ? " terminal" : "");
-      if (rec?.quotes?.length) {
-        flow.append(el("details", { class: cls }, [
-          el("summary", {}, [el("span", { class: "node-name" }, it.name)]),
-          el("div", { class: "spine-body" }, [
-            rec.type ? el("div", { class: "card-type" }, rec.type) : false,
-            quoteList(rec.quotes),
-          ]),
-        ]));
-      } else {
-        flow.append(el("div", { class: cls }, el("span", { class: "node-name" }, it.name)));
-      }
+      flow.append(spineNode(it, chainTurn));
     } else {
       const l = it.link;
-      flow.append(el("details", { class: `spine-edge ${etClass(l.edgeType)}` }, [
-        el("summary", {}, [edgePill(l.edgeType)]),
-        edgeEvidence(l),
+      // Inline evidence on every edge — quote + cite + tier always visible (no
+      // click-to-reveal). The edge IS the evidence; that is the whole point.
+      flow.append(el("div", { class: `spine-edge ${etClass(l.edgeType)}` }, [
+        el("div", { class: "spine-edge-head" }, [
+          edgePill(l.edgeType),
+          l.tier != null ? el("span", { class: "tier-inline" }, `Tier ${l.tier}`) : false,
+        ]),
+        l.quote ? el("p", { class: "spine-quote" }, `“${cleanQuote(l.quote)}”`) : false,
+        l.ref ? el("span", { class: "spine-cite" }, l.ref) : false,
       ]));
     }
   }
-  receiptsEl.append(el("div", { class: "card chain-card" }, [chainHeader(), flow]));
+  receiptsEl.append(el("div", { class: "card chain-card" }, [chainHeader(chainTurn), flow]));
 }
 
 // ---- Supporting receipts (resolve / neighbors) into the sidebar ------------
@@ -272,7 +325,10 @@ function neighborsCard(result) {
 // ---- The master render -----------------------------------------------------
 
 function renderReceipts() {
-  const seq = buildSequence(turn.chainLinks);
+  // The chain renders from the current turn once it has one, otherwise from the
+  // last good chain — so a failed or chain-less turn never blanks the showpiece.
+  const chainTurn = turn.chainLinks.length ? turn : (lastGoodChain || turn);
+  const seq = buildSequence(chainTurn.chainLinks, chainTurn.querySlug);
   const hasChain = seq.length > 0;
   const supporting = [
     ...turn.resolves.map((r) => resolveCard(r.phrase, r.cands)),
@@ -288,8 +344,8 @@ function renderReceipts() {
   stageEl.classList.toggle("no-aside", band && supporting.length === 0);
 
   if (hasChain) {
-    if (band) renderBand(seq);
-    else renderSpine(seq);
+    if (band) renderBand(seq, chainTurn);
+    else renderSpine(seq, chainTurn);
   }
 
   for (const card of supporting) receiptsEl.append(card);
@@ -401,7 +457,10 @@ function ingestReceipt({ tool, input, result }) {
       if (result) addNode(input?.slug ?? result.slug ?? result.name, result);
       break;
     case "walk_chain":
-      if (result) addChainLinks([...(result.upstream || []).slice().reverse(), ...(result.downstream || [])]);
+      if (result) {
+        if (result.slug) turn.querySlug = result.slug;
+        addChainLinks([...(result.upstream || []).slice().reverse(), ...(result.downstream || [])]);
+      }
       break;
     case "neighbors":
       if (result) turn.neighbors.push(result);
@@ -465,6 +524,9 @@ async function ask(question) {
     console.error(err);
   } finally {
     walking = false;
+    // Promote this turn's chain to the persisted showpiece only if it produced
+    // one — a failed/chain-less turn leaves the prior chain standing.
+    if (turn.chainLinks.length) lastGoodChain = turn;
     renderReceipts();
     const finalProse = bot.finish();
     if (answered && finalProse.trim()) {
@@ -505,14 +567,17 @@ $("#examples").addEventListener("click", (e) => {
   if (q) { inputEl.value = q; autosize(); inputEl.focus(); }
 });
 
+// About view: the page opens to the chat; the header button swaps in the "what
+// is this" framing (and back). Driven by a body class so CSS owns the show/hide.
 const aboutToggle = $("#about-toggle");
-aboutToggle.addEventListener("click", () => {
-  const details = $(".intro-more");
-  const open = !details.open;
-  details.open = open;
+function setAbout(open) {
+  document.body.classList.toggle("about-open", open);
   aboutToggle.setAttribute("aria-expanded", String(open));
-  if (open) details.scrollIntoView({ behavior: "smooth", block: "nearest" });
-});
+  aboutToggle.textContent = open ? "← Chat" : "About";
+  if (open) window.scrollTo({ top: 0, behavior: "smooth" });
+}
+aboutToggle.addEventListener("click", () => setAbout(!document.body.classList.contains("about-open")));
+$("#about-back").addEventListener("click", () => setAbout(false));
 
 // Clean landing: empty thread + empty receipts rail, ready for the first question.
 renderReceipts();

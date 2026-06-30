@@ -2,11 +2,21 @@
   "version": "0.0.1",
   "configurations": [
     {
+      "name": "weirwood-live",
+      "runtimeExecutable": "/Users/mnoth/.deno/bin/deno",
+      "runtimeArgs": ["run", "-A", "--node-modules-dir=auto", "--env-file=.env", "scripts/dev.ts"],
+      "cwd": "web",
+      "port": 8766,
+      "autoPort": true,
+      "env": { "WEIRWOOD_MODEL": "claude-sonnet-4-6" }
+    },
+    {
       "name": "weirwood-static",
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8766"],
       "cwd": "web/public",
-      "port": 8766
+      "port": 8766,
+      "autoPort": true
     }
   ]
 }

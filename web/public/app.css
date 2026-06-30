@@ -89,7 +89,30 @@ body {
 }
 .about-toggle:hover { color: var(--c-text); border-color: var(--c-accent); }
 
-/* ---- Intro / framing ------------------------------------------------------ */
+/* ---- About view (toggled; the page itself opens straight to the chat) ----- */
+.about-view {
+  position: relative; z-index: 1;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: var(--sp-6) var(--sp-5) var(--sp-7);
+}
+/* The header "About" button toggles `body.about-open`: swap chat for the about
+   view. Driven by the body class (not [hidden]) so it beats .stage's display:grid. */
+body.about-open .stage { display: none; }
+body.about-open .about-view { display: block; }
+.about-title {
+  font-family: var(--font-prose); font-weight: 500; font-size: 1.4rem;
+  color: var(--c-text); text-align: center; margin: 0 0 var(--sp-5);
+}
+.about-back {
+  font-family: var(--font-ui); font-size: var(--fs-small); color: var(--c-text-dim);
+  background: transparent; border: 1px solid var(--c-border); border-radius: var(--radius-sm);
+  padding: var(--sp-1) var(--sp-3); cursor: pointer; transition: var(--transition);
+  margin-bottom: var(--sp-5);
+}
+.about-back:hover { color: var(--c-text); border-color: var(--c-accent); }
+
+/* ---- Intro / framing (inner copy, reused inside .about-view) --------------- */
 .intro {
   max-width: 60rem;
   margin: 0 auto;
@@ -151,7 +174,10 @@ body {
   .stage, .stage.no-aside { grid-template-columns: minmax(0, 1fr); }
   .chain-band, .thread-col, .receipts-col { grid-column: 1; }
   .stage.no-aside .receipts-col { display: block; }
-  .receipts-col:not(:empty) { order: -1; } /* on mobile, show the chain above the input flow */
+  /* Prose first on every screen (Matt): the conversation leads, the chain follows below it. */
+  .thread-col { order: -1; }
+  .chain-band { order: 0; }
+  .receipts-col { order: 1; }
 }
 
 /* ---- Thread column -------------------------------------------------------- */
@@ -341,24 +367,45 @@ body {
 .detail-empty { color: var(--c-text-faint); font-size: var(--fs-small); font-style: italic; font-family: var(--font-prose); margin: 0; }
 .detail-edge { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); color: var(--c-text); font-size: var(--fs-small); margin-bottom: var(--sp-2); }
 
-/* --- SPINE: vertical, in the side panel --- */
+/* --- SPINE: the annotated spine (picked design) — node cards + inline edge evidence --- */
 .chain-card { background: var(--c-bg); }
-.chain-flow.spine { display: flex; flex-direction: column; margin-top: var(--sp-3); }
-.spine-node {
-  color: var(--c-text); font-size: var(--fs-small);
-  border-left: 2px solid var(--c-border); padding: var(--sp-2) 0 var(--sp-2) var(--sp-3);
+.chain-flow.spine {
+  display: flex; flex-direction: column; gap: 2px; margin-top: var(--sp-3);
+  /* bounded — a long chain scrolls inside the card, never runs far past the chat */
+  max-height: 62vh; overflow-y: auto;
 }
-.spine-node.terminal { border-left-color: var(--c-accent); font-weight: 500; }
+/* node = a card showing its name + type */
+.spine-node {
+  background: var(--c-surface); border: 1px solid var(--c-border);
+  border-radius: var(--radius); padding: var(--sp-2) var(--sp-3);
+}
 .spine-node > summary { list-style: none; cursor: pointer; }
 .spine-node > summary::-webkit-details-marker { display: none; }
-.spine-node.terminal > summary .node-name { color: var(--c-accent-soft); }
-.spine-body { padding: var(--sp-1) 0 var(--sp-2); }
+.spine-node[open] > summary { margin-bottom: var(--sp-2); }
+.node-head { display: flex; flex-direction: column; gap: 1px; }
+.spine-node .node-name { font-family: var(--font-prose); font-size: var(--fs-body); color: var(--c-text); line-height: 1.25; }
+.node-type { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); letter-spacing: 0.03em; }
+.spine-node.hub { border-color: var(--c-accent); background: var(--c-surface-2); }
+.spine-node.terminal { border-left: 3px solid var(--c-accent); }
+/* a node already shown above collapses to a slim back-reference */
+.spine-node.repeat {
+  background: transparent; border: none; border-left: 2px solid var(--c-border);
+  border-radius: 0; padding: var(--sp-1) 0 var(--sp-1) var(--sp-3); opacity: 0.75;
+}
+.spine-node.repeat .node-name { font-family: var(--font-ui); font-size: var(--fs-small); color: var(--c-text-dim); }
+.spine-body { padding-top: var(--sp-1); }
+/* edge = a left-accent block with the evidence quote + cite always visible */
 .spine-edge {
   border-left: 2px solid var(--et-color, var(--c-edge-default));
-  margin-left: var(--sp-3); padding: 0 0 var(--sp-1) var(--sp-3);
+  margin-left: var(--sp-4); padding: var(--sp-2) 0 var(--sp-2) var(--sp-3);
 }
-.spine-edge > summary { list-style: none; cursor: pointer; padding: var(--sp-1) 0; }
-.spine-edge > summary::-webkit-details-marker { display: none; }
+.spine-edge-head { display: flex; align-items: center; gap: var(--sp-2); }
+.tier-inline { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
+.spine-quote {
+  font-family: var(--font-prose); font-style: italic; color: var(--c-text-dim);
+  font-size: var(--fs-small); line-height: 1.5; margin: var(--sp-2) 0 var(--sp-1);
+}
+.spine-cite { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
 .chain.spine { display: flex; flex-direction: column; gap: var(--sp-1); margin-top: var(--sp-2); }
 .node-name { color: var(--c-text); font-size: var(--fs-small); }
 .edge-label {

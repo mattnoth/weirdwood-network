@@ -69,7 +69,7 @@
   /* ---- Weirwood-tree backdrop knobs (the actual SVG/illustration drops in
      during the front-end chunk; these control its presence so it stays a
      low-contrast motif behind content, never loud). ------------------------ */
-  --weirwood-opacity: 0.06;
+  --weirwood-opacity: 0.11;
   --weirwood-blend: soft-light;
 }
 

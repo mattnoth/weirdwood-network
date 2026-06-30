@@ -12,6 +12,7 @@ import type {
   GraphData,
   NeighborLink,
   NeighborsResult,
+  NodesMap,
 } from "./types.ts";
 import { isValidSlug } from "./validate.ts";
 
@@ -25,11 +26,30 @@ const FULL_CHAIN_EDGE_TYPES: ReadonlySet<string> = new Set([
   "ENABLES",
 ]);
 
-function toChainLink(e: Edge, depth: number): ChainLink {
+// The displayed "chain walked" is a tight, readable spine, NOT the whole causal
+// component. An uncapped transitive walk over a hub like the Red Wedding returns
+// 50+ edges with repeated nodes and unrelated tangents — a graph dump, not a
+// chain. These bounds keep it to the spine the prose actually narrates.
+const DEFAULT_MAX_DEPTH = 2; // hops from the queried node, each direction
+const MAX_LINKS_PER_DIRECTION = 12; // hard cap so a dense hub can't explode the panel
+
+/** Look up a slug's display name + type from the nodes map (undefined if no record). */
+function nameOf(slug: string, nodes: NodesMap): string | undefined {
+  return nodes[slug]?.name;
+}
+function typeOf(slug: string, nodes: NodesMap): string | undefined {
+  return nodes[slug]?.type;
+}
+
+function toChainLink(e: Edge, depth: number, nodes: NodesMap): ChainLink {
   return {
     source: e.source,
     edge_type: e.type,
     target: e.target,
+    source_name: nameOf(e.source, nodes),
+    target_name: nameOf(e.target, nodes),
+    source_type: typeOf(e.source, nodes),
+    target_type: typeOf(e.target, nodes),
     evidence_quote: e.quote ?? null,
     ref: e.ref ?? null,
     tier: e.tier ?? null,
@@ -49,6 +69,8 @@ function walkCausal(
   edges: Edge[],
   direction: "up" | "down",
   edgeTypes: ReadonlySet<string>,
+  nodes: NodesMap,
+  maxDepth: number,
 ): ChainLink[] {
   const [keyHere, keyNext]: [keyof Edge, keyof Edge] = direction === "down"
     ? ["source", "target"]
@@ -68,8 +90,10 @@ function walkCausal(
   const frontier: Array<[string, number]> = [[start, 0]];
   while (frontier.length > 0) {
     const [node, depth] = frontier.shift()!;
+    if (depth >= maxDepth) continue; // bound the spine — do not expand past maxDepth
     for (const e of adj.get(node) ?? []) {
-      result.push(toChainLink(e, depth + 1));
+      if (result.length >= MAX_LINKS_PER_DIRECTION) return result;
+      result.push(toChainLink(e, depth + 1, nodes));
       const nxt = e[keyNext] as string;
       if (nxt && !visited.has(nxt)) {
         visited.add(nxt);
@@ -88,9 +112,10 @@ function walkCausal(
 export function walkChain(
   slug: string,
   data: GraphData,
-  opts: { full?: boolean } = {},
+  opts: { full?: boolean; maxDepth?: number } = {},
 ): ChainResult {
   const full = opts.full ?? false;
+  const maxDepth = opts.maxDepth ?? DEFAULT_MAX_DEPTH;
   if (!isValidSlug(slug)) {
     return { slug: String(slug), full, upstream: [], downstream: [] };
   }
@@ -98,26 +123,30 @@ export function walkChain(
   return {
     slug,
     full,
-    upstream: walkCausal(slug, data.edges, "up", types),
-    downstream: walkCausal(slug, data.edges, "down", types),
+    upstream: walkCausal(slug, data.edges, "up", types, data.nodes, maxDepth),
+    downstream: walkCausal(slug, data.edges, "down", types, data.nodes, maxDepth),
   };
 }
 
-function toNeighborLink(e: Edge): NeighborLink {
+function toNeighborLink(e: Edge, nodes: NodesMap): NeighborLink {
   return {
     source: e.source,
     edge_type: e.type,
     target: e.target,
+    source_name: nameOf(e.source, nodes),
+    target_name: nameOf(e.target, nodes),
+    source_type: typeOf(e.source, nodes),
+    target_type: typeOf(e.target, nodes),
     evidence_quote: e.quote ?? null,
     ref: e.ref ?? null,
     tier: e.tier ?? null,
   };
 }
 
-function groupByType(edges: Edge[]): Record<string, NeighborLink[]> {
+function groupByType(edges: Edge[], nodes: NodesMap): Record<string, NeighborLink[]> {
   const out: Record<string, NeighborLink[]> = {};
   for (const e of edges) {
-    (out[e.type] ??= []).push(toNeighborLink(e));
+    (out[e.type] ??= []).push(toNeighborLink(e, nodes));
   }
   return out;
 }
@@ -141,7 +170,7 @@ export function neighbors(slug: string, data: GraphData): NeighborsResult {
     slug,
     outgoingCount: outgoing.length,
     incomingCount: incoming.length,
-    outgoing: groupByType(outgoing),
-    incoming: groupByType(incoming),
+    outgoing: groupByType(outgoing, data.nodes),
+    incoming: groupByType(incoming, data.nodes),
   };
 }

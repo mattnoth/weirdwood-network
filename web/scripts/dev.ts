@@ -102,6 +102,7 @@ Deno.serve(
       if (DEMO) return demoReplay();
       return await handler!(req, {} as never);
     }
-    return await serveDir(req, { fsRoot: FS_ROOT, quiet: true });
+    // no-store so every reload picks up edited HTML/CSS/JS immediately (dev only).
+    return await serveDir(req, { fsRoot: FS_ROOT, quiet: true, headers: ["cache-control: no-store"] });
   },
 );

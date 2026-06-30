@@ -4,19 +4,39 @@ import assert from "node:assert/strict";
 import { neighbors, walkChain } from "./graph.ts";
 import { data, TYWIN_SLUG } from "./_fixtures.ts";
 
-Deno.test("walkChain: upstream is the 7-link causal chain into the pivot", () => {
+Deno.test("walkChain: the default walk is a depth-bounded spine, not the whole component", () => {
   const chain = walkChain(TYWIN_SLUG, data);
-  assert.equal(chain.upstream.length, 7, "expected 7 upstream causal links");
 
-  // Every upstream link is a well-formed typed edge (source, edge_type, target),
-  // and the set is free of duplicates.
-  const key = (l: { source: string; edge_type: string; target: string }) =>
-    `${l.source}|${l.edge_type}|${l.target}`;
-  for (const l of chain.upstream) {
+  // The default walk is capped at DEFAULT_MAX_DEPTH (2) hops each direction so
+  // the "chain walked" panel reads as a tight spine, not a 50-edge graph dump.
+  for (const l of [...chain.upstream, ...chain.downstream]) {
+    assert.ok(l.depth <= 2, "default walk must not exceed maxDepth=2");
     assert.ok(l.source && l.edge_type && l.target, "link missing source/edge_type/target");
   }
+
+  // Raising maxDepth recovers the deeper transitive chain (proves the cap is the
+  // only thing limiting it, not a broken walk).
+  const deep = walkChain(TYWIN_SLUG, data, { maxDepth: 10 });
+  assert.ok(
+    deep.upstream.length > chain.upstream.length,
+    "a deeper walk should reach more upstream links than the bounded default",
+  );
+
+  // Links remain unique within the bounded walk.
+  const key = (l: { source: string; edge_type: string; target: string }) =>
+    `${l.source}|${l.edge_type}|${l.target}`;
   const keys = chain.upstream.map(key);
   assert.equal(new Set(keys).size, keys.length, "upstream links must be unique");
+});
+
+Deno.test("walkChain: links are enriched with node display names + types", () => {
+  const chain = walkChain(TYWIN_SLUG, data);
+  const l = [...chain.upstream, ...chain.downstream].find((x) => x.depth === 1);
+  assert.ok(l, "expected at least one adjacent link");
+  // The receipts panel renders source_name/target_name so live chains show
+  // "Assassination of Tywin Lannister", not the raw slug.
+  assert.ok(l!.source_name && l!.target_name, "links must carry display names");
+  assert.ok(l!.source_type && l!.target_type, "links must carry node types");
 });
 
 Deno.test("walkChain: links carry the receipts fields", () => {

@@ -1,95 +1,68 @@
-# SESSION 176 — Chat-UI alpha: DESIGN evaluation (fresh context) · graph/meta track
+# SESSION 177 — Chat-UI alpha: the chain-display REBUILD (Phase 2) · graph/meta track
 
-> **This is Session 176.** Stamp your worklog entry `### Session 176` at endsession.
+> **Stamp your worklog entry `### Session 177`** at endsession (graph/meta track → `worklog.md`).
 >
-> Fresh-context handoff. The chat-UI alpha BUILD is code-complete (S171–S174); local LIVE
-> running (Deno dev server + `web/.env` key) is DONE and committed (S175); the **Tywin
-> placeholder is fully removed (S175)** — the landing now opens to a clean composer. THIS
-> session = evaluate + polish the design with real live conversations, working from **Matt's
-> design notes + enrichment ideas** (he has these ready to share at session start — ask for them).
+> Fresh-context handoff after a very large S176. The chat-UI **prose layer is fixed** and the
+> **About page shipped**. THIS session = rebuild the **"chain walked" display** per the
+> advisory-board design (keep-the-detail-but-progressive), then add hover/click node dossiers.
 >
-> **Recommended model:** Sonnet 4.6 (HTML/CSS/JS polish + watching live runs — no heavy backend reasoning).
+> **Recommended model:** Sonnet 4.6 — frontend/CSS + one small backend walk change + one tiny
+> endpoint. No heavy reasoning. (Deploy default stays Opus; local dev uses Sonnet for cheap iteration.)
 
-## RUN IT — local live works now (no Netlify CLI, no python-for-live)
-Deno is installed at `~/.deno/bin/deno` (NOT on PATH — use the full path). The local dev
-server is `web/scripts/dev.ts` — a stand-in for `netlify dev` that serves `public/` AND routes
-`POST /api/chat` into the real edge function (`chat.ts`). The Anthropic key is in `web/.env`
-(gitignored — NEVER print it, NEVER paste a key into chat).
+## RUN IT — local live (Deno; key in web/.env; NEVER print the key)
+Deno is at `~/.deno/bin/deno` (not on PATH). Two ways:
+- **Preview MCP (easiest):** `preview_start` config **`weirwood-live`** in `.claude/launch.json`
+  (autoPort, defaults `WEIRWOOD_MODEL=claude-sonnet-4-6`). It runs `web/scripts/dev.ts` on :8766.
+- **Manual LIVE:** `cd web && WEIRWOOD_MODEL=claude-sonnet-4-6 ~/.deno/bin/deno run -A --node-modules-dir=auto --env-file=.env scripts/dev.ts` → http://127.0.0.1:8766/
+  (swap `claude-opus-4-8` to judge real prose). Kill: `pkill -f scripts/dev.ts`.
+- **Reliable test of a turn:** `curl -sN -X POST :8766/api/chat -H 'content-type: application/json' -d '{"messages":[{"role":"user","content":"What led to the Red Wedding?"}]}'`. The browser carries chat history that biases the model toward answering from memory; **curl with a single message reliably walks**.
 
-- **LIVE** (real model; ~2.5¢ per Opus turn):
-  ```
-  cd web && WEIRWOOD_MODEL=claude-opus-4-8 ~/.deno/bin/deno run -A --node-modules-dir=auto --env-file=.env scripts/dev.ts
-  ```
-  (swap `WEIRWOOD_MODEL=claude-sonnet-4-6` for cheap iteration — chain/receipt rendering is identical)
-- **DEMO** (no key, no cost; replays a fixture):
-  ```
-  cd web && WEIRWOOD_DEMO=1 ~/.deno/bin/deno run -A scripts/dev.ts
-  ```
-- Open **http://127.0.0.1:8766/** . Inspect/kill the server: `lsof -nP -iTCP:8766 -sTCP:LISTEN` / `pkill -f scripts/dev.ts`.
-- `npm run dev` from `web/` = the python static-only preview (no backend) — fine for pure CSS/layout work.
+## DONE in S176 — DO NOT REDO (all in the WORKING TREE, **uncommitted**)
+- **Prose quality FIXED** (`agent.ts` SYSTEM_PROMPT): added an **"Evidence discipline"** block (setup-then-quote, one quote/beat, ≤~20 words, no standalone block-quotes, quote-must-do-a-job) + fixed the **"Ask your questions…" opener leaking** into real answers + added a **MANDATORY-walk** rule (model must call walk_chain for causal Qs). Verified by curl: in-context set-up quotes, no dumps, no opener leak.
+- **Bloodraven = DEFAULT persona** (decided this session, board-backed). The flat **Loremaster (zero-personality, literal)** is a *later* toggle — **not built yet**; when built it INHERITS the same Evidence Discipline block (neutral register, not "no rules").
+- **walk_chain pruned + enriched** (`web/src/lib/graph.ts`): `DEFAULT_MAX_DEPTH=2`, `MAX_LINKS_PER_DIRECTION=12`, causal-only by default; links now carry `source_name/target_name/source_type/target_type` (the slug→name fix). `types.ts` updated; `graph_test.ts` updated (8 tests pass). Verified curl: "what led to the Red Wedding" → **8 clean links** with proper names ("Robb weds Jeyne Westerling →TRIGGERS→ the conspiracy →CAUSES→ Red Wedding", downstream to Roose's wardenship + Catelyn→Stoneheart).
+- **Frontend chain re-rendered to the annotated spine (Mockup A)** in `app.js`/`app.css`: node cards w/ type, hub highlight, inline edge evidence (quote+cite+tier always visible), `cleanQuote()` strips `(wiki:…)` markup, repeat-node slim, bounded scroll. ⚠️ **NOT visually verified end-to-end** (Sonnet variance kept the browser from walking; curl confirms the data shape). The Phase-2 rebuild replaces much of this anyway.
+- **Bug fixed:** a failed/empty turn no longer wipes the featured chain (`lastGoodChain` persistence in `app.js`).
+- **About page DONE + verified:** page opens straight to chat; the "what is this" blurb → a toggled **About view** (header **About** btn ↔ "← Chat"; `#about-back`). `body.about-open` swaps chat ⇄ about.
+- **Prose-first on mobile** (CSS `order`). The full-width **"Band" chain-on-top is RETIRED** (it sat above the prose) — chain now lives in the **right rail (desktop) / below (mobile)**. The Band half of the Band/Spine toggle is gone.
+- **Backdrop opacity** 0.06 → **0.11** (`tokens.css`).
+- **Dev caching fixed:** `dev.ts` serveDir sends `cache-control: no-store`; `index.html` asset links carry `?v=176b`. **Bump `?v=` when you edit CSS/JS** so pre-cached browsers refresh.
 
-## What the harness session set up (don't redo)
-- `web/scripts/dev.ts` — LIVE + DEMO dev server (NEW).
-- `web/package.json` — npm aliases for the static preview (NEW; harmless — the app itself is Deno + a Python build step).
-- `web/.gitignore` — ignores `.env`, `node_modules` (NEW).
-- `web/.env` — holds the Anthropic API key (gitignored). **Verified live:** Opus answered
-  "What led to the Red Wedding?" for **$0.0248**, `walk_chain` returned **12 links** (rich),
-  real prose + real book quotes streamed.
-- `web/netlify/edge-functions/chat.ts` — MODEL is now env-overridable:
-  `Deno.env.get("WEIRWOOD_MODEL") ?? "claude-opus-4-8"`. **Deploy default (Opus) UNCHANGED.**
+## THE DESIGN SPEC — advisory-board synthesis (3 advisors converged, Matt approved)
+Rebuild the chain display as:
+1. **Dedup at the DATA layer** — each node appears **ONCE**; the many edges that touch it become multiple connectors; show a small **degree badge `·N`**. This kills the "Siege of Riverrun ×6" wall.
+2. **Progressive disclosure (the core of "keep the detail, show it better"):** default view = the clean **CAUSES/TRIGGERS/MOTIVATES spine**; the full **ENABLES** precondition web renders **dimmed/indented behind ONE "show preconditions (+N)" toggle** — same view, no layout swap. Matt wants the rich detail KEPT (Robb's campaign, Ned's arc), just one tap away — **NOT hard-pruned**.
+   - **Backend need:** the toggle must have the ENABLES data WITHOUT a 2nd model round-trip. Cleanest: have `walkChain` also return an `enables` array (ENABLES links within the bound), or return full(causal+ENABLES) tagged by `edge_type` and let the frontend split. Keep the depth bound + dedup so it stays manageable. (Today `full=true` is discouraged in the prompt because it floods — reconcile: the UI fetches the fuller set, the model still narrates the causal spine.)
+3. **Vertical layered spine, NOT boxes-and-arrows** (arrows die at ~320px and on phones). Layout by topological/causal depth.
+4. **Interaction:** hover a node → highlight its edges + identity/degree tip; hover an edge → quote+cite+tier; **click a node → full dossier (Mockup C)**. **Mobile (no hover) = tap-to-expand accordion rows.**
+5. **Every node interactive** → add a **node-lookup endpoint**: `GET /api/node?slug=` → `readNode(slug)` (+ optionally `neighbors(slug)`) so any chain node opens its card. New edge function `web/netlify/edge-functions/node.ts` + route in `dev.ts` (+ map in `netlify.toml` for deploy, later).
+6. **Prose first on every screen** (done on mobile; ensure desktop prose leads, chain in the rail).
+7. **Stretch marquee:** click a causal claim in the prose → its exact edge lights up in the chain. Defer until the above is tight.
 
-## FINDINGS (carry forward)
-- **Subscription auth does NOT work** with the SDK. chat.ts:12–14 claims local runs on Matt's
-  Claude subscription with no key — that is FALSE; the public `@anthropic-ai/sdk` needs an
-  explicit key/token and can't use the Claude Code OAuth. A web app always needs an API key
-  (so does deploy; key now lives in `web/.env`). → small DOC FIX: correct that comment.
-- **Live slug→name:** live `walk_chain` links carry only slugs; the front-end `pretty()`s them
-  → "Death of joffrey baratheon". Resolve slug→proper-name (or title-case) for live labels. (Item #4.)
+**Mockups Matt picked (S176, via show_widget):** **Mockup A** (annotated spine) for the chain; **Mockup C** (node dossier) for the click-through.
 
-## THE DEMO (Matt's plan — Tywin placeholder REMOVED S175)
-- The Tywin placeholder (fixture JSON + hand-written prose + landing auto-load + its build-script
-  generation) is GONE (S175). The landing opens clean; `dev.ts` DEMO mode now streams an honest
-  "run LIVE" notice (no fixture read, no fake prose). The DEMO scaffold is kept for the real
-  recording below.
-- Matt wants a **multi-turn Red Wedding conversation** as the public demo. His three questions:
-  1. "What led to the Red Wedding?"
-  2. "More detail on this character's motives." (follow-up — thread turn-1 history so "this character" resolves)
-  3. "What were the ramifications of the red wedding?"
-- Model = **record once → replay free forever** (so public visitors don't spend Matt's credits and
-  the showpiece is deterministic). Build the capture: tee the LIVE SSE to disk (or a deliberate
-  capture), then wire `dev.ts` DEMO to replay the recording (turn chosen by history length).
-- Capture on **Opus 4.8** (deploy model, best prose). **No hand-written prose** (Matt firm).
+## BUILD ORDER (green-lit by Matt — run with it, no scope tweak)
+1. **Dedup spine + "show preconditions (+N)" toggle** (backend returns spine+enables; frontend dedups + dims the ENABLES branches behind the toggle).
+2. **Hover-peek + click-dossier on every node** (add `/api/node` endpoint; wire hover/click; mobile accordion).
+3. **Stretch:** prose↔edge highlight binding.
 
-## OPEN DESIGN ITEMS — the actual eval (resolve with Matt, live in the UI)
-1. **Chain enrichment — "see the edges."** Matt: the chain is cool but could be enriched; he
-   wants to literally SEE the edges/relationships more. He chose **"mock a few, let me pick."**
-   Build 2–3 mockups (use the `visualize` / show_widget tool): (a) **inline edge-evidence**
-   (book quote + cite shown on each link), (b) **branches/neighbors** (side-edges off the spine),
-   (c) a **node-link graph view** (boxes + arrows). Let him choose, then build it into the chain.
-2. **Default chain layout** — Band (full-width "wow") vs Spine (side-rail density) vs keep the
-   toggle. Both built, deduped, localStorage-persisted.
-3. **BUG — failed/empty turn wipes the featured chain.** `app.js` `ask()` runs `turn=freshTurn()`
-   BEFORE the fetch, so a failed or empty turn blanks the showpiece. Fix: keep the last good
-   chain until a *successful* new one replaces it.
-4. **Live slug→name polish** — resolve slug→proper-name (or title-case) for live chain labels.
-5. **Weirwood backdrop opacity** — `--weirwood-opacity: 0.06` (very faint); Matt may want
-   ~0.10–0.12. One-line token in `tokens.css`.
-
-## Read first
-- `web/public/index.html` + `app.css` + `app.js` ← what you polish.
-- `web/public/theme/tokens.css` ← ONE-FILE theme; keep styling token-driven (warm dark ground,
-  bone text, dusty red `--c-accent #c2664c`; edge colours `--c-edge-causes/triggers/motivates/enables`).
-- `working/chat-ui/alpha-design.md` §5 (persona/UI) + §6 (look/receipts).
+## KEY FILES
+- `web/public/index.html`, `app.css`, `app.js` — the chain UI + About view.
+- `web/public/theme/tokens.css` — ONE-FILE theme (edge colours `--c-edge-causes/triggers/motivates/enables`; `--weirwood-opacity`).
+- `web/src/lib/` — `graph.ts` (walkChain/neighbors), `types.ts`, `read-node.ts`, `mod.ts` (createTools), `*_test.ts`.
+- `web/netlify/edge-functions/` — `agent.ts` (SYSTEM_PROMPT + TOOL_DEFS + runAgent), `chat.ts` (handler, MODEL env). Add `node.ts` here.
+- `web/scripts/dev.ts` — local dev server (add the `/api/node` route here for local).
+- `working/chat-ui/alpha-design.md` — design doc (§5 persona/UI, §6 look/receipts).
 
 ## LOCKED — do NOT reopen
-Netlify Edge (Deno/TS) · deploy model `claude-opus-4-8` · Option A tool-use · curated-MVP ·
-repo PRIVATE → Netlify (publishing CLOSED) · SSE contract (render what the function emits) ·
-no mocked AI prose · **a web app needs an API key — there is no subscription path** · key lives in `web/.env`.
+Netlify Edge (Deno/TS) · deploy model `claude-opus-4-8` · **Bloodraven DEFAULT** · Option A tool-use ·
+curated-MVP · repo **PRIVATE → Netlify** (publishing CLOSED) · SSE contract (render what the function emits) ·
+no mocked AI prose · **prose-first on every screen** · **Band-on-top retired** · **keep-detail-via-progressive-disclosure (NOT hard-prune)** · a web app needs an API key — key lives in `web/.env`.
 
-## After design settles — GATED ship steps (Matt's go-ahead)
-1. Capture the real multi-turn RW demo (above) → wire DEMO replay to it.
-2. Deploy private repo → Netlify + set `ANTHROPIC_API_KEY` in Netlify env. On success, update
-   memory `project_real_goal_graph_for_agents` with the live URL.
+## GOTCHAS
+- **Model variance:** Sonnet sometimes skipped `walk_chain` → empty chain panel. A mandate is in the prompt now; **verify the walk fires** (curl reliable; in-browser, reload to clear history which biases toward answering from memory).
+- **Browser caching:** bump `?v=` in `index.html` on every CSS/JS edit.
+- **Don't commit** unless Matt asks. All S176 work is uncommitted in the working tree — consider a checkpoint commit early if Matt approves.
 
 ## DO NOT
-deploy without Matt's go-ahead · mint graph edges/nodes · auto-run `/endsession` · reopen the LOCKED list.
+deploy without Matt's go-ahead · mint graph edges/nodes · run `/endsession` without permission · reopen the LOCKED list.

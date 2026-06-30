@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-30 (refreshed after S175)  
+**Generated:** 2026-06-30 (refreshed after S176)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-30-chat-ui-design.md` | 2026-06-30 | Chat-UI alpha — DESIGN polish + review | **LIVE** (meta) → fires as **S176** | Sonnet 4.6 | Front-end CODE done + dry-validated (S174); local-live dev server + Tywin-placeholder REMOVAL done & committed (S175) → landing opens clean, DEMO streams an honest "run LIVE" notice. Fresh-context DESIGN session (S176, **ASK Matt for his design notes + enrichment ideas first**): chain "see-the-edges" mockups (inline edge-evidence / branches / node-link — `show_widget`, let Matt pick), pick the default "chain walked" layout (**Band** vs **Spine** vs keep toggle — both built S174, `localStorage`-persisted), the failed-turn-wipes-chain bug, live slug→name polish, weirwood backdrop opacity. THEN the two GATED ship steps (real API $ → Matt's go-ahead): capture a REAL multi-turn Red Wedding transcript → wire DEMO replay to it (no mocked AI prose), then `netlify dev` proof → deploy private repo to Netlify + `ANTHROPIC_API_KEY` env. |
+| `2026-06-30-chat-ui-design.md` | 2026-06-30 | Chat-UI alpha — chain-display REBUILD (Phase 2) | **LIVE** (meta) → fires as **S177** | Sonnet 4.6 | **S176 DESIGN-eval DONE:** prose-quality FIXED (Evidence-Discipline block + opener-leak fix + mandatory-walk), `walkChain` depth-capped + slug→name enriched, chain re-rendered to the Mockup-A annotated spine, **About page** (page opens to chat; "what is this" blurb → toggled About view), prose-first on mobile, full-width Band-on-top retired, backdrop 0.06→0.11, dev caching fixed (no-store + asset `?v=`). **Bloodraven = DEFAULT persona** (a 4-advisor board overrode the earlier Loremaster-default lean). **S177 = the chain-display REBUILD (green-lit):** dedup spine + "show preconditions (+N)" toggle (keep the detail, progressive disclosure — NOT hard-prune) → hover-peek + click-dossier on every node (add a `/api/node` lookup endpoint) → stretch prose↔edge highlight. THEN the GATED ship steps (real API $ → Matt's go-ahead): capture a REAL multi-turn Red Wedding transcript → wire DEMO replay (no mocked AI prose) → deploy private repo to Netlify + `ANTHROPIC_API_KEY`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---

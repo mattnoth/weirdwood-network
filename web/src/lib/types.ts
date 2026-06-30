@@ -71,6 +71,13 @@ export interface ChainLink {
   source: string;
   edge_type: string;
   target: string;
+  /** Display names + types looked up from the nodes map (slug → record). The
+   *  receipts panel renders these so live chains read "Red Wedding", not the raw
+   *  slug "red-wedding". Absent only when the slug has no node record. */
+  source_name?: string;
+  target_name?: string;
+  source_type?: string;
+  target_type?: string;
   evidence_quote: string | null;
   ref: string | null;
   tier: number | null;
@@ -92,6 +99,10 @@ export interface NeighborLink {
   source: string;
   edge_type: string;
   target: string;
+  source_name?: string;
+  target_name?: string;
+  source_type?: string;
+  target_type?: string;
   evidence_quote: string | null;
   ref: string | null;
   tier: number | null;

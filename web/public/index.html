@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Weirwood Network</title>
   <meta name="description" content="A book-grounded ASOIAF loremaster, standing on a hand-built knowledge graph." />
-  <link rel="stylesheet" href="/theme/tokens.css" />
-  <link rel="stylesheet" href="/app.css" />
+  <link rel="stylesheet" href="/theme/tokens.css?v=176b" />
+  <link rel="stylesheet" href="/app.css?v=176b" />
 </head>
 <body>
   <!-- Low-contrast weirwood backdrop. Presence is token-controlled
@@ -44,15 +44,18 @@
           <p class="tagline">a thousand eyes, and one</p>
         </div>
       </div>
-      <button class="about-toggle" id="about-toggle" aria-expanded="false" aria-controls="about-panel">
-        How it works
+      <button class="about-toggle" id="about-toggle" aria-expanded="false" aria-controls="about-view">
+        About
       </button>
     </div>
   </header>
 
-  <!-- Out-of-character framing (design §5, REQUIRED) — the page chrome carries
-       the explanation; the bot itself never announces what it is. -->
-  <section class="intro" id="about-panel">
+  <!-- About view (toggled by the header "About" button). The page opens straight
+       to the chat; this out-of-character framing (design §5) lives here, off the
+       top of the page, and replaces the chat when shown. -->
+  <section class="about-view" id="about-view" aria-label="About the Weirwood Network" hidden>
+    <button class="about-back" id="about-back" type="button">← Back to the chat</button>
+    <h2 class="about-title">What is the Weirwood Network?</h2>
     <p class="intro-lead">
       A book-grounded loremaster for <em>A Song of Ice and Fire</em>. Ask a question
       and it answers in the voice of an old record-keeper — dropping the real lines
@@ -61,34 +64,31 @@
       knowledge graph to get there. It does not bluff: every claim traces to the
       graph or the books.
     </p>
-    <details class="intro-more">
-      <summary>What is the Weirwood Network?</summary>
-      <div class="intro-body">
-        <p>
-          The Weirwood Network is a hand-built knowledge graph of the ASOIAF books:
-          <strong>~8,500 typed nodes</strong> (characters, events, places, houses,
-          artifacts) joined by <strong>~23,000 typed edges</strong>
-          (<span class="et et-causes">CAUSES</span>,
-          <span class="et et-triggers">TRIGGERS</span>,
-          <span class="et et-motivates">MOTIVATES</span>,
-          <span class="et et-enables">ENABLES</span>, and more).
-        </p>
-        <p>
-          Every node and edge carries a <strong>confidence tier</strong> — Tier&nbsp;1
-          is a verbatim book line with a <code>chapter:line</code> citation; Tier&nbsp;2
-          is sourced from the wiki; higher tiers are interpretive. That gap is
-          load-bearing: the loremaster quotes only what the graph can cite.
-        </p>
-        <p>
-          When you ask a question, an agent <em>resolves</em> your phrase to a node,
-          <em>reads</em> it, and <em>walks</em> the causal chain or its neighbours —
-          then narrates what it found. The <strong>“chain walked” panel</strong> beside
-          the answer is rendered straight from that typed graph traversal, not scraped
-          from the prose. That is the proof there is a real graph underneath, not a
-          model freestyling.
-        </p>
-      </div>
-    </details>
+    <div class="intro-body">
+      <p>
+        The Weirwood Network is a hand-built knowledge graph of the ASOIAF books:
+        <strong>~8,500 typed nodes</strong> (characters, events, places, houses,
+        artifacts) joined by <strong>~23,000 typed edges</strong>
+        (<span class="et et-causes">CAUSES</span>,
+        <span class="et et-triggers">TRIGGERS</span>,
+        <span class="et et-motivates">MOTIVATES</span>,
+        <span class="et et-enables">ENABLES</span>, and more).
+      </p>
+      <p>
+        Every node and edge carries a <strong>confidence tier</strong> — Tier&nbsp;1
+        is a verbatim book line with a <code>chapter:line</code> citation; Tier&nbsp;2
+        is sourced from the wiki; higher tiers are interpretive. That gap is
+        load-bearing: the loremaster quotes only what the graph can cite.
+      </p>
+      <p>
+        When you ask a question, an agent <em>resolves</em> your phrase to a node,
+        <em>reads</em> it, and <em>walks</em> the causal chain or its neighbours —
+        then narrates what it found. The <strong>“chain walked” panel</strong> beside
+        the answer is rendered straight from that typed graph traversal, not scraped
+        from the prose. That is the proof there is a real graph underneath, not a
+        model freestyling.
+      </p>
+    </div>
   </section>
 
   <main class="stage">
@@ -127,6 +127,6 @@
     a fan project · quotes © George R.R. Martin, used for commentary
   </footer>
 
-  <script src="/app.js" type="module"></script>
+  <script src="/app.js?v=176b" type="module"></script>
 </body>
 </html>

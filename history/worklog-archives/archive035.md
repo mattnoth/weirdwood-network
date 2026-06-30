@@ -1,7 +1,7 @@
 # Worklog archive 035
 
 > Archived Session Log entries from `worklog.md` (graph + meta track), oldest-batch-out per CLAUDE.md rule #8.
-> This file holds up to 5 entries. First entry: Session 167 (archived 2026-06-29, S172). Then: Session 168 (archived 2026-06-29, S173).
+> This file holds up to 5 entries. First entry: Session 167 (archived 2026-06-29, S172). Then: Session 168 (archived 2026-06-29, S173). **FULL at 5: Sessions 167–171** (S171 archived 2026-06-30, S176). Next batch starts a new `archive036.md`.
 
 ---
 
@@ -55,3 +55,16 @@
 - **Repo layout folded into §8:** new `web/` (public page + `netlify/functions/chat` + `src/lib` JS retrieval tools + gitignored `web/data/` bundle) + `scripts/build-chat-export.py`; allowlist is a bundle-SIZE guard only (never ship the 1.8GB `graph/edges/` backup).
 **Decisions:** Publishing/copyright is CLOSED — never re-float (Active Decisions S170 + `project_publish_settled`). Repo private + co-located `web/`. Local=subscription quota, deploy=API key.
 **What's next:** **chat-UI alpha BUILD** unchanged track — `progress/continue-prompts/2026-06-29-chat-ui-alpha.md` (`/continue chat-ui-alpha`), Opus 4.8; start §8 step-0 spike (streaming Edge-vs-sync + persona Sonnet-vs-Opus) → MVP vertical slice; resolve remaining §9 opens (retrieval shape confirmed Option A, model, runtime, failure-UX, session-state, telemetry scope). Parked: granular dips, D&E Pass-1, SIFT.
+
+---
+
+### Session 171 — Chat-UI alpha BUILD: step-0 spike + Foundation chunk — [Track: meta] (2026-06-29)
+**Detail:** `history/session-details/session-171.md` (the spike + persona-output judging + the 4-chunk plan). Design §0 table + `web/README.md` carry specifics. **Model:** Opus 4.8 orchestrator; persona smoke-test ran `claude -p` on Sonnet 4.6 + Opus 4.8 (subscription quota, no API $). No graph writes; no harvest rows (queue at 0).
+**Context:** Fresh BUILD session per the S170 handoff. Matt confirmed Option A / MVP-then-live / smoke-test-then-pick / run-the-spike, then (rightly) asked to split the A-to-Z build across sessions. This session = the step-0 spike + the **Foundation chunk** only.
+**Changes made:**
+- **Step-0 spike (the GATE) resolved both opens.** RUNTIME = **Netlify Edge Functions (Deno/TS)** — Netlify docs confirm the 50 ms limit is **CPU-only and EXCLUDES time waiting on the Claude API**, with a 40 s response-header window → a streaming multi-tool turn fits; a Node function's 10 s (free)/26 s wall-clock would strangle the agentic loop (Background Functions out — can't stream). MODEL = **`claude-opus-4-8`**, swappable via one config constant — the persona smoke-test (3 calibration questions × both models on the real Bloodraven prompt) had Opus execute the tidbit-don't-volunteer + gap-restraint rules + the cite markedly better than Sonnet 4.6 (Sonnet good but clipped/cold).
+- **Foundation chunk BUILT (mechanical; no API, no deploy):** `scripts/build-chat-export.py` (graph → allowlisted static JSON, NO LLM/network) → `web/data/` bundle (gitignored): `nodes.json` 3.8 MB (8,475 nodes / 6,059 quotes), `edges.json` 4.1 MB (23,330 edges), `alias-map.json` 863 KB (12,029 phrases), `featured-tywin.json`. **TOTAL 8.8 MB → the whole curated graph fits in memory, no lazy-loading.** Featured Tywin chain VERIFIED = the full **7-link** arc (poisoned hairnet → Joffrey's death → Tyrion accused → trial → Oberyn → Jaime frees → Tysha reveal → assassination), every link cited, 8 beats × 2–5 quotes, closing "did not, in the end, shit gold" (`asos-tyrion-11:269`).
+- **`web/` scaffold:** `public/theme/tokens.css` (the one-file theme layer — dark / soft / dusty-red per Matt's brief), `public/index.html` (palette-placeholder landing), `netlify.toml` (Edge runtime + build command), contract READMEs in `web/`, `web/src/lib/`, `web/netlify/edge-functions/`. `.gitignore` += `web/data/`, `node_modules/`, `.netlify/`.
+- **Docs:** design §0 anti-drift table flipped (Foundation rows ✅ + locked-decisions banner) + §9 RESOLVED-S171 banner; new `web/README.md` (existence-truth + the data-bundle shapes).
+**Decisions:** Runtime = Edge/Deno (spike). Model = Opus 4.8, swappable (smoke-test). Build is a **4-chunk multi-session split** — Foundation ✅ → retrieval-core → function → front-end+ship — to keep each context lean (Matt's call).
+**What's next:** **retrieval-core chunk** — `progress/continue-prompts/2026-06-29-chat-ui-retrieval-core.md` (Session 172, **Sonnet 4.6** — mechanical TS porting, no API): port resolve / walkChain / neighbors / readNode to Deno + unit-test vs the bundle. Then the Edge function (Opus), then front-end + deploy. Parked: granular dips, D&E Pass-1, SIFT.
