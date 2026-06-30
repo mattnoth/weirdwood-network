@@ -54,8 +54,9 @@ CAUSES/TRIGGERS/MOTIVATES both directions (pass `{full:true}` to also follow ENA
 cd web && deno task test     # deno test --allow-read src/lib/  → 21 passed
 ```
 
-Two required assertions (handoff): `resolve("death of Tywin")` → `assassination-of-tywin-lannister`,
-and `walkChain` on it returns the 7-link chain matching `web/data/featured-tywin.json`.
+Two core assertions: `resolve("death of Tywin")` → `assassination-of-tywin-lannister`,
+and `walkChain` on that real node returns its 7-link upstream causal chain. (These
+pivot on a real, permanent graph node as the test fixture — not on any demo bundle.)
 
 ## Deferred — live `search_chapters` / `read_passage`
 

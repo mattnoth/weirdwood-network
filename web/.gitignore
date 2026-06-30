@@ -1,0 +1,9 @@
+# Local secrets — NEVER commit. The dev server (scripts/dev.ts) and Netlify both
+# read ANTHROPIC_API_KEY from the environment; if you stash it in a local env file,
+# keep it here, not in git.
+.env
+.env.*
+
+# Local npm install for `deno run --node-modules-dir=auto` (dev only; also covered
+# by the root .gitignore, kept here for clarity).
+node_modules/

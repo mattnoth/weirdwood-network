@@ -50,9 +50,9 @@ function pretty(slug) {
 }
 
 // Normalize a typed-edge link from EITHER the live walk_chain/neighbors shape
-// ({source, target, ref}) OR the featured-tywin.json shape ({source_name,
+// ({source, target, ref}) OR the build-export chain shape ({source_name,
 // target_name, evidence_ref}) into one render contract. Slug stays in
-// source/target on both; the display name is *_name (featured) or prettified.
+// source/target on both; the display name is *_name (when present) or prettified.
 function normLink(l) {
   return {
     sourceSlug: l.source || "",
@@ -477,51 +477,6 @@ async function ask(question) {
   }
 }
 
-// ---- Featured exchange (the design fixture; real chain + quotes) ------------
-//
-// DESIGN FIXTURE — NOT shipped-as-real content. featured-tywin.json carries the
-// REAL graph chain, beats, and book quotes; the answer prose below is a layout
-// PLACEHOLDER only. Before the public deploy, replace this with a CAPTURED REAL
-// transcript (run the live function over the seed question, save its genuine
-// model answer) per Matt's "no mocked AI responses" rule. Tracked in the worklog.
-const FEATURED_PLACEHOLDER_ANSWER =
-  "[ design placeholder — to be replaced by a captured real model answer before deploy ]\n\n" +
-  "A girl took a stone from her hair, and a king choked on his wine. They named the dwarf for it. " +
-  "He was tried, and a viper died screaming on his behalf, and a brother came in the dark to cut him loose — " +
-  "and to give him, too late, the truth of a girl called Tysha. So the small man climbed a ladder to his father's " +
-  "chamber, and the crossbow spoke twice.";
-
-async function loadFeatured() {
-  let data;
-  try {
-    const res = await fetch("/data/featured-tywin.json");
-    if (!res.ok) throw new Error(String(res.status));
-    data = await res.json();
-  } catch {
-    renderReceipts();
-    return;
-  }
-  renderFeatured(data);
-}
-
-function renderFeatured(data) {
-  addUserBubble(data.question || "Who killed Tywin Lannister, and why?");
-
-  const bot = addBotBubble();
-  bot.setText(FEATURED_PLACEHOLDER_ANSWER);
-  if (data.closing?.text) {
-    bot.bubbleEl.append(el("blockquote", {}, `“${data.closing.text}”`));
-  }
-  bot.finish();
-
-  turn = freshTurn();
-  if (Array.isArray(data.chain)) addChainLinks(data.chain, data.title || "");
-  for (const beat of data.beats || []) {
-    if (beat.slug) addNode(beat.slug, { name: beat.name, type: beat.type, quotes: beat.quotes || [] });
-  }
-  renderReceipts();
-}
-
 // ---- Wiring ----------------------------------------------------------------
 
 $("#composer").addEventListener("submit", (e) => {
@@ -559,4 +514,5 @@ aboutToggle.addEventListener("click", () => {
   if (open) details.scrollIntoView({ behavior: "smooth", block: "nearest" });
 });
 
-loadFeatured();
+// Clean landing: empty thread + empty receipts rail, ready for the first question.
+renderReceipts();

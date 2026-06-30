@@ -1,0 +1,9 @@
+{
+  "name": "weirwood-chat-web",
+  "private": true,
+  "description": "Convenience npm aliases for local preview only. The app itself is Deno (deno.json) + Python build (scripts/build-chat-export.py); there are no Node dependencies.",
+  "scripts": {
+    "dev": "python3 -m http.server 8766 --bind 127.0.0.1 --directory public",
+    "preview": "python3 -m http.server 8766 --bind 127.0.0.1 --directory public"
+  }
+}

@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-29 (refreshed after S171)  
+**Generated:** 2026-06-30 (refreshed after S175)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-06-30-chat-ui-design.md` | 2026-06-30 | Chat-UI alpha — DESIGN polish + review | **LIVE** (meta) → fires as **S175** | Sonnet 4.6 | Front-end CODE is done + dry-validated (S174). Fresh-context DESIGN session: pick the default "chain walked" layout (**Band** full-width horizontal vs **Spine** side-rail vs keep the toggle — both built S174, deduped nodes, `localStorage`-persisted), work through Matt's remaining review notes (ASK first), polish (live slug→name, weirwood backdrop opacity). THEN the two GATED ship steps (real API $ → Matt's go-ahead): capture a REAL featured transcript to replace the placeholder (no mocked AI prose; "pre-generate real & rotate"), then `netlify dev` proof → deploy private repo to Netlify + `ANTHROPIC_API_KEY` env. |
+| `2026-06-30-chat-ui-design.md` | 2026-06-30 | Chat-UI alpha — DESIGN polish + review | **LIVE** (meta) → fires as **S176** | Sonnet 4.6 | Front-end CODE done + dry-validated (S174); local-live dev server + Tywin-placeholder REMOVAL done & committed (S175) → landing opens clean, DEMO streams an honest "run LIVE" notice. Fresh-context DESIGN session (S176, **ASK Matt for his design notes + enrichment ideas first**): chain "see-the-edges" mockups (inline edge-evidence / branches / node-link — `show_widget`, let Matt pick), pick the default "chain walked" layout (**Band** vs **Spine** vs keep toggle — both built S174, `localStorage`-persisted), the failed-turn-wipes-chain bug, live slug→name polish, weirwood backdrop opacity. THEN the two GATED ship steps (real API $ → Matt's go-ahead): capture a REAL multi-turn Red Wedding transcript → wire DEMO replay to it (no mocked AI prose), then `netlify dev` proof → deploy private repo to Netlify + `ANTHROPIC_API_KEY` env. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---

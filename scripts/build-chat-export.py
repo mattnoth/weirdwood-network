@@ -14,7 +14,6 @@ Outputs (web/data/):
   alias-map.json      {phrase: [{slug, category}]}            — resolve(phrase) -> slugs
   nodes.json          {slug: {name, type, identity, quotes}}  — read_node(slug)
   edges.json          [{edge_type, source, target, quote, ref, tier, relation}] — walk_chain / neighbors
-  featured-tywin.json {question, chain[], beats[], closing}   — pre-rendered landing exchange
   manifest.json       {built_at?, counts, sizes}              — provenance / sanity
 
 Usage:
@@ -27,21 +26,13 @@ Design: working/chat-ui/alpha-design.md §8 (Foundation chunk, Session 171).
 import argparse
 import json
 import re
-import subprocess
-import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 NODES_DIR = REPO / "graph/nodes"
 EDGES_FILE = REPO / "graph/edges/edges.jsonl"
 ALIAS_LOOKUP = REPO / "working/wiki/data/all-node-alias-lookup.json"
-GRAPH_QUERY = REPO / "scripts/graph-query.py"
 OUT_DIR = REPO / "web/data"
-
-FEATURED_SLUG = "assassination-of-tywin-lannister"
-
-# Causal edge types that form a "chain walked" (must match graph-query --causal-chain).
-CAUSAL_TYPES = {"CAUSES", "TRIGGERS", "MOTIVATES"}
 
 # Edge fields we keep in the slim export (drop provenance noise).
 # Renamed on the wire to short keys to shrink the bundle.
@@ -195,70 +186,6 @@ def build_alias_map():
     return out
 
 
-def build_featured(nodes):
-    """Pre-render the Tywin landing exchange from graph-query --causal-chain --json.
-
-    Produces the typed-edge chain (oldest cause -> the assassination) plus, for each
-    beat node, its name + quotes, so the page can render a static transcript with
-    real receipts without a live API call.
-    """
-    res = subprocess.run(
-        [sys.executable, str(GRAPH_QUERY), "--causal-chain", FEATURED_SLUG, "--json"],
-        capture_output=True, text=True, cwd=str(REPO),
-    )
-    if res.returncode != 0:
-        print(f"  ! graph-query failed for {FEATURED_SLUG}:\n{res.stderr}", file=sys.stderr)
-        return None
-    chain = json.loads(res.stdout)
-
-    def node_name(slug):
-        return nodes.get(slug, {}).get("name", slug)
-
-    # upstream is returned deepest-first; reverse to read oldest-cause -> assassination.
-    upstream = list(reversed(chain.get("upstream", [])))
-    links = []
-    beat_slugs = []
-    for link in upstream:
-        s, t = link["source_slug"], link["target_slug"]
-        links.append({
-            "source": s, "source_name": node_name(s),
-            "edge_type": link["edge_type"],
-            "target": t, "target_name": node_name(t),
-            "evidence_quote": link.get("evidence_quote"),
-            "evidence_ref": link.get("evidence_ref"),
-            "tier": link.get("confidence_tier"),
-        })
-        for sl in (s, t):
-            if sl not in beat_slugs:
-                beat_slugs.append(sl)
-
-    beats = []
-    for sl in beat_slugs:
-        nd = nodes.get(sl, {})
-        beats.append({
-            "slug": sl,
-            "name": nd.get("name", sl),
-            "type": nd.get("type", ""),
-            "quotes": nd.get("quotes", []),
-        })
-
-    # The landing one-liner: prefer the famous closing quote on the target node.
-    closing = None
-    for q in nodes.get(FEATURED_SLUG, {}).get("quotes", []):
-        if "shit gold" in q["text"].lower():
-            closing = q
-            break
-
-    return {
-        "slug": FEATURED_SLUG,
-        "question": "Who killed Tywin Lannister, and why?",
-        "title": node_name(FEATURED_SLUG),
-        "chain": links,
-        "beats": beats,
-        "closing": closing,
-    }
-
-
 def write_json(path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return path.stat().st_size
@@ -285,15 +212,11 @@ def main():
     edges = load_edges()
     print("  · building alias map ...")
     alias_map = build_alias_map()
-    print("  · pre-rendering featured Tywin exchange ...")
-    featured = build_featured(nodes)
 
     sizes = {}
     sizes["nodes.json"] = write_json(OUT_DIR / "nodes.json", nodes)
     sizes["edges.json"] = write_json(OUT_DIR / "edges.json", edges)
     sizes["alias-map.json"] = write_json(OUT_DIR / "alias-map.json", alias_map)
-    if featured:
-        sizes["featured-tywin.json"] = write_json(OUT_DIR / "featured-tywin.json", featured)
 
     quotes_total = sum(len(n["quotes"]) for n in nodes.values())
     nodes_with_quotes = sum(1 for n in nodes.values() if n["quotes"])
@@ -305,7 +228,6 @@ def main():
             "quotes_total": quotes_total,
             "edges": len(edges),
             "alias_phrases": len(alias_map),
-            "featured_chain_links": len(featured["chain"]) if featured else 0,
         },
         "sizes_bytes": sizes,
     }
@@ -314,10 +236,6 @@ def main():
     print("\nBUILD COMPLETE")
     print(f"  nodes={len(nodes)}  (with quotes={nodes_with_quotes}, quotes={quotes_total})")
     print(f"  edges={len(edges)}  alias_phrases={len(alias_map)}")
-    if featured:
-        print(f"  featured chain links={len(featured['chain'])}  beats={len(featured['beats'])}")
-        if featured.get("closing"):
-            print(f"  featured closing: \"{featured['closing']['text'][:60]}...\"")
     print("\nFile sizes:")
     total = 0
     for fn, sz in sizes.items():
