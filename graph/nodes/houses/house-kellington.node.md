@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black book bound in bronze, locked, upon a pale blue field (Bleu celeste, a book sable clasped and garnished bronze)
+sigil_image: House_Kellington.svg
 ---
 
 ## Identity
 
 House Kellington is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black book bound in bronze, locked, upon a pale blue field (Bleu celeste, a book sable clasped and garnished bronze) (wiki:House_Kellington)
 
 ## Edges
 

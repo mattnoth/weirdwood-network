@@ -1,0 +1,58 @@
+{
+  "unit_id": "tss",
+  "stem": "tss-dunk-01",
+  "source": "/Users/mnoth/source/asoiaf-chat/sources/chapters/tss/tss-dunk-01.md",
+  "frontmatter_lines": [1, 11],
+  "body_start_line": 13,
+  "total_lines": 1810,
+  "parts": [
+    {
+      "part": 1,
+      "start_line": 13,
+      "scene_label": "Crossroads, dry stream, dam discovered",
+      "approx_words": 4361
+    },
+    {
+      "part": 2,
+      "start_line": 219,
+      "scene_label": "Standfast arrival, Eustace, recruit muster",
+      "approx_words": 4358
+    },
+    {
+      "part": 3,
+      "start_line": 393,
+      "scene_label": "Cellar bath, dream, shield-wall drill failure",
+      "approx_words": 5187
+    },
+    {
+      "part": 4,
+      "start_line": 651,
+      "scene_label": "Morning ride to Coldmoat, first meeting Rohanne",
+      "approx_words": 5171
+    },
+    {
+      "part": 5,
+      "start_line": 913,
+      "scene_label": "Audience chamber, negotiations, slap, expelled",
+      "approx_words": 4783
+    },
+    {
+      "part": 6,
+      "start_line": 1147,
+      "scene_label": "Leaving Coldmoat, Eustace reveals black dragon past",
+      "approx_words": 3568
+    },
+    {
+      "part": 7,
+      "start_line": 1313,
+      "scene_label": "Fire alarm, Widow's army arrives, stream parley",
+      "approx_words": 5212
+    },
+    {
+      "part": 8,
+      "start_line": 1597,
+      "scene_label": "Trial by combat, aftermath, wedding, departure",
+      "approx_words": 4014
+    }
+  ]
+}

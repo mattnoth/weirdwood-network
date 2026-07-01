@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Quarterly, a black saltire on yellow, green and white diamonds (Quarterly clockwise, first and third or, a saltire sable, second and fourth lozengy vert and argent)
+sigil_image: House_Middlebury.svg
 ---
 
 ## Identity
 
 House Middlebury is a noble house from the Reach. (wiki:House_Middlebury)
+
+## Heraldry & Sigil
+
+Quarterly, a black saltire on yellow, green and white diamonds (Quarterly clockwise, first and third or, a saltire sable, second and fourth lozengy vert and argent) (wiki:House_Middlebury)
 
 ## Allegiances
 

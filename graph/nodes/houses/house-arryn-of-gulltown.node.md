@@ -14,11 +14,17 @@ first_available:
   chapter: 41
   source: cite_ref
   pov: "The Princess in the Tower"
+sigil: A sky-blue falcon soaring against a white moon, on a sky-blue field (Bleu celeste, upon a plate a falcon rousant of the field)
+sigil_image: House_Arryn.svg
 ---
 
 ## Identity
 
 House Arryn of Gulltown is a small cadet branch of House Arryn located in the city of Gulltown (wiki:House_Arryn_of_Gulltown). They chose to marry merchants, making them richer than most of their cousins, though they are considered uncouth by the rest of the family (wiki:House_Arryn_of_Gulltown).
+
+## Heraldry & Sigil
+
+A sky-blue falcon soaring against a white moon, on a sky-blue field (Bleu celeste, upon a plate a falcon rousant of the field) (wiki:House_Arryn_of_Gulltown)
 
 ## Origins
 

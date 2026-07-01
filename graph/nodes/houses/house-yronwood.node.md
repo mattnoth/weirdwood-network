@@ -14,11 +14,20 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "The Prophet"
+sigil: A black portcullis grill over sand (Carnation, a portcullis sable)
+words: We Guard the Way
+sigil_image: House_Yronwood.svg
 ---
 
 ## Identity
 
 House Yronwood is a lordly house from Dorne, the most powerful bannermen of House Martell, seated at Yronwood in the foothills of the Red Mountains. Founded during the Age of Heroes (wiki:House_Yronwood).
+
+## Heraldry & Sigil
+
+A black portcullis grill over sand (Carnation, a portcullis sable) (wiki:House_Yronwood)
+
+Words: "We Guard the Way" (wiki:House_Yronwood)
 
 ## Origins
 

@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "Quartered of six: red lips strewn on yellow, yellow skulls strewn on black (Quarterly of six or semé of lips gules, sable semé of skulls or)"
+words: The Choice Is Yours
+sigil_image: House_Lonmouth.svg
 ---
 
 ## Identity
 
 House Lonmouth is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Quartered of six: red lips strewn on yellow, yellow skulls strewn on black (Quarterly of six or semé of lips gules, sable semé of skulls or) (wiki:House_Lonmouth)
+
+Words: "The Choice Is Yours" (wiki:House_Lonmouth)
 
 ## Edges
 

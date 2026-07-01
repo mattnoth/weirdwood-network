@@ -14,11 +14,17 @@ first_available:
   chapter: 14
   source: cite_ref
   pov: "The Soiled Knight"
+sigil: A brown deer, bound and slung on a pole, on white (Argent, on a pole fesswise proper a deer bound and slung brunâtre)
+sigil_image: Hunt.png
 ---
 
 ## Identity
 
 House Hunt is a noble house from the Reach. (wiki:House_Hunt)
+
+## Heraldry & Sigil
+
+A brown deer, bound and slung on a pole, on white (Argent, on a pole fesswise proper a deer bound and slung brunâtre) (wiki:House_Hunt)
 
 ## Allegiances
 

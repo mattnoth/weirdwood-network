@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A checked silver and gold fess on black (Sable, a fess chequy argent and or)
+sigil_image: House_Overton.svg
 ---
 
 ## Identity
 
 House Overton is a noble house from the North (wiki:House_Overton). Their arms are a checked silver and gold fess on black (Tier 2 — semi-canon heraldry source) (wiki:House_Overton).
+
+## Heraldry & Sigil
+
+A checked silver and gold fess on black (Sable, a fess chequy argent and or) (wiki:House_Overton)
 
 ## Allegiances
 

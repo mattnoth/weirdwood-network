@@ -9,11 +9,20 @@ bucket_id: houses-major-recovery
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black bear in a green wood (Barry sapiné vert and vert of a paler variety, a bear sable)
+words: Here We Stand
+sigil_image: House_Mormont.svg
 ---
 
 ## Identity
 
 House Mormont is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black bear in a green wood (Barry sapiné vert and vert of a paler variety, a bear sable) (wiki:House_Mormont)
+
+Words: "Here We Stand" (wiki:House_Mormont)
 
 ## Edges
 

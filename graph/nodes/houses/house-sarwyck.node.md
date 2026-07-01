@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A broken silver sword on red (Gules, a broken sword argent)
+words: Family is Hope, Protect it Always
+sigil_image: House_Sarwyck.svg
 ---
 
 ## Identity
 
 House Sarwyck is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A broken silver sword on red (Gules, a broken sword argent) (wiki:House_Sarwyck)
+
+Words: "Family is Hope, Protect it Always" (wiki:House_Sarwyck)
 
 ## Edges
 

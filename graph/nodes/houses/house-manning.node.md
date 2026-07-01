@@ -9,11 +9,17 @@ bucket_id: houses-crownlands-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
+sigil: A red sea lion between two black pallets on white (Argent, between two pallets sable a sea-lion gules)
+sigil_image: House_Manning.svg
 ---
 
 ## Identity
 
 House Manning is a noble house from the crownlands (wiki:House_Manning).
+
+## Heraldry & Sigil
+
+A red sea lion between two black pallets on white (Argent, between two pallets sable a sea-lion gules) (wiki:House_Manning)
 
 ## Allegiances
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A silver scythe on pale blue (Bleu celeste, a scythe argent)
+sigil_image: House_Harlaw_of_Harridan_Hill.svg
 ---
 
 ## Identity
 
 House Harlaw of Harridan Hill is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A silver scythe on pale blue (Bleu celeste, a scythe argent) (wiki:House_Harlaw_of_Harridan_Hill)
 
 ## Edges
 

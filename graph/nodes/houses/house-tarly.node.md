@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A striding red huntsman on green (Vert, a huntsman striding gules)
+words: First in Battle
+sigil_image: House_Tarly.svg
 ---
 
 ## Identity
 
 House Tarly of Horn Hill is a noble house of the Reach, one of the strongest sworn to House Tyrell (wiki:House_Tarly). Their sigil is a striding red huntsman on green, and their semi-canon motto is "First in Battle" (wiki:House_Tarly). Marcher lords of the Dornish Marches, the Tarlys are a family old in honor with rich lands and a strong keep (wiki:House_Tarly). They are keepers of the Valyrian greatsword Heartsbane (wiki:House_Tarly).
+
+## Heraldry & Sigil
+
+A striding red huntsman on green (Vert, a huntsman striding gules) (wiki:House_Tarly)
+
+Words: "First in Battle" (wiki:House_Tarly)
 
 ## Origins
 

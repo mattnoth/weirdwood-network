@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Black iron studs on bronze, bordered with rune (Bronze pelleté, a bordure of ancient runes)
+words: We Remember
+sigil_image: House_Royce.svg
 ---
 
 ## Identity
 
 House Royce is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Black iron studs on bronze, bordered with rune (Bronze pelleté, a bordure of ancient runes) (wiki:House_Royce)
+
+Words: "We Remember" (wiki:House_Royce)
 
 ## Edges
 

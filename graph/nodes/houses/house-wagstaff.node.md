@@ -13,11 +13,17 @@ first_available:
   book: AFFC
   chapter: 9
   source: cite_ref
+sigil: Five yellow mascles on green (Vert, five mascles in fess or)
+sigil_image: House_Wagstaff.svg
 ---
 
 ## Identity
 
 House Wagstaff is a noble house from the Stormlands. (wiki:House_Wagstaff)
+
+## Heraldry & Sigil
+
+Five yellow mascles on green (Vert, five mascles in fess or) (wiki:House_Wagstaff)
 
 ## Allegiances
 

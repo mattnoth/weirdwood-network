@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A double tressure white on green (Vert, a double-tressure argent)
+sigil_image: House_Greenfield.svg
 ---
 
 ## Identity
 
 House Greenfield is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A double tressure white on green (Vert, a double-tressure argent) (wiki:House_Greenfield)
 
 ## Edges
 

@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A peacock in his pride on cream (Carnation, a peacock in his pride proper)
+words: I Have No Rival
+sigil_image: House_Serrett.svg
 ---
 
 ## Identity
 
 House Serrett is a noble house from the westerlands, seated at Silverhill. They are sworn to House Lannister. (wiki:House_Serrett)
+
+## Heraldry & Sigil
+
+A peacock in his pride on cream (Carnation, a peacock in his pride proper) (wiki:House_Serrett)
+
+Words: "I Have No Rival" (wiki:House_Serrett)
 
 ## Allegiances
 

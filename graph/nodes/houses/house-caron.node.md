@@ -9,11 +9,20 @@ bucket_id: houses-other-b-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A field of black nightingales on yellow (Or, semé of nightingales sable)
+words: No Song so Sweet
+sigil_image: House_Caron.svg
 ---
 
 ## Identity
 
 House Caron is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A field of black nightingales on yellow (Or, semé of nightingales sable) (wiki:House_Caron)
+
+Words: "No Song so Sweet" (wiki:House_Caron)
 
 ## Edges
 

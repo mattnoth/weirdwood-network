@@ -9,11 +9,17 @@ bucket_id: houses-crownlands-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
+sigil: Six roundels fountain, 3-2-1, on grey (Cendrée, six fountains 3-2-1)
+sigil_image: House_Rollingford.svg
 ---
 
 ## Identity
 
 House Rollingford is a lordly house from the crownlands (wiki:House_Rollingford). They appear in the Crownlands navbox under "Lordly Houses."
+
+## Heraldry & Sigil
+
+Six roundels fountain, 3-2-1, on grey (Cendrée, six fountains 3-2-1) (wiki:House_Rollingford)
 
 ## Allegiances
 

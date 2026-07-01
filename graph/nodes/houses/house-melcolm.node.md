@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A rusty anchor on turquoise beneath yellow chief with three blue plates (Aquamarine, a rusted anchor, on a chief or three hurts)
+sigil_image: House_Melcolm.svg
 ---
 
 ## Identity
 
 House Melcolm of Old Anchor is a noble house from Old Anchor in the Vale of Arryn. It is one of the principal houses sworn to House Arryn (wiki:House_Melcolm).
+
+## Heraldry & Sigil
+
+A rusty anchor on turquoise beneath yellow chief with three blue plates (Aquamarine, a rusted anchor, on a chief or three hurts) (wiki:House_Melcolm)
 
 ## Allegiances
 

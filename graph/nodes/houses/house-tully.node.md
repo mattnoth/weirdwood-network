@@ -14,11 +14,20 @@ first_available:
   chapter: 1
   source: cite_ref
   pov: Prologue
+sigil: A leaping trout, silver, on a field of blue and mud red (Paly wavy azure and gules, a trout embowed argent)
+words: Family, Duty, Honor
+sigil_image: House_Tully.svg
 ---
 
 ## Identity
 
 House Tully of Riverrun is one of the Great Houses of the Seven Kingdoms, serving as Lords Paramount of the Trident and ruling the riverlands from their seat at Riverrun (wiki:House_Tully). Their sigil is a silver trout leaping on a striped field of blue and mud red, and their words are "Family, Duty, Honor" (wiki:House_Tully).
+
+## Heraldry & Sigil
+
+A leaping trout, silver, on a field of blue and mud red (Paly wavy azure and gules, a trout embowed argent) (wiki:House_Tully)
+
+Words: "Family, Duty, Honor" (wiki:House_Tully)
 
 ## Origins
 

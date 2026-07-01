@@ -14,11 +14,17 @@ first_available:
   chapter: 42
   source: cite_ref
   pov: "Tyrion IX"
+sigil: A border of flowers of many colors and varieties on green (Vert, an orle of flowers variegated)
+sigil_image: House_Meadows.svg
 ---
 
 ## Identity
 
 House Meadows of Grassy Vale is a noble house from the Reach. Their castle is Grassfield Keep in or near the town of Grassy Vale. Their arms display a border of flowers of many colors and varieties on green (semi-canon heraldry). (wiki:House_Meadows)
+
+## Heraldry & Sigil
+
+A border of flowers of many colors and varieties on green (Vert, an orle of flowers variegated) (wiki:House_Meadows)
 
 ## Allegiances
 

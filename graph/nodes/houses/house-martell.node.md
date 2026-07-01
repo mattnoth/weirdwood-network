@@ -10,11 +10,20 @@ prompt_version: v1
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: "A red sun pierced by a golden spear on orange (Tenné, a sun-in-splendour gules transfixed by a spear or) Formerly: a golden spear on orange (Tenné, a spear or)"
+words: Unbowed, Unbent, Unbroken
+sigil_image: House_Martell.svg
 ---
 
 ## Identity
 
 House Martell, formally House Nymeros Martell, is the ruling Great House of Dorne, one of the constituent regions of the Seven Kingdoms. They rule from the Old Palace within the shadow city of Sunspear (wiki:House_Martell). House Martell is ancient and noble, allied with House Targaryen for over a century (wiki:House_Martell).
+
+## Heraldry & Sigil
+
+A red sun pierced by a golden spear on orange (Tenné, a sun-in-splendour gules transfixed by a spear or) Formerly: a golden spear on orange (Tenné, a spear or) (wiki:House_Martell)
+
+Words: "Unbowed, Unbent, Unbroken" (wiki:House_Martell)
 
 ## Origins
 

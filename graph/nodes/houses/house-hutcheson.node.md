@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Two red bendlets on gold, a red hand below pointing to a red sun above (Or, two bendlets between in base dexter a hand pointing to chief sinister, and in chief sinister a sun-in-splendour gules)
+sigil_image: House_Hutcheson.svg
 ---
 
 ## Identity
 
 House Hutcheson is a noble house from the Reach. (wiki:House_Hutcheson)
+
+## Heraldry & Sigil
+
+Two red bendlets on gold, a red hand below pointing to a red sun above (Or, two bendlets between in base dexter a hand pointing to chief sinister, and in chief sinister a sun-in-splendour gules) (wiki:House_Hutcheson)
 
 ## Allegiances
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 11
   source: cite_ref
   pov: Sansa
+sigil: A black leviathan on a grey sea (Cendrée, a leviathan sable)
+sigil_image: House_Volmark.svg
 ---
 
 ## Identity
 
 House Volmark of Volmark is a noble house from the Iron Islands. Their seat of Volmark is on the island of Harlaw and they are sworn to the house of the same name. They have large holdings on the island and a decorated history (wiki:House_Volmark.cite_ref-Raffc11). Their sigil depicts a black leviathan on a grey sea (wiki:House_Volmark.cite_ref-Raffc11).
+
+## Heraldry & Sigil
+
+A black leviathan on a grey sea (Cendrée, a leviathan sable) (wiki:House_Volmark)
 
 ## Origins
 

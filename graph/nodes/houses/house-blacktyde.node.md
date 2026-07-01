@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Vairy green and black (Vairy vert and sable)
+sigil_image: House_Blacktyde.svg
 ---
 
 ## Identity
 
 House Blacktyde is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Vairy green and black (Vairy vert and sable) (wiki:House_Blacktyde)
 
 ## Edges
 

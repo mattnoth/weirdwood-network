@@ -14,11 +14,17 @@ first_available:
   chapter: 9
   source: cite_ref
   pov: Tyrion II
+sigil: A spotted tree cat, yellow and black, on mud brown (Brunâtre, a treecat or pelleté)
+sigil_image: House_Myatt.svg
 ---
 
 ## Identity
 
 House Myatt is a noble house from the westerlands of unknown rank. They are sworn to House Lannister. (wiki:House_Myatt)
+
+## Heraldry & Sigil
+
+A spotted tree cat, yellow and black, on mud brown (Brunâtre, a treecat or pelleté) (wiki:House_Myatt)
 
 ## Allegiances
 

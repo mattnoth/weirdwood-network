@@ -14,11 +14,17 @@ first_available:
   chapter: 9
   source: cite_ref
   pov: Jaime I
+sigil: Fusily black and gold, 7 white escutcheons upon a red tierce (Fusily sable and or, upon a tierce gules seven escutcheons argent)
+sigil_image: House_Darklyn.svg
 ---
 
 ## Identity
 
 House Darklyn of Duskendale is an extinct noble house which ruled the town of Duskendale and the surrounding lands in the crownlands for centuries. Their keep was the Dun Fort atop a hill dominating the town. The house went extinct as a result of the Defiance of Duskendale in 277 AC. Their arms are fusily black and gold, seven white shields on a red tierce — the seven shields for the seven Darklyns who served in the Kingsguard (wiki:House_Darklyn).
+
+## Heraldry & Sigil
+
+Fusily black and gold, 7 white escutcheons upon a red tierce (Fusily sable and or, upon a tierce gules seven escutcheons argent) (wiki:House_Darklyn)
 
 ## Origins
 

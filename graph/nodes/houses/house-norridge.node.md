@@ -14,11 +14,17 @@ first_available:
   chapter: 37
   source: cite_ref
   pov: "Cersei VIII"
+sigil: A flight of flaming arrows rising bendwise on a blue field (Azure, a flight of arrows bendwise points to chief dexter inflamed proper)
+sigil_image: House_Norridge.svg
 ---
 
 ## Identity
 
 House Norridge is a noble house from the Reach. (wiki:House_Norridge)
+
+## Heraldry & Sigil
+
+A flight of flaming arrows rising bendwise on a blue field (Azure, a flight of arrows bendwise points to chief dexter inflamed proper) (wiki:House_Norridge)
 
 ## Allegiances
 

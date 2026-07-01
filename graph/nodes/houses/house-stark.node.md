@@ -9,11 +9,20 @@ bucket_id: houses-north-house-stark
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A running grey direwolf, on an ice-white field (Argent, a direwolf courant cendrée)
+words: Winter Is Coming
+sigil_image: House_Stark.svg
 ---
 
 ## Identity
 
 House Stark is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A running grey direwolf, on an ice-white field (Argent, a direwolf courant cendrée) (wiki:House_Stark)
+
+Words: "Winter Is Coming" (wiki:House_Stark)
 
 ## Edges
 

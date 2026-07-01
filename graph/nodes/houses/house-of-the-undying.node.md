@@ -9,11 +9,16 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil_image: House_of_the_Undying.jpg
 ---
 
 ## Identity
 
 House of the Undying is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+No coat of arms description available. (wiki:House_of_the_Undying)
 
 ## Edges
 

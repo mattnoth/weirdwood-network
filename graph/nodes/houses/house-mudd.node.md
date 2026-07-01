@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A golden crown studded with emeralds on a red-brown field (Brunâtre, an ancient crown or studded with emeralds proper)
+sigil_image: House_Mudd.svg
 ---
 
 ## Identity
 
 House Mudd of Oldstones was a noble house from the riverlands, now extinct (wiki:House_Mudd). Their arms are a golden crown studded with emeralds on a red-brown field (wiki:House_Mudd).
+
+## Heraldry & Sigil
+
+A golden crown studded with emeralds on a red-brown field (Brunâtre, an ancient crown or studded with emeralds proper) (wiki:House_Mudd)
 
 ## Origins
 

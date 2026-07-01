@@ -14,11 +14,17 @@ first_available:
   chapter: 7
   source: cite_ref
   pov: "The Merchant's Man"
+sigil: "Quarterly: A golden pavilion on a blue field, a green laurel crown on a white field (Quarterly clockwise, first and fourth, azure, a pavilion or, second and third, argent, a garland of laurel vert)"
+sigil_image: House_Musgood.svg
 ---
 
 ## Identity
 
 House Musgood is a noble house from the Stormlands sworn to House Baratheon. (wiki:House_Musgood)
+
+## Heraldry & Sigil
+
+Quarterly: A golden pavilion on a blue field, a green laurel crown on a white field (Quarterly clockwise, first and fourth, azure, a pavilion or, second and third, argent, a garland of laurel vert) (wiki:House_Musgood)
 
 ## Allegiances
 

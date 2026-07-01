@@ -14,11 +14,17 @@ first_available:
   chapter: 30
   source: cite_ref
   pov: "Sansa II"
+sigil: A black adder biting a heel on yellow (Or, a human heel proper being bitten by an adder sable)
+sigil_image: WylCoA.png
 ---
 
 ## Identity
 
 House Wyl is a lordly house from Dorne, seated at Wyl (wiki:House_Wyl).
+
+## Heraldry & Sigil
+
+A black adder biting a heel on yellow (Or, a human heel proper being bitten by an adder sable) (wiki:House_Wyl)
 
 ## Allegiances
 

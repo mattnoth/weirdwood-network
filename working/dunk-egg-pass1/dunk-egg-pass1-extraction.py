@@ -78,7 +78,7 @@ DEFAULT_PROMPT_VERSION = "v4"                     # overridden by --prompt-versi
 CHUNK_SIZE = 1                                    # 1 novella/iteration; long units, lose <=1 on crash
 WORK_DIR = PROJECT_ROOT / "working" / "dunk-egg-pass1"
 PROMPTS_DIR = WORK_DIR / "prompts"               # prompts/pass1-prompt-<version>.md
-QUEUE_FILE = WORK_DIR / "queue.jsonl"
+QUEUE_FILE = WORK_DIR / "queue.jsonl"          # whole-novella default; override with --queue
 LOG_DIR = WORK_DIR / "logs"
 SMOKE_DIR = WORK_DIR / "smoke"                    # smoke/<version>/<stem>.extraction.md (never canonical)
 HARVEST_FILE = WORK_DIR / "harvest-dunk-egg.jsonl"
@@ -160,10 +160,11 @@ def build_queue() -> int:
     return 0
 
 
-def _load_queue() -> list[dict]:
-    if not QUEUE_FILE.exists():
+def _load_queue(queue_path: Path | None = None) -> list[dict]:
+    path = queue_path or QUEUE_FILE
+    if not path.exists():
         return []
-    return [json.loads(l) for l in QUEUE_FILE.read_text().splitlines() if l.strip()]
+    return [json.loads(l) for l in path.read_text().splitlines() if l.strip()]
 
 
 # ---------------------------------------------------------------------------
@@ -285,7 +286,8 @@ def run_smoke(args: argparse.Namespace) -> int:
     if not prompt_file_for(version).exists():
         print(f"ERROR: prompt not found: {prompt_file_for(version)}", file=sys.stderr)
         return 1
-    units = _load_queue()
+    queue_path = Path(args.queue).resolve() if args.queue else None
+    units = _load_queue(queue_path)
     if not units:
         print("Queue empty. Run --build-queue first.", file=sys.stderr)
         return 1
@@ -321,7 +323,8 @@ def run_worker(args: argparse.Namespace) -> int:
     if not prompt_file_for(version).exists():
         print(f"ERROR: prompt not found: {prompt_file_for(version)}", file=sys.stderr)
         return 1
-    units = _load_queue()
+    queue_path = Path(args.queue).resolve() if args.queue else None
+    units = _load_queue(queue_path)
     if not units:
         print("Queue empty. Run --build-queue first.", file=sys.stderr)
         return 1
@@ -387,6 +390,16 @@ def _build_parser() -> argparse.ArgumentParser:
     p.add_argument("--build-queue", action="store_true",
                    help="One-time: create output dirs + write queue.jsonl, then exit.")
     p.add_argument("--chunk-size", type=int, default=CHUNK_SIZE)
+    p.add_argument(
+        "--queue",
+        metavar="PATH",
+        default=None,
+        help=(
+            "Path to an alternate queue JSONL (e.g. queue-parts.jsonl for scene-split runs). "
+            "Defaults to working/dunk-egg-pass1/queue.jsonl (whole novellas). "
+            "Rows must have the same shape (unit_id, book, stem, source, out)."
+        ),
+    )
     return p
 
 

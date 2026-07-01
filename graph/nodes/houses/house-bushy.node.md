@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A green fess embattled on white (Argent, a fess embattled vert)
+sigil_image: House_Bushy.svg
 ---
 
 ## Identity
 
 House Bushy is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A green fess embattled on white (Argent, a fess embattled vert) (wiki:House_Bushy)
 
 ## Edges
 

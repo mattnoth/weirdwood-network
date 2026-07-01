@@ -14,11 +14,17 @@ first_available:
   chapter: 12
   source: cite_ref
   pov: "Jaime II"
+sigil: Three bronze spearheads on white, a bronze border embattled (Argent, three spearheads bronze within a bordure embattled of the last)
+sigil_image: House_Moore.svg
 ---
 
 ## Identity
 
 House Moore is a noble house of the Vale of Arryn (wiki:House_Moore).
+
+## Heraldry & Sigil
+
+Three bronze spearheads on white, a bronze border embattled (Argent, three spearheads bronze within a bordure embattled of the last) (wiki:House_Moore)
 
 ## Allegiances
 

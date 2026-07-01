@@ -14,11 +14,17 @@ first_available:
   chapter: 7
   source: cite_ref
   pov: Arya I
+sigil: Quarterly clockwise, gyronny white and black, a silver axe on green (Quarterly, first and third gyronny white and sable, second and fourth vert, an axe silver)
+sigil_image: House_Byrch.svg
 ---
 
 ## Identity
 
 House Byrch is a noble house from the crownlands. Their arms are quarterly clockwise, gyronny white and black, a silver axe on green (wiki:House_Byrch).
+
+## Heraldry & Sigil
+
+Quarterly clockwise, gyronny white and black, a silver axe on green (Quarterly, first and third gyronny white and sable, second and fourth vert, an axe silver) (wiki:House_Byrch)
 
 ## Allegiances
 

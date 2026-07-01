@@ -9,11 +9,17 @@ bucket_id: houses-other-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "Three women's heads, white with black hair, on blue and green undy (Barry wavy azure and vert, three women's heads argents, crined sable)"
+sigil_image: House_Sunderland.svg
 ---
 
 ## Identity
 
 House Sunderland is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three women's heads, white with black hair, on blue and green undy (Barry wavy azure and vert, three women's heads argents, crined sable) (wiki:House_Sunderland)
 
 ## Edges
 

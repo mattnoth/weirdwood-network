@@ -14,11 +14,17 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "Bran I"
+sigil: "A field of silver mockingbirds on green (Vert, semé of mockingbirds argent) Formerly: A grey stone head with fiery eyes, on a light green field (Vert, a stone head cendrée, orbed gules)"
+sigil_image: House_Baelish_of_Harrenhal.svg
 ---
 
 ## Identity
 
 House Baelish is a noble house from the Vale of Arryn. Their seat is an unnamed, old flint tower on the smallest of the Fingers, commanding no more than a few stony acres. Their smallfolk consists of a village of a dozen families in huts of piled stone beside a peat bog (wiki:House_Baelish). The current lord is Petyr Baelish (track_b: Head).
+
+## Heraldry & Sigil
+
+A field of silver mockingbirds on green (Vert, semé of mockingbirds argent) Formerly: A grey stone head with fiery eyes, on a light green field (Vert, a stone head cendrée, orbed gules) (wiki:House_Baelish)
 
 ## Origins
 

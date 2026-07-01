@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A red salmon on white, a gold tressure (Argent, a salmon gules within a tressure or)
+words: Wisdom and Strength
+sigil_image: House_Mooton.svg
 ---
 
 ## Identity
 
 House Mooton of Maidenpool is a noble house from the riverlands, historically far wealthier than their liege lords, House Tully of Riverrun (wiki:House_Mooton). Their blazon is a red salmon on white with a golden tressure, and their semi-canon motto is "Wisdom and Strength" (wiki:House_Mooton).
+
+## Heraldry & Sigil
+
+A red salmon on white, a gold tressure (Argent, a salmon gules within a tressure or) (wiki:House_Mooton)
+
+Words: "Wisdom and Strength" (wiki:House_Mooton)
 
 ## Origins
 

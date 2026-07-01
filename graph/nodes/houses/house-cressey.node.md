@@ -9,11 +9,17 @@ bucket_id: houses-crownlands-d-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
+sigil: Seven silver coins on a red bend sinister, between two helmets, silver on blue (Azure, on a bend sinister gules seven plates, between two helmets argent)
+sigil_image: House_Cressey.svg
 ---
 
 ## Identity
 
 House Cressey is a noble house from the crownlands. Their arms are seven silver coins on a red bend sinister, between two helmets, silver on blue (wiki:House_Cressey).
+
+## Heraldry & Sigil
+
+Seven silver coins on a red bend sinister, between two helmets, silver on blue (Azure, on a bend sinister gules seven plates, between two helmets argent) (wiki:House_Cressey)
 
 ## Allegiances
 

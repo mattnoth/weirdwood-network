@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A two-headed horse, brown, on a field of wavy green and green (Wavy vert and vert, a horse bicapitated brunâtre)
+sigil_image: House_Roote.svg
 ---
 
 ## Identity
 
 House Roote of Lord Harroway's Town is a noble house from the riverlands (wiki:House_Roote). Their arms are a two-headed horse, brown, on a field of wavy green and green — possibly taken from Old King Andahar, as the ferry at Harroway is called the king's two-headed water horse (wiki:House_Roote).
+
+## Heraldry & Sigil
+
+A two-headed horse, brown, on a field of wavy green and green (Wavy vert and vert, a horse bicapitated brunâtre) (wiki:House_Roote)
 
 ## Allegiances
 

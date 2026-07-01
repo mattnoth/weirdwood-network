@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A yellow field strewn with red ants (Or, semé of ants gules)
+words: Never Resting
+sigil_image: House_Ambrose.svg
 ---
 
 ## Identity
 
 House Ambrose is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A yellow field strewn with red ants (Or, semé of ants gules) (wiki:House_Ambrose)
+
+Words: "Never Resting" (wiki:House_Ambrose)
 
 ## Edges
 

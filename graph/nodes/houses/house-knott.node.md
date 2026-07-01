@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A brown fret on white (Argent, a fret brunâtre)
+sigil_image: House_Knott.svg
 ---
 
 ## Identity
 
 House Knott is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A brown fret on white (Argent, a fret brunâtre) (wiki:House_Knott)
 
 ## Edges
 

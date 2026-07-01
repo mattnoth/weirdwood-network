@@ -9,11 +9,20 @@ bucket_id: houses-major-recovery
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A crowned stag black on a golden field (Or, a stag crowned sable)
+words: Ours is the Fury
+sigil_image: House_Baratheon.svg
 ---
 
 ## Identity
 
 House Baratheon is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A crowned stag black on a golden field (Or, a stag crowned sable) (wiki:House_Baratheon)
+
+Words: "Ours is the Fury" (wiki:House_Baratheon)
 
 ## Edges
 

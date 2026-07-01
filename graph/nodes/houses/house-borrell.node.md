@@ -9,11 +9,17 @@ bucket_id: houses-other-b-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white spider crab on grey-green (Vert-cendrée, a spider crab argent)
+sigil_image: House_Borrell.svg
 ---
 
 ## Identity
 
 House Borrell is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white spider crab on grey-green (Vert-cendrée, a spider crab argent) (wiki:House_Borrell)
 
 ## Edges
 

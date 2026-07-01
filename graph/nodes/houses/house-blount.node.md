@@ -14,11 +14,17 @@ first_available:
   chapter: 8
   source: cite_ref
   pov: Arya I
+sigil: A red bend sinister between two black porcupines on a green (Vert, a bend sinister gules between two porcupines sable)
+sigil_image: House_Blount.svg
 ---
 
 ## Identity
 
 House Blount is a noble house from the crownlands. They blazon their arms with a red bend sinister between two black porcupines on green (wiki:House_Blount).
+
+## Heraldry & Sigil
+
+A red bend sinister between two black porcupines on a green (Vert, a bend sinister gules between two porcupines sable) (wiki:House_Blount)
 
 ## Allegiances
 

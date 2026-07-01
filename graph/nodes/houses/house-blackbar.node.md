@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black fess on silver (Argent, a fess sable)
+sigil_image: House_Blackbar.svg
 ---
 
 ## Identity
 
 House Blackbar is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black fess on silver (Argent, a fess sable) (wiki:House_Blackbar)
 
 ## Edges
 

@@ -10,11 +10,16 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Unknown
 ---
 
 ## Identity
 
 House Woodhull is a landed knightly house from the Paps in the Vale of Arryn (wiki:House_Woodhull).
+
+## Heraldry & Sigil
+
+Unknown (wiki:House_Woodhull)
 
 ## Allegiances
 

@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black sleeping lion on yellow (Or, a lion dormant sable)
+words: Rouse Me Not
+sigil_image: House_Grandison.svg
 ---
 
 ## Identity
 
 House Grandison is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black sleeping lion on yellow (Or, a lion dormant sable) (wiki:House_Grandison)
+
+Words: "Rouse Me Not" (wiki:House_Grandison)
 
 ## Edges
 

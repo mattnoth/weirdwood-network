@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "A bull's skull, bone on blood (Sanguine, a bull's skull argent)"
+words: Death Before Disgrace
+sigil_image: House_Bulwer.svg
 ---
 
 ## Identity
 
 House Bulwer is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A bull's skull, bone on blood (Sanguine, a bull's skull argent) (wiki:House_Bulwer)
+
+Words: "Death Before Disgrace" (wiki:House_Bulwer)
 
 ## Edges
 

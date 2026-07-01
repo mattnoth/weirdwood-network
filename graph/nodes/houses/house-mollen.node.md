@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A pine tree covered with snow in a pale green pile, on white (Argent, upon a pile vert a pine tree of the field)
+sigil_image: House_Mollen.svg
 ---
 
 ## Identity
 
 House Mollen is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A pine tree covered with snow in a pale green pile, on white (Argent, upon a pile vert a pine tree of the field) (wiki:House_Mollen)
 
 ## Edges
 

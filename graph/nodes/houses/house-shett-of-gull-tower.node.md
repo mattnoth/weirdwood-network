@@ -14,11 +14,17 @@ first_available:
   chapter: 10
   source: cite_ref
   pov: "Brienne II"
+sigil: Three golden wings, bendwise, on checkered white and black (Chequy argent and sable, in bend three wings bendwise or)
+sigil_image: House_Shett_of_Gull_Tower.svg
 ---
 
 ## Identity
 
 House Shett of Gull Tower is a branch of House Shett from Gull Tower in the Vale of Arryn. They are sworn to House Royce of Runestone (wiki:House_Shett_of_Gull_Tower). The current head is Ser Damon Shett (track_b: Head).
+
+## Heraldry & Sigil
+
+Three golden wings, bendwise, on checkered white and black (Chequy argent and sable, in bend three wings bendwise or) (wiki:House_Shett_of_Gull_Tower)
 
 ## Allegiances
 

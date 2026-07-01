@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three black dogs running on yellow (Or, three dogs courant sable)
+sigil_image: House_Clegane.svg
 ---
 
 ## Identity
 
 House Clegane is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three black dogs running on yellow (Or, three dogs courant sable) (wiki:House_Clegane)
 
 ## Edges
 

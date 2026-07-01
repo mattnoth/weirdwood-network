@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A silver scythe on black within an embattled border (Sable, a scythe within a bordure embattled argent)
+sigil_image: House_Harlaw_of_the_Tower_of_Glimmering.svg
 ---
 
 ## Identity
 
 House Harlaw of the Tower of Glimmering is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A silver scythe on black within an embattled border (Sable, a scythe within a bordure embattled argent) (wiki:House_Harlaw_of_the_Tower_of_Glimmering)
 
 ## Edges
 

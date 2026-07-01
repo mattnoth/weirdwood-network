@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Per bend sinister orange and sable rayonne, a castle countercharged (Per bend sinister rayonné tenné and sable, a castle counterchanged)
+sigil_image: House_Harroway.svg
 ---
 
 ## Identity
 
 House Harroway is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Per bend sinister orange and sable rayonne, a castle countercharged (Per bend sinister rayonné tenné and sable, a castle counterchanged) (wiki:House_Harroway)
 
 ## Edges
 

@@ -9,11 +9,17 @@ bucket_id: houses-crownlands-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
+sigil: "Per fess undy: A crown of white stars on burgundy above black (Per fess undy murrey and sable, in chief mullets arranged in a crown argent)"
+sigil_image: House_Langward.svg
 ---
 
 ## Identity
 
 House Langward is a noble house from the crownlands. Their arms are per fess undy: a crown of white stars on burgundy above black (wiki:House_Langward).
+
+## Heraldry & Sigil
+
+Per fess undy: A crown of white stars on burgundy above black (Per fess undy murrey and sable, in chief mullets arranged in a crown argent) (wiki:House_Langward)
 
 ## Appearances & Description
 

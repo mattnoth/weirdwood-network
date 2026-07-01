@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: White sea birds strewn on a blue field (Azure, semé of seabirds argent)
+sigil_image: Hawick.png
 ---
 
 ## Identity
 
 House Hawick is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+White sea birds strewn on a blue field (Azure, semé of seabirds argent) (wiki:House_Hawick)
 
 ## Edges
 

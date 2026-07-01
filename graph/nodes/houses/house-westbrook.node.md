@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Two green bars gemmel on gold (Or, two bars-gemels vert)
+sigil_image: House_Westbrook.svg
 ---
 
 ## Identity
 
 House Westbrook is a noble house from the Reach (wiki:House_Westbrook). They blazon their arms with two green bars gemmel on gold (wiki:House_Westbrook).
+
+## Heraldry & Sigil
+
+Two green bars gemmel on gold (Or, two bars-gemels vert) (wiki:House_Westbrook)
 
 ## Allegiances
 

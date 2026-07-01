@@ -13,11 +13,20 @@ first_available:
   book: ACOK
   chapter: 22
   source: cite_ref
+sigil: White crossed quills on russet (Brunâtre, two quills saltirewise argent)
+words: Set Down Our Deeds
+sigil_image: House_Penrose.svg
 ---
 
 ## Identity
 
 House Penrose is a noble house from Parchments in the Stormlands. Their words are "Set Down Our Deeds." They blazon their arms with white and orange crossed quills on a russet field. (wiki:House_Penrose)
+
+## Heraldry & Sigil
+
+White crossed quills on russet (Brunâtre, two quills saltirewise argent) (wiki:House_Penrose)
+
+Words: "Set Down Our Deeds" (wiki:House_Penrose)
 
 ## Allegiances
 

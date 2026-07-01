@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A red sledgehammer
+sigil_image: House_Breakstone.png
 ---
 
 ## Identity
 
 House Breakstone is a noble house from the Vale of Arryn (wiki:House_Breakstone).
+
+## Heraldry & Sigil
+
+A red sledgehammer (wiki:House_Breakstone)
 
 ## Allegiances
 

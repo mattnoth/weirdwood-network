@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A white scroll with gold knobs on purple, a white tressure (Purpure a scroll argent, knobbed or, within a tressure of the second)
+words: Truth Conquers
+sigil_image: House_Swygert.svg
 ---
 
 ## Identity
 
 House Swygert is a noble house from the Stormlands. Their words are "Truth Conquers." (wiki:House_Swygert)
+
+## Heraldry & Sigil
+
+A white scroll with gold knobs on purple, a white tressure (Purpure a scroll argent, knobbed or, within a tressure of the second) (wiki:House_Swygert)
+
+Words: "Truth Conquers" (wiki:House_Swygert)
 
 ## Allegiances
 

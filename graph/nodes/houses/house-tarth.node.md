@@ -14,11 +14,17 @@ first_available:
   chapter: 1
   source: cite_ref
   pov: Prologue
+sigil: "Quartered: yellow suns and white crescents on rose and azure (Quarterly clockwise, 1st and 3rd rose, a sun-in-splendour or, 2nd and 4th azure, a moon increscent argent)"
+sigil_image: House_Tarth.svg
 ---
 
 ## Identity
 
 House Tarth of Evenfall Hall is a noble house from the Stormlands. They rule Tarth, a beautiful island northeast of Shipbreaker Bay that controls the Straits of Tarth between the island and the mainland. They are one of the main houses sworn to House Baratheon of Storm's End. Their blazon is quartered with yellow suns on rose and white crescent moons on azure. The Lords of Tarth call themselves the Evenstar. (wiki:House_Tarth)
+
+## Heraldry & Sigil
+
+Quartered: yellow suns and white crescents on rose and azure (Quarterly clockwise, 1st and 3rd rose, a sun-in-splendour or, 2nd and 4th azure, a moon increscent argent) (wiki:House_Tarth)
 
 ## Origins
 

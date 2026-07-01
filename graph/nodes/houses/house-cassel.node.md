@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Ten white wolf heads, 4-3-2-1, on grey with a black border (Cendrée, ten wolves erased 4-3-2-1 argent within a bordure sable)
+sigil_image: House_Cassel.svg
 ---
 
 ## Identity
 
 House Cassel is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Ten white wolf heads, 4-3-2-1, on grey with a black border (Cendrée, ten wolves erased 4-3-2-1 argent within a bordure sable) (wiki:House_Cassel)
 
 ## Edges
 

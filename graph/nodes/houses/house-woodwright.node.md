@@ -14,11 +14,17 @@ first_available:
   chapter: 28
   source: cite_ref
   pov: "Jaime III"
+sigil: A red pall on a field of oak (Brunâtre, a pall gules)
+sigil_image: House_Woodwright.svg
 ---
 
 ## Identity
 
 House Woodwright is a noble house from the Reach (wiki:House_Woodwright). They blazon their arms with a red pall on a field of oak (wiki:House_Woodwright).
+
+## Heraldry & Sigil
+
+A red pall on a field of oak (Brunâtre, a pall gules) (wiki:House_Woodwright)
 
 ## Allegiances
 

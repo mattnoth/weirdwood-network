@@ -9,11 +9,20 @@ bucket_id: houses-major-recovery
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white sunburst on black (Sable, a sunburst argent)
+words: The Sun of Winter
+sigil_image: House_Karstark.svg
 ---
 
 ## Identity
 
 House Karstark is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white sunburst on black (Sable, a sunburst argent) (wiki:House_Karstark)
+
+Words: "The Sun of Winter" (wiki:House_Karstark)
 
 ## Edges
 

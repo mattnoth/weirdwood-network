@@ -14,11 +14,17 @@ first_available:
   chapter: 16
   source: cite_ref
   pov: Samwell II
+sigil: "Per pale barry: russet and green (Per pale barry brunâtre and vert)"
+sigil_image: House_Moreland.svg
 ---
 
 ## Identity
 
 House Moreland is a noble house from the westerlands with an unknown seat. They blazon their arms as per pale barry russet and green. (wiki:House_Moreland)
+
+## Heraldry & Sigil
+
+Per pale barry: russet and green (Per pale barry brunâtre and vert) (wiki:House_Moreland)
 
 ## Origins
 

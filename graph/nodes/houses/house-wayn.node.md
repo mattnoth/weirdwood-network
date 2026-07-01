@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Four wheels countercharged on quartered field blue and white (Quarterly azure and argent, four wheels counterchanged)
+sigil_image: House_Wayn.svg
 ---
 
 ## Identity
 
 House Wayn is a noble house from the riverlands (wiki:House_Wayn). Their arms are four wheels countercharged on quartered field blue and white (wiki:House_Wayn). It is unknown whether the Wayns are related to House Waynwood (wiki:House_Wayn).
+
+## Heraldry & Sigil
+
+Four wheels countercharged on quartered field blue and white (Quarterly azure and argent, four wheels counterchanged) (wiki:House_Wayn)
 
 ## Allegiances
 

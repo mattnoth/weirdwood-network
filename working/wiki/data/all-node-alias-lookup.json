@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-07-01T06:49:12.586922+00:00",
+  "computed_at": "2026-07-01T19:57:38.574051+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -1624,14 +1624,6 @@
     "alayaya": [
       {
         "canonical_slug": "alayaya",
-        "node_category": "characters",
-        "node_type": "character.human",
-        "source": "all-node-slug:characters"
-      }
-    ],
-    "alayne": [
-      {
-        "canonical_slug": "alayne",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
@@ -24621,10 +24613,10 @@
     ],
     "elenda caron": [
       {
-        "canonical_slug": "elenda-caron",
+        "canonical_slug": "elenda-baratheon",
         "node_category": "characters",
         "node_type": "character.human",
-        "source": "all-node-slug:characters"
+        "source": "all-node-alias:characters"
       }
     ],
     "elenei": [
@@ -98155,8 +98147,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 20154,
-    "unique_phrases": 12140
+    "total_node_entries": 20151,
+    "unique_phrases": 12139
   },
   "version": "v1"
 }

@@ -10,6 +10,9 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Six white seashells on sand (Carnation, six escallops argent)
+words: Honor, Not Honors
+sigil_image: House_Westerling.svg
 ---
 
 ## Identity
@@ -40,9 +43,9 @@ House Westerling's fortunes changed dramatically when Jeyne Westerling married K
 
 ## Heraldry & Sigil
 
-> a young knight in a sand-colored surcoat blazoned with seashells
->
-> — sources/chapters/asos/asos-catelyn-02.md:37 · First visual description of Westerling livery — Raynald Westerling's surcoat at Riverrun; confirmed as Westerling sigil at line 93 ("Their banner is six seashells, white on sand").  _(capture: harvest pass, appearance)_
+Six white seashells on sand (Carnation, six escallops argent) (wiki:House_Westerling)
+
+Words: "Honor, Not Honors" (wiki:House_Westerling)
 
 ## Notes
 

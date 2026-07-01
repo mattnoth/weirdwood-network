@@ -14,11 +14,17 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "Arya I"
+sigil: Three red chevronels on ermine (Ermine, three chevronels inverted gules)
+sigil_image: House_Rosby.svg
 ---
 
 ## Identity
 
 House Rosby is a lordly house from the crownlands. Their seat is Rosby, located near King's Landing (track_b: Seat).
+
+## Heraldry & Sigil
+
+Three red chevronels on ermine (Ermine, three chevronels inverted gules) (wiki:House_Rosby)
 
 ## Allegiances
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 7
   source: cite_ref
   pov: Catelyn II
+sigil: A blue plate on white, with a grey tressure (Argent, a hurt within a tressure cendrée)
+sigil_image: House_Poole.svg
 ---
 
 ## Identity
 
 House Poole is a noble house from the North, sworn to House Stark (wiki:House_Poole). They blazon their arms as a blue plate on white, with a grey tressure (wiki:House_Poole.cite_ref-Radwd37).
+
+## Heraldry & Sigil
+
+A blue plate on white, with a grey tressure (Argent, a hurt within a tressure cendrée) (wiki:House_Poole)
 
 ## Allegiances
 

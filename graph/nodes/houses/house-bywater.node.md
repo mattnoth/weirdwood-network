@@ -14,11 +14,17 @@ first_available:
   chapter: 4
   source: cite_ref
   pov: Arya I
+sigil: Fretty blue on white, three silver fish on a blue chief (White fretty azure, on a chief of the second three fish silver)
+sigil_image: House_Bywater.svg
 ---
 
 ## Identity
 
 House Bywater is a noble house from the crownlands. Their arms are fretty blue on white, three silver fish on a blue chief (wiki:House_Bywater).
+
+## Heraldry & Sigil
+
+Fretty blue on white, three silver fish on a blue chief (White fretty azure, on a chief of the second three fish silver) (wiki:House_Bywater)
 
 ## Allegiances
 

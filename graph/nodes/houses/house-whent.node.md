@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Nine black bats, 4-3-2, on yellow (Or, nine bats 4-3-2 sable)
+sigil_image: House_Whent.svg
 ---
 
 ## Identity
 
 House Whent of Harrenhal is a noble house from the riverlands, the seventh house to rule the cursed castle of Harrenhal (wiki:House_Whent). Their arms depict nine black bats displayed over a yellow field (wiki:House_Whent).
+
+## Heraldry & Sigil
+
+Nine black bats, 4-3-2, on yellow (Or, nine bats 4-3-2 sable) (wiki:House_Whent)
 
 ## Origins
 

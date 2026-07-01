@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A flaming saltire, red and yellow, between 4 white skulls, on black (Sable, a saltire rayonné gules and or, between four skulls argent)
+sigil_image: House_Qoherys.svg
 ---
 
 ## Identity
 
 House Qoherys of Harrenhal is an extinct noble house from the riverlands, of Valyrian descent (wiki:House_Qoherys). Their arms are a flaming saltire, red and yellow, between four white skulls, on black (wiki:House_Qoherys).
+
+## Heraldry & Sigil
+
+A flaming saltire, red and yellow, between 4 white skulls, on black (Sable, a saltire rayonné gules and or, between four skulls argent) (wiki:House_Qoherys)
 
 ## Origins
 

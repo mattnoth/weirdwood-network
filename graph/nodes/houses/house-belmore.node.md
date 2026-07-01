@@ -9,11 +9,17 @@ bucket_id: houses-other-b-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Six silver bells on purple, 3-2-1 (Purpure, six bells 3-2-1 argent)
+sigil_image: House_Belmore.svg
 ---
 
 ## Identity
 
 House Belmore is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Six silver bells on purple, 3-2-1 (Purpure, six bells 3-2-1 argent) (wiki:House_Belmore)
 
 ## Edges
 

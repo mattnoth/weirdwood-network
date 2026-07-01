@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A partial eclipse, black moon over yellow sun, on dusty pink (Rose, a sun-in-splendour or partially surmounted by a moon in her complement sable)
+sigil_image: House_Pryor.svg
 ---
 
 ## Identity
 
 House Pryor of Pebble is a noble house from Pebble in the Vale (wiki:House_Pryor).
+
+## Heraldry & Sigil
+
+A partial eclipse, black moon over yellow sun, on dusty pink (Rose, a sun-in-splendour or partially surmounted by a moon in her complement sable) (wiki:House_Pryor)
 
 ## Allegiances
 

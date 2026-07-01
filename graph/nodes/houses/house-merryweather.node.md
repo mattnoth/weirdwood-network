@@ -14,11 +14,20 @@ first_available:
   chapter: 6
   source: cite_ref
   pov: "Davos I"
+sigil: A golden horn of plenty spilling out apples, carrots, plums, onions, leeks, turnips, and fruits of many colors on a white field bordered in gold (Argent, a cornucopia or overflowing with apples, carrots, plums, onions, leeks, turnips and fruits variegated all proper within a bordure of the second)
+words: Behold Our Bounty
+sigil_image: House_Merryweather.svg
 ---
 
 ## Identity
 
 House Merryweather is a noble house from the Reach, seated at Longtable. Lord Orton Merryweather is the current head, with Russell Merryweather as heir. (wiki:House_Merryweather)
+
+## Heraldry & Sigil
+
+A golden horn of plenty spilling out apples, carrots, plums, onions, leeks, turnips, and fruits of many colors on a white field bordered in gold (Argent, a cornucopia or overflowing with apples, carrots, plums, onions, leeks, turnips and fruits variegated all proper within a bordure of the second) (wiki:House_Merryweather)
+
+Words: "Behold Our Bounty" (wiki:House_Merryweather)
 
 ## Allegiances
 

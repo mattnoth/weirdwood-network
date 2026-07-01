@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A gold-banded black warhorn on red (Gules, a warhorn sable banded or)
+sigil_image: House_Goodbrother.svg
 ---
 
 ## Identity
 
 House Goodbrother is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A gold-banded black warhorn on red (Gules, a warhorn sable banded or) (wiki:House_Goodbrother)
 
 ## Edges
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A ring of black thorns and a ring of pink flowers, interlocked, on green (Vert, an annulet of thorns sable embracing another of flowers rose)
+sigil_image: House_Hawthorne.svg
 ---
 
 ## Identity
 
 House Hawthorne is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A ring of black thorns and a ring of pink flowers, interlocked, on green (Vert, an annulet of thorns sable embracing another of flowers rose) (wiki:House_Hawthorne)
 
 ## Edges
 

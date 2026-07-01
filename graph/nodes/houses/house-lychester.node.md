@@ -14,11 +14,17 @@ first_available:
   chapter: 22
   source: cite_ref
   pov: Jaime III
+sigil: "Orange and white gyronny, a black talon (Gyronny tenné and argent, an eagle's leg erased sable)"
+sigil_image: House_Lychester.svg
 ---
 
 ## Identity
 
 House Lychester is a noble house in the riverlands, owning a small square keep (wiki:House_Lychester). Their arms are orange and white gyronny, a black talon (wiki:House_Lychester).
+
+## Heraldry & Sigil
+
+Orange and white gyronny, a black talon (Gyronny tenné and argent, an eagle's leg erased sable) (wiki:House_Lychester)
 
 ## Origins
 

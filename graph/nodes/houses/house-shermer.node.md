@@ -14,11 +14,17 @@ first_available:
   chapter: 31
   source: cite_ref
   pov: "Arya VII"
+sigil: A field of copper nails on blue, a copper border rayonne (Azure semé of nails within a bordure rayonny copper)
+sigil_image: House_Shermer.svg
 ---
 
 ## Identity
 
 House Shermer of Smithyton is a noble house from Smithyton in the Reach (wiki:House_Shermer). They blazon their shields with a field of copper nails on blue, a copper border rayonne (wiki:House_Shermer).
+
+## Heraldry & Sigil
+
+A field of copper nails on blue, a copper border rayonne (Azure semé of nails within a bordure rayonny copper) (wiki:House_Shermer)
 
 ## Allegiances
 

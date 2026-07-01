@@ -14,11 +14,17 @@ first_available:
   chapter: 9
   source: cite_ref
   pov: "Jaime I"
+sigil: Two black wings upon a white fess on checkered black and grey (Chequy sable and cendrée, on a fess argent two wings of the first)
+sigil_image: House_Staunton.svg
 ---
 
 ## Identity
 
 House Staunton of Rook's Rest is a lordly house from the crownlands. Their arms (semi-canon) depict two black wings upon a white fess on checkered black and grey (*Chequy sable and cendrée, on a fess argent two wings of the first*) (wiki:House_Staunton). Their seat is Rook's Rest (track_b: Seat).
+
+## Heraldry & Sigil
+
+Two black wings upon a white fess on checkered black and grey (Chequy sable and cendrée, on a fess argent two wings of the first) (wiki:House_Staunton)
 
 ## Appearances & Description
 

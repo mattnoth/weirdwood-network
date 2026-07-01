@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Two golden roses on green (Vert, two roses or)
+sigil_image: Garlan_Tyrell.svg
 ---
 
 ## Identity
 
 House Tyrell of Brightwater Keep is a new noble house in the Reach and a cadet branch of House Tyrell of Highgarden, created in 299 AC (wiki:House_Tyrell_of_Brightwater_Keep). Their sigil is two golden roses on green (wiki:House_Tyrell_of_Brightwater_Keep).
+
+## Heraldry & Sigil
+
+Two golden roses on green (Vert, two roses or) (wiki:House_Tyrell_of_Brightwater_Keep)
 
 ## Origins
 

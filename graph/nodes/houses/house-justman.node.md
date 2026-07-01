@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Golden scales on white, a double tressure blue (Argent, a pair of balances or within a double-tressure azure)
+sigil_image: House_Justman.svg
 ---
 
 ## Identity
 
 House Justman is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Golden scales on white, a double tressure blue (Argent, a pair of balances or within a double-tressure azure) (wiki:House_Justman)
 
 ## Edges
 

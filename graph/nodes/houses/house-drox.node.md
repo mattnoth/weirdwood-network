@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: 3 black crossbows, on gold, a black border (Or, three crossbows sable within a bordure of the last)
+sigil_image: House_Drox.svg
 ---
 
 ## Identity
 
 House Drox is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+3 black crossbows, on gold, a black border (Or, three crossbows sable within a bordure of the last) (wiki:House_Drox)
 
 ## Edges
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A crowned catfish, spotted grey, on blue (Azure, a catfish cendrée, crowned or)
+sigil_image: House_Fisher.svg
 ---
 
 ## Identity
 
 House Fisher is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A crowned catfish, spotted grey, on blue (Azure, a catfish cendrée, crowned or) (wiki:House_Fisher)
 
 ## Edges
 

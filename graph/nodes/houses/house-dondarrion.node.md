@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Forked purple lightning on black field speckled with 4-pointed stars (Sable, semé of mullets of four points, a lightning bolt forked purpure)
+sigil_image: House_Dondarrion.svg
 ---
 
 ## Identity
 
 House Dondarrion is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Forked purple lightning on black field speckled with 4-pointed stars (Sable, semé of mullets of four points, a lightning bolt forked purpure) (wiki:House_Dondarrion)
 
 ## Edges
 

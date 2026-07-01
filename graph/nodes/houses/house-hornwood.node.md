@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A brown bullmoose with black antlers on orange (Tenné, a bullmoose brunâtre attired sable)
+words: Righteous in Wrath
+sigil_image: House_Hornwood.svg
 ---
 
 ## Identity
 
 House Hornwood is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A brown bullmoose with black antlers on orange (Tenné, a bullmoose brunâtre attired sable) (wiki:House_Hornwood)
+
+Words: "Righteous in Wrath" (wiki:House_Hornwood)
 
 ## Edges
 

@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black battle-axe on silver (Argent, a battle-axe sable)
+words: Honed and Ready
+sigil_image: House_Cerwyn.svg
 ---
 
 ## Identity
 
 House Cerwyn is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black battle-axe on silver (Argent, a battle-axe sable) (wiki:House_Cerwyn)
+
+Words: "Honed and Ready" (wiki:House_Cerwyn)
 
 ## Edges
 

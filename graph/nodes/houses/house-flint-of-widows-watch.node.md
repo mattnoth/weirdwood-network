@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A blue field strewn with whitecaps, on a yellow chief with crested line a pair of blue eyes (Azure semé of whitecaps argent, on a chief wavy crested or two orbs of the second irised of the first and pupiled sable)
+words: Ever Vigilant
+sigil_image: House_Flint_of_Widow%27s_Watch.svg
 ---
 
 ## Identity
 
 House Flint of Widow's Watch is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A blue field strewn with whitecaps, on a yellow chief with crested line a pair of blue eyes (Azure semé of whitecaps argent, on a chief wavy crested or two orbs of the second irised of the first and pupiled sable) (wiki:House_Flint_of_Widow's_Watch)
+
+Words: "Ever Vigilant" (wiki:House_Flint_of_Widow's_Watch)
 
 ## Edges
 

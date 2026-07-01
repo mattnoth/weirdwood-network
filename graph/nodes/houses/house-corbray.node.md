@@ -14,11 +14,17 @@ first_available:
   chapter: 10
   source: cite_ref
   pov: "Brienne II"
+sigil: Three black ravens in flight holding three red hearts, on white (Argent, three ravens volant sable, each clutching in their claws a heart gules)
+sigil_image: House_Corbray.svg
 ---
 
 ## Identity
 
 House Corbray of Heart's Home is a noble house from Heart's Home in the Vale of Arryn. It is an old but poor house (wiki:House_Corbray). The current head is Lord Lyonel Corbray, with Ser Lyn Corbray as heir (track_b: Head, Heir).
+
+## Heraldry & Sigil
+
+Three black ravens in flight holding three red hearts, on white (Argent, three ravens volant sable, each clutching in their claws a heart gules) (wiki:House_Corbray)
 
 ## Origins
 

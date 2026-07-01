@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A dancing maiden pink in a swirl of white silk, on blue (Azure, a maiden dancing carnation enwrapped with silk argent)
+words: Brave and Beautiful
+sigil_image: House_Piper.svg
 ---
 
 ## Identity
 
 House Piper of Pinkmaiden is one of the chief noble houses from the riverlands (wiki:House_Piper). Their blazon is a pink dancing maiden in a swirl of white silk over blue, and their semi-canon motto is "Brave and Beautiful" (wiki:House_Piper).
+
+## Heraldry & Sigil
+
+A dancing maiden pink in a swirl of white silk, on blue (Azure, a maiden dancing carnation enwrapped with silk argent) (wiki:House_Piper)
+
+Words: "Brave and Beautiful" (wiki:House_Piper)
 
 ## Origins
 

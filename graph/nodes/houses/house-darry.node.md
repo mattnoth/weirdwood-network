@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black plowman on brown (Brunâtre, a plowman sable)
+sigil_image: House_Darry.svg
 ---
 
 ## Identity
 
 House Darry is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black plowman on brown (Brunâtre, a plowman sable) (wiki:House_Darry)
 
 ## Edges
 

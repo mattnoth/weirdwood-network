@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Three sentinel trees, green on brown (Brunâtre, three sentinel trees vert)
+words: Proud and Free
+sigil_image: House_Tallhart.svg
 ---
 
 ## Identity
 
 House Tallhart is a masterly house from Torrhen's Square in the North. Their current head is Eddara Tallhart (wiki:House_Tallhart). They hold the title Master of Torrhen's Square (track_b: Title).
+
+## Heraldry & Sigil
+
+Three sentinel trees, green on brown (Brunâtre, three sentinel trees vert) (wiki:House_Tallhart)
+
+Words: "Proud and Free" (wiki:House_Tallhart)
 
 ## Allegiances
 

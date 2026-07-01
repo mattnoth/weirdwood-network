@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A yellow centaur with bow on white (Argent, a centaur with bow or)
+sigil_image: House_Caswell.svg
 ---
 
 ## Identity
 
 House Caswell is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A yellow centaur with bow on white (Argent, a centaur with bow or) (wiki:House_Caswell)
 
 ## Edges
 

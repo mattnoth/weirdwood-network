@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A silver dolphin on a blue-green field (Aquamarine, a dolphin argent)
+sigil_image: House_Lowther.svg
 ---
 
 ## Identity
 
 House Lowther is a noble house from the Reach. (wiki:House_Lowther)
+
+## Heraldry & Sigil
+
+A silver dolphin on a blue-green field (Aquamarine, a dolphin argent) (wiki:House_Lowther)
 
 ## Allegiances
 

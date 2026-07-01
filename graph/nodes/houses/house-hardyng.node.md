@@ -14,11 +14,17 @@ first_available:
   chapter: 41
   source: cite_ref
   pov: "The Princess in the Tower"
+sigil: A field of red and white diamonds (Lozengy argent and gules)
+sigil_image: House_Hardyng.svg
 ---
 
 ## Identity
 
 House Hardyng is a house of landed knights in the Vale of Arryn, sworn to House Waynwood (wiki:House_Hardyng). The current head is Ser Harrold Hardyng (track_b: Head).
+
+## Heraldry & Sigil
+
+A field of red and white diamonds (Lozengy argent and gules) (wiki:House_Hardyng)
 
 ## Allegiances
 

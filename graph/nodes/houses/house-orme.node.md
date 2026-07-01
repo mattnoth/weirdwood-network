@@ -14,11 +14,17 @@ first_available:
   chapter: 69
   source: cite_ref
   pov: "The Dragontamer"
+sigil: "Per fess: three golden harps on black, gold and silver bendy sinister (Per fess, in chief sable, three harps or, in base bendy sinister of the second and argent)"
+sigil_image: House_Orme.svg
 ---
 
 ## Identity
 
 House Orme is a noble house from the Reach. (wiki:House_Orme)
+
+## Heraldry & Sigil
+
+Per fess: three golden harps on black, gold and silver bendy sinister (Per fess, in chief sable, three harps or, in base bendy sinister of the second and argent) (wiki:House_Orme)
 
 ## Allegiances
 

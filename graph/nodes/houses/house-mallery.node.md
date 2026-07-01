@@ -14,11 +14,17 @@ first_available:
   chapter: 43
   source: cite_ref
   pov: "Eddard XI"
+sigil: Six white mullets 3-2-1 on violet (Purpure, six mullets argent)
+sigil_image: House_Mallery.svg
 ---
 
 ## Identity
 
 House Mallery is a lordly house from the crownlands (wiki:House_Mallery). They appear in the Crownlands navbox under "Lordly Houses."
+
+## Heraldry & Sigil
+
+Six white mullets 3-2-1 on violet (Purpure, six mullets argent) (wiki:House_Mallery)
 
 ## Allegiances
 

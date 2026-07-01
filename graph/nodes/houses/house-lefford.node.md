@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A golden inverted pile on sky blue, a yellow sun in the first (Bleu celeste, a pile reversed golden, in canton a sun-in-splendor yellow)
+sigil_image: House_Lefford.svg
 ---
 
 ## Identity
 
 House Lefford is a noble house from the westerlands, seated at Golden Tooth. They hold the title Lord of the Golden Tooth and are one of the principal houses sworn to House Lannister. (wiki:House_Lefford)
+
+## Heraldry & Sigil
+
+A golden inverted pile on sky blue, a yellow sun in the first (Bleu celeste, a pile reversed golden, in canton a sun-in-splendor yellow) (wiki:House_Lefford)
 
 ## Allegiances
 

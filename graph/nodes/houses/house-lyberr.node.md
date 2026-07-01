@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: "Per bend sinister: a grey cat's face on black, a brown jug on white (Per bend sinister, in chief dexter sable, a cat’s head caboshed cendrée, in base sinister argent, a jug brunâtre)"
+sigil_image: House_Lyberr.svg
 ---
 
 ## Identity
 
 House Lyberr is a noble house from the Reach. (wiki:House_Lyberr)
+
+## Heraldry & Sigil
+
+Per bend sinister: a grey cat's face on black, a brown jug on white (Per bend sinister, in chief dexter sable, a cat’s head caboshed cendrée, in base sinister argent, a jug brunâtre) (wiki:House_Lyberr)
 
 ## Allegiances
 

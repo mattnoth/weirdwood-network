@@ -14,11 +14,17 @@ first_available:
   chapter: 29
   source: cite_ref
   pov: Jon VI
+sigil: Pale grey, a double tressure white (Cendrée, a double tressure argent)
+sigil_image: House_Slate.svg
 ---
 
 ## Identity
 
 House Slate is a noble house from the North. Their seat is Blackpool; they formerly held Wolf's Den (wiki:House_Slate).
+
+## Heraldry & Sigil
+
+Pale grey, a double tressure white (Cendrée, a double tressure argent) (wiki:House_Slate)
 
 ## Allegiances
 

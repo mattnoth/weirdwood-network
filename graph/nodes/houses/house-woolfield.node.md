@@ -14,11 +14,17 @@ first_available:
   chapter: 19
   source: cite_ref
   pov: Tyrion V
+sigil: Three woolsacks, white on purple, a white border (Purpure, three woolsacks within a bordure argent)
+sigil_image: House_Woolfield.svg
 ---
 
 ## Identity
 
 House Woolfield is a noble house from the North (wiki:House_Woolfield).
+
+## Heraldry & Sigil
+
+Three woolsacks, white on purple, a white border (Purpure, three woolsacks within a bordure argent) (wiki:House_Woolfield)
 
 ## Allegiances
 

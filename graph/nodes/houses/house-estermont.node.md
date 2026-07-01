@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A dark green sea turtle on pale green (Vert, a sea-turtle of the field)
+sigil_image: House_Estermont.svg
 ---
 
 ## Identity
 
 House Estermont is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A dark green sea turtle on pale green (Vert, a sea-turtle of the field) (wiki:House_Estermont)
 
 ## Edges
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three feathers, red, white and gold, on black (Sable, three feathers in fess gules argent and or)
+sigil_image: House_Cockshaw.svg
 ---
 
 ## Identity
 
 House Cockshaw is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three feathers, red, white and gold, on black (Sable, three feathers in fess gules argent and or) (wiki:House_Cockshaw)
 
 ## Edges
 

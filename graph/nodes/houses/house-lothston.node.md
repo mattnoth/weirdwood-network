@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black bat on per bend silver and gold (Per bend argent and or, a bat sable)
+sigil_image: House_Lothston.svg
 ---
 
 ## Identity
 
 House Lothston is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black bat on per bend silver and gold (Per bend argent and or, a bat sable) (wiki:House_Lothston)
 
 ## Edges
 

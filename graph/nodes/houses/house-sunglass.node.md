@@ -9,11 +9,17 @@ bucket_id: houses-other-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Seven golden seven-pointed stars in a ring on white (Argent, seven mullets of seven points or)
+sigil_image: House_Sunglass.svg
 ---
 
 ## Identity
 
 House Sunglass is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Seven golden seven-pointed stars in a ring on white (Argent, seven mullets of seven points or) (wiki:House_Sunglass)
 
 ## Edges
 

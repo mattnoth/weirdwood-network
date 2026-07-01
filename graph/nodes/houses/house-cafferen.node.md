@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Two white fawns counter salient on green (Vert, two fawns counter-salient argent)
+sigil_image: House_Cafferen.svg
 ---
 
 ## Identity
 
 House Cafferen is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Two white fawns counter salient on green (Vert, two fawns counter-salient argent) (wiki:House_Cafferen)
 
 ## Edges
 

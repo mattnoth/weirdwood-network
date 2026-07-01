@@ -14,11 +14,17 @@ first_available:
   chapter: 8
   source: cite_ref
   pov: "Jon II"
+sigil: Battling swans black and white, beaks and feet golden, on per pale white and black (Per pale argent and sable, two swans combatant counterchanged, beaked and membered or)
+sigil_image: House_Swann.svg
 ---
 
 ## Identity
 
 House Swann of Stonehelm is one of the primary noble houses of the Stormlands. They are marcher lords ruling from Stonehelm over the lands surrounding the Red Watch on Cape Wrath in the eastern Dornish Marches. They blazon their arms with argent and sable a swan counter charged. (wiki:House_Swann)
+
+## Heraldry & Sigil
+
+Battling swans black and white, beaks and feet golden, on per pale white and black (Per pale argent and sable, two swans combatant counterchanged, beaked and membered or) (wiki:House_Swann)
 
 ## Origins
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 25
   source: cite_ref
   pov: "The Lost Lord"
+sigil: A white and spotted-red spider upon a silver web over black (Sable, a cobweb silver thereon a spider argent spotted gules)
+sigil_image: House_Webber.svg
 ---
 
 ## Identity
 
 House Webber of Coldmoat is a noble house from Coldmoat in the Reach, sworn to House Rowan (wiki:House_Webber). Their blazon is a white, spotted-red spider on a silver web over black (wiki:House_Webber). Their castle Coldmoat can support twenty times as many smallfolk as Standfast (wiki:House_Webber). Webber lands include the Horseshoe Hills, Leafy Lake, and the Chequy Water, with fields of barley, wheat, and corn, six orchards, and horse breeding (wiki:House_Webber).
+
+## Heraldry & Sigil
+
+A white and spotted-red spider upon a silver web over black (Sable, a cobweb silver thereon a spider argent spotted gules) (wiki:House_Webber)
 
 ## Origins
 

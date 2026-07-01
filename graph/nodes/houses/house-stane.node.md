@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A driftwood tree, bare and brown, on pale green (Vert, a driftwood tree blasted brunâtre)
+sigil_image: House_Stane.svg
 ---
 
 ## Identity
 
 House Stane is a noble house from the North, one of the Skagosi clans. Their seat is Driftwood Hall (wiki:House_Stane).
+
+## Heraldry & Sigil
+
+A driftwood tree, bare and brown, on pale green (Vert, a driftwood tree blasted brunâtre) (wiki:House_Stane)
 
 ## Allegiances
 

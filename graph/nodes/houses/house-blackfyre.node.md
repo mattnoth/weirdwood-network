@@ -14,11 +14,17 @@ first_available:
   chapter: 5
   source: cite_ref
   pov: Bran I
+sigil: A black three-headed dragon, breathing black fire on red (Gules, a dragon thrice-headed sable flammant of the last)
+sigil_image: House_Blackfyre_2.svg
 ---
 
 ## Identity
 
 House Blackfyre is an extinct noble house from the crownlands, a cadet branch of House Targaryen founded by Daemon Blackfyre, a legitimized Great Bastard of King Aegon IV Targaryen. Named for the Valyrian steel sword Blackfyre. The male line went extinct in 260 AC (wiki:House_Blackfyre).
+
+## Heraldry & Sigil
+
+A black three-headed dragon, breathing black fire on red (Gules, a dragon thrice-headed sable flammant of the last) (wiki:House_Blackfyre)
 
 ## Origins
 

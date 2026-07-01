@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Nine unicorns around a maze, silver on black (Sable, a maze argent within an annulet of nine unicorns of the last)
+sigil_image: House_Rogers.svg
 ---
 
 ## Identity
 
 House Rogers is a noble house from Amberly in the Stormlands. They blazon their arms with nine unicorns, yellow on black. (wiki:House_Rogers)
+
+## Heraldry & Sigil
+
+Nine unicorns around a maze, silver on black (Sable, a maze argent within an annulet of nine unicorns of the last) (wiki:House_Rogers)
 
 ## Allegiances
 

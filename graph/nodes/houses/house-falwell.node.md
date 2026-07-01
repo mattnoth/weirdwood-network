@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A fool in red and gold motley juggling five suns on black (Sable, a fool proper clothed in motley gules and or, juggling five suns-in-splendour of the last)
+sigil_image: House_Falwell.svg
 ---
 
 ## Identity
 
 House Falwell is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A fool in red and gold motley juggling five suns on black (Sable, a fool proper clothed in motley gules and or, juggling five suns-in-splendour of the last) (wiki:House_Falwell)
 
 ## Edges
 

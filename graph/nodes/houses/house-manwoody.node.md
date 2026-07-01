@@ -14,11 +14,17 @@ first_available:
   chapter: 38
   source: cite_ref
   pov: "Jaime V"
+sigil: A white skull crowned with gold on black (Sable, a skull argent crowned or)
+sigil_image: House_Manwoody.svg
 ---
 
 ## Identity
 
 House Manwoody is a lordly house from Dorne, seated at Kingsgrave (wiki:House_Manwoody).
+
+## Heraldry & Sigil
+
+A white skull crowned with gold on black (Sable, a skull argent crowned or) (wiki:House_Manwoody)
 
 ## Origins
 

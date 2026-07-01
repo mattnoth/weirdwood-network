@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black dog on blue (Azure, a dog sable)
+words: Death Over Dishonor
+sigil_image: House_Westford.svg
 ---
 
 ## Identity
 
 House Westford is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black dog on blue (Azure, a dog sable) (wiki:House_Westford)
+
+Words: "Death Over Dishonor" (wiki:House_Westford)
 
 ## Edges
 

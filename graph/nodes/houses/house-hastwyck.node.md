@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Barry olive and ivory (Barry vert and argent)
+words: None so Dutiful
+sigil_image: House_Hastwyck.svg
 ---
 
 ## Identity
 
 House Hastwyck is a noble house from the Reach. Their arms display barry olive and ivory. Their words are "None so Dutiful". (wiki:House_Hastwyck)
+
+## Heraldry & Sigil
+
+Barry olive and ivory (Barry vert and argent) (wiki:House_Hastwyck)
+
+Words: "None so Dutiful" (wiki:House_Hastwyck)
 
 ## Allegiances
 

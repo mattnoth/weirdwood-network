@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three yellow beehives on a black pale on a field paly black and yellow (Paly or and sable, on a pale of the last three beehives of the first)
+words: Beware our Sting
+sigil_image: House_Beesbury.svg
 ---
 
 ## Identity
 
 House Beesbury is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three yellow beehives on a black pale on a field paly black and yellow (Paly or and sable, on a pale of the last three beehives of the first) (wiki:House_Beesbury)
+
+Words: "Beware our Sting" (wiki:House_Beesbury)
 
 ## Edges
 

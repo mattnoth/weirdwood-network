@@ -9,11 +9,20 @@ bucket_id: houses-other-house-targaryen
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A red three-headed dragon, breathing red fire on black (Sable, a dragon thrice-headed gules flammant of the last)
+words: Fire and Blood
+sigil_image: House_Targaryen.svg
 ---
 
 ## Identity
 
 House Targaryen is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A red three-headed dragon, breathing red fire on black (Sable, a dragon thrice-headed gules flammant of the last) (wiki:House_Targaryen)
+
+Words: "Fire and Blood" (wiki:House_Targaryen)
 
 ## Edges
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 3
   source: cite_ref
   pov: Daenerys I
+sigil: Per pale purple and white, two knights combatant with swords, counter-charged (Per pale purpure and argent, two knights combatant counterchanged)
+sigil_image: House_Farring.svg
 ---
 
 ## Identity
 
 House Farring is a noble house of the crownlands. Their arms are per pale purple and white, two knights on foot combatant with swords, counter-charged (wiki:House_Farring).
+
+## Heraldry & Sigil
+
+Per pale purple and white, two knights combatant with swords, counter-charged (Per pale purpure and argent, two knights combatant counterchanged) (wiki:House_Farring)
 
 ## Allegiances
 

@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Three purple roundels, on a gold field (Or, three golpes)
+words: Come Try Me
+sigil_image: House_Plumm.svg
 ---
 
 ## Identity
 
 House Plumm is a noble house from the westerlands, sworn to House Lannister. (wiki:House_Plumm)
+
+## Heraldry & Sigil
+
+Three purple roundels, on a gold field (Or, three golpes) (wiki:House_Plumm)
+
+Words: "Come Try Me" (wiki:House_Plumm)
 
 ## Allegiances
 

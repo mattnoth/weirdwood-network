@@ -14,11 +14,17 @@ first_available:
   chapter: 29
   source: cite_ref
   pov: "Cersei VI"
+sigil: An oaken escutcheon studded with iron, a field bendy of undulating blue and white (Bendy undy azure and argent, an escutcheon brunâtre platé)
+sigil_image: House_Hewett.svg
 ---
 
 ## Identity
 
 House Hewett of Oakenshield is a noble house that rules over Oakenshield, one of the Shield Islands of the Reach. Lord Hewett's castle sits above the harbor of Lord Hewett's Town, a relatively large port. Their arms display an oaken escutcheon studded with iron on a field bendy of undulating blue and white. (wiki:House_Hewett.cite_ref-Raffc29)
+
+## Heraldry & Sigil
+
+An oaken escutcheon studded with iron, a field bendy of undulating blue and white (Bendy undy azure and argent, an escutcheon brunâtre platé) (wiki:House_Hewett)
 
 ## Allegiances
 

@@ -223,6 +223,12 @@ weirwood() {
       esac
       ;;
 
+    # ── Sift corpus scanner ────────────────────────────────────────────────────
+    sift)
+      shift
+      python3 "$project_dir/scripts/sift.py" "$@"
+      ;;
+
     ""|--help|-h)
       echo "weirwood — run Weirwood Network extractions"
       echo ""
@@ -235,6 +241,7 @@ weirwood() {
       echo "  weirwood stop                     Soft stop (see below)"
       echo "  weirwood wiki <subcommand>        Wiki Pass 2 — see 'weirwood wiki --help'"
       echo "  weirwood stage4 <subcommand>      Stage 4 prose-edge classifier"
+      echo "  weirwood sift <subcommand>        Sift corpus scanner (status/run/sample/interpret)"
       echo "  weirwood run <subcommand>         Long-run track registry — see 'weirwood run --help'"
       echo "  weirwood graph <args>             Graph query/audit (graph-query.py pass-through)"
       echo "  weirwood resolve <args>           Event alias resolver (event_alias_resolver.py)"

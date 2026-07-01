@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Chevronny russet and gold (Chevronny inverted brunâtre and or)
+sigil_image: House_Stout.svg
 ---
 
 ## Identity
 
 House Stout is a noble house from Goldgrass in the North. Their head is Harwood Stout (wiki:House_Stout).
+
+## Heraldry & Sigil
+
+Chevronny russet and gold (Chevronny inverted brunâtre and or) (wiki:House_Stout)
 
 ## Allegiances
 

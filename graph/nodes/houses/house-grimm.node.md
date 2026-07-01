@@ -14,11 +14,17 @@ first_available:
   chapter: 29
   source: cite_ref
   pov: "Cersei VI"
+sigil: An iron escutcheon with silver studs on a grey-green field strewn with longships proper (Vert-cendrée semé of longships proper, an escutcheon cendrée platé)
+sigil_image: House_Grimm.svg
 ---
 
 ## Identity
 
 House Grimm of Greyshield is a noble house that rules the island Greyshield, one of the Shield Islands of the Reach, from their castle Grimston. Their arms display an iron escutcheon with silver studs on a grey-green field strewn with longships proper (semi-canon heraldry). (wiki:House_Grimm)
+
+## Heraldry & Sigil
+
+An iron escutcheon with silver studs on a grey-green field strewn with longships proper (Vert-cendrée semé of longships proper, an escutcheon cendrée platé) (wiki:House_Grimm)
 
 ## Allegiances
 

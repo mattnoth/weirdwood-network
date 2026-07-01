@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "Quarterly of nine: a white fish on grey, a golden fish hook on white (Quarterly of nine, first, third, fifth, seventh and ninth cendrée, a fish white; second, fourth, sixth and eight white, a fish-hook or)"
+sigil_image: House_Keath.svg
 ---
 
 ## Identity
 
 House Keath is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Quarterly of nine: a white fish on grey, a golden fish hook on white (Quarterly of nine, first, third, fifth, seventh and ninth cendrée, a fish white; second, fourth, sixth and eight white, a fish-hook or) (wiki:House_Keath)
 
 ## Edges
 

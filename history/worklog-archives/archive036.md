@@ -57,3 +57,34 @@
 - **Verified:** 27 deno tests green; `deno check` dev.ts + chat.ts clean; lint clean (16 files); DEMO server boots, serves placeholder-free `app.js`, streams without touching the deleted fixture (no 500).
 **Decisions:** "remove all tywin placeholder context" = the fake demo content (hand-written prose + fixture + auto-load + its generation), **NOT** the real integration tests. KEPT the resolve/read-node/walk-chain/agent tests pivoting on `assassination-of-tywin-lannister` (a real, permanent graph node) — a legitimate engine fixture, not placeholder; offered to repoint to a Red Wedding node if Matt wants the word gone everywhere. No mocked AI prose remains anywhere (Matt firm).
 **What's next:** the **fresh-context chat-UI DESIGN session** (Matt's design notes + enrichment ideas to come) → `progress/continue-prompts/2026-06-30-chat-ui-design.md` (`/continue chat-ui-design`, **Sonnet 4.6**): chain "see-the-edges" mockups, Band-vs-Spine default, the failed-turn-wipes-chain bug, live slug→name polish, backdrop opacity. THEN gated ship: capture a real recorded conversation (multi-turn Red Wedding) → wire DEMO replay to it → deploy private→Netlify + `ANTHROPIC_API_KEY`. NOTE (pre-existing): `deno task test` lacks `--node-modules-dir=auto` (errors on `@types/node`); add the flag or `"nodeModulesDir":"auto"` to `web/deno.json`.
+
+---
+
+### Session 176 — Chat-UI alpha: DESIGN evaluation against live conversations — [Track: meta] (2026-06-30)
+**Detail:** `history/session-details/session-176.md` (the design narrative: advisory board, the mid-flight reversals, decisions). **Model:** Opus 4.8 (handoff recommended Sonnet 4.6). **Small API $** — live Sonnet 4.6 turns for design iteration (a few cents); no graph writes; harvest queue at 0.
+**Context:** First fresh-context DESIGN session after the S171–S175 build/cleanup. Stood the live Deno server up under the preview MCP (`weirwood-live` config) and iterated against REAL conversations from Matt's notes. Heavily interactive — several reversals reshaped the plan.
+**Changes made (all `web/`):**
+- **Prose quality FIXED** (`agent.ts` SYSTEM_PROMPT): added an **"Evidence discipline"** block (setup-then-quote · one quote/beat · ≤~20 words · no standalone block-quotes · quote-must-do-a-job), fixed the **"Ask your questions…" opener leaking** into real answers, added a **mandatory-walk** rule for causal Qs. Verified by curl: in-context set-up quotes, no dumps, walk fires.
+- **`walkChain` tamed + enriched** (`src/lib/graph.ts`+`types.ts`): `DEFAULT_MAX_DEPTH=2`, `MAX_LINKS_PER_DIRECTION=12`, causal-only default; links carry `source_name/target_name/source_type/target_type` (slug→name fix). `graph_test.ts` updated (8 pass). Verified curl: "what led to the Red Wedding" → **8 clean named links**.
+- **Frontend** (`app.js`/`app.css`): re-rendered the chain to the **Mockup-A annotated spine** (node cards + type, hub highlight, inline edge evidence, `cleanQuote()` strips `(wiki:…)` markup, repeat-slim, bounded scroll); fixed the **failed-turn-wipes-chain** bug (`lastGoodChain` persistence). ⚠️ interim spine NOT visually verified end-to-end (Sonnet variance kept the browser from walking) — the S177 rebuild replaces most of it.
+- **About page** (`index.html`/`app.css`/`app.js`): page now opens **straight to chat**; the "what is this" blurb → a toggled **About view** (header **About** ↔ "← Chat"). Verified.
+- **Prose-first on mobile** (CSS `order`); the full-width **Band-on-top RETIRED** (it sat above the prose → chain = rail desktop / below mobile). **Backdrop opacity 0.06→0.11** (`tokens.css`). **Dev caching fixed**: `dev.ts` no-store + `index.html` asset `?v=176b`.
+**Decisions:** **Bloodraven = DEFAULT persona** (advisory board overrode the earlier Loremaster-default lean — a characterful voice forces narrative cohesion → better in-context quotes; flat Loremaster is a *later* toggle that inherits the same Evidence Discipline). **Keep-the-detail-via-progressive-disclosure** (NOT hard-prune — Matt reversed): clean spine default + ENABLES web behind a "show preconditions (+N)" toggle. **Prose-first on every screen.** Mockups picked: **A** (annotated spine) + **C** (node dossier). The 4-advisor board (3 returned, 1 hung) converged on all of the above. Locked list unchanged.
+**What's next:** the **chain-display REBUILD (Phase 2, green-lit)** → `progress/continue-prompts/2026-06-30-chat-ui-design.md` (`/continue chat-ui-design`, **Sonnet 4.6**): dedup spine + "show preconditions (+N)" toggle (keep detail, progressive) → hover-peek + click-dossier on every node (add `/api/node` lookup) → stretch prose↔edge highlight. All S176 work committed at this endsession.
+
+> _Sessions 157 (A1.6 Euron), 158 (script consolidation), 159 (A2.6 Jaime), 160 (chat-UI Bloodraven demo), and 161 (A2.4 Tyrion) archived to `history/worklog-archives/archive033.md` (full at 5). Sessions 162 (harvest drain), 163 (WO5K-battles PASS 1), 164 (PASS 2 Westerlands raid), 165 (harvest drain), and 166 (PASS 3 the unravelling) archived to `history/worklog-archives/archive034.md` (full at 5). Sessions 167 (A2.8 Davos/Sam residual — CLOSES the 🅰 A-roundup), 168 (granular-dip planning + chat-UI alpha scoped), 169 (chat-UI alpha design review), 170 (chat-UI publishing settled + repo/auth), and 171 (chat-UI alpha BUILD step-0 + Foundation) archived to `history/worklog-archives/archive035.md` (full at 5). Sessions 172 (retrieval-core chunk), 173 (function chunk), 174 (chat-UI front-end chunk), and 175 (Tywin-placeholder removal + local-live dev server) archived to `history/worklog-archives/archive036.md` (4 of 5)._
+
+---
+
+## Principles
+
+> Guiding principles for the project. Reference these when making design decisions.
+
+1. **The chapter text is immutable.** Source files in `sources/chapters/` never change. Everything else layers on top.
+2. **Facts before interpretations.** Mechanical extraction before analytical. Tier 1 before Tier 4.
+3. **Agents propose, humans decide.** Analytical findings go to the curation queue. Matt assigns confidence.
+4. **Spoiler gating is deferred, not dropped.** `first_available` is optional in v1 nodes and backfills via deterministic script post-first-release (DEFERRED decision, 2026-04-27/S24). Don't spend context reasoning out individual values; the wiki cite_ref/infobox sources for the backfill are documented in architecture.md.
+5. **The index and the graph are complementary.** The index routes. The graph traverses. Both are needed.
+6. **Each token should be productive.** Structure exists to reduce waste — agents should read relevant, trustworthy content, not re-derive known relationships.
+7. **Start with the foundation, not the flashiest feature.** Chapter files → mechanical extraction → wiki → index → graph → analytical passes. In that order.
+

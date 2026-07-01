@@ -14,11 +14,17 @@ first_available:
   chapter: 18
   source: cite_ref
   pov: Cersei IV
+sigil: A scourge of nettles, red and black, on white (Argent, a scourge sable lashed with nettles gules)
+sigil_image: Tawney.png
 ---
 
 ## Identity
 
 House Tawney of Orkmont is a noble house from the Iron Islands, one of the strongest sworn to Pyke (wiki:House_Tawney.cite_ref-Ragotappendix). Their lands are on the island of Orkmont (wiki:House_Tawney.cite_ref-Rasosappendix). Their sigil depicts a scourge of nettles, red and black, on white (wiki:House_Tawney.cite_ref-semi-canon).
+
+## Heraldry & Sigil
+
+A scourge of nettles, red and black, on white (Argent, a scourge sable lashed with nettles gules) (wiki:House_Tawney)
 
 ## Allegiances
 

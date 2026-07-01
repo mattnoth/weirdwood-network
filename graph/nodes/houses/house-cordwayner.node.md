@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Black boots on field of green and gold diamonds (Lozengy vert and or, a pair of boots sable)
+sigil_image: House_Cordwayner.svg
 ---
 
 ## Identity
 
 House Cordwayner is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Black boots on field of green and gold diamonds (Lozengy vert and or, a pair of boots sable) (wiki:House_Cordwayner)
 
 ## Edges
 

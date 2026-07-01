@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A silver tree on green (Vert, a tree argent)
+sigil_image: House_Harlton.svg
 ---
 
 ## Identity
 
 House Harlton is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A silver tree on green (Vert, a tree argent) (wiki:House_Harlton)
 
 ## Edges
 

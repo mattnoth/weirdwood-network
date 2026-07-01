@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Per pale, white stars strewn on indigo, an orange sun on yellow (Per pale, in dexter purpure semé of mullets argent, in sinister or, a sun-in-splendour tenné)
+sigil_image: House_Sloane.svg
 ---
 
 ## Identity
 
 House Sloane is a noble house from the Reach (wiki:House_Sloane). They blazon their arms with per pale, white stars strewn on indigo, an orange sun on yellow (wiki:House_Sloane).
+
+## Heraldry & Sigil
+
+Per pale, white stars strewn on indigo, an orange sun on yellow (Per pale, in dexter purpure semé of mullets argent, in sinister or, a sun-in-splendour tenné) (wiki:House_Sloane)
 
 ## Allegiances
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 43
   source: cite_ref
   pov: Brienne VIII
+sigil: "Per fess: five black roundels on grey over green and white lozengy (Per fess cendrée and lozengy argent and vert, in chief five pellets)"
+sigil_image: House_Wells_%28North%29.svg
 ---
 
 ## Identity
 
 House Wells is a noble house from the North (wiki:House_Wells_(north)). Not to be confused with other houses of the same name.
+
+## Heraldry & Sigil
+
+Per fess: five black roundels on grey over green and white lozengy (Per fess cendrée and lozengy argent and vert, in chief five pellets) (wiki:House_Wells_(north))
 
 ## Allegiances
 

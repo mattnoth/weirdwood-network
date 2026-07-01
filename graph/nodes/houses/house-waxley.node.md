@@ -14,11 +14,20 @@ first_available:
   chapter: 10
   source: cite_ref
   pov: "Brienne II"
+sigil: Six candles, white with red flames, within silver candle holders on a grey field bordered in black (Cendrée, six candles white in holders argent inflamed gules, within a bordure sable)
+words: Light in Darkness
+sigil_image: House_Waxley.svg
 ---
 
 ## Identity
 
 House Waxley of Wickenden is a noble house from Wickenden in the south of the Vale. They are sworn to House Arryn of the Eyrie (wiki:House_Waxley). The current head is Ser Edmund Waxley (track_b: Head).
+
+## Heraldry & Sigil
+
+Six candles, white with red flames, within silver candle holders on a grey field bordered in black (Cendrée, six candles white in holders argent inflamed gules, within a bordure sable) (wiki:House_Waxley)
+
+Words: "Light in Darkness" (wiki:House_Waxley)
 
 ## Allegiances
 

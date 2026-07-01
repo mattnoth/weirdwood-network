@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: 2 bronze halberds crossed between 4 red diamonds, on white (Argent, between four lozenges gules two halberds saltirewise bronze)
+sigil_image: House_Yarwyck.svg
 ---
 
 ## Identity
 
 House Yarwyck is a noble house from the westerlands of unknown rank. They are sworn to House Lannister. Othell Yarwyck, First Builder of the Night's Watch, is from this house. (wiki:House_Yarwyck)
+
+## Heraldry & Sigil
+
+2 bronze halberds crossed between 4 red diamonds, on white (Argent, between four lozenges gules two halberds saltirewise bronze) (wiki:House_Yarwyck)
 
 ## Allegiances
 

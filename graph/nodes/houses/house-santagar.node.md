@@ -14,11 +14,17 @@ first_available:
   chapter: 18
   source: cite_ref
   pov: "Bran III"
+sigil: Per bend sinister blue and white, a spotted leopard with golden axe (Per bend sinister azure and argent, a spotted-leopard proper bearing an axe or)
+sigil_image: House_Santagar.svg
 ---
 
 ## Identity
 
 House Santagar is a knightly house from Dorne, seated at Spottswood (wiki:House_Santagar).
+
+## Heraldry & Sigil
+
+Per bend sinister blue and white, a spotted leopard with golden axe (Per bend sinister azure and argent, a spotted-leopard proper bearing an axe or) (wiki:House_Santagar)
 
 ## Origins
 

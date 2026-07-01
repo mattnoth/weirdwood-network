@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A green lobster on white, its claws holding a black harpoon (Argent, a lobster vert holding a harpoon sable)
+sigil_image: House_Magnar.svg
 ---
 
 ## Identity
 
 House Magnar is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A green lobster on white, its claws holding a black harpoon (Argent, a lobster vert holding a harpoon sable) (wiki:House_Magnar)
 
 ## Edges
 

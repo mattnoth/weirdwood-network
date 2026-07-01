@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A saltire of interlocked golden rings, upon a sky blue field (Bleu celeste, per saltire a chain of rings or)
+sigil_image: House_Roxton.svg
 ---
 
 ## Identity
 
 House Roxton of the Ring is a noble house from the Ring in the Reach (wiki:House_Roxton). Possibly a house of landed knights (wiki:House_Roxton). Their blazon is a saltire of interlocked golden rings upon a sky blue field (wiki:House_Roxton). They possess a Valyrian steel sword called Orphan-Maker (wiki:House_Roxton).
+
+## Heraldry & Sigil
+
+A saltire of interlocked golden rings, upon a sky blue field (Bleu celeste, per saltire a chain of rings or) (wiki:House_Roxton)
 
 ## Origins
 

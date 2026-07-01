@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A burgundy grape cluster on blue (Azure, a grape-cluster murrey)
+sigil_image: House_Redwyne.svg
 ---
 
 ## Identity
 
 House Redwyne of the Arbor is one of the main noble houses sworn to Highgarden (wiki:House_Redwyne). Their seat is the Arbor, an island off the southwestern-most part of Westeros, known for making the best wines in Westeros (wiki:House_Redwyne). The Redwynes control the Redwyne fleet, the largest fleet in Westeros, containing two hundred warships and five times as many merchant vessels (wiki:House_Redwyne). Their sigil is a burgundy grape cluster on blue (wiki:House_Redwyne).
+
+## Heraldry & Sigil
+
+A burgundy grape cluster on blue (Azure, a grape-cluster murrey) (wiki:House_Redwyne)
 
 ## Origins
 

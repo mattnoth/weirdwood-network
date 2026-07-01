@@ -14,11 +14,17 @@ first_available:
   chapter: 11
   source: cite_ref
   pov: Davos II
+sigil: Per bend green and white, a crossed spiked mace and a silver dagger (Per bend vert and white, a mace spiked palewise proper surmounted by a dagger fesswise silver)
+sigil_image: House_Chelsted.svg
 ---
 
 ## Identity
 
 House Chelsted is a noble house from the crownlands. Their arms are per bend green and white, a crossed spiked mace and a silver dagger (wiki:House_Chelsted).
+
+## Heraldry & Sigil
+
+Per bend green and white, a crossed spiked mace and a silver dagger (Per bend vert and white, a mace spiked palewise proper surmounted by a dagger fesswise silver) (wiki:House_Chelsted)
 
 ## Allegiances
 

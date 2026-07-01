@@ -14,11 +14,17 @@ first_available:
   chapter: 21
   source: cite_ref
   pov: "Tyrion III"
+sigil: Two black warhammers crossed on a white saltire on blue (Azure, on a saltire argent two warhammers saltirewise sable)
+sigil_image: House_Rykker.svg
 ---
 
 ## Identity
 
 House Rykker of Duskendale is a lordly house from the crownlands. Their sigil depicts two black warhammers crossed on a white saltire on blue (*Azure, on a saltire argent two warhammers saltirewise sable*) (wiki:House_Rykker). Their seat is the Dun Fort in Duskendale (wiki:House_Rykker.cite_ref-Raffcappendix).
+
+## Heraldry & Sigil
+
+Two black warhammers crossed on a white saltire on blue (Azure, on a saltire argent two warhammers saltirewise sable) (wiki:House_Rykker)
 
 ## Appearances & Description
 

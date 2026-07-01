@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A blue pall with white borders on red (Gules, a pall azure, fimbriated argent)
+sigil_image: House_Coldwater.svg
 ---
 
 ## Identity
 
 House Coldwater is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A blue pall with white borders on red (Gules, a pall azure, fimbriated argent) (wiki:House_Coldwater)
 
 ## Edges
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A golden tree on silver (Argent, a tree or)
+sigil_image: House_Rowan.svg
 ---
 
 ## Identity
 
 House Rowan of Goldengrove is one of the most prominent and old families from the Reach, its dominions extending along the northern borders (wiki:House_Rowan). Their blazon is a golden tree on silver (wiki:House_Rowan). Like several other major Reach houses, the Rowans trace descent from Garth Greenhand through his daughter Rowan Gold-Tree (wiki:House_Rowan).
+
+## Heraldry & Sigil
+
+A golden tree on silver (Argent, a tree or) (wiki:House_Rowan)
 
 ## Origins
 

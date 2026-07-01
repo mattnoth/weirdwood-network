@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three brass buckles on blue (Azure, three buckles or)
+sigil_image: House_Buckler.svg
 ---
 
 ## Identity
 
 House Buckler is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three brass buckles on blue (Azure, three buckles or) (wiki:House_Buckler)
 
 ## Edges
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Ply flame and black (Pily gules and sable)
+sigil_image: House_Crowl.svg
 ---
 
 ## Identity
 
 House Crowl is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Ply flame and black (Pily gules and sable) (wiki:House_Crowl)
 
 ## Edges
 

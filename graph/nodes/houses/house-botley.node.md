@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A shoal of silver fish on pale green (Vert semé of fishes argent)
+sigil_image: House_Botley.svg
 ---
 
 ## Identity
 
 House Botley is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A shoal of silver fish on pale green (Vert semé of fishes argent) (wiki:House_Botley)
 
 ## Edges
 

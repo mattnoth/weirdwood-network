@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black and white brindled boar on brown (Brunâtre, a boar brindled sable and argent)
+words: None so Fierce
+sigil_image: House_Crakehall.svg
 ---
 
 ## Identity
 
 House Crakehall is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black and white brindled boar on brown (Brunâtre, a boar brindled sable and argent) (wiki:House_Crakehall)
+
+Words: "None so Fierce" (wiki:House_Crakehall)
 
 ## Edges
 

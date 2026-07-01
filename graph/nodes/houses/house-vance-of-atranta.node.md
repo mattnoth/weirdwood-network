@@ -14,11 +14,17 @@ first_available:
   chapter: 22
   source: cite_ref
   pov: Jaime III
+sigil: "Quartered: a green dragon on white, a white tower on black (Quarterly, 1st and 3rd argent, a dragon vert, 2nd and 4th sable, a tower argent)"
+sigil_image: House_Vance_of_Atranta.svg
 ---
 
 ## Identity
 
 House Vance of Atranta is one of two great branches of House Vance in the riverlands, the other being House Vance of Wayfarer's Rest (wiki:House_Vance_of_Atranta). Their arms are quartered: a green dragon on white and a white tower on black (wiki:House_Vance_of_Atranta).
+
+## Heraldry & Sigil
+
+Quartered: a green dragon on white, a white tower on black (Quarterly, 1st and 3rd argent, a dragon vert, 2nd and 4th sable, a tower argent) (wiki:House_Vance_of_Atranta)
 
 ## Origins
 

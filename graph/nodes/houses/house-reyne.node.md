@@ -14,11 +14,17 @@ first_available:
   chapter: 19
   source: cite_ref
   pov: Samwell I
+sigil: A red lion rampant regardant with a forked tail, armed and langued gold, on silver (Argent, a lion rampant regardant queue-fourché gules, armed and langued or)
+sigil_image: House_Reyne.svg
 ---
 
 ## Identity
 
 House Reyne was a noble house from the westerlands, formerly seated at Castamere. They held the title Lord of Castamere. The house is now extinct, destroyed by Tywin Lannister during the Reyne-Tarbeck rebellion. (wiki:House_Reyne)
+
+## Heraldry & Sigil
+
+A red lion rampant regardant with a forked tail, armed and langued gold, on silver (Argent, a lion rampant regardant queue-fourché gules, armed and langued or) (wiki:House_Reyne)
 
 ## Allegiances
 

@@ -13,11 +13,17 @@ first_available:
   book: ADWD
   chapter: 11
   source: cite_ref
+sigil: Three stalks of yellow wheat on brown (Brunâtre, three stalks of wheat or)
+sigil_image: House_Selmy.svg
 ---
 
 ## Identity
 
 House Selmy is a noble house of marcher lords from Harvest Hall in the Stormlands. They blazon their arms with three stalks of yellow wheat on brown. (wiki:House_Selmy)
+
+## Heraldry & Sigil
+
+Three stalks of yellow wheat on brown (Brunâtre, three stalks of wheat or) (wiki:House_Selmy)
 
 ## Allegiances
 

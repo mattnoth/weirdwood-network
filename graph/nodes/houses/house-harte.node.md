@@ -14,11 +14,17 @@ first_available:
   chapter: 39
   source: cite_ref
   pov: "Tyrion V"
+sigil: "Three red hart's heads caboshed on a white bend on vair (Vair, on a bend argent three harts’ heads caboshed gules)"
+sigil_image: House_Harte.svg
 ---
 
 ## Identity
 
 House Harte is a noble house from the crownlands, sworn directly to House Baratheon of King's Landing. Their arms are three red hart's heads caboshed on a white bend on vair (wiki:House_Harte).
+
+## Heraldry & Sigil
+
+Three red hart's heads caboshed on a white bend on vair (Vair, on a bend argent three harts’ heads caboshed gules) (wiki:House_Harte)
 
 ## Appearances & Description
 

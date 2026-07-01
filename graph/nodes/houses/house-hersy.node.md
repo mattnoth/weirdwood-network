@@ -14,11 +14,17 @@ first_available:
   chapter: 38
   source: cite_ref
   pov: "Bran V"
+sigil: A white winged chalice on pink (Rose, a winged-chalice argent)
+sigil_image: House_Hersy.svg
 ---
 
 ## Identity
 
 House Hersy of Newkeep is a noble house from Newkeep in the Vale. It is one of the principal houses sworn to House Arryn (wiki:House_Hersy).
+
+## Heraldry & Sigil
+
+A white winged chalice on pink (Rose, a winged-chalice argent) (wiki:House_Hersy)
 
 ## Allegiances
 

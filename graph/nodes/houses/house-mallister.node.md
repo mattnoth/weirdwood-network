@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A silver eagle displayed on indigo (Purpure, an eagle displayed argent)
+words: Above the Rest
+sigil_image: House_Mallister.svg
 ---
 
 ## Identity
 
 House Mallister of Seagard is one of the most prominent noble houses from the riverlands, with a prouder lineage than their liege lords, House Tully (wiki:House_Mallister). Their blazon is a silver eagle displayed on an indigo (purple) field, and their motto is "Above the rest" (wiki:House_Mallister).
+
+## Heraldry & Sigil
+
+A silver eagle displayed on indigo (Purpure, an eagle displayed argent) (wiki:House_Mallister)
+
+Words: "Above the Rest" (wiki:House_Mallister)
 
 ## Origins
 

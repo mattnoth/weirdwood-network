@@ -14,11 +14,17 @@ first_available:
   chapter: 1
   source: cite_ref
   pov: Prologue
+sigil: Oak saltire on blue (Azure, a saltire brunâtre)
+sigil_image: House_Sparr.svg
 ---
 
 ## Identity
 
 House Sparr of Great Wyk is an ironborn noble house on the island of Great Wyk in the Iron Islands. Their lands are about six leagues from Hammerhorn. The lord is known as "the Sparr." Their sigil depicts an oak saltire on blue (wiki:House_Sparr.cite_ref-semi-canon).
+
+## Heraldry & Sigil
+
+Oak saltire on blue (Azure, a saltire brunâtre) (wiki:House_Sparr)
 
 ## Allegiances
 

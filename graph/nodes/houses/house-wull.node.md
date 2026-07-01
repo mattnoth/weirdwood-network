@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Three wooden buckets, brown on blue, with a border of grey and white checks (Azure, three wooden buckets brunâtre within a bordure chequy cendrée and argent)
+sigil_image: House_Wull.svg
 ---
 
 ## Identity
 
 House Wull is a noble house from the northern mountains in the North. One of the northern mountain clans. Their head is Hugo Wull, known as Big Bucket (wiki:House_Wull).
+
+## Heraldry & Sigil
+
+Three wooden buckets, brown on blue, with a border of grey and white checks (Azure, three wooden buckets brunâtre within a bordure chequy cendrée and argent) (wiki:House_Wull)
 
 ## Allegiances
 

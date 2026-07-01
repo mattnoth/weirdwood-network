@@ -14,11 +14,17 @@ first_available:
   chapter: 9
   source: cite_ref
   pov: "Tyrion III"
+sigil: A burning tower in yellow, within a black pile, upon flaming red (Gules, on a pile sable a tower or with flames issuant from the battlements)
+sigil_image: House_Grafton.svg
 ---
 
 ## Identity
 
 House Grafton of Gulltown is a noble house from the Vale of Arryn, one of the main families sworn to House Arryn of the Eyrie. They rule over Gulltown, the only city in the Vale (wiki:House_Grafton). The current head is Lord Gerold Grafton (track_b: Head).
+
+## Heraldry & Sigil
+
+A burning tower in yellow, within a black pile, upon flaming red (Gules, on a pile sable a tower or with flames issuant from the battlements) (wiki:House_Grafton)
 
 ## Origins
 

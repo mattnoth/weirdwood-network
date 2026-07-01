@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Lemons strewn on purple (Purpure, semé of lemons proper)
+sigil_image: House_Dalt.svg
 ---
 
 ## Identity
 
 House Dalt is a knightly house from Dorne, seated at Lemonwood (wiki:House_Dalt).
+
+## Heraldry & Sigil
+
+Lemons strewn on purple (Purpure, semé of lemons proper) (wiki:House_Dalt)
 
 ## Allegiances
 

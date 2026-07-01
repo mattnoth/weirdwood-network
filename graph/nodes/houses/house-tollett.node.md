@@ -9,11 +9,20 @@ bucket_id: houses-other-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Pily grey and black (Pily cendrée and sable)
+words: When All is Darkest
+sigil_image: House_Tollett.svg
 ---
 
 ## Identity
 
 House Tollett is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Pily grey and black (Pily cendrée and sable) (wiki:House_Tollett)
+
+Words: "When All is Darkest" (wiki:House_Tollett)
 
 ## Edges
 

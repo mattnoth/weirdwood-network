@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A purple unicorn on silver (Argent, a unicorn purpure)
+sigil_image: House_Brax.svg
 ---
 
 ## Identity
 
 House Brax is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A purple unicorn on silver (Argent, a unicorn purpure) (wiki:House_Brax)
 
 ## Edges
 

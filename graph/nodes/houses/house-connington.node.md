@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Two griffins combatent countercharged on red and white (Per pale gules and argent, two griffins combatant counterchanged)
+sigil_image: House_Connington.svg
 ---
 
 ## Identity
 
 House Connington is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Two griffins combatent countercharged on red and white (Per pale gules and argent, two griffins combatant counterchanged) (wiki:House_Connington)
 
 ## Edges
 

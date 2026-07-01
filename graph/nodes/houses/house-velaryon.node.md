@@ -9,11 +9,20 @@ bucket_id: houses-other-h-w
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A silver seahorse on sea green (Aquamarine, a seahorse argent)
+words: The Old, the True, the Brave
+sigil_image: House_Velaryon.svg
 ---
 
 ## Identity
 
 House Velaryon is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A silver seahorse on sea green (Aquamarine, a seahorse argent) (wiki:House_Velaryon)
+
+Words: "The Old, the True, the Brave" (wiki:House_Velaryon)
 
 ## Edges
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Green and white gyronny, a double-headed eagle counter-charged, gold beak and talons (Gyronny vert and argent, an eagle bicapitated counterchanged armed or)
+sigil_image: House_Graves.svg
 ---
 
 ## Identity
 
 House Graves is a noble house from the Reach. Their arms display green and white gyronny, a double-headed eagle counter-charged, gold beak and talons. Their words are unknown. (wiki:House_Graves)
+
+## Heraldry & Sigil
+
+Green and white gyronny, a double-headed eagle counter-charged, gold beak and talons (Gyronny vert and argent, an eagle bicapitated counterchanged armed or) (wiki:House_Graves)
 
 ## Allegiances
 

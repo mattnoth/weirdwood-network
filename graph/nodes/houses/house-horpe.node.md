@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "Per chevron engrailed grey and bone, 3 death's head moths countercharged (Per chevron engrailed cendrée and argent, three death's head moths counterchanged)"
+sigil_image: House_Horpe.svg
 ---
 
 ## Identity
 
 House Horpe is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Per chevron engrailed grey and bone, 3 death's head moths countercharged (Per chevron engrailed cendrée and argent, three death's head moths counterchanged) (wiki:House_Horpe)
 
 ## Edges
 

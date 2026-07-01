@@ -14,11 +14,17 @@ first_available:
   chapter: 1
   source: cite_ref
   pov: Prologue
+sigil: A drowned man, pink and pale, floating upright in a blue-green sea, his hair streaming upwards, as fish nibble at his limbs (Aquamarine, a drowned man erect carnation, hair to chief, fishes proper nibbling at his limbs)
+sigil_image: House_Sunderly.svg
 ---
 
 ## Identity
 
 House Sunderly of Saltcliffe is one of the main noble houses from the Iron Islands. Their seat is on the island of Saltcliffe (wiki:House_Sunderly.cite_ref-Raffc1). Their sigil depicts a drowned man, pink and pale, floating upright in a blue-green sea, his hair streaming upwards, as fish nibble at his limbs (wiki:House_Sunderly.cite_ref-semi-canon).
+
+## Heraldry & Sigil
+
+A drowned man, pink and pale, floating upright in a blue-green sea, his hair streaming upwards, as fish nibble at his limbs (Aquamarine, a drowned man erect carnation, hair to chief, fishes proper nibbling at his limbs) (wiki:House_Sunderly)
 
 ## Allegiances
 

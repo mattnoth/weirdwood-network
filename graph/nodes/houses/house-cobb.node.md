@@ -9,11 +9,16 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Unknown
 ---
 
 ## Identity
 
 House Cobb is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Unknown (wiki:House_Cobb)
 
 ## Edges
 

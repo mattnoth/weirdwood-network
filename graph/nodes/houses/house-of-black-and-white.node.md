@@ -9,11 +9,16 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil_image: Donato_Giancola_House_of_Black_and_White.jpg
 ---
 
 ## Identity
 
 House of Black and White is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+No coat of arms description available. (wiki:House_of_Black_and_White)
 
 ## Edges
 

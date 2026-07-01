@@ -9,11 +9,20 @@ bucket_id: houses-major-recovery
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A red flayed man on pink de sang (Carnation gouttée-de-sang, a flayed man gules)
+words: Our Blades Are Sharp
+sigil_image: House_Bolton.svg
 ---
 
 ## Identity
 
 House Bolton is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A red flayed man on pink de sang (Carnation gouttée-de-sang, a flayed man gules) (wiki:House_Bolton)
+
+Words: "Our Blades Are Sharp" (wiki:House_Bolton)
 
 ## Edges
 

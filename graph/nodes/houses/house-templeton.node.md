@@ -14,11 +14,17 @@ first_available:
   chapter: 17
   source: cite_ref
   pov: "Jaime II"
+sigil: Nine stars, one of 7 points and the rest of 6 points, on a gold saltire on black (Sable, on a saltire or, nine mullets of the field, that in fesse-point of seven points, all others of six points)
+sigil_image: House_Templeton.svg
 ---
 
 ## Identity
 
 House Templeton of Ninestars is a noble house from Ninestars in the Vale of Arryn, a powerful knightly family sworn to House Arryn. The head of the family holds the title Knight of Ninestars. The current head is Ser Symond Templeton (wiki:House_Templeton) (track_b: Head).
+
+## Heraldry & Sigil
+
+Nine stars, one of 7 points and the rest of 6 points, on a gold saltire on black (Sable, on a saltire or, nine mullets of the field, that in fesse-point of seven points, all others of six points) (wiki:House_Templeton)
 
 ## Origins
 

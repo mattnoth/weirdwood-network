@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A roaring giant, brown-haired and wearing a skin, with broken silver chains, on flame-red (Gules, a giant roaring brunâtre habited with a skin proper wearing chains broken argent)
+words: Death Before Chains
+sigil_image: House_Umber.svg
 ---
 
 ## Identity
 
 House Umber is a noble house from Last Hearth in the North. Their head is Jon "Greatjon" Umber. They hold the title Lord of the Last Hearth (wiki:House_Umber).
+
+## Heraldry & Sigil
+
+A roaring giant, brown-haired and wearing a skin, with broken silver chains, on flame-red (Gules, a giant roaring brunâtre habited with a skin proper wearing chains broken argent) (wiki:House_Umber)
+
+Words: "Death Before Chains" (wiki:House_Umber)
 
 ## Allegiances
 

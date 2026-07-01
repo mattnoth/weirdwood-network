@@ -9,11 +9,17 @@ bucket_id: houses-crownlands-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
+sigil: A grey iron greathelm on white (Argent, an iron greathelm cendrée)
+sigil_image: House_Pyle.svg
 ---
 
 ## Identity
 
 House Pyle is a noble house from the crownlands (wiki:House_Pyle).
+
+## Heraldry & Sigil
+
+A grey iron greathelm on white (Argent, an iron greathelm cendrée) (wiki:House_Pyle)
 
 ## Allegiances
 

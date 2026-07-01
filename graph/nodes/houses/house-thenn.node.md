@@ -14,11 +14,17 @@ first_available:
   chapter: 44
   source: cite_ref
   pov: Daenerys VII
+sigil: A bronze disk surrounded with red flames on a white field (Argent, a roundel bronze inflamed gules)
+sigil_image: House_Thenn.svg
 ---
 
 ## Identity
 
 House Thenn is a newly founded noble house in the North. It was established when Sigorn, Magnar of the Thenns, married Alys Karstark under the auspices of Stannis Baratheon's cause (wiki:House_Thenn).
+
+## Heraldry & Sigil
+
+A bronze disk surrounded with red flames on a white field (Argent, a roundel bronze inflamed gules) (wiki:House_Thenn)
 
 ## Origins
 

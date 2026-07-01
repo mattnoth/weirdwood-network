@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A golden trident upright on black between two golden flanches (Sable, between two flaunches a trident palewise or)
+sigil_image: House_Teague.svg
 ---
 
 ## Identity
 
 House Teague was a noble house from the riverlands who ruled as Kings of the Rivers and the Hills prior to Aegon's Conquest, now extinct (wiki:House_Teague). Their arms are a golden trident upright on black between two golden flanches (wiki:House_Teague).
+
+## Heraldry & Sigil
+
+A golden trident upright on black between two golden flanches (Sable, between two flaunches a trident palewise or) (wiki:House_Teague)
 
 ## Origins
 

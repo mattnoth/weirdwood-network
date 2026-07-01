@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white merman with dark green hair, beard and tail, carrying a black trident, on a blue-green field (Aquamarine, a merman argent crined, bearded and queued vert, carrying a trident sable)
+sigil_image: House_Manderly.svg
 ---
 
 ## Identity
 
 House Manderly is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white merman with dark green hair, beard and tail, carrying a black trident, on a blue-green field (Aquamarine, a merman argent crined, bearded and queued vert, carrying a trident sable) (wiki:House_Manderly)
 
 ## Edges
 

@@ -9,11 +9,17 @@ bucket_id: houses-other-b-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "A bear paw, brown on white, within a double tressure brown (Argent, a bear's paw brunâtre within a double tressure of the last)"
+sigil_image: House_Brune_of_Brownhollow.svg
 ---
 
 ## Identity
 
 House Brune of Brownhollow is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A bear paw, brown on white, within a double tressure brown (Argent, a bear's paw brunâtre within a double tressure of the last) (wiki:House_Brune_of_Brownhollow)
 
 ## Edges
 

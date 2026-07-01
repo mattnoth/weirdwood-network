@@ -9,11 +9,20 @@ bucket_id: houses-major-recovery
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A roaring lion, gold on crimson (Gules, a lion or)
+words: Hear Me Roar!
+sigil_image: House_Lannister.svg
 ---
 
 ## Identity
 
 House Lannister is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A roaring lion, gold on crimson (Gules, a lion or) (wiki:House_Lannister)
+
+Words: "Hear Me Roar!" (wiki:House_Lannister)
 
 ## Edges
 

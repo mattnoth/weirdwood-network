@@ -14,11 +14,17 @@ first_available:
   chapter: 61
   source: cite_ref
   pov: "The Spurned Suitor"
+sigil: Three black castles on orange (Tenné, three castles sable)
+sigil_image: House_Peake.svg
 ---
 
 ## Identity
 
 House Peake is a noble house from the Reach, seated at Starpike. Lord Titus Peake is the current head. The house formerly also held the titles Lord of Dunstonbury and Lord of Whitegrove, which they lost. Founded by Florys the Fox. (wiki:House_Peake)
+
+## Heraldry & Sigil
+
+Three black castles on orange (Tenné, three castles sable) (wiki:House_Peake)
 
 ## Origins
 

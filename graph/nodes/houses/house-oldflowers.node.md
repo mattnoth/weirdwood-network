@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Ten white hands on green, 4-3-2-1, beneath a red bend sinister (Vert, 10 hands 4-3-2-1 argent debruised by a bend sinister gules)
+sigil_image: House_Oldflowers.svg
 ---
 
 ## Identity
 
 House Oldflowers is a noble house from the Reach. (wiki:House_Oldflowers)
+
+## Heraldry & Sigil
+
+Ten white hands on green, 4-3-2-1, beneath a red bend sinister (Vert, 10 hands 4-3-2-1 argent debruised by a bend sinister gules) (wiki:House_Oldflowers)
 
 ## Allegiances
 

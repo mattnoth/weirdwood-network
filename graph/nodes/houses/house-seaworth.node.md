@@ -13,11 +13,17 @@ first_available:
   book: ASOS
   chapter: 5
   source: cite_ref
+sigil: A black ship, an onion proper on its sail, on pale grey (Cendrée, a ship sable, its sail charged with an onion proper)
+sigil_image: House_Seaworth.svg
 ---
 
 ## Identity
 
 House Seaworth is a knightly house from the Stormlands, newly founded in 284 AC. They blazon their arms with a white ship with an onion sail on pale grey, with a black chief and a crowned stag on the chief. (wiki:House_Seaworth)
+
+## Heraldry & Sigil
+
+A black ship, an onion proper on its sail, on pale grey (Cendrée, a ship sable, its sail charged with an onion proper) (wiki:House_Seaworth)
 
 ## Origins
 

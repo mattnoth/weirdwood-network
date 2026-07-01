@@ -14,11 +14,17 @@ first_available:
   chapter: 19
   source: cite_ref
   pov: The Iron Captain
+sigil: A nine-headed serpent, black on silver (Argent, a serpent nine-headed sable)
+sigil_image: House_Saltcliffe.svg
 ---
 
 ## Identity
 
 House Saltcliffe of Saltcliffe is one of the ironborn noble houses on the island of Saltcliffe in the Iron Islands. The Saltcliffes rule the isle and are named after it (wiki:House_Saltcliffe.cite_ref-semi-canon). Their sigil is a nine-headed serpent, black on silver (wiki:House_Saltcliffe.cite_ref-semi-canon).
+
+## Heraldry & Sigil
+
+A nine-headed serpent, black on silver (Argent, a serpent nine-headed sable) (wiki:House_Saltcliffe)
 
 ## Allegiances
 

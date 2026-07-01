@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white sun-and-chevron on orange (Tenné, beneath a chevron inverted a sun-in-splendour argent)
+words: Our Sun Shines Bright
+sigil_image: House_Ashford.svg
 ---
 
 ## Identity
 
 House Ashford is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white sun-and-chevron on orange (Tenné, beneath a chevron inverted a sun-in-splendour argent) (wiki:House_Ashford)
+
+Words: "Our Sun Shines Bright" (wiki:House_Ashford)
 
 ## Edges
 

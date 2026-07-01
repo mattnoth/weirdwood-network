@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Rayonne yellow over crimson (Per fess rayonny or and gules)
+sigil_image: House_Uller.svg
 ---
 
 ## Identity
 
 House Uller is a lordly house from Dorne, seated at the Hellholt (wiki:House_Uller).
+
+## Heraldry & Sigil
+
+Rayonne yellow over crimson (Per fess rayonny or and gules) (wiki:House_Uller)
 
 ## Origins
 

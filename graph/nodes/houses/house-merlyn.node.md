@@ -14,11 +14,17 @@ first_available:
   chapter: 1
   source: cite_ref
   pov: Prologue
+sigil: Twining waterspouts, green on white (Argent, waterspouts intertwining vert)
+sigil_image: Merlyn.png
 ---
 
 ## Identity
 
 House Merlyn of Pebbleton is a noble house from the Iron Islands, one of the primary houses sworn to Pyke (wiki:House_Merlyn.cite_ref-Ragotappendix). Their seat is at Pebbleton on Great Wyk (wiki:House_Merlyn.cite_ref-Racok24). Their sigil depicts twining waterspouts, green on white (wiki:House_Merlyn.cite_ref-semi-canon).
+
+## Heraldry & Sigil
+
+Twining waterspouts, green on white (Argent, waterspouts intertwining vert) (wiki:House_Merlyn)
 
 ## Allegiances
 

@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A blue bantam rooster on yellow (Or, a cock azure)
+words: Awake! Awake!
+sigil_image: House_Swyft.svg
 ---
 
 ## Identity
 
 House Swyft is a knightly house from the westerlands, seated at Cornfield. They are sworn to House Lannister. (wiki:House_Swyft)
+
+## Heraldry & Sigil
+
+A blue bantam rooster on yellow (Or, a cock azure) (wiki:House_Swyft)
+
+Words: "Awake! Awake!" (wiki:House_Swyft)
 
 ## Allegiances
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Bronze crossed keys on a white pale on purple (Purpure, on a pale argent two keys saltirewise bronze)
+sigil_image: House_Locke_2.svg
 ---
 
 ## Identity
 
 House Locke is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Bronze crossed keys on a white pale on purple (Purpure, on a pale argent two keys saltirewise bronze) (wiki:House_Locke)
 
 ## Edges
 

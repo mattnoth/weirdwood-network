@@ -14,11 +14,20 @@ first_available:
   chapter: 13
   source: cite_ref
   pov: Daenerys I
+sigil: "A rack of golden antlers on vair (Vair, a stag's attire or)"
+words: Pride and Purpose
+sigil_image: House_Buckwell.svg
 ---
 
 ## Identity
 
 House Buckwell of the Antlers is a noble house from Antlers in the crownlands. They are sworn to the Iron Throne. Their arms are a rack of golden antlers on vair. Their words are "Pride and Purpose" (wiki:House_Buckwell).
+
+## Heraldry & Sigil
+
+A rack of golden antlers on vair (Vair, a stag's attire or) (wiki:House_Buckwell)
+
+Words: "Pride and Purpose" (wiki:House_Buckwell)
 
 ## Allegiances
 

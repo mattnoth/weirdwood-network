@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Maple leaves, green and brown, strewn on a field of yellow (Or, semé of maple leaves vert and brunâtre)
+sigil_image: House_Blanetree.svg
 ---
 
 ## Identity
 
 House Blanetree is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Maple leaves, green and brown, strewn on a field of yellow (Or, semé of maple leaves vert and brunâtre) (wiki:House_Blanetree)
 
 ## Edges
 

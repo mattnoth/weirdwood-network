@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A vee of golden cranes on pale blue (Bleu celeste, cranes in chevron inverted or)
+sigil_image: House_Crane.svg
 ---
 
 ## Identity
 
 House Crane is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A vee of golden cranes on pale blue (Bleu celeste, cranes in chevron inverted or) (wiki:House_Crane)
 
 ## Edges
 

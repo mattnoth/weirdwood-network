@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Checkered purple and white, within each square a golden coin (Chequy purpure and argent, each chequer charged with a bezant)
+sigil_image: House_Payne.svg
 ---
 
 ## Identity
 
 House Payne is a noble house from the westerlands, one of the principal houses sworn to House Lannister. Their arms are purple and white chequy with gold coins in the checks. There is a story behind the coins, but the details are unknown. (wiki:House_Payne.cite_ref-Ragotappendix; wiki:House_Payne.cite_ref-Rasos59)
+
+## Heraldry & Sigil
+
+Checkered purple and white, within each square a golden coin (Chequy purpure and argent, each chequer charged with a bezant) (wiki:House_Payne)
 
 ## Allegiances
 

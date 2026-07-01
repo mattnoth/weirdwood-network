@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A grey stone hand upon a white inverted pall on paly black and grey (Paly sable and cendrée on a pall inverted argent a hand couped of the second)
+sigil_image: House_Flint_of_Flint%27s_Finger.svg
 ---
 
 ## Identity
 
 House Flint of Flint's Finger is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A grey stone hand upon a white inverted pall on paly black and grey (Paly sable and cendrée on a pall inverted argent a hand couped of the second) (wiki:House_Flint_of_Flint's_Finger)
 
 ## Edges
 

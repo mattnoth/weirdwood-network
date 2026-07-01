@@ -14,11 +14,17 @@ first_available:
   chapter: 9
   source: cite_ref
   pov: Tyrion III
+sigil: "A black stag enclosed within a fiery heart on yellow (Or, within a heart enflamed proper a stag sable) Formerly: A crowned black stag on a golden field (Or, a stag crowned sable)"
+sigil_image: House_Baratheon_of_Dragonstone.svg
 ---
 
 ## Identity
 
 House Baratheon of Dragonstone is a cadet branch of House Baratheon of Storm's End. Their seat is Dragonstone, the island castle northeast of King's Landing, and the house commands the allegiance of the lords of the narrow sea (wiki:House_Baratheon_of_Dragonstone).
+
+## Heraldry & Sigil
+
+A black stag enclosed within a fiery heart on yellow (Or, within a heart enflamed proper a stag sable) Formerly: A crowned black stag on a golden field (Or, a stag crowned sable) (wiki:House_Baratheon_of_Dragonstone)
 
 ## Origins
 

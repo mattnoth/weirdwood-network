@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Nine yellow trefoils on a black cross on ermine (Ermine, on a cross sable nine trefoils or)
+sigil_image: House_Gower.svg
 ---
 
 ## Identity
 
 House Gower is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Nine yellow trefoils on a black cross on ermine (Ermine, on a cross sable nine trefoils or) (wiki:House_Gower)
 
 ## Edges
 

@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Ten mullets, 4-3-2-1, purple on yellow (Or, ten mullets 4-3-2-1 purpure)
+words: Unflinching
+sigil_image: House_Peckledon.svg
 ---
 
 ## Identity
 
 House Peckledon is a noble house from the westerlands of unknown rank. They are sworn to House Lannister. (wiki:House_Peckledon)
+
+## Heraldry & Sigil
+
+Ten mullets, 4-3-2-1, purple on yellow (Or, ten mullets 4-3-2-1 purpure) (wiki:House_Peckledon)
+
+Words: "Unflinching" (wiki:House_Peckledon)
 
 ## Allegiances
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Two large pink lips, on a dark blue field (Azure, a pair of lips carnation)
+sigil_image: House_Lipps.svg
 ---
 
 ## Identity
 
 House Lipps is a noble house from the Vale of Arryn (wiki:House_Lipps).
+
+## Heraldry & Sigil
+
+Two large pink lips, on a dark blue field (Azure, a pair of lips carnation) (wiki:House_Lipps)
 
 ## Allegiances
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Five black starfish on a gold pale, on pean (Pean, on a pale or five starfish sable)
+sigil_image: House_Ruthermont.svg
 ---
 
 ## Identity
 
 House Ruthermont is a noble house from the Vale of Arryn (wiki:House_Ruthermont).
+
+## Heraldry & Sigil
+
+Five black starfish on a gold pale, on pean (Pean, on a pale or five starfish sable) (wiki:House_Ruthermont)
 
 ## Origins
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A lion, checkered green and gold, on white (Argent, a lion chequy vert and or)
+sigil_image: House_Osgrey.svg
 ---
 
 ## Identity
 
 House Osgrey of Standfast is a knightly house from the Reach. Their current seat is Standfast; they formerly held Coldmoat and the title Lord of Coldmoat. Before the Conquest, they were Marshalls of the Northmarch. The house has diminished greatly from its former glory. (wiki:House_Osgrey)
+
+## Heraldry & Sigil
+
+A lion, checkered green and gold, on white (Argent, a lion chequy vert and or) (wiki:House_Osgrey)
 
 ## Allegiances
 

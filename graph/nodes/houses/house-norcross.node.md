@@ -14,11 +14,17 @@ first_available:
   chapter: 10
   source: cite_ref
   pov: "Arya III"
+sigil: A cross embattled, black on white (Argent, a cross embattled sable)
+sigil_image: House_Norcross.svg
 ---
 
 ## Identity
 
 House Norcross is a noble house from the Reach. (wiki:House_Norcross)
+
+## Heraldry & Sigil
+
+A cross embattled, black on white (Argent, a cross embattled sable) (wiki:House_Norcross)
 
 ## Allegiances
 

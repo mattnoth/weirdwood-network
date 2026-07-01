@@ -14,11 +14,20 @@ first_available:
   chapter: 30
   source: cite_ref
   pov: Sansa II
+sigil: A red ox on ermine (Ermine, an ox gules)
+words: Tireless
+sigil_image: House_Prester.svg
 ---
 
 ## Identity
 
 House Prester is a noble house from the westerlands, seated at Feastfires. They are sworn to House Lannister. (wiki:House_Prester)
+
+## Heraldry & Sigil
+
+A red ox on ermine (Ermine, an ox gules) (wiki:House_Prester)
+
+Words: "Tireless" (wiki:House_Prester)
 
 ## Allegiances
 

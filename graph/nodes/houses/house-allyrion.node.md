@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A golden hand on gyronny red and black (Gyronny gules and sable, a hand or)
+words: No Foe May Pass
+sigil_image: House_Allyrion.svg
 ---
 
 ## Identity
 
 House Allyrion of Godsgrace is a major Dornish noble house seated at Godsgrace, near the confluence of the Scourge and the Vaith into the Greenblood (wiki:House_Allyrion).
+
+## Heraldry & Sigil
+
+A golden hand on gyronny red and black (Gyronny gules and sable, a hand or) (wiki:House_Allyrion)
+
+Words: "No Foe May Pass" (wiki:House_Allyrion)
 
 ## Origins
 

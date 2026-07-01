@@ -14,11 +14,17 @@ first_available:
   chapter: 7
   source: cite_ref
   pov: "Sansa I"
+sigil: Three black scorpions on red (Gules, three scorpions sable)
+sigil_image: House_Qorgyle.svg
 ---
 
 ## Identity
 
 House Qorgyle is a lordly house from Dorne, seated at Sandstone (wiki:House_Qorgyle).
+
+## Heraldry & Sigil
+
+Three black scorpions on red (Gules, three scorpions sable) (wiki:House_Qorgyle)
 
 ## Origins
 

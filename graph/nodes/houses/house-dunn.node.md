@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Per pale black and pink, a countercharged two-headed pelican (Per pale sable and rose, a pelican bicapitated counterchanged)
+sigil_image: Dunn.png
 ---
 
 ## Identity
 
 House Dunn is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Per pale black and pink, a countercharged two-headed pelican (Per pale sable and rose, a pelican bicapitated counterchanged) (wiki:House_Dunn)
 
 ## Edges
 

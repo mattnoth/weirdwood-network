@@ -14,11 +14,17 @@ first_available:
   chapter: 13
   source: cite_ref
   pov: Cersei III
+sigil: A tripartite pale, blue, red, and green on white (Argent, a pale tierced per pale azure, gules, and vert)
+sigil_image: House_Strong.svg
 ---
 
 ## Identity
 
 House Strong of Harrenhal was a noble house in the riverlands, now extinct (wiki:House_Strong). Their arms are a tripartite pale blue, red, and green on white, representing the three forks of the Trident (wiki:House_Strong).
+
+## Heraldry & Sigil
+
+A tripartite pale, blue, red, and green on white (Argent, a pale tierced per pale azure, gules, and vert) (wiki:House_Strong)
 
 ## Origins
 

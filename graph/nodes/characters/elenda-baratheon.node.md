@@ -2,7 +2,7 @@
 name: "Elenda Baratheon"
 type: character.human
 slug: elenda-baratheon
-aliases: []
+aliases: ["Elenda Caron"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elenda_Baratheon"
 bucket_id: characters-house-caron

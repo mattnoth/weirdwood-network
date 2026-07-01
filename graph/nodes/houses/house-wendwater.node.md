@@ -9,11 +9,20 @@ bucket_id: houses-crownlands-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
+sigil: A green engrailed pall, inverted on white, dividing three trees, green, red and bare (Argent, a pall reversed engrailed vert between three trees proper, in chief dexter veined of the second, in chief sinister veined gules and in base blasted)
+words: For All Seasons
+sigil_image: House_Wendwater.svg
 ---
 
 ## Identity
 
 House Wendwater is a noble house from the crownlands (wiki:House_Wendwater).
+
+## Heraldry & Sigil
+
+A green engrailed pall, inverted on white, dividing three trees, green, red and bare (Argent, a pall reversed engrailed vert between three trees proper, in chief dexter veined of the second, in chief sinister veined gules and in base blasted) (wiki:House_Wendwater)
+
+Words: "For All Seasons" (wiki:House_Wendwater)
 
 ## Allegiances
 

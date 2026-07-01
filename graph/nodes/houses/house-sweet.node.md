@@ -13,11 +13,16 @@ first_available:
   book: ADWD
   chapter: 17
   source: cite_ref
+sigil_image: None.svg
 ---
 
 ## Identity
 
 House Sweet is a noble house from the Stormlands or crownlands — the wiki lists both regions, and the exact allegiance is uncertain. (wiki:House_Sweet)
+
+## Heraldry & Sigil
+
+No coat of arms description available. (wiki:House_Sweet)
 
 ## Allegiances
 

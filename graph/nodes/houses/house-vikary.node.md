@@ -14,11 +14,17 @@ first_available:
   chapter: 32
   source: cite_ref
   pov: Catelyn III
+sigil: "Quarterly: a red boar's head on white, beneath a gold bend sinister a silver lion rampant regardant with a forked tail, armed and langued gold, on red (Quarterly clockwise, 1st and 3rd white, a boar erased gules, 2nd and 4th gules, a lion rampant regardant queue-forché silver, armed and langued or, debruised by a bend sinister of the last)"
+sigil_image: House_Vikary.svg
 ---
 
 ## Identity
 
 House Vikary is a knightly house from the westerlands. They are sworn to House Lannister. (wiki:House_Vikary)
+
+## Heraldry & Sigil
+
+Quarterly: a red boar's head on white, beneath a gold bend sinister a silver lion rampant regardant with a forked tail, armed and langued gold, on red (Quarterly clockwise, 1st and 3rd white, a boar erased gules, 2nd and 4th gules, a lion rampant regardant queue-forché silver, armed and langued or, debruised by a bend sinister of the last) (wiki:House_Vikary)
 
 ## Allegiances
 

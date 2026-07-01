@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three white plates upon a chevron red on a white field (Argent, on a chevron inverted gules three plates)
+sigil_image: House_Ball.svg
 ---
 
 ## Identity
 
 House Ball is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three white plates upon a chevron red on a white field (Argent, on a chevron inverted gules three plates) (wiki:House_Ball)
 
 ## Edges
 

@@ -13,11 +13,17 @@ first_available:
   book: ACOK
   chapter: 65
   source: cite_ref
+sigil: A black dagger piercing a red heart on white de sang within an undulating red border (Argent goutté-de-sang, a heart gules transfixed by a dagger sable, all within a bordure wavy of the second)
+sigil_image: House_Staedmon.svg
 ---
 
 ## Identity
 
 House Staedmon is a lordly house from Broad Arch in the Stormlands. They blazon their arms with a black dagger piercing a red heart on white, within an undulating red border. (wiki:House_Staedmon)
+
+## Heraldry & Sigil
+
+A black dagger piercing a red heart on white de sang within an undulating red border (Argent goutté-de-sang, a heart gules transfixed by a dagger sable, all within a bordure wavy of the second) (wiki:House_Staedmon)
 
 ## Allegiances
 

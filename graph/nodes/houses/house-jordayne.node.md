@@ -14,11 +14,20 @@ first_available:
   chapter: 38
   source: cite_ref
   pov: "Jaime V"
+sigil: A golden quill on checkered dark and light green (Chequy vert and vert of a paler variety, a quill or)
+words: Let It Be Written
+sigil_image: House_Jordayne.svg
 ---
 
 ## Identity
 
 House Jordayne is a lordly house from Dorne, seated at the Tor (wiki:House_Jordayne).
+
+## Heraldry & Sigil
+
+A golden quill on checkered dark and light green (Chequy vert and vert of a paler variety, a quill or) (wiki:House_Jordayne)
+
+Words: "Let It Be Written" (wiki:House_Jordayne)
 
 ## Origins
 

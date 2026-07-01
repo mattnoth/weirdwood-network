@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A bone hand, white on red (Gules, a bone hand argent)
+sigil_image: House_Drumm.svg
 ---
 
 ## Identity
 
 House Drumm is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A bone hand, white on red (Gules, a bone hand argent) (wiki:House_Drumm)
 
 ## Edges
 

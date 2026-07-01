@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A black toad on white lily pad, on green (Vert, a toad sable atop a lilypad argent)
+sigil_image: House_Vypren.svg
 ---
 
 ## Identity
 
 House Vypren is a noble house of the riverlands (wiki:House_Vypren). Their arms are a black toad on white lily pad, on green (wiki:House_Vypren).
+
+## Heraldry & Sigil
+
+A black toad on white lily pad, on green (Vert, a toad sable atop a lilypad argent) (wiki:House_Vypren)
 
 ## Origins
 

@@ -13,11 +13,20 @@ first_available:
   book: ACOK
   chapter: 2
   source: cite_ref
+sigil: A hanged man, black on blue (Azure, a hanged man sable)
+words: So End Our Foes
+sigil_image: House_Trant.svg
 ---
 
 ## Identity
 
 House Trant is a noble house from Gallowsgrey in the Stormlands. Their words are "So End Our Foes." They blazon their arms with a black hanged man on blue. (wiki:House_Trant)
+
+## Heraldry & Sigil
+
+A hanged man, black on blue (Azure, a hanged man sable) (wiki:House_Trant)
+
+Words: "So End Our Foes" (wiki:House_Trant)
 
 ## Allegiances
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Per bend black and silver, two scythes countercharged (Per bend sable and argent, two scythes counterchanged)
+sigil_image: House_Harlaw_of_Harlaw_Hall.svg
 ---
 
 ## Identity
 
 House Harlaw of Harlaw Hall is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Per bend black and silver, two scythes countercharged (Per bend sable and argent, two scythes counterchanged) (wiki:House_Harlaw_of_Harlaw_Hall)
 
 ## Edges
 

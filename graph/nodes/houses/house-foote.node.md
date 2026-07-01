@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A copper dagger across a black chevron on white (Argent, a chevron inverted sable, surmounted by a dagger copper)
+sigil_image: House_Foote.svg
 ---
 
 ## Identity
 
 House Foote is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A copper dagger across a black chevron on white (Argent, a chevron inverted sable, surmounted by a dagger copper) (wiki:House_Foote)
 
 ## Edges
 

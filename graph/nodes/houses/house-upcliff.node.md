@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A cresting wave, sea green on black (Sable, a wave cresting aquamarine)
+sigil_image: House_Upcliff.svg
 ---
 
 ## Identity
 
 House Upcliff is a noble house from the Witch Isle off the coast of the Vale of Arryn. The Upcliffs have a sinister reputation (wiki:House_Upcliff).
+
+## Heraldry & Sigil
+
+A cresting wave, sea green on black (Sable, a wave cresting aquamarine) (wiki:House_Upcliff)
 
 ## Origins
 

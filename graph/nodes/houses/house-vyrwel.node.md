@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A silver wyvern within a red double tressure on sable (Sable, a wyvern argent within a double tressure gules)
+sigil_image: House_Vyrwel_2.svg
 ---
 
 ## Identity
 
 House Vyrwel is a noble house from the Reach (wiki:House_Vyrwel). Their seat is Darkdell (track_b: Seat).
+
+## Heraldry & Sigil
+
+A silver wyvern within a red double tressure on sable (Sable, a wyvern argent within a double tressure gules) (wiki:House_Vyrwel)
 
 ## Allegiances
 

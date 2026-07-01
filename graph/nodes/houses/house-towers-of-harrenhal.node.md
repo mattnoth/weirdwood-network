@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Five black towers on white, a double tressure red and black (Argent, five towers sable within a double-tressure, the outer gules and the inner of the second)
+sigil_image: House_Towers_of_Harrenhal.svg
 ---
 
 ## Identity
 
 House Towers of Harrenhal was a noble house from the riverlands who ruled Harrenhal for three generations before dying out, now extinct (wiki:House_Towers_of_Harrenhal). Their arms are five black towers on white, a double tressure red and black (wiki:House_Towers_of_Harrenhal).
+
+## Heraldry & Sigil
+
+Five black towers on white, a double tressure red and black (Argent, five towers sable within a double-tressure, the outer gules and the inner of the second) (wiki:House_Towers_of_Harrenhal)
 
 ## Origins
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A brown tortoise within a yellow lozenge on green (Vert, on a lozenge or a tortoise brunâtre)
+sigil_image: House_Tudbury.svg
 ---
 
 ## Identity
 
 House Tudbury is a noble house from the Stormlands. They blazon their arms with a large brown tortoise on white. (wiki:House_Tudbury)
+
+## Heraldry & Sigil
+
+A brown tortoise within a yellow lozenge on green (Vert, on a lozenge or a tortoise brunâtre) (wiki:House_Tudbury)
 
 ## Allegiances
 

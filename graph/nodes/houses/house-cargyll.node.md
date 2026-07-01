@@ -14,11 +14,17 @@ first_available:
   chapter: 8
   source: cite_ref
   pov: Arya I
+sigil: A golden goose on bendy sinister black and red (Bendy sinister sable and gules, a goose or)
+sigil_image: House_Cargyll.svg
 ---
 
 ## Identity
 
 House Cargyll was a noble house from the crownlands, now extinct. Their arms were a golden goose on bendy sinister black and red. The house was still in existence at the time of the tourney at Ashford Meadow but died out between 209–298 AC (wiki:House_Cargyll).
+
+## Heraldry & Sigil
+
+A golden goose on bendy sinister black and red (Bendy sinister sable and gules, a goose or) (wiki:House_Cargyll)
 
 ## Allegiances
 

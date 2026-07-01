@@ -13,11 +13,17 @@ first_available:
   book: ASOS
   chapter: 17
   source: cite_ref
+sigil: A blue-green maelstrom on gold (Or, a gurges aquamarine)
+sigil_image: House_Wylde.svg
 ---
 
 ## Identity
 
 House Wylde is a noble house from Rain House in the Stormlands. They blazon their arms with a blue-green rain on a field of white, with a maelstrom in the chief. (wiki:House_Wylde)
+
+## Heraldry & Sigil
+
+A blue-green maelstrom on gold (Or, a gurges aquamarine) (wiki:House_Wylde)
 
 ## Allegiances
 

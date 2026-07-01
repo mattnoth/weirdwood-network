@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Pale green ivy bendy on black masonry (Sable masoned proper bendy of ivy leaves vert)
+sigil_image: House_Kidwell.svg
 ---
 
 ## Identity
 
 House Kidwell is a noble house from the Reach, seated at Ivy Hall. (wiki:House_Kidwell)
+
+## Heraldry & Sigil
+
+Pale green ivy bendy on black masonry (Sable masoned proper bendy of ivy leaves vert) (wiki:House_Kidwell)
 
 ## Allegiances
 

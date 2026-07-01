@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three red martlets on white bend, on blue (Azure, on a bend argent three martlets gules)
+sigil_image: House_Grell.svg
 ---
 
 ## Identity
 
 House Grell is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three red martlets on white bend, on blue (Azure, on a bend argent three martlets gules) (wiki:House_Grell)
 
 ## Edges
 

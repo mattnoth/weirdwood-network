@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A silver fist on scarlet (Gules, a mailed fist argent)
+sigil_image: House_Glover.svg
 ---
 
 ## Identity
 
 House Glover is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A silver fist on scarlet (Gules, a mailed fist argent) (wiki:House_Glover)
 
 ## Edges
 

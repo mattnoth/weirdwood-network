@@ -9,11 +9,17 @@ bucket_id: houses-other-b-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Red crabs strewn on white (Argent, semé of crabs gules)
+sigil_image: House_Celtigar_2.svg
 ---
 
 ## Identity
 
 House Celtigar is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Red crabs strewn on white (Argent, semé of crabs gules) (wiki:House_Celtigar)
 
 ## Edges
 

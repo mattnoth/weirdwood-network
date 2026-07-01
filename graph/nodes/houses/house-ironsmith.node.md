@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black sword upright between four black horseshoes on gold, a grey-green border (Or, between four horseshoes a sword erect sable all within a bordure vert-cendrée)
+sigil_image: House_Ironsmith.svg
 ---
 
 ## Identity
 
 House Ironsmith is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black sword upright between four black horseshoes on gold, a grey-green border (Or, between four horseshoes a sword erect sable all within a bordure vert-cendrée) (wiki:House_Ironsmith)
 
 ## Edges
 

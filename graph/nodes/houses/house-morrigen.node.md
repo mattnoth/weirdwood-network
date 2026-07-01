@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black crow in flight on storm-green (Vert, a crow volant sable)
+sigil_image: House_Morrigen.svg
 ---
 
 ## Identity
 
 House Morrigen is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black crow in flight on storm-green (Vert, a crow volant sable) (wiki:House_Morrigen)
 
 ## Edges
 

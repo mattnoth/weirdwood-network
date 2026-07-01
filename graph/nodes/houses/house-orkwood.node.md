@@ -14,11 +14,17 @@ first_available:
   chapter: 11
   source: cite_ref
   pov: Sansa
+sigil: Dark green pines strewn closely together on yellow (Or semé of pines vert)
+sigil_image: House_Orkwood.svg
 ---
 
 ## Identity
 
 House Orkwood of Orkmont is a noble house from the Iron Islands, with their seat on the island of Orkmont. Their sigil depicts dark green pines strewn closely together on yellow (wiki:House_Orkwood.cite_ref-Raffc11).
+
+## Heraldry & Sigil
+
+Dark green pines strewn closely together on yellow (Or semé of pines vert) (wiki:House_Orkwood)
 
 ## Origins
 

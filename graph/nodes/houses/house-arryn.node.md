@@ -14,11 +14,20 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "Bran I"
+sigil: A sky-blue falcon soaring against a white moon, on sky-blue (Bleu celeste, upon a plate a falcon rousant of the field)
+words: As High as Honor
+sigil_image: House_Arryn.svg
 ---
 
 ## Identity
 
 House Arryn of the Eyrie is one of the Great Houses of Westeros and the principal noble house in the Vale of Arryn. Their words are "As High as Honor" (wiki:House_Arryn). The current head is Lord Robert Arryn, with Ser Harrold Hardyng as heir (track_b: Head, Heir).
+
+## Heraldry & Sigil
+
+A sky-blue falcon soaring against a white moon, on sky-blue (Bleu celeste, upon a plate a falcon rousant of the field) (wiki:House_Arryn)
+
+Words: "As High as Honor" (wiki:House_Arryn)
 
 ## Origins
 

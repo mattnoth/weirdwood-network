@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: "Per saltire purple and gold, four hawks' heads countercharged (Per saltire purpure and or, four hawks erased counterchanged)"
+sigil_image: House_Terrick.svg
 ---
 
 ## Identity
 
 House Terrick is a noble house from the riverlands (wiki:House_Terrick). Their arms are per saltire purple and gold, four hawks' heads countercharged (wiki:House_Terrick).
+
+## Heraldry & Sigil
+
+Per saltire purple and gold, four hawks' heads countercharged (Per saltire purpure and or, four hawks erased counterchanged) (wiki:House_Terrick)
 
 ## Allegiances
 

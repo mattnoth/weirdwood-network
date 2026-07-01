@@ -14,11 +14,17 @@ first_available:
   chapter: 62
   source: cite_ref
   pov: "The Griffin Reborn"
+sigil: A pea pod burst open, green on white, bordered by three rows of green peas (Argent, a pea pod open within a bordure of three rows of peas vert)
+sigil_image: House_Peasebury.svg
 ---
 
 ## Identity
 
 House Peasebury is a lordly house from Poddingfield in the Stormlands. They blazon their arms with three pease pods on green, with a green border on white. (wiki:House_Peasebury)
+
+## Heraldry & Sigil
+
+A pea pod burst open, green on white, bordered by three rows of green peas (Argent, a pea pod open within a bordure of three rows of peas vert) (wiki:House_Peasebury)
 
 ## Allegiances
 

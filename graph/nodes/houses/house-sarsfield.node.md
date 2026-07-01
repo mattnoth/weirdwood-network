@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A green arrow on white bend on green (Vert, on a bend argent an arrow of the field)
+words: True to the Mark
+sigil_image: House_Sarsfield.svg
 ---
 
 ## Identity
 
 House Sarsfield is a noble house from the westerlands, seated at Sarsfield. They are sworn to House Lannister. (wiki:House_Sarsfield)
+
+## Heraldry & Sigil
+
+A green arrow on white bend on green (Vert, on a bend argent an arrow of the field) (wiki:House_Sarsfield)
+
+Words: "True to the Mark" (wiki:House_Sarsfield)
 
 ## Allegiances
 

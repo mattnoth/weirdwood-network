@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A 7-pointed star, countercharged, on gyronny silver and blue (Gyronny argent and azure, a star of seven points counterchanged)
+sigil_image: House_Tarbeck.svg
 ---
 
 ## Identity
 
 House Tarbeck was a noble house from the westerlands, formerly seated at Tarbeck Hall. They held the title Lord of Tarbeck Hall. The house is now extinct, destroyed alongside House Reyne during the Reyne-Tarbeck rebellion by Tywin Lannister. (wiki:House_Tarbeck)
+
+## Heraldry & Sigil
+
+A 7-pointed star, countercharged, on gyronny silver and blue (Gyronny argent and azure, a star of seven points counterchanged) (wiki:House_Tarbeck)
 
 ## Allegiances
 

@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A burning tree, orange on smoke (Cendrée, a tree tenné in flame)
+words: Burning Bright
+sigil_image: House_Marbrand.svg
 ---
 
 ## Identity
 
 House Marbrand is a noble house from the westerlands, seated at Ashemark. They hold the title Lord of Ashemark and are one of the principal houses sworn to House Lannister. (wiki:House_Marbrand)
+
+## Heraldry & Sigil
+
+A burning tree, orange on smoke (Cendrée, a tree tenné in flame) (wiki:House_Marbrand)
+
+Words: "Burning Bright" (wiki:House_Marbrand)
 
 ## Allegiances
 

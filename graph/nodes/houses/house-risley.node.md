@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A black knight on a black rearing horse on white, bearing a golden lance and a white shield, upon which is seen the above in miniature (Argent, a knight mounted upon a horse forcené sable bearing a lance or and a shield of the field itself charged with the whole)
+sigil_image: House_Risley.svg
 ---
 
 ## Identity
 
 House Risley of Risley Glade is a noble house from the Reach, sworn to House Tyrell (wiki:House_Risley). Their seat is Risley Glade (track_b: Seat). They blazon their arms with a black knight on a rearing horse on white, bearing a golden lance and a white shield with the same in miniature (wiki:House_Risley).
+
+## Heraldry & Sigil
+
+A black knight on a black rearing horse on white, bearing a golden lance and a white shield, upon which is seen the above in miniature (Argent, a knight mounted upon a horse forcené sable bearing a lance or and a shield of the field itself charged with the whole) (wiki:House_Risley)
 
 ## Allegiances
 

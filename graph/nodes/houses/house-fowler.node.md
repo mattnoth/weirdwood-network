@@ -14,11 +14,20 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "The Prophet"
+sigil: A hooded blue hawk on silver (Argent, a hooded hawk azure)
+words: Let Me Soar
+sigil_image: House_Fowler_2.svg
 ---
 
 ## Identity
 
 House Fowler is a lordly house from Dorne, seated at Skyreach, founded during the Age of Heroes (wiki:House_Fowler).
+
+## Heraldry & Sigil
+
+A hooded blue hawk on silver (Argent, a hooded hawk azure) (wiki:House_Fowler)
+
+Words: "Let Me Soar" (wiki:House_Fowler)
 
 ## Origins
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: "Quartered: a black dragon on white, two golden eyes in a golden ring on black (Quarterly clockwise, 1st and 3rd argent, a dragon sable, 2nd and 4th sable, a two orbs or within an annulet of the last)"
+sigil_image: House_Vance_of_Wayfarer%27s_Rest.svg
 ---
 
 ## Identity
 
 House Vance of Wayfarer's Rest is one of two great branches of House Vance in the riverlands, the other being House Vance of Atranta (wiki:House_Vance_of_Wayfarer's_Rest). Their arms are quartered: a black dragon on white, two golden eyes in a golden ring on black (wiki:House_Vance_of_Wayfarer's_Rest).
+
+## Heraldry & Sigil
+
+Quartered: a black dragon on white, two golden eyes in a golden ring on black (Quarterly clockwise, 1st and 3rd argent, a dragon sable, 2nd and 4th sable, a two orbs or within an annulet of the last) (wiki:House_Vance_of_Wayfarer's_Rest)
 
 ## Origins
 

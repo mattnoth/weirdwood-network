@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A green saltire between four red double-headed eagles on white (Argent, a saltire vert between four eagles bicapitated gules)
+sigil_image: House_Estren.svg
 ---
 
 ## Identity
 
 House Estren is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A green saltire between four red double-headed eagles on white (Argent, a saltire vert between four eagles bicapitated gules) (wiki:House_Estren)
 
 ## Edges
 

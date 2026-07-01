@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A red stallion upon a golden escutcheon on brown (Brunâtre, on an escutcheon or a stallion rampant gules)
+sigil_image: House_Bracken.svg
 ---
 
 ## Identity
 
 House Bracken is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A red stallion upon a golden escutcheon on brown (Brunâtre, on an escutcheon or a stallion rampant gules) (wiki:House_Bracken)
 
 ## Edges
 

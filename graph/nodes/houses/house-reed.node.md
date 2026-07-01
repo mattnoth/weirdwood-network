@@ -10,11 +10,17 @@ prompt_version: v1
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A black lizard-lion on grey-green (Vert-cendrée, a lizard-lion sable)
+sigil_image: House_Reed.svg
 ---
 
 ## Identity
 
 House Reed of Greywater Watch is a noble house from Greywater Watch and one of the principal families in the North. They rule the crannogmen, small folk who live in the swamps and marshes of the Neck (wiki:House_Reed). Their arms are a black lizard-lion on grey-green (Tier 2 — semi-canon heraldry source) (wiki:House_Reed).
+
+## Heraldry & Sigil
+
+A black lizard-lion on grey-green (Vert-cendrée, a lizard-lion sable) (wiki:House_Reed)
 
 ## Origins
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Two blue towers, united by a bridge, on a silver-grey field (Cendrée, a bridge azure, at either end a tower of the same)
+sigil_image: House_Frey.svg
 ---
 
 ## Identity
 
 House Frey of Riverrun is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Two blue towers, united by a bridge, on a silver-grey field (Cendrée, a bridge azure, at either end a tower of the same) (wiki:House_Frey_of_Riverrun)
 
 ## Edges
 

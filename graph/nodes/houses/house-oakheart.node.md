@@ -14,11 +14,20 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "Arya I"
+sigil: Three green oak leaves on gold (Or, three oak leaves vert)
+words: Our Roots Go Deep
+sigil_image: House_Oakheart.svg
 ---
 
 ## Identity
 
 House Oakheart is a noble house from Old Oak in the Reach. Lady Arwyn Oakheart is the current head. The house was founded by John the Oak and held the title of King in the Age of Heroes. (wiki:House_Oakheart)
+
+## Heraldry & Sigil
+
+Three green oak leaves on gold (Or, three oak leaves vert) (wiki:House_Oakheart)
+
+Words: "Our Roots Go Deep" (wiki:House_Oakheart)
 
 ## Origins
 

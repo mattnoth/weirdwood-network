@@ -13,11 +13,20 @@ first_available:
   book: ASOS
   chapter: 75
   source: cite_ref
+sigil: Two golden trumpets crossed on blue, a gold chief with three black stags (Azure, two trumpets saltirewise or, on a chief of the second three stags sable)
+words: Sound The Charge
+sigil_image: House_Wensington.svg
 ---
 
 ## Identity
 
 House Wensington is a noble house from the Stormlands. They blazon their arms with five gold trumpets on red, beneath a gold stag's head on a black chief. Their motto is "Sound The Charge." (wiki:House_Wensington)
+
+## Heraldry & Sigil
+
+Two golden trumpets crossed on blue, a gold chief with three black stags (Azure, two trumpets saltirewise or, on a chief of the second three stags sable) (wiki:House_Wensington)
+
+Words: "Sound The Charge" (wiki:House_Wensington)
 
 ## Allegiances
 

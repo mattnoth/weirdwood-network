@@ -9,11 +9,17 @@ bucket_id: houses-other-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A flying pig
+sigil_image: House_Suggs.svg
 ---
 
 ## Identity
 
 House Suggs is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A flying pig (wiki:House_Suggs)
 
 ## Edges
 

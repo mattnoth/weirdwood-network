@@ -14,11 +14,17 @@ first_available:
   chapter: 17
   source: cite_ref
   pov: "Jaime II"
+sigil: A black broken wheel on green (Vert, a broken-wheel sable)
+sigil_image: House_Waynwood.svg
 ---
 
 ## Identity
 
 House Waynwood of Ironoaks is a noble house from Ironoaks in the Vale of Arryn. They are one of the great noble families sworn to House Arryn (wiki:House_Waynwood). The current head is Lady Anya Waynwood, with Ser Morton Waynwood as heir (track_b: Head, Heir).
+
+## Heraldry & Sigil
+
+A black broken wheel on green (Vert, a broken-wheel sable) (wiki:House_Waynwood)
 
 ## Allegiances
 

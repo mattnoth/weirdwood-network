@@ -1,0 +1,64 @@
+{
+  "unit_id": "tmk",
+  "stem": "tmk-dunk-01",
+  "source": "/Users/mnoth/source/asoiaf-chat/sources/chapters/tmk/tmk-dunk-01.md",
+  "frontmatter_lines": [1, 11],
+  "body_start_line": 13,
+  "total_lines": 2078,
+  "parts": [
+    {
+      "part": 1,
+      "start_line": 13,
+      "scene_label": "Departure from Stoney Sept on the road",
+      "approx_words": 4900
+    },
+    {
+      "part": 2,
+      "start_line": 257,
+      "scene_label": "Lakeshore inn and weirwood grove camp",
+      "approx_words": 3100
+    },
+    {
+      "part": 3,
+      "start_line": 431,
+      "scene_label": "Ferry crossing and Whitewalls wedding feast",
+      "approx_words": 4200
+    },
+    {
+      "part": 4,
+      "start_line": 667,
+      "scene_label": "Wedding night rooftop and Fiddler's revelation",
+      "approx_words": 4700
+    },
+    {
+      "part": 5,
+      "start_line": 929,
+      "scene_label": "Tournament morning Dunk falls to the Snail",
+      "approx_words": 3600
+    },
+    {
+      "part": 6,
+      "start_line": 1131,
+      "scene_label": "Finds Egg and Snail reveals assassination",
+      "approx_words": 3200
+    },
+    {
+      "part": 7,
+      "start_line": 1311,
+      "scene_label": "Egg missing conspiracy exposed Glendon seized",
+      "approx_words": 6400
+    },
+    {
+      "part": 8,
+      "start_line": 1671,
+      "scene_label": "Sept confrontation and Daemon challenged in hall",
+      "approx_words": 4200
+    },
+    {
+      "part": 9,
+      "start_line": 1907,
+      "scene_label": "Pre-dawn tilt and Bloodraven's judgment",
+      "approx_words": 3100
+    }
+  ]
+}

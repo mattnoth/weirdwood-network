@@ -14,11 +14,17 @@ first_available:
   chapter: 44
   source: cite_ref
   pov: Cersei X
+sigil: A golden longbow on white between two crimson flaunches (Argent, a longbow or between two flaunches gules)
+sigil_image: House_Yew.svg
 ---
 
 ## Identity
 
 House Yew is a knightly house from the westerlands. They are sworn to House Lannister. (wiki:House_Yew)
+
+## Heraldry & Sigil
+
+A golden longbow on white between two crimson flaunches (Argent, a longbow or between two flaunches gules) (wiki:House_Yew)
 
 ## Origins
 

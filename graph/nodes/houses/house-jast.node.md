@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "An inverted pall between 3 lion's heads, yellow on black (Sable, a pall reversed between three lions erased or)"
+sigil_image: House_Jast.svg
 ---
 
 ## Identity
 
 House Jast is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+An inverted pall between 3 lion's heads, yellow on black (Sable, a pall reversed between three lions erased or) (wiki:House_Jast)
 
 ## Edges
 

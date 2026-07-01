@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: An erminois maunch on pink, an erminois border (Rose, a maunch erminois within a bordure of the last)
+sigil_image: House_Hamell.svg
 ---
 
 ## Identity
 
 House Hamell is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+An erminois maunch on pink, an erminois border (Rose, a maunch erminois within a bordure of the last) (wiki:House_Hamell)
 
 ## Edges
 

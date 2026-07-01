@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white knife in a blue pile on white (Argent, on a pile azure a knife of the field)
+sigil_image: House_Burley.svg
 ---
 
 ## Identity
 
 House Burley is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white knife in a blue pile on white (Argent, on a pile azure a knife of the field) (wiki:House_Burley)
 
 ## Edges
 

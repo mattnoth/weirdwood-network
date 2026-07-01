@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A weeping willow, green on white (Argent, a willow-tree vert)
+sigil_image: House_Ryger.svg
 ---
 
 ## Identity
 
 House Ryger of Willow Wood is a noble house from the riverlands, one of the main houses sworn to House Tully (wiki:House_Ryger). Their arms are a weeping willow, green on white (wiki:House_Ryger).
+
+## Heraldry & Sigil
+
+A weeping willow, green on white (Argent, a willow-tree vert) (wiki:House_Ryger)
 
 ## Allegiances
 

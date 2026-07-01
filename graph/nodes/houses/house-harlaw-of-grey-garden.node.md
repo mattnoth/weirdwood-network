@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: "Quartered clockwise: a silver scythe on black, a peacock on cream (Quarterly, 1st and 3rd sable, a scythe argent, 2nd and 4th carnation, a peacock in his pride proper)"
+sigil_image: House_Harlaw_of_Grey_Garden.svg
 ---
 
 ## Identity
 
 House Harlaw of Grey Garden is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Quartered clockwise: a silver scythe on black, a peacock on cream (Quarterly, 1st and 3rd sable, a scythe argent, 2nd and 4th carnation, a peacock in his pride proper) (wiki:House_Harlaw_of_Grey_Garden)
 
 ## Edges
 

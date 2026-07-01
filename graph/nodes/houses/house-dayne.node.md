@@ -14,11 +14,17 @@ first_available:
   chapter: 3
   source: cite_ref
   pov: "Catelyn I"
+sigil: A white sword and falling star crossed on lilac (Purpure, a blazing star bendways surmounted by a sword bendways sinister argent)
+sigil_image: House_Dayne.svg
 ---
 
 ## Identity
 
 House Dayne of Starfall is one of the most ancient houses in the Seven Kingdoms, dating back ten thousand years to the dawn of days. They are seated at Starfall, on an island at the mouth of the Torrentine in western Dorne (wiki:House_Dayne). They have a cadet branch, House Dayne of High Hermitage (track_b: relationship not in track_b but confirmed by wiki).
+
+## Heraldry & Sigil
+
+A white sword and falling star crossed on lilac (Purpure, a blazing star bendways surmounted by a sword bendways sinister argent) (wiki:House_Dayne)
 
 ## Origins
 

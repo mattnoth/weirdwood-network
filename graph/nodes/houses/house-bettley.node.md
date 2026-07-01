@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three blue beetles on gold (Or, three beetles azure)
+sigil_image: House_Bettley.svg
 ---
 
 ## Identity
 
 House Bettley is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three blue beetles on gold (Or, three beetles azure) (wiki:House_Bettley)
 
 ## Edges
 

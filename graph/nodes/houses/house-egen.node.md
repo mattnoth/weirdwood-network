@@ -14,11 +14,20 @@ first_available:
   chapter: 40
   source: cite_ref
   pov: "Eddard X"
+sigil: Yellow sun, white crescent moon, and silver star on blue chief above white (White, on a chief azure a moon increscent of the first between a sun-in-splendour or and a mullet silver)
+words: By Day or Night
+sigil_image: House_Egen.svg
 ---
 
 ## Identity
 
 House Egen is a noble house from the Vale, one of the principal families sworn to House Arryn (wiki:House_Egen).
+
+## Heraldry & Sigil
+
+Yellow sun, white crescent moon, and silver star on blue chief above white (White, on a chief azure a moon increscent of the first between a sun-in-splendour or and a mullet silver) (wiki:House_Egen)
+
+Words: "By Day or Night" (wiki:House_Egen)
 
 ## Allegiances
 

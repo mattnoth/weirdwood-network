@@ -14,11 +14,17 @@ first_available:
   chapter: 65
   source: cite_ref
   pov: "Arya X"
+sigil: 3 silver longswords crossed on black beneath a dragonbone skeleton on a white chief (Sable, three longswords crossed silver, on a chief white a dragonbone skeleton proper)
+sigil_image: House_Willum.svg
 ---
 
 ## Identity
 
 House Willum is a noble house from the Reach (wiki:House_Willum). They blazon their shields with three silver longswords crossed on black beneath a dragonbone skeleton on a white chief (wiki:House_Willum).
+
+## Heraldry & Sigil
+
+3 silver longswords crossed on black beneath a dragonbone skeleton on a white chief (Sable, three longswords crossed silver, on a chief white a dragonbone skeleton proper) (wiki:House_Willum)
 
 ## Allegiances
 

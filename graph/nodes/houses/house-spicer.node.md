@@ -14,6 +14,8 @@ first_available:
   chapter: 14
   source: cite_ref
   pov: Arya II
+sigil: 3 pepperpots on a saffron bend, upon green and silver stripes (Paly vert and argent, three pepperpots proper on a bend tenné)
+sigil_image: House_Spicer.svg
 ---
 
 ## Identity
@@ -34,9 +36,7 @@ The Spicers are entwined with the Westerling marriage to Robb Stark. Sybell Spic
 
 ## Heraldry & Sigil
 
-> an older one who wore three black pepperpots on a saffron bend, across a field of green and silver stripes
->
-> — sources/chapters/asos/asos-catelyn-02.md:37 · First visual description of Spicer livery — Rolph Spicer's surcoat at Riverrun, as observed by Catelyn Stark.  _(capture: harvest pass, appearance)_
+3 pepperpots on a saffron bend, upon green and silver stripes (Paly vert and argent, three pepperpots proper on a bend tenné) (wiki:House_Spicer)
 
 ## Edges
 

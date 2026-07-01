@@ -14,11 +14,17 @@ first_available:
   chapter: 14
   source: cite_ref
   pov: "The Soiled Knight"
+sigil: A bend sinister, checked black and white, on pale grey (Cendrée, a bend sinister chequy sable and argent)
+sigil_image: House_Inchfield.svg
 ---
 
 ## Identity
 
 House Inchfield is a noble house from the Reach. (wiki:House_Inchfield)
+
+## Heraldry & Sigil
+
+A bend sinister, checked black and white, on pale grey (Cendrée, a bend sinister chequy sable and argent) (wiki:House_Inchfield)
 
 ## Allegiances
 

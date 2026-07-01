@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black field strewn wriggling green serpents (Sable, semé of snakes vert)
+sigil_image: House_Lynderly.svg
 ---
 
 ## Identity
 
 House Lynderly is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black field strewn wriggling green serpents (Sable, semé of snakes vert) (wiki:House_Lynderly)
 
 ## Edges
 

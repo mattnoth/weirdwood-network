@@ -14,11 +14,17 @@ first_available:
   chapter: 21
   source: cite_ref
   pov: "Brienne IV"
+sigil: Three black leopards standing on a yellow pile on orange (Tenné, on a pile or three leopards statant sable)
+sigil_image: House_Vaith.svg
 ---
 
 ## Identity
 
 House Vaith is a lordly house from Dorne, seated at Vaith (wiki:House_Vaith).
+
+## Heraldry & Sigil
+
+Three black leopards standing on a yellow pile on orange (Tenné, on a pile or three leopards statant sable) (wiki:House_Vaith)
 
 ## Origins
 

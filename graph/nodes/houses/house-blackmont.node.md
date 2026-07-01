@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A black vulture with a pink infant in its claws on yellow (Or, a vulture sable clutching an infant carnation)
+sigil_image: House_Blackmont.svg
 ---
 
 ## Identity
 
 House Blackmont is a lordly house from Dorne, seated at Blackmont. Founded before 700 BC (wiki:House_Blackmont).
+
+## Heraldry & Sigil
+
+A black vulture with a pink infant in its claws on yellow (Or, a vulture sable clutching an infant carnation) (wiki:House_Blackmont)
 
 ## Origins
 

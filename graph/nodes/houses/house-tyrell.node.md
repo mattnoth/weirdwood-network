@@ -14,11 +14,20 @@ first_available:
   chapter: 3
   source: cite_ref
   pov: "Catelyn I"
+sigil: A golden rose on green (Vert, a rose or)
+words: Growing Strong
+sigil_image: House_Tyrell.svg
 ---
 
 ## Identity
 
 House Tyrell of Highgarden is one of the Great Houses of the Seven Kingdoms, Lords Paramount of the Mander and liege lords of the Reach (wiki:House_Tyrell). Their sigil is a golden rose on a green field, and their words are "Growing Strong" (wiki:House_Tyrell). Members tend to have curly brown hair and brown eyes (wiki:House_Tyrell). A large, wealthy house, its wealth is surpassed only by House Lannister, and the Tyrells can field the greatest armies in Westeros (wiki:House_Tyrell).
+
+## Heraldry & Sigil
+
+A golden rose on green (Vert, a rose or) (wiki:House_Tyrell)
+
+Words: "Growing Strong" (wiki:House_Tyrell)
 
 ## Origins
 

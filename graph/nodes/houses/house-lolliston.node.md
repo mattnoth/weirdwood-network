@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three oaken barrels on white (Argent, three oaken barrels proper)
+sigil_image: House_Lolliston.svg
 ---
 
 ## Identity
 
 House Lolliston is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three oaken barrels on white (Argent, three oaken barrels proper) (wiki:House_Lolliston)
 
 ## Edges
 

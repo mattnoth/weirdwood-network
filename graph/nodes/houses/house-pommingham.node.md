@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A red pomegranate on white, a double tressure red (Argent, a pomegranate within a double tressure gules)
+sigil_image: House_Pommingham.svg
 ---
 
 ## Identity
 
 House Pommingham is a noble house from the Reach (wiki:House_Pommingham). They blazon their arms with a red pomegranate on white, a double tressure red (wiki:House_Pommingham).
+
+## Heraldry & Sigil
+
+A red pomegranate on white, a double tressure red (Argent, a pomegranate within a double tressure gules) (wiki:House_Pommingham)
 
 ## Allegiances
 

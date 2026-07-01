@@ -14,11 +14,20 @@ first_available:
   chapter: 17
   source: cite_ref
   pov: "Jaime II"
+sigil: A red castle on a white field within a red embattled border (Argent, a castle within a bordure embattled gules)
+words: As Strong as Stone
+sigil_image: House_Redfort.svg
 ---
 
 ## Identity
 
 House Redfort of Redfort is one of the principal noble houses in the Vale of Arryn (wiki:House_Redfort). The current head is Lord Horton Redfort, with Ser Jasper Redfort as heir (track_b: Head, Heir).
+
+## Heraldry & Sigil
+
+A red castle on a white field within a red embattled border (Argent, a castle within a bordure embattled gules) (wiki:House_Redfort)
+
+Words: "As Strong as Stone" (wiki:House_Redfort)
 
 ## Origins
 

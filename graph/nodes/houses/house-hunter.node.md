@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Five silver arrows, fanned, on brown (Brunâtre, a sheaf of five arrows, points to chief, argent)
+sigil_image: House_Hunter.svg
 ---
 
 ## Identity
 
 House Hunter is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Five silver arrows, fanned, on brown (Brunâtre, a sheaf of five arrows, points to chief, argent) (wiki:House_Hunter)
 
 ## Edges
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A red cockatrice with black snake in beak on gold (Or, a cockatrice gules, in its beak a serpent sable)
+sigil_image: House_Gargalen.svg
 ---
 
 ## Identity
 
 House Gargalen is a lordly house from Dorne, seated at Salt Shore (wiki:House_Gargalen).
+
+## Heraldry & Sigil
+
+A red cockatrice with black snake in beak on gold (Or, a cockatrice gules, in its beak a serpent sable) (wiki:House_Gargalen)
 
 ## Allegiances
 

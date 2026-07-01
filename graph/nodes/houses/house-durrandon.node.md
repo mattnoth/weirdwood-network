@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A crowned stag black on a golden field (Or, a stag crowned sable)
+words: Ours is the Fury
+sigil_image: House_Baratheon.svg
 ---
 
 ## Identity
 
 House Durrandon is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A crowned stag black on a golden field (Or, a stag crowned sable) (wiki:House_Durrandon)
+
+Words: "Ours is the Fury" (wiki:House_Durrandon)
 
 ## Edges
 

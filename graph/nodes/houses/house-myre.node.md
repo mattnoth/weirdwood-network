@@ -14,11 +14,17 @@ first_available:
   chapter: 11
   source: cite_ref
   pov: Sansa
+sigil: 10 nooses, 4-3-2-1, black on white with a border of blood (Argent, ten nooses 4-3-2-1 sable within a bordure sanguine)
+sigil_image: House_Myre_2.svg
 ---
 
 ## Identity
 
 House Myre of Harlaw is a noble house from the island of Harlaw in the Iron Islands. Their sigil depicts ten nooses, 4-3-2-1, black on white with a border of blood (wiki:House_Myre.cite_ref-Raffc11).
+
+## Heraldry & Sigil
+
+10 nooses, 4-3-2-1, black on white with a border of blood (Argent, ten nooses 4-3-2-1 sable within a bordure sanguine) (wiki:House_Myre)
 
 ## Origins
 

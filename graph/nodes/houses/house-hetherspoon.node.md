@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: An oak spoon within a white cartouche on orange and black lozengy (Lozengy tenné and sable, on a cartouche argent an oak spoon proper)
+sigil_image: House_Hetherspoon.svg
 ---
 
 ## Identity
 
 House Hetherspoon is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+An oak spoon within a white cartouche on orange and black lozengy (Lozengy tenné and sable, on a cartouche argent an oak spoon proper) (wiki:House_Hetherspoon)
 
 ## Edges
 

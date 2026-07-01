@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-01 (refreshed after S179)  
+**Generated:** 2026-07-01 (refreshed after S181)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,15 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-01-graph-parentage-node-merge.md` | 2026-07-01 | Graph parentage cleanup — phase 2 (node merges + conflation splits) | **LIVE** (graph) → fires as **S181** | Sonnet 4.6 | S179 shipped the 138 provably-safe deletes; this handles the 3 classes the cold-reviews said must NOT auto-apply: `DUPLICATE_PARENT_NODE` (~32; cross-identity merges — canonical = disambiguated variant/redirect-target, NOT highest-qc; **merge⇒preserve retired name as alias**), `WRONG_NAMESAKE` (~36; delete the wrong-namesake edge, e.g. the two Aerions — do NOT merge), `NODE_SPLIT` (8 conflation buckets incl. joffrey=KEEP-all-3). Fresh-subagent-gated vs LOCAL wiki; apply after review + rebuild. Inputs: `working/graph-cleanup/{parent-edge-proposal.jsonl,cold-review-verdict.md,deletion-safety-and-alias-review.md}`. **STALE-INPUT WARNING added S180:** an unrelated S180 fix dropped the >2-parent count 50→13 (0 slug overlap with this track's proposal set, but re-run `audit-parent-conflation.py` fresh before trusting exact counts). |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
+
+**No LIVE graph/meta track right now** — graph-parentage cleanup (both phases) is COMPLETE as of S181. The natural next thread is resuming chat-UI frontend polish (Matt asked about this at S181 endsession but hadn't confirmed go-ahead yet) → see the archived `2026-07-01-chat-ui-frontend-remainder-PARKED.md` below; promote it back to this table when Matt confirms.
 
 ---
 
-## Archive (`archive/` subfolder — 93 files)
+## Archive (`archive/` subfolder — 94 files)
+
+> **`2026-07-01-graph-parentage-node-merge.md`** — archived S181. **DONE (S181): phase 2 of the parentage cleanup — TRACK COMPLETE.** 2 node merges (`elenda-caron→elenda-baratheon`, `alayne→alayne-baelish`, both wiki-verified) + ~51 wrong-namesake edge deletes + 5 reassigns, via 3 fresh subagent reviews vs the local wiki. Recovered from a concurrent-write collision with S180's edge writes (see `history/session-details/session-181.md`) by re-deriving the small residual (13 nodes) and reapplying the already-proven-safe classes. Final: >2-parent nodes 50→1 (only `joffrey-baratheon`, by design). New script `scripts/apply-node-merge-and-namesake.py`.
 
 > **`graph-parentage-cleanup.md`** — archived S179. **DONE-phase-1 (S179):** cold-read validation overturned the handoff's 2-bug framing (found a 3rd dominant cause: duplicate parent NODES); two fresh cold-reviews caught a destructive false-merge (the "two Aerions") and confirmed the safe set. Shipped **138 provably-safe PARENT_OF deletes** (124 redundant-stub + 13 house-as-parent + 1 exact-dup; PARENT_OF 1688→1550, >2-parent nodes 88→50) + **epithet-alias backfill** (+111 phrases via a new `event_alias_resolver.py` redirect source) + **resolver prominence ranking** (`resolve.ts` tie-break on degree+4·quoteCount; 35/35 tests). Scripts: `audit-parent-conflation.py`, `apply-parent-conflation.py`, `backfill-epithet-aliases.py`. Superseded as live by `2026-07-01-graph-parentage-node-merge.md` (phase 2: the merges/splits the reviews said not to auto-apply).
 

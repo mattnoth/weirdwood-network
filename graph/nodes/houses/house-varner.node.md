@@ -14,11 +14,17 @@ first_available:
   chapter: 22
   source: cite_ref
   pov: "Bran III"
+sigil: A white weasel on ermines (Ermines, a weasel argent)
+sigil_image: House_Varner.svg
 ---
 
 ## Identity
 
 House Varner is a noble house from the Reach (wiki:House_Varner). Their current lord is Steffon Varner. They blazon their shields with a white weasel on ermines (wiki:House_Varner).
+
+## Heraldry & Sigil
+
+A white weasel on ermines (Ermines, a weasel argent) (wiki:House_Varner)
 
 ## Origins
 

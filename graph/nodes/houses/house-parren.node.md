@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: "Per saltire: burgundy and white stripes, a black lion's head on gold (Per saltire, the first paly gules and argent, the second or, a lion erased sable)"
+sigil_image: House_Parren.svg
 ---
 
 ## Identity
 
 House Parren was a noble house from the westerlands, now extinct. They blazoned their arms with per saltire: burgundy and white stripes, a black lion's head on gold. (wiki:House_Parren)
+
+## Heraldry & Sigil
+
+Per saltire: burgundy and white stripes, a black lion's head on gold (Per saltire, the first paly gules and argent, the second or, a lion erased sable) (wiki:House_Parren)
 
 ## Origins
 

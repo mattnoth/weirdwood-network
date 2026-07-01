@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A red apple on gold (Or, an apple gules)
+words: A Taste of Glory
+sigil_image: House_Fossoway_of_Cider_Hall.svg
 ---
 
 ## Identity
 
 House Fossoway of Cider Hall is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A red apple on gold (Or, an apple gules) (wiki:House_Fossoway_of_Cider_Hall)
+
+Words: "A Taste of Glory" (wiki:House_Fossoway_of_Cider_Hall)
 
 ## Edges
 

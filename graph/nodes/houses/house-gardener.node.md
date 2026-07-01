@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A green hand on white (Argent, a hand vert)
+sigil_image: House_Gardener.svg
 ---
 
 ## Identity
 
 House Gardener is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A green hand on white (Argent, a hand vert) (wiki:House_Gardener)
 
 ## Edges
 

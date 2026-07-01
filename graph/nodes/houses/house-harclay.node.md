@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: 3 blue moons, waxing, full, waning, on a white bend, on blue (Azure, on a bend argent a hurt between an increscent and decrescent of the first)
+sigil_image: House_Harclay.svg
 ---
 
 ## Identity
 
 House Harclay is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+3 blue moons, waxing, full, waning, on a white bend, on blue (Azure, on a bend argent a hurt between an increscent and decrescent of the first) (wiki:House_Harclay)
 
 ## Edges
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "Arya I"
+sigil: Green fretty over gold, a green pale wavy (Or fretty vert, a pale wavy of the second)
+sigil_image: House_Hayford.svg
 ---
 
 ## Identity
 
 House Hayford of Hayford is a noble house from Hayford in the crownlands, less than a day's ride from King's Landing. It is sworn directly to the Iron Throne (wiki:House_Hayford). Their blazon is green fretty over gold, a green pale wavy (wiki:House_Hayford.cite_ref-Rtss).
+
+## Heraldry & Sigil
+
+Green fretty over gold, a green pale wavy (Or fretty vert, a pale wavy of the second) (wiki:House_Hayford)
 
 ## Appearances & Description
 

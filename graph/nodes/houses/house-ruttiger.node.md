@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: An orange bend engrailed on black (Sable, a bend tenné engrailed)
+sigil_image: House_Ruttiger.svg
 ---
 
 ## Identity
 
 House Ruttiger is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+An orange bend engrailed on black (Sable, a bend tenné engrailed) (wiki:House_Ruttiger)
 
 ## Edges
 

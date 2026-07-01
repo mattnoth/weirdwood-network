@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Undy green, white, and yellow (Barry wavy vert, argent, and or)
+sigil_image: House_Butterwell.svg
 ---
 
 ## Identity
 
 House Butterwell is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Undy green, white, and yellow (Barry wavy vert, argent, and or) (wiki:House_Butterwell)
 
 ## Edges
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 14
   source: cite_ref
   pov: "Jon II"
+sigil: Black-and-orange butterflies on white (Argent, semé of butterflies sable and tenné)
+sigil_image: House_Mullendore.svg
 ---
 
 ## Identity
 
 House Mullendore is a noble house from the Reach, seated at Uplands. Lord Martyn Mullendore is the current head. (wiki:House_Mullendore)
+
+## Heraldry & Sigil
+
+Black-and-orange butterflies on white (Argent, semé of butterflies sable and tenné) (wiki:House_Mullendore)
 
 ## Allegiances
 

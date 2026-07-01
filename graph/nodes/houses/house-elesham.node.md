@@ -14,11 +14,17 @@ first_available:
   chapter: 41
   source: cite_ref
   pov: "The Princess in the Tower"
+sigil: A double pile inverted, stone on pink, a black mullet between (Rose, between two piles inverted cendrée a mullet sable)
+sigil_image: House_Elesham.svg
 ---
 
 ## Identity
 
 House Elesham of the Paps is a noble house from the Paps in the Vale (wiki:House_Elesham).
+
+## Heraldry & Sigil
+
+A double pile inverted, stone on pink, a black mullet between (Rose, between two piles inverted cendrée a mullet sable) (wiki:House_Elesham)
 
 ## Origins
 

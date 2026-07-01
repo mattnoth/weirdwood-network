@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three silver ships on blue, a border of crimson and gold (Azure, three galleys argent within a bordure compony gules and or)
+words: The Wind Our Steed
+sigil_image: House_Farman.svg
 ---
 
 ## Identity
 
 House Farman is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three silver ships on blue, a border of crimson and gold (Azure, three galleys argent within a bordure compony gules and or) (wiki:House_Farman)
+
+Words: "The Wind Our Steed" (wiki:House_Farman)
 
 ## Edges
 

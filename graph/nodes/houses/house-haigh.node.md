@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A black pitchfork on a golden bar sinister on russet (Brunâtre, on a bend sinister or a pitchfork sable)
+sigil_image: House_Haigh.svg
 ---
 
 ## Identity
 
 House Haigh is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A black pitchfork on a golden bar sinister on russet (Brunâtre, on a bend sinister or a pitchfork sable) (wiki:House_Haigh)
 
 ## Edges
 

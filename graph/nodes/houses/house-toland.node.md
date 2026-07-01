@@ -14,11 +14,17 @@ first_available:
   chapter: 13
   source: cite_ref
   pov: "Cersei III"
+sigil: "A green dragon biting its tail on gold (Or, a dragon biting its tail vert) Formerly: a ghost"
+sigil_image: House_Toland.svg
 ---
 
 ## Identity
 
 House Toland is a lordly house from Dorne, seated at Ghost Hill (wiki:House_Toland).
+
+## Heraldry & Sigil
+
+A green dragon biting its tail on gold (Or, a dragon biting its tail vert) Formerly: a ghost (wiki:House_Toland)
 
 ## Allegiances
 

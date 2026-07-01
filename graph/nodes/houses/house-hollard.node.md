@@ -14,11 +14,17 @@ first_available:
   chapter: 2
   source: cite_ref
   pov: "Arya I"
+sigil: Barry red and pink, three golden crowns on a blue chief (Barry gules and rose, on a chief azure three crowns or)
+sigil_image: House_Hollard.svg
 ---
 
 ## Identity
 
 House Hollard is an extinct noble house from the crownlands. Their seat was Hollard castle, and they served as vassals to House Darklyn of Duskendale (track_b: Overlord).
+
+## Heraldry & Sigil
+
+Barry red and pink, three golden crowns on a blue chief (Barry gules and rose, on a chief azure three crowns or) (wiki:House_Hollard)
 
 ## Allegiances
 

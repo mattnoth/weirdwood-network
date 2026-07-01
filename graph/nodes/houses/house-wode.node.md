@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Three white hedgehogs on yellow (Or, three hedgehogs argent)
+words: Touch Me Not
+sigil_image: House_Wode.svg
 ---
 
 ## Identity
 
 House Wode is a noble house of landed knights in the riverlands (wiki:House_Wode). Their arms are three white hedgehogs on yellow, and their motto is "Touch Me Not" (wiki:House_Wode). Their lands lie close to the border with the crownlands near Sow's Horn (wiki:House_Wode).
+
+## Heraldry & Sigil
+
+Three white hedgehogs on yellow (Or, three hedgehogs argent) (wiki:House_Wode)
+
+Words: "Touch Me Not" (wiki:House_Wode)
 
 ## Allegiances
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 3
   source: cite_ref
   pov: "The Captain of Guards"
+sigil: A black kettle on red, a border of pellets (Gules, a kettle sable within an orle of pellets)
+sigil_image: House_Kettleblack.svg
 ---
 
 ## Identity
 
 House Kettleblack is a knightly house from the crownlands. The family rose to prominence during the War of the Five Kings through service to Cersei Lannister and Petyr Baelish (wiki:House_Kettleblack).
+
+## Heraldry & Sigil
+
+A black kettle on red, a border of pellets (Gules, a kettle sable within an orle of pellets) (wiki:House_Kettleblack)
 
 ## Allegiances
 

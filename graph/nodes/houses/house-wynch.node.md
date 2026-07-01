@@ -14,11 +14,17 @@ first_available:
   chapter: 11
   source: cite_ref
   pov: Davos I
+sigil: Bloody moon on purple (Purpure, a moon proper tipped sanguine)
+sigil_image: House_Wynch.svg
 ---
 
 ## Identity
 
 House Wynch of Iron Holt is a noble house from the island of Pyke in the Iron Islands. They are among the Greyjoys' principal bannermen (wiki:House_Wynch.cite_ref-Ragotappendix). Their seat Iron Holt is on the other side of the island from the castle of Pyke (wiki:House_Wynch.cite_ref-Racok24). Their sigil is a bloody moon on purple (wiki:House_Wynch.cite_ref-Racok11).
+
+## Heraldry & Sigil
+
+Bloody moon on purple (Purpure, a moon proper tipped sanguine) (wiki:House_Wynch)
 
 ## Origins
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Ten black pellets on scarlet (Gules, ten pellets)
+sigil_image: House_Cole.svg
 ---
 
 ## Identity
 
 House Cole is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Ten black pellets on scarlet (Gules, ten pellets) (wiki:House_Cole)
 
 ## Edges
 

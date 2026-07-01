@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A red sun rising from a grey-green sea against a yellow sky (Per fesse wavy or and vert-cendrée, a demi-sun-in-splendour issuant from the line of division gules)
+sigil_image: House_Donniger.svg
 ---
 
 ## Identity
 
 House Donniger is a noble house from the Vale (wiki:House_Donniger).
+
+## Heraldry & Sigil
+
+A red sun rising from a grey-green sea against a yellow sky (Per fesse wavy or and vert-cendrée, a demi-sun-in-splendour issuant from the line of division gules) (wiki:House_Donniger)
 
 ## Allegiances
 

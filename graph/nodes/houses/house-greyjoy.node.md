@@ -9,11 +9,20 @@ bucket_id: houses-major-recovery
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A golden kraken on black (Sable, a kraken or)
+words: We Do Not Sow
+sigil_image: House_Greyjoy.svg
 ---
 
 ## Identity
 
 House Greyjoy is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A golden kraken on black (Sable, a kraken or) (wiki:House_Greyjoy)
+
+Words: "We Do Not Sow" (wiki:House_Greyjoy)
 
 ## Edges
 

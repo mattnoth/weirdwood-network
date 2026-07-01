@@ -14,11 +14,17 @@ first_available:
   chapter: 21
   source: cite_ref
   pov: "Tyrion III"
+sigil: A silver flail on red within a black border rayonne (Gules, a flail argent within a bordure rayonne sable)
+sigil_image: House_Thorne.svg
 ---
 
 ## Identity
 
 House Thorne is a noble house from the crownlands. Their arms (semi-canon) depict a silver flail on red within a black border rayonne (*Gules, a flail argent within a bordure rayonne sable*) (wiki:House_Thorne).
+
+## Heraldry & Sigil
+
+A silver flail on red within a black border rayonne (Gules, a flail argent within a bordure rayonne sable) (wiki:House_Thorne)
 
 ## Appearances & Description
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 12
   source: cite_ref
   pov: Daenerys II
+sigil: A black manticore on white, beneath a crimson chief with three gold coins (Argent, a manticore sable, on a chief gules three bezants)
+sigil_image: House_Lorch.svg
 ---
 
 ## Identity
 
 House Lorch is a house of landed knights from the westerlands. They blazon their shields with a black manticore on white, beneath a crimson chief with three gold coins. Their motto and seat have not been revealed. (wiki:House_Lorch.cite_ref-Racok14; wiki:House_Lorch.cite_ref-Raffcappendix)
+
+## Heraldry & Sigil
+
+A black manticore on white, beneath a crimson chief with three gold coins (Argent, a manticore sable, on a chief gules three bezants) (wiki:House_Lorch)
 
 ## Allegiances
 

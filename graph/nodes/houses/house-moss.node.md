@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A bend orange on vairy grey and green (Vairy cendrée and vert, a bend tenné)
+sigil_image: House_Moss.svg
 ---
 
 ## Identity
 
 House Moss is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A bend orange on vairy grey and green (Vairy cendrée and vert, a bend tenné) (wiki:House_Moss)
 
 ## Edges
 

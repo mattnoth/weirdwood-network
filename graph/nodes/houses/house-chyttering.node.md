@@ -14,11 +14,17 @@ first_available:
   chapter: 10
   source: cite_ref
   pov: Bran I
+sigil: Three golden bendlets enhanced on white (Argent, three bendlets enhanced or)
+sigil_image: House_Chyttering.svg
 ---
 
 ## Identity
 
 House Chyttering is a noble house of the crownlands sworn to House Baratheon of King's Landing. Their arms are three golden bendlets enhanced on white (wiki:House_Chyttering).
+
+## Heraldry & Sigil
+
+Three golden bendlets enhanced on white (Argent, three bendlets enhanced or) (wiki:House_Chyttering)
 
 ## Allegiances
 

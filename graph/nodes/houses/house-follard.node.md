@@ -14,11 +14,20 @@ first_available:
   chapter: 44
   source: cite_ref
   pov: Daenerys VII
+sigil: "Gyronny of twelve red and white; on a gold canton, a two-peaked fool's cap of red and white with silver bells (Gyronny of twelve gules and white, on a canton or a fool’s cap peaked once of the first and once of the second with bells silver)"
+words: None so Wise
+sigil_image: House_Follard.svg
 ---
 
 ## Identity
 
 House Follard is a noble house from the crownlands. Their arms are gyronny of twelve red and white; on a gold canton, a two-peaked fool's cap of red and white with silver bells. Their words are "None so Wise" (wiki:House_Follard).
+
+## Heraldry & Sigil
+
+Gyronny of twelve red and white; on a gold canton, a two-peaked fool's cap of red and white with silver bells (Gyronny of twelve gules and white, on a canton or a fool’s cap peaked once of the first and once of the second with bells silver) (wiki:House_Follard)
+
+Words: "None so Wise" (wiki:House_Follard)
 
 ## Allegiances
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A silver helm crested with a sprig of broom on black and green checks (Chequy sable and vert, a helm argent, crested with a sprig of broom proper)
+sigil_image: House_Broom.svg
 ---
 
 ## Identity
 
 House Broom is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A silver helm crested with a sprig of broom on black and green checks (Chequy sable and vert, a helm argent, crested with a sprig of broom proper) (wiki:House_Broom)
 
 ## Edges
 

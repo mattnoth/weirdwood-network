@@ -14,11 +14,20 @@ first_available:
   chapter: 45
   source: cite_ref
   pov: "Eddard XII"
+sigil: A white lamb holding a golden goblet on a green field (Vert, a lamb proper holding a goblet or)
+words: Proud to be Faithful
+sigil_image: House_Stokeworth.svg
 ---
 
 ## Identity
 
 House Stokeworth is a lordly house from the crownlands. Their seat is Stokeworth, located near King's Landing (track_b: Seat).
+
+## Heraldry & Sigil
+
+A white lamb holding a golden goblet on a green field (Vert, a lamb proper holding a goblet or) (wiki:House_Stokeworth)
+
+Words: "Proud to be Faithful" (wiki:House_Stokeworth)
 
 ## Allegiances
 

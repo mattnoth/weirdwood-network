@@ -14,11 +14,17 @@ first_available:
   chapter: 5
   source: cite_ref
   pov: Eddard I
+sigil: "Per pale crimson and gold, a golden lion rampant and a black stag (Per pale gules and or, a lion rampant of the second, a stag sable) Formerly: A crowned black stag on a golden field (Or, a stag crowned sable)"
+sigil_image: House_Baratheon_of_King%27s_Landing.svg
 ---
 
 ## Identity
 
 House Baratheon of King's Landing is the royal line of House Baratheon of Storm's End. Founded by Robert I Baratheon after his successful rebellion against King Aerys II Targaryen. The house sits the Iron Throne from the Red Keep in King's Landing and receives the support of the mainland crownlands houses (wiki:House_Baratheon_of_King's_Landing).
+
+## Heraldry & Sigil
+
+Per pale crimson and gold, a golden lion rampant and a black stag (Per pale gules and or, a lion rampant of the second, a stag sable) Formerly: A crowned black stag on a golden field (Or, a stag crowned sable) (wiki:House_Baratheon_of_King's_Landing)
 
 ## Origins
 

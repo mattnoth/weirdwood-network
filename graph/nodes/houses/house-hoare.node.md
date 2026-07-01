@@ -14,11 +14,17 @@ first_available:
   chapter: 1
   source: cite_ref
   pov: Prologue
+sigil: "Per saltire: two heavy silver chains crossing between (clockwise) a gold longship on black, a dark green pine on white, a cluster of red grapes on gold, and a black raven flying in a blue sky (Per saltire sable, azure, white and or, two chains throughout saltirewise silver between in chief a longship or, in dexter a raven volant sable, in sinister a pine-tree vert and in base a bunch of grapes gules)"
+sigil_image: House_Hoare_2.svg
 ---
 
 ## Identity
 
 House Hoare of Orkmont is an extinct noble house originally from the Iron Islands, known as the "black line" or the "black blood" (wiki:House_Hoare.cite_ref-Ragot60). The Hoares became Kings of the Iron Islands after Andal settlers ended the rule of House Greyiron (wiki:House_Hoare.cite_ref-History).
+
+## Heraldry & Sigil
+
+Per saltire: two heavy silver chains crossing between (clockwise) a gold longship on black, a dark green pine on white, a cluster of red grapes on gold, and a black raven flying in a blue sky (Per saltire sable, azure, white and or, two chains throughout saltirewise silver between in chief a longship or, in dexter a raven volant sable, in sinister a pine-tree vert and in base a bunch of grapes gules) (wiki:House_Hoare)
 
 ## Origins
 

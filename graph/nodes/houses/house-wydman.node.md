@@ -14,11 +14,20 @@ first_available:
   chapter: 38
   source: cite_ref
   pov: "Bran V"
+sigil: 5 splintered lances, 3-2, striped blue and white with blue pennons, on yellow, beneath a white chief bearing a red castle, a green viper, a black broken wheel, a purple unicorn and a golden lion (Yellow, five broken lances, 3-2, striped azure and argent, pennons of the second, on a chief of the third, a wheel broken sable between, on the dexter, a castle gules and snake vert, and, on the sinister, a unicorn purpure and lion or)
+words: Right Conquers Might
+sigil_image: House_Wydman.svg
 ---
 
 ## Identity
 
 House Wydman is a noble house from the Vale of Arryn (wiki:House_Wydman).
+
+## Heraldry & Sigil
+
+5 splintered lances, 3-2, striped blue and white with blue pennons, on yellow, beneath a white chief bearing a red castle, a green viper, a black broken wheel, a purple unicorn and a golden lion (Yellow, five broken lances, 3-2, striped azure and argent, pennons of the second, on a chief of the third, a wheel broken sable between, on the dexter, a castle gules and snake vert, and, on the sinister, a unicorn purpure and lion or) (wiki:House_Wydman)
+
+Words: "Right Conquers Might" (wiki:House_Wydman)
 
 ## Origins
 

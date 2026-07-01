@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: Oak and iron paly, beneath a white chief with seven green hands (Paly brunâtre and cendrée, on a chief argent seven hands vert)
+sigil_image: House_Uffering.svg
 ---
 
 ## Identity
 
 House Uffering is a noble house from the Reach (wiki:House_Uffering). They blazon their arms with oak and iron paly, beneath a white chief with seven green hands (wiki:House_Uffering).
+
+## Heraldry & Sigil
+
+Oak and iron paly, beneath a white chief with seven green hands (Paly brunâtre and cendrée, on a chief argent seven hands vert) (wiki:House_Uffering)
 
 ## Origins
 

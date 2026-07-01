@@ -13,11 +13,20 @@ first_available:
   book: AFFC
   chapter: 13
   source: cite_ref
+sigil: A winged heart, black on gold, within a black bordure embattled (Or, a heart with wings within a bordure embattled sable)
+words: Fly High, Fly Far
+sigil_image: House_Toyne.svg
 ---
 
 ## Identity
 
 House Toyne is an extinct noble house from the Stormlands. Their words were "Fly High, Fly Far." They blazoned their arms with a winged heart, black on gold. (wiki:House_Toyne)
+
+## Heraldry & Sigil
+
+A winged heart, black on gold, within a black bordure embattled (Or, a heart with wings within a bordure embattled sable) (wiki:House_Toyne)
+
+Words: "Fly High, Fly Far" (wiki:House_Toyne)
 
 ## Allegiances
 

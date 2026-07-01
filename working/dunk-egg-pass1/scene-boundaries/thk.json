@@ -1,0 +1,52 @@
+{
+  "unit_id": "thk",
+  "stem": "thk-dunk-01",
+  "source": "/Users/mnoth/source/asoiaf-chat/sources/chapters/thk/thk-dunk-01.md",
+  "frontmatter_lines": [1, 11],
+  "body_start_line": 13,
+  "total_lines": 1560,
+  "parts": [
+    {
+      "part": 1,
+      "start_line": 13,
+      "scene_label": "Burial of Ser Arlan; inn; Ashford camp; Egg",
+      "approx_words": 5680
+    },
+    {
+      "part": 2,
+      "start_line": 291,
+      "scene_label": "Morning: castle entry, Sweetfoot sold, princes arrive",
+      "approx_words": 4650
+    },
+    {
+      "part": 3,
+      "start_line": 499,
+      "scene_label": "Armor shown; Ser Manfred refuses; Baelor vouches; Tanselle",
+      "approx_words": 3320
+    },
+    {
+      "part": 4,
+      "start_line": 699,
+      "scene_label": "Tourney day one: jousting, Aerion's attack, Egg revealed",
+      "approx_words": 5730
+    },
+    {
+      "part": 5,
+      "start_line": 913,
+      "scene_label": "Imprisoned; trial of seven; champion search; Daeron warns",
+      "approx_words": 4210
+    },
+    {
+      "part": 6,
+      "start_line": 1153,
+      "scene_label": "Daeron's dream; shield; Steffon betrays; Baelor joins",
+      "approx_words": 3380
+    },
+    {
+      "part": 7,
+      "start_line": 1349,
+      "scene_label": "Trial of seven; Aerion yields; Baelor dies; Egg squired",
+      "approx_words": 4690
+    }
+  ]
+}

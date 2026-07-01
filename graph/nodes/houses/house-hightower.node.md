@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A white tower topped with flames on smoke grey (Cendrée, a tower argent, beacon inflamed gules)
+words: We Light the Way
+sigil_image: House_Hightower.svg
 ---
 
 ## Identity
 
 House Hightower is one of the most powerful and ancient noble houses of the Reach, seated at the Hightower in Oldtown. Lord Leyton Hightower is the current head, with Baelor Hightower as heir. The house holds numerous titles including Lord of the Hightower, Lord of the Port, Lord of Oldtown, Voice of Oldtown, Defender of Oldtown, Defender of the Citadel, and Beacon of the South. Historically they held the title King of the High Tower. (wiki:House_Hightower)
+
+## Heraldry & Sigil
+
+A white tower topped with flames on smoke grey (Cendrée, a tower argent, beacon inflamed gules) (wiki:House_Hightower)
+
+Words: "We Light the Way" (wiki:House_Hightower)
 
 ## Origins
 

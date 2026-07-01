@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white pile inverted on indigo, an arch of 4-pointed stars above (Azure, a pile inverted Argent beneath mullets of four points embowed)
+words: Ever Higher
+sigil_image: House_Whitehill.svg
 ---
 
 ## Identity
 
 House Whitehill (Telltale) is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white pile inverted on indigo, an arch of 4-pointed stars above (Azure, a pile inverted Argent beneath mullets of four points embowed) (wiki:House_Whitehill_(Telltale))
+
+Words: "Ever Higher" (wiki:House_Whitehill_(Telltale))
 
 ## Edges
 

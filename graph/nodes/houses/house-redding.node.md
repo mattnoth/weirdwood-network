@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A golden flagon on burgundy, a border of gold and white checks (Murrey, a flagon or within a bordure chequy of the second and argent)
+sigil_image: House_Redding.svg
 ---
 
 ## Identity
 
 House Redding is a noble house from the Reach (wiki:House_Redding). They blazon their arms with a golden flagon on burgundy within a border of gold and white checks (wiki:House_Redding).
+
+## Heraldry & Sigil
+
+A golden flagon on burgundy, a border of gold and white checks (Murrey, a flagon or within a bordure chequy of the second and argent) (wiki:House_Redding)
 
 ## Allegiances
 

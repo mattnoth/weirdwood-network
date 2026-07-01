@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Six green thistles, 3-2-1, on yellow (Or, six thistles 3-2-1 vert)
+sigil_image: House_Norrey.svg
 ---
 
 ## Identity
 
 House Norrey is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Six green thistles, 3-2-1, on yellow (Or, six thistles 3-2-1 vert) (wiki:House_Norrey)
 
 ## Edges
 

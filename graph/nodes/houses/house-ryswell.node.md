@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: "A black horse's head, eyes and mane red, on bronze within a black engrailed border (Bronze, a horse's head sable orbed and maned gules within a bordure engrailed sable)"
+sigil_image: House_Ryswell.svg
 ---
 
 ## Identity
 
 House Ryswell is a noble house from the Rills in the North. Their head is Lord Rodrik Ryswell. They hold the title Lord of the Rills (wiki:House_Ryswell).
+
+## Heraldry & Sigil
+
+A black horse's head, eyes and mane red, on bronze within a black engrailed border (Bronze, a horse's head sable orbed and maned gules within a bordure engrailed sable) (wiki:House_Ryswell)
 
 ## Allegiances
 

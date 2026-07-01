@@ -14,11 +14,17 @@ first_available:
   chapter: 10
   source: cite_ref
   pov: Arya III
+sigil: A leaping blue swordfish on fretty silver on white (White fretty silver, a swordfish embowed azure)
+sigil_image: House_Bar_Emmon.svg
 ---
 
 ## Identity
 
 House Bar Emmon of Sharp Point is a noble house from the crownlands, sworn to Dragonstone. Their blazon is a leaping blue swordfish on fretty silver on white (wiki:House_Bar_Emmon).
+
+## Heraldry & Sigil
+
+A leaping blue swordfish on fretty silver on white (White fretty silver, a swordfish embowed azure) (wiki:House_Bar_Emmon)
 
 ## Origins
 

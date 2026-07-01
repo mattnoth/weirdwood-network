@@ -14,11 +14,17 @@ first_available:
   chapter: 30
   source: cite_ref
   pov: "Eddard VII"
+sigil: A triple spiral; red, green and blue, on white (Argent, a triple gurges gules, vert and azure)
+sigil_image: House_Massey.svg
 ---
 
 ## Identity
 
 House Massey of Stonedance is a lordly house from the crownlands. They were founded by Maldon Massey, a historical King (track_b: Titles). Their seat is Stonedance (track_b: Seat).
+
+## Heraldry & Sigil
+
+A triple spiral; red, green and blue, on white (Argent, a triple gurges gules, vert and azure) (wiki:House_Massey)
 
 ## Appearances & Description
 

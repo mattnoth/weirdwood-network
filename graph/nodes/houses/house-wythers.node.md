@@ -14,11 +14,17 @@ first_available:
   chapter: 13
   source: cite_ref
   pov: "Daenerys I"
+sigil: A grey squirrel on white with a red border (Argent, a squirrel cendrée within a bordure gules)
+sigil_image: House_Wythers.svg
 ---
 
 ## Identity
 
 House Wythers is a noble house from the Reach (wiki:House_Wythers). Their sigil is a grey squirrel on white with a red border (wiki:House_Wythers).
+
+## Heraldry & Sigil
+
+A grey squirrel on white with a red border (Argent, a squirrel cendrée within a bordure gules) (wiki:House_Wythers)
 
 ## Allegiances
 

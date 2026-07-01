@@ -9,11 +9,17 @@ bucket_id: houses-other-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white rose upon a red escutcheon upon white, a red embattled border (Argent, an escutcheon gules charged with a rose of the first all within a bordure embattled of the second)
+sigil_image: House_Serry.svg
 ---
 
 ## Identity
 
 House Serry is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white rose upon a red escutcheon upon white, a red embattled border (Argent, an escutcheon gules charged with a rose of the first all within a bordure embattled of the second) (wiki:House_Serry)
 
 ## Edges
 

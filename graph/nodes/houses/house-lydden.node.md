@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: A white badger on per pale green and brown (Per pale vert and brunâtre, a badger argent)
+sigil_image: House_Lydden.svg
 ---
 
 ## Identity
 
 House Lydden is a noble house from the westerlands, seated at Deep Den. They hold the title Lord of the Deep Den and are sworn to House Lannister. (wiki:House_Lydden)
+
+## Heraldry & Sigil
+
+A white badger on per pale green and brown (Per pale vert and brunâtre, a badger argent) (wiki:House_Lydden)
 
 ## Allegiances
 

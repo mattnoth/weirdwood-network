@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Crossed black spears on checkered silver and gold (Chequy argent and or, two spears in saltire sable)
+sigil_image: House_Stackspear.svg
 ---
 
 ## Identity
 
 House Stackspear is a noble house from the westerlands. They are sworn to House Lannister. (wiki:House_Stackspear)
+
+## Heraldry & Sigil
+
+Crossed black spears on checkered silver and gold (Chequy argent and or, two spears in saltire sable) (wiki:House_Stackspear)
 
 ## Allegiances
 

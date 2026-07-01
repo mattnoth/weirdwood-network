@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Three sprigs of mistletoe, green and red, on a gold field within a green border (Or, three sprigs of mistletoe vert, fructed gules, within a bordure of the second)
+sigil_image: House_Charlton.svg
 ---
 
 ## Identity
 
 House Charlton is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Three sprigs of mistletoe, green and red, on a gold field within a green border (Or, three sprigs of mistletoe vert, fructed gules, within a bordure of the second) (wiki:House_Charlton)
 
 ## Edges
 

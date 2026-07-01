@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A red flayed man on pink de sang
+words: Our Blades Are Sharp
+sigil_image: House_Bolton.svg
 ---
 
 ## Identity
 
 House Bolton of Winterfell is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A red flayed man on pink de sang (wiki:House_Bolton_of_Winterfell)
+
+Words: "Our Blades Are Sharp" (wiki:House_Bolton_of_Winterfell)
 
 ## Edges
 

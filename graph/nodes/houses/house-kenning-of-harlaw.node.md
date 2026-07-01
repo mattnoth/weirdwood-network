@@ -14,11 +14,17 @@ first_available:
   chapter: 11
   source: cite_ref
   pov: Sansa
+sigil: "The storm god's cloudly hand, pale grey, yellow lightning flashing from the fingertips, on black (Sable, the storm god’s hand nebuly cendrée, issuant from its fingertips lightning bolts or)"
+sigil_image: House_Kenning_of_Harlaw.svg
 ---
 
 ## Identity
 
 House Kenning of Harlaw is a noble house from Harlaw, one of the Iron Islands. Their sigil depicts the Storm God's cloudly hand, pale grey, with yellow lightning flashing from the fingertips, on black (wiki:House_Kenning_of_Harlaw.cite_ref-semi-canon).
+
+## Heraldry & Sigil
+
+The storm god's cloudly hand, pale grey, yellow lightning flashing from the fingertips, on black (Sable, the storm god’s hand nebuly cendrée, issuant from its fingertips lightning bolts or) (wiki:House_Kenning_of_Harlaw)
 
 ## Origins
 

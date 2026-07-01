@@ -14,11 +14,17 @@ first_available:
   chapter: 11
   source: cite_ref
   pov: Davos I
+sigil: A black brazier on a grey masonry field (Cendrée masoned proper, a brazier sable)
+sigil_image: House_Stonehouse_2.svg
 ---
 
 ## Identity
 
 House Stonehouse of Old Wyk is a noble house from Old Wyk, one of the Iron Islands. They are one of the main houses sworn to Pyke (wiki:House_Stonehouse.cite_ref-Ragotappendix). Their sigil depicts a black brazier on a grey masonry field (wiki:House_Stonehouse.cite_ref-semi-canon).
+
+## Heraldry & Sigil
+
+A black brazier on a grey masonry field (Cendrée masoned proper, a brazier sable) (wiki:House_Stonehouse)
 
 ## Origins
 

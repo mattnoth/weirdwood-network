@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Vairy orange and blue, upon a black canton, a golden stag beneath an orange bend sinister (Vairy tenné and azure, on a canton sable a stag or debruised by a bend sinister of the first)
+sigil_image: House_Bolling.svg
 ---
 
 ## Identity
 
 House Bolling is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Vairy orange and blue, upon a black canton, a golden stag beneath an orange bend sinister (Vairy tenné and azure, on a canton sable a stag or debruised by a bend sinister of the first) (wiki:House_Bolling)
 
 ## Edges
 

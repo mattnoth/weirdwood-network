@@ -9,11 +9,17 @@ bucket_id: houses-major-recovery
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Two blue towers on silver-grey (Cendrée, a bridge azure, at either end a tower of the same)
+sigil_image: House_Frey.svg
 ---
 
 ## Identity
 
 House Frey is a organization.house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Two blue towers on silver-grey (Cendrée, a bridge azure, at either end a tower of the same) (wiki:House_Frey)
 
 ## Edges
 

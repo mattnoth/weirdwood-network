@@ -14,11 +14,17 @@ first_available:
   chapter: 30
   source: cite_ref
   pov: "Eddard VII"
+sigil: "A white ram's head with golden horns on red (Gules, a ram's head cabossed argent attired or)"
+sigil_image: House_Rambton.svg
 ---
 
 ## Identity
 
 House Rambton is a noble house from the crownlands. Their arms are a white ram's head with golden horns on red (*Gules, a ram's head cabossed argent attired or*) (wiki:House_Rambton).
+
+## Heraldry & Sigil
+
+A white ram's head with golden horns on red (Gules, a ram's head cabossed argent attired or) (wiki:House_Rambton)
 
 ## Appearances & Description
 

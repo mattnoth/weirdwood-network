@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A white ironwood tree with a black sword on it, pointing down, on a black field (Sable, on an ironwood argent a sword palewise to base of the field)
+words: Iron from Ice
+sigil_image: House_Forrester.svg
 ---
 
 ## Identity
 
 House Forrester (Telltale) is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A white ironwood tree with a black sword on it, pointing down, on a black field (Sable, on an ironwood argent a sword palewise to base of the field) (wiki:House_Forrester_(Telltale))
+
+Words: "Iron from Ice" (wiki:House_Forrester_(Telltale))
 
 ## Edges
 

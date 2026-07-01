@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A silver codfish (A codfish argent)
+words: Though All Men Do Despise Us
+sigil_image: House_Codd_2.svg
 ---
 
 ## Identity
 
 House Codd is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A silver codfish (A codfish argent) (wiki:House_Codd)
+
+Words: "Though All Men Do Despise Us" (wiki:House_Codd)
 
 ## Edges
 

@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: A white pile inverted on indigo, an arch of 4-pointed stars above (Purpure, above a pile inverted mullets of four points in fess enarched argent)
+sigil_image: House_Whitehill.svg
 ---
 
 ## Identity
 
 House Whitehill is a noble house from the North (wiki:House_Whitehill).
+
+## Heraldry & Sigil
+
+A white pile inverted on indigo, an arch of 4-pointed stars above (Purpure, above a pile inverted mullets of four points in fess enarched argent) (wiki:House_Whitehill)
 
 ## Allegiances
 

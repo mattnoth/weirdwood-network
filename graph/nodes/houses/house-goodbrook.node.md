@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A blue wavy bend on gold (Or, a bend wavy azure)
+sigil_image: House_Goodbrook.svg
 ---
 
 ## Identity
 
 House Goodbrook is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A blue wavy bend on gold (Or, a bend wavy azure) (wiki:House_Goodbrook)
 
 ## Edges
 

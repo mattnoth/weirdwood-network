@@ -14,11 +14,17 @@ first_available:
   chapter: 67
   source: cite_ref
   pov: "Tyrion IX"
+sigil: Three black lances upright on pink, between black flaunches (Rose, three lances palewise in fess sable between two flaunches of the last)
+sigil_image: House_Gaunt.svg
 ---
 
 ## Identity
 
 House Gaunt is a noble house from the crownlands. Their arms are three black lances upright on pink, between black flaunches (wiki:House_Gaunt).
+
+## Heraldry & Sigil
+
+Three black lances upright on pink, between black flaunches (Rose, three lances palewise in fess sable between two flaunches of the last) (wiki:House_Gaunt)
 
 ## Appearances & Description
 

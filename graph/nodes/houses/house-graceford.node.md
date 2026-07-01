@@ -14,11 +14,20 @@ first_available:
   chapter: 6
   source: cite_ref
   pov: "Davos I"
+sigil: "The Mother's face upon white pale wavy dividing a brown field (Brunâtre, on a pale wavy argent the Mother’s head caboshed proper)"
+words: Work Her Will
+sigil_image: House_Graceford.svg
 ---
 
 ## Identity
 
 House Graceford of Holyhall is a noble house from the Reach. Their arms display the Mother's face upon white pale wavy dividing a brown field. Their words are "Work Her Will". (wiki:House_Graceford)
+
+## Heraldry & Sigil
+
+The Mother's face upon white pale wavy dividing a brown field (Brunâtre, on a pale wavy argent the Mother’s head caboshed proper) (wiki:House_Graceford)
+
+Words: "Work Her Will" (wiki:House_Graceford)
 
 ## Origins
 

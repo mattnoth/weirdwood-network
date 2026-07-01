@@ -9,11 +9,20 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: A field of silver caltrops on black (Sable, semé of caltrops argent)
+words: Tread Lightly Here
+sigil_image: House_Footly.svg
 ---
 
 ## Identity
 
 House Footly is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+A field of silver caltrops on black (Sable, semé of caltrops argent) (wiki:House_Footly)
+
+Words: "Tread Lightly Here" (wiki:House_Footly)
 
 ## Edges
 

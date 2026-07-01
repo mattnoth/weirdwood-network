@@ -9,11 +9,17 @@ bucket_id: houses-crownlands-d-h
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
+sigil: "Quartered clockwise: black and white half-fusily, a wheel of flame on indigo (Quarterly, first and third half-fusily sable and argent, second and fourth purpure, a wheel inflamed proper)"
+sigil_image: House_Edgerton.svg
 ---
 
 ## Identity
 
 House Edgerton is a noble house from the crownlands. Their arms are quartered: black and white half-fusily, a wheel of flame on indigo (wiki:House_Edgerton).
+
+## Heraldry & Sigil
+
+Quartered clockwise: black and white half-fusily, a wheel of flame on indigo (Quarterly, first and third half-fusily sable and argent, second and fourth purpure, a wheel inflamed proper) (wiki:House_Edgerton)
 
 ## Allegiances
 

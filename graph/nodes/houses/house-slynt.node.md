@@ -14,11 +14,17 @@ first_available:
   chapter: 57
   source: cite_ref
   pov: "Sansa V"
+sigil: ﻿A bloody spear, gold on black﻿﻿﻿, with a border of checkered gold and black (Sable, a spear or tipped sanguine, a bordure chequy or and sable)
+sigil_image: House_Slynt.svg
 ---
 
 ## Identity
 
 House Slynt is a noble house from the crownlands, founded by Janos Slynt. They were briefly granted Harrenhal as their seat (track_b: Seat), though this was nominal and short-lived (wiki:House_Slynt).
+
+## Heraldry & Sigil
+
+﻿A bloody spear, gold on black﻿﻿﻿, with a border of checkered gold and black (Sable, a spear or tipped sanguine, a bordure chequy or and sable) (wiki:House_Slynt)
 
 ## Allegiances
 

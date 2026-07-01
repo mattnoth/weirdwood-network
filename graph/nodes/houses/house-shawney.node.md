@@ -10,11 +10,17 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: null
+sigil: "Per fess: blue red green above, a white catfish on black below (Per fess, the first tierced in pale azure, gules and vert, the second sable, a catfish argent)"
+sigil_image: House_Shawney.svg
 ---
 
 ## Identity
 
 House Shawney is a noble house from the riverlands (wiki:House_Shawney). Their arms are per fess: blue, red, green above, a white catfish on black below — the upper colors represent the three forks of the Trident (wiki:House_Shawney). Their seat location is unknown, possibly in the southwestern riverlands (wiki:House_Shawney).
+
+## Heraldry & Sigil
+
+Per fess: blue red green above, a white catfish on black below (Per fess, the first tierced in pale azure, gules and vert, the second sable, a catfish argent) (wiki:House_Shawney)
 
 ## Allegiances
 

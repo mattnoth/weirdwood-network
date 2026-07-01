@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Six yellow flowers on blue (Azure, six flowers or)
+sigil_image: House_Cuy.svg
 ---
 
 ## Identity
 
 House Cuy is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Six yellow flowers on blue (Azure, six flowers or) (wiki:House_Cuy)
 
 ## Edges
 

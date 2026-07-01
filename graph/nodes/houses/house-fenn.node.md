@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: 3 black water lilies, on pale violet (Purpure, three water lilies sable)
+sigil_image: House_Fenn.svg
 ---
 
 ## Identity
 
 House Fenn is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+3 black water lilies, on pale violet (Purpure, three water lilies sable) (wiki:House_Fenn)
 
 ## Edges
 

@@ -14,11 +14,17 @@ first_available:
   chapter: 16
   source: cite_ref
   pov: Tyrion III
+sigil: Twining red-and-white snakes on black (Sable, two serpents argent and gules entwined)
+sigil_image: House_Paege.svg
 ---
 
 ## Identity
 
 House Paege is a noble house of landed knights sworn to Riverrun in the riverlands (wiki:House_Paege). They blazon their shields with twining red-and-white snakes on black (wiki:House_Paege).
+
+## Heraldry & Sigil
+
+Twining red-and-white snakes on black (Sable, two serpents argent and gules entwined) (wiki:House_Paege)
 
 ## Allegiances
 

@@ -9,11 +9,17 @@ bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki-deterministic
+sigil: Two rusted longaxes with black shafts crossed, a black crown between their points, on yellow (Or, two rusted longaxes in saltire proper, hafted sable, between the points a crown of the last)
+sigil_image: House_Dustin.svg
 ---
 
 ## Identity
 
 House Dustin is a noble house from the AWOIAF wiki.
+
+## Heraldry & Sigil
+
+Two rusted longaxes with black shafts crossed, a black crown between their points, on yellow (Or, two rusted longaxes in saltire proper, hafted sable, between the points a crown of the last) (wiki:House_Dustin)
 
 ## Edges
 

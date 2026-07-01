@@ -10,11 +10,20 @@ prompt_version: v1-python
 node_version: 1
 pass_origin: pass2-wiki
 first_available: "always available"
+sigil: Six brown acorns, 3-2-1, on yellow (Or, six acorns 3-2-1 brunâtre)
+words: From These Beginnings
+sigil_image: House_Smallwood.svg
 ---
 
 ## Identity
 
 House Smallwood of Acorn Hall is a noble house from the riverlands (wiki:House_Smallwood). Their sigil is six brown acorns on yellow, and their semi-canon motto is "From These Beginnings" (wiki:House_Smallwood).
+
+## Heraldry & Sigil
+
+Six brown acorns, 3-2-1, on yellow (Or, six acorns 3-2-1 brunâtre) (wiki:House_Smallwood)
+
+Words: "From These Beginnings" (wiki:House_Smallwood)
 
 ## Origins
 
