@@ -159,7 +159,7 @@ function buildSequence(rawLinks, querySlug) {
 
 let turn = freshTurn();
 function freshTurn() {
-  return { chainLinks: [], enables: [], nodes: new Map(), resolves: [], neighbors: [], title: "", querySlug: null };
+  return { chainLinks: [], enables: [], nodes: new Map(), resolves: [], neighbors: [], familyTrees: [], title: "", querySlug: null };
 }
 
 // The last turn that produced a chain. The featured chain persists across a
@@ -512,6 +512,280 @@ function neighborsCard(result) {
   ]);
 }
 
+// ---- The family tree: a generational ladder of the lineage -----------------
+//
+// A dynasty/lineage query (family_tree receipt) is NOT a causal spine — it is
+// kin banded by generation, ancestors at the top down to descendants. Each
+// generation is a labelled row of people; married couples in the same generation
+// are joined by a ⚭. Every person with a node is a button that opens the same
+// dossier the chain nodes use; a name the graph names but has no node of its own
+// renders as plain, dimmed text (nothing to open). The queried root is the hub.
+
+/** A generation offset → a kinship band label, relative to the queried root. */
+function ftGenLabel(g, rootName) {
+  if (g === 0) return rootName ? `${rootName} & siblings` : "This generation";
+  const n = Math.abs(g);
+  if (n === 1) return g < 0 ? "Parents" : "Children";
+  const greats = "Great-".repeat(n - 2);
+  return greats + (g < 0 ? "Grandparents" : "Grandchildren");
+}
+
+/** One person chip — a dossier button when the graph holds a node, else plain text. */
+function ftChip(m, rootSlug) {
+  const cls = "ft-node" + (m.slug === rootSlug ? " hub" : "") + (m.hasNode ? "" : " no-node");
+  if (!m.hasNode) return el("span", { class: cls, title: "no node in the graph" }, m.name);
+  return el("button", {
+    class: cls, type: "button",
+    dataset: { slug: m.slug },
+    onclick: () => openDossier(m.slug, m.name),
+  }, m.name);
+}
+
+function familyTreeCard(result) {
+  const rootSlug = result.root;
+  // Spouse lookup, so a couple in the same generation renders joined.
+  const spouseOf = new Map();
+  for (const b of result.spouseBonds || []) {
+    (spouseOf.get(b.a) || spouseOf.set(b.a, new Set()).get(b.a)).add(b.b);
+    (spouseOf.get(b.b) || spouseOf.set(b.b, new Set()).get(b.b)).add(b.a);
+  }
+
+  // Bucket members by generation.
+  const byGen = new Map();
+  for (const m of result.members) {
+    if (!byGen.has(m.generation)) byGen.set(m.generation, []);
+    byGen.get(m.generation).push(m);
+  }
+  const gens = [...byGen.keys()].sort((a, b) => a - b);
+
+  const rows = gens.map((g) => {
+    const people = byGen.get(g);
+    const bySlug = new Map(people.map((m) => [m.slug, m]));
+    const done = new Set();
+    const items = [];
+    for (const m of people) {
+      if (done.has(m.slug)) continue;
+      done.add(m.slug);
+      // Pull in a spouse who sits in this same generation, as a joined couple.
+      const mate = [...(spouseOf.get(m.slug) || [])].find((s) => bySlug.has(s) && !done.has(s));
+      if (mate) {
+        done.add(mate);
+        items.push(el("span", { class: "ft-couple" }, [
+          ftChip(m, rootSlug),
+          el("span", { class: "ft-marr", title: "married" }, "⚭"),
+          ftChip(bySlug.get(mate), rootSlug),
+        ]));
+      } else {
+        items.push(ftChip(m, rootSlug));
+      }
+    }
+    return el("div", { class: "ft-gen" }, [
+      el("div", { class: "ft-gen-label" }, ftGenLabel(g, result.rootName)),
+      el("div", { class: "ft-gen-row" }, items),
+    ]);
+  });
+
+  const rootName = result.rootName || pretty(result.root);
+  const count = result.memberCount != null ? result.memberCount : result.members.length;
+  return el("div", { class: "card ft-card" }, [
+    el("div", { class: "card-kind" }, [el("span", { class: "glyph" }, "⚶"), "family tree"]),
+    el("div", { class: "ft-root-label" }, [
+      rootName,
+      el("span", { class: "ft-count" }, ` · ${count} kin${result.truncated ? " (pruned)" : ""}`),
+    ]),
+    ...rows,
+  ]);
+}
+
+// ---- The family-tree DIAGRAM: an SVG descendant chart, in the chat ----------
+//
+// The rail card (above) is the structured receipt; THIS is the picture people
+// actually want for a lineage question — a real node-link tree drawn into the
+// answer itself (persona narration is dropped for this shape). Layout is a tidy
+// top-down descendant tree: root at top, each child below its parent, sub-tree
+// x-positions assigned post-order so parents centre over their children
+// (Reingold–Tilford-lite). Only descendants reachable from the root via
+// PARENT_OF are drawn — ancestors + married-in spouses live in the rail card.
+// Every node is clickable → the same dossier the chain/rail nodes open.
+
+const SVGNS = "http://www.w3.org/2000/svg";
+function svgEl(tag, attrs = {}, children = []) {
+  const n = document.createElementNS(SVGNS, tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v === false || v == null) continue;
+    n.setAttribute(k, v);
+  }
+  for (const c of [].concat(children).flat(Infinity)) {
+    if (c == null || c === false) continue;
+    n.append(c.nodeType ? c : document.createTextNode(String(c)));
+  }
+  return n;
+}
+
+// A full name → 1–2 short label lines. Parentheticals ("(son of Aenys I)") drop
+// to a second line; long plain names wrap at a space; the full name lives in a
+// <title> tooltip so nothing is lost.
+function nameLines(name) {
+  const paren = String(name).match(/^(.*?)\s*(\(.*\))$/);
+  if (paren) return [paren[1].trim(), paren[2].trim()];
+  if (name.length <= 20) return [name];
+  const words = name.split(" ");
+  if (words.length > 1) {
+    let l1 = "", i = 0;
+    while (i < words.length && (l1 + " " + words[i]).trim().length <= 18) { l1 = (l1 + " " + words[i]).trim(); i++; }
+    const l2 = words.slice(i).join(" ");
+    return l2 ? [l1, l2] : [l1];
+  }
+  return [name];
+}
+const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
+
+const FT_NODE_W = 148, FT_NODE_H = 38, FT_X_GAP = 44, FT_Y_GAP = 10, FT_PAD = 16;
+
+/** Lay out the root's descendants as a tidy LEFT-TO-RIGHT tree: root at the left,
+ *  each generation a column to its right, siblings stacked vertically. A deep
+ *  dynasty stays narrow (a few generation-columns) and grows DOWN (natural
+ *  vertical scroll) instead of ballooning sideways. Returns positioned nodes +
+ *  parent→child elbow edges + the canvas size + the root's y (for auto-centring),
+ *  or null if the root has no drawable descendants. */
+function descendantLayout(result) {
+  const rootSlug = result.root;
+  const member = new Map(result.members.map((m) => [m.slug, m]));
+  if (!member.has(rootSlug)) return null;
+
+  // children adjacency within the member set.
+  const kids = new Map();
+  for (const b of result.parentBonds || []) {
+    if (!member.has(b.parent) || !member.has(b.child)) continue;
+    (kids.get(b.parent) || kids.set(b.parent, []).get(b.parent)).push(b.child);
+  }
+
+  // Spanning tree from root (BFS): each node gets ONE tree-parent, so the DAG
+  // (incest, two-parent edges) draws as a clean tree; the extra parent is a
+  // spouse shown in the rail card.
+  const treeParent = new Map();
+  const seen = new Set([rootSlug]);
+  const q = [rootSlug];
+  const tkids = new Map();
+  while (q.length) {
+    const n = q.shift();
+    for (const c of kids.get(n) || []) {
+      if (seen.has(c)) continue;
+      seen.add(c);
+      treeParent.set(c, n);
+      (tkids.get(n) || tkids.set(n, []).get(n)).push(c);
+      q.push(c);
+    }
+  }
+  if (seen.size <= 1) return null; // root alone — no tree to draw
+
+  // Depth = generation column (BFS guarantees parent before child).
+  const depth = new Map([[rootSlug, 0]]);
+  const bfs = [rootSlug];
+  for (let i = 0; i < bfs.length; i++) {
+    const n = bfs[i];
+    for (const c of tkids.get(n) || []) { depth.set(c, depth.get(n) + 1); bfs.push(c); }
+  }
+
+  // Post-order row-slots: leaves take the next row; parents centre on their kids.
+  const slot = new Map();
+  let next = 0;
+  const assign = (n) => {
+    const ch = tkids.get(n) || [];
+    if (!ch.length) { slot.set(n, next++); return; }
+    ch.forEach(assign);
+    slot.set(n, (slot.get(ch[0]) + slot.get(ch[ch.length - 1])) / 2);
+  };
+  assign(rootSlug);
+
+  const stepX = FT_NODE_W + FT_X_GAP, stepY = FT_NODE_H + FT_Y_GAP;
+  const pos = new Map();
+  for (const n of seen) {
+    pos.set(n, {
+      x: FT_PAD + depth.get(n) * stepX, // depth → column (left to right)
+      y: FT_PAD + slot.get(n) * stepY, // sibling order → row (top to bottom)
+      m: member.get(n),
+    });
+  }
+  const maxDepth = Math.max(...[...depth.values()]);
+  return {
+    pos,
+    edges: [...treeParent].map(([c, p]) => [p, c]),
+    width: FT_PAD * 2 + (maxDepth + 1) * stepX,
+    height: FT_PAD * 2 + next * stepY,
+    rootY: pos.get(rootSlug).y,
+    count: seen.size,
+  };
+}
+
+function familyTreeDiagram(result) {
+  const layout = descendantLayout(result);
+  const rootName = result.rootName || pretty(result.root);
+  if (!layout) {
+    // Nothing to draw (no descendants in graph) — a plain line, no empty canvas.
+    return el("figure", { class: "ft-diagram-wrap" }, [
+      el("figcaption", { class: "ft-diagram-cap" }, `${rootName} — no descendants recorded in the graph.`),
+    ]);
+  }
+
+  // Elbow from a parent's RIGHT edge to its child's LEFT edge (left-to-right tree).
+  const edgeEls = layout.edges.map(([p, c]) => {
+    const a = layout.pos.get(p), b = layout.pos.get(c);
+    const x1 = a.x + FT_NODE_W, y1 = a.y + FT_NODE_H / 2;
+    const x2 = b.x, y2 = b.y + FT_NODE_H / 2;
+    const midX = (x1 + x2) / 2;
+    return svgEl("path", {
+      class: "ft-link",
+      d: `M ${x1} ${y1} H ${midX} V ${y2} H ${x2}`,
+      fill: "none",
+    });
+  });
+
+  const nodeEls = [...layout.pos.values()].map(({ x, y, m }) => {
+    const lines = nameLines(m.name);
+    const isRoot = m.slug === result.root;
+    const g = svgEl("g", {
+      class: "ft-dnode" + (isRoot ? " hub" : "") + (m.hasNode ? "" : " no-node"),
+      transform: `translate(${x} ${y})`,
+    });
+    g.dataset.slug = m.slug;
+    if (m.hasNode) { g.setAttribute("role", "button"); g.setAttribute("tabindex", "0"); }
+    g.append(svgEl("title", {}, m.name));
+    g.append(svgEl("rect", { class: "ft-dnode-box", width: FT_NODE_W, height: FT_NODE_H, rx: 6 }));
+    const text = svgEl("text", { class: "ft-dnode-text", x: FT_NODE_W / 2, y: lines.length > 1 ? FT_NODE_H / 2 - 6 : FT_NODE_H / 2 });
+    lines.forEach((ln, i) => {
+      text.append(svgEl("tspan", { x: FT_NODE_W / 2, dy: i === 0 ? 0 : 14, class: i === 0 ? "ln1" : "ln2" }, clip(ln, 22)));
+    });
+    g.append(text);
+    return g;
+  });
+
+  const svg = svgEl("svg", {
+    class: "ft-diagram",
+    width: layout.width,
+    height: layout.height,
+    viewBox: `0 0 ${layout.width} ${layout.height}`,
+  }, [svgEl("g", { class: "ft-links" }, edgeEls), svgEl("g", { class: "ft-nodes" }, nodeEls)]);
+
+  // One delegated click/keydown → open the dossier for the clicked person.
+  const open = (target) => {
+    const g = target.closest?.(".ft-dnode");
+    if (g && g.classList.contains("no-node") === false && g.dataset.slug) openDossier(g.dataset.slug, g.querySelector("title")?.textContent);
+  };
+  svg.addEventListener("click", (e) => open(e.target));
+  svg.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(e.target); } });
+
+  const scroll = el("div", { class: "ft-diagram-scroll" }, svg);
+  scroll.dataset.rootY = String(layout.rootY + FT_NODE_H / 2);
+  return el("figure", { class: "ft-diagram-wrap" }, [
+    el("figcaption", { class: "ft-diagram-cap" }, [
+      `${rootName} — descendants`,
+      el("span", { class: "ft-diagram-sub" }, ` · ${layout.count} shown${result.truncated ? " (pruned)" : ""} · click a name`),
+    ]),
+    scroll,
+  ]);
+}
+
 // ---- The master render -----------------------------------------------------
 
 function renderReceipts() {
@@ -526,9 +800,11 @@ function renderReceipts() {
   ];
 
   receiptsEl.replaceChildren();
+  // A family tree is the star of a lineage query — render it above the spine.
+  for (const ft of turn.familyTrees) receiptsEl.append(familyTreeCard(ft));
   if (hasChain) renderSpine(seq, chainTurn);
   for (const card of supporting) receiptsEl.append(card);
-  if (!hasChain && supporting.length === 0) {
+  if (!hasChain && supporting.length === 0 && turn.familyTrees.length === 0) {
     receiptsEl.append(el("p", { class: "receipts-empty" },
       walking ? "walking the graph…" : "Ask a question to see the chain the loremaster walks."));
   }
@@ -565,6 +841,28 @@ function addBotBubble() {
     append(t) { buf += t; paint(); scrollIn(); },
     setText(t) { buf = t; paint(); },
     bubbleEl: bubble,
+    // Mount a family-tree diagram as the answer. The picture is what a lineage
+    // question wants, so it leads; the persona prose is suppressed to a thin
+    // caption (bubble gets `.as-caption`). Replaces any prior diagram this turn.
+    mountDiagram(node) {
+      wrap.classList.add("has-diagram");
+      const prior = wrap.querySelector(".ft-diagram-wrap");
+      if (prior) prior.replaceWith(node);
+      else wrap.insertBefore(node, bubble);
+      // Open on the root: left column visible, root row centred vertically. Run
+      // after layout (rAF) so clientHeight is real, not 0 mid-stream.
+      const sc = node.querySelector(".ft-diagram-scroll");
+      if (sc) {
+        const center = () => {
+          sc.scrollLeft = 0;
+          const ry = Number(sc.dataset.rootY || 0);
+          sc.scrollTop = Math.max(0, ry - sc.clientHeight / 2);
+        };
+        center();
+        requestAnimationFrame(center);
+      }
+      scrollIn();
+    },
     finish() { wrap.classList.remove("streaming"); paint(); return buf; },
   };
 }
@@ -649,6 +947,9 @@ function ingestReceipt({ tool, input, result }) {
     case "neighbors":
       if (result) turn.neighbors.push(result);
       break;
+    case "family_tree":
+      if (result && Array.isArray(result.members) && result.members.length) turn.familyTrees.push(result);
+      break;
   }
 }
 
@@ -688,6 +989,10 @@ async function ask(question) {
         case "receipt":
           ingestReceipt(data);
           renderReceipts();
+          // A lineage answer is a picture: draw the tree into the chat itself.
+          if (data.tool === "family_tree" && data.result && Array.isArray(data.result.members) && data.result.members.length) {
+            bot.mountDiagram(familyTreeDiagram(data.result));
+          }
           break;
         case "status":
           showStatus(data.state);

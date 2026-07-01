@@ -102,8 +102,13 @@ You have read-only tools over the graph. Use them; do not answer from memory whe
 - read_node(slug): a node's name, type, a short identity summary, and its curated book quotes (each with a chapter:line citation). Call this to get real book lines and the gist of an entity or event.
 - walk_chain(slug): the causal chain through an event — what led to it (upstream) and what it caused (downstream), as typed links (CAUSES / TRIGGERS / MOTIVATES), each with its own evidence quote and citation. Call this for "why" and "what happened because of" questions about an event. It returns a tight, depth-bounded spine — that is what you narrate. It ALSO returns a separate list of ENABLES preconditions; the interface shows those behind a toggle, so do NOT fold them into your prose unless the visitor explicitly asks what made the event possible.
 - neighbors(slug): everything directly connected to a node, grouped by relationship. Call this for "who is connected to / related to X" questions that are not a causal chain.
+- family_tree(slug): the LINEAGE around a person — ancestors and descendants through parentage, with spouses — returned as a bounded tree in ONE call. Call this for genealogy / dynasty / bloodline / family-tree questions ("the Targaryen family tree from Aegon the Conqueror", "who are Ned Stark's children", "trace the descent of House X"). Do NOT try to build a family tree by fanning out with neighbors — that spends your steps on titles and succession and never assembles the line.
 
-Work in steps: resolve the phrase, read the node, walk or fan out as the question needs. Prefer one or two well-chosen calls over many.
+Work in steps: resolve the phrase, read the node, then walk / fan out / trace the line as the question needs. Prefer one or two well-chosen calls over many.
+
+MANDATORY for lineage questions: when the visitor asks for a family tree, a dynasty, a bloodline, descendants, or ancestry, you MUST call family_tree on the rooted person's node before answering — one call builds the whole tree the interface renders beside you. Do not reconstruct a lineage from memory, and do not use neighbors for it. Resolve the name, then family_tree.
+
+IMPORTANT — a family tree is a PICTURE, not a speech: when you call family_tree, the interface draws the whole tree as a labelled chart in the answer itself. So DROP the persona for this one shape. Do not narrate the lineage generation by generation, do not quote, do not reach for imagery or the record-keeper's voice. Emit ONE short, plain caption line naming the rooted person and the scope — e.g. "Aegon I Targaryen and his descendants, five generations." — and stop. The chart carries the rest.
 
 MANDATORY for causal questions: when the visitor asks why an event happened, what led to it, what caused it, or what it caused/its consequences/ramifications, you MUST call walk_chain on the event's node before answering — never answer a causal question about an event from memory alone. The walked chain is the evidence the interface shows beside your answer; if you skip it, the panel is empty and the answer is unproven. Always resolve → read_node → walk_chain for these.
 
@@ -183,6 +188,18 @@ export const TOOL_DEFS = [
       required: ["slug"],
     },
   },
+  {
+    name: "family_tree",
+    description:
+      'Walk the LINEAGE around a person node: ancestors and descendants via PARENT_OF, with spouses attached. Returns a bounded family tree (members with a generation, plus the parent and marriage bonds) in ONE call. Call this for genealogy / dynasty / family-tree / bloodline / "who are the descendants of / who are the parents of" questions. Do NOT use neighbors() to assemble a family tree — it fans out into titles and succession and will not build a lineage.',
+    input_schema: {
+      type: "object",
+      properties: {
+        slug: { type: "string", description: "The person node slug to root the tree at." },
+      },
+      required: ["slug"],
+    },
+  },
 ];
 
 // ---- Tool dispatch ----
@@ -205,6 +222,8 @@ export function dispatchTool(
       return tools.walkChain(slug);
     case "neighbors":
       return tools.neighbors(slug);
+    case "family_tree":
+      return tools.familyTree(slug);
     default:
       return { error: `unknown tool: ${name}` };
   }
@@ -252,6 +271,16 @@ export function harvestResult(
             grounding++;
           }
         }
+      }
+    }
+  }
+
+  // family_tree → { parentBonds: [{ ref }], spouseBonds: [{ ref }] }
+  for (const key of ["parentBonds", "spouseBonds"] as const) {
+    if (Array.isArray(r[key])) {
+      for (const bond of r[key] as Array<Record<string, unknown>>) {
+        if (typeof bond.ref === "string" && bond.ref) validCites.add(bond.ref);
+        grounding++;
       }
     }
   }

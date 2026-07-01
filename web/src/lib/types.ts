@@ -120,3 +120,60 @@ export interface NeighborsResult {
   /** edge_type -> links where slug is the target. */
   incoming: Record<string, NeighborLink[]>;
 }
+
+/** One person in a familyTree() walk — a graph node OR a bare name a PARENT_OF/
+ *  SPOUSE_OF edge references that has no node of its own. */
+export interface FamilyMember {
+  slug: string;
+  /** Display name: the node's name, else a humanized slug fallback. */
+  name: string;
+  type?: string;
+  /** Generation relative to the root: 0 = root, negative = ancestors above,
+   *  positive = descendants below. */
+  generation: number;
+  /** True when a node record exists for this slug — the UI makes it clickable
+   *  (opens the dossier); false renders as plain text. */
+  hasNode: boolean;
+  /** Total edges touching this node in the whole graph (how connected it is). */
+  degree: number;
+  /** Curated book quotes attached to this node (how much content it carries). */
+  quoteCount: number;
+  /** Composite importance = degree + 4·quoteCount. A proxy for story-weight: the
+   *  characters who actually appear (Dany, Rhaegar, Aemon, Egg) score high,
+   *  historical filler and bare-surname stubs score near zero. The render uses it
+   *  to highlight the people worth clicking. */
+  prominence: number;
+}
+
+/** A PARENT_OF bond kept in the tree (both endpoints are members). */
+export interface FamilyBond {
+  parent: string;
+  child: string;
+  ref: string | null;
+  tier: number | null;
+}
+
+/** A SPOUSE_OF bond kept in the tree (both endpoints are members), deduped a<b. */
+export interface SpouseBond {
+  a: string;
+  b: string;
+  ref: string | null;
+  tier: number | null;
+}
+
+/** familyTree() return: the lineage around a root, as a flat member set + the
+ *  PARENT_OF / SPOUSE_OF bonds among those members. The panel lays it out as a
+ *  tree; the model reads it as "X is parent of Y". A distinct shape from the
+ *  causal spine (walkChain) — genealogy, not consequence. */
+export interface FamilyTreeResult {
+  root: string;
+  rootName?: string;
+  generationsUp: number;
+  generationsDown: number;
+  members: FamilyMember[];
+  parentBonds: FamilyBond[];
+  spouseBonds: SpouseBond[];
+  memberCount: number;
+  /** True when a size cap stopped the walk before it exhausted the lineage. */
+  truncated: boolean;
+}

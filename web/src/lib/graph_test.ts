@@ -1,8 +1,11 @@
-// walkChain() + neighbors() tests against the real bundle.
+// walkChain() + neighbors() + familyTree() tests against the real bundle.
 
 import assert from "node:assert/strict";
-import { neighbors, walkChain } from "./graph.ts";
+import { familyTree, neighbors, walkChain } from "./graph.ts";
 import { data, TYWIN_SLUG } from "./_fixtures.ts";
+
+// The Conqueror roots a large, permanent Targaryen lineage — a rich family tree.
+const AEGON_SLUG = "aegon-i-targaryen";
 
 Deno.test("walkChain: the default walk is a depth-bounded spine, not the whole component", () => {
   const chain = walkChain(TYWIN_SLUG, data);
@@ -108,4 +111,103 @@ Deno.test("neighbors: invalid slug returns empty groups, no throw", () => {
   assert.equal(n.outgoingCount, 0);
   assert.equal(n.incomingCount, 0);
   assert.deepEqual(n.outgoing, {});
+});
+
+Deno.test("familyTree: roots at the queried node and finds its known children", () => {
+  const t = familyTree(AEGON_SLUG, data);
+  assert.equal(t.root, AEGON_SLUG);
+  assert.equal(t.rootName, "Aegon I Targaryen");
+
+  // The root is generation 0.
+  const root = t.members.find((m) => m.slug === AEGON_SLUG);
+  assert.ok(root && root.generation === 0, "root member must be generation 0");
+
+  // Aegon I's sons (Aenys I + Maegor I) are children one generation DOWN, wired
+  // by a PARENT_OF bond rooted at Aegon (source = parent, target = child).
+  for (const child of ["aenys-i-targaryen", "maegor-i-targaryen"]) {
+    const m = t.members.find((x) => x.slug === child);
+    assert.ok(m && m.generation === 1, `${child} should be a gen +1 descendant`);
+    assert.ok(
+      t.parentBonds.some((b) => b.parent === AEGON_SLUG && b.child === child),
+      `expected PARENT_OF bond ${AEGON_SLUG} -> ${child}`,
+    );
+  }
+});
+
+Deno.test("familyTree: attaches the root's spouse at the same generation", () => {
+  // Ned Stark's line is clean (no era-collided slugs), so the spouse lands at the
+  // partner's generation. Catelyn is Ned's wife → a spouse bond at generation 0.
+  const t = familyTree("eddard-stark", data, { generationsUp: 1, generationsDown: 1 });
+  const catelyn = t.members.find((m) => m.slug === "catelyn-stark");
+  assert.ok(catelyn, "spouse Catelyn should be a member");
+  assert.equal(catelyn!.generation, 0, "a spouse sits at the partner's generation");
+  assert.ok(
+    t.spouseBonds.some(
+      (b) =>
+        (b.a === "eddard-stark" && b.b === "catelyn-stark") ||
+        (b.b === "eddard-stark" && b.a === "catelyn-stark"),
+    ),
+    "expected a SPOUSE_OF bond between Eddard and Catelyn",
+  );
+});
+
+Deno.test("familyTree: bonds only ever connect members, and the size cap holds", () => {
+  const t = familyTree(AEGON_SLUG, data);
+  const memberSlugs = new Set(t.members.map((m) => m.slug));
+
+  // Every bond's endpoints are members (no dangling references into the panel).
+  for (const b of t.parentBonds) {
+    assert.ok(memberSlugs.has(b.parent) && memberSlugs.has(b.child), "parent bond off-tree");
+  }
+  for (const b of t.spouseBonds) {
+    assert.ok(memberSlugs.has(b.a) && memberSlugs.has(b.b), "spouse bond off-tree");
+  }
+
+  // spouseBonds are deduped by unordered pair.
+  const seen = new Set<string>();
+  for (const b of t.spouseBonds) {
+    const key = b.a < b.b ? `${b.a}|${b.b}` : `${b.b}|${b.a}`;
+    assert.ok(!seen.has(key), "spouse bonds must be deduped");
+    seen.add(key);
+  }
+
+  // The Targaryen line overflows the cap, so it must report truncation, not
+  // silently drop kin. memberCount matches members.length.
+  assert.equal(t.memberCount, t.members.length);
+  assert.ok(t.memberCount <= 64, "member set is capped");
+  assert.equal(t.truncated, true, "a dynasty larger than the cap reports truncated");
+});
+
+Deno.test("familyTree: generation bounds are respected (up ancestors / down descendants)", () => {
+  const t = familyTree(AEGON_SLUG, data, { generationsUp: 1, generationsDown: 1 });
+  for (const m of t.members) {
+    assert.ok(m.generation >= -1 && m.generation <= 1, "members must stay within the generation bound");
+  }
+  // At least one parent (gen -1) and one child (gen +1) appear at bound 1.
+  assert.ok(t.members.some((m) => m.generation === -1), "expected an ancestor at gen -1");
+  assert.ok(t.members.some((m) => m.generation === 1), "expected a descendant at gen +1");
+});
+
+Deno.test("familyTree: members carry a prominence proxy that ranks marquee kin above filler", () => {
+  const t = familyTree(AEGON_SLUG, data);
+  for (const m of t.members) {
+    assert.ok(typeof m.prominence === "number" && m.prominence >= 0, "every member has a prominence");
+    assert.ok(typeof m.degree === "number" && typeof m.quoteCount === "number");
+    assert.equal(m.prominence, m.degree + 4 * m.quoteCount, "prominence = degree + 4·quoteCount");
+  }
+  // A book-present character (Daenerys) must outrank a bare-surname stub.
+  const dany = t.members.find((m) => m.slug === "daenerys-targaryen");
+  const stub = t.members.find((m) => m.slug === "targaryen" || m.slug === "velaryon");
+  if (dany && stub) {
+    assert.ok(dany.prominence > stub.prominence, "a book character outranks a surname stub");
+  }
+});
+
+Deno.test("familyTree: invalid slug returns an empty tree, no throw", () => {
+  const t = familyTree("../etc/passwd", data);
+  assert.deepEqual(t.members, []);
+  assert.deepEqual(t.parentBonds, []);
+  assert.deepEqual(t.spouseBonds, []);
+  assert.equal(t.memberCount, 0);
+  assert.equal(t.truncated, false);
 });

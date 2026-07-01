@@ -321,6 +321,131 @@ body.about-open .about-view { display: block; }
 .resolve-line { font-size: var(--fs-small); color: var(--c-text-dim); }
 .resolve-line code { font-family: var(--font-mono); color: var(--c-accent-soft); font-size: 0.85em; }
 
+/* ===== The family tree — a generational ladder of the lineage ============== */
+.ft-card { background: var(--c-surface); border-color: var(--c-border); }
+.ft-root-label {
+  font-family: var(--font-prose);
+  font-size: var(--fs-body);
+  color: var(--c-text);
+  margin-bottom: var(--sp-3);
+}
+.ft-count { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
+
+/* Each generation is a labelled band; a hairline down the left ties the bands
+   into one descending ladder. */
+.ft-gen {
+  position: relative;
+  padding: 0 0 var(--sp-3) var(--sp-4);
+  border-left: 1px solid var(--c-border);
+}
+.ft-gen:last-child { padding-bottom: 0; }
+.ft-gen::before {
+  content: "";
+  position: absolute;
+  left: -3px; top: 0.55em;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--c-border);
+}
+.ft-gen-label {
+  font-family: var(--font-mono);
+  font-size: var(--fs-cite);
+  color: var(--c-text-faint);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--sp-2);
+}
+.ft-gen-row { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: center; }
+
+/* A person: a chip. A node opens a dossier (button); a bare name the graph
+   holds no node for renders as dimmed plain text. */
+.ft-node {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  color: var(--c-text);
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  padding: 3px var(--sp-2);
+  line-height: 1.3;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition);
+}
+button.ft-node:hover, button.ft-node:focus-visible {
+  border-color: var(--c-accent);
+  background: var(--c-surface-2);
+  outline: none;
+}
+.ft-node.hub {
+  border-color: var(--c-accent);
+  background: var(--c-accent-faint);
+  color: var(--c-text);
+  font-weight: 600;
+}
+.ft-node.no-node {
+  color: var(--c-text-faint);
+  background: transparent;
+  border-style: dashed;
+  cursor: default;
+}
+/* A married couple, joined by the ⚭ glyph. */
+.ft-couple { display: inline-flex; align-items: center; gap: var(--sp-1); }
+.ft-marr { color: var(--c-accent-soft); font-size: 0.85em; padding: 0 1px; }
+
+/* ===== The family-tree DIAGRAM — an SVG descendant chart, in the chat ====== */
+.ft-diagram-wrap {
+  margin: 0 0 var(--sp-4);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  background: var(--c-surface);
+  overflow: hidden;
+}
+.ft-diagram-cap {
+  font-family: var(--font-mono);
+  font-size: var(--fs-cite);
+  color: var(--c-text-dim);
+  letter-spacing: 0.03em;
+  padding: var(--sp-3) var(--sp-3) 0;
+}
+.ft-diagram-sub { color: var(--c-text-faint); }
+.ft-diagram-scroll { overflow: auto; padding: var(--sp-3); max-height: 62vh; }
+.ft-diagram { display: block; }
+
+.ft-link { stroke: var(--c-border); stroke-width: 1.5; }
+
+.ft-dnode .ft-dnode-box {
+  fill: var(--c-bg);
+  stroke: var(--c-border);
+  stroke-width: 1;
+  transition: fill var(--transition), stroke var(--transition);
+}
+.ft-dnode[role="button"] { cursor: pointer; }
+.ft-dnode[role="button"]:hover .ft-dnode-box,
+.ft-dnode[role="button"]:focus-visible .ft-dnode-box {
+  stroke: var(--c-accent);
+  fill: var(--c-surface-2);
+  outline: none;
+}
+.ft-dnode.hub .ft-dnode-box { stroke: var(--c-accent); fill: var(--c-accent-faint); stroke-width: 1.5; }
+.ft-dnode.no-node .ft-dnode-box { stroke-dasharray: 3 3; }
+.ft-dnode-text {
+  font-family: var(--font-ui);
+  fill: var(--c-text);
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}
+.ft-dnode-text .ln1 { font-size: 12px; }
+.ft-dnode-text .ln2 { font-size: 10px; fill: var(--c-text-dim); }
+.ft-dnode.hub .ft-dnode-text .ln1 { font-weight: 600; }
+.ft-dnode.no-node .ft-dnode-text { fill: var(--c-text-faint); }
+
+/* When a diagram leads the answer, the persona prose collapses to a thin
+   caption underneath (a lineage query wants the chart, not the narration). */
+.msg.bot.has-diagram .bubble {
+  font-size: var(--fs-small);
+  color: var(--c-text-dim);
+}
+
 /* ===== "The chain walked" — one deduped, annotated, vertical spine ========= */
 
 .chain-header { margin-bottom: var(--sp-2); }
