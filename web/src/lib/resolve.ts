@@ -35,19 +35,47 @@ export function resolve(phrase: string, data: GraphData): ResolveCandidate[] {
 
   const norm = normalize(safe);
 
-  // 1. Exact alias-map hit — return every candidate node for this phrase.
+  // 1. Exact alias-map hit — return every candidate node for this phrase,
+  //    ranked so a content-rich node outranks an empty bare-name stub (a shared
+  //    name like "aemon targaryen" maps to several slugs; without this the flat
+  //    1.0 score let insertion order surface the empty bucket).
   const exact = data.aliasMap[norm];
   if (exact && exact.length > 0) {
-    return exact.map((c) => ({
-      slug: c.slug,
-      category: c.category,
-      score: 1.0,
-      matchType: "exact" as const,
-    }));
+    const prom = prominenceMap(exact.map((c) => c.slug), data);
+    return exact
+      .map((c) => ({
+        slug: c.slug,
+        category: c.category,
+        score: 1.0,
+        matchType: "exact" as const,
+        prominence: prom.get(c.slug) ?? 0,
+      }))
+      .sort((a, b) => b.prominence - a.prominence); // stable within equal prominence
   }
 
   // 2. Fuzzy fallback — token-overlap across every phrase key.
   return fuzzyCandidates(norm, data);
+}
+
+/**
+ * Prominence (degree + 4·quoteCount) for a specific set of candidate slugs — the
+ * same story-weight proxy familyTree() uses. Scoped to the candidates (one O(E)
+ * pass, only when there's something to rank) rather than the whole graph.
+ */
+function prominenceMap(slugs: Iterable<string>, data: GraphData): Map<string, number> {
+  const deg = new Map<string, number>();
+  for (const s of slugs) deg.set(s, 0);
+  if (deg.size === 0) return deg;
+  for (const e of data.edges) {
+    if (deg.has(e.source)) deg.set(e.source, deg.get(e.source)! + 1);
+    if (deg.has(e.target)) deg.set(e.target, deg.get(e.target)! + 1);
+  }
+  const prom = new Map<string, number>();
+  for (const s of deg.keys()) {
+    const quoteCount = data.nodes[s]?.quotes?.length ?? 0;
+    prom.set(s, deg.get(s)! + 4 * quoteCount);
+  }
+  return prom;
 }
 
 function fuzzyCandidates(norm: string, data: GraphData): ResolveCandidate[] {
@@ -78,13 +106,16 @@ function fuzzyCandidates(norm: string, data: GraphData): ResolveCandidate[] {
     }
   }
 
+  const prom = prominenceMap(bestScore.keys(), data);
   return [...bestScore.entries()]
-    .sort((a, b) => b[1] - a[1])
+    // score first, then prominence so an empty stub can't tie its way to the top
+    .sort((a, b) => (b[1] - a[1]) || ((prom.get(b[0]) ?? 0) - (prom.get(a[0]) ?? 0)))
     .slice(0, MAX_FUZZY_CANDIDATES)
     .map(([slug, score]) => ({
       slug,
       category: categoryOf.get(slug) ?? "",
       score: Math.round(score * 1000) / 1000,
       matchType: "fuzzy" as const,
+      prominence: prom.get(slug) ?? 0,
     }));
 }

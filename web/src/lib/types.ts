@@ -61,6 +61,10 @@ export interface ResolveCandidate {
   /** 1.0 for an exact alias-map hit; token-overlap score (≥ 0.5) for a fuzzy hit. */
   score: number;
   matchType: "exact" | "fuzzy";
+  /** Node prominence = degree + 4·quoteCount (same proxy familyTree uses). Ties
+   *  within a score are broken by this so a content-rich node outranks an empty
+   *  bare-name stub (e.g. "aemon targaryen" → Maester Aemon, not the empty bucket). */
+  prominence: number;
 }
 
 /**

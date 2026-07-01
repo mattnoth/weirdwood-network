@@ -52,6 +52,8 @@ GRAPH_NODES_DIR = REPO_ROOT / "graph/nodes"
 EDGES_FILE = REPO_ROOT / "graph/edges/edges.jsonl"
 OUTPUT_FILE = REPO_ROOT / "working/wiki/data/event-alias-lookup.json"
 ALL_NODES_OUTPUT_FILE = REPO_ROOT / "working/wiki/data/all-node-alias-lookup.json"
+WIKI_RAW_DIR = REPO_ROOT / "sources/wiki/_raw"
+NODES_JSON_FILE = REPO_ROOT / "web/data/nodes.json"
 
 # Fuzzy matching tuning
 # A candidate must have at least this fraction of the query tokens present in
@@ -422,6 +424,146 @@ def load_all_node_aliases() -> list[dict]:
                         "source": f"all-node-alias:{category}",
                         "raw": alias_phrase,
                     })
+
+    return entries
+
+
+# ---------------------------------------------------------------------------
+# Source 5 ("the "-epithet redirect backfill): "The <Epithet>" wiki redirects
+# ---------------------------------------------------------------------------
+
+_REDIRECT_TARGET_RE = re.compile(r'redirectText.*?title="([^"]+)"', re.DOTALL)
+
+
+def _unescape_html_entities(text: str) -> str:
+    return (
+        text.replace("&#039;", "'")
+        .replace("&amp;", "&")
+        .replace("&quot;", '"')
+    )
+
+
+def _kebab_slug_from_title(title: str) -> str:
+    """
+    Kebab-case a wiki page title the same way the project's node slugs are
+    minted (mirrors wiki-event-alias-harvester.py::slug_from_page_title).
+    """
+    slug = title.lower()
+    slug = re.sub(r"[''']", "", slug)
+    slug = re.sub(r"[^a-z0-9]+", "-", slug)
+    slug = slug.strip("-")
+    return slug
+
+
+def _extract_redirect_target(html: str) -> str | None:
+    """Return the redirect TARGET page title, or None if not a redirect page."""
+    if "redirectText" not in html and "redirectMsg" not in html:
+        return None
+    m = _REDIRECT_TARGET_RE.search(html)
+    if not m:
+        return None
+    return _unescape_html_entities(m.group(1))
+
+
+def load_the_redirect_aliases(
+    all_node_slugs: set[str] | None = None,
+    phrase_to_nodes: dict[str, list[dict]] | None = None,
+) -> list[dict]:
+    """
+    Harvest "The <Epithet>"-titled wiki redirect pages from sources/wiki/_raw/
+    and resolve each to a node slug, closing the "0 phrases start with 'the '"
+    alias gap (backfill-epithet-aliases.py, working/graph-cleanup/epithet-backfill-report.md).
+
+    For every "The_*.json" page in the local wiki cache that is a genuine
+    MediaWiki redirect (most are; ~121/792 are real content pages and are
+    skipped), resolves the redirect TARGET title to a node slug:
+      a. kebab-slug(target title) is itself a node slug in web/data/nodes.json, OR
+      b. the normalized target phrase already resolves in the all-node index
+         (transitively resolves chains like "The Hound" -> "Hound" -> sandor-clegane)
+    Unresolved targets are skipped (no guessing).
+
+    Returns entries in the same shape as the other all-node sources:
+      {alias, canonical_slug, node_category, node_type, source, raw}
+
+    all_node_slugs / phrase_to_nodes may be passed in to avoid re-reading the
+    same files this function would otherwise load itself (used by
+    build_and_save(), which already has both in hand).
+    """
+    if not WIKI_RAW_DIR.exists():
+        print(f"WARNING: {WIKI_RAW_DIR} not found — skipping the-redirect source",
+              file=sys.stderr)
+        return []
+
+    if all_node_slugs is None:
+        if not NODES_JSON_FILE.exists():
+            print(f"WARNING: {NODES_JSON_FILE} not found — skipping the-redirect source",
+                  file=sys.stderr)
+            return []
+        with NODES_JSON_FILE.open() as f:
+            all_node_slugs = set(json.load(f).keys())
+
+    if phrase_to_nodes is None:
+        phrase_to_nodes = {}
+        if ALL_NODES_OUTPUT_FILE.exists():
+            with ALL_NODES_OUTPUT_FILE.open() as f:
+                phrase_to_nodes = json.load(f).get("phrase_to_nodes", {})
+
+    # slug -> {node_category, node_type} lookup, built from whatever
+    # phrase_to_nodes candidates are available, for annotating direct hits.
+    node_meta_by_slug: dict[str, dict] = {}
+    for candidates in phrase_to_nodes.values():
+        for c in candidates:
+            s = c.get("canonical_slug")
+            if s and s not in node_meta_by_slug:
+                node_meta_by_slug[s] = {
+                    "node_category": c.get("node_category", ""),
+                    "node_type": c.get("node_type", ""),
+                }
+
+    entries: list[dict] = []
+
+    for path in sorted(WIKI_RAW_DIR.glob("The_*.json")):
+        try:
+            with path.open() as f:
+                d = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        page_title = d.get("page", path.stem.replace("_", " "))
+        html = d.get("html", "")
+
+        target_title = _extract_redirect_target(html)
+        if target_title is None:
+            continue  # not a redirect — a real content page, out of scope
+
+        resolved_slugs: list[str] = []
+
+        direct_slug = _kebab_slug_from_title(target_title)
+        if direct_slug in all_node_slugs:
+            resolved_slugs = [direct_slug]
+        else:
+            target_phrase = name_to_normalized(target_title)
+            candidates = phrase_to_nodes.get(target_phrase, [])
+            if candidates:
+                resolved_slugs = [c["canonical_slug"] for c in candidates]
+
+        if not resolved_slugs:
+            continue  # unresolved — skip, don't guess
+
+        redirect_phrase = normalize(page_title)
+        if not redirect_phrase:
+            continue
+
+        for slug in resolved_slugs:
+            meta = node_meta_by_slug.get(slug, {})
+            entries.append({
+                "alias": redirect_phrase,
+                "canonical_slug": slug,
+                "node_category": meta.get("node_category", ""),
+                "node_type": meta.get("node_type", ""),
+                "source": "wiki-the-redirect",
+                "raw": page_title,
+            })
 
     return entries
 
@@ -852,11 +994,50 @@ def build_and_save(verbose: bool = True) -> dict:
                 deduped.append(c)
         all_node_collapsed[phrase] = deduped
 
+    # --- Source 5: "The <Epithet>" wiki-redirect backfill (additive) ---
+    # Resolves against the all-node index just built above (in-memory, not the
+    # on-disk file — this makes the resolution transitive within a single build:
+    # e.g. "The Hound" -> "Hound" -> sandor-clegane, where "hound" -> sandor-clegane
+    # was itself just computed a few lines up).
+    if verbose:
+        print("\nLoading 'The <Epithet>' wiki-redirect aliases...")
+    node_slugs = set()
+    if NODES_JSON_FILE.exists():
+        with NODES_JSON_FILE.open() as f:
+            node_slugs = set(json.load(f).keys())
+    else:
+        print(f"WARNING: {NODES_JSON_FILE} not found — skipping the-redirect source",
+              file=sys.stderr)
+
+    the_redirect_entries = load_the_redirect_aliases(
+        all_node_slugs=node_slugs,
+        phrase_to_nodes=all_node_collapsed,
+    )
+    if verbose:
+        print(f"  {len(the_redirect_entries)} entries from sources/wiki/_raw/ 'The_*' redirects")
+
+    new_phrase_count = 0
+    for e in the_redirect_entries:
+        phrase = e["alias"]
+        slug = e["canonical_slug"]
+        existing = all_node_collapsed.setdefault(phrase, [])
+        if phrase not in all_node_by_phrase:
+            new_phrase_count += 1
+        if not any(c["canonical_slug"] == slug for c in existing):
+            existing.append({
+                "canonical_slug": slug,
+                "node_category": e.get("node_category", ""),
+                "node_type": e.get("node_type", ""),
+                "source": e["source"],
+            })
+    if verbose:
+        print(f"  {new_phrase_count} NEW phrases added to the all-node index")
+
     all_node_output = {
         "version": "v1",
         "computed_at": datetime.now(timezone.utc).isoformat(),
         "stats": {
-            "total_node_entries": len(all_node_entries_with_events),
+            "total_node_entries": len(all_node_entries_with_events) + len(the_redirect_entries),
             "unique_phrases": len(all_node_collapsed),
         },
         "phrase_to_nodes": all_node_collapsed,

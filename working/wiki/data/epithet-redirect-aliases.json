@@ -1,0 +1,3696 @@
+{
+  "computed_at": null,
+  "phrase_to_nodes": {
+    "abomination": [
+      {
+        "canonical_slug": "monster",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "abomination on the iron throne": [
+      {
+        "canonical_slug": "maegor-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "adventurers": [
+      {
+        "canonical_slug": "adventurers",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "andal": [
+      {
+        "canonical_slug": "jorah-mormont",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "annals of the black centaur": [
+      {
+        "canonical_slug": "annals-of-the-black-centaur",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "antlers": [
+      {
+        "canonical_slug": "antlers",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "anvil": [
+      {
+        "canonical_slug": "maekar-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "arbor": [
+      {
+        "canonical_slug": "arbor",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "arrow of jhahar": [
+      {
+        "canonical_slug": "xanda-qo",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "axe": [
+      {
+        "canonical_slug": "axe",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "barrowlands": [
+      {
+        "canonical_slug": "barrowlands",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard king": [
+      {
+        "canonical_slug": "addam-rivers",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of barrowton": [
+      {
+        "canonical_slug": "denys-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of bitterbridge": [
+      {
+        "canonical_slug": "tom-flowers",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of bolton": [
+      {
+        "canonical_slug": "ramsay-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of bronzegate": [
+      {
+        "canonical_slug": "cedrik-storm",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of cider hall": [
+      {
+        "canonical_slug": "franklyn-flowers",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of cornfield": [
+      {
+        "canonical_slug": "addison-hill",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of driftmark": [
+      {
+        "canonical_slug": "aurane-waters",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of flint's finger": [
+      {
+        "canonical_slug": "timotty-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of lannisport": [
+      {
+        "canonical_slug": "emory-hill",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of the dreadfort": [
+      {
+        "canonical_slug": "ramsay-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bastard of winterfell": [
+      {
+        "canonical_slug": "jon-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bay of ice": [
+      {
+        "canonical_slug": "bay-of-ice",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bear, the bear, the maiden fair": [
+      {
+        "canonical_slug": "the-bear-and-the-maiden-fair",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "beastmaster": [
+      {
+        "canonical_slug": "beastmaster",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "beggar king": [
+      {
+        "canonical_slug": "viserys-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "big man": [
+      {
+        "canonical_slug": "archibald-yronwood",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bite": [
+      {
+        "canonical_slug": "bite",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black bastard of the wall": [
+      {
+        "canonical_slug": "jon-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black cliffs": [
+      {
+        "canonical_slug": "black-cliffs",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black dragon": [
+      {
+        "canonical_slug": "house-blackfyre",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black dread": [
+      {
+        "canonical_slug": "balerion",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black gate": [
+      {
+        "canonical_slug": "nightfort",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black goat": [
+      {
+        "canonical_slug": "black-goat",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black shepherd": [
+      {
+        "canonical_slug": "daegon-shepherd",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black swan": [
+      {
+        "canonical_slug": "johanna-swann",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blackfish": [
+      {
+        "canonical_slug": "brynden-tully",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blacks": [
+      {
+        "canonical_slug": "blacks",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blind bastard": [
+      {
+        "canonical_slug": "roro-uhoris",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blind bownman": [
+      {
+        "canonical_slug": "alan-o-the-oak",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blind girl": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-45",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blind god": [
+      {
+        "canonical_slug": "boash",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blind king": [
+      {
+        "canonical_slug": "garrison-fowler",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blood wyrm": [
+      {
+        "canonical_slug": "caraxes",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bloodroyal": [
+      {
+        "canonical_slug": "bloodroyal",
+        "node_category": "titles",
+        "node_type": "title",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bloody maester": [
+      {
+        "canonical_slug": "qyburn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blue lantern": [
+      {
+        "canonical_slug": "blue-lantern",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "blue queen": [
+      {
+        "canonical_slug": "tessarion",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bones": [
+      {
+        "canonical_slug": "bones",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "book of brothers": [
+      {
+        "canonical_slug": "white-book",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "book of the brothers": [
+      {
+        "canonical_slug": "white-book",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "boy king": [
+      {
+        "canonical_slug": "tommen-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "boy too bold by half": [
+      {
+        "canonical_slug": "lo-bu",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "boy wolf": [
+      {
+        "canonical_slug": "robb-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bright prince": [
+      {
+        "canonical_slug": "aerion-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "broken branch": [
+      {
+        "canonical_slug": "broken-branch",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "broken gods": [
+      {
+        "canonical_slug": "vojjor-samvi",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "broken king": [
+      {
+        "canonical_slug": "aegon-iii-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bronze fury": [
+      {
+        "canonical_slug": "vermithor",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bronze giant": [
+      {
+        "canonical_slug": "gunthor-royce",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "brown dragon": [
+      {
+        "canonical_slug": "daemon-ii-blackfyre",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "brute of bracken": [
+      {
+        "canonical_slug": "otho-bracken",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "bull": [
+      {
+        "canonical_slug": "gendry",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "butcher": [
+      {
+        "canonical_slug": "list-of-characters-created-for-the-cyanide-game",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "butcher boy": [
+      {
+        "canonical_slug": "durran-durrandon-the-young",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "butcher king": [
+      {
+        "canonical_slug": "cleon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "cannibal": [
+      {
+        "canonical_slug": "cannibal-dragon",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "cannibals": [
+      {
+        "canonical_slug": "adakhakileki",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "captain of guards": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-2",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "cat of misty moor": [
+      {
+        "canonical_slug": "kyle-the-cat",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "cats": [
+      {
+        "canonical_slug": "company-of-the-cat",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "charioteer": [
+      {
+        "canonical_slug": "charioteer",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "choice is yours": [
+      {
+        "canonical_slug": "house-lonmouth",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "chronicles of maidenpool": [
+      {
+        "canonical_slug": "chronicles-of-maidenpool",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "clubfoot": [
+      {
+        "canonical_slug": "larys-strong",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "collector": [
+      {
+        "canonical_slug": "list-of-characters-created-for-the-cyanide-game",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "conciliator": [
+      {
+        "canonical_slug": "jaehaerys-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "conquest": [
+      {
+        "canonical_slug": "aegons-conquest",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "crab king": [
+      {
+        "canonical_slug": "crab-king",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "crabfeeder": [
+      {
+        "canonical_slug": "craghas-drahar",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "crag": [
+      {
+        "canonical_slug": "crag",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "crone": [
+      {
+        "canonical_slug": "crone-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "crossing": [
+      {
+        "canonical_slug": "twins",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "crow's eye": [
+      {
+        "canonical_slug": "euron-greyjoy",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "crownlands": [
+      {
+        "canonical_slug": "crownlands",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "cunny king": [
+      {
+        "canonical_slug": "gaemon-palehair",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "damphair": [
+      {
+        "canonical_slug": "aeron-greyjoy",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dance": [
+      {
+        "canonical_slug": "dance-of-the-dragons",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dance of dragons, a true telling": [
+      {
+        "canonical_slug": "the-dance-of-the-dragons-a-true-telling",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dance of the dragons (song)": [
+      {
+        "canonical_slug": "the-dance-of-the-dragons",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dark lord": [
+      {
+        "canonical_slug": "stannis-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "death of dragons": [
+      {
+        "canonical_slug": "blood-and-fire",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "demon road": [
+      {
+        "canonical_slug": "demon-road",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "discarded knight": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-59",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "disputed lands": [
+      {
+        "canonical_slug": "disputed-lands",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "doom": [
+      {
+        "canonical_slug": "doom-of-valyria",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dothraki sea": [
+      {
+        "canonical_slug": "dothraki-sea",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dragon of the north": [
+      {
+        "canonical_slug": "dhako",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dragon queen": [
+      {
+        "canonical_slug": "daenerys-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dragonknight": [
+      {
+        "canonical_slug": "aemon-targaryen-son-of-viserys-ii",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dragontamer": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-68",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dreadfort": [
+      {
+        "canonical_slug": "dreadfort",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "drowned god": [
+      {
+        "canonical_slug": "drowned-god",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "drowned man": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-19",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "drunken conqueror": [
+      {
+        "canonical_slug": "morghaz-zo-zherzyn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "drunken giant": [
+      {
+        "canonical_slug": "harmond-umber",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dry deep": [
+      {
+        "canonical_slug": "dry-deep",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "east": [
+      {
+        "canonical_slug": "essos",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "ebon prince": [
+      {
+        "canonical_slug": "xhobar-qhoqua",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "ember": [
+      {
+        "canonical_slug": "thoros",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "empire": [
+      {
+        "canonical_slug": "old-empire-of-ghis",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "enormity that rides": [
+      {
+        "canonical_slug": "gregor-clegane",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "even younger prince": [
+      {
+        "canonical_slug": "matarys-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "evenstar": [
+      {
+        "canonical_slug": "selwyn-tarth",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "eyrie": [
+      {
+        "canonical_slug": "eyrie",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "faith": [
+      {
+        "canonical_slug": "faith-of-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "faith of the seven": [
+      {
+        "canonical_slug": "faith-of-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "falcon knight": [
+      {
+        "canonical_slug": "artys-i-arryn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "fat flower": [
+      {
+        "canonical_slug": "mace-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "fat flower of highgarden": [
+      {
+        "canonical_slug": "mace-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "father": [
+      {
+        "canonical_slug": "father-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "father above": [
+      {
+        "canonical_slug": "father-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "fighting fool": [
+      {
+        "canonical_slug": "rupert-falwell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "fist": [
+      {
+        "canonical_slug": "fist-of-the-first-men",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "five forts": [
+      {
+        "canonical_slug": "five-forts",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "flatlands": [
+      {
+        "canonical_slug": "flatlands",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "flint": [
+      {
+        "canonical_slug": "torghen-flint",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "footprint": [
+      {
+        "canonical_slug": "kingdom-of-the-ifequevron",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "forsaken": [
+      {
+        "canonical_slug": "the-forsaken-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "free company": [
+      {
+        "canonical_slug": "free-company-sellsword-company",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "freehold": [
+      {
+        "canonical_slug": "valyrian-freehold",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "frostfangs": [
+      {
+        "canonical_slug": "frostfangs",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "frozen shore": [
+      {
+        "canonical_slug": "frozen-shore",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "gallows knight": [
+      {
+        "canonical_slug": "duncan-the-tall",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "gate": [
+      {
+        "canonical_slug": "gate-playhouse",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "gates": [
+      {
+        "canonical_slug": "gates-of-the-moon",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "giant of the trident": [
+      {
+        "canonical_slug": "giant-of-the-trident",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "giant's stair": [
+      {
+        "canonical_slug": "giants-stair",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "giants lance": [
+      {
+        "canonical_slug": "giants-lance",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "giants stair": [
+      {
+        "canonical_slug": "giants-stair",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "gift of mercy": [
+      {
+        "canonical_slug": "the-gift-of-mercy",
+        "node_category": "concepts",
+        "node_type": "concept",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "gilded falcon": [
+      {
+        "canonical_slug": "isembard-arryn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "girl general": [
+      {
+        "canonical_slug": "malazza",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "giver of pain": [
+      {
+        "canonical_slug": "saagael",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "glittering god": [
+      {
+        "canonical_slug": "mengo-quen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "goat": [
+      {
+        "canonical_slug": "goat",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "goldroad": [
+      {
+        "canonical_slug": "goldroad",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "gorge": [
+      {
+        "canonical_slug": "gorge",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "great lord snow": [
+      {
+        "canonical_slug": "jon-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "great other": [
+      {
+        "canonical_slug": "great-other",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "great pyramid": [
+      {
+        "canonical_slug": "great-pyramid",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "great ranging": [
+      {
+        "canonical_slug": "great-ranging",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "great spring sickness": [
+      {
+        "canonical_slug": "great-spring-sickness",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "great walrus": [
+      {
+        "canonical_slug": "great-walrus",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "greatjon": [
+      {
+        "canonical_slug": "jon-umber",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "green oak": [
+      {
+        "canonical_slug": "olyvar-oakheart",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "green queen": [
+      {
+        "canonical_slug": "green-queen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "greens": [
+      {
+        "canonical_slug": "greens",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "grey cliffs": [
+      {
+        "canonical_slug": "grey-cliffs",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "grey giant": [
+      {
+        "canonical_slug": "argoth-stone-skin",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "greyjoy rebellion": [
+      {
+        "canonical_slug": "greyjoys-rebellion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "griffin reborn": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-61",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "half-year queen": [
+      {
+        "canonical_slug": "rhaenyra-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "halfhand": [
+      {
+        "canonical_slug": "qhorin-halfhand",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "halfmaester": [
+      {
+        "canonical_slug": "haldon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hammer": [
+      {
+        "canonical_slug": "baelor-targaryen-son-of-daeron-ii",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hammer and anvil": [
+      {
+        "canonical_slug": "the-hammer-and-the-anvil",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hammer of justice": [
+      {
+        "canonical_slug": "tristifer-iv-mudd",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hand's tourney": [
+      {
+        "canonical_slug": "the-hands-tourney",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hanged man": [
+      {
+        "canonical_slug": "duncan-the-tall",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hangwoman": [
+      {
+        "canonical_slug": "catelyn-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hardhand": [
+      {
+        "canonical_slug": "harwyn-hoare",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "harpy": [
+      {
+        "canonical_slug": "harpy",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "harpy/theories": [
+      {
+        "canonical_slug": "harpy-theories",
+        "node_category": "theories",
+        "node_type": "concept.theory",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "haunted forest": [
+      {
+        "canonical_slug": "haunted-forest",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "high and low": [
+      {
+        "canonical_slug": "a-caution-for-young-girls",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "holy fool": [
+      {
+        "canonical_slug": "alton-greyjoy",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hook": [
+      {
+        "canonical_slug": "hook",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "horned lord": [
+      {
+        "canonical_slug": "horned-lord",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hornwood": [
+      {
+        "canonical_slug": "hornwood-forest",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hound": [
+      {
+        "canonical_slug": "sandor-clegane",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "house with the red door in braavos": [
+      {
+        "canonical_slug": "house-with-the-red-door",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "hungry wolf": [
+      {
+        "canonical_slug": "theon-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "ice dragon (novel)": [
+      {
+        "canonical_slug": "ice-dragon",
+        "node_category": "species",
+        "node_type": "species",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "identity of the valonqar/theories": [
+      {
+        "canonical_slug": "valonqar-theories",
+        "node_category": "theories",
+        "node_type": "concept.theory",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "imp": [
+      {
+        "canonical_slug": "tyrion-lannister",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "iron bank of braavos": [
+      {
+        "canonical_slug": "iron-bank-of-braavos",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "iron captain": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-18",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "iron chronicle": [
+      {
+        "canonical_slug": "iron-chronicle",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "iron islands": [
+      {
+        "canonical_slug": "iron-islands",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "iron suitor": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-56",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "iron throne": [
+      {
+        "canonical_slug": "iron-throne",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "iron-banger": [
+      {
+        "canonical_slug": "harmon-of-the-reeds",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king at the wall": [
+      {
+        "canonical_slug": "stannis-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king in highgarden": [
+      {
+        "canonical_slug": "renly-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king in the narrow sea": [
+      {
+        "canonical_slug": "stannis-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king in the south": [
+      {
+        "canonical_slug": "renly-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king of dragonstone": [
+      {
+        "canonical_slug": "stannis-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king of seals": [
+      {
+        "canonical_slug": "casso",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king of the painted table": [
+      {
+        "canonical_slug": "stannis-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king who bore the sword": [
+      {
+        "canonical_slug": "daemon-i-blackfyre",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king who knelt": [
+      {
+        "canonical_slug": "torrhen-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king who lost the north": [
+      {
+        "canonical_slug": "robb-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king's prize": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-42",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "king's spider": [
+      {
+        "canonical_slug": "varys",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "kingbreaker": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-67",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "kingmaker": [
+      {
+        "canonical_slug": "criston-cole",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "kingsroad": [
+      {
+        "canonical_slug": "kingsroad",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "knight of flowers": [
+      {
+        "canonical_slug": "loras-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "knight of kisses": [
+      {
+        "canonical_slug": "joffrey-lonmouth",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "knight of tears": [
+      {
+        "canonical_slug": "aemon-targaryen-son-of-viserys-ii",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "knight of the flowers": [
+      {
+        "canonical_slug": "loras-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "knight of the pussywillows": [
+      {
+        "canonical_slug": "glendon-flowers",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "kraken's daughter": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-11",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lace serpent": [
+      {
+        "canonical_slug": "serala-of-myr",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "last hearth": [
+      {
+        "canonical_slug": "last-hearth",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "late lord frey": [
+      {
+        "canonical_slug": "walder-frey",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "laughing lion": [
+      {
+        "canonical_slug": "tytos-lannister",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "laughing storm": [
+      {
+        "canonical_slug": "lyonel-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "leech lord": [
+      {
+        "canonical_slug": "roose-bolton",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lightning lord": [
+      {
+        "canonical_slug": "beric-dondarrion",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lineages and histories": [
+      {
+        "canonical_slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lineages and histories of the great houses of the seven kingdoms, with descriptions of many high lords and noble ladies and their children": [
+      {
+        "canonical_slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lion king": [
+      {
+        "canonical_slug": "tommen-ii-lannister",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lion of lannister": [
+      {
+        "canonical_slug": "jaime-lannister",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lists": [
+      {
+        "canonical_slug": "martial-games",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "little lion": [
+      {
+        "canonical_slug": "wilbert-osgrey",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "little pigeon": [
+      {
+        "canonical_slug": "paezhar-zo-myraq",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lives of four kings": [
+      {
+        "canonical_slug": "lives-of-four-kings",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "long barrow": [
+      {
+        "canonical_slug": "long-barrow",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "long night": [
+      {
+        "canonical_slug": "long-night",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "longinch": [
+      {
+        "canonical_slug": "lucas-inchfield",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "longthorn": [
+      {
+        "canonical_slug": "leo-tyrell-longthorn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lord of air": [
+      {
+        "canonical_slug": "rego-draz",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lord of bones": [
+      {
+        "canonical_slug": "lord-of-bones",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lord of corpses": [
+      {
+        "canonical_slug": "beric-dondarrion",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lord of misrule": [
+      {
+        "canonical_slug": "tytos-lannister",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lord who left": [
+      {
+        "canonical_slug": "aenar-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "lost lord": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-24",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mad bard": [
+      {
+        "canonical_slug": "marq-mudd",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mad heir": [
+      {
+        "canonical_slug": "arnold-arryn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mad huntsman": [
+      {
+        "canonical_slug": "mad-huntsman",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mad king": [
+      {
+        "canonical_slug": "aerys-ii-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mad maid": [
+      {
+        "canonical_slug": "malora-hightower",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mad mouse": [
+      {
+        "canonical_slug": "shadrich",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mage": [
+      {
+        "canonical_slug": "marwyn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "maid": [
+      {
+        "canonical_slug": "maiden-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "maid of tarth": [
+      {
+        "canonical_slug": "brienne-tarth",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "maiden": [
+      {
+        "canonical_slug": "maiden-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "maiden of the tree": [
+      {
+        "canonical_slug": "oh-lay-my-sweet-lass-down-in-the-grass",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "maids that bloom in spring": [
+      {
+        "canonical_slug": "the-maids-that-bloom-in-spring",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "merchant's man": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-6",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "moon king": [
+      {
+        "canonical_slug": "walton-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "most fair": [
+      {
+        "canonical_slug": "maris-the-maid",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mother": [
+      {
+        "canonical_slug": "mother-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mother's hymn": [
+      {
+        "canonical_slug": "mother-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mountain": [
+      {
+        "canonical_slug": "gregor-clegane",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mountain that rides": [
+      {
+        "canonical_slug": "gregor-clegane",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "mummer's ship": [
+      {
+        "canonical_slug": "ship-playhouse",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "neck": [
+      {
+        "canonical_slug": "neck",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "ned": [
+      {
+        "canonical_slug": "eddard-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "new gift": [
+      {
+        "canonical_slug": "gift",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "night's king": [
+      {
+        "canonical_slug": "nights-king",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "nightfort": [
+      {
+        "canonical_slug": "nightfort",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "norrey": [
+      {
+        "canonical_slug": "brandon-norrey",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "north": [
+      {
+        "canonical_slug": "north",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "northman's daughter": [
+      {
+        "canonical_slug": "the-dornishmans-wife",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old bear": [
+      {
+        "canonical_slug": "jeor-mormont",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old falcon": [
+      {
+        "canonical_slug": "osgood-arryn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old hawk": [
+      {
+        "canonical_slug": "franklyn-fowler",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old king": [
+      {
+        "canonical_slug": "jaehaerys-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old kraken": [
+      {
+        "canonical_slug": "loron-greyjoy",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old man of the north": [
+      {
+        "canonical_slug": "cregan-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old mother": [
+      {
+        "canonical_slug": "old-mother",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old pomegranate": [
+      {
+        "canonical_slug": "bowen-marsh",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "old, the true, the brave": [
+      {
+        "canonical_slug": "house-velaryon",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "one after the fat one": [
+      {
+        "canonical_slug": "high-septon-tyrions",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "onion knight": [
+      {
+        "canonical_slug": "davos-seaworth",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "other": [
+      {
+        "canonical_slug": "great-other",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "others": [
+      {
+        "canonical_slug": "others",
+        "node_category": "species",
+        "node_type": "species",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "pale child": [
+      {
+        "canonical_slug": "bakkalon",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "pander": [
+      {
+        "canonical_slug": "lucas-lothston-father-of-manfryd",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "paps": [
+      {
+        "canonical_slug": "paps",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "peasant king": [
+      {
+        "canonical_slug": "pate-of-fairmarket",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "perfumed hero": [
+      {
+        "canonical_slug": "perfumed-hero",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "piper": [
+      {
+        "canonical_slug": "tickler",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "point": [
+      {
+        "canonical_slug": "crackclaw-point",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "pretender": [
+      {
+        "canonical_slug": "daemon-i-blackfyre",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince of dragonflies": [
+      {
+        "canonical_slug": "duncan-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince of dragonstone": [
+      {
+        "canonical_slug": "maegor-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince of sorrows": [
+      {
+        "canonical_slug": "shrouded-lord",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince of stink": [
+      {
+        "canonical_slug": "theon-greyjoy",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince of tatters": [
+      {
+        "canonical_slug": "tattered-prince",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince of winterfell": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-37",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince who came too late": [
+      {
+        "canonical_slug": "quentyn-martell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince who thought he was a dragon": [
+      {
+        "canonical_slug": "aerion-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince who was an egg": [
+      {
+        "canonical_slug": "aegon-v-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prince who was promised": [
+      {
+        "canonical_slug": "the-prince-that-was-promised",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "princess in the tower": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-40",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "prophet": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-1",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "queen of thornes": [
+      {
+        "canonical_slug": "olenna-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "queen of thorns": [
+      {
+        "canonical_slug": "olenna-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "queen who never was": [
+      {
+        "canonical_slug": "rhaenys-targaryen-daughter-of-aemon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "queen's hand": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-70",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "queen's monster": [
+      {
+        "canonical_slug": "drogon",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "queenmaker": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-21",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "queensguard": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-55",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rabbit": [
+      {
+        "canonical_slug": "faezhar-zo-faez",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rad lamb": [
+      {
+        "canonical_slug": "red-lamb",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rat, the hawk and the pig": [
+      {
+        "canonical_slug": "the-rat-the-hawk-and-the-pig",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "reach": [
+      {
+        "canonical_slug": "reach",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "reader": [
+      {
+        "canonical_slug": "rodrik-harlaw",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "realm's delight": [
+      {
+        "canonical_slug": "rhaenyra-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "reaver": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-29",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red": [
+      {
+        "canonical_slug": "drogos-stallion",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red book": [
+      {
+        "canonical_slug": "red-book",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red bull": [
+      {
+        "canonical_slug": "aquan-the-red-bull",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red crab": [
+      {
+        "canonical_slug": "ardrian-celtigar",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red dog": [
+      {
+        "canonical_slug": "joffrey-doggett",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red dog of the hills": [
+      {
+        "canonical_slug": "joffrey-doggett",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red door": [
+      {
+        "canonical_slug": "house-with-the-red-door",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red dragon": [
+      {
+        "canonical_slug": "house-targaryen",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red keep": [
+      {
+        "canonical_slug": "red-keep",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red kraken": [
+      {
+        "canonical_slug": "dalton-greyjoy",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red lamb": [
+      {
+        "canonical_slug": "red-lamb",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red queen": [
+      {
+        "canonical_slug": "meleys",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red viper": [
+      {
+        "canonical_slug": "oberyn-martell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red wedding": [
+      {
+        "canonical_slug": "red-wedding",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "redarm": [
+      {
+        "canonical_slug": "royce-iv-bolton",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "redfort": [
+      {
+        "canonical_slug": "redfort",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "redhand": [
+      {
+        "canonical_slug": "urron-greyiron",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rills": [
+      {
+        "canonical_slug": "rills",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "riverlands": [
+      {
+        "canonical_slug": "riverlands",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rock": [
+      {
+        "canonical_slug": "casterly-rock",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rogue prince, or, a king's brother (by archmaester gyldayn)": [
+      {
+        "canonical_slug": "the-rogue-prince-or-a-kings-brother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rogue prince, or, a king's brother: a consideration of the early life, adventures, misdeeds, and marriages of prince daemon targaryen": [
+      {
+        "canonical_slug": "the-rogue-prince-or-a-kings-brother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "roseroad": [
+      {
+        "canonical_slug": "roseroad",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sacrifice": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-62",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sand snakes": [
+      {
+        "canonical_slug": "sand-snakes",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "scarlet shadow": [
+      {
+        "canonical_slug": "jonquil-darke",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sea lion": [
+      {
+        "canonical_slug": "lymond-hightower",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sea of sighs": [
+      {
+        "canonical_slug": "sea-of-sighs",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sealord's palace": [
+      {
+        "canonical_slug": "sealords-palace",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "searoad": [
+      {
+        "canonical_slug": "ocean-road",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "serpent in scarlet": [
+      {
+        "canonical_slug": "jonquil-darke",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "seven": [
+      {
+        "canonical_slug": "faith-of-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "shadow": [
+      {
+        "canonical_slug": "shadow-lands",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "shadow tower": [
+      {
+        "canonical_slug": "shadow-tower",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "shavepate": [
+      {
+        "canonical_slug": "skahaz-mo-kandaq",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "she-bear": [
+      {
+        "canonical_slug": "maege-mormont",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "she-wolf": [
+      {
+        "canonical_slug": "lyanna-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sheepshead hills": [
+      {
+        "canonical_slug": "sheepshead-hills",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "ship": [
+      {
+        "canonical_slug": "ship-playhouse",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "shivering sea": [
+      {
+        "canonical_slug": "shivering-sea",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "shrike": [
+      {
+        "canonical_slug": "shrike",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "shy maid\u2019s dragonlore": [
+      {
+        "canonical_slug": "tyrion-lannisters-dragonlore",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "silent sister": [
+      {
+        "canonical_slug": "catelyn-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "silver": [
+      {
+        "canonical_slug": "silver-mare",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "silver fool": [
+      {
+        "canonical_slug": "baelon-targaryen-son-of-jaehaerys-i",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "silver queen": [
+      {
+        "canonical_slug": "daenerys-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "singing stones": [
+      {
+        "canonical_slug": "singing-stones",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sisterman": [
+      {
+        "canonical_slug": "lark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sisters": [
+      {
+        "canonical_slug": "three-sisters",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "skirling pass": [
+      {
+        "canonical_slug": "skirling-pass",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "smalljon": [
+      {
+        "canonical_slug": "jon-umber-son-of-jon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "smith": [
+      {
+        "canonical_slug": "smith-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "smoking sea": [
+      {
+        "canonical_slug": "smoking-sea",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "snake": [
+      {
+        "canonical_slug": "corlys-velaryon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "snow of winterfell": [
+      {
+        "canonical_slug": "jon-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "softspear": [
+      {
+        "canonical_slug": "josua-massey",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "soiled knight": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-13",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "song of ice and fire": [
+      {
+        "canonical_slug": "the-song-of-ice-and-fire",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sons of the mist": [
+      {
+        "canonical_slug": "sons-of-the-mist",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sorrows": [
+      {
+        "canonical_slug": "sorrows",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sphinx": [
+      {
+        "canonical_slug": "alleras",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "spider": [
+      {
+        "canonical_slug": "varys",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "spotted cat": [
+      {
+        "canonical_slug": "spotted-cat",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "spring": [
+      {
+        "canonical_slug": "great-spring-sickness",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "spring prince": [
+      {
+        "canonical_slug": "baelon-targaryen-son-of-jaehaerys-i",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "spurned suitor": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-60",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "squirrel": [
+      {
+        "canonical_slug": "geoff",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "starfire": [
+      {
+        "canonical_slug": "samwell-dayne",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "stepstones": [
+      {
+        "canonical_slug": "stepstones",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "stoney shore": [
+      {
+        "canonical_slug": "stony-shore",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "stony shore": [
+      {
+        "canonical_slug": "stony-shore",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "stormlands": [
+      {
+        "canonical_slug": "stormlands",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "stranger": [
+      {
+        "canonical_slug": "stranger-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "strangler": [
+      {
+        "canonical_slug": "strangler",
+        "node_category": "medical",
+        "node_type": "concept.medical",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "substance": [
+      {
+        "canonical_slug": "wildfire",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "summer sea": [
+      {
+        "canonical_slug": "summer-sea",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "sun of winter": [
+      {
+        "canonical_slug": "house-karstark",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "talon": [
+      {
+        "canonical_slug": "oswin-arryn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "tattered prince": [
+      {
+        "canonical_slug": "tattered-prince",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "thousand islands": [
+      {
+        "canonical_slug": "thousand-islands",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "three exiles": [
+      {
+        "canonical_slug": "three-exiles",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "three sisters": [
+      {
+        "canonical_slug": "three-sisters",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "thunderbolt": [
+      {
+        "canonical_slug": "tybolt-lannister-king",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "tickler": [
+      {
+        "canonical_slug": "tickler",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "titan of braavos": [
+      {
+        "canonical_slug": "titan-of-braavos",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "titan's bastard": [
+      {
+        "canonical_slug": "mero",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "toothless lion": [
+      {
+        "canonical_slug": "tytos-lannister",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "tor": [
+      {
+        "canonical_slug": "tor",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "torches": [
+      {
+        "canonical_slug": "torches",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "trident": [
+      {
+        "canonical_slug": "trident",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "turncloak": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-41",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "twins": [
+      {
+        "canonical_slug": "twins",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "ugly little girl": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-64",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "unburnt king": [
+      {
+        "canonical_slug": "mance-rayder",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "uncrowned king": [
+      {
+        "canonical_slug": "aegon-iii-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "usurper": [
+      {
+        "canonical_slug": "robert-i-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "vale": [
+      {
+        "canonical_slug": "vale-of-arryn",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "vale of arryn": [
+      {
+        "canonical_slug": "vale-of-arryn",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "vole": [
+      {
+        "canonical_slug": "rodrik-sparr",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wall": [
+      {
+        "canonical_slug": "wall",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wandering wolf": [
+      {
+        "canonical_slug": "rodrik-stark-son-of-beron",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "war of the usurper": [
+      {
+        "canonical_slug": "roberts-rebellion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "warg king": [
+      {
+        "canonical_slug": "warg-king",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "warrior": [
+      {
+        "canonical_slug": "warrior-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "watcher": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-38",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wayward bride": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-26",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "weeper": [
+      {
+        "canonical_slug": "weeper",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "weeping man": [
+      {
+        "canonical_slug": "weeper",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "westerlands": [
+      {
+        "canonical_slug": "westerlands",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "whispers": [
+      {
+        "canonical_slug": "whispers",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "white book": [
+      {
+        "canonical_slug": "white-book",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "white bull": [
+      {
+        "canonical_slug": "gerold-hightower",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "white owl": [
+      {
+        "canonical_slug": "michael-mertyns",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "white worm": [
+      {
+        "canonical_slug": "mysaria",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "whore": [
+      {
+        "canonical_slug": "whore-weapon",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wickedness of men": [
+      {
+        "canonical_slug": "a-caution-for-young-girls",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "widow-lover": [
+      {
+        "canonical_slug": "wyl-of-wyl",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wild wolf": [
+      {
+        "canonical_slug": "brandon-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wildfire plot": [
+      {
+        "canonical_slug": "wildfire-plot",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wildling prince": [
+      {
+        "canonical_slug": "aemon-steelsong",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wind our steed": [
+      {
+        "canonical_slug": "house-farman",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "windblown": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-25",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-aeron": [
+      {
+        "canonical_slug": "the-forsaken-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-alayne i": [
+      {
+        "canonical_slug": "alayne-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-arianne i": [
+      {
+        "canonical_slug": "arianne-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-arianne ii": [
+      {
+        "canonical_slug": "arianne-ii-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-barristan i": [
+      {
+        "canonical_slug": "barristan-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-barristan ii": [
+      {
+        "canonical_slug": "barristan-ii-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-mercy": [
+      {
+        "canonical_slug": "mercy-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-the forsaken": [
+      {
+        "canonical_slug": "the-forsaken-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-theon i": [
+      {
+        "canonical_slug": "theon-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-tyrion ii": [
+      {
+        "canonical_slug": "tyrion-ii-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-victarion i": [
+      {
+        "canonical_slug": "victarion-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wolf maid": [
+      {
+        "canonical_slug": "lyanna-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wolfswood": [
+      {
+        "canonical_slug": "wolfswood",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "world of ice and fire (yandel)": [
+      {
+        "canonical_slug": "the-world-of-ice-fire-yandel",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wull": [
+      {
+        "canonical_slug": "hugo-wull",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "wyl of wyl": [
+      {
+        "canonical_slug": "wyl-of-wyl",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "yellow whale": [
+      {
+        "canonical_slug": "yezzan-zo-qaggaz",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "young dragon": [
+      {
+        "canonical_slug": "daeron-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "young king": [
+      {
+        "canonical_slug": "viserys-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "young lion": [
+      {
+        "canonical_slug": "jaime-lannister",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "young prince": [
+      {
+        "canonical_slug": "valarr-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "young usurper": [
+      {
+        "canonical_slug": "joffrey-baratheon",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "young wolf": [
+      {
+        "canonical_slug": "robb-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ]
+  },
+  "stats": {
+    "new_phrases_not_in_prior_index": 111,
+    "non_redirect_the_pages_skipped": 121,
+    "pages_scanned_the_star": 792,
+    "redirect_pages_total": 671,
+    "resolved_via_existing_index": 5,
+    "resolved_via_node_direct": 455,
+    "total_phrases_emitted": 460,
+    "unresolved": 211
+  },
+  "version": "v1"
+}

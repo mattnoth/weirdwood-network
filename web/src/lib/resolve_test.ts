@@ -44,3 +44,21 @@ Deno.test("resolve: invalid / empty input returns []", () => {
 Deno.test("resolve: pure gibberish returns no candidates", () => {
   assert.deepEqual(resolve("zzzqqq xkcdwobble", data), []);
 });
+
+Deno.test("resolve: prominence ranks a content-rich node above an empty bare-name stub", () => {
+  // "aemon targaryen" is a shared name: it maps to Maester Aemon
+  // (aemon-targaryen-son-of-maekar-i, 16 quotes) AND the empty bare bucket
+  // (aemon-targaryen, 0 quotes). Both are exact hits at score 1.0; prominence
+  // must surface the real character first.
+  const hits = resolve("Aemon Targaryen", data);
+  const maester = hits.findIndex((h) => h.slug === "aemon-targaryen-son-of-maekar-i");
+  const bare = hits.findIndex((h) => h.slug === "aemon-targaryen");
+  assert.ok(maester !== -1, "Maester Aemon must be among candidates");
+  assert.ok(bare !== -1, "the bare aemon-targaryen bucket must be among candidates");
+  assert.ok(maester < bare, "Maester Aemon (rich) must outrank the empty bare stub");
+  assert.equal(hits[0].slug, "aemon-targaryen-son-of-maekar-i", "the rich node leads");
+  assert.ok(
+    hits[0].prominence > hits[bare].prominence,
+    "leader's prominence exceeds the empty stub's",
+  );
+});

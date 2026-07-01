@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-28T17:40:58.422500+00:00",
+  "computed_at": "2026-07-01T06:49:12.586922+00:00",
   "phrase_to_nodes": {
     "\"aegon targaryen\"": [
       {
@@ -1019,6 +1019,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-name:characters"
+      }
+    ],
+    "aemon targaryen dies at sea": [
+      {
+        "canonical_slug": "death-of-maester-aemon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "aemon targaryen son of jaehaerys i": [
@@ -3831,6 +3839,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "xanda-qo",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "arry": [
@@ -5965,6 +5979,14 @@
         "source": "all-node-name:theories"
       }
     ],
+    "bastard of barrowton": [
+      {
+        "canonical_slug": "denys-snow",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "bastard of beesbury": [
       {
         "canonical_slug": "dickon-flowers",
@@ -6973,6 +6995,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "bear, the bear, the maiden fair": [
+      {
+        "canonical_slug": "the-bear-and-the-maiden-fair",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "bear-paws": [
       {
         "canonical_slug": "bear-paws",
@@ -7099,6 +7129,14 @@
         "node_category": "species",
         "node_type": "species",
         "source": "all-node-slug:species"
+      }
+    ],
+    "beef": [
+      {
+        "canonical_slug": "beef",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "beer": [
@@ -8553,6 +8591,20 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "house-blackfyre",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "black dread": [
+      {
+        "canonical_slug": "balerion",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
       }
     ],
     "black ears": [
@@ -8593,6 +8645,12 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      },
+      {
+        "canonical_slug": "nightfort",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "black gerrold": [
@@ -9205,6 +9263,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "blind bownman": [
+      {
+        "canonical_slug": "alan-o-the-oak",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "blind doss": [
       {
         "canonical_slug": "blind-doss",
@@ -9219,6 +9285,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-45",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "blind girl's training": [
@@ -9227,6 +9299,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "blind god": [
+      {
+        "canonical_slug": "boash",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "blind jon hogg": [
@@ -9731,6 +9811,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "boiled beef": [
+      {
+        "canonical_slug": "beef",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "bokkoko": [
       {
         "canonical_slug": "bokkoko",
@@ -9883,6 +9971,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "book of brothers": [
+      {
+        "canonical_slug": "white-book",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "book of holy prayer": [
       {
         "canonical_slug": "the-book-of-holy-prayer",
@@ -9897,6 +9993,14 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-slug:texts"
+      }
+    ],
+    "book of the brothers": [
+      {
+        "canonical_slug": "white-book",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "book tower": [
@@ -11451,6 +11555,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "broken gods": [
+      {
+        "canonical_slug": "vojjor-samvi",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "broken king": [
       {
         "canonical_slug": "aegon-iii-targaryen",
@@ -12177,6 +12289,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "butcher": [
+      {
+        "canonical_slug": "list-of-characters-created-for-the-cyanide-game",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "butcher boy": [
       {
         "canonical_slug": "durran-durrandon-the-young",
@@ -12473,6 +12593,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "cannibal": [
+      {
+        "canonical_slug": "cannibal-dragon",
+        "node_category": "characters",
+        "node_type": "character.dragon",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "cannibal (dragon)": [
       {
         "canonical_slug": "cannibal-dragon",
@@ -12513,6 +12641,14 @@
         "source": "all-node-slug:concepts"
       }
     ],
+    "cannibals": [
+      {
+        "canonical_slug": "adakhakileki",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "canty": [
       {
         "canonical_slug": "canty",
@@ -12551,6 +12687,14 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      }
+    ],
+    "captain of guards": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-2",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "captain of the adventure": [
@@ -13199,6 +13343,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "cats": [
+      {
+        "canonical_slug": "company-of-the-cat",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
       }
     ],
     "catspaw": [
@@ -14245,6 +14397,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "choice is yours": [
+      {
+        "canonical_slug": "house-lonmouth",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
       }
     ],
     "choosing of jon snow": [
@@ -16067,6 +16227,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "coldhands rescues sam and gilly": [
+      {
+        "canonical_slug": "coldhands-rescues-sam-and-gilly",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "coldhands saves sam and gilly": [
+      {
+        "canonical_slug": "coldhands-rescues-sam-and-gilly",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "coldhands theories": [
       {
         "canonical_slug": "coldhands-theories",
@@ -16137,6 +16313,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "collector": [
+      {
+        "canonical_slug": "list-of-characters-created-for-the-cyanide-game",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "collio quaynis": [
@@ -16249,6 +16433,14 @@
         "source": "all-node-slug:factions"
       }
     ],
+    "conciliator": [
+      {
+        "canonical_slug": "jaehaerys-i-targaryen",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "conclave": [
       {
         "canonical_slug": "conclave",
@@ -16319,6 +16511,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "aegons-conquest",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
       }
     ],
     "conquest of dorne": [
@@ -17191,6 +17389,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "crone": [
+      {
+        "canonical_slug": "crone-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "crone (the seven)": [
       {
         "canonical_slug": "crone-the-seven",
@@ -17269,6 +17475,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "twins",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "crossing beneath the wall": [
@@ -18461,6 +18673,22 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "dance": [
+      {
+        "canonical_slug": "dance-of-the-dragons",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "dance of dragons, a true telling": [
+      {
+        "canonical_slug": "the-dance-of-the-dragons-a-true-telling",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "dance of the dragons": [
       {
         "canonical_slug": "the-dance-of-the-dragons",
@@ -18473,6 +18701,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      }
+    ],
+    "dance of the dragons (song)": [
+      {
+        "canonical_slug": "the-dance-of-the-dragons",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "dance of the dragons a true telling": [
@@ -20089,6 +20325,14 @@
         "source": "node-slug"
       }
     ],
+    "davos sent to fetch rickon from skagos": [
+      {
+        "canonical_slug": "davos-sent-to-fetch-rickon-from-skagos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
     "davos shorthand": [
       {
         "canonical_slug": "davos-seaworth",
@@ -20116,6 +20360,14 @@
     "davos's official death": [
       {
         "canonical_slug": "wyman-manderly-stages-fake-execution-of-davos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "davos's rickon quest": [
+      {
+        "canonical_slug": "davos-sent-to-fetch-rickon-from-skagos",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -20201,6 +20453,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "death of aemon targaryen": [
+      {
+        "canonical_slug": "death-of-maester-aemon",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "death of balon greyjoy": [
       {
         "canonical_slug": "death-of-balon-greyjoy",
@@ -20239,6 +20499,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "death of dragons": [
+      {
+        "canonical_slug": "blood-and-fire",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "death of drogo": [
@@ -20308,6 +20576,14 @@
     "death of lysa arryn": [
       {
         "canonical_slug": "death-of-lysa-arryn",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "death of maester aemon": [
+      {
+        "canonical_slug": "death-of-maester-aemon",
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
@@ -21185,6 +21461,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "discarded knight": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-59",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "dish of onion soup": [
       {
         "canonical_slug": "onion-soup",
@@ -21661,6 +21945,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "doom-of-valyria",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
       }
     ],
     "doom of valyria": [
@@ -22467,6 +22757,14 @@
         "source": "all-node-slug:materials"
       }
     ],
+    "dragontamer": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-68",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "drako rogare": [
       {
         "canonical_slug": "drako-rogare",
@@ -22849,6 +23147,14 @@
         "node_category": "religions",
         "node_type": "organization.religion",
         "source": "all-node-slug:religions"
+      }
+    ],
+    "drowned man": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-19",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "drowned men": [
@@ -23513,6 +23819,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "east": [
+      {
+        "canonical_slug": "essos",
+        "node_category": "locations",
+        "node_type": "place.region",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "east gate": [
       {
         "canonical_slug": "east-gate",
@@ -23583,6 +23897,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "ebon prince": [
+      {
+        "canonical_slug": "xhobar-qhoqua",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "ebonhead": [
@@ -24825,6 +25147,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "empire": [
+      {
+        "canonical_slug": "old-empire-of-ghis",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "empress of leng": [
       {
         "canonical_slug": "empress-of-leng",
@@ -25557,6 +25887,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "selwyn-tarth",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "evlyn": [
@@ -25789,6 +26125,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "faith": [
+      {
+        "canonical_slug": "faith-of-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "faith arrests cersei": [
@@ -26165,6 +26509,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "father": [
+      {
+        "canonical_slug": "father-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "father (the seven)": [
       {
         "canonical_slug": "father-the-seven",
@@ -26179,6 +26531,12 @@
         "node_category": "religions",
         "node_type": "organization.religion",
         "source": "all-node-slug:religions"
+      },
+      {
+        "canonical_slug": "father-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "father of hosts": [
@@ -27749,6 +28107,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "fist": [
+      {
+        "canonical_slug": "fist-of-the-first-men",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "fist of the first men": [
       {
         "canonical_slug": "fist-of-the-first-men",
@@ -27843,6 +28209,12 @@
         "node_category": "materials",
         "node_type": "object.material",
         "source": "all-node-slug:materials"
+      },
+      {
+        "canonical_slug": "torghen-flint",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "flint barracks": [
@@ -28045,6 +28417,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "footprint": [
+      {
+        "canonical_slug": "kingdom-of-the-ifequevron",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "for hands of gold are always cold but a womans hands are warm": [
       {
         "canonical_slug": "for-hands-of-gold-are-always-cold-but-a-womans-hands-are-warm",
@@ -28123,6 +28503,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "forsaken": [
+      {
+        "canonical_slug": "the-forsaken-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
       }
     ],
     "forsaken (the winds of winter)": [
@@ -28325,6 +28713,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "free company": [
+      {
+        "canonical_slug": "free-company-sellsword-company",
+        "node_category": "factions",
+        "node_type": "organization.faction",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "free company (sellsword company)": [
       {
         "canonical_slug": "free-company-sellsword-company",
@@ -28347,6 +28743,14 @@
         "node_category": "concepts",
         "node_type": "concept.culture",
         "source": "all-node-slug:concepts"
+      }
+    ],
+    "freehold": [
+      {
+        "canonical_slug": "valyrian-freehold",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "freeing of tyrion lannister": [
@@ -30593,6 +30997,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "gate": [
+      {
+        "canonical_slug": "gate-playhouse",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "gate (playhouse)": [
       {
         "canonical_slug": "gate-playhouse",
@@ -30631,6 +31043,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "gates": [
+      {
+        "canonical_slug": "gates-of-the-moon",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "gates of fate": [
@@ -31589,6 +32009,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "giver of pain": [
+      {
+        "canonical_slug": "saagael",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "gladden wylde": [
@@ -33799,6 +34227,12 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-slug"
+      },
+      {
+        "canonical_slug": "greyjoys-rebellion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
       }
     ],
     "greyjoy's rebellion": [
@@ -33909,6 +34343,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "griffin reborn": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-61",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "griffin seat": [
@@ -35081,6 +35523,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "hammer and anvil": [
+      {
+        "canonical_slug": "the-hammer-and-the-anvil",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "hammer and the anvil": [
       {
         "canonical_slug": "the-hammer-and-the-anvil",
@@ -35289,6 +35739,14 @@
         "source": "all-node-alias:foods"
       }
     ],
+    "hard bread": [
+      {
+        "canonical_slug": "hardbread",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "hard hugh": [
       {
         "canonical_slug": "hugh-hammer",
@@ -35303,6 +35761,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "hardbread": [
+      {
+        "canonical_slug": "hardbread",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "hardhand": [
@@ -36263,6 +36729,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "haunch of mutton": [
+      {
+        "canonical_slug": "mutton",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "haunted forest": [
       {
         "canonical_slug": "haunted-forest",
@@ -36835,6 +37309,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "high and low": [
+      {
+        "canonical_slug": "a-caution-for-young-girls",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "high council of the triarchy": [
@@ -37995,6 +38477,12 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      },
+      {
+        "canonical_slug": "hornwood-forest",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "hornwood (forest)": [
@@ -42763,6 +43251,14 @@
         "source": "all-node-slug:houses"
       }
     ],
+    "house with the red door in braavos": [
+      {
+        "canonical_slug": "house-with-the-red-door",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "house wode": [
       {
         "canonical_slug": "house-wode",
@@ -43587,6 +44083,14 @@
         "source": "all-node-slug:species"
       }
     ],
+    "ice dragon (novel)": [
+      {
+        "canonical_slug": "ice-dragon",
+        "node_category": "species",
+        "node_type": "species",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "ice dragons": [
       {
         "canonical_slug": "ice-dragon",
@@ -43641,6 +44145,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "identity of the valonqar/theories": [
+      {
+        "canonical_slug": "valonqar-theories",
+        "node_category": "theories",
+        "node_type": "concept.theory",
+        "source": "wiki-the-redirect"
       }
     ],
     "ifequevron": [
@@ -43921,6 +44433,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-18",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "iron chronicle": [
@@ -44103,6 +44621,14 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      }
+    ],
+    "iron suitor": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-56",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "iron throne": [
@@ -45671,6 +46197,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-name:characters"
+      }
+    ],
+    "jeyne westerling kept barren": [
+      {
+        "canonical_slug": "jeyne-westerling-kept-barren",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
+      }
+    ],
+    "jeyne westerling kept childless": [
+      {
+        "canonical_slug": "jeyne-westerling-kept-barren",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "jeyne westerling wife of maegor i": [
@@ -48739,6 +49281,14 @@
         "source": "all-node-name:locations"
       }
     ],
+    "king's prize": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-42",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "king's raven": [
       {
         "canonical_slug": "tyanna-of-the-tower",
@@ -48817,6 +49367,12 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      },
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-67",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "kingdom of omber": [
@@ -49423,6 +49979,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "knight of the flowers": [
+      {
+        "canonical_slug": "loras-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "knight of the gate": [
       {
         "canonical_slug": "knight-of-the-gate",
@@ -49637,6 +50201,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-11",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "kraken's kiss": [
@@ -52423,12 +52993,28 @@
         "source": "all-node-slug:materials"
       }
     ],
+    "lineages and histories": [
+      {
+        "canonical_slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "lineages and histories of the great houses of the seven kingdoms": [
       {
         "canonical_slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-slug:texts"
+      }
+    ],
+    "lineages and histories of the great houses of the seven kingdoms, with descriptions of many high lords and noble ladies and their children": [
+      {
+        "canonical_slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "liomond lashare": [
@@ -52573,6 +53159,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "lists": [
+      {
+        "canonical_slug": "martial-games",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
       }
     ],
     "little bee": [
@@ -53363,6 +53957,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "longthorn": [
+      {
+        "canonical_slug": "leo-tyrell-longthorn",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "longtown": [
@@ -57185,6 +57787,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "lost lord": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-24",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "lothar": [
       {
         "canonical_slug": "lothar",
@@ -58361,6 +58971,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "mad bard": [
+      {
+        "canonical_slug": "marq-mudd",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "mad danelle": [
       {
         "canonical_slug": "danelle-lothston",
@@ -58903,6 +59521,12 @@
         "node_category": "religions",
         "node_type": "organization.religion",
         "source": "all-node-slug:religions"
+      },
+      {
+        "canonical_slug": "maiden-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "maid margaery": [
@@ -58945,6 +59569,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "maiden": [
+      {
+        "canonical_slug": "maiden-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "maiden (river)": [
       {
         "canonical_slug": "maiden-river",
@@ -58983,6 +59615,14 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-slug:texts"
+      }
+    ],
+    "maiden of the tree": [
+      {
+        "canonical_slug": "oh-lay-my-sweet-lass-down-in-the-grass",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "maiden of the vale": [
@@ -61199,6 +61839,14 @@
         "source": "all-node-name:locations"
       }
     ],
+    "merchant's man": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-6",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "merchants house": [
       {
         "canonical_slug": "merchants-house",
@@ -62321,6 +62969,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "moon king": [
+      {
+        "canonical_slug": "walton-stark",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "moon mother": [
       {
         "canonical_slug": "moon-mother",
@@ -62983,6 +63639,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "mother-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "mother (the seven)": [
@@ -63061,6 +63723,12 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-alias:texts"
+      },
+      {
+        "canonical_slug": "mother-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "mother's men": [
@@ -63379,6 +64047,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "mummer's ship": [
+      {
+        "canonical_slug": "ship-playhouse",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "mummers ford": [
       {
         "canonical_slug": "mummers-ford",
@@ -63625,6 +64301,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "mutton": [
+      {
+        "canonical_slug": "mutton",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-slug:foods"
       }
     ],
     "mutton chop": [
@@ -64033,6 +64717,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "mysterious rider rescues sam": [
+      {
+        "canonical_slug": "coldhands-rescues-sam-and-gilly",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "mystery knight": [
@@ -64689,6 +65381,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "new gift": [
+      {
+        "canonical_slug": "gift",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "new ibbish": [
       {
         "canonical_slug": "new-ibbish",
@@ -65141,6 +65841,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "brandon-norrey",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "north": [
@@ -65221,6 +65927,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "northman's daughter": [
+      {
+        "canonical_slug": "the-dornishmans-wife",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "northmen": [
@@ -66307,6 +67021,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "old, the true, the brave": [
+      {
+        "canonical_slug": "house-velaryon",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "old-gods": [
       {
         "canonical_slug": "old-gods-of-the-forest",
@@ -67337,12 +68059,28 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "other": [
+      {
+        "canonical_slug": "great-other",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "other daughter": [
       {
         "canonical_slug": "alysanne-targaryen",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "other-kill at the fist": [
+      {
+        "canonical_slug": "sam-kills-the-other",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "others": [
@@ -67719,6 +68457,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "pale child": [
+      {
+        "canonical_slug": "bakkalon",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "pale griffin": [
@@ -68289,6 +69035,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "peasant king": [
+      {
+        "canonical_slug": "pate-of-fairmarket",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "peasedale": [
@@ -68897,6 +69651,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      },
+      {
+        "canonical_slug": "tickler",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "piper's grass": [
@@ -69135,6 +69895,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "point": [
+      {
+        "canonical_slug": "crackclaw-point",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "poison": [
@@ -69557,6 +70325,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "daemon-i-blackfyre",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "pretenders claiming to be prince daeron the daring": [
@@ -69819,6 +70593,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-37",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "prince that was promised": [
@@ -69893,6 +70673,14 @@
         "source": "all-node-alias:characters"
       }
     ],
+    "prince who was promised": [
+      {
+        "canonical_slug": "the-prince-that-was-promised",
+        "node_category": "prophecies",
+        "node_type": "concept.prophecy",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "prince's pass": [
       {
         "canonical_slug": "princes-pass",
@@ -69939,6 +70727,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "princess in the tower": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-40",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "princess myrcella": [
@@ -70051,6 +70847,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-1",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "protector of the realm": [
@@ -71051,6 +71853,14 @@
         "source": "all-node-slug:titles"
       }
     ],
+    "queen of thornes": [
+      {
+        "canonical_slug": "olenna-tyrell",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "queen of thorns": [
       {
         "canonical_slug": "olenna-tyrell",
@@ -71169,6 +71979,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-name:titles"
+      },
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-70",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "queen's men begin calling for sacrifice": [
@@ -71201,6 +72017,12 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      },
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-21",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "queenmaker conspiracy": [
@@ -71265,6 +72087,12 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      },
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-55",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "queensmoot": [
@@ -71695,6 +72523,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "rad lamb": [
+      {
+        "canonical_slug": "red-lamb",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "rafe": [
       {
         "canonical_slug": "rafe",
@@ -72123,6 +72959,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "rat, the hawk and the pig": [
+      {
+        "canonical_slug": "the-rat-the-hawk-and-the-pig",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "rat, the hawk, and the pig": [
       {
         "canonical_slug": "the-rat-the-hawk-and-the-pig",
@@ -72451,6 +73295,14 @@
         "source": "all-node-slug:artifacts"
       }
     ],
+    "reaver": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-29",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "recapture of darry": [
       {
         "canonical_slug": "recapture-of-darry",
@@ -72481,6 +73333,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "drogos-stallion",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "red alyn of the rosewood": [
@@ -72497,6 +73355,14 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-slug:texts"
+      }
+    ],
+    "red bull": [
+      {
+        "canonical_slug": "aquan-the-red-bull",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "red claw": [
@@ -72561,6 +73427,22 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "red door": [
+      {
+        "canonical_slug": "house-with-the-red-door",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "red dragon": [
+      {
+        "canonical_slug": "house-targaryen",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
       }
     ],
     "red dragon and the black": [
@@ -72993,6 +73875,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "redarm": [
+      {
+        "canonical_slug": "royce-iv-bolton",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "redfort": [
@@ -74981,6 +75871,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "rock": [
+      {
+        "canonical_slug": "casterly-rock",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "rock goblins": [
       {
         "canonical_slug": "rock-goblins",
@@ -75299,6 +76197,22 @@
         "node_category": "texts",
         "node_type": "object.text",
         "source": "all-node-name:texts"
+      }
+    ],
+    "rogue prince, or, a king's brother (by archmaester gyldayn)": [
+      {
+        "canonical_slug": "the-rogue-prince-or-a-kings-brother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "rogue prince, or, a king's brother: a consideration of the early life, adventures, misdeeds, and marriages of prince daemon targaryen": [
+      {
+        "canonical_slug": "the-rogue-prince-or-a-kings-brother",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "rohanne of tyrosh": [
@@ -76641,6 +77555,14 @@
         "source": "node-slug"
       }
     ],
+    "sacrifice": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-62",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "saduleon": [
       {
         "canonical_slug": "saduleon",
@@ -76809,6 +77731,14 @@
         "source": "all-node-slug:foods"
       }
     ],
+    "salt beef": [
+      {
+        "canonical_slug": "beef",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "salt king": [
       {
         "canonical_slug": "salt-king",
@@ -76857,6 +77787,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "salted beef": [
+      {
+        "canonical_slug": "beef",
+        "node_category": "foods",
+        "node_type": "object.food",
+        "source": "all-node-alias:foods"
+      }
+    ],
     "salted pork": [
       {
         "canonical_slug": "salt-pork",
@@ -76903,6 +77841,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "sam kills the other": [
+      {
+        "canonical_slug": "sam-kills-the-other",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-slug"
       }
     ],
     "sam opens the black gate": [
@@ -76967,6 +77913,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "sam-kills-the-other",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "samantha stokeworth": [
@@ -77071,6 +78023,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "samwell tarly slays an other": [
+      {
+        "canonical_slug": "sam-kills-the-other",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "samwyle tarly": [
@@ -77933,6 +78893,14 @@
         "source": "node-frontmatter-alias"
       }
     ],
+    "searoad": [
+      {
+        "canonical_slug": "ocean-road",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "seashell knight": [
       {
         "canonical_slug": "raynald-westerling",
@@ -78729,6 +79697,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "seven": [
+      {
+        "canonical_slug": "faith-of-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "seven girls sacrificed on burning ketch": [
       {
         "canonical_slug": "seven-girls-sacrificed-on-burning-ketch",
@@ -78863,6 +79839,12 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      },
+      {
+        "canonical_slug": "shadow-lands",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "shadow assassination of renly": [
@@ -79535,6 +80517,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "ship": [
+      {
+        "canonical_slug": "ship-playhouse",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "ship (playhouse)": [
       {
         "canonical_slug": "ship-playhouse",
@@ -79683,6 +80673,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "shy maid\u2019s dragonlore": [
+      {
+        "canonical_slug": "tyrion-lannisters-dragonlore",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "shyra": [
@@ -80289,6 +81287,14 @@
         "source": "node-slug"
       }
     ],
+    "sisters": [
+      {
+        "canonical_slug": "three-sisters",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "sisters stew": [
       {
         "canonical_slug": "sisters-stew",
@@ -80367,6 +81373,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "skagos commission": [
+      {
+        "canonical_slug": "davos-sent-to-fetch-rickon-from-skagos",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
       }
     ],
     "skagosi": [
@@ -80837,6 +81851,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "smith-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "smith (the seven)": [
@@ -81087,6 +82107,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "soiled knight": [
+      {
+        "canonical_slug": "a-feast-for-crows-chapter-13",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "solar": [
@@ -81637,6 +82665,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "spring": [
+      {
+        "canonical_slug": "great-spring-sickness",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "spring king": [
       {
         "canonical_slug": "edwyn-stark",
@@ -81651,6 +82687,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "spurned suitor": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-60",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "spymaster": [
@@ -82697,6 +83741,14 @@
         "node_category": "locations",
         "node_type": "place.location",
         "source": "all-node-slug:locations"
+      }
+    ],
+    "stoney shore": [
+      {
+        "canonical_slug": "stony-shore",
+        "node_category": "locations",
+        "node_type": "place.location",
+        "source": "wiki-the-redirect"
       }
     ],
     "stony dornishmen": [
@@ -84265,6 +85317,12 @@
         "node_category": "religions",
         "node_type": "organization.religion",
         "source": "all-node-slug:religions"
+      },
+      {
+        "canonical_slug": "stranger-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
       }
     ],
     "stranger (horse)": [
@@ -84507,6 +85565,14 @@
         "source": "node-slug"
       }
     ],
+    "substance": [
+      {
+        "canonical_slug": "wildfire",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "substitute beheading at white harbor": [
       {
         "canonical_slug": "execution-of-davos-lookalike-at-white-harbor",
@@ -84633,6 +85699,14 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "sun of winter": [
+      {
+        "canonical_slug": "house-karstark",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
       }
     ],
     "sunblaze": [
@@ -85043,12 +86117,28 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "sybell keeps jeyne barren": [
+      {
+        "canonical_slug": "jeyne-westerling-kept-barren",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "sybell spicer": [
       {
         "canonical_slug": "sybell-spicer",
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "sybell spicer keeps jeyne westerling barren": [
+      {
+        "canonical_slug": "jeyne-westerling-kept-barren",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-name"
       }
     ],
     "sybell westerling": [
@@ -88975,6 +90065,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "turncloak": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-41",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "turnip": [
       {
         "canonical_slug": "tom-turnip",
@@ -90097,6 +91195,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-alias:characters"
+      }
+    ],
+    "ugly little girl": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-64",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "uhlan": [
@@ -92725,6 +93831,14 @@
         "source": "node-slug"
       }
     ],
+    "war of the usurper": [
+      {
+        "canonical_slug": "roberts-rebellion",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "war of the wolves": [
       {
         "canonical_slug": "war-of-the-wolves",
@@ -92965,6 +94079,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "warrior": [
+      {
+        "canonical_slug": "warrior-the-seven",
+        "node_category": "religions",
+        "node_type": "organization.religion",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "warrior (the seven)": [
       {
         "canonical_slug": "warrior-the-seven",
@@ -93179,6 +94301,14 @@
         "source": "all-node-name:locations"
       }
     ],
+    "watcher": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-38",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "watchers on the wall": [
       {
         "canonical_slug": "watchers-on-the-wall",
@@ -93321,6 +94451,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "wayward bride": [
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-26",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "weakwing": [
@@ -93849,6 +94987,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "westerling marriage kept fruitless": [
+      {
+        "canonical_slug": "jeyne-westerling-kept-barren",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
     "westermen": [
       {
         "canonical_slug": "westermen",
@@ -94207,6 +95353,14 @@
         "source": "all-node-slug:locations"
       }
     ],
+    "white worm": [
+      {
+        "canonical_slug": "mysaria",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "white-ravens": [
       {
         "canonical_slug": "white-raven",
@@ -94277,6 +95431,14 @@
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
+      }
+    ],
+    "whore": [
+      {
+        "canonical_slug": "whore-weapon",
+        "node_category": "artifacts",
+        "node_type": "object.artifact",
+        "source": "wiki-the-redirect"
       }
     ],
     "whore (weapon)": [
@@ -94357,6 +95519,14 @@
         "node_category": "characters",
         "node_type": "character.human",
         "source": "all-node-slug:characters"
+      }
+    ],
+    "wickedness of men": [
+      {
+        "canonical_slug": "a-caution-for-young-girls",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
       }
     ],
     "wickenden": [
@@ -95059,6 +96229,14 @@
         "source": "all-node-slug:characters"
       }
     ],
+    "wind our steed": [
+      {
+        "canonical_slug": "house-farman",
+        "node_category": "houses",
+        "node_type": "organization.house",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "wind witch": [
       {
         "canonical_slug": "wind-witch",
@@ -95073,6 +96251,12 @@
         "node_category": "factions",
         "node_type": "organization.faction",
         "source": "all-node-slug:factions"
+      },
+      {
+        "canonical_slug": "a-dance-with-dragons-chapter-25",
+        "node_category": "chapters",
+        "node_type": "meta.chapter",
+        "source": "wiki-the-redirect"
       }
     ],
     "windproud": [
@@ -95081,6 +96265,94 @@
         "node_category": "artifacts",
         "node_type": "object.artifact",
         "source": "all-node-slug:artifacts"
+      }
+    ],
+    "winds of winter-aeron": [
+      {
+        "canonical_slug": "the-forsaken-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-alayne i": [
+      {
+        "canonical_slug": "alayne-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-arianne i": [
+      {
+        "canonical_slug": "arianne-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-arianne ii": [
+      {
+        "canonical_slug": "arianne-ii-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-barristan i": [
+      {
+        "canonical_slug": "barristan-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-barristan ii": [
+      {
+        "canonical_slug": "barristan-ii-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-mercy": [
+      {
+        "canonical_slug": "mercy-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-the forsaken": [
+      {
+        "canonical_slug": "the-forsaken-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-theon i": [
+      {
+        "canonical_slug": "theon-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-tyrion ii": [
+      {
+        "canonical_slug": "tyrion-ii-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
+      }
+    ],
+    "winds of winter-victarion i": [
+      {
+        "canonical_slug": "victarion-i-the-winds-of-winter",
+        "node_category": "events",
+        "node_type": "",
+        "source": "wiki-the-redirect"
       }
     ],
     "wine": [
@@ -95627,6 +96899,14 @@
         "source": "all-node-name:texts"
       }
     ],
+    "world of ice and fire (yandel)": [
+      {
+        "canonical_slug": "the-world-of-ice-fire-yandel",
+        "node_category": "texts",
+        "node_type": "object.text",
+        "source": "wiki-the-redirect"
+      }
+    ],
     "world of ice fire yandel": [
       {
         "canonical_slug": "the-world-of-ice-fire-yandel",
@@ -95761,6 +97041,12 @@
         "node_category": "titles",
         "node_type": "title",
         "source": "all-node-slug:titles"
+      },
+      {
+        "canonical_slug": "hugo-wull",
+        "node_category": "characters",
+        "node_type": "character.human",
+        "source": "wiki-the-redirect"
       }
     ],
     "wun weg wun dar wun": [
@@ -95918,6 +97204,14 @@
     "wyman commands ser marlon to execute davos": [
       {
         "canonical_slug": "wyman-publicly-orders-davos-execution",
+        "node_category": "events",
+        "node_type": "",
+        "source": "node-frontmatter-alias"
+      }
+    ],
+    "wyman commissions davos to find rickon": [
+      {
+        "canonical_slug": "davos-sent-to-fetch-rickon-from-skagos",
         "node_category": "events",
         "node_type": "",
         "source": "node-frontmatter-alias"
@@ -96861,8 +98155,8 @@
     ]
   },
   "stats": {
-    "total_node_entries": 19657,
-    "unique_phrases": 12003
+    "total_node_entries": 20154,
+    "unique_phrases": 12140
   },
   "version": "v1"
 }

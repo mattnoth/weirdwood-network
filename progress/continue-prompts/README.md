@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-06-30 (refreshed after S177)  
+**Generated:** 2026-07-01 (refreshed after S179)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `graph-parentage-cleanup.md` | 2026-06-30 | Graph parentage-correctness (edge dedup + resolve ranking) | **LIVE** (meta/graph) → fires as **S179** | Sonnet 4.6 | S178's family-tree feature EXPOSED noisy parentage: **88/1,015 parented nodes have >2 PARENT_OF parents** (repeated dynastic names collapse onto bare-name stub buckets — e.g. bare `aemon-targaryen` (0 quotes) carries three Aemons' parents while the correct disambiguated nodes, incl. Maester Aemon `aemon-targaryen-son-of-maekar-i` (16 quotes), exist + are wired). Approach DECIDED w/ Matt: **cold-read + validate the plan first**, then read-only `scripts/audit-parent-conflation.py` classifies each (redundant-stub-edge vs single-person edge-noise) → **agentic batch review vs LOCAL wiki + chapters** (Matt can't hand-review 88+; policy-gated) → apply after review + rebuild bundle/indexes; plus resolver prominence-ranking + epithet-alias backfill. **No mint until review.** Audit: `working/family-tree-genealogy-audit.md`. |
+| `2026-07-01-graph-parentage-node-merge.md` | 2026-07-01 | Graph parentage cleanup — phase 2 (node merges + conflation splits) | **LIVE** (graph) → fires as **S180** | Sonnet 4.6 | S179 shipped the 138 provably-safe deletes; this handles the 3 classes the cold-reviews said must NOT auto-apply: `DUPLICATE_PARENT_NODE` (~32; cross-identity merges — canonical = disambiguated variant/redirect-target, NOT highest-qc; **merge⇒preserve retired name as alias**), `WRONG_NAMESAKE` (~36; delete the wrong-namesake edge, e.g. the two Aerions — do NOT merge), `NODE_SPLIT` (8 conflation buckets incl. joffrey=KEEP-all-3). Fresh-subagent-gated vs LOCAL wiki; apply after review + rebuild. Inputs: `working/graph-cleanup/{parent-edge-proposal.jsonl,cold-review-verdict.md,deletion-safety-and-alias-review.md}`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 92 files)
+## Archive (`archive/` subfolder — 93 files)
+
+> **`graph-parentage-cleanup.md`** — archived S179. **DONE-phase-1 (S179):** cold-read validation overturned the handoff's 2-bug framing (found a 3rd dominant cause: duplicate parent NODES); two fresh cold-reviews caught a destructive false-merge (the "two Aerions") and confirmed the safe set. Shipped **138 provably-safe PARENT_OF deletes** (124 redundant-stub + 13 house-as-parent + 1 exact-dup; PARENT_OF 1688→1550, >2-parent nodes 88→50) + **epithet-alias backfill** (+111 phrases via a new `event_alias_resolver.py` redirect source) + **resolver prominence ranking** (`resolve.ts` tie-break on degree+4·quoteCount; 35/35 tests). Scripts: `audit-parent-conflation.py`, `apply-parent-conflation.py`, `backfill-epithet-aliases.py`. Superseded as live by `2026-07-01-graph-parentage-node-merge.md` (phase 2: the merges/splits the reviews said not to auto-apply).
 
 > **`2026-07-01-chat-ui-frontend-remainder-PARKED.md`** (was `2026-07-01-chat-ui-refinements.md`) — parked S178. **DONE in S178:** the family-tree traversal (`familyTree()` + LR-tree render in chat + prominence signal + clickable dossiers; read-only, 28 lib tests) — fixed the genealogy `loop-bound-hit`. **REMAINDER (parked until Matt reopens frontend):** pop-out/expand view, wiring the prominence highlight (prototyped in `web/dev/family-tree-fixture.html`) into the live render, fuzzy-resolve robustness. Superseded as live by `graph-parentage-cleanup.md` (Matt paused frontend to fix the underlying graph data first).
 
