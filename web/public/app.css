@@ -163,20 +163,13 @@ body.about-open .about-view { display: block; }
   gap: var(--sp-4) var(--sp-6);
   align-items: start;
 }
-/* The full-width chain band (BAND layout) spans both columns as its own row. */
-.chain-band { grid-column: 1 / -1; }
 .thread-col { grid-column: 1; }
 .receipts-col { grid-column: 2; }
-/* BAND layout with no supporting receipts → drop the empty side column. */
-.stage.no-aside { grid-template-columns: minmax(0, 1fr); }
-.stage.no-aside .receipts-col { display: none; }
 @media (max-width: 860px) {
-  .stage, .stage.no-aside { grid-template-columns: minmax(0, 1fr); }
-  .chain-band, .thread-col, .receipts-col { grid-column: 1; }
-  .stage.no-aside .receipts-col { display: block; }
+  .stage { grid-template-columns: minmax(0, 1fr); }
+  .thread-col, .receipts-col { grid-column: 1; }
   /* Prose first on every screen (Matt): the conversation leads, the chain follows below it. */
   .thread-col { order: -1; }
-  .chain-band { order: 0; }
   .receipts-col { order: 1; }
 }
 
@@ -328,76 +321,47 @@ body.about-open .about-view { display: block; }
 .resolve-line { font-size: var(--fs-small); color: var(--c-text-dim); }
 .resolve-line code { font-family: var(--font-mono); color: var(--c-accent-soft); font-size: 0.85em; }
 
-/* ===== "The chain walked" — two layouts (Band / Spine), deduped nodes ====== */
+/* ===== "The chain walked" — one deduped, annotated, vertical spine ========= */
 
-/* Shared header (title + layout toggle), used in both the band and the spine card. */
-.chain-header { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--sp-3); }
+.chain-header { margin-bottom: var(--sp-2); }
 .chain-title { font-family: var(--font-prose); font-weight: 500; font-size: 1.15rem; margin: 0; }
 .chain-sub { font-size: var(--fs-cite); color: var(--c-text-faint); margin: 2px 0 0; }
-.layout-toggle { display: inline-flex; flex: none; border: 1px solid var(--c-border); border-radius: 999px; overflow: hidden; }
-.lt-btn {
-  font-family: var(--font-ui); font-size: var(--fs-cite); color: var(--c-text-dim);
-  background: transparent; border: none; padding: var(--sp-1) var(--sp-3); cursor: pointer; transition: var(--transition);
-}
-.lt-btn:hover { color: var(--c-text); }
-.lt-btn.active { background: var(--c-accent); color: var(--c-bg-deep); }
 
-/* --- BAND: full-width horizontal flow --- */
-.chain-band {
-  background: var(--c-surface); border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg); padding: var(--sp-4); margin-bottom: var(--sp-2);
-}
-.chain-flow.band { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2) var(--sp-1); margin-top: var(--sp-4); }
-.chain-node {
-  font-family: var(--font-ui); font-size: var(--fs-small); color: var(--c-text);
-  background: var(--c-bg); border: 1px solid var(--c-border); border-radius: var(--radius);
-  padding: var(--sp-2) var(--sp-3); cursor: default; transition: var(--transition); text-align: left;
-}
-.chain-node.has-quotes { cursor: pointer; }
-.chain-node.has-quotes:hover { border-color: var(--c-accent); }
-.chain-node.terminal { background: var(--c-bubble-user); border-color: var(--c-accent); font-weight: 500; }
-.chain-edge {
-  display: inline-flex; align-items: center; gap: var(--sp-1);
-  background: transparent; border: none; cursor: pointer; padding: 0;
-}
-.chain-edge:hover .edge-label { background: var(--c-accent-faint); }
-.chain-detail {
-  margin-top: var(--sp-4); padding-top: var(--sp-3); border-top: 1px solid var(--c-border-soft); min-height: 2rem;
-}
-.detail-empty { color: var(--c-text-faint); font-size: var(--fs-small); font-style: italic; font-family: var(--font-prose); margin: 0; }
-.detail-edge { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); color: var(--c-text); font-size: var(--fs-small); margin-bottom: var(--sp-2); }
-
-/* --- SPINE: the annotated spine (picked design) — node cards + inline edge evidence --- */
 .chain-card { background: var(--c-bg); }
 .chain-flow.spine {
   display: flex; flex-direction: column; gap: 2px; margin-top: var(--sp-3);
   /* bounded — a long chain scrolls inside the card, never runs far past the chat */
   max-height: 62vh; overflow-y: auto;
 }
-/* node = a card showing its name + type */
+
+/* node = a clickable card showing its name + type (+ degree badge). The whole
+   node is a button → opens its dossier; reset the native button chrome. */
 .spine-node {
+  display: block; width: 100%; text-align: left; font: inherit; color: inherit;
   background: var(--c-surface); border: 1px solid var(--c-border);
   border-radius: var(--radius); padding: var(--sp-2) var(--sp-3);
+  cursor: pointer; transition: var(--transition);
 }
-.spine-node > summary { list-style: none; cursor: pointer; }
-.spine-node > summary::-webkit-details-marker { display: none; }
-.spine-node[open] > summary { margin-bottom: var(--sp-2); }
-.node-head { display: flex; flex-direction: column; gap: 1px; }
+.spine-node:hover, .spine-node:focus-visible { border-color: var(--c-accent); outline: none; }
+.node-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--sp-1) var(--sp-2); }
 .spine-node .node-name { font-family: var(--font-prose); font-size: var(--fs-body); color: var(--c-text); line-height: 1.25; }
 .node-type { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); letter-spacing: 0.03em; }
+.node-degree { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-accent-soft); }
 .spine-node.hub { border-color: var(--c-accent); background: var(--c-surface-2); }
 .spine-node.terminal { border-left: 3px solid var(--c-accent); }
-/* a node already shown above collapses to a slim back-reference */
+/* a node already shown above collapses to a slim back-reference (still clickable) */
 .spine-node.repeat {
   background: transparent; border: none; border-left: 2px solid var(--c-border);
   border-radius: 0; padding: var(--sp-1) 0 var(--sp-1) var(--sp-3); opacity: 0.75;
 }
+.spine-node.repeat:hover { opacity: 1; border-left-color: var(--c-accent); }
 .spine-node.repeat .node-name { font-family: var(--font-ui); font-size: var(--fs-small); color: var(--c-text-dim); }
-.spine-body { padding-top: var(--sp-1); }
+
 /* edge = a left-accent block with the evidence quote + cite always visible */
 .spine-edge {
   border-left: 2px solid var(--et-color, var(--c-edge-default));
   margin-left: var(--sp-4); padding: var(--sp-2) 0 var(--sp-2) var(--sp-3);
+  transition: opacity var(--transition);
 }
 .spine-edge-head { display: flex; align-items: center; gap: var(--sp-2); }
 .tier-inline { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
@@ -406,7 +370,70 @@ body.about-open .about-view { display: block; }
   font-size: var(--fs-small); line-height: 1.5; margin: var(--sp-2) 0 var(--sp-1);
 }
 .spine-cite { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
-.chain.spine { display: flex; flex-direction: column; gap: var(--sp-1); margin-top: var(--sp-2); }
+
+/* Hover-peek: a node hover lights the edges it touches and dims the rest. */
+.chain-flow.spine.has-hot .spine-edge:not(.hot) { opacity: 0.3; }
+.chain-flow.spine .spine-edge.hot { border-left-width: 4px; }
+.spine-node.hot { border-color: var(--c-accent); box-shadow: var(--ring); }
+
+/* --- Preconditions: the ENABLES web behind one progressive-disclosure toggle --- */
+.pre-wrap { margin-top: var(--sp-3); padding-top: var(--sp-2); border-top: 1px solid var(--c-border-soft); }
+.pre-toggle {
+  font-family: var(--font-mono); font-size: var(--fs-cite); letter-spacing: 0.03em;
+  color: var(--c-edge-enables); background: transparent;
+  border: 1px dashed color-mix(in srgb, var(--c-edge-enables) 60%, transparent);
+  border-radius: 999px; padding: var(--sp-1) var(--sp-3); cursor: pointer; transition: var(--transition);
+}
+.pre-toggle:hover { color: var(--c-text); border-color: var(--c-edge-enables); }
+.pre-list { margin-top: var(--sp-3); display: flex; flex-direction: column; gap: var(--sp-3); opacity: 0.82; }
+.pre-row { border-left: 2px solid var(--c-edge-enables); padding-left: var(--sp-3); margin-left: var(--sp-1); }
+.pre-row-head { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-1) var(--sp-2); }
+.pre-node {
+  font: inherit; font-family: var(--font-prose); font-size: var(--fs-small); color: var(--c-text-dim);
+  background: transparent; border: none; border-bottom: 1px dotted var(--c-border); padding: 0; cursor: pointer;
+  transition: var(--transition);
+}
+.pre-node:hover { color: var(--c-text); border-bottom-color: var(--c-accent); }
+.pre-quote {
+  font-family: var(--font-prose); font-style: italic; color: var(--c-text-faint);
+  font-size: var(--fs-small); line-height: 1.5; margin: var(--sp-2) 0 var(--sp-1);
+}
+
+/* --- Node dossier: a live /api/node lookup, in a modal over the page --- */
+.dossier-overlay {
+  position: fixed; inset: 0; z-index: 20;
+  display: flex; align-items: center; justify-content: center; padding: var(--sp-5);
+  background: color-mix(in srgb, var(--c-bg-deep) 78%, transparent);
+  backdrop-filter: blur(3px);
+}
+/* The class sets display:flex, which would otherwise beat the UA [hidden] rule —
+   keep the overlay truly gone (no stray backdrop dimming the page) until opened. */
+.dossier-overlay[hidden] { display: none; }
+body.dossier-open { overflow: hidden; }
+.dossier-card {
+  position: relative;
+  width: min(34rem, 100%); max-height: 82vh; overflow-y: auto;
+  background: var(--c-surface); border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow); padding: var(--sp-5);
+}
+.dossier-close {
+  position: absolute; top: var(--sp-3); right: var(--sp-3);
+  font-family: var(--font-ui); font-size: var(--fs-small); line-height: 1;
+  color: var(--c-text-faint); background: transparent; border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm); padding: var(--sp-1) var(--sp-2); cursor: pointer; transition: var(--transition);
+}
+.dossier-close:hover { color: var(--c-text); border-color: var(--c-accent); }
+.dossier-body { padding-right: var(--sp-4); }
+.dossier-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--sp-2); margin-bottom: var(--sp-3); }
+.dossier-head h3 { font-family: var(--font-prose); font-weight: 500; font-size: 1.3rem; color: var(--c-text); margin: 0; }
+.dossier-type { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); letter-spacing: 0.03em; }
+.dossier-slug { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
+.dossier-identity { color: var(--c-text-dim); font-size: var(--fs-small); line-height: 1.6; margin: 0 0 var(--sp-4); }
+.dossier-sub {
+  font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint);
+  letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: var(--sp-1);
+}
+.dossier-loading, .dossier-empty { color: var(--c-text-faint); font-style: italic; font-family: var(--font-prose); font-size: var(--fs-small); margin: 0; }
 .node-name { color: var(--c-text); font-size: var(--fs-small); }
 .edge-label {
   font-family: var(--font-mono);
@@ -446,15 +473,29 @@ body.about-open .about-view { display: block; }
   padding: 0 var(--sp-1);
 }
 
-/* node-quote inside a read_node / beat card */
-.quotes { display: flex; flex-direction: column; gap: var(--sp-2); margin-top: var(--sp-3); }
-.quote-row { border-left: 2px solid var(--c-accent-deep); padding-left: var(--sp-3); }
-.quote-row .quote { font-family: var(--font-prose); font-style: italic; color: var(--c-text-dim); font-size: var(--fs-small); }
-.quote-row .attribution { display: block; margin-top: var(--sp-1); font-size: var(--fs-cite); color: var(--c-text-faint); }
+/* node-quote container inside a read_node / dossier card */
+.quotes { display: flex; flex-direction: column; gap: var(--sp-3); margin-top: var(--sp-3); }
+
+/* ---- The unified book-quote — used EVERYWHERE (Bloodraven's answer prose, the
+   dossier, chain edges, preconditions, neighbours) so a quote looks the same
+   wherever it appears: an italic serif line, then "— speaker, ASOS Arya 11". --- */
+.bookquote { display: block; margin: var(--sp-2) 0 0; }
+.bookquote .bq-text { font-family: var(--font-prose); font-style: italic; color: var(--c-text-dim); font-size: var(--fs-small); line-height: 1.55; }
+.bookquote .bq-attr { display: block; margin-top: var(--sp-1); font-family: var(--font-ui); font-style: normal; font-size: var(--fs-cite); color: var(--c-text-faint); }
+/* dossier + neighbour cards carry the accent rail (the old quote-row look) */
+.quotes .bookquote, .link-evidence .bookquote { border-left: 2px solid var(--c-accent-deep); padding-left: var(--sp-3); }
+/* In Bloodraven's answer the quote is a pull-quote — its own line, brighter, larger. */
+.msg.bot .bubble .bookquote {
+  border-left: 2px solid var(--c-accent-deep);
+  padding: var(--sp-1) 0 var(--sp-1) var(--sp-4);
+  margin: var(--sp-3) 0;
+}
+.msg.bot .bubble .bookquote .bq-text { font-size: 1.02rem; color: var(--c-text); font-style: italic; }
 
 /* neighbors grouping */
 .neigh-group { margin-top: var(--sp-2); }
 .neigh-group > .edge-label { margin-bottom: var(--sp-1); }
+.chain.spine { display: flex; flex-direction: column; gap: var(--sp-1); margin-top: var(--sp-2); }
 
 /* ---- Status / failure-mode lines ------------------------------------------ */
 .status-line {

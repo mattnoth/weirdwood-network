@@ -57,22 +57,34 @@ Deno.test("walkChain: downstream effects are reachable too", () => {
   assert.ok(chain.downstream.some((l) => l.source === TYWIN_SLUG && l.depth === 1));
 });
 
-Deno.test("walkChain: full-chain follows ENABLES, plain chain does not", () => {
-  const plain = walkChain(TYWIN_SLUG, data);
-  const full = walkChain(TYWIN_SLUG, data, { full: true });
-  const plainTotal = plain.upstream.length + plain.downstream.length;
-  const fullTotal = full.upstream.length + full.downstream.length;
-  assert.ok(fullTotal >= plainTotal, "full-chain should never be smaller than plain");
-  assert.equal(plain.full, false);
-  assert.equal(full.full, true);
-  // No ENABLES leaks into the strict causal walk.
-  assert.ok(![...plain.upstream, ...plain.downstream].some((l) => l.edge_type === "ENABLES"));
+Deno.test("walkChain: preconditions return as a separate `enables` array, never in the spine", () => {
+  const chain = walkChain(TYWIN_SLUG, data);
+
+  // No ENABLES ever leaks into the causal spine — the model narrates that clean.
+  assert.ok(![...chain.upstream, ...chain.downstream].some((l) => l.edge_type === "ENABLES"));
+
+  // The preconditions come back in one round-trip as `enables`, capped (≤24) so a
+  // dense hub can't flood the toggle, deduped, and each is a real ENABLES edge
+  // whose target is a node the causal spine touches.
+  assert.ok(Array.isArray(chain.enables), "enables must be present (possibly empty)");
+  assert.ok(chain.enables.length <= 24, "enables is capped");
+  const spine = new Set<string>([chain.slug]);
+  for (const l of [...chain.upstream, ...chain.downstream]) { spine.add(l.source); spine.add(l.target); }
+  const seen = new Set<string>();
+  for (const e of chain.enables) {
+    assert.equal(e.edge_type, "ENABLES", "every enables link is an ENABLES edge");
+    assert.ok(spine.has(e.target), "an ENABLES precondition must target a spine node");
+    const key = `${e.source} ${e.target}`;
+    assert.ok(!seen.has(key), "enables links are deduped by source->target");
+    seen.add(key);
+  }
 });
 
 Deno.test("walkChain: invalid slug returns an empty chain, no throw", () => {
   const chain = walkChain("not a slug!!", data);
   assert.deepEqual(chain.upstream, []);
   assert.deepEqual(chain.downstream, []);
+  assert.deepEqual(chain.enables, []);
 });
 
 Deno.test("neighbors: groups edges by direction and type", () => {

@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Weirwood Network</title>
   <meta name="description" content="A book-grounded ASOIAF loremaster, standing on a hand-built knowledge graph." />
-  <link rel="stylesheet" href="/theme/tokens.css?v=176b" />
-  <link rel="stylesheet" href="/app.css?v=176b" />
+  <link rel="stylesheet" href="/theme/tokens.css?v=178" />
+  <link rel="stylesheet" href="/app.css?v=178" />
 </head>
 <body>
   <!-- Low-contrast weirwood backdrop. Presence is token-controlled
@@ -92,10 +92,6 @@
   </section>
 
   <main class="stage">
-    <!-- Full-width chain band (BAND layout). The typed-edge "chain walked" lifts
-         here when the layout toggle is set to Band; hidden in Spine layout. -->
-    <section class="chain-band" id="chain-band" aria-label="The chain walked" hidden></section>
-
     <!-- The conversation column. -->
     <section class="thread-col" aria-label="Conversation">
       <div class="thread" id="thread"><!-- bubbles injected here --></div>
@@ -115,9 +111,9 @@
       </form>
     </section>
 
-    <!-- The receipts column: the chain walked (SPINE layout) + supporting receipts
-         (resolve / neighbors). Rendered from structured tool returns, never from
-         the prose (design §3). The chain carries its own title + layout toggle. -->
+    <!-- The receipts column: the chain walked (the deduped spine) + supporting
+         receipts (resolve / neighbors). Rendered from structured tool returns,
+         never scraped from the prose (design §3). -->
     <aside class="receipts-col" aria-label="The chain walked">
       <div class="receipts" id="receipts"><!-- receipt cards injected here --></div>
     </aside>
@@ -127,6 +123,10 @@
     a fan project · quotes © George R.R. Martin, used for commentary
   </footer>
 
-  <script src="/app.js?v=176b" type="module"></script>
+  <!-- Node dossier: a live /api/node lookup opens here when any chain node is
+       clicked. Hidden until opened; app.js fills the card and toggles [hidden]. -->
+  <div class="dossier-overlay" id="dossier" hidden></div>
+
+  <script src="/app.js?v=178" type="module"></script>
 </body>
 </html>

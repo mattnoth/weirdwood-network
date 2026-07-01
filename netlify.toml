@@ -27,6 +27,13 @@
   path = "/api/chat"
   function = "chat"
 
+# The node-lookup endpoint. The browser GETs /api/node?slug= to open a node's
+# dossier (name, type, identity, curated quotes). Keyless, no model call — a plain
+# read of the same in-memory graph bundle the chat function loads. (S177)
+[[edge_functions]]
+  path = "/api/node"
+  function = "node"
+
 [functions]
   # No standard (Node) Functions in the alpha — the chat path is an Edge function.
   # Placeholder kept so the section exists if a non-streaming helper is added later.

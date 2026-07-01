@@ -85,13 +85,15 @@ export interface ChainLink {
   depth: number;
 }
 
-/** walkChain() return: causal antecedents (upstream) + consequences (downstream). */
+/** walkChain() return: causal antecedents (upstream) + consequences (downstream) + preconditions. */
 export interface ChainResult {
   slug: string;
-  /** true when ENABLES preconditions were followed too (--full-chain). */
-  full: boolean;
   upstream: ChainLink[];
   downstream: ChainLink[];
+  /** ENABLES edges that precondition nodes in the causal spine. Returned with the
+   *  spine (one round-trip) so the UI can reveal the preconditions behind a toggle
+   *  while the model narrates only the clean causal spine. */
+  enables: ChainLink[];
 }
 
 /** One edge in the neighbors() relational view (no chain walk). */

@@ -44,7 +44,7 @@ import { readNode } from "./read-node.ts";
 /** The four retrieval tools, bound to a loaded bundle. */
 export interface Tools {
   resolve(phrase: string): ResolveCandidate[];
-  walkChain(slug: string, opts?: { full?: boolean }): ChainResult;
+  walkChain(slug: string): ChainResult;
   neighbors(slug: string): NeighborsResult;
   readNode(slug: string): NodeRecord | null;
 }
@@ -53,7 +53,7 @@ export interface Tools {
 export function createTools(data: GraphData): Tools {
   return {
     resolve: (phrase) => resolve(phrase, data),
-    walkChain: (slug, opts) => walkChain(slug, data, opts),
+    walkChain: (slug) => walkChain(slug, data),
     neighbors: (slug) => neighbors(slug, data),
     readNode: (slug) => readNode(slug, data),
   };

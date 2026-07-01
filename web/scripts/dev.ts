@@ -31,11 +31,14 @@ const FS_ROOT = fromFileUrl(new URL("../public/", import.meta.url));
 // Only the LIVE path needs the model SDK + 8.8 MB graph. In DEMO we skip importing
 // chat.ts entirely, so the replay is independent of any credential or the bundle.
 let handler: ((req: Request, ctx: never) => Promise<Response>) | null = null;
+let nodeHandler: ((req: Request) => Promise<Response>) | null = null;
 if (!DEMO) {
   // Set the model BEFORE importing chat.ts: its MODEL const reads this env at
   // module-eval time, and a dynamic import guarantees the env is set first.
   if (!Deno.env.get("WEIRWOOD_MODEL")) Deno.env.set("WEIRWOOD_MODEL", "claude-sonnet-4-6");
   handler = (await import("../netlify/edge-functions/chat.ts")).default;
+  // The keyless /api/node lookup (node dossiers). Reads the same bundle; no model.
+  nodeHandler = (await import("../netlify/edge-functions/node.ts")).default;
 }
 
 // ---- DEMO (no-key) replay --------------------------------------------------
@@ -101,6 +104,10 @@ Deno.serve(
     if (pathname === "/api/chat") {
       if (DEMO) return demoReplay();
       return await handler!(req, {} as never);
+    }
+    if (pathname === "/api/node") {
+      if (DEMO || !nodeHandler) return Response.json({ error: "node lookup not available in DEMO" }, { status: 503 });
+      return await nodeHandler(req);
     }
     // no-store so every reload picks up edited HTML/CSS/JS immediately (dev only).
     return await serveDir(req, { fsRoot: FS_ROOT, quiet: true, headers: ["cache-control: no-store"] });

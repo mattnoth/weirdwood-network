@@ -9,9 +9,10 @@
 // delta), `receipt` ({tool,input,result} — the panel renders from `result`, never
 // from the prose), `cite-check`, `status` (failure/empty states), `error`, `done`.
 //
-// "The chain walked" panel has TWO layouts, toggleable live (Matt S174): BAND
-// (full-width horizontal flow) and SPINE (vertical, in the side panel). Both
-// dedup shared nodes — each node appears once, joined by its typed edge.
+// "The chain walked" panel is one deduped vertical spine (S177; the full-width
+// Band was retired): each node appears once, joined by its typed edge, with the
+// ENABLES precondition web behind a "show preconditions" toggle. Every node opens
+// a dossier (live /api/node lookup); hovering a node lights the edges it touches.
 
 const $ = (sel, root = document) => root.querySelector(sel);
 
@@ -26,7 +27,9 @@ function el(tag, props = {}, children = []) {
     else if (k in node) node[k] = v;
     else node.setAttribute(k, v);
   }
-  for (const c of [].concat(children)) {
+  // Flatten nested arrays so a child that is itself a list (e.g. a mapped row set)
+  // renders its members, never String([div,div]) → "[object HTMLDivElement]".
+  for (const c of [].concat(children).flat(Infinity)) {
     if (c == null || c === false) continue;
     node.append(c.nodeType ? c : document.createTextNode(String(c)));
   }
@@ -49,12 +52,41 @@ function pretty(slug) {
   return s ? s[0].toUpperCase() + s.slice(1) : "—";
 }
 
-/** Strip wiki-markup artifacts the build left in some curated quotes:
- *  `[label](wiki:Page)` → `label`, and bare `(wiki:…cite_ref…)` → removed. */
+/** A cite token or chapter file path → a short human chapter label:
+ *  "sources/chapters/asos/asos-arya-11.md:51" → "ASOS Arya 11". The chapter file
+ *  name is `{book}-{pov}-{number}.md`; drop the path, the `.md`, and the line
+ *  number. Non-chapter refs (wiki cite_refs, anything unmatched) come back merely
+ *  stripped of their path prefix + backticks. */
+function prettyCite(ref) {
+  const s = String(ref || "").replace(/`/g, "").trim();
+  if (!s) return "";
+  const file = s.split("/").pop();
+  const m = file.match(/^([a-z0-9]+)-(.+)-(\d+)\.md(?::\d+)?$/i);
+  if (!m) return s.replace(/^sources\/chapters\//, "");
+  const pov = m[2].split("-").map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w)).join(" ");
+  return `${m[1].toUpperCase()} ${pov} ${Number(m[3])}`;
+}
+
+/** Strip wiki-markup artifacts the build left in some curated quotes
+ *  (`[label](wiki:Page)` → `label`, bare `(wiki:…)` → removed), and collapse any
+ *  baked-in source — a "BOOK Pov Roman (sources/…md:NN)" tail, or a bare chapter
+ *  path — down to the short chapter label ("ASOS Arya 11"). */
 function cleanQuote(text) {
   return String(text || "")
     .replace(/\[([^\]]+)\]\(wiki:[^)]*\)/g, "$1")
     .replace(/\(wiki:[^)]*\)/g, "")
+    // "ASOS Arya XI (`sources/…asos-arya-11.md:51`)" → "ASOS Arya 11" (optional
+    // human label + parenthesised path collapse together to the short label).
+    .replace(
+      /(?:[A-Z][\w']*(?:\s+[A-Za-z][\w']*)*\s+[IVXLCDM]+\s*)?\(`?\s*(sources\/chapters\/\S+?\.md:\d+)\s*`?\)/g,
+      (_m, path) => prettyCite(path),
+    )
+    // any bare leftover chapter path → the same short label
+    .replace(/`?\b(sources\/chapters\/[a-z0-9/_-]+\.md:\d+)`?/gi, (_m, path) => prettyCite(path))
+    // cut internal build provenance some curated attributions carry as a tail
+    // ("… — book-cite overlay (harvest row 1001); <gloss>") — never user-facing.
+    .replace(/\s*[—–-]\s*(?:book-cite overlay|harvest row)\b[\s\S]*$/i, "")
+    .replace(/`/g, "") // strip any remaining markdown backticks
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -122,11 +154,12 @@ function buildSequence(rawLinks, querySlug) {
 // ---- Per-turn receipt model ------------------------------------------------
 //
 // Receipts accumulate into this for the CURRENT turn, then the chain + supporting
-// cards render from it. Re-rendering on a layout toggle just re-reads the model.
+// cards render from it. Re-rendering (e.g. on the preconditions toggle) just
+// re-reads the model.
 
 let turn = freshTurn();
 function freshTurn() {
-  return { chainLinks: [], nodes: new Map(), resolves: [], neighbors: [], title: "", querySlug: null };
+  return { chainLinks: [], enables: [], nodes: new Map(), resolves: [], neighbors: [], title: "", querySlug: null };
 }
 
 // The last turn that produced a chain. The featured chain persists across a
@@ -144,21 +177,81 @@ function addNode(slug, rec) {
 
 // ---- Quote / evidence atoms ------------------------------------------------
 
+// The one book-quote renderer used everywhere — Bloodraven's answer prose, the
+// dossier, chain edges, preconditions, neighbours. When speaker/source arrive as
+// separate fields (prose markers, or a node with structured fields), the
+// attribution sits OUTSIDE the quote marks; when they're absent the text already
+// carries its own marks + "— speaker, source", so it renders as-is. A missing
+// speaker or source simply drops out (handles quotes with no attributable voice).
+// Trim one layer of leading/trailing DOUBLE quote marks (straight or curly) so a
+// line the source already wrapped in quotes isn't double-wrapped when we add our
+// own — no more dangling `"”`. Apostrophes/single quotes are left untouched.
+function stripEdgeQuotes(s) {
+  return String(s).replace(/^\s*["“”]+/, "").replace(/["“”]+\s*$/, "").trim();
+}
+
+function bookQuote(text, speaker, cite) {
+  const spk = speaker ? cleanQuote(speaker) : "";
+  const src = prettyCite(cite);
+  // Some curated quotes bake the chapter into BOTH the attribution and the cite;
+  // don't print the source twice.
+  const attr = (src && !spk.includes(src) ? [spk, src] : [spk]).filter(Boolean).join(", ");
+  const body = cleanQuote(text);
+  if (attr) {
+    return el("blockquote", { class: "bookquote" }, [
+      el("span", { class: "bq-text" }, `“${stripEdgeQuotes(body)}”`),
+      el("span", { class: "bq-attr" }, `— ${attr}`),
+    ]);
+  }
+  return el("blockquote", { class: "bookquote" }, el("span", { class: "bq-text" }, body));
+}
+
+// Parse a [[q|…]] marker's inner text into {text, speaker, cite}, tolerant of
+// 1–3 fields: text; text + (speaker OR cite — a cite is detected by an .md:NN
+// token); or text|speaker|cite.
+function parseQuoteFields(inner) {
+  const parts = String(inner).split("|");
+  const text = parts[0] || "";
+  let speaker = "", cite = "";
+  if (parts.length >= 3) {
+    speaker = parts[1];
+    cite = parts.slice(2).join("|");
+  } else if (parts.length === 2) {
+    if (/\.md:\d+|chapters\//.test(parts[1])) cite = parts[1];
+    else speaker = parts[1];
+  }
+  return { text, speaker, cite };
+}
+
+// Render streamed answer prose: [[q|…]] markers become styled bookQuote blocks,
+// the rest stays text. Streaming-safe — an incomplete trailing marker is hidden
+// until it closes, so the reader never sees a half-typed "[[q|".
+const QUOTE_MARK_RE = /\[\[q\|([\s\S]*?)\]\]/g;
+function renderProse(buf) {
+  const out = [];
+  let last = 0, m;
+  QUOTE_MARK_RE.lastIndex = 0;
+  while ((m = QUOTE_MARK_RE.exec(buf)) !== null) {
+    if (m.index > last) out.push(document.createTextNode(buf.slice(last, m.index)));
+    const f = parseQuoteFields(m[1]);
+    out.push(bookQuote(f.text, f.speaker, f.cite));
+    last = m.index + m[0].length;
+  }
+  let tail = buf.slice(last);
+  const open = tail.lastIndexOf("[[q|");
+  if (open !== -1 && tail.indexOf("]]", open) === -1) tail = tail.slice(0, open);
+  if (tail) out.push(document.createTextNode(tail));
+  return out;
+}
+
 function quoteList(quotes) {
-  return el("div", { class: "quotes" }, (quotes || []).map((q) =>
-    el("div", { class: "quote-row" }, [
-      el("p", { class: "quote" }, `“${cleanQuote(q.text)}”`),
-      (q.attribution || q.cite)
-        ? el("span", { class: "attribution" }, q.attribution || q.cite)
-        : false,
-    ])
-  ));
+  return el("div", { class: "quotes" }, (quotes || []).map((q) => bookQuote(q.text, q.attribution, q.cite)));
 }
 
 function edgeEvidence(l) {
   const body = [];
-  if (l.quote) body.push(el("p", { class: "quote" }, `“${cleanQuote(l.quote)}”`));
-  if (l.ref) body.push(el("span", { class: "cite" }, l.ref));
+  if (l.quote) body.push(bookQuote(l.quote, null, l.ref));
+  else if (l.ref) body.push(el("span", { class: "cite" }, prettyCite(l.ref)));
   if (l.tier != null) body.push(el("span", { class: "tier-badge" }, `Tier ${l.tier}`));
   return body.length
     ? el("div", { class: "link-evidence" }, body)
@@ -169,124 +262,221 @@ function edgePill(edgeType) {
   return el("span", { class: `edge-label ${etClass(edgeType)}` }, edgeType || "RELATED");
 }
 
-// ---- Chain layouts ---------------------------------------------------------
+// ---- The chain walked: one deduped, annotated, vertical spine --------------
+//
+// A single layout now — the full-width "Band" was retired (S177). The typed-edge
+// spine renders into the receipts rail (desktop) / below the prose (mobile). Each
+// node appears ONCE (a node seen earlier collapses to a slim, still-clickable
+// back-reference; a `·N` degree badge marks one several links touch). The clean
+// CAUSES/TRIGGERS/MOTIVATES spine shows by default; the ENABLES precondition web
+// hides behind ONE "show preconditions (+N)" toggle (progressive disclosure —
+// keep the detail, one tap away). Every node opens its dossier (a live /api/node
+// lookup); hovering a node lights the edges that touch it.
 
-const chainBandEl = $("#chain-band");
 const receiptsEl = $("#receipts");
-const stageEl = $(".stage");
 let walking = false; // true while a live turn is gathering, before the chain lands
 
-let layout = localStorage.getItem("weirwood-layout") || "band";
+// The preconditions toggle is sticky across turns (default: collapsed).
+let showPre = localStorage.getItem("weirwood-show-pre") === "1";
 
-function layoutToggle() {
-  const mk = (mode, label) =>
-    el("button", {
-      class: "lt-btn" + (layout === mode ? " active" : ""),
-      type: "button",
-      onclick: () => { layout = mode; localStorage.setItem("weirwood-layout", mode); renderReceipts(); },
-    }, label);
-  return el("div", { class: "layout-toggle", role: "group", "aria-label": "Chain layout" }, [
-    mk("band", "Band"), mk("spine", "Spine"),
-  ]);
+// How many causal-spine links touch each node slug (drives the `·N` degree badge).
+function degreeMap(rawLinks) {
+  const d = new Map();
+  for (const raw of rawLinks) {
+    const l = normLink(raw);
+    d.set(l.sourceSlug, (d.get(l.sourceSlug) || 0) + 1);
+    d.set(l.targetSlug, (d.get(l.targetSlug) || 0) + 1);
+  }
+  return d;
 }
 
 function chainHeader(chainTurn) {
   return el("div", { class: "chain-header" }, [
-    el("div", {}, [
-      el("h2", { class: "chain-title" }, "The chain walked"),
-      chainTurn.title ? el("p", { class: "chain-sub" }, chainTurn.title) : false,
-    ]),
-    layoutToggle(),
+    el("h2", { class: "chain-title" }, "The chain walked"),
+    chainTurn.title ? el("p", { class: "chain-sub" }, chainTurn.title) : false,
   ]);
 }
 
-// One detail panel (BAND only) — clicking a node/edge fills it.
-let bandDetailEl = null;
-function selectDetail(content) {
-  if (!bandDetailEl) return;
-  bandDetailEl.replaceChildren(content);
-}
-
-function renderBand(seq, chainTurn) {
-  const flow = el("div", { class: "chain-flow band" });
-  for (const it of seq) {
-    if (it.type === "node") {
-      const rec = chainTurn.nodes.get(it.slug);
-      const cls = "chain-node" + (it.terminal ? " terminal" : "") + (rec?.quotes?.length ? " has-quotes" : "");
-      flow.append(el("button", {
-        class: cls, type: "button",
-        onclick: rec?.quotes?.length
-          ? () => selectDetail(el("div", { class: "detail-body" }, [
-              el("div", { class: "card-title" }, rec.name || it.name),
-              rec.type ? el("div", { class: "card-type" }, rec.type) : false,
-              quoteList(rec.quotes),
-            ]))
-          : () => selectDetail(el("p", { class: "detail-empty" }, `${it.name} — no curated quotes on this node.`)),
-      }, it.name));
-    } else {
-      const l = it.link;
-      flow.append(el("button", {
-        class: `chain-edge ${etClass(l.edgeType)}`, type: "button",
-        onclick: () => selectDetail(el("div", { class: "detail-body" }, [
-          el("div", { class: "detail-edge" }, [l.source, " ", edgePill(l.edgeType), " ", l.target]),
-          edgeEvidence(l),
-        ])),
-      }, [edgePill(l.edgeType), el("span", { class: "edge-arrow" }, "→")]));
-    }
-  }
-  bandDetailEl = el("div", { class: "chain-detail" },
-    el("p", { class: "detail-empty" }, "Click a node for its book quotes, or an edge for the evidence line."));
-  chainBandEl.replaceChildren(chainHeader(chainTurn), flow, bandDetailEl);
-  chainBandEl.hidden = false;
-}
-
-// One node in the annotated spine: a card showing name + type, the queried node
-// highlighted as the hub (and its book quotes open by default), a node already
-// shown above collapsed to a slim back-reference.
-function spineNode(it, chainTurn) {
-  const rec = chainTurn.nodes.get(it.slug);
+// One node in the spine — always a button that opens its dossier. The queried
+// node is the hub; a repeat collapses to a slim back-reference; a degree badge
+// marks a well-connected node. Hover lights the edges touching it (desktop).
+function spineNode(it, degree) {
+  const deg = degree.get(it.slug) || 0;
   const cls = "spine-node"
     + (it.queried ? " hub" : "")
     + (it.terminal ? " terminal" : "")
     + (it.repeat ? " repeat" : "");
-  if (it.repeat) {
-    return el("div", { class: cls }, el("span", { class: "node-name" }, it.name));
-  }
   const head = el("div", { class: "node-head" }, [
     el("span", { class: "node-name" }, it.name),
-    it.nodeType ? el("span", { class: "node-type" }, prettyType(it.nodeType)) : false,
+    !it.repeat && it.nodeType ? el("span", { class: "node-type" }, prettyType(it.nodeType)) : false,
+    !it.repeat && deg > 1
+      ? el("span", { class: "node-degree", title: deg + " links in this chain" }, "·" + deg)
+      : false,
   ]);
-  if (rec?.quotes?.length) {
-    return el("details", { class: cls, open: it.queried }, [
-      el("summary", {}, [head]),
-      el("div", { class: "spine-body" }, quoteList(rec.quotes)),
+  return el("button", {
+    class: cls, type: "button",
+    dataset: { slug: it.slug },
+    onclick: () => openDossier(it.slug, it.name),
+    onmouseenter: () => highlightNode(it.slug),
+    onmouseleave: clearHighlight,
+  }, head);
+}
+
+// One edge in the spine — the evidence quote + cite + tier always visible (the
+// edge IS the evidence). Carries its endpoint slugs so a node hover can light it.
+function spineEdge(l) {
+  return el("div", {
+    class: "spine-edge " + etClass(l.edgeType),
+    dataset: { src: l.sourceSlug, tgt: l.targetSlug },
+  }, [
+    el("div", { class: "spine-edge-head" }, [
+      edgePill(l.edgeType),
+      l.tier != null ? el("span", { class: "tier-inline" }, "Tier " + l.tier) : false,
+    ]),
+    l.quote
+      ? bookQuote(l.quote, null, l.ref)
+      : (l.ref ? el("span", { class: "spine-cite" }, prettyCite(l.ref)) : false),
+  ]);
+}
+
+// The ENABLES precondition web, behind one toggle (progressive disclosure). Each
+// row is a precondition that ENABLES a spine node — dimmed/indented, default
+// hidden; the spine reads clean until the visitor asks for the fuller picture.
+function preconditionsBlock(enables) {
+  if (!enables || !enables.length) return false;
+  const btn = el("button", {
+    class: "pre-toggle" + (showPre ? " open" : ""),
+    type: "button",
+    "aria-expanded": String(showPre),
+    onclick: () => {
+      showPre = !showPre;
+      localStorage.setItem("weirwood-show-pre", showPre ? "1" : "0");
+      renderReceipts();
+    },
+  }, showPre ? "hide preconditions" : `show preconditions (+${enables.length})`);
+
+  if (!showPre) return el("div", { class: "pre-wrap" }, btn);
+
+  const preNode = (slug, name) =>
+    el("button", { class: "pre-node", type: "button", onclick: () => openDossier(slug, name) }, name);
+
+  const rows = enables.map((raw) => {
+    const l = normLink(raw);
+    return el("div", { class: "pre-row" }, [
+      el("div", { class: "pre-row-head" }, [
+        preNode(l.sourceSlug, l.source),
+        edgePill("ENABLES"),
+        preNode(l.targetSlug, l.target),
+      ]),
+      l.quote
+        ? bookQuote(l.quote, null, l.ref)
+        : (l.ref ? el("span", { class: "spine-cite" }, prettyCite(l.ref)) : false),
     ]);
-  }
-  return el("div", { class: cls }, head);
+  });
+  return el("div", { class: "pre-wrap open" }, [btn, el("div", { class: "pre-list" }, rows)]);
 }
 
 function renderSpine(seq, chainTurn) {
-  bandDetailEl = null;
+  const degree = degreeMap(chainTurn.chainLinks);
   const flow = el("div", { class: "chain-flow spine" });
   for (const it of seq) {
-    if (it.type === "node") {
-      flow.append(spineNode(it, chainTurn));
-    } else {
-      const l = it.link;
-      // Inline evidence on every edge — quote + cite + tier always visible (no
-      // click-to-reveal). The edge IS the evidence; that is the whole point.
-      flow.append(el("div", { class: `spine-edge ${etClass(l.edgeType)}` }, [
-        el("div", { class: "spine-edge-head" }, [
-          edgePill(l.edgeType),
-          l.tier != null ? el("span", { class: "tier-inline" }, `Tier ${l.tier}`) : false,
-        ]),
-        l.quote ? el("p", { class: "spine-quote" }, `“${cleanQuote(l.quote)}”`) : false,
-        l.ref ? el("span", { class: "spine-cite" }, l.ref) : false,
-      ]));
-    }
+    flow.append(it.type === "node" ? spineNode(it, degree) : spineEdge(it.link));
   }
-  receiptsEl.append(el("div", { class: "card chain-card" }, [chainHeader(chainTurn), flow]));
+  receiptsEl.append(el("div", { class: "card chain-card" }, [
+    chainHeader(chainTurn),
+    flow,
+    preconditionsBlock(chainTurn.enables),
+  ]));
 }
+
+// ---- Hover-peek: light the edges a node touches (desktop affordance) --------
+// Touch never fires mouseenter, so this is inert on mobile.
+let hotFlow = null;
+function highlightNode(slug) {
+  const flow = receiptsEl.querySelector(".chain-flow.spine");
+  if (!flow) return;
+  hotFlow = flow;
+  flow.classList.add("has-hot");
+  for (const edge of flow.querySelectorAll(".spine-edge")) {
+    edge.classList.toggle("hot", edge.dataset.src === slug || edge.dataset.tgt === slug);
+  }
+  for (const node of flow.querySelectorAll(".spine-node")) {
+    node.classList.toggle("hot", node.dataset.slug === slug);
+  }
+}
+function clearHighlight() {
+  if (!hotFlow) return;
+  hotFlow.classList.remove("has-hot");
+  for (const hot of hotFlow.querySelectorAll(".hot")) hot.classList.remove("hot");
+  hotFlow = null;
+}
+
+// ---- Node dossier: a live /api/node lookup in a modal over the page ---------
+//
+// Every chain node opens here. The chain receipts carry only name+type; the
+// dossier fetches the FULL node (identity prose + every curated book quote) from
+// the graph — the proof the nodes are live, not baked into a transcript. A
+// generation counter makes the latest open win (a stale fetch never overwrites a
+// newer one, and closing mid-flight discards the result).
+
+const dossierEl = $("#dossier");
+let dossierGen = 0;
+
+function dossierShell(children) {
+  return el("div", { class: "dossier-card", role: "dialog", "aria-modal": "true", "aria-label": "Node detail" }, [
+    el("button", { class: "dossier-close", type: "button", "aria-label": "Close", onclick: closeDossier }, "✕"),
+    el("div", { class: "dossier-body" }, children),
+  ]);
+}
+
+function closeDossier() {
+  dossierGen++; // invalidate any in-flight fetch
+  dossierEl.hidden = true;
+  dossierEl.replaceChildren();
+  document.body.classList.remove("dossier-open");
+}
+
+async function openDossier(slug, fallbackName) {
+  if (!slug) return;
+  const gen = ++dossierGen;
+  const label = fallbackName || pretty(slug);
+  document.body.classList.add("dossier-open");
+  dossierEl.hidden = false;
+  dossierEl.replaceChildren(dossierShell(el("p", { class: "dossier-loading" }, `Reading ${label}…`)));
+
+  let children;
+  try {
+    const res = await fetch(`/api/node?slug=${encodeURIComponent(slug)}`);
+    if (res.status === 404) {
+      children = [
+        el("div", { class: "dossier-head" }, [el("h3", {}, label), el("code", { class: "dossier-slug" }, slug)]),
+        el("p", { class: "dossier-empty" }, "No node by that slug in the graph."),
+      ];
+    } else if (!res.ok) {
+      throw new Error("status " + res.status);
+    } else {
+      const node = await res.json();
+      children = [
+        el("div", { class: "dossier-head" }, [
+          el("h3", {}, node.name || label),
+          node.type ? el("span", { class: "dossier-type" }, prettyType(node.type)) : false,
+        ]),
+        node.identity ? el("p", { class: "dossier-identity" }, cleanQuote(node.identity)) : false,
+        node.quotes && node.quotes.length
+          ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
+          : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet."),
+      ];
+    }
+  } catch (_err) {
+    children = el("p", { class: "dossier-empty" }, "Could not reach the graph for this node.");
+  }
+  if (gen !== dossierGen) return; // a newer dossier opened, or it was closed
+  dossierEl.replaceChildren(dossierShell(children));
+}
+
+// Close on backdrop click or Escape.
+dossierEl.addEventListener("click", (e) => { if (e.target === dossierEl) closeDossier(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !dossierEl.hidden) closeDossier(); });
 
 // ---- Supporting receipts (resolve / neighbors) into the sidebar ------------
 
@@ -335,19 +525,8 @@ function renderReceipts() {
     ...turn.neighbors.map((n) => neighborsCard(n)),
   ];
 
-  chainBandEl.replaceChildren();
-  chainBandEl.hidden = true;
   receiptsEl.replaceChildren();
-
-  const band = layout === "band" && hasChain;
-  stageEl.classList.toggle("mode-band", band);
-  stageEl.classList.toggle("no-aside", band && supporting.length === 0);
-
-  if (hasChain) {
-    if (band) renderBand(seq, chainTurn);
-    else renderSpine(seq, chainTurn);
-  }
-
+  if (hasChain) renderSpine(seq, chainTurn);
   for (const card of supporting) receiptsEl.append(card);
   if (!hasChain && supporting.length === 0) {
     receiptsEl.append(el("p", { class: "receipts-empty" },
@@ -378,11 +557,15 @@ function addBotBubble() {
   threadEl.append(wrap);
   scrollIn();
   let buf = "";
+  // Paint the whole buffer each token: [[q|…]] markers become styled quote blocks,
+  // the rest stays text. Re-parsing the full (short) reply per token is cheap and
+  // keeps streaming correct as a marker completes mid-stream.
+  const paint = () => bubble.replaceChildren(...renderProse(buf));
   return {
-    append(t) { buf += t; bubble.textContent = buf; scrollIn(); },
-    setText(t) { buf = t; bubble.textContent = buf; },
+    append(t) { buf += t; paint(); scrollIn(); },
+    setText(t) { buf = t; paint(); },
     bubbleEl: bubble,
-    finish() { wrap.classList.remove("streaming"); return buf; },
+    finish() { wrap.classList.remove("streaming"); paint(); return buf; },
   };
 }
 
@@ -460,6 +643,7 @@ function ingestReceipt({ tool, input, result }) {
       if (result) {
         if (result.slug) turn.querySlug = result.slug;
         addChainLinks([...(result.upstream || []).slice().reverse(), ...(result.downstream || [])]);
+        if (Array.isArray(result.enables)) turn.enables = result.enables;
       }
       break;
     case "neighbors":
