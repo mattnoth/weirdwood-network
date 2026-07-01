@@ -407,8 +407,31 @@ button.ft-node:hover, button.ft-node:focus-visible {
   padding: var(--sp-3) var(--sp-3) 0;
 }
 .ft-diagram-sub { color: var(--c-text-faint); }
+.ft-diagram-cap { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--sp-1); }
 .ft-diagram-scroll { overflow: auto; padding: var(--sp-3); max-height: 62vh; }
 .ft-diagram { display: block; }
+
+.ft-expand-btn {
+  margin-left: auto;
+  font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint);
+  background: transparent; border: 1px solid var(--c-border); border-radius: var(--radius-sm);
+  padding: 1px var(--sp-2); cursor: pointer; transition: var(--transition);
+}
+.ft-expand-btn:hover, .ft-expand-btn:focus-visible { color: var(--c-text); border-color: var(--c-accent); outline: none; }
+
+/* --- Family-tree modal: the inline chart, popped out full-size --- */
+.ft-modal-overlay { z-index: 19; } /* below the node dossier (20) — clicking a name inside the tree modal opens the dossier ON TOP of it */
+body.tree-modal-open { overflow: hidden; }
+.ft-modal-card {
+  position: relative;
+  width: min(92vw, 1200px); max-height: 90vh;
+  background: var(--c-surface); border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow);
+  padding: var(--sp-5);
+  display: flex; flex-direction: column; gap: var(--sp-2);
+}
+.ft-modal-card .ft-diagram-cap { padding: 0; padding-right: var(--sp-5); }
+.ft-modal-scroll { overflow: auto; flex: 1 1 auto; min-height: 0; }
 
 .ft-link { stroke: var(--c-border); stroke-width: 1.5; }
 

@@ -718,16 +718,9 @@ function descendantLayout(result) {
   };
 }
 
-function familyTreeDiagram(result) {
-  const layout = descendantLayout(result);
-  const rootName = result.rootName || pretty(result.root);
-  if (!layout) {
-    // Nothing to draw (no descendants in graph) — a plain line, no empty canvas.
-    return el("figure", { class: "ft-diagram-wrap" }, [
-      el("figcaption", { class: "ft-diagram-cap" }, `${rootName} — no descendants recorded in the graph.`),
-    ]);
-  }
-
+// Builds a fresh <svg> node-link tree from a layout — called once per mount
+// (inline preview and the expanded modal each need their own SVG instance).
+function buildTreeSVG(result, layout) {
   // Elbow from a parent's RIGHT edge to its child's LEFT edge (left-to-right tree).
   const edgeEls = layout.edges.map(([p, c]) => {
     const a = layout.pos.get(p), b = layout.pos.get(c);
@@ -774,13 +767,65 @@ function familyTreeDiagram(result) {
   };
   svg.addEventListener("click", (e) => open(e.target));
   svg.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(e.target); } });
+  return svg;
+}
 
+// ---- Tree modal: the same descendant chart, popped out full-size ----------
+// The inline rail preview is squeezed into a 62vh scroll box; a deep dynasty
+// is easier to read blown up in a modal (same overlay language as the node
+// dossier). Rebuilds its own SVG instance from the cached layout/result.
+
+const treeModalEl = $("#tree-modal");
+
+function closeTreeModal() {
+  treeModalEl.hidden = true;
+  treeModalEl.replaceChildren();
+  document.body.classList.remove("tree-modal-open");
+}
+
+function openTreeModal(result, layout, rootName) {
+  const svg = buildTreeSVG(result, layout);
+  const scroll = el("div", { class: "ft-modal-scroll" }, svg);
+  scroll.dataset.rootY = String(layout.rootY + FT_NODE_H / 2);
+  const card = el("div", { class: "ft-modal-card", role: "dialog", "aria-modal": "true", "aria-label": "Family tree" }, [
+    el("button", { class: "dossier-close", type: "button", "aria-label": "Close", onclick: closeTreeModal }, "✕"),
+    el("figcaption", { class: "ft-diagram-cap" }, [
+      `${rootName} — descendants`,
+      el("span", { class: "ft-diagram-sub" }, ` · ${layout.count} shown${result.truncated ? " (pruned)" : ""} · click a name`),
+    ]),
+    scroll,
+  ]);
+  treeModalEl.replaceChildren(card);
+  treeModalEl.hidden = false;
+  document.body.classList.add("tree-modal-open");
+  // Auto-centre the root vertically, same as the inline preview does.
+  requestAnimationFrame(() => { scroll.scrollTop = Math.max(0, layout.rootY + FT_NODE_H / 2 - scroll.clientHeight / 2); });
+}
+
+treeModalEl.addEventListener("click", (e) => { if (e.target === treeModalEl) closeTreeModal(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !treeModalEl.hidden) closeTreeModal(); });
+
+function familyTreeDiagram(result) {
+  const layout = descendantLayout(result);
+  const rootName = result.rootName || pretty(result.root);
+  if (!layout) {
+    // Nothing to draw (no descendants in graph) — a plain line, no empty canvas.
+    return el("figure", { class: "ft-diagram-wrap" }, [
+      el("figcaption", { class: "ft-diagram-cap" }, `${rootName} — no descendants recorded in the graph.`),
+    ]);
+  }
+
+  const svg = buildTreeSVG(result, layout);
   const scroll = el("div", { class: "ft-diagram-scroll" }, svg);
   scroll.dataset.rootY = String(layout.rootY + FT_NODE_H / 2);
   return el("figure", { class: "ft-diagram-wrap" }, [
     el("figcaption", { class: "ft-diagram-cap" }, [
       `${rootName} — descendants`,
       el("span", { class: "ft-diagram-sub" }, ` · ${layout.count} shown${result.truncated ? " (pruned)" : ""} · click a name`),
+      el("button", {
+        class: "ft-expand-btn", type: "button", "aria-label": "Open family tree full-size",
+        onclick: () => openTreeModal(result, layout, rootName),
+      }, "⤢ expand"),
     ]),
     scroll,
   ]);

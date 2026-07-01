@@ -1,5 +1,5 @@
 # Wiki Infobox Parser — Parse Stats
-Generated: 2026-05-01
+Generated: 2026-07-01
 
 ## Overview
 
@@ -9,7 +9,7 @@ Generated: 2026-05-01
 | Pages with infoboxes | 5,279 |
 | Pages with cite_refs | 5,280 |
 | Parse failures | 0 |
-| Elapsed time | 13.6s |
+| Elapsed time | 13.5s |
 
 ## Entity Type Distribution
 
@@ -45,35 +45,35 @@ Generated: 2026-05-01
 
 | Field | Count |
 |-------|-------|
-| `culture` | 6,064 |
-| `allegiance` | 4,141 |
-| `title` | 3,621 |
-| `allegiances` | 2,871 |
-| `titles` | 2,749 |
-| `issue` | 2,391 |
-| `born` | 2,253 |
-| `died` | 2,081 |
-| `books` | 1,950 |
-| `father` | 1,854 |
-| `book` | 1,657 |
-| `aliases` | 1,232 |
-| `region` | 1,145 |
-| `spouse` | 1,046 |
-| `mother` | 987 |
-| `head` | 927 |
-| `alias` | 676 |
-| `page` ⚠ (unmapped) | 676 |
-| `overlord` | 658 |
-| `seat` | 566 |
-| `race` | 551 |
-| `result` | 550 |
-| `place` | 512 |
-| `tv series` | 444 |
-| `played by` | 409 |
-| `coat of arms` | 344 |
-| `conflict` | 335 |
-| `pov` ⚠ (unmapped) | 333 |
-| `overlords` | 329 |
+| `culture` | 6,074 |
+| `allegiance` | 4,154 |
+| `title` | 3,613 |
+| `allegiances` | 2,872 |
+| `titles` | 2,761 |
+| `issue` | 2,400 |
+| `born` | 2,262 |
+| `died` | 2,094 |
+| `books` | 1,961 |
+| `father` | 1,864 |
+| `book` | 1,655 |
+| `aliases` | 1,230 |
+| `region` | 1,138 |
+| `spouse` | 1,059 |
+| `mother` | 993 |
+| `head` | 924 |
+| `page` ⚠ (unmapped) | 682 |
+| `alias` | 672 |
+| `overlord` | 655 |
+| `seat` | 567 |
+| `race` | 555 |
+| `result` | 549 |
+| `place` | 516 |
+| `tv series` | 441 |
+| `played by` | 406 |
+| `coat of arms` | 346 |
+| `pov` ⚠ (unmapped) | 336 |
+| `conflict` | 334 |
+| `overlords` | 330 |
 | `heir` | 313 |
 
 ## Unmapped Infobox Fields (schema signals)
@@ -83,43 +83,43 @@ High-count entries may indicate missing edge types.
 
 | Field | Count |
 |-------|-------|
-| `book` | 1,657 |
-| `page` | 676 |
-| `pov` | 333 |
-| `dynasty` | 227 |
-| `full name` | 196 |
+| `book` | 1,655 |
+| `page` | 682 |
+| `pov` | 336 |
+| `dynasty` | 222 |
+| `full name` | 191 |
 | `founded` | 161 |
-| `original air date` | 84 |
-| `running time` | 84 |
-| `directed by` | 84 |
-| `personal arms` | 75 |
-| `reign` | 49 |
-| `genre(s)` | 34 |
+| `original air date` | 85 |
+| `running time` | 85 |
+| `directed by` | 85 |
+| `personal arms` | 76 |
+| `reign` | 47 |
 | `queen` | 33 |
-| `country` | 27 |
-| `released` | 27 |
-| `named for` | 22 |
-| `series` | 22 |
-| `died out` | 22 |
-| `created` | 19 |
-| `dvd release` | 18 |
+| `genre(s)` | 33 |
+| `country` | 26 |
+| `released` | 26 |
+| `named for` | 23 |
+| `died out` | 23 |
+| `series` | 21 |
+| `created` | 18 |
 | `destroyed` | 17 |
-| `current leader` | 17 |
-| `followed&#160;by` | 14 |
-| `network` | 14 |
+| `current leader` | 16 |
+| `dvd release` | 14 |
 | `preceded&#160;by` | 13 |
+| `followed&#160;by` | 13 |
 | `organizations` | 13 |
+| `network` | 13 |
 | `disbanded` | 12 |
 | `cadet branch` | 12 |
-| `country of origin` | 12 |
+| `coronation` | 11 |
+| `country of origin` | 11 |
 | `original run` | 11 |
-| `coronation` | 10 |
-| `no. of episodes` | 10 |
-| `vassal` | 8 |
+| `no. of episodes` | 9 |
 | `symbol` | 8 |
-| `hatched` | 8 |
 | `vassals` | 8 |
+| `hatched` | 7 |
 | `size` | 7 |
-| `colors` | 7 |
+| `vassal` | 7 |
+| `colors` | 6 |
 | `queens` | 6 |
 | `reorganized` | 5 |

@@ -1217,6 +1217,14 @@ def parse_relationship_field(field_name, td_html):
             }
             if qualifier:
                 rel["qualifier"] = qualifier
+            # The link's title attribute is the actual page it points to — the
+            # disambiguated name (e.g. "Daenerys Targaryen (daughter of Aegon IV)")
+            # when the display text is a bare, ambiguous short form (e.g. "Daenerys
+            # Targaryen") via a piped wikilink. href falls back to the raw /index.php
+            # URL when no title attr was present; only trust it as a name when it
+            # isn't a URL and it actually disambiguates (differs from display text).
+            if href and not href.startswith("/") and "%" not in href and href != link_text:
+                rel["target_title"] = href
             results.append(rel)
     else:
         # No links (or all links were date links for Born/Died/Buried) —

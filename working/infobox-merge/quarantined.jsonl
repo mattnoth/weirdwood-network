@@ -303,6 +303,7 @@
 {"rule": "R6b", "page": "Dyanna Dayne", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
 {"rule": "R3c", "page": "Eddard Stark", "field": "Lovers", "target": "Wylla", "edge_type": "LOVER_OF", "qualifier": "supposedly"}
 {"rule": "R3c", "page": "Eddard Stark", "field": "Lovers", "target": "Ashara Dayne", "edge_type": "LOVER_OF", "qualifier": "rumored"}
+{"rule": "R3e", "page": "Edwyn Frey", "field": "Issue", "target": "Walda Frey", "edge_type": "PARENT_OF", "qualifier": ""}
 {"rule": "R6b", "page": "Elaena Targaryen", "field": "Titles", "target": "Parchments", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R3c", "page": "Elaena Targaryen", "field": "Lovers", "target": "Aegon IV Targaryen", "edge_type": "LOVER_OF", "qualifier": "rumored"}
 {"rule": "R3c", "page": "Eldon Estermont", "field": "Issue", "target": "Lomas Estermont", "edge_type": "PARENT_OF", "qualifier": "possibly"}
@@ -610,6 +611,7 @@
 {"rule": "R6b", "page": "Lord Swyft", "field": "Title", "target": "Cornfield", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R3c", "page": "Lord Tully (successor of Medgar)", "field": "Issue", "target": "Celia Tully", "edge_type": "PARENT_OF", "qualifier": "possibly"}
 {"rule": "R6a", "page": "Lord Uller (husband of Nymeria)", "field": "Spouse", "target": "Ny Sar", "edge_type": "SPOUSE_OF", "qualifier": "", "detail": "characters->locations"}
+{"rule": "R6b", "page": "Lord Wyl (conquest of Dorne)", "field": "Title", "target": "Wyl", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R3d", "page": "Lord of Storm's End", "field": "Heir", "target": "Myrcella Baratheon", "edge_type": "HEIR_TO", "qualifier": "disputed"}
 {"rule": "R3c", "page": "Loren I Lannister", "field": "Issue", "target": "Lyman Lannister", "edge_type": "PARENT_OF", "qualifier": "presumably"}
 {"rule": "R6b", "page": "Lorra Royce", "field": "Title", "target": "Winterfell", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
@@ -644,11 +646,11 @@
 {"rule": "R6b", "page": "Lythene Frey", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
 {"rule": "R6b", "page": "Malthar Xaq", "field": "Title", "target": "Koj", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R6b", "page": "Manfrey Martell", "field": "Titles", "target": "Sunspear", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
-{"rule": "R6b", "page": "Manfryd Merlyn", "field": "Title", "target": "Kite", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->species"}
+{"rule": "R6b", "page": "Manfryd Merlyn", "field": "Title", "target": "Kite", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
 {"rule": "R6b", "page": "Margaery Tyrell", "field": "Titles", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
 {"rule": "R6b", "page": "Marghaz zo Loraq", "field": "Title", "target": "Brazen Beasts", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
 {"rule": "R6b", "page": "Margot Lannister", "field": "Title", "target": "Starpike", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
-{"rule": "R6b", "page": "Marilda of Hull", "field": "Title", "target": "Mouse", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->foods"}
+{"rule": "R6b", "page": "Marilda of Hull", "field": "Title", "target": "Mouse", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
 {"rule": "R3d", "page": "Marilda of Hull", "field": "Lovers", "target": "Laenor Velaryon", "edge_type": "LOVER_OF", "qualifier": "disputed"}
 {"rule": "R3c", "page": "Marilda of Hull", "field": "Lovers", "target": "Corlys Velaryon", "edge_type": "LOVER_OF", "qualifier": "rumored"}
 {"rule": "R6b", "page": "Maris Baratheon", "field": "Title", "target": "Silent sister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
@@ -935,7 +937,7 @@
 {"rule": "R6b", "page": "Teora Kyndall", "field": "Title", "target": "Casterly Rock", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R6b", "page": "Teora Toland", "field": "Title", "target": "Lady", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->characters"}
 {"rule": "R6b", "page": "Ternesio Terys", "field": "Titles", "target": "Titan's Daughter", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
-{"rule": "R6b", "page": "Tessario", "field": "Title", "target": "Fingers", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Tessario", "field": "Title", "target": "Fingers", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
 {"rule": "R6b", "page": "Theodan Wells", "field": "Titles", "target": "Warrior's Sons", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
 {"rule": "R6b", "page": "Theomore Lannister", "field": "Title", "target": "New Castle", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R6b", "page": "Theomore Manderly", "field": "Titles", "target": "Order of the Green Hand", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->factions"}
@@ -949,6 +951,7 @@
 {"rule": "R6b", "page": "Three-Tooth", "field": "Title", "target": "Ten Towers", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R6c", "page": "Three Thousand of Qohor", "field": "Result", "target": "Qohorik victory", "edge_type": "DEFEATS", "qualifier": ""}
 {"rule": "R6b", "page": "Tigaro Moraqos", "field": "Title", "target": "Magister", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
+{"rule": "R6b", "page": "Tom Codd", "field": "Title", "target": "Lamentation", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->artifacts"}
 {"rule": "R6b", "page": "Toman", "field": "Title", "target": "Ghost Hill", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R6b", "page": "Tommard Heddle", "field": "Titles", "target": "Whitewalls", "edge_type": "HOLDS_TITLE", "qualifier": "", "detail": "->locations"}
 {"rule": "R3a", "page": "Tommen Baratheon", "field": "Fathers", "target": "Robert I Baratheon", "edge_type": "PARENT_OF", "qualifier": "legally"}

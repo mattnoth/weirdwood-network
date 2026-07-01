@@ -17,6 +17,14 @@
       "cwd": "web/public",
       "port": 8766,
       "autoPort": true
+    },
+    {
+      "name": "weirwood-dev-fixtures",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8767"],
+      "cwd": "web",
+      "port": 8767,
+      "autoPort": true
     }
   ]
 }

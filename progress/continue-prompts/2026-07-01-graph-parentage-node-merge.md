@@ -1,5 +1,19 @@
-# SESSION 180 — Graph parentage cleanup, phase 2: node merges + conflation-bucket splits
-> **This is Session 180.** Stamp your worklog entry `### Session 180` at endsession.
+# SESSION 181 — Graph parentage cleanup, phase 2: node merges + conflation-bucket splits
+> **This is Session 181.** Stamp your worklog entry `### Session 181` at endsession.
+> (Renumbered from 180→181: S180 fired on unrelated chat-UI + infobox-disambiguation
+> work instead, per Matt's redirect — this track never got picked up, just delayed one slot.)
+
+> **STALE-INPUT WARNING (added at S180 endsession, read before trusting the JSONL below):**
+> S180 shipped an UNRELATED fix (wiki-infobox-parser.py + infobox-merge.py: a piped-wikilink
+> disambiguation-title bug — see worklog S180 entry) that corrected 375 relationship
+> resolutions and retracted 137 stale wrong edges graph-wide. Side effect: the >2-parent
+> count this file's "50" figures were built from has dropped **50 → 13** (verified by
+> direct query at S180 endsession). Confirmed ZERO slug overlap between S180's 375 fixed
+> rows and this file's `parent-edge-proposal.jsonl` — the classes below are not directly
+> invalidated. But the underlying edges.jsonl changed materially since the classifier ran.
+> **Re-run `scripts/audit-parent-conflation.py` FRESH before trusting any count/slug in
+> this file** — treat the JSONL/verdict docs below as directional (the taxonomy and rules
+> still apply) rather than an exact current inventory.
 
 > **Track:** graph-data correctness (graph track, global S-numbering → `worklog.md`).
 > Phase 1 (S179) shipped the 138 provably-safe PARENT_OF deletes + epithet aliases +

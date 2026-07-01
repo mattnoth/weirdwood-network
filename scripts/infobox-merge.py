@@ -760,8 +760,27 @@ def run_pipeline(dry_run: bool = True, apply_confirmed: bool = False, rng_seed: 
                 })
                 continue
 
-            # Rule 4: target resolution
+            # Rule 4: target resolution. Prefer the link's disambiguated title
+            # (e.g. "Daenerys Targaryen (daughter of Aegon IV)") over the bare
+            # display text (e.g. "Daenerys Targaryen") when the wikilink used a
+            # piped display form — otherwise a same-named, more-prominent node
+            # silently swallows the edge (see the Maron-Martell's-son bug).
+            # Gated narrowly to actual DISAMBIGUATION: the title must be the same
+            # base name plus a "(...)" qualifier (kebab with parens stripped ==
+            # the display text's kebab). This deliberately excludes cases where
+            # title and display text are just different words for related-but-
+            # distinct concepts (e.g. "Ser" -> title "Knight", "Myrish" -> title
+            # "Myr") — those are a separate, unreviewed class of edge change, not
+            # the identity-collision bug this override targets.
+            # Only override when the title actually resolves to a DIFFERENT node;
+            # if it doesn't resolve, fall back to the plain-text resolution so
+            # this never turns a previously-resolved edge into an unresolved one.
             tgt, tgt_cat, tgt_how = resolve(tgt_name, nodes, alias)
+            title_hint = r.get("target_title")
+            if title_hint and "(" in title_hint and kebab(title_hint) == kebab(tgt_name):
+                title_tgt, title_cat, title_how = resolve(title_hint, nodes, alias)
+                if title_tgt is not None and title_tgt != tgt:
+                    tgt, tgt_cat, tgt_how = title_tgt, title_cat, title_how
             if tgt is None:
                 stats["F4_target_unresolved"] += 1
                 filtered.append({

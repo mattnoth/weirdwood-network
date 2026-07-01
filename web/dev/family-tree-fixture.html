@@ -82,6 +82,10 @@
     <div class="fx-pick" id="pick">Click a name to see its prominence.</div>
   </div>
 
+  <!-- Mirrors public/index.html's #tree-modal — the "expand" button pops the
+       chart here, full-size, to check the modal treatment matches app.css. -->
+  <div class="dossier-overlay ft-modal-overlay" id="tree-modal" hidden></div>
+
   <script src="fixtures/family-tree-data.js"></script>
   <script>
     // ---- Prominence tiers (tweak these) ----
@@ -129,8 +133,9 @@
       return { pos, edges: [...treeParent].map(([c, p]) => [p, c]), width: PAD * 2 + (maxDepth + 1) * sx, height: PAD * 2 + next * sy, rootY: pos.get(rootSlug).y };
     }
 
-    function render(result) {
-      const lay = layout(result);
+    // Builds a fresh <svg> (mirrors app.js's buildTreeSVG) — called once for the
+    // inline preview and again for the modal, since a node can't live in two places.
+    function buildSVG(result, lay) {
       const edges = lay.edges.map(([p, c]) => {
         const a = lay.pos.get(p), b = lay.pos.get(c);
         const x1 = a.x + NODE_W, y1 = a.y + NODE_H / 2, x2 = b.x, y2 = b.y + NODE_H / 2, mx = (x1 + x2) / 2;
@@ -157,14 +162,52 @@
         document.getElementById("pick").textContent =
           `${g.dataset.name} — prominence ${g.dataset.prom} (degree ${g.dataset.deg}, ${g.dataset.q} quotes) · ${g.classList.contains("no-node") ? "no node" : "clickable → dossier in the app"}`;
       });
+      return svg;
+    }
+
+    const treeModalEl = document.getElementById("tree-modal");
+    function closeTreeModal() { treeModalEl.hidden = true; treeModalEl.replaceChildren(); document.body.classList.remove("tree-modal-open"); }
+    treeModalEl.addEventListener("click", (e) => { if (e.target === treeModalEl) closeTreeModal(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !treeModalEl.hidden) closeTreeModal(); });
+
+    function openTreeModal(result, lay, capText) {
+      const svg = buildSVG(result, lay);
+      const scroll = document.createElement("div");
+      scroll.className = "ft-modal-scroll";
+      scroll.append(svg);
+      const cap = document.createElement("figcaption");
+      cap.className = "ft-diagram-cap";
+      cap.textContent = capText;
+      const closeBtn = document.createElement("button");
+      closeBtn.className = "dossier-close"; closeBtn.type = "button"; closeBtn.setAttribute("aria-label", "Close");
+      closeBtn.textContent = "✕"; closeBtn.onclick = closeTreeModal;
+      const card = document.createElement("div");
+      card.className = "ft-modal-card"; card.setAttribute("role", "dialog"); card.setAttribute("aria-modal", "true");
+      card.append(closeBtn, cap, scroll);
+      treeModalEl.replaceChildren(card);
+      treeModalEl.hidden = false;
+      document.body.classList.add("tree-modal-open");
+      requestAnimationFrame(() => { scroll.scrollTop = Math.max(0, (lay.rootY + NODE_H / 2) - scroll.clientHeight / 2); });
+    }
+
+    function render(result) {
+      const lay = layout(result);
+      const svg = buildSVG(result, lay);
       const scroll = document.createElement("div");
       scroll.className = "ft-diagram-scroll";
       scroll.style.maxHeight = "68vh";
       scroll.append(svg);
+      const majors = result.members.filter((m) => m.prominence >= P_MAJOR).length;
+      const capText = `${result.rootName} — descendants · ${result.members.length} kin · ${majors} highlighted`;
       const cap = document.createElement("figcaption");
       cap.className = "ft-diagram-cap";
-      const majors = result.members.filter((m) => m.prominence >= P_MAJOR).length;
-      cap.textContent = `${result.rootName} — descendants · ${result.members.length} kin · ${majors} highlighted`;
+      const capMain = document.createElement("span");
+      capMain.textContent = capText;
+      const expandBtn = document.createElement("button");
+      expandBtn.className = "ft-expand-btn"; expandBtn.type = "button"; expandBtn.setAttribute("aria-label", "Open family tree full-size");
+      expandBtn.textContent = "⤢ expand";
+      expandBtn.onclick = () => openTreeModal(result, layout(result), capText);
+      cap.append(capMain, expandBtn);
       const fig = document.createElement("figure");
       fig.className = "ft-diagram-wrap";
       fig.append(cap, scroll);
