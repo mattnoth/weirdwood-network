@@ -12,9 +12,8 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
+| `2026-07-01-chat-ui-targaryen-tree-design.md` | 2026-07-01 | Chat-UI — finish the ancestral Targaryen family-tree design | **LIVE** (meta) → fires as **S182** | Sonnet 4.6 | Matt confirmed at S181 endsession: finish the Targaryen tree design next. FIRST step is a review gate — verify the S180/S181 concurrent-write collision (`history/session-details/session-181.md`) didn't leave the graph in a bad state before building UI on it. Then: wire prominence-tier highlighting (major/notable/minor) into the live `familyTreeDiagram` render (CSS+logic already prototyped in `web/dev/family-tree-fixture.html`, just needs porting), confirm the Targaryen demo now renders cleanly post-graph-cleanup, and check fuzzy-resolve on Targaryen names. Pop-out modal already shipped (S180) — do not redo. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
-
-**No LIVE graph/meta track right now** — graph-parentage cleanup (both phases) is COMPLETE as of S181. The natural next thread is resuming chat-UI frontend polish (Matt asked about this at S181 endsession but hadn't confirmed go-ahead yet) → see the archived `2026-07-01-chat-ui-frontend-remainder-PARKED.md` below; promote it back to this table when Matt confirms.
 
 ---
 
