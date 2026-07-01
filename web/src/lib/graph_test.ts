@@ -171,11 +171,36 @@ Deno.test("familyTree: bonds only ever connect members, and the size cap holds",
     seen.add(key);
   }
 
-  // The Targaryen line overflows the cap, so it must report truncation, not
-  // silently drop kin. memberCount matches members.length.
+  // memberCount is the honest size of the returned set, capped at MAX_FAMILY_MEMBERS.
   assert.equal(t.memberCount, t.members.length);
-  assert.ok(t.memberCount <= 64, "member set is capped");
+  assert.ok(t.memberCount <= 96, "member set is capped");
+
+  // Aegon I's dynasty — the near-root breadth PLUS the threaded deep main-line
+  // spine down to the book era — overflows the cap, so it must REPORT truncation
+  // rather than silently dropping kin.
   assert.equal(t.truncated, true, "a dynasty larger than the cap reports truncated");
+});
+
+Deno.test("familyTree: the deep main-line spine reaches the book era from a distant ancestor", () => {
+  // Aegon I → Daenerys is 12 PARENT_OF hops — far past the breadth horizon. The
+  // deep spine must thread the main lines down to the book generation.
+  const t = familyTree(AEGON_SLUG, data);
+  const slugs = new Set(t.members.map((m) => m.slug));
+  for (const book of ["daenerys-targaryen", "rhaegar-targaryen", "aerys-ii-targaryen", "aegon-v-targaryen"]) {
+    assert.ok(slugs.has(book), `deep spine reaches ${book}`);
+  }
+  // The Blackfyre cadet split (the great bastards) sits on the main line.
+  assert.ok(slugs.has("daemon-i-blackfyre"), "deep spine reaches the Blackfyre split");
+
+  // A deep generation stays NARROW — the main line, not the full brood — so a
+  // 12-generation dynasty doesn't spiral out of control.
+  const gen9 = t.members.filter((m) => m.generation === 9).length;
+  assert.ok(gen9 <= 8, `a deep generation is a narrow main line, got ${gen9}`);
+
+  // A tight explicit window opts OUT of the deep spine (bounded local view).
+  const local = familyTree(AEGON_SLUG, data, { generationsUp: 1, generationsDown: 1 });
+  assert.ok(!new Set(local.members.map((m) => m.slug)).has("daenerys-targaryen"),
+    "an explicit shallow window does not thread the deep spine");
 });
 
 Deno.test("familyTree: generation bounds are respected (up ancestors / down descendants)", () => {

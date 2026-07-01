@@ -441,6 +441,24 @@ body.tree-modal-open { overflow: hidden; }
   stroke-width: 1;
   transition: fill var(--transition), stroke var(--transition);
 }
+/* Prominence tiers (ported from web/dev/family-tree-fixture.html). Marquee kin
+   read first; minor historical filler recedes. tier-* is set in buildTreeSVG
+   from prominence = degree + 4*quoteCount. The .hub root rule below wins over
+   these (equal specificity, later in source) so the queried person always pops. */
+.ft-dnode.tier-major .ft-dnode-box {
+  fill: var(--c-accent-faint);
+  stroke: var(--c-accent);
+  stroke-width: 1.75;
+}
+.ft-dnode.tier-major .ft-dnode-text .ln1 { font-weight: 700; fill: var(--c-text); }
+.ft-dnode.tier-notable .ft-dnode-box {
+  fill: var(--c-surface-2);
+  stroke: var(--c-accent-deep);
+}
+.ft-dnode.tier-minor .ft-dnode-box { fill: var(--c-bg); stroke: var(--c-border-soft); }
+.ft-dnode.tier-minor .ft-dnode-text { fill: var(--c-text-faint); }
+.ft-prom-dot { fill: var(--c-accent); }
+
 .ft-dnode[role="button"] { cursor: pointer; }
 .ft-dnode[role="button"]:hover .ft-dnode-box,
 .ft-dnode[role="button"]:focus-visible .ft-dnode-box {

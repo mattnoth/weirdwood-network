@@ -642,6 +642,13 @@ const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
 const FT_NODE_W = 148, FT_NODE_H = 38, FT_X_GAP = 44, FT_Y_GAP = 10, FT_PAD = 16;
 
+// Prominence tiers: prominence = degree + 4*quoteCount (computed in graph.ts
+// familyTree). Marquee kin (Dany, Rhaegar, Egg, Daemon...) clear P_MAJOR and get
+// the accent fill + a "worth a click" dot; historical filler / bare-surname stubs
+// fall to tier-minor and visually recede. Cutoffs mirror web/dev/family-tree-fixture.html.
+const FT_P_MAJOR = 40, FT_P_NOTABLE = 12;
+const ftTierOf = (p) => (p >= FT_P_MAJOR ? "major" : p >= FT_P_NOTABLE ? "notable" : "minor");
+
 /** Lay out the root's descendants as a tidy LEFT-TO-RIGHT tree: root at the left,
  *  each generation a column to its right, siblings stacked vertically. A deep
  *  dynasty stays narrow (a few generation-columns) and grows DOWN (natural
@@ -737,14 +744,18 @@ function buildTreeSVG(result, layout) {
   const nodeEls = [...layout.pos.values()].map(({ x, y, m }) => {
     const lines = nameLines(m.name);
     const isRoot = m.slug === result.root;
+    const tier = ftTierOf(m.prominence || 0);
     const g = svgEl("g", {
-      class: "ft-dnode" + (isRoot ? " hub" : "") + (m.hasNode ? "" : " no-node"),
+      class: `ft-dnode tier-${tier}` + (isRoot ? " hub" : "") + (m.hasNode ? "" : " no-node"),
       transform: `translate(${x} ${y})`,
     });
     g.dataset.slug = m.slug;
+    g.dataset.prom = m.prominence;
     if (m.hasNode) { g.setAttribute("role", "button"); g.setAttribute("tabindex", "0"); }
-    g.append(svgEl("title", {}, m.name));
+    g.append(svgEl("title", {}, `${m.name} — prominence ${m.prominence} (degree ${m.degree}, ${m.quoteCount} quotes)`));
     g.append(svgEl("rect", { class: "ft-dnode-box", width: FT_NODE_W, height: FT_NODE_H, rx: 6 }));
+    // A small accent dot on marquee kin = "this one's worth a click".
+    if (tier === "major") g.append(svgEl("circle", { class: "ft-prom-dot", cx: FT_NODE_W - 8, cy: 8, r: 3 }));
     const text = svgEl("text", { class: "ft-dnode-text", x: FT_NODE_W / 2, y: lines.length > 1 ? FT_NODE_H / 2 - 6 : FT_NODE_H / 2 });
     lines.forEach((ln, i) => {
       text.append(svgEl("tspan", { x: FT_NODE_W / 2, dy: i === 0 ? 0 : 14, class: i === 0 ? "ln1" : "ln2" }, clip(ln, 22)));
