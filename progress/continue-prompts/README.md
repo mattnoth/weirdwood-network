@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-01 (refreshed after S182)  
+**Generated:** 2026-07-01 (refreshed after S183)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-01-chat-ui-deploy-netlify.md` | 2026-07-01 | Chat-UI — publish the alpha live on Netlify | **LIVE** (meta) → fires as **S183** | Sonnet 4.6 | Matt's S182 directive: work toward publishing the live version. Build is DONE + green (36/36 tests); `netlify.toml` wired. Steps: verify remote current → pre-flight the build command (KNOWN stale-risk: it still `cp`s `featured-tywin.json` that S175 removed — check first) → connect + deploy (needs Matt's Netlify auth) → set `ANTHROPIC_API_KEY` server-side env → smoke the live URL (streaming, receipts, family-tree reaches book era, `/api/node`, no key leak) → **update root README.md** (Matt asked; still graph-only). Publish/copyright SETTLED — don't reopen. |
+| `2026-07-01-chat-ui-alpha-tester-notes.md` | 2026-07-01 | Chat-UI — triage & apply alpha-tester notes | **LIVE** (meta) → fires as **S184** | Sonnet 4.6 | Alpha is LIVE (S183, https://weirwood-network.netlify.app). Matt has alpha-tester feedback to feed in. Task: Matt pastes notes → bucket (bug / UX / content-quality / graph-gap) + show fix order → fix quick wins (front-end + prompt + retrieval) keeping `deno task test` green → draft-deploy verify → `--prod` on Matt's OK. Graph-data gaps route to a separate track (graph frozen here). Deploy mechanics proven S183 (CLI, env vars set). Deferred: fuzzy-resolve resolver track. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 95 files)
+## Archive (`archive/` subfolder — 96 files)
+
+> **`2026-07-01-chat-ui-deploy-netlify.md`** — archived S183. **DONE (S183): the chat-UI alpha is LIVE at https://weirwood-network.netlify.app.** Deployed via Netlify CLI (site `weirwood-network`, team `mattnoth`); prod env vars `ANTHROPIC_API_KEY` (secret, from gitignored `web/.env`) + `WEIRWOOD_MODEL=claude-sonnet-4-6`. Draft-first caught 5 deploy-breakers before prod: (1) stale `featured-tywin.json` cp in `netlify.toml` [removed], (2) `npm:` imports unresolvable on Netlify Edge → esm.sh URLs, (3) helper/test packaged as routes → moved `agent.ts`/`agent_test.ts` to `lib/` (only chat+node deploy), (4) **Netlify Edge has NO filesystem** — `Deno.readTextFile` 502'd → rewrote `data.ts` to inline the 8.7 MB bundle via JSON imports, (5) `nodeModulesDir:auto` so `node:` type-check resolves (36/36 green). Prod smoke: streaming + receipts + family tree to book era + `/api/node` + Sonnet-4.6 cost + no key leak. Committed `9ba0d204b4`. Superseded as live by `2026-07-01-chat-ui-alpha-tester-notes.md`.
 
 > **`2026-07-01-chat-ui-targaryen-tree-design.md`** — archived S182. **DONE (S182): the Targaryen family-tree design.** Passed the collision-review gate (graph confirmed clean). Wired prominence-tier highlighting (major/notable/minor + accent dot) into the live `familyTreeDiagram` render + modal. Then the substantive add (Matt's mid-session ask): a **deep main-line spine** in `familyTree` (`graph.ts`) so the Aegon-I tree reaches the book era — prominence-anchored path threading (top-24 deep descendants by degree+4·quoteCount) beyond the breadth horizon, additive (nothing displayed dropped), cap 64→96. Now reaches Dany/Rhaegar/Egg/Aemon + the full Blackfyre split. 36/36 deno tests. Fuzzy-resolve tested-not-fixed (deferred — own resolver track). Superseded as live by `2026-07-01-chat-ui-deploy-netlify.md` (publish the alpha).
 
