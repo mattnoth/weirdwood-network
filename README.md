@@ -2,6 +2,32 @@
 
 A structured knowledge graph for A Song of Ice and Fire (ASOIAF). Extracts characters, locations, events, relationships, and more from the source texts into a queryable graph with spoiler gating.
 
+## Live Chat Demo — Ask Bloodraven
+
+**→ https://weirwood-network.netlify.app**
+
+A deployed, book-grounded loremaster chat built on top of the graph. Ask a question
+and **Bloodraven** answers in character, grounded in the Weirwood Network: he resolves
+your query to real graph nodes, walks the typed-edge relationships, quotes the books with
+citations, and shows you the **chain of edges he walked** as receipts. Ask for a lineage
+(*"the Targaryen line from Aegon the Conqueror down to Daenerys"*) and he renders the
+family tree; ask a causal question (*"why did Robert's Rebellion start?"*) and he narrates
+the CAUSES/TRIGGERS/MOTIVATES chain.
+
+**Stack:** static front-end + **Netlify Edge Functions** (Deno/TypeScript) running a Claude
+tool-use loop on **Sonnet 4.6**. The ~8.7 MB curated-graph bundle is generated from `graph/`
+at build time (`scripts/build-chat-export.py`) and compiled into the edge function; the
+Anthropic API key lives server-side in the function (the browser never sees it), behind a
+daily spend cap. Full details and local-dev instructions: [`web/README.md`](web/README.md).
+
+Run it locally:
+
+```bash
+python3 scripts/build-chat-export.py   # (re)generate the web/data/ bundle
+cd web && deno task test               # 36 tests over the retrieval core
+# live end-to-end: `netlify dev` (needs the Netlify CLI + an ANTHROPIC_API_KEY in web/.env)
+```
+
 ## Getting Started
 
 ### Prerequisites

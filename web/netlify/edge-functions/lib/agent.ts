@@ -8,7 +8,7 @@
 // and the cost estimate. What lives in chat.ts: the real Anthropic client, the
 // SSE Response, request parsing, and the durable spend cap.
 
-import type { Tools } from "../../src/lib/mod.ts";
+import type { Tools } from "../../../src/lib/mod.ts";
 
 // ---- Wire types (a minimal local shape so this module never imports the SDK) ----
 

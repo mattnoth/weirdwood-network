@@ -27,7 +27,7 @@ export type {
   SpouseBond,
 } from "./types.ts";
 
-export { DEFAULT_DATA_DIR, loadGraphData } from "./data.ts";
+export { loadGraphData } from "./data.ts";
 export { normalize, tokenize } from "./normalize.ts";
 export { cleanPhrase, isValidSlug } from "./validate.ts";
 export { resolve } from "./resolve.ts";

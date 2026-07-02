@@ -5,8 +5,8 @@
 //   cd web && deno test --allow-read netlify/edge-functions/
 
 import assert from "node:assert/strict";
-import { createTools } from "../../src/lib/mod.ts";
-import { data, TYWIN_SLUG } from "../../src/lib/_fixtures.ts";
+import { createTools } from "../../../src/lib/mod.ts";
+import { data, TYWIN_SLUG } from "../../../src/lib/_fixtures.ts";
 import {
   type ChatMessage,
   estimateCostUsd,

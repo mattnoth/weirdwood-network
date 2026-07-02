@@ -34,16 +34,19 @@ netlify.toml                    # publish=web/public, edge_functions=web/netlify
 | Retrieval tools (resolve/walk_chain/read_node/neighbors) | ✅ done (S172) | `web/src/lib/` — `deno task test` (21 green) |
 | Edge function (tool-loop + Bloodraven prompt + streaming + spend cap + cite-gate) | ✅ done (S173) | `web/netlify/edge-functions/chat.ts` + `agent.ts` — `deno task test` (27 green), `check:fn` clean; **live `netlify dev` proof gated on Matt** |
 | Front-end (chat thread, live SSE, typed-edge receipts) | ✅ done (S174) | `web/public/index.html` + `app.css` + `app.js` — clean landing → live answers; SSE client + failure-mode UX; dry-validated (preview render + simulated SSE), **no API spend** |
-| Deploy (private repo → Netlify, `ANTHROPIC_API_KEY` env) | ⏳ **gated on Matt** | live `netlify dev` / deploy spend real API $ |
+| Deploy (private repo → Netlify, `ANTHROPIC_API_KEY` env) | ✅ **LIVE (S183)** | **https://weirwood-network.netlify.app** — `ANTHROPIC_API_KEY` (secret) + `WEIRWOOD_MODEL=claude-sonnet-4-6` set as Netlify env vars; smoke-tested (streaming, receipts, family tree, `/api/node`, no key leak) |
 | Public demo = captured REAL transcript | ⏳ **gated on Matt** | landing now starts clean (Tywin placeholder removed). Capture a real recorded conversation (e.g. multi-turn Red Wedding) and wire it as the demo before public deploy — no mocked AI prose |
 | live `search_chapters` / `read_passage` | ⏳ fast-follow | — |
 
 ## Data bundle (`web/data/`, generated — never committed)
 
 Built by `python3 scripts/build-chat-export.py` from `graph/` + the prebuilt
-alias index. NO LLM, NO network. The Edge function loads these at cold start;
-the whole bundle is **8.8 MB** (the entire curated graph fits in memory — no
-lazy-loading needed).
+alias index. NO LLM, NO network. These JSON files are **compiled into the edge
+function at build time** via JSON module imports (`src/lib/data.ts`) — Netlify
+Edge Functions run on Deno with **no filesystem access**, so the bundle can't be
+read from disk at runtime; it's inlined instead. The whole bundle is **~8.7 MB**
+(the entire curated graph fits in memory — no lazy-loading needed). Regenerate
+`web/data/` before `deno test`/`deno check`/deploy, or the imports won't resolve.
 
 | File | Shape | Used by |
 |---|---|---|

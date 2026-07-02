@@ -1,27 +1,30 @@
-// Bundle loader. Reads the static JSON in web/data/ into one in-memory GraphData.
-// The Edge function calls this once at cold start; the whole curated graph fits
-// in memory (~8.8 MB), so there is no lazy-loading and no per-call disk read.
+// Bundle loader. The three static JSON files in web/data/ are compiled INTO the
+// edge-function bundle at build time via JSON module imports — Netlify Edge
+// Functions run on Deno with NO filesystem access (Deno.readTextFile throws
+// "Reading or writing files with Edge Functions is not supported yet"), so the
+// ~8.7 MB curated graph must be inlined, not read from disk at runtime. The
+// python build (scripts/build-chat-export.py) regenerates these files before
+// every bundle; a fresh checkout must run it once before `deno test`/`deno check`.
+// (S183 — was Deno.readTextFile; that 502'd every edge request.)
 
 import type { AliasMap, Edge, GraphData, NodesMap } from "./types.ts";
 
-/** Default bundle location: web/data/, relative to this module (web/src/lib/). */
-export const DEFAULT_DATA_DIR = new URL("../../data/", import.meta.url);
-
-async function readJson<T>(name: string, base: URL): Promise<T> {
-  const url = new URL(name, base);
-  return JSON.parse(await Deno.readTextFile(url)) as T;
-}
+// deno-lint-ignore no-import-assertions
+import aliasMap from "../../data/alias-map.json" with { type: "json" };
+import nodes from "../../data/nodes.json" with { type: "json" };
+import edges from "../../data/edges.json" with { type: "json" };
 
 /**
- * Load alias-map.json, nodes.json and edges.json into a single GraphData.
- * Pass `dataDir` (a directory URL, must end in `/`) to read from elsewhere;
- * defaults to the co-located web/data/ bundle.
+ * Return the inlined curated graph as one GraphData. Kept async so cold-start
+ * call sites (`await loadGraphData()`) are unchanged; the data is already in
+ * memory once the module is imported (no I/O, no network — filesystem-free).
+ * Cast through `unknown` so tsc skips a deep structural check of the big literals.
  */
-export async function loadGraphData(dataDir: URL = DEFAULT_DATA_DIR): Promise<GraphData> {
-  const [aliasMap, nodes, edges] = await Promise.all([
-    readJson<AliasMap>("alias-map.json", dataDir),
-    readJson<NodesMap>("nodes.json", dataDir),
-    readJson<Edge[]>("edges.json", dataDir),
-  ]);
-  return { aliasMap, nodes, edges };
+// deno-lint-ignore require-await
+export async function loadGraphData(): Promise<GraphData> {
+  return {
+    aliasMap: aliasMap as unknown as AliasMap,
+    nodes: nodes as unknown as NodesMap,
+    edges: edges as unknown as Edge[],
+  };
 }

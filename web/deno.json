@@ -1,4 +1,5 @@
 {
+  "nodeModulesDir": "auto",
   "tasks": {
     "test": "deno test --allow-read src/lib/ netlify/edge-functions/",
     "check": "deno check src/lib/mod.ts",

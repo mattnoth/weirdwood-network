@@ -7,13 +7,14 @@
 //
 // Runtime decision (S171): Edge Functions. The 50 ms CPU limit excludes time spent
 // waiting on the Claude API, with a 40 s response-header window — the right fit for
-// a streaming multi-tool turn. SDK imported via npm:.
+// a streaming multi-tool turn. SDK + Blobs imported via esm.sh URLs — Netlify's
+// edge bundler can't resolve `npm:` specifiers (experimental), esm.sh is Deno-native.
 //
 // Auth (design §4): new Anthropic() resolves ANTHROPIC_API_KEY → ANTHROPIC_AUTH_TOKEN
 // → an `ant auth login` OAuth profile. Deployed: set ANTHROPIC_API_KEY in Netlify env.
 // Local: leave it unset and run on Matt's subscription. Key-present is the only diff.
 
-import Anthropic from "npm:@anthropic-ai/sdk@^0.106.0";
+import Anthropic from "https://esm.sh/@anthropic-ai/sdk@0.106.0";
 import type { Context } from "https://edge.netlify.com";
 import { createTools, loadGraphData } from "../../src/lib/mod.ts";
 import {
@@ -24,7 +25,7 @@ import {
   type RunTurn,
   SYSTEM_PROMPT,
   TOOL_DEFS,
-} from "./agent.ts";
+} from "./lib/agent.ts";
 
 // ---- Locked config (S171). Swap the model via this ONE constant. ----
 // Deploy default stays Opus (committed → deploy-safe, no edit-and-revert risk).
@@ -59,7 +60,7 @@ function spendKey(): string {
 
 async function getStore() {
   try {
-    const { getStore } = await import("npm:@netlify/blobs@^8");
+    const { getStore } = await import("https://esm.sh/@netlify/blobs@8");
     return getStore("weirwood-chat");
   } catch {
     return null;
