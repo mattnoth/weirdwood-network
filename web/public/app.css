@@ -32,6 +32,9 @@ body {
   align-items: flex-end;
   opacity: var(--weirwood-opacity);
   mix-blend-mode: var(--weirwood-blend);
+  /* Fuller toward the bottom, fading the top edge so it clears the header. */
+  -webkit-mask-image: linear-gradient(to top, #000 0%, #000 88%, transparent 100%);
+  mask-image: linear-gradient(to top, #000 0%, #000 88%, transparent 100%);
 }
 .weirwood-bg svg { width: min(1100px, 120vw); height: 100%; }
 
@@ -123,7 +126,9 @@ body.about-open .about-view { display: block; }
   color: var(--c-text-dim);
   margin: 0 auto;
   max-width: 46rem;
-  text-align: center;
+  /* Left-aligned to match the body paragraphs below — one consistent reading
+     column under the centred heading (Matt: about page needs consistent formatting). */
+  text-align: left;
 }
 .intro-lead em { font-style: italic; color: var(--c-text); }
 .intro-lead strong { color: var(--c-text); font-weight: 500; }
@@ -225,7 +230,8 @@ body.about-open .about-view { display: block; }
   position: sticky;
   bottom: var(--sp-4);
   margin-top: var(--sp-2);
-  background: color-mix(in srgb, var(--c-bg) 86%, transparent);
+  /* Near-opaque so streamed prose never bleeds through the chip box behind it. */
+  background: color-mix(in srgb, var(--c-bg) 97%, transparent);
   backdrop-filter: blur(6px);
   border: 1px solid var(--c-border);
   border-radius: var(--radius-lg);
@@ -420,7 +426,10 @@ button.ft-node:hover, button.ft-node:focus-visible {
 .ft-expand-btn:hover, .ft-expand-btn:focus-visible { color: var(--c-text); border-color: var(--c-accent); outline: none; }
 
 /* --- Family-tree modal: the inline chart, popped out full-size --- */
-.ft-modal-overlay { z-index: 19; } /* below the node dossier (20) — clicking a name inside the tree modal opens the dossier ON TOP of it */
+/* Below the node dossier (20) so clicking a name inside the tree modal opens the
+   dossier ON TOP of it. Uses the #id so it beats the later `.dossier-overlay`
+   z-index:20 rule (equal-specificity source order would otherwise win). */
+#tree-modal { z-index: 19; }
 body.tree-modal-open { overflow: hidden; }
 .ft-modal-card {
   position: relative;
@@ -492,8 +501,23 @@ body.tree-modal-open { overflow: hidden; }
 .chain-header { margin-bottom: var(--sp-2); }
 .chain-title { font-family: var(--font-prose); font-weight: 500; font-size: 1.15rem; margin: 0; }
 .chain-sub { font-size: var(--fs-cite); color: var(--c-text-faint); margin: 2px 0 0; }
+/* Affordance: tell the reader the spine nodes are openable (Matt: unclear what's clickable). */
+.chain-hint { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-accent-soft); margin: var(--sp-1) 0 0; opacity: 0.8; }
+.chain-hint::before { content: "▸ "; }
 
 .chain-card { background: var(--c-bg); }
+
+/* The two story-time sections — antecedents then consequences — each labelled so a
+   downstream consequence never reads as a cause (S185). */
+.chain-section { margin-top: var(--sp-3); }
+.chain-section + .chain-section { margin-top: var(--sp-4); }
+.chain-section-label {
+  font-family: var(--font-mono); font-size: var(--fs-cite); letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--c-text-faint); margin: 0 0 var(--sp-1);
+}
+/* Inside a section the flow's own top margin is redundant with the label gap. */
+.chain-section .chain-flow.spine { margin-top: var(--sp-1); }
+
 .chain-flow.spine {
   display: flex; flex-direction: column; gap: 2px; margin-top: var(--sp-3);
   /* bounded — a long chain scrolls inside the card, never runs far past the chat */
@@ -569,8 +593,8 @@ body.tree-modal-open { overflow: hidden; }
 .dossier-overlay {
   position: fixed; inset: 0; z-index: 20;
   display: flex; align-items: center; justify-content: center; padding: var(--sp-5);
-  background: color-mix(in srgb, var(--c-bg-deep) 78%, transparent);
-  backdrop-filter: blur(3px);
+  background: color-mix(in srgb, var(--c-bg-deep) 90%, transparent);
+  backdrop-filter: blur(5px);
 }
 /* The class sets display:flex, which would otherwise beat the UA [hidden] rule —
    keep the overlay truly gone (no stray backdrop dimming the page) until opened. */
@@ -595,6 +619,14 @@ body.dossier-open { overflow: hidden; }
 .dossier-type { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); letter-spacing: 0.03em; }
 .dossier-slug { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
 .dossier-identity { color: var(--c-text-dim); font-size: var(--fs-small); line-height: 1.6; margin: 0 0 var(--sp-4); }
+/* Wiki-sourced identity prose, labelled so its provenance is explicit (characters
+   are from the books; this reference blurb is from the wiki). */
+.dossier-wiki { margin-bottom: var(--sp-3); }
+.dossier-wiki .dossier-identity {
+  margin: 0; padding-left: var(--sp-3);
+  border-left: 2px solid var(--c-border);
+  font-style: italic;
+}
 .dossier-sub {
   font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint);
   letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: var(--sp-1);

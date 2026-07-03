@@ -327,6 +327,12 @@ export interface AgentResult {
   grounding: number;
   unverifiedCites: string[];
   stopState: "end_turn" | "loop-bound-hit" | "refusal" | "other";
+  /** The assembled answer prose (streamed deltas, joined). */
+  prose: string;
+  /** Every tool call this turn, in order: name + input (the resolve/read_node/
+   *  walk_chain slugs). This is the replayable spine of the walked chain — a
+   *  later defect hunt can re-run these exact calls against the graph. */
+  toolTrace: Array<{ tool: string; input: unknown }>;
 }
 
 /**
@@ -350,6 +356,7 @@ export async function runAgent(
   let grounding = 0;
   const usage = { input: 0, output: 0 };
   let stopState: AgentResult["stopState"] = "other";
+  const toolTrace: AgentResult["toolTrace"] = [];
 
   for (let i = 0; i < MAX_TOOL_ITERATIONS; i++) {
     const turn = await runTurn(messages, (delta) => {
@@ -376,6 +383,7 @@ export async function runAgent(
     const results: ContentBlock[] = [];
     for (const tu of toolUses) {
       toolCalls++;
+      toolTrace.push({ tool: tu.name, input: tu.input });
       const out = dispatchTool(tu.name, tu.input, tools);
       grounding += harvestResult(out, validCites);
       emit("receipt", { tool: tu.name, input: tu.input, result: out });
@@ -402,5 +410,5 @@ export async function runAgent(
     emit("status", { state: "no-grounding" });
   }
 
-  return { usage, toolCalls, grounding, unverifiedCites, stopState };
+  return { usage, toolCalls, grounding, unverifiedCites, stopState, prose, toolTrace };
 }

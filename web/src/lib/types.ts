@@ -29,6 +29,13 @@ export interface NodeRecord {
   type: string;
   identity: string;
   quotes: NodeQuote[];
+  /** Chronological sort anchors (event nodes only; absent otherwise). Written by
+   *  build-chat-export.py from the node's `sort_keys:` block. `composite` is the
+   *  story-time key `{ac_year:04d}.{book_order}.{chapter:03d}` (present only when the
+   *  event is dated); `reading_order` is the reading-order fallback `{book_order}.{chapter:03d}`.
+   *  walkChain() orders a causal chain by these instead of graph hop-depth. */
+  composite?: string;
+  reading_order?: string;
 }
 
 /** `nodes.json` — `{ "<slug>": NodeRecord }`. */

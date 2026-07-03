@@ -88,6 +88,14 @@ Deno.test("runAgent: resolves → reads → walks → answers, with receipts + g
   // Prose streamed as tokens.
   assert.ok(events.some((e) => e.event === "token"));
 
+  // Loggable turn record (S186): assembled prose + replayable tool trace.
+  assert.ok(result.prose.includes("His own son put the bolt in him."));
+  assert.deepEqual(
+    result.toolTrace.map((t) => t.tool),
+    ["resolve", "read_node", "walk_chain"],
+  );
+  assert.deepEqual(result.toolTrace[1].input, { slug: TYWIN_SLUG });
+
   // The gate flags ONLY the fabricated cite; the real one passes.
   assert.deepEqual(result.unverifiedCites, ["sources/chapters/fake/fake-99.md:999"]);
   const citeCheck = events.find((e) => e.event === "cite-check");

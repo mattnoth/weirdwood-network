@@ -66,6 +66,30 @@ def parse_frontmatter_scalar(fm_text, key):
     return val
 
 
+def parse_sort_keys(fm_text):
+    """Grab the chronological sort anchors from an event node's `sort_keys:` block
+    (built by scripts/build-event-sort-keys.py). Returns (composite, reading_order),
+    each a string or None. Scoped to the block so we never pick up a stray key
+    elsewhere in the frontmatter. Only event nodes carry this block."""
+    m = re.search(r"^sort_keys:\s*\n((?:[ \t]+\S.*\n?)+)", fm_text, re.MULTILINE)
+    if not m:
+        return None, None
+    block = m.group(1)
+
+    def grab(key):
+        km = re.search(rf"^\s+{key}:\s*(.+?)\s*$", block, re.MULTILINE)
+        if not km:
+            return None
+        v = km.group(1).strip()
+        if v in ("null", "~", ""):
+            return None
+        if v[0] in "\"'" and v[-1] == v[0]:
+            v = v[1:-1]
+        return v or None
+
+    return grab("composite"), grab("reading_order")
+
+
 def split_sections(body):
     """Return {heading_lower: text} for `## Heading` sections."""
     sections = {}
@@ -139,12 +163,22 @@ def load_nodes():
         # Strip inline markdown link syntax [text](slug) -> text for clean prose.
         identity = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", identity).strip()
         quotes = parse_quotes(sections.get("quotes", ""))
-        nodes[slug] = {
+        rec = {
             "name": name,
             "type": ntype,
             "identity": identity,
             "quotes": quotes,
         }
+        # Chronological sort anchors (event nodes only). Carried onto the node so
+        # walkChain() can order a causal chain by story-time instead of graph hop-
+        # depth (S185). Only emitted when present — keeps the bundle small and
+        # non-event nodes clean.
+        composite, reading_order = parse_sort_keys(fm)
+        if composite is not None:
+            rec["composite"] = composite
+        if reading_order is not None:
+            rec["reading_order"] = reading_order
+        nodes[slug] = rec
     return nodes
 
 

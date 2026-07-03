@@ -91,6 +91,12 @@ function cleanQuote(text) {
     .trim();
 }
 
+/** True for the auto-generated placeholder identity ("<name> is a <type> from the
+ *  AWOIAF wiki.") that 81% of nodes carry — worthless copy, never shown. */
+function isWikiBoilerplate(identity) {
+  return /\bfrom the AWOIAF wiki\.?\s*$/i.test(String(identity || "").trim());
+}
+
 /** A node's type, prettified for the card subtitle ("event.wedding" → "event · wedding"). */
 function prettyType(t) {
   const s = String(t || "").trim();
@@ -159,7 +165,10 @@ function buildSequence(rawLinks, querySlug) {
 
 let turn = freshTurn();
 function freshTurn() {
-  return { chainLinks: [], enables: [], nodes: new Map(), resolves: [], neighbors: [], familyTrees: [], title: "", querySlug: null };
+  // upstream/downstream are kept SEPARATE (rendered as "what led to this" vs "what
+  // followed") so a downstream consequence can never surface among the causes;
+  // chainLinks is their union, used only for the degree badges + has-chain checks.
+  return { chainLinks: [], upstream: [], downstream: [], enables: [], nodes: new Map(), resolves: [], neighbors: [], familyTrees: [], title: "", querySlug: null };
 }
 
 // The last turn that produced a chain. The featured chain persists across a
@@ -167,10 +176,6 @@ function freshTurn() {
 // own chain — so a "no scene here" answer never blanks the showpiece.
 let lastGoodChain = null;
 
-function addChainLinks(links, title) {
-  turn.chainLinks.push(...links);
-  if (title) turn.title = title;
-}
 function addNode(slug, rec) {
   if (slug && rec) turn.nodes.set(slug, rec);
 }
@@ -294,6 +299,7 @@ function chainHeader(chainTurn) {
   return el("div", { class: "chain-header" }, [
     el("h2", { class: "chain-title" }, "The chain walked"),
     chainTurn.title ? el("p", { class: "chain-sub" }, chainTurn.title) : false,
+    el("p", { class: "chain-hint" }, "click any node to open its record"),
   ]);
 }
 
@@ -376,39 +382,57 @@ function preconditionsBlock(enables) {
   return el("div", { class: "pre-wrap open" }, [btn, el("div", { class: "pre-list" }, rows)]);
 }
 
-function renderSpine(seq, chainTurn) {
-  const degree = degreeMap(chainTurn.chainLinks);
+// One direction's spine: the deduped node/edge sequence for a link list, as a
+// labelled section. Returns false for an empty direction (rendered nothing).
+function spineSection(label, links, querySlug, degree) {
+  if (!links || !links.length) return false;
   const flow = el("div", { class: "chain-flow spine" });
-  for (const it of seq) {
+  for (const it of buildSequence(links, querySlug)) {
     flow.append(it.type === "node" ? spineNode(it, degree) : spineEdge(it.link));
   }
+  return el("div", { class: "chain-section" }, [
+    el("p", { class: "chain-section-label" }, label),
+    flow,
+  ]);
+}
+
+// The causal chain, rendered as TWO separate story-time-ordered sections —
+// antecedents ("what led to this") and consequences ("what followed") — never
+// merged into one list, so a downstream consequence can't read as a cause (S185).
+// The queried event is the pivot each section runs to/from.
+function renderSpine(chainTurn) {
+  const degree = degreeMap(chainTurn.chainLinks);
   receiptsEl.append(el("div", { class: "card chain-card" }, [
     chainHeader(chainTurn),
-    flow,
+    spineSection("What led to this", chainTurn.upstream, chainTurn.querySlug, degree),
+    spineSection("What followed", chainTurn.downstream, chainTurn.querySlug, degree),
     preconditionsBlock(chainTurn.enables),
   ]));
 }
 
 // ---- Hover-peek: light the edges a node touches (desktop affordance) --------
 // Touch never fires mouseenter, so this is inert on mobile.
-let hotFlow = null;
+let hotFlows = [];
 function highlightNode(slug) {
-  const flow = receiptsEl.querySelector(".chain-flow.spine");
-  if (!flow) return;
-  hotFlow = flow;
-  flow.classList.add("has-hot");
-  for (const edge of flow.querySelectorAll(".spine-edge")) {
-    edge.classList.toggle("hot", edge.dataset.src === slug || edge.dataset.tgt === slug);
-  }
-  for (const node of flow.querySelectorAll(".spine-node")) {
-    node.classList.toggle("hot", node.dataset.slug === slug);
+  const flows = [...receiptsEl.querySelectorAll(".chain-flow.spine")]; // both sections
+  if (!flows.length) return;
+  hotFlows = flows;
+  for (const flow of flows) {
+    flow.classList.add("has-hot");
+    for (const edge of flow.querySelectorAll(".spine-edge")) {
+      edge.classList.toggle("hot", edge.dataset.src === slug || edge.dataset.tgt === slug);
+    }
+    for (const node of flow.querySelectorAll(".spine-node")) {
+      node.classList.toggle("hot", node.dataset.slug === slug);
+    }
   }
 }
 function clearHighlight() {
-  if (!hotFlow) return;
-  hotFlow.classList.remove("has-hot");
-  for (const hot of hotFlow.querySelectorAll(".hot")) hot.classList.remove("hot");
-  hotFlow = null;
+  for (const flow of hotFlows) {
+    flow.classList.remove("has-hot");
+    for (const hot of flow.querySelectorAll(".hot")) hot.classList.remove("hot");
+  }
+  hotFlows = [];
 }
 
 // ---- Node dossier: a live /api/node lookup in a modal over the page ---------
@@ -456,12 +480,22 @@ async function openDossier(slug, fallbackName) {
       throw new Error("status " + res.status);
     } else {
       const node = await res.json();
+      // The nodes' `## Identity` is wiki-derived; 81% of it is the useless
+      // boilerplate "<name> is a <type> from the AWOIAF wiki." — never show that
+      // (a character is from the BOOKS, not the wiki). Real identity prose IS
+      // shown, but labelled "From the wiki" so its provenance is explicit.
+      const wikiIdentity = isWikiBoilerplate(node.identity) ? "" : cleanQuote(node.identity || "");
       children = [
         el("div", { class: "dossier-head" }, [
           el("h3", {}, node.name || label),
           node.type ? el("span", { class: "dossier-type" }, prettyType(node.type)) : false,
         ]),
-        node.identity ? el("p", { class: "dossier-identity" }, cleanQuote(node.identity)) : false,
+        wikiIdentity
+          ? el("div", { class: "dossier-wiki" }, [
+              el("div", { class: "dossier-sub" }, "From the wiki"),
+              el("p", { class: "dossier-identity" }, wikiIdentity),
+            ])
+          : false,
         node.quotes && node.quotes.length
           ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
           : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet."),
@@ -848,8 +882,7 @@ function renderReceipts() {
   // The chain renders from the current turn once it has one, otherwise from the
   // last good chain — so a failed or chain-less turn never blanks the showpiece.
   const chainTurn = turn.chainLinks.length ? turn : (lastGoodChain || turn);
-  const seq = buildSequence(chainTurn.chainLinks, chainTurn.querySlug);
-  const hasChain = seq.length > 0;
+  const hasChain = chainTurn.chainLinks.length > 0;
   const supporting = [
     ...turn.resolves.map((r) => resolveCard(r.phrase, r.cands)),
     ...turn.neighbors.map((n) => neighborsCard(n)),
@@ -858,11 +891,11 @@ function renderReceipts() {
   receiptsEl.replaceChildren();
   // A family tree is the star of a lineage query — render it above the spine.
   for (const ft of turn.familyTrees) receiptsEl.append(familyTreeCard(ft));
-  if (hasChain) renderSpine(seq, chainTurn);
+  if (hasChain) renderSpine(chainTurn);
   for (const card of supporting) receiptsEl.append(card);
   if (!hasChain && supporting.length === 0 && turn.familyTrees.length === 0) {
     receiptsEl.append(el("p", { class: "receipts-empty" },
-      walking ? "walking the graph…" : "Ask a question to see the chain the loremaster walks."));
+      walking ? "walking the graph…" : "Ask a question — the chain of cause and consequence it walks appears here."));
   }
 }
 
@@ -883,7 +916,7 @@ function addUserBubble(text) {
 function addBotBubble() {
   const bubble = el("div", { class: "bubble" }, "");
   const wrap = el("div", { class: "msg bot streaming" }, [
-    el("div", { class: "msg-role" }, "the loremaster"),
+    el("div", { class: "msg-role" }, "the three-eyed raven"),
     bubble,
   ]);
   threadEl.append(wrap);
@@ -996,7 +1029,13 @@ function ingestReceipt({ tool, input, result }) {
     case "walk_chain":
       if (result) {
         if (result.slug) turn.querySlug = result.slug;
-        addChainLinks([...(result.upstream || []).slice().reverse(), ...(result.downstream || [])]);
+        // walkChain already returns each direction in story-time order (S185); keep
+        // them apart for the two-section render. chainLinks is the union.
+        const up = result.upstream || [];
+        const down = result.downstream || [];
+        turn.upstream.push(...up);
+        turn.downstream.push(...down);
+        turn.chainLinks.push(...up, ...down);
         if (Array.isArray(result.enables)) turn.enables = result.enables;
       }
       break;
@@ -1065,7 +1104,7 @@ async function ask(question) {
       }
     });
   } catch (err) {
-    showError("Lost the connection to the loremaster.");
+    showError("Lost the connection to the three-eyed raven.");
     console.error(err);
   } finally {
     walking = false;

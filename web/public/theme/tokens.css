@@ -10,8 +10,8 @@
 
 :root {
   /* ---- Palette: warm dark ground (never #000), bone text, dusty red ------ */
-  --c-bg:            #1b1814;  /* deep warm charcoal — the page ground        */
-  --c-bg-deep:       #161310;  /* slightly deeper, for vignette / footer      */
+  --c-bg:            #16100e;  /* deep red-black ground (moved off Claude warm) */
+  --c-bg-deep:       #100b09;  /* slightly deeper, for vignette / footer      */
   --c-surface:       #241f1a;  /* lifted panel (chain panel, input well)      */
   --c-surface-2:     #2c2620;  /* hover / secondary surface                   */
   --c-bubble-user:   #2f2922;  /* the visitor's message bubble                */
@@ -23,16 +23,17 @@
   --c-text-dim:      #b3a994;  /* muted secondary text                        */
   --c-text-faint:    #8a8170;  /* captions, cites, timestamps                 */
 
-  --c-accent:        #c2664c;  /* dusty weirwood red — desaturated, not blood */
-  --c-accent-deep:   #9c4a38;  /* pressed / deep accent                       */
-  --c-accent-soft:   #d98f76;  /* light accent for links on dark              */
-  --c-accent-faint:  rgba(194,102,76,0.14); /* accent wash (chips, hovers)    */
+  --c-accent:        #c1332f;  /* weirwood red — clearly red now, not orange   */
+  --c-accent-deep:   #98241f;  /* pressed / deep accent                       */
+  --c-accent-soft:   #e0857b;  /* light accent for links on dark              */
+  --c-accent-faint:  rgba(193,51,47,0.14); /* accent wash (chips, hovers)     */
 
   --c-weirwood-pale: #ddd2bf;  /* bone-white weirwood bark (the tree motif)   */
+  --c-weirwood-dim:  #7a6f5c;  /* shadowed bark (branches / trunk striations) */
 
   /* Edge-type colours for the "chain walked" connectors (typed receipts).
      Distinct but all muted so the panel reads calm, not a rainbow. */
-  --c-edge-causes:    #c2664c;  /* CAUSES   — the dusty red                    */
+  --c-edge-causes:    #c1332f;  /* CAUSES   — the weirwood red                 */
   --c-edge-triggers:  #c9925a;  /* TRIGGERS — amber                           */
   --c-edge-motivates: #8f9b6a;  /* MOTIVATES— sage                            */
   --c-edge-enables:   #6f93a3;  /* ENABLES  — slate blue                      */
@@ -69,8 +70,8 @@
   /* ---- Weirwood-tree backdrop knobs (the actual SVG/illustration drops in
      during the front-end chunk; these control its presence so it stays a
      low-contrast motif behind content, never loud). ------------------------ */
-  --weirwood-opacity: 0.11;
-  --weirwood-blend: soft-light;
+  --weirwood-opacity: 0.16;
+  --weirwood-blend: normal;
 }
 
 /* A light theme is intentionally NOT shipped for the alpha (dark is the brief).

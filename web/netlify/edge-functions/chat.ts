@@ -89,6 +89,64 @@ async function addDailySpend(usd: number): Promise<void> {
   }
 }
 
+/** One turn's usage record. Structured receipts + the assembled prose only — never
+ *  raw assistant content blocks (thinking / tool_use). `toolTrace` is the replayable
+ *  chain (the resolve/read_node/walk_chain slugs), so a broken answer can be re-walked
+ *  against the graph later. */
+interface TurnLog {
+  question: string;
+  prose: string;
+  toolTrace: unknown;
+  toolCalls: number;
+  grounding: number;
+  unverifiedCites: string[];
+  usage: unknown;
+  costUsd: number;
+  stopState: string;
+  model: string;
+  timestamp: string;
+}
+
+/** Persist one turn to a UNIQUE date-partitioned Blobs key — a plain write, NEVER
+ *  read-modify-write (that pattern races and would drop turns under concurrency).
+ *  Always mirrors a compact line to the function log so an absent/throwing Blobs
+ *  context still leaves a record. Logging must NEVER fail a turn — all swallowed. */
+async function logTurn(rec: TurnLog): Promise<void> {
+  // Compact console mirror first, so it survives even if the Blobs write throws.
+  try {
+    console.log(
+      `[turn] ${rec.timestamp} q=${JSON.stringify(rec.question.slice(0, 120))} ` +
+        `tools=${rec.toolCalls} grounding=${rec.grounding} ` +
+        `unverified=${rec.unverifiedCites.length} stop=${rec.stopState} cost=$${rec.costUsd}`,
+    );
+  } catch { /* never fail a turn on logging */ }
+  try {
+    const store = await getStore();
+    if (!store) return;
+    const key = `log/${new Date().toISOString().slice(0, 10)}/${crypto.randomUUID()}`;
+    await store.set(key, JSON.stringify(rec));
+  } catch { /* never fail a turn on logging */ }
+}
+
+/** The visitor's question: the text of the final user turn (string content, or the
+ *  concatenated text blocks of a structured one). Empty string if none. */
+function lastUserText(messages: ChatMessage[]): string {
+  for (let i = messages.length - 1; i >= 0; i--) {
+    const m = messages[i];
+    if (m.role !== "user") continue;
+    if (typeof m.content === "string") return m.content;
+    if (Array.isArray(m.content)) {
+      return m.content
+        .filter((b): b is { type: "text"; text: string } =>
+          (b as { type?: string }).type === "text"
+        )
+        .map((b) => b.text)
+        .join(" ");
+    }
+  }
+  return "";
+}
+
 // ---- Request parsing ----
 
 interface IncomingBody {
@@ -197,6 +255,20 @@ export default async function handler(request: Request, _context: Context): Prom
         const result = await runAgent(messages!, tools, runTurn, emit);
         const costUsd = estimateCostUsd(result.usage, MODEL);
         await addDailySpend(costUsd);
+        // Usage logging (S186): network I/O, off the 50ms CPU budget, never fails a turn.
+        await logTurn({
+          question: lastUserText(messages!),
+          prose: result.prose,
+          toolTrace: result.toolTrace,
+          toolCalls: result.toolCalls,
+          grounding: result.grounding,
+          unverifiedCites: result.unverifiedCites,
+          usage: result.usage,
+          costUsd: Math.round(costUsd * 10000) / 10000,
+          stopState: result.stopState,
+          model: MODEL,
+          timestamp: new Date().toISOString(),
+        });
         emit("done", {
           ok: true,
           stopState: result.stopState,

@@ -3,6 +3,7 @@
 import assert from "node:assert/strict";
 import { familyTree, neighbors, walkChain } from "./graph.ts";
 import { data, TYWIN_SLUG } from "./_fixtures.ts";
+import type { Edge, GraphData, NodeRecord } from "./types.ts";
 
 // The Conqueror roots a large, permanent Targaryen lineage — a rich family tree.
 const AEGON_SLUG = "aegon-i-targaryen";
@@ -90,6 +91,89 @@ Deno.test("walkChain: invalid slug returns an empty chain, no throw", () => {
   assert.deepEqual(chain.enables, []);
 });
 
+// ---- Chronological ordering (S185) ----
+//
+// A causal chain must read in story-time order, not graph hop-depth. The regression
+// the render bug produced: a Bran chain showed the ADWD cave before AGOT Bran 2.
+
+/** story-time key of a link's source node, as the sorter computes it (composite,
+ *  else reading_order lifted into composite space, else "" if neither). */
+function chronoOf(slug: string): string {
+  const rec = data.nodes[slug];
+  if (!rec) return "";
+  if (rec.composite) return rec.composite;
+  if (rec.reading_order) {
+    const book = rec.reading_order.split(".")[0];
+    const year = ({ "1": "0298", "2": "0299", "3": "0299", "4": "0300", "5": "0300" } as Record<string, string>)[book];
+    return `${year ?? "9999"}.${rec.reading_order}`;
+  }
+  return "";
+}
+
+Deno.test("walkChain: a causal chain reads in story-time order, not hop-depth", () => {
+  // Jaime pushing Bran (AGOT) fans downstream through several AGOT events. The BFS
+  // returns them depth-first; walkChain must re-order them by story-time. Note the
+  // MIXED keys: bran-s-direwolf-kills carries only reading_order (1.015) while
+  // bran-s-coma carries a composite (0298.1.018) — the two formats are NOT lexically
+  // comparable, so this proves the normalization, not a plain string sort.
+  const chain = walkChain("jaime-pushes-bran-from-the-tower", data);
+  assert.ok(chain.downstream.length >= 2, "expected a multi-link downstream chain");
+
+  // Each link's source-chrono is non-decreasing down the list (ties allowed).
+  const keys = chain.downstream.map((l) => chronoOf(l.source));
+  for (let i = 1; i < keys.length; i++) {
+    assert.ok(keys[i - 1] <= keys[i], `downstream out of story order at ${i}: ${keys[i - 1]} > ${keys[i]}`);
+  }
+
+  // The direwolf killing (chapter 15) must precede the coma (chapter 18) even though
+  // one has only reading_order and the other a composite — the exact mixed-key case.
+  const idxDirewolf = chain.downstream.findIndex((l) => l.target === "bran-s-direwolf-kills-the-assassin");
+  const idxComa = chain.downstream.findIndex((l) => l.target === "bran-s-coma-and-the-three-eyed-crow");
+  if (idxDirewolf !== -1 && idxComa !== -1) {
+    assert.ok(idxDirewolf < idxComa, "direwolf-kills (ch.15) must sort before coma (ch.18)");
+  }
+});
+
+Deno.test("walkChain: a Bran chain spanning AGOT→ADWD sorts oldest-first (synthetic)", () => {
+  // Controlled data: a root fanning to one AGOT event and one ADWD event, with the
+  // edges deliberately listed ADWD-FIRST so a hop-depth/insertion order would show
+  // the ADWD cave before AGOT — the exact reported bug. walkChain must invert that.
+  const node = (name: string, composite: string, reading_order: string): NodeRecord => ({
+    name,
+    type: "event.incident",
+    identity: "",
+    quotes: [],
+    composite,
+    reading_order,
+  });
+  const edge = (source: string, target: string): Edge => ({
+    type: "CAUSES",
+    source,
+    target,
+    quote: null,
+    ref: null,
+    tier: 1,
+    relation: null,
+  });
+  const synth: GraphData = {
+    aliasMap: {},
+    nodes: {
+      "bran-falls": node("Bran falls", "0298.1.009", "1.009"),
+      "bran-reaches-cave": node("Bran reaches the cave", "0300.5.014", "5.014"),
+      "bran-wakes-from-coma": node("Bran wakes from his coma", "0298.1.018", "1.018"),
+    },
+    // ADWD cave edge listed FIRST — insertion/depth order would surface it first.
+    edges: [
+      edge("bran-falls", "bran-reaches-cave"),
+      edge("bran-falls", "bran-wakes-from-coma"),
+    ],
+  };
+  const chain = walkChain("bran-falls", synth);
+  assert.equal(chain.downstream.length, 2);
+  assert.equal(chain.downstream[0].target, "bran-wakes-from-coma", "AGOT event must come first");
+  assert.equal(chain.downstream[1].target, "bran-reaches-cave", "ADWD cave must come last");
+});
+
 Deno.test("neighbors: groups edges by direction and type", () => {
   const n = neighbors(TYWIN_SLUG, data);
   assert.ok(n.outgoingCount > 0 || n.incomingCount > 0, "Tywin node should have edges");
@@ -103,6 +187,16 @@ Deno.test("neighbors: groups edges by direction and type", () => {
   }
   for (const links of Object.values(n.incoming)) {
     for (const l of links) assert.equal(l.target, TYWIN_SLUG);
+  }
+});
+
+Deno.test("neighbors: identical type|source|target edges are deduped (no neighbour listed twice)", () => {
+  const n = neighbors(TYWIN_SLUG, data);
+  for (const dir of [n.outgoing, n.incoming]) {
+    for (const links of Object.values(dir)) {
+      const keys = links.map((l) => `${l.source}|${l.edge_type}|${l.target}`);
+      assert.equal(new Set(keys).size, keys.length, "a neighbour must not repeat within one relationship group");
+    }
   }
 });
 
