@@ -7,6 +7,14 @@ minted_at: 2026-06-07T17:06:48.386302+00:00
 evidence_chapters:
   - AGOT Jon VII
   - ASOS Jon IX
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 53
+  chapter_label: "AGOT Jon VII"
+  composite: null
+  reading_order: "1.053"
+  basis: "chapter-only"
 ---
 
 # Jon attacks Ser Alliser Thorne

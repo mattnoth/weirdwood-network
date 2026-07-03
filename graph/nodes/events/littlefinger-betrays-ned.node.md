@@ -19,6 +19,14 @@ occurred:
   narrative_first: "agot-eddard-14"
 pass_origin: curator-causal-arc-s121
 node_version: 1
+sort_keys:
+  ac_year: 298
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0298.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

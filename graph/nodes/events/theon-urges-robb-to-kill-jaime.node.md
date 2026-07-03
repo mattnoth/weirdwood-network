@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:02:20.317263+00:00
 evidence_chapters:
   - AGOT Catelyn X
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 64
+  chapter_label: "AGOT Catelyn X"
+  composite: null
+  reading_order: "1.064"
+  basis: "chapter-only"
 ---
 
 # Theon urges Robb to kill Jaime

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:16:35.625881+00:00
 evidence_chapters:
   - ACOK Daenerys I
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 13
+  chapter_label: "ACOK Daenerys I"
+  composite: null
+  reading_order: "2.013"
+  basis: "chapter-only"
 ---
 
 # Deaths on the march

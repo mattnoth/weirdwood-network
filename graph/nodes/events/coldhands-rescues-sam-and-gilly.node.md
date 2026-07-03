@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 47
+  chapter_label: "ASOS Samwell III"
+  composite: "0300.3.047"
+  reading_order: "3.047"
+  basis: "year+chapter"
 ---
 
 # Coldhands rescues Sam and Gilly

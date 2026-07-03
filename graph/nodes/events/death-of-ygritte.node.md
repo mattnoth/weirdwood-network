@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 3
+  chapter_number: 56
+  chapter_label: "ASOS Jon VII"
+  composite: "0299.3.056"
+  reading_order: "3.056"
+  basis: "year+chapter"
 ---
 
 # Death of Ygritte

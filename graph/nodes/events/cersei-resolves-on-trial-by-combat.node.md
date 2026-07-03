@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-present
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 44
+  chapter_label: "AFFC Cersei X"
+  composite: "0300.4.044"
+  reading_order: "4.044"
+  basis: "year+chapter"
 ---
 
 # Cersei resolves on trial by combat

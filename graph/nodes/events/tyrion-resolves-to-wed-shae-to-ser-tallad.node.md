@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:32:00.577399+00:00
 evidence_chapters:
   - ASOS Tyrion VII
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 59
+  chapter_label: "ASOS Tyrion VII"
+  composite: null
+  reading_order: "3.059"
+  basis: "chapter-only"
 ---
 
 # Tyrion resolves to wed Shae to Ser Tallad

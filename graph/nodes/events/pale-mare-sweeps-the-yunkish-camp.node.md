@@ -11,6 +11,14 @@ node_version: 1
 evidence_chapters:
   - ADWD Tyrion XI
   - ADWD Tyrion XII
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 58
+  chapter_label: "ADWD Tyrion XI"
+  composite: null
+  reading_order: "5.058"
+  basis: "chapter-only"
 ---
 
 ## Identity

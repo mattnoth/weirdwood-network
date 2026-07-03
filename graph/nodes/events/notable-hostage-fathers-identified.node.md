@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:41:24.789775+00:00
 evidence_chapters:
   - ADWD Jon XII
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 59
+  chapter_label: "ADWD Jon XII"
+  composite: null
+  reading_order: "5.059"
+  basis: "chapter-only"
 ---
 
 # Notable hostage fathers identified

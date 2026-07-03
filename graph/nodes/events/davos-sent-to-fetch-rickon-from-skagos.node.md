@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 30
+  chapter_label: "ADWD Davos IV"
+  composite: "0300.5.030"
+  reading_order: "5.030"
+  basis: "year+chapter"
 ---
 
 # Davos sent to fetch Rickon from Skagos

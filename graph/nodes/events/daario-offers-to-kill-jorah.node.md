@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:28:00.302096+00:00
 evidence_chapters:
   - ASOS Daenerys VI
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 72
+  chapter_label: "ASOS Daenerys VI"
+  composite: null
+  reading_order: "3.072"
+  basis: "chapter-only"
 ---
 
 # Daario offers to kill Jorah

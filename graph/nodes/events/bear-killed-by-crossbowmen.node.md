@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:27:37.720770+00:00
 evidence_chapters:
   - ASOS Jaime VI
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 45
+  chapter_label: "ASOS Jaime VI"
+  composite: null
+  reading_order: "3.045"
+  basis: "chapter-only"
 ---
 
 # Bear killed by crossbowmen

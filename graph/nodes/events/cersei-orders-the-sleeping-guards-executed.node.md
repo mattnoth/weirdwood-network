@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:33:55.960444+00:00
 evidence_chapters:
   - AFFC Cersei I
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 4
+  chapter_label: "AFFC Cersei I"
+  composite: null
+  reading_order: "4.004"
+  basis: "chapter-only"
 ---
 
 # Cersei orders the sleeping guards executed

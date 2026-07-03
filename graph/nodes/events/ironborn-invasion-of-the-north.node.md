@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 25
+  chapter_label: "ACOK Theon II"
+  composite: "0299.2.025"
+  reading_order: "2.025"
+  basis: "year+chapter"
 ---
 
 ## Identity

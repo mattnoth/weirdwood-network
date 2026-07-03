@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 298
+  book_order: 1
+  chapter_number: 31
+  chapter_label: "AGOT Eddard VII"
+  composite: "0298.1.031"
+  reading_order: "1.031"
+  basis: "year+chapter"
 ---
 
 ## Identity

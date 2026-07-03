@@ -7,6 +7,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:31:37.115581+00:00
 evidence_chapters:
   - ASOS Tyrion IV
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 33
+  chapter_label: "ASOS Tyrion IV"
+  composite: null
+  reading_order: "3.033"
+  basis: "chapter-only"
 ---
 
 # Assassination of Symon Silver Tongue

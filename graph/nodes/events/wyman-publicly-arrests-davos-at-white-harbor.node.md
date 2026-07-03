@@ -7,6 +7,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:39:52.641624+00:00
 evidence_chapters:
   - ADWD Davos III
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 20
+  chapter_label: "ADWD Davos III"
+  composite: null
+  reading_order: "5.020"
+  basis: "chapter-only"
 ---
 
 # Wyman Publicly Arrests Davos at White Harbor

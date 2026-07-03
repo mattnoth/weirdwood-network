@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:04:52.744355+00:00
 evidence_chapters:
   - AGOT Eddard X
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 40
+  chapter_label: "AGOT Eddard X"
+  composite: null
+  reading_order: "1.040"
+  basis: "chapter-only"
 ---
 
 # Cersei claims Ned's men attacked first

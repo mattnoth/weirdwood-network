@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 65
+  chapter_label: "ADWD The Ugly Little Girl"
+  composite: "0300.5.065"
+  reading_order: "5.065"
+  basis: "year+chapter"
 ---
 
 # Arya assassinates the insurance broker

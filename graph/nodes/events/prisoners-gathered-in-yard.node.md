@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:43:51.514007+00:00
 evidence_chapters:
   - ADWD The Griffin Reborn
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 62
+  chapter_label: "ADWD The Griffin Reborn"
+  composite: null
+  reading_order: "5.062"
+  basis: "chapter-only"
 ---
 
 # Prisoners gathered in yard

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:39:25.638413+00:00
 evidence_chapters:
   - ADWD Daenerys IX
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 53
+  chapter_label: "ADWD Daenerys IX"
+  composite: null
+  reading_order: "5.053"
+  basis: "chapter-only"
 ---
 
 # Unnamed spearman attacks Drogon

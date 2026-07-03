@@ -9,6 +9,14 @@ evidence_chapters:
   - ADWD Davos III
   - ADWD Davos IV
   - AFFC Cersei IV
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 18
+  chapter_label: "AFFC Cersei IV"
+  composite: null
+  reading_order: "4.018"
+  basis: "chapter-only"
 ---
 
 # Wyman Manderly stages the fake execution of Davos Seaworth

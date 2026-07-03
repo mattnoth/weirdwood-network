@@ -17,6 +17,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 18
+  chapter_label: "AFFC Cersei IV"
+  composite: "0300.4.018"
+  reading_order: "4.018"
+  basis: "year+chapter"
 ---
 
 ## Identity

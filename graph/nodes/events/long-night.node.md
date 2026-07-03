@@ -13,6 +13,14 @@ occurred:
   ac_year: null
   precision: relative-only
   note: "Prehistoric/legendary (Age of Heroes, ~8000 years before Aegon's Conquest); not datable to an AC year. The wiki mention-index spuriously linked the page to 297 AC — excluded."
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 ## Identity

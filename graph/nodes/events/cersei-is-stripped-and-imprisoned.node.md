@@ -8,6 +8,14 @@ minted_at: 2026-06-07T20:35:23.570286+00:00
 evidence_chapters:
   - AFFC Cersei X
 containers: [wo5k]
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 44
+  chapter_label: "AFFC Cersei X"
+  composite: null
+  reading_order: "4.044"
+  basis: "chapter-only"
 ---
 
 # Cersei is stripped and imprisoned

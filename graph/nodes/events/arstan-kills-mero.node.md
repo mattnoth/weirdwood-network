@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:26:39.761374+00:00
 evidence_chapters:
   - ASOS Daenerys V
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 58
+  chapter_label: "ASOS Daenerys V"
+  composite: null
+  reading_order: "3.058"
+  basis: "chapter-only"
 ---
 
 # Arstan kills Mero

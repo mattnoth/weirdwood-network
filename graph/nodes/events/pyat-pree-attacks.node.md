@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:16:43.020385+00:00
 evidence_chapters:
   - ACOK Daenerys IV
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 49
+  chapter_label: "ACOK Daenerys IV"
+  composite: null
+  reading_order: "2.049"
+  basis: "chapter-only"
 ---
 
 # Pyat Pree attacks

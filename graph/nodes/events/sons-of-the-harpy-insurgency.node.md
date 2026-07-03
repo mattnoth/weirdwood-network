@@ -12,6 +12,14 @@ evidence_chapters:
   - ADWD Daenerys II
   - ADWD Daenerys IV
   - ADWD The Queen's Hand
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 12
+  chapter_label: "ADWD Daenerys II"
+  composite: null
+  reading_order: "5.012"
+  basis: "chapter-only"
 ---
 
 ## Identity

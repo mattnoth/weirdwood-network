@@ -16,6 +16,14 @@ occurred:
   basis_reliability: pov-present
   date_confidence: tier-2
   narrative_first: "affc-41"
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 41
+  chapter_label: "AFFC The Princess in the Tower"
+  composite: "0300.4.041"
+  reading_order: "4.041"
+  basis: "year+chapter"
 ---
 
 ## Identity

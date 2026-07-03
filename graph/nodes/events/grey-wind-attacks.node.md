@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:24:45.196064+00:00
 evidence_chapters:
   - ASOS Catelyn VI
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 50
+  chapter_label: "ASOS Catelyn VI"
+  composite: null
+  reading_order: "3.050"
+  basis: "chapter-only"
 ---
 
 # Grey Wind attacks

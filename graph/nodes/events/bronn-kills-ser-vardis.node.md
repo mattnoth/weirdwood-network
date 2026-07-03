@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:01:11.315718+00:00
 evidence_chapters:
   - AGOT Catelyn VII
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 41
+  chapter_label: "AGOT Catelyn VII"
+  composite: null
+  reading_order: "1.041"
+  basis: "chapter-only"
 ---
 
 # Bronn kills Ser Vardis

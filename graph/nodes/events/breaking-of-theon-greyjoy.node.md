@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 13
+  chapter_label: "ADWD Reek I"
+  composite: "0300.5.013"
+  reading_order: "5.013"
+  basis: "year+chapter"
 ---
 
 # The breaking of Theon Greyjoy

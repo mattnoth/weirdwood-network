@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 6
+  chapter_label: "ACOK Arya II"
+  composite: "0299.2.006"
+  reading_order: "2.006"
+  basis: "year+chapter"
 ---
 
 # Gold cloaks demand Gendry from Yoren's band

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:21:35.459545+00:00
 evidence_chapters:
   - ACOK Tyrion XIV
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 62
+  chapter_label: "ACOK Tyrion XIV"
+  composite: null
+  reading_order: "2.062"
+  basis: "chapter-only"
 ---
 
 # A knight attacks Tyrion's shield

@@ -15,6 +15,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: cross-book-recall
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 27
+  chapter_label: "ADWD The Wayward Bride"
+  composite: "0300.5.027"
+  reading_order: "5.027"
+  basis: "year+chapter"
 ---
 
 ## Identity

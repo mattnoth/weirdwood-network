@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:25:21.906609+00:00
 evidence_chapters:
   - ASOS Catelyn VII
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 52
+  chapter_label: "ASOS Catelyn VII"
+  composite: null
+  reading_order: "3.052"
+  basis: "chapter-only"
 ---
 
 # The bedding ceremony begins

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:04:11.295254+00:00
 evidence_chapters:
   - AGOT Eddard III
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 17
+  chapter_label: "AGOT Eddard III"
+  composite: null
+  reading_order: "1.017"
+  basis: "chapter-only"
 ---
 
 # Ned claims the execution

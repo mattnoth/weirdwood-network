@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 43
+  chapter_label: "AFFC Brienne VIII"
+  composite: "0300.4.043"
+  reading_order: "4.043"
+  basis: "year+chapter"
 ---
 
 ## Identity

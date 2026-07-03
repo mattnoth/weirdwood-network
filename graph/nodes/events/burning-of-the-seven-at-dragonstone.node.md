@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 11
+  chapter_label: "ACOK Davos I"
+  composite: "0299.2.011"
+  reading_order: "2.011"
+  basis: "year+chapter"
 ---
 
 # Burning of the Seven at Dragonstone

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:02:13.614450+00:00
 evidence_chapters:
   - AGOT Daenerys II
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 12
+  chapter_label: "AGOT Daenerys II"
+  composite: null
+  reading_order: "1.012"
+  basis: "chapter-only"
 ---
 
 # Wedding ceremony begins at dawn

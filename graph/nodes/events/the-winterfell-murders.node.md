@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 47
+  chapter_label: "ADWD A Ghost in Winterfell"
+  composite: "0300.5.047"
+  reading_order: "5.047"
+  basis: "year+chapter"
 ---
 
 # The Winterfell murders

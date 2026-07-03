@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-witnessed
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 80
+  chapter_label: "ASOS Jon XII"
+  composite: "0300.3.080"
+  reading_order: "3.080"
+  basis: "year+chapter"
 ---
 
 ## Identity

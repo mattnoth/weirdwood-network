@@ -18,6 +18,14 @@ occurred:
   basis_reliability: pov-present
   date_confidence: tier-2
   narrative_first: "adwd-69"
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 69
+  chapter_label: "ADWD The Dragontamer"
+  composite: "0300.5.069"
+  reading_order: "5.069"
+  basis: "year+chapter"
 ---
 
 ## Identity

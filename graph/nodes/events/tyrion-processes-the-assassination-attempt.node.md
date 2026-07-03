@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:21:58.790380+00:00
 evidence_chapters:
   - ACOK Tyrion XV
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 68
+  chapter_label: "ACOK Tyrion XV"
+  composite: null
+  reading_order: "2.068"
+  basis: "chapter-only"
 ---
 
 # Tyrion processes the assassination attempt

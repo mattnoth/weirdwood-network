@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 37
+  chapter_label: "ASOS Davos IV"
+  composite: "0300.3.037"
+  reading_order: "3.037"
+  basis: "year+chapter"
 ---
 
 # Leeching of Edric Storm

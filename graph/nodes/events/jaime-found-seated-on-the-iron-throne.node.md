@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-recollection
+sort_keys:
+  ac_year: 283
+  book_order: 1
+  chapter_number: 13
+  chapter_label: "AGOT Eddard II"
+  composite: "0283.1.013"
+  reading_order: "1.013"
+  basis: "year+chapter"
 ---
 
 # Jaime found seated on the Iron Throne

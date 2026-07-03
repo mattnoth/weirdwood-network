@@ -14,6 +14,14 @@ occurred:
   basis_source: wiki-page
   basis_reliability: secondary-canon
   date_confidence: tier-2
+sort_keys:
+  ac_year: 282
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0282.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

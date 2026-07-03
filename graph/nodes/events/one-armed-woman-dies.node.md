@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:08:56.451347+00:00
 evidence_chapters:
   - ACOK Arya III
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 10
+  chapter_label: "ACOK Arya III"
+  composite: null
+  reading_order: "2.010"
+  basis: "chapter-only"
 ---
 
 # One-armed woman dies

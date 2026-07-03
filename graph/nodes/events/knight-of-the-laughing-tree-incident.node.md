@@ -15,6 +15,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: second-hand-oral
   date_confidence: tier-2
+sort_keys:
+  ac_year: 281
+  book_order: 3
+  chapter_number: 25
+  chapter_label: "ASOS Bran II"
+  composite: "0281.3.025"
+  reading_order: "3.025"
+  basis: "year+chapter"
 ---
 
 ## Identity

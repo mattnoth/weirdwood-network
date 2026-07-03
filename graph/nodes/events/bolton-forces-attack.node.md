@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:19:24.872219+00:00
 evidence_chapters:
   - ACOK Theon VI
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 67
+  chapter_label: "ACOK Theon VI"
+  composite: null
+  reading_order: "2.067"
+  basis: "chapter-only"
 ---
 
 # Bolton forces attack

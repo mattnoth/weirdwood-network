@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:41:06.749057+00:00
 evidence_chapters:
   - ADWD Jon IV
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 18
+  chapter_label: "ADWD Jon IV"
+  composite: null
+  reading_order: "5.018"
+  basis: "chapter-only"
 ---
 
 # Jon argues against the Dreadfort attack

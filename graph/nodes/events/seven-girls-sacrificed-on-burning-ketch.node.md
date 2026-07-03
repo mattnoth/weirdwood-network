@@ -7,6 +7,14 @@ status: minted-plate3
 minted_at: 2026-06-08T01:51:20.659150+00:00
 evidence_chapters:
   - ADWD Victarion I
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 # Seven girls sacrificed on burning ketch

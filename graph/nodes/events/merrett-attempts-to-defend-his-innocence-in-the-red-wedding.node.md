@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:28:34.325268+00:00
 evidence_chapters:
   - ASOS Epilogue
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 82
+  chapter_label: "ASOS Epilogue"
+  composite: null
+  reading_order: "3.082"
+  basis: "chapter-only"
 ---
 
 # Merrett attempts to defend his innocence in the Red Wedding

@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 75
+  chapter_label: "ASOS Arya XIII"
+  composite: "0300.3.075"
+  reading_order: "3.075"
+  basis: "year+chapter"
 ---
 
 # Arya departs for Braavos

@@ -7,6 +7,14 @@ status: minted-s93
 minted_at: 2026-06-12T00:00:00+00:00
 evidence_chapters:
   - AFFC Cersei IV
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 18
+  chapter_label: "AFFC Cersei IV"
+  composite: null
+  reading_order: "4.018"
+  basis: "chapter-only"
 ---
 
 # Frey witnesses attest to Davos's death at Cersei's small council

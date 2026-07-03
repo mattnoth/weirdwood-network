@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 48
+  chapter_label: "ACOK Arya IX"
+  composite: "0299.2.048"
+  reading_order: "2.048"
+  basis: "year+chapter"
 ---
 
 # Arya names Jaqen himself (the naming-gambit)

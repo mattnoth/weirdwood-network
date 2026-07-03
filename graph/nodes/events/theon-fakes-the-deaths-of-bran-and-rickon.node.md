@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 57
+  chapter_label: "ACOK Theon V"
+  composite: "0299.2.057"
+  reading_order: "2.057"
+  basis: "year+chapter"
 ---
 
 # Theon fakes the deaths of Bran and Rickon

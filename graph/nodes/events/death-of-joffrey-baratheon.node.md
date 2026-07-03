@@ -7,6 +7,14 @@ confidence: tier-2
 containers: [wo5k]
 sources: ["asos-sansa-03", "asos-sansa-05", "asos-sansa-06"]
 pass_origin: curator-s96-graph-cleanup
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 ## Identity
 The poisoning of King Joffrey Baratheon at his own wedding feast (the Purple Wedding) in ASOS. Joffrey was killed with the Strangler, a poison concealed in a stone removed from Sansa Stark's hairnet. Orchestrated by Olenna Tyrell and Petyr Baelish; the Stranger was slipped into Joffrey's wine. Tyrion Lannister, blamed and tried, was framed. Tyrion's false "confession" in ADWD is explicitly sarcastic and carries no evidentiary weight.

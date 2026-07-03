@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:46:01.623211+00:00
 evidence_chapters:
   - ADWD Theon I
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 # Murder announced

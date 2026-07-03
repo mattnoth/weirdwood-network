@@ -16,6 +16,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 38
+  chapter_label: "ADWD The Prince of Winterfell"
+  composite: "0300.5.038"
+  reading_order: "5.038"
+  basis: "year+chapter"
 ---
 
 # Manderly bakes the Frey pies

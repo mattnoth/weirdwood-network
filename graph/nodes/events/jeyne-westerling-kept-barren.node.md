@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: revealed-retrospectively
+sort_keys:
+  ac_year: 299
+  book_order: 4
+  chapter_number: 45
+  chapter_label: "AFFC Jaime VII"
+  composite: "0299.4.045"
+  reading_order: "4.045"
+  basis: "year+chapter"
 ---
 
 # Sybell Spicer keeps Jeyne Westerling barren

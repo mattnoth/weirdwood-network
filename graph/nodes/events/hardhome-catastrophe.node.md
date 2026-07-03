@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-reported
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 59
+  chapter_label: "ADWD Jon XII"
+  composite: "0300.5.059"
+  reading_order: "5.059"
+  basis: "year+chapter"
 ---
 
 # The Hardhome catastrophe

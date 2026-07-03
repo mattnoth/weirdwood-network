@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-08T01:50:20.678152+00:00
 evidence_chapters:
   - ADWD Tyrion X
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 48
+  chapter_label: "ADWD Tyrion X"
+  composite: null
+  reading_order: "5.048"
+  basis: "chapter-only"
 ---
 
 # Three escaped slaves are executed by Tolosi slingers

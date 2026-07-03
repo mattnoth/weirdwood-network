@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:16:25.931024+00:00
 evidence_chapters:
   - ACOK Catelyn VI
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 46
+  chapter_label: "ACOK Catelyn VI"
+  composite: null
+  reading_order: "2.046"
+  basis: "chapter-only"
 ---
 
 # First Lannister attack on the ford (daytime)

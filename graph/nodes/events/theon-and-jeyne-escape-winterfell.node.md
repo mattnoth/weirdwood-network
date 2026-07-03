@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0300.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 # Theon and Jeyne escape Winterfell

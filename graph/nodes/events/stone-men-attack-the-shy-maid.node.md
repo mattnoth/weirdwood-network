@@ -7,6 +7,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:47:21.390929+00:00
 evidence_chapters:
   - ADWD Tyrion V
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 19
+  chapter_label: "ADWD Tyrion V"
+  composite: null
+  reading_order: "5.019"
+  basis: "chapter-only"
 ---
 
 # Stone men attack the Shy Maid

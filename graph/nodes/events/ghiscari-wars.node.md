@@ -5,6 +5,14 @@ slug: ghiscari-wars
 aliases: ["Ghiscari Wars", "Ghiscari wars", "wars between Ghiscar and Valyria"]
 confidence: tier-2
 pass_origin: pass2-wiki-reconstruction-mission-batch-2
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 ## Identity

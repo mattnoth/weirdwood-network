@@ -8,6 +8,14 @@ minted_at: 2026-06-07T20:39:49.176195+00:00
 renamed_at: 2026-06-12T00:00:00+00:00
 evidence_chapters:
   - ADWD Davos III
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 20
+  chapter_label: "ADWD Davos III"
+  composite: null
+  reading_order: "5.020"
+  basis: "chapter-only"
 ---
 
 # Wyman publicly orders Davos's execution

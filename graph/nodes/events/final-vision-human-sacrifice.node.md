@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:38:09.093946+00:00
 evidence_chapters:
   - ADWD Bran III
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 35
+  chapter_label: "ADWD Bran III"
+  composite: null
+  reading_order: "5.035"
+  basis: "chapter-only"
 ---
 
 # Final vision — human sacrifice

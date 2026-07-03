@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 298
+  book_order: 1
+  chapter_number: 55
+  chapter_label: "AGOT Daenerys VI"
+  composite: "0298.1.055"
+  reading_order: "1.055"
+  basis: "year+chapter"
 ---
 
 ## Identity

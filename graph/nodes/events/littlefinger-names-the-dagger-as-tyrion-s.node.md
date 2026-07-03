@@ -13,6 +13,14 @@ staged_by: petyr-baelish
 audience: catelyn-stark
 false_belief: "The Valyrian-steel catspaw dagger belonged to Tyrion Lannister."
 payoff: "Catelyn believes Tyrion sent the assassin; she seizes him when they later meet at the crossroads inn, igniting Stark–Lannister conflict."
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 19
+  chapter_label: "AGOT Catelyn IV"
+  composite: null
+  reading_order: "1.019"
+  basis: "chapter-only"
 ---
 
 ## Identity

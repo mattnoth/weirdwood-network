@@ -15,6 +15,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-retrospective
   date_confidence: tier-2
+sort_keys:
+  ac_year: 281
+  book_order: 1
+  chapter_number: 59
+  chapter_label: "AGOT Eddard XV"
+  composite: "0281.1.059"
+  reading_order: "1.059"
+  basis: "year+chapter"
 ---
 
 ## Identity

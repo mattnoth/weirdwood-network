@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:18:23.382482+00:00
 evidence_chapters:
   - ACOK Sansa VIII
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 66
+  chapter_label: "ACOK Sansa VIII"
+  composite: null
+  reading_order: "2.066"
+  basis: "chapter-only"
 ---
 
 # Ser Meryn Trant kills the defiant knight

@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: secondary-report
   date_confidence: tier-2
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 63
+  chapter_label: "ACOK Sansa VII"
+  composite: "0299.2.063"
+  reading_order: "2.063"
+  basis: "year+chapter"
 ---
 
 ## Identity

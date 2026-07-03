@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 43
+  chapter_label: "ACOK Davos II"
+  composite: "0299.2.043"
+  reading_order: "2.043"
+  basis: "year+chapter"
 ---
 
 # Shadow killing of Cortnay Penrose

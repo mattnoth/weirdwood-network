@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 39
+  chapter_label: "AFFC Jaime VI"
+  composite: "0300.4.039"
+  reading_order: "4.039"
+  basis: "year+chapter"
 ---
 
 # Edmure yields Riverrun

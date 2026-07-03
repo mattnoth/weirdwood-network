@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:35:11.129507+00:00
 evidence_chapters:
   - AFFC Cersei VI
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 29
+  chapter_label: "AFFC Cersei VI"
+  composite: null
+  reading_order: "4.029"
+  basis: "chapter-only"
 ---
 
 # Taena recounts Renly's wedding night

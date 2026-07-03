@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:14:09.306671+00:00
 evidence_chapters:
   - ACOK Arya VII
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 31
+  chapter_label: "ACOK Arya VII"
+  composite: null
+  reading_order: "2.031"
+  basis: "chapter-only"
 ---
 
 # Chiswyck dies three days later

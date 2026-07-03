@@ -15,6 +15,14 @@ occurred:
   date_confidence: tier-2
 accused: tyrion-lannister
 judges: ["tywin-lannister", "mace-tyrell", "oberyn-martell"]
+sort_keys:
+  ac_year: 300
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0300.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

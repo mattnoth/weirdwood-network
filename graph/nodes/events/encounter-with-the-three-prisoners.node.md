@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:08:17.724876+00:00
 evidence_chapters:
   - ACOK Arya II
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 6
+  chapter_label: "ACOK Arya II"
+  composite: null
+  reading_order: "2.006"
+  basis: "chapter-only"
 ---
 
 # Encounter with the three prisoners

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:38:30.278201+00:00
 evidence_chapters:
   - ADWD Daenerys I
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 3
+  chapter_label: "ADWD Daenerys I"
+  composite: null
+  reading_order: "5.003"
+  basis: "chapter-only"
 ---
 
 # Reznak and Skahaz advise on the murders

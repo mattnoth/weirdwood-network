@@ -8,6 +8,14 @@ minted_at: 2026-06-07T17:05:05.563282+00:00
 renamed_at: 2026-06-12T00:00:00+00:00
 evidence_chapters:
   - AGOT Eddard IX
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 36
+  chapter_label: "AGOT Eddard IX"
+  composite: null
+  reading_order: "1.036"
+  basis: "chapter-only"
 ---
 
 # Attack on Ned Stark in the streets of King's Landing

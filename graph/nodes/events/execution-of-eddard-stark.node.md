@@ -8,6 +8,14 @@ minted_at: 2026-06-07T16:59:45.888649+00:00
 evidence_chapters:
   - AGOT Arya V
 containers: [wo5k]
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 66
+  chapter_label: "AGOT Arya V"
+  composite: null
+  reading_order: "1.066"
+  basis: "chapter-only"
 ---
 
 # Execution of Eddard Stark

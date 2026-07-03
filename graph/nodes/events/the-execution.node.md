@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:00:17.297445+00:00
 evidence_chapters:
   - AGOT Bran I
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 2
+  chapter_label: "AGOT Bran I"
+  composite: null
+  reading_order: "1.002"
+  basis: "chapter-only"
 ---
 
 # The execution

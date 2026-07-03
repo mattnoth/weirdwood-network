@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:08:00.219932+00:00
 evidence_chapters:
   - AGOT Tyrion IV
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 32
+  chapter_label: "AGOT Tyrion IV"
+  composite: null
+  reading_order: "1.032"
+  basis: "chapter-only"
 ---
 
 # Tyrion fights and kills

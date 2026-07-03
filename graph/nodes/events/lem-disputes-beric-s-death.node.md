@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:22:38.824069+00:00
 evidence_chapters:
   - ASOS Arya IV
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 23
+  chapter_label: "ASOS Arya IV"
+  composite: null
+  reading_order: "3.023"
+  basis: "chapter-only"
 ---
 
 # Lem disputes Beric's death

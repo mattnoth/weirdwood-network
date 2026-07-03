@@ -13,6 +13,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0300.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

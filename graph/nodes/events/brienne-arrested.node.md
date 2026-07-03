@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:27:32.038675+00:00
 evidence_chapters:
   - ASOS Jaime VII
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 63
+  chapter_label: "ASOS Jaime VII"
+  composite: null
+  reading_order: "3.063"
+  basis: "chapter-only"
 ---
 
 # Brienne arrested

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:20:53.436147+00:00
 evidence_chapters:
   - ACOK Tyrion VIII
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 37
+  chapter_label: "ACOK Tyrion VIII"
+  composite: null
+  reading_order: "2.037"
+  basis: "chapter-only"
 ---
 
 # Redwyne hostage decision

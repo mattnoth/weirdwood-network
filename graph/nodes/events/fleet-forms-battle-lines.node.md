@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:16:59.604846+00:00
 evidence_chapters:
   - ACOK Davos III
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 59
+  chapter_label: "ACOK Davos III"
+  composite: null
+  reading_order: "2.059"
+  basis: "chapter-only"
 ---
 
 # Fleet forms battle lines

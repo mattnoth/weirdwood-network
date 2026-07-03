@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:27:11.226821+00:00
 evidence_chapters:
   - ASOS Davos V
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 55
+  chapter_label: "ASOS Davos V"
+  composite: null
+  reading_order: "3.055"
+  basis: "chapter-only"
 ---
 
 # The queen's faction urges sacrifice of Edric Storm

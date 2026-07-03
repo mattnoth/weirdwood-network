@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:16:59.932932+00:00
 evidence_chapters:
   - ACOK Davos II
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 43
+  chapter_label: "ACOK Davos II"
+  composite: null
+  reading_order: "2.043"
+  basis: "chapter-only"
 ---
 
 # Renly's death reflection

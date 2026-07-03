@@ -16,6 +16,14 @@ occurred:
   basis_reliability: tertiary-fan
   date_confidence: tier-3
   note: "Single-year event (Battle of the Redgrass Field, 196 AC). A spurious 212 AC attestation in the wiki year-page index was excluded as a cross-link error."
+sort_keys:
+  ac_year: 196
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0196.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

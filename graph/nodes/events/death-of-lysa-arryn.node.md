@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 81
+  chapter_label: "ASOS Sansa VII"
+  composite: "0300.3.081"
+  reading_order: "3.081"
+  basis: "year+chapter"
 ---
 
 # Death of Lysa Arryn

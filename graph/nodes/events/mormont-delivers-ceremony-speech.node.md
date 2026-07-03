@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:06:38.615930+00:00
 evidence_chapters:
   - AGOT Jon VI
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 49
+  chapter_label: "AGOT Jon VI"
+  composite: null
+  reading_order: "1.049"
+  basis: "chapter-only"
 ---
 
 # Mormont delivers ceremony speech

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:37:57.023042+00:00
 evidence_chapters:
   - ADWD Bran II
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 14
+  chapter_label: "ADWD Bran II"
+  composite: null
+  reading_order: "5.014"
+  basis: "chapter-only"
 ---
 
 # Wight ambush

@@ -7,6 +7,14 @@ status: minted-s93
 minted_at: 2026-06-12T00:00:00+00:00
 evidence_chapters:
   - ADWD Davos IV
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 30
+  chapter_label: "ADWD Davos IV"
+  composite: null
+  reading_order: "5.030"
+  basis: "chapter-only"
 ---
 
 # Execution of the Davos-lookalike at White Harbor

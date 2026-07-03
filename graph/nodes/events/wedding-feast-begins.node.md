@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:31:17.702007+00:00
 evidence_chapters:
   - ASOS Sansa III
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 29
+  chapter_label: "ASOS Sansa III"
+  composite: null
+  reading_order: "3.029"
+  basis: "chapter-only"
 ---
 
 # Wedding feast begins

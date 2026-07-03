@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 298
+  book_order: 1
+  chapter_number: 51
+  chapter_label: "AGOT Arya IV"
+  composite: "0298.1.051"
+  reading_order: "1.051"
+  basis: "year+chapter"
 ---
 
 # Killing of the stableboy (Needle's first kill)

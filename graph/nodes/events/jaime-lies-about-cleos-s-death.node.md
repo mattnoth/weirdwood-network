@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:35:44.984453+00:00
 evidence_chapters:
   - AFFC Jaime V
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 34
+  chapter_label: "AFFC Jaime V"
+  composite: null
+  reading_order: "4.034"
+  basis: "chapter-only"
 ---
 
 # Jaime lies about Cleos's death

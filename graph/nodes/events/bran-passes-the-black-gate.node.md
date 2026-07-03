@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-witnessed
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 57
+  chapter_label: "ASOS Bran IV"
+  composite: "0300.3.057"
+  reading_order: "3.057"
+  basis: "year+chapter"
 ---
 
 ## Identity

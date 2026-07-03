@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:16:09.312961+00:00
 evidence_chapters:
   - ACOK Catelyn III
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 32
+  chapter_label: "ACOK Catelyn III"
+  composite: null
+  reading_order: "2.032"
+  basis: "chapter-only"
 ---
 
 # Brienne asks to arm Renly for battle

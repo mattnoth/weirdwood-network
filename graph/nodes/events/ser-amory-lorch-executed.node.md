@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:15:15.112149+00:00
 evidence_chapters:
   - ACOK Arya IX
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 48
+  chapter_label: "ACOK Arya IX"
+  composite: null
+  reading_order: "2.048"
+  basis: "chapter-only"
 ---
 
 # Ser Amory Lorch executed

@@ -10,6 +10,14 @@ pass_origin: s144-dany-meereen-enrich
 node_version: 1
 evidence_chapters:
   - ADWD The Kingbreaker
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 68
+  chapter_label: "ADWD The Kingbreaker"
+  composite: null
+  reading_order: "5.068"
+  basis: "chapter-only"
 ---
 
 ## Identity

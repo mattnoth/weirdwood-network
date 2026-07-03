@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:28:41.285378+00:00
 evidence_chapters:
   - ASOS Jon II
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 16
+  chapter_label: "ASOS Jon II"
+  composite: null
+  reading_order: "3.016"
+  basis: "chapter-only"
 ---
 
 # Orell's eagle attacks Jon

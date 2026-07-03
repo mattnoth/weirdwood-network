@@ -15,6 +15,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-retrospective
   date_confidence: tier-2
+sort_keys:
+  ac_year: 283
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0283.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

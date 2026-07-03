@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:14:18.726828+00:00
 evidence_chapters:
   - ACOK Arya VI
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 27
+  chapter_label: "ACOK Arya VI"
+  composite: null
+  reading_order: "2.027"
+  basis: "chapter-only"
 ---
 
 # Daily interrogations and killings

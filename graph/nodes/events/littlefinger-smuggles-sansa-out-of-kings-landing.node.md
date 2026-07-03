@@ -17,6 +17,14 @@ staged_by: petyr-baelish
 audience: sansa-stark
 false_belief: "Ser Dontos is Sansa's gallant rescuer ('Florian') acting on his own to take her home."
 payoff: "Sansa is spirited away to Littlefinger's keeping aboard the Merling King; Dontos, his use spent, is killed."
+sort_keys:
+  ac_year: 300
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0300.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

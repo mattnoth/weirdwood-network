@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 6
+  chapter_label: "AFFC Samwell I"
+  composite: "0300.4.006"
+  reading_order: "4.006"
+  basis: "year+chapter"
 ---
 
 # Death of Maester Aemon

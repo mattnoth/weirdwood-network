@@ -7,6 +7,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:17:23.807733+00:00
 evidence_chapters:
   - ACOK Jon VI
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 52
+  chapter_label: "ACOK Jon VI"
+  composite: null
+  reading_order: "2.052"
+  basis: "chapter-only"
 ---
 
 # Jon Spares Ygritte

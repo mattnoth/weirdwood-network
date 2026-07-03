@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:20:23.382057+00:00
 evidence_chapters:
   - ACOK Tyrion VI
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 26
+  chapter_label: "ACOK Tyrion VI"
+  composite: null
+  reading_order: "2.026"
+  basis: "chapter-only"
 ---
 
 # Tyrion confronts Pycelle about betraying his letter to Cersei

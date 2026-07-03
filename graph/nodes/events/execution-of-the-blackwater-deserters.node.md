@@ -7,6 +7,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:18:22.516751+00:00
 evidence_chapters:
   - ACOK Sansa VI
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 61
+  chapter_label: "ACOK Sansa VI"
+  composite: null
+  reading_order: "2.061"
+  basis: "chapter-only"
 ---
 
 # Execution of the Blackwater Deserters

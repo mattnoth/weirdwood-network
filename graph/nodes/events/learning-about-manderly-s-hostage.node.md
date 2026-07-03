@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:40:18.988827+00:00
 evidence_chapters:
   - ADWD Davos II
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 16
+  chapter_label: "ADWD Davos II"
+  composite: null
+  reading_order: "5.016"
+  basis: "chapter-only"
 ---
 
 # Learning about Manderly's hostage

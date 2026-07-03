@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 23
+  chapter_label: "AFFC Arya II"
+  composite: "0300.4.023"
+  reading_order: "4.023"
+  basis: "year+chapter"
 ---
 
 # Arya hides Needle beneath the temple steps

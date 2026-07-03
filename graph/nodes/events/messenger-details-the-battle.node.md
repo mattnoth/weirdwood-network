@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:08:20.166168+00:00
 evidence_chapters:
   - AGOT Tyrion IX
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 70
+  chapter_label: "AGOT Tyrion IX"
+  composite: null
+  reading_order: "1.070"
+  basis: "chapter-only"
 ---
 
 # Messenger details the battle

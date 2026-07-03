@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:23:47.201433+00:00
 evidence_chapters:
   - ASOS Arya XI
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 53
+  chapter_label: "ASOS Arya XI"
+  composite: null
+  reading_order: "3.053"
+  basis: "chapter-only"
 ---
 
 # The camp becomes a battlefield

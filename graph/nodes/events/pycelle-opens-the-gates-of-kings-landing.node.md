@@ -18,6 +18,14 @@ staged_by: pycelle
 audience: aerys-ii-targaryen
 false_belief: "Lord Tywin Lannister and his host came to King's Landing as loyal friends of the crown; opening the gates served the king."
 payoff: "Aerys admitted Tywin's army into the capital, which then sacked the city."
+sort_keys:
+  ac_year: 283
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0283.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

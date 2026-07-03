@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 78
+  chapter_label: "ASOS Tyrion XI"
+  composite: "0300.3.078"
+  reading_order: "3.078"
+  basis: "year+chapter"
 ---
 
 ## Identity

@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-witnessed
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 5
+  chapter_label: "ADWD Bran I"
+  composite: "0300.5.005"
+  reading_order: "5.005"
+  basis: "year+chapter"
 ---
 
 ## Identity

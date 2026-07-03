@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:25:02.371096+00:00
 evidence_chapters:
   - ASOS Bran II
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 25
+  chapter_label: "ASOS Bran II"
+  composite: null
+  reading_order: "3.025"
+  basis: "chapter-only"
 ---
 
 # The crannogman spots his attackers' masters

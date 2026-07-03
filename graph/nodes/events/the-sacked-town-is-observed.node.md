@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:03:25.106577+00:00
 evidence_chapters:
   - AGOT Daenerys VII
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 62
+  chapter_label: "AGOT Daenerys VII"
+  composite: null
+  reading_order: "1.062"
+  basis: "chapter-only"
 ---
 
 # The sacked town is observed

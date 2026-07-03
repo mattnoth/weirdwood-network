@@ -8,6 +8,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:44:08.961551+00:00
 evidence_chapters:
   - ADWD The Iron Suitor (Victarion I)
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 # Killing of Maester Kerwin

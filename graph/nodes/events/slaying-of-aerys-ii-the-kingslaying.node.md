@@ -16,6 +16,14 @@ occurred:
   date_confidence: tier-2
 victim: aerys-ii-targaryen
 agents: ["jaime-lannister"]
+sort_keys:
+  ac_year: 283
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0283.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

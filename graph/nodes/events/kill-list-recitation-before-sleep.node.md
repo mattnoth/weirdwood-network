@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:22:13.624734+00:00
 evidence_chapters:
   - ASOS Arya I
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 4
+  chapter_label: "ASOS Arya I"
+  composite: null
+  reading_order: "3.004"
+  basis: "chapter-only"
 ---
 
 # Kill list recitation before sleep

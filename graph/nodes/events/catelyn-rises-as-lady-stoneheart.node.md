@@ -17,6 +17,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 299
+  book_order: 3
+  chapter_number: 82
+  chapter_label: "ASOS Epilogue"
+  composite: "0299.3.082"
+  reading_order: "3.082"
+  basis: "year+chapter"
 ---
 
 ## Identity

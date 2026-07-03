@@ -16,6 +16,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-present
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 38
+  chapter_label: "AFFC Brienne VII"
+  composite: "0300.4.038"
+  reading_order: "4.038"
+  basis: "year+chapter"
 ---
 
 # Ambush at the crossroads inn

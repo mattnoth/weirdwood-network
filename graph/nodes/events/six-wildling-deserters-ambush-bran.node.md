@@ -7,6 +7,14 @@ minted_at: 2026-06-07T17:00:21.181374+00:00
 evidence_chapters:
   - AGOT Bran V
 containers: [bran]
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 38
+  chapter_label: "AGOT Bran V"
+  composite: null
+  reading_order: "1.038"
+  basis: "chapter-only"
 ---
 
 # Six wildling deserters ambush Bran

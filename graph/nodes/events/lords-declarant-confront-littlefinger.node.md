@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 24
+  chapter_label: "AFFC Alayne I"
+  composite: "0300.4.024"
+  reading_order: "4.024"
+  basis: "year+chapter"
 ---
 
 # The Lords Declarant confront Littlefinger

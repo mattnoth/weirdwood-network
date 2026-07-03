@@ -16,6 +16,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 3
+  chapter_number: 49
+  chapter_label: "ASOS Jon VI"
+  composite: "0299.3.049"
+  reading_order: "3.049"
+  basis: "year+chapter"
 ---
 
 # Bowen Marsh marches the garrison from Castle Black

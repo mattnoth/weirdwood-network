@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:06:19.965828+00:00
 evidence_chapters:
   - AGOT Eddard XV
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 59
+  chapter_label: "AGOT Eddard XV"
+  composite: null
+  reading_order: "1.059"
+  basis: "chapter-only"
 ---
 
 # Varys confirms Cersei's role in Robert's death

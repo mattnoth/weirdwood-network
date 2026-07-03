@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:04:26.907353+00:00
 evidence_chapters:
   - AGOT Eddard VIII
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 34
+  chapter_label: "AGOT Eddard VIII"
+  composite: null
+  reading_order: "1.034"
+  basis: "chapter-only"
 ---
 
 # Ned opposes the assassination

@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 35
+  chapter_label: "AFFC Cat of the Canals"
+  composite: "0300.4.035"
+  reading_order: "4.035"
+  basis: "year+chapter"
 ---
 
 # The killing of Dareon

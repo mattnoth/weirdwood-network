@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:35:33.708178+00:00
 evidence_chapters:
   - AFFC Cersei X
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 44
+  chapter_label: "AFFC Cersei X"
+  composite: null
+  reading_order: "4.044"
+  basis: "chapter-only"
 ---
 
 # All accused arrested by sundown

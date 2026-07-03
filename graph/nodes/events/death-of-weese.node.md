@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 2
+  chapter_number: 31
+  chapter_label: "ACOK Arya VII"
+  composite: "0299.2.031"
+  reading_order: "2.031"
+  basis: "year+chapter"
 ---
 
 # Death of Weese (Jaqen's second death)

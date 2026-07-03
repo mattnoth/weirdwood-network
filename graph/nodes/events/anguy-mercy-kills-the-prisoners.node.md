@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:22:54.682666+00:00
 evidence_chapters:
   - ASOS Arya V
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 30
+  chapter_label: "ASOS Arya V"
+  composite: null
+  reading_order: "3.030"
+  basis: "chapter-only"
 ---
 
 # Anguy mercy-kills the prisoners

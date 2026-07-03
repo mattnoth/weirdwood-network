@@ -5,6 +5,14 @@ slug: age-of-heroes
 aliases: ["The Age of Heroes"]
 confidence: tier-2
 pass_origin: pass2-orphan-batch-2026-05-12
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 ## Identity

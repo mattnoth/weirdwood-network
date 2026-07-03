@@ -10,6 +10,14 @@ prompt_version: v1
 node_version: 1
 pass_origin: pass2-wiki
 same_as: fight-at-torrhens-square
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 ## Identity

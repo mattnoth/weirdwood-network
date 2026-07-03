@@ -7,6 +7,14 @@ minted_at: 2026-06-07T17:00:59.899209+00:00
 aliases: ["catelyn-captures-tyrion-at-the-crossroads-inn", "catelyn-seizes-tyrion", "capture-of-tyrion-at-the-inn"]
 evidence_chapters:
   - AGOT Catelyn V
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 29
+  chapter_label: "AGOT Catelyn V"
+  composite: null
+  reading_order: "1.029"
+  basis: "chapter-only"
 ---
 
 # Catelyn seizes the moment and arrests Tyrion

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T17:08:51.053707+00:00
 evidence_chapters:
   - ACOK Arya V
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 20
+  chapter_label: "ACOK Arya V"
+  composite: null
+  reading_order: "2.020"
+  basis: "chapter-only"
 ---
 
 # Arya captured

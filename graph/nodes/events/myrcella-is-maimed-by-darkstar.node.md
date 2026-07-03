@@ -9,6 +9,14 @@ minted_at: 2026-06-20T00:00:00+00:00
 evidence_chapters:
   - AFFC The Queenmaker
   - AFFC The Princess in the Tower
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 22
+  chapter_label: "AFFC The Queenmaker"
+  composite: null
+  reading_order: "4.022"
+  basis: "chapter-only"
 ---
 
 # Myrcella is maimed by Darkstar

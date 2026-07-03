@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-01 (refreshed after S183)  
+**Generated:** 2026-07-03 (refreshed after S184)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,8 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-01-chat-ui-alpha-tester-notes.md` | 2026-07-01 | Chat-UI — triage & apply alpha-tester notes | **LIVE** (meta) → fires as **S184** | Sonnet 4.6 | Alpha is LIVE (S183, https://weirwood-network.netlify.app). Matt has alpha-tester feedback to feed in. Task: Matt pastes notes → bucket (bug / UX / content-quality / graph-gap) + show fix order → fix quick wins (front-end + prompt + retrieval) keeping `deno task test` green → draft-deploy verify → `--prod` on Matt's OK. Graph-data gaps route to a separate track (graph frozen here). Deploy mechanics proven S183 (CLI, env vars set). Deferred: fuzzy-resolve resolver track. |
+| `2026-07-03-chronology-sortkey-wiring.md` | 2026-07-03 | Chat-UI — wire composite chronology sort key into `walkChain`/bundle + deterministic date backfill | **LIVE** (meta) → fires as **S185** | Sonnet 4.6 (Haiku for backfill; NOT Fable) | THE one actionable next. S184 shipped `sort_keys` on all 744 event nodes + proved the out-of-order chains are a render bug (walker sorts by depth, not time; 0 causal inversions). Task: (1) carry `composite` into the `web/data` bundle, (2) sort `walkChain` by `composite`/`reading_order` + keep upstream/downstream separate, (3) deterministic wiki-date backfill of 282 undated events (start w/ the 50-item causal queue) → Haiku residue. **COORDINATE: `graph.ts` had uncommitted Matt edits in S184.** |
+| `2026-07-01-chat-ui-alpha-tester-notes.md` | 2026-07-01 | Chat-UI — triage & apply alpha-tester notes | **HALTED-gated-on-Matt-pasting-notes** (meta) | Sonnet 4.6 | Standing bucket (not the LIVE next — Matt-gated). Alpha is LIVE (S183). When Matt pastes notes: bucket (bug/UX/content/graph-gap) → fix quick wins keeping `deno task test` green → draft-verify → `--prod` on OK. The chronology out-of-order chains (one such note) are already spun out to the LIVE row above. Deferred: fuzzy-resolve resolver track. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---

@@ -15,6 +15,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 299
+  book_order: 3
+  chapter_number: 19
+  chapter_label: "ASOS Samwell I"
+  composite: "0299.3.019"
+  reading_order: "3.019"
+  basis: "year+chapter"
 ---
 
 # Sam kills the Other

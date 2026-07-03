@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:23:19.137875+00:00
 evidence_chapters:
   - ASOS Arya VII
+sort_keys:
+  ac_year: null
+  book_order: 3
+  chapter_number: 40
+  chapter_label: "ASOS Arya VII"
+  composite: null
+  reading_order: "3.040"
+  basis: "chapter-only"
 ---
 
 # Kyle and Notch kill the door guards

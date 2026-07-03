@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:36:40.031995+00:00
 evidence_chapters:
   - AFFC Jaime VII
+sort_keys:
+  ac_year: null
+  book_order: 4
+  chapter_number: 45
+  chapter_label: "AFFC Jaime VII"
+  composite: null
+  reading_order: "4.045"
+  basis: "chapter-only"
 ---
 
 # Jaime demands the Red Wedding captives

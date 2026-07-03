@@ -16,6 +16,14 @@ occurred:
   basis_source: book-chapter
   basis_reliability: pov-present
   date_confidence: tier-2
+sort_keys:
+  ac_year: 300
+  book_order: 3
+  chapter_number: 71
+  chapter_label: "ASOS Tyrion X"
+  composite: "0300.3.071"
+  reading_order: "3.071"
+  basis: "year+chapter"
 ---
 
 ## Identity

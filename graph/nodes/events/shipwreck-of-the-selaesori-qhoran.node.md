@@ -10,6 +10,14 @@ pass_origin: s161-tyrion-essos-enrich
 node_version: 1
 evidence_chapters:
   - ADWD Tyrion IX
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 41
+  chapter_label: "ADWD Tyrion IX"
+  composite: null
+  reading_order: "5.041"
+  basis: "chapter-only"
 ---
 
 ## Identity

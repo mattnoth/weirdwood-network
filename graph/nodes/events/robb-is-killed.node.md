@@ -16,6 +16,14 @@ occurred:
   basis_reliability: pov-scene
   date_confidence: tier-2
 containers: [wo5k]
+sort_keys:
+  ac_year: 299
+  book_order: 3
+  chapter_number: 52
+  chapter_label: "ASOS Catelyn VII"
+  composite: "0299.3.052"
+  reading_order: "3.052"
+  basis: "year+chapter"
 ---
 
 # Robb is killed

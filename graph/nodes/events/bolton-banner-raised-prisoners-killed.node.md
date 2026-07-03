@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:42:21.246101+00:00
 evidence_chapters:
   - ADWD Reek II
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 21
+  chapter_label: "ADWD Reek II"
+  composite: null
+  reading_order: "5.021"
+  basis: "chapter-only"
 ---
 
 # Bolton banner raised; prisoners killed

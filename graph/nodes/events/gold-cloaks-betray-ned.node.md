@@ -8,6 +8,14 @@ minted_at: 2026-06-07T17:06:02.631845+00:00
 evidence_chapters:
   - AGOT Eddard XIV
 sub_beat_of_proposed: arrest-of-eddard-stark
+sort_keys:
+  ac_year: null
+  book_order: 1
+  chapter_number: 50
+  chapter_label: "AGOT Eddard XIV"
+  composite: null
+  reading_order: "1.050"
+  basis: "chapter-only"
 ---
 
 # Gold cloaks betray Ned

@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:19:20.388297+00:00
 evidence_chapters:
   - ACOK Theon IV
+sort_keys:
+  ac_year: null
+  book_order: 2
+  chapter_number: 51
+  chapter_label: "ACOK Theon IV"
+  composite: null
+  reading_order: "2.051"
+  basis: "chapter-only"
 ---
 
 # Trail followed north-northwest

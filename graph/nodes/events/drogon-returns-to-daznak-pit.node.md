@@ -17,6 +17,14 @@ occurred:
   basis_reliability: pov-present
   date_confidence: tier-2
   narrative_first: "adwd-53"
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 53
+  chapter_label: "ADWD Daenerys IX"
+  composite: "0300.5.053"
+  reading_order: "5.053"
+  basis: "year+chapter"
 ---
 
 ## Identity

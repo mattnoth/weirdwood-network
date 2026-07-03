@@ -10,6 +10,14 @@ pass_origin: s161-tyrion-essos-enrich
 node_version: 1
 evidence_chapters:
   - ADWD Tyrion VI
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 23
+  chapter_label: "ADWD Tyrion VI"
+  composite: null
+  reading_order: "5.023"
+  basis: "chapter-only"
 ---
 
 ## Identity

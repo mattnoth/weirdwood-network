@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 5
+  chapter_number: 46
+  chapter_label: "ADWD The Blind Girl"
+  composite: "0300.5.046"
+  reading_order: "5.046"
+  basis: "year+chapter"
 ---
 
 # Arya trains blind and regains her sight

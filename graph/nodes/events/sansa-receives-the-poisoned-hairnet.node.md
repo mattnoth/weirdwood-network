@@ -17,6 +17,14 @@ staged_by: petyr-baelish
 audience: sansa-stark
 false_belief: "The silver hair net set with black amethysts from Asshai is a magic charm that will carry Sansa safely home."
 payoff: "One amethyst is the strangler; the net delivers the poison to Joffrey's wedding feast, and Sansa is the unwitting carrier."
+sort_keys:
+  ac_year: 300
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: "0300.0.000"
+  reading_order: null
+  basis: "year-only"
 ---
 
 ## Identity

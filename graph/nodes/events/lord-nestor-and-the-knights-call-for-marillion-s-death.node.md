@@ -6,6 +6,14 @@ status: minted-plate3
 minted_at: 2026-06-07T20:36:08.792157+00:00
 evidence_chapters:
   - AFFC Sansa I
+sort_keys:
+  ac_year: null
+  book_order: null
+  chapter_number: null
+  chapter_label: null
+  composite: null
+  reading_order: null
+  basis: "none"
 ---
 
 # Lord Nestor and the knights call for Marillion's death

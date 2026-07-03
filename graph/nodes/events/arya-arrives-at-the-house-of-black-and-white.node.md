@@ -14,6 +14,14 @@ occurred:
   precision: year
   basis_source: book-chapter
   basis_reliability: pov-contemporaneous
+sort_keys:
+  ac_year: 300
+  book_order: 4
+  chapter_number: 7
+  chapter_label: "AFFC Arya I"
+  composite: "0300.4.007"
+  reading_order: "4.007"
+  basis: "year+chapter"
 ---
 
 # Arya arrives at the House of Black and White

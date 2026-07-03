@@ -11,6 +11,14 @@ node_version: 1
 evidence_chapters:
   - ADWD Tyrion I
   - ADWD Tyrion II
+sort_keys:
+  ac_year: null
+  book_order: 5
+  chapter_number: 2
+  chapter_label: "ADWD Tyrion I"
+  composite: null
+  reading_order: "5.002"
+  basis: "chapter-only"
 ---
 
 ## Identity
