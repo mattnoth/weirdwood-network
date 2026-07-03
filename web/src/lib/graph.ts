@@ -73,12 +73,26 @@ function chronoKey(slug: string, nodes: NodesMap): string {
   return NO_KEY;
 }
 
-/** Sort chain links into story-time reading order: by the link's SOURCE node's
- *  chronology, then its TARGET's (so ties on the cause break by the effect). Stable,
- *  so links that share a key keep their BFS order; links with no key sink to the end. */
+/** A link's story-time sort key: the SOURCE node's chronology, then the TARGET's
+ *  (ties on the cause break by the effect). One correction for UNDATED nodes: a
+ *  cause is never later than its effect, so an undated source borrows its (dated)
+ *  target's key as its proxy. Without this, an undated chain ROOT (e.g. the broad
+ *  `roberts-rebellion` event, which carries no date) sends its own outgoing link to
+ *  NO_KEY — sinking it BELOW deeper dated links and printing an effect above its
+ *  cause. Fully-dated links are unaffected (effS === source key). */
+function linkSortKey(link: ChainLink, nodes: NodesMap): string {
+  const s = chronoKey(link.source, nodes);
+  const t = chronoKey(link.target, nodes);
+  const effS = s !== NO_KEY ? s : t; // undated cause ≤ its effect → use the effect's key
+  return effS + "|" + t;
+}
+
+/** Sort chain links into story-time reading order (see `linkSortKey`). Stable, so
+ *  links that share a key keep their BFS order; links with no datable endpoint sink
+ *  to the end. */
 function sortChainLinks(links: ChainLink[], nodes: NodesMap): ChainLink[] {
   return links
-    .map((l, i) => ({ l, i, k: chronoKey(l.source, nodes) + "|" + chronoKey(l.target, nodes) }))
+    .map((l, i) => ({ l, i, k: linkSortKey(l, nodes) }))
     .sort((a, b) => (a.k < b.k ? -1 : a.k > b.k ? 1 : a.i - b.i))
     .map((x) => x.l);
 }
@@ -413,8 +427,7 @@ export function familyTree(
     }
     // Anchors = the most prominent descendants BEYOND the breadth horizon; thread
     // each one's path back toward the root until it joins an already-included node.
-    const promOf = (s: string) =>
-      (degree.get(s) ?? 0) + 4 * (data.nodes[s]?.quotes?.length ?? 0);
+    const promOf = (s: string) => (degree.get(s) ?? 0) + 4 * (data.nodes[s]?.quotes?.length ?? 0);
     const deepAnchors = [...descDepth.keys()]
       .filter((s) => descDepth.get(s)! > generationsDown && !generation.has(s))
       .sort((a, b) => promOf(b) - promOf(a))

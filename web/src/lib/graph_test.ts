@@ -73,7 +73,10 @@ Deno.test("walkChain: preconditions return as a separate `enables` array, never 
   assert.ok(Array.isArray(chain.enables), "enables must be present (possibly empty)");
   assert.ok(chain.enables.length <= 24, "enables is capped");
   const spine = new Set<string>([chain.slug]);
-  for (const l of [...chain.upstream, ...chain.downstream]) { spine.add(l.source); spine.add(l.target); }
+  for (const l of [...chain.upstream, ...chain.downstream]) {
+    spine.add(l.source);
+    spine.add(l.target);
+  }
   const seen = new Set<string>();
   for (const e of chain.enables) {
     assert.equal(e.edge_type, "ENABLES", "every enables link is an ENABLES edge");
@@ -104,7 +107,10 @@ function chronoOf(slug: string): string {
   if (rec.composite) return rec.composite;
   if (rec.reading_order) {
     const book = rec.reading_order.split(".")[0];
-    const year = ({ "1": "0298", "2": "0299", "3": "0299", "4": "0300", "5": "0300" } as Record<string, string>)[book];
+    const year = ({ "1": "0298", "2": "0299", "3": "0299", "4": "0300", "5": "0300" } as Record<
+      string,
+      string
+    >)[book];
     return `${year ?? "9999"}.${rec.reading_order}`;
   }
   return "";
@@ -122,13 +128,20 @@ Deno.test("walkChain: a causal chain reads in story-time order, not hop-depth", 
   // Each link's source-chrono is non-decreasing down the list (ties allowed).
   const keys = chain.downstream.map((l) => chronoOf(l.source));
   for (let i = 1; i < keys.length; i++) {
-    assert.ok(keys[i - 1] <= keys[i], `downstream out of story order at ${i}: ${keys[i - 1]} > ${keys[i]}`);
+    assert.ok(
+      keys[i - 1] <= keys[i],
+      `downstream out of story order at ${i}: ${keys[i - 1]} > ${keys[i]}`,
+    );
   }
 
   // The direwolf killing (chapter 15) must precede the coma (chapter 18) even though
   // one has only reading_order and the other a composite — the exact mixed-key case.
-  const idxDirewolf = chain.downstream.findIndex((l) => l.target === "bran-s-direwolf-kills-the-assassin");
-  const idxComa = chain.downstream.findIndex((l) => l.target === "bran-s-coma-and-the-three-eyed-crow");
+  const idxDirewolf = chain.downstream.findIndex((l) =>
+    l.target === "bran-s-direwolf-kills-the-assassin"
+  );
+  const idxComa = chain.downstream.findIndex((l) =>
+    l.target === "bran-s-coma-and-the-three-eyed-crow"
+  );
   if (idxDirewolf !== -1 && idxComa !== -1) {
     assert.ok(idxDirewolf < idxComa, "direwolf-kills (ch.15) must sort before coma (ch.18)");
   }
@@ -174,6 +187,53 @@ Deno.test("walkChain: a Bran chain spanning AGOT→ADWD sorts oldest-first (synt
   assert.equal(chain.downstream[1].target, "bran-reaches-cave", "ADWD cave must come last");
 });
 
+Deno.test("walkChain: an UNDATED chain root does not invert its downstream (synthetic)", () => {
+  // The live Rebellion regression: `roberts-rebellion` carries NO date (broad event).
+  // Its downstream is  root --MOTIVATES--> robert-orders(0298.1.034) --CAUSES-->
+  // wine(0298.1.055).  A source-key sort sends the root's link to NO_KEY (sorts LAST),
+  // printing the deeper CAUSES effect ABOVE its own cause. walkChain must keep the
+  // root's outgoing link first (an undated cause borrows its effect's key as proxy).
+  const node = (name: string, composite: string, reading_order: string): NodeRecord => ({
+    name,
+    type: "event.incident",
+    identity: "",
+    quotes: [],
+    composite,
+    reading_order,
+  });
+  const edge = (type: string, source: string, target: string): Edge => ({
+    type,
+    source,
+    target,
+    quote: null,
+    ref: null,
+    tier: 1,
+    relation: null,
+  });
+  const synth: GraphData = {
+    aliasMap: {},
+    nodes: {
+      "rebellion": node("The rebellion", "", ""), // UNDATED root
+      "robert-orders": node("Robert orders the deed", "0298.1.034", "1.034"),
+      "wine-poisoning": node("The wine poisoning", "0298.1.055", "1.055"),
+    },
+    // Deeper (dated) CAUSES edge listed FIRST — a source-key sort would surface it
+    // above the root's own MOTIVATES link.
+    edges: [
+      edge("CAUSES", "robert-orders", "wine-poisoning"),
+      edge("MOTIVATES", "rebellion", "robert-orders"),
+    ],
+  };
+  const chain = walkChain("rebellion", synth);
+  assert.equal(chain.downstream.length, 2);
+  assert.equal(
+    chain.downstream[0].target,
+    "robert-orders",
+    "the root's own effect must come first",
+  );
+  assert.equal(chain.downstream[1].target, "wine-poisoning", "the deeper effect must come last");
+});
+
 Deno.test("neighbors: groups edges by direction and type", () => {
   const n = neighbors(TYWIN_SLUG, data);
   assert.ok(n.outgoingCount > 0 || n.incomingCount > 0, "Tywin node should have edges");
@@ -195,7 +255,11 @@ Deno.test("neighbors: identical type|source|target edges are deduped (no neighbo
   for (const dir of [n.outgoing, n.incoming]) {
     for (const links of Object.values(dir)) {
       const keys = links.map((l) => `${l.source}|${l.edge_type}|${l.target}`);
-      assert.equal(new Set(keys).size, keys.length, "a neighbour must not repeat within one relationship group");
+      assert.equal(
+        new Set(keys).size,
+        keys.length,
+        "a neighbour must not repeat within one relationship group",
+      );
     }
   }
 });
@@ -280,7 +344,14 @@ Deno.test("familyTree: the deep main-line spine reaches the book era from a dist
   // deep spine must thread the main lines down to the book generation.
   const t = familyTree(AEGON_SLUG, data);
   const slugs = new Set(t.members.map((m) => m.slug));
-  for (const book of ["daenerys-targaryen", "rhaegar-targaryen", "aerys-ii-targaryen", "aegon-v-targaryen"]) {
+  for (
+    const book of [
+      "daenerys-targaryen",
+      "rhaegar-targaryen",
+      "aerys-ii-targaryen",
+      "aegon-v-targaryen",
+    ]
+  ) {
     assert.ok(slugs.has(book), `deep spine reaches ${book}`);
   }
   // The Blackfyre cadet split (the great bastards) sits on the main line.
@@ -293,14 +364,19 @@ Deno.test("familyTree: the deep main-line spine reaches the book era from a dist
 
   // A tight explicit window opts OUT of the deep spine (bounded local view).
   const local = familyTree(AEGON_SLUG, data, { generationsUp: 1, generationsDown: 1 });
-  assert.ok(!new Set(local.members.map((m) => m.slug)).has("daenerys-targaryen"),
-    "an explicit shallow window does not thread the deep spine");
+  assert.ok(
+    !new Set(local.members.map((m) => m.slug)).has("daenerys-targaryen"),
+    "an explicit shallow window does not thread the deep spine",
+  );
 });
 
 Deno.test("familyTree: generation bounds are respected (up ancestors / down descendants)", () => {
   const t = familyTree(AEGON_SLUG, data, { generationsUp: 1, generationsDown: 1 });
   for (const m of t.members) {
-    assert.ok(m.generation >= -1 && m.generation <= 1, "members must stay within the generation bound");
+    assert.ok(
+      m.generation >= -1 && m.generation <= 1,
+      "members must stay within the generation bound",
+    );
   }
   // At least one parent (gen -1) and one child (gen +1) appear at bound 1.
   assert.ok(t.members.some((m) => m.generation === -1), "expected an ancestor at gen -1");
@@ -310,7 +386,10 @@ Deno.test("familyTree: generation bounds are respected (up ancestors / down desc
 Deno.test("familyTree: members carry a prominence proxy that ranks marquee kin above filler", () => {
   const t = familyTree(AEGON_SLUG, data);
   for (const m of t.members) {
-    assert.ok(typeof m.prominence === "number" && m.prominence >= 0, "every member has a prominence");
+    assert.ok(
+      typeof m.prominence === "number" && m.prominence >= 0,
+      "every member has a prominence",
+    );
     assert.ok(typeof m.degree === "number" && typeof m.quoteCount === "number");
     assert.equal(m.prominence, m.degree + 4 * m.quoteCount, "prominence = degree + 4·quoteCount");
   }
