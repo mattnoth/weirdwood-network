@@ -2,102 +2,84 @@
 > **This is Session 189.** Stamp your worklog entry `### Session 189` at endsession.
 
 **Track:** meta/graph (design). **Recommended model: Opus 4.8 at the HIGHEST reasoning effort
-available (xhigh/max).** Matt's explicit call: "a super high reasoning model for designing." This
-is a THINKING session — reason deeply, consider options, surface things we haven't thought of.
+available (xhigh/max).** Matt: "a super high reasoning model for designing." This is a THINKING
+session.
 
-**Mandate (Matt, S188 endsession):** analyze the plans and produce a **thorough design document**
-that plans the query/traversal layer so **mechanical agents know EXACTLY what to do**. Not limited
-to the two markdown files — create whatever document structure serves the design best (a proper
-design doc under `reference/design/`, a new top-level plan, restructured MDs — your call). The
-plan should be **thorough**: weigh options, think ahead to where this is going, cover the graph-
-traversal **script library**, the **missing pieces**, all of it. Design still — **do NOT build**
-(no graph mutation, no feature code, no bundle rebuild). The deliverable is documentation/plan.
+**Mandate (Matt, S188 endsession):** produce a **thorough design document** for the query/
+traversal layer, planned so **mechanical agents know exactly what to do**. Be thorough, weigh
+options, think ahead to where this is going, and **think of things we haven't** — the graph-
+traversal script library, the missing pieces, all of it.
 
----
+## Your latitude — READ THIS FIRST
 
-## What exists going in (read these FIRST)
+**Nothing below is settled. It is INPUT to pressure-test, not a spec to implement.** A prior
+session (S188, Opus but a normal reasoning pass) produced the analysis in `GRAPH-QUERY-ROADMAP.md`
++ `GRAPH-STATE.md`: a gap list (G1–G10), a set of directions (D1–D8), and a framing ("two
+apertures / essential-vs-incidental shrink"). **You are explicitly expected to find better
+alternatives, reframe the problem, reprioritize, merge or discard items, and reject any diagnosis
+you find weak.** Matt's words: *"the plan may think of better alternatives — the continue should
+not force anything on the next model."* So:
+- Treat G1–G10 / D1–D8 as one session's hypotheses. Confirm, revise, or overturn them against the
+  real code + data. Where you disagree, say so and design your way, not mine.
+- The list of "areas in play" further down is a **prompt for coverage, not a table of contents you
+  must fill in order.** Restructure freely. Add areas nobody has named. Cut ones that don't earn
+  their place — but say why you cut them.
+- If a genuinely better shape for the whole thing exists, propose THAT. Don't anchor on the
+  existing docs' structure; you may replace it.
 
-- **`GRAPH-QUERY-ROADMAP.md`** (top level) — the forward-looking analysis: gaps **G1–G10**,
-  directions **D1–D8**, the "two apertures / essential-vs-incidental shrink" framing, the LIVE-
-  EVIDENCE exhibit (the meals question → 13 fuzzy/no-match resolves → loop-bound), the query-mode
-  **divergence** table (chat exposes ~5 of `graph-query.py`'s ~11 modes), §4 script-org/interview
-  framing, §8 prior-art.
-- **`GRAPH-STATE.md`** (top level) — current state: census, the **descriptive-layer census §2a**
-  (food 96% islanded; quotes 73% on characters / 3% descriptive; containers 100% events), the
-  **harvest-mechanism root cause §2b** (descriptive material captured but never wired), §4 parked
-  tracks, §4b backlog salvage, §5 live/next incl. the chronology/event-ordering status.
-- **`history/session-details/session-188.md`** — the full narrative + all 7 findings.
-- The actual code: `scripts/graph-query.py` (~11 modes), `scripts/event_alias_resolver.py`,
-  `web/src/lib/*` (the TS port — ~5 modes), `web/netlify/edge-functions/lib/agent.ts` (the 5 chat
-  tools + system prompt). `working/todos.md` Track 7.
+The only things you may NOT change are the hard constraints at the very bottom — those are Matt's,
+not the prior analysis's.
 
-## What the design must cover (be exhaustive; add what's missing)
+## Orient yourself (read, then judge for yourself)
 
-1. **Vision / where this is going.** Frame the whole thing: the graph + its query layer as a
-   first-class, documented, portfolio-grade system that BOTH a CLI and the chat-UI speak. What is
-   the end state in 1 / 3 / 6 moves? This anchors every decision below.
+- `GRAPH-QUERY-ROADMAP.md` + `GRAPH-STATE.md` (top level) — the S188 analysis. Read critically.
+- `history/session-details/session-188.md` — the narrative + the live-UI failure it reproduced
+  (a meals question → ~13 fuzzy/no-match resolves → loop-bound, no answer). Verify the claim holds.
+- The actual code: `scripts/graph-query.py` (~11 query modes) · `scripts/event_alias_resolver.py`
+  · `web/src/lib/*` (the TS port — exposes ~5 modes) · `web/netlify/edge-functions/lib/agent.ts`
+  (the 5 chat tools + system prompt) · `working/todos.md` Track 7. **Ground your design in what the
+  code and the graph actually are — not in the prior session's summary of them.**
 
-2. **The content-first retrieval axis (roadmap D1 — the #1 lever).** Design the quote/passage
-   search that would have answered the meals question in one step. Options: build-time inverted
-   index over the 6,053 node quotes vs. over the 344 chapter files vs. both; keyword vs. embeddings
-   (and can embeddings even live in the Edge runtime, or must they be build-time?); the new chat
-   tool shape (`search_quotes`/`search_passages`). Weigh cost, latency, the 50 ms Edge CPU budget.
+## Areas likely in play (a checklist for *coverage*, not a script — reframe as you see fit)
 
-3. **The traversal script library — organization + unification (§4).** Where should it live
-   (`graph/query/` vs top-level `query/` vs a packaged module)? Design the ONE documented query
-   API that both `graph-query.py` and the chat-UI's TS tools become thin adapters over. Address the
-   **divergence**: port `--container` / `--expand-beats` / `--path` / `--event-participants` to the
-   chat; reconcile the two implementations so they can't drift again. This is Matt's interview
-   centerpiece — make it legible.
+Use these to make sure the design isn't blind to something, then organize however is best:
+- **Where this is going.** The end-state vision — the graph + a documented query layer that both a
+  CLI and the chat-UI speak. Anchor the plan to a destination, not just a gap list.
+- **Content-first retrieval.** The chat can't search content, only resolve names — the root of the
+  live failure. What's the right retrieval model? (index over quotes vs. chapters vs. both; keyword
+  vs. embeddings; build-time vs. request-time given the Edge CPU budget.) Options + a call.
+- **The traversal script library.** Its organization and whether the Python CLI and the TS chat
+  tools should unify behind one documented API (they've drifted — CLI has modes the chat lacks).
+  This is Matt's interview centerpiece — legibility matters.
+- **The descriptive layer.** ~96% of food/customs/materials nodes are edge-less orphans (captured
+  by harvest, never wired). Is a descriptive edge grammar the right fix, or something better?
+- **Resolver / discoverability, the slim bundle projection, chronology (incl. the open Step C wiki-
+  date backfill — see GRAPH-STATE §5), and the parked/unbuilt pieces** (braid/convergence
+  primitives, a routing/trigger index, TWOIAF ingestion, prophecy layer, an MCP server). Decide
+  what's in this arc vs. parked — and whether any is a red herring.
+- **Novel ground.** Spend the reasoning budget on what nobody has proposed yet.
 
-4. **The descriptive-layer wiring (the orphan ring).** Design the fix for the 96%-islanded food /
-   customs / materials layer. A descriptive **edge grammar** (candidates: `SERVED_AT` food→feast-
-   event, `DESCRIBED_IN` →chapter, container tags on non-event nodes) + how the wiring pass runs
-   (deterministic? the deferred Python food-grep? an enrichment dip?). Vocabulary must land in
-   `reference/architecture.md` first (no invented edge types).
+## What the output must be (this part IS the ask)
 
-5. **Resolver / discoverability (G2/G10).** The fuzzy-fallback event-bias + alias holes. Verify
-   whether the TS bundle carries the Python resolver's victim-indexing. Design the alias-coverage
-   backfill + a de-biased fallback (prominence/type-weighted).
-
-6. **The slim-projection problem (G9).** The bundle drops `## Narrative Arc` prose. Decide what the
-   bundle should ship and why (size vs. coverage trade-off).
-
-7. **Chronology / event-ordering.** There WAS an ordering bug (out-of-order chains) — diagnosed as
-   a render bug, mostly fixed (Steps A/B/D done, deployed). **Step C remains** (deterministic wiki-
-   date backfill of ~50 undated causal events → Haiku residue, gated on Matt). Fold it in: is the
-   sort_keys model complete? Should Step C run, and how, deterministically first? See GRAPH-STATE §5.
-
-8. **The charter'd-but-unbuilt + missing pieces.** Braid/convergence primitives (D7,
-   `graph/convergence-maps/` = README only), the trigger table / routing index (D8), TWOIAF
-   ingestion (1.5 MB on disk, never extracted), prophecy layer (4 nodes/0 edges), an MCP server for
-   programmatic access. Which belong in this arc vs. parked?
-
-9. **Options & trade-offs, explicitly.** For each major item: ≥2 approaches, the recommendation,
-   and why. Don't present a single path as inevitable.
-
-10. **Novel ideas / what we haven't considered.** Use the reasoning budget. What retrieval shapes,
-    data-model moves, or portfolio angles haven't surfaced yet?
-
-## Output requirements
-
-- **Mechanical-agent-executable.** Every work item spec'd so a downstream Sonnet/Haiku agent can
-  execute without re-deriving: concrete steps, exact files/scripts touched, inputs/outputs, success
-  criteria, DO-NOTs, recommended model per item. Sequence them (dependencies, what's parallel-safe).
-- **A recommended roadmap** — phased, with a clear first move.
-- Keep the vocabulary rules (Pass/Track/Tier + lowercase `step`); new capitalized terms need a
-  worklog Active Decision. Paste the glossary terms into any subagent you spawn.
-- Update the appendix logs of whatever docs you touch; leave the doc set internally consistent.
+- **A design document mechanical agents can execute** — not restricted to the two existing MDs.
+  Create whatever structure serves best (e.g. `reference/design/…`, a new top-level plan, or a
+  restructure). For each item you land on: concrete steps, exact files/scripts, inputs/outputs,
+  success criteria, DO-NOTs, recommended model — and a **sequence** (dependencies, parallel-safe vs.
+  serial) with a clear first move.
+- **Options, not edicts.** For each major decision, give the alternatives you weighed and why you
+  chose as you did — so Matt can overrule at the fork, not just at the end.
+- Leave the doc set internally consistent; update the appendix/log of anything you touch.
 
 ## At endsession
-- Worklog entry `### Session 189` (worklog.md, meta/graph).
-- Update `working/todos.md` Track 7 to point at the new design doc + the sequenced plan.
-- Commit docs only.
+- Worklog entry `### Session 189` (worklog.md, meta/graph). Update `working/todos.md` Track 7 to
+  point at whatever design doc you produced. Commit docs only.
 
-## DO NOT
-- Mutate the graph (`graph/`), rebuild the bundle, or change `web/` / `scripts/` **code**. Design
-  only — the output is documentation/plan.
-- Invent edge types or vocabulary without routing through `reference/architecture.md` + a worklog
-  Active Decision.
-- Run any Haiku/extraction pass (incl. Step C) without Matt's explicit OK.
-- Run `/endsession` without Matt's permission. Do not touch the top-level `scratch`/`scr` file.
+## Hard constraints (Matt's — do NOT change these)
+- **Design only. Do NOT build** — no graph (`graph/`) mutation, no bundle rebuild, no `web/` /
+  `scripts/` code changes. The deliverable is documentation/plan.
+- **No invented edge types or vocabulary** without routing through `reference/architecture.md` +
+  a worklog Active Decision. Keep the canonical vocab (Pass/Track/Tier + lowercase `step`); paste
+  the glossary into any subagent you spawn (they don't load CLAUDE.md).
+- **No Haiku/extraction/LLM pass** (incl. chronology Step C) without Matt's explicit OK — you may
+  *design* it, not run it.
+- Do not run `/endsession` without Matt's permission. Do not touch the top-level `scratch`/`scr`.
