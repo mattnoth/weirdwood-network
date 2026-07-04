@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-03 (refreshed after S185)  
+**Generated:** 2026-07-03 (refreshed after S186)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,13 +12,15 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-03-chronology-coordinated-commit.md` | 2026-07-03 | Chat-UI — coordinated commit of chronology + logging + styling, then draft-deploy verify | **LIVE** (meta) → fires as **S186** | Sonnet 4.6 (git + draft deploy; no LLM) | THE one actionable next. S185 finished the chronology render fix (Step A) + Step D scan but **did not commit** — three agents (S185 chronology, S186-labelled logging, a styling agent) shared the working tree; committing any subset risked an inconsistent deploy. This prompt: confirm the tree is quiet → re-verify green → rebuild bundle → ONE coordinated commit (file list in prompt) → **draft deploy + visually confirm the two-section chronological render** (the one unverified piece) → `--prod`. Optional follow-on: Step C deterministic wiki-date backfill (gated). **Fire only after all parallel agents stop editing.** |
-| `2026-07-01-chat-ui-alpha-tester-notes.md` | 2026-07-01 | Chat-UI — triage & apply alpha-tester notes | **HALTED-gated-on-Matt-pasting-notes** (meta) | Sonnet 4.6 | Standing bucket (not the LIVE next — Matt-gated). Alpha is LIVE (S183). When Matt pastes notes: bucket (bug/UX/content/graph-gap) → fix quick wins keeping `deno task test` green → draft-verify → `--prod` on OK. The chronology out-of-order chains (one such note) are already spun out to the LIVE row above. Deferred: fuzzy-resolve resolver track. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 97 files)
+## Archive (`archive/` subfolder — 99 files)
+
+> **`2026-07-03-chronology-coordinated-commit.md`** — archived S186. **DONE (S186): the coordinated commit + deploy is complete.** All S185 code (chronology render fix, logging, styling) was committed + pushed + deployed to prod by the parallel agents; S186 added the two-persona system (loremaster default + bloodraven toggle), the theory-scope guardrail, the ≥2-quote floor, the Opus cutover, and the $50 cap — all live and verified. Nothing left of this track.
+
+> **`2026-07-01-chat-ui-alpha-tester-notes.md`** — archived S186. **SUPERSEDED — the alpha is deployed and Matt is now populating logs live.** The tester-note fixes that were actioned (persona rename→raven→loremaster, wiki-boilerplate suppression, chain-order, theory-leak, ≥2 quotes) shipped in S185–S186. Future alpha-tester feedback is now driven by the live usage logs (`web/scripts/read-logs.ts`), not this static bucket. Backlog items live in the S186 worklog "What's next".
 
 > **`2026-07-03-chronology-sortkey-wiring.md`** — archived S185. **DONE (S185, minus the commit): the chronology render fix is code-complete + green.** Step A wired `composite`/`reading_order` into the bundle + `walkChain` (sorts each direction by story-time; the key insight was that composite `"0298.1.018"` and reading_order `"1.015"` are NOT lexically comparable, so undated events get a book→AC-year synthesized key) and split the render into two labelled sections. Step D scan found 0 genuine inversions. Step B (logging) was done by a **parallel S186 agent** (verified spec-correct). 39/39 tests green. NOT committed — three agents shared the tree; the coordinated commit + draft-deploy verify is the LIVE `2026-07-03-chronology-coordinated-commit.md` above. Step C (date backfill) still open, gated.
 
