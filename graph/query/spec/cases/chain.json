@@ -1,0 +1,99 @@
+[
+  {
+    "id": "chain-assassination-of-tywin-lannister-default-depth",
+    "op": "chain",
+    "profile": "bounded",
+    "input": { "slug": "assassination-of-tywin-lannister" },
+    "expect": {
+      "mode": "exact",
+      "upstreamOrder": [
+        {
+          "source": "jaime-reveals-the-truth-of-tysha",
+          "edge_type": "CAUSES",
+          "target": "assassination-of-tywin-lannister",
+          "depth": 1
+        },
+        {
+          "source": "jaime-frees-tyrion-from-the-black-cells",
+          "edge_type": "CAUSES",
+          "target": "jaime-reveals-the-truth-of-tysha",
+          "depth": 2
+        }
+      ],
+      "downstreamOrder": [
+        {
+          "source": "assassination-of-tywin-lannister",
+          "edge_type": "CAUSES",
+          "target": "cersei-rearms-the-faith-and-forgives-the-debt",
+          "depth": 1
+        },
+        {
+          "source": "assassination-of-tywin-lannister",
+          "edge_type": "MOTIVATES",
+          "target": "tyrion-lannister",
+          "depth": 1
+        },
+        {
+          "source": "cersei-rearms-the-faith-and-forgives-the-debt",
+          "edge_type": "CAUSES",
+          "target": "cersei-is-captured-in-the-sept",
+          "depth": 2
+        },
+        {
+          "source": "tyrion-lannister",
+          "edge_type": "MOTIVATES",
+          "target": "golden-company-sails-for-westeros",
+          "depth": 2
+        }
+      ],
+      "enablesCount": 2
+    },
+    "note": "the design doc's marquee walk-chain pivot. Full ordered slug lists asserted (small at default depth=2, ≤12/direction cap) — story-time ordering (S185) is exactly the behavior this case pins."
+  },
+  {
+    "id": "chain-assassination-of-tywin-lannister-enables-sidechannel",
+    "op": "chain",
+    "profile": "bounded",
+    "input": { "slug": "assassination-of-tywin-lannister" },
+    "expect": {
+      "mode": "exact",
+      "enables": [
+        {
+          "source": "tyrion-kills-shae-in-tywins-bed",
+          "target": "assassination-of-tywin-lannister",
+          "edge_type": "ENABLES"
+        },
+        {
+          "source": "murder-of-the-old-high-septon",
+          "target": "cersei-rearms-the-faith-and-forgives-the-debt",
+          "edge_type": "ENABLES"
+        }
+      ]
+    },
+    "note": "the ENABLES side-channel is a SEPARATE, one-hop-into-the-spine set — never part of upstream/downstream. This is the chain --full profile-divergence documented in operations.md: bounded returns exactly these 2 one-hop preconditions, not a full-chain transitive ENABLES walk."
+  },
+  {
+    "id": "chain-invalid-slug-empty-no-throw",
+    "op": "chain",
+    "profile": "bounded",
+    "input": { "slug": "not a slug!!" },
+    "expect": {
+      "mode": "exact",
+      "upstream": [],
+      "downstream": [],
+      "enables": []
+    },
+    "note": "restates graph_test.ts's invalid-slug case as a shared golden case"
+  },
+  {
+    "id": "chain-deeper-maxdepth-recovers-more-upstream",
+    "op": "chain",
+    "profile": "bounded",
+    "input": { "slug": "assassination-of-tywin-lannister", "maxDepth": 10 },
+    "expect": {
+      "mode": "invariant",
+      "upstreamLengthGreaterThanDefaultDepth": true
+    },
+    "note": "proves the depth cap is the only thing limiting the default walk, not a broken traversal — restates the existing graph_test.ts assertion. Full profile has no maxDepth cap at all (unbounded BFS by default); this case is bounded-only since it's about probing the cap itself."
+  }
+]

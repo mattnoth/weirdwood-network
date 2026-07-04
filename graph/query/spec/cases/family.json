@@ -1,0 +1,117 @@
+[
+  {
+    "id": "family-aegon-i-targaryen-default-window",
+    "op": "family",
+    "profile": "bounded",
+    "input": { "slug": "aegon-i-targaryen" },
+    "expect": {
+      "mode": "invariant",
+      "root": "aegon-i-targaryen",
+      "rootName": "Aegon I Targaryen",
+      "memberCount": 96,
+      "truncated": true,
+      "generationCounts": {
+        "-2": 3, "-1": 2, "0": 3, "1": 8, "2": 7, "3": 19, "4": 10,
+        "5": 3, "6": 4, "7": 5, "8": 4, "9": 3, "10": 4, "11": 4, "12": 11, "13": 6
+      },
+      "mustInclude": [
+        "daenerys-targaryen",
+        "rhaegar-targaryen",
+        "aerys-ii-targaryen",
+        "aegon-v-targaryen",
+        "daemon-i-blackfyre",
+        "aenys-i-targaryen",
+        "maegor-i-targaryen"
+      ]
+    },
+    "note": "the design doc's pivot family-tree case. memberCount=96 is exactly MAX_FAMILY_MEMBERS — the dynasty overflows the cap and reports truncated=true rather than silently dropping kin. mustInclude covers both the near-root breadth (Aenys/Maegor, gen 1, direct sons) and the deep main-line spine (Daenerys/Rhaegar/Aerys II/Aegon V at gen 9-13, and the Blackfyre cadet split) — the spine exists specifically to reach descendants 12 hops past the default generationsDown=4 breadth horizon."
+  },
+  {
+    "id": "family-aegon-i-targaryen-tight-window-opts-out-of-deep-spine",
+    "op": "family",
+    "profile": "bounded",
+    "input": { "slug": "aegon-i-targaryen", "generationsUp": 1, "generationsDown": 1 },
+    "expect": {
+      "mode": "invariant",
+      "mustExclude": ["daenerys-targaryen"],
+      "generationBounds": { "min": -1, "max": 1 }
+    },
+    "note": "an explicit tight window (generationsDown below the default of 4) opts OUT of the deep main-line spine entirely — verified live. All members stay within the requested [-1, 1] generation bound; the deep spine only threads when generationsDown >= the default."
+  },
+  {
+    "id": "family-eddard-stark-default-window",
+    "op": "family",
+    "profile": "bounded",
+    "input": { "slug": "eddard-stark" },
+    "expect": {
+      "mode": "invariant",
+      "root": "eddard-stark",
+      "rootName": "Eddard Stark",
+      "memberCount": 17,
+      "truncated": false,
+      "mustInclude": [
+        "rickard-stark", "lyarra-stark",
+        "eddard-stark", "catelyn-stark",
+        "arya-stark", "jon-snow", "bran-stark", "robb-stark", "sansa-stark", "rickon-stark",
+        "ramsay-snow", "jeyne-westerling", "tyrion-lannister"
+      ],
+      "spouseBondIncludes": { "a": "eddard-stark", "b": "catelyn-stark" }
+    },
+    "note": "a clean (non-era-collided) lineage, small enough to assert the full member set. Catelyn is attached as a spouse at generation 0 (root's own generation) rather than via a PARENT_OF walk. Live snapshot 2026-07-04: 17 members, not truncated."
+  },
+  {
+    "id": "family-eddard-stark-tight-window",
+    "op": "family",
+    "profile": "bounded",
+    "input": { "slug": "eddard-stark", "generationsUp": 1, "generationsDown": 1 },
+    "expect": {
+      "mode": "invariant",
+      "memberCount": 13,
+      "truncated": false,
+      "generationBounds": { "min": -1, "max": 1 },
+      "spouseBondIncludes": { "a": "eddard-stark", "b": "catelyn-stark" }
+    },
+    "note": "restates graph_test.ts's spouse-attachment + generation-bound cases as a shared golden case"
+  },
+  {
+    "id": "family-invalid-slug-rejected-by-trust-boundary",
+    "op": "family",
+    "profile": "bounded",
+    "input": { "slug": "../etc/passwd" },
+    "expect": {
+      "mode": "exact",
+      "members": [],
+      "parentBonds": [],
+      "spouseBonds": [],
+      "memberCount": 0,
+      "truncated": false
+    },
+    "note": "the ONE case that returns the fully-empty FamilyTreeResult: a slug the validate.ts regex trust boundary rejects outright (contains '..' / '/'). Restates graph_test.ts's invalid-slug case."
+  },
+  {
+    "id": "family-wellformed-but-nonexistent-slug-returns-synthetic-stub",
+    "op": "family",
+    "profile": "bounded",
+    "input": { "slug": "nonexistent-slug-xyz" },
+    "expect": {
+      "mode": "exact",
+      "root": "nonexistent-slug-xyz",
+      "memberCount": 1,
+      "truncated": false,
+      "members": [
+        {
+          "slug": "nonexistent-slug-xyz",
+          "name": "Nonexistent Slug Xyz",
+          "generation": 0,
+          "hasNode": false,
+          "degree": 0,
+          "quoteCount": 0,
+          "prominence": 0
+        }
+      ],
+      "parentBonds": [],
+      "spouseBonds": []
+    },
+    "note": "NOT previously documented anywhere: familyTree on a well-formed but non-existent slug (passes the regex trust boundary, but no node record and no edges reference it) returns a ONE-MEMBER tree containing a synthetic stub for the queried slug itself -- NOT an empty tree. This differs from resolve() ([] on any miss) and neighbors()/walkChain() (empty groups/arrays on invalid input). See operations.md's family section for the full explanation."
+  }
+]

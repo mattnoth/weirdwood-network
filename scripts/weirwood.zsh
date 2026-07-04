@@ -146,16 +146,23 @@ weirwood() {
       ;;
 
     # ── Standing tools (class C/D) ───────────────────────────────────────────────
+    query)
+      # NEW front door — the consolidated query engine (graph/query/weirwood_query).
+      #   weirwood query <slug> | --neighbors <slug> | --path <a> <b> | --health
+      #   weirwood query --causal-chain <slug> | --container <name> | --family-tree <slug>
+      shift
+      PYTHONPATH="$project_dir/graph/query${PYTHONPATH:+:$PYTHONPATH}" \
+        python3 -m weirwood_query.cli "$@"
+      ;;
     graph)
-      # Graph query/audit tool — thin pass-through to graph-query.py.
-      #   weirwood graph --neighbors <slug> | --path <a> <b> | --health
-      #   weirwood graph --edges <slug> | --event-participants <hub>
+      # LEGACY alias — thin pass-through to the graph-query.py compat shim.
+      # Prefer 'weirwood query'. (Shim output is identical; shim points at graph/query/.)
       shift
       python3 "$project_dir/scripts/graph-query.py" "$@"
       ;;
     resolve)
-      # Event alias resolver (class D) — thin pass-through to event_alias_resolver.py.
-      #   weirwood resolve --lookup "<phrase>" | --build | --stats
+      # LEGACY alias — thin pass-through to the event_alias_resolver.py compat shim.
+      # Prefer 'weirwood query' for lookups; rebuilds run via 'weirwood refresh'.
       shift
       python3 "$project_dir/scripts/event_alias_resolver.py" "$@"
       ;;
@@ -243,8 +250,9 @@ weirwood() {
       echo "  weirwood stage4 <subcommand>      Stage 4 prose-edge classifier"
       echo "  weirwood sift <subcommand>        Sift corpus scanner (status/run/sample/interpret)"
       echo "  weirwood run <subcommand>         Long-run track registry — see 'weirwood run --help'"
-      echo "  weirwood graph <args>             Graph query/audit (graph-query.py pass-through)"
-      echo "  weirwood resolve <args>           Event alias resolver (event_alias_resolver.py)"
+      echo "  weirwood query <args>             Query engine (graph/query/) — the NEW front door"
+      echo "  weirwood graph <args>             LEGACY alias for query (graph-query.py shim)"
+      echo "  weirwood resolve <args>           LEGACY alias (event_alias_resolver.py shim)"
       echo "  weirwood refresh [--check]        Rebuild all derived artifacts (post-node-mutation)"
       echo ""
       echo "Examples:"
@@ -256,8 +264,8 @@ weirwood() {
       echo "  weirwood wiki core 2 3            Launch wiki core tier (2 tabs, 3 waves)"
       echo "  weirwood stage4 5                 Launch 5 Stage 4 worker tabs"
       echo "  weirwood run list                 List long-run tracks"
-      echo "  weirwood graph --neighbors ned-stark   Inspect a node's edges"
-      echo "  weirwood graph --path arya-stark jaqen-hghar"
+      echo "  weirwood query --neighbors ned-stark   Inspect a node's edges"
+      echo "  weirwood query --path arya-stark jaqen-hghar"
       echo "  weirwood resolve --lookup \"Ned Stark's execution\""
       echo "  weirwood refresh                  Rebuild indexes + alias resolver after a node add/rename"
       echo "  weirwood refresh --check          Warn if derived artifacts are stale"

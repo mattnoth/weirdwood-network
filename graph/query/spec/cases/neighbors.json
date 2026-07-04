@@ -1,0 +1,54 @@
+[
+  {
+    "id": "neighbors-tywin-lannister-shape",
+    "op": "neighbors",
+    "profile": "bounded",
+    "input": { "slug": "tywin-lannister" },
+    "expect": {
+      "mode": "invariant",
+      "outgoingCountAtLeast": 60,
+      "incomingCountAtLeast": 30,
+      "hasOutgoingTypes": ["PARENT_OF", "COMMANDS", "EXECUTES", "AGENT_IN", "VICTIM_IN"],
+      "hasIncomingTypes": ["PARENT_OF", "SPOUSE_OF", "MOTIVATES", "KILLS"]
+    },
+    "note": "counts are 'at least' thresholds, not exact — new edges landing on Tywin (a hub) between sessions shouldn't break this case. Live snapshot 2026-07-04: outgoingCount=80, incomingCount=46."
+  },
+  {
+    "id": "neighbors-tywin-lannister-parent-of-children",
+    "op": "neighbors",
+    "profile": "bounded",
+    "input": { "slug": "tywin-lannister" },
+    "expect": {
+      "mode": "invariant",
+      "outgoingTypeTargets": {
+        "PARENT_OF": ["tyrion-lannister", "jaime-lannister", "cersei-lannister"]
+      }
+    },
+    "note": "asserts the exact ordered target-slug set for one specific, stable, low-volatility edge type/direction (Tywin's three children) rather than the whole 80-link outgoing set."
+  },
+  {
+    "id": "neighbors-counts-equal-sum-of-groups",
+    "op": "neighbors",
+    "profile": "both",
+    "input": { "slug": "tywin-lannister" },
+    "expect": {
+      "mode": "invariant",
+      "assertion": "outgoingCount == sum(len(v) for v in outgoing.values()); incomingCount == sum(len(v) for v in incoming.values())"
+    },
+    "note": "structural invariant: the reported counts must equal what the grouped/deduped output actually shows (a duped neighbour is not a second connection). Restates graph_test.ts's dedup-consistency check as a shared case."
+  },
+  {
+    "id": "neighbors-invalid-slug-empty-no-throw",
+    "op": "neighbors",
+    "profile": "bounded",
+    "input": { "slug": "' OR 1=1" },
+    "expect": {
+      "mode": "exact",
+      "outgoingCount": 0,
+      "incomingCount": 0,
+      "outgoing": {},
+      "incoming": {}
+    },
+    "note": "trust-boundary check (validate.ts isValidSlug) rejects the malformed slug before any lookup; must not throw."
+  }
+]

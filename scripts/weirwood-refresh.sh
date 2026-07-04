@@ -14,7 +14,8 @@
 # Builders run (in order):
 #   1. build-entity-indexes.py --type <T> --all   for all 17 entity TYPE_CONFIGS
 #   2. build-character-indexes.py --all            (characters are a separate builder)
-#   3. event_alias_resolver.py --build             (event alias → slug lookup)
+#   3. graph/query/build/build_alias_table.py --build  (event alias → slug lookup;
+#      the query-engine builder — replaces event_alias_resolver.py --build, same output)
 
 set -uo pipefail
 
@@ -75,8 +76,9 @@ else
     rc=1
 fi
 
-echo "[3/3] Event alias resolver (event_alias_resolver.py --build)"
-if python3 scripts/event_alias_resolver.py --build >/dev/null 2>&1; then
+echo "[3/3] Event alias resolver (graph/query/build/build_alias_table.py --build)"
+if PYTHONPATH="$REPO_ROOT/graph/query${PYTHONPATH:+:$PYTHONPATH}" \
+    python3 graph/query/build/build_alias_table.py --build >/dev/null 2>&1; then
     echo "      ok: event-alias-lookup.json"
 else
     echo "      FAILED: event alias resolver" >&2

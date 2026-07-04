@@ -1,0 +1,144 @@
+[
+  {
+    "id": "resolve-red-wedding-exact",
+    "op": "resolve",
+    "profile": "both",
+    "input": { "phrase": "the Red Wedding" },
+    "expect": {
+      "mode": "exact",
+      "candidates": [
+        { "slug": "red-wedding", "category": "events", "score": 1, "matchType": "exact" }
+      ]
+    },
+    "note": "known-good pivot: leading article stripped by normalize(), exact alias-map hit"
+  },
+  {
+    "id": "resolve-tywin-lannister-full-name-exact",
+    "op": "resolve",
+    "profile": "both",
+    "input": { "phrase": "Tywin Lannister" },
+    "expect": {
+      "mode": "exact",
+      "candidates": [
+        { "slug": "tywin-lannister", "category": "characters", "score": 1, "matchType": "exact" }
+      ]
+    },
+    "note": "known-good pivot: full character name, unambiguous exact hit"
+  },
+  {
+    "id": "resolve-death-of-tywin-exact",
+    "op": "resolve",
+    "profile": "bounded",
+    "input": { "phrase": "death of Tywin" },
+    "expect": {
+      "mode": "exact",
+      "top": {
+        "slug": "assassination-of-tywin-lannister",
+        "category": "events",
+        "score": 1,
+        "matchType": "exact"
+      }
+    },
+    "note": "the existing graph_test.ts/resolve_test.ts REQUIRED pivot case, restated as a golden case"
+  },
+  {
+    "id": "resolve-robb-starks-death-current-fuzzy-miss-of-exact",
+    "op": "resolve",
+    "profile": "bounded",
+    "input": { "phrase": "Robb Stark's death" },
+    "expect": {
+      "mode": "invariant",
+      "top": {
+        "slug": "robb-is-killed",
+        "category": "events",
+        "matchType": "fuzzy"
+      },
+      "candidateSlugs": [
+        "robb-is-killed",
+        "robb-stark",
+        "robb-receives-false-news-of-brans-death",
+        "robb-weds-jeyne-westerling"
+      ]
+    },
+    "note": "G19 — the victim-phrase alias source exists in the Python resolver's lookup table but was never merged into web/data/alias-map.json at build time, so this phrase has NO exact key and falls to the fuzzy stage. It still lands on the right node (robb-is-killed) via the slug-token bonus, but matchType is \"fuzzy\" not \"exact\". Expected to flip top.matchType to \"exact\" after step 4a (build_alias_table.py merges victim phrases into the bundle table)."
+  },
+  {
+    "id": "resolve-lemon-cakes-current-miss",
+    "op": "resolve",
+    "profile": "bounded",
+    "input": { "phrase": "lemon cakes" },
+    "expect": {
+      "mode": "invariant",
+      "topSlugIsNot": "lemon-cake",
+      "allScoresBelow": 0.6,
+      "candidateSlugs": ["lemon", "cream-cakes", "lemon-cake", "lem", "lemonwater"]
+    },
+    "note": "G2 — no dedicated 'lemon cakes' phrase key in the alias table; fuzzy fallback returns low-confidence unrelated foods (best score 0.55) rather than surfacing lemon-cake as the clear top hit. Expected to improve after step 4b (variant/alias generation) and to become reachable regardless via step 5's content search over quote text."
+  },
+  {
+    "id": "resolve-tywin-bare-name-cross-character-bias",
+    "op": "resolve",
+    "profile": "bounded",
+    "input": { "phrase": "Tywin" },
+    "expect": {
+      "mode": "invariant",
+      "top": { "slug": "tyrion-lannister", "matchType": "fuzzy" },
+      "candidateSlugs": [
+        "tyrion-lannister",
+        "tywin-lannister",
+        "gregor-clegane",
+        "assassination-of-tywin-lannister",
+        "roose-named-warden-of-the-north"
+      ]
+    },
+    "note": "G10 — bare single-token query with no exact alias-map key; every candidate ties at fuzzy score 1.0 (full token-overlap + slug bonus cap), so the whole-graph prominence tie-break decides, and tyrion-lannister (higher prominence: 462) outranks the intended tywin-lannister (218). Mechanism = no candidate-length penalty. Expected to be de-biased in step 4c (candidate-length normalization ported to both resolve.py and resolve.ts)."
+  },
+  {
+    "id": "resolve-eddard-stark-known-character",
+    "op": "resolve",
+    "profile": "both",
+    "input": { "phrase": "Eddard Stark" },
+    "expect": {
+      "mode": "exact",
+      "mustIncludeSlug": "eddard-stark"
+    },
+    "note": "restates the existing resolve_test.ts case as a shared golden case"
+  },
+  {
+    "id": "resolve-aemon-targaryen-prominence-tiebreak",
+    "op": "resolve",
+    "profile": "bounded",
+    "input": { "phrase": "Aemon Targaryen" },
+    "expect": {
+      "mode": "invariant",
+      "top": { "slug": "aemon-targaryen-son-of-maekar-i", "matchType": "exact", "score": 1 },
+      "mustIncludeSlug": "aemon-targaryen",
+      "rankBefore": {
+        "first": "aemon-targaryen-son-of-maekar-i",
+        "second": "aemon-targaryen"
+      }
+    },
+    "note": "restates resolve_test.ts's prominence-tiebreak case: a shared phrase resolves to several exact slugs (both score 1.0); the content-rich node (16 quotes) must outrank the empty bare-name bucket (0 quotes)."
+  },
+  {
+    "id": "resolve-empty-input-returns-empty",
+    "op": "resolve",
+    "profile": "both",
+    "input": { "phrase": "" },
+    "expect": { "mode": "exact", "candidates": [] }
+  },
+  {
+    "id": "resolve-whitespace-only-returns-empty",
+    "op": "resolve",
+    "profile": "bounded",
+    "input": { "phrase": "   " },
+    "expect": { "mode": "exact", "candidates": [] }
+  },
+  {
+    "id": "resolve-gibberish-returns-empty",
+    "op": "resolve",
+    "profile": "both",
+    "input": { "phrase": "zzzqqq xkcdwobble" },
+    "expect": { "mode": "exact", "candidates": [] }
+  }
+]
