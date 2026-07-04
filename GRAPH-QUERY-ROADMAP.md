@@ -1,5 +1,11 @@
 # Graph Query & Traversal — Roadmap / Gaps / Ideas
 
+> **→ S189 (2026-07-04): the master design landed at `working/query-layer/design.md`.**
+> That doc is now the **plan of record** for the query-layer track — it confirms/revises
+> every gap below (verdicts on G1–G10, new gaps G11–G19), takes the decisions (D-A…D-I),
+> and sequences the work into executable step cards. THIS doc remains the diagnosis/history
+> record; don't extend §3/§4 here — extend the design doc.
+>
 > **Status: LIVING SPITBALL DOC.** Started 2026-07-04. Being built and refined across
 > this session and the next. Nothing here is decided unless a line says DECIDED.
 > Sections marked **[grounded]** are verified against the repo; **[spitball]** are ideas.
@@ -346,3 +352,9 @@ fallback + tune walk_chain (G3)."** Most of it is already named; little is truly
   loop-bound-hit, no answer — every gap firing at once. Added the **"two apertures / essential
   vs. incidental shrink"** framing (§0): which gaps are fixable (incidental) vs. permanent
   runtime constraints (essential).
+- **2026-07-04 (S189, master-design session):** this doc's forward-looking half is superseded
+  by **`working/query-layer/design.md`** (see banner). S189 verifications recorded there:
+  victim-phrase aliases ("Robb Stark's death") are ABSENT from the shipped `alias-map.json`
+  (the §4b suspicion is a confirmed portability gap); the `graph/index/` layer (48 MB) is read
+  by nothing in the query path and is stale for harvest-minted nodes; the deeper root cause
+  behind the mode divergence is the absence of any shared contract/parity mechanism (new G11).

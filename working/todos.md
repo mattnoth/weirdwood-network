@@ -133,12 +133,19 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 > - **[OPEN] Unbundle the slim node projection (G9)** — the bundle drops `## Narrative Arc`
 >   prose (only identity+quotes ship); real cited descriptive content is stranded.
 > - **[OPEN] Braid/convergence primitives (roadmap D7)** + **trigger table (D8)** — see below.
-> → continue: `progress/continue-prompts/2026-07-04-graph-query-docs-and-script-org.md` (S189 —
->   **MASTER DESIGN session, Opus 4.8 MAX reasoning**: thorough mechanical-agent-executable design
->   doc for the whole query/traversal layer — content-search D1, script-library org + Python/TS
->   unification, descriptive-layer wiring, resolver G2/G10, slim-projection G9, chronology Step C,
->   braid D7 / trigger table D8 / TWOIAF / prophecy / MCP, options + novel ideas. NOT limited to
->   the two MDs; design only, no build).
+> → **S189 (2026-07-04): the master design is DONE → `working/query-layer/design.md`** (amended
+>   S189b after Matt's review) — the plan of record for this Track. Contract-first reframe (one
+>   documented query surface, Python engine under **`graph/query/`**, CLI + chat as thin
+>   adapters, shared golden parity fixtures run by pytest AND deno), new gaps G11–G19 (no
+>   contract; intra-Python triplication; `graph/index/` 48 MB unrouted+stale; no telemetry loop;
+>   no eval harness; victim-alias bundle gap CONFIRMED). **Execution (S189b): three
+>   Fable-ORCHESTRATED sessions** (A engine · B retrieval · C reach/close-out + advisory-board
+>   fan-out on open forks) with Sonnet/Haiku subagents; **the pytest traversal suite is DEFERRED
+>   TO LAST** (Matt — no half-finished states; golden spec cases carry drift protection from
+>   session A). **S189c:** loremaster persona reframe (researcher/thought-experimenter frame)
+>   added to step 5c. Next = ONE rolled Fable-orchestrator session (A→B→C as far as context
+>   allows, clean-boundary handoff) → continue:
+>   `progress/continue-prompts/2026-07-04-query-layer-orchestrated-build.md`.
 
 - [x] **[DONE S96 (commit c58770549); S101 dip re-run CONFIRMED it works — natural phrasings now HIT] Fix the alias resolver / slug-discoverability gap.** The Mode 3 dip's #1 finding: the graph repeatedly holds the correct answer but `event_alias_resolver.py --lookup` returns MISS on natural phrasings, so a consumer agent never reaches the node. Cheapest, highest-leverage fix; converts ~3 fails/partials to correct (~4/10 → ~7/10) with ZERO new graph data. Scope: (a) fuzzy/substring fallback against the node-slug index when exact lookup misses; (b) index `event.death`/`event.execution` hubs by their victim so "X's death" / "X's execution" resolve (e.g. "Robb Stark's death" → `robb-is-killed`, "Ned Stark's execution" → `execution-of-eddard-stark`); (c) when a phrase names a character, return that character node as a candidate so node-attached edges (e.g. QoLB) are reachable. Deterministic Python, $0. Smoke-test against the dip's 10 questions before/after. NEEDS a continue prompt when picked up. (**Sonnet 4.6** — deterministic script work.)
 

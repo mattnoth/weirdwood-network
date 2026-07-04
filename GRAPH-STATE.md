@@ -198,8 +198,10 @@ work. Grouped by relevance to the traversal/query/descriptive themes.
   is half-built — the *routing* half is missing. Relevant to a content/search index (roadmap D1).
 - **Resolver Track 7** — the basic alias fix shipped S96 (natural phrasings), but the
   marquee-name / plural cases (our G2/G10) re-emerged S177 and remain. Note: the Python resolver
-  indexes death/execution hubs by victim ("Robb Stark's death" → `robb-is-killed`); **verify the
-  TS bundle's alias-map carries that** — if not, it's a portability gap in the chat.
+  indexes death/execution hubs by victim ("Robb Stark's death" → `robb-is-killed`); **VERIFIED
+  S189: the TS bundle's alias-map does NOT carry it** ("robb stark's death" / "ned stark's
+  execution" → MISS in `web/data/alias-map.json`) — a confirmed portability gap, fix scoped as
+  step 4a of `working/query-layer/design.md`.
 - **MCP server for programmatic graph access** (LOW backlog) — fits the "query layer as a
   first-class product" / portfolio framing (roadmap §4).
 
@@ -270,3 +272,9 @@ work. Grouped by relevance to the traversal/query/descriptive themes.
   "braid"/convergence-map query primitives (`graph/convergence-maps/` = README only), the
   unshipped trigger table, TWOIAF (1.5 MB, never extracted), the deferred Python food-grep.
   Added D7 (braid) + D8 (trigger table) to the roadmap.
+- **2026-07-04 (S189):** master design for the query-layer track landed at
+  **`working/query-layer/design.md`**. State-relevant S189 census updates: total orphan nodes
+  27.8% (2,358/8,468); artifacts are edge-*sinks* only (0 out-edges even on Iron Throne /
+  Longclaw); 5 YAML-broken node files; 91 dangling edge endpoints; the victim-alias bundle gap
+  CONFIRMED (see §4b); `graph/index/foods/*` entries are EMPTY for harvest-minted nodes
+  (`acorn-paste`: 0 appearances) — the index layer is unrouted AND stale.
