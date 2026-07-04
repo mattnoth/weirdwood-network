@@ -10,6 +10,21 @@ traversal layer, planned so **mechanical agents know exactly what to do**. Be th
 options, think ahead to where this is going, and **think of things we haven't** — the graph-
 traversal script library, the missing pieces, all of it.
 
+**Explicitly (Matt): a core part of your job is to find what we are MISSING** — gaps in the
+analysis, node/edge/data-model coverage the graph lacks, use-cases nobody has designed for,
+capabilities the query layer should have and doesn't, whole areas the prior session didn't see.
+Don't just refine the existing list; hunt for its blind spots.
+
+**How you may work (you don't have to do all the grunt-work yourself):** you are the expensive
+reasoning model — spend your budget on DESIGN, and **fan out cheaper subagents (Sonnet, or Haiku
+for the simplest jobs) for the mechanical parts** where it helps: reading `graph-query.py` and
+enumerating every mode + exact behavior, verifying a claim in the docs against the real code,
+censusing the graph, surveying what a node type actually contains, checking whether the TS bundle
+carries a given field, etc. Delegate the reading/verification; keep the reasoning. (Model-fit
+rule: cheapest model that can do the sub-task; paste the glossary terms into any subagent you
+spawn — they don't load CLAUDE.md. Stay within the design-only guardrails below — subagents READ
+and REPORT; they do not mutate the graph or build.)
+
 ## Your latitude — READ THIS FIRST
 
 **Nothing below is settled. It is INPUT to pressure-test, not a spec to implement.** A prior
@@ -27,8 +42,10 @@ not force anything on the next model."* So:
 - If a genuinely better shape for the whole thing exists, propose THAT. Don't anchor on the
   existing docs' structure; you may replace it.
 
-The only things you may NOT change are the hard constraints at the very bottom — those are Matt's,
-not the prior analysis's.
+The only things you may NOT change are the hard constraints at the very bottom. Those are
+**governance** — what this session is permitted to DO (design vs. build, mutate the graph, spend
+on an LLM pass, end the session). Governance is Matt's; the analysis is yours. Rewrite any
+diagnosis or solution freely; don't touch what the session is allowed to do.
 
 ## Orient yourself (read, then judge for yourself)
 
@@ -74,7 +91,7 @@ Use these to make sure the design isn't blind to something, then organize howeve
 - Worklog entry `### Session 189` (worklog.md, meta/graph). Update `working/todos.md` Track 7 to
   point at whatever design doc you produced. Commit docs only.
 
-## Hard constraints (Matt's — do NOT change these)
+## Hard constraints — GOVERNANCE, not analysis (do NOT change these; the ideas above are all yours to rewrite, these are not)
 - **Design only. Do NOT build** — no graph (`graph/`) mutation, no bundle rebuild, no `web/` /
   `scripts/` code changes. The deliverable is documentation/plan.
 - **No invented edge types or vocabulary** without routing through `reference/architecture.md` +
