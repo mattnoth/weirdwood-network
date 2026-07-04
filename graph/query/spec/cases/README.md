@@ -7,9 +7,10 @@ meant to run under **both** `pytest` (Python engine, once it exists) and `deno t
 a red test, not silent drift.
 
 One file per operation family: `resolve.json`, `neighbors.json`, `chain.json`,
-`family.json`, `braid.json`, `search.json`, `list.json`. Add new files as new ops land —
-do not grow these into a junk drawer. (`corpus-search` has no case file — it's CLI-only,
-no bounded-profile implementation to pin against; see operations.md's own section.)
+`family.json`, `braid.json`, `search.json`, `list.json`, `theme.json`. Add new files as new
+ops land — do not grow these into a junk drawer. (`corpus-search` and `mentions` have no
+case file — both are CLI-only / live-data-only, no bounded-profile implementation to pin
+against; see operations.md's own sections.)
 
 ## Case object shape
 
@@ -68,6 +69,11 @@ no bounded-profile implementation to pin against; see operations.md's own sectio
   mustInclude: [slug...], mustExclude: [slug...]}` — invariant-mode; a 96-member dynasty
   dump is not something to hand-maintain, so cases assert root/count/truncation/generation
   histogram + targeted membership checks instead.
+- **theme**: `input: {name, category?}`. `expect` mostly invariant-mode (`mustIncludeSlug`,
+  `memberCountAtLeast`, `themeNameEquals` for case-insensitivity, `allCategoriesEqual` for
+  the category filter) since a theme's full member list (up to ~160 nodes) is not something
+  to hand-maintain; one exact case pins the unknown-theme-name error path
+  (`memberCount: 0, members: [], hasError: true`).
 
 ## Adding a case
 

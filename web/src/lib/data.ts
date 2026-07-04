@@ -7,13 +7,14 @@
 // every bundle; a fresh checkout must run it once before `deno test`/`deno check`.
 // (S183 — was Deno.readTextFile; that 502'd every edge request.)
 
-import type { AliasMap, Edge, GraphData, NodesMap, SearchIndex } from "./types.ts";
+import type { AliasMap, Edge, GraphData, NodesMap, SearchIndex, ThemeIndex } from "./types.ts";
 
 // deno-lint-ignore no-import-assertions
 import aliasMap from "../../data/alias-map.json" with { type: "json" };
 import nodes from "../../data/nodes.json" with { type: "json" };
 import edges from "../../data/edges.json" with { type: "json" };
 import searchIndex from "../../data/search-index.json" with { type: "json" };
+import themeIndex from "../../data/theme-index.json" with { type: "json" };
 
 /**
  * Return the inlined curated graph as one GraphData. Kept async so cold-start
@@ -28,5 +29,6 @@ export async function loadGraphData(): Promise<GraphData> {
     nodes: nodes as unknown as NodesMap,
     edges: edges as unknown as Edge[],
     searchIndex: searchIndex as unknown as SearchIndex,
+    themeIndex: themeIndex as unknown as ThemeIndex,
   };
 }

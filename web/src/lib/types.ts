@@ -91,6 +91,23 @@ export interface SearchIndex {
   postings: Record<string, number[]>;
 }
 
+/** One member row in a theme's list — see `ThemeIndex`'s comment. */
+export interface ThemeMember {
+  slug: string;
+  category: string;
+  name: string;
+}
+
+/** `theme-index.json` (bundle format) — the build-time theme->members
+ *  routing table (query-layer step 8a). `matched_via` is dropped from the
+ *  bundle copy (debugging-only field, see `build_theme_index.py`'s
+ *  `format_bundle()`) — the full-profile copy at `working/wiki/data/
+ *  theme-index.json` keeps it. */
+export interface ThemeIndex {
+  format: "bundle";
+  themes: Record<string, { member_count: number; members: ThemeMember[] }>;
+}
+
 /** The whole in-memory bundle. The curated graph fits in memory — no lazy-loading. */
 export interface GraphData {
   aliasMap: AliasMap;
@@ -101,6 +118,8 @@ export interface GraphData {
    *  always present on real bundle data. searchQuotes() requires it — a
    *  fixture with no searchIndex simply can't call that op. */
   searchIndex?: SearchIndex;
+  /** Optional for the same reason as searchIndex — theme() requires it. */
+  themeIndex?: ThemeIndex;
 }
 
 // ---- Tool return shapes (the receipts contract) ----
@@ -267,4 +286,23 @@ export interface ListResult {
   offset: number;
   limit: number;
   items: ListItem[];
+}
+
+/** theme() return: one theme's member list (query-layer step 8a). An unknown
+ *  theme name returns `member_count: 0, members: [], error: "unknown theme",
+ *  knownThemes: [...]` rather than throwing — mirrors listNodes()'s
+ *  "unknown category -> empty result" convention, but also surfaces the
+ *  known-theme list since a typo has no other discovery path here. */
+export interface ThemeResult {
+  theme: string;
+  memberCount: number;
+  members: ThemeMember[];
+  error?: string;
+  knownThemes?: string[];
+}
+
+/** One row in listThemes()'s discovery listing. */
+export interface ThemeSummary {
+  name: string;
+  memberCount: number;
 }

@@ -1,0 +1,1735 @@
+{
+  "chapter_id": "adwd-the-iron-suitor-01",
+  "book": "adwd",
+  "pov_character": "the-iron-suitor",
+  "generated_at": "2026-07-04T21:33:40.600607+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-the-iron-suitor-01.extraction.md",
+  "stats": {
+    "total_mentions": 191,
+    "resolved_to_node": 148,
+    "direct": 133,
+    "alias": 15,
+    "unresolved": 43
+  },
+  "mentions": [
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Wulfe One-Ear",
+      "slug": "wulfe-one-ear",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wulfe-one-ear.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "The dusky woman",
+      "slug": "dusky-woman",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dusky-woman.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Maester Kerwin",
+      "slug": "kerwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kerwin.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Moqorro",
+      "slug": "moqorro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moqorro.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "The Vole (Sparr)",
+      "slug": "rodrik-sparr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-sparr.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Longwater Pyke",
+      "slug": "longwater-pyke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/longwater-pyke.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Burton Humble",
+      "slug": "burton-humble",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/burton-humble.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Ralf the Limper",
+      "slug": "ralf-the-limper",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ralf-the-limper.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Moqorro",
+      "slug": "moqorro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moqorro.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Maester Kerwin",
+      "slug": "kerwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kerwin.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "The Vole (Sparr)",
+      "slug": "rodrik-sparr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-sparr.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "The dusky woman",
+      "slug": "dusky-woman",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dusky-woman.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Euron Greyjoy (Crow's Eye)",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Aeron Greyjoy (Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Red Ralf Stonehouse",
+      "slug": "ralf-stonehouse",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ralf-stonehouse.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Nute the Barber",
+      "slug": "nute-the-barber",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nute-the-barber.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Serry",
+      "slug": "serry",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Lord Hewett",
+      "slug": "lord-hewett",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Lord Chester",
+      "slug": "lord-chester",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Isle of Cedars",
+      "slug": "isle-of-cedars",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-cedars.node.md",
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "Iron Victory (ship)",
+      "slug": "iron-victory",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-victory.node.md",
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "Grief (ship)",
+      "slug": "grief",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/grief.node.md",
+      "section": "Locations",
+      "line": 63
+    },
+    {
+      "raw_name": "The Shields",
+      "slug": "shield-islands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shield-islands.node.md",
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "The Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Volantis / Old Volantis",
+      "slug": "volantis-old-volantis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Sothoryos",
+      "slug": "sothoryos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sothoryos.node.md",
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Basilisk Isles",
+      "slug": "basilisk-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/basilisk-isles.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Valyria / Smoking Sea",
+      "slug": "valyria-smoking-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Velos",
+      "slug": "velos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/velos.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Ghozai",
+      "slug": "ghozai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ghozai.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Southshield",
+      "slug": "southshield",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/southshield.node.md",
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Oakenshield",
+      "slug": "oakenshield",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oakenshield.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Greenshield",
+      "slug": "greenshield",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/greenshield.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Yunkai",
+      "slug": "yunkai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yunkai.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "New Ghis",
+      "slug": "new-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/new-ghis.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "Tolos",
+      "slug": "tolos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tolos.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Tall Trees Town",
+      "slug": "tall-trees-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tall-trees-town.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Disputed Lands",
+      "slug": "disputed-lands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/disputed-lands.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Gulf of Grief",
+      "slug": "gulf-of-grief",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gulf-of-grief.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Gulltown",
+      "slug": "gulltown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gulltown.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Redwyne Straits",
+      "slug": "redwyne-straits",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/redwyne-straits.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Summer Sea",
+      "slug": "summer-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-sea.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Isle of Cedars",
+      "slug": "isle-of-cedars",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-cedars.node.md",
+      "section": "Location Descriptions",
+      "line": 100
+    },
+    {
+      "raw_name": "Velos (drowned city)",
+      "slug": "velos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/velos.node.md",
+      "section": "Location Descriptions",
+      "line": 101
+    },
+    {
+      "raw_name": "Ghozai",
+      "slug": "ghozai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ghozai.node.md",
+      "section": "Location Descriptions",
+      "line": 102
+    },
+    {
+      "raw_name": "Iron Victory (ship)",
+      "slug": "iron-victory",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-victory.node.md",
+      "section": "Location Descriptions",
+      "line": 103
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Location Descriptions",
+      "line": 104
+    },
+    {
+      "raw_name": "Seastone Chair",
+      "slug": "seastone-chair",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 109
+    },
+    {
+      "raw_name": "Victarion's great axe",
+      "slug": "victarions-great-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 110
+    },
+    {
+      "raw_name": "Dragonbinder / Euron's horn",
+      "slug": "dragonbinder-eurons-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 111
+    },
+    {
+      "raw_name": "Kerwin's maester chain",
+      "slug": "kerwins-maester-chain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 112
+    },
+    {
+      "raw_name": "Three cages of ravens",
+      "slug": "three-cages-of-ravens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 113
+    },
+    {
+      "raw_name": "Serry's longsword",
+      "slug": "serrys-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 114
+    },
+    {
+      "raw_name": "Dagger",
+      "slug": "dagger",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dagger.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 115
+    },
+    {
+      "raw_name": "Noble Lady (ship/cog)",
+      "slug": "noble-lady",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/noble-lady.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 116
+    },
+    {
+      "raw_name": "Victarion Greyjoy (the Iron Suitor, the iron captain, lord Captain)",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Euron Greyjoy (the Crow's Eye)",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Aeron Greyjoy (the Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Daenerys Targaryen (the dragon queen)",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Moqorro (red priest of R'hllor)",
+      "slug": "moqorro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moqorro.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Maester Kerwin",
+      "slug": "kerwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kerwin.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "The dusky woman",
+      "slug": "dusky-woman",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dusky-woman.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Wulfe One-Ear",
+      "slug": "wulfe-one-ear",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wulfe-one-ear.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "The Vole (a Sparr by birth, captain of Grief)",
+      "slug": "rodrik-sparr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-sparr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Longwater Pyke",
+      "slug": "longwater-pyke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/longwater-pyke.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Burton Humble",
+      "slug": "burton-humble",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/burton-humble.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Ralf the Limper",
+      "slug": "ralf-the-limper",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ralf-the-limper.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Red Ralf Stonehouse",
+      "slug": "ralf-stonehouse",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ralf-stonehouse.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Nute the Barber (Lord of Oakenshield)",
+      "slug": "nute-the-barber",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nute-the-barber.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Serry (knight, heir to Southshield)",
+      "slug": "serry",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Lord Hewett",
+      "slug": "lord-hewett",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Lord Chester",
+      "slug": "lord-chester",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "Isle of Cedars (Isle of a Hundred Battles, Isle of Monkeys)",
+      "slug": "isle-of-cedars",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-cedars.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 288
+    },
+    {
+      "raw_name": "Iron Victory (ship)",
+      "slug": "iron-victory",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-victory.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 289
+    },
+    {
+      "raw_name": "Grief (ship)",
+      "slug": "grief",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/grief.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 290
+    },
+    {
+      "raw_name": "Maiden's Bane (ship)",
+      "slug": "maidens-bane",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/maidens-bane.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 291
+    },
+    {
+      "raw_name": "Noble Lady (ship/cog)",
+      "slug": "noble-lady",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/noble-lady.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 292
+    },
+    {
+      "raw_name": "Ravenfeeder (ship)",
+      "slug": "ravenfeeder",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ravenfeeder.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 293
+    },
+    {
+      "raw_name": "Iron Kiss (ship)",
+      "slug": "iron-kiss",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-kiss.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 294
+    },
+    {
+      "raw_name": "Headless Jeyne (ship)",
+      "slug": "headless-jeyne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/headless-jeyne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 295
+    },
+    {
+      "raw_name": "Fear (ship)",
+      "slug": "fear",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/fear.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 296
+    },
+    {
+      "raw_name": "Lord Quellon (ship)",
+      "slug": "lord-quellon",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lord-quellon.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 297
+    },
+    {
+      "raw_name": "White Widow (ship)",
+      "slug": "white-widow",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/white-widow.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 298
+    },
+    {
+      "raw_name": "Lamentation (ship)",
+      "slug": "lamentation",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lamentation.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 299
+    },
+    {
+      "raw_name": "Woe (ship)",
+      "slug": "woe",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/woe.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 300
+    },
+    {
+      "raw_name": "Leviathan (ship)",
+      "slug": "leviathan",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/leviathan.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "Iron Lady (ship)",
+      "slug": "iron-lady",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-lady.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Reaper's Wind (ship)",
+      "slug": "reapers-wind",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/reapers-wind.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "Warhammer (ship)",
+      "slug": "warhammer",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/warhammer.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "Shark (ship)",
+      "slug": "shark",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/shark.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "Dagon's Feast (ship)",
+      "slug": "dagons-feast",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dagons-feast.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "Red Tide (ship)",
+      "slug": "red-tide",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/red-tide.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "The Shields",
+      "slug": "shield-islands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shield-islands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "The Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "Volantis / Old Volantis",
+      "slug": "volantis-old-volantis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 310
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 311
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 312
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "Sothoryos",
+      "slug": "sothoryos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sothoryos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "Basilisk Isles",
+      "slug": "basilisk-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/basilisk-isles.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "Valyria",
+      "slug": "valyria",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valyria.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "Smoking Sea",
+      "slug": "smoking-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/smoking-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 317
+    },
+    {
+      "raw_name": "Velos (drowned city on Isle of Cedars)",
+      "slug": "velos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/velos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 318
+    },
+    {
+      "raw_name": "Ghozai (slaver port on Isle of Cedars)",
+      "slug": "ghozai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ghozai.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 319
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 320
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 321
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 322
+    },
+    {
+      "raw_name": "Southshield",
+      "slug": "southshield",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/southshield.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 323
+    },
+    {
+      "raw_name": "Oakenshield",
+      "slug": "oakenshield",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oakenshield.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 324
+    },
+    {
+      "raw_name": "Greenshield",
+      "slug": "greenshield",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/greenshield.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 325
+    },
+    {
+      "raw_name": "Yunkai",
+      "slug": "yunkai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yunkai.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 326
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 327
+    },
+    {
+      "raw_name": "New Ghis",
+      "slug": "new-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/new-ghis.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 328
+    },
+    {
+      "raw_name": "Tolos",
+      "slug": "tolos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tolos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 329
+    },
+    {
+      "raw_name": "Tall Trees Town",
+      "slug": "tall-trees-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tall-trees-town.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 330
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 331
+    },
+    {
+      "raw_name": "Disputed Lands",
+      "slug": "disputed-lands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/disputed-lands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 332
+    },
+    {
+      "raw_name": "Gulf of Grief",
+      "slug": "gulf-of-grief",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gulf-of-grief.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 333
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 334
+    },
+    {
+      "raw_name": "Gulltown",
+      "slug": "gulltown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gulltown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 335
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 336
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 337
+    },
+    {
+      "raw_name": "Redwyne Straits",
+      "slug": "redwyne-straits",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/redwyne-straits.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 338
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 339
+    },
+    {
+      "raw_name": "Summer Sea",
+      "slug": "summer-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 340
+    },
+    {
+      "raw_name": "Summer Islands (referenced via \"Summer Islanders\")",
+      "slug": "summer-islands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 341
+    },
+    {
+      "raw_name": "Lord Hewett's Town",
+      "slug": "lord-hewetts-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lord-hewetts-town.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 342
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 345
+    },
+    {
+      "raw_name": "House Serry (rose on shield)",
+      "slug": "house-serry",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-serry.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 346
+    },
+    {
+      "raw_name": "House Hewett",
+      "slug": "house-hewett",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-hewett.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 347
+    },
+    {
+      "raw_name": "House Chester",
+      "slug": "house-chester",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-chester.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 348
+    },
+    {
+      "raw_name": "Iron Fleet",
+      "slug": "iron-fleet",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/iron-fleet.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 351
+    },
+    {
+      "raw_name": "Maesters (the order — Kerwin is a maester with a chain)",
+      "slug": "maesters",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/maesters.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 352
+    },
+    {
+      "raw_name": "The Drowned God (Victarion's faith; watery halls; drowning and returning; salt water as holy; sacrifice; \"no godless man may sit the Seastone Chair\")",
+      "slug": "drowned-god",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/drowned-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 355
+    },
+    {
+      "raw_name": "The Storm God (Victarion curses him for the fleet's losses; seen as adversary to the Drowned God)",
+      "slug": "storm-god",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/storm-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 356
+    },
+    {
+      "raw_name": "R'hllor, the Lord of Light (Moqorro's faith; nightfires; fire rituals; red priests in foreign cities tend sacred fires; red robes of silk and velvet and lambswool)",
+      "slug": "rhllor-the-lord-of-light",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 357
+    },
+    {
+      "raw_name": "Ironborn (iron price, salt wives, thralls, Seastone Chair, kingsmoot)",
+      "slug": "ironborn",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ironborn.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 360
+    },
+    {
+      "raw_name": "Volantenes (triarchs, slave soldiers, green galleys, great dromonds of war)",
+      "slug": "volantenes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 361
+    },
+    {
+      "raw_name": "Yunkishmen",
+      "slug": "yunkishmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 362
+    },
+    {
+      "raw_name": "Astapori (men from Astapor)",
+      "slug": "astapori",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/astapori.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 363
+    },
+    {
+      "raw_name": "Ghiscari (men from New Ghis; stepped pyramids of Ghozai)",
+      "slug": "ghiscari",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ghiscari.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 364
+    },
+    {
+      "raw_name": "Qartheen (men from Qarth)",
+      "slug": "qartheen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/qartheen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 365
+    },
+    {
+      "raw_name": "Tolosi (men from Tolos)",
+      "slug": "tolosi",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 366
+    },
+    {
+      "raw_name": "Summer Islanders (nut brown skin, swan ships)",
+      "slug": "summer-islanders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 367
+    },
+    {
+      "raw_name": "Dothraki (red-brown horselords)",
+      "slug": "dothraki",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dothraki.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 368
+    },
+    {
+      "raw_name": "Dornishmen (mentioned with contempt — \"poison is for cravens, women, and Dornishmen\")",
+      "slug": "dornishmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dornishmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 369
+    },
+    {
+      "raw_name": "Velosi (people of Velos, drowned in the Doom)",
+      "slug": "velosi",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 370
+    },
+    {
+      "raw_name": "Brindled men (in the Basilisk Isles)",
+      "slug": "brindled-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 371
+    },
+    {
+      "raw_name": "Corsairs (corsair's road along Sothoryos)",
+      "slug": "corsairs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 372
+    },
+    {
+      "raw_name": "Seastone Chair",
+      "slug": "seastone-chair",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 375
+    },
+    {
+      "raw_name": "Victarion's great axe",
+      "slug": "victarions-great-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 376
+    },
+    {
+      "raw_name": "Maester Kerwin's chain",
+      "slug": "maester-kerwins-chain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 377
+    },
+    {
+      "raw_name": "Three cages of ravens",
+      "slug": "three-cages-of-ravens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 378
+    },
+    {
+      "raw_name": "Serry's longsword",
+      "slug": "serrys-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 379
+    },
+    {
+      "raw_name": "Dagger (given by Victarion to Kerwin)",
+      "slug": "dagger",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dagger.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 380
+    },
+    {
+      "raw_name": "Noble Lady (captured merchant cog)",
+      "slug": "noble-lady",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/noble-lady.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 381
+    },
+    {
+      "raw_name": "Lobstered steel gauntlet (Victarion's, cut through by Serry)",
+      "slug": "lobstered-steel-gauntlet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 382
+    },
+    {
+      "raw_name": "Strange high wailing song in High Valyrian (sung during Moqorro's ritual)",
+      "slug": "strange-high-wailing-song-in-high-valyrian",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 385
+    },
+    {
+      "raw_name": "R'hllor's nightfires (Moqorro sees visions in flames — saw Victarion, his death, Daenerys's wedding)",
+      "slug": "rhllors-nightfires",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 388
+    },
+    {
+      "raw_name": "Fire healing ritual (blade, brazier, fire; terrible pain; results in charred but healed hand with smoke rising)",
+      "slug": "fire-healing-ritual",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 389
+    },
+    {
+      "raw_name": "The Doom of Valyria (wall of water 300 feet high; destroyed Velos and Ghozai; referenced as 400 years ago)",
+      "slug": "doom-of-valyria",
+      "resolved_via": "alias",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/doom-of-valyria.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 390
+    },
+    {
+      "raw_name": "Red winds out of Valyria (smelled of ash and brimstone)",
+      "slug": "red-winds-out-of-valyria",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 391
+    },
+    {
+      "raw_name": "Moqorro's survival (ten days in the water — seemingly impossible for a mortal man)",
+      "slug": "moqorros-survival",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 392
+    },
+    {
+      "raw_name": "Drowned God's power (drowning and returning to life; holy salt water; Aeron has seen the watery halls)",
+      "slug": "drowned-gods-power",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 393
+    },
+    {
+      "raw_name": "Poisoned arrows (bog devils at Moat Cailin; recalled)",
+      "slug": "poisoned-arrows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 394
+    },
+    {
+      "raw_name": "Dark disturbing dreams (Victarion's, on the Isle of Cedars; woke with mouth full of blood)",
+      "slug": "dark-disturbing-dreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 395
+    },
+    {
+      "raw_name": "Battle/Taking of the Shields (where Victarion fought Serry; the fleet departed from there)",
+      "slug": "battle-taking-of-the-shields",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 398
+    },
+    {
+      "raw_name": "War against Meereen / Slaver's Bay campaign (Volantenes, Yunkai, Astapor, New Ghis, Qarth, Tolos allied against Daenerys)",
+      "slug": "war-against-meereen-slavers-bay-campaign",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 399
+    },
+    {
+      "raw_name": "Siege of Moat Cailin (recalled — bog devils with poisoned arrows)",
+      "slug": "siege-of-moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/siege-of-moat-cailin.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 400
+    },
+    {
+      "raw_name": "Kingsmoot (Euron chosen over Victarion and other candidates)",
+      "slug": "kingsmoot",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/kingsmoot.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 401
+    },
+    {
+      "raw_name": "Lord Captain (Victarion's title as commander of the Iron Fleet)",
+      "slug": "lord-captain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 404
+    },
+    {
+      "raw_name": "Lord of Oakenshield (title given by Euron to Nute the Barber)",
+      "slug": "lord-of-oakenshield",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-oakenshield.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 405
+    },
+    {
+      "raw_name": "Triarch (rulers of Volantis — new triarchs celebrated)",
+      "slug": "triarch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 406
+    },
+    {
+      "raw_name": "Heir to Southshield (Serry's title)",
+      "slug": "heir-to-southshield",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 407
+    },
+    {
+      "raw_name": "Monkeys (plague infesting the fleet and the Isle of Cedars; flee the ship during Moqorro's ritual)",
+      "slug": "monkeys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 410
+    },
+    {
+      "raw_name": "Boars/pigs (biggest, blackest boars the ironborn had ever seen; hunted for provisions on the Isle of Cedars)",
+      "slug": "boars-pigs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 411
+    }
+  ]
+}

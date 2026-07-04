@@ -30,6 +30,10 @@ export type {
   SearchIndexDocRow,
   SearchResult,
   SpouseBond,
+  ThemeIndex,
+  ThemeMember,
+  ThemeResult,
+  ThemeSummary,
 } from "./types.ts";
 
 export { loadGraphData } from "./data.ts";
@@ -40,6 +44,7 @@ export { familyTree, neighbors, walkChain } from "./graph.ts";
 export { readNode } from "./read-node.ts";
 export { searchQuotes } from "./search.ts";
 export { listNodes } from "./list.ts";
+export { listThemes, theme } from "./themes.ts";
 
 import type {
   ChainResult,
@@ -50,12 +55,15 @@ import type {
   NodeRecord,
   ResolveCandidate,
   SearchResult,
+  ThemeResult,
+  ThemeSummary,
 } from "./types.ts";
 import { resolve } from "./resolve.ts";
 import { familyTree, neighbors, walkChain } from "./graph.ts";
 import { readNode } from "./read-node.ts";
 import { searchQuotes } from "./search.ts";
 import { listNodes } from "./list.ts";
+import { listThemes, theme } from "./themes.ts";
 
 /** The read-only retrieval tools, bound to a loaded bundle. */
 export interface Tools {
@@ -72,6 +80,11 @@ export interface Tools {
   /** Browse surface (query-layer step 5d). Same "not a chat tool yet" note
    *  as searchQuotes — gated on evals per the design doc. */
   listNodes(opts: { type: string; hasQuotes?: boolean; limit?: number; offset?: number }): ListResult;
+  /** theme->members routing table lookup (query-layer step 8a). Same
+   *  "not a chat tool yet" note as searchQuotes/listNodes. */
+  theme(name: string, opts?: { category?: string }): ThemeResult;
+  /** Discovery surface: every theme name + member count. */
+  listThemes(): ThemeSummary[];
 }
 
 /** Bind GraphData into the read-only tools the Edge function exposes to Claude. */
@@ -84,5 +97,7 @@ export function createTools(data: GraphData): Tools {
     readNode: (slug) => readNode(slug, data),
     searchQuotes: (query, opts) => searchQuotes(query, data, opts),
     listNodes: (opts) => listNodes(data, opts),
+    theme: (name, opts) => theme(name, data, opts),
+    listThemes: () => listThemes(data),
   };
 }

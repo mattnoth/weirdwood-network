@@ -1,0 +1,1906 @@
+{
+  "chapter_id": "adwd-the-ugly-little-girl-01",
+  "book": "adwd",
+  "pov_character": "the-ugly-little-girl",
+  "generated_at": "2026-07-04T21:33:40.611773+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-the-ugly-little-girl-01.extraction.md",
+  "stats": {
+    "total_mentions": 210,
+    "resolved_to_node": 105,
+    "direct": 67,
+    "alias": 38,
+    "unresolved": 105
+  },
+  "mentions": [
+    {
+      "raw_name": "Arya Stark / the ugly girl / Cat of the Canals / \"no one\"",
+      "slug": "arya-stark-the-ugly-girl-cat-of-the-canals-no-one",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "The kindly man",
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "The waif",
+      "slug": "waif",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waif.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Plague face (priest with plague-victim face)",
+      "slug": "plague-face",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/plague-face.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "The fat fellow",
+      "slug": "the-fat-fellow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "The lordling",
+      "slug": "lordling",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lordling.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "The handsome man",
+      "slug": "handsome-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/handsome-man.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "The squinter",
+      "slug": "squinter",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/squinter.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Another acolyte",
+      "slug": "another-acolyte",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Brusco",
+      "slug": "brusco",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brusco.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Brea",
+      "slug": "brea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brea.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "The old man (insurance underwriter)",
+      "slug": "old-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-man.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "The tall thin guard",
+      "slug": "the-tall-thin-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "The short thick guard",
+      "slug": "the-short-thick-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "The shipowner (big bald man)",
+      "slug": "the-shipowner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Tagganaro",
+      "slug": "tagganaro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tagganaro.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Casso, King of Seals",
+      "slug": "casso-king-of-seals",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Plague face",
+      "slug": "plague-face",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/plague-face.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "The old man (target)",
+      "slug": "old-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-man.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "The shipowner",
+      "slug": "the-shipowner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Arya (ugly face)",
+      "slug": "arya",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "The servants of the Many-Faced God",
+      "slug": "the-servants-of-the-many-faced-god",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Ser Gregor",
+      "slug": "ser-gregor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Dunsen",
+      "slug": "dunsen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dunsen.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Raff the Sweetling",
+      "slug": "rafford",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rafford.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Ser Ilyn",
+      "slug": "ser-ilyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Ser Meryn",
+      "slug": "ser-meryn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Queen Cersei",
+      "slug": "queen-cersei",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/queen-cersei.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Red Roggo",
+      "slug": "red-roggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/red-roggo.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Jaqen H'ghar",
+      "slug": "jaqen-hghar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaqen-hghar.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Arya's father (Eddard Stark)",
+      "slug": "aryas-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Arya's mother (Catelyn Stark)",
+      "slug": "aryas-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Arya's three brothers",
+      "slug": "aryas-three-brothers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "The black singer",
+      "slug": "dareon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "The stableboy",
+      "slug": "the-stableboy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "The pimply squire from the crossroads inn",
+      "slug": "the-pimply-squire-from-the-crossroads-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "The guard at Harrenhal",
+      "slug": "the-guard-at-harrenhal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "The Tickler",
+      "slug": "tickler",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tickler.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "The dead girl (face donor)",
+      "slug": "the-dead-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "The dead girl's father",
+      "slug": "the-dead-girls-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Izembaro",
+      "slug": "izembaro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/izembaro.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Talea",
+      "slug": "talea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/talea.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "The Sailor's Wife",
+      "slug": "sailors-wife",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sailors-wife.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "A girl who loved lemon cakes",
+      "slug": "a-girl-who-loved-lemon-cakes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "House of Black and White",
+      "slug": "house-of-black-and-white",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-black-and-white.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "Temple pool",
+      "slug": "temple-pool",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "The vaults (beneath the temple)",
+      "slug": "the-vaults",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "The subcellar",
+      "slug": "the-subcellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "The sanctum (third level)",
+      "slug": "the-sanctum",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Purple Harbor",
+      "slug": "purple-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/purple-harbor.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "The soup shop (near Purple Harbor)",
+      "slug": "the-soup-shop",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Brusco's house (on the canal)",
+      "slug": "bruscos-house",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Isle of the Gods",
+      "slug": "isle-of-the-gods",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-the-gods.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "The Warren",
+      "slug": "warren",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/warren.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Shrine of the Weeping Lady of Lys",
+      "slug": "shrine-of-the-weeping-lady-of-lys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Gardens of Gelenei",
+      "slug": "gardens-of-gelenei",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gardens-of-gelenei.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "The Lord of Harmony's wooden hall",
+      "slug": "the-lord-of-harmonys-wooden-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "House of the Great Shepherd",
+      "slug": "house-of-the-great-shepherd",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Tower of Three-headed Trios",
+      "slug": "tower-of-three-headed-trios",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Stones of the Silent God",
+      "slug": "stones-of-the-silent-god",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stones-of-the-silent-god.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "The Patternmaker's Maze",
+      "slug": "patternmakers-maze",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/patternmakers-maze.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Temple of Aquan the Red Bull",
+      "slug": "temple-of-aquan-the-red-bull",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Twin temples of Semosh and Selloso",
+      "slug": "twin-temples-of-semosh-and-selloso",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Black Canal",
+      "slug": "black-canal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-canal.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragmans-harbor.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "The Drowned Town",
+      "slug": "drowned-town",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drowned-town.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "The Happy Port",
+      "slug": "the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "The Ship",
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Canal of Heroes",
+      "slug": "canal-of-heroes",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/canal-of-heroes.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Crossroads inn",
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Westeros",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "House of Black and White (temple underground)",
+      "slug": "house-of-black-and-white",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-black-and-white.node.md",
+      "section": "Location Descriptions",
+      "line": 118
+    },
+    {
+      "raw_name": "The sanctum (face chamber)",
+      "slug": "the-sanctum",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 119
+    },
+    {
+      "raw_name": "The soup shop",
+      "slug": "the-soup-shop",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 120
+    },
+    {
+      "raw_name": "Isle of the Gods",
+      "slug": "isle-of-the-gods",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-the-gods.node.md",
+      "section": "Location Descriptions",
+      "line": 121
+    },
+    {
+      "raw_name": "Gardens of Gelenei",
+      "slug": "gardens-of-gelenei",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gardens-of-gelenei.node.md",
+      "section": "Location Descriptions",
+      "line": 122
+    },
+    {
+      "raw_name": "The Lord of Harmony's wooden hall",
+      "slug": "the-lord-of-harmonys-wooden-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 123
+    },
+    {
+      "raw_name": "Tower of Three-headed Trios",
+      "slug": "tower-of-three-headed-trios",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 124
+    },
+    {
+      "raw_name": "Twin temples of Semosh and Selloso",
+      "slug": "twin-temples-of-semosh-and-selloso",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 125
+    },
+    {
+      "raw_name": "The Drowned Town",
+      "slug": "drowned-town",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drowned-town.node.md",
+      "section": "Location Descriptions",
+      "line": 126
+    },
+    {
+      "raw_name": "Finger knife",
+      "slug": "finger-knife",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/finger-knife.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Iron lantern",
+      "slug": "iron-lantern",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    },
+    {
+      "raw_name": "Ornate key",
+      "slug": "ornate-key",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 133
+    },
+    {
+      "raw_name": "The face-skins (wall of faces)",
+      "slug": "the-face-skins",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 134
+    },
+    {
+      "raw_name": "The ugly face (dead girl's skin)",
+      "slug": "the-ugly-face",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 135
+    },
+    {
+      "raw_name": "Golden dragon coin (Westerosi)",
+      "slug": "golden-dragon-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 136
+    },
+    {
+      "raw_name": "Iron coins of Braavos",
+      "slug": "iron-coins-of-braavos",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 137
+    },
+    {
+      "raw_name": "Acolyte's robe",
+      "slug": "acolytes-robe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 138
+    },
+    {
+      "raw_name": "Needle",
+      "slug": "needle",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/needle.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 139
+    },
+    {
+      "raw_name": "Whetstone",
+      "slug": "whetstone",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 140
+    },
+    {
+      "raw_name": "Arya Stark (the ugly girl, Cat of the Canals, \"no one,\" Arry, Weasel, Squab, Arya Horseface — all names she recalls)",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "The kindly man",
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "The waif",
+      "slug": "waif",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waif.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Plague face (priest with plague-victim face)",
+      "slug": "plague-face",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/plague-face.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "The fat fellow",
+      "slug": "the-fat-fellow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "The lordling",
+      "slug": "lordling",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lordling.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "The handsome man",
+      "slug": "handsome-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/handsome-man.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "The squinter",
+      "slug": "squinter",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/squinter.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Another acolyte (serves wine)",
+      "slug": "another-acolyte",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Brusco",
+      "slug": "brusco",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brusco.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Brea (Brusco's daughter)",
+      "slug": "brea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brea.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Talea (Brusco's daughter)",
+      "slug": "talea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/talea.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 299
+    },
+    {
+      "raw_name": "The old man (insurance underwriter, assassination target)",
+      "slug": "old-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-man.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 300
+    },
+    {
+      "raw_name": "The tall thin guard",
+      "slug": "the-tall-thin-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 301
+    },
+    {
+      "raw_name": "The short thick guard",
+      "slug": "the-short-thick-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 302
+    },
+    {
+      "raw_name": "The shipowner (big, bald, burly, one stiff leg)",
+      "slug": "the-shipowner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 303
+    },
+    {
+      "raw_name": "Tagganaro",
+      "slug": "tagganaro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tagganaro.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "Casso, King of Seals",
+      "slug": "casso-king-of-seals",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "The Sailor's Wife (referenced)",
+      "slug": "sailors-wife",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sailors-wife.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Ser Gregor (referenced — kill list)",
+      "slug": "ser-gregor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Dunsen (referenced — kill list)",
+      "slug": "dunsen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dunsen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Raff the Sweetling (referenced — kill list)",
+      "slug": "rafford",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rafford.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Ser Ilyn (referenced — kill list)",
+      "slug": "ser-ilyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Ser Meryn (referenced — kill list)",
+      "slug": "ser-meryn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 311
+    },
+    {
+      "raw_name": "Queen Cersei (referenced — kill list)",
+      "slug": "queen-cersei",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/queen-cersei.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 312
+    },
+    {
+      "raw_name": "Red Roggo (referenced)",
+      "slug": "red-roggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/red-roggo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 313
+    },
+    {
+      "raw_name": "Jaqen H'ghar (referenced)",
+      "slug": "jaqen-hghar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaqen-hghar.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 314
+    },
+    {
+      "raw_name": "Eddard Stark (referenced as \"my father\")",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 315
+    },
+    {
+      "raw_name": "Catelyn Stark (referenced as \"my lady mother\")",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 316
+    },
+    {
+      "raw_name": "Arya's three brothers (referenced)",
+      "slug": "aryas-three-brothers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 317
+    },
+    {
+      "raw_name": "The black singer (referenced)",
+      "slug": "dareon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 318
+    },
+    {
+      "raw_name": "The stableboy (referenced — killed with Needle)",
+      "slug": "the-stableboy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 319
+    },
+    {
+      "raw_name": "The pimply squire from the crossroads inn (referenced)",
+      "slug": "the-pimply-squire-from-the-crossroads-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 320
+    },
+    {
+      "raw_name": "The guard at Harrenhal (referenced — throat slashed)",
+      "slug": "the-guard-at-harrenhal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 321
+    },
+    {
+      "raw_name": "The Tickler (referenced)",
+      "slug": "tickler",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tickler.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 322
+    },
+    {
+      "raw_name": "The dead girl (face donor, referenced)",
+      "slug": "the-dead-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 323
+    },
+    {
+      "raw_name": "The dead girl's father (referenced)",
+      "slug": "the-dead-girls-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 324
+    },
+    {
+      "raw_name": "Izembaro (referenced)",
+      "slug": "izembaro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/izembaro.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 325
+    },
+    {
+      "raw_name": "A red priest (seen passing at the harbor)",
+      "slug": "red-priest",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/red-priest.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 326
+    },
+    {
+      "raw_name": "A potbellied innkeep (tries to grab Arya)",
+      "slug": "a-potbellied-innkeep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 327
+    },
+    {
+      "raw_name": "A laughing whore (Arya runs past)",
+      "slug": "a-laughing-whore",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 328
+    },
+    {
+      "raw_name": "A mother with a child (Arya darts past)",
+      "slug": "a-mother-with-a-child",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 329
+    },
+    {
+      "raw_name": "A drunk (shoved by the tall guard)",
+      "slug": "a-drunk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 330
+    },
+    {
+      "raw_name": "Tagganaro's cutpurse (working the crowd)",
+      "slug": "tagganaros-cutpurse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 331
+    },
+    {
+      "raw_name": "Lysene sailors (staggering from the Happy Port)",
+      "slug": "lysene-sailors",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 332
+    },
+    {
+      "raw_name": "A pair of bravos (staggering drunkenly past the docks)",
+      "slug": "a-pair-of-bravos",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 333
+    },
+    {
+      "raw_name": "House of Black and White",
+      "slug": "house-of-black-and-white",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-black-and-white.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 336
+    },
+    {
+      "raw_name": "The temple pool",
+      "slug": "the-temple-pool",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 337
+    },
+    {
+      "raw_name": "The vaults (beneath the temple)",
+      "slug": "the-vaults",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 338
+    },
+    {
+      "raw_name": "The subcellar",
+      "slug": "the-subcellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 339
+    },
+    {
+      "raw_name": "The sanctum (third level, face chamber)",
+      "slug": "the-sanctum",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 340
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 341
+    },
+    {
+      "raw_name": "Purple Harbor",
+      "slug": "purple-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/purple-harbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 342
+    },
+    {
+      "raw_name": "The soup shop (near Purple Harbor)",
+      "slug": "the-soup-shop",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 343
+    },
+    {
+      "raw_name": "Brusco's house (on the canal)",
+      "slug": "bruscos-house",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 344
+    },
+    {
+      "raw_name": "Isle of the Gods",
+      "slug": "isle-of-the-gods",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-the-gods.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 345
+    },
+    {
+      "raw_name": "The Warren",
+      "slug": "warren",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/warren.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 346
+    },
+    {
+      "raw_name": "Shrine of the Weeping Lady of Lys",
+      "slug": "shrine-of-the-weeping-lady-of-lys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 347
+    },
+    {
+      "raw_name": "Gardens of Gelenei",
+      "slug": "gardens-of-gelenei",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gardens-of-gelenei.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 348
+    },
+    {
+      "raw_name": "The Lord of Harmony's wooden hall",
+      "slug": "the-lord-of-harmonys-wooden-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 349
+    },
+    {
+      "raw_name": "House of the Great Shepherd",
+      "slug": "house-of-the-great-shepherd",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 350
+    },
+    {
+      "raw_name": "Tower of Three-headed Trios",
+      "slug": "tower-of-three-headed-trios",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 351
+    },
+    {
+      "raw_name": "Stones of the Silent God",
+      "slug": "stones-of-the-silent-god",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stones-of-the-silent-god.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 352
+    },
+    {
+      "raw_name": "The Patternmaker's Maze",
+      "slug": "patternmakers-maze",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/patternmakers-maze.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 353
+    },
+    {
+      "raw_name": "Temple of Aquan the Red Bull",
+      "slug": "temple-of-aquan-the-red-bull",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 354
+    },
+    {
+      "raw_name": "Twin temples of Semosh and Selloso",
+      "slug": "twin-temples-of-semosh-and-selloso",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 355
+    },
+    {
+      "raw_name": "Black Canal",
+      "slug": "black-canal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-canal.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 356
+    },
+    {
+      "raw_name": "Canal of Heroes",
+      "slug": "canal-of-heroes",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/canal-of-heroes.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 357
+    },
+    {
+      "raw_name": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragmans-harbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 358
+    },
+    {
+      "raw_name": "The Drowned Town",
+      "slug": "drowned-town",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drowned-town.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 359
+    },
+    {
+      "raw_name": "The Happy Port",
+      "slug": "the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 360
+    },
+    {
+      "raw_name": "The Ship (mummers' venue)",
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 361
+    },
+    {
+      "raw_name": "Harrenhal (referenced)",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 362
+    },
+    {
+      "raw_name": "Winterfell (referenced)",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 363
+    },
+    {
+      "raw_name": "Crossroads inn (referenced)",
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 364
+    },
+    {
+      "raw_name": "Westeros (referenced)",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 365
+    },
+    {
+      "raw_name": "Lys (referenced)",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 366
+    },
+    {
+      "raw_name": "House Stark (Arya is identified as \"Arya of House Stark\")",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 369
+    },
+    {
+      "raw_name": "Faceless Men / servants of the Many-Faced God",
+      "slug": "faceless-men-servants-of-the-many-faced-god",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 372
+    },
+    {
+      "raw_name": "The city watch of Braavos (looking for the ugly girl)",
+      "slug": "the-city-watch-of-braavos",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 373
+    },
+    {
+      "raw_name": "Mummers' troupe at the Ship (referenced as abed)",
+      "slug": "mummers-troupe-at-the-ship",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 374
+    },
+    {
+      "raw_name": "The Many-Faced God / Him of Many Faces / God of Many Faces",
+      "slug": "the-many-faced-god-him-of-many-faces-god-of-many-faces",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 377
+    },
+    {
+      "raw_name": "The Weeping Lady of Lys (shrine with silver-tear statue)",
+      "slug": "weeping-lady-of-lys",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/weeping-lady-of-lys.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 378
+    },
+    {
+      "raw_name": "The Great Shepherd",
+      "slug": "great-shepherd",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/great-shepherd.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 379
+    },
+    {
+      "raw_name": "Three-headed Trios (first head devours the dying, reborn emerge from third)",
+      "slug": "three-headed-trios",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 380
+    },
+    {
+      "raw_name": "The Silent God (the Stones of the Silent God)",
+      "slug": "silent-god",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/silent-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 381
+    },
+    {
+      "raw_name": "The Patternmaker (priests of the Pattern)",
+      "slug": "the-patternmaker",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 382
+    },
+    {
+      "raw_name": "Aquan the Red Bull (priests slit white calf's throat every thirteenth day, offer bowls of blood to beggars)",
+      "slug": "aquan-the-red-bull",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/aquan-the-red-bull.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 383
+    },
+    {
+      "raw_name": "Semosh and Selloso (brother gods, twin temples)",
+      "slug": "semosh-and-selloso",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/semosh-and-selloso.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 384
+    },
+    {
+      "raw_name": "The Lord of Harmony (wooden hall with butterfly windows)",
+      "slug": "lord-of-harmony",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/lord-of-harmony.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 385
+    },
+    {
+      "raw_name": "R'hllor (implied — a red priest passes in scarlet and crimson robes)",
+      "slug": "rhllor",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/rhllor.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 386
+    },
+    {
+      "raw_name": "Braavosi",
+      "slug": "braavosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/braavosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 389
+    },
+    {
+      "raw_name": "Lysene (Lysene sailors)",
+      "slug": "lyseni",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/lyseni.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 390
+    },
+    {
+      "raw_name": "Ibbenese (Ibbenese whaler ship)",
+      "slug": "ibbenese",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ibbenese.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 391
+    },
+    {
+      "raw_name": "Finger knife",
+      "slug": "finger-knife",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/finger-knife.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 394
+    },
+    {
+      "raw_name": "Iron lantern",
+      "slug": "iron-lantern",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 395
+    },
+    {
+      "raw_name": "Ornate key (to the sanctum)",
+      "slug": "ornate-key",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 396
+    },
+    {
+      "raw_name": "Face-skins / wall of faces",
+      "slug": "face-skins-wall-of-faces",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 397
+    },
+    {
+      "raw_name": "The ugly face (dead girl's skin)",
+      "slug": "the-ugly-face",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 398
+    },
+    {
+      "raw_name": "Golden dragon coin (Westerosi — dragon on one face, king on the other)",
+      "slug": "golden-dragon-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 399
+    },
+    {
+      "raw_name": "Square iron coins of Braavos",
+      "slug": "square-iron-coins-of-braavos",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 400
+    },
+    {
+      "raw_name": "Acolyte's robe (black on one side, white on the other)",
+      "slug": "acolytes-robe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 401
+    },
+    {
+      "raw_name": "Ebony and weirwood chairs (with carved faces on their backs)",
+      "slug": "ebony-and-weirwood-chairs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 402
+    },
+    {
+      "raw_name": "Whetstone",
+      "slug": "whetstone",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 403
+    },
+    {
+      "raw_name": "Sealing wax (old man's)",
+      "slug": "sealing-wax",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 404
+    },
+    {
+      "raw_name": "The old man's seal",
+      "slug": "the-old-mans-seal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 405
+    },
+    {
+      "raw_name": "Needle (referenced)",
+      "slug": "needle",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/needle.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 406
+    },
+    {
+      "raw_name": "Barrow (Cat's cart for selling shellfish)",
+      "slug": "barrow",
+      "resolved_via": "direct",
+      "node_type": "concept.custom",
+      "node_path": "graph/nodes/customs/barrow.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 407
+    },
+    {
+      "raw_name": "Face-changing magic (deeper than mummer artifice or sorcerer glamors; uses actual skins from the dead; the face becomes \"as true and solid as that face you were born with\")",
+      "slug": "face-changing-magic",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 413
+    },
+    {
+      "raw_name": "Glamors (mentioned as distinct — \"sorcerers use glamors, weaving light and shadow and desire to make illusions that trick the eye\")",
+      "slug": "glamor",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/glamor.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 414
+    },
+    {
+      "raw_name": "Mummer artifice (mentioned as distinct — changing faces with artifice)",
+      "slug": "mummer-artifice",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 415
+    },
+    {
+      "raw_name": "Dead-person memory transfer (Arya experiences the dead girl's memories and pain through the face)",
+      "slug": "dead-person-memory-transfer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 416
+    },
+    {
+      "raw_name": "Poisoned coin (mechanism of assassination — causes heart failure when bitten)",
+      "slug": "poisoned-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 417
+    },
+    {
+      "raw_name": "Valar morghulis (\"All men must die\" — used as greeting)",
+      "slug": "valar-morghulis",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-morghulis.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 426
+    },
+    {
+      "raw_name": "Valar dohaeris (\"All men must serve\" — used as response/greeting)",
+      "slug": "valar-dohaeris",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-dohaeris.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 427
+    },
+    {
+      "raw_name": "Binders (maritime insurance contracts written by the old man)",
+      "slug": "binders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 428
+    }
+  ]
+}

@@ -18,6 +18,7 @@ import { resolve } from "./resolve.ts";
 import { familyTree, neighbors, walkChain } from "./graph.ts";
 import { searchQuotes } from "./search.ts";
 import { listNodes } from "./list.ts";
+import { theme } from "./themes.ts";
 import { data } from "./_fixtures.ts";
 import type {
   ChainResult,
@@ -26,6 +27,7 @@ import type {
   NeighborsResult,
   ResolveCandidate,
   SearchResult,
+  ThemeResult,
 } from "./types.ts";
 
 // Path is relative to THIS file (web/src/lib/spec_cases_test.ts), so it resolves
@@ -34,7 +36,7 @@ const CASES_DIR = new URL("../../../graph/query/spec/cases/", import.meta.url);
 
 interface Case {
   id: string;
-  op: "resolve" | "neighbors" | "chain" | "family" | "search" | "list";
+  op: "resolve" | "neighbors" | "chain" | "family" | "search" | "list" | "theme";
   profile: "bounded" | "full" | "both";
   // deno-lint-ignore no-explicit-any
   input: Record<string, any>;
@@ -326,6 +328,45 @@ function runList(c: Case) {
   if (exp.items !== undefined) assert.deepEqual(result.items, exp.items, `${c.id}: items`);
 }
 
+function runTheme(c: Case) {
+  const opts: { category?: string } = {};
+  if (c.input.category !== undefined) opts.category = c.input.category;
+  const result: ThemeResult = theme(c.input.name, data, opts);
+  const exp = c.expect;
+
+  if (exp.memberCount !== undefined) {
+    assert.equal(result.memberCount, exp.memberCount, `${c.id}: memberCount`);
+  }
+  if (exp.members !== undefined) assert.deepEqual(result.members, exp.members, `${c.id}: members`);
+  if (exp.hasError !== undefined) {
+    assert.equal(!!result.error, exp.hasError, `${c.id}: hasError`);
+  }
+  if (exp.mustIncludeSlug !== undefined) {
+    assert.ok(
+      result.members.some((m) => m.slug === exp.mustIncludeSlug),
+      `${c.id}: expected ${exp.mustIncludeSlug} among theme members`,
+    );
+  }
+  if (exp.memberCountAtLeast !== undefined) {
+    assert.ok(
+      result.members.length >= exp.memberCountAtLeast,
+      `${c.id}: memberCountAtLeast ${result.members.length} >= ${exp.memberCountAtLeast}`,
+    );
+  }
+  if (exp.themeNameEquals !== undefined) {
+    assert.equal(
+      result.theme.toLowerCase(),
+      exp.themeNameEquals.toLowerCase(),
+      `${c.id}: themeNameEquals`,
+    );
+  }
+  if (exp.allCategoriesEqual !== undefined) {
+    for (const m of result.members) {
+      assert.equal(m.category, exp.allCategoriesEqual, `${c.id}: every member must have category ${exp.allCategoriesEqual}`);
+    }
+  }
+}
+
 const RUNNERS: Record<Case["op"], (c: Case) => void> = {
   resolve: runResolve,
   neighbors: runNeighbors,
@@ -333,11 +374,20 @@ const RUNNERS: Record<Case["op"], (c: Case) => void> = {
   family: runFamily,
   search: runSearch,
   list: runList,
+  theme: runTheme,
 };
 
 // ---- discovery + registration ----
 
-const CASE_FILES = ["resolve.json", "neighbors.json", "chain.json", "family.json", "search.json", "list.json"];
+const CASE_FILES = [
+  "resolve.json",
+  "neighbors.json",
+  "chain.json",
+  "family.json",
+  "search.json",
+  "list.json",
+  "theme.json",
+];
 
 for (const file of CASE_FILES) {
   const cases = await loadCases(file);

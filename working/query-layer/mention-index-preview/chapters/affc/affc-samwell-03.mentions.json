@@ -1,0 +1,1519 @@
+{
+  "chapter_id": "affc-samwell-03",
+  "book": "affc",
+  "pov_character": "samwell",
+  "generated_at": "2026-07-04T21:33:40.557001+00:00",
+  "extraction_path": "extractions/mechanical/affc/affc-samwell-03.extraction.md",
+  "stats": {
+    "total_mentions": 167,
+    "resolved_to_node": 99,
+    "direct": 67,
+    "alias": 32,
+    "unresolved": 68
+  },
+  "mentions": [
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "The babe",
+      "slug": "the-babe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Cat (the barrow girl)",
+      "slug": "cat",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/cat.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Terro",
+      "slug": "terro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/terro.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Terro's fair-haired friend",
+      "slug": "terros-fair-haired-friend",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Xhondo",
+      "slug": "xhondo",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "The Sailor's Wife",
+      "slug": "sailors-wife",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sailors-wife.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "The one-eyed woman (Yna)",
+      "slug": "the-one-eyed-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Terro",
+      "slug": "terro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/terro.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Terro's fair-haired friend",
+      "slug": "terros-fair-haired-friend",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Cat (barrow girl)",
+      "slug": "cat",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/cat.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Xhondo",
+      "slug": "xhondo",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Jon Snow (Lord Snow)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Egg (Aegon V Targaryen)",
+      "slug": "aegon-v-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-v-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "The Moonshadow",
+      "slug": "moonshadow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moonshadow.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Aemon's father (Maekar I Targaryen)",
+      "slug": "aemons-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Aemon's brothers",
+      "slug": "aemons-brothers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "The captain of the Lady Ushanora",
+      "slug": "the-captain-of-the-lady-ushanora",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "The healer from the House of the Red Hands",
+      "slug": "the-healer-from-the-house-of-the-red-hands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Cat's father",
+      "slug": "cats-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "The Nightingale",
+      "slug": "nightingale",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/nightingale.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Brusco",
+      "slug": "brusco",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brusco.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "The inn (beneath the eaves)",
+      "slug": "the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragmans-harbor.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Purple Harbor",
+      "slug": "purple-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/purple-harbor.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Moon Pool",
+      "slug": "moon-pool",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moon-pool.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Inn of the Green Eel",
+      "slug": "inn-of-the-green-eel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-of-the-green-eel.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "The Black Bargeman",
+      "slug": "black-bargeman",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-bargeman.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Moroggo's",
+      "slug": "moroggos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moroggos.node.md",
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "The Foghouse",
+      "slug": "the-foghouse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Nabbo's Bridge",
+      "slug": "nabbos-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "The Outcast Inn",
+      "slug": "outcast-inn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/outcast-inn.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "The House of Seven Lamps",
+      "slug": "house-of-seven-lamps",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-seven-lamps.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "The Cattery",
+      "slug": "the-cattery",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "The Happy Port",
+      "slug": "the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "The Mummer's Ship",
+      "slug": "the-mummers-ship",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "House of the Red Hands",
+      "slug": "house-of-the-red-hands",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-the-red-hands.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "The sweetwater river (aqueduct)",
+      "slug": "sweetwater-river",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sweetwater-river.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Sealord's Palace",
+      "slug": "sealords-palace",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sealords-palace.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Skagos",
+      "slug": "skagos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skagos.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Mole's Town",
+      "slug": "moles-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moles-town.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Location Descriptions",
+      "line": 98
+    },
+    {
+      "raw_name": "The inn",
+      "slug": "the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 99
+    },
+    {
+      "raw_name": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragmans-harbor.node.md",
+      "section": "Location Descriptions",
+      "line": 100
+    },
+    {
+      "raw_name": "Nabbo's Bridge winesink",
+      "slug": "nabbos-bridge-winesink",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 101
+    },
+    {
+      "raw_name": "The Happy Port",
+      "slug": "the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 102
+    },
+    {
+      "raw_name": "The sweetwater river",
+      "slug": "sweetwater-river",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sweetwater-river.node.md",
+      "section": "Location Descriptions",
+      "line": 103
+    },
+    {
+      "raw_name": "The old cracked horn",
+      "slug": "the-old-cracked-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 108
+    },
+    {
+      "raw_name": "Dreamwine (half a flask)",
+      "slug": "dreamwine",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/dreamwine.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 109
+    },
+    {
+      "raw_name": "Sam's sword and swordbelt",
+      "slug": "sams-sword-and-swordbelt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 110
+    },
+    {
+      "raw_name": "Dareon's black cloak",
+      "slug": "dareons-black-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 111
+    },
+    {
+      "raw_name": "Cat's skinny knife",
+      "slug": "cats-skinny-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 112
+    },
+    {
+      "raw_name": "Xhondo's feathered cloak",
+      "slug": "xhondos-feathered-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 113
+    },
+    {
+      "raw_name": "Samwell Tarly (Sam, Slayer, Sam the Slayer)",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 265
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 266
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 267
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "The babe (Gilly's nursing child)",
+      "slug": "the-babe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Cat (the barrow girl; \"no one\")",
+      "slug": "cat",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/cat.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Terro (dark-haired bravo)",
+      "slug": "terro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/terro.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Terro's fair-haired friend (Orbelo — named by Cat as \"Orbelo\")",
+      "slug": "terros-fair-haired-friend",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Xhondo",
+      "slug": "xhondo",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "The Sailor's Wife (Dareon's \"bride\")",
+      "slug": "sailors-wife",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sailors-wife.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Yna (one-eyed woman at the Happy Port)",
+      "slug": "yna",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yna.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "The Moonshadow (courtesan)",
+      "slug": "moonshadow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moonshadow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "The Nightingale (courtesan)",
+      "slug": "nightingale",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/nightingale.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Jon Snow (Lord Snow)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Egg (Aegon V Targaryen)",
+      "slug": "aegon-v-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-v-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "\"That big knight\" Egg served (referenced by Aemon)",
+      "slug": "that-big-knight-egg-served",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Aemon's father (Maekar I Targaryen — inferred)",
+      "slug": "aemons-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Cat's father (oarmaster on Nymeria)",
+      "slug": "cats-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "The healer from the House of the Red Hands",
+      "slug": "the-healer-from-the-house-of-the-red-hands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "The captain of the Lady Ushanora",
+      "slug": "the-captain-of-the-lady-ushanora",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "The innkeep",
+      "slug": "the-innkeep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "The cook (at the inn)",
+      "slug": "the-cook",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "Brusco (took in Cat)",
+      "slug": "brusco",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brusco.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "The Tyroshi sailor (passed out at the Happy Port)",
+      "slug": "the-tyroshi-sailor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "The Summer Islander playing tiles at the Happy Port",
+      "slug": "the-summer-islander-playing-tiles-at-the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Two dancing girls at the Happy Port",
+      "slug": "two-dancing-girls-at-the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "A red priest at the Happy Port",
+      "slug": "a-red-priest-at-the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "An older woman with huge breasts at the Happy Port",
+      "slug": "an-older-woman-with-huge-breasts-at-the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Craster (referenced via Craster's Keep)",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Braavos (the secret city)",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 296
+    },
+    {
+      "raw_name": "The inn (beneath the eaves; on a canal)",
+      "slug": "the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 297
+    },
+    {
+      "raw_name": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragmans-harbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 298
+    },
+    {
+      "raw_name": "Purple Harbor",
+      "slug": "purple-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/purple-harbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 299
+    },
+    {
+      "raw_name": "Moon Pool",
+      "slug": "moon-pool",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moon-pool.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 300
+    },
+    {
+      "raw_name": "The Happy Port (brothel)",
+      "slug": "the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "The Mummer's Ship (landmark/building)",
+      "slug": "the-mummers-ship",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Inn of the Green Eel",
+      "slug": "inn-of-the-green-eel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-of-the-green-eel.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "The Black Bargeman",
+      "slug": "black-bargeman",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-bargeman.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "Moroggo's",
+      "slug": "moroggos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moroggos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "The Foghouse",
+      "slug": "the-foghouse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "Nabbo's Bridge (winesink beneath second arch)",
+      "slug": "nabbos-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "The Outcast Inn",
+      "slug": "outcast-inn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/outcast-inn.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "The House of Seven Lamps",
+      "slug": "house-of-seven-lamps",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-seven-lamps.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "The Cattery (brothel)",
+      "slug": "the-cattery",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 310
+    },
+    {
+      "raw_name": "House of the Red Hands",
+      "slug": "house-of-the-red-hands",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-the-red-hands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 311
+    },
+    {
+      "raw_name": "The sweetwater river (brick aqueduct)",
+      "slug": "sweetwater-river",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sweetwater-river.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 312
+    },
+    {
+      "raw_name": "Sealord's Palace",
+      "slug": "sealords-palace",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sealords-palace.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "Skagos",
+      "slug": "skagos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skagos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 317
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 318
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 319
+    },
+    {
+      "raw_name": "Mole's Town",
+      "slug": "moles-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moles-town.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 320
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 321
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 322
+    },
+    {
+      "raw_name": "Westeros",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 323
+    },
+    {
+      "raw_name": "The Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 324
+    },
+    {
+      "raw_name": "Ibben",
+      "slug": "ibben",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ibben.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 325
+    },
+    {
+      "raw_name": "The lagoon (Braavos)",
+      "slug": "the-lagoon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 326
+    },
+    {
+      "raw_name": "House Tarly (Sam identifies himself as \"Samwell, of House Tarly\")",
+      "slug": "house-tarly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tarly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 329
+    },
+    {
+      "raw_name": "House Targaryen (Aemon's house — \"the grief and glory of my House\")",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 330
+    },
+    {
+      "raw_name": "Night's Watch (Sam, Dareon, and Jon are brothers; Dareon deserts)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 333
+    },
+    {
+      "raw_name": "The bravos (sword-fighting culture of Braavos)",
+      "slug": "bravo",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bravo.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 334
+    },
+    {
+      "raw_name": "The courtesans (social class in Braavos)",
+      "slug": "the-courtesans",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 335
+    },
+    {
+      "raw_name": "The Faith of the Seven (Aemon references \"the septons sing of sweet surcease\" and \"the Stranger waits outside my door\")",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 338
+    },
+    {
+      "raw_name": "The Stranger (invoked by Aemon as death personified)",
+      "slug": "stranger",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/stranger.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 339
+    },
+    {
+      "raw_name": "R'hllor (a red priest is present at the Happy Port — implied)",
+      "slug": "rhllor",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/rhllor.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 340
+    },
+    {
+      "raw_name": "Braavosi (people of Braavos; language; customs)",
+      "slug": "braavosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/braavosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 343
+    },
+    {
+      "raw_name": "Summer Islanders (Xhondo; the man playing tiles)",
+      "slug": "summer-islanders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 344
+    },
+    {
+      "raw_name": "Tyroshi (the passed-out sailor with scarlet beard)",
+      "slug": "tyroshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/tyroshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 345
+    },
+    {
+      "raw_name": "Wildlings / Free Folk (Gilly is called \"the wildling girl\")",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 346
+    },
+    {
+      "raw_name": "The old cracked horn (Jon gave to Sam; hangs on wall)",
+      "slug": "the-old-cracked-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 349
+    },
+    {
+      "raw_name": "Sam's sword and swordbelt",
+      "slug": "sams-sword-and-swordbelt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 350
+    },
+    {
+      "raw_name": "Dreamwine (half a flask from the healer)",
+      "slug": "dreamwine",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/dreamwine.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 351
+    },
+    {
+      "raw_name": "Cat's skinny knife",
+      "slug": "cats-skinny-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 352
+    },
+    {
+      "raw_name": "Xhondo's feathered cloak (black-and-scarlet)",
+      "slug": "xhondos-feathered-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 353
+    },
+    {
+      "raw_name": "Dareon's black cloak (of the Night's Watch)",
+      "slug": "dareons-black-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 354
+    },
+    {
+      "raw_name": "Serpent boats (at the Foghouse and elsewhere)",
+      "slug": "serpent-boats",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 355
+    },
+    {
+      "raw_name": "The barrow (Cat's cart for selling seafood)",
+      "slug": "barrow",
+      "resolved_via": "alias",
+      "node_type": "concept.custom",
+      "node_path": "graph/nodes/customs/barrow.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 356
+    },
+    {
+      "raw_name": "Dareon's song about the Moonshadow (in composition)",
+      "slug": "dareons-song-about-the-moonshadow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 359
+    },
+    {
+      "raw_name": "Songs about the Wall and the valor of the Night's Watch (what Dareon was supposed to sing)",
+      "slug": "songs-about-the-wall-and-the-valor-of-the-nights-watch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 360
+    },
+    {
+      "raw_name": "Songs about \"golden kisses, silvery hair, and red, red lips\" (what Dareon actually sings)",
+      "slug": "songs-about-golden-kisses-silvery-hair-and-red-red-lips",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 361
+    },
+    {
+      "raw_name": "\"The septons sing of sweet surcease\" (religious songs about the afterlife — referenced by Aemon)",
+      "slug": "the-septons-sing-of-sweet-surcease",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 362
+    },
+    {
+      "raw_name": "Dragons (rumors from sailors; Aemon's dreams and visions)",
+      "slug": "dragon",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dragon.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 365
+    },
+    {
+      "raw_name": "Aemon's prophetic dreams (red star bleeding, shadows on snow, leathern wings, hot breath)",
+      "slug": "aemons-prophetic-dreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 366
+    },
+    {
+      "raw_name": "\"Half-remembered prophecies\" (referenced by Aemon)",
+      "slug": "half-remembered-prophecies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 367
+    },
+    {
+      "raw_name": "\"Fire consumes, but cold preserves\" (Aemon's statement about the Wall)",
+      "slug": "fire-consumes-but-cold-preserves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 368
+    },
+    {
+      "raw_name": "A red star bleeding in the sky (Aemon's vision)",
+      "slug": "a-red-star-bleeding-in-the-sky",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 369
+    },
+    {
+      "raw_name": "White shadows (Aemon's vision)",
+      "slug": "white-shadows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 370
+    },
+    {
+      "raw_name": "Lord Commander (of the Night's Watch — Jon Snow's title; \"Lord Snow\")",
+      "slug": "lord-commander",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 376
+    },
+    {
+      "raw_name": "Maester (Aemon's title)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 377
+    },
+    {
+      "raw_name": "Steward (Sam's role — Aemon calls him this)",
+      "slug": "steward",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/steward.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 378
+    },
+    {
+      "raw_name": "Sealord (of Braavos — referenced via palace and a statue)",
+      "slug": "sealord-of-braavos",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/sealord-of-braavos.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 379
+    },
+    {
+      "raw_name": "Oarmaster (Cat's father's role on Nymeria)",
+      "slug": "oarmaster",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 380
+    },
+    {
+      "raw_name": "Mate (Xhondo's role on Cinnamon Wind)",
+      "slug": "mate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 381
+    },
+    {
+      "raw_name": "The Titan of Braavos (sounds nightfall; landmark at the lagoon entrance)",
+      "slug": "titan-of-braavos",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/titan-of-braavos.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 384
+    },
+    {
+      "raw_name": "The Lady Ushanora (ship that departed without them)",
+      "slug": "lady-ushanora",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lady-ushanora.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 385
+    },
+    {
+      "raw_name": "Cinnamon Wind (Xhondo's ship)",
+      "slug": "cinnamon-wind",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 386
+    },
+    {
+      "raw_name": "Nymeria (ship Cat's father served on)",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 387
+    }
+  ]
+}

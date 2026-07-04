@@ -51,6 +51,14 @@ design.md D-C, the headline capability). NEW ops, no legacy-flag equivalents:
                                                 [--limit N] [--json]
     (corpus-search is CLI-only — full-profile, no bundle/chat exposure; see
     weirwood_query/corpus_search.py's module docstring.)
+
+Usage — theme / mentions (query-layer Track, step 8a/8b; design.md D-E/G4/G13).
+NEW ops, no legacy-flag equivalents:
+  python3 -m weirwood_query.cli theme [name] [--category CATEGORY] [--json]
+    (no name -> lists every theme + member_count)
+  python3 -m weirwood_query.cli mentions <slug> [--json]
+    (reads the LIVE graph/index/ — may be stale, see G13; a `staleness_note`
+    is included when the mention-index-preview repair shows a different count)
 """
 
 from __future__ import annotations
@@ -63,9 +71,11 @@ from pathlib import Path
 from . import braid as braid_mod
 from . import corpus_search as corpus_search_mod
 from . import list_nodes as list_nodes_mod
+from . import mentions as mentions_mod
 from . import report as report_mod
 from . import resolve as resolve_mod
 from . import search as search_mod
+from . import themes as themes_mod
 from . import traverse
 from .load import EDGES_FILE, NODES_DIR, load_edges
 
@@ -723,6 +733,68 @@ def print_corpus_search(result: dict, *, json_output: bool) -> None:
     print(f"SUMMARY: {result['total']} matching line(s){shown_note}")
 
 
+def print_theme(result: dict, *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    if result.get("error"):
+        print(f"THEME: {result['theme']!r} — ERROR: {result['error']}")
+        known = result.get("known_themes", [])
+        if known:
+            print("  Known themes:")
+            for t in known:
+                print(f"    {t}")
+        print("=" * 72)
+        return
+
+    print(f"THEME: {result['theme']}")
+    print(f"  member_count={result['member_count']}")
+    print("-" * 72)
+    for m in result["members"]:
+        print(f"  {m['slug']:<40}  {m['category']:<14}  {m['name']}")
+    print("=" * 72)
+    print(f"SUMMARY: theme '{result['theme']}' = {result['member_count']} member(s)")
+
+
+def print_theme_list(themes_list: list[dict], *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps({"themes": themes_list}, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    print("THEMES")
+    print("-" * 72)
+    if not themes_list:
+        print("  (theme index not built — run graph/query/build/build_theme_index.py)")
+    for t in themes_list:
+        print(f"  {t['name']:<24}  {t['member_count']:>4} members")
+    print("=" * 72)
+    print(f"SUMMARY: {len(themes_list)} theme(s)")
+
+
+def print_mentions(result: dict, *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    print(f"MENTIONS: {result['slug']}")
+    print(f"  source: {result['source']}")
+    if result.get("staleness_note"):
+        print(f"  ** {result['staleness_note']} **")
+    print(f"  chapter_count={result['chapter_count']}  appearances_total={result['appearances_total']}")
+    print("-" * 72)
+    if not result["chapters"]:
+        print("  (no chapters found)")
+    for c in result["chapters"]:
+        print(f"  {c['chapter_id']:<28}  book={c['book']:<6}  pov={c.get('pov_character','?'):<14}  "
+              f"mentions={c['mention_count']}  via={','.join(c['resolved_via'])}")
+    print("=" * 72)
+    print(f"SUMMARY: {result['chapter_count']} chapter(s), {result['appearances_total']} appearance(s)")
+
+
 # ---------------------------------------------------------------------------
 # main()
 # ---------------------------------------------------------------------------
@@ -915,6 +987,37 @@ def main() -> None:
         query = " ".join(query_parts)
         result = corpus_search_mod.corpus_search(query, book=book, mode=mode, limit=limit)
         print_corpus_search(result, json_output=json_output)
+        sys.exit(0)
+
+    if argv and argv[0] == "theme":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        category = None
+        if "--category" in rest:
+            category = rest[rest.index("--category") + 1]
+        consumed = set()
+        if "--category" in rest:
+            consumed.add(rest[rest.index("--category") + 1])
+        name_parts = [a for a in rest if not a.startswith("--") and a not in consumed]
+        if not name_parts:
+            themes_list = themes_mod.list_themes()
+            print_theme_list(themes_list, json_output=json_output)
+            sys.exit(0)
+        name = " ".join(name_parts)
+        result = themes_mod.theme(name, category=category)
+        print_theme(result, json_output=json_output)
+        sys.exit(0)
+
+    if argv and argv[0] == "mentions":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        positionals = [a for a in rest if not a.startswith("--")]
+        if not positionals:
+            print("usage: weirwood query mentions <slug> [--json]", file=sys.stderr)
+            sys.exit(2)
+        slug = positionals[0]
+        result = mentions_mod.mentions(slug)
+        print_mentions(result, json_output=json_output)
         sys.exit(0)
 
     # Subcommand front door (query-layer design contract): translate a known

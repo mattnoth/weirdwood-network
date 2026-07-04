@@ -74,15 +74,20 @@ export const PRICING: Record<string, { input: number; output: number }> = {
 // can never drop a safety rule. Each composed prompt is a stable string (so it caches
 // as a prefix per persona).
 
-/** The DEFAULT voice: a clear, factual reference account — reads like a good wiki. */
+/** The DEFAULT voice: assisting a researcher — reframed S189c/step-5c per the
+ *  session-B advisory board (`working/query-layer/boards/persona-reframe.md`,
+ *  Matt's steer: "a researcher / someone who would read the wiki"). Pasted
+ *  verbatim from the board's synthesized draft — no mechanical conflict with
+ *  the routing table below, so nothing was reconciled. */
 const LOREMASTER_VOICE =
-  `You are a loremaster answering a visitor's questions about the world of A Song of Ice and Fire. You answer from a structured knowledge graph of the books, reached through the tools described below. Your task is to state what the books establish — accurately, plainly, and with sources.
+  `You are assisting a researcher — someone doing serious research and thought experiments on the world of A Song of Ice and Fire, the kind of person who reads the wiki, cross-references chapters, and wants the text traced carefully, not summarized. You answer from a structured knowledge graph of the books, reached through the tools described below. Your task is to help them work through their question — accurately, plainly, and with sources.
 
 # Voice
-- Factual and direct, like a well-written encyclopedia entry. Lead with the answer, then give the causes, the sequence, and the named people, places, and dates, in order.
-- Plain declarative sentences in a neutral, informative register. NO mysticism, NO atmosphere, NO imagery or metaphor, NO riddles, NO foreshadowing, NO first-person "voice" or persona. You are a reference, not a storyteller.
-- Do not comment on the act of asking ("You ask why…") and do not address the reader. Just give the account.
-- Concise. Short paragraphs. State what is known and stop; never pad.`;
+- Write for someone doing real research, not someone asking trivia. Be thorough and specific: name the people, places, dates, and sequence of events the tools actually returned, and trace how they connect when the tools give you the connection. Don't summarize down to a single flat sentence when the evidence supports more.
+- "Thorough" means tracing what the text establishes carefully and completely — it does NOT mean speculating, inferring, or entertaining a "what if." If the graph doesn't connect two things, say that plainly rather than reasoning your way there. A researcher wants to know the edge of the evidence as much as the evidence itself.
+- Plain declarative sentences in a direct, informative register — engaged and precise, not clinical. NO mysticism, NO atmosphere, NO imagery or metaphor, NO riddles, NO foreshadowing, NO first-person "voice" or persona of your own. You are helping with research, not telling a story.
+- Do not comment on the act of asking ("You ask why…") and do not address the reader as "you" beyond what's natural in giving a direct answer.
+- Answer fully, then stop. Thoroughness is about specificity and traced connections, not length — never pad, never hedge, never add a caveat that isn't grounded in something a tool returned.`;
 
 /** The TOGGLE voice: Brynden Rivers / Bloodraven — the atmospheric record-keeper. */
 const BLOODRAVEN_VOICE =
@@ -126,19 +131,23 @@ const SHARED_RULES = `# Answering — general
 
 # How you reach the text — tools
 You have read-only tools over the graph. Use them; do not answer from memory when a tool can ground the answer. A grounded, specific answer is the whole value here.
-- resolve(phrase): turn a name or phrase ("death of Tywin", "Jon Snow") into candidate node slugs. Call this FIRST to find the right node before any other tool.
+- resolve(phrase): turn a name or phrase ("death of Tywin", "Jon Snow") into candidate node slugs.
 - read_node(slug): a node's name, type, a short identity summary, and its curated book quotes (each with a chapter:line citation). Call this to get real book lines and the gist of an entity or event.
-- walk_chain(slug): the causal chain through an event — what led to it (upstream) and what it caused (downstream), as typed links (CAUSES / TRIGGERS / MOTIVATES), each with its own evidence quote and citation. Call this for "why" and "what happened because of" questions about an event. It returns a tight, depth-bounded spine — that is what you narrate. It ALSO returns a separate list of ENABLES preconditions; the interface shows those behind a toggle, so do NOT fold them into your prose unless the visitor explicitly asks what made the event possible.
-- neighbors(slug): everything directly connected to a node, grouped by relationship. Call this for "who is connected to / related to X" questions that are not a causal chain.
-- family_tree(slug): the LINEAGE around a person — ancestors and descendants through parentage, with spouses — returned as a bounded tree in ONE call. Call this for genealogy / dynasty / bloodline / family-tree questions ("the Targaryen family tree from Aegon the Conqueror", "who are Ned Stark's children", "trace the descent of House X"). Do NOT try to build a family tree by fanning out with neighbors — that spends your steps on titles and succession and never assembles the line.
+- walk_chain(slug): the causal chain through an event — what led to it (upstream) and what it caused (downstream), as typed links (CAUSES / TRIGGERS / MOTIVATES), each with its own evidence quote and citation. It returns a tight, depth-bounded spine — that is what you narrate. It ALSO returns a separate list of ENABLES preconditions; the interface shows those behind a toggle, so do NOT fold them into your prose unless the visitor explicitly asks what made the event possible.
+- neighbors(slug): everything directly connected to a node, grouped by relationship.
+- family_tree(slug): the LINEAGE around a person — ancestors and descendants through parentage, with spouses — returned as a bounded tree in ONE call. Do NOT try to build a family tree by fanning out with neighbors — that spends your steps on titles and succession and never assembles the line.
+- search_quotes(query, type?): keyword search over curated book quotes and node identity blurbs — content-first, not slug-first. Returns ranked hits, each a quote or identity blurb with its node slug, type, text, and citation.
 
-Work in steps: resolve the phrase, read the node, then walk / fan out / trace the line as the question needs. Prefer one or two well-chosen calls over many.
-
-MANDATORY for lineage questions: when the visitor asks for a family tree, a dynasty, a bloodline, descendants, or ancestry, you MUST call family_tree on the rooted person's node before answering — one call builds the whole tree the interface renders beside you. Do not reconstruct a lineage from memory, and do not use neighbors for it. Resolve the name, then family_tree.
+# Routing — which tool answers which question
+Use this table to pick your first move; then work in steps (resolve the phrase, read the node, then walk / fan out / trace the line / search as the question needs). Prefer one or two well-chosen calls over many.
+- **Who is X / what is X** (a name, a thing, "tell me about X"): resolve(X), then read_node on the best candidate.
+- **Why did X happen / what did X cause / consequences, ramifications** (an event's causes or effects): resolve → read_node → walk_chain. **MANDATORY** — this is the one case where a tool call is not optional: when the visitor asks why an event happened, what led to it, what caused it, or what it caused, you MUST call walk_chain on the event's node before answering. Never answer a causal question about an event from memory alone — the walked chain is the evidence the interface shows beside your answer; skip it and the panel is empty and the answer is unproven.
+- **Lineage, dynasty, bloodline, descendants, ancestry, family tree** ("the Targaryen family tree from Aegon the Conqueror", "who are Ned Stark's children", "trace the descent of House X"): resolve, then family_tree on the rooted person — one call builds the whole tree the interface renders beside you. Do not reconstruct a lineage from memory, and do not use neighbors for it.
+- **Describe, thematic, quotes, food, customs, hospitality, songs, dress** — anything better answered by finding the passages than by resolving one entity ("describe some meals", "what do we know about guest right"): search_quotes directly. You don't need to resolve first — search_quotes takes a keyword phrase, not a slug.
+- **Connection between X and Y** ("how are X and Y connected", "what links X to Y"): resolve both, then neighbors on the more specific one. (A dedicated path op is not yet available — use neighbors as the substitute for now.)
+- **Resilience rule:** after 2 consecutive failed or ambiguous resolve() calls on the same underlying question, stop trying more resolve phrasings and call search_quotes instead — a keyword search over the quote/identity layer will usually surface the right passage even when the entity name won't resolve.
 
 IMPORTANT — a family tree is a PICTURE, not a speech: when you call family_tree, the interface draws the whole tree as a labelled chart in the answer itself. So DROP the persona for this one shape. Do not narrate the lineage generation by generation, do not quote, do not reach for imagery or the record-keeper's voice. Emit ONE short, plain caption line naming the rooted person and the scope — e.g. "Aegon I Targaryen and his descendants, five generations." — and stop. The chart carries the rest.
-
-MANDATORY for causal questions: when the visitor asks why an event happened, what led to it, what caused it, or what it caused/its consequences/ramifications, you MUST call walk_chain on the event's node before answering — never answer a causal question about an event from memory alone. The walked chain is the evidence the interface shows beside your answer; if you skip it, the panel is empty and the answer is unproven. Always resolve → read_node → walk_chain for these.
 
 # Quoting and citations — strict
 - A book line is ONLY the verbatim text a tool returns as a quote (read_node quotes, or a link's evidence quote), and it always carries a chapter:line citation. That text — and only that text — may be quoted verbatim.
@@ -242,6 +251,23 @@ export const TOOL_DEFS = [
       required: ["slug"],
     },
   },
+  {
+    name: "search_quotes",
+    description:
+      'Search curated book quotes and node identity blurbs by keyword — content-first retrieval, not slug lookup. Call this for descriptive, thematic, or "tell me about" questions (meals and feasts, customs, dress, food, hospitality, songs — anything better answered by finding the passages themselves than by resolving one entity). Returns ranked hits, each a quote or identity blurb with its node slug, type, text, and citation. Also the fallback after repeated failed/ambiguous resolve() calls.',
+    input_schema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "The keyword phrase to search for." },
+        type: {
+          type: "string",
+          description:
+            'Optional: restrict results to one node category (the graph/nodes/ type-directory name, e.g. "foods", "customs", "characters").',
+        },
+      },
+      required: ["query"],
+    },
+  },
 ];
 
 // ---- Tool dispatch ----
@@ -266,6 +292,11 @@ export function dispatchTool(
       return tools.neighbors(slug);
     case "family_tree":
       return tools.familyTree(slug);
+    case "search_quotes": {
+      const query = typeof input.query === "string" ? input.query : "";
+      const type = typeof input.type === "string" ? input.type : undefined;
+      return tools.searchQuotes(query, type ? { type } : undefined);
+    }
     default:
       return { error: `unknown tool: ${name}` };
   }
@@ -282,6 +313,21 @@ export function harvestResult(
 ): number {
   let grounding = 0;
   if (!result || typeof result !== "object") return 0;
+
+  // search_quotes → SearchResult[] (a bare array, not a keyed object like the
+  // other tools' returns) — { slug, type, text, cite, score } per hit.
+  if (Array.isArray(result)) {
+    for (const hit of result as Array<Record<string, unknown>>) {
+      if (!hit || typeof hit !== "object") continue;
+      if (typeof hit.cite === "string" && hit.cite) validCites.add(hit.cite);
+      if (typeof hit.text === "string") {
+        for (const m of hit.text.matchAll(CITE_RE)) validCites.add(m[0]);
+      }
+      grounding++;
+    }
+    return grounding;
+  }
+
   const r = result as Record<string, unknown>;
 
   // read_node → { quotes: [{ cite }] }
@@ -371,6 +417,53 @@ export function estimateCostUsd(
 
 // ---- The tool loop ----
 
+/** The small, loggable slice of a resolve()/search_quotes() OUTCOME — NOT the
+ *  full result array (keep TurnLog records small; no full quote/candidate
+ *  lists persisted). Closes the telemetry gap
+ *  (`working/query-layer/resolve-misses.md` §Recommendation): previously
+ *  `toolTrace` stored `{tool, input}` only, so a resolve's hit/fuzzy/miss
+ *  outcome was never captured in the persisted log — the miner had to
+ *  re-run resolve() against the current bundle to recover it after the fact.
+ *  This record makes that reconstruction unnecessary going forward. */
+export interface ToolOutcome {
+  /** resolve(): "exact" | "fuzzy" | "miss". search_quotes(): "hit" | "miss". */
+  matchType: string;
+  /** resolve(): the top candidate's slug. search_quotes(): the top hit's slug. */
+  topSlug: string | null;
+  /** resolve(): the top candidate's score. search_quotes(): omitted (undefined). */
+  score?: number;
+  /** search_quotes() only: how many hits were returned. */
+  resultCount?: number;
+}
+
+/** Derive the small loggable outcome for a resolve() or search_quotes() call
+ *  from its dispatch result. Returns `undefined` for every other tool (their
+ *  shapes are already covered by the receipts panel / grounding harvest —
+ *  this is additive telemetry for the two tools the resolve-miss report
+ *  flagged, not a general-purpose result summarizer). */
+export function outcomeFor(toolName: string, result: unknown): ToolOutcome | undefined {
+  if (toolName === "resolve") {
+    const candidates = Array.isArray(result) ? result as Array<Record<string, unknown>> : [];
+    const top = candidates[0];
+    if (!top) return { matchType: "miss", topSlug: null };
+    return {
+      matchType: typeof top.matchType === "string" ? top.matchType : "unknown",
+      topSlug: typeof top.slug === "string" ? top.slug : null,
+      score: typeof top.score === "number" ? top.score : undefined,
+    };
+  }
+  if (toolName === "search_quotes") {
+    const hits = Array.isArray(result) ? result as Array<Record<string, unknown>> : [];
+    const top = hits[0];
+    return {
+      matchType: hits.length > 0 ? "hit" : "miss",
+      topSlug: typeof top?.slug === "string" ? top.slug : null,
+      resultCount: hits.length,
+    };
+  }
+  return undefined;
+}
+
 export interface AgentResult {
   usage: { input: number; output: number };
   toolCalls: number;
@@ -380,9 +473,12 @@ export interface AgentResult {
   /** The assembled answer prose (streamed deltas, joined). */
   prose: string;
   /** Every tool call this turn, in order: name + input (the resolve/read_node/
-   *  walk_chain slugs). This is the replayable spine of the walked chain — a
-   *  later defect hunt can re-run these exact calls against the graph. */
-  toolTrace: Array<{ tool: string; input: unknown }>;
+   *  walk_chain slugs), plus — for resolve and search_quotes calls — a small
+   *  `outcome` slice (matchType/topSlug/score or resultCount; see
+   *  `ToolOutcome`). This is the replayable spine of the walked chain — a
+   *  later defect hunt can re-run these exact calls against the graph, and
+   *  the outcome closes the resolve-miss telemetry gap without needing to. */
+  toolTrace: Array<{ tool: string; input: unknown; outcome?: ToolOutcome }>;
 }
 
 /**
@@ -433,8 +529,13 @@ export async function runAgent(
     const results: ContentBlock[] = [];
     for (const tu of toolUses) {
       toolCalls++;
-      toolTrace.push({ tool: tu.name, input: tu.input });
       const out = dispatchTool(tu.name, tu.input, tools);
+      const outcome = outcomeFor(tu.name, out);
+      toolTrace.push(
+        outcome
+          ? { tool: tu.name, input: tu.input, outcome }
+          : { tool: tu.name, input: tu.input },
+      );
       grounding += harvestResult(out, validCites);
       emit("receipt", { tool: tu.name, input: tu.input, result: out });
       results.push({

@@ -11,7 +11,11 @@ import {
   type ChatMessage,
   estimateCostUsd,
   harvestResult,
+  MAX_TOOL_ITERATIONS,
+  outcomeFor,
   runAgent,
+  systemPromptFor,
+  TOOL_DEFS,
   type TurnResult,
   verifyCites,
 } from "./agent.ts";
@@ -176,4 +180,125 @@ Deno.test("verifyCites: only out-of-allowlist cites are flagged", () => {
 Deno.test("estimateCostUsd: prices per model", () => {
   const c = estimateCostUsd({ input: 1_000_000, output: 1_000_000 }, "claude-opus-4-8");
   assert.equal(c, 30); // $5 in + $25 out
+});
+
+// ---- search_quotes tool (query-layer step 5c) ----
+
+Deno.test("TOOL_DEFS: search_quotes schema present with query (required) + type (optional)", () => {
+  const def = TOOL_DEFS.find((t) => t.name === "search_quotes");
+  assert.ok(def, "search_quotes must be registered in TOOL_DEFS");
+  const props = def!.input_schema.properties as Record<string, unknown>;
+  assert.ok("query" in props, "search_quotes must accept a query param");
+  assert.ok("type" in props, "search_quotes must accept an optional type param");
+  assert.deepEqual(def!.input_schema.required, ["query"]);
+});
+
+Deno.test("runAgent: search_quotes stubbed call path — dispatches, grounds, receipts", async () => {
+  let turn = 0;
+  const stub = (_msgs: ChatMessage[], onText: (d: string) => void): Promise<TurnResult> => {
+    turn++;
+    if (turn === 1) {
+      return Promise.resolve({
+        stopReason: "tool_use",
+        usage,
+        content: [{
+          type: "tool_use",
+          id: "s1",
+          name: "search_quotes",
+          input: { query: "lemon cakes", type: "foods" },
+        }],
+      });
+    }
+    onText("Lemon cakes turn up as a favored sweet. ");
+    return Promise.resolve({
+      stopReason: "end_turn",
+      usage,
+      content: [{ type: "text", text: "…" }],
+    });
+  };
+
+  const { events, emit } = recorder();
+  const result = await runAgent(
+    [{ role: "user", content: "Describe some lemon cakes" }],
+    tools,
+    stub,
+    emit,
+  );
+
+  assert.equal(result.toolCalls, 1);
+  assert.ok(result.grounding > 0, "search_quotes hits should ground the answer");
+
+  const receipts = events.filter((e) => e.event === "receipt");
+  assert.equal(receipts.length, 1);
+  assert.equal((receipts[0].data as { tool: string }).tool, "search_quotes");
+  const searchResult = (receipts[0].data as { result: unknown }).result;
+  assert.ok(Array.isArray(searchResult) && searchResult.length > 0, "expected ranked hits");
+
+  // toolTrace carries the small outcome slice (matchType/topSlug/resultCount).
+  assert.equal(result.toolTrace.length, 1);
+  assert.equal(result.toolTrace[0].tool, "search_quotes");
+  const outcome = result.toolTrace[0].outcome;
+  assert.ok(outcome, "search_quotes call must carry a logged outcome");
+  assert.equal(outcome!.matchType, "hit");
+  assert.equal(typeof outcome!.topSlug, "string");
+  assert.ok((outcome!.resultCount ?? 0) > 0);
+});
+
+Deno.test("outcomeFor: resolve exact/fuzzy/miss + search_quotes hit/miss shapes", () => {
+  const exactHit = outcomeFor("resolve", tools.resolve("Tywin Lannister"));
+  assert.equal(exactHit?.matchType, "exact");
+  assert.equal(typeof exactHit?.topSlug, "string");
+  assert.equal(typeof exactHit?.score, "number");
+
+  const resolveMiss = outcomeFor("resolve", tools.resolve("zzz-not-a-real-phrase-zzz"));
+  assert.deepEqual(resolveMiss, { matchType: "miss", topSlug: null });
+
+  const searchHit = outcomeFor("search_quotes", tools.searchQuotes("lemon cakes"));
+  assert.equal(searchHit?.matchType, "hit");
+  assert.equal(typeof searchHit?.topSlug, "string");
+  assert.ok((searchHit?.resultCount ?? 0) > 0);
+
+  const searchMiss = outcomeFor("search_quotes", tools.searchQuotes("zzzznonsensequery"));
+  assert.deepEqual(searchMiss, { matchType: "miss", topSlug: null, resultCount: 0 });
+
+  // Other tools: no outcome slice (not in scope for this telemetry fix).
+  assert.equal(outcomeFor("read_node", tools.readNode(TYWIN_SLUG)), undefined);
+});
+
+// ---- Invariants pinned per the S190 handoff: don't let a routing/persona ----
+// ---- edit silently regress the safety block or the loop-bound backstop. ----
+
+Deno.test("MAX_TOOL_ITERATIONS stays 6 (hard gate — never change without explicit sign-off)", () => {
+  assert.equal(MAX_TOOL_ITERATIONS, 6);
+});
+
+Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, cite rules, quote floor", () => {
+  // SHARED_RULES isn't exported directly; both personas concatenate it verbatim
+  // after their own voice block, starting at "# Answering — general". Extract
+  // it from the composed prompt so this test doesn't need a new export, and
+  // pin the FULL text (not just a snippet) so any edit to the safety block —
+  // theory-gate, cite-verification rules, or the >=2-quote floor — fails loud.
+  const composed = systemPromptFor("loremaster");
+  const marker = "# Answering — general";
+  const idx = composed.indexOf(marker);
+  assert.ok(idx >= 0, "SHARED_RULES marker not found in composed prompt");
+  const sharedRules = composed.slice(idx);
+
+  // bloodraven must concatenate the IDENTICAL shared block (persona-independence).
+  const composedBR = systemPromptFor("bloodraven");
+  const idxBR = composedBR.indexOf(marker);
+  assert.equal(composedBR.slice(idxBR), sharedRules, "SHARED_RULES must be persona-independent");
+
+  // Pin the load-bearing invariants explicitly (theory-gate, cite rules, quote floor)
+  // so a routing-table edit that accidentally clips this section fails clearly.
+  assert.ok(sharedRules.includes("do NOT introduce theories"));
+  assert.ok(sharedRules.includes("NEVER wink at an answer you cannot cite"));
+  assert.ok(sharedRules.includes("AT LEAST TWO"));
+  assert.ok(sharedRules.includes("NEVER invent a chapter:line citation"));
+  assert.ok(sharedRules.includes("[[q|"));
+
+  // Full-text pin: fails loud on ANY change to SHARED_RULES, intentional or not —
+  // if this test fails on a legitimate SHARED_RULES edit, update the expected
+  // hash/length below deliberately (this is the tripwire, not a silent drift net).
+  assert.equal(sharedRules.length, 10478, "SHARED_RULES length changed — confirm intentional");
 });

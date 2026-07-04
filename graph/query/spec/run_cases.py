@@ -37,7 +37,7 @@ WEB_DATA_DIR = REPO_ROOT / "web" / "data"
 
 CASE_FILES = [
     "resolve.json", "neighbors.json", "chain.json", "family.json", "braid.json",
-    "search.json", "list.json",
+    "search.json", "list.json", "theme.json",
 ]
 
 # `family` cases are tagged profile: "bounded" (they pin values verified against
@@ -448,6 +448,17 @@ def _list_nodes_mod(engine: Engine) -> Any:
         return None
 
 
+def _themes_mod(engine: Engine) -> Any:
+    if not engine.ok:
+        return None
+    try:
+        import weirwood_query  # type: ignore
+
+        return getattr(weirwood_query, "themes", None)
+    except Exception:
+        return None
+
+
 def try_search(engine: Engine, case: dict) -> tuple[str, str]:
     mod = _search_mod(engine)
     fn = find_callable(mod, "search")
@@ -553,6 +564,50 @@ def try_list(engine: Engine, case: dict) -> tuple[str, str]:
     return "pass", f"{result.get('total')} node(s) in category {inp['type']!r}"
 
 
+def try_theme(engine: Engine, case: dict) -> tuple[str, str]:
+    mod = _themes_mod(engine)
+    fn = find_callable(mod, "theme")
+    if fn is None:
+        return "skip", "no theme() callable found in weirwood_query.themes"
+
+    inp = case["input"]
+    kwargs: dict[str, Any] = {}
+    if "category" in inp:
+        kwargs["category"] = inp["category"]
+    try:
+        result = fn(inp["name"], **kwargs)
+    except Exception as e:
+        return "skip", f"theme() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+    members = result.get("members", [])
+    member_slugs = {m.get("slug") for m in members}
+
+    if "memberCount" in exp and result.get("member_count") != exp["memberCount"]:
+        problems.append(f"member_count: got {result.get('member_count')!r}, expected {exp['memberCount']!r}")
+    if "members" in exp and members != exp["members"]:
+        problems.append(f"members: got {members!r}, expected {exp['members']!r}")
+    if "hasError" in exp:
+        has_error = bool(result.get("error"))
+        if has_error != exp["hasError"]:
+            problems.append(f"hasError: got {has_error}, expected {exp['hasError']}")
+    if "mustIncludeSlug" in exp and exp["mustIncludeSlug"] not in member_slugs:
+        problems.append(f"mustIncludeSlug: {exp['mustIncludeSlug']!r} not found among members")
+    if "memberCountAtLeast" in exp and len(members) < exp["memberCountAtLeast"]:
+        problems.append(f"memberCountAtLeast: {len(members)} < {exp['memberCountAtLeast']}")
+    if "themeNameEquals" in exp and result.get("theme", "").lower() != exp["themeNameEquals"].lower():
+        problems.append(f"themeNameEquals: got {result.get('theme')!r}, expected {exp['themeNameEquals']!r}")
+    if "allCategoriesEqual" in exp:
+        bad = [m["slug"] for m in members if m.get("category") != exp["allCategoriesEqual"]]
+        if bad:
+            problems.append(f"allCategoriesEqual={exp['allCategoriesEqual']!r}: violated by {bad}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{len(members)} member(s) for theme {inp['name']!r}"
+
+
 RUNNERS: dict[str, Callable[[Engine, dict], tuple[str, str]]] = {
     "resolve": try_resolve,
     "neighbors": try_neighbors,
@@ -563,6 +618,7 @@ RUNNERS: dict[str, Callable[[Engine, dict], tuple[str, str]]] = {
     "braid": try_braid,
     "search": try_search,
     "list": try_list,
+    "theme": try_theme,
 }
 
 

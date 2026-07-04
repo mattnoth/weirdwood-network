@@ -1,0 +1,1276 @@
+{
+  "chapter_id": "adwd-tyrion-05",
+  "book": "adwd",
+  "pov_character": "tyrion",
+  "generated_at": "2026-07-04T21:33:40.619913+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-05.extraction.md",
+  "stats": {
+    "total_mentions": 140,
+    "resolved_to_node": 99,
+    "direct": 79,
+    "alias": 20,
+    "unresolved": 41
+  },
+  "mentions": [
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Griff (Jon Connington)",
+      "slug": "jon-connington",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-connington.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Young Griff (Aegon Targaryen)",
+      "slug": "aegon-targaryen-young-griff",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-targaryen-young-griff.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Septa Lemore",
+      "slug": "lemore",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lemore.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Haldon Halfmaester",
+      "slug": "haldon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haldon.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Rolly Duckfield (Duck)",
+      "slug": "rolly-duckfield",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rolly-duckfield.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Yandry",
+      "slug": "yandry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yandry.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Ysilla",
+      "slug": "ysilla",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ysilla.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Griff (Jon Connington)",
+      "slug": "jon-connington",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-connington.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Young Griff",
+      "slug": "aegon-targaryen-young-griff",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-targaryen-young-griff.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Haldon Halfmaester",
+      "slug": "haldon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haldon.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Stone man (third attacker)",
+      "slug": "stone-man",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Tysha",
+      "slug": "tysha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tysha.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Joanna Lannister",
+      "slug": "joanna-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joanna-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Illyrio Mopatis",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Rhaegar Targaryen",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Garin",
+      "slug": "garin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Urho the Unwashed",
+      "slug": "urho-the-unwashed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urho-the-unwashed.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Nyessos",
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Malaquo",
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "The Shrouded Lord",
+      "slug": "garin-the-great",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/garin-the-great.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "The Sorrows",
+      "slug": "sorrows",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sorrows.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Chroyane",
+      "slug": "chroyane",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chroyane.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "The Rhoyne (river)",
+      "slug": "rhoyne",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rhoyne.node.md",
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "Palace of Love / Palace of Sorrow",
+      "slug": "palace-of-love-palace-of-sorrow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Bridge of Dream",
+      "slug": "bridge-of-dream",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bridge-of-dream.node.md",
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Dagger Lake",
+      "slug": "dagger-lake",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dagger-lake.node.md",
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Selhorys",
+      "slug": "selhorys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/selhorys.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Valysar",
+      "slug": "valysar",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valysar.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Volon Therys",
+      "slug": "volon-therys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volon-therys.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Griffin's Roost",
+      "slug": "griffins-roost",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/griffins-roost.node.md",
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Illyrio's manse",
+      "slug": "illyrios-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/illyrios-manse.node.md",
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Basilisk Islands",
+      "slug": "basilisk-islands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Summer Isles",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Chroyane / The Sorrows",
+      "slug": "chroyane-the-sorrows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 87
+    },
+    {
+      "raw_name": "Palace of Love / Palace of Sorrow",
+      "slug": "palace-of-love-palace-of-sorrow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 88
+    },
+    {
+      "raw_name": "Bridge of Dream",
+      "slug": "bridge-of-dream",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bridge-of-dream.node.md",
+      "section": "Location Descriptions",
+      "line": 89
+    },
+    {
+      "raw_name": "The Shy Maid",
+      "slug": "shy-maid",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/shy-maid.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Poison mushrooms",
+      "slug": "poison-mushrooms",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Brazier",
+      "slug": "brazier",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "Torches",
+      "slug": "torches",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torches.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 97
+    },
+    {
+      "raw_name": "Griff's longsword",
+      "slug": "griffs-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 98
+    },
+    {
+      "raw_name": "Crimson cloak",
+      "slug": "crimson-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 99
+    },
+    {
+      "raw_name": "Golden cage",
+      "slug": "golden-cage",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 100
+    },
+    {
+      "raw_name": "Tyrion Lannister (aliases: Hugor Hill, Yollo, \"the dwarf,\" \"the little man\")",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 251
+    },
+    {
+      "raw_name": "Griff / Jon Connington",
+      "slug": "griff-jon-connington",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 252
+    },
+    {
+      "raw_name": "Young Griff / Aegon Targaryen (Prince Rhaegar's son)",
+      "slug": "young-griff-aegon-targaryen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 253
+    },
+    {
+      "raw_name": "Septa Lemore",
+      "slug": "lemore",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lemore.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 254
+    },
+    {
+      "raw_name": "Haldon Halfmaester",
+      "slug": "haldon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haldon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "Rolly Duckfield (Duck)",
+      "slug": "rolly-duckfield",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rolly-duckfield.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "Yandry",
+      "slug": "yandry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yandry.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 257
+    },
+    {
+      "raw_name": "Ysilla",
+      "slug": "ysilla",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ysilla.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 258
+    },
+    {
+      "raw_name": "Tywin Lannister (referenced — killed by Tyrion)",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 259
+    },
+    {
+      "raw_name": "Jaime Lannister (referenced — Tyrion's memories)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 260
+    },
+    {
+      "raw_name": "Tysha (referenced — Tyrion's memories)",
+      "slug": "tysha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tysha.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 261
+    },
+    {
+      "raw_name": "Shae (referenced — killed by Tyrion)",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 262
+    },
+    {
+      "raw_name": "Illyrio Mopatis (referenced — \"the cheesemonger\")",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 263
+    },
+    {
+      "raw_name": "Varys (referenced — \"the Spider,\" \"the eunuch,\" \"the cockless wonder\")",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 264
+    },
+    {
+      "raw_name": "Rhaegar Targaryen (referenced — Young Griff's father)",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 265
+    },
+    {
+      "raw_name": "Garin (legendary/referenced — Rhoynar prince, hung in golden cage)",
+      "slug": "garin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 266
+    },
+    {
+      "raw_name": "The Shrouded Lord (referenced — ruler of the Sorrows; multiple figures, current one a corsair)",
+      "slug": "garin-the-great",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/garin-the-great.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 267
+    },
+    {
+      "raw_name": "Nyessos (referenced — Triarch of Volantis)",
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Malaquo (referenced — Triarch of Volantis)",
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Urho the Unwashed (referenced — pirate on Dagger Lake)",
+      "slug": "urho-the-unwashed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urho-the-unwashed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "The grey woman (legendary — from Duck's tale, kissed a statue to life)",
+      "slug": "the-grey-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Young Griff's sister (referenced — corpse laid beside his at the Iron Throne; Rhaegar's daughter)",
+      "slug": "young-griffs-sister",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "The Sorrows",
+      "slug": "sorrows",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sorrows.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 275
+    },
+    {
+      "raw_name": "Chroyane (the festival city / drowned city)",
+      "slug": "chroyane",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chroyane.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 276
+    },
+    {
+      "raw_name": "The Rhoyne (Mother Rhoyne)",
+      "slug": "rhoyne",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rhoyne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 277
+    },
+    {
+      "raw_name": "Bridge of Dream",
+      "slug": "bridge-of-dream",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bridge-of-dream.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 278
+    },
+    {
+      "raw_name": "Palace of Love / Palace of Sorrow",
+      "slug": "palace-of-love-palace-of-sorrow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 279
+    },
+    {
+      "raw_name": "Dagger Lake",
+      "slug": "dagger-lake",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dagger-lake.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 280
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 281
+    },
+    {
+      "raw_name": "Selhorys",
+      "slug": "selhorys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/selhorys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 282
+    },
+    {
+      "raw_name": "Valysar",
+      "slug": "valysar",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valysar.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 283
+    },
+    {
+      "raw_name": "Volon Therys",
+      "slug": "volon-therys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volon-therys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 284
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 285
+    },
+    {
+      "raw_name": "Griffin's Roost",
+      "slug": "griffins-roost",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/griffins-roost.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 286
+    },
+    {
+      "raw_name": "Illyrio's manse",
+      "slug": "illyrios-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/illyrios-manse.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 287
+    },
+    {
+      "raw_name": "Basilisk Islands",
+      "slug": "basilisk-islands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 288
+    },
+    {
+      "raw_name": "Summer Isles (Summer Islands)",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 289
+    },
+    {
+      "raw_name": "Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 290
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 291
+    },
+    {
+      "raw_name": "Iron Throne (location within Red Keep)",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 292
+    },
+    {
+      "raw_name": "The lower Rhoyne",
+      "slug": "the-lower-rhoyne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 293
+    },
+    {
+      "raw_name": "House Lannister (Tyrion, Tywin, Jaime, Joanna)",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 296
+    },
+    {
+      "raw_name": "House Targaryen (Rhaegar, Young Griff/Aegon)",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 297
+    },
+    {
+      "raw_name": "House Connington (Jon Connington / Griff, Griffin's Roost)",
+      "slug": "house-connington",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-connington.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 298
+    },
+    {
+      "raw_name": "Elephants (political faction in Volantis)",
+      "slug": "elephants",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 301
+    },
+    {
+      "raw_name": "Tigers (political faction in Volantis)",
+      "slug": "tigers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 302
+    },
+    {
+      "raw_name": "Triarchs of Volantis (governing body)",
+      "slug": "triarchs-of-volantis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 303
+    },
+    {
+      "raw_name": "Free companies (referenced — sellsword companies)",
+      "slug": "free-companies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 304
+    },
+    {
+      "raw_name": "Stone men (afflicted community in the Sorrows)",
+      "slug": "stone-men",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stone-men.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 305
+    },
+    {
+      "raw_name": "Pirates of Dagger Lake",
+      "slug": "pirates-of-dagger-lake",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 306
+    },
+    {
+      "raw_name": "Faith of the Seven (Septa Lemore prays; invokes the Father, the Mother, the Warrior; \"Seven save us\"; \"in the image of the Father and the Mother\")",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 309
+    },
+    {
+      "raw_name": "Mother Rhoyne (Rhoynish deity/river personification; Garin called upon \"his Mother\"; Yandry says \"Mother Rhoyne runs how she will\")",
+      "slug": "mother-rhoyne",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/mother-rhoyne.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 310
+    },
+    {
+      "raw_name": "Maesters (referenced as medical/scholarly authority on greyscale treatment — limes, mustard poultices, scalding baths)",
+      "slug": "maesters",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/maesters.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 311
+    },
+    {
+      "raw_name": "Septons (referenced as offering prayer, sacrifice, and fasting as greyscale cure)",
+      "slug": "septon",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/septon.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 312
+    },
+    {
+      "raw_name": "Rhoynar (builders of Chroyane; \"the Rhoynar name\")",
+      "slug": "rhoynar",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/rhoynar.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 315
+    },
+    {
+      "raw_name": "Valyrians (referenced — the conquerors who drowned; \"lords of fire\")",
+      "slug": "valyrians",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/valyrians.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 316
+    },
+    {
+      "raw_name": "Volantenes (men of Volantis who hung Garin; send mercy ships)",
+      "slug": "volantenes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 317
+    },
+    {
+      "raw_name": "Tyroshi (Young Griff's cover story — Tyroshi mother)",
+      "slug": "tyroshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/tyroshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 318
+    },
+    {
+      "raw_name": "Summer Islanders (the third stone man was one before greyscale)",
+      "slug": "summer-islanders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 319
+    },
+    {
+      "raw_name": "The Shy Maid (poleboat)",
+      "slug": "shy-maid",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/shy-maid.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 322
+    },
+    {
+      "raw_name": "Poison mushrooms (from Illyrio's manse, in Tyrion's possession)",
+      "slug": "poison-mushrooms",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 323
+    },
+    {
+      "raw_name": "Brazier (on deck of Shy Maid)",
+      "slug": "brazier",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 324
+    },
+    {
+      "raw_name": "Torches (oiled-rag)",
+      "slug": "torches",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torches.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 325
+    },
+    {
+      "raw_name": "Griff's longsword",
+      "slug": "griffs-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 326
+    },
+    {
+      "raw_name": "Crimson cloak (wrapped the baby corpse)",
+      "slug": "crimson-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 327
+    },
+    {
+      "raw_name": "Golden cage (Garin's imprisonment)",
+      "slug": "golden-cage",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 328
+    },
+    {
+      "raw_name": "Carved wooden lion (Jaime's childhood gift to Tyrion, referenced)",
+      "slug": "carved-wooden-lion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 329
+    },
+    {
+      "raw_name": "Barrel hoops and blocks (Jaime's childhood gifts, referenced)",
+      "slug": "barrel-hoops-and-blocks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 330
+    },
+    {
+      "raw_name": "Green obelisk (towering from water in Chroyane)",
+      "slug": "green-obelisk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 331
+    },
+    {
+      "raw_name": "Lamps on the Bridge of Dream",
+      "slug": "lamps-on-the-bridge-of-dream",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 332
+    },
+    {
+      "raw_name": "Garin's Curse (greyscale; associated with the Sorrows; Ysilla attributes it to sorcery)",
+      "slug": "garins-curse",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/garins-curse.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 338
+    },
+    {
+      "raw_name": "Greyscale (disease — detailed medical description: tingling in extremities, flesh stiffening, skin greying, blindness, internal organ involvement; treatments: limes, mustard poultices, scalding baths, amputation; children who survive are immune to mortal form and grey plague)",
+      "slug": "greyscale",
+      "resolved_via": "direct",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/greyscale.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 339
+    },
+    {
+      "raw_name": "Grey plague (mentioned as \"terrible swift cousin\" of mortal greyscale)",
+      "slug": "grey-plague",
+      "resolved_via": "direct",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/grey-plague.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 340
+    },
+    {
+      "raw_name": "Supernatural fog of the Sorrows (Ysilla says it stinks of sorcery; cold breath of drowned dead rising from the murk)",
+      "slug": "supernatural-fog-of-the-sorrows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 341
+    },
+    {
+      "raw_name": "The river looping / time-space anomaly (the Shy Maid returns to the Bridge of Dream despite traveling downstream)",
+      "slug": "the-river-looping-time-space-anomaly",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 342
+    },
+    {
+      "raw_name": "Restless spirits / whispering dead (Ysilla's description of the supernatural inhabitants of the Sorrows)",
+      "slug": "restless-spirits-whispering",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 343
+    },
+    {
+      "raw_name": "Sack of King's Landing (implied — Tywin presenting the corpses of Rhaegar's children to the new king)",
+      "slug": "sack-of-kings-landing",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/sack-of-kings-landing.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 346
+    },
+    {
+      "raw_name": "Pending war from Volantis (Nyessos and Malaquo allied; \"when the year turns\")",
+      "slug": "pending-war-from-volantis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 347
+    },
+    {
+      "raw_name": "Hand of the King (Jon Connington was once Hand)",
+      "slug": "hand-of-the-king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/hand-of-the-king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 350
+    },
+    {
+      "raw_name": "Lord of Griffin's Roost (Jon Connington's title)",
+      "slug": "lord-of-griffins-roost",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-griffins-roost.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 351
+    },
+    {
+      "raw_name": "Triarch (ruling office of Volantis — Nyessos, Malaquo)",
+      "slug": "triarch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 352
+    },
+    {
+      "raw_name": "Septa (Lemore's title)",
+      "slug": "septa",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/septa.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 353
+    },
+    {
+      "raw_name": "Prince (Young Griff's true rank; Rhaegar's title)",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 354
+    },
+    {
+      "raw_name": "King (referenced — \"the new king\" to whom Tywin presented the corpses)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 355
+    },
+    {
+      "raw_name": "Kingfisher (another poleboat encountered in the fog)",
+      "slug": "kingfisher",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/kingfisher.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 358
+    },
+    {
+      "raw_name": "Mercy ships (galleys sent by Volantene triarchs to the Sorrows with provisions)",
+      "slug": "mercy-ships",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 359
+    }
+  ]
+}

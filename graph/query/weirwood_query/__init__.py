@@ -17,6 +17,9 @@ Modules:
   search        — BM25-ish content search over quotes/identity blurbs (step 5b)
   list_nodes    — browse surface over one node category (step 5d)
   corpus_search — CLI-only grep-class full-text scan over sources/chapters/ (step 5e)
+  themes        — `theme` op over the build-time theme->members table (step 8a)
+  mentions      — `mentions` op over graph/index/ chapter-mention rollups (step 8b;
+                  reads the LIVE (possibly stale) index — see that module's docstring)
   report        — the legacy node-inspection report (`## Edges` prose + inbound refs)
   cli           — `weirwood query …` argparse entry point
 """
@@ -26,11 +29,13 @@ from . import (
     corpus_search,
     list_nodes,
     load,
+    mentions,
     model,
     normalize,
     report,
     resolve,
     search,
+    themes,
     traverse,
 )
 
@@ -39,10 +44,12 @@ __all__ = [
     "corpus_search",
     "list_nodes",
     "load",
+    "mentions",
     "model",
     "normalize",
     "report",
     "resolve",
     "search",
+    "themes",
     "traverse",
 ]

@@ -5,20 +5,25 @@
 // keys `log/YYYY-MM-DD/<uuid>` — see DEPLOY.md + read-logs.ts) for every `resolve`
 // tool call a real visitor's turn made, and aggregates a ranked alias-backfill queue.
 //
-// IMPORTANT — logging-gap finding (see report + return summary): the persisted
-// TurnLog.toolTrace is `{tool, input}` ONLY (chat.ts / agent.ts AgentResult —
-// `toolTrace.push({ tool: tu.name, input: tu.input })`, no result/output field).
-// The resolve() OUTCOME (hit / fuzzy / miss, score, candidates) is therefore NOT
-// persisted anywhere in the log record. The live SSE `receipt` event does carry the
-// result, but that only reaches the browser — it's never written to Blobs.
+// CLOSED (S190, step 5c): agent.ts's runAgent() now attaches a small `outcome`
+// slice (`{matchType, topSlug, score}` for resolve; `{matchType, topSlug,
+// resultCount}` for search_quotes — see `outcomeFor()` in agent.ts) to each
+// resolve/search_quotes toolTrace entry, so records logged going forward carry
+// the true outcome directly. This script PREFERS that logged outcome
+// (`fromLoggedOutcome()`) when present.
 //
-// This script works around the gap DETERMINISTICALLY rather than guessing from the
-// trace shape: it loads the SAME production bundle (web/data/, built by
-// build-chat-export.py) and re-runs the SAME resolve() the app used, phrase-for-
-// phrase, against it. That recovers the true outcome for every phrase AS OF the
-// bundle currently on disk (not necessarily bit-identical to whatever bundle build
-// was live the moment that turn ran, if the graph has since changed — see report
-// caveat). No LLM, no API spend, no network beyond the Blobs read.
+// Historical-gap finding (still relevant for records logged BEFORE the fix):
+// older persisted TurnLog.toolTrace entries are `{tool, input}` ONLY (no
+// `outcome` field), so the resolve() OUTCOME (hit / fuzzy / miss, score,
+// candidates) isn't recoverable from the record itself. For those, this script
+// falls back to the DETERMINISTIC reconstruction it always used: load the SAME
+// production bundle (web/data/, built by build-chat-export.py) and re-run the
+// SAME resolve() the app used, phrase-for-phrase, against it. That recovers
+// the outcome for every phrase AS OF the bundle currently on disk (not
+// necessarily bit-identical to whatever bundle was live the moment that turn
+// ran, if the graph has since changed — see report caveat, which now applies
+// only to the fallback path). No LLM, no API spend, no network beyond the
+// Blobs read.
 //
 //   NETLIFY_SITE_ID=… NETLIFY_AUTH_TOKEN=… \
 //     ~/.deno/bin/deno run -A --node-modules-dir=auto web/scripts/mine-resolve-misses.ts [--since YYYY-MM-DD]
@@ -45,9 +50,22 @@ const OUT_PATH = new URL("../../working/query-layer/resolve-misses.md", import.m
 
 // ---- Types for the persisted log record (mirrors chat.ts TurnLog) ----
 
+/** The small logged outcome slice agent.ts's `outcomeFor()` attaches to a
+ *  resolve()/search_quotes() toolTrace entry (query-layer step 5c, S190 — the
+ *  fix for this exact gap). Present on records logged after that change;
+ *  absent on older records, which fall back to the re-resolve reconstruction
+ *  below. */
+interface LoggedOutcome {
+  matchType: string;
+  topSlug: string | null;
+  score?: number;
+  resultCount?: number;
+}
+
 interface ToolTraceEntry {
   tool: string;
   input: Record<string, unknown>;
+  outcome?: LoggedOutcome;
 }
 
 interface TurnLog {
@@ -65,6 +83,9 @@ interface ResolveCallSite {
   question: string;
   timestamp: string;
   key: string;
+  /** Present when this call site's toolTrace entry already carries the
+   *  logged outcome (S190 fix) — preferred over re-resolving. */
+  loggedOutcome?: LoggedOutcome;
 }
 
 interface Outcome {
@@ -129,13 +150,16 @@ function extractResolveCalls(logs: TurnLog[], keys: string[]): ResolveCallSite[]
         question: rec.question ?? "",
         timestamp: rec.timestamp ?? "",
         key: keys[i] ?? "",
+        loggedOutcome: entry.outcome,
       });
     }
   });
   return out;
 }
 
-// ---- 3. Recover the true outcome deterministically: re-run production resolve() ----
+// ---- 3. Recover the outcome: PREFER the logged outcome (S190 fix); fall back
+// to re-running production resolve() against the current bundle for older
+// records that predate the fix (see the module header + report §Recommendation) ----
 
 function classify(candidates: ResolveCandidate[]): Outcome {
   if (candidates.length === 0) {
@@ -150,14 +174,34 @@ function classify(candidates: ResolveCandidate[]): Outcome {
   };
 }
 
+/** Convert a directly-logged outcome into the report's `Outcome` shape. The
+ *  logged record has no candidateCount for a miss/exact-vs-fuzzy tier beyond
+ *  what `matchType` already states, and never carries the full candidate
+ *  list (records stay small by design) — candidateCount is left at 1 for a
+ *  hit (we know there was at least a top candidate) or 0 for a miss, since
+ *  the exact count isn't persisted and re-resolving would defeat the point
+ *  of preferring the logged record. */
+function fromLoggedOutcome(logged: LoggedOutcome): Outcome {
+  if (logged.matchType === "miss" || logged.topSlug === null) {
+    return { kind: "miss", topSlug: null, topScore: null, candidateCount: 0 };
+  }
+  return {
+    kind: logged.matchType === "exact" ? "exact" : "fuzzy",
+    topSlug: logged.topSlug,
+    topScore: logged.score ?? null,
+    candidateCount: 1,
+  };
+}
+
 // ---- 4. Aggregate by normalized phrase ----
 
 function aggregate(calls: ResolveCallSite[], data: GraphData): Aggregate[] {
   const byNorm = new Map<string, Aggregate>();
   for (const call of calls) {
     const norm = normalize(call.phrase);
-    const candidates = resolve(call.phrase, data);
-    const outcome = classify(candidates);
+    const outcome = call.loggedOutcome
+      ? fromLoggedOutcome(call.loggedOutcome)
+      : classify(resolve(call.phrase, data));
     let agg = byNorm.get(norm);
     if (!agg) {
       agg = {
@@ -221,9 +265,10 @@ function renderReport(opts: {
   days: string[];
   turnsScanned: number;
   resolveCallsFound: number;
+  loggedOutcomeCount: number;
   aggregates: Aggregate[];
 }): string {
-  const { authOk, authError, since, days, turnsScanned, resolveCallsFound, aggregates } = opts;
+  const { authOk, authError, since, days, turnsScanned, resolveCallsFound, loggedOutcomeCount, aggregates } = opts;
   const rangeNote = days.length
     ? `${days[0]} .. ${days[days.length - 1]} (${days.length} day${days.length === 1 ? "" : "s"})`
     : "none";
@@ -260,24 +305,26 @@ function renderReport(opts: {
   );
   lines.push("");
 
-  lines.push("## Logging-gap finding — read before trusting the outcome column");
+  lines.push("## Logging-gap finding — CLOSED (S190, step 5c); read before trusting old rows");
   lines.push("");
   lines.push(
-    "The persisted `TurnLog.toolTrace` (chat.ts / agent.ts `AgentResult.toolTrace`) stores " +
-      "**`{tool, input}` only** — never the tool's result. `resolve()`'s actual return " +
-      "(hit/fuzzy/miss, score, candidate slugs) is therefore **not captured anywhere in the " +
-      "log record**; the live SSE `receipt` event carries it but only reaches the browser, " +
-      "never Blobs. This script recovers the true outcome **deterministically** by re-running " +
-      "the production `resolve()` (web/src/lib/resolve.ts) against the CURRENT `web/data/` " +
-      "bundle for every logged phrase — not by inferring it from trace shape. Two caveats " +
-      "follow from that: (1) if the graph/alias-map has changed since a given turn ran, the " +
-      "outcome shown here is the outcome AS OF THE CURRENT BUNDLE, not necessarily what the " +
-      "live app actually returned that day; (2) a `resolve` call followed immediately by a " +
-      "`read_node`/`walk_chain` on a DIFFERENT slug than the top candidate here (the model " +
-      "picked its own candidate from the list, or moved on to a different phrase) isn't " +
+    "`agent.ts`'s `runAgent()` now attaches a small `outcome` slice " +
+      "(`{matchType, topSlug, score}` for resolve; `{matchType, topSlug, resultCount}` for " +
+      "search_quotes — `outcomeFor()`) to each resolve/search_quotes `toolTrace` entry, so " +
+      `turns logged going forward carry the true outcome directly. Of the ${resolveCallsFound} ` +
+      `\`resolve\` call sites found this run, **${loggedOutcomeCount} carried a logged outcome** ` +
+      `(preferred, direct read) and ${resolveCallsFound - loggedOutcomeCount} predate the fix ` +
+      "(reconstructed by the fallback below). For those older records: the persisted " +
+      "`TurnLog.toolTrace` was `{tool, input}` only — never the tool's result — so this script " +
+      "recovers the outcome **deterministically** by re-running the production `resolve()` " +
+      "(web/src/lib/resolve.ts) against the CURRENT `web/data/` bundle for every logged phrase " +
+      "lacking a logged outcome. Two caveats apply ONLY to that fallback path: (1) if the " +
+      "graph/alias-map has changed since a given turn ran, the reconstructed outcome is AS OF " +
+      "THE CURRENT BUNDLE, not necessarily what the live app returned that day; (2) a `resolve` " +
+      "call followed immediately by a `read_node`/`walk_chain` on a DIFFERENT slug than the top " +
+      "candidate (the model picked its own candidate, or moved on to a different phrase) isn't " +
       "flagged — this report only re-derives resolve()'s own answer, not what the model did " +
-      "with it. **Recommendation:** log the resolve() result (or at minimum matchType + " +
-      "topSlug + score) directly in TurnLog going forward — see `## Recommendation` below.",
+      "with it.",
   );
   lines.push("");
 
@@ -290,13 +337,13 @@ function renderReport(opts: {
   }
   lines.push("");
 
-  lines.push("## Recommendation");
+  lines.push("## Recommendation — DONE");
   lines.push("");
   lines.push(
-    "Add `resolveOutcomes: Array<{phrase, matchType, topSlug, score, candidateCount}>` (or fold " +
-      "matchType/topSlug/score into each `toolTrace` entry) to `TurnLog` in chat.ts, populated from " +
-      "`harvestResult`'s already-available `dispatchTool` return for `resolve` calls specifically. " +
-      "That turns this proxy re-derivation into a direct read and removes both caveats above.",
+    "Previously: add matchType/topSlug/score to each `toolTrace` entry in `TurnLog`. This " +
+      "landed in agent.ts (`outcomeFor()`, wired into `runAgent()`'s toolTrace push) — the " +
+      "recommendation is satisfied for all turns logged from that change forward. No further " +
+      "action; this section stays as the historical record of the fix.",
   );
   lines.push("");
 
@@ -316,6 +363,7 @@ async function main() {
       days: [],
       turnsScanned: 0,
       resolveCallsFound: 0,
+      loggedOutcomeCount: 0,
       aggregates: [],
     });
     await Deno.writeTextFile(OUT_PATH, report);
@@ -326,6 +374,7 @@ async function main() {
 
   const days = [...new Set(logs.map((l) => (l.timestamp ?? "").slice(0, 10)))].filter(Boolean).sort();
   const calls = extractResolveCalls(logs, keys);
+  const loggedOutcomeCount = calls.filter((c) => c.loggedOutcome !== undefined).length;
 
   const data = await loadGraphData();
   const aggregates = aggregate(calls, data).sort(compareAggregates);
@@ -336,6 +385,7 @@ async function main() {
     days,
     turnsScanned: logs.length,
     resolveCallsFound: calls.length,
+    loggedOutcomeCount,
     aggregates,
   });
   await Deno.writeTextFile(OUT_PATH, report);

@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-07-04T21:33:40.626719+00:00",
+  "books_processed": [
+    "agot",
+    "acok",
+    "asos",
+    "affc",
+    "adwd"
+  ],
+  "source": "all-node-alias-lookup.json (hardened table, query-layer step 4)",
+  "chapters_processed": 344,
+  "total_mentions": 37222,
+  "resolved": 27348,
+  "direct": 23331,
+  "alias": 4017,
+  "unresolved": 9874,
+  "resolution_rate_pct": 73.5,
+  "top_unresolved": [
+    {
+      "slug": "joffrey",
+      "count": 47
+    },
+    {
+      "slug": "aegon",
+      "count": 27
+    },
+    {
+      "slug": "aerys-targaryen",
+      "count": 25
+    },
+    {
+      "slug": "great-pyramid-of-meereen",
+      "count": 24
+    },
+    {
+      "slug": "old-gods",
+      "count": 22
+    },
+    {
+      "slug": "lady-tanda",
+      "count": 22
+    },
+    {
+      "slug": "little-walder-frey",
+      "count": 22
+    },
+    {
+      "slug": "wildlings-free-folk",
+      "count": 20
+    },
+    {
+      "slug": "queen-selyse",
+      "count": 20
+    },
+    {
+      "slug": "big-walder-frey",
+      "count": 19
+    },
+    {
+      "slug": "gold-cloaks",
+      "count": 18
+    },
+    {
+      "slug": "winterfell-godswood",
+      "count": 18
+    },
+    {
+      "slug": "crossbow",
+      "count": 18
+    },
+    {
+      "slug": "the-old-gods",
+      "count": 17
+    },
+    {
+      "slug": "throne-room",
+      "count": 17
+    },
+    {
+      "slug": "the-inn",
+      "count": 17
+    },
+    {
+      "slug": "stables",
+      "count": 16
+    },
+    {
+      "slug": "lord-commander",
+      "count": 16
+    },
+    {
+      "slug": "king-tommen",
+      "count": 15
+    },
+    {
+      "slug": "king-robert",
+      "count": 14
+    }
+  ],
+  "top_ambiguous_phrases": [
+    {
+      "phrase": "pate",
+      "count": 13
+    },
+    {
+      "phrase": "giant",
+      "count": 7
+    },
+    {
+      "phrase": "ned",
+      "count": 3
+    },
+    {
+      "phrase": "merry",
+      "count": 3
+    },
+    {
+      "phrase": "lord brynden",
+      "count": 3
+    },
+    {
+      "phrase": "silent sister",
+      "count": 2
+    },
+    {
+      "phrase": "wull",
+      "count": 2
+    },
+    {
+      "phrase": "prince that was promised",
+      "count": 1
+    },
+    {
+      "phrase": "sam the slayer",
+      "count": 1
+    },
+    {
+      "phrase": "mummer's farce",
+      "count": 1
+    },
+    {
+      "phrase": "boy king",
+      "count": 1
+    }
+  ]
+}

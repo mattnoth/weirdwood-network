@@ -1,0 +1,682 @@
+{
+  "chapter_id": "agot-prologue",
+  "book": "agot",
+  "pov_character": "agot-prologue",
+  "generated_at": "2026-07-04T21:33:40.413446+00:00",
+  "extraction_path": "extractions/mechanical/agot/agot-prologue.extraction.md",
+  "stats": {
+    "total_mentions": 74,
+    "resolved_to_node": 33,
+    "direct": 20,
+    "alias": 13,
+    "unresolved": 41
+  },
+  "mentions": [
+    {
+      "raw_name": "Will",
+      "slug": "will",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/will.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ser Waymar Royce",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Gared",
+      "slug": "gared",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gared.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "The Others (multiple)",
+      "slug": "others",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Ser Waymar Royce (reanimated)",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Ser Waymar Royce",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Character Appearances",
+      "line": 36
+    },
+    {
+      "raw_name": "Gared",
+      "slug": "gared",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gared.node.md",
+      "section": "Character Appearances",
+      "line": 37
+    },
+    {
+      "raw_name": "Will",
+      "slug": "will",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/will.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "The Other (primary)",
+      "slug": "great-other",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/great-other.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Ser Waymar Royce (reanimated)",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Mormont (the Old Bear)",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Robert (King Robert)",
+      "slug": "robert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Will's mother",
+      "slug": "wills-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Royce's wet nurse",
+      "slug": "royces-wet-nurse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Gared's brother",
+      "slug": "gareds-brother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Mallister freeriders",
+      "slug": "mallister-freeriders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "The wildling raiders (eight, unnamed)",
+      "slug": "the-wildling-raiders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "The haunted forest (beyond the Wall)",
+      "slug": "haunted-forest",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
+      "section": "Locations",
+      "line": 57
+    },
+    {
+      "raw_name": "Wildling campsite (clearing with lean-to, firepit, stream, great rock)",
+      "slug": "wildling-campsite",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 58
+    },
+    {
+      "raw_name": "The ridge / sentinel tree",
+      "slug": "the-ridge-sentinel-tree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 59
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 60
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "The Mallisters' woods",
+      "slug": "the-mallisters-woods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "The haunted forest",
+      "slug": "haunted-forest",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
+      "section": "Location Descriptions",
+      "line": 67
+    },
+    {
+      "raw_name": "Wildling campsite (clearing)",
+      "slug": "wildling-campsite",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 68
+    },
+    {
+      "raw_name": "Ser Waymar's longsword",
+      "slug": "ser-waymars-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 73
+    },
+    {
+      "raw_name": "The Other's crystal sword",
+      "slug": "the-others-crystal-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 74
+    },
+    {
+      "raw_name": "The Others' pale swords (multiple)",
+      "slug": "the-others-pale-swords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 75
+    },
+    {
+      "raw_name": "Wildling's double-bladed battle-axe",
+      "slug": "wildlings-double-bladed-battle-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 76
+    },
+    {
+      "raw_name": "Gared's sword",
+      "slug": "gareds-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 77
+    },
+    {
+      "raw_name": "Will's dirk",
+      "slug": "wills-dirk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 78
+    },
+    {
+      "raw_name": "Ser Waymar's sable cloak",
+      "slug": "ser-waymars-sable-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 79
+    },
+    {
+      "raw_name": "The broken sword (remnant)",
+      "slug": "the-broken-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 80
+    },
+    {
+      "raw_name": "Will (POV; ranger, former poacher)",
+      "slug": "will",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/will.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 196
+    },
+    {
+      "raw_name": "Ser Waymar Royce (knight, ranger, youngest son of House Royce)",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 197
+    },
+    {
+      "raw_name": "Gared (man-at-arms, veteran ranger)",
+      "slug": "gared",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gared.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 198
+    },
+    {
+      "raw_name": "Gared's brother (mentioned — froze to death at his watch)",
+      "slug": "gareds-brother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 199
+    },
+    {
+      "raw_name": "Will's mother (mentioned — source of \"dead men sing no songs\" proverb)",
+      "slug": "wills-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 200
+    },
+    {
+      "raw_name": "Royce's wet nurse (mentioned)",
+      "slug": "royces-wet-nurse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 201
+    },
+    {
+      "raw_name": "Mormont / \"that old bear\" (mentioned — Lord Commander who ordered the ranging)",
+      "slug": "mormont-that-old-bear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 202
+    },
+    {
+      "raw_name": "Maester Aemon (mentioned — cut away Gared's ears)",
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 203
+    },
+    {
+      "raw_name": "Robert (mentioned — king, invoked in Royce's battle cry)",
+      "slug": "robert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 204
+    },
+    {
+      "raw_name": "The Others (multiple — at least five; pale beings with crystal swords)",
+      "slug": "others",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 205
+    },
+    {
+      "raw_name": "Ser Waymar Royce (reanimated — blue-eyed wight)",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "The haunted forest (beyond the Wall)",
+      "slug": "haunted-forest",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 209
+    },
+    {
+      "raw_name": "The wildling campsite (clearing with lean-to, firepit, stream, great rock)",
+      "slug": "the-wildling-campsite",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 210
+    },
+    {
+      "raw_name": "The ridge / sentinel tree vantage point",
+      "slug": "the-ridge-sentinel-tree-vantage-point",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 211
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 212
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 213
+    },
+    {
+      "raw_name": "The Mallisters' woods (Will's backstory)",
+      "slug": "the-mallisters-woods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 214
+    },
+    {
+      "raw_name": "House Royce (Ser Waymar's house — \"an ancient house with too many heirs\")",
+      "slug": "house-royce",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-royce.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 217
+    },
+    {
+      "raw_name": "House Mallister (mentioned — their freeriders caught Will poaching)",
+      "slug": "house-mallister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-mallister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 218
+    },
+    {
+      "raw_name": "Night's Watch (all three rangers are Sworn Brothers)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 221
+    },
+    {
+      "raw_name": "The nameless gods of the wood (Will whispers a prayer to them while climbing the sentinel tree)",
+      "slug": "the-nameless-gods-of-the-wood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 224
+    },
+    {
+      "raw_name": "Wildlings (the dead raiders being tracked; referenced as a general group)",
+      "slug": "free-folk",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/free-folk.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 227
+    },
+    {
+      "raw_name": "Southrons (referenced — what southerners call the haunted forest)",
+      "slug": "southron",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/southron.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 228
+    },
+    {
+      "raw_name": "Ser Waymar's longsword (castle-forged, jeweled hilt, new-made; shatters)",
+      "slug": "ser-waymars-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 231
+    },
+    {
+      "raw_name": "The Other's crystal sword (translucent, pale blue shimmer, non-human metal)",
+      "slug": "the-others-crystal-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 232
+    },
+    {
+      "raw_name": "The Others' pale swords (multiple, slice through ringmail like silk)",
+      "slug": "the-others-pale-swords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 233
+    },
+    {
+      "raw_name": "Wildling double-bladed battle-axe (heavy, cruel iron, remains at campsite)",
+      "slug": "wildling-double-bladed-battle-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 234
+    },
+    {
+      "raw_name": "Gared's sword (short, ugly, nicked, sweat-discolored)",
+      "slug": "gareds-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 235
+    },
+    {
+      "raw_name": "Will's dirk",
+      "slug": "wills-dirk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 236
+    },
+    {
+      "raw_name": "Ser Waymar's sable cloak",
+      "slug": "ser-waymars-sable-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 237
+    },
+    {
+      "raw_name": "Ser Waymar's black ringmail, moleskin gloves, leather boots",
+      "slug": "ser-waymars-black-ringmail-moleskin-gloves-leather-boots",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 238
+    },
+    {
+      "raw_name": "The broken sword remnant (Will's intended proof)",
+      "slug": "the-broken-sword-remnant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 239
+    },
+    {
+      "raw_name": "The Others (supernatural beings with crystal swords, color-shifting armor, ice-cold presence, unknown language)",
+      "slug": "others",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 245
+    },
+    {
+      "raw_name": "Reanimation of the dead (Ser Waymar rises with burning blue eyes after being killed by the Others)",
+      "slug": "reanimation-of-the",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 246
+    },
+    {
+      "raw_name": "The Other's crystal blade (non-human metal, shatters steel, alive with moonlight and pale blue light)",
+      "slug": "the-others-crystal-blade",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 247
+    },
+    {
+      "raw_name": "Supernatural cold (intensifying cold accompanying the Others' presence; \"Why is it so cold?\")",
+      "slug": "supernatural-cold",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 248
+    },
+    {
+      "raw_name": "The feeling of being watched (\"something cold and implacable that loved him not\")",
+      "slug": "the-feeling-of-being-watched",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 249
+    },
+    {
+      "raw_name": "Ser (knightly title — Ser Waymar Royce)",
+      "slug": "ser",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/ser.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 255
+    },
+    {
+      "raw_name": "Lord Commander (implied — Mormont referred to by name giving orders; title not explicitly stated in this chapter)",
+      "slug": "lord-commander",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 256
+    },
+    {
+      "raw_name": "Maester (Maester Aemon)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 257
+    }
+  ]
+}

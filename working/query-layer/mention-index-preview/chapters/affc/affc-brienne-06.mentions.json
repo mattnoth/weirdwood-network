@@ -1,0 +1,1798 @@
+{
+  "chapter_id": "affc-brienne-06",
+  "book": "affc",
+  "pov_character": "brienne",
+  "generated_at": "2026-07-04T21:33:40.539364+00:00",
+  "extraction_path": "extractions/mechanical/affc/affc-brienne-06.extraction.md",
+  "stats": {
+    "total_mentions": 198,
+    "resolved_to_node": 131,
+    "direct": 93,
+    "alias": 38,
+    "unresolved": 67
+  },
+  "mentions": [
+    {
+      "raw_name": "Brienne",
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Septon Meribald",
+      "slug": "meribald",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meribald.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Dog",
+      "slug": "dog",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dog.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Podrick Payne",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Ser Hyle Hunt",
+      "slug": "hyle-hunt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hyle-hunt.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Brother Narbert",
+      "slug": "brother-narbert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Brother Gillam",
+      "slug": "brother-gillam",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Elder Brother",
+      "slug": "elder-brother",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/elder-brother.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "The gravedigger (novice)",
+      "slug": "gravedigger",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gravedigger.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Driftwood (Stranger)",
+      "slug": "stranger-horse",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stranger-horse.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Brienne",
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Septon Meribald",
+      "slug": "meribald",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meribald.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Brother Gillam",
+      "slug": "brother-gillam",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Elder Brother",
+      "slug": "elder-brother",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/elder-brother.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "The gravedigger (novice)",
+      "slug": "gravedigger",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gravedigger.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Brother Narbert",
+      "slug": "brother-narbert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Three greeting brothers",
+      "slug": "three-greeting-brothers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Ser Quincy Cox",
+      "slug": "quincy-cox",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quincy-cox.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Brother Clement",
+      "slug": "brother-clement",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Septon Bennet",
+      "slug": "bennet",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bennet.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Masha Heddle",
+      "slug": "masha-heddle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/masha-heddle.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Prince Rhaegar",
+      "slug": "prince-rhaegar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Robert (Baratheon)",
+      "slug": "robert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Prince Joffrey",
+      "slug": "prince-joffrey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Prince Oberyn of Dorne",
+      "slug": "prince-oberyn-of-dorne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Ser Gregor Clegane",
+      "slug": "gregor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gregor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "A new young lord in Darry",
+      "slug": "a-new-young-lord-in-darry",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Brienne's father (Lord Selwyn Tarth, not named)",
+      "slug": "briennes-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Galladon",
+      "slug": "galladon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Alysanne",
+      "slug": "alysanne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alysanne.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Arianne",
+      "slug": "arianne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Red Ronnet (Connington)",
+      "slug": "ronnet-connington",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ronnet-connington.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Lord Renly",
+      "slug": "lord-renly",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lord-renly.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Margaery Tyrell",
+      "slug": "margaery-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/margaery-tyrell.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Lady Catelyn",
+      "slug": "lady-catelyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Jaime (Lannister)",
+      "slug": "jaime",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Vargo Hoat",
+      "slug": "vargo-hoat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/vargo-hoat.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Nimble Dick",
+      "slug": "dick-crabb",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dick-crabb.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Timeon",
+      "slug": "timeon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/timeon.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Brother Rawney",
+      "slug": "brother-rawney",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "The silent sisters",
+      "slug": "silent-sisters",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "The Quiet Isle",
+      "slug": "quiet-isle",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/quiet-isle.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Bay of Crabs",
+      "slug": "bay-of-crabs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-crabs.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "The Trident (river)",
+      "slug": "trident",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Saltpans",
+      "slug": "saltpans",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltpans.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "The mudflats / Path of Faith",
+      "slug": "the-mudflats-path-of-faith",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "The stable",
+      "slug": "the-stable",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "The Hermit's Hole",
+      "slug": "the-hermits-hole",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "The sept",
+      "slug": "sept",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sept.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "The common hall",
+      "slug": "common-hall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/common-hall.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "The cloisters",
+      "slug": "the-cloisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "The women's cottages",
+      "slug": "the-womens-cottages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "The lichyard",
+      "slug": "lichyard",
+      "resolved_via": "alias",
+      "node_type": "concept.custom",
+      "node_path": "graph/nodes/customs/lichyard.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "The summer arbor",
+      "slug": "the-summer-arbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Saltpans castle",
+      "slug": "saltpans-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Crossroads inn",
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Maidenpool",
+      "slug": "maidenpool",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenpool.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Darry",
+      "slug": "darry",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/darry.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Bitterbridge",
+      "slug": "bitterbridge",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bitterbridge.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Crackclaw Point",
+      "slug": "crackclaw-point",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crackclaw-point.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "The Whispers",
+      "slug": "whispers",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whispers.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "The Quiet Isle",
+      "slug": "quiet-isle",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/quiet-isle.node.md",
+      "section": "Location Descriptions",
+      "line": 115
+    },
+    {
+      "raw_name": "The mudflats (Path of Faith)",
+      "slug": "the-mudflats",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 116
+    },
+    {
+      "raw_name": "The Hermit's Hole",
+      "slug": "the-hermits-hole",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 117
+    },
+    {
+      "raw_name": "The stable",
+      "slug": "the-stable",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 118
+    },
+    {
+      "raw_name": "The sept",
+      "slug": "sept",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sept.node.md",
+      "section": "Location Descriptions",
+      "line": 119
+    },
+    {
+      "raw_name": "The women's cottages",
+      "slug": "the-womens-cottages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 120
+    },
+    {
+      "raw_name": "Saltpans",
+      "slug": "saltpans",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltpans.node.md",
+      "section": "Location Descriptions",
+      "line": 121
+    },
+    {
+      "raw_name": "Oathkeeper",
+      "slug": "oathkeeper",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/oathkeeper.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Rhaegar's rubies",
+      "slug": "rhaegars-rubies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "The Hound's helm",
+      "slug": "hound-helm",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hound-helm.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Driftwood furniture (cups, table, settle, chairs)",
+      "slug": "driftwood-furniture",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Septon Meribald's quarterstaff",
+      "slug": "septon-meribalds-quarterstaff",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "The rainbow cloak",
+      "slug": "the-rainbow-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Brienne of Tarth (Brienne, Lady Brienne, the Maid of Tarth)",
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "Septon Meribald",
+      "slug": "meribald",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meribald.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "Dog (Meribald's dog)",
+      "slug": "dog",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dog.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Podrick Payne",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Ser Hyle Hunt",
+      "slug": "hyle-hunt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hyle-hunt.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Brother Narbert",
+      "slug": "brother-narbert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Brother Gillam",
+      "slug": "brother-gillam",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Elder Brother",
+      "slug": "elder-brother",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/elder-brother.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 311
+    },
+    {
+      "raw_name": "The gravedigger (novice, unnamed)",
+      "slug": "gravedigger",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gravedigger.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 312
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 313
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 314
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 315
+    },
+    {
+      "raw_name": "Ser Quincy Cox",
+      "slug": "quincy-cox",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quincy-cox.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 316
+    },
+    {
+      "raw_name": "Brother Clement",
+      "slug": "brother-clement",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 317
+    },
+    {
+      "raw_name": "Septon Bennet",
+      "slug": "bennet",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bennet.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 318
+    },
+    {
+      "raw_name": "Masha Heddle",
+      "slug": "masha-heddle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/masha-heddle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 319
+    },
+    {
+      "raw_name": "Prince Rhaegar (Targaryen)",
+      "slug": "prince-rhaegar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 320
+    },
+    {
+      "raw_name": "Robert (Baratheon)",
+      "slug": "robert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 321
+    },
+    {
+      "raw_name": "Prince Joffrey",
+      "slug": "prince-joffrey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 322
+    },
+    {
+      "raw_name": "Prince Oberyn of Dorne",
+      "slug": "prince-oberyn-of-dorne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 323
+    },
+    {
+      "raw_name": "Ser Gregor Clegane",
+      "slug": "gregor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gregor-clegane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 324
+    },
+    {
+      "raw_name": "Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 325
+    },
+    {
+      "raw_name": "Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 326
+    },
+    {
+      "raw_name": "A new young lord in Darry (unnamed)",
+      "slug": "a-new-young-lord-in-darry",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 327
+    },
+    {
+      "raw_name": "Brienne's father (unnamed, Lord Selwyn Tarth implied)",
+      "slug": "briennes-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 328
+    },
+    {
+      "raw_name": "Galladon (Brienne's brother)",
+      "slug": "galladon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 329
+    },
+    {
+      "raw_name": "Alysanne (Brienne's sister)",
+      "slug": "alysanne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alysanne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 330
+    },
+    {
+      "raw_name": "Arianne (Brienne's sister)",
+      "slug": "arianne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 331
+    },
+    {
+      "raw_name": "Red Ronnet (Connington)",
+      "slug": "ronnet-connington",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ronnet-connington.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 332
+    },
+    {
+      "raw_name": "Lord Renly",
+      "slug": "lord-renly",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lord-renly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 333
+    },
+    {
+      "raw_name": "Margaery Tyrell",
+      "slug": "margaery-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/margaery-tyrell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 334
+    },
+    {
+      "raw_name": "Lady Catelyn",
+      "slug": "lady-catelyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 335
+    },
+    {
+      "raw_name": "Jaime (Lannister)",
+      "slug": "jaime",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 336
+    },
+    {
+      "raw_name": "Vargo Hoat",
+      "slug": "vargo-hoat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/vargo-hoat.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 337
+    },
+    {
+      "raw_name": "Nimble Dick",
+      "slug": "dick-crabb",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dick-crabb.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 338
+    },
+    {
+      "raw_name": "Timeon (Dornish sellsword, Brave Companion)",
+      "slug": "timeon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/timeon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 339
+    },
+    {
+      "raw_name": "Brother Rawney",
+      "slug": "brother-rawney",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 340
+    },
+    {
+      "raw_name": "Driftwood / Stranger (Sandor Clegane's warhorse)",
+      "slug": "driftwood-stranger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 341
+    },
+    {
+      "raw_name": "The Elder Brother's donkey (Meribald's donkey)",
+      "slug": "the-elder-brothers-donkey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 342
+    },
+    {
+      "raw_name": "The Quiet Isle (septry)",
+      "slug": "quiet-isle",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/quiet-isle.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 345
+    },
+    {
+      "raw_name": "Bay of Crabs",
+      "slug": "bay-of-crabs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-crabs.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 346
+    },
+    {
+      "raw_name": "The Trident (river mouth)",
+      "slug": "trident",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 347
+    },
+    {
+      "raw_name": "Saltpans",
+      "slug": "saltpans",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltpans.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 348
+    },
+    {
+      "raw_name": "Saltpans castle",
+      "slug": "saltpans-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 349
+    },
+    {
+      "raw_name": "The mudflats / Path of Faith",
+      "slug": "the-mudflats-path-of-faith",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 350
+    },
+    {
+      "raw_name": "The stable (Quiet Isle)",
+      "slug": "the-stable",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 351
+    },
+    {
+      "raw_name": "The Hermit's Hole",
+      "slug": "the-hermits-hole",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 352
+    },
+    {
+      "raw_name": "The sept (Quiet Isle)",
+      "slug": "sept",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sept.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 353
+    },
+    {
+      "raw_name": "The common hall (Quiet Isle)",
+      "slug": "common-hall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/common-hall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 354
+    },
+    {
+      "raw_name": "The cloisters (Quiet Isle)",
+      "slug": "the-cloisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 355
+    },
+    {
+      "raw_name": "The women's cottages (Quiet Isle)",
+      "slug": "the-womens-cottages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 356
+    },
+    {
+      "raw_name": "The lichyard (Quiet Isle)",
+      "slug": "lichyard",
+      "resolved_via": "alias",
+      "node_type": "concept.custom",
+      "node_path": "graph/nodes/customs/lichyard.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 357
+    },
+    {
+      "raw_name": "The summer arbor (Quiet Isle)",
+      "slug": "the-summer-arbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 358
+    },
+    {
+      "raw_name": "The crossroads inn",
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 359
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 360
+    },
+    {
+      "raw_name": "Maidenpool",
+      "slug": "maidenpool",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenpool.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 361
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 362
+    },
+    {
+      "raw_name": "Darry",
+      "slug": "darry",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/darry.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 363
+    },
+    {
+      "raw_name": "Bitterbridge",
+      "slug": "bitterbridge",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bitterbridge.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 364
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 365
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 366
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 367
+    },
+    {
+      "raw_name": "Crackclaw Point",
+      "slug": "crackclaw-point",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crackclaw-point.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 368
+    },
+    {
+      "raw_name": "The Whispers",
+      "slug": "whispers",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whispers.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 369
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 370
+    },
+    {
+      "raw_name": "The Reach (Ser Hyle's origin)",
+      "slug": "reach",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/reach.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 371
+    },
+    {
+      "raw_name": "The westerlands (Podrick's origin)",
+      "slug": "westerlands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westerlands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 372
+    },
+    {
+      "raw_name": "House Stark (Stark — mentioned in context of dead buried on isle and Sansa/Arya)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 375
+    },
+    {
+      "raw_name": "House Lannister (Lannister — mentioned in context of dead buried on isle; \"the lions\" who hanged Masha Heddle)",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 376
+    },
+    {
+      "raw_name": "House Blackwood (dead buried on isle)",
+      "slug": "house-blackwood",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-blackwood.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 377
+    },
+    {
+      "raw_name": "House Bracken (dead buried on isle)",
+      "slug": "house-bracken",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-bracken.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 378
+    },
+    {
+      "raw_name": "House Frey (dead buried on isle; Walder Frey hunting outlaws)",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 379
+    },
+    {
+      "raw_name": "House Darry (dead buried on isle; new lord at Darry)",
+      "slug": "house-darry",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-darry.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 380
+    },
+    {
+      "raw_name": "House Tarth (Brienne's house, implied)",
+      "slug": "house-tarth",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tarth.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 381
+    },
+    {
+      "raw_name": "House Clegane (Sandor and Gregor)",
+      "slug": "house-clegane",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-clegane.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 382
+    },
+    {
+      "raw_name": "House Tyrell (Margaery Tyrell)",
+      "slug": "house-tyrell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tyrell.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 383
+    },
+    {
+      "raw_name": "House Targaryen (Prince Rhaegar, \"the dragon\")",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 384
+    },
+    {
+      "raw_name": "House Baratheon (Robert, \"the stag\")",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 385
+    },
+    {
+      "raw_name": "House Connington (Red Ronnet implied)",
+      "slug": "house-connington",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-connington.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 386
+    },
+    {
+      "raw_name": "House Tarly (Randyll Tarly)",
+      "slug": "house-tarly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tarly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 387
+    },
+    {
+      "raw_name": "House Cox (Ser Quincy Cox)",
+      "slug": "house-cox",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-cox.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 388
+    },
+    {
+      "raw_name": "The Quiet Isle brotherhood (penitent brothers under vows of silence)",
+      "slug": "the-quiet-isle-brotherhood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 391
+    },
+    {
+      "raw_name": "The Brave Companions (Bloody Mummers — Timeon and Vargo Hoat were members)",
+      "slug": "brave-companions",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/brave-companions.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 392
+    },
+    {
+      "raw_name": "The outlaws/raiders at Saltpans (unnamed band wearing the Hound's helm)",
+      "slug": "the-outlaws-raiders-at-saltpans",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 393
+    },
+    {
+      "raw_name": "The silent sisters (referenced by Podrick)",
+      "slug": "silent-sisters",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 394
+    },
+    {
+      "raw_name": "Renly's Rainbow Guard (Brienne wore the rainbow cloak)",
+      "slug": "renlys-rainbow-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 395
+    },
+    {
+      "raw_name": "The Faith of the Seven (the Seven Above; the Father, the Mother, the Smith specifically named; the seven-sided steeple; The Seven-Pointed Star read aloud; vows of silence as devotion; the sept with doors carved with Mother and Father; prayer before meals; confession)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 398
+    },
+    {
+      "raw_name": "Rivermen (corpses washing up)",
+      "slug": "rivermen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/rivermen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 401
+    },
+    {
+      "raw_name": "Westermen (corpses washing up)",
+      "slug": "westermen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/westermen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 402
+    },
+    {
+      "raw_name": "Northmen (corpses washing up)",
+      "slug": "northmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/northmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 403
+    },
+    {
+      "raw_name": "Dornishmen (Timeon called \"the Dornishman\"; Prince Oberyn \"of Dorne\")",
+      "slug": "dornishmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dornishmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 404
+    },
+    {
+      "raw_name": "Fisherfolk (of Saltpans, who fled to Maidenpool)",
+      "slug": "fisherfolk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 405
+    },
+    {
+      "raw_name": "Oathkeeper (Brienne's Valyrian steel sword, named by Jaime)",
+      "slug": "oathkeeper",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/oathkeeper.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 408
+    },
+    {
+      "raw_name": "Rhaegar's rubies (six found on the Quiet Isle, seventh awaited)",
+      "slug": "rhaegars-rubies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 409
+    },
+    {
+      "raw_name": "The Hound's helm (placed on Clegane's cairn, stolen by a wayfarer)",
+      "slug": "hound-helm",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hound-helm.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 410
+    },
+    {
+      "raw_name": "Driftwood furniture (cups, table, settle, chest, chairs — all in the Hermit's Hole)",
+      "slug": "driftwood-furniture",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 411
+    },
+    {
+      "raw_name": "Septon Meribald's quarterstaff",
+      "slug": "septon-meribalds-quarterstaff",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 412
+    },
+    {
+      "raw_name": "The rainbow cloak (Brienne's from Renly's guard)",
+      "slug": "the-rainbow-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 413
+    },
+    {
+      "raw_name": "Silver cups, iron pots, sacks of wool, bolts of silk, rusted helms, shining swords (items washed up on the isle)",
+      "slug": "silver-cups-iron-pots-sacks-of-wool-bolts-of-silk-rusted-helms-shining-swords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 414
+    },
+    {
+      "raw_name": "The Seven-Pointed Star (read aloud by proctors during supper)",
+      "slug": "the-seven-pointed-star",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-seven-pointed-star.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 417
+    },
+    {
+      "raw_name": "The shadow in the king's pavilion (referenced in Brienne's outpouring — the shadow that killed Renly)",
+      "slug": "the-shadow-in-the-kings-pavilion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 420
+    },
+    {
+      "raw_name": "The Battle of the Trident (Elder Brother fought and \"died\" there; Rhaegar vs. Robert; rubies from Rhaegar's armor)",
+      "slug": "battle-of-the-trident",
+      "resolved_via": "alias",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-trident.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 423
+    },
+    {
+      "raw_name": "Robert's Rebellion (implied — the Battle of the Trident is part of it; \"the dragon rather than the stag\")",
+      "slug": "roberts-rebellion",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/roberts-rebellion.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 424
+    },
+    {
+      "raw_name": "The War of the Five Kings (implied — \"the wars are ending\"; corpses of Stark, Lannister, Blackwood, Bracken, Frey, Darry washing up; general devastation of the riverlands)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 425
+    },
+    {
+      "raw_name": "The sack of Saltpans (raiders wearing the Hound's helm burned the town, killed and raped townsfolk)",
+      "slug": "the-sack-of-saltpans",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 426
+    },
+    {
+      "raw_name": "The mêlée at Bitterbridge (referenced in Brienne's outpouring)",
+      "slug": "the-m-l-e-at-bitterbridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 427
+    },
+    {
+      "raw_name": "Elder Brother (leader of the Quiet Isle)",
+      "slug": "elder-brother",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/elder-brother.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 430
+    },
+    {
+      "raw_name": "Proctor (speaking brothers of the order — one day in seven)",
+      "slug": "proctor",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/proctor.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 431
+    },
+    {
+      "raw_name": "Septon (Meribald; Bennet)",
+      "slug": "septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/septon.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 432
+    },
+    {
+      "raw_name": "Knight (Ser Hyle Hunt; Ser Quincy Cox; the Elder Brother formerly; Brienne called \"warrior maid\")",
+      "slug": "knight",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 433
+    },
+    {
+      "raw_name": "Prince (Rhaegar, Joffrey, Oberyn)",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 434
+    },
+    {
+      "raw_name": "Lord (Renly; Walder Frey; new lord in Darry; Brienne's father)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 435
+    },
+    {
+      "raw_name": "Lady (Brienne; Catelyn)",
+      "slug": "lady",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lady.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 436
+    }
+  ]
+}

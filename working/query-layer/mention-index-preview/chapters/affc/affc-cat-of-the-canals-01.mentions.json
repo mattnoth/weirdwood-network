@@ -1,0 +1,1087 @@
+{
+  "chapter_id": "affc-cat-of-the-canals-01",
+  "book": "affc",
+  "pov_character": "cat-of-the-canals",
+  "generated_at": "2026-07-04T21:33:40.541299+00:00",
+  "extraction_path": "extractions/mechanical/affc/affc-cat-of-the-canals-01.extraction.md",
+  "stats": {
+    "total_mentions": 119,
+    "resolved_to_node": 88,
+    "direct": 64,
+    "alias": 24,
+    "unresolved": 31
+  },
+  "mentions": [
+    {
+      "raw_name": "Cat of the Canals / Arya Stark",
+      "slug": "cat-of-the-canals-arya-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Brusco",
+      "slug": "brusco",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brusco.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Talea",
+      "slug": "talea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/talea.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Brea",
+      "slug": "brea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brea.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Brusco's sons",
+      "slug": "bruscos-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "The kindly man",
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Tagganaro",
+      "slug": "tagganaro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tagganaro.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Casso, King of Seals",
+      "slug": "casso-king-of-seals",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Little Narbo",
+      "slug": "little-narbo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/little-narbo.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Merry (Meralyn)",
+      "slug": "meralyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meralyn.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Lanna",
+      "slug": "lanna",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lanna.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Yna",
+      "slug": "yna",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yna.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "The Sailor's Wife",
+      "slug": "sailors-wife",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sailors-wife.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Joss the Gloom",
+      "slug": "joss-the-gloom",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joss-the-gloom.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Myrmello",
+      "slug": "myrmello",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/myrmello.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "The waif",
+      "slug": "waif",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waif.node.md",
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Umma",
+      "slug": "umma",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/umma.node.md",
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Red Roggo",
+      "slug": "red-roggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/red-roggo.node.md",
+      "section": "Characters Present",
+      "line": 45
+    },
+    {
+      "raw_name": "Cossomo the Conjurer",
+      "slug": "cossomo-the-conjurer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cossomo-the-conjurer.node.md",
+      "section": "Characters Present",
+      "line": 46
+    },
+    {
+      "raw_name": "Gyloro Dothare",
+      "slug": "gyloro-dothare",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gyloro-dothare.node.md",
+      "section": "Characters Present",
+      "line": 47
+    },
+    {
+      "raw_name": "Gyleno",
+      "slug": "gyleno",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 48
+    },
+    {
+      "raw_name": "Quill",
+      "slug": "quill",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quill.node.md",
+      "section": "Characters Present",
+      "line": 49
+    },
+    {
+      "raw_name": "Cat of the Canals / Arya Stark",
+      "slug": "cat-of-the-canals-arya-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Talea",
+      "slug": "talea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/talea.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "Lanna",
+      "slug": "lanna",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lanna.node.md",
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "The freckled boy (Brazen Monkey sailor)",
+      "slug": "the-freckled-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "The Black Pearl (Bellegere Otherys)",
+      "slug": "the-black-pearl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Bellonara",
+      "slug": "bellonara",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "The first Black Pearl (Bellegere)",
+      "slug": "the-first-black-pearl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Blind Beqqo",
+      "slug": "blind-beqqo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blind-beqqo.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Lotho Lornel",
+      "slug": "lotho-lornel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lotho-lornel.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Tradesman-Captain Moredo Prestayn",
+      "slug": "tradesman-captain-moredo-prestayn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "The Vixen",
+      "slug": "vixen",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/vixen.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Lady Lysa",
+      "slug": "lady-lysa",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "The little lord (of the Vale)",
+      "slug": "the-little-lord",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Sam (\"the fat one\")",
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "S'vrone",
+      "slug": "svrone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/svrone.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "The Drunken Daughter",
+      "slug": "drunken-daughter",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drunken-daughter.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Canker Jeyne",
+      "slug": "canker-jeyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/canker-jeyne.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Blushing Bethany",
+      "slug": "blushing-bethany",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blushing-bethany.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Assadora",
+      "slug": "assadora",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/assadora.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Terro",
+      "slug": "terro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/terro.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Orbelo",
+      "slug": "orbelo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/orbelo.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Ezzelyno",
+      "slug": "ezzelyno",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ezzelyno.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Eustace",
+      "slug": "eustace",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Quence",
+      "slug": "quence",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quence.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Allaquo",
+      "slug": "allaquo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/allaquo.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Sloey",
+      "slug": "sloey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sloey.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "The Poetess",
+      "slug": "poetess",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/poetess.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "The Moonshadow",
+      "slug": "moonshadow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moonshadow.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "The Merling Queen",
+      "slug": "merling-queen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/merling-queen.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "The Veiled Lady",
+      "slug": "veiled-lady",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/veiled-lady.node.md",
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "Lord Snow",
+      "slug": "jon-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "The Nightingale",
+      "slug": "nightingale",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/nightingale.node.md",
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Brea's boy",
+      "slug": "breas-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 91
+    },
+    {
+      "raw_name": "The waif's father",
+      "slug": "the-waifs-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 92
+    },
+    {
+      "raw_name": "The waif's stepmother",
+      "slug": "the-waifs-stepmother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 93
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Brusco's house",
+      "slug": "bruscos-house",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The Long Canal",
+      "slug": "long-canal",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/long-canal.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Palace of Truth",
+      "slug": "palace-of-truth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/palace-of-truth.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Towers of the Prestayns",
+      "slug": "towers-of-the-prestayns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Towers of the Antaryons",
+      "slug": "towers-of-the-antaryons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Silty Town",
+      "slug": "silty-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/silty-town.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "The fishmarket",
+      "slug": "the-fishmarket",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragmans-harbor.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Purple Harbor",
+      "slug": "purple-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/purple-harbor.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Moon Pool",
+      "slug": "moon-pool",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moon-pool.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Isle of the Gods",
+      "slug": "isle-of-the-gods",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-the-gods.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Drowned Town",
+      "slug": "drowned-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drowned-town.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Chequy Port",
+      "slug": "chequy-port",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chequy-port.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "The Happy Port",
+      "slug": "the-happy-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "The Ship",
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "The Blue Lantern",
+      "slug": "blue-lantern",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blue-lantern.node.md",
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "House of Black and White",
+      "slug": "house-of-black-and-white",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-black-and-white.node.md",
+      "section": "Locations",
+      "line": 115
+    },
+    {
+      "raw_name": "Inn of the Green Eel",
+      "slug": "inn-of-the-green-eel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-of-the-green-eel.node.md",
+      "section": "Locations",
+      "line": 116
+    },
+    {
+      "raw_name": "Sealord's Palace",
+      "slug": "sealords-palace",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sealords-palace.node.md",
+      "section": "Locations",
+      "line": 117
+    },
+    {
+      "raw_name": "The Spotted Cellar",
+      "slug": "the-spotted-cellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 118
+    },
+    {
+      "raw_name": "Sept-Beyond-the-Sea",
+      "slug": "sept-beyond-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sept-beyond-the-sea.node.md",
+      "section": "Locations",
+      "line": 119
+    },
+    {
+      "raw_name": "House of the Red Hands",
+      "slug": "house-of-the-red-hands",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-the-red-hands.node.md",
+      "section": "Locations",
+      "line": 120
+    },
+    {
+      "raw_name": "The Cattery",
+      "slug": "the-cattery",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 121
+    },
+    {
+      "raw_name": "House of Seven Lamps",
+      "slug": "house-of-seven-lamps",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-seven-lamps.node.md",
+      "section": "Locations",
+      "line": 122
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 123
+    },
+    {
+      "raw_name": "Gulltown",
+      "slug": "gulltown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gulltown.node.md",
+      "section": "Locations",
+      "line": 124
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 125
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Locations",
+      "line": 126
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 127
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Locations",
+      "line": 128
+    },
+    {
+      "raw_name": "Eastwatch",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Locations",
+      "line": 129
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 130
+    },
+    {
+      "raw_name": "The Vale",
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
+      "section": "Locations",
+      "line": 131
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 132
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 133
+    },
+    {
+      "raw_name": "Old Volantis",
+      "slug": "old-volantis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 134
+    },
+    {
+      "raw_name": "Port of Ibben",
+      "slug": "port-of-ibben",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/port-of-ibben.node.md",
+      "section": "Locations",
+      "line": 135
+    },
+    {
+      "raw_name": "Qohor",
+      "slug": "qohor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qohor.node.md",
+      "section": "Locations",
+      "line": 136
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Locations",
+      "line": 137
+    },
+    {
+      "raw_name": "Westeros",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Locations",
+      "line": 138
+    },
+    {
+      "raw_name": "The Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Locations",
+      "line": 139
+    },
+    {
+      "raw_name": "The Titan of Braavos",
+      "slug": "titan-of-braavos",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/titan-of-braavos.node.md",
+      "section": "Locations",
+      "line": 140
+    },
+    {
+      "raw_name": "Brusco's house",
+      "slug": "bruscos-house",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 145
+    },
+    {
+      "raw_name": "Palace of Truth",
+      "slug": "palace-of-truth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/palace-of-truth.node.md",
+      "section": "Location Descriptions",
+      "line": 146
+    },
+    {
+      "raw_name": "Towers of the Prestayns",
+      "slug": "towers-of-the-prestayns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 147
+    },
+    {
+      "raw_name": "Silty Town",
+      "slug": "silty-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/silty-town.node.md",
+      "section": "Location Descriptions",
+      "line": 148
+    },
+    {
+      "raw_name": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragmans-harbor.node.md",
+      "section": "Location Descriptions",
+      "line": 149
+    },
+    {
+      "raw_name": "Purple Harbor",
+      "slug": "purple-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/purple-harbor.node.md",
+      "section": "Location Descriptions",
+      "line": 150
+    },
+    {
+      "raw_name": "Drowned Town",
+      "slug": "drowned-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drowned-town.node.md",
+      "section": "Location Descriptions",
+      "line": 151
+    },
+    {
+      "raw_name": "The Ship",
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
+      "section": "Location Descriptions",
+      "line": 152
+    },
+    {
+      "raw_name": "House of Black and White",
+      "slug": "house-of-black-and-white",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-of-black-and-white.node.md",
+      "section": "Location Descriptions",
+      "line": 153
+    },
+    {
+      "raw_name": "Sealord's pleasure barge",
+      "slug": "sealords-pleasure-barge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 154
+    },
+    {
+      "raw_name": "Cat's finger knife",
+      "slug": "finger-knife",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/finger-knife.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 159
+    },
+    {
+      "raw_name": "Dareon's woodharp",
+      "slug": "dareons-woodharp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 160
+    },
+    {
+      "raw_name": "Dareon's boots",
+      "slug": "dareons-boots",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 161
+    },
+    {
+      "raw_name": "Iron lantern",
+      "slug": "iron-lantern",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 162
+    },
+    {
+      "raw_name": "Sweetsleep (poison)",
+      "slug": "sweetsleep",
+      "resolved_via": "direct",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/sweetsleep.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 163
+    },
+    {
+      "raw_name": "Tears of Lys (poison)",
+      "slug": "tears-of-lys",
+      "resolved_via": "direct",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/tears-of-lys.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 164
+    },
+    {
+      "raw_name": "Basilisk blood paste",
+      "slug": "basilisk-blood-paste",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 165
+    }
+  ]
+}

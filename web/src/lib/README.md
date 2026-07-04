@@ -21,6 +21,7 @@ network, no LLM. Pure functions over the in-memory bundle.
 | `read`     | `readNode(slug, data)`                              | `{name, type, category, identity, quotes}` or `null` | done | `read-node.ts` |
 | `search`   | `searchQuotes(query, data, opts?)`                 | ranked `SearchResult[]` (`{slug, type, text, cite, score}`) | done (query-layer step 5b) - no chat tool yet, see below | `search.ts` |
 | `list`     | `listNodes(data, opts)`                            | `ListResult` (`{category, total, items[]}`)    | done (query-layer step 5d) - no chat tool, gated on evals | `list.ts` |
+| `theme`    | `theme(name, data, opts?)` / `listThemes(data)`    | `ThemeResult` (`{theme, memberCount, members[]}`) / `ThemeSummary[]` | done (query-layer step 8a) - no chat tool yet, see below | `themes.ts` |
 | `corpus-search` / `passage` | -                                 | -                                               | CLI/full-profile only by design (`weirwood_query/corpus_search.py`); `passage` designed-but-gated | - |
 
 ## Files
@@ -39,6 +40,9 @@ network, no LLM. Pure functions over the in-memory bundle.
   (delta-encoded postings; decodes + reconstructs display text from the already-loaded
   `nodes.json` - see the file's own header comment for the exact wire format it decodes).
 - `list.ts` - `listNodes()`: browse one node category, optional quote filter, paged.
+- `themes.ts` - `theme()` / `listThemes()`: lookup over the build-time theme->members routing
+  table (`web/data/theme-index.json`, built by `graph/query/build/build_theme_index.py` -
+  query-layer step 8a). No ranking, no LLM - a fixed named-theme lookup.
 - `mod.ts` - public surface. `createTools(data)` binds the bundle into the tools above.
 - `*_test.ts` + `_fixtures.ts` + `spec_cases_test.ts` - Deno tests against the **real** bundle,
   plus the cross-language golden-case runner (`graph/query/spec/cases/*.json`).

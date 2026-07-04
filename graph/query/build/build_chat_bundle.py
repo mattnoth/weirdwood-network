@@ -227,6 +227,12 @@ def main():
     if search_index_path.exists():
         sizes["search-index.json"] = search_index_path.stat().st_size
 
+    # theme-index.json — same "measure, don't regenerate" pattern (query-layer
+    # step 8a's build/build_theme_index.py is the separate builder).
+    theme_index_path = out_dir / "theme-index.json"
+    if theme_index_path.exists():
+        sizes["theme-index.json"] = theme_index_path.stat().st_size
+
     quotes_total = sum(len(n["quotes"]) for n in nodes.values())
     nodes_with_quotes = sum(1 for n in nodes.values() if n["quotes"])
     manifest = {

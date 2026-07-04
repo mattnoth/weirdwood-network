@@ -2,7 +2,7 @@
 """run_evals.py — deterministic eval runner for the query-layer Track (step 3).
 
 Part of the query-layer Track (design: working/query-layer/design.md), session B.
-Reads the FIXED question set (questions.md's Q1-Q20 table, hand-transcribed as
+Reads the FIXED question set (questions.md's Q1-Q21 table, hand-transcribed as
 QUESTIONS below — see "Why the questions are inlined, not parsed" below) and scores
 retrieval outcomes against the LIVE artifacts at run time:
 
@@ -24,9 +24,19 @@ baseline-2026-07-04.md report (produced by `--report`), not this script.
 
 Usage:
     python3 working/query-layer/evals/run_evals.py            # print table to stdout
-    python3 working/query-layer/evals/run_evals.py --report   # also write the dated
-                                                                 baseline report file
+    python3 working/query-layer/evals/run_evals.py --report --out <path.md>
+                                                                # write a report file
+                                                                # (--out is REQUIRED with
+                                                                # --report -- see below)
     python3 working/query-layer/evals/run_evals.py --json     # machine-readable dump
+
+Why --out is required alongside --report (not a dated default anymore):
+    The original version of this script defaulted --report's output path to
+    `baseline-<today's date>.md`. That collided with the FROZEN baseline-2026-07-04.md
+    the first time this script was re-run on the same day (step 4's report almost
+    overwrote the baseline snapshot). --out now requires an explicit path every time --
+    e.g. `--out working/query-layer/evals/post-step5-2026-07-04.md` -- so there is no
+    silent-default path that can ever collide with a frozen snapshot again.
 
 Why the questions are inlined, not parsed from questions.md:
     questions.md is a hand-authored, narrative markdown table meant for human editing
@@ -53,13 +63,16 @@ sys.path.insert(0, str(QUERY_PKG))
 
 from weirwood_query import load as L  # noqa: E402
 from weirwood_query import resolve as R  # noqa: E402
+from weirwood_query import search as S  # noqa: E402
 from weirwood_query import traverse as T  # noqa: E402
 
 BUNDLE_DIR = REPO_ROOT / "web" / "data"
 EVALS_DIR = REPO_ROOT / "working" / "query-layer" / "evals"
+SEARCH_INDEX_PATH = BUNDLE_DIR / "search-index.json"  # same file search_quotes() reads (agent.ts)
+SEARCH_TOP_N = 12  # matches search_quotes()'s / weirwood_query.search's DEFAULT_LIMIT
 
 # ---------------------------------------------------------------------------
-# The fixed question set (mirrors working/query-layer/evals/questions.md Q1-Q20).
+# The fixed question set (mirrors working/query-layer/evals/questions.md Q1-Q21).
 # ---------------------------------------------------------------------------
 
 
@@ -236,10 +249,27 @@ QUESTIONS: list[Question] = [
         "Positive-control family_tree case (operations.md's own deep-main-line-"
         "spine verification anchor, 12 PARENT_OF hops).",
     ),
+    Question(
+        "Q21", "What was served at the Purple Wedding?", "thematic",
+        ["Purple Wedding"],
+        ["purple-wedding", "leche-of-brawn", "chickpea-paste",
+         "wedding-feast-at-the-red-keep"],
+        ["search", "read"],
+        "SERVED_AT board's settle-question (added session B step 5, post-step4 "
+        "gate task). Content-first control case for search_quotes: unlike Q11 "
+        "(zero key phrases, generic 'meals' framing), this question names the "
+        "event directly, so 'Purple Wedding' is both a resolve phrase AND a "
+        "strong search query. Verified live 2026-07-04: searching 'Purple "
+        "Wedding' against the bundle's compact search-index.json returns "
+        "purple-wedding at rank 1 and both named feast-dish nodes "
+        "(leche-of-brawn, chickpea-paste) and wedding-feast-at-the-red-keep in "
+        "the top 12. This is INFORMATION for the 8d trigger metric, not a gate "
+        "(see mission note) -- reported but not pass/failed.",
+    ),
 ]
 
-assert len(QUESTIONS) == 20, f"expected 20 questions, got {len(QUESTIONS)}"
-assert len({q.id for q in QUESTIONS}) == 20, "duplicate question id"
+assert len(QUESTIONS) == 21, f"expected 21 questions, got {len(QUESTIONS)}"
+assert len({q.id for q in QUESTIONS}) == 21, "duplicate question id"
 
 
 # ---------------------------------------------------------------------------
@@ -459,6 +489,38 @@ def classify_bounded(candidates: list[dict], target_slugs: list[str]) -> dict[st
 # ---------------------------------------------------------------------------
 
 
+def search_reachable(
+    query_text: str,
+    target_slugs: list[str],
+    search_index: dict[str, Any] | None,
+    bundle_nodes: dict[str, dict],
+    *,
+    top_n: int = SEARCH_TOP_N,
+) -> dict[str, Any]:
+    """Deterministically check whether search_quotes(query_text) -- the SAME
+    BM25-ish op the chat tool and `weirwood query search` both run over the
+    bundle's compact web/data/search-index.json -- surfaces any of a
+    question's target_slugs in its top `top_n` hits. This is not a heuristic
+    guess: it actually runs weirwood_query.search.search() against the live
+    index, exactly as the runtime would, and reports which target slugs
+    landed and at what rank. Empty/missing index -> unreachable (never
+    silently assumed reachable)."""
+    if search_index is None or not query_text:
+        return {"reachable": False, "hits": [], "top_slugs": [], "ranks": {}}
+    results = S.search(
+        query_text, index=search_index, limit=top_n, nodes_map=bundle_nodes,
+    )
+    top_slugs = [r["slug"] for r in results]
+    ranks = {slug: i + 1 for i, slug in enumerate(top_slugs)}
+    hits = [t for t in target_slugs if t in ranks]
+    return {
+        "reachable": len(hits) > 0,
+        "hits": hits,
+        "top_slugs": top_slugs,
+        "ranks": {t: ranks[t] for t in hits},
+    }
+
+
 def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) -> dict[str, Any]:
     per_slug = {}
     for slug in target_slugs:
@@ -478,17 +540,34 @@ def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) ->
 
 
 # ---------------------------------------------------------------------------
-# Estimated minimum tool calls under the bounded profile's CURRENT toolset
-# (resolve / read_node / walk_chain / neighbors / family_tree -- no search).
+# Estimated minimum tool calls under the bounded profile's CURRENT toolset:
+# resolve / read_node / walk_chain / neighbors / family_tree / search_quotes
+# (search_quotes shipped session B step 5 -- see routing table in
+# web/netlify/edge-functions/lib/agent.ts's SHARED_RULES; it is now a first-
+# class op, not a future/planned one).
 #
 # Heuristic (documented, mechanical, not vibes):
-#   1. If a question's `ops` list requires an op NOT in the current bounded
-#      toolset at all (search, list, theme, participants, path, container,
-#      expand-beats) AND no fallback via resolve+read/neighbors/chain/family_tree
-#      can plausibly answer it (per the question's own target-slug content
-#      reachability), the question is LOOP-BOUND (∞) -- the toolset structurally
+#   1. Content-first shortcut: if `search` search-reachable (per the
+#      DETERMINISTIC `search_reachable()` check above -- actually runs the
+#      question's key phrase(s) through the live bundle search index and
+#      checks the target slugs land in the top SEARCH_TOP_N, exactly like
+#      the runtime would) hits at least one target slug, the question costs
+#      1 search_quotes call, +1 read_node if the archetype needs to go deeper
+#      than the search hit's own text (thematic/researcher archetypes with
+#      >1 target slug, or quote-hunter archetypes wanting a node's full
+#      quote list rather than just the top search snippet). This REPLACES
+#      the old "no content-first op exists" loop-bound verdict for any
+#      question where search actually reaches the answer today -- it does
+#      NOT assume reachability; a thematic question whose literal phrasing
+#      does NOT reach its target slugs (verified empty hits) still falls
+#      through to the rules below and can still be loop-bound (see Q11).
+#   2. If a question's `ops` list requires an op NOT in the current bounded
+#      toolset at all (list, theme, participants, path, container,
+#      expand-beats -- NOT search, which is now available) AND no fallback
+#      via resolve+read/neighbors/chain/family_tree/search can plausibly
+#      answer it, the question is LOOP-BOUND (∞) -- the toolset structurally
 #      cannot reach the answer, regardless of how many calls are spent.
-#   2. Otherwise: 1 resolve call per DISTINCT key phrase that is needed (a
+#   3. Otherwise: 1 resolve call per DISTINCT key phrase that is needed (a
 #      question needing 2 entities needs 2 resolves), plus 1 read/neighbors/
 #      chain/family_tree call per resolved entity that must be inspected.
 #      - traversal questions needing a relationship between 2 resolved entities:
@@ -503,9 +582,10 @@ def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) ->
 #        proceed, or the question degrades to loop-bound if no phrase resolves
 #        at all. This adds +1 per missed phrase (a documented, mechanical retry
 #        cost) rather than silently assuming a free pass.
-#   3. A question with 0 key_phrases (Q11 -- the meals question, by design) is
-#      always loop-bound today -- there is no phrase to resolve at all.
-#   4. `family_tree`-shaped questions collapse to 1 relational call regardless
+#   4. A question with 0 key_phrases AND no search-reachable fallback (rule 1)
+#      is always loop-bound -- there is no phrase to resolve and no query text
+#      that reaches the answer via search either.
+#   5. `family_tree`-shaped questions collapse to 1 relational call regardless
 #      of how many downstream members are named (family_tree returns the whole
 #      tree in one call, per the design doc's own MANDATORY-tool framing).
 #
@@ -514,41 +594,78 @@ def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) ->
 # column stays GATED below).
 # ---------------------------------------------------------------------------
 
-# Ops available in the bounded profile's CURRENT chat toolset (5 tools, no search).
-BOUNDED_TOOLSET_OPS = {"resolve", "read", "neighbors", "chain", "family_tree"}
+# Ops available in the bounded profile's CURRENT chat toolset (6 tools,
+# including search_quotes as of session B step 5).
+BOUNDED_TOOLSET_OPS = {"resolve", "read", "neighbors", "chain", "family_tree", "search"}
+
+# Archetypes whose search hit still needs a follow-up read_node to go beyond
+# the search snippet itself (a thematic question naming several target slugs,
+# or a researcher claim-check that needs the full node, not just a snippet).
+_ARCHETYPES_WANTING_DEPTH_AFTER_SEARCH = {"thematic", "researcher"}
 
 
 def estimate_min_tool_calls(
     q: Question,
     bounded_resolve_by_phrase: dict[str, dict[str, Any]],
+    search_result: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    # Rule 3: no key phrase at all -> structurally loop-bound.
-    if not q.key_phrases:
-        return {"estimate": None, "loop_bound": True, "reason": "no key phrase to resolve"}
+    # Rule 1: content-first shortcut -- ONLY for questions whose own `ops` list
+    # names `search` as an answering path (the question author's judgment about
+    # which op family fits, from questions.md's "expected-answerable-via"
+    # column) -- e.g. Q11, Q15, Q21. This is deliberately NOT applied to every
+    # archetype: a traversal question like Q6 ("how are X and Y connected")
+    # can trivially search-hit on one of the two names mentioned in its own
+    # question text without that hit answering "how are they connected" at
+    # all -- co-occurrence in a search index is not the same as the question's
+    # real op need. Gating on `q.ops` keeps the shortcut honest.
+    if (
+        "search" in q.ops
+        and search_result is not None
+        and search_result.get("reachable")
+    ):
+        needs_depth = (
+            q.archetype in _ARCHETYPES_WANTING_DEPTH_AFTER_SEARCH
+            and len(q.target_slugs) > 1
+        )
+        total = 1 + (1 if needs_depth else 0)
+        return {
+            "estimate": total,
+            "loop_bound": False,
+            "reason": f"search_quotes hit ({', '.join(search_result['hits'])})"
+                      + (" + 1 read_node for depth" if needs_depth else ""),
+        }
 
-    # Rule 1: does this question fundamentally need an op outside the current
+    # Rule 4: no key phrase at all AND search doesn't reach either -> loop-bound.
+    if not q.key_phrases:
+        return {
+            "estimate": None,
+            "loop_bound": True,
+            "reason": "no key phrase to resolve, and search_quotes does not "
+                      "reach any target slug for this question's literal "
+                      "phrasing either (verified against the live bundle "
+                      "search index)",
+        }
+
+    # Rule 2: does this question fundamentally need an op outside the current
     # bounded toolset, with no reachable fallback?
     needs_unavailable_op = any(op not in BOUNDED_TOOLSET_OPS for op in q.ops)
     # "path" specifically has no bounded port (G-table); "participants",
-    # "theme", "search", "list", "container", "expand-beats" likewise absent.
-    # A fallback via neighbors/chain/family_tree is only plausible if the
-    # question's archetype is traversal/researcher AND at least one phrase hits.
+    # "theme", "list", "container", "expand-beats" likewise absent ("search"
+    # is now available, per BOUNDED_TOOLSET_OPS above). A fallback via
+    # neighbors/chain/family_tree is only plausible if at least one phrase hits.
     any_phrase_resolves = any(
         bounded_resolve_by_phrase[p]["outcome"] != "MISS" for p in q.key_phrases
     )
     if needs_unavailable_op and q.archetype == "thematic" and not any_phrase_resolves:
-        # thematic questions with an unavailable op (search/theme/list) AND no
-        # phrase that resolves at all have no fallback whatsoever -- content-first
-        # ops ARE the only possible answer path. (A thematic question where SOME
-        # phrase resolves today, e.g. Q16's "guest right", is scored under the
-        # normal resolve+read fallback below instead -- it is not loop-bound, it
-        # is just narrower/shallower than the eventual theme/search op would give.)
+        # thematic questions with an unavailable op (list/theme) AND no phrase
+        # that resolves AND no search hit (rule 1 already ruled out) have no
+        # fallback whatsoever.
         return {
             "estimate": None,
             "loop_bound": True,
-            "reason": "requires search/list/theme (not in bounded toolset); "
-                      "no key phrase resolves at all, so no resolve-shaped fallback "
-                      "either",
+            "reason": "requires list/theme (not in bounded toolset); no key "
+                      "phrase resolves, and search_quotes does not reach a "
+                      "target slug either",
         }
 
     # Count resolve calls: 1 per key phrase, +1 retry cost per phrase that misses.
@@ -563,11 +680,12 @@ def estimate_min_tool_calls(
             "estimate": None,
             "loop_bound": True,
             "reason": "every key phrase misses in the bounded profile; no entity "
-                      "to read/walk/neighbor from",
+                      "to read/walk/neighbor from, and search_quotes does not "
+                      "reach a target slug either",
             "resolve_calls_spent": resolve_calls,
         }
 
-    # Rule 2/4: +1 relational/read call once at least one entity resolved.
+    # Rule 3/5: +1 relational/read call once at least one entity resolved.
     relational_calls = 1
     total = resolve_calls + relational_calls
     return {"estimate": total, "loop_bound": False, "reason": "resolve(s) + one relational call"}
@@ -582,6 +700,7 @@ def score_question(
     q: Question,
     full: FullResolver,
     bounded: BoundedResolver,
+    search_index: dict[str, Any] | None,
 ) -> dict[str, Any]:
     full_resolve_by_phrase = {}
     for phrase in q.key_phrases:
@@ -594,7 +713,15 @@ def score_question(
         bounded_resolve_by_phrase[phrase] = classify_bounded(candidates, q.target_slugs)
 
     content = content_reachable(q.target_slugs, bounded.nodes)
-    tool_estimate = estimate_min_tool_calls(q, bounded_resolve_by_phrase)
+
+    # Search-reachability: run the question's OWN literal text through
+    # search_quotes' live bundle index -- the same query a model would pass
+    # verbatim if it followed the routing table's content-first instruction
+    # ("search_quotes directly... you don't need to resolve first"). This is
+    # a real search() call against the live index, not a guess.
+    search_result = search_reachable(q.text, q.target_slugs, search_index, bounded.nodes)
+
+    tool_estimate = estimate_min_tool_calls(q, bounded_resolve_by_phrase, search_result)
 
     return {
         "id": q.id,
@@ -607,6 +734,7 @@ def score_question(
         "resolve_full": full_resolve_by_phrase,
         "resolve_bounded": bounded_resolve_by_phrase,
         "content_reachable": content,
+        "search_reachable": search_result,
         "tool_estimate": tool_estimate,
         # Live-model columns -- GATED on Matt. Present, empty, documented.
         "live_model": {
@@ -628,9 +756,9 @@ def render_table(results: list[dict[str, Any]]) -> str:
     lines = []
     header = (
         "| id | archetype | resolve (full) | resolve (bounded) | content reachable | "
-        "min tool calls (bounded) | live-model (GATED) |"
+        "search reachable | min tool calls (bounded) | live-model (GATED) |"
     )
-    sep = "|---|---|---|---|---|---|---|"
+    sep = "|---|---|---|---|---|---|---|---|"
     lines.append(header)
     lines.append(sep)
     for r in results:
@@ -647,11 +775,15 @@ def render_table(results: list[dict[str, Any]]) -> str:
             f"exist={sum(1 for s in cr['per_slug'].values() if s['exists'])}/"
             f"{len(cr['per_slug'])}, quotes={'yes' if cr['any_with_quotes'] else 'no'}"
         )
+        sr = r["search_reachable"]
+        sr_summary = (
+            ("hit: " + ", ".join(sr["hits"]) if sr["hits"] else "MISS")
+        )
         te = r["tool_estimate"]
         te_summary = "∞ (loop-bound)" if te["loop_bound"] else str(te["estimate"])
         lines.append(
             f"| {r['id']} | {r['archetype']} | {full_summary} | {bounded_summary} | "
-            f"{cr_summary} | {te_summary} | (empty, gated) |"
+            f"{cr_summary} | {sr_summary} | {te_summary} | (empty, gated) |"
         )
     return "\n".join(lines)
 
@@ -742,9 +874,14 @@ def render_report(results: list[dict[str, Any]], summary: dict[str, Any]) -> str
         "character above the intended one (no candidate-length penalty; fix is step 4c). "
         "Not directly one of Q1–Q20's key phrases (all use fuller phrasings), but the "
         "same mechanism affects Q13's fuzzy fallback (`Targaryen dynasty`).\n"
-        "- **Q11 (the meals question)** — loop-bound by construction: zero key phrases, "
-        "no content-first op (search/list/theme) exists in either profile yet. This is "
-        "the metric step 5 must flip.\n"
+        "- **Q11 (the meals question)** — search_quotes now EXISTS (step 5), but Q11's "
+        "own literal phrasing (\"Describe some detailed meals in the books.\") still does "
+        "not surface any of its 5 target slugs in the live bundle's search-index.json top "
+        "12 (verified this run, not assumed) — the generic framing doesn't share enough "
+        "vocabulary with the food-node docs. Still loop-bound under this runner's rules, "
+        "but for a narrower reason than baseline (\"no op exists\" -> \"op exists, this "
+        "phrasing doesn't reach\"). Contrast with Q21, a content-first control question "
+        "that DOES reach via search on its literal phrasing.\n"
     )
     parts.append("## Per-question detail\n")
     parts.append(render_table(results))
@@ -767,14 +904,30 @@ def render_report(results: list[dict[str, Any]], summary: dict[str, Any]) -> str
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--report", action="store_true",
-                     help="also write the dated baseline-<date>.md report file")
+                     help="also write a report file (see --out for where)")
     ap.add_argument("--json", action="store_true", help="dump raw JSON instead of a table")
+    ap.add_argument(
+        "--out", type=Path, default=None,
+        help="explicit output path for --report (REQUIRED alongside --report to avoid "
+             "the dated-filename footgun: the old default `baseline-<date>.md` name "
+             "collides with the frozen baseline report if re-run on the same date -- "
+             "this happened once already. Pass an explicit path, e.g. "
+             "working/query-layer/evals/post-step5-2026-07-04.md.",
+    )
     args = ap.parse_args()
+
+    if args.report and args.out is None:
+        ap.error(
+            "--report requires --out (explicit output path) -- the old dated-default "
+            "behavior silently collided with the frozen baseline-<date>.md once already; "
+            "pass e.g. --out working/query-layer/evals/post-step5-2026-07-04.md"
+        )
 
     full = FullResolver.load()
     bounded = BoundedResolver.load()
+    search_index = S.load_index(SEARCH_INDEX_PATH)
 
-    results = [score_question(q, full, bounded) for q in QUESTIONS]
+    results = [score_question(q, full, bounded, search_index) for q in QUESTIONS]
     summary = summarize(results)
 
     if args.json:
@@ -787,7 +940,8 @@ def main() -> None:
 
     if args.report:
         report_text = render_report(results, summary)
-        out_path = EVALS_DIR / f"baseline-{date.today().isoformat()}.md"
+        out_path = args.out
+        out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(report_text, encoding="utf-8")
         print(f"\nWrote {out_path}", file=sys.stderr)
 

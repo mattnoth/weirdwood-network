@@ -58,8 +58,8 @@ different answers, that is drift — the golden cases in `spec/cases/` exist to 
 | [`search`](#search) | ✅ `search.py` / `weirwood query search` | ✅ `searchQuotes()` | **SHIPPED — step 5b**, the headline capability |
 | [`list`](#list) | ✅ `list_nodes.py` / `weirwood query list` | ✅ `listNodes()` | **SHIPPED — step 5d** |
 | [`corpus-search` / `passage`](#corpus-search--passage) | ✅ `corpus_search.py` / `weirwood query corpus-search` | ❌ (deferred S172; `passage` still gated) | **SHIPPED — step 5e** (Python full-profile ONLY; no bundle/chat exposure by design) |
-| [`mentions`](#mentions) | ❌ (index built, unread) | ❌ | **PLANNED — step 8b** |
-| [`theme`](#theme) | ❌ | ❌ | **PLANNED — step 8a** |
+| [`mentions`](#mentions) | ✅ `mentions.py` / `weirwood query mentions` | ❌ | **SHIPPED — step 8b** (reads LIVE graph/index/, may be stale — see G13; a preview-repair build + report exist at `working/query-layer/`) |
+| [`theme`](#theme) | ✅ `themes.py` / `weirwood query theme` | ✅ `theme()`/`listThemes()` | **SHIPPED — step 8a** |
 | [`braid` / `fork-hubs` / `join-hubs`](#braid--fork-hubs--join-hubs) | ✅ `braid.py` | ❌ | **SHIPPED — step 7**, full-profile only by design |
 
 ---
@@ -602,30 +602,53 @@ design doc §8). This step does not build `passage` — it only ships the CLI-on
 
 ## `mentions`
 
-**Status: PLANNED — step 8b.** The underlying data (`graph/index/` — 8,155 files, 48 MB,
-per-entity chapter-mention indexes for all 21 categories) **already exists** but is read by
-nothing in the query path today (`G13`). Partially stale: harvest-minted nodes (e.g.
-`acorn-paste`) show 0 appearances/chapters because the index's entity resolution predates
-those nodes' aliases — step 8b repairs this by re-running the mention-index resolution
-against the current alias table before exposing `mentions` as an op.
+**Status: SHIPPED — step 8b (2026-07-04).** `weirwood_query/mentions.py` /
+`weirwood query mentions <slug>` reads the LIVE `graph/index/chapters/` tree — the same data
+`scripts/build-mention-index.py` writes today, which is real but **partially stale** (its
+entity resolution predates the current hardened `all-node-alias-lookup.json` table). This op
+does NOT repair that data (`graph/index/` is behind the no-graph-mutation gate) — it is a
+read-only reader, exactly like `search.py`/`themes.py` read whatever their own builders last
+wrote.
 
-**Intended purpose:** "which chapters mention X" — full-profile only initially; bounded
-exposure "optional" per the design doc, decided after evals.
+A **preview repair** exists alongside it (query-layer step 8b's other deliverable):
+`graph/query/build/build_mention_index_preview.py` re-runs the SAME mention-extraction
+algorithm over the SAME Pass-1 extractions, but resolves against the hardened
+`all-node-alias-lookup.json` table instead — writing to
+`working/query-layer/mention-index-preview/` (never to `graph/index/`). The measured delta,
+sample diffs, and the reviewed apply command live in
+`working/query-layer/mention-index-repair-report.md`. When the preview tree exists on disk,
+`mentions()` compares its own live count against the preview count and returns a
+`staleness_note` field when they differ, rather than silently trusting a possibly-wrong
+number.
 
-No golden cases ship for `mentions` in this v1 (no live implementation to pin, and the
-underlying index needs repair first).
+**Intended purpose:** "which chapters mention X" — full-profile only; bounded exposure
+optional, not built this v1 (no evals showed a chat-side need yet).
+
+No golden cases ship for `mentions` in this v1 — its data source is a live index the golden-
+case discipline isn't a natural fit for (the "expected" mention counts would drift every time
+`graph/nodes/`/`extractions/` change, unlike the other pinned ops).
 
 ---
 
 ## `theme`
 
-**Status: PLANNED — step 8a.** Not implemented in either profile. This is the "trigger
-table"'s routing half (D8), scoped narrowly: a deterministic theme→members table (seed
-themes: meals & feasts, hospitality, dress & materials, maesters & healing, songs & tales),
-membership by node type + keyword rules over names/identities/quotes — not a general tagging
-system, and not the settled 5-container axis (`container`, above) which stays event-only.
+**Status: SHIPPED — step 8a (2026-07-04).** `graph/query/build/build_theme_index.py` builds a
+deterministic theme→members table (seed themes: meals & feasts, hospitality, dress &
+materials, maesters & healing, songs & tales) — membership by node-type wholesale rules +
+whole-word/whole-phrase keyword matching over names/aliases/identity/quotes text (never a raw
+substring match — see that module's docstring for the false-positive class avoided, e.g.
+"harp" inside "Harpy's"). This is the "trigger table"'s routing half (D8), scoped narrowly —
+not a general tagging system, and not the settled 5-container axis (`container`, above) which
+stays event-only.
 
-No golden cases ship for `theme` in this v1.
+Two profiles: `weirwood_query/themes.py` / `weirwood query theme [name] [--category CAT]`
+(full; no name lists every theme + member_count) and `web/src/lib/themes.ts`'s `theme()` /
+`listThemes()` (bounded, reads `web/data/theme-index.json` shipped in the bundle — 28.1 KB,
+measured this session, negligible against the ~12.4 MB total).
+
+**Golden cases:** `spec/cases/theme.json` (5 cases, profile "both") — `lemon-cake` in "meals &
+feasts", `guest-right` in "hospitality", case-insensitive name matching, the `category` filter,
+and the unknown-theme-name error path.
 
 ---
 

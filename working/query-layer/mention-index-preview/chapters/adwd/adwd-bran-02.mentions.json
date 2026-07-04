@@ -1,0 +1,718 @@
+{
+  "chapter_id": "adwd-bran-02",
+  "book": "adwd",
+  "pov_character": "bran",
+  "generated_at": "2026-07-04T21:33:40.569732+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-bran-02.extraction.md",
+  "stats": {
+    "total_mentions": 78,
+    "resolved_to_node": 34,
+    "direct": 32,
+    "alias": 2,
+    "unresolved": 44
+  },
+  "mentions": [
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Summer",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Coldhands",
+      "slug": "coldhands",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coldhands.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Leaf (unnamed child of the forest)",
+      "slug": "leaf",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leaf.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "The Three-Eyed Crow / Greenseer",
+      "slug": "the-three-eyed-crow-greenseer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Leaf (child of the forest)",
+      "slug": "leaf",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leaf.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "The Three-Eyed Crow",
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Wights",
+      "slug": "wights",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/wights.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Gendel",
+      "slug": "gendel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendel.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Hill above the cave",
+      "slug": "hill-above-the-cave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 55
+    },
+    {
+      "raw_name": "The cave entrance (cleft between weirwoods)",
+      "slug": "the-cave-entrance",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 56
+    },
+    {
+      "raw_name": "Cave system / passages",
+      "slug": "cave-system-passages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 57
+    },
+    {
+      "raw_name": "Large cavern (size of Winterfell's great hall)",
+      "slug": "large-cavern",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 58
+    },
+    {
+      "raw_name": "Underground river / chasm",
+      "slug": "underground-river-chasm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 59
+    },
+    {
+      "raw_name": "Greenseer's chamber",
+      "slug": "greenseers-chamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 60
+    },
+    {
+      "raw_name": "Ruins of an old hillfort",
+      "slug": "ruins-of-an-old-hillfort",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "Back door (sinkhole, three leagues north)",
+      "slug": "back-door",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "Winterfell godswood",
+      "slug": "winterfell-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 63
+    },
+    {
+      "raw_name": "Hill above the cave",
+      "slug": "hill-above-the-cave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 68
+    },
+    {
+      "raw_name": "Cave system",
+      "slug": "cave-system",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 69
+    },
+    {
+      "raw_name": "Greenseer's chamber",
+      "slug": "greenseers-chamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 70
+    },
+    {
+      "raw_name": "Hodor's longsword",
+      "slug": "hodors-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 75
+    },
+    {
+      "raw_name": "Meera's frog spear",
+      "slug": "meeras-frog-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 76
+    },
+    {
+      "raw_name": "Coldhands' longsword",
+      "slug": "coldhands-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 77
+    },
+    {
+      "raw_name": "Leaf's torch",
+      "slug": "leafs-torch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 78
+    },
+    {
+      "raw_name": "Weirwood throne",
+      "slug": "weirwood-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 79
+    },
+    {
+      "raw_name": "Bran's basket",
+      "slug": "brans-basket",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 80
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "Summer (direwolf)",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 207
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 208
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 209
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 210
+    },
+    {
+      "raw_name": "Coldhands",
+      "slug": "coldhands",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coldhands.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 211
+    },
+    {
+      "raw_name": "Leaf (unnamed child of the forest who guides them)",
+      "slug": "leaf",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leaf.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 212
+    },
+    {
+      "raw_name": "The Three-Eyed Crow / The Greenseer (pale lord in weirwood throne)",
+      "slug": "the-three-eyed-crow-the-greenseer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 213
+    },
+    {
+      "raw_name": "Arya Stark (referenced in thought)",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 214
+    },
+    {
+      "raw_name": "Old Nan (referenced in thought)",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 215
+    },
+    {
+      "raw_name": "Bran's lord father / Ned Stark (referenced by greenseer)",
+      "slug": "brans-lord-father-ned-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 216
+    },
+    {
+      "raw_name": "Gendel (referenced via Old Nan's tale)",
+      "slug": "gendel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendel.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 217
+    },
+    {
+      "raw_name": "Hill above the cave (beyond the Wall)",
+      "slug": "hill-above-the-cave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 220
+    },
+    {
+      "raw_name": "The cave of the three-eyed crow (entrance between weirwood trees)",
+      "slug": "cave-of-the-three-eyed-crow",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/cave-of-the-three-eyed-crow.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 221
+    },
+    {
+      "raw_name": "Cave passages / tunnels (multiple branchings)",
+      "slug": "cave-passages-tunnels",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 222
+    },
+    {
+      "raw_name": "Large cavern (size of Winterfell's great hall)",
+      "slug": "large-cavern",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 223
+    },
+    {
+      "raw_name": "Underground river / chasm",
+      "slug": "underground-river-chasm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 224
+    },
+    {
+      "raw_name": "Greenseer's chamber",
+      "slug": "greenseers-chamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 225
+    },
+    {
+      "raw_name": "Sinkhole (back door, three leagues north)",
+      "slug": "sinkhole",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 226
+    },
+    {
+      "raw_name": "Ruins of an old hillfort (referenced)",
+      "slug": "ruins-of-an-old-hillfort",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 227
+    },
+    {
+      "raw_name": "Winterfell (referenced — godswood, great hall)",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 228
+    },
+    {
+      "raw_name": "House Stark (Bran is a Stark; \"Brandon Stark\" addressed by greenseer)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 231
+    },
+    {
+      "raw_name": "Night's Watch (the greenseer was formerly a member — \"black of garb and black of blood\"; some wights wearing black cloaks were Watch members)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 234
+    },
+    {
+      "raw_name": "Children of the Forest (as a people/group, with multiple members implied)",
+      "slug": "children-of-the-forest",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 235
+    },
+    {
+      "raw_name": "Old Gods (weirwood trees, heart trees, godswood referenced; the entire cave is permeated with weirwood roots)",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 238
+    },
+    {
+      "raw_name": "Children of the Forest / \"Those who sing the song of earth\" (True Tongue name)",
+      "slug": "children-of-the-forest-those-who-sing-the-song-of-earth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 241
+    },
+    {
+      "raw_name": "First Men (named the children \"children\")",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 242
+    },
+    {
+      "raw_name": "Giants (called the children \"woh dak nag gran\" / squirrel people; giant skulls in passages; giant bones)",
+      "slug": "giants",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/giants.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 243
+    },
+    {
+      "raw_name": "Hodor's longsword (old iron)",
+      "slug": "hodors-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 246
+    },
+    {
+      "raw_name": "Meera's frog spear (three-tined)",
+      "slug": "meeras-frog-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 247
+    },
+    {
+      "raw_name": "Coldhands' longsword (blade)",
+      "slug": "coldhands-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 248
+    },
+    {
+      "raw_name": "Leaf's torch",
+      "slug": "leafs-torch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 249
+    },
+    {
+      "raw_name": "Weirwood throne (tangled nest of roots)",
+      "slug": "weirwood-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 250
+    },
+    {
+      "raw_name": "Bran's basket/carrier (half-crushed)",
+      "slug": "brans-basket-carrier",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 251
+    },
+    {
+      "raw_name": "Old Nan's tales (referenced generally — tales of the children of the forest, Gendel's children)",
+      "slug": "old-nans-tales",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 254
+    },
+    {
+      "raw_name": "Warging / skinchanging (Bran warges into Hodor to fight; previously ate as Summer)",
+      "slug": "warging-skinchanging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 257
+    },
+    {
+      "raw_name": "Greensight / greenseeing (the three-eyed crow is a greenseer; \"a thousand eyes and one\")",
+      "slug": "greensight-greenseeing",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 258
+    },
+    {
+      "raw_name": "Cave wards (prevent the dead and Coldhands from entering)",
+      "slug": "cave-wards",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 259
+    },
+    {
+      "raw_name": "Wights (undead with pale flesh, black hands, glowing blue eyes; rise from snow; severed parts still move; fire destroys them)",
+      "slug": "wights",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/wights.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 260
+    },
+    {
+      "raw_name": "White walkers (referenced by Coldhands — go lightly on snow, leave no prints)",
+      "slug": "white-walkers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 261
+    },
+    {
+      "raw_name": "Three-eyed crow's dream communication (reached Bran in dreams; could not come physically)",
+      "slug": "three-eyed-crows-dream-communication",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 262
+    },
+    {
+      "raw_name": "The True Tongue (language of the children of the forest)",
+      "slug": "true-tongue",
+      "resolved_via": "alias",
+      "node_type": "concept.language",
+      "node_path": "graph/nodes/languages/true-tongue.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 263
+    },
+    {
+      "raw_name": "Woh dak nag gran (giant-language name for the children of the forest — \"squirrel people\")",
+      "slug": "woh-dak-nag-gran",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 272
+    },
+    {
+      "raw_name": "The elk (dead mount, recalled — collapsed twelve days ago; Coldhands blessed it and slit its throat)",
+      "slug": "the-elk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 273
+    }
+  ]
+}

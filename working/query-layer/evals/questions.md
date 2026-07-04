@@ -65,6 +65,7 @@ the dip's original grade for cross-reference.
 | Q18 | Is it true that Ned Stark was executed with a named ancestral sword, and if so which one? | researcher | `Ned Stark's execution` | `execution-of-eddard-stark` | resolve → neighbors (WIELDED_IN → Ice) | Researcher claim-check question, paired with Q7/Q4's WIELDED_IN contrast: this hub DOES carry `WIELDED_IN → ice` (a named artifact), unlike Q4's Robb hub. A correct researcher answer confirms the claim and names Ice. Tests the resolver + neighbors path on a hub the dip already validated as working (Q7). |
 | Q19 | What connects Jaime Lannister's confession about Tysha to later events? | traversal | `Jaime Lannister`, `Tysha` | `jaime-reveals-the-truth-of-tysha` | resolve → chain (causal) | Fills the `chain`/causal-traversal archetype slot with a node the design doc itself names as a live fork-hub example (operations.md `braid` section: `jaime-reveals-the-truth-of-tysha`, out=3, reach=11) — a good positive-control causal-chain case, complementing Q10's negative control (Trident has no causal edges) and Q9's pre-mint negative control. |
 | Q20 | Walk the Targaryen family tree from Aegon the Conqueror down to Daenerys. | traversal | `Aegon the Conqueror` | `aegon-i-targaryen`, `daenerys-targaryen` | resolve → family_tree | Positive-control `family_tree` archetype case — operations.md documents this exact pair (`aegon-i-targaryen` → `daenerys-targaryen`, 12 `PARENT_OF` hops) as the deep-main-line-spine behavior that only fires under `family_tree`'s **default** generationsDown, not a shallow explicit window. Pairs with Q13 (bare "Targaryen dynasty" phrasing) using a fully-specified phrasing instead. |
+| Q21 | What was served at the Purple Wedding? | thematic | `Purple Wedding` | `purple-wedding`, `leche-of-brawn`, `chickpea-paste`, `wedding-feast-at-the-red-keep` | search → read | Added session B step 5 (post-step4 gate task) — the SERVED_AT board's settle-question. **This is the 8d trigger metric** — a content-first control question that, unlike Q11 (zero key phrases, generic "meals" framing), names the event directly, so its literal phrasing is both a resolve phrase AND a strong search_quotes query. Confirmed live 2026-07-04: searching `"What was served at the Purple Wedding?"` against the bundle's compact `search-index.json` returns `purple-wedding` at rank 1 and both `leche-of-brawn` and `wedding-feast-at-the-red-keep` in the top 12 (`chickpea-paste` does not land in this run — 3/4 target slugs hit). Reported as INFORMATION, not a pass/fail gate. |
 
 ---
 
@@ -74,12 +75,12 @@ the dip's original grade for cross-reference.
 |---|---|---|
 | traversal | Q1, Q2, Q3, Q5, Q6, Q7, Q8, Q9, Q10, Q13, Q17, Q19, Q20 | 13 |
 | quote-hunter | Q4, Q12, Q14, Q15 | 4 |
-| thematic | Q11, Q16 | 2 |
+| thematic | Q11, Q16, Q21 | 3 |
 | researcher | Q17, Q18 | 2 |
 
 (Q17 double-counted: it is both a traversal-shaped question — resolve two entities and walk
 between them — and a researcher claim-check in intent. Left in both rows above rather than
-forcing a single-bucket split; the archetype-split table's total (13+4+2+2=21) is 20 unique
+forcing a single-bucket split; the archetype-split table's total (13+4+3+2=22) is 21 unique
 questions with Q17 counted twice by design.)
 
 ---
@@ -98,3 +99,10 @@ questions with Q17 counted twice by design.)
   Q19/Q20 round out the traversal/family_tree archetypes with cases already named as
   verification anchors elsewhere in the query-layer Track (operations.md's `braid` and
   `family` sections) — reusing already-grounded slugs rather than hand-picking new ones.
+- **2026-07-04 (session B, post-step4 exit-gate task):** Added **Q21** ("What was served
+  at the Purple Wedding?") — the SERVED_AT board's settle-question, and the 8d trigger
+  metric. `run_evals.py`'s tool-estimate heuristic was updated the same session to model
+  the shipped `search_quotes` tool (step 5) instead of treating all content-first ops as
+  absent — search-reachability is now checked DETERMINISTICALLY (an actual `search()` call
+  against the live bundle index, not an assumption) per question. See
+  `post-step5-2026-07-04.md` for the re-run.

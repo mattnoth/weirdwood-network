@@ -1,0 +1,62 @@
+[
+  {
+    "id": "theme-meals-and-feasts-includes-lemon-cake",
+    "op": "theme",
+    "profile": "both",
+    "input": { "name": "meals & feasts" },
+    "expect": {
+      "mode": "invariant",
+      "mustIncludeSlug": "lemon-cake",
+      "memberCountAtLeast": 100
+    },
+    "note": "design doc's spot-check: a known food node must be a member of 'meals & feasts'."
+  },
+  {
+    "id": "theme-hospitality-includes-guest-right",
+    "op": "theme",
+    "profile": "both",
+    "input": { "name": "hospitality" },
+    "expect": {
+      "mode": "invariant",
+      "mustIncludeSlug": "guest-right"
+    },
+    "note": "design doc's spot-check: the guest-right custom node itself must be a member of 'hospitality'."
+  },
+  {
+    "id": "theme-name-case-insensitive",
+    "op": "theme",
+    "profile": "both",
+    "input": { "name": "HOSPITALITY" },
+    "expect": {
+      "mode": "invariant",
+      "themeNameEquals": "hospitality",
+      "mustIncludeSlug": "guest-right"
+    },
+    "note": "theme name matching is case-insensitive against the canonical seed-theme names."
+  },
+  {
+    "id": "theme-category-filter-scopes-members",
+    "op": "theme",
+    "profile": "both",
+    "input": { "name": "meals & feasts", "category": "foods" },
+    "expect": {
+      "mode": "invariant",
+      "allCategoriesEqual": "foods",
+      "mustIncludeSlug": "lemon-cake"
+    },
+    "note": "the opts.category filter must exclude non-food members (e.g. the 'harvest-feast' custom) that would otherwise appear."
+  },
+  {
+    "id": "theme-unknown-name-returns-error-not-throw",
+    "op": "theme",
+    "profile": "both",
+    "input": { "name": "zzz-not-a-real-theme" },
+    "expect": {
+      "mode": "exact",
+      "memberCount": 0,
+      "members": [],
+      "hasError": true
+    },
+    "note": "an unknown theme name returns an error field + empty members, not an exception (mirrors listNodes()'s unknown-category convention)."
+  }
+]

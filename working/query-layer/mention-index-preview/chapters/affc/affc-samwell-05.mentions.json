@@ -1,0 +1,2491 @@
+{
+  "chapter_id": "affc-samwell-05",
+  "book": "affc",
+  "pov_character": "samwell",
+  "generated_at": "2026-07-04T21:33:40.559543+00:00",
+  "extraction_path": "extractions/mechanical/affc/affc-samwell-05.extraction.md",
+  "stats": {
+    "total_mentions": 275,
+    "resolved_to_node": 186,
+    "direct": 149,
+    "alias": 37,
+    "unresolved": 89
+  },
+  "mentions": [
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Dalla's babe",
+      "slug": "dallas-babe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Kojja Mo",
+      "slug": "kojja-mo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kojja-mo.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Quhuru Mo",
+      "slug": "quhuru-mo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quhuru-mo.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Xhondo",
+      "slug": "xhondo",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Captain of the Huntress",
+      "slug": "captain-of-the-huntress",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Ser Gunthor Hightower",
+      "slug": "gunthor-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gunthor-hightower.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Lorcas",
+      "slug": "lorcas",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lorcas.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Alleras (the Sphinx)",
+      "slug": "alleras",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alleras.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Leo Tyrell",
+      "slug": "leo-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leo-tyrell.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Archmaester Marwyn (the Mage)",
+      "slug": "archmaester-marwyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Pate",
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Captain of the Huntress",
+      "slug": "captain-of-the-huntress",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Ser Gunthor Hightower",
+      "slug": "gunthor-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gunthor-hightower.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Kojja Mo",
+      "slug": "kojja-mo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kojja-mo.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Summer Islander archers",
+      "slug": "summer-islander-archers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Lorcas",
+      "slug": "lorcas",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lorcas.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Alleras (the Sphinx)",
+      "slug": "alleras",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alleras.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Leo Tyrell",
+      "slug": "leo-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leo-tyrell.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Archmaester Marwyn",
+      "slug": "archmaester-marwyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Pate",
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Lord Leyton Hightower",
+      "slug": "leyton-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leyton-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "The Mad Maid (Malora Hightower)",
+      "slug": "malora-hightower",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malora-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Baelor Hightower",
+      "slug": "baelor-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/baelor-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Garth Hightower",
+      "slug": "garth-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/garth-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Humfrey Hightower",
+      "slug": "humfrey-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/humfrey-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Lord Paxter Redwyne",
+      "slug": "paxter-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/paxter-redwyne.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Lord Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Maester Aemon (Aemon Targaryen)",
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "King Stannis",
+      "slug": "king-stannis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Melisandre of Asshai",
+      "slug": "melisandre-of-asshai",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "The Old Bear (Jeor Mormont)",
+      "slug": "jeor-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Coldhands",
+      "slug": "coldhands",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coldhands.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Dareon (the Blackbird)",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Prince Rhaegar",
+      "slug": "prince-rhaegar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "The princeling whose head was dashed against the wall",
+      "slug": "the-princeling-whose-head-was-dashed-against-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "King Tommen",
+      "slug": "king-tommen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Theon Turncloak (Theon Greyjoy)",
+      "slug": "theon-greyjoy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "The Young Wolf (Robb Stark)",
+      "slug": "robb-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "King Daeron the First (the Young Dragon)",
+      "slug": "king-daeron-the-first",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Archmaester Theobald",
+      "slug": "archmaester-theobald",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Archmaester Norren",
+      "slug": "archmaester-norren",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Archmaester Walgrave",
+      "slug": "archmaester-walgrave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Archmaester Perestan",
+      "slug": "archmaester-perestan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Gorghan of Old Ghis",
+      "slug": "gorghan-of-old-ghis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "Dickon Tarly",
+      "slug": "dickon-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dickon-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "Humfrey Hightower's sister",
+      "slug": "humfrey-hightowers-sister",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "The Lady of the Tower",
+      "slug": "lady-of-the-tower",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lady-of-the-tower.node.md",
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Redwyne Straits",
+      "slug": "redwyne-straits",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/redwyne-straits.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Ryamsport",
+      "slug": "ryamsport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ryamsport.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Vinetown",
+      "slug": "vinetown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vinetown.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Starfish Harbor",
+      "slug": "starfish-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/starfish-harbor.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Whispering Sound",
+      "slug": "whispering-sound",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whispering-sound.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Three Towers",
+      "slug": "three-towers",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/three-towers.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "The Hightower",
+      "slug": "hightower",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hightower.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Horn Hill",
+      "slug": "horn-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horn-hill.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "The Citadel",
+      "slug": "citadel",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Scribe's Hearth",
+      "slug": "scribes-hearth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/scribes-hearth.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Seneschal's Court",
+      "slug": "seneschals-court",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seneschals-court.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Isle of Ravens",
+      "slug": "isle-of-ravens",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-ravens.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "The Ravenry",
+      "slug": "ravenry",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ravenry.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "The Honeywine",
+      "slug": "honeywine",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/honeywine.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Weeping Dock",
+      "slug": "weeping-dock",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Bloody Isle",
+      "slug": "bloody-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bloody-isle.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "Shield Islands",
+      "slug": "shield-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shield-islands.node.md",
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "Stonecrab Cay",
+      "slug": "stonecrab-cay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stonecrab-cay.node.md",
+      "section": "Locations",
+      "line": 115
+    },
+    {
+      "raw_name": "Isle of Pigs",
+      "slug": "isle-of-pigs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-pigs.node.md",
+      "section": "Locations",
+      "line": 116
+    },
+    {
+      "raw_name": "Mermaid's Palace",
+      "slug": "mermaids-palace",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mermaids-palace.node.md",
+      "section": "Locations",
+      "line": 117
+    },
+    {
+      "raw_name": "Horseshoe Rock",
+      "slug": "horseshoe-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horseshoe-rock.node.md",
+      "section": "Locations",
+      "line": 118
+    },
+    {
+      "raw_name": "Bastard's Cradle",
+      "slug": "bastards-cradle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bastards-cradle.node.md",
+      "section": "Locations",
+      "line": 119
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Locations",
+      "line": 120
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 121
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 122
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 123
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 124
+    },
+    {
+      "raw_name": "Fist of First Men",
+      "slug": "fist-of-first-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 125
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Locations",
+      "line": 126
+    },
+    {
+      "raw_name": "Whitetree",
+      "slug": "whitetree",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whitetree.node.md",
+      "section": "Locations",
+      "line": 127
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 128
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 129
+    },
+    {
+      "raw_name": "Summer Isles",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Locations",
+      "line": 130
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Locations",
+      "line": 131
+    },
+    {
+      "raw_name": "Highgarden",
+      "slug": "highgarden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/highgarden.node.md",
+      "section": "Locations",
+      "line": 132
+    },
+    {
+      "raw_name": "The riverlands",
+      "slug": "riverlands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverlands.node.md",
+      "section": "Locations",
+      "line": 133
+    },
+    {
+      "raw_name": "Old Ghis",
+      "slug": "old-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-ghis.node.md",
+      "section": "Locations",
+      "line": 134
+    },
+    {
+      "raw_name": "The Freehold (Valyria)",
+      "slug": "valyrian-freehold",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valyrian-freehold.node.md",
+      "section": "Locations",
+      "line": 135
+    },
+    {
+      "raw_name": "Three Towers",
+      "slug": "three-towers",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/three-towers.node.md",
+      "section": "Location Descriptions",
+      "line": 140
+    },
+    {
+      "raw_name": "Whispering Sound (approach to Oldtown)",
+      "slug": "whispering-sound",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whispering-sound.node.md",
+      "section": "Location Descriptions",
+      "line": 141
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Location Descriptions",
+      "line": 142
+    },
+    {
+      "raw_name": "The Citadel gates",
+      "slug": "the-citadel-gates",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 143
+    },
+    {
+      "raw_name": "Scribe's Hearth",
+      "slug": "scribes-hearth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/scribes-hearth.node.md",
+      "section": "Location Descriptions",
+      "line": 144
+    },
+    {
+      "raw_name": "Seneschal's Court",
+      "slug": "seneschals-court",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seneschals-court.node.md",
+      "section": "Location Descriptions",
+      "line": 145
+    },
+    {
+      "raw_name": "Statue of King Daeron I",
+      "slug": "statue-of-king-daeron-i",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 146
+    },
+    {
+      "raw_name": "Weeping Dock",
+      "slug": "weeping-dock",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 147
+    },
+    {
+      "raw_name": "Isle of Ravens / The Ravenry",
+      "slug": "isle-of-ravens-the-ravenry",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 148
+    },
+    {
+      "raw_name": "The weirwood in the Ravenry yard",
+      "slug": "the-weirwood-in-the-ravenry-yard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 149
+    },
+    {
+      "raw_name": "Glass candle (dragonglass/obsidian)",
+      "slug": "glass-candle",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/glass-candle.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 154
+    },
+    {
+      "raw_name": "Jon Snow's letters",
+      "slug": "jon-snows-letters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 155
+    },
+    {
+      "raw_name": "Maester Aemon's body",
+      "slug": "maester-aemons-body",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 156
+    },
+    {
+      "raw_name": "Goldenheart bows",
+      "slug": "goldenheart-bows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 157
+    },
+    {
+      "raw_name": "The Huntress",
+      "slug": "huntress",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/huntress.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 158
+    },
+    {
+      "raw_name": "Honor of Oldtown",
+      "slug": "honor-of-oldtown",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/honor-of-oldtown.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 159
+    },
+    {
+      "raw_name": "Banner with red eye, black pupil, black iron crown supported by two crows",
+      "slug": "banner-with-red-eye-black-pupil-black-iron-crown-supported-by-two-crows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 160
+    },
+    {
+      "raw_name": "Cinnamon Wind",
+      "slug": "cinnamon-wind",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 161
+    },
+    {
+      "raw_name": "Marwyn's chain",
+      "slug": "marwyns-chain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 162
+    },
+    {
+      "raw_name": "Samwell Tarly (Sam, Sam the Slayer)",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 357
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 358
+    },
+    {
+      "raw_name": "Dalla's babe (Mance Rayder's son, being raised by Gilly)",
+      "slug": "dallas-babe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 359
+    },
+    {
+      "raw_name": "Kojja Mo",
+      "slug": "kojja-mo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kojja-mo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 360
+    },
+    {
+      "raw_name": "Quhuru Mo",
+      "slug": "quhuru-mo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quhuru-mo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 361
+    },
+    {
+      "raw_name": "Xhondo",
+      "slug": "xhondo",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 362
+    },
+    {
+      "raw_name": "Captain of the Huntress (unnamed)",
+      "slug": "captain-of-the-huntress",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 363
+    },
+    {
+      "raw_name": "Ser Gunthor Hightower",
+      "slug": "gunthor-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gunthor-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 364
+    },
+    {
+      "raw_name": "Lorcas",
+      "slug": "lorcas",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lorcas.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 365
+    },
+    {
+      "raw_name": "Alleras (the Sphinx)",
+      "slug": "alleras",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alleras.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 366
+    },
+    {
+      "raw_name": "Leo Tyrell",
+      "slug": "leo-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leo-tyrell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 367
+    },
+    {
+      "raw_name": "Archmaester Marwyn (the Mage)",
+      "slug": "archmaester-marwyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 368
+    },
+    {
+      "raw_name": "Pate (\"like the pig boy\")",
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 369
+    },
+    {
+      "raw_name": "Lord Leyton Hightower",
+      "slug": "leyton-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leyton-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 370
+    },
+    {
+      "raw_name": "The Mad Maid (Malora Hightower)",
+      "slug": "malora-hightower",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malora-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 371
+    },
+    {
+      "raw_name": "Baelor Hightower",
+      "slug": "baelor-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/baelor-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 372
+    },
+    {
+      "raw_name": "Garth Hightower",
+      "slug": "garth-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/garth-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 373
+    },
+    {
+      "raw_name": "Humfrey Hightower",
+      "slug": "humfrey-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/humfrey-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 374
+    },
+    {
+      "raw_name": "Lord Paxter Redwyne",
+      "slug": "paxter-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/paxter-redwyne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 375
+    },
+    {
+      "raw_name": "Lord Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 376
+    },
+    {
+      "raw_name": "Jon Snow (Lord Commander)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 377
+    },
+    {
+      "raw_name": "Maester Aemon (Aemon Targaryen)",
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 378
+    },
+    {
+      "raw_name": "King Tommen",
+      "slug": "king-tommen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 379
+    },
+    {
+      "raw_name": "King Stannis",
+      "slug": "king-stannis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 380
+    },
+    {
+      "raw_name": "Melisandre of Asshai",
+      "slug": "melisandre-of-asshai",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 381
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 382
+    },
+    {
+      "raw_name": "Jeor Mormont (the Old Bear)",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 383
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 384
+    },
+    {
+      "raw_name": "Coldhands",
+      "slug": "coldhands",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coldhands.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 385
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 386
+    },
+    {
+      "raw_name": "Dareon (the Blackbird)",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 387
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 388
+    },
+    {
+      "raw_name": "Prince Rhaegar",
+      "slug": "prince-rhaegar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 389
+    },
+    {
+      "raw_name": "The princeling whose head was dashed against the wall (unnamed)",
+      "slug": "the-princeling-whose-head-was-dashed-against-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 390
+    },
+    {
+      "raw_name": "Theon Turncloak (Theon Greyjoy)",
+      "slug": "theon-greyjoy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 391
+    },
+    {
+      "raw_name": "The Young Wolf (Robb Stark)",
+      "slug": "robb-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 392
+    },
+    {
+      "raw_name": "King Daeron the First (the Young Dragon)",
+      "slug": "king-daeron-the-first",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 393
+    },
+    {
+      "raw_name": "Archmaester Theobald",
+      "slug": "archmaester-theobald",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 394
+    },
+    {
+      "raw_name": "Archmaester Norren (former Seneschal)",
+      "slug": "archmaester-norren",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 395
+    },
+    {
+      "raw_name": "Archmaester Walgrave",
+      "slug": "archmaester-walgrave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 396
+    },
+    {
+      "raw_name": "Archmaester Perestan",
+      "slug": "archmaester-perestan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 397
+    },
+    {
+      "raw_name": "Gorghan of Old Ghis",
+      "slug": "gorghan-of-old-ghis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 398
+    },
+    {
+      "raw_name": "Bran Stark (implied — secret Sam keeps about \"companions\")",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 399
+    },
+    {
+      "raw_name": "Dickon Tarly (implied — father could have pretended he was only son)",
+      "slug": "dickon-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dickon-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 400
+    },
+    {
+      "raw_name": "The Lady of the Tower (unnamed)",
+      "slug": "lady-of-the-tower",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lady-of-the-tower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 401
+    },
+    {
+      "raw_name": "Humfrey Hightower's sister (unnamed, called \"whore\")",
+      "slug": "humfrey-hightowers-sister",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 402
+    },
+    {
+      "raw_name": "The oarsmaster with a Tyroshi wife (unnamed)",
+      "slug": "the-oarsmaster-with-a-tyroshi-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 403
+    },
+    {
+      "raw_name": "Redwyne Straits",
+      "slug": "redwyne-straits",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/redwyne-straits.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 406
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 407
+    },
+    {
+      "raw_name": "Ryamsport",
+      "slug": "ryamsport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ryamsport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 408
+    },
+    {
+      "raw_name": "Vinetown",
+      "slug": "vinetown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vinetown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 409
+    },
+    {
+      "raw_name": "Starfish Harbor",
+      "slug": "starfish-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/starfish-harbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 410
+    },
+    {
+      "raw_name": "Whispering Sound",
+      "slug": "whispering-sound",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whispering-sound.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 411
+    },
+    {
+      "raw_name": "Three Towers",
+      "slug": "three-towers",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/three-towers.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 412
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 413
+    },
+    {
+      "raw_name": "The Hightower",
+      "slug": "hightower",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hightower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 414
+    },
+    {
+      "raw_name": "Horn Hill",
+      "slug": "horn-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horn-hill.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 415
+    },
+    {
+      "raw_name": "The Citadel",
+      "slug": "citadel",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 416
+    },
+    {
+      "raw_name": "Scribe's Hearth",
+      "slug": "scribes-hearth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/scribes-hearth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 417
+    },
+    {
+      "raw_name": "Seneschal's Court",
+      "slug": "seneschals-court",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seneschals-court.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 418
+    },
+    {
+      "raw_name": "Isle of Ravens",
+      "slug": "isle-of-ravens",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-ravens.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 419
+    },
+    {
+      "raw_name": "The Ravenry",
+      "slug": "ravenry",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ravenry.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 420
+    },
+    {
+      "raw_name": "The Honeywine (river)",
+      "slug": "honeywine",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/honeywine.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 421
+    },
+    {
+      "raw_name": "Weeping Dock",
+      "slug": "weeping-dock",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 422
+    },
+    {
+      "raw_name": "Bloody Isle",
+      "slug": "bloody-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bloody-isle.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 423
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 424
+    },
+    {
+      "raw_name": "Shield Islands",
+      "slug": "shield-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shield-islands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 425
+    },
+    {
+      "raw_name": "Stonecrab Cay",
+      "slug": "stonecrab-cay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stonecrab-cay.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 426
+    },
+    {
+      "raw_name": "Isle of Pigs",
+      "slug": "isle-of-pigs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-pigs.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 427
+    },
+    {
+      "raw_name": "Mermaid's Palace",
+      "slug": "mermaids-palace",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mermaids-palace.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 428
+    },
+    {
+      "raw_name": "Horseshoe Rock",
+      "slug": "horseshoe-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horseshoe-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 429
+    },
+    {
+      "raw_name": "Bastard's Cradle",
+      "slug": "bastards-cradle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bastards-cradle.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 430
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 431
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 432
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 433
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 434
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 435
+    },
+    {
+      "raw_name": "Fist of First Men",
+      "slug": "fist-of-first-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 436
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 437
+    },
+    {
+      "raw_name": "Whitetree",
+      "slug": "whitetree",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whitetree.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 438
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 439
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 440
+    },
+    {
+      "raw_name": "Summer Isles",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 441
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 442
+    },
+    {
+      "raw_name": "Highgarden",
+      "slug": "highgarden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/highgarden.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 443
+    },
+    {
+      "raw_name": "The riverlands",
+      "slug": "riverlands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverlands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 444
+    },
+    {
+      "raw_name": "Old Ghis",
+      "slug": "old-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-ghis.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 445
+    },
+    {
+      "raw_name": "The Freehold (Valyria)",
+      "slug": "valyrian-freehold",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valyrian-freehold.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 446
+    },
+    {
+      "raw_name": "House Costayne (seat at Three Towers)",
+      "slug": "house-costayne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-costayne.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 449
+    },
+    {
+      "raw_name": "House Hightower (Lord Leyton, Gunthor, Baelor, Garth, Humfrey, the Mad Maid)",
+      "slug": "house-hightower",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-hightower.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 450
+    },
+    {
+      "raw_name": "House Tarly (Lord Randyll, Sam, Dickon)",
+      "slug": "house-tarly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tarly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 451
+    },
+    {
+      "raw_name": "House Redwyne (Lord Paxter)",
+      "slug": "house-redwyne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-redwyne.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 452
+    },
+    {
+      "raw_name": "House Tyrell (Leo Tyrell; Highgarden)",
+      "slug": "house-tyrell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tyrell.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 453
+    },
+    {
+      "raw_name": "House Lannister (mentioned — \"as wealthy as the Lannisters\")",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 454
+    },
+    {
+      "raw_name": "House Targaryen (Aemon, Daenerys, Rhaegar)",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 455
+    },
+    {
+      "raw_name": "The Night's Watch (Sam is a brother; Jon is Lord Commander)",
+      "slug": "nights-watch",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 458
+    },
+    {
+      "raw_name": "The Citadel (maesters' institution; novices, acolytes, archmaesters)",
+      "slug": "citadel",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 459
+    },
+    {
+      "raw_name": "Ironmen / ironborn (raiding forces; hundreds of ships)",
+      "slug": "ironmen-ironborn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 460
+    },
+    {
+      "raw_name": "The Seneschal's office (rotates yearly by lot among archmaesters)",
+      "slug": "the-seneschals-office",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 461
+    },
+    {
+      "raw_name": "The septry (novices hurrying toward it at the Citadel)",
+      "slug": "septry",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/septry.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 464
+    },
+    {
+      "raw_name": "The gods (Sam hopes the gods will be kind to both children — unspecified)",
+      "slug": "the-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 465
+    },
+    {
+      "raw_name": "Summer Islanders (Kojja Mo, Quhuru Mo, Xhondo; feathered cloaks, goldenheart bows, love of fruit and fish, Summer Tongue)",
+      "slug": "summer-islanders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 468
+    },
+    {
+      "raw_name": "Dornish / Dornishmen (Alleras is half-Dornish; Dornish drawl; Dornish yew bows; \"quarrel like Dornishmen and Marchers\")",
+      "slug": "dornish-dornishmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 469
+    },
+    {
+      "raw_name": "Tyroshi (merchantmen; colored whiskers; ironmen disguised as Tyroshi; Tyrosh tongue)",
+      "slug": "tyroshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/tyroshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 470
+    },
+    {
+      "raw_name": "Ironborn / Ironmen (raiders; longships; reavers; unprecedented fleet operations)",
+      "slug": "ironborn-ironmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 471
+    },
+    {
+      "raw_name": "Marchers (quarrel with Dornishmen, per Alleras's analogy)",
+      "slug": "marchers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 472
+    },
+    {
+      "raw_name": "Wildlings (Mance Rayder's people; Gilly is a wildling girl)",
+      "slug": "free-folk",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/free-folk.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 473
+    },
+    {
+      "raw_name": "Valyrians / the Freehold (sorcerers who used glass candles; sorcery rooted in blood or fire)",
+      "slug": "valyrians-the-freehold",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 474
+    },
+    {
+      "raw_name": "First Men (implied — Age of Heroes reference)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 475
+    },
+    {
+      "raw_name": "Glass candle (obsidian/dragonglass; burns in Marwyn's chamber; Valyrian magical artifact)",
+      "slug": "glass-candle",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/glass-candle.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 478
+    },
+    {
+      "raw_name": "Goldenheart bows (Summer Islander weapons; shoot farther and truer than Dornish yew)",
+      "slug": "goldenheart-bows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 479
+    },
+    {
+      "raw_name": "Jon Snow's letters (for the Citadel)",
+      "slug": "jon-snows-letters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 480
+    },
+    {
+      "raw_name": "Maester Aemon's body (aboard the Cinnamon Wind)",
+      "slug": "maester-aemons-body",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 481
+    },
+    {
+      "raw_name": "Marwyn's chain of many metals",
+      "slug": "marwyns-chain-of-many-metals",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 482
+    },
+    {
+      "raw_name": "Banner: red eye with black pupil beneath black iron crown supported by two crows",
+      "slug": "banner-red-eye-with-black-pupil-beneath-black-iron-crown-supported-by-two-crows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 483
+    },
+    {
+      "raw_name": "Cinnamon Wind (Summer Islander swan ship)",
+      "slug": "cinnamon-wind",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 484
+    },
+    {
+      "raw_name": "Huntress (war galley; figurehead of maiden in leaves with spear)",
+      "slug": "huntress",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/huntress.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 485
+    },
+    {
+      "raw_name": "Honor of Oldtown (Lord Hightower's four-decked banner ship)",
+      "slug": "honor-of-oldtown",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/honor-of-oldtown.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 486
+    },
+    {
+      "raw_name": "The boom across Oldtown harbor (chain linking two dozen rotted hulks)",
+      "slug": "the-boom-across-oldtown-harbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 487
+    },
+    {
+      "raw_name": "Statue of King Daeron the First (stone horse, sword toward Dorne)",
+      "slug": "statue-of-king-daeron-the-first",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 488
+    },
+    {
+      "raw_name": "Green sphinxes at Citadel gates (lion bodies, eagle wings, serpent tails; one male face, one female)",
+      "slug": "green-sphinxes-at-citadel-gates",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 489
+    },
+    {
+      "raw_name": "Sourleaf (Marwyn chews it)",
+      "slug": "sourleaf",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/sourleaf.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 490
+    },
+    {
+      "raw_name": "Lorcas's ledger and quill",
+      "slug": "lorcass-ledger-and-quill",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 491
+    },
+    {
+      "raw_name": "Hand-drawn map of the Citadel (Sam buys at Scribe's Hearth)",
+      "slug": "hand-drawn-map-of-the-citadel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 492
+    },
+    {
+      "raw_name": "Books of spells (Lord Leyton and the Mad Maid consulting them atop the Hightower)",
+      "slug": "books-of-spells",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 495
+    },
+    {
+      "raw_name": "Gorghan of Old Ghis's writing on prophecy (quoted by Marwyn)",
+      "slug": "gorghan-of-old-ghiss-writing-on-prophecy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 496
+    },
+    {
+      "raw_name": "Books and scrolls in Marwyn's chamber (strewn everywhere, piles four feet high)",
+      "slug": "books-and-scrolls-in-marwyns-chamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 497
+    },
+    {
+      "raw_name": "Faded tapestries and ragged maps in Marwyn's chamber",
+      "slug": "faded-tapestries-and-ragged-maps-in-marwyns-chamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 498
+    },
+    {
+      "raw_name": "Books that Quhuru Mo has to sell to the grey maesters",
+      "slug": "books-that-quhuru-mo-has-to-sell-to-the-grey-maesters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 499
+    },
+    {
+      "raw_name": "Glass candle burning (obsidian; flame does not flicker; distorts colors; enables far-seeing, dream-entering, long-distance communication)",
+      "slug": "glass-candle-burning",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 502
+    },
+    {
+      "raw_name": "Valyrian sorcery (rooted in blood or fire)",
+      "slug": "valyrian-sorcery",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 503
+    },
+    {
+      "raw_name": "The prophecy of Azor Ahai / the prince that was promised (\"born amidst salt and smoke, beneath a bleeding star\")",
+      "slug": "the-prophecy-of-azor-ahai-the-prince-that-was-promised",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 504
+    },
+    {
+      "raw_name": "Wights at the Fist of First Men (referenced in Sam's account)",
+      "slug": "wights-at-the-fist-of-first-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 505
+    },
+    {
+      "raw_name": "The Other on his dead horse (referenced in Sam's account)",
+      "slug": "the-other-on-his-dead-horse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 506
+    },
+    {
+      "raw_name": "Coldhands (referenced in Sam's account)",
+      "slug": "coldhands",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coldhands.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 507
+    },
+    {
+      "raw_name": "Dragons (Xhondo saw in Qarth; Daenerys's dragons)",
+      "slug": "dragon",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dragon.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 508
+    },
+    {
+      "raw_name": "King's blood (referenced in Sam's account)",
+      "slug": "kings-blood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 509
+    },
+    {
+      "raw_name": "Books of spells (Lord Leyton and the Mad Maid consulting them)",
+      "slug": "books-of-spells",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 510
+    },
+    {
+      "raw_name": "Ironborn raids on the Reach (current; unprecedented scale; hundreds of ships; sacking, raiding, infiltration attempts)",
+      "slug": "ironborn-raids-on-the-reach",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 513
+    },
+    {
+      "raw_name": "War of the Five Kings (implied — Lord Randyll fighting in the riverlands; Lord Paxter's fleet committed)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 514
+    },
+    {
+      "raw_name": "Battle in Whispering Sound (recent; corpses, wrecked ships, burned villages)",
+      "slug": "battle-in-whispering-sound",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 515
+    },
+    {
+      "raw_name": "The conquest of Dorne (statue of King Daeron I with sword toward Dorne)",
+      "slug": "the-conquest-of-dorne",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-conquest-of-dorne.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 516
+    },
+    {
+      "raw_name": "Fist of First Men (battle with wights, referenced)",
+      "slug": "fist-of-first-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 517
+    },
+    {
+      "raw_name": "Mutiny at Craster's Keep (murder of the Old Bear, referenced)",
+      "slug": "mutiny-at-crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/mutiny-at-crasters-keep.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 518
+    },
+    {
+      "raw_name": "Lord Commander (of the Night's Watch — Jon Snow)",
+      "slug": "lord-commander",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 521
+    },
+    {
+      "raw_name": "Archmaester (Marwyn, Theobald, Walgrave, Norren, Perestan)",
+      "slug": "archmaester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/archmaester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 522
+    },
+    {
+      "raw_name": "Seneschal (of the Citadel — rotates yearly by lot; currently Theobald acting for Walgrave)",
+      "slug": "seneschal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 523
+    },
+    {
+      "raw_name": "Maester (Aemon; also the institution generally)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 524
+    },
+    {
+      "raw_name": "Acolyte (Alleras; Lorcas has been one for fifty years)",
+      "slug": "acolyte",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/acolyte.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 525
+    },
+    {
+      "raw_name": "Novice (Sam hopes to become one; Leo Tyrell; pink-cheeked novices; Pate described as novice)",
+      "slug": "novice",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/novice.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 526
+    },
+    {
+      "raw_name": "Lord (Leyton Hightower, Paxter Redwyne, Randyll Tarly)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 527
+    },
+    {
+      "raw_name": "Ser (Gunthor Hightower)",
+      "slug": "ser",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/ser.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 528
+    },
+    {
+      "raw_name": "King (Tommen, Stannis, Daeron the First)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 529
+    },
+    {
+      "raw_name": "Prince (Rhaegar)",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 530
+    },
+    {
+      "raw_name": "Sam the Slayer (title/nickname Sam claims)",
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 531
+    },
+    {
+      "raw_name": "Dornish yew (bow material, inferior to goldenheart)",
+      "slug": "dornish-yew",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 534
+    },
+    {
+      "raw_name": "The \"bitch queen in King's Landing\" (Cersei Lannister, unnamed but clear from context)",
+      "slug": "the-bitch-queen-in-kings-landing",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 535
+    },
+    {
+      "raw_name": "\"Grey sheep\" (Marwyn's term for the mainstream archmaesters)",
+      "slug": "grey-sheep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 536
+    },
+    {
+      "raw_name": "The pirate lord who once held the Ravenry in the Age of Heroes",
+      "slug": "the-pirate-lord-who-once-held-the-ravenry-in-the-age-of-heroes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 537
+    }
+  ]
+}
