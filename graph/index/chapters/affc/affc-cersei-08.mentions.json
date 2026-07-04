@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-08",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.602939+00:00",
+  "generated_at": "2026-07-04T21:33:40.546937+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-08.extraction.md",
   "stats": {
     "total_mentions": 115,
-    "resolved_to_node": 88,
-    "direct": 86,
-    "alias": 2,
-    "unresolved": 27
+    "resolved_to_node": 89,
+    "direct": 81,
+    "alias": 8,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -617,10 +617,10 @@
     },
     {
       "raw_name": "Pate",
-      "slug": "pate",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
       "section": "Characters Referenced",
       "line": 102
     },
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The Riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Location Descriptions",

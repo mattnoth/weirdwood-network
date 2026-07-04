@@ -2,14 +2,14 @@
   "chapter_id": "acok-catelyn-02",
   "book": "acok",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-12T21:45:31.472152+00:00",
+  "generated_at": "2026-07-04T21:33:40.435086+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-catelyn-02.extraction.md",
   "stats": {
     "total_mentions": 101,
-    "resolved_to_node": 79,
-    "direct": 68,
-    "alias": 11,
-    "unresolved": 22
+    "resolved_to_node": 78,
+    "direct": 62,
+    "alias": 16,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -618,9 +618,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 102
     },
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Mander (upper Mander)",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The roseroad",
       "slug": "roseroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/roseroad.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -905,10 +905,10 @@
     },
     {
       "raw_name": "Valyrian steel dagger",
-      "slug": "littlefingers-blade",
+      "slug": "catspaw-dagger",
       "resolved_via": "alias",
       "node_type": "object.artifact",
-      "node_path": "graph/nodes/artifacts/littlefingers-blade.node.md",
+      "node_path": "graph/nodes/artifacts/catspaw-dagger.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 146
     },

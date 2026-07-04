@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-04",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.519189+00:00",
+  "generated_at": "2026-07-04T21:33:40.477586+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-04.extraction.md",
   "stats": {
     "total_mentions": 95,
-    "resolved_to_node": 62,
+    "resolved_to_node": 63,
     "direct": 55,
-    "alias": 7,
-    "unresolved": 33
+    "alias": 8,
+    "unresolved": 32
   },
   "mentions": [
     {
@@ -716,10 +716,10 @@
     },
     {
       "raw_name": "Crypts of Winterfell",
-      "slug": "crypts-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 117
     },

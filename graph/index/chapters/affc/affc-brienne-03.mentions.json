@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-03",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-12T21:45:31.589953+00:00",
+  "generated_at": "2026-07-04T21:33:40.536501+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-03.extraction.md",
   "stats": {
     "total_mentions": 123,
-    "resolved_to_node": 72,
-    "direct": 62,
-    "alias": 10,
-    "unresolved": 51
+    "resolved_to_node": 71,
+    "direct": 53,
+    "alias": 18,
+    "unresolved": 52
   },
   "mentions": [
     {
@@ -131,10 +131,10 @@
     },
     {
       "raw_name": "The archer",
-      "slug": "archer",
-      "resolved_via": "direct",
-      "node_type": "title",
-      "node_path": "graph/nodes/titles/archer.node.md",
+      "slug": "anguy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/anguy.node.md",
       "section": "Characters Present",
       "line": 40
     },
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Stinking Goose",
       "slug": "stinking-goose",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stinking-goose.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Whispers",
       "slug": "whispers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispers.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -888,7 +888,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -941,10 +941,10 @@
     },
     {
       "raw_name": "Summer Islands",
-      "slug": "summer-isles",
-      "resolved_via": "alias",
-      "node_type": "place.location",
-      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "slug": "summer-islands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Locations",
       "line": 142
     },
@@ -969,7 +969,7 @@
     {
       "raw_name": "The Stinking Goose",
       "slug": "stinking-goose",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stinking-goose.node.md",
       "section": "Location Descriptions",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Whispers",
       "slug": "whispers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispers.node.md",
       "section": "Location Descriptions",

@@ -2,13 +2,13 @@
   "chapter_id": "adwd-a-ghost-in-winterfell-01",
   "book": "adwd",
   "pov_character": "a-ghost-in-winterfell",
-  "generated_at": "2026-05-12T21:45:31.629234+00:00",
+  "generated_at": "2026-07-04T21:33:40.568598+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-a-ghost-in-winterfell-01.extraction.md",
   "stats": {
     "total_mentions": 91,
     "resolved_to_node": 73,
-    "direct": 67,
-    "alias": 6,
+    "direct": 63,
+    "alias": 10,
     "unresolved": 18
   },
   "mentions": [
@@ -483,7 +483,7 @@
     {
       "raw_name": "The miller's wife (Acorn Water)",
       "slug": "millers-wife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/millers-wife.node.md",
       "section": "Characters Referenced",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The miller's sons",
       "slug": "millers-sons",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/millers-sons.node.md",
       "section": "Characters Referenced",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Iron Islands",
       "slug": "iron-islands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/iron-islands.node.md",
       "section": "Locations",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

@@ -2,13 +2,13 @@
   "chapter_id": "asos-jon-10",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.564689+00:00",
+  "generated_at": "2026-07-04T21:33:40.513228+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-10.extraction.md",
   "stats": {
     "total_mentions": 67,
     "resolved_to_node": 54,
-    "direct": 46,
-    "alias": 8,
+    "direct": 41,
+    "alias": 13,
     "unresolved": 13
   },
   "mentions": [
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Horned Lord",
       "slug": "horned-lord",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/horned-lord.node.md",
       "section": "Characters Referenced",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The barrowlands",
       "slug": "barrowlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/barrowlands.node.md",
       "section": "Locations",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",

@@ -3,17 +3,29 @@
   "name": "Finger knife",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/finger-knife.node.md",
-  "generated_at": "2026-07-01T19:57:31.540508+00:00",
+  "generated_at": "2026-07-04T23:34:13.547578+00:00",
   "stats": {
-    "appearances_total": 2,
-    "chapters_referenced_in": 1,
+    "appearances_total": 3,
+    "chapters_referenced_in": 2,
     "chapters_in_raw_list": 1,
     "out_edge_count": 0,
     "in_edge_count": 0,
-    "chapters_in_artifacts_section": 1
+    "chapters_in_artifacts_section": 2
   },
   "chapters": {
     "in_artifacts_section": [
+      {
+        "chapter_id": "affc-cat-of-the-canals-01",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
       {
         "chapter_id": "adwd-the-ugly-little-girl-01",
         "book": "adwd",
@@ -23,7 +35,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       }
@@ -38,12 +50,24 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       }
     ],
     "referenced_in": [
+      {
+        "chapter_id": "affc-cat-of-the-canals-01",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
       {
         "chapter_id": "adwd-the-ugly-little-girl-01",
         "book": "adwd",
@@ -53,7 +77,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       }

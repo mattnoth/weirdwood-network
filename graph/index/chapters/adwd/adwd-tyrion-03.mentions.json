@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-03",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.677139+00:00",
+  "generated_at": "2026-07-04T21:33:40.617980+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-03.extraction.md",
   "stats": {
     "total_mentions": 196,
-    "resolved_to_node": 143,
-    "direct": 136,
-    "alias": 7,
-    "unresolved": 53
+    "resolved_to_node": 146,
+    "direct": 128,
+    "alias": 18,
+    "unresolved": 50
   },
   "mentions": [
     {
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Shy Maid (poleboat)",
       "slug": "shy-maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/shy-maid.node.md",
       "section": "Locations",
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Rhoyne",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Locations",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Little Rhoyne",
       "slug": "little-rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/little-rhoyne.node.md",
       "section": "Location Descriptions",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Shy Maid",
       "slug": "shy-maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/shy-maid.node.md",
       "section": "Location Descriptions",
@@ -717,9 +717,9 @@
     {
       "raw_name": "Candied ginger",
       "slug": "candied-ginger",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/candied-ginger.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 125
     },
@@ -1167,7 +1167,7 @@
     {
       "raw_name": "The Rhoyne (river)",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Raw Entity List > Locations",
@@ -1185,7 +1185,7 @@
     {
       "raw_name": "The Shy Maid (poleboat)",
       "slug": "shy-maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/shy-maid.node.md",
       "section": "Raw Entity List > Locations",
@@ -1293,7 +1293,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Raw Entity List > Locations",
@@ -1338,7 +1338,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -1473,9 +1473,9 @@
     {
       "raw_name": "Candied ginger (gift for Young Griff)",
       "slug": "candied-ginger",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/candied-ginger.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 377
     },
@@ -1670,10 +1670,10 @@
     },
     {
       "raw_name": "Halfmaester (Haldon)",
-      "slug": "halfmaester",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haldon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haldon.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 407
     },

@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-03",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.647024+00:00",
+  "generated_at": "2026-07-04T21:33:40.585509+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-03.extraction.md",
   "stats": {
     "total_mentions": 100,
     "resolved_to_node": 78,
-    "direct": 70,
-    "alias": 8,
+    "direct": 56,
+    "alias": 22,
     "unresolved": 22
   },
   "mentions": [
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The King's Tower",
       "slug": "kings-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kings-tower.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Lord Commander's Tower (shell)",
       "slug": "lord-commanders-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/lord-commanders-tower.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Shadow Tower",
       "slug": "shadow-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-tower.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Bridge of Skulls",
       "slug": "bridge-of-skulls",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bridge-of-skulls.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Gift",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Gorge",
       "slug": "gorge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gorge.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Milkwater",
       "slug": "milkwater",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/milkwater.node.md",
       "section": "Locations",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Location Descriptions",
@@ -870,7 +870,7 @@
     {
       "raw_name": "The Jade Compendium",
       "slug": "jade-compendium",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/jade-compendium.node.md",
       "section": "Artifacts & Objects of Significance",

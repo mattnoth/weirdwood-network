@@ -3,9 +3,9 @@
   "name": "Eddard Stark",
   "type": "character.human",
   "node_path": "graph/nodes/characters/eddard-stark.node.md",
-  "generated_at": "2026-07-01T19:57:37.724405+00:00",
+  "generated_at": "2026-07-04T23:34:19.789914+00:00",
   "stats": {
-    "appearances_total": 264,
+    "appearances_total": 267,
     "chapters_pov": 15,
     "chapters_mentioned_in": 185,
     "out_edge_count": 22,
@@ -1089,21 +1089,24 @@
         "chapter_id": "asos-arya-06",
         "book": "asos",
         "pov_character_slug": "arya-stark",
-        "mention_count": 1,
+        "mention_count": 3,
         "sections": [
+          "Character Appearances",
+          "Characters Present",
           "Characters Referenced"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "asos-arya-07",
         "book": "asos",
         "pov_character_slug": "arya-stark",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Characters Present",
           "Characters Referenced"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "asos-arya-08",

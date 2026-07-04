@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-ugly-little-girl-01",
   "book": "adwd",
   "pov_character": "the-ugly-little-girl",
-  "generated_at": "2026-05-12T21:45:31.671159+00:00",
+  "generated_at": "2026-07-04T21:33:40.611773+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-ugly-little-girl-01.extraction.md",
   "stats": {
     "total_mentions": 210,
-    "resolved_to_node": 100,
-    "direct": 87,
-    "alias": 13,
-    "unresolved": 110
+    "resolved_to_node": 105,
+    "direct": 67,
+    "alias": 38,
+    "unresolved": 105
   },
   "mentions": [
     {
@@ -33,7 +33,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Characters Present",
@@ -60,7 +60,7 @@
     {
       "raw_name": "The lordling",
       "slug": "lordling",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/lordling.node.md",
       "section": "Characters Present",
@@ -78,7 +78,7 @@
     {
       "raw_name": "The squinter",
       "slug": "squinter",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/squinter.node.md",
       "section": "Characters Present",
@@ -114,7 +114,7 @@
     {
       "raw_name": "The old man (insurance underwriter)",
       "slug": "old-man",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/old-man.node.md",
       "section": "Characters Present",
@@ -177,7 +177,7 @@
     {
       "raw_name": "The old man (target)",
       "slug": "old-man",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/old-man.node.md",
       "section": "Character Appearances",
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Sailor's Wife",
       "slug": "sailors-wife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/sailors-wife.node.md",
       "section": "Characters Referenced",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Warren",
       "slug": "warren",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/warren.node.md",
       "section": "Locations",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The Patternmaker's Maze",
       "slug": "patternmakers-maze",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/patternmakers-maze.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Drowned Town",
       "slug": "drowned-town",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/drowned-town.node.md",
       "section": "Locations",
@@ -662,10 +662,10 @@
     },
     {
       "raw_name": "Crossroads inn",
-      "slug": "crossroads-inn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Locations",
       "line": 111
     },
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Drowned Town",
       "slug": "drowned-town",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/drowned-town.node.md",
       "section": "Location Descriptions",
@@ -771,9 +771,9 @@
     {
       "raw_name": "Finger knife",
       "slug": "finger-knife",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/finger-knife.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 131
     },
@@ -879,7 +879,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Raw Entity List > Characters",
@@ -906,7 +906,7 @@
     {
       "raw_name": "The lordling",
       "slug": "lordling",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/lordling.node.md",
       "section": "Raw Entity List > Characters",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The squinter",
       "slug": "squinter",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/squinter.node.md",
       "section": "Raw Entity List > Characters",
@@ -969,7 +969,7 @@
     {
       "raw_name": "The old man (insurance underwriter, assassination target)",
       "slug": "old-man",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/old-man.node.md",
       "section": "Raw Entity List > Characters",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The Sailor's Wife (referenced)",
       "slug": "sailors-wife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/sailors-wife.node.md",
       "section": "Raw Entity List > Characters",
@@ -1365,7 +1365,7 @@
     {
       "raw_name": "The Warren",
       "slug": "warren",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/warren.node.md",
       "section": "Raw Entity List > Locations",
@@ -1428,7 +1428,7 @@
     {
       "raw_name": "The Patternmaker's Maze",
       "slug": "patternmakers-maze",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/patternmakers-maze.node.md",
       "section": "Raw Entity List > Locations",
@@ -1482,7 +1482,7 @@
     {
       "raw_name": "The Drowned Town",
       "slug": "drowned-town",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/drowned-town.node.md",
       "section": "Raw Entity List > Locations",
@@ -1526,10 +1526,10 @@
     },
     {
       "raw_name": "Crossroads inn (referenced)",
-      "slug": "crossroads-inn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Raw Entity List > Locations",
       "line": 364
     },
@@ -1599,7 +1599,7 @@
     {
       "raw_name": "The Weeping Lady of Lys (shrine with silver-tear statue)",
       "slug": "weeping-lady-of-lys",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/weeping-lady-of-lys.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1608,7 +1608,7 @@
     {
       "raw_name": "The Great Shepherd",
       "slug": "great-shepherd",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/great-shepherd.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1626,7 +1626,7 @@
     {
       "raw_name": "The Silent God (the Stones of the Silent God)",
       "slug": "silent-god",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/silent-god.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1662,7 +1662,7 @@
     {
       "raw_name": "The Lord of Harmony (wooden hall with butterfly windows)",
       "slug": "lord-of-harmony",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/lord-of-harmony.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1707,9 +1707,9 @@
     {
       "raw_name": "Finger knife",
       "slug": "finger-knife",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/finger-knife.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 394
     },
@@ -1841,10 +1841,10 @@
     },
     {
       "raw_name": "Glamors (mentioned as distinct — \"sorcerers use glamors, weaving light and shadow and desire to make illusions that trick the eye\")",
-      "slug": "glamors",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "glamor",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/glamor.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 414
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-05",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.519717+00:00",
+  "generated_at": "2026-07-04T21:33:40.478090+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-05.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 53,
-    "direct": 48,
-    "alias": 5,
-    "unresolved": 21
+    "resolved_to_node": 54,
+    "direct": 44,
+    "alias": 10,
+    "unresolved": 20
   },
   "mentions": [
     {
@@ -141,7 +141,7 @@
     {
       "raw_name": "The Mad Huntsman",
       "slug": "mad-huntsman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/mad-huntsman.node.md",
       "section": "Characters Present",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Mad Huntsman",
       "slug": "mad-huntsman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/mad-huntsman.node.md",
       "section": "Characters Referenced",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Peach",
       "slug": "peach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/peach.node.md",
       "section": "Locations",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Peach",
       "slug": "peach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/peach.node.md",
       "section": "Location Descriptions",
@@ -626,10 +626,10 @@
     },
     {
       "raw_name": "Crow cages (iron)",
-      "slug": "crow-cages",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crow-cage",
+      "resolved_via": "alias",
+      "node_type": "concept.custom",
+      "node_path": "graph/nodes/customs/crow-cage.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 115
     },

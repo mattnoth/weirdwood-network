@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-dragontamer-01",
   "book": "adwd",
   "pov_character": "the-dragontamer",
-  "generated_at": "2026-05-12T21:45:31.660398+00:00",
+  "generated_at": "2026-07-04T21:33:40.598418+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-dragontamer-01.extraction.md",
   "stats": {
     "total_mentions": 137,
-    "resolved_to_node": 81,
+    "resolved_to_node": 83,
     "direct": 71,
-    "alias": 10,
-    "unresolved": 56
+    "alias": 12,
+    "unresolved": 54
   },
   "mentions": [
     {
@@ -977,10 +977,10 @@
     },
     {
       "raw_name": "The Warrior (Quentyn prays: \"Warrior, grant me courage\")",
-      "slug": "the-warrior",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "warrior-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/warrior-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 318
     },
@@ -1121,10 +1121,10 @@
     },
     {
       "raw_name": "Shortswords",
-      "slug": "shortswords",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "shortsword",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/shortsword.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 338
     },

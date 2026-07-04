@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-13",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.437258+00:00",
+  "generated_at": "2026-07-04T21:33:40.408220+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-13.extraction.md",
   "stats": {
     "total_mentions": 85,
-    "resolved_to_node": 68,
-    "direct": 64,
-    "alias": 4,
-    "unresolved": 17
+    "resolved_to_node": 67,
+    "direct": 61,
+    "alias": 6,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -456,9 +456,9 @@
     {
       "raw_name": "Aerys Targaryen (the Mad King)",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 84
     },
@@ -645,7 +645,7 @@
     {
       "raw_name": "The kingswood",
       "slug": "kingswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingswood.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The godswood",
       "slug": "godswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
@@ -716,10 +716,10 @@
     },
     {
       "raw_name": "Valyrian steel dagger",
-      "slug": "littlefingers-blade",
+      "slug": "catspaw-dagger",
       "resolved_via": "alias",
       "node_type": "object.artifact",
-      "node_path": "graph/nodes/artifacts/littlefingers-blade.node.md",
+      "node_path": "graph/nodes/artifacts/catspaw-dagger.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 125
     },
@@ -772,8 +772,8 @@
       "raw_name": "Milk of the poppy",
       "slug": "milk-of-the-poppy",
       "resolved_via": "direct",
-      "node_type": "object.food",
-      "node_path": "graph/nodes/foods/milk-of-the-poppy.node.md",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/milk-of-the-poppy.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 131
     }

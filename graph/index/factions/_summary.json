@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:57:32.330385+00:00",
+  "generated_at": "2026-07-04T23:34:14.343205+00:00",
   "entity_type": "factions",
   "dry_run": false,
   "entity_count": 191,
@@ -74,12 +74,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "silent-sisters",
-      "name": "Silent Sisters",
+      "slug": "dornishmen",
+      "name": "Dornishmen",
       "type": "organization.faction",
       "appearances_total": 14,
-      "chapters_referenced_in": 12,
-      "in_edge_count": 47,
+      "chapters_referenced_in": 14,
+      "in_edge_count": 154,
       "out_edge_count": 0
     },
     {
@@ -116,6 +116,15 @@
       "appearances_total": 12,
       "chapters_referenced_in": 12,
       "in_edge_count": 4,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "silent-sisters",
+      "name": "Silent Sisters",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 47,
       "out_edge_count": 0
     },
     {
@@ -180,15 +189,6 @@
       "chapters_referenced_in": 9,
       "in_edge_count": 79,
       "out_edge_count": 0
-    },
-    {
-      "slug": "golden-company",
-      "name": "Golden Company",
-      "type": "organization.faction",
-      "appearances_total": 9,
-      "chapters_referenced_in": 9,
-      "in_edge_count": 162,
-      "out_edge_count": 1
     }
   ],
   "top_by_in_edges": [
@@ -286,8 +286,8 @@
       "slug": "dornishmen",
       "name": "Dornishmen",
       "type": "organization.faction",
-      "appearances_total": 9,
-      "chapters_referenced_in": 9,
+      "appearances_total": 14,
+      "chapters_referenced_in": 14,
       "in_edge_count": 154,
       "out_edge_count": 0
     },

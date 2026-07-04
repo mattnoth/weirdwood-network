@@ -2,13 +2,13 @@
   "chapter_id": "affc-cersei-01",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.596249+00:00",
+  "generated_at": "2026-07-04T21:33:40.541852+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-01.extraction.md",
   "stats": {
     "total_mentions": 80,
     "resolved_to_node": 70,
-    "direct": 65,
-    "alias": 5,
+    "direct": 64,
+    "alias": 6,
     "unresolved": 10
   },
   "mentions": [
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",

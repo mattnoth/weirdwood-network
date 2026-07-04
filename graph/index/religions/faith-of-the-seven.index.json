@@ -3,17 +3,41 @@
   "name": "Faith of the Seven",
   "type": "organization.religion",
   "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
-  "generated_at": "2026-07-01T19:57:33.512461+00:00",
+  "generated_at": "2026-07-04T23:34:15.532423+00:00",
   "stats": {
-    "appearances_total": 47,
-    "chapters_referenced_in": 47,
-    "chapters_in_raw_list": 47,
+    "appearances_total": 59,
+    "chapters_referenced_in": 58,
+    "chapters_in_raw_list": 58,
     "out_edge_count": 0,
     "in_edge_count": 447
   },
   "chapters": {
     "in_raw_list": [
       {
+        "chapter_id": "agot-bran-01",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-bran-07",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "agot-catelyn-01",
         "book": "agot",
         "pov_character_slug": "catelyn-stark",
@@ -21,7 +45,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -33,7 +57,19 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-catelyn-03",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -45,7 +81,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -57,7 +93,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -86,6 +122,18 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "agot-tyrion-01",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "acok-arya-06",
         "book": "acok",
         "pov_character_slug": "arya-stark",
@@ -105,7 +153,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -118,6 +166,18 @@
           "Raw Entity List > Religions & Faiths"
         ],
         "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-bran-05",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -153,7 +213,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -213,7 +273,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -254,14 +314,39 @@
         "in_raw_list": true
       },
       {
-        "chapter_id": "asos-davos-01",
+        "chapter_id": "asos-arya-11",
         "book": "asos",
-        "pov_character_slug": "davos-seaworth",
+        "pov_character_slug": "arya-stark",
         "mention_count": 1,
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-arya-12",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-davos-01",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -285,7 +370,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -321,7 +406,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -333,7 +418,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -357,7 +442,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -369,7 +454,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -381,7 +466,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -405,7 +490,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -418,6 +503,18 @@
           "Raw Entity List > Religions & Faiths"
         ],
         "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-sansa-01",
+        "book": "affc",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -465,7 +562,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -477,7 +574,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -489,7 +586,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -514,6 +611,30 @@
           "Raw Entity List > Religions & Faiths"
         ],
         "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-windblown-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-01",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -573,13 +694,49 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-10",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
     ],
     "referenced_in": [
       {
+        "chapter_id": "agot-bran-01",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-bran-07",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "agot-catelyn-01",
         "book": "agot",
         "pov_character_slug": "catelyn-stark",
@@ -587,7 +744,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -599,7 +756,19 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-catelyn-03",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -611,7 +780,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -623,7 +792,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -652,6 +821,18 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "agot-tyrion-01",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "acok-arya-06",
         "book": "acok",
         "pov_character_slug": "arya-stark",
@@ -671,7 +852,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -684,6 +865,18 @@
           "Raw Entity List > Religions & Faiths"
         ],
         "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-bran-05",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -719,7 +912,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -779,7 +972,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -820,14 +1013,39 @@
         "in_raw_list": true
       },
       {
-        "chapter_id": "asos-davos-01",
+        "chapter_id": "asos-arya-11",
         "book": "asos",
-        "pov_character_slug": "davos-seaworth",
+        "pov_character_slug": "arya-stark",
         "mention_count": 1,
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-arya-12",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-davos-01",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -851,7 +1069,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -887,7 +1105,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -899,7 +1117,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -923,7 +1141,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -935,7 +1153,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -947,7 +1165,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -971,7 +1189,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -984,6 +1202,18 @@
           "Raw Entity List > Religions & Faiths"
         ],
         "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-sansa-01",
+        "book": "affc",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -1031,7 +1261,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -1043,7 +1273,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -1055,7 +1285,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -1080,6 +1310,30 @@
           "Raw Entity List > Religions & Faiths"
         ],
         "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-windblown-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-01",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -1139,7 +1393,19 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-10",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }

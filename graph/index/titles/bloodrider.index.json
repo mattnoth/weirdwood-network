@@ -3,10 +3,10 @@
   "name": "Bloodrider",
   "type": "title",
   "node_path": "graph/nodes/titles/bloodrider.node.md",
-  "generated_at": "2026-07-01T19:57:32.706064+00:00",
+  "generated_at": "2026-07-04T23:34:14.725426+00:00",
   "stats": {
-    "appearances_total": 6,
-    "chapters_referenced_in": 6,
+    "appearances_total": 10,
+    "chapters_referenced_in": 9,
     "chapters_in_raw_list": 6,
     "out_edge_count": 0,
     "in_edge_count": 37
@@ -29,11 +29,12 @@
         "chapter_id": "agot-daenerys-02",
         "book": "agot",
         "pov_character_slug": "daenerys-targaryen",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Raw Entity List > Factions & Organizations",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -103,11 +104,12 @@
         "chapter_id": "agot-daenerys-02",
         "book": "agot",
         "pov_character_slug": "daenerys-targaryen",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Raw Entity List > Factions & Organizations",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -158,6 +160,42 @@
         "resolved_via": "direct",
         "in_primary_section": false,
         "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-daenerys-04",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Factions & Organizations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-daenerys-06",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Character Appearances"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-daenerys-05",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
       }
     ]
   }

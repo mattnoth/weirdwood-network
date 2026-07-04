@@ -2,13 +2,13 @@
   "chapter_id": "asos-arya-08",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.522292+00:00",
+  "generated_at": "2026-07-04T21:33:40.480432+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-08.extraction.md",
   "stats": {
     "total_mentions": 210,
     "resolved_to_node": 176,
-    "direct": 158,
-    "alias": 18,
+    "direct": 146,
+    "alias": 30,
     "unresolved": 34
   },
   "mentions": [
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Bloody Gate",
       "slug": "bloody-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bloody-gate.node.md",
       "section": "Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -1302,7 +1302,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -1356,7 +1356,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Raw Entity List > Locations",
@@ -1365,7 +1365,7 @@
     {
       "raw_name": "The Bloody Gate",
       "slug": "bloody-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bloody-gate.node.md",
       "section": "Raw Entity List > Locations",
@@ -1383,7 +1383,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1419,7 +1419,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -1607,10 +1607,10 @@
     },
     {
       "raw_name": "Pyromancers (King Aerys's pyromancers)",
-      "slug": "pyromancers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "pyromancer",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/pyromancer.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 427
     },
@@ -1625,10 +1625,10 @@
     },
     {
       "raw_name": "Old Gods (weirwoods at High Heart; ghost says they \"linger here\"; \"they remember when the First Men came with fire in their fists\")",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 431
     },
@@ -1824,9 +1824,9 @@
     {
       "raw_name": "Battle of the Mummer's Ford (Ned Dayne saved Beric from drowning there)",
       "slug": "battle-of-the-mummers-ford",
-      "resolved_via": "direct",
-      "node_type": "event",
-      "node_path": "graph/nodes/events/battle-of-the-mummers-ford.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Wars & Conflicts",
       "line": 463
     },
@@ -1842,7 +1842,7 @@
     {
       "raw_name": "The Sword of the Morning (Ser Arthur Dayne)",
       "slug": "sword-of-the-morning",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sword-of-the-morning.node.md",
       "section": "Raw Entity List > Titles & Offices",
@@ -1850,10 +1850,10 @@
     },
     {
       "raw_name": "Lord of Corpses (ghost's name for Beric Dondarrion)",
-      "slug": "lord-of-corpses",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "beric-dondarrion",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/beric-dondarrion.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 468
     },

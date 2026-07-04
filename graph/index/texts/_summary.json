@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:57:34.280604+00:00",
+  "generated_at": "2026-07-04T23:34:16.252090+00:00",
   "entity_type": "texts",
   "dry_run": false,
   "entity_count": 161,
@@ -79,6 +79,15 @@
       "appearances_total": 2,
       "chapters_referenced_in": 2,
       "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
+      "name": "The Lineages and Histories of the Great Houses of the Seven Kingdoms",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 4,
       "out_edge_count": 0
     },
     {
@@ -174,15 +183,6 @@
     {
       "slug": "fifty-four-tuns",
       "name": "Fifty-Four Tuns",
-      "type": "object.text",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "on-a-misty-morn",
-      "name": "On a Misty Morn",
       "type": "object.text",
       "appearances_total": 1,
       "chapters_referenced_in": 1,

@@ -2,14 +2,14 @@
   "chapter_id": "adwd-prologue",
   "book": "adwd",
   "pov_character": "adwd-prologue",
-  "generated_at": "2026-05-12T21:45:31.655067+00:00",
+  "generated_at": "2026-07-04T21:33:40.593303+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-prologue.extraction.md",
   "stats": {
     "total_mentions": 133,
-    "resolved_to_node": 68,
-    "direct": 61,
-    "alias": 7,
-    "unresolved": 65
+    "resolved_to_node": 67,
+    "direct": 54,
+    "alias": 13,
+    "unresolved": 66
   },
   "mentions": [
     {
@@ -195,7 +195,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Characters Referenced",
@@ -240,7 +240,7 @@
     {
       "raw_name": "The twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Characters Referenced",
@@ -312,7 +312,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Raw Entity List > Characters",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Growler (dog, dead)",
       "slug": "growler",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/growler.node.md",
       "section": "Raw Entity List > Characters",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "The Old Gods (implied — weirwood with carved red eyes; \"the gods are all around us, in the rocks and streams, in the birds and beasts\")",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 285
     },
@@ -1149,7 +1149,7 @@
     {
       "raw_name": "The Others (implied — \"the enemy was coming\"; blue-eyed wights are their creation)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

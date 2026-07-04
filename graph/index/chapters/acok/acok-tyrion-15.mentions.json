@@ -2,7 +2,7 @@
   "chapter_id": "acok-tyrion-15",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.515798+00:00",
+  "generated_at": "2026-07-04T21:33:40.474299+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-15.extraction.md",
   "stats": {
     "total_mentions": 117,
@@ -934,8 +934,8 @@
       "raw_name": "Milk of the poppy",
       "slug": "milk-of-the-poppy",
       "resolved_via": "direct",
-      "node_type": "object.food",
-      "node_path": "graph/nodes/foods/milk-of-the-poppy.node.md",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/milk-of-the-poppy.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 298
     },

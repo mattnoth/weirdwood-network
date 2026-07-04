@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-04",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.561349+00:00",
+  "generated_at": "2026-07-04T21:33:40.510019+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-04.extraction.md",
   "stats": {
     "total_mentions": 88,
-    "resolved_to_node": 58,
-    "direct": 53,
-    "alias": 5,
-    "unresolved": 30
+    "resolved_to_node": 59,
+    "direct": 38,
+    "alias": 21,
+    "unresolved": 29
   },
   "mentions": [
     {
@@ -195,7 +195,7 @@
     {
       "raw_name": "The Wall (western section, granite ridge)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -213,7 +213,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Locations",
@@ -240,7 +240,7 @@
     {
       "raw_name": "The Bay of Seals",
       "slug": "bay-of-seals",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bay-of-seals.node.md",
       "section": "Locations",
@@ -249,7 +249,7 @@
     {
       "raw_name": "The Gorge",
       "slug": "gorge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gorge.node.md",
       "section": "Locations",
@@ -258,7 +258,7 @@
     {
       "raw_name": "The Shadow Tower",
       "slug": "shadow-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-tower.node.md",
       "section": "Locations",
@@ -267,7 +267,7 @@
     {
       "raw_name": "The Wall (western section)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Wall (western section, granite ridge)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Raw Entity List > Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Bay of Seals",
       "slug": "bay-of-seals",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bay-of-seals.node.md",
       "section": "Raw Entity List > Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Gorge",
       "slug": "gorge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gorge.node.md",
       "section": "Raw Entity List > Locations",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Shadow Tower",
       "slug": "shadow-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-tower.node.md",
       "section": "Raw Entity List > Locations",
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Seven Kingdoms",
       "slug": "seven-kingdoms",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
       "section": "Raw Entity List > Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Others (invoked as an oath: \"the Others take the hindmost\")",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -626,10 +626,10 @@
     },
     {
       "raw_name": "Southrons (referenced as source of castle-forged swords)",
-      "slug": "southrons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "southron",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/southron.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 238
     },
@@ -726,7 +726,7 @@
     {
       "raw_name": "The Sword of the Morning (star/constellation visible at dawn)",
       "slug": "sword-of-the-morning",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sword-of-the-morning.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Magnar (title of Thenn ruler)",
       "slug": "magnar",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/magnar.node.md",
       "section": "Raw Entity List > Titles & Offices",

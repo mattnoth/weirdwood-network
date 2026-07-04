@@ -2,13 +2,13 @@
   "chapter_id": "agot-eddard-03",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.431615+00:00",
+  "generated_at": "2026-07-04T21:33:40.403203+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-03.extraction.md",
   "stats": {
     "total_mentions": 32,
     "resolved_to_node": 29,
-    "direct": 29,
-    "alias": 0,
+    "direct": 28,
+    "alias": 1,
     "unresolved": 3
   },
   "mentions": [
@@ -258,7 +258,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

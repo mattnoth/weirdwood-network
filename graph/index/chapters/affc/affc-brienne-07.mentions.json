@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-07",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-12T21:45:31.593999+00:00",
+  "generated_at": "2026-07-04T21:33:40.540066+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-07.extraction.md",
   "stats": {
     "total_mentions": 88,
-    "resolved_to_node": 57,
-    "direct": 53,
-    "alias": 4,
-    "unresolved": 31
+    "resolved_to_node": 61,
+    "direct": 42,
+    "alias": 19,
+    "unresolved": 27
   },
   "mentions": [
     {
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "Pate",
-      "slug": "pate",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
       "section": "Characters Present",
       "line": 39
     },
@@ -446,10 +446,10 @@
     },
     {
       "raw_name": "The crossroads inn",
-      "slug": "the-crossroads-inn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Locations",
       "line": 87
     },
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Quiet Isle",
       "slug": "quiet-isle",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/quiet-isle.node.md",
       "section": "Locations",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The river road",
       "slug": "river-road",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/river-road.node.md",
       "section": "Locations",
@@ -501,7 +501,7 @@
     {
       "raw_name": "The high road",
       "slug": "high-road",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/high-road.node.md",
       "section": "Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Vale of Arryn",
       "slug": "vale-of-arryn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Mud Gate",
       "slug": "mud-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/mud-gate.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Red Fork",
       "slug": "red-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-fork.node.md",
       "section": "Locations",
@@ -680,10 +680,10 @@
     },
     {
       "raw_name": "The crossroads inn",
-      "slug": "the-crossroads-inn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Location Descriptions",
       "line": 117
     },
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "The Hound's helm (dog's head helm)",
-      "slug": "the-hounds-helm",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hound-helm",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hound-helm.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 124
     },

@@ -3,7 +3,7 @@
   "name": "Strangler",
   "type": "concept.medical",
   "node_path": "graph/nodes/medical/strangler.node.md",
-  "generated_at": "2026-07-01T19:57:36.703681+00:00",
+  "generated_at": "2026-07-04T23:34:18.768951+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_referenced_in": 2,
@@ -24,7 +24,7 @@
           "Raw Entity List > Artifacts & Objects",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -36,7 +36,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

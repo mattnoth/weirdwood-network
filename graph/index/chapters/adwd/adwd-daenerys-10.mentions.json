@@ -2,13 +2,13 @@
   "chapter_id": "adwd-daenerys-10",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.639581+00:00",
+  "generated_at": "2026-07-04T21:33:40.578560+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-10.extraction.md",
   "stats": {
     "total_mentions": 59,
     "resolved_to_node": 45,
-    "direct": 41,
-    "alias": 4,
+    "direct": 40,
+    "alias": 5,
     "unresolved": 14
   },
   "mentions": [
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

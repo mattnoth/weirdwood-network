@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-wayward-bride-01",
   "book": "adwd",
   "pov_character": "the-wayward-bride",
-  "generated_at": "2026-05-12T21:45:31.672541+00:00",
+  "generated_at": "2026-07-04T21:33:40.613183+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-wayward-bride-01.extraction.md",
   "stats": {
     "total_mentions": 107,
-    "resolved_to_node": 81,
-    "direct": 73,
-    "alias": 8,
-    "unresolved": 26
+    "resolved_to_node": 80,
+    "direct": 63,
+    "alias": 17,
+    "unresolved": 27
   },
   "mentions": [
     {
@@ -455,10 +455,10 @@
     },
     {
       "raw_name": "Urragon Goodbrother (Badbrother)",
-      "slug": "urrathon-iv-goodbrother",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/urrathon-iv-goodbrother.node.md",
+      "slug": "urragon-goodbrother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 84
     },
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Old Grey Gull",
       "slug": "old-grey-gull",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/old-grey-gull.node.md",
       "section": "Characters Referenced",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Red Oarsman",
       "slug": "red-oarsman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/red-oarsman.node.md",
       "section": "Characters Referenced",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Jade Sea",
       "slug": "jade-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/jade-sea.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Locations",
@@ -807,7 +807,7 @@
     {
       "raw_name": "The Sunset Sea",
       "slug": "sunset-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sunset-sea.node.md",
       "section": "Locations",

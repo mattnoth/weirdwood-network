@@ -3,7 +3,7 @@
   "name": "Maester",
   "type": "title",
   "node_path": "graph/nodes/titles/maester.node.md",
-  "generated_at": "2026-07-01T19:57:32.704638+00:00",
+  "generated_at": "2026-07-04T23:34:14.723719+00:00",
   "stats": {
     "appearances_total": 29,
     "chapters_referenced_in": 28,
@@ -407,7 +407,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -624,7 +624,7 @@
           "Characters Referenced",
           "Raw Entity List > Characters"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },

@@ -3,14 +3,14 @@
   "name": "Summer Isles",
   "type": "place.location",
   "node_path": "graph/nodes/locations/summer-isles.node.md",
-  "generated_at": "2026-07-01T19:57:31.157180+00:00",
+  "generated_at": "2026-07-04T23:34:13.159603+00:00",
   "stats": {
-    "appearances_total": 35,
-    "chapters_referenced_in": 25,
-    "chapters_in_raw_list": 15,
+    "appearances_total": 32,
+    "chapters_referenced_in": 22,
+    "chapters_in_raw_list": 13,
     "out_edge_count": 0,
     "in_edge_count": 82,
-    "chapters_in_locations_section": 20
+    "chapters_in_locations_section": 19
   },
   "chapters": {
     "in_locations_section": [
@@ -123,7 +123,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -152,18 +152,6 @@
         "in_raw_list": false
       },
       {
-        "chapter_id": "affc-brienne-03",
-        "book": "affc",
-        "pov_character_slug": "brienne-tarth",
-        "mention_count": 1,
-        "sections": [
-          "Locations"
-        ],
-        "resolved_via": "alias",
-        "in_primary_section": true,
-        "in_raw_list": false
-      },
-      {
         "chapter_id": "affc-cersei-05",
         "book": "affc",
         "pov_character_slug": "cersei-lannister",
@@ -184,7 +172,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -247,7 +235,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -351,7 +339,7 @@
         "sections": [
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -376,7 +364,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -407,30 +395,6 @@
         "in_raw_list": true
       },
       {
-        "chapter_id": "adwd-the-iron-suitor-01",
-        "book": "adwd",
-        "pov_character_slug": "victarion-greyjoy",
-        "mention_count": 1,
-        "sections": [
-          "Raw Entity List > Locations"
-        ],
-        "resolved_via": "alias",
-        "in_primary_section": false,
-        "in_raw_list": true
-      },
-      {
-        "chapter_id": "adwd-the-merchants-man-01",
-        "book": "adwd",
-        "pov_character_slug": "quentyn-martell",
-        "mention_count": 1,
-        "sections": [
-          "Raw Entity List > Locations"
-        ],
-        "resolved_via": "alias",
-        "in_primary_section": false,
-        "in_raw_list": true
-      },
-      {
         "chapter_id": "adwd-tyrion-04",
         "book": "adwd",
         "pov_character_slug": "tyrion-lannister",
@@ -439,7 +403,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -579,7 +543,7 @@
         "sections": [
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -603,7 +567,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -632,18 +596,6 @@
         "in_raw_list": false
       },
       {
-        "chapter_id": "affc-brienne-03",
-        "book": "affc",
-        "pov_character_slug": "brienne-tarth",
-        "mention_count": 1,
-        "sections": [
-          "Locations"
-        ],
-        "resolved_via": "alias",
-        "in_primary_section": true,
-        "in_raw_list": false
-      },
-      {
         "chapter_id": "affc-cersei-05",
         "book": "affc",
         "pov_character_slug": "cersei-lannister",
@@ -664,7 +616,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -707,30 +659,6 @@
         "in_raw_list": false
       },
       {
-        "chapter_id": "adwd-the-iron-suitor-01",
-        "book": "adwd",
-        "pov_character_slug": "victarion-greyjoy",
-        "mention_count": 1,
-        "sections": [
-          "Raw Entity List > Locations"
-        ],
-        "resolved_via": "alias",
-        "in_primary_section": false,
-        "in_raw_list": true
-      },
-      {
-        "chapter_id": "adwd-the-merchants-man-01",
-        "book": "adwd",
-        "pov_character_slug": "quentyn-martell",
-        "mention_count": 1,
-        "sections": [
-          "Raw Entity List > Locations"
-        ],
-        "resolved_via": "alias",
-        "in_primary_section": false,
-        "in_raw_list": true
-      },
-      {
         "chapter_id": "adwd-the-watcher-01",
         "book": "adwd",
         "pov_character_slug": "areo-hotah",
@@ -751,7 +679,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },

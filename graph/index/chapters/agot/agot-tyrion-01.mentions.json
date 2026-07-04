@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-01",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.448132+00:00",
+  "generated_at": "2026-07-04T21:33:40.417219+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-01.extraction.md",
   "stats": {
     "total_mentions": 94,
-    "resolved_to_node": 65,
-    "direct": 64,
-    "alias": 1,
-    "unresolved": 29
+    "resolved_to_node": 66,
+    "direct": 59,
+    "alias": 7,
+    "unresolved": 28
   },
   "mentions": [
     {
@@ -222,7 +222,7 @@
     {
       "raw_name": "The maester (at Winterfell)",
       "slug": "maester",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/maester.node.md",
       "section": "Characters Referenced",
@@ -285,7 +285,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The North (implied — \"these northern gods\")",
       "slug": "north",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/north.node.md",
       "section": "Raw Entity List > Locations",
@@ -680,10 +680,10 @@
     },
     {
       "raw_name": "The Seven (implied by Septon Chayle's role and crystal of his order)",
-      "slug": "the-seven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 256
     },
@@ -816,7 +816,7 @@
     {
       "raw_name": "The King (Robert)",
       "slug": "king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king.node.md",
       "section": "Raw Entity List > Titles & Offices",

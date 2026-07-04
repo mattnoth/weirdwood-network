@@ -2,13 +2,13 @@
   "chapter_id": "adwd-cersei-01",
   "book": "adwd",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.632094+00:00",
+  "generated_at": "2026-07-04T21:33:40.571249+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-cersei-01.extraction.md",
   "stats": {
     "total_mentions": 69,
     "resolved_to_node": 57,
-    "direct": 53,
-    "alias": 4,
+    "direct": 50,
+    "alias": 7,
     "unresolved": 12
   },
   "mentions": [
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Blue Bard",
       "slug": "blue-bard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/blue-bard.node.md",
       "section": "Characters Referenced",
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Sword of the Morning",
       "slug": "sword-of-the-morning",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sword-of-the-morning.node.md",
       "section": "Characters Referenced",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",

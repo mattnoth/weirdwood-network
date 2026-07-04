@@ -2,14 +2,14 @@
   "chapter_id": "asos-epilogue",
   "book": "asos",
   "pov_character": "asos-epilogue",
-  "generated_at": "2026-05-12T21:45:31.544960+00:00",
+  "generated_at": "2026-07-04T21:33:40.500877+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-epilogue.extraction.md",
   "stats": {
     "total_mentions": 63,
-    "resolved_to_node": 45,
-    "direct": 39,
-    "alias": 6,
-    "unresolved": 18
+    "resolved_to_node": 46,
+    "direct": 36,
+    "alias": 10,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -338,10 +338,10 @@
     },
     {
       "raw_name": "Ser Pate (of the Blue Fork)",
-      "slug": "ser-pate",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
       "section": "Characters Referenced",
       "line": 71
     },
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -465,7 +465,7 @@
     {
       "raw_name": "The godswood (at Oldstones)",
       "slug": "godswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

@@ -2,13 +2,13 @@
   "chapter_id": "acok-bran-06",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.470065+00:00",
+  "generated_at": "2026-07-04T21:33:40.433185+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-06.extraction.md",
   "stats": {
     "total_mentions": 87,
     "resolved_to_node": 62,
-    "direct": 58,
-    "alias": 4,
+    "direct": 54,
+    "alias": 8,
     "unresolved": 25
   },
   "mentions": [
@@ -645,7 +645,7 @@
     {
       "raw_name": "The barrowlands",
       "slug": "barrowlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/barrowlands.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Saltspear",
       "slug": "saltspear",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/saltspear.node.md",
       "section": "Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",

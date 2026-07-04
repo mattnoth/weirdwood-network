@@ -3,11 +3,11 @@
   "name": "Anguy",
   "type": "character.human",
   "node_path": "graph/nodes/characters/anguy.node.md",
-  "generated_at": "2026-07-01T19:57:37.868463+00:00",
+  "generated_at": "2026-07-04T23:34:19.932508+00:00",
   "stats": {
-    "appearances_total": 18,
+    "appearances_total": 19,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 10,
+    "chapters_mentioned_in": 11,
     "out_edge_count": 4,
     "in_edge_count": 37
   },
@@ -121,6 +121,16 @@
           "Raw Entity List > Characters"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-brienne-03",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
       }
     ]
   }

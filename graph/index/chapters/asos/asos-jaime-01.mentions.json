@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-01",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.545963+00:00",
+  "generated_at": "2026-07-04T21:33:40.501636+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-01.extraction.md",
   "stats": {
     "total_mentions": 135,
-    "resolved_to_node": 91,
-    "direct": 84,
-    "alias": 7,
-    "unresolved": 44
+    "resolved_to_node": 89,
+    "direct": 76,
+    "alias": 13,
+    "unresolved": 46
   },
   "mentions": [
     {
@@ -258,7 +258,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -330,7 +330,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Raw Entity List > Characters",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Seven Kingdoms",
       "slug": "seven-kingdoms",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
       "section": "Raw Entity List > Locations",
@@ -825,7 +825,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -959,10 +959,10 @@
     },
     {
       "raw_name": "The old gods",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 288
     },
@@ -978,7 +978,7 @@
     {
       "raw_name": "The High Septon (clergy)",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1131,9 +1131,9 @@
     {
       "raw_name": "Battle of the Green Fork (Bolton defeated by Tywin)",
       "slug": "battle-of-the-green-fork",
-      "resolved_via": "direct",
-      "node_type": "event",
-      "node_path": "graph/nodes/events/battle-of-the-green-fork.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Wars & Conflicts",
       "line": 320
     },

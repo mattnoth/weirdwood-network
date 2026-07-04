@@ -2,13 +2,13 @@
   "chapter_id": "acok-arya-01",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.453199+00:00",
+  "generated_at": "2026-07-04T21:33:40.422329+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-01.extraction.md",
   "stats": {
     "total_mentions": 95,
     "resolved_to_node": 48,
-    "direct": 45,
-    "alias": 3,
+    "direct": 32,
+    "alias": 16,
     "unresolved": 47
   },
   "mentions": [
@@ -177,7 +177,7 @@
     {
       "raw_name": "The queen (Cersei)",
       "slug": "queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/queen.node.md",
       "section": "Characters Referenced",
@@ -276,7 +276,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -303,7 +303,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -312,7 +312,7 @@
     {
       "raw_name": "The Great Sept of Baelor",
       "slug": "great-sept-of-baelor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/great-sept-of-baelor.node.md",
       "section": "Locations",
@@ -330,7 +330,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The kingsroad (north of King's Landing)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Location Descriptions",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The red comet",
       "slug": "red-comet",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Great Sept of Baelor (the sept where her father died)",
       "slug": "great-sept-of-baelor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/great-sept-of-baelor.node.md",
       "section": "Raw Entity List > Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Raw Entity List > Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The red comet (\"The Red Sword\")",
       "slug": "red-comet",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
@@ -825,7 +825,7 @@
     {
       "raw_name": "The red comet (great red comet visible at night; called \"The Red Sword\" by the Bull)",
       "slug": "red-comet",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

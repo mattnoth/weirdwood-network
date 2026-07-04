@@ -3,7 +3,7 @@
   "name": "Dusky woman",
   "type": "character.human",
   "node_path": "graph/nodes/characters/dusky-woman.node.md",
-  "generated_at": "2026-07-01T19:57:38.057715+00:00",
+  "generated_at": "2026-07-04T23:34:20.119090+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_pov": 0,
@@ -23,7 +23,7 @@
           "Character Appearances",
           "Characters Present"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "adwd-the-iron-suitor-01",
@@ -35,7 +35,7 @@
           "Characters Present",
           "Raw Entity List > Characters"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "adwd-victarion-01",
@@ -45,7 +45,7 @@
         "sections": [
           "Characters Present"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       }
     ]
   }

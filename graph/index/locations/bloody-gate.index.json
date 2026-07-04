@@ -3,7 +3,7 @@
   "name": "Bloody Gate",
   "type": "place.location",
   "node_path": "graph/nodes/locations/bloody-gate.node.md",
-  "generated_at": "2026-07-01T19:57:31.164812+00:00",
+  "generated_at": "2026-07-04T23:34:13.164757+00:00",
   "stats": {
     "appearances_total": 13,
     "chapters_referenced_in": 9,
@@ -23,7 +23,7 @@
           "Location Descriptions",
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -35,7 +35,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -47,7 +47,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -59,7 +59,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -72,7 +72,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -85,7 +85,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -98,7 +98,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -110,7 +110,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -137,7 +137,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -150,7 +150,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -163,7 +163,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       }
@@ -178,7 +178,7 @@
           "Location Descriptions",
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -190,7 +190,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -202,7 +202,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -214,7 +214,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -227,7 +227,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -240,7 +240,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -253,7 +253,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -265,7 +265,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },

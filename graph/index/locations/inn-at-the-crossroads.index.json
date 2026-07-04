@@ -3,18 +3,44 @@
   "name": "Inn At The Crossroads",
   "type": "place.location",
   "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
-  "generated_at": "2026-07-01T19:57:31.131421+00:00",
+  "generated_at": "2026-07-04T23:34:13.133875+00:00",
   "stats": {
-    "appearances_total": 2,
-    "chapters_referenced_in": 2,
-    "chapters_in_raw_list": 0,
+    "appearances_total": 15,
+    "chapters_referenced_in": 10,
+    "chapters_in_raw_list": 2,
     "out_edge_count": 0,
     "in_edge_count": 69,
-    "chapters_in_locations_section": 2
+    "chapters_in_locations_section": 10
   },
   "chapters": {
     "in_locations_section": [
       {
+        "chapter_id": "agot-catelyn-05",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-tyrion-04",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "agot-tyrion-07",
         "book": "agot",
         "pov_character_slug": "tyrion-lannister",
@@ -34,13 +60,141 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-05",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-07",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-08",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-03",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-the-ugly-little-girl-01",
+        "book": "adwd",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
       }
     ],
-    "in_raw_list": [],
+    "in_raw_list": [
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-ugly-little-girl-01",
+        "book": "adwd",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
     "referenced_in": [
+      {
+        "chapter_id": "agot-catelyn-05",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-tyrion-04",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
       {
         "chapter_id": "agot-tyrion-07",
         "book": "agot",
@@ -61,9 +215,84 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-05",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-07",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-08",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-03",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-the-ugly-little-girl-01",
+        "book": "adwd",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
       }
     ]
   }

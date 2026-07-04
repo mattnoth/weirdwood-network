@@ -2,14 +2,14 @@
   "chapter_id": "asos-davos-02",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.540896+00:00",
+  "generated_at": "2026-07-04T21:33:40.498269+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-02.extraction.md",
   "stats": {
     "total_mentions": 68,
-    "resolved_to_node": 54,
-    "direct": 54,
-    "alias": 0,
-    "unresolved": 14
+    "resolved_to_node": 53,
+    "direct": 51,
+    "alias": 2,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -285,9 +285,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 65
     },
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Mother (deity)",
       "slug": "mother",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/mother.node.md",
       "section": "Characters Referenced",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Gullet",
       "slug": "gullet",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gullet.node.md",
       "section": "Locations",

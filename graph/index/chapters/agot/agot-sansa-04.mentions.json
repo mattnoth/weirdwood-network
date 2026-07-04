@@ -2,14 +2,14 @@
   "chapter_id": "agot-sansa-04",
   "book": "agot",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.446196+00:00",
+  "generated_at": "2026-07-04T21:33:40.415322+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-sansa-04.extraction.md",
   "stats": {
     "total_mentions": 53,
-    "resolved_to_node": 44,
-    "direct": 42,
-    "alias": 2,
-    "unresolved": 9
+    "resolved_to_node": 45,
+    "direct": 40,
+    "alias": 5,
+    "unresolved": 8
   },
   "mentions": [
     {
@@ -266,10 +266,10 @@
     },
     {
       "raw_name": "Florian",
-      "slug": "florian",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dontos-hollard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
       "section": "Characters Referenced",
       "line": 63
     },
@@ -294,7 +294,7 @@
     {
       "raw_name": "The Rainbow Knight",
       "slug": "rainbow-knight",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/rainbow-knight.node.md",
       "section": "Characters Referenced",
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",

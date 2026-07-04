@@ -3,14 +3,14 @@
   "name": "Dagger",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/dagger.node.md",
-  "generated_at": "2026-07-01T19:57:31.543284+00:00",
+  "generated_at": "2026-07-04T23:34:13.550660+00:00",
   "stats": {
-    "appearances_total": 14,
-    "chapters_referenced_in": 11,
+    "appearances_total": 15,
+    "chapters_referenced_in": 12,
     "chapters_in_raw_list": 5,
     "out_edge_count": 0,
     "in_edge_count": 1,
-    "chapters_in_artifacts_section": 9
+    "chapters_in_artifacts_section": 10
   },
   "chapters": {
     "in_artifacts_section": [
@@ -22,7 +22,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -84,6 +84,18 @@
           "Artifacts & Objects of Significance"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-epilogue",
+        "book": "adwd",
+        "pov_character_slug": "kevan-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -212,7 +224,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -286,6 +298,18 @@
           "Artifacts & Objects of Significance"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-epilogue",
+        "book": "adwd",
+        "pov_character_slug": "kevan-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },

@@ -3,7 +3,7 @@
   "name": "King-Beyond-The-Wall",
   "type": "title",
   "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
-  "generated_at": "2026-07-01T19:57:32.724871+00:00",
+  "generated_at": "2026-07-04T23:34:14.742658+00:00",
   "stats": {
     "appearances_total": 13,
     "chapters_referenced_in": 12,
@@ -179,7 +179,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -276,7 +276,7 @@
           "Characters Referenced",
           "Raw Entity List > Characters"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

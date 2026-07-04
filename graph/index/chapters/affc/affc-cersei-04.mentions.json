@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-04",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.598977+00:00",
+  "generated_at": "2026-07-04T21:33:40.544047+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-04.extraction.md",
   "stats": {
     "total_mentions": 125,
-    "resolved_to_node": 95,
-    "direct": 90,
-    "alias": 5,
-    "unresolved": 30
+    "resolved_to_node": 94,
+    "direct": 85,
+    "alias": 9,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -617,10 +617,10 @@
     },
     {
       "raw_name": "Catelyn Tully/Stark",
-      "slug": "catelyn-stark",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "slug": "catelyn-tully-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 102
     },
@@ -852,7 +852,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Locations",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -1014,7 +1014,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The North",
       "slug": "north",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/north.node.md",
       "section": "Locations",
@@ -1032,7 +1032,7 @@
     {
       "raw_name": "The Seastone Chair",
       "slug": "seastone-chair",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Locations",

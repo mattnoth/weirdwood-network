@@ -2,13 +2,13 @@
   "chapter_id": "asos-daenerys-02",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.537105+00:00",
+  "generated_at": "2026-07-04T21:33:40.494110+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-02.extraction.md",
   "stats": {
     "total_mentions": 76,
     "resolved_to_node": 61,
-    "direct": 53,
-    "alias": 8,
+    "direct": 51,
+    "alias": 10,
     "unresolved": 15
   },
   "mentions": [
@@ -339,7 +339,7 @@
     {
       "raw_name": "The Worm (river)",
       "slug": "worm",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/worm.node.md",
       "section": "Locations",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

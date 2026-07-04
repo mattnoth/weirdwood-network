@@ -3,10 +3,10 @@
   "name": "Silent Sisters",
   "type": "organization.faction",
   "node_path": "graph/nodes/factions/silent-sisters.node.md",
-  "generated_at": "2026-07-01T19:57:32.325649+00:00",
+  "generated_at": "2026-07-04T23:34:14.338646+00:00",
   "stats": {
-    "appearances_total": 14,
-    "chapters_referenced_in": 12,
+    "appearances_total": 12,
+    "chapters_referenced_in": 11,
     "chapters_in_raw_list": 7,
     "out_edge_count": 0,
     "in_edge_count": 47
@@ -100,19 +100,6 @@
       }
     ],
     "referenced_in": [
-      {
-        "chapter_id": "agot-eddard-07",
-        "book": "agot",
-        "pov_character_slug": "eddard-stark",
-        "mention_count": 2,
-        "sections": [
-          "Character Appearances",
-          "Characters Present"
-        ],
-        "resolved_via": "alias",
-        "in_primary_section": false,
-        "in_raw_list": false
-      },
       {
         "chapter_id": "acok-arya-07",
         "book": "acok",

@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-10",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.461156+00:00",
+  "generated_at": "2026-07-04T21:33:40.428799+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-10.extraction.md",
   "stats": {
     "total_mentions": 102,
-    "resolved_to_node": 85,
-    "direct": 78,
-    "alias": 7,
-    "unresolved": 17
+    "resolved_to_node": 87,
+    "direct": 73,
+    "alias": 14,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -140,10 +140,10 @@
     },
     {
       "raw_name": "Postern guard (unnamed)",
-      "slug": "postern-guard",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "postern-guard-of-harrenhal",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/postern-guard-of-harrenhal.node.md",
       "section": "Characters Present",
       "line": 41
     },
@@ -221,10 +221,10 @@
     },
     {
       "raw_name": "Postern guard",
-      "slug": "postern-guard",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "postern-guard-of-harrenhal",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/postern-guard-of-harrenhal.node.md",
       "section": "Character Appearances",
       "line": 54
     },
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",

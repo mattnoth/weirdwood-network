@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-07",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.451303+00:00",
+  "generated_at": "2026-07-04T21:33:40.420400+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 65,
-    "resolved_to_node": 43,
-    "direct": 42,
+    "resolved_to_node": 42,
+    "direct": 41,
     "alias": 1,
-    "unresolved": 22
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -203,10 +203,10 @@
     },
     {
       "raw_name": "Gunthor son of Gurn",
-      "slug": "gunthor",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/gunthor.node.md",
+      "slug": "gunthor-son-of-gurn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 56
     },
@@ -501,7 +501,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",

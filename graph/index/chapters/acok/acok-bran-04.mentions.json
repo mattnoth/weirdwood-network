@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-04",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.468674+00:00",
+  "generated_at": "2026-07-04T21:33:40.431857+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-04.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 76,
-    "direct": 69,
-    "alias": 7,
-    "unresolved": 30
+    "resolved_to_node": 75,
+    "direct": 66,
+    "alias": 9,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -303,7 +303,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Summer Sea (mentioned in Jojen's speech)",
       "slug": "summer-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/summer-sea.node.md",
       "section": "Raw Entity List > Locations",
@@ -761,10 +761,10 @@
     },
     {
       "raw_name": "Old Gods (implied — godswood, weirwood tree with face)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 277
     },
@@ -896,19 +896,19 @@
     },
     {
       "raw_name": "Greenseers (wise men of the children of the forest — could see through weirwood eyes, command beasts and birds)",
-      "slug": "greenseers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "greenseer",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/greenseer.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 301
     },
     {
       "raw_name": "The higher mysteries (what the Citadel calls magic; studied by few maesters)",
-      "slug": "magic",
-      "resolved_via": "alias",
-      "node_type": "concept",
-      "node_path": "graph/nodes/concepts/magic.node.md",
+      "slug": "the-higher-mysteries",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 302
     },

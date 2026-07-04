@@ -2,13 +2,13 @@
   "chapter_id": "acok-bran-05",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.469411+00:00",
+  "generated_at": "2026-07-04T21:33:40.432593+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-05.extraction.md",
   "stats": {
     "total_mentions": 135,
     "resolved_to_node": 107,
-    "direct": 102,
-    "alias": 5,
+    "direct": 100,
+    "alias": 7,
     "unresolved": 28
   },
   "mentions": [
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -995,19 +995,19 @@
     },
     {
       "raw_name": "The Seven (implied by septon)",
-      "slug": "the-seven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 298
     },
     {
       "raw_name": "Old Gods (implied by heart tree reference in forced marriage)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 299
     },

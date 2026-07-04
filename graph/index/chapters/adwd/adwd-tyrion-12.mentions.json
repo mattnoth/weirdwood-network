@@ -2,13 +2,13 @@
   "chapter_id": "adwd-tyrion-12",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.684926+00:00",
+  "generated_at": "2026-07-04T21:33:40.626047+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-12.extraction.md",
   "stats": {
     "total_mentions": 151,
     "resolved_to_node": 90,
-    "direct": 79,
-    "alias": 11,
+    "direct": 74,
+    "alias": 16,
     "unresolved": 61
   },
   "mentions": [
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Green Fork",
       "slug": "green-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/green-fork.node.md",
       "section": "Locations",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The Green Fork (battle site)",
       "slug": "green-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/green-fork.node.md",
       "section": "Raw Entity List > Locations",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1229,10 +1229,10 @@
     },
     {
       "raw_name": "Dragons (Meereen's three dragons referenced by Jorah)",
-      "slug": "dragons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dragon.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 344
     },
@@ -1257,9 +1257,9 @@
     {
       "raw_name": "Battle of the Green Fork (referenced by Tyrion)",
       "slug": "battle-of-the-green-fork",
-      "resolved_via": "direct",
-      "node_type": "event",
-      "node_path": "graph/nodes/events/battle-of-the-green-fork.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Wars & Conflicts",
       "line": 349
     },

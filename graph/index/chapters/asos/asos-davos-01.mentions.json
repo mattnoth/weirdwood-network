@@ -2,7 +2,7 @@
   "chapter_id": "asos-davos-01",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.540350+00:00",
+  "generated_at": "2026-07-04T21:33:40.497761+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-01.extraction.md",
   "stats": {
     "total_mentions": 106,
@@ -374,10 +374,10 @@
     },
     {
       "raw_name": "The Seven (statues)",
-      "slug": "the-seven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 87
     },
@@ -725,10 +725,10 @@
     },
     {
       "raw_name": "Old Gods (implied — the godswood and heart tree at Storm's End burned)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 256
     },

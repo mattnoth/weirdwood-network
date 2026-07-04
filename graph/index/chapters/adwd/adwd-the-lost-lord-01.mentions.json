@@ -2,13 +2,13 @@
   "chapter_id": "adwd-the-lost-lord-01",
   "book": "adwd",
   "pov_character": "the-lost-lord",
-  "generated_at": "2026-05-12T21:45:31.664636+00:00",
+  "generated_at": "2026-07-04T21:33:40.602624+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-lost-lord-01.extraction.md",
   "stats": {
     "total_mentions": 100,
     "resolved_to_node": 65,
-    "direct": 61,
-    "alias": 4,
+    "direct": 53,
+    "alias": 12,
     "unresolved": 35
   },
   "mentions": [
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Shy Maid",
       "slug": "shy-maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/shy-maid.node.md",
       "section": "Locations",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Rhoyne",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Locations",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Sorrows",
       "slug": "sorrows",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sorrows.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Disputed Lands",
       "slug": "disputed-lands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/disputed-lands.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The demon road",
       "slug": "demon-road",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/demon-road.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Shy Maid",
       "slug": "shy-maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/shy-maid.node.md",
       "section": "Location Descriptions",

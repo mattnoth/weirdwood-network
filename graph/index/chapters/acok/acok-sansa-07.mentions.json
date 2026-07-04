@@ -2,13 +2,13 @@
   "chapter_id": "acok-sansa-07",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.495710+00:00",
+  "generated_at": "2026-07-04T21:33:40.459964+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-07.extraction.md",
   "stats": {
     "total_mentions": 54,
     "resolved_to_node": 43,
-    "direct": 41,
-    "alias": 2,
+    "direct": 38,
+    "alias": 5,
     "unresolved": 11
   },
   "mentions": [
@@ -303,7 +303,7 @@
     {
       "raw_name": "The Mud Gate",
       "slug": "mud-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/mud-gate.node.md",
       "section": "Locations",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The roseroad",
       "slug": "roseroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/roseroad.node.md",
       "section": "Locations",

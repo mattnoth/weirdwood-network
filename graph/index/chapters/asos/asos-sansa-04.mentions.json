@@ -2,13 +2,13 @@
   "chapter_id": "asos-sansa-04",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.573672+00:00",
+  "generated_at": "2026-07-04T21:33:40.521263+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-04.extraction.md",
   "stats": {
     "total_mentions": 85,
     "resolved_to_node": 67,
-    "direct": 62,
-    "alias": 5,
+    "direct": 57,
+    "alias": 10,
     "unresolved": 18
   },
   "mentions": [
@@ -501,7 +501,7 @@
     {
       "raw_name": "The solar",
       "slug": "solar",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/solar.node.md",
       "section": "Locations",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Boneway",
       "slug": "boneway",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/boneway.node.md",
       "section": "Locations",

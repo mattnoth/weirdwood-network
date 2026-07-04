@@ -2,13 +2,13 @@
   "chapter_id": "affc-jaime-05",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.609450+00:00",
+  "generated_at": "2026-07-04T21:33:40.551748+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-05.extraction.md",
   "stats": {
     "total_mentions": 127,
     "resolved_to_node": 97,
-    "direct": 89,
-    "alias": 8,
+    "direct": 85,
+    "alias": 12,
     "unresolved": 30
   },
   "mentions": [
@@ -555,9 +555,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 95
     },
@@ -761,10 +761,10 @@
     },
     {
       "raw_name": "The Ebon Prince",
-      "slug": "the-ebon-prince",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "xhobar-qhoqua",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xhobar-qhoqua.node.md",
       "section": "Characters Referenced",
       "line": 118
     },
@@ -942,7 +942,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -960,7 +960,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -969,7 +969,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",

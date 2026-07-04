@@ -2,13 +2,13 @@
   "chapter_id": "affc-the-iron-captain-01",
   "book": "affc",
   "pov_character": "the-iron-captain",
-  "generated_at": "2026-05-12T21:45:31.621925+00:00",
+  "generated_at": "2026-07-04T21:33:40.562571+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-iron-captain-01.extraction.md",
   "stats": {
     "total_mentions": 97,
     "resolved_to_node": 79,
-    "direct": 72,
-    "alias": 7,
+    "direct": 70,
+    "alias": 9,
     "unresolved": 18
   },
   "mentions": [
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",

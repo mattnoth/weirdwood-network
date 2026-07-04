@@ -2,13 +2,13 @@
   "chapter_id": "asos-jaime-09",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.557939+00:00",
+  "generated_at": "2026-07-04T21:33:40.506835+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-09.extraction.md",
   "stats": {
     "total_mentions": 90,
     "resolved_to_node": 82,
-    "direct": 75,
-    "alias": 7,
+    "direct": 73,
+    "alias": 9,
     "unresolved": 8
   },
   "mentions": [
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The White Book (Book of Brothers)",
       "slug": "white-book",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/white-book.node.md",
       "section": "Artifacts & Objects of Significance",

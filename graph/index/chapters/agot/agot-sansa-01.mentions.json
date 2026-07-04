@@ -2,14 +2,14 @@
   "chapter_id": "agot-sansa-01",
   "book": "agot",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.444364+00:00",
+  "generated_at": "2026-07-04T21:33:40.413863+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-sansa-01.extraction.md",
   "stats": {
     "total_mentions": 51,
-    "resolved_to_node": 37,
-    "direct": 36,
-    "alias": 1,
-    "unresolved": 14
+    "resolved_to_node": 36,
+    "direct": 33,
+    "alias": 3,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -249,9 +249,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 61
     },
@@ -330,7 +330,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Neck (recalled)",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Location Descriptions",

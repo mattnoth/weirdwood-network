@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-05",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-12T21:45:31.591872+00:00",
+  "generated_at": "2026-07-04T21:33:40.538226+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-05.extraction.md",
   "stats": {
     "total_mentions": 68,
-    "resolved_to_node": 53,
-    "direct": 48,
-    "alias": 5,
-    "unresolved": 15
+    "resolved_to_node": 54,
+    "direct": 41,
+    "alias": 13,
+    "unresolved": 14
   },
   "mentions": [
     {
@@ -222,7 +222,7 @@
     {
       "raw_name": "The red priest",
       "slug": "red-priest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/red-priest.node.md",
       "section": "Characters Referenced",
@@ -294,7 +294,7 @@
     {
       "raw_name": "The Stinking Goose",
       "slug": "stinking-goose",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stinking-goose.node.md",
       "section": "Locations",
@@ -339,7 +339,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -374,17 +374,17 @@
     },
     {
       "raw_name": "The crossroads inn",
-      "slug": "the-crossroads-inn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Locations",
       "line": 79
     },
     {
       "raw_name": "The Quiet Isle",
       "slug": "quiet-isle",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/quiet-isle.node.md",
       "section": "Locations",
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",

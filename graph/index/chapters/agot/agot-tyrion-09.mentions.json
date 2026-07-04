@@ -2,13 +2,13 @@
   "chapter_id": "agot-tyrion-09",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.452371+00:00",
+  "generated_at": "2026-07-04T21:33:40.421362+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-09.extraction.md",
   "stats": {
     "total_mentions": 74,
     "resolved_to_node": 62,
-    "direct": 58,
-    "alias": 4,
+    "direct": 56,
+    "alias": 6,
     "unresolved": 12
   },
   "mentions": [
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Tumblestone",
       "slug": "tumblestone",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/tumblestone.node.md",
       "section": "Locations",

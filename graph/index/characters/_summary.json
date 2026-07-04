@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:57:38.083784+00:00",
+  "generated_at": "2026-07-04T23:34:20.144041+00:00",
   "dry_run": false,
   "character_count": 3913,
   "type_counts": {
@@ -9,10 +9,10 @@
     "character.minor": 1
   },
   "pov_characters_count": 31,
-  "characters_with_zero_mentions": 2153,
+  "characters_with_zero_mentions": 2151,
   "year_pages_emitted_as_characters": 0,
   "pov_inverse_slugs": 31,
-  "mention_inverse_slugs": 9419,
+  "mention_inverse_slugs": 9356,
   "top_by_appearances": [
     {
       "slug": "eddard-stark",
@@ -20,7 +20,7 @@
       "type": "character.human",
       "chapters_pov": 15,
       "chapters_mentioned_in": 185,
-      "appearances_total": 264,
+      "appearances_total": 267,
       "in_edge_count": 816,
       "out_edge_count": 22
     },
@@ -129,8 +129,8 @@
       "name": "Catelyn Stark",
       "type": "character.human",
       "chapters_pov": 25,
-      "chapters_mentioned_in": 98,
-      "appearances_total": 156,
+      "chapters_mentioned_in": 97,
+      "appearances_total": 155,
       "in_edge_count": 685,
       "out_edge_count": 19
     },
@@ -149,8 +149,8 @@
       "name": "Sandor Clegane",
       "type": "character.human",
       "chapters_pov": 0,
-      "chapters_mentioned_in": 88,
-      "appearances_total": 135,
+      "chapters_mentioned_in": 87,
+      "appearances_total": 134,
       "in_edge_count": 290,
       "out_edge_count": 6
     },
@@ -180,7 +180,7 @@
       "type": "character.human",
       "chapters_pov": 0,
       "chapters_mentioned_in": 78,
-      "appearances_total": 114,
+      "appearances_total": 113,
       "in_edge_count": 285,
       "out_edge_count": 11
     },
@@ -199,8 +199,8 @@
       "name": "Petyr Baelish",
       "type": "character.human",
       "chapters_pov": 0,
-      "chapters_mentioned_in": 72,
-      "appearances_total": 101,
+      "chapters_mentioned_in": 73,
+      "appearances_total": 102,
       "in_edge_count": 419,
       "out_edge_count": 12
     },
@@ -261,8 +261,8 @@
       "name": "Daenerys Targaryen",
       "type": "character.human",
       "chapters_pov": 31,
-      "chapters_mentioned_in": 32,
-      "appearances_total": 77,
+      "chapters_mentioned_in": 31,
+      "appearances_total": 76,
       "in_edge_count": 968,
       "out_edge_count": 19
     },
@@ -302,7 +302,7 @@
       "type": "character.human",
       "chapters_pov": 15,
       "chapters_mentioned_in": 185,
-      "appearances_total": 264,
+      "appearances_total": 267,
       "in_edge_count": 816,
       "out_edge_count": 22
     },
@@ -341,8 +341,8 @@
       "name": "Catelyn Stark",
       "type": "character.human",
       "chapters_pov": 25,
-      "chapters_mentioned_in": 98,
-      "appearances_total": 156,
+      "chapters_mentioned_in": 97,
+      "appearances_total": 155,
       "in_edge_count": 685,
       "out_edge_count": 19
     },
@@ -453,8 +453,8 @@
       "name": "Daenerys Targaryen",
       "type": "character.human",
       "chapters_pov": 31,
-      "chapters_mentioned_in": 32,
-      "appearances_total": 77,
+      "chapters_mentioned_in": 31,
+      "appearances_total": 76,
       "in_edge_count": 968,
       "out_edge_count": 19
     },
@@ -463,8 +463,8 @@
       "name": "Catelyn Stark",
       "type": "character.human",
       "chapters_pov": 25,
-      "chapters_mentioned_in": 98,
-      "appearances_total": 156,
+      "chapters_mentioned_in": 97,
+      "appearances_total": 155,
       "in_edge_count": 685,
       "out_edge_count": 19
     },
@@ -504,7 +504,7 @@
       "type": "character.human",
       "chapters_pov": 15,
       "chapters_mentioned_in": 185,
-      "appearances_total": 264,
+      "appearances_total": 267,
       "in_edge_count": 816,
       "out_edge_count": 22
     },
@@ -543,8 +543,8 @@
       "name": "Samwell Tarly",
       "type": "character.human",
       "chapters_pov": 10,
-      "chapters_mentioned_in": 24,
-      "appearances_total": 53,
+      "chapters_mentioned_in": 29,
+      "appearances_total": 60,
       "in_edge_count": 379,
       "out_edge_count": 9
     },

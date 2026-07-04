@@ -3,17 +3,37 @@
   "name": "Dontos Hollard",
   "type": "character.human",
   "node_path": "graph/nodes/characters/dontos-hollard.node.md",
-  "generated_at": "2026-07-01T19:57:37.749463+00:00",
+  "generated_at": "2026-07-04T23:34:19.816236+00:00",
   "stats": {
-    "appearances_total": 34,
+    "appearances_total": 42,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 20,
+    "chapters_mentioned_in": 22,
     "out_edge_count": 6,
     "in_edge_count": 66
   },
   "chapters": {
     "pov": [],
     "mentioned_in": [
+      {
+        "chapter_id": "agot-sansa-03",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "agot-sansa-04",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
       {
         "chapter_id": "agot-sansa-05",
         "book": "agot",
@@ -39,10 +59,11 @@
         "chapter_id": "acok-sansa-02",
         "book": "acok",
         "pov_character_slug": "sansa-stark",
-        "mention_count": 3,
+        "mention_count": 5,
         "sections": [
           "Character Appearances",
           "Characters Present",
+          "Characters Referenced",
           "Raw Entity List > Characters"
         ],
         "resolved_via": "direct"
@@ -51,11 +72,12 @@
         "chapter_id": "acok-sansa-03",
         "book": "acok",
         "pov_character_slug": "sansa-stark",
-        "mention_count": 3,
+        "mention_count": 4,
         "sections": [
           "Character Appearances",
           "Characters Present",
-          "Raw Entity List > Characters"
+          "Raw Entity List > Characters",
+          "Raw Entity List > Other"
         ],
         "resolved_via": "direct"
       },
@@ -63,10 +85,11 @@
         "chapter_id": "acok-sansa-04",
         "book": "acok",
         "pov_character_slug": "sansa-stark",
-        "mention_count": 2,
+        "mention_count": 3,
         "sections": [
           "Character Appearances",
-          "Characters Present"
+          "Characters Present",
+          "Characters Referenced"
         ],
         "resolved_via": "direct"
       },
@@ -85,9 +108,10 @@
         "chapter_id": "acok-sansa-06",
         "book": "acok",
         "pov_character_slug": "sansa-stark",
-        "mention_count": 2,
+        "mention_count": 4,
         "sections": [
           "Characters Present",
+          "Characters Referenced",
           "Raw Entity List > Characters"
         ],
         "resolved_via": "direct"

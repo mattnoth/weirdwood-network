@@ -2,7 +2,7 @@
 name: "Tyrion Tanner"
 type: character.human
 slug: tyrion-tanner
-aliases: [""of the hundred fathers""]
+aliases: ["\"of the hundred fathers\""]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyrion_Tanner"
 bucket_id: characters-house-stokeworth

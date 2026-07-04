@@ -2,13 +2,13 @@
   "chapter_id": "acok-arya-07",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.457697+00:00",
+  "generated_at": "2026-07-04T21:33:40.426651+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-07.extraction.md",
   "stats": {
     "total_mentions": 100,
     "resolved_to_node": 83,
-    "direct": 78,
-    "alias": 5,
+    "direct": 76,
+    "alias": 7,
     "unresolved": 17
   },
   "mentions": [
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Green Fork",
       "slug": "green-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/green-fork.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",

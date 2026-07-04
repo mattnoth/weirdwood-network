@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-05",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.679048+00:00",
+  "generated_at": "2026-07-04T21:33:40.619913+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-05.extraction.md",
   "stats": {
     "total_mentions": 140,
-    "resolved_to_node": 98,
-    "direct": 87,
-    "alias": 11,
-    "unresolved": 42
+    "resolved_to_node": 99,
+    "direct": 79,
+    "alias": 20,
+    "unresolved": 41
   },
   "mentions": [
     {
@@ -239,17 +239,17 @@
     },
     {
       "raw_name": "The Shrouded Lord",
-      "slug": "shrouded-lord",
-      "resolved_via": "direct",
+      "slug": "garin-the-great",
+      "resolved_via": "alias",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/shrouded-lord.node.md",
+      "node_path": "graph/nodes/characters/garin-the-great.node.md",
       "section": "Characters Referenced",
       "line": 60
     },
     {
       "raw_name": "The Sorrows",
       "slug": "sorrows",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sorrows.node.md",
       "section": "Locations",
@@ -267,7 +267,7 @@
     {
       "raw_name": "The Rhoyne (river)",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Locations",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The Shy Maid",
       "slug": "shy-maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/shy-maid.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -644,10 +644,10 @@
     },
     {
       "raw_name": "The Shrouded Lord (referenced — ruler of the Sorrows; multiple figures, current one a corsair)",
-      "slug": "shrouded-lord",
-      "resolved_via": "direct",
+      "slug": "garin-the-great",
+      "resolved_via": "alias",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/shrouded-lord.node.md",
+      "node_path": "graph/nodes/characters/garin-the-great.node.md",
       "section": "Raw Entity List > Characters",
       "line": 267
     },
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Sorrows",
       "slug": "sorrows",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sorrows.node.md",
       "section": "Raw Entity List > Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Rhoyne (Mother Rhoyne)",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Raw Entity List > Locations",
@@ -977,10 +977,10 @@
     },
     {
       "raw_name": "Septons (referenced as offering prayer, sacrifice, and fasting as greyscale cure)",
-      "slug": "septons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "septon",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/septon.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 312
     },
@@ -1032,7 +1032,7 @@
     {
       "raw_name": "The Shy Maid (poleboat)",
       "slug": "shy-maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/shy-maid.node.md",
       "section": "Raw Entity List > Artifacts & Objects",

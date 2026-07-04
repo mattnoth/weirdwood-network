@@ -2,13 +2,13 @@
   "chapter_id": "acok-tyrion-09",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.511842+00:00",
+  "generated_at": "2026-07-04T21:33:40.470283+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-09.extraction.md",
   "stats": {
     "total_mentions": 113,
     "resolved_to_node": 91,
-    "direct": 89,
-    "alias": 2,
+    "direct": 88,
+    "alias": 3,
     "unresolved": 22
   },
   "mentions": [
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Hook",
       "slug": "hook",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/hook.node.md",
       "section": "Locations",

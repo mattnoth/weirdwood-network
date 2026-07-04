@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T21:45:31.686238+00:00",
+  "generated_at": "2026-07-04T21:33:40.626719+00:00",
   "books_processed": [
     "agot",
     "acok",
@@ -7,17 +7,14 @@
     "affc",
     "adwd"
   ],
-  "dry_run": false,
+  "source": "all-node-alias-lookup.json (hardened table, query-layer step 4)",
   "chapters_processed": 344,
   "total_mentions": 37222,
-  "resolved": 27169,
-  "direct": 25264,
-  "alias": 1905,
-  "unresolved": 10053,
-  "resolution_rate_pct": 73.0,
-  "direct_pct": 67.9,
-  "alias_pct": 5.1,
-  "unresolved_pct": 27.0,
+  "resolved": 27348,
+  "direct": 23331,
+  "alias": 4017,
+  "unresolved": 9874,
+  "resolution_rate_pct": 73.5,
   "top_unresolved": [
     {
       "slug": "joffrey",
@@ -28,8 +25,16 @@
       "count": 27
     },
     {
+      "slug": "aerys-targaryen",
+      "count": 25
+    },
+    {
       "slug": "great-pyramid-of-meereen",
       "count": 24
+    },
+    {
+      "slug": "old-gods",
+      "count": 22
     },
     {
       "slug": "lady-tanda",
@@ -64,6 +69,10 @@
       "count": 18
     },
     {
+      "slug": "the-old-gods",
+      "count": 17
+    },
+    {
       "slug": "throne-room",
       "count": 17
     },
@@ -86,18 +95,52 @@
     {
       "slug": "king-robert",
       "count": 14
+    }
+  ],
+  "top_ambiguous_phrases": [
+    {
+      "phrase": "pate",
+      "count": 13
     },
     {
-      "slug": "lord-manderly",
-      "count": 14
+      "phrase": "giant",
+      "count": 7
     },
     {
-      "slug": "cersei",
-      "count": 14
+      "phrase": "ned",
+      "count": 3
     },
     {
-      "slug": "summer-islanders",
-      "count": 14
+      "phrase": "merry",
+      "count": 3
+    },
+    {
+      "phrase": "lord brynden",
+      "count": 3
+    },
+    {
+      "phrase": "silent sister",
+      "count": 2
+    },
+    {
+      "phrase": "wull",
+      "count": 2
+    },
+    {
+      "phrase": "prince that was promised",
+      "count": 1
+    },
+    {
+      "phrase": "sam the slayer",
+      "count": 1
+    },
+    {
+      "phrase": "mummer's farce",
+      "count": 1
+    },
+    {
+      "phrase": "boy king",
+      "count": 1
     }
   ]
 }

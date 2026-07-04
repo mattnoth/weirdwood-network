@@ -2,13 +2,13 @@
   "chapter_id": "acok-jon-01",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.485051+00:00",
+  "generated_at": "2026-07-04T21:33:40.448977+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-01.extraction.md",
   "stats": {
     "total_mentions": 88,
     "resolved_to_node": 64,
-    "direct": 58,
-    "alias": 6,
+    "direct": 50,
+    "alias": 14,
     "unresolved": 24
   },
   "mentions": [
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The King's Tower",
       "slug": "kings-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kings-tower.node.md",
       "section": "Locations",
@@ -546,7 +546,7 @@
     {
       "raw_name": "The sept (at Castle Black)",
       "slug": "sept",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sept.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Frozen Shore",
       "slug": "frozen-shore",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frozen-shore.node.md",
       "section": "Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The King's Tower",
       "slug": "kings-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kings-tower.node.md",
       "section": "Location Descriptions",

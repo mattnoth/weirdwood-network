@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-08",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.489648+00:00",
+  "generated_at": "2026-07-04T21:33:40.453627+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-08.extraction.md",
   "stats": {
     "total_mentions": 135,
-    "resolved_to_node": 80,
-    "direct": 68,
-    "alias": 12,
-    "unresolved": 55
+    "resolved_to_node": 82,
+    "direct": 61,
+    "alias": 21,
+    "unresolved": 53
   },
   "mentions": [
     {
@@ -303,7 +303,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",
@@ -365,10 +365,10 @@
     },
     {
       "raw_name": "The Fist (of the First Men)",
-      "slug": "the-fist",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
       "section": "Locations",
       "line": 78
     },
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Milkwater",
       "slug": "milkwater",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/milkwater.node.md",
       "section": "Locations",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The eagle (skinchanger's spirit; formerly a man Jon killed)",
       "slug": "eagle",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/eagle.node.md",
       "section": "Raw Entity List > Characters",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Raw Entity List > Locations",
@@ -807,7 +807,7 @@
     {
       "raw_name": "The Milkwater (river)",
       "slug": "milkwater",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/milkwater.node.md",
       "section": "Raw Entity List > Locations",
@@ -815,10 +815,10 @@
     },
     {
       "raw_name": "The Fist (of the First Men)",
-      "slug": "the-fist",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
       "section": "Raw Entity List > Locations",
       "line": 274
     },
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -878,10 +878,10 @@
     },
     {
       "raw_name": "Old Gods (Jon prays to \"his father's gods\")",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 287
     },
@@ -1184,10 +1184,10 @@
     },
     {
       "raw_name": "Halfhand (Qhorin's epithet)",
-      "slug": "halfhand",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "qhorin-halfhand",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 333
     },

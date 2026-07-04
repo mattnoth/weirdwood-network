@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-03",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.607511+00:00",
+  "generated_at": "2026-07-04T21:33:40.550324+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-03.extraction.md",
   "stats": {
     "total_mentions": 130,
-    "resolved_to_node": 108,
-    "direct": 100,
-    "alias": 8,
-    "unresolved": 22
+    "resolved_to_node": 109,
+    "direct": 99,
+    "alias": 10,
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -959,10 +959,10 @@
     },
     {
       "raw_name": "Crossroads inn",
-      "slug": "crossroads-inn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Locations",
       "line": 144
     },
@@ -1059,7 +1059,7 @@
     {
       "raw_name": "The Trident (river/region)",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

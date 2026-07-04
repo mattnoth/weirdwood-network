@@ -2,13 +2,13 @@
   "chapter_id": "adwd-theon-01",
   "book": "adwd",
   "pov_character": "theon",
-  "generated_at": "2026-05-12T21:45:31.674047+00:00",
+  "generated_at": "2026-07-04T21:33:40.614875+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-theon-01.extraction.md",
   "stats": {
     "total_mentions": 100,
     "resolved_to_node": 75,
-    "direct": 67,
-    "alias": 8,
+    "direct": 65,
+    "alias": 10,
     "unresolved": 25
   },
   "mentions": [
@@ -600,7 +600,7 @@
     {
       "raw_name": "The miller's wife",
       "slug": "millers-wife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/millers-wife.node.md",
       "section": "Characters Referenced",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

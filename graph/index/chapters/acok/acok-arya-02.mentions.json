@@ -2,13 +2,13 @@
   "chapter_id": "acok-arya-02",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.454162+00:00",
+  "generated_at": "2026-07-04T21:33:40.423361+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-02.extraction.md",
   "stats": {
     "total_mentions": 160,
     "resolved_to_node": 94,
-    "direct": 94,
-    "alias": 0,
+    "direct": 84,
+    "alias": 10,
     "unresolved": 66
   },
   "mentions": [
@@ -465,7 +465,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Gods Eye",
       "slug": "gods-eye",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gods-eye.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The black cells",
       "slug": "black-cells",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
@@ -1014,7 +1014,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",
@@ -1041,7 +1041,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1059,7 +1059,7 @@
     {
       "raw_name": "The Gods Eye",
       "slug": "gods-eye",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gods-eye.node.md",
       "section": "Raw Entity List > Locations",
@@ -1068,7 +1068,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -1086,7 +1086,7 @@
     {
       "raw_name": "The black cells (King's Landing)",
       "slug": "black-cells",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Raw Entity List > Locations",

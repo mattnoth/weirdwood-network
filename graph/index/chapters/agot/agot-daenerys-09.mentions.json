@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-09",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.429618+00:00",
+  "generated_at": "2026-07-04T21:33:40.401565+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-09.extraction.md",
   "stats": {
     "total_mentions": 46,
-    "resolved_to_node": 33,
+    "resolved_to_node": 34,
     "direct": 31,
-    "alias": 2,
-    "unresolved": 13
+    "alias": 3,
+    "unresolved": 12
   },
   "mentions": [
     {
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "Dragon eggs (three)",
-      "slug": "dragon-eggs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-egg",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragon-egg.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 88
     },

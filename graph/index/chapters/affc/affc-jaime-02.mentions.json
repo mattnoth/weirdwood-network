@@ -2,13 +2,13 @@
   "chapter_id": "affc-jaime-02",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.606458+00:00",
+  "generated_at": "2026-07-04T21:33:40.549545+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-02.extraction.md",
   "stats": {
     "total_mentions": 136,
     "resolved_to_node": 117,
-    "direct": 110,
-    "alias": 7,
+    "direct": 101,
+    "alias": 16,
     "unresolved": 19
   },
   "mentions": [
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Demon of Darry",
       "slug": "demon-of-darry",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/demon-of-darry.node.md",
       "section": "Characters Referenced",
@@ -906,7 +906,7 @@
     {
       "raw_name": "The Greatheart",
       "slug": "greatheart",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/greatheart.node.md",
       "section": "Characters Referenced",
@@ -1068,7 +1068,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -1086,7 +1086,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -1095,7 +1095,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -1104,7 +1104,7 @@
     {
       "raw_name": "The North",
       "slug": "north",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/north.node.md",
       "section": "Locations",
@@ -1113,7 +1113,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -1131,7 +1131,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -1194,7 +1194,7 @@
     {
       "raw_name": "The White Book (Book of Brothers)",
       "slug": "white-book",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/white-book.node.md",
       "section": "Artifacts & Objects of Significance",

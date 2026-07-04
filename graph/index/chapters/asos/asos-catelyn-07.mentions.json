@@ -2,14 +2,14 @@
   "chapter_id": "asos-catelyn-07",
   "book": "asos",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-12T21:45:31.535511+00:00",
+  "generated_at": "2026-07-04T21:33:40.492501+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-catelyn-07.extraction.md",
   "stats": {
     "total_mentions": 87,
-    "resolved_to_node": 62,
-    "direct": 56,
-    "alias": 6,
-    "unresolved": 25
+    "resolved_to_node": 63,
+    "direct": 53,
+    "alias": 10,
+    "unresolved": 24
   },
   "mentions": [
     {
@@ -608,10 +608,10 @@
     },
     {
       "raw_name": "Petyr (Lord Walder's grandson)",
-      "slug": "petyr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "petyr-baelish",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/petyr-baelish.node.md",
       "section": "Characters Referenced",
       "line": 102
     },
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",

@@ -3,14 +3,14 @@
   "name": "Fist of the First Men",
   "type": "place.location",
   "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
-  "generated_at": "2026-07-01T19:57:31.145524+00:00",
+  "generated_at": "2026-07-04T23:34:13.147490+00:00",
   "stats": {
-    "appearances_total": 33,
-    "chapters_referenced_in": 19,
-    "chapters_in_raw_list": 9,
+    "appearances_total": 37,
+    "chapters_referenced_in": 21,
+    "chapters_in_raw_list": 11,
     "out_edge_count": 0,
     "in_edge_count": 60,
-    "chapters_in_locations_section": 19
+    "chapters_in_locations_section": 21
   },
   "chapters": {
     "in_locations_section": [
@@ -56,6 +56,19 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "acok-jon-08",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "asos-bran-04",
         "book": "asos",
         "pov_character_slug": "bran-stark",
@@ -78,6 +91,19 @@
           "Raw Entity List > Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jon-03",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -300,6 +326,19 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "acok-jon-08",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "asos-jon-02",
         "book": "asos",
         "pov_character_slug": "jon-snow",
@@ -310,6 +349,19 @@
           "Raw Entity List > Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jon-03",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -424,6 +476,19 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "acok-jon-08",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "asos-bran-04",
         "book": "asos",
         "pov_character_slug": "bran-stark",
@@ -446,6 +511,19 @@
           "Raw Entity List > Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jon-03",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },

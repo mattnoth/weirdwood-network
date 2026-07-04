@@ -3,9 +3,9 @@
   "name": "Varys",
   "type": "character.human",
   "node_path": "graph/nodes/characters/varys.node.md",
-  "generated_at": "2026-07-01T19:57:37.970030+00:00",
+  "generated_at": "2026-07-04T23:34:20.033573+00:00",
   "stats": {
-    "appearances_total": 114,
+    "appearances_total": 113,
     "chapters_pov": 0,
     "chapters_mentioned_in": 78,
     "out_edge_count": 11,
@@ -542,11 +542,10 @@
         "chapter_id": "asos-tyrion-07",
         "book": "asos",
         "pov_character_slug": "tyrion-lannister",
-        "mention_count": 3,
+        "mention_count": 2,
         "sections": [
           "Characters Referenced",
-          "Raw Entity List > Characters",
-          "Raw Entity List > Other"
+          "Raw Entity List > Characters"
         ],
         "resolved_via": "direct"
       },

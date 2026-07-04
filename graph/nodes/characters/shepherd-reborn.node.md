@@ -2,7 +2,7 @@
 name: "Shepherd reborn"
 type: character.human
 slug: shepherd-reborn
-aliases: ["The Shepherd reborn (I)", "The "reborn" Shepherd"]
+aliases: ["The Shepherd reborn (I)", "The \"reborn\" Shepherd"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Shepherd_reborn"
 bucket_id: tier3-pathb-characters

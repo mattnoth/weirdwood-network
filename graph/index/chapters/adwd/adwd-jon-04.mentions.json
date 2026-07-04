@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-04",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.647607+00:00",
+  "generated_at": "2026-07-04T21:33:40.586054+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-04.extraction.md",
   "stats": {
     "total_mentions": 85,
     "resolved_to_node": 73,
-    "direct": 64,
-    "alias": 9,
+    "direct": 52,
+    "alias": 21,
     "unresolved": 12
   },
   "mentions": [
@@ -294,7 +294,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Characters Referenced",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The wormways",
       "slug": "wormways",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wormways.node.md",
       "section": "Locations",
@@ -501,7 +501,7 @@
     {
       "raw_name": "The Wall (interior cold storage)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Lonely Hills",
       "slug": "lonely-hills",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/lonely-hills.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Gift",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Boneway",
       "slug": "boneway",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/boneway.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Greenblood",
       "slug": "greenblood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/greenblood.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Prince's Pass",
       "slug": "princes-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/princes-pass.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The northern mountains (west of kingsroad, south of the Gift)",
       "slug": "northern-mountains",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/northern-mountains.node.md",
       "section": "Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The wormways",
       "slug": "wormways",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wormways.node.md",
       "section": "Location Descriptions",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Location Descriptions",

@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-09",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.639149+00:00",
+  "generated_at": "2026-07-04T21:33:40.578152+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-09.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 52,
-    "direct": 46,
-    "alias": 6,
-    "unresolved": 22
+    "resolved_to_node": 53,
+    "direct": 45,
+    "alias": 8,
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -411,7 +411,7 @@
     {
       "raw_name": "The maegi (unnamed)",
       "slug": "maegi",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/maegi.node.md",
       "section": "Characters Referenced",
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "Pearls",
-      "slug": "pearls",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "pearl",
+      "resolved_via": "alias",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/pearl.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 120
     }

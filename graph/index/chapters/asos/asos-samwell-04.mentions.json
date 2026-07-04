@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-04",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.570686+00:00",
+  "generated_at": "2026-07-04T21:33:40.518210+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-04.extraction.md",
   "stats": {
     "total_mentions": 90,
-    "resolved_to_node": 68,
-    "direct": 65,
-    "alias": 3,
-    "unresolved": 22
+    "resolved_to_node": 69,
+    "direct": 60,
+    "alias": 9,
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Giant",
-      "slug": "giant",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bedwyck",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bedwyck.node.md",
       "section": "Characters Present",
       "line": 38
     },
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Lance",
       "slug": "lance",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/lance.node.md",
       "section": "Locations",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Grey Keep",
       "slug": "grey-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/grey-keep.node.md",
       "section": "Locations",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Shieldhall",
       "slug": "shieldhall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shieldhall.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The rookery",
       "slug": "rookery",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

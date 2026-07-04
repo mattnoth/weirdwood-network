@@ -2,14 +2,14 @@
   "chapter_id": "adwd-bran-03",
   "book": "adwd",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.631437+00:00",
+  "generated_at": "2026-07-04T21:33:40.570619+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-bran-03.extraction.md",
   "stats": {
     "total_mentions": 145,
-    "resolved_to_node": 61,
+    "resolved_to_node": 65,
     "direct": 57,
-    "alias": 4,
-    "unresolved": 84
+    "alias": 8,
+    "unresolved": 80
   },
   "mentions": [
     {
@@ -23,10 +23,10 @@
     },
     {
       "raw_name": "Lord Brynden (Three-eyed crow)",
-      "slug": "lord-brynden",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
       "section": "Characters Present",
       "line": 28
     },
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "Lord Brynden",
-      "slug": "lord-brynden",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
       "section": "Character Appearances",
       "line": 40
     },
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "Lord Brynden (Three-eyed crow, the last greenseer, birth name Brynden)",
-      "slug": "lord-brynden",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
       "section": "Raw Entity List > Characters",
       "line": 266
     },
@@ -923,10 +923,10 @@
     },
     {
       "raw_name": "Old gods (weirwood worship; heart trees; singers believe weirwoods ARE the old gods; carved faces to awaken the trees; prayers offered before heart tree)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 320
     },
@@ -1229,10 +1229,10 @@
     },
     {
       "raw_name": "The last greenseer (what the singers call Brynden)",
-      "slug": "the-last-greenseer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 367
     },
@@ -1292,10 +1292,10 @@
     },
     {
       "raw_name": "Goats (share the caves with the singers; provide cheese and milk)",
-      "slug": "goats",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "goat",
+      "resolved_via": "alias",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/goat.node.md",
       "section": "Raw Entity List > Other",
       "line": 376
     },

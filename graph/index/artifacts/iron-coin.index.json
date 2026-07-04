@@ -3,14 +3,14 @@
   "name": "Iron coin",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/iron-coin.node.md",
-  "generated_at": "2026-07-01T19:57:31.545821+00:00",
+  "generated_at": "2026-07-04T23:34:13.553650+00:00",
   "stats": {
-    "appearances_total": 9,
-    "chapters_referenced_in": 5,
+    "appearances_total": 10,
+    "chapters_referenced_in": 6,
     "chapters_in_raw_list": 4,
     "out_edge_count": 0,
     "in_edge_count": 0,
-    "chapters_in_artifacts_section": 5
+    "chapters_in_artifacts_section": 6
   },
   "chapters": {
     "in_artifacts_section": [
@@ -23,7 +23,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -36,7 +36,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -48,7 +48,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -61,7 +61,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -74,9 +74,21 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-arya-02",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
       }
     ],
     "in_raw_list": [
@@ -89,7 +101,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -102,7 +114,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -115,7 +127,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -128,7 +140,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       }
@@ -143,7 +155,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -156,7 +168,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -168,7 +180,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -181,7 +193,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -194,9 +206,21 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-arya-02",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
       }
     ]
   }

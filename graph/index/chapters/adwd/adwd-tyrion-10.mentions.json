@@ -2,13 +2,13 @@
   "chapter_id": "adwd-tyrion-10",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.683202+00:00",
+  "generated_at": "2026-07-04T21:33:40.624287+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-10.extraction.md",
   "stats": {
     "total_mentions": 152,
     "resolved_to_node": 95,
-    "direct": 86,
-    "alias": 9,
+    "direct": 83,
+    "alias": 12,
     "unresolved": 57
   },
   "mentions": [
@@ -294,7 +294,7 @@
     {
       "raw_name": "The widow of the waterfront",
       "slug": "widow-of-the-waterfront",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/widow-of-the-waterfront.node.md",
       "section": "Characters Referenced",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The bearded woman (Yezzan's treasure)",
       "slug": "bearded-woman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/bearded-woman.node.md",
       "section": "Raw Entity List > Characters",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The widow of the waterfront (referenced)",
       "slug": "widow-of-the-waterfront",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/widow-of-the-waterfront.node.md",
       "section": "Raw Entity List > Characters",
@@ -1040,10 +1040,10 @@
     },
     {
       "raw_name": "Fiery fingers (three surviving; chattels of the Lord of Light)",
-      "slug": "fiery-hand",
-      "resolved_via": "alias",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/fiery-hand.node.md",
+      "slug": "fiery-fingers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Factions & Organizations",
       "line": 304
     },
@@ -1076,10 +1076,10 @@
     },
     {
       "raw_name": "The Seven (Tyrion's oath \"Seven hells\")",
-      "slug": "the-seven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 310
     },
@@ -1202,10 +1202,10 @@
     },
     {
       "raw_name": "Tokars (garment of old blood of Slaver's Bay)",
-      "slug": "tokars",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tokar",
+      "resolved_via": "alias",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/tokar.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 328
     },
@@ -1346,10 +1346,10 @@
     },
     {
       "raw_name": "Valyrian glyphs (script on collars)",
-      "slug": "high-valyrian",
-      "resolved_via": "alias",
-      "node_type": "concept.language",
-      "node_path": "graph/nodes/languages/high-valyrian.node.md",
+      "slug": "valyrian-glyphs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Other",
       "line": 354
     },

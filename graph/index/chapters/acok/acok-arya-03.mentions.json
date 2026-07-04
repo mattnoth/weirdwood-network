@@ -2,13 +2,13 @@
   "chapter_id": "acok-arya-03",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.454819+00:00",
+  "generated_at": "2026-07-04T21:33:40.424077+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-03.extraction.md",
   "stats": {
     "total_mentions": 107,
     "resolved_to_node": 67,
-    "direct": 64,
-    "alias": 3,
+    "direct": 58,
+    "alias": 9,
     "unresolved": 40
   },
   "mentions": [
@@ -213,7 +213,7 @@
     {
       "raw_name": "The queen (Cersei)",
       "slug": "queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/queen.node.md",
       "section": "Characters Referenced",
@@ -303,7 +303,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -339,7 +339,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Trident (river)",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The Others (referenced by Yoren: \"when the Others come to take him\"; and in Old Nan's story about them drinking hot red blood)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

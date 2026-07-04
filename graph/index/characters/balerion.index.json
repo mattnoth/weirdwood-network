@@ -3,11 +3,11 @@
   "name": "Balerion",
   "type": "character.dragon",
   "node_path": "graph/nodes/characters/balerion.node.md",
-  "generated_at": "2026-07-01T19:57:37.740727+00:00",
+  "generated_at": "2026-07-04T23:34:19.807512+00:00",
   "stats": {
-    "appearances_total": 11,
+    "appearances_total": 12,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 6,
+    "chapters_mentioned_in": 7,
     "out_edge_count": 0,
     "in_edge_count": 129
   },
@@ -78,6 +78,16 @@
           "Characters Referenced"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-tyrion-04",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias"
       }
     ]
   }

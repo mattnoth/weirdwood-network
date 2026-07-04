@@ -2,13 +2,13 @@
   "chapter_id": "agot-jon-04",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.440273+00:00",
+  "generated_at": "2026-07-04T21:33:40.410680+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-04.extraction.md",
   "stats": {
     "total_mentions": 62,
     "resolved_to_node": 54,
-    "direct": 48,
-    "alias": 6,
+    "direct": 45,
+    "alias": 9,
     "unresolved": 8
   },
   "mentions": [
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Wall (top)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The barrowlands",
       "slug": "barrowlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/barrowlands.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Wall (top)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",

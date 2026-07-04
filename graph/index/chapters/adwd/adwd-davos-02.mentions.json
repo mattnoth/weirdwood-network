@@ -2,14 +2,14 @@
   "chapter_id": "adwd-davos-02",
   "book": "adwd",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.641577+00:00",
+  "generated_at": "2026-07-04T21:33:40.580233+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-davos-02.extraction.md",
   "stats": {
     "total_mentions": 94,
-    "resolved_to_node": 72,
-    "direct": 68,
-    "alias": 4,
-    "unresolved": 22
+    "resolved_to_node": 73,
+    "direct": 64,
+    "alias": 9,
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -86,10 +86,10 @@
     },
     {
       "raw_name": "Whore (grey meat)",
-      "slug": "whore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "whore-weapon",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/whore-weapon.node.md",
       "section": "Characters Present",
       "line": 35
     },
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Lazy Eel",
       "slug": "lazy-eel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/lazy-eel.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Lazy Eel",
       "slug": "lazy-eel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/lazy-eel.node.md",
       "section": "Location Descriptions",

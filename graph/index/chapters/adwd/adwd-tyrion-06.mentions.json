@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-06",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.680264+00:00",
+  "generated_at": "2026-07-04T21:33:40.621207+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-06.extraction.md",
   "stats": {
     "total_mentions": 248,
-    "resolved_to_node": 164,
-    "direct": 134,
-    "alias": 30,
-    "unresolved": 84
+    "resolved_to_node": 163,
+    "direct": 121,
+    "alias": 42,
+    "unresolved": 85
   },
   "mentions": [
     {
@@ -302,10 +302,10 @@
     },
     {
       "raw_name": "The Shrouded Lord",
-      "slug": "shrouded-lord",
-      "resolved_via": "direct",
+      "slug": "garin-the-great",
+      "resolved_via": "alias",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/shrouded-lord.node.md",
+      "node_path": "graph/nodes/characters/garin-the-great.node.md",
       "section": "Characters Referenced",
       "line": 67
     },
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "King Maegor",
-      "slug": "maegor-i-targaryen",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
+      "slug": "king-maegor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 90
     },
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Sorrows",
       "slug": "sorrows",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sorrows.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Rhoyne",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Painted Turtle",
       "slug": "painted-turtle",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/painted-turtle.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Painted Turtle",
       "slug": "painted-turtle",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/painted-turtle.node.md",
       "section": "Location Descriptions",
@@ -1031,10 +1031,10 @@
     },
     {
       "raw_name": "The Shrouded Lord (referenced, dream figure)",
-      "slug": "shrouded-lord",
-      "resolved_via": "direct",
+      "slug": "garin-the-great",
+      "resolved_via": "alias",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/shrouded-lord.node.md",
+      "node_path": "graph/nodes/characters/garin-the-great.node.md",
       "section": "Raw Entity List > Characters",
       "line": 327
     },
@@ -1238,10 +1238,10 @@
     },
     {
       "raw_name": "King Maegor (referenced, historical)",
-      "slug": "maegor-i-targaryen",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
+      "slug": "king-maegor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Characters",
       "line": 350
     },
@@ -1374,7 +1374,7 @@
     {
       "raw_name": "The Rhoyne (river)",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Raw Entity List > Locations",
@@ -1383,7 +1383,7 @@
     {
       "raw_name": "The Sorrows",
       "slug": "sorrows",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sorrows.node.md",
       "section": "Raw Entity List > Locations",
@@ -1410,7 +1410,7 @@
     {
       "raw_name": "The Painted Turtle (inn in Selhorys)",
       "slug": "painted-turtle",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/painted-turtle.node.md",
       "section": "Raw Entity List > Locations",
@@ -1590,7 +1590,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Raw Entity List > Locations",
@@ -1743,7 +1743,7 @@
     {
       "raw_name": "The Faith of the Seven (the Mother invoked by Lemore; septa's robes)",
       "slug": "faith-of-the-seven",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -2012,19 +2012,19 @@
     },
     {
       "raw_name": "Dragons (Daenerys has three; referenced as powerful weapon)",
-      "slug": "dragons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dragon.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 453
     },
     {
       "raw_name": "The Shrouded Lord (dream figure; gives the \"grey kiss\"; stone arms; associated with the Sorrows)",
-      "slug": "shrouded-lord",
-      "resolved_via": "direct",
+      "slug": "garin-the-great",
+      "resolved_via": "alias",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/shrouded-lord.node.md",
+      "node_path": "graph/nodes/characters/garin-the-great.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 454
     },

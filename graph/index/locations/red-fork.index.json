@@ -3,7 +3,7 @@
   "name": "Red Fork",
   "type": "place.location",
   "node_path": "graph/nodes/locations/red-fork.node.md",
-  "generated_at": "2026-07-01T19:57:31.123136+00:00",
+  "generated_at": "2026-07-04T23:34:13.125610+00:00",
   "stats": {
     "appearances_total": 21,
     "chapters_referenced_in": 18,
@@ -22,7 +22,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -121,7 +121,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -157,7 +157,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -169,7 +169,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -181,7 +181,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -193,7 +193,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -205,7 +205,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -229,7 +229,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }
@@ -244,7 +244,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       }
@@ -258,7 +258,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -357,7 +357,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -393,7 +393,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -405,7 +405,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -417,7 +417,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -429,7 +429,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -441,7 +441,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -465,7 +465,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }

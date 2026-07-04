@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-07",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.488910+00:00",
+  "generated_at": "2026-07-04T21:33:40.452688+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-07.extraction.md",
   "stats": {
     "total_mentions": 81,
-    "resolved_to_node": 54,
-    "direct": 49,
-    "alias": 5,
-    "unresolved": 27
+    "resolved_to_node": 53,
+    "direct": 45,
+    "alias": 8,
+    "unresolved": 28
   },
   "mentions": [
     {
@@ -186,7 +186,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Locations",
@@ -267,7 +267,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Location Descriptions",
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Raw Entity List > Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Wall (implied)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -554,10 +554,10 @@
     },
     {
       "raw_name": "Old Gods (weirwood in the dream with a carved face and red eyes)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 220
     },

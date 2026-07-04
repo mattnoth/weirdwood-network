@@ -2,13 +2,13 @@
   "chapter_id": "agot-bran-03",
   "book": "agot",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.412674+00:00",
+  "generated_at": "2026-07-04T21:33:40.387042+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-bran-03.extraction.md",
   "stats": {
     "total_mentions": 93,
     "resolved_to_node": 62,
-    "direct": 57,
-    "alias": 5,
+    "direct": 46,
+    "alias": 16,
     "unresolved": 31
   },
   "mentions": [
@@ -159,7 +159,7 @@
     {
       "raw_name": "The king (Robert Baratheon)",
       "slug": "king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king.node.md",
       "section": "Characters Referenced",
@@ -213,7 +213,7 @@
     {
       "raw_name": "The Bite",
       "slug": "bite",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bite.node.md",
       "section": "Locations",
@@ -222,7 +222,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -285,7 +285,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The king (vision — Eddard pleads with him)",
       "slug": "king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king.node.md",
       "section": "Raw Entity List > Characters",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Bite",
       "slug": "bite",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bite.node.md",
       "section": "Raw Entity List > Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Raw Entity List > Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Jade Sea",
       "slug": "jade-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/jade-sea.node.md",
       "section": "Raw Entity List > Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "Old Gods (implied — the weirwood in the godswood, with its face and apparent awareness)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 244
     },
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "Anvil (Hodor carries to Mikken's forge in vision)",
-      "slug": "anvil",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "maekar-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maekar-i-targaryen.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 252
     },

@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jaime-01",
   "book": "adwd",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.645030+00:00",
+  "generated_at": "2026-07-04T21:33:40.583584+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jaime-01.extraction.md",
   "stats": {
     "total_mentions": 98,
-    "resolved_to_node": 79,
-    "direct": 69,
-    "alias": 10,
-    "unresolved": 19
+    "resolved_to_node": 80,
+    "direct": 64,
+    "alias": 16,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -186,7 +186,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -320,10 +320,10 @@
     },
     {
       "raw_name": "Harry (Bracken's bastard)",
-      "slug": "harry",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harrion-karstark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harrion-karstark.node.md",
       "section": "Characters Referenced",
       "line": 69
     },
@@ -555,7 +555,7 @@
     {
       "raw_name": "The Widow's Wash",
       "slug": "widows-wash",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/widows-wash.node.md",
       "section": "Locations",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Teats (Barba's Teats / Missy's Teats / The Mother's Teats)",
       "slug": "teats",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/teats.node.md",
       "section": "Locations",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Ravishment",
       "slug": "ravishment",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/ravishment.node.md",
       "section": "Locations",

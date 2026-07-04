@@ -3,17 +3,30 @@
   "name": "Lance",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/lance.node.md",
-  "generated_at": "2026-07-01T19:57:31.547473+00:00",
+  "generated_at": "2026-07-04T23:34:13.554954+00:00",
   "stats": {
-    "appearances_total": 4,
-    "chapters_referenced_in": 3,
+    "appearances_total": 5,
+    "chapters_referenced_in": 4,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
     "in_edge_count": 6,
-    "chapters_in_artifacts_section": 0
+    "chapters_in_artifacts_section": 1
   },
   "chapters": {
-    "in_artifacts_section": [],
+    "in_artifacts_section": [
+      {
+        "chapter_id": "adwd-tyrion-09",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
     "in_raw_list": [],
     "referenced_in": [
       {
@@ -25,7 +38,7 @@
           "Location Descriptions",
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -37,7 +50,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -49,8 +62,20 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-tyrion-09",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
         "in_raw_list": false
       }
     ]

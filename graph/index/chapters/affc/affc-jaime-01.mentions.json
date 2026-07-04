@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-01",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.605455+00:00",
+  "generated_at": "2026-07-04T21:33:40.548782+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-01.extraction.md",
   "stats": {
     "total_mentions": 84,
-    "resolved_to_node": 64,
-    "direct": 61,
-    "alias": 3,
-    "unresolved": 20
+    "resolved_to_node": 66,
+    "direct": 58,
+    "alias": 8,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -617,10 +617,10 @@
     },
     {
       "raw_name": "Blackwater",
-      "slug": "blackwater",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-rush",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
       "section": "Locations",
       "line": 106
     },
@@ -699,7 +699,7 @@
     {
       "raw_name": "The White Book",
       "slug": "white-book",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/white-book.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -752,10 +752,10 @@
     },
     {
       "raw_name": "Golden roses (bouquet)",
-      "slug": "golden-roses",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "golden-rose",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/golden-rose.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 129
     },

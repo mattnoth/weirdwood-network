@@ -2,13 +2,13 @@
   "chapter_id": "asos-daenerys-03",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.537566+00:00",
+  "generated_at": "2026-07-04T21:33:40.494552+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-03.extraction.md",
   "stats": {
     "total_mentions": 62,
     "resolved_to_node": 48,
-    "direct": 45,
-    "alias": 3,
+    "direct": 41,
+    "alias": 7,
     "unresolved": 14
   },
   "mentions": [
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Worm (river)",
       "slug": "worm",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/worm.node.md",
       "section": "Locations",
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Worm (river)",
       "slug": "worm",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/worm.node.md",
       "section": "Location Descriptions",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The harpy's fingers (whip/scourge)",
       "slug": "harpys-fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/harpys-fingers.node.md",
       "section": "Artifacts & Objects of Significance",

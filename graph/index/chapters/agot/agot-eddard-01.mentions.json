@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-01",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.430487+00:00",
+  "generated_at": "2026-07-04T21:33:40.402468+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-01.extraction.md",
   "stats": {
     "total_mentions": 57,
-    "resolved_to_node": 50,
-    "direct": 47,
-    "alias": 3,
-    "unresolved": 7
+    "resolved_to_node": 49,
+    "direct": 42,
+    "alias": 7,
+    "unresolved": 8
   },
   "mentions": [
     {
@@ -249,9 +249,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 61
     },
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",

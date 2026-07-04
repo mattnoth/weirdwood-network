@@ -2,13 +2,13 @@
   "chapter_id": "affc-cersei-09",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.603741+00:00",
+  "generated_at": "2026-07-04T21:33:40.547527+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-09.extraction.md",
   "stats": {
     "total_mentions": 84,
     "resolved_to_node": 73,
-    "direct": 68,
-    "alias": 5,
+    "direct": 62,
+    "alias": 11,
     "unresolved": 11
   },
   "mentions": [
@@ -60,7 +60,7 @@
     {
       "raw_name": "The Blue Bard (Wat)",
       "slug": "blue-bard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/blue-bard.node.md",
       "section": "Characters Present",
@@ -123,7 +123,7 @@
     {
       "raw_name": "The Blue Bard (Wat)",
       "slug": "blue-bard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/blue-bard.node.md",
       "section": "Character Appearances",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -727,8 +727,8 @@
       "raw_name": "Milk of the poppy",
       "slug": "milk-of-the-poppy",
       "resolved_via": "direct",
-      "node_type": "object.food",
-      "node_path": "graph/nodes/foods/milk-of-the-poppy.node.md",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/milk-of-the-poppy.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 126
     },

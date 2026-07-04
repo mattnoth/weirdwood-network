@@ -2,13 +2,13 @@
   "chapter_id": "acok-arya-05",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.455936+00:00",
+  "generated_at": "2026-07-04T21:33:40.425136+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-05.extraction.md",
   "stats": {
     "total_mentions": 55,
     "resolved_to_node": 39,
-    "direct": 38,
-    "alias": 1,
+    "direct": 36,
+    "alias": 3,
     "unresolved": 16
   },
   "mentions": [
@@ -303,7 +303,7 @@
     {
       "raw_name": "The queen (Cersei)",
       "slug": "queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/queen.node.md",
       "section": "Characters Referenced",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Locations",

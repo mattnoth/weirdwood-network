@@ -3,7 +3,7 @@
   "name": "Last Hearth",
   "type": "place.location",
   "node_path": "graph/nodes/locations/last-hearth.node.md",
-  "generated_at": "2026-07-01T19:57:31.145867+00:00",
+  "generated_at": "2026-07-04T23:34:13.147866+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_referenced_in": 4,
@@ -48,7 +48,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -128,7 +128,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },

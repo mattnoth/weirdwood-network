@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-06",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.495223+00:00",
+  "generated_at": "2026-07-04T21:33:40.459425+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-06.extraction.md",
   "stats": {
     "total_mentions": 125,
-    "resolved_to_node": 97,
-    "direct": 94,
-    "alias": 3,
-    "unresolved": 28
+    "resolved_to_node": 99,
+    "direct": 93,
+    "alias": 6,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -248,10 +248,10 @@
     },
     {
       "raw_name": "Florian",
-      "slug": "florian",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dontos-hollard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
       "section": "Characters Referenced",
       "line": 61
     },
@@ -689,10 +689,10 @@
     },
     {
       "raw_name": "Florian (song subject / Sansa's name for Dontos)",
-      "slug": "florian",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dontos-hollard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
       "section": "Raw Entity List > Characters",
       "line": 256
     },
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Arbor (wine origin)",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Raw Entity List > Locations",
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "Old Gods (Sansa prays in the godswood; \"your father's gods\" — Cersei's accusation)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 289
     },
@@ -986,10 +986,10 @@
     },
     {
       "raw_name": "Trebuchets (\"the Whores\")",
-      "slug": "trebuchets",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "trebuchet",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/trebuchet.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 301
     },

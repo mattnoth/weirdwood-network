@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-01",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.558574+00:00",
+  "generated_at": "2026-07-04T21:33:40.507483+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-01.extraction.md",
   "stats": {
     "total_mentions": 86,
-    "resolved_to_node": 61,
-    "direct": 52,
-    "alias": 9,
-    "unresolved": 25
+    "resolved_to_node": 62,
+    "direct": 46,
+    "alias": 16,
+    "unresolved": 24
   },
   "mentions": [
     {
@@ -78,7 +78,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Characters Present",
@@ -159,7 +159,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Character Appearances",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",
@@ -563,17 +563,17 @@
     },
     {
       "raw_name": "The New Gift",
-      "slug": "the-new-gift",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "gift",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
       "line": 100
     },
     {
       "raw_name": "The Frozen Shore",
       "slug": "frozen-shore",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frozen-shore.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Last Hearth",
       "slug": "last-hearth",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/last-hearth.node.md",
       "section": "Locations",

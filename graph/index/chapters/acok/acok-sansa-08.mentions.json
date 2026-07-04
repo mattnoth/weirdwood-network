@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-08",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.496413+00:00",
+  "generated_at": "2026-07-04T21:33:40.460694+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-08.extraction.md",
   "stats": {
     "total_mentions": 121,
-    "resolved_to_node": 97,
+    "resolved_to_node": 98,
     "direct": 94,
-    "alias": 3,
-    "unresolved": 24
+    "alias": 4,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -942,7 +942,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -1050,9 +1050,9 @@
     {
       "raw_name": "Hand's chain of office",
       "slug": "hands-chain-of-office",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hands-chain-of-office.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 162
     },

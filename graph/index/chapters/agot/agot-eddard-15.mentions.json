@@ -2,13 +2,13 @@
   "chapter_id": "agot-eddard-15",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.438340+00:00",
+  "generated_at": "2026-07-04T21:33:40.409082+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-15.extraction.md",
   "stats": {
     "total_mentions": 70,
     "resolved_to_node": 60,
-    "direct": 58,
-    "alias": 2,
+    "direct": 54,
+    "alias": 6,
     "unresolved": 10
   },
   "mentions": [
@@ -456,7 +456,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

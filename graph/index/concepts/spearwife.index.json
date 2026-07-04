@@ -3,7 +3,7 @@
   "name": "Spearwife",
   "type": "concept.culture",
   "node_path": "graph/nodes/concepts/spearwife.node.md",
-  "generated_at": "2026-07-01T19:57:34.624333+00:00",
+  "generated_at": "2026-07-04T23:34:16.604159+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 3,
@@ -46,7 +46,7 @@
         "sections": [
           "Character Appearances"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-queens-hand-01",
   "book": "adwd",
   "pov_character": "the-queens-hand",
-  "generated_at": "2026-05-12T21:45:31.666947+00:00",
+  "generated_at": "2026-07-04T21:33:40.604916+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-queens-hand-01.extraction.md",
   "stats": {
     "total_mentions": 95,
-    "resolved_to_node": 76,
-    "direct": 67,
-    "alias": 9,
-    "unresolved": 19
+    "resolved_to_node": 77,
+    "direct": 63,
+    "alias": 14,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -96,7 +96,7 @@
     {
       "raw_name": "The Widower",
       "slug": "widower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/widower.node.md",
       "section": "Characters Present",
@@ -141,7 +141,7 @@
     {
       "raw_name": "The Spotted Cat",
       "slug": "spotted-cat",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/spotted-cat.node.md",
       "section": "Characters Present",
@@ -231,7 +231,7 @@
     {
       "raw_name": "The Red Lamb",
       "slug": "red-lamb",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/red-lamb.node.md",
       "section": "Characters Present",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Golden Pit",
       "slug": "golden-pit",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/golden-pit.node.md",
       "section": "Locations",
@@ -851,10 +851,10 @@
     },
     {
       "raw_name": "Tokars",
-      "slug": "tokars",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tokar",
+      "resolved_via": "alias",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/tokar.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 140
     },

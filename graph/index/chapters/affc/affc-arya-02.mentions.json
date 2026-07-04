@@ -2,14 +2,14 @@
   "chapter_id": "affc-arya-02",
   "book": "affc",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.586874+00:00",
+  "generated_at": "2026-07-04T21:33:40.533695+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-arya-02.extraction.md",
   "stats": {
     "total_mentions": 96,
-    "resolved_to_node": 63,
-    "direct": 53,
-    "alias": 10,
-    "unresolved": 33
+    "resolved_to_node": 65,
+    "direct": 46,
+    "alias": 19,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -33,7 +33,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Characters Present",
@@ -123,7 +123,7 @@
     {
       "raw_name": "The squinter",
       "slug": "squinter",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/squinter.node.md",
       "section": "Characters Present",
@@ -132,7 +132,7 @@
     {
       "raw_name": "The lordling",
       "slug": "lordling",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/lordling.node.md",
       "section": "Characters Present",
@@ -159,7 +159,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Character Appearances",
@@ -221,10 +221,10 @@
     },
     {
       "raw_name": "Acolytes (general)",
-      "slug": "acolytes",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "acolyte",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/acolyte.node.md",
       "section": "Character Appearances",
       "line": 54
     },
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Daughter of the Dusk",
       "slug": "daughter-of-the-dusk",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/daughter-of-the-dusk.node.md",
       "section": "Characters Referenced",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Fourteen Flames",
       "slug": "fourteen-flames",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fourteen-flames.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The inn at the crossroads",
       "slug": "inn-at-the-crossroads",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Locations",
@@ -788,10 +788,10 @@
     },
     {
       "raw_name": "The iron coin",
-      "slug": "the-iron-coin",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "iron-coin",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-coin.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 133
     },

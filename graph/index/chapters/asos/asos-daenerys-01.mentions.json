@@ -2,13 +2,13 @@
   "chapter_id": "asos-daenerys-01",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.536468+00:00",
+  "generated_at": "2026-07-04T21:33:40.493502+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-01.extraction.md",
   "stats": {
     "total_mentions": 186,
     "resolved_to_node": 142,
-    "direct": 128,
-    "alias": 14,
+    "direct": 127,
+    "alias": 15,
     "unresolved": 44
   },
   "mentions": [
@@ -1626,7 +1626,7 @@
     {
       "raw_name": "The Sword of the Morning (Arthur Dayne's title)",
       "slug": "sword-of-the-morning",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sword-of-the-morning.node.md",
       "section": "Raw Entity List > Titles & Offices",

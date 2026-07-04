@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-06",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.579216+00:00",
+  "generated_at": "2026-07-04T21:33:40.526787+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-06.extraction.md",
   "stats": {
     "total_mentions": 78,
-    "resolved_to_node": 71,
-    "direct": 68,
-    "alias": 3,
-    "unresolved": 7
+    "resolved_to_node": 70,
+    "direct": 65,
+    "alias": 5,
+    "unresolved": 8
   },
   "mentions": [
     {
@@ -438,9 +438,9 @@
     {
       "raw_name": "Aerys Targaryen (the Mad King)",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 82
     },
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

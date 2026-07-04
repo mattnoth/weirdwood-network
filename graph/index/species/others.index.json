@@ -3,7 +3,7 @@
   "name": "Others",
   "type": "species",
   "node_path": "graph/nodes/species/others.node.md",
-  "generated_at": "2026-07-01T19:57:33.858562+00:00",
+  "generated_at": "2026-07-04T23:34:15.879553+00:00",
   "stats": {
     "appearances_total": 15,
     "chapters_referenced_in": 13,
@@ -21,7 +21,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -33,7 +33,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -47,7 +47,7 @@
           "Raw Entity List > Characters",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -59,7 +59,7 @@
         "sections": [
           "Raw Entity List > Other"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -71,7 +71,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -83,7 +83,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -95,7 +95,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -107,7 +107,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -119,7 +119,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -131,7 +131,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -145,7 +145,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -157,7 +157,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -169,7 +169,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -183,7 +183,7 @@
           "Raw Entity List > Characters",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -195,7 +195,7 @@
         "sections": [
           "Raw Entity List > Other"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -207,7 +207,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -219,7 +219,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -231,7 +231,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -243,7 +243,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -255,7 +255,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -267,7 +267,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -279,7 +279,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -291,7 +291,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }

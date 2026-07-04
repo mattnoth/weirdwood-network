@@ -2,14 +2,14 @@
   "chapter_id": "asos-bran-03",
   "book": "asos",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.530129+00:00",
+  "generated_at": "2026-07-04T21:33:40.487241+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-bran-03.extraction.md",
   "stats": {
     "total_mentions": 94,
-    "resolved_to_node": 61,
-    "direct": 54,
-    "alias": 7,
-    "unresolved": 33
+    "resolved_to_node": 63,
+    "direct": 46,
+    "alias": 17,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -221,10 +221,10 @@
     },
     {
       "raw_name": "The New Gift",
-      "slug": "the-new-gift",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "gift",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
       "line": 62
     },
@@ -240,7 +240,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -267,7 +267,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -276,7 +276,7 @@
     {
       "raw_name": "The Sunset Sea",
       "slug": "sunset-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sunset-sea.node.md",
       "section": "Locations",
@@ -303,7 +303,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -545,10 +545,10 @@
     },
     {
       "raw_name": "The New Gift",
-      "slug": "the-new-gift",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "gift",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Raw Entity List > Locations",
       "line": 225
     },
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Raw Entity List > Locations",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Sunset Sea",
       "slug": "sunset-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sunset-sea.node.md",
       "section": "Raw Entity List > Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The kingsroad (referenced)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",

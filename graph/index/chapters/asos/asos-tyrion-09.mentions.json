@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-09",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.581276+00:00",
+  "generated_at": "2026-07-04T21:33:40.528883+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-09.extraction.md",
   "stats": {
     "total_mentions": 98,
-    "resolved_to_node": 79,
-    "direct": 73,
-    "alias": 6,
-    "unresolved": 19
+    "resolved_to_node": 78,
+    "direct": 67,
+    "alias": 11,
+    "unresolved": 20
   },
   "mentions": [
     {
@@ -195,7 +195,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Present",
@@ -456,9 +456,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 84
     },
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The strangler",
       "slug": "strangler",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept.medical",
       "node_path": "graph/nodes/medical/strangler.node.md",
       "section": "Artifacts & Objects of Significance",

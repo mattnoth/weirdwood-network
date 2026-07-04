@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-03",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.518492+00:00",
+  "generated_at": "2026-07-04T21:33:40.476947+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-03.extraction.md",
   "stats": {
     "total_mentions": 68,
-    "resolved_to_node": 55,
-    "direct": 49,
-    "alias": 6,
-    "unresolved": 13
+    "resolved_to_node": 56,
+    "direct": 48,
+    "alias": 8,
+    "unresolved": 12
   },
   "mentions": [
     {
@@ -438,7 +438,7 @@
     {
       "raw_name": "The riverlands (road heading south)",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -573,9 +573,9 @@
     {
       "raw_name": "Iron coin (from Jaqen H'ghar)",
       "slug": "iron-coin",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-coin.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 109
     },

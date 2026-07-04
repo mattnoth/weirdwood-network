@@ -2,7 +2,7 @@
   "chapter_id": "asos-davos-03",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.541299+00:00",
+  "generated_at": "2026-07-04T21:33:40.498649+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-03.extraction.md",
   "stats": {
     "total_mentions": 47,
@@ -34,8 +34,8 @@
       "raw_name": "Porridge (unnamed gaoler)",
       "slug": "porridge",
       "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/porridge.node.md",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/porridge.node.md",
       "section": "Characters Present",
       "line": 29
     },
@@ -97,8 +97,8 @@
       "raw_name": "Porridge (gaoler)",
       "slug": "porridge",
       "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/porridge.node.md",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/porridge.node.md",
       "section": "Character Appearances",
       "line": 40
     },

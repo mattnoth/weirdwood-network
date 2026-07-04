@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-06",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.433311+00:00",
+  "generated_at": "2026-07-04T21:33:40.404642+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-06.extraction.md",
   "stats": {
     "total_mentions": 72,
-    "resolved_to_node": 54,
-    "direct": 51,
-    "alias": 3,
-    "unresolved": 18
+    "resolved_to_node": 56,
+    "direct": 50,
+    "alias": 6,
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -221,10 +221,10 @@
     },
     {
       "raw_name": "Ser Hugh",
-      "slug": "ser-hugh",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hugh-of-the-vale",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hugh-of-the-vale.node.md",
       "section": "Characters Referenced",
       "line": 58
     },
@@ -555,7 +555,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -617,10 +617,10 @@
     },
     {
       "raw_name": "Lineages and Histories of the Great Houses of the Seven Kingdoms",
-      "slug": "lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms",
+      "resolved_via": "alias",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 114
     },

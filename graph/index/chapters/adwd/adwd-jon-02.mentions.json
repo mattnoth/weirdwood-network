@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-02",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.646381+00:00",
+  "generated_at": "2026-07-04T21:33:40.584895+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-02.extraction.md",
   "stats": {
     "total_mentions": 110,
     "resolved_to_node": 96,
-    "direct": 86,
-    "alias": 10,
+    "direct": 75,
+    "alias": 21,
     "unresolved": 14
   },
   "mentions": [
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The lichyard",
       "slug": "lichyard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept.custom",
       "node_path": "graph/nodes/customs/lichyard.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The King's Tower",
       "slug": "kings-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kings-tower.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Shadow Tower",
       "slug": "shadow-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-tower.node.md",
       "section": "Locations",
@@ -888,7 +888,7 @@
     {
       "raw_name": "The Gift",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
@@ -897,7 +897,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -915,7 +915,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -942,7 +942,7 @@
     {
       "raw_name": "The lichyard",
       "slug": "lichyard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept.custom",
       "node_path": "graph/nodes/customs/lichyard.node.md",
       "section": "Location Descriptions",
@@ -969,7 +969,7 @@
     {
       "raw_name": "The Jade Compendium",
       "slug": "jade-compendium",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/jade-compendium.node.md",
       "section": "Artifacts & Objects of Significance",

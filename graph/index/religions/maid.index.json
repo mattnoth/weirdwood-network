@@ -3,7 +3,7 @@
   "name": "Maid",
   "type": "organization.religion",
   "node_path": "graph/nodes/religions/maid.node.md",
-  "generated_at": "2026-07-01T19:57:33.510167+00:00",
+  "generated_at": "2026-07-04T23:34:15.530129+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 2,
@@ -21,7 +21,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -35,7 +35,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -48,7 +48,7 @@
           "Characters Referenced",
           "Raw Entity List > Characters"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

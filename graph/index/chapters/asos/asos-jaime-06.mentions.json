@@ -2,13 +2,13 @@
   "chapter_id": "asos-jaime-06",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.555972+00:00",
+  "generated_at": "2026-07-04T21:33:40.504698+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-06.extraction.md",
   "stats": {
     "total_mentions": 79,
     "resolved_to_node": 66,
-    "direct": 61,
-    "alias": 5,
+    "direct": 59,
+    "alias": 7,
     "unresolved": 13
   },
   "mentions": [
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Trident (river)",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

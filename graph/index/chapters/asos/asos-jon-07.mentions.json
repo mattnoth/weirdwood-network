@@ -2,13 +2,13 @@
   "chapter_id": "asos-jon-07",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.562976+00:00",
+  "generated_at": "2026-07-04T21:33:40.511622+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-07.extraction.md",
   "stats": {
     "total_mentions": 83,
     "resolved_to_node": 74,
-    "direct": 69,
-    "alias": 5,
+    "direct": 64,
+    "alias": 10,
     "unresolved": 9
   },
   "mentions": [
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Lance",
       "slug": "lance",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/lance.node.md",
       "section": "Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Lance",
       "slug": "lance",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/lance.node.md",
       "section": "Location Descriptions",

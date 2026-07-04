@@ -2,13 +2,13 @@
   "chapter_id": "acok-tyrion-11",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.512938+00:00",
+  "generated_at": "2026-07-04T21:33:40.471277+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-11.extraction.md",
   "stats": {
     "total_mentions": 77,
     "resolved_to_node": 57,
-    "direct": 55,
-    "alias": 2,
+    "direct": 54,
+    "alias": 3,
     "unresolved": 20
   },
   "mentions": [
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Three Whores (trebuchets)",
       "slug": "three-whores",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Artifacts & Objects of Significance",

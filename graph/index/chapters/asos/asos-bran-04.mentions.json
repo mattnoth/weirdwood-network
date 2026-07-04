@@ -2,14 +2,14 @@
   "chapter_id": "asos-bran-04",
   "book": "asos",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.530712+00:00",
+  "generated_at": "2026-07-04T21:33:40.487749+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-bran-04.extraction.md",
   "stats": {
     "total_mentions": 67,
-    "resolved_to_node": 57,
-    "direct": 53,
-    "alias": 4,
-    "unresolved": 10
+    "resolved_to_node": 56,
+    "direct": 40,
+    "alias": 16,
+    "unresolved": 11
   },
   "mentions": [
     {
@@ -158,17 +158,17 @@
     },
     {
       "raw_name": "Night's King's corpse queen",
-      "slug": "corpse-queen",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/corpse-queen.node.md",
+      "slug": "nights-kings-corpse-queen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 51
     },
     {
       "raw_name": "The Rat Cook",
       "slug": "rat-cook",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/rat-cook.node.md",
       "section": "Characters Referenced",
@@ -213,7 +213,7 @@
     {
       "raw_name": "The seventy-nine sentinels",
       "slug": "seventy-nine-sentinels",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/seventy-nine-sentinels.node.md",
       "section": "Characters Referenced",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Black Gate",
       "slug": "black-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-gate.node.md",
       "section": "Locations",
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Shadow Tower",
       "slug": "shadow-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-tower.node.md",
       "section": "Locations",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The barrowlands",
       "slug": "barrowlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/barrowlands.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Location Descriptions",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Black Gate",
       "slug": "black-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-gate.node.md",
       "section": "Location Descriptions",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The haunted forest (from Wall top)",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Black Gate",
       "slug": "black-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-gate.node.md",
       "section": "Artifacts & Objects of Significance",

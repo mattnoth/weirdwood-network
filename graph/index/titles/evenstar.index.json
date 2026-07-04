@@ -3,7 +3,7 @@
   "name": "Evenstar",
   "type": "title",
   "node_path": "graph/nodes/titles/evenstar.node.md",
-  "generated_at": "2026-07-01T19:57:32.684213+00:00",
+  "generated_at": "2026-07-04T23:34:14.702299+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_referenced_in": 2,
@@ -21,7 +21,7 @@
         "sections": [
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -33,7 +33,7 @@
         "sections": [
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -47,7 +47,7 @@
         "sections": [
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -59,7 +59,7 @@
         "sections": [
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }

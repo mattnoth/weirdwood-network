@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-01T19:57:34.967778+00:00",
+  "generated_at": "2026-07-04T23:34:16.953229+00:00",
   "entity_type": "materials",
   "dry_run": false,
   "entity_count": 58,
   "type_counts": {
     "object.material": 58
   },
-  "entities_with_zero_mentions": 50,
-  "mention_inverse_slugs": 8,
+  "entities_with_zero_mentions": 49,
+  "mention_inverse_slugs": 9,
   "top_by_appearances": [
     {
       "slug": "dragonglass",
@@ -28,6 +28,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "tokar",
+      "name": "Tokar",
+      "type": "object.material",
+      "appearances_total": 4,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 33,
+      "out_edge_count": 0
+    },
+    {
       "slug": "myrish-lace",
       "name": "Myrish lace",
       "type": "object.material",
@@ -37,12 +46,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "tokar",
-      "name": "Tokar",
+      "slug": "copper",
+      "name": "Copper",
       "type": "object.material",
       "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 48,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "pearl",
+      "name": "Pearl",
+      "type": "object.material",
+      "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 33,
+      "in_edge_count": 24,
       "out_edge_count": 0
     },
     {
@@ -61,15 +79,6 @@
       "appearances_total": 1,
       "chapters_referenced_in": 1,
       "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "copper",
-      "name": "Copper",
-      "type": "object.material",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 48,
       "out_edge_count": 0
     },
     {
@@ -133,15 +142,6 @@
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 7,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "pearl",
-      "name": "Pearl",
-      "type": "object.material",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 24,
       "out_edge_count": 0
     },
     {
@@ -249,8 +249,8 @@
       "slug": "copper",
       "name": "Copper",
       "type": "object.material",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
       "in_edge_count": 48,
       "out_edge_count": 0
     },
@@ -285,8 +285,8 @@
       "slug": "tokar",
       "name": "Tokar",
       "type": "object.material",
-      "appearances_total": 2,
-      "chapters_referenced_in": 1,
+      "appearances_total": 4,
+      "chapters_referenced_in": 3,
       "in_edge_count": 33,
       "out_edge_count": 0
     },
@@ -321,8 +321,8 @@
       "slug": "pearl",
       "name": "Pearl",
       "type": "object.material",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
       "in_edge_count": 24,
       "out_edge_count": 0
     },

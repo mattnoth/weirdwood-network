@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-04",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.608402+00:00",
+  "generated_at": "2026-07-04T21:33:40.550997+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-04.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 69,
-    "direct": 61,
-    "alias": 8,
-    "unresolved": 37
+    "resolved_to_node": 72,
+    "direct": 55,
+    "alias": 17,
+    "unresolved": 34
   },
   "mentions": [
     {
@@ -356,17 +356,17 @@
     },
     {
       "raw_name": "Pate (Amerei's first husband)",
-      "slug": "pate",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
       "section": "Characters Referenced",
       "line": 73
     },
     {
       "raw_name": "The Smiling Knight",
       "slug": "smiling-knight",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/smiling-knight.node.md",
       "section": "Characters Referenced",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The High Septon (dead)",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -806,10 +806,10 @@
     },
     {
       "raw_name": "The Rock (Casterly Rock)",
-      "slug": "the-rock",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "casterly-rock",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
       "section": "Locations",
       "line": 127
     },
@@ -834,7 +834,7 @@
     {
       "raw_name": "The rainwood",
       "slug": "rainwood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rainwood.node.md",
       "section": "Locations",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -932,10 +932,10 @@
     },
     {
       "raw_name": "The Hound's helm",
-      "slug": "the-hounds-helm",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hound-helm",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hound-helm.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 149
     },

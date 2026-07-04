@@ -3,14 +3,14 @@
   "name": "Blackwater Rush",
   "type": "place.location",
   "node_path": "graph/nodes/locations/blackwater-rush.node.md",
-  "generated_at": "2026-07-01T19:57:31.143493+00:00",
+  "generated_at": "2026-07-04T23:34:13.145434+00:00",
   "stats": {
-    "appearances_total": 53,
-    "chapters_referenced_in": 35,
+    "appearances_total": 59,
+    "chapters_referenced_in": 41,
     "chapters_in_raw_list": 15,
     "out_edge_count": 0,
     "in_edge_count": 165,
-    "chapters_in_locations_section": 34
+    "chapters_in_locations_section": 40
   },
   "chapters": {
     "in_locations_section": [
@@ -40,6 +40,18 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "agot-eddard-11",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "agot-sansa-06",
         "book": "agot",
         "pov_character_slug": "sansa-stark",
@@ -61,6 +73,18 @@
           "Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-catelyn-01",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -304,6 +328,30 @@
         "in_raw_list": false
       },
       {
+        "chapter_id": "asos-tyrion-01",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-04",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "asos-tyrion-05",
         "book": "asos",
         "pov_character_slug": "tyrion-lannister",
@@ -348,6 +396,30 @@
           "Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-10",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-01",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -665,6 +737,18 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "agot-eddard-11",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "agot-sansa-06",
         "book": "agot",
         "pov_character_slug": "sansa-stark",
@@ -686,6 +770,18 @@
           "Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-catelyn-01",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -929,6 +1025,30 @@
         "in_raw_list": false
       },
       {
+        "chapter_id": "asos-tyrion-01",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-04",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "asos-tyrion-05",
         "book": "asos",
         "pov_character_slug": "tyrion-lannister",
@@ -985,6 +1105,30 @@
           "Locations"
         ],
         "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-10",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-01",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },

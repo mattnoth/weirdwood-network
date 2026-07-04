@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-06",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.509885+00:00",
+  "generated_at": "2026-07-04T21:33:40.468782+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-06.extraction.md",
   "stats": {
     "total_mentions": 108,
-    "resolved_to_node": 75,
-    "direct": 74,
-    "alias": 1,
-    "unresolved": 33
+    "resolved_to_node": 77,
+    "direct": 67,
+    "alias": 10,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -608,10 +608,10 @@
     },
     {
       "raw_name": "Hugh (Jon Arryn's squire)",
-      "slug": "hugh",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hugh-of-the-vale",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hugh-of-the-vale.node.md",
       "section": "Characters Referenced",
       "line": 101
     },
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Small Hall",
       "slug": "small-hall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/small-hall.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The black cells",
       "slug": "black-cells",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -888,7 +888,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -905,10 +905,10 @@
     },
     {
       "raw_name": "The great chain",
-      "slug": "the-great-chain",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-chain-boom",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackwater-chain-boom.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 146
     },

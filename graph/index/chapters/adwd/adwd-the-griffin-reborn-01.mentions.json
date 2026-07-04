@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-griffin-reborn-01",
   "book": "adwd",
   "pov_character": "the-griffin-reborn",
-  "generated_at": "2026-05-12T21:45:31.661585+00:00",
+  "generated_at": "2026-07-04T21:33:40.599597+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-griffin-reborn-01.extraction.md",
   "stats": {
     "total_mentions": 226,
-    "resolved_to_node": 175,
-    "direct": 162,
-    "alias": 13,
-    "unresolved": 51
+    "resolved_to_node": 174,
+    "direct": 136,
+    "alias": 38,
+    "unresolved": 52
   },
   "mentions": [
     {
@@ -240,9 +240,9 @@
     {
       "raw_name": "Aerys Targaryen (King Aerys)",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 60
     },
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Boneway",
       "slug": "boneway",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/boneway.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Prince's Pass",
       "slug": "princes-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/princes-pass.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The rainwood",
       "slug": "rainwood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rainwood.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The North",
       "slug": "north",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/north.node.md",
       "section": "Locations",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The stormlands",
       "slug": "stormlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stormlands.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The iron islands",
       "slug": "iron-islands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/iron-islands.node.md",
       "section": "Locations",
@@ -1050,9 +1050,9 @@
     {
       "raw_name": "Aerys Targaryen (King Aerys)",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Characters",
       "line": 344
     },
@@ -1455,7 +1455,7 @@
     {
       "raw_name": "The Boneway",
       "slug": "boneway",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/boneway.node.md",
       "section": "Raw Entity List > Locations",
@@ -1464,7 +1464,7 @@
     {
       "raw_name": "The Prince's Pass",
       "slug": "princes-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/princes-pass.node.md",
       "section": "Raw Entity List > Locations",
@@ -1473,7 +1473,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -1491,7 +1491,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Raw Entity List > Locations",
@@ -1500,7 +1500,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Raw Entity List > Locations",
@@ -1509,7 +1509,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1518,7 +1518,7 @@
     {
       "raw_name": "The rainwood",
       "slug": "rainwood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rainwood.node.md",
       "section": "Raw Entity List > Locations",
@@ -1527,7 +1527,7 @@
     {
       "raw_name": "The North",
       "slug": "north",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/north.node.md",
       "section": "Raw Entity List > Locations",
@@ -1536,7 +1536,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1545,7 +1545,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Raw Entity List > Locations",
@@ -1563,7 +1563,7 @@
     {
       "raw_name": "The stormlands",
       "slug": "stormlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stormlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1572,7 +1572,7 @@
     {
       "raw_name": "The iron islands",
       "slug": "iron-islands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/iron-islands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1886,10 +1886,10 @@
     },
     {
       "raw_name": "Crow cages (referenced in Battle of the Bells memory)",
-      "slug": "crow-cages",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crow-cage",
+      "resolved_via": "alias",
+      "node_type": "concept.custom",
+      "node_path": "graph/nodes/customs/crow-cage.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 449
     },

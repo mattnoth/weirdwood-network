@@ -2,14 +2,14 @@
   "chapter_id": "acok-daenerys-04",
   "book": "acok",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.479698+00:00",
+  "generated_at": "2026-07-04T21:33:40.442837+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-daenerys-04.extraction.md",
   "stats": {
     "total_mentions": 166,
-    "resolved_to_node": 50,
-    "direct": 50,
-    "alias": 0,
-    "unresolved": 116
+    "resolved_to_node": 52,
+    "direct": 48,
+    "alias": 4,
+    "unresolved": 114
   },
   "mentions": [
     {
@@ -96,7 +96,7 @@
     {
       "raw_name": "The Undying Ones",
       "slug": "undying-ones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/undying-ones.node.md",
       "section": "Characters Present",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Undying Ones (multiple, unnamed)",
       "slug": "undying-ones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/undying-ones.node.md",
       "section": "Raw Entity List > Characters",
@@ -968,19 +968,19 @@
     },
     {
       "raw_name": "Bloodriders (Jhogo, Aggo, Rakharo — sworn to Dany)",
-      "slug": "bloodriders",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bloodrider",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/bloodrider.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 324
     },
     {
       "raw_name": "The Warrior (Dany prays to the Warrior for courage before the ebony-and-weirwood doors)",
-      "slug": "the-warrior",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "warrior-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/warrior-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 327
     },

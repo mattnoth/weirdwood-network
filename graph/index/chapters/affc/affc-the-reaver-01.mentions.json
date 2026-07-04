@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-reaver-01",
   "book": "affc",
   "pov_character": "the-reaver",
-  "generated_at": "2026-05-12T21:45:31.627353+00:00",
+  "generated_at": "2026-07-04T21:33:40.567063+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-reaver-01.extraction.md",
   "stats": {
     "total_mentions": 123,
-    "resolved_to_node": 93,
-    "direct": 89,
-    "alias": 4,
-    "unresolved": 30
+    "resolved_to_node": 95,
+    "direct": 82,
+    "alias": 13,
+    "unresolved": 28
   },
   "mentions": [
     {
@@ -60,7 +60,7 @@
     {
       "raw_name": "The dusky woman",
       "slug": "dusky-woman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/dusky-woman.node.md",
       "section": "Characters Present",
@@ -77,10 +77,10 @@
     },
     {
       "raw_name": "Drumm (old Drumm)",
-      "slug": "drumm",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dunstan-drumm",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dunstan-drumm.node.md",
       "section": "Characters Present",
       "line": 34
     },
@@ -258,7 +258,7 @@
     {
       "raw_name": "The dusky woman",
       "slug": "dusky-woman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/dusky-woman.node.md",
       "section": "Character Appearances",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The Red Oarsman",
       "slug": "red-oarsman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/red-oarsman.node.md",
       "section": "Characters Referenced",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -870,7 +870,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Location Descriptions",
@@ -960,7 +960,7 @@
     {
       "raw_name": "The Silence",
       "slug": "silence",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/silence.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -986,10 +986,10 @@
     },
     {
       "raw_name": "Dragon's egg",
-      "slug": "dragons-egg",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-egg",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragon-egg.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 155
     },

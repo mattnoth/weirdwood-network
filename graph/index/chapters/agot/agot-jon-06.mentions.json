@@ -2,13 +2,13 @@
   "chapter_id": "agot-jon-06",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.441252+00:00",
+  "generated_at": "2026-07-04T21:33:40.411502+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-06.extraction.md",
   "stats": {
     "total_mentions": 57,
     "resolved_to_node": 46,
-    "direct": 39,
-    "alias": 7,
+    "direct": 35,
+    "alias": 11,
     "unresolved": 11
   },
   "mentions": [
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Wall (tunnel)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -465,7 +465,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",

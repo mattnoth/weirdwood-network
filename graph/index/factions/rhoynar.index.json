@@ -3,7 +3,7 @@
   "name": "Rhoynar",
   "type": "concept.culture",
   "node_path": "graph/nodes/factions/rhoynar.node.md",
-  "generated_at": "2026-07-01T19:57:32.311178+00:00",
+  "generated_at": "2026-07-04T23:34:14.324296+00:00",
   "stats": {
     "appearances_total": 9,
     "chapters_referenced_in": 9,
@@ -21,7 +21,7 @@
         "sections": [
           "Raw Entity List > Cultures & Peoples"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -33,7 +33,7 @@
         "sections": [
           "Raw Entity List > Cultures & Peoples"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -131,7 +131,7 @@
         "sections": [
           "Raw Entity List > Cultures & Peoples"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -143,7 +143,7 @@
         "sections": [
           "Raw Entity List > Cultures & Peoples"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },

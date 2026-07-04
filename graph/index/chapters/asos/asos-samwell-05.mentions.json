@@ -2,13 +2,13 @@
   "chapter_id": "asos-samwell-05",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.571184+00:00",
+  "generated_at": "2026-07-04T21:33:40.518707+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-05.extraction.md",
   "stats": {
     "total_mentions": 60,
     "resolved_to_node": 50,
-    "direct": 46,
-    "alias": 4,
+    "direct": 40,
+    "alias": 10,
     "unresolved": 10
   },
   "mentions": [
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Shieldhall",
       "slug": "shieldhall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shieldhall.node.md",
       "section": "Locations",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Lance",
       "slug": "lance",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/lance.node.md",
       "section": "Locations",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Gift",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Location Descriptions",

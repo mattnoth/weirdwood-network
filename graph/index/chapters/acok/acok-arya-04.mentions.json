@@ -2,13 +2,13 @@
   "chapter_id": "acok-arya-04",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.455509+00:00",
+  "generated_at": "2026-07-04T21:33:40.424704+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-04.extraction.md",
   "stats": {
     "total_mentions": 90,
     "resolved_to_node": 46,
-    "direct": 43,
-    "alias": 3,
+    "direct": 37,
+    "alias": 9,
     "unresolved": 44
   },
   "mentions": [
@@ -483,7 +483,7 @@
     {
       "raw_name": "The holdfast",
       "slug": "holdfast",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/holdfast.node.md",
       "section": "Locations",
@@ -501,7 +501,7 @@
     {
       "raw_name": "The sept",
       "slug": "sept",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sept.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The holdfast",
       "slug": "holdfast",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/holdfast.node.md",
       "section": "Location Descriptions",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The axe",
       "slug": "axe",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/axe.node.md",
       "section": "Artifacts & Objects of Significance",

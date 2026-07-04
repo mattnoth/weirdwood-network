@@ -3,27 +3,52 @@
   "name": "Gift",
   "type": "place.location",
   "node_path": "graph/nodes/locations/gift.node.md",
-  "generated_at": "2026-07-01T19:57:31.180361+00:00",
+  "generated_at": "2026-07-04T23:34:13.179070+00:00",
   "stats": {
-    "appearances_total": 10,
-    "chapters_referenced_in": 8,
-    "chapters_in_raw_list": 1,
+    "appearances_total": 14,
+    "chapters_referenced_in": 10,
+    "chapters_in_raw_list": 2,
     "out_edge_count": 0,
     "in_edge_count": 31,
-    "chapters_in_locations_section": 8
+    "chapters_in_locations_section": 10
   },
   "chapters": {
     "in_locations_section": [
       {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jon-01",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "asos-jon-05",
         "book": "asos",
         "pov_character_slug": "jon-snow",
-        "mention_count": 2,
+        "mention_count": 3,
         "sections": [
           "Location Descriptions",
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -36,7 +61,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -48,7 +73,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -60,7 +85,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -72,7 +97,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -84,7 +109,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -96,7 +121,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -108,13 +133,26 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }
     ],
     "in_raw_list": [
       {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
         "chapter_id": "asos-jon-11",
         "book": "asos",
         "pov_character_slug": "jon-snow",
@@ -123,22 +161,47 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       }
     ],
     "referenced_in": [
       {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jon-01",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "asos-jon-05",
         "book": "asos",
         "pov_character_slug": "jon-snow",
-        "mention_count": 2,
+        "mention_count": 3,
         "sections": [
           "Location Descriptions",
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -151,7 +214,7 @@
           "Locations",
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": true
       },
@@ -163,7 +226,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -175,7 +238,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -187,7 +250,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -199,7 +262,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -211,7 +274,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -223,7 +286,7 @@
         "sections": [
           "Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }

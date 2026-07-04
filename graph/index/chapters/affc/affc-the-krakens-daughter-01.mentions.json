@@ -2,13 +2,13 @@
   "chapter_id": "affc-the-krakens-daughter-01",
   "book": "affc",
   "pov_character": "the-krakens-daughter",
-  "generated_at": "2026-05-12T21:45:31.622738+00:00",
+  "generated_at": "2026-07-04T21:33:40.563218+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-krakens-daughter-01.extraction.md",
   "stats": {
     "total_mentions": 102,
     "resolved_to_node": 84,
-    "direct": 74,
-    "alias": 10,
+    "direct": 72,
+    "alias": 12,
     "unresolved": 18
   },
   "mentions": [
@@ -294,7 +294,7 @@
     {
       "raw_name": "The Old Grey Gull",
       "slug": "old-grey-gull",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/old-grey-gull.node.md",
       "section": "Characters Referenced",
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Red Oarsman",
       "slug": "red-oarsman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/red-oarsman.node.md",
       "section": "Characters Referenced",

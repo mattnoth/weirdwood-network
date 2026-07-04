@@ -2,7 +2,7 @@
   "chapter_id": "agot-eddard-09",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.434974+00:00",
+  "generated_at": "2026-07-04T21:33:40.406308+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-09.extraction.md",
   "stats": {
     "total_mentions": 51,
@@ -466,8 +466,8 @@
       "raw_name": "Milk of the poppy",
       "slug": "milk-of-the-poppy",
       "resolved_via": "direct",
-      "node_type": "object.food",
-      "node_path": "graph/nodes/foods/milk-of-the-poppy.node.md",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/milk-of-the-poppy.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 97
     }

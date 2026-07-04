@@ -2,13 +2,13 @@
   "chapter_id": "asos-daenerys-05",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.539142+00:00",
+  "generated_at": "2026-07-04T21:33:40.496585+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-05.extraction.md",
   "stats": {
     "total_mentions": 72,
     "resolved_to_node": 47,
-    "direct": 38,
-    "alias": 9,
+    "direct": 37,
+    "alias": 10,
     "unresolved": 25
   },
   "mentions": [
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

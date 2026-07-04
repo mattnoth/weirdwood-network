@@ -3,18 +3,132 @@
   "name": "Areo Hotah's Longaxe",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/hotahs-longaxe.node.md",
-  "generated_at": "2026-07-01T19:57:31.550725+00:00",
+  "generated_at": "2026-07-04T23:34:13.558898+00:00",
   "stats": {
-    "appearances_total": 0,
-    "chapters_referenced_in": 0,
-    "chapters_in_raw_list": 0,
+    "appearances_total": 5,
+    "chapters_referenced_in": 4,
+    "chapters_in_raw_list": 1,
     "out_edge_count": 0,
     "in_edge_count": 0,
-    "chapters_in_artifacts_section": 0
+    "chapters_in_artifacts_section": 4
   },
   "chapters": {
-    "in_artifacts_section": [],
-    "in_raw_list": [],
-    "referenced_in": []
+    "in_artifacts_section": [
+      {
+        "chapter_id": "affc-the-captain-of-guards-01",
+        "book": "affc",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-princess-in-the-tower-01",
+        "book": "affc",
+        "pov_character_slug": "arianne-martell",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-queenmaker-01",
+        "book": "affc",
+        "pov_character_slug": "arianne-martell",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-watcher-01",
+        "book": "adwd",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "affc-the-queenmaker-01",
+        "book": "affc",
+        "pov_character_slug": "arianne-martell",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "affc-the-captain-of-guards-01",
+        "book": "affc",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-princess-in-the-tower-01",
+        "book": "affc",
+        "pov_character_slug": "arianne-martell",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-queenmaker-01",
+        "book": "affc",
+        "pov_character_slug": "arianne-martell",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-watcher-01",
+        "book": "adwd",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
   }
 }

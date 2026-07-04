@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-10",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.581906+00:00",
+  "generated_at": "2026-07-04T21:33:40.529494+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-10.extraction.md",
   "stats": {
     "total_mentions": 88,
-    "resolved_to_node": 70,
-    "direct": 69,
-    "alias": 1,
-    "unresolved": 18
+    "resolved_to_node": 71,
+    "direct": 67,
+    "alias": 4,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -734,10 +734,10 @@
     },
     {
       "raw_name": "Oberyn's spear",
-      "slug": "oberyns-spear",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "oberyn-spear",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/oberyn-spear.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 127
     },

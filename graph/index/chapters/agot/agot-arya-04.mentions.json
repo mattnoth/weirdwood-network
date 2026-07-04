@@ -2,14 +2,14 @@
   "chapter_id": "agot-arya-04",
   "book": "agot",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.409972+00:00",
+  "generated_at": "2026-07-04T21:33:40.384926+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-arya-04.extraction.md",
   "stats": {
     "total_mentions": 70,
-    "resolved_to_node": 38,
-    "direct": 33,
-    "alias": 5,
-    "unresolved": 32
+    "resolved_to_node": 39,
+    "direct": 29,
+    "alias": 10,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Butcher (unnamed)",
-      "slug": "butcher",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "list-of-characters-created-for-the-cyanide-game",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/list-of-characters-created-for-the-cyanide-game.node.md",
       "section": "Characters Present",
       "line": 38
     },
@@ -195,7 +195,7 @@
     {
       "raw_name": "The Sealord of Braavos",
       "slug": "sealord-of-braavos",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sealord-of-braavos.node.md",
       "section": "Characters Referenced",
@@ -222,7 +222,7 @@
     {
       "raw_name": "The queen (Cersei)",
       "slug": "queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/queen.node.md",
       "section": "Characters Referenced",
@@ -240,7 +240,7 @@
     {
       "raw_name": "The wizard (Varys, inferred)",
       "slug": "wizard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/wizard.node.md",
       "section": "Characters Referenced",
@@ -357,7 +357,7 @@
     {
       "raw_name": "The king (Robert Baratheon)",
       "slug": "king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king.node.md",
       "section": "Characters Referenced",

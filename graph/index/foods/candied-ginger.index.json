@@ -3,7 +3,7 @@
   "name": "Candied ginger",
   "type": "object.food",
   "node_path": "graph/nodes/foods/candied-ginger.node.md",
-  "generated_at": "2026-07-01T19:57:35.321077+00:00",
+  "generated_at": "2026-07-04T23:34:17.302391+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_referenced_in": 1,
@@ -23,7 +23,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Artifacts & Objects"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": false,
         "in_raw_list": false
       }

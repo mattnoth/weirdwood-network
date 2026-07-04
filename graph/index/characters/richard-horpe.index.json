@@ -3,17 +3,27 @@
   "name": "Richard Horpe",
   "type": "character.human",
   "node_path": "graph/nodes/characters/richard-horpe.node.md",
-  "generated_at": "2026-07-01T19:57:37.737389+00:00",
+  "generated_at": "2026-07-04T23:34:19.803173+00:00",
   "stats": {
-    "appearances_total": 8,
+    "appearances_total": 9,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 4,
+    "chapters_mentioned_in": 5,
     "out_edge_count": 6,
     "in_edge_count": 20
   },
   "chapters": {
     "pov": [],
     "mentioned_in": [
+      {
+        "chapter_id": "affc-samwell-02",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "alias"
+      },
       {
         "chapter_id": "adwd-jon-02",
         "book": "adwd",

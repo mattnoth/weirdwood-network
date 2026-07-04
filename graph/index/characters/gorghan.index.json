@@ -3,28 +3,16 @@
   "name": "Gorghan",
   "type": "character.human",
   "node_path": "graph/nodes/characters/gorghan.node.md",
-  "generated_at": "2026-07-01T19:57:38.069790+00:00",
+  "generated_at": "2026-07-04T23:34:20.131095+00:00",
   "stats": {
-    "appearances_total": 2,
+    "appearances_total": 0,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 1,
+    "chapters_mentioned_in": 0,
     "out_edge_count": 1,
     "in_edge_count": 2
   },
   "chapters": {
     "pov": [],
-    "mentioned_in": [
-      {
-        "chapter_id": "affc-samwell-05",
-        "book": "affc",
-        "pov_character_slug": "samwell-tarly",
-        "mention_count": 2,
-        "sections": [
-          "Characters Referenced",
-          "Raw Entity List > Characters"
-        ],
-        "resolved_via": "alias"
-      }
-    ]
+    "mentioned_in": []
   }
 }

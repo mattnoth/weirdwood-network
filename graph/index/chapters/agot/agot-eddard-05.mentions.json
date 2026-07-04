@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-05",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.432798+00:00",
+  "generated_at": "2026-07-04T21:33:40.404140+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-05.extraction.md",
   "stats": {
     "total_mentions": 59,
-    "resolved_to_node": 47,
-    "direct": 47,
-    "alias": 0,
-    "unresolved": 12
+    "resolved_to_node": 46,
+    "direct": 43,
+    "alias": 3,
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -285,9 +285,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 65
     },
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Sunset Sea",
       "slug": "sunset-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sunset-sea.node.md",
       "section": "Locations",

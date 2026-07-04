@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-03",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.615583+00:00",
+  "generated_at": "2026-07-04T21:33:40.557001+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-03.extraction.md",
   "stats": {
     "total_mentions": 167,
-    "resolved_to_node": 98,
-    "direct": 90,
-    "alias": 8,
-    "unresolved": 69
+    "resolved_to_node": 99,
+    "direct": 67,
+    "alias": 32,
+    "unresolved": 68
   },
   "mentions": [
     {
@@ -96,7 +96,7 @@
     {
       "raw_name": "The Sailor's Wife",
       "slug": "sailors-wife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/sailors-wife.node.md",
       "section": "Characters Present",
@@ -204,7 +204,7 @@
     {
       "raw_name": "The Moonshadow",
       "slug": "moonshadow",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/moonshadow.node.md",
       "section": "Characters Referenced",
@@ -258,7 +258,7 @@
     {
       "raw_name": "The Nightingale",
       "slug": "nightingale",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/nightingale.node.md",
       "section": "Characters Referenced",
@@ -339,7 +339,7 @@
     {
       "raw_name": "The Black Bargeman",
       "slug": "black-bargeman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-bargeman.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Outcast Inn",
       "slug": "outcast-inn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/outcast-inn.node.md",
       "section": "Locations",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The House of Seven Lamps",
       "slug": "house-of-seven-lamps",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.house",
       "node_path": "graph/nodes/houses/house-of-seven-lamps.node.md",
       "section": "Locations",
@@ -429,7 +429,7 @@
     {
       "raw_name": "The sweetwater river (aqueduct)",
       "slug": "sweetwater-river",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sweetwater-river.node.md",
       "section": "Locations",
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The sweetwater river",
       "slug": "sweetwater-river",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sweetwater-river.node.md",
       "section": "Location Descriptions",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Sailor's Wife (Dareon's \"bride\")",
       "slug": "sailors-wife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/sailors-wife.node.md",
       "section": "Raw Entity List > Characters",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Moonshadow (courtesan)",
       "slug": "moonshadow",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/moonshadow.node.md",
       "section": "Raw Entity List > Characters",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The Nightingale (courtesan)",
       "slug": "nightingale",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/nightingale.node.md",
       "section": "Raw Entity List > Characters",
@@ -951,7 +951,7 @@
     {
       "raw_name": "The Black Bargeman",
       "slug": "black-bargeman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-bargeman.node.md",
       "section": "Raw Entity List > Locations",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Outcast Inn",
       "slug": "outcast-inn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/outcast-inn.node.md",
       "section": "Raw Entity List > Locations",
@@ -996,7 +996,7 @@
     {
       "raw_name": "The House of Seven Lamps",
       "slug": "house-of-seven-lamps",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.house",
       "node_path": "graph/nodes/houses/house-of-seven-lamps.node.md",
       "section": "Raw Entity List > Locations",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The sweetwater river (brick aqueduct)",
       "slug": "sweetwater-river",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sweetwater-river.node.md",
       "section": "Raw Entity List > Locations",
@@ -1050,7 +1050,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1131,7 +1131,7 @@
     {
       "raw_name": "The Seven Kingdoms",
       "slug": "seven-kingdoms",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
       "section": "Raw Entity List > Locations",
@@ -1203,7 +1203,7 @@
     {
       "raw_name": "The Faith of the Seven (Aemon references \"the septons sing of sweet surcease\" and \"the Stranger waits outside my door\")",
       "slug": "faith-of-the-seven",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1212,7 +1212,7 @@
     {
       "raw_name": "The Stranger (invoked by Aemon as death personified)",
       "slug": "stranger",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/stranger.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1329,7 +1329,7 @@
     {
       "raw_name": "The barrow (Cat's cart for selling seafood)",
       "slug": "barrow",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept.custom",
       "node_path": "graph/nodes/customs/barrow.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
@@ -1373,10 +1373,10 @@
     },
     {
       "raw_name": "Dragons (rumors from sailors; Aemon's dreams and visions)",
-      "slug": "dragons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dragon.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 365
     },
@@ -1482,7 +1482,7 @@
     {
       "raw_name": "The Titan of Braavos (sounds nightfall; landmark at the lagoon entrance)",
       "slug": "titan-of-braavos",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/titan-of-braavos.node.md",
       "section": "Raw Entity List > Other",
@@ -1491,7 +1491,7 @@
     {
       "raw_name": "The Lady Ushanora (ship that departed without them)",
       "slug": "lady-ushanora",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/lady-ushanora.node.md",
       "section": "Raw Entity List > Other",

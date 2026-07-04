@@ -3,10 +3,10 @@
   "name": "Acolyte",
   "type": "title",
   "node_path": "graph/nodes/titles/acolyte.node.md",
-  "generated_at": "2026-07-01T19:57:32.704836+00:00",
+  "generated_at": "2026-07-04T23:34:14.723945+00:00",
   "stats": {
-    "appearances_total": 2,
-    "chapters_referenced_in": 2,
+    "appearances_total": 3,
+    "chapters_referenced_in": 3,
     "chapters_in_raw_list": 2,
     "out_edge_count": 0,
     "in_edge_count": 2
@@ -39,6 +39,18 @@
       }
     ],
     "referenced_in": [
+      {
+        "chapter_id": "affc-arya-02",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Character Appearances"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
       {
         "chapter_id": "affc-prologue",
         "book": "affc",

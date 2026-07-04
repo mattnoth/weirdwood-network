@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-10",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.604630+00:00",
+  "generated_at": "2026-07-04T21:33:40.548182+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-10.extraction.md",
   "stats": {
     "total_mentions": 105,
-    "resolved_to_node": 87,
-    "direct": 82,
-    "alias": 5,
-    "unresolved": 18
+    "resolved_to_node": 88,
+    "direct": 77,
+    "alias": 11,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -159,7 +159,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Present",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Red Keep — Throne room",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -752,10 +752,10 @@
     },
     {
       "raw_name": "Blackwater",
-      "slug": "blackwater",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-rush",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
       "section": "Locations",
       "line": 121
     },
@@ -807,7 +807,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",

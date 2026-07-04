@@ -2,14 +2,14 @@
   "chapter_id": "acok-davos-01",
   "book": "acok",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.482527+00:00",
+  "generated_at": "2026-07-04T21:33:40.445828+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-davos-01.extraction.md",
   "stats": {
     "total_mentions": 289,
-    "resolved_to_node": 194,
-    "direct": 186,
-    "alias": 8,
-    "unresolved": 95
+    "resolved_to_node": 195,
+    "direct": 163,
+    "alias": 32,
+    "unresolved": 94
   },
   "mentions": [
     {
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Stone Drum",
       "slug": "stone-drum",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stone-drum.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Three Sisters",
       "slug": "three-sisters",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/three-sisters.node.md",
       "section": "Locations",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The Broken Arm",
       "slug": "broken-arm",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/broken-arm.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Roseroad",
       "slug": "roseroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/roseroad.node.md",
       "section": "Locations",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The Painted Table",
       "slug": "painted-table",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/painted-table.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -1581,7 +1581,7 @@
     {
       "raw_name": "The Stone Drum",
       "slug": "stone-drum",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stone-drum.node.md",
       "section": "Raw Entity List > Locations",
@@ -1608,7 +1608,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Raw Entity List > Locations",
@@ -1689,7 +1689,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Raw Entity List > Locations",
@@ -1698,7 +1698,7 @@
     {
       "raw_name": "The Three Sisters",
       "slug": "three-sisters",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/three-sisters.node.md",
       "section": "Raw Entity List > Locations",
@@ -1716,7 +1716,7 @@
     {
       "raw_name": "The Broken Arm",
       "slug": "broken-arm",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/broken-arm.node.md",
       "section": "Raw Entity List > Locations",
@@ -1734,7 +1734,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Raw Entity List > Locations",
@@ -1752,7 +1752,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Raw Entity List > Locations",
@@ -1779,7 +1779,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1824,7 +1824,7 @@
     {
       "raw_name": "The Roseroad",
       "slug": "roseroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/roseroad.node.md",
       "section": "Raw Entity List > Locations",
@@ -1968,7 +1968,7 @@
     {
       "raw_name": "The Citadel (referenced — \"a maester of the Citadel\")",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Raw Entity List > Factions & Organizations",
@@ -2003,10 +2003,10 @@
     },
     {
       "raw_name": "Red priests (temple on Lys referenced)",
-      "slug": "red-priests",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-priest",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/red-priest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 429
     },
@@ -2076,7 +2076,7 @@
     {
       "raw_name": "The Painted Table (war-planning table at Dragonstone)",
       "slug": "painted-table",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/painted-table.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
@@ -2103,7 +2103,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Raw Entity List > Artifacts & Objects",

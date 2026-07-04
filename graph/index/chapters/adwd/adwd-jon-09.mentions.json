@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-09",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.650772+00:00",
+  "generated_at": "2026-07-04T21:33:40.589106+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-09.extraction.md",
   "stats": {
     "total_mentions": 103,
     "resolved_to_node": 76,
-    "direct": 70,
-    "alias": 6,
+    "direct": 68,
+    "alias": 8,
     "unresolved": 27
   },
   "mentions": [
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Broken Arm",
       "slug": "broken-arm",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/broken-arm.node.md",
       "section": "Locations",

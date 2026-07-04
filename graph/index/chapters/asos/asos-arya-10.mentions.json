@@ -2,13 +2,13 @@
   "chapter_id": "asos-arya-10",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.524080+00:00",
+  "generated_at": "2026-07-04T21:33:40.482028+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-10.extraction.md",
   "stats": {
     "total_mentions": 132,
     "resolved_to_node": 87,
-    "direct": 84,
-    "alias": 3,
+    "direct": 81,
+    "alias": 6,
     "unresolved": 45
   },
   "mentions": [
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Location Descriptions",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Twins (Frey castles, both)",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",

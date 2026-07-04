@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-12",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.566648+00:00",
+  "generated_at": "2026-07-04T21:33:40.514774+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-12.extraction.md",
   "stats": {
     "total_mentions": 97,
-    "resolved_to_node": 71,
-    "direct": 59,
-    "alias": 12,
-    "unresolved": 26
+    "resolved_to_node": 72,
+    "direct": 55,
+    "alias": 17,
+    "unresolved": 25
   },
   "mentions": [
     {
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Giant",
-      "slug": "giant",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bedwyck",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bedwyck.node.md",
       "section": "Characters Present",
       "line": 51
     },
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Magnar",
       "slug": "magnar",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/magnar.node.md",
       "section": "Characters Referenced",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Wall (top)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Wall (tunnel/inner gate)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Wall (tunnel)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",

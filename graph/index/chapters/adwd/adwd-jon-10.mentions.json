@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-10",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.651388+00:00",
+  "generated_at": "2026-07-04T21:33:40.589696+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-10.extraction.md",
   "stats": {
     "total_mentions": 96,
     "resolved_to_node": 75,
-    "direct": 72,
-    "alias": 3,
+    "direct": 70,
+    "alias": 5,
     "unresolved": 21
   },
   "mentions": [
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",

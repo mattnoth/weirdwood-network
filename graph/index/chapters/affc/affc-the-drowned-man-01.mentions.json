@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-drowned-man-01",
   "book": "affc",
   "pov_character": "the-drowned-man",
-  "generated_at": "2026-05-12T21:45:31.621260+00:00",
+  "generated_at": "2026-07-04T21:33:40.561929+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-drowned-man-01.extraction.md",
   "stats": {
     "total_mentions": 96,
-    "resolved_to_node": 78,
-    "direct": 69,
-    "alias": 9,
-    "unresolved": 18
+    "resolved_to_node": 79,
+    "direct": 58,
+    "alias": 21,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -204,7 +204,7 @@
     {
       "raw_name": "The Red Oarsman",
       "slug": "red-oarsman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/red-oarsman.node.md",
       "section": "Characters Present",
@@ -248,10 +248,10 @@
     },
     {
       "raw_name": "Lord Merlyn (the Merlyn)",
-      "slug": "lord-merlyn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meldred-merlyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meldred-merlyn.node.md",
       "section": "Characters Present",
       "line": 53
     },
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Grey King",
       "slug": "grey-king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/grey-king.node.md",
       "section": "Characters Referenced",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Lonely Light",
       "slug": "lonely-light",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/lonely-light.node.md",
       "section": "Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Stony Shore",
       "slug": "stony-shore",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stony-shore.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The kingswood",
       "slug": "kingswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingswood.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The rainwood",
       "slug": "rainwood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rainwood.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Lonely Light",
       "slug": "lonely-light",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/lonely-light.node.md",
       "section": "Location Descriptions",

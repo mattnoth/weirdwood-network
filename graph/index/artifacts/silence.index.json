@@ -3,7 +3,7 @@
   "name": "Silence",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/silence.node.md",
-  "generated_at": "2026-07-01T19:57:31.539048+00:00",
+  "generated_at": "2026-07-04T23:34:13.545730+00:00",
   "stats": {
     "appearances_total": 7,
     "chapters_referenced_in": 6,
@@ -47,7 +47,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -83,7 +83,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }
@@ -137,7 +137,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -173,7 +173,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }

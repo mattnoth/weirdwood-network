@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-06",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.520405+00:00",
+  "generated_at": "2026-07-04T21:33:40.478749+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-06.extraction.md",
   "stats": {
     "total_mentions": 98,
-    "resolved_to_node": 73,
-    "direct": 65,
-    "alias": 8,
-    "unresolved": 25
+    "resolved_to_node": 76,
+    "direct": 62,
+    "alias": 14,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -96,7 +96,7 @@
     {
       "raw_name": "The Mad Huntsman",
       "slug": "mad-huntsman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/mad-huntsman.node.md",
       "section": "Characters Present",
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "Ned (squire)",
-      "slug": "ned",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Present",
       "line": 39
     },
@@ -140,10 +140,10 @@
     },
     {
       "raw_name": "Kyle",
-      "slug": "kyle",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kyle-the-cat",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kyle-the-cat.node.md",
       "section": "Characters Present",
       "line": 41
     },
@@ -239,10 +239,10 @@
     },
     {
       "raw_name": "Ned (squire)",
-      "slug": "ned",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Character Appearances",
       "line": 56
     },
@@ -672,7 +672,7 @@
     {
       "raw_name": "The hollow hill",
       "slug": "hollow-hill",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/hollow-hill.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The hollow hill",
       "slug": "hollow-hill",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/hollow-hill.node.md",
       "section": "Location Descriptions",

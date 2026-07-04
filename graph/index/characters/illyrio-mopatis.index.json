@@ -3,17 +3,27 @@
   "name": "Illyrio Mopatis",
   "type": "character.human",
   "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
-  "generated_at": "2026-07-01T19:57:37.988310+00:00",
+  "generated_at": "2026-07-04T23:34:20.052345+00:00",
   "stats": {
-    "appearances_total": 36,
+    "appearances_total": 37,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 18,
+    "chapters_mentioned_in": 19,
     "out_edge_count": 8,
     "in_edge_count": 151
   },
   "chapters": {
     "pov": [],
     "mentioned_in": [
+      {
+        "chapter_id": "agot-arya-03",
+        "book": "agot",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Character Appearances"
+        ],
+        "resolved_via": "alias"
+      },
       {
         "chapter_id": "agot-daenerys-01",
         "book": "agot",

@@ -2,13 +2,13 @@
   "chapter_id": "acok-tyrion-08",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.511104+00:00",
+  "generated_at": "2026-07-04T21:33:40.469612+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-08.extraction.md",
   "stats": {
     "total_mentions": 50,
     "resolved_to_node": 43,
-    "direct": 43,
-    "alias": 0,
+    "direct": 40,
+    "alias": 3,
     "unresolved": 7
   },
   "mentions": [
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The chain",
       "slug": "chain",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/chain.node.md",
       "section": "Artifacts & Objects of Significance",

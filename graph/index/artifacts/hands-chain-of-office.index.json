@@ -3,14 +3,14 @@
   "name": "The Hand's chain of office",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/hands-chain-of-office.node.md",
-  "generated_at": "2026-07-01T19:57:31.543808+00:00",
+  "generated_at": "2026-07-04T23:34:13.551216+00:00",
   "stats": {
-    "appearances_total": 3,
-    "chapters_referenced_in": 3,
+    "appearances_total": 7,
+    "chapters_referenced_in": 7,
     "chapters_in_raw_list": 0,
     "out_edge_count": 0,
     "in_edge_count": 0,
-    "chapters_in_artifacts_section": 3
+    "chapters_in_artifacts_section": 7
   },
   "chapters": {
     "in_artifacts_section": [
@@ -22,7 +22,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -34,7 +34,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -46,7 +46,55 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-01",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-02",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-11",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-tyrion-09",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }
@@ -61,7 +109,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -73,7 +121,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
         "in_primary_section": true,
         "in_raw_list": false
       },
@@ -85,7 +133,55 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "unresolved",
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-01",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-02",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-11",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-tyrion-09",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
         "in_primary_section": true,
         "in_raw_list": false
       }

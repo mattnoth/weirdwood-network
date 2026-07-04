@@ -2,13 +2,13 @@
   "chapter_id": "acok-sansa-05",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.494516+00:00",
+  "generated_at": "2026-07-04T21:33:40.458639+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-05.extraction.md",
   "stats": {
     "total_mentions": 128,
     "resolved_to_node": 110,
-    "direct": 108,
-    "alias": 2,
+    "direct": 105,
+    "alias": 5,
     "unresolved": 18
   },
   "mentions": [
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -906,7 +906,7 @@
     {
       "raw_name": "The Wall (referenced)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1077,7 +1077,7 @@
     {
       "raw_name": "The Three Whores (catapults/siege weapons Joffrey will command)",
       "slug": "three-whores",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Raw Entity List > Artifacts & Objects",

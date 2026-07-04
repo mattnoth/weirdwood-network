@@ -2,13 +2,13 @@
   "chapter_id": "asos-jaime-07",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.556617+00:00",
+  "generated_at": "2026-07-04T21:33:40.505410+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-07.extraction.md",
   "stats": {
     "total_mentions": 99,
     "resolved_to_node": 74,
-    "direct": 70,
-    "alias": 4,
+    "direct": 68,
+    "alias": 6,
     "unresolved": 25
   },
   "mentions": [
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -879,7 +879,7 @@
     {
       "raw_name": "The White Book",
       "slug": "white-book",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/white-book.node.md",
       "section": "Artifacts & Objects of Significance",

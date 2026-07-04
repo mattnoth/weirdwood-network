@@ -2,13 +2,13 @@
   "chapter_id": "adwd-the-spurned-suitor-01",
   "book": "adwd",
   "pov_character": "the-spurned-suitor",
-  "generated_at": "2026-05-12T21:45:31.669097+00:00",
+  "generated_at": "2026-07-04T21:33:40.609788+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-spurned-suitor-01.extraction.md",
   "stats": {
     "total_mentions": 71,
     "resolved_to_node": 54,
-    "direct": 45,
-    "alias": 9,
+    "direct": 41,
+    "alias": 13,
     "unresolved": 17
   },
   "mentions": [
@@ -204,7 +204,7 @@
     {
       "raw_name": "The Sand Snakes",
       "slug": "sand-snakes",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/sand-snakes.node.md",
       "section": "Characters Referenced",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Purple Lotus",
       "slug": "purple-lotus",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/purple-lotus.node.md",
       "section": "Locations",
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Greenblood",
       "slug": "greenblood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/greenblood.node.md",
       "section": "Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Purple Lotus",
       "slug": "purple-lotus",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/purple-lotus.node.md",
       "section": "Location Descriptions",

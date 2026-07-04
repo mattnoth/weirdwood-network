@@ -2,14 +2,14 @@
   "chapter_id": "acok-davos-02",
   "book": "acok",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.483656+00:00",
+  "generated_at": "2026-07-04T21:33:40.447397+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-davos-02.extraction.md",
   "stats": {
     "total_mentions": 192,
-    "resolved_to_node": 143,
-    "direct": 139,
-    "alias": 4,
-    "unresolved": 49
+    "resolved_to_node": 144,
+    "direct": 138,
+    "alias": 6,
+    "unresolved": 48
   },
   "mentions": [
     {
@@ -1715,10 +1715,10 @@
     },
     {
       "raw_name": "Onion Knight (Davos's title)",
-      "slug": "onion-knight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "davos-seaworth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/davos-seaworth.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 417
     },
@@ -1734,7 +1734,7 @@
     {
       "raw_name": "The Evenstar (Brienne's father, Lord of Tarth)",
       "slug": "evenstar",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/evenstar.node.md",
       "section": "Raw Entity List > Titles & Offices",

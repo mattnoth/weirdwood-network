@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-watcher-01",
   "book": "adwd",
   "pov_character": "the-watcher",
-  "generated_at": "2026-05-12T21:45:31.671877+00:00",
+  "generated_at": "2026-07-04T21:33:40.612485+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-watcher-01.extraction.md",
   "stats": {
     "total_mentions": 92,
-    "resolved_to_node": 71,
-    "direct": 68,
-    "alias": 3,
-    "unresolved": 21
+    "resolved_to_node": 73,
+    "direct": 55,
+    "alias": 18,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -159,7 +159,7 @@
     {
       "raw_name": "The Lord of Godsgrace",
       "slug": "lord-of-godsgrace",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/lord-of-godsgrace.node.md",
       "section": "Characters Present",
@@ -168,7 +168,7 @@
     {
       "raw_name": "The Knight of Lemonwood",
       "slug": "knight-of-lemonwood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/knight-of-lemonwood.node.md",
       "section": "Characters Present",
@@ -177,7 +177,7 @@
     {
       "raw_name": "The Lady of Ghost Hill",
       "slug": "lady-of-ghost-hill",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/lady-of-ghost-hill.node.md",
       "section": "Characters Present",
@@ -501,7 +501,7 @@
     {
       "raw_name": "The High Septon (new)",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -572,17 +572,17 @@
     },
     {
       "raw_name": "The Spear Tower",
-      "slug": "the-spear-tower",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "spear-tower",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/spear-tower.node.md",
       "section": "Locations",
       "line": 101
     },
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Greenblood (river)",
       "slug": "greenblood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/greenblood.node.md",
       "section": "Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The kingswood",
       "slug": "kingswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingswood.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Hellholt",
       "slug": "hellholt",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/hellholt.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Boneway",
       "slug": "boneway",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/boneway.node.md",
       "section": "Locations",
@@ -788,10 +788,10 @@
     },
     {
       "raw_name": "Areo Hotah's longaxe",
-      "slug": "areo-hotahs-longaxe",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hotahs-longaxe",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hotahs-longaxe.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 133
     },

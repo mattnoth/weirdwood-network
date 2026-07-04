@@ -3,7 +3,7 @@
   "name": "Night's Watch",
   "type": "organization.faction",
   "node_path": "graph/nodes/factions/nights-watch.node.md",
-  "generated_at": "2026-07-01T19:57:32.313920+00:00",
+  "generated_at": "2026-07-04T23:34:14.327260+00:00",
   "stats": {
     "appearances_total": 46,
     "chapters_referenced_in": 46,
@@ -69,7 +69,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -465,7 +465,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -623,7 +623,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -1019,7 +1019,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },

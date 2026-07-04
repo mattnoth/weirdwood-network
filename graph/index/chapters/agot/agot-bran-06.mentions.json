@@ -2,14 +2,14 @@
   "chapter_id": "agot-bran-06",
   "book": "agot",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.414667+00:00",
+  "generated_at": "2026-07-04T21:33:40.388814+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-bran-06.extraction.md",
   "stats": {
     "total_mentions": 97,
-    "resolved_to_node": 65,
-    "direct": 59,
-    "alias": 6,
-    "unresolved": 32
+    "resolved_to_node": 66,
+    "direct": 54,
+    "alias": 12,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -545,10 +545,10 @@
     },
     {
       "raw_name": "Mance (Rayder)",
-      "slug": "mance",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "mance-rayder",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
       "section": "Characters Referenced",
       "line": 94
     },
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Smoking Log",
       "slug": "smoking-log",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/smoking-log.node.md",
       "section": "Locations",
@@ -807,7 +807,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Location Descriptions",

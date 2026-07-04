@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-01",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.462105+00:00",
+  "generated_at": "2026-07-04T21:33:40.429754+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-01.extraction.md",
   "stats": {
     "total_mentions": 191,
-    "resolved_to_node": 136,
-    "direct": 130,
-    "alias": 6,
-    "unresolved": 55
+    "resolved_to_node": 138,
+    "direct": 125,
+    "alias": 13,
+    "unresolved": 53
   },
   "mentions": [
     {
@@ -510,7 +510,7 @@
     {
       "raw_name": "The children of the forest",
       "slug": "children-of-the-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Characters Referenced",
@@ -635,10 +635,10 @@
     },
     {
       "raw_name": "Crypts of Winterfell",
-      "slug": "crypts-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 108
     },
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -734,10 +734,10 @@
     },
     {
       "raw_name": "Crypts of Winterfell",
-      "slug": "crypts-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Location Descriptions",
       "line": 123
     },
@@ -1337,10 +1337,10 @@
     },
     {
       "raw_name": "Crypts of Winterfell",
-      "slug": "crypts-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Raw Entity List > Locations",
       "line": 343
     },
@@ -1365,7 +1365,7 @@
     {
       "raw_name": "The Twins (mentioned)",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -1374,7 +1374,7 @@
     {
       "raw_name": "The Wall (mentioned)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1454,10 +1454,10 @@
     },
     {
       "raw_name": "Old Gods (godswood, heart tree, weirwood)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 362
     },

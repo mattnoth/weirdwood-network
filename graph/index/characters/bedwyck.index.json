@@ -3,11 +3,11 @@
   "name": "Bedwyck",
   "type": "character.human",
   "node_path": "graph/nodes/characters/bedwyck.node.md",
-  "generated_at": "2026-07-01T19:57:37.850207+00:00",
+  "generated_at": "2026-07-04T23:34:19.916555+00:00",
   "stats": {
-    "appearances_total": 5,
+    "appearances_total": 12,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 2,
+    "chapters_mentioned_in": 8,
     "out_edge_count": 4,
     "in_edge_count": 15
   },
@@ -27,6 +27,57 @@
         "resolved_via": "direct"
       },
       {
+        "chapter_id": "acok-jon-03",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-jon-06",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-jon-12",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-samwell-02",
+        "book": "asos",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-samwell-04",
+        "book": "asos",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
         "chapter_id": "adwd-jon-02",
         "book": "adwd",
         "pov_character_slug": "jon-snow",
@@ -36,6 +87,16 @@
           "Characters Present"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jon-07",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Character Appearances"
+        ],
+        "resolved_via": "alias"
       }
     ]
   }

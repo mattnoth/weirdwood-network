@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-01",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.645706+00:00",
+  "generated_at": "2026-07-04T21:33:40.584242+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-01.extraction.md",
   "stats": {
     "total_mentions": 107,
     "resolved_to_node": 88,
-    "direct": 79,
-    "alias": 9,
+    "direct": 70,
+    "alias": 18,
     "unresolved": 19
   },
   "mentions": [
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Magnar of Thenn",
       "slug": "magnar-of-thenn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/magnar-of-thenn.node.md",
       "section": "Characters Referenced",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Characters Referenced",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Gift",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
@@ -825,7 +825,7 @@
     {
       "raw_name": "The Dornish Marches",
       "slug": "dornish-marches",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dornish-marches.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",

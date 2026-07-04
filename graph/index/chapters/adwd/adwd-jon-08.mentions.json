@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-08",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.649990+00:00",
+  "generated_at": "2026-07-04T21:33:40.588403+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-08.extraction.md",
   "stats": {
     "total_mentions": 58,
-    "resolved_to_node": 50,
-    "direct": 45,
-    "alias": 5,
-    "unresolved": 8
+    "resolved_to_node": 51,
+    "direct": 40,
+    "alias": 11,
+    "unresolved": 7
   },
   "mentions": [
     {
@@ -131,10 +131,10 @@
     },
     {
       "raw_name": "Sam (Samwell Tarly)",
-      "slug": "sam",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
       "section": "Characters Referenced",
       "line": 48
     },
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Wall (tunnel beneath)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Wall (tunnel)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Location Descriptions",

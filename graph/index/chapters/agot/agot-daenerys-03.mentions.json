@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-03",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.425965+00:00",
+  "generated_at": "2026-07-04T21:33:40.398606+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-03.extraction.md",
   "stats": {
     "total_mentions": 110,
-    "resolved_to_node": 70,
-    "direct": 61,
-    "alias": 9,
-    "unresolved": 40
+    "resolved_to_node": 74,
+    "direct": 58,
+    "alias": 16,
+    "unresolved": 36
   },
   "mentions": [
     {
@@ -374,10 +374,10 @@
     },
     {
       "raw_name": "Dragon eggs (three)",
-      "slug": "dragon-eggs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-egg",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragon-egg.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 87
     },
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Raw Entity List > Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -770,10 +770,10 @@
     },
     {
       "raw_name": "Dragon eggs (three; largest is black-and-scarlet)",
-      "slug": "dragon-eggs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-egg",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragon-egg.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 279
     },
@@ -842,10 +842,10 @@
     },
     {
       "raw_name": "Dragon dream (Dany's recurring dream; this instance features a black dragon with blood-slick scales and magma eyes; she embraces its fire and feels renewed)",
-      "slug": "dragon-dream",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-dreams",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/dragon-dreams.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 292
     },
@@ -905,17 +905,17 @@
     },
     {
       "raw_name": "Stormsingers (referenced as lost with Valyria)",
-      "slug": "stormsingers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "stormsinger",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/stormsinger.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 299
     },
     {
       "raw_name": "The Doom of Valyria (referenced — magic died in the west when it fell)",
       "slug": "doom-of-valyria",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "event",
       "node_path": "graph/nodes/events/doom-of-valyria.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

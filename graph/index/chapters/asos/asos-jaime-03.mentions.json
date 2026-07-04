@@ -2,13 +2,13 @@
   "chapter_id": "asos-jaime-03",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.554299+00:00",
+  "generated_at": "2026-07-04T21:33:40.503111+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-03.extraction.md",
   "stats": {
     "total_mentions": 166,
     "resolved_to_node": 110,
-    "direct": 100,
-    "alias": 10,
+    "direct": 97,
+    "alias": 13,
     "unresolved": 56
   },
   "mentions": [
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Riverlands (war-devastated countryside)",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Riverlands (war-devastated countryside)",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1122,7 +1122,7 @@
     {
       "raw_name": "The Seven Kingdoms",
       "slug": "seven-kingdoms",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
       "section": "Raw Entity List > Locations",

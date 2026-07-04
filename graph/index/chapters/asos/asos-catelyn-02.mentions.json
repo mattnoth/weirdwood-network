@@ -2,14 +2,14 @@
   "chapter_id": "asos-catelyn-02",
   "book": "asos",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-12T21:45:31.531929+00:00",
+  "generated_at": "2026-07-04T21:33:40.488951+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-catelyn-02.extraction.md",
   "stats": {
     "total_mentions": 114,
-    "resolved_to_node": 98,
-    "direct": 91,
-    "alias": 7,
-    "unresolved": 16
+    "resolved_to_node": 96,
+    "direct": 86,
+    "alias": 10,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -185,10 +185,10 @@
     },
     {
       "raw_name": "Elenya Westerling",
-      "slug": "eleyna-westerling",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/eleyna-westerling.node.md",
+      "slug": "elenya-westerling",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Present",
       "line": 46
     },
@@ -680,10 +680,10 @@
     },
     {
       "raw_name": "King Maegor",
-      "slug": "maegor-i-targaryen",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
+      "slug": "king-maegor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 109
     },
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Crag",
       "slug": "crag",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/crag.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Red Fork",
       "slug": "red-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-fork.node.md",
       "section": "Locations",
@@ -942,7 +942,7 @@
     {
       "raw_name": "The causeway (to Moat Cailin)",
       "slug": "causeway",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/causeway.node.md",
       "section": "Locations",
@@ -978,7 +978,7 @@
     {
       "raw_name": "The Crag",
       "slug": "crag",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/crag.node.md",
       "section": "Location Descriptions",

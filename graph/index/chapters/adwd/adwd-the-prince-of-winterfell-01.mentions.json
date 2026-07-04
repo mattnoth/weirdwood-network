@@ -2,13 +2,13 @@
   "chapter_id": "adwd-the-prince-of-winterfell-01",
   "book": "adwd",
   "pov_character": "the-prince-of-winterfell",
-  "generated_at": "2026-05-12T21:45:31.666346+00:00",
+  "generated_at": "2026-07-04T21:33:40.604314+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-prince-of-winterfell-01.extraction.md",
   "stats": {
     "total_mentions": 91,
     "resolved_to_node": 64,
-    "direct": 60,
-    "alias": 4,
+    "direct": 54,
+    "alias": 10,
     "unresolved": 27
   },
   "mentions": [
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Rat Cook",
       "slug": "rat-cook",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/rat-cook.node.md",
       "section": "Characters Referenced",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Locations",

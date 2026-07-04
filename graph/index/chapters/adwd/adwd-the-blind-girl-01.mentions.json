@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-blind-girl-01",
   "book": "adwd",
   "pov_character": "the-blind-girl",
-  "generated_at": "2026-05-12T21:45:31.658765+00:00",
+  "generated_at": "2026-07-04T21:33:40.596958+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-blind-girl-01.extraction.md",
   "stats": {
     "total_mentions": 187,
-    "resolved_to_node": 103,
-    "direct": 94,
-    "alias": 9,
-    "unresolved": 84
+    "resolved_to_node": 105,
+    "direct": 71,
+    "alias": 34,
+    "unresolved": 82
   },
   "mentions": [
     {
@@ -33,7 +33,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Characters Present",
@@ -105,7 +105,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Character Appearances",
@@ -266,10 +266,10 @@
     },
     {
       "raw_name": "Merry",
-      "slug": "merry",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meralyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meralyn.node.md",
       "section": "Characters Referenced",
       "line": 63
     },
@@ -348,7 +348,7 @@
     {
       "raw_name": "The King-Beyond-the-Wall (Mance Rayder)",
       "slug": "king-beyond-the-wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
       "section": "Characters Referenced",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Sealord of Braavos",
       "slug": "sealord-of-braavos",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sealord-of-braavos.node.md",
       "section": "Characters Referenced",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Black Bargeman",
       "slug": "black-bargeman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-bargeman.node.md",
       "section": "Locations",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Sailmender's",
       "slug": "sailmenders",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sailmenders.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Outcast Inn",
       "slug": "outcast-inn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/outcast-inn.node.md",
       "section": "Locations",
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Drowned Town",
       "slug": "drowned-town",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/drowned-town.node.md",
       "section": "Locations",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The red temple (Braavos)",
       "slug": "red-temple",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Locations",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Raw Entity List > Characters",
@@ -923,10 +923,10 @@
     },
     {
       "raw_name": "Merry (referenced — runs the Happy Port)",
-      "slug": "merry",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meralyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meralyn.node.md",
       "section": "Raw Entity List > Characters",
       "line": 283
     },
@@ -951,7 +951,7 @@
     {
       "raw_name": "The Sealord of Braavos (referenced — sick)",
       "slug": "sealord-of-braavos",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sealord-of-braavos.node.md",
       "section": "Raw Entity List > Characters",
@@ -996,7 +996,7 @@
     {
       "raw_name": "The King-Beyond-the-Wall (referenced — killed in battle)",
       "slug": "king-beyond-the-wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
       "section": "Raw Entity List > Characters",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The Merling Queen (referenced — chose new Mermaid)",
       "slug": "merling-queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/merling-queen.node.md",
       "section": "Raw Entity List > Characters",
@@ -1095,7 +1095,7 @@
     {
       "raw_name": "The Black Bargeman",
       "slug": "black-bargeman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/black-bargeman.node.md",
       "section": "Raw Entity List > Locations",
@@ -1104,7 +1104,7 @@
     {
       "raw_name": "The Sailmender's",
       "slug": "sailmenders",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/sailmenders.node.md",
       "section": "Raw Entity List > Locations",
@@ -1140,7 +1140,7 @@
     {
       "raw_name": "The Outcast Inn",
       "slug": "outcast-inn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/outcast-inn.node.md",
       "section": "Raw Entity List > Locations",
@@ -1167,7 +1167,7 @@
     {
       "raw_name": "The Drowned Town",
       "slug": "drowned-town",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/drowned-town.node.md",
       "section": "Raw Entity List > Locations",
@@ -1176,7 +1176,7 @@
     {
       "raw_name": "The red temple (Braavos)",
       "slug": "red-temple",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Raw Entity List > Locations",
@@ -1230,7 +1230,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1239,7 +1239,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Raw Entity List > Locations",
@@ -1383,7 +1383,7 @@
     {
       "raw_name": "The Stranger (one of the Seven; dead man found at his feet with dark red candle)",
       "slug": "stranger",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/stranger.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1671,7 +1671,7 @@
     {
       "raw_name": "The Merling Queen (title/role in Braavos)",
       "slug": "merling-queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/merling-queen.node.md",
       "section": "Raw Entity List > Titles & Offices",

@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-11",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.524690+00:00",
+  "generated_at": "2026-07-04T21:33:40.482583+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-11.extraction.md",
   "stats": {
     "total_mentions": 78,
-    "resolved_to_node": 36,
-    "direct": 34,
-    "alias": 2,
-    "unresolved": 42
+    "resolved_to_node": 39,
+    "direct": 29,
+    "alias": 10,
+    "unresolved": 39
   },
   "mentions": [
     {
@@ -186,7 +186,7 @@
     {
       "raw_name": "The Twins (castle complex)",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -240,7 +240,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Location Descriptions",
@@ -276,7 +276,7 @@
     {
       "raw_name": "The wayn",
       "slug": "wayn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/wayn.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -293,10 +293,10 @@
     },
     {
       "raw_name": "Rock",
-      "slug": "rock",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "casterly-rock",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 78
     },
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Twins (both castles)",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -527,10 +527,10 @@
     },
     {
       "raw_name": "The Seven (the Hound's oath: \"Seven bloody buggering hells\")",
-      "slug": "the-seven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 222
     },
@@ -573,7 +573,7 @@
     {
       "raw_name": "The wayn (cart)",
       "slug": "wayn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/wayn.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
@@ -617,10 +617,10 @@
     },
     {
       "raw_name": "Rock (Arya's improvised weapon)",
-      "slug": "rock",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "casterly-rock",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 237
     },

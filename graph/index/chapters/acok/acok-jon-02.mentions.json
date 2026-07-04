@@ -2,13 +2,13 @@
   "chapter_id": "acok-jon-02",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.485624+00:00",
+  "generated_at": "2026-07-04T21:33:40.449575+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-02.extraction.md",
   "stats": {
     "total_mentions": 95,
     "resolved_to_node": 72,
-    "direct": 65,
-    "alias": 7,
+    "direct": 62,
+    "alias": 10,
     "unresolved": 23
   },
   "mentions": [
@@ -303,7 +303,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Wall (referenced)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "The Old Gods (heart trees, weirwoods — Jon cites his father's belief about truth before heart trees)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 238
     },
@@ -770,10 +770,10 @@
     },
     {
       "raw_name": "Salt beef (rations)",
-      "slug": "salt-beef",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "beef",
+      "resolved_via": "alias",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/beef.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 253
     },

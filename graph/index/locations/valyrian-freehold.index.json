@@ -3,18 +3,60 @@
   "name": "Valyrian Freehold",
   "type": "place.location",
   "node_path": "graph/nodes/locations/valyrian-freehold.node.md",
-  "generated_at": "2026-07-01T19:57:31.179385+00:00",
+  "generated_at": "2026-07-04T23:34:13.178107+00:00",
   "stats": {
-    "appearances_total": 0,
-    "chapters_referenced_in": 0,
-    "chapters_in_raw_list": 0,
+    "appearances_total": 2,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 1,
     "out_edge_count": 2,
     "in_edge_count": 138,
-    "chapters_in_locations_section": 0
+    "chapters_in_locations_section": 1
   },
   "chapters": {
-    "in_locations_section": [],
-    "in_raw_list": [],
-    "referenced_in": []
+    "in_locations_section": [
+      {
+        "chapter_id": "affc-samwell-05",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "affc-samwell-05",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "affc-samwell-05",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ]
   }
 }

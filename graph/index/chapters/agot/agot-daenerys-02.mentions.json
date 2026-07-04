@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-02",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.425225+00:00",
+  "generated_at": "2026-07-04T21:33:40.397928+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-02.extraction.md",
   "stats": {
     "total_mentions": 116,
-    "resolved_to_node": 59,
-    "direct": 54,
-    "alias": 5,
-    "unresolved": 57
+    "resolved_to_node": 64,
+    "direct": 50,
+    "alias": 14,
+    "unresolved": 52
   },
   "mentions": [
     {
@@ -258,7 +258,7 @@
     {
       "raw_name": "The Seven Kingdoms",
       "slug": "seven-kingdoms",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
       "section": "Locations",
@@ -267,7 +267,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Locations",
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "Arakhs",
-      "slug": "arakhs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "arakh",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/arakh.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 88
     },
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Seven Kingdoms",
       "slug": "seven-kingdoms",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
       "section": "Raw Entity List > Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Raw Entity List > Locations",
@@ -644,10 +644,10 @@
     },
     {
       "raw_name": "Bloodriders (Drogo's)",
-      "slug": "bloodriders",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bloodrider",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/bloodrider.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 247
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "Sellswords (referenced)",
-      "slug": "sellswords",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sellsword",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/sellsword.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 250
     },
@@ -806,10 +806,10 @@
     },
     {
       "raw_name": "Arakhs (Dothraki blades, half sword and half scythe)",
-      "slug": "arakhs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "arakh",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/arakh.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 271
     },
@@ -923,10 +923,10 @@
     },
     {
       "raw_name": "Dragon dream (Dany dreams of a dragon with molten eyes amid columns of flame)",
-      "slug": "dragon-dream",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-dreams",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/dragon-dreams.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 288
     },

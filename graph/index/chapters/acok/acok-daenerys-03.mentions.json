@@ -2,14 +2,14 @@
   "chapter_id": "acok-daenerys-03",
   "book": "acok",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.478537+00:00",
+  "generated_at": "2026-07-04T21:33:40.441578+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-daenerys-03.extraction.md",
   "stats": {
     "total_mentions": 153,
-    "resolved_to_node": 108,
-    "direct": 104,
-    "alias": 4,
-    "unresolved": 45
+    "resolved_to_node": 109,
+    "direct": 90,
+    "alias": 19,
+    "unresolved": 44
   },
   "mentions": [
     {
@@ -294,7 +294,7 @@
     {
       "raw_name": "The Opener of the Door",
       "slug": "opener-of-the-door",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/opener-of-the-door.node.md",
       "section": "Characters Referenced",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Jade Sea",
       "slug": "jade-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/jade-sea.node.md",
       "section": "Locations",
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Summer Sea",
       "slug": "summer-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/summer-sea.node.md",
       "section": "Locations",
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "Dragon eggs (referenced)",
-      "slug": "dragon-eggs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-egg",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragon-egg.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 102
     },
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Opener of the Door",
       "slug": "opener-of-the-door",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/opener-of-the-door.node.md",
       "section": "Raw Entity List > Characters",
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Raw Entity List > Locations",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The Jade Sea",
       "slug": "jade-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/jade-sea.node.md",
       "section": "Raw Entity List > Locations",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The Summer Sea",
       "slug": "summer-sea",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/summer-sea.node.md",
       "section": "Raw Entity List > Locations",
@@ -951,7 +951,7 @@
     {
       "raw_name": "The Iron Throne (as a place/seat of power)",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Raw Entity List > Locations",
@@ -978,7 +978,7 @@
     {
       "raw_name": "The Pureborn",
       "slug": "pureborn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/pureborn.node.md",
       "section": "Raw Entity List > Factions & Organizations",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Thirteen",
       "slug": "thirteen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/thirteen.node.md",
       "section": "Raw Entity List > Factions & Organizations",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The Sorrowful Men",
       "slug": "sorrowful-men",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/sorrowful-men.node.md",
       "section": "Raw Entity List > Factions & Organizations",
@@ -1032,7 +1032,7 @@
     {
       "raw_name": "The warlocks (of Qarth)",
       "slug": "warlocks",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/warlocks.node.md",
       "section": "Raw Entity List > Factions & Organizations",
@@ -1347,7 +1347,7 @@
     {
       "raw_name": "The Pureborn (ruling body descended from ancient kings and queens)",
       "slug": "pureborn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/pureborn.node.md",
       "section": "Raw Entity List > Titles & Offices",

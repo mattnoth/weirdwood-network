@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-01T19:57:35.322722+00:00",
+  "generated_at": "2026-07-04T23:34:17.303863+00:00",
   "entity_type": "foods",
   "dry_run": false,
   "entity_count": 113,
   "type_counts": {
     "object.food": 113
   },
-  "entities_with_zero_mentions": 97,
-  "mention_inverse_slugs": 16,
+  "entities_with_zero_mentions": 93,
+  "mention_inverse_slugs": 20,
   "top_by_appearances": [
     {
       "slug": "dreamwine",
@@ -118,6 +118,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "heron",
+      "name": "Heron",
+      "type": "object.food",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
       "slug": "poisoned-locusts",
       "name": "Poisoned locusts",
       "type": "object.food",
@@ -136,6 +145,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "lemonwater",
+      "name": "Lemonwater",
+      "type": "object.food",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
       "slug": "honeyfingers",
       "name": "Honeyfingers",
       "type": "object.food",
@@ -145,48 +163,30 @@
       "out_edge_count": 0
     },
     {
+      "slug": "goat",
+      "name": "Goat",
+      "type": "object.food",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 10,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "beef",
+      "name": "Beef",
+      "type": "object.food",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
       "slug": "pike",
       "name": "Pike",
       "type": "object.food",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
       "in_edge_count": 9,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "pigeon",
-      "name": "Pigeon",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 4,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "sisters-stew",
-      "name": "Sister's stew",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 12,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "black-sausage",
-      "name": "Black sausage",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "monkfish",
-      "name": "Monkfish",
-      "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
       "out_edge_count": 0
     }
   ],

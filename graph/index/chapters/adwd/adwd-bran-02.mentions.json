@@ -2,14 +2,14 @@
   "chapter_id": "adwd-bran-02",
   "book": "adwd",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.630452+00:00",
+  "generated_at": "2026-07-04T21:33:40.569732+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-bran-02.extraction.md",
   "stats": {
     "total_mentions": 78,
-    "resolved_to_node": 35,
-    "direct": 33,
+    "resolved_to_node": 34,
+    "direct": 32,
     "alias": 2,
-    "unresolved": 43
+    "unresolved": 44
   },
   "mentions": [
     {
@@ -536,10 +536,10 @@
     },
     {
       "raw_name": "Old Gods (weirwood trees, heart trees, godswood referenced; the entire cave is permeated with weirwood roots)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 238
     },
@@ -690,7 +690,7 @@
     {
       "raw_name": "The True Tongue (language of the children of the forest)",
       "slug": "true-tongue",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept.language",
       "node_path": "graph/nodes/languages/true-tongue.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-08",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.442578+00:00",
+  "generated_at": "2026-07-04T21:33:40.412512+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-08.extraction.md",
   "stats": {
     "total_mentions": 75,
-    "resolved_to_node": 58,
-    "direct": 50,
-    "alias": 8,
-    "unresolved": 17
+    "resolved_to_node": 59,
+    "direct": 46,
+    "alias": 13,
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -338,10 +338,10 @@
     },
     {
       "raw_name": "Pate",
-      "slug": "pate",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
       "section": "Characters Referenced",
       "line": 71
     },
@@ -519,7 +519,7 @@
     {
       "raw_name": "The rookery",
       "slug": "rookery",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The rookery",
       "slug": "rookery",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Location Descriptions",

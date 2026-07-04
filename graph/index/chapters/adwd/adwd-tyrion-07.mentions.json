@@ -2,13 +2,13 @@
   "chapter_id": "adwd-tyrion-07",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.680970+00:00",
+  "generated_at": "2026-07-04T21:33:40.621965+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 80,
     "resolved_to_node": 62,
-    "direct": 51,
-    "alias": 11,
+    "direct": 42,
+    "alias": 20,
     "unresolved": 18
   },
   "mentions": [
@@ -42,7 +42,7 @@
     {
       "raw_name": "The widow of the waterfront (Vogarro's whore)",
       "slug": "widow-of-the-waterfront",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/widow-of-the-waterfront.node.md",
       "section": "Characters Present",
@@ -96,7 +96,7 @@
     {
       "raw_name": "The widow of the waterfront",
       "slug": "widow-of-the-waterfront",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/widow-of-the-waterfront.node.md",
       "section": "Character Appearances",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The Long Bridge",
       "slug": "long-bridge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/long-bridge.node.md",
       "section": "Locations",
@@ -465,7 +465,7 @@
     {
       "raw_name": "The Merchant's House",
       "slug": "merchants-house",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/merchants-house.node.md",
       "section": "Locations",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Rhoyne (river)",
       "slug": "rhoyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rhoyne.node.md",
       "section": "Locations",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Long Bridge",
       "slug": "long-bridge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/long-bridge.node.md",
       "section": "Location Descriptions",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Merchant's House",
       "slug": "merchants-house",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/merchants-house.node.md",
       "section": "Location Descriptions",

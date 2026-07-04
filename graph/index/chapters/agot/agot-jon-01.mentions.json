@@ -2,13 +2,13 @@
   "chapter_id": "agot-jon-01",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.438748+00:00",
+  "generated_at": "2026-07-04T21:33:40.409464+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-01.extraction.md",
   "stats": {
     "total_mentions": 48,
     "resolved_to_node": 42,
-    "direct": 42,
-    "alias": 0,
+    "direct": 41,
+    "alias": 1,
     "unresolved": 6
   },
   "mentions": [
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-02",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.576295+00:00",
+  "generated_at": "2026-07-04T21:33:40.524145+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-02.extraction.md",
   "stats": {
     "total_mentions": 59,
-    "resolved_to_node": 44,
+    "resolved_to_node": 45,
     "direct": 41,
-    "alias": 3,
-    "unresolved": 15
+    "alias": 4,
+    "unresolved": 14
   },
   "mentions": [
     {
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "Chain of golden hands",
-      "slug": "chain-of-golden-hands",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hands-chain-of-office",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hands-chain-of-office.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 102
     },

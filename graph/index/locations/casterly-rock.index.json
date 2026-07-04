@@ -3,14 +3,14 @@
   "name": "Casterly Rock",
   "type": "place.location",
   "node_path": "graph/nodes/locations/casterly-rock.node.md",
-  "generated_at": "2026-07-01T19:57:31.140391+00:00",
+  "generated_at": "2026-07-04T23:34:13.143037+00:00",
   "stats": {
-    "appearances_total": 158,
-    "chapters_referenced_in": 117,
+    "appearances_total": 162,
+    "chapters_referenced_in": 119,
     "chapters_in_raw_list": 34,
     "out_edge_count": 3,
     "in_edge_count": 304,
-    "chapters_in_locations_section": 117
+    "chapters_in_locations_section": 118
   },
   "chapters": {
     "in_locations_section": [
@@ -1133,6 +1133,18 @@
         "in_raw_list": false
       },
       {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "affc-jaime-05",
         "book": "affc",
         "pov_character_slug": "jaime-lannister",
@@ -1335,7 +1347,7 @@
         "chapter_id": "adwd-tyrion-01",
         "book": "adwd",
         "pov_character_slug": "tyrion-lannister",
-        "mention_count": 2,
+        "mention_count": 3,
         "sections": [
           "Locations",
           "Raw Entity List > Locations"
@@ -1817,7 +1829,7 @@
         "chapter_id": "adwd-tyrion-01",
         "book": "adwd",
         "pov_character_slug": "tyrion-lannister",
-        "mention_count": 2,
+        "mention_count": 3,
         "sections": [
           "Locations",
           "Raw Entity List > Locations"
@@ -2611,6 +2623,19 @@
         "in_raw_list": true
       },
       {
+        "chapter_id": "asos-arya-11",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "asos-arya-13",
         "book": "asos",
         "pov_character_slug": "arya-stark",
@@ -3026,6 +3051,18 @@
         "in_raw_list": false
       },
       {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "affc-jaime-05",
         "book": "affc",
         "pov_character_slug": "jaime-lannister",
@@ -3228,7 +3265,7 @@
         "chapter_id": "adwd-tyrion-01",
         "book": "adwd",
         "pov_character_slug": "tyrion-lannister",
-        "mention_count": 2,
+        "mention_count": 3,
         "sections": [
           "Locations",
           "Raw Entity List > Locations"

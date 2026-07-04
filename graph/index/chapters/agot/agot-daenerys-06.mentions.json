@@ -2,13 +2,13 @@
   "chapter_id": "agot-daenerys-06",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.428128+00:00",
+  "generated_at": "2026-07-04T21:33:40.400334+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-06.extraction.md",
   "stats": {
     "total_mentions": 183,
     "resolved_to_node": 124,
-    "direct": 116,
-    "alias": 8,
+    "direct": 114,
+    "alias": 10,
     "unresolved": 59
   },
   "mentions": [
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Wine merchant (poisoner)",
-      "slug": "wineseller",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/wineseller.node.md",
+      "slug": "wine-merchant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Present",
       "line": 37
     },
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Wine merchant (poisoner)",
-      "slug": "wineseller",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/wineseller.node.md",
+      "slug": "wine-merchant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Character Appearances",
       "line": 47
     },
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -545,10 +545,10 @@
     },
     {
       "raw_name": "Dragon eggs (three)",
-      "slug": "dragon-eggs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-egg",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragon-egg.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 106
     },
@@ -942,7 +942,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Raw Entity List > Locations",
@@ -1301,10 +1301,10 @@
     },
     {
       "raw_name": "Dragon eggs (three: black-and-scarlet, plus two others)",
-      "slug": "dragon-eggs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon-egg",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragon-egg.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 317
     },
@@ -1499,10 +1499,10 @@
     },
     {
       "raw_name": "Spellsingers (recalled, Eastern Market)",
-      "slug": "spellsingers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "spellsinger",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/spellsinger.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 343
     },
@@ -1544,10 +1544,10 @@
     },
     {
       "raw_name": "Daenerys Stormborn",
-      "slug": "daenerys-targaryen",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "slug": "daenerys-stormborn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Titles & Offices",
       "line": 353
     },

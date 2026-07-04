@@ -2,13 +2,13 @@
   "chapter_id": "asos-arya-09",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.523246+00:00",
+  "generated_at": "2026-07-04T21:33:40.481295+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-09.extraction.md",
   "stats": {
     "total_mentions": 135,
     "resolved_to_node": 87,
-    "direct": 79,
-    "alias": 8,
+    "direct": 70,
+    "alias": 17,
     "unresolved": 48
   },
   "mentions": [
@@ -312,7 +312,7 @@
     {
       "raw_name": "The Trident (river)",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -393,7 +393,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Trident (flooded)",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Location Descriptions",
@@ -780,7 +780,7 @@
     {
       "raw_name": "The Trident (river — Arya initially believes it is the Blackwater Rush)",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Red Keep (referenced)",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Raw Entity List > Locations",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Twins (referenced)",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The kingsroad (referenced)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",

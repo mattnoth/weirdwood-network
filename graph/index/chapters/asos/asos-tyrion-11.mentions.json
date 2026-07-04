@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-11",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.582664+00:00",
+  "generated_at": "2026-07-04T21:33:40.530313+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-11.extraction.md",
   "stats": {
     "total_mentions": 137,
-    "resolved_to_node": 88,
-    "direct": 85,
-    "alias": 3,
-    "unresolved": 49
+    "resolved_to_node": 89,
+    "direct": 82,
+    "alias": 7,
+    "unresolved": 48
   },
   "mentions": [
     {
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -464,10 +464,10 @@
     },
     {
       "raw_name": "Chain of golden hands (Hand of the King's chain)",
-      "slug": "chain-of-golden-hands",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hands-chain-of-office",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hands-chain-of-office.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 97
     },
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The Faith of the Seven (implied — septon's robe worn by Varys as disguise; \"gods be good\")",
       "slug": "faith-of-the-seven",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",

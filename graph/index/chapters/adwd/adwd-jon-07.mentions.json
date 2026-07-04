@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-07",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.649546+00:00",
+  "generated_at": "2026-07-04T21:33:40.587961+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-07.extraction.md",
   "stats": {
     "total_mentions": 86,
-    "resolved_to_node": 68,
-    "direct": 59,
-    "alias": 9,
-    "unresolved": 18
+    "resolved_to_node": 70,
+    "direct": 57,
+    "alias": 13,
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -149,10 +149,10 @@
     },
     {
       "raw_name": "Pate",
-      "slug": "pate",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
       "section": "Characters Present",
       "line": 42
     },
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Giant (unnamed)",
-      "slug": "giant",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bedwyck",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bedwyck.node.md",
       "section": "Character Appearances",
       "line": 55
     },
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",

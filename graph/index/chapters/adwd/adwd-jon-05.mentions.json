@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-05",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.648081+00:00",
+  "generated_at": "2026-07-04T21:33:40.586509+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-05.extraction.md",
   "stats": {
     "total_mentions": 69,
-    "resolved_to_node": 53,
-    "direct": 48,
-    "alias": 5,
-    "unresolved": 16
+    "resolved_to_node": 54,
+    "direct": 46,
+    "alias": 8,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -159,7 +159,7 @@
     {
       "raw_name": "The spearwife (squat)",
       "slug": "spearwife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/spearwife.node.md",
       "section": "Character Appearances",
@@ -194,10 +194,10 @@
     },
     {
       "raw_name": "Sam (Samwell Tarly)",
-      "slug": "sam",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
       "section": "Characters Referenced",
       "line": 55
     },
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Bridge of Skulls",
       "slug": "bridge-of-skulls",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bridge-of-skulls.node.md",
       "section": "Locations",

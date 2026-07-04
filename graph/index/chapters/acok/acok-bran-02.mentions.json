@@ -2,13 +2,13 @@
   "chapter_id": "acok-bran-02",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.467324+00:00",
+  "generated_at": "2026-07-04T21:33:40.430483+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-02.extraction.md",
   "stats": {
     "total_mentions": 103,
     "resolved_to_node": 80,
-    "direct": 76,
-    "alias": 4,
+    "direct": 68,
+    "alias": 12,
     "unresolved": 23
   },
   "mentions": [
@@ -672,7 +672,7 @@
     {
       "raw_name": "The godswood",
       "slug": "godswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Green Fork",
       "slug": "green-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/green-fork.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Whispering Wood",
       "slug": "whispering-wood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispering-wood.node.md",
       "section": "Locations",
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -825,7 +825,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Locations",

@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-11",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.652003+00:00",
+  "generated_at": "2026-07-04T21:33:40.590259+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-11.extraction.md",
   "stats": {
     "total_mentions": 90,
     "resolved_to_node": 78,
-    "direct": 72,
-    "alias": 6,
+    "direct": 67,
+    "alias": 11,
     "unresolved": 12
   },
   "mentions": [
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Weeper (Weeping Man)",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Characters Referenced",
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Gorge",
       "slug": "gorge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gorge.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",

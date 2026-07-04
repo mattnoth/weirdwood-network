@@ -3,7 +3,7 @@
   "name": "Weirwood grove",
   "type": "place.location",
   "node_path": "graph/nodes/locations/weirwood-grove.node.md",
-  "generated_at": "2026-07-01T19:57:31.135186+00:00",
+  "generated_at": "2026-07-04T23:34:13.137213+00:00",
   "stats": {
     "appearances_total": 5,
     "chapters_referenced_in": 3,
@@ -50,7 +50,7 @@
         "sections": [
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -77,7 +77,7 @@
         "sections": [
           "Raw Entity List > Locations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },

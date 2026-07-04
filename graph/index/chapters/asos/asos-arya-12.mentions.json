@@ -2,13 +2,13 @@
   "chapter_id": "asos-arya-12",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.525845+00:00",
+  "generated_at": "2026-07-04T21:33:40.483449+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-12.extraction.md",
   "stats": {
     "total_mentions": 157,
     "resolved_to_node": 105,
-    "direct": 97,
-    "alias": 8,
+    "direct": 81,
+    "alias": 24,
     "unresolved": 52
   },
   "mentions": [
@@ -266,10 +266,10 @@
     },
     {
       "raw_name": "Gunthor son of Gurn",
-      "slug": "gunthor",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/gunthor.node.md",
+      "slug": "gunthor-son-of-gurn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 63
     },
@@ -312,7 +312,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Bloody Gate",
       "slug": "bloody-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bloody-gate.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Green Fork",
       "slug": "green-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/green-fork.node.md",
       "section": "Locations",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "The Hound's helm (dog's head)",
-      "slug": "the-hounds-helm",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hound-helm",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hound-helm.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 102
     },
@@ -779,10 +779,10 @@
     },
     {
       "raw_name": "Gunthor son of Gurn (referenced)",
-      "slug": "gunthor",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/gunthor.node.md",
+      "slug": "gunthor-son-of-gurn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Characters",
       "line": 285
     },
@@ -879,7 +879,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -888,7 +888,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -906,7 +906,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Raw Entity List > Locations",
@@ -915,7 +915,7 @@
     {
       "raw_name": "The Bloody Gate",
       "slug": "bloody-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bloody-gate.node.md",
       "section": "Raw Entity List > Locations",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -978,7 +978,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Raw Entity List > Locations",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Green Fork",
       "slug": "green-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/green-fork.node.md",
       "section": "Raw Entity List > Locations",
@@ -996,7 +996,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -1157,10 +1157,10 @@
     },
     {
       "raw_name": "The Seven (\"there's no way in seven hells\"; \"the gods know why\")",
-      "slug": "the-seven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 335
     },

@@ -2,13 +2,13 @@
   "chapter_id": "affc-samwell-01",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.613592+00:00",
+  "generated_at": "2026-07-04T21:33:40.555028+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-01.extraction.md",
   "stats": {
     "total_mentions": 113,
     "resolved_to_node": 93,
-    "direct": 85,
-    "alias": 8,
+    "direct": 71,
+    "alias": 22,
     "unresolved": 20
   },
   "mentions": [
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The rookery",
       "slug": "rookery",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The lichyard",
       "slug": "lichyard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept.custom",
       "node_path": "graph/nodes/customs/lichyard.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Nightfort",
       "slug": "nightfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/nightfort.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Gift",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -870,7 +870,7 @@
     {
       "raw_name": "The Honeywine",
       "slug": "honeywine",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/honeywine.node.md",
       "section": "Locations",
@@ -879,7 +879,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -906,7 +906,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -915,7 +915,7 @@
     {
       "raw_name": "The Honeywine (inn)",
       "slug": "honeywine",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/honeywine.node.md",
       "section": "Location Descriptions",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The Jade Compendium",
       "slug": "jade-compendium",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/jade-compendium.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The Blackbird",
       "slug": "blackbird",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/blackbird.node.md",
       "section": "Artifacts & Objects of Significance",

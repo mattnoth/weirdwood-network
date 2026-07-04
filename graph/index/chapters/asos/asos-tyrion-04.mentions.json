@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-04",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.577984+00:00",
+  "generated_at": "2026-07-04T21:33:40.525560+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-04.extraction.md",
   "stats": {
     "total_mentions": 99,
-    "resolved_to_node": 80,
-    "direct": 78,
-    "alias": 2,
-    "unresolved": 19
+    "resolved_to_node": 81,
+    "direct": 75,
+    "alias": 6,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Hook",
       "slug": "hook",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/hook.node.md",
       "section": "Locations",
@@ -590,10 +590,10 @@
     },
     {
       "raw_name": "Blackwater (river)",
-      "slug": "blackwater",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-rush",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
       "section": "Locations",
       "line": 103
     },
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Three Whores",
       "slug": "three-whores",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Artifacts & Objects of Significance",

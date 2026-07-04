@@ -3,16 +3,29 @@
   "name": "Red Priest",
   "type": "title",
   "node_path": "graph/nodes/titles/red-priest.node.md",
-  "generated_at": "2026-07-01T19:57:32.685358+00:00",
+  "generated_at": "2026-07-04T23:34:14.703908+00:00",
   "stats": {
-    "appearances_total": 3,
-    "chapters_referenced_in": 3,
-    "chapters_in_raw_list": 0,
+    "appearances_total": 9,
+    "chapters_referenced_in": 7,
+    "chapters_in_raw_list": 1,
     "out_edge_count": 0,
     "in_edge_count": 80
   },
   "chapters": {
-    "in_raw_list": [],
+    "in_raw_list": [
+      {
+        "chapter_id": "adwd-melisandre-01",
+        "book": "adwd",
+        "pov_character_slug": "melisandre",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
     "referenced_in": [
       {
         "chapter_id": "acok-arya-06",
@@ -27,6 +40,44 @@
         "in_raw_list": false
       },
       {
+        "chapter_id": "acok-catelyn-03",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Religions & Faiths"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-sansa-04",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
         "chapter_id": "affc-brienne-05",
         "book": "affc",
         "pov_character_slug": "brienne-tarth",
@@ -34,9 +85,21 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-melisandre-01",
+        "book": "adwd",
+        "pov_character_slug": "melisandre",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
       },
       {
         "chapter_id": "adwd-the-ugly-little-girl-01",

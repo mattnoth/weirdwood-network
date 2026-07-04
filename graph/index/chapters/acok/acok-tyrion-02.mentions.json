@@ -2,13 +2,13 @@
   "chapter_id": "acok-tyrion-02",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.501389+00:00",
+  "generated_at": "2026-07-04T21:33:40.465597+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-02.extraction.md",
   "stats": {
     "total_mentions": 63,
     "resolved_to_node": 50,
-    "direct": 48,
-    "alias": 2,
+    "direct": 41,
+    "alias": 9,
     "unresolved": 13
   },
   "mentions": [
@@ -312,7 +312,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Small Hall (Red Keep)",
       "slug": "small-hall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/small-hall.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Three Sisters",
       "slug": "three-sisters",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/three-sisters.node.md",
       "section": "Locations",
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Mud Gate",
       "slug": "mud-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/mud-gate.node.md",
       "section": "Locations",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Summer Isles",
       "slug": "summer-isles",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/summer-isles.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Small Hall",
       "slug": "small-hall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/small-hall.node.md",
       "section": "Location Descriptions",

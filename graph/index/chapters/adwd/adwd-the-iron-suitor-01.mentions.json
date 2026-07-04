@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-iron-suitor-01",
   "book": "adwd",
   "pov_character": "the-iron-suitor",
-  "generated_at": "2026-05-12T21:45:31.662584+00:00",
+  "generated_at": "2026-07-04T21:33:40.600607+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-iron-suitor-01.extraction.md",
   "stats": {
     "total_mentions": 191,
-    "resolved_to_node": 149,
-    "direct": 141,
-    "alias": 8,
-    "unresolved": 42
+    "resolved_to_node": 148,
+    "direct": 133,
+    "alias": 15,
+    "unresolved": 43
   },
   "mentions": [
     {
@@ -33,7 +33,7 @@
     {
       "raw_name": "The dusky woman",
       "slug": "dusky-woman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/dusky-woman.node.md",
       "section": "Characters Present",
@@ -132,7 +132,7 @@
     {
       "raw_name": "The dusky woman",
       "slug": "dusky-woman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/dusky-woman.node.md",
       "section": "Character Appearances",
@@ -249,7 +249,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The dusky woman",
       "slug": "dusky-woman",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/dusky-woman.node.md",
       "section": "Raw Entity List > Characters",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Raw Entity List > Locations",
@@ -1274,10 +1274,10 @@
     },
     {
       "raw_name": "Summer Islands (referenced via \"Summer Islanders\")",
-      "slug": "summer-isles",
-      "resolved_via": "alias",
-      "node_type": "place.location",
-      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "slug": "summer-islands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Locations",
       "line": 341
     },
@@ -1347,7 +1347,7 @@
     {
       "raw_name": "The Drowned God (Victarion's faith; watery halls; drowning and returning; salt water as holy; sacrifice; \"no godless man may sit the Seastone Chair\")",
       "slug": "drowned-god",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/drowned-god.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1356,7 +1356,7 @@
     {
       "raw_name": "The Storm God (Victarion curses him for the fleet's losses; seen as adversary to the Drowned God)",
       "slug": "storm-god",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/storm-god.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1590,7 +1590,7 @@
     {
       "raw_name": "The Doom of Valyria (wall of water 300 feet high; destroyed Velos and Ghozai; referenced as 400 years ago)",
       "slug": "doom-of-valyria",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "event",
       "node_path": "graph/nodes/events/doom-of-valyria.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

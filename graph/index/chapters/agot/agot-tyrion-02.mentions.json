@@ -2,13 +2,13 @@
   "chapter_id": "agot-tyrion-02",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.448913+00:00",
+  "generated_at": "2026-07-04T21:33:40.418028+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-02.extraction.md",
   "stats": {
     "total_mentions": 130,
     "resolved_to_node": 74,
-    "direct": 73,
-    "alias": 1,
+    "direct": 60,
+    "alias": 14,
     "unresolved": 56
   },
   "mentions": [
@@ -231,7 +231,7 @@
     {
       "raw_name": "The queen",
       "slug": "queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/queen.node.md",
       "section": "Characters Referenced",
@@ -240,7 +240,7 @@
     {
       "raw_name": "The kingsroad (northern section)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -258,7 +258,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Locations",
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Locations",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Location Descriptions",
@@ -726,7 +726,7 @@
     {
       "raw_name": "The kingsroad (northern section)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Raw Entity List > Locations",
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Raw Entity List > Locations",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Raw Entity List > Locations",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Seven Kingdoms",
       "slug": "seven-kingdoms",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
       "section": "Raw Entity List > Locations",
@@ -1158,7 +1158,7 @@
     {
       "raw_name": "The Others (Benjen references casually: \"I thought the Others had gotten you\")",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Other",

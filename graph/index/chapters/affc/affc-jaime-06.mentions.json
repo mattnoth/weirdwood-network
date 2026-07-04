@@ -2,13 +2,13 @@
   "chapter_id": "affc-jaime-06",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.610282+00:00",
+  "generated_at": "2026-07-04T21:33:40.552397+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-06.extraction.md",
   "stats": {
     "total_mentions": 86,
     "resolved_to_node": 66,
-    "direct": 63,
-    "alias": 3,
+    "direct": 59,
+    "alias": 7,
     "unresolved": 20
   },
   "mentions": [
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Tumblestone",
       "slug": "tumblestone",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/tumblestone.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Red Fork",
       "slug": "red-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-fork.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

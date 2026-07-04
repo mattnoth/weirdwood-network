@@ -2,7 +2,7 @@
 name: "Cheese (ratcatcher)"
 type: character.human
 slug: cheese-ratcatcher
-aliases: [""Cheese""]
+aliases: ["\"Cheese\""]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Cheese_(ratcatcher)"
 bucket_id: tier3-pathb-characters

@@ -2,13 +2,13 @@
   "chapter_id": "agot-eddard-14",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.437861+00:00",
+  "generated_at": "2026-07-04T21:33:40.408614+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-14.extraction.md",
   "stats": {
     "total_mentions": 49,
     "resolved_to_node": 42,
-    "direct": 42,
-    "alias": 0,
+    "direct": 40,
+    "alias": 2,
     "unresolved": 7
   },
   "mentions": [
@@ -339,7 +339,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Artifacts & Objects of Significance",

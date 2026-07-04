@@ -2,13 +2,13 @@
   "chapter_id": "agot-eddard-10",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.435528+00:00",
+  "generated_at": "2026-07-04T21:33:40.406739+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-10.extraction.md",
   "stats": {
     "total_mentions": 59,
     "resolved_to_node": 53,
-    "direct": 52,
-    "alias": 1,
+    "direct": 49,
+    "alias": 4,
     "unresolved": 6
   },
   "mentions": [
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -465,7 +465,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",

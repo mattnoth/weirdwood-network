@@ -2,13 +2,13 @@
   "chapter_id": "affc-cersei-06",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.601108+00:00",
+  "generated_at": "2026-07-04T21:33:40.545618+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-06.extraction.md",
   "stats": {
     "total_mentions": 116,
     "resolved_to_node": 95,
-    "direct": 91,
-    "alias": 4,
+    "direct": 85,
+    "alias": 10,
     "unresolved": 21
   },
   "mentions": [
@@ -60,7 +60,7 @@
     {
       "raw_name": "The High Septon (High Sparrow)",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Present",
@@ -222,7 +222,7 @@
     {
       "raw_name": "The Blue Bard",
       "slug": "blue-bard",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/blue-bard.node.md",
       "section": "Characters Present",
@@ -231,7 +231,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Character Appearances",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -942,7 +942,7 @@
     {
       "raw_name": "The roseroad",
       "slug": "roseroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/roseroad.node.md",
       "section": "Locations",

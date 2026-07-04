@@ -2,13 +2,13 @@
   "chapter_id": "asos-sansa-07",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.575263+00:00",
+  "generated_at": "2026-07-04T21:33:40.523070+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-07.extraction.md",
   "stats": {
     "total_mentions": 73,
     "resolved_to_node": 53,
-    "direct": 52,
-    "alias": 1,
+    "direct": 45,
+    "alias": 8,
     "unresolved": 20
   },
   "mentions": [
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Moon Door",
       "slug": "moon-door",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/moon-door.node.md",
       "section": "Locations",
@@ -501,7 +501,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Vale of Arryn",
       "slug": "vale-of-arryn",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The rookery (Eyrie)",
       "slug": "rookery",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Location Descriptions",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Moon Door",
       "slug": "moon-door",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/moon-door.node.md",
       "section": "Location Descriptions",

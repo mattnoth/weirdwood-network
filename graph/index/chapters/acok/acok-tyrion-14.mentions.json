@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-14",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.515066+00:00",
+  "generated_at": "2026-07-04T21:33:40.473575+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-14.extraction.md",
   "stats": {
     "total_mentions": 80,
-    "resolved_to_node": 49,
+    "resolved_to_node": 51,
     "direct": 49,
-    "alias": 0,
-    "unresolved": 31
+    "alias": 2,
+    "unresolved": 29
   },
   "mentions": [
     {
@@ -131,10 +131,10 @@
     },
     {
       "raw_name": "Lancel",
-      "slug": "lancel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "lancel-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lancel-lannister.node.md",
       "section": "Characters Referenced",
       "line": 48
     },
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "Lancel (referenced — his men fighting along the riverfront)",
-      "slug": "lancel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "lancel-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lancel-lannister.node.md",
       "section": "Raw Entity List > Characters",
       "line": 215
     },

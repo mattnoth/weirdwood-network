@@ -2,13 +2,13 @@
   "chapter_id": "asos-davos-04",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.541961+00:00",
+  "generated_at": "2026-07-04T21:33:40.499253+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-04.extraction.md",
   "stats": {
     "total_mentions": 95,
     "resolved_to_node": 72,
-    "direct": 65,
-    "alias": 7,
+    "direct": 56,
+    "alias": 16,
     "unresolved": 23
   },
   "mentions": [
@@ -133,8 +133,8 @@
       "raw_name": "Porridge",
       "slug": "porridge",
       "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/porridge.node.md",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/porridge.node.md",
       "section": "Characters Referenced",
       "line": 48
     },
@@ -204,7 +204,7 @@
     {
       "raw_name": "The brothers Toyne",
       "slug": "brothers-toyne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/brothers-toyne.node.md",
       "section": "Characters Referenced",
@@ -213,7 +213,7 @@
     {
       "raw_name": "The Vulture King",
       "slug": "vulture-king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/vulture-king.node.md",
       "section": "Characters Referenced",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Rainwood",
       "slug": "rainwood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rainwood.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Location Descriptions",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Painted Table",
       "slug": "painted-table",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/painted-table.node.md",
       "section": "Artifacts & Objects of Significance",

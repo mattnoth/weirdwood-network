@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-07",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.521109+00:00",
+  "generated_at": "2026-07-04T21:33:40.479415+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-07.extraction.md",
   "stats": {
     "total_mentions": 107,
-    "resolved_to_node": 68,
+    "resolved_to_node": 70,
     "direct": 56,
-    "alias": 12,
-    "unresolved": 39
+    "alias": 14,
+    "unresolved": 37
   },
   "mentions": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Kyle",
-      "slug": "kyle",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kyle-the-cat",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kyle-the-cat.node.md",
       "section": "Characters Present",
       "line": 38
     },
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Ned",
-      "slug": "ned",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Present",
       "line": 43
     },
@@ -401,10 +401,10 @@
     },
     {
       "raw_name": "\"The manticore\"",
-      "slug": "amory-lorch",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/amory-lorch.node.md",
+      "slug": "manticore",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/manticore.node.md",
       "section": "Characters Referenced",
       "line": 78
     },
@@ -672,7 +672,7 @@
     {
       "raw_name": "The lord of Castamere",
       "slug": "lord-of-castamere",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/lord-of-castamere.node.md",
       "section": "Characters Referenced",

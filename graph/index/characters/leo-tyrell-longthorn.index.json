@@ -3,17 +3,28 @@
   "name": "Leo Tyrell (Longthorn)",
   "type": "character.human",
   "node_path": "graph/nodes/characters/leo-tyrell-longthorn.node.md",
-  "generated_at": "2026-07-01T19:57:38.030225+00:00",
+  "generated_at": "2026-07-04T23:34:20.091826+00:00",
   "stats": {
-    "appearances_total": 1,
+    "appearances_total": 3,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 1,
+    "chapters_mentioned_in": 2,
     "out_edge_count": 9,
     "in_edge_count": 18
   },
   "chapters": {
     "pov": [],
     "mentioned_in": [
+      {
+        "chapter_id": "asos-bran-02",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
       {
         "chapter_id": "asos-tyrion-05",
         "book": "asos",

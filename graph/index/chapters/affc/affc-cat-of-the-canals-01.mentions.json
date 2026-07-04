@@ -2,14 +2,14 @@
   "chapter_id": "affc-cat-of-the-canals-01",
   "book": "affc",
   "pov_character": "cat-of-the-canals",
-  "generated_at": "2026-05-12T21:45:31.595483+00:00",
+  "generated_at": "2026-07-04T21:33:40.541299+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cat-of-the-canals-01.extraction.md",
   "stats": {
     "total_mentions": 119,
-    "resolved_to_node": 85,
-    "direct": 79,
-    "alias": 6,
-    "unresolved": 34
+    "resolved_to_node": 88,
+    "direct": 64,
+    "alias": 24,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Merry (Meralyn)",
-      "slug": "merry",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meralyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meralyn.node.md",
       "section": "Characters Present",
       "line": 37
     },
@@ -132,7 +132,7 @@
     {
       "raw_name": "The Sailor's Wife",
       "slug": "sailors-wife",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/sailors-wife.node.md",
       "section": "Characters Present",
@@ -159,7 +159,7 @@
     {
       "raw_name": "The waif",
       "slug": "waif",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/waif.node.md",
       "section": "Characters Present",
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Vixen",
       "slug": "vixen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/vixen.node.md",
       "section": "Characters Referenced",
@@ -347,10 +347,10 @@
     },
     {
       "raw_name": "Sam (\"the fat one\")",
-      "slug": "sam",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
       "section": "Characters Referenced",
       "line": 72
     },
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Drunken Daughter",
       "slug": "drunken-daughter",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/drunken-daughter.node.md",
       "section": "Characters Referenced",
@@ -465,7 +465,7 @@
     {
       "raw_name": "The Poetess",
       "slug": "poetess",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/poetess.node.md",
       "section": "Characters Referenced",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Moonshadow",
       "slug": "moonshadow",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/moonshadow.node.md",
       "section": "Characters Referenced",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Merling Queen",
       "slug": "merling-queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/merling-queen.node.md",
       "section": "Characters Referenced",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Veiled Lady",
       "slug": "veiled-lady",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/veiled-lady.node.md",
       "section": "Characters Referenced",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Nightingale",
       "slug": "nightingale",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/nightingale.node.md",
       "section": "Characters Referenced",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Long Canal",
       "slug": "long-canal",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/long-canal.node.md",
       "section": "Locations",
@@ -690,7 +690,7 @@
     {
       "raw_name": "The Blue Lantern",
       "slug": "blue-lantern",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/blue-lantern.node.md",
       "section": "Locations",
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -915,7 +915,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The Titan of Braavos",
       "slug": "titan-of-braavos",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/titan-of-braavos.node.md",
       "section": "Locations",
@@ -1022,10 +1022,10 @@
     },
     {
       "raw_name": "Cat's finger knife",
-      "slug": "cats-finger-knife",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "finger-knife",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/finger-knife.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 159
     },

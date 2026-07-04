@@ -3,7 +3,7 @@
   "name": "Sand Snakes",
   "type": "character.human",
   "node_path": "graph/nodes/characters/sand-snakes.node.md",
-  "generated_at": "2026-07-01T19:57:37.791068+00:00",
+  "generated_at": "2026-07-04T23:34:19.856715+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_pov": 0,
@@ -23,7 +23,7 @@
           "Characters Referenced",
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "affc-the-soiled-knight-01",
@@ -44,7 +44,7 @@
           "Characters Referenced",
           "Raw Entity List > Characters"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "adwd-the-spurned-suitor-01",
@@ -54,7 +54,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       }
     ]
   }

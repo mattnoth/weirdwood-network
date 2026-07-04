@@ -2,7 +2,7 @@
 name: "Jacaerys Velaryon"
 type: character.human
 slug: jacaerys-velaryon
-aliases: ["Jace", "Jacaerys "Strong""]
+aliases: ["Jace", "Jacaerys \"Strong\""]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jacaerys_Velaryon"
 bucket_id: tier3-characters

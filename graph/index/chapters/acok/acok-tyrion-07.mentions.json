@@ -2,13 +2,13 @@
   "chapter_id": "acok-tyrion-07",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.510416+00:00",
+  "generated_at": "2026-07-04T21:33:40.469223+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 58,
     "resolved_to_node": 41,
-    "direct": 39,
-    "alias": 2,
+    "direct": 37,
+    "alias": 4,
     "unresolved": 17
   },
   "mentions": [
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",

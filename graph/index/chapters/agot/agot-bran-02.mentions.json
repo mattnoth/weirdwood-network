@@ -2,13 +2,13 @@
   "chapter_id": "agot-bran-02",
   "book": "agot",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.411878+00:00",
+  "generated_at": "2026-07-04T21:33:40.386460+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-bran-02.extraction.md",
   "stats": {
     "total_mentions": 71,
     "resolved_to_node": 60,
-    "direct": 58,
-    "alias": 2,
+    "direct": 56,
+    "alias": 4,
     "unresolved": 11
   },
   "mentions": [
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",

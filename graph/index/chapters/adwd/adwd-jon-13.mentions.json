@@ -2,13 +2,13 @@
   "chapter_id": "adwd-jon-13",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.653325+00:00",
+  "generated_at": "2026-07-04T21:33:40.591537+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-13.extraction.md",
   "stats": {
     "total_mentions": 108,
     "resolved_to_node": 91,
-    "direct": 81,
-    "alias": 10,
+    "direct": 80,
+    "alias": 11,
     "unresolved": 17
   },
   "mentions": [
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Great Walrus",
       "slug": "great-walrus",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/great-walrus.node.md",
       "section": "Characters Present",

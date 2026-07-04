@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-05",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.561865+00:00",
+  "generated_at": "2026-07-04T21:33:40.510516+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-05.extraction.md",
   "stats": {
     "total_mentions": 77,
-    "resolved_to_node": 69,
-    "direct": 61,
-    "alias": 8,
-    "unresolved": 8
+    "resolved_to_node": 70,
+    "direct": 56,
+    "alias": 14,
+    "unresolved": 7
   },
   "mentions": [
     {
@@ -114,7 +114,7 @@
     {
       "raw_name": "The old man (unnamed)",
       "slug": "old-man",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/old-man.node.md",
       "section": "Characters Present",
@@ -177,7 +177,7 @@
     {
       "raw_name": "The old man",
       "slug": "old-man",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/old-man.node.md",
       "section": "Character Appearances",
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Gift (Brandon's Gift)",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
@@ -536,10 +536,10 @@
     },
     {
       "raw_name": "The New Gift",
-      "slug": "the-new-gift",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "gift",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Locations",
       "line": 97
     },
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Gift (general terrain)",
       "slug": "gift",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gift.node.md",
       "section": "Location Descriptions",

@@ -2,13 +2,13 @@
   "chapter_id": "adwd-daenerys-06",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.637399+00:00",
+  "generated_at": "2026-07-04T21:33:40.576459+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-06.extraction.md",
   "stats": {
     "total_mentions": 157,
     "resolved_to_node": 113,
-    "direct": 99,
-    "alias": 14,
+    "direct": 96,
+    "alias": 17,
     "unresolved": 44
   },
   "mentions": [
@@ -321,7 +321,7 @@
     {
       "raw_name": "The warlocks",
       "slug": "warlocks",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/warlocks.node.md",
       "section": "Characters Referenced",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Great Pyramid (Dany's pyramid)",
       "slug": "great-pyramid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/great-pyramid.node.md",
       "section": "Locations",
@@ -807,7 +807,7 @@
     {
       "raw_name": "The Great Pyramid (Dany's pyramid)",
       "slug": "great-pyramid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/great-pyramid.node.md",
       "section": "Raw Entity List > Locations",

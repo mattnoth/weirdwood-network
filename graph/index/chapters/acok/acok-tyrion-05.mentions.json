@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-05",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.509116+00:00",
+  "generated_at": "2026-07-04T21:33:40.468102+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-05.extraction.md",
   "stats": {
     "total_mentions": 91,
-    "resolved_to_node": 67,
-    "direct": 63,
-    "alias": 4,
-    "unresolved": 24
+    "resolved_to_node": 68,
+    "direct": 61,
+    "alias": 7,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "Willem",
-      "slug": "willem",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "willam-the-wanderer",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/willam-the-wanderer.node.md",
       "section": "Characters Referenced",
       "line": 76
     },
@@ -600,7 +600,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -807,7 +807,7 @@
     {
       "raw_name": "The red comet",
       "slug": "red-comet",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Artifacts & Objects of Significance",

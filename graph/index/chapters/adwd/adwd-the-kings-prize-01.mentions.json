@@ -2,13 +2,13 @@
   "chapter_id": "adwd-the-kings-prize-01",
   "book": "adwd",
   "pov_character": "the-kings-prize",
-  "generated_at": "2026-05-12T21:45:31.663964+00:00",
+  "generated_at": "2026-07-04T21:33:40.601970+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-kings-prize-01.extraction.md",
   "stats": {
     "total_mentions": 85,
     "resolved_to_node": 63,
-    "direct": 57,
-    "alias": 6,
+    "direct": 55,
+    "alias": 8,
     "unresolved": 22
   },
   "mentions": [
@@ -564,7 +564,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The wolfswood",
       "slug": "wolfswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wolfswood.node.md",
       "section": "Location Descriptions",

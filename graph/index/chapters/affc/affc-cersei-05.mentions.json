@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-05",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.599889+00:00",
+  "generated_at": "2026-07-04T21:33:40.544854+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-05.extraction.md",
   "stats": {
     "total_mentions": 144,
-    "resolved_to_node": 113,
+    "resolved_to_node": 114,
     "direct": 108,
-    "alias": 5,
-    "unresolved": 31
+    "alias": 6,
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -284,10 +284,10 @@
     },
     {
       "raw_name": "Pate (whipping boy)",
-      "slug": "pate",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alchemist",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
       "section": "Characters Referenced",
       "line": 65
     },

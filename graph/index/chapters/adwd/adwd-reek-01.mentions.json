@@ -2,13 +2,13 @@
   "chapter_id": "adwd-reek-01",
   "book": "adwd",
   "pov_character": "reek",
-  "generated_at": "2026-05-12T21:45:31.655753+00:00",
+  "generated_at": "2026-07-04T21:33:40.593919+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-reek-01.extraction.md",
   "stats": {
     "total_mentions": 88,
     "resolved_to_node": 51,
-    "direct": 47,
-    "alias": 4,
+    "direct": 41,
+    "alias": 10,
     "unresolved": 37
   },
   "mentions": [
@@ -276,7 +276,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -330,7 +330,7 @@
     {
       "raw_name": "The Weeping Water",
       "slug": "weeping-water",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/weeping-water.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Dreadfort (dungeon, yard, kennels, great hall, eastern walls, postern gate)",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Raw Entity List > Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Weeping Water (referenced — stream near the Dreadfort)",
       "slug": "weeping-water",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/weeping-water.node.md",
       "section": "Raw Entity List > Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Iron Throne (referenced as seat of power)",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Raw Entity List > Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Drowned God (invoked indirectly via the ironborn saying \"what is dead may never die, but rises again, harder and stronger\")",
       "slug": "drowned-god",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/drowned-god.node.md",
       "section": "Raw Entity List > Religions & Faiths",

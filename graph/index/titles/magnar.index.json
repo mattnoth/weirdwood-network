@@ -3,7 +3,7 @@
   "name": "Magnar",
   "type": "title",
   "node_path": "graph/nodes/titles/magnar.node.md",
-  "generated_at": "2026-07-01T19:57:32.714794+00:00",
+  "generated_at": "2026-07-04T23:34:14.734247+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_referenced_in": 4,
@@ -33,7 +33,7 @@
         "sections": [
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -59,7 +59,7 @@
         "sections": [
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -71,7 +71,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -83,7 +83,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

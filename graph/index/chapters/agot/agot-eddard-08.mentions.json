@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-08",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.434572+00:00",
+  "generated_at": "2026-07-04T21:33:40.405877+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-08.extraction.md",
   "stats": {
     "total_mentions": 52,
-    "resolved_to_node": 43,
-    "direct": 42,
-    "alias": 1,
-    "unresolved": 9
+    "resolved_to_node": 42,
+    "direct": 38,
+    "alias": 4,
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -222,9 +222,9 @@
     {
       "raw_name": "Aerys Targaryen (the Mad King)",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 58
     },
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Dothraki (people)",
       "slug": "dothraki",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/dothraki.node.md",
       "section": "Characters Referenced",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The barrowlands",
       "slug": "barrowlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/barrowlands.node.md",
       "section": "Locations",

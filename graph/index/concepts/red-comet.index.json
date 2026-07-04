@@ -3,7 +3,7 @@
   "name": "Red Comet",
   "type": "concept.magic",
   "node_path": "graph/nodes/concepts/red-comet.node.md",
-  "generated_at": "2026-07-01T19:57:34.624154+00:00",
+  "generated_at": "2026-07-04T23:34:16.603931+00:00",
   "stats": {
     "appearances_total": 11,
     "chapters_referenced_in": 6,
@@ -23,7 +23,7 @@
           "Raw Entity List > Artifacts & Objects",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -37,7 +37,7 @@
           "Raw Entity List > Artifacts & Objects",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -50,7 +50,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -62,7 +62,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -78,7 +78,7 @@
           "Raw Entity List > Artifacts & Objects",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -92,7 +92,7 @@
           "Raw Entity List > Artifacts & Objects",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -104,7 +104,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -117,7 +117,7 @@
           "Artifacts & Objects of Significance",
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -129,7 +129,7 @@
         "sections": [
           "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -141,7 +141,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }

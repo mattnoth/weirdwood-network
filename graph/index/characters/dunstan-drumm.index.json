@@ -3,17 +3,27 @@
   "name": "Dunstan Drumm",
   "type": "character.human",
   "node_path": "graph/nodes/characters/dunstan-drumm.node.md",
-  "generated_at": "2026-07-01T19:57:37.761608+00:00",
+  "generated_at": "2026-07-04T23:34:19.826858+00:00",
   "stats": {
-    "appearances_total": 3,
+    "appearances_total": 5,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 2,
+    "chapters_mentioned_in": 4,
     "out_edge_count": 7,
     "in_edge_count": 23
   },
   "chapters": {
     "pov": [],
     "mentioned_in": [
+      {
+        "chapter_id": "acok-theon-03",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
       {
         "chapter_id": "affc-the-drowned-man-01",
         "book": "affc",
@@ -34,6 +44,16 @@
           "Characters Referenced"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-reaver-01",
+        "book": "affc",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
       }
     ]
   }

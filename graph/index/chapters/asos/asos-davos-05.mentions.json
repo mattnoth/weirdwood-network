@@ -2,13 +2,13 @@
   "chapter_id": "asos-davos-05",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.542689+00:00",
+  "generated_at": "2026-07-04T21:33:40.499933+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-05.extraction.md",
   "stats": {
     "total_mentions": 104,
     "resolved_to_node": 86,
-    "direct": 76,
-    "alias": 10,
+    "direct": 70,
+    "alias": 16,
     "unresolved": 18
   },
   "mentions": [
@@ -402,7 +402,7 @@
     {
       "raw_name": "The King-beyond-the-Wall",
       "slug": "king-beyond-the-wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
       "section": "Characters Referenced",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Rainwood",
       "slug": "rainwood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rainwood.node.md",
       "section": "Locations",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The Painted Table",
       "slug": "painted-table",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/painted-table.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The Cobblecat",
       "slug": "cobblecat",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/cobblecat.node.md",
       "section": "Artifacts & Objects of Significance",

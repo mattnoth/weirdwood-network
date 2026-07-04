@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-07",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.579805+00:00",
+  "generated_at": "2026-07-04T21:33:40.527374+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 104,
-    "resolved_to_node": 83,
-    "direct": 80,
-    "alias": 3,
-    "unresolved": 21
+    "resolved_to_node": 81,
+    "direct": 77,
+    "alias": 4,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -761,10 +761,10 @@
     },
     {
       "raw_name": "Old Gods (Sansa prays nightly in the godswood)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 260
     },
@@ -825,7 +825,7 @@
     {
       "raw_name": "The Red Wedding (aftermath — details of desecration described)",
       "slug": "red-wedding",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "event",
       "node_path": "graph/nodes/events/red-wedding.node.md",
       "section": "Raw Entity List > Wars & Conflicts",
@@ -834,9 +834,9 @@
     {
       "raw_name": "Battle of the Green Fork (referenced — where Tyrion acquired Shae)",
       "slug": "battle-of-the-green-fork",
-      "resolved_via": "direct",
-      "node_type": "event",
-      "node_path": "graph/nodes/events/battle-of-the-green-fork.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Wars & Conflicts",
       "line": 281
     },
@@ -932,10 +932,10 @@
     },
     {
       "raw_name": "\"The Spider\" — Varys's epithet",
-      "slug": "varys",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/varys.node.md",
+      "slug": "spider",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/spider.node.md",
       "section": "Raw Entity List > Other",
       "line": 296
     },

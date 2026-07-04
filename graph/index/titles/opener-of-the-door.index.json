@@ -3,7 +3,7 @@
   "name": "Opener of the Door",
   "type": "title",
   "node_path": "graph/nodes/titles/opener-of-the-door.node.md",
-  "generated_at": "2026-07-01T19:57:32.693288+00:00",
+  "generated_at": "2026-07-04T23:34:14.712452+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 1,
@@ -23,7 +23,7 @@
           "Raw Entity List > Characters",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -39,7 +39,7 @@
           "Raw Entity List > Characters",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }

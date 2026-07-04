@@ -2,7 +2,7 @@
   "chapter_id": "asos-daenerys-04",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.538553+00:00",
+  "generated_at": "2026-07-04T21:33:40.496009+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-04.extraction.md",
   "stats": {
     "total_mentions": 205,
@@ -1787,10 +1787,10 @@
     },
     {
       "raw_name": "Daenerys Stormborn",
-      "slug": "daenerys-targaryen",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "slug": "daenerys-stormborn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Titles & Offices",
       "line": 458
     },
@@ -1814,10 +1814,10 @@
     },
     {
       "raw_name": "Titan's Bastard (Mero's self-styled title)",
-      "slug": "titans-bastard",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "mero",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mero.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 461
     },

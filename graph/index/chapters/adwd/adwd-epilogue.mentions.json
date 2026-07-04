@@ -2,13 +2,13 @@
   "chapter_id": "adwd-epilogue",
   "book": "adwd",
   "pov_character": "adwd-epilogue",
-  "generated_at": "2026-05-12T21:45:31.644392+00:00",
+  "generated_at": "2026-07-04T21:33:40.582880+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-epilogue.extraction.md",
   "stats": {
     "total_mentions": 110,
     "resolved_to_node": 91,
-    "direct": 84,
-    "alias": 7,
+    "direct": 78,
+    "alias": 13,
     "unresolved": 19
   },
   "mentions": [
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Daenerys Stormborn",
-      "slug": "daenerys-targaryen",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "slug": "daenerys-stormborn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 59
     },
@@ -537,7 +537,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Red Keep (throne room)",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -816,7 +816,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -977,10 +977,10 @@
     },
     {
       "raw_name": "Daggers",
-      "slug": "daggers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dagger",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dagger.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 154
     },

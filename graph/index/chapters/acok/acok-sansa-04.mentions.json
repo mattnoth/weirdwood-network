@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-04",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.493801+00:00",
+  "generated_at": "2026-07-04T21:33:40.457917+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-04.extraction.md",
   "stats": {
     "total_mentions": 55,
-    "resolved_to_node": 44,
-    "direct": 42,
-    "alias": 2,
-    "unresolved": 11
+    "resolved_to_node": 46,
+    "direct": 39,
+    "alias": 7,
+    "unresolved": 9
   },
   "mentions": [
     {
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "The red priestess (Melisandre)",
-      "slug": "the-red-priestess",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-priest",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/red-priest.node.md",
       "section": "Characters Referenced",
       "line": 47
     },
@@ -159,7 +159,7 @@
     {
       "raw_name": "The High Septon (killed in riot)",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -266,10 +266,10 @@
     },
     {
       "raw_name": "Florian",
-      "slug": "florian",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dontos-hollard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
       "section": "Characters Referenced",
       "line": 63
     },
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Gullet",
       "slug": "gullet",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gullet.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

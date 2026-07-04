@@ -2,14 +2,14 @@
   "chapter_id": "adwd-cersei-02",
   "book": "adwd",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.633210+00:00",
+  "generated_at": "2026-07-04T21:33:40.572308+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-cersei-02.extraction.md",
   "stats": {
     "total_mentions": 174,
-    "resolved_to_node": 122,
-    "direct": 116,
-    "alias": 6,
-    "unresolved": 52
+    "resolved_to_node": 123,
+    "direct": 113,
+    "alias": 10,
+    "unresolved": 51
   },
   "mentions": [
     {
@@ -591,7 +591,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -1194,7 +1194,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1203,7 +1203,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1491,9 +1491,9 @@
     {
       "raw_name": "Maggy the Frog's prophecy — \"Queen you shall be, until there comes another, younger and more beautiful, to cast you down and take all you hold most dear\" (experienced as a vision/hallucination during the walk)",
       "slug": "maggy-the-frogs-prophecy",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept.prophecy",
+      "node_path": "graph/nodes/prophecies/maggy-the-frogs-prophecy.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 387
     },

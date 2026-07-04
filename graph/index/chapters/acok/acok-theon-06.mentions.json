@@ -2,13 +2,13 @@
   "chapter_id": "acok-theon-06",
   "book": "acok",
   "pov_character": "theon",
-  "generated_at": "2026-05-12T21:45:31.499917+00:00",
+  "generated_at": "2026-07-04T21:33:40.464158+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-theon-06.extraction.md",
   "stats": {
     "total_mentions": 69,
     "resolved_to_node": 51,
-    "direct": 49,
-    "alias": 2,
+    "direct": 45,
+    "alias": 6,
     "unresolved": 18
   },
   "mentions": [
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Whispering Wood",
       "slug": "whispering-wood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispering-wood.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",

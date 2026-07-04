@@ -2,13 +2,13 @@
   "chapter_id": "acok-jon-04",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.486901+00:00",
+  "generated_at": "2026-07-04T21:33:40.450734+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-04.extraction.md",
   "stats": {
     "total_mentions": 92,
     "resolved_to_node": 77,
-    "direct": 71,
-    "alias": 6,
+    "direct": 58,
+    "alias": 19,
     "unresolved": 15
   },
   "mentions": [
@@ -249,7 +249,7 @@
     {
       "raw_name": "The Milkwater",
       "slug": "milkwater",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/milkwater.node.md",
       "section": "Locations",
@@ -258,7 +258,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",
@@ -267,7 +267,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -276,7 +276,7 @@
     {
       "raw_name": "The Shadow Tower",
       "slug": "shadow-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-tower.node.md",
       "section": "Locations",
@@ -303,7 +303,7 @@
     {
       "raw_name": "The Giant's Stair",
       "slug": "giants-stair",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/giants-stair.node.md",
       "section": "Locations",
@@ -312,7 +312,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Locations",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Milkwater (river)",
       "slug": "milkwater",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/milkwater.node.md",
       "section": "Raw Entity List > Locations",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Frostfangs (mountain range)",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Raw Entity List > Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Shadow Tower",
       "slug": "shadow-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-tower.node.md",
       "section": "Raw Entity List > Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Giant's Stair",
       "slug": "giants-stair",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/giants-stair.node.md",
       "section": "Raw Entity List > Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Skirling Pass",
       "slug": "skirling-pass",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/skirling-pass.node.md",
       "section": "Raw Entity List > Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The First Men (built the ringfort in the Dawn Age)",
       "slug": "first-men",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/first-men.node.md",
       "section": "Raw Entity List > Cultures & Peoples",

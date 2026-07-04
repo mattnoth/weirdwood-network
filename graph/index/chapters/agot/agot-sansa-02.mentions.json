@@ -2,13 +2,13 @@
   "chapter_id": "agot-sansa-02",
   "book": "agot",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.445266+00:00",
+  "generated_at": "2026-07-04T21:33:40.414490+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-sansa-02.extraction.md",
   "stats": {
     "total_mentions": 96,
     "resolved_to_node": 79,
-    "direct": 77,
-    "alias": 2,
+    "direct": 73,
+    "alias": 6,
     "unresolved": 17
   },
   "mentions": [
@@ -645,7 +645,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Crossing",
       "slug": "crossing",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/crossing.node.md",
       "section": "Locations",

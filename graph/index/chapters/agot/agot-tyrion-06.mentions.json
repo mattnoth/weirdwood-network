@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-06",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.450788+00:00",
+  "generated_at": "2026-07-04T21:33:40.419911+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-06.extraction.md",
   "stats": {
     "total_mentions": 86,
-    "resolved_to_node": 63,
-    "direct": 57,
-    "alias": 6,
-    "unresolved": 23
+    "resolved_to_node": 60,
+    "direct": 51,
+    "alias": 9,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -32,10 +32,10 @@
     },
     {
       "raw_name": "Gunthor son of Gurn",
-      "slug": "gunthor",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/gunthor.node.md",
+      "slug": "gunthor-son-of-gurn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Present",
       "line": 29
     },
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "Gunthor son of Gurn",
-      "slug": "gunthor",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/gunthor.node.md",
+      "slug": "gunthor-son-of-gurn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Character Appearances",
       "line": 40
     },
@@ -231,7 +231,7 @@
     {
       "raw_name": "The Bloody Gate",
       "slug": "bloody-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bloody-gate.node.md",
       "section": "Locations",
@@ -240,7 +240,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -276,7 +276,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -329,10 +329,10 @@
     },
     {
       "raw_name": "Valyrian steel dagger (referenced as \"a certain dagger\")",
-      "slug": "littlefingers-blade",
+      "slug": "catspaw-dagger",
       "resolved_via": "alias",
       "node_type": "object.artifact",
-      "node_path": "graph/nodes/artifacts/littlefingers-blade.node.md",
+      "node_path": "graph/nodes/artifacts/catspaw-dagger.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 82
     },
@@ -365,10 +365,10 @@
     },
     {
       "raw_name": "Gunthor son of Gurn",
-      "slug": "gunthor",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/gunthor.node.md",
+      "slug": "gunthor-son-of-gurn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Characters",
       "line": 199
     },
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Bloody Gate",
       "slug": "bloody-gate",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bloody-gate.node.md",
       "section": "Raw Entity List > Locations",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Raw Entity List > Locations",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "Valyrian steel dagger (referenced as \"a certain dagger\")",
-      "slug": "littlefingers-blade",
+      "slug": "catspaw-dagger",
       "resolved_via": "alias",
       "node_type": "object.artifact",
-      "node_path": "graph/nodes/artifacts/littlefingers-blade.node.md",
+      "node_path": "graph/nodes/artifacts/catspaw-dagger.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 249
     },

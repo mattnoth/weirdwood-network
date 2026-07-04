@@ -2,13 +2,13 @@
   "chapter_id": "asos-jaime-08",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.557338+00:00",
+  "generated_at": "2026-07-04T21:33:40.506206+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-08.extraction.md",
   "stats": {
     "total_mentions": 108,
     "resolved_to_node": 102,
-    "direct": 97,
-    "alias": 5,
+    "direct": 92,
+    "alias": 10,
     "unresolved": 6
   },
   "mentions": [
@@ -195,7 +195,7 @@
     {
       "raw_name": "The Demon of Darry",
       "slug": "demon-of-darry",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/demon-of-darry.node.md",
       "section": "Characters Referenced",
@@ -231,7 +231,7 @@
     {
       "raw_name": "The Smiling Knight",
       "slug": "smiling-knight",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/smiling-knight.node.md",
       "section": "Characters Referenced",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Referenced",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -924,7 +924,7 @@
     {
       "raw_name": "The White Book (Book of the Brothers)",
       "slug": "white-book",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/white-book.node.md",
       "section": "Artifacts & Objects of Significance",

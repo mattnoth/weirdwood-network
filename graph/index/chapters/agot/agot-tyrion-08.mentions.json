@@ -2,13 +2,13 @@
   "chapter_id": "agot-tyrion-08",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.451879+00:00",
+  "generated_at": "2026-07-04T21:33:40.420876+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-08.extraction.md",
   "stats": {
     "total_mentions": 58,
     "resolved_to_node": 35,
-    "direct": 35,
-    "alias": 0,
+    "direct": 33,
+    "alias": 2,
     "unresolved": 23
   },
   "mentions": [
@@ -375,7 +375,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",

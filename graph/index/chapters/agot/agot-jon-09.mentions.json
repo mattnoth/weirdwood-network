@@ -2,13 +2,13 @@
   "chapter_id": "agot-jon-09",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.443234+00:00",
+  "generated_at": "2026-07-04T21:33:40.412913+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-09.extraction.md",
   "stats": {
     "total_mentions": 58,
     "resolved_to_node": 53,
-    "direct": 48,
-    "alias": 5,
+    "direct": 44,
+    "alias": 9,
     "unresolved": 5
   },
   "mentions": [
@@ -384,7 +384,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Gorge",
       "slug": "gorge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gorge.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The kingsroad (south of the Wall)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Location Descriptions",

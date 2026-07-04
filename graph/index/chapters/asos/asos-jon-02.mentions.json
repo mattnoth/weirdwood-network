@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-02",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.559620+00:00",
+  "generated_at": "2026-07-04T21:33:40.508489+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-02.extraction.md",
   "stats": {
     "total_mentions": 180,
-    "resolved_to_node": 134,
-    "direct": 121,
-    "alias": 13,
-    "unresolved": 46
+    "resolved_to_node": 133,
+    "direct": 104,
+    "alias": 29,
+    "unresolved": 47
   },
   "mentions": [
     {
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Characters Referenced",
@@ -474,7 +474,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",
@@ -555,7 +555,7 @@
     {
       "raw_name": "The barrowlands",
       "slug": "barrowlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/barrowlands.node.md",
       "section": "Locations",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Rills",
       "slug": "rills",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rills.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Stony Shore",
       "slug": "stony-shore",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stony-shore.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -1032,7 +1032,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Raw Entity List > Characters",
@@ -1059,7 +1059,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1095,7 +1095,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
@@ -1104,7 +1104,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Raw Entity List > Locations",
@@ -1140,7 +1140,7 @@
     {
       "raw_name": "The barrowlands",
       "slug": "barrowlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/barrowlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1149,7 +1149,7 @@
     {
       "raw_name": "The Rills",
       "slug": "rills",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/rills.node.md",
       "section": "Raw Entity List > Locations",
@@ -1167,7 +1167,7 @@
     {
       "raw_name": "The Stony Shore",
       "slug": "stony-shore",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stony-shore.node.md",
       "section": "Raw Entity List > Locations",
@@ -1176,7 +1176,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Raw Entity List > Locations",
@@ -1274,10 +1274,10 @@
     },
     {
       "raw_name": "The old gods (Jon thinks of \"his father's gods\"; he said his vows before the weirwood)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 344
     },
@@ -1500,7 +1500,7 @@
     {
       "raw_name": "The Horn of Winter — legendary horn that \"woke giants from the earth\" when Joramun blew it",
       "slug": "horn-of-winter",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/horn-of-winter.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

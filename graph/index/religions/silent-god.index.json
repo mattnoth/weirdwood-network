@@ -3,7 +3,7 @@
   "name": "Silent God",
   "type": "organization.religion",
   "node_path": "graph/nodes/religions/silent-god.node.md",
-  "generated_at": "2026-07-01T19:57:33.508222+00:00",
+  "generated_at": "2026-07-04T23:34:15.528356+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,
@@ -21,7 +21,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -35,7 +35,7 @@
         "sections": [
           "Raw Entity List > Religions & Faiths"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }

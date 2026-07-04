@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-06",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.456990+00:00",
+  "generated_at": "2026-07-04T21:33:40.425976+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-06.extraction.md",
   "stats": {
     "total_mentions": 155,
-    "resolved_to_node": 91,
-    "direct": 79,
-    "alias": 12,
-    "unresolved": 64
+    "resolved_to_node": 90,
+    "direct": 77,
+    "alias": 13,
+    "unresolved": 65
   },
   "mentions": [
     {
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Gods Eye (lake)",
       "slug": "gods-eye",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gods-eye.node.md",
       "section": "Locations",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The Gods Eye (lake)",
       "slug": "gods-eye",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gods-eye.node.md",
       "section": "Raw Entity List > Locations",
@@ -1175,10 +1175,10 @@
     },
     {
       "raw_name": "Old Gods (Arya prayed with her father in the godswood)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 316
     },

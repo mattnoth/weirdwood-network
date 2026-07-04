@@ -2,7 +2,7 @@
   "chapter_id": "acok-sansa-03",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.493300+00:00",
+  "generated_at": "2026-07-04T21:33:40.457419+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-03.extraction.md",
   "stats": {
     "total_mentions": 161,
@@ -330,9 +330,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 70
     },
@@ -582,9 +582,9 @@
     {
       "raw_name": "Sandor Clegane's white cloak",
       "slug": "sandor-cleganes-white-cloak",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/sandor-cleganes-white-cloak.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 110
     },
@@ -834,9 +834,9 @@
     {
       "raw_name": "Aerys Targaryen (the Mad King)",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Characters",
       "line": 282
     },
@@ -1184,10 +1184,10 @@
     },
     {
       "raw_name": "Old Gods (Sansa prays in the godswood; wildling woman says \"the gods will hear\")",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 329
     },
@@ -1239,9 +1239,9 @@
     {
       "raw_name": "Sandor Clegane's white cloak (white wool, coarse weave)",
       "slug": "sandor-cleganes-white-cloak",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/sandor-cleganes-white-cloak.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 339
     },
@@ -1454,10 +1454,10 @@
     },
     {
       "raw_name": "Florian (legendary figure — Sansa calls Dontos \"My Florian\")",
-      "slug": "florian",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dontos-hollard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
       "section": "Raw Entity List > Other",
       "line": 374
     }

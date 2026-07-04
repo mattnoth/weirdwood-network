@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-08",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.563409+00:00",
+  "generated_at": "2026-07-04T21:33:40.512026+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-08.extraction.md",
   "stats": {
     "total_mentions": 57,
-    "resolved_to_node": 49,
-    "direct": 41,
-    "alias": 8,
-    "unresolved": 8
+    "resolved_to_node": 51,
+    "direct": 38,
+    "alias": 13,
+    "unresolved": 6
   },
   "mentions": [
     {
@@ -275,10 +275,10 @@
     },
     {
       "raw_name": "Father (Eddard Stark)",
-      "slug": "father",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "father-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/father-the-seven.node.md",
       "section": "Characters Referenced",
       "line": 64
     },
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Wall (top)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Horn of Winter (Joramun's horn)",
       "slug": "horn-of-winter",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/horn-of-winter.node.md",
       "section": "Artifacts & Objects of Significance",
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "Trebuchets (two)",
-      "slug": "trebuchets",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "trebuchet",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/trebuchet.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 103
     }

@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-02",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.614511+00:00",
+  "generated_at": "2026-07-04T21:33:40.556008+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-02.extraction.md",
   "stats": {
     "total_mentions": 170,
-    "resolved_to_node": 112,
-    "direct": 104,
-    "alias": 8,
-    "unresolved": 58
+    "resolved_to_node": 113,
+    "direct": 99,
+    "alias": 14,
+    "unresolved": 57
   },
   "mentions": [
     {
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -969,7 +969,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Raw Entity List > Locations",
@@ -1050,7 +1050,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
@@ -1481,10 +1481,10 @@
     },
     {
       "raw_name": "Slayer (Sam's nickname/informal title)",
-      "slug": "slayer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "richard-horpe",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/richard-horpe.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 384
     },

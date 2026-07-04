@@ -3,7 +3,7 @@
   "name": "Queen",
   "type": "title",
   "node_path": "graph/nodes/titles/queen.node.md",
-  "generated_at": "2026-07-01T19:57:32.682605+00:00",
+  "generated_at": "2026-07-04T23:34:14.699471+00:00",
   "stats": {
     "appearances_total": 33,
     "chapters_referenced_in": 30,
@@ -23,7 +23,7 @@
           "Raw Entity List > Characters",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -60,7 +60,7 @@
           "Characters Referenced",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -304,7 +304,7 @@
           "Raw Entity List > Characters",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -316,7 +316,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -352,7 +352,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -365,7 +365,7 @@
           "Characters Referenced",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -377,7 +377,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -401,7 +401,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -413,7 +413,7 @@
         "sections": [
           "Characters Referenced"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },

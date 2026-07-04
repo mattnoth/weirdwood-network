@@ -3,9 +3,9 @@
   "name": "Rolland Storm",
   "type": "character.human",
   "node_path": "graph/nodes/characters/rolland-storm.node.md",
-  "generated_at": "2026-07-01T19:57:38.082357+00:00",
+  "generated_at": "2026-07-04T23:34:20.142729+00:00",
   "stats": {
-    "appearances_total": 3,
+    "appearances_total": 4,
     "chapters_pov": 0,
     "chapters_mentioned_in": 3,
     "out_edge_count": 10,
@@ -38,8 +38,9 @@
         "chapter_id": "asos-davos-06",
         "book": "asos",
         "pov_character_slug": "davos-seaworth",
-        "mention_count": 1,
+        "mention_count": 2,
         "sections": [
+          "Character Appearances",
           "Characters Present"
         ],
         "resolved_via": "direct"

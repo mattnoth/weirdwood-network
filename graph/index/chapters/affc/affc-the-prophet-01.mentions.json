@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-prophet-01",
   "book": "affc",
   "pov_character": "the-prophet",
-  "generated_at": "2026-05-12T21:45:31.624801+00:00",
+  "generated_at": "2026-07-04T21:33:40.565018+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-prophet-01.extraction.md",
   "stats": {
     "total_mentions": 202,
-    "resolved_to_node": 159,
-    "direct": 147,
-    "alias": 12,
-    "unresolved": 43
+    "resolved_to_node": 160,
+    "direct": 141,
+    "alias": 19,
+    "unresolved": 42
   },
   "mentions": [
     {
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Grey King",
       "slug": "grey-king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/grey-king.node.md",
       "section": "Characters Referenced",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The Blind Lord",
       "slug": "blind-lord",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/blind-lord.node.md",
       "section": "Characters Referenced",
@@ -1131,7 +1131,7 @@
     {
       "raw_name": "The Grey King (mythical/historical)",
       "slug": "grey-king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/grey-king.node.md",
       "section": "Raw Entity List > Characters",
@@ -1140,7 +1140,7 @@
     {
       "raw_name": "The Blind Lord (historical)",
       "slug": "blind-lord",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/blind-lord.node.md",
       "section": "Raw Entity List > Characters",
@@ -1509,7 +1509,7 @@
     {
       "raw_name": "The Citadel (maesters' order, referenced via Murenmure's chain)",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Raw Entity List > Factions & Organizations",
@@ -1724,17 +1724,17 @@
     },
     {
       "raw_name": "Damphair (priestly title/epithet for Aeron)",
-      "slug": "damphair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aeron-greyjoy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 429
     },
     {
       "raw_name": "The Prophet (Aeron's self-conception / chapter title)",
       "slug": "prophet",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/prophet.node.md",
       "section": "Raw Entity List > Titles & Offices",

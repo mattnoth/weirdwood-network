@@ -3,7 +3,7 @@
   "name": "Unsullied",
   "type": "organization.faction",
   "node_path": "graph/nodes/factions/unsullied.node.md",
-  "generated_at": "2026-07-01T19:57:32.315303+00:00",
+  "generated_at": "2026-07-04T23:34:14.328710+00:00",
   "stats": {
     "appearances_total": 12,
     "chapters_referenced_in": 12,
@@ -21,7 +21,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -93,7 +93,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -105,7 +105,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -143,7 +143,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -239,7 +239,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -251,7 +251,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },

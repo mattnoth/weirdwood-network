@@ -2,13 +2,13 @@
   "chapter_id": "agot-jon-02",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.439146+00:00",
+  "generated_at": "2026-07-04T21:33:40.409839+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-02.extraction.md",
   "stats": {
     "total_mentions": 59,
     "resolved_to_node": 53,
-    "direct": 51,
-    "alias": 2,
+    "direct": 48,
+    "alias": 5,
     "unresolved": 6
   },
   "mentions": [
@@ -195,7 +195,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The Free Cities (general reference)",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Raw Entity List > Locations",

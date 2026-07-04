@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-02",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T21:45:31.431153+00:00",
+  "generated_at": "2026-07-04T21:33:40.402905+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-02.extraction.md",
   "stats": {
     "total_mentions": 54,
-    "resolved_to_node": 42,
-    "direct": 41,
-    "alias": 1,
-    "unresolved": 12
+    "resolved_to_node": 41,
+    "direct": 37,
+    "alias": 4,
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -132,9 +132,9 @@
     {
       "raw_name": "Aerys Targaryen",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 48
     },
@@ -330,7 +330,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Artifacts & Objects of Significance",

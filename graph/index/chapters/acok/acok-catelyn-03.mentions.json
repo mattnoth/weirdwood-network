@@ -2,14 +2,14 @@
   "chapter_id": "acok-catelyn-03",
   "book": "acok",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-12T21:45:31.473298+00:00",
+  "generated_at": "2026-07-04T21:33:40.436221+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-catelyn-03.extraction.md",
   "stats": {
     "total_mentions": 227,
-    "resolved_to_node": 163,
-    "direct": 151,
-    "alias": 12,
-    "unresolved": 64
+    "resolved_to_node": 166,
+    "direct": 138,
+    "alias": 28,
+    "unresolved": 61
   },
   "mentions": [
     {
@@ -41,10 +41,10 @@
     },
     {
       "raw_name": "Red priestess (unnamed)",
-      "slug": "red-priestess",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-priest",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/red-priest.node.md",
       "section": "Characters Present",
       "line": 30
     },
@@ -176,10 +176,10 @@
     },
     {
       "raw_name": "Red priestess (unnamed)",
-      "slug": "red-priestess",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-priest",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/red-priest.node.md",
       "section": "Character Appearances",
       "line": 49
     },
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Whispering Wood",
       "slug": "whispering-wood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispering-wood.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Free Cities",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Locations",
@@ -842,10 +842,10 @@
     },
     {
       "raw_name": "Red priestess (unnamed; Stannis's standard bearer)",
-      "slug": "red-priestess",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-priest",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/red-priest.node.md",
       "section": "Raw Entity List > Characters",
       "line": 290
     },
@@ -1347,7 +1347,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Raw Entity List > Locations",
@@ -1365,7 +1365,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Raw Entity List > Locations",
@@ -1374,7 +1374,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -1392,7 +1392,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1401,7 +1401,7 @@
     {
       "raw_name": "The Whispering Wood",
       "slug": "whispering-wood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispering-wood.node.md",
       "section": "Raw Entity List > Locations",
@@ -1419,7 +1419,7 @@
     {
       "raw_name": "The Free Cities (referenced generally)",
       "slug": "free-cities",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/free-cities.node.md",
       "section": "Raw Entity List > Locations",
@@ -1742,10 +1742,10 @@
     },
     {
       "raw_name": "Old Gods (implied — Catelyn prays to \"gods\")",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 398
     },
@@ -1778,10 +1778,10 @@
     },
     {
       "raw_name": "Sellswords (part of Stannis's host per Renly)",
-      "slug": "sellswords",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sellsword",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/sellsword.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 404
     },
@@ -1995,9 +1995,9 @@
     {
       "raw_name": "Battle of the Whispering Wood (Catelyn was present there)",
       "slug": "battle-of-the-whispering-wood",
-      "resolved_via": "direct",
-      "node_type": "event",
-      "node_path": "graph/nodes/events/battle-of-the-whispering-wood.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Wars & Conflicts",
       "line": 436
     },
@@ -2039,10 +2039,10 @@
     },
     {
       "raw_name": "Knight of Flowers (Ser Loras)",
-      "slug": "knight-of-flowers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "loras-tyrell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/loras-tyrell.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 443
     },

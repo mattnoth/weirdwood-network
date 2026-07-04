@@ -2,13 +2,13 @@
   "chapter_id": "affc-cersei-03",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.598071+00:00",
+  "generated_at": "2026-07-04T21:33:40.543276+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-03.extraction.md",
   "stats": {
     "total_mentions": 111,
     "resolved_to_node": 88,
-    "direct": 85,
-    "alias": 3,
+    "direct": 84,
+    "alias": 4,
     "unresolved": 23
   },
   "mentions": [
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",

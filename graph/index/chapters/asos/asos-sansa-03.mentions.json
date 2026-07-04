@@ -2,13 +2,13 @@
   "chapter_id": "asos-sansa-03",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.573074+00:00",
+  "generated_at": "2026-07-04T21:33:40.520684+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-03.extraction.md",
   "stats": {
     "total_mentions": 86,
     "resolved_to_node": 63,
-    "direct": 61,
-    "alias": 2,
+    "direct": 59,
+    "alias": 4,
     "unresolved": 23
   },
   "mentions": [
@@ -177,7 +177,7 @@
     {
       "raw_name": "The septon (unnamed)",
       "slug": "septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/septon.node.md",
       "section": "Characters Present",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Red Keep",
       "slug": "red-keep",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-keep.node.md",
       "section": "Locations",

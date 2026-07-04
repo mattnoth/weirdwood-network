@@ -3,7 +3,7 @@
   "name": "Lady Ushanora",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/lady-ushanora.node.md",
-  "generated_at": "2026-07-01T19:57:31.542736+00:00",
+  "generated_at": "2026-07-04T23:34:13.550076+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,
@@ -24,7 +24,7 @@
         "sections": [
           "Raw Entity List > Other"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

@@ -3,17 +3,29 @@
   "name": "Trebuchet",
   "type": "object.artifact",
   "node_path": "graph/nodes/artifacts/trebuchet.node.md",
-  "generated_at": "2026-07-01T19:57:31.554332+00:00",
+  "generated_at": "2026-07-04T23:34:13.562178+00:00",
   "stats": {
-    "appearances_total": 1,
-    "chapters_referenced_in": 1,
-    "chapters_in_raw_list": 0,
+    "appearances_total": 4,
+    "chapters_referenced_in": 4,
+    "chapters_in_raw_list": 2,
     "out_edge_count": 0,
     "in_edge_count": 13,
-    "chapters_in_artifacts_section": 1
+    "chapters_in_artifacts_section": 2
   },
   "chapters": {
     "in_artifacts_section": [
+      {
+        "chapter_id": "asos-jon-08",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
       {
         "chapter_id": "asos-jon-09",
         "book": "asos",
@@ -27,8 +39,69 @@
         "in_raw_list": false
       }
     ],
-    "in_raw_list": [],
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-davos-03",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-sansa-06",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
     "referenced_in": [
+      {
+        "chapter_id": "acok-davos-03",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-sansa-06",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jon-08",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
       {
         "chapter_id": "asos-jon-09",
         "book": "asos",

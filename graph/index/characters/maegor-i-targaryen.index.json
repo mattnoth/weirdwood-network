@@ -3,11 +3,11 @@
   "name": "Maegor I Targaryen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
-  "generated_at": "2026-07-01T19:57:38.079301+00:00",
+  "generated_at": "2026-07-04T23:34:20.140002+00:00",
   "stats": {
-    "appearances_total": 22,
+    "appearances_total": 18,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 18,
+    "chapters_mentioned_in": 15,
     "out_edge_count": 17,
     "in_edge_count": 334
   },
@@ -49,16 +49,6 @@
         "chapter_id": "acok-tyrion-10",
         "book": "acok",
         "pov_character_slug": "tyrion-lannister",
-        "mention_count": 1,
-        "sections": [
-          "Characters Referenced"
-        ],
-        "resolved_via": "alias"
-      },
-      {
-        "chapter_id": "asos-catelyn-02",
-        "book": "asos",
-        "pov_character_slug": "catelyn-stark",
         "mention_count": 1,
         "sections": [
           "Characters Referenced"
@@ -137,16 +127,6 @@
         "resolved_via": "alias"
       },
       {
-        "chapter_id": "affc-cersei-07",
-        "book": "affc",
-        "pov_character_slug": "cersei-lannister",
-        "mention_count": 1,
-        "sections": [
-          "Characters Referenced"
-        ],
-        "resolved_via": "alias"
-      },
-      {
         "chapter_id": "affc-cersei-10",
         "book": "affc",
         "pov_character_slug": "cersei-lannister",
@@ -178,17 +158,6 @@
       },
       {
         "chapter_id": "adwd-tyrion-02",
-        "book": "adwd",
-        "pov_character_slug": "tyrion-lannister",
-        "mention_count": 2,
-        "sections": [
-          "Characters Referenced",
-          "Raw Entity List > Characters"
-        ],
-        "resolved_via": "alias"
-      },
-      {
-        "chapter_id": "adwd-tyrion-06",
         "book": "adwd",
         "pov_character_slug": "tyrion-lannister",
         "mention_count": 2,

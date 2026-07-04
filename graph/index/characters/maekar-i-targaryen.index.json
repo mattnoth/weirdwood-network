@@ -3,16 +3,27 @@
   "name": "Maekar I Targaryen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/maekar-i-targaryen.node.md",
-  "generated_at": "2026-07-01T19:57:38.062084+00:00",
+  "generated_at": "2026-07-04T23:34:20.123330+00:00",
   "stats": {
-    "appearances_total": 0,
+    "appearances_total": 1,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 0,
+    "chapters_mentioned_in": 1,
     "out_edge_count": 22,
     "in_edge_count": 90
   },
   "chapters": {
     "pov": [],
-    "mentioned_in": []
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-bran-03",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
   }
 }

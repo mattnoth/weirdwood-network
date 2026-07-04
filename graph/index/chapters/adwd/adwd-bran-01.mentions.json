@@ -2,14 +2,14 @@
   "chapter_id": "adwd-bran-01",
   "book": "adwd",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.629830+00:00",
+  "generated_at": "2026-07-04T21:33:40.569138+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-bran-01.extraction.md",
   "stats": {
     "total_mentions": 81,
-    "resolved_to_node": 43,
-    "direct": 42,
-    "alias": 1,
-    "unresolved": 38
+    "resolved_to_node": 45,
+    "direct": 40,
+    "alias": 5,
+    "unresolved": 36
   },
   "mentions": [
     {
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "Sam (Samwell Tarly)",
-      "slug": "sam",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
       "section": "Characters Referenced",
       "line": 47
     },
@@ -249,7 +249,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "Sam (Samwell Tarly — referenced)",
-      "slug": "sam",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
       "section": "Raw Entity List > Characters",
       "line": 221
     },
@@ -528,7 +528,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",

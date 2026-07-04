@@ -3,11 +3,11 @@
   "name": "Lancel Lannister",
   "type": "character.human",
   "node_path": "graph/nodes/characters/lancel-lannister.node.md",
-  "generated_at": "2026-07-01T19:57:37.855040+00:00",
+  "generated_at": "2026-07-04T23:34:19.921073+00:00",
   "stats": {
-    "appearances_total": 49,
+    "appearances_total": 51,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 33,
+    "chapters_mentioned_in": 34,
     "out_edge_count": 11,
     "in_edge_count": 108
   },
@@ -163,6 +163,17 @@
           "Characters Present"
         ],
         "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-tyrion-14",
+        "book": "acok",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
       },
       {
         "chapter_id": "asos-sansa-03",

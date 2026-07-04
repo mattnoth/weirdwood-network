@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-07",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T21:45:31.442008+00:00",
+  "generated_at": "2026-07-04T21:33:40.412022+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-07.extraction.md",
   "stats": {
     "total_mentions": 80,
-    "resolved_to_node": 61,
-    "direct": 56,
-    "alias": 5,
-    "unresolved": 19
+    "resolved_to_node": 62,
+    "direct": 50,
+    "alias": 12,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Sam (duplicate with Samwell Tarly above)",
-      "slug": "sam",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "samwell-tarly",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
       "section": "Characters Present",
       "line": 37
     },
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Others",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Characters Referenced",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The queen (Cersei Lannister)",
       "slug": "queen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/queen.node.md",
       "section": "Characters Referenced",
@@ -501,7 +501,7 @@
     {
       "raw_name": "The haunted forest (woods beyond the Wall)",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
@@ -636,7 +636,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",

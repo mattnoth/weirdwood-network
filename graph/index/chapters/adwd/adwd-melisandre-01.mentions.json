@@ -2,14 +2,14 @@
   "chapter_id": "adwd-melisandre-01",
   "book": "adwd",
   "pov_character": "melisandre",
-  "generated_at": "2026-05-12T21:45:31.654237+00:00",
+  "generated_at": "2026-07-04T21:33:40.592465+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-melisandre-01.extraction.md",
   "stats": {
     "total_mentions": 163,
-    "resolved_to_node": 107,
-    "direct": 99,
-    "alias": 8,
-    "unresolved": 56
+    "resolved_to_node": 108,
+    "direct": 87,
+    "alias": 21,
+    "unresolved": 55
   },
   "mentions": [
     {
@@ -249,7 +249,7 @@
     {
       "raw_name": "The Weeper",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Characters Referenced",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -456,7 +456,7 @@
     {
       "raw_name": "The Gorge",
       "slug": "gorge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gorge.node.md",
       "section": "Locations",
@@ -510,7 +510,7 @@
     {
       "raw_name": "The Wall (tunnel)",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Location Descriptions",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Weeper (referenced)",
       "slug": "weeper",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/weeper.node.md",
       "section": "Raw Entity List > Characters",
@@ -915,7 +915,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
@@ -960,7 +960,7 @@
     {
       "raw_name": "The Gorge",
       "slug": "gorge",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/gorge.node.md",
       "section": "Raw Entity List > Locations",
@@ -1032,7 +1032,7 @@
     {
       "raw_name": "The kingsroad (mentioned)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",
@@ -1131,7 +1131,7 @@
     {
       "raw_name": "The Faith of the Seven (referenced as \"seven false gods\" by Alf of Runnymudd)",
       "slug": "faith-of-the-seven",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1139,10 +1139,10 @@
     },
     {
       "raw_name": "The Old Gods (referenced as Jon's \"wooden god\" by Melisandre)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 359
     },
@@ -1157,10 +1157,10 @@
     },
     {
       "raw_name": "Dornish (referenced in \"the Dornishman's wife\" — a song title used as an expression)",
-      "slug": "dornish",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dornishmen",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dornishmen.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 363
     },
@@ -1427,10 +1427,10 @@
     },
     {
       "raw_name": "Red priestess (Melisandre's role)",
-      "slug": "red-priestess",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-priest",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/red-priest.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 403
     },
@@ -1464,7 +1464,7 @@
     {
       "raw_name": "The children of the forest (referenced — Melisandre compares free folk to them as peoples who vanished)",
       "slug": "children-of-the-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Other",

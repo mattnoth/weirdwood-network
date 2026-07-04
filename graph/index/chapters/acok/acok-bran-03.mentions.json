@@ -2,13 +2,13 @@
   "chapter_id": "acok-bran-03",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.468052+00:00",
+  "generated_at": "2026-07-04T21:33:40.431034+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-03.extraction.md",
   "stats": {
     "total_mentions": 83,
     "resolved_to_node": 59,
-    "direct": 57,
-    "alias": 2,
+    "direct": 54,
+    "alias": 5,
     "unresolved": 24
   },
   "mentions": [
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Neck (description of crannogmen homeland)",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Location Descriptions",

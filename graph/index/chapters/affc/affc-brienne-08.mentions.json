@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-08",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-12T21:45:31.594651+00:00",
+  "generated_at": "2026-07-04T21:33:40.540583+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-08.extraction.md",
   "stats": {
     "total_mentions": 69,
-    "resolved_to_node": 48,
-    "direct": 41,
-    "alias": 7,
-    "unresolved": 21
+    "resolved_to_node": 50,
+    "direct": 40,
+    "alias": 10,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Whispers",
       "slug": "whispers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispers.node.md",
       "section": "Locations",
@@ -500,10 +500,10 @@
     },
     {
       "raw_name": "Crossroads Inn",
-      "slug": "crossroads-inn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "inn-at-the-crossroads",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Locations",
       "line": 93
     },
@@ -599,10 +599,10 @@
     },
     {
       "raw_name": "The Hound's helm",
-      "slug": "the-hounds-helm",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hound-helm",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hound-helm.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 112
     },

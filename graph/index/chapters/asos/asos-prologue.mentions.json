@@ -2,14 +2,14 @@
   "chapter_id": "asos-prologue",
   "book": "asos",
   "pov_character": "asos-prologue",
-  "generated_at": "2026-05-12T21:45:31.567547+00:00",
+  "generated_at": "2026-07-04T21:33:40.515609+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-prologue.extraction.md",
   "stats": {
     "total_mentions": 160,
-    "resolved_to_node": 141,
-    "direct": 126,
-    "alias": 15,
-    "unresolved": 19
+    "resolved_to_node": 143,
+    "direct": 122,
+    "alias": 21,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -599,10 +599,10 @@
     },
     {
       "raw_name": "The Sisters",
-      "slug": "the-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-sisters",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/three-sisters.node.md",
       "section": "Locations",
       "line": 104
     },
@@ -1140,7 +1140,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1202,10 +1202,10 @@
     },
     {
       "raw_name": "The Sisters",
-      "slug": "the-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-sisters",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/three-sisters.node.md",
       "section": "Raw Entity List > Locations",
       "line": 314
     },
@@ -1401,7 +1401,7 @@
     {
       "raw_name": "The Others (signaled by three horn blasts at chapter's end)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
@@ -1428,7 +1428,7 @@
     {
       "raw_name": "The Great Ranging (300 brothers riding north to find missing rangers and discover wildling movements)",
       "slug": "great-ranging",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "event",
       "node_path": "graph/nodes/events/great-ranging.node.md",
       "section": "Raw Entity List > Wars & Conflicts",

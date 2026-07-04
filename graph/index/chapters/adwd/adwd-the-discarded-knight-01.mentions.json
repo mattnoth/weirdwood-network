@@ -2,13 +2,13 @@
   "chapter_id": "adwd-the-discarded-knight-01",
   "book": "adwd",
   "pov_character": "the-discarded-knight",
-  "generated_at": "2026-05-12T21:45:31.659484+00:00",
+  "generated_at": "2026-07-04T21:33:40.597643+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-discarded-knight-01.extraction.md",
   "stats": {
     "total_mentions": 91,
     "resolved_to_node": 55,
-    "direct": 51,
-    "alias": 4,
+    "direct": 45,
+    "alias": 10,
     "unresolved": 36
   },
   "mentions": [
@@ -42,7 +42,7 @@
     {
       "raw_name": "The Spotted Cat",
       "slug": "spotted-cat",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/spotted-cat.node.md",
       "section": "Characters Present",
@@ -150,7 +150,7 @@
     {
       "raw_name": "The herald",
       "slug": "herald",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/herald.node.md",
       "section": "Characters Present",
@@ -195,7 +195,7 @@
     {
       "raw_name": "The Spotted Cat",
       "slug": "spotted-cat",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/spotted-cat.node.md",
       "section": "Character Appearances",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -825,7 +825,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Artifacts & Objects of Significance",

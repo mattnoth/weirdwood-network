@@ -3,19 +3,89 @@
   "name": "Glass candle",
   "type": "concept.magic",
   "node_path": "graph/nodes/concepts/glass-candle.node.md",
-  "generated_at": "2026-07-01T19:57:34.621381+00:00",
+  "generated_at": "2026-07-04T23:34:16.601361+00:00",
   "stats": {
-    "appearances_total": 4,
-    "chapters_referenced_in": 2,
-    "chapters_in_raw_list": 0,
+    "appearances_total": 11,
+    "chapters_referenced_in": 5,
+    "chapters_in_raw_list": 2,
     "out_edge_count": 0,
     "in_edge_count": 21
   },
   "chapters": {
-    "in_raw_list": [],
-    "referenced_in": [
+    "in_raw_list": [
+      {
+        "chapter_id": "affc-prologue",
+        "book": "affc",
+        "pov_character_slug": null,
+        "mention_count": 3,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects",
+          "Raw Entity List > Magic & Phenomena"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
       {
         "chapter_id": "affc-samwell-04",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 3,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects",
+          "Raw Entity List > Magic & Phenomena"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-daenerys-05",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-prologue",
+        "book": "affc",
+        "pov_character_slug": null,
+        "mention_count": 3,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects",
+          "Raw Entity List > Magic & Phenomena"
+        ],
+        "resolved_via": "alias",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-samwell-04",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 3,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects",
+          "Raw Entity List > Magic & Phenomena"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-samwell-05",
         "book": "affc",
         "pov_character_slug": "samwell-tarly",
         "mention_count": 2,
@@ -28,15 +98,14 @@
         "in_raw_list": false
       },
       {
-        "chapter_id": "affc-samwell-05",
-        "book": "affc",
-        "pov_character_slug": "samwell-tarly",
-        "mention_count": 2,
+        "chapter_id": "adwd-daenerys-02",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
         "sections": [
-          "Artifacts & Objects of Significance",
-          "Raw Entity List > Artifacts & Objects"
+          "Artifacts & Objects of Significance"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

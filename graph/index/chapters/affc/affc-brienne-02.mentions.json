@@ -2,13 +2,13 @@
   "chapter_id": "affc-brienne-02",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-12T21:45:31.588937+00:00",
+  "generated_at": "2026-07-04T21:33:40.535716+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-02.extraction.md",
   "stats": {
     "total_mentions": 104,
     "resolved_to_node": 69,
-    "direct": 65,
-    "alias": 4,
+    "direct": 58,
+    "alias": 11,
     "unresolved": 35
   },
   "mentions": [
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Dun Fort",
       "slug": "dun-fort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dun-fort.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Stinking Goose",
       "slug": "stinking-goose",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stinking-goose.node.md",
       "section": "Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -762,7 +762,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -771,7 +771,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -834,7 +834,7 @@
     {
       "raw_name": "The Dun Fort",
       "slug": "dun-fort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dun-fort.node.md",
       "section": "Location Descriptions",

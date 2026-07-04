@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-03",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.501992+00:00",
+  "generated_at": "2026-07-04T21:33:40.466144+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-03.extraction.md",
   "stats": {
     "total_mentions": 78,
-    "resolved_to_node": 57,
-    "direct": 57,
-    "alias": 0,
-    "unresolved": 21
+    "resolved_to_node": 59,
+    "direct": 58,
+    "alias": 1,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -653,19 +653,19 @@
     },
     {
       "raw_name": "The great chain (links)",
-      "slug": "the-great-chain",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-chain-boom",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackwater-chain-boom.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 118
     },
     {
       "raw_name": "Hand's chain of office",
       "slug": "hands-chain-of-office",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/hands-chain-of-office.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 119
     },

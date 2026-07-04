@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-13",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.514476+00:00",
+  "generated_at": "2026-07-04T21:33:40.473011+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-13.extraction.md",
   "stats": {
     "total_mentions": 138,
-    "resolved_to_node": 71,
+    "resolved_to_node": 74,
     "direct": 69,
-    "alias": 2,
-    "unresolved": 67
+    "alias": 5,
+    "unresolved": 64
   },
   "mentions": [
     {
@@ -473,10 +473,10 @@
     },
     {
       "raw_name": "The great chain",
-      "slug": "the-great-chain",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-chain-boom",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackwater-chain-boom.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 98
     },
@@ -977,10 +977,10 @@
     },
     {
       "raw_name": "Sellswords (unnamed company or individuals fighting for the crown)",
-      "slug": "sellswords",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sellsword",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/sellsword.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 296
     },
@@ -1004,10 +1004,10 @@
     },
     {
       "raw_name": "The great chain (across the Blackwater)",
-      "slug": "the-great-chain",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-chain-boom",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackwater-chain-boom.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 306
     },

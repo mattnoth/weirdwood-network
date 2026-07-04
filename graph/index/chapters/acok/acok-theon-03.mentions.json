@@ -2,14 +2,14 @@
   "chapter_id": "acok-theon-03",
   "book": "acok",
   "pov_character": "theon",
-  "generated_at": "2026-05-12T21:45:31.498567+00:00",
+  "generated_at": "2026-07-04T21:33:40.462782+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-theon-03.extraction.md",
   "stats": {
     "total_mentions": 55,
-    "resolved_to_node": 40,
+    "resolved_to_node": 41,
     "direct": 36,
-    "alias": 4,
-    "unresolved": 15
+    "alias": 5,
+    "unresolved": 14
   },
   "mentions": [
     {
@@ -275,10 +275,10 @@
     },
     {
       "raw_name": "Lord Drumm",
-      "slug": "lord-drumm",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dunstan-drumm",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dunstan-drumm.node.md",
       "section": "Characters Referenced",
       "line": 64
     },

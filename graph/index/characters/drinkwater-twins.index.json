@@ -3,7 +3,7 @@
   "name": "Drinkwater twins",
   "type": "character.human",
   "node_path": "graph/nodes/characters/drinkwater-twins.node.md",
-  "generated_at": "2026-07-01T19:57:38.068590+00:00",
+  "generated_at": "2026-07-04T23:34:20.129912+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_pov": 0,
@@ -34,7 +34,7 @@
           "Characters Referenced",
           "Raw Entity List > Characters"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       }
     ]
   }

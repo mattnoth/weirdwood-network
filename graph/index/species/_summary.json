@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-01T19:57:33.885074+00:00",
+  "generated_at": "2026-07-04T23:34:15.893426+00:00",
   "entity_type": "species",
   "dry_run": false,
   "entity_count": 188,
   "type_counts": {
     "species": 188
   },
-  "entities_with_zero_mentions": 149,
-  "mention_inverse_slugs": 39,
+  "entities_with_zero_mentions": 147,
+  "mention_inverse_slugs": 41,
   "top_by_appearances": [
     {
       "slug": "children-of-the-forest",
@@ -34,6 +34,15 @@
       "appearances_total": 14,
       "chapters_referenced_in": 11,
       "in_edge_count": 239,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "dragon",
+      "name": "Dragon",
+      "type": "species",
+      "appearances_total": 10,
+      "chapters_referenced_in": 10,
+      "in_edge_count": 648,
       "out_edge_count": 0
     },
     {
@@ -73,21 +82,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "white-raven",
-      "name": "White raven",
-      "type": "species",
-      "appearances_total": 5,
-      "chapters_referenced_in": 4,
-      "in_edge_count": 14,
-      "out_edge_count": 0
-    },
-    {
       "slug": "shadowcat",
       "name": "Shadowcat",
       "type": "species",
       "appearances_total": 5,
       "chapters_referenced_in": 5,
       "in_edge_count": 24,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "white-raven",
+      "name": "White raven",
+      "type": "species",
+      "appearances_total": 4,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 14,
       "out_edge_count": 0
     },
     {
@@ -145,6 +154,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "manticore",
+      "name": "Manticore",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 27,
+      "out_edge_count": 0
+    },
+    {
       "slug": "swordfish",
       "name": "Swordfish",
       "type": "species",
@@ -170,24 +188,6 @@
       "chapters_referenced_in": 2,
       "in_edge_count": 3,
       "out_edge_count": 0
-    },
-    {
-      "slug": "unicorn",
-      "name": "Unicorn",
-      "type": "species",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 13,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "eagle",
-      "name": "Eagle",
-      "type": "species",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 24,
-      "out_edge_count": 0
     }
   ],
   "top_by_in_edges": [
@@ -195,8 +195,8 @@
       "slug": "dragon",
       "name": "Dragon",
       "type": "species",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
+      "appearances_total": 10,
+      "chapters_referenced_in": 10,
       "in_edge_count": 648,
       "out_edge_count": 0
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-01",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.568392+00:00",
+  "generated_at": "2026-07-04T21:33:40.516357+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-01.extraction.md",
   "stats": {
     "total_mentions": 122,
-    "resolved_to_node": 87,
-    "direct": 79,
-    "alias": 8,
-    "unresolved": 35
+    "resolved_to_node": 89,
+    "direct": 76,
+    "alias": 13,
+    "unresolved": 33
   },
   "mentions": [
     {
@@ -131,10 +131,10 @@
     },
     {
       "raw_name": "The Other",
-      "slug": "the-other",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "great-other",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/great-other.node.md",
       "section": "Characters Present",
       "line": 40
     },
@@ -185,10 +185,10 @@
     },
     {
       "raw_name": "The Other",
-      "slug": "the-other",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "great-other",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/great-other.node.md",
       "section": "Character Appearances",
       "line": 50
     },
@@ -393,7 +393,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -752,10 +752,10 @@
     },
     {
       "raw_name": "The Other (White Walker)",
-      "slug": "the-other",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "great-other",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/great-other.node.md",
       "section": "Raw Entity List > Characters",
       "line": 263
     },
@@ -816,7 +816,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -869,10 +869,10 @@
     },
     {
       "raw_name": "Old Gods (the nameless gods of the trees and wolves and snows; said to rule beyond the Wall)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 284
     },
@@ -1032,7 +1032,7 @@
     {
       "raw_name": "The Others (White Walkers — pale as ice, sword-slim, milky white, armor that ripples and shifts, crystal swords with blue glow, feet don't break snow, move with lightning speed and grace)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

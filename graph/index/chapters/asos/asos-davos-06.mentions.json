@@ -2,14 +2,14 @@
   "chapter_id": "asos-davos-06",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.543202+00:00",
+  "generated_at": "2026-07-04T21:33:40.500408+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-06.extraction.md",
   "stats": {
     "total_mentions": 58,
-    "resolved_to_node": 42,
-    "direct": 41,
-    "alias": 1,
-    "unresolved": 16
+    "resolved_to_node": 43,
+    "direct": 37,
+    "alias": 6,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -212,10 +212,10 @@
     },
     {
       "raw_name": "Bastard of Nightsong (Ser Rolland Storm)",
-      "slug": "bastard-of-nightsong",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "rolland-storm",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rolland-storm.node.md",
       "section": "Character Appearances",
       "line": 53
     },
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Stone Drum",
       "slug": "stone-drum",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stone-drum.node.md",
       "section": "Locations",
@@ -429,7 +429,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Mander (mouth of)",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",
@@ -519,7 +519,7 @@
     {
       "raw_name": "The Painted Table",
       "slug": "painted-table",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/painted-table.node.md",
       "section": "Artifacts & Objects of Significance",

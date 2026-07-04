@@ -2,14 +2,14 @@
   "chapter_id": "adwd-davos-04",
   "book": "adwd",
   "pov_character": "davos",
-  "generated_at": "2026-05-12T21:45:31.643567+00:00",
+  "generated_at": "2026-07-04T21:33:40.582099+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-davos-04.extraction.md",
   "stats": {
     "total_mentions": 257,
-    "resolved_to_node": 182,
-    "direct": 172,
-    "alias": 10,
-    "unresolved": 75
+    "resolved_to_node": 183,
+    "direct": 159,
+    "alias": 24,
+    "unresolved": 74
   },
   "mentions": [
     {
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -672,7 +672,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -735,7 +735,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Bite",
       "slug": "bite",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bite.node.md",
       "section": "Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The godswood (Wolf's Den)",
       "slug": "godswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
@@ -1419,7 +1419,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Raw Entity List > Locations",
@@ -1446,7 +1446,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -1527,7 +1527,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Raw Entity List > Locations",
@@ -1590,7 +1590,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Raw Entity List > Locations",
@@ -1599,7 +1599,7 @@
     {
       "raw_name": "The Bite",
       "slug": "bite",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bite.node.md",
       "section": "Raw Entity List > Locations",
@@ -1617,7 +1617,7 @@
     {
       "raw_name": "The godswood (Wolf's Den)",
       "slug": "godswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
@@ -1626,7 +1626,7 @@
     {
       "raw_name": "The godswood (Winterfell, in Wex's account)",
       "slug": "godswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
@@ -1841,10 +1841,10 @@
     },
     {
       "raw_name": "Old Gods (Ser Bartimus's faith; heart trees; blood sacrifice — entrails hung in branches; \"Your Seven don't know winter\")",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 447
     },
@@ -1868,10 +1868,10 @@
     },
     {
       "raw_name": "Southrons (Ser Bartimus's term for Davos and others from the south)",
-      "slug": "southrons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "southron",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/southron.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 452
     },
@@ -2309,10 +2309,10 @@
     },
     {
       "raw_name": "Mummer's farce (Manderly's term for his deception of the Freys)",
-      "slug": "mummers-farce",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "grand-northern-conspiracy",
+      "resolved_via": "alias",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/grand-northern-conspiracy.node.md",
       "section": "Raw Entity List > Other",
       "line": 513
     },

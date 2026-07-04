@@ -2,14 +2,14 @@
   "chapter_id": "agot-sansa-03",
   "book": "agot",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.445764+00:00",
+  "generated_at": "2026-07-04T21:33:40.414919+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-sansa-03.extraction.md",
   "stats": {
     "total_mentions": 59,
-    "resolved_to_node": 48,
+    "resolved_to_node": 49,
     "direct": 47,
-    "alias": 1,
-    "unresolved": 11
+    "alias": 2,
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -356,10 +356,10 @@
     },
     {
       "raw_name": "Ser Florian",
-      "slug": "ser-florian",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dontos-hollard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
       "section": "Characters Referenced",
       "line": 73
     },

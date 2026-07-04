@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-07",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.428599+00:00",
+  "generated_at": "2026-07-04T21:33:40.400792+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-07.extraction.md",
   "stats": {
     "total_mentions": 46,
-    "resolved_to_node": 30,
-    "direct": 30,
-    "alias": 0,
-    "unresolved": 16
+    "resolved_to_node": 31,
+    "direct": 29,
+    "alias": 2,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Citadel (Oldtown)",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -410,10 +410,10 @@
     },
     {
       "raw_name": "Arakhs",
-      "slug": "arakhs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "arakh",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/arakh.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 91
     },

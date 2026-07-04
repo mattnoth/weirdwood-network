@@ -2,22 +2,22 @@
   "chapter_id": "affc-alayne-01",
   "book": "affc",
   "pov_character": "alayne",
-  "generated_at": "2026-05-12T21:45:31.583788+00:00",
+  "generated_at": "2026-07-04T21:33:40.531177+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-alayne-01.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 88,
-    "direct": 85,
-    "alias": 3,
-    "unresolved": 18
+    "resolved_to_node": 86,
+    "direct": 78,
+    "alias": 8,
+    "unresolved": 20
   },
   "mentions": [
     {
       "raw_name": "Alayne (Sansa Stark)",
       "slug": "alayne",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/alayne.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Present",
       "line": 27
     },
@@ -159,9 +159,9 @@
     {
       "raw_name": "Alayne (Sansa Stark)",
       "slug": "alayne",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/alayne.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Character Appearances",
       "line": 47
     },
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -807,7 +807,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -843,7 +843,7 @@
     {
       "raw_name": "The Eyrie",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Location Descriptions",

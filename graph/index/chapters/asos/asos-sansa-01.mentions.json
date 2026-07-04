@@ -2,13 +2,13 @@
   "chapter_id": "asos-sansa-01",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-12T21:45:31.571886+00:00",
+  "generated_at": "2026-07-04T21:33:40.519424+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-01.extraction.md",
   "stats": {
     "total_mentions": 102,
     "resolved_to_node": 76,
-    "direct": 73,
-    "alias": 3,
+    "direct": 72,
+    "alias": 4,
     "unresolved": 26
   },
   "mentions": [
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Mander",
       "slug": "mander",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/mander.node.md",
       "section": "Locations",

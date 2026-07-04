@@ -2,13 +2,13 @@
   "chapter_id": "adwd-reek-03",
   "book": "adwd",
   "pov_character": "reek",
-  "generated_at": "2026-05-12T21:45:31.657571+00:00",
+  "generated_at": "2026-07-04T21:33:40.595915+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-reek-03.extraction.md",
   "stats": {
     "total_mentions": 93,
     "resolved_to_node": 61,
-    "direct": 52,
-    "alias": 9,
+    "direct": 45,
+    "alias": 16,
     "unresolved": 32
   },
   "mentions": [
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Great Barrow",
       "slug": "great-barrow",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/great-barrow.node.md",
       "section": "Locations",
@@ -627,7 +627,7 @@
     {
       "raw_name": "The Dreadfort",
       "slug": "dreadfort",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/dreadfort.node.md",
       "section": "Locations",
@@ -654,7 +654,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -663,7 +663,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -681,7 +681,7 @@
     {
       "raw_name": "The Weeping Water",
       "slug": "weeping-water",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/weeping-water.node.md",
       "section": "Locations",
@@ -708,7 +708,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -744,7 +744,7 @@
     {
       "raw_name": "The Great Barrow",
       "slug": "great-barrow",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/great-barrow.node.md",
       "section": "Location Descriptions",

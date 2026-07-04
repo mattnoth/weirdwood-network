@@ -3,7 +3,7 @@
   "name": "Widower",
   "type": "character.human",
   "node_path": "graph/nodes/characters/widower.node.md",
-  "generated_at": "2026-07-01T19:57:37.960313+00:00",
+  "generated_at": "2026-07-04T23:34:20.024379+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_pov": 0,
@@ -22,7 +22,7 @@
         "sections": [
           "Characters Present"
         ],
-        "resolved_via": "direct"
+        "resolved_via": "alias"
       }
     ]
   }

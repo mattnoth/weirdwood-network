@@ -2,14 +2,14 @@
   "chapter_id": "agot-catelyn-03",
   "book": "agot",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-12T21:45:31.418012+00:00",
+  "generated_at": "2026-07-04T21:33:40.391732+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-catelyn-03.extraction.md",
   "stats": {
     "total_mentions": 103,
-    "resolved_to_node": 72,
-    "direct": 71,
-    "alias": 1,
-    "unresolved": 31
+    "resolved_to_node": 73,
+    "direct": 69,
+    "alias": 4,
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -690,7 +690,7 @@
     {
       "raw_name": "The kingsroad (mentioned)",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",
@@ -717,7 +717,7 @@
     {
       "raw_name": "The Eyrie (implied — Lysa's location)",
       "slug": "eyrie",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/eyrie.node.md",
       "section": "Raw Entity List > Locations",
@@ -779,10 +779,10 @@
     },
     {
       "raw_name": "The Seven (the seven faces of god — Catelyn prays to them)",
-      "slug": "the-seven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "faith-of-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 276
     },
@@ -862,8 +862,8 @@
       "raw_name": "Milk of the poppy",
       "slug": "milk-of-the-poppy",
       "resolved_via": "direct",
-      "node_type": "object.food",
-      "node_path": "graph/nodes/foods/milk-of-the-poppy.node.md",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/milk-of-the-poppy.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 289
     },

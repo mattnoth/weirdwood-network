@@ -2,14 +2,14 @@
   "chapter_id": "asos-daenerys-06",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.539694+00:00",
+  "generated_at": "2026-07-04T21:33:40.497134+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-06.extraction.md",
   "stats": {
     "total_mentions": 84,
-    "resolved_to_node": 57,
+    "resolved_to_node": 59,
     "direct": 51,
-    "alias": 6,
-    "unresolved": 27
+    "alias": 8,
+    "unresolved": 25
   },
   "mentions": [
     {
@@ -221,10 +221,10 @@
     },
     {
       "raw_name": "Bloodriders (general)",
-      "slug": "bloodriders",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bloodrider",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/bloodrider.node.md",
       "section": "Character Appearances",
       "line": 54
     },
@@ -689,10 +689,10 @@
     },
     {
       "raw_name": "Bronze harpy (apex statue)",
-      "slug": "bronze-harpy",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bronze-harpy-of-meereen",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/bronze-harpy-of-meereen.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 122
     },

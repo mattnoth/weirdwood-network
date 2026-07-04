@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-02",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-12T21:45:31.597228+00:00",
+  "generated_at": "2026-07-04T21:33:40.542574+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-02.extraction.md",
   "stats": {
     "total_mentions": 116,
-    "resolved_to_node": 84,
-    "direct": 81,
-    "alias": 3,
-    "unresolved": 32
+    "resolved_to_node": 85,
+    "direct": 79,
+    "alias": 6,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -698,17 +698,17 @@
     },
     {
       "raw_name": "Knight of Flowers (Loras Tyrell)",
-      "slug": "knight-of-flowers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "loras-tyrell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/loras-tyrell.node.md",
       "section": "Characters Referenced",
       "line": 111
     },
     {
       "raw_name": "The chief undergaoler",
       "slug": "chief-undergaoler",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/chief-undergaoler.node.md",
       "section": "Characters Referenced",
@@ -888,7 +888,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",

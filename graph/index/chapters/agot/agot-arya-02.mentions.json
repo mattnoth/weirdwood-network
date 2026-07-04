@@ -2,13 +2,13 @@
   "chapter_id": "agot-arya-02",
   "book": "agot",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.407887+00:00",
+  "generated_at": "2026-07-04T21:33:40.383783+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-arya-02.extraction.md",
   "stats": {
     "total_mentions": 52,
     "resolved_to_node": 44,
-    "direct": 42,
-    "alias": 2,
+    "direct": 39,
+    "alias": 5,
     "unresolved": 8
   },
   "mentions": [
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Sealord of Braavos",
       "slug": "sealord-of-braavos",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/sealord-of-braavos.node.md",
       "section": "Characters Referenced",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",

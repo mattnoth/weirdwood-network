@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-02",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.569037+00:00",
+  "generated_at": "2026-07-04T21:33:40.516907+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-02.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 61,
-    "direct": 54,
-    "alias": 7,
-    "unresolved": 13
+    "resolved_to_node": 63,
+    "direct": 51,
+    "alias": 12,
+    "unresolved": 11
   },
   "mentions": [
     {
@@ -41,10 +41,10 @@
     },
     {
       "raw_name": "Giant (Bedwyck)",
-      "slug": "giant",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bedwyck",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bedwyck.node.md",
       "section": "Characters Present",
       "line": 30
     },
@@ -266,10 +266,10 @@
     },
     {
       "raw_name": "Giant (Bedwyck)",
-      "slug": "giant",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bedwyck",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bedwyck.node.md",
       "section": "Character Appearances",
       "line": 59
     },
@@ -411,7 +411,7 @@
     {
       "raw_name": "The Smiling Knight",
       "slug": "smiling-knight",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/smiling-knight.node.md",
       "section": "Characters Referenced",
@@ -573,7 +573,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -591,7 +591,7 @@
     {
       "raw_name": "The Kingswood",
       "slug": "kingswood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingswood.node.md",
       "section": "Locations",

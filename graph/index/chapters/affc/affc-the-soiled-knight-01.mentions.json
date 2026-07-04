@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-soiled-knight-01",
   "book": "affc",
   "pov_character": "the-soiled-knight",
-  "generated_at": "2026-05-12T21:45:31.628345+00:00",
+  "generated_at": "2026-07-04T21:33:40.567787+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-soiled-knight-01.extraction.md",
   "stats": {
     "total_mentions": 110,
-    "resolved_to_node": 80,
-    "direct": 70,
-    "alias": 10,
-    "unresolved": 30
+    "resolved_to_node": 78,
+    "direct": 64,
+    "alias": 14,
+    "unresolved": 32
   },
   "mentions": [
     {
@@ -176,10 +176,10 @@
     },
     {
       "raw_name": "Lord Edgerran the Open-Handed",
-      "slug": "edgerran-oakheart",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/edgerran-oakheart.node.md",
+      "slug": "lord-edgerran-the-open-handed",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 53
     },
@@ -626,10 +626,10 @@
     },
     {
       "raw_name": "Joffrey's \"dog\"",
-      "slug": "sandor-clegane",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "slug": "joffreys-dog",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Referenced",
       "line": 103
     },
@@ -699,7 +699,7 @@
     {
       "raw_name": "The Reach",
       "slug": "reach",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/reach.node.md",
       "section": "Locations",
@@ -753,7 +753,7 @@
     {
       "raw_name": "The Greenblood",
       "slug": "greenblood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/greenblood.node.md",
       "section": "Locations",
@@ -789,7 +789,7 @@
     {
       "raw_name": "The Boneway",
       "slug": "boneway",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/boneway.node.md",
       "section": "Locations",
@@ -852,7 +852,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -861,7 +861,7 @@
     {
       "raw_name": "The Iron Throne",
       "slug": "iron-throne",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.artifact",
       "node_path": "graph/nodes/artifacts/iron-throne.node.md",
       "section": "Locations",
@@ -987,7 +987,7 @@
     {
       "raw_name": "The White Book (Book of the Brothers)",
       "slug": "white-book",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "object.text",
       "node_path": "graph/nodes/texts/white-book.node.md",
       "section": "Artifacts & Objects of Significance",

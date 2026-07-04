@@ -2,13 +2,13 @@
   "chapter_id": "asos-samwell-03",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.570037+00:00",
+  "generated_at": "2026-07-04T21:33:40.517557+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-03.extraction.md",
   "stats": {
     "total_mentions": 120,
     "resolved_to_node": 77,
-    "direct": 66,
-    "alias": 11,
+    "direct": 58,
+    "alias": 19,
     "unresolved": 43
   },
   "mentions": [
@@ -60,7 +60,7 @@
     {
       "raw_name": "The raven (speaking)",
       "slug": "raven",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/raven.node.md",
       "section": "Characters Present",
@@ -357,7 +357,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Locations",
@@ -798,7 +798,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -825,7 +825,7 @@
     {
       "raw_name": "The Frostfangs",
       "slug": "frostfangs",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/frostfangs.node.md",
       "section": "Raw Entity List > Locations",
@@ -878,17 +878,17 @@
     },
     {
       "raw_name": "The Old Gods (Sam prays to them before the weirwood)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 283
     },
     {
       "raw_name": "The Faith of the Seven (Sam's father's gods; \"The Song of the Seven\" names: the Father, the Mother, the Warrior, the Crone, the Smith, the Maiden, the Stranger)",
       "slug": "faith-of-the-seven",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -905,10 +905,10 @@
     },
     {
       "raw_name": "Southrons (Gilly's term for people south of the Wall who worship seven gods)",
-      "slug": "southrons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "southron",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/southron.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 288
     },
@@ -969,7 +969,7 @@
     {
       "raw_name": "The great elk (ten feet tall at the shoulder, antlers near as wide)",
       "slug": "great-elk",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/great-elk.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
@@ -996,7 +996,7 @@
     {
       "raw_name": "The Others (referenced — Sam killed one with dragonglass previously)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

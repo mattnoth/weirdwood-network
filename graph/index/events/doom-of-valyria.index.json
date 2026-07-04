@@ -3,7 +3,7 @@
   "name": "Doom of Valyria",
   "type": "event.battle",
   "node_path": "graph/nodes/events/doom-of-valyria.node.md",
-  "generated_at": "2026-07-01T19:57:33.130424+00:00",
+  "generated_at": "2026-07-04T23:34:15.161537+00:00",
   "stats": {
     "appearances_total": 7,
     "chapters_referenced_in": 7,
@@ -21,7 +21,7 @@
         "sections": [
           "Raw Entity List > Wars & Conflicts"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       }
@@ -35,7 +35,7 @@
         "sections": [
           "Raw Entity List > Other"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -47,7 +47,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -59,7 +59,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -71,7 +71,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -83,7 +83,7 @@
         "sections": [
           "Raw Entity List > Wars & Conflicts"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -95,7 +95,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       },
@@ -107,7 +107,7 @@
         "sections": [
           "Raw Entity List > Magic & Phenomena"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": false
       }

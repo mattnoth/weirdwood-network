@@ -2,14 +2,14 @@
   "chapter_id": "asos-bran-02",
   "book": "asos",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T21:45:31.529436+00:00",
+  "generated_at": "2026-07-04T21:33:40.486556+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-bran-02.extraction.md",
   "stats": {
     "total_mentions": 195,
-    "resolved_to_node": 111,
-    "direct": 84,
-    "alias": 27,
-    "unresolved": 84
+    "resolved_to_node": 117,
+    "direct": 68,
+    "alias": 49,
+    "unresolved": 78
   },
   "mentions": [
     {
@@ -176,10 +176,10 @@
     },
     {
       "raw_name": "Lord Wull",
-      "slug": "lord-wull",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "the-wull",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/the-wull.node.md",
       "section": "Characters Referenced",
       "line": 53
     },
@@ -285,7 +285,7 @@
     {
       "raw_name": "The king (in Meera's story)",
       "slug": "king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king.node.md",
       "section": "Characters Referenced",
@@ -302,10 +302,10 @@
     },
     {
       "raw_name": "The rose lord (in Meera's story)",
-      "slug": "the-rose-lord",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "leo-tyrell-longthorn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leo-tyrell-longthorn.node.md",
       "section": "Characters Referenced",
       "line": 67
     },
@@ -356,10 +356,10 @@
     },
     {
       "raw_name": "A maid with laughing purple eyes (in Meera's story)",
-      "slug": "a-maid-with-laughing-purple-eyes",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ashara-dayne",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ashara-dayne.node.md",
       "section": "Characters Referenced",
       "line": 73
     },
@@ -392,10 +392,10 @@
     },
     {
       "raw_name": "A black brother (in Meera's story)",
-      "slug": "a-black-brother",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "shaggydog",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shaggydog.node.md",
       "section": "Characters Referenced",
       "line": 77
     },
@@ -438,7 +438,7 @@
     {
       "raw_name": "The green men (in Meera's story and Bran's thoughts)",
       "slug": "green-men",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/green-men.node.md",
       "section": "Characters Referenced",
@@ -483,7 +483,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -537,7 +537,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Locations",
@@ -564,7 +564,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Locations",
@@ -582,7 +582,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Locations",
@@ -645,7 +645,7 @@
     {
       "raw_name": "The Neck (in Meera's story/discussion)",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Location Descriptions",
@@ -851,10 +851,10 @@
     },
     {
       "raw_name": "Lord Wull (referenced)",
-      "slug": "lord-wull",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "the-wull",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/the-wull.node.md",
       "section": "Raw Entity List > Characters",
       "line": 308
     },
@@ -978,7 +978,7 @@
     {
       "raw_name": "The king (in Meera's story)",
       "slug": "king",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/king.node.md",
       "section": "Raw Entity List > Characters",
@@ -995,10 +995,10 @@
     },
     {
       "raw_name": "The rose lord (in Meera's story)",
-      "slug": "the-rose-lord",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "leo-tyrell-longthorn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leo-tyrell-longthorn.node.md",
       "section": "Raw Entity List > Characters",
       "line": 324
     },
@@ -1049,10 +1049,10 @@
     },
     {
       "raw_name": "A maid with laughing purple eyes (in Meera's story)",
-      "slug": "a-maid-with-laughing-purple-eyes",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ashara-dayne",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ashara-dayne.node.md",
       "section": "Raw Entity List > Characters",
       "line": 330
     },
@@ -1167,7 +1167,7 @@
     {
       "raw_name": "The kingsroad",
       "slug": "kingsroad",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/kingsroad.node.md",
       "section": "Raw Entity List > Locations",
@@ -1176,7 +1176,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1221,7 +1221,7 @@
     {
       "raw_name": "The Neck",
       "slug": "neck",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/neck.node.md",
       "section": "Raw Entity List > Locations",
@@ -1248,7 +1248,7 @@
     {
       "raw_name": "The Twins",
       "slug": "twins",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/twins.node.md",
       "section": "Raw Entity List > Locations",
@@ -1266,7 +1266,7 @@
     {
       "raw_name": "The Trident",
       "slug": "trident",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/trident.node.md",
       "section": "Raw Entity List > Locations",
@@ -1454,17 +1454,17 @@
     },
     {
       "raw_name": "The old gods (the crannogman prays to them on the lakeshore; the mystery knight's shield bears a heart tree; \"the old gods of north and Neck\")",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 383
     },
     {
       "raw_name": "The green men (guardians of the Isle of Faces; dark green skin, leaves for hair, sometimes antlers per Old Nan's stories)",
       "slug": "green-men",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/green-men.node.md",
       "section": "Raw Entity List > Religions & Faiths",
@@ -1707,7 +1707,7 @@
     {
       "raw_name": "The tourney at Harrenhal (in Meera's story — in \"the year of the false spring\"; a great tourney with jousting, mêlée, archery, axe-throwing, horse race, tourney of singers)",
       "slug": "tourney-at-harrenhal",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "event",
       "node_path": "graph/nodes/events/tourney-at-harrenhal.node.md",
       "section": "Raw Entity List > Wars & Conflicts",

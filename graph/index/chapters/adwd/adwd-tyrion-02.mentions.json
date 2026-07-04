@@ -2,13 +2,13 @@
   "chapter_id": "adwd-tyrion-02",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.676041+00:00",
+  "generated_at": "2026-07-04T21:33:40.616864+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-02.extraction.md",
   "stats": {
     "total_mentions": 198,
     "resolved_to_node": 157,
-    "direct": 139,
-    "alias": 18,
+    "direct": 135,
+    "alias": 22,
     "unresolved": 41
   },
   "mentions": [
@@ -321,7 +321,7 @@
     {
       "raw_name": "The Flatlands (Andalos)",
       "slug": "flatlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/flatlands.node.md",
       "section": "Locations",
@@ -600,7 +600,7 @@
     {
       "raw_name": "The Flatlands (Andalos)",
       "slug": "flatlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/flatlands.node.md",
       "section": "Location Descriptions",
@@ -1023,7 +1023,7 @@
     {
       "raw_name": "The Flatlands (southern Andalos)",
       "slug": "flatlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/flatlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1445,10 +1445,10 @@
     },
     {
       "raw_name": "Old Gods (implied via standing stones raised by giants)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 373
     },
@@ -1634,10 +1634,10 @@
     },
     {
       "raw_name": "Dragons (three living dragons hatched by Daenerys; historical dragons of Valyria that destroyed Ghoyan Drohe)",
-      "slug": "dragons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dragon",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/dragon.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 402
     },
@@ -1662,7 +1662,7 @@
     {
       "raw_name": "The Doom of Valyria (referenced — Valyrian roads endure four centuries after)",
       "slug": "doom-of-valyria",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "event",
       "node_path": "graph/nodes/events/doom-of-valyria.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

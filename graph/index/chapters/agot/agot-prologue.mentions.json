@@ -2,14 +2,14 @@
   "chapter_id": "agot-prologue",
   "book": "agot",
   "pov_character": "agot-prologue",
-  "generated_at": "2026-05-12T21:45:31.443865+00:00",
+  "generated_at": "2026-07-04T21:33:40.413446+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-prologue.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 31,
-    "direct": 28,
-    "alias": 3,
-    "unresolved": 43
+    "resolved_to_node": 33,
+    "direct": 20,
+    "alias": 13,
+    "unresolved": 41
   },
   "mentions": [
     {
@@ -42,7 +42,7 @@
     {
       "raw_name": "The Others (multiple)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Characters Present",
@@ -86,10 +86,10 @@
     },
     {
       "raw_name": "The Other (primary)",
-      "slug": "the-other",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "great-other",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/great-other.node.md",
       "section": "Character Appearances",
       "line": 39
     },
@@ -177,7 +177,7 @@
     {
       "raw_name": "The haunted forest (beyond the Wall)",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
@@ -204,7 +204,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -231,7 +231,7 @@
     {
       "raw_name": "The haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
@@ -402,7 +402,7 @@
     {
       "raw_name": "The Others (multiple — at least five; pale beings with crystal swords)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Characters",
@@ -420,7 +420,7 @@
     {
       "raw_name": "The haunted forest (beyond the Wall)",
       "slug": "haunted-forest",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "Southrons (referenced — what southerners call the haunted forest)",
-      "slug": "southrons",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "southron",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/southron.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 228
     },
@@ -609,7 +609,7 @@
     {
       "raw_name": "The Others (supernatural beings with crystal swords, color-shifting armor, ice-cold presence, unknown language)",
       "slug": "others",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "species",
       "node_path": "graph/nodes/species/others.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

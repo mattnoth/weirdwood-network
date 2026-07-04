@@ -3,7 +3,7 @@
   "name": "Kingsguard",
   "type": "organization.faction",
   "node_path": "graph/nodes/factions/kingsguard.node.md",
-  "generated_at": "2026-07-01T19:57:32.328671+00:00",
+  "generated_at": "2026-07-04T23:34:14.341637+00:00",
   "stats": {
     "appearances_total": 36,
     "chapters_referenced_in": 26,
@@ -59,7 +59,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -71,7 +71,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -207,7 +207,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -280,7 +280,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -293,7 +293,7 @@
           "Raw Entity List > Factions & Organizations",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -383,7 +383,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -395,7 +395,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -531,7 +531,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -604,7 +604,7 @@
         "sections": [
           "Raw Entity List > Factions & Organizations"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },
@@ -617,7 +617,7 @@
           "Raw Entity List > Factions & Organizations",
           "Raw Entity List > Titles & Offices"
         ],
-        "resolved_via": "direct",
+        "resolved_via": "alias",
         "in_primary_section": false,
         "in_raw_list": true
       },

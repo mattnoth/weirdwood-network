@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-04",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T21:45:31.616783+00:00",
+  "generated_at": "2026-07-04T21:33:40.557939+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-04.extraction.md",
   "stats": {
     "total_mentions": 160,
-    "resolved_to_node": 98,
-    "direct": 85,
-    "alias": 13,
-    "unresolved": 62
+    "resolved_to_node": 99,
+    "direct": 75,
+    "alias": 24,
+    "unresolved": 61
   },
   "mentions": [
     {
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Locations",
@@ -366,7 +366,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Locations",
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Locations",
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Torentine",
       "slug": "torentine",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/torentine.node.md",
       "section": "Locations",
@@ -465,7 +465,7 @@
     {
       "raw_name": "The Bleeding Tower (Tyrosh)",
       "slug": "bleeding-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bleeding-tower.node.md",
       "section": "Locations",
@@ -851,10 +851,10 @@
     },
     {
       "raw_name": "The Crone (invoked by Sam metaphorically)",
-      "slug": "the-crone",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crone-the-seven",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/crone-the-seven.node.md",
       "section": "Raw Entity List > Characters",
       "line": 281
     },
@@ -906,7 +906,7 @@
     {
       "raw_name": "The Bleeding Tower (Tyrosh)",
       "slug": "bleeding-tower",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/bleeding-tower.node.md",
       "section": "Raw Entity List > Locations",
@@ -915,7 +915,7 @@
     {
       "raw_name": "The Stepstones",
       "slug": "stepstones",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/stepstones.node.md",
       "section": "Raw Entity List > Locations",
@@ -933,7 +933,7 @@
     {
       "raw_name": "The Citadel",
       "slug": "citadel",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/citadel.node.md",
       "section": "Raw Entity List > Locations",
@@ -951,7 +951,7 @@
     {
       "raw_name": "The Wall",
       "slug": "wall",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/wall.node.md",
       "section": "Raw Entity List > Locations",
@@ -1014,7 +1014,7 @@
     {
       "raw_name": "The Torentine (river)",
       "slug": "torentine",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/torentine.node.md",
       "section": "Raw Entity List > Locations",
@@ -1085,10 +1085,10 @@
     },
     {
       "raw_name": "Old Gods (heart tree referenced in context of Sam's vows)",
-      "slug": "old-gods-of-the-forest",
-      "resolved_via": "alias",
-      "node_type": "organization.religion",
-      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Religions & Faiths",
       "line": 315
     },
@@ -1301,10 +1301,10 @@
     },
     {
       "raw_name": "Glass candles (mentioned as unable to be lit)",
-      "slug": "glass-candles",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "glass-candle",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/glass-candle.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 347
     },

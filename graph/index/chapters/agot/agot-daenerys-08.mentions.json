@@ -2,13 +2,13 @@
   "chapter_id": "agot-daenerys-08",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.429198+00:00",
+  "generated_at": "2026-07-04T21:33:40.401187+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-08.extraction.md",
   "stats": {
     "total_mentions": 47,
     "resolved_to_node": 36,
-    "direct": 35,
-    "alias": 1,
+    "direct": 32,
+    "alias": 4,
     "unresolved": 11
   },
   "mentions": [
@@ -285,7 +285,7 @@
     {
       "raw_name": "The dosh khaleen (crones)",
       "slug": "dosh-khaleen",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.faction",
       "node_path": "graph/nodes/factions/dosh-khaleen.node.md",
       "section": "Characters Referenced",
@@ -339,7 +339,7 @@
     {
       "raw_name": "The night lands",
       "slug": "night-lands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "concept",
       "node_path": "graph/nodes/concepts/night-lands.node.md",
       "section": "Locations",
@@ -348,7 +348,7 @@
     {
       "raw_name": "The Shadow Lands",
       "slug": "shadow-lands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/shadow-lands.node.md",
       "section": "Locations",

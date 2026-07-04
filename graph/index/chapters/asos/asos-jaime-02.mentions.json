@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-02",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-12T21:45:31.551226+00:00",
+  "generated_at": "2026-07-04T21:33:40.502233+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-02.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 57,
-    "direct": 50,
-    "alias": 7,
-    "unresolved": 17
+    "resolved_to_node": 56,
+    "direct": 44,
+    "alias": 12,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -50,10 +50,10 @@
     },
     {
       "raw_name": "The boy",
-      "slug": "boy",
-      "resolved_via": "direct",
+      "slug": "bastards-bastard",
+      "resolved_via": "alias",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/boy.node.md",
+      "node_path": "graph/nodes/characters/bastards-bastard.node.md",
       "section": "Characters Present",
       "line": 31
     },
@@ -86,19 +86,19 @@
     },
     {
       "raw_name": "The boy",
-      "slug": "boy",
-      "resolved_via": "direct",
+      "slug": "bastards-bastard",
+      "resolved_via": "alias",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/boy.node.md",
+      "node_path": "graph/nodes/characters/bastards-bastard.node.md",
       "section": "Character Appearances",
       "line": 39
     },
     {
       "raw_name": "Aerys Targaryen (memory)",
       "slug": "aerys-targaryen",
-      "resolved_via": "direct",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Character Appearances",
       "line": 40
     },
@@ -384,7 +384,7 @@
     {
       "raw_name": "The Red Fork",
       "slug": "red-fork",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/red-fork.node.md",
       "section": "Locations",
@@ -438,7 +438,7 @@
     {
       "raw_name": "The ruby ford",
       "slug": "ruby-ford",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/ruby-ford.node.md",
       "section": "Locations",
@@ -546,7 +546,7 @@
     {
       "raw_name": "The Whispering Wood",
       "slug": "whispering-wood",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/whispering-wood.node.md",
       "section": "Locations",

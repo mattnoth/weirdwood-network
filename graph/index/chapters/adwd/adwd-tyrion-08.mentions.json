@@ -2,13 +2,13 @@
   "chapter_id": "adwd-tyrion-08",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-12T21:45:31.681883+00:00",
+  "generated_at": "2026-07-04T21:33:40.622922+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-08.extraction.md",
   "stats": {
     "total_mentions": 161,
     "resolved_to_node": 96,
-    "direct": 92,
-    "alias": 4,
+    "direct": 87,
+    "alias": 9,
     "unresolved": 65
   },
   "mentions": [
@@ -483,7 +483,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Locations",
@@ -492,7 +492,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Locations",
@@ -1050,7 +1050,7 @@
     {
       "raw_name": "The Fingers",
       "slug": "fingers",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/fingers.node.md",
       "section": "Raw Entity List > Locations",
@@ -1059,7 +1059,7 @@
     {
       "raw_name": "The riverlands",
       "slug": "riverlands",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/riverlands.node.md",
       "section": "Raw Entity List > Locations",
@@ -1329,7 +1329,7 @@
     {
       "raw_name": "The Doom of Valyria (described in detail: hills split, ash and smoke and fire, dragons consumed, earth swallowed cities, lakes boiled or turned to acid, mountains burst, molten rock, dragonglass and \"black blood of demons\" rained down, ground collapsed, sea rushed in)",
       "slug": "doom-of-valyria",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "event",
       "node_path": "graph/nodes/events/doom-of-valyria.node.md",
       "section": "Raw Entity List > Magic & Phenomena",

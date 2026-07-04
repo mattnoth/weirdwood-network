@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-sacrifice-01",
   "book": "adwd",
   "pov_character": "the-sacrifice",
-  "generated_at": "2026-05-12T21:45:31.668492+00:00",
+  "generated_at": "2026-07-04T21:33:40.606664+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-sacrifice-01.extraction.md",
   "stats": {
     "total_mentions": 204,
-    "resolved_to_node": 141,
-    "direct": 133,
-    "alias": 8,
-    "unresolved": 63
+    "resolved_to_node": 142,
+    "direct": 131,
+    "alias": 11,
+    "unresolved": 62
   },
   "mentions": [
     {
@@ -447,7 +447,7 @@
     {
       "raw_name": "The Maid",
       "slug": "maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/maid.node.md",
       "section": "Characters Referenced",
@@ -1050,7 +1050,7 @@
     {
       "raw_name": "The Maid (ironborn companion)",
       "slug": "maid",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "organization.religion",
       "node_path": "graph/nodes/religions/maid.node.md",
       "section": "Raw Entity List > Characters",
@@ -1832,10 +1832,10 @@
     },
     {
       "raw_name": "Giantslayer (Ser Godry Farring's epithet/title)",
-      "slug": "giantslayer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godry-farring",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/godry-farring.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 427
     },

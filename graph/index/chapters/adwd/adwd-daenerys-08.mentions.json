@@ -2,13 +2,13 @@
   "chapter_id": "adwd-daenerys-08",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-12T21:45:31.638573+00:00",
+  "generated_at": "2026-07-04T21:33:40.577636+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-08.extraction.md",
   "stats": {
     "total_mentions": 79,
     "resolved_to_node": 66,
-    "direct": 57,
-    "alias": 9,
+    "direct": 54,
+    "alias": 12,
     "unresolved": 13
   },
   "mentions": [
@@ -294,7 +294,7 @@
     {
       "raw_name": "The Green Grace (Galazza Galare)",
       "slug": "green-grace",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/green-grace.node.md",
       "section": "Characters Referenced",
@@ -375,7 +375,7 @@
     {
       "raw_name": "The Spotted Cat",
       "slug": "spotted-cat",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/spotted-cat.node.md",
       "section": "Characters Referenced",
@@ -618,7 +618,7 @@
     {
       "raw_name": "The Arbor",
       "slug": "arbor",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "place.location",
       "node_path": "graph/nodes/locations/arbor.node.md",
       "section": "Locations",

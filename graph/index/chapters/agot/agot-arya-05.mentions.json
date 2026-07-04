@@ -2,13 +2,13 @@
   "chapter_id": "agot-arya-05",
   "book": "agot",
   "pov_character": "arya",
-  "generated_at": "2026-05-12T21:45:31.410540+00:00",
+  "generated_at": "2026-07-04T21:33:40.385399+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-arya-05.extraction.md",
   "stats": {
     "total_mentions": 66,
     "resolved_to_node": 57,
-    "direct": 56,
-    "alias": 1,
+    "direct": 55,
+    "alias": 2,
     "unresolved": 9
   },
   "mentions": [
@@ -96,7 +96,7 @@
     {
       "raw_name": "The High Septon",
       "slug": "high-septon",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "title",
       "node_path": "graph/nodes/titles/high-septon.node.md",
       "section": "Characters Present",

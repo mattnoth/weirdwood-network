@@ -3,11 +3,11 @@
   "name": "Sandor Clegane",
   "type": "character.human",
   "node_path": "graph/nodes/characters/sandor-clegane.node.md",
-  "generated_at": "2026-07-01T19:57:37.847839+00:00",
+  "generated_at": "2026-07-04T23:34:19.913992+00:00",
   "stats": {
-    "appearances_total": 135,
+    "appearances_total": 134,
     "chapters_pov": 0,
-    "chapters_mentioned_in": 88,
+    "chapters_mentioned_in": 87,
     "out_edge_count": 6,
     "in_edge_count": 290
   },
@@ -888,16 +888,6 @@
         "sections": [
           "Characters Referenced",
           "Raw Entity List > Characters"
-        ],
-        "resolved_via": "alias"
-      },
-      {
-        "chapter_id": "affc-the-soiled-knight-01",
-        "book": "affc",
-        "pov_character_slug": "arys-oakheart",
-        "mention_count": 1,
-        "sections": [
-          "Characters Referenced"
         ],
         "resolved_via": "alias"
       },
