@@ -288,6 +288,14 @@ export function harvestResult(
   if (Array.isArray(r.quotes)) {
     for (const q of r.quotes as Array<Record<string, unknown>>) {
       if (typeof q.cite === "string" && q.cite) validCites.add(q.cite);
+      // Backstop: a few curated quotes carry cite:null with the real chapter:line
+      // buried in the quote TEXT (a book-cite-overlay byproduct the build parser
+      // mostly recovers but can't for malformed-source cases). Trust any cite the
+      // tool actually returned, wherever it sits — else the model's correct lift
+      // of that token would be false-flagged as unverified.
+      if (typeof q.text === "string") {
+        for (const m of q.text.matchAll(CITE_RE)) validCites.add(m[0]);
+      }
       grounding++;
     }
   }

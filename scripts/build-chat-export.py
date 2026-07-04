@@ -51,8 +51,10 @@ def slim_edge(e):
 # --- node .md parsing -------------------------------------------------------
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
-# A cite token: `sources/chapters/<book>/<file>.md:NNN`  (also tolerate plain wiki refs)
-CITE_RE = re.compile(r"`(sources/chapters/[^`]+?:\d+)`")
+# A cite token: `sources/chapters/<book>/<file>.md:NNN`. Backticks optional — the
+# book-cite overlay wrote some attributions bare (`— sources/…:25 · gloss`) and some
+# backtick-wrapped (`… (\`sources/…:119\`)`); match both so neither leaks into .text.
+CITE_RE = re.compile(r"`?(sources/chapters/[a-z0-9/_-]+?\.md:\d+)`?", re.I)
 
 
 def parse_frontmatter_scalar(fm_text, key):
@@ -127,12 +129,28 @@ def parse_quotes(quotes_text):
             while i < n and lines[i].lstrip().startswith(">"):
                 block.append(re.sub(r"^\s*>\s?", "", lines[i]))
                 i += 1
+            attribution, cite = None, None
+            # The attribution line (leading —) may sit INSIDE the > block
+            # (`> — sources/…`) — the common book-cite-overlay shape. Peel the
+            # trailing —-line out so its cite + gloss never collapse into .text.
+            attr_idx = next(
+                (j for j in range(len(block) - 1, -1, -1)
+                 if block[j].lstrip().startswith("—")),
+                None,
+            )
+            if attr_idx is not None:
+                attr_line = block[attr_idx]
+                attribution = attr_line.strip().lstrip("—").strip()
+                cm = CITE_RE.search(attr_line)
+                if cm:
+                    cite = cm.group(1)
+                block = block[:attr_idx]
             text = " ".join(s.strip() for s in block if s.strip()).strip()
-            # skip blank lines, then look for an attribution line
+            # skip blank lines, then look for an attribution line OUTSIDE the
+            # block (the legacy shape: a bare —-line after the quote).
             while i < n and not lines[i].strip():
                 i += 1
-            attribution, cite = None, None
-            if i < n and lines[i].lstrip().startswith("—"):
+            if attribution is None and i < n and lines[i].lstrip().startswith("—"):
                 attribution = lines[i].strip().lstrip("—").strip()
                 cm = CITE_RE.search(lines[i])
                 if cm:

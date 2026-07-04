@@ -153,6 +153,19 @@ Deno.test("harvestResult: collects cites from node quotes and chain refs", () =>
   assert.ok(cites.size > 0, "expected real cites in the allowlist");
 });
 
+Deno.test("harvestResult: recovers a cite buried in quote text (cite:null)", () => {
+  // Mirrors the book-cite-overlay quotes that carry the real chapter:line inside
+  // .text with cite:null. The model lifts that token correctly; the gate must
+  // treat it as verified, so harvestResult has to admit it from the text.
+  const buried = "sources/chapters/acok/acok-theon-04.md:23";
+  const cites = new Set<string>();
+  harvestResult(
+    { quotes: [{ text: `their gilded skulls, ACOK Theon IV (\`${buried}\`)`, cite: null }] },
+    cites,
+  );
+  assert.ok(cites.has(buried), "buried cite must enter the allowlist");
+});
+
 Deno.test("verifyCites: only out-of-allowlist cites are flagged", () => {
   const valid = new Set(["sources/chapters/asos/asos-sansa-05.md:45"]);
   const prose =
