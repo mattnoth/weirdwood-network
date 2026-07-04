@@ -117,6 +117,25 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 ## Track 7 — Query-Layer Tooling (NEW S96 2026-06-14, dip-driven PRIMARY)
 
+> **S188 (2026-07-04) — full query-surface analysis landed. See `GRAPH-QUERY-ROADMAP.md` +
+> `GRAPH-STATE.md` (top-level).** The chat-UI's event-bias was root-caused to the retrieval
+> surface (gaps G1–G10). The alias fix below shipped S96, but the marquee/plural cases (G2) +
+> fuzzy-fallback event-bias (G10) remain, and the bigger gaps are un-defer work:
+> - **[OPEN — HIGH] Content/quote search tool (roadmap D1)** — the #1 lever. KNOWN deferred
+>   S172 fast-follow ("`searchChapters`/`readPassage`, need a build-time inverted index"). Would
+>   have turned the S188 live "describe meals" failure (13 fuzzy/no-match resolves → loop-bound)
+>   into a single-step answer. Substrate exists (344 chapters + 6,053 quotes).
+> - **[OPEN] Port the divergent Python query modes to the chat** — `graph-query.py` has ~11
+>   modes, chat exposes ~5; `--container` (theme bag-retrieval) / `--expand-beats` / `--path` /
+>   `--event-participants` never ported. `--container` alone partially answers thematic Qs.
+> - **[OPEN] Finish the fuzzy-resolve/alias track (G2/G10)** — verify the TS bundle's alias-map
+>   carries the Python resolver's victim-indexing ("Robb Stark's death"→`robb-is-killed`).
+> - **[OPEN] Unbundle the slim node projection (G9)** — the bundle drops `## Narrative Arc`
+>   prose (only identity+quotes ship); real cited descriptive content is stranded.
+> - **[OPEN] Braid/convergence primitives (roadmap D7)** + **trigger table (D8)** — see below.
+> → continue: `progress/continue-prompts/2026-07-04-graph-query-docs-and-script-org.md` (S189 —
+>   docs coagulation + traversal-script organization PLAN; docs/organization only, no build).
+
 - [x] **[DONE S96 (commit c58770549); S101 dip re-run CONFIRMED it works — natural phrasings now HIT] Fix the alias resolver / slug-discoverability gap.** The Mode 3 dip's #1 finding: the graph repeatedly holds the correct answer but `event_alias_resolver.py --lookup` returns MISS on natural phrasings, so a consumer agent never reaches the node. Cheapest, highest-leverage fix; converts ~3 fails/partials to correct (~4/10 → ~7/10) with ZERO new graph data. Scope: (a) fuzzy/substring fallback against the node-slug index when exact lookup misses; (b) index `event.death`/`event.execution` hubs by their victim so "X's death" / "X's execution" resolve (e.g. "Robb Stark's death" → `robb-is-killed`, "Ned Stark's execution" → `execution-of-eddard-stark`); (c) when a phrase names a character, return that character node as a candidate so node-attached edges (e.g. QoLB) are reachable. Deterministic Python, $0. Smoke-test against the dip's 10 questions before/after. NEEDS a continue prompt when picked up. (**Sonnet 4.6** — deterministic script work.)
 
 ## Track 3 — Post-Plate-5 Followups (edge/event modeling)
