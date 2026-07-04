@@ -153,7 +153,8 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 >   `theme` + browse routing in the chat → **the S188 meals failure now answers in 2 tool calls
 >   (Q11 ∞→2)**; G9 = 4,401 per-node narrative-arc assets via `/api/node`; braid primitives
 >   live; researcher-persona DRAFT wired (NOT deployed — Matt reviews); 5 boards decided (§8).
->   **Remaining in this Track: the FINAL Matt-paired pytest-suite session** → continue:
+>   **Remaining in this Track: the FINALE — Fable-ORCHESTRATED (Matt: "go hard"; Sonnet/Haiku
+>   subagents + advisory boards; his D-G sign-offs = board-proposals-he-reads)** → continue:
 >   `progress/continue-prompts/2026-07-04-query-layer-final-pytest-suite.md`.
 > → **S190 endsession (Matt "approve all your recs"):** hygiene classes 1–4 + mention-index
 >   repair **APPLIED** (commit `0408819e20`; class 5 dup-slugs = Matt's separate worktree
