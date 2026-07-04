@@ -239,7 +239,20 @@ work. Grouped by relevance to the traversal/query/descriptive themes.
 - **GRAPH-QUERY-ROADMAP.md** — this session's spitball on the traversal/query surface; the
   emerging plan is un-defer content-search (D1) + finish fuzzy-resolve (G2/G10) + port the
   divergent Python query modes (`--container` etc.) to the chat + tune walk_chain (G3).
-- **Chronology** — finish wiring `sort_keys` into the bundle + date backfill (S185).
+- **Chronology / event-ordering** — there WAS an event-ordering bug: live causal chains rendered
+  out of story-time order. Diagnosed S184 as a **`walkChain()` render bug** (it sorted by hop-depth,
+  not chronology — NOT bad data; 0 causal temporal inversions in the graph). **Mostly fixed:**
+  - **Step A (DONE S185, deployed S186):** `sort_keys.composite`/`reading_order` carried into the
+    bundle; `walkChain` sorts each direction by story-time; render split into "What led to this" /
+    "What followed". Bran-chain regression test green (39/39). Composite `"0298.1.018"` vs
+    reading_order `"1.015"` aren't lexically comparable → undated events get a book→AC-year
+    synthesized key.
+  - **Step D (DONE S185):** intra-chapter inversion scan → 0 genuine inversions.
+  - **Step B (DONE S186, LIVE):** per-turn usage logging (the substrate this whole S188 analysis
+    read from).
+  - **Step C (OPEN — gated on Matt):** deterministic wiki-date backfill of the ~50 undated causal
+    events → Haiku residue (NOT Fable). The one remaining piece of the S185 handoff. Optional;
+    gated on Matt's OK for any Haiku pass. `progress/continue-prompts/` chronology prompts archived.
 
 ---
 
