@@ -5,9 +5,24 @@
 // already folds the event-alias table + all-node index into one map, so this is
 // the two-step the handoff specifies:
 //   1. exact normalized lookup in alias-map.json
-//   2. fuzzy/substring fallback: token-overlap ≥ 0.5 against every phrase key
+//   2. fuzzy/substring fallback: token-overlap ≥ 0.5 against every phrase key,
+//      length-penalized (query-layer design.md step 4c / G10 — see below)
 //
 // No LLM in the loop, ever — pure data.
+//
+// step 4c (S190): candidate-length de-bias. A candidate phrase key much LONGER
+// than the query previously scored a full 1.0 whenever the query's tokens were
+// fully contained in it (e.g. "House Targaryen" (2 tokens) tied 1.0 against a
+// 13-token book-title phrase). Fix, IDENTICAL to graph/query/weirwood_query/
+// resolve.py's `_fuzzy_candidates` (any change here must be mirrored there):
+//   base           = |query_tokens ∩ candidate_tokens| / |query_tokens|
+//   length_penalty = min(1.0, |query_tokens| / |candidate_tokens|)  -- a no-op
+//                    whenever the candidate is no longer than the query, only
+//                    discounts candidates LONGER than the query
+//   score          = base * length_penalty, THEN + the slug-token bonus below
+// MIN_FUZZY_SCORE is checked against the FINAL score (after the slug bonus),
+// so a slug-name match can still lift a length-penalized score back over the
+// floor. Prominence remains the tie-break among survivors (unchanged).
 
 import type { GraphData, ResolveCandidate } from "./types.ts";
 import { intersectionSize, normalize, tokenize } from "./normalize.ts";
@@ -92,13 +107,24 @@ function fuzzyCandidates(norm: string, data: GraphData): ResolveCandidate[] {
     if (candTokens.size === 0) continue;
     const overlap = intersectionSize(queryTokens, candTokens);
     const base = overlap / queryTokens.size;
-    if (base < MIN_FUZZY_SCORE) continue;
+    if (base <= 0) continue;
+
+    // step 4c (G10 de-bias): discount a candidate phrase LONGER than the
+    // query — min(...) is a no-op whenever candTokens.size <= queryTokens.size,
+    // so this only ever discounts, never boosts. Identical formula to
+    // resolve.py's _fuzzy_candidates (see this file's header comment).
+    const lengthPenalty = Math.min(1.0, queryTokens.size / candTokens.size);
+    const penalized = base * lengthPenalty;
 
     for (const cand of candidates) {
       const slugTokens = tokenize(cand.slug.replace(/-/g, " "));
       const slugOverlap = intersectionSize(queryTokens, slugTokens);
-      let score = base;
+      let score = penalized;
       if (slugOverlap > 0) score = Math.min(1.0, score + SLUG_BONUS * slugOverlap);
+      // Floor is checked on the FINAL (length-penalized + slug-bonused) score,
+      // per candidate — not on `base` at the phrase level — so a slug-name
+      // match can still lift a length-penalized score back over the floor.
+      if (score < MIN_FUZZY_SCORE) continue;
       if (score > (bestScore.get(cand.slug) ?? 0)) {
         bestScore.set(cand.slug, score);
       }

@@ -117,33 +117,51 @@ ranked best-first. Empty list = miss.
    (e.g. the bare `aemon-targaryen` bucket).
 4. **Fuzzy stage** (only on an exact miss): tokenize the query (stop-words removed —
    articles/prepositions/interrogatives/auxiliaries/possessive `'s`). For every phrase key
-   in the alias map, compute `token_overlap(query, key) / |query_tokens|`; keep candidates
-   scoring **≥ 0.5**. Then, per candidate slug, add a **+0.05 slug-token bonus** for every
-   query token also found in the candidate's own slug (kebab-split), capped at 1.0. Best
-   score per slug wins across all matching phrase keys. Result capped at **5** candidates,
-   sorted by `(score desc, prominence desc)`, `matchType: "fuzzy"`.
+   in the alias map, compute `base = token_overlap(query, key) / |query_tokens|`; discount by
+   a **candidate-length penalty** `min(1.0, |query_tokens| / |candidate_tokens|)` — a no-op
+   whenever the candidate phrase is no longer than the query, so it only ever discounts a
+   candidate phrase LONGER than the query (step 4c / G10, S190 — see below). Then, per
+   candidate slug, add a **+0.05 slug-token bonus** for every query token also found in the
+   candidate's own slug (kebab-split), capped at 1.0. Keep candidates whose FINAL score
+   (post-penalty, post-bonus) is **≥ 0.5**. Best score per slug wins across all matching
+   phrase keys. Result capped at **5** candidates, sorted by `(score desc, prominence desc)`,
+   `matchType: "fuzzy"`.
 5. A miss at both stages → `[]`.
 
-**Known current-behavior facts (verified 2026-07-04 against the live bundle), not fixed
-here:**
-- `"Robb Stark's death"` has **no exact key** in `alias-map.json` — it falls through to the
-  fuzzy stage. It still lands on the correct top candidate (`robb-is-killed`, score 1.0 via
-  the slug bonus), but via `matchType: "fuzzy"`, not `"exact"` — **this is G19**: the
-  victim-phrase alias source exists in the Python resolver's lookup table but was never
-  merged into the bundle's `alias-map.json` at build time. Golden case `resolve.json` encodes
-  this as CURRENT behavior with an explicit note; the fix (`build_alias_table.py` merging
-  victim phrases) is step 4a and will flip this case's `matchType` to `"exact"`.
-- `"lemon cakes"` is a **miss on the intended food node** — the fuzzy stage returns unrelated
-  low-score foods (`lemon`, `cream-cakes`, `lemon-cake` itself only among several ties at
-  0.55) because the alias table has no dedicated `"lemon cakes"` phrase key. This is **G2**;
-  the fix is deterministic variant/alias-table generation (step 4b) and eventually the
-  content-search op (step 5) which reaches it via quote text regardless of alias coverage.
-- Bare first-name/surname queries (e.g. `"Tywin"` alone) can rank a **different character
-  above the intended one** when several characters' slugs/names all overlap the single
-  query token and the other candidate has higher whole-graph prominence — e.g. `"Tywin"` puts
-  `tyrion-lannister` above `tywin-lannister` (both score 1.0 by the token-overlap formula;
-  `tyrion-lannister` has higher prominence). This is **G10**'s mechanism (no candidate-length
-  penalty); the fix is step 4c.
+**Fixed in step 4 (S190) — this doc's v1 recorded these as open bugs; they are now resolved.
+Golden cases in `resolve.json` were flipped to pin the corrected behavior (with a `note`
+crediting the fix); the removed-bug notes below are retained as changelog, not open items:**
+- **G19 (step 4a):** `"Robb Stark's death"` previously had no exact key in `alias-map.json`
+  and fell to the fuzzy stage (landing on the right node, `robb-is-killed`, but via
+  `matchType: "fuzzy"`). Fix: `build_alias_table.py` now folds victim-phrase entries
+  (VICTIM_IN-derived) into the all-node index that `build_chat_bundle.py`'s
+  `build_alias_map()` consumes — the phrase is now an **exact** key in both profiles.
+- **G2 (step 4b):** `"lemon cakes"` previously missed the intended food node entirely (fuzzy
+  stage returned unrelated low-score foods, best 0.55). Fix: `build_alias_table.py` now
+  generates deterministic **plural** (`lemon cake` → `lemon cakes`, small irregulars list +
+  regular -s/-es rules), **possessive** (`"X's Y"` ↔ `"Y X"`), and **leading-article**
+  (`"the X"` ↔ `"X"`) variants from every short (≤4-word) name-shaped alias/name/slug entry
+  at build time. Plural/possessive are scoped to common-noun-shaped node categories (foods,
+  objects, artifacts, materials, texts, titles, concepts, religions) — proper-noun/titled
+  categories (characters, houses, locations, chapters, factions, events, and unset-category
+  event-table entries) are excluded from plural/possessive to avoid nonsense transforms
+  (pluralizing a character name or a multi-word event title); leading-article variants stay
+  universal (safe for any name — this is the transform behind "the Red Witch" → `melisandre`
+  etc.). Variants sit at the LOWEST merge priority — a real alias/name/slug entry always wins
+  a collision; generated-variant collisions are logged (not guessed) to
+  `working/query-layer/variant-collisions-s190.md`. `"lemon cakes"` is now an exact hit.
+- **G10 (step 4c):** bare first-name/surname queries (e.g. `"Tywin"` alone) previously could
+  rank a **different character above the intended one** — e.g. `"Tywin"` put
+  `tyrion-lannister` above `tywin-lannister` because every fully-overlapping candidate phrase
+  tied at score 1.0 regardless of the candidate phrase's own length, so the whole-graph
+  prominence tie-break alone decided (and `tyrion-lannister`'s prominence, 462, beat
+  `tywin-lannister`'s, 218). Fix: the candidate-length penalty above (identical formula in
+  `resolve.py` and `resolve.ts`). `"Tywin"` now resolves top-ranked to `tywin-lannister`
+  (score 0.55, `matchType: "fuzzy"`) — `tyrion-lannister`'s only matching phrase (`"lord
+  tywin's bane"`, 3 tokens) is penalized below the 0.5 floor and drops out of the candidate
+  list. The same mechanism also fixes the full-profile `"House Targaryen"` fuzzy-stage tie
+  against a 13-token book-title node (see `resolve-house-targaryen-full-profile-length-debias`
+  golden case).
 
 ### Semantics (full / Python — `event_alias_resolver.resolve()`)
 

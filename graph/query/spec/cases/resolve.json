@@ -42,56 +42,80 @@
     "note": "the existing graph_test.ts/resolve_test.ts REQUIRED pivot case, restated as a golden case"
   },
   {
-    "id": "resolve-robb-starks-death-current-fuzzy-miss-of-exact",
+    "id": "resolve-robb-starks-death-exact",
     "op": "resolve",
     "profile": "bounded",
     "input": { "phrase": "Robb Stark's death" },
     "expect": {
-      "mode": "invariant",
+      "mode": "exact",
       "top": {
         "slug": "robb-is-killed",
         "category": "events",
-        "matchType": "fuzzy"
-      },
-      "candidateSlugs": [
-        "robb-is-killed",
-        "robb-stark",
-        "robb-receives-false-news-of-brans-death",
-        "robb-weds-jeyne-westerling"
-      ]
+        "score": 1,
+        "matchType": "exact"
+      }
     },
-    "note": "G19 — the victim-phrase alias source exists in the Python resolver's lookup table but was never merged into web/data/alias-map.json at build time, so this phrase has NO exact key and falls to the fuzzy stage. It still lands on the right node (robb-is-killed) via the slug-token bonus, but matchType is \"fuzzy\" not \"exact\". Expected to flip top.matchType to \"exact\" after step 4a (build_alias_table.py merges victim phrases into the bundle table)."
+    "note": "G19 FIXED (step 4a, S190): build_alias_table.py now folds victim-phrase entries (VICTIM_IN-derived, e.g. \"robb stark's death\") into the all-node index that build_chat_bundle.py's build_alias_map() consumes, so the phrase is now an exact key in web/data/alias-map.json. Was: fell to the fuzzy stage (matchType \"fuzzy\", not \"exact\") despite landing on the right node."
   },
   {
-    "id": "resolve-lemon-cakes-current-miss",
+    "id": "resolve-lemon-cakes-exact-via-plural-variant",
     "op": "resolve",
     "profile": "bounded",
     "input": { "phrase": "lemon cakes" },
     "expect": {
-      "mode": "invariant",
-      "topSlugIsNot": "lemon-cake",
-      "allScoresBelow": 0.6,
-      "candidateSlugs": ["lemon", "cream-cakes", "lemon-cake", "lem", "lemonwater"]
+      "mode": "exact",
+      "top": {
+        "slug": "lemon-cake",
+        "category": "foods",
+        "score": 1,
+        "matchType": "exact"
+      }
     },
-    "note": "G2 — no dedicated 'lemon cakes' phrase key in the alias table; fuzzy fallback returns low-confidence unrelated foods (best score 0.55) rather than surfacing lemon-cake as the clear top hit. Expected to improve after step 4b (variant/alias generation) and to become reachable regardless via step 5's content search over quote text."
+    "note": "G2 FIXED (step 4b, S190): build_alias_table.py now generates deterministic plural variants (foods/objects/materials/texts/titles/concepts/religions node categories only — proper-noun categories like characters/houses/events/locations are excluded to avoid nonsense transforms) from every short name-shaped alias/name/slug entry at build time. 'lemon cake' (the food node's own slug-derived alias) generates the 'lemon cakes' variant, so this phrase is now an EXACT hit instead of a low-confidence fuzzy fallback (previously best score 0.55 against unrelated foods)."
   },
   {
-    "id": "resolve-tywin-bare-name-cross-character-bias",
+    "id": "resolve-tywin-bare-name-debiased",
     "op": "resolve",
     "profile": "bounded",
     "input": { "phrase": "Tywin" },
     "expect": {
       "mode": "invariant",
-      "top": { "slug": "tyrion-lannister", "matchType": "fuzzy" },
+      "top": { "slug": "tywin-lannister", "matchType": "fuzzy", "score": 0.55 },
+      "topSlugIsNot": "tyrion-lannister",
       "candidateSlugs": [
-        "tyrion-lannister",
         "tywin-lannister",
-        "gregor-clegane",
         "assassination-of-tywin-lannister",
-        "roose-named-warden-of-the-north"
+        "tywin-frey"
       ]
     },
-    "note": "G10 — bare single-token query with no exact alias-map key; every candidate ties at fuzzy score 1.0 (full token-overlap + slug bonus cap), so the whole-graph prominence tie-break decides, and tyrion-lannister (higher prominence: 462) outranks the intended tywin-lannister (218). Mechanism = no candidate-length penalty. Expected to be de-biased in step 4c (candidate-length normalization ported to both resolve.py and resolve.ts)."
+    "note": "G10 FIXED (step 4c, S190): candidate-length penalty added to _fuzzy_candidates (resolve.py) / fuzzyCandidates (resolve.ts) — a candidate phrase LONGER than the query is discounted by min(1.0, |query|/|candidate|) before the slug-token bonus. Previously EVERY candidate whose phrase fully contained the single query token tied at score 1.0 (full overlap + slug-token bonus cap), so the whole-graph prominence tie-break alone decided, and tyrion-lannister (prominence 462) wrongly outranked tywin-lannister (prominence 218). Now: 2-token candidate phrases ('tywin lannister', 'death of tywin', ...) survive at a length-penalized 0.55 while tyrion-lannister's only matching phrase ('lord tywin's bane', 3 tokens) is penalized below the 0.5 floor and drops out of the candidate list entirely. Landed the OPPOSITE direction from the pre-fix pin (which expected tyrion-lannister to win) — this is the corrected behavior, not a regression."
+  },
+  {
+    "id": "resolve-house-targaryen-full-profile-length-debias",
+    "op": "resolve",
+    "profile": "full",
+    "input": { "phrase": "House Targaryen" },
+    "expect": {
+      "mode": "invariant",
+      "top": {
+        "slug": "house-targaryen",
+        "matchType": "candidates"
+      }
+    },
+    "note": "G10 FIXED (step 4c, S190), full-profile companion to resolve-tywin-bare-name-debiased. The full-profile event_alias_resolver.resolve() has no exact key for 'house targaryen' (that phrase lives only in the all-node index, not the event-alias table its exact stage checks), so it falls to the fuzzy stage. Before step 4c: 'house targaryen' (2 tokens) tied at score 1.0 against the book-title node dragonkin-being-a-history-of-house-targaryen-... (13 tokens, query fully contained inside it), and the tie went to whichever the scan visited last / prominence — an unreliable pin. After step 4c's length penalty: the 13-token book-title candidate is discounted to ~0.15 (well below the 0.5 floor) and drops out entirely, leaving house-targaryen as the clear top candidate at 1.0. (The bounded/TS profile already resolved this phrase correctly via an exact alias-map hit — this case exercises the full-profile fuzzy path specifically, which is where the bias mechanism lived.)"
+  },
+  {
+    "id": "resolve-beef-exact-unaffected-by-tywin-assassination-alias",
+    "op": "resolve",
+    "profile": "bounded",
+    "input": { "phrase": "beef" },
+    "expect": {
+      "mode": "exact",
+      "candidates": [
+        { "slug": "beef", "category": "foods", "score": 1, "matchType": "exact" }
+      ]
+    },
+    "note": "step 4c design note (\"beef vs assassination-of-tywin\"): 'beef' is an exact alias-map hit on the food node (from its own node-slug alias), so it never reaches the fuzzy stage at all -- confirms the length-penalty / fuzzy-debias work does not disturb an unrelated exact hit that happens to share no meaningful token overlap with any Tywin-assassination-related phrase."
   },
   {
     "id": "resolve-eddard-stark-known-character",

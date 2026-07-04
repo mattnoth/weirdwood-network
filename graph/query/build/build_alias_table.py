@@ -599,6 +599,312 @@ def _collect_event_node_metadata() -> tuple[dict[str, str], dict[str, str]]:
 
 
 # ---------------------------------------------------------------------------
+# step 4b — deterministic variant expansion (plurals / possessives / leading
+# article) at BUILD time. Generates NEW alias entries from existing resolved
+# (phrase -> slug) pairs; never touches node frontmatter (variants live only
+# in this derived table). Lowest merge priority of all sources — a generated
+# variant never displaces a real alias/name/slug entry; if a variant phrase
+# collides with an already-claimed phrase for a DIFFERENT slug, it is logged
+# (not guessed) to working/query-layer/variant-collisions-s190.md.
+# ---------------------------------------------------------------------------
+
+VARIANT_COLLISIONS_LOG = REPO_ROOT / "working/query-layer/variant-collisions-s190.md"
+
+# A small set of common irregular plurals seen in ASOIAF food/object naming
+# (kept intentionally short — this is a deterministic RULES pass, not a
+# lemmatizer; anything not covered here just doesn't get a plural variant).
+_IRREGULAR_PLURALS = {
+    "loaf": "loaves",
+    "knife": "knives",
+    "wife": "wives",
+    "life": "lives",
+    "leaf": "leaves",
+    "half": "halves",
+    "shelf": "shelves",
+    "wolf": "wolves",
+    "man": "men",
+    "woman": "women",
+    "child": "children",
+    "tooth": "teeth",
+    "foot": "feet",
+    "goose": "geese",
+    "mouse": "mice",
+    "person": "people",
+}
+# Reverse map for singularizing a plural variant candidate.
+_IRREGULAR_SINGULARS = {v: k for k, v in _IRREGULAR_PLURALS.items()}
+
+
+def _pluralize_word(word: str) -> str | None:
+    """Return the plural form of a single lowercase word, or None if no
+    deterministic rule applies. Rules (in order): irregular table; -y -> -ies
+    (consonant+y only); -s/-x/-z/-ch/-sh -> +es; default +s. Does not touch
+    words already ending in a plural-looking form (best-effort only)."""
+    if not word or not word.isalpha():
+        return None
+    if word in _IRREGULAR_PLURALS:
+        return _IRREGULAR_PLURALS[word]
+    if word in _IRREGULAR_SINGULARS.values():
+        return None  # already plural, per the irregular table
+    if len(word) > 1 and word.endswith("y") and word[-2] not in "aeiou":
+        return word[:-1] + "ies"
+    if word.endswith(("s", "x", "z", "ch", "sh")):
+        return word + "es"
+    return word + "s"
+
+
+def _singularize_word(word: str) -> str | None:
+    """Inverse of _pluralize_word for a single lowercase word, best-effort."""
+    if not word or not word.isalpha():
+        return None
+    if word in _IRREGULAR_SINGULARS:
+        return _IRREGULAR_SINGULARS[word]
+    if word in _IRREGULAR_PLURALS:
+        return None  # already singular
+    if word.endswith("ies") and len(word) > 3:
+        return word[:-3] + "y"
+    if word.endswith(("ses", "xes", "zes", "ches", "shes")) and len(word) > 4:
+        return word[:-2]
+    if word.endswith("s") and not word.endswith("ss") and len(word) > 1:
+        return word[:-1]
+    return None
+
+
+def _plural_variants(phrase: str) -> list[str]:
+    """Generate plural/singular variants of a normalized phrase by
+    transforming ONLY its final word (the common case: 'lemon cake' <->
+    'lemon cakes'). Returns both directions since the source phrase may
+    already be singular or plural."""
+    words = phrase.split(" ")
+    if not words or not words[-1]:
+        return []
+    last = words[-1]
+    out = []
+    plural = _pluralize_word(last)
+    if plural and plural != last:
+        out.append(" ".join(words[:-1] + [plural]))
+    singular = _singularize_word(last)
+    if singular and singular != last:
+        out.append(" ".join(words[:-1] + [singular]))
+    return out
+
+
+def _possessive_variants(phrase: str) -> list[str]:
+    """Generate "X's Y" <-> "Y of X" possessive variants for a TWO-OR-MORE-
+    word phrase whose last word is a recognized possessable-noun-ish tail
+    (kept simple: only handles the "<subject> <tail>" -> "<subject>'s <tail>"
+    direction plus stripping an existing possessive). Natural-language only —
+    does not fire on single-word phrases (no possessor to attach)."""
+    out = []
+    # "X's Y" -> "X Y" (strip the possessive) and vice versa, when the
+    # phrase already contains "'s " as a whole-word marker.
+    if "'s " in phrase:
+        out.append(phrase.replace("'s ", " ", 1))
+    else:
+        words = phrase.split(" ")
+        if len(words) >= 2:
+            # Insert possessive after the first word (covers the common
+            # "<name> <noun-phrase>" shape, e.g. "robb stark death" would not
+            # occur as a stored phrase, but "tywin death" -> "tywin's death").
+            out.append(words[0] + "'s " + " ".join(words[1:]))
+    return out
+
+
+def _article_variants(phrase: str) -> list[str]:
+    """Generate "the X" <-> "X" leading-article variants. normalize() already
+    strips a leading article from QUERY input, so this mainly matters for
+    matching an alias TABLE KEY that itself starts with a bare noun the user
+    might type with "the" in front (defense in depth / explicit coverage —
+    the fuzzy/exact path already benefits from normalize() doing this at
+    query time, but an explicit table entry means an EXACT hit either way)."""
+    out = []
+    if phrase.startswith("the "):
+        out.append(phrase[4:])
+    else:
+        out.append("the " + phrase)
+    return out
+
+
+# Sources whose phrases are short, name-shaped strings (character/object/food/
+# location names, node slugs) — the genuine target of plural/possessive/
+# article expansion ("lemon cake" <-> "lemon cakes"). EXCLUDES "victim-index"
+# deliberately: those phrases are already-generated multi-word sentence
+# TEMPLATES ("X is killed", "assassination of X" — 5-15 words), and running
+# a naive last-word pluralizer/possessive-inserter over a verb-phrase produces
+# garbage ("... is killeds", "... with teats assassinateds"). Victim phrases
+# already cover their own possessive form explicitly (_victim_phrases emits
+# both "X death" and "X's death"), so they don't need this pass at all.
+_VARIANT_ELIGIBLE_SOURCE_PREFIXES = (
+    "node-name", "node-slug", "node-frontmatter-alias",
+    "wiki-canonical-name", "wiki-slug-self", "wiki-redirect", "wiki-the-redirect",
+    "all-node-name", "all-node-slug", "all-node-alias",
+)
+
+# Cap on phrase length (words) eligible for variant generation. Short,
+# name-shaped phrases only — this is a deliberate, conservative bound so the
+# generator can't run away over long templated/descriptive phrases that
+# happen to slip through the source-prefix filter.
+_VARIANT_MAX_WORDS = 4
+
+# Proper-noun/titled-phrase node categories where PLURAL/POSSESSIVE transforms
+# produce nonsense ("Dagmer" -> "Dagmers"; "Crake the Boarkiller" -> "Crake's
+# the Boarkiller"; event titles like "Defenestration of Sunspear" -> "end of
+# stannis's hope"-shaped garbage) rather than a phrase a real user would type.
+# LEADING-ARTICLE variants ("the Red Witch" <-> "Red Witch") stay universal —
+# that transform is safe for any name and is the one the misses log actually
+# shows value for (epithets, house names). Plural/possessive are scoped down
+# ONLY to node categories where the underlying noun is a common noun a user
+# might legitimately pluralize/possessive-ize (food/object/material/text/
+# title-shaped things). "" (unset — the shape event-table entries carry, since
+# EVENT_NODES_DIR-sourced entries never set node_category) is treated as
+# proper-noun/titled and EXCLUDED too — event/chapter titles are names, not
+# common nouns, and the ambiguity of an unset category is itself a reason to
+# be conservative.
+_PROPER_NOUN_CATEGORIES = {
+    "characters", "houses", "locations", "chapters", "factions", "events", "",
+}
+# Explicit allowlist is the safer inverse for this pass: only these categories
+# get plural/possessive. (Kept alongside the exclusion set above for
+# readability — an entry must be in the allowlist AND not in the exclusion
+# set, but since they're complementary within the categories we've observed,
+# the allowlist is the one actually consulted.)
+_COMMON_NOUN_CATEGORIES = {
+    "foods", "objects", "artifacts", "materials", "texts", "titles",
+    "customs", "concepts", "religions",
+}
+
+
+def _variant_eligible(phrase: str, source: str, node_category: str = "") -> tuple[bool, bool]:
+    """Returns (article_eligible, plural_possessive_eligible)."""
+    src_base = source.split(":")[0] if ":" in source else source
+    if src_base not in _VARIANT_ELIGIBLE_SOURCE_PREFIXES:
+        return False, False
+    if not phrase or len(phrase.split(" ")) > _VARIANT_MAX_WORDS:
+        return False, False
+    plural_possessive_ok = (
+        node_category in _COMMON_NOUN_CATEGORIES
+        and node_category not in _PROPER_NOUN_CATEGORIES
+    )
+    return True, plural_possessive_ok
+
+
+def generate_variants(source_entries: list[dict]) -> list[dict]:
+    """Generate plural/possessive/article variant entries at the LOWEST merge
+    priority, from short name-shaped alias entries only (see
+    _VARIANT_ELIGIBLE_SOURCE_PREFIXES / _VARIANT_MAX_WORDS above — this
+    deliberately excludes the long victim-phrase sentence templates).
+
+    Returns a list of NEW alias entries (same shape as every other source's
+    entries) tagged source="variant-plural" / "variant-possessive" /
+    "variant-article". Callers merge these back through build_lookup_table
+    alongside the real sources so real data always outranks a generated
+    variant on collision (PRIORITY_ORDER unchanged — variant sources sort
+    after every real source, see PRIORITY_ORDER below).
+    """
+    new_entries: list[dict] = []
+    seen: set[tuple[str, str, str]] = set()  # (phrase, slug, source) dedupe
+
+    def _emit(phrase: str, slug: str, kind: str, raw: str, meta: dict) -> None:
+        if not phrase or phrase == raw:
+            return
+        key = (phrase, slug, kind)
+        if key in seen:
+            return
+        seen.add(key)
+        new_entries.append({
+            "alias": phrase,
+            "canonical_slug": slug,
+            "node_category": meta.get("node_category", ""),
+            "node_type": meta.get("node_type", ""),
+            "source": kind,
+            "raw": f"variant of {raw!r}",
+        })
+
+    for e in source_entries:
+        phrase = e.get("alias", "")
+        slug = e.get("canonical_slug")
+        source = e.get("source", "")
+        node_category = e.get("node_category", "")
+        if not phrase or not slug:
+            continue
+        article_ok, plural_possessive_ok = _variant_eligible(phrase, source, node_category)
+        if not article_ok:
+            continue
+        meta = {"node_category": node_category, "node_type": e.get("node_type", "")}
+        if plural_possessive_ok:
+            for v in _plural_variants(phrase):
+                _emit(v, slug, "variant-plural", phrase, meta)
+            for v in _possessive_variants(phrase):
+                _emit(v, slug, "variant-possessive", phrase, meta)
+        for v in _article_variants(phrase):
+            _emit(v, slug, "variant-article", phrase, meta)
+
+    return new_entries
+
+
+def _filter_variant_collisions(collisions: dict[str, list[dict]]) -> dict[str, list[dict]]:
+    """Filter a collisions dict down to phrases involving at least one
+    generated variant entry. A phrase that collides for reasons unrelated to
+    variant generation (e.g. two real wiki aliases clashing) is left out —
+    that's pre-existing collision noise the build already tracked separately."""
+    variant_sources = {"variant-plural", "variant-possessive", "variant-article"}
+    return {
+        phrase: cands
+        for phrase, cands in collisions.items()
+        if any(c["source"] in variant_sources for c in cands)
+    }
+
+
+def write_variant_collisions_log(
+    sections: list[tuple[str, dict[str, list[dict]]]],
+    path: Path = VARIANT_COLLISIONS_LOG,
+) -> int:
+    """Write ONE combined review file (working/query-layer/, NOT graph/ or
+    node frontmatter) covering every collision section (event table,
+    all-node index, ...). `sections` is a list of (label, relevant_collisions)
+    pairs, already filtered by _filter_variant_collisions. Returns the total
+    count of colliding phrases logged across all sections."""
+    total = sum(len(rel) for _, rel in sections)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    lines = [
+        "# Variant-generation collisions — step 4b (S190)\n",
+        f"Generated: {datetime.now(timezone.utc).isoformat()}\n",
+    ]
+    if total == 0:
+        lines.append(
+            "\nNo collisions involving a generated plural/possessive/article "
+            "variant were found in this build.\n"
+        )
+        path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        return 0
+
+    lines.append(
+        f"\n{total} phrase(s) (across {len(sections)} table(s)) where a "
+        "deterministically-generated plural/possessive/article variant "
+        "collided with an existing alias for a DIFFERENT slug. Logged for "
+        "review, not auto-resolved — the existing PRIORITY_ORDER means a "
+        "real alias/name/slug always wins over a generated variant; these "
+        "are cases where TWO OR MORE real slugs are already tied to the "
+        "target phrase, so no single winner exists even before the variant "
+        "arrived.\n"
+    )
+    for label, relevant in sections:
+        if not relevant:
+            continue
+        lines.append(f"\n## Table: {label} ({len(relevant)} phrase(s))\n")
+        for phrase, cands in sorted(relevant.items()):
+            lines.append(f"\n### `{phrase}`\n")
+            for c in cands:
+                lines.append(
+                    f"- slug=`{c['canonical_slug']}` source=`{c['source']}` "
+                    f"raw={c.get('raw', '')!r}"
+                )
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return total
+
+
+# ---------------------------------------------------------------------------
 # Merge + collision handling
 # ---------------------------------------------------------------------------
 
@@ -610,6 +916,9 @@ PRIORITY_ORDER = [
     "wiki-canonical-name",
     "wiki-slug-self",
     "wiki-redirect",
+    "variant-plural",
+    "variant-possessive",
+    "variant-article",
 ]
 
 
@@ -702,11 +1011,21 @@ def build_and_save(
     all_entries = wiki_entries + node_entries + victim_entries
 
     if verbose:
+        print("Generating deterministic variants (step 4b: plural/possessive/article)...")
+    variant_entries = generate_variants(all_entries)
+    if verbose:
+        print(f"  {len(variant_entries)} candidate variant entries generated")
+
+    if verbose:
         print("Merging and deduplicating...")
-    lookup, collisions, stats = build_lookup_table(all_entries)
+
+    all_entries_with_variants = all_entries + variant_entries
+    lookup, collisions, stats = build_lookup_table(all_entries_with_variants)
+
+    event_variant_collisions = _filter_variant_collisions(collisions)
 
     source_counts: dict[str, int] = {}
-    for e in all_entries:
+    for e in all_entries_with_variants:
         source_counts[e["source"]] = source_counts.get(e["source"], 0) + 1
 
     output = {
@@ -736,7 +1055,14 @@ def build_and_save(
     if verbose:
         print("\nBuilding all-node index (for character-name fallback)...")
     all_node_entries = load_all_node_aliases()
-    all_node_entries_with_events = all_node_entries + node_entries
+    # step 4a (G19): fold victim-phrase entries in here too. Without this, the
+    # all-node index (the table build_chat_bundle.py's build_alias_map() reads
+    # to produce web/data/alias-map.json) never carries phrases like "robb
+    # stark's death" — they existed only in the EVENT-alias lookup above
+    # (event-alias-lookup.json), which the bundle build does NOT consume. The
+    # event-alias-lookup.json output above is unchanged (still wiki+node+victim);
+    # this is additive: victim phrases now ALSO land in the all-node index.
+    all_node_entries_with_events = all_node_entries + node_entries + victim_entries
     _, _, all_stats = build_lookup_table(all_node_entries_with_events)
 
     all_node_by_phrase: dict[str, list[dict]] = {}
@@ -761,6 +1087,64 @@ def build_and_save(
                 seen_slugs.add(c["canonical_slug"])
                 deduped.append(c)
         all_node_collapsed[phrase] = deduped
+
+    # step 4b (all-node index side): generate the SAME plural/possessive/
+    # article variants from every (phrase -> slug) pair already present,
+    # then merge them in with the SAME "real entries win" rule used above —
+    # a generated variant is only added to a phrase bucket that doesn't
+    # already carry that slug, and if the phrase bucket already resolves to
+    # OTHER slug(s), the collision (variant phrase implies a different node
+    # than what's already there) is logged for review rather than silently
+    # added as a second candidate.
+    all_node_variant_collisions: dict[str, list[dict]] = {}
+    all_node_variant_new_phrases = 0
+    for phrase, candidates in list(all_node_collapsed.items()):
+        for cand in candidates:
+            slug = cand["canonical_slug"]
+            article_ok, plural_possessive_ok = _variant_eligible(
+                phrase, cand.get("source", ""), cand.get("node_category", "")
+            )
+            if not article_ok:
+                continue
+            variant_kinds = [("variant-article", _article_variants(phrase))]
+            if plural_possessive_ok:
+                variant_kinds = [
+                    ("variant-plural", _plural_variants(phrase)),
+                    ("variant-possessive", _possessive_variants(phrase)),
+                ] + variant_kinds
+            for kind, variants in variant_kinds:
+                for v in variants:
+                    if not v or v == phrase:
+                        continue
+                    existing = all_node_collapsed.get(v)
+                    if existing is None:
+                        all_node_collapsed[v] = [{
+                            "canonical_slug": slug,
+                            "node_category": cand.get("node_category", ""),
+                            "node_type": cand.get("node_type", ""),
+                            "source": kind,
+                        }]
+                        all_node_variant_new_phrases += 1
+                    elif not any(c["canonical_slug"] == slug for c in existing):
+                        # phrase already resolves to (a) different slug(s) —
+                        # log, don't guess which one is "right".
+                        all_node_variant_collisions.setdefault(v, []).extend(existing)
+                        all_node_variant_collisions[v].append({
+                            "canonical_slug": slug,
+                            "node_category": cand.get("node_category", ""),
+                            "node_type": cand.get("node_type", ""),
+                            "source": kind,
+                        })
+    if verbose:
+        print(f"  {all_node_variant_new_phrases} NEW phrases added via variant generation (all-node index)")
+
+    total_variant_collisions = write_variant_collisions_log([
+        ("event-alias-lookup.json", event_variant_collisions),
+        ("all-node-alias-lookup.json", all_node_variant_collisions),
+    ])
+    if verbose:
+        print(f"  {total_variant_collisions} total variant collision(s) logged to "
+              f"{VARIANT_COLLISIONS_LOG}")
 
     if verbose:
         print("\nLoading 'The <Epithet>' wiki-redirect aliases...")
