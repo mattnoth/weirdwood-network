@@ -8,6 +8,15 @@
    urated) red accent, and a subtle weirwood-tree motif behind the content.
    ========================================================================== */
 
+/* ---- Prose face: Spectral, self-hosted (no third-party font request) ------
+   A literary serif for the persona's prose + display. woff2 lives in
+   public/fonts/spectral/. */
+@font-face { font-family: "Spectral"; font-weight: 400; font-style: normal; font-display: swap; src: url("/fonts/spectral/spectral-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-weight: 400; font-style: italic; font-display: swap; src: url("/fonts/spectral/spectral-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-weight: 500; font-style: normal; font-display: swap; src: url("/fonts/spectral/spectral-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-weight: 600; font-style: normal; font-display: swap; src: url("/fonts/spectral/spectral-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-weight: 700; font-style: normal; font-display: swap; src: url("/fonts/spectral/spectral-700-normal.woff2") format("woff2"); }
+
 :root {
   /* ---- Palette: warm dark ground (never #000), bone text, dusty red ------ */
   --c-bg:            #16100e;  /* deep red-black ground (moved off Claude warm) */
@@ -42,7 +51,7 @@
   /* ---- Typography -------------------------------------------------------- */
   /* Serif for the persona's prose + display (old-world, weighty); system sans
      for UI chrome (buttons, labels) so the interface reads modern/clean.     */
-  --font-prose: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --font-prose: "Spectral", Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
   --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
 

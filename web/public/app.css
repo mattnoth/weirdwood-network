@@ -57,14 +57,7 @@ body {
   gap: var(--sp-4);
 }
 .brand { display: flex; align-items: center; gap: var(--sp-3); }
-.mark {
-  width: 16px; height: 16px; flex: none;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 50% 50%, var(--c-accent-soft) 0 22%, var(--c-accent) 30% 60%, var(--c-accent-deep) 100%);
-  box-shadow: 0 0 16px 2px var(--c-accent-faint);
-}
-.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
+.brand-text { display: flex; flex-direction: row; align-items: baseline; gap: var(--sp-3); line-height: 1.1; }
 .brand-text h1 {
   font-family: var(--font-prose);
   font-weight: 500;
@@ -77,20 +70,20 @@ body {
   font-style: italic;
   color: var(--c-accent-soft);
   font-size: var(--fs-small);
-  margin: 2px 0 0;
+  margin: 0;
 }
 .about-toggle {
   font-family: var(--font-ui);
   font-size: var(--fs-small);
   color: var(--c-text-dim);
   background: transparent;
-  border: 1px solid var(--c-border);
+  border: none;
   border-radius: var(--radius-sm);
   padding: var(--sp-2) var(--sp-3);
   cursor: pointer;
   transition: var(--transition);
 }
-.about-toggle:hover { color: var(--c-text); border-color: var(--c-accent); }
+.about-toggle:hover { color: var(--c-text); }
 
 /* ---- About view (toggled; the page itself opens straight to the chat) ----- */
 .about-view {
@@ -170,6 +163,23 @@ body.about-open .about-view { display: block; }
 }
 .thread-col { grid-column: 1; }
 .receipts-col { grid-column: 2; }
+
+/* Landing (before the first question): line the composer up with the chain-walked
+   box — same top, same height — and vertically centre the input row within it. The
+   `landing` class is dropped on the first question, so chat mode keeps the composer
+   sticky at the bottom. */
+body.landing .stage { align-content: start; align-items: stretch; }
+body.landing .thread-col { gap: 0; }
+body.landing .composer {
+  margin-top: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* The note is empty until a question is asked — drop it so the input row itself
+   (not the row + empty note) centres against the chain box. */
+body.landing .composer-note { display: none; }
 @media (max-width: 860px) {
   .stage { grid-template-columns: minmax(0, 1fr); }
   .thread-col, .receipts-col { grid-column: 1; }
@@ -205,8 +215,8 @@ body.about-open .about-view { display: block; }
 .msg.bot .bubble {
   background: var(--c-bubble-bot);
   font-family: var(--font-prose);
-  font-size: 1.12rem;
-  line-height: var(--lh-prose);
+  font-size: 1.32rem;   /* tuned in the font lab for Spectral */
+  line-height: 1.72;
   color: var(--c-text);
   padding: 0 var(--sp-1);
   white-space: pre-wrap;

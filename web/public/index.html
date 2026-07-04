@@ -8,43 +8,13 @@
   <link rel="stylesheet" href="/theme/tokens.css?v=185a" />
   <link rel="stylesheet" href="/app.css?v=185a" />
 </head>
-<body>
-  <!-- Low-contrast weirwood backdrop. Presence is token-controlled
-       (--weirwood-opacity / --weirwood-blend); never loud, behind content. -->
-  <div class="weirwood-bg" aria-hidden="true">
-    <svg viewBox="0 0 380 360" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
-      <!-- Weirwood: pale gnarled trunk + broad colourful red crown (no face). -->
-      <g fill="var(--c-accent-deep)">
-        <circle cx="62" cy="175" r="32"/><circle cx="96" cy="120" r="34"/><circle cx="140" cy="130" r="30"/><circle cx="176" cy="100" r="32"/><circle cx="212" cy="102" r="30"/><circle cx="246" cy="120" r="30"/><circle cx="292" cy="120" r="32"/><circle cx="322" cy="175" r="30"/><circle cx="120" cy="155" r="28"/><circle cx="262" cy="155" r="28"/><circle cx="190" cy="92" r="28"/><circle cx="48" cy="150" r="24"/><circle cx="336" cy="148" r="24"/>
-      </g>
-      <g fill="var(--c-weirwood-dim)">
-        <path d="M186 214 C150 210 108 205 66 182 C54 175 46 183 58 189 C100 208 146 218 190 226 Z"/>
-        <path d="M188 200 C156 176 126 142 104 104 C98 96 108 92 114 100 C140 138 166 168 196 190 Z"/>
-        <path d="M192 196 C182 160 176 128 176 96 C175 86 185 86 188 96 C193 128 200 158 200 190 Z"/>
-        <path d="M196 196 C208 160 216 130 222 98 C224 88 234 90 232 100 C224 132 212 160 204 190 Z"/>
-        <path d="M200 200 C232 176 262 144 288 108 C294 100 304 104 298 112 C270 148 238 176 208 192 Z"/>
-        <path d="M198 214 C238 210 280 205 320 184 C332 177 340 185 328 191 C288 210 244 220 200 226 Z"/>
-      </g>
-      <path d="M150 360 C150 328 164 314 174 296 C170 260 168 224 175 200 C178 190 186 188 190 180 C194 188 202 190 205 200 C212 224 210 260 206 296 C216 314 230 328 230 360 Z" fill="var(--c-weirwood-pale)"/>
-      <path d="M150 360 C122 350 100 352 84 360 Z" fill="var(--c-weirwood-dim)"/>
-      <path d="M230 360 C258 350 282 352 298 360 Z" fill="var(--c-weirwood-dim)"/>
-      <g stroke="var(--c-weirwood-dim)" fill="none" opacity="0.6">
-        <path d="M190 180 C186 210 184 260 188 306 C189 330 189 346 190 360" stroke-width="3"/>
-        <path d="M172 306 C176 268 174 226 180 202" stroke-width="2"/>
-      </g>
-      <g fill="var(--c-accent)">
-        <circle cx="72" cy="165" r="24"/><circle cx="102" cy="125" r="24"/><circle cx="150" cy="125" r="22"/><circle cx="178" cy="105" r="24"/><circle cx="214" cy="106" r="22"/><circle cx="248" cy="122" r="22"/><circle cx="294" cy="124" r="22"/><circle cx="316" cy="165" r="22"/><circle cx="132" cy="148" r="20"/><circle cx="256" cy="148" r="20"/><circle cx="192" cy="98" r="20"/>
-      </g>
-      <g fill="var(--c-accent-soft)">
-        <circle cx="82" cy="158" r="16"/><circle cx="110" cy="128" r="15"/><circle cx="158" cy="124" r="15"/><circle cx="182" cy="110" r="15"/><circle cx="220" cy="108" r="15"/><circle cx="252" cy="124" r="14"/><circle cx="300" cy="128" r="15"/><circle cx="310" cy="158" r="15"/><circle cx="196" cy="102" r="14"/>
-      </g>
-    </svg>
-  </div>
+<body class="landing">
+  <!-- Weirwood backdrop tree removed for now (Matt preferred an earlier look);
+       page keeps its plain background. -->
 
   <header class="site-head">
     <div class="head-inner">
       <div class="brand">
-        <span class="mark" aria-hidden="true"></span>
         <div class="brand-text">
           <h1>The Weirwood Network</h1>
           <p class="tagline">a thousand eyes, and one</p>
@@ -103,11 +73,6 @@
       <div class="thread" id="thread"><!-- bubbles injected here --></div>
 
       <form class="composer" id="composer" autocomplete="off">
-        <div class="examples" id="examples" aria-label="Example questions">
-          <button type="button" class="chip" data-q="Why did Robert's Rebellion start?">Why did Robert&rsquo;s Rebellion start?</button>
-          <button type="button" class="chip" data-q="What led to the Red Wedding?">What led to the Red Wedding?</button>
-          <button type="button" class="chip" data-q="Who is connected to Jon Snow?">Who is connected to Jon Snow?</button>
-        </div>
         <div class="composer-row">
           <textarea id="input" class="input" rows="1" placeholder="Ask your questions…"
             aria-label="Ask a question"></textarea>

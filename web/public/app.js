@@ -906,6 +906,7 @@ const history = [];
 const MAX_HISTORY = 8;
 
 function addUserBubble(text) {
+  document.body.classList.remove("landing"); // first question → composer sticks to the bottom
   threadEl.append(el("div", { class: "msg user" }, [
     el("div", { class: "msg-role" }, "you"),
     el("div", { class: "bubble" }, text),
@@ -1145,11 +1146,6 @@ function autosize() {
   inputEl.style.height = "auto";
   inputEl.style.height = Math.min(inputEl.scrollHeight, 144) + "px";
 }
-
-$("#examples").addEventListener("click", (e) => {
-  const q = e.target.closest(".chip")?.dataset.q;
-  if (q) { inputEl.value = q; autosize(); inputEl.focus(); }
-});
 
 // About view: the page opens to the chat; the header button swaps in the "what
 // is this" framing (and back). Driven by a body class so CSS owns the show/hide.

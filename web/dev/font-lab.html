@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weirwood — Prose Font Lab</title>
+
+<!-- Literary serifs for reference comparison (Google Fonts). The Monaspace
+     families are self-hosted from dev/fonts/ below. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,400;0,500;1,400&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+<style>
+  /* Monaspace variable families (self-hosted). Each Var.woff2 carries the full
+     weight range + a slant/italic axis, so one @font-face covers all styles. */
+  @font-face { font-family: "Monaspace Xenon";   src: url("./fonts/monaspace-xenon.woff2")   format("woff2"); font-weight: 200 800; font-style: oblique 0deg 11deg; font-display: swap; }
+  @font-face { font-family: "Monaspace Neon";    src: url("./fonts/monaspace-neon.woff2")    format("woff2"); font-weight: 200 800; font-style: oblique 0deg 11deg; font-display: swap; }
+  @font-face { font-family: "Monaspace Argon";   src: url("./fonts/monaspace-argon.woff2")   format("woff2"); font-weight: 200 800; font-style: oblique 0deg 11deg; font-display: swap; }
+  @font-face { font-family: "Monaspace Radon";   src: url("./fonts/monaspace-radon.woff2")   format("woff2"); font-weight: 200 800; font-style: oblique 0deg 11deg; font-display: swap; }
+  @font-face { font-family: "Monaspace Krypton"; src: url("./fonts/monaspace-krypton.woff2") format("woff2"); font-weight: 200 800; font-style: oblique 0deg 11deg; font-display: swap; }
+
+  /* --- App theme tokens (mirrored from public/theme/tokens.css so the lab
+     renders prose in the REAL context — same ground, bone text, dusty red) --- */
+  :root {
+    --c-bg:          #16100e;
+    --c-surface:     #241f1a;
+    --c-border:      #3a322a;
+    --c-text:        #e9e1d2;
+    --c-text-dim:    #b3a994;
+    --c-text-faint:  #8a8170;
+    --c-accent:      #c1332f;
+    --c-accent-deep: #98241f;
+    --c-accent-soft: #e0857b;
+    --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+    /* Live-controlled prose knobs (JS writes these). */
+    --prose-font: Georgia, "Iowan Old Style", Palatino, serif;
+    --prose-size: 1.12rem;
+    --prose-lh: 1.72;
+    --prose-weight: 400;
+    --prose-spacing: 0em;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--c-bg);
+    color: var(--c-text);
+    font-family: var(--font-ui);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  /* ---- Control bar (sticky) ---- */
+  .controls {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 20px;
+    padding: 14px 28px;
+    background: color-mix(in srgb, var(--c-bg) 92%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--c-border);
+    font-size: 13px;
+  }
+  .controls .grp { display: flex; align-items: center; gap: 8px; }
+  .controls label { color: var(--c-text-faint); letter-spacing: 0.02em; text-transform: uppercase; font-size: 11px; }
+  .controls select, .controls input[type="range"] { accent-color: var(--c-accent); }
+  .controls select {
+    font: inherit; color: var(--c-text); background: var(--c-surface);
+    border: 1px solid var(--c-border); border-radius: 6px; padding: 6px 10px; cursor: pointer;
+  }
+  .controls .val { color: var(--c-accent-soft); font-family: var(--font-mono); min-width: 3.2em; }
+  .controls .css-out {
+    margin-left: auto; font-family: var(--font-mono); font-size: 11px;
+    color: var(--c-text-dim); background: var(--c-surface);
+    border: 1px solid var(--c-border); border-radius: 6px; padding: 6px 10px;
+    max-width: 46ch; overflow-x: auto; white-space: nowrap; cursor: copy;
+  }
+  .note-family { font-family: var(--font-mono); color: var(--c-accent-soft); }
+
+  /* ---- The prose stage — reproduces public/app.css .msg.bot .bubble ---- */
+  .stage { max-width: 46rem; margin: 0 auto; padding: 40px 28px 96px; }
+  .stage h1.lab-name {
+    font-family: var(--font-ui); font-weight: 500; font-size: 13px;
+    text-transform: uppercase; letter-spacing: 0.12em; color: var(--c-accent-soft);
+    margin: 0 0 4px;
+  }
+  .stage .lab-sub { color: var(--c-text-faint); font-size: 12px; margin: 0 0 32px; font-family: var(--font-mono); }
+
+  .msg-role {
+    font-family: var(--font-mono); font-size: 0.8rem; color: var(--c-text-faint);
+    letter-spacing: 0.04em; margin-bottom: 12px;
+  }
+  .prose {
+    font-family: var(--prose-font);
+    font-size: var(--prose-size);
+    line-height: var(--prose-lh);
+    font-weight: var(--prose-weight);
+    letter-spacing: var(--prose-spacing);
+    color: var(--c-text);
+  }
+  .prose p { margin: 0 0 1.05em; }
+  .prose em { font-style: italic; }
+  .prose strong { font-weight: 600; }
+  .prose blockquote {
+    margin: 1.2em 0; padding: 8px 20px;
+    border-left: 2px solid var(--c-accent-deep);
+    color: var(--c-text-dim); font-style: italic;
+  }
+  .prose .cite { font-family: var(--font-mono); font-size: 0.72em; color: var(--c-text-faint); font-style: normal; }
+</style>
+</head>
+<body>
+
+<div class="controls">
+  <div class="grp">
+    <label for="font">Prose font</label>
+    <select id="font"></select>
+  </div>
+  <div class="grp">
+    <label for="size">Size</label>
+    <input id="size" type="range" min="0.9" max="1.5" step="0.01" value="1.12">
+    <span class="val" id="size-val">1.12rem</span>
+  </div>
+  <div class="grp">
+    <label for="lh">Line</label>
+    <input id="lh" type="range" min="1.3" max="2.1" step="0.01" value="1.72">
+    <span class="val" id="lh-val">1.72</span>
+  </div>
+  <div class="grp">
+    <label for="wt">Weight</label>
+    <input id="wt" type="range" min="300" max="600" step="10" value="400">
+    <span class="val" id="wt-val">400</span>
+  </div>
+  <div class="grp">
+    <label for="ls">Tracking</label>
+    <input id="ls" type="range" min="-0.02" max="0.04" step="0.005" value="0">
+    <span class="val" id="ls-val">0em</span>
+  </div>
+  <div class="css-out" id="css-out" title="click to copy">--font-prose: …</div>
+</div>
+
+<main class="stage">
+  <h1 class="lab-name">Prose font lab</h1>
+  <p class="lab-sub">the-three-eyed-raven speaking · pick a font up top · sliders are live · click the CSS chip to copy</p>
+
+  <div class="msg-role">the three-eyed raven</div>
+  <div class="prose" id="prose">
+    <p>You ask why Robert Baratheon took the realm by storm, and the answer runs
+    older than the war itself — back to a promise sworn and a promise broken.
+    Lyanna Stark was betrothed to Robert, and Robert loved her as men love the
+    thing they cannot keep. When Rhaegar Targaryen carried her off, the love
+    curdled into a grief that only killing would answer.</p>
+
+    <p>Yet it was not love alone that lit the beacon fires. The Mad King called
+    for two heads — <strong>Eddard Stark</strong> and <strong>Robert
+    Baratheon</strong> — and Jon Arryn, who had raised them both, chose his
+    foster-sons over his king. That refusal was the true spark. Rebellion needs
+    a wronged lord, and Aerys had made three of them in a season.</p>
+
+    <blockquote>"The realm. Do you know what the realm is? It is the thousand
+    blades of Aegon's foes, a story we agree to tell each other over and over,
+    till we forget that it's a lie." <span class="cite">— asos, jon-73:214</span></blockquote>
+
+    <p>So the stag ran red at the Trident, and Rhaegar fell with rubies scattering
+    into the current like drops of his own blood. But mark this, and mark it well:
+    the war that <em>seemed</em> to be about a stolen woman was, beneath the skin,
+    about a mad king's fear and a foster-father's loyalty. The songs remember
+    Lyanna. The graph remembers the rest.</p>
+
+    <p>Ask further and I will walk you down any thread of it — the tourney at
+    Harrenhal where it began, the sack of King's Landing where it ended, or the
+    quiet chamber in Dorne where its last secret still sleeps.</p>
+  </div>
+</main>
+
+<script>
+  // Candidate fonts. `css` is exactly what would go into --font-prose.
+  const FONTS = [
+    { label: "Georgia (current)",     css: 'Georgia, "Iowan Old Style", Palatino, serif' },
+    { label: "Monaspace Xenon (slab serif)", css: '"Monaspace Xenon", serif' },
+    { label: "Monaspace Neon (grotesque)",   css: '"Monaspace Neon", monospace' },
+    { label: "Monaspace Argon (humanist)",   css: '"Monaspace Argon", sans-serif' },
+    { label: "Monaspace Radon (handwriting)",css: '"Monaspace Radon", cursive' },
+    { label: "Monaspace Krypton (mechanical)",css: '"Monaspace Krypton", monospace' },
+    { label: "— serifs for reference —",      css: '', disabled: true },
+    { label: "EB Garamond",           css: '"EB Garamond", Georgia, serif' },
+    { label: "Spectral",              css: '"Spectral", Georgia, serif' },
+    { label: "Newsreader",            css: '"Newsreader", Georgia, serif' },
+    { label: "Lora",                  css: '"Lora", Georgia, serif' },
+    { label: "Cormorant Garamond",    css: '"Cormorant Garamond", Georgia, serif' },
+  ];
+
+  const $ = (s) => document.querySelector(s);
+  const root = document.documentElement.style;
+  const sel = $("#font");
+  for (const f of FONTS) {
+    const o = document.createElement("option");
+    o.value = f.css; o.textContent = f.label;
+    if (f.disabled) o.disabled = true;
+    sel.append(o);
+  }
+
+  const cssOut = $("#css-out");
+  function syncCss() {
+    cssOut.textContent = `--font-prose: ${sel.value};`;
+  }
+  function setVar(name, v) { root.setProperty(name, v); }
+
+  sel.addEventListener("change", () => { setVar("--prose-font", sel.value); syncCss(); });
+
+  function bindRange(id, cssVar, fmt, valId) {
+    const inp = $("#" + id), out = $("#" + valId);
+    const apply = () => { const v = fmt(inp.value); setVar(cssVar, v); out.textContent = v; };
+    inp.addEventListener("input", apply); apply();
+  }
+  bindRange("size", "--prose-size", (v) => v + "rem", "size-val");
+  bindRange("lh",   "--prose-lh",   (v) => (+v).toFixed(2), "lh-val");
+  bindRange("wt",   "--prose-weight",(v) => v, "wt-val");
+  bindRange("ls",   "--prose-spacing",(v) => (+v) + "em", "ls-val");
+
+  cssOut.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(cssOut.textContent); cssOut.style.color = "var(--c-accent-soft)";
+      const t = cssOut.textContent; cssOut.textContent = "copied ✓"; setTimeout(() => { cssOut.textContent = t; cssOut.style.color = ""; }, 900);
+    } catch {}
+  });
+
+  // Start on Monaspace Xenon — the most prose-friendly of the five.
+  sel.value = '"Monaspace Xenon", serif';
+  setVar("--prose-font", sel.value);
+  syncCss();
+</script>
+</body>
+</html>
