@@ -25,8 +25,11 @@ export function normalize(phrase: string): string {
 
 // Stop words excluded from token-overlap scoring. Mirrors the Python set:
 // articles/prepositions + interrogatives/auxiliaries, so "who killed X" and
-// "X's death" share only the entity tokens.
-const STOP: ReadonlySet<string> = new Set([
+// "X's death" share only the entity tokens. Exported so search.ts's own
+// tokenizer (which needs term FREQUENCY, not just tokenize()'s de-duped set —
+// see that file's header comment) can reuse the SAME stop-word set rather
+// than risk a second copy drifting from this one (query-layer step 5b).
+export const STOP: ReadonlySet<string> = new Set([
   "of",
   "the",
   "a",

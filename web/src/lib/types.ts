@@ -27,6 +27,14 @@ export interface NodeQuote {
 export interface NodeRecord {
   name: string;
   type: string;
+  /** The graph/nodes/ type-directory name (e.g. "foods") — added query-layer
+   *  step 5d for listNodes()'s `--type` filter. DIFFERENT from `type` (the
+   *  dotted frontmatter scalar, e.g. "object.food"); see
+   *  build_chat_bundle.py's load_nodes() docstring for why the two
+   *  vocabularies aren't 1:1. Optional so pre-existing synthetic test
+   *  fixtures (walkChain/neighbors specs that don't exercise listNodes)
+   *  don't need updating; always present on real bundle data. */
+  category?: string;
   identity: string;
   quotes: NodeQuote[];
   /** Chronological sort anchors (event nodes only; absent otherwise). Written by
@@ -52,14 +60,68 @@ export interface Edge {
   relation: string | null;
 }
 
+/** One doc row in `search-index.json`'s compact `docs` array — see
+ *  `graph/query/build/build_search_index.py`'s module docstring for the
+ *  exact wire shape. `kindCode` 0 = "quote", 1 = "identity". `category` is
+ *  the graph/nodes/ type-directory name (e.g. "foods") — the SAME vocabulary
+ *  `search()`'s `type` filter/return field uses, distinct from `NodeRecord.type`
+ *  (the dotted frontmatter scalar, e.g. "object.food"). */
+export type SearchIndexDocRow = [
+  slug: string,
+  category: string,
+  kindCode: number,
+  qidx: number | null,
+  cite: string | null,
+];
+
+/** `search-index.json` (compact format) — the build-time BM25-ish inverted
+ *  index over node quotes + identity blurbs (query-layer step 5a). `postings`
+ *  values are FLAT delta-encoded arrays: `[deltaDocId0, tf0, deltaDocId1,
+ *  tf1, ...]` — decode by running-summing the deltas (see `search.ts`'s
+ *  `decodePostings`). `idf` and `doc_lengths` are keyed/indexed by the same
+ *  doc_id space as `docs`. */
+export interface SearchIndex {
+  format: "compact";
+  n_docs: number;
+  avgdl: number;
+  min_token_len: number;
+  docs: SearchIndexDocRow[];
+  doc_lengths: number[];
+  idf: Record<string, number>;
+  postings: Record<string, number[]>;
+}
+
 /** The whole in-memory bundle. The curated graph fits in memory — no lazy-loading. */
 export interface GraphData {
   aliasMap: AliasMap;
   nodes: NodesMap;
   edges: Edge[];
+  /** Optional so pre-existing synthetic test fixtures (walkChain/neighbors
+   *  specs built by hand, not via loadGraphData()) don't need updating;
+   *  always present on real bundle data. searchQuotes() requires it — a
+   *  fixture with no searchIndex simply can't call that op. */
+  searchIndex?: SearchIndex;
 }
 
 // ---- Tool return shapes (the receipts contract) ----
+
+/**
+ * One searchQuotes() hit — a ranked quote or identity blurb. `type` is the
+ * node's category (graph/nodes/ type-directory name, e.g. "foods" — see
+ * `SearchIndexDocRow`'s comment), NOT `NodeRecord.type`. `cite` is a
+ * `chapter:line` string when the underlying quote carries one, else `null`
+ * (identity-blurb hits never carry a cite — the dossier's `read_node(slug)`
+ * is the provenance path for those). This is the EXACT export contract a
+ * follow-up session wires into a chat tool — keep `{slug, type, text, cite,
+ * score}` stable.
+ */
+export interface SearchResult {
+  slug: string;
+  type: string;
+  text: string | null;
+  cite: string | null;
+  score: number;
+}
 
 /** A resolve() candidate: a node the phrase might name, with how it matched. */
 export interface ResolveCandidate {
@@ -187,4 +249,22 @@ export interface FamilyTreeResult {
   memberCount: number;
   /** True when a size cap stopped the walk before it exhausted the lineage. */
   truncated: boolean;
+}
+
+/** One row in a listNodes() page. */
+export interface ListItem {
+  slug: string;
+  name: string;
+  quoteCount: number;
+}
+
+/** listNodes() return: a browse page over one node category (query-layer
+ *  step 5d). `total` counts every filter-matching node BEFORE paging, so
+ *  `total - offset - items.length` tells the caller how many more remain. */
+export interface ListResult {
+  category: string;
+  total: number;
+  offset: number;
+  limit: number;
+  items: ListItem[];
 }

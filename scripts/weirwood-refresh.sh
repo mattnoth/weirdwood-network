@@ -16,6 +16,11 @@
 #   2. build-character-indexes.py --all            (characters are a separate builder)
 #   3. graph/query/build/build_alias_table.py --build  (event alias → slug lookup;
 #      the query-engine builder — replaces event_alias_resolver.py --build, same output)
+#   4. graph/query/build/build_search_index.py     (quote+identity BM25 inverted index,
+#      query-layer step 5a — writes working/wiki/data/search-index.json AND
+#      web/data/search-index.json; the chat bundle itself (build_chat_bundle.py, the
+#      nodes/edges/alias-map/manifest quartet) is NOT rebuilt here — that stays a
+#      manual pre-deploy step per DEPLOY.md, same as before this builder existed)
 
 set -uo pipefail
 
@@ -58,7 +63,7 @@ echo ""
 
 rc=0
 
-echo "[1/3] Entity indexes (${#ENTITY_TYPES[@]} types via build-entity-indexes.py)"
+echo "[1/4] Entity indexes (${#ENTITY_TYPES[@]} types via build-entity-indexes.py)"
 for t in "${ENTITY_TYPES[@]}"; do
     if python3 scripts/build-entity-indexes.py --type "$t" --all >/dev/null 2>&1; then
         echo "      ok: $t"
@@ -68,7 +73,7 @@ for t in "${ENTITY_TYPES[@]}"; do
     fi
 done
 
-echo "[2/3] Character indexes (build-character-indexes.py --all)"
+echo "[2/4] Character indexes (build-character-indexes.py --all)"
 if python3 scripts/build-character-indexes.py --all >/dev/null 2>&1; then
     echo "      ok: characters"
 else
@@ -76,12 +81,21 @@ else
     rc=1
 fi
 
-echo "[3/3] Event alias resolver (graph/query/build/build_alias_table.py --build)"
+echo "[3/4] Event alias resolver (graph/query/build/build_alias_table.py --build)"
 if PYTHONPATH="$REPO_ROOT/graph/query${PYTHONPATH:+:$PYTHONPATH}" \
     python3 graph/query/build/build_alias_table.py --build >/dev/null 2>&1; then
     echo "      ok: event-alias-lookup.json"
 else
     echo "      FAILED: event alias resolver" >&2
+    rc=1
+fi
+
+echo "[4/4] Search index (graph/query/build/build_search_index.py)"
+if PYTHONPATH="$REPO_ROOT/graph/query${PYTHONPATH:+:$PYTHONPATH}" \
+    python3 graph/query/build/build_search_index.py >/dev/null 2>&1; then
+    echo "      ok: search-index.json (working/wiki/data/ + web/data/)"
+else
+    echo "      FAILED: search index" >&2
     rc=1
 fi
 

@@ -55,9 +55,9 @@ different answers, that is drift — the golden cases in `spec/cases/` exist to 
 | [`container`](#container) | ✅ `--container` | ❌ | **PLANNED — step 6a** |
 | [`family`](#family) | ✅ `--family-tree` / `family_tree()` | ✅ `familyTree()` | both, live — Python port shipped (step 1 close-out) |
 | [`health`](#health--census) | ✅ `--health` | ❌ | full-profile only (by design) |
-| [`search`](#search) | ❌ | ❌ | **PLANNED — step 5**, the headline capability |
-| [`list`](#list) | ❌ | ❌ | **PLANNED — step 5d** |
-| [`corpus-search` / `passage`](#corpus-search--passage) | ❌ | ❌ (deferred S172) | **PLANNED — step 5e** (Python full-profile; chat gated on Matt) |
+| [`search`](#search) | ✅ `search.py` / `weirwood query search` | ✅ `searchQuotes()` | **SHIPPED — step 5b**, the headline capability |
+| [`list`](#list) | ✅ `list_nodes.py` / `weirwood query list` | ✅ `listNodes()` | **SHIPPED — step 5d** |
+| [`corpus-search` / `passage`](#corpus-search--passage) | ✅ `corpus_search.py` / `weirwood query corpus-search` | ❌ (deferred S172; `passage` still gated) | **SHIPPED — step 5e** (Python full-profile ONLY; no bundle/chat exposure by design) |
 | [`mentions`](#mentions) | ❌ (index built, unread) | ❌ | **PLANNED — step 8b** |
 | [`theme`](#theme) | ❌ | ❌ | **PLANNED — step 8a** |
 | [`braid` / `fork-hubs` / `join-hubs`](#braid--fork-hubs--join-hubs) | ✅ `braid.py` | ❌ | **SHIPPED — step 7**, full-profile only by design |
@@ -88,6 +88,9 @@ own positional args.
 | `fork-hubs [--min-out N] [--include-enables]` | *(no legacy-flag equivalent — new op, step 7)* |
 | `join-hubs [--min-in N] [--include-enables]` | *(no legacy-flag equivalent — new op, step 7)* |
 | `braid <slugA> <slugB> [more...] [--include-enables]` | *(no legacy-flag equivalent — new op, step 7)* |
+| `search <query> [--type CATEGORY] [--limit N]` | *(no legacy-flag equivalent — new op, step 5b)* |
+| `list --type CATEGORY [--has-quotes] [--container NAME] [--limit N] [--offset N]` | *(no legacy-flag equivalent — new op, step 5d)* |
+| `corpus-search <query> [--book BOOK] [--mode phrase\|tokens] [--limit N]` | *(no legacy-flag equivalent — new op, step 5e; CLI/full-profile only)* |
 
 ---
 
@@ -472,61 +475,128 @@ counts. Read-only diagnostic used by audits and the reachability census (design 
 
 ## `search`
 
-**Status: PLANNED — step 5, the headline capability.** Not implemented in either profile
-today (`G1` — "no content search" — the confirmed headline gap; see design doc §2b).
+**Status: SHIPPED — step 5b (2026-07-04).** Answers descriptive/thematic/quote-hunting
+questions ("describe some detailed meals", "what do people say about honor") that
+`resolve`+`chain` cannot — those require an entity slug up front; `search` is content-first.
 
-**Intended purpose:** answer descriptive/thematic/quote-hunting questions ("describe some
-detailed meals", "what do people say about honor") that `resolve`+`chain` cannot — those
-require an entity slug up front; `search` is content-first.
+**Substrate:** every `## Quotes` line + every `## Identity` paragraph across `graph/nodes/`
+(excluding `_conflicts/`) — 13,714 docs (6,057 quote + 7,657 identity) as of the 2026-07-04
+build. Chapter full-text search is the separate, CLI-only `corpus-search` op (below).
 
-**Intended substrate:** the 6,053 curated node quotes + 8,473 identity-blurb paragraphs (the
-citable layer the chat is already restricted to quoting from) — chapter full-text search is
-a separate, CLI-first capability (`corpus-search`, below), not part of this op.
+**Mechanism:** a build-time tokenized inverted index (`graph/query/build/build_search_index.py`
+— deterministic, no LLM, no embeddings, see design doc D-C) with request-time BM25 scoring:
 
-**Intended mechanism:** a build-time tokenized inverted index (deterministic, no LLM, no
-embeddings — see design doc D-C) with request-time BM25-ish scoring. Each hit:
-`{slug, type, text, cite}`.
+```
+idf(t)      = ln(1 + (N - df(t) + 0.5) / (df(t) + 0.5))
+tf_sat(t,d) = tf(t,d) * (k1 + 1) / (tf(t,d) + k1 * (1 - b + b * (len(d) / avgdl)))
+score(q,d)  = sum over t in q of idf(t) * tf_sat(t,d)
+k1 = 1.5, b = 0.75  (standard Okapi BM25 defaults)
+```
 
-**Intended inputs:** `query: string`, optional `type` filter (e.g. `foods`).
+Tokenization is the shared `normalize.py` / `normalize.ts` word-pattern + stop-word set
+(word-chars, lowercased), with a minimum token length of 2 — the query side and the
+build-time doc side MUST use the identical rule or postings lookups silently miss (see
+`search.py`/`search.ts`'s own header comments; `search.ts` imports `STOP` directly from
+`normalize.ts` rather than keeping a second copy).
 
-This section is a placeholder for step 5 to fill in with real semantics + a real
-`search.json` golden-case file once `search.py`/`search.ts` exist. No golden cases ship for
-`search` in this v1 — there is no implementation to pin.
+**Two index artifacts** (`build_search_index.py`'s two on-disk FORMATS — see that module's
+docstring for the exact wire shapes):
+- `working/wiki/data/search-index.json` — the FULL format (friendly dict-of-dicts, text
+  inline; ~6.7 MB) consumed by the Python full-profile engine (`weirwood_query/search.py`).
+- `web/data/search-index.json` — the COMPACT bundle format (array-based, delta-encoded
+  postings, `text` NOT carried — reconstructed from `nodes.json` at request time; ~2.38 MB
+  as of the 2026-07-04 build, within the ≤2.5 MB budget) shipped in the chat bundle and wired
+  into `build_chat_bundle.py`'s manifest as a `search-index.json` size entry.
+
+**Inputs:** `query: string`, optional `type` filter — the graph/nodes/ TYPE-DIRECTORY name
+(e.g. `foods`; NOT the dotted frontmatter `type:` scalar like `object.food` — the two
+vocabularies differ, see `build_search_index.py`'s comment on why), optional `limit`
+(default 12, both profiles).
+
+**Outputs:** ranked `{slug, type, text, cite, score}` — `type` is the category described
+above; `cite` is a `chapter:line` string when the underlying quote carries one, else `null`
+(identity-blurb hits never carry a cite; `read <slug>` is the provenance path for those).
+
+**CLI:** `weirwood query search "lemon cakes" [--type foods] [--limit N] [--json]`.
+**TS export contract:** `searchQuotes(query: string, opts?: {type?: string; limit?: number}):
+SearchResult[]` in `web/src/lib/search.ts` (exported from `mod.ts`/`types.ts`) — NOT yet
+wired as a chat tool in `agent.ts` (a separate follow-up agent's job per this Track's hard
+gate); the exact `{slug, type, text, cite, score}` contract is kept stable for that wiring.
+
+**Golden cases:** `spec/cases/search.json` (6 cases, profile "both") — "lemon cakes" (food
+node reachable, invariant-mode since `lemon`/`lemon-cake` compete closely for rank 1),
+"seventy-seven courses" (exact top = `purple-wedding` with a navigable book cite), "guest
+right" (exact top = the `guest-right` custom node itself, not an incidental mention), a
+`--type` filter case, and two no-result edge cases (nonsense query, whitespace-only query).
 
 ---
 
 ## `list`
 
-**Status: PLANNED — step 5d.** Not implemented in either profile today (`G6` — "no browse
-surface").
+**Status: SHIPPED — step 5d (2026-07-04).** Trivial browse — "list every node of type X"
+(optionally filtered to quote-bearing nodes), paged.
 
-**Intended purpose:** trivial browse — "list every node of type X" (optionally filtered,
-e.g. `--has-quotes`), paged.
+**Inputs:** `type: string` (required — the graph/nodes/ category directory name; there is no
+"list everything" mode), optional `has_quotes: boolean`, optional `container: string`
+(full-profile only — see Profile difference below), `limit`/`offset` for pagination.
 
-**Intended inputs:** `type: string`, optional filters (`has_quotes: boolean`, pagination).
+**Outputs:** `{category, total, offset, limit, items: [{slug, name, quote_count}]}` — `total`
+counts every filter-matching node BEFORE paging (so `total - offset - len(items)` tells the
+caller how many more remain). An unknown/empty category returns `total: 0, items: []`, not an
+error (mirrors `container()`'s "no matches" convention — a typo is a query mistake, not a
+system fault).
 
-No golden cases ship for `list` in this v1.
+**Profile difference:** the full-profile Python `list_nodes()` supports a `--container NAME`
+filter (reuses `traverse._node_containers`'s bag-retrieval parsing, scoped to one category).
+The bounded/TS `listNodes()` has **no container filter** — `containers:` frontmatter is not
+in the bundle yet (design doc step 6a, not done). Documented profile difference, not a bug.
+
+**CLI:** `weirwood query list --type foods [--has-quotes] [--container NAME] [--limit N]
+[--offset N] [--json]`.
+**TS export:** `listNodes(data, opts): ListResult` in `web/src/lib/list.ts` — no chat tool
+(gated on evals per the design doc).
+
+**Golden cases:** `spec/cases/list.json` (2 cases, profile "both") — an exact full-listing
+pin against the `customs` category (37 nodes total; chosen because it is free of the
+duplicate-slug collisions found in `foods` during this step — see the spawned data-hygiene
+follow-up task, `graph/query/spec/run_cases.py`/`spec_cases_test.ts` comments), and the
+unknown-category-returns-empty case.
 
 ---
 
 ## `corpus-search` / `passage`
 
-**Status: PLANNED — step 5e.** Not implemented in either profile. Deferred once already
-(S172) pending "a build-time inverted index" — the same mechanism `search` above will use,
-extended to full chapter text.
+**Status: `corpus-search` SHIPPED — step 5e (2026-07-04); `passage` still DESIGNED-BUT-GATED,
+NOT built.** `corpus-search` was deferred once already (S172) pending "a build-time inverted
+index" (the mechanism `search` above now uses for the curated layer) — `corpus-search` itself
+is a live, uncached scan, not index-backed, since chapter full-text search is explicitly
+CLI-only and never needs to fit an edge-function CPU budget.
 
-**Intended full-profile semantics (`corpus-search`):** grep-class search over
-`sources/chapters/*.md` with `chapter:line` citations — a CLI-only capability (local
-filesystem, unbounded).
+**`corpus-search` semantics (Python full-profile, CLI-ONLY — no bundle/chat exposure, per the
+design doc's explicit instruction):** grep-class search over `sources/chapters/**/*.md`
+(371 files), case-insensitive, line-by-line. Two modes:
+- `phrase` (default): whole-phrase substring match (whitespace-collapsed on both sides).
+- `tokens`: every whitespace/punctuation-stripped token of the query must appear on the
+  line, any order (looser recall for topic-level matches).
 
-**Intended `passage` (edge-side, gated):** a static-asset fetch of chapter text
-(`web/public/chapter/<slug>.json` or similar) consumed by `/api/node` or a chat tool at
+**Inputs:** `query: string`, optional `book` (a `sources/chapters/` subdirectory name, e.g.
+`agot`), `mode` (`phrase` default or `tokens`), `limit` (default 20).
+
+**Outputs:** `{query, mode, book, total, limit, matches: [{cite, book, text}]}` — `cite` is a
+`sources/chapters/<book>/<file>.md:<line>` string (1-indexed line number), the same format
+node quotes already carry.
+
+**CLI:** `weirwood query corpus-search "lamprey pie" [--book agot] [--mode phrase|tokens]
+[--limit N] [--json]`. No TS port, no chat tool, no golden cases — this op never leaves the
+CLI (`weirwood_query/corpus_search.py`'s own module docstring restates the gate).
+
+**`passage` (edge-side, still gated, NOT built this step):** a static-asset fetch of chapter
+text (`web/public/chapter/<slug>.json` or similar) consumed by `/api/node` or a chat tool at
 request time — network I/O falls outside the Edge function's 50 ms CPU budget, unlike
 in-memory bundle lookups. **Explicitly gated on Matt** before it ships to the public chat
 (the session-C advisory-board fan-out decides `read_passage`-to-chat vs. CLI-only, per the
-design doc §8).
-
-No golden cases ship for this op family in this v1.
+design doc §8). This step does not build `passage` — it only ships the CLI-only
+`corpus-search` half.
 
 ---
 
@@ -683,3 +753,33 @@ ratify as permanent:
   `deno task test` stays 66/66 (full-profile-only cases register as `ignore: true`, per the
   existing runner's own handling — no TS file touched). Legacy pytest suites
   (`test_graph_query_edges.py`, `test_graph_query_hardening.py`) untouched, still 48/48.
+- **2026-07-04 (S189, step 5a/b/d/e — session B, the search substrate):** `search`/`list`/
+  `corpus-search` shipped. Build-time inverted index (`build/build_search_index.py`) over
+  13,714 quote+identity docs (17,520 unique tokens), two formats: FULL
+  (`working/wiki/data/search-index.json`, ~6.7 MB, text inline) and COMPACT
+  (`web/data/search-index.json`, ~2.38 MB — array-based docs/doc_lengths, delta-encoded flat
+  postings, IDF rounded to 4 decimals; the naive dict-of-dicts-both-copies approach measured
+  ~6.7 MB / ~4.1 MB before this compaction). BM25 (k1=1.5, b=0.75), documented once, both
+  engines implement the identical formula. `weirwood_query/search.py` + `web/src/lib/search.ts`
+  (exports `searchQuotes(query, opts?): SearchResult[]`, the exact contract a follow-up
+  chat-tool-wiring session will consume); `weirwood_query/list_nodes.py` +
+  `web/src/lib/list.ts`; `weirwood_query/corpus_search.py` (CLI-only, no TS port, per the
+  design doc's explicit gate). Discovered `nodes.json` had no per-node category field
+  (needed for `--type`/`list`'s category filter, distinct from the frontmatter `type:`
+  scalar) — added `category` to `build_chat_bundle.py`'s `load_nodes()` and `NodeRecord`
+  (the only nodes/edges/alias-map bundle change this session; edges.json and alias-map.json
+  are byte-identical before/after). Verified spot-checks: "lemon cakes" → `lemon-cake`/`lemon`
+  food nodes reachable top-3; "seventy-seven courses" → `purple-wedding` exact top with a
+  navigable Sansa-POV cite; "guest right" → the `guest-right` custom node itself ranks first.
+  8 new golden cases (`spec/cases/search.json` ×6, `spec/cases/list.json` ×2, profile "both"),
+  registered in both `spec_cases_test.ts` and `run_cases.py` — all pass on both runtimes.
+  `deno task test`: 75/75 (was 67/67). `run_cases.py`: 25 passed / 1 skipped (unrelated
+  pre-existing neighbors-full-profile placeholder) — was 17/1. `pytest tests/`: 1322
+  passed / 3 pre-existing fails (unchanged baseline). Found — but did NOT fix, per the
+  no-graph-mutation gate — a pre-existing data-hygiene issue: at least 4 slugs
+  (`sweetsleep`, `peach`, `porridge`, `sourleaf`) exist as separate node files under two
+  different `graph/nodes/` category directories each, causing `build_chat_bundle.py`'s
+  slug-keyed dict to silently let one category's version clobber the other's in the shipped
+  bundle; spawned a follow-up task to survey and propose fixes (G18-style, gated on Matt).
+  `weirwood-refresh.sh` gained a 4th builder step (`build_search_index.py`); the bundle
+  quartet (`build_chat_bundle.py`) stays a separate manual pre-deploy step, unchanged.

@@ -12,8 +12,12 @@ directory, only the single edges.jsonl.
 
 Outputs (web/data/ by default; override with --out-dir for verification runs):
   alias-map.json      {phrase: [{slug, category}]}            — resolve(phrase) -> slugs
-  nodes.json          {slug: {name, type, identity, quotes}}  — read_node(slug)
+  nodes.json          {slug: {name, type, category, identity, quotes}} — read_node(slug) / listNodes()
   edges.json          [{edge_type, source, target, quote, ref, tier, relation}] — walk_chain / neighbors
+  search-index.json   compact BM25 inverted index (query-layer step 5a) — searchQuotes(query)
+                       BUILT BY build/build_search_index.py, not this module — this module only
+                       measures it into the manifest (see `_search_index_size` below); the two
+                       builders write independently, `weirwood refresh` runs both.
   manifest.json       {built_at?, counts, sizes}              — provenance / sanity
 
 Usage:
@@ -84,7 +88,17 @@ def slim_edge(e):
 
 
 def load_nodes(nodes_dir: Path = NODES_DIR):
-    """slug -> {name, type, identity, quotes}. Slim: drop the heavy ## Edges prose."""
+    """slug -> {name, type, category, identity, quotes}. Slim: drop the heavy
+    ## Edges prose.
+
+    `category` (query-layer step 5d, added for listNodes()'s --type filter):
+    the graph/nodes/ TYPE-DIRECTORY name (e.g. "foods") — path.parent.name,
+    always exactly one level under nodes_dir (verified: no node file nests
+    deeper). DIFFERENT from `type` (the frontmatter `type:` scalar, e.g.
+    "object.food" — see build_search_index.py's own comment on why the two
+    vocabularies aren't 1:1: 5 of 41 frontmatter types map to >1 directory,
+    e.g. concept.custom -> customs/concepts, event.war -> events/characters).
+    """
     import re
 
     nodes = {}
@@ -97,6 +111,7 @@ def load_nodes(nodes_dir: Path = NODES_DIR):
         slug = fields.get("slug") or fallback
         name = fields.get("name") or slug
         ntype = fields.get("type") or ""
+        category = path.parent.name
         sections = split_sections(body)
         identity = sections.get("identity", "")
         # Strip inline markdown link syntax [text](slug) -> text for clean prose.
@@ -105,6 +120,7 @@ def load_nodes(nodes_dir: Path = NODES_DIR):
         rec = {
             "name": str(name),
             "type": str(ntype),
+            "category": category,
             "identity": identity,
             "quotes": quotes,
         }
@@ -201,6 +217,15 @@ def main():
     sizes["nodes.json"] = write_json(out_dir / "nodes.json", nodes)
     sizes["edges.json"] = write_json(out_dir / "edges.json", edges)
     sizes["alias-map.json"] = write_json(out_dir / "alias-map.json", alias_map)
+
+    # search-index.json is built by build/build_search_index.py, a separate
+    # builder (query-layer step 5a) — this module does NOT regenerate it, it
+    # only measures whatever copy is already on disk into the manifest, so a
+    # caller that forgets to run build_search_index.py first sees a manifest
+    # gap (0 / absent) rather than a silently stale-but-present number.
+    search_index_path = out_dir / "search-index.json"
+    if search_index_path.exists():
+        sizes["search-index.json"] = search_index_path.stat().st_size
 
     quotes_total = sum(len(n["quotes"]) for n in nodes.values())
     nodes_with_quotes = sum(1 for n in nodes.values() if n["quotes"])

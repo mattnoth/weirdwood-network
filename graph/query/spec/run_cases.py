@@ -35,7 +35,10 @@ REPO_ROOT = SPEC_DIR.parent.parent.parent  # graph/query/spec -> graph/query -> 
 QUERY_PKG_DIR = REPO_ROOT / "graph" / "query"
 WEB_DATA_DIR = REPO_ROOT / "web" / "data"
 
-CASE_FILES = ["resolve.json", "neighbors.json", "chain.json", "family.json", "braid.json"]
+CASE_FILES = [
+    "resolve.json", "neighbors.json", "chain.json", "family.json", "braid.json",
+    "search.json", "list.json",
+]
 
 # `family` cases are tagged profile: "bounded" (they pin values verified against
 # the live TS engine) but, as of step 1 close-out, the Python family_tree() port
@@ -421,6 +424,135 @@ def try_braid(engine: Engine, case: dict) -> tuple[str, str]:
     return "pass", "shared-ancestor/descendant/offset invariants held"
 
 
+def _search_mod(engine: Engine) -> Any:
+    """Lazily fetch weirwood_query.search — same defensive-import pattern as
+    _braid_mod (search.py/list_nodes.py are new this session)."""
+    if not engine.ok:
+        return None
+    try:
+        import weirwood_query  # type: ignore
+
+        return getattr(weirwood_query, "search", None)
+    except Exception:
+        return None
+
+
+def _list_nodes_mod(engine: Engine) -> Any:
+    if not engine.ok:
+        return None
+    try:
+        import weirwood_query  # type: ignore
+
+        return getattr(weirwood_query, "list_nodes", None)
+    except Exception:
+        return None
+
+
+def try_search(engine: Engine, case: dict) -> tuple[str, str]:
+    mod = _search_mod(engine)
+    fn = find_callable(mod, "search")
+    if fn is None:
+        return "skip", "no search() callable found in weirwood_query.search"
+
+    inp = case["input"]
+    kwargs: dict[str, Any] = {}
+    if "type" in inp:
+        kwargs["node_type"] = inp["type"]
+    if "limit" in inp:
+        kwargs["limit"] = inp["limit"]
+    try:
+        results = fn(inp["query"], **kwargs)
+    except Exception as e:
+        return "skip", f"search() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+
+    if "results" in exp:
+        if results != exp["results"]:
+            problems.append(f"results: got {results!r}, expected {exp['results']!r}")
+    if "top" in exp:
+        if not results:
+            problems.append("expected at least one result for 'top' assertion")
+        else:
+            top = exp["top"]
+            if "slug" in top and results[0]["slug"] != top["slug"]:
+                problems.append(f"top.slug: got {results[0]['slug']!r}, expected {top['slug']!r}")
+            if "type" in top and results[0]["type"] != top["type"]:
+                problems.append(f"top.type: got {results[0]['type']!r}, expected {top['type']!r}")
+    if "topCiteContains" in exp:
+        if not results:
+            problems.append("expected at least one result for 'topCiteContains' assertion")
+        elif exp["topCiteContains"] not in (results[0].get("cite") or ""):
+            problems.append(
+                f"topCiteContains: cite {results[0].get('cite')!r} does not contain {exp['topCiteContains']!r}"
+            )
+    if "mustIncludeSlug" in exp:
+        if not any(r["slug"] == exp["mustIncludeSlug"] for r in results):
+            problems.append(f"mustIncludeSlug: {exp['mustIncludeSlug']!r} not found among results")
+    if "topTypeIn" in exp:
+        if not results:
+            problems.append("expected at least one result for 'topTypeIn' assertion")
+        elif results[0]["type"] not in exp["topTypeIn"]:
+            problems.append(f"topTypeIn: top.type {results[0]['type']!r} not in {exp['topTypeIn']!r}")
+    if "topScoreAtLeast" in exp:
+        if not results:
+            problems.append("expected at least one result for 'topScoreAtLeast' assertion")
+        elif results[0]["score"] < exp["topScoreAtLeast"]:
+            problems.append(f"topScoreAtLeast: top score {results[0]['score']} < {exp['topScoreAtLeast']}")
+    if "allTypesEqual" in exp:
+        bad = [r["slug"] for r in results if r["type"] != exp["allTypesEqual"]]
+        if bad:
+            problems.append(f"allTypesEqual={exp['allTypesEqual']!r}: violated by {bad}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{len(results)} result(s) for query {inp['query']!r}"
+
+
+def try_list(engine: Engine, case: dict) -> tuple[str, str]:
+    mod = _list_nodes_mod(engine)
+    fn = find_callable(mod, "list_nodes")
+    if fn is None:
+        return "skip", "no list_nodes() callable found in weirwood_query.list_nodes"
+
+    inp = case["input"]
+    kwargs: dict[str, Any] = {}
+    if "hasQuotes" in inp:
+        kwargs["has_quotes"] = inp["hasQuotes"]
+    if "limit" in inp:
+        kwargs["limit"] = inp["limit"]
+    if "offset" in inp:
+        kwargs["offset"] = inp["offset"]
+    try:
+        result = fn(inp["type"], **kwargs)
+    except Exception as e:
+        return "skip", f"list_nodes() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+
+    if "category" in exp and result.get("category") != exp["category"]:
+        problems.append(f"category: got {result.get('category')!r}, expected {exp['category']!r}")
+    if "total" in exp and result.get("total") != exp["total"]:
+        problems.append(f"total: got {result.get('total')!r}, expected {exp['total']!r}")
+    if "items" in exp:
+        # Python items carry snake_case quote_count; the golden case (authored
+        # against the TS camelCase shape) uses quoteCount — normalize both
+        # sides to a comparable tuple form rather than forcing one casing.
+        def norm(items: list[dict]) -> list[tuple]:
+            return [(it.get("slug"), it.get("name"), it.get("quoteCount", it.get("quote_count"))) for it in items]
+
+        got = norm(result.get("items", []))
+        want = norm(exp["items"])
+        if got != want:
+            problems.append(f"items: got {got!r}, expected {want!r}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{result.get('total')} node(s) in category {inp['type']!r}"
+
+
 RUNNERS: dict[str, Callable[[Engine, dict], tuple[str, str]]] = {
     "resolve": try_resolve,
     "neighbors": try_neighbors,
@@ -429,6 +561,8 @@ RUNNERS: dict[str, Callable[[Engine, dict], tuple[str, str]]] = {
     "fork-hubs": try_fork_hubs,
     "join-hubs": try_join_hubs,
     "braid": try_braid,
+    "search": try_search,
+    "list": try_list,
 }
 
 

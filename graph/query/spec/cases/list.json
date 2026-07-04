@@ -1,0 +1,31 @@
+[
+  {
+    "id": "list-customs-has-quotes",
+    "op": "list",
+    "profile": "both",
+    "input": { "type": "customs", "hasQuotes": true, "limit": 100 },
+    "expect": {
+      "mode": "exact",
+      "category": "customs",
+      "total": 2,
+      "items": [
+        { "slug": "guest-right", "name": "Guest right", "quoteCount": 2 },
+        { "slug": "walk-of-atonement", "name": "Walk of atonement", "quoteCount": 1 }
+      ]
+    },
+    "note": "customs (37 nodes total) is a category free of the known duplicate-slug collisions in foods (sweetsleep/peach/porridge/sourleaf each exist as two separate node files under two categories — see the spawned data-hygiene follow-up task); a small, collision-free category makes an exact full-list pin cheap to maintain. Python (list_nodes.py, reads graph/nodes/customs/*.node.md live) and TS (list.ts, reads the bundle's nodes.json category field) agree exactly."
+  },
+  {
+    "id": "list-unknown-category-returns-empty-not-error",
+    "op": "list",
+    "profile": "both",
+    "input": { "type": "nonexistent-category-xyz" },
+    "expect": {
+      "mode": "exact",
+      "category": "nonexistent-category-xyz",
+      "total": 0,
+      "items": []
+    },
+    "note": "a category typo/unknown name is a query mistake, not a system fault — mirrors container()'s 'no matches' convention rather than raising."
+  }
+]

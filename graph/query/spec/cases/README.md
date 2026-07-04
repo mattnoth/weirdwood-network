@@ -7,8 +7,9 @@ meant to run under **both** `pytest` (Python engine, once it exists) and `deno t
 a red test, not silent drift.
 
 One file per operation family: `resolve.json`, `neighbors.json`, `chain.json`,
-`family.json`. Add new files as new ops land (e.g. `search.json` in step 5) — do not grow
-these four into a junk drawer.
+`family.json`, `braid.json`, `search.json`, `list.json`. Add new files as new ops land —
+do not grow these into a junk drawer. (`corpus-search` has no case file — it's CLI-only,
+no bounded-profile implementation to pin against; see operations.md's own section.)
 
 ## Case object shape
 

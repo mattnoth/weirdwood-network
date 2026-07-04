@@ -1,0 +1,71 @@
+[
+  {
+    "id": "search-lemon-cakes-food-node-reachable",
+    "op": "search",
+    "profile": "both",
+    "input": { "query": "lemon cakes", "limit": 5 },
+    "expect": {
+      "mode": "invariant",
+      "mustIncludeSlug": "lemon-cake",
+      "topTypeIn": ["foods"],
+      "topScoreAtLeast": 5
+    },
+    "note": "the design doc's headline spot-check. Invariant (not exact-top) because 'lemon' vs 'lemon-cake' compete closely for rank 1 on token overlap — both are correct, reachable hits; pinning membership + a sane score floor is the load-bearing behavior, not which food-node wins the top slot."
+  },
+  {
+    "id": "search-seventy-seven-courses-purple-wedding-top",
+    "op": "search",
+    "profile": "both",
+    "input": { "query": "seventy-seven courses", "limit": 5 },
+    "expect": {
+      "mode": "exact",
+      "top": { "slug": "purple-wedding", "type": "events" },
+      "topCiteContains": "asos-sansa-04.md"
+    },
+    "note": "the Purple-Wedding-feast spot-check — this exact phrase appears in the book text (Sansa's POV) and should rank the event node unambiguously first, with a navigable book cite."
+  },
+  {
+    "id": "search-guest-right-node-reachable",
+    "op": "search",
+    "profile": "both",
+    "input": { "query": "guest right", "limit": 3 },
+    "expect": {
+      "mode": "exact",
+      "top": { "slug": "guest-right", "type": "customs" }
+    },
+    "note": "the guest-right custom node itself, not just a mention (e.g. walder-frey), must rank first — a query naming a concept should surface the concept's own node before an incidental quote referencing it."
+  },
+  {
+    "id": "search-type-filter-scopes-to-category",
+    "op": "search",
+    "profile": "both",
+    "input": { "query": "cakes", "type": "foods", "limit": 10 },
+    "expect": {
+      "mode": "invariant",
+      "allTypesEqual": "foods"
+    },
+    "note": "the --type/opts.type filter must exclude non-food hits (e.g. colemon, a character node whose quote happens to mention cakes) that would otherwise rank in an unfiltered search."
+  },
+  {
+    "id": "search-nonsense-query-returns-empty",
+    "op": "search",
+    "profile": "both",
+    "input": { "query": "zzxqvbnmqq flibbertigibbet asdfjkl" },
+    "expect": {
+      "mode": "exact",
+      "results": []
+    },
+    "note": "no token in the query appears in any doc's postings -> empty result, not an error."
+  },
+  {
+    "id": "search-empty-query-returns-empty-no-throw",
+    "op": "search",
+    "profile": "both",
+    "input": { "query": "   " },
+    "expect": {
+      "mode": "exact",
+      "results": []
+    },
+    "note": "whitespace-only query has zero tokens after tokenization -> [] (trust-boundary convention, mirrors resolve()'s cleanPhrase — no exception on bad input)."
+  }
+]

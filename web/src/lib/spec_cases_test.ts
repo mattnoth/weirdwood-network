@@ -16,8 +16,17 @@
 import assert from "node:assert/strict";
 import { resolve } from "./resolve.ts";
 import { familyTree, neighbors, walkChain } from "./graph.ts";
+import { searchQuotes } from "./search.ts";
+import { listNodes } from "./list.ts";
 import { data } from "./_fixtures.ts";
-import type { ChainResult, FamilyTreeResult, NeighborsResult, ResolveCandidate } from "./types.ts";
+import type {
+  ChainResult,
+  FamilyTreeResult,
+  ListResult,
+  NeighborsResult,
+  ResolveCandidate,
+  SearchResult,
+} from "./types.ts";
 
 // Path is relative to THIS file (web/src/lib/spec_cases_test.ts), so it resolves
 // regardless of the caller's cwd: ../../.. -> web/ -> repo root -> graph/query/spec/cases.
@@ -25,7 +34,7 @@ const CASES_DIR = new URL("../../../graph/query/spec/cases/", import.meta.url);
 
 interface Case {
   id: string;
-  op: "resolve" | "neighbors" | "chain" | "family";
+  op: "resolve" | "neighbors" | "chain" | "family" | "search" | "list";
   profile: "bounded" | "full" | "both";
   // deno-lint-ignore no-explicit-any
   input: Record<string, any>;
@@ -253,16 +262,82 @@ function runFamily(c: Case) {
   }
 }
 
+function runSearch(c: Case) {
+  const opts: { type?: string; limit?: number } = {};
+  if (c.input.type !== undefined) opts.type = c.input.type;
+  if (c.input.limit !== undefined) opts.limit = c.input.limit;
+  const results: SearchResult[] = searchQuotes(c.input.query, data, opts);
+  const exp = c.expect;
+
+  if (exp.results !== undefined) {
+    assert.deepEqual(results, exp.results, `${c.id}: results`);
+  }
+  if (exp.top !== undefined) {
+    assert.ok(results.length > 0, `${c.id}: expected at least one result`);
+    if (exp.top.slug !== undefined) assert.equal(results[0].slug, exp.top.slug, `${c.id}: top.slug`);
+    if (exp.top.type !== undefined) assert.equal(results[0].type, exp.top.type, `${c.id}: top.type`);
+  }
+  if (exp.topCiteContains !== undefined) {
+    assert.ok(results.length > 0, `${c.id}: expected at least one result`);
+    assert.ok(
+      (results[0].cite ?? "").includes(exp.topCiteContains),
+      `${c.id}: top.cite ${results[0].cite} must contain ${exp.topCiteContains}`,
+    );
+  }
+  if (exp.mustIncludeSlug !== undefined) {
+    assert.ok(
+      results.some((r) => r.slug === exp.mustIncludeSlug),
+      `${c.id}: expected ${exp.mustIncludeSlug} among results`,
+    );
+  }
+  if (exp.topTypeIn !== undefined) {
+    assert.ok(results.length > 0, `${c.id}: expected at least one result`);
+    assert.ok(
+      (exp.topTypeIn as string[]).includes(results[0].type),
+      `${c.id}: top.type ${results[0].type} must be one of ${exp.topTypeIn}`,
+    );
+  }
+  if (exp.topScoreAtLeast !== undefined) {
+    assert.ok(results.length > 0, `${c.id}: expected at least one result`);
+    assert.ok(
+      results[0].score >= exp.topScoreAtLeast,
+      `${c.id}: top score ${results[0].score} must be >= ${exp.topScoreAtLeast}`,
+    );
+  }
+  if (exp.allTypesEqual !== undefined) {
+    for (const r of results) {
+      assert.equal(r.type, exp.allTypesEqual, `${c.id}: every result must have type ${exp.allTypesEqual}`);
+    }
+  }
+}
+
+function runList(c: Case) {
+  const opts: { type: string; hasQuotes?: boolean; limit?: number; offset?: number } = {
+    type: c.input.type,
+  };
+  if (c.input.hasQuotes !== undefined) opts.hasQuotes = c.input.hasQuotes;
+  if (c.input.limit !== undefined) opts.limit = c.input.limit;
+  if (c.input.offset !== undefined) opts.offset = c.input.offset;
+  const result: ListResult = listNodes(data, opts);
+  const exp = c.expect;
+
+  if (exp.category !== undefined) assert.equal(result.category, exp.category, `${c.id}: category`);
+  if (exp.total !== undefined) assert.equal(result.total, exp.total, `${c.id}: total`);
+  if (exp.items !== undefined) assert.deepEqual(result.items, exp.items, `${c.id}: items`);
+}
+
 const RUNNERS: Record<Case["op"], (c: Case) => void> = {
   resolve: runResolve,
   neighbors: runNeighbors,
   chain: runChain,
   family: runFamily,
+  search: runSearch,
+  list: runList,
 };
 
 // ---- discovery + registration ----
 
-const CASE_FILES = ["resolve.json", "neighbors.json", "chain.json", "family.json"];
+const CASE_FILES = ["resolve.json", "neighbors.json", "chain.json", "family.json", "search.json", "list.json"];
 
 for (const file of CASE_FILES) {
   const cases = await loadCases(file);

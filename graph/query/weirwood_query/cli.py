@@ -41,6 +41,16 @@ legacy-flag equivalent — full-profile only, no chat port):
   python3 -m weirwood_query.cli fork-hubs [--min-out N] [--include-enables] [--json]
   python3 -m weirwood_query.cli join-hubs [--min-in N] [--include-enables] [--json]
   python3 -m weirwood_query.cli braid <slugA> <slugB> [more...] [--include-enables] [--json]
+
+Usage — content search / browse / corpus scan (query-layer Track, step 5;
+design.md D-C, the headline capability). NEW ops, no legacy-flag equivalents:
+  python3 -m weirwood_query.cli search <query> [--type CATEGORY] [--limit N] [--json]
+  python3 -m weirwood_query.cli list --type CATEGORY [--has-quotes] [--container NAME]
+                                      [--limit N] [--offset N] [--json]
+  python3 -m weirwood_query.cli corpus-search <query> [--book BOOK] [--mode phrase|tokens]
+                                                [--limit N] [--json]
+    (corpus-search is CLI-only — full-profile, no bundle/chat exposure; see
+    weirwood_query/corpus_search.py's module docstring.)
 """
 
 from __future__ import annotations
@@ -51,8 +61,11 @@ import sys
 from pathlib import Path
 
 from . import braid as braid_mod
+from . import corpus_search as corpus_search_mod
+from . import list_nodes as list_nodes_mod
 from . import report as report_mod
 from . import resolve as resolve_mod
+from . import search as search_mod
 from . import traverse
 from .load import EDGES_FILE, NODES_DIR, load_edges
 
@@ -650,6 +663,66 @@ def print_braid(result: dict, *, json_output: bool) -> None:
     )
 
 
+def print_search(query: str, results: list[dict], *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps({"query": query, "results": results}, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    print(f"SEARCH: {query!r}")
+    print("-" * 72)
+    if not results:
+        print("  (no matching quotes/identity blurbs)")
+    for i, r in enumerate(results, 1):
+        text80 = traverse._short_quote(r.get("text") or "", 100)
+        print(f"  {i:>2}. [{r['score']:.3f}]  {r['slug']}  ({r['type']})")
+        if r.get("cite"):
+            print(f"      cite : {r['cite']}")
+        print(f"      text : \"{text80}\"")
+    print("=" * 72)
+    print(f"SUMMARY: {len(results)} result(s) for {query!r}")
+
+
+def print_list(result: dict, *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    print(f"LIST: category={result['category']}")
+    print(
+        f"  total={result['total']}  offset={result['offset']}  "
+        f"limit={result['limit']}  showing={len(result['items'])}"
+    )
+    print("-" * 72)
+    if not result["items"]:
+        print("  (no matching nodes)")
+    for it in result["items"]:
+        print(f"  {it['slug']:<40}  {it['name']:<30}  quotes={it['quote_count']}")
+    print("=" * 72)
+    print(f"SUMMARY: {result['total']} node(s) in category '{result['category']}'")
+
+
+def print_corpus_search(result: dict, *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    scope = f" (book={result['book']})" if result.get("book") else ""
+    print(f"CORPUS SEARCH: {result['query']!r}{scope}  mode={result['mode']}")
+    print("-" * 72)
+    matches = result["matches"]
+    if not matches:
+        print("  (no matching lines)")
+    for m in matches:
+        print(f"  {m['cite']}")
+        print(f"    {m['text'][:140]}")
+    print("=" * 72)
+    shown_note = f", showing {len(matches)}" if result["total"] > len(matches) else ""
+    print(f"SUMMARY: {result['total']} matching line(s){shown_note}")
+
+
 # ---------------------------------------------------------------------------
 # main()
 # ---------------------------------------------------------------------------
@@ -755,6 +828,93 @@ def main() -> None:
         edges = load_edges()
         result = braid_mod.braid(slugs, edges, include_enables=include_enables)
         print_braid(result, json_output=json_output)
+        sys.exit(0)
+
+    # `search` / `list` / `corpus-search` (query-layer Track, step 5; design.md
+    # D-C). No legacy-flag equivalents (new ops); handled directly, same
+    # pattern as resolve/braid above, before the subcommand-translation layer.
+    if argv and argv[0] == "search":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        node_type = None
+        if "--type" in rest:
+            idx = rest.index("--type")
+            node_type = rest[idx + 1]
+        limit = search_mod.DEFAULT_LIMIT
+        if "--limit" in rest:
+            idx = rest.index("--limit")
+            limit = int(rest[idx + 1])
+        positionals = [a for a in rest if not a.startswith("--")]
+        # Strip values already consumed by --type/--limit from the positional
+        # scan (e.g. "search cakes --type foods" must not treat "foods" as
+        # part of the query).
+        consumed = set()
+        if "--type" in rest:
+            consumed.add(rest[rest.index("--type") + 1])
+        if "--limit" in rest:
+            consumed.add(rest[rest.index("--limit") + 1])
+        query_parts = [a for a in positionals if a not in consumed]
+        if not query_parts:
+            print("usage: weirwood query search <query> [--type CATEGORY] [--limit N] [--json]", file=sys.stderr)
+            sys.exit(2)
+        query = " ".join(query_parts)
+        results = search_mod.search(query, node_type=node_type, limit=limit)
+        print_search(query, results, json_output=json_output)
+        sys.exit(0)
+
+    if argv and argv[0] == "list":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        has_quotes = "--has-quotes" in rest
+        category = None
+        if "--type" in rest:
+            category = rest[rest.index("--type") + 1]
+        container_name = None
+        if "--container" in rest:
+            container_name = rest[rest.index("--container") + 1]
+        limit = list_nodes_mod.DEFAULT_LIMIT
+        if "--limit" in rest:
+            limit = int(rest[rest.index("--limit") + 1])
+        offset = 0
+        if "--offset" in rest:
+            offset = int(rest[rest.index("--offset") + 1])
+        if not category:
+            print("usage: weirwood query list --type CATEGORY [--has-quotes] [--container NAME] "
+                  "[--limit N] [--offset N] [--json]", file=sys.stderr)
+            sys.exit(2)
+        result = list_nodes_mod.list_nodes(
+            category, has_quotes=has_quotes, container=container_name, limit=limit, offset=offset,
+        )
+        print_list(result, json_output=json_output)
+        sys.exit(0)
+
+    if argv and argv[0] == "corpus-search":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        book = None
+        if "--book" in rest:
+            book = rest[rest.index("--book") + 1]
+        mode = "phrase"
+        if "--mode" in rest:
+            mode = rest[rest.index("--mode") + 1]
+        limit = corpus_search_mod.DEFAULT_LIMIT
+        if "--limit" in rest:
+            limit = int(rest[rest.index("--limit") + 1])
+        consumed = set()
+        if "--book" in rest:
+            consumed.add(rest[rest.index("--book") + 1])
+        if "--mode" in rest:
+            consumed.add(rest[rest.index("--mode") + 1])
+        if "--limit" in rest:
+            consumed.add(rest[rest.index("--limit") + 1])
+        query_parts = [a for a in rest if not a.startswith("--") and a not in consumed]
+        if not query_parts:
+            print("usage: weirwood query corpus-search <query> [--book BOOK] [--mode phrase|tokens] "
+                  "[--limit N] [--json]", file=sys.stderr)
+            sys.exit(2)
+        query = " ".join(query_parts)
+        result = corpus_search_mod.corpus_search(query, book=book, mode=mode, limit=limit)
+        print_corpus_search(result, json_output=json_output)
         sys.exit(0)
 
     # Subcommand front door (query-layer design contract): translate a known
