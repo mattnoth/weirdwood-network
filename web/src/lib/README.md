@@ -15,13 +15,16 @@ network, no LLM. Pure functions over the in-memory bundle.
 | Op         | Signature                                          | Returns                                        | Status  | File          |
 | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- | ------------- |
 | `resolve`  | `resolve(phrase, data)`                            | `ResolveCandidate[]` (`{slug, category, ...}`)   | done | `resolve.ts`  |
-| `chain`    | `walkChain(slug, data, {full?})`                   | `{upstream[], downstream[], enables[]}`        | done | `graph.ts`    |
+| `chain`    | `walkChain(slug, data, {maxDepth?, expandBeats?})` | `{upstream[], downstream[], enables[], beats?}` | done | `graph.ts`    |
 | `neighbors`| `neighbors(slug, data)`                            | edges grouped by direction + type              | done | `graph.ts`    |
 | `family`   | `familyTree(slug, data, opts?)`                    | lineage members + parent/spouse bonds          | done | `graph.ts`    |
 | `read`     | `readNode(slug, data)`                              | `{name, type, category, identity, quotes}` or `null` | done | `read-node.ts` |
 | `search`   | `searchQuotes(query, data, opts?)`                 | ranked `SearchResult[]` (`{slug, type, text, cite, score}`) | done (query-layer step 5b) - no chat tool yet, see below | `search.ts` |
 | `list`     | `listNodes(data, opts)`                            | `ListResult` (`{category, total, items[]}`)    | done (query-layer step 5d) - no chat tool, gated on evals | `list.ts` |
 | `theme`    | `theme(name, data, opts?)` / `listThemes(data)`    | `ThemeResult` (`{theme, memberCount, members[]}`) / `ThemeSummary[]` | done (query-layer step 8a) - no chat tool yet, see below | `themes.ts` |
+| `container`| `container(name, data)`                            | `ContainerResult` (`{container, nodes[], count}`) | done (query-layer step 6a) - no chat tool yet, see below | `container.ts` |
+| `path`     | `path(slugA, slugB, data)`                         | `PathResult` (direct edges + 2-hop bridges)     | done (query-layer step 6b) - no chat tool yet, see below | `path.ts` |
+| `participants` | `participants(hubSlug, data)`                  | `ParticipantsResult` (union of role edges across a hub's beats) | done (query-layer step 6b) - dossier-side only by design, no chat tool | `participants.ts` |
 | `corpus-search` / `passage` | -                                 | -                                               | CLI/full-profile only by design (`weirwood_query/corpus_search.py`); `passage` designed-but-gated | - |
 
 ## Files
@@ -43,6 +46,14 @@ network, no LLM. Pure functions over the in-memory bundle.
 - `themes.ts` - `theme()` / `listThemes()`: lookup over the build-time theme->members routing
   table (`web/data/theme-index.json`, built by `graph/query/build/build_theme_index.py` -
   query-layer step 8a). No ranking, no LLM - a fixed named-theme lookup.
+- `container.ts` - `container()`: bag-retrieval over the `containers:` frontmatter tag
+  (query-layer step 6a) - every node whose `containers` array includes the named value,
+  unordered (for the ordered arc, use `chain`/`walkChain`).
+- `path.ts` - `path()`: direct edges between two slugs plus their 2-hop common-neighbor
+  bridges (query-layer step 6b) - "how are A and B connected" without a full causal walk.
+- `participants.ts` - `participants()`: unions participant role edges (AGENT_IN/VICTIM_IN/
+  COMMANDS_IN/WITNESS_IN/WIELDED_IN) across a hub event's `SUB_BEAT_OF` children
+  (query-layer step 6b) - dossier-side only, no chat tool by design.
 - `mod.ts` - public surface. `createTools(data)` binds the bundle into the tools above.
 - `*_test.ts` + `_fixtures.ts` + `spec_cases_test.ts` - Deno tests against the **real** bundle,
   plus the cross-language golden-case runner (`graph/query/spec/cases/*.json`).
@@ -63,11 +74,14 @@ tools.listNodes({ type: "foods", hasQuotes: true }); // -> {category:"foods", to
 
 `resolve` does exact normalized alias-map lookup, then a fuzzy token-overlap fallback (score >= 0.5,
 top 5, length-debiased, with a small slug-token bonus) - mirroring `weirwood_query/resolve.py`.
-`walkChain` BFS-walks CAUSES/TRIGGERS/MOTIVATES both directions (pass `{full:true}` to also follow
-ENABLES preconditions, = `--full-chain`). `searchQuotes`/`listNodes` are exported here but **not yet
-wired as chat tools in `agent.ts`** - that's a separate follow-up agent's job (out of the
-query-layer Track's scope); the `{slug, type, text, cite, score}` / `{category, total, items}`
-contracts are kept stable for that wiring.
+`walkChain` BFS-walks CAUSES/TRIGGERS/MOTIVATES both directions, depth-bounded and story-time
+sorted (pass `{expandBeats: true}` to also attach each chain node's `SUB_BEAT_OF` children +
+role edges, = `--expand-beats`; the separate `enables` array always carries ENABLES
+preconditions on the chain, no flag needed - the UI reveals it behind a toggle). `searchQuotes`/
+`listNodes`/`theme`/`container`/`path` are exported here but **not yet wired as chat tools in
+`agent.ts`** (except where noted `participants` is dossier-side only by design) - that's a
+separate follow-up's job (out of the query-layer Track's scope); their return shapes are kept
+stable for that wiring.
 
 ## Test
 
@@ -78,8 +92,10 @@ cd web && deno task test     # deno test --allow-read src/lib/ netlify/edge-func
 Core assertions include: `resolve("death of Tywin")` -> `assassination-of-tywin-lannister`,
 `walkChain` on that real node returns its causal chain in story-time order, and the
 `spec_cases_test.ts` golden-case runner (parity fixtures shared with the Python
-`graph/query/spec/run_cases.py`) covers resolve/neighbors/chain/family/search/list. (Fixtures
-pivot on real, permanent graph nodes - not a demo bundle.)
+`graph/query/spec/run_cases.py`) covers resolve/neighbors/chain/family/search/list/theme/
+container/path/participants. (Fixtures pivot on real, permanent graph nodes - not a demo
+bundle.) Current count: **98 passed, 1 ignored** (`deno task test`) - re-run and update this
+number if it drifts; do not hand-carry a stale count between sessions.
 
 ## Deferred - `passage` (full chapter text to the chat)
 

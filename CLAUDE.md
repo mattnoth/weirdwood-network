@@ -97,6 +97,7 @@ asoiaf-chat/
 │   ├── foreshadowing/                # Pass 4 outputs
 │   └── patterns/                     # Pass 5+ outputs
 ├── graph/
+│   ├── query/                        # THE query layer (S190): weirwood_query/ engine + build/ + spec/ (operations.md + golden cases = the Python↔TS drift alarm). CLI: `weirwood query …`; old scripts/graph-query.py + event_alias_resolver.py are compat shims over it
 │   ├── nodes/                        # Entity files (one per entity)
 │   │   ├── characters/ locations/ factions/ houses/
 │   │   ├── artifacts/ prophecies/ theories/

@@ -32,6 +32,8 @@ translation layer over the same flags, see `_translate_subcommand` below):
   python3 -m weirwood_query.cli container <name>           == --container <name>
   python3 -m weirwood_query.cli family <slug>              == --family-tree <slug>
   python3 -m weirwood_query.cli resolve <phrase>           -- phrase -> slug (event_alias_resolver --lookup format)
+  python3 -m weirwood_query.cli resolve <phrase> --explain -- + which table/tier answered + alternates beaten
+                                                                (query-layer step 9; additive, no output change without it)
 Any extra flags (--json, --expand-beats, ...) pass through unchanged after
 the subcommand's positional args.
 
@@ -799,10 +801,59 @@ def print_mentions(result: dict, *, json_output: bool) -> None:
 # main()
 # ---------------------------------------------------------------------------
 
-def print_resolve(phrase: str, slug: str | None, status: str, candidates: list[dict]) -> None:
+
+# --explain (query-layer step 9): a human-readable name for WHICH table/tier
+# answered a resolve() call, keyed off the same `status` (+ a candidate's own
+# `match_type`) the engine already returns — no new plumbing, just a label.
+# Provenance note: the candidate/lookup dicts resolve() returns today do not
+# carry WHICH SOURCE (base alias vs generated variant vs victim-phrase
+# template) contributed a given phrase key — build_alias_table.py merges all
+# three into one flat lookup table before resolve.py ever sees it. Surfacing
+# that would mean threading a provenance tag through the table schema itself
+# (out of scope for this cheap flag) — noted here and in operations.md's
+# resolve section rather than silently claiming a source we don't have.
+_EXPLAIN_TIER: dict[str, str] = {
+    "hit": "exact-alias table (event alias lookup, build_alias_table.py)",
+    "hit-character": "exact all-node index (character-name fallback)",
+    "ambiguous": "collision table (phrase has >1 registered slug, no fuzzy fallback attempted)",
+    "candidates": "fuzzy/token-overlap fallback (variant-generated + base aliases, unranked by source)",
+    "miss": "no table matched (exact, character, and fuzzy fallback all missed)",
+}
+
+
+def _print_explain(status: str, candidates: list[dict]) -> None:
+    """Print the --explain block: which table/tier answered, its score (for a
+    fuzzy/candidates result), and the top alternates it beat. Additive only —
+    callers gate this behind the --explain flag so byte-identical output is
+    preserved when it's absent."""
+    print(f"Explain:    {_EXPLAIN_TIER.get(status, 'unknown')}")
+    if status == "candidates" and candidates:
+        print(f"  top score:  {candidates[0]['score']:.2f}  match_type={candidates[0]['match_type']}")
+        beaten = candidates[1:]
+        if beaten:
+            print(f"  beat {len(beaten)} alternate(s):")
+            for c in beaten:
+                print(f"    {c['slug']}  score={c['score']:.2f}  match={c['match_type']}")
+        else:
+            print("  beat 0 alternates (only candidate to clear the fuzzy floor)")
+    elif status == "hit-character" and len(candidates) > 1:
+        print(f"  beat {len(candidates) - 1} alternate character(s): "
+              f"{', '.join(c['slug'] for c in candidates[1:])}")
+    elif status in ("hit", "hit-character"):
+        print("  no alternates surfaced (exact-table hit; the table itself may hold others — "
+              "run --json for the full candidates list this hit came with)")
+
+
+def print_resolve(
+    phrase: str, slug: str | None, status: str, candidates: list[dict], *, explain: bool = False,
+) -> None:
     """Print a phrase->slug resolution in the same format as
     scripts/event_alias_resolver.py --lookup (minus its deprecation-shim
-    stderr banner, which is specific to that compat shim, not this CLI)."""
+    stderr banner, which is specific to that compat shim, not this CLI).
+    `explain=True` (query-layer step 9's --explain flag) appends one block
+    naming which table/tier answered + the alternates it beat; omitted
+    entirely when False, so default output is byte-identical to before this
+    flag existed."""
     from .normalize import normalize
 
     norm = normalize(phrase)
@@ -837,6 +888,9 @@ def print_resolve(phrase: str, slug: str | None, status: str, candidates: list[d
         print(f"Result:     (no match)")
         print(f"Status:     MISS")
 
+    if explain:
+        _print_explain(status, candidates)
+
 
 def main() -> None:
     argv = sys.argv[1:]
@@ -845,18 +899,22 @@ def main() -> None:
     # translation/parsing (it takes a free-text PHRASE, not a slug).
     if argv and argv[0] == "resolve":
         if len(argv) < 2:
-            print("usage: weirwood query resolve <phrase>", file=sys.stderr)
+            print("usage: weirwood query resolve <phrase> [--json] [--explain]", file=sys.stderr)
             sys.exit(2)
         phrase = argv[1]
-        json_output = "--json" in argv[2:]
+        rest = argv[2:]
+        json_output = "--json" in rest
+        explain = "--explain" in rest
         slug, status, candidates = resolve_mod.resolve(phrase)
         if json_output:
-            print(json.dumps(
-                {"phrase": phrase, "slug": slug, "status": status, "candidates": candidates},
-                indent=2, default=str,
-            ))
+            payload = {"phrase": phrase, "slug": slug, "status": status, "candidates": candidates}
+            if explain:
+                # Additive key only — absent entirely without --explain, so
+                # JSON output is also byte-identical when the flag is omitted.
+                payload["explain"] = _EXPLAIN_TIER.get(status, "unknown")
+            print(json.dumps(payload, indent=2, default=str))
         else:
-            print_resolve(phrase, slug, status, candidates)
+            print_resolve(phrase, slug, status, candidates, explain=explain)
         sys.exit(0)
 
     # `fork-hubs` / `join-hubs` / `braid` (query-layer Track, step 7 — the

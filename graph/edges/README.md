@@ -1,14 +1,20 @@
-# graph/edges/ — Pass-1-derived edge set (v1.3)
+# graph/edges/ — Pass-1-derived edge set (v1.3 baseline, since grown by later merges)
 
 **Landed:** Session 70 (v1, 3,842). **Refined:** Session 72 (v1.2, 3,825 — type-contract
 re-validation). **Resolver pass:** Session 72 (v1.3, 3,811 — title-person disambiguation).
-**Status:** v1.3.
+**Status:** v1.3 lineage below is frozen history — `edges.jsonl` has since grown past it via
+later sessions (the wiki-infobox merge, Plates 3–5 event reification, chronology-chain,
+hospitality, curator passes, etc.) that are NOT narrated in this file. **Current line count:
+run `wc -l graph/edges/edges.jsonl` for the live number** (23,099 as of query-layer Track step
+9, 2026-07-04) — do not trust the 3,811 figure below as current; it documents the v1.3
+milestone only.
 
-`edges.jsonl` is the formalized, deduped, endpoint-gated, precision-filtered set of
-**3,811 typed relationship edges** derived from our own Pass 1 chapter extractions
-(`extractions/mechanical/{book}/`). Every edge carries a verbatim source citation
-(`evidence_ref` → `sources/chapters/<book>/<chapter>.md:<line>`), so a runtime LLM can
-re-verify any edge against the surrounding chapter text.
+`edges.jsonl` is the formalized, deduped, endpoint-gated, precision-filtered edge set
+derived from our own Pass 1 chapter extractions (`extractions/mechanical/{book}/`), since
+layered with additional typed-edge production (wiki-infobox merge, event reification, etc. —
+see git history for `graph/edges/edges.jsonl` for what landed after v1.3). Every edge carries
+a verbatim source citation (`evidence_ref` / `evidence_kind`), so a runtime LLM can re-verify
+any edge against the surrounding chapter or wiki text.
 
 ## Provenance (how each edge was typed)
 

@@ -1,6 +1,12 @@
 # The Query Layer — Master Design (S189)
 
-> **Status: DESIGN — nothing here is built.** Produced Session 189 (2026-07-04, Matt-mandated
+> **Status: EXECUTED S190 (2026-07-04) — sessions A+B+C all landed in one Fable-orchestrated
+> sitting.** Steps 0/1/3/4/5/6/7/8a–c/9 SHIPPED + all 5 advisory boards run (§8 has the
+> decisions); side-step H = proposal written, apply Matt-gated; step 8d + mention-index apply +
+> prod deploy remain Matt-gated; **step 2 (pytest traversal suite) = the one remaining session,
+> Matt-paired** → `progress/continue-prompts/2026-07-04-query-layer-final-pytest-suite.md`.
+> Execution record: worklog S190 + the appendix entry at the foot of this doc.
+> Originally produced Session 189 (2026-07-04, Matt-mandated
 > master-design session). This document is the execution plan for the **query-layer track**:
 > it supersedes the *directions* half (§3/§4) of `GRAPH-QUERY-ROADMAP.md` as the plan of
 > record — the roadmap remains the diagnosis/history record. Grounded in four fresh code/data
@@ -689,12 +695,30 @@ sessions + the final suite session — Fable conducts, Sonnet/Haiku execute.
 3. **Interview framing:** dropped as a design driver — project-first throughout.
 4. **Execution model:** Fable-orchestrated sessions with Sonnet/Haiku fan-out (§5/§6).
 
-**Routed to the session-C advisory-board fan-out (Sonnet board per fork, Fable synthesizes,
+**DECIDED by the S190 advisory-board fan-out (full deliberations: `working/query-layer/boards/`;
 Matt overrules on read):**
-- `read_passage` to the public chat vs CLI-only corpus search (step 5e).
-- `SERVED_AT` descriptive-edge vocab proposal: write now vs only if 5/8a–c prove insufficient.
-- MCP adapter: in step 9 or parked.
-- Shim retirement timing for the old `scripts/` entry points.
+- **`read_passage` → CLI-only for now.** `corpus-search` shipped CLI-side (step 5e); public-chat
+  passage fetch stays designed-but-gated. Flip conditions: (1) a Matt-approved per-session/day
+  verbatim-text quota exists (chat-UI/product track owns it), (2) a live smoke measures per-turn
+  cost/context. Rationale: the spend cap bounds dollars and the cite gate bounds fabrication, but
+  nothing bounds extraction-by-iteration over ~11 MB of chapter text.
+- **`SERVED_AT` vocab proposal → WAIT for 8a–c evidence** (3:1; traversal-purist dissent
+  recorded). Settle metric now IN the eval set: **Q21 "What was served at the Purple Wedding?"**
+  — currently answers in 2 tool calls via search/theme. If post-8a–c it still can't connect
+  dish↔event context, that triggers writing the proposal. (8d itself stays triple-gated: vocab
+  decision + LLM-pass OK + mutation OK.)
+- **MCP adapter → PARKED** (unanimous). No real consumer today; a 5th parity surface; the
+  consolidated engine makes it cheap to build when wanted. Un-park trigger: a real external MCP
+  client (Claude Desktop / out-of-repo agent) actually needs graph access.
+- **Shim retirement → two-tier plan.** Tier A (anytime, cheap): sweep ~6 live docs to the
+  `weirwood query` spelling. Tier B (file deletion) gated on ALL of: the final Matt-paired
+  pytest session lands equivalent coverage for the 89 shim-loaded tests; the one static importer
+  (`backfill-epithet-aliases.py`) repoints (one line); Tier A done. No calendar/telemetry gate —
+  local scripts have no invocation telemetry, a time gate would be theater.
+- **(Bonus, Matt-steered live in S190) Persona reframe → researcher/wiki-reader frame** drafted
+  by the board and wired as LOREMASTER_VOICE (draft in repo; SHARED_RULES safety text preserved
+  + test-pinned; **not deployed** — Matt reviews; the "dry enthusiasm" register is the flagged
+  post-A/B loosen if the new voice reads too flat).
 
 **Still Matt-gated regardless of board output:** any graph mutation apply (side-step H, 8d),
 any LLM bulk pass (8d Haiku), any prod deploy.
@@ -714,6 +738,20 @@ any LLM bulk pass (8d Haiku), any prod deploy.
   driver (project-first); execution model rewritten to three Fable-orchestrated sessions
   (A engine / B retrieval / C reach+close-out) with Sonnet/Haiku fan-out; remaining forks
   routed to a session-C advisory-board fan-out. §6/§8 rewritten accordingly.
+- **2026-07-04 (S190 — the orchestrated BUILD):** sessions A+B+C executed in one Fable-orchestrated
+  sitting (Sonnet builders; deterministic diff scripts took the Haiku-verify slots). SHIPPED:
+  steps 0 (measurements: narrative-arc inline = +198% bundle → D-F resolved to per-node static
+  assets; quote index est 2.03 MB; orphan baseline 24.74%), 1 (the `graph/query/` engine, zero
+  behavior change — 36/36 CLI cases byte-identical, shims, spec v1 + drift alarm), 7 (braid),
+  3 (eval harness Q1–Q21 + frozen baseline), 4 (G19/variants/G10 → 16/20 exact, zero
+  regressions; telemetry miner + TurnLog outcome fix), 5 (BM25 search both runtimes + list +
+  corpus-search CLI + search_quotes + routing decision table + researcher-persona draft),
+  6 (containers/path/participants/expand-beats ports; G9 static assets; parity table closed),
+  8a–c (theme index/op; mention-repair PREVIEW-only — apply Matt-gated; food-grep seeder),
+  9 (doc-truth G17, graph/query/README, --explain), side-step H (PROPOSAL only; 2 census claims
+  didn't reproduce; 7 cross-category slug collisions found). Evals settled the 5d fork: search ≠
+  browse → list_nodes+theme chat tools → **Q11 meals ∞→2 tool calls**. All 5 boards run →
+  decisions recorded in §8. Remaining: step 2 (final, Matt-paired) + the Matt-gated applies.
 - **2026-07-04 (S189c — Matt, at endsession):** loremaster persona reframe added to step 5c —
   frame the persona around a researcher/thought-experimenter user to open up responses; voice
   only, SHARED_RULES safety block untouched; A/B eval row added. Execution handoff changed

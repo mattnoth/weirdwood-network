@@ -216,6 +216,39 @@ No profile-specific cap on `resolve` itself beyond `MAX_FUZZY_CANDIDATES = 5` (b
 profiles conceptually; Python's constant may differ — see `_fuzzy_candidates` in
 `event_alias_resolver.py` for the exact value in effect before step 4 harmonizes them).
 
+### `--explain` (CLI-only, full profile; query-layer step 9)
+
+`weirwood query resolve <phrase> --explain` (or `python3 -m weirwood_query.cli resolve
+<phrase> --explain`) appends one block to the normal text/JSON output naming **which
+table/tier answered** the query, plus (for a fuzzy `candidates` result) the top score and the
+alternates it beat:
+
+- `hit` → "exact-alias table (event alias lookup, build_alias_table.py)"
+- `hit-character` → "exact all-node index (character-name fallback)" — plus any additional
+  character candidates the top one beat
+- `ambiguous` → "collision table (phrase has >1 registered slug, no fuzzy fallback attempted)"
+- `candidates` → "fuzzy/token-overlap fallback (variant-generated + base aliases, unranked by
+  source)" — plus the top score and every candidate ranked below it
+- `miss` → "no table matched (exact, character, and fuzzy fallback all missed)"
+
+**Provenance gap (documented, not built):** the tier label above says *which stage* of
+`resolve()` answered, but **not which SOURCE contributed the winning phrase key** (a base
+alias from wiki redirects/frontmatter vs. a step-4b generated variant — plural/possessive/
+leading-article — vs. a victim-phrase template). `build_alias_table.py` merges all three
+into one flat `{phrase: slug}` lookup before `resolve.py` ever sees it, so that distinction
+is not cheaply available from the current table format — surfacing it would mean adding a
+provenance tag to the table schema itself (a real change, not a `--explain`-sized one). This
+flag intentionally ships the cheap version (status/score/alternates) rather than rebuilding
+the table to recover source-level provenance; revisit if a session needs to debug variant-vs-
+base collisions specifically (see `working/query-layer/variant-collisions-s190.md`).
+
+Additive only: omitting `--explain` produces byte-identical output (text and `--json`) to
+before this flag existed — verified against a captured before/after diff for a `hit`, a
+`hit-character`, and a `candidates` case. In `--json` mode, `--explain` adds one extra
+top-level `"explain"` string key (the tier label only, no alternates block — the ranked
+`candidates` array in the JSON payload already IS the "who it beat" data, so JSON mode
+doesn't duplicate it as prose).
+
 ---
 
 ## `read`
@@ -1001,3 +1034,47 @@ ratify as permanent:
   error branch omits fields the bounded profile zero-fills. Hard gates respected: no
   `agent.ts`/`working/query-layer/evals/` touch; no `graph/nodes|edges|index` mutation; no
   deploy; no API spend (the one live turn was a keyless `/api/node` GET, not a model call).
+- **2026-07-04 (S189, step 9 — docs + polish):** G17 doc-truth sweep + a cheap `--explain`
+  flag; no engine-behavior change. `web/src/lib/README.md`: fixed the `walkChain` signature
+  (documented a stale `{full?}` option that never existed in the shipped code — the real
+  signature is `{maxDepth?, expandBeats?}`), added `container.ts`/`path.ts`/`participants.ts`
+  to the op-status table and Files list (present in `mod.ts`/`graph.ts` but previously
+  undocumented there), and replaced the pinned "27" test count with the live number (**98
+  passed, 1 ignored**, `deno task test`) plus a note not to hand-carry a stale count forward.
+  `graph/edges/README.md`: the header's `3,811` line count was the v1.3 (2026-05-26) milestone
+  — `edges.jsonl` has since grown to **23,099** lines via later sessions (wiki-infobox merge
+  dominates: 16,757 of 23,099 rows are `evidence_kind: wiki-infobox`) that this README never
+  narrated; added a pointer to `wc -l` for the live count instead of re-deriving the untold
+  history. `web/README.md`: fixed a stale file path (`agent.ts` now lives under
+  `netlify/edge-functions/lib/`), added the actual chat-tool count (**8**, not 5:
+  `resolve`/`read_node`/`walk_chain`/`neighbors`/`family_tree`/`search_quotes`/`list_nodes`/
+  `theme` — `container`/`path`/`participants` exist in `src/lib/` but aren't wired as chat
+  tools), documented `/api/node`'s narrative-arc fetch (previously undocumented at this
+  file's level, only in `node.ts`'s own header), and added `search-index.json`/
+  `theme-index.json` to the data-bundle table (built by their own separate builders, not
+  `build_chat_bundle.py` — that script only measures their size for the manifest). Added
+  **this package's own front door**, `graph/query/README.md` (did not exist before this
+  session) — directory map, invocation patterns (`weirwood query`, direct
+  `PYTHONPATH=graph/query python3 -m weirwood_query.cli`, the two-argv-surfaces note, the
+  compat-shim note for `scripts/graph-query.py`/`scripts/event_alias_resolver.py`), and how
+  the `run_cases.py` + `spec_cases_test.ts` dual golden-case runners catch full/bounded
+  drift. Added `resolve`'s `--explain` flag (`weirwood_query/cli.py`): prints which
+  tier/table answered (`hit`/`hit-character`/`ambiguous`/`candidates`/`miss`, mapped to a
+  human label) plus, for a `candidates` (fuzzy) result, the top score and every alternate
+  candidate it beat — built entirely from data `resolve()` already returns (`match_type`,
+  `candidates` list), no new table plumbing. Documented, did not build, a genuine provenance
+  gap: the flag cannot say WHICH alias source (base/wiki alias vs. step-4b generated variant
+  vs. victim-phrase template) contributed the winning phrase key, because
+  `build_alias_table.py` merges all three into one flat lookup before `resolve.py` ever sees
+  it — recovering that would mean a real table-schema change, out of scope for this cheap
+  flag (see `operations.md`'s own `--explain` section above). `event_alias_resolver.py
+  --lookup` (the separate compat shim) is untouched — `--explain` lives only on
+  `weirwood_query.cli`'s `resolve` subcommand. Verified byte-identical output without
+  `--explain` (text and `--json`) via a captured before/after diff across a `hit`
+  ("the Red Wedding"), a `candidates`/fuzzy ("Tywin", "House Targaryen") case — all four
+  diffs empty. `deno task test`: 98/98 (unchanged — no TS file touched this session).
+  `run_cases.py`: 37 passed / 1 skipped (unchanged). `pytest tests/`: 1322 passed / 3
+  pre-existing fails (unchanged baseline — no vocab/architecture.md change). Hard gates
+  respected: `graph/nodes|edges|index` data files untouched (only their README.md docs
+  edited); `sources/`, `working/query-layer/design.md`, `worklog.md`, `working/todos.md`,
+  `progress/` untouched; no deploy; no API spend.
