@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Weirwood Network</title>
   <meta name="description" content="A book-grounded ASOIAF loremaster, standing on a hand-built knowledge graph." />
-  <link rel="stylesheet" href="/theme/tokens.css?v=185a" />
-  <link rel="stylesheet" href="/app.css?v=185a" />
+  <link rel="stylesheet" href="/theme/tokens.css?v=185c" />
+  <link rel="stylesheet" href="/app.css?v=185c" />
 </head>
 <body class="landing">
   <!-- Weirwood backdrop tree removed for now (Matt preferred an earlier look);
@@ -73,6 +73,11 @@
       <div class="thread" id="thread"><!-- bubbles injected here --></div>
 
       <form class="composer" id="composer" autocomplete="off">
+        <div class="persona-switch" id="persona-switch" role="group" aria-label="Answer voice">
+          <span class="persona-label">voice</span>
+          <button type="button" class="persona-opt is-active" data-persona="loremaster" aria-pressed="true">Loremaster</button>
+          <button type="button" class="persona-opt" data-persona="bloodraven" aria-pressed="false">Bloodraven</button>
+        </div>
         <div class="composer-row">
           <textarea id="input" class="input" rows="1" placeholder="Ask your questions…"
             aria-label="Ask a question"></textarea>
@@ -102,6 +107,6 @@
        same descendant chart here, full-size. Hidden until opened. -->
   <div class="dossier-overlay ft-modal-overlay" id="tree-modal" hidden></div>
 
-  <script src="/app.js?v=185a" type="module"></script>
+  <script src="/app.js?v=185c" type="module"></script>
 </body>
 </html>

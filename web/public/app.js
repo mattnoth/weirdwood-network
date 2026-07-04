@@ -284,6 +284,11 @@ let walking = false; // true while a live turn is gathering, before the chain la
 // The preconditions toggle is sticky across turns (default: collapsed).
 let showPre = localStorage.getItem("weirwood-show-pre") === "1";
 
+// Answer voice: loremaster (dry, factual — the default) or bloodraven (atmospheric).
+// Sticky across turns; sent to /api/chat so the backend picks the system prompt.
+let persona = localStorage.getItem("weirwood-persona") === "bloodraven" ? "bloodraven" : "loremaster";
+const personaLabel = () => (persona === "bloodraven" ? "the three-eyed raven" : "the loremaster");
+
 // How many causal-spine links touch each node slug (drives the `·N` degree badge).
 function degreeMap(rawLinks) {
   const d = new Map();
@@ -917,7 +922,7 @@ function addUserBubble(text) {
 function addBotBubble() {
   const bubble = el("div", { class: "bubble" }, "");
   const wrap = el("div", { class: "msg bot streaming" }, [
-    el("div", { class: "msg-role" }, "the three-eyed raven"),
+    el("div", { class: "msg-role" }, personaLabel()),
     bubble,
   ]);
   threadEl.append(wrap);
@@ -1070,7 +1075,7 @@ async function ask(question) {
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ messages: history }),
+      body: JSON.stringify({ messages: history, persona }),
     });
     if (!res.ok || !res.body) {
       showError(`The model endpoint returned ${res.status}.`);
@@ -1105,7 +1110,7 @@ async function ask(question) {
       }
     });
   } catch (err) {
-    showError("Lost the connection to the three-eyed raven.");
+    showError(`Lost the connection to ${personaLabel()}.`);
     console.error(err);
   } finally {
     walking = false;
@@ -1158,6 +1163,29 @@ function setAbout(open) {
 }
 aboutToggle.addEventListener("click", () => setAbout(!document.body.classList.contains("about-open")));
 $("#about-back").addEventListener("click", () => setAbout(false));
+
+// Persona switch: pick the answer voice (loremaster default / bloodraven). Sticky in
+// localStorage; the choice rides on the next /api/chat request. Only new answers change
+// voice — bubbles already in the thread keep the label they were written under.
+const personaSwitch = $("#persona-switch");
+if (personaSwitch) {
+  const opts = [...personaSwitch.querySelectorAll(".persona-opt")];
+  const sync = () => {
+    for (const b of opts) {
+      const on = b.dataset.persona === persona;
+      b.classList.toggle("is-active", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+  };
+  for (const b of opts) {
+    b.addEventListener("click", () => {
+      persona = b.dataset.persona === "bloodraven" ? "bloodraven" : "loremaster";
+      localStorage.setItem("weirwood-persona", persona);
+      sync();
+    });
+  }
+  sync();
+}
 
 // Clean landing: empty thread + empty receipts rail, ready for the first question.
 renderReceipts();

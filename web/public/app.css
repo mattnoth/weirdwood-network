@@ -261,6 +261,23 @@ body.landing .composer-note { display: none; }
   transition: var(--transition);
 }
 .chip:hover { border-color: var(--c-accent); color: var(--c-text); }
+/* Persona switch — pick the answer voice (loremaster default / bloodraven). */
+.persona-switch { display: flex; align-items: center; gap: var(--sp-2); margin: 0 0 var(--sp-2); }
+.persona-label {
+  font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint);
+  letter-spacing: 0.05em; text-transform: uppercase;
+}
+.persona-opt {
+  font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-dim);
+  background: transparent; border: 1px solid var(--c-border); border-radius: var(--radius-pill, 999px);
+  padding: 2px var(--sp-2); cursor: pointer; transition: color 0.12s, border-color 0.12s, background 0.12s;
+}
+.persona-opt:hover { color: var(--c-text); border-color: var(--c-accent); }
+.persona-opt.is-active {
+  color: var(--c-bg); background: var(--c-accent); border-color: var(--c-accent);
+}
+.persona-opt:focus-visible { outline: 2px solid var(--c-accent); outline-offset: 2px; }
+
 .composer-row { display: flex; gap: var(--sp-2); align-items: flex-end; }
 .input {
   flex: 1;
