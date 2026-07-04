@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-04 (refreshed after S189)  
+**Generated:** 2026-07-04 (refreshed after S190)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-04-query-layer-orchestrated-build.md` | 2026-07-04 | Query-layer track — Fable-ORCHESTRATED BUILD (design.md bundles A→B→C) | **LIVE** (S190) | **Fable (orchestrator) + Sonnet builders / Haiku verifiers** | Next session. Execute `working/query-layer/design.md` bundles in order — A: scaffold `graph/query/` engine (zero behavior change) + spec/golden cases; B: eval baseline → resolver hardening → content search + routing rewrite + S189c researcher-frame persona; C: ports/projection + descriptive routing + hygiene-propose + docs + advisory-board fan-out on the open forks. Go as far as context allows; **stop only at a clean bundle boundary**, mint the remainder prompt there. Gated: 8d Haiku pass, hygiene apply, prod deploys, pytest suite (deferred LAST). |
+| `2026-07-04-query-layer-final-pytest-suite.md` | 2026-07-04 | Query-layer track — FINAL session: step 2 pytest traversal suite | **LIVE — MATT-PAIRED** (S191) | Sonnet 4.6 (Matt drives fixture/semantics) | The LAST session of the Track. Mini-graph fixture (Matt co-authors), `graph/query/tests/`, pytest.ini, orphaned-test relocation; shim-retirement Tier B can ride along (board plan, design.md §8). Do NOT run headless. Gated riders noted in the prompt: 8d SERVED_AT, prod deploy of the new chat build. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 100 files)
+## Archive (`archive/` subfolder — 101 files)
+
+> **`2026-07-04-query-layer-orchestrated-build.md`** — archived S190. **DONE (S190): ALL THREE bundles (A engine / B retrieval / C reach+close-out) executed in the one rolled Fable-orchestrated session** — `graph/query/` engine (zero behavior change, 36/36 byte-identical + shims), spec/operations.md + golden cases both runtimes (the drift alarm), braid primitives, eval harness Q1–Q21 (baseline frozen), resolver hardening (G19/G2/G10 → 17/21 exact-resolve, zero regressions), BM25 content search + list + theme + browse routing in the chat (**Q11 meals ∞→2 tool calls**), parity table closed (G9 = per-node static assets), 5 advisory boards decided (design.md §8), hygiene proposal + Matt-approved applies (classes 1–4 + mention-index repair; class 5 → Matt's separate dup-slug session), researcher-persona draft (Matt ruled: flat base register, no A/B, deploy-and-judge). Superseded as live by `2026-07-04-query-layer-final-pytest-suite.md`.
 
 > **`2026-07-04-graph-query-docs-and-script-org.md`** — archived S189. **DONE (S189): the master design session ran and delivered `working/query-layer/design.md`** (contract-first reframe, new gaps G11–G19, decisions D-A…D-I, step cards; amended S189b/S189c per Matt's review: `graph/query/` home, pytest suite deferred LAST, project-first framing, Fable-orchestrated execution, researcher-frame persona in step 5c). Superseded as live by `2026-07-04-query-layer-orchestrated-build.md`.
 

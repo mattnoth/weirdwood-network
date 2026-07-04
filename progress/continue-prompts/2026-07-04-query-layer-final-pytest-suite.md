@@ -1,8 +1,9 @@
-# QUERY-LAYER FINAL SESSION — step 2: the pytest traversal suite (MATT-PAIRED)
+# SESSION 191 — query-layer FINAL: step 2, the pytest traversal suite (MATT-PAIRED)
 
-> **Next graph/meta session number: check `worklog.md` (S191+).** This is the LAST session of
-> the query-layer Track. **PAIR WITH MATT** — the mini-graph fixture content and op-semantics
-> sign-off are explicitly his (D-G); do not run this session headless.
+> **This is Session 191.** Stamp your worklog entry `### Session 191` at endsession.
+> (If another graph/meta session lands first, renumber accordingly — check `worklog.md`.)
+> This is the LAST session of the query-layer Track. **PAIR WITH MATT** — the mini-graph
+> fixture content and op-semantics sign-off are explicitly his (D-G); do not run headless.
 
 **Recommended model: Sonnet 4.6** (idiomatic pytest work; Matt drives fixture/semantics
 decisions). No Opus/Fable needed — the design record already holds the judgment calls.
@@ -37,14 +38,20 @@ status header says what's done; worklog S190 = the build record).
 5. Exit: `pytest graph/query/tests` green; one golden case deliberately broken → BOTH runners
    fail (drift alarm re-proven); full suite tallies recorded in the worklog entry.
 
+## Already applied at S190 endsession (Matt approved — do NOT redo)
+Hygiene classes 1–4 (5 YAML alias repairs + deliberate no-actions) and the mention-index
+repair (`graph/index/chapters/` ← preview, 821 rollups; commit `0408819e20`). **Class 5
+(cross-category dup slugs) is owned by Matt's separate dup-slug session** (own worktree) —
+check `working/query-layer/hygiene-proposal-s190-reconciliation.md` + git log for its
+landing state before touching any of those 7 slug pairs. Persona rulings SETTLED (flat base
+register on purpose; no A/B evals) — memory `chat-persona-decisions`, design.md §8.
+
 ## Matt-gated items that do NOT run unless he says so (prose, deliberately not fenced)
-The hygiene apply (`working/query-layer/hygiene-proposal-s190.md` — per-class checkboxes,
-incl. the peach/porridge true-collision renames), the mention-index repair apply (command in
-`working/query-layer/mention-index-repair-report.md`), the 8d SERVED_AT pass (trigger = Q21
-evidence per the board), any prod deploy (the researcher-persona + routing + new-tools build
-is committed but NOT deployed — Matt reviews `web/netlify/edge-functions/lib/agent.ts` and
-deploys manually per `DEPLOY.md`), and the 2 stale vocab-count test assertions (167→170,
-todos § Small Fixes — trivial, could fold in here with Matt's nod).
+The 8d SERVED_AT pass (trigger = Q21 evidence per the board), any prod deploy (the
+researcher-persona + routing + new-tools build is committed but NOT deployed — Matt reviews
+`web/netlify/edge-functions/lib/agent.ts` and deploys manually per `DEPLOY.md`), and the 2
+stale vocab-count test assertions (167→170, todos § Small Fixes — trivial, could fold in
+here with Matt's nod).
 
 ## Standing rules
 `sources/` read-only; never fetch the wiki; no graph/nodes|edges|index writes without Matt's

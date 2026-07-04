@@ -717,8 +717,12 @@ Matt overrules on read):**
   local scripts have no invocation telemetry, a time gate would be theater.
 - **(Bonus, Matt-steered live in S190) Persona reframe → researcher/wiki-reader frame** drafted
   by the board and wired as LOREMASTER_VOICE (draft in repo; SHARED_RULES safety text preserved
-  + test-pinned; **not deployed** — Matt reviews; the "dry enthusiasm" register is the flagged
-  post-A/B loosen if the new voice reads too flat).
+  + test-pinned). **Matt RULED on the three open knobs (S190, in-session):** (1) the flat
+  register is DELIBERATE — "it's the base persona; there can be more later" (no dry-enthusiasm
+  loosen; additional personas are the future mechanism, not register drift); (2) connective
+  reasoning stays tool-grounded (agree with the skeptic — connections only when a tool returned
+  them); (3) NO live A/B eval — deploy and judge by feel (the A/B row in the eval harness stays
+  empty/retired). Deploy itself remains manual per DEPLOY.md.
 
 **Still Matt-gated regardless of board output:** any graph mutation apply (side-step H, 8d),
 any LLM bulk pass (8d Haiku), any prod deploy.

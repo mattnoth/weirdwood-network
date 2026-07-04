@@ -154,10 +154,13 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 >   (Q11 ∞→2)**; G9 = 4,401 per-node narrative-arc assets via `/api/node`; braid primitives
 >   live; researcher-persona DRAFT wired (NOT deployed — Matt reviews); 5 boards decided (§8).
 >   **Remaining in this Track: the FINAL Matt-paired pytest-suite session** → continue:
->   `progress/continue-prompts/2026-07-04-query-layer-final-pytest-suite.md`. **Matt-gated
->   applies (prose notes, not scheduled):** hygiene proposal (`working/query-layer/
->   hygiene-proposal-s190.md`, per-class checkboxes), mention-index repair apply, 8d SERVED_AT
->   (trigger = Q21 evidence), prod deploy of the persona/routing/tools build.
+>   `progress/continue-prompts/2026-07-04-query-layer-final-pytest-suite.md`.
+> → **S190 endsession (Matt "approve all your recs"):** hygiene classes 1–4 + mention-index
+>   repair **APPLIED** (commit `0408819e20`; class 5 dup-slugs = Matt's separate worktree
+>   session); persona rulings SETTLED (flat base register on purpose, no A/B evals — memory
+>   `chat-persona-decisions`). **Still Matt-gated:** 8d SERVED_AT (trigger = Q21 evidence),
+>   **prod deploy of the persona/routing/search/list/theme build** (live site runs the OLD
+>   prompt until Matt reviews `agent.ts` + deploys per DEPLOY.md).
 
 - [x] **[DONE S96 (commit c58770549); S101 dip re-run CONFIRMED it works — natural phrasings now HIT] Fix the alias resolver / slug-discoverability gap.** The Mode 3 dip's #1 finding: the graph repeatedly holds the correct answer but `event_alias_resolver.py --lookup` returns MISS on natural phrasings, so a consumer agent never reaches the node. Cheapest, highest-leverage fix; converts ~3 fails/partials to correct (~4/10 → ~7/10) with ZERO new graph data. Scope: (a) fuzzy/substring fallback against the node-slug index when exact lookup misses; (b) index `event.death`/`event.execution` hubs by their victim so "X's death" / "X's execution" resolve (e.g. "Robb Stark's death" → `robb-is-killed`, "Ned Stark's execution" → `execution-of-eddard-stark`); (c) when a phrase names a character, return that character node as a candidate so node-attached edges (e.g. QoLB) are reachable. Deterministic Python, $0. Smoke-test against the dip's 10 questions before/after. NEEDS a continue prompt when picked up. (**Sonnet 4.6** — deterministic script work.)
 
