@@ -95,5 +95,47 @@
       "upstreamLengthGreaterThanDefaultDepth": true
     },
     "note": "proves the depth cap is the only thing limiting the default walk, not a broken traversal — restates the existing graph_test.ts assertion. Full profile has no maxDepth cap at all (unbounded BFS by default); this case is bounded-only since it's about probing the cap itself."
+  },
+  {
+    "id": "chain-expand-beats-battle-of-the-blackwater-subbeats",
+    "op": "chain",
+    "profile": "both",
+    "input": { "slug": "battle-of-the-blackwater", "expandBeats": true },
+    "expect": {
+      "mode": "exact",
+      "beats": {
+        "battle-of-the-blackwater": [
+          {
+            "beat": "a-knight-attacks-tyrion-s-shield",
+            "roles": [["AGENT_IN", "mandon-moore"], ["VICTIM_IN", "tyrion-lannister"]]
+          },
+          {
+            "beat": "fleet-forms-battle-lines",
+            "roles": [["AGENT_IN", "davos-seaworth"], ["COMMANDS_IN", "imry-florent"], ["WIELDED_IN", "black-betha"]]
+          },
+          {
+            "beat": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
+            "roles": [["AGENT_IN", "garlan-tyrell"]]
+          },
+          {
+            "beat": "joffrey-recalled-to-the-red-keep",
+            "roles": [["AGENT_IN", "cersei-lannister"]]
+          },
+          {
+            "beat": "sandor-clegane-deserts-the-kingsguard",
+            "roles": [["AGENT_IN", "sandor-clegane"]]
+          },
+          {
+            "beat": "tyrion-s-sortie-at-the-king-s-gate",
+            "roles": [["AGENT_IN", "tyrion-lannister"]]
+          },
+          {
+            "beat": "wildfire-trap-on-the-blackwater",
+            "roles": [["AGENT_IN", "hallyne"], ["AGENT_IN", "tyrion-lannister"]]
+          }
+        ]
+      }
+    },
+    "note": "query-layer step 6b (expand-beats port). battle-of-the-blackwater is the chain ROOT itself carrying 7 SUB_BEAT_OF children (none of its upstream/downstream nodes have beats) — a fully exact-pinnable case (ports the Python --expand-beats modifier's _beats_for_node verbatim, including its (role_type, participant) sort)."
   }
 ]

@@ -9,6 +9,7 @@ import { createTools } from "../../../src/lib/mod.ts";
 import { data, TYWIN_SLUG } from "../../../src/lib/_fixtures.ts";
 import {
   type ChatMessage,
+  dispatchTool,
   estimateCostUsd,
   harvestResult,
   MAX_TOOL_ITERATIONS,
@@ -300,5 +301,160 @@ Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, ci
   // Full-text pin: fails loud on ANY change to SHARED_RULES, intentional or not —
   // if this test fails on a legitimate SHARED_RULES edit, update the expected
   // hash/length below deliberately (this is the tripwire, not a silent drift net).
-  assert.equal(sharedRules.length, 10478, "SHARED_RULES length changed — confirm intentional");
+  // Updated for the query-layer wiring pass 2 routing-table addition (list_nodes/
+  // theme aggregative-browse row) — that row lives inside this same block, so its
+  // text growth moves this number; the theory-gate/cite/floor text is unchanged
+  // (see the explicit substring assertions above, which still pass).
+  assert.equal(sharedRules.length, 11768, "SHARED_RULES length changed — confirm intentional");
+});
+
+// ---- list_nodes / theme tools (query-layer wiring pass 2) ----
+
+Deno.test("TOOL_DEFS: list_nodes schema present with type (required) + has_quotes/limit/offset (optional)", () => {
+  const def = TOOL_DEFS.find((t) => t.name === "list_nodes");
+  assert.ok(def, "list_nodes must be registered in TOOL_DEFS");
+  const props = def!.input_schema.properties as Record<string, unknown>;
+  assert.ok("type" in props, "list_nodes must accept a type param");
+  assert.ok("has_quotes" in props, "list_nodes must accept an optional has_quotes param");
+  assert.ok("limit" in props, "list_nodes must accept an optional limit param");
+  assert.ok("offset" in props, "list_nodes must accept an optional offset param");
+  assert.deepEqual(def!.input_schema.required, ["type"]);
+});
+
+Deno.test("TOOL_DEFS: theme schema present with name (required)", () => {
+  const def = TOOL_DEFS.find((t) => t.name === "theme");
+  assert.ok(def, "theme must be registered in TOOL_DEFS");
+  const props = def!.input_schema.properties as Record<string, unknown>;
+  assert.ok("name" in props, "theme must accept a name param");
+  assert.deepEqual(def!.input_schema.required, ["name"]);
+});
+
+Deno.test("runAgent: list_nodes stubbed call path — dispatches, caps at 25, receipts", async () => {
+  let turn = 0;
+  const stub = (_msgs: ChatMessage[], onText: (d: string) => void): Promise<TurnResult> => {
+    turn++;
+    if (turn === 1) {
+      return Promise.resolve({
+        stopReason: "tool_use",
+        usage,
+        content: [{
+          type: "tool_use",
+          id: "l1",
+          name: "list_nodes",
+          input: { type: "foods" },
+        }],
+      });
+    }
+    onText("The graph holds a broad spread of foods. ");
+    return Promise.resolve({
+      stopReason: "end_turn",
+      usage,
+      content: [{ type: "text", text: "…" }],
+    });
+  };
+
+  const { events, emit } = recorder();
+  const result = await runAgent(
+    [{ role: "user", content: "What kinds of foods appear in the books?" }],
+    tools,
+    stub,
+    emit,
+  );
+
+  assert.equal(result.toolCalls, 1);
+
+  const receipts = events.filter((e) => e.event === "receipt");
+  assert.equal(receipts.length, 1);
+  assert.equal((receipts[0].data as { tool: string }).tool, "list_nodes");
+  const listResult = (receipts[0].data as { result: Record<string, unknown> }).result;
+  assert.equal(listResult.category, "foods");
+  assert.ok(Array.isArray(listResult.items));
+  assert.ok((listResult.items as unknown[]).length <= 25, "list_nodes must cap at 25 rows");
+  assert.equal(typeof listResult.total, "number");
+
+  assert.equal(result.toolTrace.length, 1);
+  assert.equal(result.toolTrace[0].tool, "list_nodes");
+  const outcome = result.toolTrace[0].outcome;
+  assert.ok(outcome, "list_nodes call must carry a logged outcome");
+  assert.equal(outcome!.matchType, "hit");
+  assert.ok((outcome!.resultCount ?? 0) > 0);
+});
+
+Deno.test("runAgent: theme stubbed call path — dispatches, caps at 25, receipts", async () => {
+  let turn = 0;
+  const stub = (_msgs: ChatMessage[], onText: (d: string) => void): Promise<TurnResult> => {
+    turn++;
+    if (turn === 1) {
+      return Promise.resolve({
+        stopReason: "tool_use",
+        usage,
+        content: [{
+          type: "tool_use",
+          id: "th1",
+          name: "theme",
+          input: { name: "meals & feasts" },
+        }],
+      });
+    }
+    onText("Meals turn up often, from lemon cakes to bowls of brown. ");
+    return Promise.resolve({
+      stopReason: "end_turn",
+      usage,
+      content: [{ type: "text", text: "…" }],
+    });
+  };
+
+  const { events, emit } = recorder();
+  const result = await runAgent(
+    [{ role: "user", content: "Describe some detailed meals in the books." }],
+    tools,
+    stub,
+    emit,
+  );
+
+  assert.equal(result.toolCalls, 1);
+
+  const receipts = events.filter((e) => e.event === "receipt");
+  assert.equal(receipts.length, 1);
+  assert.equal((receipts[0].data as { tool: string }).tool, "theme");
+  const themeResult = (receipts[0].data as { result: Record<string, unknown> }).result;
+  assert.equal(themeResult.theme, "meals & feasts");
+  assert.ok(Array.isArray(themeResult.items));
+  assert.ok((themeResult.items as unknown[]).length <= 25, "theme must cap at 25 rows");
+  assert.equal(typeof themeResult.total, "number");
+  assert.ok((themeResult.total as number) > 25, "meals & feasts should exceed the page cap live");
+  assert.equal(themeResult.truncated, true);
+
+  assert.equal(result.toolTrace.length, 1);
+  assert.equal(result.toolTrace[0].tool, "theme");
+  const outcome = result.toolTrace[0].outcome;
+  assert.ok(outcome, "theme call must carry a logged outcome");
+  assert.equal(outcome!.matchType, "hit");
+  assert.ok((outcome!.resultCount ?? 0) > 0);
+});
+
+Deno.test("dispatchTool: theme unknown name returns error + knownThemes, not a throw", () => {
+  const out = dispatchTool("theme", { name: "not-a-real-theme" }, tools) as Record<
+    string,
+    unknown
+  >;
+  assert.equal(out.error, "unknown theme");
+  assert.ok(Array.isArray(out.knownThemes) && (out.knownThemes as unknown[]).length > 0);
+});
+
+Deno.test("outcomeFor: list_nodes/theme hit/miss shapes", () => {
+  const listHit = outcomeFor("list_nodes", dispatchTool("list_nodes", { type: "foods" }, tools));
+  assert.equal(listHit?.matchType, "hit");
+  assert.ok((listHit?.resultCount ?? 0) > 0);
+
+  const listMiss = outcomeFor(
+    "list_nodes",
+    dispatchTool("list_nodes", { type: "zzz-not-a-real-category" }, tools),
+  );
+  assert.equal(listMiss?.matchType, "miss");
+  assert.equal(listMiss?.resultCount, 0);
+
+  const themeHit = outcomeFor("theme", dispatchTool("theme", { name: "hospitality" }, tools));
+  assert.equal(themeHit?.matchType, "hit");
+  assert.ok((themeHit?.resultCount ?? 0) > 0);
 });

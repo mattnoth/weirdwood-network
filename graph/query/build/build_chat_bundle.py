@@ -61,6 +61,7 @@ from weirwood_query.load import (  # noqa: E402
     parse_sort_keys,
     split_sections,
 )
+from weirwood_query.traverse import _node_containers  # noqa: E402
 
 NODES_DIR = REPO_ROOT / "graph/nodes"
 EDGES_FILE = REPO_ROOT / "graph/edges/edges.jsonl"
@@ -137,6 +138,15 @@ def load_nodes(nodes_dir: Path = NODES_DIR):
             rec["composite"] = composite
         if reading_order is not None:
             rec["reading_order"] = reading_order
+        # containers: frontmatter (query-layer step 6a) — the settled bag-
+        # retrieval tag array (essos/wo5k/north/aegon/bran/... — see
+        # traverse.py's _node_containers, reused verbatim here for parity with
+        # the full-profile `container` op). Only emitted when non-empty: 139
+        # of ~8.7k nodes carry it as of this build — carrying an empty `[]` on
+        # every other node would bloat the bundle for zero query value.
+        containers = _node_containers(fields)
+        if containers:
+            rec["containers"] = containers
         nodes[slug] = rec
     return nodes
 

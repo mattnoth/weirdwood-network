@@ -49,10 +49,10 @@ different answers, that is drift — the golden cases in `spec/cases/` exist to 
 | [`neighbors`](#neighbors) | ✅ `--neighbors` | ✅ `neighbors()` | both, live |
 | [`chain`](#chain-causal) (causal) | ✅ `--causal-chain` | ✅ `walkChain()` | both, live (profile-capped) |
 | [`chain --full`](#chain---full) (+ENABLES) | ✅ `--full-chain` | ◐ `walkChain()`'s `enables` side-channel | both, profile-documented difference |
-| [`expand-beats`](#expand-beats) | ✅ `--expand-beats` modifier | ❌ | **PLANNED — step 6** |
-| [`path`](#path) | ✅ `--path` (2-hop bridges, cap 50) | ❌ | **PLANNED — step 6** |
-| [`participants`](#participants) | ✅ `--event-participants` | ❌ | **PLANNED — step 6** |
-| [`container`](#container) | ✅ `--container` | ❌ | **PLANNED — step 6a** |
+| [`expand-beats`](#expand-beats) | ✅ `--expand-beats` modifier | ✅ `walkChain(slug, {expandBeats: true})` | **SHIPPED — step 6b**, both, no chat tool (dossier-side; see §"chat tool decisions") |
+| [`path`](#path) | ✅ `--path` (2-hop bridges, cap 50) | ✅ `path()` | **SHIPPED — step 6b**, both, no chat tool (see §"chat tool decisions" — evals-driven overrule of the design doc's "recommend path yes") |
+| [`participants`](#participants) | ✅ `--event-participants` | ✅ `participants()` | **SHIPPED — step 6b**, both, no chat tool (dossier-side by design) |
+| [`container`](#container) | ✅ `--container` | ✅ `container()` | **SHIPPED — step 6a**, both — `containers:` now ships in `nodes.json` (~139 nodes) |
 | [`family`](#family) | ✅ `--family-tree` / `family_tree()` | ✅ `familyTree()` | both, live — Python port shipped (step 1 close-out) |
 | [`health`](#health--census) | ✅ `--health` | ❌ | full-profile only (by design) |
 | [`search`](#search) | ✅ `search.py` / `weirwood query search` | ✅ `searchQuotes()` | **SHIPPED — step 5b**, the headline capability |
@@ -91,6 +91,32 @@ own positional args.
 | `search <query> [--type CATEGORY] [--limit N]` | *(no legacy-flag equivalent — new op, step 5b)* |
 | `list --type CATEGORY [--has-quotes] [--container NAME] [--limit N] [--offset N]` | *(no legacy-flag equivalent — new op, step 5d)* |
 | `corpus-search <query> [--book BOOK] [--mode phrase\|tokens] [--limit N]` | *(no legacy-flag equivalent — new op, step 5e; CLI/full-profile only)* |
+
+---
+
+## Chat tool decisions (step 6b, 2026-07-04)
+
+The design doc's step-6 card recommended `path` get a chat tool ("how are X and Y connected"
+is a real archetype query) while `participants`/`expand-beats` stay dossier-side. This
+session's hard gate barred touching `agent.ts`/the eval files directly, so the call is made
+here on the EXISTING eval evidence rather than by running a fresh eval pass:
+
+- **The prior Mode-3/S188 eval runs surfaced NO failing "how are X and Y connected"-shaped
+  question** in the fixed question set (`working/query-layer/evals/questions.md`) — the
+  design doc's own §2d archetype table lists a "connection" query type, but the routing-table
+  rewrite (step 5c) already notes **neighbors as an adequate substitute** for the connection
+  archetype in practice (a 1-hop `neighbors()` call surfaces the direct relationship; `path`'s
+  added value is specifically the 2-hop-bridge discovery, which no failing eval row exercises
+  today). This is recorded here as the evals-driven decision, per the task brief's framing.
+- **Decision this session: `path`/`participants`/`expand-beats` all ship WITHOUT a chat tool**
+  — implemented in `web/src/lib/` and exported from `mod.ts`'s `Tools` interface (so an
+  in-repo caller or a future chat-tool-wiring session has a stable contract to bind), but not
+  added to `agent.ts` (which this session is barred from touching anyway).
+- **This OVERRULES the design doc's "recommend path yes."** The overrule point is **NOT
+  closed** — it is Matt's call whether a future session should add `path` as a 6th chat tool
+  once live usage/telemetry (the per-turn Blobs logs, [[project_deploy_procedure]]) shows
+  users actually asking connection-style questions the routing table's `neighbors` substitute
+  doesn't satisfy. Flagged explicitly per this session's brief, not silently decided.
 
 ---
 
@@ -216,12 +242,64 @@ found by grep-scanning other node files' `## Edges` sections.
   serializations, unreconciled. `read`'s positional mode keeps printing `## Edges` prose
   (labeled as display prose, not structured edges) after step 1's consolidation — it is not
   being unified with `edges.jsonl` in this pass.
-- The bounded profile's `identity` + `quotes` are the curated, citable content the chat is
-  restricted to quoting from; `## Narrative Arc` prose is **dropped from the bundle
-  entirely** (G9) — not present in `NodeRecord` at all today. Step 6c decides whether it gets
-  inlined or fetched on demand.
-- `containers:` frontmatter (the 5-container bag-retrieval tags) does **not** ship in the
-  bounded bundle at all — `container` has no bounded-profile equivalent yet (see below).
+- The bounded profile's `identity` + `quotes` are the curated, citable content the chat tool
+  surface (`readNode()`) is restricted to quoting from; `## Narrative Arc` prose is **dropped
+  from `nodes.json` entirely** (G9) — the chat tool's `NodeRecord` never carries it, by
+  design (D-F: inlining would nearly triple the bundle — see below). The **dossier endpoint**
+  (`/api/node`, `node.ts`) is a separate consumer that DOES surface it, fetched on demand —
+  see "G9 resolution" immediately below.
+- `containers:` frontmatter (the container bag-retrieval tags) now DOES ship in the bounded
+  bundle (`NodeRecord.containers`, query-layer step 6a) — see the `container` op section.
+
+### G9 resolution (step 6c, 2026-07-04): per-node static assets, not inlining
+
+Step 0's measurement (`working/query-layer/measurements.md`) found inlining `## Narrative
+Arc` into `nodes.json` would add +197.7% (entity-node scope) — the bundle would nearly
+triple. D-F's threshold ("comfortably under ~15 MB → inline, else per-node static assets")
+resolves to **per-node static assets**:
+
+- **Builder:** `graph/query/build/build_node_assets.py` emits one file per node that carries
+  a `## Narrative Arc` section to `web/public/node/<slug>.json` —
+  `{slug, name, narrative_arc, cites?}`. `cites` is the list of inline `sources/chapters/
+  .../*.md:LINE` book-cite-overlay references found in the section text (the harvest-consume
+  convention — [[feedback_book_citation_overlay_value]]), omitted when the section carries
+  none (the common case: 87 of 4,401 qualifying nodes as of this build carry a book-cite
+  overlay; the rest are wiki-derived prose with no book cite). **4,401 assets, 9.2 MB total,
+  largest single asset 47.8 KB** (`daenerys-targaryen.json`) — includes both the 4,057 entity
+  nodes AND the 344 `chapters/` per-chapter summary nodes (both subsystems carry a `##
+  Narrative Arc`-headed section and both are present in `nodes.json`/reachable via
+  `readNode()`, so both get an asset for consistency). This is **close to but under** the
+  gate's 4,500-asset flag threshold (4,401/4,500 = 97.8%) — flagged explicitly per the task
+  brief; if the graph grows past 4,500 qualifying nodes, revisit whether `chapters/` should
+  be excluded (it would drop the count to 4,057, well clear of the threshold).
+- **`web/public/node/` is gitignored** (`.gitignore`, this session) — same class as
+  `web/data/` and `web/public/data/`: derived build output, regenerated by
+  `weirwood refresh`/pre-deploy, never committed.
+- **Consumption — `node.ts`:** the Edge Function has no filesystem access at runtime (same
+  reason `data.ts` inlines the main bundle via JSON module imports instead of
+  `Deno.readTextFile`), and there are too many per-node assets to inline all of them the same
+  way. Instead `node.ts` `fetch()`es `/node/<slug>.json` from the **same origin that served
+  the incoming request** (`new URL(path, req.url.origin)`) — network I/O falls outside the
+  Edge Function's 50 ms CPU budget, unlike an in-memory bundle lookup. This works identically
+  in prod (Netlify serves `web/public/` as the publish dir) and in local dev
+  (`scripts/dev.ts`'s `serveDir()` serves `web/public/` on the same port `/api/node` runs on)
+  — no separate "site base URL" config needed. **Fails soft:** any fetch failure (missing
+  asset, 404, network hiccup) is caught and simply omits `narrativeArc`/`narrativeArcCites`
+  from the response — today's response shape is a strict subset, never broken.
+- **Dossier render:** `web/public/app.js`'s `narrativeArcSection()` renders the prose (split
+  on `### Book Title` sub-headers into per-book paragraphs, reusing the existing
+  `cleanQuote()` wiki-markup/cite cleanup quotes already get) under a "Narrative arc" label,
+  only when the field is present. Minimal CSS added (`.dossier-arc`/`.arc-block`/
+  `.arc-heading`/`.arc-text`, reusing existing theme variables).
+- **The chat tool surface (`readNode()` in `web/src/lib/read-node.ts`) is UNCHANGED** — it
+  still returns the slim `NodeRecord` with no Narrative Arc field. Only the dossier endpoint
+  (`node.ts`) carries the enrichment. This was a deliberate choice, not an oversight: the
+  chat's grounding discipline (quote-only citation, the "essential shrink") is untouched;
+  Narrative Arc prose is un-cited synthesis prose in most cases (only 87/4,401 carry inline
+  book cites) and is not the kind of content the model should quote from directly. The
+  dossier is a human-facing detail view, not a model-facing retrieval tool — the overrule
+  point the design doc flagged ("should the dossier endpoint carry it even if the chat tool
+  stays slim") resolves to: yes for the dossier, no for the chat tool.
 
 ---
 
@@ -325,7 +403,7 @@ transitive count.**
 
 ## `expand-beats`
 
-**Status: PLANNED — step 6 (b).** Not yet ported to the bounded profile.
+**Status: SHIPPED — step 6b (2026-07-04).** Both profiles.
 
 **Full-profile semantics (`--expand-beats` modifier on `--causal-chain`/`--full-chain`):**
 for every node touched by the causal walk, also finds its `SUB_BEAT_OF` children (event
@@ -334,11 +412,32 @@ hub → reified sub-beat) and each beat's participant role edges (`AGENT_IN`, `V
 direct role edges) shows its real richness via its sub-beats. Output adds a `beats: {node:
 [{beat, roles: [(role_type, participant)]}]}` map alongside the normal chain result.
 
+**Bounded profile:** `walkChain(slug, data, {expandBeats: true})` in `web/src/lib/graph.ts`
+adds a `beats?: Record<string, ChainBeat[]>` field to `ChainResult`, present only when
+requested. Ports `_beats_for_node()` verbatim, including its **distinct** role-edge set
+(`BEAT_ROLE_EDGE_TYPES` = `AGENT_IN`/`VICTIM_IN`/`COMMANDS_IN`/`WITNESS_IN`/`WIELDED_IN` —
+deliberately NOT the same constant as `participants()`'s `PARTICIPANT_ROLE_TYPES`, which
+additionally has `ATTENDS`/`LOCATED_AT` but omits `WITNESS_IN`; the two ops were ported from
+two distinct Python constants and must stay that way to match `traverse.py` exactly). Beat
+map keys follow chain-walk discovery order (root, then upstream+downstream endpoints in walk
+order), matching the full profile's `chain_nodes` ordering, not a sorted set.
+
+**Golden case:** `chain.json`'s `chain-expand-beats-battle-of-the-blackwater-subbeats` (profile
+"both") — `battle-of-the-blackwater` as chain root carries 7 `SUB_BEAT_OF` children directly
+(none of its bounded-profile upstream/downstream nodes have beats — a fully exact-pinnable
+case). Note: the design doc's own worked example (`assassination-of-tywin-lannister` →
+`trial-of-tyrion-lannister`) does NOT reproduce on the bounded profile — `trial-of-
+tyrion-lannister` sits beyond the bounded chain's depth-2 cap (a real, expected profile
+divergence per `chain`'s own documented depth-cap difference, not a bug in this port).
+
+**Chat tool:** none (dossier-side by design — see §"chat tool decisions" below).
+
 ---
 
 ## `path`
 
-**Status: PLANNED — step 6 (b).** Not yet ported to the bounded profile.
+**Status: SHIPPED — step 6b (2026-07-04).** Both profiles. **Overrules the design doc's
+"recommend path yes" chat-tool call — see §"chat tool decisions" below.**
 
 **Full-profile semantics (`--path A B`):** (a) direct edges between A and B in either
 direction, plus (b) 2-hop bridges — nodes that are neighbors of both A and B (excluding A
@@ -346,15 +445,26 @@ and B themselves), ranked by combined edge count on both legs, capped to the top
 `BRIDGE_CAP` (50 in the current script) for display. Each bridge reports the edge types and
 dominant direction (`out`/`in`/`both`) on each leg.
 
-**Recommended bounded-profile target (per design doc §5 step 6b):** port as a chat tool —
-"how are X and Y connected" is a real archetype query the design doc flags as worth a tool,
-unlike `participants`/`expand-beats` which can stay dossier-side (full-profile only).
+**Bounded profile:** `path(slugA, slugB, data)` in `web/src/lib/path.ts` — a line-for-line
+port of `traverse.py::path()`'s algorithm (same `BRIDGE_CAP = 50`, same stable-sort-by-
+alpha-then-by-combined-edge-count ordering — JS `Array.sort` is stable per spec, matching
+Python's stable `sorted()`). Invalid slugs (trust-boundary rejection) return the fully-empty
+shape, no throw. Verified live: TS `path("eddard-stark", "cersei-lannister")` and Python
+`weirwood query path eddard-stark cersei-lannister` return the IDENTICAL 30-bridge set (same
+slugs, same direct-edge count of 9) on the same underlying data.
+
+**Golden cases:** `spec/cases/path.json` (2 cases, profile "both") — the Eddard↔Cersei dyad
+(invariant-mode: floors + must-include bridges, not an exact dump — the bridge set grows as
+the graph grows) and an invalid-slug empty-no-throw case.
+
+**Chat tool: none — see §"chat tool decisions" below (this is an EVALS-DRIVEN OVERRULE of
+the design doc's own recommendation).**
 
 ---
 
 ## `participants`
 
-**Status: PLANNED — step 6 (b).** Not yet ported to the bounded profile.
+**Status: SHIPPED — step 6b (2026-07-04).** Both profiles.
 
 **Full-profile semantics (`--event-participants HUB`):** unions the participant role edges
 (`AGENT_IN`/`VICTIM_IN`/`COMMANDS_IN`/`WITNESS_IN`/`WIELDED_IN`) across every `SUB_BEAT_OF`
@@ -364,25 +474,62 @@ reified sub-beats, not on the hub itself). Errors distinctly: hub not found (wit
 slug-prefix suggestions) vs. hub found with zero beats (clean "not mined yet" message) vs.
 beats found with zero role edges.
 
+**IMPORTANT: `participants()`'s role-edge set is `PARTICIPANT_ROLE_TYPES` = `AGENT_IN`/
+`COMMANDS_IN`/`VICTIM_IN`/`WIELDED_IN`/`ATTENDS`/`LOCATED_AT`** — this is a **different** set
+from `expand-beats`'s `ROLE_EDGE_TYPES` (which has `WITNESS_IN` but not `ATTENDS`/
+`LOCATED_AT`). The prose above described it as the same list as `expand-beats`'s in the v1
+draft; verified against the live source this session — they are two distinct Python
+constants (`traverse.py` lines ~258 and ~355), ported to TS as two distinct `Set`s
+(`participants.ts`'s `PARTICIPANT_ROLE_TYPES` vs. `graph.ts`'s `BEAT_ROLE_EDGE_TYPES`), and
+must stay that way.
+
+**Bounded profile:** `participants(hubSlug, data)` in `web/src/lib/participants.ts`. An
+invalid or bundle-absent hub slug returns `{error: ...}` with zero-valued
+`beatCount`/`participantCount`/`participants` (a documented shape difference from the
+full-profile error branch, which omits those keys entirely rather than zero-filling them —
+see the Appendix). A hub found but with no `SUB_BEAT_OF` children returns `beatCount: 0` plus
+an explanatory `message`, not an error. Verified live: `participants("red-wedding")` returns
+14 beats / 51 participant role edges on both profiles (Red Wedding — the reification
+pattern's canonical worked example, matching the design doc's own verification anchor).
+
+**Golden cases:** `spec/cases/participants.json` (2 cases, profile "both") — the Red Wedding
+union (invariant-mode: floors + must-include-source + has-role-type, not an exact 51-row
+dump) and an unknown-hub error path.
+
+**Chat tool:** none (dossier-side by design — see §"chat tool decisions" below).
+
 ---
 
 ## `container`
 
-**Status: PLANNED — step 6 (a).** Not yet in the bounded bundle or profile.
+**Status: SHIPPED — step 6a (2026-07-04).** Bag-retrieval, both profiles.
 
 **Full-profile semantics (`--container NAME`):** bag-retrieval — every node whose
 `containers:` frontmatter array includes `NAME`, **unordered** (explicitly not the ordered
 causal walk; the docstring/CLI help text says to use `--causal-chain`/`--full-chain` for the
 arc). The **only** full-profile mode that never touches `edges.jsonl` — it's a pure
-frontmatter scan over `graph/nodes/`. Container set is currently 5 (`essos`, `wo5k`, `north`,
-`aegon`, `bran` — settled S122); `containers` is a tag, never an umbrella node.
+frontmatter scan over `graph/nodes/`. Container set as of this build is 6 (`essos`, `wo5k`,
+`north`, `aegon`, `bran` — settled S122 — plus `jon`, seen live in frontmatter but not yet a
+documented member of the "settled set"; the op reads whatever `containers:` values exist, it
+does not hardcode the 5/6-name list); `containers` is a tag, never an umbrella node.
 
-**Bounded-profile gap:** `containers:` frontmatter is **not present anywhere in the bundle**
-today (verified: no `containers` field in `NodeRecord`, no references in `web/src/lib/*.ts`)
-— this is a bundle-projection gap the design doc calls out explicitly (§4 op table: `container
-| ✅ | ❌ (containers not in bundle) | both (step 6a)`), distinct from "not yet coded"; the
-builder (`build_chat_bundle.py`/`build-chat-export.py`) needs to add the field before a TS
-`container()` can exist at all.
+**Bounded-profile (`container()` in `web/src/lib/container.ts`):** `build_chat_bundle.py`'s
+`load_nodes()` now emits a `containers: string[]` field on `NodeRecord` — reusing
+`weirwood_query.traverse._node_containers`'s normalization verbatim — for every node that
+carries ≥1 container tag (139 of ~8,473 nodes as of this build; the field is **omitted**,
+not an empty `[]`, on every other node, so the bundle isn't bloated for zero query value).
+`nodes.json` grew **+3,254 bytes (+0.08%)** for this field; `edges.json` and `alias-map.json`
+are byte-identical before/after. `container(name, data)` filters `data.nodes` for a
+case-insensitive match against `containers`, sorted by `(type, slug)` — the frontmatter
+`type:` scalar, matching the Python sort exactly (NOT the `category` directory name).
+Verified live: TS `container("bran")` and Python `weirwood query container bran` return the
+IDENTICAL 12-slug set on the same underlying data; `container("wo5k")` count is 58 (≥50).
+
+**Golden cases:** `spec/cases/container.json` (2 cases, profile "both") — `container("bran")`
+must include `bran-becomes-a-greenseer`, `container("wo5k")` count ≥ 50.
+
+**Chat tool:** not wired (same "gated on evals, out of this Track's hard gate" note as
+`search`/`list`/`theme` — see `mod.ts`'s `Tools` interface).
 
 ---
 
@@ -739,6 +886,14 @@ ratify as permanent:
 6. **G16 — two edge serializations:** `read`'s positional full-profile mode reads node-file
    `## Edges` markdown; every other full-profile op reads `edges.jsonl`; nothing cross-checks
    them today.
+7. **`participants` error-shape (step 6b, new):** the full-profile `event_participants()`
+   error branch (hub not found) returns ONLY `{error, hint, suggestions}` — it omits
+   `beat_count`/`participant_count`/`participants` entirely. The bounded `participants()`
+   always includes those keys, zero-valued, even on error. Same class as the `resolve`
+   status-enum mismatch and `neighbors`' field-naming mismatch above — the Python parity
+   checker (`run_cases.py::try_participants`) normalizes this (treats a missing key as its
+   zero default only on the error path) rather than treating it as a failure; a future engine
+   unification should decide whether to zero-fill the Python error dict for real parity.
 
 ---
 
@@ -806,3 +961,43 @@ ratify as permanent:
   bundle; spawned a follow-up task to survey and propose fixes (G18-style, gated on Matt).
   `weirwood-refresh.sh` gained a 4th builder step (`build_search_index.py`); the bundle
   quartet (`build_chat_bundle.py`) stays a separate manual pre-deploy step, unchanged.
+- **2026-07-04 (S189, step 6a/6b/6c — session, port-gap close + projection):** `container`
+  (6a), `path`/`participants`/`expand-beats` (6b), and the G9 per-node static-asset resolution
+  (6c) all shipped. `containers:` frontmatter now ships in `nodes.json` (+3,254 bytes /
+  +0.08%, 139 nodes; `edges.json`/`alias-map.json` byte-identical) and has a TS `container()`
+  op (`web/src/lib/container.ts`); `path()`/`participants()` are new TS modules
+  (`web/src/lib/path.ts`, `participants.ts`) porting `traverse.py::path()`/
+  `event_participants()` verbatim; `expand-beats` is a `walkChain(slug, {expandBeats: true})`
+  option in `graph.ts` porting `_beats_for_node()` verbatim (including its DISTINCT role-edge
+  set from `participants`'s — see Appendix item 7, a real finding this session). NONE of the
+  three get a chat tool — see the new "Chat tool decisions" section above (an evals-driven
+  overrule of this doc's own prior "recommend path yes," left open for Matt). G9: measured
+  step-0 delta (+197.7%) ruled out inlining; `graph/query/build/build_node_assets.py` emits
+  4,401 per-node `web/public/node/<slug>.json` assets (9.2 MB total, largest 47.8 KB;
+  gitignored, same class as `web/data/`) for every node with a `## Narrative Arc` section
+  (entity nodes + `chapters/` — both are `nodes.json`/`readNode()`-reachable); `node.ts`
+  fetches the asset over HTTP from the request's own origin (Edge Functions have no
+  filesystem access; network I/O is outside the CPU budget, unlike the inlined main bundle)
+  and fails soft on any error — the chat tool's own `readNode()`/`NodeRecord` are UNCHANGED
+  (Narrative Arc stays dossier-only, a deliberate grounding-discipline call, not an
+  oversight). `app.js` gained a small `narrativeArcSection()` renderer (reuses the existing
+  `cleanQuote()` wiki-markup cleanup) + matching CSS. 8 new golden cases (`container.json`
+  ×2, `path.json` ×2, `participants.json` ×2, plus the `chain.json` expand-beats case, profile
+  "both"), registered in both `spec_cases_test.ts` and `run_cases.py`. `deno task test`:
+  98/98 (0 failed, 1 ignored — was 85/85 at session start on this Track's own baseline; the
+  concurrent agent.ts-track session added tests independently in parallel, untouched by this
+  work). `run_cases.py`: 37 passed / 1 skipped (unchanged skip — unrelated pre-existing
+  neighbors-full-profile placeholder). `pytest tests/`: 1322 passed / 3 pre-existing fails
+  (unchanged baseline — this session made no `reference/architecture.md`/vocab changes).
+  Verified live spot-checks: TS `container("bran")` == Python `weirwood query container bran`
+  (identical 12-slug set); TS `path("eddard-stark","cersei-lannister")` bridges == Python's
+  (identical 30-bridge set, 9 direct edges) on bundle-equivalent edges; one live `/api/node`
+  check via a local `weirwood-live` preview server (autoPort — 8766 was already held by
+  another session, per the standing port-collision note) confirmed `narrativeArc`/
+  `narrativeArcCites` attach correctly (daenerys-targaryen: 48,714-char arc, no cites;
+  horn-of-winter: cites `["sources/chapters/asos/asos-jon-10.md:161"]`; a node with no asset —
+  aegon-blackfyre — degrades to today's response shape, no `narrativeArc` key, 200 status).
+  Found (documented, not fixed, per hard gate) Appendix item 7 — `participants`' full-profile
+  error branch omits fields the bounded profile zero-fills. Hard gates respected: no
+  `agent.ts`/`working/query-layer/evals/` touch; no `graph/nodes|edges|index` mutation; no
+  deploy; no API spend (the one live turn was a keyless `/api/node` GET, not a model call).

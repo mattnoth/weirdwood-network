@@ -6,6 +6,7 @@
 // directly. Invalid slugs yield empty results (trust boundary, validate.ts).
 
 import type {
+  ChainBeat,
   ChainLink,
   ChainResult,
   Edge,
@@ -23,6 +24,20 @@ import { isValidSlug } from "./validate.ts";
 // Edge types that carry causal consequence (vs PRECEDES = pure chronology).
 // Walking all three reconstructs a narrative-arc chain no single edge holds.
 const CAUSAL_EDGE_TYPES: ReadonlySet<string> = new Set(["CAUSES", "TRIGGERS", "MOTIVATES"]);
+
+// Role edges surfaced by expand-beats (query-layer step 6b) — ports
+// `weirwood_query.traverse.ROLE_EDGE_TYPES` VERBATIM. Deliberately a
+// DIFFERENT set from `participants()`'s PARTICIPANT_ROLE_TYPES (that one
+// additionally has ATTENDS/LOCATED_AT but omits WITNESS_IN) — the two ops
+// were ported from two distinct constants in the Python source and must stay
+// that way, not unified, to match traverse.py exactly.
+const BEAT_ROLE_EDGE_TYPES: ReadonlySet<string> = new Set([
+  "AGENT_IN",
+  "VICTIM_IN",
+  "COMMANDS_IN",
+  "WITNESS_IN",
+  "WIELDED_IN",
+]);
 // ENABLES is a precondition, not a consequence. It is NEVER walked into the
 // causal spine (it would flood a hub with tangents). Instead walkChain returns
 // the ENABLES edges that precondition spine nodes as a SEPARATE `enables` array,
@@ -169,15 +184,38 @@ function walkCausal(
 }
 
 /**
+ * The SUB_BEAT_OF children of `node` (a hub event), each annotated with its
+ * role edges (query-layer step 6b, "expand-beats"). Ports
+ * `weirwood_query.traverse._beats_for_node()` verbatim: children sorted by
+ * slug, each child's roles sorted as (role_type, participant) pairs.
+ */
+function beatsForNode(node: string, edges: Edge[]): ChainBeat[] {
+  const children = edges
+    .filter((e) => e.type === "SUB_BEAT_OF" && e.target === node)
+    .map((e) => e.source)
+    .sort();
+  return children.map((child) => {
+    const roles: Array<[string, string]> = edges
+      .filter((e) => e.target === child && BEAT_ROLE_EDGE_TYPES.has(e.type))
+      .map((e): [string, string] => [e.type, e.source])
+      .sort((a, b) => (a[0] === b[0] ? (a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : 0) : (a[0] < b[0] ? -1 : 1)));
+    return { beat: child, roles };
+  });
+}
+
+/**
  * Walk the causal chain both directions from `slug`: upstream antecedents and
  * downstream consequences. Also collects ENABLES edges that precondition nodes
- * in the causal chain (for progressive-disclosure toggle). Empty result for an
- * invalid slug.
+ * in the causal chain (for progressive-disclosure toggle). When
+ * `opts.expandBeats` is set (query-layer step 6b), also attaches, for every
+ * node touched by the chain (queried node + upstream + downstream) that has
+ * SUB_BEAT_OF children, its beats + role edges — ports the Python
+ * `--expand-beats` modifier verbatim. Empty result for an invalid slug.
  */
 export function walkChain(
   slug: string,
   data: GraphData,
-  opts: { maxDepth?: number } = {},
+  opts: { maxDepth?: number; expandBeats?: boolean } = {},
 ): ChainResult {
   const maxDepth = opts.maxDepth ?? DEFAULT_MAX_DEPTH;
   if (!isValidSlug(slug)) {
@@ -221,7 +259,31 @@ export function walkChain(
     if (enables.length >= MAX_ENABLES) break;
   }
 
-  return { slug, upstream, downstream, enables };
+  const result: ChainResult = { slug, upstream, downstream, enables };
+
+  if (opts.expandBeats) {
+    // Edge-discovery order (matches traverse.py's `chain_nodes`, NOT a sorted
+    // set) — root first, then each upstream+downstream link's endpoints in
+    // walk order, first-seen-wins.
+    const orderedNodes: string[] = [slug];
+    const seenNodes = new Set<string>([slug]);
+    for (const link of [...upstream, ...downstream]) {
+      for (const n of [link.source, link.target]) {
+        if (!seenNodes.has(n)) {
+          seenNodes.add(n);
+          orderedNodes.push(n);
+        }
+      }
+    }
+    const beats: Record<string, ChainBeat[]> = {};
+    for (const n of orderedNodes) {
+      const b = beatsForNode(n, data.edges);
+      if (b.length > 0) beats[n] = b;
+    }
+    result.beats = beats;
+  }
+
+  return result;
 }
 
 function toNeighborLink(e: Edge, nodes: NodesMap): NeighborLink {

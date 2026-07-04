@@ -44,6 +44,14 @@ export interface NodeRecord {
    *  walkChain() orders a causal chain by these instead of graph hop-depth. */
   composite?: string;
   reading_order?: string;
+  /** The `containers:` frontmatter array (query-layer step 6a) — the settled
+   *  bag-retrieval tag set (e.g. "essos", "wo5k", "north", "aegon", "bran").
+   *  Present only on the ~139 nodes that carry ≥1 container tag (added to
+   *  `build_chat_bundle.py`'s `load_nodes()`, reusing
+   *  `weirwood_query.traverse._node_containers`'s normalization verbatim, for
+   *  parity with the full-profile `container` op). Absent everywhere else —
+   *  does NOT bloat the other ~8,300 nodes with an empty `[]`. */
+  containers?: string[];
 }
 
 /** `nodes.json` — `{ "<slug>": NodeRecord }`. */
@@ -177,6 +185,15 @@ export interface ChainLink {
   depth: number;
 }
 
+/** One SUB_BEAT_OF child of a chain node, with its participant role edges
+ *  (query-layer step 6b — `expand-beats`). Ports
+ *  `weirwood_query.traverse._beats_for_node()`. */
+export interface ChainBeat {
+  beat: string;
+  /** [role_type, participant_slug] pairs, sorted (role_type, participant). */
+  roles: Array<[string, string]>;
+}
+
 /** walkChain() return: causal antecedents (upstream) + consequences (downstream) + preconditions. */
 export interface ChainResult {
   slug: string;
@@ -186,6 +203,13 @@ export interface ChainResult {
    *  spine (one round-trip) so the UI can reveal the preconditions behind a toggle
    *  while the model narrates only the clean causal spine. */
   enables: ChainLink[];
+  /** Present only when `opts.expandBeats` was requested (query-layer step 6b).
+   *  slug -> its SUB_BEAT_OF children + their role edges, for every node
+   *  touched by the chain (queried node + upstream + downstream) that HAS
+   *  beats — a chain node that reads sparse (a hub with no direct role
+   *  edges) shows its real richness via its reified sub-beats. Ports the
+   *  Python `--expand-beats` modifier's `beats` map verbatim. */
+  beats?: Record<string, ChainBeat[]>;
 }
 
 /** One edge in the neighbors() relational view (no chain walk). */
@@ -275,6 +299,86 @@ export interface ListItem {
   slug: string;
   name: string;
   quoteCount: number;
+}
+
+/** One direct edge between the two `path()` endpoints (either direction). */
+export interface PathDirectEdge {
+  edge_type: string;
+  source: string;
+  target: string;
+  evidence_quote: string | null;
+  ref: string | null;
+  tier: number | null;
+}
+
+/** One 2-hop bridge node in a `path()` result: a node that neighbors BOTH
+ *  endpoints. `aDir`/`bDir` are "out" | "in" | "both" — the dominant
+ *  direction of the edges on that leg (relative to the endpoint). */
+export interface PathBridge {
+  bridge: string;
+  aTypes: string[];
+  bTypes: string[];
+  aDir: "out" | "in" | "both";
+  bDir: "out" | "in" | "both";
+  aEdgeCount: number;
+  bEdgeCount: number;
+}
+
+/** path(a, b) return: direct edges between A and B, plus 2-hop bridges
+ *  (nodes that neighbor both), ranked by combined edge count and capped
+ *  (query-layer step 6b). Ports `weirwood_query.traverse.path()`. */
+export interface PathResult {
+  slugA: string;
+  slugB: string;
+  directEdges: PathDirectEdge[];
+  totalBridges: number;
+  bridgesShown: number;
+  bridges: PathBridge[];
+}
+
+/** One participant role edge in an `participants()` result — a SUB_BEAT_OF
+ *  child's role edge, presented as if directly attached to the hub. */
+export interface ParticipantRecord {
+  roleType: string;
+  sourceSlug: string;
+  beatSlug: string;
+  evidenceQuote: string | null;
+  tier: number | null;
+}
+
+/** participants(hub) return: the union of participant role edges across
+ *  every SUB_BEAT_OF child of `hub` (query-layer step 6b). Ports
+ *  `weirwood_query.traverse.event_participants()`. `error` is set (with no
+ *  `beats`/`participants`) when the hub slug has no node record. */
+export interface ParticipantsResult {
+  hubSlug: string;
+  beatCount: number;
+  beats?: string[];
+  participantCount: number;
+  participants: ParticipantRecord[];
+  error?: string;
+  message?: string;
+}
+
+/** One node in a container() bag-retrieval result. */
+export interface ContainerItem {
+  slug: string;
+  type: string;
+  name: string;
+  /** The node's full `containers:` array (a node can carry more than one tag —
+   *  e.g. a node in both "wo5k" and "essos"), not just the queried name. */
+  containers: string[];
+}
+
+/** container(name) return: every node whose `containers:` frontmatter array
+ *  includes `name` (query-layer step 6a) — UNORDERED bag-retrieval, distinct
+ *  from the ordered causal walk (`chain`/`walkChain`). Ports
+ *  `weirwood_query.traverse.container()`'s semantics against the bounded
+ *  bundle's `NodeRecord.containers` field. */
+export interface ContainerResult {
+  container: string;
+  count: number;
+  nodes: ContainerItem[];
 }
 
 /** listNodes() return: a browse page over one node category (query-layer

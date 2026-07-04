@@ -19,12 +19,18 @@ import { familyTree, neighbors, walkChain } from "./graph.ts";
 import { searchQuotes } from "./search.ts";
 import { listNodes } from "./list.ts";
 import { theme } from "./themes.ts";
+import { container } from "./container.ts";
+import { path } from "./path.ts";
+import { participants } from "./participants.ts";
 import { data } from "./_fixtures.ts";
 import type {
   ChainResult,
+  ContainerResult,
   FamilyTreeResult,
   ListResult,
   NeighborsResult,
+  ParticipantsResult,
+  PathResult,
   ResolveCandidate,
   SearchResult,
   ThemeResult,
@@ -36,7 +42,17 @@ const CASES_DIR = new URL("../../../graph/query/spec/cases/", import.meta.url);
 
 interface Case {
   id: string;
-  op: "resolve" | "neighbors" | "chain" | "family" | "search" | "list" | "theme";
+  op:
+    | "resolve"
+    | "neighbors"
+    | "chain"
+    | "family"
+    | "search"
+    | "list"
+    | "theme"
+    | "container"
+    | "path"
+    | "participants";
   profile: "bounded" | "full" | "both";
   // deno-lint-ignore no-explicit-any
   input: Record<string, any>;
@@ -155,9 +171,15 @@ function runNeighbors(c: Case) {
 }
 
 function runChain(c: Case) {
-  const opts = c.input.maxDepth !== undefined ? { maxDepth: c.input.maxDepth } : {};
+  const opts: { maxDepth?: number; expandBeats?: boolean } = {};
+  if (c.input.maxDepth !== undefined) opts.maxDepth = c.input.maxDepth;
+  if (c.input.expandBeats !== undefined) opts.expandBeats = c.input.expandBeats;
   const chain: ChainResult = walkChain(c.input.slug, data, opts);
   const exp = c.expect;
+
+  if (exp.beats !== undefined) {
+    assert.deepEqual(chain.beats, exp.beats, `${c.id}: beats`);
+  }
 
   // deno-lint-ignore no-explicit-any
   const linkSubset = (l: any, want: Record<string, unknown>) => {
@@ -367,6 +389,90 @@ function runTheme(c: Case) {
   }
 }
 
+function runContainer(c: Case) {
+  const result: ContainerResult = container(c.input.name, data);
+  const exp = c.expect;
+  const memberSlugs = result.nodes.map((n) => n.slug);
+
+  if (exp.count !== undefined) assert.equal(result.count, exp.count, `${c.id}: count`);
+  if (exp.nodes !== undefined) assert.deepEqual(result.nodes, exp.nodes, `${c.id}: nodes`);
+  if (exp.mustIncludeSlug !== undefined) {
+    assert.ok(
+      memberSlugs.includes(exp.mustIncludeSlug),
+      `${c.id}: expected ${exp.mustIncludeSlug} among container members`,
+    );
+  }
+  if (exp.memberCountAtLeast !== undefined) {
+    assert.ok(
+      result.count >= exp.memberCountAtLeast,
+      `${c.id}: memberCountAtLeast ${result.count} >= ${exp.memberCountAtLeast}`,
+    );
+  }
+}
+
+function runPath(c: Case) {
+  const result: PathResult = path(c.input.slugA, c.input.slugB, data);
+  const exp = c.expect;
+
+  if (exp.directEdges !== undefined) assert.deepEqual(result.directEdges, exp.directEdges, `${c.id}: directEdges`);
+  if (exp.totalBridges !== undefined) assert.equal(result.totalBridges, exp.totalBridges, `${c.id}: totalBridges`);
+  if (exp.bridgesShown !== undefined) assert.equal(result.bridgesShown, exp.bridgesShown, `${c.id}: bridgesShown`);
+  if (exp.bridges !== undefined) assert.deepEqual(result.bridges, exp.bridges, `${c.id}: bridges`);
+  if (exp.directEdgesAtLeast !== undefined) {
+    assert.ok(
+      result.directEdges.length >= exp.directEdgesAtLeast,
+      `${c.id}: directEdgesAtLeast ${result.directEdges.length} >= ${exp.directEdgesAtLeast}`,
+    );
+  }
+  if (exp.totalBridgesAtLeast !== undefined) {
+    assert.ok(
+      result.totalBridges >= exp.totalBridgesAtLeast,
+      `${c.id}: totalBridgesAtLeast ${result.totalBridges} >= ${exp.totalBridgesAtLeast}`,
+    );
+  }
+  if (exp.mustIncludeBridges !== undefined) {
+    const bridgeSlugs = new Set(result.bridges.map((b) => b.bridge));
+    for (const s of exp.mustIncludeBridges) {
+      assert.ok(bridgeSlugs.has(s), `${c.id}: expected bridge ${s}`);
+    }
+  }
+}
+
+function runParticipants(c: Case) {
+  const result: ParticipantsResult = participants(c.input.hubSlug, data);
+  const exp = c.expect;
+
+  if (exp.hasError !== undefined) assert.equal(!!result.error, exp.hasError, `${c.id}: hasError`);
+  if (exp.beatCount !== undefined) assert.equal(result.beatCount, exp.beatCount, `${c.id}: beatCount`);
+  if (exp.participantCount !== undefined) {
+    assert.equal(result.participantCount, exp.participantCount, `${c.id}: participantCount`);
+  }
+  if (exp.participants !== undefined) {
+    assert.deepEqual(result.participants, exp.participants, `${c.id}: participants`);
+  }
+  if (exp.beatCountAtLeast !== undefined) {
+    assert.ok(result.beatCount >= exp.beatCountAtLeast, `${c.id}: beatCountAtLeast`);
+  }
+  if (exp.participantCountAtLeast !== undefined) {
+    assert.ok(
+      result.participantCount >= exp.participantCountAtLeast,
+      `${c.id}: participantCountAtLeast ${result.participantCount} >= ${exp.participantCountAtLeast}`,
+    );
+  }
+  if (exp.mustIncludeSource !== undefined) {
+    const sources = new Set(result.participants.map((p) => p.sourceSlug));
+    for (const s of exp.mustIncludeSource) {
+      assert.ok(sources.has(s), `${c.id}: expected participant source ${s}`);
+    }
+  }
+  if (exp.hasRoleType !== undefined) {
+    assert.ok(
+      result.participants.some((p) => p.roleType === exp.hasRoleType),
+      `${c.id}: expected a participant with roleType ${exp.hasRoleType}`,
+    );
+  }
+}
+
 const RUNNERS: Record<Case["op"], (c: Case) => void> = {
   resolve: runResolve,
   neighbors: runNeighbors,
@@ -375,6 +481,9 @@ const RUNNERS: Record<Case["op"], (c: Case) => void> = {
   search: runSearch,
   list: runList,
   theme: runTheme,
+  container: runContainer,
+  path: runPath,
+  participants: runParticipants,
 };
 
 // ---- discovery + registration ----
@@ -387,6 +496,9 @@ const CASE_FILES = [
   "search.json",
   "list.json",
   "theme.json",
+  "container.json",
+  "path.json",
+  "participants.json",
 ];
 
 for (const file of CASE_FILES) {

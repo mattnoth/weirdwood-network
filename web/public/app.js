@@ -253,6 +253,47 @@ function quoteList(quotes) {
   return el("div", { class: "quotes" }, (quotes || []).map((q) => bookQuote(q.text, q.attribution, q.cite)));
 }
 
+/** Render a node's `## Narrative Arc` prose (query-layer step 6c — fetched by
+ *  /api/node from the per-node static asset, `node.narrativeArc`; absent when
+ *  the node has no such section, or the asset couldn't be reached — fail-soft,
+ *  see node.ts). Splits on the `### Book Title` sub-headers the wiki-derived
+ *  arc text uses into per-book paragraphs; reuses cleanQuote() for the same
+ *  wiki-markup/cite cleanup the curated quotes already get. */
+function narrativeArcSection(node) {
+  const raw = node.narrativeArc;
+  if (!raw || !String(raw).trim()) return false;
+  const blocks = [];
+  let heading = "";
+  let buf = [];
+  const flush = () => {
+    const text = cleanQuote(buf.join("\n\n"));
+    if (text) {
+      blocks.push(
+        el("div", { class: "arc-block" }, [
+          heading ? el("div", { class: "arc-heading" }, heading) : false,
+          el("p", { class: "arc-text" }, text),
+        ]),
+      );
+    }
+    buf = [];
+  };
+  for (const line of String(raw).split("\n")) {
+    const h = line.match(/^###\s+(.+?)\s*(?:\[\s*\])?\s*$/);
+    if (h) {
+      flush();
+      heading = h[1];
+    } else {
+      buf.push(line);
+    }
+  }
+  flush();
+  if (!blocks.length) return false;
+  return el("div", { class: "dossier-arc" }, [
+    el("div", { class: "dossier-sub" }, "Narrative arc"),
+    ...blocks,
+  ]);
+}
+
 function edgeEvidence(l) {
   const body = [];
   if (l.quote) body.push(bookQuote(l.quote, null, l.ref));
@@ -504,6 +545,7 @@ async function openDossier(slug, fallbackName) {
         node.quotes && node.quotes.length
           ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
           : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet."),
+        narrativeArcSection(node),
       ];
     }
   } catch (_err) {

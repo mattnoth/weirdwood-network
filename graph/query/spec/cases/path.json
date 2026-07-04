@@ -1,0 +1,29 @@
+[
+  {
+    "id": "path-eddard-cersei-direct-edges-and-bridges",
+    "op": "path",
+    "profile": "both",
+    "input": { "slugA": "eddard-stark", "slugB": "cersei-lannister" },
+    "expect": {
+      "mode": "invariant",
+      "directEdgesAtLeast": 9,
+      "totalBridgesAtLeast": 30,
+      "mustIncludeBridges": ["jaime-lannister", "robert-baratheon", "sansa-stark", "tywin-lannister"]
+    },
+    "note": "Eddard<->Cersei is a densely-bridged dyad (design doc's own spot-check pair) -- pinning membership/floors, not an exact dump (the bridge set grows as the graph grows)."
+  },
+  {
+    "id": "path-invalid-slug-empty-no-throw",
+    "op": "path",
+    "profile": "both",
+    "input": { "slugA": "../etc/passwd", "slugB": "cersei-lannister" },
+    "expect": {
+      "mode": "exact",
+      "directEdges": [],
+      "totalBridges": 0,
+      "bridgesShown": 0,
+      "bridges": []
+    },
+    "note": "trust-boundary rejection (validate.ts SLUG_RE) yields the fully-empty shape, no throw -- mirrors walkChain/neighbors' invalid-slug convention."
+  }
+]

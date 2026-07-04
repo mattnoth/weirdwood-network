@@ -1,0 +1,25 @@
+[
+  {
+    "id": "container-bran-includes-becomes-a-greenseer",
+    "op": "container",
+    "profile": "both",
+    "input": { "name": "bran" },
+    "expect": {
+      "mode": "invariant",
+      "mustIncludeSlug": "bran-becomes-a-greenseer",
+      "memberCountAtLeast": 10
+    },
+    "note": "design doc's spot-check: the 'bran' container (settled S122, added by Matt override) must include the greenseer-becoming beat."
+  },
+  {
+    "id": "container-wo5k-count-at-least-50",
+    "op": "container",
+    "profile": "both",
+    "input": { "name": "wo5k" },
+    "expect": {
+      "mode": "invariant",
+      "memberCountAtLeast": 50
+    },
+    "note": "design doc's spot-check: the 'wo5k' (A World of Ice and Fire / historical-anchor) container must clear 50 members — the largest of the settled container set."
+  }
+]

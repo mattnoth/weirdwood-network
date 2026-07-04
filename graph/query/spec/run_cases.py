@@ -37,7 +37,8 @@ WEB_DATA_DIR = REPO_ROOT / "web" / "data"
 
 CASE_FILES = [
     "resolve.json", "neighbors.json", "chain.json", "family.json", "braid.json",
-    "search.json", "list.json", "theme.json",
+    "search.json", "list.json", "theme.json", "container.json", "path.json",
+    "participants.json",
 ]
 
 # `family` cases are tagged profile: "bounded" (they pin values verified against
@@ -161,6 +162,36 @@ def try_chain(engine: Engine, case: dict) -> tuple[str, str]:
     fn = find_callable(engine.traverse_mod, "causal_chain")
     if fn is None:
         return "skip", "no causal_chain() callable found in weirwood_query.traverse"
+
+    # The general upstream/downstream ordering check does not apply (full
+    # profile has no depth cap / no story-time sort — operations.md's
+    # documented divergence). BUT an `expandBeats` case's `beats` map is
+    # depth/sort-INDEPENDENT (query-layer step 6b: _beats_for_node reads
+    # SUB_BEAT_OF children of whatever nodes the chain touches, same set on
+    # both profiles for a root with no upstream/downstream reachability
+    # difference at this shallow a pivot) — special-case it, same pattern as
+    # FAMILY_ALWAYS_RUNS below.
+    inp = case.get("input", {})
+    exp = case.get("expect", {})
+    if inp.get("expandBeats") and "beats" in exp:
+        from weirwood_query.load import load_edges  # type: ignore
+
+        edges = load_edges()
+        try:
+            result = fn(inp["slug"], edges, expand_beats=True)
+        except Exception as e:
+            return "skip", f"causal_chain() raised: {e}"
+        got_beats = result.get("beats", {})
+        # Normalize: Python beat roles are tuples (JSON has no tuple type);
+        # the golden case's `roles` are 2-element lists — compare as lists.
+        got_norm = {
+            node: [{"beat": b["beat"], "roles": [list(r) for r in b["roles"]]} for b in beats]
+            for node, beats in got_beats.items()
+        }
+        if got_norm != exp["beats"]:
+            return "fail", f"beats: got {got_norm!r}, expected {exp['beats']!r}"
+        return "pass", "expand-beats map matches (depth/sort-independent check)"
+
     return "skip", "causal_chain() full-profile parity check not yet wired (full profile has no depth cap / no story-time sort yet per operations.md — a byte-identical parity check does not apply until step 1 ports the sort)"
 
 
@@ -608,6 +639,133 @@ def try_theme(engine: Engine, case: dict) -> tuple[str, str]:
     return "pass", f"{len(members)} member(s) for theme {inp['name']!r}"
 
 
+def try_path(engine: Engine, case: dict) -> tuple[str, str]:
+    fn = find_callable(engine.traverse_mod, "path")
+    if fn is None:
+        return "skip", "no path() callable found in weirwood_query.traverse"
+
+    from weirwood_query.load import load_edges  # type: ignore
+
+    inp = case["input"]
+    edges = load_edges()
+    try:
+        result = fn(inp["slugA"], inp["slugB"], edges)
+    except Exception as e:
+        return "skip", f"path() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+    bridge_slugs = {b["bridge"] for b in result.get("bridges", [])}
+
+    if "directEdges" in exp and result.get("direct_edges") != exp["directEdges"]:
+        problems.append(f"direct_edges: got {result.get('direct_edges')!r}, expected {exp['directEdges']!r}")
+    if "totalBridges" in exp and result.get("total_bridges") != exp["totalBridges"]:
+        problems.append(f"total_bridges: got {result.get('total_bridges')!r}, expected {exp['totalBridges']!r}")
+    if "bridgesShown" in exp and result.get("bridges_shown") != exp["bridgesShown"]:
+        problems.append(f"bridges_shown: got {result.get('bridges_shown')!r}, expected {exp['bridgesShown']!r}")
+    if "directEdgesAtLeast" in exp:
+        n = len(result.get("direct_edges", []))
+        if n < exp["directEdgesAtLeast"]:
+            problems.append(f"directEdgesAtLeast: {n} < {exp['directEdgesAtLeast']}")
+    if "totalBridgesAtLeast" in exp:
+        n = result.get("total_bridges", 0)
+        if n < exp["totalBridgesAtLeast"]:
+            problems.append(f"totalBridgesAtLeast: {n} < {exp['totalBridgesAtLeast']}")
+    if "mustIncludeBridges" in exp:
+        missing = [s for s in exp["mustIncludeBridges"] if s not in bridge_slugs]
+        if missing:
+            problems.append(f"mustIncludeBridges: missing {missing}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{result.get('total_bridges')} bridge(s), {len(result.get('direct_edges', []))} direct edge(s)"
+
+
+def try_participants(engine: Engine, case: dict) -> tuple[str, str]:
+    fn = find_callable(engine.traverse_mod, "event_participants")
+    if fn is None:
+        return "skip", "no event_participants() callable found in weirwood_query.traverse"
+
+    from weirwood_query.load import load_edges  # type: ignore
+
+    inp = case["input"]
+    edges = load_edges()
+    try:
+        result = fn(inp["hubSlug"], edges)
+    except Exception as e:
+        return "skip", f"event_participants() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+    has_error = bool(result.get("error"))
+    sources = {p.get("source_slug") for p in result.get("participants", [])}
+    # The full-profile ERROR branch (hub not found) omits beat_count/
+    # participant_count/participants entirely (see traverse.py's
+    # event_participants() error dict: just error/hint/suggestions) — the
+    # bounded/TS shape always carries these as zero-valued defaults even on
+    # error. Normalize the Python side the same way before comparing, so this
+    # documented shape difference (like resolve()'s status-enum mismatch)
+    # doesn't false-fail an otherwise-correct error path.
+    beat_count = result.get("beat_count", 0 if has_error else None)
+    participant_count = result.get("participant_count", 0 if has_error else None)
+    participants_list = result.get("participants", [] if has_error else None)
+
+    if "hasError" in exp and has_error != exp["hasError"]:
+        problems.append(f"hasError: got {has_error}, expected {exp['hasError']}")
+    if "beatCount" in exp and beat_count != exp["beatCount"]:
+        problems.append(f"beat_count: got {beat_count!r}, expected {exp['beatCount']!r}")
+    if "participantCount" in exp and participant_count != exp["participantCount"]:
+        problems.append(
+            f"participant_count: got {participant_count!r}, expected {exp['participantCount']!r}"
+        )
+    if "participants" in exp and participants_list != exp["participants"]:
+        problems.append(f"participants: got {participants_list!r}, expected {exp['participants']!r}")
+    if "beatCountAtLeast" in exp and result.get("beat_count", 0) < exp["beatCountAtLeast"]:
+        problems.append(f"beatCountAtLeast: {result.get('beat_count', 0)} < {exp['beatCountAtLeast']}")
+    if "participantCountAtLeast" in exp and result.get("participant_count", 0) < exp["participantCountAtLeast"]:
+        problems.append(
+            f"participantCountAtLeast: {result.get('participant_count', 0)} < {exp['participantCountAtLeast']}"
+        )
+    if "mustIncludeSource" in exp:
+        missing = [s for s in exp["mustIncludeSource"] if s not in sources]
+        if missing:
+            problems.append(f"mustIncludeSource: missing {missing}")
+    if "hasRoleType" in exp:
+        if not any(p.get("role_type") == exp["hasRoleType"] for p in result.get("participants", [])):
+            problems.append(f"hasRoleType: no participant with role_type {exp['hasRoleType']!r}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{result.get('beat_count')} beat(s), {result.get('participant_count')} participant(s)"
+
+
+def try_container(engine: Engine, case: dict) -> tuple[str, str]:
+    fn = find_callable(engine.traverse_mod, "container")
+    if fn is None:
+        return "skip", "no container() callable found in weirwood_query.traverse"
+
+    inp = case["input"]
+    try:
+        result = fn(inp["name"])
+    except Exception as e:
+        return "skip", f"container() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+    member_slugs = {n.get("slug") for n in result.get("nodes", [])}
+
+    if "count" in exp and result.get("count") != exp["count"]:
+        problems.append(f"count: got {result.get('count')!r}, expected {exp['count']!r}")
+    if "mustIncludeSlug" in exp and exp["mustIncludeSlug"] not in member_slugs:
+        problems.append(f"mustIncludeSlug: {exp['mustIncludeSlug']!r} not found among nodes")
+    if "memberCountAtLeast" in exp and result.get("count", 0) < exp["memberCountAtLeast"]:
+        problems.append(f"memberCountAtLeast: {result.get('count', 0)} < {exp['memberCountAtLeast']}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{result.get('count')} node(s) in container {inp['name']!r}"
+
+
 RUNNERS: dict[str, Callable[[Engine, dict], tuple[str, str]]] = {
     "resolve": try_resolve,
     "neighbors": try_neighbors,
@@ -619,6 +777,9 @@ RUNNERS: dict[str, Callable[[Engine, dict], tuple[str, str]]] = {
     "search": try_search,
     "list": try_list,
     "theme": try_theme,
+    "container": try_container,
+    "path": try_path,
+    "participants": try_participants,
 }
 
 

@@ -69,7 +69,9 @@ from weirwood_query import traverse as T  # noqa: E402
 BUNDLE_DIR = REPO_ROOT / "web" / "data"
 EVALS_DIR = REPO_ROOT / "working" / "query-layer" / "evals"
 SEARCH_INDEX_PATH = BUNDLE_DIR / "search-index.json"  # same file search_quotes() reads (agent.ts)
+THEME_INDEX_PATH = BUNDLE_DIR / "theme-index.json"  # same file the theme() tool reads (agent.ts)
 SEARCH_TOP_N = 12  # matches search_quotes()'s / weirwood_query.search's DEFAULT_LIMIT
+TOOL_PAGE_CAP = 25  # matches agent.ts's TOOL_PAGE_CAP for list_nodes/theme dispatch
 
 # ---------------------------------------------------------------------------
 # The fixed question set (mirrors working/query-layer/evals/questions.md Q1-Q21).
@@ -169,8 +171,12 @@ QUESTIONS: list[Question] = [
         [],  # deliberately no single entity phrase -- the S188 live-failure shape
         ["lemon-cake", "honeyed-ham", "bowl-of-brown", "fish-stew", "guest-right"],
         ["search", "list", "theme"],
-        "THE S188 LIVE FAILURE. No content-first op exists yet in either profile "
-        "(search/list/theme all PLANNED). Marked loop-bound by construction.",
+        "THE S188 LIVE FAILURE. search_quotes' own literal phrasing still misses (step "
+        "5, unchanged). Wiring pass 2 (2026-07-04) shipped list_nodes/theme as chat "
+        "tools + a browse-first routing row; theme('meals & feasts')'s first page "
+        "(25-row cap) contains 2/5 target slugs (bowl-of-brown, guest-right) -- no "
+        "longer loop-bound under this runner's rules. See theme_reachable() / "
+        "list_reachable() for the deterministic check.",
     ),
     Question(
         "Q12", "Who is Aegon the Conqueror?", "quote-hunter",
@@ -521,6 +527,71 @@ def search_reachable(
     }
 
 
+def theme_reachable(
+    theme_name: str,
+    target_slugs: list[str],
+    theme_index: dict[str, Any] | None,
+    *,
+    page_cap: int = TOOL_PAGE_CAP,
+) -> dict[str, Any]:
+    """Deterministically check whether the theme(theme_name) chat tool -- capped
+    to the SAME `page_cap` rows agent.ts's dispatchTool() caps it to (25, see
+    TOOL_PAGE_CAP) -- surfaces any of a question's target_slugs on its first
+    page. Mirrors search_reachable()'s "any hit counts as reachable" convention
+    (agent.ts's routing table sends a follow-up read_node/search_quotes call
+    for depth once ANY of the interesting members are visible -- it does not
+    require every target slug to land in one call). Unknown theme name / no
+    index -> unreachable, never silently assumed reachable."""
+    if theme_index is None or not theme_name:
+        return {"reachable": False, "hits": [], "top_slugs": [], "ranks": {}, "total": 0}
+    themes = theme_index.get("themes", {})
+    matched = next((k for k in themes if k.lower() == theme_name.lower()), None)
+    if matched is None:
+        return {"reachable": False, "hits": [], "top_slugs": [], "ranks": {}, "total": 0}
+    members = themes[matched].get("members", [])
+    page = members[:page_cap]
+    top_slugs = [m["slug"] for m in page]
+    ranks = {slug: i + 1 for i, slug in enumerate(top_slugs)}
+    hits = [t for t in target_slugs if t in ranks]
+    return {
+        "reachable": len(hits) > 0,
+        "hits": hits,
+        "top_slugs": top_slugs,
+        "ranks": {t: ranks[t] for t in hits},
+        "total": len(members),
+    }
+
+
+def list_reachable(
+    category: str,
+    target_slugs: list[str],
+    bundle_nodes: dict[str, dict],
+    *,
+    page_cap: int = TOOL_PAGE_CAP,
+) -> dict[str, Any]:
+    """Deterministically check whether the list_nodes({type: category}) chat
+    tool -- same page_cap as theme_reachable(), slug-ascending order (mirrors
+    list.ts's listNodes() sort) -- surfaces any of a question's target_slugs
+    on its first page. Only meaningful for target slugs that actually share
+    `category` (a target slug in a different category can never appear in
+    this listing regardless of paging -- that is reported, not hidden)."""
+    if not category:
+        return {"reachable": False, "hits": [], "top_slugs": [], "ranks": {}, "total": 0}
+    same_category = sorted(
+        slug for slug, rec in bundle_nodes.items() if rec.get("category") == category
+    )
+    page = same_category[:page_cap]
+    ranks = {slug: i + 1 for i, slug in enumerate(page)}
+    hits = [t for t in target_slugs if t in ranks]
+    return {
+        "reachable": len(hits) > 0,
+        "hits": hits,
+        "top_slugs": page,
+        "ranks": {t: ranks[t] for t in hits},
+        "total": len(same_category),
+    }
+
+
 def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) -> dict[str, Any]:
     per_slug = {}
     for slug in target_slugs:
@@ -541,10 +612,10 @@ def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) ->
 
 # ---------------------------------------------------------------------------
 # Estimated minimum tool calls under the bounded profile's CURRENT toolset:
-# resolve / read_node / walk_chain / neighbors / family_tree / search_quotes
-# (search_quotes shipped session B step 5 -- see routing table in
-# web/netlify/edge-functions/lib/agent.ts's SHARED_RULES; it is now a first-
-# class op, not a future/planned one).
+# resolve / read_node / walk_chain / neighbors / family_tree / search_quotes /
+# list_nodes / theme (list_nodes + theme shipped query-layer wiring pass 2 --
+# see the routing table's aggregative/browse row in
+# web/netlify/edge-functions/lib/agent.ts's SHARED_RULES).
 #
 # Heuristic (documented, mechanical, not vibes):
 #   1. Content-first shortcut: if `search` search-reachable (per the
@@ -561,12 +632,24 @@ def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) ->
 #      NOT assume reachability; a thematic question whose literal phrasing
 #      does NOT reach its target slugs (verified empty hits) still falls
 #      through to the rules below and can still be loop-bound (see Q11).
+#   1b. Browse-first shortcut (wiring pass 2): if a question's `ops` names
+#      `list` or `theme` AND the DETERMINISTIC `list_reachable()` /
+#      `theme_reachable()` check (real membership/category lookups against
+#      the live bundle -- theme-index.json / nodes.json's `category` field --
+#      capped to the SAME TOOL_PAGE_CAP=25 rows agent.ts's dispatchTool()
+#      actually caps the tool at) finds ANY target slug on the tool's first
+#      page, the question costs 1 list_nodes/theme call, +1 read_node/
+#      search_quotes for depth on thematic/researcher archetypes with >1
+#      target slug (same depth rule as 1). This does NOT assume reachability --
+#      a browse call whose first page misses every target slug (paging would
+#      be needed) does not get this shortcut and falls through below.
 #   2. If a question's `ops` list requires an op NOT in the current bounded
-#      toolset at all (list, theme, participants, path, container,
-#      expand-beats -- NOT search, which is now available) AND no fallback
-#      via resolve+read/neighbors/chain/family_tree/search can plausibly
-#      answer it, the question is LOOP-BOUND (∞) -- the toolset structurally
-#      cannot reach the answer, regardless of how many calls are spent.
+#      toolset at all (participants, path, container, expand-beats -- NOT
+#      search/list/theme, all three now available) AND no fallback via
+#      resolve+read/neighbors/chain/family_tree/search/list/theme can
+#      plausibly answer it, the question is LOOP-BOUND (∞) -- the toolset
+#      structurally cannot reach the answer, regardless of how many calls
+#      are spent.
 #   3. Otherwise: 1 resolve call per DISTINCT key phrase that is needed (a
 #      question needing 2 entities needs 2 resolves), plus 1 read/neighbors/
 #      chain/family_tree call per resolved entity that must be inspected.
@@ -582,9 +665,9 @@ def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) ->
 #        proceed, or the question degrades to loop-bound if no phrase resolves
 #        at all. This adds +1 per missed phrase (a documented, mechanical retry
 #        cost) rather than silently assuming a free pass.
-#   4. A question with 0 key_phrases AND no search-reachable fallback (rule 1)
-#      is always loop-bound -- there is no phrase to resolve and no query text
-#      that reaches the answer via search either.
+#   4. A question with 0 key_phrases AND no search/list/theme-reachable
+#      fallback (rules 1/1b) is always loop-bound -- there is no phrase to
+#      resolve and no browse/query path that reaches the answer either.
 #   5. `family_tree`-shaped questions collapse to 1 relational call regardless
 #      of how many downstream members are named (family_tree returns the whole
 #      tree in one call, per the design doc's own MANDATORY-tool framing).
@@ -594,20 +677,43 @@ def content_reachable(target_slugs: list[str], bundle_nodes: dict[str, dict]) ->
 # column stays GATED below).
 # ---------------------------------------------------------------------------
 
-# Ops available in the bounded profile's CURRENT chat toolset (6 tools,
-# including search_quotes as of session B step 5).
-BOUNDED_TOOLSET_OPS = {"resolve", "read", "neighbors", "chain", "family_tree", "search"}
+# Ops available in the bounded profile's CURRENT chat toolset (8 tools,
+# including search_quotes (session B step 5) and list_nodes/theme (wiring
+# pass 2)).
+BOUNDED_TOOLSET_OPS = {
+    "resolve", "read", "neighbors", "chain", "family_tree", "search", "list", "theme",
+}
 
-# Archetypes whose search hit still needs a follow-up read_node to go beyond
-# the search snippet itself (a thematic question naming several target slugs,
-# or a researcher claim-check that needs the full node, not just a snippet).
+# Archetypes whose search/list/theme hit still needs a follow-up read_node to
+# go beyond the browse/search hit itself (a thematic question naming several
+# target slugs, or a researcher claim-check that needs the full node, not
+# just a snippet/row).
 _ARCHETYPES_WANTING_DEPTH_AFTER_SEARCH = {"thematic", "researcher"}
+
+
+# Question -> (theme name to try) for the browse-first shortcut's theme leg.
+# Hand-mapped (not derived from target_slugs) because a question's target
+# slugs can span categories a single theme doesn't fully cover (e.g. Q16 mixes
+# a `customs` node with an `events` node) -- this mirrors the judgment call a
+# model makes when it reads the question and picks a theme name from the tool
+# description's short list, not an automatic slug->theme reverse-lookup.
+_THEME_FOR_QUESTION: dict[str, str] = {
+    "Q11": "meals & feasts",
+    "Q16": "hospitality",
+}
+
+# Question -> (node category to try) for the browse-first shortcut's list leg.
+_CATEGORY_FOR_QUESTION: dict[str, str] = {
+    "Q11": "foods",
+}
 
 
 def estimate_min_tool_calls(
     q: Question,
     bounded_resolve_by_phrase: dict[str, dict[str, Any]],
     search_result: dict[str, Any] | None = None,
+    theme_index: dict[str, Any] | None = None,
+    bundle_nodes: dict[str, dict] | None = None,
 ) -> dict[str, Any]:
     # Rule 1: content-first shortcut -- ONLY for questions whose own `ops` list
     # names `search` as an answering path (the question author's judgment about
@@ -635,36 +741,75 @@ def estimate_min_tool_calls(
                       + (" + 1 read_node for depth" if needs_depth else ""),
         }
 
-    # Rule 4: no key phrase at all AND search doesn't reach either -> loop-bound.
+    # Rule 1b: browse-first shortcut (theme, then list) -- same gating
+    # discipline as rule 1: only for questions naming `theme`/`list` in `ops`,
+    # and only credited when the DETERMINISTIC reachability check actually
+    # finds a target slug on the tool's real first page (never assumed).
+    theme_res = None
+    if "theme" in q.ops and theme_index is not None:
+        theme_name = _THEME_FOR_QUESTION.get(q.id)
+        if theme_name:
+            theme_res = theme_reachable(theme_name, q.target_slugs, theme_index)
+    if theme_res and theme_res["reachable"]:
+        needs_depth = (
+            q.archetype in _ARCHETYPES_WANTING_DEPTH_AFTER_SEARCH
+            and len(q.target_slugs) > 1
+        )
+        total = 1 + (1 if needs_depth else 0)
+        return {
+            "estimate": total,
+            "loop_bound": False,
+            "reason": f"theme hit ({', '.join(theme_res['hits'])})"
+                      + (" + 1 read_node for depth" if needs_depth else ""),
+        }
+
+    list_res = None
+    if "list" in q.ops and bundle_nodes is not None:
+        category = _CATEGORY_FOR_QUESTION.get(q.id)
+        if category:
+            list_res = list_reachable(category, q.target_slugs, bundle_nodes)
+    if list_res and list_res["reachable"]:
+        needs_depth = (
+            q.archetype in _ARCHETYPES_WANTING_DEPTH_AFTER_SEARCH
+            and len(q.target_slugs) > 1
+        )
+        total = 1 + (1 if needs_depth else 0)
+        return {
+            "estimate": total,
+            "loop_bound": False,
+            "reason": f"list_nodes hit ({', '.join(list_res['hits'])})"
+                      + (" + 1 read_node for depth" if needs_depth else ""),
+        }
+
+    # Rule 4: no key phrase at all AND search/list/theme don't reach either -> loop-bound.
     if not q.key_phrases:
         return {
             "estimate": None,
             "loop_bound": True,
-            "reason": "no key phrase to resolve, and search_quotes does not "
+            "reason": "no key phrase to resolve, and search_quotes/list_nodes/theme do not "
                       "reach any target slug for this question's literal "
-                      "phrasing either (verified against the live bundle "
-                      "search index)",
+                      "phrasing/theme/category either (verified against the live bundle)",
         }
 
     # Rule 2: does this question fundamentally need an op outside the current
     # bounded toolset, with no reachable fallback?
     needs_unavailable_op = any(op not in BOUNDED_TOOLSET_OPS for op in q.ops)
     # "path" specifically has no bounded port (G-table); "participants",
-    # "theme", "list", "container", "expand-beats" likewise absent ("search"
-    # is now available, per BOUNDED_TOOLSET_OPS above). A fallback via
+    # "container", "expand-beats" likewise absent ("search"/"list"/"theme" are
+    # all now available, per BOUNDED_TOOLSET_OPS above). A fallback via
     # neighbors/chain/family_tree is only plausible if at least one phrase hits.
     any_phrase_resolves = any(
         bounded_resolve_by_phrase[p]["outcome"] != "MISS" for p in q.key_phrases
     )
     if needs_unavailable_op and q.archetype == "thematic" and not any_phrase_resolves:
-        # thematic questions with an unavailable op (list/theme) AND no phrase
-        # that resolves AND no search hit (rule 1 already ruled out) have no
-        # fallback whatsoever.
+        # thematic questions with an unavailable op AND no phrase that resolves
+        # AND no search/list/theme hit (rules 1/1b already ruled those out)
+        # have no fallback whatsoever.
         return {
             "estimate": None,
             "loop_bound": True,
-            "reason": "requires list/theme (not in bounded toolset); no key "
-                      "phrase resolves, and search_quotes does not reach a "
+            "reason": "requires an op not in the bounded toolset; no key "
+                      "phrase resolves, and search_quotes/list_nodes/theme do not reach a "
                       "target slug either",
         }
 
@@ -680,7 +825,7 @@ def estimate_min_tool_calls(
             "estimate": None,
             "loop_bound": True,
             "reason": "every key phrase misses in the bounded profile; no entity "
-                      "to read/walk/neighbor from, and search_quotes does not "
+                      "to read/walk/neighbor from, and search_quotes/list_nodes/theme do not "
                       "reach a target slug either",
             "resolve_calls_spent": resolve_calls,
         }
@@ -701,6 +846,7 @@ def score_question(
     full: FullResolver,
     bounded: BoundedResolver,
     search_index: dict[str, Any] | None,
+    theme_index: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     full_resolve_by_phrase = {}
     for phrase in q.key_phrases:
@@ -721,7 +867,21 @@ def score_question(
     # a real search() call against the live index, not a guess.
     search_result = search_reachable(q.text, q.target_slugs, search_index, bounded.nodes)
 
-    tool_estimate = estimate_min_tool_calls(q, bounded_resolve_by_phrase, search_result)
+    tool_estimate = estimate_min_tool_calls(
+        q, bounded_resolve_by_phrase, search_result, theme_index, bounded.nodes,
+    )
+
+    # Browse-reachability (theme/list) -- reported alongside search_reachable
+    # for the same transparency: what the deterministic check actually found,
+    # not just the resulting estimate/loop-bound verdict.
+    theme_name = _THEME_FOR_QUESTION.get(q.id)
+    theme_result = (
+        theme_reachable(theme_name, q.target_slugs, theme_index) if theme_name else None
+    )
+    list_category = _CATEGORY_FOR_QUESTION.get(q.id)
+    list_result = (
+        list_reachable(list_category, q.target_slugs, bounded.nodes) if list_category else None
+    )
 
     return {
         "id": q.id,
@@ -735,6 +895,8 @@ def score_question(
         "resolve_bounded": bounded_resolve_by_phrase,
         "content_reachable": content,
         "search_reachable": search_result,
+        "theme_reachable": theme_result,
+        "list_reachable": list_result,
         "tool_estimate": tool_estimate,
         # Live-model columns -- GATED on Matt. Present, empty, documented.
         "live_model": {
@@ -756,9 +918,10 @@ def render_table(results: list[dict[str, Any]]) -> str:
     lines = []
     header = (
         "| id | archetype | resolve (full) | resolve (bounded) | content reachable | "
-        "search reachable | min tool calls (bounded) | live-model (GATED) |"
+        "search reachable | browse reachable (list/theme) | min tool calls (bounded) | "
+        "live-model (GATED) |"
     )
-    sep = "|---|---|---|---|---|---|---|---|"
+    sep = "|---|---|---|---|---|---|---|---|---|"
     lines.append(header)
     lines.append(sep)
     for r in results:
@@ -779,11 +942,23 @@ def render_table(results: list[dict[str, Any]]) -> str:
         sr_summary = (
             ("hit: " + ", ".join(sr["hits"]) if sr["hits"] else "MISS")
         )
+        br_parts = []
+        tr = r.get("theme_reachable")
+        if tr is not None:
+            br_parts.append(
+                "theme:" + ("hit(" + ", ".join(tr["hits"]) + f")/{tr['total']}" if tr["hits"] else f"MISS/{tr['total']}")
+            )
+        lr = r.get("list_reachable")
+        if lr is not None:
+            br_parts.append(
+                "list:" + ("hit(" + ", ".join(lr["hits"]) + f")/{lr['total']}" if lr["hits"] else f"MISS/{lr['total']}")
+            )
+        br_summary = "; ".join(br_parts) if br_parts else "(n/a)"
         te = r["tool_estimate"]
         te_summary = "∞ (loop-bound)" if te["loop_bound"] else str(te["estimate"])
         lines.append(
             f"| {r['id']} | {r['archetype']} | {full_summary} | {bounded_summary} | "
-            f"{cr_summary} | {sr_summary} | {te_summary} | (empty, gated) |"
+            f"{cr_summary} | {sr_summary} | {br_summary} | {te_summary} | (empty, gated) |"
         )
     return "\n".join(lines)
 
@@ -851,10 +1026,14 @@ def render_report(results: list[dict[str, Any]], summary: dict[str, Any]) -> str
     parts.append(
         f"- **All key phrases MISS (bounded):** {summary['all_miss_bounded']}"
     )
+    loop_bound_suffix = (
+        f" ({', '.join(summary['loop_bound_questions'])})"
+        if summary["loop_bound_questions"]
+        else ""
+    )
     parts.append(
         f"- **Loop-bound under the current bounded toolset (∞ tool calls):** "
-        f"{summary['loop_bound_count']}/{summary['total_questions']} "
-        f"({', '.join(summary['loop_bound_questions'])})"
+        f"{summary['loop_bound_count']}/{summary['total_questions']}{loop_bound_suffix}"
     )
     if summary["questions_with_no_key_phrase"]:
         parts.append(
@@ -874,14 +1053,28 @@ def render_report(results: list[dict[str, Any]], summary: dict[str, Any]) -> str
         "character above the intended one (no candidate-length penalty; fix is step 4c). "
         "Not directly one of Q1–Q20's key phrases (all use fuller phrasings), but the "
         "same mechanism affects Q13's fuzzy fallback (`Targaryen dynasty`).\n"
-        "- **Q11 (the meals question)** — search_quotes now EXISTS (step 5), but Q11's "
-        "own literal phrasing (\"Describe some detailed meals in the books.\") still does "
-        "not surface any of its 5 target slugs in the live bundle's search-index.json top "
-        "12 (verified this run, not assumed) — the generic framing doesn't share enough "
-        "vocabulary with the food-node docs. Still loop-bound under this runner's rules, "
-        "but for a narrower reason than baseline (\"no op exists\" -> \"op exists, this "
-        "phrasing doesn't reach\"). Contrast with Q21, a content-first control question "
-        "that DOES reach via search on its literal phrasing.\n"
+        "- **Q11 (the meals question)** — search_quotes' own literal phrasing "
+        "(\"Describe some detailed meals in the books.\") still does not surface any of "
+        "its 5 target slugs in the live bundle's search-index.json top 12 (unchanged "
+        "since step 5) — the generic framing doesn't share enough vocabulary with the "
+        "food-node docs. Wiring pass 2 (2026-07-04) shipped list_nodes/theme as chat "
+        "tools plus a browse-first routing row; `theme(\"meals & feasts\")`'s first page "
+        "(25-row cap, the SAME cap agent.ts's dispatchTool() applies) contains 2 of the "
+        "5 target slugs (`bowl-of-brown`, `guest-right` — verified this run against the "
+        "live theme-index.json, not assumed). No longer loop-bound under this runner's "
+        "rules. Note the remaining gap: `lemon-cake`/`honeyed-ham`/`fish-stew` sit at "
+        "positions 19/42/55/64 of the theme's 117 members (build order) — a SINGLE "
+        "theme call's first page does not reach them; only 2 of 5 targets are actually "
+        "visible without paging past the cap. Contrast with Q21, a content-first control "
+        "question that reaches via search on its literal phrasing without needing the "
+        "browse shortcut at all.\n"
+        "- **Q16 side-benefit (not the gate target, reported for transparency)** — "
+        "wiring pass 2's `theme` shortcut also improves Q16's estimate from 4 to 2: "
+        "`theme(\"hospitality\")` reaches `guest-right` directly (the theme has only 2 "
+        "members total, `fosterage` + `guest-right` — no cap truncation at all) without "
+        "needing the failing `'hospitality'` resolve attempt this runner previously "
+        "charged a retry cost for. A real, deterministic improvement from the same "
+        "routing-table row, not a Q11-specific special case.\n"
     )
     parts.append("## Per-question detail\n")
     parts.append(render_table(results))
@@ -926,8 +1119,10 @@ def main() -> None:
     full = FullResolver.load()
     bounded = BoundedResolver.load()
     search_index = S.load_index(SEARCH_INDEX_PATH)
+    with open(THEME_INDEX_PATH, encoding="utf-8") as f:
+        theme_index = json.load(f)
 
-    results = [score_question(q, full, bounded, search_index) for q in QUESTIONS]
+    results = [score_question(q, full, bounded, search_index, theme_index) for q in QUESTIONS]
     summary = summarize(results)
 
     if args.json:

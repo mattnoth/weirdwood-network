@@ -1,0 +1,30 @@
+[
+  {
+    "id": "participants-red-wedding-union-across-beats",
+    "op": "participants",
+    "profile": "both",
+    "input": { "hubSlug": "red-wedding" },
+    "expect": {
+      "mode": "invariant",
+      "beatCountAtLeast": 14,
+      "participantCountAtLeast": 51,
+      "mustIncludeSource": ["walder-frey", "robb-stark", "catelyn-stark"],
+      "hasRoleType": "VICTIM_IN"
+    },
+    "note": "the reification pattern's read-side canonical example (Red Wedding hub -> 14 SUB_BEAT_OF beats -> 51+ role edges). Invariant-mode (floors + membership), not an exact dump -- the beat set can grow."
+  },
+  {
+    "id": "participants-unknown-hub-returns-error",
+    "op": "participants",
+    "profile": "both",
+    "input": { "hubSlug": "not-a-real-hub-xyz" },
+    "expect": {
+      "mode": "exact",
+      "hasError": true,
+      "beatCount": 0,
+      "participantCount": 0,
+      "participants": []
+    },
+    "note": "an unknown hub slug returns an error field, not an exception -- mirrors resolve()/theme()'s no-match conventions."
+  }
+]

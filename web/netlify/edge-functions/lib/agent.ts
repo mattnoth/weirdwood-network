@@ -137,6 +137,8 @@ You have read-only tools over the graph. Use them; do not answer from memory whe
 - neighbors(slug): everything directly connected to a node, grouped by relationship.
 - family_tree(slug): the LINEAGE around a person — ancestors and descendants through parentage, with spouses — returned as a bounded tree in ONE call. Do NOT try to build a family tree by fanning out with neighbors — that spends your steps on titles and succession and never assembles the line.
 - search_quotes(query, type?): keyword search over curated book quotes and node identity blurbs — content-first, not slug-first. Returns ranked hits, each a quote or identity blurb with its node slug, type, text, and citation.
+- list_nodes(type, has_quotes?): browse every node of one category (e.g. "foods", "customs") — a plain listing, not a search. Returns up to 25 rows at a time ({slug, type, name}), plus the total count when there are more than that. Use this to survey a whole category when the visitor's question names a KIND of thing rather than one entity.
+- theme(name): look up one of the graph's named themes (curated cross-category groupings like meals & feasts, hospitality, dress & materials, maesters & healing, songs & tales) and return its members ({slug, type, name}), up to 25 at a time plus the total count. Use this for a broad descriptive/thematic ask that doesn't name one entity.
 
 # Routing — which tool answers which question
 Use this table to pick your first move; then work in steps (resolve the phrase, read the node, then walk / fan out / trace the line / search as the question needs). Prefer one or two well-chosen calls over many.
@@ -145,6 +147,7 @@ Use this table to pick your first move; then work in steps (resolve the phrase, 
 - **Lineage, dynasty, bloodline, descendants, ancestry, family tree** ("the Targaryen family tree from Aegon the Conqueror", "who are Ned Stark's children", "trace the descent of House X"): resolve, then family_tree on the rooted person — one call builds the whole tree the interface renders beside you. Do not reconstruct a lineage from memory, and do not use neighbors for it.
 - **Describe, thematic, quotes, food, customs, hospitality, songs, dress** — anything better answered by finding the passages than by resolving one entity ("describe some meals", "what do we know about guest right"): search_quotes directly. You don't need to resolve first — search_quotes takes a keyword phrase, not a slug.
 - **Connection between X and Y** ("how are X and Y connected", "what links X to Y"): resolve both, then neighbors on the more specific one. (A dedicated path op is not yet available — use neighbors as the substitute for now.)
+- **Describe some / what kinds of X exist / survey a category** — a broad, aggregative ask with no single entity to resolve ("describe some detailed meals in the books", "what kinds of hospitality customs are there", "survey the songs sung in the books"): call list_nodes or theme FIRST to browse the category or theme's members, then follow up with search_quotes or read_node on the specific members that look interesting for depth and quotable lines. Do not try to guess individual node names from memory and resolve them one at a time — that is exactly the loop this pair of tools exists to short-circuit.
 - **Resilience rule:** after 2 consecutive failed or ambiguous resolve() calls on the same underlying question, stop trying more resolve phrasings and call search_quotes instead — a keyword search over the quote/identity layer will usually surface the right passage even when the entity name won't resolve.
 
 IMPORTANT — a family tree is a PICTURE, not a speech: when you call family_tree, the interface draws the whole tree as a labelled chart in the answer itself. So DROP the persona for this one shape. Do not narrate the lineage generation by generation, do not quote, do not reach for imagery or the record-keeper's voice. Emit ONE short, plain caption line naming the rooted person and the scope — e.g. "Aegon I Targaryen and his descendants, five generations." — and stop. The chart carries the rest.
@@ -268,9 +271,66 @@ export const TOOL_DEFS = [
       required: ["query"],
     },
   },
+  {
+    name: "list_nodes",
+    description:
+      'Browse every node of one category — a plain listing, not a search. Call this for "describe some/what kinds of X exist/survey a category" questions where there is no single entity to resolve (e.g. list every food node to answer "what meals appear in the books"). Returns up to 25 rows ({slug, type, name}), plus the total count when more exist than that page holds.',
+    input_schema: {
+      type: "object",
+      properties: {
+        type: {
+          type: "string",
+          description: 'The node category to browse (the graph/nodes/ type-directory name, e.g. "foods", "customs", "characters").',
+        },
+        has_quotes: {
+          type: "boolean",
+          description: "Optional: keep only nodes that carry at least one curated book quote.",
+        },
+        limit: {
+          type: "number",
+          description: "Optional: page size (default and hard cap 25).",
+        },
+        offset: {
+          type: "number",
+          description: "Optional: skip this many rows (call again with a higher offset to page further).",
+        },
+      },
+      required: ["type"],
+    },
+  },
+  {
+    name: "theme",
+    description:
+      'Look up one of the graph\'s named themes (curated cross-category groupings — currently "meals & feasts", "hospitality", "dress & materials", "maesters & healing", "songs & tales") and return its members. Call this for a broad descriptive/thematic question with no single entity to resolve. Returns up to 25 members ({slug, type, name}) plus the total count when more exist. An unrecognized name returns the list of known theme names instead of members.',
+    input_schema: {
+      type: "object",
+      properties: {
+        name: {
+          type: "string",
+          description: 'The theme name, e.g. "meals & feasts".',
+        },
+      },
+      required: ["name"],
+    },
+  },
 ];
 
 // ---- Tool dispatch ----
+
+/** Hard cap on rows a list_nodes/theme tool call hands the model in one turn
+ *  (query-layer wiring pass 2). Both underlying ops (`listNodes`, `theme`) can
+ *  return far more (a theme can carry 100+ members) — this is a payload guard
+ *  at the dispatch boundary, not a change to either op's own contract. When
+ *  the tool truncates, the result carries the untruncated `total` so the
+ *  model knows more exist (and, for list_nodes, can page via offset). */
+const TOOL_PAGE_CAP = 25;
+
+/** Shape a {slug, category|type, name}-ish row list down to `{slug, type, name}`
+ *  for the wire — the tools' own item shapes differ slightly (ListItem has no
+ *  `type` field; ThemeMember does), so this normalizes both to one row shape. */
+function toRow(item: { slug: string; name: string; category?: string; type?: string }) {
+  return { slug: item.slug, type: item.category ?? item.type ?? "", name: item.name };
+}
 
 /** Route one tool_use to the bound retrieval tool. The tools self-validate
  *  (invalid slug/phrase → empty result), so this is the trust boundary's
@@ -296,6 +356,40 @@ export function dispatchTool(
       const query = typeof input.query === "string" ? input.query : "";
       const type = typeof input.type === "string" ? input.type : undefined;
       return tools.searchQuotes(query, type ? { type } : undefined);
+    }
+    case "list_nodes": {
+      const type = typeof input.type === "string" ? input.type : "";
+      const hasQuotes = typeof input.has_quotes === "boolean" ? input.has_quotes : undefined;
+      const requestedLimit = typeof input.limit === "number" ? input.limit : undefined;
+      const offset = typeof input.offset === "number" ? input.offset : undefined;
+      const limit = Math.min(requestedLimit ?? TOOL_PAGE_CAP, TOOL_PAGE_CAP);
+      const result = tools.listNodes({
+        type,
+        ...(hasQuotes !== undefined ? { hasQuotes } : {}),
+        limit,
+        ...(offset !== undefined ? { offset } : {}),
+      });
+      return {
+        category: result.category,
+        total: result.total,
+        offset: result.offset,
+        items: result.items.map(toRow),
+        truncated: result.offset + result.items.length < result.total,
+      };
+    }
+    case "theme": {
+      const themeName = typeof input.name === "string" ? input.name : "";
+      const result = tools.theme(themeName);
+      if (result.error) {
+        return { theme: result.theme, error: result.error, knownThemes: result.knownThemes };
+      }
+      const page = result.members.slice(0, TOOL_PAGE_CAP);
+      return {
+        theme: result.theme,
+        total: result.memberCount,
+        items: page.map(toRow),
+        truncated: page.length < result.memberCount,
+      };
     }
     default:
       return { error: `unknown tool: ${name}` };
@@ -459,6 +553,16 @@ export function outcomeFor(toolName: string, result: unknown): ToolOutcome | und
       matchType: hits.length > 0 ? "hit" : "miss",
       topSlug: typeof top?.slug === "string" ? top.slug : null,
       resultCount: hits.length,
+    };
+  }
+  if (toolName === "list_nodes" || toolName === "theme") {
+    const r = (result && typeof result === "object") ? result as Record<string, unknown> : {};
+    const items = Array.isArray(r.items) ? r.items as Array<Record<string, unknown>> : [];
+    const top = items[0];
+    return {
+      matchType: items.length > 0 ? "hit" : "miss",
+      topSlug: typeof top?.slug === "string" ? top.slug : null,
+      resultCount: items.length,
     };
   }
   return undefined;

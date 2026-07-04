@@ -701,6 +701,16 @@ body.dossier-open { overflow: hidden; }
 /* node-quote container inside a read_node / dossier card */
 .quotes { display: flex; flex-direction: column; gap: var(--sp-3); margin-top: var(--sp-3); }
 
+/* Narrative-arc prose in the dossier (query-layer step 6c — fetched from the
+   per-node static asset; absent when the node has none, see node.ts/narrativeArcSection). */
+.dossier-arc { margin-top: var(--sp-4); }
+.arc-block { margin-top: var(--sp-2); }
+.arc-heading {
+  font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint);
+  letter-spacing: 0.03em; margin-bottom: var(--sp-1);
+}
+.arc-text { color: var(--c-text-dim); font-size: var(--fs-small); line-height: 1.6; margin: 0; }
+
 /* ---- The unified book-quote — used EVERYWHERE (Bloodraven's answer prose, the
    dossier, chain edges, preconditions, neighbours) so a quote looks the same
    wherever it appears: an italic serif line, then "— speaker, ASOS Arya 11". --- */
