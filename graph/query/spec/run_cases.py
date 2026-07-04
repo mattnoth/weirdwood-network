@@ -35,7 +35,7 @@ REPO_ROOT = SPEC_DIR.parent.parent.parent  # graph/query/spec -> graph/query -> 
 QUERY_PKG_DIR = REPO_ROOT / "graph" / "query"
 WEB_DATA_DIR = REPO_ROOT / "web" / "data"
 
-CASE_FILES = ["resolve.json", "neighbors.json", "chain.json", "family.json"]
+CASE_FILES = ["resolve.json", "neighbors.json", "chain.json", "family.json", "braid.json"]
 
 # `family` cases are tagged profile: "bounded" (they pin values verified against
 # the live TS engine) but, as of step 1 close-out, the Python family_tree() port
@@ -288,11 +288,147 @@ def _normalize_members(members: list[dict]) -> list[tuple]:
     return sorted(out, key=lambda t: (t[2], t[0] or ""))
 
 
+def _braid_mod(engine: Engine) -> Any:
+    """Lazily fetch weirwood_query.braid — not preloaded onto Engine like
+    resolve/traverse since braid.py is new in this session; import defensively
+    so an engine mid-build (braid.py not yet landed) SKIPs cleanly."""
+    if not engine.ok:
+        return None
+    try:
+        import weirwood_query  # type: ignore
+
+        return getattr(weirwood_query, "braid", None)
+    except Exception:
+        return None
+
+
+def try_fork_hubs(engine: Engine, case: dict) -> tuple[str, str]:
+    mod = _braid_mod(engine)
+    fn = find_callable(mod, "fork_hubs")
+    if fn is None:
+        return "skip", "no fork_hubs() callable found in weirwood_query.braid"
+    from weirwood_query.load import load_edges  # type: ignore
+
+    try:
+        edges = load_edges()
+        min_out = case["input"].get("minOut", 2)
+        include_enables = case["input"].get("includeEnables", False)
+        result = fn(edges, min_out=min_out, include_enables=include_enables)
+    except Exception as e:
+        return "skip", f"fork_hubs() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+    hub_map = {h["slug"]: h for h in result.get("hubs", [])}
+
+    if "mustIncludeSlugs" in exp:
+        missing = [s for s in exp["mustIncludeSlugs"] if s not in hub_map]
+        if missing:
+            problems.append(f"mustIncludeSlugs: missing {missing}")
+
+    if "allOutDegreesAtLeast" in exp:
+        floor = exp["allOutDegreesAtLeast"]
+        bad = [h["slug"] for h in result.get("hubs", []) if h["out_degree"] < floor]
+        if bad:
+            problems.append(f"allOutDegreesAtLeast={floor}: violated by {bad}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{len(result.get('hubs', []))} hubs at min_out={min_out}"
+
+
+def try_join_hubs(engine: Engine, case: dict) -> tuple[str, str]:
+    mod = _braid_mod(engine)
+    fn = find_callable(mod, "join_hubs")
+    if fn is None:
+        return "skip", "no join_hubs() callable found in weirwood_query.braid"
+    from weirwood_query.load import load_edges  # type: ignore
+
+    try:
+        edges = load_edges()
+        min_in = case["input"].get("minIn", 2)
+        include_enables = case["input"].get("includeEnables", False)
+        result = fn(edges, min_in=min_in, include_enables=include_enables)
+    except Exception as e:
+        return "skip", f"join_hubs() raised: {e}"
+
+    exp = case["expect"]
+    problems: list[str] = []
+    hub_map = {h["slug"]: h for h in result.get("hubs", [])}
+
+    if "mustIncludeSlugs" in exp:
+        missing = [s for s in exp["mustIncludeSlugs"] if s not in hub_map]
+        if missing:
+            problems.append(f"mustIncludeSlugs: missing {missing}")
+
+    if "allInDegreesAtLeast" in exp:
+        floor = exp["allInDegreesAtLeast"]
+        bad = [h["slug"] for h in result.get("hubs", []) if h["in_degree"] < floor]
+        if bad:
+            problems.append(f"allInDegreesAtLeast={floor}: violated by {bad}")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", f"{len(result.get('hubs', []))} hubs at min_in={min_in}"
+
+
+def try_braid(engine: Engine, case: dict) -> tuple[str, str]:
+    mod = _braid_mod(engine)
+    fn = find_callable(mod, "braid")
+    if fn is None:
+        return "skip", "no braid() callable found in weirwood_query.braid"
+    from weirwood_query.load import load_edges  # type: ignore
+
+    slugs = case["input"]["slugs"]
+    try:
+        edges = load_edges()
+        include_enables = case["input"].get("includeEnables", False)
+        result = fn(slugs, edges, include_enables=include_enables)
+    except Exception as e:
+        return "skip", f"braid() raised: {e}"
+
+    exp = case["expect"]
+
+    if exp.get("error"):
+        if result.get("error"):
+            return "pass", "error path returned as expected"
+        return "fail", f"expected an error result, got: {result!r}"
+
+    problems: list[str] = []
+    shared_anc = {a["slug"] for a in result.get("shared_ancestors", [])}
+    shared_desc = {d["slug"] for d in result.get("shared_descendants", [])}
+    offset: set[str] = set()
+    for p in result.get("pairwise", []):
+        offset |= set(p.get("offset_shared_middle", []))
+
+    if "sharedAncestorsMustInclude" in exp:
+        missing = [s for s in exp["sharedAncestorsMustInclude"] if s not in shared_anc]
+        if missing:
+            problems.append(f"sharedAncestorsMustInclude: missing {missing} (got {sorted(shared_anc)})")
+
+    if "sharedDescendantsMustInclude" in exp:
+        missing = [s for s in exp["sharedDescendantsMustInclude"] if s not in shared_desc]
+        if missing:
+            problems.append(f"sharedDescendantsMustInclude: missing {missing} (got {sorted(shared_desc)})")
+
+    if "offsetMustInclude" in exp:
+        missing = [s for s in exp["offsetMustInclude"] if s not in offset]
+        if missing:
+            problems.append(f"offsetMustInclude: missing {missing} (got {sorted(offset)})")
+
+    if problems:
+        return "fail", "; ".join(problems)
+    return "pass", "shared-ancestor/descendant/offset invariants held"
+
+
 RUNNERS: dict[str, Callable[[Engine, dict], tuple[str, str]]] = {
     "resolve": try_resolve,
     "neighbors": try_neighbors,
     "chain": try_chain,
     "family": try_family,
+    "fork-hubs": try_fork_hubs,
+    "join-hubs": try_join_hubs,
+    "braid": try_braid,
 }
 
 

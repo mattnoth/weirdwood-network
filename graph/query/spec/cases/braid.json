@@ -1,0 +1,67 @@
+[
+  {
+    "id": "fork-hubs-min-out-3-known-hubs-present",
+    "op": "fork-hubs",
+    "profile": "full",
+    "input": { "minOut": 3 },
+    "expect": {
+      "mode": "invariant",
+      "mustIncludeSlugs": [
+        "jaime-reveals-the-truth-of-tysha",
+        "battle-of-the-blackwater"
+      ],
+      "allOutDegreesAtLeast": 3
+    },
+    "note": "the charter's own worked examples (Tysha reveal, hairnet-adjacent divergence) as a stable, low-threshold fork-hub floor. Invariant-mode (membership + a degree floor), not an exact top-N dump — the graph grows and new causal edges can reorder/extend the ranking."
+  },
+  {
+    "id": "fork-hubs-oberyn-confession-present-at-min-out-2",
+    "op": "fork-hubs",
+    "profile": "full",
+    "input": { "minOut": 2 },
+    "expect": {
+      "mode": "invariant",
+      "mustIncludeSlugs": ["gregor-confesses-and-kills-oberyn"],
+      "allOutDegreesAtLeast": 2
+    },
+    "note": "the charter's Oberyn-fork example (gregor-confesses-and-kills-oberyn CAUSES jaime-frees-tyrion-from-the-black-cells AND arrest-of-the-sand-snakes -- out-degree 2, the canonical divergence-hub shape) must clear the min_out=2 floor."
+  },
+  {
+    "id": "join-hubs-min-in-2-known-hubs-present",
+    "op": "join-hubs",
+    "profile": "full",
+    "input": { "minIn": 2 },
+    "expect": {
+      "mode": "invariant",
+      "mustIncludeSlugs": ["daenerys-targaryen", "stannis-baratheon"],
+      "allInDegreesAtLeast": 2
+    },
+    "note": "multi-attributed convergence characters (Dany/Stannis pull causal edges from several independent chains) as a stable join-hub floor -- these are exactly the kind of node the causal-chain build's multi-attributed HARD-STOP protects against chaining INTO."
+  },
+  {
+    "id": "braid-tywin-assassination-and-joffrey-death-share-hairnet-ancestor",
+    "op": "braid",
+    "profile": "full",
+    "input": {
+      "slugs": ["assassination-of-tywin-lannister", "death-of-joffrey-baratheon"]
+    },
+    "expect": {
+      "mode": "invariant",
+      "sharedAncestorsMustInclude": ["sansa-receives-the-poisoned-hairnet"],
+      "sharedDescendantsMustInclude": ["tyrion-lannister", "golden-company-sails-for-westeros"],
+      "offsetMustInclude": ["jaime-reveals-the-truth-of-tysha", "gregor-confesses-and-kills-oberyn"]
+    },
+    "note": "the design-doc verification anchor: both endpoints descend from the hairnet/purple-wedding cluster. sansa-receives-the-poisoned-hairnet is the sole shared upstream ancestor (CAUSES-only default); both share several downstream descendants (Tyrion's escape arc, the Golden Company); the Tysha reveal + Oberyn's death sit in the offset/shared-middle band (upstream of one strand, downstream of the other)."
+  },
+  {
+    "id": "braid-requires-at-least-two-slugs",
+    "op": "braid",
+    "profile": "full",
+    "input": { "slugs": ["assassination-of-tywin-lannister"] },
+    "expect": {
+      "mode": "exact",
+      "error": true
+    },
+    "note": "braid on a single slug is a usage error, not a degenerate one-strand braid -- restated here as a golden case so the error path doesn't silently regress into a crash."
+  }
+]

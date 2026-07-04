@@ -12,10 +12,11 @@ Modules:
   normalize  — ONE normalizer/tokenizer (mirrors web/src/lib/normalize.ts)
   resolve    — phrase -> slug resolution (exact -> ambiguous -> character -> fuzzy)
   traverse   — neighbors, path, health, causal chain, container, family_tree
+  braid      — fork-hubs / join-hubs / braid (S117 convergence-map charter, step 7)
   report     — the legacy node-inspection report (`## Edges` prose + inbound refs)
   cli        — `weirwood query …` argparse entry point
 """
 
-from . import load, model, normalize, report, resolve, traverse
+from . import braid, load, model, normalize, report, resolve, traverse
 
-__all__ = ["load", "model", "normalize", "report", "resolve", "traverse"]
+__all__ = ["braid", "load", "model", "normalize", "report", "resolve", "traverse"]

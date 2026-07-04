@@ -60,7 +60,7 @@ different answers, that is drift — the golden cases in `spec/cases/` exist to 
 | [`corpus-search` / `passage`](#corpus-search--passage) | ❌ | ❌ (deferred S172) | **PLANNED — step 5e** (Python full-profile; chat gated on Matt) |
 | [`mentions`](#mentions) | ❌ (index built, unread) | ❌ | **PLANNED — step 8b** |
 | [`theme`](#theme) | ❌ | ❌ | **PLANNED — step 8a** |
-| [`braid` / `fork-hubs` / `join-hubs`](#braid--fork-hubs--join-hubs) | ❌ (charter only) | ❌ | **PLANNED — step 7**, full-profile only by design |
+| [`braid` / `fork-hubs` / `join-hubs`](#braid--fork-hubs--join-hubs) | ✅ `braid.py` | ❌ | **SHIPPED — step 7**, full-profile only by design |
 
 ---
 
@@ -85,6 +85,9 @@ own positional args.
 | `container <name>` | `--container <name>` |
 | `family <slug>` | `--family-tree <slug>` |
 | `resolve <phrase>` | *(no legacy-flag equivalent)* — delegates to `weirwood_query.resolve.resolve()`, printed in the same format as `scripts/event_alias_resolver.py --lookup` |
+| `fork-hubs [--min-out N] [--include-enables]` | *(no legacy-flag equivalent — new op, step 7)* |
+| `join-hubs [--min-in N] [--include-enables]` | *(no legacy-flag equivalent — new op, step 7)* |
+| `braid <slugA> <slugB> [more...] [--include-enables]` | *(no legacy-flag equivalent — new op, step 7)* |
 
 ---
 
@@ -540,16 +543,59 @@ No golden cases ship for `theme` in this v1.
 
 ## `braid` / `fork-hubs` / `join-hubs`
 
-**Status: PLANNED — step 7.** The S117 charter exists (`graph/convergence-maps/README.md`)
-but no code implements it yet — full-profile-only by design (pure DAG analysis over causal +
-`ENABLES` edges; no chat port planned). `fork-hubs`/`join-hubs` rank nodes by out-degree/
-in-degree over the causal+ENABLES subgraph; `braid A B [C...]` finds where two or more
-chains converge/diverge. Outputs land in `graph/convergence-maps/` as derived analysis
-(JSON + markdown per named braid), gated on Matt's go before the first write (same
-no-mutation posture as node/edge data, even though convergence-maps output isn't graph data
-per se).
+**Status: SHIPPED — step 7 (session, 2026-07-04).** The S117 charter
+(`graph/convergence-maps/README.md`) is now implemented in
+`graph/query/weirwood_query/braid.py`, full-profile-only by design (pure DAG analysis over
+causal(+`ENABLES`) edges; no chat port — matches the design doc's op table:
+`braid / fork-hubs / join-hubs | ❌ (charter only) | ❌ | Python only (step 7)`). This op
+family does **not** write to `graph/convergence-maps/` yet — these are read-only reports;
+the charter's "named convergence map" output files remain a separate, Matt-gated deliverable
+(unblocked by this step, not built by it).
 
-No golden cases ship for `braid`/`fork-hubs`/`join-hubs` in this v1.
+**Inputs / outputs:**
+- `fork-hubs [--min-out N] [--include-enables] [--json]` — divergence hubs: nodes whose
+  **direct** outgoing causal (or causal+ENABLES) degree is `>= min_out` (default 2), ranked
+  by out-degree descending, ties broken by slug. Each hub also reports `downstream_reach`
+  (the size of its transitive downstream set) as context, since direct fan-out and
+  transitive reach can diverge sharply (see the hairnet note below).
+- `join-hubs [--min-in N] [--include-enables] [--json]` — the in-degree analog:
+  convergence points, `upstream_reach` reported alongside.
+- `braid <slugA> <slugB> [more...] [--include-enables] [--json]` — for 2+ endpoint slugs,
+  walks each one's transitive upstream/downstream causal reach and reports: **shared
+  ancestors** (nodes upstream of every strand — a common divergence point), **shared
+  descendants** (nodes downstream of every strand — a convergence point), and, per strand
+  pair, an **offset/shared-middle** set (nodes upstream of one strand and downstream of
+  another — the "shared spine, different entry/exit" shape). Each strand's full
+  `causal_chain()` result is included under `per_strand[slug]`.
+
+**Decisions made where the charter under-specified (documented in `braid.py`'s module
+docstring in full; summarized here):**
+1. Default edge set is `CAUSAL_EDGE_TYPES` (matches `chain`'s default); `--include-enables`
+   widens to `FULL_CHAIN_EDGE_TYPES`, mirroring the existing `chain`/`chain --full` split.
+2. `fork-hubs`/`join-hubs` rank by **direct** degree, not transitive reach — a decidable,
+   O(E) definition matching the charter's own tooling-sketch wording ("ranked by downstream
+   fan-out"). This means the hairnet node itself (`sansa-receives-the-poisoned-hairnet`,
+   direct CAUSES out-degree **1**, but a downstream causal-chain reach of ~20 nodes) does
+   **not** top the `fork-hubs` ranking by direct out-degree — nodes like
+   `battle-of-the-blackwater` (out=4) or `jaime-reveals-the-truth-of-tysha` (out=3, reach 11)
+   do. `braid`'s shared-ancestor/descendant report is where the hairnet's real role (a
+   one-hop-removed shared ancestor of multiple downstream terminal events) actually surfaces
+   — verified live: `braid assassination-of-tywin-lannister death-of-joffrey-baratheon`
+   returns `sansa-receives-the-poisoned-hairnet` as the sole shared ancestor.
+3. `braid`'s "shared ancestors"/"shared descendants" are the intersection **across all**
+   given strands (N-ary); pairwise offset/shared-middle sets are reported per strand-pair
+   separately, since an all-strand offset intersection is often empty once N > 2 while
+   pairwise crossings remain informative.
+4. No hard-stop enforcement inside `braid`/`join-hubs` (they are read-only reports, not a
+   chain-building tool) — a caller distinguishes "a meaningful two-cause convergence" from
+   "a graph-wide super-hub" by eye, using the reported degree/reach numbers as context.
+
+**Golden cases:** `spec/cases/braid.json`, tagged `profile: "full"` (Python-runner-only by
+design — the deno case runner registers these as `ignore: true` tests, per its own
+docstring's handling of full-profile-only cases, so `deno task test` stays at the same pass
+count). Invariant-style asserts (membership + degree floors), not exact dumps, per the
+mission's "the graph grows" note. Run via `PYTHONPATH=graph/query python3
+graph/query/spec/run_cases.py`.
 
 ---
 
@@ -604,3 +650,18 @@ ratify as permanent:
   (previously bounded-only). Subcommand front door (`weirwood query family <slug>`, `chain`,
   `resolve`, etc.) added as an additive translation layer in `cli.py::main()` — legacy flags
   unchanged.
+- **2026-07-04 (S189, step 7):** `braid`/`fork-hubs`/`join-hubs` shipped
+  (`graph/query/weirwood_query/braid.py`), un-deferring the S117 convergence-map charter.
+  Full-profile only, no chat port, no writes to `graph/convergence-maps/` (that remains a
+  separate Matt-gated deliverable). Verified live: `fork-hubs --min-out 3` surfaces
+  `jaime-reveals-the-truth-of-tysha` (out=3, reach=11) and the 3 out=4 hubs
+  (`battle-of-the-blackwater`, `kingsmoot-on-old-wyk`,
+  `murder-of-elia-martell-and-rhaegars-children`); `gregor-confesses-and-kills-oberyn` clears
+  at `--min-out 2` (the charter's own Oberyn-fork example). `braid
+  assassination-of-tywin-lannister death-of-joffrey-baratheon` returns
+  `sansa-receives-the-poisoned-hairnet` as the sole shared ancestor — confirming the design
+  doc's verification anchor. 5 golden cases added (`spec/cases/braid.json`, `profile: "full"`)
+  + `run_cases.py` extended with `try_fork_hubs`/`try_join_hubs`/`try_braid`; all pass.
+  `deno task test` stays 66/66 (full-profile-only cases register as `ignore: true`, per the
+  existing runner's own handling — no TS file touched). Legacy pytest suites
+  (`test_graph_query_edges.py`, `test_graph_query_hardening.py`) untouched, still 48/48.

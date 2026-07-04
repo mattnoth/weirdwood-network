@@ -34,6 +34,13 @@ translation layer over the same flags, see `_translate_subcommand` below):
   python3 -m weirwood_query.cli resolve <phrase>           -- phrase -> slug (event_alias_resolver --lookup format)
 Any extra flags (--json, --expand-beats, ...) pass through unchanged after
 the subcommand's positional args.
+
+Usage — braid / convergence-map primitives (query-layer Track, step 7; the
+S117 charter un-deferred, graph/convergence-maps/README.md. NEW ops, no
+legacy-flag equivalent — full-profile only, no chat port):
+  python3 -m weirwood_query.cli fork-hubs [--min-out N] [--include-enables] [--json]
+  python3 -m weirwood_query.cli join-hubs [--min-in N] [--include-enables] [--json]
+  python3 -m weirwood_query.cli braid <slugA> <slugB> [more...] [--include-enables] [--json]
 """
 
 from __future__ import annotations
@@ -43,6 +50,7 @@ import json
 import sys
 from pathlib import Path
 
+from . import braid as braid_mod
 from . import report as report_mod
 from . import resolve as resolve_mod
 from . import traverse
@@ -542,6 +550,106 @@ def print_container(result: dict, *, json_output: bool) -> None:
           f"{'s' if len(matches) != 1 else ''}")
 
 
+def print_fork_hubs(result: dict, *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    mode = "CAUSAL+ENABLES" if result["include_enables"] else "CAUSAL"
+    print(f"FORK HUBS ({mode})  —  divergence points, direct out-degree >= {result['min_out']}")
+    print("-" * 72)
+    hubs = result["hubs"]
+    if not hubs:
+        print(f"  (no nodes with direct out-degree >= {result['min_out']})")
+    else:
+        for rank, h in enumerate(hubs, 1):
+            print(
+                f"  {rank:>2}. {h['slug']:<45}  out={h['out_degree']:<3}  "
+                f"downstream_reach={h['downstream_reach']:<4}  {h['node_header']}"
+            )
+    print("=" * 72)
+    print(f"SUMMARY: {result['count']} fork hub(s) at min_out={result['min_out']} ({mode})")
+
+
+def print_join_hubs(result: dict, *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    mode = "CAUSAL+ENABLES" if result["include_enables"] else "CAUSAL"
+    print(f"JOIN HUBS ({mode})  —  convergence points, direct in-degree >= {result['min_in']}")
+    print("-" * 72)
+    hubs = result["hubs"]
+    if not hubs:
+        print(f"  (no nodes with direct in-degree >= {result['min_in']})")
+    else:
+        for rank, h in enumerate(hubs, 1):
+            print(
+                f"  {rank:>2}. {h['slug']:<45}  in={h['in_degree']:<3}  "
+                f"upstream_reach={h['upstream_reach']:<4}  {h['node_header']}"
+            )
+    print("=" * 72)
+    print(f"SUMMARY: {result['count']} join hub(s) at min_in={result['min_in']} ({mode})")
+
+
+def print_braid(result: dict, *, json_output: bool) -> None:
+    if json_output:
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    if result.get("error"):
+        print(f"ERROR: {result['error']}")
+        return
+
+    slugs = result["slugs"]
+    mode = "CAUSAL+ENABLES" if result["include_enables"] else "CAUSAL"
+    print("=" * 72)
+    print(f"BRAID ({mode}):  " + "  <->  ".join(slugs))
+    print("=" * 72)
+
+    shared_anc = result["shared_ancestors"]
+    print(f"\nSHARED ANCESTORS — divergence point(s) upstream of EVERY strand ({len(shared_anc)})")
+    print("-" * 72)
+    if not shared_anc:
+        print("  (none — no single node is upstream of all strands)")
+    for a in shared_anc:
+        print(f"  {a['slug']}  —  {a['node_header']}")
+
+    shared_desc = result["shared_descendants"]
+    print(f"\nSHARED DESCENDANTS — convergence point(s) downstream of EVERY strand ({len(shared_desc)})")
+    print("-" * 72)
+    if not shared_desc:
+        print("  (none — no single node is downstream of all strands)")
+    for d in shared_desc:
+        print(f"  {d['slug']}  —  {d['node_header']}")
+
+    print(f"\nPAIRWISE OVERLAP ({len(result['pairwise'])} pair(s))")
+    print("-" * 72)
+    for p in result["pairwise"]:
+        print(f"  {p['a']}  <->  {p['b']}")
+        print(f"    shared ancestors   ({len(p['shared_ancestors'])}): {', '.join(p['shared_ancestors']) or '(none)'}")
+        print(f"    shared descendants ({len(p['shared_descendants'])}): {', '.join(p['shared_descendants']) or '(none)'}")
+        print(f"    offset/shared-middle ({len(p['offset_shared_middle'])}): {', '.join(p['offset_shared_middle']) or '(none)'}")
+
+    print(f"\nPER-STRAND CHAINS")
+    print("-" * 72)
+    for slug in slugs:
+        strand = result["per_strand"][slug]
+        print(
+            f"  {slug}: {strand['upstream_count']} upstream + "
+            f"{strand['downstream_count']} downstream {strand['mode']} edges"
+        )
+
+    print()
+    print("=" * 72)
+    print(
+        f"SUMMARY: {len(slugs)} strands  |  "
+        f"{len(shared_anc)} shared ancestor(s), {len(shared_desc)} shared descendant(s)"
+    )
+
+
 # ---------------------------------------------------------------------------
 # main()
 # ---------------------------------------------------------------------------
@@ -604,6 +712,49 @@ def main() -> None:
             ))
         else:
             print_resolve(phrase, slug, status, candidates)
+        sys.exit(0)
+
+    # `fork-hubs` / `join-hubs` / `braid` (query-layer Track, step 7 — the
+    # S117 convergence-map charter). No legacy-flag equivalents (these are
+    # NEW ops, additive-only); handled directly, same pattern as `resolve`
+    # above, before the subcommand-translation layer ever sees them.
+    if argv and argv[0] == "fork-hubs":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        include_enables = "--include-enables" in rest
+        min_out = braid_mod.DEFAULT_MIN_OUT
+        if "--min-out" in rest:
+            idx = rest.index("--min-out")
+            min_out = int(rest[idx + 1])
+        edges = load_edges()
+        result = braid_mod.fork_hubs(edges, min_out=min_out, include_enables=include_enables)
+        print_fork_hubs(result, json_output=json_output)
+        sys.exit(0)
+
+    if argv and argv[0] == "join-hubs":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        include_enables = "--include-enables" in rest
+        min_in = braid_mod.DEFAULT_MIN_IN
+        if "--min-in" in rest:
+            idx = rest.index("--min-in")
+            min_in = int(rest[idx + 1])
+        edges = load_edges()
+        result = braid_mod.join_hubs(edges, min_in=min_in, include_enables=include_enables)
+        print_join_hubs(result, json_output=json_output)
+        sys.exit(0)
+
+    if argv and argv[0] == "braid":
+        rest = argv[1:]
+        json_output = "--json" in rest
+        include_enables = "--include-enables" in rest
+        slugs = [a for a in rest if not a.startswith("--")]
+        if len(slugs) < 2:
+            print("usage: weirwood query braid <slugA> <slugB> [more...] [--json] [--include-enables]", file=sys.stderr)
+            sys.exit(2)
+        edges = load_edges()
+        result = braid_mod.braid(slugs, edges, include_enables=include_enables)
+        print_braid(result, json_output=json_output)
         sys.exit(0)
 
     # Subcommand front door (query-layer design contract): translate a known
