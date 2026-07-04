@@ -234,9 +234,14 @@ export default async function handler(request: Request, _context: Context): Prom
     }, { status: 400 });
   }
 
+  // Capture the visitor's question NOW, before runAgent mutates `messages` in place
+  // (it appends assistant + tool_result turns; the last `role:"user"` message then
+  // becomes a tool_result array with no text, so a post-loop lastUserText reads "").
+  const question = lastUserText(messages);
+
   // Cost guard: pre-check the global daily ceiling before spending a token.
   if ((await readDailySpend()) >= DAILY_SPEND_CAP_USD) {
-    await logTurn(failedTurn(lastUserText(messages), "cost-cap-tripped", persona));
+    await logTurn(failedTurn(question, "cost-cap-tripped", persona));
     const stream = new ReadableStream({
       start(controller) {
         controller.enqueue(sseFrame("status", { state: "cost-cap-tripped" }));
@@ -290,7 +295,7 @@ export default async function handler(request: Request, _context: Context): Prom
         await addDailySpend(costUsd);
         // Usage logging (S186): network I/O, off the 50ms CPU budget, never fails a turn.
         await logTurn({
-          question: lastUserText(messages!),
+          question,
           prose: result.prose,
           toolTrace: result.toolTrace,
           toolCalls: result.toolCalls,
@@ -318,7 +323,7 @@ export default async function handler(request: Request, _context: Context): Prom
         emit("status", { state: "api-error" });
         emit("done", { ok: false });
         console.error("chat.ts turn failed:", err);
-        await logTurn(failedTurn(lastUserText(messages!), "api-error", persona));
+        await logTurn(failedTurn(question, "api-error", persona));
       } finally {
         try {
           controller.close();
