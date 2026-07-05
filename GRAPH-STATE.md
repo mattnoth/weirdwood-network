@@ -6,6 +6,11 @@
 > intentional. Started 2026-07-04; refresh as state changes. Sourced from `worklog.md` STATUS
 > + archives S82–S187 + live repo census.
 >
+> **→ S191: the query-layer Track closed.** The query surface described in §3's "chat-UI"
+> snapshot now runs through ONE engine (`graph/query/`, `weirwood query …`) with a
+> pytest+deno drift alarm and a 116-test traversal suite; the old `scripts/` query shims
+> are deleted. See `working/query-layer/design.md` (status header) for the full record.
+>
 > **Authority note:** `worklog.md` is the live source of truth. If this doc and the worklog
 > disagree, the worklog wins — this is a point-in-time snapshot.
 

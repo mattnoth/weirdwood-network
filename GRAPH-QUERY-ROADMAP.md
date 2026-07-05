@@ -1,10 +1,13 @@
 # Graph Query & Traversal — Roadmap / Gaps / Ideas
 
-> **→ S189 (2026-07-04): the master design landed at `working/query-layer/design.md`.**
-> That doc is now the **plan of record** for the query-layer track — it confirms/revises
-> every gap below (verdicts on G1–G10, new gaps G11–G19), takes the decisions (D-A…D-I),
-> and sequences the work into executable step cards. THIS doc remains the diagnosis/history
-> record; don't extend §3/§4 here — extend the design doc.
+> **→ S191 (2026-07-04): the query-layer Track is COMPLETE.** The master design at
+> `working/query-layer/design.md` (status header + appendix) is the execution record:
+> one engine at `graph/query/` (`weirwood query …`), contract + golden cases run by
+> pytest AND deno (the drift alarm, re-proven S191), content search/list/theme in the
+> chat, the traversal suite at `graph/query/tests/` over the "Salt Debt" mini-fixture,
+> and the old `scripts/` query shims DELETED (Tier B). Every gap below is either fixed,
+> recorded as a documented profile difference, or explicitly parked in the design doc's
+> §7/§8. THIS doc remains the diagnosis/history record of how it looked BEFORE.
 >
 > **Status: LIVING SPITBALL DOC.** Started 2026-07-04. Being built and refined across
 > this session and the next. Nothing here is decided unless a line says DECIDED.

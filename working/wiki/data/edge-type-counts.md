@@ -1,12 +1,12 @@
 # Edge Type Counts — Weirwood Network
 
-Generated: 2026-06-25T14:37:59+00:00
+Generated: 2026-07-04T23:49:18+00:00
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Node files scanned | 8,387 |
+| Node files scanned | 8,473 |
 | Canonical edge types | 170 |
 | Populated types (≥1 instance) | 59 |
 | Unpopulated types (0 instances) | 111 |

@@ -90,12 +90,12 @@ assumes that prefix.
 forever, byte-identical output either way.** `--json` on any subcommand emits machine-readable
 JSON instead of the formatted text report.
 
-**The shims note:** `scripts/graph-query.py` and `scripts/event_alias_resolver.py` still exist
-as thin **compat shims** — they re-export this package's functions and preserve the exact old
-CLI surface + byte-identical stdout, so nothing that imported them (tests, other scripts)
-broke when the engine moved here. They print a deprecation banner to stderr. Do not add new
-logic to them; new work lands in `weirwood_query/`. Prefer `weirwood query` (or the direct
-`python3 -m weirwood_query.cli` invocation above) for anything new.
+**The shims are gone (S191, shim-retirement Tier B):** `scripts/graph-query.py`,
+`scripts/event_alias_resolver.py`, and `scripts/build-chat-export.py` were deleted after
+every consumer migrated — the 89 shim-loaded tests import this package directly, the
+netlify.toml build command runs the `graph/query/build/` builders, and the `weirwood graph`
+/ `weirwood resolve` shell aliases forward to this engine (kept as permanent short aliases).
+All new work lands in `weirwood_query/`.
 
 ## How the drift alarm works
 
@@ -104,8 +104,9 @@ Every operation has **golden test cases** in `spec/cases/*.json`, each tagged wi
 runners consume the same case files so the two profiles can't silently diverge:
 
 - **`spec/run_cases.py`** (Python) — runs every `full`/`both`-tagged case against this
-  package directly. Not a pytest suite (deliberately deferred — see `operations.md`'s header);
-  run it directly and read the pass/fail/skip tally:
+  package directly. Also wrapped as pytest via `tests/test_spec_cases.py` (S191 — one
+  parametrized test per case, `corpus`-marked). The standalone runner remains for quick
+  tallies:
   ```bash
   PYTHONPATH=graph/query python3 graph/query/spec/run_cases.py
   ```
@@ -136,6 +137,14 @@ matching `web/src/lib/*.ts` file, then re-run both commands before calling it do
 
 ## Session log (query-layer Track)
 
+- **step 2 — TRACK COMPLETE** (2026-07-04, S191) — the traversal suite landed at
+  `graph/query/tests/` (116 tests: fixture smoke / resolve / traverse / braid /
+  spec-cases-as-pytest / corpus smoke) over the board-designed "Salt Debt" mini-fixture
+  (`tests/fixtures/mini/` — synthetic House Quorwyn saga, no relation to the real graph);
+  repo-level `pytest.ini` (testpaths + the `corpus` marker); the 3 compat shims deleted
+  (Tier B); `find_node_file` path-escape guard; drift alarm re-proven across all three
+  runners (and the re-proof fixed a run_cases hole — resolve `candidates[0].slug` was
+  never compared).
 - **step 9** (2026-07-04) — doc-truth sweep: fixed `web/src/lib/README.md`'s stale
   `walkChain` signature and test count, `graph/edges/README.md`'s stale edge count, added
   this file, added a cheap `--explain` flag to `resolve`'s CLI path. See

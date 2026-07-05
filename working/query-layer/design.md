@@ -1,11 +1,20 @@
 # The Query Layer — Master Design (S189)
 
-> **Status: EXECUTED S190 (2026-07-04) — sessions A+B+C all landed in one Fable-orchestrated
-> sitting.** Steps 0/1/3/4/5/6/7/8a–c/9 SHIPPED + all 5 advisory boards run (§8 has the
-> decisions); side-step H = proposal written, apply Matt-gated; step 8d + mention-index apply +
-> prod deploy remain Matt-gated; **step 2 (pytest traversal suite) = the one remaining session,
-> Matt-paired** → `progress/continue-prompts/2026-07-04-query-layer-final-pytest-suite.md`.
-> Execution record: worklog S190 + the appendix entry at the foot of this doc.
+> **Status: TRACK COMPLETE — S191 (2026-07-04).** Every step landed: S190 shipped
+> steps 0/1/3/4/5/6/7/8a–c/9 + all 5 advisory boards (§8); **S191 (the Fable-orchestrated
+> finale) landed step 2** — the mini-graph fixture (`graph/query/tests/fixtures/mini/`,
+> the board-designed "Salt Debt" saga, Matt-approved) + the traversal suite
+> (`graph/query/tests/`, 116 tests) + pytest.ini + the two D-G Matt checkpoints
+> (fixture content, op-semantics table `working/query-layer/boards/op-semantics-s191.md`)
+> + **shim retirement Tier B** (the 89 shim-loaded tests migrated to package imports;
+> `scripts/graph-query.py` / `event_alias_resolver.py` / `build-chat-export.py` DELETED;
+> netlify.toml build command repointed to the `graph/query/build/` builders) + the
+> drift-alarm re-proof (one golden case deliberately broken → ALL THREE runners fail —
+> and the re-proof caught + fixed a run_cases hole where resolve `candidates[0].slug`
+> was never compared). Suites at close: pytest 1445 (1 env-fail cwd-is-tmp, 1 skip),
+> run_cases 37/0/1, deno 99/0/1. Still Matt-gated (riders, not Track work): 8d SERVED_AT
+> pass, hygiene class-5 dup-slugs (his worktree session), prod deploy of the new chat build.
+> Execution record: worklog S190+S191 + the appendix entries at the foot of this doc.
 > Originally produced Session 189 (2026-07-04, Matt-mandated
 > master-design session). This document is the execution plan for the **query-layer track**:
 > it supersedes the *directions* half (§3/§4) of `GRAPH-QUERY-ROADMAP.md` as the plan of
@@ -762,3 +771,26 @@ any LLM bulk pass (8d Haiku), any prod deploy.
   from per-bundle continue prompts to ONE rolled Fable-orchestrator prompt (A→B→C in order,
   stop at a clean bundle boundary when context runs low, mint the remainder prompt there):
   `progress/continue-prompts/2026-07-04-query-layer-orchestrated-build.md`.
+- **2026-07-04 (S191 — the Fable-orchestrated FINALE; Track CLOSED):** step 2 landed over the
+  finished layer. 3-lens fixture board (coverage/story/adversarial, Sonnet) → the "Salt Debt"
+  mini-graph (35 nodes/39 edges, House Quorwyn; causal diamond + 2-hop ENABLES break +
+  SUB_BEAT_OF hub straddling the two role-edge sets + 5-generation deep-spine family with
+  remarriage/marry-in/single-parent traps + 2 disjoint container bags + "the Eel King"
+  ambiguous alias + causal cycle/self-loop/dangling-slug traps + 3 quote-bearing orphan food
+  nodes) — Matt checkpoint #1 approved as proposed. Traversal suite: 116 tests at
+  `graph/query/tests/` (fixture smoke / resolve / traverse / braid / spec-cases-as-pytest /
+  corpus smoke, `corpus` marker auto-deselects without the graph); op-semantics table frozen
+  (Matt checkpoint #2). Housekeeping: pytest.ini; the orphaned formalize-edges test relocated
+  + made pytest-honest; vocab assertions 167→170 (the +3: SUSPECTED_OF S116, WITNESS_IN S117,
+  HONORED_AT S134). Hardening: find_node_file path-escape guard (narrow — 247 legacy
+  timestamp-suffixed slugs keep resolving). Tier A doc sweep (12 live-usage swaps) + **Tier B
+  shim retirement** (89 tests → package imports with test-count parity proven vs HEAD; the 3
+  shims DELETED; netlify.toml/DEPLOY.md/READMEs/zsh aliases repointed). Drift-alarm re-proof:
+  broke resolve-red-wedding-exact → deno FAILED but both Python runners PASSED — found the
+  run_cases resolve handler never compared `candidates[0].slug`; fixed → all three runners
+  fail on the break, all green on restore. Mid-session Matt priority-steer folded in: per-call
+  tool OUTCOME logging extended to every chat tool (+ slugs inventory for search/list/theme)
+  and the netlify build command now regenerates ALL FIVE bundle files (search-index +
+  theme-index were previously deploy-by-accident). NOT in this Track's power: prod deploy
+  (manual, Matt), 8d, class-5 dup-slugs (Matt's worktree session). The spend ceiling killed
+  the suite-builder subagent AFTER its files landed; orchestrator finished solo.
