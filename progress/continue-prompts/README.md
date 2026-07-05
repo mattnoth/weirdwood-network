@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-04 (refreshed after S191)  
+**Generated:** 2026-07-04 (refreshed after S192)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,15 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-05-cleanup-and-planning.md` | 2026-07-05 | Meta — short Fable cleanup + next-steps planning (Matt-proposed) | **LIVE** (S192) | **Fable, SOLO** (monthly spend cap may still bind — no fan-out) | Part 1 cleanup: class-5 dup-slugs disposition (Matt's worktree session never landed; reconciliation file is the approval surface), cwd-is-tmp env test, tiny fixture-alias debris. Part 2: re-rank the parked queue (side-window receipts / 8d Q21 trigger / granular dips / D&E un-park / alpha-tester round) → Matt picks → mint ONE live prompt. Don't start the winner in-session. |
+| `2026-07-05-quote-minting-dossier-substance.md` | 2026-07-05 | Graph — quote minting + dossier substance (Matt-picked S192) | **LIVE** (S193) | **Fable, solo or ≤2-3 cheap verify agents** | Census-first (Python worklist: quote-less nodes ranked by degree/POV/theme-membership/marquee-hub) → Fable mints verbatim quotes with navigable `chapter:line` cites on the top slice. Fills the dossiers BEFORE S194 makes every node clickable. SERVED_AT stays gated; edge wiring only in existing vocab. Close: `weirwood refresh` (quotes feed the search index) + Matt-gated redeploy. |
+| `2026-07-05-chat-ui-receipts-and-node-ux.md` | 2026-07-05 | Chat-UI — side-window receipts + node UX | **QUEUED (S194, runs AFTER S193)** — Matt-sequenced, not a co-equal menu item | Opus 4.8 | Receipt cards for search/list/theme (currently silently dropped); neighbors-card `▶ details` unified to click-opens-dossier; styling boost + clickable affordances (Matt ×2: "side panel still looks weird"); fuller dossier markdown; tier-1 prose entity-linking; About-page provenance story (closes the S187 About carry-over). |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 102 files)
+## Archive (`archive/` subfolder — 103 files)
+
+> **`2026-07-05-cleanup-and-planning.md`** — archived S192. **DONE (S192): both halves.** Part 1: pytest FULLY green (cwd_is_tmp was a stale `/tmp` literal from the S83 move, not environmental; fixture doubled-article alias keys normalized) — AND the class-5 disposition question got Matt's "apply this session": all 8 dup slugs resolved (incl. a bonus `artifacts/renlys-peach` same-entity dup), the `_conflicts/`-in-bundle leak found+fixed (7 phantom slugs had been shipping), builders now fail loudly on dups, prod redeployed + live-verified, `vigilant-chebyshev` worktree landed+removed. Part 2: Matt picked **quote minting** (Fable) then **receipts/node-UX** (Opus) — the S193/S194 sequence above. Superseded as live by `2026-07-05-quote-minting-dossier-substance.md`.
 
 > **`2026-07-04-query-layer-final-pytest-suite.md`** — archived S191. **DONE (S191): the query-layer Track CLOSED — and the chat build DEPLOYED LIVE.** The board-designed "Salt Debt" mini-fixture (35 nodes/39 edges, Matt-approved checkpoint #1) + the 116-test traversal suite at `graph/query/tests/` + pytest.ini + the frozen op-semantics table (checkpoint #2); shim-retirement Tier B (89 tests → package imports, the 3 shims DELETED); drift-alarm re-proof (found + fixed a run_cases hole — resolve `candidates[0].slug` was never compared; now all THREE runners fail on a broken case); vocab assertions 167→170; find_node_file path-escape guard. Matt's mid-session steer folded in: per-call tool-outcome logging on EVERY chat tool + the netlify build command now regenerates all five bundle files → then his go: pushed, deployed, live-verified (meals question ∞→3 tool calls, outcome slices confirmed in the blob). The monthly spend limit killed the suite-builder's report mid-session; the agent was later resumed from transcript and delivered it (zero fixture-data edits, zero engine bugs, one braid-semantics precision amendment). Superseded as live by `2026-07-05-cleanup-and-planning.md`.
 
