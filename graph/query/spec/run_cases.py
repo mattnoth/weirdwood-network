@@ -143,8 +143,17 @@ def try_resolve(engine: Engine, case: dict) -> tuple[str, str]:
     # different shape than the bounded candidate list). Rather than guess the
     # shape, just sanity-check whatever came back is non-crashing and, where a
     # top slug is asserted, do a best-effort substring/tuple check.
-    if exp.get("top", {}).get("slug"):
-        want = exp["top"]["slug"]
+    # The expected top slug lives at expect.top.slug OR expect.candidates[0].slug
+    # depending on how the case was authored. Check BOTH (S191: the drift-alarm
+    # re-proof found candidates[0].slug was never compared, so a corrupted
+    # resolve expectation passed silently on the Python side — the slug is
+    # profile-independent even though the status enums are not).
+    want = exp.get("top", {}).get("slug")
+    if not want:
+        cands = exp.get("candidates") or []
+        if cands and isinstance(cands[0], dict):
+            want = cands[0].get("slug")
+    if want:
         text = json.dumps(result, default=str)
         if want not in text:
             return "fail", f"expected slug {want!r} not found anywhere in resolve() output: {result!r}"

@@ -11,31 +11,23 @@ Covers:
   - Precision filter: CONTEMPORARY_WITH person→person low-value quarantine
 
 Usage:
-    python3 scripts/stage4-formalize-edges-test.py
+    python3 -m pytest tests/test_stage4_formalize_edges.py
+    python3 tests/test_stage4_formalize_edges.py   # direct runner still works
+
+Relocated from scripts/stage4-formalize-edges-test.py (S191) — pytest never
+discovered it there. `_assert` now raises on failure so pytest can't
+silently pass a failing check; the direct-runner tally is preserved.
 """
 
 from __future__ import annotations
 
-import importlib.util
 import sys
 from pathlib import Path
 
-# ---------------------------------------------------------------------------
-# Import the module under test (filename has hyphens)
-# ---------------------------------------------------------------------------
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _helpers import load_script  # noqa: E402
 
-_SCRIPTS = Path(__file__).resolve().parent
-
-
-def _load_module(name: str) -> object:
-    path = _SCRIPTS / name
-    spec = importlib.util.spec_from_file_location(name.replace("-", "_"), path)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
-
-
-_mod = _load_module("stage4-formalize-edges.py")
+_mod = load_script("stage4-formalize-edges.py")
 
 passes_selection = _mod.passes_selection
 apply_endpoint_gate = _mod.apply_endpoint_gate
@@ -65,6 +57,7 @@ def _assert(condition: bool, msg: str) -> None:
     else:
         _FAIL_COUNT += 1
         print(f"  FAIL: {msg}", file=sys.stderr)
+        raise AssertionError(msg)
 
 
 def _make_row(**kwargs) -> dict:

@@ -28,7 +28,7 @@
 - The fix is parsed and sitting on disk: the wiki infobox layer (20,614 typed rows,
   `working/wiki/data/infobox-data.jsonl`), spec'd at `working/infobox-merge/spec.md`. Expected:
   **4,760 → 21,800 edges, connectivity 14.7% → 71.0%**, $0, one Python script.
-- Query tooling exists: `scripts/graph-query.py` (`--neighbors`/`--path`/`--health`/`--event-participants`).
+- Query tooling exists: `weirwood query` (`neighbors`/`path`/`health`/`participants`).
 - Theories (45 nodes) and prophecies (2 nodes) are **effectively 100% dark and stay dark after the
   merge** — their wiki pages have no infoboxes.
 
@@ -92,7 +92,7 @@ others vs. how others see them), and chapter-evidence pointers for quoting sourc
 - The lived-relationship layer: 4,760 cited edges, affect/interaction-heavy (OPPOSES 265, SERVES 255,
   DISTRUSTS 204, HATES 173…), verbatim quotes. This is the part nobody else has.
 - The factual spine arrives with the infobox merge (~17,040 new edges; characters 20%→97% connected).
-- Traversal tooling (`graph-query.py`), 0-orphan health, alias resolution (1,433 entries).
+- Traversal tooling (`weirwood query`), 0-orphan health, alias resolution (1,433 entries).
 - `PERCEIVED_AS` + most of the proposed perception sub-vocab (`FEARS`, `MOURNS`, `DISTRUSTS`,
   `ADMIRES`) already in the locked vocabulary — pre-declared, zero instances.
 - Stubs: `voice-analyzer.md` (Sonnet), `perception-mapper.md` (Opus). Schemas not designed; never run.
@@ -204,7 +204,7 @@ rows. Sub-year ordering. Also: 10 year pages mis-typed as `character.human` node
    existing node — the extraction already happened in S29; most of chronology-extractor's stubbed
    job is *already done deterministically*. Skip-and-log the residue.
 3. [SCRIPT-$0] Year-page mistype fix (10 nodes) — bundles naturally here.
-4. [SCRIPT-$0] Join the S76 narrative-time sidecar into graph-query.py output ("as of ACOK…").
+4. [SCRIPT-$0] Join the S76 narrative-time sidecar into `weirwood query` output ("as of ACOK…").
 5. [LLM-GATED] chronology-extractor only for the unresolved residue; event-orderer
    (sub-year PRECEDES from cite_refs + causal language) after it. Both unknown until smoked; both
    both explicitly deferred as lower-priority today.
@@ -271,7 +271,7 @@ Counts are work items from §3 sequences (shared prerequisites counted once, und
 5. Year-page mistype fix (10 nodes)
 6. Chapter-evidence backfill pointers per node
 7. Display-bullet regeneration from edges.jsonl (followup #1)
-8. Narrative-time sidecar joined into graph-query.py
+8. Narrative-time sidecar joined into `weirwood query`
 9. `first_available` node + edge backfill scripts *(behind the post-first-release policy)*
 10. Pass-1-vs-wiki coverage audit (todos [OPEN] — feeds every feature's gap analysis)
 

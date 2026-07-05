@@ -421,7 +421,7 @@ The three forward-causal edges are NOT interchangeable; they form a strength lad
 - **`ENABLES`** — A is a **precondition** that makes B *possible* but does NOT force it; a third party or a character's free decision actually produces B. *Did A force B, or just open the door while someone/something else walked through?* If door-opener → ENABLES. This is the **relief valve for the sequence trap**: a military campaign's city→city transitions (`fall-of-astapor ENABLES battle-near-yunkai`) are ENABLES, never CAUSES — Astapor didn't *cause* Yunkai; Dany running a campaign did, and she *chose* to march. ENABLES also preserves third-party / dragon / human agency (`wedding-of-hizdahr ENABLES drogon-returns-to-daznak-pit` — the wedding only opened the pit; Drogon *chose* to descend).
 - **`MOTIVATES`** — drives an **actor's** decision; target is a **character**, never an event. Use it to route a human choice instead of collapsing it into a false `A CAUSES B` (the agency-collapse check).
 
-**`--causal-chain` excludes `ENABLES` by design.** The walk tool `graph-query.py --causal-chain` follows only `{CAUSES, TRIGGERS, MOTIVATES}` — every `ENABLES` edge is a deliberate **segment break** in that walk (a precondition is not a consequence, so "what caused X?" arguably should not cross it). **To traverse a spine end-to-end including its preconditions, use `--full-chain` (alias `--include-enables`)**, which renders ENABLES hops labeled `(precondition)`. Correct ENABLES data therefore reads as "missing" in `--causal-chain` unless you switch tools — that is expected, not a defect. (S120 board finding: the Essos spine's 4 ENABLES hinges made it read as 3 disconnected segments under `--causal-chain`.)
+**`chain` excludes `ENABLES` by design.** The walk tool `weirwood query chain` follows only `{CAUSES, TRIGGERS, MOTIVATES}` — every `ENABLES` edge is a deliberate **segment break** in that walk (a precondition is not a consequence, so "what caused X?" arguably should not cross it). **To traverse a spine end-to-end including its preconditions, use `full-chain` (alias `--include-enables`)**, which renders ENABLES hops labeled `(precondition)`. Correct ENABLES data therefore reads as "missing" in `chain` unless you switch tools — that is expected, not a defect. (S120 board finding: the Essos spine's 4 ENABLES hinges made it read as 3 disconnected segments under `--causal-chain`.)
 
 #### Two verification gate-levels for causal edges (S121, 2026-06-21)
 
@@ -461,7 +461,7 @@ Every node carries these frontmatter fields. Required unless marked optional.
 | `name` | Human-readable surface form. Used by display layers (chat UI, agent system prompts). Every node — wiki-derived AND chapter-beat mint — uses `name:` (NOT `title:`). | `"Red Wedding"` |
 | `slug` | Kebab-case join key. Lower-case ASCII, hyphens. The canonical identifier for cross-file references and graph traversal. | `red-wedding` |
 | `type` | Entity type from the hierarchy above. | `event.battle` |
-| `aliases` | Optional. List of surface-form variants that pass the substitution test (see `ALIAS_OF` row). Used by `scripts/event_alias_resolver.py` and downstream resolvers. NOT for sub-beats — those emit `SUB_BEAT_OF` edges. | `["wedding-at-the-twins", "slaughter-at-the-twins"]` |
+| `aliases` | Optional. List of surface-form variants that pass the substitution test (see `ALIAS_OF` row). Used by `weirwood_query`'s alias resolver (`weirwood query resolve "<phrase>"`) and downstream resolvers. NOT for sub-beats — those emit `SUB_BEAT_OF` edges. | `["wedding-at-the-twins", "slaughter-at-the-twins"]` |
 | `confidence` | Tier 1-5. | `tier-1` |
 | `wiki_source` | Optional. URL to the source wiki page (if wiki-derived). | `"https://awoiaf.westeros.org/index.php/Red_Wedding"` |
 | `era` | Optional, forward-only. The narrative epoch this entity belongs to. Set on new mints; NOT backfilled. The narrowing function in `scripts/plate4-wiki-cluster.py` weights `era=current-narrative` higher when classifying current-narrative mints, suppressing false-positive matches against pre-series events. | `current-narrative` |
@@ -515,7 +515,7 @@ containers: [wo5k, north]
 
 **It is a TAG, not a graph object.** There is no `wo5k` umbrella *node* with beats hanging off it — that would be the "bag-not-path" anti-pattern the project deliberately rejected (chain-as-arc / no-umbrella; an umbrella node loses the order and the why). `containers:` is pure node metadata; it adds no new graph object and so does **not** violate that decision.
 
-- **Query:** `graph-query.py --container <name>` is **bag-retrieval** — it returns the set of nodes carrying that tag, **unordered**. It is explicitly NOT "show me the arc." For the ordered causal walk of a storyline, use `--causal-chain` / `--full-chain`. (A bag answers "what's in this storyline?"; a path answers "in what order, and why?")
+- **Query:** `weirwood query container <name>` is **bag-retrieval** — it returns the set of nodes carrying that tag, **unordered**. It is explicitly NOT "show me the arc." For the ordered causal walk of a storyline, use `weirwood query chain` / `full-chain`. (A bag answers "what's in this storyline?"; a path answers "in what order, and why?")
 - **Dual membership / seams:** a node on the boundary between two storylines carries both, e.g. `robert-orders-daenerys-assassination` is `containers: [wo5k, essos]` (a cross-container bridge). This is the natural representation of a seam — the node is built once and surfaces under both containers.
 - **Untagged nodes:** omit the key or set `containers: null`. **Never use `[]`** — an empty-array "uncategorized" class becomes its own maintenance burden.
 - **Backfill is incremental:** stamp as you build a container; retro-tagging the older floating standalone arcs (Red Wedding, Purple Wedding, etc.) is a separate decision, not automatic.
@@ -528,7 +528,7 @@ containers: [wo5k, north]
 
 Every node carries `slug:` (kebab-case join key) and `name:` (human-readable surface). Consumers pick whichever serves them:
 
-- **Programmatic queries / edge endpoints / `scripts/graph-query.py`** — use `slug` everywhere. Slugs are the join key; never substitute the name.
+- **Programmatic queries / edge endpoints / `weirwood_query`** — use `slug` everywhere. Slugs are the join key; never substitute the name.
 - **Agent system prompts / agent reasoning in prose** — when the node frontmatter is in context, the agent naturally uses `name` in narrative explanations. No special enforcement; the surface follows the surroundings.
 - **Chat UI rendering** — post-process slugs in agent output to human names at render time. The UI does the conversion via the node index; the graph stays slug-only.
 - **JSONL / edge files** — slug always.
@@ -673,7 +673,7 @@ All agents working in this project should:
 
 **Promotion rule:** the launcher concatenates `skeleton/<slug>.node.md + "\n" + prose/<slug>.prose.md` (when prose exists) and atomic-renames into `graph/nodes/<type>/<slug>.node.md`. Tier-B pages with no prose file get the skeleton verbatim. Stage 4 + entity-index artifacts attach later via separate promotion steps.
 
-**Investigation tooling:** `scripts/graph-query.py <slug>` — read-only CLI that prints a node's frontmatter, outbound edges (with target-resolution status: OK / ALIAS→ / ORPHAN), and top inbound references from `working/wiki/data/cross-references.jsonl`. Use this before grepping raw markdown when investigating any single node. Modes: default full, `--edges-only`, `--inbound-only`, `--json`.
+**Investigation tooling:** `weirwood query <slug>` — read-only CLI that prints a node's frontmatter, outbound edges (with target-resolution status: OK / ALIAS→ / ORPHAN), and top inbound references from `working/wiki/data/cross-references.jsonl`. Use this before grepping raw markdown when investigating any single node. Modes: default full, `--edges-only`, `--inbound-only`, `--json`.
 
 **Why single-writer-per-file matters:** if two processes (e.g., Python skeleton emitter + LLM prose-fill agent) both wrote to the same file, the LLM's tendency to paraphrase or normalize would corrupt the deterministic prefix. Separating artifacts by writer makes that class of failure structurally impossible. A validator never has to enforce byte-equality; the concatenation is the only path that produces the final node.
 

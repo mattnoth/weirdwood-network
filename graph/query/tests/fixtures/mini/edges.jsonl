@@ -1,0 +1,39 @@
+{"edge_type": "SPOUSE_OF", "source_slug": "baelic-quorwyn", "target_slug": "sella-harrow", "evidence_quote": "His first wife, of House Harrow.", "confidence_tier": 1}
+{"edge_type": "SPOUSE_OF", "source_slug": "baelic-quorwyn", "target_slug": "morra-saltpans", "evidence_quote": "His second wife, wed after Sella's death.", "confidence_tier": 1}
+{"edge_type": "SPOUSE_OF", "source_slug": "harwin-quorwyn", "target_slug": "jonna-harrow", "evidence_quote": "Harwin wed Jonna Harrow.", "confidence_tier": 1}
+{"edge_type": "SPOUSE_OF", "source_slug": "alys-quorwyn", "target_slug": "perrin-harrow", "evidence_quote": "Alys wed Perrin Harrow.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "quor-quorwyn-the-elder", "target_slug": "baelic-quorwyn", "evidence_quote": "Quor's son.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "baelic-quorwyn", "target_slug": "rodrik-quorwyn", "evidence_quote": "Baelic and Sella's son.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "baelic-quorwyn", "target_slug": "myrcella-quorwyn", "evidence_quote": "Baelic and Sella's daughter.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "rodrik-quorwyn", "target_slug": "harwin-quorwyn", "evidence_quote": "Rodrik's son.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "rodrik-quorwyn", "target_slug": "dagon-quorwyn", "evidence_quote": "Rodrik's son.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "harwin-quorwyn", "target_slug": "ormund-quorwyn", "evidence_quote": "Harwin and Jonna's son.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "harwin-quorwyn", "target_slug": "alys-quorwyn", "evidence_quote": "Harwin and Jonna's daughter.", "confidence_tier": 1}
+{"edge_type": "PARENT_OF", "source_slug": "ormund-quorwyn", "target_slug": "tomm-quorwyn", "evidence_quote": "Ormund's posthumous son.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "ormund-borrows-against-the-salt-tithe", "target_slug": "battle-of-wrackmoor", "evidence_quote": "The borrowed army marches to Wrackmoor.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "battle-of-wrackmoor", "target_slug": "beach-rout-at-graycliff", "evidence_quote": "The line breaks on the beach at Graycliff.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "battle-of-wrackmoor", "target_slug": "burning-of-the-long-granary", "evidence_quote": "The granary burns during the retreat.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "beach-rout-at-graycliff", "target_slug": "salt-debt-massacre", "evidence_quote": "The rout feeds directly into the massacre.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "burning-of-the-long-granary", "target_slug": "salt-debt-massacre", "evidence_quote": "The granary fire feeds directly into the massacre.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "salt-debt-massacre", "target_slug": "quorwyn-attainder", "evidence_quote": "The crown attainders House Quorwyn.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "salt-debt-massacre", "target_slug": "harrow-quiet-truce", "evidence_quote": "House Harrow settles quietly.", "confidence_tier": 1}
+{"edge_type": "ENABLES", "source_slug": "alys-weds-perrin", "target_slug": "the-quiet-mile-crossing", "evidence_quote": "The marriage wins the army safe passage.", "confidence_tier": 1}
+{"edge_type": "ENABLES", "source_slug": "the-quiet-mile-crossing", "target_slug": "salt-debt-massacre", "evidence_quote": "The crossing makes the war's endpoint possible, not caused.", "confidence_tier": 1}
+{"edge_type": "SUB_BEAT_OF", "source_slug": "the-granary-floor", "target_slug": "salt-debt-massacre", "evidence_quote": "A sub-beat of the massacre.", "confidence_tier": 1}
+{"edge_type": "SUB_BEAT_OF", "source_slug": "the-eel-kings-fall", "target_slug": "salt-debt-massacre", "evidence_quote": "A sub-beat of the massacre.", "confidence_tier": 1}
+{"edge_type": "SUB_BEAT_OF", "source_slug": "the-seating-of-the-harrows", "target_slug": "alys-weds-perrin", "evidence_quote": "A sub-beat of the wedding.", "confidence_tier": 1}
+{"edge_type": "SUB_BEAT_OF", "source_slug": "the-drowning-of-the-ledgers", "target_slug": "crells-lost-chronicle", "evidence_quote": "Points at a chronicle with no node file \u2014 deliberate dangling target.", "confidence_tier": 1}
+{"edge_type": "COMMANDS_IN", "source_slug": "dagon-quorwyn", "target_slug": "the-granary-floor", "evidence_quote": "Dagon commands here, reluctantly.", "confidence_tier": 1}
+{"edge_type": "VICTIM_IN", "source_slug": "ormund-quorwyn", "target_slug": "the-eel-kings-fall", "evidence_quote": "Ormund falls, victim of his own war.", "confidence_tier": 1}
+{"edge_type": "WITNESS_IN", "source_slug": "tam-salter", "target_slug": "the-granary-floor", "evidence_quote": "Tam watches from the doorway.", "confidence_tier": 1}
+{"edge_type": "WITNESS_IN", "source_slug": "maester-crell", "target_slug": "the-eel-kings-fall", "evidence_quote": "Crell watches and records.", "confidence_tier": 1}
+{"edge_type": "AGENT_IN", "source_slug": "dagon-quorwyn", "target_slug": "salt-debt-massacre", "evidence_quote": "Hub-level agency, above either beat.", "confidence_tier": 1}
+{"edge_type": "PARTICIPATES_IN", "source_slug": "tam-salter", "target_slug": "battle-of-wrackmoor", "evidence_quote": "Tam fights at Wrackmoor, a role type in neither walker set.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "raid-on-saltpans-skiffs", "target_slug": "burning-of-quorwyn-nets", "evidence_quote": "The raid provokes the net-burning.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "burning-of-quorwyn-nets", "target_slug": "the-forbidding-of-the-eel-market", "evidence_quote": "The burning provokes the market ban.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "the-forbidding-of-the-eel-market", "target_slug": "raid-on-saltpans-skiffs", "evidence_quote": "The ban provokes the next raid \u2014 the cycle closes.", "confidence_tier": 1}
+{"edge_type": "CAUSES", "source_slug": "the-forbidding-of-the-eel-market", "target_slug": "the-forbidding-of-the-eel-market", "evidence_quote": "The ban renews itself yearly \u2014 a self-loop.", "confidence_tier": 1}
+{"edge_type": "RESENTS", "source_slug": "myrcella-quorwyn", "target_slug": "ormund-quorwyn", "evidence_quote": "Myrcella has never forgiven him for taking her joke seriously.", "confidence_tier": 1}
+{"edge_type": "CONTRACTED_WITH", "source_slug": "ormund-quorwyn", "target_slug": "the-brined-company", "evidence_quote": "Ormund hires the Brined Company against the salt tithe.", "confidence_tier": 1}
+{"edge_type": "FIGHTS_IN", "source_slug": "the-brined-company", "target_slug": "battle-of-wrackmoor", "evidence_quote": "The Brined Company fought at Wrackmoor.", "confidence_tier": 1}
+{"edge_type": "NAMED_AFTER", "source_slug": "tomm-quorwyn", "target_slug": "quor-quorwyn-the-elder", "evidence_quote": "Tomm is named after his great-great-grandfather Quor.", "confidence_tier": 1}

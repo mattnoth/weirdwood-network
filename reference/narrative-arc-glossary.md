@@ -162,7 +162,7 @@ as a beat; `capture → gregor-raids` hid Tywin's choice → `capture MOTIVATES 
 
 ### pre-mint dedup lookup
 A **mandatory** step before minting any beat-node: run its description through
-`python3 scripts/event_alias_resolver.py --lookup "<phrase>"` and eyeball the fuzzy index (every match
+`weirwood query resolve "<phrase>"` and eyeball the fuzzy index (every match
 ≥ ~0.6) before creating the node. Slug-guessing misses pre-existing beats — the ~200 verbose-slug
 "Plate-3" reified beats are the main collision surface. *Source:* `working/causal-arc-strategy-2026-06-18.md`
 §6. *Example (S105):* `catelyn-seizes-the-moment-and-arrests-tyrion` already existed as a Plate-3 beat; a
@@ -194,8 +194,8 @@ The `evidence_kind` discriminators that tag causal/arc edges by provenance:
 
 ## Tooling & cadence
 
-### `--causal-chain` query primitive
-`python3 scripts/graph-query.py --causal-chain <slug>` — walks `CAUSES` / `TRIGGERS` / `MOTIVATES`
+### `chain` query primitive
+`weirwood query chain <slug>` — walks `CAUSES` / `TRIGGERS` / `MOTIVATES`
 transitively **in both directions** from any beat, recovering the whole consequence-chain (ancestors +
 descendants) regardless of which beat you start from. This primitive is what makes the **chain-as-arc
 model** viable: it delivers "show me the whole arc" without a parent node, and dissolves the

@@ -344,7 +344,7 @@ Every edge row in `edges.jsonl` carries an `evidence_kind` field recording the a
 **Downstream filter rules:**  
 - **Book-grounded only** (highest-confidence prose): `evidence_kind in {book-pass1, book-pass1-reified, book-curator}` — 4,709 rows today.  
 - **Everything including wiki** (post-infobox-merge): add `wiki-infobox` to the filter set. The ~17k infobox rows are NOT in edges.jsonl yet; they are currently only accessible via per-node frontmatter bullets. After the greenlit merge lands, both filters will work against `edges.jsonl` uniformly.  
-- **Node-embedded queries today**: must read node frontmatter directly (e.g., `graph-query.py`) — these edges bypass `edges.jsonl` entirely until the merge completes.
+- **Node-embedded queries today**: must read node frontmatter directly (e.g., `weirwood query <slug>`) — these edges bypass `edges.jsonl` entirely until the merge completes.
 
 ---
 
@@ -352,5 +352,5 @@ Every edge row in `edges.jsonl` carries an `evidence_kind` field recording the a
 
 **Full spec:** `reference/architecture.md` — entity hierarchy, edge family definitions, direction conventions, qualifier enums, infobox→edge mapping, multi-type policy, spoiler gating.  
 **Qualifier enums:** `reference/edge-qualifier-vocab.md` — Tier 1 (required) and Tier 2 (optional) enum values per edge type.  
-**Graph traversal:** `scripts/graph-query.py <slug>` — prints a node's frontmatter, outbound edges (with ALIAS→ / ORPHAN resolution status), and top inbound references. Flags: `--edges-only`, `--inbound-only`, `--json`.  
+**Graph traversal:** `weirwood query <slug>` — prints a node's frontmatter, outbound edges (with ALIAS→ / ORPHAN resolution status), and top inbound references. Flags: `--edges-only`, `--inbound-only`, `--json`.  
 **Live counts:** re-run `python3 scripts/build-edge-type-counts.py --check-only` for node-embedded edge totals; count `edges.jsonl` separately for prose-pipeline totals.

@@ -139,7 +139,16 @@ def _simple_yaml_parse(yaml_text: str) -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 
 def find_node_file(slug: str, nodes_dir: Path = NODES_DIR) -> Path | None:
-    """Search all type subdirectories for <slug>.node.md. Return Path or None."""
+    """Search all type subdirectories for <slug>.node.md. Return Path or None.
+
+    Path-escape guard (S191): a slug containing a path separator or a `..`
+    segment could make `type_dir / f"{slug}.node.md"` resolve OUTSIDE
+    nodes_dir (pathlib walks `..` on .exists()). Deliberately NARROWER than
+    traverse._is_valid_slug — 247 legacy on-disk slugs carry an uppercase
+    timestamp suffix and must keep resolving; only path-dangerous input is
+    rejected here."""
+    if not isinstance(slug, str) or not slug or "/" in slug or "\\" in slug or ".." in slug:
+        return None
     if not nodes_dir.exists():
         return None
     for type_dir in nodes_dir.iterdir():

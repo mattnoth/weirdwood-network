@@ -1,0 +1,41 @@
+{
+  "version": "mini-fixture-1",
+  "computed_at": "2026-07-04T00:00:00Z",
+  "alias_to_canonical": {
+    "ormund's death": "the-eel-kings-fall",
+    "the salt debt massacre": "salt-debt-massacre",
+    "the salt debt": "salt-debt-massacre",
+    "battle of wrackmoor": "battle-of-wrackmoor",
+    "wrackmoor": "battle-of-wrackmoor",
+    "wrackmoor rout": "battle-of-wrackmoor",
+    "the eel market ban": "the-forbidding-of-the-eel-market",
+    "the quiet mile crossing": "the-quiet-mile-crossing",
+    "the quiet mile": "the-quiet-mile-crossing",
+    "quorwyn attainder": "quorwyn-attainder",
+    "harrow quiet truce": "harrow-quiet-truce"
+  },
+  "ambiguous_collisions": {
+    "eel king": [
+      {
+        "alias": "eel king",
+        "canonical_slug": "myrcella-quorwyn",
+        "confidence": "high",
+        "node_type": "character.human",
+        "raw": "Myrcella Quorwyn (alias: the Eel King, coined first)",
+        "source": "character-alias-index"
+      },
+      {
+        "alias": "eel king",
+        "canonical_slug": "ormund-quorwyn",
+        "confidence": "high",
+        "node_type": "character.human",
+        "raw": "Ormund Quorwyn (alias: the Eel King, adopted in earnest)",
+        "source": "character-alias-index"
+      }
+    ]
+  },
+  "stats": {
+    "alias_count": 11,
+    "collision_count": 1
+  }
+}
