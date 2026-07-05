@@ -2,18 +2,18 @@
 name: "Sweetsleep"
 type: concept.medical
 slug: sweetsleep
-aliases: []
-confidence: tier-2
+aliases: ["sweet sleep", "sweetmilk", "sweet milk"]
+confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sweetsleep"
 bucket_id: tier3-pathb-longtail
 prompt_version: v1-python
-node_version: 1
-pass_origin: pass2-wiki-deterministic
+node_version: 2
+pass_origin: s192-class5-merge
 ---
 
 ## Identity
 
-Sweetsleep is a species from the AWOIAF wiki.
+Sweetsleep is a sedative drug — "the gentlest of poisons" — typically administered in milk ("sweetmilk"), used as a calming agent for children or the ill. Maester Colemon warns repeatedly that it is dangerous in excess: "it does not leave the flesh" — meaning it accumulates, and repeated doses risk death. In the Vale storyline it is the central tool by which Petyr Baelish manages and subtly endangers Robert Arryn.
 
 ## Edges
 
@@ -42,6 +42,17 @@ In the [Faceless Men](wiki:Faceless_Men)'s [House of Black and White](wiki:House
 Grand Maester Pycelle treats Lord [Gyles Rosby](wiki:Gyles_Rosby)'s sickness. He uses sweetsleep to moderate the violence of Rosby's coughing.(wiki:Sweetsleep.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
 While [Alayne Stone](wiki:Alayne_Stone) is preparing Robert Arryn to leave the Eyrie for winter, he complains that Maester Colemon put something vile in his milk the previous night, and says that he ordered the maester to give him a cup of "sweetmilk" but was refused. Later, Alayne tells Maester Colemon to give Robert a cup of sweetmilk in order to keep him calm during the long descent from the Eyrie to the [Gates of the Moon](wiki:Gates_of_the_Moon), but he objects, telling her that Sweetrobin had a cup less than three days ago. Alayne reminds him that Robert wanted a cup of sweetmilk the previous night, but Colemon had refused him. Maester Colemon explains that he has told Littlefinger that a pinch of sweetsleep will prevent shaking, but it does not leave the flesh. He tries to tell Alayne what the effects of sweetsleep will be on the boy over time, but she interrupts, telling him that Lord Robert must be kept calm at all costs. Maester Colemon asks her if Robert had a nosebleed, and when she says no, he agrees to a cup of sweetmilk before the descent, and a cup before the feast that is to be held when they arrive at the Gates of the Moon. He tells Alayne that this must be the last time they give Sweetrobin sweetsleep for at least six months, or longer. Alayne tells him to discuss the subject with Littlefinger.(wiki:Sweetsleep.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 
+Book-cited beats (s152-harvest):
+
+- (Alayne I, AFFC — `sources/chapters/affc/affc-alayne-01.md:87`) Sweetsleep introduced: Petyr Baelish suggests "a pinch of sweetsleep in his milk" to Maester Colemon to calm Sweetrobin before meeting the lords. Colemon warns: "it does not leave the flesh." First use — framed as a mercy, shadowed by the maester's fear.
+- (Alayne II, AFFC — `sources/chapters/affc/affc-alayne-02.md:127`) Alayne orders a cup of sweetmilk for Sweetrobin; Colemon protests: "this must be the last." The escalating dependency is now visible — Sansa is complicit in the dosing.
+- (Cat of the Canals I, AFFC — `sources/chapters/affc/affc-cat-of-the-canals-01.md:251`) The warm-milk blinding draught: "It smelled a little burnt and had a bitter aftertaste" — the first administration of the blinding milk when Arya is still Cat of the Canals.
+
+### A Dance with Dragons
+
+- (The Blind Girl I, ADWD — `sources/chapters/adwd/adwd-the-blind-girl-01.md:79`) The nightly blinding cup given to Arya at the House of Black and White: "a queer, bitter taste that the blind girl soon learned to loathe" — a sedative/blinding draught administered nightly, mapped to the sedative-in-milk category as the closest functional analogue.
+- (The Blind Girl I, ADWD — `sources/chapters/adwd/adwd-the-blind-girl-01.md:195`) The sight-restoring fire-cup at supper — "Her tongue was on fire" — the antidote to the blinding draught, administered at a meal of salt-crusted crabs.
+
 ### The Winds of Winter[ ]
 
 At the Gates of the Moon, at the feast before the [tourney](wiki:Tourney) for the [Brotherhood of Winged Knights](wiki:Brotherhood_of_Winged_Knights), Alayne Stone sees Robert Arryn staring at her while she dances with [Harrold Hardyng](wiki:Harrold_Hardyng). She worries that he may start to shake, even though she believes Maester Colemon would have given him a strong dose of sweetmilk before the feast.(wiki:Sweetsleep.cite_ref-13)
@@ -49,3 +60,7 @@ At the Gates of the Moon, at the feast before the [tourney](wiki:Tourney) for th
 ## Quotes
 
 Sweetsleep is the gentlest of [poisons](wiki:Poison).(wiki:Sweetsleep.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+
+> "Perhaps a pinch of sweetsleep in his milk, have you tried that? Just a pinch, to calm him and stop his wretched shaking." … "A pinch?" The apple in the maester's throat moved up and down as he swallowed. … "it does not leave the flesh."
+
+— Petyr Baelish and Maester Colemon, AFFC Alayne I (`sources/chapters/affc/affc-alayne-01.md:87`)

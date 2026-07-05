@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-04T23:34:17.303863+00:00",
+  "generated_at": "2026-07-05T02:30:41.943417+00:00",
   "entity_type": "foods",
   "dry_run": false,
-  "entity_count": 113,
+  "entity_count": 111,
   "type_counts": {
-    "object.food": 113
+    "object.food": 111
   },
-  "entities_with_zero_mentions": 93,
-  "mention_inverse_slugs": 20,
+  "entities_with_zero_mentions": 94,
+  "mention_inverse_slugs": 17,
   "top_by_appearances": [
     {
       "slug": "dreamwine",
@@ -34,15 +34,6 @@
       "appearances_total": 6,
       "chapters_referenced_in": 4,
       "in_edge_count": 20,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "sourleaf",
-      "name": "Sourleaf",
-      "type": "object.food",
-      "appearances_total": 4,
-      "chapters_referenced_in": 4,
-      "in_edge_count": 11,
       "out_edge_count": 0
     },
     {
@@ -73,30 +64,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "peach",
-      "name": "Peach",
-      "type": "object.food",
-      "appearances_total": 2,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 24,
-      "out_edge_count": 0
-    },
-    {
       "slug": "aurochs",
       "name": "Aurochs",
       "type": "object.food",
       "appearances_total": 2,
       "chapters_referenced_in": 2,
       "in_edge_count": 21,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "sweetsleep",
-      "name": "Sweetsleep",
-      "type": "object.food",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 12,
       "out_edge_count": 0
     },
     {
@@ -188,6 +161,33 @@
       "chapters_referenced_in": 1,
       "in_edge_count": 9,
       "out_edge_count": 0
+    },
+    {
+      "slug": "pigeon",
+      "name": "Pigeon",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 4,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "sisters-stew",
+      "name": "Sister's stew",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 12,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "black-sausage",
+      "name": "Black sausage",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
     }
   ],
   "top_by_in_edges": [
@@ -216,15 +216,6 @@
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 34,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "peach",
-      "name": "Peach",
-      "type": "object.food",
-      "appearances_total": 2,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 24,
       "out_edge_count": 0
     },
     {
@@ -345,15 +336,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "sweetsleep",
-      "name": "Sweetsleep",
-      "type": "object.food",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 12,
-      "out_edge_count": 0
-    },
-    {
       "slug": "apple",
       "name": "Apple",
       "type": "object.food",
@@ -369,6 +351,24 @@
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 12,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "stallion-heart",
+      "name": "Stallion heart",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 11,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "snail",
+      "name": "Snail",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 10,
       "out_edge_count": 0
     }
   ]

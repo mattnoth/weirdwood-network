@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T23:34:20.144041+00:00",
+  "generated_at": "2026-07-05T02:30:44.694113+00:00",
   "dry_run": false,
   "character_count": 3913,
   "type_counts": {
@@ -9,7 +9,7 @@
     "character.minor": 1
   },
   "pov_characters_count": 31,
-  "characters_with_zero_mentions": 2151,
+  "characters_with_zero_mentions": 2152,
   "year_pages_emitted_as_characters": 0,
   "pov_inverse_slugs": 31,
   "mention_inverse_slugs": 9356,

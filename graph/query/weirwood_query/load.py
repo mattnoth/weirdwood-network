@@ -151,13 +151,26 @@ def find_node_file(slug: str, nodes_dir: Path = NODES_DIR) -> Path | None:
         return None
     if not nodes_dir.exists():
         return None
-    for type_dir in nodes_dir.iterdir():
+    # Deterministic sorted walk + collision warning (S192 hardening): iterdir()
+    # order is filesystem-dependent, so a cross-category dup slug used to
+    # resolve to an ARBITRARY copy. Now every match is collected; a collision
+    # warns on stderr and the alphabetically-first category wins, every run,
+    # every machine.
+    matches = []
+    for type_dir in sorted(nodes_dir.iterdir()):
         if not type_dir.is_dir():
             continue
         candidate = type_dir / f"{slug}.node.md"
         if candidate.exists():
-            return candidate
-    return None
+            matches.append(candidate)
+    if len(matches) > 1:
+        cats = ", ".join(m.parent.name for m in matches)
+        print(
+            f"WARNING: slug '{slug}' exists in multiple categories ({cats}); "
+            f"returning {matches[0].parent.name}/ — resolve the duplicate.",
+            file=sys.stderr,
+        )
+    return matches[0] if matches else None
 
 
 def build_node_index(nodes_dir: Path = NODES_DIR) -> dict[str, Path]:

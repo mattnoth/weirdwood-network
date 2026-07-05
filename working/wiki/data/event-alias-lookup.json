@@ -3164,8 +3164,6 @@
     "stoneheart's execution": "catelyn-is-killed",
     "storm of swords epilogue": "a-storm-of-swords-epilogue",
     "storm of swords prologue": "a-storm-of-swords-prologue",
-    "storm of swords-epilogue": "a-storm-of-swords-epilogue",
-    "storm of swords-prologue": "a-storm-of-swords-prologue",
     "storm that broke the cog": "shipwreck-of-the-selaesori-qhoran",
     "storming of seagard": "storming-of-seagard",
     "storming of starpike": "storming-of-starpike",
@@ -4096,8 +4094,6 @@
     "the stinky steward shipwreck": "shipwreck-of-the-selaesori-qhoran",
     "the storm of swords epilogue": "a-storm-of-swords-epilogue",
     "the storm of swords prologue": "a-storm-of-swords-prologue",
-    "the storm of swords-epilogue": "a-storm-of-swords-epilogue",
-    "the storm of swords-prologue": "a-storm-of-swords-prologue",
     "the storming of seagard": "storming-of-seagard",
     "the storming of starpike": "storming-of-starpike",
     "the storming of stone hedge": "taking-of-stone-hedge",
@@ -11655,22 +11651,22 @@
       }
     ]
   },
-  "computed_at": "2026-07-04T23:34:20.352029+00:00",
+  "computed_at": "2026-07-05T02:30:44.904071+00:00",
   "stats": {
     "ambiguous_collisions": 363,
     "source_breakdown": {
       "node-frontmatter-alias": 762,
-      "node-name": 744,
-      "node-slug": 744,
-      "variant-article": 1084,
+      "node-name": 742,
+      "node-slug": 742,
+      "variant-article": 1082,
       "victim-index": 2880,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 7116,
-    "unambiguous_lookups": 4992,
-    "unique_phrases": 5355
+    "total_entries_scanned": 7110,
+    "unambiguous_lookups": 4988,
+    "unique_phrases": 5351
   },
   "version": "v2"
 }

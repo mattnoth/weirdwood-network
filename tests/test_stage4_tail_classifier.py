@@ -619,14 +619,15 @@ class TestVocabLoading(unittest.TestCase):
 
 
 # ---------------------------------------------------------------------------
-# Tests: invoke_claude — verifies cwd=/tmp in subprocess call
+# Tests: invoke_claude — verifies cwd is outside the repo in subprocess call
 # ---------------------------------------------------------------------------
 
 class TestInvokeClaude(unittest.TestCase):
-    """invoke_claude: verify cwd=/tmp and subprocess pattern."""
+    """invoke_claude: verify cwd=CLAUDE_P_CWD (outside repo) and subprocess pattern."""
 
-    def test_cwd_is_tmp(self):
-        """subprocess.run must be called with cwd='/tmp'."""
+    def test_cwd_is_outside_repo(self):
+        """subprocess.run must be called with cwd=CLAUDE_P_CWD, outside this repo
+        (S83 moved it from /tmp to ~/source/claude-cwd)."""
         captured_kwargs: dict = {}
 
         def fake_run(cmd, **kwargs):
@@ -641,8 +642,12 @@ class TestInvokeClaude(unittest.TestCase):
         with patch("subprocess.run", side_effect=fake_run):
             tc.invoke_claude("test prompt", "claude-test")
 
-        self.assertEqual(captured_kwargs.get("cwd"), "/tmp",
-                         "cwd must be /tmp to avoid loading repo's CLAUDE.md")
+        cwd = captured_kwargs.get("cwd")
+        self.assertEqual(cwd, tc.CLAUDE_P_CWD,
+                         "cwd must be CLAUDE_P_CWD to avoid loading repo's CLAUDE.md")
+        repo_root = str(Path(__file__).resolve().parent.parent)
+        self.assertFalse(str(Path(cwd).resolve()).startswith(repo_root),
+                         "cwd must lie outside this repo")
 
     def test_model_passed_to_command(self):
         """The --model flag must be passed to the claude -p command."""

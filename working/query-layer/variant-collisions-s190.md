@@ -1,9 +1,9 @@
 # Variant-generation collisions — step 4b (S190)
 
-Generated: 2026-07-04T23:34:20.559536+00:00
+Generated: 2026-07-05T02:30:45.112062+00:00
 
 
-155 phrase(s) (across 2 table(s)) where a deterministically-generated plural/possessive/article variant collided with an existing alias for a DIFFERENT slug. Logged for review, not auto-resolved — the existing PRIORITY_ORDER means a real alias/name/slug always wins over a generated variant; these are cases where TWO OR MORE real slugs are already tied to the target phrase, so no single winner exists even before the variant arrived.
+152 phrase(s) (across 2 table(s)) where a deterministically-generated plural/possessive/article variant collided with an existing alias for a DIFFERENT slug. Logged for review, not auto-resolved — the existing PRIORITY_ORDER means a real alias/name/slug always wins over a generated variant; these are cases where TWO OR MORE real slugs are already tied to the target phrase, so no single winner exists even before the variant arrived.
 
 
 ## Table: event-alias-lookup.json (18 phrase(s))
@@ -100,7 +100,7 @@ Generated: 2026-07-04T23:34:20.559536+00:00
 - slug=`tourney-at-maidenpool` source=`variant-article` raw="variant of 'tourney of maidenpool'"
 - slug=`tourney-of-maidenpool` source=`variant-article` raw="variant of 'tourney of maidenpool'"
 
-## Table: all-node-alias-lookup.json (137 phrase(s))
+## Table: all-node-alias-lookup.json (134 phrase(s))
 
 
 ### `bastards`
@@ -162,16 +162,6 @@ Generated: 2026-07-04T23:34:20.559536+00:00
 
 - slug=`maesters` source=`all-node-slug:factions` raw=''
 - slug=`maester` source=`variant-plural` raw=''
-
-### `renly peach`
-
-- slug=`renlys-peach` source=`variant-possessive` raw=''
-- slug=`peach` source=`variant-possessive` raw=''
-
-### `renly's peaches`
-
-- slug=`renlys-peach` source=`variant-plural` raw=''
-- slug=`peach` source=`variant-plural` raw=''
 
 ### `sparrow`
 
@@ -633,11 +623,6 @@ Generated: 2026-07-04T23:34:20.559536+00:00
 
 - slug=`garlan-tyrell` source=`variant-article` raw=''
 - slug=`garlan-tyrell-routs-stannis-as-renly-s-ghost` source=`variant-article` raw=''
-
-### `the renly's peach`
-
-- slug=`renlys-peach` source=`variant-article` raw=''
-- slug=`peach` source=`variant-article` raw=''
 
 ### `the rob`
 

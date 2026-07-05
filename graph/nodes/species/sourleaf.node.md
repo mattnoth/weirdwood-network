@@ -2,18 +2,18 @@
 name: "Sourleaf"
 type: species
 slug: sourleaf
-aliases: []
-confidence: tier-2
+aliases: ["sour leaf"]
+confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sourleaf"
 bucket_id: tier3-pathb-longtail
 prompt_version: v1-python
-node_version: 1
-pass_origin: pass2-wiki-deterministic
+node_version: 2
+pass_origin: s192-class5-merge
 ---
 
 ## Identity
 
-Sourleaf is a species from the AWOIAF wiki.
+Sourleaf is a plant whose leaf is chewed as a stimulant and mild analgesic across Westeros, in a similar fashion to chewing tobacco. It has a foul taste and makes the chewer's spit look like blood. It is associated with common folk, Night's Watch members, and rough travel — Yoren chews it habitually while sharpening his blade. Its mild pain-dulling properties make it useful for beatings and injuries.
 
 ## Edges
 
@@ -41,6 +41,8 @@ Ser [Bennis of the Brown Shield](wiki:Bennis_of_the_Brown_Shield) was fond of ch
 
 [Chett](wiki:Chett) chews sourleaf at the [Fist of the First Men](wiki:Fist_of_the_First_Men) and share some with guards on duty.(wiki:Sourleaf.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 
+Book-cited beat (s157-harvest-drain): (Arya I, ACOK — `sources/chapters/acok/acok-arya-01.md:91`) After Yoren beats Arya for fighting, he gives her sourleaf: "Got sourleaf back at the wagons. You'll chew some, it'll help with the sting." The taste is "foul and it made her spit look like blood" but it helped with the pain from walking. Yoren himself chews sourleaf while sharpening his dirk in the dark — a habitual act.
+
 ### A Feast for Crows[ ]
 
 [Brienne Tarth](wiki:Brienne_Tarth) meets a [dwarf brother](wiki:Dwarf_brother) at the [Seven Swords](wiki:Seven_Swords) whose teeth have been stained red.(wiki:Sourleaf.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
@@ -56,3 +58,7 @@ Archmaester [Marwyn](wiki:Marwyn) chews sourleaf when he meets [Samwell Tarly](w
 The sourleaf had stained [Masha's](wiki:Masha_Heddle) teeth a dark red, and made her smile a bloody horror.(wiki:Sourleaf.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 Got sourleaf back at the wagons. You'll chew some, it'll help with the sting.(wiki:Sourleaf.cite_ref-Racok1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 A pinkish froth glistened on Ser [Emmon's](wiki:Emmon_Frey) lips when he spoke, courtesy of the sourleaf he liked to chew.(wiki:Sourleaf.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+> "Got sourleaf back at the wagons," he said. "You'll chew some, it'll help with the sting." It did help, some, though the taste of it was foul and it made her spit look like blood.
+
+— ACOK (Arya I), `sources/chapters/acok/acok-arya-01.md:91`

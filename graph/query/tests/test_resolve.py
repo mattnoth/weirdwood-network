@@ -25,14 +25,13 @@ from weirwood_query.normalize import normalize, title_to_slug
 
 # (phrase, expected_status, expected_slug_or_None)
 STATUS_CASES = [
-    # hit — exact normalized match in the event-alias table. Note: the
-    # fixture's alias table stores several keys with "the" literally embedded
-    # ("the salt debt", "the quiet mile") — since normalize() strips exactly
-    # one leading article from the QUERY side, those specific keys are only
-    # reachable via a doubled-article query ("the the salt debt") and are not
-    # used here as hit examples; "Quorwyn Attainder" has no leading article
-    # in its stored key and hits cleanly.
+    # hit — exact normalized match in the event-alias table. The table stores
+    # keys in NORMALIZED form (no leading article — normalize() strips one
+    # from the query side, so a stored "the salt debt" would only be reachable
+    # via a doubled-article query; the fixture's article-prefixed keys were
+    # normalized in S192).
     ("Ormund's death", "hit", "the-eel-kings-fall"),
+    ("The Salt Debt", "hit", "salt-debt-massacre"),
     ("Quorwyn Attainder", "hit", "quorwyn-attainder"),
     ("Wrackmoor rout", "hit", "battle-of-wrackmoor"),
     # hit-character — exact match to a full character name via the all-node index.

@@ -373,14 +373,16 @@ handle each by hand (or by agent under Matt's direct supervision), then run:
 `scripts/build-entity-indexes.py` and the alias-resolver/search-index rebuild afterward per the
 standing rebuild-derived-artifacts rule.
 
-- [ ] **Matt approves Class 5a: merge `sweetsleep` (medical→foods, fold content, delete medical copy)**
-- [ ] **Matt approves Class 5b: merge `sourleaf` (species→foods, fold content, delete species copy)**
-- [ ] **Matt approves Class 5c: disambiguate `peach` (rename food node's slug, keep location as canonical `peach`)**
-- [ ] **Matt approves Class 5d: disambiguate `porridge` (rename food node's slug, keep character as canonical `porridge`)**
-- [ ] **Matt approves Class 5e: dedup `a-storm-of-swords-prologue` (delete `events/` mistyped copy)**
-- [ ] **Matt approves Class 5f: dedup `a-storm-of-swords-epilogue` (delete `events/` mistyped copy)**
-- [ ] **Matt approves Class 5g: merge `stallion-who-mounts-the-world` (concepts→prophecies, fold content, delete concepts copy)**
-- [ ] **Matt approves Class 5h: after any of 5a–5g apply, rebuild indexes + alias-resolver + search-index (standing rule, not optional)**
+- [x] **Matt approves Class 5a: merge `sweetsleep` (medical→foods, fold content, delete medical copy)**
+- [x] **Matt approves Class 5b: merge `sourleaf` (species→foods, fold content, delete species copy)**
+- [x] **Matt approves Class 5c: disambiguate `peach` (rename food node's slug, keep location as canonical `peach`)**
+- [x] **Matt approves Class 5d: disambiguate `porridge` (rename food node's slug, keep character as canonical `porridge`)**
+- [x] **Matt approves Class 5e: dedup `a-storm-of-swords-prologue` (delete `events/` mistyped copy)**
+- [x] **Matt approves Class 5f: dedup `a-storm-of-swords-epilogue` (delete `events/` mistyped copy)**
+- [x] **Matt approves Class 5g: merge `stallion-who-mounts-the-world` (concepts→prophecies, fold content, delete concepts copy)**
+- [x] **Matt approves Class 5h: after any of 5a–5g apply, rebuild indexes + alias-resolver + search-index (standing rule, not optional)**
+
+> **APPLIED S192 (2026-07-04, Matt-approved via checkbox read):** all of 5a–5h, with the reconciliation file's 3 amendments (5a medical/ canonical; 5b species/ canonical; 5g merged type `concept.prophecy`) and the 5d coin-flip resolved as character→`porridge-gaoler` (4 edges rewritten). One extra same-entity dup found mid-apply: the rename target `renlys-peach` already existed as a wiki-promoted `artifacts/` node — merged into `foods/renlys-peach` per the same fold-content pattern. Hardening landed: `load_nodes`/`build_search_index` fail loudly on dup slugs (and `load_nodes` now excludes `_conflicts/`, which had been letting 7 phantom slugs ship in the bundle); `find_node_file` sorted walk + collision warning.
 
 ---
 

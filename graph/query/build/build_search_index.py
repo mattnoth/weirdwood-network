@@ -167,6 +167,7 @@ def build_docs(nodes_dir: Path = NODES_DIR) -> list[dict[str, Any]]:
     doc per node's Identity section. doc_id = position in this walk (stable
     across runs given the sorted walk order)."""
     docs: list[dict[str, Any]] = []
+    slug_sources: dict[str, Path] = {}
     for category, node_file in _iter_node_files(nodes_dir):
         raw = node_file.read_text(encoding="utf-8")
         fields, body = parse_frontmatter(raw)
@@ -174,6 +175,15 @@ def build_docs(nodes_dir: Path = NODES_DIR) -> list[dict[str, Any]]:
             continue
         fallback = node_file.name.replace(".node.md", "")
         slug = fields.get("slug") or fallback
+        # Fail loudly on a cross-category dup slug (S192 hardening) — a
+        # collision means search hits carry an ambiguous slug that resolves to
+        # an arbitrary node downstream.
+        if slug in slug_sources:
+            raise SystemExit(
+                f"DUPLICATE SLUG '{slug}': {slug_sources[slug]} and {node_file} — "
+                f"resolve the collision before building the search index."
+            )
+        slug_sources[slug] = node_file
         # `category` = the graph/nodes/ TYPE-DIRECTORY name (e.g. "foods") —
         # this is what --type/`node_type` filters match against (mirrors
         # resolve()'s `node_category` convention and the design doc's

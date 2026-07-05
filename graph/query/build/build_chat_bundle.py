@@ -103,13 +103,28 @@ def load_nodes(nodes_dir: Path = NODES_DIR):
     import re
 
     nodes = {}
+    slug_sources: dict[str, Path] = {}
     for path in sorted(nodes_dir.rglob("*.node.md")):
+        # Exclude `_conflicts/` (unresolved duplicate candidates, not live
+        # graph) — same exclusion build_search_index.py applies. Surfaced by
+        # the S192 dup-slug guard: rglob was silently walking the stash.
+        if "_conflicts" in path.parts:
+            continue
         raw = path.read_text(encoding="utf-8")
         fields, body = parse_frontmatter(raw)
         if not fields and not raw.startswith("---"):
             continue
         fallback = path.name.replace(".node.md", "")
         slug = fields.get("slug") or fallback
+        # Fail loudly on a cross-category dup slug (S192 hardening): the sorted
+        # walk used to silently ship whichever copy sorted LATER (last write
+        # wins), so the live bundle served the wrong entity for colliding slugs.
+        if slug in slug_sources:
+            raise SystemExit(
+                f"DUPLICATE SLUG '{slug}': {slug_sources[slug]} and {path} — "
+                f"resolve the collision before building the bundle."
+            )
+        slug_sources[slug] = path
         name = fields.get("name") or slug
         ntype = fields.get("type") or ""
         category = path.parent.name
