@@ -72,6 +72,19 @@ body {
   font-size: var(--fs-small);
   margin: 0;
 }
+/* The plain what-this-is descriptor beside the tagline. */
+.site-desc {
+  font-family: var(--font-ui);
+  color: var(--c-text-faint);
+  font-size: var(--fs-cite);
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+/* Narrow screens: the header row is already tight — the descriptor is in the
+   <title> too, so it drops rather than wraps the brand awkwardly. */
+@media (max-width: 640px) {
+  .site-desc { display: none; }
+}
 .about-toggle {
   font-family: var(--font-ui);
   font-size: var(--fs-small);
