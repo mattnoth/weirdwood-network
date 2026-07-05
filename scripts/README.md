@@ -73,10 +73,13 @@ alias-table builder **`graph/query/build/build_alias_table.py`**. Front door:
 **`weirwood query <args>`** (= `PYTHONPATH=graph/query python3 -m weirwood_query.cli`).
 Contract + parity cases: `graph/query/spec/`.
 
-Compat shims (old entry points, byte-identical stdout, deprecation pointer on stderr):
-- `scripts/graph-query.py` — shim over `weirwood_query` (traverse/report/cli); keeps the old CLI + re-exports every old symbol for tests/imports.
-- `scripts/event_alias_resolver.py` — shim over `weirwood_query.normalize`/`.resolve`/`.load` + `build/build_alias_table.py`; keeps `--build/--lookup/--stats`.
-- `scripts/weirwood-refresh.sh` step 3 now calls `graph/query/build/build_alias_table.py --build` directly.
+The compat shims are RETIRED (S191, shim-retirement Tier B): `scripts/graph-query.py`,
+`scripts/event_alias_resolver.py`, and `scripts/build-chat-export.py` are deleted. Every
+consumer now imports/invokes `graph/query/` directly — tests import the package, the
+netlify.toml build command runs the `graph/query/build/` builders, and the `weirwood
+graph` / `weirwood resolve` shell aliases forward to the engine (permanent short
+aliases). `scripts/weirwood-refresh.sh` step 3 calls
+`graph/query/build/build_alias_table.py --build` directly.
 
 ---
 
@@ -84,10 +87,10 @@ Compat shims (old entry points, byte-identical stdout, deprecation pointer on st
 
 | Class | Script | What it does | Added | How to run |
 |-------|--------|--------------|-------|------------|
-| C | `graph-query.py` | **COMPAT SHIM** → `graph/query/weirwood_query/` (see QUERY section). Read-only graph inspection: node header, outbound/inbound edges, `--neighbors`, `--path`, `--health`, `--event-participants`, `--causal-chain`. **S121:** `--full-chain`/`--include-enables` (causal walk that ALSO follows ENABLES preconditions), `--expand-beats` (surface SUB_BEAT_OF children + role edges on chain nodes), `--container <name>` (bag-retrieval over `containers:` frontmatter). | 2026-04-30 | `weirwood query <args>` (new) · `weirwood graph <args>` (legacy alias) |
+| C | *(retired S191: `graph-query.py`)* | Read-only graph inspection now lives in `graph/query/weirwood_query/` (see QUERY section): node header, edges, neighbors, path, health, participants, chain/full-chain, expand-beats, container. | 2026-04-30 | `weirwood query <args>` · `weirwood graph <args>` (legacy alias, same engine) |
 | D | `mint_arc_lib.py` | Importable mint-script helper: `precheck_slugs(slugs)` validates edge endpoints resolve (node-file existence OR alias-resolver) BEFORE edges land — the `daznak-s-pit` vs `daznaks-pit` floor-check. CLI: `python mint_arc_lib.py <slug>…`. | 2026-06-21 | imported by mint scripts |
 | C | `stamp_containers.py` | Idempotent `containers:` frontmatter stamper: `python stamp_containers.py [--dry-run] <name> <slug>…` adds a container tag (merge-safe, never `[]`). For the container-membership rollout. | 2026-06-21 | `python scripts/stamp_containers.py …` |
-| D | `event_alias_resolver.py` | **COMPAT SHIM** → `graph/query/` (see QUERY section; build half = `graph/query/build/build_alias_table.py`). Flat `{alias_phrase → canonical_slug}` lookup (`working/wiki/data/event-alias-lookup.json`); `--lookup`/`--build`/`--stats`. **LIVE infrastructure — never archive.** | 2026-06-10 | `weirwood resolve <args>` (legacy alias; rebuilt by `weirwood refresh`) |
+| D | *(retired S191: `event_alias_resolver.py`)* | Alias resolution now lives in `graph/query/` — lookups via `weirwood_query.resolve`, table builds via `graph/query/build/build_alias_table.py` (`working/wiki/data/event-alias-lookup.json`). **LIVE infrastructure — never archive the builder.** | 2026-06-10 | `weirwood query resolve "<phrase>"` · `weirwood resolve <args>` (legacy alias; rebuilt by `weirwood refresh`) |
 | D | `stage4_name_resolver.py` | Importable 5-rung collision-aware name resolver (exact/alias/firstname-unique/context-present/context-prior). **LIVE library — never archive.** | 2026-05-23 | imported by Stage 4 scripts |
 | C/D | `weirwood-refresh.sh` | Rebuilds ALL derived artifacts in one command (17 entity-index types + character indexes + alias resolver) — the standard post-node-mutation step. `--check` WARNs if artifacts are stale vs `graph/nodes/`. | 2026-06-15 | `weirwood refresh` · `weirwood refresh --check` |
 

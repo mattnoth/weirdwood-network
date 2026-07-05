@@ -14,21 +14,56 @@ These tests use the real on-disk graph data where possible, and synthetic
 fixtures where isolated unit testing is needed.
 """
 
+import sys
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 
-from tests._helpers import load_script
+REPO_ROOT = Path(__file__).resolve().parent.parent
 
-ear = load_script("event_alias_resolver.py")
+# S191 (shim retirement Tier B): imports the weirwood_query package + the
+# build_alias_table builder directly — previously loaded the
+# scripts/event_alias_resolver.py compat shim via _helpers. The shim's
+# load_lookup()/load_all_node_index() build-if-missing wrappers are
+# re-composed on the `ear` namespace so the test bodies are unchanged.
+sys.path.insert(0, str(REPO_ROOT / "graph" / "query"))
+from build import build_alias_table as _builder  # noqa: E402
+from weirwood_query import load as _wq_load  # noqa: E402
+from weirwood_query import resolve as _wq_resolve  # noqa: E402
+from weirwood_query.normalize import normalize, tokenize  # noqa: E402
 
-normalize = ear.normalize
-tokenize = ear.tokenize
+
+def _load_lookup():
+    if not _builder.OUTPUT_FILE.exists():
+        _builder.build_and_save(verbose=False)
+    return _wq_load.load_alias_lookup()
+
+
+def _load_all_node_index():
+    if not _builder.ALL_NODES_OUTPUT_FILE.exists():
+        _builder.build_and_save(verbose=False)
+    return _wq_load.load_all_node_index()
+
+
+ear = SimpleNamespace(
+    normalize=normalize,
+    tokenize=tokenize,
+    resolve=_wq_resolve.resolve,
+    build_and_save=_builder.build_and_save,
+    OUTPUT_FILE=_builder.OUTPUT_FILE,
+    ALL_NODES_OUTPUT_FILE=_builder.ALL_NODES_OUTPUT_FILE,
+    load_lookup=_load_lookup,
+    load_all_node_index=_load_all_node_index,
+    _victim_phrases=_builder._victim_phrases,
+    _event_is_primary_death_of_victim=_builder._event_is_primary_death_of_victim,
+    _parse_frontmatter_aliases=_builder._parse_frontmatter_aliases,
+    _parse_aliases_from_fm=_builder._parse_aliases_from_fm,
+)
+
 _victim_phrases = ear._victim_phrases
 _event_is_primary_death_of_victim = ear._event_is_primary_death_of_victim
 _parse_frontmatter_aliases = ear._parse_frontmatter_aliases
 _parse_aliases_from_fm = ear._parse_aliases_from_fm
-
-REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
 # ---------------------------------------------------------------------------
@@ -206,7 +241,7 @@ class TestParseFrontmatterAliases(unittest.TestCase):
 class TestResolveIntegration(unittest.TestCase):
     """
     Integration tests using the real on-disk lookup table.
-    Requires: python3 scripts/event_alias_resolver.py --build has been run.
+    Requires: the alias table has been built (graph/query/build/build_alias_table.py --build).
     """
 
     @classmethod

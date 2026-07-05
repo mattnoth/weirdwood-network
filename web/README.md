@@ -29,7 +29,7 @@ netlify.toml                    # publish=web/public, edge_functions=web/netlify
 
 | Component | Status | File |
 |---|---|---|
-| Build-time graph export | ✅ done | `scripts/build-chat-export.py` |
+| Build-time graph export | ✅ done | `graph/query/build/build_chat_bundle.py` (S191: the old `scripts/build-chat-export.py` shim is retired) |
 | Data bundle (8.8 MB) | ✅ generated | `web/data/*.json` |
 | Theme tokens (dark / soft / dusty-red) | ✅ done | `web/public/theme/tokens.css` |
 | Landing placeholder | ✅ done | `web/public/index.html` |
@@ -46,8 +46,8 @@ netlify.toml                    # publish=web/public, edge_functions=web/netlify
 ## Data bundle (`web/data/`, generated — never committed)
 
 Built by `python3 graph/query/build/build_chat_bundle.py` (the old
-`scripts/build-chat-export.py` is now a deprecated shim that forwards to it — query-layer
-Track, step 1) from `graph/` + the prebuilt alias table. `search-index.json` and
+`scripts/build-chat-export.py` shim was retired in S191, shim-retirement Tier B) from
+`graph/` + the prebuilt alias table. `search-index.json` and
 `theme-index.json` are each built by their OWN separate builder
 (`graph/query/build/build_search_index.py`, `build_theme_index.py`) — `build_chat_bundle.py`
 only measures their file size for the manifest, it does not generate them; run all three

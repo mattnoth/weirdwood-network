@@ -114,7 +114,7 @@ def main():
     EDGES.write_text("".join(kept), encoding="utf-8")
     print(f"\nWROTE {EDGES.relative_to(REPO)} — {len(kept)} PARENT_OF+other rows retained, "
           f"{len(removed)} deleted.")
-    print("Next: rebuild bundle (build-chat-export.py) + indexes (weirwood refresh).")
+    print("Next: rebuild bundle (graph/query/build/build_chat_bundle.py) + indexes (weirwood refresh).")
 
 
 if __name__ == "__main__":

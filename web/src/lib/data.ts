@@ -3,7 +3,7 @@
 // Functions run on Deno with NO filesystem access (Deno.readTextFile throws
 // "Reading or writing files with Edge Functions is not supported yet"), so the
 // ~8.7 MB curated graph must be inlined, not read from disk at runtime. The
-// python build (scripts/build-chat-export.py) regenerates these files before
+// python build (graph/query/build/ builders) regenerates these files before
 // every bundle; a fresh checkout must run it once before `deno test`/`deno check`.
 // (S183 — was Deno.readTextFile; that 502'd every edge request.)
 

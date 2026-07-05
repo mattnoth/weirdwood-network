@@ -19,12 +19,43 @@ from pathlib import Path
 import pytest
 
 # ---------------------------------------------------------------------------
-# Load the script module via the repo helper
+# S191 (shim retirement Tier B): imports the weirwood_query package directly —
+# previously loaded the scripts/graph-query.py compat shim via _helpers. The
+# shim's cmd_* wrappers were compute(traverse) + print(cli) glue; the flat
+# namespace below re-composes those two calls, so both halves stay covered
+# and the test bodies are unchanged.
 # ---------------------------------------------------------------------------
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _helpers import load_script
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "graph" / "query"))
+from weirwood_query import cli as wq_cli  # noqa: E402
+from weirwood_query import load as wq_load  # noqa: E402
+from weirwood_query import traverse as wq_traverse  # noqa: E402
 
-gq = load_script("graph-query.py")
+
+class _GQ:
+    """Flat namespace matching the old shim surface these tests were written
+    against (load_edges + cmd_*), now backed by package calls."""
+
+    load_edges = staticmethod(wq_load.load_edges)
+
+    @staticmethod
+    def cmd_neighbors(slug, edges, *, json_output=False):
+        wq_cli.print_neighbors(wq_traverse.neighbors(slug, edges), json_output=json_output)
+
+    @staticmethod
+    def cmd_path(slug_a, slug_b, edges, *, json_output=False):
+        wq_cli.print_path(wq_traverse.path(slug_a, slug_b, edges), json_output=json_output)
+
+    @staticmethod
+    def cmd_health(edges, nodes_dir, *, json_output=False):
+        wq_cli.print_health(wq_traverse.health(edges, nodes_dir), json_output=json_output)
+
+    @staticmethod
+    def cmd_causal_chain(slug, edges, *, json_output=False, expand_beats=False):
+        result = wq_traverse.causal_chain(slug, edges, expand_beats=expand_beats)
+        wq_cli.print_causal_chain(result, json_output=json_output, expand_beats=expand_beats)
+
+
+gq = _GQ()
 
 # ---------------------------------------------------------------------------
 # Fixtures

@@ -17,7 +17,7 @@
 // `outcome` field), so the resolve() OUTCOME (hit / fuzzy / miss, score,
 // candidates) isn't recoverable from the record itself. For those, this script
 // falls back to the DETERMINISTIC reconstruction it always used: load the SAME
-// production bundle (web/data/, built by build-chat-export.py) and re-run the
+// production bundle (web/data/, built by graph/query/build/build_chat_bundle.py) and re-run the
 // SAME resolve() the app used, phrase-for-phrase, against it. That recovers
 // the outcome for every phrase AS OF the bundle currently on disk (not
 // necessarily bit-identical to whatever bundle was live the moment that turn

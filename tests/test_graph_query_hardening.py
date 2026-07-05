@@ -1,21 +1,21 @@
-"""Tests for the S121 hardening additions to graph-query.py.
+"""Tests for the S121 hardening additions to the causal-walk layer.
 
 Covers:
-  - --full-chain / FULL_CHAIN_EDGE_TYPES: the causal walk follows ENABLES too,
-    while the default --causal-chain walk still excludes it.
+  - full-chain / FULL_CHAIN_EDGE_TYPES: the causal walk follows ENABLES too,
+    while the default chain walk still excludes it.
   - _edge_label: ENABLES is tagged "(precondition)".
-  - _beats_for_node: SUB_BEAT_OF children + their role edges (--expand-beats).
+  - _beats_for_node: SUB_BEAT_OF children + their role edges (expand-beats).
   - _node_containers: normalizes list / inline-string / null / absent.
 
 In-memory fixtures only; does NOT depend on the real edges.jsonl.
+S191 (shim retirement Tier B): imports the weirwood_query package directly —
+previously loaded the scripts/graph-query.py compat shim via _helpers.
 """
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _helpers import load_script
-
-gq = load_script("graph-query.py")
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "graph" / "query"))
+from weirwood_query import traverse as gq  # noqa: E402
 
 
 def _edge(et, src, tgt):

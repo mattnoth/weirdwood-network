@@ -315,8 +315,8 @@ def main():
             retired_path.unlink()
             print(f"  deleted retired node file {retired_path.relative_to(REPO)}")
 
-    print("\nNext: rebuild bundle (build-chat-export.py) + regenerate alias resolver "
-          "(event_alias_resolver.py) + indexes (weirwood refresh).")
+    print("\nNext: rebuild bundle (graph/query/build/build_chat_bundle.py) + regenerate "
+          "alias resolver + indexes (weirwood refresh does both).")
 
 
 if __name__ == "__main__":

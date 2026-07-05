@@ -155,16 +155,24 @@ weirwood() {
         python3 -m weirwood_query.cli "$@"
       ;;
     graph)
-      # LEGACY alias — thin pass-through to the graph-query.py compat shim.
-      # Prefer 'weirwood query'. (Shim output is identical; shim points at graph/query/.)
+      # LEGACY alias for 'weirwood query' — permanent short alias (S191); the
+      # graph-query.py compat shim is retired. Same engine, same argv surface.
       shift
-      python3 "$project_dir/scripts/graph-query.py" "$@"
+      PYTHONPATH="$project_dir/graph/query${PYTHONPATH:+:$PYTHONPATH}" \
+        python3 -m weirwood_query.cli "$@"
       ;;
     resolve)
-      # LEGACY alias — thin pass-through to the event_alias_resolver.py compat shim.
-      # Prefer 'weirwood query' for lookups; rebuilds run via 'weirwood refresh'.
+      # LEGACY alias (S191; the event_alias_resolver.py shim is retired):
+      # '--build' → the alias-table builder; '--lookup <phrase>' / '<phrase>' →
+      # 'weirwood query resolve'.
       shift
-      python3 "$project_dir/scripts/event_alias_resolver.py" "$@"
+      if [[ "$1" == "--build" ]]; then
+        python3 "$project_dir/graph/query/build/build_alias_table.py" --build
+      else
+        [[ "$1" == "--lookup" ]] && shift
+        PYTHONPATH="$project_dir/graph/query${PYTHONPATH:+:$PYTHONPATH}" \
+          python3 -m weirwood_query.cli resolve "$@"
+      fi
       ;;
     refresh)
       # Rebuild ALL derived artifacts (class C/D) — the standard post-node-mutation step.
@@ -251,8 +259,8 @@ weirwood() {
       echo "  weirwood sift <subcommand>        Sift corpus scanner (status/run/sample/interpret)"
       echo "  weirwood run <subcommand>         Long-run track registry — see 'weirwood run --help'"
       echo "  weirwood query <args>             Query engine (graph/query/) — the NEW front door"
-      echo "  weirwood graph <args>             LEGACY alias for query (graph-query.py shim)"
-      echo "  weirwood resolve <args>           LEGACY alias (event_alias_resolver.py shim)"
+      echo "  weirwood graph <args>             LEGACY alias for query (same engine)"
+      echo "  weirwood resolve <args>           LEGACY alias (query resolve / --build)"
       echo "  weirwood refresh [--check]        Rebuild all derived artifacts (post-node-mutation)"
       echo ""
       echo "Examples:"

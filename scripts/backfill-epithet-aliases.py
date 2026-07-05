@@ -43,8 +43,10 @@ from pathlib import Path
 
 # Reuse the project's canonical normalize()/name_to_normalized() so phrase keys
 # are produced identically to every other source feeding the alias index.
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from event_alias_resolver import normalize, name_to_normalized  # noqa: E402
+# (S191: imported from the weirwood_query package — the event_alias_resolver.py
+# compat shim is retired.)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "graph" / "query"))
+from weirwood_query.normalize import normalize, name_to_normalized  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 WIKI_RAW_DIR = REPO_ROOT / "sources" / "wiki" / "_raw"
