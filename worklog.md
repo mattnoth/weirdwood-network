@@ -332,6 +332,7 @@ Parallel-safe (different files). The global S-number is **graph/meta-only**; the
 **Post-session (Matt's go at close): deploy APPROVED but BLOCKED from the remote container** — no Netlify credentials there (`netlify status` not logged in; no `NETLIFY_AUTH_TOKEN`; `.netlify/state.json` is local-only). The quotes ship with S194's deploy or a manual `npx netlify deploy --prod --build` from Matt's linked machine (DEPLOY.md). /endsession run WITH Matt's permission; harvest queue 0 open.
 **What's next:**
 - **S194 (LIVE next):** `progress/continue-prompts/2026-07-05-chat-ui-receipts-and-node-ux.md` (Opus 4.8) — receipts/node-UX; **its deploy ships the S193 quotes** (see the prompt's S193 addendum).
+- **S195 (Matt-sequenced at S193 close, after S194):** `progress/continue-prompts/2026-07-05-quote-regrounding-cleanup.md` (Fable solo, Python-first) — re-ground the 185 drifted node quotes + the 58 legacy edge-quote mismatches; designed cheap (Python proposes, Fable bulk-dispositions, no per-row agents).
 - Future quote slices: re-run `scripts/quote_census.py`, pick from the top of `working/quote-census/quote-worklist.md`.
 
 ### Session 192 — CLASS-5 DUP-SLUGS APPLIED + hardened + REDEPLOYED; next 2 sessions sequenced — [Track: meta/graph] (2026-07-04)
