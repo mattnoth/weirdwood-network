@@ -15,7 +15,20 @@ dispositions in bulk; no per-row subagent fan-out.
 **Track:** graph (hygiene). **State you inherit:** S193 minted 71 verified quotes and
 built the tooling this session reuses: `scripts/verify_node_quotes.py` (engine-parser
 cite checker, wrap-quote tolerant), `scripts/mint_node_quotes.py` (marker-verbatim
-attach). Read `worklog.md` S193 + STATUS first; trust worklog over this prompt.
+attach). Read `worklog.md` S193/S194 + STATUS first; trust worklog over this prompt.
+
+> **S194 addendum:** the S193 quotes + the receipts/node-UX build are DEPLOYED — the
+> live dossiers now render node BODY sections (Origins/Culture/Aftermath/…) via
+> `web/public/node/` assets, so body-prose blemishes are now user-visible. Two
+> residues spotted S194, same vein as this session (fix opportunistically if rows
+> overlap, else park + surface): (1) some wiki-derived arc/section prose embeds
+> internal provenance lines — e.g. bowl-of-brown's arc ends "Navigable book cite
+> overlay on the wiki cite above."; (2) some curated quote attributions bake the
+> chapter into BOTH attribution and cite ("— ADWD Chapter 66 (Tyrion XII), ADWD
+> Tyrion 12" renders doubled — front-end `bookQuote` dedups only literal substring
+> matches; a data-side normalization beats a render heuristic). After any node-quote
+> mutation, rebuild bundle + search index and note the DEPLOY rides the next manual
+> `npx netlify deploy --prod --build` (Matt-gated, DEPLOY.md).
 
 ## The gap
 
