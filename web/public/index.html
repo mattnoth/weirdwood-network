@@ -33,11 +33,16 @@
     <button class="about-back" id="about-back" type="button">← Back to the chat</button>
     <h2 class="about-title">What is the Weirwood Network?</h2>
     <p class="intro-lead">
-      A book-grounded researcher for <em>A Song of Ice and Fire</em>. Ask a question
-      and it answers from a hand-built knowledge graph — dropping the real lines
-      from the books with <strong>citations you can trace to a chapter and
-      line</strong>, and showing every graph lookup it made to get there. It does
-      not bluff: a claim it cannot ground goes unanswered rather than invented.
+      A book-grounded researcher for <em>A Song of Ice and Fire</em>. It answers
+      from a knowledge graph built from the source material, supplemented by the
+      ASOIAF wiki — an incredible, lovingly built and maintained wikipedia for
+      the universe. This graph would not be possible without it. Ask a question,
+      and you will get the answer, backed by citations from the books, down to
+      chapter and line. It will also show you every graph lookup it made to get
+      there. As of right now, theories are NOT integrated into the graph, and the
+      persona querying the graph will not allude to or infer any potential
+      outcomes after <em>A Dance with Dragons</em> — though it can make
+      inferences based on the text alone. Theory integration is the next stage.
     </p>
     <div class="intro-body">
       <p>
@@ -50,27 +55,28 @@
         <span class="et et-enables">ENABLES</span>, and more).
       </p>
       <p>
-        <strong>Provenance is the point.</strong> Every node and edge carries a
-        confidence tier — Tier&nbsp;1 is a verbatim book line with a navigable
-        <code>chapter:line</code> citation, hand-verified against the source text;
-        Tier&nbsp;2 is sourced from the wiki; higher tiers are interpretive. More
-        than 1,600 nodes carry curated book quotes, each one extracted verbatim
-        from the chapter it cites.
+        Every node and edge carries a confidence tier: Tier&nbsp;1 is a verbatim
+        book line with a <code>chapter:line</code> citation, verified against the
+        source text; Tier&nbsp;2 is sourced from the wiki; higher tiers are
+        interpretive. More than 1,600 nodes carry curated book quotes, each one
+        extracted verbatim from the chapter it cites.
       </p>
       <p>
-        When you ask a question, an agent works the graph with typed tools — it
-        <em>resolves</em> names, <em>reads</em> nodes, <em>walks</em> causal
-        chains, traces <em>family trees</em>, <em>searches</em> the quote layer,
-        and <em>browses</em> whole categories and curated themes (meals &amp;
-        feasts, hospitality, songs &amp; tales…). The receipts panel beside the
-        answer is rendered straight from those tool returns, never scraped from
-        the prose — that is the proof there is a real graph underneath, not a
-        model freestyling.
+        When you ask a question, an agent works the graph with typed tools. It
+        resolves names and aliases, reads nodes, walks causal chains, traces
+        family trees, searches the quote layer, and browses whole categories and
+        curated themes (such as meals &amp; feasts, my favorite). Just to the
+        right of the prose (or at the bottom if on a phone) you can watch the LLM
+        working its graph tools in action. It does not guess.
       </p>
       <p>
-        A citation gate closes the loop: the answer may only cite lines the tools
-        actually returned this turn. A citation that cannot be verified is flagged
-        rather than shown as canon.
+        A citation gate checks every chapter cited in an answer against what the
+        tools actually returned this turn; an answer citing something that cannot
+        be matched is marked as unverified.
+      </p>
+      <p class="about-contact">
+        Built by <a href="https://mattnoth.com">Matt Noth</a>. If you want to be
+        involved or want to contribute, please contact me through my website.
       </p>
     </div>
   </section>

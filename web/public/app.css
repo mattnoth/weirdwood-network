@@ -115,7 +115,8 @@ body.about-open .about-view { display: block; }
   padding: var(--sp-6) var(--sp-5) var(--sp-2);
 }
 .intro-lead {
-  font-size: 1.1rem;
+  /* Same size as the body paragraphs below (Matt: one font size on About). */
+  font-size: var(--fs-body);
   color: var(--c-text-dim);
   margin: 0 auto;
   max-width: 46rem;
@@ -139,7 +140,8 @@ body.about-open .about-view { display: block; }
 .intro-body {
   margin-top: var(--sp-4);
   color: var(--c-text-dim);
-  font-size: var(--fs-small);
+  /* Same size as the lead (Matt: one font size on About). */
+  font-size: var(--fs-body);
 }
 .intro-body p { margin: 0 0 var(--sp-3); }
 .intro-body strong { color: var(--c-text); font-weight: 500; }
@@ -148,6 +150,14 @@ body.about-open .about-view { display: block; }
   font-size: 0.85em;
   color: var(--c-accent-soft);
 }
+/* The builder's contact line — small, quiet, at the foot of the About copy. */
+.about-contact {
+  margin-top: var(--sp-5);
+  font-size: var(--fs-small);
+  color: var(--c-text-faint);
+}
+.about-contact a { color: var(--c-accent-soft); text-underline-offset: 3px; }
+.about-contact a:hover { color: var(--c-text); }
 
 /* ---- Stage: thread + receipts grid ---------------------------------------- */
 .stage {
