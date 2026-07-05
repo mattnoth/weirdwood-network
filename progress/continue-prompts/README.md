@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-04 (refreshed after S190)  
+**Generated:** 2026-07-04 (refreshed after S191)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-04-query-layer-final-pytest-suite.md` | 2026-07-04 | Query-layer track — FINALE: Fable-ORCHESTRATED traversal suite + Track close-out | **LIVE** (S191) | **Fable (orchestrator) + Sonnet builders / boards, Haiku mechanical** | Matt's steer: "go hard" — same orchestration machine as S190. Mini-graph fixture (board proposes → Matt reads, D-G checkpoint), the pytest suite, pytest.ini + vocab-count fix, shim-retirement Tier B (Matt confirms in-session), drift-alarm re-proof, Track close-out. Matt present; boards resolve forks, he overrules on read. Gated riders: 8d SERVED_AT, prod deploy of the S190 chat build. |
+| `2026-07-05-cleanup-and-planning.md` | 2026-07-05 | Meta — short Fable cleanup + next-steps planning (Matt-proposed) | **LIVE** (S192) | **Fable, SOLO** (monthly spend cap may still bind — no fan-out) | Part 1 cleanup: class-5 dup-slugs disposition (Matt's worktree session never landed; reconciliation file is the approval surface), cwd-is-tmp env test, tiny fixture-alias debris. Part 2: re-rank the parked queue (side-window receipts / 8d Q21 trigger / granular dips / D&E un-park / alpha-tester round) → Matt picks → mint ONE live prompt. Don't start the winner in-session. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 101 files)
+## Archive (`archive/` subfolder — 102 files)
+
+> **`2026-07-04-query-layer-final-pytest-suite.md`** — archived S191. **DONE (S191): the query-layer Track CLOSED — and the chat build DEPLOYED LIVE.** The board-designed "Salt Debt" mini-fixture (35 nodes/39 edges, Matt-approved checkpoint #1) + the 116-test traversal suite at `graph/query/tests/` + pytest.ini + the frozen op-semantics table (checkpoint #2); shim-retirement Tier B (89 tests → package imports, the 3 shims DELETED); drift-alarm re-proof (found + fixed a run_cases hole — resolve `candidates[0].slug` was never compared; now all THREE runners fail on a broken case); vocab assertions 167→170; find_node_file path-escape guard. Matt's mid-session steer folded in: per-call tool-outcome logging on EVERY chat tool + the netlify build command now regenerates all five bundle files → then his go: pushed, deployed, live-verified (meals question ∞→3 tool calls, outcome slices confirmed in the blob). The monthly spend limit killed the suite-builder's report mid-session; the agent was later resumed from transcript and delivered it (zero fixture-data edits, zero engine bugs, one braid-semantics precision amendment). Superseded as live by `2026-07-05-cleanup-and-planning.md`.
 
 > **`2026-07-04-query-layer-orchestrated-build.md`** — archived S190. **DONE (S190): ALL THREE bundles (A engine / B retrieval / C reach+close-out) executed in the one rolled Fable-orchestrated session** — `graph/query/` engine (zero behavior change, 36/36 byte-identical + shims), spec/operations.md + golden cases both runtimes (the drift alarm), braid primitives, eval harness Q1–Q21 (baseline frozen), resolver hardening (G19/G2/G10 → 17/21 exact-resolve, zero regressions), BM25 content search + list + theme + browse routing in the chat (**Q11 meals ∞→2 tool calls**), parity table closed (G9 = per-node static assets), 5 advisory boards decided (design.md §8), hygiene proposal + Matt-approved applies (classes 1–4 + mention-index repair; class 5 → Matt's separate dup-slug session), researcher-persona draft (Matt ruled: flat base register, no A/B, deploy-and-judge). Superseded as live by `2026-07-04-query-layer-final-pytest-suite.md`.
 
