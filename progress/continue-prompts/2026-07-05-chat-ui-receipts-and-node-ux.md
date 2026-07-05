@@ -13,8 +13,15 @@ Sonnet viable for a follow-up polish pass if this session leaves residue).
 
 **Track:** meta (chat-UI). **State you inherit:** query-layer COMPLETE (S189–S191);
 class-5 dup-slugs APPLIED + hardened + REDEPLOYED (S192 — live bundle now serves the
-right copy for every formerly-colliding slug). Read `worklog.md` S191/S192 + STATUS
+right copy for every formerly-colliding slug). Read `worklog.md` S191/S192/S193 + STATUS
 first; trust worklog over this prompt.
+
+> **S193 addendum:** the quote-minting session landed — 71 verbatim book quotes on 61
+> chat-exposed nodes (quote-bearing nodes 1,598→1,659), search index + bundle rebuilt,
+> all suites green. **Matt approved deploy at S193 close but the remote container had
+> no Netlify credentials, so the quotes are NOT live yet — this session's deploy (or
+> any manual `npx netlify deploy --prod --build` from Matt's linked machine per
+> DEPLOY.md) ships them.** Golden case `list-customs-has-quotes` now pins 5 (was 2).
 
 ## The work (all in `web/public/` app.js/app.css + maybe `/api/node`)
 

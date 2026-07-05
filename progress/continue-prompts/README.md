@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-04 (refreshed after S192)  
+**Generated:** 2026-07-05 (refreshed after S193)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,13 +12,14 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-05-quote-minting-dossier-substance.md` | 2026-07-05 | Graph — quote minting + dossier substance (Matt-picked S192) | **LIVE** (S193) | **Fable, solo or ≤2-3 cheap verify agents** | Census-first (Python worklist: quote-less nodes ranked by degree/POV/theme-membership/marquee-hub) → Fable mints verbatim quotes with navigable `chapter:line` cites on the top slice. Fills the dossiers BEFORE S194 makes every node clickable. SERVED_AT stays gated; edge wiring only in existing vocab. Close: `weirwood refresh` (quotes feed the search index) + Matt-gated redeploy. |
-| `2026-07-05-chat-ui-receipts-and-node-ux.md` | 2026-07-05 | Chat-UI — side-window receipts + node UX | **QUEUED (S194, runs AFTER S193)** — Matt-sequenced, not a co-equal menu item | Opus 4.8 | Receipt cards for search/list/theme (currently silently dropped); neighbors-card `▶ details` unified to click-opens-dossier; styling boost + clickable affordances (Matt ×2: "side panel still looks weird"); fuller dossier markdown; tier-1 prose entity-linking; About-page provenance story (closes the S187 About carry-over). |
+| `2026-07-05-chat-ui-receipts-and-node-ux.md` | 2026-07-05 | Chat-UI — side-window receipts + node UX | **LIVE** (S194 — next; S193 done) | Opus 4.8 | Receipt cards for search/list/theme (currently silently dropped); neighbors-card `▶ details` unified to click-opens-dossier; styling boost + clickable affordances (Matt ×2: "side panel still looks weird"); fuller dossier markdown; tier-1 prose entity-linking; About-page provenance story (closes the S187 About carry-over). |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 103 files)
+## Archive (`archive/` subfolder — 104 files)
+
+> **`2026-07-05-quote-minting-dossier-substance.md`** — archived S193. **DONE (S193): 71 verbatim book quotes minted onto 61 chat-exposed nodes** (census `scripts/quote_census.py` → ranked worklist `working/quote-census/quote-worklist.md`; marker-verbatim mint `scripts/mint_node_quotes.py`; verifier `scripts/verify_node_quotes.py` — 71/71 pass at cited line). Quote-bearing nodes 1,598→1,659; search index + bundle rebuilt; suites pytest 1446/0 · run_cases 31/0 · deno 99/0. BONUS finding: 185/803 pre-existing book-cited node quotes drifted → `working/quote-census/node-quote-drift-report.md` (queued in todos item (b)). NOT yet deployed — the quotes ride the next manual deploy (Matt approved deploy at S193 close, but the remote container has no Netlify credentials — see worklog). Superseded as live by `2026-07-05-chat-ui-receipts-and-node-ux.md`.
 
 > **`2026-07-05-cleanup-and-planning.md`** — archived S192. **DONE (S192): both halves.** Part 1: pytest FULLY green (cwd_is_tmp was a stale `/tmp` literal from the S83 move, not environmental; fixture doubled-article alias keys normalized) — AND the class-5 disposition question got Matt's "apply this session": all 8 dup slugs resolved (incl. a bonus `artifacts/renlys-peach` same-entity dup), the `_conflicts/`-in-bundle leak found+fixed (7 phantom slugs had been shipping), builders now fail loudly on dups, prod redeployed + live-verified, `vigilant-chebyshev` worktree landed+removed. Part 2: Matt picked **quote minting** (Fable) then **receipts/node-UX** (Opus) — the S193/S194 sequence above. Superseded as live by `2026-07-05-quote-minting-dossier-substance.md`.
 
