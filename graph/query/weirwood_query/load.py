@@ -174,15 +174,29 @@ def find_node_file(slug: str, nodes_dir: Path = NODES_DIR) -> Path | None:
 
 
 def build_node_index(nodes_dir: Path = NODES_DIR) -> dict[str, Path]:
-    """Return {slug: path} for every .node.md in the graph."""
+    """Return {slug: path} for every .node.md in the graph.
+
+    Sorted walk + collision warning (S192 hardening, same rationale as
+    find_node_file): on a cross-category dup slug the alphabetically-FIRST
+    category wins deterministically and a warning goes to stderr — the engine
+    keeps working (warn, don't die at query time; the builders are the
+    fail-loud gate)."""
     index: dict[str, Path] = {}
     if not nodes_dir.exists():
         return index
-    for type_dir in nodes_dir.iterdir():
+    for type_dir in sorted(nodes_dir.iterdir()):
         if not type_dir.is_dir():
             continue
-        for node_file in type_dir.glob("*.node.md"):
+        for node_file in sorted(type_dir.glob("*.node.md")):
             slug = node_file.stem.replace(".node", "")
+            if slug in index:
+                print(
+                    f"WARNING: slug '{slug}' exists in multiple categories "
+                    f"({index[slug].parent.name}, {type_dir.name}); keeping "
+                    f"{index[slug].parent.name}/ — resolve the duplicate.",
+                    file=sys.stderr,
+                )
+                continue
             index[slug] = node_file
     return index
 

@@ -1,6 +1,12 @@
 # Reconciliation — S190 hygiene proposal Class 5 vs. the parallel slug-collision scan
 
-**Date:** 2026-07-04 · **Status: annotation for Matt's review — nothing applied.**
+**Date:** 2026-07-04 · **Status: APPLIED S192 (2026-07-04, Matt-approved)** — all of
+5a–5h with Amendments 1–3 as recommended; 5d resolved character→`porridge-gaoler`.
+Plus one extra same-entity dup found mid-apply (`artifacts/renlys-peach`, merged into
+foods/) and the `_conflicts/`-in-bundle leak (7 phantom slugs, now excluded). Hardening
+landed; prod redeployed + live-verified. See the applied-record note at the foot of
+`hygiene-proposal-s190.md` Class 5. *(Original status: annotation for Matt's review —
+nothing applied.)*
 Two sessions independently scanned the same problem this week:
 
 - `working/query-layer/hygiene-proposal-s190.md` (Classes 1–5, checkboxes)
