@@ -12,13 +12,19 @@ the Edge Function's 50ms CPU budget, unlike an inlined bundle lookup, so this
 trick is what makes the extra content affordable at all.
 
 Output: `web/public/node/<slug>.json`, one file per qualifying node:
-    {"slug": ..., "name": ..., "narrative_arc": "<markdown>", "cites": [...]}
-`cites` is the list of inline `sources/chapters/.../*.md:LINE` book-cite
-overlay references found in the section text (the harvest-consume
-book-citation convention — see feedback_book_citation_overlay_value), in
-first-seen order, deduped. Omitted (key absent) when the section carries none
-— most Narrative Arc prose is wiki-derived and has no book cite overlay
-(87 of 4,401 as of this build).
+    {"slug": ..., "name": ..., "narrative_arc": "<markdown>",
+     "sections": [{"heading": ..., "text": ...}], "cites": [...]}
+A node qualifies when it carries a `## Narrative Arc` section OR at least one
+other reader-facing prose section (S194 dossier expansion — Matt: "even
+showing the markdown is good enough"). `sections` is every such extra section
+(Origins, Appearances & Description, Culture, Aftermath, Heraldry & Sigil,
+...) in file order with title-cased headings; internal bookkeeping sections
+(Notes, book-cite-overlay ledgers) never ship. Both keys are optional — a
+node may have either or both. `cites` is the list of inline
+`sources/chapters/.../*.md:LINE` book-cite overlay references found across
+ALL shipped prose (the harvest-consume book-citation convention — see
+feedback_book_citation_overlay_value), in first-seen order, deduped. Omitted
+(key absent) when the prose carries none.
 
 `web/public/` is a TRACKED directory (app.js/index.html/css/fonts/portraits/
 sigils all live there and are committed) but this output is DERIVED, build-
@@ -53,6 +59,30 @@ OUT_DIR = REPO_ROOT / "web" / "public" / "node"
 
 _CITE_RE = re.compile(r"`(sources/chapters/[^`]+\.md:\d+)`")
 
+# Section keys (split_sections lowercases) that never ship to the dossier:
+# identity + quotes already ride the main bundle, edges are structured data,
+# narrative arc has its own dedicated key, and notes is internal curator
+# provenance (parser-artifact flags, deferral records — not reader prose).
+_SKIP_SECTIONS = {"identity", "quotes", "edges", "narrative arc", "narrative_arc", "notes"}
+# Internal bookkeeping headings beyond the fixed set — book-cite overlay
+# ledgers stamped by harvest passes ("book citations", "book-cite overlays
+# (s157 harvest)", ...). Matched on the lowercased key.
+_SKIP_RE = re.compile(r"book.?cit|overlay|harvest")
+
+
+def extra_sections(sections: dict[str, str]) -> list[dict[str, str]]:
+    """The node's reader-facing prose sections beyond identity/quotes/arc,
+    in file order, with headings title-cased back for display ("appearances
+    & description" -> "Appearances & Description")."""
+    out: list[dict[str, str]] = []
+    for key, text in sections.items():
+        if key in _SKIP_SECTIONS or _SKIP_RE.search(key):
+            continue
+        if not text.strip():
+            continue
+        out.append({"heading": key.title(), "text": text.strip()})
+    return out
+
 
 def extract_cites(narrative_arc: str) -> list[str]:
     """Every distinct `sources/chapters/.../*.md:LINE` cite embedded in the
@@ -70,7 +100,8 @@ def extract_cites(narrative_arc: str) -> list[str]:
 
 def build_node_assets(nodes_dir: Path = NODES_DIR) -> list[dict[str, Any]]:
     """Return one record per node file (under nodes_dir, excluding
-    `_conflicts/`) that carries a `## Narrative Arc` section. `chapters/`
+    `_conflicts/`) that carries a `## Narrative Arc` section OR at least one
+    other reader-facing prose section (see extra_sections). `chapters/`
     (the per-chapter summary subsystem, a different thing from front-end
     entity nodes — see measurements.md's own scoping note) IS included here
     intentionally: a chapter dossier page benefits from its own arc prose the
@@ -89,16 +120,17 @@ def build_node_assets(nodes_dir: Path = NODES_DIR) -> list[dict[str, Any]]:
         name = fields.get("name") or slug
 
         sections = split_sections(body)
-        narrative_arc = sections.get("narrative arc", "") or sections.get("narrative_arc", "")
-        if not narrative_arc.strip():
+        narrative_arc = (sections.get("narrative arc", "") or sections.get("narrative_arc", "")).strip()
+        extras = extra_sections(sections)
+        if not narrative_arc and not extras:
             continue
 
-        rec: dict[str, Any] = {
-            "slug": str(slug),
-            "name": str(name),
-            "narrative_arc": narrative_arc.strip(),
-        }
-        cites = extract_cites(narrative_arc)
+        rec: dict[str, Any] = {"slug": str(slug), "name": str(name)}
+        if narrative_arc:
+            rec["narrative_arc"] = narrative_arc
+        if extras:
+            rec["sections"] = extras
+        cites = extract_cites("\n".join([narrative_arc, *(s["text"] for s in extras)]))
         if cites:
             rec["cites"] = cites
         records.append(rec)
@@ -147,6 +179,8 @@ def main() -> int:
     total_bytes = 0
     largest: tuple[str, int] = ("", 0)
     with_cites = 0
+    with_arc = 0
+    with_sections = 0
     for rec in records:
         size = write_asset(rec, out_dir)
         total_bytes += size
@@ -154,8 +188,13 @@ def main() -> int:
             largest = (rec["slug"], size)
         if "cites" in rec:
             with_cites += 1
+        if "narrative_arc" in rec:
+            with_arc += 1
+        if "sections" in rec:
+            with_sections += 1
 
     print(f"  wrote {len(records)} asset(s) -> {out_dir}/")
+    print(f"  with narrative arc: {with_arc} / with extra sections: {with_sections}")
     print(f"  with book-cite overlay: {with_cites}")
     print(f"  total size: {human(total_bytes)} ({total_bytes} bytes)")
     print(f"  largest asset: {largest[0]}.json ({human(largest[1])})")

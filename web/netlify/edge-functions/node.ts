@@ -30,22 +30,36 @@ const graph = await loadGraphData();
 const tools = createTools(graph);
 
 /** Fetch web/public/node/<slug>.json relative to `origin` (the same host that
- *  served the incoming request). Returns null on ANY failure — a missing
- *  asset (no Narrative Arc section for this node), a 404, or a network
- *  error are all treated identically: "no arc content available", not an
- *  error surfaced to the caller. Never throws. */
-async function fetchNarrativeArc(
+ *  served the incoming request). The asset carries the node's long-form prose:
+ *  `narrative_arc` (markdown) and/or `sections` ([{heading, text}] — the
+ *  reader-facing body sections beyond identity/quotes, S194). Returns null on
+ *  ANY failure — a missing asset (no prose sections for this node), a 404, or
+ *  a network error are all treated identically: "no extra content available",
+ *  not an error surfaced to the caller. Never throws. */
+async function fetchNodeAsset(
   slug: string,
   origin: string,
-): Promise<{ narrative_arc: string; cites?: string[] } | null> {
+): Promise<
+  {
+    narrative_arc?: string;
+    sections?: Array<{ heading: string; text: string }>;
+    cites?: string[];
+  } | null
+> {
   try {
     const res = await fetch(new URL(`/node/${encodeURIComponent(slug)}.json`, origin));
     if (!res.ok) return null;
     const asset = await res.json();
-    if (typeof asset?.narrative_arc !== "string") return null;
-    return { narrative_arc: asset.narrative_arc, cites: asset.cites };
+    const narrativeArc = typeof asset?.narrative_arc === "string" ? asset.narrative_arc : undefined;
+    const sections = Array.isArray(asset?.sections) ? asset.sections : undefined;
+    if (!narrativeArc && !sections) return null;
+    return {
+      ...(narrativeArc ? { narrative_arc: narrativeArc } : {}),
+      ...(sections ? { sections } : {}),
+      cites: asset.cites,
+    };
   } catch {
-    return null; // fail-soft: a missing asset degrades to today's response
+    return null; // fail-soft: a missing asset degrades to the bundle-only response
   }
 }
 
@@ -68,12 +82,13 @@ export default async (req: Request): Promise<Response> => {
     });
   }
 
-  const arc = await fetchNarrativeArc(slug, url.origin);
+  const asset = await fetchNodeAsset(slug, url.origin);
   // deno-lint-ignore no-explicit-any
   const body: any = { ...node };
-  if (arc) {
-    body.narrativeArc = arc.narrative_arc;
-    if (arc.cites) body.narrativeArcCites = arc.cites;
+  if (asset) {
+    if (asset.narrative_arc) body.narrativeArc = asset.narrative_arc;
+    if (asset.sections) body.sections = asset.sections;
+    if (asset.cites) body.narrativeArcCites = asset.cites;
   }
 
   return new Response(JSON.stringify(body), {

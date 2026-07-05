@@ -319,10 +319,42 @@ body.landing .composer-note { display: none; }
   border: 1px solid var(--c-border);
   border-radius: var(--radius-lg);
   padding: var(--sp-4);
+  /* The rail itself scrolls (S194) — a receipt-heavy turn stays within the
+     viewport instead of pushing the sticky panel far past it. */
+  max-height: calc(100vh - var(--sp-4) * 2);
+  overflow-y: auto;
 }
 .receipts-col:has(.receipts:empty) { display: none; } /* nothing to show → no empty panel */
+/* Stacked below the prose on small screens, the rail joins the page's own
+   scroll — no sticky, no inner scrollbox (the desktop rail-scroll would
+   double-scroll here). Sits AFTER the base rule above so it wins the cascade. */
+@media (max-width: 860px) {
+  .receipts-col { position: static; max-height: none; overflow: visible; }
+}
 .receipts { display: flex; flex-direction: column; gap: var(--sp-3); }
 .receipts-empty { color: var(--c-text-faint); font-style: italic; font-family: var(--font-prose); font-size: var(--fs-small); }
+
+/* The rail header — names the panel once, and carries the ONE global
+   affordance hint (every node name in every card below opens its dossier). */
+.rail-head {
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px solid var(--c-border-soft);
+}
+.rail-title {
+  display: block;
+  font-family: var(--font-prose);
+  font-weight: 500;
+  font-size: 1.02rem;
+  color: var(--c-text);
+}
+.rail-sub {
+  display: block;
+  margin-top: 2px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-cite);
+  color: var(--c-accent-soft);
+  letter-spacing: 0.03em;
+}
 
 /* A receipt card. */
 .card {
@@ -336,12 +368,14 @@ body.landing .composer-note { display: none; }
   font-size: var(--fs-cite);
   color: var(--c-text-faint);
   letter-spacing: 0.04em;
+  text-transform: uppercase;
   margin-bottom: var(--sp-2);
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: var(--sp-2);
 }
 .card-kind .ti, .card-kind .glyph { color: var(--c-accent-soft); }
+.card-kind .kind-count { margin-left: auto; text-transform: none; color: var(--c-text-faint); }
 .card-title { font-family: var(--font-prose); font-size: 1rem; color: var(--c-text); }
 .card-type {
   font-family: var(--font-mono);
@@ -349,10 +383,56 @@ body.landing .composer-note { display: none; }
   color: var(--c-text-faint);
 }
 .card-identity { color: var(--c-text-dim); font-size: var(--fs-small); margin-top: var(--sp-2); }
+.card-more {
+  margin-top: var(--sp-2);
+  font-family: var(--font-mono);
+  font-size: var(--fs-cite);
+  color: var(--c-text-faint);
+}
+
+/* ---- The node chip: the ONE clickable-node atom (S194) --------------------
+   Shared by the search/list/theme/neighbors/resolve cards. The dotted accent
+   underline is the "this opens a record" signal, everywhere the same. */
+.node-chip {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  color: var(--c-text);
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  padding: 2px var(--sp-2);
+  line-height: 1.35;
+  cursor: pointer;
+  text-decoration: underline dotted var(--c-accent-soft);
+  text-underline-offset: 3px;
+  transition: border-color var(--transition), background var(--transition), color var(--transition);
+}
+.node-chip:hover, .node-chip:focus-visible {
+  border-color: var(--c-accent);
+  background: var(--c-surface-2);
+  text-decoration-style: solid;
+  outline: none;
+}
+.chip-row { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: center; }
 
 /* resolve trace — a thin chip line. */
 .resolve-line { font-size: var(--fs-small); color: var(--c-text-dim); }
+.resolve-line + .resolve-line { margin-top: var(--sp-1); }
 .resolve-line code { font-family: var(--font-mono); color: var(--c-accent-soft); font-size: 0.85em; }
+.resolve-phrase { font-family: var(--font-prose); font-style: italic; color: var(--c-text-dim); margin-bottom: var(--sp-2); }
+.resolve-meta { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); }
+
+/* ---- Passages consulted (search_quotes receipts) --------------------------- */
+.search-hit { margin-top: var(--sp-3); }
+.search-hit:first-of-type { margin-top: var(--sp-2); }
+.search-hit-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--sp-2); }
+.search-hit .bookquote { margin-top: var(--sp-1); }
+.search-blurb {
+  margin: var(--sp-1) 0 0;
+  color: var(--c-text-dim);
+  font-size: var(--fs-small);
+  line-height: 1.55;
+}
 
 /* ===== The family tree — a generational ladder of the lineage ============== */
 .ft-card { background: var(--c-surface); border-color: var(--c-border); }
@@ -528,9 +608,7 @@ body.tree-modal-open { overflow: hidden; }
 .chain-header { margin-bottom: var(--sp-2); }
 .chain-title { font-family: var(--font-prose); font-weight: 500; font-size: 1.15rem; margin: 0; }
 .chain-sub { font-size: var(--fs-cite); color: var(--c-text-faint); margin: 2px 0 0; }
-/* Affordance: tell the reader the spine nodes are openable (Matt: unclear what's clickable). */
-.chain-hint { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-accent-soft); margin: var(--sp-1) 0 0; opacity: 0.8; }
-.chain-hint::before { content: "▸ "; }
+/* (The per-card "click any node" hint retired S194 — the rail header carries it.) */
 
 .chain-card { background: var(--c-bg); }
 
@@ -559,9 +637,15 @@ body.tree-modal-open { overflow: hidden; }
   border-radius: var(--radius); padding: var(--sp-2) var(--sp-3);
   cursor: pointer; transition: var(--transition);
 }
-.spine-node:hover, .spine-node:focus-visible { border-color: var(--c-accent); outline: none; }
+.spine-node:hover, .spine-node:focus-visible { border-color: var(--c-accent); background: var(--c-surface-2); outline: none; }
 .node-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--sp-1) var(--sp-2); }
-.spine-node .node-name { font-family: var(--font-prose); font-size: var(--fs-body); color: var(--c-text); line-height: 1.25; }
+.spine-node .node-name {
+  font-family: var(--font-prose); font-size: var(--fs-body); color: var(--c-text); line-height: 1.25;
+  /* Same "this opens a record" signal the node chips carry (S194 affordance). */
+  text-decoration: underline dotted var(--c-accent-soft);
+  text-underline-offset: 3px;
+}
+.spine-node:hover .node-name, .spine-node:focus-visible .node-name { text-decoration-style: solid; }
 .node-type { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint); letter-spacing: 0.03em; }
 .node-degree { font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-accent-soft); }
 .spine-node.hub { border-color: var(--c-accent); background: var(--c-surface-2); }
@@ -669,19 +753,6 @@ body.dossier-open { overflow: hidden; }
   border-radius: 999px;
   padding: 1px var(--sp-2);
 }
-.edge-arrow { color: var(--c-text-faint); }
-.link-evidence {
-  margin: var(--sp-2) 0 var(--sp-2) var(--sp-1);
-  padding: var(--sp-2) var(--sp-3);
-  background: var(--c-surface);
-  border-radius: var(--radius-sm);
-}
-.link-evidence .quote {
-  font-family: var(--font-prose);
-  font-style: italic;
-  color: var(--c-text-dim);
-  font-size: var(--fs-small);
-}
 .cite {
   display: inline-block;
   margin-top: var(--sp-2);
@@ -689,21 +760,15 @@ body.dossier-open { overflow: hidden; }
   font-size: var(--fs-cite);
   color: var(--c-text-faint);
 }
-.tier-badge {
-  font-family: var(--font-mono);
-  font-size: var(--fs-cite);
-  color: var(--c-text-faint);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-sm);
-  padding: 0 var(--sp-1);
-}
 
 /* node-quote container inside a read_node / dossier card */
 .quotes { display: flex; flex-direction: column; gap: var(--sp-3); margin-top: var(--sp-3); }
 
-/* Narrative-arc prose in the dossier (query-layer step 6c — fetched from the
-   per-node static asset; absent when the node has none, see node.ts/narrativeArcSection). */
+/* Narrative-arc + extra body-section prose in the dossier (fetched from the
+   per-node static asset; absent when the node has none — see node.ts, and
+   app.js narrativeArcSection/proseSection). */
 .dossier-arc { margin-top: var(--sp-4); }
+.dossier-arc .arc-text + .arc-text { margin-top: var(--sp-2); }
 .arc-block { margin-top: var(--sp-2); }
 .arc-heading {
   font-family: var(--font-mono); font-size: var(--fs-cite); color: var(--c-text-faint);
@@ -717,8 +782,8 @@ body.dossier-open { overflow: hidden; }
 .bookquote { display: block; margin: var(--sp-2) 0 0; }
 .bookquote .bq-text { font-family: var(--font-prose); font-style: italic; color: var(--c-text-dim); font-size: var(--fs-small); line-height: 1.55; }
 .bookquote .bq-attr { display: block; margin-top: var(--sp-1); font-family: var(--font-ui); font-style: normal; font-size: var(--fs-cite); color: var(--c-text-faint); }
-/* dossier + neighbour cards carry the accent rail (the old quote-row look) */
-.quotes .bookquote, .link-evidence .bookquote { border-left: 2px solid var(--c-accent-deep); padding-left: var(--sp-3); }
+/* dossier + search-hit cards carry the accent rail (the old quote-row look) */
+.quotes .bookquote, .search-hit .bookquote { border-left: 2px solid var(--c-accent-deep); padding-left: var(--sp-3); }
 /* In Bloodraven's answer the quote is a pull-quote — its own line, brighter, larger. */
 .msg.bot .bubble .bookquote {
   border-left: 2px solid var(--c-accent-deep);
@@ -727,10 +792,42 @@ body.dossier-open { overflow: hidden; }
 }
 .msg.bot .bubble .bookquote .bq-text { font-size: 1.02rem; color: var(--c-text); font-style: italic; }
 
-/* neighbors grouping */
-.neigh-group { margin-top: var(--sp-2); }
+/* ---- Prose entity links (S194 tier 1) — a tool-surfaced name in the answer
+   opens its dossier. Styled as marked-up TEXT, not a button: the prose keeps
+   its reading rhythm, the dotted accent underline is the shared signal. */
+.prose-link {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline dotted var(--c-accent-soft);
+  text-underline-offset: 3px;
+  transition: color var(--transition);
+}
+.prose-link:hover, .prose-link:focus-visible {
+  color: var(--c-accent-soft);
+  text-decoration-style: solid;
+  outline: none;
+}
+
+/* ---- Connections (neighbors) — unified on the chip + visible-evidence
+   pattern (S194; the ▶ disclosure rows are retired). Each row: the connected
+   node as a dossier chip, evidence beneath it exactly as the spine shows it. */
+/* Bounded like the chain spine — a well-connected node (100+ edges) scrolls
+   inside its card instead of swallowing the whole rail. */
+.neigh-card { max-height: 62vh; overflow-y: auto; }
+.neigh-card .neigh-group { margin-top: var(--sp-3); }
 .neigh-group > .edge-label { margin-bottom: var(--sp-1); }
-.chain.spine { display: flex; flex-direction: column; gap: var(--sp-1); margin-top: var(--sp-2); }
+.neigh-rows { display: flex; flex-direction: column; gap: var(--sp-2); margin-top: var(--sp-2); }
+.neigh-row {
+  border-left: 2px solid var(--et-color, var(--c-edge-default));
+  padding: var(--sp-1) 0 var(--sp-1) var(--sp-3);
+  margin-left: var(--sp-1);
+}
+.neigh-row-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--sp-2); }
+.neigh-row .bookquote { margin-top: var(--sp-1); }
 
 /* ---- Status / failure-mode lines ------------------------------------------ */
 .status-line {

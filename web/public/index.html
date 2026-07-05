@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Weirwood Network</title>
   <meta name="description" content="A book-grounded ASOIAF loremaster, standing on a hand-built knowledge graph." />
-  <link rel="stylesheet" href="/theme/tokens.css?v=185c" />
-  <link rel="stylesheet" href="/app.css?v=185c" />
+  <link rel="stylesheet" href="/theme/tokens.css?v=194" />
+  <link rel="stylesheet" href="/app.css?v=194" />
 </head>
 <body class="landing">
   <!-- Weirwood backdrop tree removed for now (Matt preferred an earlier look);
@@ -33,36 +33,44 @@
     <button class="about-back" id="about-back" type="button">← Back to the chat</button>
     <h2 class="about-title">What is the Weirwood Network?</h2>
     <p class="intro-lead">
-      A book-grounded loremaster for <em>A Song of Ice and Fire</em>. Ask a question
-      and it answers in the voice of an old record-keeper — dropping the real lines
-      from the books with their chapter citations, and showing the
-      <strong>typed chain of cause and consequence</strong> it walked through the
-      knowledge graph to get there. It does not bluff: every claim traces to the
-      graph or the books.
+      A book-grounded researcher for <em>A Song of Ice and Fire</em>. Ask a question
+      and it answers from a hand-built knowledge graph — dropping the real lines
+      from the books with <strong>citations you can trace to a chapter and
+      line</strong>, and showing every graph lookup it made to get there. It does
+      not bluff: a claim it cannot ground goes unanswered rather than invented.
     </p>
     <div class="intro-body">
       <p>
         The Weirwood Network is a hand-built knowledge graph of the ASOIAF books:
-        <strong>~8,500 typed nodes</strong> (characters, events, places, houses,
-        artifacts) joined by <strong>~23,000 typed edges</strong>
+        <strong>~8,700 typed nodes</strong> (characters, events, places, houses,
+        artifacts, foods, songs) joined by <strong>~23,300 typed edges</strong>
         (<span class="et et-causes">CAUSES</span>,
         <span class="et et-triggers">TRIGGERS</span>,
         <span class="et et-motivates">MOTIVATES</span>,
         <span class="et et-enables">ENABLES</span>, and more).
       </p>
       <p>
-        Every node and edge carries a <strong>confidence tier</strong> — Tier&nbsp;1
-        is a verbatim book line with a <code>chapter:line</code> citation; Tier&nbsp;2
-        is sourced from the wiki; higher tiers are interpretive. That gap is
-        load-bearing: the loremaster quotes only what the graph can cite.
+        <strong>Provenance is the point.</strong> Every node and edge carries a
+        confidence tier — Tier&nbsp;1 is a verbatim book line with a navigable
+        <code>chapter:line</code> citation, hand-verified against the source text;
+        Tier&nbsp;2 is sourced from the wiki; higher tiers are interpretive. More
+        than 1,600 nodes carry curated book quotes, each one extracted verbatim
+        from the chapter it cites.
       </p>
       <p>
-        When you ask a question, an agent <em>resolves</em> your phrase to a node,
-        <em>reads</em> it, and <em>walks</em> the causal chain or its neighbours —
-        then narrates what it found. The <strong>“chain walked” panel</strong> beside
-        the answer is rendered straight from that typed graph traversal, not scraped
-        from the prose. That is the proof there is a real graph underneath, not a
+        When you ask a question, an agent works the graph with typed tools — it
+        <em>resolves</em> names, <em>reads</em> nodes, <em>walks</em> causal
+        chains, traces <em>family trees</em>, <em>searches</em> the quote layer,
+        and <em>browses</em> whole categories and curated themes (meals &amp;
+        feasts, hospitality, songs &amp; tales…). The receipts panel beside the
+        answer is rendered straight from those tool returns, never scraped from
+        the prose — that is the proof there is a real graph underneath, not a
         model freestyling.
+      </p>
+      <p>
+        A citation gate closes the loop: the answer may only cite lines the tools
+        actually returned this turn. A citation that cannot be verified is flagged
+        rather than shown as canon.
       </p>
     </div>
   </section>
@@ -88,9 +96,9 @@
     </section>
 
     <!-- The receipts column: the chain walked (the deduped spine) + supporting
-         receipts (resolve / neighbors). Rendered from structured tool returns,
-         never scraped from the prose (design §3). -->
-    <aside class="receipts-col" aria-label="The chain walked">
+         receipts (search / theme / list / neighbors / resolve). Rendered from
+         structured tool returns, never scraped from the prose (design §3). -->
+    <aside class="receipts-col" aria-label="How this was answered">
       <div class="receipts" id="receipts"><!-- receipt cards injected here --></div>
     </aside>
   </main>
@@ -107,6 +115,6 @@
        same descendant chart here, full-size. Hidden until opened. -->
   <div class="dossier-overlay ft-modal-overlay" id="tree-modal" hidden></div>
 
-  <script src="/app.js?v=185c" type="module"></script>
+  <script src="/app.js?v=194" type="module"></script>
 </body>
 </html>

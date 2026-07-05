@@ -280,7 +280,8 @@ export const TOOL_DEFS = [
       properties: {
         type: {
           type: "string",
-          description: 'The node category to browse (the graph/nodes/ type-directory name, e.g. "foods", "customs", "characters").',
+          description:
+            'The node category to browse (the graph/nodes/ type-directory name, e.g. "foods", "customs", "characters").',
         },
         has_quotes: {
           type: "boolean",
@@ -292,7 +293,8 @@ export const TOOL_DEFS = [
         },
         offset: {
           type: "number",
-          description: "Optional: skip this many rows (call again with a higher offset to page further).",
+          description:
+            "Optional: skip this many rows (call again with a higher offset to page further).",
         },
       },
       required: ["type"],
@@ -474,6 +476,12 @@ export function harvestResult(
       }
     }
   }
+
+  // list_nodes / theme → { items: [{ slug, type, name }] }. A row listing IS
+  // the grounding for a survey answer ("what kinds of X exist"), even though
+  // rows carry no citable lines — without this a list/theme-only turn answers
+  // fine but still mislabels as no-grounding ("no scene here", S194 fix).
+  if (Array.isArray(r.items)) grounding += (r.items as unknown[]).length;
 
   return grounding;
 }
@@ -691,9 +699,7 @@ export async function runAgent(
       const out = dispatchTool(tu.name, tu.input, tools);
       const outcome = outcomeFor(tu.name, out);
       toolTrace.push(
-        outcome
-          ? { tool: tu.name, input: tu.input, outcome }
-          : { tool: tu.name, input: tu.input },
+        outcome ? { tool: tu.name, input: tu.input, outcome } : { tool: tu.name, input: tu.input },
       );
       grounding += harvestResult(out, validCites);
       emit("receipt", { tool: tu.name, input: tu.input, result: out });

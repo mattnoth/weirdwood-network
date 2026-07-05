@@ -24,7 +24,11 @@
   # theme-index.json. Before S191 only the core bundle was rebuilt here; the two
   # index files shipped whatever happened to sit in the local working tree
   # (the search/list/theme tools would go stale — or break on a clean checkout).
-  command = "python3 graph/query/build/build_chat_bundle.py --built-at \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" && python3 graph/query/build/build_search_index.py && python3 graph/query/build/build_theme_index.py"
+  # S194: + build_node_assets.py — the per-node dossier assets (web/public/node/,
+  # gitignored) now also regenerate at build time, so a clean checkout deploys
+  # complete dossiers (narrative arc + body sections), not whatever the local
+  # working tree happened to hold.
+  command = "python3 graph/query/build/build_chat_bundle.py --built-at \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" && python3 graph/query/build/build_search_index.py && python3 graph/query/build/build_theme_index.py && python3 graph/query/build/build_node_assets.py --clean"
 
 # The chat endpoint. The browser POSTs here; the function holds ANTHROPIC_API_KEY
 # server-side and streams the reply back. (Implemented in the function chunk.)

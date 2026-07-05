@@ -52,6 +52,25 @@ function pretty(slug) {
   return s ? s[0].toUpperCase() + s.slice(1) : "—";
 }
 
+/** Title-case a kebab slug for a name-less chip ("death-of-joffrey-baratheon" →
+ *  "Death of Joffrey Baratheon"): most nodes are proper nouns, so every word
+ *  capitalizes except the little connectives. */
+const SMALL_WORDS = new Set(["of", "the", "at", "in", "and", "a", "an", "on", "to", "for", "by"]);
+function prettyTitle(slug) {
+  const words = String(slug || "").split("-").filter(Boolean);
+  if (!words.length) return "—";
+  return words
+    .map((w, i) => (i > 0 && SMALL_WORDS.has(w) ? w : w[0].toUpperCase() + w.slice(1)))
+    .join(" ");
+}
+
+/** Best display name for a slug: what a tool already told us this turn (the
+ *  entity map carries real node names), else the title-cased slug. */
+function bestName(slug) {
+  const known = turn.entities.get(slug);
+  return known && known !== pretty(slug) ? known : prettyTitle(slug);
+}
+
 /** A cite token or chapter file path → a short human chapter label:
  *  "sources/chapters/asos/asos-arya-11.md:51" → "ASOS Arya 11". The chapter file
  *  name is `{book}-{pov}-{number}.md`; drop the path, the `.md`, and the line
@@ -101,6 +120,19 @@ function isWikiBoilerplate(identity) {
 function prettyType(t) {
   const s = String(t || "").trim();
   return s ? s.replace(/[._]/g, " · ") : "";
+}
+
+/** THE clickable-node atom (S194): one chip = one graph node, and clicking it
+ *  opens the node's dossier — the same interaction the chain spine and family
+ *  tree use, now shared by the search/list/theme/neighbors cards too. The chip
+ *  carries the "openable" affordance (accent underline + hover) in CSS. */
+function nodeChip(slug, name, type) {
+  return el("button", {
+    class: "node-chip", type: "button",
+    dataset: { slug },
+    title: type ? prettyType(type) : "open this node",
+    onclick: () => openDossier(slug, name),
+  }, name || pretty(slug));
 }
 
 // Normalize a typed-edge link from EITHER the live walk_chain/neighbors shape
@@ -168,7 +200,15 @@ function freshTurn() {
   // upstream/downstream are kept SEPARATE (rendered as "what led to this" vs "what
   // followed") so a downstream consequence can never surface among the causes;
   // chainLinks is their union, used only for the degree badges + has-chain checks.
-  return { chainLinks: [], upstream: [], downstream: [], enables: [], nodes: new Map(), resolves: [], neighbors: [], familyTrees: [], title: "", querySlug: null };
+  // entities is the turn's slug→name map, fed by EVERY tool receipt — it drives
+  // the post-stream prose entity-linking pass (S194, tier 1: client-only).
+  return {
+    chainLinks: [], upstream: [], downstream: [], enables: [],
+    nodes: new Map(), resolves: [], neighbors: [], familyTrees: [],
+    searches: [], lists: [], themes: [],
+    entities: new Map(),
+    title: "", querySlug: null,
+  };
 }
 
 // The last turn that produced a chain. The featured chain persists across a
@@ -178,6 +218,16 @@ let lastGoodChain = null;
 
 function addNode(slug, rec) {
   if (slug && rec) turn.nodes.set(slug, rec);
+}
+
+/** Register a slug the tools surfaced this turn (for prose entity-linking).
+ *  A real display name beats a slug-prettified fallback if both arrive. */
+function addEntity(slug, name) {
+  if (!slug) return;
+  const prior = turn.entities.get(slug);
+  if (!prior || (name && prior === pretty(slug))) {
+    turn.entities.set(slug, name || pretty(slug));
+  }
 }
 
 // ---- Quote / evidence atoms ------------------------------------------------
@@ -294,14 +344,22 @@ function narrativeArcSection(node) {
   ]);
 }
 
-function edgeEvidence(l) {
-  const body = [];
-  if (l.quote) body.push(bookQuote(l.quote, null, l.ref));
-  else if (l.ref) body.push(el("span", { class: "cite" }, prettyCite(l.ref)));
-  if (l.tier != null) body.push(el("span", { class: "tier-badge" }, `Tier ${l.tier}`));
-  return body.length
-    ? el("div", { class: "link-evidence" }, body)
-    : el("div", { class: "link-evidence" }, el("span", { class: "cite" }, "no evidence quote on this edge"));
+/** Render one of the node's extra prose sections (Origins, Appearances &
+ *  Description, Culture, Aftermath, ... — shipped by the per-node static asset,
+ *  S194). Paragraph-split on blank lines AND on bullet-line starts so a run of
+ *  `- (cite) note` overlay bullets doesn't collapse into one wall of text;
+ *  cleanQuote gives each paragraph the same wiki-markup/cite cleanup the
+ *  curated quotes get. */
+function proseSection(heading, text) {
+  const paras = String(text || "")
+    .split(/\n\s*\n|\n(?=- )/)
+    .map((p) => cleanQuote(p))
+    .filter(Boolean);
+  if (!paras.length) return false;
+  return el("div", { class: "dossier-arc" }, [
+    el("div", { class: "dossier-sub" }, heading),
+    ...paras.map((p) => el("p", { class: "arc-text" }, p)),
+  ]);
 }
 
 function edgePill(edgeType) {
@@ -342,10 +400,11 @@ function degreeMap(rawLinks) {
 }
 
 function chainHeader(chainTurn) {
+  // The per-card "click any node" hint retired S194 — the rail header now
+  // carries that affordance once for every card.
   return el("div", { class: "chain-header" }, [
     el("h2", { class: "chain-title" }, "The chain walked"),
     chainTurn.title ? el("p", { class: "chain-sub" }, chainTurn.title) : false,
-    el("p", { class: "chain-hint" }, "click any node to open its record"),
   ]);
 }
 
@@ -545,6 +604,9 @@ async function openDossier(slug, fallbackName) {
         node.quotes && node.quotes.length
           ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
           : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet."),
+        // The node's fuller record (S194): every reader-facing body section the
+        // graph holds for it, then the narrative arc last (it's the longest).
+        ...(Array.isArray(node.sections) ? node.sections : []).map((s) => proseSection(s.heading, s.text)),
         narrativeArcSection(node),
       ];
     }
@@ -559,36 +621,125 @@ async function openDossier(slug, fallbackName) {
 dossierEl.addEventListener("click", (e) => { if (e.target === dossierEl) closeDossier(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !dossierEl.hidden) closeDossier(); });
 
-// ---- Supporting receipts (resolve / neighbors) into the sidebar ------------
+// ---- Supporting receipts (resolve / search / list / theme / neighbors) -----
 
-function resolveCard(phrase, cands) {
-  const top = (cands || []).slice(0, 3).map((c) =>
-    el("div", { class: "resolve-line" }, [el("code", {}, c.slug), ` · ${c.category}${c.matchType ? ` (${c.matchType})` : ""}`]));
-  return el("div", { class: "card" }, [
-    el("div", { class: "card-kind" }, [el("span", { class: "glyph" }, "⌕"), "resolve"]),
-    el("div", { class: "resolve-line" }, [`“${phrase}” →`]),
-    top.length ? top : el("div", { class: "resolve-line" }, "no match"),
+/** Every receipt card opens with the same header line: a glyph, the tool kind,
+ *  and an optional right-aligned count — one visual grammar for the rail. */
+function cardKind(glyph, kind, count) {
+  return el("div", { class: "card-kind" }, [
+    el("span", { class: "glyph" }, glyph),
+    kind,
+    count ? el("span", { class: "kind-count" }, count) : false,
   ]);
 }
 
+function resolveCard(phrase, cands) {
+  const top = (cands || []).slice(0, 3).map((c) =>
+    el("div", { class: "resolve-line" }, [
+      nodeChip(c.slug, bestName(c.slug), c.category),
+      el("span", { class: "resolve-meta" }, ` ${c.category}${c.matchType === "fuzzy" ? " · fuzzy" : ""}`),
+    ]));
+  return el("div", { class: "card" }, [
+    cardKind("⌕", "name lookup"),
+    el("div", { class: "resolve-line resolve-phrase" }, `“${phrase}”`),
+    top.length ? top : el("div", { class: "resolve-line" }, "no match in the graph"),
+  ]);
+}
+
+// The passages a search_quotes call surfaced — the "sources consulted" card.
+// Each hit is a curated book quote (rendered as the same bookQuote used
+// everywhere) or a node identity blurb (plain, no quote marks), headed by the
+// node it lives on as a dossier chip.
+const SEARCH_CARD_CAP = 6;
+function searchCard(s) {
+  const hits = s.hits.slice(0, SEARCH_CARD_CAP);
+  const rows = hits.map((h) =>
+    el("div", { class: "search-hit" }, [
+      el("div", { class: "search-hit-head" }, [
+        nodeChip(h.slug, bestName(h.slug), h.type),
+        h.type ? el("span", { class: "node-type" }, prettyType(h.type)) : false,
+      ]),
+      h.text
+        ? (h.cite
+          ? bookQuote(h.text, null, h.cite)
+          : el("p", { class: "search-blurb" }, cleanQuote(h.text)))
+        : false,
+    ]));
+  const more = s.hits.length - hits.length;
+  return el("div", { class: "card" }, [
+    cardKind("❝", "passages consulted", `${s.hits.length} hit${s.hits.length === 1 ? "" : "s"}`),
+    s.query ? el("div", { class: "resolve-line resolve-phrase" }, `“${s.query}”`) : false,
+    rows.length ? rows : el("div", { class: "resolve-line" }, "nothing matched in the quote layer"),
+    more > 0 ? el("div", { class: "card-more" }, `+${more} more shown to the answerer`) : false,
+  ]);
+}
+
+/** A wrap of node chips — the shared body of the list/theme cards. */
+function chipRow(items) {
+  return el("div", { class: "chip-row" }, (items || []).map((it) => nodeChip(it.slug, it.name, it.type)));
+}
+
+function listCard(result) {
+  const items = result.items || [];
+  const shown = items.length;
+  const count = result.total > shown ? `${shown} of ${result.total}` : `${shown}`;
+  return el("div", { class: "card" }, [
+    cardKind("☰", `the ${pretty(result.category).toLowerCase()} shelf`, count),
+    shown ? chipRow(items) : el("div", { class: "resolve-line" }, "no nodes in this category"),
+    result.truncated ? el("div", { class: "card-more" }, "…and more in the graph") : false,
+  ]);
+}
+
+function themeCard(result) {
+  if (result.error) {
+    return el("div", { class: "card" }, [
+      cardKind("❖", "theme"),
+      el("div", { class: "resolve-line" }, `“${result.theme}” is not a curated theme.`),
+      result.knownThemes?.length
+        ? el("div", { class: "card-more" }, `known: ${result.knownThemes.join(" · ")}`)
+        : false,
+    ]);
+  }
+  const items = result.items || [];
+  const count = result.total > items.length ? `${items.length} of ${result.total}` : `${items.length}`;
+  return el("div", { class: "card" }, [
+    cardKind("❖", `theme · ${result.theme}`, count),
+    items.length ? chipRow(items) : el("div", { class: "resolve-line" }, "no members"),
+    result.truncated ? el("div", { class: "card-more" }, "…and more in the graph") : false,
+  ]);
+}
+
+// Neighbors: every connected node is a dossier chip (same interaction as the
+// chain spine / family tree — the ▶ disclosure rows are retired, S194), grouped
+// by edge type, with the edge evidence shown the same way the spine shows it:
+// quote + cite visible under the row, never folded away.
 function neighborsCard(result) {
   const groups = [];
   for (const [dir, mark] of [["outgoing", "→"], ["incoming", "←"]]) {
     for (const [type, links] of Object.entries(result[dir] || {})) {
       groups.push(el("div", { class: "neigh-group" }, [
         el("span", { class: `edge-label ${etClass(type)}` }, `${mark} ${type}`),
-        el("div", { class: "chain spine" }, (links || []).map((lk) => {
+        el("div", { class: "neigh-rows" }, (links || []).map((lk) => {
           const l = normLink(lk);
-          return el("details", { class: `spine-edge ${etClass(l.edgeType)}` }, [
-            el("summary", {}, [el("span", { class: "node-name" }, l.target || l.source)]),
-            edgeEvidence(l),
+          const otherSlug = dir === "outgoing" ? l.targetSlug : l.sourceSlug;
+          const otherName = dir === "outgoing" ? l.target : l.source;
+          const otherType = dir === "outgoing" ? l.targetType : l.sourceType;
+          return el("div", { class: `neigh-row ${etClass(l.edgeType)}` }, [
+            el("div", { class: "neigh-row-head" }, [
+              nodeChip(otherSlug, otherName, otherType),
+              l.tier != null ? el("span", { class: "tier-inline" }, "Tier " + l.tier) : false,
+            ]),
+            l.quote
+              ? bookQuote(l.quote, null, l.ref)
+              : (l.ref ? el("span", { class: "spine-cite" }, prettyCite(l.ref)) : false),
           ]);
         })),
       ]));
     }
   }
-  return el("div", { class: "card" }, [
-    el("div", { class: "card-kind" }, [el("span", { class: "glyph" }, "✦"), "neighbors"]),
+  const counts = `${result.outgoingCount ?? 0} out · ${result.incomingCount ?? 0} in`;
+  return el("div", { class: "card neigh-card" }, [
+    cardKind("✦", "connections", counts),
     groups.length ? groups : el("div", { class: "resolve-line" }, "no connections"),
   ]);
 }
@@ -930,19 +1081,31 @@ function renderReceipts() {
   // last good chain — so a failed or chain-less turn never blanks the showpiece.
   const chainTurn = turn.chainLinks.length ? turn : (lastGoodChain || turn);
   const hasChain = chainTurn.chainLinks.length > 0;
+  // Evidence-rich cards first (passages), then the browse cards (theme/list),
+  // then connections; the thin name-lookup traces close the rail.
   const supporting = [
-    ...turn.resolves.map((r) => resolveCard(r.phrase, r.cands)),
+    ...turn.searches.map((s) => searchCard(s)),
+    ...turn.themes.map((t) => themeCard(t)),
+    ...turn.lists.map((l) => listCard(l)),
     ...turn.neighbors.map((n) => neighborsCard(n)),
+    ...turn.resolves.map((r) => resolveCard(r.phrase, r.cands)),
   ];
 
   receiptsEl.replaceChildren();
+  const anything = hasChain || supporting.length > 0 || turn.familyTrees.length > 0;
+  if (anything) {
+    receiptsEl.append(el("div", { class: "rail-head" }, [
+      el("span", { class: "rail-title" }, "How this was answered"),
+      el("span", { class: "rail-sub" }, "live graph lookups — click any name"),
+    ]));
+  }
   // A family tree is the star of a lineage query — render it above the spine.
   for (const ft of turn.familyTrees) receiptsEl.append(familyTreeCard(ft));
   if (hasChain) renderSpine(chainTurn);
   for (const card of supporting) receiptsEl.append(card);
-  if (!hasChain && supporting.length === 0 && turn.familyTrees.length === 0) {
+  if (!anything) {
     receiptsEl.append(el("p", { class: "receipts-empty" },
-      walking ? "walking the graph…" : "Ask a question — the chain of cause and consequence it walks appears here."));
+      walking ? "walking the graph…" : "Ask a question — the graph lookups behind the answer appear here."));
   }
 }
 
@@ -1008,6 +1171,69 @@ function scrollIn() {
   threadEl.lastElementChild?.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
+// ---- Prose entity-linking (S194, tier 1: client-only) -----------------------
+//
+// After a turn's stream completes, entity names the TOOLS surfaced this turn
+// (turn.entities — fed by every receipt) become dossier buttons inside the
+// answer prose. Wiki convention: first occurrence per entity only, so the prose
+// doesn't turn into a wall of links. Quote blocks are left untouched (a name
+// inside a book line stays book text). Purely client-side — no server or
+// prompt changes; a name the tools never returned is never linked.
+
+function escapeRe(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function linkEntities(bubbleEl) {
+  if (!turn.entities.size || !bubbleEl?.isConnected) return;
+  // Longest names first so "Jon Connington" wins over a bare "Jon".
+  const pairs = [...turn.entities.entries()]
+    .map(([slug, name]) => ({ slug, name: String(name).trim() }))
+    .filter((p) => p.name.length >= 4)
+    .sort((a, b) => b.name.length - a.name.length);
+  if (!pairs.length) return;
+  // Case-insensitive scan (+ optional plural "s" — "lemon cakes" still finds
+  // Lemon cake); single-word proper names are then re-checked case-SENSITIVELY
+  // so a character named "Will" never claims the verb "will".
+  const re = new RegExp(`\\b(${pairs.map((p) => escapeRe(p.name)).join("|")})(s?)\\b`, "gi");
+  const byName = new Map(pairs.map((p) => [p.name.toLowerCase(), p]));
+  const linked = new Set();
+
+  const walker = document.createTreeWalker(bubbleEl, NodeFilter.SHOW_TEXT, {
+    acceptNode: (n) =>
+      n.parentElement?.closest(".bookquote, .prose-link, button")
+        ? NodeFilter.FILTER_REJECT
+        : NodeFilter.FILTER_ACCEPT,
+  });
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+  for (const tn of textNodes) {
+    const text = tn.nodeValue;
+    let m, last = 0, frag = null;
+    re.lastIndex = 0;
+    while ((m = re.exec(text)) !== null) {
+      const matched = m[1] + m[2];
+      const pair = byName.get(m[1].toLowerCase());
+      if (!pair || linked.has(pair.slug)) continue;
+      if (!pair.name.includes(" ") && m[1] !== pair.name) continue; // single word: exact case only
+      linked.add(pair.slug);
+      const { slug, name } = pair;
+      frag = frag || document.createDocumentFragment();
+      frag.append(document.createTextNode(text.slice(last, m.index)));
+      frag.append(el("button", {
+        class: "prose-link", type: "button", title: "open this node",
+        onclick: () => openDossier(slug, name),
+      }, matched));
+      last = m.index + m[0].length;
+    }
+    if (frag) {
+      frag.append(document.createTextNode(text.slice(last)));
+      tn.replaceWith(frag);
+    }
+  }
+}
+
 // ---- Status / failure-mode UX (design §9) ----------------------------------
 
 const STATUS_UX = {
@@ -1070,10 +1296,15 @@ function ingestReceipt({ tool, input, result }) {
   switch (tool) {
     case "resolve":
       turn.resolves.push({ phrase: input?.phrase ?? "", cands: Array.isArray(result) ? result : [] });
+      for (const c of Array.isArray(result) ? result : []) addEntity(c.slug);
       break;
-    case "read_node":
-      if (result) addNode(input?.slug ?? result.slug ?? result.name, result);
+    case "read_node": {
+      if (!result) break;
+      const slug = input?.slug ?? result.slug ?? result.name;
+      addNode(slug, result);
+      addEntity(slug, result.name);
       break;
+    }
     case "walk_chain":
       if (result) {
         if (result.slug) turn.querySlug = result.slug;
@@ -1085,13 +1316,52 @@ function ingestReceipt({ tool, input, result }) {
         turn.downstream.push(...down);
         turn.chainLinks.push(...up, ...down);
         if (Array.isArray(result.enables)) turn.enables = result.enables;
+        for (const raw of [...up, ...down, ...(result.enables || [])]) {
+          const l = normLink(raw);
+          addEntity(l.sourceSlug, l.source);
+          addEntity(l.targetSlug, l.target);
+        }
       }
       break;
     case "neighbors":
-      if (result) turn.neighbors.push(result);
+      if (result) {
+        turn.neighbors.push(result);
+        for (const dir of ["outgoing", "incoming"]) {
+          for (const links of Object.values(result[dir] || {})) {
+            for (const raw of links || []) {
+              const l = normLink(raw);
+              addEntity(l.sourceSlug, l.source);
+              addEntity(l.targetSlug, l.target);
+            }
+          }
+        }
+      }
       break;
     case "family_tree":
-      if (result && Array.isArray(result.members) && result.members.length) turn.familyTrees.push(result);
+      if (result && Array.isArray(result.members) && result.members.length) {
+        turn.familyTrees.push(result);
+        for (const m of result.members) if (m.hasNode) addEntity(m.slug, m.name);
+      }
+      break;
+    case "search_quotes": {
+      const hits = Array.isArray(result) ? result : [];
+      turn.searches.push({ query: input?.query ?? "", hits });
+      for (const h of hits) addEntity(h.slug);
+      break;
+    }
+    case "list_nodes":
+      if (result && Array.isArray(result.items)) {
+        turn.lists.push(result);
+        for (const it of result.items) addEntity(it.slug, it.name);
+      }
+      break;
+    case "theme":
+      // An unknown theme name returns {theme, error, knownThemes} — still worth a
+      // card (it shows WHY the tool came back empty), so push either shape.
+      if (result) {
+        turn.themes.push(result);
+        for (const it of result.items || []) addEntity(it.slug, it.name);
+      }
       break;
   }
 }
@@ -1161,6 +1431,7 @@ async function ask(question) {
     if (turn.chainLinks.length) lastGoodChain = turn;
     renderReceipts();
     const finalProse = bot.finish();
+    linkEntities(bot.bubbleEl); // post-stream: tool-surfaced names → dossier buttons
     if (answered && finalProse.trim()) {
       history.push({ role: "assistant", content: finalProse });
       while (history.length > MAX_HISTORY) history.shift();

@@ -171,6 +171,22 @@ Deno.test("harvestResult: recovers a cite buried in quote text (cite:null)", () 
   assert.ok(cites.has(buried), "buried cite must enter the allowlist");
 });
 
+Deno.test("harvestResult: list_nodes/theme rows count as grounding (S194)", () => {
+  // A survey turn grounded only by list/theme rows answers fine — it must not
+  // trip the no-grounding "no scene here" status. Rows add grounding, no cites.
+  const cites = new Set<string>();
+  const g = harvestResult(
+    {
+      category: "materials",
+      total: 58,
+      items: [{ slug: "dragonglass", type: "materials", name: "Dragonglass" }],
+    },
+    cites,
+  );
+  assert.equal(g, 1);
+  assert.equal(cites.size, 0);
+});
+
 Deno.test("verifyCites: only out-of-allowlist cites are flagged", () => {
   const valid = new Set(["sources/chapters/asos/asos-sansa-05.md:45"]);
   const prose =
@@ -261,8 +277,10 @@ Deno.test("outcomeFor: resolve exact/fuzzy/miss + search_quotes hit/miss shapes"
 
   const searchMiss = outcomeFor("search_quotes", tools.searchQuotes("zzzznonsensequery"));
   assert.deepEqual(searchMiss, { matchType: "miss", topSlug: null, resultCount: 0, slugs: [] });
-  assert.ok(Array.isArray(searchHit?.slugs) && searchHit!.slugs!.length > 0,
-    "search hit carries a compact slugs inventory");
+  assert.ok(
+    Array.isArray(searchHit?.slugs) && searchHit!.slugs!.length > 0,
+    "search hit carries a compact slugs inventory",
+  );
 });
 
 Deno.test("outcomeFor: S191 full coverage — every tool call logs an outcome", () => {
