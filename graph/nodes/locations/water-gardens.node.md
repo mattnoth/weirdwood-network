@@ -90,4 +90,8 @@ Origin narrated by Doran to Ser Balon Swann: "One of my ancestors had them built
 
 ## Quotes
 
+> Cool breezes, sparkling water, and the laughter of children. The Water Gardens are my favorite place in this world, ser.
+
+— Doran Martell, ADWD (The Watcher I), `sources/chapters/adwd/adwd-the-watcher-01.md:93`
+
 The Water Gardens are my favorite place in this world.(wiki:Water_Gardens.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)

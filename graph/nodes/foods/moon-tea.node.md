@@ -44,6 +44,10 @@ Grand Maester Pycelle feels that Lord [Mace Tyrell](wiki:Mace_Tyrell) dislikes h
 
 ## Quotes
 
+> Well, I have drunk my moon tea, and you know I cannot marry you.”
+
+— Arianne Martell, AFFC (The Soiled Knight I), `sources/chapters/affc/affc-the-soiled-knight-01.md:141`
+
 If [Ygritte](wiki:Ygritte) does not want a child, she will go to some [woods witch](wiki:Woods_witch) and drink a cup o' moon tea. You do not come into it, once the seed is planted.(wiki:Moon_tea.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 The [riverlands](wiki:Riverlands) are full of maids you've pleased, all drinking tansy tea. You'd think a man as old as you would know to spill his seed on their bellies. Men will be calling you Tom Sevensons before much longer.(wiki:Moon_tea.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 I would have given you a son too, but they murdered him with moon tea, with [tansy](wiki:Tansy_(plant)) and mint and wormwood, a spoon of honey and a drop of [pennyroyal](wiki:Pennyroyal). It wasn't me, I never knew, I only drank what [Father](wiki:Hoster_Tully) gave me...(wiki:Moon_tea.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

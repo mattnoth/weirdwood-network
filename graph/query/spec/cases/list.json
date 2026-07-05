@@ -3,23 +3,52 @@
     "id": "list-customs-has-quotes",
     "op": "list",
     "profile": "both",
-    "input": { "type": "customs", "hasQuotes": true, "limit": 100 },
+    "input": {
+      "type": "customs",
+      "hasQuotes": true,
+      "limit": 100
+    },
     "expect": {
       "mode": "exact",
       "category": "customs",
-      "total": 2,
+      "total": 5,
       "items": [
-        { "slug": "guest-right", "name": "Guest right", "quoteCount": 2 },
-        { "slug": "walk-of-atonement", "name": "Walk of atonement", "quoteCount": 1 }
+        {
+          "slug": "bedding",
+          "name": "Bedding",
+          "quoteCount": 1
+        },
+        {
+          "slug": "cupbearer",
+          "name": "Cupbearer",
+          "quoteCount": 1
+        },
+        {
+          "slug": "guest-right",
+          "name": "Guest right",
+          "quoteCount": 2
+        },
+        {
+          "slug": "harvest-feast",
+          "name": "Harvest feast",
+          "quoteCount": 2
+        },
+        {
+          "slug": "walk-of-atonement",
+          "name": "Walk of atonement",
+          "quoteCount": 1
+        }
       ]
     },
-    "note": "customs (37 nodes total) is a category free of the known duplicate-slug collisions in foods (sweetsleep/peach/porridge/sourleaf each exist as two separate node files under two categories — see the spawned data-hygiene follow-up task); a small, collision-free category makes an exact full-list pin cheap to maintain. Python (list_nodes.py, reads graph/nodes/customs/*.node.md live) and TS (list.ts, reads the bundle's nodes.json category field) agree exactly."
+    "note": "customs (37 nodes total) is a category free of the known duplicate-slug collisions in foods (sweetsleep/peach/porridge/sourleaf each exist as two separate node files under two categories — see the spawned data-hygiene follow-up task); a small, collision-free category makes an exact full-list pin cheap to maintain. Python (list_nodes.py, reads graph/nodes/customs/*.node.md live) and TS (list.ts, reads the bundle's nodes.json category field) agree exactly. Updated S193: the quote-minting slice added curated quotes to bedding, cupbearer, and harvest-feast (2 -> 5 has-quotes customs)."
   },
   {
     "id": "list-unknown-category-returns-empty-not-error",
     "op": "list",
     "profile": "both",
-    "input": { "type": "nonexistent-category-xyz" },
+    "input": {
+      "type": "nonexistent-category-xyz"
+    },
     "expect": {
       "mode": "exact",
       "category": "nonexistent-category-xyz",

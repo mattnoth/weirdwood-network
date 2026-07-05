@@ -31,3 +31,9 @@ Ser [Lancel Lannister](wiki:Lancel_Lannister) sings the song to Queen [Cersei La
 ### A Storm of Swords[ ]
 
 [Marillion](wiki:Marillion) sings "Seasons of My Love" when [Lysa Arryn](wiki:Lysa_Arryn) weds [Petyr Baelish](wiki:Petyr_Baelish) at the [Fingers](wiki:Drearfort).(wiki:The_Seasons_of_My_Love.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Quotes
+
+> Myrish. ‘The Seasons of My Love.’ Sweet and sad, if you understand the words. The first girl I ever bedded used to sing it, and I’ve never been able to put it out of my head.”
+
+— Tyrion Lannister, AGOT (Tyrion VI), `sources/chapters/agot/agot-tyrion-06.md:111`

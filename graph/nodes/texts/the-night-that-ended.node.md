@@ -33,3 +33,9 @@ After the marriage of [Ramsay Bolton](wiki:Ramsay_Snow) and "[Arya Stark](wiki:A
 > "'Give us "The Night That Ended," singer,' he bellowed. 'The bride will like that one, I know. Or sing to us of brave young Danny Flint and make us weep.'"
 
 — Wyman Manderly calling for songs, ADWD The Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:141`) — both "The Night That Ended" and [Brave Danny Flint](brave-danny-flint) called for in the same breath; Wyman's subtext: a song about the Long Night and a song about a girl murdered by her own brothers, at a feast where the "pork pies" he serves contain the missing Freys. The bride will like the Night That Ended = Jeyne Poole, who has lived her own night of horrors.
+
+## Quotes
+
+> “Give us ‘The Night That Ended,’ singer,” he bellowed. “The bride will like that one, I know. Or sing to us of brave young Danny Flint and make us weep.”
+
+— Wyman Manderly, ADWD (The Prince Of Winterfell I), `sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:141`

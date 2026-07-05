@@ -75,3 +75,9 @@ The roof of [Mance Rayder](wiki:Mance_Rayder)'s tent is crowned with a set of a 
 > In the Merman's Court they are eating lamprey pie and venison with roasted chestnuts.
 
 — ADWD (Davos IV), `sources/chapters/adwd/adwd-davos-04.md:93` · Wyman Manderly describing his decoy feast for the Freys.  _(capture: harvest pass, food)_
+
+## Quotes
+
+> In the Merman’s Court they are eating lamprey pie and venison with roasted chestnuts.
+
+— Wyman Manderly, ADWD (Davos IV), `sources/chapters/adwd/adwd-davos-04.md:93`

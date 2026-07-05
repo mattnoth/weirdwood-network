@@ -28,3 +28,9 @@ Jon thinks of the song after discovering that [Mag Mar Tun Doh Weg](wiki:Mag_Mar
 ### A Dance with Dragons[ ]
 
 Jon again thinks of the song while speaking with Ser [Godry Farring](wiki:Godry_Farring), who is now called Godry the Giantslayer after killing a small [giant](wiki:Giant).(wiki:The_Last_of_the_Giants.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Quotes
+
+> Ooooooh, I am the last of the giants, my people are gone from the earth.”
+
+— Ygritte, ASOS (Jon II), `sources/chapters/asos/asos-jon-02.md:159`

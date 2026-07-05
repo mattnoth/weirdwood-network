@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T23:34:13.182310+00:00",
+  "generated_at": "2026-07-05T03:45:56.259745+00:00",
   "entity_type": "locations",
   "dry_run": false,
   "entity_count": 1098,
@@ -101,15 +101,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "storms-end",
-      "name": "Storm's End",
-      "type": "place.location",
-      "appearances_total": 85,
-      "chapters_referenced_in": 65,
-      "in_edge_count": 328,
-      "out_edge_count": 4
-    },
-    {
       "slug": "dorne",
       "name": "Dorne",
       "type": "place.region",
@@ -117,6 +108,15 @@
       "chapters_referenced_in": 63,
       "in_edge_count": 437,
       "out_edge_count": 0
+    },
+    {
+      "slug": "storms-end",
+      "name": "Storm's End",
+      "type": "place.location",
+      "appearances_total": 85,
+      "chapters_referenced_in": 65,
+      "in_edge_count": 328,
+      "out_edge_count": 4
     },
     {
       "slug": "braavos",
@@ -155,15 +155,6 @@
       "out_edge_count": 2
     },
     {
-      "slug": "lys",
-      "name": "Lys",
-      "type": "place.location",
-      "appearances_total": 71,
-      "chapters_referenced_in": 48,
-      "in_edge_count": 242,
-      "out_edge_count": 0
-    },
-    {
       "slug": "lannisport",
       "name": "Lannisport",
       "type": "place.location",
@@ -171,6 +162,15 @@
       "chapters_referenced_in": 50,
       "in_edge_count": 157,
       "out_edge_count": 1
+    },
+    {
+      "slug": "lys",
+      "name": "Lys",
+      "type": "place.location",
+      "appearances_total": 71,
+      "chapters_referenced_in": 48,
+      "in_edge_count": 242,
+      "out_edge_count": 0
     },
     {
       "slug": "pentos",

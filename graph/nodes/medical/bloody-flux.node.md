@@ -44,6 +44,14 @@ In the [Dothraki Sea](wiki:Dothraki_Sea), Daenerys becomes sick with vomiting, d
 
 ## Quotes
 
+> Your Grace, I have known the bloody flux to destroy whole armies when left to spread unchecked.
+
+— Barristan Selmy, ADWD (Daenerys V), `sources/chapters/adwd/adwd-daenerys-05.md:281`
+
+> The bloody flux is everywhere. A hundred die each night.”
+
+— Barristan Selmy, ADWD (Daenerys VI), `sources/chapters/adwd/adwd-daenerys-06.md:43`
+
 Ezzara: We cannot be certain, but it may be that [Meereen](wiki:Meereen) has more to fear than the spears of the [Yunkai'i](wiki:Yunkai'i).
 Galazza: We must pray. The [gods](wiki:Gods) sent this man to us. He comes as a harbinger. He comes as a sign. Daenerys: A sign of what? Galazza: A sign of wroth and ruin.
 She had sent them healers, [Blue Graces](wiki:Blue_Graces) and [spell](wiki:Spell)-singers and barber-surgeons, but some of those had sickened as well, and none of their arts had slowed the galloping progression of the flux that had come on the pale mare. Separating the healthy from the sick had proved impractical as well. Her [Stalwart Shields](wiki:Stalwart_Shields) had tried, pulling husbands away from wives and children from their mothers, even as the [Astapori](wiki:Astapor) wept and kicked and pelted them with stones. A few days later, the sick were dead and the healthy ones were sick. Dividing the one from the other had accomplished nothing.(wiki:Bloody_flux.cite_ref-Radwd36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)

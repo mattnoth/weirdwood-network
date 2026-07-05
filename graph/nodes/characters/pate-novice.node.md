@@ -42,3 +42,13 @@ The alchemist is later revealed (via authorial signalling across AFFC/ADWD) to b
 
 - This node was created manually in Session 41 (2026-05-11) to fill a gap in the wiki crawl. The case-insensitive macOS filesystem collapsed `Pate_(Novice)` and `Pate_(novice)` to the same disk entry; the canonical-lowercase page never landed and the cached entry is just a redirect HTML. The node content here is reconstructed from the AFFC Prologue Pass 1 extraction (`extractions/mechanical/affc/affc-prologue.extraction.md`) rather than from the wiki body, so the prose is thinner than a Stage-1 agent emission. A future re-crawl of `Pate_(novice)` would enable full prose backfill.
 - The dual `KILLED_BY` edges (alchemist + jaqen-hghar) follow the impersonation-redirect rule (memory: `project_impersonation_edges_redirect.md`). Stage 4 SAME_AS work between `alchemist` and `jaqen-hghar` will collapse these naturally.
+
+## Quotes
+
+> Spotted Pate the pig boy was the hero of a thousand ribald stories: a good-hearted, empty-headed lout who always managed to best the fat lordlings, haughty knights, and pompous septons who beset him.
+
+— AFFC (Prologue), `sources/chapters/affc/affc-prologue.md:129`
+
+> But those were stories. In the real world pig boys never fared so well.
+
+— AFFC (Prologue), `sources/chapters/affc/affc-prologue.md:129`

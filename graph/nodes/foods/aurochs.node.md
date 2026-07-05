@@ -54,4 +54,8 @@ During the feast prior to the tourney for a place among the [Brotherhood of Wing
 
 ## Quotes
 
+> There were great joints of aurochs roasted with leeks, venison pies chunky with carrots, bacon, and mushrooms, mutton chops sauced in honey and cloves, savory duck, peppered boar, goose, skewers of pigeon and capon, beef-and-barley stew, cold fruit soup.
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`
+
 Samwell: You never liked Ser [Alliser](wiki:Alliser_Thorne) to call you Aurochs. Grenn: He was saying I was big and stupid. If [Pyp](wiki:Pypar) wanted to call me Aurochs, though, he could. Or you, or [Jon](wiki:Jon_Snow). An aurochs is a fierce strong beast, so that's not so bad, and I am big, and getting bigger. Wouldn't you rather be Sam the Slayer than Ser Piggy?(wiki:Aurochs.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)

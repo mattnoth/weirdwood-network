@@ -29,6 +29,10 @@ After the [Red Wedding](wiki:Red_Wedding), the brotherhood waits for [Merrett Fr
 
 ## Quotes
 
+> “There’s a song,” he remembered. “‘Jenny of Oldstones, with the flowers in her hair.’”
+
+— ASOS (Catelyn V), `sources/chapters/asos/asos-catelyn-05.md:103`
+
 Tom: The same song as before? ghost: Oh, aye. My [Jenny's](wiki:Jenny_of_Oldstones) song. Is there any other?(wiki:Jenny's_song.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 Let [her](wiki:Ghost_of_High_Heart) savor her song in peace. It is all she has left.(wiki:Jenny's_song.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 She always makes me sing the same bloody song. Not a bad song, mind you, but I know others just as good.(wiki:Jenny's_song.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)

@@ -46,3 +46,9 @@ A [catspaw](wiki:Catspaw) tries to assassinate [Bran Stark](wiki:Bran_Stark) wit
 ### A Storm of Swords[ ]
 
 The [slaver's whip](wiki:Harpy's_fingers) of [Kraznys mo Nakloz](wiki:Kraznys_mo_Nakloz) has a dragonbone handle inlaid with [gold](wiki:Gold).(wiki:Dragonbone.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+## Quotes
+
+> plain, but finely made, with a blade of Valyrian steel and a dragonbone hilt. Your brother won it from Lord Baelish at the tourney on Prince Joffrey’s name day.”
+
+— Catelyn Stark, ACOK (Catelyn VII), `sources/chapters/acok/acok-catelyn-07.md:235`

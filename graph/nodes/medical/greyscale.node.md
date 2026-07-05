@@ -35,6 +35,18 @@ At the [Wall](wiki:Wall), [Val](wiki:Val) becomes wary of [Shireen Baratheon](wi
 
 ## Quotes
 
+> The mortal form of greyscale began in the extremities, he knew: a tingling in a fingertip, a toenail turning black, a loss of feeling. As the numbness crept into the hand, or stole past the foot and up the leg, the flesh stiffened and grew cold and the victim’s skin took on a greyish hue, resembling stone.
+
+— ADWD (Tyrion V), `sources/chapters/adwd/adwd-tyrion-05.md:125`
+
+> He had heard it said that there were three good cures for greyscale: axe and sword and cleaver.
+
+— ADWD (Tyrion V), `sources/chapters/adwd/adwd-tyrion-05.md:125`
+
+> The nail on his middle finger had turned as black as jet, he saw, and the grey had crept up almost to the first knuckle. The tip of his ring finger had begun to darken too, and when he touched it with the point of his dagger, he felt nothing.
+
+— ADWD (The Lost Lord I), `sources/chapters/adwd/adwd-the-lost-lord-01.md:237`
+
 Hers was not a pretty face, alas. [The child](wiki:Shireen_Baratheon) had [her lord father's](wiki:Stannis_Baratheon) square jut of jaw and [her mother's](wiki:Selyse_Florent) unfortunate ears, along with a disfigurement all her own, the legacy of the bout of greyscale that had almost claimed her in the crib. Across half one cheek and well down her neck, her flesh was stiff and dead, the skin cracked and flaking, mottled black and grey and stony to the touch.(wiki:Greyscale.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 [Harlon](wiki:Harlon_Greyjoy) he recalled but dimly, sitting grey-faced and still in a windowless tower room and speaking in whispers that grew fainter every day as the greyscale turned his tongue and lips to stone.(wiki:Greyscale.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 Death had lost its terror for [Tyrion Lannister](wiki:Tyrion_Lannister), but greyscale was another matter.(wiki:Greyscale.cite_ref-Radwd18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
@@ -48,7 +60,7 @@ Book-cite overlay (S152 harvest): Tyrion's POV on approaching the Bridge of Drea
 
 > "The mortal form of greyscale began in the extremities, he knew: a tingling in a fingertip, a toenail turning black, a loss of feeling. As the numbness crept into the hand, or stole past the foot and up the leg, the flesh stiffened and grew cold and the victim's skin took on a greyish hue, resembling stone. He had heard it said that there were three good cures for greyscale: axe and sword and cleaver. Hacking off afflicted parts did sometimes stop the spread of the disease, Tyrion knew, but not always. Many a man had sacrificed one arm or foot, only to find the other going grey. Once that happened, hope was gone. Blindness was common when the stone reached the face. In the final stages the curse turned inward, to muscles, bones, and inner organs."
 
-— Tyrion's POV, ADWD Tyrion V (`sources/chapters/adwd/adwd-tyrion-05.md:127`)
+— Tyrion's POV, ADWD Tyrion V (`sources/chapters/adwd/adwd-tyrion-05.md:125`)
 
 > [Jon Connington](jon-connington)'s death-clock — the greyscale he contracts pulling Tyrion from the Rhoyne during the stone-men attack: "The nail on his middle finger had turned as black as jet, he saw, and the grey had crept up almost to the first knuckle... Death, he knew, but slow. I still have time."
 

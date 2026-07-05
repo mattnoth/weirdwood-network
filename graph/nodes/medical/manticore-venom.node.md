@@ -33,3 +33,9 @@ Gregor is dying, with his flesh rotting and the wounds oozing pus. He screams co
 
 In [Dorne](wiki:Dorne), [Tyene Sand](wiki:Tyene_Sand) tells Prince [Doran Martell](wiki:Doran_Martell) that she knows the poison that her father Oberyn used, and there is none slower or more agonizing.(wiki:Manticore_venom.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) has the former maester [Qyburn](wiki:Qyburn) examine Gregor. Qyburn reports that Gregor is slowly dying in exquisite agony; all of Gregor's veins have turned black, and the poison has eaten a hole in his side as large as a fist. He believes the poison was in fact manticore venom, but thickened somehow, most likely with [a spell](wiki:Magic), to prolong the Mountain's death. Qyburn convinces Cersei to allow him to move Gregor to the [black cells](wiki:Black_cells), where his screaming cannot be heard by the rest of the [Red Keep](wiki:Red_Keep), and study him there to gain useful knowledge of the sorcerous poison.(wiki:Manticore_venom.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Quotes
+
+> The poison on the Viper’s spear was manticore venom from the east, I would stake my life on that.”
+
+— Qyburn, AFFC (Cersei II), `sources/chapters/affc/affc-cersei-02.md:193`

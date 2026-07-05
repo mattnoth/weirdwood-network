@@ -45,3 +45,9 @@ It is sung by [Dareon](wiki:Dareon) on the [Blackbird](wiki:Blackbird), on his v
 
 The song is sung by [Abel](wiki:Abel) for [Barbrey Dustin](wiki:Barbrey_Dustin) during a meal at [Winterfell](wiki:Winterfell). The [Freys](wiki:House_Frey) and some [northmen](wiki:Northmen) join in with the singing, until the noise frightens the [horses](wiki:Horse) kept in [the hall](wiki:Great_Hall_of_Winterfell).(wiki:The_Bear_and_the_Maiden_Fair.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
 At a [slave](wiki:Slave) auction in [Meereen](wiki:Meereen), [Tyrion Lannister](wiki:Tyrion_Lannister) realizes that Ser [Jorah Mormont](wiki:Jorah_Mormont) is doomed if he is purchased by [Zahrina](wiki:Zahrina). Tyrion manages to get the slave overseer [Nurse](wiki:Nurse) to convince [Yezzan zo Qaggaz](wiki:Yezzan_zo_Qaggaz) to purchase Jorah by lying and telling Nurse that Jorah is part of their show - the bear and the maiden fair. Jorah is the bear, [Penny](wiki:Penny) is the maiden, and Tyrion is the brave knight who rescues her. During their enslavement, Tyrion notes that Jorah has not adapted well. When called upon to play the bear and carry off the maiden fair, he has been sullen and uncooperative, shuffling lifelessly through his paces when he deigns to take part in their [mummery](wiki:Mummer) at all.(wiki:The_Bear_and_the_Maiden_Fair.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+
+## Quotes
+
+> Butterbumps bowed low, let loose of an enormous belch, then straightened, threw out his belly, and bellowed. “A bear there was, a bear, a BEAR! All black and brown, and covered with hair . . .”
+
+— ASOS (Sansa I), `sources/chapters/asos/asos-sansa-01.md:211`

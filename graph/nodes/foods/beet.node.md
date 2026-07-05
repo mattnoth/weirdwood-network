@@ -50,4 +50,8 @@ Lord [Nestor Royce](wiki:Nestor_Royce)'s cooks have prepared a large quantity of
 
 ## Quotes
 
+> there were turnips and pease and beets, beans and squash and huge red onions
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`
+
 When I'm king in my own right, I'm going to outlaw beets.(wiki:Beet.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

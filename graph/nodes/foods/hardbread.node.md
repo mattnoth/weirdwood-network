@@ -20,3 +20,9 @@ Hardbread is a dense, durable bread used as a military and travel ration across 
 > ...wagons heavy-laden with hardbread and salt beef.
 >
 > — sources/chapters/agot/agot-catelyn-08.md:25 · March provisioning of Robb's host moving through the Neck toward Moat Cailin — hardbread as a standard military ration alongside salt beef.  _(capture: harvest pass, food)_
+
+## Quotes
+
+> It fell away slowly beneath them as they rode past smoky peat fires, lines of horses, and wagons heavy-laden with hardbread and salt beef.
+
+— AGOT (Catelyn VIII), `sources/chapters/agot/agot-catelyn-08.md:25`

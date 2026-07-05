@@ -53,3 +53,9 @@ When [Jon Connington](wiki:Jon_Connington) and ["Young Griff"](wiki:Aegon_Targar
 ### The Winds of Winter[ ]
 
 [Obella Sand](wiki:Obella_Sand) is sent to [Sunspear](wiki:Sunspear), to serve as a cupbearer for the wife of Ser [Manfrey Martell](wiki:Manfrey_Martell), castellan of the castle.(wiki:Cupbearer.cite_ref-19)
+
+## Quotes
+
+> “I have no wine,” Joffrey declared. “How can I drink a toast if I have no wine? Uncle Imp, you can serve me. Since you won’t joust you’ll be my cupbearer.”
+
+— Joffrey Baratheon, ASOS (Tyrion VIII), `sources/chapters/asos/asos-tyrion-08.md:249`

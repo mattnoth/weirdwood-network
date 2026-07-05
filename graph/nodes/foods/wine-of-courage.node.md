@@ -16,3 +16,9 @@ Wine of courage is a potion fed to Unsullied slave soldiers in Astapor from the 
 ## Edges
 
 LOCATED_AT: astapor
+
+## Quotes
+
+> It is no true wine at all, but made from deadly nightshade, bloodfly larva, black lotus root, and many secret things. They drink it with every meal from the day they are cut, and with each passing year feel less and less. It makes them fearless in battle.
+
+— Kraznys mo Nakloz, ASOS (Daenerys II), `sources/chapters/asos/asos-daenerys-02.md:91`

@@ -62,5 +62,13 @@ In the [House of Black and White](wiki:House_of_Black_and_White), the [kindly ma
 
 ## Quotes
 
+> Later came sweetbreads and pigeon pie and baked apples fragrant with cinnamon and lemon cakes frosted in sugar
+
+— AGOT (Sansa II), `sources/chapters/agot/agot-sansa-02.md:71`
+
+> Lord Robert loved lemon cakes, perhaps because Alayne did.
+
+— AFFC (Alayne II), `sources/chapters/affc/affc-alayne-02.md:87`
+
 Alerie: You must be very hungry. Shall we have a bite of [boar](wiki:Boar) together, and some lemon cakes?Sansa: Lemon cakes are my favorite.Olenna: So we have been told. That [Varys](wiki:Varys) creature seemed to think we should be grateful for the information.(wiki:Lemon_cake.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 Lemony lemony lemon cakes... and you can have as many as you like.(wiki:Lemon_cake.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)

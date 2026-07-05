@@ -66,6 +66,10 @@ Mormont's raven seems agitated at the same time as [Ghost](wiki:Ghost), Jon's [d
 
 ## Quotes
 
+> Mormont’s raven seemed agitated too. “Snow,” the bird kept screaming. “Snow, snow, snow.”
+
+— ADWD (Jon XIII), `sources/chapters/adwd/adwd-jon-13.md:131`
+
 Raven: Corn! Corn! Corn! Corn! Jeor: Don't you believe it, I just fed him.(wiki:Mormont's_raven.cite_ref-Ragot52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5)
 Raven: King. King.
 Jon: He likes that word.

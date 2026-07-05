@@ -43,3 +43,9 @@ A copy of The Seven-Pointed Star is given to Queen [Margaery Tyrell](wiki:Margae
 [Tyrion Lannister](wiki:Tyrion_Lannister) recalls passages from The Seven-Pointed Star during his travel to [Ghoyan Drohe](wiki:Ghoyan_Drohe) with Magister [Illyrio Mopatis](wiki:Illyrio_Mopatis).(wiki:The_Seven-Pointed_Star.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 [Therry](wiki:Therry) gives Ser [Davos Seaworth](wiki:Davos_Seaworth) a copy of The Seven-Pointed Star when he asks for a book to read during his imprisonment in the [Wolf's Den](wiki:Wolf's_Den).(wiki:The_Seven-Pointed_Star.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
 Septa [Scolera](wiki:Scolera) sometimes reads from The Seven-Pointed Star to [Cersei Lannister](wiki:Cersei_Lannister) during her imprisonment in the Great Sept of Baelor.(wiki:The_Seven-Pointed_Star.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+
+## Quotes
+
+> It is written in The Seven-Pointed Star that spirits, wights, and revenants cannot harm a pious man, so long as he is armored in his faith.”
+
+— AFFC (Jaime III), `sources/chapters/affc/affc-jaime-03.md:287`

@@ -45,6 +45,10 @@ In the [Faceless Men](wiki:Faceless_Men)'s [House of Black and White](wiki:House
 
 ## Quotes
 
+> I saw the tears of Lys among your potions. And you sent away Lord Arryn’s own maester and tended him yourself, so you could make certain that he died.”
+
+— Tyrion Lannister, to Grand Maester Pycelle, ACOK (Tyrion VI), `sources/chapters/acok/acok-tyrion-06.md:317`
+
 Sickness? This is no sickness. A weasel in the guts, dead in a day... this is the tears of Lys.(wiki:Tears_of_Lys.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
 I brought them cups of [wine](wiki:Wine), and they drank. They thanked me, and they drank. Why not? A [cupbearer](wiki:Cupbearer), a serving man, that's how they saw me. Androw the sweet. Androw the jape.(wiki:Tears_of_Lys.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 The tears of Lys, they call it. A rare and costly thing, clear and sweet as water, and it leaves no trace. I begged Lord [Arryn](wiki:Jon_Arryn) to use a [taster](wiki:Food_taster), in this very room I begged him, but he would not hear of it. Only one who was less than a man would even think of such a thing, he told me.(wiki:Tears_of_Lys.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

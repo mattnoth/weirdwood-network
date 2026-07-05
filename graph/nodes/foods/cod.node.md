@@ -59,6 +59,10 @@ The great cog [Noble Lady](wiki:Noble_Lady), carrying salt cod, [whale](wiki:Wha
 
 ## Quotes
 
+> Lord Wyman had brought twenty casks of fish from White Harbor packed in salt and seaweed; whitefish and winkles, crabs and mussels, clams, herring, cod, salmon, lobster and lampreys.
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`
+
 Jon: Who cares how much pickled cod they ate six hundred years ago? Samwell: I would.(wiki:Cod.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 Hard beds, salt cod, and endless watches, that's the [Wall](wiki:Wall).(wiki:Cod.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 Down past where [Old Fishfoot's trident](wiki:Fishfoot_Yard) pointed was an alley where they sold fried cod, crisp and golden brown outside and flaky white within.(wiki:Cod.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)

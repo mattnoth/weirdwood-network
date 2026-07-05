@@ -20,3 +20,9 @@ Mutton (sheep meat) is a common meat across Westeros, appearing as feast food an
 > "In the yard, with a haunch of mutton. I told the kennelmaster to see that he was fed."
 >
 > — sources/chapters/asos/asos-catelyn-02.md:177 · Grey Wind fed a haunch of mutton in the yard at the Twins; Robb explains to Catelyn why the direwolf is not with him inside — an animal-hospitality beat that foreshadows the direwolf's separation from Robb at the Red Wedding.  _(capture: harvest pass, food)_
+
+## Quotes
+
+> “In the yard, with a haunch of mutton. I told the kennelmaster to see that he was fed.”
+
+— Robb Stark, ASOS (Catelyn II), `sources/chapters/asos/asos-catelyn-02.md:177`

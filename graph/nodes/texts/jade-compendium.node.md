@@ -31,6 +31,10 @@ Before departing the [Wall](wiki:Wall) Samwell overhears Aemon tell [Jon Snow](w
 
 ## Quotes
 
+> I left a book for you in my chambers. The Jade Compendium. It was written by the Volantene adventurer Colloquo Votar, who traveled to the east and visited all the lands of the Jade Sea.
+
+— Maester Aemon, ADWD (Jon II), `sources/chapters/adwd/adwd-jon-02.md:245`
+
 Aemon: Lord Snow, I left a book for you in my chambers. The Jade Compendium, it was written by the Volantene adventurer [Colloquo Votar](wiki:Colloquo_Votar), who travelled to the east and visited all the lands of the [Jade Sea](wiki:Jade_Sea). There is a passage you may find of interest. I've told [Clydas](wiki:Clydas) to mark it for you.
 Jon: I'll be sure to read it.
 The pages told of [Azor Ahai](wiki:Azor_Ahai). [Lightbringer](wiki:Lightbringer) was his sword. Tempered with his wife's blood if [Votar](wiki:Colloquo_Votar) can be believed. Thereafter Lightbringer was never cold to the touch, but warm as [Nissa Nissa](wiki:Nissa_Nissa) had been warm. In battle the blade burned fiery hot. Once Azor Ahai fought a monster. When he thrust the sword through the belly of the beast, its blood began to boil. Smoke and steam poured from its mouth, its eyes melted and dribbled down its cheeks, and its body burst into flame.(wiki:Jade_Compendium.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)

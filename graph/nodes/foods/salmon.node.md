@@ -40,3 +40,9 @@ The stores of [Castle Black](wiki:Castle_Black) have planks of dry smoked salmon
 ### The Winds of Winter[ ]
 
 [Pike](wiki:Pike), [trout](wiki:Trout), and salmon are served at the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Salmon.cite_ref-Alayne_9-0)
+
+## Quotes
+
+> Lord Wyman had brought twenty casks of fish from White Harbor packed in salt and seaweed; whitefish and winkles, crabs and mussels, clams, herring, cod, salmon, lobster and lampreys.
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`

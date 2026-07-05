@@ -17,3 +17,9 @@ The Day They Hanged Black Robin is a text/book/song from the AWOIAF wiki.
 
 ## Edges
 
+
+## Quotes
+
+> He knew all their favorite songs: sad ones like “The Day They Hanged Black Robin,” “The Mermaid’s Lament,” and “Autumn of My Day,” rousing ones like “Iron Lances” and “Seven Swords for Seven Sons,” bawdy ones like “Milady’s Supper,” “Her Little Flower,” and “Meggett Was a Merry Maid, a Merry Maid Was She.”
+
+— AFFC (Samwell II), `sources/chapters/affc/affc-samwell-02.md:47`

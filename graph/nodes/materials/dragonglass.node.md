@@ -76,6 +76,14 @@ Jon arms his [rangers](wiki:Rangers) with obsidian weapons when they venture int
 
 ## Quotes
 
+> I found mention of dragonglass. The children of the forest used to give the Night’s Watch a hundred obsidian daggers every year, during the Age of Heroes.
+
+— Samwell Tarly, AFFC (Samwell I), `sources/chapters/affc/affc-samwell-01.md:187`
+
+> “Call it dragonglass.” Archmaester Marwyn glanced at the candle for a moment. “It burns but is not consumed.”
+
+— AFFC (Samwell V), `sources/chapters/affc/affc-samwell-05.md:197`
+
 Luwin: Obsidian. Forged in the fires of the gods, far below the earth. The [children of the forest](wiki:Children_of_the_forest) hunted with that, thousands of years ago. The children worked no metal. In place of mail, they wore long shirts of woven leaves and bound their legs in bark, so they seemed to melt into the wood. In place of swords, they carried blades of obsidian. Osha: And still do.(wiki:Dragonglass.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 Grenn: [Mother](wiki:Mother_(the_Seven)), that's cold. Samwell: Obsidian. Dragonglass, they call it. Dragonglass. [Dragon](wiki:Dragon) glass.(wiki:Dragonglass.cite_ref-Rasos18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)
 Jeor: Is dragonglass made by [dragons](wiki:Dragon), as the [smallfolk](wiki:Smallfolk) like to say?

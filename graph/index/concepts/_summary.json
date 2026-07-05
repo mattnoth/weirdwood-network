@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-05T02:30:41.245753+00:00",
+  "generated_at": "2026-07-05T03:46:03.371664+00:00",
   "entity_type": "concepts",
   "dry_run": false,
   "entity_count": 56,
   "type_counts": {
     "concept.magic": 30,
-    "concept": 10,
     "concept.custom": 10,
+    "concept": 10,
     "concept.culture": 6
   },
   "entities_with_zero_mentions": 19,
@@ -22,21 +22,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "glass-candle",
-      "name": "Glass candle",
-      "type": "concept.magic",
-      "appearances_total": 11,
-      "chapters_referenced_in": 5,
-      "in_edge_count": 21,
-      "out_edge_count": 0
-    },
-    {
       "slug": "red-comet",
       "name": "Red Comet",
       "type": "concept.magic",
       "appearances_total": 11,
       "chapters_referenced_in": 6,
       "in_edge_count": 47,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "glass-candle",
+      "name": "Glass candle",
+      "type": "concept.magic",
+      "appearances_total": 11,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 21,
       "out_edge_count": 0
     },
     {
@@ -49,21 +49,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "free-folk",
-      "name": "Free Folk",
-      "type": "concept.culture",
-      "appearances_total": 6,
-      "chapters_referenced_in": 6,
-      "in_edge_count": 285,
-      "out_edge_count": 0
-    },
-    {
       "slug": "valar-morghulis",
       "name": "Valar Morghulis",
       "type": "concept.custom",
       "appearances_total": 6,
       "chapters_referenced_in": 6,
       "in_edge_count": 13,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "free-folk",
+      "name": "Free Folk",
+      "type": "concept.culture",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 285,
       "out_edge_count": 0
     },
     {
@@ -76,21 +76,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "kingsmoot",
-      "name": "Kingsmoot",
-      "type": "concept.culture",
-      "appearances_total": 4,
-      "chapters_referenced_in": 3,
-      "in_edge_count": 139,
-      "out_edge_count": 0
-    },
-    {
       "slug": "valar-dohaeris",
       "name": "Valar Dohaeris",
       "type": "concept",
       "appearances_total": 4,
       "chapters_referenced_in": 4,
       "in_edge_count": 4,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "kingsmoot",
+      "name": "Kingsmoot",
+      "type": "concept.culture",
+      "appearances_total": 4,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 139,
       "out_edge_count": 0
     },
     {
@@ -121,21 +121,21 @@
       "out_edge_count": 0
     },
     {
+      "slug": "cyvasse",
+      "name": "Cyvasse",
+      "type": "concept",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 30,
+      "out_edge_count": 0
+    },
+    {
       "slug": "nightfire",
       "name": "Nightfire",
       "type": "concept.magic",
       "appearances_total": 2,
       "chapters_referenced_in": 2,
       "in_edge_count": 9,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "maegi",
-      "name": "Maegi",
-      "type": "concept.magic",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 38,
       "out_edge_count": 0
     },
     {
@@ -166,30 +166,30 @@
       "out_edge_count": 0
     },
     {
-      "slug": "cyvasse",
-      "name": "Cyvasse",
-      "type": "concept",
+      "slug": "maegi",
+      "name": "Maegi",
+      "type": "concept.magic",
       "appearances_total": 2,
       "chapters_referenced_in": 2,
-      "in_edge_count": 30,
+      "in_edge_count": 38,
       "out_edge_count": 0
     },
     {
-      "slug": "garins-curse",
-      "name": "Garin's Curse",
+      "slug": "skinchanger",
+      "name": "Skinchanger",
       "type": "concept.magic",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 7,
+      "in_edge_count": 62,
       "out_edge_count": 0
     },
     {
-      "slug": "battle-fever",
-      "name": "Battle fever",
-      "type": "concept",
+      "slug": "pyromancer",
+      "name": "Pyromancer",
+      "type": "concept.magic",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 0,
+      "in_edge_count": 21,
       "out_edge_count": 0
     }
   ],

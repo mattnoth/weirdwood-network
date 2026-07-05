@@ -31,3 +31,13 @@ As the [Stark](wiki:House_Stark) in Winterfell, [Bran Stark](wiki:Bran_Stark) ho
 ### A Storm of Swords[ ]
 
 When [Arstan Whitebeard](wiki:Arstan_Whitebeard) tells [Daenerys Targaryen](wiki:Daenerys_Targaryen) that he had the privilege of hearing her brother [Rhaegar](wiki:Rhaegar_Targaryen) play his harp, Ser [Jorah Mormont](wiki:Jorah_Mormont) scoffs, as many would have heard Rhaegar perform at some harvest feast.(wiki:Harvest_feast.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Quotes
+
+> There were guests in Winterfell, visitors come for the harvest feast.
+
+— ACOK (Bran II), `sources/chapters/acok/acok-bran-02.md:13`
+
+> There were great joints of aurochs roasted with leeks, venison pies chunky with carrots, bacon, and mushrooms, mutton chops sauced in honey and cloves, savory duck, peppered boar, goose, skewers of pigeon and capon, beef-and-barley stew, cold fruit soup.
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`

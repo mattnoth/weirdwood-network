@@ -71,6 +71,10 @@ They speak with the [Elder Brother](wiki:Elder_Brother_(Quiet_Isle)) and have a 
 
 ## Quotes
 
+> Their supper in the septry was as strange a meal as Brienne had ever eaten, though not at all unpleasant. The food was plain, but very good; there were loaves of crusty bread still warm from the ovens, crocks of fresh-churned butter, honey from the septry’s hives, and a thick stew of crabs, mussels, and at least three different kinds of fish.
+
+— AFFC (Brienne VI), `sources/chapters/affc/affc-brienne-06.md:141`
+
 The water that separated the island from the shore was receding, leaving behind a broad expanse of glistening brown mudflats dotted by tidal pools that glittered like golden coins in the afternoon sun.(wiki:Quiet_Isle.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-16)
 Podrick: Why do they call it the Quiet Isle? Meribald: Those who dwell here are penitents, who seek to atone for their sins through contemplation, prayer, and silence. Only the [Elder Brother](wiki:Elder_Brother_(Quiet_Isle)) and his [proctors](wiki:Proctor) are permitted to speak, and the proctors only for one day of every seven.(wiki:Quiet_Isle.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-17)
 Hyle: Isn't that where we want to go? We seem to be walking every way but toward it? Meribald: Faith. Believe, persist, and follow, and we shall find the peace we seek.(wiki:Quiet_Isle.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-18)

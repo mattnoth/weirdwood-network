@@ -27,3 +27,9 @@ Naggas Hill is a location from the AWOIAF wiki.
 
 ## Edges
 
+
+## Quotes
+
+> On the crown of the hill four-and-forty monstrous stone ribs rose from the earth like the trunks of great pale trees. The sight made Aeron’s heart beat faster. Nagga had been the first sea dragon, the mightiest ever to rise from the waves.
+
+— AFFC (The Drowned Man I), `sources/chapters/affc/affc-the-drowned-man-01.md:19`

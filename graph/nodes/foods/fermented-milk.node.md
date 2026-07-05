@@ -23,3 +23,9 @@ Fermented milk is a food or drink from the AWOIAF wiki.
 ### A Game of Thrones[ ]
 
 [Daenerys Targaryen](wiki:Daenerys_Targaryen) thinks the [Dothraki](wiki:Dothraki)'s fermented mare's milk is sour-smelling and thick with clots.(wiki:Fermented_milk.cite_ref-Ragot46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Quotes
+
+> Viserys could not abide the taste of the fermented mare’s milk the Dothraki drank
+
+— AGOT (Daenerys V), `sources/chapters/agot/agot-daenerys-05.md:87`

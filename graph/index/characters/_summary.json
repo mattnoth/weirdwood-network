@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-05T02:30:44.694113+00:00",
+  "generated_at": "2026-07-05T03:46:10.609364+00:00",
   "dry_run": false,
   "character_count": 3913,
   "type_counts": {
     "character.human": 3878,
     "character.dragon": 28,
-    "character.direwolf": 6,
-    "character.minor": 1
+    "character.minor": 1,
+    "character.direwolf": 6
   },
   "pov_characters_count": 31,
   "characters_with_zero_mentions": 2152,
@@ -407,14 +407,14 @@
       "out_edge_count": 24
     },
     {
-      "slug": "aegon-i-targaryen",
-      "name": "Aegon I Targaryen",
+      "slug": "petyr-baelish",
+      "name": "Petyr Baelish",
       "type": "character.human",
       "chapters_pov": 0,
-      "chapters_mentioned_in": 47,
-      "appearances_total": 61,
+      "chapters_mentioned_in": 73,
+      "appearances_total": 102,
       "in_edge_count": 419,
-      "out_edge_count": 18
+      "out_edge_count": 12
     }
   ],
   "pov_characters": [
@@ -559,24 +559,14 @@
       "out_edge_count": 10
     },
     {
-      "slug": "quentyn-martell",
-      "name": "Quentyn Martell",
+      "slug": "asha-greyjoy",
+      "name": "Asha Greyjoy",
       "type": "character.human",
       "chapters_pov": 4,
-      "chapters_mentioned_in": 11,
+      "chapters_mentioned_in": 10,
       "appearances_total": 20,
-      "in_edge_count": 178,
-      "out_edge_count": 12
-    },
-    {
-      "slug": "barristan-selmy",
-      "name": "Barristan Selmy",
-      "type": "character.human",
-      "chapters_pov": 4,
-      "chapters_mentioned_in": 57,
-      "appearances_total": 89,
-      "in_edge_count": 385,
-      "out_edge_count": 12
+      "in_edge_count": 292,
+      "out_edge_count": 11
     },
     {
       "slug": "victarion-greyjoy",
@@ -589,24 +579,24 @@
       "out_edge_count": 8
     },
     {
-      "slug": "asha-greyjoy",
-      "name": "Asha Greyjoy",
+      "slug": "barristan-selmy",
+      "name": "Barristan Selmy",
       "type": "character.human",
       "chapters_pov": 4,
-      "chapters_mentioned_in": 10,
-      "appearances_total": 20,
-      "in_edge_count": 292,
-      "out_edge_count": 11
+      "chapters_mentioned_in": 57,
+      "appearances_total": 89,
+      "in_edge_count": 385,
+      "out_edge_count": 12
     },
     {
-      "slug": "aeron-greyjoy",
-      "name": "Aeron Greyjoy",
+      "slug": "quentyn-martell",
+      "name": "Quentyn Martell",
       "type": "character.human",
-      "chapters_pov": 2,
-      "chapters_mentioned_in": 10,
-      "appearances_total": 17,
-      "in_edge_count": 157,
-      "out_edge_count": 7
+      "chapters_pov": 4,
+      "chapters_mentioned_in": 11,
+      "appearances_total": 20,
+      "in_edge_count": 178,
+      "out_edge_count": 12
     },
     {
       "slug": "areo-hotah",
@@ -619,16 +609,6 @@
       "out_edge_count": 7
     },
     {
-      "slug": "jon-connington",
-      "name": "Jon Connington",
-      "type": "character.human",
-      "chapters_pov": 2,
-      "chapters_mentioned_in": 16,
-      "appearances_total": 29,
-      "in_edge_count": 180,
-      "out_edge_count": 10
-    },
-    {
       "slug": "arianne-martell",
       "name": "Arianne Martell",
       "type": "character.human",
@@ -639,64 +619,24 @@
       "out_edge_count": 9
     },
     {
-      "slug": "pate-novice",
-      "name": "Pate (novice)",
+      "slug": "jon-connington",
+      "name": "Jon Connington",
       "type": "character.human",
-      "chapters_pov": 1,
-      "chapters_mentioned_in": 0,
-      "appearances_total": 1,
-      "in_edge_count": 45,
-      "out_edge_count": 8
-    },
-    {
-      "slug": "kevan-lannister",
-      "name": "Kevan Lannister",
-      "type": "character.human",
-      "chapters_pov": 1,
-      "chapters_mentioned_in": 36,
-      "appearances_total": 47,
-      "in_edge_count": 231,
-      "out_edge_count": 18
-    },
-    {
-      "slug": "varamyr",
-      "name": "Varamyr",
-      "type": "character.human",
-      "chapters_pov": 1,
-      "chapters_mentioned_in": 4,
-      "appearances_total": 8,
-      "in_edge_count": 31,
-      "out_edge_count": 3
-    },
-    {
-      "slug": "chett",
-      "name": "Chett",
-      "type": "character.human",
-      "chapters_pov": 1,
-      "chapters_mentioned_in": 9,
-      "appearances_total": 19,
-      "in_edge_count": 51,
-      "out_edge_count": 5
-    },
-    {
-      "slug": "melisandre",
-      "name": "Melisandre",
-      "type": "character.human",
-      "chapters_pov": 1,
-      "chapters_mentioned_in": 33,
-      "appearances_total": 60,
-      "in_edge_count": 276,
-      "out_edge_count": 3
-    },
-    {
-      "slug": "arys-oakheart",
-      "name": "Arys Oakheart",
-      "type": "character.human",
-      "chapters_pov": 1,
+      "chapters_pov": 2,
       "chapters_mentioned_in": 16,
-      "appearances_total": 24,
-      "in_edge_count": 80,
-      "out_edge_count": 8
+      "appearances_total": 29,
+      "in_edge_count": 180,
+      "out_edge_count": 10
+    },
+    {
+      "slug": "aeron-greyjoy",
+      "name": "Aeron Greyjoy",
+      "type": "character.human",
+      "chapters_pov": 2,
+      "chapters_mentioned_in": 10,
+      "appearances_total": 17,
+      "in_edge_count": 157,
+      "out_edge_count": 7
     },
     {
       "slug": "will",
@@ -719,6 +659,56 @@
       "out_edge_count": 6
     },
     {
+      "slug": "kevan-lannister",
+      "name": "Kevan Lannister",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 36,
+      "appearances_total": 47,
+      "in_edge_count": 231,
+      "out_edge_count": 18
+    },
+    {
+      "slug": "chett",
+      "name": "Chett",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 9,
+      "appearances_total": 19,
+      "in_edge_count": 51,
+      "out_edge_count": 5
+    },
+    {
+      "slug": "varamyr",
+      "name": "Varamyr",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 4,
+      "appearances_total": 8,
+      "in_edge_count": 31,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "arys-oakheart",
+      "name": "Arys Oakheart",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 16,
+      "appearances_total": 24,
+      "in_edge_count": 80,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "melisandre",
+      "name": "Melisandre",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 33,
+      "appearances_total": 60,
+      "in_edge_count": 276,
+      "out_edge_count": 3
+    },
+    {
       "slug": "merrett-frey",
       "name": "Merrett Frey",
       "type": "character.human",
@@ -727,6 +717,16 @@
       "appearances_total": 8,
       "in_edge_count": 96,
       "out_edge_count": 11
+    },
+    {
+      "slug": "pate-novice",
+      "name": "Pate (novice)",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 0,
+      "appearances_total": 1,
+      "in_edge_count": 45,
+      "out_edge_count": 8
     }
   ]
 }

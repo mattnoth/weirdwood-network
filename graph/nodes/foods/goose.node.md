@@ -53,6 +53,10 @@ Tyrion is served goose livers drowned in [wine](wiki:Wine) at [Illyrio's manse](
 
 ## Quotes
 
+> There were great joints of aurochs roasted with leeks, venison pies chunky with carrots, bacon, and mushrooms, mutton chops sauced in honey and cloves, savory duck, peppered boar, goose, skewers of pigeon and capon, beef-and-barley stew, cold fruit soup.
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`
+
 You fight like a goose. He pecks you and you peck him harder. Parry! Block the blow. Goose fighting will not suffice. If those were real swords, the first peck would take your arm off!(wiki:Goose.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
 Bronn: No taste for stuffed goose?
 Tyrion: Perhaps you should eat the goose and marry [the maid](wiki:Lollys_Stokeworth). Or better still, send [Shagga](wiki:Shagga).

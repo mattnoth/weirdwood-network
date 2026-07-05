@@ -25,3 +25,9 @@ LOCATED_AT: Ruby Ford (nearby)
 Served alongside hot pork pies and baked apples. Yoren's Night's Watch column heading north during the War of the Five Kings; the innkeeper extends guest-right (a round of beer on the house) for a brother who took the black. Arya Stark present.
 
 — ACOK Arya II (`sources/chapters/acok/acok-arya-02.md:33`)
+
+## Quotes
+
+> Washed and unwashed alike supped on hot pork pies and baked apples. The innkeeper gave them a round of beer on the house.
+
+— ACOK (Arya II), `sources/chapters/acok/acok-arya-02.md:33`

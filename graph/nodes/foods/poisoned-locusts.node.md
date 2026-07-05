@@ -35,6 +35,10 @@ Later, while [Daenerys Targaryen](wiki:Daenerys_Targaryen) wanders the [Dothraki
 
 ## Quotes
 
+> It was your pit, your box, your seats. Sweet wine and soft cushions, figs and melons and honeyed locusts. You provided all. You urged Her Grace to try the locusts but never tasted one yourself.”
+
+— Barristan Selmy, ADWD (The Kingbreaker I), `sources/chapters/adwd/adwd-the-kingbreaker-01.md:257`
+
 Locusts!(wiki:Poisoned_locusts.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 Hizdahr: Those are very tasty. You ought to try a few yourself, my love. They are rolled in [spice](wiki:Spice) before the honey, so they are sweet and hot at once. Daenerys: That explains the way [Belwas](wiki:Belwas) is sweating. I believe I will content myself with figs and dates.(wiki:Poisoned_locusts.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 And he could still hear [Hizdahr](wiki:Hizdahr_zo_Loraq), urging [his queen](wiki:Daenerys_Targaryen) to try the honeyed locusts. Those are very tasty… sweet and hot… yet he never touched so much as one himself.(wiki:Poisoned_locusts.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)

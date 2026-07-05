@@ -53,4 +53,8 @@ Herring is served at the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Herri
 
 ## Quotes
 
+> Lord Wyman had brought twenty casks of fish from White Harbor packed in salt and seaweed; whitefish and winkles, crabs and mussels, clams, herring, cod, salmon, lobster and lampreys.
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`
+
 Yesterday I ate herring with the [whores](wiki:Whores), but within the year I'll be having emperor [crab](wiki:Crab) with [courtesans](wiki:Courtesan).(wiki:Herring.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)

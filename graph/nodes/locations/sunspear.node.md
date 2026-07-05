@@ -91,3 +91,9 @@ Doran releases Arianne and the older Sand Snakes from the Spear Tower. Ser [Balo
 ### The Winds of Winter
 
 [Obella Sand](wiki:Obella_Sand) is sent to Sunspear to serve as cupbearer to the wife of Ser [Manfrey Martell](wiki:Manfrey_Martell), the castle's castellan.(wiki:Sunspear.cite_ref-27)
+
+## Quotes
+
+> First the slender Spear Tower, a hundred-and-a-half feet tall and crowned with a spear of gilded steel that added another thirty feet to its height; then the mighty Tower of the Sun, with its dome of gold and leaded glass; last the dun-colored Sandship, looking like some monstrous dromond that had washed ashore and turned to stone.
+
+— AFFC (The Captain Of Guards I), `sources/chapters/affc/affc-the-captain-of-guards-01.md:217`

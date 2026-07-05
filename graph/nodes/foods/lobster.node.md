@@ -33,3 +33,9 @@ Lobster is among the seafood brought by Lord [Wyman Manderly](wiki:Wyman_Manderl
 Roast kid, salted [cod](wiki:Cod), and lobster are served at the feast held by [Victarion Greyjoy](wiki:Victarion_Greyjoy) at the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk).(wiki:Lobster.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 - (The Iron Captain I, AFFC — `sources/chapters/affc/affc-the-iron-captain-01.md:73`) Victarion's pre-kingsmoot feast for half a hundred famous captains: "roast kid, salted cod, and lobster." Aeron ate only fish and drank water while the captains "quaffed enough ale to float the Iron Fleet."
+
+## Quotes
+
+> Lord Wyman had brought twenty casks of fish from White Harbor packed in salt and seaweed; whitefish and winkles, crabs and mussels, clams, herring, cod, salmon, lobster and lampreys.
+
+— ACOK (Bran III), `sources/chapters/acok/acok-bran-03.md:25`

@@ -1,0 +1,338 @@
+[
+  {"slug": "greyscale", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-tyrion-05.md", "line": 125,
+     "start": "The mortal form of greyscale began in the extremities",
+     "end": "resembling stone."},
+    {"file": "sources/chapters/adwd/adwd-tyrion-05.md", "line": 125,
+     "start": "He had heard it said that there were three good cures",
+     "end": "axe and sword and cleaver."},
+    {"file": "sources/chapters/adwd/adwd-the-lost-lord-01.md", "line": 237,
+     "start": "The nail on his middle finger had turned as black as jet",
+     "end": "he felt nothing."}
+  ]},
+  {"slug": "beef", "quotes": [
+    {"file": "sources/chapters/asos/asos-catelyn-01.md", "line": 81,
+     "start": "Maester Vyman returned at evenfall",
+     "end": "boiled beef with horseradish."}
+  ]},
+  {"slug": "hardbread", "quotes": [
+    {"file": "sources/chapters/agot/agot-catelyn-08.md", "line": 25,
+     "start": "It fell away slowly beneath them",
+     "end": "hardbread and salt beef."}
+  ]},
+  {"slug": "mutton", "quotes": [
+    {"file": "sources/chapters/asos/asos-catelyn-02.md", "line": 177,
+     "start": "“In the yard, with a haunch of mutton",
+     "end": "see that he was fed.”", "speaker": "Robb Stark"}
+  ]},
+  {"slug": "deer", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-davos-04.md", "line": 93,
+     "start": "In the Merman’s Court they are eating",
+     "end": "venison with roasted chestnuts.", "speaker": "Wyman Manderly"}
+  ]},
+  {"slug": "the-night-that-ended", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md", "line": 141,
+     "start": "“Give us ‘The Night That Ended,’ singer",
+     "end": "Danny Flint and make us weep.”", "speaker": "Wyman Manderly"}
+  ]},
+  {"slug": "brave-danny-flint", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md", "line": 141,
+     "start": "“Give us ‘The Night That Ended,’ singer",
+     "end": "Danny Flint and make us weep.”", "speaker": "Wyman Manderly"}
+  ]},
+  {"slug": "windblown", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-the-windblown-01.md", "line": 19,
+     "start": "The Windblown went back thirty years",
+     "end": "called the Tattered Prince."}
+  ]},
+  {"slug": "sunspear", "quotes": [
+    {"file": "sources/chapters/affc/affc-the-captain-of-guards-01.md", "line": 217,
+     "start": "First the slender Spear Tower",
+     "end": "washed ashore and turned to stone."}
+  ]},
+  {"slug": "quiet-isle", "quotes": [
+    {"file": "sources/chapters/affc/affc-brienne-06.md", "line": 141,
+     "start": "Their supper in the septry",
+     "end": "three different kinds of fish."}
+  ]},
+  {"slug": "mormonts-raven", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-jon-13.md", "line": 131,
+     "start": "Mormont’s raven seemed agitated too",
+     "end": "“Snow, snow, snow.”"}
+  ]},
+  {"slug": "inn-at-the-crossroads", "quotes": [
+    {"file": "sources/chapters/acok/acok-arya-02.md", "line": 33,
+     "start": "Washed and unwashed alike supped",
+     "end": "a round of beer on the house."}
+  ]},
+  {"slug": "water-gardens", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-the-watcher-01.md", "line": 93,
+     "start": "Cool breezes, sparkling water",
+     "end": "my favorite place in this world, ser.", "speaker": "Doran Martell"}
+  ]},
+  {"slug": "daznaks-pit", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-daenerys-09.md", "line": 103,
+     "start": "At the gates of Daznak’s Pit",
+     "end": "forming an archway overhead."}
+  ]},
+  {"slug": "naggas-hill", "quotes": [
+    {"file": "sources/chapters/affc/affc-the-drowned-man-01.md", "line": 19,
+     "start": "On the crown of the hill",
+     "end": "mightiest ever to rise from the waves."}
+  ]},
+  {"slug": "lemon-cake", "quotes": [
+    {"file": "sources/chapters/agot/agot-sansa-02.md", "line": 71,
+     "start": "Later came sweetbreads and pigeon pie",
+     "end": "lemon cakes frosted in sugar"},
+    {"file": "sources/chapters/affc/affc-alayne-02.md", "line": 87,
+     "start": "Lord Robert loved lemon cakes",
+     "end": "perhaps because Alayne did."}
+  ]},
+  {"slug": "moon-tea", "quotes": [
+    {"file": "sources/chapters/affc/affc-the-soiled-knight-01.md", "line": 141,
+     "start": "Well, I have drunk my moon tea",
+     "end": "I cannot marry you.”", "speaker": "Arianne Martell"}
+  ]},
+  {"slug": "shade-of-the-evening", "quotes": [
+    {"file": "sources/chapters/acok/acok-daenerys-04.md", "line": 57,
+     "start": "Upon it rested a slender crystal glass",
+     "end": "shade of the evening, the wine of warlocks."}
+  ]},
+  {"slug": "stallion-heart", "quotes": [
+    {"file": "sources/chapters/agot/agot-daenerys-05.md", "line": 19,
+     "start": "The wild stallion’s heart was all muscle",
+     "end": "rip the heart apart with teeth and nails."}
+  ]},
+  {"slug": "poisoned-locusts", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-the-kingbreaker-01.md", "line": 257,
+     "start": "It was your pit, your box, your seats",
+     "end": "never tasted one yourself.”", "speaker": "Barristan Selmy"}
+  ]},
+  {"slug": "wine-of-courage", "quotes": [
+    {"file": "sources/chapters/asos/asos-daenerys-02.md", "line": 91,
+     "start": "It is no true wine at all",
+     "end": "It makes them fearless in battle.", "speaker": "Kraznys mo Nakloz"}
+  ]},
+  {"slug": "fermented-milk", "quotes": [
+    {"file": "sources/chapters/agot/agot-daenerys-05.md", "line": 87,
+     "start": "Viserys could not abide the taste",
+     "end": "the Dothraki drank"}
+  ]},
+  {"slug": "honeyfingers", "quotes": [
+    {"file": "sources/chapters/agot/agot-daenerys-06.md", "line": 61,
+     "start": "do they have honeyfingers in the Seven Kingdoms",
+     "end": "the kind they bake in Tyrosh?", "speaker": "Daenerys Targaryen"}
+  ]},
+  {"slug": "bloody-flux", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-daenerys-05.md", "line": 281,
+     "start": "Your Grace, I have known the bloody flux",
+     "end": "spread unchecked.", "speaker": "Barristan Selmy"},
+    {"file": "sources/chapters/adwd/adwd-daenerys-06.md", "line": 43,
+     "start": "The bloody flux is everywhere",
+     "end": "A hundred die each night.”", "speaker": "Barristan Selmy"}
+  ]},
+  {"slug": "tears-of-lys", "quotes": [
+    {"file": "sources/chapters/acok/acok-tyrion-06.md", "line": 317,
+     "start": "I saw the tears of Lys among your potions",
+     "end": "make certain that he died.”",
+     "speaker": "Tyrion Lannister, to Grand Maester Pycelle"}
+  ]},
+  {"slug": "manticore-venom", "quotes": [
+    {"file": "sources/chapters/affc/affc-cersei-02.md", "line": 193,
+     "start": "The poison on the Viper’s spear",
+     "end": "I would stake my life on that.”", "speaker": "Qyburn"}
+  ]},
+  {"slug": "dragonglass", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-01.md", "line": 187,
+     "start": "I found mention of dragonglass",
+     "end": "during the Age of Heroes.", "speaker": "Samwell Tarly"},
+    {"file": "sources/chapters/affc/affc-samwell-05.md", "line": 197,
+     "start": "“Call it dragonglass.”",
+     "end": "It burns but is not consumed.”"}
+  ]},
+  {"slug": "dragonbone", "quotes": [
+    {"file": "sources/chapters/acok/acok-catelyn-07.md", "line": 235,
+     "start": "plain, but finely made",
+     "end": "tourney on Prince Joffrey’s name day.”", "speaker": "Catelyn Stark"}
+  ]},
+  {"slug": "tokar", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-daenerys-01.md", "line": 97,
+     "start": "Walking in a tokar demanded",
+     "end": "a sign of wealth and power."},
+    {"file": "sources/chapters/adwd/adwd-tyrion-10.md", "line": 17,
+     "start": "Many wore tokars",
+     "end": "as elegant as it was impractical."}
+  ]},
+  {"slug": "bedding", "quotes": [
+    {"file": "sources/chapters/asos/asos-sansa-03.md", "line": 155,
+     "start": "Her dwarf husband lifted his eyes",
+     "end": "“I’ll have no bedding.”"}
+  ]},
+  {"slug": "cupbearer", "quotes": [
+    {"file": "sources/chapters/asos/asos-tyrion-08.md", "line": 249,
+     "start": "“I have no wine,” Joffrey declared",
+     "end": "you’ll be my cupbearer.”", "speaker": "Joffrey Baratheon"}
+  ]},
+  {"slug": "harvest-feast", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-02.md", "line": 13,
+     "start": "There were guests in Winterfell",
+     "end": "come for the harvest feast."},
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "There were great joints of aurochs",
+     "end": "cold fruit soup."}
+  ]},
+  {"slug": "aurochs", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "There were great joints of aurochs",
+     "end": "cold fruit soup."}
+  ]},
+  {"slug": "goose", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "There were great joints of aurochs",
+     "end": "cold fruit soup."}
+  ]},
+  {"slug": "herring", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "Lord Wyman had brought twenty casks",
+     "end": "lobster and lampreys."}
+  ]},
+  {"slug": "cod", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "Lord Wyman had brought twenty casks",
+     "end": "lobster and lampreys."}
+  ]},
+  {"slug": "salmon", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "Lord Wyman had brought twenty casks",
+     "end": "lobster and lampreys."}
+  ]},
+  {"slug": "lobster", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "Lord Wyman had brought twenty casks",
+     "end": "lobster and lampreys."}
+  ]},
+  {"slug": "whitefish", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "Lord Wyman had brought twenty casks",
+     "end": "lobster and lampreys."}
+  ]},
+  {"slug": "beet", "quotes": [
+    {"file": "sources/chapters/acok/acok-bran-03.md", "line": 25,
+     "start": "there were turnips and pease and beets",
+     "end": "huge red onions"}
+  ]},
+  {"slug": "the-bear-and-the-maiden-fair", "quotes": [
+    {"file": "sources/chapters/asos/asos-sansa-01.md", "line": 211,
+     "start": "Butterbumps bowed low",
+     "end": "covered with hair . . .”"}
+  ]},
+  {"slug": "rat-cook", "quotes": [
+    {"file": "sources/chapters/asos/asos-bran-04.md", "line": 129,
+     "start": "“It was not for murder that the gods cursed him",
+     "end": "that the gods cannot forgive.”", "speaker": "Old Nan"}
+  ]},
+  {"slug": "the-dornishmans-wife", "quotes": [
+    {"file": "sources/chapters/asos/asos-jon-01.md", "line": 81,
+     "start": "The Dornishman’s wife was as fair as the sun",
+     "end": "warmer than spring."}
+  ]},
+  {"slug": "the-last-of-the-giants", "quotes": [
+    {"file": "sources/chapters/asos/asos-jon-02.md", "line": 159,
+     "start": "Ooooooh, I am the last of the giants",
+     "end": "gone from the earth.”", "speaker": "Ygritte"}
+  ]},
+  {"slug": "jennys-song", "quotes": [
+    {"file": "sources/chapters/asos/asos-catelyn-05.md", "line": 103,
+     "start": "“There’s a song,” he remembered",
+     "end": "flowers in her hair.’”"}
+  ]},
+  {"slug": "the-seasons-of-my-love", "quotes": [
+    {"file": "sources/chapters/agot/agot-tyrion-06.md", "line": 111,
+     "start": "Myrish. ‘The Seasons of My Love.’",
+     "end": "put it out of my head.”", "speaker": "Tyrion Lannister"}
+  ]},
+  {"slug": "for-hands-of-gold-are-always-cold-but-a-womans-hands-are-warm", "quotes": [
+    {"file": "sources/chapters/asos/asos-tyrion-04.md", "line": 95,
+     "start": "The refrain is especially nice",
+     "end": "a woman’s hands are warm . . .”", "speaker": "Symon Silver Tongue"},
+    {"file": "sources/chapters/asos/asos-tyrion-11.md", "line": 209,
+     "start": "Tyrion slid a hand under his father’s chain",
+     "end": "beat away his tears."}
+  ]},
+  {"slug": "the-seven-pointed-star", "quotes": [
+    {"file": "sources/chapters/affc/affc-jaime-03.md", "line": 287,
+     "start": "It is written in The Seven-Pointed Star",
+     "end": "armored in his faith.”"}
+  ]},
+  {"slug": "white-book", "quotes": [
+    {"file": "sources/chapters/affc/affc-jaime-01.md", "line": 163,
+     "start": "The White Book would be waiting",
+     "end": "what could he write but truth?"}
+  ]},
+  {"slug": "jade-compendium", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-jon-02.md", "line": 245,
+     "start": "I left a book for you in my chambers",
+     "end": "all the lands of the Jade Sea.", "speaker": "Maester Aemon"}
+  ]},
+  {"slug": "lives-of-four-kings", "quotes": [
+    {"file": "sources/chapters/asos/asos-sansa-04.md", "line": 69,
+     "start": "all his courtesy vanished at once",
+     "end": "gorgeously illuminated."},
+    {"file": "sources/chapters/asos/asos-sansa-04.md", "line": 111,
+     "start": "Joffrey flicked a chunk of Lives of Four Kings",
+     "end": "back into its scabbard."}
+  ]},
+  {"slug": "her-little-flower", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "the-day-they-hanged-black-robin", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "the-mermaids-lament", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "autumn-of-my-day", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "iron-lances", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "seven-swords-for-seven-sons", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "miladys-supper", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "meggett-was-a-merry-maid-a-merry-maid-was-she", "quotes": [
+    {"file": "sources/chapters/affc/affc-samwell-02.md", "line": 47,
+     "start": "He knew all their favorite songs",
+     "end": "a Merry Maid Was She.”"}
+  ]},
+  {"slug": "war-of-the-five-kings", "quotes": [
+    {"file": "sources/chapters/adwd/adwd-davos-03.md", "line": 203,
+     "start": "Open your eyes, as my lord grandsire did",
+     "end": "wounds of this sad war.", "speaker": "Rhaegar Frey"}
+  ]},
+  {"slug": "pate-novice", "quotes": [
+    {"file": "sources/chapters/affc/affc-prologue.md", "line": 129,
+     "start": "Spotted Pate the pig boy was the hero",
+     "end": "pompous septons who beset him."},
+    {"file": "sources/chapters/affc/affc-prologue.md", "line": 129,
+     "start": "But those were stories.",
+     "end": "pig boys never fared so well."}
+  ]}
+]

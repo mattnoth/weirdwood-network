@@ -58,3 +58,9 @@ Barristan, acting as [Hand of the Queen](wiki:Hand_of_the_King) while Daenerys i
 ### The Winds of Winter
 
 As the [second siege of Meereen](wiki:Second_siege_of_Meereen) begins [Tyrion Lannister](wiki:Tyrion_Lannister) surveys the scene and sees a [column](wiki:Column) of mounted men flash past the [Harridan](wiki:Six_sisters) trebuchet, flying the blue banners of the Windblown. Shortly thereafter, while the [Second Sons](wiki:Second_Sons) are in a meeting, they are informed that [Gorzhak zo Eraz](wiki:Gorzhak_zo_Eraz) has been slain by the [Tattered Prince](wiki:Tattered_Prince) and the Windblown have gone over to [Daenerys Targaryen](wiki:Daenerys_Targaryen).(wiki:Windblown.cite_ref-13)
+
+## Quotes
+
+> The Windblown went back thirty years, and had known but one commander, the soft-spoken, sad-eyed Pentoshi nobleman called the Tattered Prince.
+
+— ADWD (The Windblown I), `sources/chapters/adwd/adwd-the-windblown-01.md:19`

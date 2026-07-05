@@ -24,3 +24,9 @@ Beef is a common meat across Westeros, consumed in multiple forms: salt beef (cu
 > Maester Vyman returned at evenfall to minister to Lord Tully and bring Catelyn a modest supper of bread, cheese, and boiled beef with horseradish.
 >
 > — sources/chapters/asos/asos-catelyn-01.md:81 · Catelyn under house-watch at Riverrun; Maester Vyman brings a plain domestic supper while Hoster Tully lies dying — boiled beef as humble, care-giving provisioning.  _(capture: harvest pass, food)_
+
+## Quotes
+
+> Maester Vyman returned at evenfall to minister to Lord Tully and bring Catelyn a modest supper of bread, cheese, and boiled beef with horseradish.
+
+— ASOS (Catelyn I), `sources/chapters/asos/asos-catelyn-01.md:81`

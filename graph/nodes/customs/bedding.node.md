@@ -50,6 +50,10 @@ At [Daenerys Targaryen](wiki:Daenerys_Targaryen)'s request to hear more about he
 
 ## Quotes
 
+> Her dwarf husband lifted his eyes slowly from his wine cup. “I’ll have no bedding.”
+
+— ASOS (Sansa III), `sources/chapters/asos/asos-sansa-03.md:155`
+
 I made a son for [House Targaryen](wiki:House_Targaryen) last night.(wiki:Bedding.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 Rogar: Tell me true, Your Grace. Was there a bedding? Did you claim [her](wiki:Alysanne_Targaryen) maidenhead?Jaehaerys: “No. She is too young.Rogar: Good. You are not wed.(wiki:Bedding.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 I mounted him and took him for a ride, and I mean to do the same tonight. I love to ride.(wiki:Bedding.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)

@@ -43,5 +43,9 @@ Euron forces his captive brother [Aeron Greyjoy](wiki:Aeron_Greyjoy) to drink th
 
 ## Quotes
 
+> Upon it rested a slender crystal glass filled with a thick blue liquid: shade of the evening, the wine of warlocks.
+
+— ACOK (Daenerys IV), `sources/chapters/acok/acok-daenerys-04.md:57`
+
 One flute will serve only to unstop your ears and dissolve the caul from off your eyes, so that you may hear and see the truths that will be laid before you.(wiki:Shade_of_the_evening.cite_ref-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 The first sip tasted like ink and spoiled meat, foul, but when she swallowed it seemed to come to life within her. She could feel tendrils spreading through her chest, like fingers of fire coiling around her heart, and on her tongue was a taste like honey and anise and cream, like mother's milk and [Drogo](wiki:Drogo)'s seed, like red meat and hot blood and molten gold. It was all the tastes she had ever known, and none of them … and then the glass was empty.(wiki:Shade_of_the_evening.cite_ref-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)

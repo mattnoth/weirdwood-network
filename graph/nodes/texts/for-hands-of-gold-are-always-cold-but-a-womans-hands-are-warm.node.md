@@ -37,4 +37,12 @@ While traveling on the [Selaesori Qhoran](wiki:Selaesori_Qhoran), Tyrion tells [
 
 ## Quotes
 
+> The refrain is especially nice, I think. For hands of gold are always cold, but a woman’s hands are warm . . .”
+
+— Symon Silver Tongue, ASOS (Tyrion IV), `sources/chapters/asos/asos-tyrion-04.md:95`
+
+> Tyrion slid a hand under his father’s chain, and twisted. The links tightened, digging into her neck. “For hands of gold are always cold, but a woman’s hands are warm,” he said. He gave cold hands another twist as the warm ones beat away his tears.
+
+— ASOS (Tyrion XI), `sources/chapters/asos/asos-tyrion-11.md:209`
+
 Tyrion: That's not a song I would care to hear again. Ever. Symon: No? A pity. Still, each man has his song, as my old master used to say when he was teaching me to play.(wiki:For_hands_of_gold_are_always_cold,_but_a_woman's_hands_are_warm.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

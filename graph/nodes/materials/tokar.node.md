@@ -47,6 +47,14 @@ At the ceremony for the re-opening of the [fighting pits](wiki:Fighting_pits), a
 
 ## Quotes
 
+> Walking in a tokar demanded small, mincing steps and exquisite balance, lest one tread upon those heavy trailing fringes. It was not a garment meant for any man who had to work. The tokar was a master’s garment, a sign of wealth and power.
+
+— ADWD (Daenerys I), `sources/chapters/adwd/adwd-daenerys-01.md:97`
+
+> Many wore tokars, that peculiar garment beloved by the old blood of Slaver’s Bay, as elegant as it was impractical.
+
+— ADWD (Tyrion X), `sources/chapters/adwd/adwd-tyrion-10.md:17`
+
 It was the fringe on the tokar that proclaimed a man's status, Dany had been told by Captain Groleo. In this cool green room atop the pyramid, two of the slavers wore tokars fringed in silver, five had gold fringes, and one, the oldest Grazdan, displayed a fringe of fat white pearls that clacked together softly when he shifted in his seat or moved an arm.[1]—thoughts of Daenerys Targaryen
 
 Do all the Yunkai'i whine so over a singed tokar? I shall buy you a new one... if you deliver up your slaves within three days.[5]—Daenerys Targaryen, to Grazdan mo Eraz

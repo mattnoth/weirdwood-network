@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:57:36.704245+00:00",
+  "generated_at": "2026-07-05T03:46:07.534699+00:00",
   "entity_type": "medical",
   "dry_run": false,
   "entity_count": 35,
@@ -28,21 +28,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "tears-of-lys",
-      "name": "Tears of Lys",
-      "type": "concept.medical",
-      "appearances_total": 4,
-      "chapters_referenced_in": 4,
-      "in_edge_count": 27,
-      "out_edge_count": 0
-    },
-    {
       "slug": "strangler",
       "name": "Strangler",
       "type": "concept.medical",
       "appearances_total": 4,
       "chapters_referenced_in": 2,
       "in_edge_count": 25,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "tears-of-lys",
+      "name": "Tears of Lys",
+      "type": "concept.medical",
+      "appearances_total": 4,
+      "chapters_referenced_in": 4,
+      "in_edge_count": 27,
       "out_edge_count": 0
     },
     {
@@ -64,12 +64,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "greywater-fever",
-      "name": "Greywater fever",
+      "slug": "grey-plague",
+      "name": "Grey plague",
       "type": "concept.medical",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 1,
+      "in_edge_count": 7,
       "out_edge_count": 0
     },
     {
@@ -91,12 +91,39 @@
       "out_edge_count": 0
     },
     {
-      "slug": "grey-plague",
-      "name": "Grey plague",
+      "slug": "greywater-fever",
+      "name": "Greywater fever",
       "type": "concept.medical",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 7,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "sailors-bane",
+      "name": "Sailor's bane",
+      "type": "concept.medical",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "shaking-sickness",
+      "name": "Shaking sickness",
+      "type": "concept.medical",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "greycap",
+      "name": "Greycap",
+      "type": "concept.medical",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 1,
       "out_edge_count": 0
     },
     {
@@ -109,8 +136,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "pus-eye",
-      "name": "Pus-eye",
+      "slug": "dancing-plague",
+      "name": "Dancing plague",
       "type": "concept.medical",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -118,21 +145,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "manticore-venom",
-      "name": "Manticore venom",
+      "slug": "blindeye",
+      "name": "Blindeye",
       "type": "concept.medical",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 2,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "hearts-bane",
-      "name": "Heart's bane",
-      "type": "concept.medical",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
+      "in_edge_count": 1,
       "out_edge_count": 0
     },
     {
@@ -145,12 +163,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "poison",
-      "name": "Poison",
+      "slug": "winter-fever",
+      "name": "Winter Fever",
       "type": "concept.medical",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 252,
+      "in_edge_count": 51,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "hearts-bane",
+      "name": "Heart's bane",
+      "type": "concept.medical",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
       "out_edge_count": 0
     },
     {
@@ -160,33 +187,6 @@
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "yellowgum",
-      "name": "Yellowgum",
-      "type": "concept.medical",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "widows-blood",
-      "name": "Widow's blood",
-      "type": "concept.medical",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "greensick",
-      "name": "Greensick",
-      "type": "concept.medical",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 3,
       "out_edge_count": 0
     }
   ],
@@ -282,20 +282,20 @@
       "out_edge_count": 0
     },
     {
-      "slug": "red-death",
-      "name": "Red Death",
-      "type": "concept.medical",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 7,
-      "out_edge_count": 0
-    },
-    {
       "slug": "grey-plague",
       "name": "Grey plague",
       "type": "concept.medical",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
+      "in_edge_count": 7,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "red-death",
+      "name": "Red Death",
+      "type": "concept.medical",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
       "in_edge_count": 7,
       "out_edge_count": 0
     },
@@ -318,6 +318,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "shaking-sickness",
+      "name": "Shaking sickness",
+      "type": "concept.medical",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
       "slug": "greensick",
       "name": "Greensick",
       "type": "concept.medical",
@@ -332,15 +341,6 @@
       "type": "concept.medical",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 3,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "shaking-sickness",
-      "name": "Shaking sickness",
-      "type": "concept.medical",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
       "in_edge_count": 3,
       "out_edge_count": 0
     },
@@ -363,11 +363,11 @@
       "out_edge_count": 0
     },
     {
-      "slug": "greywater-fever",
-      "name": "Greywater fever",
+      "slug": "greycap",
+      "name": "Greycap",
       "type": "concept.medical",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
       "in_edge_count": 1,
       "out_edge_count": 0
     }

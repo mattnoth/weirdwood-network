@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T02:30:41.943417+00:00",
+  "generated_at": "2026-07-05T03:46:04.801856+00:00",
   "entity_type": "foods",
   "dry_run": false,
   "entity_count": 111,
@@ -37,12 +37,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "lamprey",
-      "name": "Lamprey",
+      "slug": "porridge",
+      "name": "Porridge",
       "type": "object.food",
       "appearances_total": 3,
       "chapters_referenced_in": 2,
-      "in_edge_count": 12,
+      "in_edge_count": 2,
       "out_edge_count": 0
     },
     {
@@ -55,12 +55,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "porridge",
-      "name": "Porridge",
+      "slug": "lamprey",
+      "name": "Lamprey",
       "type": "object.food",
       "appearances_total": 3,
       "chapters_referenced_in": 2,
-      "in_edge_count": 2,
+      "in_edge_count": 12,
       "out_edge_count": 0
     },
     {
@@ -82,53 +82,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "wine-of-courage",
-      "name": "Wine of Courage",
-      "type": "object.food",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
       "slug": "heron",
       "name": "Heron",
-      "type": "object.food",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "poisoned-locusts",
-      "name": "Poisoned locusts",
-      "type": "object.food",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 12,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "myrish-fire",
-      "name": "Myrish fire",
-      "type": "object.food",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "lemonwater",
-      "name": "Lemonwater",
-      "type": "object.food",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "honeyfingers",
-      "name": "Honeyfingers",
       "type": "object.food",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
@@ -145,12 +100,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "beef",
-      "name": "Beef",
+      "slug": "poisoned-locusts",
+      "name": "Poisoned locusts",
       "type": "object.food",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 0,
+      "in_edge_count": 12,
       "out_edge_count": 0
     },
     {
@@ -163,30 +118,75 @@
       "out_edge_count": 0
     },
     {
-      "slug": "pigeon",
-      "name": "Pigeon",
+      "slug": "honeyfingers",
+      "name": "Honeyfingers",
       "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 4,
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
       "out_edge_count": 0
     },
     {
-      "slug": "sisters-stew",
-      "name": "Sister's stew",
+      "slug": "beef",
+      "name": "Beef",
       "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 12,
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 0,
       "out_edge_count": 0
     },
     {
-      "slug": "black-sausage",
-      "name": "Black sausage",
+      "slug": "lemonwater",
+      "name": "Lemonwater",
+      "type": "object.food",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "myrish-fire",
+      "name": "Myrish fire",
+      "type": "object.food",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "wine-of-courage",
+      "name": "Wine of Courage",
+      "type": "object.food",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "salmon",
+      "name": "Salmon",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "snake-stew",
+      "name": "Snake stew",
       "type": "object.food",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
       "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "mutton",
+      "name": "Mutton",
+      "type": "object.food",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 1,
       "out_edge_count": 0
     }
   ],
@@ -309,8 +309,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "bowl-of-brown",
-      "name": "Bowl of brown",
+      "slug": "apple",
+      "name": "Apple",
       "type": "object.food",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -327,17 +327,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "lamprey",
-      "name": "Lamprey",
-      "type": "object.food",
-      "appearances_total": 3,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 12,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "apple",
-      "name": "Apple",
+      "slug": "bowl-of-brown",
+      "name": "Bowl of brown",
       "type": "object.food",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -354,6 +345,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "lamprey",
+      "name": "Lamprey",
+      "type": "object.food",
+      "appearances_total": 3,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 12,
+      "out_edge_count": 0
+    },
+    {
       "slug": "stallion-heart",
       "name": "Stallion heart",
       "type": "object.food",
@@ -363,11 +363,11 @@
       "out_edge_count": 0
     },
     {
-      "slug": "snail",
-      "name": "Snail",
+      "slug": "goat",
+      "name": "Goat",
       "type": "object.food",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
       "in_edge_count": 10,
       "out_edge_count": 0
     }
