@@ -260,10 +260,45 @@ Deno.test("outcomeFor: resolve exact/fuzzy/miss + search_quotes hit/miss shapes"
   assert.ok((searchHit?.resultCount ?? 0) > 0);
 
   const searchMiss = outcomeFor("search_quotes", tools.searchQuotes("zzzznonsensequery"));
-  assert.deepEqual(searchMiss, { matchType: "miss", topSlug: null, resultCount: 0 });
+  assert.deepEqual(searchMiss, { matchType: "miss", topSlug: null, resultCount: 0, slugs: [] });
+  assert.ok(Array.isArray(searchHit?.slugs) && searchHit!.slugs!.length > 0,
+    "search hit carries a compact slugs inventory");
+});
 
-  // Other tools: no outcome slice (not in scope for this telemetry fix).
-  assert.equal(outcomeFor("read_node", tools.readNode(TYWIN_SLUG)), undefined);
+Deno.test("outcomeFor: S191 full coverage — every tool call logs an outcome", () => {
+  // read_node: hit/miss only — NodeRecord has no slug field; the queried slug
+  // already rides in the trace entry's `input`, so topSlug stays null.
+  const readHit = outcomeFor("read_node", tools.readNode(TYWIN_SLUG));
+  assert.equal(readHit?.matchType, "hit");
+  assert.equal(readHit?.topSlug, null);
+  const readMiss = outcomeFor("read_node", tools.readNode("zzz-no-such-node"));
+  assert.equal(readMiss?.matchType, "miss");
+
+  // walk_chain: counts upstream+downstream+enables.
+  const chain = outcomeFor("walk_chain", tools.walkChain(TYWIN_SLUG));
+  assert.equal(typeof chain?.resultCount, "number");
+  assert.equal(chain?.matchType, (chain?.resultCount ?? 0) > 0 ? "hit" : "miss");
+
+  // neighbors: outgoing+incoming.
+  const nb = outcomeFor("neighbors", tools.neighbors(TYWIN_SLUG));
+  assert.equal(typeof nb?.resultCount, "number");
+  assert.equal(nb?.topSlug, TYWIN_SLUG);
+
+  // family_tree: memberCount + root.
+  const fam = outcomeFor("family_tree", tools.familyTree(TYWIN_SLUG));
+  assert.equal(typeof fam?.resultCount, "number");
+  assert.equal(fam?.topSlug, TYWIN_SLUG);
+
+  // list_nodes / theme: slugs inventory capped at 10.
+  const listed = outcomeFor(
+    "list_nodes",
+    { items: Array.from({ length: 30 }, (_, i) => ({ slug: `s-${i}` })) },
+  );
+  assert.equal(listed?.slugs?.length, 10);
+  assert.equal(listed?.resultCount, 30);
+
+  // Unknown tool: still no outcome.
+  assert.equal(outcomeFor("not-a-tool", {}), undefined);
 });
 
 // ---- Invariants pinned per the S190 handoff: don't let a routing/persona ----

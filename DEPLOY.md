@@ -21,11 +21,13 @@ git add -A && git commit -m "…" && git push origin main   # history only — d
 npx netlify deploy --prod --build                          # THIS is what goes live
 ```
 
-- `--build` runs the `netlify.toml` `[build] command` = `python3 scripts/build-chat-export.py …`,
-  which regenerates the **~8.8 MB `web/data/` bundle** (gitignored) from the live `graph/`.
-  This bundle is compiled into the edge function at build time (Deno edge = no fs at
-  runtime). Skip `--build` and you ship a stale or missing bundle. Regenerate after ANY
-  graph node/edge mutation.
+- `--build` runs the `netlify.toml` `[build] command` — the three `graph/query/build/`
+  builders (`build_chat_bundle.py` + `build_search_index.py` + `build_theme_index.py`,
+  S191) — regenerating **all five `web/data/` bundle files** (~12 MB, gitignored:
+  alias-map / nodes / edges / manifest + search-index + theme-index) from the live
+  `graph/`. The bundle is compiled into the edge function at build time (Deno edge =
+  no fs at runtime). Skip `--build` and you ship a stale or missing bundle. Regenerate
+  after ANY graph node/edge mutation.
 - Endpoints: `/api/chat` (`chat.ts`, holds the API key, streams SSE) and `/api/node` (`node.ts`, keyless read).
 
 ### Verify after deploy
@@ -58,8 +60,12 @@ Costs and usage ARE logged — per turn and per day. Where to look:
 
 - **Per-turn records** — Netlify Blobs store `weirwood-chat`, key `log/YYYY-MM-DD/<uuid>`.
   Each holds `question`, `prose`, replayable `toolTrace`, `usage`, **`costUsd`**,
-  `stopState`, `model`, `persona`. Cost-cap trips and api-errors are logged too
-  (as `stopState` `cost-cap-tripped` / `api-error`, zero usage).
+  `stopState`, `model`, `persona`. Every toolTrace entry carries `{tool, input}` plus
+  (S191) an `outcome` slice for EVERY tool — matchType hit/miss, headline slug, result
+  count, and for search_quotes/list_nodes/theme the first 10 returned slugs — so a log
+  review shows what ran AND what came back without re-running anything. Cost-cap trips
+  and api-errors are logged too (as `stopState` `cost-cap-tripped` / `api-error`,
+  zero usage).
 - **Daily spend counter** — same store, key `spend-YYYY-MM-DD`. This drives the cap.
 - **Console mirror** — every turn also emits a `[turn] … cost=$…` line to the
   Netlify **Edge Function** logs (dashboard → Logs → Edge functions).

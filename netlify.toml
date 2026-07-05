@@ -1,8 +1,8 @@
 # Netlify config — The Weirwood Network chat-UI alpha (Session 171).
 #
 # Deploys a BUILD OUTPUT, never the whole repo: the static page in web/public +
-# the Edge function in web/netlify/edge-functions. The 8.8 MB generated data
-# bundle (web/data/, gitignored) is produced by `scripts/build-chat-export.py`
+# the Edge function in web/netlify/edge-functions. The ~12 MB generated data
+# bundle (web/data/, gitignored) is produced by the graph/query/build/ builders
 # at build time and read by the Edge function at cold start.
 #
 # Runtime decision (S171 spike): EDGE FUNCTIONS (Deno/TypeScript). Their 50 ms
@@ -15,11 +15,16 @@
   edge_functions = "web/netlify/edge-functions"
   # The data bundle is generated, not committed. Regenerate it during deploy so
   # Netlify always ships from the live graph. (python3 is available in Netlify's
-  # build image.) Local dev can just run the script once by hand.
+  # build image.) Local dev can just run the builders once by hand.
   # web/data/ is read only by the Edge functions at cold start; the landing starts
   # clean (S175 removed the Tywin featured-exchange placeholder) so nothing is
   # copied into web/public/data/ and the front-end fetches only /api/chat + /api/node.
-  command = "python3 scripts/build-chat-export.py --built-at \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\""
+  # S191: the command builds ALL FIVE bundle files web/src/lib/data.ts imports —
+  # core bundle (alias-map/nodes/edges/manifest) + search-index.json +
+  # theme-index.json. Before S191 only the core bundle was rebuilt here; the two
+  # index files shipped whatever happened to sit in the local working tree
+  # (the search/list/theme tools would go stale — or break on a clean checkout).
+  command = "python3 graph/query/build/build_chat_bundle.py --built-at \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" && python3 graph/query/build/build_search_index.py && python3 graph/query/build/build_theme_index.py"
 
 # The chat endpoint. The browser POSTs here; the function holds ANTHROPIC_API_KEY
 # server-side and streams the reply back. (Implemented in the function chunk.)

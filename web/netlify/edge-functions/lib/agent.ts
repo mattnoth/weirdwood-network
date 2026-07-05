@@ -511,31 +511,50 @@ export function estimateCostUsd(
 
 // ---- The tool loop ----
 
-/** The small, loggable slice of a resolve()/search_quotes() OUTCOME — NOT the
- *  full result array (keep TurnLog records small; no full quote/candidate
- *  lists persisted). Closes the telemetry gap
- *  (`working/query-layer/resolve-misses.md` §Recommendation): previously
- *  `toolTrace` stored `{tool, input}` only, so a resolve's hit/fuzzy/miss
- *  outcome was never captured in the persisted log — the miner had to
- *  re-run resolve() against the current bundle to recover it after the fact.
- *  This record makes that reconstruction unnecessary going forward. */
+/** The small, loggable slice of ONE tool call's OUTCOME — NOT the full result
+ *  (keep TurnLog records small; no full quote/candidate lists persisted).
+ *  History: born S190 for resolve/search_quotes only (closed the telemetry gap
+ *  in `working/query-layer/resolve-misses.md` §Recommendation — `toolTrace`
+ *  stored `{tool, input}` only, so a resolve's hit/fuzzy/miss outcome was
+ *  never captured). Extended S191 (Matt's directive) to EVERY tool, plus a
+ *  compact `slugs` inventory for the row-returning tools, so a log review can
+ *  see what each call actually returned without re-running it against a
+ *  since-changed bundle. */
 export interface ToolOutcome {
-  /** resolve(): "exact" | "fuzzy" | "miss". search_quotes(): "hit" | "miss". */
+  /** resolve(): "exact" | "fuzzy" | "miss". Every other tool: "hit" | "miss". */
   matchType: string;
-  /** resolve(): the top candidate's slug. search_quotes(): the top hit's slug. */
+  /** The single headline slug: resolve/search's top candidate, read_node's or
+   *  walk_chain's queried node, family_tree's root. */
   topSlug: string | null;
-  /** resolve(): the top candidate's score. search_quotes(): omitted (undefined). */
+  /** resolve(): the top candidate's score. Other tools: omitted. */
   score?: number;
-  /** search_quotes() only: how many hits were returned. */
+  /** How much came back: search/list/theme hit or row count; walk_chain total
+   *  links (upstream+downstream+enables); neighbors outgoing+incoming;
+   *  family_tree memberCount. read_node/resolve: omitted. */
   resultCount?: number;
+  /** Compact result inventory (first MAX_OUTCOME_SLUGS slugs) for the
+   *  row-returning tools (search_quotes / list_nodes / theme) — enough to
+   *  review WHAT came back, small enough for a Blobs row. */
+  slugs?: string[];
 }
 
-/** Derive the small loggable outcome for a resolve() or search_quotes() call
- *  from its dispatch result. Returns `undefined` for every other tool (their
- *  shapes are already covered by the receipts panel / grounding harvest —
- *  this is additive telemetry for the two tools the resolve-miss report
- *  flagged, not a general-purpose result summarizer). */
+/** Cap on the per-call `slugs` inventory persisted to the turn log. */
+const MAX_OUTCOME_SLUGS = 10;
+
+function slugsOf(rows: Array<Record<string, unknown>>): string[] {
+  return rows
+    .slice(0, MAX_OUTCOME_SLUGS)
+    .map((r) => (typeof r.slug === "string" ? r.slug : ""))
+    .filter(Boolean);
+}
+
+/** Derive the small loggable outcome for ANY tool call from its dispatch
+ *  result (S191: full coverage — previously resolve/search_quotes/list/theme
+ *  only). Returns `undefined` only for unknown tool names. */
 export function outcomeFor(toolName: string, result: unknown): ToolOutcome | undefined {
+  const r = (result && typeof result === "object" && !Array.isArray(result))
+    ? result as Record<string, unknown>
+    : {};
   if (toolName === "resolve") {
     const candidates = Array.isArray(result) ? result as Array<Record<string, unknown>> : [];
     const top = candidates[0];
@@ -553,16 +572,52 @@ export function outcomeFor(toolName: string, result: unknown): ToolOutcome | und
       matchType: hits.length > 0 ? "hit" : "miss",
       topSlug: typeof top?.slug === "string" ? top.slug : null,
       resultCount: hits.length,
+      slugs: slugsOf(hits),
     };
   }
   if (toolName === "list_nodes" || toolName === "theme") {
-    const r = (result && typeof result === "object") ? result as Record<string, unknown> : {};
     const items = Array.isArray(r.items) ? r.items as Array<Record<string, unknown>> : [];
     const top = items[0];
     return {
       matchType: items.length > 0 ? "hit" : "miss",
       topSlug: typeof top?.slug === "string" ? top.slug : null,
       resultCount: items.length,
+      slugs: slugsOf(items),
+    };
+  }
+  if (toolName === "read_node") {
+    const found = result !== null && result !== undefined && typeof r.name === "string";
+    return {
+      matchType: found ? "hit" : "miss",
+      topSlug: typeof r.slug === "string" ? r.slug : null,
+    };
+  }
+  if (toolName === "walk_chain") {
+    const up = Array.isArray(r.upstream) ? r.upstream.length : 0;
+    const down = Array.isArray(r.downstream) ? r.downstream.length : 0;
+    const enables = Array.isArray(r.enables) ? r.enables.length : 0;
+    const total = up + down + enables;
+    return {
+      matchType: total > 0 ? "hit" : "miss",
+      topSlug: typeof r.slug === "string" ? r.slug : null,
+      resultCount: total,
+    };
+  }
+  if (toolName === "neighbors") {
+    const out = typeof r.outgoingCount === "number" ? r.outgoingCount : 0;
+    const inn = typeof r.incomingCount === "number" ? r.incomingCount : 0;
+    return {
+      matchType: out + inn > 0 ? "hit" : "miss",
+      topSlug: typeof r.slug === "string" ? r.slug : null,
+      resultCount: out + inn,
+    };
+  }
+  if (toolName === "family_tree") {
+    const members = typeof r.memberCount === "number" ? r.memberCount : 0;
+    return {
+      matchType: members > 0 ? "hit" : "miss",
+      topSlug: typeof r.root === "string" ? r.root : null,
+      resultCount: members,
     };
   }
   return undefined;
@@ -576,12 +631,12 @@ export interface AgentResult {
   stopState: "end_turn" | "loop-bound-hit" | "refusal" | "other";
   /** The assembled answer prose (streamed deltas, joined). */
   prose: string;
-  /** Every tool call this turn, in order: name + input (the resolve/read_node/
-   *  walk_chain slugs), plus — for resolve and search_quotes calls — a small
-   *  `outcome` slice (matchType/topSlug/score or resultCount; see
-   *  `ToolOutcome`). This is the replayable spine of the walked chain — a
-   *  later defect hunt can re-run these exact calls against the graph, and
-   *  the outcome closes the resolve-miss telemetry gap without needing to. */
+  /** Every tool call this turn, in order: name + input, plus a small
+   *  `outcome` slice for EVERY known tool (S191 — matchType/topSlug and,
+   *  where it means something, score/resultCount/slugs; see `ToolOutcome`).
+   *  This is the replayable spine of the walked chain — a later defect hunt
+   *  can re-run these exact calls against the graph, and the outcome lets a
+   *  log review see what each call returned without re-running anything. */
   toolTrace: Array<{ tool: string; input: unknown; outcome?: ToolOutcome }>;
 }
 
