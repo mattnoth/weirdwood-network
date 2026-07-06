@@ -36,9 +36,9 @@ Wounded at the crossroads inn, [Brienne of Tarth](brienne-tarth) is taken captiv
 
 ## Quotes
 
-> Behind it sat a woman all in grey, cloaked and hooded. . . . *Stoneheart.* . . . Lady Catelyn's fingers dug deep into her throat, and the words came rattling out, choked and broken, a stream as cold as ice.
+> Lady Catelyn’s fingers dug deep into her throat, and the words came rattling out, choked and broken, a stream as cold as ice.
 
-— Brienne is brought before Lady Stoneheart, AFFC Brienne VIII (`sources/chapters/affc/affc-brienne-08.md:239`)
+— Brienne is brought before Lady Stoneheart, AFFC Brienne VIII (`sources/chapters/affc/affc-brienne-08.md:327`)
 
 > The northman said, "She says that you must choose. Take the sword and slay the Kingslayer, or be hanged for a betrayer. The sword or the noose, she says. Choose, she says. Choose."
 

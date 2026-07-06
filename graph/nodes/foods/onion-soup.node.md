@@ -22,6 +22,6 @@ Onion soup appears in ADWD as the dish cooling before Stannis during the Winterf
 
 ## Quotes
 
-> He sat at the high table as a dish of onion soup cooled before him, hardly tasted, staring at the flame of the nearest candle.
+> He sat at the high table as a dish of onion soup cooled before him, hardly tasted, staring at the flame of the nearest candle
 
 — ADWD (The King's Prize I), `sources/chapters/adwd/adwd-the-kings-prize-01.md:179`

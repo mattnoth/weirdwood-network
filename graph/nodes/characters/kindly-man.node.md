@@ -23,6 +23,6 @@ MEMBER_OF: house-of-black-and-white — source: faceless-men.node.md
 
 ## Quotes
 
-> The priest lowered his cowl. Beneath he had no face; only a yellowed skull with a few scraps of skin still clinging to the cheeks, and a white worm wriggling from one empty eye socket. "Kiss me, child," he croaked, in a voice as dry and husky as a death rattle. — `affc-arya-01:195` (the skull-test he sets Arya at the door; book-cite overlay, S150)
+> The priest lowered his cowl. Beneath he had no face; only a yellowed skull with a few scraps of skin still clinging to the cheeks, and a white worm wriggling from one empty eye socket. "Kiss me, child," he croaked, in a voice as dry and husky as a death rattle. — `affc-arya-01:195` (the skull-test he sets Arya at the door; S150)
 
 > "All men must die. We are but death's instruments, not death himself. When you slew the singer, you took god's powers on yourself. We kill men, but we do not presume to judge them." — `adwd-the-blind-girl-01:143` (the Faceless-Men creed — why Arya is blinded for killing Dareon by her own judgment; S150)

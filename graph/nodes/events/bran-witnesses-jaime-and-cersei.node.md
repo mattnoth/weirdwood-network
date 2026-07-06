@@ -36,6 +36,6 @@ While climbing the abandoned First Keep at Winterfell during King Robert's visit
 
 ## Quotes
 
-> Bran saw her face. Her eyes were closed and her mouth was open, moaning. Her golden hair swung from side to side as her head moved back and forth, but still he recognized the queen. ... The queen. And now Bran recognized the man beside her. They looked as much alike as reflections in a mirror.
+> Bran saw her face. Her eyes were closed and her mouth was open, moaning. Her golden hair swung from side to side as her head moved back and forth, but still he recognized the queen.
 
 — AGOT Bran II (`sources/chapters/agot/agot-bran-02.md:135`)

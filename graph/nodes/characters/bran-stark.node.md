@@ -125,8 +125,7 @@ A mutilated Theon is brought back to Winterfell by [Roose](wiki:Roose_Bolton) an
 >
 > —Bran to [Luwin](wiki:Luwin)
 
-> The stone is strong ... The roots of the trees grow deep, and under the ground the [Kings of Winter](wiki:King_in_the_North) sit their thrones. So long as those remained, [Winterfell](wiki:Winterfell) remained. It was not dead, just broken. Like me ... I'm not dead either.(wiki:Bran_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-3)
->
+> The stone is strong, Bran told himself, the roots of the trees go deep, and under the ground the Kings of Winter sit their thrones. So long as those remained, Winterfell remained. It was not dead, just broken. Like me, he thought. I’m not dead either.
 > —Bran's thoughts after the [sack of Winterfell](wiki:Sack_of_Winterfell) (book cite: `sources/chapters/acok/acok-bran-07.md:209`)
 
 > Old stories are like old friends. You have to visit them from time to time.(wiki:Bran_Stark.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-2)

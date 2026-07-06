@@ -123,7 +123,7 @@ Robert succeeded Aerys on the [Iron Throne](wiki:Iron_Throne),(wiki:Battle_of_th
 
 > Her brother Rhaegar battling the Usurper in the bloody waters of the Trident and dying for the woman he loved.
 
-— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — book-cite overlay (S134 harvest-consume); the realm-narrative of the Trident as Dany inherited it
+— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — The realm-narrative of the Trident as Dany inherited it
 
 > It is time to cross the Trident, Dany thought, as she wheeled and rode [her silver](wiki:Silver_mare) back.(wiki:Battle_of_the_Trident.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-1)
 >

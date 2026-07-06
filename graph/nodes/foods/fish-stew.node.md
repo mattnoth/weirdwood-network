@@ -34,6 +34,6 @@ Fish stew appears in two distinct contexts: as the humble soldier's fare at Drag
 
 — ACOK (Prologue), `sources/chapters/acok/acok-prologue.md:287`
 
-> "So long as there are fish in the rivers, we won't starve, though I don't know how we're going to feed the horses."
+> So long as there are fish in the rivers, we won’t starve, though I don’t know how we’re going to feed the horses.
 
-— AFFC Chapter 30 (Jaime V), `sources/chapters/affc/affc-jaime-05.md:105` (Ser Daven to Jaime, on Riverrun siege provisioning via nets set in the boom)
+— AFFC Jaime V (`sources/chapters/affc/affc-jaime-05.md:113`) (Ser Daven to Jaime, on Riverrun siege provisioning via nets set in the boom)

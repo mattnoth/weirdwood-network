@@ -66,9 +66,9 @@ Areo joins Obara and Balon on their mission to hunt and kill the rogue knight Da
 >
 > —thoughts of Areo
 
-> Keep your longaxe sharp, the bearded priests had told him, the day they branded him. He always did. ... He smelled the stench of burning hair as the bearded priest touched the brand to the center of his chest. The pain had been so fierce that he thought his heart might stop, yet Areo Hotah had not flinched. The hair had never grown back over the axe.
+> he smelled the stench of burning hair as the bearded priest touched the brand to the center of his chest. The pain had been so fierce that he thought his heart might stop, yet Areo Hotah had not flinched. The hair had never grown back over the axe.
 
-— Hotah's Norvoshi axe-care and the chest brand ritual, AFFC The Captain of Guards I (`sources/chapters/affc/affc-the-captain-of-guards-01.md:155–157`) [L859]
+— Hotah's Norvoshi axe-care and the chest brand ritual, AFFC The Captain of Guards I (`sources/chapters/affc/affc-the-captain-of-guards-01.md:157–157`) [L859]
 
 > Hotah had felt a certain sadness whenever he saw the man in the long [snowy cloak](wiki:Kingsguard), the times [the prince](wiki:Doran_Martell) had sent him down to [Sunspear](wiki:Sunspear). One day, he sensed, the two of them would fight; on that day [Oakheart](wiki:Arys_Oakheart) would die, with the captain's longaxe crashing through his skull. He slid his hand along the smooth ashen shaft of his axe and wondered if that day was drawing nigh.(wiki:Areo_Hotah.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15) (affc-the-captain-of-guards-01:135) *(foreshadowing — pays off at the Greenblood ambush, AFFC ch. 21, when Hotah beheads Arys Oakheart)*
 >

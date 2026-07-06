@@ -58,10 +58,10 @@ The swan was too rich for his taste.
 
 > Then came lamprey pie, honeyed ham, buttered carrots, white beans and bacon, and roast swan stuffed with mushrooms and oysters. Tyrion was exceedingly courteous; he offered his sister the choice portions of every dish, and made certain he ate only what she did. Not that he truly thought she'd poison him, but it never hurt to be careful.
 
-— ACOK Chapter 54, `sources/chapters/acok/acok-tyrion-12.md:49`
+— ACOK Tyrion XII (`sources/chapters/acok/acok-tyrion-12.md:49`)
 
-> … with buttered pease, chopped nuts, and slivers of swan poached in a sauce of saffron and peaches. ("Not swan again," Tyrion muttered, remembering his supper with his sister on the eve of battle.)
+> with buttered pease, chopped nuts, and slivers of swan poached in a sauce of saffron and peaches. (“Not swan again,” Tyrion muttered, remembering his supper with his sister on the eve of battle.)
 
-— ASOS Chapter 60 (Purple Wedding), `sources/chapters/asos/asos-tyrion-08.md:171`(wiki:Swan.cite_ref-Racok54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+— Purple Wedding, ASOS Tyrion VIII (`sources/chapters/asos/asos-tyrion-08.md:171`)(wiki:Swan.cite_ref-Racok54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 Arianne: I have always been fond of swans. No other bird is half so beautiful, this side of the [Summer Isles](wiki:Summer_Isles).
 Balon: Your [peacocks](wiki:Peacock) might dispute that.

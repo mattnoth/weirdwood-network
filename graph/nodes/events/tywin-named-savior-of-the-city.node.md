@@ -37,6 +37,6 @@ In the days after the [Battle of the Blackwater](battle-of-the-blackwater), King
 
 — Sansa VIII, ACOK (`sources/chapters/acok/acok-sansa-08.md:19`)
 
-> "Joff made a show of asking his grandfather to assume governance of the realm, and Lord Tywin solemnly accepted the responsibility, 'until Your Grace does come of age.' Then squires removed his armor and Joff fastened the Hand's chain of office around his neck."
+> Joff made a show of asking his grandfather to assume governance of the realm, and Lord Tywin solemnly accepted the responsibility, “until Your Grace does come of age.” Then squires removed his armor and Joff fastened the Hand’s chain of office around his neck.
 
 — Sansa VIII, ACOK (`sources/chapters/acok/acok-sansa-08.md:21`)

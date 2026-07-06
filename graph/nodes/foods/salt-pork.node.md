@@ -22,4 +22,4 @@ Salt pork is cured/preserved pork used as traveling and shipboard rations. It ap
 
 > After the animals had been tended to, the riders shared a simple supper of salt pork and cold white beans, washed down with ale. Tyrion found the plain fare a pleasant change from all the rich food he had eaten with Illyrio.
 
-— ADWD Chapter 14 (Tyrion III), `sources/chapters/adwd/adwd-tyrion-03.md:147`
+— ADWD Tyrion III (`sources/chapters/adwd/adwd-tyrion-03.md:147`)

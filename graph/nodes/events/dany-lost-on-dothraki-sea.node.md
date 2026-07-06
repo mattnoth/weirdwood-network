@@ -37,7 +37,7 @@ sort_keys:
 
 ## Quotes
 
-> North they flew, beyond the river, Drogon gliding on torn and tattered wings … The road home. Then there was nothing beneath them but grass rippling in the wind.
+> The road home. Then there was nothing beneath them but grass rippling in the wind.
 
 — The flight north strands her on the grass sea, ADWD Daenerys X (`sources/chapters/adwd/adwd-daenerys-10.md:55`)
 

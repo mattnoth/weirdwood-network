@@ -59,7 +59,7 @@ Daenerys: Marriage or carnage. A wedding or a war. Are those my choices?
 
 > if a husband could help end the slaughter, then she owed it to her dead to marry.
 
-— Daenerys's internal logic connecting Harpy killings to the Hizdahr marriage decision, ADWD Daenerys IV (`sources/chapters/adwd/adwd-daenerys-04.md:67`) [book-cite overlay onto wiki-stated decision]
+— Daenerys's internal logic connecting Harpy killings to the Hizdahr marriage decision, ADWD Daenerys IV (`sources/chapters/adwd/adwd-daenerys-04.md:67`)
 
 > and Hizdahr zo Loraq went to his knees, unlaced her sandals, and washed her feet whilst fifty eunuchs sang and ten thousand eyes looked on.
 

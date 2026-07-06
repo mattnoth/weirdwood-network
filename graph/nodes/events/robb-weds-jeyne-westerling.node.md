@@ -33,7 +33,7 @@ After taking the Crag by storm and being wounded, Robb Stark is nursed by Jeyne 
 
 ## Quotes
 
-> "I took her castle and she took my heart." Robb smiled. "The Crag was weakly garrisoned, so we took it by storm one night. ... I took an arrow in the arm just before Ser Rolph yielded us the castle. It seemed nothing at first, but it festered. Jeyne had me taken to her own bed, and she nursed me until the fever passed. And she was with me when the Greatjon brought me the news of . . . of Winterfell. Bran and Rickon. ... That night, she . . . she comforted me, Mother."
+> I took an arrow in the arm just before Ser Rolph yielded us the castle. It seemed nothing at first, but it festered. Jeyne had me taken to her own bed, and she nursed me until the fever passed. And she was with me when the Greatjon brought me the news of . . . of Winterfell. Bran and Rickon.
 
 — Robb to Catelyn Stark, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:143`)
 
@@ -53,7 +53,7 @@ After taking the Crag by storm and being wounded, Robb Stark is nursed by Jeyne 
 
 > "And you are to wed one of his daughters, once the fighting is done," she finished. "His lordship has graciously consented to allow you to choose whichever girl you prefer."
 >
-> — Catelyn Stark relaying the terms of the Frey crossing-pact to Robb, AGOT Catelyn IX (`sources/chapters/agot/agot-catelyn-09.md:241`). The betrothal vow Robb later breaks by wedding Jeyne — the origin of the slight that becomes the Red Wedding trigger. Book-cite (S166 harvest, un-parks queue row). The dyadic layer (`robb-stark CONTRACTED_WITH walder-frey`, `robb-stark BREAKS_VOW house-frey`) already exists; this is the promise's navigable Tier-1 origin cite.
+> — Catelyn Stark relaying the terms of the Frey crossing-pact to Robb, AGOT Catelyn IX (`sources/chapters/agot/agot-catelyn-09.md:241`). The betrothal vow Robb later breaks by wedding Jeyne — the origin of the slight that becomes the Red Wedding trigger. Book-cite. The dyadic layer (`robb-stark CONTRACTED_WITH walder-frey`, `robb-stark BREAKS_VOW house-frey`) already exists; this is the promise's navigable Tier-1 origin cite.
 
 ## Foreshadowing
 

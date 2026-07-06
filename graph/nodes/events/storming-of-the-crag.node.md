@@ -57,4 +57,4 @@ Robb is nursed back to health by Lady [Jeyne Westerling](wiki:Jeyne_Westerling).
 >
 > —[Robb Stark](wiki:Robb_Stark) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> **Book-cited (S164 book-citation overlay — PASS 2):** the Crag-storming account above is navigable at `asos-catelyn-02:143` (verbatim). Grey Wind's raid kill-tally — *"Grey Wind killed a man at the Crag, another at Ashemark, and six or seven at Oxcross."* — is `asos-catelyn-02:185`. Robb's framing of the Crag→marriage nexus — *"I took her castle and she took my heart."* — `asos-catelyn-02:143`.
+> **Book-cited:** the Crag-storming account above is navigable at `asos-catelyn-02:143` (verbatim). Grey Wind's raid kill-tally — *"Grey Wind killed a man at the Crag, another at Ashemark, and six or seven at Oxcross."* — is `asos-catelyn-02:185`. Robb's framing of the Crag→marriage nexus — *"I took her castle and she took my heart."* — `asos-catelyn-02:143`.

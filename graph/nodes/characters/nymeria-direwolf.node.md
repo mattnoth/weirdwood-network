@@ -101,7 +101,7 @@ Arya, now using the identity of "Mercy", a [mummer](wiki:Mummer) at [the Gate](w
 
 > They say the pack is led by a monstrous she-wolf, a stalking shadow grim and grey and huge. They will tell you that she has been known to bring [aurochs](wiki:Aurochs) down all by herself, that no trap nor snare can hold her, that she fears neither steel nor fire, slays any [wolf](wiki:Wolf) that tries to mount her, and devours no other flesh but man.(wiki:Nymeria_(direwolf).cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
 >
-> —Septon [Meribald](wiki:Meribald) to Brienne's party. Book-cite overlay: AFFC Brienne V (`sources/chapters/affc/affc-brienne-05.md:259`). [DRIFT: route cited brienne-07:259; passage is in brienne-05 at that line number.] Meribald also notes "even set Dog to shivering, and Dog has killed a dozen wolves" — the only creature in the riverlands that frightens his battle-dog.
+> —Septon [Meribald](wiki:Meribald) to Brienne's party. AFFC Brienne V (`sources/chapters/affc/affc-brienne-05.md:259`). [DRIFT: route cited brienne-07:259; passage is in brienne-05 at that line number.] Meribald also notes "even set Dog to shivering, and Dog has killed a dozen wolves" — the only creature in the riverlands that frightens his battle-dog.
 >
 > —[Meribald](wiki:Meribald) to [Hyle Hunt](wiki:Hyle_Hunt)
 

@@ -28,7 +28,7 @@ sort_keys:
 
 After Robb Stark breaks his marriage pact, Lord Walder Frey turns to revenge. He conspires with Roose Bolton — Robb's own bannerman, who has wed Walder's granddaughter Walda — and secures the sanction and protection of Lord Tywin Lannister, Hand of the King, to bring House Frey back to the Iron Throne's side. The plot is to lure Robb and his host to the Twins under guest right, for the wedding of Edmure Tully and Roslin Frey, and slaughter them there. Tywin later admits he countenanced the scheme while assigning public blame to Walder. This conspiracy is the covert engine that produces the Red Wedding; it is modeled as a discrete event-hub wired causally INTO the Red Wedding (not as an umbrella parent over it).
 
-> **Note (S107):** the three role edges (Walder Frey COMMANDS_IN, Roose Bolton AGENT_IN, Tywin Lannister COMMANDS_IN) are all ASOS-chapter-grounded. Lothar "Lame Lothar" Frey (the *arranger*) and Ryman Frey were deliberately NOT added — their roles are attested only in the wiki / Merrett Frey's AFFC account, not in an ASOS POV chapter. Add them later if a fuller conspirator roster is wanted (they'd be `AGENT_IN`, evidence_kind wiki / book-pass1 from AFFC).
+> **Note:** the three role edges (Walder Frey COMMANDS_IN, Roose Bolton AGENT_IN, Tywin Lannister COMMANDS_IN) are all ASOS-chapter-grounded. Lothar "Lame Lothar" Frey (the *arranger*) and Ryman Frey were deliberately NOT added — their roles are attested only in the wiki / Merrett Frey's AFFC account, not in an ASOS POV chapter. Add them later if a fuller conspirator roster is wanted (they'd be `AGENT_IN`, evidence_kind wiki / book-pass1 from AFFC).
 
 ## Edges
 

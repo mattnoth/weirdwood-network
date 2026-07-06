@@ -40,7 +40,7 @@ The graph previously routed the marriage off a single `sons-of-the-harpy-kill-tw
 wedding` edge. That over-claimed immediacy (weeks of deliberation, the Green Grace's brokering, and an
 explicit ninety-day bargain sit between the killings and the wedding) and implied a single spark when
 the marriage is genuinely **many-to-one** (a convergence hub): the insurgency + the external siege +
-the Green Grace's counsel + Dany's pragmatism. The TRIGGERS was dropped (S121); the killings' role is
+the Green Grace's counsel + Dany's pragmatism. The TRIGGERS was dropped; the killings' role is
 carried honestly by the existing `sons-of-the-harpy-kill-twenty-nine MOTIVATES daenerys-targaryen`, and
 this node supplies the proximate external cause.
 

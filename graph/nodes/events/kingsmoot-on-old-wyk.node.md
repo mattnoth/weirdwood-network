@@ -27,7 +27,7 @@ sort_keys:
 
 ## Identity
 
-The Kingsmoot on Old Wyk is the assembly of ironborn captains and kings convened on the holy isle of [Old Wyk](old-wyk) at [Nagga's Hill](naggas-hill) to choose a successor after [Balon Greyjoy's death](death-of-balon-greyjoy) — the first true kingsmoot held in thousands of years. [Aeron Damphair](aeron-greyjoy) summons it in the name of the Drowned God to deny the godless [Euron Greyjoy](euron-greyjoy), who has already [seized the Seastone Chair](euron-seizes-the-seastone-chair). [Asha Greyjoy](asha-greyjoy) (offering peace and the north) and [Victarion Greyjoy](victarion-greyjoy) (offering to finish Balon's war) both stake claims, but Euron wins the driftwood crown by sounding the Valyrian dragon-horn [Dragonbinder](dragonbinder) and promising to conquer all of Westeros. Retyped from `event.battle` to `event.ceremony` (S116) — it is an election/assembly, not an armed engagement.
+The Kingsmoot on Old Wyk is the assembly of ironborn captains and kings convened on the holy isle of [Old Wyk](old-wyk) at [Nagga's Hill](naggas-hill) to choose a successor after [Balon Greyjoy's death](death-of-balon-greyjoy) — the first true kingsmoot held in thousands of years. [Aeron Damphair](aeron-greyjoy) summons it in the name of the Drowned God to deny the godless [Euron Greyjoy](euron-greyjoy), who has already [seized the Seastone Chair](euron-seizes-the-seastone-chair). [Asha Greyjoy](asha-greyjoy) (offering peace and the north) and [Victarion Greyjoy](victarion-greyjoy) (offering to finish Balon's war) both stake claims, but Euron wins the driftwood crown by sounding the Valyrian dragon-horn [Dragonbinder](dragonbinder) and promising to conquer all of Westeros. Retyped from `event.battle` to `event.ceremony` — it is an election/assembly, not an armed engagement.
 
 ## Edges
 
@@ -63,7 +63,7 @@ Seek the [hill of Nagga](wiki:Nagga's_hill) and the bones of the [Grey King's Ha
 
 — [Victarion Greyjoy](victarion-greyjoy)'s pre-kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:73`)
 
-> Dark clouds ran before the wind as the first light stole into the world … Beneath them, thralls and salt wives begin to move about, stirring coals into new life and gutting fish for the captains and the kings to break their fasts. The dawnlight touched the stony strand, and he watched men wake from sleep, throwing aside their sealskin blankets as they called for their first horn of ale.
+> Beneath them, thralls and salt wives begin to move about, stirring coals into new life and gutting fish for the captains and the kings to break their fasts. The dawnlight touched the stony strand, and he watched men wake from sleep, throwing aside their sealskin blankets as they called for their first horn of ale.
 
 — [Aeron Damphair](aeron-greyjoy) at dawn before the kingsmoot, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:27`)
 The [Drowned God](wiki:Drowned_God) must have shoved a pricklefish up [Uncle Aeron's](wiki:Aeron_Greyjoy) arse. A [kingsmoot](wiki:Kingsmoot)? Is this some jape, or does he mean it truly?(wiki:Kingsmoot_on_Old_Wyk.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)

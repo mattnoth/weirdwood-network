@@ -18,13 +18,6 @@ A devotional hymn to the Mother, one of the seven faces of the Faith of the Seve
 
 ## Quotes
 
-> "Gentle Mother, font of mercy,
-> save our sons from war, we pray,
-> stay the swords and stay the arrows,
-> let them know a better day.
-> Gentle Mother, strength of women,
-> help our daughters through this fray,
-> soothe the wrath and tame the fury,
-> teach us all a kinder way."
+> Gentle Mother, font of mercy, save our sons from war, we pray, stay the swords and stay the arrows,
 
 — Sansa singing under Sandor Clegane's knife, ACOK Sansa VII, `sources/chapters/acok/acok-sansa-07.md:109`

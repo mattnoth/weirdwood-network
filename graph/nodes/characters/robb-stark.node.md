@@ -176,8 +176,7 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 >
 > —Robb to [Brynden Tully](wiki:Brynden_Tully)
 
-> I have won every battle, yet somehow I'm losing the war.(wiki:Robb_Stark.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-3)
->
+> “I have won every battle, yet somehow I’m losing the war.”
 > —Robb to [Catelyn Stark](wiki:Catelyn_Stark), ASOS Catelyn IV (`sources/chapters/asos/asos-catelyn-04.md:101`)
 
 > **Catelyn**: You would not be the first king to bend the knee, nor even the first [Stark](wiki:House_Stark).
@@ -258,8 +257,7 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 >
 > —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> Even war-trained destriers went mad. Knights were trampled to death in their pavilions, and the rabble woke in terror and fled, casting aside their weapons to run the faster. Those who survived are spreading wild tales and swearing that the old gods of the north march with your brother.
->
+> Even war-trained destriers went mad. Knights were trampled to death in their pavilions, and the rabble woke in terror and fled, casting aside their weapons to run the faster.
 > — sources/chapters/acok/acok-sansa-03.md:153 · Tyrion's eyewitness-quality account (via intelligence) of the panic Grey Wind caused — best evidence for Robb's supernatural-terror reputation at Oxcross.  _(capture: chapter-quote sweep, other)_
 
 > Catelyn watched a breeze stir his auburn hair, so like her own, and wondered when her son had grown so big. Fifteen, and near as tall as she was.

@@ -55,6 +55,6 @@ Pike, [trout](wiki:Trout), and [salmon](wiki:Salmon) from the lakes and rivers o
 
 > The wedding feast began with a thin leek soup, followed by a salad of green beans, onions, and beets, river pike poached in almond milk, mounds of mashed turnips that were cold before they reached the table, jellied calves' brains, and a leche of stringy beef.
 
-— ASOS Chapter 51 (Red Wedding), `sources/chapters/asos/asos-catelyn-07.md:17`
+— Red Wedding, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:17`)
 
 A pike of unprecedented size had been caught in the [Skahazadhan](wiki:Skahazadhan), and the fisherman wished to give it to the queen. She admired the fish extravagantly, rewarded the fisherman with a purse of [silver](wiki:Silver), and sent the pike to her kitchens.(wiki:Pike.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)

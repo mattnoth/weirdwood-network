@@ -31,7 +31,7 @@ On his deathbed after the boar's goring, [King Robert Baratheon](robert-baratheo
 
 ## Edges
 
-(Causal/role edges live in `graph/edges/edges.jsonl`. [Eddard Stark](eddard-stark) is the orderer of the cancellation (COMMANDS_IN, Tier-1); [Varys](varys) is the agent tasked with unmaking it (AGENT_IN, Tier-1); [Daenerys](daenerys-targaryen) is the subject (VICTIM_IN, Tier-1). This cancellation is the negation of [Robert's assassination order](robert-orders-daenerys-assassination) — but fresh-verify (S119) declined a CAUSES edge from the order: the order is the *object* being cancelled, not the cause. The true cause is Robert's deathbed change of heart (unmodeled), so this node carries no causal upstream by design. Node repaired S119 essos-root track [was a bare Plate-3 skeleton].)
+(Causal/role edges live in `graph/edges/edges.jsonl`. [Eddard Stark](eddard-stark) is the orderer of the cancellation (COMMANDS_IN, Tier-1); [Varys](varys) is the agent tasked with unmaking it (AGENT_IN, Tier-1); [Daenerys](daenerys-targaryen) is the subject (VICTIM_IN, Tier-1). This cancellation is the negation of [Robert's assassination order](robert-orders-daenerys-assassination) — but fresh-verify declined a CAUSES edge from the order: the order is the *object* being cancelled, not the cause. The true cause is Robert's deathbed change of heart (unmodeled), so this node carries no causal upstream by design. Node repaired S119 essos-root track [was a bare Plate-3 skeleton].)
 
 ## Quotes
 
@@ -39,6 +39,6 @@ On his deathbed after the boar's goring, [King Robert Baratheon](robert-baratheo
 
 — Robert Baratheon, AGOT Eddard XIII (`sources/chapters/agot/agot-eddard-13.md:89`)
 
-> "Robert had a change of heart concerning Daenerys Targaryen. Whatever arrangements you made, I want unmade. At once." ... "Alas," said Varys. "At once may be too late. I fear those birds have flown."
+> Robert had a change of heart concerning Daenerys Targaryen. Whatever arrangements you made, I want unmade. At once.” “Alas,” said Varys. “At once may be too late. I fear those birds have flown.
 
 — Eddard Stark and Varys, AGOT Eddard XIII (`sources/chapters/agot/agot-eddard-13.md:153`)

@@ -36,7 +36,7 @@ At the abandoned [Nightfort](nightfort), [Bran](bran-stark)'s party reaches the 
 
 ## Quotes
 
-> "Only a man of the Night's Watch can open it," he said. "A Sworn Brother who has said his words."
+> “Only a man of the Night’s Watch can open it, he said. A Sworn Brother who has said his words.”
 
 — The oath requirement that makes Sam structurally required. Bran POV, ASOS Bran IV (`sources/chapters/asos/asos-bran-04.md:217`)
 

@@ -305,7 +305,7 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 >
 > —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
 
-> Stannis Baratheon, Lord of Dragonstone and by the grace of the gods rightful heir to the Iron Throne of the Seven Kingdoms of Westeros, was broad of shoulder and sinewy of limb, with a tightness to his face and flesh that spoke of leather cured in the sun until it was as tough as steel. Hard was the word men used when they spoke of Stannis, and hard he was. Though he was not yet five-and-thirty, only a fringe of thin black hair remained on his head, circling behind his ears like the shadow of a crown... They lay like a blue-black shadow across his square jaw and the bony hollows of his cheeks. His eyes were open wounds beneath his heavy brows, a blue as dark as the sea by night. His mouth would have given despair to even the drollest of fools; it was a mouth made for frowns and scowls and sharply worded commands, all thin pale lips and clenched muscles, a mouth that had forgotten how to smile and had never known how to laugh.
+> Stannis Baratheon, Lord of Dragonstone and by the grace of the gods rightful heir to the Iron Throne of the Seven Kingdoms of Westeros, was broad of shoulder and sinewy of limb, with a tightness to his face and flesh that spoke of leather cured in the sun until it was as tough as steel. Hard was the word men used when they spoke of Stannis, and hard he was. Though he was not yet five-and-thirty, only a fringe of thin black hair remained on his head, circling behind his ears like the shadow of a crown.
 
 — Maester Cressen's perspective, ACOK Prologue (`sources/chapters/acok/acok-prologue.md:169`) [L823]
 
@@ -321,6 +321,6 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 
 — Stannis to Davos, ACOK Davos I (`sources/chapters/acok/acok-davos-01.md:263`) [L825]
 
-> Lightbringer! It glimmers prettily, I'll grant you, but on the Blackwater this magic sword served me no better than any common steel.
+> It glimmers prettily, I’ll grant you, but on the Blackwater this magic sword served me no better than any common steel.
 
 — Stannis to Davos, ASOS Davos V (`sources/chapters/asos/asos-davos-05.md:147`) [L827]

@@ -29,9 +29,9 @@ Connington dresses the boy as "a proper prince" for his presentation to the Gold
 
 > The prince wore sword and dagger, black boots polished to a high sheen, a black cloak lined with blood-red silk. With his hair washed and cut and freshly dyed a deep, dark blue, his eyes looked blue as well. At his throat he wore three huge square-cut rubies on a chain of black iron, a gift from Magister Illyrio. Red and black. Dragon colors.
 
-— `sources/chapters/adwd/adwd-the-lost-lord-01.md:61` (book-cite overlay)
+— `sources/chapters/adwd/adwd-the-lost-lord-01.md:61`
 
-Book-cite overlay — Tyrion's first in-person view of Young Griff's eyes (ADWD Tyrion IV): "Like his sire, Young Griff had blue eyes, but where the father's eyes were pale, the son's were dark. By lamplight they turned black, and in the light of dusk they seemed purple. His eyelashes were as long as any woman's." (`sources/chapters/adwd/adwd-tyrion-04.md:77`) — The eye-color ambiguity (dyed-blue by day, purple in the right light) is the key physical tell of hidden Targaryen blood.
+Tyrion's first in-person view of Young Griff's eyes (ADWD Tyrion IV): "Like his sire, Young Griff had blue eyes, but where the father's eyes were pale, the son's were dark. By lamplight they turned black, and in the light of dusk they seemed purple. His eyelashes were as long as any woman's." (`sources/chapters/adwd/adwd-tyrion-04.md:77`) — The eye-color ambiguity (dyed-blue by day, purple in the right light) is the key physical tell of hidden Targaryen blood.
 
 [Illyrio Mopatis](wiki:Illyrio_Mopatis) says there has never been a nobler lad than Young Griff.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 

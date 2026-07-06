@@ -64,12 +64,10 @@ Jon Snow's direwolf, [Ghost](wiki:Ghost), is aware that his littermate Grey Wind
 
 — BWB member (yellow cloak), ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:163`)
 
-> She heard the crash of distant battle, and closer the wild howling of a wolf. Grey Wind, she remembered too late.
->
+> heard the crash of distant battle, and closer the wild howling of a wolf. Grey Wind, she remembered too late.
 > — Catelyn Stark, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:113`)
 
-> Somewhere far off she heard a wolf howling. … Only maybe it wasn't her ears that heard it. The sound shivered through Arya like a knife, sharp with rage and grief.
->
+> Only maybe it wasn’t her ears that heard it. The sound shivered through Arya like a knife, sharp with rage and grief.
 > — Arya Stark (warg-bond resonance), ASOS Arya XI (`sources/chapters/asos/asos-arya-11.md:19`)
 
 > I saw [Lord Umber](wiki:Greatjon_Umber)'s giant-in chains and the [Mallister](wiki:House_Mallister) eagle, but it was [the boy](wiki:Robb_Stark) who led them, with a monstrous wolf running at his side. I wasn't there to see, but it's said the beast killed four men and ripped apart a dozen [horses](wiki:Horse).(wiki:Grey_Wind.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)

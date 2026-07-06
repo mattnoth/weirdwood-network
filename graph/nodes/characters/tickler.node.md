@@ -27,7 +27,7 @@ Tickler is a character.human from the AWOIAF wiki.
 
 The Tickler is of medium height and build, with a face so ordinary it is difficult to establish his age.(wiki:Tickler.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) The Tickler casually inflicts pain.(wiki:Tickler.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
-Book-cite overlay — Arya's first sight: "His face was so ordinary and his garb so plain that Arya might have thought him one of the villagers before she had seen him at his work." ACOK Arya VI (`sources/chapters/acok/acok-arya-06.md:23`) [L791]
+Arya's first sight: "His face was so ordinary and his garb so plain that Arya might have thought him one of the villagers before she had seen him at his work." ACOK Arya VI (`sources/chapters/acok/acok-arya-06.md:23`) [L791]
 
 The Tickler wears plain garb like that of the [smallfolk](wiki:Smallfolk).(wiki:Tickler.cite_ref-Racok26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) An agile man, he uses a shortsword, dagger, and throwing knives.(wiki:Tickler.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 

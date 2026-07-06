@@ -32,11 +32,11 @@ Upon [Joffrey's death](wiki:Purple_Wedding), Widow's Wail passes to his younger 
 
 ## Quotes
 
-> "'Widow's Wail!' he cried. 'Yes! It shall make many a widow, too!'"
+> “Widow’s Wail!” he cried. “Yes! It shall make many a widow, too!”
 
 — Joffrey naming the sword, ASOS Sansa IV, `sources/chapters/asos/asos-sansa-04.md:105`
 
-> "Ser Ilyn's greatsword was as long and wide as Ice, but it was too silvery-bright… 'What has Ser Ilyn done with my father's sword?'"
+> Ser Ilyn’s greatsword was as long and wide as Ice, but it was too silvery-bright;
 
 — Tyrion/Sansa (Sansa recognizes Ice has been reforged into Widow's Wail), ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:275`
 

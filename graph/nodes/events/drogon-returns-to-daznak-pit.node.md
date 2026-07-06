@@ -37,7 +37,7 @@ At the reopening of [Daznak's Pit](daznaks-pit) — the fighting games [Daenerys
 
 ## Quotes
 
-> Above them all the dragon turned, dark against the sun. His scales were black, his eyes and horns and spinal plates blood red. … He flapped them once as he swept back above the sands, and the sound was like a clap of thunder. … Drogon landed on the carcass and sank his claws into the smoking flesh. As he began to feed, he made no distinction between Barsena and the boar.
+> Drogon landed on the carcass and sank his claws into the smoking flesh. As he began to feed, he made no distinction between Barsena and the boar.
 
 — Drogon descends on the pit, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:233`)
 
@@ -47,7 +47,7 @@ At the reopening of [Daznak's Pit](daznaks-pit) — the fighting games [Daenerys
 
 > I am looking into hell, but I dare not look away. She had never been so certain of anything. If I run from him, he will burn me and devour me.
 
-— Daenerys's internal state as Drogon bears down on her in the pit; the moment of submission/dominance that precedes her mounting him, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:257`) [book-cite overlay — the drogon.node.md has this as a wiki-cite; this cite is navigable]
+— Daenerys's internal state as Drogon bears down on her in the pit; the moment of submission/dominance that precedes her mounting him, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:257`) [The drogon.node.md has this as a wiki-cite; this cite is navigable]
 
 > He is fire made flesh, she thought, and so am I.
 

@@ -38,6 +38,6 @@ Grand Maester Pycelle, having privately judged Robert's Rebellion lost after Rha
 
 ## Quotes
 
-> "All I did, I did for House Lannister." ... "Always . . . for years . . . your lord father, ask him, I was ever his true servant . . . 'twas I who bid Aerys open his gates . . ." "So the Sack of King's Landing was your work as well?" "For the realm! Once Rhaegar died, the war was done."
+> Always . . . for years . . . your lord father, ask him, I was ever his true servant . . . ’twas I who bid Aerys open his gates
 
 — Pycelle confessing to Tyrion, ACOK Tyrion VI (`sources/chapters/acok/acok-tyrion-06.md:291`)

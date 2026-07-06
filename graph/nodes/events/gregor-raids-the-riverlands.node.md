@@ -29,7 +29,7 @@ sort_keys:
 
 In answer to Catelyn Stark's seizure of his son Tyrion, Lord Tywin Lannister sends Ser Gregor Clegane to burn and pillage the riverlands — Sherrer, Wendish Town, and the Mummer's Ford — riding without banners, in the guise of common brigands, to goad House Tully into breaking the king's peace first. This is the first open blood of the conflict that becomes the War of the Five Kings. The villagers' plea brings the raids before Eddard Stark's court at King's Landing.
 
-This node is the **hard-stop terminus** of the Bran's-fall causal chain (S105 decision): the chain extends one defensible hop past Tyrion's capture and stops here — it does NOT assert a direct `CAUSES` edge to `war-of-the-five-kings`, whose causation is multi-attributed.
+This node is the **hard-stop terminus** of the Bran's-fall causal chain: the chain extends one defensible hop past Tyrion's capture and stops here — it does NOT assert a direct `CAUSES` edge to `war-of-the-five-kings`, whose causation is multi-attributed.
 
 ## Edges
 
@@ -41,6 +41,6 @@ This node is the **hard-stop terminus** of the Bran's-fall causal chain (S105 de
 
 — AGOT Eddard XI (`sources/chapters/agot/agot-eddard-11.md:23`)
 
-> If indeed he'd sent Ser Gregor to burn and pillage — and Ned did not doubt that he had — he'd taken care to see that he rode under cover of night, without banners, in the guise of a common brigand.
+> If indeed he’d sent Ser Gregor to burn and pillage—and Ned did not doubt that he had—he’d taken care to see that he rode under cover of night, without banners, in the guise of a common brigand.
 
 — AGOT Eddard XI (`sources/chapters/agot/agot-eddard-11.md:113`)

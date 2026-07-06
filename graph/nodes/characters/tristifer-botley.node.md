@@ -35,7 +35,7 @@ Tristifer has messy brown hair and large eyes. He was pimpled as a boy. Although
 
 > Tristifer Botley had filled out since last she'd seen him, but he had the same unruly hair that she remembered, and eyes as large and trusting as a seal's. Sweet eyes, truly. That was the trouble with poor Tristifer; he was too sweet for the Iron Islands. His face has grown comely, she thought. As a boy Tris had been much troubled by pimples.
 
-— [Asha Greyjoy](asha-greyjoy)'s POV on first seeing Tris at Ten Towers, AFFC The Kraken's Daughter I (`sources/chapters/affc/affc-the-krakens-daughter-01.md:219`) *(book-cite overlay — same physical details appear in wiki prose above)*
+— [Asha Greyjoy](asha-greyjoy)'s POV on first seeing Tris at Ten Towers, AFFC The Kraken's Daughter I (`sources/chapters/affc/affc-the-krakens-daughter-01.md:219`)
 
 Tris wears a [sealskin](wiki:Seal) cloak.(wiki:Tristifer_Botley.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 

@@ -34,7 +34,7 @@ under Dornish protection.
 
 ## Quotes
 
-> "...it would appear that her horse shied away from his at the last instant, else he would have taken off the top of the girl's skull. As it is, the slash opened her cheek down to the bone and sliced off her right ear. Maester Caleotte was able to save her life, but no poultice nor potion will ever restore her face."
+> it would appear that her horse shied away from his at the last instant, else he would have taken off the top of the girl’s skull. As it is, the slash opened her cheek down to the bone and sliced off her right ear. Maester Caleotte was able to save her life, but no poultice nor potion will ever restore her face.
 
 — [Doran Martell](doran-martell) to [Arianne Martell](arianne-martell) on what Darkstar did to Myrcella, AFFC The Princess in the Tower (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:169`)
 

@@ -30,7 +30,7 @@ sort_keys:
 
 # Jon is stabbed repeatedly
 
-> **Merge note (S126):** This node absorbs the former `mutiny-at-castle-black` wiki node (now a `same_as` redirect). "Jon is stabbed repeatedly" and the "Mutiny at Castle Black" are the same ADWD Jon XIII event; this is the canonical survivor — it carries the curated role-edge structure (Jon VICTIM_IN; Bowen Marsh / Wick Whittlestick AGENT_IN; BETRAYS edges; LOCATED_AT Castle Black) and is the NORTH-container hard terminus. The tier-1 wiki Origins prose was ported here from the redirect.
+> **Merge note:** This node absorbs the former `mutiny-at-castle-black` wiki node (now a `same_as` redirect). "Jon is stabbed repeatedly" and the "Mutiny at Castle Black" are the same ADWD Jon XIII event; this is the canonical survivor — it carries the curated role-edge structure (Jon VICTIM_IN; Bowen Marsh / Wick Whittlestick AGENT_IN; BETRAYS edges; LOCATED_AT Castle Black) and is the NORTH-container hard terminus. The tier-1 wiki Origins prose was ported here from the redirect.
 
 ## Identity
 

@@ -97,8 +97,7 @@ They're never far, you know. They won't come out by day, not when that old sun's
 >
 > — Will observing an Other's blade, AGOT Prologue, `sources/chapters/agot/agot-prologue.md:187` (the blade also "sliced through ringmail as if it were silk," :213)
 
-> *[In-world legend / folklore — not asserted as canon fact; this is Old Nan's hearth-tale as reported by Bran's narration:]* "And their women lay with the Others in the Long Night to sire terrible half-human children."
->
+> And their women lay with the Others in the Long Night to sire terrible half-human children.
 > — Old Nan's hearth-tale as recalled by Bran Stark, AGOT Bran I, `sources/chapters/agot/agot-bran-01.md:13`
 
 > "The fisherfolk near Eastwatch have glimpsed white walkers on the shore."
@@ -109,6 +108,5 @@ They're never far, you know. They won't come out by day, not when that old sun's
 >
 > — Tyrion Lannister (skeptic foil to Mormont's warning), AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:109`
 
-> "… Tyrion Lannister felt as though he could almost believe the talk of the Others, the enemy in the night. His jokes of grumkins and snarks no longer seemed quite so droll."
->
+> Tyrion Lannister felt as though he could almost believe the talk of the Others, the enemy in the night. His jokes of grumkins and snarks no longer seemed quite so droll.
 > — thoughts of Tyrion Lannister atop the Wall, AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:207`

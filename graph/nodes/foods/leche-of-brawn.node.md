@@ -20,8 +20,8 @@ Leche of brawn is a molded, sliced dish of pressed pork (brawn), spiced with cin
 
 > The wedding feast began with a thin leek soup, followed by a salad of green beans, onions, and beets, river pike poached in almond milk, mounds of mashed turnips that were cold before they reached the table, jellied calves' brains, and a leche of stringy beef.
 
-— ASOS Chapter 51 (Red Wedding), `sources/chapters/asos/asos-catelyn-07.md:17`
+— Red Wedding, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:17`)
 
 > Tyrion was toying with a leche of brawn, spiced with cinnamon, cloves, sugar, and almond milk, when King Joffrey lurched suddenly to his feet.
 
-— ASOS Chapter 60 (Purple Wedding), `sources/chapters/asos/asos-tyrion-08.md:205`
+— Purple Wedding, ASOS Tyrion VIII (`sources/chapters/asos/asos-tyrion-08.md:205`)

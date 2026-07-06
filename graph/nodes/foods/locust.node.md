@@ -42,6 +42,6 @@ As part of the plot devised by [Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq) and Ser
 
 ## Quotes
 
-> They broke their fast with warm soft flatbread, pink fish roe, honey sausage, and fried locusts, washed down with a bittersweet black ale. … He popped a locust into his mouth and crunched it. "Not bad. For a bug."
+> They broke their fast with warm soft flatbread, pink fish roe, honey sausage, and fried locusts, washed down with a bittersweet black ale.
 
-— ADWD Chapter 27 (Tyrion VII), `sources/chapters/adwd/adwd-tyrion-07.md:247`
+— ADWD Tyrion VII (`sources/chapters/adwd/adwd-tyrion-07.md:247`)

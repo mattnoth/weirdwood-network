@@ -46,15 +46,15 @@ Fat mushrooms are among the foods served at the [crossroads inn](wiki:Crossroads
 
 > The first dish was a creamy soup of mushrooms and buttered snails, served in gilded bowls.
 
-— ASOS Chapter 60 (Purple Wedding), `sources/chapters/asos/asos-tyrion-08.md:133`
+— Purple Wedding, ASOS Tyrion VIII (`sources/chapters/asos/asos-tyrion-08.md:133`)
 
 > Then came lamprey pie, honeyed ham, buttered carrots, white beans and bacon, and roast swan stuffed with mushrooms and oysters.
 
-— ACOK Chapter 54, `sources/chapters/acok/acok-tyrion-12.md:49`
+— ACOK Tyrion XII (`sources/chapters/acok/acok-tyrion-12.md:49`)
 
 [My sister](wiki:Cersei_Lannister) has mistaken me for a mushroom. She keeps me in the dark and feeds me shit.(wiki:Mushroom_(fungi).cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
 Better a mushroom than a sword through your neck, is it not so? Why die with the taste of blood in your mouth when it could be butter and garlic?(wiki:Mushroom_(fungi).cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
 > "Mushrooms," the magister announced, as the smell wafted up. "Kissed with garlic and bathed in butter. I am told the taste is exquisite. Have one, my friend. Have two."
 
-— ADWD Chapter 5 (Tyrion I), `sources/chapters/adwd/adwd-tyrion-01.md:187`
+— ADWD Tyrion I (`sources/chapters/adwd/adwd-tyrion-01.md:187`)

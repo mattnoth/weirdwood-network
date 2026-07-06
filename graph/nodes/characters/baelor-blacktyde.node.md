@@ -50,7 +50,7 @@ After [Euron Greyjoy](wiki:Euron_Greyjoy) is raised as [King of the Iron Islands
 >
 > —Baelor to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
-> Balon was mad, Aeron is madder, and Euron is maddest of them all.
+> “Balon was mad, Aeron is madder, and Euron is maddest of them all,”
 
 — Baelor Blacktyde to [Victarion Greyjoy](victarion-greyjoy) at the pre-kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:83`) [L893]
 

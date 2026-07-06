@@ -20,4 +20,4 @@ Buttermilk is a soured dairy drink used in Westeros as a stomach-settler. Sansa 
 
 > She drank a glass of buttermilk and nibbled at some sweet biscuits as she waited, to settle her stomach.
 
-— AGOT Chapter 67 (Sansa VI), `sources/chapters/agot/agot-sansa-06.md:69`
+— AGOT Sansa VI (`sources/chapters/agot/agot-sansa-06.md:69`)

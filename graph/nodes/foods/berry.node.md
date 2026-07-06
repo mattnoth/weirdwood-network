@@ -52,8 +52,8 @@ The postern gate on the north side of the [Whispers](wiki:Whispers)
 
 > A man was pushing a load of tarts by on a two-wheeled cart; the smells sang of blueberries and lemons and apricots.
 
-— AGOT Chapter 65 (Arya V), `sources/chapters/agot/agot-arya-05.md:19` is overun by a huge blackberry bramble.(wiki:Berry.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+— AGOT Arya V (`sources/chapters/agot/agot-arya-05.md:19`) is overun by a huge blackberry bramble.(wiki:Berry.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
 
 > When Little Lew Piper came galloping up with a helm full of blackberries, Jaime ate a handful and told the boy to share the rest with his fellow squires and Ser Ilyn Payne.
 
-— AFFC Chapter 27 (Jaime III), `sources/chapters/affc/affc-jaime-03.md:104`
+— AFFC Jaime III (`sources/chapters/affc/affc-jaime-03.md:101`)

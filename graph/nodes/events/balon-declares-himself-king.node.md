@@ -40,7 +40,7 @@ When [Robb Stark](robb-stark) sent his former ward [Theon Greyjoy](theon-greyjoy
 
 — Balon Greyjoy to Theon, ACOK Theon I (`sources/chapters/acok/acok-theon-01.md:361`)
 
-> "I mean to carve out a kingdom with fire and sword . . . but not from the west, and not at the bidding of King Robb the Boy. ... I hunger for a different plum . . . not so juicy sweet, to be sure, yet it hangs there ripe and undefended."
+> I mean to carve out a kingdom with fire and sword . . . but not from the west, and not at the bidding of King Robb the Boy.
 
 — Balon Greyjoy naming the North as his target, ACOK Theon I (`sources/chapters/acok/acok-theon-01.md:365`)
 

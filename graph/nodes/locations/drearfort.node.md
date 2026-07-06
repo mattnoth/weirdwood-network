@@ -23,7 +23,7 @@ Drearfort is a location from the AWOIAF wiki.
 The old flint tower is located on the smallest of the [Fingers](wiki:Fingers).(wiki:Drearfort.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) It has arrowslits for defense but no windows.(wiki:Drearfort.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 An open stone stair winds around the inside wall from the undercroft to the roof, and each of its floors has only one room. The undercroft is likely used for storage. The ground level houses servants—including [Umfred](wiki:Umfred), [Grisel](wiki:Grisel), [Bryen](wiki:Bryen), and [Kella](wiki:Kella)—and dogs in the kitchen. The middle floor is a modest hall, and a broken longsword and an oaken shield depicting the [titan's head](wiki:Titan_of_Braavos) of [House Baelish](wiki:House_Baelish) hang above its hearth.
 
-**Book-cite overlay (S152 harvest):** Verbatim heraldry of the Baelish shield, including the exact blazon:
+Verbatim heraldry of the Baelish shield, including the exact blazon:
 
 > "Above the hearth hung a broken longsword and a battered oaken shield, its paint cracked and flaking. The device painted on the shield was one Sansa did not know; a grey stone head with fiery eyes, upon a light green field. 'My grandfather's shield,' Petyr explained … 'His own father was born in Braavos and came to the Vale as a sellsword in the hire of Lord Corbray, so my grandfather took the head of the Titan as his sigil when he was knighted.'"
 

@@ -120,4 +120,4 @@ Theon resolves the [siege of Moat Cailin](wiki:Siege_of_Moat_Cailin), with the m
 
 > The little crannogman, Howland Reed, had taken her hand from his.
 
-— thoughts of Eddard Stark, AGOT Eddard I (`sources/chapters/agot/agot-eddard-01.md:71`) — book-cite overlay (S134 harvest-consume); places Howland at Lyanna's death, the witness who took her hand from Ned's
+— thoughts of Eddard Stark, AGOT Eddard I (`sources/chapters/agot/agot-eddard-01.md:71`) — Places Howland at Lyanna's death, the witness who took her hand from Ned's

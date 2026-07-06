@@ -97,24 +97,21 @@ During [the wedding](wiki:Purple_Wedding) of Joffrey and Margaery, [Hamish the H
 
 ## Quotes
 
-> A wall of red-hot steel, blazing wood, and swirling [green flame](wiki:Wildfire) stretched before him. The mouth of the [Blackwater Rush](wiki:Blackwater_Rush) had turned into the mouth of hell.(wiki:Battle_of_the_Blackwater.cite_ref-Racok58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-59)
->
+> A wall of red-hot steel, blazing wood, and swirling green flame stretched before him. The mouth of the Blackwater Rush had turned into the mouth of hell.
 > —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:147`)
 
 > He saw another of the hulks he'd stuffed full of King [Aerys's](wiki:Aerys_II_Targaryen) fickle fruits engulfed by the hungry flames. A fountain of [burning jade](wiki:Wildfire) rose from the [the river](wiki:Blackwater_Rush), the blast so bright he had to shield his eyes. Plumes of fire thirty and forty feet high danced upon the waters, crackling and hissing. For a few moments they washed out the screams. There were hundreds in the water, drowning or burning or doing a little of both. Do you hear them shrieking, [Stannis](wiki:Stannis_Baratheon)? Do you see them burning? This is your work as much as mine.(wiki:Battle_of_the_Blackwater.cite_ref-Racok59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> We're delivered, [sweetling](wiki:Sansa_Stark)! They came up the [roseroad](wiki:Roseroad) and along [the riverbank](wiki:Blackwater_Rush), through all the fields [Stannis](wiki:Stannis_Baratheon) had burned, the ashes puffing up around their boots and turning all their armor grey, but oh! the banners must have been bright, the [golden rose](wiki:House_Tyrell) and [golden lion](wiki:House_Lannister) and all the others, the [Marbrand](wiki:House_Marbrand) tree and the [Rowan](wiki:House_Rowan), [Tarly's](wiki:House_Tarly) huntsman and [Redwyne](wiki:House_Redwyne) grapes and [Lady Oakheart's](wiki:Arwyn_Oakheart) leaf. All the [westermen](wiki:Westermen), all the power of [Highgarden](wiki:Highgarden) and [Casterly Rock](wiki:Casterly_Rock)! [Lord Tywin](wiki:Tywin_Lannister) himself had their right wing on the north side of the river, with [Randyll Tarly](wiki:Randyll_Tarly) commanding the center and [Mace Tyrell](wiki:Mace_Tyrell) the left, but the vanguard won the fight. They plunged through Stannis like a lance through a pumpkin, every man of them howling like some demon in steel. And do you know who led the vanguard? Do you? Do you? Do you? It was Lord [Renly](wiki:Renly_Baratheon)! Lord Renly in his green armor, with the fires shimmering off his golden antlers! Lord Renly with his tall spear in his hand! They say he killed Ser [Guyard Morrigen](wiki:Guyard_Morrigen) himself in single combat, and a dozen other great knights as well. It was Renly, it was Renly, it was Renly! Oh! the banners, darling Sansa! Oh! to be a knight!(wiki:Battle_of_the_Blackwater.cite_ref-Racok62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-16)
->
-> —[Dontos Hollard](wiki:Dontos_Hollard) to [Sansa Stark](wiki:Sansa_Stark), ACOK Sansa V (`sources/chapters/acok/acok-sansa-07.md:145`) — the "Renly's ghost" that routs Stannis; the green-armored figure is Garlan Tyrell wearing Renly's armor (Sansa POV, in-the-moment)
+> We’re delivered, sweetling! They came up the roseroad and along the riverbank, through all the fields Stannis had burned, the ashes puffing up around their boots and turning all their armor grey, but oh! the banners must have been bright, the golden rose and golden lion and all the others, the Marbrand tree and the Rowan, Tarly’s huntsman and Redwyne’s grapes and Lady Oakheart’s leaf. All the westermen, all the power of Highgarden and Casterly Rock! Lord Tywin himself had their right wing on the north side of the river, with Randyll Tarly commanding the center and Mace Tyrell the left, but the vanguard won the fight. They plunged through Stannis like a lance through a pumpkin, every man of them howling like some demon in steel. And do you know who led the vanguard? Do you? Do you? Do you?” “Robb?” It was too much to be hoped, but . . . “It was Lord Renly! Lord Renly in his green armor, with the fires shimmering off his golden antlers! Lord Renly with his tall spear in his hand! They say he killed Ser Guyard Morrigen himself in single combat, and a dozen other great knights as well. It was Renly, it was Renly, it was Renly! Oh! the banners, darling Sansa! Oh! to be a knight!
+> —[Dontos Hollard](wiki:Dontos_Hollard) to [Sansa Stark](wiki:Sansa_Stark), ACOK Sansa V (`sources/chapters/acok/acok-sansa-07.md:141`) — the "Renly's ghost" that routs Stannis; the green-armored figure is Garlan Tyrell wearing Renly's armor (Sansa POV, in-the-moment)
 
 > "King Renly's shade was seen as well," the captain said, "slaying right and left as he led the lion lord's van. It's said his green armor took a ghostly glow from the wildfire, and his antlers ran with golden flames."
 
 — The Renly-ghost legend crystallized as it spread; Davos hears it from Captain Khorane on his return to Dragonstone. ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:25`)
 
-> My hirelings betray me, my friends are scourged and shamed, and I lie here rotting. I thought I won the bloody battle. Is this what triumph tastes like?(wiki:Battle_of_the_Blackwater.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-13)
->
+> My hirelings betray me, my friends are scourged and shamed, and I lie here rotting, Tyrion thought. I thought I won the bloody battle. Is this what triumph tastes like?
 > —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts, ASOS Tyrion I (`sources/chapters/asos/asos-tyrion-01.md:79`)
 
 > **Tyrion**: Is it true that [Stannis](wiki:Stannis_Baratheon) was put to rout by [Renly's](wiki:Renly_Baratheon) [ghost](wiki:Ghost)? **Bronn**: From the winch towers, all we saw was banners in the mud and men throwing down their spears to run, but there's hundreds in the pot shops and brothels who'll tell you how they saw Lord Renly kill this one or that one. Most of Stannis's host had been Renly's to start, and they went right back over at the sight of him in that shiny green armor.(wiki:Battle_of_the_Blackwater.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-14)
@@ -137,18 +134,17 @@ During [the wedding](wiki:Purple_Wedding) of Joffrey and Margaery, [Hamish the H
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Kem](wiki:Kem)
 
-> Thousands sailed up the [Blackwater Rush](wiki:Blackwater_Rush), and hundreds came back, Davos reflected. My sons did not die alone. May the Mother have mercy on them all.
->
+> Thousands sailed up the Blackwater Rush, and hundreds came back, Davos reflected. My sons did not die alone. May the Mother have mercy on them all.
 > —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts, returning to Dragonstone, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:153`)
 
 > Fifty feet high, a swirling demon of green flame danced upon the river. It had a dozen hands, in each a whip, and whatever they touched burst into fire.
 
-— Davos Seaworth POV, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:137`) — book-cite overlay (S134 harvest-consume); the wildfire demon after the Swordfish ignites the hulk; Davos treading water watching his fleet consumed
+— Davos Seaworth POV, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:137`) — The wildfire demon after the Swordfish ignites the hulk; Davos treading water watching his fleet consumed
 
-> From inside her Davos saw green gushing from a thousand broken jars, poison from the entrails of a dying beast, glistening, shining, spreading across the surface of the river…
+> From inside her Davos saw green gushing from a thousand broken jars, poison from the entrails of a dying beast, glistening, shining, spreading across the surface of the river
 
-— Davos Seaworth POV, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:131`) — book-cite overlay (S134 harvest-consume); the moment of ignition, Swordfish ramming the wildfire hulk
+— Davos Seaworth POV, ACOK Davos III (`sources/chapters/acok/acok-davos-03.md:131`) — The moment of ignition, Swordfish ramming the wildfire hulk
 
 > A terrible beauty. Like dragonfire. Tyrion wondered if Aegon the Conqueror had felt like this as he flew above his Field of Fire.
 
-— Tyrion Lannister POV watching the river burn, ACOK Tyrion XIII (`sources/chapters/acok/acok-tyrion-13.md:15`) — book-cite overlay (S134 harvest-consume); the wildfire compared to dragonfire; the Field of Fire invoked
+— Tyrion Lannister POV watching the river burn, ACOK Tyrion XIII (`sources/chapters/acok/acok-tyrion-13.md:15`) — The wildfire compared to dragonfire; the Field of Fire invoked

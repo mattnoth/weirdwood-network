@@ -83,6 +83,5 @@ Candles flickered beside the wandering path and back amongst the trees, pale fir
 
 And for one strange moment it seemed as if it were Bran's face carved into the pale trunk of the weirwood, staring down at him with eyes red and wise and sad. Bran's ghost, he thought, but that was madness.[24]—thoughts of Theon Greyjoy
 
-> The night was windless, the snow drifting straight down out of a cold black sky, yet the leaves of the heart tree were rustling his name. "Theon," they seemed to whisper, "Theon." ... A leaf drifted down from above ... "… Bran," the tree murmured.
->
+> The night was windless, the snow drifting straight down out of a cold black sky, yet the leaves of the heart tree were rustling his name. “Theon,” they seemed to whisper, “Theon.” The old gods, he thought. They know me. They know my name. I was Theon of House Greyjoy. I was a ward of Eddard Stark, a friend and brother to his children. “Please.” He fell to his knees. “A sword, that’s all I ask. Let me die as Theon, not as Reek.” Tears trickled down his cheeks, impossibly warm. “I was ironborn. A son … a son of Pyke, of the islands.” A leaf drifted down from above, brushed his brow, and landed in the pool. It floated on the water, red, five-fingered, like a bloody hand. “… Bran,” the tree murmured.
 > —the heart tree whispering to Theon, ADWD A Ghost in Winterfell (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:241`). The greenseer ([Bran](bran-stark)/[Bloodraven](brynden-rivers)) reaching Theon through the weirwood-net; S149 overlay.

@@ -38,7 +38,7 @@ After Balon Greyjoy's surrender at the end of the Greyjoy Rebellion (~289 AC), R
 
 — Theon Greyjoy, ACOK Theon I (`sources/chapters/acok/acok-theon-01.md:43`)
 
-> ...ten years before, when Robert Baratheon's war galley had borne him away to be a ward of Eddard Stark.
+> ten years before, when Robert Baratheon’s war galley had borne him away to be a ward of Eddard Stark.
 
 — ACOK Theon I (`sources/chapters/acok/acok-theon-01.md:11`)
 

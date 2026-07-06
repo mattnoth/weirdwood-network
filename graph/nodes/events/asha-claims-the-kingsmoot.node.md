@@ -35,7 +35,7 @@ At the [kingsmoot on Old Wyk](kingsmoot-on-old-wyk), after [Victarion](victarion
 
 ## Quotes
 
-> But it was not Euron who put an end to the shouting, it was the woman. She put two fingers in her mouth and whistled ... "Nuncle! Nuncle!" Bending, she snatched up a twisted golden collar and bounded up the steps.
+> But it was not Euron who put an end to the shouting, it was the woman. She put two fingers in her mouth and whistled, a sharp shrill sound that cut through the tumult like a knife through curds. “Nuncle! Nuncle!” Bending, she snatched up a twisted golden collar and bounded up the steps.
 
 — AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:107`)
 
@@ -47,6 +47,6 @@ At the [kingsmoot on Old Wyk](kingsmoot-on-old-wyk), after [Victarion](victarion
 
 — Asha Greyjoy, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:133`)
 
-> "I give you the wealth of the Stony Shore," Asha said as the first was upended. An avalanche of pebbles clattered forth ... "I give you the riches of Deepwood" ... Pinecones came pouring out ... "And last, the gold of Winterfell." From the third chest came yellow turnips.
+> “I give you the wealth of the Stony Shore,” Asha said as the first was upended. An avalanche of pebbles clattered forth, cascading down the steps; pebbles grey and black and white, worn smooth by the sea.
 
 — Asha mocks the worth of the conquered north, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:129`)

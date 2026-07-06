@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-05T03:46:00.530536+00:00",
+  "generated_at": "2026-07-06T16:00:51.719851+00:00",
   "entity_type": "events",
   "dry_run": false,
   "entity_count": 732,
   "type_counts": {
-    "event.battle": 279,
-    "event.incident": 160,
-    "event.assassination": 20,
-    "event.war": 31,
-    "event.death": 80,
-    "event.capture": 40,
     "event.wedding": 23,
-    "event.deception": 10,
     "event.tournament": 34,
-    "event.trial": 2,
-    "event.conspiracy": 11,
-    "event.ceremony": 22,
+    "event.war": 31,
+    "event.incident": 160,
     "event.execution": 12,
-    "event.coronation": 2,
+    "event.battle": 279,
+    "event.death": 80,
+    "event.ceremony": 22,
+    "event.deception": 10,
+    "event.capture": 40,
+    "event.assassination": 20,
     "event.feast": 5,
-    "event.decree": 1
+    "event.conspiracy": 11,
+    "event.trial": 2,
+    "event.decree": 1,
+    "event.coronation": 2
   },
   "entities_with_zero_mentions": 695,
   "mention_inverse_slugs": 37,
@@ -79,15 +79,6 @@
       "out_edge_count": 2
     },
     {
-      "slug": "greyjoy-rebellion",
-      "name": "Greyjoy Rebellion",
-      "type": "event.war",
-      "appearances_total": 3,
-      "chapters_referenced_in": 3,
-      "in_edge_count": 7,
-      "out_edge_count": 0
-    },
-    {
       "slug": "battle-of-the-trident",
       "name": "Battle of the Trident",
       "type": "event.battle",
@@ -115,48 +106,12 @@
       "out_edge_count": 2
     },
     {
-      "slug": "sack-of-kings-landing",
-      "name": "Sack of King's Landing",
-      "type": "event.battle",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 98,
-      "out_edge_count": 4
-    },
-    {
-      "slug": "tourney-at-harrenhal",
-      "name": "Tourney at Harrenhal",
-      "type": "event.tournament",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 68,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "siege-of-meereen",
-      "name": "Siege of Meereen",
-      "type": "event.battle",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 51,
-      "out_edge_count": 2
-    },
-    {
-      "slug": "red-wedding",
-      "name": "Red Wedding",
-      "type": "event.wedding",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 308,
-      "out_edge_count": 3
-    },
-    {
-      "slug": "long-night",
-      "name": "Long Night",
+      "slug": "greyjoy-rebellion",
+      "name": "Greyjoy Rebellion",
       "type": "event.war",
-      "appearances_total": 2,
-      "chapters_referenced_in": 2,
-      "in_edge_count": 55,
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 7,
       "out_edge_count": 0
     },
     {
@@ -178,31 +133,76 @@
       "out_edge_count": 0
     },
     {
-      "slug": "pact",
-      "name": "Pact",
+      "slug": "red-wedding",
+      "name": "Red Wedding",
+      "type": "event.wedding",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 308,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "siege-of-meereen",
+      "name": "Siege of Meereen",
       "type": "event.battle",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 13,
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 51,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "tourney-at-harrenhal",
+      "name": "Tourney at Harrenhal",
+      "type": "event.tournament",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 68,
       "out_edge_count": 0
     },
     {
-      "slug": "rape-of-the-three-sisters",
-      "name": "Rape of the Three Sisters",
+      "slug": "sack-of-kings-landing",
+      "name": "Sack of King's Landing",
       "type": "event.battle",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 17,
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 98,
       "out_edge_count": 4
     },
     {
-      "slug": "assault-on-dragonstone",
-      "name": "Assault on Dragonstone",
+      "slug": "long-night",
+      "name": "Long Night",
+      "type": "event.war",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 55,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "tourney-on-prince-joffreys-name-day",
+      "name": "Tourney on Prince Joffrey's name day",
+      "type": "event.tournament",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 32,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "hardhome-catastrophe",
+      "name": "The Hardhome catastrophe",
+      "type": "event.incident",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "greyjoys-rebellion",
+      "name": "Greyjoy's Rebellion",
       "type": "event.battle",
       "appearances_total": 1,
       "chapters_referenced_in": 1,
-      "in_edge_count": 23,
-      "out_edge_count": 2
+      "in_edge_count": 99,
+      "out_edge_count": 12
     }
   ],
   "top_by_in_edges": [

@@ -37,6 +37,6 @@ During the Red Wedding, [Robb Stark](robb-stark)'s direwolf [Grey Wind](grey-win
 
 ## Quotes
 
-> "Stark's direwolf killed four of our wolfhounds and tore the kennelmaster's arm off his shoulder, even after we'd filled him full of quarrels . . ." / "So you sewed his head on Robb Stark's neck after both o' them were dead," said yellow cloak.
+> Stark’s direwolf killed four of our wolfhounds and tore the kennelmaster’s arm off his shoulder, even after we’d filled him full of quarrels . . .” “So you sewed his head on Robb Stark’s neck after both o’ them were dead,” said yellow cloak.
 
 — ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:161-163`)

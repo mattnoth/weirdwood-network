@@ -92,6 +92,5 @@ Jaime makes his contempt for Sybell plain and warns her to stay out of his sight
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Jaime had to wonder how much Lord [Gawen](wiki:Gawen_Westerling) knew about his wife's scheming. How much do we men ever know?(wiki:Sybell_Spicer.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
->
+> Jaime had to wonder how much Lord Gawen knew about his wife’s scheming. How much do we men ever know?
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister), AFFC Jaime VII (`sources/chapters/affc/affc-jaime-07.md:97`)

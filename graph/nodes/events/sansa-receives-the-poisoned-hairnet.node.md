@@ -37,10 +37,10 @@ Ser Dontos Hollard gives Sansa Stark a silver hair net strung with black amethys
 
 ## Quotes
 
-> "There was murder in them!" "Softly, my lady, softly. No murder. He choked on his pigeon pie." ... "You poisoned him. You did. You took a stone from my hair . . ."
+> “There was murder in them!” “Softly, my lady, softly. No murder. He choked on his pigeon pie.”
 
 — Sansa confronting Dontos, ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:41`)
 
-> Black amethysts from Asshai. One of them was missing. ... There was a dark smudge in the silver socket where the stone had fallen out.
+> Black amethysts from Asshai. One of them was missing. Sansa lifted the net for a closer look. There was a dark smudge in the silver socket where the stone had fallen out.
 
 — ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:23`)

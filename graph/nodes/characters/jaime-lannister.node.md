@@ -332,9 +332,8 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 >
 > — sources/chapters/affc/affc-jaime-05.md:149 · Best single-line evidence of Jaime's physical state during nightly sword-training with Ilyn Payne — documents ongoing injury accumulation.  _(capture: chapter-quote sweep, physical)_
 
-> Pia was mulling wine for them, stirring the kettle with a spoon. ... Peck served the wine on a golden platter. Ser Daven pulled off his gloves and took a cup.
->
-> — sources/chapters/affc/affc-jaime-05.md:45 · Camp hospitality in Jaime's tent: mulled wine served on a golden platter — details the domestic arrangements of his field headquarters.  _(capture: chapter-quote sweep, food)_
+> Peck served the wine on a golden platter. Ser Daven pulled off his gloves and took a cup.
+> — sources/chapters/affc/affc-jaime-05.md:51 · Camp hospitality in Jaime's tent: mulled wine served on a golden platter — details the domestic arrangements of his field headquarters.  _(capture: chapter-quote sweep, food)_
 
 > “Come, let’s drink some more of Hoster Tully’s good red wine.”
 >

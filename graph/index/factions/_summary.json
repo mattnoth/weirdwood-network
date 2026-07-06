@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T03:45:58.768413+00:00",
+  "generated_at": "2026-07-06T16:00:50.907280+00:00",
   "entity_type": "factions",
   "dry_run": false,
   "entity_count": 191,
@@ -83,6 +83,24 @@
       "out_edge_count": 0
     },
     {
+      "slug": "myrish",
+      "name": "Myrish",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "queens-men",
+      "name": "Queens Men",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 10,
+      "in_edge_count": 73,
+      "out_edge_count": 0
+    },
+    {
       "slug": "unsullied",
       "name": "Unsullied",
       "type": "organization.faction",
@@ -101,39 +119,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "queens-men",
-      "name": "Queens Men",
-      "type": "organization.faction",
-      "appearances_total": 12,
-      "chapters_referenced_in": 10,
-      "in_edge_count": 73,
-      "out_edge_count": 0
-    },
-    {
       "slug": "silent-sisters",
       "name": "Silent Sisters",
       "type": "organization.faction",
       "appearances_total": 12,
       "chapters_referenced_in": 11,
       "in_edge_count": 47,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "myrish",
-      "name": "Myrish",
-      "type": "organization.faction",
-      "appearances_total": 12,
-      "chapters_referenced_in": 12,
-      "in_edge_count": 2,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "qartheen",
-      "name": "Qartheen",
-      "type": "organization.faction",
-      "appearances_total": 11,
-      "chapters_referenced_in": 11,
-      "in_edge_count": 2,
       "out_edge_count": 0
     },
     {
@@ -155,21 +146,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "northmen",
-      "name": "Northmen",
+      "slug": "qartheen",
+      "name": "Qartheen",
       "type": "organization.faction",
-      "appearances_total": 10,
-      "chapters_referenced_in": 9,
-      "in_edge_count": 128,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "brave-companions",
-      "name": "Brave Companions",
-      "type": "organization.faction",
-      "appearances_total": 10,
-      "chapters_referenced_in": 8,
-      "in_edge_count": 136,
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 2,
       "out_edge_count": 0
     },
     {
@@ -182,12 +164,30 @@
       "out_edge_count": 0
     },
     {
-      "slug": "ironborn",
-      "name": "Ironborn",
+      "slug": "brave-companions",
+      "name": "Brave Companions",
       "type": "organization.faction",
+      "appearances_total": 10,
+      "chapters_referenced_in": 8,
+      "in_edge_count": 136,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "northmen",
+      "name": "Northmen",
+      "type": "organization.faction",
+      "appearances_total": 10,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 128,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "rhoynar",
+      "name": "Rhoynar",
+      "type": "concept.culture",
       "appearances_total": 9,
       "chapters_referenced_in": 9,
-      "in_edge_count": 504,
+      "in_edge_count": 79,
       "out_edge_count": 0
     }
   ],

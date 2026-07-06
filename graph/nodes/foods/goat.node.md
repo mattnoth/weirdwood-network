@@ -103,5 +103,5 @@ Tyrion: Come share our fire, the night is cold. I fear we've no [wine](wiki:Wine
 
 > Supper was a plate of roasted goat served on a bed of sliced onions. The meat was spiced and fragrant, charred outside and red and juicy within.
 
-— ADWD Chapter 22 (Tyrion VI), `sources/chapters/adwd/adwd-tyrion-06.md:295`
+— ADWD Tyrion VI (`sources/chapters/adwd/adwd-tyrion-06.md:295`)
 Jon: We will need to find another [wet nurse](wiki:Wet_nurse) for [his milk brother](wiki:Aemon_Steelsong). Samwell: Goat's milk might serve, until you do. It's better for a babe than [cow](wiki:Cow)'s milk.(wiki:Goat.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)

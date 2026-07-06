@@ -37,6 +37,6 @@ In the chaos following Joffrey's death, Ser Dontos leads Sansa Stark out of the 
 
 ## Quotes
 
-> "Ser Dontos the Red was a skin of wine with legs. He could never have been trusted with a task of such enormity ... No, all Dontos had to do was lead you from the castle, and make certain you wore your silver hair net."
+> “Ser Dontos the Red was a skin of wine with legs. He could never have been trusted with a task of such enormity. He would have bungled it or betrayed me. No, all Dontos had to do was lead you from the castle . . . and make certain you wore your silver hair net.”
 
 — Petyr Baelish to Sansa, ASOS Sansa VI (`sources/chapters/asos/asos-sansa-06.md:145`)

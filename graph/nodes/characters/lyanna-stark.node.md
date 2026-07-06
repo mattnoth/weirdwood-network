@@ -122,7 +122,7 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) regrets having been defeated by Rhae
 
 > Promise me, Ned, his sister had whispered from her bed of blood. She had loved the scent of winter roses.
 
-— recalled by Eddard Stark, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:49`) — book-cite overlay (S134 harvest-consume); the fuller deathbed line with the winter-roses detail
+— recalled by Eddard Stark, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:49`) — The fuller deathbed line with the winter-roses detail
 
 ### Quotes about Lyanna
 
@@ -170,13 +170,13 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) regrets having been defeated by Rhae
 >
 > —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
 
-> "That's my father's man you're kicking," howled the she-wolf.
+> ‘That’s my father’s man you’re kicking,’ howled the she-wolf.
 
-— Meera Reed's Knight of the Laughing Tree story (Lyanna as "the she-wolf" defending Howland Reed at Harrenhal), ASOS Bran II (`sources/chapters/asos/asos-bran-02.md:183`) — book-cite overlay (S134 harvest-consume)
+— Meera Reed's Knight of the Laughing Tree story (Lyanna as "the she-wolf" defending Howland Reed at Harrenhal), ASOS Bran II (`sources/chapters/asos/asos-bran-02.md:183`) — book-cite overlay
 
 > That evening there was to be a feast in Harrenhal, to mark the opening of the tourney, and the she-wolf insisted that the lad attend. He was of high birth, with as much a right to a place on the bench as any other man. She was not easy to refuse, this wolf maid, so he let the young pup find him garb suitable to a king's feast, and went up to the great castle.
 
-— Meera Reed's Knight of the Laughing Tree story (Lyanna insists Howland attend the feast and has Benjen find him garb), ASOS Bran II (`sources/chapters/asos/asos-bran-02.md:189`) — book-cite overlay (S134 harvest-consume); hospitality detail
+— Meera Reed's Knight of the Laughing Tree story (Lyanna insists Howland attend the feast and has Benjen find him garb), ASOS Bran II (`sources/chapters/asos/asos-bran-02.md:189`) — Hospitality detail
 
 ## Edges
 

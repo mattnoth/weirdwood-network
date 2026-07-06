@@ -35,7 +35,7 @@ Tyrion Lannister is tried in King's Landing for the murder of King Joffrey, befo
 
 ## Quotes
 
-> "Nothing but this: I did not do it. Yet now I wish I had." He turned to face the hall, that sea of pale faces. "I wish I had enough poison for you all. ... I am innocent, but I will get no justice here. You leave me no choice but to appeal to the gods. I demand trial by battle."
+> “Nothing but this: I did not do it. Yet now I wish I had.” He turned to face the hall, that sea of pale faces. “I wish I had enough poison for you all. You make me sorry that I am not the monster you would have me be, yet there it is. I am innocent, but I will get no justice here. You leave me no choice but to appeal to the gods. I demand trial by battle.”
 
 — Tyrion, ASOS Tyrion X (`sources/chapters/asos/asos-tyrion-10.md:65`)
 

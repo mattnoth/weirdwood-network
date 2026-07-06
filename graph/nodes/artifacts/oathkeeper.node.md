@@ -48,7 +48,7 @@ Black and red the ripples ran, deep within the steel. Valyrian steel, spell-forg
 
 > "Black and red the ripples ran, deep within the steel. Valyrian steel, spell-forged."
 
-— Brienne examining Oathkeeper by candlelight in an inn, AFFC Brienne I (`sources/chapters/affc/affc-brienne-01.md:283`) — book-cite overlay; navigable provenance for the visual detail above, confirmed at exactly this line.
+— Brienne examining Oathkeeper by candlelight in an inn, AFFC Brienne I (`sources/chapters/affc/affc-brienne-01.md:283`) — Navigable provenance for the visual detail above, confirmed at exactly this line.
 > "So you'll be defending Ned Stark's daughter with Ned Stark's own steel, if that makes any difference to you."
 >
 > — Jaime Lannister to Brienne, ASOS Jaime IX, `sources/chapters/asos/asos-jaime-09.md:283` (the Oathkeeper irony: Ice reforged, now sworn to protect Stark's daughter)

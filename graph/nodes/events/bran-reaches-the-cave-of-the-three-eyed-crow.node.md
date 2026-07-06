@@ -36,7 +36,7 @@ On the final approach to the [cave](cave-of-the-three-eyed-crow), wights rise fr
 
 ## Quotes
 
-> "I have been many things, Bran. Now I am as you see me, and now you will understand why I could not come to you... except in dreams."
+> I have been many things, Bran. Now I am as you see me, and now you will understand why I could not come to you … except in dreams.
 
 — Bloodraven's first words to Bran inside the cave. Bran POV, ADWD Bran II (`sources/chapters/adwd/adwd-bran-02.md:197`)
 

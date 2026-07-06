@@ -37,7 +37,7 @@ Tyrion Lannister kills his father, Lord Tywin, with a crossbow as Tywin sits on 
 
 ## Quotes
 
-> "Wherever whores go." ... Tyrion's finger clenched. The crossbow whanged just as Lord Tywin started to rise. The bolt slammed into him above the groin and he sat back down with a grunt.
+> “Wherever whores go.” Tyrion’s finger clenched. The crossbow whanged just as Lord Tywin started to rise. The bolt slammed into him above the groin and he sat back down with a grunt.
 
 — Tyrion XI, ASOS (`sources/chapters/asos/asos-tyrion-11.md:257`)
 

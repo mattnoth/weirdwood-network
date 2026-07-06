@@ -52,6 +52,6 @@ A man may prefer the taste of hippocras, yet if you set a tankard of [ale](wiki:
 
 > Roose Bolton had a sweeter smell to him, yet no more pleasant. He sipped hippocras in preference to wine or mead, and ate but little.
 
-— ASOS Chapter 51 (Red Wedding), `sources/chapters/asos/asos-catelyn-07.md:15`(wiki:Hippocras.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+— Red Wedding, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:15`)(wiki:Hippocras.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 I could have hired a [Faceless Man](wiki:Faceless_Man) to kill [Bronn](wiki:Bronn) for half of what I've spent on hippocras.(wiki:Hippocras.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 To the fervor of the [Warrior's Sons](wiki:Warrior's_Sons) and the brilliance of the [Queen Regent](wiki:Regent). To Cersei, the First in Her Name!

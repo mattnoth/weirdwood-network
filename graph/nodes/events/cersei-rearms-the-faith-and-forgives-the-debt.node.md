@@ -37,7 +37,7 @@ Pressed by the crown's crushing debts, [Cersei Lannister](cersei-lannister) firs
 
 ## Description
 
-Book-cite overlays (S152 harvest): Two atmosphere details from Cersei's AFFC Cersei VI visit to the Great Sept that frame the political context of the rearming deal:
+Two atmosphere details from Cersei's AFFC Cersei VI visit to the Great Sept that frame the political context of the rearming deal:
 
 **The sparrow encampment on Baelor's plaza (q519):**
 

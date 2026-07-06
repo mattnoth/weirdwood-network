@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T03:45:59.641281+00:00",
+  "generated_at": "2026-07-06T16:00:51.303607+00:00",
   "entity_type": "titles",
   "dry_run": false,
   "entity_count": 542,
@@ -100,15 +100,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "king-beyond-the-wall",
-      "name": "King-Beyond-The-Wall",
-      "type": "title",
-      "appearances_total": 13,
-      "chapters_referenced_in": 12,
-      "in_edge_count": 101,
-      "out_edge_count": 0
-    },
-    {
       "slug": "septon",
       "name": "Septon",
       "type": "title",
@@ -118,13 +109,13 @@
       "out_edge_count": 0
     },
     {
-      "slug": "lord-commander-of-the-nights-watch",
-      "name": "Lord Commander of the Night's Watch",
+      "slug": "king-beyond-the-wall",
+      "name": "King-Beyond-The-Wall",
       "type": "title",
-      "appearances_total": 12,
+      "appearances_total": 13,
       "chapters_referenced_in": 12,
-      "in_edge_count": 310,
-      "out_edge_count": 2
+      "in_edge_count": 101,
+      "out_edge_count": 0
     },
     {
       "slug": "king-in-the-north",
@@ -134,6 +125,15 @@
       "chapters_referenced_in": 10,
       "in_edge_count": 290,
       "out_edge_count": 1
+    },
+    {
+      "slug": "lord-commander-of-the-nights-watch",
+      "name": "Lord Commander of the Night's Watch",
+      "type": "title",
+      "appearances_total": 12,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 310,
+      "out_edge_count": 2
     },
     {
       "slug": "khaleesi",
@@ -154,15 +154,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "bloodrider",
-      "name": "Bloodrider",
-      "type": "title",
-      "appearances_total": 10,
-      "chapters_referenced_in": 9,
-      "in_edge_count": 37,
-      "out_edge_count": 0
-    },
-    {
       "slug": "sealord-of-braavos",
       "name": "Sealord of Braavos",
       "type": "title",
@@ -170,6 +161,15 @@
       "chapters_referenced_in": 7,
       "in_edge_count": 65,
       "out_edge_count": 1
+    },
+    {
+      "slug": "bloodrider",
+      "name": "Bloodrider",
+      "type": "title",
+      "appearances_total": 10,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 37,
+      "out_edge_count": 0
     },
     {
       "slug": "red-priest",

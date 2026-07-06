@@ -245,7 +245,7 @@ While in the Second Sons, Tyrion attempts to sway Brown Ben Plumm's mind over a 
 
 — Tyrion to Tywin (on when Sansa might "be at her most fertile"), ASOS Tyrion VI, `sources/chapters/asos/asos-tyrion-06.md:217`
 
-> "Those are brave men. Let's go kill them."
+> “Those are brave men,” he told Ser Balon in admiration. “Let’s go kill them.”
 
 — Tyrion to Ser Balon Swann, watching Stannis's men crossing the wrecked bridge of galleys on the Blackwater, ACOK Tyrion XIV, `sources/chapters/acok/acok-tyrion-14.md:51`
 
@@ -253,7 +253,7 @@ While in the Second Sons, Tyrion attempts to sway Brown Ben Plumm's mind over a 
 
 — Tyrion's war cry during the Blackwater sortie, arm red to the elbow, ACOK Tyrion XIV, `sources/chapters/acok/acok-tyrion-14.md:37` (see full context of Halfman chant at :31)
 
-> Of Joffrey's death I am innocent. I am guilty of a more monstrous crime. I was born. I lived. I am guilty of being a dwarf, I confess it. And no matter how many times my good father forgave me, I have persisted in my infamy.
+> “Of Joffrey’s death I am innocent. I am guilty of a more monstrous crime.” He took a step toward his father. “I was born. I lived. I am guilty of being a dwarf, I confess it. And no matter how many times my good father forgave me, I have persisted in my infamy.”
 
 — Tyrion at his trial (weaponized self-condemnation, pivoting to demand trial by battle), ASOS Tyrion X, `sources/chapters/asos/asos-tyrion-10.md:57`
 

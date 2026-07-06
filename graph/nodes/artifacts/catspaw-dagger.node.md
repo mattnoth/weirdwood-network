@@ -18,6 +18,6 @@ A Valyrian steel dagger with a dragonbone handle, sent by an unknown master to k
 
 ## Quotes
 
-> "He drew the dagger and laid it on the table between them; a length of dragonbone and Valyrian steel, as sharp as the difference between right and wrong, between true and false, between life and death. 'They sent a man to cut my son's throat, Lord Baelish.'"
+> He drew the dagger and laid it on the table between them; a length of dragonbone and Valyrian steel, as sharp as the difference between right and wrong, between true and false, between life and death. “They sent a man to cut my son’s throat, Lord Baelish.”
 
 — Eddard Stark to Littlefinger, AGOT Eddard XIII, `sources/chapters/agot/agot-eddard-13.md:253`

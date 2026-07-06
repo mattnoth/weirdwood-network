@@ -40,4 +40,4 @@ Men should not go wandering in this place. The river you hear is swift and black
 
 > Bran saw a bear skull and a wolf skull, half a dozen human skulls and near as many giants. All the rest were small, queerly formed. Children of the forest. The roots had grown in and around and through them, every one.
 
-— The cave floor's bones and the skulls in the wall niches. Bran POV, ADWD Bran II (`sources/chapters/adwd/adwd-bran-02.md:183`) [book-cite overlay onto the wiki-paraphrased bones description]
+— The cave floor's bones and the skulls in the wall niches. Bran POV, ADWD Bran II (`sources/chapters/adwd/adwd-bran-02.md:183`)

@@ -43,7 +43,7 @@ Melisandre has the ability to see [visions](wiki:Visions) in the flames, and com
 
 Melisandre is careful to present herself as mysterious, serene and powerful, and she pretends that several acts of magic are much easier than they are in truth. Although Melisandre is genuinely skilled with magic, she enhances this with various smokes and powders that she keeps concealed in her robes.(wiki:Melisandre.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4) The priestess always keeps candles burning in her chambers at night.(wiki:Melisandre.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
 
-Book-cite overlay — the powders catalogued from her own POV: "Powders to turn fire green or blue or silver, powders to make a flame roar and hiss and leap up higher than a man is tall, powders to make smoke. A smoke for truth, a smoke for lust, a smoke for fear, and the thick black smoke that could kill a man outright." ADWD Melisandre I (`sources/chapters/adwd/adwd-melisandre-01.md:77`) [q606]
+The powders catalogued from her own POV: "Powders to turn fire green or blue or silver, powders to make a flame roar and hiss and leap up higher than a man is tall, powders to make smoke. A smoke for truth, a smoke for lust, a smoke for fear, and the thick black smoke that could kill a man outright." ADWD Melisandre I (`sources/chapters/adwd/adwd-melisandre-01.md:77`) [q606]
 
 ## Narrative Arc
 
@@ -143,9 +143,9 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 >
 > —Melisandre's thoughts
 
-> This Storm's End is an old place. There are spells woven into the stones. Dark walls that no shadow can pass — ancient, forgotten, yet still in place.
+> this Storm’s End is an old place. There are spells woven into the stones. Dark walls that no shadow can pass—ancient, forgotten, yet still in place.
 
-— Melisandre to [Davos Seaworth](davos-seaworth) in the rowboat approaching Storm's End, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:332`) [L838]
+— Melisandre to [Davos Seaworth](davos-seaworth) in the rowboat approaching Storm's End, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:331`) [L838]
 
 > Shadows are the servants of light, the children of fire. The brightest flame casts the darkest shadows.
 
@@ -185,7 +185,7 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 >
 > —[Jon Snow](wiki:Jon_Snow)'s thoughts
 
-> The bones help. The bones remember. The strongest glamors are built of such things. A dead man's boots, a hank of hair, a bag of fingerbones. With whispered words and prayer, a man's shadow can be drawn forth from such and draped about another like a cloak. The wearer's essence does not change, only his seeming.
+> “The bones help,” said Melisandre. “The bones remember. The strongest glamors are built of such things. A dead man’s boots, a hank of hair, a bag of fingerbones. With whispered words and prayer, a man’s shadow can be drawn forth from such and draped about another like a cloak. The wearer’s essence does not change, only his seeming.”
 
 — Melisandre on glamour, ADWD Melisandre I (`sources/chapters/adwd/adwd-melisandre-01.md:267`) — S145
 

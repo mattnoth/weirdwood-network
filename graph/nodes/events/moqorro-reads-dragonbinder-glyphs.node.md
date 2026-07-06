@@ -40,6 +40,6 @@ On the last night before the [Iron Fleet](iron-fleet) reaches Meereenese waters,
 
 — Moqorro to Victarion, ADWD Victarion (`sources/chapters/adwd/adwd-victarion-01.md:115`)
 
-> "Once." One of his brother's mongrels had sounded the hellhorn at the kingsmoot on Old Wyk. … "The sound it made … it burned, somehow. As if my bones were on fire, searing my flesh from within."
+> The sound it made … it burned, somehow. As if my bones were on fire, searing my flesh from within.
 
 — Victarion Greyjoy, ADWD Victarion (`sources/chapters/adwd/adwd-victarion-01.md:105`)

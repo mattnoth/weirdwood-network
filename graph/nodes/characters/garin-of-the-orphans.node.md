@@ -19,7 +19,7 @@ rendezvous, greeted [Myrcella](myrcella-baratheon) as queen, and arranged the po
 the planned escape. When [Areo Hotah](areo-hotah) sprang the ambush, Garin yielded with his hands in the air.
 [Prince Doran](doran-martell) sentenced him to two years in Tyrosh, taking coin and hostages from his orphan kin.
 
-**Bug-fix note (S156):** this node is the conspirator Garin, distinct from the legendary Rhoynar prince
+**Bug-fix note:** this node is the conspirator Garin, distinct from the legendary Rhoynar prince
 `garin-the-great` (dead ~1,000 years). The mis-pointed edge `arianne CONSPIRES_WITH garin-the-great` was
 retired and replaced by `garin-of-the-orphans CONSPIRES_WITH arianne-martell`.
 

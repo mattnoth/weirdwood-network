@@ -47,7 +47,7 @@ The cottages are not often used but the brothers keep them clean and dry. On the
 
 Six rubies from Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen)'s armor, knocked loose by Lord [Robert Baratheon's](wiki:Robert_I_Baratheon) warhammer during the [Battle of the Trident](wiki:Battle_of_the_Trident), have washed ashore at the Quiet Isle and been recovered by the brothers. Believing in the [Faith of the Seven](wiki:Faith_of_the_Seven), the brothers await the appearance of a seventh ruby.(wiki:Quiet_Isle.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
 
-**Book-cite overlay (S152 harvest):** Verbatim from Brienne's visit, spoken by the Elder Brother:
+Verbatim from Brienne's visit, spoken by the Elder Brother:
 
 > "Six have been found. We are all waiting for the seventh."
 
@@ -55,7 +55,7 @@ Six rubies from Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen)'s armor, knoc
 
 ## Supper & Hospitality
 
-**Book-cite overlay (S152 harvest):** Brienne's account of the community meal in the septry hall:
+Brienne's account of the community meal in the septry hall:
 
 > "Their supper in the septry was as strange a meal as Brienne had ever eaten, though not at all unpleasant. The food was plain, but very good; there were loaves of crusty bread still warm from the ovens, crocks of fresh-churned butter, honey from the septry's hives, and a thick stew of crabs, mussels, and at least three different kinds of fish. Septon Meribald and Ser Hyle drank the mead the brothers made, and pronounced it excellent, whilst she and Podrick contented themselves with more sweet cider."
 

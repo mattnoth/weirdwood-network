@@ -53,7 +53,7 @@ Under Lady Stoneheart's leadership the brotherhood's character shifts markedly. 
 
 ## Quotes
 
-> "We're looking for a dog that ran away … He answers to the name Sandor Clegane. Thoros says he was making for the Twins. We found the ferrymen who took him across the Trident, and the poor sod he robbed on the kingsroad … He would have had a child with him. A skinny girl, about ten."
+> He answers to the name Sandor Clegane. Thoros says he was making for the Twins. We found the ferrymen who took him across the Trident, and the poor sod he robbed on the kingsroad.
 
 — A brotherhood singer (Merrett Frey's captor) describing the post-Red-Wedding pursuit of [Sandor Clegane](sandor-clegane) and [Arya Stark](arya-stark), ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:135`)
 

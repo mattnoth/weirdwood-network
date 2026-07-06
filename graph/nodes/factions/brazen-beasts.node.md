@@ -27,7 +27,7 @@ Brazen Beasts is a organization.faction from the AWOIAF wiki.
 
 The Brazen Beasts wear [brass](wiki:Brass) masks with the faces of [animals](wiki:Animal). Over the masks, they wear dark hoods.(wiki:Brazen_Beasts.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
-**Book-cite overlay (S152 harvest):** Mask inventory on the parade to Daznak's Pit:
+Mask inventory on the parade to Daznak's Pit:
 
 > "Their masks gleamed in the sun: boars and bulls, hawks and herons, lions and tigers and bears, fork-tongued serpents and hideous basilisks."
 

@@ -76,7 +76,7 @@ You look as though you have a healthy appetite, Ser Duncan. How many chickens ca
 
 > They were fed—hard cheese and fresh-baked bread and milk to break their fast, roast chicken and greens at midday, and a late supper of beef and barley stew—but the servants who brought the meals would not answer Sansa's questions.
 
-— AGOT Chapter 51 (Sansa IV), `sources/chapters/agot/agot-sansa-04.md:23`(wiki:Chicken.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+— AGOT Sansa IV (`sources/chapters/agot/agot-sansa-04.md:23`)(wiki:Chicken.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 Telling [Shagga](wiki:Shagga) and [Timett](wiki:Timett) how to pillage is like telling a rooster how to crow, but I should prefer to keep them with me.(wiki:Chicken.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
 Varys: Sweet Petyr, surely you do not mean to suggest that these puissant [lords](wiki:Lord) and noble [knights](wiki:Knight) could be bought like so many chickens in the market. Petyr: Have you been to [our markets](wiki:King's_Landing) of late, Lord Varys? You'd find it easier to buy a lord than a chicken, I daresay. Of course, lords cluck prouder than chickens, and take it ill if you offer them [coin](wiki:Coin) like a tradesman, but they are seldom adverse to taking gifts ... honors, lands, castles ...(wiki:Chicken.cite_ref-Racok36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
 A crisp roast chicken would set [the world](wiki:Known_world) aright.(wiki:Chicken.cite_ref-Raffc37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)

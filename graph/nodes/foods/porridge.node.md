@@ -40,8 +40,8 @@ Porridge is a plain grain-based breakfast staple, typically served with fruit or
 
 > A serving man brought porridge and apples to break his fast, with a horn of ale.
 
-— ASOS Chapter 66, `sources/chapters/asos/asos-tyrion-09.md:57`
+— ASOS Tyrion IX (`sources/chapters/asos/asos-tyrion-09.md:57`)
 
-> A servant brought him porridge and honey to break his fast, but all he could taste was bile at the thought of confession. They will call me kinslayer till the end of my days. … The thought made him so bloody angry that he flung the bowl and spoon across the room and left a smear of porridge on the wall.
+> A servant brought him porridge and honey to break his fast, but all he could taste was bile at the thought of confession. They will call me kinslayer till the end of my days.
 
-— ASOS Chapter 66, `sources/chapters/asos/asos-tyrion-09.md:319`
+— ASOS Tyrion IX (`sources/chapters/asos/asos-tyrion-09.md:319`)

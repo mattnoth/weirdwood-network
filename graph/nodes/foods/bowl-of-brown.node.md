@@ -45,13 +45,13 @@ A [Tyrell](wiki:House_Tyrell) man-at-arms is killed and two [Gargalen](wiki:Hous
 Ser [Barristan Selmy](wiki:Barristan_Selmy) tells Queen [Daenerys Targaryen](wiki:Daenerys_Targaryen) that he ate in pot shops before fleeing King's Landing for [Essos](wiki:Essos).(wiki:Bowl_of_brown.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 When [Kem](wiki:Kem) reminisces about his favorite pot shop, Tyrion refers to the brown as "singer's stew".(wiki:Bowl_of_brown.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
-- (Tyrion XII, ADWD — `sources/chapters/adwd/adwd-tyrion-12.md:183`) Kem's Flea Bottom nostalgia: "No one ever made a bowl o' brown like them. So thick you could stand your spoon up in the bowl, with chunks of this and that." Tyrion calls it "singer's stew" (Symon Silver Tongue reference). Navigable book cite overlay on the wiki cite above.
+- (Tyrion XII, ADWD — `sources/chapters/adwd/adwd-tyrion-12.md:183`) Kem's Flea Bottom nostalgia: "No one ever made a bowl o' brown like them. So thick you could stand your spoon up in the bowl, with chunks of this and that." Tyrion calls it "singer's stew" (Symon Silver Tongue reference).
 
 ## Quotes
 
-> In the Bottom there were pot-shops along the alleys where huge tubs of stew had been simmering for years, and you could trade half your bird for a heel of yesterday's bread and a "bowl o' brown," and they'd even stick the other half in the fire and crisp it up for you, so long as you plucked the feathers yourself. … It usually had barley in it, and chunks of carrot and onion and turnip, and sometimes even apple, with a film of grease swimming on top. Mostly she tried not to think about the meat.
+> In the Bottom there were pot-shops along the alleys where huge tubs of stew had been simmering for years, and you could trade half your bird for a heel of yesterday’s bread and a “bowl o’ brown,” and they’d even stick the other half in the fire and crisp it up for you, so long as you plucked the feathers yourself.
 
-— AGOT Chapter 65 (Arya V), `sources/chapters/agot/agot-arya-05.md:43`
+— AGOT Arya V (`sources/chapters/agot/agot-arya-05.md:43`)
 
 Mostly she tried not to think about the meat.(wiki:Bowl_of_brown.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 Prices had risen sickeningly high on greens, roots, flour, and fruit, and Tyrion did not want to think about what sorts of flesh might be going into the kettles of the pot-shops down in [Flea Bottom](wiki:Flea_Bottom).(wiki:Bowl_of_brown.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
@@ -61,4 +61,4 @@ Tyrion: A time or two. [Singer's](wiki:Symon_Silver_Tongue) stew, I call it. Kem
 
 > "No one ever made a bowl o' brown like them. So thick you could stand your spoon up in the bowl, with chunks of this and that."
 
-— ADWD Chapter 66 (Tyrion XII), `sources/chapters/adwd/adwd-tyrion-12.md:183`
+— ADWD Tyrion XII (`sources/chapters/adwd/adwd-tyrion-12.md:183`)

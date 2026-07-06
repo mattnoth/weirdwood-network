@@ -39,10 +39,10 @@ After [Euron wins the kingsmoot](kingsmoot-on-old-wyk), [Aeron Damphair](aeron-g
 
 — Aeron Damphair, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:87`)
 
-> "I have my voice," the priest replied, "and the god is with me. Mine is the strength of the sea ... The waves may break upon the mountain, yet still they come, wave upon wave, and in the end only pebbles remain where once the mountain stood."
+> I have my voice,” the priest replied, “and the god is with me. Mine is the strength of the sea, a strength the Crow’s Eye cannot hope to withstand. The waves may break upon the mountain, yet still they come, wave upon wave, and in the end only pebbles remain where once the mountain stood.
 
 — Aeron Damphair, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:91`)
 
-> "The ironborn shall be waves," the Damphair said. "Not the great and lordly, but the simple folk, tillers of the soil and fishers of the sea. The captains and the kings raised Euron up, but the common folk shall tear him down ... No godless man may sit the Seastone Chair!" He shook his shaggy head and stalked back out into the night. When the sun came up the next day, Aeron Greyjoy had vanished from Old Wyk.
+> The ironborn shall be waves,” the Damphair said. “Not the great and lordly, but the simple folk, tillers of the soil and fishers of the sea. The captains and the kings raised Euron up, but the common folk shall tear him down.
 
 — AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:95`)

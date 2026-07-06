@@ -125,7 +125,7 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 
 > The fools tried to kill his son, and what's worse, they made a mummer's farce of it. He's not a man to put that aside. I warn you, the wolf and lion will soon be at each other's throats, whether we will it or no.
 >
-> —Varys to [Illyrio Mopatis](wiki:Illyrio_Mopatis), in the tunnels beneath the Red Keep ([Arya](wiki:Arya_Stark) overhears) — the AGOT conspiracy seed of the AEGON / Targaryen-restoration thread (`sources/chapters/agot/agot-arya-03.md:79`, book-cite overlay; evidence for the `varys CONSPIRES_WITH illyrio-mopatis` dyad)
+> —Varys to [Illyrio Mopatis](wiki:Illyrio_Mopatis), in the tunnels beneath the Red Keep ([Arya](wiki:Arya_Stark) overhears) — the AGOT conspiracy seed of the AEGON / Targaryen-restoration thread (`sources/chapters/agot/agot-arya-03.md:79`, Evidence for the `varys CONSPIRES_WITH illyrio-mopatis` dyad)
 
 > A [eunuch](wiki:Eunuch) has no honor, and a spider does not enjoy the luxury of scruples, my lord.(wiki:Varys.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
 >
@@ -141,8 +141,7 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and Varys
 
-> The [High Septon](wiki:High_Septon_(fat_one)) once told me that as we sin, so do we suffer. If that's true, Lord Eddard, tell me ... why is it always the innocents who suffer most, when you high lords play your game of thrones??(wiki:Varys.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-5)
->
+> The High Septon once told me that as we sin, so do we suffer. If that’s true, Lord Eddard, tell me … why is it always the innocents who suffer most, when you high lords play your game of thrones?
 > —Varys to [Eddard Stark](wiki:Eddard_Stark) in the black cells, AGOT Eddard XV (`sources/chapters/agot/agot-eddard-15.md:155`)
 
 > May I leave you with a bit of a riddle, Lord Tyrion? In a room sit three great men, a [king](wiki:King), a priest, and a rich man with his gold. Between them stands a [sellsword](wiki:Sellsword), a little man of common birth and no great mind. Each of the great ones bids him slay the other two. ‘Do it,’ says the king, ‘for I am your lawful ruler.’ ‘Do it,’ says the priest, ‘for I command you in the names of the gods.’ ‘Do it,’ says the rich man, ‘and all this gold shall be yours.’ So tell me—who lives and who dies?(wiki:Varys.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-3)
@@ -169,7 +168,7 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 >
 > —Varys to [Kevan Lannister](wiki:Kevan_Lannister)
 
-Book-cite overlay (verbatim from the Epilogue scene, ADWD): "Ser Kevan. Forgive me if you can. I bear you no ill will. This was not done from malice. It was for the realm. For the children." — then later: "There are many like you, good men in service to bad causes … but you were threatening to undo all the queen's good work, to reconcile Highgarden and Casterly Rock, bind the Faith to your little king, unite the Seven Kingdoms under Tommen's rule. So …" (`sources/chapters/adwd/adwd-epilogue.md:281`, `:285`)
+"Ser Kevan. Forgive me if you can. I bear you no ill will. This was not done from malice. It was for the realm. For the children." — then later: "There are many like you, good men in service to bad causes … but you were threatening to undo all the queen's good work, to reconcile Highgarden and Casterly Rock, bind the Faith to your little king, unite the Seven Kingdoms under Tommen's rule. So …" (`sources/chapters/adwd/adwd-epilogue.md:281`, `:285`)
 
 ### Quotes about Varys
 

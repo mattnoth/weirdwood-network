@@ -53,7 +53,7 @@ When Robb goes to the Twins to make amends with Lord Walder Frey over breaking h
 
 ## Quotes
 
-> Lame Lothar said something amusing to Ser Hosteen, and Ser Hosteen laughed.
+> Lame Lothar said something amusing to Ser Hosteen,
 
 — Catelyn's POV (narrative), ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:75`)
 

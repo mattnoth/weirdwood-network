@@ -33,6 +33,6 @@ Preparations for the ranging include Maester Aemon dispatching Samwell into the 
 - FIGHTS_IN: Byam Flint → Great Ranging (ranger, wounded at Fist; source: byam-flint.node.md)
 - FIGHTS_IN: Ronnel Harclay → Great Ranging (ranger, survived Fist, acting First Ranger after Smallwood's death; source: ronnel-harclay.node.md)
 - CAUSES: Great Ranging → Fight at the Fist (expedition's advance/base camp at the Fist leads directly to the Fist engagement; wired in edges.jsonl S125; source: fight-at-the-fist.node.md)
-- (S125 re-point) The mutiny at Craster's Keep is wired in edges.jsonl as `fight-at-the-fist CAUSES mutiny-at-crasters-keep`, NOT as a direct edge from the Great Ranging — the Fist catastrophe (the broken, starving survivors who straggle into Craster's) is the *proximate* cause of the mutiny. The Great Ranging causes the Fist; the Fist causes the mutiny (chain, not fan).
+- The mutiny at Craster's Keep is wired in edges.jsonl as `fight-at-the-fist CAUSES mutiny-at-crasters-keep`, NOT as a direct edge from the Great Ranging — the Fist catastrophe (the broken, starving survivors who straggle into Craster's) is the *proximate* cause of the mutiny. The Great Ranging causes the Fist; the Fist causes the mutiny (chain, not fan).
 - LOCATED_AT: Great Ranging → Fist of the First Men (primary base of operations; source: fight-at-the-fist.node.md, grenn.node.md)
 - LOCATED_AT: Great Ranging → Crasters Keep (staging stop outbound and retreat destination; source: samwell-tarly.node.md, mutiny-at-crasters-keep.node.md)

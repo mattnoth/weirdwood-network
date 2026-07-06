@@ -26,7 +26,7 @@ It is said that Barsena has slain every woman she has faced in the [fighting pit
 
 ## Appearances & Description
 
-Barsena Blackhair is a tall, dark woman who moves like a feral [panther](wiki:Panther). She is around thirty years old.(wiki:Barsena_Blackhair.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) "A tall, dark woman of some thirty years, she moved with the feral grace of a panther. Naked save for breechclout and sandals." (`sources/chapters/adwd/adwd-daenerys-09.md:187`) [book-cite overlay]
+Barsena Blackhair is a tall, dark woman who moves like a feral [panther](wiki:Panther). She is around thirty years old.(wiki:Barsena_Blackhair.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) "A tall, dark woman of some thirty years, she moved with the feral grace of a panther. Naked save for breechclout and sandals." (`sources/chapters/adwd/adwd-daenerys-09.md:187`)
 
 Barsena wears only breechclout and sandals when fighting.(wiki:Barsena_Blackhair.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 

@@ -61,9 +61,9 @@ Before leaving for [Yunkai](wiki:Yunkai), Daenerys leaves a council of three men
 
 — Daenerys, the single word that triggers the fall of Astapor — spoken to Drogon as she strikes Kraznys with the harpy's fingers, ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:253`)
 
-> Jars of saffron, jars of myrrh, jars of pepper and curry and cardamom, an onyx mask, twelve jade monkeys, casks of ink in red and black and green, a box of rare black amethysts, a box of pearls, a cask of pitted olives stuffed with maggots, a dozen casks of pickled cave fish … Her people stacked it all before the slavers.
+> Jars of saffron, jars of myrrh, jars of pepper and curry and cardamom, an onyx mask, twelve jade monkeys, casks of ink in red and black and green, a box of rare black amethysts, a box of pearls, a cask of pitted olives stuffed with maggots, a dozen casks of pickled cave fish,
 
-— The trade goods laid out in exchange for the Unsullied (Daenerys's entire worldly inventory), ASOS Daenerys IV (`sources/chapters/asos/asos-daenerys-04.md:227`)
+— The trade goods laid out in exchange for the Unsullied (Daenerys's entire worldly inventory), ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:227`)
 
 > "Astapor was complacent and vulnerable. Yunkai is forewarned."
 

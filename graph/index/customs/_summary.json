@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T03:46:06.163313+00:00",
+  "generated_at": "2026-07-06T16:00:54.532726+00:00",
   "entity_type": "customs",
   "dry_run": false,
   "entity_count": 37,
@@ -37,15 +37,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "guest-right",
-      "name": "Guest right",
-      "type": "concept.custom",
-      "appearances_total": 1,
-      "chapters_referenced_in": 1,
-      "in_edge_count": 52,
-      "out_edge_count": 0
-    },
-    {
       "slug": "cupbearer",
       "name": "Cupbearer",
       "type": "concept.custom",
@@ -55,8 +46,26 @@
       "out_edge_count": 0
     },
     {
-      "slug": "blood-price",
-      "name": "Blood price",
+      "slug": "guest-right",
+      "name": "Guest right",
+      "type": "concept.custom",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 52,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "bedding",
+      "name": "Bedding",
+      "type": "concept.custom",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 49,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "grotesquerie",
+      "name": "Grotesquerie",
       "type": "concept.custom",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -64,66 +73,21 @@
       "out_edge_count": 0
     },
     {
-      "slug": "currency",
-      "name": "Currency",
+      "slug": "sickroom",
+      "name": "Sickroom",
       "type": "concept.custom",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 157,
+      "in_edge_count": 8,
       "out_edge_count": 0
     },
     {
-      "slug": "treason",
-      "name": "Treason",
+      "slug": "heraldry",
+      "name": "Heraldry",
       "type": "concept.custom",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 38,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "jewelry",
-      "name": "Jewelry",
-      "type": "concept.custom",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 12,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "paramour",
-      "name": "Paramour",
-      "type": "concept.custom",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 37,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "blood-sacrifice",
-      "name": "Blood sacrifice",
-      "type": "concept.custom",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 13,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "name-day",
-      "name": "Name day",
-      "type": "concept.custom",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 29,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "customs",
-      "name": "Customs",
-      "type": "concept.custom",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 26,
+      "in_edge_count": 19,
       "out_edge_count": 0
     },
     {
@@ -136,35 +100,26 @@
       "out_edge_count": 0
     },
     {
-      "slug": "fosterage",
-      "name": "Fosterage",
+      "slug": "paramour",
+      "name": "Paramour",
       "type": "concept.custom",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 23,
+      "in_edge_count": 37,
       "out_edge_count": 0
     },
     {
-      "slug": "great-summer",
-      "name": "Great Summer",
+      "slug": "jewelry",
+      "name": "Jewelry",
       "type": "concept.custom",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 1,
+      "in_edge_count": 12,
       "out_edge_count": 0
     },
     {
       "slug": "rat-pits",
       "name": "Rat pits",
-      "type": "concept.custom",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 3,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "elections",
-      "name": "Elections",
       "type": "concept.custom",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -181,12 +136,57 @@
       "out_edge_count": 0
     },
     {
-      "slug": "walk-of-atonement",
-      "name": "Walk of atonement",
+      "slug": "name-day",
+      "name": "Name day",
       "type": "concept.custom",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 43,
+      "in_edge_count": 29,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "tongue-mutilation",
+      "name": "Tongue mutilation",
+      "type": "concept.custom",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 29,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "fosterage",
+      "name": "Fosterage",
+      "type": "concept.custom",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 23,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "kingship",
+      "name": "Kingship",
+      "type": "concept.custom",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "incest",
+      "name": "Incest",
+      "type": "concept.custom",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 50,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "dowry",
+      "name": "Dowry",
+      "type": "concept.custom",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 21,
       "out_edge_count": 0
     }
   ],

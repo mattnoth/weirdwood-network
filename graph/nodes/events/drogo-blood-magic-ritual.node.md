@@ -41,9 +41,9 @@ After [Khal Drogo](drogo) is wounded raiding the Lhazareen and the cut festers �
 
 — Mirri Maz Duur, AGOT Daenerys VIII (`sources/chapters/agot/agot-daenerys-08.md:167`)
 
-> "Only death can pay for life." ... "The price was paid," Dany said. "The horse, my child, Quaro and Qotho, Haggo and Cohollo. The price was paid and paid and paid."
+> “The price was paid,” Dany said. “The horse, my child, Quaro and Qotho, Haggo and Cohollo. The price was paid and paid and paid.”
 
-— Mirri Maz Duur and Daenerys, AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:127`)
+— Mirri Maz Duur and Daenerys, AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:129`)
 
 > "Twisted. I drew him forth myself. He was scaled like a lizard, blind, with the stub of a tail and small leather wings like the wings of a bat. When I touched him, the flesh sloughed off the bone, and inside he was full of graveworms and the stink of corruption. He had been dead for years."
 
@@ -53,9 +53,9 @@ After [Khal Drogo](drogo) is wounded raiding the Lhazareen and the cut festers �
 
 — Mirri's curse: the impossible-condition prophecy, AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:179`)
 
-> "You knew what I was buying, and you knew the price, and yet you let me pay it." … "It was wrong of them to burn my temple. That angered the Great Shepherd."
+> “You knew what I was buying, and you knew the price, and yet you let me pay it.” “It was wrong of them to burn my temple,” the heavy, flat-nosed woman said placidly. “That angered the Great Shepherd.”
 
-— Dany confronts Mirri; Mirri names her true motive (revenge), AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:127–183`)
+— Dany confronts Mirri; Mirri names her true motive (revenge), AGOT Daenerys IX (`sources/chapters/agot/agot-daenerys-09.md:181–183`)
 
 > "the maegi Mirri Maz Duur had murdered Rhaego in her womb, and Dany had smothered the empty shell of Khal Drogo with her own two hands."
 

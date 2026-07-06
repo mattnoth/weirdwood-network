@@ -66,6 +66,6 @@ Birds flew overhead, or cried out from the trees along the shore, and Jaime glim
 [Meera](wiki:Meera_Reed) was a fine huntress, and even better at taking fish from streams with her three-pronged frog spear. Bran liked to watch her, admiring her quickness, the way she sent the spear lancing down and pulled it back with a silvery trout wriggling on the end of it.(wiki:Trout.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
 > Hamish left them, his place taken by a smallish elderly bear who danced clumsily to pipe and drum while the wedding guests ate trout cooked in a crust of crushed almonds.
 
-— ASOS Chapter 60 (Purple Wedding), `sources/chapters/asos/asos-tyrion-08.md:155`
+— Purple Wedding, ASOS Tyrion VIII (`sources/chapters/asos/asos-tyrion-08.md:155`)
 
 Jaime: How does Lord [Walder](wiki:Walder_Frey) relish dining on [trout](wiki:Edmure_Tully) in place of [wolf](wiki:Robb_Stark)? Roose: Oh, trout makes for a tasty supper.(wiki:Trout.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)

@@ -37,6 +37,6 @@ Immediately upon Joffrey's death at the wedding feast, Cersei Lannister accuses 
 
 — Sansa, ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:157`)
 
-> Could he truly have killed him? ... If Tyrion did it, they will think I was part of it as well, she realized with a start of fear.
+> If Tyrion did it, they will think I was part of it as well, she realized with a start of fear.
 
 — Sansa, ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:53`)

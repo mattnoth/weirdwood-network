@@ -247,7 +247,7 @@ Daenerys still lives, however. Drogon has flown her to a hill in the Dothraki se
 
 — Daenerys's governing dilemma: power vs. care, ADWD Daenerys II (`sources/chapters/adwd/adwd-daenerys-02.md:107`)
 
-> "I cannot fight two enemies, one within and one without. If I am to hold Meereen, I must have the city behind me. … I need Hizdahr zo Loraq."
+> I cannot fight two enemies, one within and one without. If I am to hold Meereen, I must have the city behind me.
 
 — Daenerys names her necessity for the marriage, driven by the shadow war + siege, ADWD Daenerys V (`sources/chapters/adwd/adwd-daenerys-05.md:307`)
 

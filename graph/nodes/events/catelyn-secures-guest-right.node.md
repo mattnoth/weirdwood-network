@@ -24,6 +24,5 @@ Catelyn Stark accepts bread and salt from Walder Frey before the Red Wedding fea
 >
 > — Catelyn to Robb, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:27`)
 
-> "We thank you for your hospitality, my lord," Robb replied. … Catelyn tasted the wine and nibbled at some bread, and felt much the better for it. Now we should be safe, she thought.
->
+> Catelyn tasted the wine and nibbled at some bread, and felt much the better for it. Now we should be safe, she thought.
 > — the irony-pin: the moment guest right is sealed, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:169`)

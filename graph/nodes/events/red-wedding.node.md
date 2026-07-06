@@ -69,8 +69,7 @@ Thousands of [sparrows](wiki:Sparrow) in [King's Landing](wiki:King's_Landing) a
 
 ## Quotes
 
-> "Stupid little bitch. You go in there, you won't come out. Maybe Frey will let you kiss your mother's corpse."
->
+> “Stupid little bitch.” Fires glinted off the snout of his helm, and made the steel teeth shine. “You go in there, you won’t come out. Maybe Frey will let you kiss your mother’s corpse.”
 > — Sandor Clegane to Arya Stark (external-witness punctuation), ASOS Arya XI (`sources/chapters/asos/asos-arya-11.md:51`)
 
 > I dreamt [a wolf](wiki:Grey_Wind) howling in the rain, but no one heard his grief. I dreamt such a clangor I thought my head might burst, drums and horns and pipes and screams, but the saddest sound was the [little bells](wiki:Jinglebell).(wiki:Red_Wedding.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
@@ -131,16 +130,16 @@ Thousands of [sparrows](wiki:Sparrow) in [King's Landing](wiki:King's_Landing) a
 
 > half the musicians had crossbows in their hands instead of drums or lutes
 
-— Catelyn Stark POV, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:103`) — book-cite overlay (S134 harvest-consume); the moment the slaughter begins in the great hall
+— Catelyn Stark POV, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:103`) — The moment the slaughter begins in the great hall
 
 > Dacey Mormont, who seemed to be the only woman left in the hall besides Catelyn, stepped up behind Edwyn Frey, and touched him lightly on the arm as she said something in his ear. Edwyn wrenched himself away from her with unseemly violence. "No," he said, too loudly. "I'm done with dancing for the nonce." Dacey paled and turned away.
 
-— Catelyn Stark POV, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:97`) — book-cite overlay (S134 harvest-consume); Dacey Mormont's rebuff by Edwyn Frey, the foreshadowing beat that tips Catelyn off to the trap
+— Catelyn Stark POV, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:97`) — Dacey Mormont's rebuff by Edwyn Frey, the foreshadowing beat that tips Catelyn off to the trap
 
 > We'll have music, such sweet music, and wine, heh, the red will run, and we'll put some wrongs aright.
 
-— Walder Frey to his guests, while showing the Starks to their quarters at the Twins, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:155`) — book-cite overlay (harvest row 1001); the host's foreshadowing-laden double meaning — "the red will run" naming the wine and, sinisterly, the blood to come. (Wiki Quotes section attributes a near-identical line to ASOS 49; this is the direct book-text instance, in Catelyn's own POV.)
+— Walder Frey to his guests, while showing the Starks to their quarters at the Twins, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:155`) — The host's foreshadowing-laden double meaning — "the red will run" naming the wine and, sinisterly, the blood to come. (Wiki Quotes section attributes a near-identical line to ASOS 49; this is the direct book-text instance, in Catelyn's own POV.)
 
 > "Robb, listen to me. Once you have eaten of his bread and salt, you have the guest right, and the laws of hospitality protect you beneath his roof."
 
-— Catelyn Stark to Robb, approaching the Twins, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:27`) — book-cite overlay (harvest row 1005); Catelyn's insistence on observing guest right — bread and salt — ironic foreshadowing: her care proves insufficient against the Freys' deliberate violation of the very custom she trusts.
+— Catelyn Stark to Robb, approaching the Twins, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:27`) — Catelyn's insistence on observing guest right — bread and salt — ironic foreshadowing: her care proves insufficient against the Freys' deliberate violation of the very custom she trusts.

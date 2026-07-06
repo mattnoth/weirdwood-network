@@ -22,6 +22,6 @@ Nettle tea is a plain herbal infusion appearing as part of Melisandre's ordered 
 
 ## Quotes
 
-> "Does my lady wish to break her fast?" asked Devan. … "Nettle tea, a boiled egg, and bread with butter. Fresh bread, if you please, not fried."
+> nettle tea, a boiled egg, and bread with butter. Fresh bread, if you please, not fried.
 
-— ADWD (Melisandre I), `sources/chapters/adwd/adwd-melisandre-01.md:63`
+— ADWD (Melisandre I), `sources/chapters/adwd/adwd-melisandre-01.md:71`

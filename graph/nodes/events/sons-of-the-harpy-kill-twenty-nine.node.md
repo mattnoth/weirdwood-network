@@ -30,9 +30,9 @@ Staging only — do NOT promote to graph/nodes/events/ until Plate 5 gated merge
 
 ## Quotes
 
-> "The Sons of the Harpy?" … "How many dead?" … "Nine. … Two by two they walked, and two by two they died."
+> Two by two they walked, and two by two they died.
 
-— Grey Worm's report to Daenerys: nine killed in one night (including Mossador, Missandei's brother), ADWD Daenerys II (`sources/chapters/adwd/adwd-daenerys-02.md:23–33`)
+— Grey Worm's report to Daenerys: nine killed in one night (including Mossador, Missandei's brother), ADWD Daenerys II (`sources/chapters/adwd/adwd-daenerys-02.md:33–33`)
 
 > Mossador and Marselen had not been so fortunate. They had been gelded and made into Unsullied.
 

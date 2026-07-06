@@ -112,7 +112,7 @@ Aeron is later taken to a captured island castle located near the [Arbor](wiki:A
 >
 > —Aeron to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
-> "Euron's blasphemies will bring down the Drowned God's wroth upon us all. We must stop him, brother. We are still of Balon's blood, are we not?"
+> “Euron’s blasphemies will bring down the Drowned God’s wroth upon us all,” Aeron had prophesied, back on Old Wyk. “We must stop him, brother. We are still of Balon’s blood, are we not?”
 
 — [Aeron Damphair](aeron-greyjoy) to [Victarion Greyjoy](victarion-greyjoy) on Old Wyk after the kingsmoot, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:75`)
 

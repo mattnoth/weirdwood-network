@@ -37,9 +37,9 @@ Days after the [Red Wedding](red-wedding), the [Brotherhood Without Banners](bro
 
 ## Quotes
 
-> When she lowered her hood, something tightened inside Merrett's chest, and for a moment he could not breathe. *No. No, I saw her die.* . . . The flesh had gone pudding soft in the water and turned the color of curdled milk. Half her hair was gone and the rest had turned as white and brittle as a crone's. . . . But her eyes were the most terrible thing. Her eyes saw him, and they hated.
+> The flesh had gone pudding soft in the water and turned the color of curdled milk. Half her hair was gone and the rest had turned as white and brittle as a crone’s.
 
-— Merrett Frey beholds the risen Catelyn, ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:169`)
+— Merrett Frey beholds the risen Catelyn, ASOS Epilogue (`sources/chapters/asos/asos-epilogue.md:171`)
 
 > "The Freys slashed her throat from ear to ear. When we found her by the river she was three days dead. Harwin begged me to give her the kiss of life, but it had been too long. I would not do it, so Lord Beric put his lips to hers instead, and the flame of life passed from him to her. And . . . she rose."
 

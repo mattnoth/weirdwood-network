@@ -67,8 +67,7 @@ Theon broke his own fast with a tankard of dark ale, cloudy with yeast and thick
 >
 > — sources/chapters/agot/agot-eddard-14.md:43 · Grand Maester Pycelle served sweet beer in the Hand's solar as Ned convenes the council the morning Robert dies — a small-council hospitality detail.  _(capture: harvest pass, food)_
 
-> ...the smallfolk were celebrating Edmure's imminent return and Robb's conquest of the Crag by hoisting horns of nut-brown ale.
->
+> the smallfolk were celebrating Edmure’s imminent return and Robb’s conquest of the Crag by hoisting horns of nut-brown ale.
 > — sources/chapters/acok/acok-catelyn-07.md:13 · Riverrun revelry: twenty casks broached and nut-brown ale drunk to celebrate the Crag victory and Edmure's return.  _(capture: harvest pass, food)_
 
 > There was ale and cheese on the table. Catelyn filled a horn, sat, sipped, and studied her son.

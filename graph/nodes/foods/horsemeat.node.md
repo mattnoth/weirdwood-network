@@ -37,6 +37,6 @@ Horsemeat is eaten during crisis conditions — siege, starvation, or wartime co
 
 — ADWD A Ghost in Winterfell I (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:105`)
 
-> Horsemeat and onions makes you strong.
+> “Horsemeat and onions makes you strong,”
 
 — Strong Belwas, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:155`)

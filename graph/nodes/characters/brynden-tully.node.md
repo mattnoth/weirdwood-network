@@ -93,8 +93,7 @@ Brynden has been declared an outlaw.(wiki:Brynden_Tully.cite_ref-Radwd48.7B.7B.7
 
 ### Quotes by Brynden
 
-> The Kingslayer is restless, and quick to anger.
->
+> “The Kingslayer is restless, and quick to anger,”
 > — sources/chapters/agot/agot-catelyn-10.md:25 · Brynden reading Jaime's character to Robb before the Whispering Wood — the psychological assessment that underpins the trap gamble.  _(capture: harvest pass, quote)_
 
 > Patience.

@@ -66,15 +66,15 @@ During the celebrations for her marriage to [Hizdahr zo Loraq](wiki:Hizdahr_zo_L
 
 > When Pycelle was gone, Ned called for a cup of honeyed wine. That clouded the mind as well, yet not as badly. He needed to be able to think.
 
-— AGOT Chapter 45 (Eddard XII), `sources/chapters/agot/agot-eddard-12.md:33`
+— AGOT Eddard XII (`sources/chapters/agot/agot-eddard-12.md:33`)
 
 > When he left he gave her a potion of honeywater and herbs and told her to drink a swallow every night. She drank it all right then and went back to sleep.
 
-— AGOT Chapter 67 (Sansa VI), `sources/chapters/agot/agot-sansa-06.md:19`
+— AGOT Sansa VI (`sources/chapters/agot/agot-sansa-06.md:19`)
 
 > A servant brought him porridge and honey to break his fast, but all he could taste was bile at the thought of confession.
 
-— ASOS Chapter 66, `sources/chapters/asos/asos-tyrion-09.md:319`
+— ASOS Tyrion IX (`sources/chapters/asos/asos-tyrion-09.md:319`)
 
 She still remembered [the innkeep](wiki:Inn_at_the_crossroads), a fat woman named [Masha Heddle](wiki:Masha_Heddle) who chewed [sourleaf](wiki:Sourleaf) night and day and seemed to have an endless supply of smiles and sweet cakes for the children. The sweet cakes had been soaked with honey, rich and heavy on the tongue, but how Catelyn had dreaded those smiles.(wiki:Honey.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-2)
 [Littlefinger](wiki:Petyr_Baelish) looked like a boy who had just taken a furtive bite from a honeycomb. He was trying to watch for [bees](wiki:Bee), but [the honey](wiki:Harrenhal) was so sweet.(wiki:Honey.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0)

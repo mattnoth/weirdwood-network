@@ -112,4 +112,4 @@ The deaths of Princess [Elia Martell](wiki:Elia_Martell) and her two young child
 
 > The midnight flight to Dragonstone, moonlight shimmering on the ship's black sails. Her brother Rhaegar battling the Usurper in the bloody waters of the Trident and dying for the woman he loved. The sack of King's Landing by the ones Viserys called the Usurper's dogs, the lords Lannister and Stark.
 
-— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — book-cite overlay (S134 harvest-consume); the rebellion as the exiled Targaryen children inherited it
+— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — The rebellion as the exiled Targaryen children inherited it

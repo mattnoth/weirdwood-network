@@ -171,9 +171,9 @@ Having fled to [Essos](wiki:Essos), Tyrion lies to [Griff](wiki:Jon_Connington) 
 
 — Tyrion's POV as Joffrey chokes and dies at the Purple Wedding, ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:305`
 
-> Joffrey was almost upon him, red-faced and staggering, wine slopping over the rim of the great golden wedding chalice he carried in both hands. [...] the king upended the chalice over his head. The wine washed down over his face in a red torrent. [...] "I wasn't serving you, either." [...] "I have no wine. How can I drink a toast if I have no wine? Uncle Imp, you can serve me." [...] "It's not meant to be an honor! Bend down and pick up my chalice." [...] "No, on your knees, dwarf."
+> Joffrey was almost upon him, red-faced and staggering, wine slopping over the rim of the great golden wedding chalice he carried in both hands.
 
-— Joffrey humiliates Tyrion at the Purple Wedding feast (chalice upending → forced cupbearer at knifepoint of humiliation), ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:223–253`
+— Joffrey humiliates Tyrion at the Purple Wedding feast (chalice upending → forced cupbearer at knifepoint of humiliation), ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:235–253`
 
 > Joffrey is truly a little shit.(wiki:Joffrey_Baratheon.cite_ref-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-6)
 >

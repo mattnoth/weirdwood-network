@@ -16,4 +16,4 @@ Candied ginger appears as a characterization detail: Illyrio Mopatis packs it as
 
 > "There is a gift for the boy in one of the chests. Some candied ginger. He was always fond of it." Illyrio sounded oddly sad.
 
-— ADWD Chapter 14 (Tyrion III), `sources/chapters/adwd/adwd-tyrion-03.md:53`
+— ADWD Tyrion III (`sources/chapters/adwd/adwd-tyrion-03.md:53`)

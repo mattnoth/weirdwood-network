@@ -33,6 +33,6 @@ In King's Landing, Petyr "Littlefinger" Baelish tells Catelyn Stark that the ass
 
 ## Quotes
 
-> "Her Grace got the emerald back, but the winner kept the rest." "Who?" Catelyn demanded, her mouth dry with fear. ... "The Imp," said Littlefinger as Lord Varys watched her face. "Tyrion Lannister."
+> Her Grace got the emerald back, but the winner kept the rest.” “Who?” Catelyn demanded, her mouth dry with fear. Her fingers ached with remembered pain. “The Imp,” said Littlefinger as Lord Varys watched her face. “Tyrion Lannister.
 
 — AGOT Catelyn IV (`sources/chapters/agot/agot-catelyn-04.md:195`)

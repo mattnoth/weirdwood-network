@@ -31,7 +31,7 @@ In *A Dance with Dragons*, [Ramsay Bolton](ramsay-snow) breaks Theon by torture 
 The name "Reek" has **three bearers** across the books and must not be collapsed into one identity:
 **Reek (I)** is the original Bolton servant (the [reek](reek) node); **Ramsay-as-Reek** is the ACOK
 disguise (modeled `ramsay-snow IMPERSONATES reek`); **Reek (III)** is Theon. A query for "Reek" in an
-ADWD context resolves here. (S149 Theon/Reek enrichment.)
+ADWD context resolves here.
 
 ## Origins
 
@@ -143,8 +143,7 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 
 ## Quotes
 
-> My name is Reek. It rhymes with leek ... He had not been born with that name.
->
+> “My name is Reek. It rhymes with leek.”
 > — Theon-as-Reek (identity-destruction mantra, ADWD Reek I, `sources/chapters/adwd/adwd-reek-01.md:53`)
 
 > I have done terrible things ... betrayed my own, turned my cloak, ordered the death of men who trusted me ... but I am no kinslayer.

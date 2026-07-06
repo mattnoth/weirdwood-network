@@ -15,7 +15,7 @@ first_available: ADWD 66 Cersei II
 
 ## Origins
 
-Rodrik served with the [Second Sons](wiki:Second_Sons), a [sellsword](wiki:Sellsword) company.(wiki:Rodrik_Stark_(son_of_Beron).cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Book-cite overlay: named verbatim in the Second Sons' leather-bound company book — "And Rodrik Stark, the Wandering Wolf, him as well." — ADWD Tyrion XII, `sources/chapters/adwd/adwd-tyrion-12.md:81`
+Rodrik served with the [Second Sons](wiki:Second_Sons), a [sellsword](wiki:Sellsword) company.(wiki:Rodrik_Stark_(son_of_Beron).cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Named verbatim in the Second Sons' leather-bound company book — "And Rodrik Stark, the Wandering Wolf, him as well." — ADWD Tyrion XII, `sources/chapters/adwd/adwd-tyrion-12.md:81`
 
 ## Edges
 

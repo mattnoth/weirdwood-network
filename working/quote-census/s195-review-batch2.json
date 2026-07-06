@@ -1,0 +1,282 @@
+[
+ {
+  "index": 70,
+  "verdict": "accept"
+ },
+ {
+  "index": 71,
+  "verdict": "accept"
+ },
+ {
+  "index": 72,
+  "verdict": "accept"
+ },
+ {
+  "index": 73,
+  "verdict": "accept"
+ },
+ {
+  "index": 74,
+  "verdict": "accept"
+ },
+ {
+  "index": 75,
+  "verdict": "accept"
+ },
+ {
+  "index": 76,
+  "verdict": "accept"
+ },
+ {
+  "index": 77,
+  "verdict": "accept"
+ },
+ {
+  "index": 78,
+  "verdict": "accept",
+  "note": "attribution_fix originally emitted here by INDEX ERROR; belongs to row 92/111 (cersei-plots/fall-of-astapor); hand-applied S195, kept for record",
+  "misplaced_attribution_fix": "Cersei's Blue Bard plot: scripting false confessions to destroy Margaery, AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:253`)"
+ },
+ {
+  "index": 79,
+  "verdict": "accept"
+ },
+ {
+  "index": 80,
+  "verdict": "accept"
+ },
+ {
+  "index": 81,
+  "verdict": "accept"
+ },
+ {
+  "index": 82,
+  "verdict": "accept"
+ },
+ {
+  "index": 83,
+  "verdict": "accept"
+ },
+ {
+  "index": 84,
+  "verdict": "accept"
+ },
+ {
+  "index": 85,
+  "verdict": "accept"
+ },
+ {
+  "index": 86,
+  "verdict": "accept"
+ },
+ {
+  "index": 87,
+  "verdict": "accept"
+ },
+ {
+  "index": 88,
+  "verdict": "accept"
+ },
+ {
+  "index": 89,
+  "verdict": "accept"
+ },
+ {
+  "index": 90,
+  "verdict": "accept",
+  "note": "attribution_fix originally emitted here by INDEX ERROR; belongs to row 92/111 (cersei-plots/fall-of-astapor); hand-applied S195, kept for record",
+  "misplaced_attribution_fix": "The trade goods laid out in exchange for the Unsullied (Daenerys's entire worldly inventory), ASOS Daenerys III (`sources/chapters/asos/asos-daenerys-03.md:227`)"
+ },
+ {
+  "index": 91,
+  "verdict": "accept"
+ },
+ {
+  "index": 92,
+  "verdict": "accept"
+ },
+ {
+  "index": 93,
+  "verdict": "accept"
+ },
+ {
+  "index": 94,
+  "verdict": "accept"
+ },
+ {
+  "index": 95,
+  "verdict": "accept"
+ },
+ {
+  "index": 96,
+  "verdict": "accept"
+ },
+ {
+  "index": 97,
+  "verdict": "accept"
+ },
+ {
+  "index": 98,
+  "verdict": "accept"
+ },
+ {
+  "index": 99,
+  "verdict": "accept"
+ },
+ {
+  "index": 100,
+  "verdict": "accept"
+ },
+ {
+  "index": 101,
+  "verdict": "accept"
+ },
+ {
+  "index": 102,
+  "verdict": "accept"
+ },
+ {
+  "index": 103,
+  "verdict": "accept"
+ },
+ {
+  "index": 104,
+  "verdict": "accept"
+ },
+ {
+  "index": 105,
+  "verdict": "accept"
+ },
+ {
+  "index": 106,
+  "verdict": "accept"
+ },
+ {
+  "index": 107,
+  "verdict": "accept"
+ },
+ {
+  "index": 108,
+  "verdict": "accept"
+ },
+ {
+  "index": 109,
+  "verdict": "accept"
+ },
+ {
+  "index": 110,
+  "verdict": "accept"
+ },
+ {
+  "index": 111,
+  "verdict": "accept"
+ },
+ {
+  "index": 112,
+  "verdict": "accept"
+ },
+ {
+  "index": 113,
+  "verdict": "accept"
+ },
+ {
+  "index": 114,
+  "verdict": "accept"
+ },
+ {
+  "index": 115,
+  "verdict": "accept"
+ },
+ {
+  "index": 116,
+  "verdict": "accept"
+ },
+ {
+  "index": 117,
+  "verdict": "accept"
+ },
+ {
+  "index": 118,
+  "verdict": "accept"
+ },
+ {
+  "index": 119,
+  "verdict": "accept"
+ },
+ {
+  "index": 120,
+  "verdict": "accept"
+ },
+ {
+  "index": 121,
+  "verdict": "accept"
+ },
+ {
+  "index": 122,
+  "verdict": "accept"
+ },
+ {
+  "index": 123,
+  "verdict": "accept"
+ },
+ {
+  "index": 124,
+  "verdict": "accept"
+ },
+ {
+  "index": 125,
+  "verdict": "accept"
+ },
+ {
+  "index": 126,
+  "verdict": "accept"
+ },
+ {
+  "index": 127,
+  "verdict": "accept"
+ },
+ {
+  "index": 128,
+  "verdict": "accept"
+ },
+ {
+  "index": 129,
+  "verdict": "accept"
+ },
+ {
+  "index": 130,
+  "verdict": "accept"
+ },
+ {
+  "index": 131,
+  "verdict": "accept"
+ },
+ {
+  "index": 132,
+  "verdict": "accept"
+ },
+ {
+  "index": 133,
+  "verdict": "accept"
+ },
+ {
+  "index": 134,
+  "verdict": "accept"
+ },
+ {
+  "index": 135,
+  "verdict": "accept"
+ },
+ {
+  "index": 136,
+  "verdict": "accept"
+ },
+ {
+  "index": 137,
+  "verdict": "accept"
+ },
+ {
+  "index": 138,
+  "verdict": "accept"
+ }
+]

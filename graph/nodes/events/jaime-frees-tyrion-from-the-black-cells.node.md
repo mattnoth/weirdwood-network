@@ -45,7 +45,7 @@ Three hours past midnight, the night before Tyrion is to be beheaded, Jaime Lann
 
 — Tyrion, on seeing Jaime's stump as he is freed, ASOS Tyrion XI (`sources/chapters/asos/asos-tyrion-11.md:27`)
 
-> "Thank you, Brother," Tyrion said. "For my life." / "It was . . . a debt I owed you." Jaime's voice was strange.
+> “Thank you, Brother,” Tyrion said. “For my life.” “It was . . . a debt I owed you.” Jaime’s voice was strange.
 
 — Tyrion and Jaime, ASOS Tyrion XI (`sources/chapters/asos/asos-tyrion-11.md:61`)
 

@@ -38,11 +38,11 @@ After [Quentyn Martell orders the attack](quentyn-orders-the-attack) on the drag
 
 ## Quotes
 
-> When he raised his whip, he saw that the lash was burning. His hand as well. All of him, all of him was burning. … Oh, he thought. Then he began to scream.
+> When he raised his whip, he saw that the lash was burning. His hand as well. All of him, all of him was burning. Oh, he thought. Then he began to scream.
 
 — Rhaegal's fire takes Quentyn, ADWD The Dragontamer (`sources/chapters/adwd/adwd-the-dragontamer-01.md:267`)
 
-> So much of the prince's flesh had sloughed away that he could see the skull beneath. His eyes were pools of pus. … Not all men are meant to dance with dragons.
+> So much of the prince’s flesh had sloughed away that he could see the skull beneath. His eyes were pools of pus. He should have stayed in Dorne. He should have stayed a frog. Not all men are meant to dance with dragons.
 
 — Barristan looks on the dying prince, ADWD The Queen's Hand (`sources/chapters/adwd/adwd-the-queens-hand-01.md:39`)
 

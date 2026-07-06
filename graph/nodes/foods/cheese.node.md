@@ -60,11 +60,11 @@ Have some of this cheese, it goes splendidly with the [wine](wiki:Wine).
 
 > They were fed—hard cheese and fresh-baked bread and milk to break their fast, roast chicken and greens at midday, and a late supper of beef and barley stew—but the servants who brought the meals would not answer Sansa's questions.
 
-— AGOT Chapter 51 (Sansa IV), `sources/chapters/agot/agot-sansa-04.md:23`
+— AGOT Sansa IV (`sources/chapters/agot/agot-sansa-04.md:23`)
 
 > The last course was goat cheese served with baked apples. The scent of cinnamon filled the hall as Osney Kettleblack slipped in to kneel once more between them.
 
-— ACOK Chapter 52 (Sansa VI), `sources/chapters/acok/acok-sansa-06.md:75`(wiki:Cheese.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+— ACOK Sansa VI (`sources/chapters/acok/acok-sansa-06.md:75`)(wiki:Cheese.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 The dungeons of [Riverrun](wiki:Riverrun) were not the cleanest place in the [Seven Kingdoms](wiki:Seven_Kingdoms). By now he must smell like an overripe cheese.(wiki:Cheese.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
 
 > The next visitor who calls on you could bring you bread and cheese and the milk of the poppy for your pain … or he could bring you Sansa's head.

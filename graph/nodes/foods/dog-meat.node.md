@@ -21,10 +21,10 @@ Dog meat appears in ADWD as siege-starvation food in the Yunkish camp and in the
 
 ## Quotes
 
-> … the air smelled of roasting meat, and he saw one man skinning a dog for his stewpot.
+> The air smelled of roasting meat, and he saw one man skinning a dog for his stewpot.
 
-— ADWD Chapter 47 (Tyrion X), `sources/chapters/adwd/adwd-tyrion-10.md:199`
+— ADWD Tyrion X (`sources/chapters/adwd/adwd-tyrion-10.md:199`)
 
 > Watered wine and lemonsweet and some nice hot dogtail soup, with slivers of mushroom in the broth. Drink it down, Nursey, that shitwater squirting from your arse needs to be replaced.
 
-— ADWD Chapter 57 (Tyrion XI), `sources/chapters/adwd/adwd-tyrion-11.md:69`
+— ADWD Tyrion XI (`sources/chapters/adwd/adwd-tyrion-11.md:69`)

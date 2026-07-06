@@ -44,7 +44,7 @@ After the death of [Balon Greyjoy](wiki:Balon_Greyjoy), [King of the Isles and t
 
 > Nine sons had been born from the loins of Quellon Greyjoy, the Lord of the Iron Islands. Harlon, Quenton, and Donel had been born of Lord Quellon's first wife, a woman of the Stonetrees. Balon, Euron, Victarion, Urrigon, and Aeron were the sons of his second, a Sunderly of Saltcliffe. For a third wife Quellon took a girl from the green lands, who gave him a sickly idiot boy named Robin, the brother best forgotten.
 
-— [Aeron Damphair](aeron-greyjoy)'s recollection of Quellon's marriages and sons, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:91`) *(book-cite overlay — specific genealogy detail; see also wiki quote above)*
+— [Aeron Damphair](aeron-greyjoy)'s recollection of Quellon's marriages and sons, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:91`)
 
 > Lord Quellon never returned from his last voyage; the [Drowned God](wiki:Drowned_God) in his goodness granted him a [death at sea](wiki:Battle_at_the_Mander). It was Lord [Balon](wiki:Balon_Greyjoy) who came back, with his brothers [Euron](wiki:Euron_Greyjoy) and [Victarion](wiki:Victarion_Greyjoy).(wiki:Quellon_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
 >

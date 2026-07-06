@@ -1,0 +1,28 @@
+[
+ {
+  "index": 57,
+  "verdict": "adjust",
+  "reason": "S123 splice-across-attribution exemplar; repaired with the attribution-inclusive verbatim span (Fable hand-fix, source read directly)",
+  "adjusted_text": "“Those are brave men,” he told Ser Balon in admiration. “Let’s go kill them.”",
+  "adjusted_cite": "sources/chapters/acok/acok-tyrion-14.md:51"
+ },
+ {
+  "index": 389,
+  "verdict": "adjust",
+  "reason": "old evidence_quote was a paraphrase, not book text; replaced with Ned's verbatim claim of the execution (Fable hand-fix)",
+  "adjusted_text": "“No,” Ned said. “Jory, take the girls back to their rooms and bring me Ice.” The words tasted of bile in his throat, but he forced them out. “If it must be done, I will do it.”",
+  "adjusted_cite": "sources/chapters/agot/agot-eddard-03.md:131"
+ },
+ {
+  "index": 405,
+  "verdict": "adjust",
+  "reason": "old evidence_quote 'Then I slew Aerys.' was a condensation; replaced with the verbatim contiguous sentence (Fable hand-fix)",
+  "adjusted_text": "Then I slew Aerys, before he could find someone else to carry his message to the pyromancers.",
+  "adjusted_cite": "sources/chapters/asos/asos-jaime-05.md:63"
+ },
+ {
+  "index": 183,
+  "verdict": "accept",
+  "reason": "REVERT batch-3 adjust: the hymn verse is blank-line-separated over 7 physical lines — the extended span can never fit the 5-line verifier window; the proposer's span is the maximal verifiable one (re-validation gate caught it)"
+ }
+]

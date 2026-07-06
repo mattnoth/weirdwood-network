@@ -40,7 +40,7 @@ textually confirmed) is that the three missing Freys are in the pies. The pies a
 
 ## Foreshadowing
 
-**Lady Dustin's dramatic irony (S152 harvest):** Two contiguous observations from Theon's POV (adwd-the-prince-of-winterfell-01.md) that completely misread Wyman's performance:
+**Lady Dustin's dramatic irony:** Two contiguous observations from Theon's POV (adwd-the-prince-of-winterfell-01.md) that completely misread Wyman's performance:
 
 > "He does not have the belly for it, for all his girth."
 

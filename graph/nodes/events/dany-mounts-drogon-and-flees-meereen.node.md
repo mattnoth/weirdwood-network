@@ -37,10 +37,10 @@ In the bloody chaos after [Drogon descends on Daznak's Pit](drogon-returns-to-da
 
 ## Quotes
 
-> Daenerys Targaryen vaulted onto the dragon's back, seized the spear, and ripped it out. … The black wings cracked like thunder, and suddenly the scarlet sands were falling away beneath her.
+> The black wings cracked like thunder, and suddenly the scarlet sands were falling away beneath her.
 
 — Dany mounts Drogon, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:265`)
 
-> The lash was still in her hand. She flicked it against Drogon's neck and cried, "Higher!" … Yes, she thought, yes, now, now, do it, do it, take me, take me, FLY!
+> The lash was still in her hand. She flicked it against Drogon’s neck and cried, “Higher!”
 
 — ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:269`)

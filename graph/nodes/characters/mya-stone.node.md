@@ -39,7 +39,7 @@ Mya is a wiry girl,(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4
 
 Mya wears riding leathers and a light shirt of silvered ringmail.(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)(wiki:Mya_Stone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 
-Book-cite overlay — Sansa's first good look at Mya preparing to descend the Giant's Lance: "Slim and sinewy, Mya looked as tough as the old riding leathers she wore beneath her silvery ringmail shirt. Her hair was black as a raven's wing, so short and shaggy that Alayne suspected that she cut it with a dagger. Mya's eyes were her best feature, big and blue. She could be pretty, if she would dress up like a girl." — also: "those are his eyes, and she has his hair too, the thick black hair he shared with Renly" (Robert's physical inheritance confirmed), AFFC Alayne II (`sources/chapters/affc/affc-alayne-02.md:181`) [q672]
+Sansa's first good look at Mya preparing to descend the Giant's Lance: "Slim and sinewy, Mya looked as tough as the old riding leathers she wore beneath her silvery ringmail shirt. Her hair was black as a raven's wing, so short and shaggy that Alayne suspected that she cut it with a dagger. Mya's eyes were her best feature, big and blue. She could be pretty, if she would dress up like a girl." — also: "those are his eyes, and she has his hair too, the thick black hair he shared with Renly" (Robert's physical inheritance confirmed), AFFC Alayne II (`sources/chapters/affc/affc-alayne-02.md:181`) [q672]
 
 Mya has a relationship with the squire [Mychel Redfort](wiki:Mychel_Redfort).(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
 
@@ -75,7 +75,7 @@ Mya informs young Robert that Lady [Anya Waynwood](wiki:Anya_Waynwood)'s party h
 >
 > —Mya to [Alayne Stone](wiki:Sansa_Stark) on the descent from the Eyrie — AFFC, Alayne II (`affc-alayne-02.md:367`)
 >
-> *S148 Vale book-cite overlay: Mya's coping philosophy — her abandonment by [Robert Baratheon](wiki:Robert_Baratheon) (her unacknowledged father) encoded as a childhood memory of being thrown in the air and caught, "till one day he wasn't."*
+>
 
 > I promise you, my lady, no harm will come to you. It would be my honor to take you up. I've made [the dark climb](wiki:Giant's_Lance) a hundred times. [Mychel](wiki:Mychel_Redfort) says my father must have been a [goat](wiki:Goat).(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
 >

@@ -25,4 +25,4 @@ Blackberry tarts served as the sweet course at the pre-Blackwater supper shared 
 
 > Serving men cleared away the swan, hardly touched. Cersei beckoned for the sweet. "I hope you like blackberry tarts."
 
-— ACOK Chapter 54, `sources/chapters/acok/acok-tyrion-12.md:115`
+— ACOK Tyrion XII (`sources/chapters/acok/acok-tyrion-12.md:115`)

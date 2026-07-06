@@ -62,12 +62,12 @@ On the morning of his trial by combat against Ser Gregor Clegane, Tyrion Lannist
 
 > They were fed—hard cheese and fresh-baked bread and milk to break their fast, roast chicken and greens at midday, and a late supper of beef and barley stew—but the servants who brought the meals would not answer Sansa's questions.
 
-— AGOT Chapter 51 (Sansa IV), `sources/chapters/agot/agot-sansa-04.md:23`
+— AGOT Sansa IV (`sources/chapters/agot/agot-sansa-04.md:23`)
 
 > They started with a creamy chestnut soup, crusty hot bread, and greens dressed with apples and pine nuts.
 
-— ACOK Chapter 54, `sources/chapters/acok/acok-tyrion-12.md:49`
+— ACOK Tyrion XII (`sources/chapters/acok/acok-tyrion-12.md:49`)
 
 > Tyrion had broken his fast on boiled eggs, burned bacon, and fried bread, and dressed in his finest.
 
-— ASOS Chapter 66, `sources/chapters/asos/asos-tyrion-09.md:163`
+— ASOS Tyrion IX (`sources/chapters/asos/asos-tyrion-09.md:163`)

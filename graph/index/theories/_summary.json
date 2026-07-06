@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T03:46:05.480893+00:00",
+  "generated_at": "2026-07-06T16:00:54.180320+00:00",
   "entity_type": "theories",
   "dry_run": false,
   "entity_count": 45,
@@ -10,78 +10,6 @@
   "mention_inverse_slugs": 0,
   "top_by_appearances": [
     {
-      "slug": "horn-of-winter-theories",
-      "name": "Horn of Winter/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "jon-snow-theories",
-      "name": "Jon Snow/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "hodor-theories",
-      "name": "Hodor/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "mandon-moore-theories",
-      "name": "Mandon Moore/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "jaqen-hghar-theories",
-      "name": "Jaqen H'ghar/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "azor-ahai-theories",
-      "name": "Azor Ahai/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "bastard-letter-theories",
-      "name": "Bastard Letter/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "sailors-wife-theories",
-      "name": "Sailor's Wife/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
       "slug": "theories",
       "name": "Theories",
       "type": "concept.theory",
@@ -91,8 +19,44 @@
       "out_edge_count": 0
     },
     {
-      "slug": "lemore-theories",
-      "name": "Lemore/Theories",
+      "slug": "roose-bolton-theories",
+      "name": "Roose Bolton/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "alleras-theories",
+      "name": "Alleras/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-prince-that-was-promised-theories",
+      "name": "The prince that was promised/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "walder-frey-son-of-jammos-theories",
+      "name": "Walder Frey (son of Jammos)/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "lightbringer-theories",
+      "name": "Lightbringer/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -118,15 +82,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "great-council-of-101-ac-theories",
-      "name": "Great Council of 101 AC/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
       "slug": "urrathon-night-walker-theories",
       "name": "Urrathon Night-Walker/Theories",
       "type": "concept.theory",
@@ -136,17 +91,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "robert-strong-theories",
-      "name": "Robert Strong/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "walder-frey-son-of-jammos-theories",
-      "name": "Walder Frey (son of Jammos)/Theories",
+      "slug": "loras-tyrell-theories",
+      "name": "Loras Tyrell/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -154,8 +100,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "knight-of-the-laughing-tree-theories",
-      "name": "Knight of the Laughing Tree/Theories",
+      "slug": "ben-plumm-theories",
+      "name": "Ben Plumm/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -163,8 +109,44 @@
       "out_edge_count": 0
     },
     {
-      "slug": "roose-bolton-theories",
-      "name": "Roose Bolton/Theories",
+      "slug": "frey-pies-theories",
+      "name": "Frey Pies/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 20,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "balon-greyjoy-theories",
+      "name": "Balon Greyjoy/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "nights-king-theories",
+      "name": "Night's King/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "valonqar-theories",
+      "name": "Valonqar/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "maynard-plumm-theories",
+      "name": "Maynard Plumm/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -181,8 +163,26 @@
       "out_edge_count": 0
     },
     {
-      "slug": "lightbringer-theories",
-      "name": "Lightbringer/Theories",
+      "slug": "sansa-stark-theories",
+      "name": "Sansa Stark/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "brienne-of-tarth-theories",
+      "name": "Brienne of Tarth/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "gravedigger-theories",
+      "name": "Gravedigger/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -210,15 +210,6 @@
       "out_edge_count": 0
     },
     {
-      "slug": "jon-snow-theories",
-      "name": "Jon Snow/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 1,
-      "out_edge_count": 0
-    },
-    {
       "slug": "robert-strong-theories",
       "name": "Robert Strong/Theories",
       "type": "concept.theory",
@@ -237,66 +228,12 @@
       "out_edge_count": 0
     },
     {
-      "slug": "horn-of-winter-theories",
-      "name": "Horn of Winter/Theories",
+      "slug": "jon-snow-theories",
+      "name": "Jon Snow/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "hodor-theories",
-      "name": "Hodor/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "mandon-moore-theories",
-      "name": "Mandon Moore/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "jaqen-hghar-theories",
-      "name": "Jaqen H'ghar/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "azor-ahai-theories",
-      "name": "Azor Ahai/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "bastard-letter-theories",
-      "name": "Bastard Letter/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "sailors-wife-theories",
-      "name": "Sailor's Wife/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
+      "in_edge_count": 1,
       "out_edge_count": 0
     },
     {
@@ -309,8 +246,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "lemore-theories",
-      "name": "Lemore/Theories",
+      "slug": "roose-bolton-theories",
+      "name": "Roose Bolton/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -318,8 +255,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "aegon-targaryen-son-of-rhaegar-theories",
-      "name": "Aegon Targaryen (son of Rhaegar)/Theories",
+      "slug": "alleras-theories",
+      "name": "Alleras/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -327,17 +264,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "great-council-of-101-ac-theories",
-      "name": "Great Council of 101 AC/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "urrathon-night-walker-theories",
-      "name": "Urrathon Night-Walker/Theories",
+      "slug": "the-prince-that-was-promised-theories",
+      "name": "The prince that was promised/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -354,8 +282,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "knight-of-the-laughing-tree-theories",
-      "name": "Knight of the Laughing Tree/Theories",
+      "slug": "lightbringer-theories",
+      "name": "Lightbringer/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -363,8 +291,80 @@
       "out_edge_count": 0
     },
     {
-      "slug": "roose-bolton-theories",
-      "name": "Roose Bolton/Theories",
+      "slug": "aegon-targaryen-son-of-rhaegar-theories",
+      "name": "Aegon Targaryen (son of Rhaegar)/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "urrathon-night-walker-theories",
+      "name": "Urrathon Night-Walker/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "loras-tyrell-theories",
+      "name": "Loras Tyrell/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "ben-plumm-theories",
+      "name": "Ben Plumm/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "balon-greyjoy-theories",
+      "name": "Balon Greyjoy/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "nights-king-theories",
+      "name": "Night's King/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "valonqar-theories",
+      "name": "Valonqar/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "maynard-plumm-theories",
+      "name": "Maynard Plumm/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "harpy-theories",
+      "name": "Harpy/Theories",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,

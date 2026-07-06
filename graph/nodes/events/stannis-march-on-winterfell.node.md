@@ -40,7 +40,7 @@ After winning [the fight by Deepwood Motte](fight-by-deepwood-motte) and the [ba
 
 — ADWD The King's Prize (`sources/chapters/adwd/adwd-the-kings-prize-01.md:11`)
 
-> Asha Greyjoy rode in the baggage train, in a covered wayn with two huge iron-rimmed wheels, fettered at wrist and ankle … His Grace King Stannis was taking no chances on his prize escaping captivity.
+> Asha Greyjoy rode in the baggage train, in a covered wayn with two huge iron-rimmed wheels, fettered at wrist and ankle
 
 — ADWD The King's Prize (`sources/chapters/adwd/adwd-the-kings-prize-01.md:19`)
 

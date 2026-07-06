@@ -39,7 +39,7 @@ Sansa's relationship with her younger sister [Arya](wiki:Arya_Stark) is often st
 
 Sansa is fond of [lemon cakes](wiki:Lemon_cake),(wiki:Sansa_Stark.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0) with [Gage](wiki:Gage) making the treats whenever possible.(wiki:Sansa_Stark.cite_ref-31)
 
-As Alayne Stone she dyes her auburn hair: "The wash her aunt had given her changed her own rich auburn into Alayne's burnt brown, but it was seldom long before the red began creeping back at the roots." Book-cite overlay: AFFC Alayne I (`sources/chapters/affc/affc-alayne-01.md:25`).
+As Alayne Stone she dyes her auburn hair: "The wash her aunt had given her changed her own rich auburn into Alayne's burnt brown, but it was seldom long before the red began creeping back at the roots." AFFC Alayne I (`sources/chapters/affc/affc-alayne-01.md:25`).
 
 ## Narrative Arc
 
@@ -135,7 +135,7 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 >
 > —Sansa's thoughts, building the snow castle of Winterfell at the Eyrie — ASOS, Sansa VII (`asos-sansa-07.md:31`)
 >
-> *S148 Vale book-cite overlay: the snow-castle scene — Sansa rebuilds Winterfell in snow moments before [Littlefinger](wiki:Petyr_Baelish)'s kiss and [Lysa's death](death-of-lysa-arryn).*
+>
 
 > All she wanted was for things to be nice and pretty, the way they were in the songs.(wiki:Sansa_Stark.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
@@ -165,13 +165,7 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 
 — Sansa's thoughts (considering pushing Joffrey from the wall), AGOT Sansa VI (`sources/chapters/agot/agot-sansa-06.md:165`)
 
-> Gentle Mother, font of mercy,
->
-> save our sons from war, we pray,
->
-> stay the swords and stay the arrows,
->
-> let them know a better day.
+> Gentle Mother, font of mercy, save our sons from war, we pray, stay the swords and stay the arrows,
 
 — Sansa singing under Sandor's knife, ACOK Sansa VII (`sources/chapters/acok/acok-sansa-07.md:109`)
 

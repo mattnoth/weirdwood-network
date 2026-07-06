@@ -50,9 +50,8 @@ During the [landing of the Golden Company](wiki:Landing_of_the_Golden_Company) i
 
 ### Quotes by Harry
 
-> You will pardon me if I do not rise. Our march was wearisome, and my toes are prone to blisters. It is a curse.(wiki:Harry_Strickland.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
->
-> —Harry to [Jon Connington](wiki:Jon_Connington). Book-cite overlay: ADWD The Lost Lord (`sources/chapters/adwd/adwd-the-lost-lord-01.md:113`). Connington's POV registers: "Portly, with a big round head, mild grey eyes, and thinning hair that he brushed sideways to conceal a bald spot, Strickland sat in a camp chair soaking his feet in a tub of salt water." The blistered-feet-in-tub detail is his leitmotif throughout the war council.
+> “You will pardon me if I do not rise,” he said by way of greeting. “Our march was wearisome, and my toes are prone to blisters. It is a curse.”
+> —Harry to [Jon Connington](wiki:Jon_Connington). ADWD The Lost Lord (`sources/chapters/adwd/adwd-the-lost-lord-01.md:113`). Connington's POV registers: "Portly, with a big round head, mild grey eyes, and thinning hair that he brushed sideways to conceal a bald spot, Strickland sat in a camp chair soaking his feet in a tub of salt water." The blistered-feet-in-tub detail is his leitmotif throughout the war council.
 
 ### Quotes about Harry
 

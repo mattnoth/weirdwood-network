@@ -40,15 +40,15 @@ Myrcella's maiming by Darkstar, and Arianne's capture and imprisonment.
 
 ## Quotes
 
-> "I found a letter lying incomplete beside it, a letter to my brother Quentyn... 'one day you will sit where I sit and rule all Dorne, and a ruler must be strong of mind and body.' ... My father's words, written in his own hand. They burned themselves into my memory."
+> ‘one day you will sit where I sit and rule all Dorne, and a ruler must be strong of mind and body.’
 
 — [Arianne Martell](arianne-martell) on the half-read letter that became the plot's prime mover, AFFC The Soiled Knight (`sources/chapters/affc/affc-the-soiled-knight-01.md:249`)
 
-> "I will." Ser Arys sank to one knee. "Myrcella is the elder, and better suited to the crown... I swear, no man will steal your birthright whilst I still have the strength to lift a sword. I am yours. What would you have of me?"
+> I swear, no man will steal your birthright whilst I still have the strength to lift a sword. I am yours. What would you have of me?
 
 — [Arys Oakheart](arys-oakheart) sworn to the scheme by [Arianne Martell](arianne-martell), AFFC The Soiled Knight (`sources/chapters/affc/affc-the-soiled-knight-01.md:275`)
 
-> "That, and my birthright. I want Sunspear, and my father's seat. I want Dorne. 'I want justice.'"
+> That, and my birthright. I want Sunspear, and my father’s seat. I want Dorne. “I want justice.”
 
 — [Arianne Martell](arianne-martell) on what she truly seeks, AFFC The Queenmaker (`sources/chapters/affc/affc-the-queenmaker-01.md:85`)
 

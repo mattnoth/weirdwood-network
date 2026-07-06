@@ -119,7 +119,7 @@ Like its walls, the five immense round(wiki:Harrenhal.cite_ref-Rasos31.7B.7B.7B3
 
 - The bathhouse is a low-ceilinged room filled with great stone tubs large enough to hold six or seven after the fashion of the [Free Cities](wiki:Free_Cities).(wiki:Harrenhal.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1) The bathhouse is made of stone and timber, with only one entrance to the room.(wiki:Harrenhal.cite_ref-Racok26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
 
-  **Book-cite overlay (S152 harvest):** Verbatim from Jaime's arrival at the bathhouse:
+  Verbatim from Jaime's arrival at the bathhouse:
 
   > "Harrenhal's bathhouse was a dim, steamy, low-ceilinged room filled with great stone tubs. … The tubs were large enough to hold six or seven, after the fashion of the Free Cities."
 

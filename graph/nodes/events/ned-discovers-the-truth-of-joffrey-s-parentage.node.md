@@ -33,9 +33,9 @@ Reading Grand Maester Malleon's lineage tome, Eddard Stark works out the secret 
 
 ## Quotes
 
-> "All three are Jaime's," he said. It was not a question. … The seed is strong, Jon Arryn had cried on his deathbed, and so it was. All those bastards, all with hair as black as night. … No matter how far back Ned searched in the brittle yellowed pages, always he found the gold yielding before the coal.
+> The seed is strong, Jon Arryn had cried on his deathbed, and so it was. All those bastards, all with hair as black as night.
 
-— AGOT Eddard XII (`sources/chapters/agot/agot-eddard-12.md:129`)
+— AGOT Eddard XII (`sources/chapters/agot/agot-eddard-12.md:133`)
 
 > "When the king returns from his hunt, I intend to lay the truth before him. You must be gone by then."
 

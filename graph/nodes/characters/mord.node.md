@@ -20,7 +20,7 @@ A brutish man, Mord is fond of tormenting his prisoners, telling them they are g
 
 Mord's clothes fit poorly and have a rank, ripe smell.(wiki:Mord.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) He wears steel-toed boots and threatens prisoners with a leather strap(wiki:Mord.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6) and a lash.(wiki:Mord.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 
-By AFFC he has capped his teeth with gold — the pay-out from Tyrion's promised bribe made visible: "When he spoke, Sansa saw to her astonishment that the gaoler's teeth were made of gold." Book-cite overlay: AFFC Sansa I (`sources/chapters/affc/affc-sansa-01.md:183`).
+By AFFC he has capped his teeth with gold — the pay-out from Tyrion's promised bribe made visible: "When he spoke, Sansa saw to her astonishment that the gaoler's teeth were made of gold." AFFC Sansa I (`sources/chapters/affc/affc-sansa-01.md:183`).
 
 ## Narrative Arc
 

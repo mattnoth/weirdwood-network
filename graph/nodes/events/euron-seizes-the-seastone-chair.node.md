@@ -35,7 +35,7 @@ The day after [Balon Greyjoy's death](death-of-balon-greyjoy), [Euron Greyjoy](e
 
 ## Quotes
 
-> "Euron Crow's Eye sits the Seastone Chair." ... The Crow's Eye is half a world away. Balon sent him off two years ago, and swore that it would be his life if he returned.
+> “Euron Crow’s Eye sits the Seastone Chair.” The Damphair turned. The hall had suddenly grown colder. The Crow’s Eye is half a world away. Balon sent him off two years ago, and swore that it would be his life if he returned.
 
 — Maester Murenmure brings word; Aeron's thoughts, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:115`)
 

@@ -27,4 +27,4 @@ Smokeberry is a food or drink from the AWOIAF wiki.
 
 > They nibbled on spiced sausage that morning, washed down with a dark smokeberry brown.
 
-— ADWD Chapter 8 (Tyrion II), `sources/chapters/adwd/adwd-tyrion-02.md:31`
+— ADWD Tyrion II (`sources/chapters/adwd/adwd-tyrion-02.md:31`)

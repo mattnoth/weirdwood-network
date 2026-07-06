@@ -59,7 +59,7 @@ King Joffrey receives one of the new longswords from his grandfather Tywin as a 
 
 — Sansa (Ilyn Payne holds Ice to execute the women if Stannis wins), ACOK Sansa VI, `sources/chapters/acok/acok-sansa-06.md:115`
 
-> "Ser Ilyn's greatsword was as long and wide as Ice, but it was too silvery-bright; Valyrian steel had a darkness to it, a smokiness in its soul. Sansa clutched his arm. 'What has Ser Ilyn done with my father's sword?'"
+> Ser Ilyn’s greatsword was as long and wide as Ice, but it was too silvery-bright; Valyrian steel had a darkness to it, a smokiness in its soul. Sansa clutched his arm. “What has Ser Ilyn done with my father’s sword?”
 
 — Tyrion (Sansa and Tyrion realize Ice has been reforged), ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:275`
 

@@ -31,13 +31,13 @@ While Bran lies comatose after his fall, a hired catspaw enters his sickroom wit
 
 ## Quotes
 
-> Catelyn saw the shadow slip through the open door behind him. ... just as the wolf made its leap. They went down together, half sprawled over Catelyn where she'd fallen. The wolf had him under the jaw. The man's shriek lasted less than a second before the beast wrenched back its head, taking out half his throat.
+> just as the wolf made its leap. They went down together, half sprawled over Catelyn where she’d fallen. The wolf had him under the jaw. The man’s shriek lasted less than a second before the beast wrenched back its head, taking out half his throat.
 
 — AGOT Catelyn III (`sources/chapters/agot/agot-catelyn-03.md:99`)
 
-> "Why would anyone want to kill a sleeping child?" ... "The blade is Valyrian steel, the hilt dragonbone. A weapon like that has no business being in the hands of such as him. Someone gave it to him."
+> The blade is Valyrian steel, the hilt dragonbone. A weapon like that has no business being in the hands of such as him. Someone gave it to him.
 
-— AGOT Catelyn III (`sources/chapters/agot/agot-catelyn-03.md:145`, `:179`) — establishes the dagger that drives the chain forward
+— AGOT Catelyn III (`sources/chapters/agot/agot-catelyn-03.md:179`, `:179`) — establishes the dagger that drives the chain forward
 
 ## Notes
 Node minted by `edge-reify-backfill.py --batch` during Plate 3 mini-batch run (promoted at S87 Plate 5 merge). Enriched S105 (2026-06-18) with verbatim quotes + causal-chain context during the Bran-fall causal-arc smoke test.

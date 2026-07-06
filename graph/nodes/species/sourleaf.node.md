@@ -41,7 +41,7 @@ Ser [Bennis of the Brown Shield](wiki:Bennis_of_the_Brown_Shield) was fond of ch
 
 [Chett](wiki:Chett) chews sourleaf at the [Fist of the First Men](wiki:Fist_of_the_First_Men) and share some with guards on duty.(wiki:Sourleaf.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 
-Book-cited beat (s157-harvest-drain): (Arya I, ACOK — `sources/chapters/acok/acok-arya-01.md:91`) After Yoren beats Arya for fighting, he gives her sourleaf: "Got sourleaf back at the wagons. You'll chew some, it'll help with the sting." The taste is "foul and it made her spit look like blood" but it helped with the pain from walking. Yoren himself chews sourleaf while sharpening his dirk in the dark — a habitual act.
+Book-cited beat: (Arya I, ACOK — `sources/chapters/acok/acok-arya-01.md:91`) After Yoren beats Arya for fighting, he gives her sourleaf: "Got sourleaf back at the wagons. You'll chew some, it'll help with the sting." The taste is "foul and it made her spit look like blood" but it helped with the pain from walking. Yoren himself chews sourleaf while sharpening his dirk in the dark — a habitual act.
 
 ### A Feast for Crows[ ]
 
@@ -59,6 +59,6 @@ The sourleaf had stained [Masha's](wiki:Masha_Heddle) teeth a dark red, and made
 Got sourleaf back at the wagons. You'll chew some, it'll help with the sting.(wiki:Sourleaf.cite_ref-Racok1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 A pinkish froth glistened on Ser [Emmon's](wiki:Emmon_Frey) lips when he spoke, courtesy of the sourleaf he liked to chew.(wiki:Sourleaf.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
-> "Got sourleaf back at the wagons," he said. "You'll chew some, it'll help with the sting." It did help, some, though the taste of it was foul and it made her spit look like blood.
+> “Got sourleaf back at the wagons,” he said as they made their way back to the road. “You’ll chew some, it’ll help with the sting.” It did help, some, though the taste of it was foul and it made her spit look like blood.
 
 — ACOK (Arya I), `sources/chapters/acok/acok-arya-01.md:91`

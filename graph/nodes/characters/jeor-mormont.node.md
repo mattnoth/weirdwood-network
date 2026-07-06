@@ -122,8 +122,7 @@ Mormont's raven remains by Jon's side.(wiki:Jeor_Mormont.cite_ref-Radwd3.7B.7B.7
 >
 > —Jeor to [Samwell Tarly](wiki:Samwell_Tarly)
 
-> We never knew! But we must have known once. The [Night's Watch](wiki:Night's_Watch) has forgotten its true purpose, Tarly. You don't build a wall seven hundred feet high to keep savages in skins from stealing women. The [Wall](wiki:Wall) was made to guard the realms of men … and not against other men, which is all the [wildlings](wiki:Free_folk) are when you come right down to it. Too many years, Tarly, too many hundreds and thousands of years. We lost sight of the [true enemy](wiki:Others). And now he's here, but we don't know how to fight him.(wiki:Jeor_Mormont.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
->
+> We never knew! But we must have known once. The Night’s Watch has forgotten its true purpose, Tarly. You don’t build a wall seven hundred feet high to keep savages in skins from stealing women. The Wall was made to guard the realms of men . . . and not against other men, which is all the wildlings are when you come right down to it. Too many years, Tarly, too many hundreds and thousands of years. We lost sight of the true enemy. And now he’s here, but we don’t know how to fight him.
 > —Jeor to [Samwell Tarly](wiki:Samwell_Tarly), ASOS Samwell II (`sources/chapters/asos/asos-samwell-02.md:153`)
 
 > **Samwell**: Tell them what, my lord? **Jeor**: All. The [Fist](wiki:Fight_at_the_Fist). The [wildlings](wiki:Wildlings). [Dragonglass](wiki:Dragonglass). [This](wiki:Mutiny_at_Craster's_Keep). All. Tell my son. [Jorah](wiki:Jorah_Mormont). Tell him, [take the black](wiki:Take_the_black). My wish. Dying wish.(wiki:Jeor_Mormont.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)

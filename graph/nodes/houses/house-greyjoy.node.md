@@ -152,9 +152,9 @@ Since his disappearance following the [kingsmoot](wiki:Kingsmoot_on_Old_Wyk), [A
 >
 > —[Victarion Greyjoy](wiki:Victarion_Greyjoy) to [Dunstan Drumm](wiki:Dunstan_Drumm)
 
-> In those days, the ironborn did not work mines; that was labor for the captives brought back from the hostings, and so too the sorry business of farming and tending goats and sheep. War was an ironman's proper trade. [...] Theon's father numbered among his titles the style of Lord Reaper, and the Greyjoy words boasted that We Do Not Sow.
+> In those days, the ironborn did not work mines; that was labor for the captives brought back from the hostings, and so too the sorry business of farming and tending goats and sheep. War was an ironman’s proper trade. The Drowned God had made them to reave and rape, to carve out kingdoms and write their names in fire and blood and song. Aegon the Dragon had destroyed the Old Way when he burned Black Harren, gave Harren’s kingdom back to the weakling rivermen, and reduced the Iron Islands to an insignificant backwater of a much greater realm. Yet the old red tales were still told around driftwood fires and smoky hearths all across the islands, even behind the high stone halls of Pyke. Theon’s father numbered among his titles the style of Lord Reaper, and the Greyjoy words boasted that We Do Not Sow.
 
-— The Old Way ideology and House Greyjoy's words; Aegon the Dragon "destroyed the Old Way when he burned Black Harren." Theon Greyjoy POV, ACOK Theon I (`sources/chapters/acok/acok-theon-01.md:73`)
+— The Old Way ideology and House Greyjoy's words; Aegon the Dragon "destroyed the Old Way when he burned Black Harren." Theon Greyjoy POV, ACOK Theon I (`sources/chapters/acok/acok-theon-01.md:71`)
 
 > In the Old Way, women might decorate themselves with ornaments bought with coin, but a warrior wore only the jewelry he took off the corpses of enemies slain by his own hand. Paying the iron price, it was called.
 

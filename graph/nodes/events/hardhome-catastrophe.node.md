@@ -44,7 +44,7 @@ this node represents the REVELATION, i.e. the letter, not a witnessed battle.)
 
 ## Quotes
 
-> At Hardhome, with six ships. Wild seas. Blackbird lost with all hands ... Wildlings eating their own dead. Dead things in the woods. ... Eight ravens left. Dead things in the water. Send help by land, seas wracked by storms. From Talon, by hand of Maester Harmune.
+> Eight ravens left. Dead things in the water. Send help by land, seas wracked by storms. From Talon, by hand of Maester Harmune.
 
 — Cotter Pyke's letter, ADWD Jon XII (`sources/chapters/adwd/adwd-jon-12.md:263`)
 

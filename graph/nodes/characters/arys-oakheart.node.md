@@ -94,6 +94,6 @@ The Dornish court informs Ser Balon Swann that Arys was killed by Ser [Gerold Da
 >
 > —thoughts of [Arianne Martell](wiki:Arianne_Martell)
 
-> A noble vow. But you are only one man, ser. I had hoped that imprisoning my headstrong nieces would help to calm the waters, but all we've done is drive the roaches back beneath the rushes. Every night I hear them whispering and sharpening their knives.
+> “A noble vow,” said Doran Martell with a faint smile, “but you are only one man, ser. I had hoped that imprisoning my headstrong nieces would help to calm the waters, but all we’ve done is drive the roaches back beneath the rushes. Every night I hear them whispering and sharpening their knives.”
 
 — Doran Martell to Arys Oakheart, AFFC The Soiled Knight I (`sources/chapters/affc/affc-the-soiled-knight-01.md:45`) [L849]

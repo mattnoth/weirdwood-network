@@ -29,8 +29,8 @@ FIGHTS_IN (reverse): roberts-rebellion — source: infobox-data.jsonl (Robert's 
 
 > As they came together in a rush of steel and shadow, he could hear Lyanna screaming. "Eddard!" she called. A storm of rose petals blew across a blood-streaked sky, as blue as the eyes of death.
 
-— Eddard Stark's fever dream of the tower, AGOT Eddard X (`sources/chapters/agot/agot-eddard-10.md:45`) — book-cite overlay (S134 harvest-consume)
+— Eddard Stark's fever dream of the tower, AGOT Eddard X (`sources/chapters/agot/agot-eddard-10.md:45`) — book-cite overlay
 
 > It was said that Rhaegar had named that place the tower of joy, but for Ned it was a bitter memory.
 
-— thoughts of Eddard Stark, AGOT Eddard X (`sources/chapters/agot/agot-eddard-10.md:93`) — book-cite overlay (S134 harvest-consume); Rhaegar named the tower, sourcing the node's Identity claim
+— thoughts of Eddard Stark, AGOT Eddard X (`sources/chapters/agot/agot-eddard-10.md:93`) — Rhaegar named the tower, sourcing the node's Identity claim

@@ -25,7 +25,7 @@ Event node minted by Plate 3 full-corpus scan for: Execution of Eddard Stark
 
 ## Quotes
 
-> "My mother bids me let Lord Eddard take the black, and Lady Sansa has begged mercy for her father." ... "But they have the soft hearts of women. So long as I am your king, treason shall never go unpunished. Ser Ilyn, bring me his head!"
+> “But they have the soft hearts of women. So long as I am your king, treason shall never go unpunished. Ser Ilyn, bring me his head!”
 
 — Joffrey Baratheon, reneging on the promised mercy and ordering the execution, AGOT Arya V (`sources/chapters/agot/agot-arya-05.md:161`)
 

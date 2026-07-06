@@ -30,9 +30,9 @@ Event node minted by Plate 3 full-corpus scan for: Cersei plots against Margaery
 
 — Cersei's scheming on how to bring down [Margaery Tyrell](margaery-tyrell), AFFC Cersei VIII (`sources/chapters/affc/affc-cersei-08.md:343`)
 
-> "Ser Osney shall confess as well. The others must be made to understand that only through confession can they earn the king's forgiveness, and the Wall."
+> “Ser Osney shall confess as well. The others must be made to understand that only through confession can they earn the king’s forgiveness, and the Wall.”
 
-— Cersei's Blue Bard plot: scripting false confessions to destroy Margaery, AFFC Cersei VIII (`sources/chapters/affc/affc-cersei-08.md:253`)
+— Cersei's Blue Bard plot: scripting false confessions to destroy Margaery, AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:253`)
 
 ## Notes
 Node minted by `edge-reify-backfill.py --batch` during Plate 3 mini-batch run.

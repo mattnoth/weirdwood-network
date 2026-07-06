@@ -102,7 +102,7 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 
 — Wyman to Davos, after Wylis's return home, ADWD Davos IV (`sources/chapters/adwd/adwd-davos-04.md:171`). The definitive self-description; grounds the `too fat to sit a horse` wiki fact with navigable book provenance.
 
-> The best pie you have ever tasted, my lords. Wash it down with Arbor gold and savor every bite. I know I shall.
+> “The best pie you have ever tasted, my lords,” the fat lord declared. “Wash it down with Arbor gold and savor every bite. I know I shall.”
 
 — Wyman to Roose Bolton, Hosteen Frey, and Aenys Frey, serving from the three great pies at the wedding feast of Ramsay Bolton at Winterfell. Wyman then "devoured six portions, two from each of the three pies, smacking his lips and slapping his belly." ADWD The Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:129`).
 
@@ -144,9 +144,9 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 
 ### Quotes about Wyman
 
-> He is almost dancing. Serving with his own hands. … He's drunk. Drowning his fears. He is craven to the bone, that one.
+> “Drowning his fears. He is craven to the bone, that one.”
 
-— Lady Barbrey Dustin's read of Wyman's jolly-fat-man performance at the wedding feast, gesturing at him with her wine cup. Theon POV, ADWD The Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:141`).
+— Lady Barbrey Dustin's read of Wyman's jolly-fat-man performance at the wedding feast, gesturing at him with her wine cup. Theon POV, ADWD The Prince of Winterfell (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:145`).
 
 > The great pig Manderly was too craven to leave [White Harbor](wiki:White_Harbor), or we would have brought him as well.(wiki:Wyman_Manderly.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
 >

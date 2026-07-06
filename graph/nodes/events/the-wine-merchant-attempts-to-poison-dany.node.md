@@ -36,11 +36,11 @@ At the Western Market of [Vaes Dothrak](vaes-dothrak), a smooth Lyseni wine merc
 
 ## Appearances & Description
 
-The wine merchant is a small man, slender and handsome, his flaxen hair curled and perfumed after the fashion of Lys — a Lysene fashion note that Jorah later uses to identify him as a spy rather than a legitimate trader. (`sources/chapters/agot/agot-daenerys-06.md:83`) [book-cite overlay; the "fashion of Lys" tells Jorah the man's true origin]
+The wine merchant is a small man, slender and handsome, his flaxen hair curled and perfumed after the fashion of Lys — a Lysene fashion note that Jorah later uses to identify him as a spy rather than a legitimate trader. (`sources/chapters/agot/agot-daenerys-06.md:83`) [The "fashion of Lys" tells Jorah the man's true origin]
 
 ## Quotes
 
-> "A taste for the khaleesi? ... A cask, a cup, a swallow? One taste, and you will name your child after me."
+> A cask, a cup, a swallow? One taste, and you will name your child after me.
 
 — the Lyseni wine merchant, AGOT Daenerys VI (`sources/chapters/agot/agot-daenerys-06.md:83`)
 

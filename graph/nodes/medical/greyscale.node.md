@@ -56,7 +56,7 @@ He dare not let the greyscale become known. Queer as it seemed, men who would ch
 
 ## Disease Progression
 
-Book-cite overlay (S152 harvest): Tyrion's POV on approaching the Bridge of Dream provides the clearest in-text account of the disease's stages:
+Tyrion's POV on approaching the Bridge of Dream provides the clearest in-text account of the disease's stages:
 
 > "The mortal form of greyscale began in the extremities, he knew: a tingling in a fingertip, a toenail turning black, a loss of feeling. As the numbness crept into the hand, or stole past the foot and up the leg, the flesh stiffened and grew cold and the victim's skin took on a greyish hue, resembling stone. He had heard it said that there were three good cures for greyscale: axe and sword and cleaver. Hacking off afflicted parts did sometimes stop the spread of the disease, Tyrion knew, but not always. Many a man had sacrificed one arm or foot, only to find the other going grey. Once that happened, hope was gone. Blindness was common when the stone reached the face. In the final stages the curse turned inward, to muscles, bones, and inner organs."
 
@@ -64,4 +64,4 @@ Book-cite overlay (S152 harvest): Tyrion's POV on approaching the Bridge of Drea
 
 > [Jon Connington](jon-connington)'s death-clock — the greyscale he contracts pulling Tyrion from the Rhoyne during the stone-men attack: "The nail on his middle finger had turned as black as jet, he saw, and the grey had crept up almost to the first knuckle... Death, he knew, but slow. I still have time."
 
-— ADWD, The Lost Lord (`sources/chapters/adwd/adwd-the-lost-lord-01.md:237`) — *book-cite overlay, S147 AEGON enrichment (navigable upgrade of the wiki cite_refs above; anchors the `jon-connington AFFLICTED_BY greyscale` + `greyscale MOTIVATES jon-connington` edges).*
+— ADWD, The Lost Lord (`sources/chapters/adwd/adwd-the-lost-lord-01.md:237`)

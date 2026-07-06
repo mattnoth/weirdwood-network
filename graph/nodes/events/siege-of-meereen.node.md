@@ -51,11 +51,11 @@ In contrast to her previous [Ghiscari](wiki:Ghiscari) conquests, Daenerys choose
 
 ## Quotes
 
-> Meereen was as large as Astapor and Yunkai combined. … Her walls were higher than Yunkai's and in better repair, studded with bastions and anchored by great defensive towers at every angle. Behind them, huge against the sky, could be seen the top of the Great Pyramid, a monstrous thing eight hundred feet tall with a towering bronze harpy at its top.
+> Her walls were higher than Yunkai’s and in better repair, studded with bastions and anchored by great defensive towers at every angle. Behind them, huge against the sky, could be seen the top of the Great Pyramid, a monstrous thing eight hundred feet tall with a towering bronze harpy at its top.
 
 — Daenerys first sees Meereen, ASOS Daenerys V (`sources/chapters/asos/asos-daenerys-05.md:11`)
 
-> They had nailed a slave child up on every milepost along the coast road from Yunkai, nailed them up still living with their entrails hanging out and one arm always outstretched to point the way to Meereen. … "I will see them," she said. "I will see every one, and count them, and look upon their faces. And I will remember."
+> they had nailed a slave child up on every milepost along the coast road from Yunkai, nailed them up still living with their entrails hanging out and one arm always outstretched to point the way to Meereen. Leading her van, Daario had given orders for the children to be taken down before Dany had to see them, but she had countermanded him as soon as she was told. “I will see them,” she said. “I will see every one, and count them, and look upon their faces. And I will remember.”
 
 — Daenerys's vow before 163 crucified children; the motivation that drives her to take Meereen, ASOS Daenerys V (`sources/chapters/asos/asos-daenerys-05.md:33`)
 

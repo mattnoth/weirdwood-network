@@ -39,10 +39,10 @@ sort_keys:
 
 — a Sparr rider brings Aeron the news, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:63`)
 
-> "His Grace was crossing a bridge at Pyke when he fell and was dashed upon the rocks below." ... "Was the storm raging when he fell?" Aeron demanded of them. "Aye," the youth said, "it was."
+> “His Grace was crossing a bridge at Pyke when he fell and was dashed upon the rocks below.”
 
 — AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:69`)
 
-> "The Storm God cast him down," the priest announced. ... "My brother Balon made us great again, which earned the Storm God's wrath."
+> My brother Balon made us great again, which earned the Storm God’s wrath.
 
 — Aeron Damphair, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:75`)

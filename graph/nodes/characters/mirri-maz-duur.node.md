@@ -25,7 +25,7 @@ Mirri Maz Duur is a character from the AWOIAF wiki.
 
 ## Appearances & Description
 
-Mirri is a heavyset woman, with black hair, a plain face, and a flat nose. She is about 40 years old when Daenerys first meets her.(wiki:Mirri_Maz_Duur.cite_ref-Ragot61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) The robes she wore had once been the lightest and finest of woolens, rich with embroidery, but when Dany first encountered her they were mud-caked and bloody and ripped, and she clutched the torn cloth of her bodice to her heavy breasts. (`sources/chapters/agot/agot-daenerys-07.md:133`) [book-cite overlay upgrading non-navigable wiki description] According to Mirri, when she was younger, she was more beautiful.(wiki:Mirri_Maz_Duur.cite_ref-Ragot61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+Mirri is a heavyset woman, with black hair, a plain face, and a flat nose. She is about 40 years old when Daenerys first meets her.(wiki:Mirri_Maz_Duur.cite_ref-Ragot61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) The robes she wore had once been the lightest and finest of woolens, rich with embroidery, but when Dany first encountered her they were mud-caked and bloody and ripped, and she clutched the torn cloth of her bodice to her heavy breasts. (`sources/chapters/agot/agot-daenerys-07.md:133`) According to Mirri, when she was younger, she was more beautiful.(wiki:Mirri_Maz_Duur.cite_ref-Ragot61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 According to Mirri, she knows every secret of childbirth, and has never lost a baby.(wiki:Mirri_Maz_Duur.cite_ref-Ragot61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
 ## Origins

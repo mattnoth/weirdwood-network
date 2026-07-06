@@ -98,8 +98,7 @@ Though they find safety in the cave, staying there for months while Bran learns 
 >
 > —Jojen to [Bran Stark](wiki:Bran_Stark)
 
-> There is a power in living wood, a power strong as fire.(wiki:Jojen_Reed.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
->
+> “There is a power in living wood,” said Jojen Reed, almost as if he knew what Bran was thinking, “a power strong as fire.”
 > —Jojen to [Bran Stark](wiki:Bran_Stark) (book cite: `sources/chapters/acok/acok-bran-07.md:145`) [godswood/weirwood foreshadowing]
 
 > **Bran**: You're a [greenseer](wiki:Greenseer). **Jojen**: No, only a boy who dreams.(wiki:Jojen_Reed.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)

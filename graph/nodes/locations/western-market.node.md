@@ -21,7 +21,7 @@ Western Market is a location from the AWOIAF wiki.
 
 > The Western Market was a great square of beaten earth surrounded by warrens of mud-baked brick, animal pens, whitewashed drinking halls. Hummocks rose from the ground like the backs of great subterranean beasts breaking the surface, yawning black mouths leading down to cool and cavernous storerooms below. The interior of the square was a maze of stalls and crookback aisles, shaded by awnings of woven grass.
 
-— Daenerys at the Western Market, AGOT Daenerys VI (`sources/chapters/agot/agot-daenerys-06.md:51`) [book-cite overlay onto wiki description]
+— Daenerys at the Western Market, AGOT Daenerys VI (`sources/chapters/agot/agot-daenerys-06.md:51`)
 
 ## Quotes
 

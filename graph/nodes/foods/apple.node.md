@@ -78,11 +78,11 @@ The [ironborn](wiki:Ironborn) of [Asha Greyjoy](wiki:Asha_Greyjoy) drink [Galbar
 
 > A man was pushing a load of tarts by on a two-wheeled cart; the smells sang of blueberries and lemons and apricots.
 
-— AGOT Chapter 65 (Arya V), `sources/chapters/agot/agot-arya-05.md:19`
+— AGOT Arya V (`sources/chapters/agot/agot-arya-05.md:19`)
 
 > A serving man brought porridge and apples to break his fast, with a horn of ale.
 
-— ASOS Chapter 66, `sources/chapters/asos/asos-tyrion-09.md:57`
+— ASOS Tyrion IX (`sources/chapters/asos/asos-tyrion-09.md:57`)
 
 He kept the apple for last. It had gone a little soft, but the flesh was still tart and juicy.(wiki:Apple.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1)
 Pork's always best with applesauce, I find.(wiki:Apple.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)

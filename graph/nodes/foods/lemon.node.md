@@ -64,7 +64,7 @@ Petyr acquires every lemon in the [Vale of Arryn](wiki:Vale_of_Arryn) for a twel
 
 > A man was pushing a load of tarts by on a two-wheeled cart; the smells sang of blueberries and lemons and apricots.
 
-— AGOT Chapter 65 (Arya V), `sources/chapters/agot/agot-arya-05.md:19`
+— AGOT Arya V (`sources/chapters/agot/agot-arya-05.md:19`)
 
 All that Daenerys wanted back was the big [house with the red door](wiki:House_with_the_red_door), the lemon tree outside her window, the childhood she had never known.(wiki:Lemon.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-3)
 [Mormont](wiki:Jeor_Mormont) drank lemon in his [beer](wiki:Beer) every day, and claimed that was why he still had his own teeth.(wiki:Lemon.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)

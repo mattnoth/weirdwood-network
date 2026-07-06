@@ -28,7 +28,7 @@ At the inn at the crossroads, Catelyn Stark recognizes Tyrion Lannister and — 
 
 ## Quotes
 
-> "This man came a guest into my house, and there conspired to murder my son, a boy of seven," she proclaimed to the room at large, pointing. ... "In the name of King Robert and the good lords you serve, I call upon you to seize him and help me return him to Winterfell to await the king's justice."
+> “This man came a guest into my house, and there conspired to murder my son, a boy of seven,” she proclaimed to the room at large, pointing. Ser Rodrik moved to her side, his sword in hand. “In the name of King Robert and the good lords you serve, I call upon you to seize him and help me return him to Winterfell to await the king’s justice.”
 
 — AGOT Catelyn V (`sources/chapters/agot/agot-catelyn-05.md:153`)
 

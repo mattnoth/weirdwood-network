@@ -1,0 +1,287 @@
+[
+ {
+  "index": 0,
+  "verdict": "accept"
+ },
+ {
+  "index": 1,
+  "verdict": "accept"
+ },
+ {
+  "index": 2,
+  "verdict": "accept"
+ },
+ {
+  "index": 3,
+  "verdict": "accept"
+ },
+ {
+  "index": 4,
+  "verdict": "accept"
+ },
+ {
+  "index": 5,
+  "verdict": "accept"
+ },
+ {
+  "index": 6,
+  "verdict": "accept"
+ },
+ {
+  "index": 7,
+  "verdict": "accept"
+ },
+ {
+  "index": 8,
+  "verdict": "accept"
+ },
+ {
+  "index": 9,
+  "verdict": "accept"
+ },
+ {
+  "index": 10,
+  "verdict": "accept"
+ },
+ {
+  "index": 11,
+  "verdict": "accept"
+ },
+ {
+  "index": 12,
+  "verdict": "accept"
+ },
+ {
+  "index": 13,
+  "verdict": "accept"
+ },
+ {
+  "index": 14,
+  "verdict": "accept"
+ },
+ {
+  "index": 15,
+  "verdict": "accept"
+ },
+ {
+  "index": 16,
+  "verdict": "accept"
+ },
+ {
+  "index": 17,
+  "verdict": "accept"
+ },
+ {
+  "index": 18,
+  "verdict": "accept"
+ },
+ {
+  "index": 19,
+  "verdict": "accept"
+ },
+ {
+  "index": 20,
+  "verdict": "accept"
+ },
+ {
+  "index": 21,
+  "verdict": "accept"
+ },
+ {
+  "index": 22,
+  "verdict": "accept"
+ },
+ {
+  "index": 23,
+  "verdict": "accept"
+ },
+ {
+  "index": 24,
+  "verdict": "accept"
+ },
+ {
+  "index": 25,
+  "verdict": "accept"
+ },
+ {
+  "index": 26,
+  "verdict": "accept"
+ },
+ {
+  "index": 27,
+  "verdict": "accept"
+ },
+ {
+  "index": 28,
+  "verdict": "accept"
+ },
+ {
+  "index": 29,
+  "verdict": "accept"
+ },
+ {
+  "index": 30,
+  "verdict": "accept"
+ },
+ {
+  "index": 31,
+  "verdict": "accept"
+ },
+ {
+  "index": 32,
+  "verdict": "accept"
+ },
+ {
+  "index": 33,
+  "verdict": "accept"
+ },
+ {
+  "index": 34,
+  "verdict": "accept"
+ },
+ {
+  "index": 35,
+  "verdict": "adjust",
+  "reason": "better span exists at the ORIGINAL ADWD scene (attribution stays valid; no relocation needed)",
+  "adjusted_text": "“I am the sword in the darkness,” said the six, and it seemed to Jon as though their voices were changing, growing stronger, more certain. “I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men.”",
+  "adjusted_cite": "sources/chapters/adwd/adwd-jon-07.md:159"
+ },
+ {
+  "index": 36,
+  "verdict": "accept"
+ },
+ {
+  "index": 37,
+  "verdict": "accept"
+ },
+ {
+  "index": 38,
+  "verdict": "accept"
+ },
+ {
+  "index": 39,
+  "verdict": "accept"
+ },
+ {
+  "index": 40,
+  "verdict": "accept"
+ },
+ {
+  "index": 41,
+  "verdict": "accept"
+ },
+ {
+  "index": 42,
+  "verdict": "accept"
+ },
+ {
+  "index": 43,
+  "verdict": "accept"
+ },
+ {
+  "index": 44,
+  "verdict": "accept"
+ },
+ {
+  "index": 45,
+  "verdict": "accept"
+ },
+ {
+  "index": 46,
+  "verdict": "accept"
+ },
+ {
+  "index": 47,
+  "verdict": "accept"
+ },
+ {
+  "index": 48,
+  "verdict": "accept"
+ },
+ {
+  "index": 49,
+  "verdict": "accept"
+ },
+ {
+  "index": 50,
+  "verdict": "accept"
+ },
+ {
+  "index": 51,
+  "verdict": "accept"
+ },
+ {
+  "index": 52,
+  "verdict": "accept"
+ },
+ {
+  "index": 53,
+  "verdict": "accept"
+ },
+ {
+  "index": 54,
+  "verdict": "accept"
+ },
+ {
+  "index": 55,
+  "verdict": "accept"
+ },
+ {
+  "index": 56,
+  "verdict": "accept"
+ },
+ {
+  "index": 58,
+  "verdict": "accept"
+ },
+ {
+  "index": 59,
+  "verdict": "accept"
+ },
+ {
+  "index": 60,
+  "verdict": "accept"
+ },
+ {
+  "index": 61,
+  "verdict": "accept"
+ },
+ {
+  "index": 62,
+  "verdict": "accept"
+ },
+ {
+  "index": 63,
+  "verdict": "adjust",
+  "reason": "proposed span ended mid-clause ('no shadow can'); extended to the full sentence",
+  "adjusted_text": "There are spells woven into the stones. Dark walls that no shadow can pass—ancient, forgotten, yet still in place.",
+  "adjusted_cite": "sources/chapters/acok/acok-davos-02.md:331"
+ },
+ {
+  "index": 64,
+  "verdict": "accept"
+ },
+ {
+  "index": 65,
+  "verdict": "accept"
+ },
+ {
+  "index": 66,
+  "verdict": "accept"
+ },
+ {
+  "index": 67,
+  "verdict": "accept"
+ },
+ {
+  "index": 68,
+  "verdict": "accept"
+ },
+ {
+  "index": 69,
+  "verdict": "adjust",
+  "reason": "extended to the full pebbles sentence instead of ending at 'clattered forth,'",
+  "adjusted_text": "“I give you the wealth of the Stony Shore,” Asha said as the first was upended. An avalanche of pebbles clattered forth, cascading down the steps; pebbles grey and black and white, worn smooth by the sea.",
+  "adjusted_cite": "sources/chapters/affc/affc-the-drowned-man-01.md:129"
+ }
+]

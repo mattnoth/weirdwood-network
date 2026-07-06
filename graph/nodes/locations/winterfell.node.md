@@ -209,7 +209,7 @@ Mors had his troops built pits outside the main gate. The Freys ride into them, 
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
 
-> They stood in the shadow of the [First Keep](wiki:First_Keep), or what remained of it. One whole side of the building had torn loose and fallen away. Stone and shattered [gargoyles](wiki:Gargoyle) lay strewn across the yard. They fell just where I did, Bran thought when he saw them.
+> They stood in the shadow of the First Keep, or what remained of it. One whole side of the building had torn loose and fallen away. Stone and shattered gargoyles lay strewn across the yard. They fell just where I did, Bran thought when he saw them.
 
 — The burned First Keep in the aftermath of the [sack of Winterfell](wiki:Sack_of_Winterfell); Bran's fall echoed in the fallen gargoyles. Bran POV, ACOK Bran VII (`sources/chapters/acok/acok-bran-07.md:121`)
 >

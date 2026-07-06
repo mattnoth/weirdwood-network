@@ -27,7 +27,7 @@ There is enmity between the Windblown and the [Company of the Cat](wiki:Company_
 
 ## Culture
 
-**Book-cite overlay (S152 harvest):** The Dornish infiltration kit — Quentyn and his companions disguise themselves as Brazen Beasts to infiltrate the Great Pyramid:
+The Dornish infiltration kit — Quentyn and his companions disguise themselves as Brazen Beasts to infiltrate the Great Pyramid:
 
 > "Within were three long hooded cloaks made from myriad small squares of cloth sewn together, three cudgels, three shortswords, three masks of polished brass. A bull, a lion, and an ape."
 

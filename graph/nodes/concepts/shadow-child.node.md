@@ -45,7 +45,7 @@ Melisandre remains at [Castle Black](wiki:Castle_Black) after the [battle beneat
 
 ## Quotes
 
-> "There are spells woven into the stones. Dark walls that no shadow can pass."
+> There are spells woven into the stones. Dark walls that no shadow can pass—ancient, forgotten, yet still in place.
 
 — Melisandre to Davos, explaining why she must enter Storm's End bodily, ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:331`)
 

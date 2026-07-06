@@ -174,7 +174,7 @@ However, as the play is about to begin, Arya notices that one of Harys's guards 
 
 — Sandor Clegane to Arya Stark (telling her Robb is dead), ASOS Arya XI (`sources/chapters/asos/asos-arya-11.md:45`)
 
-> Ser Gregor. Dunsen, Polliver, Chiswyck, Raff the Sweetling. The Tickler and the Hound. Ser Amory, Ser Ilyn, Ser Meryn, King Joffrey, Queen Cersei.
+> “Dunsen, Polliver, Chiswyck, Raff the Sweetling. The Tickler and the Hound. Ser Amory, Ser Ilyn, Ser Meryn, King Joffrey, Queen Cersei.”
 
 — Arya's kill-list prayer (the ritual origin), ACOK Arya VI (`sources/chapters/acok/acok-arya-06.md:59`) [L797]
 
@@ -182,9 +182,9 @@ However, as the play is about to begin, Arya notices that one of Harys's guards 
 
 — Arya's thoughts on Jaqen's influence, ACOK Arya IX (`sources/chapters/acok/acok-arya-09.md:117`) [L798]
 
-> You are Arya of Winterfell, daughter of the north. You told me you could be strong. You have the wolf blood in you. ... The wolf blood. I'll be as strong as Robb. I said I would.
+> “You are Arya of Winterfell, daughter of the north. You told me you could be strong. You have the wolf blood in you.” “The wolf blood.” Arya remembered now. “I’ll be as strong as Robb. I said I would.”
 
-— Arya's inner voice (Ned's remembered words and her response), ACOK Arya X (`sources/chapters/acok/acok-arya-10.md:213–219`) [L800]
+— Arya's inner voice (Ned's remembered words and her response), ACOK Arya X (`sources/chapters/acok/acok-arya-10.md:217–219`) [L800]
 
 > She walked fast, to keep ahead of her fear, and it felt as though Syrio Forel walked beside her, and Yoren, and Jaqen H'ghar, and Jon Snow.
 

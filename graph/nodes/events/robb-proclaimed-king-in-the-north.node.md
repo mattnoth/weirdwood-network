@@ -36,15 +36,11 @@ At the war council convened at [Riverrun](riverrun) in the aftermath of [Eddard 
 
 ## Quotes
 
-> "Why should they rule over me and mine, from some flowery seat in Highgarden or Dorne? What do they know of the Wall or the wolfswood or the barrows of the First Men? ... Why shouldn't we rule ourselves again? It was the dragons we married, and the dragons are all dead!" He pointed at Robb with the blade. "There sits the only king I mean to bow my knee to, m'lords," he thundered. "The King in the North!"
->
-> And he knelt, and laid his sword at her son's feet.
+> “Why shouldn’t we rule ourselves again? It was the dragons we married, and the dragons are all dead!” He pointed at Robb with the blade. “There sits the only king I mean to bow my knee to, m’lords,” he thundered. “The King in the North!” And he knelt, and laid his sword at her son’s feet.
 
 — Greatjon Umber, AGOT Catelyn XI (`sources/chapters/agot/agot-catelyn-11.md:209`)
 
-> Maege Mormont stood. "The King of Winter!" she declared, and laid her spiked mace beside the swords. And the river lords were rising too, Blackwood and Bracken and Mallister, houses who had never been ruled from Winterfell ... bending their knees and shouting the old words that had not been heard in the realm for more than three hundred years, since Aegon the Dragon had come to make the Seven Kingdoms one ...
->
-> "THE KING IN THE NORTH!"
+> Maege Mormont stood. “The King of Winter!” she declared, and laid her spiked mace beside the swords. And the river lords were rising too, Blackwood and Bracken and Mallister, houses who had never been ruled from Winterfell,
 
 — AGOT Catelyn XI (`sources/chapters/agot/agot-catelyn-11.md:215`)
 

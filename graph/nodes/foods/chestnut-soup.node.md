@@ -20,4 +20,4 @@ Chestnut soup is a creamy first-course dish served at high-status feasts. In ACO
 
 > They started with a creamy chestnut soup, crusty hot bread, and greens dressed with apples and pine nuts. Then came lamprey pie, honeyed ham, buttered carrots, white beans and bacon, and roast swan stuffed with mushrooms and oysters.
 
-— ACOK Chapter 54, `sources/chapters/acok/acok-tyrion-12.md:49`
+— ACOK Tyrion XII (`sources/chapters/acok/acok-tyrion-12.md:49`)

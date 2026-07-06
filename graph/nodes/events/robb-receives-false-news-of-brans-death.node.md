@@ -36,7 +36,7 @@ While [Robb Stark](robb-stark) was recovering at the [Crag](crag) from a festeri
 
 ## Quotes
 
-> "The Crag was weakly garrisoned, so we took it by storm one night. ... I took an arrow in the arm just before Ser Rolph yielded us the castle. It seemed nothing at first, but it festered. Jeyne had me taken to her own bed, and she nursed me until the fever passed. And she was with me when the Greatjon brought me the news of . . . of Winterfell. Bran and Rickon." He seemed to have trouble saying his brothers' names. "That night, she . . . she comforted me, Mother."
+> I took an arrow in the arm just before Ser Rolph yielded us the castle. It seemed nothing at first, but it festered. Jeyne had me taken to her own bed, and she nursed me until the fever passed. And she was with me when the Greatjon brought me the news of . . . of Winterfell. Bran and Rickon.” He seemed to have trouble saying his brothers’ names. “That night, she . . . she comforted me, Mother.
 
 — Robb Stark recounting the Crag to Catelyn, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:143`)
 

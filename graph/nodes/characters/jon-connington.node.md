@@ -62,7 +62,7 @@ Jon is a capable warrior and commander. He was described in his youth as proud, 
 
 [George R.R. Martin](wiki:George_R.R._Martin) has confirmed that Jon Connington is [gay](wiki:Gender_and_sexuality).(wiki:Jon_Connington.cite_ref-Rssm5457.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)(wiki:Jon_Connington.cite_ref-18) It is implied that Jon was in love with Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen). Jon refers to Rhaegar as "my silver prince" when he reminisces about him,(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-5) and Jon believes Rhaegar's wife, Princess [Elia Martell](wiki:Elia_Martell), to have been unworthy of him.(wiki:Jon_Connington.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2) Jon also thinks very fondly of the late Ser [Myles Toyne](wiki:Myles_Toyne), remembering that his ugly features did not matter "when he smiled at you".(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-6)
 
-### Greyscale — the death-clock (book-cite overlay)
+### Greyscale — the death-clock
 
 Jon contracts [greyscale](wiki:Greyscale) in his right hand while rescuing Tyrion in the Sorrows, and hides it through the whole ADWD campaign. It is a slow death sentence — the condition that **MOTIVATES his haste** to seat Aegon on the Iron Throne before he dies ("All he asked was time"). On-page progression and concealment:
 
@@ -130,17 +130,14 @@ Ser [Addam Whitehead](wiki:Addam_Whitehead) is among a group of men from the [We
 
 — Jon on the battlements of Griffin's Roost, flashing back to Rhaegar's visit; the moment of his deepest loss. ADWD The Griffin Reborn (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:53`)
 
-> Seventeen years had come and gone since the [Battle of the Bells](wiki:Battle_of_the_Bells), yet the sound of bells ringing still tied a knot in his guts. Others might claim that the realm was lost when Prince [Rhaegar](wiki:Rhaegar_Targaryen) fell to [Robert](wiki:Robert_Baratheon)'s [warhammer](wiki:Warhammer) on the [Trident](wiki:Trident), but the [Battle of the Trident](wiki:Battle_of_the_Trident) would never have been fought if the griffin had only slain the stag there in [Stoney Sept](wiki:Stoney_Sept). The bells tolled for all of us that day. For [Aerys](wiki:Aerys_II_Targaryen) and [his queen](wiki:Rhaella_Targaryen), for [Elia](wiki:Elia_Martell) of [Dorne](wiki:Dorne) and [her little daughter](wiki:Rhaenys_Targaryen_(daughter_of_Rhaegar)), for every true man and honest woman in the [Seven Kingdoms](wiki:Seven_Kingdoms). And for my silver prince.(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-15)
->
-> —Jon's thoughts. Book-cite overlay: `sources/chapters/adwd/adwd-the-lost-lord-01.md:97` (the bells passage; "my silver prince" is the final line of a longer grief-monologue)
+> Seventeen years had come and gone since the Battle of the Bells, yet the sound of bells ringing still tied a knot in his guts. Others might claim that the realm was lost when Prince Rhaegar fell to Robert’s warhammer on the Trident, but the Battle of the Trident would never have been fought if the griffin had only slain the stag there in Stoney Sept. The bells tolled for all of us that day. For Aerys and his queen, for Elia of Dorne and her little daughter, for every true man and honest woman in the Seven Kingdoms. And for my silver prince.
+> —Jon's thoughts. `sources/chapters/adwd/adwd-the-lost-lord-01.md:33` (the bells passage; "my silver prince" is the final line of a longer grief-monologue)
 
-> Let me live long enough to see [the boy](wiki:Aegon_Targaryen_(son_of_Rhaegar)) sit on the [Iron Throne](wiki:Iron_Throne), and [Varys](wiki:Varys) will pay for that slight and so much more. Then we'll see who's soon forgotten.(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-16)
->
-> —Jon's thoughts. Book-cite overlay: `sources/chapters/adwd/adwd-the-lost-lord-01.md:91` (immediately after Varys's taunt about "thieves and drunks and cravens soon forgotten"; this is Jon's internalized resentment that MOTIVATES his haste)
+> Let me live long enough to see the boy sit the Iron Throne, and Varys will pay for that slight and so much more. Then we’ll see who’s soon forgotten.
+> —Jon's thoughts. `sources/chapters/adwd/adwd-the-lost-lord-01.md:91` (immediately after Varys's taunt about "thieves and drunks and cravens soon forgotten"; this is Jon's internalized resentment that MOTIVATES his haste)
 
-> [Death](wiki:Greyscale), he knew, but slow. I still have time. A year. Two years. Five. Some [stone men](wiki:Stone_men) live for ten. Time enough to cross [the sea](wiki:Narrow_sea), to see [Griffin's Roost](wiki:Griffin's_Roost) again. To end the [Usurper's line](wiki:House_Baratheon_of_King's_Landing) for good and all, and put [Rhaegar's son](wiki:Aegon_Targaryen_(son_of_Rhaegar)) upon the [Iron Throne](wiki:Iron_Throne). Then Lord Jon Connington could die content.(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-17)
->
-> —Jon's thoughts. Book-cite overlay: `sources/chapters/adwd/adwd-the-lost-lord-01.md:239` (the death-clock moment; greyscale progression noted at :237)
+> Death, he knew, but slow. I still have time. A year. Two years. Five. Some stone men live for ten. Time enough to cross the sea, to see Griffin’s Roost again. To end the Usurper’s line for good and all, and put Rhaegar’s son upon the Iron Throne. Then Lord Jon Connington could die content.
+> —Jon's thoughts. `sources/chapters/adwd/adwd-the-lost-lord-01.md:239` (the death-clock moment; greyscale progression noted at :237)
 
 > I rose too high, loved too hard, dared too much. I tried to grasp a star, overreached, and fell.(wiki:Jon_Connington.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-15)
 >

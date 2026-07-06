@@ -36,7 +36,7 @@ Having [declared himself king](balon-declares-himself-king), [Balon Greyjoy](bal
 
 ## Quotes
 
-> "Victarion," Lord Balon said to his brother, "the main thrust shall fall to you. ... The Neck is the key to the kingdom. ... Once we hold Moat Cailin, the pup will not be able to win back to the north."
+> Once we hold Moat Cailin, the pup will not be able to win back to the north
 
 — Balon Greyjoy assigning the Moat Cailin thrust, ACOK Theon II (`sources/chapters/acok/acok-theon-02.md:413`)
 

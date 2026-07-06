@@ -40,6 +40,6 @@ sort_keys:
 
 — The naming of Bran's gift. Bran POV, ACOK Bran V (`sources/chapters/acok/acok-bran-05.md:97`)
 
-> "A knight is what you want. A warg is what you are. You can't change that, Bran, you can't deny it or push it away. You are the winged wolf, but you will never fly." ... "Unless you open your eye."
+> “A knight is what you want. A warg is what you are. You can’t change that, Bran, you can’t deny it or push it away. You are the winged wolf, but you will never fly.” Jojen got up and walked to the window. “Unless you open your eye.”
 
 — Jojen names the gift and points Bran north. Bran POV, ACOK Bran V (`sources/chapters/acok/acok-bran-05.md:113`)

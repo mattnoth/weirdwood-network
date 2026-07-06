@@ -33,7 +33,7 @@ The slave [Belwas](wiki:Belwas) was bred and trained in the fighting pits of Mee
 
 > Meereen was as large as Astapor and Yunkai combined. Like her sister cities she was built of brick, but where Astapor had been red and Yunkai yellow, Meereen was made with bricks of many colors. Her walls were higher than Yunkai's and in better repair, studded with bastions and anchored by great defensive towers at every angle. Behind them, huge against the sky, could be seen the top of the Great Pyramid, a monstrous thing eight hundred feet tall with a towering bronze harpy at its top.
 
-— Daenerys first sees Meereen from the siege lines, ASOS Daenerys V (`sources/chapters/asos/asos-daenerys-05.md:11`) [book-cite overlay onto wiki description]
+— Daenerys first sees Meereen from the siege lines, ASOS Daenerys V (`sources/chapters/asos/asos-daenerys-05.md:11`)
 
 Meereen, the northernmost of the [slaver cities](wiki:Slaver_cities) of [Slaver's Bay](wiki:Slaver's_Bay), is located on the northeast coast at the mouth of the [Skahazadhan](wiki:Skahazadhan).(wiki:Meereen.cite_ref-3) The [Dothraki sea](wiki:Dothraki_sea) lies to the north, beyond the river. To reach [Lhazar](wiki:Lhazar) from Meereen one must pass through the [Khyzai Pass](wiki:Khyzai_Pass).(wiki:Meereen.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) By the old Ghiscari coastal road, [Yunkai](wiki:Yunkai) is somewhat more than fifty leagues to the south, and Astapor another hundred more; in total, the distance between Meereen and [Astapor](wiki:Astapor) is between a hundred-and-fifty and two hundred leagues.(wiki:Meereen.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Meereen.cite_ref-Radwd30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)(wiki:Meereen.cite_ref-7)
 

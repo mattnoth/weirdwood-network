@@ -187,4 +187,4 @@ The Frey force at Winterfell falls prey to a trap set by [Mors Umber](wiki:Mors_
 
 > "Bread and salt. Heh. Of course, of course." The old man clapped his hands together, and servants came into the hall, bearing flagons of wine and trays of bread, cheese, and butter. Lord Walder took a cup of red himself, and raised it high with a spotted hand. "My guests," he said. "My honored guests. Be welcome beneath my roof, and at my table."
 
-— Walder Frey grants guest right to Robb Stark and his party at the Twins, Catelyn Stark POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:167`) — book-cite overlay (harvest row 1013); the sacred bread-and-salt rite Walder extends here is the very [guest right](guest-right) House Frey violates days later at the [Red Wedding](red-wedding).
+— Walder Frey grants guest right to Robb Stark and his party at the Twins, Catelyn Stark POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:167`) — The sacred bread-and-salt rite Walder extends here is the very [guest right](guest-right) House Frey violates days later at the [Red Wedding](red-wedding).

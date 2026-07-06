@@ -16,4 +16,4 @@ Black cherries in sweet cream served as the dessert course at Illyrio Mopatis's 
 
 > Illyrio smiled as his serving men spooned out bowls of black cherries in sweet cream for them both.
 
-— ADWD Chapter 5 (Tyrion I), `sources/chapters/adwd/adwd-tyrion-01.md:247`
+— ADWD Tyrion I (`sources/chapters/adwd/adwd-tyrion-01.md:247`)

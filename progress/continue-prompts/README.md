@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-05 (refreshed after S194)  
+**Generated:** 2026-07-06 (refreshed after S195)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,12 +12,13 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-05-quote-regrounding-cleanup.md` | 2026-07-05 | Graph hygiene — quote re-grounding (node + edge scopes) | **LIVE** (S195 — next; S194 done + deployed) | Fable solo, Python-first | Re-ground the 185/803 drifted book-cited node `## Quotes` (S193 finding; 2 line-drift + 183 splice/paraphrase) + the 58 legacy edge-quote mismatches. Python repair-proposer → Fable bulk disposition → marker-verbatim apply → re-verify to 0 FAIL. Cheap by design (no per-row agents). **S194 addendum in the prompt:** body-prose blemishes are now user-visible in the live dossiers (internal-provenance lines in arc text; doubled quote attributions). |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
 
-## Archive (`archive/` subfolder — 105 files)
+## Archive (`archive/` subfolder — 106 files)
+
+> **`2026-07-05-quote-regrounding-cleanup.md`** — archived S195. **DONE (S195): quote re-grounding to 0 FAIL, both scopes.** 185 node + 203 edge quotes repaired marker-verbatim (`scripts/propose_quote_regrounding.py` proposer with attribution-inclusive full spans → 3 Sonnet review batches + Fable solo batch-1 re-review after the monthly spend wall killed 2 agents → re-validating `scripts/apply_quote_regrounding.py`; edges backup in `graph/edges/_regrounding/`). `verify_node_quotes.py` **803/803 PASS**; edge MISMATCH 59→2 documented parks (`working/quote-census/s195-parked-rows.md` — the `tommen MOURNS joffrey` contradiction + the petyr/hairnet chronology row, both for Matt). S194-addendum residue purged: shipped dossier provenance markers 70 nodes→0 (`scripts/s195_dossier_residue_cleanup.py`, 3 rounds); 60 doubled `Chapter NN` attributions normalized to the `cleanQuote`-collapsible shape. Surfaced-not-scheduled: 1,008 file-level edge `evidence_ref`s (badref class) → todos 10(b). Suites pytest 1447/0 · run_cases 37/0 · deno 100/0; NOT deployed (Matt-gated). Incident record: `history/session-details/session-195.md`. **No successor live prompt — next graph/meta work is Matt's pick.**
 
 > **`2026-07-05-chat-ui-receipts-and-node-ux.md`** — archived S194. **DONE (S194): receipts rail for ALL 8 tools + node-UX boost + fuller dossiers + About in Matt's voice — DEPLOYED (Matt's go; ships the S193 quotes).** All 6 work items: search/list/theme receipt cards (the S191 gap closed); neighbors unified onto ONE `nodeChip` dossier-button atom (▶ disclosure retired); dotted-underline clickable affordance everywhere + rail header + rail viewport-scroll; dossiers render node BODY sections (Origins/Culture/Aftermath/… via `build_node_assets.py` → 6,693 assets, netlify build regenerates them); tier-1 prose entity-linking (client-only; tier 2 presented, not built); About rewritten twice — provenance story, then Matt's dictated voice (wiki credit, theories-not-integrated disclaimer, corrected citation-gate claim, mattnoth.com contact line) + "ASOIAF Knowledge Graph Interface" title/header. BONUS: grounding fix (list/theme rows counted → no false "no scene here"). deno 100/0, pytest 116/0; prod-smoked. Session start recovered S193 from its unmerged remote branch (`claude/quote-minting-census-k5lonc` → ff-merged). Superseded as live by `2026-07-05-quote-regrounding-cleanup.md` (S195).
 

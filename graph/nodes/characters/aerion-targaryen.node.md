@@ -87,7 +87,7 @@ Nearing death and seeing dragons in his dreams, Maester Aemon recalls how all th
 
 ### A Dance with Dragons
 
-Outside [Meereen](wiki:Meereen), [Inkpots](wiki:Inkpots) shows [Tyrion Lannister](wiki:Tyrion_Lannister) the book of the [Second Sons](wiki:Second_Sons) and mentions some of the famous men who have been members of that [sellsword](wiki:Sellsword) company, including Aerion.(wiki:Aerion_Targaryen.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) Book-cite overlay: named verbatim in the Second Sons' leather-bound company book — "The Bright Prince, Aerion Targaryen, he was a Second Son." — ADWD Tyrion XII, `sources/chapters/adwd/adwd-tyrion-12.md:81`
+Outside [Meereen](wiki:Meereen), [Inkpots](wiki:Inkpots) shows [Tyrion Lannister](wiki:Tyrion_Lannister) the book of the [Second Sons](wiki:Second_Sons) and mentions some of the famous men who have been members of that [sellsword](wiki:Sellsword) company, including Aerion.(wiki:Aerion_Targaryen.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) Named verbatim in the Second Sons' leather-bound company book — "The Bright Prince, Aerion Targaryen, he was a Second Son." — ADWD Tyrion XII, `sources/chapters/adwd/adwd-tyrion-12.md:81`
 
 ## Quotes
 

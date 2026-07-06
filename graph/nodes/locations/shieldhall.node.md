@@ -43,4 +43,4 @@ Hundreds of knights meant hundreds of shields. [Hawks](wiki:House_Fowler) and [e
 
 > The Shieldhall was one of the older parts of Castle Black, a long drafty feast hall of dark stone, its oaken rafters black with the smoke of centuries.
 
-— ADWD Jon XIII (`sources/chapters/adwd/adwd-jon-13.md:273`) — book-cite overlay, S145
+— ADWD Jon XIII (`sources/chapters/adwd/adwd-jon-13.md:273`) — S145

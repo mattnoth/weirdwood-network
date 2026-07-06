@@ -28,7 +28,7 @@ Forty-four stone ribs are located on the top of [Nagga's hill](wiki:Nagga's_hill
 
 > The hall had been warmed by Nagga's living fire, which the Grey King had made his thrall. On its walls hung tapestries woven from silver seaweed most pleasing to the eyes. The Grey King's warriors had feasted on the bounty of the sea at a table in the shape of a great starfish, whilst seated upon thrones carved from mother-of-pearl. Gone, all the glory gone. Men were smaller now. Their lives had grown short. The Storm God drowned Nagga's fire after the Grey King's death, the chairs and tapestries had been stolen, the roof and walls had rotted away. Even the Grey King's great throne of fangs had been swallowed by the sea.
 
-— The hall's legendary furnishings as recalled by [Aeron Damphair](aeron-greyjoy), AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:21`) *(book-cite overlay — same facts appear in ## Origins below)*
+— The hall's legendary furnishings as recalled by [Aeron Damphair](aeron-greyjoy), AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:21`)
 
 ## Origins
 

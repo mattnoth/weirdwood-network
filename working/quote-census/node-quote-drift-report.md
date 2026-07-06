@@ -1,5 +1,11 @@
 # Node `## Quotes` cite-drift report (S193, graph-wide)
 
+> **RESOLVED S195 (2026-07-06):** all 185 failing rows below repaired marker-verbatim
+> (`scripts/propose_quote_regrounding.py` → reviewed → `scripts/apply_quote_regrounding.py`);
+> `verify_node_quotes.py` now reports **803/803 PASS, 0 FAIL**. The 59 edge-scope
+> mismatches were repaired in the same session (2 documented parks remain —
+> `working/quote-census/s195-parked-rows.md`). This report is kept as the S193 record.
+
 > 803 book-cited `## Quotes` entries checked against their cited chapter:line
 > (window = cited line +4). Three failure classes:
 > 1. **wrap-quote-only — 90 rows (NOT drift):** text matches at the cited line once the

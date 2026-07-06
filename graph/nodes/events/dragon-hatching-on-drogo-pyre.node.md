@@ -40,6 +40,6 @@ sort_keys:
 
 — Daenerys, walking into the firestorm, AGOT Daenerys X (`sources/chapters/agot/agot-daenerys-10.md:117`)
 
-> When the fire died at last and the ground became cool enough to walk upon, Ser Jorah Mormont found her amidst the ashes, surrounded by blackened logs and bits of glowing ember and the burnt bones of man and woman and stallion. She was naked, covered with soot ... yet she was unhurt. The cream-and-gold dragon was suckling at her left breast, the green-and-bronze at the right. ... The black-and-scarlet beast was draped across her shoulders.
+> When the fire died at last and the ground became cool enough to walk upon, Ser Jorah Mormont found her amidst the ashes, surrounded by blackened logs and bits of glowing ember and the burnt bones of man and woman and stallion. She was naked, covered with soot,
 
 — AGOT Daenerys X (`sources/chapters/agot/agot-daenerys-10.md:121`)

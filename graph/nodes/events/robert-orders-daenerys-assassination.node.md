@@ -32,10 +32,10 @@ In a session of the small council at [King's Landing](kings-landing), [King Robe
 
 ## Edges
 
-(Causal/role edges live in `graph/edges/edges.jsonl`, S119 essos-root track. Standalone root of the Essos thread — no causal upstream by design [Robert acts on learning of the pregnancy; the pregnancy is not a modeled event]. [Robert Baratheon](robert-baratheon) is the orderer (AGENT_IN, Tier-1); [Daenerys](daenerys-targaryen) is the target (VICTIM_IN, Tier-1). The order CAUSES the [wine merchant's attempt](the-wine-merchant-attempts-to-poison-dany) (Tier-2). [Ned's later countermand](ned-orders-daenerys-s-assassination-cancelled) is the *object* of cancellation, not a causal consequence — fresh-verify (S119) declined a CAUSES edge there; its true cause is Robert's deathbed change of heart, which is unmodeled.)
+(Causal/role edges live in `graph/edges/edges.jsonl`, S119 essos-root track. Standalone root of the Essos thread — no causal upstream by design [Robert acts on learning of the pregnancy; the pregnancy is not a modeled event]. [Robert Baratheon](robert-baratheon) is the orderer (AGENT_IN, Tier-1); [Daenerys](daenerys-targaryen) is the target (VICTIM_IN, Tier-1). The order CAUSES the [wine merchant's attempt](the-wine-merchant-attempts-to-poison-dany) (Tier-2). [Ned's later countermand](ned-orders-daenerys-s-assassination-cancelled) is the *object* of cancellation, not a causal consequence — fresh-verify declined a CAUSES edge there; its true cause is Robert's deathbed change of heart, which is unmodeled.)
 
 ## Quotes
 
-> "The whore is pregnant!" The king's fist slammed down on the council table loud as a thunderclap. ... "I want them dead, mother and child both, and that fool Viserys as well. Is that plain enough for you? I want them dead."
+> I want them dead, mother and child both, and that fool Viserys as well. Is that plain enough for you? I want them dead.
 
 — King Robert Baratheon, AGOT Eddard VIII (`sources/chapters/agot/agot-eddard-08.md:13`)

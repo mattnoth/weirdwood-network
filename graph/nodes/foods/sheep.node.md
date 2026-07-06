@@ -73,11 +73,11 @@ Rams are one of the animals depicted in the masks of the [Brazen Beasts](wiki:Br
 
 > The servers were bringing out huge silver platters piled high with cuts of juicy pink lamb, the most appetizing dish they'd seen all evening.
 
-— ASOS Chapter 51 (Red Wedding), `sources/chapters/asos/asos-catelyn-07.md:75`
+— Red Wedding, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:75`)
 
-> Ser Wendel Manderly was lustily attacking a leg of lamb. … Ser Wendel Manderly rose ponderously to his feet, holding his leg of lamb. A quarrel went in his open mouth and came out the back of his neck.
+> Ser Wendel Manderly rose ponderously to his feet, holding his leg of lamb. A quarrel went in his open mouth and came out the back of his neck.
 
-— ASOS Chapter 51 (Red Wedding), `sources/chapters/asos/asos-catelyn-07.md:95` / `103`
+— Red Wedding, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:103`) / `103`
 
 In the [Vale](wiki:Vale_of_Arryn), the men fuck sheep. You cannot fault them. Their sheep are prettier than their women.(wiki:Sheep.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0)
 Never knew an animal stupid as a sheep. Think they're kin to you, lunk?(wiki:Sheep.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)

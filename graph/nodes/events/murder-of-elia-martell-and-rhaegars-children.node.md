@@ -37,7 +37,7 @@ During the Sack, Lannister men murdered Rhaegar Targaryen's family in the Red Ke
 
 ## Quotes
 
-> "I grant you, it was done too brutally. Elia need not have been harmed at all, that was sheer folly. By herself she was nothing." "Then why did the Mountain kill her?" "Because I did not tell him to spare her. ... The rape . . . even you will not accuse me of giving that command, I would hope. Ser Amory was almost as bestial with Rhaenys."
+> I grant you, it was done too brutally. Elia need not have been harmed at all, that was sheer folly. By herself she was nothing.” “Then why did the Mountain kill her?” “Because I did not tell him to spare her.
 
 — Tywin Lannister to Tyrion, ASOS Tyrion VI (`sources/chapters/asos/asos-tyrion-06.md:187`)
 
@@ -45,13 +45,13 @@ During the Sack, Lannister men murdered Rhaegar Targaryen's family in the Red Ke
 
 > "Lord Tywin's soldiers had torn him from his mother's breast and dashed his head against a wall."
 
-— Eddard Stark recounting the death of infant Prince Aegon, AGOT Eddard II (`sources/chapters/agot/agot-eddard-02.md:73`) — Ned's eyewitness-adjacent account (received); complements Gregor Clegane's later confession at the trial; navigable book-cite overlay (S152 harvest).
+— Eddard Stark recounting the death of infant Prince Aegon, AGOT Eddard II (`sources/chapters/agot/agot-eddard-02.md:73`) — Ned's eyewitness-adjacent account (received); complements Gregor Clegane's later confession at the trial; navigable book-cite overlay.
 
 — Eddard recalling the quarrel with Robert, AGOT Eddard II (`sources/chapters/agot/agot-eddard-02.md:71`)
 
 > Princess Elia of Dorne pleading for mercy as Rhaegar's heir was ripped from her breast and murdered before her eyes.
 
-— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — book-cite overlay (S134 harvest-consume); Dany's inherited image of the murder, transmitted through Viserys's narrative of the Sack
+— Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — Dany's inherited image of the murder, transmitted through Viserys's narrative of the Sack
 
 > "It was Lord Tywin who presented my sister's children to King Robert all wrapped up in crimson Lannister cloaks."
 

@@ -74,6 +74,6 @@ As their wealth remains mostly untouched, the Wise Masters of Yunkai are able to
 >
 > —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> "You can. Can I have a flagon of this fine wine to take back to my captains?" … "You may have a tun. It is from the cellars of the Good Masters of Astapor, and I have wagons full of it." "Then give me a wagon. A token of your good regard."
+> “Can I have a flagon of this fine wine to take back to my captains?” “You may have a tun. It is from the cellars of the Good Masters of Astapor, and I have wagons full of it.” “Then give me a wagon. A token of your good regard.”
 
-— Mero (Titan's Bastard) negotiating with Daenerys; the wine is from Astapor's cellars, Dany's hospitality/bribe to the Stormcrows before the battle, ASOS Daenerys IV (`sources/chapters/asos/asos-daenerys-04.md:139`)
+— Mero (Titan's Bastard) negotiating with Daenerys; the wine is from Astapor's cellars, Dany's hospitality/bribe to the Stormcrows before the battle, ASOS Daenerys IV (`sources/chapters/asos/asos-daenerys-04.md:137`)

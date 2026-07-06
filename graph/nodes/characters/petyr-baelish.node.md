@@ -172,7 +172,7 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —Petyr to [Sansa Stark](wiki:Sansa_Stark) — ASOS, Sansa VI (`asos-sansa-06.md:137`)
 >
-> *S148 Vale book-cite overlay: Littlefinger's defining worldview, told to Sansa aboard the Merling King; the thesis under his whole arc. Her reply — "And I was a piece?" — gets "Yes, but don't let that trouble you. You're still half a child."*
+>
 
 > **Catelyn**: I will not forget the help you gave me, Petyr. When your men came for me, I did not know whether they were taking me to a friend or an enemy. I have found you more than a friend. I have found a brother I'd thought lost. **Petyr**: I am desperately sentimental, sweet lady. Best not tell anyone. I have spent years convincing the court that I am wicked and cruel, and I should hate to see all that hard work go for naught.(wiki:Petyr_Baelish.cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-3)
 >
@@ -182,7 +182,7 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and Petyr — AGOT, Eddard V (`agot-eddard-05.md:173`)
 >
-> *Planted-betrayal foreshadow (S121 book-cite overlay): Littlefinger tells Ned to his face that
+> *Planted-betrayal foreshadow: Littlefinger tells Ned to his face that
 > distrusting him is wise — the warning that earns the payoff "I did warn you not to trust me" when he
 > draws the dagger in `littlefinger-betrays-ned` (AGOT Eddard XIV, agot-eddard-14.md:125).*
 
@@ -196,10 +196,7 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —Petyr and [Sansa Stark](wiki:Sansa_Stark)
 
-> **Petyr**: Always keep your foes confused. If they are never certain who you are or what you want, they cannot know what you are like to do next. Sometimes the best way to baffle them is to make moves that have no purpose, or even seem to work against you. Remember that, Sansa, when you come to play the game.
->
-> **Sansa**: What... what game?
->
+> Always keep your foes confused. If they are never certain who you are or what you want, they cannot know what you are like to do next. Sometimes the best way to baffle them is to make moves that have no purpose, or even seem to work against you. Remember that, Sansa, when you come to play the game.” “What . . . what game?
 > —Petyr and [Sansa Stark](wiki:Sansa_Stark) — ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:167`) [q677]
 
 > "In a better world, you might have been mine, not Eddard Stark's. My loyal loving daughter . . . Put Joffrey from your mind, sweetling. Dontos, Tyrion, all of them. They will never trouble you again. You are safe now, that's all that matters. You are safe with me, and sailing home."

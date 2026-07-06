@@ -23,8 +23,8 @@ Biscuits appear in two contrasting forms on Tyrion's ADWD river/sea journey: fre
 
 > They were best when eaten hot, dripping with honey and butter.
 
-— ADWD Chapter 22 (Tyrion IV), `sources/chapters/adwd/adwd-tyrion-04.md:65`
+— ADWD Tyrion IV (`sources/chapters/adwd/adwd-tyrion-04.md:65`)
 
-> … and biscuits that could have been used to drive nails.
+> and biscuits that could have been used to drive nails.
 
-— ADWD Chapter 33 (Tyrion VIII), `sources/chapters/adwd/adwd-tyrion-08.md:117`
+— ADWD Tyrion VIII (`sources/chapters/adwd/adwd-tyrion-08.md:117`)

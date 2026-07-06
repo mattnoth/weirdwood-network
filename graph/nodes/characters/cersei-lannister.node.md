@@ -190,8 +190,7 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 
 ### Quotes by Cersei
 
-> When you play the game of thrones, you win or you die. There is no middle ground.(wiki:Cersei_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-8)
->
+> “When you play the game of thrones, you win or you die. There is no middle ground.”
 > —Cersei to [Eddard Stark](wiki:Eddard_Stark) in the godswood, AGOT Eddard XII (`sources/chapters/agot/agot-eddard-12.md:169`) — the line the series title is drawn from
 
 > [Jaime](wiki:Jaime_Lannister) and I are more than brother and sister. We are one person in two bodies. We shared a womb together. He came into this world holding my foot, our old maester said. When he is in me, I feel ... whole.(wiki:Cersei_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-9)
@@ -246,7 +245,7 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 
 — Cersei hallucinating Maggy's prophecy words during the funeral vigil for Tywin, AFFC Cersei I (`sources/chapters/affc/affc-cersei-01.md:173`) [q529]
 
-> The valonqar shall wrap his hands about your throat, the queen heard . . . his fingers dug deep into her neck . . .
+> The valonqar shall wrap his hands about your throat, the queen heard,
 
 — Cersei's nightmare in which Tyrion strangles her — the Maggy prophecy invading her sleep, AFFC Cersei VIII (`sources/chapters/affc/affc-cersei-08.md:263`) [q528]
 

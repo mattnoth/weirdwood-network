@@ -52,7 +52,7 @@ After Jon receives [a letter](wiki:Bastard_Letter) from [Ramsay Bolton](wiki:Ram
 >
 > —Wun Wun and [Shireen Baratheon](wiki:Shireen_Baratheon)
 
-Book-cite overlay — Wun Wun dismembering Ser Patrek (Jon POV, ADWD Jon XIII): "Wun Weg Wun Dar Wun was still roaring. The giant was dangling a bloody corpse by one leg, the same way Arya used to dangle her doll when she was small, swinging it like a morningstar when menaced by vegetables. Arya never tore her dolls to pieces, though. The dead man's sword arm was yards away, the snow beneath it turning red." — He then swings the dead knight against the tower wall "again and again and again, until the man's head was red and pulpy as a summer melon." (`sources/chapters/adwd/adwd-jon-13.md:309`)
+Wun Wun dismembering Ser Patrek (Jon POV, ADWD Jon XIII): "Wun Weg Wun Dar Wun was still roaring. The giant was dangling a bloody corpse by one leg, the same way Arya used to dangle her doll when she was small, swinging it like a morningstar when menaced by vegetables. Arya never tore her dolls to pieces, though. The dead man's sword arm was yards away, the snow beneath it turning red." — He then swings the dead knight against the tower wall "again and again and again, until the man's head was red and pulpy as a summer melon." (`sources/chapters/adwd/adwd-jon-13.md:309`)
 
 ### Quotes about Wun Wun
 

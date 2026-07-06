@@ -120,7 +120,7 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 >
 > —Euron to [Aeron Greyjoy](wiki:Aeron_Greyjoy)
 
-> Who knows more of gods than I? Horse gods and fire gods, gods made of gold with gemstone eyes, gods carved of cedar wood, gods chiseled into mountains, gods of empty air . . . I know them all. I have seen their peoples garland them with flowers, and shed the blood of goats and bulls and children in their names. And I have heard the prayers, in half a hundred tongues. Cure my withered leg, make the maiden love me, grant me a healthy son. Save me, succor me, make me wealthy . . . protect me! ... Godless? Why, Aeron, I am the godliest man ever to raise sail! You serve one god, Damphair, but I have served ten thousand. From Ib to Asshai, when men see my sails, they pray.
+> Who knows more of gods than I? Horse gods and fire gods, gods made of gold with gemstone eyes, gods carved of cedar wood, gods chiseled into mountains, gods of empty air . . . I know them all. I have seen their peoples garland them with flowers, and shed the blood of goats and bulls and children in their names. And I have heard the prayers, in half a hundred tongues. Cure my withered leg, make the maiden love me, grant me a healthy son. Save me, succor me, make me wealthy . . . protect me!
 
 — Euron to [Aeron Greyjoy](aeron-greyjoy) in Euron's tent on Old Wyk, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:145`) [L885]
 
@@ -178,7 +178,7 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 
 — Aeron Greyjoy's thought, AFFC The Prophet I (`sources/chapters/affc/affc-the-prophet-01.md:169`) [L891]
 
-> Balon was mad, Aeron is madder, and Euron is maddest of them all.
+> “Balon was mad, Aeron is madder, and Euron is maddest of them all,”
 
 — [Baelor Blacktyde](baelor-blacktyde) to [Victarion Greyjoy](victarion-greyjoy) at the pre-kingsmoot feast, AFFC The Iron Captain I (`sources/chapters/affc/affc-the-iron-captain-01.md:83`) [L893]
 

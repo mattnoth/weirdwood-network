@@ -53,7 +53,7 @@ Victarion recalls the sound of the horn when it was blown at the kingsmoot on Ol
 
 Bright and baneful was its voice, a shivering hot scream that made a man's bones seem to thrum within him ... It is the horn of hell.(wiki:Dragonbinder.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
-> Bright and baneful was its voice, a shivering hot scream that made a man's bones seem to thrum within him … a thin wisp of smoke was rising from the horn, and the priest saw blood and blisters upon the lips of the man who'd sounded it. The bird on his chest was bleeding too.
+> A thin wisp of smoke was rising from the horn, and the priest saw blood and blisters upon the lips of the man who’d sounded it. The bird on his chest was bleeding too.
 
-— [Cragorn](cragorn) blows Dragonbinder at the kingsmoot; [Aeron Damphair](aeron-greyjoy) witnesses, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:145-155`)
+— [Cragorn](cragorn) blows Dragonbinder at the kingsmoot; [Aeron Damphair](aeron-greyjoy) witnesses, AFFC The Drowned Man I (`sources/chapters/affc/affc-the-drowned-man-01.md:159-155`)
 That horn you heard I found amongst the smoking ruins that were [Valyria](wiki:Valyria), where no man has dared to walk but me. You heard its call, and felt its power. It is a [dragon horn](wiki:Dragon_horn), bound with bands of red gold and [Valyrian steel](wiki:Valyrian_steel) graven with enchantments. The [dragonlords](wiki:Dragonlords) of old sounded such horns, before [the Doom](wiki:Doom_of_Valyria) devoured them. With this horn, [ironmen](wiki:Ironmen), I can bind dragons to my will.(wiki:Dragonbinder.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)

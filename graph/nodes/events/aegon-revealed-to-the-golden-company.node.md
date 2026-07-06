@@ -42,6 +42,6 @@ In ADWD The Lost Lord, [Jon Connington](jon-connington) ("Griff") presents the y
 
 — Connington unveils the hidden prince to the war council. ADWD The Lost Lord, Jon Connington POV (`sources/chapters/adwd/adwd-the-lost-lord-01.md:127`)
 
-> "Aegon has been shaped for rule since before he could walk. … Tommen has been taught that kingship is his right. Aegon knows that kingship is his duty, that a king must put his people first, and live and rule for them."
+> Tommen has been taught that kingship is his right. Aegon knows that kingship is his duty, that a king must put his people first, and live and rule for them.
 
 — Varys, on the conspiracy's purpose: a prince raised in secret for the throne (the seed this reveal pays off). ADWD Epilogue, Kevan Lannister POV (`sources/chapters/adwd/adwd-epilogue.md:297`)

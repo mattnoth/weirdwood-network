@@ -37,6 +37,6 @@ After rescuing [Brienne of Tarth](wiki:Brienne_of_Tarth) from [Biter](wiki:Biter
 
 Gendry: What is this place? Lem: An old place, deep and secret. A refuge where neither [wolves](wiki:North) nor [lions](wiki:Westerlands) come prowling.(wiki:Hollow_hill.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-> The air was cold and heavy, and smelled of earth and worms and mold . . . with rock above her head and roots poking through the walls.
+> The air was cold and heavy, and smelled of earth and worms and mold. She was lying on a pallet beneath a mound of sheepskins, with rock above her head and roots poking through the walls.
 
 — the cave where the Brotherhood brings the captive [Brienne](wiki:Brienne_of_Tarth) before [Lady Stoneheart](catelyn-rises-as-lady-stoneheart), AFFC Brienne VIII (`sources/chapters/affc/affc-brienne-08.md:121`)

@@ -47,13 +47,13 @@ The men of the Golden Company prefer to call themselves a free brotherhood of ex
 
 The high officers display a rude splendor. Like many in their trade they keep their worldly wealth upon their person, including jewelled swords, inlaid armor, heavy torcs, and fine [silks](wiki:Silk). Many wear a lord's ransom in [golden](wiki:Gold) arm rings, with each ring signifying one year's service with the Golden Company.(wiki:Golden_Company.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 
-**Book-cite overlay (S152 harvest):** Jon Connington's POV at the first officers' muster at Griffin's Roost confirms this — navigable cite:
+Jon Connington's POV at the first officers' muster at Griffin's Roost confirms this — navigable cite:
 
 > "Like many in their trade, they kept their worldly wealth upon their persons: jeweled swords, inlaid armor, heavy torcs, and fine silks were much in evidence, and every man there wore a lord's ransom in golden arm rings."
 
 — Jon Connington POV, ADWD The Lost Lord I (`sources/chapters/adwd/adwd-the-lost-lord-01.md:107`) — confirms each arm ring = one year's service; the wealth-display at the command level is structural, not individual vanity.
 
-**Bow hierarchy (S152 harvest, q645):** The Golden Company's archer arm commanded by Black Balaq uses a ranked hierarchy of weapons by range and power:
+**Bow hierarchy:** The Golden Company's archer arm commanded by Black Balaq uses a ranked hierarchy of weapons by range and power:
 
 > "A third of Balaq's men used crossbows, another third the double-curved horn-and-sinew bows of the east. Better than these were the big yew longbows borne by the archers of Westerosi blood, and best of all were the great bows of goldenheart treasured by Black Balaq himself and his fifty Summer Islanders. Only a dragonbone bow could outrange one made of goldenheart."
 

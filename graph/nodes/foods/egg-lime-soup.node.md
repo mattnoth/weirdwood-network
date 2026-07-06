@@ -16,4 +16,4 @@ Cold egg-lime soup is served at Illyrio Mopatis's manse in Pentos as part of the
 
 > They began with a broth of crab and monkfish, and cold egg lime soup as well.
 
-— ADWD Chapter 5 (Tyrion I), `sources/chapters/adwd/adwd-tyrion-01.md:179`
+— ADWD Tyrion I (`sources/chapters/adwd/adwd-tyrion-01.md:179`)

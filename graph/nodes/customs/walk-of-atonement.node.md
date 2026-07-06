@@ -46,6 +46,6 @@ I have sinned and must atone, must parade my shame before the eyes of every begg
 This is my penance, Cersei told herself. I have sinned most grievously, this is my atonement. It will be over soon, it will be behind me, then I can forget.(wiki:Walk_of_atonement.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 All the self-seekers who had named themselves her friends and cultivated her favor had abandoned her quickly enough when [Tywin](wiki:Tywin_Lannister) had her stripped naked and paraded through [Lannisport](wiki:Lannisport) to the docks, like a common [whore](wiki:Whore). Though no man laid a hand on her, that walk spelled the end of her power. Surely Tywin would never have dreamed that same fate awaited his own [golden daughter](wiki:Cersei_Lannister).
 
-> Septa Unella and Septa Moelle kept pace with her, with Septa Scolera scurrying behind, ringing a bell. "Shame," the old hag called, "shame upon the sinner, shame, shame." … Septa Scolera rang her bell, singing, "Shame, shame, shame upon the sinner, shame, shame."
+> Septa Unella and Septa Moelle kept pace with her, with Septa Scolera scurrying behind, ringing a bell. “Shame,” the old hag called, “shame upon the sinner, shame, shame.”
 
 — [Cersei Lannister](cersei-lannister)'s walk of atonement through King's Landing, ADWD Cersei II (`sources/chapters/adwd/adwd-cersei-02.md:115`)

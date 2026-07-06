@@ -75,4 +75,4 @@ Ser [Balon](wiki:Balon_Swann) is a guest beneath [my roof](wiki:Sunspear). He ha
 
 > Walder Frey's mouth moved in and out. "Food, heh. A loaf of bread, a bite of cheese, mayhaps a sausage."
 
-— Catelyn Stark POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:163`) — book-cite overlay (harvest row 1013); the literal guest-right exchange at the Twins before the Red Wedding. Robb immediately asks for salt to complete the rite ("Some wine to wash it down," Robb said. "And salt.", `:165`), and Walder grants it ("Bread and salt. Heh. Of course, of course. ... Be welcome beneath my roof, and at my table.", `:167`) — the very custom the Freys then violate.
+— Catelyn Stark POV, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:163`) — The literal guest-right exchange at the Twins before the Red Wedding. Robb immediately asks for salt to complete the rite ("Some wine to wash it down," Robb said. "And salt.", `:165`), and Walder grants it ("Bread and salt. Heh. Of course, of course. ... Be welcome beneath my roof, and at my table.", `:167`) — the very custom the Freys then violate.

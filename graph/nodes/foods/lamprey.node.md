@@ -56,6 +56,6 @@ Lamprey pies are served at the feast welcoming Ser [Balon Swann](wiki:Balon_Swan
 On the dais, Lord [Wyman](wiki:Wyman_Manderly) attacked a steaming plate of lampreys as if they were an enemy host.(wiki:Lamprey.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
 > Then came lamprey pie, honeyed ham, buttered carrots, white beans and bacon, and roast swan stuffed with mushrooms and oysters.
 
-— ACOK Chapter 54, `sources/chapters/acok/acok-tyrion-12.md:49`
+— ACOK Tyrion XII (`sources/chapters/acok/acok-tyrion-12.md:49`)
 
 The lamprey was so rich he could not keep it down, but even so, it was a rare treat for a prisoner in a dungeon.(wiki:Lamprey.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)

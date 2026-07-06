@@ -22,7 +22,7 @@ Daznak's Pit is a location from the AWOIAF wiki.
 
 > At the gates of Daznak's Pit two towering bronze warriors stood locked in mortal combat. One wielded a sword, the other an axe; the sculptor had depicted them in the act of killing one another, their blades and bodies forming an archway overhead.
 
-— The entrance arch at Daznak's Pit, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:103`) [book-cite overlay upgrading wiki mention of Gates of Fate]
+— The entrance arch at Daznak's Pit, ADWD Daenerys IX (`sources/chapters/adwd/adwd-daenerys-09.md:103`)
 
 At the pit's entrance are the [Gates of Fate](wiki:Gates_of_Fate),(wiki:Daznak's_Pit.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) where the names of all gladiators who have died in the arena are engraved.(wiki:Daznak's_Pit.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) The circular brick arena has descending tiers of benches, each in a different color. The colors are:
 black
