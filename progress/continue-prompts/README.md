@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-06 (refreshed after S195)  
+**Generated:** 2026-07-06 (refreshed after S196)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,6 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
+| `2026-07-06-wiki-prose-disambiguation-composer.md` | 2026-07-06 | Wiki-prose same-name disambiguation (F&B companion) | **LIVE** (S197 next) | Sonnet | Build `wiki-prose-identity-composer.py` per `working/node-enrichment-wiki-prose/design.md` v2: cluster pack + trap-node blocklist + Identity dry-run. Firing it = go for build+dry-run; **node apply needs Matt's go on the preview**. Unblocks the F&B track (design v2 §10). Reviewed S196 (`working/fire-and-blood/fable-review.md`). |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 ---
