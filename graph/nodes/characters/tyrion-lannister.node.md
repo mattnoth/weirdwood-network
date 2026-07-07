@@ -24,10 +24,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyrion_Lannister"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Tyrion Lannister (b. 273 AC) — child of Joanna Lannister; sworn to House Lannister; Hand of the King. One of 3 characters named Tyrion Lannister.
 
 ## Origins
 

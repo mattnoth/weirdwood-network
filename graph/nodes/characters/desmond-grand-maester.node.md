@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Desmond_(Grand_Maester)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Jaime II"
 ---
+
+## Identity
+
+Desmond (Grand Maester) (d. 44 AC) — sworn to Citadel; Grand Maester. One of 2 characters named Desmond.
 
 ## Origins
 

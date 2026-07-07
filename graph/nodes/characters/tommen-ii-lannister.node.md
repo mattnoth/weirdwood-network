@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tommen_II_Lannister"
 bucket_id: characters-other-t
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tommen II Lannister is a character.human from the AWOIAF wiki.
+Tommen II Lannister — King of the Rock. One of 2 characters named Tommen Lannister.
 
 ## Edges
 

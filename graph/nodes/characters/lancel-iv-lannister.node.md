@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lancel_IV_Lannister"
 bucket_id: characters-other-k-l
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lancel IV Lannister is a character.human from the AWOIAF wiki.
+Lancel IV Lannister — King of the Rock. One of 4 characters named Lancel Lannister.
 
 ## Edges
 

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_Targaryen_(son_of_Aegon_II)"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Jaehaerys Targaryen (son of Aegon II) (123–129 AC) — child of Aegon II Targaryen and Helaena Targaryen; sworn to House Targaryen; Prince. One of 4 Jaehaerys Targaryens — see the Jaehaerys Targaryen disambiguation entry.
 
 ## Origins
 

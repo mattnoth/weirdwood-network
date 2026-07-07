@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Loreon_Lannister_(son_of_Jason)
 bucket_id: characters-house-lannister-j-q
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Loreon Lannister (son of Jason) (b. 126 AC) — child of Jason Lannister and Johanna Lannister; sworn to House Lannister; Lord of Casterly Rock. One of 6 Loreon Lannisters — see the Loreon Lannister disambiguation entry.
 
 ## Origins
 

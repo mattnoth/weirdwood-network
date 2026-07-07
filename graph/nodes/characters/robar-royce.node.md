@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robar_Royce"
 bucket_id: characters-house-royce
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robar Royce is a character.human from the AWOIAF wiki.
+Robar Royce (277–299 AC) — child of Yohn Royce; sworn to House Royce; Ser. One of 2 characters named Robar Royce.
 
 ## Edges
 

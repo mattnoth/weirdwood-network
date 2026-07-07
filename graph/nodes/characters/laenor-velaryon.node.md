@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laenor_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Laenor Velaryon is a character from the AWOIAF wiki.
+Laenor Velaryon (94–120 AC) — child of Corlys Velaryon and Rhaenys Targaryen (daughter of Aemon); married to Rhaenyra Targaryen; sworn to House Velaryon; Ser.
 
 ## Edges
 

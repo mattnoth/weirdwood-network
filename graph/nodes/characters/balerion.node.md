@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Balerion"
 bucket_id: characters-other-a-b
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Balerion is a character.dragon from the AWOIAF wiki.
+Balerion (d. 94 AC). One of 2 characters named Balerion. Balerion, called the Black Dread, was the dragon ridden by King Aegon I Targaryen during the Conquest. (wiki:Balerion)
 
 ## Edges
 

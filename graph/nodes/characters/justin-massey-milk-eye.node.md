@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Justin_Massey_(Milk-Eye)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Justin Massey (Milk-Eye) is a character from the AWOIAF wiki.
+Justin Massey (Milk-Eye) — King. One of 2 characters named Justin Massey. An ancient pirate-king of House Massey who fought a war over Massey's Hook against Storm King Erich VII Durrandon during the Andal invasion. (wiki:Justin_Massey_(Milk-Eye))
 
 ## Edges
 

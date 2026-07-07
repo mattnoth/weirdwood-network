@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerys_Targaryen_(son_of_Aegon)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Aerys Targaryen (son of Aegon) — child of Aegon Targaryen (son of Gaemon) and Elaena Targaryen (daughter of Gaemon); sworn to House Targaryen; Lord of Dragonstone. One of 3 characters named Aerys Targaryen.
 
 ## Origins
 

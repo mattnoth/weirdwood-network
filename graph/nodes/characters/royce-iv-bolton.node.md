@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Royce_IV_Bolton"
 bucket_id: characters-other-r-s
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Royce IV Bolton is a character.human from the AWOIAF wiki.
+Royce IV Bolton — Red King. One of 2 characters named Royce Bolton.
 
 ## Edges
 

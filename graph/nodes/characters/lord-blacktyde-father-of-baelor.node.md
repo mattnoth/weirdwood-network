@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Blacktyde_(father_of_Baelor)"
 bucket_id: characters-house-blacktyde
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Blacktyde (father of Baelor) is a character.human from the AWOIAF wiki.
+Lord Blacktyde (father of Baelor) — sworn to House Blacktyde; Lord of Blacktyde. One of 2 characters named Lord Blacktyde.
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vulture_King_(Aegon_II)"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Vulture King (Aegon II) is a character.human from the AWOIAF wiki.
+Vulture King (Aegon II). One of 4 characters named Vulture King. The third Vulture King was a Dornish rebel active during the Dance of the Dragons. (wiki:Vulture_King_(Aegon_II))
 
 ## Edges
 

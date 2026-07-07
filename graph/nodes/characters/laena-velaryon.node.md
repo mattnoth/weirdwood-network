@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laena_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Laena Velaryon is a character from the AWOIAF wiki.
+Laena Velaryon (92–120 AC) — child of Corlys Velaryon and Rhaenys Targaryen (daughter of Aemon); married to Daemon Targaryen; sworn to House Velaryon. One of 2 characters named Laena Velaryon.
 
 ## Edges
 

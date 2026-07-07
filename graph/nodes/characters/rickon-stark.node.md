@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rickon_Stark
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: AGOT 1 Prologue
 ---
+
+## Identity
+
+Rickon Stark (b. 295 AC) — child of Eddard Stark; sworn to House Stark; Prince. One of 3 characters named Rickon Stark.
 
 ## Origins
 

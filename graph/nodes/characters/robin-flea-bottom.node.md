@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robin_(Flea_Bottom)"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robin (Flea Bottom) is a character.human from the AWOIAF wiki.
+Robin (Flea Bottom). One of 2 characters named Robin. A candlemaker's daughter from Flea Bottom during the Dance of the Dragons who, by legend, comforted Prince Joffrey Velaryon as he died. (wiki:Robin_(Flea_Bottom))
 
 ## Edges
 

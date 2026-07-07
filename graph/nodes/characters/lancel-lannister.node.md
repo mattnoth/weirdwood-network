@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lancel_Lannister"
 bucket_id: characters-house-lannister-of-casterly-rock
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lancel Lannister is a character.human from the AWOIAF wiki.
+Lancel Lannister (b. 282 AC) — child of Dorna Swyft and Kevan Lannister; sworn to House Lannister of Darry; Ser. One of 4 characters named Lancel Lannister.
 
 ## Edges
 

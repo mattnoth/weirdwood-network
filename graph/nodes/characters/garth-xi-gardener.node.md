@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Garth_XI_Gardener"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Garth XI Gardener is a character from the AWOIAF wiki.
+Garth XI Gardener — child of Mern VI Gardener; King of the Reach. One of 8 characters named Garth Gardener.
 
 ## Edges
 

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edric_Stark"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Edric Stark — child of Alaric Stark; sworn to House Stark; Lord of Winterfell. One of 2 characters named Edric Stark.
 
 ## Origins
 

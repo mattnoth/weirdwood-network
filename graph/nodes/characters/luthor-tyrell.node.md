@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Luthor_Tyrell
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Davos I"
 ---
+
+## Identity
+
+Luthor Tyrell — married to Olenna Tyrell; sworn to House Tyrell; Lord of Highgarden. One of 3 characters named Luthor Tyrell.
 
 ## Origins
 

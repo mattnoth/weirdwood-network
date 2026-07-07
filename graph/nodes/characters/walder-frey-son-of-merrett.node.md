@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Walder_Frey_(son_of_Merrett)"
 bucket_id: characters-house-frey-t-z
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Walder Frey (son of Merrett) is a character.human from the AWOIAF wiki.
+Walder Frey (son of Merrett) (291–300 AC) — child of Merrett Frey and Mariya Darry; sworn to House Frey. One of 5 characters named Walder Frey.
 
 ## Edges
 

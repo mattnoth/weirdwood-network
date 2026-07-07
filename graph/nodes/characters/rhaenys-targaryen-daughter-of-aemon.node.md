@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen_(daughter_of_Aemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rhaenys Targaryen (daughter of Aemon) is a character from the AWOIAF wiki.
+Rhaenys Targaryen (daughter of Aemon) (74–129 AC) — child of Jocelyn Baratheon and Aemon Targaryen (son of Jaehaerys I); married to Corlys Velaryon; sworn to House Targaryen; Princess. One of 3 characters named Rhaenys Targaryen.
 
 ## Edges
 

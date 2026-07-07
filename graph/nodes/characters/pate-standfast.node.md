@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Pate_(Standfast)"
 bucket_id: characters-house-osgrey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Pate (Standfast) is a character.human from the AWOIAF wiki.
+Pate (Standfast) — sworn to House Osgrey. One of 4 characters named Pate. A peasant sworn to House Osgrey who survived the Blackfyre Rebellion and had weepy eyes, snored, and liked to talk of camp followers. (wiki:Pate_(Standfast))
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Murch"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Murch is a character.human from the AWOIAF wiki.
+Murch. One of 2 characters named Murch. A member of Yoren's band marching to the Wall for the Night's Watch, his status as recruit, criminal, or orphan is unknown; his fate after the band's destruction is unrecorded. (wiki:Murch)
 
 ## Edges
 

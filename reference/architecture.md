@@ -468,6 +468,8 @@ Every node carries these frontmatter fields. Required unless marked optional.
 | `first_available` | Optional. Spoiler gating field — DEFERRED to post-first-release backfill (see Spoiler Gating section below). | `"AGOT Bran II"` |
 | `occurred` | Optional, `event.*` only. Block recording in-world event time (when it happened, not when the reader meets it). See `occurred:` block subsection below. | `{ ac_year: 283, … }` |
 | `containers` | Optional, primarily `event.*`. **Array** of lowercase-kebab container names this node belongs to. A *tag*, NOT an umbrella parent node (see subsection). Omit the key or set `null` when untagged — **never `[]`**. | `[wo5k, north]` |
+| `disambiguation_hub` | Optional, bool. `true` marks a node minted from a wiki **`Disambiguation pages`** page (bare-name index, e.g. `aegon-targaryen`). Its Identity is a composed "may refer to…" hub line listing the same-name cluster members. **Never an enrichment/UPDATE target** — enrichment passes (F&B reconciler etc.) MUST treat these as ambiguous, never write content onto them. Stamped by `scripts/wiki-prose-identity-composer.py` (S197). | `true` |
+| `redirect_to` | Optional, slug. Set on a node minted from a wiki **`Redirect`** page (bare-name stub, e.g. `aenys-targaryen`); names the canonical node it resolves to (`aenys-i-targaryen`). Same handling as `disambiguation_hub` — blocklisted, never an enrichment target; consumers route a hit here to the target slug. Stamped by `scripts/wiki-prose-identity-composer.py` (S197). | `aenys-i-targaryen` |
 
 ### `era:` enum values
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Quenton_Greyjoy_(cousin)
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "The Windblown"
 ---
+
+## Identity
+
+Quenton Greyjoy (cousin) (d. 300 AC) — sworn to House Greyjoy. One of 2 characters named Quenton Greyjoy.
 
 ## Narrative Arc
 

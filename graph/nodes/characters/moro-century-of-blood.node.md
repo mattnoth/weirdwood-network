@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Moro_(Century_of_Blood)"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Moro (Century of Blood) is a character.human from the AWOIAF wiki.
+Moro (Century of Blood) — child of Mengo; married to Horro; Khal. One of 2 characters named Moro.
 
 ## Edges
 

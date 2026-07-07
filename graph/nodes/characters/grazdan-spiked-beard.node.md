@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Grazdan_(spiked_beard)"
 bucket_id: characters-other-g
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Grazdan (spiked beard) is a character.human from the AWOIAF wiki.
+Grazdan (spiked beard) — sworn to Good Masters. One of 3 characters named Grazdan. A Good Master of Astapor with a distinctive spiked beard who negotiates the sale of Unsullied to Daenerys. (wiki:Grazdan_(spiked_beard))
 
 ## Edges
 

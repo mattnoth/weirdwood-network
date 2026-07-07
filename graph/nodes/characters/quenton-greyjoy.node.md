@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Quenton_Greyjoy
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: Prologue
 ---
+
+## Identity
+
+Quenton Greyjoy — child of Lady Stonetree (wife of Quellon Greyjoy) and Quellon Greyjoy; sworn to House Greyjoy. One of 2 characters named Quenton Greyjoy.
 
 ## Origins
 

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Gaemon)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Aegon Targaryen (son of Gaemon) — child of Daenys Targaryen and Gaemon Targaryen (son of Aenar); married to Elaena Targaryen (daughter of Gaemon); sworn to House Targaryen; Lord of Dragonstone. One of 12 Aegon Targaryens — see the Aegon Targaryen disambiguation entry.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Timett_(father)"
 bucket_id: characters-other-t
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Timett (father) is a character.human from the AWOIAF wiki.
+Timett (father). One of 2 characters named Timett. Timett is the father of Timett of the Burned Men in the Vale of Arryn. (wiki:Timett_(father))
 
 ## Edges
 

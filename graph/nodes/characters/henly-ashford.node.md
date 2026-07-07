@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Henly_(Ashford)"
 bucket_id: characters-house-ashford
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Henly (Ashford) is a character.human from the AWOIAF wiki.
+Henly (Ashford) — sworn to House Ashford. One of 2 characters named Henly. A stableman in the town of Ashford during Daeron II's reign who purchased the horse Sweetfoot from Ser Duncan the Tall. (wiki:Henly_(Ashford))
 
 ## Edges
 

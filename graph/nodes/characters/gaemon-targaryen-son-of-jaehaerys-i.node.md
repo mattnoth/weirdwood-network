@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gaemon_Targaryen_(son_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Gaemon Targaryen (son of Jaehaerys I) (73–73 AC) — child of Jaehaerys I Targaryen and Alysanne Targaryen; sworn to House Targaryen; Prince. One of 2 Gaemon Targaryens — see the Gaemon Targaryen disambiguation entry.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Wat_(Standfast)"
 bucket_id: characters-house-osgrey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Wat (Standfast) is a character.human from the AWOIAF wiki.
+Wat (Standfast) — sworn to House Osgrey. One of 4 characters named Wat. A peasant of House Osgrey in the Reach during Aerys I's reign, trained by Duncan the Tall for a war over the Chequy Water. (wiki:Wat_(Standfast))
 
 ## Edges
 

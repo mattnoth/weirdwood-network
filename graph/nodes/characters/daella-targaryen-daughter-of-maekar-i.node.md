@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daella_Targaryen_(daughter_of_Maekar_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Cat of the Canals"
 ---
+
+## Identity
+
+Daella Targaryen (daughter of Maekar I) (b. 199 AC) — child of Maekar I Targaryen and Dyanna Dayne; sworn to House Targaryen; Princess. One of 2 Daella Targaryens — see the Daella Targaryen disambiguation entry.
 
 ## Origins
 

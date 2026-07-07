@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Erich_Durrandon_(Kin-Killer)"
 bucket_id: characters-house-durrandon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Erich Durrandon (Kin-Killer) is a character.human from the AWOIAF wiki.
+Erich Durrandon (Kin-Killer) — sworn to House Durrandon. One of 3 characters named Erich Durrandon. Erich Durrandon, also known as Erich Kin-Killer, was a member of House Durrandon. (wiki:Erich_Durrandon_(Kin-Killer))
 
 ## Edges
 

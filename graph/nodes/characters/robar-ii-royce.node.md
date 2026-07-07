@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robar_II_Royce"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robar II Royce is a character.human from the AWOIAF wiki.
+Robar II Royce — child of Royce; High King of the Vale, the Fingers, and the Mountains of the Moon. One of 2 characters named Robar Royce.
 
 ## Edges
 

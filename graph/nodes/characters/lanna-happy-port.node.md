@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lanna_(Happy_Port)"
 bucket_id: characters-other-k-l
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lanna (Happy Port) is a character.human from the AWOIAF wiki.
+Lanna (Happy Port) — child of Sailor's Wife. One of 2 Lannas — see the Lanna disambiguation entry. A fourteen-year-old prostitute at the Happy Port brothel in Braavos with long golden hair and high market value. (wiki:Lanna_(Happy_Port))
 
 ## Edges
 

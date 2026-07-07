@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Frey_(son_of_Stevron)"
 bucket_id: characters-house-frey-a-e
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Aegon Frey (son of Stevron) is a character.human from the AWOIAF wiki.
+Aegon Frey (son of Stevron) (249–299 AC) — child of Stevron Frey and Jeyne Lydden; sworn to House Frey. One of 2 Aegon Freys — see the Aegon Frey disambiguation entry.
 
 ## Edges
 

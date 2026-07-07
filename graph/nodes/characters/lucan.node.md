@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucan"
 bucket_id: characters-house-whent
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lucan is a character.human from the AWOIAF wiki.
+Lucan — sworn to House Whent. One of 2 characters named Lucan. Blacksmith and master of the armory at Harrenhal, beheaded by Steelshanks Walton for making weapons for the Lannisters during the fall of Harrenhal in 299 AC. (wiki:Lucan)
 
 ## Edges
 

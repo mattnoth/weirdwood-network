@@ -14,7 +14,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerion_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -22,6 +22,10 @@ first_available:
   source: cite_ref
   pov: "Arya II"
 ---
+
+## Identity
+
+Aerion Targaryen (d. 232 AC) — child of Maekar I Targaryen and Dyanna Dayne; married to Daenora Targaryen; sworn to House Targaryen; Prince of Dragonstone. One of 2 characters named Aerion Targaryen.
 
 ## Origins
 

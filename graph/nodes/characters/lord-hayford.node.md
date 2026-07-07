@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Hayford"
 bucket_id: characters-house-hayford
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Hayford is a character.human from the AWOIAF wiki.
+Lord Hayford (d. 196 AC) — sworn to House Hayford; Lord of Hayford. One of 2 characters named Lord Hayford.
 
 ## Edges
 

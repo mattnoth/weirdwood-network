@@ -1,0 +1,790 @@
+{
+  "addam-of-hull": {
+    "target_page": "Addam Velaryon",
+    "target_slug": "addam-velaryon"
+  },
+  "aenys-targaryen": {
+    "target_page": "Aenys I Targaryen",
+    "target_slug": "aenys-i-targaryen"
+  },
+  "archmaester": {
+    "target_page": "Maesters",
+    "target_slug": "maesters"
+  },
+  "asshaii": {
+    "target_page": "Asshai",
+    "target_slug": "asshai"
+  },
+  "astapori": {
+    "target_page": "Astapor",
+    "target_slug": "astapor"
+  },
+  "baelish": {
+    "target_page": "House Baelish",
+    "target_slug": "house-baelish"
+  },
+  "ball": {
+    "target_page": "House Ball",
+    "target_slug": "house-ball"
+  },
+  "bastard": {
+    "target_page": "Bastardy",
+    "target_slug": "bastardy"
+  },
+  "bastards": {
+    "target_page": "Bastardy",
+    "target_slug": "bastardy"
+  },
+  "battle-of-the-bridge-of-skulls": {
+    "target_page": "Fight at the Bridge of Skulls",
+    "target_slug": "fight-at-the-bridge-of-skulls"
+  },
+  "battle-of-the-fist-of-the-first-men": {
+    "target_page": "Fight at the Fist",
+    "target_slug": "fight-at-the-fist"
+  },
+  "battle-of-the-golden-tooth": {
+    "target_page": "Battle in the hills below the Golden Tooth",
+    "target_slug": "battle-in-the-hills-below-the-golden-tooth"
+  },
+  "battle-of-the-green-fork": {
+    "target_page": "Battle on the Green Fork",
+    "target_slug": "battle-on-the-green-fork"
+  },
+  "battle-of-the-last-storm": {
+    "target_page": "Last Storm",
+    "target_slug": "last-storm"
+  },
+  "battle-of-the-mummers-ford": {
+    "target_page": "Battle at the Mummer's Ford",
+    "target_slug": "battle-at-the-mummers-ford"
+  },
+  "battle-of-the-red-fork": {
+    "target_page": "Battle at the Red Fork",
+    "target_slug": "battle-at-the-red-fork"
+  },
+  "battle-of-the-ruby-ford": {
+    "target_page": "Fighting at the fords of the Trident",
+    "target_slug": "fighting-at-the-fords-of-the-trident"
+  },
+  "battle-of-the-shield-islands": {
+    "target_page": "Taking of the Shields",
+    "target_slug": "taking-of-the-shields"
+  },
+  "battle-of-the-whispering-wood": {
+    "target_page": "Battle in the Whispering Wood",
+    "target_slug": "battle-in-the-whispering-wood"
+  },
+  "battle-of-torrhens-square": {
+    "target_page": "Fight at Torrhen's Square",
+    "target_slug": "fight-at-torrhens-square"
+  },
+  "battle-of-whispering-wood": {
+    "target_page": "Battle in the Whispering Wood",
+    "target_slug": "battle-in-the-whispering-wood"
+  },
+  "battle-of-yunkai": {
+    "target_page": "Battle near Yunkai",
+    "target_slug": "battle-near-yunkai"
+  },
+  "beesbury": {
+    "target_page": "House Beesbury",
+    "target_slug": "house-beesbury"
+  },
+  "belmore": {
+    "target_page": "House Belmore",
+    "target_slug": "house-belmore"
+  },
+  "black-walder-frey": {
+    "target_page": "Walder Frey (son of Ryman)",
+    "target_slug": "walder-frey-son-of-ryman"
+  },
+  "blackwood": {
+    "target_page": "House Blackwood",
+    "target_slug": "house-blackwood"
+  },
+  "borrell": {
+    "target_page": "House Borrell",
+    "target_slug": "house-borrell"
+  },
+  "braavosi": {
+    "target_page": "Braavos",
+    "target_slug": "braavos"
+  },
+  "bracken": {
+    "target_page": "House Bracken",
+    "target_slug": "house-bracken"
+  },
+  "bread": {
+    "target_page": "Foods and beverages",
+    "target_slug": "foods-and-beverages"
+  },
+  "bronn-of-the-blackwater": {
+    "target_page": "Bronn",
+    "target_slug": "bronn"
+  },
+  "camp-follower": {
+    "target_page": "Prostitution",
+    "target_slug": null
+  },
+  "captain-of-the-guard": {
+    "target_page": "Captain of the guards",
+    "target_slug": "captain-of-the-guards"
+  },
+  "caswell": {
+    "target_page": "House Caswell",
+    "target_slug": "house-caswell"
+  },
+  "charlton": {
+    "target_page": "House Charlton",
+    "target_slug": "house-charlton"
+  },
+  "chief-undergaoler": {
+    "target_page": "Chief undergaoler",
+    "target_slug": null
+  },
+  "children": {
+    "target_page": "Children of the forest",
+    "target_slug": null
+  },
+  "clegane": {
+    "target_page": "House Clegane",
+    "target_slug": "house-clegane"
+  },
+  "cleon-ii": {
+    "target_page": "Cleon the Second",
+    "target_slug": "cleon-the-second"
+  },
+  "commander-of-the-city-watch": {
+    "target_page": "City Watch of King's Landing",
+    "target_slug": "city-watch-of-kings-landing"
+  },
+  "commander-of-the-garrison": {
+    "target_page": "Captain of the guards",
+    "target_slug": "captain-of-the-guards"
+  },
+  "connington": {
+    "target_page": "House Connington",
+    "target_slug": "house-connington"
+  },
+  "conquest": {
+    "target_page": "Aegon's Conquest",
+    "target_slug": "aegons-conquest"
+  },
+  "corbray": {
+    "target_page": "House Corbray",
+    "target_slug": "house-corbray"
+  },
+  "costayne": {
+    "target_page": "House Costayne",
+    "target_slug": "house-costayne"
+  },
+  "crossing": {
+    "target_page": "Twins",
+    "target_slug": "twins"
+  },
+  "crownlander": {
+    "target_page": "Crownlands",
+    "target_slug": "crownlands"
+  },
+  "darklyn": {
+    "target_page": "House Darklyn",
+    "target_slug": "house-darklyn"
+  },
+  "dondarrion": {
+    "target_page": "House Dondarrion",
+    "target_slug": "house-dondarrion"
+  },
+  "doom": {
+    "target_page": "Doom of Valyria",
+    "target_slug": "doom-of-valyria"
+  },
+  "erich-iii-durrandon": {
+    "target_page": "Erich Durrandon (the Sailmaker)",
+    "target_slug": "erich-durrandon-the-sailmaker"
+  },
+  "farman": {
+    "target_page": "House Farman",
+    "target_slug": "house-farman"
+  },
+  "fat-walda-frey": {
+    "target_page": "Walda Frey (daughter of Merrett)",
+    "target_slug": "walda-frey-daughter-of-merrett"
+  },
+  "father-above": {
+    "target_page": "Father (the Seven)",
+    "target_slug": "father-the-seven"
+  },
+  "father-of-hosts": {
+    "target_page": "Tormund",
+    "target_slug": "tormund"
+  },
+  "fell": {
+    "target_page": "House Fell",
+    "target_slug": "house-fell"
+  },
+  "florent": {
+    "target_page": "House Florent",
+    "target_slug": "house-florent"
+  },
+  "fossoway": {
+    "target_page": "House Fossoway",
+    "target_slug": null
+  },
+  "garland-ii": {
+    "target_page": "Garland II Gardener",
+    "target_slug": "garland-ii-gardener"
+  },
+  "glover": {
+    "target_page": "House Glover",
+    "target_slug": "house-glover"
+  },
+  "grafton": {
+    "target_page": "House Grafton",
+    "target_slug": "house-grafton"
+  },
+  "greyjoy": {
+    "target_page": "House Greyjoy",
+    "target_slug": "house-greyjoy"
+  },
+  "hand-of-the-queen": {
+    "target_page": "Hand of the King",
+    "target_slug": "hand-of-the-king"
+  },
+  "hardyng": {
+    "target_page": "House Hardyng",
+    "target_slug": "house-hardyng"
+  },
+  "hunter": {
+    "target_page": "House Hunter",
+    "target_slug": "house-hunter"
+  },
+  "iron-king": {
+    "target_page": "King of the Iron Islands",
+    "target_slug": "king-of-the-iron-islands"
+  },
+  "ironmen": {
+    "target_page": "Ironborn",
+    "target_slug": "ironborn"
+  },
+  "josua": {
+    "target_page": "List of characters created for the Cyanide game",
+    "target_slug": "list-of-characters-created-for-the-cyanide-game"
+  },
+  "keyholder": {
+    "target_page": "Keyholders",
+    "target_slug": "keyholders"
+  },
+  "khal-jhaqo": {
+    "target_page": "Jhaqo",
+    "target_slug": "jhaqo"
+  },
+  "khaleesi-of-great-grass-sea": {
+    "target_page": "Khaleesi of the Great Grass Sea",
+    "target_slug": "khaleesi-of-the-great-grass-sea"
+  },
+  "king": {
+    "target_page": "Kingship",
+    "target_slug": "kingship"
+  },
+  "king-beyond-the-wall": {
+    "target_page": "King-Beyond-the-Wall",
+    "target_slug": null
+  },
+  "king-of-the-andals-and-the-rhoynar-and-the-first-men": {
+    "target_page": "King of the Andals, the Rhoynar, and the First Men",
+    "target_slug": "king-of-the-andals-the-rhoynar-and-the-first-men"
+  },
+  "king-of-the-narrow-sea": {
+    "target_page": "King of the Stepstones and the Narrow Sea",
+    "target_slug": "king-of-the-stepstones-and-the-narrow-sea"
+  },
+  "king-of-the-rivers-and-the-hills": {
+    "target_page": "King of the Trident",
+    "target_slug": "king-of-the-trident"
+  },
+  "king-of-the-three-sisters": {
+    "target_page": "Kings on the Three Sisters",
+    "target_slug": "kings-on-the-three-sisters"
+  },
+  "king-of-winter": {
+    "target_page": "King in the North",
+    "target_slug": "king-in-the-north"
+  },
+  "lady-in-waiting": {
+    "target_page": "Handmaid",
+    "target_slug": null
+  },
+  "lady-of-barrowton": {
+    "target_page": "Lord of Barrowton",
+    "target_slug": "lord-of-barrowton"
+  },
+  "lady-of-bear-island": {
+    "target_page": "Lord of Bear Island",
+    "target_slug": "lord-of-bear-island"
+  },
+  "lady-of-blackcrown": {
+    "target_page": "Lord of Blackcrown",
+    "target_slug": "lord-of-blackcrown"
+  },
+  "lady-of-blackmont": {
+    "target_page": "Lord of Blackmont",
+    "target_slug": "lord-of-blackmont"
+  },
+  "lady-of-bronzegate": {
+    "target_page": "Lord of Bronzegate",
+    "target_slug": "lord-of-bronzegate"
+  },
+  "lady-of-casterly-rock": {
+    "target_page": "Lord of Casterly Rock",
+    "target_slug": "lord-of-casterly-rock"
+  },
+  "lady-of-cerwyn": {
+    "target_page": "Lord of Cerwyn",
+    "target_slug": "lord-of-cerwyn"
+  },
+  "lady-of-darry": {
+    "target_page": "Lord of Darry",
+    "target_slug": "lord-of-darry"
+  },
+  "lady-of-dragonstone": {
+    "target_page": "Lord of Dragonstone",
+    "target_slug": "lord-of-dragonstone"
+  },
+  "lady-of-duskendale": {
+    "target_page": "Lord of Duskendale",
+    "target_slug": "lord-of-duskendale"
+  },
+  "lady-of-ghost-hill": {
+    "target_page": "Lord of Ghost Hill",
+    "target_slug": "lord-of-ghost-hill"
+  },
+  "lady-of-godsgrace": {
+    "target_page": "Lord of Godsgrace",
+    "target_slug": "lord-of-godsgrace"
+  },
+  "lady-of-harrenhal": {
+    "target_page": "Lord of Harrenhal",
+    "target_slug": "lord-of-harrenhal"
+  },
+  "lady-of-hayford": {
+    "target_page": "Lord of Hayford",
+    "target_slug": "lord-of-hayford"
+  },
+  "lady-of-haystack-hall": {
+    "target_page": "Lord of Haystack Hall",
+    "target_slug": "lord-of-haystack-hall"
+  },
+  "lady-of-holyhall": {
+    "target_page": "Lord of Holyhall",
+    "target_slug": "lord-of-holyhall"
+  },
+  "lady-of-ironoaks": {
+    "target_page": "Lord of Ironoaks Castle",
+    "target_slug": "lord-of-ironoaks-castle"
+  },
+  "lady-of-longtable": {
+    "target_page": "Lord of Longtable",
+    "target_slug": "lord-of-longtable"
+  },
+  "lady-of-maidenpool": {
+    "target_page": "Lord of Maidenpool",
+    "target_slug": "lord-of-maidenpool"
+  },
+  "lady-of-mistwood": {
+    "target_page": "Lord of Mistwood",
+    "target_slug": "lord-of-mistwood"
+  },
+  "lady-of-nightsong": {
+    "target_page": "Lord of Nightsong",
+    "target_slug": "lord-of-nightsong"
+  },
+  "lady-of-old-oak": {
+    "target_page": "Lord of Old Oak",
+    "target_slug": "lord-of-old-oak"
+  },
+  "lady-of-raventree-hall": {
+    "target_page": "Lord of Raventree",
+    "target_slug": "lord-of-raventree"
+  },
+  "lady-of-riverrun": {
+    "target_page": "Lord of Riverrun",
+    "target_slug": "lord-of-riverrun"
+  },
+  "lady-of-starfall": {
+    "target_page": "Lord of Starfall",
+    "target_slug": "lord-of-starfall"
+  },
+  "lady-of-starpike": {
+    "target_page": "Lord of Starpike",
+    "target_slug": "lord-of-starpike"
+  },
+  "lady-of-stokeworth": {
+    "target_page": "Lord of Stokeworth",
+    "target_slug": "lord-of-stokeworth"
+  },
+  "lady-of-sunspear": {
+    "target_page": "Lord of Sunspear",
+    "target_slug": "lord-of-sunspear"
+  },
+  "lady-of-the-golden-tooth": {
+    "target_page": "Lord of the Golden Tooth",
+    "target_slug": "lord-of-the-golden-tooth"
+  },
+  "lady-of-the-hornwood": {
+    "target_page": "Lord of the Hornwood",
+    "target_slug": "lord-of-the-hornwood"
+  },
+  "lady-of-the-marches": {
+    "target_page": "Lord of the Marches",
+    "target_slug": "lord-of-the-marches"
+  },
+  "lady-of-the-three-sisters": {
+    "target_page": "Lord of the Three Sisters",
+    "target_slug": "lord-of-the-three-sisters"
+  },
+  "lady-of-widows-watch": {
+    "target_page": "Lord of Widow's Watch",
+    "target_slug": "lord-of-widows-watch"
+  },
+  "lady-of-winterfell": {
+    "target_page": "Lord of Winterfell",
+    "target_slug": "lord-of-winterfell"
+  },
+  "lady-smallwood": {
+    "target_page": "Ravella Smallwood",
+    "target_slug": "ravella-smallwood"
+  },
+  "leygood": {
+    "target_page": "House Leygood",
+    "target_slug": "house-leygood"
+  },
+  "lorathi": {
+    "target_page": "Lorath",
+    "target_slug": "lorath"
+  },
+  "lord-admiral": {
+    "target_page": "Lord admiral",
+    "target_slug": null
+  },
+  "lord-baelish": {
+    "target_page": "Petyr Baelish",
+    "target_slug": "petyr-baelish"
+  },
+  "lord-commander-of-the-queensguard": {
+    "target_page": "Lord Commander of the Kingsguard",
+    "target_slug": "lord-commander-of-the-kingsguard"
+  },
+  "lord-mormont": {
+    "target_page": "Jeor Mormont",
+    "target_slug": "jeor-mormont"
+  },
+  "lord-of-brightwater-keep": {
+    "target_page": "Lord of Brightwater",
+    "target_slug": "lord-of-brightwater"
+  },
+  "lord-of-karls-hold": {
+    "target_page": "Lord of Karhold",
+    "target_slug": "lord-of-karhold"
+  },
+  "lord-of-pinkmaiden": {
+    "target_page": "Lord of Pinkmaiden Castle",
+    "target_slug": "lord-of-pinkmaiden-castle"
+  },
+  "lord-protector-of-the-vale": {
+    "target_page": "Lord Protector of the Eyrie and the Vale of Arryn",
+    "target_slug": "lord-protector-of-the-eyrie-and-the-vale-of-arryn"
+  },
+  "lord-regent": {
+    "target_page": "Regent",
+    "target_slug": "regent"
+  },
+  "lyseni": {
+    "target_page": "Lys",
+    "target_slug": "lys"
+  },
+  "maegelle": {
+    "target_page": "Maegelle Targaryen",
+    "target_slug": "maegelle-targaryen"
+  },
+  "maekar-targaryen": {
+    "target_page": "Maekar I Targaryen",
+    "target_slug": "maekar-i-targaryen"
+  },
+  "maester": {
+    "target_page": "Maesters",
+    "target_slug": "maesters"
+  },
+  "maid": {
+    "target_page": "Maiden",
+    "target_slug": null
+  },
+  "marcher": {
+    "target_page": "Dornish Marches",
+    "target_slug": "dornish-marches"
+  },
+  "martell": {
+    "target_page": "House Martell",
+    "target_slug": "house-martell"
+  },
+  "massey": {
+    "target_page": "House Massey",
+    "target_slug": "house-massey"
+  },
+  "master-of-coin": {
+    "target_page": "Master of coin",
+    "target_slug": null
+  },
+  "master-of-whisperers": {
+    "target_page": "Master of whisperers",
+    "target_slug": null
+  },
+  "meera": {
+    "target_page": "Meera Reed",
+    "target_slug": "meera-reed"
+  },
+  "meereenese": {
+    "target_page": "Meereen",
+    "target_slug": "meereen"
+  },
+  "mermaid": {
+    "target_page": "Merlings",
+    "target_slug": "merlings"
+  },
+  "mistress-of-whisperers": {
+    "target_page": "Master of whisperers",
+    "target_slug": null
+  },
+  "mormont": {
+    "target_page": "House Mormont",
+    "target_slug": "house-mormont"
+  },
+  "mud-gate": {
+    "target_page": "River Gate",
+    "target_slug": "river-gate"
+  },
+  "mullendore": {
+    "target_page": "House Mullendore",
+    "target_slug": "house-mullendore"
+  },
+  "myrish": {
+    "target_page": "Myr",
+    "target_slug": "myr"
+  },
+  "norvoshi": {
+    "target_page": "Norvos",
+    "target_slug": "norvos"
+  },
+  "oakheart": {
+    "target_page": "House Oakheart",
+    "target_slug": "house-oakheart"
+  },
+  "old-empire": {
+    "target_page": "Old Empire of Ghis",
+    "target_slug": "old-empire-of-ghis"
+  },
+  "peake": {
+    "target_page": "House Peake",
+    "target_slug": "house-peake"
+  },
+  "penrose": {
+    "target_page": "House Penrose",
+    "target_slug": "house-penrose"
+  },
+  "pentoshi": {
+    "target_page": "Pentos",
+    "target_slug": "pentos"
+  },
+  "piper": {
+    "target_page": "House Piper",
+    "target_slug": "house-piper"
+  },
+  "prester": {
+    "target_page": "House Prester",
+    "target_slug": "house-prester"
+  },
+  "princess": {
+    "target_page": "Prince",
+    "target_slug": "prince"
+  },
+  "princess-consort-of-dorne": {
+    "target_page": "Prince Consort of Dorne",
+    "target_slug": "prince-consort-of-dorne"
+  },
+  "princess-of-dorne": {
+    "target_page": "Prince of Dorne",
+    "target_slug": "prince-of-dorne"
+  },
+  "princess-of-dragonstone": {
+    "target_page": "Prince of Dragonstone",
+    "target_slug": "prince-of-dragonstone"
+  },
+  "princess-of-ny-sar": {
+    "target_page": "Prince of Ny Sar",
+    "target_slug": "prince-of-ny-sar"
+  },
+  "qartheen": {
+    "target_page": "Qarth",
+    "target_slug": "qarth"
+  },
+  "qohorik": {
+    "target_page": "Qohor",
+    "target_slug": "qohor"
+  },
+  "queen": {
+    "target_page": "Kingship",
+    "target_slug": "kingship"
+  },
+  "queen-of-the-andals-and-the-rhoynar-and-the-first-men": {
+    "target_page": "King of the Andals, the Rhoynar, and the First Men",
+    "target_slug": "king-of-the-andals-the-rhoynar-and-the-first-men"
+  },
+  "queen-of-the-andals-the-rhoynar-and-the-first-men": {
+    "target_page": "King of the Andals, the Rhoynar, and the First Men",
+    "target_slug": "king-of-the-andals-the-rhoynar-and-the-first-men"
+  },
+  "queen-of-the-iron-islands": {
+    "target_page": "King of the Iron Islands",
+    "target_slug": "king-of-the-iron-islands"
+  },
+  "queen-of-the-trident": {
+    "target_page": "King of the Trident",
+    "target_slug": "king-of-the-trident"
+  },
+  "queen-regent": {
+    "target_page": "Regent",
+    "target_slug": "regent"
+  },
+  "queens-hand": {
+    "target_page": "Hand of the King",
+    "target_slug": "hand-of-the-king"
+  },
+  "red-cloaks": {
+    "target_page": "House Lannister guards",
+    "target_slug": "house-lannister-guards"
+  },
+  "river-king": {
+    "target_page": "King of the Trident",
+    "target_slug": "king-of-the-trident"
+  },
+  "robert-baratheon": {
+    "target_page": "Robert I Baratheon",
+    "target_slug": "robert-i-baratheon"
+  },
+  "ryswell": {
+    "target_page": "House Ryswell",
+    "target_slug": "house-ryswell"
+  },
+  "sellsword": {
+    "target_page": "Mercenary",
+    "target_slug": "mercenary"
+  },
+  "ser": {
+    "target_page": "Knight",
+    "target_slug": "knight"
+  },
+  "serrett": {
+    "target_page": "House Serrett",
+    "target_slug": "house-serrett"
+  },
+  "speaker-to-gods": {
+    "target_page": "Tormund",
+    "target_slug": "tormund"
+  },
+  "spymaster": {
+    "target_page": "Espionage",
+    "target_slug": "espionage"
+  },
+  "squire": {
+    "target_page": "Knight",
+    "target_slug": "knight"
+  },
+  "stark": {
+    "target_page": "House Stark",
+    "target_slug": "house-stark"
+  },
+  "staunton": {
+    "target_page": "House Staunton",
+    "target_slug": "house-staunton"
+  },
+  "stony-dornishmen": {
+    "target_page": "Dornishmen",
+    "target_slug": "dornishmen"
+  },
+  "storm-queen": {
+    "target_page": "Storm King",
+    "target_slug": "storm-king"
+  },
+  "sunderly": {
+    "target_page": "House Sunderly",
+    "target_slug": "house-sunderly"
+  },
+  "swann": {
+    "target_page": "House Swann",
+    "target_slug": "house-swann"
+  },
+  "targaryen": {
+    "target_page": "House Targaryen",
+    "target_slug": "house-targaryen"
+  },
+  "the-bloodroyal": {
+    "target_page": "Bloodroyal",
+    "target_slug": "bloodroyal"
+  },
+  "the-norrey": {
+    "target_page": "Brandon Norrey",
+    "target_slug": "brandon-norrey"
+  },
+  "the-wull": {
+    "target_page": "Hugo Wull",
+    "target_slug": "hugo-wull"
+  },
+  "three-daughters": {
+    "target_page": "Triarchy",
+    "target_slug": "triarchy"
+  },
+  "tyroshi": {
+    "target_page": "Tyrosh",
+    "target_slug": "tyrosh"
+  },
+  "vaegon": {
+    "target_page": "Vaegon Targaryen",
+    "target_slug": "vaegon-targaryen"
+  },
+  "velaryon": {
+    "target_page": "House Velaryon",
+    "target_slug": "house-velaryon"
+  },
+  "volantene": {
+    "target_page": "Volantis",
+    "target_slug": "volantis"
+  },
+  "warlock": {
+    "target_page": "Warlocks",
+    "target_slug": "warlocks"
+  },
+  "waynwood": {
+    "target_page": "House Waynwood",
+    "target_slug": "house-waynwood"
+  },
+  "westerosi": {
+    "target_page": "Westeros",
+    "target_slug": "westeros"
+  },
+  "whent": {
+    "target_page": "House Whent",
+    "target_slug": "house-whent"
+  },
+  "whitehead": {
+    "target_page": "House Whitehead",
+    "target_slug": "house-whitehead"
+  },
+  "woodhull": {
+    "target_page": "House Woodhull",
+    "target_slug": "house-woodhull"
+  },
+  "yitish": {
+    "target_page": "Yi Ti",
+    "target_slug": "yi-ti"
+  }
+}

@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyland_Lannister"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tyland Lannister is a character from the AWOIAF wiki.
+Tyland Lannister (d. 133 AC) — sworn to House Lannister; Ser.
 
 ## Edges
 

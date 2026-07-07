@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jon_Umber"
 bucket_id: characters-house-umber
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jon Umber is a character.human from the AWOIAF wiki.
+Jon Umber — child of Hoarfrost Umber; sworn to House Umber; Lord of the Last Hearth. One of 3 characters named Jon Umber.
 
 ## Edges
 

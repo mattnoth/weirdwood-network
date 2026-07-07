@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jon_Umber_(husband_of_Serena)"
 bucket_id: characters-house-umber
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jon Umber (husband of Serena) is a character.human from the AWOIAF wiki.
+Jon Umber (husband of Serena) — married to Serena Stark; sworn to House Umber; Lord of the Last Hearth. One of 3 characters named Jon Umber.
 
 ## Edges
 

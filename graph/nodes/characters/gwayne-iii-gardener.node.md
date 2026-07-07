@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gwayne_III_Gardener"
 bucket_id: characters-other-g-h
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gwayne III Gardener is a character.human from the AWOIAF wiki.
+Gwayne III Gardener — King of the Reach. One of 5 characters named Gwayne Gardener.
 
 ## Edges
 

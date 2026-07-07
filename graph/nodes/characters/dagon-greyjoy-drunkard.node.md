@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dagon_Greyjoy_(Drunkard)
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,6 +16,10 @@ first_available:
   source: cite_ref
   pov: The Windblown
 ---
+
+## Identity
+
+Dagon Greyjoy (Drunkard) — sworn to House Greyjoy. One of 2 characters named Dagon Greyjoy. Dagon Greyjoy, called Dagon the Drunkard, is a cousin of Asha Greyjoy. (wiki:Dagon_Greyjoy_(Drunkard))
 
 ## Appearances & Description
 

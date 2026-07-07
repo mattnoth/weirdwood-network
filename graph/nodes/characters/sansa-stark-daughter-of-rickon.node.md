@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Sansa_Stark_(daughter_of_Rickon)
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Sansa Stark (daughter of Rickon) — child of Rickon Stark (son of Cregan) and Jeyne Manderly; married to Jonnel Stark; sworn to House Stark. One of 2 characters named Sansa Stark.
 
 ## Origins
 

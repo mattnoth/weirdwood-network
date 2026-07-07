@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Viserys_Targaryen_(son_of_Aenys_I)
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Viserys Targaryen (son of Aenys I) (29–44 AC) — child of Aenys I Targaryen and Alyssa Velaryon; sworn to House Targaryen; Prince. One of 4 characters named Viserys Targaryen.
 
 ## Origins
 

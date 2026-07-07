@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Staunton_(father_of_Cassella)"
 bucket_id: characters-house-staunton
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Staunton (father of Cassella) is a character.human from the AWOIAF wiki.
+Lord Staunton (father of Cassella) — sworn to House Staunton. One of 2 characters named Lord Staunton. Lord of Rook's Rest during the reigns of Kings Maegor I and Jaehaerys I, he retained loyalty after Maegor's death and later died with his family of the Shivers in 59 AC. (wiki:Lord_Staunton_(father_of_Cassella))
 
 ## Edges
 

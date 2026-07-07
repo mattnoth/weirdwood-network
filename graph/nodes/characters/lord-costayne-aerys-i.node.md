@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Costayne_(Aerys_I)"
 bucket_id: characters-house-costayne
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Costayne (Aerys I) is a character.human from the AWOIAF wiki.
+Lord Costayne (Aerys I) — child of Costayne; married to Ambrose Butterwell; sworn to House Costayne; Lord of the Three Towers. One of 2 characters named Lord Costayne.
 
 ## Edges
 

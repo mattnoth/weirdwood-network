@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Daeron_Targaryen_(son_of_Viserys_I)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daeron Targaryen (son of Viserys I) is a character from the AWOIAF wiki.
+Daeron Targaryen (son of Viserys I) (114–130 AC) — child of Viserys I Targaryen and Alicent Hightower; sworn to House Targaryen; Prince. One of 6 Daeron Targaryens — see the Daeron Targaryen disambiguation entry.
 
 ## Edges
 

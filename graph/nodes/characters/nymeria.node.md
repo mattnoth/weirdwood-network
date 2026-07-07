@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Nymeria"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
+
+## Identity
+
+Nymeria — married to Davos Dayne and Lord Uller (husband of Nymeria) and Mors Martell; sworn to Rhoynar; Princess. One of 2 characters named Nymeria.
 
 ## Origins
 

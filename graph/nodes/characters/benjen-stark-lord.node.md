@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Benjen_Stark_(lord)"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Benjen Stark (lord) — married to Lysa Locke; sworn to House Stark; Lord of Winterfell. One of 6 characters named Benjen Stark.
 
 ## Origins
 

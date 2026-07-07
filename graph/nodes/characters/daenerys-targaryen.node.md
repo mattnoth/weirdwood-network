@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen"
 bucket_id: characters-other-c-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daenerys Targaryen is a character.human from the AWOIAF wiki.
+Daenerys Targaryen (b. 284 AC) — child of Aerys II Targaryen and Rhaella Targaryen; Princess of Dragonstone. One of 3 characters named Daenerys Targaryen.
 
 ## Edges
 

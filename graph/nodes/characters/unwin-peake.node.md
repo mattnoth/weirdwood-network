@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Unwin_Peake"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Unwin Peake is a character.human from the AWOIAF wiki.
+Unwin Peake — child of Lord Peake (father of Unwin) and Peake; sworn to House Peake; Lord of Starpike.
 
 ## Edges
 

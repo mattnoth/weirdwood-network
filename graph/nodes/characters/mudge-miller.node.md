@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mudge_(miller)"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Mudge (miller) is a character.human from the AWOIAF wiki.
+Mudge (miller). One of 3 characters named Mudge. Son of the miller of Donnelwood, he was slain by House Lannister forces during the War of the Five Kings. (wiki:Mudge_(miller))
 
 ## Edges
 

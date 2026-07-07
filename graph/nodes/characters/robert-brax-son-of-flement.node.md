@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Brax_(son_of_Flement)"
 bucket_id: characters-house-brax
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robert Brax (son of Flement) is a character.human from the AWOIAF wiki.
+Robert Brax (son of Flement) (b. 290 AC) — child of Flement Brax and Morya Frey; sworn to House Brax. One of 2 characters named Robert Brax.
 
 ## Edges
 

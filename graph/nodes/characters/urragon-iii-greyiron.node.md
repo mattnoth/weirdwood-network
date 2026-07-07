@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Urragon_III_Greyiron"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Urragon III Greyiron is a character.human from the AWOIAF wiki.
+Urragon III Greyiron — High King of the Iron Islands. One of 2 characters named Urragon Greyiron.
 
 ## Edges
 

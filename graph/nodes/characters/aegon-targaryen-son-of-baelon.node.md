@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Baelon)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Aegon Targaryen (son of Baelon) (84–85 AC) — child of Alyssa Targaryen and Baelon Targaryen (son of Jaehaerys I); sworn to House Targaryen; Prince. One of 12 Aegon Targaryens — see the Aegon Targaryen disambiguation entry.
 
 ## Origins
 

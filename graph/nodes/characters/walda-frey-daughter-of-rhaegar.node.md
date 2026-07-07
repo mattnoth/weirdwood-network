@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Walda_Frey_(daughter_of_Rhaegar)"
 bucket_id: characters-house-frey-t-z
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Walda Frey (daughter of Rhaegar) is a character.human from the AWOIAF wiki.
+Walda Frey (daughter of Rhaegar) — child of Rhaegar Frey and Jeyne Beesbury; sworn to House Frey. One of 5 Walda Freys — see the Walda Frey disambiguation entry.
 
 ## Edges
 

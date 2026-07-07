@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gerold_Lannister
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Gerold Lannister (d. 244 AC) — child of Cerissa Brax and Damon Lannister; married to Alysanne Farman and Rohanne Webber; sworn to House Lannister; Regent. One of 4 characters named Gerold Lannister.
 
 ## Origins
 

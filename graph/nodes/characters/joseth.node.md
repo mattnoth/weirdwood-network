@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Joseth
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: "ACOK Tyrion I"
 ---
+
+## Identity
+
+Joseth (d. 299 AC) — sworn to House Stark. One of 2 characters named Joseth.
 
 ## Origins
 

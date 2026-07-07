@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Gerold_Grafton_(king)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gerold Grafton (king) is a character from the AWOIAF wiki.
+Gerold Grafton (king) — Ser. One of 2 characters named Gerold Grafton. Gerold Grafton was an Andal knight from Andalos who established House Grafton over Gulltown. (wiki:Gerold_Grafton_(king))
 
 ## Edges
 

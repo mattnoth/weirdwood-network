@@ -1,0 +1,946 @@
+{
+  "addam-of-hull": {
+    "page": "Addam of Hull",
+    "trap_kind": "redirect"
+  },
+  "aegon-frey": {
+    "page": "Aegon Frey",
+    "trap_kind": "disambiguation"
+  },
+  "aegon-targaryen": {
+    "page": "Aegon Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "aemon-targaryen": {
+    "page": "Aemon Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "aenys-targaryen": {
+    "page": "Aenys Targaryen",
+    "trap_kind": "redirect"
+  },
+  "aerys-targaryen": {
+    "page": "Aerys Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "alysanne": {
+    "page": "Alysanne",
+    "trap_kind": "disambiguation"
+  },
+  "archmaester": {
+    "page": "Archmaester",
+    "trap_kind": "redirect"
+  },
+  "asshaii": {
+    "page": "Asshai'i",
+    "trap_kind": "redirect"
+  },
+  "astapori": {
+    "page": "Astapori",
+    "trap_kind": "redirect"
+  },
+  "baelish": {
+    "page": "Baelish",
+    "trap_kind": "redirect"
+  },
+  "baelon-targaryen": {
+    "page": "Baelon Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "baelor-targaryen": {
+    "page": "Baelor Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "ball": {
+    "page": "Ball",
+    "trap_kind": "redirect"
+  },
+  "bastard": {
+    "page": "Bastard",
+    "trap_kind": "redirect"
+  },
+  "bastards": {
+    "page": "Bastards",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-bridge-of-skulls": {
+    "page": "Battle of the Bridge of Skulls",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-fist-of-the-first-men": {
+    "page": "Battle of the Fist of the First Men",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-golden-tooth": {
+    "page": "Battle of the Golden Tooth",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-green-fork": {
+    "page": "Battle of the Green Fork",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-last-storm": {
+    "page": "Battle of the Last Storm",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-mummers-ford": {
+    "page": "Battle of the Mummer's Ford",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-red-fork": {
+    "page": "Battle of the Red Fork",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-ruby-ford": {
+    "page": "Battle of the Ruby Ford",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-shield-islands": {
+    "page": "Battle of the Shield Islands",
+    "trap_kind": "redirect"
+  },
+  "battle-of-the-whispering-wood": {
+    "page": "Battle of the Whispering Wood",
+    "trap_kind": "redirect"
+  },
+  "battle-of-torrhens-square": {
+    "page": "Battle of Torrhen's Square",
+    "trap_kind": "redirect"
+  },
+  "battle-of-whispering-wood": {
+    "page": "Battle of Whispering Wood",
+    "trap_kind": "redirect"
+  },
+  "battle-of-yunkai": {
+    "page": "Battle of Yunkai",
+    "trap_kind": "redirect"
+  },
+  "beesbury": {
+    "page": "Beesbury",
+    "trap_kind": "redirect"
+  },
+  "belmore": {
+    "page": "Belmore",
+    "trap_kind": "redirect"
+  },
+  "bessa": {
+    "page": "Bessa",
+    "trap_kind": "disambiguation"
+  },
+  "black-walder-frey": {
+    "page": "Black Walder Frey",
+    "trap_kind": "redirect"
+  },
+  "blackwood": {
+    "page": "Blackwood",
+    "trap_kind": "redirect"
+  },
+  "borrell": {
+    "page": "Borrell",
+    "trap_kind": "redirect"
+  },
+  "braavosi": {
+    "page": "Braavosi",
+    "trap_kind": "redirect"
+  },
+  "bracken": {
+    "page": "Bracken",
+    "trap_kind": "redirect"
+  },
+  "bread": {
+    "page": "Bread",
+    "trap_kind": "redirect"
+  },
+  "bronn-of-the-blackwater": {
+    "page": "Bronn of the Blackwater",
+    "trap_kind": "redirect"
+  },
+  "camp-follower": {
+    "page": "Camp follower",
+    "trap_kind": "redirect"
+  },
+  "captain-of-the-guard": {
+    "page": "Captain of the guard",
+    "trap_kind": "redirect"
+  },
+  "caswell": {
+    "page": "Caswell",
+    "trap_kind": "redirect"
+  },
+  "charlton": {
+    "page": "Charlton",
+    "trap_kind": "redirect"
+  },
+  "chief-undergaoler": {
+    "page": "Chief Undergaoler",
+    "trap_kind": "redirect"
+  },
+  "children": {
+    "page": "Children",
+    "trap_kind": "redirect"
+  },
+  "clegane": {
+    "page": "Clegane",
+    "trap_kind": "redirect"
+  },
+  "cleon-ii": {
+    "page": "Cleon II",
+    "trap_kind": "redirect"
+  },
+  "commander-of-the-city-watch": {
+    "page": "Commander of the City Watch",
+    "trap_kind": "redirect"
+  },
+  "commander-of-the-garrison": {
+    "page": "Commander of the garrison",
+    "trap_kind": "redirect"
+  },
+  "connington": {
+    "page": "Connington",
+    "trap_kind": "redirect"
+  },
+  "conquest": {
+    "page": "Conquest",
+    "trap_kind": "redirect"
+  },
+  "corbray": {
+    "page": "Corbray",
+    "trap_kind": "redirect"
+  },
+  "costayne": {
+    "page": "Costayne",
+    "trap_kind": "redirect"
+  },
+  "crossing": {
+    "page": "Crossing",
+    "trap_kind": "redirect"
+  },
+  "crownlander": {
+    "page": "Crownlander",
+    "trap_kind": "redirect"
+  },
+  "daella-targaryen": {
+    "page": "Daella Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "daeron-targaryen": {
+    "page": "Daeron Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "damon-lannister": {
+    "page": "Damon Lannister",
+    "trap_kind": "disambiguation"
+  },
+  "darklyn": {
+    "page": "Darklyn",
+    "trap_kind": "redirect"
+  },
+  "dondarrion": {
+    "page": "Dondarrion",
+    "trap_kind": "redirect"
+  },
+  "doom": {
+    "page": "Doom",
+    "trap_kind": "redirect"
+  },
+  "erich-iii-durrandon": {
+    "page": "Erich III Durrandon",
+    "trap_kind": "redirect"
+  },
+  "farman": {
+    "page": "Farman",
+    "trap_kind": "redirect"
+  },
+  "fat-walda-frey": {
+    "page": "Fat Walda Frey",
+    "trap_kind": "redirect"
+  },
+  "father-above": {
+    "page": "Father Above",
+    "trap_kind": "redirect"
+  },
+  "father-of-hosts": {
+    "page": "Father of Hosts",
+    "trap_kind": "redirect"
+  },
+  "fell": {
+    "page": "Fell",
+    "trap_kind": "redirect"
+  },
+  "florent": {
+    "page": "Florent",
+    "trap_kind": "redirect"
+  },
+  "fossoway": {
+    "page": "Fossoway",
+    "trap_kind": "redirect"
+  },
+  "gaemon-targaryen": {
+    "page": "Gaemon Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "garland-ii": {
+    "page": "Garland II",
+    "trap_kind": "redirect"
+  },
+  "glover": {
+    "page": "Glover",
+    "trap_kind": "redirect"
+  },
+  "grafton": {
+    "page": "Grafton",
+    "trap_kind": "redirect"
+  },
+  "greyjoy": {
+    "page": "Greyjoy",
+    "trap_kind": "redirect"
+  },
+  "hand-of-the-queen": {
+    "page": "Hand of the Queen",
+    "trap_kind": "redirect"
+  },
+  "hardyng": {
+    "page": "Hardyng",
+    "trap_kind": "redirect"
+  },
+  "high-priest": {
+    "page": "High Priest",
+    "trap_kind": "disambiguation"
+  },
+  "house-brune": {
+    "page": "House Brune",
+    "trap_kind": "disambiguation"
+  },
+  "house-shell": {
+    "page": "House Shell",
+    "trap_kind": "disambiguation"
+  },
+  "house-towers": {
+    "page": "House Towers",
+    "trap_kind": "disambiguation"
+  },
+  "house-vance": {
+    "page": "House Vance",
+    "trap_kind": "disambiguation"
+  },
+  "house-wells": {
+    "page": "House Wells",
+    "trap_kind": "disambiguation"
+  },
+  "hunter": {
+    "page": "Hunter",
+    "trap_kind": "redirect"
+  },
+  "iron-king": {
+    "page": "Iron King",
+    "trap_kind": "redirect"
+  },
+  "ironmen": {
+    "page": "Ironmen",
+    "trap_kind": "redirect"
+  },
+  "jaehaerys-targaryen": {
+    "page": "Jaehaerys Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "josua": {
+    "page": "Josua",
+    "trap_kind": "redirect"
+  },
+  "keyholder": {
+    "page": "Keyholder",
+    "trap_kind": "redirect"
+  },
+  "khal-jhaqo": {
+    "page": "Khal Jhaqo",
+    "trap_kind": "redirect"
+  },
+  "khaleesi-of-great-grass-sea": {
+    "page": "Khaleesi of Great Grass Sea",
+    "trap_kind": "redirect"
+  },
+  "king": {
+    "page": "King",
+    "trap_kind": "redirect"
+  },
+  "king-beyond-the-wall": {
+    "page": "King-Beyond-The-Wall",
+    "trap_kind": "redirect"
+  },
+  "king-of-the-andals-and-the-rhoynar-and-the-first-men": {
+    "page": "King of the Andals and the Rhoynar and the First Men",
+    "trap_kind": "redirect"
+  },
+  "king-of-the-narrow-sea": {
+    "page": "King of the Narrow Sea",
+    "trap_kind": "redirect"
+  },
+  "king-of-the-rivers-and-the-hills": {
+    "page": "King of the Rivers and the Hills",
+    "trap_kind": "redirect"
+  },
+  "king-of-the-three-sisters": {
+    "page": "King of the Three Sisters",
+    "trap_kind": "redirect"
+  },
+  "king-of-winter": {
+    "page": "King of Winter",
+    "trap_kind": "redirect"
+  },
+  "lady-in-waiting": {
+    "page": "Lady-in-waiting",
+    "trap_kind": "redirect"
+  },
+  "lady-of-barrowton": {
+    "page": "Lady of Barrowton",
+    "trap_kind": "redirect"
+  },
+  "lady-of-bear-island": {
+    "page": "Lady of Bear Island",
+    "trap_kind": "redirect"
+  },
+  "lady-of-blackcrown": {
+    "page": "Lady of Blackcrown",
+    "trap_kind": "redirect"
+  },
+  "lady-of-blackmont": {
+    "page": "Lady of Blackmont",
+    "trap_kind": "redirect"
+  },
+  "lady-of-bronzegate": {
+    "page": "Lady of Bronzegate",
+    "trap_kind": "redirect"
+  },
+  "lady-of-casterly-rock": {
+    "page": "Lady of Casterly Rock",
+    "trap_kind": "redirect"
+  },
+  "lady-of-cerwyn": {
+    "page": "Lady of Cerwyn",
+    "trap_kind": "redirect"
+  },
+  "lady-of-darry": {
+    "page": "Lady of Darry",
+    "trap_kind": "redirect"
+  },
+  "lady-of-dragonstone": {
+    "page": "Lady of Dragonstone",
+    "trap_kind": "redirect"
+  },
+  "lady-of-duskendale": {
+    "page": "Lady of Duskendale",
+    "trap_kind": "redirect"
+  },
+  "lady-of-ghost-hill": {
+    "page": "Lady of Ghost Hill",
+    "trap_kind": "redirect"
+  },
+  "lady-of-godsgrace": {
+    "page": "Lady of Godsgrace",
+    "trap_kind": "redirect"
+  },
+  "lady-of-harrenhal": {
+    "page": "Lady of Harrenhal",
+    "trap_kind": "redirect"
+  },
+  "lady-of-hayford": {
+    "page": "Lady of Hayford",
+    "trap_kind": "redirect"
+  },
+  "lady-of-haystack-hall": {
+    "page": "Lady of Haystack Hall",
+    "trap_kind": "redirect"
+  },
+  "lady-of-holyhall": {
+    "page": "Lady of Holyhall",
+    "trap_kind": "redirect"
+  },
+  "lady-of-ironoaks": {
+    "page": "Lady of Ironoaks",
+    "trap_kind": "redirect"
+  },
+  "lady-of-longtable": {
+    "page": "Lady of Longtable",
+    "trap_kind": "redirect"
+  },
+  "lady-of-maidenpool": {
+    "page": "Lady of Maidenpool",
+    "trap_kind": "redirect"
+  },
+  "lady-of-mistwood": {
+    "page": "Lady of Mistwood",
+    "trap_kind": "redirect"
+  },
+  "lady-of-nightsong": {
+    "page": "Lady of Nightsong",
+    "trap_kind": "redirect"
+  },
+  "lady-of-old-oak": {
+    "page": "Lady of Old Oak",
+    "trap_kind": "redirect"
+  },
+  "lady-of-raventree-hall": {
+    "page": "Lady of Raventree Hall",
+    "trap_kind": "redirect"
+  },
+  "lady-of-riverrun": {
+    "page": "Lady of Riverrun",
+    "trap_kind": "redirect"
+  },
+  "lady-of-starfall": {
+    "page": "Lady of Starfall",
+    "trap_kind": "redirect"
+  },
+  "lady-of-starpike": {
+    "page": "Lady of Starpike",
+    "trap_kind": "redirect"
+  },
+  "lady-of-stokeworth": {
+    "page": "Lady of Stokeworth",
+    "trap_kind": "redirect"
+  },
+  "lady-of-sunspear": {
+    "page": "Lady of Sunspear",
+    "trap_kind": "redirect"
+  },
+  "lady-of-the-golden-tooth": {
+    "page": "Lady of the Golden Tooth",
+    "trap_kind": "redirect"
+  },
+  "lady-of-the-hornwood": {
+    "page": "Lady of the Hornwood",
+    "trap_kind": "redirect"
+  },
+  "lady-of-the-marches": {
+    "page": "Lady of the Marches",
+    "trap_kind": "redirect"
+  },
+  "lady-of-the-three-sisters": {
+    "page": "Lady of the Three Sisters",
+    "trap_kind": "redirect"
+  },
+  "lady-of-widows-watch": {
+    "page": "Lady of Widow's Watch",
+    "trap_kind": "redirect"
+  },
+  "lady-of-winterfell": {
+    "page": "Lady of Winterfell",
+    "trap_kind": "redirect"
+  },
+  "lady-smallwood": {
+    "page": "Lady Smallwood",
+    "trap_kind": "redirect"
+  },
+  "lamentation": {
+    "page": "Lamentation",
+    "trap_kind": "disambiguation"
+  },
+  "lanna": {
+    "page": "Lanna",
+    "trap_kind": "disambiguation"
+  },
+  "leo-tyrell": {
+    "page": "Leo Tyrell",
+    "trap_kind": "disambiguation"
+  },
+  "leygood": {
+    "page": "Leygood",
+    "trap_kind": "redirect"
+  },
+  "lorathi": {
+    "page": "Lorathi",
+    "trap_kind": "redirect"
+  },
+  "lord-admiral": {
+    "page": "Lord Admiral",
+    "trap_kind": "redirect"
+  },
+  "lord-baelish": {
+    "page": "Lord Baelish",
+    "trap_kind": "redirect"
+  },
+  "lord-commander-of-the-queensguard": {
+    "page": "Lord Commander of the Queensguard",
+    "trap_kind": "redirect"
+  },
+  "lord-mormont": {
+    "page": "Lord Mormont",
+    "trap_kind": "redirect"
+  },
+  "lord-of-brightwater-keep": {
+    "page": "Lord of Brightwater Keep",
+    "trap_kind": "redirect"
+  },
+  "lord-of-karls-hold": {
+    "page": "Lord of Karl's Hold",
+    "trap_kind": "redirect"
+  },
+  "lord-of-pinkmaiden": {
+    "page": "Lord of Pinkmaiden",
+    "trap_kind": "redirect"
+  },
+  "lord-protector-of-the-vale": {
+    "page": "Lord Protector of the Vale",
+    "trap_kind": "redirect"
+  },
+  "lord-regent": {
+    "page": "Lord Regent",
+    "trap_kind": "redirect"
+  },
+  "loreon-lannister": {
+    "page": "Loreon Lannister",
+    "trap_kind": "disambiguation"
+  },
+  "lucas-lothston": {
+    "page": "Lucas Lothston",
+    "trap_kind": "disambiguation"
+  },
+  "lyonel-tyrell": {
+    "page": "Lyonel Tyrell",
+    "trap_kind": "disambiguation"
+  },
+  "lyseni": {
+    "page": "Lyseni",
+    "trap_kind": "redirect"
+  },
+  "maegelle": {
+    "page": "Maegelle",
+    "trap_kind": "redirect"
+  },
+  "maegor-targaryen": {
+    "page": "Maegor Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "maekar-targaryen": {
+    "page": "Maekar Targaryen",
+    "trap_kind": "redirect"
+  },
+  "maester": {
+    "page": "Maester",
+    "trap_kind": "redirect"
+  },
+  "maid": {
+    "page": "Maid",
+    "trap_kind": "redirect"
+  },
+  "manfred-hightower": {
+    "page": "Manfred Hightower",
+    "trap_kind": "disambiguation"
+  },
+  "marcher": {
+    "page": "Marcher",
+    "trap_kind": "redirect"
+  },
+  "martell": {
+    "page": "Martell",
+    "trap_kind": "redirect"
+  },
+  "massey": {
+    "page": "Massey",
+    "trap_kind": "redirect"
+  },
+  "master-of-coin": {
+    "page": "Master of Coin",
+    "trap_kind": "redirect"
+  },
+  "master-of-whisperers": {
+    "page": "Master of Whisperers",
+    "trap_kind": "redirect"
+  },
+  "meera": {
+    "page": "Meera",
+    "trap_kind": "redirect"
+  },
+  "meereenese": {
+    "page": "Meereenese",
+    "trap_kind": "redirect"
+  },
+  "mermaid": {
+    "page": "Mermaid",
+    "trap_kind": "redirect"
+  },
+  "mistress-of-whisperers": {
+    "page": "Mistress of whisperers",
+    "trap_kind": "redirect"
+  },
+  "mormont": {
+    "page": "Mormont",
+    "trap_kind": "redirect"
+  },
+  "mud-gate": {
+    "page": "Mud Gate",
+    "trap_kind": "redirect"
+  },
+  "mullendore": {
+    "page": "Mullendore",
+    "trap_kind": "redirect"
+  },
+  "myrish": {
+    "page": "Myrish",
+    "trap_kind": "redirect"
+  },
+  "norvoshi": {
+    "page": "Norvoshi",
+    "trap_kind": "redirect"
+  },
+  "novice": {
+    "page": "Novice",
+    "trap_kind": "disambiguation"
+  },
+  "oakheart": {
+    "page": "Oakheart",
+    "trap_kind": "redirect"
+  },
+  "old-empire": {
+    "page": "Old Empire",
+    "trap_kind": "redirect"
+  },
+  "peake": {
+    "page": "Peake",
+    "trap_kind": "redirect"
+  },
+  "penrose": {
+    "page": "Penrose",
+    "trap_kind": "redirect"
+  },
+  "pentoshi": {
+    "page": "Pentoshi",
+    "trap_kind": "redirect"
+  },
+  "piper": {
+    "page": "Piper",
+    "trap_kind": "redirect"
+  },
+  "prester": {
+    "page": "Prester",
+    "trap_kind": "redirect"
+  },
+  "princess": {
+    "page": "Princess",
+    "trap_kind": "redirect"
+  },
+  "princess-consort-of-dorne": {
+    "page": "Princess Consort of Dorne",
+    "trap_kind": "redirect"
+  },
+  "princess-of-dorne": {
+    "page": "Princess of Dorne",
+    "trap_kind": "redirect"
+  },
+  "princess-of-dragonstone": {
+    "page": "Princess of Dragonstone",
+    "trap_kind": "redirect"
+  },
+  "princess-of-ny-sar": {
+    "page": "Princess of Ny Sar",
+    "trap_kind": "redirect"
+  },
+  "qartheen": {
+    "page": "Qartheen",
+    "trap_kind": "redirect"
+  },
+  "qohorik": {
+    "page": "Qohorik",
+    "trap_kind": "redirect"
+  },
+  "queen": {
+    "page": "Queen",
+    "trap_kind": "redirect"
+  },
+  "queen-of-the-andals-and-the-rhoynar-and-the-first-men": {
+    "page": "Queen of the Andals and the Rhoynar and the First Men",
+    "trap_kind": "redirect"
+  },
+  "queen-of-the-andals-the-rhoynar-and-the-first-men": {
+    "page": "Queen of the Andals, the Rhoynar, and the First Men",
+    "trap_kind": "redirect"
+  },
+  "queen-of-the-iron-islands": {
+    "page": "Queen of the Iron Islands",
+    "trap_kind": "redirect"
+  },
+  "queen-of-the-trident": {
+    "page": "Queen of the Trident",
+    "trap_kind": "redirect"
+  },
+  "queen-regent": {
+    "page": "Queen Regent",
+    "trap_kind": "redirect"
+  },
+  "queens-hand": {
+    "page": "Queen's Hand",
+    "trap_kind": "redirect"
+  },
+  "red-cloaks": {
+    "page": "Red cloaks",
+    "trap_kind": "redirect"
+  },
+  "rhaena-targaryen": {
+    "page": "Rhaena Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "river-king": {
+    "page": "River king",
+    "trap_kind": "redirect"
+  },
+  "robert-baratheon": {
+    "page": "Robert Baratheon",
+    "trap_kind": "redirect"
+  },
+  "robert-frey": {
+    "page": "Robert Frey",
+    "trap_kind": "disambiguation"
+  },
+  "roland-crakehall": {
+    "page": "Roland Crakehall",
+    "trap_kind": "disambiguation"
+  },
+  "ronnel-arryn": {
+    "page": "Ronnel Arryn",
+    "trap_kind": "disambiguation"
+  },
+  "royce": {
+    "page": "Royce",
+    "trap_kind": "disambiguation"
+  },
+  "ryswell": {
+    "page": "Ryswell",
+    "trap_kind": "redirect"
+  },
+  "sellsword": {
+    "page": "Sellsword",
+    "trap_kind": "redirect"
+  },
+  "ser": {
+    "page": "Ser",
+    "trap_kind": "redirect"
+  },
+  "serrett": {
+    "page": "Serrett",
+    "trap_kind": "redirect"
+  },
+  "speaker-to-gods": {
+    "page": "Speaker to Gods",
+    "trap_kind": "redirect"
+  },
+  "spymaster": {
+    "page": "Spymaster",
+    "trap_kind": "redirect"
+  },
+  "squire": {
+    "page": "Squire",
+    "trap_kind": "redirect"
+  },
+  "stark": {
+    "page": "Stark",
+    "trap_kind": "redirect"
+  },
+  "staunton": {
+    "page": "Staunton",
+    "trap_kind": "redirect"
+  },
+  "stony-dornishmen": {
+    "page": "Stony Dornishmen",
+    "trap_kind": "redirect"
+  },
+  "storm-queen": {
+    "page": "Storm Queen",
+    "trap_kind": "redirect"
+  },
+  "stranger": {
+    "page": "Stranger",
+    "trap_kind": "disambiguation"
+  },
+  "sunderly": {
+    "page": "Sunderly",
+    "trap_kind": "redirect"
+  },
+  "swann": {
+    "page": "Swann",
+    "trap_kind": "redirect"
+  },
+  "targaryen": {
+    "page": "Targaryen",
+    "trap_kind": "redirect"
+  },
+  "the-bloodroyal": {
+    "page": "The Bloodroyal",
+    "trap_kind": "redirect"
+  },
+  "the-norrey": {
+    "page": "The Norrey",
+    "trap_kind": "redirect"
+  },
+  "the-wull": {
+    "page": "The Wull",
+    "trap_kind": "redirect"
+  },
+  "three-daughters": {
+    "page": "Three Daughters",
+    "trap_kind": "redirect"
+  },
+  "tyroshi": {
+    "page": "Tyroshi",
+    "trap_kind": "redirect"
+  },
+  "vaegon": {
+    "page": "Vaegon",
+    "trap_kind": "redirect"
+  },
+  "vaella-targaryen": {
+    "page": "Vaella Targaryen",
+    "trap_kind": "disambiguation"
+  },
+  "valyrian": {
+    "page": "Valyrian",
+    "trap_kind": "disambiguation"
+  },
+  "velaryon": {
+    "page": "Velaryon",
+    "trap_kind": "redirect"
+  },
+  "volantene": {
+    "page": "Volantene",
+    "trap_kind": "redirect"
+  },
+  "walda-frey": {
+    "page": "Walda Frey",
+    "trap_kind": "disambiguation"
+  },
+  "warlock": {
+    "page": "Warlock",
+    "trap_kind": "redirect"
+  },
+  "waynwood": {
+    "page": "Waynwood",
+    "trap_kind": "redirect"
+  },
+  "westerosi": {
+    "page": "Westerosi",
+    "trap_kind": "redirect"
+  },
+  "whent": {
+    "page": "Whent",
+    "trap_kind": "redirect"
+  },
+  "whitehead": {
+    "page": "Whitehead",
+    "trap_kind": "redirect"
+  },
+  "willow": {
+    "page": "Willow",
+    "trap_kind": "disambiguation"
+  },
+  "woodhull": {
+    "page": "Woodhull",
+    "trap_kind": "redirect"
+  },
+  "wyl": {
+    "page": "Wyl",
+    "trap_kind": "disambiguation"
+  },
+  "yitish": {
+    "page": "YiTish",
+    "trap_kind": "redirect"
+  }
+}

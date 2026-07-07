@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucerys_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lucerys Velaryon is a character from the AWOIAF wiki.
+Lucerys Velaryon (115–129 AC) — child of Rhaenyra Targaryen; sworn to House Velaryon; Prince.
 
 ## Edges
 

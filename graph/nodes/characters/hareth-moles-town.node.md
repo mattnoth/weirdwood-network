@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Hareth_(Mole's_Town)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Hareth (Mole's Town) is a character from the AWOIAF wiki.
+Hareth (Mole's Town) — sworn to Night's Watch. One of 2 characters named Hareth. A stablehand from Mole's Town who sought to join the Night's Watch and was trained as a recruit at Castle Black. (wiki:Hareth_(Mole's_Town))
 
 ## Edges
 

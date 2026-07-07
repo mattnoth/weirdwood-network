@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Myles"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: "AFFC"
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "The Prophet"
 ---
+
+## Identity
+
+Myles — sworn to Citadel; Maester. One of 2 characters named Myles.
 
 ## Appearances & Description
 

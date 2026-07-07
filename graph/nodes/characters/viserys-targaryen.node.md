@@ -11,7 +11,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Viserys_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -19,6 +19,10 @@ first_available:
   source: cite_ref
   pov: Prologue
 ---
+
+## Identity
+
+Viserys Targaryen (276–298 AC) — child of Aerys II Targaryen and Rhaella Targaryen; married to Larra Rogare; sworn to House Targaryen; Prince of Dragonstone. One of 4 characters named Viserys Targaryen.
 
 ## Origins
 

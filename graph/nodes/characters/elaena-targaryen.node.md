@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Elaena_Targaryen
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,6 +16,10 @@ first_available:
   source: cite_ref
   pov: Cersei II
 ---
+
+## Identity
+
+Elaena Targaryen (b. 150 AC) — child of Aegon III Targaryen and Daenaera Velaryon; married to Ossifer Plumm and Ronnel Penrose and Michael Manwoody; sworn to House Targaryen; Princess. One of 2 characters named Elaena Targaryen.
 
 ## Origins
 

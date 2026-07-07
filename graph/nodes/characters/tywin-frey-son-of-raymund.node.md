@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tywin_Frey_(son_of_Raymund)"
 bucket_id: characters-house-frey-t-z
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tywin Frey (son of Raymund) is a character.human from the AWOIAF wiki.
+Tywin Frey (son of Raymund) — child of Raymund Frey and Beony Beesbury; sworn to House Frey. One of 2 characters named Tywin Frey.
 
 ## Edges
 

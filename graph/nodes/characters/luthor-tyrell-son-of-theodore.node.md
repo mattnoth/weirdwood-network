@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Luthor_Tyrell_(son_of_Theodore)"
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Jon II"
 ---
+
+## Identity
+
+Luthor Tyrell (son of Theodore) — child of Theodore Tyrell and Lia Serry; sworn to House Tyrell. One of 3 characters named Luthor Tyrell.
 
 ## Appearances & Description
 

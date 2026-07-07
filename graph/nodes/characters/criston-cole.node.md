@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Criston_Cole"
 bucket_id: characters-house-cole
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Criston Cole is a character.human from the AWOIAF wiki.
+Criston Cole (82–130 AC) — sworn to House Cole; Ser.
 
 ## Edges
 

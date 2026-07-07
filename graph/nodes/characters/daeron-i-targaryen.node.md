@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daeron_I_Targaryen"
 bucket_id: characters-other-c-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daeron I Targaryen is a character.human from the AWOIAF wiki.
+Daeron I Targaryen (143–161 AC) — child of Aegon III Targaryen and Daenaera Velaryon; King of the Andals, the Rhoynar, and the First Men. One of 6 Daeron Targaryens — see the Daeron Targaryen disambiguation entry.
 
 ## Edges
 

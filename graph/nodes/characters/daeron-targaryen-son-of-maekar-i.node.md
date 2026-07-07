@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daeron_Targaryen_(son_of_Maekar_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -16,6 +16,10 @@ first_available:
   source: cite_ref
   pov: null
 ---
+
+## Identity
+
+Daeron Targaryen (son of Maekar I) — child of Maekar I Targaryen and Dyanna Dayne; married to Kiera of Tyrosh; sworn to House Targaryen; Ser. One of 6 Daeron Targaryens — see the Daeron Targaryen disambiguation entry.
 
 ## Origins
 

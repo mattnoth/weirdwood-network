@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Eustace_(Braavos)"
 bucket_id: characters-other-e-f
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Eustace (Braavos) is a character.human from the AWOIAF wiki.
+Eustace (Braavos) — sworn to Faith of the Seven; Septon. One of 2 characters named Eustace.
 
 ## Edges
 

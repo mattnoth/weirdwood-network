@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Qarlton_III_Durrandon"
 bucket_id: characters-other-p-q
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Qarlton III Durrandon is a character.human from the AWOIAF wiki.
+Qarlton III Durrandon — child of Qarlton II Durrandon; Storm King. One of 2 characters named Qarlton Durrandon.
 
 ## Edges
 

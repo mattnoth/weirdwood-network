@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Leo_Tyrell_(son_of_Moryn)
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,6 +17,10 @@ first_available:
   source: cite_ref
   pov: "Jaime VII"
 ---
+
+## Identity
+
+Leo Tyrell (son of Moryn) — child of Moryn Tyrell; sworn to House Tyrell; Novice. One of 4 Leo Tyrells — see the Leo Tyrell disambiguation entry.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Owen_(knight)"
 bucket_id: characters-other-o
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Owen (knight) is a character.human from the AWOIAF wiki.
+Owen (knight) — Ser. One of 2 characters named Owen. A large Valeman knight of the Vale who competed in the Gates of the Moon tourney for the Brotherhood of Winged Knights. (wiki:Owen_(knight))
 
 ## Edges
 

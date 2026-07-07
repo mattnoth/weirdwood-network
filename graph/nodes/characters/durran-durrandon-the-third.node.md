@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Durran_Durrandon_(The_Third)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Durran Durrandon (The Third) is a character from the AWOIAF wiki.
+Durran Durrandon (The Third) — Storm King. One of 11 characters named Durran Durrandon. Durran Durrandon, also known as Durran the Third, was a Storm King who attempted invasions of Dorne. (wiki:Durran_Durrandon_(The_Third))
 
 ## Edges
 

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Elaena_Targaryen_(daughter_of_Gaemon)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Elaena Targaryen (daughter of Gaemon) — child of Daenys Targaryen and Gaemon Targaryen (son of Aenar); married to Aegon Targaryen (son of Gaemon); sworn to House Targaryen; Lady of Dragonstone. One of 2 characters named Elaena Targaryen.
 
 ## Origins
 

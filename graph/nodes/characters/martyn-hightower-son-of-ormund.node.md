@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Martyn_Hightower_(son_of_Ormund)"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Martyn Hightower (son of Ormund) is a character.human from the AWOIAF wiki.
+Martyn Hightower (son of Ormund) — child of Ormund Hightower; sworn to House Hightower. One of 2 characters named Martyn Hightower.
 
 ## Edges
 

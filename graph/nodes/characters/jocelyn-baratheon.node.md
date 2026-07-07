@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jocelyn_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Jocelyn Baratheon (b. 54 AC) — child of Alyssa Velaryon and Rogar Baratheon; married to Aemon Targaryen (son of Jaehaerys I); sworn to House Baratheon.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Blood_(horse)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Blood (horse) is a character from the AWOIAF wiki.
+Blood (horse). One of 2 characters named Blood. A red stallion with a temper to match his master's, owned by Ramsay Bolton. (wiki:Blood_(horse))
 
 ## Edges
 

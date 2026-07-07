@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Manfred_Hightower_(Aegon's_Conquest)"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Manfred Hightower (Aegon's Conquest) is a event.war from the AWOIAF wiki.
+Manfred Hightower (Aegon's Conquest) — sworn to House Hightower; Beacon of the South. One of 2 Manfred Hightowers — see the Manfred Hightower disambiguation entry.
 
 ## Edges
 

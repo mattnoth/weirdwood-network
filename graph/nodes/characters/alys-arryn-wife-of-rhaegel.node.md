@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Arryn_(wife_of_Rhaegel)"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Alys Arryn (wife of Rhaegel) — married to Rhaegel Targaryen; sworn to House Arryn. One of 2 characters named Alys Arryn.
 
 ## Origins
 

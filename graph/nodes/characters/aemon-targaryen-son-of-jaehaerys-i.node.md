@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemon_Targaryen_(son_of_Jaehaerys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Aemon Targaryen (son of Jaehaerys I) (55–92 AC) — child of Jaehaerys I Targaryen and Alysanne Targaryen; married to Jocelyn Baratheon; sworn to House Targaryen; Prince. One of 3 Aemon Targaryens — see the Aemon Targaryen disambiguation entry.
 
 ## Origins
 

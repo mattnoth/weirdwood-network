@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Blackwood_(Aegon's_Conquest)"
 bucket_id: characters-house-blackwood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Blackwood (Aegon's Conquest) is a character.human from the AWOIAF wiki.
+Lord Blackwood (Aegon's Conquest) — sworn to House Blackwood; Lord of Raventree. One of 2 characters named Lord Blackwood.
 
 ## Edges
 

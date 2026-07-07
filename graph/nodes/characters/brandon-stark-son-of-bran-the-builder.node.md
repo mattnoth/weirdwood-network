@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(son_of_Bran_the_Builder)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Brandon Stark (son of Bran the Builder) — child of Brandon the Builder; sworn to House Stark. One of 15 characters named Brandon Stark.
 
 ## Origins
 

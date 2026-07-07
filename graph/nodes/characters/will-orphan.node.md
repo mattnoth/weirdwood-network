@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Will_(orphan)"
 bucket_id: characters-other-w-y
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Will (orphan) is a character.human from the AWOIAF wiki.
+Will (orphan). One of 3 characters named Will. An orphan boy taken in by the Heddles at the crossroads inn alongside Wat and other War of the Five Kings orphans. (wiki:Will_(orphan))
 
 ## Edges
 

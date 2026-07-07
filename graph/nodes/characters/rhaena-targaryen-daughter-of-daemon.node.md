@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Daemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rhaena Targaryen (daughter of Daemon) is a character from the AWOIAF wiki.
+Rhaena Targaryen (daughter of Daemon) (b. 116 AC) — child of Daemon Targaryen and Laena Velaryon; married to Corwyn Corbray and Garmund Hightower; sworn to House Targaryen; Princess. One of 3 Rhaena Targaryens — see the Rhaena Targaryen disambiguation entry.
 
 ## Edges
 

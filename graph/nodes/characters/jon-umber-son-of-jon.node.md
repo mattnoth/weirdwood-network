@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jon_Umber_(son_of_Jon)"
 bucket_id: characters-house-umber
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jon Umber (son of Jon) is a character.human from the AWOIAF wiki.
+Jon Umber (son of Jon) — child of Jon Umber; sworn to House Umber. One of 3 characters named Jon Umber.
 
 ## Edges
 

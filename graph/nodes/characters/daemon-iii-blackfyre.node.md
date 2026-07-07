@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_III_Blackfyre"
 bucket_id: characters-house-blackfyre
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daemon III Blackfyre is a character.human from the AWOIAF wiki.
+Daemon III Blackfyre (d. 236 AC) — child of Haegon I Blackfyre; sworn to House Blackfyre; King of the Andals, the Rhoynar, and the First Men. One of 4 characters named Daemon Blackfyre.
 
 ## Edges
 

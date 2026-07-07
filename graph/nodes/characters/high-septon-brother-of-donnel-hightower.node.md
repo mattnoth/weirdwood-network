@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/High_Septon_(brother_of_Donnel_Hightower)"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-High Septon (brother of Donnel Hightower) is a character.human from the AWOIAF wiki.
+High Septon (brother of Donnel Hightower) — sworn to House Hightower; Septon. One of 16 characters named High Septon.
 
 ## Edges
 

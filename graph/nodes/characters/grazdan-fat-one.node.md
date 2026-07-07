@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Grazdan_(fat_one)"
 bucket_id: characters-other-g
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Grazdan (fat one) is a character.human from the AWOIAF wiki.
+Grazdan (fat one) — sworn to Good Masters. One of 3 characters named Grazdan. Grazdan is a Good Master of Astapor. (wiki:Grazdan_(fat_one))
 
 ## Edges
 

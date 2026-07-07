@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Walton_Stark_(son_of_Brandon)
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Walton Stark (son of Brandon) (d. 50 AC) — child of Brandon Stark (father of Walton); sworn to House Stark; Lord of Winterfell. One of 2 characters named Walton Stark.
 
 ## Origins
 

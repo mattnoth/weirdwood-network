@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laena_Velaryon_(daughter_of_Alyn)"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Laena Velaryon (daughter of Alyn) is a character.human from the AWOIAF wiki.
+Laena Velaryon (daughter of Alyn) (b. 134 AC) — child of Alyn Velaryon and Baela Targaryen; sworn to House Velaryon. One of 2 characters named Laena Velaryon.
 
 ## Edges
 

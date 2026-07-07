@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Barth
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Bran II"
 ---
+
+## Identity
+
+Barth (d. 98 AC) — sworn to Faith of the Seven; Septon. One of 2 characters named Barth.
 
 ## Origins
 

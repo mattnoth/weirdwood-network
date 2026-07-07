@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maekar_Targaryen"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
+redirect_to: maekar-i-targaryen
 ---
 
 ## Identity
 
-Maekar Targaryen is a character from the AWOIAF wiki.
+Redirect — "Maekar Targaryen" refers to Maekar I Targaryen.
 
 ## Edges
-

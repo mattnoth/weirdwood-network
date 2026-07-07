@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daenaera_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daenaera Velaryon is a character.human from the AWOIAF wiki.
+Daenaera Velaryon (b. 127 AC) — child of Daeron Velaryon and Hazel Harte; married to Aegon III Targaryen; sworn to House Velaryon; Queen.
 
 ## Edges
 

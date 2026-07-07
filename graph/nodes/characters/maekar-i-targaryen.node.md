@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maekar_I_Targaryen"
 bucket_id: characters-other-l-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Maekar I Targaryen is a character.human from the AWOIAF wiki.
+Maekar I Targaryen (d. 233 AC) — child of Daeron II Targaryen and Myriah Martell; married to Dyanna Dayne; King of the Andals, the Rhoynar, and the First Men.
 
 ## Edges
 

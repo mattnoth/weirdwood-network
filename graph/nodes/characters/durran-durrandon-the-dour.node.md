@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Durran_Durrandon_(the_Dour)"
 bucket_id: characters-other-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Durran Durrandon (the Dour) is a character.human from the AWOIAF wiki.
+Durran Durrandon (the Dour) — Storm King. One of 11 characters named Durran Durrandon. Durran Durrandon, also known as Durran the Dour, was a Storm King who slew Lun the Last, King of the Giants. (wiki:Durran_Durrandon_(the_Dour))
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Kennet_(Flea_Bottom)"
 bucket_id: characters-house-baratheon-of-dragonstone
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Kennet (Flea Bottom) is a character.human from the AWOIAF wiki.
+Kennet (Flea Bottom) — sworn to House Baratheon of Dragonstone. One of 2 characters named Kennet. A man from Flea Bottom who fought for Stannis Baratheon at the Battle of the Blackwater, where he was killed on the bridge of ships. (wiki:Kennet_(Flea_Bottom))
 
 ## Edges
 

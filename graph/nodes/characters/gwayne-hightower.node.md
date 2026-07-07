@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gwayne_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gwayne Hightower is a character from the AWOIAF wiki.
+Gwayne Hightower (d. 130 AC) — child of Otto Hightower; sworn to House Hightower; Ser.
 
 ## Edges
 

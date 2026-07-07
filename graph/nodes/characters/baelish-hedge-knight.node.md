@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Baelish_(hedge_knight)"
 bucket_id: characters-house-baelish
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Baelish (hedge knight) is a character.human from the AWOIAF wiki.
+Baelish (hedge knight) — child of Baelish (sellsword); sworn to House Baelish; Ser. One of 2 characters named Baelish.
 
 ## Edges
 

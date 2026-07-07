@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mudge_(swineherd)"
 bucket_id: characters-house-osgrey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Mudge (swineherd) is a character.human from the AWOIAF wiki.
+Mudge (swineherd) — sworn to House Osgrey. One of 3 characters named Mudge. A stoop-backed old swineherd in service to House Osgrey during King Aerys I's reign, he led devotions in the sept and was a follower of the Faith of the Seven. (wiki:Mudge_(swineherd))
 
 ## Edges
 

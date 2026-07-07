@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Theon_III_Greyjoy"
 bucket_id: characters-other-s-t
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Theon III Greyjoy is a character.human from the AWOIAF wiki.
+Theon III Greyjoy — High King of the Iron Islands. One of 2 characters named Theon Greyjoy.
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Nettles"
 bucket_id: characters-other-n-o
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Nettles is a character.human from the AWOIAF wiki.
+Nettles — sworn to Blacks. One of 2 characters named Nettles. A dragonseed from Driftmark who tamed the wild dragon Sheepstealer during the Dance of the Dragons and fought valiantly for the Blacks before escaping with Daemon Targaryen. (wiki:Nettles)
 
 ## Edges
 

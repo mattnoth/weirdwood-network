@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Barth_(brewer)"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Bran II"
 ---
+
+## Identity
+
+Barth (brewer) — sworn to House Stark. One of 2 characters named Barth. The brewer at Winterfell, whose wife took Theon Greyjoy's virginity. (wiki:Barth_(brewer))
 
 ## Origins
 

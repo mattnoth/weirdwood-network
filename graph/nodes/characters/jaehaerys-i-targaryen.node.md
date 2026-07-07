@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jaehaerys I Targaryen is a character.human from the AWOIAF wiki.
+Jaehaerys I Targaryen (34–103 AC) — child of Aenys I Targaryen and Alyssa Velaryon; married to Alysanne Targaryen; Prince. One of 4 Jaehaerys Targaryens — see the Jaehaerys Targaryen disambiguation entry.
 
 ## Edges
 

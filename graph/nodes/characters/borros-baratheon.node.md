@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Borros_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Jon II"
 ---
+
+## Identity
+
+Borros Baratheon (d. 131 AC) — child of Boremund Baratheon; married to Elenda Baratheon; sworn to House Baratheon; Lord of Storm's End.
 
 ## Origins
 

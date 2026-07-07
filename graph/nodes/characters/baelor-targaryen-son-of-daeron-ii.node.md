@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baelor_Targaryen_(son_of_Daeron_II)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -17,6 +17,10 @@ first_available:
   source: cite_ref
   pov: "Arya II"
 ---
+
+## Identity
+
+Baelor Targaryen (son of Daeron II) (170–209 AC) — child of Daeron II Targaryen and Myriah Martell; married to Jena Dondarrion; sworn to House Targaryen; Prince. One of 2 Baelor Targaryens — see the Baelor Targaryen disambiguation entry.
 
 ## Origins
 

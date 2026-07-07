@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Caswell_(father_of_Lorent)"
 bucket_id: characters-house-caswell
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Caswell (father of Lorent) is a character.human from the AWOIAF wiki.
+Lord Caswell (father of Lorent) — sworn to House Caswell; Lord of Bitterbridge. One of 2 characters named Lord Caswell.
 
 ## Edges
 

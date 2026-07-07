@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hake"
 bucket_id: characters-other-g-h
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Hake is a character.human from the AWOIAF wiki.
+Hake (d. 299 AC) — sworn to Night's Watch. One of 2 characters named Hake.
 
 ## Edges
 

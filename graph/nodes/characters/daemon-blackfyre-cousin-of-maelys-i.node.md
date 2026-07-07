@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Blackfyre_(cousin_of_Maelys_I)"
 bucket_id: characters-house-blackfyre
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daemon Blackfyre (cousin of Maelys I) is a character.human from the AWOIAF wiki.
+Daemon Blackfyre (cousin of Maelys I) — sworn to House Blackfyre; Captain-general. One of 4 characters named Daemon Blackfyre.
 
 ## Edges
 

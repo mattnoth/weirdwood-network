@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Torrhen_Stark"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Torrhen Stark is a character.human from the AWOIAF wiki.
+Torrhen Stark — King in the North. One of 2 characters named Torrhen Stark. Torrhen Stark, known as the King Who Knelt, was a head of House Stark who reigned as King in the North until Aegon I Targaryen invaded Westeros with his dragons. (wiki:Torrhen_Stark)
 
 ## Edges
 

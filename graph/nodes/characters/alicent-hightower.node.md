@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alicent_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alicent Hightower is a character from the AWOIAF wiki.
+Alicent Hightower (88–133 AC) — child of Otto Hightower; married to Viserys I Targaryen; sworn to House Hightower; Queen.
 
 ## Edges
 

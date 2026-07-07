@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Martyn_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Martyn Hightower is a character.human from the AWOIAF wiki.
+Martyn Hightower — child of Manfred Hightower (son of Addam); sworn to House Hightower; Beacon of the South. One of 2 characters named Martyn Hightower.
 
 ## Edges
 

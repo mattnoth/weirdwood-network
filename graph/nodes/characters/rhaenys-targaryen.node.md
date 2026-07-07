@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: Theon I
 ---
+
+## Identity
+
+Rhaenys Targaryen (d. 10 AC) — child of Aerion Targaryen (son of Daemion) and Valaena Velaryon; married to Aegon I Targaryen; sworn to House Targaryen. One of 3 characters named Rhaenys Targaryen.
 
 ## Origins
 

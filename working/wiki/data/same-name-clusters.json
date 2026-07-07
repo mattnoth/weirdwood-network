@@ -1,0 +1,5907 @@
+{
+  "aegon frey": {
+    "members": {
+      "aegon-frey-son-of-aenys": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "aenys-frey",
+          "tyana-wylde"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "aegon-frey-son-of-stevron": {
+        "allegiance": "house-frey",
+        "born": 249,
+        "died": 299,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "stevron-frey",
+          "jeyne-lydden"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "aegon-frey"
+    ]
+  },
+  "aegon targaryen": {
+    "members": {
+      "aegon-i-targaryen": {
+        "allegiance": null,
+        "born": -27,
+        "died": 37,
+        "era": "targaryen-conquest",
+        "key_title": "lord-of-dragonstone",
+        "parents": [
+          "valaena-velaryon",
+          "aerion-targaryen-son-of-daemion"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "rhaenys-targaryen",
+          "visenya-targaryen"
+        ]
+      },
+      "aegon-ii-targaryen": {
+        "allegiance": null,
+        "born": 107,
+        "died": 131,
+        "era": "dance-of-the-dragons",
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "viserys-i-targaryen",
+          "alicent-hightower"
+        ],
+        "regnal": "II",
+        "spouse": [
+          "helaena-targaryen"
+        ]
+      },
+      "aegon-iii-targaryen": {
+        "allegiance": null,
+        "born": 120,
+        "died": 157,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "daemon-targaryen",
+          "rhaenyra-targaryen"
+        ],
+        "regnal": "III",
+        "spouse": [
+          "daenaera-velaryon",
+          "jaehaera-targaryen"
+        ]
+      },
+      "aegon-iv-targaryen": {
+        "allegiance": null,
+        "born": 135,
+        "died": 184,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "viserys-ii-targaryen",
+          "larra-rogare"
+        ],
+        "regnal": "IV",
+        "spouse": [
+          "naerys-targaryen"
+        ]
+      },
+      "aegon-targaryen-son-of-aenys-i": {
+        "allegiance": "house-targaryen",
+        "born": 26,
+        "died": 43,
+        "era": null,
+        "key_title": "prince-of-dragonstone",
+        "parents": [
+          "aenys-i-targaryen",
+          "alyssa-velaryon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "rhaena-targaryen-daughter-of-aenys-i"
+        ]
+      },
+      "aegon-targaryen-son-of-aerys-ii": {
+        "allegiance": "house-targaryen",
+        "born": 272,
+        "died": 273,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aerys-ii-targaryen",
+          "rhaella-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "aegon-targaryen-son-of-baelon": {
+        "allegiance": "house-targaryen",
+        "born": 84,
+        "died": 85,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "alyssa-targaryen",
+          "baelon-targaryen-son-of-jaehaerys-i"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "aegon-targaryen-son-of-gaemon": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-dragonstone",
+        "parents": [
+          "daenys-targaryen",
+          "gaemon-targaryen-son-of-aenar"
+        ],
+        "regnal": null,
+        "spouse": [
+          "elaena-targaryen-daughter-of-gaemon"
+        ]
+      },
+      "aegon-targaryen-son-of-jaehaerys-i": {
+        "allegiance": "house-targaryen",
+        "born": 51,
+        "died": 51,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "jaehaerys-i-targaryen",
+          "alysanne-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "aegon-targaryen-son-of-rhaegar": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": 283,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "rhaegar-targaryen",
+          "elia-martell"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "aegon-targaryen-young-griff": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "prince",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "aegon-v-targaryen": {
+        "allegiance": null,
+        "born": 200,
+        "died": 259,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "maekar-i-targaryen",
+          "dyanna-dayne"
+        ],
+        "regnal": "V",
+        "spouse": [
+          "betha-blackwood"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "aegon-targaryen"
+    ]
+  },
+  "aemon targaryen": {
+    "members": {
+      "aemon-targaryen-son-of-jaehaerys-i": {
+        "allegiance": "house-targaryen",
+        "born": 55,
+        "died": 92,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "jaehaerys-i-targaryen",
+          "alysanne-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "jocelyn-baratheon"
+        ]
+      },
+      "aemon-targaryen-son-of-maekar-i": {
+        "allegiance": "house-targaryen",
+        "born": 198,
+        "died": 300,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "maekar-i-targaryen",
+          "dyanna-dayne"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "aemon-targaryen-son-of-viserys-ii": {
+        "allegiance": "house-targaryen",
+        "born": 136,
+        "died": null,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "viserys-ii-targaryen",
+          "larra-rogare"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "aemon-targaryen"
+    ]
+  },
+  "aenys targaryen": {
+    "members": {
+      "aenys-i-targaryen": {
+        "allegiance": null,
+        "born": 7,
+        "died": 42,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aegon-i-targaryen",
+          "rhaenys-targaryen"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "alyssa-velaryon"
+        ]
+      }
+    },
+    "redirect_nodes": [
+      "aenys-targaryen"
+    ],
+    "trap_nodes": []
+  },
+  "aerion targaryen": {
+    "members": {
+      "aerion-targaryen": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": 232,
+        "era": null,
+        "key_title": "prince-of-dragonstone",
+        "parents": [
+          "maekar-i-targaryen",
+          "dyanna-dayne"
+        ],
+        "regnal": null,
+        "spouse": [
+          "daenora-targaryen"
+        ]
+      },
+      "aerion-targaryen-son-of-daemion": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-dragonstone",
+        "parents": [
+          "daemion-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "valaena-velaryon"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "aerys targaryen": {
+    "members": {
+      "aerys-i-targaryen": {
+        "allegiance": null,
+        "born": null,
+        "died": 221,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "daeron-ii-targaryen",
+          "myriah-martell"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "aelinor-penrose"
+        ]
+      },
+      "aerys-ii-targaryen": {
+        "allegiance": null,
+        "born": 244,
+        "died": 283,
+        "era": null,
+        "key_title": "prince-of-dragonstone",
+        "parents": [
+          "jaehaerys-ii-targaryen",
+          "shaera-targaryen"
+        ],
+        "regnal": "II",
+        "spouse": [
+          "rhaella-targaryen"
+        ]
+      },
+      "aerys-targaryen-son-of-aegon": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-dragonstone",
+        "parents": [
+          "aegon-targaryen-son-of-gaemon",
+          "elaena-targaryen-daughter-of-gaemon"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "alys arryn": {
+    "members": {
+      "alys-arryn": {
+        "allegiance": "house-arryn",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "jasper-arryn"
+        ],
+        "regnal": null,
+        "spouse": [
+          "elys-waynwood"
+        ]
+      },
+      "alys-arryn-wife-of-rhaegel": {
+        "allegiance": "house-arryn",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "rhaegel-targaryen"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "alys karstark": {
+    "members": {
+      "alys-karstark": {
+        "allegiance": "house-karstark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "rickard-karstark"
+        ],
+        "regnal": null,
+        "spouse": [
+          "sigorn"
+        ]
+      },
+      "alys-karstark-wife-of-brandon": {
+        "allegiance": "house-karstark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "brandon-stark-son-of-cregan"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "alysanne": {
+    "members": {
+      "alysanne-daughter-of-aegon-iv": {
+        "allegiance": "faith-of-the-seven",
+        "born": 155,
+        "died": null,
+        "era": null,
+        "key_title": "septa",
+        "parents": [
+          "aegon-iv-targaryen",
+          "megette"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "alysanne"
+    ]
+  },
+  "arlan durrandon": {
+    "members": {
+      "arlan-i-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "arlan-iii-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": "III",
+        "spouse": [
+          "shiera-blackwood"
+        ]
+      },
+      "arlan-v-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "arrec-durrandon"
+        ],
+        "regnal": "V",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "baelish": {
+    "members": {
+      "baelish-hedge-knight": {
+        "allegiance": "house-baelish",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "baelish-sellsword"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "baelish-sellsword": {
+        "allegiance": "house-corbray",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [
+      "baelish"
+    ],
+    "trap_nodes": []
+  },
+  "baelon targaryen": {
+    "members": {
+      "baelon-targaryen-son-of-aerys": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-dragonstone",
+        "parents": [
+          "aerys-targaryen-son-of-aegon"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "baelon-targaryen-son-of-jaehaerys-i": {
+        "allegiance": "house-targaryen",
+        "born": 57,
+        "died": 101,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "jaehaerys-i-targaryen",
+          "alysanne-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alyssa-targaryen"
+        ]
+      },
+      "baelon-targaryen-son-of-viserys-i": {
+        "allegiance": "house-targaryen",
+        "born": 105,
+        "died": 105,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "viserys-i-targaryen",
+          "aemma-arryn"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "baelon-targaryen"
+    ]
+  },
+  "baelor targaryen": {
+    "members": {
+      "baelor-i-targaryen": {
+        "allegiance": null,
+        "born": 144,
+        "died": 171,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "aegon-iii-targaryen",
+          "daenaera-velaryon"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "daena-targaryen"
+        ]
+      },
+      "baelor-targaryen-son-of-daeron-ii": {
+        "allegiance": "house-targaryen",
+        "born": 170,
+        "died": 209,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "daeron-ii-targaryen",
+          "myriah-martell"
+        ],
+        "regnal": null,
+        "spouse": [
+          "jena-dondarrion"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "baelor-targaryen"
+    ]
+  },
+  "balerion": {
+    "members": {
+      "balerion": {
+        "allegiance": null,
+        "born": null,
+        "died": 94,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "balerion-cat": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "balon greyjoy": {
+    "members": {
+      "balon-greyjoy": {
+        "allegiance": null,
+        "born": null,
+        "died": 299,
+        "era": null,
+        "key_title": "lord-of-the-iron-islands",
+        "parents": [
+          "quellon-greyjoy",
+          "lady-sunderly-wife-of-quellon-greyjoy"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alannys-harlaw"
+        ]
+      },
+      "balon-v-greyjoy": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-king-of-the-iron-islands",
+        "parents": [],
+        "regnal": "V",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "barth": {
+    "members": {
+      "barth": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": 98,
+        "era": null,
+        "key_title": "septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "barth-brewer": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "benedict justman": {
+    "members": {
+      "benedict-i-justman": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "benedict-ii-justman": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-trident",
+        "parents": [
+          "benedict-i-justman"
+        ],
+        "regnal": "II",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "benjen stark": {
+    "members": {
+      "benjen-stark": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "first-ranger",
+        "parents": [
+          "rickard-stark",
+          "lyarra-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "benjen-stark-bitter": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "benjen-stark-lord": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "lysa-locke"
+        ]
+      },
+      "benjen-stark-son-of-artos": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "artos-stark",
+          "lysara-karstark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "benjen-stark-son-of-bennard": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "bennard-stark",
+          "margaret-karstark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "benjen-stark-sweet": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "bessa": {
+    "members": {
+      "bessa-hags-mire": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "bessa-winterfell": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "bessa"
+    ]
+  },
+  "blood": {
+    "members": {
+      "blood-butcher": {
+        "allegiance": "city-watch-of-kings-landing",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "serjeant",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "blood-horse": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "boy": {
+    "members": {
+      "boy": {
+        "allegiance": "brotherhood-without-banners",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "sharna",
+          "husband"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "boy-thrall": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "brandon norrey": {
+    "members": {
+      "brandon-norrey": {
+        "allegiance": "house-norrey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "the-norrey",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-norrey-son-of-brandon": {
+        "allegiance": "house-norrey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "brandon-norrey"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "brandon stark": {
+    "members": {
+      "brandon-ix-stark": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": "IX",
+        "spouse": []
+      },
+      "brandon-stark": {
+        "allegiance": "house-stark",
+        "born": 262,
+        "died": 282,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "rickard-stark",
+          "lyarra-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-bad": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-breaker": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-winter",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-burner": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [
+          "brandon-stark-shipwright"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-father-of-walton": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": 49,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-ice-eyes": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [
+          "edrick-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-shipwright": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-son-of-artos": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "artos-stark",
+          "lysara-karstark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-son-of-bennard": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "bennard-stark",
+          "margaret-karstark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-son-of-bran-the-builder": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "brandon-the-builder"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-son-of-cregan": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [
+          "cregan-stark",
+          "lynara-stark"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alys-karstark-wife-of-brandon"
+        ]
+      },
+      "brandon-stark-son-of-willam": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "willam-stark",
+          "lyanne-glover"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-the-boisterous": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "brandon-stark-the-daughterless": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "cerelle lannister": {
+    "members": {
+      "cerelle-lannister-daughter-of-jason": {
+        "allegiance": "house-lannister",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "jason-lannister",
+          "johanna-lannister"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "cerelle-lannister-daughter-of-tybolt": {
+        "allegiance": "house-lannister",
+        "born": 209,
+        "died": 213,
+        "era": null,
+        "key_title": "lady-of-casterly-rock",
+        "parents": [
+          "tybolt-lannister",
+          "teora-kyndall"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "clarence crabb": {
+    "members": {
+      "clarence-crabb": {
+        "allegiance": "house-crabb",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "clarence-crabb-short": {
+        "allegiance": "house-crabb",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "clegane": {
+    "members": {
+      "clegane-father-of-gregor-and-sandor": {
+        "allegiance": "house-clegane",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "clegane-founder"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "clegane-founder": {
+        "allegiance": "house-clegane",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "kennelmaster",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [
+      "clegane"
+    ],
+    "trap_nodes": []
+  },
+  "cleon": {
+    "members": {
+      "cleon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-astapor",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [
+      "cleon-ii"
+    ],
+    "trap_nodes": []
+  },
+  "corlys velaryon": {
+    "members": {
+      "corlys-velaryon": {
+        "allegiance": "house-velaryon",
+        "born": 53,
+        "died": 132,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "corwyn-velaryon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "rhaenys-targaryen-daughter-of-aemon"
+        ]
+      },
+      "corlys-velaryon-son-of-daemon": {
+        "allegiance": "house-velaryon",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "daemon-velaryon"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "corwyn corbray": {
+    "members": {
+      "corwyn-corbray": {
+        "allegiance": "house-corbray",
+        "born": 100,
+        "died": 135,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "corbray"
+        ],
+        "regnal": null,
+        "spouse": [
+          "rhaena-targaryen-daughter-of-daemon"
+        ]
+      },
+      "corwyn-corbray-lord": {
+        "allegiance": "house-corbray",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "jon-brightstone"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "daella targaryen": {
+    "members": {
+      "daella-targaryen-daughter-of-jaehaerys-i": {
+        "allegiance": "house-targaryen",
+        "born": 64,
+        "died": 82,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "jaehaerys-i-targaryen",
+          "alysanne-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "rodrik-arryn"
+        ]
+      },
+      "daella-targaryen-daughter-of-maekar-i": {
+        "allegiance": "house-targaryen",
+        "born": 199,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "maekar-i-targaryen",
+          "dyanna-dayne"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "daella-targaryen"
+    ]
+  },
+  "daemon blackfyre": {
+    "members": {
+      "daemon-blackfyre-cousin-of-maelys-i": {
+        "allegiance": "house-blackfyre",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "captain-general",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "daemon-i-blackfyre": {
+        "allegiance": "house-blackfyre",
+        "born": 170,
+        "died": 196,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "aegon-iv-targaryen",
+          "daena-targaryen"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "rohanne-of-tyrosh"
+        ]
+      },
+      "daemon-ii-blackfyre": {
+        "allegiance": "house-blackfyre",
+        "born": 189,
+        "died": null,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "daemon-i-blackfyre",
+          "rohanne-of-tyrosh"
+        ],
+        "regnal": "II",
+        "spouse": []
+      },
+      "daemon-iii-blackfyre": {
+        "allegiance": "house-blackfyre",
+        "born": null,
+        "died": 236,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "haegon-i-blackfyre"
+        ],
+        "regnal": "III",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "daemon velaryon": {
+    "members": {
+      "daemon-velaryon": {
+        "allegiance": "house-velaryon",
+        "born": null,
+        "died": -2,
+        "era": "targaryen-conquest",
+        "key_title": "lord-of-the-tides",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "daemon-velaryon-son-of-aethan": {
+        "allegiance": "house-velaryon",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-tides",
+        "parents": [
+          "aethan-velaryon",
+          "alarra-massey"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "daenerys targaryen": {
+    "members": {
+      "daenerys-targaryen": {
+        "allegiance": null,
+        "born": 284,
+        "died": null,
+        "era": null,
+        "key_title": "princess-of-dragonstone",
+        "parents": [
+          "aerys-ii-targaryen",
+          "rhaella-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "daenerys-targaryen-daughter-of-aegon-iv": {
+        "allegiance": "house-targaryen",
+        "born": 172,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "aegon-iv-targaryen",
+          "naerys-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "maron-martell"
+        ]
+      },
+      "daenerys-targaryen-daughter-of-jaehaerys-i": {
+        "allegiance": "house-targaryen",
+        "born": 53,
+        "died": 60,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "jaehaerys-i-targaryen",
+          "alysanne-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "daeron targaryen": {
+    "members": {
+      "daeron-i-targaryen": {
+        "allegiance": null,
+        "born": 143,
+        "died": 161,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "aegon-iii-targaryen",
+          "daenaera-velaryon"
+        ],
+        "regnal": "I",
+        "spouse": []
+      },
+      "daeron-ii-targaryen": {
+        "allegiance": null,
+        "born": 153,
+        "died": 209,
+        "era": null,
+        "key_title": "prince-of-dragonstone",
+        "parents": [
+          "naerys-targaryen"
+        ],
+        "regnal": "II",
+        "spouse": [
+          "myriah-martell"
+        ]
+      },
+      "daeron-targaryen-son-of-aegon-v": {
+        "allegiance": "house-targaryen",
+        "born": 228,
+        "died": 251,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aegon-v-targaryen",
+          "betha-blackwood"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "daeron-targaryen-son-of-aerys-ii": {
+        "allegiance": "house-targaryen",
+        "born": 269,
+        "died": null,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aerys-ii-targaryen",
+          "rhaella-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "daeron-targaryen-son-of-maekar-i": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "maekar-i-targaryen",
+          "dyanna-dayne"
+        ],
+        "regnal": null,
+        "spouse": [
+          "kiera-of-tyrosh"
+        ]
+      },
+      "daeron-targaryen-son-of-viserys-i": {
+        "allegiance": "house-targaryen",
+        "born": 114,
+        "died": 130,
+        "era": "dance-of-the-dragons",
+        "key_title": "prince",
+        "parents": [
+          "viserys-i-targaryen",
+          "alicent-hightower"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "daeron-targaryen"
+    ]
+  },
+  "dagon greyjoy": {
+    "members": {
+      "dagon-greyjoy": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-reaper-of-pyke",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "dagon-greyjoy-drunkard": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "dalla": {
+    "members": {
+      "dalla": {
+        "allegiance": "mance-rayder",
+        "born": null,
+        "died": 300,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "mance-rayder"
+        ]
+      },
+      "dalla-dragonstone": {
+        "allegiance": "house-baratheon-of-dragonstone",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "damon lannister": {
+    "members": {
+      "damon-lannister-son-of-jason": {
+        "allegiance": "house-lannister",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "alys-stackspear",
+          "jason-lannister-son-of-gerold"
+        ],
+        "regnal": null,
+        "spouse": [
+          "ella-lannister"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "damon-lannister"
+    ]
+  },
+  "desmond": {
+    "members": {
+      "desmond": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": 298,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "desmond-grand-maester": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": 44,
+        "era": null,
+        "key_title": "grand-maester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "durran durrandon": {
+    "members": {
+      "durran-durrandon-bronze-axe": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "durran-durrandon-the-dour": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "durran-durrandon-the-fair": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "durran-durrandon-the-ravenfriend": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "durran-durrandon-the-third": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "durran-durrandon-the-young": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "durran-ii-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "durran-godsgrief"
+        ],
+        "regnal": "II",
+        "spouse": []
+      },
+      "durran-x-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": "X",
+        "spouse": []
+      },
+      "durran-xi-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "monfryd-i-durrandon"
+        ],
+        "regnal": "XI",
+        "spouse": []
+      },
+      "durran-xxi-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": "XXI",
+        "spouse": []
+      },
+      "durran-xxiv-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "maldon-iv-durrandon"
+        ],
+        "regnal": "XXIV",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "eddison peake": {
+    "members": {
+      "eddison-peake-the-elder": {
+        "allegiance": "house-peake",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-starpike",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "eddison-peake-the-younger": {
+        "allegiance": "house-peake",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-starpike",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "edmure tully": {
+    "members": {
+      "edmure-tully": {
+        "allegiance": "house-tully",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "hoster-tully",
+          "minisa-tully"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "edmure-tully-father-of-axel": {
+        "allegiance": "house-tully",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "edric stark": {
+    "members": {
+      "edric-stark": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [
+          "alaric-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "edric-stark-son-of-cregan": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "cregan-stark",
+          "lynara-stark"
+        ],
+        "regnal": null,
+        "spouse": [
+          "serena-stark"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "elaena targaryen": {
+    "members": {
+      "elaena-targaryen": {
+        "allegiance": "house-targaryen",
+        "born": 150,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "aegon-iii-targaryen",
+          "daenaera-velaryon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "ossifer-plumm",
+          "ronnel-penrose",
+          "michael-manwoody"
+        ]
+      },
+      "elaena-targaryen-daughter-of-gaemon": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lady-of-dragonstone",
+        "parents": [
+          "daenys-targaryen",
+          "gaemon-targaryen-son-of-aenar"
+        ],
+        "regnal": null,
+        "spouse": [
+          "aegon-targaryen-son-of-gaemon"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "erich durrandon": {
+    "members": {
+      "erich-durrandon-kin-killer": {
+        "allegiance": "house-durrandon",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "erich-durrandon-the-sailmaker": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "durran-durrandon-the-fair"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "erich-vii-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [],
+        "regnal": "VII",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [
+      "erich-iii-durrandon"
+    ],
+    "trap_nodes": []
+  },
+  "eustace": {
+    "members": {
+      "eustace-braavos": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "eustace-dance-of-the-dragons": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "gaemon targaryen": {
+    "members": {
+      "gaemon-targaryen-son-of-aenar": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-dragonstone",
+        "parents": [
+          "aenar-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "daenys-targaryen"
+        ]
+      },
+      "gaemon-targaryen-son-of-jaehaerys-i": {
+        "allegiance": "house-targaryen",
+        "born": 73,
+        "died": 73,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "jaehaerys-i-targaryen",
+          "alysanne-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "gaemon-targaryen"
+    ]
+  },
+  "garland gardener": {
+    "members": {
+      "garland-ii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      },
+      "garland-vi-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "VI",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "garth gardener": {
+    "members": {
+      "garth-iii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      },
+      "garth-ix-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "IX",
+        "spouse": []
+      },
+      "garth-v-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "V",
+        "spouse": []
+      },
+      "garth-vi-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "VI",
+        "spouse": []
+      },
+      "garth-vii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "VII",
+        "spouse": []
+      },
+      "garth-x-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "X",
+        "spouse": []
+      },
+      "garth-xi-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [
+          "mern-vi-gardener"
+        ],
+        "regnal": "XI",
+        "spouse": []
+      },
+      "garth-xii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "XII",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "gerold grafton": {
+    "members": {
+      "gerold-grafton": {
+        "allegiance": "house-grafton",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-gulltown",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "gerold-grafton-king": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "gerold lannister": {
+    "members": {
+      "gerold-ii-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [
+          "tyrion-iii-lannister"
+        ],
+        "regnal": "II",
+        "spouse": []
+      },
+      "gerold-iii-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      },
+      "gerold-lannister": {
+        "allegiance": "house-lannister",
+        "born": null,
+        "died": 244,
+        "era": null,
+        "key_title": "regent",
+        "parents": [
+          "cerissa-brax",
+          "damon-lannister"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alysanne-farman",
+          "rohanne-webber"
+        ]
+      },
+      "gerold-lannister-king": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "grazdan": {
+    "members": {
+      "grazdan-fat-one": {
+        "allegiance": "good-masters",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "grazdan-spiked-beard": {
+        "allegiance": "good-masters",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "grazdan-tall-one": {
+        "allegiance": "good-masters",
+        "born": null,
+        "died": 299,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "gwayne gardener": {
+    "members": {
+      "gwayne-gardener-son-of-perceon-iii": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [
+          "perceon-iii-gardener"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "gwayne-i-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "gwayne-iii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      },
+      "gwayne-iv-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "IV",
+        "spouse": []
+      },
+      "gwayne-v-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [
+          "merle-i-gardener"
+        ],
+        "regnal": "V",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "gyles gardener": {
+    "members": {
+      "gyles-i-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "gyles-ii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      },
+      "gyles-iii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "hake": {
+    "members": {
+      "hake": {
+        "allegiance": "nights-watch",
+        "born": null,
+        "died": 299,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "hake-archmaester": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "archmaester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "hareth": {
+    "members": {
+      "hareth-grand-maester": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "grand-maester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "hareth-moles-town": {
+        "allegiance": "nights-watch",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "harmund hoare": {
+    "members": {
+      "harmund-i-hoare": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-iron-islands",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "harmund-ii-hoare": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-iron-islands",
+        "parents": [
+          "harmund-i-hoare"
+        ],
+        "regnal": "II",
+        "spouse": [
+          "lelia-lannister"
+        ]
+      },
+      "harmund-iii-hoare": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-iron-islands",
+        "parents": [
+          "harmund-ii-hoare",
+          "lelia-lannister"
+        ],
+        "regnal": "III",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "henly": {
+    "members": {
+      "henly-ashford": {
+        "allegiance": "house-ashford",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "henly-maester": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "hero": {
+    "members": {
+      "hero": {
+        "allegiance": "unsullied",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "hero-dog": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "high septon": {
+    "members": {
+      "high-septon-aegon-i": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-aegon-iii": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-aegon-v": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-aegons-conquest": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": 11,
+        "era": "targaryen-conquest",
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-aenys-i": {
+        "allegiance": "faith-of-the-seven",
+        "born": -9,
+        "died": 43,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-aerys-ii": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-baelor-i": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-brother-of-donnel-hightower": {
+        "allegiance": "house-hightower",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-child": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-daeron-ii": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-dance-of-the-dragons": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-jaehaerys-i": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-maekar-i": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-regency-of-aegon-iii": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-stonemason": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "high-septon-tyrions": {
+        "allegiance": "faith-of-the-seven",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-septon",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "hugo vance": {
+    "members": {
+      "hugo-vance": {
+        "allegiance": "house-vance-of-atranta",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "norbert-vance"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "hugo-vance-lord": {
+        "allegiance": "house-vance-of-wayfarers-rest",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-wayfarers-rest",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "humfrey teague": {
+    "members": {
+      "humfrey-i-teague": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rivers-and-the-hills",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "humfrey-ii-teague": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rivers-and-the-hills",
+        "parents": [
+          "humfrey-i-teague"
+        ],
+        "regnal": "II",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "jaehaerys targaryen": {
+    "members": {
+      "jaehaerys-i-targaryen": {
+        "allegiance": null,
+        "born": 34,
+        "died": 103,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aenys-i-targaryen",
+          "alyssa-velaryon"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "alysanne-targaryen"
+        ]
+      },
+      "jaehaerys-ii-targaryen": {
+        "allegiance": null,
+        "born": 225,
+        "died": 262,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "aegon-v-targaryen",
+          "betha-blackwood"
+        ],
+        "regnal": "II",
+        "spouse": [
+          "shaera-targaryen"
+        ]
+      },
+      "jaehaerys-targaryen-son-of-aegon-ii": {
+        "allegiance": "house-targaryen",
+        "born": 123,
+        "died": 129,
+        "era": "dance-of-the-dragons",
+        "key_title": "prince",
+        "parents": [
+          "aegon-ii-targaryen",
+          "helaena-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "jaehaerys-targaryen-son-of-aerys-ii": {
+        "allegiance": "house-targaryen",
+        "born": 274,
+        "died": 274,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aerys-ii-targaryen",
+          "rhaella-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "jaehaerys-targaryen"
+    ]
+  },
+  "jason lannister": {
+    "members": {
+      "jason-lannister": {
+        "allegiance": "house-lannister",
+        "born": null,
+        "died": 130,
+        "era": "dance-of-the-dragons",
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "johanna-lannister"
+        ]
+      },
+      "jason-lannister-son-of-gerold": {
+        "allegiance": "house-lannister",
+        "born": 229,
+        "died": 260,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "gerold-lannister",
+          "rohanne-webber"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alys-stackspear",
+          "marla-prester"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "jeyne westerling": {
+    "members": {
+      "jeyne-westerling": {
+        "allegiance": "house-westerling",
+        "born": 283,
+        "died": null,
+        "era": null,
+        "key_title": "queen",
+        "parents": [
+          "gawen-westerling",
+          "sybell-spicer"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "jeyne-westerling-wife-of-maegor-i": {
+        "allegiance": "house-westerling",
+        "born": null,
+        "died": 48,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "alyn-tarbeck",
+          "maegor-i-targaryen"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "jez": {
+    "members": {
+      "jez": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "jez-serving-girl": {
+        "allegiance": "house-bolton",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "jon umber": {
+    "members": {
+      "jon-umber": {
+        "allegiance": "house-umber",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-last-hearth",
+        "parents": [
+          "hoarfrost-umber"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "jon-umber-husband-of-serena": {
+        "allegiance": "house-umber",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-last-hearth",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "serena-stark"
+        ]
+      },
+      "jon-umber-son-of-jon": {
+        "allegiance": "house-umber",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "jon-umber"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "joseth": {
+    "members": {
+      "joseth": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": 299,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "joseth-maester": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "maester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "justin massey": {
+    "members": {
+      "justin-massey": {
+        "allegiance": "house-massey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "justin-massey-milk-eye": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "kennet": {
+    "members": {
+      "kennet-flea-bottom": {
+        "allegiance": "house-baratheon-of-dragonstone",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "kennet-maester": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "maester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "laena velaryon": {
+    "members": {
+      "laena-velaryon": {
+        "allegiance": "house-velaryon",
+        "born": 92,
+        "died": 120,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "corlys-velaryon",
+          "rhaenys-targaryen-daughter-of-aemon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "daemon-targaryen"
+        ]
+      },
+      "laena-velaryon-daughter-of-alyn": {
+        "allegiance": "house-velaryon",
+        "born": 134,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "alyn-velaryon",
+          "baela-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lancel lannister": {
+    "members": {
+      "lancel-i-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "lancel-iv-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "IV",
+        "spouse": []
+      },
+      "lancel-lannister": {
+        "allegiance": "house-lannister-of-darry",
+        "born": 282,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "dorna-swyft",
+          "kevan-lannister"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "lancel-v-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "V",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lanna": {
+    "members": {
+      "lanna-happy-port": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "sailors-wife"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "lanna-peach": {
+        "allegiance": "peach",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "lanna"
+    ]
+  },
+  "lem": {
+    "members": {
+      "lem": {
+        "allegiance": "brotherhood-without-banners",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lem-standfast": {
+        "allegiance": "house-osgrey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "leo tyrell": {
+    "members": {
+      "leo-tyrell-longthorn": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-highgarden",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "leo-tyrell-son-of-gareth": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-steward",
+        "parents": [
+          "gareth-tyrell"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "leo-tyrell-son-of-moryn": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "novice",
+        "parents": [
+          "moryn-tyrell"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "leo-tyrell-son-of-victor": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "victor-tyrell"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alys-beesbury"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "leo-tyrell"
+    ]
+  },
+  "leygood": {
+    "members": {
+      "leygood-father-of-lucas": {
+        "allegiance": "house-leygood",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [
+      "leygood"
+    ],
+    "trap_nodes": []
+  },
+  "lord baelish": {
+    "members": {
+      "lord-baelish-father-of-petyr": {
+        "allegiance": "house-baelish",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord",
+        "parents": [
+          "baelish-hedge-knight"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alayne-baelish"
+        ]
+      }
+    },
+    "redirect_nodes": [
+      "lord-baelish"
+    ],
+    "trap_nodes": []
+  },
+  "lord blacktyde": {
+    "members": {
+      "lord-blacktyde": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-blacktyde-father-of-baelor": {
+        "allegiance": "house-blacktyde",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-blacktyde",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord blackwood": {
+    "members": {
+      "lord-blackwood-aegons-conquest": {
+        "allegiance": "house-blackwood",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-raventree",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-blackwood-aerys-ii": {
+        "allegiance": "house-blackwood",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-raventree-hall",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord bracken": {
+    "members": {
+      "lord-bracken-aerys-ii": {
+        "allegiance": "house-bracken",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-stone-hedge",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-bracken-father-of-otho": {
+        "allegiance": "house-bracken",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-stone-hedge",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-bracken-hand-of-the-king": {
+        "allegiance": "house-bracken",
+        "born": null,
+        "died": 178,
+        "era": null,
+        "key_title": "lord-of-the-stone-hedge",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord butterwell": {
+    "members": {
+      "lord-butterwell": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "aegon-iv-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-butterwell-dance": {
+        "allegiance": "house-butterwell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-butterwell-grandfather-of-ambrose": {
+        "allegiance": "house-butterwell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-whitewalls",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord caswell": {
+    "members": {
+      "lord-caswell-dance": {
+        "allegiance": "house-caswell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-bitterbridge",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "lady-caswell"
+        ]
+      },
+      "lord-caswell-father-of-lorent": {
+        "allegiance": "house-caswell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-bitterbridge",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord costayne": {
+    "members": {
+      "lord-costayne-aerys-i": {
+        "allegiance": "house-costayne",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-three-towers",
+        "parents": [
+          "costayne"
+        ],
+        "regnal": null,
+        "spouse": [
+          "ambrose-butterwell"
+        ]
+      },
+      "lord-costayne-daeron-ii": {
+        "allegiance": "house-costayne",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-three-towers",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord darry": {
+    "members": {
+      "lord-darry-dance": {
+        "allegiance": "house-darry",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-darry",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-darry-father-of-raymun": {
+        "allegiance": "house-darry",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-darry",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord dondarrion": {
+    "members": {
+      "lord-dondarrion-82-ac": {
+        "allegiance": "house-dondarrion",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-blackhaven",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-dondarrion-father-of-manfred": {
+        "allegiance": "house-dondarrion",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-blackhaven",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-dondarrion-father-of-simon": {
+        "allegiance": "house-dondarrion",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-blackhaven",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord hayford": {
+    "members": {
+      "lord-hayford": {
+        "allegiance": "house-hayford",
+        "born": null,
+        "died": 196,
+        "era": null,
+        "key_title": "lord-of-hayford",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-hayford-dance": {
+        "allegiance": "house-hayford",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-hayford",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord staunton": {
+    "members": {
+      "lord-staunton": {
+        "allegiance": "house-staunton",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "lady-staunton"
+        ]
+      },
+      "lord-staunton-father-of-cassella": {
+        "allegiance": "house-staunton",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lord tully": {
+    "members": {
+      "lord-tully-father-of-hoster": {
+        "allegiance": "house-tully",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-riverrun",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lord-tully-successor-of-medgar": {
+        "allegiance": "house-tully",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-riverrun",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lorent tyrell": {
+    "members": {
+      "lorent-tyrell": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "alys-beesbury",
+          "leo-tyrell-son-of-victor"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "lorent-tyrell-steward": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-steward",
+        "parents": [
+          "robert-tyrell"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "loreon lannister": {
+    "members": {
+      "loreon-i-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "loreon-ii-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      },
+      "loreon-iii-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [
+          "lancel-i-lannister"
+        ],
+        "regnal": "III",
+        "spouse": []
+      },
+      "loreon-iv-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "IV",
+        "spouse": []
+      },
+      "loreon-lannister-son-of-jason": {
+        "allegiance": "house-lannister",
+        "born": 126,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-casterly-rock",
+        "parents": [
+          "jason-lannister",
+          "johanna-lannister"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "loreon-v-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "V",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "loreon-lannister"
+    ]
+  },
+  "loron greyjoy": {
+    "members": {
+      "loron-greyjoy": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-king-of-the-iron-islands",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "loron-greyjoy-lord": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-iron-islands",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lucan": {
+    "members": {
+      "lucan": {
+        "allegiance": "house-whent",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lucan-grand-maester": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "grand-maester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lucas lothston": {
+    "members": {
+      "lucas-lothston-father-of-manfryd": {
+        "allegiance": "house-lothston",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-harrenhal",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "lucas-lothston-husband-of-falena": {
+        "allegiance": "house-lothston",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "falena-stokeworth"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "lucas-lothston"
+    ]
+  },
+  "luthor tyrell": {
+    "members": {
+      "luthor-tyrell": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-highgarden",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "olenna-tyrell"
+        ]
+      },
+      "luthor-tyrell-son-of-moryn": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "moryn-tyrell"
+        ],
+        "regnal": null,
+        "spouse": [
+          "elyn-norridge"
+        ]
+      },
+      "luthor-tyrell-son-of-theodore": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "theodore-tyrell",
+          "lia-serry"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lyanna stark": {
+    "members": {
+      "lyanna-stark": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": 283,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "rickard-stark",
+          "lyarra-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "lyanna-stark-daughter-of-cregan": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "cregan-stark",
+          "lynara-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "lyonel tyrell": {
+    "members": {
+      "lyonel-tyrell-son-of-leo": {
+        "allegiance": "house-tyrell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "alys-beesbury",
+          "leo-tyrell-son-of-victor"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "lyonel-tyrell"
+    ]
+  },
+  "maegor targaryen": {
+    "members": {
+      "maegor-i-targaryen": {
+        "allegiance": null,
+        "born": 12,
+        "died": 48,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aegon-i-targaryen",
+          "visenya-targaryen"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "alys-harroway",
+          "ceryse-hightower",
+          "elinor-costayne",
+          "jeyne-westerling-wife-of-maegor-i",
+          "rhaena-targaryen-daughter-of-aenys-i",
+          "tyanna-of-the-tower"
+        ]
+      },
+      "maegor-targaryen-son-of-aerion": {
+        "allegiance": "house-targaryen",
+        "born": 232,
+        "died": null,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aerion-targaryen",
+          "daenora-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "maegor-targaryen"
+    ]
+  },
+  "maekar targaryen": {
+    "members": {
+      "maekar-i-targaryen": {
+        "allegiance": null,
+        "born": null,
+        "died": 233,
+        "era": null,
+        "key_title": "king-of-the-andals-the-rhoynar-and-the-first-men",
+        "parents": [
+          "daeron-ii-targaryen",
+          "myriah-martell"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "dyanna-dayne"
+        ]
+      }
+    },
+    "redirect_nodes": [
+      "maekar-targaryen"
+    ],
+    "trap_nodes": []
+  },
+  "manfred hightower": {
+    "members": {
+      "manfred-hightower-aegons-conquest": {
+        "allegiance": "house-hightower",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "beacon-of-the-south",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "manfred-hightower-son-of-addam": {
+        "allegiance": "house-hightower",
+        "born": null,
+        "died": 41,
+        "era": null,
+        "key_title": "beacon-of-the-south",
+        "parents": [
+          "addam-hightower"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "manfred-hightower"
+    ]
+  },
+  "martyn hightower": {
+    "members": {
+      "martyn-hightower": {
+        "allegiance": "house-hightower",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "beacon-of-the-south",
+        "parents": [
+          "manfred-hightower-son-of-addam"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "martyn-hightower-son-of-ormund": {
+        "allegiance": "house-hightower",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "ormund-hightower"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "matthar": {
+    "members": {
+      "matthar": {
+        "allegiance": "nights-watch",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "matthar-archmaester": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "archmaester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "mern gardener": {
+    "members": {
+      "mern-ii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      },
+      "mern-iii-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      },
+      "mern-ix-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": -2,
+        "era": "targaryen-conquest",
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "IX",
+        "spouse": []
+      },
+      "mern-vi-gardener": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-reach",
+        "parents": [],
+        "regnal": "VI",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "monfryd durrandon": {
+    "members": {
+      "monfryd-i-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "durran-x-durrandon"
+        ],
+        "regnal": "I",
+        "spouse": []
+      },
+      "monfryd-v-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "qarlton-iii-durrandon"
+        ],
+        "regnal": "V",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "moro": {
+    "members": {
+      "moro": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "khal",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "moro-century-of-blood": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "khal",
+        "parents": [
+          "mengo"
+        ],
+        "regnal": null,
+        "spouse": [
+          "horro"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "mors martell": {
+    "members": {
+      "mors-ii-martell": {
+        "allegiance": "house-martell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "prince-of-dorne",
+        "parents": [
+          "martell"
+        ],
+        "regnal": "II",
+        "spouse": []
+      },
+      "mors-martell": {
+        "allegiance": "house-martell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-sandship",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "nymeria"
+        ]
+      },
+      "mors-martell-brother-of-doran": {
+        "allegiance": "house-martell",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "martell",
+          "princess-of-dorne-mother-of-doran"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "mudge": {
+    "members": {
+      "mudge-brotherhood": {
+        "allegiance": "brotherhood-without-banners",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "mudge-miller": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "mudge-swineherd": {
+        "allegiance": "house-osgrey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "murch": {
+    "members": {
+      "murch": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "murch-winterfell": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "myles": {
+    "members": {
+      "myles": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "maester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "myles-squire": {
+        "allegiance": "house-tully",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "nettles": {
+    "members": {
+      "nettles": {
+        "allegiance": "blacks",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "nettles-free-folk": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "norren": {
+    "members": {
+      "norren": {
+        "allegiance": "citadel",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "archmaester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "norren-house-mooton": {
+        "allegiance": "citadel",
+        "born": 108,
+        "died": null,
+        "era": null,
+        "key_title": "maester",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "nymeria": {
+    "members": {
+      "nymeria": {
+        "allegiance": "rhoynar",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "davos-dayne",
+          "lord-uller-husband-of-nymeria",
+          "mors-martell"
+        ]
+      },
+      "nymeria-direwolf": {
+        "allegiance": null,
+        "born": 298,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "othgar hoare": {
+    "members": {
+      "othgar-hoare-demonlover": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-iron-islands",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "othgar-hoare-the-soulless": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-iron-islands",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "owen": {
+    "members": {
+      "owen-brother-of-meribald": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "owen-knight": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "pate": {
+    "members": {
+      "pate-novice": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "pate-orphan": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "pate-standfast": {
+        "allegiance": "house-osgrey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "pate-whipping-boy": {
+        "allegiance": "house-baratheon-of-kings-landing",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "whipping-boy",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "qarlton durrandon": {
+    "members": {
+      "qarlton-ii-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "erich-vii-durrandon"
+        ],
+        "regnal": "II",
+        "spouse": []
+      },
+      "qarlton-iii-durrandon": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "storm-king",
+        "parents": [
+          "qarlton-ii-durrandon"
+        ],
+        "regnal": "III",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "quenton greyjoy": {
+    "members": {
+      "quenton-greyjoy": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "lady-stonetree-wife-of-quellon-greyjoy",
+          "quellon-greyjoy"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "quenton-greyjoy-cousin": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": 300,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "rhaella targaryen": {
+    "members": {
+      "rhaella-targaryen": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": 284,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "jaehaerys-ii-targaryen",
+          "shaera-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "aerys-ii-targaryen"
+        ]
+      },
+      "rhaella-targaryen-daughter-of-aegon": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "aegon-targaryen-son-of-aenys-i",
+          "rhaena-targaryen-daughter-of-aenys-i"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "rhaena targaryen": {
+    "members": {
+      "rhaena-targaryen-daughter-of-aegon-iii": {
+        "allegiance": "house-targaryen",
+        "born": 147,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "aegon-iii-targaryen",
+          "daenaera-velaryon"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "rhaena-targaryen-daughter-of-aenys-i": {
+        "allegiance": "house-targaryen",
+        "born": 23,
+        "died": 73,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "aenys-i-targaryen",
+          "alyssa-velaryon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "maegor-i-targaryen",
+          "androw-farman",
+          "aegon-targaryen-son-of-aenys-i"
+        ]
+      },
+      "rhaena-targaryen-daughter-of-daemon": {
+        "allegiance": "house-targaryen",
+        "born": 116,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "daemon-targaryen",
+          "laena-velaryon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "corwyn-corbray",
+          "garmund-hightower"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "rhaena-targaryen"
+    ]
+  },
+  "rhaenys targaryen": {
+    "members": {
+      "rhaenys-targaryen": {
+        "allegiance": "house-targaryen",
+        "born": null,
+        "died": 10,
+        "era": "targaryen-conquest",
+        "key_title": null,
+        "parents": [
+          "aerion-targaryen-son-of-daemion",
+          "valaena-velaryon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "aegon-i-targaryen"
+        ]
+      },
+      "rhaenys-targaryen-daughter-of-aemon": {
+        "allegiance": "house-targaryen",
+        "born": 74,
+        "died": 129,
+        "era": "dance-of-the-dragons",
+        "key_title": "princess",
+        "parents": [
+          "jocelyn-baratheon",
+          "aemon-targaryen-son-of-jaehaerys-i"
+        ],
+        "regnal": null,
+        "spouse": [
+          "corlys-velaryon"
+        ]
+      },
+      "rhaenys-targaryen-daughter-of-rhaegar": {
+        "allegiance": "house-targaryen",
+        "born": 280,
+        "died": 283,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "rhaegar-targaryen",
+          "elia-martell"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "rickon stark": {
+    "members": {
+      "rickon-stark": {
+        "allegiance": "house-stark",
+        "born": 295,
+        "died": null,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "eddard-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "rickon-stark-son-of-benjen": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": 121,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [
+          "benjen-stark-lord",
+          "lysa-locke"
+        ],
+        "regnal": null,
+        "spouse": [
+          "gilliane-glover"
+        ]
+      },
+      "rickon-stark-son-of-cregan": {
+        "allegiance": "house-stark",
+        "born": 128,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "cregan-stark",
+          "arra-norrey"
+        ],
+        "regnal": null,
+        "spouse": [
+          "jeyne-manderly"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "robar royce": {
+    "members": {
+      "robar-ii-royce": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-king-of-the-vale-the-fingers-and-the-mountains-of-the-moon",
+        "parents": [
+          "royce"
+        ],
+        "regnal": "II",
+        "spouse": []
+      },
+      "robar-royce": {
+        "allegiance": "house-royce",
+        "born": 277,
+        "died": 299,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "yohn-royce"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "robert baratheon": {
+    "members": {
+      "robert-i-baratheon": {
+        "allegiance": null,
+        "born": 262,
+        "died": 298,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "steffon-baratheon",
+          "cassana-estermont"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "cersei-lannister"
+        ]
+      }
+    },
+    "redirect_nodes": [
+      "robert-baratheon"
+    ],
+    "trap_nodes": []
+  },
+  "robert blackwood": {
+    "members": {
+      "robert-blackwood": {
+        "allegiance": "house-blackwood",
+        "born": null,
+        "died": 300,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "tytos-blackwood"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "robert-blackwood-209": {
+        "allegiance": "house-blackwood",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "robert brax": {
+    "members": {
+      "robert-brax": {
+        "allegiance": "house-brax",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "andros-brax"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "robert-brax-son-of-flement": {
+        "allegiance": "house-brax",
+        "born": 290,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "flement-brax",
+          "morya-frey"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "robert frey": {
+    "members": {
+      "robert-frey-son-of-raymund": {
+        "allegiance": "house-frey",
+        "born": 283,
+        "died": null,
+        "era": null,
+        "key_title": "acolyte",
+        "parents": [
+          "raymund-frey",
+          "beony-beesbury"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "robert-frey-son-of-rhaegar": {
+        "allegiance": "house-frey",
+        "born": 286,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "rhaegar-frey",
+          "jeyne-beesbury"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "robert-frey"
+    ]
+  },
+  "robin": {
+    "members": {
+      "robin": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "robin-flea-bottom": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "rodrik greyjoy": {
+    "members": {
+      "rodrik-greyjoy": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": 289,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "alannys-harlaw",
+          "balon-greyjoy"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "rodrik-greyjoy-son-of-dalton": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-reaper-of-pyke",
+        "parents": [
+          "dalton-greyjoy"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "rodrik stark": {
+    "members": {
+      "rodrik-stark": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "rodrik-stark-son-of-beron": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "beron-stark",
+          "lorra-royce"
+        ],
+        "regnal": null,
+        "spouse": [
+          "arya-flint"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "roland arryn": {
+    "members": {
+      "roland-i-arryn": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-mountain-and-vale",
+        "parents": [],
+        "regnal": "I",
+        "spouse": [
+          "teora-hunter"
+        ]
+      },
+      "roland-ii-arryn": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-mountain-and-vale",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "roland crakehall": {
+    "members": {
+      "roland-crakehall-kingsguard": {
+        "allegiance": "house-crakehall",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "roland-crakehall"
+    ]
+  },
+  "ronnel arryn": {
+    "members": {
+      "ronnel-arryn-son-of-jasper": {
+        "allegiance": "house-arryn",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "jasper-arryn"
+        ],
+        "regnal": null,
+        "spouse": [
+          "belmore"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "ronnel-arryn"
+    ]
+  },
+  "rosey": {
+    "members": {
+      "rosey": {
+        "allegiance": "quill-and-tankard",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "rosey-daughter-of-aegon-iv": {
+        "allegiance": "faith-of-the-seven",
+        "born": 158,
+        "died": null,
+        "era": null,
+        "key_title": "septa",
+        "parents": [
+          "aegon-iv-targaryen",
+          "megette"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "royce bolton": {
+    "members": {
+      "royce-ii-bolton": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "red-king",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      },
+      "royce-iv-bolton": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "red-king",
+        "parents": [],
+        "regnal": "IV",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "samwell tarly": {
+    "members": {
+      "samwell-tarly": {
+        "allegiance": "house-tarly",
+        "born": 283,
+        "died": null,
+        "era": null,
+        "key_title": "novice",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "samwell-tarly-lord": {
+        "allegiance": "house-tarly",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-horn-hill",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "sansa stark": {
+    "members": {
+      "sansa-stark": {
+        "allegiance": "house-stark",
+        "born": 286,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "catelyn-stark"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "sansa-stark-daughter-of-rickon": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "rickon-stark-son-of-cregan",
+          "jeyne-manderly"
+        ],
+        "regnal": null,
+        "spouse": [
+          "jonnel-stark"
+        ]
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "simon staunton": {
+    "members": {
+      "simon-staunton": {
+        "allegiance": "house-staunton",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "rohanne-webber"
+        ]
+      },
+      "simon-staunton-squire": {
+        "allegiance": "house-staunton",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "sly": {
+    "members": {
+      "sly": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "sly-stableboy": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "tansy": {
+    "members": {
+      "tansy-innkeep": {
+        "allegiance": "peach",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "tansy-orphan": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "theon greyjoy": {
+    "members": {
+      "theon-greyjoy": {
+        "allegiance": "house-greyjoy",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "prince-of-winterfell",
+        "parents": [
+          "balon-greyjoy"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "theon-iii-greyjoy": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-king-of-the-iron-islands",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "timett": {
+    "members": {
+      "timett": {
+        "allegiance": "burned-men",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "timett-father"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "timett-father": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "titus peake": {
+    "members": {
+      "titus-peake": {
+        "allegiance": "house-peake",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-starpike",
+        "parents": [],
+        "regnal": null,
+        "spouse": [
+          "margot-lannister"
+        ]
+      },
+      "titus-peake-son-of-unwin": {
+        "allegiance": "house-peake",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "unwin-peake"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "tommen costayne": {
+    "members": {
+      "tommen-costayne": {
+        "allegiance": "house-costayne",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-three-towers",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "tommen-costayne-knight": {
+        "allegiance": "house-costayne",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "tommen lannister": {
+    "members": {
+      "tommen-i-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "I",
+        "spouse": []
+      },
+      "tommen-ii-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "torrhen stark": {
+    "members": {
+      "torrhen-stark": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "torrhen-stark-son-of-edric": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "serena-stark",
+          "edric-stark-son-of-cregan"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "tristifer mudd": {
+    "members": {
+      "tristifer-iv-mudd": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rivers-and-the-hills",
+        "parents": [],
+        "regnal": "IV",
+        "spouse": []
+      },
+      "tristifer-v-mudd": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rivers-and-the-hills",
+        "parents": [
+          "tristifer-iv-mudd"
+        ],
+        "regnal": "V",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "tybolt lannister": {
+    "members": {
+      "tybolt-lannister": {
+        "allegiance": "house-lannister",
+        "born": null,
+        "died": 212,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "cerissa-brax",
+          "damon-lannister"
+        ],
+        "regnal": null,
+        "spouse": [
+          "teora-kyndall"
+        ]
+      },
+      "tybolt-lannister-king": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "tyrion lannister": {
+    "members": {
+      "tyrion-ii-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "II",
+        "spouse": []
+      },
+      "tyrion-iii-lannister": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-of-the-rock",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      },
+      "tyrion-lannister": {
+        "allegiance": "house-lannister",
+        "born": 273,
+        "died": null,
+        "era": null,
+        "key_title": "hand-of-the-king",
+        "parents": [
+          "joanna-lannister"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "tywin frey": {
+    "members": {
+      "tywin-frey": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "ser",
+        "parents": [
+          "cleos-frey",
+          "jeyne-darry"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "tywin-frey-son-of-raymund": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "raymund-frey",
+          "beony-beesbury"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "urragon greyiron": {
+    "members": {
+      "urragon-iii-greyiron": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-king-of-the-iron-islands",
+        "parents": [],
+        "regnal": "III",
+        "spouse": []
+      },
+      "urragon-iv-greyiron": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "high-king-of-the-iron-islands",
+        "parents": [
+          "torgon-greyiron"
+        ],
+        "regnal": "IV",
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "vaella targaryen": {
+    "members": {
+      "vaella-targaryen-daughter-of-aenys-i": {
+        "allegiance": "house-targaryen",
+        "born": 39,
+        "died": 39,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "aenys-i-targaryen",
+          "alyssa-velaryon"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "vaella-targaryen-daughter-of-daeron": {
+        "allegiance": "house-targaryen",
+        "born": 222,
+        "died": null,
+        "era": null,
+        "key_title": "princess",
+        "parents": [
+          "kiera-of-tyrosh",
+          "daeron-targaryen-son-of-maekar-i"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "vaella-targaryen"
+    ]
+  },
+  "visenya targaryen": {
+    "members": {
+      "visenya-targaryen": {
+        "allegiance": "house-targaryen",
+        "born": -29,
+        "died": 44,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "aerion-targaryen-son-of-daemion",
+          "valaena-velaryon"
+        ],
+        "regnal": null,
+        "spouse": [
+          "aegon-i-targaryen"
+        ]
+      },
+      "visenya-targaryen-daughter-of-daemon": {
+        "allegiance": "house-targaryen",
+        "born": 129,
+        "died": 129,
+        "era": "dance-of-the-dragons",
+        "key_title": "princess",
+        "parents": [
+          "daemon-targaryen",
+          "rhaenyra-targaryen"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "viserys targaryen": {
+    "members": {
+      "viserys-i-targaryen": {
+        "allegiance": null,
+        "born": 77,
+        "died": 129,
+        "era": "dance-of-the-dragons",
+        "key_title": "prince-of-dragonstone",
+        "parents": [
+          "alyssa-targaryen",
+          "baelon-targaryen-son-of-jaehaerys-i"
+        ],
+        "regnal": "I",
+        "spouse": [
+          "aemma-arryn",
+          "alicent-hightower"
+        ]
+      },
+      "viserys-ii-targaryen": {
+        "allegiance": null,
+        "born": 122,
+        "died": 172,
+        "era": null,
+        "key_title": "hand-of-the-king",
+        "parents": [
+          "daemon-targaryen",
+          "rhaenyra-targaryen"
+        ],
+        "regnal": "II",
+        "spouse": [
+          "larra-rogare"
+        ]
+      },
+      "viserys-targaryen": {
+        "allegiance": "house-targaryen",
+        "born": 276,
+        "died": 298,
+        "era": null,
+        "key_title": "prince-of-dragonstone",
+        "parents": [
+          "aerys-ii-targaryen",
+          "rhaella-targaryen"
+        ],
+        "regnal": null,
+        "spouse": [
+          "larra-rogare"
+        ]
+      },
+      "viserys-targaryen-son-of-aenys-i": {
+        "allegiance": "house-targaryen",
+        "born": 29,
+        "died": 44,
+        "era": null,
+        "key_title": "prince",
+        "parents": [
+          "aenys-i-targaryen",
+          "alyssa-velaryon"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "vulture king": {
+    "members": {
+      "vulture-king-aegon-ii": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "vulture-king-aenys-i": {
+        "allegiance": null,
+        "born": null,
+        "died": 37,
+        "era": "targaryen-conquest",
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "vulture-king-daeron-ii": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "vulture-king",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "vulture-king-jaehaerys-i": {
+        "allegiance": null,
+        "born": null,
+        "died": 61,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "walda frey": {
+    "members": {
+      "walda-frey-daughter-of-edwyn": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "janyce-hunter"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "walda-frey-daughter-of-lothar": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "lothar-frey",
+          "leonella-lefford"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "walda-frey-daughter-of-merrett": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "merrett-frey",
+          "mariya-darry"
+        ],
+        "regnal": null,
+        "spouse": [
+          "roose-bolton"
+        ]
+      },
+      "walda-frey-daughter-of-rhaegar": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "rhaegar-frey",
+          "jeyne-beesbury"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "walda-frey-daughter-of-walton": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "walton-frey",
+          "deana-hardyng"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "walda-frey"
+    ]
+  },
+  "walda rivers": {
+    "members": {
+      "walda-rivers": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "walder-rivers",
+          "charlton"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "walda-rivers-daughter-of-aemon": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "aemon-rivers"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "walder frey": {
+    "members": {
+      "walder-frey": {
+        "allegiance": "house-frey",
+        "born": 208,
+        "died": null,
+        "era": null,
+        "key_title": "lord-of-the-crossing",
+        "parents": [
+          "lord-frey"
+        ],
+        "regnal": null,
+        "spouse": [
+          "alyssa-blackwood",
+          "amarei-crakehall",
+          "annara-farring",
+          "bethany-rosby",
+          "cyrenna-swann",
+          "joyeuse-erenford",
+          "perra-royce",
+          "sarya-whent"
+        ]
+      },
+      "walder-frey-son-of-emmon": {
+        "allegiance": "house-frey",
+        "born": 285,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "emmon-frey",
+          "genna-lannister"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "walder-frey-son-of-jammos": {
+        "allegiance": "house-frey",
+        "born": 291,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "jammos-frey",
+          "sallei-paege"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "walder-frey-son-of-merrett": {
+        "allegiance": "house-frey",
+        "born": 291,
+        "died": 300,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "merrett-frey",
+          "mariya-darry"
+        ],
+        "regnal": null,
+        "spouse": []
+      },
+      "walder-frey-son-of-ryman": {
+        "allegiance": "house-frey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [
+          "ryman-frey"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "walton stark": {
+    "members": {
+      "walton-stark": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": "king-in-the-north",
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "walton-stark-son-of-brandon": {
+        "allegiance": "house-stark",
+        "born": null,
+        "died": 50,
+        "era": null,
+        "key_title": "lord-of-winterfell",
+        "parents": [
+          "brandon-stark-father-of-walton"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "wat": {
+    "members": {
+      "wat-nights-watch": {
+        "allegiance": "nights-watch",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "wat-orphan": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "wat-sailor": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "wat-standfast": {
+        "allegiance": "house-osgrey",
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "will": {
+    "members": {
+      "will": {
+        "allegiance": "nights-watch",
+        "born": null,
+        "died": 297,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "will-orphan": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      },
+      "will-squire": {
+        "allegiance": null,
+        "born": null,
+        "died": null,
+        "era": null,
+        "key_title": null,
+        "parents": [],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": []
+  },
+  "willow": {
+    "members": {
+      "willow-daughter-of-aegon-iv": {
+        "allegiance": "faith-of-the-seven",
+        "born": 157,
+        "died": null,
+        "era": null,
+        "key_title": "septa",
+        "parents": [
+          "aegon-iv-targaryen",
+          "megette"
+        ],
+        "regnal": null,
+        "spouse": []
+      }
+    },
+    "redirect_nodes": [],
+    "trap_nodes": [
+      "willow"
+    ]
+  }
+}

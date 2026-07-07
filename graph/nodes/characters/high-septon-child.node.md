@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/High_Septon_(child)"
 bucket_id: characters-other-h
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-High Septon (child) is a character.human from the AWOIAF wiki.
+High Septon (child) — sworn to Faith of the Seven; High Septon. One of 16 characters named High Septon.
 
 ## Edges
 

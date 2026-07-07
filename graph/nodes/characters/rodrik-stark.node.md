@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rodrik_Stark"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rodrik Stark is a character.human from the AWOIAF wiki.
+Rodrik Stark — King in the North. One of 2 characters named Rodrik Stark. An ancient King in the North buried at Winterfell, reportedly won Bear Island from the ironborn and granted it to House Mormont. (wiki:Rodrik_Stark)
 
 ## Edges
 

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Eustace_(Dance_of_the_Dragons)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Eustace (Dance of the Dragons) — sworn to Faith of the Seven; Septon. One of 2 characters named Eustace.
 
 ## Origins
 

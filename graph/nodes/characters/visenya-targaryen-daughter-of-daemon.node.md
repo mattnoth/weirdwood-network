@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Visenya_Targaryen_(daughter_of_Daemon)
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Visenya Targaryen (daughter of Daemon) (129–129 AC) — child of Daemon Targaryen and Rhaenyra Targaryen; sworn to House Targaryen; Princess. One of 2 characters named Visenya Targaryen.
 
 ## Origins
 

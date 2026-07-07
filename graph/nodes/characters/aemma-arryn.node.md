@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemma_Arryn"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Aemma Arryn is a character from the AWOIAF wiki.
+Aemma Arryn (82–105 AC) — child of Rodrik Arryn and Daella Targaryen (daughter of Jaehaerys I); married to Viserys I Targaryen; sworn to House Arryn; Queen.
 
 ## Edges
 

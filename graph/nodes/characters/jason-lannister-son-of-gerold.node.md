@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Jason_Lannister_(son_of_Gerold)
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Catelyn III"
 ---
+
+## Identity
+
+Jason Lannister (son of Gerold) (229–260 AC) — child of Gerold Lannister and Rohanne Webber; married to Alys Stackspear and Marla Prester; sworn to House Lannister; Ser. One of 2 characters named Jason Lannister.
 
 ## Origins
 

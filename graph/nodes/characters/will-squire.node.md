@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Will_(squire)"
 bucket_id: characters-other-w-y
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Will (squire) is a character.human from the AWOIAF wiki.
+Will (squire). One of 3 characters named Will. A gawky squire of Ser Uthor Underleaf during Aerys I's reign, born around 192 AC. (wiki:Will_(squire))
 
 ## Edges
 

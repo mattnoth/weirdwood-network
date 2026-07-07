@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corlys_Velaryon_(son_of_Daemon)"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Corlys Velaryon (son of Daemon) is a character.human from the AWOIAF wiki.
+Corlys Velaryon (son of Daemon) — child of Daemon Velaryon; sworn to House Velaryon; Ser. One of 2 characters named Corlys Velaryon.
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Moro"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Moro is a character.human from the AWOIAF wiki.
+Moro — Khal. One of 2 characters named Moro. A Dothraki khal and sometime ally of Drogo, father of Rhogoro, he attended Daenerys's presentation in Pentos. (wiki:Moro)
 
 ## Edges
 

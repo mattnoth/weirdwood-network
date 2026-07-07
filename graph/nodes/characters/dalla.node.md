@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Dalla"
 bucket_id: characters-other-c-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Dalla is a character.human from the AWOIAF wiki.
+Dalla (d. 300 AC) — married to Mance Rayder; sworn to Mance Rayder. One of 2 characters named Dalla.
 
 ## Edges
 

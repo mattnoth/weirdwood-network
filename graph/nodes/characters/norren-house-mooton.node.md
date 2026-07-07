@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Norren_(House_Mooton)"
 bucket_id: characters-house-mooton
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Norren (House Mooton) is a character.human from the AWOIAF wiki.
+Norren (House Mooton) (b. 108 AC) — sworn to Citadel; Maester. One of 2 characters named Norren.
 
 ## Edges
 

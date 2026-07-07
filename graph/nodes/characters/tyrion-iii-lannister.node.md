@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyrion_III_Lannister"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tyrion III Lannister is a character.human from the AWOIAF wiki.
+Tyrion III Lannister — King of the Rock. One of 3 characters named Tyrion Lannister.
 
 ## Edges
 

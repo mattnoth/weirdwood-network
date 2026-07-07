@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Aenys I Targaryen is a character.human from the AWOIAF wiki.
+Aenys I Targaryen (7–42 AC) — child of Aegon I Targaryen and Rhaenys Targaryen; married to Alyssa Velaryon; Prince.
 
 ## Edges
 

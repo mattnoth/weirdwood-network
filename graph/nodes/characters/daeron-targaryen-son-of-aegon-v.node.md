@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daeron_Targaryen_(son_of_Aegon_V)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Davos I"
 ---
+
+## Identity
+
+Daeron Targaryen (son of Aegon V) (228–251 AC) — child of Aegon V Targaryen and Betha Blackwood; sworn to House Targaryen; Prince. One of 6 Daeron Targaryens — see the Daeron Targaryen disambiguation entry.
 
 ## Origins
 

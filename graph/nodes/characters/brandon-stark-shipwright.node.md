@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(Shipwright)"
 bucket_id: characters-other-b
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Brandon Stark (Shipwright) is a character.human from the AWOIAF wiki.
+Brandon Stark (Shipwright) — King in the North. One of 15 characters named Brandon Stark. A King in the North known for his love of the sea who attempted to sail across the Sunset Sea thousands of years before Aegon's Conquest and was never seen again. (wiki:Brandon_Stark_(Shipwright))
 
 ## Edges
 

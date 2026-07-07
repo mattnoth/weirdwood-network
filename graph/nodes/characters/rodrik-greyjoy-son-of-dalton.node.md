@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rodrik_Greyjoy_(son_of_Dalton)
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Rodrik Greyjoy (son of Dalton) — child of Dalton Greyjoy; sworn to House Greyjoy; Lord Reaper of Pyke. One of 2 characters named Rodrik Greyjoy.
 
 ## Origins
 

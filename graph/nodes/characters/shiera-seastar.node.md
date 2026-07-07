@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Shiera_Seastar
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,6 +16,10 @@ first_available:
   source: cite_ref
   pov: Tyrion VIII
 ---
+
+## Identity
+
+Shiera Seastar — child of Aegon IV Targaryen and Serenei of Lys; sworn to House Targaryen.
 
 ## Origins
 

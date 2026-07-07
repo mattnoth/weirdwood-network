@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rickon_Stark_(son_of_Benjen)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rickon Stark (son of Benjen) is a character from the AWOIAF wiki.
+Rickon Stark (son of Benjen) (d. 121 AC) — child of Benjen Stark (lord) and Lysa Locke; married to Gilliane Glover; sworn to House Stark; Lord of Winterfell. One of 3 characters named Rickon Stark.
 
 ## Edges
 

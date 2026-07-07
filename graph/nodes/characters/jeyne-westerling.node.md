@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Westerling"
 bucket_id: characters-house-westerling
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jeyne Westerling is a character.human from the AWOIAF wiki.
+Jeyne Westerling (b. 283 AC) — child of Gawen Westerling and Sybell Spicer; sworn to House Westerling; Queen. One of 2 characters named Jeyne Westerling.
 
 ## Edges
 
@@ -149,4 +149,3 @@ The [siege of Riverrun](wiki:Siege_of_Riverrun) is settled peacefully by Ser [Ja
 > Jeyne was a willowy girl, no more than fifteen or sixteen, more awkward than graceful. She had narrow hips, breasts the size of apples, a mop of chestnut curls, and the soft brown eyes of a doe. Pretty enough for a child, Jaime decided, but not a girl to lose a kingdom for.
 >
 > — sources/chapters/affc/affc-jaime-07.md:69 · Only extended POV physical description of Jeyne Westerling; Jaime's 'not a girl to lose a kingdom for' is load-bearing for her node.  _(capture: chapter-quote sweep, physical)_
-

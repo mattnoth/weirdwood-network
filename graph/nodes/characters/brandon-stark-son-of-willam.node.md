@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(son_of_Willam)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Daenerys III"
 ---
+
+## Identity
+
+Brandon Stark (son of Willam) — child of Willam Stark and Lyanne Glover; sworn to House Stark. One of 15 characters named Brandon Stark.
 
 ## Origins
 

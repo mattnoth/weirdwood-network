@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Simon_Staunton_(squire)"
 bucket_id: characters-house-staunton
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Simon Staunton (squire) is a character.human from the AWOIAF wiki.
+Simon Staunton (squire) — sworn to House Staunton. One of 2 characters named Simon Staunton. Simon Staunton was a squire from House Staunton during the reign of King Jaehaerys I Targaryen. (wiki:Simon_Staunton_(squire))
 
 ## Edges
 

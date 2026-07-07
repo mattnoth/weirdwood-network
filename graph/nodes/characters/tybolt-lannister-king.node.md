@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tybolt_Lannister_(king)"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tybolt Lannister (king) is a character.human from the AWOIAF wiki.
+Tybolt Lannister (king) — King of the Rock. One of 2 characters named Tybolt Lannister. Tybolt Lannister, dubbed the Thunderbolt, was a King of the Rock of House Lannister of Casterly Rock. (wiki:Tybolt_Lannister_(king))
 
 ## Edges
 

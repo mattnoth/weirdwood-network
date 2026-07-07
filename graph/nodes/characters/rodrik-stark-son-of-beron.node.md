@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rodrik_Stark_(son_of_Beron)
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: ADWD 66 Cersei II
 ---
+
+## Identity
+
+Rodrik Stark (son of Beron) — child of Beron Stark and Lorra Royce; married to Arya Flint; sworn to House Stark. One of 2 characters named Rodrik Stark.
 
 ## Origins
 

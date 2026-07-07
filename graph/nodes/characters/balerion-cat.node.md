@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Balerion_(cat)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Balerion (cat) is a character from the AWOIAF wiki.
+Balerion (cat). One of 2 characters named Balerion. An old black tomcat with a torn ear, believed to be the kitten once owned by Princess Rhaenys Targaryen. (wiki:Balerion_(cat))
 
 ## Edges
 

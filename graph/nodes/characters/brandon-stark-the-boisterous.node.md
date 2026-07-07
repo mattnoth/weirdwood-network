@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(the_Boisterous)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Brandon Stark (the Boisterous) — sworn to House Stark; Lord of Winterfell. One of 15 characters named Brandon Stark.
 
 ## Origins
 

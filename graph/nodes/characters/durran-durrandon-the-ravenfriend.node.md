@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Durran_Durrandon_(the_Ravenfriend)"
 bucket_id: characters-other-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Durran Durrandon (the Ravenfriend) is a character.human from the AWOIAF wiki.
+Durran Durrandon (the Ravenfriend) — Storm King. One of 11 characters named Durran Durrandon. Durran Durrandon, also known as Durran the Ravenfriend, was a Storm King of House Durrandon. (wiki:Durran_Durrandon_(the_Ravenfriend))
 
 ## Edges
 

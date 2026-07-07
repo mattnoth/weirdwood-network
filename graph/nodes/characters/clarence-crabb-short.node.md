@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Clarence_Crabb_(Short)"
 bucket_id: characters-house-crabb
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Clarence Crabb (Short) is a character.human from the AWOIAF wiki.
+Clarence Crabb (Short) — sworn to House Crabb; Ser. One of 2 characters named Clarence Crabb.
 
 ## Edges
 

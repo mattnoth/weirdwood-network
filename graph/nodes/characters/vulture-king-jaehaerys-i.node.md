@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vulture_King_(Jaehaerys_I)"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Vulture King (Jaehaerys I) is a character.human from the AWOIAF wiki.
+Vulture King (Jaehaerys I) (d. 61 AC). One of 4 characters named Vulture King. The second Vulture King was a self-proclaimed Dornish king who raided in the Third Dornish War during the reign of King Jaehaerys I Targaryen. (wiki:Vulture_King_(Jaehaerys_I))
 
 ## Edges
 

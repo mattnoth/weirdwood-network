@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mors_Martell"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Mors Martell — married to Nymeria; sworn to House Martell; Lord of the Sandship. One of 3 characters named Mors Martell.
 
 ## Origins
 

@@ -153,16 +153,19 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (LIVE track: chat-UI alpha build · graph-enrichment + D&E Pass-1: PARKED)
+## Open threads right now (LIVE: Fire & Blood ingestion build ‖ wiki-boilerplate cleanup · D&E Pass-1: PARKED)
 
-> **The LIVE track is the chat-UI alpha BUILD** (Matt's job-portfolio demo) — a 4-chunk split: Foundation ✅ S171 →
-> retrieval-core ✅ S172 → **function ⏳ (next, S173)** → front-end+ship. The graph-enrichment track is PARKED behind it
-> (the 🅰 A-roundup CLOSED S167; granular dips planned S168 then parked by Matt for review — `working/granular-dip-plan.md`,
-> opener D2 Hand's Tourney). D&E Pass-1 PARKED. The chat-UI persona-design prompt stays parked S123 in `archive/`. SIFT DEFERRED.
+> **Two PARALLEL-SAFE graph tracks are live after S197** (they touch different code/nodes). S197 built + applied the wiki-prose
+> disambiguation composer (477 nodes: clusters + F&B marquee singletons; disambiguation/redirect trap classes; pack + blocklist +
+> redirect-map that the F&B reconciler consumes). The chat-UI alpha is DEPLOYED (Opus, Netlify) — past, not a live build track.
+> **F&B readiness (S197):** the epub landed on disk today (`sources/raw/fire-and-blood.epub`), but the pipeline is unbuilt —
+> F&B extraction is the OUTPUT of the S198 build, not a parallel-startable thing.
 
-**LIVE (meta): `2026-06-29-chat-ui-function.md`** — **Chat-UI alpha FUNCTION chunk (fires as S173).** Write the Edge function `web/netlify/edge-functions/chat.ts`: a Claude tool-loop over the S172 retrieval tools (`web/src/lib/`) + Bloodraven system prompt + SSE streaming + a global daily spend cap + a cite-verification gate. Decisions LOCKED S171 (Edge/Deno · `claude-opus-4-8` swappable · Option A · curated-MVP). Spec: `web/netlify/edge-functions/README.md`. The only true proof is a local `netlify dev` run, which **spends real API $** → gate on Matt's go-ahead; build + static-validate first. Then front-end+ship. (**Sonnet 4.6** to write it.)
+**LIVE (graph): `2026-07-06-fire-and-blood-build-smoke.md`** — **F&B ingestion build + two-stage smoke (fires as S198).** Splitter (epub→`sources/chapters/fab/`) → QA-gate freeze → reconciler (consumes the S197 pack/blocklist/redirect-map; must honor `disambiguation_hub`/`redirect_to` — the raw resolver doesn't) → `fab_merge_node.py` → architecture.md batch (`fab` code + `evidence_kind: book-fab` + `in_universe_source`/`disputed`) → smoke (003 mechanics, 015 quality; Matt-fired from iTerm). Spec: `working/fire-and-blood/fire-and-blood-enrichment-design.md` v2 + `fable-review.md`. (**Sonnet** build; F&B worker itself runs **Opus** per decision #3.)
 
-**PARKED (graph-enrichment): `working/granular-dip-plan.md`** — the ranked granular-dip list (planned S168, opener D2 Hand's Tourney); restore a dip prompt from there when the chat-UI track unblocks the graph track. Graph at **23,330 edges / 8,475 live nodes**.
+**LIVE (graph, parallel-safe): `2026-07-06-strip-wiki-boilerplate-identity.md`** — remove "… from the AWOIAF wiki" from all node Identity prose (6,739 nodes, backlog HIGH; Matt S197). Sweep existing (composer full-sweep for characters + deterministic strip for the long tail) + patch the ~8 Pass-2 emitters. Safe alongside S198. (**Sonnet**.)
+
+**PARKED (graph-enrichment): `working/granular-dip-plan.md`** — the ranked granular-dip list (opener D2 Hand's Tourney); restore when Matt un-parks the enrichment track. Graph at **~23,330 edges / ~8,475 live nodes**.
 
 **PARKED (D&E Pass-1): `2026-06-29-dunk-egg-pass1-smoke.md`** — **PARKED by Matt 2026-06-23** (concurrent-with-enrichment
 was too confusing — revisit when fresh). Harness + v4 prompt DESIGNED S131; nothing run (smoke un-run). When un-parked:
@@ -172,4 +175,4 @@ extraction incl. smoke. (**Opus 4.8**) **Track state → `worklog-dunk-egg.md` (
 All container dyads discharged (D1 Varys↔Illyrio + D2 Jorah at AEGON; D3 Bran↔Jojen surfaced, consume-on-demand).
 
 *Parked/stale in `archive/` (recoverable, not deleted): arc-wave1-mint (**STALE — parent-hub model superseded by chain-as-arc**; its drafted Red-Wedding/Joffrey arcs are candidates for the chain machine), edge-modeling-plate-4 Track B (backlog).*
-*Done & archived (no longer live): causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*
+*Done & archived (no longer live): wiki-prose-disambiguation-composer (S197 — built + applied 477 nodes), causal-edges-and-spark-nodes strategy (S105), next-move-decisions (S104), Track 3 dating leftovers (S102), historical-anchor #9 wave 2 (S100), script-consolidation S1+S2 (S98/S99), Mode 3 dip + graph-cleanup (S96), infobox-merge-ship (S94).*

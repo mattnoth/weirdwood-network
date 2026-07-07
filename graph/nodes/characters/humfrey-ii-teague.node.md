@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Humfrey_II_Teague"
 bucket_id: characters-other-h-i
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Humfrey II Teague is a character.human from the AWOIAF wiki.
+Humfrey II Teague — child of Humfrey I Teague; King of the Rivers and the Hills. One of 2 characters named Humfrey Teague.
 
 ## Edges
 

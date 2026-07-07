@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Bessa_(Winterfell)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Bessa (Winterfell) is a character from the AWOIAF wiki.
+Bessa (Winterfell). One of 2 Bessas — see the Bessa disambiguation entry. A tavern wench who works at the Smoking Log in the winter town outside Winterfell. (wiki:Bessa_(Winterfell))
 
 ## Edges
 

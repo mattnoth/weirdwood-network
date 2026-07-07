@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Nettles_(free_folk)"
 bucket_id: characters-other-n-o
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Nettles (free folk) is a character.human from the AWOIAF wiki.
+Nettles (free folk). One of 2 characters named Nettles. A spearwife of the free folk under Iron Emmett's command at Long Barrow. (wiki:Nettles_(free_folk))
 
 ## Edges
 

@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baela_Targaryen
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,6 +17,10 @@ first_available:
   source: cite_ref
   pov: "Cersei II"
 ---
+
+## Identity
+
+Baela Targaryen (b. 116 AC) — child of Daemon Targaryen and Laena Velaryon; married to Alyn Velaryon; sworn to House Targaryen; Princess.
 
 ## Origins
 

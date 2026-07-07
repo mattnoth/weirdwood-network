@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Roland_II_Arryn"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Roland II Arryn is a character.human from the AWOIAF wiki.
+Roland II Arryn — King of Mountain and Vale. One of 2 characters named Roland Arryn.
 
 ## Edges
 

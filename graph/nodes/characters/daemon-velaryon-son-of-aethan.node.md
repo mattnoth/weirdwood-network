@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Velaryon_(son_of_Aethan)"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daemon Velaryon (son of Aethan) is a character.human from the AWOIAF wiki.
+Daemon Velaryon (son of Aethan) — child of Aethan Velaryon and Alarra Massey; sworn to House Velaryon; Lord of the Tides. One of 2 characters named Daemon Velaryon.
 
 ## Edges
 

@@ -10,10 +10,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
+
+## Identity
+
+Alysanne Targaryen (36–100 AC) — child of Aenys I Targaryen and Alyssa Velaryon; married to Jaehaerys I Targaryen; sworn to House Targaryen; Princess.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerys_II_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Aerys II Targaryen is a character.human from the AWOIAF wiki.
+Aerys II Targaryen (244–283 AC) — child of Jaehaerys II Targaryen and Shaera Targaryen; married to Rhaella Targaryen; Prince of Dragonstone. One of 3 characters named Aerys Targaryen.
 
 ## Edges
 
@@ -279,4 +279,3 @@ Barristan tries to explain the actions of Lord Stark to Daenerys, [Queen of Meer
 > By the end the Mad King had become so fearful that he would allow no blade in his presence, save for the swords his Kingsguard wore. His beard was matted and unwashed, his hair a silver-gold tangle that reached his waist, his fingernails cracked yellow claws nine inches long. Yet still the blades tormented him, the ones he could never escape, the blades of the Iron Throne. His arms and legs were always covered with scabs and half-healed cuts.
 >
 > — sources/chapters/affc/affc-jaime-02.md:137 · Most detailed book-text physical description of Aerys II in his final years: matted beard, waist-length hair, nine-inch yellow fingernails, Iron Throne wounds.  _(capture: chapter-quote sweep, physical)_
-

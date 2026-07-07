@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Leygood_(father_of_Lucas)"
 bucket_id: characters-house-leygood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Leygood (father of Lucas) is a character.human from the AWOIAF wiki.
+Leygood (father of Lucas) — sworn to House Leygood; Lord.
 
 ## Edges
 

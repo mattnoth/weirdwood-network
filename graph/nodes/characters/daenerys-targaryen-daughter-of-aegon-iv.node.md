@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daenerys_Targaryen_(daughter_of_Aegon_IV)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,6 +16,10 @@ first_available:
   source: cite_ref
   pov: "Tyrion I"
 ---
+
+## Identity
+
+Daenerys Targaryen (daughter of Aegon IV) (b. 172 AC) — child of Aegon IV Targaryen and Naerys Targaryen; married to Maron Martell; sworn to House Targaryen; Princess. One of 3 characters named Daenerys Targaryen.
 
 ## Origins
 

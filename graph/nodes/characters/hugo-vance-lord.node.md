@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hugo_Vance_(lord)"
 bucket_id: characters-house-vance-of-wayfarers-rest
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Hugo Vance (lord) is a character.human from the AWOIAF wiki.
+Hugo Vance (lord) — sworn to House Vance of Wayfarer's Rest; Lord of Wayfarer's Rest. One of 2 characters named Hugo Vance.
 
 ## Edges
 

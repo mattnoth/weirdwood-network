@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tristifer_IV_Mudd"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tristifer IV Mudd is a character.human from the AWOIAF wiki.
+Tristifer IV Mudd — King of the Rivers and the Hills. One of 2 characters named Tristifer Mudd.
 
 ## Edges
 

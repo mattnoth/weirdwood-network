@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tywin_Frey"
 bucket_id: characters-house-frey-t-z
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tywin Frey is a character.human from the AWOIAF wiki.
+Tywin Frey — child of Cleos Frey and Jeyne Darry; sworn to House Frey; Ser. One of 2 characters named Tywin Frey.
 
 ## Edges
 

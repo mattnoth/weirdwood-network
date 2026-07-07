@@ -10,10 +10,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemon_Targaryen_(son_of_Maekar_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
+
+## Identity
+
+Aemon Targaryen (son of Maekar I) (198–300 AC) — child of Maekar I Targaryen and Dyanna Dayne; sworn to House Targaryen; Prince. One of 3 Aemon Targaryens — see the Aemon Targaryen disambiguation entry.
 
 ## Origins
 

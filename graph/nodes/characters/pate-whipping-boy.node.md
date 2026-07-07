@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Pate_(whipping_boy)"
 bucket_id: characters-house-baratheon-of-kings-landing
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Pate (whipping boy) is a character.human from the AWOIAF wiki.
+Pate (whipping boy) — sworn to House Baratheon of King's Landing; Whipping boy. One of 4 characters named Pate.
 
 ## Edges
 

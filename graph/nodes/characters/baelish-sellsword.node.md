@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Baelish_(sellsword)"
 bucket_id: characters-house-corbray
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Baelish (sellsword) is a character.human from the AWOIAF wiki.
+Baelish (sellsword) — sworn to House Corbray. One of 2 characters named Baelish. The great-grandfather of Petyr Baelish was a Braavosi sellsword who came to the Vale of Arryn in service to House Corbray. (wiki:Baelish_(sellsword))
 
 ## Edges
 

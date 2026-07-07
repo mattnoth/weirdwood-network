@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Wat_(orphan)"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Wat (orphan) is a character.human from the AWOIAF wiki.
+Wat (orphan). One of 4 characters named Wat. An orphan from the War of the Five Kings taken in by the Heddles at the Inn at the crossroads. (wiki:Wat_(orphan))
 
 ## Edges
 

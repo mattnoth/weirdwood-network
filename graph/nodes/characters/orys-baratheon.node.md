@@ -9,9 +9,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Orys_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Orys Baratheon (d. 37 AC) — married to Argella Durrandon; sworn to House Baratheon; Lord of Storm's End.
 
 ## Origins
 

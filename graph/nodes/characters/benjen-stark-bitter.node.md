@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Benjen_Stark_(Bitter)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Benjen Stark (Bitter) is a character from the AWOIAF wiki.
+Benjen Stark (Bitter) — King in the North. One of 6 characters named Benjen Stark. A King in the North of House Stark who is buried in the crypts beneath Winterfell. (wiki:Benjen_Stark_(Bitter))
 
 ## Edges
 

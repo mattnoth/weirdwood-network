@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daenerys_Targaryen_(daughter_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Daenerys Targaryen (daughter of Jaehaerys I) (53–60 AC) — child of Jaehaerys I Targaryen and Alysanne Targaryen; sworn to House Targaryen; Princess. One of 3 characters named Daenerys Targaryen.
 
 ## Origins
 

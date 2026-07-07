@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rhaenyra Targaryen is a character.human from the AWOIAF wiki.
+Rhaenyra Targaryen (97–130 AC) — child of Aemma Arryn and Viserys I Targaryen; married to Daemon Targaryen and Laenor Velaryon; sworn to Blacks; Princess.
 
 ## Edges
 

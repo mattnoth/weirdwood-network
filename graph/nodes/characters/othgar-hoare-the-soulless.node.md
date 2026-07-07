@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Othgar_Hoare_(the_Soulless)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Othgar Hoare (the Soulless) is a character from the AWOIAF wiki.
+Othgar Hoare (the Soulless) — King of the Iron Islands. One of 2 characters named Othgar Hoare. A King of the Iron Islands from House Hoare who promoted the Faith of the Seven, discouraged reaving, and encouraged trade, opposed by Drowned God priests. (wiki:Othgar_Hoare_(the_Soulless))
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Norrey_(son_of_Brandon)"
 bucket_id: characters-house-norrey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Brandon Norrey (son of Brandon) is a character.human from the AWOIAF wiki.
+Brandon Norrey (son of Brandon) — child of Brandon Norrey; sworn to House Norrey. One of 2 characters named Brandon Norrey.
 
 ## Edges
 

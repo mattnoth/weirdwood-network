@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Balon_Greyjoy"
 bucket_id: characters-other-a-b
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Balon Greyjoy is a character.human from the AWOIAF wiki.
+Balon Greyjoy (d. 299 AC) — child of Quellon Greyjoy and Lady Sunderly (wife of Quellon Greyjoy); married to Alannys Harlaw; Lord of the Iron Islands. One of 2 characters named Balon Greyjoy.
 
 ## Edges
 

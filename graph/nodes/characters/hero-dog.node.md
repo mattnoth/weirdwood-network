@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Hero_(dog)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Hero (dog) is a character from the AWOIAF wiki.
+Hero (dog). One of 2 characters named Hero. A dog that belonged to Podrick Payne when he was young; mentioned as a good dog in a brief childhood memory. (wiki:Hero_(dog))
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Arlan_III_Durrandon"
 bucket_id: characters-other-a
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Arlan III Durrandon is a character.human from the AWOIAF wiki.
+Arlan III Durrandon — married to Shiera Blackwood; Storm King. One of 3 characters named Arlan Durrandon.
 
 ## Edges
 

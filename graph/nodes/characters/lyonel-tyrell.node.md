@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lyonel_Tyrell"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
+disambiguation_hub: true
 ---
 
 ## Identity
 
-Lyonel Tyrell is a character from the AWOIAF wiki.
+Disambiguation entry — "Lyonel Tyrell" may refer to: Lyonel Tyrell (son of Leo) (child of Alys Beesbury) (1 members).
 
 ## Edges
-

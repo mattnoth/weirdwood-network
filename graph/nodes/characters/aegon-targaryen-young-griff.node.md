@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(Young_Griff)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -18,6 +18,10 @@ first_available:
   pov: "Catelyn I"
 disputed: true
 ---
+
+## Identity
+
+Aegon Targaryen (Young Griff) — sworn to House Targaryen; Prince. One of 12 Aegon Targaryens — see the Aegon Targaryen disambiguation entry.
 
 ## Appearances & Description
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
 bucket_id: characters-other-l-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Maegor I Targaryen is a character.human from the AWOIAF wiki.
+Maegor I Targaryen (12–48 AC) — child of Aegon I Targaryen and Visenya Targaryen; married to Alys Harroway and Ceryse Hightower and Elinor Costayne and Jeyne Westerling (wife of Maegor I) and Rhaena Targaryen (daughter of Aenys I) and Tyanna of the Tower; Prince. One of 2 Maegor Targaryens — see the Maegor Targaryen disambiguation entry.
 
 ## Edges
 

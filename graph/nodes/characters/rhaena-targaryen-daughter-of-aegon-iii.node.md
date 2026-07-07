@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Aegon_III)
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: Davos I
 ---
+
+## Identity
+
+Rhaena Targaryen (daughter of Aegon III) (b. 147 AC) — child of Aegon III Targaryen and Daenaera Velaryon; sworn to House Targaryen; Princess. One of 3 Rhaena Targaryens — see the Rhaena Targaryen disambiguation entry.
 
 ## Origins
 

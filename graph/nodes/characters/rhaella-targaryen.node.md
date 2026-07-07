@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaella_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: Catelyn I
 ---
+
+## Identity
+
+Rhaella Targaryen (d. 284 AC) — child of Jaehaerys II Targaryen and Shaera Targaryen; married to Aerys II Targaryen; sworn to House Targaryen; Princess. One of 2 characters named Rhaella Targaryen.
 
 ## Origins
 

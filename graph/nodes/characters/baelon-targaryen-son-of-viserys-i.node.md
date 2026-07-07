@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baelon_Targaryen_(son_of_Viserys_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Baelon Targaryen (son of Viserys I) (105–105 AC) — child of Viserys I Targaryen and Aemma Arryn; sworn to House Targaryen; Prince. One of 3 Baelon Targaryens — see the Baelon Targaryen disambiguation entry.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Westerling_(wife_of_Maegor_I)"
 bucket_id: characters-house-westerling
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jeyne Westerling (wife of Maegor I) is a character.human from the AWOIAF wiki.
+Jeyne Westerling (wife of Maegor I) (d. 48 AC) — married to Alyn Tarbeck and Maegor I Targaryen; sworn to House Westerling. One of 2 characters named Jeyne Westerling.
 
 ## Edges
 

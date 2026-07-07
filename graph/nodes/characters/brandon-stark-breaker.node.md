@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(Breaker)"
 bucket_id: characters-other-b
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Brandon Stark (Breaker) is a character.human from the AWOIAF wiki.
+Brandon Stark (Breaker) — King of Winter. One of 15 characters named Brandon Stark. A King of Winter who formed an alliance with Joramun to end the thirteen-year rule of the Night's King at the Wall. (wiki:Brandon_Stark_(Breaker))
 
 ## Edges
 

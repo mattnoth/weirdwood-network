@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robin"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robin is a character.human from the AWOIAF wiki.
+Robin. One of 2 characters named Robin. A riverman, brother of Septon Meribald, who died from fever during the War of the Ninepenny Kings at the Stepstones in 260 AC. (wiki:Robin)
 
 ## Edges
 

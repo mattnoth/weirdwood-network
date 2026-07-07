@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rickon_Stark_(son_of_Cregan)
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Rickon Stark (son of Cregan) (b. 128 AC) — child of Cregan Stark and Arra Norrey; married to Jeyne Manderly; sworn to House Stark. One of 3 characters named Rickon Stark.
 
 ## Origins
 

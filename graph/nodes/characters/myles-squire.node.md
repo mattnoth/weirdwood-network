@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Myles_(squire)"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: "ACOK"
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Arya VIII"
 ---
+
+## Identity
+
+Myles (squire) — sworn to House Tully. One of 2 characters named Myles. Squire to Ser Desmond Grell, the master-at-arms of Riverrun, he was slain by Jaime Lannister during a rescue attempt in 299 AC. (wiki:Myles_(squire))
 
 ## Narrative Arc
 

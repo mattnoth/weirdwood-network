@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corwyn_Corbray_(lord)"
 bucket_id: characters-house-corbray
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Corwyn Corbray (lord) is a character.human from the AWOIAF wiki.
+Corwyn Corbray (lord) — married to Jon Brightstone; sworn to House Corbray; Ser. One of 2 characters named Corwyn Corbray.
 
 ## Edges
 

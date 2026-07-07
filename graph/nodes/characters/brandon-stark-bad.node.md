@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(Bad)"
 bucket_id: characters-other-b
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Brandon Stark (Bad) is a character.human from the AWOIAF wiki.
+Brandon Stark (Bad) — King in the North. One of 15 characters named Brandon Stark. Brandon the Bad was a King in the North of House Stark who is buried in the crypts beneath Winterfell. (wiki:Brandon_Stark_(Bad))
 
 ## Edges
 

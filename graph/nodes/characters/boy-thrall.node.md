@@ -8,9 +8,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Boy_(thrall)
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Boy (thrall) — sworn to House Greyjoy. One of 2 characters named Boy. A young thrall and oarsman in the Iron Fleet who has been rowing for less than a year and is roughly twenty years old. (wiki:Boy_(thrall))
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Sabitha_Frey"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Sabitha Frey is a character from the AWOIAF wiki.
+Sabitha Frey — married to Forrest Frey; sworn to House Vypren.
 
 ## Edges
 

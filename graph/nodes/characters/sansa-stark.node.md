@@ -12,10 +12,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Sansa_Stark
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: always available
 ---
+
+## Identity
+
+Sansa Stark (b. 286 AC) — child of Catelyn Stark; sworn to House Stark; Princess. One of 2 characters named Sansa Stark.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Willow_(daughter_of_Aegon_IV)"
 bucket_id: characters-other-w-y
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Willow (daughter of Aegon IV) is a character.human from the AWOIAF wiki.
+Willow (daughter of Aegon IV) (b. 157 AC) — child of Aegon IV Targaryen and Megette; sworn to Faith of the Seven; Septa.
 
 ## Edges
 

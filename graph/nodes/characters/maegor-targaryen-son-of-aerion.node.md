@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_Targaryen_(son_of_Aerion)"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Maegor Targaryen (son of Aerion) (b. 232 AC) — child of Aerion Targaryen and Daenora Targaryen; sworn to House Targaryen; Prince. One of 2 Maegor Targaryens — see the Maegor Targaryen disambiguation entry.
 
 ## Origins
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rosey"
 bucket_id: characters-other-r-s
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rosey is a character.human from the AWOIAF wiki.
+Rosey — sworn to Quill and Tankard. One of 2 characters named Rosey. Rosey is the daughter of Emma, a serving wench at the Quill and Tankard in Oldtown. (wiki:Rosey)
 
 ## Edges
 

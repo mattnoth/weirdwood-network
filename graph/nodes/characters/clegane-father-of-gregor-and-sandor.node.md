@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Clegane_(father_of_Gregor_and_Sandor)"
 bucket_id: characters-house-clegane
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Clegane (father of Gregor and Sandor) is a character.human from the AWOIAF wiki.
+Clegane (father of Gregor and Sandor) — child of Clegane (founder); sworn to House Clegane; Ser. One of 2 characters named Clegane.
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Gerold_Lannister_(king)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gerold Lannister (king) is a character from the AWOIAF wiki.
+Gerold Lannister (king) — King of the Rock. One of 4 characters named Gerold Lannister. Gerold Lannister, called Gerold the Great, was a King of the Rock of House Lannister. (wiki:Gerold_Lannister_(king))
 
 ## Edges
 

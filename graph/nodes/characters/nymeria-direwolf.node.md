@@ -9,13 +9,17 @@ confidence: tier-2
 wiki_source: https://awoiaf.westeros.org/index.php/Nymeria_(direwolf)
 bucket_id: direwolves
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
   chapter: 7
   source: cite_ref
 ---
+
+## Identity
+
+Nymeria (b. 298 AC). One of 2 characters named Nymeria. A direwolf bonded to Arya Stark, named after Princess Nymeria of the Rhoynar. (wiki:Nymeria_(direwolf))
 
 ## Appearances & Description
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Erich_VII_Durrandon"
 bucket_id: characters-other-e-f
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Erich VII Durrandon is a character.human from the AWOIAF wiki.
+Erich VII Durrandon — Storm King. One of 3 characters named Erich Durrandon.
 
 ## Edges
 

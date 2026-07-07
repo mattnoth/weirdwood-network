@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_II_Blackfyre"
 bucket_id: characters-house-blackfyre
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daemon II Blackfyre is a character.human from the AWOIAF wiki.
+Daemon II Blackfyre (b. 189 AC) — child of Daemon I Blackfyre and Rohanne of Tyrosh; sworn to House Blackfyre; Prince. One of 4 characters named Daemon Blackfyre.
 
 ## Edges
 

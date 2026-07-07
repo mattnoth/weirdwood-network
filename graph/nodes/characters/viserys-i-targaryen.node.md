@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Viserys I Targaryen is a character.human from the AWOIAF wiki.
+Viserys I Targaryen (77–129 AC) — child of Alyssa Targaryen and Baelon Targaryen (son of Jaehaerys I); married to Aemma Arryn and Alicent Hightower; Prince of Dragonstone. One of 4 characters named Viserys Targaryen.
 
 ## Edges
 

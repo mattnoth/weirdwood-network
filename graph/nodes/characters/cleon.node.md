@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Cleon"
 bucket_id: characters-other-c
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Cleon is a character.human from the AWOIAF wiki.
+Cleon — King of Astapor. Cleon is a butcher and cook enslaved to Grazdan mo Ullhor. (wiki:Cleon)
 
 ## Edges
 

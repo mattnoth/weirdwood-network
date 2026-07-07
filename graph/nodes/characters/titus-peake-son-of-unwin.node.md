@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Titus_Peake_(son_of_Unwin)"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Titus Peake (son of Unwin) is a character.human from the AWOIAF wiki.
+Titus Peake (son of Unwin) — child of Unwin Peake; sworn to House Peake; Ser. One of 2 characters named Titus Peake.
 
 ## Edges
 

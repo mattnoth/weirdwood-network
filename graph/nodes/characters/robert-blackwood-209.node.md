@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Blackwood_(209)"
 bucket_id: characters-house-blackwood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robert Blackwood (209) is a character.human from the AWOIAF wiki.
+Robert Blackwood (209) — sworn to House Blackwood. One of 2 characters named Robert Blackwood. A Blackwood nobleman who participated in the tourney at Ashford Meadow in 209 AC, possibly a second son with personal arms of two weirwood trees. (wiki:Robert_Blackwood_(209))
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Wat_(sailor)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Wat (sailor) is a character from the AWOIAF wiki.
+Wat (sailor). One of 4 characters named Wat. A crew member of the Brazen Monkey who approached Cat of the Canals in Braavos. (wiki:Wat_(sailor))
 
 ## Edges
 

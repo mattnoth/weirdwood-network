@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Frey_(son_of_Raymund)"
 bucket_id: characters-house-frey-m-t
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robert Frey (son of Raymund) is a character.human from the AWOIAF wiki.
+Robert Frey (son of Raymund) (b. 283 AC) — child of Raymund Frey and Beony Beesbury; sworn to House Frey; Acolyte. One of 2 Robert Freys — see the Robert Frey disambiguation entry.
 
 ## Edges
 

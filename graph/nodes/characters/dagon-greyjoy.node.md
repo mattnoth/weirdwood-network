@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dagon_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,6 +16,10 @@ first_available:
   source: cite_ref
   pov: Cersei IV
 ---
+
+## Identity
+
+Dagon Greyjoy — sworn to House Greyjoy; Lord Reaper of Pyke. One of 2 characters named Dagon Greyjoy.
 
 ## Origins
 

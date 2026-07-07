@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Benjen_Stark_(son_of_Bennard)"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Benjen Stark (son of Bennard) — child of Bennard Stark and Margaret Karstark; sworn to House Stark. One of 6 characters named Benjen Stark.
 
 ## Origins
 

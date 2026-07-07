@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Justin_Massey"
 bucket_id: characters-house-massey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Justin Massey is a character.human from the AWOIAF wiki.
+Justin Massey — sworn to House Massey; Ser. One of 2 characters named Justin Massey.
 
 ## Edges
 

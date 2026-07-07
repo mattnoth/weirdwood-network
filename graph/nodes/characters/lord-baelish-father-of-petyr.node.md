@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Baelish_(father_of_Petyr)"
 bucket_id: characters-house-baelish
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Baelish (father of Petyr) is a character.human from the AWOIAF wiki.
+Lord Baelish (father of Petyr) — child of Baelish (hedge knight); married to Alayne Baelish; sworn to House Baelish; Lord.
 
 ## Edges
 

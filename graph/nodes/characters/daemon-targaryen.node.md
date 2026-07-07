@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daemon Targaryen is a character.human from the AWOIAF wiki.
+Daemon Targaryen (81–130 AC) — child of Alyssa Targaryen and Baelon Targaryen (son of Jaehaerys I); married to Rhea Royce and Laena Velaryon and Rhaenyra Targaryen; sworn to House Targaryen; Prince.
 
 ## Edges
 

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Cerelle_Lannister_(daughter_of_Jason)
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Cerelle Lannister (daughter of Jason) — child of Jason Lannister and Johanna Lannister; sworn to House Lannister. One of 2 characters named Cerelle Lannister.
 
 ## Origins
 

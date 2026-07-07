@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jez_(serving_girl)"
 bucket_id: characters-house-bolton
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jez (serving girl) is a character.human from the AWOIAF wiki.
+Jez (serving girl) — sworn to House Bolton. One of 2 characters named Jez. A serving girl at Winterfell who was replaced by spearwives disguised as servants after Ramsay Bolton's wedding. (wiki:Jez_(serving_girl))
 
 ## Edges
 

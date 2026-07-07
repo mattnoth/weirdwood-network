@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Harmund_III_Hoare"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Harmund III Hoare is a character from the AWOIAF wiki.
+Harmund III Hoare — child of Harmund II Hoare and Lelia Lannister; King of the Iron Islands. One of 3 characters named Harmund Hoare.
 
 ## Edges
 

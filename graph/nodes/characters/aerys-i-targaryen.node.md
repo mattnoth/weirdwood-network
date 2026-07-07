@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerys_I_Targaryen"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Aerys I Targaryen is a character from the AWOIAF wiki.
+Aerys I Targaryen (d. 221 AC) — child of Daeron II Targaryen and Myriah Martell; married to Aelinor Penrose; King of the Andals, the Rhoynar, and the First Men. One of 3 characters named Aerys Targaryen.
 
 ## Edges
 

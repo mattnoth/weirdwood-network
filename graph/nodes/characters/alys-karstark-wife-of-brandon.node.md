@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Karstark_(wife_of_Brandon)"
 bucket_id: characters-house-karstark
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alys Karstark (wife of Brandon) is a character.human from the AWOIAF wiki.
+Alys Karstark (wife of Brandon) — married to Brandon Stark (son of Cregan); sworn to House Karstark. One of 2 characters named Alys Karstark.
 
 ## Edges
 

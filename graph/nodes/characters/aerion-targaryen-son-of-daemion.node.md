@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerion_Targaryen_(son_of_Daemion)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Aerion Targaryen (son of Daemion) — child of Daemion Targaryen; married to Valaena Velaryon; sworn to House Targaryen; Lord of Dragonstone. One of 2 characters named Aerion Targaryen.
 
 ## Origins
 

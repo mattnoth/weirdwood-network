@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daeron_II_Targaryen"
 bucket_id: characters-other-c-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daeron II Targaryen is a character.human from the AWOIAF wiki.
+Daeron II Targaryen (153–209 AC) — child of Naerys Targaryen; married to Myriah Martell; Prince of Dragonstone. One of 6 Daeron Targaryens — see the Daeron Targaryen disambiguation entry.
 
 ## Edges
 

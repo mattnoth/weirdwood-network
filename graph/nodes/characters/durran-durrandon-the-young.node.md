@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Durran_Durrandon_(the_Young)"
 bucket_id: characters-other-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Durran Durrandon (the Young) is a character.human from the AWOIAF wiki.
+Durran Durrandon (the Young) — Storm King. One of 11 characters named Durran Durrandon. Durran Durrandon, also known as Durran the Young and the Butcher Boy, was a Storm King. (wiki:Durran_Durrandon_(the_Young))
 
 ## Edges
 

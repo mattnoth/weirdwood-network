@@ -7,13 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Walda_Frey"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
+disambiguation_hub: true
 ---
 
 ## Identity
 
-Walda Frey is a character from the AWOIAF wiki.
+Disambiguation entry — "Walda Frey" may refer to: Walda Frey (daughter of Edwyn) (child of Janyce Hunter); Walda Frey (daughter of Lothar) (child of Lothar Frey); Walda Frey (daughter of Merrett) (child of Merrett Frey); Walda Frey (daughter of Rhaegar) (child of Rhaegar Frey); Walda Frey (daughter of Walton) (child of Walton Frey) (5 members).
 
 ## Quotes
 
@@ -22,4 +23,3 @@ Walda Frey is a character from the AWOIAF wiki.
 — Walda Frey (Lady Bolton) to Ser Wendel Manderly, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:29`)
 
 ## Edges
-

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mudge_(brotherhood)"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Mudge (brotherhood) is a character.human from the AWOIAF wiki.
+Mudge (brotherhood) — sworn to Brotherhood Without Banners; Ser. One of 3 characters named Mudge.
 
 ## Edges
 

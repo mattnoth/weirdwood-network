@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Manfred_Hightower_(son_of_Addam)"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Manfred Hightower (son of Addam) is a character.human from the AWOIAF wiki.
+Manfred Hightower (son of Addam) (d. 41 AC) — child of Addam Hightower; sworn to House Hightower; Beacon of the South. One of 2 Manfred Hightowers — see the Manfred Hightower disambiguation entry.
 
 ## Edges
 

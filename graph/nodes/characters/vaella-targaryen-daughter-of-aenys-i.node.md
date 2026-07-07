@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Vaella_Targaryen_(daughter_of_Aenys_I)
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Vaella Targaryen (daughter of Aenys I) (39–39 AC) — child of Aenys I Targaryen and Alyssa Velaryon; sworn to House Targaryen; Princess. One of 2 Vaella Targaryens — see the Vaella Targaryen disambiguation entry.
 
 ## Origins
 

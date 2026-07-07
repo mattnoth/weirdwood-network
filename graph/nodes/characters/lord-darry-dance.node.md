@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Darry_(Dance)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Darry (Dance) is a character from the AWOIAF wiki.
+Lord Darry (Dance) — sworn to House Darry; Lord of Darry. One of 2 characters named Lord Darry.
 
 ## Edges
 

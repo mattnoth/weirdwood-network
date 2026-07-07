@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Bracken_(father_of_Otho)"
 bucket_id: characters-house-bracken
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Bracken (father of Otho) is a character.human from the AWOIAF wiki.
+Lord Bracken (father of Otho) — sworn to House Bracken; Lord of the Stone Hedge. One of 3 characters named Lord Bracken.
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Daemon Velaryon is a character.human from the AWOIAF wiki.
+Daemon Velaryon (d. 2 BC) — sworn to House Velaryon; Lord of the Tides. One of 2 characters named Daemon Velaryon.
 
 ## Edges
 

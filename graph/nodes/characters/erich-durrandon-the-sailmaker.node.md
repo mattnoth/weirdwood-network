@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Erich_Durrandon_(the_Sailmaker)"
 bucket_id: characters-other-d-e
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Erich Durrandon (the Sailmaker) is a character.human from the AWOIAF wiki.
+Erich Durrandon (the Sailmaker) — child of Durran Durrandon (the Fair); Storm King. One of 3 characters named Erich Durrandon.
 
 ## Edges
 

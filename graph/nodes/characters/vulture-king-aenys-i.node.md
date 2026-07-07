@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vulture_King_(Aenys_I)"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Vulture King (Aenys I) is a character.human from the AWOIAF wiki.
+Vulture King (Aenys I) (d. 37 AC). One of 4 characters named Vulture King. The Vulture King was a Dornish outlaw who gathered thousands of followers to rise against King Aenys I Targaryen in the Second Dornish War. His given name is unknown. (wiki:Vulture_King_(Aenys_I))
 
 ## Edges
 

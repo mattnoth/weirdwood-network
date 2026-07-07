@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Caswell_(Dance)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Caswell (Dance) is a character from the AWOIAF wiki.
+Lord Caswell (Dance) — married to Lady Caswell; sworn to House Caswell; Lord of Bitterbridge. One of 2 characters named Lord Caswell.
 
 ## Edges
 

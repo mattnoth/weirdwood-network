@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Kennet_(maester)
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Kennet (maester) — sworn to Citadel; Maester. One of 2 characters named Kennet.
 
 ## Origins
 

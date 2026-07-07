@@ -11,10 +11,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Lyanna_Stark
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: "AGOT Bran I"
 ---
+
+## Identity
+
+Lyanna Stark (d. 283 AC) — child of Rickard Stark and Lyarra Stark; sworn to House Stark. One of 2 characters named Lyanna Stark.
 
 ## Origins
 

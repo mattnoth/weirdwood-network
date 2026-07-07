@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Desmond"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: Prologue
 ---
+
+## Identity
+
+Desmond (d. 298 AC) — sworn to House Stark. One of 2 characters named Desmond.
 
 ## Appearances & Description
 

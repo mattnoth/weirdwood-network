@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Viserys_II_Targaryen"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Viserys II Targaryen is a character.human from the AWOIAF wiki.
+Viserys II Targaryen (122–172 AC) — child of Daemon Targaryen and Rhaenyra Targaryen; married to Larra Rogare; Hand of the King. One of 4 characters named Viserys Targaryen.
 
 ## Edges
 

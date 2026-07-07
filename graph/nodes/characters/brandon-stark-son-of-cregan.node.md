@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(son_of_Cregan)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Jon VIII"
 ---
+
+## Identity
+
+Brandon Stark (son of Cregan) — child of Cregan Stark and Lynara Stark; married to Alys Karstark (wife of Brandon); sworn to House Stark; Lord of Winterfell. One of 15 characters named Brandon Stark.
 
 ## Origins
 

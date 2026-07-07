@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegor_Rivers"
 bucket_id: characters-house-bracken
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Aegor Rivers is a character.human from the AWOIAF wiki.
+Aegor Rivers (172–241 AC) — child of Aegon IV Targaryen and Barba Bracken; married to Calla Blackfyre; sworn to House Bracken; Ser.
 
 ## Edges
 

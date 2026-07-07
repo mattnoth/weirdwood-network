@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Blood_(butcher)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Blood (butcher) is a character from the AWOIAF wiki.
+Blood (butcher) — sworn to City Watch of King's Landing; Serjeant. One of 2 characters named Blood.
 
 ## Edges
 

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Butterwell_(Dance)"
 bucket_id: characters-house-butterwell
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Butterwell (Dance) is a character.human from the AWOIAF wiki.
+Lord Butterwell (Dance) — sworn to House Butterwell; Lord. One of 3 characters named Lord Butterwell.
 
 ## Edges
 

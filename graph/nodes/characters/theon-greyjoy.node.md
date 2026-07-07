@@ -14,7 +14,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Theon_Greyjoy
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -23,6 +23,10 @@ first_available:
   pov: "Prologue"
 same_as: null
 ---
+
+## Identity
+
+Theon Greyjoy — child of Balon Greyjoy; sworn to House Greyjoy; Prince of Winterfell. One of 2 characters named Theon Greyjoy.
 
 ## Cross-identity: Theon as "Reek (III)"
 

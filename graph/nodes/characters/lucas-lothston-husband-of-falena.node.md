@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucas_Lothston_(husband_of_Falena)"
 bucket_id: characters-house-lothston
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lucas Lothston (husband of Falena) is a character.human from the AWOIAF wiki.
+Lucas Lothston (husband of Falena) — married to Falena Stokeworth; sworn to House Lothston; Ser. One of 2 Lucas Lothstons — see the Lucas Lothston disambiguation entry.
 
 ## Edges
 

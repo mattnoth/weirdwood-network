@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vulture_King_(Daeron_II)"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Vulture King (Daeron II) is a character.human from the AWOIAF wiki.
+Vulture King (Daeron II) — Vulture King. One of 4 characters named Vulture King. The Vulture King was a self-proclaimed king who rose up against the Iron Throne from the Red Mountains of Dorne during the reign of King Daeron II Targaryen. (wiki:Vulture_King_(Daeron_II))
 
 ## Edges
 

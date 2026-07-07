@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Baelor_I_Targaryen"
 bucket_id: characters-other-a-b
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Baelor I Targaryen is a character.human from the AWOIAF wiki.
+Baelor I Targaryen (144–171 AC) — child of Aegon III Targaryen and Daenaera Velaryon; married to Daena Targaryen; King of the Andals, the Rhoynar, and the First Men. One of 2 Baelor Targaryens — see the Baelor Targaryen disambiguation entry.
 
 ## Edges
 

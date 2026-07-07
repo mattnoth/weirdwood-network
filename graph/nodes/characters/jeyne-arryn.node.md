@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Arryn"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jeyne Arryn is a character from the AWOIAF wiki.
+Jeyne Arryn (94–134 AC) — child of Lord Arryn (father of Jeyne); sworn to House Arryn; Defender of the Vale.
 
 ## Edges
 

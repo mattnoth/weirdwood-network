@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Walda_Rivers_(daughter_of_Aemon)"
 bucket_id: characters-house-frey-t-z
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Walda Rivers (daughter of Aemon) is a character.human from the AWOIAF wiki.
+Walda Rivers (daughter of Aemon) — child of Aemon Rivers; sworn to House Frey. One of 2 characters named Walda Rivers.
 
 ## Edges
 

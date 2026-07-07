@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Pate_(orphan)"
 bucket_id: characters-other-o-p
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Pate (orphan) is a character.human from the AWOIAF wiki.
+Pate (orphan). One of 4 characters named Pate. A boy orphaned by the War of the Five Kings, taken in by the Heddles at the crossroads inn. (wiki:Pate_(orphan))
 
 ## Edges
 
