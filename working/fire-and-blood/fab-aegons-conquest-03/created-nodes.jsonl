@@ -1,0 +1,36 @@
+{"unit": "fab-aegons-conquest-03", "name": "Daenys", "slug": "daenys", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Arrec", "slug": "arrec", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Bar Emmon", "slug": "lord-bar-emmon", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Darklyn", "slug": "lord-darklyn", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Mooton", "slug": "lord-mooton", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Errol", "slug": "lord-errol", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Oakheart", "slug": "lord-oakheart", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Falcon Crown of Mountain and Vale", "slug": "falcon-crown-of-mountain-and-vale", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Blackwoods", "slug": "blackwoods", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Mallisters", "slug": "mallisters", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Vances", "slug": "vances", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Brackens", "slug": "brackens", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Pipers", "slug": "pipers", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Strongs", "slug": "strongs", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Mudds", "slug": "mudds", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Fishers", "slug": "fishers", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Hooks", "slug": "hooks", "type": "house"}
+{"unit": "fab-aegons-conquest-03", "name": "Snow", "slug": "snow", "type": "place"}
+{"unit": "fab-aegons-conquest-03", "name": "Mern IX Gardener; Loren I Lannister", "slug": "mern-ix-gardener-loren-i-lannister", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Darklyn; Lord Mooton", "slug": "lord-darklyn-lord-mooton", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "the Targaryen host at Storm's End", "slug": "the-targaryen-host-at-storms-end", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon's host at the Field of Fire", "slug": "aegons-host-at-the-field-of-fire", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "the Targaryen fleet", "slug": "the-targaryen-fleet", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Sharra Arryn; Ronnel Arryn", "slug": "sharra-arryn-ronnel-arryn", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Visenya Targaryen; Rhaenys Targaryen", "slug": "visenya-targaryen-rhaenys-targaryen", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Hightower's youngest daughter", "slug": "hightowers-youngest-daughter", "type": "character.human"}
+{"unit": "fab-aegons-conquest-03", "name": "Aenar's exodus to Dragonstone", "slug": "aenars-exodus-to-dragonstone", "type": "event.migration"}
+{"unit": "fab-aegons-conquest-03", "name": "Submission of Rosby", "slug": "submission-of-rosby", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Battle against Darklyn and Mooton", "slug": "battle-against-darklyn-and-mooton", "type": "event.battle"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon's first coronation", "slug": "aegons-first-coronation", "type": "event.coronation"}
+{"unit": "fab-aegons-conquest-03", "name": "Surrender of Storm's End", "slug": "surrender-of-storms-end", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Surrender of Highgarden", "slug": "surrender-of-highgarden", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Torrhen Stark's kneeling", "slug": "torrhen-starks-kneeling", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Surrender of the Vale", "slug": "surrender-of-the-vale", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Rhaenys's parley with Meria Martell", "slug": "rhaenyss-parley-with-meria-martell", "type": "event.negotiation"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon's second coronation", "slug": "aegons-second-coronation", "type": "event.coronation"}

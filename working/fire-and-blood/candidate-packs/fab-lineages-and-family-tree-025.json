@@ -1,0 +1,16 @@
+{
+  "nn": "025",
+  "slug": "lineages-and-family-tree",
+  "section_title": "Lineages and Family Tree",
+  "expected_slugs": [
+    "gyldayn"
+  ],
+  "per_slug": {
+    "gyldayn": {
+      "name": "Gyldayn",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    }
+  }
+}

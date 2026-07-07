@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "unit": "fab-aegons-conquest-03",
+    "session": "fab-reconcile",
+    "run_id": "fab-aegons-conquest-03-2026-07-06",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "ser-wendell-whitebeard-the-younger"
+    ],
+    "note": "Fire & Blood reconciler output for fab-aegons-conquest-03 (smoke=True).",
+    "produced_at": "2026-07-06T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E2",
+      "type": "ALLIES_WITH",
+      "source": "criston-cole",
+      "target": "orys-baratheon",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "The Targaryens were of pure Valyrian blood, dragonlords of ancient lineage.",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Criston Cole ALLIES_WITH Orys Baratheon"
+    },
+    {
+      "id": "E4",
+      "type": "COMPANION_OF",
+      "source": "orys-baratheon",
+      "target": "criston-cole",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "The Targaryens were of pure Valyrian blood, dragonlords of ancient lineage.",
+      "tier": "tier-2",
+      "note": "Fire & Blood: Orys Baratheon COMPANION_OF Criston Cole",
+      "in_universe_source": "mushroom",
+      "disputed": true
+    }
+  ]
+}

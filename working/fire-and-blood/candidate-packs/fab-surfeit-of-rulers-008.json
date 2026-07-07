@@ -1,0 +1,964 @@
+{
+  "nn": "008",
+  "slug": "surfeit-of-rulers",
+  "section_title": "A Surfeit of Rulers",
+  "expected_slugs": [
+    "rogar-baratheon",
+    "jaehaerys-i-targaryen",
+    "elissa-farman",
+    "aerea-targaryen",
+    "alysanne-targaryen",
+    "androw-farman",
+    "a-caution-for-young-girls",
+    "rhaena-targaryen-daughter-of-aenys-i",
+    "borys-baratheon",
+    "faircastle",
+    "regent",
+    "septa",
+    "dragon-egg",
+    "alyssa-velaryon",
+    "coryanne-wylde",
+    "ella-broome",
+    "elyas-scales",
+    "four-headed-beast",
+    "lyman-lannister",
+    "qarl-corbray",
+    "tyler-hill",
+    "starry-sept",
+    "septon",
+    "lady-forlorn",
+    "alaric-stark",
+    "barth",
+    "casper-straw",
+    "culiper",
+    "daemon-velaryon-son-of-aethan",
+    "edyth",
+    "franklyn-farman",
+    "howard-bullock",
+    "karolyn",
+    "lyra",
+    "ryben",
+    "samantha-stokeworth",
+    "surly-lad",
+    "bedding",
+    "fosterage",
+    "house-farman",
+    "house-stark",
+    "fair-isle",
+    "kings-gate",
+    "oldtown",
+    "hand-of-the-king",
+    "lord-of-fair-isle",
+    "man-at-arms",
+    "ice",
+    "wise-woman",
+    "alayne-royce",
+    "albin-massey",
+    "alton-butterwell",
+    "alyn-bullock",
+    "brandon-stark-father-of-walton",
+    "corwyn-velaryon",
+    "donnel-hightower",
+    "dreamfyre",
+    "edwell-celtigar",
+    "elinor-costayne",
+    "florian-the-fool",
+    "garon-baratheon",
+    "gyles-morrigen",
+    "jennis-templeton",
+    "jocasta-lannister",
+    "joffrey-doggett",
+    "jonquil",
+    "jorgen-velaryon",
+    "lord-darklyn-father-of-jonquil-darke",
+    "lord-staunton-father-of-cassella",
+    "lucinda-tully",
+    "maegor-i-targaryen",
+    "marq-farman",
+    "merrell-bullock",
+    "morgan-wylde",
+    "olyver-bracken",
+    "orryn-baratheon",
+    "pate-the-woodcock",
+    "prentys-tully",
+    "raymund-mallery",
+    "rhaella-targaryen-daughter-of-aegon",
+    "ronnal-baratheon",
+    "samgood-of-sour-hill",
+    "vermithor",
+    "victor-velaryon",
+    "walton-stark-son-of-brandon",
+    "ysabel",
+    "golden-wedding",
+    "wedding-of-rhaena-targaryen-and-androw-farman",
+    "captain-of-the-guards",
+    "council-of-magisters-pentos",
+    "free-company-sellsword-company",
+    "house-targaryen-guards",
+    "stormlanders",
+    "warlocks",
+    "cod",
+    "house-bracken",
+    "house-bullock",
+    "house-lannister",
+    "house-scales",
+    "house-straw",
+    "arbor",
+    "basilisk-isles",
+    "beyond-the-wall",
+    "braavos",
+    "casterly-rock",
+    "disputed-lands",
+    "dragonpit",
+    "driftmark",
+    "eastwatch-by-the-sea",
+    "lannisport",
+    "lys",
+    "maidenpool",
+    "myr",
+    "qarth",
+    "rain-house",
+    "rimegate",
+    "sable-hall",
+    "stormlands",
+    "three-towers",
+    "dragonglass",
+    "hair-dye",
+    "giants",
+    "the-seven-pointed-star",
+    "begging-brother",
+    "lord-of-duskendale",
+    "lord-of-sharp-point",
+    "lord-of-stokeworth",
+    "lord-of-the-rain-house",
+    "motherhouse"
+  ],
+  "per_slug": {
+    "rogar-baratheon": {
+      "name": "Rogar Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 12
+    },
+    "jaehaerys-i-targaryen": {
+      "name": "Jaehaerys I Targaryen",
+      "aliases": [
+        "Jaehaerys the Conciliator",
+        "The Old King",
+        "Jaehaerys the Wise",
+        "Old King Jaehaerys"
+      ],
+      "type": "character.human",
+      "anchor_count": 10
+    },
+    "elissa-farman": {
+      "name": "Elissa Farman",
+      "aliases": [
+        "Alys Westhill",
+        "Lady Westhill"
+      ],
+      "type": "character.human",
+      "anchor_count": 7
+    },
+    "aerea-targaryen": {
+      "name": "Aerea Targaryen",
+      "aliases": [
+        "Rhaella Targaryen (allegedly)"
+      ],
+      "type": "character.human",
+      "anchor_count": 6
+    },
+    "alysanne-targaryen": {
+      "name": "Alysanne Targaryen",
+      "aliases": [
+        "Good Queen Alysanne",
+        "The little maid",
+        "The other daughter"
+      ],
+      "type": "character.human",
+      "anchor_count": 6
+    },
+    "androw-farman": {
+      "name": "Androw Farman",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 6
+    },
+    "a-caution-for-young-girls": {
+      "name": "A Caution for Young Girls",
+      "aliases": [],
+      "type": "object.text",
+      "anchor_count": 6
+    },
+    "rhaena-targaryen-daughter-of-aenys-i": {
+      "name": "Rhaena Targaryen (daughter of Aenys I)",
+      "aliases": [
+        "Black Bride",
+        "The Queen in the West",
+        "The Queen in the East"
+      ],
+      "type": "character.human",
+      "anchor_count": 5
+    },
+    "borys-baratheon": {
+      "name": "Borys Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 4
+    },
+    "faircastle": {
+      "name": "Faircastle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 4
+    },
+    "regent": {
+      "name": "Regent",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 4
+    },
+    "septa": {
+      "name": "Septa",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 4
+    },
+    "dragon-egg": {
+      "name": "Dragon egg",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 3
+    },
+    "alyssa-velaryon": {
+      "name": "Alyssa Velaryon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "coryanne-wylde": {
+      "name": "Coryanne Wylde",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "ella-broome": {
+      "name": "Ella Broome",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "elyas-scales": {
+      "name": "Elyas Scales",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "four-headed-beast": {
+      "name": "Four-Headed Beast",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "lyman-lannister": {
+      "name": "Lyman Lannister",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "qarl-corbray": {
+      "name": "Qarl Corbray",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "tyler-hill": {
+      "name": "Tyler Hill",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "starry-sept": {
+      "name": "Starry Sept",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 3
+    },
+    "septon": {
+      "name": "Septon",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 3
+    },
+    "lady-forlorn": {
+      "name": "Lady Forlorn",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 2
+    },
+    "alaric-stark": {
+      "name": "Alaric Stark",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "barth": {
+      "name": "Barth",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "casper-straw": {
+      "name": "Casper Straw",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "culiper": {
+      "name": "Culiper",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "daemon-velaryon-son-of-aethan": {
+      "name": "Daemon Velaryon (son of Aethan)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "edyth": {
+      "name": "Edyth",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "franklyn-farman": {
+      "name": "Franklyn Farman",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "howard-bullock": {
+      "name": "Howard Bullock",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "karolyn": {
+      "name": "Karolyn",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "lyra": {
+      "name": "Lyra",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "ryben": {
+      "name": "Ryben",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "samantha-stokeworth": {
+      "name": "Samantha Stokeworth",
+      "aliases": [
+        "Sam Stokeworth"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "surly-lad": {
+      "name": "Surly lad",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "bedding": {
+      "name": "Bedding",
+      "aliases": [],
+      "type": "concept.custom",
+      "anchor_count": 2
+    },
+    "fosterage": {
+      "name": "Fosterage",
+      "aliases": [],
+      "type": "concept.custom",
+      "anchor_count": 2
+    },
+    "house-farman": {
+      "name": "House Farman",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 2
+    },
+    "house-stark": {
+      "name": "House Stark",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 2
+    },
+    "fair-isle": {
+      "name": "Fair Isle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "kings-gate": {
+      "name": "King's Gate",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "oldtown": {
+      "name": "Oldtown",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "hand-of-the-king": {
+      "name": "Hand of the King",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "lord-of-fair-isle": {
+      "name": "Lord of Fair Isle",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "man-at-arms": {
+      "name": "Man-at-arms",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "ice": {
+      "name": "Ice",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "wise-woman": {
+      "name": "Wise Woman",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "alayne-royce": {
+      "name": "Alayne Royce",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "albin-massey": {
+      "name": "Albin Massey",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "alton-butterwell": {
+      "name": "Alton Butterwell",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "alyn-bullock": {
+      "name": "Alyn Bullock",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "brandon-stark-father-of-walton": {
+      "name": "Brandon Stark (father of Walton)",
+      "aliases": [
+        "Brandon the Boastful"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "corwyn-velaryon": {
+      "name": "Corwyn Velaryon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "donnel-hightower": {
+      "name": "Donnel Hightower",
+      "aliases": [
+        "Donnel the Delayer"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "dreamfyre": {
+      "name": "Dreamfyre",
+      "aliases": [],
+      "type": "character.dragon",
+      "anchor_count": 1
+    },
+    "edwell-celtigar": {
+      "name": "Edwell Celtigar",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "elinor-costayne": {
+      "name": "Elinor Costayne",
+      "aliases": [
+        "Black Bride",
+        "Mother Elinor"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "florian-the-fool": {
+      "name": "Florian the Fool",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "garon-baratheon": {
+      "name": "Garon Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "gyles-morrigen": {
+      "name": "Gyles Morrigen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jennis-templeton": {
+      "name": "Jennis Templeton",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jocasta-lannister": {
+      "name": "Jocasta Lannister",
+      "aliases": [
+        "Jocasta Tarbeck"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "joffrey-doggett": {
+      "name": "Joffrey Doggett",
+      "aliases": [
+        "The Red Dog of the Hills",
+        "The Red Dog"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jonquil": {
+      "name": "Jonquil",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jorgen-velaryon": {
+      "name": "Jorgen Velaryon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lord-darklyn-father-of-jonquil-darke": {
+      "name": "Lord Darklyn (father of Jonquil Darke)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lord-staunton-father-of-cassella": {
+      "name": "Lord Staunton (father of Cassella)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lucinda-tully": {
+      "name": "Lucinda Tully",
+      "aliases": [
+        "Lucinda Broome"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "maegor-i-targaryen": {
+      "name": "Maegor I Targaryen",
+      "aliases": [
+        "The Prince of Dragonstone",
+        "Maegor the Cruel",
+        "The Abomination on the Iron Throne",
+        "king-maegor"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "marq-farman": {
+      "name": "Marq Farman",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "merrell-bullock": {
+      "name": "Merrell Bullock",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "morgan-wylde": {
+      "name": "Morgan Wylde",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "olyver-bracken": {
+      "name": "Olyver Bracken",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "orryn-baratheon": {
+      "name": "Orryn Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "pate-the-woodcock": {
+      "name": "Pate the Woodcock",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "prentys-tully": {
+      "name": "Prentys Tully",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "raymund-mallery": {
+      "name": "Raymund Mallery",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "rhaella-targaryen-daughter-of-aegon": {
+      "name": "Rhaella Targaryen (daughter of Aegon)",
+      "aliases": [
+        "Aerea Targaryen (allegedly)"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "ronnal-baratheon": {
+      "name": "Ronnal Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "samgood-of-sour-hill": {
+      "name": "Samgood of Sour Hill",
+      "aliases": [
+        "Sour Sam"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "vermithor": {
+      "name": "Vermithor",
+      "aliases": [
+        "The Bronze Fury"
+      ],
+      "type": "character.dragon",
+      "anchor_count": 1
+    },
+    "victor-velaryon": {
+      "name": "Victor Velaryon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "walton-stark-son-of-brandon": {
+      "name": "Walton Stark (son of Brandon)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "ysabel": {
+      "name": "Ysabel",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "golden-wedding": {
+      "name": "Golden Wedding",
+      "aliases": [],
+      "type": "event.wedding",
+      "anchor_count": 1
+    },
+    "wedding-of-rhaena-targaryen-and-androw-farman": {
+      "name": "Wedding of Rhaena Targaryen and Androw Farman",
+      "aliases": [],
+      "type": "event.wedding",
+      "anchor_count": 1
+    },
+    "captain-of-the-guards": {
+      "name": "Captain of the guards",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "council-of-magisters-pentos": {
+      "name": "Council of magisters (Pentos)",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "free-company-sellsword-company": {
+      "name": "Free Company (sellsword company)",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "house-targaryen-guards": {
+      "name": "House Targaryen guards",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "stormlanders": {
+      "name": "Stormlanders",
+      "aliases": [
+        "stormlander"
+      ],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "warlocks": {
+      "name": "Warlocks",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "cod": {
+      "name": "Cod",
+      "aliases": [],
+      "type": "object.food",
+      "anchor_count": 1
+    },
+    "house-bracken": {
+      "name": "House Bracken",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-bullock": {
+      "name": "House Bullock",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-lannister": {
+      "name": "House Lannister",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-scales": {
+      "name": "House Scales",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-straw": {
+      "name": "House Straw",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "arbor": {
+      "name": "Arbor",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "basilisk-isles": {
+      "name": "Basilisk Isles",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "beyond-the-wall": {
+      "name": "Beyond the Wall",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "braavos": {
+      "name": "Braavos",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "casterly-rock": {
+      "name": "Casterly Rock",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "disputed-lands": {
+      "name": "Disputed Lands",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "dragonpit": {
+      "name": "Dragonpit",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "driftmark": {
+      "name": "Driftmark",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "eastwatch-by-the-sea": {
+      "name": "Eastwatch-by-the-Sea",
+      "aliases": [
+        "Eastwatch"
+      ],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "lannisport": {
+      "name": "Lannisport",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "lys": {
+      "name": "Lys",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "maidenpool": {
+      "name": "Maidenpool",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "myr": {
+      "name": "Myr",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "qarth": {
+      "name": "Qarth",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "rain-house": {
+      "name": "Rain House",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "rimegate": {
+      "name": "Rimegate",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "sable-hall": {
+      "name": "Sable Hall",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "stormlands": {
+      "name": "Stormlands",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "three-towers": {
+      "name": "Three Towers",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "dragonglass": {
+      "name": "Dragonglass",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "hair-dye": {
+      "name": "Hair dye",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "giants": {
+      "name": "Giants",
+      "aliases": [
+        "Giant",
+        "giant"
+      ],
+      "type": "species",
+      "anchor_count": 1
+    },
+    "the-seven-pointed-star": {
+      "name": "The Seven-Pointed Star",
+      "aliases": [],
+      "type": "object.text",
+      "anchor_count": 1
+    },
+    "begging-brother": {
+      "name": "Begging brother",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-duskendale": {
+      "name": "Lord of Duskendale",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-sharp-point": {
+      "name": "Lord of Sharp Point",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-stokeworth": {
+      "name": "Lord of Stokeworth",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-the-rain-house": {
+      "name": "Lord of the Rain House",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "motherhouse": {
+      "name": "Motherhouse",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    }
+  }
+}

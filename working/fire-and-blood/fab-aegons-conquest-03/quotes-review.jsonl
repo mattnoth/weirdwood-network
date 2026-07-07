@@ -1,0 +1,14 @@
+{"unit": "fab-aegons-conquest-03", "quote": "naming him Warden of the South and Lord Paramount of the Mander", "kind": "edge", "edge_type": "APPOINTS", "source": "Aegon I Targaryen", "target": "Harlan Tyrell"}
+{"unit": "fab-aegons-conquest-03", "quote": "rode forth with his knights and archers to join his strength to Aegon's", "kind": "edge", "edge_type": "ALLIES_WITH", "source": "Edmyn Tully", "target": "Aegon I Targaryen"}
+{"unit": "fab-aegons-conquest-03", "quote": "", "kind": "edge", "edge_type": "OPPOSES", "source": "Meria Martell", "target": "Aegon I Targaryen"}
+{"unit": "fab-aegons-conquest-03", "quote": "Argilac the Arrogant had named her \"the Yellow Toad of Dorne\"", "kind": "edge", "edge_type": "ALIAS_OF", "source": "the Yellow Toad of Dorne", "target": "Meria Martell"}
+{"unit": "fab-aegons-conquest-03", "quote": "lauded as \"the Flower of the Mountain\"", "kind": "edge", "edge_type": "ALIAS_OF", "source": "the Flower of the Mountain", "target": "Sharra Arryn"}
+{"unit": "fab-aegons-conquest-03", "quote": "put ashore at the mouth of the Blackwater Rush", "kind": "event-role", "role": "agent", "event": "Aegon's Landing", "person": "Aegon I Targaryen"}
+{"unit": "fab-aegons-conquest-03", "quote": "the Sistermen renounced all allegiance to the Eyrie", "kind": "event-role", "role": "agent", "event": "Sistermen's rebellion", "person": "Marla Sunderland"}
+{"unit": "fab-aegons-conquest-03", "quote": "delivered Lady Argella gagged, chained, and naked", "kind": "event-role", "role": "agent", "event": "Surrender of Storm's End", "person": "Argella Durrandon"}
+{"unit": "fab-aegons-conquest-03", "quote": "delivered Lady Argella gagged, chained, and naked", "kind": "event-role", "role": "patient", "event": "Surrender of Storm's End", "person": "Orys Baratheon"}
+{"unit": "fab-aegons-conquest-03", "quote": "riding through a wall of flame and smoke to safety", "kind": "prose", "entity": "Loren I Lannister"}
+{"unit": "fab-aegons-conquest-03", "quote": "the boy king of the Eyrie, Ronnel Arryn", "kind": "prose", "entity": "Ronnel Arryn"}
+{"unit": "fab-aegons-conquest-03", "quote": "delivered Lady Argella gagged, chained, and naked to the camp of Orys Baratheon", "kind": "prose", "entity": "Argella Durrandon"}
+{"unit": "fab-aegons-conquest-03", "quote": "naming him Warden of the South and Lord Paramount of the Mander", "kind": "prose", "entity": "Harlan Tyrell"}
+{"unit": "fab-aegons-conquest-03", "quote": "Amongst the dead was Aegon's admiral, Daemon Velaryon", "kind": "prose", "entity": "Daemon Velaryon"}

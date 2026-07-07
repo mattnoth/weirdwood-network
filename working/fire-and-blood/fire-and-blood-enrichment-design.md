@@ -14,19 +14,24 @@
 
 | # | Component | Path (proposed) | Status |
 |---|-----------|-----------------|--------|
-| 1 | epub → chapter splitter | `scripts/fire-and-blood-splitter.py` | **DESIGN** |
-| 2 | Split chapter files | `sources/chapters/fab/` | **DESIGN** |
-| 3 | Node-first enrichment prompt | `working/fire-and-blood/prompts/fab-enrichment-v1.md` | **DESIGN** |
-| 4 | Long-run worker | `working/fire-and-blood/fire-and-blood-extraction.py` | **DESIGN** |
-| 5 | Per-unit candidate packs (deterministic, from `Rfab` anchors) | `scripts/fab-build-candidate-packs.py` → `working/fire-and-blood/candidate-packs/` | **DESIGN — new in v2 (§5.0)** |
-| 6 | Name→slug reconciler (UPDATE vs CREATE) + quote pre-validation | `scripts/fab-reconcile-candidates.py` | **DESIGN** |
-| 7 | **Node merge writer (UPDATE path — NEW capability, not a mint patch)** | `scripts/fab_merge_node.py` | **DESIGN — new in v2 (§5.3)** |
-| 8 | Contradiction diff (F&B vs wiki-infobox edges) | part of reconciler → `working/fire-and-blood/contradictions-report.md` | **DESIGN — new in v2 (§5.4)** |
-| 9 | Verify / drift gate | reuse fresh-verify subagents + schema validator (extended: dispute-axis strata, §7) | **DESIGN** |
-| 10 | Apply (edges + CREATE nodes) | reuse `scripts/mint_enrichment.py` + `finalize_enrichment.py` + `weirwood refresh` | **REUSE** — mint needs only the `book-fab` evidence_kind + `fab` chapter dir; **UPDATE nodes go through #7, never through mint** (mint is skip-if-exists, verified — see §5.3) |
-| — | *External dependency:* disambiguation pack | `working/wiki/data/same-name-clusters.json` (built by the **companion track**, `working/node-enrichment-wiki-prose/design.md`) | **DESIGN — companion runs FIRST (§10)** |
+| 1 | epub → chapter splitter | `scripts/fire-and-blood-splitter.py` | **BUILT ✅ S198** — ran clean, QA gate 0 warnings (0 PDF-path leaks / 0 word-miss / 0 boundary dupes) |
+| 2 | Split chapter files | `sources/chapters/fab/` | **BUILT ✅ S198** — 23 sections → **39 unit files**; QA-passed; **NOT frozen** (Matt's gate) |
+| 3 | Node-first enrichment prompt | `working/fire-and-blood/prompts/fab-enrichment-v1.md` | **BUILT ✅ S198** — v1 written; proves out at Stage-2 smoke |
+| 4 | Long-run worker | `working/fire-and-blood/fire-and-blood-extraction.py` | **BUILT ✅ S198** — 39-unit queue + roster-hints + placeholder substitution + safety guard verified; registered `PLANNED` in `weirwood-run.sh`; end-to-end `claude -p` unproven until smoke (R6) |
+| 5 | Per-unit candidate packs (deterministic, from `Rfab` anchors) | `scripts/fab-build-candidate-packs.py` → `working/fire-and-blood/candidate-packs/` | **BUILT ✅ S198** — 23 packs, 1,526 nodes mapped; 015-pack acceptance PASS (rhaenyra/daemon/criston) |
+| 6 | Name→slug reconciler (UPDATE vs CREATE) + quote pre-validation | `scripts/fab-reconcile-candidates.py` | **BUILT ✅ S198** — 6/6 unit assertions PASS; **R1 trap-routing independently re-verified** (raw resolver still HITs the `aegon-targaryen` trap; reconciler routes it to review — 0 trap edges / 0 trap merges) |
+| 7 | **Node merge writer (UPDATE path — NEW capability, not a mint patch)** | `scripts/fab_merge_node.py` | **BUILT ✅ S198** — smoke-passed all 3 node shapes + both (c) sub-cases; rhaenyra wiki prose byte-identical; idempotency + second-run_id + hard-error-on-not-found (R3) confirmed |
+| 8 | Contradiction diff (F&B vs wiki-infobox edges) | part of reconciler → `working/fire-and-blood/contradictions-report.md` | **BUILT ✅ S198** — emitted by the reconciler per unit |
+| 9 | Verify / drift gate | reuse fresh-verify subagents + schema validator (extended: dispute-axis strata, §7) | **DESIGN** — runs at smoke/apply; reconciler enforces the `disputed ⇒ tier ≤ 2` invariant structurally |
+| 10 | Apply (edges + CREATE nodes) | reuse `scripts/mint_enrichment.py` + `finalize_enrichment.py` + `weirwood refresh` | **REUSE** — `book-fab` via `_meta` (no code change); **3-line mint patch** for `in_universe_source`/`disputed` passthrough staged in `architecture-batch-s198.md` (lands WITH first apply); **UPDATE nodes go through #7, never mint** (skip-if-exists, verified) |
+| 11 | architecture.md schema batch (`fab`/`book-fab`/`in_universe_source`/`disputed`/tier-invariant + mint patch) | `working/fire-and-blood/architecture-batch-s198.md` | **STAGED S198** — Matt-gated; lands WITH the first apply (ruling #6) |
+| — | *External dependency:* disambiguation pack | `working/wiki/data/same-name-clusters.json` etc. (built by the **companion track**, S197) | **DONE ✅ S197** — 3 files + trap/redirect frontmatter live; reconciler consumes them |
 
-Nothing here is built. `README = existence-truth`: this table is the anti-drift gate — flip a row to ✅ only when the artifact exists and is smoke-passed.
+**S198 build status:** all 8 code/prompt components (rows 1–8) BUILT + self-verified. Remaining before bulk: the
+**two-stage smoke** (Matt-fired from iTerm — Stage 1 `fab-aegons-conquest-03`, Stage 2 `fab-heirs-of-the-dragon-15-p01`),
+then Matt's apply go (which lands row 11 + the mint patch). `README = existence-truth`: a row is ✅ only when the
+artifact exists and passed its own smoke; the *end-to-end* pipeline (worker→reconciler→mint→merge) is proven only
+at the Matt-fired smoke (R6 — the `claude -p`+`longrun.sh` extraction pattern has never completed a unit).
 
 ---
 

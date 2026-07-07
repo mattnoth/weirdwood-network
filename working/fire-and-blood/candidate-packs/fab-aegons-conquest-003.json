@@ -1,0 +1,819 @@
+{
+  "nn": "003",
+  "slug": "aegons-conquest",
+  "section_title": "Aegon’s Conquest",
+  "expected_slugs": [
+    "visenya-targaryen",
+    "rhaenys-targaryen",
+    "aegon-i-targaryen",
+    "last-storm",
+    "aegons-landing",
+    "orys-baratheon",
+    "aegons-coronations",
+    "seven-kingdoms",
+    "balerion",
+    "gaemon-targaryen-son-of-aenar",
+    "dragonstone-island",
+    "inn-of-the-kneeling-man",
+    "storm-king",
+    "aegon-targaryen-son-of-gaemon",
+    "aenar-targaryen",
+    "argilac-durrandon",
+    "crispian-celtigar",
+    "elaena-targaryen-daughter-of-gaemon",
+    "harren-hoare",
+    "valaena-velaryon",
+    "invasion-of-the-iron-islands",
+    "house-blackwood",
+    "house-bracken",
+    "house-durrandon",
+    "house-gardener",
+    "house-targaryen",
+    "aegonfort",
+    "blackwater-rush",
+    "eyrie",
+    "starry-sept",
+    "stormlands",
+    "trident",
+    "wendwater",
+    "king-of-all-westeros",
+    "lord-of-dragonstone",
+    "shield-of-his-people",
+    "warden-of-the-south",
+    "blackfyre",
+    "iron-throne",
+    "aerion-targaryen-son-of-daemion",
+    "aerys-targaryen-son-of-aegon",
+    "baelon-targaryen-son-of-aerys",
+    "bastard-of-blackhaven",
+    "brandon-snow",
+    "daemion-targaryen",
+    "dickon-morrigen",
+    "edmyn-tully",
+    "harlan-tyrell",
+    "jon-mooton",
+    "maegon-targaryen",
+    "mern-ix-gardener",
+    "qhorwyn-hoare",
+    "sharra-arryn",
+    "togarion-bar-emmon",
+    "torrhen-stark",
+    "dowry",
+    "laws-and-justice-of-the-seven-kingdoms",
+    "battle-in-the-waters-off-gulltown",
+    "field-of-fire",
+    "first-dornish-war",
+    "harren-the-reds-rebellion",
+    "jonos-arryns-rebellion",
+    "wars-of-conquest",
+    "wedding-of-maron-martell-and-daenerys-targaryen",
+    "most-devout",
+    "frog",
+    "house-celtigar",
+    "house-fisher",
+    "house-hook",
+    "bay-of-crabs",
+    "bloody-gate",
+    "bronzegate",
+    "citadel",
+    "claw-isle",
+    "crackclaw-point",
+    "giants-lance",
+    "gods-eye",
+    "godsgrace",
+    "goldengrove",
+    "goldroad",
+    "greenblood",
+    "gulltown",
+    "harrenhal",
+    "iron-islands",
+    "lannisport",
+    "mander",
+    "moat-cailin",
+    "neck",
+    "ocean-road",
+    "oldtown",
+    "riverlands",
+    "sept-at-dragonstone",
+    "sharp-point",
+    "sky",
+    "snow-waycastle",
+    "stone-drum",
+    "stone",
+    "vaith",
+    "ruby",
+    "drowned-god",
+    "goodwife",
+    "king-of-the-iron-islands",
+    "king-of-the-rivers",
+    "lord-of-maidenpool",
+    "lord-of-the-iron-islands",
+    "lord-of-the-tides",
+    "lord-of-winterfell",
+    "lord-paramount-of-the-trident",
+    "septon",
+    "warden-of-the-east",
+    "warden-of-the-west"
+  ],
+  "per_slug": {
+    "visenya-targaryen": {
+      "name": "Visenya Targaryen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 11
+    },
+    "rhaenys-targaryen": {
+      "name": "Rhaenys Targaryen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 9
+    },
+    "aegon-i-targaryen": {
+      "name": "Aegon I Targaryen",
+      "aliases": [
+        "Aegon the Conqueror",
+        "Aegon the Dragonlord",
+        "Aegon Dragonlord",
+        "Aegon the Dragon",
+        "Aegon of Dragonstone"
+      ],
+      "type": "character.human",
+      "anchor_count": 8
+    },
+    "last-storm": {
+      "name": "Last Storm",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 7
+    },
+    "aegons-landing": {
+      "name": "Aegon's Landing",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 6
+    },
+    "orys-baratheon": {
+      "name": "Orys Baratheon",
+      "aliases": [
+        "Orys One-Hand",
+        "The King's Stump"
+      ],
+      "type": "character.human",
+      "anchor_count": 5
+    },
+    "aegons-coronations": {
+      "name": "Aegon's coronations",
+      "aliases": [],
+      "type": "event.coronation",
+      "anchor_count": 5
+    },
+    "seven-kingdoms": {
+      "name": "Seven Kingdoms",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 5
+    },
+    "balerion": {
+      "name": "Balerion",
+      "aliases": [],
+      "type": "character.dragon",
+      "anchor_count": 4
+    },
+    "gaemon-targaryen-son-of-aenar": {
+      "name": "Gaemon Targaryen (son of Aenar)",
+      "aliases": [
+        "Gaemon the Glorious"
+      ],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "dragonstone-island": {
+      "name": "Dragonstone (island)",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 3
+    },
+    "inn-of-the-kneeling-man": {
+      "name": "Inn of the Kneeling Man",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 3
+    },
+    "storm-king": {
+      "name": "Storm King",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 3
+    },
+    "aegon-targaryen-son-of-gaemon": {
+      "name": "Aegon Targaryen (son of Gaemon)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "aenar-targaryen": {
+      "name": "Aenar Targaryen",
+      "aliases": [
+        "Aenar the Exile",
+        "The Lord who Left"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "argilac-durrandon": {
+      "name": "Argilac Durrandon",
+      "aliases": [
+        "Argilac the Arrogant"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "crispian-celtigar": {
+      "name": "Crispian Celtigar",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "elaena-targaryen-daughter-of-gaemon": {
+      "name": "Elaena Targaryen (daughter of Gaemon)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "harren-hoare": {
+      "name": "Harren Hoare",
+      "aliases": [
+        "Black Harren",
+        "Harren the Black"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "valaena-velaryon": {
+      "name": "Valaena Velaryon",
+      "aliases": [
+        "Valaena Targaryen"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "invasion-of-the-iron-islands": {
+      "name": "Invasion of the Iron Islands",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 2
+    },
+    "house-blackwood": {
+      "name": "House Blackwood",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 2
+    },
+    "house-bracken": {
+      "name": "House Bracken",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 2
+    },
+    "house-durrandon": {
+      "name": "House Durrandon",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 2
+    },
+    "house-gardener": {
+      "name": "House Gardener",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 2
+    },
+    "house-targaryen": {
+      "name": "House Targaryen",
+      "aliases": [
+        "targaryens"
+      ],
+      "type": "organization.house",
+      "anchor_count": 2
+    },
+    "aegonfort": {
+      "name": "Aegonfort",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "blackwater-rush": {
+      "name": "Blackwater Rush",
+      "aliases": [
+        "The Blackwater"
+      ],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "eyrie": {
+      "name": "Eyrie",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "starry-sept": {
+      "name": "Starry Sept",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "stormlands": {
+      "name": "Stormlands",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 2
+    },
+    "trident": {
+      "name": "Trident",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "wendwater": {
+      "name": "Wendwater",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "king-of-all-westeros": {
+      "name": "King of All Westeros",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "lord-of-dragonstone": {
+      "name": "Lord of Dragonstone",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "shield-of-his-people": {
+      "name": "Shield of His People",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "warden-of-the-south": {
+      "name": "Warden of the South",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "blackfyre": {
+      "name": "Blackfyre",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "iron-throne": {
+      "name": "Iron Throne",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "aerion-targaryen-son-of-daemion": {
+      "name": "Aerion Targaryen (son of Daemion)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "aerys-targaryen-son-of-aegon": {
+      "name": "Aerys Targaryen (son of Aegon)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "baelon-targaryen-son-of-aerys": {
+      "name": "Baelon Targaryen (son of Aerys)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "bastard-of-blackhaven": {
+      "name": "Bastard of Blackhaven",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "brandon-snow": {
+      "name": "Brandon Snow",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "daemion-targaryen": {
+      "name": "Daemion Targaryen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "dickon-morrigen": {
+      "name": "Dickon Morrigen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "edmyn-tully": {
+      "name": "Edmyn Tully",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "harlan-tyrell": {
+      "name": "Harlan Tyrell",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jon-mooton": {
+      "name": "Jon Mooton",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "maegon-targaryen": {
+      "name": "Maegon Targaryen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "mern-ix-gardener": {
+      "name": "Mern IX Gardener",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "qhorwyn-hoare": {
+      "name": "Qhorwyn Hoare",
+      "aliases": [
+        "Qhorwyn the Cunning"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "sharra-arryn": {
+      "name": "Sharra Arryn",
+      "aliases": [
+        "The Flower of the Mountain"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "togarion-bar-emmon": {
+      "name": "Togarion Bar Emmon",
+      "aliases": [
+        "Togarion the Terrible"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "torrhen-stark": {
+      "name": "Torrhen Stark",
+      "aliases": [
+        "The King Who Knelt"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "dowry": {
+      "name": "Dowry",
+      "aliases": [],
+      "type": "concept.custom",
+      "anchor_count": 1
+    },
+    "laws-and-justice-of-the-seven-kingdoms": {
+      "name": "Laws and justice of the Seven Kingdoms",
+      "aliases": [],
+      "type": "concept.custom",
+      "anchor_count": 1
+    },
+    "battle-in-the-waters-off-gulltown": {
+      "name": "Battle in the waters off Gulltown",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "field-of-fire": {
+      "name": "Field of Fire",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "first-dornish-war": {
+      "name": "First Dornish War",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "harren-the-reds-rebellion": {
+      "name": "Harren the Red's rebellion",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "jonos-arryns-rebellion": {
+      "name": "Jonos Arryn's rebellion",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "wars-of-conquest": {
+      "name": "Wars of Conquest",
+      "aliases": [],
+      "type": "event.war",
+      "anchor_count": 1
+    },
+    "wedding-of-maron-martell-and-daenerys-targaryen": {
+      "name": "Wedding of Maron Martell and Daenerys Targaryen",
+      "aliases": [],
+      "type": "event.wedding",
+      "anchor_count": 1
+    },
+    "most-devout": {
+      "name": "Most Devout",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "frog": {
+      "name": "Frog",
+      "aliases": [],
+      "type": "object.food",
+      "anchor_count": 1
+    },
+    "house-celtigar": {
+      "name": "House Celtigar",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-fisher": {
+      "name": "House Fisher",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-hook": {
+      "name": "House Hook",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "bay-of-crabs": {
+      "name": "Bay of Crabs",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "bloody-gate": {
+      "name": "Bloody Gate",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "bronzegate": {
+      "name": "Bronzegate",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "citadel": {
+      "name": "Citadel",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "claw-isle": {
+      "name": "Claw Isle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "crackclaw-point": {
+      "name": "Crackclaw Point",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "giants-lance": {
+      "name": "Giant's Lance",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "gods-eye": {
+      "name": "Gods Eye",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "godsgrace": {
+      "name": "Godsgrace",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "goldengrove": {
+      "name": "Goldengrove",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "goldroad": {
+      "name": "Goldroad",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "greenblood": {
+      "name": "Greenblood",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "gulltown": {
+      "name": "Gulltown",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "harrenhal": {
+      "name": "Harrenhal",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "iron-islands": {
+      "name": "Iron Islands",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "lannisport": {
+      "name": "Lannisport",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "mander": {
+      "name": "Mander",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "moat-cailin": {
+      "name": "Moat Cailin",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "neck": {
+      "name": "Neck",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "ocean-road": {
+      "name": "Ocean Road",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "oldtown": {
+      "name": "Oldtown",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "riverlands": {
+      "name": "Riverlands",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "sept-at-dragonstone": {
+      "name": "Sept at Dragonstone",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "sharp-point": {
+      "name": "Sharp Point",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "sky": {
+      "name": "Sky",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "snow-waycastle": {
+      "name": "Snow (waycastle)",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "stone-drum": {
+      "name": "Stone Drum",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "stone": {
+      "name": "Stone",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "vaith": {
+      "name": "Vaith",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "ruby": {
+      "name": "Ruby",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "drowned-god": {
+      "name": "Drowned God",
+      "aliases": [],
+      "type": "organization.religion",
+      "anchor_count": 1
+    },
+    "goodwife": {
+      "name": "Goodwife",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "king-of-the-iron-islands": {
+      "name": "King of the Iron Islands",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "king-of-the-rivers": {
+      "name": "King of the Rivers",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-maidenpool": {
+      "name": "Lord of Maidenpool",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-the-iron-islands": {
+      "name": "Lord of the Iron Islands",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-the-tides": {
+      "name": "Lord of the Tides",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-winterfell": {
+      "name": "Lord of Winterfell",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-paramount-of-the-trident": {
+      "name": "Lord Paramount of the Trident",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "septon": {
+      "name": "Septon",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "warden-of-the-east": {
+      "name": "Warden of the East",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "warden-of-the-west": {
+      "name": "Warden of the West",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    }
+  }
+}

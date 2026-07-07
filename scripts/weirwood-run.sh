@@ -68,6 +68,25 @@ TRACK_STATUS+=("PLANNED")
 TRACK_DESC+=("Plate 3 edge reification backfill (scripts/edge-reify-backfill.py) — runner needs exit 10 before migration")
 TRACK_CMD+=("")
 
+# dunk-egg-pass1: worker exists (working/dunk-egg-pass1/dunk-egg-pass1-extraction.py) and already
+# honors the 0/2/10/crash contract, but per its own run-plan.md the registry entry is deliberately
+# NOT added yet — it's bundled with the "graduate the worker to scripts/" step at the fire-gate, so a
+# READY track never points at a working/ scaffold. Not registered here; see run-plan.md section on
+# "The aliasing — weirwood run registry" for the exact 4-line snippet to add once Matt greenlights.
+
+# fire-and-blood: worker exists (working/fire-and-blood/fire-and-blood-extraction.py, built S198) and
+# already honors the 0/2/10/crash contract, but mirrors dunk-egg-pass1's convention above — it stays
+# unregistered while the worker lives in working/ (pre-graduation scaffold), so this entry is PLANNED
+# rather than a live READY pointing at a not-yet-graduated script. Once Matt greenlights the full run:
+#   1. git mv working/fire-and-blood/fire-and-blood-extraction.py scripts/
+#   2. flip TRACK_STATUS below to "READY"
+#   3. TRACK_CMD -> "python3 scripts/fire-and-blood-extraction.py --resume --prompt-version v1"
+#      (pin the winning --prompt-version once smoke-testing picks it)
+TRACK_NAMES+=("fire-and-blood")
+TRACK_STATUS+=("PLANNED")
+TRACK_DESC+=("Fire & Blood node-first enrichment (39 units) — working/fire-and-blood/fire-and-blood-extraction.py; PLANNED until graduated to scripts/ + Matt greenlight. Full command: bash scripts/longrun.sh python3 working/fire-and-blood/fire-and-blood-extraction.py --resume --prompt-version v1")
+TRACK_CMD+=("")
+
 # ── Legacy tracks (pre-longrun.sh wrappers; do not launch) ────────────────
 
 TRACK_NAMES+=("stage4-tail")

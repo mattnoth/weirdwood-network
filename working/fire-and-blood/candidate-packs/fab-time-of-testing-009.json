@@ -1,0 +1,812 @@
+{
+  "nn": "009",
+  "slug": "time-of-testing",
+  "section_title": "A Time of Testing—The Realm Remade",
+  "expected_slugs": [
+    "jaehaerys-i-targaryen",
+    "rogar-baratheon",
+    "albin-massey",
+    "barth",
+    "rego-draz",
+    "rhaena-targaryen-daughter-of-aenys-i",
+    "house-targaryen",
+    "oldtown",
+    "tyrosh",
+    "blackfyre",
+    "baldrick",
+    "borys-baratheon",
+    "dreamfyre",
+    "elinor-costayne",
+    "garon-baratheon",
+    "lyman-lannister",
+    "manfryd-redwyne",
+    "maris-mother",
+    "orryn-baratheon",
+    "prentys-tully",
+    "violante",
+    "marriage",
+    "most-devout",
+    "lannisport",
+    "mander",
+    "myr",
+    "the-seven-pointed-star",
+    "mother",
+    "iron-throne",
+    "aerea-targaryen",
+    "alfyn",
+    "alysanne-targaryen",
+    "alyssa-velaryon",
+    "androw-farman",
+    "archons-daughter-jaehaerys-i",
+    "benifer",
+    "daemon-i-blackfyre",
+    "daemon-velaryon-son-of-aethan",
+    "edwell-celtigar",
+    "elissa-farman",
+    "four-headed-beast",
+    "goodwife-fool",
+    "jennis-templeton",
+    "jocasta-lannister",
+    "lorence-roxton",
+    "lucinda-tully",
+    "martyn-tyrell",
+    "mattheus",
+    "oswyck",
+    "pate-the-woodcock",
+    "prudence-celtigar",
+    "prunella-celtigar",
+    "qarl-corbray",
+    "rickard-redwyne",
+    "robert-redwyne",
+    "rollo",
+    "ronnal-baratheon",
+    "ryam-redwyne",
+    "tom-the-strummer",
+    "vermithor",
+    "ysabel",
+    "bedding",
+    "faith-militant-uprising",
+    "city-watch-of-kings-landing",
+    "maidens-men",
+    "men-of-valor",
+    "westermen",
+    "spices",
+    "wine",
+    "andalos",
+    "ashemark",
+    "bitterbridge",
+    "braavos",
+    "castamere",
+    "claw-isle",
+    "disputed-lands",
+    "dragonpit",
+    "flea-bottom",
+    "golden-tooth",
+    "great-hall-red-keep",
+    "highgarden",
+    "iron-bank-of-braavos",
+    "jade-gates",
+    "maegors-holdfast",
+    "maidenpool",
+    "pentos",
+    "pinkmaiden-castle",
+    "wayfarers-rest",
+    "diamond",
+    "myrish-lace",
+    "pearl",
+    "mother-the-seven",
+    "archon-of-tyrosh",
+    "begging-brother",
+    "goodwife",
+    "herald",
+    "keeper-of-the-keys",
+    "kennelmaster",
+    "kings-justice-title",
+    "lord-justiciar",
+    "lord-of-stonedance",
+    "lord-of-the-arbor",
+    "lord-of-the-tides",
+    "lord-treasurer",
+    "master-of-horse",
+    "motherhouse",
+    "septon",
+    "warden-of-the-kings-mint",
+    "warden"
+  ],
+  "per_slug": {
+    "jaehaerys-i-targaryen": {
+      "name": "Jaehaerys I Targaryen",
+      "aliases": [
+        "Jaehaerys the Conciliator",
+        "The Old King",
+        "Jaehaerys the Wise",
+        "Old King Jaehaerys"
+      ],
+      "type": "character.human",
+      "anchor_count": 8
+    },
+    "rogar-baratheon": {
+      "name": "Rogar Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 7
+    },
+    "albin-massey": {
+      "name": "Albin Massey",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 5
+    },
+    "barth": {
+      "name": "Barth",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "rego-draz": {
+      "name": "Rego Draz",
+      "aliases": [
+        "The Lord of Air"
+      ],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "rhaena-targaryen-daughter-of-aenys-i": {
+      "name": "Rhaena Targaryen (daughter of Aenys I)",
+      "aliases": [
+        "Black Bride",
+        "The Queen in the West",
+        "The Queen in the East"
+      ],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "house-targaryen": {
+      "name": "House Targaryen",
+      "aliases": [
+        "targaryens"
+      ],
+      "type": "organization.house",
+      "anchor_count": 3
+    },
+    "oldtown": {
+      "name": "Oldtown",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 3
+    },
+    "tyrosh": {
+      "name": "Tyrosh",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 3
+    },
+    "blackfyre": {
+      "name": "Blackfyre",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 2
+    },
+    "baldrick": {
+      "name": "Baldrick",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "borys-baratheon": {
+      "name": "Borys Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "dreamfyre": {
+      "name": "Dreamfyre",
+      "aliases": [],
+      "type": "character.dragon",
+      "anchor_count": 2
+    },
+    "elinor-costayne": {
+      "name": "Elinor Costayne",
+      "aliases": [
+        "Black Bride",
+        "Mother Elinor"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "garon-baratheon": {
+      "name": "Garon Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "lyman-lannister": {
+      "name": "Lyman Lannister",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "manfryd-redwyne": {
+      "name": "Manfryd Redwyne",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "maris-mother": {
+      "name": "Maris (Mother)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "orryn-baratheon": {
+      "name": "Orryn Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "prentys-tully": {
+      "name": "Prentys Tully",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "violante": {
+      "name": "Violante",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "marriage": {
+      "name": "Marriage",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 2
+    },
+    "most-devout": {
+      "name": "Most Devout",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 2
+    },
+    "lannisport": {
+      "name": "Lannisport",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "mander": {
+      "name": "Mander",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "myr": {
+      "name": "Myr",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "the-seven-pointed-star": {
+      "name": "The Seven-Pointed Star",
+      "aliases": [],
+      "type": "object.text",
+      "anchor_count": 2
+    },
+    "mother": {
+      "name": "Mother",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 2
+    },
+    "iron-throne": {
+      "name": "Iron Throne",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "aerea-targaryen": {
+      "name": "Aerea Targaryen",
+      "aliases": [
+        "Rhaella Targaryen (allegedly)"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "alfyn": {
+      "name": "Alfyn",
+      "aliases": [
+        "Alfyn"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "alysanne-targaryen": {
+      "name": "Alysanne Targaryen",
+      "aliases": [
+        "Good Queen Alysanne",
+        "The little maid",
+        "The other daughter"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "alyssa-velaryon": {
+      "name": "Alyssa Velaryon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "androw-farman": {
+      "name": "Androw Farman",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "archons-daughter-jaehaerys-i": {
+      "name": "Archon's daughter (Jaehaerys I)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "benifer": {
+      "name": "Benifer",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "daemon-i-blackfyre": {
+      "name": "Daemon I Blackfyre",
+      "aliases": [
+        "Daemon Waters",
+        "The Black Dragon",
+        "The King Who Bore the Sword",
+        "Daemon the Pretender"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "daemon-velaryon-son-of-aethan": {
+      "name": "Daemon Velaryon (son of Aethan)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "edwell-celtigar": {
+      "name": "Edwell Celtigar",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "elissa-farman": {
+      "name": "Elissa Farman",
+      "aliases": [
+        "Alys Westhill",
+        "Lady Westhill"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "four-headed-beast": {
+      "name": "Four-Headed Beast",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "goodwife-fool": {
+      "name": "Goodwife (fool)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jennis-templeton": {
+      "name": "Jennis Templeton",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jocasta-lannister": {
+      "name": "Jocasta Lannister",
+      "aliases": [
+        "Jocasta Tarbeck"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lorence-roxton": {
+      "name": "Lorence Roxton",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lucinda-tully": {
+      "name": "Lucinda Tully",
+      "aliases": [
+        "Lucinda Broome"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "martyn-tyrell": {
+      "name": "Martyn Tyrell",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "mattheus": {
+      "name": "Mattheus",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "oswyck": {
+      "name": "Oswyck",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "pate-the-woodcock": {
+      "name": "Pate the Woodcock",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "prudence-celtigar": {
+      "name": "Prudence Celtigar",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "prunella-celtigar": {
+      "name": "Prunella Celtigar",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "qarl-corbray": {
+      "name": "Qarl Corbray",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "rickard-redwyne": {
+      "name": "Rickard Redwyne",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "robert-redwyne": {
+      "name": "Robert Redwyne",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "rollo": {
+      "name": "Rollo",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "ronnal-baratheon": {
+      "name": "Ronnal Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "ryam-redwyne": {
+      "name": "Ryam Redwyne",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "tom-the-strummer": {
+      "name": "Tom the Strummer",
+      "aliases": [
+        "The Bard of Flea Bottom"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "vermithor": {
+      "name": "Vermithor",
+      "aliases": [
+        "The Bronze Fury"
+      ],
+      "type": "character.dragon",
+      "anchor_count": 1
+    },
+    "ysabel": {
+      "name": "Ysabel",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "bedding": {
+      "name": "Bedding",
+      "aliases": [],
+      "type": "concept.custom",
+      "anchor_count": 1
+    },
+    "faith-militant-uprising": {
+      "name": "Faith Militant uprising",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "city-watch-of-kings-landing": {
+      "name": "City Watch of King's Landing",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "maidens-men": {
+      "name": "Maiden's Men",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "men-of-valor": {
+      "name": "Men of Valor",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "westermen": {
+      "name": "Westermen",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "spices": {
+      "name": "Spices",
+      "aliases": [],
+      "type": "object.food",
+      "anchor_count": 1
+    },
+    "wine": {
+      "name": "Wine",
+      "aliases": [],
+      "type": "object.food",
+      "anchor_count": 1
+    },
+    "andalos": {
+      "name": "Andalos",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "ashemark": {
+      "name": "Ashemark",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "bitterbridge": {
+      "name": "Bitterbridge",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "braavos": {
+      "name": "Braavos",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "castamere": {
+      "name": "Castamere",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "claw-isle": {
+      "name": "Claw Isle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "disputed-lands": {
+      "name": "Disputed Lands",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "dragonpit": {
+      "name": "Dragonpit",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "flea-bottom": {
+      "name": "Flea Bottom",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "golden-tooth": {
+      "name": "Golden Tooth",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "great-hall-red-keep": {
+      "name": "Great Hall (Red Keep)",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "highgarden": {
+      "name": "Highgarden",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "iron-bank-of-braavos": {
+      "name": "Iron Bank of Braavos",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "jade-gates": {
+      "name": "Jade Gates",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "maegors-holdfast": {
+      "name": "Maegor's Holdfast",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "maidenpool": {
+      "name": "Maidenpool",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "pentos": {
+      "name": "Pentos",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "pinkmaiden-castle": {
+      "name": "Pinkmaiden Castle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "wayfarers-rest": {
+      "name": "Wayfarer's Rest",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "diamond": {
+      "name": "Diamond",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "myrish-lace": {
+      "name": "Myrish lace",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "pearl": {
+      "name": "Pearl",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "mother-the-seven": {
+      "name": "Mother (the Seven)",
+      "aliases": [],
+      "type": "organization.religion",
+      "anchor_count": 1
+    },
+    "archon-of-tyrosh": {
+      "name": "Archon of Tyrosh",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "begging-brother": {
+      "name": "Begging brother",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "goodwife": {
+      "name": "Goodwife",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "herald": {
+      "name": "Herald",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "keeper-of-the-keys": {
+      "name": "Keeper of the Keys",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "kennelmaster": {
+      "name": "Kennelmaster",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "kings-justice-title": {
+      "name": "King's Justice (title)",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-justiciar": {
+      "name": "Lord justiciar",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-stonedance": {
+      "name": "Lord of Stonedance",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-the-arbor": {
+      "name": "Lord of the Arbor",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-the-tides": {
+      "name": "Lord of the Tides",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-treasurer": {
+      "name": "Lord treasurer",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "master-of-horse": {
+      "name": "Master of horse",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "motherhouse": {
+      "name": "Motherhouse",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "septon": {
+      "name": "Septon",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "warden-of-the-kings-mint": {
+      "name": "Warden of the King's Mint",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "warden": {
+      "name": "Warden",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    }
+  }
+}

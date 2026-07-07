@@ -1,0 +1,605 @@
+{
+  "nn": "006",
+  "slug": "prince-into-king",
+  "section_title": "Prince into King—The Ascension of Jaehaerys I",
+  "expected_slugs": [
+    "jaehaerys-i-targaryen",
+    "moon-septon",
+    "aerea-targaryen",
+    "jaehaerys-targaryens-uprising",
+    "rhaella-targaryen-daughter-of-aegon",
+    "rogar-baratheon",
+    "starry-sept",
+    "rhaena-targaryen-daughter-of-aenys-i",
+    "alysanne-targaryen",
+    "alyssa-velaryon",
+    "donnel-hightower",
+    "gyles-morrigen",
+    "harrold-langward",
+    "joffrey-doggett",
+    "lorcas-the-learned",
+    "lord-darklyn-father-of-jonquil-darke",
+    "lord-staunton-father-of-cassella",
+    "maladon-moore",
+    "prentys-tully",
+    "rob-the-starvling",
+    "tyanna-of-the-tower",
+    "viserys-targaryen-son-of-aenys-i",
+    "iron-throne",
+    "scorpion-weapon",
+    "albin-massey",
+    "benifer",
+    "ceryse-hightower",
+    "daemon-velaryon-son-of-aethan",
+    "dennis-the-lame",
+    "high-lickspittle",
+    "jon-tollett",
+    "jordan-towers",
+    "lucinda-tully",
+    "maegor-i-targaryen",
+    "maegor-towers",
+    "olyver-bracken",
+    "ragged-silas",
+    "raymund-mallery",
+    "rickard-rowan",
+    "symond-crayne",
+    "torgen-oakheart",
+    "wedding-of-rhaena-targaryen-and-androw-farman",
+    "city-watch-of-kings-landing",
+    "faceless-men",
+    "wine",
+    "house-bracken",
+    "house-doggett",
+    "house-farman",
+    "house-morrigen",
+    "house-staunton",
+    "black-cells",
+    "braavos",
+    "fair-isle",
+    "faircastle",
+    "highgarden",
+    "oldtown",
+    "pentos",
+    "princes-pass",
+    "riverlands",
+    "riverrun",
+    "seven-kingdoms",
+    "stokeworth",
+    "hair-shirts",
+    "hemlock-herb",
+    "the-seven-pointed-star",
+    "chief-gaoler-red-keep",
+    "dowager-queen",
+    "grand-captain",
+    "kings-justice-title",
+    "lord-confessor",
+    "lord-of-duskendale",
+    "lord-of-goldengrove",
+    "lord-of-harrenhal",
+    "lord-of-old-oak",
+    "lord-of-rosby",
+    "lord-of-sharp-point",
+    "lord-of-stokeworth",
+    "lord-of-the-iron-islands",
+    "regent"
+  ],
+  "per_slug": {
+    "jaehaerys-i-targaryen": {
+      "name": "Jaehaerys I Targaryen",
+      "aliases": [
+        "Jaehaerys the Conciliator",
+        "The Old King",
+        "Jaehaerys the Wise",
+        "Old King Jaehaerys"
+      ],
+      "type": "character.human",
+      "anchor_count": 13
+    },
+    "moon-septon": {
+      "name": "Moon (septon)",
+      "aliases": [
+        "Poorest Fellow"
+      ],
+      "type": "character.human",
+      "anchor_count": 7
+    },
+    "aerea-targaryen": {
+      "name": "Aerea Targaryen",
+      "aliases": [
+        "Rhaella Targaryen (allegedly)"
+      ],
+      "type": "character.human",
+      "anchor_count": 5
+    },
+    "jaehaerys-targaryens-uprising": {
+      "name": "Jaehaerys Targaryen's uprising",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 5
+    },
+    "rhaella-targaryen-daughter-of-aegon": {
+      "name": "Rhaella Targaryen (daughter of Aegon)",
+      "aliases": [
+        "Aerea Targaryen (allegedly)"
+      ],
+      "type": "character.human",
+      "anchor_count": 4
+    },
+    "rogar-baratheon": {
+      "name": "Rogar Baratheon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 4
+    },
+    "starry-sept": {
+      "name": "Starry Sept",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 4
+    },
+    "rhaena-targaryen-daughter-of-aenys-i": {
+      "name": "Rhaena Targaryen (daughter of Aenys I)",
+      "aliases": [
+        "Black Bride",
+        "The Queen in the West",
+        "The Queen in the East"
+      ],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "alysanne-targaryen": {
+      "name": "Alysanne Targaryen",
+      "aliases": [
+        "Good Queen Alysanne",
+        "The little maid",
+        "The other daughter"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "alyssa-velaryon": {
+      "name": "Alyssa Velaryon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "donnel-hightower": {
+      "name": "Donnel Hightower",
+      "aliases": [
+        "Donnel the Delayer"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "gyles-morrigen": {
+      "name": "Gyles Morrigen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "harrold-langward": {
+      "name": "Harrold Langward",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "joffrey-doggett": {
+      "name": "Joffrey Doggett",
+      "aliases": [
+        "The Red Dog of the Hills",
+        "The Red Dog"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "lorcas-the-learned": {
+      "name": "Lorcas the Learned",
+      "aliases": [
+        "Lorcas the Learned"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "lord-darklyn-father-of-jonquil-darke": {
+      "name": "Lord Darklyn (father of Jonquil Darke)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "lord-staunton-father-of-cassella": {
+      "name": "Lord Staunton (father of Cassella)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "maladon-moore": {
+      "name": "Maladon Moore",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "prentys-tully": {
+      "name": "Prentys Tully",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "rob-the-starvling": {
+      "name": "Rob the Starvling",
+      "aliases": [
+        "Rob the Starvling"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "tyanna-of-the-tower": {
+      "name": "Tyanna of the Tower",
+      "aliases": [
+        "Tyanna of Pentos",
+        "The king's raven",
+        "The mistress of whispers",
+        "Mistress of the spiders"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "viserys-targaryen-son-of-aenys-i": {
+      "name": "Viserys Targaryen (son of Aenys I)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "iron-throne": {
+      "name": "Iron Throne",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "scorpion-weapon": {
+      "name": "Scorpion (weapon)",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "albin-massey": {
+      "name": "Albin Massey",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "benifer": {
+      "name": "Benifer",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "ceryse-hightower": {
+      "name": "Ceryse Hightower",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "daemon-velaryon-son-of-aethan": {
+      "name": "Daemon Velaryon (son of Aethan)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "dennis-the-lame": {
+      "name": "Dennis the Lame",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "high-lickspittle": {
+      "name": "High Lickspittle",
+      "aliases": [
+        "The High Lickspittle",
+        "The Lickspittle"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jon-tollett": {
+      "name": "Jon Tollett",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "jordan-towers": {
+      "name": "Jordan Towers",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lucinda-tully": {
+      "name": "Lucinda Tully",
+      "aliases": [
+        "Lucinda Broome"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "maegor-i-targaryen": {
+      "name": "Maegor I Targaryen",
+      "aliases": [
+        "The Prince of Dragonstone",
+        "Maegor the Cruel",
+        "The Abomination on the Iron Throne",
+        "king-maegor"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "maegor-towers": {
+      "name": "Maegor Towers",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "olyver-bracken": {
+      "name": "Olyver Bracken",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "ragged-silas": {
+      "name": "Ragged Silas",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "raymund-mallery": {
+      "name": "Raymund Mallery",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "rickard-rowan": {
+      "name": "Rickard Rowan",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "symond-crayne": {
+      "name": "Symond Crayne",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "torgen-oakheart": {
+      "name": "Torgen Oakheart",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "wedding-of-rhaena-targaryen-and-androw-farman": {
+      "name": "Wedding of Rhaena Targaryen and Androw Farman",
+      "aliases": [],
+      "type": "event.wedding",
+      "anchor_count": 1
+    },
+    "city-watch-of-kings-landing": {
+      "name": "City Watch of King's Landing",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "faceless-men": {
+      "name": "Faceless Men",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "wine": {
+      "name": "Wine",
+      "aliases": [],
+      "type": "object.food",
+      "anchor_count": 1
+    },
+    "house-bracken": {
+      "name": "House Bracken",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-doggett": {
+      "name": "House Doggett",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-farman": {
+      "name": "House Farman",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-morrigen": {
+      "name": "House Morrigen",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-staunton": {
+      "name": "House Staunton",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "black-cells": {
+      "name": "Black cells",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "braavos": {
+      "name": "Braavos",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "fair-isle": {
+      "name": "Fair Isle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "faircastle": {
+      "name": "Faircastle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "highgarden": {
+      "name": "Highgarden",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "oldtown": {
+      "name": "Oldtown",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "pentos": {
+      "name": "Pentos",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "princes-pass": {
+      "name": "Prince's Pass",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "riverlands": {
+      "name": "Riverlands",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "riverrun": {
+      "name": "Riverrun",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "seven-kingdoms": {
+      "name": "Seven Kingdoms",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "stokeworth": {
+      "name": "Stokeworth",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "hair-shirts": {
+      "name": "Hair shirt",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "hemlock-herb": {
+      "name": "Hemlock (herb)",
+      "aliases": [],
+      "type": "species",
+      "anchor_count": 1
+    },
+    "the-seven-pointed-star": {
+      "name": "The Seven-Pointed Star",
+      "aliases": [],
+      "type": "object.text",
+      "anchor_count": 1
+    },
+    "chief-gaoler-red-keep": {
+      "name": "Chief Gaoler (Red Keep)",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "dowager-queen": {
+      "name": "Dowager Queen",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "grand-captain": {
+      "name": "Grand Captain",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "kings-justice-title": {
+      "name": "King's Justice (title)",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-confessor": {
+      "name": "Lord Confessor",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-duskendale": {
+      "name": "Lord of Duskendale",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-goldengrove": {
+      "name": "Lord of Goldengrove",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-harrenhal": {
+      "name": "Lord of Harrenhal",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-old-oak": {
+      "name": "Lord of Old Oak",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-rosby": {
+      "name": "Lord of Rosby",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-sharp-point": {
+      "name": "Lord of Sharp Point",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-stokeworth": {
+      "name": "Lord of Stokeworth",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-the-iron-islands": {
+      "name": "Lord of the Iron Islands",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "regent": {
+      "name": "Regent",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    }
+  }
+}

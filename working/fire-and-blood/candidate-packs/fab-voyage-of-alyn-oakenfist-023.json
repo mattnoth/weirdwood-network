@@ -1,0 +1,793 @@
+{
+  "nn": "023",
+  "slug": "voyage-of-alyn-oakenfist",
+  "section_title": "Under the Regents—The Voyage of Alyn Oakenfist",
+  "expected_slugs": [
+    "racallio-ryndoon",
+    "aegon-iii-targaryen",
+    "larra-rogare",
+    "daughters-war",
+    "baela-targaryen",
+    "viserys-ii-targaryen",
+    "daenaera-velaryon",
+    "aliandra-martell",
+    "bambarro-bazanne",
+    "tess",
+    "toron-greyjoy",
+    "fair-isle-rebellion",
+    "lysene-spring",
+    "struggle-for-power-in-the-iron-islands",
+    "lannisport",
+    "alester-wynch",
+    "drazenko-rogare",
+    "gareth-long",
+    "gedmund-peake",
+    "gunthor-goodbrother",
+    "leo-costayne",
+    "lord-redwyne",
+    "qyle-martell",
+    "rhaena-targaryen-daughter-of-daemon",
+    "rue",
+    "russell-stillman",
+    "thaddeus-rowan",
+    "high-valyrian",
+    "bloodstone",
+    "fair-isle",
+    "kayce",
+    "lys",
+    "oldtown",
+    "sunspear",
+    "tyrosh",
+    "sapphire",
+    "gay-abandon",
+    "clarice-osgrey",
+    "corwyn-corbray",
+    "coryanne-martell",
+    "johanna-lannister",
+    "laena-velaryon-daughter-of-alyn",
+    "lord-farman-father-of-lysa",
+    "lucas-leygood",
+    "lyonel-hightower",
+    "lysa-farman",
+    "lysandro-rogare",
+    "manfryd-mooton",
+    "marston-waters",
+    "moredo-rogare",
+    "morning",
+    "myrielle-peake",
+    "salt-wife",
+    "samantha-tarly",
+    "sharako-lohar",
+    "unwin-peake",
+    "vaemond-velaryon",
+    "victor-risley",
+    "blood-sacrifice",
+    "battle-at-kayce",
+    "battle-of-the-gullet",
+    "fingers-guards",
+    "crab",
+    "house-farman",
+    "house-greyjoy",
+    "house-kenning-of-kayce",
+    "house-lannister-of-lannisport",
+    "house-lannister",
+    "house-rogare",
+    "arbor",
+    "bandallon",
+    "blackcrown",
+    "brimstone",
+    "casterly-rock",
+    "citadel",
+    "crakehall",
+    "disputed-lands",
+    "dragonpit",
+    "driftmark",
+    "faircastle",
+    "feastfires",
+    "greenshield",
+    "greyshield",
+    "hightower",
+    "iron-islands",
+    "oakenshield",
+    "pyke",
+    "river-gate",
+    "salt-shore",
+    "seven-kingdoms",
+    "shield-islands",
+    "southshield",
+    "starry-sept",
+    "stepstones",
+    "westerlands",
+    "whispering-sound",
+    "emerald",
+    "hair-dye",
+    "cat",
+    "oak",
+    "rose",
+    "hand-of-the-king",
+    "king-of-the-stepstones-and-the-narrow-sea",
+    "knight-of-kayce",
+    "lord-of-kayce",
+    "lord-of-the-tides"
+  ],
+  "per_slug": {
+    "racallio-ryndoon": {
+      "name": "Racallio Ryndoon",
+      "aliases": [
+        "Queen Racallio"
+      ],
+      "type": "character.human",
+      "anchor_count": 9
+    },
+    "aegon-iii-targaryen": {
+      "name": "Aegon III Targaryen",
+      "aliases": [
+        "Aegon the Younger",
+        "Aegon the Dragonbane",
+        "Aegon the Unlucky",
+        "The Broken King",
+        "Aegon the Unhappy",
+        "The Uncrowned King",
+        "Aegon III Dragonbane"
+      ],
+      "type": "character.human",
+      "anchor_count": 7
+    },
+    "larra-rogare": {
+      "name": "Larra Rogare",
+      "aliases": [
+        "Larra of Lys"
+      ],
+      "type": "character.human",
+      "anchor_count": 6
+    },
+    "daughters-war": {
+      "name": "Daughters' War",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 6
+    },
+    "baela-targaryen": {
+      "name": "Baela Targaryen",
+      "aliases": [
+        "Baela Velaryon",
+        "Dragon Twin"
+      ],
+      "type": "character.human",
+      "anchor_count": 5
+    },
+    "viserys-ii-targaryen": {
+      "name": "Viserys II Targaryen",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 5
+    },
+    "daenaera-velaryon": {
+      "name": "Daenaera Velaryon",
+      "aliases": [
+        "The little queen"
+      ],
+      "type": "character.human",
+      "anchor_count": 4
+    },
+    "aliandra-martell": {
+      "name": "Aliandra Martell",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "bambarro-bazanne": {
+      "name": "Bambarro Bazanne",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "tess": {
+      "name": "Tess",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "toron-greyjoy": {
+      "name": "Toron Greyjoy",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 3
+    },
+    "fair-isle-rebellion": {
+      "name": "Fair Isle rebellion",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 3
+    },
+    "lysene-spring": {
+      "name": "Lysene Spring",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 3
+    },
+    "struggle-for-power-in-the-iron-islands": {
+      "name": "Struggle for power in the Iron Islands",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 3
+    },
+    "lannisport": {
+      "name": "Lannisport",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 3
+    },
+    "alester-wynch": {
+      "name": "Alester Wynch",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "drazenko-rogare": {
+      "name": "Drazenko Rogare",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "gareth-long": {
+      "name": "Gareth Long",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "gedmund-peake": {
+      "name": "Gedmund Peake",
+      "aliases": [
+        "Gedmund Great-Axe",
+        "Gedmund Green-Sick",
+        "Nuncle Gedmund"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "gunthor-goodbrother": {
+      "name": "Gunthor Goodbrother",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "leo-costayne": {
+      "name": "Leo Costayne",
+      "aliases": [
+        "The Sea Lion"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "lord-redwyne": {
+      "name": "Lord Redwyne",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "qyle-martell": {
+      "name": "Qyle Martell",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "rhaena-targaryen-daughter-of-daemon": {
+      "name": "Rhaena Targaryen (daughter of Daemon)",
+      "aliases": [
+        "Rhaena of Pentos",
+        "Rhae",
+        "Rhaena Corbray",
+        "Dragon Twin"
+      ],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "rue": {
+      "name": "Rue",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "russell-stillman": {
+      "name": "Russell Stillman",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "thaddeus-rowan": {
+      "name": "Thaddeus Rowan",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 2
+    },
+    "high-valyrian": {
+      "name": "High Valyrian",
+      "aliases": [
+        "valyrian-glyphs"
+      ],
+      "type": "concept.language",
+      "anchor_count": 2
+    },
+    "bloodstone": {
+      "name": "Bloodstone",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "fair-isle": {
+      "name": "Fair Isle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "kayce": {
+      "name": "Kayce",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "lys": {
+      "name": "Lys",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "oldtown": {
+      "name": "Oldtown",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "sunspear": {
+      "name": "Sunspear",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "tyrosh": {
+      "name": "Tyrosh",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 2
+    },
+    "sapphire": {
+      "name": "Sapphire",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 2
+    },
+    "gay-abandon": {
+      "name": "Gay Abandon",
+      "aliases": [],
+      "type": "object.artifact",
+      "anchor_count": 1
+    },
+    "clarice-osgrey": {
+      "name": "Clarice Osgrey",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "corwyn-corbray": {
+      "name": "Corwyn Corbray",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "coryanne-martell": {
+      "name": "Coryanne Martell",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "johanna-lannister": {
+      "name": "Johanna Lannister",
+      "aliases": [
+        "Johanna Westerling"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "laena-velaryon-daughter-of-alyn": {
+      "name": "Laena Velaryon (daughter of Alyn)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lord-farman-father-of-lysa": {
+      "name": "Lord Farman (father of Lysa)",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lucas-leygood": {
+      "name": "Lucas Leygood",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lyonel-hightower": {
+      "name": "Lyonel Hightower",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lysa-farman": {
+      "name": "Lysa Farman",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "lysandro-rogare": {
+      "name": "Lysandro Rogare",
+      "aliases": [
+        "Lysandro the Magnificent"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "manfryd-mooton": {
+      "name": "Manfryd Mooton",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "marston-waters": {
+      "name": "Marston Waters",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "moredo-rogare": {
+      "name": "Moredo Rogare",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "morning": {
+      "name": "Morning",
+      "aliases": [],
+      "type": "character.dragon",
+      "anchor_count": 1
+    },
+    "myrielle-peake": {
+      "name": "Myrielle Peake",
+      "aliases": [
+        "Lady Turnips"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "salt-wife": {
+      "name": "Salt wife",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "samantha-tarly": {
+      "name": "Samantha Tarly",
+      "aliases": [
+        "Lady Sam"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "sharako-lohar": {
+      "name": "Sharako Lohar",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "unwin-peake": {
+      "name": "Unwin Peake",
+      "aliases": [
+        "The player in the shadows"
+      ],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "vaemond-velaryon": {
+      "name": "Vaemond Velaryon",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "victor-risley": {
+      "name": "Victor Risley",
+      "aliases": [],
+      "type": "character.human",
+      "anchor_count": 1
+    },
+    "blood-sacrifice": {
+      "name": "Blood sacrifice",
+      "aliases": [],
+      "type": "concept.custom",
+      "anchor_count": 1
+    },
+    "battle-at-kayce": {
+      "name": "Battle at Kayce",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "battle-of-the-gullet": {
+      "name": "Battle of the Gullet",
+      "aliases": [],
+      "type": "event.battle",
+      "anchor_count": 1
+    },
+    "fingers-guards": {
+      "name": "Fingers (guards)",
+      "aliases": [],
+      "type": "organization.faction",
+      "anchor_count": 1
+    },
+    "crab": {
+      "name": "Crab",
+      "aliases": [],
+      "type": "object.food",
+      "anchor_count": 1
+    },
+    "house-farman": {
+      "name": "House Farman",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-greyjoy": {
+      "name": "House Greyjoy",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-kenning-of-kayce": {
+      "name": "House Kenning of Kayce",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-lannister-of-lannisport": {
+      "name": "House Lannister of Lannisport",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-lannister": {
+      "name": "House Lannister",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "house-rogare": {
+      "name": "House Rogare",
+      "aliases": [],
+      "type": "organization.house",
+      "anchor_count": 1
+    },
+    "arbor": {
+      "name": "Arbor",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "bandallon": {
+      "name": "Bandallon",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "blackcrown": {
+      "name": "Blackcrown",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "brimstone": {
+      "name": "Brimstone",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "casterly-rock": {
+      "name": "Casterly Rock",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "citadel": {
+      "name": "Citadel",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "crakehall": {
+      "name": "Crakehall",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "disputed-lands": {
+      "name": "Disputed Lands",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "dragonpit": {
+      "name": "Dragonpit",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "driftmark": {
+      "name": "Driftmark",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "faircastle": {
+      "name": "Faircastle",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "feastfires": {
+      "name": "Feastfires",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "greenshield": {
+      "name": "Greenshield",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "greyshield": {
+      "name": "Greyshield",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "hightower": {
+      "name": "Hightower",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "iron-islands": {
+      "name": "Iron Islands",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "oakenshield": {
+      "name": "Oakenshield",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "pyke": {
+      "name": "Pyke",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "river-gate": {
+      "name": "River Gate",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "salt-shore": {
+      "name": "Salt Shore",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "seven-kingdoms": {
+      "name": "Seven Kingdoms",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "shield-islands": {
+      "name": "Shield Islands",
+      "aliases": [
+        "shields"
+      ],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "southshield": {
+      "name": "Southshield",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "starry-sept": {
+      "name": "Starry Sept",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "stepstones": {
+      "name": "Stepstones",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "westerlands": {
+      "name": "Westerlands",
+      "aliases": [],
+      "type": "place.region",
+      "anchor_count": 1
+    },
+    "whispering-sound": {
+      "name": "Whispering Sound",
+      "aliases": [],
+      "type": "place.location",
+      "anchor_count": 1
+    },
+    "emerald": {
+      "name": "Emerald",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "hair-dye": {
+      "name": "Hair dye",
+      "aliases": [],
+      "type": "object.material",
+      "anchor_count": 1
+    },
+    "cat": {
+      "name": "Cat",
+      "aliases": [],
+      "type": "species",
+      "anchor_count": 1
+    },
+    "oak": {
+      "name": "Oak",
+      "aliases": [],
+      "type": "species",
+      "anchor_count": 1
+    },
+    "rose": {
+      "name": "Rose",
+      "aliases": [],
+      "type": "species",
+      "anchor_count": 1
+    },
+    "hand-of-the-king": {
+      "name": "Hand of the King",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "king-of-the-stepstones-and-the-narrow-sea": {
+      "name": "King of the Stepstones and the Narrow Sea",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "knight-of-kayce": {
+      "name": "Knight of Kayce",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-kayce": {
+      "name": "Lord of Kayce",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    },
+    "lord-of-the-tides": {
+      "name": "Lord of the Tides",
+      "aliases": [],
+      "type": "title",
+      "anchor_count": 1
+    }
+  }
+}
