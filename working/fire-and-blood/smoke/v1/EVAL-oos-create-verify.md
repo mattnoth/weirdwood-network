@@ -1,0 +1,51 @@
+# EVAL — Out-of-sample CREATE verification (semantic-dupe hunt)
+
+**Date:** 2026-07-07
+**Scope:** 13 proposed CREATE event nodes from `recon-heirs-15-p02/nodes/` (8) and `recon-sons-05-p01/nodes/` (5)
+**Method:** read-only adversarial sweep of `graph/nodes/` (742 event nodes) + character-node prose + local wiki cache `sources/wiki/_raw/`. No network fetches.
+**Prior:** one semantic dupe caught per prior unit (`aegons-second-coronation`→`aegons-coronations`; `baelon-avenges-aemon-on-tarth`→`myrish-bloodbath`). **One firm catch found in EACH unit here.**
+
+## Verdict table
+
+| # | Candidate | Unit | Verdict | Evidence |
+|---|-----------|------|---------|----------|
+| 1 | `criston-cole-appointed-to-kingsguard` (event.appointment, 105 AC) | heirs-15-p02 | **SAFE-TO-CREATE** | No existing event node. The appointment is *mentioned in prose* inside `graph/nodes/events/tourney-for-king-viserys-is-accession.node.md` ("joined the Kingsguard the following year taking the slot left vacant by the death of Ser Ryam Redwyne") — a prose mention, not a node. Distinct from #7 (see below). Novel subtype (see §Subtypes). |
+| 2 | `accession-melee-at-maidenpool` (event.tournament) | heirs-15-p02 | **DUPE-OF:`tourney-for-king-viserys-is-accession`** | **The unit's catch.** Wiki cache `Tourney_for_King_Viserys_I's_accession.json`: "The tourney for King Viserys I's accession **was held at Maidenpool in 104 AC** … Ser Criston Cole won the melee, his final opponent being Prince Daemon Targaryen." Existing node's Origins prose narrates exactly the candidate body ("Cole won the melee"). Same event, different name. Do not mint; fold F&B enrichment into the existing node. (Existing node has `type: event.tournament`, sort_keys null — enrichment could also backfill 104 AC.) Candidate's `era: dance-of-dragons` is also wrong (104 AC is pre-Dance). |
+| 3 | `death-of-the-infant-baelon` (event.death, 105 AC) | heirs-15-p02 | **SAFE-TO-CREATE** | No existing node. The only Baelon-related events in the graph concern Baelon the Brave (son of Jaehaerys I) — `myrish-bloodbath`, `great-council`, `tourney-at-kings-landing-on-the-anniversary-of-the-kings-coronation` ("the newborn Baelon" there = Baelon the Brave, ~58 AC, NOT this 105 AC infant son of Viserys I & Aemma). "infant" in the slug disambiguates adequately; `death-of-baelon-son-of-viserys-i` would be safer long-term but not required. |
+| 4 | `daemon-slays-craghas-crabfeeder` (event.death, 108 AC) | heirs-15-p02 | **DUPE-RISK:`war-for-the-stepstones`** | The war exists as a tier-1 node (`event.battle`, 106 AC). The slaying is documented as its climax in `characters/craghas-drahar.node.md` ("Craghas was finally defeated in battle by Daemon, who beheaded him with … Dark Sister") + `DIED_AT: Stepstones [108 AC]` edge. Precedent (`baelon-avenges-aemon-on-tarth`→`myrish-bloodbath`) folded a kill-moment into the existing container event. Two acceptable outcomes: (a) fold as enrichment/quote on `war-for-the-stepstones` + craghas/daemon nodes, or (b) mint ONLY with a mandatory PART_OF/causal edge to `war-for-the-stepstones` so it doesn't float as an apparent parallel event. Do not mint unwired. |
+| 5 | `birth-of-aegon` (event.birth, 107 AC) | heirs-15-p02 | **RENAME:`birth-of-aegon-ii-targaryen`** | 107 AC son of Viserys I & Alicent = Aegon II (char node `aegon-ii-targaryen` exists). The bare slug is dangerously generic: the graph holds 17 Aegon character slugs (Aegon I–V, son-of-aenys-i, son-of-rhaegar, young-griff, …) and this very batch contains a second Aegon birth (#11). No existing birth-event node anywhere in the graph, so no dupe — but the slug must be disambiguated before mint. Convention proposal: birth events use the subject's canonical character slug (`birth-of-<char-slug>`). |
+| 6 | `daemon-exiled-after-the-rhaenyra-scandal` (event.exile) | heirs-15-p02 | **SAFE-TO-CREATE** | No event node. Covered only as prose in `characters/daemon-targaryen.node.md` (Eustace/Mushroom accounts; "Daemon was exiled instead"). Daemon had multiple exiles — the `-after-the-rhaenyra-scandal` qualifier disambiguates correctly. Nits: candidate carries no `occurred` year (the scandal exile is ~111 AC per F&B) and `era: dance-of-dragons` is pre-Dance. Novel subtype. |
+| 7 | `criston-cole-named-lord-commander-of-the-kingsguard` (event.appointment, 112 AC) | heirs-15-p02 | **SAFE-TO-CREATE** | Distinct from #1: 105 AC = joins the Kingsguard (fills Ryam Redwyne's slot); 112 AC = named Lord Commander (replaces Harrold Westerling). Two real appointments seven years apart with different vacated predecessors — do NOT fold one into the other. No existing node mentions the LC appointment (grep "Harrold Westerling" across events hits only the accession tourney + Jaehaerys anniversary tourney, neither about this). |
+| 8 | `rhaenyra-takes-dragonstone-as-her-seat` (event.investiture, 113 AC) | heirs-15-p02 | **SAFE-TO-CREATE** | No match among the 6 existing Dragonstone events (assault/burning/fall/flight/siege/stannis-retreats — all different eras/events). Novel subtype `event.investiture` (singleton — consider `event.ceremony`, which exists ×22). |
+| 9 | `birth-of-aenys-targaryen` (event.birth, 7 AC) | sons-05-p01 | **SAFE-TO-CREATE** | No birth events exist anywhere in the graph. Slug ambiguity checked: `characters/aenys-targaryen.node.md` is a `redirect_to: aenys-i-targaryen` node, so the bare name resolves to the right person. For the birth-slug convention (#5), `birth-of-aenys-i-targaryen` would be preferable; optional. |
+| 10 | `birth-of-maegor-targaryen` (event.birth, 12 AC) | sons-05-p01 | **RENAME:`birth-of-maegor-i-targaryen`** | Unlike Aenys, `characters/maegor-targaryen.node.md` is a **`disambiguation_hub: true`** node — the graph itself declares "Maegor Targaryen" ambiguous (Maegor I; Maegor son of Aerion, Egg's brother; also Maegor Towers). The birth event must point at `maegor-i-targaryen`. Not a dupe — no existing node. |
+| 11 | `birth-of-aegon-son-of-aenys` (event.birth, 26 AC) | sons-05-p01 | **SAFE-TO-CREATE** | No existing node. Disambiguator present and functional. Minor: char node is `aegon-targaryen-son-of-aenys-i` ("Aegon the Uncrowned") and a `characters/aegon-frey-son-of-aenys.node.md` also exists — `birth-of-aegon-targaryen-son-of-aenys-i` would be exactly aligned; optional tightening, not blocking. |
+| 12 | `death-of-alyn-stokeworth` (event.death, no year) | sons-05-p01 | **DUPE-OF:`harren-the-reds-rebellion`** | **The unit's catch.** `graph/nodes/events/harren-the-reds-rebellion.node.md` (tier-1) already narrates the candidate's entire content: "Harren slew Lord Stokeworth and was in turn slain by Alyn's squire, Bernarr Brune." Alyn's death IS the terminal skirmish of that existing event — same shape as the `baelon-avenges-aemon-on-tarth`→`myrish-bloodbath` precedent (kill-moment folded into the named event it happened in). Candidate body ("King's Hand slain") adds nothing. Fold enrichment into the rebellion node + Alyn's character node; a standalone death node would need explicit PART_OF wiring and a deliberate schema decision, not a reconciler CREATE. |
+| 13 | `exile-of-maegor` (event.exile, 40 AC) | sons-05-p01 | **SAFE-TO-CREATE** | No event node. Covered only as prose in `characters/maegor-i-targaryen.node.md` §"Hand and exile" ("in 40 AC left for Pentos with Alys and Balerion … took the sword Blackfyre with him"). Candidate body matches (Alys + Blackfyre). Only one notable Maegor exile — slug fine. Novel subtype. |
+
+## (a) Subtype vocabulary check — 4 of 4 proposed subtypes are NOVEL
+
+Grep `^type: event.` across `graph/nodes/events/` (742 nodes) yields exactly 16 subtypes:
+battle 279, incident 160, death 80, capture 40, tournament 34, war 31, wedding 23, ceremony 22, assassination 20, execution 12, conspiracy 11, deception 10, feast 5, trial 2, coronation 2, decree 1.
+
+**Not present:** `event.appointment` (#1, #7), `event.exile` (#6, #13), `event.birth` (#5, #9, #10, #11), `event.investiture` (#8). All four are novel — a schema question for Matt/architecture.md, not auto-reject. Note the graph's own precedent: `exile-of-jon-connington` is typed `event.incident`. Nearest existing homes if the vocabulary is not expanded: appointment/investiture → `event.ceremony` or `event.incident`; exile → `event.incident`; birth → `event.incident`. If births become first-class (4 in one unit suggests F&B will mint many), `event.birth` as a real subtype is probably the right call — but that decision should land in `reference/architecture.md` before the mint, per the schema-sync rule.
+
+## (b) The two Criston Cole appointments — DISTINCT, keep both
+
+105 AC: joins the Kingsguard, filling Ser Ryam Redwyne's vacancy (wiki-cache-confirmed via the accession-tourney page). 112 AC: named Lord Commander, replacing Harrold Westerling. Different offices, different years, different predecessors. No fold.
+
+## (c) Generic slugs
+
+- `birth-of-aegon` — must rename (verdict #5): `birth-of-aegon-ii-targaryen`.
+- `birth-of-maegor-targaryen` — must rename (verdict #10): `birth-of-maegor-i-targaryen` (bare name is a disambiguation hub in the graph).
+- Soft/optional: `birth-of-aenys-targaryen` → `birth-of-aenys-i-targaryen`; `birth-of-aegon-son-of-aenys` → `birth-of-aegon-targaryen-son-of-aenys-i`; `death-of-the-infant-baelon` → `death-of-baelon-son-of-viserys-i`. Recommend adopting a `birth-of-<canonical-char-slug>` convention now, before the F&B corpus mints dozens of Targaryen births.
+
+## Other observations (non-blocking)
+
+- Candidate Identity bodies are extremely thin (3–6 words: "healthy son", "takes possession") — fine for reconciler stubs, but the mint step should ensure the F&B enrichment section carries the real prose.
+- `era: dance-of-dragons` on #2 and #6 is wrong (104/111 AC are pre-Dance; the other p02 candidates in the same year-range say `targaryen-rule`). Inconsistent era stamping within the unit.
+- #6 and #12 lack `occurred` blocks while their siblings have them.
+
+## Summary
+
+2 firm dupes (one per unit, matching the pipeline's prior): **#2 → `tourney-for-king-viserys-is-accession`**, **#12 → `harren-the-reds-rebellion`**. 1 dupe-risk needing wiring-or-fold (#4 vs `war-for-the-stepstones`). 2 mandatory renames (#5, #10). 8 safe. 4 novel subtypes pending a schema decision.

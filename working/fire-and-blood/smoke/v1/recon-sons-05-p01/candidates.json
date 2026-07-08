@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "unit": "fab-sons-of-the-dragon-05-p01",
+    "session": "fab-reconcile",
+    "run_id": "fab-sons-of-the-dragon-05-p01-2026-07-07",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "birth-of-aegon-son-of-aenys",
+      "birth-of-aenys-targaryen",
+      "birth-of-maegor-targaryen",
+      "death-of-alyn-stokeworth",
+      "exile-of-maegor"
+    ],
+    "note": "Fire & Blood reconciler output for fab-sons-of-the-dragon-05-p01 (smoke=True).",
+    "produced_at": "2026-07-07T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E10",
+      "type": "PARENT_OF",
+      "source": "aethan-velaryon",
+      "target": "alyssa-velaryon",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "the maiden daughter of the Lord of the Tides, Aethan Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aethan Velaryon PARENT_OF Alyssa Velaryon",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E32",
+      "type": "SERVES",
+      "source": "aethan-velaryon",
+      "target": "aegon-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "King Aegon’s lord admiral and master of ships",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aethan Velaryon SERVES Aegon I Targaryen"
+    },
+    {
+      "id": "E33",
+      "type": "APPOINTS",
+      "source": "aegon-i-targaryen",
+      "target": "alyn-stokeworth",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "he named the King’s Hand, Lord Alyn Stokeworth",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon I Targaryen APPOINTS Alyn Stokeworth"
+    },
+    {
+      "id": "E44",
+      "type": "ASSAULTS",
+      "source": "harren-the-red",
+      "target": "gargon-qoherys",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "Harren sliced off his genitals and fed them to a dog",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Harren the Red ASSAULTS Gargon Qoherys"
+    },
+    {
+      "id": "E45",
+      "type": "KILLS",
+      "source": "harren-the-red",
+      "target": "alyn-stokeworth",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "he slew the King’s Hand, Lord Alyn Stokeworth",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Harren the Red KILLS Alyn Stokeworth",
+      "qualifier": "in_combat"
+    },
+    {
+      "id": "E46",
+      "type": "KILLS",
+      "source": "bernarr-brune",
+      "target": "harren-the-red",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "before being cut down by Stokeworth’s squire, Bernarr Brune",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Bernarr Brune KILLS Harren the Red",
+      "qualifier": "in_combat"
+    },
+    {
+      "id": "E51",
+      "type": "CAPTURES",
+      "source": "orys-baratheon",
+      "target": "walter-wyl",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "When Walter Wyl was delivered into his hands, wounded but alive",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Orys Baratheon CAPTURES Walter Wyl"
+    },
+    {
+      "id": "E52",
+      "type": "ASSAULTS",
+      "source": "orys-baratheon",
+      "target": "walter-wyl",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "he hacked off Lord Walter's sword hand",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Orys Baratheon ASSAULTS Walter Wyl"
+    },
+    {
+      "id": "E53",
+      "type": "ASSAULTS",
+      "source": "wyl-of-wyl",
+      "target": "orys-baratheon",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "Your father took my hand",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Wyl of Wyl ASSAULTS Orys Baratheon"
+    },
+    {
+      "id": "E57",
+      "type": "KILLS",
+      "source": "goren-greyjoy",
+      "target": "lodos-the-twice-drowned",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "brought “King” Lodos (Second of That Name) to a similar swift end",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Goren Greyjoy KILLS Lodos the Twice-Drowned"
+    },
+    {
+      "id": "E58",
+      "type": "DEFEATS",
+      "source": "allard-royce",
+      "target": "jonos-arryn",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "easily defeating the supporters of the self-styled King of Mountain and Vale",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Allard Royce DEFEATS Jonos Arryn"
+    },
+    {
+      "id": "E63",
+      "type": "ALIAS_OF",
+      "source": "orys-baratheon",
+      "target": "orys-baratheon",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "Orys Baratheon, known now as Orys One-Hand",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Orys Baratheon ALIAS_OF Orys One-Hand"
+    },
+    {
+      "id": "E64",
+      "type": "ALIAS_OF",
+      "source": "harmon-dondarrion",
+      "target": "harmon-dondarrion",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "No-Nose Dondarrion",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Harmon Dondarrion ALIAS_OF No-Nose Dondarrion"
+    },
+    {
+      "id": "E65",
+      "type": "ALIAS_OF",
+      "source": "gargon-qoherys",
+      "target": "gargon-qoherys",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "who became known as Gargon the Guest",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Gargon Qoherys ALIAS_OF Gargon the Guest"
+    },
+    {
+      "id": "EV7-agent-alyssa-velaryon",
+      "type": "AGENT_IN",
+      "source": "alyssa-velaryon",
+      "target": "birth-of-aegon-son-of-aenys",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "The son came the next year",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyssa Velaryon AGENT_IN Birth of Aegon (son of Aenys)"
+    },
+    {
+      "id": "EV14-agent-goren-greyjoy",
+      "type": "AGENT_IN",
+      "source": "goren-greyjoy",
+      "target": "invasion-of-the-iron-islands",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "marshalling a hundred longships to descend on Old Wyk and Great Wyk",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Goren Greyjoy AGENT_IN Invasion of the Iron Islands"
+    },
+    {
+      "id": "EV14-patient-lodos-the-twice-drowned",
+      "type": "VICTIM_IN",
+      "source": "lodos-the-twice-drowned",
+      "target": "invasion-of-the-iron-islands",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "marshalling a hundred longships to descend on Old Wyk and Great Wyk",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lodos the Twice-Drowned VICTIM_IN Invasion of the Iron Islands"
+    },
+    {
+      "id": "EV19-agent-harren-the-red",
+      "type": "AGENT_IN",
+      "source": "harren-the-red",
+      "target": "death-of-alyn-stokeworth",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "he slew the King’s Hand, Lord Alyn Stokeworth",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Harren the Red AGENT_IN Death of Alyn Stokeworth"
+    },
+    {
+      "id": "EV19-patient-alyn-stokeworth",
+      "type": "VICTIM_IN",
+      "source": "alyn-stokeworth",
+      "target": "death-of-alyn-stokeworth",
+      "book": "fab",
+      "chapter": "fab-sons-of-the-dragon-05-p01",
+      "quote": "he slew the King’s Hand, Lord Alyn Stokeworth",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyn Stokeworth VICTIM_IN Death of Alyn Stokeworth"
+    }
+  ]
+}

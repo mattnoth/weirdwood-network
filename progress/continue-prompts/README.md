@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-07 (refreshed after S198)  
+**Generated:** 2026-07-07 (refreshed at S199 endsession; F&B apply-go is the one live graph track)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,16 +12,21 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-07-fire-and-blood-reconciler-fix-stage2.md` | 2026-07-07 | Fire & Blood ingestion | **LIVE** (S199 next) | Sonnet (Opus worker) | S198 built the whole pipeline + ran Stage-1 smoke (`fab-aegons-conquest-03`) → fresh-eval PASS-WITH-CONCERNS: extraction strong, reconciler CREATE-routing bug class (all deterministic). Fix `fab-reconcile-candidates.py` (+ lockstep mint locator) → re-reconcile → Stage-2 smoke `fab-heirs-of-the-dragon-15-p01` (Matt-fired) → tune auto-accept on ≥2 fresh units → apply-go (lands `architecture-batch-s198.md`). Graph untouched (dry-run; apply gated). |
-| `2026-07-06-strip-wiki-boilerplate-identity.md` | 2026-07-06 | Strip "from the AWOIAF wiki" boilerplate (graph companion) | **LIVE** (companion track) | Sonnet | Strip boilerplate Identity prose across ~6,739 nodes + patch ~8 Pass-2 emitters (Matt S197 "remove everywhere"). Paired verification prompt below. Safe alongside F&B. |
-| `2026-07-07-verify-boilerplate-strip-safe.md` | 2026-07-07 | Strip-boilerplate verification (graph companion) | **LIVE** (companion track — verify step) | Sonnet | Verification/safety pass for the boilerplate strip above. |
+| `2026-07-07-fire-and-blood-apply-go.md` | 2026-07-07 | Fire & Blood ingestion — APPLY | **LIVE** (fires as S200) | **Fable** (bulk extraction = Opus, Matt-fired) | **ALL §7 pre-bulk gates GREEN (S199):** two-stage smoke ✅, out-of-sample accepts **0 wrong / 66 rows** ✅, dispute-axis audit FAIL 26.9%→quarantine→**PASS 0.0%/0.0%** ✅, CREATE fresh-verify permanent (3/4 units caught a semantic dupe). Tests 63/63; 4 units reconciled `--smoke`; graph still untouched. **Next = Matt's apply-go:** non-smoke re-reconcile → land `architecture-batch-s198.md` → dispositions (5 folds / 2 renames / CAUSES edge / jaqen alias strip) → adjudicate 19 dispute-held rows → §8 per-unit mint+merge+refresh → hand Matt the 35-unit bulk block. Record: `working/fire-and-blood/smoke/v1/EVAL-stage2-reconciler-tuning.md`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 > *S198 note:* `2026-07-06-fire-and-blood-build-smoke.md` archived (build + Stage-1 smoke DONE, superseded by the reconciler-fix prompt above). The `2026-07-06-wiki-prose-disambiguation-composer.md` row was DONE S197 (composer built + applied 477 nodes; prompt archived).
+> *2026-07-07 note:* the strip-boilerplate track is **PARKED behind F&B's full apply cycle** (Matt) — its verify step proved the old "parallel-safe" claim WRONG (strip-before-F&B defeats F&B's Identity swap; strip-after is provably safe). Both strip prompts archived (see Archive entries below); analysis of record: `working/node-enrichment-wiki-prose/reconcile-strip-vs-fab-RECOMMENDATION.md`.
 
 ---
 
-## Archive (`archive/` subfolder — 106 files)
+## Archive (`archive/` subfolder — 112 files)
+
+> **`2026-07-07-fire-and-blood-reconciler-fix-stage2.md`** — archived S199. **DONE (S199): the whole reconciler-fix + Stage-2 + tuning track — ALL §7 pre-bulk gates green.** Both windows: Stage-1 fixes 1–6 + Stage-2 smoke (PASS-WITH-CONCERNS) + quote repair (trailing-punct/enclosing-quote canonicalization; 63.7%→98.9% located) + both eval blockers (type-agreement gate — caught `Lorath`→jaqen AND `Sea Snake`→corlys live; run_id/cites keep `-pMM`) + §5.1 tuning validated out-of-sample (**0 wrong / 66 rows**) + the §7.2 dispute-axis gate (v1 **FAIL** 26.9% tier inflation → dispute-proximity quarantine, weak hedges measured-and-excluded → v2 **PASS** 0.0%/0.0%, recall 100%) + two Matt decisions (4 event subtypes ADOPTED into architecture.md; `identity_line` **WIRED**, 58/58 merge-plan coverage). CREATE fresh-verify caught a semantic dupe in 3 of 4 units → permanent per-unit step. Tests 23→63. Record: `working/fire-and-blood/smoke/v1/EVAL-stage2-reconciler-tuning.md` + `history/session-details/session-199.md`. Superseded as live by `2026-07-07-fire-and-blood-apply-go.md`.
+
+> **`2026-07-06-strip-wiki-boilerplate-identity.md`** — archived 2026-07-07. **PARKED behind F&B's FULL apply cycle (Matt)** — NOT parallel-safe with F&B despite its original header (a ⛔ park notice is stamped atop the prompt): strip-before-F&B breaks `fab_merge_node.py`'s boilerplate detection on ~1,108 overlap nodes; strip-after-F&B is provably safe, but F&B applies incrementally (~23 packs) so the strip waits for the LAST pack (or the optional B-patch to F&B shape-detection — see the RECOMMENDATION doc). Un-park checklist: F&B apply cycle complete (or B-patch landed) + fix the 46-node `RICH_SECTIONS_RE` thin-misclassification nit. Track context: `working/todos.md` + worklog S197 correction. Script untouched on disk: `scripts/strip-wiki-boilerplate.py` (dry-run only, never applied).
+
+> **`2026-07-07-verify-boilerplate-strip-safe.md`** — archived 2026-07-07. **DONE** — the fresh-eyes verification ran and found the collision (strip-before-F&B defeats F&B's Identity swap), then a follow-up reconcile analysis (`working/node-enrichment-wiki-prose/reconcile-strip-vs-fab-analysis-prompt.md` → `…RECOMMENDATION.md`, Sonnet subagent) quantified the real stakes (~1,108 of F&B's ~1,526-node target proxy; the collision is currently dormant — F&B's reconciler doesn't yet populate `identity_line`) and recommended patching F&B's shape-detection (option B) for true order-independence. **Matt chose to park the strip instead (sequence: F&B first)** — B remains documented as the decoupling option if ever wanted.
 
 > **`2026-07-05-quote-regrounding-cleanup.md`** — archived S195. **DONE (S195): quote re-grounding to 0 FAIL, both scopes.** 185 node + 203 edge quotes repaired marker-verbatim (`scripts/propose_quote_regrounding.py` proposer with attribution-inclusive full spans → 3 Sonnet review batches + Fable solo batch-1 re-review after the monthly spend wall killed 2 agents → re-validating `scripts/apply_quote_regrounding.py`; edges backup in `graph/edges/_regrounding/`). `verify_node_quotes.py` **803/803 PASS**; edge MISMATCH 59→2 documented parks (`working/quote-census/s195-parked-rows.md` — the `tommen MOURNS joffrey` contradiction + the petyr/hairnet chronology row, both for Matt). S194-addendum residue purged: shipped dossier provenance markers 70 nodes→0 (`scripts/s195_dossier_residue_cleanup.py`, 3 rounds); 60 doubled `Chapter NN` attributions normalized to the `cleanQuote`-collapsible shape. Surfaced-not-scheduled: 1,008 file-level edge `evidence_ref`s (badref class) → todos 10(b). Suites pytest 1447/0 · run_cases 37/0 · deno 100/0; NOT deployed (Matt-gated). Incident record: `history/session-details/session-195.md`. **No successor live prompt — next graph/meta work is Matt's pick.**
 
@@ -157,17 +162,19 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (LIVE: Fire & Blood ingestion build ‖ wiki-boilerplate cleanup · D&E Pass-1: PARKED)
+## Open threads right now (LIVE: Fire & Blood ingestion · strip-boilerplate: PARKED behind F&B · D&E Pass-1: PARKED)
 
-> **Two PARALLEL-SAFE graph tracks are live after S197** (they touch different code/nodes). S197 built + applied the wiki-prose
-> disambiguation composer (477 nodes: clusters + F&B marquee singletons; disambiguation/redirect trap classes; pack + blocklist +
-> redirect-map that the F&B reconciler consumes). The chat-UI alpha is DEPLOYED (Opus, Netlify) — past, not a live build track.
+> **ONE live graph track (2026-07-07): Fire & Blood.** S197's "two parallel-safe tracks" framing is retired — the strip's
+> verify step proved strip-before-F&B breaks F&B's Identity swap, so Matt parked the strip behind F&B's full apply cycle
+> (see the 2026-07-07 note + archive entries above). S197 built + applied the wiki-prose disambiguation composer (477 nodes:
+> clusters + F&B marquee singletons; disambiguation/redirect trap classes; pack + blocklist + redirect-map that the F&B
+> reconciler consumes). The chat-UI alpha is DEPLOYED (Opus, Netlify) — past, not a live build track.
 > **F&B readiness (S197):** the epub landed on disk today (`sources/raw/fire-and-blood.epub`), but the pipeline is unbuilt —
 > F&B extraction is the OUTPUT of the S198 build, not a parallel-startable thing.
 
-**LIVE (graph): `2026-07-06-fire-and-blood-build-smoke.md`** — **F&B ingestion build + two-stage smoke (fires as S198).** Splitter (epub→`sources/chapters/fab/`) → QA-gate freeze → reconciler (consumes the S197 pack/blocklist/redirect-map; must honor `disambiguation_hub`/`redirect_to` — the raw resolver doesn't) → `fab_merge_node.py` → architecture.md batch (`fab` code + `evidence_kind: book-fab` + `in_universe_source`/`disputed`) → smoke (003 mechanics, 015 quality; Matt-fired from iTerm). Spec: `working/fire-and-blood/fire-and-blood-enrichment-design.md` v2 + `fable-review.md`. (**Sonnet** build; F&B worker itself runs **Opus** per decision #3.)
+**LIVE (graph): `2026-07-07-fire-and-blood-apply-go.md`** — **F&B first real apply (4 smoke units, fires as S200) → then the 35-unit bulk.** All §7 pre-bulk gates green as of S199 (see the LIVE table row above). §8 order per unit: checkpoint → mint → merge → finalize → `weirwood refresh`; dispositions + `architecture-batch-s198.md` + the mint patches land with Matt's apply-go. Bulk extraction stays Matt-fired (Opus `claude -p`, ~5h). (**Fable** apply session; **Opus** extraction workers.)
 
-**LIVE (graph, parallel-safe): `2026-07-06-strip-wiki-boilerplate-identity.md`** — remove "… from the AWOIAF wiki" from all node Identity prose (6,739 nodes, backlog HIGH; Matt S197). Sweep existing (composer full-sweep for characters + deterministic strip for the long tail) + patch the ~8 Pass-2 emitters. Safe alongside S198. (**Sonnet**.)
+**PARKED behind F&B (2026-07-07): `archive/2026-07-06-strip-wiki-boilerplate-identity.md`** — remove "… from the AWOIAF wiki" from all node Identity prose (6,739 nodes, backlog HIGH; Matt S197). **NOT parallel-safe with F&B** (breaks its Identity swap on ~1,108 overlap nodes); un-park only after F&B's LAST pack applies, or after the optional B-patch (`working/node-enrichment-wiki-prose/reconcile-strip-vs-fab-RECOMMENDATION.md`). Script sits ready, dry-run only: `scripts/strip-wiki-boilerplate.py`. (**Sonnet**.)
 
 **PARKED (graph-enrichment): `working/granular-dip-plan.md`** — the ranked granular-dip list (opener D2 Hand's Tourney); restore when Matt un-parks the enrichment track. Graph at **~23,330 edges / ~8,475 live nodes**.
 

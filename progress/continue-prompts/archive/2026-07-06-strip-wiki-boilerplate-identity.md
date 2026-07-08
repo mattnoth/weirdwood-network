@@ -1,6 +1,8 @@
 # Strip "from the AWOIAF wiki" boilerplate from node Identity prose
 
-> **Track:** graph cleanup (parallel-safe with the F&B build track — touches different code/nodes). Not S-numbered until you pick it up; stamp the worklog entry with the next free graph S-number.
+> ⛔ **PARKED 2026-07-07 (Matt) — DO NOT RUN until the Fire & Blood track's FULL apply cycle completes.** The "parallel-safe" claim below is WRONG: strip-before-F&B silently defeats `fab_merge_node.py`'s Identity swap (stripped lines stop matching its `BOILERPLATE_RE`; ~1,108-node real overlap). Strip-AFTER-F&B is provably safe — but F&B applies incrementally (~23 packs), so wait for the LAST pack, not the first. Analysis of record: `working/node-enrichment-wiki-prose/reconcile-strip-vs-fab-RECOMMENDATION.md`. Before un-parking, also fix the 46-node thin-misclassification nit (`RICH_SECTIONS_RE` misses `## Heraldry & Sigil`/`## Culture`/`## Aftermath`).
+
+> **Track:** graph cleanup (~~parallel-safe with the F&B build track~~ — see park notice above). Not S-numbered until you pick it up; stamp the worklog entry with the next free graph S-number.
 > **Recommended model:** **Sonnet** — deterministic script work (a sweep + an emitter patch); no reasoning model. Haiku only if you choose to compose real lines for thin character stubs (reuse the composer's gated `--enrich-thin` path).
 > **Gate:** building/dry-run is a go. **Node writes + emitter edits need Matt's explicit go on the dry-run** (`feedback_no_graph_mutation_without_goahead`).
 

@@ -94,6 +94,7 @@ TYPE_DIR_MAP = {
 def norm(s):
     s = s.replace("’", "'").replace("‘", "'")
     s = s.replace("“", '"').replace("”", '"')
+    s = s.replace("''", "'")  # OCR artifact in fab source (e.g. `Mushroom’'s`) — collapse after curly conversion
     s = s.replace("—", "-").replace("–", "-").replace("…", "...")
     s = re.sub(r"\s+", " ", s)
     return s.strip().lower()
@@ -104,13 +105,34 @@ def authoritative_line(book, chapter, quote):
     if not f.exists():
         sys.exit(f"ABORT: chapter file missing: {f}")
     lines = f.read_text(encoding="utf-8").splitlines()
+    # Wrap-aware locator — MUST stay byte-identical to
+    # fab-reconcile-candidates.locate_quote's matching loop (S199 fix 3): single-line
+    # first, then a growing join of up to `window` consecutive lines so a quote that
+    # straddles a mid-paragraph break or a blank-line paragraph gap still locates. If
+    # the reconciler located a quote via the join, mint must locate it the same way or
+    # it aborts on a quote the reconciler already passed. Widening the window can only
+    # find MORE quotes (single-line + short joins still match first, at the same line);
+    # it never changes a previously-located line, so it is safe for prior enrichment runs.
+    window = 4
     q = norm(quote)
     for i, ln in enumerate(lines, 1):
         if q in norm(ln):
             return i
-    for i in range(len(lines) - 1):
-        if q in norm(lines[i] + " " + lines[i + 1]):
-            return i + 1
+    n = len(lines)
+    for i in range(n):
+        # blank-start windows skipped — MUST stay byte-identical to the reconciler's
+        # locate_quote (a blank-start match always re-matches from the next non-blank
+        # line with more window headroom, so located-vs-not never changes; only the
+        # returned line becomes the first ACTUAL text line).
+        if not lines[i].strip():
+            continue
+        joined = lines[i]
+        for w in range(1, window):
+            if i + w >= n:
+                break
+            joined = joined + " " + lines[i + w]
+            if q in norm(joined):
+                return i + 1
     sys.exit(f"ABORT: quote not found in {chapter}.md -> {quote!r}")
 
 

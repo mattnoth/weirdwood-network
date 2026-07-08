@@ -56,7 +56,18 @@ So book-fab edges carry the two new fields (currently dropped):
 (Insert beside the existing `qualifier`/`verify` passthroughs.) The reconciler already writes these into
 candidates.json; without this patch mint silently omits them. Land it in the same commit as edits 1–4.
 
+## Mint patch 2 — `authoritative_line` wrap-aware locator (`scripts/mint_enrichment.py`) — ALREADY APPLIED S199
+> **Note:** this one is code-only (no schema change) and was applied at S199 build time (not gated) because it
+> must stay **byte-identical** to the reconciler's `locate_quote` — a quote the reconciler pre-validates has to
+> also locate at mint time or mint aborts. `authoritative_line`'s two-line join was widened to a growing join of
+> up to `window=4` consecutive lines so a quote straddling a **blank-line paragraph gap** still locates (the
+> Stage-1 smoke had 14 such false-negatives; the fix recovered 10, dropping quarantine 14→4). Widening the window
+> can only find MORE quotes (single-line + short joins still match first, at the same line), so it is **safe for
+> prior enrichment runs** (euron, etc.) — it never relocates a previously-found quote. Flag in the Active Decision.
+
 ## Worklog Active Decision (log when this lands)
 > **F&B schema batch (S198→apply):** added `fab` book code (section-named chapter files), `evidence_kind:
 > book-fab`, edge fields `in_universe_source` (enum) + `disputed` (bool), validator invariant `disputed ⇒
 > tier ≤ 2`, and the 3-line mint passthrough. One batch, per CLAUDE.md rule #6 (schema ↔ architecture.md lockstep).
+> **S199 addendum:** `mint_enrichment.authoritative_line` was made wrap-aware (window=4) in lockstep with the
+> reconciler's `locate_quote` (S199 reconciler fixes) — code-only, already applied, safe for prior runs.

@@ -64,7 +64,10 @@ Not located → quarantine the row to `quotes-review.jsonl` (row-level; the unit
 
 **D. Emit.**
 - `candidates.json` (mint schema above) — all located edges; `_meta.evidence_kind="book-fab"`,
-  `run_id="fab-<slug>-NN-<date>"`, `new_node_slugs` = CREATE slugs.
+  `run_id="<unit>-<date>"` (**AMENDED S199 Stage-2** — the full unit slug INCLUDING any `-pMM`
+  part suffix; the original `fab-<slug>-NN-<date>` form gave p01/p02/p03 identical run_ids, so
+  `fab_merge_node`'s idempotency marker silently dropped parts 2–3's prose on shared nodes),
+  `new_node_slugs` = CREATE slugs.
 - CREATE node bodies → `nodes/<slug>.node.md`: frontmatter (name, type from roster type-guess mapped to schema,
   slug, aliases:[], confidence, `era:` from unit frontmatter (§5.5), `pass_origin: pass-fab-enrichment`) +
   `## Identity` (book-grounded one-liner) + `## Fire & Blood` prose section. For `event.*` CREATE nodes with a
@@ -78,7 +81,23 @@ Not located → quarantine the row to `quotes-review.jsonl` (row-level; the unit
   DIFFERENT target, or a `disputed` F&B tag against a flat wiki claim → flag (grouped by node). Duplicate-triple-
   with-better-evidence is INTENDED (the Tier-1 overlay) — do NOT flag those.
 - `run-summary.jsonl` (§7a): one row `{unit, entities_rostered, matched, ambiguous_to_review, created,
-  edges_by_type, quotes_total, quotes_located_pct, quotes_quarantined, needs_vocab_count, disputed_rate}`.
+  edges_by_type, quotes_total, quotes_located_pct, quotes_quarantined, quotes_repaired, needs_vocab_count,
+  disputed_rate}`.
+- **AMENDED S199 Stage-2 — two additional sidecars:** `quotes-repaired.jsonl` (quotes canonicalized by the
+  trailing-punct repair: the extractor clips mid-sentence + appends a synthetic '.'; the STORED quote is the
+  stripped strictly-verbatim form, so mint's strict locator is unchanged) and `matched.jsonl` (every
+  name→slug UPDATE routing — the wrong-match audit surface; roster-only wrong-matches must not hide).
+  Routing hardened same session: type-agreement gate on clean hits (roster Type guess ↔ node category;
+  `Lorath`→`jaqen-hghar` and `Sea Snake`→`corlys-velaryon` were live wrong-matches), exact-1.0 accept
+  (score 1.0, margin ≥0.2, POSITIVE type agreement) to drain the exact-name review flood, review-candidate
+  probes (pack + name-token) so the right answer is always presentable at triage, and year-aware `era:`
+  refinement for dated CREATE events.
+- **AMENDED S199 (§7.2 gate response) — dispute-proximity quarantine + `dispute-review.jsonl`:** untagged
+  edges/events/prose bullets located within ±1 line of a STRONG hedge term (chronicler names / divergence
+  framing; certainty markers clear the neighborhood) and ALL untagged `LOVER_OF`/`PARAMOUR_OF` edges are
+  HELD to `dispute-review.jsonl`, never emitted. Adjudication at apply via the per-unit fresh-verify
+  (verdict-gates-apply). Also: mechanical edge-type vocab guard (canonical 170 via
+  `working/wiki/data/edge-type-counts.json`; off-vocab → review). run-summary gains `dispute_held`.
 
 **Unit tests (build-time, no smoke needed):** feed a synthetic roster with "Aegon Targaryen" (→ must route
 ambiguous, NOT accept the `aegon-targaryen` trap), "Aenys Targaryen" (→ redirect resolves to
