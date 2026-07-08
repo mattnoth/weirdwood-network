@@ -1,0 +1,176 @@
+{
+  "verdicts": [
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p01",
+      "index": 0,
+      "kind": "edge",
+      "who": "Daemon Targaryen -> Mysaria (LOVER_OF)",
+      "verdict": "tag-as-disputed",
+      "in_universe_source": "unattributed",
+      "reason": "\"a certain Lysene dancing girl soon became his favorite\" is Gyldayn's own euphemistic phrasing (parallel to the 'found a new favorite'/'the groom's favorite' pattern), not a flat statement of a romantic bond, and no chronicler is named at this point in the text."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p01",
+      "index": 1,
+      "kind": "edge",
+      "who": "House Velaryon -> House Targaryen (ALLIES_WITH)",
+      "verdict": "clear",
+      "reason": "\"if their family histories can be believed\" is a mid-sentence parenthetical hedging only the immediately preceding clause (Velaryons arriving in Westeros before the Targaryens); \"the oldest and closest allies of the Targaryens\" is a separate, flatly-asserted sentence outside that hedge's scope."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p01",
+      "index": 2,
+      "kind": "prose",
+      "who": "Corlys Velaryon",
+      "verdict": "clear",
+      "reason": "\"surely one of the most extraordinary figures of the age\" is Gyldayn's own editorial praise, in an earlier, separate paragraph/sentence; the nearby \"can be believed\" hedge governs the Velaryons' claimed pre-Targaryen arrival, not Gyldayn's assessment of Corlys."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p01",
+      "index": 3,
+      "kind": "prose",
+      "who": "Mushroom",
+      "verdict": "clear",
+      "reason": "Flat Gyldayn narration that Baelor the Blessed ordered Mushroom's chronicle burned — a fact about Mushroom's book's fate, not a citation to his disputed Testimony content; classic false-hold (hedge term \"mushroom\" firing on prose about the man rather than his account)."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 0,
+      "kind": "edge",
+      "who": "Daemon Targaryen -> Mysaria (LOVER_OF)",
+      "verdict": "clear",
+      "reason": "\"taking his paramour Mysaria with him\" uses the explicit, non-euphemistic term \"paramour\" in plain Gyldayn narration; not hedged."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 1,
+      "kind": "edge",
+      "who": "Daemon Targaryen -> Rhaenyra Targaryen (UNCLE_OF)",
+      "verdict": "clear",
+      "reason": "\"his niece the princess\" states a definitional genealogical fact (Daemon is the king's brother, Rhaenyra the king's daughter) that holds true independent of the disputed seduction narrative it appears inside."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 2,
+      "kind": "edge",
+      "who": "Viserys I Targaryen -> Daemon Targaryen (BANISHES)",
+      "verdict": "clear",
+      "reason": "The banishment itself is one of the facts every account agrees on (only the underlying scandal's particulars differ between Eustace's and Mushroom's versions) — matches the exile-is-flat calibration example directly."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 3,
+      "kind": "edge",
+      "who": "Lyonel Strong -> Viserys I Targaryen (ADVISES)",
+      "verdict": "tag-as-disputed",
+      "in_universe_source": "eustace",
+      "reason": "The closed-door council detail (Strong urging execution) is textually anchored to Septon Eustace, who is quoted rebutting Strong in the same breath — this reads as material from Eustace's firsthand account of a private scene, not an established court-of-record fact."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 4,
+      "kind": "edge",
+      "who": "Laenor Velaryon -> Joffrey Lonmouth (LOVER_OF)",
+      "verdict": "tag-as-disputed",
+      "in_universe_source": "unattributed",
+      "reason": "\"the groom's favorite\" is the euphemism-class insinuation named explicitly in the calibration guidance; this is plain Gyldayn narration listing tourney competitors, with no chronicler attribution nearby."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 5,
+      "kind": "edge",
+      "who": "Criston Cole -> Joffrey Lonmouth (KILLS)",
+      "verdict": "clear",
+      "reason": "Flat narration of a public tourney injury/death witnessed by hundreds; the adjacent \"Mushroom tells us\" attaches to the following sentence (Laenor's bedside vigil), not to the cracked-helm/death claim."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 6,
+      "kind": "edge",
+      "who": "Criston Cole -> Harwin Strong (ATTACKS)",
+      "verdict": "clear",
+      "reason": "Flat narration of a public joust injury; the parenthetical Mushroom reference supplies only the nickname \"Brokenbones,\" not a hedge on the injury itself."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 7,
+      "kind": "edge",
+      "who": "Criston Cole -> Alicent Hightower (ALLIES_WITH)",
+      "verdict": "clear",
+      "reason": "Flat statement of Cole's known political alignment with the queen's party; no hedge or attribution governs this clause."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 8,
+      "kind": "edge",
+      "who": "Criston Cole -> Alicent Hightower (PROTECTS)",
+      "verdict": "clear",
+      "reason": "\"It was said that\" hedges only the preceding clause about Alicent's private reaction to Joffrey's death; the request that Cole be made her protector is a separate, flatly-stated independent clause describing a public appointment."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 9,
+      "kind": "edge",
+      "who": "Harwin Strong -> Rhaenyra Targaryen (COMPANION_OF)",
+      "verdict": "clear",
+      "reason": "\"ever at Rhaenyra's side at feast and ball and hunt\" describes Harwin's public court-favorite role (foremost of the blacks), not a romantic euphemism, and is not hedged."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 10,
+      "kind": "edge",
+      "who": "Laenor Velaryon -> Qarl Correy (LOVER_OF)",
+      "verdict": "tag-as-disputed",
+      "in_universe_source": "unattributed",
+      "reason": "\"found a new favorite\" is the exact euphemism-class pattern named in the calibration guidance; this introductory sentence carries no chronicler attribution (the later Mushroom material about the threesome is a separate, later claim)."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 11,
+      "kind": "event",
+      "who": "Daemon exiled after the Rhaenyra scandal",
+      "verdict": "clear",
+      "reason": "Matches the calibration's explicit example: the fact of exile is agreed by every account even though the underlying scandal's details differ between chroniclers."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 12,
+      "kind": "event",
+      "who": "Death of Joffrey Lonmouth at the wedding tourney",
+      "verdict": "clear",
+      "reason": "Matches the calibration's explicit example: his death six days after the tourney is undisputed public fact, not part of the disputed bedchamber material."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 13,
+      "kind": "prose",
+      "who": "Daemon Targaryen",
+      "verdict": "clear",
+      "reason": "The reconciliation is a witnessed public event and \"a scandal over Rhaenyra\" is deliberately non-specific about which disputed version (Eustace's vs. Mushroom's) is true, so the summary doesn't take a side; both underlying facts (reconciliation, exile) are undisputed."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 14,
+      "kind": "prose",
+      "who": "Alicent Hightower",
+      "verdict": "clear",
+      "reason": "Flat biographical description (age, having read to the dying Jaehaerys) restated from earlier in the text; the disputed insinuation about her virtue/relationship with Viserys before Aemma's death is a separate sentence a few lines later, explicitly flagged as \"calumnies... never proved, though Mushroom repeats them.\""
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 15,
+      "kind": "prose",
+      "who": "Harwin Strong",
+      "verdict": "clear",
+      "reason": "Restates the same flat, undisputed public-role fact as the COMPANION_OF edge above (foremost of the blacks at Rhaenyra's side)."
+    },
+    {
+      "unit": "fab-heirs-of-the-dragon-15-p02",
+      "index": 16,
+      "kind": "prose",
+      "who": "Joffrey Lonmouth",
+      "verdict": "clear",
+      "reason": "Same undisputed public tourney-death fact cited in the calibration guidance; not sourced to Mushroom specifically."
+    }
+  ]
+}

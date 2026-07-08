@@ -2,7 +2,7 @@
 name: "Jaqen H'ghar"
 type: character.human
 slug: jaqen-hghar
-aliases: ["Lorath"]
+aliases: []
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaqen_H'ghar"
 bucket_id: characters-house-lorch

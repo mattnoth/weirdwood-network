@@ -1,0 +1,140 @@
+{"unit": "fab-aegons-conquest-03", "name": "Aegon I Targaryen", "slug": "aegon-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon Targaryen (son of Gaemon)", "slug": "aegon-targaryen-son-of-gaemon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon the Conqueror", "slug": "aegon-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon's Landing", "slug": "aegons-landing", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegonfort", "slug": "aegonfort", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Aelyx Targaryen", "slug": "aelyx-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Aenar Targaryen", "slug": "aenar-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Aerion Targaryen", "slug": "aerion-targaryen-son-of-daemion", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Aerys Targaryen", "slug": "aerys-targaryen-son-of-aegon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Argella Durrandon", "slug": "argella-durrandon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Argilac Durrandon", "slug": "argilac-durrandon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Baelon Targaryen", "slug": "baelon-targaryen-son-of-aerys", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Bastard of Blackhaven", "slug": "bastard-of-blackhaven", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Battle in the waters off Gulltown", "slug": "battle-in-the-waters-off-gulltown", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Battle of Summerfield", "slug": "battle-of-summerfield", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Battle of the Last Storm", "slug": "last-storm", "route_reason": "redirect"}
+{"unit": "fab-aegons-conquest-03", "name": "Battle of the Reeds", "slug": "battle-of-the-reeds", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Blackfyre", "slug": "blackfyre", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Blackwater Rush", "slug": "blackwater-rush", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Brandon Snow", "slug": "brandon-snow", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Bronzegate", "slug": "bronzegate", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Burning of Harrenhal", "slug": "burning-of-harrenhal", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Cape Wrath", "slug": "cape-wrath", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Casterly Rock", "slug": "casterly-rock", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Claw Isle", "slug": "claw-isle", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Crackclaw Point", "slug": "crackclaw-point", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Crispian Celtigar", "slug": "crispian-celtigar", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Daemion Targaryen", "slug": "daemion-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Daemon Velaryon", "slug": "daemon-velaryon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Daenys the Dreamer", "slug": "daenys-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Dark Sister", "slug": "dark-sister", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Dickon Morrigen", "slug": "dickon-morrigen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Doom of Valyria", "slug": "doom-of-valyria", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Dragonstone", "slug": "dragonstone", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Driftmark", "slug": "driftmark", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Duskendale", "slug": "duskendale", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Edmund Gardener", "slug": "edmund-gardener", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Edmyn Tully", "slug": "edmyn-tully", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Field of Fire", "slug": "field-of-fire", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Freys", "slug": "house-frey", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Gaemon Targaryen", "slug": "gaemon-targaryen-son-of-aenar", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Gaemon the Glorious", "slug": "gaemon-targaryen-son-of-aenar", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Garse VII Gardener", "slug": "garse-vii-gardener", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Gawen Gardener", "slug": "gawen-gardener", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Gods Eye", "slug": "gods-eye", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Godsgrace", "slug": "godsgrace", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Goldengrove", "slug": "goldengrove", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Gulltown", "slug": "gulltown", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Harlan Tyrell", "slug": "harlan-tyrell", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Harren Hoare", "slug": "harren-hoare", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Harrenhal", "slug": "harrenhal", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Harwyn Hardhand", "slug": "harwyn-hoare", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Highgarden", "slug": "highgarden", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Allyrion", "slug": "house-allyrion", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Arryn", "slug": "house-arryn", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Baratheon", "slug": "house-baratheon", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Celtigar", "slug": "house-celtigar", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Darklyn", "slug": "house-darklyn", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Durrandon", "slug": "house-durrandon", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Gardener", "slug": "house-gardener", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Hightower", "slug": "house-hightower", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Hoare", "slug": "house-hoare", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Lannister", "slug": "house-lannister", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Martell", "slug": "house-martell", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Morrigen", "slug": "house-morrigen", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Oakheart", "slug": "house-oakheart", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Redwyne", "slug": "house-redwyne", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Rowan", "slug": "house-rowan", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Stark", "slug": "house-stark", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Sunderland", "slug": "house-sunderland", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Targaryen", "slug": "house-targaryen", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Tully", "slug": "house-tully", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Tyrell", "slug": "house-tyrell", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "House Velaryon", "slug": "house-velaryon", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Iron Throne", "slug": "iron-throne", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Jon Mooton", "slug": "jon-mooton", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "King's Landing", "slug": "kings-landing", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Lannisport", "slug": "lannisport", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Buckler", "slug": "lord-buckler", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Fell", "slug": "lord-fell", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Redwyne", "slug": "lord-redwyne", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Loren I Lannister", "slug": "loren-i-lannister", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Maegon Targaryen", "slug": "maegon-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Maidenpool", "slug": "maidenpool", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Marla Sunderland", "slug": "marla-sunderland", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Massey's Hook", "slug": "masseys-hook", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Meraxes", "slug": "meraxes", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Meria Martell", "slug": "meria-martell", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Mern IX Gardener", "slug": "mern-ix-gardener", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Moat Cailin", "slug": "moat-cailin", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Oldtown", "slug": "oldtown", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Orys Baratheon", "slug": "orys-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Painted Table", "slug": "painted-table", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Planky Town", "slug": "planky-town", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Prince's Pass", "slug": "princes-pass", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Rhaenys Targaryen", "slug": "rhaenys-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Riverrun", "slug": "riverrun", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Rosby", "slug": "rosby", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Sharp Point", "slug": "sharp-point", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Sharra Arryn", "slug": "sharra-arryn", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Sistermen's rebellion", "slug": "sistermens-rebellion", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Sky", "slug": "sky", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Stokeworth", "slug": "stokeworth", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Stone", "slug": "stone", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Stonedance", "slug": "stonedance", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Stoney Sept", "slug": "stoney-sept", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Storm's End", "slug": "storms-end", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Submission of Oldtown", "slug": "submission-of-oldtown", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Submission of Stokeworth", "slug": "submission-of-stokeworth", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Summerfield", "slug": "summerfield", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Sunspear", "slug": "sunspear", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Torrhen Stark", "slug": "torrhen-stark", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Triston Massey", "slug": "triston-massey", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Vaith", "slug": "vaith", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Valaena Velaryon", "slug": "valaena-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Valyria", "slug": "valyria", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Vhagar", "slug": "vhagar", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Visenya Targaryen", "slug": "visenya-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Volantis", "slug": "volantis", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "Winterfell", "slug": "winterfell", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Arbor", "slug": "arbor", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Bloody Gate", "slug": "bloody-gate", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Citadel", "slug": "citadel", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Eyrie", "slug": "eyrie", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Flower of the Mountain", "slug": "sharra-arryn", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "the Giant's Lance", "slug": "giants-lance", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Green Fork", "slug": "green-fork", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Greenblood", "slug": "greenblood", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the King Who Knelt", "slug": "torrhen-stark", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "the Mander", "slug": "mander", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Neck", "slug": "neck", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Red Mountains", "slug": "red-mountains", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Starry Sept", "slug": "starry-sept", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Stepstones", "slug": "stepstones", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Sunset Sea", "slug": "sunset-sea", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Three Sisters", "slug": "three-sisters", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Trident", "slug": "trident", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Wendwater", "slug": "wendwater", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-aegons-conquest-03", "name": "the Yellow Toad of Dorne", "slug": "meria-martell", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "the goldroad", "slug": "goldroad", "route_reason": "exact-1.0-type-agree"}

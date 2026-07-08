@@ -16,6 +16,8 @@ Book abbreviations: `agot`, `acok`, `asos`, `affc`, `adwd`
 
 Novella codes (Tales of Dunk and Egg): `thk` (The Hedge Knight), `tss` (The Sworn Sword), `tmk` (The Mystery Knight)
 
+Fire & Blood: `fab`. **Not POV-structured** (third-person maester-historian narration by Gyldayn) — so F&B chapter files are named by SECTION, not POV: `fab-<section-slug>-NN[-pMM].md` where `NN` = the epub HTML file number (zero-padded 2-digit) and `-pMM` is an optional sub-split part. Split by `scripts/fire-and-blood-splitter.py` per `working/fire-and-blood/unit-map.json` (the epub `toc.ncx` is unreliable). 23 sections → 39 unit files.
+
 Examples:
 - `agot-bran-01.md` (Bran's first chapter in AGOT)
 - `asos-catelyn-07.md` (Catelyn's seventh chapter in ASOS — the Red Wedding)
@@ -562,6 +564,11 @@ Every edge instance should carry these fields where applicable:
 | `notes` | Qualifiers, context, temporal bounds | `"while serving as Kingsguard"` |
 | `temporal` | When this edge is active (if not permanent) | `"until ASOS"`, `"during Robert's Rebellion"` |
 | `symmetric` | Whether the edge is bidirectional | `true` / `false` |
+| `evidence_kind` | Provenance discriminator. Enum: `wiki-entity` \| `wiki-chapter-summary` \| `book-pass1` \| `wiki-infobox` \| `book-fab`. `book-fab` = grounded in *Fire & Blood* book text via the enrichment pass — Tier-1 when Gyldayn narrates it flatly; Tier-2 + `in_universe_source`/`disputed` when hedged/partisan. Distinguishes the maester-historian layer so queries can filter book-vs-wiki provenance. | `book-fab` |
+| `in_universe_source` | Optional; F&B (`book-fab`) edges only. The in-world source of a hedged/partisan claim. Enum: `mushroom` \| `eustace` \| `munkun` \| `orwyle` \| `gyldayn-synthesis` \| `court-record` \| `unattributed`. Set ONLY when the text hedges or names a partisan source; blank on plain Gyldayn narration. `unattributed` = bare "some say / it is said"; `gyldayn-synthesis` = Gyldayn explicitly weighing named sources. | `mushroom` |
+| `disputed` | Optional bool; F&B edges only. `true` when the claim is hedged, single-partisan, or two accounts conflict (each conflicting account emitted as its own edge, each tagged). | `true` |
+
+**Validator invariant:** `disputed: true ⇒ confidence_tier ≤ 2` — reject any tier-1 + disputed row. Same tier-cap pattern as `SUSPECTED_OF` and the staged `occurred.dispute` sub-map. Rationale: F&B is in-universe history compiled by Archmaester Gyldayn from partisan, contradictory sources (Munkun's *True Telling*, Orwyle, Septon Eustace, Mushroom's *Testimony*); uncontested narration is the primary canonical source for 1–136 AC (Tier-1, no POV text exists for that era), but anything hedged/disputed is capped Tier-2. Blanket per-source ceilings were rejected (Fable review §3 #9) — Gyldayn synthesizes, and even Mushroom sometimes reports uncontested fact.
 
 ---
 
@@ -612,6 +619,8 @@ Appearance types: `POV`, `appears`, `mentioned`. First non-"mentioned" book → 
 
 **2. Citation anchor IDs** (chapter-level granularity):
 Format: `R{book_abbrev}{chapter_number}` in cite_ref HTML anchors. Example: `cite_ref-Ragot2` → AGOT chapter 2. Lowest-numbered citation per page → chapter-level `first_available`.
+
+**Fire & Blood cite anchors** are section-slug-based, not chapter-number-based: `Rfab<section_slug>` (e.g. `cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession`). This is the wiki's own F&B citation prefix — the graph's existing 1,634 `Rfab*`-anchored nodes are the Tier-2 provenance layer the F&B enrichment pass upgrades. Book-cited F&B edges use `evidence_ref: sources/chapters/fab/<unit>.md:LINE` (line-anchored, like all other chapters).
 
 **Known parser-bug class:** the lowest-cite_ref heuristic produces wrong values for some pages (cite_refs are reordered when wiki footnotes are edited; ADWD-era references can sort first). The backfill script must cross-reference cite_refs against `pass1_mentions` to detect and correct these silent failures, OR simply use `Books` field as the primary signal and treat cite_refs as refinement only.
 

@@ -1,0 +1,6 @@
+{"unit": "fab-aegons-conquest-03", "name": "Aenar's exodus to Dragonstone", "slug": "aenars-exodus-to-dragonstone", "type": "event.migration"}
+{"unit": "fab-aegons-conquest-03", "name": "Capture of Loren Lannister", "slug": "capture-of-loren-lannister", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Torrhen Stark's kneeling", "slug": "torrhen-starks-kneeling", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Surrender of the Vale", "slug": "surrender-of-the-vale", "type": "event.surrender"}
+{"unit": "fab-aegons-conquest-03", "name": "Rhaenys's parley with Meria Martell", "slug": "rhaenyss-parley-with-meria-martell", "type": "event.negotiation"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon's second coronation", "slug": "aegons-second-coronation", "type": "event.coronation"}

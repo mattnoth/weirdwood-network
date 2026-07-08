@@ -1,0 +1,7 @@
+{"unit": "fab-heirs-of-the-dragon-15-p02", "quote": "\"Queen Alicent kissed her and named her 'daughter'\"", "kind": "edge", "edge_type": "STEP_PARENT_OF", "source": "Alicent Hightower", "target": "Rhaenyra Targaryen"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "quote": "\"unhorsed all of the queen's champions, including... her youngest brother\"", "kind": "edge", "edge_type": "DEFEATS", "source": "Criston Cole", "target": "Gwayne Hightower"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "quote": "the man she called 'my white knight'", "kind": "prose", "entity": "Rhaenyra Targaryen"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "quote": "'who protects the princess from Ser Criston?'", "kind": "prose", "entity": "Alicent Hightower"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "quote": "'This Hand will not hector me'", "kind": "prose", "entity": "Lyonel Strong"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "quote": "'shows far more interest in flying than in boys'", "kind": "prose", "entity": "Laena Velaryon"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "quote": "'I do not like the taste of fish, but when fish is served, \\| eat it.'", "kind": "prose", "entity": "Mellos"}

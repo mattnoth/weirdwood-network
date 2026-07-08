@@ -179,6 +179,10 @@ def make_edge_row(e, common_block):
         row["qualifier"] = e["qualifier"]
     if e.get("verify"):
         row["verified_by"] = "pending"
+    if e.get("in_universe_source"):
+        row["in_universe_source"] = e["in_universe_source"]
+    if e.get("disputed"):
+        row["disputed"] = True
     return row
 
 

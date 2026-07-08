@@ -1,0 +1,5 @@
+{"unit": "fab-aegons-conquest-03", "quote": "", "kind": "edge", "edge_type": "OPPOSES", "source": "Meria Martell", "target": "Aegon I Targaryen"}
+{"unit": "fab-aegons-conquest-03", "quote": "Dickon Morrigen and the Bastard of Blackhaven... were engulfed in dragonflame", "kind": "edge", "edge_type": "KILLS", "source": "Rhaenys Targaryen", "target": "Dickon Morrigen"}
+{"unit": "fab-aegons-conquest-03", "quote": "Dickon Morrigen and the Bastard of Blackhaven... were engulfed in dragonflame", "kind": "edge", "edge_type": "KILLS", "source": "Rhaenys Targaryen", "target": "Bastard of Blackhaven"}
+{"unit": "fab-aegons-conquest-03", "quote": "Argilac the Arrogant had named her \"the Yellow Toad of Dorne\"", "kind": "edge", "edge_type": "ALIAS_OF", "source": "the Yellow Toad of Dorne", "target": "Meria Martell"}
+{"unit": "fab-aegons-conquest-03", "quote": "lauded as \"the Flower of the Mountain\"", "kind": "edge", "edge_type": "ALIAS_OF", "source": "the Flower of the Mountain", "target": "Sharra Arryn"}
