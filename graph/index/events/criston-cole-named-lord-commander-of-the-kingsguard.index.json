@@ -1,0 +1,18 @@
+{
+  "slug": "criston-cole-named-lord-commander-of-the-kingsguard",
+  "name": "Criston Cole named Lord Commander of the Kingsguard",
+  "type": "event.appointment",
+  "node_path": "graph/nodes/events/criston-cole-named-lord-commander-of-the-kingsguard.node.md",
+  "generated_at": "2026-07-08T04:30:55.868131+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}
