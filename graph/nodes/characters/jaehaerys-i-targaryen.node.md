@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -245,3 +245,13 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 > It is a poor king who wages battle against his own lords and leaves his own kingdom burned, bloody, and strewn with corpses. His Grace was a wiser man than that.(wiki:Jaehaerys_I_Targaryen.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-13)
 >
 > —writings of [Barth](wiki:Barth)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- The Old King, called the Conciliator, whose reign was the longest and most peaceful any of the Conqueror's descendants enjoyed (fab-heirs-of-the-dragon-15-p01:17)
+- He and Queen Alysanne produced thirteen children, of whom four grew to maturity and married (fab-heirs-of-the-dragon-15-p01:21)
+- Twice he was estranged from Alysanne, in the First and Second Quarrels, the second over his passing Rhaenys over for the succession (fab-heirs-of-the-dragon-15-p01:47)
+- After his heirs Aemon and Baelon both died, he summoned Vaegon and convened the Great Council of 101 (fab-heirs-of-the-dragon-15-p01:87)
+- He died in his bed in 103 AC at nine-and-sixty, and his remains were burned in the Dragonpit (fab-heirs-of-the-dragon-15-p01:157)

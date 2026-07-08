@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -137,3 +137,11 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 > The [first Viserys](wiki:Viserys_I_Targaryen) intended his daughter Rhaenyra to follow him, do you deny it? But as the king lay dying the [Lord Commander of the Kingsguard](wiki:Criston_Cole) decided that it should be otherwise.(wiki:Rhaenyra_Targaryen.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
 >
 > —[Arianne Martell](wiki:Arianne_Martell), to [Arys Oakheart](wiki:Arys_Oakheart)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Only surviving child of Viserys I and Queen Aemma, born 97 AC, dubbed "the Realm's Delight" by court singers (fab-heirs-of-the-dragon-15-p01:171)
+- She became a dragonrider at seven on Syrax and a cupbearer to her own father at eight (fab-heirs-of-the-dragon-15-p01:171)
+- Her uncle Daemon was ever attentive, bringing her exotic gifts from across the narrow sea (fab-heirs-of-the-dragon-15-p01:191)

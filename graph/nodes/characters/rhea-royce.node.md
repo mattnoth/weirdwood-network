@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhea_Royce"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rhea Royce is a character from the AWOIAF wiki.
+Rhea Royce — Lady of House Royce, heir to Runestone in the Vale, wed to Daemon in 97 AC in a marriage that was not a success.
 
 ## Edges
 
@@ -35,3 +35,9 @@ By [106 AC](wiki:106_AC), Daemon had once again left Lady Rhea at Runestone, thi
 
 In [115 AC](wiki:Years_after_Aegon's_Conquest), while she was [hawking](wiki:Hawk) in the Vale,(wiki:Rhea_Royce.cite_ref-Rtwoiafthe_targaryen_kings:_viserys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) Lady Rhea fell from her horse and cracked her skull upon a stone. She lingered for nine days before finally feeling well enough to leave her bed, only to collapse and die within an hour of rising.(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 Upon learning of Rhea's death, Prince Daemon flew from [Bloodstone](wiki:Bloodstone) to put his wife to rest. After arriving in the Vale, however, he claimed the lands, castles, and incomes of [House Royce](wiki:House_Royce). Runestone passed to a nephew of Lady Rhea, however, and Daemon's claim was dismissed by Lady [Jeyne Arryn](wiki:Jeyne_Arryn), who warned him that he was unwelcome in the Vale.(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Lady of House Royce, heir to Runestone in the Vale, wed to Daemon in 97 AC in a marriage that was not a success (fab-heirs-of-the-dragon-15-p01:57)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemon_Targaryen_(son_of_Jaehaerys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -70,3 +70,12 @@ At first, Aemon was shy around [dragons](wiki:Dragon),(wiki:Aemon_Targaryen_(son
 - CULTURE_OF: Valyrian (cite: track_b: Race)
 - BORN_AT: Dragonstone (cite: track_b: Born)
 - DIED_AT: Tarth (cite: track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Eldest son of Jaehaerys I, anointed Prince of Dragonstone at seven in 62 AC and heir to the Iron Throne (fab-heirs-of-the-dragon-15-p01:25)
+- He was knighted at seventeen, a tourney champion at twenty, and his father's justiciar and master of laws at six-and-twenty (fab-heirs-of-the-dragon-15-p01:25)
+- He was slain on Tarth in 92 AC by a Myrish crossbow bolt meant for the man beside him (fab-heirs-of-the-dragon-15-p01:31)
+- His daughter Rhaenys was his only child (fab-heirs-of-the-dragon-15-p01:33)

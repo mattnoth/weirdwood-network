@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ryam_Redwyne"
 bucket_id: characters-house-redwyne
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Ryam Redwyne is a character.human from the AWOIAF wiki.
+Ryam Redwyne — Kingsguard Lord Commander and co-champion of the 98 AC tourney, made Hand after Barth but removed within a year as unfit.
 
 ## Edges
 
@@ -97,3 +97,9 @@ Jaime advises Loras to learn about their predecessors in the Kingsguard, such as
 > White wool hangings covered the walls, and there was a white shield and two crossed longswords mounted above the hearth. The chair behind the table was old black [oak](wiki:Oak), with cushions of blanched cowhide, the leather worn thin. Worn by the bony arse of [Barristan the Bold](wiki:Barristan_Selmy) and Ser [Gerold Hightower](wiki:Gerold_Hightower) before him, by Prince [Aemon the Dragonknight](wiki:Aemon_Targaryen_(son_of_Viserys_II)), Ser Ryam Redwyne, and the [Demon of Darry](wiki:Demon_of_Darry), by Ser [Duncan the Tall](wiki:Duncan_the_Tall) and the Pale Griffin [Alyn Connington](wiki:Alyn_Connington). How could the Kingslayer belong in such exalted company?(wiki:Ryam_Redwyne.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Kingsguard Lord Commander and co-champion of the 98 AC tourney, made Hand after Barth but removed within a year as unfit (fab-heirs-of-the-dragon-15-p01:65)

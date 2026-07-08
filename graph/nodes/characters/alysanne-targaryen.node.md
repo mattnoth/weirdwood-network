@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
@@ -198,3 +198,12 @@ When talking to [Theon Greyjoy](wiki:Theon_Greyjoy), Lord [Roose Bolton](wiki:Ro
 ## Notes
 
 Parser `first_available` was AFFC ch 5, but cite_refs show references as early as AGOT ch 68 and ACOK ch 58. Alysanne is mentioned in the main series from AGOT onward. Override to "always available."
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Good Queen Alysanne ruled beside Jaehaerys for many years and died of a wasting illness in 100 AC at four-and-sixty (fab-heirs-of-the-dragon-15-p01:49)
+- She was the most prominent dissenter against passing over Rhaenys, telling the king a cock is not essential to rule (fab-heirs-of-the-dragon-15-p01:45)
+- She then flew to Dragonstone on Silverwing, beginning the Second Quarrel (fab-heirs-of-the-dragon-15-p01:45)
+- To her death she insisted her granddaughter Rhaenys had been cheated (fab-heirs-of-the-dragon-15-p01:49)

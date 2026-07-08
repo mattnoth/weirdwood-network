@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mushroom"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Mushroom — The court fool whose verbal account became The Testimony of Mushroom, a three-foot dwarf thought feeble-minded before whom lords did not guard their secrets.
 
 ## Origins
 
@@ -95,3 +99,10 @@ Mushroom was erroneously believed to be a feeble-minded [lackwit](wiki:Lackwit) 
 ## Notes
 
 Mushroom is significant as a meta-narrative device in Fire & Blood. His accounts are often unreliable (Tier 2 — wiki hedges with skepticism from Gyldayn) but occasionally vindicated.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- The court fool whose verbal account became The Testimony of Mushroom, a three-foot dwarf thought feeble-minded before whom lords did not guard their secrets (fab-heirs-of-the-dragon-15-p01:203)
+- His ribald chronicle was ordered burned by King Baelor the Blessed (fab-heirs-of-the-dragon-15-p01:203)

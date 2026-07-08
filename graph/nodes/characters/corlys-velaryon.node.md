@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corlys_Velaryon"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -133,3 +133,13 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 > Seventy-nine years of age, he had served four kings and [a queen](wiki:Rhaenyra_Targaryen), sailed to the ends of [the earth](wiki:Known_world), raised [House Velaryon](wiki:House_Velaryon) to unprecedented levels of wealth and power, married [a princess](wiki:Rhaenys_Targaryen_(daughter_of_Aemon)) who might have been a queen, fathered [dragonriders](wiki:Dragonrider), built towns and fleets, proved his valor in times of [war](wiki:Dance_of_the_Dragons) and his wisdom in times of peace. The [Seven Kingdoms](wiki:Seven_Kingdoms) would never see his like again.(wiki:Corlys_Velaryon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- He first crossed the narrow sea at six and made nine famous voyages on the Sea Snake, the first Westerosi past Qarth to Yi Ti and Asshai (fab-heirs-of-the-dragon-15-p01:123)
+- His trade made the Velaryons briefly the wealthiest house in the realm (fab-heirs-of-the-dragon-15-p01:125)
+- He built the castle High Tide, moved the Driftwood Throne there, and tripled the royal fleet as master of ships (fab-heirs-of-the-dragon-15-p01:129)
+- When Rhaenys was passed over he gave up his admiralty and took her to Driftmark, and later pressed Laenor's claim at Harrenhal (fab-heirs-of-the-dragon-15-p01:43)
+- The Sea Snake, Lord of the Tides and Master of Driftmark, called one of the most extraordinary figures of the age (fab-heirs-of-the-dragon-15-p01:109)

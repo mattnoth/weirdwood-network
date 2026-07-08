@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laenor_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -71,3 +71,10 @@ My half-brothers would be more to his taste.(wiki:Laenor_Velaryon.cite_ref-Rfabh
 [[Laena]](wiki:Laena_Velaryon) was almost as pretty as her brother.(wiki:Laenor_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-22)
 Do keep trying, soon or late, you may get one who looks like you.(wiki:Laenor_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-23)
 They will turn the [Red Keep](wiki:Red_Keep) into a [brothel](wiki:Brothel). No man's daughter will be safe, nor any man's wife. Even the boys... we know what Laenor was.(wiki:Laenor_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Son of Rhaenys and Corlys, a boy of seven at the Great Council, whose claim through the male line of Aemon was pressed by his powerful parents but rejected (fab-heirs-of-the-dragon-15-p01:79)
+- He had a grey-and-white dragon named Seasmoke (fab-heirs-of-the-dragon-15-p01:103)

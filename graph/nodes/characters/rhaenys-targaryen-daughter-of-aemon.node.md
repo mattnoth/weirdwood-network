@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen_(daughter_of_Aemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -66,3 +66,12 @@ Nine days after [Lord Staunton](wiki:Lord_Staunton) dispatched a plea for help, 
 We can go back to the ends of the earth together. But I'll get there first, as I'll be [flying](wiki:Dragonrider).(wiki:Rhaenys_Targaryen_(daughter_of_Aemon).cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
 What did [Viserys](wiki:Viserys_I_Targaryen) ever have that she did not? A little sausage? Is that all it takes to be a king?(wiki:Rhaenys_Targaryen_(daughter_of_Aemon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
 Beloved daughter of Lady [Jocelyn Baratheon](wiki:Jocelyn_Baratheon) and Prince [Aemon Targaryen](wiki:Aemon_Targaryen_(son_of_Jaehaerys_I)), faithful wife to Lord [Corlys Velaryon](wiki:Corlys_Velaryon), mother and grandmother, the Queen Who Never Was lived fearlessly, and [died amidst blood and fire](wiki:Battle_at_Rook's_Rest). She was fifty-five years old.(wiki:Rhaenys_Targaryen_(daughter_of_Aemon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Daughter of Prince Aemon, born 74 AC, described as clever, capable, and beautiful, and a dragonrider (fab-heirs-of-the-dragon-15-p01:33)
+- In 90 AC at sixteen she wed Corlys Velaryon and was with child when her father died (fab-heirs-of-the-dragon-15-p01:33)
+- She was the first to object to being passed over, telling the king he would rob her son of his birthright (fab-heirs-of-the-dragon-15-p01:41)
+- Her claim and her daughter Laena's were set aside at the Great Council on account of their sex (fab-heirs-of-the-dragon-15-p01:103)

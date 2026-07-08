@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Saera_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Saera Targaryen — Daughter of Jaehaerys, alive in Volantis at thirty-four; three of her bastard sons came to press claims though she declined to press her own.
 
 ## Origins
 
@@ -87,3 +91,10 @@ According to Grand Maester [Elysar](wiki:Elysar), by the age of two Saera knew e
 ## Notes
 
 No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise of the Dragon, and The Rogue Prince.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Daughter of Jaehaerys, alive in Volantis at thirty-four; three of her bastard sons came to press claims though she declined to press her own (fab-heirs-of-the-dragon-15-p01:103)
+- She said she had her own kingdom in Volantis (fab-heirs-of-the-dragon-15-p01:103)

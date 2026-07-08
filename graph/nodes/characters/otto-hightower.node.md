@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Otto_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -102,3 +102,10 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 > Lord [Butterwell](wiki:Butterwell_(Hand_of_the_King)) was renowned for wit, [Myles Smallwood](wiki:Myles_Smallwood) for courage, Ser Otto Hightower for learning, yet they failed as [Hands](wiki:Hand_of_the_King), every one.(wiki:Otto_Hightower.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 >
 > —[Pylos](wiki:Pylos), to [Davos Seaworth](wiki:Davos_Seaworth)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Younger brother of Lord Hightower of Oldtown, chosen by Jaehaerys as Hand and continuing to serve Viserys I (fab-heirs-of-the-dragon-15-p01:153)
+- Able but proud and haughty, his manner and access to the throne bred resentment (fab-heirs-of-the-dragon-15-p01:175)

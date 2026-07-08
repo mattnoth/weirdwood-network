@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laena_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -57,3 +57,9 @@ By taking the girl to wife, [the king](wiki:Viserys_I_Targaryen) could heal the 
 Her ladyship shows far more interest in [flying](wiki:Dragonrider) than in boys.(wiki:Laena_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
 [She] was almost as pretty as [her brother](wiki:Laenor_Velaryon).(wiki:Laena_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-18)
 Whilst Princess [Rhaenyra](wiki:Rhaenyra_Targaryen) misliked her stepmother, Queen [Alicent](wiki:Alicent_Hightower), she became fond and more than fond of her good-sister Lady Laena.(wiki:Laena_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-19)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Daughter of Rhaenys and Corlys, the "boy in the belly" whose birth was so debated but who proved a girl, born late 92 AC (fab-heirs-of-the-dragon-15-p01:49)

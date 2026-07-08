@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Boremund_Baratheon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -52,3 +52,9 @@ Boremund had at least one son, [Borros](wiki:Borros_Baratheon), who succeeded hi
 ## Quotes
 
 Lord Boremund was stone, hard and strong and unmoving. Lord [Borros](wiki:Borros_Baratheon) was the wind that rages and howls and blows this way and that.(wiki:Boremund_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Lord of Storm's End, brother of Jocelyn and uncle to Rhaenys, angered by her being passed over and later a supporter of Laenor's claim (fab-heirs-of-the-dragon-15-p01:143)

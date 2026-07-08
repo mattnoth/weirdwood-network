@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemma_Arryn"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -36,3 +36,10 @@ Aemma was the fifth child of Lord [Rodrik Arryn](wiki:Rodrik_Arryn), and the onl
 In [93 AC](wiki:Years_after_Aegon's_Conquest), at the age of eleven, Aemma married Prince [Viserys Targaryen](wiki:Viserys_I_Targaryen), her cousin. The marriage was not consummated until Aemma [flowered](wiki:Flowered), two years later. In the early years of her marriage, Aemma became pregnant several times, but suffered multiple miscarriages and gave birth to a son who died in the cradle. Some [maesters](wiki:Maester) believed that these difficulties were because Aemma had been married and [bedded](wiki:Bedded) too young. However, in [97 AC](wiki:Years_after_Aegon's_Conquest), Aemma gave birth to a healthy daughter, Princess [Rhaenyra](wiki:Rhaenyra_Targaryen). Aemma and Viserys both adored their only living child.(wiki:Aemma_Arryn.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 Viserys's father and King Jaehaerys's heir, Prince [Baelon Targaryen](wiki:Baelon_Targaryen_(son_of_Jaehaerys_I)), unexpectedly passed from an illness in [101 AC](wiki:101_AC), leading to a succession crisis. During the [Great Council of 101 AC](wiki:Great_Council_of_101_AC), Viserys was chosen as King Jaehaerys's new heir, over a female cousin and her children. Upon her grandfather Jaehaerys's death in [103 AC](wiki:103_AC), Aemma became Viserys's queen consort. Questions arose regarding the inheritance of the throne, with many opposing Viserys's younger brother and potential heir, the roguish Prince [Daemon Targaryen](wiki:Daemon_Targaryen). However, when asked about the subject, Viserys only answered that he expected Aemma would soon give him a son.(wiki:Aemma_Arryn.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 In early [105 AC](wiki:105_AC), Aemma became pregnant once more, which Viserys joyously announced to the court and [small council](wiki:Small_council). Late in the year, she gave birth to a son, Prince [Baelon Targaryen](wiki:Baelon_Targaryen_(son_of_Viserys_I)). Unfortunately Aemma died during the birth, and her son died a day later, leaving Viserys bereft.(wiki:Aemma_Arryn.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Lady of House Arryn, daughter of the late Princess Daella and thus a granddaughter of the Old King, wed to Viserys in 93 AC as an eleven-year-old (fab-heirs-of-the-dragon-15-p01:55)
+- She suffered several miscarriages and a son who died in the cradle before bearing the healthy Rhaenyra (fab-heirs-of-the-dragon-15-p01:161)

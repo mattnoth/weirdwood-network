@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -180,3 +180,11 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 > Prince Daemon, a rogue if there ever was one.(wiki:Daemon_Targaryen.cite_ref-ssm_5-1)
 >
 > —[George R. R. Martin](wiki:George_R._R._Martin)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Second son of Baelon and Alyssa, ambitious, impetuous, and hot-tempered, given Dark Sister by the Old King (fab-heirs-of-the-dragon-15-p01:177)
+- He served briefly as master of coin and master of laws, then as Commander of the City Watch, whom he outfitted with golden cloaks (fab-heirs-of-the-dragon-15-p01:181)
+- He regarded himself as rightful heir, coveted the title Prince of Dragonstone, and took the Lysene dancer Mysaria as his favorite (fab-heirs-of-the-dragon-15-p01:185)

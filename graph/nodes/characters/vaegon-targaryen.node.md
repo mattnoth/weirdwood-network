@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Vaegon_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -18,6 +18,10 @@ first_available:
   source: cite_ref
   pov: "Daenerys II"
 ---
+
+## Identity
+
+Vaegon Targaryen — Jaehaerys's surviving son, an archmaester at the Citadel known as Vaegon the Dragonless, pale, frail, and bookish.
 
 ## Origins
 
@@ -91,3 +95,11 @@ As an [archmaester](wiki:Archmaester) of the [Citadel](wiki:Citadel), Vaegon hel
 ## Notes
 
 Born 63 AC, died in or after 101 AC (track_b: Born, Died).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Jaehaerys's surviving son, an archmaester at the Citadel known as Vaegon the Dragonless, pale, frail, and bookish (fab-heirs-of-the-dragon-15-p01:83)
+- Largely forgotten and never well-liked, few thought him fit to rule (fab-heirs-of-the-dragon-15-p01:83)
+- Summoned by the Old King, he proposed the Great Council; what passed between them is disputed — some say the king offered him the throne and was refused, others that he only sought counsel (fab-heirs-of-the-dragon-15-p01:89)

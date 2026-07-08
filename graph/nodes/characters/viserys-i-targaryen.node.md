@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -140,3 +140,12 @@ However, Viserys himself never had much interest himself in [jousting](wiki:Jous
 > He had ruled for six-and-twenty years, reigning over the most prosperous era in the history of the [Seven Kingdoms](wiki:Seven_Kingdoms) but seeding within it the [disastrous decline](wiki:Dance_of_the_Dragons) of [his house](wiki:House_Targaryen) and the death of the last [dragons](wiki:Dragon).(wiki:Viserys_I_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_viserys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 >
 > —writings of [Yandel](wiki:Yandel)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
+
+- Eldest son of Baelon and Alyssa, chosen heir by the Great Council of 101 and crowned King Viserys I at twenty-six in 103 AC (fab-heirs-of-the-dragon-15-p01:145)
+- He was the last Targaryen to ride Balerion but never mounted another dragon after the Black Dread died in 94 AC (fab-heirs-of-the-dragon-15-p01:103)
+- He wed Lady Aemma of House Arryn; of their children only Rhaenyra survived (fab-heirs-of-the-dragon-15-p01:161)
+- Generous and well loved, he grew soft and plump and left the tedium of rule to his Hand (fab-heirs-of-the-dragon-15-p01:191)
