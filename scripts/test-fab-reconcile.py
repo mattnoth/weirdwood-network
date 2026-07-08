@@ -97,7 +97,10 @@ def main():
     r = router.route("Submission of Rosby", "", kind="event")
     check("event with an existing-event candidate routes to review (dedup risk)",
           r["decision"] == "review", r)
-    r = router.route("Capture of Loren Lannister", "", kind="event")
+    # S200: fixture was "Capture of Loren Lannister" until that event node was minted
+    # (S200 apply made it a clean hit -> update, which is correct live behavior).
+    # sharra-arryn exists as a person node; no such event node exists.
+    r = router.route("Capture of Sharra Arryn", "", kind="event")
     check("event whose only candidate is a person CREATEs (genuinely new)",
           r["decision"] == "create", r)
 
