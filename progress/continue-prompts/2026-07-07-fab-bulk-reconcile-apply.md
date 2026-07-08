@@ -1,4 +1,5 @@
-# F&B BULK reconcile + apply (after Matt's 35-unit extraction run finishes)
+# SESSION 201 — F&B BULK reconcile + apply (after Matt's 35-unit extraction run finishes)
+> **This is Session 201.** Stamp your worklog entry `### Session 201` at endsession.
 > **Recommended model:** **Fable** for the first bulk-apply session (per-unit judgment: CREATE
 > fresh-verify dispositions + dispute adjudication overrides — S200 proved both need real reads).
 > Later sessions may drop to Sonnet once the per-unit pattern is boringly mechanical.
