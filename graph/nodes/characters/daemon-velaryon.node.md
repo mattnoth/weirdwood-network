@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -39,3 +39,10 @@ After [House Arryn](wiki:House_Arryn) refused to bend the knee to House Targarye
 ## Appearances & Description
 
 One of the oldest supporters of [House Targaryen](wiki:House_Targaryen),(wiki:Daemon_Velaryon.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9) Daemon was also one of the closest friends to [Aegon Targaryen](wiki:Aegon_I_Targaryen), [Lord of Dragonstone](wiki:Lord_of_Dragonstone), and his sisters, [Visenya](wiki:Visenya_Targaryen) and [Rhaenys](wiki:Rhaenys_Targaryen).(wiki:Daemon_Velaryon.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Daemon Velaryon, Lord of the Tides, was made master of ships in command of the royal fleet (fab-aegons-conquest-03:117)
+- As Aegon's admiral he was slain when the Arryn fleet defeated the Targaryens off Gulltown (fab-aegons-conquest-03:133)

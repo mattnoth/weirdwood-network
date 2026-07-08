@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Snow"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Tyrion VIII"
 ---
+
+## Identity
+
+Brandon Snow, Torrhen's bastard brother, offered to cross the Trident alone to slay the dragons as they slept.
 
 ## Origins
 
@@ -29,3 +33,10 @@ During [Aegon I Targaryen](wiki:Aegon_I_Targaryen)'s [conquest](wiki:Aegon's_Con
 ## Notes
 
 Tier 3 (community consensus): The weirwood vision in ADWD Bran III of a young man making arrows from weirwood branches is widely theorized to be Brandon Snow, but this is not confirmed.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Brandon Snow, Torrhen's bastard brother, offered to cross the Trident alone to slay the dragons as they slept (fab-aegons-conquest-03:265)
+- Instead Torrhen sent him with three maesters to treat, not to kill (fab-aegons-conquest-03:269)

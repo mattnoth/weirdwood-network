@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Meria_Martell"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Meria Martell is a character from the AWOIAF wiki.
+Meria Martell, Princess of Dorne, was eighty years old and had ruled the Dornishmen for sixty years.
 
 ## Edges
 
@@ -39,3 +39,11 @@ Fire for fire.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D
 The Yellow Toad has melted into the sands.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 The toad hops into her hole whenver threatened.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 Meria fought like a woman, with lies and treachery and witchery.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Meria Martell, Princess of Dorne, was eighty years old and had ruled the Dornishmen for sixty years (fab-aegons-conquest-03:279)
+- Argilac had named her "the Yellow Toad of Dorne," but her wits were undulled (fab-aegons-conquest-03:279)
+- the Yellow Toad of Dorne"". She refused to fight or kneel to Rhaenys, declaring Dorne had no king (fab-aegons-conquest-03:281)

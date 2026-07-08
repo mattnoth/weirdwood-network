@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Visenya_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -122,3 +122,11 @@ Visenya was both a [dragonrider](wiki:Dragonrider) and a warrior, comfortable in
 ## Notes
 
 Born 29 BC, died 44 AC (track_b: Born, Died). Claims of dark sorcery are hedged by the wiki: "some claimed" (Tier 2 — wiki hedges with "some claimed").
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Visenya, eldest of the three siblings, was as much a warrior as Aegon, carrying the Valyrian longsword Dark Sister (fab-aegons-conquest-03:101)
+- Some said she played with poisons and dabbled in dark sorceries (fab-aegons-conquest-03:103)
+- She rode Vhagar, burned Stokeworth into submission, later bought the Vale bloodlessly by charming Ronnel Arryn, and took an arrow in the shoulder at the Field of Fire (fab-aegons-conquest-03:249)

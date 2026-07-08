@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Argilac_Durrandon"
 bucket_id: characters-other-a
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Argilac Durrandon is a character.human from the AWOIAF wiki.
+Argilac Durrandon — Argilac the Arrogant was the last Storm King of House Durrandon, whose only heir was his maiden daughter.
 
 ## Edges
 
@@ -43,3 +43,12 @@ In order to reward Orys, Aegon gave him Argilac's lands and the hand of the dead
 ## Appearances & Description
 
 Argilac was a warrior king. He had a mane of black hair.(wiki:Argilac_Durrandon.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) By the time of [Aegon's Conquest](wiki:Aegon's_Conquest), Argilac was an older man past his prime whose hair had turned grey.(wiki:Argilac_Durrandon.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Argilac the Arrogant was the last Storm King of House Durrandon, whose only heir was his maiden daughter (fab-aegons-conquest-03:57)
+- In his youth he slew Garse VII Gardener at the Battle of Summerfield (fab-aegons-conquest-03:49)
+- He offered his daughter and dower lands to Aegon, then had the hands of Aegon's envoy cut off and returned in a box (fab-aegons-conquest-03:67)
+- Refusing to burn in his castle, he rode out to the Last Storm and died sword in hand (fab-aegons-conquest-03:199)

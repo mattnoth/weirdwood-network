@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Torrhen_Stark"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -58,3 +58,11 @@ Torrhen was entombed in the [crypts of Winterfell](wiki:Crypts_of_Winterfell) af
 > **Cleos**: This is the [Inn of the Kneeling Man](wiki:Inn_of_the_Kneeling_Man), my lady. It stands upon the very spot where the last [King in the North](wiki:King_in_the_North) knelt before [Aegon the Conqueror](wiki:Aegon_I_Targaryen) to offer his submission. That's him on the sign, I suppose.
 >
 > —[Brienne Tarth](wiki:Brienne_Tarth), [Cleos Frey](wiki:Cleos_Frey), and [Jaime Lannister](wiki:Jaime_Lannister)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Torrhen Stark, King in the North of Winterfell, crossed the Neck with thirty thousand northmen (fab-aegons-conquest-03:261)
+- Facing three dragons and a larger host at the Trident, he sent his bastard brother Brandon Snow across to treat, then knelt himself (fab-aegons-conquest-03:269)
+- He rose as Lord of Winterfell and Warden of the North, remembered ever after as the King Who Knelt (fab-aegons-conquest-03:269)

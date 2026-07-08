@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mern_IX_Gardener"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -32,3 +32,11 @@ Mern led the charge against Aegon's army alongside his kin. The combined might o
 ## Quotes
 
 Our iron fist.(wiki:Mern_IX_Gardener.cite_ref-Rfab1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Mern IX of House Gardener, King of the Reach, marched from Highgarden and demanded the honor of the center at the Field of Fire (fab-aegons-conquest-03:215)
+- He led the charge on his golden stallion and was slain with all his kin (fab-aegons-conquest-03:245)
+- His last surviving nephew died three days later, and House Gardener died with him (fab-aegons-conquest-03:245)

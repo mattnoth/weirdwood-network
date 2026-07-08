@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edmyn_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Edmyn Tully, Lord of Riverrun, led the riverlands in revolt against Harren.
 
 ## Origins
 
@@ -35,3 +39,11 @@ After Aegon's coronation as [Lord of the Seven Kingdoms](wiki:Lord_of_the_Seven_
 - CULTURE_OF: Rivermen (track_b: Culture)
 - PARENT_OF: Three daughters (track_b: Issue)
 - SERVES: Aegon I Targaryen (wiki:Edmyn_Tully) — as Hand of the King
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Edmyn Tully, Lord of Riverrun, led the riverlands in revolt against Harren (fab-aegons-conquest-03:145)
+- Summoned to defend Harrenhal, he declared for Aegon instead and raised the dragon banner (fab-aegons-conquest-03:145)
+- Aegon named him Lord Paramount of the Trident (fab-aegons-conquest-03:177)

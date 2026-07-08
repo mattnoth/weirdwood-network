@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Orys_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 ---
 
@@ -99,3 +99,12 @@ Known for his prowess in battle and his strong loyalty to King [Aegon I](wiki:Ae
 ## Notes
 
 Died 37 AC, between Stonehelm and Storm's End (track_b: Died). Raymont Baratheon listed with "dubious canonicity" in track_b Issue. Aerion Targaryen parentage is Tier 2 (inference) — widely accepted but technically "rumored" and "never proven" per wiki text.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Orys was Aegon's childhood friend and champion, and whispered to be his baseborn halfbrother (fab-aegons-conquest-03:67)
+- Aegon proclaimed him "my shield, my stalwart, my strong right hand," and the maesters reckon him the first King's Hand (fab-aegons-conquest-03:119)
+- He crushed Darklyn and Mooton, then slew Argilac in single combat at the Last Storm (fab-aegons-conquest-03:199)
+- Afterward he unchained Argilac's daughter Argella, took the Durrandon arms and words, and made her his wife (fab-aegons-conquest-03:207)

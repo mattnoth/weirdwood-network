@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -115,3 +115,12 @@ Rhaenys was kindhearted,(wiki:Rhaenys_Targaryen.cite_ref-Rtwoiafthe_targaryen_ki
 ## Notes
 
 Cite refs: ACOK ch12, ch63; AFFC ch34. Also mentioned in TWOIAF, Fire and Blood, Rise of the Dragon, Sons of the Dragon, The Mystery Knight, AGOT. Pass1_mentions from agot-eddard-15 refer to the daughter of Rhaegar, not this Rhaenys.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Rhaenys, the youngest, was playful and curious, loving music, dancing, and poetry, and no true warrior (fab-aegons-conquest-03:105)
+- She rode Meraxes and loved to fly above all things (fab-aegons-conquest-03:129)
+- It was whispered she entertained young men in her bedchambers, yet the king spent ten nights with her for every one with Visenya (fab-aegons-conquest-03:107)
+- She won the stormlands from the sky, then flew into Dorne and warned Meria Martell they would return with fire and blood (fab-aegons-conquest-03:281)

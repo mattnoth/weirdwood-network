@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Harlan_Tyrell
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Harlan Tyrell was the steward of Highgarden whose forebears had served the Gardeners for centuries.
 
 ## Origins
 
@@ -47,3 +51,10 @@ Harlan Tyrell was a capable [steward](wiki:Steward) and [lord](wiki:Lord), servi
 - CULTURE_OF: Reach (cite: track_b: Culture)
 - DIED_AT: 5 AC, Dornish desert east of the Hellholt (cite: track_b: Died)
 - PARENT_OF: Theo Tyrell (cite: track_b: Issue)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Harlan Tyrell was the steward of Highgarden whose forebears had served the Gardeners for centuries (fab-aegons-conquest-03:257)
+- He yielded the castle without a fight and was made Warden of the South and Lord Paramount of the Mander (fab-aegons-conquest-03:257)

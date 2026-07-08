@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sharra_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Sharra Arryn — Queen Sharra ruled the Vale as regent for her son Ronnel and had been lauded as "the Flower of the Mountain".
 
 ## Origins
 
@@ -39,3 +43,11 @@ Rather than kings, [House Arryn](wiki:House_Arryn) henceforth ruled as [Lords of
 ## Notes
 
 Sources: TWOIAF, Fire & Blood. Sharra's submission to Visenya is one of the iconic scenes of Aegon's Conquest.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Queen Sharra ruled the Vale as regent for her son Ronnel and had been lauded as "the Flower of the Mountain" (fab-aegons-conquest-03:211)
+- the Flower of the Mountain"". She sent Aegon a portrait and offered herself in marriage if he named Ronnel his heir (fab-aegons-conquest-03:211)
+- Her defenses proved useless when Visenya landed Vhagar in the Eyrie's courtyard (fab-aegons-conquest-03:275)

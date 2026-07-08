@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Argella_Durrandon"
 bucket_id: characters-house-durrandon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Argella Durrandon is a character.human from the AWOIAF wiki.
+Argella Durrandon — Argella, Argilac's daughter, barred the gates of Storm's End and declared herself the Storm Queen.
 
 ## Edges
 
@@ -51,3 +51,10 @@ Argella and Orys had at least a son, [Davos](wiki:Davos_Baratheon).(wiki:Argella
 > You may take my [castle](wiki:Storm's_End), but you will win only bones and blood and ashes.(wiki:Argella_Durrandon.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 >
 > —Argella to [Orys Baratheon](wiki:Orys_Baratheon)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Argella, Argilac's daughter, barred the gates of Storm's End and declared herself the Storm Queen (fab-aegons-conquest-03:201)
+- Her garrison delivered her gagged, chained, and naked to Orys, who unchained her and made her his wife (fab-aegons-conquest-03:201)

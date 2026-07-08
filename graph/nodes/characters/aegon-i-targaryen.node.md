@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -137,3 +137,14 @@ Aegon is not considered to have been particularly pious.(wiki:Aegon_I_Targaryen.
 > Aegon once stood here as I do, looking down on [this table](wiki:Painted_Table). Do you think we would name him Aegon the Conqueror today if he had not had **[dragons](wiki:Dragon)**?(wiki:Aegon_I_Targaryen.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Aegon was the only son and second child of Aerion, Lord of Dragonstone, and Lady Valaena of House Velaryon, born on Dragonstone in 27 BC (fab-aegons-conquest-03:37)
+- He took both his trueborn sisters, Visenya and Rhaenys, to wife (fab-aegons-conquest-03:37)
+- Some said he wed Visenya out of duty and Rhaenys out of desire (fab-aegons-conquest-03:37)
+- He bore the Valyrian steel blade Blackfyre and rode Balerion the Black Dread, yet took no pleasure in feats of arms and flew only to battle or travel (fab-aegons-conquest-03:111)
+- He dealt harshly with rebels but was open-handed with foes who bent the knee (fab-aegons-conquest-03:111)
+- He was crowned first at the Aegonfort and again at the Starry Sept of Oldtown, where the High Septon proclaimed him King of the Andals, the Rhoynar, and the First Men (fab-aegons-conquest-03:291)

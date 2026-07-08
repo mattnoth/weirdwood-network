@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gaemon_Targaryen_(son_of_Aenar)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -34,3 +34,10 @@ Gaemon was married to Daenys and together they had several children, [Aegon](wik
 - PARENT_OF: Elaena Targaryen (cite: track_b_row.relationships.Issue)
 - BORN_AT: Valyria, 114 BC (cite: track_b_row.relationships.Born)
 - DIED_AT: Dragonstone, 101 BC (cite: track_b_row.relationships.Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Gaemon the Glorious followed Aenar as Lord of Dragonstone and wed his sister Daenys (fab-aegons-conquest-03:33)
+- His son Aegon and daughter Elaena ruled together after his death (fab-aegons-conquest-03:33)

@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Harren_Hoare"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Harren Hoare is a character from the AWOIAF wiki.
+Harren Hoare — Black Harren of House Hoare was King of the Isles and the Rivers, most feared for his cruelty.
 
 ## Edges
 
@@ -68,3 +68,12 @@ Had I a daughter, the [dragonslayer](wiki:Dragonslayer) could claim her hand as 
 
 No king in [Westeros](wiki:Westeros) was more feared than Black Harren, whose cruelty had become legendary all through the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
 Harren had beggared the [riverlands](wiki:Riverlands) and the [Iron Islands](wiki:Iron_Islands) alike to ornament [his dream](wiki:Harrenhal).(wiki:Harren_Hoare.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Black Harren of House Hoare was King of the Isles and the Rivers, most feared for his cruelty (fab-aegons-conquest-03:57)
+- He spent close on forty years building Harrenhal beside the Gods Eye, beggaring the riverlands (fab-aegons-conquest-03:53)
+- Trusting his walls of stone, he defied Aegon's parley and boasted "Stone does not burn" (fab-aegons-conquest-03:163)
+- He and his last sons burned in Harrenhal, and House Hoare died with him (fab-aegons-conquest-03:177)

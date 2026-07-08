@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Loren_I_Lannister"
 bucket_id: characters-other-l
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Loren I Lannister is a character.human from the AWOIAF wiki.
+Loren I Lannister — Loren, King of the Rock, joined Mern of the Reach to field the mightiest host ever seen in Westeros.
 
 ## Edges
 
@@ -48,3 +48,11 @@ Throughout the reign of Aegon the Conqueror, Casterly Rock had the honor of host
 ### A Game of Thrones
 
 [Tyrion Lannister](wiki:Tyrion_Lannister) is grateful his ancestor chose to bend the knee and live.(wiki:Loren_I_Lannister.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Loren, King of the Rock, joined Mern of the Reach to field the mightiest host ever seen in Westeros (fab-aegons-conquest-03:215)
+- He survived the Field of Fire by riding through the flames (fab-aegons-conquest-03:245)
+- Captured the next day, he bent the knee and was confirmed as Lord of Casterly Rock and Warden of the West (fab-aegons-conquest-03:253)

@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aenar_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,6 +17,10 @@ first_available:
   source: cite_ref
   pov: "Sansa"
 ---
+
+## Identity
+
+Aenar Targaryen — Aenar the Exile sold his holdings in the Freehold and moved his House to Dragonstone twelve years before the Doom.
 
 ## Origins
 
@@ -46,3 +50,10 @@ By the time of the [War of the Five Kings](wiki:War_of_the_Five_Kings), it is be
 - CULTURE_OF: Valyrian (cite: track_b: Race)
 - BORN_AT: Valyria (cite: track_b: Born)
 - DIED_AT: Dragonstone (cite: track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->
+
+- Aenar the Exile sold his holdings in the Freehold and moved his House to Dragonstone twelve years before the Doom (fab-aegons-conquest-03:23)
+- His flight, prompted by his daughter Daenys's dream, left the Targaryens the only surviving dragonlords (fab-aegons-conquest-03:29)
