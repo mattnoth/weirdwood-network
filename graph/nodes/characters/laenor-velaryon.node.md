@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laenor_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -78,3 +78,8 @@ They will turn the [Red Keep](wiki:Red_Keep) into a [brothel](wiki:Brothel). No 
 
 - Son of Rhaenys and Corlys, a boy of seven at the Great Council, whose claim through the male line of Aemon was pressed by his powerful parents but rejected (fab-heirs-of-the-dragon-15-p01:79)
 - He had a grey-and-white dragon named Seasmoke (fab-heirs-of-the-dragon-15-p01:103)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Corlys's son, a grandson of Prince Aemon and great-grandson of the Old King, was chosen as Rhaenyra's consort though he had never shown interest in women (fab-heirs-of-the-dragon-15-p02:137)
+- Wed to Rhaenyra in 114 AC at twenty, he preferred High Tide and favorites such as Ser Qarl Correy (fab-heirs-of-the-dragon-15-p02:173)

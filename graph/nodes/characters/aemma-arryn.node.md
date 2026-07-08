@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemma_Arryn"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -43,3 +43,7 @@ In early [105 AC](wiki:105_AC), Aemma became pregnant once more, which Viserys j
 
 - Lady of House Arryn, daughter of the late Princess Daella and thus a granddaughter of the Old King, wed to Viserys in 93 AC as an eleven-year-old (fab-heirs-of-the-dragon-15-p01:55)
 - She suffered several miscarriages and a son who died in the cradle before bearing the healthy Rhaenyra (fab-heirs-of-the-dragon-15-p01:161)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Queen Aemma was brought to bed in Maegor's Holdfast and died bearing the son Viserys had long desired (fab-heirs-of-the-dragon-15-p02:33)

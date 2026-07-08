@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -188,3 +188,11 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 - Second son of Baelon and Alyssa, ambitious, impetuous, and hot-tempered, given Dark Sister by the Old King (fab-heirs-of-the-dragon-15-p01:177)
 - He served briefly as master of coin and master of laws, then as Commander of the City Watch, whom he outfitted with golden cloaks (fab-heirs-of-the-dragon-15-p01:181)
 - He regarded himself as rightful heir, coveted the title Prince of Dragonstone, and took the Lysene dancer Mysaria as his favorite (fab-heirs-of-the-dragon-15-p01:185)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- The king's brother commanded the City Watch's two thousand men (fab-heirs-of-the-dragon-15-p02:15)
+- Furious at Rhaenyra's elevation he quit the capital with his paramour Mysaria on Caraxes (fab-heirs-of-the-dragon-15-p02:39)
+- He warred on the Stepstones with Corlys and slew Craghas Crabfeeder in 108 AC (fab-heirs-of-the-dragon-15-p02:77)
+- He crowned himself King of the Stepstones (fab-heirs-of-the-dragon-15-p02:81)
+- After a public reconciliation in 111, a scandal over Rhaenyra led Viserys to exile him — so Eustace and Mushroom; Grand Maester Runciter records only a quarrel and a departure (fab-heirs-of-the-dragon-15-p02:123)

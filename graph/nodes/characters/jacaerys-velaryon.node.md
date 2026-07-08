@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jacaerys_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -80,3 +80,10 @@ One day [this](wiki:Iron_Throne) will be your seat, lad.(wiki:Jacaerys_Velaryon.
 [Seven](wiki:The_Seven) save [this realm](wiki:Westeros) if we seat a [bastard](wiki:Bastard) on the [Iron Throne](wiki:Iron_Throne).(wiki:Jacaerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 Though his fifteenth [nameday](wiki:Nameday) was still half a year away, Prince Jacaerys proved himself a man, and a worthy heir to the [Iron Throne](wiki:Iron_Throne).(wiki:Jacaerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
 Broken after the [loss of one son](wiki:Lucerys_Velaryon), [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) seemed to find new strength after the loss of a second. Jace's death hardened her, burning away her fears, leaving only her anger and hatred.(wiki:Jacaerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Rhaenyra's son, born in the waning days of 114 AC, a strapping lad with brown hair, brown eyes, and a pug nose (fab-heirs-of-the-dragon-15-p02:179)
+- Given a Velaryon name over Laenor's wish to call him Joffrey (fab-heirs-of-the-dragon-15-p02:181)

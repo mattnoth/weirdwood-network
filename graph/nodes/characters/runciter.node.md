@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Runciter"
 bucket_id: characters-other-r-s
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -32,3 +32,7 @@ Runciter later served King [Viserys I Targaryen](wiki:Viserys_I_Targaryen) after
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
 
 - Grand Maester newly arrived from the Citadel who tended the dying Baelon and recorded the cause of death as a burst belly (fab-heirs-of-the-dragon-15-p01:71)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Grand Maester Runciter first urged the king to remarry and proposed Laena Velaryon (fab-heirs-of-the-dragon-15-p02:45)

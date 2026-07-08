@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Criston_Cole"
 bucket_id: characters-house-cole
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -146,3 +146,11 @@ While showing Ser [Loras Tyrell](wiki:Loras_Tyrell) the [White Book](wiki:White_
 > My new [Hand](wiki:Hand_of_the_King) is a steel fist.(wiki:Criston_Cole.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
 >
 > —[Aegon II Targaryen](wiki:Aegon_II_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Ser Criston, son of a steward of Lord Dondarrion, joined the Kingsguard in 105 AC after winning the accession melee at Maidenpool (fab-heirs-of-the-dragon-15-p02:21)
+- A comely knight of three-and-twenty, he became Rhaenyra's sworn protector and constant companion (fab-heirs-of-the-dragon-15-p02:23)
+- After her marriage his devotion turned to hatred (fab-heirs-of-the-dragon-15-p02:157)

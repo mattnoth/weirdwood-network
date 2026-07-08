@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mysaria"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -48,3 +48,10 @@ During the [riot of King's Landing](wiki:Riot_of_King's_Landing_(Dance_of_the_Dr
 
 [He](wiki:Blood_(butcher)) also gave up a description of the [whore](wiki:Whore) he claimed had hired [them](wiki:Blood_and_Cheese): an older woman, foreign by her talk, cloaked and hooded, very pale. The other harlots called her Misery.(wiki:Mysaria.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 Let [Daemon](wiki:Daemon_Targaryen) slake his hungers where he will, and we shall do the same.(wiki:Mysaria.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Daemon's paramour, whom he took to Dragonstone and got with child before giving her a dragon's egg (fab-heirs-of-the-dragon-15-p02:43)
+- Commanded away, she was sent back to Lys and miscarried in a storm (fab-heirs-of-the-dragon-15-p02:43)

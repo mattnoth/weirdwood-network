@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laena_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -63,3 +63,7 @@ Whilst Princess [Rhaenyra](wiki:Rhaenyra_Targaryen) misliked her stepmother, Que
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
 
 - Daughter of Rhaenys and Corlys, the "boy in the belly" whose birth was so debated but who proved a girl, born late 92 AC (fab-heirs-of-the-dragon-15-p01:49)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Daughter of Corlys and Rhaenys, freshly flowered at twelve, who had claimed Vhagar for her mount (fab-heirs-of-the-dragon-15-p02:45)

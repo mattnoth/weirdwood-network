@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -149,3 +149,10 @@ However, Viserys himself never had much interest himself in [jousting](wiki:Jous
 - He was the last Targaryen to ride Balerion but never mounted another dragon after the Black Dread died in 94 AC (fab-heirs-of-the-dragon-15-p01:103)
 - He wed Lady Aemma of House Arryn; of their children only Rhaenyra survived (fab-heirs-of-the-dragon-15-p01:161)
 - Generous and well loved, he grew soft and plump and left the tedium of rule to his Hand (fab-heirs-of-the-dragon-15-p01:191)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- King Viserys hated dissension and was easily led (fab-heirs-of-the-dragon-15-p02:49)
+- He longed for a son and, after Aemma and the infant Baelon died, named Rhaenyra his heir (fab-heirs-of-the-dragon-15-p02:35)
+- Over Runciter's counsel he wed Alicent Hightower in 106 AC (fab-heirs-of-the-dragon-15-p02:49)
+- He kept an anxious balance between his wife's and daughter's parties (fab-heirs-of-the-dragon-15-p02:95)

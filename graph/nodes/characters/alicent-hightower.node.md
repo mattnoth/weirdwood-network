@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alicent_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -103,3 +103,8 @@ And so each of [the conspirators](wiki:Green_council) slashed their palms and cl
 
 - Otto's precocious fifteen-year-old daughter, who became the failing Old King's constant companion and was reading to him when he died (fab-heirs-of-the-dragon-15-p01:155)
 - Near the end the king mistook her for his daughter Saera (fab-heirs-of-the-dragon-15-p01:155)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- She wed Viserys in 106 AC and bore him Aegon, Helaena, Aemond, and Daeron (fab-heirs-of-the-dragon-15-p02:83)
+- The clever, lovely eighteen-year-old daughter of the King's Hand, she had read to the dying King Jaehaerys (fab-heirs-of-the-dragon-15-p02:51)

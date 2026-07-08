@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -145,3 +145,9 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 - Only surviving child of Viserys I and Queen Aemma, born 97 AC, dubbed "the Realm's Delight" by court singers (fab-heirs-of-the-dragon-15-p01:171)
 - She became a dragonrider at seven on Syrax and a cupbearer to her own father at eight (fab-heirs-of-the-dragon-15-p01:171)
 - Her uncle Daemon was ever attentive, bringing her exotic gifts from across the narrow sea (fab-heirs-of-the-dragon-15-p01:191)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Named Princess of Dragonstone and her father's heir, hundreds of lords did her obeisance (fab-heirs-of-the-dragon-15-p02:35)
+- She was the center of two rival accounts of scandal involving her uncle and Cole, was forced to consent to marry Laenor under threat, and bore a son in 114 AC (fab-heirs-of-the-dragon-15-p02:141)
+- She always styled Alicent's sons her halfbrothers (fab-heirs-of-the-dragon-15-p02:139)

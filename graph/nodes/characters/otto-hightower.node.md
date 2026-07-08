@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Otto_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -109,3 +109,10 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 
 - Younger brother of Lord Hightower of Oldtown, chosen by Jaehaerys as Hand and continuing to serve Viserys I (fab-heirs-of-the-dragon-15-p01:153)
 - Able but proud and haughty, his manner and access to the throne bred resentment (fab-heirs-of-the-dragon-15-p01:175)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Ser Otto, the King's Hand, conceived a great dislike of Daemon and worked to strip him of office (fab-heirs-of-the-dragon-15-p02:15)
+- He wrote to his brother the Lord of Oldtown against Daemon's succession (fab-heirs-of-the-dragon-15-p02:15)
+- At that time he favored Rhaenyra's claim (fab-heirs-of-the-dragon-15-p02:15)
+- As Alicent's father he became the loudest of her supporters, and in 109 AC Viserys stripped him of his chain (fab-heirs-of-the-dragon-15-p02:91)

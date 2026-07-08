@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Larys_Strong"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -69,3 +69,9 @@ When I am dead, hack off my clubfoot with [that great sword](wiki:Ice) of yours.
 A man who gathers [whispers](wiki:Master_of_whisperers) can spread them just as well.(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 Was there ever a man as devious as the Clubfoot? Oh, he would have made a splendid [fool](wiki:Fool), that one. The words dripped from his lips like honey from a comb, and never did [poison](wiki:Poison) taste so sweet.(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 The enigma that is Larys Strong the Clubfoot has vexed students of history for generations, and is not one we can hope to unravel here. Where did his true loyalty lie? What was he about?(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Lyonel's younger son, "Larys the Clubfoot," joined the king's confessors (fab-heirs-of-the-dragon-15-p02:31)

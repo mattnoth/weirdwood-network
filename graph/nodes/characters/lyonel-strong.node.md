@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lyonel_Strong"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -48,3 +48,10 @@ In [120 AC](wiki:120_AC), over mounting rumors of his grandsons' parentage, Vise
 ## Quotes
 
 This [Hand](wiki:Hand_of_the_King) will not hector me.(wiki:Lyonel_Strong.cite_ref-Rfab12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
+
+- Lord of Harrenhal, a big balding man reputed a battler but learned, having earned six links at the Citadel (fab-heirs-of-the-dragon-15-p02:29)
+- Thrice-widowed, he brought two daughters and two sons to court and joined the small council as master of laws (fab-heirs-of-the-dragon-15-p02:29)
