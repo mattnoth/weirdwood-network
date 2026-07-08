@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Goren_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Goren Greyjoy — Lord Reaper of Pyke, who put down the priest king Lodos and pickled his head in brine for the king.
 
 ## Origins
 
@@ -30,3 +34,10 @@ Goren was among those granted [gold](wiki:Gold), honors, and offices by a gratef
 ## Notes
 
 Historical figure from TWOIAF and Fire & Blood. No `first_available` from cite_refs in the main five novels. Ruled from 33 AC onward; succeeded by an unknown lord, with the next known holder being Dalton Greyjoy.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Lord Reaper of Pyke, who put down the priest king Lodos and pickled his head in brine for the king (fab-sons-of-the-dragon-05-p01:205)
+- As his boon he asked leave to expel the septons and septas from the Iron Islands (fab-sons-of-the-dragon-05-p01:205)

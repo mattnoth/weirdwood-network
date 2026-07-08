@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -148,3 +148,10 @@ Aegon is not considered to have been particularly pious.(wiki:Aegon_I_Targaryen.
 - He bore the Valyrian steel blade Blackfyre and rode Balerion the Black Dread, yet took no pleasure in feats of arms and flew only to battle or travel (fab-aegons-conquest-03:111)
 - He dealt harshly with rebels but was open-handed with foes who bent the knee (fab-aegons-conquest-03:111)
 - He was crowned first at the Aegonfort and again at the Starry Sept of Oldtown, where the High Septon proclaimed him King of the Andals, the Rhoynar, and the First Men (fab-aegons-conquest-03:291)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Aegon took both of his sisters, Rhaenys and Visenya, to wife, and each queen bore him a son (fab-sons-of-the-dragon-05-p01:15)
+- He accepted the continued independence of Dorne after his Dornish War and flew to Sunspear on Balerion for a "feast of friendship" with Deria Martell (fab-sons-of-the-dragon-05-p01:121)
+- In 35 AC he ordered the Aegonfort torn down to raise a stone castle, naming Lord Alyn Stokeworth and Queen Visenya to oversee it (fab-sons-of-the-dragon-05-p01:131)
+- He died of a stroke on Dragonstone in 37 AC, his grandsons Aegon and Viserys at his side (fab-sons-of-the-dragon-05-p01:135)

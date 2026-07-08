@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Aenys_I)
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -181,3 +181,12 @@ Rhaena had an exquisite singing voice. At eighteen, Rhaena was considered brave,
 ## Notes
 
 No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise of the Dragon, Sons of the Dragon, The Rogue Prince, and The Princess and the Queen.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Eldest daughter of Aenys and Alyssa, named in honor of Rhaenys (fab-sons-of-the-dragon-05-p01:85)
+- A shy, dreamy child who loved animals, she bonded with the dragon Dreamfyre at nine and flew at twelve (fab-sons-of-the-dragon-05-p01:103)
+- Legend says she placed dragon eggs in the cradles of Jaehaerys and Alysanne (fab-sons-of-the-dragon-05-p01:105)
+- On the royal progress she reverted to shyness, loath to be parted from her favorite Melony Piper (fab-sons-of-the-dragon-05-p01:161)

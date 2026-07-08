@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Deria_Martell
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Deria Martell — Reigning Princess of Dorne; she denounced the Vulture King but was rumored to aid him.
 
 ## Origins
 
@@ -39,3 +43,9 @@ In [37 AC](wiki:37_AC), Aenys succeeded his father as king, and was almost imme
 ## Notes
 
 Two death dates in infobox (37 and 49 AC) suggest an uncertain date range (track_b: Died).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Reigning Princess of Dorne; she denounced the Vulture King but was rumored to aid him (fab-sons-of-the-dragon-05-p01:207)

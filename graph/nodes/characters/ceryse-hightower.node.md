@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ceryse_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Ceryse Hightower is a character.human from the AWOIAF wiki.
+Ceryse Hightower — Niece of the High Septon and daughter of Manfred Hightower, proposed as Maegor's bride in place of Rhaena.
 
 ## Edges
 
@@ -37,3 +37,10 @@ Maegor returned to [Westeros](wiki:Westeros) to claim the [Iron Throne](wiki:Iro
 In [43 AC](wiki:43_AC) King Maegor and Dowager Queen [Visenya Targaryen](wiki:Visenya_Targaryen) moved towards Oldtown, threatening to incinerate the Starry Sept in response to the High Septon's continued condemnation of his polygamous marriages. The High Septon instead died suddenly shortly before they arrived, however. Maegor remained at Oldtown for half a year while presiding over the trials of the [Warrior's Sons](wiki:Warrior's_Sons) chapter at Oldtown, and in that time Ceryse reconciled with Maegor. Ceryse agreed to accept Maegor's other two wives, with Maegor in turn swearing to restore Ceryse to all the rights, incomes, and privileges due her as lawful queen. They celebrated their reunion with a great feast and had a second consummation. She later returned to court at [King's Landing](wiki:King's_Landing).(wiki:Ceryse_Hightower.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 
 Shortly after the completion of the [Red Keep](wiki:Red_Keep) in [45 AC](wiki:45_AC), Ceryse died of a sudden [illness](wiki:Illness). It was rumored she had said something to offend Maegor and he ordered Ser [Owen Bush](wiki:Owen_Bush) of the [Kingsguard](wiki:Kingsguard) to [remove her tongue](wiki:Tongue_mutilation). While Ser [Maladon Moore](wiki:Maladon_Moore) held her, Ceryse allegedly struggled so much that Owen's knife slipped and he accidentally slashed her throat. Though never proven, this story was widely believed at the time. Most historians believe it was a slander concocted by the king's enemies to further blacken Maegor's repute. Maladon denied the story and stated that Ceryse died of "shrewishness".(wiki:Ceryse_Hightower.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)(wiki:Ceryse_Hightower.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Niece of the High Septon and daughter of Manfred Hightower, proposed as Maegor's bride in place of Rhaena (fab-sons-of-the-dragon-05-p01:87)
+- She wed Maegor in the Starry Sept in 25 AC, ten years his senior, but never quickened (fab-sons-of-the-dragon-05-p01:91)

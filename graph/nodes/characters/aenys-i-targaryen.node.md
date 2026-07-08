@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -107,3 +107,13 @@ A diligent student who did not lack for courage, Aenys was an adequate fighter. 
 > I am descended from [Aegon](wiki:Aegon_I_Targaryen) and [Rhaenys](wiki:Rhaenys_Targaryen) through their son Aenys and their grandson Jaehaerys.(wiki:Aenys_I_Targaryen.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Jorah Mormont](wiki:Jorah_Mormont)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Small and sickly at birth, Aenys began to thrive only when given the dragon Quicksilver (fab-sons-of-the-dragon-05-p01:19)
+- He was heir apparent and a mediocre fighter but a fine singer, courteous and charming (fab-sons-of-the-dragon-05-p01:43)
+- In 22 AC he wed Lady Alyssa Velaryon, a happy and fruitful match (fab-sons-of-the-dragon-05-p01:81)
+- Crowned Aenys I in 37 AC, he gave Blackfyre to Maegor and vowed they would rule together (fab-sons-of-the-dragon-05-p01:145)
+- Faced with rebellions he prevaricated, and gave Maegor a choice of putting Alys aside or exile (fab-sons-of-the-dragon-05-p01:237)

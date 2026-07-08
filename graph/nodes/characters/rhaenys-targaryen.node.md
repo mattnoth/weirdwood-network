@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -124,3 +124,8 @@ Cite refs: ACOK ch12, ch63; AFFC ch34. Also mentioned in TWOIAF, Fire and Blood,
 - She rode Meraxes and loved to fly above all things (fab-aegons-conquest-03:129)
 - It was whispered she entertained young men in her bedchambers, yet the king spent ten nights with her for every one with Visenya (fab-aegons-conquest-03:107)
 - She won the stormlands from the sky, then flew into Dorne and warned Meria Martell they would return with fire and blood (fab-aegons-conquest-03:281)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Aegon's younger sister-wife; her son Aenys was born in 7 AC (fab-sons-of-the-dragon-05-p01:19)
+- She and her dragon Meraxes were slain in Dorne when Aenys was three (fab-sons-of-the-dragon-05-p01:23)

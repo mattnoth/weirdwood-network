@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Visenya_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -130,3 +130,10 @@ Born 29 BC, died 44 AC (track_b: Born, Died). Claims of dark sorcery are hedged 
 - Visenya, eldest of the three siblings, was as much a warrior as Aegon, carrying the Valyrian longsword Dark Sister (fab-aegons-conquest-03:101)
 - Some said she played with poisons and dabbled in dark sorceries (fab-aegons-conquest-03:103)
 - She rode Vhagar, burned Stokeworth into submission, later bought the Vale bloodlessly by charming Ronnel Arryn, and took an arrow in the shoulder at the Field of Fire (fab-aegons-conquest-03:249)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Aegon's elder sister-wife; she announced her pregnancy in 11 AC and bore Maegor in 12 AC (fab-sons-of-the-dragon-05-p01:29)
+- She put a sword in Maegor's hand at three and gave him Dark Sister on his thirteenth nameday (fab-sons-of-the-dragon-05-p01:35)
+- As Dowager Queen she whispered that Aenys was unfit and Maegor the stronger (fab-sons-of-the-dragon-05-p01:165)
+- She presided over Maegor's second wedding on Dragonstone (fab-sons-of-the-dragon-05-p01:229)

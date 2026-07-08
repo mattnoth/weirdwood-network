@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Blackfyre"
 bucket_id: tier3-pathb-artifacts
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -60,3 +60,10 @@ You are more fit to bear this blade than me. Wield it in my service, and I shall
 Even sheathed, the blade could be mistaken for no other.(wiki:Blackfyre.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 Eustace: Because [Daemon](wiki:Daemon_I_Blackfyre) was the better man. [The old king](wiki:Aegon_IV_Targaryen) saw it, too. He gave the sword to Daemon. Blackfyre, the sword of [Aegon the Conqueror](wiki:Aegon_I_Targaryen), the blade that every [Targaryen](wiki:House_Targaryen) king had wielded since [the Conquest](wiki:Aegon's_Conquest) ... he put that sword in Daemon's hand the day he [knighted](wiki:Knight) him, a boy of twelve.
 Egg: [My father](wiki:Maekar_I_Targaryen) says that was because Daemon was a swordsman, and [Daeron](wiki:Daeron_II_Targaryen) never was. Why give a horse to a man who cannot ride? The sword was not [the kingdom](wiki:Seven_Kingdoms), he says.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- The ancestral Valyrian steel sword; Aegon pressed it on Aenys, knighted Maegor with it, and Aenys later gave it to Maegor (fab-sons-of-the-dragon-05-p01:145)
+- Maegor carried it into exile (fab-sons-of-the-dragon-05-p01:237)

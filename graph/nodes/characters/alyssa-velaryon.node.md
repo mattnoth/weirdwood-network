@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyssa_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alyssa Velaryon is a character.human from the AWOIAF wiki.
+Alyssa Velaryon — Daughter of Aethan Velaryon, wed to Aenys in 22 AC at fifteen; the Velaryons were of Valyrian stock, making it a cousin match.
 
 ## Edges
 
@@ -89,3 +89,11 @@ Alyssa had the silvery hair and [purple eyes](wiki:Purple_eyes) of the [Valyrian
 During her wedding to Lord [Rogar Baratheon](wiki:Rogar_Baratheon), Alyssa wore a greatcloak with both the [Velaryon](wiki:House_Velaryon) seahorse and the [Targaryen](wiki:House_Targaryen) dragon facing each other.(wiki:Alyssa_Velaryon.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 
 Alyssa had charm, wit, and kindness.(wiki:Alyssa_Velaryon.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) According to [Septon](wiki:Septon) [Barth](wiki:Barth), above all else Alyssa desired to be loved, admired, and praised.(wiki:Alyssa_Velaryon.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Daughter of Aethan Velaryon, wed to Aenys in 22 AC at fifteen; the Velaryons were of Valyrian stock, making it a cousin match (fab-sons-of-the-dragon-05-p01:81)
+- She bore Aenys many children — Rhaena, Aegon, Viserys, Jaehaerys, Alysanne, and Vaella (fab-sons-of-the-dragon-05-p01:223)
+- She once teased Maegor as afraid of dragons (fab-sons-of-the-dragon-05-p01:119)

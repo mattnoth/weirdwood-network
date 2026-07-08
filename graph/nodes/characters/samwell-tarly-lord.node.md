@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Samwell_Tarly_(lord)"
 bucket_id: characters-house-tarly
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -28,3 +28,10 @@ When the [Vulture King](wiki:Vulture_King_(Aenys_I)) began raiding the [Dornish 
 In what became known as the [Vulture Hunt](wiki:Vulture_Hunt), it is claimed that Savage Sam's [Valyrian steel](wiki:Valyrian_steel) sword, [Heartsbane](wiki:Heartsbane), was crimson from hilt to point with the blood of the dozens of Dornish outlaws he had slain.(wiki:Samwell_Tarly_(lord).cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) The Dornish host was defeated and the Vulture King was taken alive and tied naked between two posts by Sam. The Vulture King soon perished of thirst and exposure.(wiki:Samwell_Tarly_(lord).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) Samwell was among those granted gold, honors, and offices by a grateful King [Aenys I Targaryen](wiki:Aenys_I_Targaryen).(wiki:Samwell_Tarly_(lord).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
 The Lord of Horn Hill was present at the [Golden Wedding](wiki:Golden_Wedding) in [49 AC](wiki:49_AC), but it is unknown if this was Samwell.(wiki:Samwell_Tarly_(lord).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Lord of Horn Hill, called Savage Sam, who fell upon the Dornish line with knights and archers (fab-sons-of-the-dragon-05-p01:211)
+- He wielded the Valyrian blade Heartsbane and took the Vulture King alive (fab-sons-of-the-dragon-05-p01:211)

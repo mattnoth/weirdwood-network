@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jonos_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Jonos Arryn — Ronnel Arryn's younger brother, who deposed and imprisoned him and declared himself King of Mountain and Vale.
 
 ## Origins
 
@@ -36,3 +40,10 @@ Jonos and his garrison remained defiant until Prince [Maegor Targaryen](wiki:Mae
 ## Notes
 
 Sources: Fire & Blood "The Sons of the Dragon," TWOIAF. Jonos's revolt is one of the early challenges to Targaryen rule.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Ronnel Arryn's younger brother, who deposed and imprisoned him and declared himself King of Mountain and Vale (fab-sons-of-the-dragon-05-p01:179)
+- He had Ronnel cast through the Moon Door, then was served the same way himself when the garrison surrendered to Maegor (fab-sons-of-the-dragon-05-p01:195)

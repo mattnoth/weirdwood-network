@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Harren_the_Red"
 bucket_id: characters-house-hoare
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Harren the Red is a character.human from the AWOIAF wiki.
+Harren the Red — An outlaw who styled himself a grandson of Harren the Black and seized Harrenhal through an opened postern gate.
 
 ## Edges
 
@@ -32,3 +32,10 @@ King Aenys I was present at [Riverrun](wiki:Riverrun) when he learned about Red 
 Continuing on to [King's Landing](wiki:King's_Landing), Aenys ordered his [Hand](wiki:Hand_of_the_King), Lord [Alyn Stokeworth](wiki:Alyn_Stokeworth), to take a [fleet](wiki:Royal_fleet) north to the [Vale](wiki:Vale_of_Arryn) and deal with [Jonos Arryn](wiki:Jonos_Arryn). Aenys prevaricated, however, and at the last moment recalled the order, fearing that Harren the Red might attack King's Landing. After this waste of time, he instead dispatched Alyn into the riverlands with several hundred men to hunt down Harren the Red.(wiki:Harren_the_Red.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 Alyn succeeded, cornering Harren in a village west of the [Gods Eye](wiki:Gods_Eye). In the battle that followed, Harren killed Lord Stokeworth, but was killed in turn by Alyn's squire, [Bernarr Brune](wiki:Bernarr_Brune). The grateful King Aenys subsequently [knighted](wiki:Knight) Brune, and rule over Harrenhal was granted to [House Harroway](wiki:House_Harroway). Harren's was the first of the four local rebellions that broke out against Aenys, but also the last one dealt with.(wiki:Harren_the_Red.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:Harren_the_Red.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- An outlaw who styled himself a grandson of Harren the Black and seized Harrenhal through an opened postern gate (fab-sons-of-the-dragon-05-p01:173)
+- Brought to bay west of the Gods Eye, he slew Alyn Stokeworth before being cut down (fab-sons-of-the-dragon-05-p01:215)

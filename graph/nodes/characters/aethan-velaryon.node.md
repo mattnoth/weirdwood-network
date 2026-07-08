@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aethan_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Aethan Velaryon is a character.human from the AWOIAF wiki.
+Aethan Velaryon — Lord of the Tides, Aegon's lord admiral and master of ships; father of Alyssa.
 
 ## Edges
 
@@ -48,3 +48,10 @@ Aethan was the [namesake](wiki:Namesake) for *[Lord Aethan's Glory](wiki:Lord_Ae
 ## Appearances & Description
 
 [Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) describes Aethan Velaryon as a mighty and powerful [lord](wiki:Lord).(wiki:Aethan_Velaryon.cite_ref-Rfab6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Lord of the Tides, Aegon's lord admiral and master of ships; father of Alyssa (fab-sons-of-the-dragon-05-p01:81)
+- He went to the Stepstones with Maegor and Osmund Strong (fab-sons-of-the-dragon-05-p01:115)

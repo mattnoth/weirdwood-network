@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Orys_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 ---
 
@@ -108,3 +108,9 @@ Died 37 AC, between Stonehelm and Storm's End (track_b: Died). Raymont Baratheon
 - Aegon proclaimed him "my shield, my stalwart, my strong right hand," and the maesters reckon him the first King's Hand (fab-aegons-conquest-03:119)
 - He crushed Darklyn and Mooton, then slew Argilac in single combat at the Last Storm (fab-aegons-conquest-03:199)
 - Afterward he unchained Argilac's daughter Argella, took the Durrandon arms and words, and made her his wife (fab-aegons-conquest-03:207)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Known now as Orys One-Hand, he rode from Storm's End to smash the Dornish beneath Stonehelm (fab-sons-of-the-dragon-05-p01:207)
+- He mutilated the captured Walter Wyl in payment for his own lost hand, calling the deed usury (fab-sons-of-the-dragon-05-p01:207)
+- He died of his battle wounds on the march back to Storm's End (fab-sons-of-the-dragon-05-p01:207)

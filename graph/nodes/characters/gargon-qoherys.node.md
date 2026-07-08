@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gargon_Qoherys"
 bucket_id: characters-house-qoherys
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gargon Qoherys is a character.human from the AWOIAF wiki.
+Gargon Qoherys — Grandson of Quenton Qoherys and Lord of Harrenhal, called Gargon the Guest for claiming first night at weddings.
 
 ## Edges
 
@@ -32,3 +32,10 @@ During the rebellion of [Harren the Red](wiki:Harren_the_Red) in [37 AC](wiki:3
 ## Appearances & Description
 
 Gargon was fat and considered foolish.(wiki:Gargon_Qoherys.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He had a lusty appetite and was known to attend each [wedding](wiki:Wedding) in his domain to take advantage of the lord's right to the [first night](wiki:First_night), giving him the nickname Gargon the Guest. He also made free with the wives and daughters of his own servants.(wiki:Gargon_Qoherys.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)(wiki:Gargon_Qoherys.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Grandson of Quenton Qoherys and Lord of Harrenhal, called Gargon the Guest for claiming first night at weddings (fab-sons-of-the-dragon-05-p01:169)
+- Harren the Red mutilated him (fab-sons-of-the-dragon-05-p01:173)

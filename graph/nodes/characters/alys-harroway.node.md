@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Harroway"
 bucket_id: characters-house-harroway
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alys Harroway is a character.human from the AWOIAF wiki.
+Alys Harroway — Daughter of the new Lord of Harrenhal, taken by Maegor as a second wife in 39 AC.
 
 ## Edges
 
@@ -46,3 +46,10 @@ Queen Alys was dragged from her bed by [knights](wiki:Knight) of the [Kingsguard
 King Maegor departed the city soon after, assembling a force and marching on the lightly held [Harrenhal](wiki:Harrenhal). It's [castellan](wiki:Castellan), a cousin of Alys, opened the gates at the king's approach. Maegor had the entire garrison put to the sword, along with every man, woman, and child with any drop of [Harroway blood](wiki:House_Harroway). Next he went to [Lord Harroway's Town](wiki:Lord_Harroway's_Town), doing the same.(wiki:Alys_Harroway.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)(wiki:Alys_Harroway.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
 
 In [48 AC](wiki:48_AC), Queen Tyanna confessed that she [poisoned](wiki:Poison) Alys's child in the womb.(wiki:Alys_Harroway.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Daughter of the new Lord of Harrenhal, taken by Maegor as a second wife in 39 AC (fab-sons-of-the-dragon-05-p01:225)
+- She accompanied Maegor into exile at Pentos (fab-sons-of-the-dragon-05-p01:237)

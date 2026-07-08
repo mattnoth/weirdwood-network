@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Dark_Sister"
 bucket_id: tier3-pathb-artifacts
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -52,3 +52,9 @@ According to a semi-canon source, Brynden took Dark Sister with him when he went
 ## Quotes
 
 Dark Sister was made for nobler tasks than slaughtering sheep. She has a thirst for blood.(wiki:Dark_Sister.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Visenya's own Valyrian steel blade, bestowed on Maegor at thirteen (fab-sons-of-the-dragon-05-p01:55)

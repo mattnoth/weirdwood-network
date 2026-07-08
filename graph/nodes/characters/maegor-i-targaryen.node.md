@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
 bucket_id: characters-other-l-m
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -156,3 +156,12 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 > A true king, blood of Aegon the Conqueror, who was my brother, my husband, and my love. If any man questions my son’s right to the Iron Throne, let him prove his claim with his body.(wiki:Maegor_I_Targaryen.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-2)
 >
 > —[Visenya Targaryen](wiki:Visenya_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
+
+- Robust at birth, Maegor remained on Dragonstone with his mother and was called the Prince of Dragonstone (fab-sons-of-the-dragon-05-p01:33)
+- A quarrelsome boy of unmatched skill at arms, he was knighted at sixteen at the Riverrun tourney (fab-sons-of-the-dragon-05-p01:113)
+- He claimed Balerion at last above the Eyrie and executed Jonos Arryn's followers to a man (fab-sons-of-the-dragon-05-p01:203)
+- Named Hand after the rebellions, he later took a second wife, Alys Harroway, and chose exile to Pentos over abandoning her (fab-sons-of-the-dragon-05-p01:237)
