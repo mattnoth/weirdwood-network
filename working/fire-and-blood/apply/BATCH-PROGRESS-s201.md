@@ -37,8 +37,14 @@ Spec = `[{"action":"FOLD"|"RENAME","old":"<slug>","new":"<slug>"}]`. Dry-run def
   fresh subagent verdicts BUT orchestrator verifies tags vs primary text (2 of 4 S200 subagent clears were
   wrong). Watch the "eustace"/"mushroom" false-positive class (chronicler name == a character's given name).
   Use `fab-dispute-inject.py --verdicts <file>` to apply verdicts (clear/disputed/drop).
-- [ ] **Batch 4** (14–16, Dance opens) — long-reign-cont-14-p03/p04, heirs-15-p03, blacks-greens-16-p01/p02.
-      DISPUTE-HEAVY (heirs-15-p03 alone has many needs-read incl. "Secret marriage of Rhaenyra & Daemon").
+- [x] **Batch 4** (14–16, Dance opens) — long-reign-cont-14-p03/p04, heirs-15-p03, blacks-greens-16-p01/p02.
+      DONE S202, committed `d6db5999ae` (surgery checkpoint `5eff1e3ac3`). +322 edges (book-fab 847→1,169),
+      26 nodes. 2 FOLD (both Myrish fragments → myrish-bloodbath, extends the S200 fold precedent) + 3 RENAME
+      (daella/daeron/alyssa disambiguations). 13 dispute rows: 12 clear / 1 disputed (larys-strong MEMBER_OF
+      the-greens, gyldayn-synthesis — the book itself frames his loyalty as unknowable). Saera LOVER_OF ×3 =
+      clear via her direct confession (14-p03:217), NOT the "favorites" euphemism class. Orchestrator rejected
+      one subagent flag (viserys AGENT_IN tongue-removal is book-correct — the show timeline was the confusion).
+      fab-apply-surgery.py promoted scratchpad→scripts/. Gate PASS. 153 tests.
 - [ ] **Batch 5** (17, Dance war) — red-dragon-17-p01/p02/p03/p04. Dispute-heavy. Also verify the odd
       "Aegon (nephew of Maegor)" char CREATE in 17-p01.
 - [ ] **Batch 6** (18–21, Dance end) — rhaenyra-18-p01/p02, short-sad-19, hour-of-wolf-20, hooded-hand-21. Dispute-heavy.

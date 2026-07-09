@@ -267,6 +267,18 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Ulf the White BONDED_TO Silverwing",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "KILLS",
+      "source": "harry-penny",
+      "target": "adrian-tarbeck",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "This unlikely hero died soon after, whilst slaying Adrian Tarbeck",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Harry Penny KILLS Adrian Tarbeck",
+      "via": "dispute-inject"
     }
   ]
 }

@@ -649,6 +649,66 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Addam Velaryon SIBLING_OF Alyn Velaryon",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "ADVISES",
+      "source": "gerardys",
+      "target": "rhaenyra-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "the path of wisdom was to seek such proof",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Gerardys ADVISES Rhaenyra Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "COMMANDS",
+      "source": "rhaenyra-targaryen",
+      "target": "luthor-largent",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "commanded Ser Luthor Largent to take twenty gold cloaks",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen COMMANDS Luthor Largent",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "KNIGHTED_BY",
+      "source": "rhaenyra-targaryen",
+      "target": "ulf-white",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "The knighthood that Queen Rhaenyra had conferred on him",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen KNIGHTED_BY Ulf White",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP5",
+      "type": "APPOINTS",
+      "source": "daeron-targaryen-son-of-viserys-i",
+      "target": "ulf-white",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "Prince Daeron named him Lord of Bitterbridge",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daeron Targaryen APPOINTS Ulf White",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP6",
+      "type": "LOVER_OF",
+      "source": "alys-rivers",
+      "target": "aemond-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "helped his woman down from Vhagar's back",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alys Rivers LOVER_OF Aemond Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }
