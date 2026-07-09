@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 7
+node_version: 11
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -282,3 +282,34 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 - Grand Maester Munkun calls him the Broken King, and the smallfolk name him the Dragonbane; he was a joyless man who drank no wine and wore a hair shirt beneath his velvets (fab-hour-of-the-wolf-20:21)
 - As his reign began he was confined to Maegor's Holdfast by Cregan Stark with only the boy Gaemon Palehair for company (fab-hour-of-the-wolf-20:137)
 - Though uncrowned and only ten, he moved to spare Corlys Velaryon and restore him to the small council (fab-hour-of-the-wolf-20:207)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Acting without his regents, he named Robin Massey and Robert Darklyn to the Kingsguard, called Thaddeus Rowan to be his Hand, and wanted Baela and Alyn back at court (fab-war-and-peace-and-cattle-shows-22-p01:17)
+- His appointments were all set aside by the regents on the grounds that no boy of twelve could judge such matters (fab-war-and-peace-and-cattle-shows-22-p01:23)
+- Thereafter he took little part in rule, fixing his signature and seal to Peake's papers and retreating into silence (fab-war-and-peace-and-cattle-shows-22-p01:33)
+- He hated Tessario, misliked his new Kingsguard and his master-at-arms, and cared for only one companion, Gaemon Palehair (fab-war-and-peace-and-cattle-shows-22-p01:81)
+- The boy king, still shy of his thirteenth nameday, took Tyland's hand as he died and displayed a maturity beyond his years (fab-war-and-peace-and-cattle-shows-22-p01:15)
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- King Aegon III Targaryen wed the six-year-old Lady Daenaera on the last day of 133 AC (fab-voyage-of-alyn-oakenfist-23:19)
+- Called the Broken King, he blamed himself for fleeing the Gay Abandon on Stormcloud and abandoning his brother Viserys before the Battle of the Gullet (fab-voyage-of-alyn-oakenfist-23:191)
+- His gloom lifted with Daenaera's cheer and again, greatly, when Viserys was restored to him, whereupon he wept and embraced the boy (fab-voyage-of-alyn-oakenfist-23:163)
+- He began attending council but withdrew after the Hand belittled his questions (fab-voyage-of-alyn-oakenfist-23:129)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The king reigned as a boy under regents; his court was called Aegon III's court (fab-the-lysene-spring-24-p01:67)
+- He could not be persuaded even by his brother to come see his sister fly her dragon (fab-the-lysene-spring-24-p01:87)
+- When his cupbearer Gaemon was poisoned he was left inconsolable and sank back into gloom (fab-the-lysene-spring-24-p01:119)
+- He barred all dragon's eggs from his castle after the monstrous hatching (fab-the-lysene-spring-24-p01:103)
+- When the coup came he defended Maegor's Holdfast, disavowing Marston Waters (fab-the-lysene-spring-24-p01:225)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Through the "secret siege" the boy king met every appeal with sullen, stubborn silence, roused to anger only once by his master-at-arms (fab-the-lysene-spring-24-p02:17)
+- He then declared Rowan innocent and ordered the Lord Confessor seized (fab-the-lysene-spring-24-p02:63)
+- On his sixteenth nameday he took the governance of the realm, cancelling the progress and dismissing his regents and Hand (fab-the-lysene-spring-24-p02:273)
+- He did not leave Maegor's Holdfast for six days after the confession was unravelled (fab-the-lysene-spring-24-p02:105)
+- When Rowan's tortured confession was heard he was left bereft of speech (fab-the-lysene-spring-24-p02:53)

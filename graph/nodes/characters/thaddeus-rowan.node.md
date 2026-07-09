@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Thaddeus_Rowan"
 bucket_id: characters-house-rowan
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -55,3 +55,21 @@ Lord Rowan was considered a doting husband and a good father.(wiki:Thaddeus_Rowa
 
 - Lord of Goldengrove, twice-widowed with seven sons, chosen as Baela's match for the value of his all-male issue (fab-the-hooded-hand-21:217)
 - Rejected by Baela's flight, his pride was appeased by betrothal to Floris Baratheon (fab-the-hooded-hand-21:233)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Lord Thaddeus Rowan was summoned by Aegon III to be his Hand, trusted because Tyland had offered him the king's sister in marriage (fab-war-and-peace-and-cattle-shows-22-p01:17)
+- The regents instead offered him a seat among them as justiciar and master of laws (fab-war-and-peace-and-cattle-shows-22-p01:27)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Lord Rowan, Hand and regent, tried to relieve the realm's woes but was obeyed by none (fab-the-lysene-spring-24-p01:43)
+- Well-liked but not feared, he was whispered against as having sold himself to the Lyseni (fab-the-lysene-spring-24-p01:43)
+- His young wife Lady Floris died in childbirth (fab-the-lysene-spring-24-p01:117)
+- He was removed from office and taken into captivity during the coup (fab-the-lysene-spring-24-p01:209)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lord Rowan was brought forth in chains, his face bruised beyond recognition and his teeth gone, to confess to crimes recited by Septon Bernard (fab-the-lysene-spring-24-p02:39)
+- Prince Viserys exposed the confession as the product of torture (fab-the-lysene-spring-24-p02:63)
+- Broken by the dungeons, he was relieved of office and died on the road to Goldengrove with two of his sons (fab-the-lysene-spring-24-p02:115)

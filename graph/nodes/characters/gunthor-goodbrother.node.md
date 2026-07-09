@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gunthor_Goodbrother"
 bucket_id: characters-house-goodbrother
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -29,3 +29,9 @@ After Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy) was killed by his own [salt wif
 ## Appearances & Description
 
 Archmaester [Gyldayn](wiki:Gyldayn) describes Gunthor as a "roaring giant".(wiki:Gunthor_Goodbrother.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Gunthor Goodbrother, a "roaring giant" of the Faircastle garrison, slew his fellow commander Alester Wynch in a quarrel over Lysa Farman (fab-voyage-of-alyn-oakenfist-23:99)

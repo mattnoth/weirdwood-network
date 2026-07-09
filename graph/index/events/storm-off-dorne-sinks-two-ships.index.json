@@ -1,0 +1,18 @@
+{
+  "slug": "storm-off-dorne-sinks-two-ships",
+  "name": "Storm off Dorne sinks two ships",
+  "type": "event.disaster",
+  "node_path": "graph/nodes/events/storm-off-dorne-sinks-two-ships.node.md",
+  "generated_at": "2026-07-09T21:13:42.079299+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

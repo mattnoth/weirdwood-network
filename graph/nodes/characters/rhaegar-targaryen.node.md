@@ -11,7 +11,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaegar_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -19,6 +19,10 @@ first_available:
   source: cite_ref
   pov: Catelyn I
 ---
+
+## Identity
+
+Rhaegar Targaryen — Crown prince and heir to Aerys II; slain by Robert Baratheon on the Trident.
 
 ## Origins
 
@@ -214,3 +218,9 @@ Jon discusses the issue of trust with Aegon, and then recalls that Rhaegar had b
 ## Notes
 
 Extensive pass1_mentions across 20+ AGOT chapters. Cite refs span all five books across 40 chapters. One of the most referenced deceased characters in the series. The Lyanna Stark abduction/elopement is central to R+L=J theory.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-09 -->
+
+- Crown prince and heir to Aerys II; slain by Robert Baratheon on the Trident. (fab-lineages-and-family-tree-25:71)

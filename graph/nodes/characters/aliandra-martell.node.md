@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Aliandra_Martell
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Aliandra Martell, Princess of Dorne and hailed the "new Nymeria," met Alyn's fleet off Sunspear and had just turned eighteen.
 
 ## Origins
 
@@ -39,3 +43,15 @@ Aliandra was a flirtatious and fiery young woman.(wiki:Aliandra_Martell.cite_ref
 ## Notes
 
 Two death dates in infobox (136 and 158 AC) suggest an uncertain date range rather than two events (track_b: Died). Birth year approximate at 115 AC.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Aliandra Martell, Princess of Dorne and hailed the "new Nymeria," met Alyn's fleet off Sunspear and had just turned eighteen (fab-voyage-of-alyn-oakenfist-23:57)
+- Whether Alyn returned her intimate favors is disputed between his two vulgar biographies; according to *Bastard Born* he did, and to *Hard as Oak* he did not (fab-voyage-of-alyn-oakenfist-23:57)
+- It was at her court that Alyn learned Dorne had joined the Daughters' War against Racallio and met Drazenko Rogare (fab-voyage-of-alyn-oakenfist-23:119)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The Princess of Dorne wed Drazenko Rogare and named him Prince Consort and Lord of the Stepstones (fab-the-lysene-spring-24-p01:83)

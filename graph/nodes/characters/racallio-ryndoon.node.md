@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Racallio_Ryndoon"
 bucket_id: characters-other-q-r
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -87,3 +87,16 @@ Racallio sometimes ordered his dozen wives to beat him. A contradictory person, 
 
 - Flamboyant captain-general who once fought Daemon Targaryen, called up by the Archon of Tyrosh to seize the Stepstones (fab-the-hooded-hand-21:123)
 - He put the King of the Narrow Sea to death, then betrayed the Archon to claim the crown himself (fab-the-hooded-hand-21:123)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Racallio Ryndoon, a rogue whose ships were mostly swept from the sea, still ruled Bloodstone and lesser rocks and made common cause with the Sealord and the Archon (fab-war-and-peace-and-cattle-shows-22-p01:125)
+- His destruction was Peake's objective, but he emerged stronger than ever (fab-war-and-peace-and-cattle-shows-22-p01:167)
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Racallio Ryndoon was a Tyroshi adventurer who ruled the Stepstones for a few short years, styled "Queen Racallio" by the Archon of Tyrosh (fab-voyage-of-alyn-oakenfist-23:45)
+- Little reliable is known of him; he was said to stand six-and-a-half feet with one shoulder higher than the other, spoke a dozen Valyrian dialects, and dyed his hair purple (fab-voyage-of-alyn-oakenfist-23:39)
+- He honored every god and threw the bones before battle to choose which to placate with sacrifice (fab-voyage-of-alyn-oakenfist-23:41)
+- He kept Alyn a fortnight at Bloodstone, alternately friend and captor, and finally allowed the fleet passage for three ships, a signed alliance, and a kiss (fab-voyage-of-alyn-oakenfist-23:51)
+- The narration states flatly that he was mad, yet beloved by his men (fab-voyage-of-alyn-oakenfist-23:45)

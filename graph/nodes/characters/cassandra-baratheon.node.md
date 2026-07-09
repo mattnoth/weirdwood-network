@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Cassandra_Baratheon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Cassandra Baratheon is a character from the AWOIAF wiki.
+Cassandra Baratheon — Lady; eldest of the "Four Storms" and once heir to Storm's End, briefly betrothed to King Aegon II in his last year.
 
 ## Edges
 
@@ -50,3 +50,16 @@ Due to her [high birth](wiki:Highborn), Cassandra was spared from the harsh puni
 
 I have [four daughters](wiki:Four_Storms). Choose any one you like. Cass is oldest, she'll be first to [flower](wiki:Flower), but [Floris](wiki:Floris_Baratheon) is prettier. And if it’s a clever wife you want, there's [Maris](wiki:Maris_Baratheon).(wiki:Cassandra_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 She will give me strong sons, worthy of the [Iron Throne](wiki:Iron_Throne).(wiki:Cassandra_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Lady; eldest of the "Four Storms" and once heir to Storm's End, briefly betrothed to King Aegon II in his last year (fab-war-and-peace-and-cattle-shows-22-p02:51)
+- Her detractors said she resented tending the child queen she blamed for her woes (fab-war-and-peace-and-cattle-shows-22-p02:51)
+- Her mother Elenda later put her forward as a bride, and the rumor she pushed the little queen to her death was revived (fab-war-and-peace-and-cattle-shows-22-p02:123)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lady Cassandra, late Lord Borros's eldest child and once betrothed to Aegon II, confessed to sharing her bed with Mervyn Flowers and, at his behest, with Tessario (fab-the-lysene-spring-24-p02:157)
+- Her high birth spared her mutilation; she was instead wed to Ser Walter Brownhill of Cape Wrath (fab-the-lysene-spring-24-p02:171)

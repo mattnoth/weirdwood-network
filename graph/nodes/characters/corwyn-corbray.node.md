@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corwyn_Corbray"
 bucket_id: characters-house-corbray
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -67,3 +67,10 @@ Corwyn had a great reputation as a warrior, so much so that his father gave him 
 
 - Ser Corwyn, a second son of thirty-two with two daughters, wielder of the Valyrian blade Lady Forlorn and brother of the Protector Leowyn, wed Rhaena Targaryen (fab-the-hooded-hand-21:245)
 - The match followed a quick betrothal and hasty wedding (fab-the-hooded-hand-21:245)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Ser Corwyn, husband of Lady Rhaena, took a council seat after Mooton's death (fab-the-lysene-spring-24-p01:15)
+- He ruled for Jeyne's will and declared Joffrey the rightful Lord of the Eyrie (fab-the-lysene-spring-24-p01:123)
+- Drawing Lady Forlorn at Runestone, he was shot through the breast by a crossbowman (fab-the-lysene-spring-24-p01:123)
+- He was uncle to Quenton Corbray and by marriage kin to Alyn Oakenfist (fab-the-lysene-spring-24-p01:127)

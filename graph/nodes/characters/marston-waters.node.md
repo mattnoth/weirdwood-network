@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Marston_Waters"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -81,3 +81,20 @@ Marston: We are the both of us [bastards](wiki:Bastard) and [Sworn Brothers](wik
 
 - Ser Marston returned alone from Lys, accepted a pardon, and reported the Triarchy's collapse (fab-the-hooded-hand-21:27)
 - He was made second to the Lord Commander of the Kingsguard (fab-the-hooded-hand-21:59)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Ser Marston Waters, second in command of the Kingsguard, was passed over by the king but confirmed Lord Commander by the regents, then made to bestow cloaks on Peake's kin (fab-war-and-peace-and-cattle-shows-22-p01:27)
+- He had been present at Rhaenyra's death, which the king had not forgotten (fab-war-and-peace-and-cattle-shows-22-p01:71)
+- He dubbed Alyn a knight at his honoring ceremony (fab-war-and-peace-and-cattle-shows-22-p01:183)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The Kingsguard Lord Commander was made the new King's Hand after Rowan's removal (fab-the-lysene-spring-24-p01:221)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Ser Marston Waters, bastard-born, had risen from King Aegon II's retinue to Lord Commander of the Kingsguard and Hand (fab-the-lysene-spring-24-p02:33)
+- Larys Strong had chosen him to hide the king during Rhaenyra's ascendancy (fab-the-lysene-spring-24-p02:33)
+- He held back from storming Maegor's, weighed down by his vow to the king he had sworn to protect (fab-the-lysene-spring-24-p02:35)
+- He obeyed Aegon's command to seize Graceford, then was mortally stabbed by Mervyn Flowers and died that night (fab-the-lysene-spring-24-p02:81)

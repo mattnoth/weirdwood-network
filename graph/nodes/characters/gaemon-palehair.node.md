@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gaemon_Palehair
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 3
+node_version: 7
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -88,3 +88,22 @@ Gaemon had pale hair.(wiki:Gaemon_Palehair.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B
 - Gaemon Palehair, the "Cunny King," was a boy who had just turned five and was routed on Visenya's Hill (fab-short-sad-reign-of-aegon-ii-19:71)
 - Spared for his youth, he was made a ward of the Crown (fab-short-sad-reign-of-aegon-ii-19:103)
 - His mother Essie confessed under torture that his father was not the king but a Lyseni oarsman (fab-short-sad-reign-of-aegon-ii-19:103)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Gaemon Palehair, the king's six-year-old cupbearer and food taster and a bastard born of a whore, shared all the king's meals and attended him in the yard (fab-war-and-peace-and-cattle-shows-22-p01:81)
+- At Gareth Long's request Peake made him the king's whipping boy, punished for the king's misbehavior (fab-war-and-peace-and-cattle-shows-22-p01:81)
+- His blood and tears moved the king to improve where words had not (fab-war-and-peace-and-cattle-shows-22-p01:81)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Aegon III's young cupbearer, delighted by Mushroom's japes; given the honor of announcing the king's choice of bride (fab-war-and-peace-and-cattle-shows-22-p02:179)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The bastard boy "King Cunny" served Aegon III as cupbearer, food taster and friend (fab-the-lysene-spring-24-p01:113)
+- He was poisoned by tainted apple tarts and died within the hour, thought but nine (fab-the-lysene-spring-24-p01:113)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Aegon III's young friend, killed by the poison meant for the king (fab-the-lysene-spring-24-p02:47)

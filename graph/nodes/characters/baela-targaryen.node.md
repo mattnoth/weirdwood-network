@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baela_Targaryen
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 10
+node_version: 14
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -189,3 +189,24 @@ The Issue field lists "Laena Velaryon" which is also her mother's name — this 
 - Refusing the match to Lord Rowan, she fled the castle in a washerwoman's clothes and married her cousin Alyn Velaryon in the sept on Dragonstone (fab-the-hooded-hand-21:227)
 - She took part in horse races, moonlight swims, and gathered unsuitable companions (fab-the-hooded-hand-21:207)
 - (Per Gyldayn Synthesis) According to Baela's own provocation, she had bedded two of Rowan's sons, though Gyldayn notes the truth of it cannot be said (fab-the-hooded-hand-21:223)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Lady Baela, the king's half-sister and Alyn's wife, was wanted back at court by the king (fab-war-and-peace-and-cattle-shows-22-p01:17)
+- She saw Alyn off from Hull with a kiss and the news she was with child, jesting she would name a daughter Laena after her mother (fab-war-and-peace-and-cattle-shows-22-p01:191)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Lady; half-sister of the king and twin of Rhaena, daughter of Prince Daemon, great with child on Driftmark (fab-war-and-peace-and-cattle-shows-22-p02:65)
+- With her twin she rode into the throne room to present Daenaera as the king's new queen (fab-war-and-peace-and-cattle-shows-22-p02:169)
+- She slashed Ser Marston Waters across the cheek with her riding crop when he blocked her path (fab-war-and-peace-and-cattle-shows-22-p02:167)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Lady Baela, twin of Rhaena and wife of Lord Alyn, returned to Driftmark with her husband and their daughter (fab-the-lysene-spring-24-p01:15)
+- She went to Dragonstone to comfort her widowed twin (fab-the-lysene-spring-24-p01:137)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lady Baela, of the blood of the dragon and quick to anger, quarreled with her husband over his talk of Princess Aliandra of Dorne (fab-the-lysene-spring-24-p02:227)
+- She remained on Driftmark carrying his second child, and declared she would join the royal progress unwanted or not (fab-the-lysene-spring-24-p02:227)

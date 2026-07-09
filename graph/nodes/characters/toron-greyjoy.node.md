@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Toron_Greyjoy
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Toron Greyjoy — The boy upon the Seastone Chair, seized by the Red Kraken's sisters, who put his mother to death.
 
 ## Origins
 
@@ -32,3 +36,10 @@ Lord Toron's defenders beat off the Lannister assault on Pyke, and thus he remai
 ## Notes
 
 Sources are Fire & Blood and TWOIAF. `first_available` is null as no cite_ref chapters exist in the five main books.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The boy upon the Seastone Chair, seized by the Red Kraken's sisters, who put his mother to death (fab-the-lysene-spring-24-p01:19)
+- He held the Chair when his defenders beat off the Lannister assault on Pyke (fab-the-lysene-spring-24-p01:27)

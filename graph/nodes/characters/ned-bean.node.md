@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ned_Bean"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Ned Bean, a notorious sellsail called Blackbean for his thick black beard, was summoned to be Gedmund's second and advise on naval matters.
 
 ## Origins
 
@@ -34,3 +38,10 @@ Ned had a thick black beard, which earned him the nickname *Blackbean*.(wiki:Ned
 ## Notes
 
 Very minor historical character. No cite_refs to main series chapters. The "Title" field listing "royal fleet" indicates his service rather than a formal title.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Ned Bean, a notorious sellsail called Blackbean for his thick black beard, was summoned to be Gedmund's second and advise on naval matters (fab-war-and-peace-and-cattle-shows-22-p01:121)
+- Alyn refused his authority, saying he would have hanged him but for wasting good rope on a bean (fab-war-and-peace-and-cattle-shows-22-p01:133)

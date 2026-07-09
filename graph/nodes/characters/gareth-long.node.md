@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gareth_Long"
 bucket_id: characters-house-long
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gareth Long is a character.human from the AWOIAF wiki.
+Gareth Long — Ser Gareth Long, master-at-arms at Starpike, was given the same office at the Red Keep and tasked with training Aegon for knighthood.
 
 ## Edges
 
@@ -50,3 +50,16 @@ While a skilled swordsman, Gareth was a harsh taskmaster. He sternly punished an
 > You may beat poor [Gaemon's](wiki:Gaemon_Palehair) bones, but you will get no more blood from him.(wiki:Gareth_Long.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 >
 > —[Aegon III Targaryen](wiki:Aegon_III_Targaryen) to Gareth
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Ser Gareth Long, master-at-arms at Starpike, was given the same office at the Red Keep and tasked with training Aegon for knighthood (fab-war-and-peace-and-cattle-shows-22-p01:63)
+- A skilled swordsman and harsh taskmaster, his punishments were unavailable against the king's inviolate person (fab-war-and-peace-and-cattle-shows-22-p01:77)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Ser Gareth Long, the king's master-at-arms, tried and failed to make the king yield, and was named a conspirator (fab-the-lysene-spring-24-p02:17)
+- At trial he declared the king unfit (fab-the-lysene-spring-24-p02:85)
+- Condemned, he took the black, but was brought back to slay Ser Victor Risley in a trial by battle (fab-the-lysene-spring-24-p02:151)

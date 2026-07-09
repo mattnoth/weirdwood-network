@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Jaehaera_Targaryen
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -75,3 +75,11 @@ Tier 2 (inference): the circumstances of Jaehaera's death are disputed — some 
 - The child queen, wed to Aegon III, granddaughter of Alicent, had witnessed her twin brother's murder by Blood and Cheese (fab-the-hooded-hand-21:131)
 - Munkun described her as fragile and regressed (fab-the-hooded-hand-21:131)
 - She remained hale through the fever that killed two of her maids (fab-the-hooded-hand-21:317)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Queen of the Seven Kingdoms and last surviving child of King Aegon II, she died aged ten on the twenty-second day of the ninth moon of 133 AC (fab-war-and-peace-and-cattle-shows-22-p02:29)
+- She died as her mother Queen Helaena had, thrown from a window in Maegor's Holdfast onto iron spikes (fab-war-and-peace-and-cattle-shows-22-p02:29)
+- Impaled, she twisted in agony for half an hour before dying (fab-war-and-peace-and-cattle-shows-22-p02:29)
+- A frightened, lonely, simpleminded child, she had hidden herself away in the Red Keep (fab-war-and-peace-and-cattle-shows-22-p02:37)
+- Whether she took her own life or was murdered was never resolved (fab-war-and-peace-and-cattle-shows-22-p02:77)

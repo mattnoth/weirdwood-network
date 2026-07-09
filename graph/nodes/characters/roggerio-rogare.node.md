@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Roggerio_Rogare"
 bucket_id: characters-house-rogare
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Roggerio Rogare is a character.human from the AWOIAF wiki.
+Roggerio Rogare — Nothing could be proved against Roggerio, but Manderly gave him seven lashes anyway.
 
 ## Edges
 
@@ -34,3 +34,15 @@ Roggerio opened a high-class [pleasure house](wiki:Pleasure_house) which he call
 In [135 AC](wiki:135_AC) Roggerio was arrested at the Mermaid by Ser [Marston Waters](wiki:Marston_Waters) when [House Rogare](wiki:House_Rogare) was accused of treason. Although the treason against King [Aegon III Targaryen](wiki:Aegon_III_Targaryen) was later proven unfounded, the new [Hand of the King](wiki:Hand_of_the_King), Lord [Torrhen Manderly](wiki:Torrhen_Manderly) still sentenced Roggerio to seven lashes, when Roggerio asked *"for what?"*, Lord Manderly replied *"for being a thrice damned Lyseni"*.(wiki:Roggerio_Rogare.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
 After his punishment and release, he sold his brothel and everything in it to purchase a great [cog](wiki:Ships) which he named the [Mermaid's Daughter](wiki:Mermaid's_Daughter), which effectively was the pillowhouse reborn with sails. Roggerio departed King's Landing and sailed the sea, trading in [wines](wiki:Wine) and carnal pleasures at every port he visited.(wiki:Roggerio_Rogare.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The youngest brother opened the opulent Mermaid pillow house by the River Gate (fab-the-lysene-spring-24-p01:59)
+- He was marched at spearpoint through a jeering crowd when the Rogares fell (fab-the-lysene-spring-24-p01:205)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Nothing could be proved against Roggerio, but Manderly gave him seven lashes anyway (fab-the-lysene-spring-24-p02:195)
+- He closed his brothel, bought a great cog named the Mermaid's Daughter, and traded up and down the narrow sea (fab-the-lysene-spring-24-p02:199)

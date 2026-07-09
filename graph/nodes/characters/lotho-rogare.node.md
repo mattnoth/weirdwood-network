@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lotho_Rogare"
 bucket_id: characters-house-rogare
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lotho Rogare is a character.human from the AWOIAF wiki.
+Lotho Rogare — The banker Lotho was adjudged guilty of theft and given the choice of the black or the loss of his right hand.
 
 ## Edges
 
@@ -37,3 +37,15 @@ After the events of the [secret siege](wiki:Secret_siege), Lotho was tried, accu
 > Praise [Yndros](wiki:Yndros), I am left-handed.(wiki:Lotho_Rogare.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 >
 > —Lotho, to [Torrhen Manderly](wiki:Torrhen_Manderly)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- He was arrested by the gold cloaks as he tried to leave King's Landing (fab-the-lysene-spring-24-p01:203)
+- He established a branch of the Rogare Bank atop Visenya's Hill (fab-the-lysene-spring-24-p01:59)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- The banker Lotho was adjudged guilty of theft and given the choice of the black or the loss of his right hand (fab-the-lysene-spring-24-p02:195)
+- He chose mutilation (fab-the-lysene-spring-24-p02:195)

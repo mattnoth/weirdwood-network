@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Tess
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Tess was one of Dalton Greyjoy's salt wives, of whom nothing certain is known but her name and her deed.
 
 ## Origins
 
@@ -32,3 +36,11 @@ All that is known for certain is that she cut his throat open from ear to ear wi
 ## Notes
 
 Sources are Fire & Blood and TWOIAF, not the main ASOIAF novels. `first_available` is null as no cite_ref chapters exist in the five main books.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Tess was one of Dalton Greyjoy's salt wives, of whom nothing certain is known but her name and her deed (fab-voyage-of-alyn-oakenfist-23:83)
+- Accounts of her differ so utterly she must remain a mystery (fab-voyage-of-alyn-oakenfist-23:85)
+- On a rainy night at Faircastle she slit Dalton's throat with his own dagger and threw herself into the sea (fab-voyage-of-alyn-oakenfist-23:85)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alester_Wynch"
 bucket_id: characters-house-wynch
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -28,3 +28,9 @@ After Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy) was killed by his own [salt wif
 ## Appearances & Description
 
 Alester was described as sly by Archmaester [Gyldayn](wiki:Gyldayn).(wiki:Alester_Wynch.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Alester Wynch, called "the sly," helped hold Faircastle for the ironborn until Gunthor Goodbrother killed him (fab-voyage-of-alyn-oakenfist-23:99)

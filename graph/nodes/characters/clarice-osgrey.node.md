@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Clarice_Osgrey"
 bucket_id: characters-house-osgrey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -34,3 +34,9 @@ In [135 AC](wiki:135_AC), the king and queen suffered an attempted [poisoning](
 ## Appearances & Description
 
 According to [Mushroom](wiki:Mushroom), Clarice was the lover of [George Graceford](wiki:George_Graceford), [Lord of Holyhall](wiki:Lord_of_Holyhall) and [Lord Confessor](wiki:Lord_Confessor), and was aroused by [torture](wiki:Torture), sometimes joining Lord Graceford in the dungeons to assist him in his work.(wiki:Clarice_Osgrey.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lady Clarice, widowed aunt of Unwin Peake, supervised Queen Daenaera's attendants as she had Queen Jaehaera's before (fab-the-lysene-spring-24-p02:161)

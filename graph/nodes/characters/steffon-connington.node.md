@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Steffon_Connington"
 bucket_id: characters-house-connington
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Steffon Connington is a character.human from the AWOIAF wiki.
+Steffon Connington — Ser; hunting Dornish raiders across the marches, he rode too far and was set upon by one-armed Wyland Wyl, leaving Lady Elenda widowed again.
 
 ## Edges
 
@@ -35,3 +35,9 @@ In [133 AC](wiki:133_AC) he was slain by [Wyland Wyl](wiki:Wyland_Wyl) in the [
 ## Appearances & Description
 
 Steffon was handsome and a fierce warrior.(wiki:Steffon_Connington.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Ser; hunting Dornish raiders across the marches, he rode too far and was set upon by one-armed Wyland Wyl, leaving Lady Elenda widowed again (fab-war-and-peace-and-cattle-shows-22-p02:25)

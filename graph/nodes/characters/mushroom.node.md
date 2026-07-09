@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mushroom"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -111,3 +111,21 @@ Mushroom is significant as a meta-narrative device in Fire & Blood. His accounts
 
 - Mushroom the dwarf, author of the Testimony, was on Dragonstone with Rhaenyra, not in King's Landing at the king's death (fab-the-blacks-and-the-greens-16-p01:45)
 - He alleges Alicent poisoned the king and paints the crudest pictures of Aegon and Beesbury's death (fab-the-blacks-and-the-greens-16-p01:45)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- He confesses he was paid handsomely to poison the king against rival maids (fab-war-and-peace-and-cattle-shows-22-p02:39)
+- handsomely" to poison Aegon III against these maids and others". He named the ball the "Maiden's Day Cattle Show"
+- The Maiden's Day Cattle Show," Mushroom would name the ball". He says Tessario the Thumb offered him "silver or steel," and he took the purse (fab-war-and-peace-and-cattle-shows-22-p02:127)
+- The court fool and author of the *Testimony*, much in the king's company after Jaehaera's death (fab-war-and-peace-and-cattle-shows-22-p02:125)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Mushroom calls him" He confesses to tormenting the broken Rowan into absurd confessions (fab-the-lysene-spring-24-p02:111)
+- He accepted Manderly's offer of a place at White Harbor rather than stay with the king (fab-the-lysene-spring-24-p02:289)
+- The fool claims the queen's ladies donned mail to feign more defenders (fab-the-lysene-spring-24-p02:21)
+- In his *Testimony* he names Unwin Peake as the hidden "player in the shadows" (fab-the-lysene-spring-24-p02:95)
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-09 -->
+
+- A dwarf of lowly birth, not wellborn like Tyrion; the fool at court during the events leading up to and through much of the Dance of the Dragons, and an observer. Semiliterate, he later dictated his story, giving the most scandalous account of the Dance. (fab-lineages-and-family-tree-25:249)

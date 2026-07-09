@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Joffrey Arryn — Ser Joffrey served ten years as Knight of the Bloody Gate before being named heir.
 
 ## Origins
 
@@ -40,3 +44,10 @@ By the time the new regents were chosen by lot in [136 AC](wiki:136_AC), Lord [
 ## Notes
 
 Source: Fire & Blood, "The Lysene Spring and the End of Regency." The succession dispute after Jeyne's death is a major Vale subplot in the regency era.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Ser Joffrey served ten years as Knight of the Bloody Gate before being named heir (fab-the-lysene-spring-24-p01:31)
+- Only a fourth cousin, his claim was contested by nearer kin (fab-the-lysene-spring-24-p01:33)

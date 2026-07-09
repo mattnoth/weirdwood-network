@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gedmund_Peake"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gedmund Peake is a character.human from the AWOIAF wiki.
+Gedmund Peake — Ser Gedmund Peake, Unwin's uncle known as Gedmund Great-Axe, was given command of the royal fleet despite little knowledge of ships.
 
 ## Edges
 
@@ -39,3 +39,11 @@ Gedmund Great-Axe had prowess as a warrior but little experience with [ships](wi
 > They are my fleets now, and [Baela's](wiki:Baela_Targaryen) monkey is more suited to command them than Nuncle Gedmund.(wiki:Gedmund_Peake.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 >
 > —[Alyn Velaryon](wiki:Alyn_Velaryon) after learning of Gedmund's appointment
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Ser Gedmund Peake, Unwin's uncle known as Gedmund Great-Axe, was given command of the royal fleet despite little knowledge of ships (fab-war-and-peace-and-cattle-shows-22-p01:121)
+- So seasick on the voyage that sailors named him Gedmund Green-Sick, he insisted the fleet wait at Tarth for word, parting angrily with Alyn (fab-war-and-peace-and-cattle-shows-22-p01:141)
+- He wrongly judged Alyn had fled back to Driftmark (fab-war-and-peace-and-cattle-shows-22-p01:145)

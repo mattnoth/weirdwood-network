@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Johanna_Lannister"
 bucket_id: characters-house-westerling
 prompt_version: v1-python
-node_version: 3
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -56,3 +56,19 @@ Johanna reclaimed the dwindling glory of [House Lannister](wiki:House_Lannister)
 - Widow of Casterly Rock, daughter of Roland Westerling, Johanna ruled for her son Lord Loreon and resisted Dalton Greyjoy's ironborn (fab-the-hooded-hand-21:103)
 - She appealed repeatedly to the Hand, her late husband's twin, for aid (fab-the-hooded-hand-21:267)
 - Donning a man's mail, she led the westermen to rout the raiders and save Kayce, though the songs of her slaying a dozen ironmen are dismissed (fab-the-hooded-hand-21:267)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Lady of Casterly Rock; after her victory at Kayce she assembled a ragtag fleet at Feastfires to retake Fair Isle (fab-war-and-peace-and-cattle-shows-22-p02:27)
+- She later wrote the Hand putting forward her daughters Cerelle and Tyshara as brides (fab-war-and-peace-and-cattle-shows-22-p02:101)
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Lady Johanna Lannister came out from Casterly Rock to honor Alyn with a golden seahorse when he reached a Fair Isle already freed (fab-voyage-of-alyn-oakenfist-23:103)
+- She urged an attack on the Iron Islands, offering to put every ironman to the sword and sell their families to slavers (fab-voyage-of-alyn-oakenfist-23:109)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Lady Johanna sought to put every ironman to the sword in vengeance for the westerlands (fab-the-lysene-spring-24-p01:25)
+- According to the narration she swayed the old Sea Lion, mayhaps by promising to wed him (fab-the-lysene-spring-24-p01:21)
+- She had the captive Rodrik Greyjoy gelded and made her son's fool (fab-the-lysene-spring-24-p01:27)

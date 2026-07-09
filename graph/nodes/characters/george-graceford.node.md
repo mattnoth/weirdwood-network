@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/George_Graceford"
 bucket_id: characters-house-graceford
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-George Graceford is a character.human from the AWOIAF wiki.
+George Graceford — The Lord Confessor tortured Rowan to produce the false confession, and was seized on the king's command.
 
 ## Edges
 
@@ -41,3 +41,11 @@ At the mere sight of instruments of torture, Lord Graceford revealed the conspir
 ## Appearances & Description
 
 According to [Mushroom](wiki:Mushroom), George was cruel but not clever.(wiki:George_Graceford.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- The Lord Confessor tortured Rowan to produce the false confession, and was seized on the king's command (fab-the-lysene-spring-24-p02:49)
+- Faced with the instruments, he named the other conspirators (fab-the-lysene-spring-24-p02:71)
+- Condemned to die, he chose to take the black. Mushroom says he and Lady Clarice Osgrey were lovers (fab-the-lysene-spring-24-p02:161)

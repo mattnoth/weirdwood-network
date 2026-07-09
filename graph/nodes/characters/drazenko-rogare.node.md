@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Drazenko_Rogare"
 bucket_id: characters-house-rogare
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Drazenko Rogare is a character.human from the AWOIAF wiki.
+Drazenko Rogare, a Lyseni envoy at Aliandra's court, drew Alyn aside during the Maiden's Day feast at Sunspear and whispered a secret that changed the course of history.
 
 ## Edges
 
@@ -40,3 +40,14 @@ In [135 AC](wiki:135_AC), he and his brother died within a day of one another, 
 > I feared he meant to kiss me.(wiki:Drazenko_Rogare.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 >
 > —[Alyn Velaryon](wiki:Alyn_Velaryon), about Drazenko
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Drazenko Rogare, a Lyseni envoy at Aliandra's court, drew Alyn aside during the Maiden's Day feast at Sunspear and whispered a secret that changed the course of history (fab-voyage-of-alyn-oakenfist-23:119)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Brother of Lysandro and architect of the Dornish alliance, he wed Princess Aliandra Martell and was named Prince Consort and Lord of the Stepstones (fab-the-lysene-spring-24-p01:83)
+- He died at Sunspear, choking on a piece of bacon (fab-the-lysene-spring-24-p01:169)

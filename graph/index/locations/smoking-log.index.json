@@ -3,7 +3,7 @@
   "name": "Smoking Log",
   "type": "place.location",
   "node_path": "graph/nodes/locations/smoking-log.node.md",
-  "generated_at": "2026-07-09T21:07:45.979828+00:00",
+  "generated_at": "2026-07-09T21:13:40.125310+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,

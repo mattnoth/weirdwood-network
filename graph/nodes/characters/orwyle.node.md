@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Orwyle"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -69,3 +69,9 @@ When Tyland died from the disease, the young King [Aegon III Targaryen](wiki:Aeg
 - Discovered in a brothel called Mother's under the name Old Wyl, he was arrested after teaching girls to read (fab-the-hooded-hand-21:145)
 - During the fever he worked tirelessly to save the sick (fab-the-hooded-hand-21:331)
 - Tyland, an old green-council comrade, spared him and confined him to a comfortable cell, where he wrote confessions that fed Munkun's True Telling (fab-the-hooded-hand-21:151)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- The former Grand Maester Orwyle, imprisoned awaiting execution, was drawn out by Aegon III to send ravens summoning Rowan, perhaps hoping for a royal pardon (fab-war-and-peace-and-cattle-shows-22-p01:17)
+- The regents returned him to his cell (fab-war-and-peace-and-cattle-shows-22-p01:27)
+- A convicted traitor and Night's Watch deserter, he was granted death by the sword for his age, birth, and service (fab-war-and-peace-and-cattle-shows-22-p01:103)

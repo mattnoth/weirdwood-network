@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lyonel_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -63,3 +63,8 @@ A [new High Septon](wiki:High_Septon_(Aegon_III)) eventually reversed the positi
 - Ormund's eldest son, a youth of fifteen, inherited the Hightower and first swore to write his reply in the Sea Snake's blood (fab-hour-of-the-wolf-20:159)
 - He kept her as his paramour thirteen years, fathering six children, before finally wedding her (fab-hour-of-the-wolf-20:169)
 - (Per Munkun) Munkun tells it differently: the Tyrells forbade him to go to war on pain of his brother Garmund's life (fab-hour-of-the-wolf-20:285)
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Lyonel Hightower welcomed Alyn to Oldtown and, warmed by his courtesy to Lady Sam, formed a fast friendship that eased old black-and-green enmities (fab-voyage-of-alyn-oakenfist-23:63)
+- He promised twenty warships for the fleet (fab-voyage-of-alyn-oakenfist-23:63)

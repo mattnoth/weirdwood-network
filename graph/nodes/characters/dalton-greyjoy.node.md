@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dalton_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 6
+node_version: 8
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -121,3 +121,16 @@ Historical figure from the Dance of the Dragons era. Died 133 AC at Faircastle, 
 - The Red Kraken paid little heed to the Iron Throne's edicts, continuing to raid and refusing to return women or Fair Isle (fab-the-hooded-hand-21:109)
 - He burned Johanna's shipyards and carried off a hundred more women (fab-the-hooded-hand-21:113)
 - He boasted a hundred salt wives but never a rock wife (fab-the-hooded-hand-21:213)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- The Red Kraken; his longships were waiting for the betrayed Lannister crossing to Fair Isle (fab-war-and-peace-and-cattle-shows-22-p02:27)
+- He sent the heads of the three Lannister commanders to Casterly Rock (fab-war-and-peace-and-cattle-shows-22-p02:27)
+- He called it payment for his uncle, whom he dismissed as a glutton and a drunkard (fab-war-and-peace-and-cattle-shows-22-p02:27)
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Lord Dalton Greyjoy, the Red Kraken and Lord of the Iron Islands, gathered hundreds of longships to meet Alyn and mockingly called his younger foe "that boy" (fab-voyage-of-alyn-oakenfist-23:75)
+- He held two-and-twenty salt wives and boasted he might take Baela for a salt wife (fab-voyage-of-alyn-oakenfist-23:77)
+- On the eve of his greatest battle he was slain in bed by his salt wife Tess (fab-voyage-of-alyn-oakenfist-23:87)
+- His death dissolved his fleet and left a disputed succession, the Seastone Chair falling to his salt son Toron, not yet six (fab-voyage-of-alyn-oakenfist-23:93)

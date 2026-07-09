@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Arnold_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Arnold Arryn — Jeyne's first cousin, "the Mad Heir," had twice tried to depose her and was driven mad by long imprisonment.
 
 ## Origins
 
@@ -39,3 +43,10 @@ By the time the new regents were chosen by lot in [136 AC](wiki:136_AC), Lord [
 ## Notes
 
 Source is Fire & Blood, "The Lysene Spring and the End of Regency." Arnold went mad in the sky cells; his claim was pressed by his son Eldric.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Jeyne's first cousin, "the Mad Heir," had twice tried to depose her and was driven mad by long imprisonment (fab-the-lysene-spring-24-p01:33)
+- He escaped Corbray and fled to Runestone where he had squired as a boy (fab-the-lysene-spring-24-p01:123)

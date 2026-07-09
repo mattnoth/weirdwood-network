@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Leo_Costayne"
 bucket_id: characters-house-costayne
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Leo Costayne is a character.human from the AWOIAF wiki.
+Leo Costayne — Ser Leo Costayne, "the Sea Lion," commanded the twenty Hightower galleys that joined Alyn's fleet.
 
 ## Edges
 
@@ -35,3 +35,15 @@ Ultimately, Leo was killed by [Arthur Goodbrother](wiki:Arthur_Goodbrother) in t
 ## Appearances & Description
 
 Aged in [133 AC](wiki:133_AC), Leo was a grizzled seafarer.(wiki:Leo_Costayne.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Ser Leo Costayne, "the Sea Lion," commanded the twenty Hightower galleys that joined Alyn's fleet (fab-voyage-of-alyn-oakenfist-23:69)
+- At Lannisport, Alyn left him with a third of the fleet to guard the west (fab-voyage-of-alyn-oakenfist-23:113)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The old Sea Lion landed thousands of Lannister swords on the Iron Islands (fab-the-lysene-spring-24-p01:21)
+- He was cut down on Great Wyk by Arthur Goodbrother, and most of his ships were lost (fab-the-lysene-spring-24-p01:21)

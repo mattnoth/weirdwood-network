@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gunthor_Royce"
 bucket_id: characters-house-royce
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gunthor Royce is a character.human from the AWOIAF wiki.
+Gunthor Royce — The Bronze Giant of Runestone, old and stubborn, rode out in bronze armor to confront Corbray.
 
 ## Edges
 
@@ -36,3 +36,9 @@ By the time the new regents were to be chosen by lot in [136 AC](wiki:136_AC), 
 By [134 AC](wiki:134_AC), Gunthor had become an old man. Despite his age, he was stubborn as he was fearless.(wiki:Gunthor_Royce.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 In battle, Gunthor donned the ancient bronze armor of his forebears, worn by the Lords of [Runestone](wiki:Runestone).(wiki:Gunthor_Royce.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:Gunthor_Royce.cite_ref-Rtwoiafthe_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The Bronze Giant of Runestone, old and stubborn, rode out in bronze armor to confront Corbray (fab-the-lysene-spring-24-p01:123)

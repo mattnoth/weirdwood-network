@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Russell_Stillman"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Russell Stillman is a character.human from the AWOIAF wiki.
+Russell Stillman — Ser Russell Stillman squired for Alyn, was knighted by him, later lost a leg on Alyn's fifth voyage, and wrote the vulgar life *Hard as Oak*.
 
 ## Edges
 
@@ -27,3 +27,9 @@ During [Oakenfist](wiki:Alyn_Velaryon)'s fifth [voyage](wiki:Great_voyages), Rus
 ## Appearances & Description
 
 Russell lost a leg.(wiki:Russell_Stillman.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Ser Russell Stillman squired for Alyn, was knighted by him, later lost a leg on Alyn's fifth voyage, and wrote the vulgar life *Hard as Oak* (fab-voyage-of-alyn-oakenfist-23:25)

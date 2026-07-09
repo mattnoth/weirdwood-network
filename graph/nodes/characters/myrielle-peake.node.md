@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Myrielle_Peake"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Myrielle Peake is a character.human from the AWOIAF wiki.
+Myrielle Peake — Lady; Unwin Peake's last surviving child, put forward as Aegon III's new queen.
 
 ## Edges
 
@@ -40,3 +40,12 @@ As Lord Unwin's only surviving child, it is possible that Myrielle inherited [St
 [Unwin Peake](wiki:Unwin_Peake) described his daughter as lovely and courteous. She was brown of hair and eye, with a broad, freckled face, and crooked teeth that made her shy with smiles. [Mushroom](wiki:Mushroom) writes that Myrielle was "no great beauty", but "fresh and pretty and pleasant".(wiki:Myrielle_Peake.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 Myrielle was one year older than King [Aegon III Targaryen](wiki:Aegon_III_Targaryen).(wiki:Myrielle_Peake.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Lady; Unwin Peake's last surviving child, put forward as Aegon III's new queen (fab-war-and-peace-and-cattle-shows-22-p02:85)
+- After the king's turnip remark spread, she became known throughout the realm as Lady Turnips (fab-war-and-peace-and-cattle-shows-22-p02:91)
+- Four-and-ten and a year older than the king, brown of hair and eye with a broad freckled face and crooked teeth (fab-war-and-peace-and-cattle-shows-22-p02:159)
+- Her father brought her to court early and arranged suppers with the king, who gave her one of the little queen's dolls (fab-war-and-peace-and-cattle-shows-22-p02:159)

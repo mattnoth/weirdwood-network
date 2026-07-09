@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Munkun"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 3
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -65,3 +65,24 @@ Maester [Alford](wiki:Alford) was Grand Maester in [153 AC](wiki:Years_after_Ae
 
 - Newly chosen Grand Maester, succeeding Orwyle, and named a regent (fab-the-hooded-hand-21:59)
 - He survived the Winter Fever (fab-the-hooded-hand-21:317)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Grand Maester Munkun was down in the city tending Winter Fever victims and rushed back into the Red Keep once its gates were reopened (fab-war-and-peace-and-cattle-shows-22-p01:21)
+- He supported Peake in setting aside the king's arrangements, an acquiescence he would later rue (fab-war-and-peace-and-cattle-shows-22-p01:23)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Grand Maester; he accompanied Peake to the king, wavered on the match warning of appearances, and examined Tyshara Lannister (fab-war-and-peace-and-cattle-shows-22-p02:129)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The Grand Maester declared the supper poisoned and saved the queen with a purgative (fab-the-lysene-spring-24-p01:111)
+- He determined the poison had been baked into the apple tarts (fab-the-lysene-spring-24-p01:115)
+- He named the era the "Rogare Ascendency," a term used only at Oldtown (fab-the-lysene-spring-24-p01:69)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Grand Maester Munkun made repeated appeals to the king, confirmed that the poison was the Tears of Lys, and examined Marston Waters's mortal wound (fab-the-lysene-spring-24-p02:47)
+- He summoned the lords by raven, proposed that three regents be chosen by lot, and served as both regent and Hand for the rest of the year (fab-the-lysene-spring-24-p02:115)
+- He urged the appointment of Maester Rowley as Lord Confessor (fab-the-lysene-spring-24-p02:217)

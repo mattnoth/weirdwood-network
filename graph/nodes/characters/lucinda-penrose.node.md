@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucinda_Penrose"
 bucket_id: characters-house-penrose
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lucinda Penrose is a character.human from the AWOIAF wiki.
+Lucinda Penrose — Lady Lucinda, attacked and her nose slit while hawking before the Maiden's Day Ball, admitted wanting Daenaera dead.
 
 ## Edges
 
@@ -29,3 +29,10 @@ In [133 AC](wiki:133_AC), the [Maiden's Day Ball](wiki:Maiden's_Day_Ball) was h
 After the king married Lady [Daenaera Velaryon](wiki:Daenaera_Velaryon), Lucinda became a [lady companion](wiki:Handmaid) to the new queen. After a [poisoning](wiki:Poison) attempt on the king and queen, Lucinda admitted to wanting Daenaera dead, since if her nose had not been slit, she would be queen and Daenaera would be serving her. Lucinda lamented that no man wished to marry her.(wiki:Lucinda_Penrose.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 Lucinda was deemed to have only played a minor role in the plot, and on account of her sex, Lord [Torrhen Manderly](wiki:Torrhen_Manderly) gave her a minor punishment. She was condemned to have her nose cut off, with the understanding that the punishment would be stayed if she gave herself to the [Faith](wiki:Faith_of_the_Seven), so long as she remained true to her vows.(wiki:Lucinda_Penrose.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lady Lucinda, attacked and her nose slit while hawking before the Maiden's Day Ball, admitted wanting Daenaera dead (fab-the-lysene-spring-24-p02:157)
+- She was condemned to have her nose cut off unless she gave herself to the Faith (fab-the-lysene-spring-24-p02:167)

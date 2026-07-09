@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyland_Lannister"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 8
+node_version: 9
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -109,3 +109,12 @@ A monster who hides his twisted face from [gods](wiki:Gods) and men.(wiki:Tyland
 - He died at the end, after the fever had passed, his last words a complaint of cold (fab-the-hooded-hand-21:339)
 - He claimed to have forgotten who was black or green and served the son of the queen who had tortured him (fab-the-hooded-hand-21:87)
 - He came to dominate Leowyn Corbray and gathered power as the regents met less often (fab-the-hooded-hand-21:87)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Ser Tyland Lannister, the Hand, died of the Winter Fever, the fever taking his life in two days instead of the usual four (fab-war-and-peace-and-cattle-shows-22-p01:15)
+- He was born a few heartbeats after his twin brother Jason, which denied him lordship and Casterly Rock (fab-war-and-peace-and-cattle-shows-22-p01:15)
+- As Aegon II's master of coin he moved three-quarters of the Crown's gold out of King's Landing, sowing the seeds of Rhaenyra's downfall, a stroke that cost him his eyes, ears, and health (fab-war-and-peace-and-cattle-shows-22-p01:15)
+- He had urged Aegon II to put Rhaenyra's son Aegon to death (fab-war-and-peace-and-cattle-shows-22-p01:15)
+- He never married nor fathered children and wore a veil over a disfigured face (fab-war-and-peace-and-cattle-shows-22-p01:15)
+- He served Rhaenyra's son well and faithfully as Hand (fab-war-and-peace-and-cattle-shows-22-p01:15)

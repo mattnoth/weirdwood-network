@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mervyn_Flowers"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Mervyn Flowers is a character.human from the AWOIAF wiki.
+Mervyn Flowers — Ser; the Kingsguard posted at the queen's door the night she died, and Unwin Peake's bastard brother.
 
 ## Edges
 
@@ -38,3 +38,18 @@ In [135 AC](wiki:135_AC) after the [secret siege](wiki:Secret_siege) ended, the
 Mervyn was regarded by most as a dutiful and leal man who did as he was told. A seasoned soldier, he wielded a [longsword](wiki:Longsword). Like many bastards, he was hot of blood and quick to anger, seeing slights where none had been intended.(wiki:Mervyn_Flowers.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 According to [Mushroom](wiki:Mushroom), Mervyn was fond of [wine](wiki:Wine). Mervyn did not remain chaste after being named into the white cloaks. In fact, he was known for using his rough charm on washerwomen and serving girls, and slept with them in his cell at the [White Sword Tower](wiki:White_Sword_Tower).(wiki:Mervyn_Flowers.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Ser; the Kingsguard posted at the queen's door the night she died, and Unwin Peake's bastard brother (fab-war-and-peace-and-cattle-shows-22-p02:71)
+- According to Mushroom, who drank with him, he was fond of wine and, though sworn to chastity, seldom slept alone (fab-war-and-peace-and-cattle-shows-22-p02:73)
+- Mushroom insists he would never have thrown the child himself, but might have stood aside to admit someone like Tessario the Thumb (fab-war-and-peace-and-cattle-shows-22-p02:75)
+- Bastard-born, he was reckoned a dutiful if unheroic knight (fab-war-and-peace-and-cattle-shows-22-p02:73)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Ser Mervyn Flowers, a bastard knight of the Kingsguard, was named among the conspirators by Graceford (fab-the-lysene-spring-24-p02:73)
+- When Marston Waters came for him he offered his hilt in feigned surrender, then drew a dagger and stabbed him (fab-the-lysene-spring-24-p02:79)
+- He killed a man-at-arms and two stableboys before being overwhelmed and beaten to death (fab-the-lysene-spring-24-p02:81)

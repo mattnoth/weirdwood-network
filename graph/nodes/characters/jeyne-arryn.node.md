@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Arryn"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -75,3 +75,8 @@ The great [lords](wiki:Lord) would have given us another two years of war, it wa
 <!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
 
 - Lady Jeyne, "the Maiden of the Vale," wrote from the Gates of the Moon promising aid but, with the passes snowed shut, needing House Velaryon's ships at Gulltown or coin to hire ships. (fab-rhaenyra-overthrown-18-p02:169)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The Maiden of the Vale died at Gulltown of a chill at forty, in the arms of Jessamyn Redfort (fab-the-lysene-spring-24-p01:31)
+- On her deathbed she named her cousin Ser Joffrey Arryn her heir (fab-the-lysene-spring-24-p01:31)

@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Manfryd_Mooton"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -52,3 +52,9 @@ If [he](wiki:Aegon_III_Targaryen) dies without an heir, we shall [dance](wiki:Da
 - Lord of Maidenpool, host to Daemon and Nettles, who lived in terror of Vhagar (fab-the-red-dragon-and-the-gold-17-p04:27)
 - Ordered by the queen to behead Nettles, he was so shaken he lost his voice, then took counsel and refused to condemn either guest (fab-the-red-dragon-and-the-gold-17-p04:187)
 - After the pair departed he raised King Aegon II's banners over Maidenpool (fab-the-red-dragon-and-the-gold-17-p04:213)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Lord Manfryd Mooton, a bedridden regent still recovering from the fever, asked that decisions wait for the absent regents but was overruled (fab-war-and-peace-and-cattle-shows-22-p01:21)
+- He was later sent to Braavos to treat with the Sealord and return the elephant (fab-war-and-peace-and-cattle-shows-22-p01:199)
+- He haggled peace terms while Follard and Cressey bribed the city's magnates (fab-war-and-peace-and-cattle-shows-22-p01:209)

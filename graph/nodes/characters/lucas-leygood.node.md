@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucas_Leygood"
 bucket_id: characters-house-leygood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lucas Leygood is a character.human from the AWOIAF wiki.
+Lucas Leygood — A short, savage battle at the Gate of the Gods, when men came for him, left him dead.
 
 ## Edges
 
@@ -33,3 +33,10 @@ Lucas was the son of the [head of the house](wiki:Leygood_(father_of_Lucas)) dur
 After [Lotho Rogare](wiki:Lotho_Rogare) attempted to depart [King's Landing](wiki:King's_Landing) after the [Rogare Bank](wiki:Rogare_Bank) ran dry, he was arrested by Lucas and his gold cloaks.(wiki:Lucas_Leygood.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 Lucas supported the attempted coup by Ser [Marston Waters](wiki:Marston_Waters), the [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard). Lucas and his gold cloaks of over two thousand men kept a firm grip on King's Landing. When Lord [George Graceford](wiki:George_Graceford) was questioned about this, he named Lucas a conspirator, along with six of the seven captains of the city gates. When men came for him, a short, savage battle was fought at the [Gate of the Gods](wiki:Gate_of_the_Gods), leaving nine dead, Lucas among them.(wiki:Lucas_Leygood.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- A short, savage battle at the Gate of the Gods, when men came for him, left him dead (fab-the-lysene-spring-24-p02:77)
+- Ser Lucas Leygood commanded the gold cloaks, more than two thousand strong, and was named among the plotters (fab-the-lysene-spring-24-p02:21)

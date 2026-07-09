@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Torrhen_Manderly"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -64,3 +64,10 @@ A [king](wiki:King) should have a [Hand](wiki:Hand_of_the_King) of his own choos
 
 - Ser, who led his northmen down the Hook and found Fishermonger's Square swarming with Perkin's gutter knights (fab-rhaenyra-overthrown-18-p01:91)
 - He lost a quarter of his men fighting back to the Red Keep (fab-rhaenyra-overthrown-18-p01:91)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- The lords chose Torrhen Manderly, Lord of White Harbor, as Hand for having no enemies south of the Neck (fab-the-lysene-spring-24-p02:129)
+- He never warmed to the king, calling him "that sullen boy," and was curtly dismissed on the king's nameday (fab-the-lysene-spring-24-p02:283)
+- He judged the treason trials, reformed the taxes with Isembard Arryn's help, filled the Kingsguard, and planned a royal progress (fab-the-lysene-spring-24-p02:209)
+- He left for White Harbor an enemy of the king (fab-the-lysene-spring-24-p02:209)

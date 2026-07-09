@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Samantha_Tarly"
 bucket_id: characters-house-tarly
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -67,3 +67,8 @@ Archmaester [Gyldayn](wiki:Gyldayn) describes Samantha as fierce, fiery, and bea
 
 - "Lady Sam", daughter of Donald Tarly and Jeyne Rowan, was Lord Ormund's young widow and had no intention of giving up the Hightower (fab-hour-of-the-wolf-20:163)
 - Mushroom says she yielded to Lyonel's advances and used marriage to bind him to peace (fab-hour-of-the-wolf-20:165)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Lady Samantha of Oldtown; wrote the boldest letter, putting forward her sister Sansara of House Tarly and her good-sister Bethany of House Hightower (fab-war-and-peace-and-cattle-shows-22-p02:105)
+- She suggested the king marry both, as Alysanne ruled beside Jaehaerys (fab-war-and-peace-and-cattle-shows-22-p02:105)

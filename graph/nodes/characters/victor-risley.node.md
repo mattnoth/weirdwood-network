@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Victor_Risley"
 bucket_id: characters-house-risley
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Victor Risley is a character.human from the AWOIAF wiki.
+Victor Risley — Ser Victor Risley, Knight of Risley Glade and the sole surviving Caltrop besides Unwin, was made King's Justice and personally beheaded the Pentoshi captain and false Shepherd and put Orwyle to the sword.
 
 ## Edges
 
@@ -43,3 +43,14 @@ During a plot against [House Rogare](wiki:House_Rogare) in [King's Landing](wiki
 > You always were a bloody fool, Victor.(wiki:Victor_Risley.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
 > —[Gareth Long](wiki:Gareth_Long) to Victor
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Ser Victor Risley, Knight of Risley Glade and the sole surviving Caltrop besides Unwin, was made King's Justice and personally beheaded the Pentoshi captain and false Shepherd and put Orwyle to the sword (fab-war-and-peace-and-cattle-shows-22-p01:101)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Ser Victor Risley, once the King's Justice, was named a conspirator and demanded a trial by battle to prove his innocence (fab-the-lysene-spring-24-p02:151)
+- Gareth Long killed him quickly, then turned to the throne room and asked, "Anyone else?" (fab-the-lysene-spring-24-p02:151)

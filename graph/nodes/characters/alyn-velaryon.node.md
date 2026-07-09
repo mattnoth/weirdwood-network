@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyn_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 5
+node_version: 9
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -158,3 +158,31 @@ Bold(wiki:Alyn_Velaryon.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-
 - Installed as Lord of the Tides and Master of Driftmark, he rode to King's Landing to claim Corlys's regent seat but was sent home at sixteen (fab-the-hooded-hand-21:171)
 - He wed the fugitive Baela Targaryen at Dragonstone (fab-the-hooded-hand-21:227)
 - He rewarded the reconciled claimants Daemion and Daeron with lands for ships (fab-the-hooded-hand-21:167)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Lord Alyn Velaryon, Lord of the Tides and grandson of Corlys, was young, barely a man grown, and bastard-born, yet wed to the king's half-sister Baela and master of all Velaryon wealth (fab-war-and-peace-and-cattle-shows-22-p01:175)
+- Instructed to bring the Velaryon fleets under Gedmund, he bristled but slipped his fleet away in the night and struck the Braavosi at Bloodstone, catching them feasting (fab-war-and-peace-and-cattle-shows-22-p01:149)
+- His flagship *Queen Rhaenys* rammed and sank the great dromond *Grand Defiance* (fab-war-and-peace-and-cattle-shows-22-p01:155)
+- He lost three ships, including his cousin Daeron's *True Heart*, while sinking more than thirty, taking six galleys, eighty-nine hostages, and an elephant (fab-war-and-peace-and-cattle-shows-22-p01:159)
+- He returned to King's Landing a hero with the new name Oakenfist and was made master of ships, then maneuvered into a perilous voyage against the ironmen (fab-war-and-peace-and-cattle-shows-22-p01:159)
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Lord Alyn Oakenfist, also styled Alyn Velaryon and husband of Lady Baela, led the Velaryon fleet on an epic voyage around the "arse of Westeros" toward the Sunset Sea to face the Red Kraken (fab-voyage-of-alyn-oakenfist-23:23)
+- At the Stepstones he chose to parley rather than fight, sailing under a flag into Bloodstone to treat with Racallio Ryndoon (fab-voyage-of-alyn-oakenfist-23:47)
+- At Oldtown he befriended Lyonel Hightower, gaining pledges of warships, and received the High Septon's blessing (fab-voyage-of-alyn-oakenfist-23:63)
+- He was famed for having humbled the Sealord of Braavos (fab-voyage-of-alyn-oakenfist-23:143)
+- Learning a secret from Drazenko Rogare at Sunspear, he sailed for Lys and returned bearing the lost prince Viserys, agreeing personally to a costly ransom (fab-voyage-of-alyn-oakenfist-23:205)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Lord Oakenfist refused to join House Lannister's vengeance on the ironmen (fab-the-lysene-spring-24-p01:21)
+- He tore the monstrous wyrm off his infant daughter Laena and hacked it apart (fab-the-lysene-spring-24-p01:101)
+- He commanded the Velaryon fleet against Gulltown for the Hand (fab-the-lysene-spring-24-p01:137)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lord Alyn, called Oakenfist, and Bloody Ben Blackwood forced the Vale lords to bend the knee to Joffrey Arryn (fab-the-lysene-spring-24-p02:123)
+- He put forward Isembard Arryn's name for master of coin (fab-the-lysene-spring-24-p02:133)
+- Having lost half the Velaryon wealth entrusted to Lotho Rogare, he planned the second of his six great voyages and quarreled then reconciled with Baela before sailing at midyear (fab-the-lysene-spring-24-p02:223)

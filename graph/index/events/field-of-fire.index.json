@@ -3,7 +3,7 @@
   "name": "Field of Fire",
   "type": "event.battle",
   "node_path": "graph/nodes/events/field-of-fire.node.md",
-  "generated_at": "2026-07-09T21:07:47.925332+00:00",
+  "generated_at": "2026-07-09T21:13:42.059015+00:00",
   "stats": {
     "appearances_total": 6,
     "chapters_referenced_in": 4,

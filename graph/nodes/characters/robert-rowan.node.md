@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Rowan"
 bucket_id: characters-house-rowan
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robert Rowan is a character.human from the AWOIAF wiki.
+Robert Rowan — Lord Thaddeus's eldest son led the host up the kingsroad into the Mountains of the Moon.
 
 ## Edges
 
@@ -32,3 +32,10 @@ In [132 AC](wiki:132_AC), Princess [Baela Targaryen](wiki:Baela_Targaryen) clai
 In [134 AC](wiki:134_AC), a war of succession broke out in the [Vale of Arryn](wiki:Vale_of_Arryn) after the death of Lady [Jeyne Arryn](wiki:Jeyne_Arryn), and the killing of the king's [regent](wiki:Regent), Ser [Corwyn Corbray](wiki:Corwyn_Corbray), at [Runestone](wiki:Runestone). As the son of the [Hand of the King](wiki:Hand_of_the_King), Robert was given command of an army of five thousand men. They set out on the [kingsroad](wiki:Kingsroad) to the [Bloody Gate](wiki:Bloody_Gate) to restore the [King's Peace](wiki:King's_Peace), as it was thought that the [Mountains of the Moon](wiki:Mountains_of_the_Moon) would be passable with the coming of spring. Levies from [Maidenpool](wiki:Maidenpool), [Darry](wiki:Darry), and [Hayford](wiki:Hayford) joined them on the march, and six hundred [Freys](wiki:House_Frey) and a thousand [Blackwoods](wiki:House_Blackwood) joined them at the [Trident](wiki:Trident), making them nine thousand strong entering the mountains. A naval attack was also launched at the command of Ser [Gedmund Peake](wiki:Gedmund_Peake).(wiki:Robert_Rowan.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
 The [high road](wiki:High_road) proved far less open than had been assumed. Robert's host found itself struggling through deep snows in the mountain passes, slowing their advance to a crawl, and the baggage train was often attacked by [mountain clans](wiki:Vale_mountain_clans). Once, whilst looking for shelter, they roused the [dragon](wiki:Dragon) [Sheepstealer](wiki:Sheepstealer) and saw [Nettles](wiki:Nettles). Robert was crushed by a falling boulder when the clansmen toppled half a mountainside down upon the [column](wiki:Column). Lord [Benjicot Blackwood](wiki:Benjicot_Blackwood) took charge of his host, and a third of the men had died by the time they reached the Bloody Gate.(wiki:Robert_Rowan.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Lord Thaddeus's eldest son led the host up the kingsroad into the Mountains of the Moon (fab-the-lysene-spring-24-p01:131)
+- He was crushed by a falling boulder toppled by the clansmen (fab-the-lysene-spring-24-p01:163)

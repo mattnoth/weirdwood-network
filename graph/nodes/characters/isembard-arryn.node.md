@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Isembard_Arryn"
 bucket_id: characters-house-arryn-of-gulltown
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Isembard Arryn is a character.human from the AWOIAF wiki.
+Isembard Arryn — Patriarch of the rich Gulltown Arryns, known as the Gilded Falcon, he pressed a claim with gold.
 
 ## Edges
 
@@ -36,3 +36,14 @@ By the time new regents were to be chosen by lot in [136 AC](wiki:136_AC), Alyn
 ## Appearances & Description
 
 Isembard was known as the Gilded Falcon due to his wealth, as men used to jape that the falcon on his arms was made of [gold](wiki:Gold).(wiki:Isembard_Arryn.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Patriarch of the rich Gulltown Arryns, known as the Gilded Falcon, he pressed a claim with gold (fab-the-lysene-spring-24-p01:39)
+- He bribed lesser lords and brought sellswords across the sea (fab-the-lysene-spring-24-p01:39)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- The Gilded Falcon of the Vale, forced to bend the knee to Joffrey Arryn, was put forward by Oakenfist and made master of coin, helping Manderly reform the taxes (fab-the-lysene-spring-24-p02:133)

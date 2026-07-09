@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Benjicot_Blackwood"
 bucket_id: characters-house-blackwood
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -76,3 +76,8 @@ Benjicot was tall and slim, with a shy and sensitive manner. When armored for ba
 - "Bloody Ben", Lord of Raventree, was only thirteen, lordship having fallen to him when his father Samwell was slain at the Burning Mill (fab-hour-of-the-wolf-20:41)
 - He commanded the center at Second Tumbleton and led the flank attack that broke Lord Baratheon's stormlanders at the Muddy Mess (fab-hour-of-the-wolf-20:41)
 - With the brothers Tully he was one of "the Lads", and shrank in Cregan Stark's presence (fab-hour-of-the-wolf-20:45)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- "Bloody Ben" led a thousand Blackwoods and had much experience of war despite his youth (fab-the-lysene-spring-24-p01:163)
+- He assumed command of the host after Robert Rowan's death (fab-the-lysene-spring-24-p01:163)

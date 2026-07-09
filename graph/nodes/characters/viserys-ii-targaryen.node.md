@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Viserys_II_Targaryen"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -80,3 +80,25 @@ Viserys was frailer than his brother Aegon in his youth, but was more mature tha
 > Viserys might have only reigned a year, but he ruled for fifteen, while [Daeron](wiki:Daeron_I) [warred](wiki:Conquest_of_Dorne) and [Baelor](wiki:Baelor_I) prayed.(wiki:Viserys_II_Targaryen.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Oberyn Martell](wiki:Oberyn_Martell)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Prince Viserys, youngest son of Queen Rhaenyra and Prince Daemon, was taken from the Gay Abandon before the Battle of the Gullet and presumed dead for nearly five years (fab-voyage-of-alyn-oakenfist-23:163)
+- He was held captive first by Sharako Lohar, then sold to Bambarro Bazanne, and finally passed to Lysandro Rogare (fab-voyage-of-alyn-oakenfist-23:173)
+- Lysandro married him to his youngest daughter Larra, whose marriage Viserys had already consummated (fab-voyage-of-alyn-oakenfist-23:177)
+- He was seven when taken and twelve on his return in 134 AC, and became the undisputed heir apparent (fab-voyage-of-alyn-oakenfist-23:187)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The king's clever, gallant brother, a boy of thirteen who the court doted upon (fab-the-lysene-spring-24-p01:47)
+- He announced Larra was with child and later fathered a son by her (fab-the-lysene-spring-24-p01:15)
+- He kept his own dragon's egg through exile and captivity and refused to speak to the king for a moon after being forced to yield it (fab-the-lysene-spring-24-p01:103)
+- He barred the drawbridge of Maegor's Holdfast with a battleaxe to defend his wife (fab-the-lysene-spring-24-p01:217)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- He supported Munkun's proposal to choose regents by lot, and shut down calls to restore Unwin Peake as Hand (fab-the-lysene-spring-24-p02:129)
+- He attended the trials throughout, often with his wife (fab-the-lysene-spring-24-p02:143)
+- It fell to Prince Viserys to answer the confession, and by mock-questions he exposed it as false, drawing Rowan into confessing that Gaemon and Viserys himself were among the guilty (fab-the-lysene-spring-24-p02:59)

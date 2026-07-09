@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Larra_Rogare"
 bucket_id: characters-house-rogare
 prompt_version: v1-python
-node_version: 1
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Larra Rogare is a character.human from the AWOIAF wiki.
+Larra Rogare, youngest daughter of Lysandro, was married to Prince Viserys and became known as Larra of Lys.
 
 ## Edges
 
@@ -89,3 +89,23 @@ According to [Mushroom](wiki:Mushroom), Larra liked to hear the music played by 
 > The [Lyseni](wiki:Lyseni) and their queer foreign [gods](wiki:Gods) had no place in the [Seven Kingdoms](wiki:Seven_Kingdoms). It was always intended that Lady Larra should die together with her brothers, so [Viserys](wiki:Viserys_II_Targaryen) would be free to take a proper [Westerosi](wiki:Westeros) queen.(wiki:Larra_Rogare.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16)
 >
 > —[Bernard](wiki:Bernard), as paraphrased by [Gyldayn](wiki:Gyldayn)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Larra Rogare, youngest daughter of Lysandro, was married to Prince Viserys and became known as Larra of Lys (fab-voyage-of-alyn-oakenfist-23:179)
+- At nineteen she was seven years her husband's senior, a beautiful young woman well into her childbearing years (fab-voyage-of-alyn-oakenfist-23:187)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Prince Viserys's Lysene wife, who remained a lady of Lys in her heart and would not learn the Common Tongue (fab-the-lysene-spring-24-p01:49)
+- She kept her own Lysene gods and rites (fab-the-lysene-spring-24-p01:51)
+- Dark rumors held that she could turn into a cat and visited brothels as a man; according to the whispers her worship fed such tales (fab-the-lysene-spring-24-p01:53)
+- She gave birth to Viserys's firstborn son at the age of twenty (fab-the-lysene-spring-24-p01:91)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lady Larra, wife of Prince Viserys, was named a conspirator in Rowan's false confession (fab-the-lysene-spring-24-p02:57)
+- During the trials her belly was swelling with a second child (fab-the-lysene-spring-24-p02:143)
+- She wept when Lord Torrhen handed down his verdict on her brothers, and later bore Viserys a second son and disciplined her elder son (fab-the-lysene-spring-24-p02:209)

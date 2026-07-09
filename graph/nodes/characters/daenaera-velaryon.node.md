@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daenaera_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -82,3 +82,17 @@ She had a sunny nature,(wiki:Daenaera_Velaryon.cite_ref-Rfabunder_the_regents_-_
 > The sound of the queen's laughter was like music to this [fool](wiki:Fool), so sweet that even [the king](wiki:Aegon_III_Targaryen) was known to smile.(wiki:Daenaera_Velaryon.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >
 > —[Mushroom](wiki:Mushroom)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- An orphan of six, daughter of the late Daeron Velaryon and Hazel of House Harte, ward of Lady Baela and Alyn the Oakenfist (fab-war-and-peace-and-cattle-shows-22-p02:171)
+- Her mother was carried off by the Winter Fever and her father died when his *True Heart* went down in the Stepstones (fab-war-and-peace-and-cattle-shows-22-p02:173)
+- The blood of Old Valyria was strong in her, silver hair laced with gold and eyes blue as a summer sea (fab-war-and-peace-and-cattle-shows-22-p02:173)
+- Presented at the ball by the twins, she was chosen by the king as his bride (fab-war-and-peace-and-cattle-shows-22-p02:179)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- The king's little queen was poisoned alongside Gaemon but saved by Munkun's purgative (fab-the-lysene-spring-24-p01:111)
+- She was so delighted by Morning that she wished for a dragon of her own (fab-the-lysene-spring-24-p01:87)

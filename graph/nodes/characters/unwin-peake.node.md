@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Unwin_Peake"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 3
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -74,3 +74,33 @@ Unwin was proud, brusque, hard, ambitious, and cunning. Like his [lord father](w
 - He argued that Hard Hugh must die before Ulf White. (fab-rhaenyra-overthrown-18-p02:33)
 - He brought warrants for the executions to Prince Daeron. (fab-rhaenyra-overthrown-18-p02:39)
 - After the battle he offered a thousand golden dragons to any knight of noble birth who could claim Silverwing, then ordered a retreat. (fab-rhaenyra-overthrown-18-p02:149)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Lord Unwin Peake, a regent, set aside all the king's appointments and combined the offices of Hand and Protector of the Realm in himself, ruling the Seven Kingdoms in all but name for near two years (fab-war-and-peace-and-cattle-shows-22-p01:29)
+- Like his father, who sided with the majority at the Great Council of 101, he did not believe a woman should rule; during the Dance he led a thousand swords for Aegon II as one of the fiercest greens (fab-war-and-peace-and-cattle-shows-22-p01:47)
+- Denied Ormund Hightower's command at Tumbleton, he stabbed the turncloak Owain Bourney and plotted the murders of Hugh Hammer and Ulf White, being foremost of the Caltrops (fab-war-and-peace-and-cattle-shows-22-p01:49)
+- He packed the court with his kin — his nephew Amaury and bastard brother Mervyn to the Kingsguard, his aunt Clarice over the queen's household, his uncle Gedmund over the fleet — and kept ten sellsword "Fingers" under Tessario (fab-war-and-peace-and-cattle-shows-22-p01:57)
+- He wielded the Valyrian steel sword OrphanMaker and decreed the mass punishments of the Feast of Our Father Above (fab-war-and-peace-and-cattle-shows-22-p01:91)
+- He set a trap for Alyn Velaryon by sending him against the ironmen (fab-war-and-peace-and-cattle-shows-22-p01:191)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->
+
+- Lord Regent, Lord of Starpike, Lord of Dunstonbury, Lord of Whitegrove, Protector of the Realm, and Hand of the King (fab-war-and-peace-and-cattle-shows-22-p02:61)
+- Gyldayn names him the only plausible culprit had Jaehaera been murdered, though there is no proof (fab-war-and-peace-and-cattle-shows-22-p02:61)
+- He would not allow a woman to ascend the Iron Throne, having fought to prevent it (fab-war-and-peace-and-cattle-shows-22-p02:63)
+- He married thrice and sired seven children, of whom only Myrielle survived (fab-war-and-peace-and-cattle-shows-22-p02:83)
+- He put his daughter Myrielle forward as the king's new queen and, when opposed, staged a Maiden's Day ball to secure the match (fab-war-and-peace-and-cattle-shows-22-p02:87)
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Lord Unwin Peake, King's Hand, was sour, proud, and by 134 AC a most unhappy man after the king rejected his daughter Myrielle in favor of Daenaera (fab-voyage-of-alyn-oakenfist-23:133)
+- He mistrusted Baela and Rhaena and the "insolent and rebellious Oakenfist," believing the twins conspired against him (fab-voyage-of-alyn-oakenfist-23:133)
+- Overruled repeatedly by the other regents and furious at the ransom Alyn had pledged, he threatened to resign and the council accepted at once (fab-voyage-of-alyn-oakenfist-23:213)
+- He withdrew to Starpike, though his many appointees kept their offices (fab-voyage-of-alyn-oakenfist-23:217)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Once Hand and Lord of Starpike, Dunstonbury, and Whitegrove, Peake is named by Mushroom as the hidden master of the plot (fab-the-lysene-spring-24-p02:97)
+- Several traitors had blood ties to him or owed him their places, and he had once planned to murder two dragonriders under the sign of the Bloody Caltrops, but he was at Starpike during the siege and his involvement stayed unproven (fab-the-lysene-spring-24-p02:103)
+- He brought the largest retinue to the gathering (fab-the-lysene-spring-24-p02:123)

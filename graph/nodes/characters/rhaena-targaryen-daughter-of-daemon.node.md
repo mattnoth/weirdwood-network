@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Daemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -85,3 +85,9 @@ Lady Rhaena would make a splendid queen.(wiki:Rhaena_Targaryen_(daughter_of_Daem
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
 
 - Rhaena of Pentos, thirteen, was sent to the Vale with Joffrey; a landless dragonrider, she carried three eggs and prayed for their hatching (fab-the-red-dragon-and-the-gold-17-p01:177)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Lady Rhaena, wife of Ser Corwyn Corbray and twin of Lady Baela, first flew her dragon Morning at nineteen (fab-the-lysene-spring-24-p01:85)
+- She carried Morning to Dragonstone, saying dragons were more welcome there (fab-the-lysene-spring-24-p01:87)
+- After her husband's death her twin came to guard against her seeking vengeance (fab-the-lysene-spring-24-p01:137)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Bambarro_Bazanne"
 bucket_id: characters-other-a-b
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Bambarro Bazanne is a character.human from the AWOIAF wiki.
+Bambarro Bazanne was a Lyseni magister who bought the captive Viserys from Sharako Lohar for the boy's weight in gold.
 
 ## Edges
 
@@ -30,3 +30,11 @@ After [Sharako Lohar](wiki:Sharako_Lohar) captured Prince Viserys after the [Bat
 Magister Bambarro forbade Viserys from leaving his [manse](wiki:Manse), though he gave the prince his own suite, had the prince sup with him and his family, and had a tutor instruct him in many skills. It is believed that Bambarro's intent was to wait out the [Dance of the Dragons](wiki:Dance_of_the_Dragons) and either ransom him to his mother [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) or sell his head to his uncle, King [Aegon II Targaryen](wiki:Aegon_II_Targaryen), depending who emerged as the victor.(wiki:Bambarro_Bazanne.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 As Lys suffered defeats as the [Daughters' War](wiki:Daughters'_War) ensued, Bambarro died in [132 AC](wiki:132_AC) when the [sellsword](wiki:Sellsword) company he led against [Tyrosh](wiki:Tyrosh) turned against him over a matter of back pay. Upon his death, it was discovered he was enormously in debt. His creditors seized his manse, sold his wife and children into [slavery](wiki:Slavery), and all his possessions (including Prince Viserys) passed to [Lysandro Rogare](wiki:Lysandro_Rogare).(wiki:Bambarro_Bazanne.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->
+
+- Bambarro Bazanne was a Lyseni magister who bought the captive Viserys from Sharako Lohar for the boy's weight in gold (fab-voyage-of-alyn-oakenfist-23:167)
+- He kept the prince well but confined, meaning to ransom or sell him after the Dance (fab-voyage-of-alyn-oakenfist-23:171)
+- He died in the Disputed Lands in 132 AC when his sellsword company turned on him, and his creditors seized his household including the prince (fab-voyage-of-alyn-oakenfist-23:173)

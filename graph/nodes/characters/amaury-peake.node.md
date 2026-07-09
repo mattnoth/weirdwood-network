@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Amaury_Peake"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Amaury Peake is a character.human from the AWOIAF wiki.
+Amaury Peake — Ser Amaury came to Maegor's Holdfast to seize Larra for questioning.
 
 ## Edges
 
@@ -35,3 +35,10 @@ In [135 AC](wiki:135_AC) Amaury and a dozen men-at-arms were ordered to [seize]
 > He was clad in white scale armor under his white cloak, but his helm was openface and he had not brought a shield, and sorely did [Sandoq](wiki:Sandoq_the_Shadow) make him answer for these lacks.(wiki:Amaury_Peake.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
 > —writings of [Mushroom](wiki:Mushroom)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Ser Amaury came to Maegor's Holdfast to seize Larra for questioning (fab-the-lysene-spring-24-p01:219)
+- Refusing to be balked by two boys, he was slain by Sandoq at the drawbridge (fab-the-lysene-spring-24-p01:259)

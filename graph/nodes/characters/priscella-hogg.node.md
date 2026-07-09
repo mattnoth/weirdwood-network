@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Priscella_Hogg"
 bucket_id: characters-house-hogg
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Priscella Hogg is a character.human from the AWOIAF wiki.
+Priscella Hogg — Lady Priscella, a simple girl of fourteen, believed Prince Viserys would marry her if Larra of Lys were dead.
 
 ## Edges
 
@@ -30,3 +30,9 @@ Priscella was deemed to have only played a minor role in the plot, and on accoun
 ## Appearances & Description
 
 Priscella was a sad and somewhat [simple](wiki:Lackwit) girl, stout, short, and plain of face.(wiki:Priscella_Hogg.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Lady Priscella, a simple girl of fourteen, believed Prince Viserys would marry her if Larra of Lys were dead (fab-the-lysene-spring-24-p02:157)

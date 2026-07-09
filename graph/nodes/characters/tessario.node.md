@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tessario"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tessario is a character.human from the AWOIAF wiki.
+Tessario, a Volantene adventurer with tiger stripes tattooed across his face and back, captained Unwin's Fingers.
 
 ## Edges
 
@@ -34,3 +34,17 @@ Tessario was banned from the [Mermaid](wiki:Mermaid_(pillow_house)) by [Roggerio
 ## Appearances & Description
 
 Tessario had tiger stripes tattooed across his face and back, implying he once served as a [tiger cloak](wiki:Tiger_cloaks) in the free city of [Volantis](wiki:Volantis). He was foul mouthed, brash and quick tempered.(wiki:Tessario.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-09 -->
+
+- Tessario, a Volantene adventurer with tiger stripes tattooed across his face and back, captained Unwin's Fingers (fab-war-and-peace-and-cattle-shows-22-p01:57)
+- Called Tessario the Tiger to his face, he was named Tessario the Thumb behind his back by Mushroom (fab-war-and-peace-and-cattle-shows-22-p01:57)
+- He slew Ser Robin Massey in a quarrel over a horse (fab-war-and-peace-and-cattle-shows-22-p01:73)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Tessario the Thumb, a Volantene, was the frankest of the plotters, having acted for gold, girls, and vengeance after Roggerio banned him from the Mermaid (fab-the-lysene-spring-24-p02:89)
+- Fleeing, he was taken in a dockside tavern near the River Gate (fab-the-lysene-spring-24-p02:77)
+- Under torture he named Marston Waters, then Graceford, then Flowers, dying before a fourth name (fab-the-lysene-spring-24-p02:91)

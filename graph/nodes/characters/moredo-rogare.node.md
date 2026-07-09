@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Moredo_Rogare"
 bucket_id: characters-house-rogare
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Moredo Rogare is a character.human from the AWOIAF wiki.
+Moredo Rogare — Larra's brother commanded her guards and bore a Valyrian steel longsword called Truth.
 
 ## Edges
 
@@ -37,3 +37,17 @@ In [138 AC](wiki:Years_after_Aegon's_Conquest), Moredo interred the bones of hi
 ## Appearances & Description
 
 Moredo was a tall and stern man with white-blond hair and blazing blue eyes. A soldier, he carried the [Valyrian steel](wiki:Valyrian_steel) [longsword](wiki:Longsword) [Truth](wiki:Truth_(sword)). Unlike his younger brothers, [Roggerio](wiki:Roggerio_Rogare) and [Lotho](wiki:Lotho_Rogare), he was not fluent in the [Common Tongue](wiki:Common_Tongue).(wiki:Moredo_Rogare.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->
+
+- Larra's brother commanded her guards and bore a Valyrian steel longsword called Truth (fab-the-lysene-spring-24-p01:143)
+- Given command of the Vale army despite poor Common Tongue, his appointment was deeply unpopular (fab-the-lysene-spring-24-p01:145)
+- When his translator was slain in Gulltown he could not command his troops (fab-the-lysene-spring-24-p01:149)
+- He later yielded his command and took ship for Braavos (fab-the-lysene-spring-24-p01:203)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
+
+- Eldest of the three brothers who came with Larra, Moredo was in Braavos during the trials, treating with the Iron Bank's keyholders (fab-the-lysene-spring-24-p02:203)
+- He would sail for Tyrosh to hire ships and swords for an attack on Lys, and years later pulled down Lysaro's bones for burial (fab-the-lysene-spring-24-p02:203)
