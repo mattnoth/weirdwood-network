@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Oakheart"
 bucket_id: characters-house-oakheart
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alys Oakheart is a character.human from the AWOIAF wiki.
+Alys Oakheart, daughter of the Lord of Old Oak, was forced to watch her husband's gelding, then raped and sold to a Myrish slaver.
 
 ## Edges
 
@@ -26,3 +26,9 @@ Alys Oakheart is a character.human from the AWOIAF wiki.
 ## Origins
 
 The daughter of Lord Oakheart, Alys married Ser [Jon Cafferen](wiki:Jon_Cafferen), heir to [Fawnton](wiki:Fawnton) in [12 AC](wiki:12_AC). During the [wedding](wiki:Wedding), Lord [Wyl of Wyl](wiki:Wyl_of_Wyl) turned up uninvited and was admitted through the postern gate by a treacherous servant. Lord Oakheart and most of the guests were slain, and Alys was forced to watch as her husband was [gelded](wiki:Eunuch). Afterwards, she and her [handmaids](wiki:Handmaid) were gang-raped by Wyl's men and then sold off to a [Myrish](wiki:Myr) slaver. This was the most infamous act of the [First Dornish War](wiki:First_Dornish_War).(wiki:Alys_Oakheart.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Alys Oakheart, daughter of the Lord of Old Oak, was forced to watch her husband's gelding, then raped and sold to a Myrish slaver (fab-reign-of-the-dragon-04:131)

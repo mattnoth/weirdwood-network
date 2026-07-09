@@ -261,6 +261,18 @@
       "quote": "Garth the Harelip was dragged before him and beheaded",
       "tier": "tier-1",
       "note": "Fire & Blood event: Garth the Harelip VICTIM_IN Beheading of Garth the Harelip"
+    },
+    {
+      "id": "DISP1",
+      "type": "PARENT_OF",
+      "source": "helaena-targaryen",
+      "target": "maelor-targaryen",
+      "book": "fab",
+      "chapter": "fab-rhaenyra-overthrown-18-p01",
+      "quote": "the death of her son Maelor",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Helaena Targaryen PARENT_OF Maelor Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }

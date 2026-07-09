@@ -505,6 +505,18 @@
       "quote": "The trap was neatly set",
       "tier": "tier-1",
       "note": "Fire & Blood event: Alyn Velaryon PARTICIPATES_IN Alyn dispatched against the ironmen"
+    },
+    {
+      "id": "DISP1",
+      "type": "SUCCEEDS",
+      "source": "aegon-iii-targaryen",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "after the death of Aegon Il, he had remained to serve Aegon Ill",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon III Targaryen SUCCEEDS Aegon II Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }

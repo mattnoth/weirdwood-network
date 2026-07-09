@@ -109,7 +109,7 @@
   },
   {
     "slug": "lotho-rogare",
-    "fab_section_md": "- He was arrested by the gold cloaks as he tried to leave King's Landing (fab-the-lysene-spring-24-p01:203)",
+    "fab_section_md": "- He was arrested by the gold cloaks as he tried to leave King's Landing (fab-the-lysene-spring-24-p01:203)\n- He established a branch of the Rogare Bank atop Visenya's Hill (fab-the-lysene-spring-24-p01:59)",
     "run_id": "fab-the-lysene-spring-24-p01-2026-07-09"
   },
   {
@@ -132,7 +132,7 @@
   },
   {
     "slug": "amaury-peake",
-    "fab_section_md": "- Ser Amaury came to Maegor's Holdfast to seize Larra for questioning (fab-the-lysene-spring-24-p01:219)",
+    "fab_section_md": "- Ser Amaury came to Maegor's Holdfast to seize Larra for questioning (fab-the-lysene-spring-24-p01:219)\n- Refusing to be balked by two boys, he was slain by Sandoq at the drawbridge (fab-the-lysene-spring-24-p01:259)",
     "run_id": "fab-the-lysene-spring-24-p01-2026-07-09",
     "identity_line": "Amaury Peake — Ser Amaury came to Maegor's Holdfast to seize Larra for questioning."
   },
@@ -177,5 +177,10 @@
     "fab_section_md": "- The boy upon the Seastone Chair, seized by the Red Kraken's sisters, who put his mother to death (fab-the-lysene-spring-24-p01:19)\n- He held the Chair when his defenders beat off the Lannister assault on Pyke (fab-the-lysene-spring-24-p01:27)",
     "run_id": "fab-the-lysene-spring-24-p01-2026-07-09",
     "identity_line": "Toron Greyjoy — The boy upon the Seastone Chair, seized by the Red Kraken's sisters, who put his mother to death."
+  },
+  {
+    "slug": "roggerio-rogare",
+    "fab_section_md": "- The youngest brother opened the opulent Mermaid pillow house by the River Gate (fab-the-lysene-spring-24-p01:59)\n- He was marched at spearpoint through a jeering crowd when the Rogares fell (fab-the-lysene-spring-24-p01:205)",
+    "run_id": "fab-the-lysene-spring-24-p01-2026-07-09"
   }
 ]

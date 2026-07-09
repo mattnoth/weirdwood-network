@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Aenys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -51,3 +51,10 @@ Aegon at fifteen was lean and handsome, he caught the eye of many a [maiden](wik
 - PARENT_OF: Rhaella Targaryen (cite: track_b: Issue)
 - CULTURE_OF: Valyrian (cite: track_b: Race)
 - DIED_AT: Gods Eye (cite: track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Jaehaerys's older brother, who claimed the kingship before him and died at the Battle Beneath the Gods Eye trying to unseat Maegor (fab-prince-into-king-06:23)
+- Before dying he wed his sister Rhaena and sired the twins Aerea and Rhaella (fab-prince-into-king-06:23)

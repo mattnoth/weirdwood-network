@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Wat_the_Hewer"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Wat the Hewer is a character.human from the AWOIAF wiki.
+Wat the Hewer, a gigantic axeman, led nine thousand Poor Fellows caught crossing the Mander and cut to pieces at Stonebridge.
 
 ## Edges
 
@@ -30,3 +30,10 @@ Maegor cut off Wat's limbs with his own axe, then commanded his [maesters](wiki:
 ## Appearances & Description
 
 Wat was described as a giant on account of his large size and prowess. He fought with an axe.(wiki:Wat_the_Hewer.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Wat the Hewer, a gigantic axeman, led nine thousand Poor Fellows caught crossing the Mander and cut to pieces at Stonebridge (fab-sons-of-the-dragon-05-p02:125)
+- Taken alive after slaying Lord Meadows and others, Maegor took off his limbs with his own axe but kept him alive to witness the royal wedding (fab-sons-of-the-dragon-05-p02:153)

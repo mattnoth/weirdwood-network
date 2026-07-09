@@ -7,7 +7,7 @@
   },
   {
     "slug": "aegon-iii-targaryen",
-    "fab_section_md": "- Though he lived, all joy left him and he blamed himself for abandoning his little brother Viserys (fab-the-red-dragon-and-the-gold-17-p02:49)",
+    "fab_section_md": "- Though he lived, all joy left him and he blamed himself for abandoning his little brother Viserys (fab-the-red-dragon-and-the-gold-17-p02:49)\n- Rhaenyra's son, only nine, was aboard the captured cog Gay Abandon and escaped by leaping onto his dragon Stormcloud, reaching Dragonstone white with terror (fab-the-red-dragon-and-the-gold-17-p02:21)\n- He had never flown before and would never fly again, for Stormcloud died of its wounds (fab-the-red-dragon-and-the-gold-17-p02:21)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09",
     "identity_line": "Aegon the Younger — Though he lived, all joy left him and he blamed himself for abandoning his little brother Viserys."
   },
@@ -72,7 +72,7 @@
   },
   {
     "slug": "alys-rivers",
-    "fab_section_md": "- Mushroom says she used love potions on Aemond and Criston, Munkun credits Aemond's respect for the older man, and Septon Eustace says Aemond alone was besotted with her (fab-the-red-dragon-and-the-gold-17-p02:227)",
+    "fab_section_md": "- Mushroom says she used love potions on Aemond and Criston, Munkun credits Aemond's respect for the older man, and Septon Eustace says Aemond alone was besotted with her (fab-the-red-dragon-and-the-gold-17-p02:227)\n- The wet nurse of Harrenhal was the only bastard spared in the slaughter of House Strong, taken to Aemond's bed as a prize of war (fab-the-red-dragon-and-the-gold-17-p02:185)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09",
     "identity_line": "Alys Rivers — Mushroom says she used love potions on Aemond and Criston, Munkun credits Aemond's respect for the older man, and Septon Eustace says Aemond alone was besotted with her."
   },
@@ -96,7 +96,7 @@
   },
   {
     "slug": "adrian-tarbeck",
-    "fab_section_md": "- Took command of the western host and slew Tristan Vance by swimming the Red Fork to take his lines from the rear (fab-the-red-dragon-and-the-gold-17-p02:93)",
+    "fab_section_md": "- Took command of the western host and slew Tristan Vance by swimming the Red Fork to take his lines from the rear (fab-the-red-dragon-and-the-gold-17-p02:93)\n- He was himself slain by the hedge knight Harry Penny at Acorn Hall (fab-the-red-dragon-and-the-gold-17-p02:159)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09",
     "identity_line": "Adrian Tarbeck — Took command of the western host and slew Tristan Vance by swimming the Red Fork to take his lines from the rear."
   },
@@ -117,5 +117,20 @@
     "fab_section_md": "- Grand Maester who urged Aemond to seek Baratheon aid, then was seized by gold cloaks and taken to the black cells when he tried to summon Alicent's loyal lords (fab-the-red-dragon-and-the-gold-17-p02:125)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09",
     "identity_line": "Orwyle — Grand Maester who urged Aemond to seek Baratheon aid, then was seized by gold cloaks and taken to the black cells when he tried to summon Alicent's loyal lords."
+  },
+  {
+    "slug": "hugh-hammer",
+    "fab_section_md": "- A dragonrider who flew Vermithor and lived to boast of it, the blacksmith's son who called himself Hugh Hammer (fab-the-red-dragon-and-the-gold-17-p02:51)\n- He declared they were knights now (fab-the-red-dragon-and-the-gold-17-p02:51)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09"
+  },
+  {
+    "slug": "ulf-white",
+    "fab_section_md": "- A dragonrider who flew Silverwing at the Gullet; later \"Ulf the Sot\" and \"Ulf White\" (fab-the-red-dragon-and-the-gold-17-p02:51)\n- He answered Hugh that they should be lords (fab-the-red-dragon-and-the-gold-17-p02:51)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09"
+  },
+  {
+    "slug": "larys-strong",
+    "fab_section_md": "- The Clubfoot, Lord of Harrenhal and Aegon II's master of whisperers, was the only one of Alicent's party absent when King's Landing fell (fab-the-red-dragon-and-the-gold-17-p02:135)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09"
   }
 ]

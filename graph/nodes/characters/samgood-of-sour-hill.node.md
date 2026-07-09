@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Samgood_of_Sour_Hill"
 bucket_id: characters-other-r-s
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Samgood of Sour Hill is a character.human from the AWOIAF wiki.
+Samgood of Sour Hill, called Sour Sam, was a scarred one-eyed hedge knight of sixty-three, the eldest champion, who fought with the quickness of a younger man.
 
 ## Edges
 
@@ -35,3 +35,10 @@ In [59 AC](wiki:59_AC) when the winter [disease](wiki:Disease) known as the [Sh
 ## Appearances & Description
 
 When he became a Kingsguard in [49 AC](wiki:49_AC), Samgood was a grizzled man of sixty-three. He was one-eyed, bald and nearly toothless with a gaunt frame.(wiki:Samgood_of_Sour_Hill.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Samgood of Sour Hill, called Sour Sam, was a scarred one-eyed hedge knight of sixty-three, the eldest champion, who fought with the quickness of a younger man (fab-year-of-the-three-brides-07:133)
+- At Dragonstone he answered Rogar that the Kingsguard served the king, not the Hand (fab-year-of-the-three-brides-07:243)

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dick_Bean
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Dick Bean, a simple man-at-arms and no knight, was the first to stand beside Maegor at the Trial and the first to die.
 
 ## Origins
 
@@ -37,3 +41,10 @@ When King [Maegor](wiki:Maegor_I_Targaryen) was challenged to a [trial of seven]
 - SWORN_TO: House Targaryen (cite: track_b_row.relationships.Allegiance)
 - CULTURE_OF: Crownlands (cite: track_b_row.relationships.Culture)
 - DIED_AT: King's Landing, 42 AC (cite: track_b_row.relationships.Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Dick Bean, a simple man-at-arms and no knight, was the first to stand beside Maegor at the Trial and the first to die (fab-sons-of-the-dragon-05-p02:103)
+- He declared he meant to die a king's man (fab-sons-of-the-dragon-05-p02:105)

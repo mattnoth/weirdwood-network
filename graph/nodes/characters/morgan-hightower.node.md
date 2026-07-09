@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Morgan_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Morgan Hightower is a character.human from the AWOIAF wiki.
+Morgan Hightower — Ser Morgan Hightower, younger brother of Lord Martyn, led two hundred Warrior's Sons to defend the Starry Sept and was among those suspected of the High Septon's death.
 
 ## Edges
 
@@ -34,3 +34,9 @@ When King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) and his army approached 
 Morgan and his sworn brothers were arrested under orders of Lord Martyn and put on trial by Maegor the Cruel. Morgan was the only one pardoned,(wiki:Morgan_Hightower.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) while the rest were given the choice between death or [taking the black](wiki:Night's_Watch). Morgan's pardon led to the suspicion that he had murdered the High Septon at the behest of his lordly brother, as the knight was seen entering and leaving the privy chambers of His High Holiness that night.(wiki:Morgan_Hightower.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)(wiki:Morgan_Hightower.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) [Patrice Hightower](wiki:Patrice_Hightower), [Visenya Targaryen](wiki:Visenya_Targaryen), and the [archmaesters](wiki:Archmaesters) of the [Citadel](wiki:Citadel) have also been suspected of killing the High Septon.(wiki:Morgan_Hightower.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
 Morgan was later cut down and butchered on the road to [Honeyholt](wiki:Honeyholt) by the Warrior's Sons who remained loyal to Ser [Joffrey Doggett](wiki:Joffrey_Doggett).(wiki:Morgan_Hightower.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Ser Morgan Hightower, younger brother of Lord Martyn, led two hundred Warrior's Sons to defend the Starry Sept and was among those suspected of the High Septon's death (fab-sons-of-the-dragon-05-p02:213)

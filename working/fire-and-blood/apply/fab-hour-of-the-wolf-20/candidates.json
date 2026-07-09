@@ -416,6 +416,78 @@
       "quote": "slain by Ser Amos Bracken at the Battle of the Burning Mill",
       "tier": "tier-1",
       "note": "Fire & Blood event: Samwell Blackwood VICTIM_IN Battle of the Burning Mill"
+    },
+    {
+      "id": "DISP1",
+      "type": "PARENT_OF",
+      "source": "ormund-hightower",
+      "target": "garmund-hightower",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "his lordship's brother Garmund was a page",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Ormund Hightower PARENT_OF Garmund Hightower",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "LOVER_OF",
+      "source": "lyonel-hightower",
+      "target": "samantha-tarly",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "kept the Lady Sam by his side as his paramour",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lyonel Hightower LOVER_OF Samantha Tarly",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "SPOUSE_OF",
+      "source": "lyonel-hightower",
+      "target": "samantha-tarly",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "finally taking her as his wife",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lyonel Hightower SPOUSE_OF Samantha Tarly",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "COUSIN_OF",
+      "source": "myles-hightower",
+      "target": "lyonel-hightower",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "his cousin, Ser Myles Hightower",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Myles Hightower COUSIN_OF Lyonel Hightower",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP5",
+      "type": "SIBLING_OF",
+      "source": "aegon-iii-targaryen",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "his half-sisters, Baela and Rhaena",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon III Targaryen SIBLING_OF Baela Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP6",
+      "type": "SIBLING_OF",
+      "source": "medrick-manderly",
+      "target": "torrhen-manderly",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "Ser Medrick Manderly and his brother Ser Torrhen",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Medrick Manderly SIBLING_OF Torrhen Manderly",
+      "via": "dispute-inject"
     }
   ]
 }

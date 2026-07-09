@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Oswyck
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Oswyck, an old septon of Dragonstone, had known Jaehaerys and Alysanne since birth and instructed them in the Seven.
 
 ## Origins
 
@@ -36,3 +40,10 @@ Oswyck was an old man when he passed in [54 AC](wiki:54_AC).(wiki:Oswyck.cite_r
 ## Notes
 
 Died 54 AC (track_b: Died). Source is Fire & Blood and The Rise of the Dragon only — no ASOIAF main series citations.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Oswyck, an old septon of Dragonstone, had known Jaehaerys and Alysanne since birth and instructed them in the Seven (fab-year-of-the-three-brides-07:207)
+- Familiar with Targaryen sibling marriage, he assented at once and performed the rites (fab-year-of-the-three-brides-07:209)

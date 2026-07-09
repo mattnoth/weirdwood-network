@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Visenya_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -137,3 +137,14 @@ Born 29 BC, died 44 AC (track_b: Born, Died). Claims of dark sorcery are hedged 
 - She put a sword in Maegor's hand at three and gave him Dark Sister on his thirteenth nameday (fab-sons-of-the-dragon-05-p01:35)
 - As Dowager Queen she whispered that Aenys was unfit and Maegor the stronger (fab-sons-of-the-dragon-05-p01:165)
 - She presided over Maegor's second wedding on Dragonstone (fab-sons-of-the-dragon-05-p01:229)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Visenya was the eldest of the three heads of the dragon and outlived both siblings (fab-reign-of-the-dragon-04:275)
+- She rode Vhagar and wielded Dark Sister, appearing above Sisterton to break the Sistermen (fab-reign-of-the-dragon-04:25)
+- She twice defended Aegon from Dornish cutthroats (fab-reign-of-the-dragon-04:279)
+- — trusted no one but her brother (fab-reign-of-the-dragon-04:279)
+- — and once slashed him across the cheek to prove his guards too slow (fab-reign-of-the-dragon-04:279)
+- She founded the Kingsguard and chose its knights herself (fab-reign-of-the-dragon-04:289)
+- According to rumor, in her later years she delved into the dark arts, mixing poisons and casting malign spells (fab-reign-of-the-dragon-04:275)
+- — and some even suggest she was a kinslayer and kingslayer, though no proof was ever offered (fab-reign-of-the-dragon-04:275)

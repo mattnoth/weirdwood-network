@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -155,3 +155,15 @@ Aegon is not considered to have been particularly pious.(wiki:Aegon_I_Targaryen.
 - He accepted the continued independence of Dorne after his Dornish War and flew to Sunspear on Balerion for a "feast of friendship" with Deria Martell (fab-sons-of-the-dragon-05-p01:121)
 - In 35 AC he ordered the Aegonfort torn down to raise a stone castle, naming Lord Alyn Stokeworth and Queen Visenya to oversee it (fab-sons-of-the-dragon-05-p01:131)
 - He died of a stroke on Dragonstone in 37 AC, his grandsons Aegon and Viserys at his side (fab-sons-of-the-dragon-05-p01:135)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- He was crowned and anointed by the High Septon in the Starry Sept of Oldtown (fab-reign-of-the-dragon-04:21)
+- He put down the ironborn chaos by descending on the islands in 2 AC riding Balerion (fab-reign-of-the-dragon-04:37)
+- — and slew the ironborn claimant himself (fab-reign-of-the-dragon-04:39)
+- He led the invasion of Dorne through the Prince's Pass with an army thirty thousand strong (fab-reign-of-the-dragon-04:55)
+- — but never brought the Dornish to battle. After his sister Rhaenys died at the Hellholt he prosecuted the Dragon's Wroth, then read a sealed letter from Prince Nymor in open court, his hand dripping blood, burned it, and signed peace (fab-reign-of-the-dragon-04:147)
+- In peace he made reconciliation of the Seven Kingdoms his keystone policy (fab-reign-of-the-dragon-04:173)
+- — kept an endless royal progress (fab-reign-of-the-dragon-04:193)
+- — decreed the King's Peace (fab-reign-of-the-dragon-04:205)
+- — and exempted the Faith from taxation (fab-reign-of-the-dragon-04:209)

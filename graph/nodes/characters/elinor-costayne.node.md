@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elinor_Costayne"
 bucket_id: characters-house-costayne
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Elinor Costayne is a character.human from the AWOIAF wiki.
+Elinor Costayne — Lady of House Costayne and widow of Ser Theo Bolling, mother of three sons; taken as a Black Bride at nineteen.
 
 ## Edges
 
@@ -48,3 +48,14 @@ After King Maegor's death, Lord [Daemon Velaryon](wiki:Daemon_Velaryon_(son_of_A
 In [51 AC](wiki:51_AC), King Jaehaerys commanded Elinor to be one of his [Seven Speakers](wiki:Seven_Speakers), three men and four women he sent out to spread his [Doctrine of Exceptionalism](wiki:Doctrine_of_Exceptionalism) to the peoples of the [Seven Kingdoms](wiki:Seven_Kingdoms). Elinor dressed in queenly raiment, which became shabbier and more threadbare each day she traveled through the [Reach](wiki:Reach), but she eloquently testified to the evils of her late husband Maegor and the goodness of Jaehaerys and Alysanne.(wiki:Elinor_Costayne.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 
 Years later, Elinor gave up all claims to nobility, becoming [Mother](wiki:Mother) Elinor at the great [motherhouse](wiki:Motherhouse) in [Lannisport](wiki:Lannisport).(wiki:Elinor_Costayne.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Lady of House Costayne and widow of Ser Theo Bolling, mother of three sons; taken as a Black Bride at nineteen. (fab-sons-of-the-dragon-05-p03:177)
+- She bore an eyeless winged stillbirth in 48 AC and later found Maegor dead upon the Iron Throne. (fab-sons-of-the-dragon-05-p03:211)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Queen Elinor of House Costayne, one of Maegor's Black Brides with three sons and proven fertility, was proposed as a bride for Jaehaerys (fab-year-of-the-three-brides-07:163)

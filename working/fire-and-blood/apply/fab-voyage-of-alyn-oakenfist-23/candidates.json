@@ -514,6 +514,18 @@
       "quote": "whispered something in the admiral's ear, a secret",
       "tier": "tier-1",
       "note": "Fire & Blood event: Alyn Oakenfist PARTICIPATES_IN Drazenko's secret at Sunspear"
+    },
+    {
+      "id": "DISP1",
+      "type": "SPOUSE_OF",
+      "source": "dalton-greyjoy",
+      "target": "lysa-farman",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Lord Farman’s daughter Lysa, one of the salt",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Dalton Greyjoy SPOUSE_OF Lysa Farman",
+      "via": "dispute-inject"
     }
   ]
 }

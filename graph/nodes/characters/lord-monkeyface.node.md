@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Monkeyface"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Lord Monkeyface — Queen Visenya kept a hirsute hunchback fool called Lord Monkeyface.
 
 ## Origins
 
@@ -34,3 +38,10 @@ Lord Monkeyface was hirsute and a hunchback.(wiki:Lord_Monkeyface.cite_ref-Rfabt
 ## Notes
 
 Very minor historical character. No cite_refs to main series chapters. Limited information available from the wiki page.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Queen Visenya kept a hirsute hunchback fool called Lord Monkeyface (fab-reign-of-the-dragon-04:269)
+- When he choked to death on a peach pit she dressed an ape in his clothing (fab-reign-of-the-dragon-04:269)

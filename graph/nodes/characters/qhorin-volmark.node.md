@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Qhorin_Volmark"
 bucket_id: characters-house-volmark
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Qhorin Volmark is a character.human from the AWOIAF wiki.
+Qhorin Volmark of Harlaw, whose grandmother was a younger sister of Harren's grandsire, declared himself rightful heir of the black line.
 
 ## Edges
 
@@ -30,3 +30,10 @@ Qhorin's grandmother had been the younger sister of [Harwyn Hoare](wiki:Harwyn_H
 During his [invasion of the Iron Islands](wiki:Invasion_of_the_Iron_Islands) in [2 AC](wiki:2_AC), King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) flew to [Great Wyk](wiki:Great_Wyk) and slew Qhorin with [Blackfyre](wiki:Blackfyre).(wiki:Qhorin_Volmark.cite_ref-Rtwoiafthe_iron_islands:_the_greyjoys_of_pyke.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Aegon allowed Qhorin's infant son to succeed to the Volmark inheritance.(wiki:Qhorin_Volmark.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 [Goren Greyjoy](wiki:Goren_Greyjoy), [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands), easily defeated a conspiracy to crown Qhorin's son in [33 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Qhorin_Volmark.cite_ref-Rtwoiafthe_iron_islands:_the_greyjoys_of_pyke.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Qhorin Volmark of Harlaw, whose grandmother was a younger sister of Harren's grandsire, declared himself rightful heir of the black line (fab-reign-of-the-dragon-04:31)
+- He assumed the ironborn kingship but was slain by Aegon with Blackfyre in 2 AC; his infant son was allowed to inherit his lands (fab-reign-of-the-dragon-04:39)

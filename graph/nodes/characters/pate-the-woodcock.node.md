@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Pate_the_Woodcock"
 bucket_id: characters-other-o-p
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Pate the Woodcock is a character.human from the AWOIAF wiki.
+Pate the Woodcock, the youngest champion, fought with a spear and was dubbed a knight by Ser Joffrey Doggett.
 
 ## Edges
 
@@ -30,3 +30,10 @@ The wild [melees](wiki:Melee) and bloody duels that followed were dubbed by [mae
 During King Jaehaerys' training at [Dragonstone](wiki:Dragonstone), Ser Pate was the one who won the castle garrison's wagers on who would "kill" (defeat) the young king the most. In the book allegedly written by Lady [Coryanne Wylde](wiki:Coryanne_Wylde), *[A Caution for Young Girls](wiki:A_Caution_for_Young_Girls)*, the author claimed to have bedded both Ser Pate and his sworn brother Ser [Joffrey Doggett](wiki:Joffrey_Doggett), although most maesters dismiss these claims.(wiki:Pate_the_Woodcock.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 After Jaehaerys reached maturity and sat on the [Iron Throne](wiki:Iron_Throne) in [King's Landing](wiki:King's_Landing), the king summoned Lord [Rogar Baratheon](wiki:Rogar_Baratheon) and granted him a full pardon, on the condition that he be a faithful husband to Jaehaerys's mother, [Alyssa Velaryon](wiki:Alyssa_Velaryon), to which Lord Rogar agreed. Ser Pate led the escort of a hundred [men-at-arms](wiki:Men-at-arms) to take Lord Rogar and Queen Alyssa safely to [Storm's End](wiki:Storm's_End).(wiki:Pate_the_Woodcock.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Pate the Woodcock, the youngest champion, fought with a spear and was dubbed a knight by Ser Joffrey Doggett (fab-year-of-the-three-brides-07:131)
+- At Dragonstone he warned Rogar he would be first to die (fab-year-of-the-three-brides-07:253)

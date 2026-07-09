@@ -1,13 +1,13 @@
 ---
-name: "Death of Qhorin Volmark"
+name: "Death of Alys Harroway"
 type: event.death
-slug: death-of-qhorin-volmark
+slug: death-of-alys-harroway
 aliases: []
 confidence: tier-2
-era: targaryen-conquest
+era: targaryen-rule
 pass_origin: pass-fab-enrichment
 occurred:
-  ac_year: 2
+  ac_year: 44
   precision: year
   basis_source: narrative-prose
   basis_reliability: primary-source
@@ -16,10 +16,10 @@ occurred:
 
 ## Identity
 
-ironborn claimant slain
+tortured to death, body in seven parts
 
 ## Fire & Blood
 
-<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
 
-ironborn claimant slain
+tortured to death, body in seven parts

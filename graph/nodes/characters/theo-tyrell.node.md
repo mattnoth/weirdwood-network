@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Theo_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Theo Tyrell, the young Lord of Highgarden and Warden of the South, was reluctant to invade Dorne again after his father's fate.
 
 ## Origins
 
@@ -31,3 +35,9 @@ Theo was considered a young [lord](wiki:Lord) in [10 AC](wiki:10_AC).(wiki:Theo
 - SWORN_TO: House Tyrell (cite: track_b: Allegiance)
 - CULTURE_OF: Reach (cite: track_b: Culture)
 - PARENT_OF [reverse]: Harlan Tyrell (cite: track_b: Father)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Theo Tyrell, the young Lord of Highgarden and Warden of the South, was reluctant to invade Dorne again after his father's fate (fab-reign-of-the-dragon-04:115)

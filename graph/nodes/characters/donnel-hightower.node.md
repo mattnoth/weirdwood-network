@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Donnel_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Donnel Hightower is a character.human from the AWOIAF wiki.
+Donnel Hightower — Lord of Oldtown, who closed his gates against Moon but was slow to give battle, earning the name "Lord Donnel the Delayer".
 
 ## Edges
 
@@ -51,3 +51,10 @@ When Ser Eustace turned up in Oldtown on the seventh day of [59 AC](wiki:59_AC)
 > Lord Donnel is a schemer and a sulker. I do not trust him. Nor should you. He does what he thinks best for himself, [his house](wiki:House_Hightower), and [Oldtown](wiki:Oldtown), and cares not a fig for anyone or anything else. Not even for his king.(wiki:Donnel_Hightower.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 >
 > —[Manfryd Redwyne](wiki:Manfryd_Redwyne) to [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Lord of Oldtown, who closed his gates against Moon but was slow to give battle, earning the name "Lord Donnel the Delayer" (fab-prince-into-king-06:115)
+- His knights later seized and beheaded Moon's corpse (fab-prince-into-king-06:141)

@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerea_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Aerea Targaryen — Twin daughter of Aegon the Uncrowned and Rhaena; if Maegor were a mere usurper, she was the true king's elder daughter.
 
 ## Origins
 
@@ -140,3 +144,9 @@ During her time on [Dragonstone](wiki:Dragonstone), Aerea became a terror, defyi
 ## Notes
 
 The alias "Rhaella Targaryen (allegedly)" reflects a claim that the twins' identities may have been swapped — the girl known as Aerea may have actually been Rhaella, and vice versa.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Twin daughter of Aegon the Uncrowned and Rhaena; if Maegor were a mere usurper, she was the true king's elder daughter (fab-prince-into-king-06:25)

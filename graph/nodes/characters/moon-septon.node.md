@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Moon_(septon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Moon (septon) is a character from the AWOIAF wiki.
+Septon Moon — A bearded brute crowned "High Septon" by the Poor Fellows; he roamed the realm preaching against the king and led thousands toward Oldtown.
 
 ## Edges
 
@@ -42,3 +42,16 @@ The would-be successors in Moon's host fought over Moon's bones. One of them, [L
 
 What can the death of [one dragon](wiki:Maegor_I_Targaryen) matter when [another](wiki:Jaehaerys_I_Targaryen) rises up to take its place?(wiki:Moon_(septon).cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 [Westeros](wiki:Westeros) will not be clean again until all the [Targaryens](wiki:House_Targaryen) have been slain or driven back into the sea.(wiki:Moon_(septon).cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- A bearded brute crowned "High Septon" by the Poor Fellows; he roamed the realm preaching against the king and led thousands toward Oldtown. (fab-sons-of-the-dragon-05-p03:135)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- A massive man of thunderous voice, "the Poorest Fellow," whose Poor Fellows proclaimed him "the true High Septon" (fab-prince-into-king-06:103)
+- A glutton, drunkard, and lecher who began every sermon confessing sin (fab-prince-into-king-06:107)
+- He preached daily against House Targaryen beneath the walls of Oldtown (fab-prince-into-king-06:111)
+- A woman with a flagon of wine slit his throat in his tent (fab-prince-into-king-06:127)

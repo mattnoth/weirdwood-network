@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaella_Targaryen_(daughter_of_Aegon)
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -72,3 +72,10 @@ Following the coronation of her uncle [Jaehaerys](wiki:Jaehaerys_I_Targaryen) at
 ## Notes
 
 No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise of the Dragon, and Sons of the Dragon. The twin-switch rumor is a notable open question.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Twin sister of Aerea, the bolder of the pair, a novice at the Starry Sept promised to the Faith (fab-prince-into-king-06:27)
+- It was widely believed the twins were switched during the coronation, though nothing was ever proved (fab-prince-into-king-06:185)

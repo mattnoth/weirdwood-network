@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -117,3 +117,16 @@ A diligent student who did not lack for courage, Aenys was an adequate fighter. 
 - In 22 AC he wed Lady Alyssa Velaryon, a happy and fruitful match (fab-sons-of-the-dragon-05-p01:81)
 - Crowned Aenys I in 37 AC, he gave Blackfyre to Maegor and vowed they would rule together (fab-sons-of-the-dragon-05-p01:145)
 - Faced with rebellions he prevaricated, and gave Maegor a choice of putting Alys aside or exile (fab-sons-of-the-dragon-05-p01:237)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Aenys was Aegon and Rhaenys's son and heir, six years old at the time of the Dornish peace (fab-reign-of-the-dragon-04:155)
+- Aegon told him a lord should know the land he rules (fab-reign-of-the-dragon-04:199)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- King Aenys, obsessed with building the Red Keep, declared his descendants would rule from it for a thousand years (fab-sons-of-the-dragon-05-p02:19)
+- In 41 AC he announced the marriage of his daughter Rhaena to her brother Aegon, whom he named heir (fab-sons-of-the-dragon-05-p02:19)
+- Infamous for indecision, he neither abandoned the match nor burned the Starry Sept, but simply persisted (fab-sons-of-the-dragon-05-p02:43)
+- At the wedding feast he granted Aegon the title Prince of Dragonstone, which had belonged to Maegor (fab-sons-of-the-dragon-05-p02:49)
+- Denounced as "King Abomination," he fled to Dragonstone, fell sick with fear, and died (fab-sons-of-the-dragon-05-p02:77)

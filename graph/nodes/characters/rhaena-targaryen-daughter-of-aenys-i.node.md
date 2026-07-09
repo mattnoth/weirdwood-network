@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Aenys_I)
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -190,3 +190,12 @@ No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise
 - A shy, dreamy child who loved animals, she bonded with the dragon Dreamfyre at nine and flew at twelve (fab-sons-of-the-dragon-05-p01:103)
 - Legend says she placed dragon eggs in the cradles of Jaehaerys and Alysanne (fab-sons-of-the-dragon-05-p01:105)
 - On the royal progress she reverted to shyness, loath to be parted from her favorite Melony Piper (fab-sons-of-the-dragon-05-p01:161)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Rhaena, twice widowed at twenty-six, wed Androw Farman on Fair Isle in a small secret ceremony, her third marriage (fab-year-of-the-three-brides-07:21)
+- King and court knew nothing until a raven came from the Rock (fab-year-of-the-three-brides-07:25)
+- Her mother Alyssa was deeply offended by her exclusion, and relations cooled (fab-year-of-the-three-brides-07:25)
+- According to whispers about court, Rhaena was a sorceress who used dark arts to murder Maegor (fab-year-of-the-three-brides-07:149)
+- She chose not to attend the Golden Wedding, remaining on Fair Isle (fab-year-of-the-three-brides-07:99)
+- Her daughters Aerea and Rhaella remained the king's heirs while he was unwed (fab-year-of-the-three-brides-07:145)

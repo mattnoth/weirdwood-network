@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lorcas_the_Learned"
 bucket_id: characters-other-l
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lorcas the Learned is a character.human from the AWOIAF wiki.
+Lorcas the Learned — A would-be successor to Moon who claimed to know all of The Seven-Pointed Star and had a vision Moon would yet take Oldtown; he strapped the rotting corpse to a destrier and died attacking the walls.
 
 ## Edges
 
@@ -28,3 +28,9 @@ Following the death of [Septon](wiki:Septon) [Moon](wiki:Moon_(septon)), Lorcas 
 ## Appearances & Description
 
 Lorcas boasted of having committed *[The Seven-Pointed Star](wiki:The_Seven-Pointed_Star)* to memory.(wiki:Lorcas_the_Learned.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Like Septon [Moon](wiki:Moon_(septon)), Lorcas was a big man.(wiki:Lorcas_the_Learned.cite_ref-Rtrotd61.7B.7B.7B4.7D.7D.7D_2-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- A would-be successor to Moon who claimed to know all of The Seven-Pointed Star and had a vision Moon would yet take Oldtown; he strapped the rotting corpse to a destrier and died attacking the walls (fab-prince-into-king-06:137)

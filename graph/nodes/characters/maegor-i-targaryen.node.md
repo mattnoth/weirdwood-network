@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
 bucket_id: characters-other-l-m
 prompt_version: v1-python
-node_version: 3
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -165,3 +165,25 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 - A quarrelsome boy of unmatched skill at arms, he was knighted at sixteen at the Riverrun tourney (fab-sons-of-the-dragon-05-p01:113)
 - He claimed Balerion at last above the Eyrie and executed Jonos Arryn's followers to a man (fab-sons-of-the-dragon-05-p01:203)
 - Named Hand after the rebellions, he later took a second wife, Alys Harroway, and chose exile to Pentos over abandoning her (fab-sons-of-the-dragon-05-p01:237)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Maegor, son of Visenya, returned from across the narrow sea on Balerion after Aenys's death and claimed the crown with his father's iron crown (fab-sons-of-the-dragon-05-p02:83)
+- He declared the throne goes to the strongest and beheaded Grand Maester Gawen who objected (fab-sons-of-the-dragon-05-p02:89)
+- He won the Trial of Seven against the Warrior's Sons, though grievously wounded (fab-sons-of-the-dragon-05-p02:117)
+- Recovering, he burned seven hundred Warrior's Sons in their sept, waged war on the Faith Militant, took Tyanna as his third wife, and slew Grand Maester Myros with Blackfyre (fab-sons-of-the-dragon-05-p02:155)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- King on the Iron Throne; the High Septon dissolved the Faith Militant in his name and Maegor set bounties on unrepentant members — a gold dragon per Warrior's Son, a silver stag per Poor Fellow. (fab-sons-of-the-dragon-05-p03:15)
+- He was reconciled with his first wife Ceryse at Oldtown, sealing it with a feast and a "second consummation." (fab-sons-of-the-dragon-05-p03:19)
+- Riding Balerion, he slew his nephew Aegon at the battle beneath the Gods Eye, then followed with half a year of trials and executions. (fab-sons-of-the-dragon-05-p03:59)
+- He destroyed House Harroway root and branch, questioned his nephew Viserys to death, massacred the Red Keep's builders, and began the Dragonpit. (fab-sons-of-the-dragon-05-p03:115)
+- He took three widows to wife in 47 AC, the "Black Brides." (fab-sons-of-the-dragon-05-p03:183)
+- He was called "Maegor the Cruel" and "kinslayer," and died childless upon the Iron Throne after a reign of six years and sixty-six days. (fab-sons-of-the-dragon-05-p03:247)
+- He died childless. (fab-sons-of-the-dragon-05-p03:249)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Jaehaerys's uncle, "Maegor the Cruel," whose remains were consigned to a funeral pyre after he was found dead upon the Iron Throne (fab-prince-into-king-06:37)
+- His efforts to exterminate the Poor Fellows and Warrior's Sons had set pious men against House Targaryen (fab-prince-into-king-06:95)

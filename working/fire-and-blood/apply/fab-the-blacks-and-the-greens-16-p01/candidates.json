@@ -739,6 +739,18 @@
       "quote": "Ser Steffon Darklyn of the Kingsguard had slipped from the city",
       "tier": "tier-1",
       "note": "Fire & Blood event: Aegon II Targaryen VICTIM_IN Defection of Ser Steffon Darklyn"
+    },
+    {
+      "id": "DISP1",
+      "type": "SIBLING_OF",
+      "source": "jacaerys-velaryon",
+      "target": "lucerys-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "His brother Lucerys agreed",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jacaerys Velaryon SIBLING_OF Lucerys Velaryon",
+      "via": "dispute-inject"
     }
   ]
 }

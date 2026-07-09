@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Quenton_Qoherys"
 bucket_id: characters-house-qoherys
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Quenton Qoherys is a character.human from the AWOIAF wiki.
+Quenton Qoherys — Ser Quenton Qoherys, Aegon's master-at-arms on Dragonstone, was granted Harrenhal.
 
 ## Edges
 
@@ -30,3 +30,11 @@ Quenton Qoherys is a character.human from the AWOIAF wiki.
 ## Origins
 
 Ser Quenton was the [master-at-arms](wiki:Master-at-arms) at [Dragonstone](wiki:Dragonstone) during [Aegon's Conquest](wiki:Aegon's_Conquest).(wiki:Quenton_Qoherys.cite_ref-3) He was named [Lord of Harrenhal](wiki:Lord_of_Harrenhal) by King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) after Aegon had extinguished [House Hoare](wiki:House_Hoare) during his conquest. Lord Quenton had two strong sons and a plump grandson to continue the family line, but as his first wife had died from spotted fever in [1 BC](wiki:Years_before_Aegon's_Conquest), he agreed to wed a daughter of his liege lord, [Edmyn Tully](wiki:Edmyn_Tully) of [Riverrun](wiki:Riverrun).(wiki:Quenton_Qoherys.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) In [9 AC](wiki:9_AC), he died from a fall from his [horse](wiki:Horse) and was succeeded by his grandson, [Gargon](wiki:Gargon_Qoherys).(wiki:Quenton_Qoherys.cite_ref-Rtwoiafthe_riverlands:_house_tully.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Quenton_Qoherys.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Ser Quenton Qoherys, Aegon's master-at-arms on Dragonstone, was granted Harrenhal (fab-reign-of-the-dragon-04:47)
+- — under Lord Edmyn Tully as his liege (fab-reign-of-the-dragon-04:47)
+- A widower, he agreed to wed one of Tully's daughters (fab-reign-of-the-dragon-04:49)

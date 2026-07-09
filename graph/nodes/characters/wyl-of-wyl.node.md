@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Wyl_of_Wyl"
 bucket_id: characters-house-wyl
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Wyl of Wyl is a character.human from the AWOIAF wiki.
+Wyl of Wyl was a savage mountain lord called the Widow-lover.
 
 ## Edges
 
@@ -37,3 +37,11 @@ Lord [Walter Wyl](wiki:Walter_Wyl), the son of the Widow-lover, led a host for t
 > Your father took my hand. I claim yours as repayment.(wiki:Wyl_of_Wyl.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 >
 > —[Orys Baratheon](wiki:Orys_Baratheon) to [Walter Wyl](wiki:Walter_Wyl)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Wyl of Wyl was a savage mountain lord called the Widow-lover (fab-reign-of-the-dragon-04:69)
+- / "mountain lord called Widow-lover". He captured Orys Baratheon on the Boneway and later maimed his ransomed captives' sword hands. In 12 AC he came uninvited to a wedding, slew Lord Oakheart and the guests, gelded the groom, and had the bride raped and sold (fab-reign-of-the-dragon-04:131)
+- He survived Aegon's dragonfire in caves and lived another twenty years (fab-reign-of-the-dragon-04:97)

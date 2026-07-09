@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Nymor_Martell"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Nymor Martell — Nymor was Meria's son, sixty years old and failing, who succeeded her as Lord of Sunspear and Prince of Dorne.
 
 ## Origins
 
@@ -37,3 +41,10 @@ The answer to those questions is unknown, but the peace that Nymor and Aegon agr
 ## Notes
 
 The contents of Nymor's letter to Aegon remain unknown (Tier 2 — multiple speculative explanations exist, wiki:Nymor_Martell). Known from TWOIAF, Fire & Blood, and TROTD.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Nymor was Meria's son, sixty years old and failing, who succeeded her as Lord of Sunspear and Prince of Dorne (fab-reign-of-the-dragon-04:135)
+- Wanting no more slaughter, he sent an embassy led by his daughter Deria to return the skull of Meraxes and offer peace (fab-reign-of-the-dragon-04:135)

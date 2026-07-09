@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Myros"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Jaime II"
 ---
+
+## Identity
+
+Myros — Grand Maester Myros alone dared speak openly against Maegor's marriage to Tyanna and was slain on the spot.
 
 ## Origins
 
@@ -29,3 +33,9 @@ Myros was one of three [Grand Maesters](wiki:Grand_Maester) were executed during
 - HOLDS_TITLE: Grand Maester (track_b: Title)
 - CULTURE_OF: Westeros (track_b: Culture)
 - DIED_AT: 42 AC, King's Landing (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Grand Maester Myros alone dared speak openly against Maegor's marriage to Tyanna and was slain on the spot (fab-sons-of-the-dragon-05-p02:155)

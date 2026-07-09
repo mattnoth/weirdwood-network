@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Marq_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Marq Farman is a character.human from the AWOIAF wiki.
+Marq Farman — New Lord of Fair Isle, whose father and elder brother died fighting for Aegon; he gave Rhaena sanctuary at Faircastle.
 
 ## Edges
 
@@ -35,3 +35,13 @@ In [47 AC](wiki:47_AC) Lord Marq hosted Princess [Rhaena Targaryen](wiki:Rhaena
 ## Appearances & Description
 
 Marq was described as an amiable and good-natured man. He was a devoted father, who loved all his children.(wiki:Marq_Farman.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- New Lord of Fair Isle, whose father and elder brother died fighting for Aegon; he gave Rhaena sanctuary at Faircastle. (fab-sons-of-the-dragon-05-p03:65)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Marq Farman, Lord of Fair Isle, presided over his son Androw's wedding to Rhaena, conducted by his own septon (fab-year-of-the-three-brides-07:25)

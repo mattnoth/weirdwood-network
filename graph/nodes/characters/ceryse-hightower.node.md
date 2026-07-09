@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ceryse_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -44,3 +44,17 @@ Shortly after the completion of the [Red Keep](wiki:Red_Keep) in [45 AC](wiki:4
 
 - Niece of the High Septon and daughter of Manfred Hightower, proposed as Maegor's bride in place of Rhaena (fab-sons-of-the-dragon-05-p01:87)
 - She wed Maegor in the Starry Sept in 25 AC, ten years his senior, but never quickened (fab-sons-of-the-dragon-05-p01:91)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Ceryse of House Hightower, Maegor's first wife, insisted throughout that she remained his only lawful queen (fab-sons-of-the-dragon-05-p02:163)
+- Grand Maester Myros invoked her before Maegor killed him (fab-sons-of-the-dragon-05-p02:153)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Maegor's first wife and sister of Lord Hightower; reconciled with him at Oldtown. (fab-sons-of-the-dragon-05-p03:19)
+- She died of a sudden illness. A rumor, which most maesters now hold a slander, said Maegor had Ser Owen remove her tongue and her throat was slit. (fab-sons-of-the-dragon-05-p03:117)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Maegor's first queen, said to have died when Owen Bush removed her tongue and the blade slipped (fab-prince-into-king-06:75)

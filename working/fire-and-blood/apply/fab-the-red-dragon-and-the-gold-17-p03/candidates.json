@@ -229,6 +229,42 @@
       "note": "Fire & Blood event: Byron Swann VICTIM_IN Death of Byron Swann",
       "in_universe_source": "gyldayn-synthesis",
       "disputed": true
+    },
+    {
+      "id": "DISP1",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "aegon-iii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+      "quote": "her son Aegon the Younger",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen PARENT_OF Aegon the Younger",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "joffrey-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+      "quote": "the last of the queen's three sons by Laenor Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen PARENT_OF Joffrey Velaryon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "PARENT_OF",
+      "source": "laenor-velaryon",
+      "target": "joffrey-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+      "quote": "the queen's three sons by Laenor Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Laenor Velaryon PARENT_OF Joffrey Velaryon",
+      "via": "dispute-inject"
     }
   ]
 }

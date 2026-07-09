@@ -11,7 +11,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Tyanna_of_the_Tower
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -19,6 +19,10 @@ first_available:
   source: cite_ref
   pov: Prologue
 ---
+
+## Identity
+
+Tyanna of the Tower — Tyanna, a pale raven-haired beauty from Pentos, arrived with Alys Harroway and six hundred sellswords.
 
 ## Origins
 
@@ -59,3 +63,21 @@ Tyanna is said to have dabbled in [sorcery](wiki:Magic) and [alchemy](wiki:Alche
 ## Notes
 
 Died 48 AC (track_b: Died). The lover relationship with Alys Harroway is marked as rumored on the wiki page (Tier 2 — wiki hedges with "rumored").
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Tyanna, a pale raven-haired beauty from Pentos, arrived with Alys Harroway and six hundred sellswords (fab-sons-of-the-dragon-05-p02:129)
+- The natural daughter of a Pentoshi magister and a courtesan risen from tavern dancer, she was rumored a poisoner and sorceress; some called her Maegor's concubine, others Alys's paramour (fab-sons-of-the-dragon-05-p02:131)
+- Given charge of the dying king, she nursed him to recovery, became his third wife, and was called "the mistress of whispers"
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Pentoshi mistress of whisperers; she wrote to warn Maegor of secret talks with Alyssa, and revealed that Alys's child was not his seed. (fab-sons-of-the-dragon-05-p03:87)
+- She was given Queen Alys to torment, and later confessed under threat to poisoning the queens' children in the womb. (fab-sons-of-the-dragon-05-p03:205)
+- According to report, Maegor slew her himself with Blackfyre and fed her heart to his dogs. (fab-sons-of-the-dragon-05-p03:209)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Named as abetting the torture and death of Prince Viserys; delivered to Maegor and slain by him (fab-prince-into-king-06:75)

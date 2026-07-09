@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Androw_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Androw Farman is a character.human from the AWOIAF wiki.
+Androw Farman, second son of Marq Farman, was ten-and-seven, comely and amiable, and said to be besotted with Rhaena.
 
 ## Edges
 
@@ -90,3 +90,10 @@ Androw was known to spend whole days in the [Chamber of the Painted Table](wiki:
 > I fed my last husband to my dragon. If you make me take another, I may eat him myself.(wiki:Androw_Farman.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 >
 > —[Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)), to her sister [Alysanne Targaryen](wiki:Alysanne_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Androw Farman, second son of Marq Farman, was ten-and-seven, comely and amiable, and said to be besotted with Rhaena (fab-year-of-the-three-brides-07:23)
+- Many thought a second son of a minor lord far from worthy of a twice-crowned queen (fab-year-of-the-three-brides-07:25)

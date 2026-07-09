@@ -713,6 +713,42 @@
       "quote": "And so it would remain for eighteen days",
       "tier": "tier-1",
       "note": "Fire & Blood event: Aegon III Targaryen PARTICIPATES_IN Siege of Maegor's Holdfast"
+    },
+    {
+      "id": "DISP1",
+      "type": "SIBLING_OF",
+      "source": "lotho-rogare",
+      "target": "larra-rogare",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p01",
+      "quote": "the three brothers who had come with her to King’s Landing",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lotho Rogare SIBLING_OF Larra Rogare",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "SIBLING_OF",
+      "source": "roggerio-rogare",
+      "target": "larra-rogare",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p01",
+      "quote": "Roggerio, the youngest",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Roggerio Rogare SIBLING_OF Larra Rogare",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "SPOUSE_OF",
+      "source": "daenaera-velaryon",
+      "target": "aegon-iii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p01",
+      "quote": "his little queen, Daenaera",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daenaera Velaryon SPOUSE_OF Aegon III Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }

@@ -443,6 +443,102 @@
       "quote": "Roland Westerling, an older man, perished",
       "tier": "tier-1",
       "note": "Fire & Blood event: Roland Westerling VICTIM_IN Death of Roland Westerling"
+    },
+    {
+      "id": "DISP1",
+      "type": "UNCLE_OF",
+      "source": "alysanne-blackwood",
+      "target": "benjicot-blackwood",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "her nephew Lord Benjicot",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alysanne Blackwood UNCLE_OF Benjicot Blackwood",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "SPOUSE_OF",
+      "source": "borros-baratheon",
+      "target": "elenda-baratheon",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "Lady Elenda, the widow of Lord Borros",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Borros Baratheon SPOUSE_OF Elenda Baratheon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "PARENT_OF",
+      "source": "royce-caron",
+      "target": "elenda-baratheon",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "Lady Baratheon's father, Royce Caron",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Royce Caron PARENT_OF Elenda Baratheon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "PARENT_OF",
+      "source": "borros-baratheon",
+      "target": "floris-baratheon",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "sent her daughters Cassandra, Ellyn, and Floris",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Borros Baratheon PARENT_OF Floris Baratheon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP5",
+      "type": "PARENT_OF",
+      "source": "vaemond-velaryon",
+      "target": "daemion-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "Ser Vaemond's sons Daemion and Daeron",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Vaemond Velaryon PARENT_OF Daemion Velaryon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP6",
+      "type": "PARENT_OF",
+      "source": "vaemond-velaryon",
+      "target": "daeron-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "Ser Vaemond's sons Daemion and Daeron",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Vaemond Velaryon PARENT_OF Daeron Velaryon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP7",
+      "type": "LOVER_OF",
+      "source": "aemond-targaryen",
+      "target": "alys-rivers",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "the prisoner and then the paramour of Prince Aemond Targaryen",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aemond Targaryen LOVER_OF Alys Rivers",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP8",
+      "type": "PARENT_OF",
+      "source": "alicent-hightower",
+      "target": "aemond-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "mother to his sons, Aegon, Aemond, and Daeron",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alicent Hightower PARENT_OF Aemond Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }

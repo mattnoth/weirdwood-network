@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Westerling_(wife_of_Maegor_I)"
 bucket_id: characters-house-westerling
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -51,3 +51,10 @@ King [Robb Stark](wiki:Robb_Stark) refers to Queen Jeyne Westerling to defend hi
 > The [Westerlings](wiki:House_Westerling) are better blood than the [Freys](wiki:House_Frey). They're an ancient line, descended from the [First Men](wiki:First_Men). The [Kings of the Rock](wiki:King_of_the_Rock) sometimes wed Westerlings before [the Conquest](wiki:Aegon's_Conquest), and there was another Jeyne Westerling who was queen to [King Maegor](wiki:Maegor_I_Targaryen) three hundred years ago.(wiki:Jeyne_Westerling_(wife_of_Maegor_I).cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >
 > —[Robb Stark](wiki:Robb_Stark) to [Catelyn Stark](wiki:Catelyn_Stark)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Lady of House Westerling and widow of Alyn Tarbeck, to whom she bore a posthumous son; taken as a Black Bride. (fab-sons-of-the-dragon-05-p03:175)
+- Three moons early she bore a monstrous stillborn child and did not long survive it. (fab-sons-of-the-dragon-05-p03:199)

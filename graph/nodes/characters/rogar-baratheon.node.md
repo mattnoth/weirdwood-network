@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rogar_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Rogar Baratheon — Lord of Storm's End; he proclaimed Jaehaerys the true king and was named Protector of the Realm and Hand.
 
 ## Origins
 
@@ -118,3 +122,24 @@ Rogar was not a man to yield, often boasting in battle that he would not lay dow
 - CULTURE_OF: Stormlander (track_b: Culture)
 - ANCESTOR_OF: Orys Baratheon (reverse — Orys is grandfather) (wiki:Rogar_Baratheon)
 - DIED_AT: Storm's End (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Lord of Storm's End; he proclaimed Jaehaerys the true king and was named Protector of the Realm and Hand. (fab-sons-of-the-dragon-05-p03:215)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Lord Rogar served as Jaehaerys's Hand and Protector of the Realm (fab-prince-into-king-06:33)
+- Against Alyssa's fury he urged trials over blanket execution, warning of the cost of storming the loyalists' castles (fab-prince-into-king-06:55)
+- He offered to lead a host across the Reach against Moon's protectors (fab-prince-into-king-06:119)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Rogar Baratheon, Lord of Storm's End and Hand of the King, was blue-eyed, black-bearded, and eldest of five brothers descended from Orys One-Hand (fab-year-of-the-three-brides-07:37)
+- No swordsman, he favored a double-bladed axe he boasted could cleave a dragon's skull (fab-year-of-the-three-brides-07:39)
+- He sheltered Alyssa and her children and was first to proclaim Jaehaerys king, becoming kingmaker rather than kingslayer (fab-year-of-the-three-brides-07:41)
+- He wed the Queen Regent in the Golden Wedding and pushed a Tyroshi match for the king (fab-year-of-the-three-brides-07:153)
+- At Dragonstone he demanded to know if the marriage was consummated and ordered the children separated, but was thwarted (fab-year-of-the-three-brides-07:233)
+- Afterward he kept the marriage secret, still meaning to part them (fab-year-of-the-three-brides-07:281)

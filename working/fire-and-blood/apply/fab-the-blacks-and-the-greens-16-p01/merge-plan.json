@@ -1,7 +1,7 @@
 [
   {
     "slug": "rhaenyra-targaryen",
-    "fab_section_md": "- Rhaenyra was the only surviving child of King Viserys's first marriage and one of the two principal claimants to the Iron Throne (fab-the-blacks-and-the-greens-16-p01:21)\n- She was confined on Dragonstone, about to give birth, when her father died, and the news drove her into a black fury that brought on her labor early (fab-the-blacks-and-the-greens-16-p01:185)\n- She then convened her own council and swore vengeance (fab-the-blacks-and-the-greens-16-p01:191)\n- Once well-loved as the Realm's Delight, she was now a woman aged by six childbirths, with the wealth of House Velaryon and dragons to her side (fab-the-blacks-and-the-greens-16-p01:207)",
+    "fab_section_md": "- Rhaenyra was the only surviving child of King Viserys's first marriage and one of the two principal claimants to the Iron Throne (fab-the-blacks-and-the-greens-16-p01:21)\n- She was confined on Dragonstone, about to give birth, when her father died, and the news drove her into a black fury that brought on her labor early (fab-the-blacks-and-the-greens-16-p01:185)\n- She then convened her own council and swore vengeance (fab-the-blacks-and-the-greens-16-p01:191)\n- Once well-loved as the Realm's Delight, she was now a woman aged by six childbirths, with the wealth of House Velaryon and dragons to her side (fab-the-blacks-and-the-greens-16-p01:207)\n- The child came forth a stillborn, malformed girl she named Visenya (fab-the-blacks-and-the-greens-16-p01:189)",
     "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09",
     "identity_line": "Rhaenyra Targaryen — Rhaenyra was the only surviving child of King Viserys's first marriage and one of the two principal claimants to the Iron Throne."
   },
@@ -30,7 +30,7 @@
   },
   {
     "slug": "lyman-beesbury",
-    "fab_section_md": "- He rose to denounce the plot and was killed; the manner is disputed among the sources (fab-the-blacks-and-the-greens-16-p01:101)\n- All three chronicles agree his was the first blood of the Dance (fab-the-blacks-and-the-greens-16-p01:103)",
+    "fab_section_md": "- He rose to denounce the plot and was killed; the manner is disputed among the sources (fab-the-blacks-and-the-greens-16-p01:101)\n- All three chronicles agree his was the first blood of the Dance (fab-the-blacks-and-the-greens-16-p01:103)\n- Lord Lyman Beesbury, master of coin and lord treasurer, a man of eighty, was the only councillor to speak for Rhaenyra (fab-the-blacks-and-the-greens-16-p01:75)",
     "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09"
   },
   {
@@ -59,7 +59,7 @@
   },
   {
     "slug": "mushroom",
-    "fab_section_md": "- Mushroom the dwarf, author of the Testimony, was on Dragonstone with Rhaenyra, not in King's Landing at the king's death (fab-the-blacks-and-the-greens-16-p01:45)",
+    "fab_section_md": "- Mushroom the dwarf, author of the Testimony, was on Dragonstone with Rhaenyra, not in King's Landing at the king's death (fab-the-blacks-and-the-greens-16-p01:45)\n- He alleges Alicent poisoned the king and paints the crudest pictures of Aegon and Beesbury's death (fab-the-blacks-and-the-greens-16-p01:45)",
     "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09",
     "identity_line": "Mushroom the dwarf, author of the Testimony, was on Dragonstone with Rhaenyra, not in King's Landing at the king's death."
   },
@@ -89,12 +89,12 @@
   },
   {
     "slug": "rhaenys-targaryen-daughter-of-aemon",
-    "fab_section_md": "- She enumerated the two sides' dragons and urged finding riders for the Dragonmont beasts (fab-the-blacks-and-the-greens-16-p01:219)\n- Long ago the Old King chose Baelon over her, and House Baratheon remained staunch for her claims (fab-the-blacks-and-the-greens-16-p01:79)",
+    "fab_section_md": "- She enumerated the two sides' dragons and urged finding riders for the Dragonmont beasts (fab-the-blacks-and-the-greens-16-p01:219)\n- Long ago the Old King chose Baelon over her, and House Baratheon remained staunch for her claims (fab-the-blacks-and-the-greens-16-p01:79)\n- Princess Rhaenys, Corlys's wife, five-and-fifty, the Queen Who Never Was, was still fierce and had been a dragonrider longer than any at the black council (fab-the-blacks-and-the-greens-16-p01:197)",
     "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09"
   },
   {
     "slug": "jacaerys-velaryon",
-    "fab_section_md": "- Jacaerys, Rhaenyra's eldest son at fourteen, rode Vermax and sat the black council (fab-the-blacks-and-the-greens-16-p01:193)",
+    "fab_section_md": "- Jacaerys, Rhaenyra's eldest son at fourteen, rode Vermax and sat the black council (fab-the-blacks-and-the-greens-16-p01:193)\n- He proposed that he and his brothers bear the messages to the lords on dragonback (fab-the-blacks-and-the-greens-16-p01:261)",
     "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09",
     "identity_line": "Jacaerys Velaryon — Jacaerys, Rhaenyra's eldest son at fourteen, rode Vermax and sat the black council."
   },
@@ -169,5 +169,15 @@
     "fab_section_md": "- Meleys the Red Queen, Rhaenys's she-dragon, had grown lazy but stayed fearsome when roused (fab-the-blacks-and-the-greens-16-p01:213)",
     "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09",
     "identity_line": "Meleys the Red Queen, Rhaenys's she-dragon, had grown lazy but stayed fearsome when roused."
+  },
+  {
+    "slug": "lucerys-velaryon",
+    "fab_section_md": "- Lucerys, Rhaenyra's son of thirteen, rode Arrax and backed his brother's plan, insisting dragonback would prove them no Strongs (fab-the-blacks-and-the-greens-16-p01:261)",
+    "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09"
+  },
+  {
+    "slug": "gerardys",
+    "fab_section_md": "- Maester Gerardys, Rhaenyra's trusted counselor, tried to restrain her in her labor and noted that Aegon too had dragons (fab-the-blacks-and-the-greens-16-p01:187)",
+    "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-09"
   }
 ]

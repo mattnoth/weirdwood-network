@@ -732,6 +732,30 @@
       "quote": "Queen Alicent was arrested on the serpentine steps",
       "tier": "tier-1",
       "note": "Fire & Blood event: Alicent Hightower PARTICIPATES_IN Arrest of Queen Alicent"
+    },
+    {
+      "id": "DISP1",
+      "type": "ANCESTOR_OF",
+      "source": "grover-tully",
+      "target": "elmo-tully",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "his grandson Elmo, now at last the Lord of Riverrun",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Grover Tully ANCESTOR_OF Elmo Tully",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "UNCLE_OF",
+      "source": "alysanne-blackwood",
+      "target": "benjicot-blackwood",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "his fierce young aunt, Black Aly",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alysanne Blackwood UNCLE_OF Benjicot Blackwood",
+      "via": "dispute-inject"
     }
   ]
 }

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 3
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -255,3 +255,25 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 - Twice he was estranged from Alysanne, in the First and Second Quarrels, the second over his passing Rhaenys over for the succession (fab-heirs-of-the-dragon-15-p01:47)
 - After his heirs Aemon and Baelon both died, he summoned Vaegon and convened the Great Council of 101 (fab-heirs-of-the-dragon-15-p01:87)
 - He died in his bed in 103 AC at nine-and-sixty, and his remains were burned in the Dragonpit (fab-heirs-of-the-dragon-15-p01:157)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Son of Aenys and Alyssa and the rightful heir by law, he was expressly disinherited by Maegor. (fab-sons-of-the-dragon-05-p03:195)
+- At fourteen he was proclaimed king at Storm's End, unsheathed Dark Sister, and rode the dragon Vermithor. (fab-sons-of-the-dragon-05-p03:215)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Jaehaerys ascended the Iron Throne in 48 AC at the age of fourteen and ruled fifty-five years until his natural death in 103 AC (fab-prince-into-king-06:15)
+- Scholars later called him "the Conciliator" and, in old age, "the Old King" (fab-prince-into-king-06:15)
+- As the only surviving son of Aenys I, he inherited an impoverished, war-torn realm and, though still shy of his majority, insisted on a voice in all decisions made in his name (fab-prince-into-king-06:23)
+- From the Iron Throne he forbade trials, torture, and executions of Maegor's men (fab-prince-into-king-06:61)
+- He refused to reinstate the Swords and Stars but rescinded Maegor's bounties on their heads (fab-prince-into-king-06:165)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Jaehaerys returned in triumph from Oldtown to King's Landing and pardoned the Poor Fellows on condition they take the black (fab-year-of-the-three-brides-07:15)
+- Though a boy in his regency, he sat most councils and let his voice be heard, and he personally received sixscore lords in audience in his solar (fab-year-of-the-three-brides-07:87)
+- He selected councillors on a principle of conciliation, rewarding both loyalists and Maegor's former men (fab-year-of-the-three-brides-07:29)
+- On learning of the plan to wed Alysanne to Orryn, he flew with her to Dragonstone and wed her secretly there (fab-year-of-the-three-brides-07:211)
+- He faced down Septon Mattheus and Lord Rogar at the castle gates and refused to unmake the marriage (fab-year-of-the-three-brides-07:263)
+- Dragonstone became his residence for the rest of his minority, until his sixteenth nameday (fab-year-of-the-three-brides-07:267)

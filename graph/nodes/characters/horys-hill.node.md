@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Horys_Hill"
 bucket_id: characters-other-h-i
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Horys Hill is a character.human from the AWOIAF wiki.
+Horys Hill — Ser Horys Hill, a hedge knight, led the western Poor Fellows and reached the Great Fork with thirteen thousand men; he escaped the battle but his following dwindled.
 
 ## Edges
 
@@ -30,3 +30,9 @@ Ser Horys was a [bastard](wiki:Bastard) from the [westerlands](wiki:Westerlands)
 In [42 AC](wiki:42_AC), Horys was defeated by the royal army in the [battle at the Great Fork](wiki:Battle_at_the_Great_Fork) but managed to escape. His reputation was tarnished, however, and new leaders emerged among the Poor Fellows, such as Septon [Moon](wiki:Moon_(septon)), [Ragged Silas](wiki:Ragged_Silas), and [Dennis the Lame](wiki:Dennis_the_Lame).(wiki:Horys_Hill.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 In [45 AC](wiki:45_AC), Ser Horys led three hundred Poor Fellows in an effort to prevent the [burning of Jeyne Poore](wiki:Burning_of_Jeyne_Poore). King Maegor had anticipated this, however, and had his men ready for an attack. Horys died in the ensuing ambush.(wiki:Horys_Hill.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Ser Horys Hill, a hedge knight, led the western Poor Fellows and reached the Great Fork with thirteen thousand men; he escaped the battle but his following dwindled (fab-sons-of-the-dragon-05-p02:147)

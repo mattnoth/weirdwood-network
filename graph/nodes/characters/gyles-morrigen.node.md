@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gyles_Morrigen"
 bucket_id: characters-house-morrigen
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gyles Morrigen is a character.human from the AWOIAF wiki.
+Gyles Morrigen — Ser Gyles, a stormlands knight and nephew to Damon the Devout, was chosen as the Crown's champion.
 
 ## Edges
 
@@ -40,3 +40,15 @@ In [57 AC](wiki:Years_after_Aegon's_Conquest) Jaehaerys sent his new [Hand of t
 Late in [73 AC](wiki:Years_after_Aegon's_Conquest), Ser Ryam Redwyne discovered that Ser [Lucamore Strong](wiki:Lucamore_Strong) had broken his sworn vows: he had wed in secret, not once, but thrice, with each woman being ignorant of the other two. On these three wives, he had fathered a total of sixteen children. Incensed, Gyles had Ser Lucamore seized and brought before the [Iron Throne](wiki:Iron_Throne), along with his three wives and all his children. He requested that the king put Ser Lucamore to death, but Jaehaerys instead ordered Strong to be [gelded](wiki:Eunuch) and sent to the [Wall](wiki:Wall) to join the [Night's Watch](wiki:Night's_Watch).(wiki:Gyles_Morrigen.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 
 Morrigen and Ser [Robert Redwyne](wiki:Robert_Redwyne), the [Commander of the City Watch](wiki:City_Watch_of_King's_Landing), escorted Princess [Saera Targaryen](wiki:Saera_Targaryen) before the throne in [84 AC](wiki:Years_after_Aegon's_Conquest) upon the truths that came to light after an incident at the [Blue Pearl](wiki:Blue_Pearl).(wiki:Gyles_Morrigen.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2) Ser Gyles passed away at an unknown date.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Ser Gyles, a stormlands knight and nephew to Damon the Devout, was chosen as the Crown's champion (fab-prince-into-king-06:85)
+- He slew the elderly Ser Harrold and was named Lord Commander of the Kingsguard (fab-prince-into-king-06:85)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Ser Gyles Morrigen, the king’s champion and sworn shield, was among the first Kingsguard named and announced the king's open audiences (fab-year-of-the-three-brides-07:83)
+- At Dragonstone he warned any man who touched the king and queen would die (fab-year-of-the-three-brides-07:237)

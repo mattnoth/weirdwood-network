@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edmyn_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -47,3 +47,8 @@ After Aegon's coronation as [Lord of the Seven Kingdoms](wiki:Lord_of_the_Seven_
 - Edmyn Tully, Lord of Riverrun, led the riverlands in revolt against Harren (fab-aegons-conquest-03:145)
 - Summoned to defend Harrenhal, he declared for Aegon instead and raised the dragon banner (fab-aegons-conquest-03:145)
 - Aegon named him Lord Paramount of the Trident (fab-aegons-conquest-03:177)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Edmyn Tully, Lord of Riverrun, was Aegon's second Hand, serving 7–9 AC (fab-reign-of-the-dragon-04:233)
+- When his wife died in childbed he begged leave to return to the riverlands (fab-reign-of-the-dragon-04:233)

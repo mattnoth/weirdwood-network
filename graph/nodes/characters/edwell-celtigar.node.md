@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edwell_Celtigar"
 bucket_id: characters-house-celtigar
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Edwell Celtigar is a character.human from the AWOIAF wiki.
+Edwell Celtigar, Lord of Claw Isle, had been Hand of the King under Maegor and was recalled to serve as lord treasurer and master of coin.
 
 ## Edges
 
@@ -39,3 +39,11 @@ Upon the ascension of the young [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targary
 Upon King Jaehaerys's sixteenth name day, he returned to King's Landing and kindly dismissed Lord Edwell from his office, thanking him for his services. Three days later the king undid most of the taxes Edwell had placed on the smallfolk, much to the populace's delight.(wiki:Edwell_Celtigar.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
 During the winter of [59 AC](wiki:59_AC) when the [Shivers](wiki:Shivers) spread to the [crownlands](wiki:Crownlands), Lord Edwell was one of the first high lords to die from the disease.(wiki:Edwell_Celtigar.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Edwell Celtigar, Lord of Claw Isle, had been Hand of the King under Maegor and was recalled to serve as lord treasurer and master of coin (fab-year-of-the-three-brides-07:31)
+- He had two unwed daughters and offered them to Jaehaerys as he once had to Maegor (fab-year-of-the-three-brides-07:163)
+- Rogar dismissed the girls scornfully (fab-year-of-the-three-brides-07:165)

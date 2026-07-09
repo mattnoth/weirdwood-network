@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Harroway"
 bucket_id: characters-house-harroway
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -53,3 +53,13 @@ In [48 AC](wiki:48_AC), Queen Tyanna confessed that she [poisoned](wiki:Poison)
 
 - Daughter of the new Lord of Harrenhal, taken by Maegor as a second wife in 39 AC (fab-sons-of-the-dragon-05-p01:225)
 - She accompanied Maegor into exile at Pentos (fab-sons-of-the-dragon-05-p01:237)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Alys of House Harroway, daughter of Lucas, was Maegor's second wife; her father demanded the royal couple acknowledge her as their uncle's lawful wife (fab-sons-of-the-dragon-05-p02:55)
+- She returned from Pentos with Tyanna and presided over Maegor's bedding with Tyanna (fab-sons-of-the-dragon-05-p02:159)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Queen Alys, daughter of Lucas Harroway; in 44 AC she lost her child, a deformed monster. (fab-sons-of-the-dragon-05-p03:85)
+- Her father had sent men to father her children; she was given to Tyanna and her body cut into seven parts and mounted on the city gates. (fab-sons-of-the-dragon-05-p03:99)

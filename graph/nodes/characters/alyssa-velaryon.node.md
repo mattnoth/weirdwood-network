@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyssa_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 2
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -97,3 +97,29 @@ Alyssa had charm, wit, and kindness.(wiki:Alyssa_Velaryon.cite_ref-Rfabthe_year_
 - Daughter of Aethan Velaryon, wed to Aenys in 22 AC at fifteen; the Velaryons were of Valyrian stock, making it a cousin match (fab-sons-of-the-dragon-05-p01:81)
 - She bore Aenys many children — Rhaena, Aegon, Viserys, Jaehaerys, Alysanne, and Vaella (fab-sons-of-the-dragon-05-p01:223)
 - She once teased Maegor as afraid of dragons (fab-sons-of-the-dragon-05-p01:119)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Queen Alyssa, widow of Aenys, sang his dirge at Dragonstone and took her younger children to her father's castle on Driftmark within hours of the funeral (fab-sons-of-the-dragon-05-p02:91)
+- She proclaimed her son Aegon the true king, but few heeded her (fab-sons-of-the-dragon-05-p02:121)
+- Persuaded by Visenya, she returned to court, did homage to Maegor, and was compelled to join his bedding (fab-sons-of-the-dragon-05-p02:159)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Widow of Aenys; she remained on Dragonstone with Jaehaerys and Alysanne as prisoners in all but name. (fab-sons-of-the-dragon-05-p03:77)
+- After Visenya's death she escaped Dragonstone with her children, the dragons Vermithor and Silverwing, and stolen Dark Sister. (fab-sons-of-the-dragon-05-p03:105)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Dowager Queen and mother of Jaehaerys, appointed regent for him (fab-prince-into-king-06:33)
+- Having lost two sons to Maegor's cruelty, she urged the loyalists be put to death without trial, but yielded to her son's wishes (fab-prince-into-king-06:51)
+- She received the heads and hands of Viserys's tormentors and pronounced herself "well pleased" (fab-prince-into-king-06:73)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Alyssa, the Queen Regent and Dowager Queen, was daughter of Aethan Velaryon and Alarra Massey, forty-two years old and thought past childbearing (fab-year-of-the-three-brides-07:49)
+- She wed Prince Aenys in 22 AC and bore him five healthy children, becoming queen when he took the crown in 37 AC (fab-year-of-the-three-brides-07:57)
+- She saw her husband's reign fall to ruin, two sons and a marriage forced upon her daughter under Maegor (fab-year-of-the-three-brides-07:63)
+- She wed Lord Rogar Baratheon in the Golden Wedding (fab-year-of-the-three-brides-07:45)
+- She opposed marrying Jaehaerys to his sister, fearing the reaction of the pious (fab-year-of-the-three-brides-07:173)
+- At Dragonstone she halted the standoff and accepted the marriage (fab-year-of-the-three-brides-07:257)

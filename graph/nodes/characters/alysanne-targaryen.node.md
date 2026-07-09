@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
@@ -207,3 +207,19 @@ Parser `first_available` was AFFC ch 5, but cite_refs show references as early a
 - She was the most prominent dissenter against passing over Rhaenys, telling the king a cock is not essential to rule (fab-heirs-of-the-dragon-15-p01:45)
 - She then flew to Dragonstone on Silverwing, beginning the Second Quarrel (fab-heirs-of-the-dragon-15-p01:45)
 - To her death she insisted her granddaughter Rhaenys had been cheated (fab-heirs-of-the-dragon-15-p01:49)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Daughter of Aenys and Alyssa; a maid of twelve who commanded her own dragon, Silverwing. (fab-sons-of-the-dragon-05-p03:215)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Princess and sister of Jaehaerys who stood by him at his side; at her urging the condemned Kingsguard were offered the black instead of death (fab-prince-into-king-06:81)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Alysanne, thirteen and newly flowered in 49 AC, was the youngest child of Aenys and Alyssa, once called "the little maid" and "the other daughter" (fab-year-of-the-three-brides-07:103)
+- Blue-eyed with honey-colored curls, she was pretty but seldom called beautiful, and no man questioned her wits (fab-year-of-the-three-brides-07:107)
+- She played hostess to the highborn women during the Golden Wedding festivities to great acclaim (fab-year-of-the-three-brides-07:99)
+- When told she was to wed Orryn Baratheon, she went straight to Jaehaerys, flew to Dragonstone, and wed him (fab-year-of-the-three-brides-07:199)
+- She vowed she would always return to him (fab-year-of-the-three-brides-07:265)

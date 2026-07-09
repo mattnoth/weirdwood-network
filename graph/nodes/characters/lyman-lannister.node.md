@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Lyman_Lannister
 bucket_id: characters-house-lannister-j-q
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Eddard II"
 ---
+
+## Identity
+
+Lyman Lannister — Lord Lyman Lannister of Casterly Rock offered Aegon and Rhaena his protection and stood firm against Maegor's demand to return them in chains.
 
 ## Origins
 
@@ -56,3 +60,9 @@ Lyman was alleged to be the richest lord in Westeros.(wiki:Lyman_Lannister.cite_
 - SPOUSE_OF: Jocasta Tarbeck (cite: track_b_row.relationships.spouse)
 - PARENT_OF: Lyman Lannister → Tyler Hill (cite: track_b_row.relationships.issue)
 - CULTURE_OF: Westermen (cite: track_b_row.relationships.culture)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Lord Lyman Lannister of Casterly Rock offered Aegon and Rhaena his protection and stood firm against Maegor's demand to return them in chains (fab-sons-of-the-dragon-05-p02:125)

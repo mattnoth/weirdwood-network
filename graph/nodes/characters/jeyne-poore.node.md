@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Poore"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jeyne Poore is a character.human from the AWOIAF wiki.
+Poxy Jeyne Poore — Woman leader of the Poor Fellows; betrayed by three followers, declared a witch, and burned alive by the Wendwater.
 
 ## Edges
 
@@ -34,3 +34,9 @@ After a year of campaigning, Maegor and his army returned to King's Landing in [
 ## Appearances & Description
 
 Jeyne is said to have been a savage captain of the [Poor Fellows](wiki:Poor_Fellows).(wiki:Jeyne_Poore.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) [Septons](wiki:Septon) serving King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) considered her a [witch](wiki:Witch).(wiki:Jeyne_Poore.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Woman leader of the Poor Fellows; betrayed by three followers, declared a witch, and burned alive by the Wendwater. (fab-sons-of-the-dragon-05-p03:129)

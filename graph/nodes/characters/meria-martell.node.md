@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Meria_Martell"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -47,3 +47,11 @@ Meria fought like a woman, with lies and treachery and witchery.(wiki:Meria_Mart
 - Meria Martell, Princess of Dorne, was eighty years old and had ruled the Dornishmen for sixty years (fab-aegons-conquest-03:279)
 - Argilac had named her "the Yellow Toad of Dorne," but her wits were undulled (fab-aegons-conquest-03:279)
 - the Yellow Toad of Dorne"". She refused to fight or kneel to Rhaenys, declaring Dorne had no king (fab-aegons-conquest-03:281)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Meria was Princess of Dorne, the so-called Yellow Toad (fab-reign-of-the-dragon-04:49)
+- Her forces poisoned wells, burned crops, and never offered battle, and she personally threw the royal castellan from the Spear Tower (fab-reign-of-the-dragon-04:87)
+- When Dornish raiders burned the rainwood, she is reported to have said "Fire for fire" (fab-reign-of-the-dragon-04:101)
+- She died abed in 13 AC of age and ill health, having defeated Aegon and his dragons (fab-reign-of-the-dragon-04:157)
+- Her enemies insisted she died in coitus with a stallion (fab-reign-of-the-dragon-04:135)

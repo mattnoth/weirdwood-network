@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucinda_Tully"
 bucket_id: characters-house-broome
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lucinda Tully is a character.human from the AWOIAF wiki.
+Lucinda Tully — Pious wife of the Lord of Riverrun who lent Joffrey Doggett her support and connivance.
 
 ## Edges
 
@@ -37,3 +37,9 @@ Lucinda and her husband died from the [Shivers](wiki:Shivers) a day apart from e
 ## Appearances & Description
 
 The redoubtable Lucinda was famous for her piety to the [Faith of the Seven](wiki:Faith_of_the_Seven).(wiki:Lucinda_Tully.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Pious wife of the Lord of Riverrun who lent Joffrey Doggett her support and connivance (fab-prince-into-king-06:95)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Harlan_Tyrell
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -58,3 +58,9 @@ Harlan Tyrell was a capable [steward](wiki:Steward) and [lord](wiki:Lord), servi
 
 - Harlan Tyrell was the steward of Highgarden whose forebears had served the Gardeners for centuries (fab-aegons-conquest-03:257)
 - He yielded the castle without a fight and was made Warden of the South and Lord Paramount of the Mander (fab-aegons-conquest-03:257)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Harlan Tyrell, Warden of the South, boasted his host could smash any Dornish army (fab-reign-of-the-dragon-04:57)
+- Sent against Uthor Uller, he lost a quarter of his men to poisoned wells and the sun before reaching an abandoned Hellholt (fab-reign-of-the-dragon-04:63)
+- Setting off across the red sands, he and his entire army vanished (fab-reign-of-the-dragon-04:91)

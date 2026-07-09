@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Damon_Morrigen"
 bucket_id: characters-house-morrigen
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Damon Morrigen is a character.human from the AWOIAF wiki.
+Damon Morrigen — Ser Damon Morrigen, called Damon the Devout, was Grand Captain of the Warrior's Sons who led seven hundred knights down the Hill of Rhaenys and fought Maegor in the Trial of Seven, where he died.
 
 ## Edges
 
@@ -37,3 +37,9 @@ Damon and his comrade Ser [Willam the Wanderer](wiki:Willam_the_Wanderer) were t
 > **Maegor**: Let us not bandy words. Swords will decide this matter. **Damon**: Let each side have seven champions, as it was done in [Andalos](wiki:Andalos) of old. Can you find six men to stand beside you?(wiki:Damon_Morrigen.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 >
 > —[Maegor I Targaryen](wiki:Maegor_I_Targaryen) and Damon
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Ser Damon Morrigen, called Damon the Devout, was Grand Captain of the Warrior's Sons who led seven hundred knights down the Hill of Rhaenys and fought Maegor in the Trial of Seven, where he died (fab-sons-of-the-dragon-05-p02:99)

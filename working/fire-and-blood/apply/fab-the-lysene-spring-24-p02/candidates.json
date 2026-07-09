@@ -714,6 +714,30 @@
       "quote": "the second of his six great voyages",
       "tier": "tier-1",
       "note": "Fire & Blood event: Alyn Velaryon AGENT_IN Oakenfist's second great voyage sets sail"
+    },
+    {
+      "id": "DISP1",
+      "type": "SIBLING_OF",
+      "source": "larra-rogare",
+      "target": "moredo-rogare",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "the rest having gone with her brother Moredo to the Vale",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Larra of Lys SIBLING_OF Moredo Rogare",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "UNCLE_OF",
+      "source": "clarice-osgrey",
+      "target": "unwin-peake",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "Lady Clarice Osgrey, widowed aunt of Lord Unwin Peake",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Clarice Osgrey UNCLE_OF Unwin Peake",
+      "via": "dispute-inject"
     }
   ]
 }

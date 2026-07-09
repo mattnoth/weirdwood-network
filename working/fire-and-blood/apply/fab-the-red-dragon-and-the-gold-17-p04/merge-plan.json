@@ -13,7 +13,7 @@
   },
   {
     "slug": "rhaenyra-targaryen",
-    "fab_section_md": "- On hearing of the betrayal at Tumbleton the queen barred the city gates against turncloaks (fab-the-red-dragon-and-the-gold-17-p04:79)\n- Believing Nettles had bewitched both a dragon and her husband, she sent Lord Mooton a warrant to strike off the girl's head (fab-the-red-dragon-and-the-gold-17-p04:173)\n- She imprisoned Lord Corlys and dismissed Grand Maester Gerardys for defending the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:117)",
+    "fab_section_md": "- On hearing of the betrayal at Tumbleton the queen barred the city gates against turncloaks (fab-the-red-dragon-and-the-gold-17-p04:79)\n- Believing Nettles had bewitched both a dragon and her husband, she sent Lord Mooton a warrant to strike off the girl's head (fab-the-red-dragon-and-the-gold-17-p04:173)\n- She imprisoned Lord Corlys and dismissed Grand Maester Gerardys for defending the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:117)\n- Suspicion aroused, she ordered Ser Addam arrested and had Mysaria questioned about the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:107)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p04-2026-07-09",
     "identity_line": "Rhaenyra Targaryen — On hearing of the betrayal at Tumbleton the queen barred the city gates against turncloaks."
   },
@@ -43,7 +43,7 @@
   },
   {
     "slug": "shepherd",
-    "fab_section_md": "- Munkun suggests he was an outlawed Poor Fellow, while Mushroom calls him \"the Dead Shepherd\" (fab-the-red-dragon-and-the-gold-17-p04:123)\n- He preached that dragons were demons and called down doom on Rhaenyra and Aegon, drawing thousands into the square (fab-the-red-dragon-and-the-gold-17-p04:125)",
+    "fab_section_md": "- Munkun suggests he was an outlawed Poor Fellow, while Mushroom calls him \"the Dead Shepherd\" (fab-the-red-dragon-and-the-gold-17-p04:123)\n- He preached that dragons were demons and called down doom on Rhaenyra and Aegon, drawing thousands into the square (fab-the-red-dragon-and-the-gold-17-p04:125)\n- A one-handed, barefoot itinerant brother in a hair shirt who rose up in Cobbler's Square, his name lost to history (fab-the-red-dragon-and-the-gold-17-p04:123)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p04-2026-07-09",
     "identity_line": "The Shepherd — Munkun suggests he was an outlawed Poor Fellow, while Mushroom calls him \"the Dead Shepherd\"."
   },
@@ -112,5 +112,10 @@
     "fab_section_md": "- Daemon's dragon, the Blood Wyrm, who tore out Vhagar's throat and crawled ashore to die beneath Harrenhal (fab-the-red-dragon-and-the-gold-17-p04:255)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p04-2026-07-09",
     "identity_line": "Caraxes — Daemon's dragon, the Blood Wyrm, who tore out Vhagar's throat and crawled ashore to die beneath Harrenhal."
+  },
+  {
+    "slug": "ulf-white",
+    "fab_section_md": "- One of the Two Betrayers, who gave himself to drunkenness after turning his cloak (fab-the-red-dragon-and-the-gold-17-p04:155)\n- Not content with the knighthood Rhaenyra had given him nor the lordship of Bitterbridge that Daeron granted, he desired Highgarden itself (fab-the-red-dragon-and-the-gold-17-p04:155)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p04-2026-07-09"
   }
 ]

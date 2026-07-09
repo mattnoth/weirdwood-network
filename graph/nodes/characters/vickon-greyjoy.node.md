@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Vickon_Greyjoy
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Vickon Greyjoy, Lord Reaper of Pyke, was chosen by the ironborn as their own lord paramount.
 
 ## Origins
 
@@ -41,3 +45,10 @@ A famous captain, Vickon was a stern, but cautious, ruler. He was loyal to [Hous
 ## Notes
 
 Sources are TWOIAF and Fire & Blood. `first_available` is null as no cite_ref chapters exist in the five main books.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Vickon Greyjoy, Lord Reaper of Pyke, was chosen by the ironborn as their own lord paramount (fab-reign-of-the-dragon-04:43)
+- He did homage to King Aegon and renounced the mainland lands House Hoare had seized (fab-reign-of-the-dragon-04:45)

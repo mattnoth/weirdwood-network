@@ -7,7 +7,7 @@
   },
   {
     "slug": "otto-hightower",
-    "fab_section_md": "- Ser Otto, Hand and grandsire of the king, won over lords, hired sellswords, and sought alliances after Orwyle's peace overtures were rejected (fab-the-red-dragon-and-the-gold-17-p01:37)\n- He reached to Dorne's Qoren Martell, who spurned him, and to the Kingdom of the Three Daughters to break the Velaryon blockade (fab-the-red-dragon-and-the-gold-17-p01:57)",
+    "fab_section_md": "- Ser Otto, Hand and grandsire of the king, won over lords, hired sellswords, and sought alliances after Orwyle's peace overtures were rejected (fab-the-red-dragon-and-the-gold-17-p01:37)\n- He reached to Dorne's Qoren Martell, who spurned him, and to the Kingdom of the Three Daughters to break the Velaryon blockade (fab-the-red-dragon-and-the-gold-17-p01:57)\n- Losing his king's trust, he was stripped of office in favor of Criston Cole (fab-the-red-dragon-and-the-gold-17-p01:39)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09",
     "identity_line": "Otto Hightower — Ser Otto, Hand and grandsire of the king, won over lords, hired sellswords, and sought alliances after Orwyle's peace overtures were rejected."
   },
@@ -19,7 +19,7 @@
   },
   {
     "slug": "aemond-targaryen",
-    "fab_section_md": "- Prince Aemond rode Vhagar to Rook's Rest and helped destroy Meleys and Rhaenys (fab-the-red-dragon-and-the-gold-17-p01:129)",
+    "fab_section_md": "- Prince Aemond rode Vhagar to Rook's Rest and helped destroy Meleys and Rhaenys (fab-the-red-dragon-and-the-gold-17-p01:129)\n- Bidden to rule until Aegon recovered, he took up the Conqueror's crown but named himself only Protector of the Realm and Prince Regent (fab-the-red-dragon-and-the-gold-17-p01:153)\n- He boasted the crown suited him and named Daemon the true danger (fab-the-red-dragon-and-the-gold-17-p01:153)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09",
     "identity_line": "Aemond Targaryen — Prince Aemond rode Vhagar to Rook's Rest and helped destroy Meleys and Rhaenys."
   },
@@ -67,7 +67,7 @@
   },
   {
     "slug": "addam-velaryon",
-    "fab_section_md": "- Munkun and Eustace name Laenor his father, but Mushroom insists Corlys himself sired him (fab-the-red-dragon-and-the-gold-17-p01:235)",
+    "fab_section_md": "- Munkun and Eustace name Laenor his father, but Mushroom insists Corlys himself sired him (fab-the-red-dragon-and-the-gold-17-p01:235)\n- He was legitimized as Addam Velaryon, heir to Driftmark (fab-the-red-dragon-and-the-gold-17-p01:235)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09",
     "identity_line": "Addam of Hull — Munkun and Eustace name Laenor his father, but Mushroom insists Corlys himself sired him."
   },
@@ -147,5 +147,25 @@
     "fab_section_md": "- Dorne's ruling prince, who had once warred against Daemon and refused Otto's offer (fab-the-red-dragon-and-the-gold-17-p01:37)",
     "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09",
     "identity_line": "Qoren Martell — Dorne's ruling prince, who had once warred against Daemon and refused Otto's offer."
+  },
+  {
+    "slug": "alyn-velaryon",
+    "fab_section_md": "- Alyn, one year younger than Addam, hoped to tame Sheepstealer and Grey Ghost but was badly burned; his brother saved him (fab-the-red-dragon-and-the-gold-17-p01:245)\n- He carried the scars the rest of his long life and became Alyn Velaryon (fab-the-red-dragon-and-the-gold-17-p01:245)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09"
+  },
+  {
+    "slug": "baela-targaryen",
+    "fab_section_md": "- Daughter of Daemon by Laena and twin of Rhaena, Baela refused to leave Dragonstone or Jacaerys (fab-the-red-dragon-and-the-gold-17-p01:179)\n- Her dragon Moondancer was too small to bear her, and no wedding to Jace was held (fab-the-red-dragon-and-the-gold-17-p01:179)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09"
+  },
+  {
+    "slug": "meleys",
+    "fab_section_md": "- \"The Red Queen,\" Rhaenys's scarlet mount, was hit by many arrows but killed and broken in the fall; her head was drawn through King's Landing on a cart (fab-the-red-dragon-and-the-gold-17-p01:141)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09"
+  },
+  {
+    "slug": "cannibal-dragon",
+    "fab_section_md": "- The largest and oldest wild dragon, said by some smallfolk to have laired on Dragonstone before the Targaryens; he devoured Silver Denys and his sons (fab-the-red-dragon-and-the-gold-17-p01:245)",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p01-2026-07-09"
   }
 ]

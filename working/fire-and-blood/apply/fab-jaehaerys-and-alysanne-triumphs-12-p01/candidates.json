@@ -449,6 +449,30 @@
       "quote": "burned the yards where they were built",
       "tier": "tier-1",
       "note": "Fire & Blood event: Brandon the Burner AGENT_IN Brandon the Burner burns the shipyards"
+    },
+    {
+      "id": "DISP1",
+      "type": "ANCESTOR_OF",
+      "source": "donnel-hightower",
+      "target": "eustace-hightower",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Lord Donnel’s grandsons Eustace and Norman",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Donnel Hightower ANCESTOR_OF Eustace Hightower",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "ANCESTOR_OF",
+      "source": "donnel-hightower",
+      "target": "norman-hightower",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Lord Donnel’s grandsons Eustace and Norman",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Donnel Hightower ANCESTOR_OF Norman Hightower",
+      "via": "dispute-inject"
     }
   ]
 }

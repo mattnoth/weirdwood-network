@@ -865,6 +865,90 @@
       "note": "Fire & Blood event: Erryk Cargyll VICTIM_IN Slaying of the Cargyll twins",
       "in_universe_source": "eustace",
       "disputed": true
+    },
+    {
+      "id": "DISP1",
+      "type": "ANCESTOR_OF",
+      "source": "otto-hightower",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "he knocked the inkpot into his grandsire's lap",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Otto Hightower ANCESTOR_OF Aegon II Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "UNCLE_OF",
+      "source": "otto-hightower",
+      "target": "ormund-hightower",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "Ser Otto sent word to his nephew, Lord Ormund Hightower",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Otto Hightower UNCLE_OF Ormund Hightower",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "SIBLING_OF",
+      "source": "arryk-cargyll",
+      "target": "erryk-cargyll",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "Ser Arryk and his brother Ser Erryk were twins, identical in all respects",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Arryk Cargyll SIBLING_OF Erryk Cargyll",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "lucerys-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "so griefsick over the death of her son Lucerys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen PARENT_OF Lucerys Velaryon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP5",
+      "type": "PARENT_OF",
+      "source": "daemon-targaryen",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "Lady Rhaena's twin, Baela, remained on Dragonstone",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daemon Targaryen PARENT_OF Baela Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP6",
+      "type": "SIBLING_OF",
+      "source": "rhaena-targaryen-daughter-of-daemon",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "Lady Rhaena's twin, Baela",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaena Targaryen SIBLING_OF Baela Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP7",
+      "type": "BONDED_TO",
+      "source": "baela-targaryen",
+      "target": "moondancer",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "she would fight beside him on her own dragon...though Moondancer",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baela Targaryen BONDED_TO Moondancer",
+      "via": "dispute-inject"
     }
   ]
 }

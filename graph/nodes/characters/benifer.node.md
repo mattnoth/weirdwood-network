@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Benifer
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Benifer — Grand Maester, newly returned from self-imposed exile in Pentos, who praised Jaehaerys as learned and pious.
 
 ## Origins
 
@@ -42,3 +46,10 @@ Benifer was among the most diligent of the forty odd men who served as Grand Mae
 - SWORN_TO: House Targaryen (track_b: Allegiances)
 - HOLDS_TITLE: Grand Maester (track_b: Title)
 - DIED_AT: King's Landing (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Grand Maester, newly returned from self-imposed exile in Pentos, who praised Jaehaerys as learned and pious (fab-prince-into-king-06:91)
+- He wrote that the meeting between king and outlaw knight "set the table" for the reign (fab-prince-into-king-06:165)

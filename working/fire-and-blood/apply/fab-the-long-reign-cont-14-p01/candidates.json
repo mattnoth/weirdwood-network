@@ -392,6 +392,18 @@
       "quote": "a daughter they named Maegelle",
       "tier": "tier-1",
       "note": "Fire & Blood event: Maegelle Targaryen PARTICIPATES_IN Birth of Princess Maegelle"
+    },
+    {
+      "id": "DISP1",
+      "type": "ANCESTOR_OF",
+      "source": "donnel-hightower",
+      "target": "eustace-hightower",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p01",
+      "quote": "Nor was his grandsire, Lord of the Hightower. Donnel the Delayer",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Donnel the Delayer ANCESTOR_OF Eustace Hightower",
+      "via": "dispute-inject"
     }
   ]
 }

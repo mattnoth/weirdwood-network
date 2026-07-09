@@ -55,7 +55,7 @@
   },
   {
     "slug": "lysandro-rogare",
-    "fab_section_md": "- Lysandro Rogare, \"the Magnificent,\" was patriarch of a rich Lyseni banking and trading dynasty tracing its blood to Valyria before the Doom (fab-voyage-of-alyn-oakenfist-23:177)\n- Once he learned his captive was a prince, he married Viserys to Larra rather than sell his favors (fab-voyage-of-alyn-oakenfist-23:177)",
+    "fab_section_md": "- Lysandro Rogare, \"the Magnificent,\" was patriarch of a rich Lyseni banking and trading dynasty tracing its blood to Valyria before the Doom (fab-voyage-of-alyn-oakenfist-23:177)\n- Once he learned his captive was a prince, he married Viserys to Larra rather than sell his favors (fab-voyage-of-alyn-oakenfist-23:177)\n- He struck the ransom terms with Alyn: a hundred thousand dragons, lordships for three sons, and a pledge never to void the marriage (fab-voyage-of-alyn-oakenfist-23:183)",
     "run_id": "fab-voyage-of-alyn-oakenfist-23-2026-07-09",
     "identity_line": "Lysandro Rogare, \"the Magnificent,\" was patriarch of a rich Lyseni banking and trading dynasty tracing its blood to Valyria before the Doom."
   },
@@ -94,5 +94,15 @@
     "fab_section_md": "- Ser Russell Stillman squired for Alyn, was knighted by him, later lost a leg on Alyn's fifth voyage, and wrote the vulgar life *Hard as Oak* (fab-voyage-of-alyn-oakenfist-23:25)",
     "run_id": "fab-voyage-of-alyn-oakenfist-23-2026-07-09",
     "identity_line": "Russell Stillman — Ser Russell Stillman squired for Alyn, was knighted by him, later lost a leg on Alyn's fifth voyage, and wrote the vulgar life *Hard as Oak*."
+  },
+  {
+    "slug": "gunthor-goodbrother",
+    "fab_section_md": "- Gunthor Goodbrother, a \"roaring giant\" of the Faircastle garrison, slew his fellow commander Alester Wynch in a quarrel over Lysa Farman (fab-voyage-of-alyn-oakenfist-23:99)",
+    "run_id": "fab-voyage-of-alyn-oakenfist-23-2026-07-09"
+  },
+  {
+    "slug": "alester-wynch",
+    "fab_section_md": "- Alester Wynch, called \"the sly,\" helped hold Faircastle for the ironborn until Gunthor Goodbrother killed him (fab-voyage-of-alyn-oakenfist-23:99)",
+    "run_id": "fab-voyage-of-alyn-oakenfist-23-2026-07-09"
   }
 ]

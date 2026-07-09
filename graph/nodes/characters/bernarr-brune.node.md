@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Bernarr_Brune"
 bucket_id: characters-house-brune
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Bernarr Brune is a character.human from the AWOIAF wiki.
+Bernarr Brune — Ser Bernarr Brune, the squire who had slain Harren the Red and been knighted by Aenys, shamed the crowd into offering their swords for Maegor.
 
 ## Edges
 
@@ -35,3 +35,9 @@ During the fight against the Warrior's Sons, Ser Bernarr was killed.(wiki:Bernar
 ### Quotes by Bernarr
 
 > This [bean](wiki:Dick_Bean) shames us all! Are there no [true knights](wiki:True_knight) here? No leal men?(wiki:Bernarr_Brune.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Ser Bernarr Brune, the squire who had slain Harren the Red and been knighted by Aenys, shamed the crowd into offering their swords for Maegor (fab-sons-of-the-dragon-05-p02:109)

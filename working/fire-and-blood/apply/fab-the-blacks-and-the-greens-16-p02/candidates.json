@@ -520,6 +520,114 @@
       "quote": "all the city's ratcatchers be taken out and hanged",
       "tier": "tier-1",
       "note": "Fire & Blood event: Aegon II Targaryen AGENT_IN Hanging of the ratcatchers"
+    },
+    {
+      "id": "DISP1",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "joffrey-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "Luke’s young brother Joffrey",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen PARENT_OF Joffrey Velaryon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "SIBLING_OF",
+      "source": "lucerys-velaryon",
+      "target": "joffrey-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "Luke’s young brother Joffrey",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lucerys Velaryon SIBLING_OF Joffrey Velaryon",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "SPOUSE_OF",
+      "source": "aegon-ii-targaryen",
+      "target": "helaena-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "his wife, Queen Helaena",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon II Targaryen SPOUSE_OF Helaena Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "SIBLING_OF",
+      "source": "aegon-ii-targaryen",
+      "target": "helaena-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "his mother, Queen Alicent, and his wife, Queen Helaena",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon II Targaryen SIBLING_OF Helaena Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP5",
+      "type": "PARENT_OF",
+      "source": "alicent-hightower",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "his mother, Queen Alicent",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alicent Hightower PARENT_OF Aegon II Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP6",
+      "type": "PARENT_OF",
+      "source": "alicent-hightower",
+      "target": "aemond-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "his mother, Queen Alicent, and his wife, Queen Helaena",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alicent Hightower PARENT_OF Aemond Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP7",
+      "type": "PARENT_OF",
+      "source": "lyonel-strong",
+      "target": "harwin-strong",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "his sons Harwin (Breakbones) and Larys (the Clubfoot)",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lyonel Strong PARENT_OF Harwin Strong",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP8",
+      "type": "PARENT_OF",
+      "source": "lyonel-strong",
+      "target": "larys-strong",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "his sons Harwin (Breakbones) and Larys (the Clubfoot)",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lyonel Strong PARENT_OF Larys Strong",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP9",
+      "type": "PARENT_OF",
+      "source": "boremund-baratheon",
+      "target": "borros-baratheon",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "Borros Baratheon was a man of much different character than his father",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Boremund Baratheon PARENT_OF Borros Baratheon",
+      "via": "dispute-inject"
     }
   ]
 }

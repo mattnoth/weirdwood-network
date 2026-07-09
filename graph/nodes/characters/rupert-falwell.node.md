@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rupert_Falwell"
 bucket_id: characters-house-falwell
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rupert Falwell is a character.human from the AWOIAF wiki.
+Rupert Falwell — Lord Rupert Falwell, "the Fighting Fool," led the pious at the Great Fork and slew two Kingsguard before he was cut down by the Lord of Maidenpool.
 
 ## Edges
 
@@ -26,3 +26,9 @@ Rupert Falwell is a character.human from the AWOIAF wiki.
 ## Origins
 
 At the [battle at the Great Fork](wiki:Battle_at_the_Great_Fork) of the [Blackwater](wiki:Blackwater_Rush) in [42 AC](wiki:42_AC), Lord Rupert led the ranks of the pious that had answered the [High Septon's](wiki:High_Septon_(Aenys_I)) and the [Starry Sept](wiki:Starry_Sept)'s call to took up arms against the [Iron Throne](wiki:Iron_Throne). Those that rode with him against the royal army led by King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) himself, included Ser [Lyonel Lorch](wiki:Lyonel_Lorch), Ser [Alyn Terrick](wiki:Alyn_Terrick), Lord [Tristifer Wayn](wiki:Tristifer_Wayn), Lord [Jon Lychester](wiki:Jon_Lychester), along with many other puissant [knights](wiki:Knight). The famed Fighting Fool slew two knights of the [Kingsguard](wiki:Kingsguard) before being cut down by Lord [Mooton](wiki:House_Mooton) of [Maidenpool](wiki:Maidenpool).(wiki:Rupert_Falwell.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Lord Rupert Falwell, "the Fighting Fool," led the pious at the Great Fork and slew two Kingsguard before he was cut down by the Lord of Maidenpool (fab-sons-of-the-dragon-05-p02:149)

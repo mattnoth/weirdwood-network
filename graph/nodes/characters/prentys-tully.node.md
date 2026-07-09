@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Prentys_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Prentys Tully, Lord of Riverrun, was summoned to court as master of laws and royal justiciar.
 
 ## Origins
 
@@ -46,3 +50,10 @@ Prentys Tully's term in the [small council](wiki:Small_council) as [master of la
 - CULTURE_OF: Rivermen (track_b: Culture)
 - SPOUSE_OF: Lucinda Broome (track_b: Spouse)
 - DIED_AT: Riverrun (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Prentys Tully, Lord of Riverrun, was summoned to court as master of laws and royal justiciar (fab-year-of-the-three-brides-07:31)
+- He nominated a younger sister of his wife Lucinda as a bride for the king (fab-year-of-the-three-brides-07:161)

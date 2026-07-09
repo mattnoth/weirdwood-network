@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Orryn_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Orryn Baratheon, the youngest of Lord Rogar's brothers, was chosen by the council to wed Princess Alysanne.
 
 ## Origins
 
@@ -30,3 +34,9 @@ Orryn and the dozen men who had accompanied him to Oldtown traveled to the [Free
 - PARENT_OF: Daughter (unnamed) (track_b: Issue)
 - CULTURE_OF: Stormlander (track_b: Culture)
 - DIED_AT: Disputed Lands (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Orryn Baratheon, the youngest of Lord Rogar's brothers, was chosen by the council to wed Princess Alysanne (fab-year-of-the-three-brides-07:185)

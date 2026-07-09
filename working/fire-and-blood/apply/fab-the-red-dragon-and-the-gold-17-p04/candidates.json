@@ -637,6 +637,18 @@
       "quote": "the dragons danced and died above the Gods Eye",
       "tier": "tier-1",
       "note": "Fire & Blood event: Aemond Targaryen VICTIM_IN Battle above the Gods Eye"
+    },
+    {
+      "id": "DISP1",
+      "type": "SIBLING_OF",
+      "source": "addam-velaryon",
+      "target": "alyn-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "Ser Addam and his brother, Alyn",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Addam Velaryon SIBLING_OF Alyn Velaryon",
+      "via": "dispute-inject"
     }
   ]
 }

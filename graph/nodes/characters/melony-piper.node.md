@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Melony_Piper"
 bucket_id: characters-house-piper
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Melony Piper is a character.human from the AWOIAF wiki.
+Melony Piper — Sister of Jon Piper and Rhaena's girlhood friend; she led the Piper levies in man's mail and died at the Gods Eye.
 
 ## Edges
 
@@ -36,3 +36,9 @@ Melony donned man's mail, with a spear, and led the Piper levies against Maegor.
 ## Appearances & Description
 
 Melony was red-haired and with a fiery personality.(wiki:Melony_Piper.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Sister of Jon Piper and Rhaena's girlhood friend; she led the Piper levies in man's mail and died at the Gods Eye. (fab-sons-of-the-dragon-05-p03:35)

@@ -1,7 +1,7 @@
 [
   {
     "slug": "jaehaerys-i-targaryen",
-    "fab_section_md": "- King of the Seven Kingdoms under his mother's regency; he wed his sister Alysanne in a sudden secret marriage that took the Hand and Queen Regent unawares (fab-surfeit-of-rulers-08-p01:35)\n- He remained on Dragonstone, unwilling to be ruled by Rogar Baratheon though grateful for his help to the throne (fab-surfeit-of-rulers-08-p01:99)\n- He expected to be tested as his father had been (fab-surfeit-of-rulers-08-p01:107)",
+    "fab_section_md": "- King of the Seven Kingdoms under his mother's regency; he wed his sister Alysanne in a sudden secret marriage that took the Hand and Queen Regent unawares (fab-surfeit-of-rulers-08-p01:35)\n- He remained on Dragonstone, unwilling to be ruled by Rogar Baratheon though grateful for his help to the throne (fab-surfeit-of-rulers-08-p01:99)\n- He expected to be tested as his father had been (fab-surfeit-of-rulers-08-p01:107)\n- He trained daily at arms against the garrison, \"dying\" so often the men made a game of it (fab-surfeit-of-rulers-08-p01:105)",
     "run_id": "fab-surfeit-of-rulers-08-p01-2026-07-09",
     "identity_line": "Jaehaerys I Targaryen — King of the Seven Kingdoms under his mother's regency; he wed his sister Alysanne in a sudden secret marriage that took the Hand and Queen Regent unawares."
   },
@@ -154,5 +154,10 @@
     "fab_section_md": "- Rhaena's late first husband, Prince Aegon, who faced Maegor at the Battle Beneath the Gods Eye (fab-surfeit-of-rulers-08-p01:27)",
     "run_id": "fab-surfeit-of-rulers-08-p01-2026-07-09",
     "identity_line": "Aegon the Uncrowned — Rhaena's late first husband, Prince Aegon, who faced Maegor at the Battle Beneath the Gods Eye."
+  },
+  {
+    "slug": "pate-the-woodcock",
+    "fab_section_md": "- Young garrison man who won the contest to \"kill\" the king most in training bouts (fab-surfeit-of-rulers-08-p01:105)",
+    "run_id": "fab-surfeit-of-rulers-08-p01-2026-07-09"
   }
 ]

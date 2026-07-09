@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ollidar
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Ollidar — Archmaester Ollidar, keeper of histories, was the first Grand Maester, his ring and rod and mask of bronze.
 
 ## Origins
 
@@ -32,3 +36,10 @@ Ollidar was exceptionally learned. While he was an archmaester, his ring, rod, a
 ## Notes
 
 Died in 5 or 6 AC — wiki gives both dates (track_b: Died). His bronze regalia is unusual; copper is the established metal for historian archmaesters per AFFC appendix. This may be an error or reflect changed Citadel traditions (wiki:Ollidar). Source is Fire & Blood only — no ASOIAF main series citations.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Archmaester Ollidar, keeper of histories, was the first Grand Maester, his ring and rod and mask of bronze (fab-reign-of-the-dragon-04:245)
+- Exceptionally old, he died less than a year into the office (fab-reign-of-the-dragon-04:245)

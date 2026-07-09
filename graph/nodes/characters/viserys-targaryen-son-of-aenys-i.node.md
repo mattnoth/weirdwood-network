@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Viserys_Targaryen_(son_of_Aenys_I)
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -71,3 +71,9 @@ Viserys was a promising lad beloved of both the [commons](wiki:Smallfolk) and [l
 ## Notes
 
 Born 29 AC, died 44 AC at age 15 (track_b: Born, Died).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->
+
+- Eldest surviving son of Aenys and Alyssa; summoned to court and made Maegor's squire under a Kingsguard shadow. (fab-sons-of-the-dragon-05-p03:77)

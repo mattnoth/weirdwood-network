@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -129,3 +129,14 @@ Cite refs: ACOK ch12, ch63; AFFC ch34. Also mentioned in TWOIAF, Fire and Blood,
 
 - Aegon's younger sister-wife; her son Aenys was born in 7 AC (fab-sons-of-the-dragon-05-p01:19)
 - She and her dragon Meraxes were slain in Dorne when Aenys was three (fab-sons-of-the-dragon-05-p01:23)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Rhaenys rode Meraxes and opened the First Dornish War in 4 AC, burning the Planky Town (fab-reign-of-the-dragon-04:53)
+- While Aegon marched, she took Lemonwood, Spottswood, and Stinkwater but found no enemy, reporting that "The Yellow / Toad has melted into the sands" (fab-reign-of-the-dragon-04:81)
+- She was a patron of bards and singers (fab-reign-of-the-dragon-04:255)
+- — took a great interest in the smallfolk and women and children (fab-reign-of-the-dragon-04:259)
+- — and her ruling in a wife-beating case gave the realm the "rule of six" (fab-reign-of-the-dragon-04:265)
+- She died at the Hellholt in 10 AC when Meraxes was killed; how she died is disputed. Some say she lost her seat and fell (fab-reign-of-the-dragon-04:123)
+- — others that she was crushed beneath Meraxes (fab-reign-of-the-dragon-04:123)
+- — and a few accounts claim she died by torment in the dungeons of the Ullers (fab-reign-of-the-dragon-04:123)

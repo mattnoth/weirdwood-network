@@ -130,6 +130,18 @@
       "note": "Fire & Blood event: Sun Chaser PARTICIPATES_IN Sun Chaser glimpsed in Asshai's harbor",
       "in_universe_source": "unattributed",
       "disputed": true
+    },
+    {
+      "id": "DISP1",
+      "type": "ANCESTOR_OF",
+      "source": "donnel-hightower",
+      "target": "eustace-hightower",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-13",
+      "quote": "Lord Donnel’s grandson",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Donnel Hightower ANCESTOR_OF Eustace Hightower",
+      "via": "dispute-inject"
     }
   ]
 }

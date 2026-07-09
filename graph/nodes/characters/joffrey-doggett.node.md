@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Doggett"
 bucket_id: characters-house-doggett
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Joffrey Doggett is a character.human from the AWOIAF wiki.
+Joffrey Doggett — Ser Joffrey Doggett, the Red Dog of the Hills, was chosen new grand captain of the Warrior's Sons and gathered two thousand men; Maegor later burned his family's seat and killed his kin.
 
 ## Edges
 
@@ -59,3 +59,14 @@ During the harsh winter of [59 AC](wiki:59_AC) and the ensuing plague of the [S
 ## Appearances & Description
 
 Joffrey wielded a [longsword](wiki:Longsword).(wiki:Joffrey_Doggett.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+- Ser Joffrey Doggett, the Red Dog of the Hills, was chosen new grand captain of the Warrior's Sons and gathered two thousand men; Maegor later burned his family's seat and killed his kin (fab-sons-of-the-dragon-05-p02:191)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- "The Red Dog of the Hills," self-proclaimed Grand Captain of the Warrior's Sons, who moved between the westerlands and riverlands with Lady Lucinda's support (fab-prince-into-king-06:95)
+- He came to the coronation under the king's safe conduct and was offered a place in the Kingsguard, which he accepted with tears (fab-prince-into-king-06:173)

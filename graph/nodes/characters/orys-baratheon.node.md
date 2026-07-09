@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Orys_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 5
+node_version: 7
 pass_origin: pass2-wiki
 ---
 
@@ -114,3 +114,17 @@ Died 37 AC, between Stonehelm and Storm's End (track_b: Died). Raymont Baratheon
 - Known now as Orys One-Hand, he rode from Storm's End to smash the Dornish beneath Stonehelm (fab-sons-of-the-dragon-05-p01:207)
 - He mutilated the captured Walter Wyl in payment for his own lost hand, calling the deed usury (fab-sons-of-the-dragon-05-p01:207)
 - He died of his battle wounds on the march back to Storm's End (fab-sons-of-the-dragon-05-p01:207)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
+
+- Orys was Aegon's bastard half-brother and first Hand (fab-reign-of-the-dragon-04:233)
+- He led one thousand picked knights up the Boneway (fab-reign-of-the-dragon-04:55)
+- — where his men were butchered and he was taken captive by Wyl of Wyl (fab-reign-of-the-dragon-04:69)
+- Ransomed in 7 AC, he returned to find his sword hand lopped off (fab-reign-of-the-dragon-04:95)
+- — and afterward asked to be relieved as Hand (fab-reign-of-the-dragon-04:233)
+- In his bitter later years he argued that Princess Deria be sent home "less a hand" (fab-reign-of-the-dragon-04:135)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
+
+- Orys One-Hand was the first Baratheon Lord of Storm's End, a bastard brother and trusted commander of Aegon the Conqueror (fab-year-of-the-three-brides-07:37)
+- He slew Argilac the Arrogant and wed Argilac's daughter (fab-year-of-the-three-brides-07:37)

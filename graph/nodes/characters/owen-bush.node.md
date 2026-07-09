@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Owen_Bush"
 bucket_id: characters-house-bush
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Owen Bush is a character.human from the AWOIAF wiki.
+Owen Bush — Ser; Sworn Brother of Maladon Moore, said to have removed Ceryse Hightower's tongue.
 
 ## Edges
 
@@ -38,3 +38,9 @@ That same year, Maegor the Cruel gradually lost political support, resulting in 
 > **Maegor**: Chain [him](wiki:Viserys_Targaryen_(son_of_Aenys_I)) in a [black cell](wiki:Black_cell) and question him sharply. Ask him where [his mother](wiki:Alyssa_Velaryon) has gone. **Owen**: He may not know. **Maegor**: Then let him die. Perhaps the bitch will turn up for his funeral.(wiki:Owen_Bush.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 >
 > —[Maegor I Targaryen](wiki:Maegor_I_Targaryen) and Owen
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- Ser; Sworn Brother of Maladon Moore, said to have removed Ceryse Hightower's tongue (fab-prince-into-king-06:75)

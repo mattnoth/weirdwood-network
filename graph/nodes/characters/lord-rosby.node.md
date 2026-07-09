@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Rosby"
 bucket_id: characters-house-rosby
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lord Rosby is a character.human from the AWOIAF wiki.
+Lord Rosby — A Maegor loyalist among the last to see the king alive, who drank hemlock to join his king in death.
 
 ## Edges
 
@@ -39,3 +39,9 @@ When Ser [Criston Cole](wiki:Criston_Cole) marched from [King's Landing](wiki:Ki
 Lord Rosby left behind at least two children, including a twelve-year-old daughter and a younger son. Prince [Daemon Targaryen](wiki:Daemon_Targaryen) suggested marrying Rosby's young daughter to [Hugh Hammer](wiki:Hugh_Hammer), to grant Hammer the Rosby lands. Lord [Corlys Velaryon](wiki:Corlys_Velaryon), the [Hand of the Queen](wiki:Hand_of_the_Queen), argued instead that Rosby's younger son should receive the inheritance. According to Lord Corlys, Rhaenyra's case was special, as King Viserys had named her as his heir, but Lord Rosby had never done so. Disinheriting the younger son in favor of the older daughter would call into question the rights of multiple other lords, who had elder sisters whose claims might suddenly be seen as superior. According to [Grand Maester](wiki:Grand_Maester) [Munkun](wiki:Munkun), Rhaenyra was unwilling to lose the support of such lords, and named Rosby's son as the new [Lord of Rosby](wiki:Lord_of_Rosby).(wiki:Lord_Rosby.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 Later in [130 AC](wiki:130_AC), [riots in King's Landing](wiki:Riot_of_King's_Landing_(Dance_of_the_Dragons)) led Queen Rhaenyra to abandon the city and [flee to](wiki:Flight_to_Dragonstone) [Dragonstone](wiki:Dragonstone). On the way, she found Rosby's castle gates barred at her approach, by the command of the late Lord Rosby's daughter, whose claim Rhaenyra had passed over in favor of her younger brother.(wiki:Lord_Rosby.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- A Maegor loyalist among the last to see the king alive, who drank hemlock to join his king in death (fab-prince-into-king-06:41)

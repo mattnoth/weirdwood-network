@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Harrold_Langward"
 bucket_id: characters-house-langward
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Harrold Langward is a character.human from the AWOIAF wiki.
+Harrold Langward — The fifth surviving Kingsguard, who demanded and was granted a trial by battle, and died against Gyles Morrigen.
 
 ## Edges
 
@@ -30,3 +30,9 @@ Ser Harrold served in the Kingsguard during Maegor's reign. After King Maegor's 
 ## Appearances & Description
 
 By [48 AC](wiki:48_AC) Harrold was an elderly man.(wiki:Harrold_Langward.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
+
+- The fifth surviving Kingsguard, who demanded and was granted a trial by battle, and died against Gyles Morrigen (fab-prince-into-king-06:85)
