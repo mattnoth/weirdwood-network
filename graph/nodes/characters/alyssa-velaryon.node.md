@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyssa_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 6
+node_version: 10
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -123,3 +123,28 @@ Alyssa had charm, wit, and kindness.(wiki:Alyssa_Velaryon.cite_ref-Rfabthe_year_
 - She wed Lord Rogar Baratheon in the Golden Wedding (fab-year-of-the-three-brides-07:45)
 - She opposed marrying Jaehaerys to his sister, fearing the reaction of the pious (fab-year-of-the-three-brides-07:173)
 - At Dragonstone she halted the standoff and accepted the marriage (fab-year-of-the-three-brides-07:257)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Queen Regent, widow of King Aenys, wife of the Hand Rogar Baratheon, and mother of the three queens' generation (fab-surfeit-of-rulers-08-p01:27)
+- She wished the king's rash marriage undone, fearing it would set the Faith against the Crown, yet could seldom bring herself to act; as Septon Barth wrote, she "desired above all to be loved" (fab-surfeit-of-rulers-08-p01:69)
+- She saw the sending of companions as a chance to undo the marriage (fab-surfeit-of-rulers-08-p01:143)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Queen Alyssa, the Queen Regent, hoped her Wise Women and piety would break Jaehaerys and Alysanne apart, but at last accepted the marriage (fab-surfeit-of-rulers-08-p02:149)
+- ". When Rogar demanded they put Jaehaerys aside, she dismissed him from the Hand's office (fab-surfeit-of-rulers-08-p02:165)
+- ". She had Lord Corbray spirit Princess Aerea away and named her brother Daemon Velaryon Hand, then withdrew from public life (fab-surfeit-of-rulers-08-p02:191)
+- Septon Barth wrote that this final rift shattered her (fab-surfeit-of-rulers-08-p02:189)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- The Dowager Queen, no longer a regent, was found weeping in Maegor's Holdfast and lost her seat at council (fab-time-of-testing-09:33)
+- As a condition of Rogar's pardon she returned to Storm's End to live as his wife again (fab-time-of-testing-09:105)
+- She had made her late husband Aenys's court a splendid place of song and beauty (fab-time-of-testing-09:225)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- The Dowager Queen, thought past childbearing, whose pregnancy at forty-four was received as a miracle (fab-birth-death-and-betrayal-10:55)
+- She was fearful, recalling the babe Vaella she bore King Aenys who died in the cradle (fab-birth-death-and-betrayal-10:59)
+- She bore a healthy son, Boremund, and then conceived again at forty-six (fab-birth-death-and-betrayal-10:159)

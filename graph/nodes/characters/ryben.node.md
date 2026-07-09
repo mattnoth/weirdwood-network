@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ryben"
 bucket_id: characters-other-r-s
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Ryben is a character.human from the AWOIAF wiki.
+Ryben — Maester and the Citadel's foremost expert on obscene texts, who dismissed the tale as a bawdy invention.
 
 ## Edges
 
@@ -31,3 +31,9 @@ Ryben is a character.human from the AWOIAF wiki.
 > “Amongst the smallfolk there are always men of a lascivious character who delight in tales of great lords and noble knights despoiling maidens, for this persuades them that their betters share their own base lusts.” (wiki:Ryben.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
 > —writings of Ryben
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Maester and the Citadel's foremost expert on obscene texts, who dismissed the tale as a bawdy invention (fab-surfeit-of-rulers-08-p01:207)

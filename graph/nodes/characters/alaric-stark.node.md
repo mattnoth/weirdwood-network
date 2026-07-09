@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alaric_Stark"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Alaric Stark, Brandon's second son, became Lord of Winterfell and ruled the North twenty-three years, an able but stern man who long blamed Jaehaerys's clemency for Walton's death.
 
 ## Origins
 
@@ -59,3 +63,9 @@ According to Archmaester [Gyldayn](wiki:Gyldayn), after spending some time at Wi
 - PARENT_OF (reverse): Brandon Stark (track_b: Father)
 - SPOUSE_OF: Mormont (track_b: Spouse)
 - PARENT_OF: Alarra Stark (track_b: Issue)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Alaric Stark, Brandon's second son, became Lord of Winterfell and ruled the North twenty-three years, an able but stern man who long blamed Jaehaerys's clemency for Walton's death (fab-surfeit-of-rulers-08-p02:109)

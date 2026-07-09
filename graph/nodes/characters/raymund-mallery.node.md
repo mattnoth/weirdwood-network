@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Raymund_Mallery"
 bucket_id: characters-house-mallery
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Raymund Mallery is a character.human from the AWOIAF wiki.
+Raymund Mallery — Ser Raymund Mallery co-led the Night's Watch rebellion, fled beyond the Wall to the wildlings, who killed him and his men.
 
 ## Edges
 
@@ -30,3 +30,9 @@ Raymund Mallery is a character.human from the AWOIAF wiki.
 Ser Raymund and his sworn brother of the Kingsguard, Ser [Olyver Bracken](wiki:Olyver_Bracken), abandoned King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) in [48 AC](wiki:48_AC) when Prince [Jaehaerys](wiki:Jaehaerys_I_Targaryen) made his claim for the [Iron Throne](wiki:Iron_Throne). Since both men had broken their [Kingsguard](wiki:Kingsguard) oaths by not protecting Maegor, and Jaehaerys did not wish for oathbreakers to serve him, after taking the throne he offered them the choice of execution or taking the black. They both chose to join the [Night's Watch](wiki:Night's_Watch).(wiki:Raymund_Mallery.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 The [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night's_Watch) gave Ser Raymund command of [Sable Hall](wiki:Sable_Hall) and Ser Olyver command of [Rimegate](wiki:Rimegate), with orders to restore the crumbling forts of the [Wall](wiki:Wall). However, in [50 AC](wiki:50_AC), Raymund and Olyver [led a rebellion](wiki:Night's_Watch_rebellion_of_50_AC) of former [Faith Militant](wiki:Faith_Militant) in the Watch, trying to make themselves [lords](wiki:Lord) of their castles. Lord [Walton Stark](wiki:Walton_Stark_(son_of_Brandon)) rode north to aid the loyal brothers with ending the mutiny. After Sable Hall was informed of Olyver's execution at Rimegate, Raymund and his rebels fled [beyond the Wall](wiki:Beyond_the_Wall) to join the [free folk](wiki:Free_folk). Lord Stark marched north in pursuit, but was slain in the [haunted forest](wiki:Haunted_forest) by [giants](wiki:Giants). Half a year later, Raymund's head was delivered to [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea) by a wildling chieftain, who claimed his people had [eaten](wiki:Cannibalism) Raymund's rebels.(wiki:Raymund_Mallery.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Ser Raymund Mallery co-led the Night's Watch rebellion, fled beyond the Wall to the wildlings, who killed him and his men (fab-surfeit-of-rulers-08-p02:105)

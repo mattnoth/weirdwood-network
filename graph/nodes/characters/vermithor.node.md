@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vermithor"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Vermithor is a character.dragon from the AWOIAF wiki.
+Vermithor — Jaehaerys's growing bronze dragon that he flew home and fed a slaughtered bull; the king let his mount stand as surety over the stormlands.
 
 ## Edges
 
@@ -64,3 +64,9 @@ It is said that after dark, Silverwing, who had fled into the sky when the battl
 Vermithor was a [bronze](wiki:Bronze) dragon with "great tan wings".(wiki:Vermithor.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) His [flames](wiki:Dragonflame) were possibly red or golden.(wiki:Vermithor.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Vermithor.cite_ref-Gullet_5-0) Vermithor was already a large dragon in [48 AC](wiki:48_AC);(wiki:Vermithor.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) only [Balerion](wiki:Balerion) and [Vhagar](wiki:Vhagar) were larger.(wiki:Vermithor.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) By the time of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Vermithor was almost a hundred years old.(wiki:Vermithor.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 Vermithor was a fearsome beast.(wiki:Vermithor.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) Though old and hoary by the reign of [Aegon II Targaryen](wiki:Aegon_II_Targaryen),(wiki:Vermithor.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) he was also accustomed to men. Having had a previous rider, Vermithor was tolerant of the presence of people and more accepting of new riders.(wiki:Vermithor.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) Vermithor often coiled with [Silverwing](wiki:Silverwing) in the fields near [Tumbleton](wiki:Tumbleton) during his final days.(wiki:Vermithor.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Jaehaerys's growing bronze dragon that he flew home and fed a slaughtered bull; the king let his mount stand as surety over the stormlands (fab-time-of-testing-09:119)

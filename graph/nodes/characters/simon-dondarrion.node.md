@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Simon_Dondarrion"
 bucket_id: characters-house-dondarrion
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Simon Dondarrion is a character.human from the AWOIAF wiki.
+Simon Dondarrion — Son of Lord Dondarrion of Blackhaven who played the high harp and jousted, so charming Alysanne the party lingered.
 
 ## Edges
 
@@ -32,3 +32,9 @@ During the [Third Dornish War](wiki:Third_Dornish_War) in [61 AC](wiki:61_AC), 
 ## Appearances & Description
 
 Simon was gallant and handsome.(wiki:Simon_Dondarrion.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) He was an accomplished singer. According to Archmaester [Gyldayn](wiki:Gyldayn), Simon was as skilled with the [high harp](wiki:Harp) as he was at jousting.(wiki:Simon_Dondarrion.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Son of Lord Dondarrion of Blackhaven who played the high harp and jousted, so charming Alysanne the party lingered (fab-jaehaerys-and-alysanne-dragonstone-11:111)

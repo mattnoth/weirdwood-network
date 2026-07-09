@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Franklyn_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Franklyn Farman is a character.human from the AWOIAF wiki.
+Franklyn Farman — Ser Franklyn, Lord Marq's elder son, fought and was wounded at the Battle Beneath the Gods Eye, and brought home the corpses of his grandsire and eldest uncle who died there.
 
 ## Edges
 
@@ -36,3 +36,16 @@ In [55 AC](wiki:Years_after_Aegon's_Conquest) Queen Rhaena returned to Fair Isl
 ## Appearances & Description
 
 According to [Maester](wiki:Maester) [Smike](wiki:Smike) of [Fair Isle](wiki:Fair_Isle), Franklyn never lacked for courage, but he did lack in common sense.(wiki:Franklyn_Farman.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Ser Franklyn, Lord Marq's elder son, fought and was wounded at the Battle Beneath the Gods Eye, and brought home the corpses of his grandsire and eldest uncle who died there (fab-surfeit-of-rulers-08-p02:29)
+- He resented Rhaena's lack of gratitude and her friendship with his sister Elissa (fab-surfeit-of-rulers-08-p02:29)
+- On becoming Lord of Fair Isle he summoned Rhaena and commanded her to leave the island (fab-surfeit-of-rulers-08-p02:39)
+- At the docks he was overwhelmed by the crowd and thrown into a ship's hold of cod (fab-surfeit-of-rulers-08-p02:59)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Lord of Fair Isle who denied his sister Elissa any part of the isle's incomes (fab-birth-death-and-betrayal-10:145)

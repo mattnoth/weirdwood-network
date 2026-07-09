@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rego_Draz"
 bucket_id: characters-other-q-r
 prompt_version: v1-python
-node_version: 1
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rego Draz is a character.human from the AWOIAF wiki.
+Rego Draz — A Pentoshi merchant who rose from nothing to be the richest man in Pentos, shunned there for low birth, he answered the king's call and was named master of coin and a lord.
 
 ## Edges
 
@@ -71,3 +71,22 @@ Rego was a shrewd(wiki:Rego_Draz.cite_ref-Rfabjaehaerys_and_alysanne_-_their_tri
 > **Jaehaerys**: [Poison](wiki:Poison)? **Rego**: We know more of such things in the [Free Cities](wiki:Free_Cities). It is the tears, never doubt it. The [old maester](wiki:Culiper) would have seen it soon enough, so he had to die first. That is how I would do it. Not that I would. Poison is... dishonorable. **Daemon**: Only women were struck down.
 >
 > —Rego, [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen), and [Daemon Velaryon](wiki:Daemon_Velaryon_(son_of_Aethan))
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- A Pentoshi merchant who rose from nothing to be the richest man in Pentos, shunned there for low birth, he answered the king's call and was named master of coin and a lord (fab-time-of-testing-09:49)
+- Landless, he was dubbed "the Lord of Air" (fab-time-of-testing-09:49)
+- " He secured three loans by playing the banks against one another and devised the king's luxury and spice taxes (fab-time-of-testing-09:127)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- The Pentoshi master of coin, styled the Lord of Air, widely loathed and resented for his flaunted wealth (fab-birth-death-and-betrayal-10:113)
+- He was said to be corrupt, a charge he mocked, and said to be godless, worshipping a single bat-headed idol (fab-birth-death-and-betrayal-10:115)
+- ; quote: "a small household idol like unto a woman great with child, with swollen breasts and a bat's head". To pay for the Dragonpit and city works he imposed a lucrative gate fee (fab-birth-death-and-betrayal-10:119)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- The Pentoshi master of coin who suggested bribing the Most Devout as a jape (fab-jaehaerys-and-alysanne-dragonstone-11:55)
+- He identified the Dragonstone deaths as poison, the tears of Lys (fab-jaehaerys-and-alysanne-dragonstone-11:223)

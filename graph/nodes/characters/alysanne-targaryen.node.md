@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 7
+node_version: 11
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
@@ -223,3 +223,29 @@ Parser `first_available` was AFFC ch 5, but cite_refs show references as early a
 - She played hostess to the highborn women during the Golden Wedding festivities to great acclaim (fab-year-of-the-three-brides-07:99)
 - When told she was to wed Orryn Baratheon, she went straight to Jaehaerys, flew to Dragonstone, and wed him (fab-year-of-the-three-brides-07:199)
 - She vowed she would always return to him (fab-year-of-the-three-brides-07:265)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Fifthborn child of Aenys and Alyssa, a maid of thirteen who pledged her troth to her brother against her mother's wishes (fab-surfeit-of-rulers-08-p01:27)
+- Remembered as a bright, biddable child without her sister's timidity (fab-surfeit-of-rulers-08-p01:115)
+- She was in no haste to leave Dragonstone and welcomed the arriving Wise Women with gifts (fab-surfeit-of-rulers-08-p01:221)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- She remained on Dragonstone while Jaehaerys returned, then came to King's Landing on Silverwing after half a year apart (fab-time-of-testing-09:143)
+- She was wed to Jaehaerys a second time and, at her own insistence, the marriage was consummated with a bedding (fab-time-of-testing-09:153)
+- She began attending council meetings and set about making the Red Keep glitter with singers, mummers, and art, and later told the king she was with child (fab-time-of-testing-09:233)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Queen who accompanied Jaehaerys on progress and instituted the women's courts, open only to women and girls (fab-birth-death-and-betrayal-10:29)
+- At Maidenpool she was attacked by three sisters while undressing to bathe in Jonquil's Pool, but was unharmed (fab-birth-death-and-betrayal-10:45)
+- She requested a female protector and gained Jonquil Darke (fab-birth-death-and-betrayal-10:53)
+- She bore a son, Aegon, who died at three days, and later a healthy daughter, Daenerys (fab-birth-death-and-betrayal-10:63)
+- ; quote: "a girl she named Daenerys". Though she could not enact law, she wielded great influence over the king (fab-birth-death-and-betrayal-10:95)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- The queen accompanied Jaehaerys to Oldtown on Silverwing and toured the region, meeting her niece Rhaella among the novices (fab-jaehaerys-and-alysanne-dragonstone-11:99)
+- She lectured the Citadel's archmaesters, urging them to admit highborn girls (fab-jaehaerys-and-alysanne-dragonstone-11:103)
+- She found solace in her daughter Daenerys after her mother's death and flew to Dragonstone to comfort Rhaena, who thrice tried to send her away (fab-jaehaerys-and-alysanne-dragonstone-11:175)

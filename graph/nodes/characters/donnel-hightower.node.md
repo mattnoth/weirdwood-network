@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Donnel_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -58,3 +58,12 @@ When Ser Eustace turned up in Oldtown on the seventh day of [59 AC](wiki:59_AC)
 
 - Lord of Oldtown, who closed his gates against Moon but was slow to give battle, earning the name "Lord Donnel the Delayer" (fab-prince-into-king-06:115)
 - His knights later seized and beheaded Moon's corpse (fab-prince-into-king-06:141)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Lord Donnel Hightower, called Donnel the Delayer, imprisoned the captive Baratheons and sent a full account to the Red Keep and Dragonstone, unafraid of Storm's End (fab-surfeit-of-rulers-08-p02:205)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Lord of Oldtown, distrusted as a schemer, with kin among the Most Devout he hoped to see raised (fab-jaehaerys-and-alysanne-dragonstone-11:59)
+- He struck a bargain with Jaehaerys and hosted the royal couple atop the Hightower (fab-jaehaerys-and-alysanne-dragonstone-11:169)

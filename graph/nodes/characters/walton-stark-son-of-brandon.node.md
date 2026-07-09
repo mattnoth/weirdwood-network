@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Walton_Stark_(son_of_Brandon)
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 ---
 
@@ -40,3 +40,10 @@ Alaric, who succeeded Walton as Lord of Winterfell, blamed King [Jaehaerys I Tar
 - PARENT_OF: Brandon Stark → Walton Stark (cite: track_b: Father)
 - DIED_AT: Haunted Forest (cite: track_b: Died)
 - BURIED_AT: Crypt of Winterfell (cite: track_b: Buried)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Walton Stark succeeded his father and rode to the Wall to put down the Night's Watch rebellion (fab-surfeit-of-rulers-08-p02:97)
+- Pursuing rebels into the haunted forest he was set upon by giants, slew two, and was torn apart (fab-surfeit-of-rulers-08-p02:103)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Lyman_Lannister
 bucket_id: characters-house-lannister-j-q
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -66,3 +66,8 @@ Lyman was alleged to be the richest lord in Westeros.(wiki:Lyman_Lannister.cite_
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
 
 - Lord Lyman Lannister of Casterly Rock offered Aegon and Rhaena his protection and stood firm against Maegor's demand to return them in chains (fab-sons-of-the-dragon-05-p02:125)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Lyman Lannister, Lord of Casterly Rock, had earlier given Rhaena and Aegon the Uncrowned refuge from Maegor, and welcomed her again with a lavish feast (fab-surfeit-of-rulers-08-p02:63)
+- Rhaena judged he sought an alliance with the Iron Throne and dragonriders of his own (fab-surfeit-of-rulers-08-p02:73)

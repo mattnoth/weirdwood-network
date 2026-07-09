@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Jaehaerys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -35,3 +35,10 @@ Aegon was a small and frail infant.(wiki:Aegon_Targaryen_(son_of_Jaehaerys_I).ci
 - CULTURE_OF: Valyrian (cite: track_b: Race)
 - BORN_AT: King's Landing (cite: track_b: Born)
 - DIED_AT: King's Landing (cite: track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Son of Alysanne and Jaehaerys, named to honor the Conqueror and the uncrowned prince (fab-birth-death-and-betrayal-10:63)
+- He came too early and died at three days; Alysanne forever blamed the Maidenpool attackers (fab-birth-death-and-betrayal-10:63)

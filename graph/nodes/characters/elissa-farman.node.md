@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elissa_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 1
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Elissa Farman is a character.human from the AWOIAF wiki.
+Elissa Farman — Androw's elder sister, three years his senior, sharp of wit and tongue, whose great love was sailing and who longed to sail beyond the Sunset Sea.
 
 ## Edges
 
@@ -57,3 +57,26 @@ Elissa had blue eyes and long flaxen hair,(wiki:Elissa_Farman.cite_ref-Rfaba_sur
 > Her dreams were full of sundering rivers and windswept plains and towering mountains with their shoulders in the clouds, of green islands verdant in the sun, of strange beasts no man had tamed and queer fruits no man had tasted, of golden cities shining underneath strange stars.(wiki:Elissa_Farman.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Androw's elder sister, three years his senior, sharp of wit and tongue, whose great love was sailing and who longed to sail beyond the Sunset Sea (fab-surfeit-of-rulers-08-p01:241)
+- Lord Farman's maester wrote that Rhaena's true love on Fair Isle was Elissa, not Androw (fab-surfeit-of-rulers-08-p01:239)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- She found a like-minded companion in Queen Rhaena (fab-surfeit-of-rulers-08-p02:19)
+- Her brother Franklyn tried to keep her on Fair Isle to be wed to a man of his choosing, but the dockside smallfolk overwhelmed his men and she sailed away on her ship the Maiden's Fancy (fab-surfeit-of-rulers-08-p02:55)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Lady of Fair Isle who told Aerea tales and promised to teach her to sail, but pined for the western seas (fab-birth-death-and-betrayal-10:75)
+- Denied incomes by her brother Franklyn and gold by Rhaena, she left Dragonstone (fab-birth-death-and-betrayal-10:145)
+- A fortnight later three dragon eggs were found missing and she was judged the thief, having sailed by way of Pentos toward Braavos (fab-birth-death-and-betrayal-10:171)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Driven from Fair Isle and disowned by her brother Franklyn, she took the bastard name Alys Westhill (fab-jaehaerys-and-alysanne-dragonstone-11:37)
+- As Alys Westhill she sold the dragon eggs to the Sealord of Braavos and used the gold to build the Sun Chaser (fab-jaehaerys-and-alysanne-dragonstone-11:37)

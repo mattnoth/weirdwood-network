@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Barth
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -115,3 +115,15 @@ Later, outside of [Meereen](wiki:Meereen) on his way to the camp of the [Second 
 ## Notes
 
 Despite being in a House Tyrell bucket, Barth's primary significance is as Hand of the King to Jaehaerys I. His Tyrell allegiance reflects only his early service at Highgarden.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Septon Barth, called the wisest man ever to serve as Hand, quoted on human nature and on Queen Alyssa's yearnings (fab-surfeit-of-rulers-08-p01:17)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- A young man summoned from Highgarden to see to the royal library (fab-time-of-testing-09:55)
+- He pronounced Jaehaerys and Alysanne man and wife and helped craft the Doctrine of Exceptionalism (fab-time-of-testing-09:147)
+- Legend says he passed the departing Mattheus at Bitterbridge, riding alone on a donkey (fab-time-of-testing-09:61)

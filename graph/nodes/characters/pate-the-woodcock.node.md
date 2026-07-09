@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Pate_the_Woodcock"
 bucket_id: characters-other-o-p
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -37,3 +37,7 @@ After Jaehaerys reached maturity and sat on the [Iron Throne](wiki:Iron_Throne) 
 
 - Pate the Woodcock, the youngest champion, fought with a spear and was dubbed a knight by Ser Joffrey Doggett (fab-year-of-the-three-brides-07:131)
 - At Dragonstone he warned Rogar he would be first to die (fab-year-of-the-three-brides-07:253)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Young garrison man who won the contest to "kill" the king most in training bouts (fab-surfeit-of-rulers-08-p01:105)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Qarl_Corbray"
 bucket_id: characters-house-corbray
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Qarl Corbray is a character.human from the AWOIAF wiki.
+Qarl Corbray — Lord Qarl Corbray, Commander of the City Watch, had fought at the Battle Beneath the Gods Eye.
 
 ## Edges
 
@@ -54,3 +54,11 @@ Qarl wielded the ancestral [Valyrian steel](wiki:Valyrian_steel) [longsword](wik
 > **Rogar**: You think you can dismiss me? No. No. **Qarl**: Yes.(wiki:Qarl_Corbray.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 >
 > —Qarl intimidates [Rogar Baratheon](wiki:Rogar_Baratheon)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Lord Qarl Corbray, Commander of the City Watch, had fought at the Battle Beneath the Gods Eye (fab-surfeit-of-rulers-08-p02:163)
+- He rose against Rogar's treason, laying his Valyrian steel blade Lady Forlorn on the table toward him (fab-surfeit-of-rulers-08-p02:169)
+- He also removed Princess Aerea at the Queen Regent's command (fab-surfeit-of-rulers-08-p02:183)

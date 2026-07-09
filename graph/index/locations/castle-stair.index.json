@@ -3,7 +3,7 @@
   "name": "Castle Stair",
   "type": "place.location",
   "node_path": "graph/nodes/locations/castle-stair.node.md",
-  "generated_at": "2026-07-09T18:58:09.482402+00:00",
+  "generated_at": "2026-07-09T19:11:26.000006+00:00",
   "stats": {
     "appearances_total": 4,
     "chapters_referenced_in": 2,

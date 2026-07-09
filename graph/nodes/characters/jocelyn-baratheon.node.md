@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jocelyn_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 ---
 
@@ -51,3 +51,9 @@ She had been frail as a babe, but by the age of six had become a tall young girl
 ## Notes
 
 Died between 92 and 129 AC — track_b gives two Died values (track_b: Died). Born at Storm's End (track_b: Born).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Daughter of Rogar and Alyssa, born small and weak but survived (fab-jaehaerys-and-alysanne-dragonstone-11:147)

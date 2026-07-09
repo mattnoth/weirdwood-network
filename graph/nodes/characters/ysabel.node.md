@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ysabel
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Ysabel — Formidable Septa sent to see to Alysanne's religious instruction.
 
 ## Origins
 
@@ -25,3 +29,9 @@ After King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) wed his sister, [
 - SWORN_TO: House Targaryen (cite: track_b: Allegiances)
 - SERVES: Jaehaerys I Targaryen (cite: wiki:Ysabel)
 - SERVES: Alyssa Velaryon (cite: wiki:Ysabel)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Formidable Septa sent to see to Alysanne's religious instruction (fab-surfeit-of-rulers-08-p01:145)

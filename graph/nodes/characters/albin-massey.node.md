@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Albin_Massey"
 bucket_id: characters-house-massey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Albin Massey is a character.human from the AWOIAF wiki.
+Albin Massey — Lord of Stonedance, named master of laws, he had been forging a maester's chain at the Citadel until fever killed his father and elder brothers.
 
 ## Edges
 
@@ -55,3 +55,10 @@ He was known for his sharp mind and did not lack for wits.(wiki:Albin_Massey.cit
 > There is more to the [first night](wiki:First_night) than lust, [Your Grace](wiki:Alysanne_Targaryen). The practice is an ancient one, older than the [Andals](wiki:Andal), older than the [Faith](wiki:Faith_of_the_Seven). It goes back to the [Dawn Age](wiki:Dawn_Age), I do not doubt. The [First Men](wiki:First_Men) were a savage race, and like the [wildings](wiki:Free_folk) beyond the [Wall](wiki:Wall), they followed only strength. Their [lords](wiki:Lord) and [kings](wiki:King) were warriors, mighty men and heroes, and they wanted their sons to be the same. If a warlord chose to bestow his seed upon some [maid](wiki:Maid) on her [wedding](wiki:Wedding) night, it was seen as … a sort of blessing. And if a child should come of the coupling, so much the better. The husband could then claim the honor of raising a hero's son as his own.(wiki:Albin_Massey.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 >
 > —Albin to [Alysanne Targaryen](wiki:Alysanne_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Lord of Stonedance, named master of laws, he had been forging a maester's chain at the Citadel until fever killed his father and elder brothers (fab-time-of-testing-09:39)
+- A twisted spine left him with a limp (fab-time-of-testing-09:39)

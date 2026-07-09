@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Prudence_Celtigar"
 bucket_id: characters-house-celtigar
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Prudence Celtigar is a character.human from the AWOIAF wiki.
+Prudence Celtigar — One of the queen's Wise Women, stabbed through the shoulder defending Alysanne at Maidenpool.
 
 ## Edges
 
@@ -42,3 +42,10 @@ In [52 AC](wiki:52_AC), the betrothal of Prudence to Lord [Grafton](wiki:House_
 ## Appearances & Description
 
 Lord [Rogar Baratheon](wiki:Rogar_Baratheon) scornfully claimed that Prudence and her sister had "no chins, no teats, and no sense".(wiki:Prudence_Celtigar.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- One of the queen's Wise Women, stabbed through the shoulder defending Alysanne at Maidenpool (fab-birth-death-and-betrayal-10:43)
+- By Alysanne's offices she was later betrothed to Lord Grafton of Gulltown (fab-birth-death-and-betrayal-10:89)

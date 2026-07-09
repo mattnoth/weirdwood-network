@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jocasta_Lannister"
 bucket_id: characters-house-tarbeck
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -35,3 +35,8 @@ In early [49 AC](wiki:49_AC), Jocasta and her husband attended the small [weddi
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
 
 - Lady Jocasta, wife of Lyman Lannister, first discerned that Princess Rhaena was with child (fab-sons-of-the-dragon-05-p02:125)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Lady Jocasta of House Tarbeck, Lord Lyman's wife, had befriended Rhaena at the Rock and been first to discern she was with child (fab-surfeit-of-rulers-08-p02:63)
+- She privately suggested a dragon egg would make a fine gift to House Lannister (fab-surfeit-of-rulers-08-p02:69)

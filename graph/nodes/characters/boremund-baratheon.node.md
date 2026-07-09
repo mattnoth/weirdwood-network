@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Boremund_Baratheon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -58,3 +58,7 @@ Lord Boremund was stone, hard and strong and unmoving. Lord [Borros](wiki:Borros
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
 
 - Lord of Storm's End, brother of Jocelyn and uncle to Rhaenys, angered by her being passed over and later a supporter of Laenor's claim (fab-heirs-of-the-dragon-15-p01:143)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Robust, healthy son of Rogar and Alyssa, born early the following year with black hair and a loud cry (fab-birth-death-and-betrayal-10:59)

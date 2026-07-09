@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jonquil_Darke"
 bucket_id: characters-house-darke
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -40,3 +40,9 @@ When the scandals committed by Princess [Saera Targaryen](wiki:Saera_Targaryen) 
 <!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
 
 - The mystery knight known as the Serpent in Scarlet was unmasked as a woman, Jonquil Darke, a bastard daughter of the Lord of Duskendale (fab-year-of-the-three-brides-07:129)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Bastard half-sister of the new Lord Darklyn, summoned to court at Alysanne's need (fab-birth-death-and-betrayal-10:53)
+- She had been the mystery knight of the War for the White Cloaks (fab-birth-death-and-betrayal-10:53)
+- She accepted appointment as the queen's sworn shield and became known as the Scarlet Shadow (fab-birth-death-and-betrayal-10:53)

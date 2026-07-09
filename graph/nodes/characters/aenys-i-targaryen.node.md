@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -130,3 +130,8 @@ A diligent student who did not lack for courage, Aenys was an adequate fighter. 
 - Infamous for indecision, he neither abandoned the match nor burned the Starry Sept, but simply persisted (fab-sons-of-the-dragon-05-p02:43)
 - At the wedding feast he granted Aegon the title Prince of Dragonstone, which had belonged to Maegor (fab-sons-of-the-dragon-05-p02:49)
 - Denounced as "King Abomination," he fled to Dragonstone, fell sick with fear, and died (fab-sons-of-the-dragon-05-p02:77)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- King, first husband of Alyssa and father of Jaehaerys, slighted as weak beside his warrior brother Maegor (fab-surfeit-of-rulers-08-p01:103)
+- He died on Dragonstone, after which Maegor seized the throne (fab-surfeit-of-rulers-08-p01:129)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elyas_Scales"
 bucket_id: characters-house-scales
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Elyas Scales is a character.human from the AWOIAF wiki.
+Elyas Scales — Seasoned master-at-arms on Dragonstone who trained the king and judged he might best a risen Maegor.
 
 ## Edges
 
@@ -36,3 +36,9 @@ An older man by [49 AC](wiki:49_AC), Ser Elyas Scales was a seasoned [master-at
 > Your Grace, you will never be a [Kingsguard](wiki:Kingsguard), but if by some sorcery your uncle [Maegor](wiki:Maegor_I_Targaryen) himself were to rise from the grave, my [coin](wiki:Coin) would be on you.(wiki:Elyas_Scales.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
 > —Elyas to [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen), after months of training
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Seasoned master-at-arms on Dragonstone who trained the king and judged he might best a risen Maegor (fab-surfeit-of-rulers-08-p01:103)

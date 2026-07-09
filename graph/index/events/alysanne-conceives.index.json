@@ -1,0 +1,18 @@
+{
+  "slug": "alysanne-conceives",
+  "name": "Alysanne conceives",
+  "type": "event.other",
+  "node_path": "graph/nodes/events/alysanne-conceives.node.md",
+  "generated_at": "2026-07-09T19:11:27.904455+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

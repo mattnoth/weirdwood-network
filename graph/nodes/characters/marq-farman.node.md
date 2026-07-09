@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Marq_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -45,3 +45,8 @@ Marq was described as an amiable and good-natured man. He was a devoted father, 
 <!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
 
 - Marq Farman, Lord of Fair Isle, presided over his son Androw's wedding to Rhaena, conducted by his own septon (fab-year-of-the-three-brides-07:25)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Lord Marq Farman was an amiable, good-natured man who loved all his children and loved Rhaena for loving them (fab-surfeit-of-rulers-08-p02:35)
+- Less than a fortnight after the couple's first anniversary he choked to death on a fish bone at his own table at the age of six-and-forty (fab-surfeit-of-rulers-08-p02:35)

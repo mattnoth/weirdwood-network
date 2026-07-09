@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Manfryd_Redwyne"
 bucket_id: characters-house-redwyne
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Manfryd Redwyne is a character.human from the AWOIAF wiki.
+Manfryd Redwyne — The Lord of the Arbor was named lord admiral and master of ships, coming to court with his squire sons Robert, Rickard, and Ryam.
 
 ## Edges
 
@@ -35,3 +35,10 @@ Manfryd had at least three sons, all squires when he brought them to court with 
 After Daemon resigned the office of Hand, some suggested that rivalry with Lord Manfryd played a part in his decision.(wiki:Manfryd_Redwyne.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
 Lord Manfryd served as master of ships until his own death in [89 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Manfryd_Redwyne.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) His eldest son, Robert, succeeded him as Lord of the Arbor whereas Daemon's grandson, [Corlys Velaryon](wiki:Corlys_Velaryon), followed him as master of ships.(wiki:Manfryd_Redwyne.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- The Lord of the Arbor was named lord admiral and master of ships, coming to court with his squire sons Robert, Rickard, and Ryam (fab-time-of-testing-09:39)
+- His appointment ended House Velaryon's hold on the admiralty (fab-time-of-testing-09:41)

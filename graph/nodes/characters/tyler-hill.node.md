@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyler_Hill"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Tyler Hill — Ser Tyler Hill, Lord Lyman's comely bastard son, fought under Prince Aegon at the Gods Eye and was openly scornful of Androw while trying to ingratiate himself with Rhaena.
 
 ## Origins
 
@@ -28,3 +32,9 @@ Tyler was an attractive man.(wiki:Tyler_Hill.cite_ref-Rfaba_surfeit_of_rulers.7B
 - SWORN_TO: House Lannister (cite: track_b_row.relationships.Allegiance)
 - CULTURE_OF: Westermen (cite: track_b_row.relationships.Culture)
 - PARENT_OF (reverse): Lyman Lannister (cite: track_b_row.relationships.Father)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Ser Tyler Hill, Lord Lyman's comely bastard son, fought under Prince Aegon at the Gods Eye and was openly scornful of Androw while trying to ingratiate himself with Rhaena (fab-surfeit-of-rulers-08-p02:69)

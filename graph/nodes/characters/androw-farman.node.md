@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Androw_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 2
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -97,3 +97,23 @@ Androw was known to spend whole days in the [Chamber of the Painted Table](wiki:
 
 - Androw Farman, second son of Marq Farman, was ten-and-seven, comely and amiable, and said to be besotted with Rhaena (fab-year-of-the-three-brides-07:23)
 - Many thought a second son of a minor lord far from worthy of a twice-crowned queen (fab-year-of-the-three-brides-07:25)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Second son of Lord Farman, nine years younger than Rhaena, mocked even at his father's court as "half a girl" and never made a knight (fab-surfeit-of-rulers-08-p01:231)
+- Rhaena said she chose him for his kindness (fab-surfeit-of-rulers-08-p01:233)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Androw Farman, Rhaena's husband and Lord Marq's weakling son, was admitted to the Four-Headed Beast only occasionally and was not of an adventurous disposition (fab-surfeit-of-rulers-08-p02:21)
+- He offered to face his brother Franklyn in single combat but the queen dissuaded him (fab-surfeit-of-rulers-08-p02:49)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Rhaena's husband and Elissa's brother, whom Rhaena summoned to demand whether he had shared in his sister's crime (fab-birth-death-and-betrayal-10:173)
+- His denials only enraged her further (fab-birth-death-and-betrayal-10:173)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Husband of Rhaena, wed on Fair Isle when he was ten-and-seven, he was scorned and humiliated at her court, unable to read and mocked behind his back (fab-jaehaerys-and-alysanne-dragonstone-11:193)
+- He knifed Maester Anselm, and when Rhaena ordered him gelded he leapt from a window to his death (fab-jaehaerys-and-alysanne-dragonstone-11:231)

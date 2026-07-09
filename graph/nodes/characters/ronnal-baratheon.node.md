@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ronnal_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Ronnal Baratheon â€” Ser Ronnal Baratheon forced his way into Aerea's chambers with a dozen men on the night of Rogar's dismissal, only to find her already gone.
 
 ## Origins
 
@@ -28,3 +32,10 @@ The [Shivers](wiki:Shivers) hit Westeros during the winter of [59](wiki:59_AC)â€
 ## Notes
 
 Died between 59 and 60 AC of the Shivers (track_b: Died). His wife's name is unknown (track_b: Spouse lists "Unknown"). Children: unnamed sons (who died) and two surviving daughters (track_b: Issue).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Ser Ronnal Baratheon forced his way into Aerea's chambers with a dozen men on the night of Rogar's dismissal, only to find her already gone (fab-surfeit-of-rulers-08-p02:183)
+- He also assembled the Baratheon knights for the march home (fab-surfeit-of-rulers-08-p02:175)

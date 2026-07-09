@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ella_Broome"
 bucket_id: characters-house-broome
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Ella Broome is a character.human from the AWOIAF wiki.
+Ella Broome — Lucinda's younger sister, a modest maid whose name had briefly been offered as a match for Jaehaerys.
 
 ## Edges
 
@@ -29,3 +29,9 @@ Ella was briefly offered as a match for [Jaehaerys I Targaryen](wiki:Jaehaerys_I
 ## Appearances & Description
 
 Ella was a modest maid.(wiki:Ella_Broome.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Lucinda's younger sister, a modest maid whose name had briefly been offered as a match for Jaehaerys (fab-surfeit-of-rulers-08-p01:145)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucinda_Tully"
 bucket_id: characters-house-broome
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -43,3 +43,7 @@ The redoubtable Lucinda was famous for her piety to the [Faith of the Seven](wik
 <!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
 
 - Pious wife of the Lord of Riverrun who lent Joffrey Doggett her support and connivance (fab-prince-into-king-06:95)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Fiercely pious wife of the Lord of Riverrun, set over Alysanne's maids and charged by Rogar to report on the king and queen (fab-surfeit-of-rulers-08-p01:145)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edwell_Celtigar"
 bucket_id: characters-house-celtigar
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -47,3 +47,13 @@ During the winter of [59 AC](wiki:59_AC) when the [Shivers](wiki:Shivers) sprea
 - Edwell Celtigar, Lord of Claw Isle, had been Hand of the King under Maegor and was recalled to serve as lord treasurer and master of coin (fab-year-of-the-three-brides-07:31)
 - He had two unwed daughters and offered them to Jaehaerys as he once had to Maegor (fab-year-of-the-three-brides-07:163)
 - Rogar dismissed the girls scornfully (fab-year-of-the-three-brides-07:165)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Edwell Celtigar, Lord of Claw Isle, had been an ineffectual Hand for Maegor and proved an equally ineffectual master of coin, imposing new taxes on the smallfolk of King's Landing (fab-surfeit-of-rulers-08-p02:83)
+- His levies emptied inns, slowed building, drove trade to other ports, and made him loathed throughout the city (fab-surfeit-of-rulers-08-p02:87)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Dismissed as master of coin to the realm's joy, he left for Claw Isle while his taxes were struck down (fab-time-of-testing-09:43)
+- The king praised his daughters as "two treasures" (fab-time-of-testing-09:43)

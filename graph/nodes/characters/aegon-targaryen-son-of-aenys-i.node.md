@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Aenys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -58,3 +58,7 @@ Aegon at fifteen was lean and handsome, he caught the eye of many a [maiden](wik
 
 - Jaehaerys's older brother, who claimed the kingship before him and died at the Battle Beneath the Gods Eye trying to unseat Maegor (fab-prince-into-king-06:23)
 - Before dying he wed his sister Rhaena and sired the twins Aerea and Rhaella (fab-prince-into-king-06:23)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Rhaena's late first husband, Prince Aegon, who faced Maegor at the Battle Beneath the Gods Eye (fab-surfeit-of-rulers-08-p01:27)

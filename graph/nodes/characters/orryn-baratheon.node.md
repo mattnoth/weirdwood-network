@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Orryn_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki
 ---
 
@@ -40,3 +40,14 @@ Orryn and the dozen men who had accompanied him to Oldtown traveled to the [Free
 <!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
 
 - Orryn Baratheon, the youngest of Lord Rogar's brothers, was chosen by the council to wed Princess Alysanne (fab-year-of-the-three-brides-07:185)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Ser Orryn Baratheon appeared at the Oldtown motherhouse with a letter under Rogar's seal demanding the novice Rhaella, meaning to pass her off as Aerea and name her queen (fab-surfeit-of-rulers-08-p02:195)
+- Confronted by thirty armed septons he surrendered and confessed the plot (fab-surfeit-of-rulers-08-p02:201)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Rogar's brother, sent to Oldtown to remove Rhaella and held there by Hightower, then sentenced to ten years' exile (fab-time-of-testing-09:109)
+- He never returned to Westeros, taking service with the Archon of Tyrosh and marrying his daughter (fab-time-of-testing-09:235)
+- He later joined the Maiden's Men in Myr and was killed in the Disputed Lands (fab-time-of-testing-09:235)

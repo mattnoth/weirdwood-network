@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Borys_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Borys Baratheon — Eldest of Lord Rogar's four brothers, named in some versions of the book as the man at the inn and later blamed by Archmaester Crey for the calumny.
 
 ## Origins
 
@@ -48,3 +52,9 @@ Borys was often considered to be the most volatile and belligerent of the five B
 ## Notes
 
 The track_b row lists "SWORN_TO: Vulture King" but this likely reflects fighting against the Vulture King during the Third Dornish War, not fealty. Omitting as potentially misleading. Died 61 AC in the Red Mountains, Dorne (track_b: Died). The Issue field contains only "Issue" with no named children.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Eldest of Lord Rogar's four brothers, named in some versions of the book as the man at the inn and later blamed by Archmaester Crey for the calumny (fab-surfeit-of-rulers-08-p01:193)

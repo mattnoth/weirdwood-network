@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerea_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 3
+node_version: 8
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -150,3 +150,29 @@ The alias "Rhaella Targaryen (allegedly)" reflects a claim that the twins' ident
 <!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
 
 - Twin daughter of Aegon the Uncrowned and Rhaena; if Maegor were a mere usurper, she was the true king's elder daughter (fab-prince-into-king-06:25)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Rhaena's willful and stubborn daughter (fab-surfeit-of-rulers-08-p01:117)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Princess Aerea, eight years old and daughter of Rhaena and Aegon the Uncrowned, was named by Rogar as his preferred claimant over Jaehaerys (fab-surfeit-of-rulers-08-p02:159)
+- Alyssa had Lord Corbray spirit her away disguised as a common girl with her hair dyed brown; she spent the regency working in a stable near the King's Gate (fab-surfeit-of-rulers-08-p02:183)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Rhaena's daughter, a girl of eight, was Jaehaerys's acknowledged successor and heir apparent to the Iron Throne (fab-time-of-testing-09:221)
+- Jaehaerys restored her to Rhaena, perhaps too hastily (fab-time-of-testing-09:221)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Daughter of Aegon the Uncrowned and Rhaena, heir to the Iron Throne, a strong-willed girl of eleven (fab-birth-death-and-betrayal-10:139)
+- Carried unwillingly to dull Dragonstone, she found her only human friend in Elissa Farman and befriended the dragons (fab-birth-death-and-betrayal-10:75)
+- Displaced as heir by newborn Daenerys, she begged Elissa to take her away (fab-birth-death-and-betrayal-10:139)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Daughter of Rhaena, a willful wild child who defied her septa, mother and maesters and abused servants (fab-jaehaerys-and-alysanne-dragonstone-11:181)
+- She begged Alysanne to take her to court, and when refused fled Dragonstone at dawn, claiming Balerion (fab-jaehaerys-and-alysanne-dragonstone-11:297)
+- Neither she nor the dragon was heard from again that year (fab-jaehaerys-and-alysanne-dragonstone-11:311)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
 bucket_id: characters-other-l-m
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -187,3 +187,8 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 
 - Jaehaerys's uncle, "Maegor the Cruel," whose remains were consigned to a funeral pyre after he was found dead upon the Iron Throne (fab-prince-into-king-06:37)
 - His efforts to exterminate the Poor Fellows and Warrior's Sons had set pious men against House Targaryen (fab-prince-into-king-06:95)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Maegor the Cruel, uncle of Jaehaerys and Rhaena, brother of Aenys, son of Visenya, who returned from across the narrow sea to seize the Iron Throne (fab-surfeit-of-rulers-08-p01:129)
+- He made Jaehaerys and Alysanne wards of Visenya and demanded Rhaena's capture (fab-surfeit-of-rulers-08-p01:235)

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Culiper
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Culiper — Aged Maester of Dragonstone, eighty and serving since Visenya's day.
 
 ## Origins
 
@@ -26,3 +30,9 @@ In [54 AC](wiki:54_AC), when a sickness struck Dragonstone, Culiper ruled out t
 - SWORN_TO: House Targaryen (track_b: Allegiances)
 - HOLDS_TITLE: Maester (track_b: Title)
 - DIED_AT: Dragonstone (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Aged Maester of Dragonstone, eighty and serving since Visenya's day (fab-surfeit-of-rulers-08-p01:79)

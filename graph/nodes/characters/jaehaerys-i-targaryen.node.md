@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 6
+node_version: 10
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -277,3 +277,32 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 - On learning of the plan to wed Alysanne to Orryn, he flew with her to Dragonstone and wed her secretly there (fab-year-of-the-three-brides-07:211)
 - He faced down Septon Mattheus and Lord Rogar at the castle gates and refused to unmake the marriage (fab-year-of-the-three-brides-07:263)
 - Dragonstone became his residence for the rest of his minority, until his sixteenth nameday (fab-year-of-the-three-brides-07:267)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- King of the Seven Kingdoms under his mother's regency; he wed his sister Alysanne in a sudden secret marriage that took the Hand and Queen Regent unawares (fab-surfeit-of-rulers-08-p01:35)
+- He remained on Dragonstone, unwilling to be ruled by Rogar Baratheon though grateful for his help to the throne (fab-surfeit-of-rulers-08-p01:99)
+- He expected to be tested as his father had been (fab-surfeit-of-rulers-08-p01:107)
+- He trained daily at arms against the garrison, "dying" so often the men made a game of it (fab-surfeit-of-rulers-08-p01:105)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- He returned to King's Landing alone on Vermithor, having grown from a stripling into a man since flying to Dragonstone (fab-time-of-testing-09:17)
+- He bore his grandsire's sword Blackfyre on his swordbelt (fab-time-of-testing-09:27)
+- He remade the small council, dismissing men who had proved unequal and cleaning out lesser offices and the dungeons (fab-time-of-testing-09:37)
+- He pardoned Lord Rogar under strict conditions rather than execute or exile him (fab-time-of-testing-09:103)
+- He resolved the empty treasury through foreign loans and new taxes on luxury goods and crenellations, and answered his sister-marriage's opponents with preachers rather than steel (fab-time-of-testing-09:165)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- A restless king who announced his first royal progress late in 51 AC, resolved to travel with no more than one hundred men rather than the thousand Aegon the Conqueror had used (fab-birth-death-and-betrayal-10:23)
+- He rode the dragon Vermithor and held enormous store by it (fab-birth-death-and-betrayal-10:25)
+- In 52 AC he promulgated the Widow's Law and, that same year, began the rebuilding of King's Landing (fab-birth-death-and-betrayal-10:103)
+- ; quote: "it was the year 52 AC when it began, by the king's command". He heeded Alysanne's influence even lacking her formal power (fab-birth-death-and-betrayal-10:95)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- His long reign was peaceful for the most part, with few and short wars (fab-jaehaerys-and-alysanne-dragonstone-11:19)
+- He vowed to recover the stolen dragon eggs even by war across the narrow sea, saying he would not let Valyria rise again (fab-jaehaerys-and-alysanne-dragonstone-11:27)
+- He backed Septon Barth for High Septon before Barth talked him out of it, then flew to Oldtown to secure an Exceptionalist and block Septon Mattheus (fab-jaehaerys-and-alysanne-dragonstone-11:47)
+- After his mother's death he shrugged off sorrow and returned to ruling (fab-jaehaerys-and-alysanne-dragonstone-11:171)

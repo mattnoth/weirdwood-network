@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rogar_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 5
+node_version: 10
 pass_origin: pass2-wiki
 ---
 
@@ -143,3 +143,34 @@ Rogar was not a man to yield, often boasting in battle that he would not lay dow
 - He wed the Queen Regent in the Golden Wedding and pushed a Tyroshi match for the king (fab-year-of-the-three-brides-07:153)
 - At Dragonstone he demanded to know if the marriage was consummated and ordered the children separated, but was thwarted (fab-year-of-the-three-brides-07:233)
 - Afterward he kept the marriage secret, still meaning to part them (fab-year-of-the-three-brides-07:281)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Hand of the King and husband of the Queen Regent; humiliated when forced to back down at the gates of Dragonstone (fab-surfeit-of-rulers-08-p01:53)
+- His first impulse was to take Dragonstone by storm until Alyssa dissuaded him (fab-surfeit-of-rulers-08-p01:57)
+- He wanted eyes and ears on Dragonstone and the marriage's consummation prevented (fab-surfeit-of-rulers-08-p01:151)
+- Septon Barth's charity is invoked for him (fab-surfeit-of-rulers-08-p01:55)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Lord Rogar, Hand of the King, was determined to complete the Dragonpit and wroth at the lords crawling to Dragonstone (fab-surfeit-of-rulers-08-p02:77)
+- When his plan to break the royal marriage failed he urged the council to set Jaehaerys aside and crown Princess Aerea, whose mother had a dragon (fab-surfeit-of-rulers-08-p02:149)
+- He then plotted through his brother Orryn to seize the novice Rhaella and pass her off as Aerea, and on that failing fell into despair and drafted a will and confession (fab-surfeit-of-rulers-08-p02:211)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Summoned back to King's Landing, the Lord of Storm's End came with only six old knights and humbled himself before the Iron Throne (fab-time-of-testing-09:81)
+- Jaehaerys pardoned him despite his treasonous words and plans, requiring him to champion the queen and honor Alyssa (fab-time-of-testing-09:103)
+- Roaring drunk at the wedding, he led the men who disrobed the queen at the bedding (fab-time-of-testing-09:153)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Alyssa's husband, whom the prospect of a child moved to cast off his anger and repent his infidelities (fab-birth-death-and-betrayal-10:59)
+- He named his son Boremund and, at the second pregnancy, foresaw no trouble (fab-birth-death-and-betrayal-10:59)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Lord of Storm's End, he sat drunk and despairing outside his dying wife's chamber (fab-jaehaerys-and-alysanne-dragonstone-11:117)
+- Bidden by the king to choose, he told the maester to save his son, then fled (fab-jaehaerys-and-alysanne-dragonstone-11:139)
+- The child was a girl he named Jocelyn (fab-jaehaerys-and-alysanne-dragonstone-11:149)
+- He laughed off Rhaena's curse and never wed again (fab-jaehaerys-and-alysanne-dragonstone-11:313)

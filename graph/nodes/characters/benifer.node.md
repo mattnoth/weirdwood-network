@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Benifer
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -53,3 +53,11 @@ Benifer was among the most diligent of the forty odd men who served as Grand Mae
 
 - Grand Maester, newly returned from self-imposed exile in Pentos, who praised Jaehaerys as learned and pious (fab-prince-into-king-06:91)
 - He wrote that the meeting between king and outlaw knight "set the table" for the reign (fab-prince-into-king-06:165)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Grand Maester who attributes the plan of sending companions to Queen Alyssa (fab-surfeit-of-rulers-08-p01:143)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Grand Maester who narrates the king's return and reign; he had fled to Pentos when Maegor died and feared his return (fab-time-of-testing-09:21)

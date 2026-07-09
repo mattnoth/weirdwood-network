@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_Towers"
 bucket_id: characters-house-towers
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Maegor Towers is a character.human from the AWOIAF wiki.
+Maegor Towers — The nine-year-old new lord of Harrenhal who hosted the king at the start of the riverlands progress.
 
 ## Edges
 
@@ -34,3 +34,9 @@ In a castle built to house thousands, Maegor was an impoverished lord who reside
 ## Appearances & Description
 
 Maegor was a sickly and impoverished young lord.(wiki:Maegor_Towers.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- The nine-year-old new lord of Harrenhal who hosted the king at the start of the riverlands progress (fab-birth-death-and-betrayal-10:125)

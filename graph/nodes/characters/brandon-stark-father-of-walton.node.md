@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(father_of_Walton)"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -40,3 +40,7 @@ Brandon died soon after returning to [Winterfell](wiki:Winterfell), the northmen
 <!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
 
 - Brandon Stark, the ailing Lord of Winterfell, made the journey south with his sons Walton and Alaric and gave the highest praise of the king (fab-year-of-the-three-brides-07:89)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
+
+- Brandon Stark, Lord of Winterfell, died in 49 AC not long after returning from the Golden Wedding, the journey said to have asked too much of him (fab-surfeit-of-rulers-08-p02:95)

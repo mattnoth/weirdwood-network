@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Aenys_I)
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -199,3 +199,10 @@ No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise
 - According to whispers about court, Rhaena was a sorceress who used dark arts to murder Maegor (fab-year-of-the-three-brides-07:149)
 - She chose not to attend the Golden Wedding, remaining on Fair Isle (fab-year-of-the-three-brides-07:99)
 - Her daughters Aerea and Rhaella remained the king's heirs while he was unwed (fab-year-of-the-three-brides-07:145)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- The Queen in the East, who set up her own small court on Dragonstone and received many visitors coldly (fab-birth-death-and-betrayal-10:69)
+- Her reunion with her daughter Aerea went poorly, and she denied Elissa Farman the gold for a ship (fab-birth-death-and-betrayal-10:71)
+- ; quote: "Rhaena denied her request". When Elissa fled with three dragon eggs, Rhaena's fury led her to expel Ser Merrell Bullock and question her husband Androw (fab-birth-death-and-betrayal-10:173)
+- She flew Dreamfyre to King's Landing to tell Jaehaerys (fab-birth-death-and-betrayal-10:175)

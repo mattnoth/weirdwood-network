@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daenerys_Targaryen_(daughter_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -75,3 +75,9 @@ Daenerys was a happy child, endlessly curious and utterly fearless, a delight to
 - BORN_AT: King's Landing (track_b: Born)
 - DIED_AT: King's Landing (track_b: Died)
 - BURIED_AT: Dragonstone (track_b: Buried)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
+
+- Strong, healthy daughter of Alysanne and Jaehaerys, born in the seventh moon of 53 AC and doted on by the king (fab-birth-death-and-betrayal-10:135)

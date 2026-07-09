@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Morgan_Wylde"
 bucket_id: characters-house-wylde
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Morgan Wylde is a character.human from the AWOIAF wiki.
+Morgan Wylde — Lord of the Rain House and father of Coryanne.
 
 ## Edges
 
@@ -25,3 +25,9 @@ Morgan Wylde is a character.human from the AWOIAF wiki.
 ## Origins
 
 After his daughter, [Coryanne](wiki:Coryanne_Wylde), was [deflowered](wiki:Flowering) by a [stableboy](wiki:Surly_lad), Lord Morgan had the man [gelded](wiki:Eunuch), and Coryanne was confined to her chambers.(wiki:Morgan_Wylde.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
+
+- Lord of the Rain House and father of Coryanne (fab-surfeit-of-rulers-08-p01:211)

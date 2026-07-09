@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elinor_Costayne"
 bucket_id: characters-house-costayne
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -59,3 +59,8 @@ Years later, Elinor gave up all claims to nobility, becoming [Mother](wiki:Mothe
 <!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->
 
 - Queen Elinor of House Costayne, one of Maegor's Black Brides with three sons and proven fertility, was proposed as a bride for Jaehaerys (fab-year-of-the-three-brides-07:163)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
+
+- Queen Elinor, "the Black Bride" who found Maegor dead upon the Iron Throne, was the only Speaker known to the commons (fab-time-of-testing-09:167)
+- She traveled the Reach preaching the goodness of Maegor's successors and later became Mother Elinor at Lannisport (fab-time-of-testing-09:167)

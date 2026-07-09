@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rodrik_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Rodrik Arryn — Lord of the Eyrie and Defender of the Vale, a boy of ten who came into his lordship after his uncle Darnold and sire Rymond were slain by wildlings.
 
 ## Origins
 
@@ -49,3 +53,9 @@ A leal friend of both King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) a
 ## Notes
 
 Rodrik's marriage to Daella Targaryen is dynastically critical — through their daughter Aemma, Rodrik is an ancestor of every subsequent Targaryen king. Sources: Fire & Blood, TWOIAF.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
+
+- Lord of the Eyrie and Defender of the Vale, a boy of ten who came into his lordship after his uncle Darnold and sire Rymond were slain by wildlings (fab-jaehaerys-and-alysanne-dragonstone-11:257)
