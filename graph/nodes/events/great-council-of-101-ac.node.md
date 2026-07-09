@@ -1,6 +1,6 @@
 ---
 name: "Great Council of 101 AC"
-type: event.battle
+type: event.council
 slug: great-council-of-101-ac
 aliases: []
 confidence: tier-2
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Great Council of 101 AC is a battle/event from the AWOIAF wiki.
+The Great Council of 101 AC at Harrenhal — summoned by Jaehaerys I to settle the royal succession after the deaths of Aemon and Baelon; the lords chose Viserys over Rhaenys and her son Laenor, establishing the precedent that the Iron Throne passes by the male line.
 
 ## Edges
 

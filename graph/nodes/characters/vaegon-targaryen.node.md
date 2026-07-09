@@ -3,6 +3,8 @@ name: Vaegon Targaryen
 type: character.human
 slug: vaegon-targaryen
 aliases:
+  - "Vaegon"
+  - "Vaegon the Dragonless"
   - Vaegon Targaryen
   - The Dragonless
   - Vaegon the Dragonless

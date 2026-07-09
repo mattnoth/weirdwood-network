@@ -65,8 +65,31 @@ Spec = `[{"action":"FOLD"|"RENAME","old":"<slug>","new":"<slug>"}]`. Dry-run def
       **Event-residue queued for close-out: mint death-of-aegon-ii + larys SUSPECTED_OF whodunit** (no death
       event node exists; not in deferred sidecar either). Eustace-as-character rows map correctly to
       eustace-dance-of-the-dragons. Gate PASS. 153 tests.
-- [ ] **Batch 7** (22–25, aftermath+appendix) — war-peace-22-p01/p02, voyage-alyn-23, lysene-24-p01/p02, lineages-25.
+- [x] **Batch 7** (22–25, aftermath+appendix) — war-peace-22-p01/p02, voyage-alyn-23, lysene-24-p01/p02, lineages-25.
+      DONE S202, committed `a9e2b2b584`. +275 edges (book-fab 1,616→1,891), 34 nodes. 1 FOLD (daeron-ii
+      Dorne wedding → existing wedding-of-maron-martell-and-daenerys-targaryen), 1 RENAME (birth-of-aemon →
+      birth-of-aemon-targaryen-son-of-viserys-ii, the Dragonknight). Cross-unit poisoning-of-gaemon-palehair
+      (24-p01+24-p02 both CREATEd it) deduped by mint skip-if-exists as designed. 9 dispute rows: 8 clear /
+      1 disputed (mushroom COMPANION_OF torrhen-manderly, "it would seem" hedge) / 0 orchestrator overrides
+      — Cassandra LOVER_OF ×2 clear via court confession (the Saera pattern). capture-of-prince-viserys
+      minted with a date wrinkle noted (129 vs 130 AC vs battle-of-the-gullet) → close-out residue.
+      **← ALL 7 BATCHES DONE. The 35-unit bulk apply is COMPLETE (edges.jsonl 24,990; event nodes 963;
+      book-fab 264→1,891; disputed book-fab 98).** Close-out remains (see below).
 
-## Close-out (after batch 7)
-Lineages-appendix validation diff; review-bucket triage; harvest-queue drain; un-park strip track;
-worklog S201 entry; deferred-events (37 rows in dispute-events-deferred.jsonl) triage; chat-bundle rebuild rides next deploy.
+## Close-out (after batch 7) — S202 state
+**Done S202 (small residues):**
+- [x] vaegon/vaegon-targaryen dupe FOLDED (stub deleted, 2 dup wiki-infobox edges dropped, "Vaegon"/"Vaegon the Dragonless" aliases added; both kinship triples already existed on the real node)
+- [x] great-council-of-101-ac retyped event.battle→event.council + real Identity line (was an empty wiki stub)
+
+**Remaining (each ~session-scale; see continue prompt):**
+- [ ] Lineages-appendix validation diff — §3.4 parser NOT BUILT yet (script-builder job: parse OCR'd genealogy
+      tables → diff vs kinship edges → confirm/new/conflict buckets; NEVER auto-mint from OCR)
+- [ ] F&B harvest drain — **337 rows** (bigger than the S152 dedicated 225-row session; subagents added ~23 this session)
+- [ ] Review-bucket triage — **1,440 reconcile-review rows** across all units (design §10.10: summary-level plan, not row-by-row)
+- [ ] Deferred-events triage — **37 rows** create-or-skip, PLUS the S202 event-residue: **mint death-of-aegon-ii
+      + larys-strong SUSPECTED_OF whodunit** (B6 R9 drop; hand unknowable, behest = gyldayn inference)
+- [ ] Small residues: KNIGHTED_BY direction audit (convention = knighter→knightee in 4/5; rickard-redwyne edge
+      inverted); capture-of-prince-viserys date wrinkle (129 vs 130 AC vs battle-of-the-gullet); B1's 2 dropped
+      PART_OF (murmison, aegon-uncrowned-seizes) optional re-add; B3 sun-chaser borderline fold revisit
+- [ ] **Strip-boilerplate track un-park condition is NOW MET** (last pack applied) — Matt-gated
+- [ ] Chat-bundle rebuild rides the next Matt-gated deploy (bundle rebuilt by refresh; deploy is manual per DEPLOY.md)

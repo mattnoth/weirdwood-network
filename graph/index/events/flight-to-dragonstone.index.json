@@ -3,7 +3,7 @@
   "name": "Flight to Dragonstone",
   "type": "event.battle",
   "node_path": "graph/nodes/events/flight-to-dragonstone.node.md",
-  "generated_at": "2026-07-09T21:13:42.065720+00:00",
+  "generated_at": "2026-07-09T21:16:27.885370+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

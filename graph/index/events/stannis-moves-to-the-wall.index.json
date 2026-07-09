@@ -3,7 +3,7 @@
   "name": "Stannis Baratheon sails north to the Wall",
   "type": "event.incident",
   "node_path": "graph/nodes/events/stannis-moves-to-the-wall.node.md",
-  "generated_at": "2026-07-09T21:13:42.125817+00:00",
+  "generated_at": "2026-07-09T21:16:27.948018+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,
