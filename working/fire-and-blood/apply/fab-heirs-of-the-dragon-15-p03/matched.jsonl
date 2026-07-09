@@ -1,0 +1,77 @@
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Aegon the Elder", "slug": "aegon-ii-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Aegon the Younger", "slug": "aegon-iii-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Aemond Targaryen", "slug": "aemond-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Alfador", "slug": "alfador", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Alicent Hightower", "slug": "alicent-hightower", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Arrax", "slug": "arrax", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Baela Targaryen", "slug": "baela-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Baelon Targaryen (son of Jaehaerys I)", "slug": "baelon-targaryen-son-of-jaehaerys-i", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Blackwater Bay", "slug": "blackwater-bay", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Bloodstone", "slug": "bloodstone", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Caraxes", "slug": "caraxes", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Corlys Velaryon", "slug": "corlys-velaryon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Criston Cole", "slug": "criston-cole", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Daemon Targaryen", "slug": "daemon-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Daeron Targaryen (son of Viserys I)", "slug": "daeron-targaryen-son-of-viserys-i", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Dark Sister", "slug": "dark-sister", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Disputed Lands", "slug": "disputed-lands", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Dragonmont", "slug": "dragonmont", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Dragonstone", "slug": "dragonstone", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Dreamfyre", "slug": "dreamfyre", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Driftmark", "slug": "driftmark", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Erryk Cargyll", "slug": "erryk-cargyll", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Gerardys", "slug": "gerardys", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Harrenhal", "slug": "harrenhal", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Harwin Strong", "slug": "harwin-strong", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Helaena Targaryen", "slug": "helaena-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "High Tide", "slug": "high-tide", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "House Targaryen", "slug": "house-targaryen", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "House Velaryon", "slug": "house-velaryon", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Iron Throne", "slug": "iron-throne", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Jacaerys Velaryon", "slug": "jacaerys-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Jaehaera Targaryen", "slug": "jaehaera-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Jaehaerys I Targaryen", "slug": "jaehaerys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Jasper Wylde", "slug": "jasper-wylde", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Joffrey Lonmouth", "slug": "joffrey-lonmouth", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Joffrey Velaryon", "slug": "joffrey-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "King's Landing", "slug": "kings-landing", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Laena Velaryon", "slug": "laena-velaryon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Laenor Velaryon", "slug": "laenor-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Larys Strong", "slug": "larys-strong", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Lord Hightower", "slug": "lord-hightower", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Lucerys Velaryon", "slug": "lucerys-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Lyman Beesbury", "slug": "lyman-beesbury", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Lyonel Strong", "slug": "lyonel-strong", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Maegor the Cruel", "slug": "maegor-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Maelor Targaryen", "slug": "maelor-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Mellos", "slug": "mellos", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Mushroom", "slug": "mushroom", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Norvos", "slug": "norvos", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Oldtown", "slug": "oldtown", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Orwyle", "slug": "orwyle", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Otto Hightower", "slug": "otto-hightower", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Pentos", "slug": "pentos", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Qarl Correy", "slug": "qarl-correy", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Qohor", "slug": "qohor", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Red Keep", "slug": "red-keep", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Rhaena Targaryen (daughter of Daemon)", "slug": "rhaena-targaryen-daughter-of-daemon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Rhaenyra Targaryen", "slug": "rhaenyra-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Rhea Royce", "slug": "rhea-royce", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Runestone", "slug": "runestone", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Spicetown", "slug": "spicetown", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Stepstones", "slug": "stepstones", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Storm's End", "slug": "storms-end", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Street of Silk", "slug": "street-of-silk", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Sunfyre", "slug": "sunfyre", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Syrax", "slug": "syrax", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Tessarion", "slug": "tessarion", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Tyland Lannister", "slug": "tyland-lannister", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Tyraxes", "slug": "tyraxes", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Vaemond Velaryon", "slug": "vaemond-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Valyria", "slug": "valyria", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Vermax", "slug": "vermax", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Vhagar", "slug": "vhagar", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Viserys I Targaryen", "slug": "viserys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "Wall", "slug": "wall", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "the blacks", "slug": "blacks", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-heirs-of-the-dragon-15-p03", "name": "the greens", "slug": "greens", "route_reason": "exact-1.0-type-agree"}

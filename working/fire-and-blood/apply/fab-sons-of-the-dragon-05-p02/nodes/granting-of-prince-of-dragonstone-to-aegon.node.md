@@ -1,0 +1,25 @@
+---
+name: "Granting of Prince of Dragonstone to Aegon"
+type: event.investiture
+slug: granting-of-prince-of-dragonstone-to-aegon
+aliases: []
+confidence: tier-2
+era: targaryen-rule
+pass_origin: pass-fab-enrichment
+occurred:
+  ac_year: 41
+  precision: year
+  basis_source: narrative-prose
+  basis_reliability: primary-source
+  date_confidence: tier-1
+---
+
+## Identity
+
+angered Visenya and displaced Maegor
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
+
+angered Visenya and displaced Maegor

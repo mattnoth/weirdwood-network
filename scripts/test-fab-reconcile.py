@@ -290,6 +290,148 @@ def main():
         check(f"reconciler.norm == mint.norm (lockstep) on {sample!r}",
               R.norm(sample) == mint.norm(sample))
 
+    # =========================================================================
+    # P1 — VICTIM_IN harm-gate
+    # =========================================================================
+    for subtype in ("death", "execution", "murder", "assassination", "poisoning",
+                    "maiming", "torture", "capture", "imprisonment", "battle", "sack",
+                    "destruction", "suicide", "stillbirth", "betrayal", "raid",
+                    "attack", "duel", "deception", "mutiny", "massacre", "abduction",
+                    "wounding"):
+        check(f"classify_patient_edge_type({subtype!r}) -> VICTIM_IN (harm subtype)",
+              R.classify_patient_edge_type(subtype) == "VICTIM_IN")
+    for subtype in ("birth", "coronation", "appointment", "investiture", "treaty",
+                    "betrothal", "wedding", "funeral", "feast", "council",
+                    "construction", "decree", "confrontation", "escape", "tournament"):
+        check(f"classify_patient_edge_type({subtype!r}) -> PARTICIPATES_IN (non-harm)",
+              R.classify_patient_edge_type(subtype) == "PARTICIPATES_IN")
+    check("classify_patient_edge_type(None) -> PARTICIPATES_IN (unknown defaults neutral)",
+          R.classify_patient_edge_type(None) == "PARTICIPATES_IN")
+    check("classify_patient_edge_type('') -> PARTICIPATES_IN (absent defaults neutral)",
+          R.classify_patient_edge_type("") == "PARTICIPATES_IN")
+    check("classify_patient_edge_type('some-unmapped-subtype') -> PARTICIPATES_IN",
+          R.classify_patient_edge_type("some-unmapped-subtype") == "PARTICIPATES_IN")
+    check("classify_patient_edge_type is case-insensitive ('DEATH' -> VICTIM_IN)",
+          R.classify_patient_edge_type("DEATH") == "VICTIM_IN")
+    check("event_node_subtype('event.death') -> 'death'", R.event_node_subtype("event.death") == "death")
+    check("event_node_subtype('event.incident') -> 'incident'",
+          R.event_node_subtype("event.incident") == "incident")
+    check("event_node_subtype(None) -> None", R.event_node_subtype(None) is None)
+    check("event_node_subtype(bare 'event') -> None", R.event_node_subtype("event") is None)
+    check("HARM_EVENT_SUBTYPES does not include 'birth'", "birth" not in R.HARM_EVENT_SUBTYPES)
+    check("HARM_EVENT_SUBTYPES does not include 'coronation'", "coronation" not in R.HARM_EVENT_SUBTYPES)
+    check("HARM_EVENT_SUBTYPES includes 'death'", "death" in R.HARM_EVENT_SUBTYPES)
+
+    # --- coordinator follow-up: assassination_attempt (real case: "Attack on Queen
+    #     Alysanne at Jonquil's Pool", fab-birth-death-and-betrayal-10) + generic
+    #     attempt-marker spelling variants around an already-HARM base word ---
+    check("classify_patient_edge_type('assassination_attempt') -> VICTIM_IN"
+          " (spelling variant of 'assassination')",
+          R.classify_patient_edge_type("assassination_attempt") == "VICTIM_IN")
+    check("classify_patient_edge_type('attempted_murder') -> VICTIM_IN (prefix variant)",
+          R.classify_patient_edge_type("attempted_murder") == "VICTIM_IN")
+    check("classify_patient_edge_type('murder_attempt') -> VICTIM_IN (suffix variant)",
+          R.classify_patient_edge_type("murder_attempt") == "VICTIM_IN")
+    check("classify_patient_edge_type('attempted_treaty') -> PARTICIPATES_IN"
+          " (attempt marker around a NON-harm base word stays neutral)",
+          R.classify_patient_edge_type("attempted_treaty") == "PARTICIPATES_IN")
+    # borderline political subtypes stay NON-HARM (PARTICIPATES_IN default) — not
+    # reclassified by this fix, per explicit instruction.
+    for subtype in ("siege", "uprising", "rebellion", "trial"):
+        check(f"classify_patient_edge_type({subtype!r}) stays PARTICIPATES_IN"
+              " (borderline political, not reclassified)",
+              R.classify_patient_edge_type(subtype) == "PARTICIPATES_IN")
+
+    # =========================================================================
+    # P2 — junk character.human CREATE screen
+    # =========================================================================
+    JUNK_EXAMPLES = [
+        "A Wanton's Tale", "Sins of the Flesh", "Six Times to Sea",
+        "the Gullet, off Dragonstone", "field of ashes west of Rook's Rest",
+        "the mob", "Myrish galley crew", "three sons of Elinor",
+        "Rosby, Stokeworth, Duskendale", "Prince Joffrey's body", "OrphanMaker",
+        # found on the full 39-unit out-of-sample scan (not in the board's original
+        # list, but clearly junk of the same families — comma-list-of-places with an
+        # article-prefixed member, and a table-parsing artifact bleeding into a cell).
+        "Raventree, Riverrun, Stoney Sept, the Twins, Fairmarket",
+        "Lord Rogar's four brothers → Borys Baratheon",
+        # coordinator follow-up: collective-with-numeric-appositive, article-prefixed
+        # (fab-rhaenyra-overthrown-18-p01) — was KEPT before the article-prefix predicate.
+        "the Dragonkeepers, four dragons",
+    ]
+    for name in JUNK_EXAMPLES:
+        reason = R.junk_character_screen(name)
+        check(f"junk_character_screen rejects {name!r}", reason is not None, reason)
+    REAL_PERSON_EXAMPLES = [
+        "Criston Cole", "Alys Harroway", "Septon Eustace", "Rogar Baratheon",
+        "Aegon the Conqueror", "Jaehaerys I Targaryen", "Mushroom", "Elinor Costayne",
+        "Aegon (nephew of Maegor)",
+    ]
+    for name in REAL_PERSON_EXAMPLES:
+        reason = R.junk_character_screen(name)
+        check(f"junk_character_screen keeps real person {name!r}", reason is None, reason)
+
+    check("junk_character_screen tags 'the Dragonkeepers, four dragons' article-prefixed",
+          R.junk_character_screen("the Dragonkeepers, four dragons") == "junk-character-article-prefix",
+          R.junk_character_screen("the Dragonkeepers, four dragons"))
+    check("_is_article_prefixed true on 'the Sea Snake' (epithet/alias, not a primary name)",
+          R._is_article_prefixed("the Sea Snake") is True)
+    check("_is_article_prefixed false on 'Aegon the Conqueror' (article is mid-name)",
+          R._is_article_prefixed("Aegon the Conqueror") is False)
+
+    # =========================================================================
+    # P3 — disputed => in_universe_source invariant
+    # =========================================================================
+    lines_p3 = ["Mushroom claims the king gave the order himself.",
+                "Others say it was Ser Nobody entirely."]
+    check("derive_in_universe_source finds 'Mushroom' in the quote itself",
+          R.derive_in_universe_source("Mushroom claims the king gave the order himself.",
+                                      lines_p3, 1) == "mushroom")
+    lines_p3b = ["Septon Eustace, more plausibly, suspects Prince Daemon.",
+                 "the king himself might have given the command"]
+    check("derive_in_universe_source finds a chronicler on a nearby line",
+          R.derive_in_universe_source("the king himself might have given the command",
+                                      lines_p3b, 2) == "eustace")
+    check("derive_in_universe_source defaults to gyldayn-synthesis with no chronicler nearby",
+          R.derive_in_universe_source("no chronicler named here at all", ["flat text"] * 5, 3)
+          == "gyldayn-synthesis")
+
+    good_disputed_edge = {"id": "E1", "type": "KILLS", "source": "a", "target": "b",
+                          "tier": "tier-2", "disputed": True, "in_universe_source": "gyldayn-synthesis"}
+    try:
+        R.assert_disputed_invariant([good_disputed_edge])
+        check("assert_disputed_invariant passes a properly-sourced disputed edge", True)
+    except SystemExit as e:
+        check("assert_disputed_invariant passes a properly-sourced disputed edge", False, str(e))
+
+    bad_disputed_edge = {"id": "E71", "type": "KILLS", "source": "viserys-i-targaryen",
+                         "target": "lyonel-strong", "tier": "tier-2", "disputed": True}
+    try:
+        R.assert_disputed_invariant([bad_disputed_edge])
+        check("assert_disputed_invariant fails loudly on a disputed edge with no in_universe_source",
+              False, "did not raise")
+    except SystemExit as e:
+        msg = str(e)
+        check("assert_disputed_invariant fails loudly on a disputed edge with no in_universe_source"
+              " (names the offending edge id)", "E71" in msg, msg)
+
+    bad_tier_edge = {"id": "E2", "type": "KILLS", "source": "a", "target": "b",
+                     "tier": "tier-3", "disputed": True, "in_universe_source": "mushroom"}
+    try:
+        R.assert_disputed_invariant([bad_tier_edge])
+        check("assert_disputed_invariant fails loudly on a disputed edge with tier>2", False, "did not raise")
+    except SystemExit as e:
+        check("assert_disputed_invariant fails loudly on a disputed edge with tier>2",
+              "E2" in str(e), str(e))
+
+    non_disputed_edge = {"id": "E3", "type": "KILLS", "source": "a", "target": "b", "tier": "tier-1"}
+    try:
+        R.assert_disputed_invariant([non_disputed_edge])
+        check("assert_disputed_invariant ignores a non-disputed edge with no in_universe_source", True)
+    except SystemExit as e:
+        check("assert_disputed_invariant ignores a non-disputed edge with no in_universe_source",
+              False, str(e))
+
     print(f"\n{PASS} passed, {FAIL} failed")
     sys.exit(1 if FAIL else 0)
 

@@ -1,0 +1,12 @@
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"When Dowager Queen Alicent was informed of her \\ndaughter's passing\"", "kind": "edge", "edge_type": "PARENT_OF", "source": "Alicent Hightower", "target": "Helaena Targaryen"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"reputedly the paramour of the little \\nking's mother Essie, if Mushroom is to be believed\"", "kind": "edge", "edge_type": "LOVER_OF", "source": "Sylvenna Sand", "target": "Essie"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"the would-be rescuers \\nwere taken and hanged\"", "kind": "edge", "edge_type": "EXECUTES", "source": "Rhaenyra Targaryen", "target": "Denys Woodwright"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"she had sent Ser Luthor Largent to seize \\nHelaena with his huge rough hands and fling her from the window\"", "kind": "edge", "edge_type": "KILLS", "source": "Luthor Largent", "target": "Helaena Targaryen"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"to be greeted warmly by Ser Perkin the Flea and take a \\nplace of honor\"", "kind": "edge", "edge_type": "ALLIES_WITH", "source": "Perkin the Flea", "target": "Larys Strong"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "Queen \\nHelaena had been murdered, the whispers went", "kind": "prose", "entity": "Helaena Targaryen"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "must \\nyield his manhood to the Crown as forfeit", "kind": "prose", "entity": "Bartimos Celtigar"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "Sixteen \\nreturned. Ser Lorent, Lord Commander of the Queensguard, was not amongst them", "kind": "prose", "entity": "Lorent Marbrand"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "Ser Medrick Manderly, leading \\na hundred White Harbor men", "kind": "prose", "entity": "Medrick Manderly"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "four surviving Queensguard, Ser Balon Byrch \\nand twenty gold cloaks", "kind": "prose", "entity": "Balon Byrch"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "sliced the membranes from his wings and tore them into ragged \\nstrips to fashion dragonskin cloaks", "kind": "prose", "entity": "Tyraxes"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "Lady Darla Deddings saw her brother Davos stabbed through the \\neye", "kind": "prose", "entity": "Darla Deddings"}

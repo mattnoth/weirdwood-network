@@ -1,0 +1,16 @@
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "his\\nbrother Lucerys south on Arrax", "kind": "edge", "edge_type": "SIBLING_OF", "source": "Jacaerys Velaryon", "target": "Lucerys Velaryon"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "if it's a clever wife you\\nwant, there’s Maris", "kind": "edge", "edge_type": "PARENT_OF", "source": "Borros Baratheon", "target": "Maris Baratheon"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "To this pale stranger he reached\\nout now, by secret ways", "kind": "edge", "edge_type": "CONSPIRES_WITH", "source": "Daemon Targaryen", "target": "Mysaria"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "all swore\\nhim their swords", "kind": "event-role", "role": "agent", "event": "Jacaerys wins the Vale", "person": "Jacaerys Velaryon"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "all swore\\nhim their swords", "kind": "event-role", "role": "patient", "event": "Jacaerys wins the Vale", "person": "Jeyne Arryn"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "I will have my throne, or | will have his head", "kind": "prose", "entity": "Rhaenyra Targaryen"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "Daemon Targaryen had been the “Prince of the City”", "kind": "prose", "entity": "Daemon Targaryen"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "To this pale stranger he reached\\nout now, by secret ways", "kind": "prose", "entity": "Daemon Targaryen"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "I am betrothed to my cousin Rhaena", "kind": "prose", "entity": "Lucerys Velaryon"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "Mushroom insists that she\\nwas much older, that she was wet nurse to both boys", "kind": "prose", "entity": "Alys Rivers"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "I have him in one of my sky cells", "kind": "prose", "entity": "Jeyne Arryn"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "Lord Manderly's youngest daughter would be wed to the prince's brother\\nJoffrey", "kind": "prose", "entity": "Desmond Manderly"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "to talk of\\nmarriage is preposterous", "kind": "prose", "entity": "Sara Snow"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "I have four daughters,” he told the prince", "kind": "prose", "entity": "Borros Baratheon"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "It is not for me to tell you what to do when you are not\\nbeneath my roof", "kind": "prose", "entity": "Borros Baratheon"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "quote": "I still have the sword", "kind": "prose", "entity": "Petyr Piper"}

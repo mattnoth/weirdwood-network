@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "jaehaerys-i-targaryen",
+    "fab_section_md": "- He returned to King's Landing alone on Vermithor, having grown from a stripling into a man since flying to Dragonstone (fab-time-of-testing-09:17)\n- He bore his grandsire's sword Blackfyre on his swordbelt (fab-time-of-testing-09:27)\n- He remade the small council, dismissing men who had proved unequal and cleaning out lesser offices and the dungeons (fab-time-of-testing-09:37)\n- He pardoned Lord Rogar under strict conditions rather than execute or exile him (fab-time-of-testing-09:103)\n- He resolved the empty treasury through foreign loans and new taxes on luxury goods and crenellations, and answered his sister-marriage's opponents with preachers rather than steel (fab-time-of-testing-09:165)",
+    "run_id": "fab-time-of-testing-09-2026-07-09"
+  },
+  {
+    "slug": "alysanne-targaryen",
+    "fab_section_md": "- She remained on Dragonstone while Jaehaerys returned, then came to King's Landing on Silverwing after half a year apart (fab-time-of-testing-09:143)\n- She was wed to Jaehaerys a second time and, at her own insistence, the marriage was consummated with a bedding (fab-time-of-testing-09:153)\n- She began attending council meetings and set about making the Red Keep glitter with singers, mummers, and art, and later told the king she was with child (fab-time-of-testing-09:233)",
+    "run_id": "fab-time-of-testing-09-2026-07-09"
+  },
+  {
+    "slug": "alyssa-velaryon",
+    "fab_section_md": "- The Dowager Queen, no longer a regent, was found weeping in Maegor's Holdfast and lost her seat at council (fab-time-of-testing-09:33)\n- As a condition of Rogar's pardon she returned to Storm's End to live as his wife again (fab-time-of-testing-09:105)\n- She had made her late husband Aenys's court a splendid place of song and beauty (fab-time-of-testing-09:225)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Alyssa Velaryon — The Dowager Queen, no longer a regent, was found weeping in Maegor's Holdfast and lost her seat at council."
+  },
+  {
+    "slug": "aerea-targaryen",
+    "fab_section_md": "- Rhaena's daughter, a girl of eight, was Jaehaerys's acknowledged successor and heir apparent to the Iron Throne (fab-time-of-testing-09:221)\n- Jaehaerys restored her to Rhaena, perhaps too hastily (fab-time-of-testing-09:221)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Aerea Targaryen — Rhaena's daughter, a girl of eight, was Jaehaerys's acknowledged successor and heir apparent to the Iron Throne."
+  },
+  {
+    "slug": "rogar-baratheon",
+    "fab_section_md": "- Summoned back to King's Landing, the Lord of Storm's End came with only six old knights and humbled himself before the Iron Throne (fab-time-of-testing-09:81)\n- Jaehaerys pardoned him despite his treasonous words and plans, requiring him to champion the queen and honor Alyssa (fab-time-of-testing-09:103)\n- Roaring drunk at the wedding, he led the men who disrobed the queen at the bedding (fab-time-of-testing-09:153)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Rogar Baratheon — Summoned back to King's Landing, the Lord of Storm's End came with only six old knights and humbled himself before the Iron Throne."
+  },
+  {
+    "slug": "rego-draz",
+    "fab_section_md": "- A Pentoshi merchant who rose from nothing to be the richest man in Pentos, shunned there for low birth, he answered the king's call and was named master of coin and a lord (fab-time-of-testing-09:49)\n- Landless, he was dubbed \"the Lord of Air\" (fab-time-of-testing-09:49)\n- \" He secured three loans by playing the banks against one another and devised the king's luxury and spice taxes (fab-time-of-testing-09:127)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Rego Draz — A Pentoshi merchant who rose from nothing to be the richest man in Pentos, shunned there for low birth, he answered the king's call and was named master of coin and a lord."
+  },
+  {
+    "slug": "albin-massey",
+    "fab_section_md": "- Lord of Stonedance, named master of laws, he had been forging a maester's chain at the Citadel until fever killed his father and elder brothers (fab-time-of-testing-09:39)\n- A twisted spine left him with a limp (fab-time-of-testing-09:39)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Albin Massey — Lord of Stonedance, named master of laws, he had been forging a maester's chain at the Citadel until fever killed his father and elder brothers."
+  },
+  {
+    "slug": "manfryd-redwyne",
+    "fab_section_md": "- The Lord of the Arbor was named lord admiral and master of ships, coming to court with his squire sons Robert, Rickard, and Ryam (fab-time-of-testing-09:39)\n- His appointment ended House Velaryon's hold on the admiralty (fab-time-of-testing-09:41)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Manfryd Redwyne — The Lord of the Arbor was named lord admiral and master of ships, coming to court with his squire sons Robert, Rickard, and Ryam."
+  },
+  {
+    "slug": "edwell-celtigar",
+    "fab_section_md": "- Dismissed as master of coin to the realm's joy, he left for Claw Isle while his taxes were struck down (fab-time-of-testing-09:43)\n- The king praised his daughters as \"two treasures\" (fab-time-of-testing-09:43)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Edwell Celtigar — Dismissed as master of coin to the realm's joy, he left for Claw Isle while his taxes were struck down."
+  },
+  {
+    "slug": "barth",
+    "fab_section_md": "- A young man summoned from Highgarden to see to the royal library (fab-time-of-testing-09:55)\n- He pronounced Jaehaerys and Alysanne man and wife and helped craft the Doctrine of Exceptionalism (fab-time-of-testing-09:147)\n- Legend says he passed the departing Mattheus at Bitterbridge, riding alone on a donkey (fab-time-of-testing-09:61)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Barth — A young man summoned from Highgarden to see to the royal library."
+  },
+  {
+    "slug": "benifer",
+    "fab_section_md": "- Grand Maester who narrates the king's return and reign; he had fled to Pentos when Maegor died and feared his return (fab-time-of-testing-09:21)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Benifer — Grand Maester who narrates the king's return and reign; he had fled to Pentos when Maegor died and feared his return."
+  },
+  {
+    "slug": "orryn-baratheon",
+    "fab_section_md": "- Rogar's brother, sent to Oldtown to remove Rhaella and held there by Hightower, then sentenced to ten years' exile (fab-time-of-testing-09:109)\n- He never returned to Westeros, taking service with the Archon of Tyrosh and marrying his daughter (fab-time-of-testing-09:235)\n- He later joined the Maiden's Men in Myr and was killed in the Disputed Lands (fab-time-of-testing-09:235)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Orryn Baratheon — Rogar's brother, sent to Oldtown to remove Rhaella and held there by Hightower, then sentenced to ten years' exile."
+  },
+  {
+    "slug": "elinor-costayne",
+    "fab_section_md": "- Queen Elinor, \"the Black Bride\" who found Maegor dead upon the Iron Throne, was the only Speaker known to the commons (fab-time-of-testing-09:167)\n- She traveled the Reach preaching the goodness of Maegor's successors and later became Mother Elinor at Lannisport (fab-time-of-testing-09:167)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Elinor Costayne — Queen Elinor, \"the Black Bride\" who found Maegor dead upon the Iron Throne, was the only Speaker known to the commons."
+  },
+  {
+    "slug": "vermithor",
+    "fab_section_md": "- Jaehaerys's growing bronze dragon that he flew home and fed a slaughtered bull; the king let his mount stand as surety over the stormlands (fab-time-of-testing-09:119)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Vermithor — Jaehaerys's growing bronze dragon that he flew home and fed a slaughtered bull; the king let his mount stand as surety over the stormlands."
+  },
+  {
+    "slug": "tom-the-strummer",
+    "fab_section_md": "- A singer from Flea Bottom whose mocking songs had amused all during the War for the White Cloaks; Alysanne made him the court singer (fab-time-of-testing-09:229)",
+    "run_id": "fab-time-of-testing-09-2026-07-09",
+    "identity_line": "Tom the Strummer — A singer from Flea Bottom whose mocking songs had amused all during the War for the White Cloaks; Alysanne made him the court singer."
+  }
+]

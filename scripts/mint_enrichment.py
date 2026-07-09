@@ -136,6 +136,78 @@ def authoritative_line(book, chapter, quote):
     sys.exit(f"ABORT: quote not found in {chapter}.md -> {quote!r}")
 
 
+# ---------------------------------------------------------------------------
+# Edge-level skip-if-exists dedup (S200 advisory-board fix). A 35-unit bulk apply
+# asserted 142 identical (edge_type, src, dst) triples across 2+ units — MOST are
+# intended multi-provenance (same kinship edge cited from a different chapter) and must
+# be KEPT; only same-quote duplicates are true redundancies. Dedup key adds
+# normalized_quote to the triple so multi-provenance survives and only true repeats
+# collapse. normalize_quote_for_dedup() is built ON TOP of norm() (this script's
+# existing quote normalizer, byte-identical to fab-reconcile-candidates.py's norm() —
+# see that file's "COPIED verbatim in spirit" comment) rather than a divergent one.
+# ---------------------------------------------------------------------------
+DEDUP_TRAILING_PUNCT_RE = re.compile(r'["\'.,;:!?]+$')
+
+
+def normalize_quote_for_dedup(quote):
+    """norm() + two dedup-specific steps: strip one layer of wrapping quote marks and
+    strip trailing punctuation. Handles the case where the same underlying sentence was
+    clipped at slightly different points by two different extraction units (e.g. one
+    unit's quote ends '...at Storm's End.' and another's ends '...at Storm's End' with
+    no period) — those are the SAME asserted quote for dedup purposes. A genuinely
+    different quote (different words) never collapses onto this key."""
+    s = norm(quote)
+    if len(s) >= 2 and s[0] == '"' and s[-1] == '"':
+        s = s[1:-1].strip()
+    s = DEDUP_TRAILING_PUNCT_RE.sub("", s).rstrip()
+    return s
+
+
+def edge_dedup_key(edge_type, source_slug, target_slug, quote):
+    """The (edge_type, source_slug, target_slug, normalized_quote) 4-tuple that defines
+    'identical edge' for skip-if-exists. Same triple + a DIFFERENT quote is
+    multi-provenance and is never matched by this key — only an exact-key repeat skips."""
+    return (edge_type, source_slug, target_slug, normalize_quote_for_dedup(quote))
+
+
+def load_existing_edge_keys(existing_lines):
+    """Build the dedup-key set from already-written edges.jsonl lines (read ONCE per
+    run). Rows with no evidence_quote (e.g. Tier-2 wiki-infobox edges with no quote
+    evidence) contribute no key — there's nothing to same-quote-collide against.
+    Malformed lines are warned and skipped, never a crash (this is a read of the live
+    graph edge store, not something to abort a mint over)."""
+    keys = set()
+    for ln in existing_lines:
+        try:
+            row = json.loads(ln)
+        except json.JSONDecodeError:
+            print(f"WARNING: skipping malformed edges.jsonl line during dedup-index build: {ln[:80]!r}",
+                  file=sys.stderr)
+            continue
+        quote = row.get("evidence_quote")
+        et, src, tgt = row.get("edge_type"), row.get("source_slug"), row.get("target_slug")
+        if not (quote and et and src and tgt):
+            continue
+        keys.add(edge_dedup_key(et, src, tgt, quote))
+    return keys
+
+
+def dedupe_edge_rows(rows, seen_keys):
+    """Partition freshly-built edge rows into (kept, skipped) against `seen_keys`.
+    `seen_keys` is mutated in place: each kept row's key is added immediately, so
+    same-quote duplicates WITHIN this run's own candidate list are also caught, not just
+    duplicates against edges already on disk from a prior batch."""
+    kept, skipped = [], []
+    for row in rows:
+        key = edge_dedup_key(row["edge_type"], row["source_slug"], row["target_slug"], row["evidence_quote"])
+        if key in seen_keys:
+            skipped.append(row)
+        else:
+            seen_keys.add(key)
+            kept.append(row)
+    return kept, skipped
+
+
 def derive_typed_by(run_id):
     """euron-enrichment-s157 -> curator-euron-enrichment (matches the per-dip scripts)."""
     unit = run_id.rsplit("-enrichment-", 1)[0] if "-enrichment-" in run_id else run_id
@@ -276,6 +348,22 @@ def main():
     new_rows = [make_edge_row(e, cb) for e in edges]
     print(f"Line-check OK: all {len(new_rows)} quotes located in source.")
 
+    # 3.5 edge-level skip-if-exists dedup (S200 board fix). Independent of the run_id
+    # re-run guard above — this catches identical (edge_type, source_slug, target_slug,
+    # normalized_quote) rows even under a NEW run_id, including across separate mint
+    # invocations (edges.jsonl is re-read fresh each run, so a later batch minting a
+    # same-quote edge a prior batch already wrote is correctly skipped here). Same
+    # triple with a DIFFERENT quote is multi-provenance and is always kept.
+    seen_keys = load_existing_edge_keys(existing)
+    kept_rows, skipped_rows = dedupe_edge_rows(new_rows, seen_keys)
+    if skipped_rows:
+        print(f"Dedup OK: {len(skipped_rows)} edge(s) skipped as exact same-quote duplicates:")
+        for r in skipped_rows:
+            print(f"  SKIP dup edge: {r['edge_type']} {r['source_slug']} -> {r['target_slug']}"
+                  f"  (candidate_id={r.get('candidate_id')})")
+    else:
+        print("Dedup OK: 0 same-quote duplicates found.")
+
     # 4. backup
     backup = args.backup or (REPO / "graph" / "edges" / "_regrounding"
                              / f"edges-pre-{derive_unit_slug(run_id)}-enrichment-{date.today().isoformat()}.jsonl")
@@ -299,18 +387,20 @@ def main():
                 shown = p
             print(f"  Created node: {shown}")
 
-    # 6. append edges
-    out = existing + [json.dumps(r, ensure_ascii=False) for r in new_rows]
+    # 6. append edges (post-dedup — skipped rows never touch the file)
+    out = existing + [json.dumps(r, ensure_ascii=False) for r in kept_rows]
     args.edges.write_text("\n".join(out) + "\n", encoding="utf-8")
 
     tc = {}
-    for e in edges:
-        tc[e["type"]] = tc.get(e["type"], 0) + 1
+    for r in kept_rows:
+        tc[r["edge_type"]] = tc.get(r["edge_type"], 0) + 1
     print("\n── SUMMARY ──")
     print(f"Nodes created ({len(created)}): {', '.join(created) or '(none — edge-only dip)'}")
-    print(f"Edges appended ({len(new_rows)}):")
+    print(f"Edges appended ({len(kept_rows)}):")
     for t, c in sorted(tc.items()):
         print(f"  {t}: {c}")
+    print(f"Edges skipped as duplicates ({len(skipped_rows)})")
+    print(f"\nedges_appended={len(kept_rows)}  edges_skipped_dup={len(skipped_rows)}")
 
 
 if __name__ == "__main__":

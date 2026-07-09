@@ -1,0 +1,12 @@
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "\"the very / image of her sister, Aerea\"", "kind": "edge", "edge_type": "SIBLING_OF", "source": "Aerea Targaryen", "target": "Rhaella Targaryen"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "\"the brother of / Ser Lucamore Strong\"", "kind": "edge", "edge_type": "SIBLING_OF", "source": "Bywin Strong", "target": "Lucamore Strong"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "\"Jaehaerys loved / all three children fiercely\"", "kind": "edge", "edge_type": "PARENT_OF", "source": "Jaehaerys I Targaryen", "target": "Daenerys Targaryen"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "\"the king’s shrewd master of coin, / Rego Draz\"", "kind": "edge", "edge_type": "SERVES", "source": "Rego Draz", "target": "Jaehaerys I Targaryen"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "\"renamed Snowgate castle in her / honor, as Queensgate\"", "kind": "event-role", "role": "agent", "event": "Renaming of Snowgate as Queensgate", "person": "Lothor Burley"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "| fed my last husband / to my dragon.", "kind": "prose", "entity": "Rhaena Targaryen"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "We are speaking of / three eggs.", "kind": "prose", "entity": "Barth"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "I believe Her Grace has the right of this.", "kind": "prose", "entity": "Barth"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "it cost my brother's life to / put them down.", "kind": "prose", "entity": "Walton Stark"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "renamed Snowgate castle in her / honor, as Queensgate.", "kind": "prose", "entity": "Lothor Burley"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "the king’s shrewd master of coin, / Rego Draz.", "kind": "prose", "entity": "Rego Draz"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "quote": "crowned Good Queen Alysanne as / his queen of love and beauty.", "kind": "prose", "entity": "Ryam Redwyne"}

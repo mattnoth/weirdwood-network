@@ -1,0 +1,4 @@
+{"unit": "fab-sons-of-the-dragon-05-p02", "quote": "\"Aegon Targaryen, Prince of Dragonstone... remained defiant\"", "kind": "edge", "edge_type": "OPPOSES", "source": "Aegon Targaryen", "target": "Maegor Targaryen"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "quote": "\"Maegor made Lord Lucas Harroway... his new Hand\"", "kind": "edge", "edge_type": "APPOINTS", "source": "Maegor Targaryen", "target": "Lucas Harroway"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "quote": "\"Maegor made Lord Lucas Harroway... his new Hand\"", "kind": "event-role", "role": "agent", "event": "Lucas Harroway made Hand", "person": "Maegor Targaryen"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "quote": "\"Maegor made Lord Lucas Harroway... his new Hand\"", "kind": "event-role", "role": "patient", "event": "Lucas Harroway made Hand", "person": "Lucas Harroway"}

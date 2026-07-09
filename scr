@@ -1,0 +1,13 @@
+  - events/ nodes 371 → 583 (+212; 217 new mints minus 5 collision-loser quarantines)
+  - Validator: 4,725 kept / 32 dropped (all SUB_BEAT_OF empty-evidence — Plate 4 Pass-B/C inference-only rows; remain in JSONL as read-only audit flag)
+  - Red Wedding smoke test passes: 8 SUB_BEAT_OF incoming, 2-hop traversal surfaces AGENT_IN/VICTIM_IN/COMMANDS_IN/LOCATED_AT with verbatim quotes. Reification working end-to-end.
+
+  Field-name fix caught mid-flight: Plate 4 staging used quoted_evidence instead of canonical evidence_quote; renamed in-place on all 51 SUB_BEAT_OF rows (19 retained text, 32 left empty per Pass-B inference-only emissions).
+
+  Untouched per your rules: progress/continue-prompts/2026-06-08-alias-and-display-design.md (your IDE edits preserved), scratch files, plate3-revalidation/.
+
+  6 follow-up TODOs queued (none blocking, all opportunistic): display-bullet regen, 32 empty-quote SUB_BEAT_OF decision, 109 hub-review-queue triage, 2 deferred collisions, mutual-kill reverse direction, post-Plate-5 backfill tracks A/B/C.
+
+  When you're back: ready to talk about using the graph for validation. With 4,757 edges + 583 event nodes + reified hubs + role-typed participants + SUB_BEAT_OF traversal, the graph can now answer questions it couldn't before — e.g., "who
+  participated in event X," "who ordered whom to do what at the Red Wedding," "what beats happened before the slaughter," cross-character traversals via event hubs. Worth scoping which validation questions matter most to you so we pick the
+  right query patterns.

@@ -1,0 +1,6 @@
+{"unit": "fab-the-long-reign-cont-14-p01", "quote": "\"conferred upon his eldest the title\\n\\nPrince of Dragonstone\"", "kind": "edge", "edge_type": "PARENT_OF", "source": "Jaehaerys Targaryen", "target": "Aemon Targaryen"}
+{"unit": "fab-the-long-reign-cont-14-p01", "quote": "\"attached herself to her\\n\\nsister Alyssa\"", "kind": "edge", "edge_type": "SIBLING_OF", "source": "Alyssa Targaryen", "target": "Maegelle Targaryen"}
+{"unit": "fab-the-long-reign-cont-14-p01", "quote": "\"I am speaking of his son. Martyn\"", "kind": "edge", "edge_type": "PARENT_OF", "source": "Bertrand Tyrell", "target": "Martyn Tyrell"}
+{"unit": "fab-the-long-reign-cont-14-p01", "quote": "\"conferred upon his eldest the title\\n\\nPrince of Dragonstone\"", "kind": "edge", "edge_type": "APPOINTS", "source": "Jaehaerys Targaryen", "target": "Aemon Targaryen"}
+{"unit": "fab-the-long-reign-cont-14-p01", "quote": "he\\n\\nsoon had no choice but to call them back.", "kind": "prose", "entity": "Jaehaerys Targaryen"}
+{"unit": "fab-the-long-reign-cont-14-p01", "quote": "I would not die abed, bleeding out of my arse.", "kind": "prose", "entity": "Rogar Baratheon"}

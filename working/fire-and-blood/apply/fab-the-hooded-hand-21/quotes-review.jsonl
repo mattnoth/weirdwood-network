@@ -1,0 +1,10 @@
+{"unit": "fab-the-hooded-hand-21", "quote": "Lord Kermit Tully... whilst his brother Ser Oscar", "kind": "edge", "edge_type": "SIBLING_OF", "source": "Oscar Tully", "target": "Kermit Tully"}
+{"unit": "fab-the-hooded-hand-21", "quote": "his sons... and his daughter Helaena", "kind": "edge", "edge_type": "PARENT_OF", "source": "Alicent Hightower", "target": "Helaena Targaryen"}
+{"unit": "fab-the-hooded-hand-21", "quote": "attribute their survival to the touch of the king's 'healing hands.'", "kind": "prose", "entity": "Aegon III"}
+{"unit": "fab-the-hooded-hand-21", "quote": "'especially fond' of Ser Corwyn Corbray", "kind": "prose", "entity": "Rhaena Targaryen"}
+{"unit": "fab-the-hooded-hand-21", "quote": "'Both of them are broken,' Grand Maester Munkun declared", "kind": "prose", "entity": "Munkun"}
+{"unit": "fab-the-hooded-hand-21", "quote": "'And who is this male claimant, my lord? We seem to have killed them all'", "kind": "prose", "entity": "Munkun"}
+{"unit": "fab-the-hooded-hand-21", "quote": "'His trueborn son and heir,' Alys Rivers spat back", "kind": "prose", "entity": "Alys Rivers"}
+{"unit": "fab-the-hooded-hand-21", "quote": "she has a dragon. \\| seen it", "kind": "prose", "entity": "Alys Rivers"}
+{"unit": "fab-the-hooded-hand-21", "quote": "'thick of neck and thick of wit'", "kind": "prose", "entity": "Leowyn Corbray"}
+{"unit": "fab-the-hooded-hand-21", "quote": "'this harlot on a horse'", "kind": "prose", "entity": "Samantha"}

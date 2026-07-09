@@ -1,0 +1,73 @@
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Aegon the Conqueror", "slug": "aegon-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Aegon the Uncrowned", "slug": "aegon-targaryen-son-of-aenys-i", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Aenys I Targaryen", "slug": "aenys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Aerea Targaryen", "slug": "aerea-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Alyn Bullock", "slug": "alyn-bullock", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Alysanne Targaryen", "slug": "alysanne-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Alyssa Velaryon", "slug": "alyssa-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Androw Farman", "slug": "androw-farman", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Arbor", "slug": "arbor", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Baelor the Blessed", "slug": "baelor-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Barth", "slug": "barth", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Basilisk Isles", "slug": "basilisk-isles", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Battle Beneath the Gods Eye", "slug": "battle-beneath-the-gods-eye", "route_reason": "hit"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Bear Island", "slug": "bear-island", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Benifer", "slug": "benifer", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Blackwater Bay", "slug": "blackwater-bay", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Blackwater Rush", "slug": "blackwater-rush", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Borys Baratheon", "slug": "borys-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Coryanne Wylde", "slug": "coryanne-wylde", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Crey", "slug": "crey", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Culiper", "slug": "culiper", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Dark Sister", "slug": "dark-sister", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Disputed Lands", "slug": "disputed-lands", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Dragonstone", "slug": "dragonstone", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Driftmark", "slug": "driftmark", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Edyth", "slug": "edyth", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Elissa Farman", "slug": "elissa-farman", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Ella Broome", "slug": "ella-broome", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Elyas Scales", "slug": "elyas-scales", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Fair Isle", "slug": "fair-isle", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Florian the Fool", "slug": "florian-the-fool", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "House Ball", "slug": "house-ball", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "House Baratheon", "slug": "house-baratheon", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "House Broome", "slug": "house-broome", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "House Celtigar", "slug": "house-celtigar", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "House Farman", "slug": "house-farman", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "House Templeton", "slug": "house-templeton", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "House Wylde", "slug": "house-wylde", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Howard Bullock", "slug": "howard-bullock", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Iron Throne", "slug": "iron-throne", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Jaehaerys I Targaryen", "slug": "jaehaerys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Jennis Templeton", "slug": "jennis-templeton", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Jonquil", "slug": "jonquil", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "King's Landing", "slug": "kings-landing", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Lucinda Tully", "slug": "lucinda-tully", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Lyra", "slug": "lyra", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Lys", "slug": "lys", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Maegor I Targaryen", "slug": "maegor-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Mattheus", "slug": "mattheus", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Merrell Bullock", "slug": "merrell-bullock", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Morgan Wylde", "slug": "morgan-wylde", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Myr", "slug": "myr", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Oldtown", "slug": "oldtown", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Oswyck", "slug": "oswyck", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Pate the Woodcock", "slug": "pate-the-woodcock", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Qarth", "slug": "qarth", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Rain House", "slug": "rain-house", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Red Keep", "slug": "red-keep", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Riverrun", "slug": "riverrun", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Rogar Baratheon", "slug": "rogar-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Rosamund Ball", "slug": "rosamund-ball", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Ryben", "slug": "ryben", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Smike", "slug": "smike", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Starry Sept", "slug": "starry-sept", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Storm's End", "slug": "storms-end", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Sunset Sea", "slug": "sunset-sea", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "The Golden Wedding", "slug": "golden-wedding", "route_reason": "hit"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Tyrosh", "slug": "tyrosh", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Wedding of Rhaena Targaryen and Androw Farman", "slug": "wedding-of-rhaena-targaryen-and-androw-farman", "route_reason": "hit"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Wise Woman", "slug": "wise-woman", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "Ysabel", "slug": "ysabel", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "surly lad", "slug": "surly-lad", "route_reason": "hit-character"}
+{"unit": "fab-surfeit-of-rulers-08-p01", "name": "the Wall", "slug": "wall", "route_reason": "exact-1.0-type-agree"}

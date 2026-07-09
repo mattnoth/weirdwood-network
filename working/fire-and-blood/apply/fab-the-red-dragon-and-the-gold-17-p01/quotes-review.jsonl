@@ -1,0 +1,7 @@
+{"unit": "fab-the-red-dragon-and-the-gold-17-p01", "quote": "\"on her back... rode Rhaenys Targaryen, the Queen Who Never Was\"", "kind": "edge", "edge_type": "BONDED_TO", "source": "Rhaenys Targaryen", "target": "Meleys"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p01", "quote": "\"'My strength and my consolation,' the queen called them\"", "kind": "edge", "edge_type": "PARENT_OF", "source": "Rhaenyra Targaryen", "target": "Aegon the Younger"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p01", "quote": "\"the Cannibal descended on them... devoured father and sons alike\"", "kind": "edge", "edge_type": "KILLS", "source": "Cannibal", "target": "Silver Denys"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p01", "quote": "\"Ulf the White (for his hair)... mounted Silverwing\"", "kind": "edge", "edge_type": "BONDED_TO", "source": "Ulf the White", "target": "Silverwing"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p01", "quote": "took onto his back a boy of ten-and-five", "kind": "prose", "entity": "Addam of Hull"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p01", "quote": "a 'small brown girl' of six-and-ten", "kind": "prose", "entity": "Nettles"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p01", "quote": "a notably ugly 'mud brown' dragon", "kind": "prose", "entity": "Sheepstealer"}

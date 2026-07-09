@@ -90,6 +90,64 @@ IN_UNIVERSE_SOURCE_ENUM = {
     "mushroom", "eustace", "munkun", "orwyle", "gyldayn-synthesis", "court-record", "unattributed",
 }
 
+# ---------------------------------------------------------------------------
+# P1 (advisory board, pre-35-unit-apply) — VICTIM_IN harm-gate. A semantic `patient`
+# role does NOT always mean "victim" (you cannot be the victim of a birth, a
+# coronation, or a treaty). VICTIM_IN is reserved for event subtypes that denote
+# actual harm to the patient; every other subtype (including an unknown/absent one —
+# the safe neutral, never assert false harm) maps the patient role to PARTICIPATES_IN
+# instead. Both edge types are already in the locked 170-type vocabulary
+# (Military & Conflict category) — this gate never mints a new edge type.
+# ---------------------------------------------------------------------------
+HARM_EVENT_SUBTYPES = {
+    "death", "execution", "murder", "assassination", "poisoning", "maiming", "torture",
+    "capture", "imprisonment", "battle", "sack", "destruction", "suicide", "stillbirth",
+    "betrayal", "raid", "attack", "duel", "deception", "mutiny", "massacre", "abduction",
+    "wounding",
+}
+
+# A spelling-variant harm form ('assassination_attempt', 'attempted_murder') is still
+# harm — an ATTEMPT marker around an already-HARM base word doesn't neutralize it (the
+# patient is genuinely a victim of the attempt). Deliberately narrow: only fires when
+# stripping the marker lands on a base word that is ITSELF already in
+# HARM_EVENT_SUBTYPES — never used to reclassify a borderline/political subtype
+# (siege, uprising, rebellion, trial stay PARTICIPATES_IN, the safe default).
+_HARM_ATTEMPT_SUFFIXES = ("_attempt", "_attempted")
+_HARM_ATTEMPT_PREFIXES = ("attempted_",)
+
+
+def classify_patient_edge_type(event_subtype: str | None) -> str:
+    """P1 harm-gate: map a semantic `patient` role to VICTIM_IN only when the target
+    event's subtype (the `event.<subtype>` suffix, e.g. 'death' from 'event.death')
+    denotes harm; otherwise PARTICIPATES_IN. An unknown/absent subtype defaults to
+    PARTICIPATES_IN — the safe neutral, never assert false harm."""
+    if not event_subtype:
+        return "PARTICIPATES_IN"
+    s = event_subtype.strip().lower()
+    if s in HARM_EVENT_SUBTYPES:
+        return "VICTIM_IN"
+    base = s
+    for suf in _HARM_ATTEMPT_SUFFIXES:
+        if base.endswith(suf):
+            base = base[: -len(suf)]
+            break
+    else:
+        for pre in _HARM_ATTEMPT_PREFIXES:
+            if base.startswith(pre):
+                base = base[len(pre):]
+                break
+    if base != s and base in HARM_EVENT_SUBTYPES:
+        return "VICTIM_IN"
+    return "PARTICIPATES_IN"
+
+
+def event_node_subtype(node_type: str | None) -> str | None:
+    """'event.death' -> 'death'; None/bare 'event' -> None."""
+    if not node_type or "." not in node_type:
+        return None
+    return node_type.split(".", 1)[1].strip().lower() or None
+
+
 # Contradiction diff only inspects these edge-type families (design §5.4).
 CONTRADICTION_TYPES = {
     "PARENT_OF", "SIBLING_OF", "SPOUSE_OF", "STEP_PARENT_OF", "IN_LAW_OF",  # kinship
@@ -253,6 +311,73 @@ def dispute_proximity(chapter_lines: list[str], line: int,
     if best_hedge and (best_certainty is None or best_hedge[1] < best_certainty[1]):
         return best_hedge
     return None
+
+
+# ---------------------------------------------------------------------------
+# P3 (advisory board, pre-35-unit-apply) — disputed => in_universe_source invariant.
+# A `disputed: true` edge with NO in_universe_source is an unsourced dispute claim —
+# every disputed edge must carry tier<=2 AND a non-empty in_universe_source. Wherever
+# the reconciler sets disputed:true it must also set in_universe_source (derived from
+# the quote/context when a specific chronicler is nameable, else the flat
+# Gyldayn-synthesis narrator voice); `assert_disputed_invariant` is the writer-side
+# mechanical backstop that fails loudly if that ever slips.
+# ---------------------------------------------------------------------------
+_CHRONICLER_NAME_TO_SOURCE = {
+    "mushroom": "mushroom",
+    "eustace": "eustace",
+    "munkun": "munkun",
+    "orwyle": "orwyle",
+}
+
+
+def derive_in_universe_source(quote: str, chapter_lines: list[str], line: int | None,
+                              window: int = DISPUTE_PROXIMITY_WINDOW) -> str:
+    """Return the most specific `in_universe_source` derivable for a disputed edge
+    that arrived with none: a named chronicler mentioned in the quote itself, else one
+    named within ±window lines of the quote's location, else the default flat
+    'gyldayn-synthesis' narrator voice (never emit disputed:true unsourced)."""
+    ql = (quote or "").lower()
+    for name, source in _CHRONICLER_NAME_TO_SOURCE.items():
+        if name in ql:
+            return source
+    if chapter_lines and line:
+        n = len(chapter_lines)
+        for d in range(0, window + 1):
+            for ln in (line - d, line + d):
+                if not (1 <= ln <= n):
+                    continue
+                low = chapter_lines[ln - 1].lower()
+                for name, source in _CHRONICLER_NAME_TO_SOURCE.items():
+                    if name in low:
+                        return source
+    return "gyldayn-synthesis"
+
+
+def assert_disputed_invariant(edges: list[dict]) -> None:
+    """Pre-emit mechanical assertion: every edge with disputed:true MUST have
+    tier<=2 AND a non-empty in_universe_source. Fails loudly (non-zero exit, naming
+    every offending edge id) rather than silently emitting an unsourced dispute claim
+    — this is the writer-enforced backstop, not a hope that upstream logic is right."""
+    violations = []
+    for e in edges:
+        if not e.get("disputed"):
+            continue
+        tier_raw = str(e.get("tier", ""))
+        m = re.match(r"^tier-(\d+)$", tier_raw)
+        tier_num = int(m.group(1)) if m else None
+        ius = e.get("in_universe_source")
+        if tier_num is None or tier_num > 2 or not ius:
+            violations.append(e)
+    if violations:
+        detail = "\n".join(
+            f"  edge {v.get('id')!r}: {v.get('source')} {v.get('type')} {v.get('target')}"
+            f" (tier={v.get('tier')!r}, in_universe_source={v.get('in_universe_source')!r})"
+            for v in violations
+        )
+        sys.exit(
+            "ABORT: disputed-invariant violation — every disputed:true edge must have "
+            f"tier<=2 AND a non-empty in_universe_source. Offending edge(s):\n{detail}"
+        )
 
 
 def locate_or_repair(lines: list[str], quote: str) -> tuple[int | None, str, bool]:
@@ -470,6 +595,162 @@ def singularize(word: str) -> str:
     return w
 
 
+# ---------------------------------------------------------------------------
+# P2 (advisory board, pre-35-unit-apply) — junk `character.human` CREATE screen.
+# `looks_composite`/`is_collective` above already catch ';'/'/'/'&'/'and'-joined
+# composites and a narrow military-collective noun list, but ~15 of 19 real
+# character.human CREATE candidates surveyed were still junk: F&B section titles,
+# places/objects/weapons mis-typed as people, and comma-joined or "sons of"-style
+# collectives that slip past the existing guards. Each predicate below is a small,
+# individually-tested, DELIBERATELY CONSERVATIVE screen — a false trip only routes a
+# borderline real person to review (never silently drops it); it never blocks a
+# CREATE outright by itself (see junk_character_screen).
+# ---------------------------------------------------------------------------
+_LOCATIVE_PREP_RE = re.compile(
+    r"^(off|near|west|east|north|south|beyond|outside|within|along|upon|above|below)\b",
+    re.IGNORECASE)
+_LOCATIVE_INLINE_RE = re.compile(
+    r"\b(west|east|north|south)\s+of\b|\boff\s+\w", re.IGNORECASE)
+_LEADING_ARTICLE_RE = re.compile(r"^(the|a|an)\s+", re.IGNORECASE)
+_JUNK_COLLECTIVE_TERMS = {
+    "mob", "crew", "band", "gang", "company", "companies", "folk", "smallfolk",
+    "horde", "throng", "mass", "masses", "rabble", "brothers", "sisters", "children",
+}
+_JUNK_COLLECTIVE_OF_RE = re.compile(r"\b(sons?|daughters?|men|women|folk|kin)\s+of\b", re.IGNORECASE)
+# a table-parsing artifact bleeding into the name cell ('Lord Rogar's four brothers ->
+# Borys Baratheon') — an arrow annotation never appears in an actual roster name.
+_ARTIFACT_MARKER_RE = re.compile(r"→|->|=>")
+# words that essentially never appear in a real F&B person's roster name but are
+# common in F&B section/chapter titles ("A Wanton's Tale", "Sins of the Flesh",
+# "Six Times to Sea") — deliberately small and curated to those examples' family.
+_SECTION_TITLE_NOUNS = {"tale", "tales", "sins", "flesh", "times", "chronicle", "chronicles"}
+_OBJECT_BODY_TERMS = {
+    "body", "corpse", "head", "skull", "bones", "remains", "skeleton", "ashes", "carcass",
+}
+_NAME_STOPWORDS = {
+    "a", "an", "the", "of", "in", "on", "at", "to", "and", "or", "off", "west", "east",
+    "north", "south", "near",
+}
+
+
+def _is_comma_list(name: str) -> bool:
+    """Comma-joined list of short Title-Case items ('Rosby, Stokeworth, Duskendale') —
+    a collective the extractor mis-typed as one person. A comma followed by a
+    preposition ('the Gullet, off Dragonstone') is a locative, not a list, and is
+    handled by `_is_locative_phrase` instead — every comma-split part must itself
+    look like a short capitalized name/place for this to fire."""
+    if "," not in name:
+        return False
+    parts = [p.strip() for p in name.split(",")]
+    if len(parts) < 2:
+        return False
+
+    def looks_like_item(p: str) -> bool:
+        if not p or _LOCATIVE_PREP_RE.match(p):
+            return False
+        # a leading article is part of some real place names ('the Twins') — strip it
+        # before the capitalization check so a list of PLACES doesn't dodge the guard
+        # just because one member happens to be article-prefixed.
+        stripped = _LEADING_ARTICLE_RE.sub("", p).strip()
+        words = stripped.split()
+        if not words or len(words) > 3:
+            return False
+        return words[0][:1].isalpha() and words[0][:1].isupper()
+
+    return all(looks_like_item(p) for p in parts)
+
+
+def _is_locative_phrase(name: str) -> bool:
+    """A place description, not a person: 'the Gullet, off Dragonstone' (comma then a
+    preposition), or an inline 'west of'/'east of'/etc. ('field of ashes west of
+    Rook's Rest')."""
+    if "," in name:
+        after = name.split(",", 1)[1].strip()
+        if _LOCATIVE_PREP_RE.match(after):
+            return True
+    return bool(_LOCATIVE_INLINE_RE.search(name))
+
+
+def _is_lowercase_headed(name: str) -> bool:
+    """A descriptive phrase, not a name: strip a leading article, then the first word
+    is lowercase ('the mob' -> 'mob'; 'field of ashes...' has no article at all)."""
+    stripped = _LEADING_ARTICLE_RE.sub("", name).strip()
+    m = re.match(r"[A-Za-z']+", stripped)
+    return bool(m) and m.group(0)[:1].islower()
+
+
+def _is_junk_collective(name: str) -> bool:
+    """Plural/collective referent ('the mob', 'Myrish galley crew', 'three sons of
+    Elinor') that is never itself a person node."""
+    tokens = [re.sub(r"[^\w']", "", t).lower() for t in name.split()]
+    if any(t in _JUNK_COLLECTIVE_TERMS for t in tokens):
+        return True
+    return bool(_JUNK_COLLECTIVE_OF_RE.search(name))
+
+
+def _looks_like_section_title(name: str) -> bool:
+    """F&B section-title pattern ('A Wanton's Tale', 'Sins of the Flesh', 'Six Times
+    to Sea') — any token matching the curated narrative-title noun list."""
+    tokens = [re.sub(r"[^\w']", "", t).lower() for t in name.split()]
+    return any(t in _SECTION_TITLE_NOUNS for t in tokens)
+
+
+def _is_object_or_weapon(name: str) -> bool:
+    """An object/body-part reference ('Prince Joffrey's body') or a named-weapon
+    compound with an internal capital and no space ('OrphanMaker')."""
+    tokens = [re.sub(r"[^\w']", "", t).lower() for t in name.split()]
+    if any(t in _OBJECT_BODY_TERMS for t in tokens):
+        return True
+    return bool(re.search(r"[a-z][A-Z]", name))
+
+
+def _has_artifact_marker(name: str) -> bool:
+    """A '->'/'=>'/'→' resolution-note marker bled into the name cell — never part of
+    an actual roster name."""
+    return bool(_ARTIFACT_MARKER_RE.search(name))
+
+
+def _is_article_prefixed(name: str) -> bool:
+    """A real personal name never BEGINS with a bare article ('the'/'a'/'an') — a
+    roster CREATE candidate that does is either a collective-with-appositive ('the
+    Dragonkeepers, four dragons') or an epithet/alias standing in for a real name
+    ('the Sea Snake') rather than a primary name. Route to review either way (an
+    epithet that genuinely needs a node still gets picked up there, never silently
+    dropped)."""
+    return bool(_LEADING_ARTICLE_RE.match(name.strip()))
+
+
+def _has_proper_name_token(name: str) -> bool:
+    """True if at least one token looks like a plausible given/house-name word
+    (capitalized, not a locative/article stopword)."""
+    for tok in re.findall(r"[A-Za-z']+", name):
+        if tok[:1].isupper() and tok.lower() not in _NAME_STOPWORDS:
+            return True
+    return False
+
+
+def junk_character_screen(name: str) -> str | None:
+    """P2 — type-validity screen for a `character.human` CREATE candidate. Returns the
+    triggering rule name (reason to REJECT -> route to review) or None (passes, a
+    plausible real person). Order is significant only for the reported reason; every
+    check runs independently and the first hit wins."""
+    checks = [
+        ("junk-character-artifact-marker", _has_artifact_marker),
+        ("junk-character-article-prefix", _is_article_prefixed),
+        ("junk-character-comma-list", _is_comma_list),
+        ("junk-character-locative-phrase", _is_locative_phrase),
+        ("junk-character-collective", _is_junk_collective),
+        ("junk-character-lowercase-headed", _is_lowercase_headed),
+        ("junk-character-section-title", _looks_like_section_title),
+        ("junk-character-object-or-weapon", _is_object_or_weapon),
+        ("junk-character-no-proper-name-token", lambda n: not _has_proper_name_token(n)),
+    ]
+    for reason, fn in checks:
+        if fn(name):
+            return reason
+    return None
+
+
 def index_existing_nodes(nodes_root: Path) -> tuple[set[str], set[str], dict[str, str]]:
     """Return (all_slugs, house_slugs, slug->category-dir) from graph/nodes/**. One-time
     filesystem scan so the CREATE guard can reject dupes (slug-exists) and house-surname
@@ -553,6 +834,23 @@ def read_chapter_frontmatter(chapter_path: Path) -> dict:
         if km:
             fm[km.group(1)] = km.group(2).strip().strip('"').strip("'")
     return fm
+
+
+def read_node_type(node_path: Path) -> str | None:
+    """Read the `type:` frontmatter field off an existing graph node file (P1 harm-gate
+    lookup for an event that resolved to an UPDATE rather than a fresh CREATE — its
+    subtype has to come from disk, since this run's proposal never re-states it)."""
+    if not node_path.exists():
+        return None
+    text = node_path.read_text(encoding="utf-8")
+    m = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+    if not m:
+        return None
+    for line in m.group(1).splitlines():
+        km = re.match(r"^type:\s*(.*?)\s*$", line)
+        if km:
+            return km.group(1).strip().strip('"').strip("'")
+    return None
 
 
 def era_for_unit(unit: str, chapter_fm: dict) -> str:
@@ -1199,9 +1497,24 @@ def main():
                 })
                 ambiguous_to_review += 1
                 continue
+            node_type = guess_node_type(type_guesses.get(name, ""))
+            # P2 type-validity screen: never mint a junk character.human CREATE
+            # (section titles, places/objects/weapons mis-typed as people,
+            # comma-joined or "sons of"-style collectives) — route to review instead.
+            if node_type == "character.human":
+                junk_reason = junk_character_screen(name)
+                if junk_reason:
+                    reconcile_review_rows.append({
+                        "unit": unit,
+                        "name": name,
+                        "disambiguator": disambiguators.get(name, ""),
+                        "reason": "junk-character-candidate",
+                        "junk_rule": junk_reason,
+                    })
+                    ambiguous_to_review += 1
+                    continue
             created += 1
             create_name_to_slug[name] = slug
-            node_type = guess_node_type(type_guesses.get(name, ""))
             prose_entries = prose.get(name, [])
             identity_text = " ".join(e["text"] for e in prose_entries if e["text"]).strip()
             occurred = None
@@ -1307,6 +1620,10 @@ def main():
                     "hedge_term": hold[0], "hedge_distance": hold[1],
                 })
                 continue
+        # P3: a disputed edge must always carry an in_universe_source — derive the
+        # most specific chronicler we can when the proposal row left it blank.
+        if disputed and not ius:
+            ius = derive_in_universe_source(quote_canonical, chapter_lines, line)
         tier = "tier-2" if (disputed or ius) else "tier-1"
         if disputed:
             disputed_count += 1
@@ -1359,6 +1676,11 @@ def main():
                 "kind": "event", "candidates": route.get("candidates", []),
             })
             continue
+        # P1 harm-gate: the event's node subtype ('event.<subtype>') has to be known
+        # before role edges are built, whether the event is minted fresh this run
+        # (subtype comes straight from the composed CREATE body) or resolved onto an
+        # existing graph node (subtype is read off that node's own frontmatter).
+        ev_node_type = None
         if decision == "create":
             existing = list(DEFAULT_NODES_ROOT.glob(f"**/{slugify(ev['name'])}.node.md"))
             if existing:
@@ -1376,6 +1698,7 @@ def main():
             if node_type == "event":
                 node_type = "event.incident"
             node_type = TYPE_SYNONYMS.get(node_type, node_type)
+            ev_node_type = node_type
             occurred = None
             if ev["year"]:
                 ym = re.search(r"-?\d+", ev["year"])
@@ -1397,12 +1720,18 @@ def main():
             node_bodies[slug] = body
             create_name_to_slug[ev["name"]] = slug
             created_nodes_rows.append({"unit": unit, "name": ev["name"], "slug": slug, "type": node_type})
+        elif decision == "update":
+            node_dir = router.node_categories.get(route["slug"], "events")
+            ev_node_type = read_node_type(DEFAULT_NODES_ROOT / node_dir / f"{route['slug']}.node.md")
         # role edges for agent/patient (best-effort, only when quote + endpoints resolve).
         # Composite agent/patient cells are split so each actor gets its own role edge
-        # (S199 fix 2) instead of one edge onto a joined junk node.
+        # (S199 fix 2) instead of one edge onto a joined junk node. The patient role's
+        # edge type is harm-gated (P1): VICTIM_IN only for a HARM subtype, else the
+        # neutral PARTICIPATES_IN (an unknown subtype also defaults neutral).
         if ev["quote"]:
             ev_slug = slug_for(ev["name"])
-            for role_field, role_type in (("agent", "AGENT_IN"), ("patient", "VICTIM_IN")):
+            patient_role_type = classify_patient_edge_type(event_node_subtype(ev_node_type))
+            for role_field, role_type in (("agent", "AGENT_IN"), ("patient", patient_role_type)):
                 if ev_slug is None:
                     continue
                 for person in split_entities(ev[role_field]):
@@ -1416,6 +1745,9 @@ def main():
                         continue
                     disputed = bool(ev["disputed"])
                     ius = ev["in_universe_source"] if ev["in_universe_source"] in IN_UNIVERSE_SOURCE_ENUM else None
+                    # P3: a disputed role edge must always carry an in_universe_source.
+                    if disputed and not ius:
+                        ius = derive_in_universe_source(ev_quote_canonical, chapter_lines, line)
                     tier = "tier-2" if (disputed or ius) else "tier-1"
                     if disputed:
                         disputed_count += 1
@@ -1501,6 +1833,9 @@ def main():
         if ident:
             mp_entry["identity_line"] = ident
         merge_plan.append(mp_entry)
+
+    # P3 pre-emit invariant: fail loudly rather than write an unsourced disputed edge.
+    assert_disputed_invariant(edge_candidates)
 
     # ---- contradictions-report.md (§5.4) ----
     contradictions = build_contradictions_report(edge_candidates, args.edges_file)

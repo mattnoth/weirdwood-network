@@ -1,0 +1,10 @@
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "\"“Your service no longer pleases me, Lord Rogar.\"\"", "kind": "edge", "edge_type": "DEPOSES", "source": "Alyssa Velaryon", "target": "Rogar Baratheon"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "\"“Your service no longer pleases me, Lord Rogar.\"\"", "kind": "event-role", "role": "agent", "event": "Alyssa dismisses Rogar as Hand", "person": "Alyssa Velaryon"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "\"“Your service no longer pleases me, Lord Rogar.\"\"", "kind": "event-role", "role": "patient", "event": "Alyssa dismisses Rogar as Hand", "person": "Rogar Baratheon"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "a court within the court...dubbed “the Four-Headed Beast.”", "kind": "prose", "entity": "Rhaena Targaryen"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "she had frightened off both...boys, as her own father admitted ruefully", "kind": "prose", "entity": "Elissa Farman"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "Lord Lyman offered to buy the eggs...outright for a staggering sum of gold", "kind": "prose", "entity": "Lyman Lannister"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "removed the golden brooch...flung it at her contemptuously", "kind": "prose", "entity": "Rogar Baratheon"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "“He will be a great king,” she told Septa Ysabel...“and | will be a great queen.”", "kind": "prose", "entity": "Alysanne"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "she was the actual Princess Aerea, not...Rhaella", "kind": "prose", "entity": "Rhaella Targaryen"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "The twicewidowed Queen Elinor of House Costayne...had departed King's Landing", "kind": "prose", "entity": "Elinor Costayne"}

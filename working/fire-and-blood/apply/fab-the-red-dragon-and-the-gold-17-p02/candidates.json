@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+    "session": "fab-reconcile",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p02-2026-07-09",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "death-of-gwayne-hightower",
+      "death-of-jacaerys-velaryon",
+      "execution-of-otto-hightower",
+      "extinction-of-house-strong-at-harrenhal"
+    ],
+    "note": "Fire & Blood reconciler output for fab-the-red-dragon-and-the-gold-17-p02 (smoke=False).",
+    "produced_at": "2026-07-09T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E1",
+      "type": "NEGOTIATES_WITH",
+      "source": "otto-hightower",
+      "target": "triarchy",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "the High Council of the Triarchy had accepted his offer of alliance",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Otto Hightower NEGOTIATES_WITH Triarchy"
+    },
+    {
+      "id": "E14",
+      "type": "SIBLING_OF",
+      "source": "manfryd-mooton",
+      "target": "walys-mooton",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "found a fortnight later by his brother Manfryd",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Manfryd Mooton SIBLING_OF Walys Mooton",
+      "qualifier": "full"
+    },
+    {
+      "id": "E21",
+      "type": "BONDED_TO",
+      "source": "jacaerys-velaryon",
+      "target": "vermax",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Prince Jacaerys swept down upon a line of Lysene galleys on Vermax",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jacaerys Velaryon BONDED_TO Vermax"
+    },
+    {
+      "id": "E28",
+      "type": "BONDED_TO",
+      "source": "addam-velaryon",
+      "target": "seasmoke",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Addam Velaryon remained aloft, flying Seasmoke around the city walls",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Addam Velaryon BONDED_TO Seasmoke"
+    },
+    {
+      "id": "E32",
+      "type": "COMMANDS",
+      "source": "sharako-lohar",
+      "target": "triarchy",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "the admiral of the fleet, Sharako Lohar of Lys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Sharako Lohar COMMANDS Triarchy"
+    },
+    {
+      "id": "E34",
+      "type": "KILLS",
+      "source": "sunfyre",
+      "target": "walys-mooton",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Amongst the slain was Walys Mooton, Lord of Maidenpool",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Sunfyre KILLS Walys Mooton",
+      "qualifier": "by_creature"
+    },
+    {
+      "id": "E36",
+      "type": "KILLS",
+      "source": "adrian-tarbeck",
+      "target": "tristan-vance",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "it was Lord Vance who fell, slain by Ser Adrian Tarbeck",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Adrian Tarbeck KILLS Tristan Vance"
+    },
+    {
+      "id": "E38",
+      "type": "KILLS",
+      "source": "jon-roxton",
+      "target": "owen-costayne",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "dying from a wound given him by Bold Jon Roxton's black blade",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jon Roxton KILLS Owen Costayne",
+      "qualifier": "by_blade"
+    },
+    {
+      "id": "E39",
+      "type": "KILLS",
+      "source": "luthor-largent",
+      "target": "gwayne-hightower",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "he drove his sword through Ser Gwayne's belly",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Luthor Largent KILLS Gwayne Hightower",
+      "qualifier": "by_blade"
+    },
+    {
+      "id": "E41",
+      "type": "KNIGHTED_BY",
+      "source": "petyr-piper",
+      "target": "pate-of-longleaf",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Lord Piper himself knighted the man afterward",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Petyr Piper KNIGHTED_BY Pate of Longleaf"
+    },
+    {
+      "id": "E47",
+      "type": "COMMANDS",
+      "source": "roderick-dustin",
+      "target": "winter-wolves",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "They called themselves the Winter Wolves",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Roderick Dustin COMMANDS Winter Wolves"
+    },
+    {
+      "id": "E51",
+      "type": "MANIPULATES",
+      "source": "alys-rivers",
+      "target": "criston-cole",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "the two men had become rivals for the affections of the wet nurse Alys Rivers",
+      "tier": "tier-2",
+      "note": "Fire & Blood: Alys Rivers MANIPULATES Criston Cole",
+      "qualifier": "via_seduction",
+      "in_universe_source": "mushroom",
+      "disputed": true
+    },
+    {
+      "id": "EV2-agent-sharako-lohar",
+      "type": "AGENT_IN",
+      "source": "sharako-lohar",
+      "target": "battle-of-the-gullet",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "In the early morning hours of the fifth day of the 130th year",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Sharako Lohar AGENT_IN Battle in the Gullet"
+    },
+    {
+      "id": "EV5-patient-jacaerys-velaryon",
+      "type": "VICTIM_IN",
+      "source": "jacaerys-velaryon",
+      "target": "death-of-jacaerys-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "It is said that Jacaerys Velaryon leapt free",
+      "tier": "tier-2",
+      "note": "Fire & Blood event: Jacaerys Velaryon VICTIM_IN Death of Jacaerys Velaryon",
+      "in_universe_source": "unattributed",
+      "disputed": true
+    },
+    {
+      "id": "EV7-patient-thaddeus-rowan",
+      "type": "VICTIM_IN",
+      "source": "thaddeus-rowan",
+      "target": "battle-of-the-honeywine",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "When their hosts closed around him on the banks of the river Honeywine",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Thaddeus Rowan VICTIM_IN Battle of the Honeywine"
+    },
+    {
+      "id": "EV8-patient-tristan-vance",
+      "type": "VICTIM_IN",
+      "source": "tristan-vance",
+      "target": "battle-at-the-red-fork",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Thrice the Lannisters tried to force the crossing",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Tristan Vance VICTIM_IN Battle at the Red Fork"
+    },
+    {
+      "id": "EV12-agent-luthor-largent",
+      "type": "AGENT_IN",
+      "source": "luthor-largent",
+      "target": "death-of-gwayne-hightower",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "he drove his sword through Ser Gwayne's belly",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Luthor Largent AGENT_IN Death of Gwayne Hightower"
+    },
+    {
+      "id": "EV12-patient-gwayne-hightower",
+      "type": "VICTIM_IN",
+      "source": "gwayne-hightower",
+      "target": "death-of-gwayne-hightower",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "he drove his sword through Ser Gwayne's belly",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Gwayne Hightower VICTIM_IN Death of Gwayne Hightower"
+    },
+    {
+      "id": "EV18-patient-otto-hightower",
+      "type": "VICTIM_IN",
+      "source": "otto-hightower",
+      "target": "execution-of-otto-hightower",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "was the first traitor to be beheaded",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Otto Hightower VICTIM_IN Execution of Otto Hightower"
+    }
+  ]
+}

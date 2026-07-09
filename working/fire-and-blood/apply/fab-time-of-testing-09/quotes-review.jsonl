@@ -1,0 +1,6 @@
+{"unit": "fab-time-of-testing-09", "quote": "\"the long reign of Jaehaerys", "kind": "edge", "edge_type": "RULES", "source": "Jaehaerys I Targaryen", "target": "House Targaryen"}
+{"unit": "fab-time-of-testing-09", "quote": "\"I will sentence them to ten years of exile\"", "kind": "edge", "edge_type": "BANISHES", "source": "Jaehaerys I Targaryen", "target": "Orryn Baratheon"}
+{"unit": "fab-time-of-testing-09", "quote": "\"I would sooner you remain here, in my service\"", "kind": "edge", "edge_type": "SWORN_TO", "source": "Rogar Baratheon", "target": "Jaehaerys I Targaryen"}
+{"unit": "fab-time-of-testing-09", "quote": "\"I want my daughter restored to me\"", "kind": "event-role", "role": "agent", "event": "Restoration of Aerea to Rhaena", "person": "Jaehaerys I Targaryen"}
+{"unit": "fab-time-of-testing-09", "quote": "\"I want my daughter restored to me\"", "kind": "event-role", "role": "patient", "event": "Restoration of Aerea to Rhaena", "person": "Aerea Targaryen"}
+{"unit": "fab-time-of-testing-09", "quote": "I want Dragonstone.", "kind": "prose", "entity": "Rhaena Targaryen"}

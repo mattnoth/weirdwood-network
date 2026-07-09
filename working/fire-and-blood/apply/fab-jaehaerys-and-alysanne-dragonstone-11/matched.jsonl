@@ -1,0 +1,54 @@
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Acorn Hall", "slug": "acorn-hall", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Aenys Targaryen", "slug": "aenys-i-targaryen", "route_reason": "redirect"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Aerea Targaryen", "slug": "aerea-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Alaric Stark", "slug": "alaric-stark", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Alayne Royce", "slug": "alayne-royce", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Albin Massey", "slug": "albin-massey", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Alys Westhill", "slug": "elissa-farman", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Alysanne Targaryen", "slug": "alysanne-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Androw Farman", "slug": "androw-farman", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Bertrand Tyrell", "slug": "bertrand-tyrell", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Blackhaven", "slug": "blackhaven", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Boremund Baratheon", "slug": "boremund-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Braavos", "slug": "braavos", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Cassella Staunton", "slug": "cassella-staunton", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Daenerys Targaryen", "slug": "daenerys-targaryen-daughter-of-jaehaerys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Donnel Hightower", "slug": "donnel-hightower", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Dragonpit", "slug": "dragonpit", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Dragonstone", "slug": "dragonstone", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Dreamfyre", "slug": "dreamfyre", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Durran Godsgrief", "slug": "durran-godsgrief", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Elissa Farman", "slug": "elissa-farman", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Fair Isle", "slug": "fair-isle", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Franklyn Farman", "slug": "franklyn-farman", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Garon Baratheon", "slug": "garon-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Harren the Red", "slug": "harren-the-red", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Hightower", "slug": "hightower", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "House Hightower", "slug": "house-hightower", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "House Targaryen", "slug": "house-targaryen", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Jaehaerys I Targaryen", "slug": "jaehaerys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Jocelyn Baratheon", "slug": "jocelyn-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Jonquil Darke", "slug": "jonquil-darke", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "King's Landing", "slug": "kings-landing", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Lianna Velaryon", "slug": "lianna-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Lord Dondarrion", "slug": "lord-dondarrion-father-of-simon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Lord Stokeworth", "slug": "bronn", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Lyman Lannister", "slug": "lyman-lannister", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Manfryd Redwyne", "slug": "manfryd-redwyne", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Oldtown", "slug": "oldtown", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Pentos", "slug": "pentos", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Prentys Tully", "slug": "prentys-tully", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Qarl Corbray", "slug": "qarl-corbray", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Quicksilver", "slug": "quicksilver", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Rego Draz", "slug": "rego-draz", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Rodrik Arryn", "slug": "rodrik-arryn", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Rogar Baratheon", "slug": "rogar-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Samantha Stokeworth", "slug": "samantha-stokeworth", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Sea Dragon Tower", "slug": "sea-dragon-tower", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Silverwing", "slug": "silverwing", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Simon Dondarrion", "slug": "simon-dondarrion", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Starry Sept", "slug": "starry-sept", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Storm's End", "slug": "storms-end", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Sun Chaser", "slug": "sun-chaser", "route_reason": "exact-1.0-type-agree"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Vermithor", "slug": "vermithor", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-dragonstone-11", "name": "Wat the Hewer", "slug": "wat-the-hewer", "route_reason": "hit-character"}

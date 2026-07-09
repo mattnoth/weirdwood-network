@@ -268,6 +268,7 @@ aliases). `scripts/weirwood-refresh.sh` step 3 calls
 |-------|--------|--------------|-------|--------|
 | C | `graph-conflict-pairs.py` | Read-only semantic-conflict audit: flags entity pairs with incompatible edge types | 2026-05-26 | LIVE |
 | C | `orphan-edges-audit.py` | Full-corpus orphan-edge auditor: classifies unresolved edge targets | 2026-04-30 | LIVE |
+| C | `fab-semantic-gate.py` | Per-batch F&B "green light" gate (S200 advisory board): VICTIM_IN harm-gate + junk-character screen + orphan-edge check + duplicate-edge check, all reusing canonical definitions imported read-only from `fab-reconcile-candidates.py` / `mint_enrichment.py`. Run after every F&B apply batch's `weirwood refresh`. Test: `test-fab-semantic-gate.py` | 2026-07-09 | LIVE |
 | C | `audit-missing-nodes.py` | Audits wiki↔graph gap: wiki pages with no node, sorted by Pass-1 mention frequency | 2026-05-11 | LIVE |
 | C | `audit-prose-coverage.py` | Per-node prose coverage audit (stub vs prose-attached, wiki cache, redirect-only) | 2026-05-11 | LIVE |
 | C | `wiki-pass2-validate-edge-jsonl.py` | Validates Stage 4 batch output: required-fields + type contracts + qualifier enums | 2026-05-18 | LIVE |
