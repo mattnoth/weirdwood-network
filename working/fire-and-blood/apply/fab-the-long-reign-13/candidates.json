@@ -1,147 +1,158 @@
 {
-  "_meta": {
-    "unit": "fab-the-long-reign-13",
-    "session": "fab-reconcile",
-    "run_id": "fab-the-long-reign-13-2026-07-09",
-    "evidence_kind": "book-fab",
-    "new_node_slugs": [
-      "corlys-velaryon-reaches-asshai",
-      "disappearance-of-the-sun-chaser",
-      "discovery-of-three-western-islands",
-      "founder-of-the-autumn-moon",
-      "sun-chaser-glimpsed-in-asshais-harbor",
-      "western-voyage-of-the-sun-chaser",
-      "winter-of-59-60-ac"
-    ],
-    "note": "Fire & Blood reconciler output for fab-the-long-reign-13 (smoke=False).",
-    "produced_at": "2026-07-09T00:00:00+00:00"
+ "_meta": {
+  "unit": "fab-the-long-reign-13",
+  "session": "fab-reconcile",
+  "run_id": "fab-the-long-reign-13-2026-07-09",
+  "evidence_kind": "book-fab",
+  "new_node_slugs": [
+   "corlys-velaryon-reaches-asshai",
+   "disappearance-of-the-sun-chaser",
+   "discovery-of-three-western-islands",
+   "founder-of-the-autumn-moon",
+   "sun-chaser-glimpsed-in-asshais-harbor",
+   "winter-of-59-60-ac"
+  ],
+  "note": "Fire & Blood reconciler output for fab-the-long-reign-13 (smoke=False).",
+  "produced_at": "2026-07-09T00:00:00+00:00"
+ },
+ "edges": [
+  {
+   "id": "E2",
+   "type": "SAME_AS",
+   "source": "elissa-farman",
+   "target": "elissa-farman",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "born Elissa of House Farman",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Elissa Farman SAME_AS Alys Westhill"
   },
-  "edges": [
-    {
-      "id": "E2",
-      "type": "SAME_AS",
-      "source": "elissa-farman",
-      "target": "elissa-farman",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "born Elissa of House Farman",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Elissa Farman SAME_AS Alys Westhill"
-    },
-    {
-      "id": "E3",
-      "type": "MEMBER_OF",
-      "source": "elissa-farman",
-      "target": "house-farman",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "born Elissa of House Farman",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Elissa Farman MEMBER_OF House Farman"
-    },
-    {
-      "id": "E6",
-      "type": "MEMBER_OF",
-      "source": "corlys-velaryon",
-      "target": "house-velaryon",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "House Velaryon doubled its wealth",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Corlys Velaryon MEMBER_OF House Velaryon"
-    },
-    {
-      "id": "EV1-agent-elissa-farman",
-      "type": "AGENT_IN",
-      "source": "elissa-farman",
-      "target": "western-voyage-of-the-sun-chaser",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "Oldtown almost three years earlier to cross the Sunset Sea",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Elissa Farman AGENT_IN Western voyage of the Sun Chaser"
-    },
-    {
-      "id": "EV3-agent-elissa-farman",
-      "type": "AGENT_IN",
-      "source": "elissa-farman",
-      "target": "discovery-of-three-western-islands",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "she named them Aegon, Rhaenys, and Visenya",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Elissa Farman AGENT_IN Discovery of three western islands"
-    },
-    {
-      "id": "EV4-agent-elissa-farman",
-      "type": "AGENT_IN",
-      "source": "elissa-farman",
-      "target": "disappearance-of-the-sun-chaser",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "vanished into the west, still searching for the lands beyond the Sunset Sea",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Elissa Farman AGENT_IN Disappearance of the Sun Chaser"
-    },
-    {
-      "id": "EV4-patient-sun-chaser",
-      "type": "PARTICIPATES_IN",
-      "source": "sun-chaser",
-      "target": "disappearance-of-the-sun-chaser",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "vanished into the west, still searching for the lands beyond the Sunset Sea",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Sun Chaser PARTICIPATES_IN Disappearance of the Sun Chaser"
-    },
-    {
-      "id": "EV5-agent-corlys-velaryon",
-      "type": "AGENT_IN",
-      "source": "corlys-velaryon",
-      "target": "corlys-velaryon-reaches-asshai",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "became the first Westerosi ever to reach Asshai-by-theShadow",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Corlys Velaryon AGENT_IN Corlys Velaryon reaches Asshai"
-    },
-    {
-      "id": "EV6-agent-corlys-velaryon",
-      "type": "AGENT_IN",
-      "source": "corlys-velaryon",
-      "target": "sun-chaser-glimpsed-in-asshais-harbor",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "that he would swear forevermore could only have been Sun Chaser",
-      "tier": "tier-2",
-      "note": "Fire & Blood event: Corlys Velaryon AGENT_IN Sun Chaser glimpsed in Asshai's harbor",
-      "in_universe_source": "unattributed",
-      "disputed": true
-    },
-    {
-      "id": "EV6-patient-sun-chaser",
-      "type": "PARTICIPATES_IN",
-      "source": "sun-chaser",
-      "target": "sun-chaser-glimpsed-in-asshais-harbor",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "that he would swear forevermore could only have been Sun Chaser",
-      "tier": "tier-2",
-      "note": "Fire & Blood event: Sun Chaser PARTICIPATES_IN Sun Chaser glimpsed in Asshai's harbor",
-      "in_universe_source": "unattributed",
-      "disputed": true
-    },
-    {
-      "id": "DISP1",
-      "type": "ANCESTOR_OF",
-      "source": "donnel-hightower",
-      "target": "eustace-hightower",
-      "book": "fab",
-      "chapter": "fab-the-long-reign-13",
-      "quote": "Lord Donnel’s grandson",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Donnel Hightower ANCESTOR_OF Eustace Hightower",
-      "via": "dispute-inject"
-    }
-  ]
+  {
+   "id": "E3",
+   "type": "MEMBER_OF",
+   "source": "elissa-farman",
+   "target": "house-farman",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "born Elissa of House Farman",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Elissa Farman MEMBER_OF House Farman"
+  },
+  {
+   "id": "E6",
+   "type": "MEMBER_OF",
+   "source": "corlys-velaryon",
+   "target": "house-velaryon",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "House Velaryon doubled its wealth",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Corlys Velaryon MEMBER_OF House Velaryon"
+  },
+  {
+   "id": "EV1-agent-elissa-farman",
+   "type": "AGENT_IN",
+   "source": "elissa-farman",
+   "target": "departure-of-the-sun-chaser-west",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "Oldtown almost three years earlier to cross the Sunset Sea",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Elissa Farman AGENT_IN Western voyage of the Sun Chaser"
+  },
+  {
+   "id": "EV3-agent-elissa-farman",
+   "type": "AGENT_IN",
+   "source": "elissa-farman",
+   "target": "discovery-of-three-western-islands",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "she named them Aegon, Rhaenys, and Visenya",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Elissa Farman AGENT_IN Discovery of three western islands"
+  },
+  {
+   "id": "EV4-agent-elissa-farman",
+   "type": "AGENT_IN",
+   "source": "elissa-farman",
+   "target": "disappearance-of-the-sun-chaser",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "vanished into the west, still searching for the lands beyond the Sunset Sea",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Elissa Farman AGENT_IN Disappearance of the Sun Chaser"
+  },
+  {
+   "id": "EV4-patient-sun-chaser",
+   "type": "PARTICIPATES_IN",
+   "source": "sun-chaser",
+   "target": "disappearance-of-the-sun-chaser",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "vanished into the west, still searching for the lands beyond the Sunset Sea",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Sun Chaser PARTICIPATES_IN Disappearance of the Sun Chaser"
+  },
+  {
+   "id": "EV5-agent-corlys-velaryon",
+   "type": "AGENT_IN",
+   "source": "corlys-velaryon",
+   "target": "corlys-velaryon-reaches-asshai",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "became the first Westerosi ever to reach Asshai-by-theShadow",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Corlys Velaryon AGENT_IN Corlys Velaryon reaches Asshai"
+  },
+  {
+   "id": "EV6-agent-corlys-velaryon",
+   "type": "AGENT_IN",
+   "source": "corlys-velaryon",
+   "target": "sun-chaser-glimpsed-in-asshais-harbor",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "that he would swear forevermore could only have been Sun Chaser",
+   "tier": "tier-2",
+   "note": "Fire & Blood event: Corlys Velaryon AGENT_IN Sun Chaser glimpsed in Asshai's harbor",
+   "in_universe_source": "unattributed",
+   "disputed": true
+  },
+  {
+   "id": "EV6-patient-sun-chaser",
+   "type": "PARTICIPATES_IN",
+   "source": "sun-chaser",
+   "target": "sun-chaser-glimpsed-in-asshais-harbor",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "that he would swear forevermore could only have been Sun Chaser",
+   "tier": "tier-2",
+   "note": "Fire & Blood event: Sun Chaser PARTICIPATES_IN Sun Chaser glimpsed in Asshai's harbor",
+   "in_universe_source": "unattributed",
+   "disputed": true
+  },
+  {
+   "id": "DISP1",
+   "type": "ANCESTOR_OF",
+   "source": "donnel-hightower",
+   "target": "eustace-hightower",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "Lord Donnel’s grandson",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Donnel Hightower ANCESTOR_OF Eustace Hightower",
+   "via": "dispute-inject"
+  },
+  {
+   "id": "DISP2",
+   "type": "MEMBER_OF",
+   "source": "eustace-hightower",
+   "target": "house-hightower",
+   "book": "fab",
+   "chapter": "fab-the-long-reign-13",
+   "quote": "the Hightowers had difficulties keeping pace",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Eustace Hightower MEMBER_OF House Hightower",
+   "via": "dispute-inject"
+  }
+ ]
 }

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daenerys_Targaryen_(daughter_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -81,3 +81,17 @@ Daenerys was a happy child, endlessly curious and utterly fearless, a delight to
 <!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
 
 - Strong, healthy daughter of Alysanne and Jaehaerys, born in the seventh moon of 53 AC and doted on by the king (fab-birth-death-and-betrayal-10:135)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Young princess who wanted a little sister rather than a brother (fab-jaehaerys-and-alysanne-triumphs-12-p01:111)
+- Ser Simon Dondarrion crowned her his queen of love and beauty (fab-jaehaerys-and-alysanne-triumphs-12-p01:121)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Daenerys, eldest of the three children, was a lively, laughing child who "flew" on a broomstick dragon (fab-jaehaerys-and-alysanne-triumphs-12-p02:51)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Princess, daughter of Jaehaerys and Alysanne, "the darling of the realm," age six and past weaning. She woke her mother saying she was cold; despite prayers, poultices, a summoned wet nurse and her kitten, she died within a day and a half (fab-the-long-reign-cont-14-p01:101)
+- Her death struck at the Doctrine of Exceptionalism, for she was Targaryen on both sides (fab-the-long-reign-cont-14-p01:103)

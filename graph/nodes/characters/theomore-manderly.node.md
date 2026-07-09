@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Theomore_Manderly"
 bucket_id: characters-house-manderly
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Theomore Manderly is a character.human from the AWOIAF wiki.
+Theomore Manderly — Lord Theomore Manderly feasted Alysanne lavishly at White Harbor with a roasted aurochs and a tourney.
 
 ## Edges
 
@@ -50,3 +50,10 @@ Theomore grew stout in his old age. He was a skilled warrior and canny [lord](wi
 > **Alysanne**: Theomore is a good man, a wise man, with a kind heart and a good head on his shoulders. His people love him. **Viserra**: If you like him so much, Mother, you should marry him.(wiki:Theomore_Manderly.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 >
 > —[Alysanne Targaryen](wiki:Alysanne_Targaryen) and [Viserra Targaryen](wiki:Viserra_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Lord Theomore Manderly feasted Alysanne lavishly at White Harbor with a roasted aurochs and a tourney (fab-jaehaerys-and-alysanne-triumphs-12-p02:147)
+- His Reach-born house keeps the Seven and knighthood though loyal to the Starks (fab-jaehaerys-and-alysanne-triumphs-12-p02:141)

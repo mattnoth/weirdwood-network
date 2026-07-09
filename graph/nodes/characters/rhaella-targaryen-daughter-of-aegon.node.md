@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaella_Targaryen_(daughter_of_Aegon)
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -79,3 +79,8 @@ No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise
 
 - Twin sister of Aerea, the bolder of the pair, a novice at the Starry Sept promised to the Faith (fab-prince-into-king-06:27)
 - It was widely believed the twins were switched during the coronation, though nothing was ever proved (fab-prince-into-king-06:185)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Daughter of Rhaena and twin of Aerea, a novice septa in Oldtown, so like and unlike her sister (fab-jaehaerys-and-alysanne-triumphs-12-p01:43)
+- She comforted her mother with words of faith (fab-jaehaerys-and-alysanne-triumphs-12-p01:45)

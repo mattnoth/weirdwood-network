@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alaric_Stark"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 3
+node_version: 6
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -69,3 +69,17 @@ According to Archmaester [Gyldayn](wiki:Gyldayn), after spending some time at Wi
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
 
 - Alaric Stark, Brandon's second son, became Lord of Winterfell and ruled the North twenty-three years, an able but stern man who long blamed Jaehaerys's clemency for Walton's death (fab-surfeit-of-rulers-08-p02:109)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Lord Alaric Stark, a flinty widower, greeted Alysanne coldly, refused to have her dragon within his walls and rebuffed southern marriages for his sons (fab-jaehaerys-and-alysanne-triumphs-12-p02:155)
+- He warmed to her over time and later assented to the doubling of the Gift, but blamed the king for his brother Walton's death (fab-jaehaerys-and-alysanne-triumphs-12-p02:217)
+- He keeps the old gods (fab-jaehaerys-and-alysanne-triumphs-12-p02:163)
+
+<!-- fab-enriched: fab-the-long-reign-13-2026-07-09 -->
+
+- Lord Alaric Stark had commanded that half of every harvest be preserved against the coming winter, though not all his bannermen obeyed (fab-the-long-reign-13:81)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Alaric Stark, Lord of Winterfell, died in 72 AC; his grandson Edric succeeded him. (fab-the-long-reign-cont-14-p02:49)

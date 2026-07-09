@@ -13,9 +13,24 @@ Dispute adjudication: 63 needs-read/romance rows total, ALL in the Dance batches
 - [x] **Batch 1** (04–07) — reign-04, sons-05-p02/p03, prince-06, year-07. DONE, committed `3348a66b26`.
       ~261 edges, ~30 event nodes. FOLD qhorin→volmark-conspiracy; 4 PART_OF landed, 2 dropped
       (murmison, aegon-uncrowned-seizes — no locatable quote; re-add later if grounded). Gate PASS.
-- [~] **Batch 2** (08–11) — surfeit-08-p01/p02, time-of-testing-09, birth-death-10, jaehaerys-dragonstone-11.
-      35 event CREATEs (0 junk; surfeit-08-p02 trimmed 17→14), **0 disputes**. Fresh-verify RUNNING.
-- [ ] **Batch 3** (12–14) — triumphs-12-p01/p02, long-reign-13, long-reign-cont-14-p01/p02. ~0-2 disputes.
+- [x] **Batch 2** (08–11) — surfeit-08-p01/p02, time-of-testing-09, birth-death-10, jaehaerys-dragonstone-11.
+      DONE, committed `344af9979d`. 174 edges + 35 nodes. 33 KEEP / 2 RENAME (brandon-stark-father-of-walton,
+      daenerys-daughter-of-jaehaerys-i disambiguations) / 0 FOLD. Gate PASS.
+      **Also removed 18 orphan junk .node.md files** (pre-junk-screen reconcile residue that tripped the mint
+      manifest guard) — this cleanup already applied to ALL 35 units, so later batches won't hit it.
+- [~] **Batch 3** (12–14) — triumphs-12-p01/p02, long-reign-13, long-reign-cont-14-p01/p02. 47 event CREATEs,
+      1 dispute (long-reign-13 "Eustace Hightower MEMBER_OF House Hightower" — FALSE-POSITIVE proximity hold:
+      "eustace" matched the CHARACTER's name not the chronicler; CLEARED tier-1 + injected). Fresh-verify RUNNING.
+
+## Learnings for the Dance batches (4–7)
+- **PART_OF needs a locatable verbatim quote** — reuse a child's role-edge quote (from candidates.json edges
+  whose `target` is the child + has a `quote`), else drop the ADD_PARENT.
+- **Orphan-node cleanup already done** across all 35 units (the junk .node.md files).
+- **Disambiguation traps**: this era has many same-named Targaryens/Starks; verify birth-/death-of char slugs.
+- **Dispute adjudication** (62 remaining needs-read/romance rows, all in batches 4–7): per the S200 pattern,
+  fresh subagent verdicts BUT orchestrator verifies tags vs primary text (2 of 4 S200 subagent clears were
+  wrong). Watch the "eustace"/"mushroom" false-positive class (chronicler name == a character's given name).
+  Use `fab-dispute-inject.py --verdicts <file>` to apply verdicts (clear/disputed/drop).
 - [ ] **Batch 4** (14–16, Dance opens) — long-reign-cont-14-p03/p04, heirs-15-p03, blacks-greens-16-p01/p02.
       DISPUTE-HEAVY (heirs-15-p03 alone has many needs-read incl. "Secret marriage of Rhaenyra & Daemon").
 - [ ] **Batch 5** (17, Dance war) — red-dragon-17-p01/p02/p03/p04. Dispute-heavy. Also verify the odd

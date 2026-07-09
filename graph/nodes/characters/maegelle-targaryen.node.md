@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegelle_Targaryen"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Maegelle Targaryen — Daughter of Jaehaerys and Alysanne born 62 AC; gentle, selfless, sweet-natured and bright, she attached herself to her sister Alyssa.
 
 ## Origins
 
@@ -55,3 +59,13 @@ As a girl, Princess Maegelle was gentle, quiet, studious, and exceedingly bright
 - DIED_AT: Oldtown (track_b: Died) [96 AC]
 - PARENT_OF (reverse): Jaehaerys I Targaryen (track_b: Father)
 - PARENT_OF (reverse): Alysanne Targaryen (track_b: Mother)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Daughter of Jaehaerys and Alysanne born 62 AC; gentle, selfless, sweet-natured and bright, she attached herself to her sister Alyssa (fab-the-long-reign-cont-14-p01:219)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Princess Maegelle joined the Faith as a novice in 73 AC at ten years of age, a quiet, studious girl. (fab-the-long-reign-cont-14-p02:61)

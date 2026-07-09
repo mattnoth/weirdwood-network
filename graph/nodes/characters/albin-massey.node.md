@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Albin_Massey"
 bucket_id: characters-house-massey
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -62,3 +62,7 @@ He was known for his sharp mind and did not lack for wits.(wiki:Albin_Massey.cit
 
 - Lord of Stonedance, named master of laws, he had been forging a maester's chain at the Citadel until fever killed his father and elder brothers (fab-time-of-testing-09:39)
 - A twisted spine left him with a limp (fab-time-of-testing-09:39)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- The justiciar Lord Albin Massey argued the first night was older than the Andals, a First Men custom of a warlord's blessing (fab-jaehaerys-and-alysanne-triumphs-12-p02:281)

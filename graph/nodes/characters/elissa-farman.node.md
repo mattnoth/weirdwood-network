@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elissa_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 5
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -80,3 +80,17 @@ Elissa had blue eyes and long flaxen hair,(wiki:Elissa_Farman.cite_ref-Rfaba_sur
 
 - Driven from Fair Isle and disowned by her brother Franklyn, she took the bastard name Alys Westhill (fab-jaehaerys-and-alysanne-dragonstone-11:37)
 - As Alys Westhill she sold the dragon eggs to the Sealord of Braavos and used the gold to build the Sun Chaser (fab-jaehaerys-and-alysanne-dragonstone-11:37)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Lady and sister of Lord Franklyn Farman, who stole the dragon eggs and bought the carrack Sun Chaser, sailing under the false name Alys Westhill (fab-jaehaerys-and-alysanne-triumphs-12-p01:85)
+- Warned by the Sealord of Braavos, she made her way through the Stepstones and on to Oldtown seeking a crew to cross the Sunset Sea (fab-jaehaerys-and-alysanne-triumphs-12-p01:183)
+- She believed the world far larger than the maesters held (fab-jaehaerys-and-alysanne-triumphs-12-p01:195)
+- The Hightower grandsons joined her, and the Sun Chaser slipped away before the king's ravens could seize her (fab-jaehaerys-and-alysanne-triumphs-12-p01:213)
+
+<!-- fab-enriched: fab-the-long-reign-13-2026-07-09 -->
+
+- Born Elissa of House Farman, she is called Lady Alys Westhill and Lady Westhill in this account (fab-the-long-reign-13:71)
+- She discovered three uninhabited western islands and named them (fab-the-long-reign-13:51)
+- When Eustace turned back she pressed on westward, and the Sun Chaser was never seen again (fab-the-long-reign-13:73)
+- She captained the fast Braavosi ship Sun Chaser, seeking the lands beyond the Sunset Sea (fab-the-long-reign-13:27)

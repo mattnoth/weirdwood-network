@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucamore_Strong"
 bucket_id: characters-house-strong
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lucamore Strong is a character.human from the AWOIAF wiki.
+Lucamore Strong — Ser, a broad-shouldered blond knight of the riverlands, sole survivor of the grand melee in the Dragonpit.
 
 ## Edges
 
@@ -58,3 +58,17 @@ Ser [Arys Oakheart](wiki:Arys_Oakheart) uses Lucamore as an example why he must 
 > **Arianne**: Yes, and what of Lucamore the Lusty, with his three wives and sixteen children? The song always makes me laugh. **Arys**: The truth is less funny. He was never called Lucamore the Lusty whilst he lived. His name was Ser Lucamore Strong, and his whole life was a lie. When his deceit was discovered, his own sworn bothers [gelded](wiki:Eunuch) him, and [the Old King](wiki:Jaehaerys_I_Targaryen) sent him to the Wall. Those sixteen children were left weeping. He was no [true knight](wiki:True_knight), no more than [Terrence Toyne](wiki:Terrence_Toyne)...(wiki:Lucamore_Strong.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 >
 > —[Arianne Martell](wiki:Arianne_Martell) and [Arys Oakheart](wiki:Arys_Oakheart)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Ser, a broad-shouldered blond knight of the riverlands, sole survivor of the grand melee in the Dragonpit (fab-jaehaerys-and-alysanne-triumphs-12-p01:131)
+- For it he was given Willam's white cloak (fab-jaehaerys-and-alysanne-triumphs-12-p01:169)
+- He carried the dying Aerea to Benifer and told of the fever and stirrings within her, until the king commanded his silence (fab-jaehaerys-and-alysanne-triumphs-12-p01:247)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Ser Lucamore Strong of the Kingsguard was found to have secretly taken three wives and fathered sixteen children. (fab-the-long-reign-cont-14-p02:71)
+- Discovered by Ser Ryam Redwyne, he confessed before the Iron Throne and was gelded and sent to the Wall. (fab-the-long-reign-cont-14-p02:71)
+- The smallfolk mocked him as "Ser Lucamore the Lusty." (fab-the-long-reign-cont-14-p02:73)

@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Martyn_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Martyn Tyrell — Young Lord of Highgarden, son of the late Bertrand; called young and eager but of doubtful wits, appointed master of coin.
 
 ## Origins
 
@@ -28,3 +32,10 @@ Martyn was a young man when his lord father passed away in [59 AC](wiki:59_AC).
 - CULTURE_OF: Reach (track_b: Culture)
 - PARENT_OF (reverse): Bertrand Tyrell (track_b: Father)
 - SPOUSE_OF: Florence Fossoway (track_b: Spouse)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Young Lord of Highgarden, son of the late Bertrand; called young and eager but of doubtful wits, appointed master of coin (fab-the-long-reign-cont-14-p01:141)
+- His wife Florence Fossoway kept all the accounts of Highgarden (fab-the-long-reign-cont-14-p01:135)

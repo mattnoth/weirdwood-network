@@ -11,7 +11,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baelon_Targaryen_(son_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -97,3 +97,11 @@ At birth, Baelon was smaller than his older brother, [Aemon](wiki:Aemon_Targarye
 - CULTURE_OF: Valyrian (track_b: Race)
 - CULTURE_OF: Crownlands (track_b: Culture)
 - DIED_AT: King's Landing (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Baelon, born 57 AC, was dubbed the Spring Prince when white ravens announced spring two days before his birth (fab-jaehaerys-and-alysanne-triumphs-12-p02:49)
+- He followed and imitated Aemon everywhere and made a stick-sword to join his training (fab-jaehaerys-and-alysanne-triumphs-12-p02:51)
+- According to report he struck Balerion on the snout, earning the name Baelon the Brave (fab-jaehaerys-and-alysanne-triumphs-12-p02:53)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Simon_Dondarrion"
 bucket_id: characters-house-dondarrion
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -38,3 +38,7 @@ Simon was gallant and handsome.(wiki:Simon_Dondarrion.cite_ref-Rfabjaehaerys_and
 <!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
 
 - Son of Lord Dondarrion of Blackhaven who played the high harp and jousted, so charming Alysanne the party lingered (fab-jaehaerys-and-alysanne-dragonstone-11:111)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Ser, of Blackhaven, gallant tourney champion beloved of commons and queen (fab-jaehaerys-and-alysanne-triumphs-12-p01:119)

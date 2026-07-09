@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Donnel_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 4
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -67,3 +67,13 @@ When Ser Eustace turned up in Oldtown on the seventh day of [59 AC](wiki:59_AC)
 
 - Lord of Oldtown, distrusted as a schemer, with kin among the Most Devout he hoped to see raised (fab-jaehaerys-and-alysanne-dragonstone-11:59)
 - He struck a bargain with Jaehaerys and hosted the royal couple atop the Hightower (fab-jaehaerys-and-alysanne-dragonstone-11:169)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Lord of the Hightower, styled "Donnel the Delayer," who received Rhaena in Oldtown and was commanded to seize Elissa Farman (fab-jaehaerys-and-alysanne-triumphs-12-p01:217)
+- His ravens came too late, and some hold he delayed on purpose (fab-jaehaerys-and-alysanne-triumphs-12-p01:217)
+- His own ships could not catch the Sun Chaser (fab-jaehaerys-and-alysanne-triumphs-12-p01:217)
+
+<!-- fab-enriched: fab-the-long-reign-13-2026-07-09 -->
+
+- Lord Donnel was Eustace's grandsire, in whose high hall the tale was told and recorded by his scribes (fab-the-long-reign-13:23)

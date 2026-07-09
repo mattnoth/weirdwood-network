@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jonquil_Darke"
 bucket_id: characters-house-darke
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -46,3 +46,7 @@ When the scandals committed by Princess [Saera Targaryen](wiki:Saera_Targaryen) 
 - Bastard half-sister of the new Lord Darklyn, summoned to court at Alysanne's need (fab-birth-death-and-betrayal-10:53)
 - She had been the mystery knight of the War for the White Cloaks (fab-birth-death-and-betrayal-10:53)
 - She accepted appointment as the queen's sworn shield and became known as the Scarlet Shadow (fab-birth-death-and-betrayal-10:53)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Jonquil Darke, the Scarlet Shadow, was Alysanne's sworn shield and dueled the captured wildling girl spear against sword (fab-jaehaerys-and-alysanne-triumphs-12-p02:147)

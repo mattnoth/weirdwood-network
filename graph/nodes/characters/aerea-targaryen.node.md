@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerea_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 8
+node_version: 9
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -176,3 +176,11 @@ The alias "Rhaella Targaryen (allegedly)" reflects a claim that the twins' ident
 - Daughter of Rhaena, a willful wild child who defied her septa, mother and maesters and abused servants (fab-jaehaerys-and-alysanne-dragonstone-11:181)
 - She begged Alysanne to take her to court, and when refused fled Dragonstone at dawn, claiming Balerion (fab-jaehaerys-and-alysanne-dragonstone-11:297)
 - Neither she nor the dragon was heard from again that year (fab-jaehaerys-and-alysanne-dragonstone-11:311)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Princess and daughter of Rhaena, near thirteen, who had fled Dragonstone atop Balerion and vanished for more than a year (fab-jaehaerys-and-alysanne-triumphs-12-p01:39)
+- She returned to King's Landing on Balerion's back, near naked and dying (fab-jaehaerys-and-alysanne-triumphs-12-p01:241)
+- She spoke only fragments before collapsing (fab-jaehaerys-and-alysanne-triumphs-12-p01:243)
+- — and died the same night of a monstrous fever (fab-jaehaerys-and-alysanne-triumphs-12-p01:251)
+- Her body was burned at sunrise the next day (fab-jaehaerys-and-alysanne-triumphs-12-p01:253)

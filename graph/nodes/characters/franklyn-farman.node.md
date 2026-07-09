@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Franklyn_Farman"
 bucket_id: characters-house-farman
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -49,3 +49,7 @@ According to [Maester](wiki:Maester) [Smike](wiki:Smike) of [Fair Isle](wiki:Fai
 <!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
 
 - Lord of Fair Isle who denied his sister Elissa any part of the isle's incomes (fab-birth-death-and-betrayal-10:145)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Lord of Fair Isle and brother of Elissa, no fonder of Rhaena than before and unwise in his speech to her (fab-jaehaerys-and-alysanne-triumphs-12-p01:47)

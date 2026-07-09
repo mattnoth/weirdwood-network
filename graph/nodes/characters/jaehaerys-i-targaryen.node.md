@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 10
+node_version: 13
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -306,3 +306,27 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 - He vowed to recover the stolen dragon eggs even by war across the narrow sea, saying he would not let Valyria rise again (fab-jaehaerys-and-alysanne-dragonstone-11:27)
 - He backed Septon Barth for High Septon before Barth talked him out of it, then flew to Oldtown to secure an Exceptionalist and block Septon Mattheus (fab-jaehaerys-and-alysanne-dragonstone-11:47)
 - After his mother's death he shrugged off sorrow and returned to ruling (fab-jaehaerys-and-alysanne-dragonstone-11:171)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- King on the Iron Throne, called the Conciliator, whose reign brought long peace and prosperity (fab-jaehaerys-and-alysanne-triumphs-12-p01:23)
+- With his "even smaller council" he set out to codify and reform all the realm's laws, beginning the Great Code in autumn 55 AC (fab-jaehaerys-and-alysanne-triumphs-12-p01:95)
+- He defended his sister Rhaena to his lords even as he chafed at her (fab-jaehaerys-and-alysanne-triumphs-12-p01:61)
+- Fearing Aerea dead, he set Rego's agents hunting for her and Balerion, and when Elissa Farman's ship escaped he weighed and abandoned a dragon-back chase (fab-jaehaerys-and-alysanne-triumphs-12-p01:225)
+- After Aerea's death he silenced Ser Lucamore and, later that year, banned ships from the Valyrian islands (fab-jaehaerys-and-alysanne-triumphs-12-p01:323)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Jaehaerys decreed all dragons be guarded night and day, creating the Dragonkeepers (fab-jaehaerys-and-alysanne-triumphs-12-p02:19)
+- He named Aemon his heir from birth while planning Aemon and Daenerys should marry and rule together (fab-jaehaerys-and-alysanne-triumphs-12-p02:59)
+- He dismissed Myles Smallwood and made Septon Barth his Hand (fab-jaehaerys-and-alysanne-triumphs-12-p02:63)
+- He mediated the Treaty of Eternal Peace between Tyrosh and Pentos and, at his tenth anniversary, was "every inch a king" (fab-jaehaerys-and-alysanne-triumphs-12-p02:309)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- He personally rode to claim Rego Draz's body and extracted the killers' names by threat (fab-the-long-reign-cont-14-p01:69)
+- He ruled the killers unworthy of a clean death (fab-the-long-reign-cont-14-p01:73)
+- He lost his daughter Daenerys to the Shivers, drank dreamwine, and demanded of Septon Barth why the gods took her (fab-the-long-reign-cont-14-p01:101)
+- He granted Rogar Baratheon leave and aid to hunt Borys and the Vulture King (fab-the-long-reign-cont-14-p01:185)
+- He slew Borys with Blackfyre in the mountains (fab-the-long-reign-cont-14-p01:201)
+- In 62 AC he named Aemon Prince of Dragonstone and launched his road-building project (fab-the-long-reign-cont-14-p01:229)

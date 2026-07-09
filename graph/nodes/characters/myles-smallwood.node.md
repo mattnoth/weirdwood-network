@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Myles_Smallwood"
 bucket_id: characters-house-smallwood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Myles Smallwood is a character.human from the AWOIAF wiki.
+Myles Smallwood — Lord Smallwood, the King's Hand, quick to blame a dragon and to urge vengeance.
 
 ## Edges
 
@@ -58,3 +58,10 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 > Lord [Butterwell](wiki:Butterwell_(Hand_of_the_King)) was renowned for wit, Myles Smallwood for courage, Ser [Otto Hightower](wiki:Otto_Hightower) for learning, yet they failed as [Hands](wiki:Hand_of_the_King), every one.(wiki:Myles_Smallwood.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >
 > —[Pylos](wiki:Pylos) to [Davos Seaworth](wiki:Davos_Seaworth)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Lord Smallwood, the King's Hand, quick to blame a dragon and to urge vengeance (fab-jaehaerys-and-alysanne-triumphs-12-p01:169)
+- He pinned the Disputed Lands fire on Balerion (fab-jaehaerys-and-alysanne-triumphs-12-p01:181)

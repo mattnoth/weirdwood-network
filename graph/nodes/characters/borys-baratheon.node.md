@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Borys_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 ---
 
@@ -58,3 +58,8 @@ The track_b row lists "SWORN_TO: Vulture King" but this likely reflects fighting
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
 
 - Eldest of Lord Rogar's four brothers, named in some versions of the book as the man at the inn and later blamed by Archmaester Crey for the calumny (fab-surfeit-of-rulers-08-p01:193)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Ser; brother of Rogar who left the stormlands, spent time in Myr and Volantis, then joined the Vulture King in the Red Mountains and raided his own people (fab-the-long-reign-cont-14-p01:173)
+- Cornered first, he rushed the king and was slain (fab-the-long-reign-cont-14-p01:199)

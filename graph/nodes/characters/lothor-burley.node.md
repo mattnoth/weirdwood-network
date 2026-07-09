@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lothor_Burley"
 bucket_id: characters-house-burley
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lothor Burley is a character.human from the AWOIAF wiki.
+Lothor Burley — Lord Commander Lothor Burley assembled eight hundred men to receive the queen and showed her the top of the Wall.
 
 ## Edges
 
@@ -33,3 +33,9 @@ Alysanne suggested to Lothor that the [Nightfort](wiki:Nightfort), the oldest an
 > **Lothor:** We do what we can, Your Grace, but our beds are hard, our halls are cold, and our food— **Alysanne:** —is nourishing. And that is all that I require. It will please me to eat as you do.(wiki:Lothor_Burley.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
 > —Lothor and [Alysanne Targaryen](wiki:Alysanne_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Lord Commander Lothor Burley assembled eight hundred men to receive the queen and showed her the top of the Wall (fab-jaehaerys-and-alysanne-triumphs-12-p02:179)

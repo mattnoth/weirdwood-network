@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyssa_Targaryen"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alyssa Targaryen is a character from the AWOIAF wiki.
+Alyssa Targaryen — Fifth child of Jaehaerys and Alysanne, born late 60 AC on Dragonstone and named for the queen's late mother. As a babe she resembled Daenerys but grew long-faced and skinny with mismatched eyes.
 
 ## Edges
 
@@ -57,3 +57,10 @@ Red [maidens](wiki:Maiden), the two of us, but now we've both been mounted.(wiki
 Baelon: They call me Baelon the Brave, but you are far braver than me. I would sooner fight a dozen battles than do what you've just done. Alyssa: You were made for battles, and I was made for this. [Viserys](wiki:Viserys_I_Targaryen) and [Daemon](wiki:Daemon_Targaryen) and [Aegon](wiki:Aegon_Targaryen_(son_of_Baelon)), that's three. As soon as I am well, let's make another. I want to give you twenty sons. An army of your own!(wiki:Alyssa_Targaryen.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)
 Alyssa Targaryen had a warrior’s heart in a woman’s body, and her strength failed her.(wiki:Alyssa_Targaryen.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
 Though shattered by his loss, [Baelon](wiki:Baelon_Targaryen_(son_of_Jaehaerys_I)) took solace in the two strong sons that she had left him, [Viserys](wiki:Viserys_I_Targaryen) and [Daemon](wiki:Daemon_Targaryen), and never ceased to honor the memory of his sweet lady with the broken nose and mismatched eyes.(wiki:Alyssa_Targaryen.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-18)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Fifth child of Jaehaerys and Alysanne, born late 60 AC on Dragonstone and named for the queen's late mother. As a babe she resembled Daenerys but grew long-faced and skinny with mismatched eyes (fab-the-long-reign-cont-14-p01:149)
+- A wooden sword broke her nose at six, which she did not mind; she took after Baelon, wore boy's clothes, and refused porridge (fab-the-long-reign-cont-14-p01:153)

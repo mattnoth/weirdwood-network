@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rogar_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 10
+node_version: 11
 pass_origin: pass2-wiki
 ---
 
@@ -174,3 +174,9 @@ Rogar was not a man to yield, often boasting in battle that he would not lay dow
 - Bidden by the king to choose, he told the maester to save his son, then fled (fab-jaehaerys-and-alysanne-dragonstone-11:139)
 - The child was a girl he named Jocelyn (fab-jaehaerys-and-alysanne-dragonstone-11:149)
 - He laughed off Rhaena's curse and never wed again (fab-jaehaerys-and-alysanne-dragonstone-11:313)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Lord of Storm's End and one-time King's Hand; untouched by the Shivers though his brother Ronnal died and his children by Queen Alyssa recovered. In 61 AC, grey and gaunt, he brought three girls to court and, dying, asked Jaehaerys to take Jocelyn and her cousins as wards (fab-the-long-reign-cont-14-p01:165)
+- He slew the Vulture King in single combat with his axe (fab-the-long-reign-cont-14-p01:205)
+- He died at Storm's End half a year later (fab-the-long-reign-cont-14-p01:207)

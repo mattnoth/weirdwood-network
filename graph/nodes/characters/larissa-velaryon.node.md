@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Larissa_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Larissa Velaryon is a character.human from the AWOIAF wiki.
+Larissa Velaryon — Rhaena's cousin and earliest favorite, widow of the Evenstar of Tarth's second son, now living with her married daughter on Greenstone.
 
 ## Edges
 
@@ -39,3 +39,10 @@ After Aerea's return, death, and funeral in [56 AC](wiki:56_AC), Queen [Alysann
 > A kinder ghost, but no less sad.(wiki:Larissa_Velaryon.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 >
 > —[Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)), about Larissa
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Rhaena's cousin and earliest favorite, widow of the Evenstar of Tarth's second son, now living with her married daughter on Greenstone (fab-jaehaerys-and-alysanne-triumphs-12-p01:155)
+- Her presence drew Rhaena to the poor isle of Estermont (fab-jaehaerys-and-alysanne-triumphs-12-p01:157)

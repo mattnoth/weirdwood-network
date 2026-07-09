@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Florence_Fossoway"
 bucket_id: characters-house-fossoway
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Florence Fossoway is a character.human from the AWOIAF wiki.
+Florence Fossoway — Lady of House Tyrell by marriage, a Fossoway girl who had been counting apples since she learned to walk and kept Highgarden's accounts, reputedly increasing its incomes by a third.
 
 ## Edges
 
@@ -34,3 +34,9 @@ Under Lady Florence and her lord husband, the realm saw prosperity, and the coup
 ## Appearances & Description
 
 Lady Florence was able and intelligent. Clever with handling money and accounts, Septon [Barth](wiki:Barth) claimed that Florence had been "counting apples since she learned to walk".(wiki:Florence_Fossoway.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Lady of House Tyrell by marriage, a Fossoway girl who had been counting apples since she learned to walk and kept Highgarden's accounts, reputedly increasing its incomes by a third (fab-the-long-reign-cont-14-p01:135)

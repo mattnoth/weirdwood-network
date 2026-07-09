@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jocelyn_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 4
+node_version: 6
 pass_origin: pass2-wiki
 ---
 
@@ -57,3 +57,14 @@ Died between 92 and 129 AC — track_b gives two Died values (track_b: Died). Bo
 <!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
 
 - Daughter of Rogar and Alyssa, born small and weak but survived (fab-jaehaerys-and-alysanne-dragonstone-11:147)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Rogar's daughter by Queen Alyssa, born in the Year of the Stranger; grown into a tall, solemn girl with large dark eyes and black hair (fab-the-long-reign-cont-14-p01:161)
+- Brought to court as a ward, she watched Aemon train and was seated beside him at his investiture feast (fab-the-long-reign-cont-14-p01:159)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Lady Jocelyn Baratheon of Storm's End, one of the great beauties of the realm, wed Aemon in 70 AC. (fab-the-long-reign-cont-14-p02:45)
+- She bore Rhaenys, Jaehaerys and Alysanne's first grandchild, in 74 AC. (fab-the-long-reign-cont-14-p02:145)
+- She was daughter of Rogar Baratheon and Queen Alyssa, half-sister to Jaehaerys. (fab-the-long-reign-cont-14-p02:181)

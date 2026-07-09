@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Velaryon_(son_of_Aethan)"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -66,3 +66,9 @@ Daemon eventually passed away at the age of eighty-eight.(wiki:Daemon_Velaryon_(
 Daemon Velaryon was a prideful man who enjoyed his family's position as the "second house" of the realm, on account of the Velaryons' close ties to [House Targaryen](wiki:House_Targaryen).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
 Daemon served ably during his long tenure as [master of ships](wiki:Master_of_ships) and [Hand of the King](wiki:Hand_of_the_King).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Lord of the Tides of Driftmark; recovered after being at the point of death, but lost his second son and three daughters to the Shivers (fab-the-long-reign-cont-14-p01:35)

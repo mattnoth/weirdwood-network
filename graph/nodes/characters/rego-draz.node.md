@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rego_Draz"
 bucket_id: characters-other-q-r
 prompt_version: v1-python
-node_version: 4
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -90,3 +90,15 @@ Rego was a shrewd(wiki:Rego_Draz.cite_ref-Rfabjaehaerys_and_alysanne_-_their_tri
 
 - The Pentoshi master of coin who suggested bribing the Most Devout as a jape (fab-jaehaerys-and-alysanne-dragonstone-11:55)
 - He identified the Dragonstone deaths as poison, the tears of Lys (fab-jaehaerys-and-alysanne-dragonstone-11:223)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- The king's agent-master whose informers hunted first the dragon eggs and then Aerea across the narrow sea (fab-jaehaerys-and-alysanne-triumphs-12-p01:81)
+- On the morning of Balerion's return he was in his manse below the Dragonpit (fab-jaehaerys-and-alysanne-triumphs-12-p01:229)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Pentoshi master of coin, called the Lord of Air; served the Iron Throne ten years and never resided in the Red Keep, keeping a manse on the Street of Silk (fab-the-long-reign-cont-14-p01:59)
+- Grown stout, he traveled by gilded palanquin, and on a route through Flea Bottom a hungry mob who blamed him for the price of bread swarmed him (fab-the-long-reign-cont-14-p01:59)
+- His skull was crushed with a cobblestone and his fingers cut off for his rings (fab-the-long-reign-cont-14-p01:63)
+- He never married but had three bastard sons (fab-the-long-reign-cont-14-p01:123)

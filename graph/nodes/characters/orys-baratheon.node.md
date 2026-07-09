@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Orys_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 7
+node_version: 8
 pass_origin: pass2-wiki
 ---
 
@@ -128,3 +128,7 @@ Died 37 AC, between Stonehelm and Storm's End (track_b: Died). Raymont Baratheon
 
 - Orys One-Hand was the first Baratheon Lord of Storm's End, a bastard brother and trusted commander of Aegon the Conqueror (fab-year-of-the-three-brides-07:37)
 - He slew Argilac the Arrogant and wed Argilac's daughter (fab-year-of-the-three-brides-07:37)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Orys Baratheon was cited as a dragonseed, a bastard brother to the king's grandsire, fathered by Lord Aerion (fab-jaehaerys-and-alysanne-triumphs-12-p02:251)

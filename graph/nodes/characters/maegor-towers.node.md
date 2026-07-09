@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_Towers"
 bucket_id: characters-house-towers
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -40,3 +40,8 @@ Maegor was a sickly and impoverished young lord.(wiki:Maegor_Towers.cite_ref-Rfa
 <!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
 
 - The nine-year-old new lord of Harrenhal who hosted the king at the start of the riverlands progress (fab-birth-death-and-betrayal-10:125)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Maegor Towers, last of his line and named for Maegor the Cruel, dwelt sickly and near-alone at Harrenhal (fab-jaehaerys-and-alysanne-triumphs-12-p02:33)
+- We are told he and Rhaena came to forge a friendship; he died in 61 AC (fab-jaehaerys-and-alysanne-triumphs-12-p02:39)

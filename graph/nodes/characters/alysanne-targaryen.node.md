@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 11
+node_version: 13
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
@@ -249,3 +249,17 @@ Parser `first_available` was AFFC ch 5, but cite_refs show references as early a
 - The queen accompanied Jaehaerys to Oldtown on Silverwing and toured the region, meeting her niece Rhaella among the novices (fab-jaehaerys-and-alysanne-dragonstone-11:99)
 - She lectured the Citadel's archmaesters, urging them to admit highborn girls (fab-jaehaerys-and-alysanne-dragonstone-11:103)
 - She found solace in her daughter Daenerys after her mother's death and flew to Dragonstone to comfort Rhaena, who thrice tried to send her away (fab-jaehaerys-and-alysanne-dragonstone-11:175)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Queen and wife of Jaehaerys, who prayed daily for her niece Aerea and blamed both herself and her sister (fab-jaehaerys-and-alysanne-triumphs-12-p01:73)
+- Early in 55 AC she was again with child and, delighting in matchmaking, arranged betrothals for two of her Wise Women (fab-jaehaerys-and-alysanne-triumphs-12-p01:113)
+- She withdrew to Dragonstone to bear her son despite courtiers' misgivings (fab-jaehaerys-and-alysanne-triumphs-12-p01:137)
+- She was terrified by the king's notion of chasing Elissa on Vermithor, and later recalled the horn-blast of Balerion's return (fab-jaehaerys-and-alysanne-triumphs-12-p01:221)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Alysanne bore Baelon in 57 AC and pressed the king that Daenerys, being older, should be queen (fab-jaehaerys-and-alysanne-triumphs-12-p02:59)
+- She won the wells and "queen's fountains" for King's Landing by daring the council to drink river water (fab-jaehaerys-and-alysanne-triumphs-12-p02:119)
+- She made the northern progress alone, charming White Harbor and eventually Winterfell, and won the Night's Watch by funding Deep Lake with her jewels (fab-jaehaerys-and-alysanne-triumphs-12-p02:201)
+- From tales heard at Mole's Town she moved the council to abolish the lord's right to the first night (fab-jaehaerys-and-alysanne-triumphs-12-p02:257)

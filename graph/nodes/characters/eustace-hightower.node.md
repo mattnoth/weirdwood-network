@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Eustace_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Eustace Hightower is a character.human from the AWOIAF wiki.
+Eustace Hightower — Ser Eustace Hightower was the grandson of Lord Donnel Hightower and captained the Lady Meredith on the western voyage out of Oldtown.
 
 ## Edges
 
@@ -34,3 +34,16 @@ After twelve days of sailing west and south of [Westeros](wiki:Westeros), the ex
 The hull of *Lady Meredith* was cracked by a [leviathan](wiki:Leviathan) during their return, so Eustace set sail for the [Summer Isles](wiki:Summer_Isles) but landed on [Sothoryos](wiki:Sothoryos). The knight spent a year repairing his ship on the continent, all the while his crew dwindled from diseases or unexplained disappearances. Hiring a new crew of Summer Islanders at high wages, Eustace eventually sailed *Lady Meredith* to [Tall Trees Town](wiki:Tall_Trees_Town). Nearly three years after departing, Eustace returned to Oldtown on *Lady Meredith*, gaunt and sunburnt but with very valuable cargo.(wiki:Eustace_Hightower.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
 Eustace's wife, children, and grandfather perished from the winter disease known as the [Shivers](wiki:Shivers) in [59 AC](wiki:59_AC).(wiki:Eustace_Hightower.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-13-2026-07-09 -->
+
+- Ser Eustace Hightower was the grandson of Lord Donnel Hightower and captained the Lady Meredith on the western voyage out of Oldtown (fab-the-long-reign-13:23)
+- His brother captained the accompanying Autumn Moon and drowned when she foundered in a storm (fab-the-long-reign-13:47)
+- He refused to sail farther west and turned back at the newfound islands, then was stranded on Sothoryos for a year before reaching home (fab-the-long-reign-13:65)
+- His ship returned to Oldtown battered after nearly three years, her crew mostly Summer Islanders hired in Sothoryos (fab-the-long-reign-13:23)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Survived the Shivers a second time, having earlier returned alive from Alys Westhill's voyage, though his wife and children died; grandson of Donnel the Delayer (fab-the-long-reign-cont-14-p01:45)

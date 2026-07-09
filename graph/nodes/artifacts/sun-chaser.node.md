@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Sun_Chaser"
 bucket_id: tier3-pathb-artifacts
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -28,3 +28,10 @@ Lady Alys departed Oldtown on the Sun Chaser on the twenty-third day of the thir
 The Sun Chaser made her way down [Whispering Sound](wiki:Whispering_Sound). Alys was intend on sailing a southerly course, seeking warm blue waters and steady winds to bring her across the [Sunset Sea](wiki:Sunset_Sea).(wiki:Sun_Chaser.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6) Once beyond the Arbor, Alys steered the Sun Chaser south by southwest. After twelve days without incident, the Sun Chaser and her companions were as far south as the [Summer Islands](wiki:Summer_Islands), and farther west than any ship had been before, according to the calculations of the men on the ship.(wiki:Sun_Chaser.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 However, they had not seen a bird for four days, and soon after the winds disappeared. There was no breeze for almost a fortnight, and when the wind did finally return, the sky turned red as blood. Before morning the first storm began, followed by two more, each worse than the one that had gone before. Sun Chaser was separated from the other two ships by the storm, being driven westward, where the crew had spotted three small islands. Once the storm was past, Sun Chaser returned to fetch the Lady Meredith (Autumn Moon had gone down in the storm) and set sail again to the islands, which the crews named [Aegon, Rhaenys, and Visenya](wiki:Aegon,_Rhaenys,_and_Visenya_(islands)). The two ships remained for more than a fortnight as the crew made repairs and replenished their stores.(wiki:Sun_Chaser.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 When the two ships departed the islands, they parted ways. Alys Westhill sailed the Sun Chaser westward, and was never seen again as far as history knows. When Ser [Corlys Velaryon](wiki:Corlys_Velaryon) sailed to [Asshai-by-the-Shadow](wiki:Asshai-by-the-Shadow) on the second of his nine great voyages, he spotted an old and much weathered ship which he believed was Sun Chaser.(wiki:Sun_Chaser.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-13-2026-07-09 -->
+
+- Driven west by the storm, she found land unknown to any chart, then sailed on and vanished (fab-the-long-reign-13:51)
+- The Sun Chaser was a fast Braavosi ship captained by Alys Westhill (fab-the-long-reign-13:27)

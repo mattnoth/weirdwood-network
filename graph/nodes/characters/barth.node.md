@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Barth
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -127,3 +127,7 @@ Despite being in a House Tyrell bucket, Barth's primary significance is as Hand 
 - A young man summoned from Highgarden to see to the royal library (fab-time-of-testing-09:55)
 - He pronounced Jaehaerys and Alysanne man and wife and helped craft the Doctrine of Exceptionalism (fab-time-of-testing-09:147)
 - Legend says he passed the departing Mattheus at Bitterbridge, riding alone on a donkey (fab-time-of-testing-09:61)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- He returned with no egg but with the Iron Bank's forgiveness of the Crown's loan (fab-jaehaerys-and-alysanne-triumphs-12-p02:101)

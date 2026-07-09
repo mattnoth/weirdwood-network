@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemon_Targaryen_(son_of_Jaehaerys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -79,3 +79,19 @@ At first, Aemon was shy around [dragons](wiki:Dragon),(wiki:Aemon_Targaryen_(son
 - He was knighted at seventeen, a tourney champion at twenty, and his father's justiciar and master of laws at six-and-twenty (fab-heirs-of-the-dragon-15-p01:25)
 - He was slain on Tarth in 92 AC by a Myrish crossbow bolt meant for the man beside him (fab-heirs-of-the-dragon-15-p01:31)
 - His daughter Rhaenys was his only child (fab-heirs-of-the-dragon-15-p01:33)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Newborn son of Jaehaerys and Alysanne, pale of eye and hair, hailed as the new heir (fab-jaehaerys-and-alysanne-triumphs-12-p01:145)
+- A dragon's egg was laid in his cradle (fab-jaehaerys-and-alysanne-triumphs-12-p01:147)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
+
+- Aemon was a serious, cautious, obedient boy who loved being read to, two years older than Baelon (fab-jaehaerys-and-alysanne-triumphs-12-p02:51)
+- His father spoke of him as heir from birth (fab-jaehaerys-and-alysanne-triumphs-12-p02:59)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
+
+- Eldest son of Jaehaerys; in 62 AC, aged seven, he was made Prince of Dragonstone and acknowledged heir (fab-the-long-reign-cont-14-p01:213)
+- Tall and handsome, he trained daily with his brother Baelon (fab-the-long-reign-cont-14-p01:215)
+- At his investiture feast the queen seated Jocelyn beside him and the two talked and laughed all evening (fab-the-long-reign-cont-14-p01:215)

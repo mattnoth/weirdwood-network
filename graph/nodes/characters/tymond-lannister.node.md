@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tymond_Lannister"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Tymond Lannister — Ser Tymond Lannister, heir to Casterly Rock at twenty, was the wealthiest and one of the handsomest of Daella's suitors.
 
 ## Origins
 
@@ -39,3 +43,9 @@ Tymond always wore silk and satin. He was fond of women and [wine](wiki:Wine).(w
 - SWORN_TO: House Lannister (cite: track_b_row.relationships.Allegiance)
 - CULTURE_OF: Westermen (cite: track_b_row.relationships.Culture)
 - PARENT_OF (reverse): Lord Lannister (cite: track_b_row.relationships.Father)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Ser Tymond Lannister, heir to Casterly Rock at twenty, was the wealthiest and one of the handsomest of Daella's suitors. (fab-the-long-reign-cont-14-p02:239)

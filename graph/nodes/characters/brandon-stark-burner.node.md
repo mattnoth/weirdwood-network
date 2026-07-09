@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(Burner)"
 bucket_id: characters-other-b
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -39,3 +39,9 @@ During the [harvest feast](wiki:Harvest_feast), Lord [Wyman Manderly](wiki:Wyman
 > We have had no strength at sea for hundreds of years, since Brandon the Burner put the torch to [his father's](wiki:Brandon_Stark_(Shipwright)) ships. Grant me the gold and within the year I will float you sufficient galleys to take [Dragonstone](wiki:Dragonstone) and [King's Landing](wiki:King's_Landing) both.(wiki:Brandon_Stark_(Burner).cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 >
 > —[Wyman Manderly](wiki:Wyman_Manderly) to [Bran Stark](wiki:Bran_Stark), [Rodrik Cassel](wiki:Rodrik_Cassel), and [Luwin](wiki:Luwin)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- Son and heir of Brandon the Shipwright, who burned the shipyards and earned his name (fab-jaehaerys-and-alysanne-triumphs-12-p01:199)

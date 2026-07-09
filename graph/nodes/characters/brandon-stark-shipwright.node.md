@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(Shipwright)"
 bucket_id: characters-other-b
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -32,3 +32,9 @@ King Brandon was known as Brandon the Shipwright due to his love of the sea. Tho
 ### A Storm of Swords
 
 [Bran Stark](wiki:Bran_Stark) tells the story of Brandon the Shipwright to [Hodor](wiki:Hodor) and [Meera](wiki:Meera_Reed) and [Jojen Reed](wiki:Jojen_Reed).(wiki:Brandon_Stark_(Shipwright).cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
+
+- A King of Winter who built a fleet to cross the Sunset Sea and sailed west, never to return (fab-jaehaerys-and-alysanne-triumphs-12-p01:199)

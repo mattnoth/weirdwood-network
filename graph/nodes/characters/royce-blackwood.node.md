@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Royce_Blackwood"
 bucket_id: characters-house-blackwood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Royce Blackwood is a character.human from the AWOIAF wiki.
+Royce Blackwood, son of Lord Blackwood of Raventree, courted Daella at fifteen as a bowman, swordsman, and singer.
 
 ## Edges
 
@@ -28,3 +28,10 @@ Royce's father, Lord Blackwood, attempted to betroth his son to Princess [Daella
 ## Appearances & Description
 
 A tall man, Royce was graceful and courteous. In addition to being skilled with bow and sword, Royce was also a fine singer who wrote his own ballads. He followed the [old gods](wiki:Old_gods).(wiki:Royce_Blackwood.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Royce Blackwood, son of Lord Blackwood of Raventree, courted Daella at fifteen as a bowman, swordsman, and singer. (fab-the-long-reign-cont-14-p02:213)
+- The match failed because the Blackwoods kept the old gods. (fab-the-long-reign-cont-14-p02:213)

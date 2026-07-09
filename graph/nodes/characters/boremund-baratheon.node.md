@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Boremund_Baratheon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -62,3 +62,8 @@ Lord Boremund was stone, hard and strong and unmoving. Lord [Borros](wiki:Borros
 <!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-09 -->
 
 - Robust, healthy son of Rogar and Alyssa, born early the following year with black hair and a loud cry (fab-birth-death-and-betrayal-10:59)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Boremund Baratheon, Lord of Storm's End at eight-and-twenty, was the most imposing of Daella's three suitors. (fab-the-long-reign-cont-14-p02:235)
+- As son of Lord Rogar by Queen Alyssa, he was half-brother to Jaehaerys and Alysanne. (fab-the-long-reign-cont-14-p02:235)

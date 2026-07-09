@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corlys_Velaryon"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -143,3 +143,10 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 - He built the castle High Tide, moved the Driftwood Throne there, and tripled the royal fleet as master of ships (fab-heirs-of-the-dragon-15-p01:129)
 - When Rhaenys was passed over he gave up his admiralty and took her to Driftmark, and later pressed Laenor's claim at Harrenhal (fab-heirs-of-the-dragon-15-p01:43)
 - The Sea Snake, Lord of the Tides and Master of Driftmark, called one of the most extraordinary figures of the age (fab-heirs-of-the-dragon-15-p01:109)
+
+<!-- fab-enriched: fab-the-long-reign-13-2026-07-09 -->
+
+- Corlys Velaryon was a boy born on Driftmark in 53 AC, a boy of six in 59 AC (fab-the-long-reign-13:75)
+- He would later sail nine great voyages aboard the Sea Snake, reaching Yi Ti, Leng, and Asshai (fab-the-long-reign-13:75)
+- He became the first Westerosi to reach Asshai, and House Velaryon doubled its wealth from his first voyage (fab-the-long-reign-13:75)
+- In Asshai's harbor he glimpsed a ship he swore was the Sun Chaser, though the account is hedged (fab-the-long-reign-13:75)

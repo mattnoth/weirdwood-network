@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Elysar
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Elysar — Grand Maester Elysar counseled Jaehaerys and Alysanne on Vaegon and later nursed the infant Gael through her first year.
 
 ## Origins
 
@@ -33,3 +37,9 @@ Elysar was sharp tongued, and never had a thought he didn't share.(wiki:Elysar.c
 - HOLDS_TITLE: Grand Maester (track_b: Title)
 - SWORN_TO: The Citadel (track_b: Allegiances)
 - SWORN_TO: House Targaryen (track_b: Allegiances)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
+
+- Grand Maester Elysar counseled Jaehaerys and Alysanne on Vaegon and later nursed the infant Gael through her first year. (fab-the-long-reign-cont-14-p02:163)
