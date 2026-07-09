@@ -751,6 +751,18 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Jacaerys Velaryon SIBLING_OF Lucerys Velaryon",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "ALLIES_WITH",
+      "source": "rhaenys-targaryen-daughter-of-aemon",
+      "target": "rhaenyra-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "With Lord Corlys came his wife, Princess Rhaenys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenys Targaryen ALLIES_WITH Rhaenyra Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }

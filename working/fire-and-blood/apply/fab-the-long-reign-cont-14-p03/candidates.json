@@ -6,8 +6,8 @@
     "evidence_kind": "book-fab",
     "new_node_slugs": [
       "birth-of-aemma-arryn",
-      "death-of-princess-alyssa",
-      "death-of-princess-daella",
+      "death-of-alyssa-targaryen",
+      "death-of-daella-targaryen-daughter-of-jaehaerys-i",
       "discovery-at-the-blue-pearl",
       "judgment-of-princess-saera-before-the-iron-throne"
     ],
@@ -547,7 +547,7 @@
       "id": "EV4-patient-daella-targaryen-daughter-of-jaehaerys-i",
       "type": "VICTIM_IN",
       "source": "daella-targaryen-daughter-of-jaehaerys-i",
-      "target": "death-of-princess-daella",
+      "target": "death-of-daella-targaryen-daughter-of-jaehaerys-i",
       "book": "fab",
       "chapter": "fab-the-long-reign-cont-14-p03",
       "quote": "By morning she was gone. She was eighteen years of age",
@@ -558,7 +558,7 @@
       "id": "EV7-patient-alyssa-targaryen",
       "type": "VICTIM_IN",
       "source": "alyssa-targaryen",
-      "target": "death-of-princess-alyssa",
+      "target": "death-of-alyssa-targaryen",
       "book": "fab",
       "chapter": "fab-the-long-reign-cont-14-p03",
       "quote": "died within the year at only four-and-twenty",
@@ -608,6 +608,42 @@
       "quote": "Take her back to her bedchamber",
       "tier": "tier-1",
       "note": "Fire & Blood event: Saera Targaryen PARTICIPATES_IN Judgment of Princess Saera before the Iron Throne"
+    },
+    {
+      "id": "DISP1",
+      "type": "LOVER_OF",
+      "source": "saera-targaryen",
+      "target": "jonah-mooton",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "\"",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Saera Targaryen LOVER_OF Jonah Mooton",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "LOVER_OF",
+      "source": "saera-targaryen",
+      "target": "roy-connington",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "\"",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Saera Targaryen LOVER_OF Red Roy Connington",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "LOVER_OF",
+      "source": "saera-targaryen",
+      "target": "braxton-beesbury",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "\"",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Saera Targaryen LOVER_OF Braxton Beesbury",
+      "via": "dispute-inject"
     }
   ]
 }

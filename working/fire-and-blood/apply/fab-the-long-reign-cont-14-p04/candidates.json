@@ -5,12 +5,10 @@
     "run_id": "fab-the-long-reign-cont-14-p04-2026-07-09",
     "evidence_kind": "book-fab",
     "new_node_slugs": [
-      "baelons-slaughter-of-the-myrish-at-tarth",
       "betrothal-of-viserra-to-theomore-manderly",
       "death-of-princess-gael",
       "death-of-princess-viserra",
       "death-of-septa-maegelle",
-      "myrish-landing-on-tarth",
       "saeras-flight-from-the-oldtown-motherhouse",
       "viserys-claims-balerion"
     ],
@@ -601,6 +599,18 @@
       "quote": "walked into the waters of Blackwater Bay and drowned",
       "tier": "tier-1",
       "note": "Fire & Blood event: Gael Targaryen VICTIM_IN Death of Princess Gael"
+    },
+    {
+      "id": "DISP1",
+      "type": "LOVER_OF",
+      "source": "braxton-beesbury",
+      "target": "saera-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p04",
+      "quote": "The one whose daughter you seduced and despoiled",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Braxton Beesbury LOVER_OF Saera Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }

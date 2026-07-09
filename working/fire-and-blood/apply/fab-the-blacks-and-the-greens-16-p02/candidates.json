@@ -628,6 +628,30 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Boremund Baratheon PARENT_OF Borros Baratheon",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP10",
+      "type": "BETROTHED_TO",
+      "source": "jacaerys-velaryon",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "betrothed to his cousin Baela since he was four",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jacaerys Velaryon BETROTHED_TO Baela Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP11",
+      "type": "KILLS",
+      "source": "aemond-targaryen",
+      "target": "lucerys-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "Prince Aemond mounted Vhagar and went after him",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aemond Targaryen KILLS Lucerys Velaryon",
+      "via": "dispute-inject"
     }
   ]
 }

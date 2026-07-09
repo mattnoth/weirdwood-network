@@ -1,7 +1,7 @@
 ---
 name: "Death of Princess Alyssa"
 type: event.death
-slug: death-of-princess-alyssa
+slug: death-of-alyssa-targaryen
 aliases: []
 confidence: tier-2
 era: targaryen-rule
