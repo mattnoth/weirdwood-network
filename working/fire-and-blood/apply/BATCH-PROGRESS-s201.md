@@ -45,8 +45,15 @@ Spec = `[{"action":"FOLD"|"RENAME","old":"<slug>","new":"<slug>"}]`. Dry-run def
       clear via her direct confession (14-p03:217), NOT the "favorites" euphemism class. Orchestrator rejected
       one subagent flag (viserys AGENT_IN tongue-removal is book-correct — the show timeline was the confusion).
       fab-apply-surgery.py promoted scratchpad→scripts/. Gate PASS. 153 tests.
-- [ ] **Batch 5** (17, Dance war) — red-dragon-17-p01/p02/p03/p04. Dispute-heavy. Also verify the odd
-      "Aegon (nephew of Maegor)" char CREATE in 17-p01.
+- [x] **Batch 5** (17, Dance war) — red-dragon-17-p01/p02/p03/p04. DONE S202, committed `08c94d699b`
+      (checkpoint `pre-batch-5`). +191 edges (book-fab 1,169→1,360), 14 nodes. 1 FOLD: the flagged
+      "Aegon (nephew of Maegor)" char CREATE = Aegon the Uncrowned → aegon-targaryen-son-of-aenys-i
+      (resolver missed the parenthetical name-form). 14 dispute rows: 12 clear / 2 drop (Addam/Alyn
+      SAME_AS = self-loops; both Hull names already alias to the -velaryon slugs). 1 inject-leftover
+      (unresolvable CREATE name) wired manually as DISP-M1 with final slugs. **Haiku A/B PASS** for both
+      subagent roles (fresh-verify caught the fold + Hull identity; all excerpts verified verbatim) →
+      batches 6–7 run on Haiku. Residue noted for close-out: KNIGHTED_BY direction convention is
+      knighter→knightee in 4/5 existing edges; rickard-redwyne edge is the inversion outlier. Gate PASS.
 - [ ] **Batch 6** (18–21, Dance end) — rhaenyra-18-p01/p02, short-sad-19, hour-of-wolf-20, hooded-hand-21. Dispute-heavy.
 - [ ] **Batch 7** (22–25, aftermath+appendix) — war-peace-22-p01/p02, voyage-alyn-23, lysene-24-p01/p02, lineages-25.
 

@@ -756,6 +756,68 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Alysanne Blackwood UNCLE_OF Benjicot Blackwood",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "KNIGHTED_BY",
+      "source": "trystane-truefyre",
+      "target": "marston-waters",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "Ser Marston Waters dubbed the lad (his fellow bastard) Ser Trystane Fyre",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Trystane Truefyre KNIGHTED_BY Marston Waters",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "PRISONER_OF",
+      "source": "aegon-iii-targaryen",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "her only surviving son a captive at his own court",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon III Targaryen PRISONER_OF Aegon II Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP5",
+      "type": "PRISONER_OF",
+      "source": "baela-targaryen",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "still in chains, for fear she might attack the king if freed",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baela Targaryen PRISONER_OF Aegon II Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP6",
+      "type": "RESCUES",
+      "source": "larys-strong",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "spirited away to safety by agents of Lord Larys the Clubfoot",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Larys Strong RESCUES Baela Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP7",
+      "type": "BETRAYS",
+      "source": "perkin-the-flea",
+      "target": "trystane-truefyre",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "until he saw Ser Perkin the Flea standing with the king",
+      "tier": "tier-2",
+      "note": "Fire & Blood: Perkin the Flea BETRAYS Trystane Truefyre",
+      "via": "dispute-inject",
+      "disputed": true,
+      "in_universe_source": "mushroom"
     }
   ]
 }

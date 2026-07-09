@@ -681,6 +681,30 @@
       "quote": "he was disemboweled and dangled before Sunfyre",
       "tier": "tier-1",
       "note": "Fire & Blood event: Gerardys VICTIM_IN Execution of Grand Maester Gerardys"
+    },
+    {
+      "id": "DISP1",
+      "type": "KILLS",
+      "source": "alfred-broome",
+      "target": "robert-quince",
+      "book": "fab",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "quote": "Broome drove a spear into his huge pale belly",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alfred Broome KILLS Robert Quince",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "CAPTURES",
+      "source": "marston-waters",
+      "target": "gerardys",
+      "book": "fab",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "quote": "Ser Marston surprised Grand Maester Gerardys in his rookery",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Marston Waters CAPTURES Gerardys",
+      "via": "dispute-inject"
     }
   ]
 }

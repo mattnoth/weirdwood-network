@@ -488,6 +488,126 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Medrick Manderly SIBLING_OF Torrhen Manderly",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP7",
+      "type": "IMPRISONS",
+      "source": "cregan-stark",
+      "target": "larys-strong",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "joined by Larys Strong the Clubfoot, Grand Maester Orwyle",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Cregan Stark IMPRISONS Larys Strong",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP8",
+      "type": "IMPRISONS",
+      "source": "cregan-stark",
+      "target": "orwyle",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "Grand Maester Orwyle, Ser Perkin the Flea, and Septon Eustace",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Cregan Stark IMPRISONS Orwyle",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP9",
+      "type": "IMPRISONS",
+      "source": "cregan-stark",
+      "target": "perkin-the-flea",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "Ser Perkin the Flea, and Septon Eustace",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Cregan Stark IMPRISONS Perkin the Flea",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP10",
+      "type": "IMPRISONS",
+      "source": "cregan-stark",
+      "target": "eustace-dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "along with half a hundred others",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Cregan Stark IMPRISONS Eustace",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP11",
+      "type": "RESCUES",
+      "source": "larys-strong",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "had been in service to Lord Larys Strong",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Larys Strong RESCUES Baela Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP12",
+      "type": "REVEALS_TO",
+      "source": "orwyle",
+      "target": "cregan-stark",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "confessed under torture to having given the poison to the Clubfoot",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Orwyle REVEALS_TO Cregan Stark",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP13",
+      "type": "MEMBER_OF",
+      "source": "larys-strong",
+      "target": "house-strong",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "Thus perished the last Strong",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Larys Strong MEMBER_OF House Strong",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP14",
+      "type": "ADVISES",
+      "source": "baela-targaryen",
+      "target": "aegon-iii-targaryen",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "reminded the prince that he would have lost an ear",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baela Targaryen ADVISES Aegon III Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP15",
+      "type": "ALLIES_WITH",
+      "source": "kermit-tully",
+      "target": "cregan-stark",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "agreed to join their own power to Lord Stark's",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Kermit Tully ALLIES_WITH Cregan Stark",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP16",
+      "type": "ALLIES_WITH",
+      "source": "benjicot-blackwood",
+      "target": "cregan-stark",
+      "book": "fab",
+      "chapter": "fab-hour-of-the-wolf-20",
+      "quote": "the Lads found themselves overmatched. Cowed, they gave way",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Benjicot Blackwood ALLIES_WITH Cregan Stark",
+      "via": "dispute-inject"
     }
   ]
 }
