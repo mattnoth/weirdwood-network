@@ -18,9 +18,15 @@ Dispute adjudication: 63 needs-read/romance rows total, ALL in the Dance batches
       daenerys-daughter-of-jaehaerys-i disambiguations) / 0 FOLD. Gate PASS.
       **Also removed 18 orphan junk .node.md files** (pre-junk-screen reconcile residue that tripped the mint
       manifest guard) — this cleanup already applied to ALL 35 units, so later batches won't hit it.
-- [~] **Batch 3** (12–14) — triumphs-12-p01/p02, long-reign-13, long-reign-cont-14-p01/p02. 47 event CREATEs,
-      1 dispute (long-reign-13 "Eustace Hightower MEMBER_OF House Hightower" — FALSE-POSITIVE proximity hold:
-      "eustace" matched the CHARACTER's name not the chronicler; CLEARED tier-1 + injected). Fresh-verify RUNNING.
+- [x] **Batch 3** (12–14) — triumphs-12-p01/p02, long-reign-13, long-reign-cont-14-p01/p02.
+      DONE, committed `57a825d1fe`. 149 edges + 44 nodes. 40 KEEP / 3 FOLD / 4 RENAME. 1 dispute cleared
+      (Eustace Hightower MEMBER_OF = false-positive: "eustace" matched a character name). Gate PASS.
+      **← BATCHES 1–3 DONE = all pre-Dance (sec 04–14). RESUME AT BATCH 4.**
+
+## Reusable surgery tool (built S201)
+`scratchpad/fab-apply-surgery.py --spec <spec.json> [--apply]` — auto-locates each slug's unit; handles
+FOLD (drop CREATE + retarget edges + delete node file) and RENAME (rename slug + node file + retarget).
+Spec = `[{"action":"FOLD"|"RENAME","old":"<slug>","new":"<slug>"}]`. Dry-run default. Used for batches 2 & 3.
 
 ## Learnings for the Dance batches (4–7)
 - **PART_OF needs a locatable verbatim quote** — reuse a child's role-edge quote (from candidates.json edges
