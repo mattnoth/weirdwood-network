@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Garibald_Grey"
 bucket_id: characters-house-grey
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -38,3 +38,10 @@ Garibald wore dented plate and mail.(wiki:Garibald_Grey.cite_ref-Rfabthe_dying_o
 > **Criston**: If I strike my banners, do you promise us our lives? **Garibald**: I made my promise to the dead. I told them I would built a [sept](wiki:Sept) for them out of traitors' bones. I don't have near enough bones yet, so ...(wiki:Garibald_Grey.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
 > —[Criston Cole](wiki:Criston_Cole) and Garibald
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- He led the queen's men again at Tumbleton (fab-the-red-dragon-and-the-gold-17-p03:229)
+- He commanded the queen's men and called the rout "butchery, not battle" (fab-the-red-dragon-and-the-gold-17-p03:143)

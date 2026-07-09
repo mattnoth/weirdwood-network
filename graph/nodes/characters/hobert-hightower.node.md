@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hobert_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Hobert Hightower is a character.human from the AWOIAF wiki.
+Hobert Hightower — Ormund's cousin, sixty years old and hitherto entrusted only with the baggage train, "as stout as he was slow".
 
 ## Edges
 
@@ -47,3 +47,10 @@ Hobert was as stout as he was slow. He did not distinguish himself until late in
 > No man ever feared Ser Hobert's sword, but his [wine](wiki:Wine) cup was deadlier than [Valyrian steel](wiki:Valyrian_steel).(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >
 > —[Mushroom](wiki:Mushroom), about Hobert
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Ormund's cousin, sixty years old and hitherto entrusted only with the baggage train, "as stout as he was slow" (fab-the-red-dragon-and-the-gold-17-p04:135)
+- He presumed to take command of the leaderless host by right of his kinship to Queen Alicent (fab-the-red-dragon-and-the-gold-17-p04:137)

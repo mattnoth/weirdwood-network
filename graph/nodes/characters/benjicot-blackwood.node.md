@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Benjicot_Blackwood"
 bucket_id: characters-house-blackwood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Benjicot Blackwood is a character.human from the AWOIAF wiki.
+Benjicot Blackwood — The eleven-year-old new Lord of Raventree brought fresh levies to the Fishfeed and wept at the heaps of the dead.
 
 ## Edges
 
@@ -53,3 +53,9 @@ Benjicot had a long life.(wiki:Benjicot_Blackwood.cite_ref-Rfabthe_dying_of_the_
 ## Appearances & Description
 
 Benjicot was tall and slim, with a shy and sensitive manner. When armored for battle, however, he was quite fierce.(wiki:Benjicot_Blackwood.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- The eleven-year-old new Lord of Raventree brought fresh levies to the Fishfeed and wept at the heaps of the dead (fab-the-red-dragon-and-the-gold-17-p02:209)

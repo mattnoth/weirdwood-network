@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyland_Lannister"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -85,3 +85,7 @@ A monster who hides his twisted face from [gods](wiki:Gods) and men.(wiki:Tyland
 
 - Ser Tyland Lannister, master of ships and brother to the Lord of Casterly Rock, dismissed the old oaths to Rhaenyra as void by death and time (fab-the-blacks-and-the-greens-16-p01:79)
 - Named master of coin after Beesbury, he seized and divided the royal treasury (fab-the-blacks-and-the-greens-16-p01:139)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Aegon II's master of coin, who shipped away three-quarters of Viserys's wealth "for safekeeping" (fab-the-red-dragon-and-the-gold-17-p03:29)

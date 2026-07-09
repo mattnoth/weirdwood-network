@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vermax"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Vermax is a character.dragon from the AWOIAF wiki.
+Vermax — Jacaerys Velaryon's dragon at the Gullet. According to one account a crossbowman put an iron bolt through his eye, a version thought suspiciously like the death of Meraxes; another says a Myrish sailor's grapnel tore open his belly.
 
 ## Edges
 
@@ -39,3 +39,10 @@ Prince Jacaerys used Vermax in battle, during the [Battle in the Gullet](wiki:Ba
 In [129 AC](wiki:129_AC), Vermax was thriving and growing larger every year.(wiki:Vermax.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Vermax became ill-tempered when in proximity of snow, ice, and cold.(wiki:Vermax.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Despite his youth, Vermax was strong.(wiki:Vermax.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
 Vermax's coloring is not stated in the books. However, he is depicted as green in illustrations from *[The Rise of the Dragon](wiki:The_Rise_of_the_Dragon)*;(wiki:Vermax.cite_ref-Rtrotd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) more specifically, in the television adaptation *[House of the Dragon](wiki:House_of_the_Dragon)*, he has olive green scales and pale orange wing membranes.(wiki:Vermax.cite_ref-6) His [flames](wiki:Dragonflame) were possibly orange, too.(wiki:Vermax.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Vermax.cite_ref-Gullet_7-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Jacaerys Velaryon's dragon at the Gullet. According to one account a crossbowman put an iron bolt through his eye, a version thought suspiciously like the death of Meraxes; another says a Myrish sailor's grapnel tore open his belly (fab-the-red-dragon-and-the-gold-17-p02:37)
+- He went down smoking and screaming and sank with a burning galley (fab-the-red-dragon-and-the-gold-17-p02:39)

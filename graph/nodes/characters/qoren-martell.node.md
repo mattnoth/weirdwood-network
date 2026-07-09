@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Qoren_Martell"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Qoren Martell — Dorne's ruling prince, who had once warred against Daemon and refused Otto's offer.
 
 ## Origins
 
@@ -39,3 +43,9 @@ By [132 AC](wiki:132_AC), Qoren had passed away and was succeeded by his eldest
 ## Notes
 
 Known from TWOIAF, Fire & Blood, TROTD, and The Rogue Prince.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Dorne's ruling prince, who had once warred against Daemon and refused Otto's offer (fab-the-red-dragon-and-the-gold-17-p01:37)

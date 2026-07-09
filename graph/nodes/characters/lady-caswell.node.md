@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lady_Caswell"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lady Caswell is a character from the AWOIAF wiki.
+Lady Caswell — The widowed lady of Bitterbridge, whose husband Aegon II beheaded; she closed her gates against refugees.
 
 ## Edges
 
@@ -38,3 +38,11 @@ Lord Ormund captured Lady Caswell's sons and daughter. He obliged to her last wi
 You shall receive the same terms you gave my nephew [Maelor](wiki:Maelor_Targaryen).(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 No castle can be held against a [dragon](wiki:Tessarion).(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 Have mercy on my children, [lord](wiki:Ormund_Hightower).(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- The widowed lady of Bitterbridge, whose husband Aegon II beheaded; she closed her gates against refugees (fab-the-red-dragon-and-the-gold-17-p03:61)
+- When Bitterbridge was sacked she yielded, begging mercy for her children before hanging herself (fab-the-red-dragon-and-the-gold-17-p03:99)
+- She hanged those responsible for Maelor's death and sent the knight's corpse and the prince's head to King's Landing (fab-the-red-dragon-and-the-gold-17-p03:83)

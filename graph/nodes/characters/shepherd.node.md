@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Shepherd"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Shepherd is a character from the AWOIAF wiki.
+The Shepherd — Munkun suggests he was an outlawed Poor Fellow, while Mushroom calls him "the Dead Shepherd".
 
 ## Edges
 
@@ -56,3 +56,11 @@ During the [Hour of the Wolf](wiki:Hour_of_the_Wolf) a two-handed man claiming t
 ## Quotes
 
 We shall meet in hell before [this year](wiki:130_AC) is done.(wiki:Shepherd.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Munkun suggests he was an outlawed Poor Fellow, while Mushroom calls him "the Dead Shepherd" (fab-the-red-dragon-and-the-gold-17-p04:123)
+- He preached that dragons were demons and called down doom on Rhaenyra and Aegon, drawing thousands into the square (fab-the-red-dragon-and-the-gold-17-p04:125)
+- A one-handed, barefoot itinerant brother in a hair shirt who rose up in Cobbler's Square, his name lost to history (fab-the-red-dragon-and-the-gold-17-p04:123)

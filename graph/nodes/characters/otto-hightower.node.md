@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Otto_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 7
+node_version: 9
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -133,3 +133,15 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 - Ser Otto, Hand of the King and father of Alicent; branded the loyalist defectors "turncloaks" and offered a reward for their capture (fab-the-blacks-and-the-greens-16-p02:23)
 - He rebuked Aemond after Luke's death (fab-the-blacks-and-the-greens-16-p02:251)
 - He later brought a hundred cats into the Red Keep after the ratcatchers were hanged (fab-the-blacks-and-the-greens-16-p02:277)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Ser Otto, Hand and grandsire of the king, won over lords, hired sellswords, and sought alliances after Orwyle's peace overtures were rejected (fab-the-red-dragon-and-the-gold-17-p01:37)
+- He reached to Dorne's Qoren Martell, who spurned him, and to the Kingdom of the Three Daughters to break the Velaryon blockade (fab-the-red-dragon-and-the-gold-17-p01:57)
+- Losing his king's trust, he was stripped of office in favor of Criston Cole (fab-the-red-dragon-and-the-gold-17-p01:39)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- The Hand's schemes produced the Triarchy alliance; the High Council of the Three Daughters accepted his offer at Tyrosh, sending ninety warships to the Gullet (fab-the-red-dragon-and-the-gold-17-p02:17)
+- He later emerged from Maegor's Holdfast with Alicent when King's Landing fell, and was the first traitor Rhaenyra beheaded, having served three kings as Hand (fab-the-red-dragon-and-the-gold-17-p02:243)
+- See above.

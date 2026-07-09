@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maelor_Targaryen"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Maelor Targaryen — The younger son of King Aegon II, carried by Rickard Thorne disguised as the knight's "son".
 
 ## Origins
 
@@ -72,3 +76,11 @@ Maelor possessed a [dragon egg](wiki:Dragon_egg), that was pale green with sworl
 ## Notes
 
 The Blood and Cheese details and death at Bitterbridge are well-attested TWOIAF/Fire & Blood content but not directly cited from this page's infobox. Tier 1 — confirmed canon.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- The younger son of King Aegon II, carried by Rickard Thorne disguised as the knight's "son" (fab-the-red-dragon-and-the-gold-17-p03:63)
+- A washerwoman, Willow Pound-Stone, tore him from the dying knight's arms (fab-the-red-dragon-and-the-gold-17-p03:77)
+- His head was sent to King's Landing with the knight's corpse (fab-the-red-dragon-and-the-gold-17-p03:83)

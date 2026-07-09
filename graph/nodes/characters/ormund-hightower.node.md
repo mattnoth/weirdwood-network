@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ormund_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -45,3 +45,26 @@ After the [fall of King's Landing](wiki:Fall_of_King's_Landing), Ser [Criston Co
 During the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton), Lord Ormund's archers and heavy horse defeated the six thousand [blacks](wiki:Blacks) of Ser [Garibald Grey](wiki:Garibald_Grey). After the surviving [rivermen](wiki:Rivermen) retreated into [Tumbleton](wiki:Tumbleton), [Roderick Dustin](wiki:Roderick_Dustin), Lord of [Barrowton](wiki:Barrowton), led his [Winter Wolves](wiki:Winter_Wolves) rode out to meet the greens. Screaming war cries, the [northmen](wiki:Northmen) fought through ten times their own numbers till Roderick came face to face with Lord Hightower. Ormund's cousin, Ser [Bryndon Hightower](wiki:Bryndon_Hightower), put himself between the northman and his liege, taking off his arm with his longaxe, yet Roddy the Ruin slew both before succumbing to his wounds.(wiki:Ormund_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 After losing their general at First Tumbleton, Lord Ormund's host was divided and without direction, with the [Caltrops](wiki:Caltrops) and the [Two Betrayers](wiki:Two_Betrayers) competing for leadership. Ser [Hobert Hightower](wiki:Hobert_Hightower), Ormund's cousin, ineffectually claimed command.(wiki:Ormund_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) The army finally dissolved following the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton).(wiki:Ormund_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 The fifteen-year-old Lyonel succeeded his father as [Lord of the Hightower](wiki:Lord_of_the_Hightower) and took as his paramour Lady Sam, Ormund's second wife.(wiki:Ormund_Hightower.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Otto's nephew marched from Oldtown with a great host and was harassed by the two Alans and Lord Costayne (fab-the-red-dragon-and-the-gold-17-p01:161)
+- He begged King's Landing for dragons (fab-the-red-dragon-and-the-gold-17-p01:163)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Caught between two hosts on the banks of the Honeywine, his lines were crumbling until Daeron and Tessarion arrived (fab-the-red-dragon-and-the-gold-17-p02:57)
+- He feasted Daeron and knighted him, then enforced submissions across the Reach (fab-the-red-dragon-and-the-gold-17-p02:215)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Lord leading the great southron army, besieging Longtable then advancing on King's Landing (fab-the-red-dragon-and-the-gold-17-p03:159)
+- He spared Lady Merryweather but stripped Longtable of wealth and food (fab-the-red-dragon-and-the-gold-17-p03:91)
+- He let Prince Daeron pronounce Bitterbridge's doom and had the town burned (fab-the-red-dragon-and-the-gold-17-p03:93)
+- He was slain by Roderick Dustin at Tumbleton (fab-the-red-dragon-and-the-gold-17-p03:233)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Lord who commanded King Aegon's host and lay dead at Tumbleton, leaving the loyalists leaderless (fab-the-red-dragon-and-the-gold-17-p04:135)

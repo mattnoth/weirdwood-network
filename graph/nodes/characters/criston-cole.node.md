@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Criston_Cole"
 bucket_id: characters-house-cole
 prompt_version: v1-python
-node_version: 5
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -164,3 +164,23 @@ While showing Ser [Loras Tyrell](wiki:Loras_Tyrell) the [White Book](wiki:White_
 - Ser Criston Cole, Lord Commander of the Kingsguard, confirmed the king's death and roused the small council (fab-the-blacks-and-the-greens-16-p01:49)
 - Two sources charge him with Lord Beesbury's death, and he persuaded a reluctant Aegon to take the crown by warning of certain execution (fab-the-blacks-and-the-greens-16-p01:131)
 - He placed the Conqueror's crown on Aegon's brow (fab-the-blacks-and-the-greens-16-p01:171)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Ser Criston, Lord Commander of the Kingsguard, was made Hand as a "steel fist" (fab-the-red-dragon-and-the-gold-17-p01:69)
+- He counselled repaying Rhaenyra in stealth and chose his Sworn Brother Arryk Cargyll for the deed (fab-the-red-dragon-and-the-gold-17-p01:79)
+- He beheaded captive lords, sacked Duskendale, and laid a trap at Rook's Rest that lured Rhaenys to her death (fab-the-red-dragon-and-the-gold-17-p01:127)
+- He remained Hand under the new Prince Regent (fab-the-red-dragon-and-the-gold-17-p01:155)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- The Hand and Kingmaker marched from King's Landing and reached an abandoned Harrenhal a day before Aemond (fab-the-red-dragon-and-the-gold-17-p02:169)
+- He counseled withdrawal south to join Ormund Hightower, judging Vhagar alone no match for six dragons (fab-the-red-dragon-and-the-gold-17-p02:223)
+- When Aemond refused, they parted ways and Cole led the host south (fab-the-red-dragon-and-the-gold-17-p02:231)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Ser, King Aegon's Hand, the Kingmaker, who abandoned Harrenhal with thirty-six-hundred men (fab-the-red-dragon-and-the-gold-17-p03:103)
+- Beset by fires and ambushes, he found the Lords of the Trident waiting on a stony ridge and rode out under a peace banner (fab-the-red-dragon-and-the-gold-17-p03:127)
+- He was shot down at the parley, three arrows in belly, neck, and breast (fab-the-red-dragon-and-the-gold-17-p03:139)
+- His head was later borne on a spear to Tumbleton (fab-the-red-dragon-and-the-gold-17-p03:211)

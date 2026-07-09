@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Owain_Bourney"
 bucket_id: characters-house-bourney
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Owain Bourney is a character.human from the AWOIAF wiki.
+Owain Bourney — Lord "the Betrayer," who opened Tumbleton's castle and speared Ser Merrell the Bold through the back.
 
 ## Edges
 
@@ -35,3 +35,10 @@ The greens' commanders regrouped in Tumbleton and planned what to do next. Owain
 > Once a [turncloak](wiki:Turncloak), ever a turncloak.(wiki:Owain_Bourney.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
 > —[Unwin Peake](wiki:Unwin_Peake) to Owain
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Lord "the Betrayer," who opened Tumbleton's castle and speared Ser Merrell the Bold through the back (fab-the-red-dragon-and-the-gold-17-p04:21)
+- He boasted his cunning had won the town, then was stabbed through the eye by Lord Peake (fab-the-red-dragon-and-the-gold-17-p04:151)

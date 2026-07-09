@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sunfyre"
 bucket_id: characters-other-s-t
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Sunfyre is a character.dragon from the AWOIAF wiki.
+Sunfyre — "Sunfyre the Golden," Aegon II's mount, had a wing half torn away and was left crawling in the fields, too heavy to move.
 
 ## Edges
 
@@ -80,3 +80,14 @@ Huge and heavy, the splendid Sunfyre was a formidable fighter despite his youth.
 > And the [second Aegon](wiki:Aegon_II_Targaryen) fed [Grand Maester](wiki:Grand_Maester) [Gerardys](wiki:Gerardys) to his [dragon](wiki:Dragon).(wiki:Sunfyre.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 >
 > —[Varys](wiki:Varys) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- "Sunfyre the Golden," Aegon II's mount, had a wing half torn away and was left crawling in the fields, too heavy to move (fab-the-red-dragon-and-the-gold-17-p01:149)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Aegon II's golden dragon, his torn wing left him unable to fly, yet he survived Walys Mooton's attack, slaying threescore (fab-the-red-dragon-and-the-gold-17-p02:107)
+- Afterward he vanished with no tracks, having taken wing again (fab-the-red-dragon-and-the-gold-17-p02:109)

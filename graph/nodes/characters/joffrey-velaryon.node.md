@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -53,3 +53,8 @@ I want to fight for you, Mother, as my brothers did. Let me prove that I am as b
 - At three he saw Aemond at Vhagar, was shoved into dung, and ran to fetch his brothers (fab-heirs-of-the-dragon-15-p03:95)
 - His own young dragon was Tyraxes (fab-heirs-of-the-dragon-15-p03:95)
 - Rhaenyra's third son, born 117 AC, brown-haired like his brothers (fab-heirs-of-the-dragon-15-p03:45)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Rhaenyra's son, flush with youth and eager to avenge his fallen brothers on Tyraxes (fab-the-red-dragon-and-the-gold-17-p04:83)
+- His mother forbade it, judging him too young for battle (fab-the-red-dragon-and-the-gold-17-p04:83)

@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Daeron_Targaryen_(son_of_Viserys_I)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -76,3 +76,8 @@ Little boys should be more mannerly when men are speaking. I think [your father]
 
 - Prince Daeron, the youngest and gentlest of Alicent's children, was away in Oldtown serving Lord Hightower as squire (fab-the-blacks-and-the-greens-16-p01:119)
 - His dragon was the cobalt-and-copper Tessarion (fab-the-blacks-and-the-greens-16-p01:211)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Prince "Daeron the Daring," youngest of Alicent's sons, who rode Tessarion down upon Tumbleton (fab-the-red-dragon-and-the-gold-17-p04:17)
+- Left leaderless after Ormund's death and a boy used to following commands, he was sickened by the sack and bade Hobert stop it (fab-the-red-dragon-and-the-gold-17-p04:135)

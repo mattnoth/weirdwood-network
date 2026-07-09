@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Ulf_White"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -48,3 +48,23 @@ Hugh: We are [knights](wiki:Knight) now, truly.Ulf: Fie on that, we should be [l
 ## Quotes
 
 Ser Ulf gave himself entirely over to drunkenness, drowning himself in wine and [flesh](wiki:Prostitution).(wiki:Ulf_White.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- A pale-haired man-at-arms, also called Ulf the Sot, who mounted Silverwing (fab-the-red-dragon-and-the-gold-17-p01:225)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- A dragonrider who flew Silverwing at the Gullet; later "Ulf the Sot" and "Ulf White" (fab-the-red-dragon-and-the-gold-17-p02:51)
+- He answered Hugh that they should be lords (fab-the-red-dragon-and-the-gold-17-p02:51)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- A dragonrider knighted and granted a small holding on Driftmark; Mushroom says he rode drunk through Flea Bottom clad only in golden spurs (fab-the-red-dragon-and-the-gold-17-p03:23)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- One of the Two Betrayers, who gave himself to drunkenness after turning his cloak (fab-the-red-dragon-and-the-gold-17-p04:155)
+- Not content with the knighthood Rhaenyra had given him nor the lordship of Bitterbridge that Daeron granted, he desired Highgarden itself (fab-the-red-dragon-and-the-gold-17-p04:155)

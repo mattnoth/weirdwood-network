@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Luthor_Largent"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -49,3 +49,8 @@ The Captain of the [Old Gate](wiki:Old_Gate), Ser [Balon Byrch](wiki:Balon_Byrch
 
 - Ser Luthor Largent, most fearsome of the "leal five," a bull near seven feet tall, was made commander of the gold cloaks (fab-the-blacks-and-the-greens-16-p01:135)
 - He was rumored to have killed a warhorse with one punch (fab-the-blacks-and-the-greens-16-p01:135)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- The commander of the gold cloaks killed Alicent's brother Gwayne when he denounced him as a turncloak, then opened the gates (fab-the-red-dragon-and-the-gold-17-p02:127)
+- He was ennobled by Rhaenyra afterward (fab-the-red-dragon-and-the-gold-17-p02:237)

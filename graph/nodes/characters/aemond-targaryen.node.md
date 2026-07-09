@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemond_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 6
+node_version: 8
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -115,3 +115,16 @@ As a child, Aemond was bold, wild, willful, hot-tempered and unforgiving, and gr
 - He demanded Luke's eye in payment, baring his sapphire (fab-the-blacks-and-the-greens-16-p02:221)
 - Thereafter he was known to his foes as Aemond the Kinslayer (fab-the-blacks-and-the-greens-16-p02:251)
 - Provoked by Maris, he pursued Luke on Vhagar and the dragons met above Shipbreaker Bay (fab-the-blacks-and-the-greens-16-p02:243)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Prince Aemond rode Vhagar to Rook's Rest and helped destroy Meleys and Rhaenys (fab-the-red-dragon-and-the-gold-17-p01:129)
+- Bidden to rule until Aegon recovered, he took up the Conqueror's crown but named himself only Protector of the Realm and Prince Regent (fab-the-red-dragon-and-the-gold-17-p01:153)
+- He boasted the crown suited him and named Daemon the true danger (fab-the-red-dragon-and-the-gold-17-p01:153)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- The one-eyed prince ranged the riverlands on Vhagar, striking Stonyhead, Sweetwillow, and other towns before vanishing back into the sky (fab-the-red-dragon-and-the-gold-17-p04:27)
+- He came to Harrenhal with Alys Rivers, who had told him where Daemon waited, and confronted his uncle (fab-the-red-dragon-and-the-gold-17-p04:221)
+- Chained to his saddle, he was ambushed out of the setting sun and slain when Daemon leapt aboard Vhagar; he had only turned twenty (fab-the-red-dragon-and-the-gold-17-p04:263)
+- His armored bones were found years later still chained to Vhagar's saddle, Dark Sister thrust hilt-deep through his eye socket (fab-the-red-dragon-and-the-gold-17-p04:257)

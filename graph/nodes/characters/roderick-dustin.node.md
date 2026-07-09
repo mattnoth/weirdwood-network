@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Roderick_Dustin"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Roderick Dustin is a character from the AWOIAF wiki.
+Roderick Dustin — Roddy the Ruin, Lord of Barrowton, who bore scars from the Fishfeed and led the Winter Wolves.
 
 ## Edges
 
@@ -42,3 +42,10 @@ Roderick died during the [First Battle of Tumbleton](wiki:First_Battle_of_Tumble
 Best make an end to these [lions](wiki:House_Lannister) before the [dragons](wiki:Greens) come.(wiki:Roderick_Dustin.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 Criston: If there is to be [battle here](wiki:Butcher's_Ball), many of your own will die as well. Roderick: That's why we come. Winter's here. Time for us to go. No better way to die than sword in hand.(wiki:Roderick_Dustin.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
 As the singers tell it, Lord Roderick was blood from head to heel as he came on, with splintered shield and cracked helm, yet so drunk with battle that he did not even seem to feel his wounds.(wiki:Roderick_Dustin.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Roddy the Ruin, Lord of Barrowton, who bore scars from the Fishfeed and led the Winter Wolves (fab-the-red-dragon-and-the-gold-17-p03:127)
+- At Tumbleton, though his shield arm was struck off, he slew both Bryndon Hightower and Lord Ormund before dying (fab-the-red-dragon-and-the-gold-17-p03:233)

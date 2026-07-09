@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robb_Rivers"
 bucket_id: characters-house-blackwood
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robb Rivers is a character.human from the AWOIAF wiki.
+Red Robb Rivers — Bowman whose arrows, with two archers, struck down Criston Cole at the parley.
 
 ## Edges
 
@@ -37,3 +37,9 @@ Robb was said to be the finest archer in all [Westeros](wiki:Westeros).(wiki:Rob
 > Though a dozen [birds](wiki:Raven) took wing, not one ever reached [the prince](wiki:Aemond_Targaryen); Red Robb Rivers, said to be the finest archer in all [Westeros](wiki:Westeros), took them down on the wing.(wiki:Robb_Rivers.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Bowman whose arrows, with two archers, struck down Criston Cole at the parley (fab-the-red-dragon-and-the-gold-17-p03:139)

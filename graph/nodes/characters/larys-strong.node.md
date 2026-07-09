@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Larys_Strong"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -85,3 +85,16 @@ The enigma that is Larys Strong the Clubfoot has vexed students of history for g
 
 - Larys Strong, called Larys Clubfoot, Lord of Harrenhal and master of whisperers, kept silent through the debate (fab-the-blacks-and-the-greens-16-p01:87)
 - He spoke only once, to propose the binding blood oath (fab-the-blacks-and-the-greens-16-p01:115)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Aegon II's master of whisperers drew up a list of all the lords who had attended Rhaenyra's coronation (fab-the-red-dragon-and-the-gold-17-p01:109)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- The Clubfoot, Lord of Harrenhal and Aegon II's master of whisperers, was the only one of Alicent's party absent when King's Landing fell (fab-the-red-dragon-and-the-gold-17-p02:135)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- The Clubfoot, most enigmatic member of the green council, who vanished (fab-the-red-dragon-and-the-gold-17-p03:153)
+- Mushroom puts the false chamberpot tale down as the Clubfoot's work (fab-the-red-dragon-and-the-gold-17-p03:87)

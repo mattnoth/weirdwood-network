@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -257,3 +257,9 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
 
 - Aegon the Younger, eldest of Rhaenyra's two sons by Daemon, commanded the young dragon Stormcloud but had not yet mounted him (fab-the-blacks-and-the-greens-16-p01:213)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Though he lived, all joy left him and he blamed himself for abandoning his little brother Viserys (fab-the-red-dragon-and-the-gold-17-p02:49)
+- Rhaenyra's son, only nine, was aboard the captured cog Gay Abandon and escaped by leaping onto his dragon Stormcloud, reaching Dragonstone white with terror (fab-the-red-dragon-and-the-gold-17-p02:21)
+- He had never flown before and would never fly again, for Stormcloud died of its wounds (fab-the-red-dragon-and-the-gold-17-p02:21)

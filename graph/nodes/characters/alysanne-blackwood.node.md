@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Blackwood"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alysanne Blackwood is a character from the AWOIAF wiki.
+Alysanne Blackwood — Lord Samwell's sixteen-year-old sister, later called Black Aly, is supposed by family legend to have loosed the arrow that killed Amos Bracken.
 
 ## Edges
 
@@ -65,3 +65,9 @@ Alysanne: And in return? Cregan: All I ask is all of you, forever. I claim your 
 
 A lean tall creature was this wench, thin as a whip and flat-chested as a boy, but long of leg and strong of arm, with a mane of thick black curls that tumbled down past her waist when loosed.(wiki:Alysanne_Blackwood.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-14)
 She smells of woodsmoke, not flowers.(wiki:Alysanne_Blackwood.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-15)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Lord Samwell's sixteen-year-old sister, later called Black Aly, is supposed by family legend to have loosed the arrow that killed Amos Bracken (fab-the-red-dragon-and-the-gold-17-p01:27)

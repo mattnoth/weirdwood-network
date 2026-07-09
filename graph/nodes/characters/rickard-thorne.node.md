@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rickard_Thorne"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Rickard Thorne is a character from the AWOIAF wiki.
+Rickard Thorne — Ser of the Kingsguard, Maelor's sworn shield, who disguised himself as a traveler with a staff and a boy on his back.
 
 ## Edges
 
@@ -36,3 +36,12 @@ After the escape, Queen Rhaenyra posted huge rewards for information leading to 
 Rickard Thorne traveled incognito, and claimed Maelor was his son. At the [blacks](wiki:Blacks)-held [Bitterbridge](wiki:Bitterbridge), Rickard attempted to stay at the [Hogs Head](wiki:Hogs_Head), a disreputable inn, but there were no rooms left. Rickard showed a [silver](wiki:Silver) [stag](wiki:Currency) to the innkeep, [Ben Buttercakes](wiki:Ben_Buttercakes), and Ben allowed him to stay in the stables, if he cleaned them first. Once Rickard did so, Ben offered him a drink, as a pretext for his stableboy to search for more money in Rickard's belongings. [Sly](wiki:Sly_(stableboy)) did not find any coins, but he did find Maelor's [dragon egg](wiki:Dragon_egg), wrapped in Rickard's white cloak. When Sly informed the inn's common room of his discovery, Rickard fled the inn with Maelor, slaying Ben on his way out and stealing a [horse](wiki:Horse) from the stables, while a mob of people followed. Not long after, Rickard was killed by crossbowmen on the city's stone bridge, though the Kingsguard clung to his charge until the end. A washerwoman, [Willow Pound-Stone](wiki:Willow_Pound-Stone), had to tear a crying Maelor from his arms.(wiki:Rickard_Thorne.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 However, once the mob killed Rickard and seized Maelor, they did not know what to do with him. They debated whether to bring him to far away King's Landing for Rhaenyra's reward, or take him to nearby [Longtable](wiki:Longtable) and the camp of the [green](wiki:Greens) Lord [Ormund Hightower](wiki:Ormund_Hightower), who might pay more for Maelor. A fight broke out between Sly the stableboy, the crossbowman who had killed Rickard, and Willow Pound-Stone, who said no one was going to hurt her new son. It is disputed what happened next: [Mushroom](wiki:Mushroom) claims Willow Pound-Stone accidentally crushed Maelor to death, [Eustace](wiki:Eustace_(Dance_of_the_Dragons)) says he was chopped into six pieces by a butcher so everyone might have a piece, and [Munkun](wiki:Munkun) writes that Maelor was torn apart by the mob. All that is known for sure is that by the time [Lady Caswell](wiki:Lady_Caswell) and her knights arrived, Maelor was dead.(wiki:Rickard_Thorne.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 Lady Caswell, after hanging those responsible for the prince's death, had Ser Rickard's corpse and Maelor's head sent to Queen [Rhaenyra](wiki:Rhaenyra_Targaryen) at [King's Landing](wiki:King's_Landing).(wiki:Rickard_Thorne.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Ser of the Kingsguard, Maelor's sworn shield, who disguised himself as a traveler with a staff and a boy on his back (fab-the-red-dragon-and-the-gold-17-p03:61)
+- When his pack was searched and a dragon's egg found, he opened Ben Buttercakes from neck to groin and cut his way out (fab-the-red-dragon-and-the-gold-17-p03:63)
+- Crossbows brought him down on the old stone bridge (fab-the-red-dragon-and-the-gold-17-p03:75)
+- He clung to Maelor to the end (fab-the-red-dragon-and-the-gold-17-p03:75)

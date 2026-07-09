@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Grey_Ghost"
 bucket_id: characters-other-g
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Grey Ghost is a character.dragon from the AWOIAF wiki.
+Grey Ghost — A shy, elusive pale grey-white wild dragon of the eastern Dragonmont who preferred fish.
 
 ## Edges
 
@@ -32,3 +32,13 @@ In [130 AC](wiki:130_AC), the crew of the *[Nessaria](wiki:Nessaria)* saw Grey 
 Grey Ghost was pale grey-white, the color of morning mist. He was a notably shy dragon, who avoided men and their works for years at a time. His avoidance of people, and his ability to hide in clouds and mist, gave him his name.(wiki:Grey_Ghost.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 Grey Ghost preferred to feed on fish, and was often glimpsed flying low over the [narrow sea](wiki:Narrow_sea), snatching prey from the waters. He made his lair in a smoking vent high on the eastern side of the [Dragonmont](wiki:Dragonmont). He was never claimed nor ridden by any man, and was one of the three wild dragons of Dragonstone, along with [Sheepstealer](wiki:Sheepstealer) and the [Cannibal](wiki:Cannibal_(dragon)).(wiki:Grey_Ghost.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- A shy, elusive pale grey-white wild dragon of the eastern Dragonmont who preferred fish (fab-the-red-dragon-and-the-gold-17-p01:243)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- A Dragonstone dragon found dead beneath the Dragonmont, torn into two pieces and partly devoured (fab-the-red-dragon-and-the-gold-17-p04:53)

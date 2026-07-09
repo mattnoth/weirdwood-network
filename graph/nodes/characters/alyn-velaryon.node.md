@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyn_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -138,3 +138,10 @@ Bold(wiki:Alyn_Velaryon.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-
 > I want sons as brave and strong as you.(wiki:Alyn_Velaryon.cite_ref-Rfab22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
 >
 > —[Racallio Ryndoon](wiki:Racallio_Ryndoon) to Alyn
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Alyn, one year younger than Addam, hoped to tame Sheepstealer and Grey Ghost but was badly burned; his brother saved him (fab-the-red-dragon-and-the-gold-17-p01:245)
+- He carried the scars the rest of his long life and became Alyn Velaryon (fab-the-red-dragon-and-the-gold-17-p01:245)

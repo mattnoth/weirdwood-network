@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Cannibal_(dragon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -36,3 +36,9 @@ Some time after the end of the Dance, the Cannibal vanished.(wiki:Cannibal_(drag
 
 None of the [dragonseeds](wiki:Dragonseeds) were fool enough to disturb the Cannibal.(wiki:Cannibal_(dragon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 If we do not trouble him, the Cannibal will not trouble us.(wiki:Cannibal_(dragon).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- The largest and oldest wild dragon, said by some smallfolk to have laired on Dragonstone before the Targaryens; he devoured Silver Denys and his sons (fab-the-red-dragon-and-the-gold-17-p01:245)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Caraxes"
 bucket_id: characters-other-b-c
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Caraxes is a character.dragon from the AWOIAF wiki.
+Caraxes — Daemon's dragon, the Blood Wyrm, who tore out Vhagar's throat and crawled ashore to die beneath Harrenhal.
 
 ## Edges
 
@@ -43,3 +43,9 @@ At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Daemon la
 > He does love to [burn](wiki:Dragonflame).(wiki:Caraxes.cite_ref-Rfabthe_long_reign_-_jaehaerys_.26_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 >
 > —[Aemon Targaryen](wiki:Aemon_Targaryen_(son_of_Jaehaerys_I))
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Daemon's dragon, the Blood Wyrm, who tore out Vhagar's throat and crawled ashore to die beneath Harrenhal (fab-the-red-dragon-and-the-gold-17-p04:255)

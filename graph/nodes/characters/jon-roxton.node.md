@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jon_Roxton"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jon Roxton is a character from the AWOIAF wiki.
+Jon Roxton — Ser Jon "the Bold," as feared for his black temper as his black Valyrian blade Orphan-Maker.
 
 ## Edges
 
@@ -43,3 +43,10 @@ Sharis gave birth to a lusty dark-haired child which she claimed was the son of 
 We kill [the bastards](wiki:Two_Betrayers) now. Afterward, let the bravest of us claim their [dragons](wiki:Dragon) and fly them into battle.(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 Jon: Lord Hammer, my condolences.
 Hugh: For what?
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Ser Jon "the Bold," as feared for his black temper as his black Valyrian blade Orphan-Maker (fab-the-red-dragon-and-the-gold-17-p04:139)
+- He claimed Lady Sharis Footly as a prize of war and cut her protesting husband nigh in two (fab-the-red-dragon-and-the-gold-17-p04:151)

@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen_(daughter_of_Aemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -88,3 +88,9 @@ Beloved daughter of Lady [Jocelyn Baratheon](wiki:Jocelyn_Baratheon) and Prince 
 - She enumerated the two sides' dragons and urged finding riders for the Dragonmont beasts (fab-the-blacks-and-the-greens-16-p01:219)
 - Long ago the Old King chose Baelon over her, and House Baratheon remained staunch for her claims (fab-the-blacks-and-the-greens-16-p01:79)
 - Princess Rhaenys, Corlys's wife, five-and-fifty, the Queen Who Never Was, was still fierce and had been a dragonrider longer than any at the black council (fab-the-blacks-and-the-greens-16-p01:197)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Rhaenys, the Queen Who Never Was, took up her husband's and Rhaenyra's command and flew Meleys to answer Lord Staunton's plea (fab-the-red-dragon-and-the-gold-17-p01:125)
+- She turned to fight even against Vhagar and Sunfyre together, and died in the fall (fab-the-red-dragon-and-the-gold-17-p01:133)
+- Daughter of Jocelyn Baratheon and Prince Aemon, faithful wife to Corlys, she died at fifty-five (fab-the-red-dragon-and-the-gold-17-p01:139)

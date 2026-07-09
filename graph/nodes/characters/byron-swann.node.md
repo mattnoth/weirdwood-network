@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Byron_Swann"
 bucket_id: characters-house-swann
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Byron Swann is a character.human from the AWOIAF wiki.
+Byron Swann — Ser, second son of the Lord of Stonehelm, who set out to slay a dragon as Serwyn slew Urrax.
 
 ## Edges
 
@@ -39,3 +39,11 @@ All accounts agree that the dragon stirred upon the knight's approach and unleas
 ### A Dance with Dragons
 
 During their voyage on the [Rhoyne](wiki:Rhoyne), [Tyrion Lannister](wiki:Tyrion_Lannister) and [Haldon Halfmaester](wiki:Haldon_Halfmaester) debate Ser Byron Swann's death, and whether he faced Syrax or Vhagar.(wiki:Byron_Swann.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Ser, second son of the Lord of Stonehelm, who set out to slay a dragon as Serwyn slew Urrax (fab-the-red-dragon-and-the-gold-17-p03:145)
+- The accounts dispute which dragon; all agree the ruse brought only his death (fab-the-red-dragon-and-the-gold-17-p03:147)
+- The dragon melted his mirrored shield and roasted him (fab-the-red-dragon-and-the-gold-17-p03:149)

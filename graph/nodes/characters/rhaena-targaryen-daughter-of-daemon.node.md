@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Daemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -81,3 +81,7 @@ Lady Rhaena would make a splendid queen.(wiki:Rhaena_Targaryen_(daughter_of_Daem
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
 
 - Twin daughter of Daemon and Laena, born 116 AC in Pentos, small and sickly but fine-featured (fab-heirs-of-the-dragon-15-p03:41)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Rhaena of Pentos, thirteen, was sent to the Vale with Joffrey; a landless dragonrider, she carried three eggs and prayed for their hatching (fab-the-red-dragon-and-the-gold-17-p01:177)

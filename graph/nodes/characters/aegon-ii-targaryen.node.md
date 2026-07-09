@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 5
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -156,3 +156,16 @@ It was widely known that the promiscuous Aegon had fathered several [bastards](w
 - He grudgingly permitted Orwyle's peace embassy after his mother and wife urged it, then declared war after Rhaenyra's refusal (fab-the-blacks-and-the-greens-16-p02:61)
 - He welcomed Aemond home after Luke's death with a feast (fab-the-blacks-and-the-greens-16-p02:251)
 - In grief and fury he had all the city's ratcatchers hanged (fab-the-blacks-and-the-greens-16-p02:277)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- The king took Maelor from Helaena and gave him to their mother Alicent to raise, and thereafter raged and drank (fab-the-red-dragon-and-the-gold-17-p01:15)
+- He lost faith in Otto and dismissed him, tossing the Hand's chain to Criston Cole (fab-the-red-dragon-and-the-gold-17-p01:69)
+- At Rook's Rest he rode Sunfyre into the trap and suffered grievous burns (fab-the-red-dragon-and-the-gold-17-p01:137)
+- Carried home in a closed litter, he did not rise from bed for the rest of the year (fab-the-red-dragon-and-the-gold-17-p01:145)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Rhaenyra's half-brother and rival king; he had seized the treasury with the crown, leaving her empty vaults (fab-the-red-dragon-and-the-gold-17-p03:29)
+- He had Lord Caswell beheaded for refusing to renounce the queen (fab-the-red-dragon-and-the-gold-17-p03:61)
+- He remained alive and free, the king Criston Cole had made (fab-the-red-dragon-and-the-gold-17-p03:153)

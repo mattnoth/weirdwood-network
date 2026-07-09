@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Simon_Strong"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -41,3 +41,8 @@ Simon was freed from captivity when Ser [Criston Cole](wiki:Criston_Cole), [Lord
 
 - Elderly castellan of Harrenhal, uncle to the late Lord Lyonel and greatuncle to Lord Larys; he struck his banners rather than share Black Harren's fate when Caraxes landed (fab-the-blacks-and-the-greens-16-p02:79)
 - He and his grandsons were taken hostage (fab-the-blacks-and-the-greens-16-p02:79)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- The castellan yielded Harrenhal to Daemon, and Aemond took the swift surrender as proof of treason (fab-the-red-dragon-and-the-gold-17-p02:175)
+- Given a sword for trial by combat, he was cut to pieces and fed to Vhagar (fab-the-red-dragon-and-the-gold-17-p02:181)

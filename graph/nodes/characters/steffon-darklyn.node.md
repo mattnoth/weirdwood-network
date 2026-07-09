@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Steffon_Darklyn"
 bucket_id: characters-house-darklyn
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -40,3 +40,7 @@ The arrival of Steffon at Dragonstone was an occasion of much joy among Rhaenyra
 
 - Ser Steffon Darklyn of the Kingsguard slipped from King's Landing the night before the coronation, fleeing to Dragonstone (fab-the-blacks-and-the-greens-16-p01:179)
 - His party carried away a stolen crown, the one Viserys and the Old King had worn (fab-the-blacks-and-the-greens-16-p01:181)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Lord Commander of the Queensguard, he offered himself as a dragonrider and was burned to death by Seasmoke (fab-the-red-dragon-and-the-gold-17-p01:219)

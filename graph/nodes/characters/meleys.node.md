@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Meleys"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -47,3 +47,7 @@ With a glad cry and a crack of her whip, she turned Meleys toward the foe.(wiki:
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
 
 - Meleys the Red Queen, Rhaenys's she-dragon, had grown lazy but stayed fearsome when roused (fab-the-blacks-and-the-greens-16-p01:213)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- "The Red Queen," Rhaenys's scarlet mount, was hit by many arrows but killed and broken in the fall; her head was drawn through King's Landing on a cart (fab-the-red-dragon-and-the-gold-17-p01:141)

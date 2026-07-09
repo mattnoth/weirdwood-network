@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Rivers"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -71,3 +71,18 @@ Don't come again unless you mean to bend your knees, she says. Any man who comes
 - Wet nurse captured among the Harrenhal smallfolk; at least forty during the Dance, said to look younger than her years (fab-the-blacks-and-the-greens-16-p02:93)
 - According to Munkun and Eustace she was sired by Lord Lyonel Strong, making her half-sister to Harwin and Larys (fab-the-blacks-and-the-greens-16-p02:85)
 - Daemon appeared immune to her supposed powers (fab-the-blacks-and-the-greens-16-p02:93)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Mushroom says she used love potions on Aemond and Criston, Munkun credits Aemond's respect for the older man, and Septon Eustace says Aemond alone was besotted with her (fab-the-red-dragon-and-the-gold-17-p02:227)
+- The wet nurse of Harrenhal was the only bastard spared in the slaughter of House Strong, taken to Aemond's bed as a prize of war (fab-the-red-dragon-and-the-gold-17-p02:185)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Wet nurse and purported witch who warmed Aemond's bed at Harrenhal and claimed to carry his child (fab-the-red-dragon-and-the-gold-17-p03:105)
+- She was captured by Sabitha Frey, then escaped with Aemond (fab-the-red-dragon-and-the-gold-17-p03:105)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Aemond's woman, her long black hair streaming and her belly swollen with child (fab-the-red-dragon-and-the-gold-17-p04:225)
+- She claimed the sight, telling Aemond she saw Daemon in storm clouds and cook-fires, and watched the final battle from Kingspyre Tower (fab-the-red-dragon-and-the-gold-17-p04:233)

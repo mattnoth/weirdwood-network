@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jacaerys_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -99,3 +99,15 @@ Broken after the [loss of one son](wiki:Lucerys_Velaryon), [Rhaenyra Targaryen](
 - At White Harbor he sealed a compact betrothing his brother Joffrey to a Manderly daughter (fab-the-blacks-and-the-greens-16-p02:129)
 - At Winterfell he reached the Pact of Ice and Fire with Cregan Stark (fab-the-blacks-and-the-greens-16-p02:159)
 - He had been betrothed to his cousin Baela since he was four (fab-the-blacks-and-the-greens-16-p02:153)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Jace, Prince of Dragonstone and on the cusp of fifteen, came to the fore late in 129 AC (fab-the-red-dragon-and-the-gold-17-p01:175)
+- He sent Joffrey and Rhaena to the Vale, dispatched his young halfbrothers to Pentos, and named Corlys Hand of the Queen (fab-the-red-dragon-and-the-gold-17-p01:183)
+- At Mushroom's urging he called on the dragonseeds to master the masterless dragons (fab-the-red-dragon-and-the-gold-17-p01:205)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Prince of Dragonstone and heir to the Iron Throne, Rhaenyra's son, he swept down on the Lysene galleys aboard Vermax (fab-the-red-dragon-and-the-gold-17-p02:27)
+- Several differing tales were told of how his dragon fell; when Vermax went down, Jace leapt free onto wreckage until crossbowmen killed him (fab-the-red-dragon-and-the-gold-17-p02:41)
+- His loss was felt more deeply than any other in the battle (fab-the-red-dragon-and-the-gold-17-p02:47)

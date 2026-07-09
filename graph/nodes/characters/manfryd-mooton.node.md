@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Manfryd_Mooton"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Manfryd Mooton is a character from the AWOIAF wiki.
+Manfryd Mooton — Lord of Maidenpool, host to Daemon and Nettles, who lived in terror of Vhagar.
 
 ## Edges
 
@@ -44,3 +44,11 @@ Manfryd died of age and [illness](wiki:Illness) in [134 AC](wiki:134_AC).(wiki:M
 
 Manfryd: These are foul times and it is a foul choice [this queen](wiki:Rhaenyra_Targaryen) has given me. [The girl](wiki:Nettles) is a guest beneath my roof. If I obey, [Maidenpool](wiki:Maidenpool) shall be forever cursed. If I refuse, we shall be attainted and destroyedBrother: It may be we shall be destroyed whatever choice we make. [The prince](wiki:Daemon_Targaryen) is more than fond of this brown child, and [his dragon](wiki:Caraxes) is close at hand. A wise lord would kill them both, lest the prince burn Maidenpool in his wroth.Manfryd: The queen has forbidden any harm to come to him, and murdering two guests in their beds is twice as foul as murdering one. I should be [doubly cursed](wiki:Guest_right). Would that I had never read this letter.Norren: Mayhaps you never did.(wiki:Manfryd_Mooton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 If [he](wiki:Aegon_III_Targaryen) dies without an heir, we shall [dance](wiki:Dance_of_the_Dragons) again, however much we may dislike the music.(wiki:Manfryd_Mooton.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Lord of Maidenpool, host to Daemon and Nettles, who lived in terror of Vhagar (fab-the-red-dragon-and-the-gold-17-p04:27)
+- Ordered by the queen to behead Nettles, he was so shaken he lost his voice, then took counsel and refused to condemn either guest (fab-the-red-dragon-and-the-gold-17-p04:187)
+- After the pair departed he raised King Aegon II's banners over Maidenpool (fab-the-red-dragon-and-the-gold-17-p04:213)

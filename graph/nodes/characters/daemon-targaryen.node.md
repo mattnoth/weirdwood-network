@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 7
+node_version: 9
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -216,3 +216,17 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 - Rhaenyra's husband; crowned her and claimed for himself the style Protector of the Realm (fab-the-blacks-and-the-greens-16-p02:23)
 - Flying Caraxes to the Trident, he took Harrenhal when its castellan struck banners, capturing House Strong's wealth and a dozen hostages (fab-the-blacks-and-the-greens-16-p02:79)
 - After Luke's death he sent a raven promising vengeance (fab-the-blacks-and-the-greens-16-p02:255)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Prince Daemon, riding Caraxes, took Harrenhal and then Stone Hedge by storm with a host of Darrys, Rootes, Pipers, and Freys (fab-the-red-dragon-and-the-gold-17-p01:33)
+- Rhaenyra's consort, he was both a pillar and, as a maker of enemies, a weakness of her cause (fab-the-red-dragon-and-the-gold-17-p01:57)
+- Aemond named him the true danger (fab-the-red-dragon-and-the-gold-17-p01:165)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Prince Daemon based himself at Maidenpool with the girl Nettles, hunting Aemond One-Eye and Vhagar without success (fab-the-red-dragon-and-the-gold-17-p04:27)
+- He refused Lord Mooton's counsel to divide the search, arguing only Caraxes and Sheepstealer together could withstand the aged Vhagar (fab-the-red-dragon-and-the-gold-17-p04:29)
+- Warned by Maester Norren of the queen's order to behead Nettles, he parted from the girl at dawn and declared he would fly for Harrenhal to face Aemond alone (fab-the-red-dragon-and-the-gold-17-p04:211)
+- He claimed the ruined Harrenhal, slashing the godswood heart tree each dusk of a fourteen-day vigil (fab-the-red-dragon-and-the-gold-17-p04:215)
+- At the battle's climax he leapt from Caraxes to Vhagar and drove Dark Sister through Aemond's blind eye; both princes died, Daemon nine-and-forty, his body never found (fab-the-red-dragon-and-the-gold-17-p04:249)

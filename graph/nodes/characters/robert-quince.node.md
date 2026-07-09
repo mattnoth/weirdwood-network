@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Quince"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robert Quince is a character.human from the AWOIAF wiki.
+Robert Quince — The amiable and famously obese knight whom the queen named castellan of Dragonstone on her departure.
 
 ## Edges
 
@@ -39,3 +39,11 @@ Rhaenyra and her party were taken by escort to Robert's charred corpse, which wa
 ## Appearances & Description
 
 Robert was able, amiable, old and famously obese. He was a steadfast supporter of Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen).(wiki:Robert_Quince.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- The amiable and famously obese knight whom the queen named castellan of Dragonstone on her departure (fab-the-red-dragon-and-the-gold-17-p04:55)
+- He was quick to name the Cannibal as Grey Ghost's killer and forbade fishing beneath the Dragonmont's eastern face (fab-the-red-dragon-and-the-gold-17-p04:55)
+- He confined his restless charge Baela to her chambers when she tried to fly to the dead dragon (fab-the-red-dragon-and-the-gold-17-p04:71)

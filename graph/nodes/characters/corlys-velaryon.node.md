@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corlys_Velaryon"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -162,3 +162,10 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 - The Sea Snake, Lord of the Tides, who mourned first his daughter Laena then his son Laenor in 120 AC (fab-heirs-of-the-dragon-15-p03:71)
 - Stricken by fever in 126 AC, he raised the question of who should succeed him (fab-heirs-of-the-dragon-15-p03:163)
 - He offered ten thousand golden dragons for Laenor's killer (fab-heirs-of-the-dragon-15-p03:77)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- The Sea Snake's fleets closed Blackwater Bay and the Gullet (fab-the-red-dragon-and-the-gold-17-p01:53)
+- After Rhaenys's death he blamed Rhaenyra bitterly (fab-the-red-dragon-and-the-gold-17-p01:169)
+- Jacaerys brought him back into the fold as Hand of the Queen (fab-the-red-dragon-and-the-gold-17-p01:187)
+- He brought the Hull boys forward as his grandsons and had Addam legitimized as heir to Driftmark (fab-the-red-dragon-and-the-gold-17-p01:233)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Bryndon_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Bryndon Hightower is a character.human from the AWOIAF wiki.
+Bryndon Hightower — Ser, Lord Ormund's cousin, who put himself between Roderick Dustin and his liege and took off the Ruin's shield arm.
 
 ## Edges
 
@@ -30,3 +30,10 @@ During the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton) in the [D
 ## Appearances & Description
 
 Bryndon was the foremost [knight](wiki:Knight) of [Oldtown](wiki:Oldtown). He wielded a [longaxe](wiki:Armament) in battle.(wiki:Bryndon_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Ser, Lord Ormund's cousin, who put himself between Roderick Dustin and his liege and took off the Ruin's shield arm (fab-the-red-dragon-and-the-gold-17-p03:233)
+- He was slain by Roderick Dustin at Tumbleton (fab-the-red-dragon-and-the-gold-17-p03:233)

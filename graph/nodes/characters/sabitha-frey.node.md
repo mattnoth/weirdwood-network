@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Sabitha_Frey"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -46,3 +46,10 @@ In [136 AC](wiki:136_AC), Lord [Torrhen Manderly](wiki:Torrhen_Manderly) and Aeg
 ## Quotes
 
 ... sharp-featured, sharp-tongued harridan of [House Vypren](wiki:House_Vypren), who would sooner ride than dance, wore mail instead of [silk](wiki:Silk), and was fond of killing men and kissing women.(wiki:Sabitha_Frey.cite_ref-Rtwoiafthe_riverlands:_house_tully.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Lady who seized empty Harrenhal three days after Criston Cole left, finding Alys Rivers within (fab-the-red-dragon-and-the-gold-17-p03:105)
+- She saved herself from Aemond's fire in a privy and fled to the Twins (fab-the-red-dragon-and-the-gold-17-p03:155)

@@ -3,7 +3,7 @@
   "name": "Harvest Hall",
   "type": "place.location",
   "node_path": "graph/nodes/locations/harvest-hall.node.md",
-  "generated_at": "2026-07-09T20:50:26.526465+00:00",
+  "generated_at": "2026-07-09T20:59:05.879176+00:00",
   "stats": {
     "appearances_total": 3,
     "chapters_referenced_in": 3,

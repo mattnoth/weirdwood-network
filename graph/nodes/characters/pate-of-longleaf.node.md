@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Pate_of_Longleaf"
 bucket_id: characters-other-o-p
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Pate of Longleaf is a character.human from the AWOIAF wiki.
+Pate of Longleaf — A grizzled squire who dealt Jason Lannister his mortal wound, afterward knighted by Lord Piper as "Longleaf the Lionslayer".
 
 ## Edges
 
@@ -35,3 +35,15 @@ When [Tessarion](wiki:Tessarion) began attacking during the [First Battle of Tum
 > I'll have no songs about how brave you died, Kingmaker. There's tens o' thousands dead on your account.(wiki:Pate_of_Longleaf.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
 > —Pate, to [Criston Cole](wiki:Criston_Cole)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- A grizzled squire who dealt Jason Lannister his mortal wound, afterward knighted by Lord Piper as "Longleaf the Lionslayer" (fab-the-red-dragon-and-the-gold-17-p02:93)
+- He later led survivors alongside the lords who joined the Fishfeed (fab-the-red-dragon-and-the-gold-17-p02:191)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Longleaf the Lionslayer, who had cut down Jason Lannister; at the parley he called for archers and mocked the dying Kingmaker (fab-the-red-dragon-and-the-gold-17-p03:127)
+- He declared he'd have no songs of Cole's brave death (fab-the-red-dragon-and-the-gold-17-p03:139)

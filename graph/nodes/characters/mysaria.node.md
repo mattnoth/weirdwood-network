@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mysaria"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -59,3 +59,14 @@ Let [Daemon](wiki:Daemon_Targaryen) slake his hungers where he will, and we shal
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
 
 - Daemon's trusted pale go-between, an older foreign-spoken woman called "Misery" by the harlots and known as the White Worm; never found despite the gold cloaks' search (fab-the-blacks-and-the-greens-16-p02:277)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Mushroom claims she proposed selling Alicent and Helaena in a brothel (fab-the-red-dragon-and-the-gold-17-p03:201)
+- Prince Daemon remained in her thrall (fab-the-red-dragon-and-the-gold-17-p03:55)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- The pale harlot and dancing girl who served as Rhaenyra's mistress of whisperers in all but name, called Lady Misery and the White Worm (fab-the-red-dragon-and-the-gold-17-p04:103)
+- Summoned before the council, she told the queen Nettles had already betrayed her and shared Daemon's bed (fab-the-red-dragon-and-the-gold-17-p04:103)
+- Septon Eustace also names her as a woman whose bed Daemon shared at court (fab-the-red-dragon-and-the-gold-17-p04:33)

@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baela_Targaryen
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 4
+node_version: 6
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -153,3 +153,14 @@ The Issue field lists "Laena Velaryon" which is also her mother's name — this 
 
 - Twin daughter of Daemon and Laena, born 116 AC in Pentos, named after Daemon's father (fab-heirs-of-the-dragon-15-p03:41)
 - Betrothed while a toddler to one of Rhaenyra's eldest sons (fab-heirs-of-the-dragon-15-p03:59)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Daughter of Daemon by Laena and twin of Rhaena, Baela refused to leave Dragonstone or Jacaerys (fab-the-red-dragon-and-the-gold-17-p01:179)
+- Her dragon Moondancer was too small to bear her, and no wedding to Jace was held (fab-the-red-dragon-and-the-gold-17-p01:179)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- Daemon's daughter by Laena Velaryon, a wild and willful maiden of ten-and-four, more boyish than ladylike (fab-the-red-dragon-and-the-gold-17-p04:59)
+- She rode her dragon Moondancer daily across Dragonstone and even to Driftmark (fab-the-red-dragon-and-the-gold-17-p04:65)
+- Fearless of the Cannibal, she proposed to investigate the dragon-fight herself and was confined when she defied Quince's ban (fab-the-red-dragon-and-the-gold-17-p04:69)

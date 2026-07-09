@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dalton_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -106,3 +106,12 @@ Historical figure from the Dance of the Dragons era. Died 133 AC at Faircastle, 
 
 - Dalton Greyjoy, the Red Kraken, the daring and bloodthirsty sixteen-year-old Lord Reaper of Pyke, was offered the admiralty and a council seat by Otto (fab-the-blacks-and-the-greens-16-p01:141)
 - Daemon judged the ironmen fickle and thought Dalton might as easily support Rhaenyra (fab-the-blacks-and-the-greens-16-p01:249)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- The Red Kraken of Pyke, courted by both claimants, made his choice and fell upon the Lannister shores (fab-the-red-dragon-and-the-gold-17-p02:97)
+- Unable to breach Casterly Rock once Johanna Lannister barred the gates, his ironmen sacked Lannisport and carried off more than six hundred women and girls (fab-the-red-dragon-and-the-gold-17-p02:99)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- The Red Kraken, who took Faircastle and Fair Isle, claimed four of Lord Farman's daughters as salt wives and gave the fifth to his brother Veron (fab-the-red-dragon-and-the-gold-17-p03:91)

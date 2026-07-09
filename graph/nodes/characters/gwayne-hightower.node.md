@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gwayne_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -37,3 +37,7 @@ When King's Landing was [attacked](wiki:Fall_of_King's_Landing) by Queen Rhaenyr
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
 
 - Ser Gwayne Hightower, Otto's son and the queen's brother, was named Largent's second to watch him for disloyalty (fab-the-blacks-and-the-greens-16-p01:135)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Alicent's brother and second in command of the gold cloaks, he rushed to sound the warning but was seized and killed by Luthor Largent (fab-the-red-dragon-and-the-gold-17-p02:127)

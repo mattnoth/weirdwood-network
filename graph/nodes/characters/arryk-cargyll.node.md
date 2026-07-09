@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Arryk_Cargyll"
 bucket_id: characters-house-cargyll
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -73,3 +73,9 @@ Queen [Cersei Lannister](wiki:Cersei_Lannister) thinks that if Ser [Loras Tyrell
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
 
 - Ser Arryk Cargyll, twin to Erryk, was among the Kingsguard in King's Landing and led Aegon II into the throne room (fab-the-blacks-and-the-greens-16-p01:183)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Ser Arryk, Kingsguard and identical twin of Erryk, was sent to Dragonstone disguised as his brother (fab-the-red-dragon-and-the-gold-17-p01:95)
+- His true target is disputed: Munkun says Rhaenyra, Mushroom says her sons (fab-the-red-dragon-and-the-gold-17-p01:91)
+- He met Erryk and the twins slew each other, the manner of it disputed by singers and by Mushroom (fab-the-red-dragon-and-the-gold-17-p01:107)

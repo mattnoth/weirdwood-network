@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Willow_Pound-Stone"
 bucket_id: characters-other-w-y
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Willow Pound-Stone is a character.human from the AWOIAF wiki.
+Willow Pound-Stone — Mushroom calls her a monster of thirty stone, simpleminded and half-mad.
 
 ## Edges
 
@@ -29,3 +29,11 @@ Afterward, Willow was hanged from the center span of the old bridge at the comma
 ## Appearances & Description
 
 According to [Mushroom](wiki:Mushroom), Willow weighed thirty stone (420 lbs; 190,5 kg), and was [simpleminded](wiki:Simple) and half-mad. She had earned her name pounding clothes clean in the [Mander](wiki:Mander).(wiki:Willow_Pound-Stone.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- Mushroom calls her a monster of thirty stone, simpleminded and half-mad (fab-the-red-dragon-and-the-gold-17-p03:77)
+- Mushroom says she crushed the boy to death; Lady Caswell had her hanged (fab-the-red-dragon-and-the-gold-17-p03:81)
+- A washerwoman who took Maelor from the dying knight, calling him her new son (fab-the-red-dragon-and-the-gold-17-p03:77)

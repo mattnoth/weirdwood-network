@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Orwyle"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -53,3 +53,7 @@ When Tyland died from the disease, the young King [Aegon III Targaryen](wiki:Aeg
 
 - Archmaester chosen by the Conclave to be Grand Maester, thought to favor neither faction (fab-heirs-of-the-dragon-15-p03:193)
 - His potions were held more efficacious than Mellos's leechings (fab-heirs-of-the-dragon-15-p03:197)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Grand Maester who urged Aemond to seek Baratheon aid, then was seized by gold cloaks and taken to the black cells when he tried to summon Alicent's loyal lords (fab-the-red-dragon-and-the-gold-17-p02:125)

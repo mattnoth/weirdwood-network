@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Addam_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -64,3 +64,21 @@ In [138 AC](wiki:Years_after_Aegon's_Conquest), the bones of Addam were returned
 
 That Addam and [Alyn](wiki:Alyn_Velaryon) were [dragonseed](wiki:Dragonseed) no man who looked upon them could doubt, though [their mother](wiki:Marilda_of_Hull) steadfastly refused to name their father.(wiki:Addam_Velaryon.cite_ref-Rfab15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 Question him sharply, and we will learn if he is true or false, beyond a doubt.(wiki:Addam_Velaryon.cite_ref-Rfab16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Munkun and Eustace name Laenor his father, but Mushroom insists Corlys himself sired him (fab-the-red-dragon-and-the-gold-17-p01:235)
+- He was legitimized as Addam Velaryon, heir to Driftmark (fab-the-red-dragon-and-the-gold-17-p01:235)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
+
+- Lately Addam of Hull, rider of Seasmoke, who sought out the Sea Snake after the Gullet (fab-the-red-dragon-and-the-gold-17-p02:53)
+- At King's Landing he remained aloft on Seasmoke as a warning against defiance (fab-the-red-dragon-and-the-gold-17-p02:133)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- The baseborn dragonrider of Seasmoke who resided at the Dragonpit to defend the city (fab-the-red-dragon-and-the-gold-17-p04:93)
+- Called Addam of Hull, his loyalty was questioned on the black council alongside Nettles (fab-the-red-dragon-and-the-gold-17-p04:93)
+- Forewarned of his arrest, he flew off on Seasmoke and escaped (fab-the-red-dragon-and-the-gold-17-p04:113)

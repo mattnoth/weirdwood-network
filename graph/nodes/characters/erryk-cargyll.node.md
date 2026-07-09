@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Erryk_Cargyll"
 bucket_id: characters-house-cargyll
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -78,3 +78,8 @@ Queen [Cersei Lannister](wiki:Cersei_Lannister) thinks that if Ser [Loras Tyrell
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
 
 - Ser Erryk Cargyll, twin to Arryk, was on Dragonstone with Rhaenyra and stood at her black council (fab-the-blacks-and-the-greens-16-p01:193)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- Ser Erryk, twin at Rhaenyra's court, knew his brother's presence at once (fab-the-red-dragon-and-the-gold-17-p01:95)
+- In Munkun's telling they embraced and died with tears; in Mushroom's, Erryk struck first but took four days to die of a gut wound (fab-the-red-dragon-and-the-gold-17-p01:103)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 7
+node_version: 10
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -174,3 +174,23 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 - Her first act as queen was to declare Otto Hightower and Queen Alicent traitors and rebels (fab-the-blacks-and-the-greens-16-p02:25)
 - She named her eldest son Jacaerys her heir (fab-the-blacks-and-the-greens-16-p02:23)
 - She collapsed on learning of Luke's death (fab-the-blacks-and-the-greens-16-p02:255)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
+
+- The queen, called "Aegon the Usurper's" foe, was broken by pregnancy, labor, and the death of Lucerys (fab-the-red-dragon-and-the-gold-17-p01:169)
+- She was reluctant to attack King's Landing; the chroniclers dispute why — Munkun cites her horror of kinslaying, Septon Eustace says she had "a mother's heart," and Mushroom claims she was too griefsick to command (fab-the-red-dragon-and-the-gold-17-p01:121)
+- She counted four living sons her strength and consolation (fab-the-red-dragon-and-the-gold-17-p01:175)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
+
+- The queen, in possession of city, castle, and throne, defended by six dragons (fab-the-red-dragon-and-the-gold-17-p03:49)
+- She appointed Bartimos Celtigar her lord treasurer and master of coin to meet a desperate need for coin (fab-the-red-dragon-and-the-gold-17-p03:27)
+- She replenished her coffers at grievous cost, and Kingslanders came to name her cruel (fab-the-red-dragon-and-the-gold-17-p03:45)
+- Every time she sat the Iron Throne, its blades drew fresh blood from her (fab-the-red-dragon-and-the-gold-17-p03:57)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
+
+- On hearing of the betrayal at Tumbleton the queen barred the city gates against turncloaks (fab-the-red-dragon-and-the-gold-17-p04:79)
+- Believing Nettles had bewitched both a dragon and her husband, she sent Lord Mooton a warrant to strike off the girl's head (fab-the-red-dragon-and-the-gold-17-p04:173)
+- She imprisoned Lord Corlys and dismissed Grand Maester Gerardys for defending the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:117)
+- Suspicion aroused, she ordered Ser Addam arrested and had Mysaria questioned about the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:107)
