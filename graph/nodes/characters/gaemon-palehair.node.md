@@ -9,10 +9,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gaemon_Palehair
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Gaemon Palehair, the "Cunny King," was a boy who had just turned five and was routed on Visenya's Hill.
 
 ## Origins
 
@@ -76,3 +80,11 @@ Gaemon had pale hair.(wiki:Gaemon_Palehair.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B
 - PARENT_OF (reverse): Lysene (track_b: Fathers)
 - PARENT_OF (reverse): Aegon II Targaryen (track_b: Fathers) [allegedly]
 - PARENT_OF (reverse): Essie (track_b: Mother)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Gaemon Palehair, the "Cunny King," was a boy who had just turned five and was routed on Visenya's Hill (fab-short-sad-reign-of-aegon-ii-19:71)
+- Spared for his youth, he was made a ward of the Crown (fab-short-sad-reign-of-aegon-ii-19:103)
+- His mother Essie confessed under torture that his father was not the king but a Lyseni oarsman (fab-short-sad-reign-of-aegon-ii-19:103)

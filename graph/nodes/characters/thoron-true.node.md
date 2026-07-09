@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Thoron_True"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Thoron True is a character.human from the AWOIAF wiki.
+Thoron True — Ser, sworn sword of the Sea Snake, whose plot was betrayed by a whore he had been bedding.
 
 ## Edges
 
@@ -25,3 +25,9 @@ Thoron True is a character.human from the AWOIAF wiki.
 ## Origins
 
 After Lord Corlys was imprisoned under charges of treason for warning [Addam Velaryon](wiki:Addam_Velaryon) of his impending arrest, Ser Thoron and Ser [Denys Woodwright](wiki:Denys_Woodwright), another sworn sword to the Sea Snake, cut their way into the dungeons of the [Red Keep](wiki:Red_Keep) to liberate their lord. However, their plans had been betrayed to [Lady Misery](wiki:Mysaria) by a [whore](wiki:Whore) Ser Thoron had been bedding. Ser Thoron and Ser Denys were taken and hanged from the walls of the Red Keep, dying at dawn.(wiki:Thoron_True.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Ser, sworn sword of the Sea Snake, whose plot was betrayed by a whore he had been bedding (fab-rhaenyra-overthrown-18-p01:21)

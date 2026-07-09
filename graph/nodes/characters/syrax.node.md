@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Syrax"
 bucket_id: characters-other-s-t
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Syrax is a character.human from the AWOIAF wiki.
+Syrax — Queen Rhaenyra's yellow she-dragon, who had never known another rider.
 
 ## Edges
 
@@ -45,3 +45,11 @@ Syrax had yellow scales. She was huge and formidable, but not as fearsome or exp
 ### A Dance with Dragons
 
 During their voyage on the [Rhoyne](wiki:Rhoyne), [Tyrion Lannister](wiki:Tyrion_Lannister) and [Haldon Halfmaester](wiki:Haldon_Halfmaester) debate Ser Byron Swann's death, and whether he faced Syrax or Vhagar.(wiki:Syrax.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Queen Rhaenyra's yellow she-dragon, who had never known another rider (fab-rhaenyra-overthrown-18-p01:157)
+- She twisted beneath Joffrey and cast him off to his death (fab-rhaenyra-overthrown-18-p01:161)
+- Riderless, she descended on the Shepherd's mobs at the Dragonpit and was slain by conflicting accounts (fab-rhaenyra-overthrown-18-p01:239)

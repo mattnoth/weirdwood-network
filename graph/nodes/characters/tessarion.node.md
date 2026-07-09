@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tessarion"
 bucket_id: characters-other-s-t
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tessarion is a character.dragon from the AWOIAF wiki.
+Tessarion, "the Blue Queen," Prince Daeron's she-dragon, danced with Seasmoke in the air without ever closing.
 
 ## Edges
 
@@ -56,3 +56,10 @@ By [129 AC](wiki:129_AC), Tessarion was of fighting size.(wiki:Tessarion.cite_r
 > [The victory](wiki:Battle_of_the_Honeywine) belongs to Tessarion.(wiki:Tessarion.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 >
 > —[Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)) following the [Battle of the Honeywine](wiki:Battle_of_the_Honeywine)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Tessarion, "the Blue Queen," Prince Daeron's she-dragon, danced with Seasmoke in the air without ever closing. (fab-rhaenyra-overthrown-18-p02:101)
+- She fell from the sky to join the fight of Seasmoke and Vermithor, and, unable to regain the sky, was killed by three shafts to the eye from Billy Burley. (fab-rhaenyra-overthrown-18-p02:125)

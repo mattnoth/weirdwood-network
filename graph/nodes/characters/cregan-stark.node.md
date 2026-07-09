@@ -11,7 +11,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Cregan_Stark"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 4
+node_version: 8
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -174,3 +174,28 @@ The wide death-date range (157–209 AC) reflects the wiki's uncertainty. Rickon
 - He wed Arra Norrey, who died in 128 AC bearing his son Rickon (fab-the-blacks-and-the-greens-16-p02:137)
 - He gave Jacaerys a warm welcome and sealed the Pact of Ice and Fire (fab-the-blacks-and-the-greens-16-p02:159)
 - Munkun says they swore an oath of brotherhood, while Eustace claims Jacaerys spent his visit trying to convert Cregan to the Seven (fab-the-blacks-and-the-greens-16-p02:145)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Cregan Stark wrote from Winterfell promising to bring a host south once the harvest was in, offering ten thousand men. (fab-rhaenyra-overthrown-18-p02:169)
+- He warned it would take time to gather his men. (fab-rhaenyra-overthrown-18-p02:169)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Its size is disputed: Septon Eustace names twenty thousand while Munkun lowers it to eight thousand (fab-short-sad-reign-of-aegon-ii-19:199)
+- Cregan Stark, Lord of Winterfell, brought a great host down the Neck (fab-short-sad-reign-of-aegon-ii-19:199)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- He seized Corlys Velaryon, Larys Strong, Orwyle, Perkin, and Eustace, and pressed to punish the king's poisoners (fab-hour-of-the-wolf-20:99)
+- He resigned the Handship the next day, saying his place was at Winterfell (fab-hour-of-the-wolf-20:283)
+- Lord of Winterfell, aged twenty-three, the Wolf of the North came before King's Landing with a host twice the size of the Lads' to make good a two-years-old promise to Prince Jacaerys (fab-hour-of-the-wolf-20:71)
+- Made Hand of the Uncrowned King, he sat on a wooden bench beneath the Iron Throne and passed the Judgment of the Wolf, then wielded Ice himself as the custom of the North decreed (fab-hour-of-the-wolf-20:259)
+- A widower of three years, he agreed to marry Black Aly in a bargain trading her a boon for a head (fab-hour-of-the-wolf-20:253)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Lord Cregan Stark had stepped down as Hand and meant to return to Winterfell, but faced the problem of his unwanted northmen (fab-the-hooded-hand-21:17)
+- He led his diminished host north within a fortnight of the coronation (fab-the-hooded-hand-21:73)
+- Later that year he wed Alysanne Blackwood before the heart tree of Winterfell (fab-the-hooded-hand-21:251)
+- He was offered a place among the regents but refused (fab-the-hooded-hand-21:63)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyraxes"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Tyraxes is a character.dragon from the AWOIAF wiki.
+Tyraxes — Prince Joffrey's dragon, housed in the Dragonpit, who retreated into his lair roasting his attackers.
 
 ## Edges
 
@@ -39,3 +39,9 @@ During their time in the city, Tyraxes made his lair in the [Dragonpit](wiki:Dra
 A young and strong dragon,(wiki:Tyraxes.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) in [129 AC](wiki:129_AC), Tyraxes was thriving and growing larger every year, but he was slightly smaller than [Vermax](wiki:Vermax) and [Arrax](wiki:Arrax). By the time of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), he had recently become able to fly long distances with his rider, but was not quite big enough for combat yet.(wiki:Tyraxes.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 Tyraxes's coloring is not stated in the books. However, according to Rudolf Hima, the artist who depicted Tyraxes for the tenth anniversary of the publication of *[The World of Ice & Fire](wiki:The_World_of_Ice_&_Fire)*, [George R. R. Martin](wiki:George_R._R._Martin) describes Tyraxes as "a pale violet dragon with dark purple horn[s] with purple [flames](wiki:Dragonflame)."(wiki:Tyraxes.cite_ref-10years_1-1)(wiki:Tyraxes.cite_ref-himainstagram_2-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Prince Joffrey's dragon, housed in the Dragonpit, who retreated into his lair roasting his attackers (fab-rhaenyra-overthrown-18-p01:203)

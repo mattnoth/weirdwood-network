@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Shepherd"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -64,3 +64,16 @@ We shall meet in hell before [this year](wiki:130_AC) is done.(wiki:Shepherd.cit
 - Munkun suggests he was an outlawed Poor Fellow, while Mushroom calls him "the Dead Shepherd" (fab-the-red-dragon-and-the-gold-17-p04:123)
 - He preached that dragons were demons and called down doom on Rhaenyra and Aegon, drawing thousands into the square (fab-the-red-dragon-and-the-gold-17-p04:125)
 - A one-handed, barefoot itinerant brother in a hair shirt who rose up in Cobbler's Square, his name lost to history (fab-the-red-dragon-and-the-gold-17-p04:123)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- He directed the mob to storm the Dragonpit and slay the dragons (fab-rhaenyra-overthrown-18-p01:121)
+- Though he held sway over tens of thousands he never claimed kingship, styling himself a simple son of the Seven (fab-rhaenyra-overthrown-18-p01:269)
+- One-handed prophet who preached the coming of the Stranger at Cobbler's Square (fab-rhaenyra-overthrown-18-p01:115)
+- A popular tale named him the slayer of Syrax (fab-rhaenyra-overthrown-18-p01:243)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- The Shepherd, a one-handed prophet, called his "barefoot army" to defend the Hill of Rhaenys but few obeyed (fab-short-sad-reign-of-aegon-ii-19:73)
+- Taken alive in the ruined Dragonpit, he cursed Borros with words he later repeated to the king (fab-short-sad-reign-of-aegon-ii-19:73)
+- For his insolence Aegon had his tongue torn out with hot pincers, then burned him among the dragon skulls with 241 of his followers (fab-short-sad-reign-of-aegon-ii-19:109)

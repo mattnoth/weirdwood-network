@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Medrick_Manderly"
 bucket_id: characters-house-manderly
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -45,3 +45,10 @@ Lord Desmond and the childless Medrick died of [Winter Fever](wiki:Winter_Fever)
 ## Appearances & Description
 
 Medrick was a fearsome man(wiki:Medrick_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) said to be the finest knight of the [north](wiki:North).(wiki:Medrick_Manderly.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) However, he was also courtly and well spoken.(wiki:Medrick_Manderly.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- He was one of the Seven Who Rode and named the heir to White Harbor (fab-rhaenyra-overthrown-18-p01:147)
+- He fled the city with the queen (fab-rhaenyra-overthrown-18-p01:245)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Dreamfyre"
 bucket_id: characters-other-d
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Dreamfyre is a character.dragon from the AWOIAF wiki.
+Dreamfyre — Helaena's dragon, atop the Hill of Rhaenys, who snapped two chains at the queen's death.
 
 ## Edges
 
@@ -72,3 +72,11 @@ Dreamfyre was a slender she-dragon. Her coloration was primarily pale blue, with
 > [Tyraxes](wiki:Tyraxes), [Shrykos](wiki:Shrykos), and [Morghul](wiki:Morghul) [killed scores](wiki:Storming_of_the_Dragonpit), there can be little doubt, but Dreamfyre slew more than all three of them combined.(wiki:Dreamfyre.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Helaena's dragon, atop the Hill of Rhaenys, who snapped two chains at the queen's death (fab-rhaenyra-overthrown-18-p01:39)
+- The last of the four pit dragons to die, she slew more than the other three combined before bringing down the Dragonpit's dome upon herself (fab-rhaenyra-overthrown-18-p01:211)
+- A crossbow bolt in her eye drove her into the dome, which collapsed and crushed her (fab-rhaenyra-overthrown-18-p01:219)

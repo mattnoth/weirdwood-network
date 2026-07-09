@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sylvenna_Sand"
 bucket_id: characters-house-of-kisses
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Sylvenna Sand is a character.human from the AWOIAF wiki.
+Sylvenna Sand — A Dornish whore, reputed author of Gaemon's edicts and paramour of the king's mother Essie, if Mushroom is believed.
 
 ## Edges
 
@@ -31,3 +31,9 @@ Sylvenna was the [paramour](wiki:Paramour) of [Essie](wiki:Essie), another whore
 During the [Moon of the Three Kings](wiki:Moon_of_the_Three_Kings), after [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)'s escape from [King's Landing](wiki:King's_Landing), Gaemon gathered thousands of followers and issued a series of edicts, quite likely the work of Sylvenna, for some of them reflected the [Rhoynish](wiki:Rhoynar) views on women inherited by the [Dornish](wiki:Dornish).(wiki:Sylvenna_Sand.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 After the city was taken by Lord [Borros Baratheon](wiki:Borros_Baratheon) in Aegon II's name, Sylvenna was arrested alongside "King" Gaemon, Essie, and the rest of his "court". After Aegon's return to the capital, Sylvenna was hanged from the battlements of the [Red Keep](wiki:Red_Keep) alongside Essie and twenty seven followers of the false king.(wiki:Sylvenna_Sand.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- A Dornish whore, reputed author of Gaemon's edicts and paramour of the king's mother Essie, if Mushroom is believed (fab-rhaenyra-overthrown-18-p01:275)

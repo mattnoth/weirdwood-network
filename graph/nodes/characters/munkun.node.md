@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Munkun"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Munkun is a character.human from the AWOIAF wiki.
+Munkun — Grand Maester Munkun's True Telling, based largely on Orwyle's account, revealed how Aegon II came to Dragonstone.
 
 ## Edges
 
@@ -53,3 +53,15 @@ Munkun was the only member of the council that held office from [131 AC](wiki:1
 ### Later life
 
 Maester [Alford](wiki:Alford) was Grand Maester in [153 AC](wiki:Years_after_Aegon's_Conquest),(wiki:Munkun.cite_ref-Rtwoiaf411.7B.7B.7B4.7D.7D.7D_9-0) but by [171 AC](wiki:Years_after_Aegon's_Conquest) Munkun was Grand Maester again.(wiki:Munkun.cite_ref-10) When King [Baelor I Targaryen](wiki:Baelor_I_Targaryen) collapsed from fasting after the birth of [Daemon Waters](wiki:Daemon_I_Blackfyre), Munkun tried to heal the king, but Baelor died.(wiki:Munkun.cite_ref-Rtwoiaf49.7B.7B.7B4.7D.7D.7D_11-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Grand Maester Munkun's True Telling, based largely on Orwyle's account, revealed how Aegon II came to Dragonstone. (fab-rhaenyra-overthrown-18-p02:215)
+- Lord Blackwood told him of the dragon fight years later. (fab-rhaenyra-overthrown-18-p02:113)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Newly chosen Grand Maester, succeeding Orwyle, and named a regent (fab-the-hooded-hand-21:59)
+- He survived the Winter Fever (fab-the-hooded-hand-21:317)

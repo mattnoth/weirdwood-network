@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Moondancer"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Moondancer is a character.dragon from the AWOIAF wiki.
+Moondancer, a young pale-green dragon with pearl horns and crest, was no larger than a warhorse but very quick.
 
 ## Edges
 
@@ -36,3 +36,11 @@ Nonetheless, Moondancer had succeeded in mortally wounding her opponent. Sunfyre
 ## Appearances & Description
 
 A beautiful dragon,(wiki:Moondancer.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Moondancer was a slender pale green. Her horns, crest and wingbones were pearl. She was very quick, both in the sky and on the ground.(wiki:Moondancer.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Moondancer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Although in [129 AC](wiki:129_AC) Moondancer was not yet considered large enough to carry the thirteen-year old Baela Targaryen upon her back, a year later Baela was able to mount the dragon. At the time, Moondancer was no larger than a [warhorse](wiki:Horse), and weighed less.(wiki:Moondancer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Moondancer, a young pale-green dragon with pearl horns and crest, was no larger than a warhorse but very quick. (fab-rhaenyra-overthrown-18-p02:261)
+- Ridden by Baela, she wounded Sunfyre repeatedly but was blinded and borne down. (fab-rhaenyra-overthrown-18-p02:265)
+- Grounded, her quickness failed her and she soon lay still. (fab-rhaenyra-overthrown-18-p02:269)

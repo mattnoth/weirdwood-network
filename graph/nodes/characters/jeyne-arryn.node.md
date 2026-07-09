@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Arryn"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -71,3 +71,7 @@ The great [lords](wiki:Lord) would have given us another two years of war, it wa
 - The Maiden of the Vale, 35 and never wed, ruling since her father and brothers were slain by the Stone Crows when she was three (fab-the-blacks-and-the-greens-16-p02:109)
 - She pledged the Vale to Rhaenyra in exchange for dragonriders (fab-the-blacks-and-the-greens-16-p02:117)
 - Mushroom's and Eustace's tales of her private life the narration declines to credit over Munkun (fab-the-blacks-and-the-greens-16-p02:113)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Lady Jeyne, "the Maiden of the Vale," wrote from the Gates of the Moon promising aid but, with the passes snowed shut, needing House Velaryon's ships at Gulltown or coin to hire ships. (fab-rhaenyra-overthrown-18-p02:169)

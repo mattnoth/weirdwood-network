@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Benjicot_Blackwood"
 bucket_id: characters-house-blackwood
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -59,3 +59,20 @@ Benjicot was tall and slim, with a shy and sensitive manner. When armored for ba
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
 
 - The eleven-year-old new Lord of Raventree brought fresh levies to the Fishfeed and wept at the heaps of the dead (fab-the-red-dragon-and-the-gold-17-p02:209)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Benjicot Blackwood, "the boy Ben Blackwood," the twelve-year-old Lord of Raventree, came to Addam's host. (fab-rhaenyra-overthrown-18-p02:59)
+- He watched the dragons fight fifty yards off and told Munkun of it years later, and ordered his archer to end the dying Tessarion. (fab-rhaenyra-overthrown-18-p02:123)
+- He carried away Addam Velaryon's broken body. (fab-rhaenyra-overthrown-18-p02:131)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- His flanking charge from the wood broke the battle and earned him the name Bloody Ben (fab-short-sad-reign-of-aegon-ii-19:215)
+- Benjicot Blackwood of Raventree joined the riverlords, a seasoned warrior at three-and-ten (fab-short-sad-reign-of-aegon-ii-19:123)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- "Bloody Ben", Lord of Raventree, was only thirteen, lordship having fallen to him when his father Samwell was slain at the Burning Mill (fab-hour-of-the-wolf-20:41)
+- He commanded the center at Second Tumbleton and led the flank attack that broke Lord Baratheon's stormlanders at the Muddy Mess (fab-hour-of-the-wolf-20:41)
+- With the brothers Tully he was one of "the Lads", and shrank in Cregan Stark's presence (fab-hour-of-the-wolf-20:45)

@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dalton_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -115,3 +115,9 @@ Historical figure from the Dance of the Dragons era. Died 133 AC at Faircastle, 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
 
 - The Red Kraken, who took Faircastle and Fair Isle, claimed four of Lord Farman's daughters as salt wives and gave the fifth to his brother Veron (fab-the-red-dragon-and-the-gold-17-p03:91)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- The Red Kraken paid little heed to the Iron Throne's edicts, continuing to raid and refusing to return women or Fair Isle (fab-the-hooded-hand-21:109)
+- He burned Johanna's shipyards and carried off a hundred more women (fab-the-hooded-hand-21:113)
+- He boasted a hundred salt wives but never a rock wife (fab-the-hooded-hand-21:213)

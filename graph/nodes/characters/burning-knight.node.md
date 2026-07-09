@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Burning_Knight"
 bucket_id: characters-other-b-c
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Burning Knight is a character.human from the AWOIAF wiki.
+the Burning Knight — A huge armored brute who rushed into Morghul's flame and thrust his spear into the dragon's eye.
 
 ## Edges
 
@@ -27,3 +27,9 @@ During the [Storming of the Dragonpit](wiki:Storming_of_the_Dragonpit), the Burn
 ## Appearances & Description
 
 The Burning Knight was a huge brute of a man. He was most likely not an actual [knight](wiki:Knight).(wiki:Burning_Knight.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- A huge armored brute who rushed into Morghul's flame and thrust his spear into the dragon's eye (fab-rhaenyra-overthrown-18-p01:199)

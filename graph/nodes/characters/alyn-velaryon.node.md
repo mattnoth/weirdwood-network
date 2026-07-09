@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyn_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -145,3 +145,16 @@ Bold(wiki:Alyn_Velaryon.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-
 
 - Alyn, one year younger than Addam, hoped to tame Sheepstealer and Grey Ghost but was badly burned; his brother saved him (fab-the-red-dragon-and-the-gold-17-p01:245)
 - He carried the scars the rest of his long life and became Alyn Velaryon (fab-the-red-dragon-and-the-gold-17-p01:245)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Alyn of Hull, younger son of Mouse and brother of the dead Addam, took command of the Velaryon fleets at fifteen (fab-short-sad-reign-of-aegon-ii-19:25)
+- His allegiance uncertain, he was courted with pardons then threatened with Baela's execution, and he gathered ships to attack Dragonstone (fab-short-sad-reign-of-aegon-ii-19:87)
+- The Sea Snake's heir, he sent the king home aboard the humble cog Mouse — a deliberate slight, Mushroom claims (fab-short-sad-reign-of-aegon-ii-19:89)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Baseborn Alyn of Hull, son of Marilda ("Mouse"), was the Sea Snake's chosen heir; his succession was contested by Velaryon nephews (fab-the-hooded-hand-21:165)
+- Installed as Lord of the Tides and Master of Driftmark, he rode to King's Landing to claim Corlys's regent seat but was sent home at sixteen (fab-the-hooded-hand-21:171)
+- He wed the fugitive Baela Targaryen at Dragonstone (fab-the-hooded-hand-21:227)
+- He rewarded the reconciled claimants Daemion and Daeron with lands for ships (fab-the-hooded-hand-21:167)

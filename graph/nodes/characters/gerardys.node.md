@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gerardys
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -56,3 +56,8 @@ By [120 AC](wiki:120_AC), Gerardys was already an older man renowned for his sk
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
 
 - Maester Gerardys, Rhaenyra's trusted counselor, tried to restrain her in her labor and noted that Aegon too had dragons (fab-the-blacks-and-the-greens-16-p01:187)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Grand Maester Gerardys served on Dragonstone; Rhaenyra sent to him for a ship and, receiving no reply, again questioned his loyalty. (fab-rhaenyra-overthrown-18-p02:165)
+- Surprised in his rookery by Marston Waters, he was later hanged with the chain Rhaenyra had given him, thrice let down, then disembowelled and fed to Sunfyre. (fab-rhaenyra-overthrown-18-p02:281)

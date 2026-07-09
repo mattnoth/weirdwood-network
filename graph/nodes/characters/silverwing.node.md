@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Silverwing"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Silverwing is a dragon from the AWOIAF wiki.
+Silverwing, Good Queen Alysanne’s mount of old and Ulf White's dragon, took to the sky as the carnage began and circled for hours.
 
 ## Edges
 
@@ -70,3 +70,11 @@ While riding in the chain winch at the [Wall](wiki:Wall), [Samwell Tarly](wiki:S
 
 Send me to the ends of the earth and wed me to the King of [Mossovy](wiki:Mossovy) or the Lord of the [Grey Waste](wiki:Grey_Waste), Silverwing will always bring me back to [Jaehaerys](wiki:Jaehaerys_I_Targaryen).(wiki:Silverwing.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 Silverwing had carried her to [Oldtown](wiki:Oldtown), to the [Wall](wiki:Wall), and to a thousand places in between, and Alysanne saw them all as few others ever would, looking down from above the clouds.(wiki:Silverwing.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Silverwing, Good Queen Alysanne’s mount of old and Ulf White's dragon, took to the sky as the carnage began and circled for hours. (fab-rhaenyra-overthrown-18-p02:133)
+- Singers tell she thrice lifted Vermithor's wing with her nose, though Gyldayn deems this a fable. (fab-rhaenyra-overthrown-18-p02:133)
+- Three men who tried to claim her were maimed or killed. (fab-rhaenyra-overthrown-18-p02:149)

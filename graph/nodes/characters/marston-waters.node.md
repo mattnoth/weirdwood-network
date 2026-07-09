@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Marston_Waters"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Marston Waters is a character from the AWOIAF wiki.
+Marston Waters — Ser Marston Waters was the bastard son of Tom Tanglebeard’s sister by the knight who took her maidenhead.
 
 ## Edges
 
@@ -68,3 +68,16 @@ Marston: We are the both of us [bastards](wiki:Bastard) and [Sworn Brothers](wik
 ## Quotes
 
 [His Grace my brother](wiki:Aegon_III_Targaryen) can command me. You cannot.(wiki:Marston_Waters.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Ser Marston Waters was the bastard son of Tom Tanglebeard’s sister by the knight who took her maidenhead. (fab-rhaenyra-overthrown-18-p02:237)
+- He wrenched Broome's blade away to spare Lady Baela, and King Aegon named him to the Kingsguard for his valor. (fab-rhaenyra-overthrown-18-p02:299)
+- He surprised Grand Maester Gerardys in the rookery so no raven could escape. (fab-rhaenyra-overthrown-18-p02:251)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Ser Marston returned alone from Lys, accepted a pardon, and reported the Triarchy's collapse (fab-the-hooded-hand-21:27)
+- He was made second to the Lord Commander of the Kingsguard (fab-the-hooded-hand-21:59)

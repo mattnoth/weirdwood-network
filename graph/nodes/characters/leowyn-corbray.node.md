@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Leowyn_Corbray"
 bucket_id: characters-house-corbray
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Leowyn Corbray is a character.human from the AWOIAF wiki.
+Leowyn Corbray — Named Protector of the Realm, a "black" and brother of Ser Corwyn.
 
 ## Edges
 
@@ -38,3 +38,10 @@ Leowyn, as a supporter of the [black](wiki:Blacks) faction, was named [Protector
 ## Appearances & Description
 
 According to the [court fool](wiki:Court_fool) [Mushroom](wiki:Mushroom), Leowyn was thick of neck and thick of wit, and farted loudly.(wiki:Leowyn_Corbray.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Named Protector of the Realm, a "black" and brother of Ser Corwyn (fab-the-hooded-hand-21:59)
+- Dominated by Tyland, he died of Winter Fever in his chambers (fab-the-hooded-hand-21:317)

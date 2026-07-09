@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Black_Trombo"
 bucket_id: characters-house-vance-of-wayfarers-rest
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Black Trombo is a character.human from the AWOIAF wiki.
+Black Trombo, a Myrish sellsword who came with Hugo Vance's men, claimed far and wide to have slain Prince Daeron with his morningstar.
 
 ## Edges
 
@@ -28,3 +28,9 @@ Black Trombo was a [mummer](wiki:Mummer) before he became a [sellsword](wiki:Sel
 During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Black Trombo led a company of Myrish sellswords hired by Lord [Hugo Vance](wiki:Hugo_Vance_(lord)). Trombo arranged the ambush of Ser [Criston Cole](wiki:Criston_Cole)'s outriders at [Crossed Elms](wiki:Crossed_Elms), during which [blacks](wiki:Blacks) disguised as corpses killed a dozen [greens](wiki:Greens). This led to Cole's dwindling and exhausted army being destroyed at the [Butcher's Ball](wiki:Butcher's_Ball) - though it is unclear if Trombo was present at this final assault.(wiki:Black_Trombo.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 Black Trombo's sellswords from [Myr](wiki:Myr) accompanied three hundred [Wayfarer's Rest](wiki:Wayfarer's_Rest) men led by Lord Hugo to the host of Ser [Addam Velaryon](wiki:Addam_Velaryon). The Myrish claimed that he slew Prince [Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)) during the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton) by smashing Daeron's face in with a swing of his spiked [morningstar](wiki:Armament).(wiki:Black_Trombo.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Black Trombo survived the battle, but his fate after that has not been stated: afterwards the river lords' army advanced on King's Landing culminating in the [Battle of the Kingsroad](wiki:Battle_of_the_Kingsroad), the last battle of the war, but Trombo is not mentioned during these events.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Black Trombo, a Myrish sellsword who came with Hugo Vance's men, claimed far and wide to have slain Prince Daeron with his morningstar. (fab-rhaenyra-overthrown-18-p02:87)

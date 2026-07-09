@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Borros_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -97,3 +97,11 @@ Born between 64 and 104 AC — the track_b data gives two Born values. Died 131 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
 
 - He rejected Rhaenyra's suit once Luke refused to marry a daughter (fab-the-blacks-and-the-greens-16-p02:219)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Borros Baratheon, Lord of Storm's End, left his pregnant wife and four daughters to march north on hearing of the queen's death (fab-short-sad-reign-of-aegon-ii-19:37)
+- He received the envoys, agreed to wed his daughters to king and Clubfoot, then retook King's Landing and put down the two remaining kings (fab-short-sad-reign-of-aegon-ii-19:49)
+- In council he scorned reconciliation and urged war (fab-short-sad-reign-of-aegon-ii-19:147)
+- He led the doomed charge at the Muddy Mess, was unhorsed, and slew a dozen knights and the Lords Mallister and Darry before Kermit Tully killed him (fab-short-sad-reign-of-aegon-ii-19:225)
+- Seven days later his widow bore his heir, naming him Royce rather than Aegon (fab-short-sad-reign-of-aegon-ii-19:293)

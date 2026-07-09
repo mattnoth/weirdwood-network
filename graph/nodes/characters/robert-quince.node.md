@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Quince"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -47,3 +47,10 @@ Robert was able, amiable, old and famously obese. He was a steadfast supporter o
 - The amiable and famously obese knight whom the queen named castellan of Dragonstone on her departure (fab-the-red-dragon-and-the-gold-17-p04:55)
 - He was quick to name the Cannibal as Grey Ghost's killer and forbade fishing beneath the Dragonmont's eastern face (fab-the-red-dragon-and-the-gold-17-p04:55)
 - He confined his restless charge Baela to her chambers when she tried to fly to the dead dragon (fab-the-red-dragon-and-the-gold-17-p04:71)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Ser Robert Quince, "an able man grown old and fat," was the steadfast castellan Rhaenyra set over Dragonstone's small garrison. (fab-rhaenyra-overthrown-18-p02:247)
+- He had blamed the Cannibal for Grey Ghost's death. (fab-rhaenyra-overthrown-18-p02:237)
+- His charred corpse, burned beyond recognition, was later found hanging from the gatehouse. (fab-rhaenyra-overthrown-18-p02:191)
+- He was killed in his bed by Ser Alfred Broome's spear thrust, which pinned him to the floor. (fab-rhaenyra-overthrown-18-p02:251)

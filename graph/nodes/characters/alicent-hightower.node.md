@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alicent_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 7
+node_version: 10
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -127,3 +127,25 @@ And so each of [the conspirators](wiki:Green_council) slashed their palms and cl
 - Queen Dowager, mother of Aegon II; declared a traitor by Rhaenyra. She took residence in the Tower of the Hand after King Viserys's death (fab-the-blacks-and-the-greens-16-p02:267)
 - She went pale at Aemond's deed (fab-the-blacks-and-the-greens-16-p02:251)
 - She commanded Larys Clubfoot to learn Blood's true name so she might bathe in his family's blood (fab-the-blacks-and-the-greens-16-p02:277)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Dowager Queen of House Hightower and Helaena's mother, who cursed her rival on learning of her daughter's death (fab-rhaenyra-overthrown-18-p01:41)
+- Gyldayn reasons that had Rhaenyra meant murder, Alicent would have been the one flung down (fab-rhaenyra-overthrown-18-p01:39)
+- She was on hand when Trystane mounted the throne (fab-rhaenyra-overthrown-18-p01:259)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- The Dowager Queen Alicent went with Larys and Orwyle to parley with Borros, and wept with joy at news that her granddaughter Jaehaera was safe at Storm's End (fab-short-sad-reign-of-aegon-ii-19:45)
+- She wanted the Sea Snake dead and was outraged by his demands, Munkun tells us, having lost two of three sons and her only daughter in the Dance (fab-short-sad-reign-of-aegon-ii-19:83)
+- She ruled as proxy, proclaiming a curfew in her son's name and pardoning Corlys (fab-short-sad-reign-of-aegon-ii-19:77)
+- She urged her son to vengeance and to mutilate his hostage Prince Aegon (fab-short-sad-reign-of-aegon-ii-19:243)
+- She was arrested by Velaryon men and returned to the dungeons as her last son died (fab-short-sad-reign-of-aegon-ii-19:265)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- The Dowager Queen, second wife of Viserys I and mother of Aegon, Aemond, Daeron, and Helaena, refused to reconcile with the new king (fab-the-hooded-hand-21:93)
+- She raged, once telling little Jaehaera to cut her sleeping husband's throat (fab-the-hooded-hand-21:93)
+- Tyland confined her to Maegor's Holdfast (fab-the-hooded-hand-21:93)
+- She grew averse to the color green and, more lucid at the last, spoke of her children and of the Old King Jaehaerys (fab-the-hooded-hand-21:319)
+- She died of Winter Fever the same night as Lord Westerling (fab-the-hooded-hand-21:319)

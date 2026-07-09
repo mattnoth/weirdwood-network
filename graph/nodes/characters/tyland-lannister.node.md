@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyland_Lannister"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -89,3 +89,23 @@ A monster who hides his twisted face from [gods](wiki:Gods) and men.(wiki:Tyland
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->
 
 - Aegon II's master of coin, who shipped away three-quarters of Viserys's wealth "for safekeeping" (fab-the-red-dragon-and-the-gold-17-p03:29)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Ser, King Aegon's former master of coin, found still alive in the black cells (fab-rhaenyra-overthrown-18-p01:259)
+- Rhaenyra's torturers had blinded and gruesomely mutilated him (fab-rhaenyra-overthrown-18-p01:259)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Ser Tyland Lannister, the blind master of coin, had placed three-quarters of the Crown's wealth beyond Rhaenyra's reach (fab-short-sad-reign-of-aegon-ii-19:149)
+- He urged hiring sellswords and, more harshly, the immediate execution of Prince Aegon (fab-short-sad-reign-of-aegon-ii-19:163)
+- He was dispatched across the narrow sea to seek sellswords and had not returned (fab-short-sad-reign-of-aegon-ii-19:231)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Ser Tyland, recently returned from Myr, was named Hand of the King (fab-the-hooded-hand-21:59)
+- Blinded and disfigured by Queen Rhaenyra's torturers, he wore a silken hood, earning the name the Hooded Hand and smallfolk tales of a masked sorcerer (fab-the-hooded-hand-21:85)
+- He confined the Dowager Queen, abolished Rhaenyra's taxes, set aside a million dragons in loans, and funded granaries and war galleys (fab-the-hooded-hand-21:97)
+- He died at the end, after the fever had passed, his last words a complaint of cold (fab-the-hooded-hand-21:339)
+- He claimed to have forgotten who was black or green and served the son of the queen who had tortured him (fab-the-hooded-hand-21:87)
+- He came to dominate Leowyn Corbray and gathered power as the regents met less often (fab-the-hooded-hand-21:87)

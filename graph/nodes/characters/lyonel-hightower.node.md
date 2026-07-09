@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lyonel_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lyonel Hightower is a character.human from the AWOIAF wiki.
+Lyonel Hightower — Ormund's eldest son, a youth of fifteen, inherited the Hightower and first swore to write his reply in the Sea Snake's blood.
 
 ## Edges
 
@@ -55,3 +55,11 @@ Lord [Torrhen Manderly](wiki:Torrhen_Manderly), the [Hand of the King](wiki:Hand
 ### Later life
 
 A [new High Septon](wiki:High_Septon_(Aegon_III)) eventually reversed the position of his predecessor, allowing Lyonel to marry Sam, and by the same occasion [legitimized](wiki:Bastardy) their six chidren.(wiki:Lyonel_Hightower.cite_ref-6)(wiki:Lyonel_Hightower.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Ormund's eldest son, a youth of fifteen, inherited the Hightower and first swore to write his reply in the Sea Snake's blood (fab-hour-of-the-wolf-20:159)
+- He kept her as his paramour thirteen years, fathering six children, before finally wedding her (fab-hour-of-the-wolf-20:169)
+- (Per Munkun) Munkun tells it differently: the Tyrells forbade him to go to war on pain of his brother Garmund's life (fab-hour-of-the-wolf-20:285)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -263,3 +263,22 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 - Though he lived, all joy left him and he blamed himself for abandoning his little brother Viserys (fab-the-red-dragon-and-the-gold-17-p02:49)
 - Rhaenyra's son, only nine, was aboard the captured cog Gay Abandon and escaped by leaping onto his dragon Stormcloud, reaching Dragonstone white with terror (fab-the-red-dragon-and-the-gold-17-p02:21)
 - He had never flown before and would never fly again, for Stormcloud died of its wounds (fab-the-red-dragon-and-the-gold-17-p02:21)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- After Joffrey's death he was her last living son, whom she clutched fiercely (fab-rhaenyra-overthrown-18-p01:229)
+- He fled the city with her (fab-rhaenyra-overthrown-18-p01:247)
+- Rhaenyra's son, ever at his mother's side and seldom speaking a word (fab-rhaenyra-overthrown-18-p01:101)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- The king refused to let him wed Jaehaera or father children, decreeing his line must end (fab-short-sad-reign-of-aegon-ii-19:161)
+- Freed in the coup, he was proclaimed king on his uncle's death and wed Jaehaera in 131 AC, beginning his melancholy reign (fab-short-sad-reign-of-aegon-ii-19:291)
+- Prince Aegon the Younger, Rhaenyra's son, was held captive at Aegon II's court and named as a proposed heir (fab-short-sad-reign-of-aegon-ii-19:117)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- The fourthborn son of Rhaenyra Targaryen, and her eldest by Prince Daemon, he came to the Iron Throne in 131 AC as a boy of ten and reigned twenty-six years until dying of consumption in 157 AC (fab-hour-of-the-wolf-20:21)
+- Grand Maester Munkun calls him the Broken King, and the smallfolk name him the Dragonbane; he was a joyless man who drank no wine and wore a hair shirt beneath his velvets (fab-hour-of-the-wolf-20:21)
+- As his reign began he was confined to Maegor's Holdfast by Cregan Stark with only the boy Gaemon Palehair for company (fab-hour-of-the-wolf-20:137)
+- Though uncrowned and only ten, he moved to spare Corlys Velaryon and restore him to the small council (fab-hour-of-the-wolf-20:207)

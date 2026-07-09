@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Johanna_Lannister"
 bucket_id: characters-house-westerling
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Johanna Lannister is a character.human from the AWOIAF wiki.
+Johanna Lannister — Jason Lannister's widow and daughter of Roland Westerling, she ruled the west and, pressed by the Red Kraken's raids, agreed to all the Sea Snake's terms.
 
 ## Edges
 
@@ -43,3 +43,16 @@ Johanna donned mail to lead the remaining Lannister forces in the struggle to dr
 There was a [struggle for power](wiki:Struggle_for_power) among the ironborn after the Red Kraken was murdered at [Faircastle](wiki:Faircastle) a few years later. Since the Lannister fleet had been destroyed by the [Greyjoys](wiki:House_Greyjoy), Johanna allied with the [lord admiral](wiki:Lord_admiral) of the [Reach](wiki:Reach), Ser [Leo Costayne](wiki:Leo_Costayne), to have the westermen invade the [Iron Islands](wiki:Iron_Islands) in [134 AC](wiki:134_AC). When [Rodrik Greyjoy](wiki:Rodrik_Greyjoy_(son_of_Dalton)) was taken to Casterly Rock as a captive, Johanna had him [gelded](wiki:Eunuch) and made him her son's [fool](wiki:Fool).(wiki:Johanna_Lannister.cite_ref-Rtwoiafthe_iron_islands:_the_red_kraken.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Johanna_Lannister.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 
 Johanna reclaimed the dwindling glory of [House Lannister](wiki:House_Lannister) and also lent gold to [King's Landing](wiki:King's_Landing) to help rebuild the extensive damages caused by the previous civil war.(wiki:Johanna_Lannister.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)(wiki:Johanna_Lannister.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Jason Lannister's widow and daughter of Roland Westerling, she ruled the west and, pressed by the Red Kraken's raids, agreed to all the Sea Snake's terms (fab-hour-of-the-wolf-20:149)
+- She promised to deliver two daughters as companions and hostages and to restore the Crown's gold (fab-hour-of-the-wolf-20:151)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Widow of Casterly Rock, daughter of Roland Westerling, Johanna ruled for her son Lord Loreon and resisted Dalton Greyjoy's ironborn (fab-the-hooded-hand-21:103)
+- She appealed repeatedly to the Hand, her late husband's twin, for aid (fab-the-hooded-hand-21:267)
+- Donning a man's mail, she led the westermen to rout the raiders and save Kayce, though the songs of her slaying a dozen ironmen are dismissed (fab-the-hooded-hand-21:267)

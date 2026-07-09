@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Orwyle"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -57,3 +57,15 @@ When Tyland died from the disease, the young King [Aegon III Targaryen](wiki:Aeg
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->
 
 - Grand Maester who urged Aemond to seek Baratheon aid, then was seized by gold cloaks and taken to the black cells when he tried to summon Alicent's loyal lords (fab-the-red-dragon-and-the-gold-17-p02:125)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Grand Maester who spoke for Aegon II's court hailing the riverlords, then confessed under torture to supplying the poison to Larys Strong (fab-hour-of-the-wolf-20:183)
+- Sentenced to death, he too was spared to take the black, and in the dungeons had begun the confessions that founded Munkun's *True Telling* (fab-hour-of-the-wolf-20:141)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Former Grand Maester, condemned to the Wall, Orwyle bribed a guard and fled into the city as a beggar (fab-the-hooded-hand-21:77)
+- Discovered in a brothel called Mother's under the name Old Wyl, he was arrested after teaching girls to read (fab-the-hooded-hand-21:145)
+- During the fever he worked tirelessly to save the sick (fab-the-hooded-hand-21:331)
+- Tyland, an old green-council comrade, spared him and confined him to a comfortable cell, where he wrote confessions that fed Munkun's True Telling (fab-the-hooded-hand-21:151)

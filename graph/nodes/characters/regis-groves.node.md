@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Regis_Groves"
 bucket_id: characters-house-groves
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Regis Groves is a character.human from the AWOIAF wiki.
+Regis Groves — Ser Regis, a Kingsguard knight, was entrusted with reclaiming Harrenhal and set out with fifty men, joined by Ser Damon Darry.
 
 ## Edges
 
@@ -39,3 +39,10 @@ Regis's death disturbed Tyland, and [Aegon's regents](wiki:Regency_of_Aegon_III)
 > I do not kneel to [bastards](wiki:Bastards), much less [the baseborn whelp](wiki:Alys_Rivers's_son) of [a kinslayer](wiki:Aemond_Targaryen) and [a milk cow](wiki:Wet_nurse).(wiki:Regis_Groves.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
 > —Regis to [Alys Rivers](wiki:Alys_Rivers)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Ser Regis, a Kingsguard knight, was entrusted with reclaiming Harrenhal and set out with fifty men, joined by Ser Damon Darry (fab-the-hooded-hand-21:277)
+- Refusing to kneel to Alys Rivers's boy, he was killed instantly before the walls (fab-the-hooded-hand-21:291)

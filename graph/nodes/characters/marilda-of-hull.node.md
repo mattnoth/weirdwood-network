@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Marilda_of_Hull"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Marilda of Hull is a character.human from the AWOIAF wiki.
+Marilda of Hull, called Mouse, was the shipwright's daughter and mother of Addam and Alyn.
 
 ## Edges
 
@@ -46,3 +46,10 @@ When Alyn Oakenfist led a fleet of merchantmen to [Dorne](wiki:Dorne) and the [F
 ## Appearances & Description
 
 A pretty woman, Marilda was known as Mouse because she was "[small, quick, and always underfoot](wiki:Mouse)" as a girl.(wiki:Marilda_of_Hull.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) She was intelligent and adventurous.(wiki:Marilda_of_Hull.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Marilda of Hull, called Mouse, was the shipwright's daughter and mother of Addam and Alyn (fab-short-sad-reign-of-aegon-ii-19:25)
+- She owned and captained the battered cog Mouse that bore the king home (fab-short-sad-reign-of-aegon-ii-19:89)

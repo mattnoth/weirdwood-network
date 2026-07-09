@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Bartimos_Celtigar"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -44,3 +44,8 @@ After the [Treasons of Tumbleton](wiki:Treasons_of_Tumbleton) by the [Two Betray
 - Lord of Claw Isle, the queen's master of coin, called staunch, incorruptible, ingenious, and wealthy (fab-the-red-dragon-and-the-gold-17-p03:27)
 - He restored his ancestor Lord Edwell's taxes and heaped on new levies, doubling wine and ale taxes and tripling port fees (fab-the-red-dragon-and-the-gold-17-p03:33)
 - He made executions a source of coin in the Dragonpit at three pennies to enter (fab-the-red-dragon-and-the-gold-17-p03:43)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Lord and the queen's master of coin, who proposed a tax on bastards (fab-rhaenyra-overthrown-18-p01:17)
+- His manse was overrun; he was bound to a post and tortured until he revealed his hidden wealth (fab-rhaenyra-overthrown-18-p01:49)

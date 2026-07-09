@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ummet
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Ummet, the king's grossly fat food taster, was murdered in the coup according to Mushroom.
 
 ## Origins
 
@@ -32,3 +36,10 @@ Ummet was a grossly fat man.(wiki:Ummet.cite_ref-Rfabthe_dying_of_the_dragons_-_
 ## Notes
 
 Died 131 AC (track_b: Died).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Ummet, the king's grossly fat food taster, was murdered in the coup according to Mushroom (fab-short-sad-reign-of-aegon-ii-19:259)
+- Gyldayn names him a likelier poisoner of the king than the Kingsguard (fab-short-sad-reign-of-aegon-ii-19:277)

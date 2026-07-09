@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Kermit_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Kermit Tully — Ser Kermit Tully became Lord of Riverrun on his father Elmo's death, a wild and headstrong youth.
 
 ## Origins
 
@@ -55,3 +59,15 @@ Kermit was a vital and bold leader.(wiki:Kermit_Tully.cite_ref-Rtwoiafthe_riverl
 - KILLS: Borros Baratheon (wiki:Kermit_Tully) — at the Battle of the Kingsroad
 - FIGHTS_IN: Battle of the Kingsroad (wiki:Kermit_Tully)
 - OPPOSES: Cregan Stark (wiki:Kermit_Tully) — during the Hour of the Wolf
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Ser Kermit Tully became Lord of Riverrun on his father Elmo's death, a wild and headstrong youth (fab-short-sad-reign-of-aegon-ii-19:205)
+- At the Muddy Mess he called on Borros to yield and, when the lord charged, killed him with his morningstar (fab-short-sad-reign-of-aegon-ii-19:225)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Lord of Riverrun, aged nineteen and "green as summer grass", he was liege lord and nominal commander of the riverlords' host (fab-hour-of-the-wolf-20:31)
+- He warned Stark that Storm's End, Oldtown, and Casterly Rock would not fall easily, but ultimately yielded and joined his power to Stark's (fab-hour-of-the-wolf-20:177)

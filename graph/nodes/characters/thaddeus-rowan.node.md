@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Thaddeus_Rowan"
 bucket_id: characters-house-rowan
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Thaddeus Rowan is a character.human from the AWOIAF wiki.
+Thaddeus Rowan — Lord of Goldengrove, twice-widowed with seven sons, chosen as Baela's match for the value of his all-male issue.
 
 ## Edges
 
@@ -48,3 +48,10 @@ By [132 AC](wiki:132_AC), Thaddeus had become bald and plump.(wiki:Thaddeus_Row
 Thaddeus was bluff, cheerful, brave, honest, dutiful and well-liked, well-regarded, and well-respected.(wiki:Thaddeus_Rowan.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)(wiki:Thaddeus_Rowan.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) He was a proud and just man, but neither arrogant nor vindictive. He was loyal to his friends, and not overly ambitious. He fought ably and with valor.(wiki:Thaddeus_Rowan.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 
 Lord Rowan was considered a doting husband and a good father.(wiki:Thaddeus_Rowan.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Lord of Goldengrove, twice-widowed with seven sons, chosen as Baela's match for the value of his all-male issue (fab-the-hooded-hand-21:217)
+- Rejected by Baela's flight, his pride was appeased by betrothal to Floris Baratheon (fab-the-hooded-hand-21:233)

@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Morghul"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Morghul is a character.dragon from the AWOIAF wiki.
+Morghul — A pit dragon slain by the Burning Knight, who thrust a spear into the beast's eye even as its flame devoured him.
 
 ## Edges
 
@@ -29,3 +29,9 @@ Morgul stayed in the [Dragonpit](wiki:Dragonpit) alongside [Dreamfyre](wiki:Drea
 ## Appearances & Description
 
 Morghul's coloring is not stated in the books. However, he is depicted as "black" in an illustration from *[The Rise of the Dragon](wiki:The_Rise_of_the_Dragon)*, as confirmed by the artist Campbell White.(wiki:Morghul.cite_ref-Rtrotd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Morghul.cite_ref-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- A pit dragon slain by the Burning Knight, who thrust a spear into the beast's eye even as its flame devoured him (fab-rhaenyra-overthrown-18-p01:199)

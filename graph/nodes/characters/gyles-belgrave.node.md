@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gyles_Belgrave"
 bucket_id: characters-house-belgrave
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Gyles Belgrave is a character.human from the AWOIAF wiki.
+Gyles Belgrave — Ser Gyles Belgrave of the Kingsguard commanded the king's escort and testified to his grey and ashen look.
 
 ## Edges
 
@@ -47,3 +47,15 @@ On the day scheduled for the executions, most of those condemned chose to [take 
 > No [knight](wiki:Knight) of the [Kingsguard](wiki:Kingsguard) should outlive [his king](wiki:Aegon_II_Targaryen) when that king dies [by violence](wiki:Poison).(wiki:Gyles_Belgrave.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >
 > —[Cregan Stark](wiki:Cregan_Stark) to Gyles
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Ser Gyles Belgrave of the Kingsguard commanded the king's escort and testified to his grey and ashen look (fab-short-sad-reign-of-aegon-ii-19:267)
+- He found the king dead in the litter with blood on his lips (fab-short-sad-reign-of-aegon-ii-19:275)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Ser Gyles of the Kingsguard was condemned for allowing the poisoning through carelessness or blindness, and refused to exchange his white cloak for black (fab-hour-of-the-wolf-20:271)
+- He was one of only two men to die that day, beheaded with Ice (fab-hour-of-the-wolf-20:271)

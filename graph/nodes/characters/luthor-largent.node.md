@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Luthor_Largent"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -54,3 +54,9 @@ The Captain of the [Old Gate](wiki:Old_Gate), Ser [Balon Byrch](wiki:Balon_Byrch
 
 - The commander of the gold cloaks killed Alicent's brother Gwayne when he denounced him as a turncloak, then opened the gates (fab-the-red-dragon-and-the-gold-17-p02:127)
 - He was ennobled by Rhaenyra afterward (fab-the-red-dragon-and-the-gold-17-p02:237)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Ser; commander of the gold cloaks, named in rumor as Helaena's killer, though he was demonstrably eating with three hundred gold cloaks at the time (fab-rhaenyra-overthrown-18-p01:39)
+- He led the City Watch against the Shepherd's mob at Cobbler's Square (fab-rhaenyra-overthrown-18-p01:63)
+- His men were swept under and he was pulled from his saddle and bludgeoned to death with a cobblestone (fab-rhaenyra-overthrown-18-p01:79)

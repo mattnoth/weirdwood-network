@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elmo_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Elmo Tully — Ser Elmo Tully, "that reluctant warrior," called House Tully's banners for the queen in defiance of his bedridden grandsire Lord Grover, after Seasmoke descended on Riverrun.
 
 ## Origins
 
@@ -45,3 +49,15 @@ A reluctant and pragmatic warrior, [Archmaester](wiki:Archmaester) [Gyldayn](wik
 - PARENT_OF (reverse): Grover Tully is grandparent (track_b: Father)
 - PARENT_OF: Kermit Tully (track_b: Issue)
 - PARENT_OF: Oscar Tully (track_b: Issue)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Ser Elmo Tully, "that reluctant warrior," called House Tully's banners for the queen in defiance of his bedridden grandsire Lord Grover, after Seasmoke descended on Riverrun. (fab-rhaenyra-overthrown-18-p02:63)
+- He is reported to have quipped about a dragon in the courtyard. (fab-rhaenyra-overthrown-18-p02:63)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- He died on the march after only nine-and-forty days as lord (fab-short-sad-reign-of-aegon-ii-19:205)
+- Elmo, grandson of Grover Tully, became Lord of Riverrun and called the lords of the Trident to war (fab-short-sad-reign-of-aegon-ii-19:123)

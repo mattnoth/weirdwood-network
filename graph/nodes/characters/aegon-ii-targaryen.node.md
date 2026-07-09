@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 7
+node_version: 10
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -169,3 +169,24 @@ It was widely known that the promiscuous Aegon had fathered several [bastards](w
 - Rhaenyra's half-brother and rival king; he had seized the treasury with the crown, leaving her empty vaults (fab-the-red-dragon-and-the-gold-17-p03:29)
 - He had Lord Caswell beheaded for refusing to renounce the queen (fab-the-red-dragon-and-the-gold-17-p03:61)
 - He remained alive and free, the king Criston Cole had made (fab-the-red-dragon-and-the-gold-17-p03:153)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- King Aegon II had been spirited out of King's Landing by Larys Strong and hidden on Dragonstone in a fisherman's cloak amid a load of codfish. (fab-rhaenyra-overthrown-18-p02:225)
+- Reunited with the maimed Sunfyre, he retook Dragonstone in under an hour, shattering both legs leaping from the saddle. (fab-rhaenyra-overthrown-18-p02:271)
+- He had Grand Maester Gerardys slowly hanged and disembowelled, and refused milk of the poppy from him. (fab-rhaenyra-overthrown-18-p02:275)
+- He delivered his half-sister to his dragon and spared her son Prince Aegon as a hostage. (fab-rhaenyra-overthrown-18-p02:311)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- King Aegon II, Second of His Name, proclaimed victory on Dragonstone after Sunfyre devoured Rhaenyra (fab-short-sad-reign-of-aegon-ii-19:17)
+- He returned to King's Landing aboard the cog Mouse in the waning days of 130 AC and, unable to climb the Iron Throne, held court from a cushioned wooden seat at its base (fab-short-sad-reign-of-aegon-ii-19:93)
+- He judged and destroyed the three "dayfly kings," burned the Shepherd with his own hand, and pursued vengeance on the crownlands (fab-short-sad-reign-of-aegon-ii-19:113)
+- He was found dead of poison in his litter, having lived four-and-twenty years and reigned two (fab-short-sad-reign-of-aegon-ii-19:279)
+- According to Mushroom, his burns had rendered him impotent, though he still watched his favorites couple from behind a curtain and wept afterward (fab-short-sad-reign-of-aegon-ii-19:187)
+- His leap from Sunfyre's back at Dragonstone had broken his right leg in two places and shattered the left, leaving him unable to walk, and burns from Rook's Rest scarred half his body (fab-short-sad-reign-of-aegon-ii-19:187)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- His murder was judged high treason, the crux of Cregan Stark's inquiries (fab-hour-of-the-wolf-20:177)
+- The dead king, poisoned; his body lay upon a bier beneath the Iron Throne with his mother Queen Alicent weeping beside it, and was consigned to the flames (fab-hour-of-the-wolf-20:61)

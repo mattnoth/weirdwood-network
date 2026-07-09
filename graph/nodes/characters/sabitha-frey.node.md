@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Sabitha_Frey"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -53,3 +53,7 @@ In [136 AC](wiki:136_AC), Lord [Torrhen Manderly](wiki:Torrhen_Manderly) and Aeg
 
 - Lady who seized empty Harrenhal three days after Criston Cole left, finding Alys Rivers within (fab-the-red-dragon-and-the-gold-17-p03:105)
 - She saved herself from Aemond's fire in a privy and fled to the Twins (fab-the-red-dragon-and-the-gold-17-p03:155)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Lady of the Twins, widow of Lord Forrest Frey and mother of his heir; of House Vypren. According to Mushroom she was a sharp-tongued harridan who wore mail and was fond of killing men and kissing women (fab-hour-of-the-wolf-20:49)

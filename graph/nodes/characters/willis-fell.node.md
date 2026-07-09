@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Willis_Fell"
 bucket_id: characters-house-fell
 prompt_version: v1-python
-node_version: 1
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Willis Fell is a character.human from the AWOIAF wiki.
+Willis Fell — Ser Willis Fell of the Kingsguard delivered Princess Jaehaera safely to Storm's End.
 
 ## Edges
 
@@ -48,3 +48,18 @@ When the [Winter Fever](wiki:Winter_Fever) struck the capital in [133 AC](wiki:
 > The girl is wild, willful, and wanton, as we feared, and now she has attached herself to Lord [Corlys'](wiki:Corlys_Velaryon) upjumped [bastard](wiki:Bastard). A [snake](wiki:Snake) for a sire, [a mouse](wiki:Marilda_of_Hull) for a mother… is this to be our prince consort?(wiki:Willis_Fell.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >
 > —Willis, after [Baela Targaryen](wiki:Baela_Targaryen) wed [Alyn Velaryon](wiki:Alyn_Velaryon)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Ser Willis Fell of the Kingsguard delivered Princess Jaehaera safely to Storm's End (fab-short-sad-reign-of-aegon-ii-19:45)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Ser Willis Fell was the guardian escorting the eight-year-old Princess Jaehaera to King's Landing (fab-hour-of-the-wolf-20:155)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- The sole survivor of Viserys's Kingsguard, made Lord Commander of the White Swords (fab-the-hooded-hand-21:59)
+- He argued for Rhaena as heir and died of the fever (fab-the-hooded-hand-21:317)

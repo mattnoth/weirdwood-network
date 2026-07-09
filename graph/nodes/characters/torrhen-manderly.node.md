@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Torrhen_Manderly"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Torrhen Manderly is a character from the AWOIAF wiki.
+Torrhen Manderly — Ser, who led his northmen down the Hook and found Fishermonger's Square swarming with Perkin's gutter knights.
 
 ## Edges
 
@@ -57,3 +57,10 @@ With Aegon III's [sixteenth nameday](wiki:Age_of_majority) approached, Torrhen m
 Best take no chances. If [the foe](wiki:Greens) gains two more [dragons](wiki:Dragon), [we](wiki:Blacks) are lost.(wiki:Torrhen_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
 Aye, I'll [do it](wiki:Hand_of_the_King). But I'll need a man who is good with [coin](wiki:Currency) if I'm to deal with these [Lyseni thieves](wiki:House_Rogare) and their bloody [bank](wiki:Rogare_Bank).(wiki:Torrhen_Manderly.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 A [king](wiki:King) should have a [Hand](wiki:Hand_of_the_King) of his own choosing. You have served [me](wiki:Aegon_III_Targaryen) well, no doubt, as you served [my mother](wiki:Rhaenyra_Targaryen) before me, but it was [my lords who chose you](wiki:Great_Council). You may return to [White Harbor](wiki:White_Harbor).(wiki:Torrhen_Manderly.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Ser, who led his northmen down the Hook and found Fishermonger's Square swarming with Perkin's gutter knights (fab-rhaenyra-overthrown-18-p01:91)
+- He lost a quarter of his men fighting back to the Red Keep (fab-rhaenyra-overthrown-18-p01:91)

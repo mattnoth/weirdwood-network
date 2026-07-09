@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Alfred_Broome"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alfred Broome is a character from the AWOIAF wiki.
+Alfred Broome — Ser Alfred Broome, most senior knight at Dragonstone since the Old King's reign, was passed over for castellan and betrayed the queen for a promise of lordship, lands, and gold.
 
 ## Edges
 
@@ -35,3 +35,17 @@ Unbeknownst to Rhaenyra, Aegon and later his [dragon](wiki:Dragon), [Sunfyre](wi
 When Rhaenyra and her few remaining companions [returned to Dragonstone](wiki:Flight_to_Dragonstone) after the [storming of the Dragonpit](wiki:Storming_of_the_Dragonpit), Alfred led the forty-strong escort that accompanied her from the port to the castle. When they arrived at the castle, Rhaenyra was shocked to see the charred corpse of Robert. Alfred had his men slay Rhaenyra's remaining [Queensguard](wiki:Queensguard)—Ser [Harrold Darke](wiki:Harrold_Darke), Ser [Adrian Redfort](wiki:Adrian_Redfort), and Ser [Loreth Lansdale](wiki:Loreth_Lansdale)—although the latter knight slew two of Alfred's guards. Alfred's cloak caught fire when Sunfyre bathed Rhaenyra with flame. Alfred advised Aegon II to kill Rhaenyra's son, [Aegon III Targaryen](wiki:Aegon_III_Targaryen), but the king decided to keep the boy as a hostage.(wiki:Alfred_Broome.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 Ser Alfred accompanied Aegon II when the king returned to King's Landing. He beheaded [Trystane Truefyre](wiki:Trystane_Truefyre) after the latter was sentenced to die for treason.(wiki:Alfred_Broome.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 Ser Alfred was present at the [council](wiki:Small_council) meeting following the [green](wiki:Greens) defeat at the [Battle of the Kingsroad](wiki:Battle_of_the_Kingsroad). After Aegon II refused to surrender and Queen [Alicent Hightower](wiki:Alicent_Hightower) suggested mutilating one of the ears of the hostage [Aegon the Younger](wiki:Aegon_the_Younger), the king ordered Alfred to carry out the order. However, when Alfred crossed the drawbridge to [Maegor's Holdfast](wiki:Maegor's_Holdfast), he found Ser [Perkin the Flea](wiki:Perkin_the_Flea) and six of his gutter knights blocking the way. Alfred demanded they move aside in the king's name. Perkin answered that there was a new king, put a hand upon on Alfred's shoulder, and shoved him off the drawbridge onto the iron spikes below. Alfred agonized for two days, writhing and twisting, before dying.(wiki:Alfred_Broome.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Ser Alfred Broome, most senior knight at Dragonstone since the Old King's reign, was passed over for castellan and betrayed the queen for a promise of lordship, lands, and gold. (fab-rhaenyra-overthrown-18-p02:249)
+- He commanded the queen's ambush at the harbour and pricked her breast with a dagger to rouse Sunfyre. (fab-rhaenyra-overthrown-18-p02:301)
+- He argued for killing Prince Aegon but was overruled. (fab-rhaenyra-overthrown-18-p02:311)
+- He advised the king's men on the castle's weaknesses and drove a spear through Ser Robert Quince. (fab-rhaenyra-overthrown-18-p02:251)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Ser Alfred Broome had served Aegon II on Dragonstone and beheaded Trystane with Blackfyre (fab-short-sad-reign-of-aegon-ii-19:101)
+- Sent to mutilate Prince Aegon, he was barred by Perkin and shoved off the drawbridge to die on the spikes below (fab-short-sad-reign-of-aegon-ii-19:251)

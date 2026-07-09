@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Addam_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -82,3 +82,14 @@ Question him sharply, and we will learn if he is true or false, beyond a doubt.(
 - The baseborn dragonrider of Seasmoke who resided at the Dragonpit to defend the city (fab-the-red-dragon-and-the-gold-17-p04:93)
 - Called Addam of Hull, his loyalty was questioned on the black council alongside Nettles (fab-the-red-dragon-and-the-gold-17-p04:93)
 - Forewarned of his arrest, he flew off on Seasmoke and escaped (fab-the-red-dragon-and-the-gold-17-p04:113)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Suspected turncloak who fled before he could be put to the question; his flight taken as proof of guilt (fab-rhaenyra-overthrown-18-p01:17)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Ser Addam Velaryon, "born Addam of Hull," rode Seasmoke and was determined to prove not all bastards are turncloaks. (fab-rhaenyra-overthrown-18-p02:47)
+- Singers say he flew to the Isle of Faces to take counsel with the Green Men, but Gyldayn confines himself to the known: Addam gathered an army of near four thousand from the riverlands. (fab-rhaenyra-overthrown-18-p02:57)
+- He led the night attack that began the Second Battle of Tumbleton and died beside Seasmoke; his bones rested at Raventree Hall until his brother Alyn returned them to Hull in 138 AC. (fab-rhaenyra-overthrown-18-p02:131)
+- His tomb reads LOYAL. (fab-rhaenyra-overthrown-18-p02:131)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Grover_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -44,3 +44,8 @@ An old man in [101 AC](wiki:101_AC), Grover was bedridden and failing by [130 
 
 - Aged, bedridden Lord Paramount of the Trident who had spoken for the male claimant at the Great Council of 101 and insisted Riverrun fight for Aegon (fab-the-blacks-and-the-greens-16-p02:105)
 - His grandson Elmo overrode him, keeping Riverrun's gates barred (fab-the-blacks-and-the-greens-16-p02:105)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Mushroom says it was apoplexy from his house fighting the king at Second Tumbleton (fab-short-sad-reign-of-aegon-ii-19:123)
+- Lord Grover Tully, aged and bedridden, had finally died at Riverrun (fab-short-sad-reign-of-aegon-ii-19:123)

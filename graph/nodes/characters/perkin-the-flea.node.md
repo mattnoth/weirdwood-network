@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Perkin_the_Flea"
 bucket_id: characters-other-o-p
 prompt_version: v1-python
-node_version: 1
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Perkin the Flea is a character.human from the AWOIAF wiki.
+Perkin the Flea — A hedge knight who crowned his own squire Trystane, declaring him a natural son of King Viserys.
 
 ## Edges
 
@@ -56,3 +56,23 @@ During the [Hour of the Wolf](wiki:Hour_of_the_Wolf), Ser Perkin was among those
 ## Appearances & Description
 
 Perkin was cunning(wiki:Perkin_the_Flea.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) but disreputable.(wiki:Perkin_the_Flea.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- A hedge knight who crowned his own squire Trystane, declaring him a natural son of King Viserys (fab-rhaenyra-overthrown-18-p01:85)
+- He knighted any sellsword and thief who flocked to Trystane's banner (fab-rhaenyra-overthrown-18-p01:85)
+- He recruited gold cloaks and took four of the city's seven gates for Trystane (fab-rhaenyra-overthrown-18-p01:281)
+- He took the Red Keep when Garth yielded, beheaded Garth and twenty knights, and freed the prisoners (fab-rhaenyra-overthrown-18-p01:259)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Ser Perkin the Flea, a gutter knight, had raised the squire Trystane as king but abandoned him to join the stormlanders (fab-short-sad-reign-of-aegon-ii-19:49)
+- He reported the pretender taken, was given command of the reformed City Watch, and later turned coat again in the coup (fab-short-sad-reign-of-aegon-ii-19:253)
+- He barred Alfred Broome from Prince Aegon and shoved him to his death on the drawbridge spikes (fab-short-sad-reign-of-aegon-ii-19:253)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- He escaped death by asking to take the black, sparking a chorus of the condemned making the same plea (fab-hour-of-the-wolf-20:263)
+- Ser Perkin, a gutter knight who had granted dubious knighthoods during the turmoil, was condemned for rebellion and for abandoning the squire he had raised up (fab-hour-of-the-wolf-20:195)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hobert_Hightower"
 bucket_id: characters-house-hightower-a-j
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -54,3 +54,9 @@ Hobert was as stout as he was slow. He did not distinguish himself until late in
 
 - Ormund's cousin, sixty years old and hitherto entrusted only with the baggage train, "as stout as he was slow" (fab-the-red-dragon-and-the-gold-17-p04:135)
 - He presumed to take command of the leaderless host by right of his kinship to Queen Alicent (fab-the-red-dragon-and-the-gold-17-p04:137)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Ser Hobert Hightower, a reluctant Caltrop, asked at the council "what of the dragons?" (fab-rhaenyra-overthrown-18-p02:37)
+- Rather than betray his fellow Caltrops he drank the poisoned Arbor gold to induce Ulf White to drink, dying within the hour. (fab-rhaenyra-overthrown-18-p02:145)
+- Mushroom mocked him, saying no man feared his sword but his wine cup was deadlier than Valyrian steel. (fab-rhaenyra-overthrown-18-p02:147)

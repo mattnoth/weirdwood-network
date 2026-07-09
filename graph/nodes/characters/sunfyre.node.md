@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sunfyre"
 bucket_id: characters-other-s-t
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -91,3 +91,14 @@ Huge and heavy, the splendid Sunfyre was a formidable fighter despite his youth.
 
 - Aegon II's golden dragon, his torn wing left him unable to fly, yet he survived Walys Mooton's attack, slaying threescore (fab-the-red-dragon-and-the-gold-17-p02:107)
 - Afterward he vanished with no tracks, having taken wing again (fab-the-red-dragon-and-the-gold-17-p02:109)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Sunfyre the Golden, once "the most magnificent dragon ever to fly," had his wing torn by Meleys and was reduced to hopping between hills after Rook's Rest; Mushroom mocked him as a "great golden fire-breathing chicken." (fab-rhaenyra-overthrown-18-p02:235)
+- He crossed Blackwater Bay to Dragonstone, killing Grey Ghost on the way. (fab-rhaenyra-overthrown-18-p02:237)
+- He slew Moondancer in the yard and devoured both her carcass and Queen Rhaenyra. (fab-rhaenyra-overthrown-18-p02:305)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Sunfyre, the golden dragon that was Aegon II's glory, had feasted on Rhaenyra (fab-short-sad-reign-of-aegon-ii-19:17)
+- His neck wounds festered and stank, and he died in the outer yard of Dragonstone on the ninth day of the twelfth moon of 130 AC (fab-short-sad-reign-of-aegon-ii-19:33)

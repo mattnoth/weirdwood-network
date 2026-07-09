@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Samantha_Tarly"
 bucket_id: characters-house-tarly
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Samantha Tarly is a character.human from the AWOIAF wiki.
+Samantha Tarly — "Lady Sam", daughter of Donald Tarly and Jeyne Rowan, was Lord Ormund's young widow and had no intention of giving up the Hightower.
 
 ## Edges
 
@@ -60,3 +60,10 @@ Along with [Johanna Lannister](wiki:Johanna_Lannister), [Sharis Footly](wiki:Sha
 ## Appearances & Description
 
 Archmaester [Gyldayn](wiki:Gyldayn) describes Samantha as fierce, fiery, and beautiful.(wiki:Samantha_Tarly.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- "Lady Sam", daughter of Donald Tarly and Jeyne Rowan, was Lord Ormund's young widow and had no intention of giving up the Hightower (fab-hour-of-the-wolf-20:163)
+- Mushroom says she yielded to Lyonel's advances and used marriage to bind him to peace (fab-hour-of-the-wolf-20:165)

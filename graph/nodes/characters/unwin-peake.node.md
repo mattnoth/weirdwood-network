@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Unwin_Peake"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -65,3 +65,12 @@ Amid the [Lysene Spring](wiki:Lysene_Spring) in [135 AC](wiki:135_AC), there wa
 ## Appearances & Description
 
 Unwin was proud, brusque, hard, ambitious, and cunning. Like his [lord father](wiki:Lord_Peake_(father_of_Unwin)), Unwin did not believe a woman should rule over men.(wiki:Unwin_Peake.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11) Unwin had a splendid [silken](wiki:Silk) pavilion.(wiki:Unwin_Peake.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Lord Unwin Peake summoned twelve other lords and landed knights to a secret council in the cellar of a Tumbleton inn to curb the baseborn dragonriders. (fab-rhaenyra-overthrown-18-p02:33)
+- He argued that Hard Hugh must die before Ulf White. (fab-rhaenyra-overthrown-18-p02:33)
+- He brought warrants for the executions to Prince Daeron. (fab-rhaenyra-overthrown-18-p02:39)
+- After the battle he offered a thousand golden dragons to any knight of noble birth who could claim Silverwing, then ordered a retreat. (fab-rhaenyra-overthrown-18-p02:149)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vermithor"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -74,3 +74,9 @@ Vermithor was a fearsome beast.(wiki:Vermithor.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
 
 - Hoary old Vermithor lairs in the Dragonmont, unridden since King Jaehaerys died (fab-the-blacks-and-the-greens-16-p01:219)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Vermithor, "the Bronze Fury," once the Old King's mount and then Hard Hugh's, was almost a hundred years old and as large as the two young dragons put together. (fab-rhaenyra-overthrown-18-p02:107)
+- Riderless in the battle, he knew not friend from foe and burned Lords Piper and Deddings. (fab-rhaenyra-overthrown-18-p02:107)
+- He ripped off Seasmoke's head, then collapsed and died unable to fly with his prize. (fab-rhaenyra-overthrown-18-p02:121)

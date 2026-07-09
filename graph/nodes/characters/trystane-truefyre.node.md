@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Trystane_Truefyre"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Trystane Truefyre is a character.human from the AWOIAF wiki.
+Trystane Truefyre — Trystane was a squire who styled himself King Trystane Truefyre and held the battlements with Larys and Perkin.
 
 ## Edges
 
@@ -37,3 +37,12 @@ According to [Mushroom](wiki:Mushroom), Trystane was at first defiant when he wa
 ## Appearances & Description
 
 [Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) describes him as gangling.(wiki:Trystane_Truefyre.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Trystane was a squire who styled himself King Trystane Truefyre and held the battlements with Larys and Perkin (fab-short-sad-reign-of-aegon-ii-19:41)
+- Taken and chained when the stormlanders came, he was sentenced to die for high treason (fab-short-sad-reign-of-aegon-ii-19:97)
+- Marston Waters dubbed him Ser Trystane Fyre and Alfred Broome beheaded him with Blackfyre (fab-short-sad-reign-of-aegon-ii-19:101)
+- His courage failed only when he saw Perkin standing with the king; he asked to be knighted before dying (fab-short-sad-reign-of-aegon-ii-19:99)

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Rivers"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -86,3 +86,8 @@ Don't come again unless you mean to bend your knees, she says. Any man who comes
 
 - Aemond's woman, her long black hair streaming and her belly swollen with child (fab-the-red-dragon-and-the-gold-17-p04:225)
 - She claimed the sight, telling Aemond she saw Daemon in storm clouds and cook-fires, and watched the final battle from Kingspyre Tower (fab-the-red-dragon-and-the-gold-17-p04:233)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- The baseborn wet nurse who had been Prince Aemond's prisoner then paramour, now claiming to be his widow, ruled Harrenhal as the "witch queen" (fab-the-hooded-hand-21:281)
+- When Ser Regis Groves refused to kneel, he died before the walls; accounts differ on whether by sorcery, crossbow, or sling (fab-the-hooded-hand-21:285)

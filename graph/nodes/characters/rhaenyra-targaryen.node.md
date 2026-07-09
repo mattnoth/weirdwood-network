@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 10
+node_version: 12
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -194,3 +194,19 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 - Believing Nettles had bewitched both a dragon and her husband, she sent Lord Mooton a warrant to strike off the girl's head (fab-the-red-dragon-and-the-gold-17-p04:173)
 - She imprisoned Lord Corlys and dismissed Grand Maester Gerardys for defending the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:117)
 - Suspicion aroused, she ordered Ser Addam arrested and had Mysaria questioned about the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:107)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Queen holding King's Landing, growing ever more isolated by betrayal (fab-rhaenyra-overthrown-18-p01:17)
+- By arresting Addam Velaryon she lost a dragon, a dragonrider, and her Queen's Hand, and more than half her army abandoned her (fab-rhaenyra-overthrown-18-p01:21)
+- She imprisoned Corlys Velaryon under the Red Keep (fab-rhaenyra-overthrown-18-p01:21)
+- She named Ser Glendon Goode Lord Commander of the Queensguard and gave command of the gold cloaks to Ser Balon Byrch (fab-rhaenyra-overthrown-18-p01:97)
+- She forbade her son Joffrey to leave the castle, then lost Syrax and Joffrey together (fab-rhaenyra-overthrown-18-p01:103)
+- Beset on every side, she fled King's Landing through the Dragon Gate toward Duskendale (fab-rhaenyra-overthrown-18-p01:245)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Queen Rhaenyra, "the Realm’s Delight" and "Half-Year Queen," fled King's Landing in terror and found gates barred against her at Rosby and grudging welcome at Duskendale. (fab-rhaenyra-overthrown-18-p02:155)
+- Having lost her fleet when she sent Corlys to the dungeons, she had neither gold nor ships and sold her crown to buy passage on the Violande. (fab-rhaenyra-overthrown-18-p02:175)
+- Set on returning to Dragonstone for dragon's eggs, she came ashore into her brother's trap. (fab-rhaenyra-overthrown-18-p02:177)
+- Aegon II delivered her to Sunfyre, who devoured her; she died on the twenty-second day of the tenth moon of 130 AC, aged thirty-three. (fab-rhaenyra-overthrown-18-p02:307)

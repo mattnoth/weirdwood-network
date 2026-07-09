@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Seasmoke"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Seasmoke is a dragon from the AWOIAF wiki.
+Seasmoke, Ser Addam Velaryon's silver-grey mount, opened the Second Battle of Tumbleton with fire.
 
 ## Edges
 
@@ -39,3 +39,11 @@ With the [Two Betrayers](wiki:Two_Betrayers) on their minds, many voices in the 
 As the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton) was put into motion, Ser Addam was determined to prove that all bastards need not be turncloaks. Ser Addam attacked Tumbleton at night, taking the [greens](wiki:Greens) completely unawares. As chaos ensued Addam could see the battle turning into a rout below him. By this time, two of the enemy dragonriders, [Hugh Hammer](wiki:Hugh_Hammer) and [Daeron the Daring](wiki:Daeron_Targaryen_(son_of_Viserys_I)), were dead; although Addam could not have known that, he could see [Vermithor](wiki:Vermithor), [Silverwing](wiki:Silverwing) and [Tessarion](wiki:Tessarion). The riderless Tessarion took flight and Addam turned his dragon to meet her. Both being young dragons they moved fast and nimbly as they fought. The fight ended when the riderless, enraged Vermithor rose into the sky and set about indiscriminately killing those on the ground.(wiki:Seasmoke.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 As the Bronze Fury wreaked carnage, Seasmoke fell upon him, driving him shrieking into the mud. According to Archmaester [Gyldayn](wiki:Gyldayn), Addam must have felt duty bound to protect his men on the ground, though surely he knew in his heart Seasmoke could not match the older dragon. The riderless Blue Queen soon joined the fray and all three dragons fought to the death on the ground amidst mud and blood and smoke. Vermithor killed Seasmoke when he locked his teeth into his neck and ripped his head off. He attempted to take flight with his prize still in his jaws but his tattered wings could not lift his weight. After a moment he collapsed and died. Vermithor had also mortally wounded Tessarion, who died soon afterwards.(wiki:Seasmoke.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 After the Second Battle of Tumbleton, Lord [Unwin Peake](wiki:Unwin_Peake) ordered a retreat, taking the remnants of the great host that Prince Daeron and Lord [Ormund Hightower](wiki:Ormund_Hightower) had led from [Oldtown](wiki:Oldtown). The accused turncloak Addam Velaryon had saved King’s Landing from the queen’s foes at the cost of his own life.(wiki:Seasmoke.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4) Seasmoke and Vermithor's remains became a tourist attraction at the rebuilt Tumbleton.(wiki:Seasmoke.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Seasmoke, Ser Addam Velaryon's silver-grey mount, opened the Second Battle of Tumbleton with fire. (fab-rhaenyra-overthrown-18-p02:43)
+- He fought Tessarion in a dance, then slammed into Vermithor to protect Addam's men. (fab-rhaenyra-overthrown-18-p02:113)
+- He was the first of the three to die when Vermithor tore his head off. (fab-rhaenyra-overthrown-18-p02:121)

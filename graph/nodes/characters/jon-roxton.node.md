@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jon_Roxton"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -50,3 +50,9 @@ Hugh: For what?
 
 - Ser Jon "the Bold," as feared for his black temper as his black Valyrian blade Orphan-Maker (fab-the-red-dragon-and-the-gold-17-p04:139)
 - He claimed Lady Sharis Footly as a prize of war and cut her protesting husband nigh in two (fab-the-red-dragon-and-the-gold-17-p04:151)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Bold Jon Roxton settled the Caltrops' dispute, urging they kill the Betrayers at once. (fab-rhaenyra-overthrown-18-p02:37)
+- Wielding the Valyrian steel OrphanMaker, he slew Hard Hugh Hammer in Lord Footly's yard. (fab-rhaenyra-overthrown-18-p02:79)
+- He slew three of Hammer's men before being slain in turn; it is said he died when his foot slipped on Hammer's entrails, but Gyldayn doubts the detail. (fab-rhaenyra-overthrown-18-p02:81)

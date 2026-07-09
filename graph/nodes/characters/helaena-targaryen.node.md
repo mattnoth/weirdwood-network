@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Helaena_Targaryen"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -90,3 +90,10 @@ I want to see my sons again, and Helaena, my sweet girl...(wiki:Helaena_Targarye
 - Queen, wife and sister of Aegon II, mother of Jaehaerys, Jaehaera, and Maelor; she brought her children each evening to see their grandmother (fab-the-blacks-and-the-greens-16-p02:267)
 - Cornered by Blood and Cheese and forced to choose a son to die, on her knees she named her youngest, Maelor (fab-the-blacks-and-the-greens-16-p02:271)
 - Blood then slew her heir Jaehaerys instead (fab-the-blacks-and-the-greens-16-p02:271)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Sister, wife, and queen to King Aegon II and mother of his children, aged one-and-twenty (fab-rhaenyra-overthrown-18-p01:23)
+- She threw herself from a window in Maegor's Holdfast onto the iron spikes below (fab-rhaenyra-overthrown-18-p01:23)
+- According to Mushroom she was with child; Munkun blames the horror of the knights' deaths; Septon Eustace says Mysaria told her of her son Maelor's death (fab-rhaenyra-overthrown-18-p01:25)
+- At her death her dragon Dreamfyre snapped two of her chains atop the Hill of Rhaenys (fab-rhaenyra-overthrown-18-p01:39)

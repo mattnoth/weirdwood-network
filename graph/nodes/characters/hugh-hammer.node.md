@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Hugh_Hammer"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -70,3 +70,10 @@ A crown does not make a man a king. You should wear a horseshoe on your head, bl
 - The huge son of a common blacksmith, strong enough to twist steel bars into torcs, who rode Vermithor into battle (fab-the-red-dragon-and-the-gold-17-p04:159)
 - Untrained but fearsome with his warhammer, he began to dream of crowns (fab-the-red-dragon-and-the-gold-17-p04:163)
 - A prophecy circulated in camp foretelling a new king when the hammer falls upon the dragon (fab-the-red-dragon-and-the-gold-17-p04:163)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Hard Hugh Hammer, a bastard of blacksmith origin who "undeniably possessed some Targaryen blood," desired a crown for himself and declared the throne should be his by the same right as the Conqueror — a dragon — for he rode Vermithor. (fab-rhaenyra-overthrown-18-p02:19)
+- He wore a crown of black iron over the fury of Prince Daeron. (fab-rhaenyra-overthrown-18-p02:27)
+- At his command his men held down Ser Roger Corne while he nailed three horseshoes to the knight's skull. (fab-rhaenyra-overthrown-18-p02:31)
+- During the Second Battle of Tumbleton he was cut open by Bold Jon Roxton before he could reach Vermithor. (fab-rhaenyra-overthrown-18-p02:79)

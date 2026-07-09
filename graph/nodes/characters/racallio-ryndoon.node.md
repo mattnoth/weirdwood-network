@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Racallio_Ryndoon"
 bucket_id: characters-other-q-r
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Racallio Ryndoon is a character.human from the AWOIAF wiki.
+Racallio Ryndoon — Flamboyant captain-general who once fought Daemon Targaryen, called up by the Archon of Tyrosh to seize the Stepstones.
 
 ## Edges
 
@@ -80,3 +80,10 @@ Racallio sometimes ordered his dozen wives to beat him. A contradictory person, 
 > Racallio Ryndoon was mad. Yet his men loved him, fought for him, died for him. And for a few short years, they made him [a king](wiki:King_of_the_Narrow_Sea).(wiki:Racallio_Ryndoon.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Flamboyant captain-general who once fought Daemon Targaryen, called up by the Archon of Tyrosh to seize the Stepstones (fab-the-hooded-hand-21:123)
+- He put the King of the Narrow Sea to death, then betrayed the Archon to claim the crown himself (fab-the-hooded-hand-21:123)

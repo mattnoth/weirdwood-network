@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corwyn_Corbray"
 bucket_id: characters-house-corbray
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -60,3 +60,10 @@ Ser Corwyn's death was considered an act of treason, for striking down a regent 
 ## Appearances & Description
 
 Corwyn had a great reputation as a warrior, so much so that his father gave him the ancient [Valyrian steel](wiki:Valyrian_steel) [longsword](wiki:Longsword) of [House Corbray](wiki:House_Corbray), [Lady Forlorn](wiki:Lady_Forlorn).(wiki:Corwyn_Corbray.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Ser Corwyn, a second son of thirty-two with two daughters, wielder of the Valyrian blade Lady Forlorn and brother of the Protector Leowyn, wed Rhaena Targaryen (fab-the-hooded-hand-21:245)
+- The match followed a quick betrothal and hasty wedding (fab-the-hooded-hand-21:245)

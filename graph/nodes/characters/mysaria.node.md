@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mysaria"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -70,3 +70,9 @@ Let [Daemon](wiki:Daemon_Targaryen) slake his hungers where he will, and we shal
 - The pale harlot and dancing girl who served as Rhaenyra's mistress of whisperers in all but name, called Lady Misery and the White Worm (fab-the-red-dragon-and-the-gold-17-p04:103)
 - Summoned before the council, she told the queen Nettles had already betrayed her and shared Daemon's bed (fab-the-red-dragon-and-the-gold-17-p04:103)
 - Septon Eustace also names her as a woman whose bed Daemon shared at court (fab-the-red-dragon-and-the-gold-17-p04:33)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- The White Worm, Lady Misery, mistress of whisperers, who received the betrayal of the rescue plot (fab-rhaenyra-overthrown-18-p01:21)
+- Taken while fleeing, the White Worm of Lys was whipped naked through the city until she died on the cobblestones (fab-rhaenyra-overthrown-18-p01:255)
+- She warned Rhaenyra against the coming dark (fab-rhaenyra-overthrown-18-p01:95)

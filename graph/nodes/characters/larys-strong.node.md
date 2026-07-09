@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Larys_Strong"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 8
+node_version: 12
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -98,3 +98,30 @@ The enigma that is Larys Strong the Clubfoot has vexed students of history for g
 
 - The Clubfoot, most enigmatic member of the green council, who vanished (fab-the-red-dragon-and-the-gold-17-p03:153)
 - Mushroom puts the false chamberpot tale down as the Clubfoot's work (fab-the-red-dragon-and-the-gold-17-p03:87)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- According to Mushroom he originated the slander that Rhaenyra murdered Helaena (fab-rhaenyra-overthrown-18-p01:35)
+- He emerged intact and took a place of honor beside Perkin's new king (fab-rhaenyra-overthrown-18-p01:263)
+- The Clubfoot, Lord of Harrenhal and King Aegon's master of whisperers, who had never truly left King's Landing (fab-rhaenyra-overthrown-18-p01:35)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Lord Larys Strong the Clubfoot spirited King Aegon II and his children out of King's Landing through a secret passage of Maegor the Cruel. (fab-rhaenyra-overthrown-18-p02:219)
+- He decreed the fugitives part company so no one taken could betray the rest, sending Maelor with Rickard Thorne and Jaehaera with Willis Fell. (fab-rhaenyra-overthrown-18-p02:223)
+- Only he knew the king was hidden on Dragonstone; Orwyle had all this from his own lips. (fab-rhaenyra-overthrown-18-p02:225)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-09 -->
+
+- Larys Strong the Clubfoot advised the squire Trystane to parley and was sent as envoy across the Blackwater (fab-short-sad-reign-of-aegon-ii-19:41)
+- He brokered the accord in Borros's tent and was betrothed to Floris Baratheon (fab-short-sad-reign-of-aegon-ii-19:49)
+- His honeyed words swayed king and council, and he calmed Alicent into accepting the Sea Snake's terms (fab-short-sad-reign-of-aegon-ii-19:183)
+- Secretly he went to Corlys and revealed the king's plan to grant his demands then murder him (fab-short-sad-reign-of-aegon-ii-19:183)
+- Gyldayn holds his loyalties an unsolvable enigma but concludes Aegon II's poisoning was done at his behest (fab-short-sad-reign-of-aegon-ii-19:277)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Larys the Clubfoot, Lord of Harrenhal, was named one of the two great lords at the heart of the poisoning conspiracy (fab-hour-of-the-wolf-20:197)
+- He would neither confirm nor deny the accusations of Orwyle and Perkin, and stood friendless once condemned (fab-hour-of-the-wolf-20:201)
+- He asked that his clubfoot be hacked off in death, and it later disappeared, said to be sold to a sorcerer (fab-hour-of-the-wolf-20:275)
+- Cregan Stark took his head with Ice, ending the ancient house (fab-hour-of-the-wolf-20:277)

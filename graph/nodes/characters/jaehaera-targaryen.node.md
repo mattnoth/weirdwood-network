@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Jaehaera_Targaryen
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Jaehaera Targaryen — The child queen, wed to Aegon III, granddaughter of Alicent, had witnessed her twin brother's murder by Blood and Cheese.
 
 ## Origins
 
@@ -63,3 +67,11 @@ Jaehaera was born tiny and slow to grow. She did not cry or smile or act as babi
 ## Notes
 
 Tier 2 (inference): the circumstances of Jaehaera's death are disputed — some accounts say she jumped, others that she was thrown by Ser Mervyn Flowers on the orders of Unwin Peake.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- The child queen, wed to Aegon III, granddaughter of Alicent, had witnessed her twin brother's murder by Blood and Cheese (fab-the-hooded-hand-21:131)
+- Munkun described her as fragile and regressed (fab-the-hooded-hand-21:131)
+- She remained hale through the fever that killed two of her maids (fab-the-hooded-hand-21:317)

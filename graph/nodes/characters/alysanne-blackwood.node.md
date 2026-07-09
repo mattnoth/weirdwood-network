@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Blackwood"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -71,3 +71,15 @@ She smells of woodsmoke, not flowers.(wiki:Alysanne_Blackwood.cite_ref-Rfabafter
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->
 
 - Lord Samwell's sixteen-year-old sister, later called Black Aly, is supposed by family legend to have loosed the arrow that killed Amos Bracken (fab-the-red-dragon-and-the-gold-17-p01:27)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- "Black Aly", a sister to the late Lord Samwell and thus aunt to Bloody Ben, was a huntress and archer without peer who had lost her maidenhead in the saddle at thirteen (fab-hour-of-the-wolf-20:49)
+- She conceived a liking for Cregan Stark and, according to Mushroom, struck the bargain that stayed Corlys Velaryon's execution (fab-hour-of-the-wolf-20:213)
+- Cregan claimed her hand in marriage in return (fab-hour-of-the-wolf-20:253)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->
+
+- Black Aly, aunt of Lord Benjicot, was credited (by legend and Mushroom) with proposing the Widow Fairs to resettle Cregan's northmen among riverland widows (fab-the-hooded-hand-21:19)
+- She wed Cregan Stark at Winterfell (fab-the-hooded-hand-21:249)
+- Her matchmaking was largely a great success, strengthening the riverlords and spreading worship of the old gods (fab-the-hooded-hand-21:23)

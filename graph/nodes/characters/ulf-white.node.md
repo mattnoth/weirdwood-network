@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Ulf_White"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -68,3 +68,10 @@ Ser Ulf gave himself entirely over to drunkenness, drowning himself in wine and 
 
 - One of the Two Betrayers, who gave himself to drunkenness after turning his cloak (fab-the-red-dragon-and-the-gold-17-p04:155)
 - Not content with the knighthood Rhaenyra had given him nor the lordship of Bitterbridge that Daeron granted, he desired Highgarden itself (fab-the-red-dragon-and-the-gold-17-p04:155)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->
+
+- Ulf White, "Lord White" and "Ulf the Sot," one of the Two Betrayers, was drunk more often than not and had never shown great prowess at arms. (fab-rhaenyra-overthrown-18-p02:33)
+- During the battle he could not be roused and slept through it under a table. (fab-rhaenyra-overthrown-18-p02:73)
+- Waking to find himself the last dragonrider with the last dragon, he demanded the throne. (fab-rhaenyra-overthrown-18-p02:141)
+- He was poisoned by Ser Hobert Hightower's wine and never woke. (fab-rhaenyra-overthrown-18-p02:145)

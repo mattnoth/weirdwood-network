@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -58,3 +58,10 @@ I want to fight for you, Mother, as my brothers did. Let me prove that I am as b
 
 - Rhaenyra's son, flush with youth and eager to avenge his fallen brothers on Tyraxes (fab-the-red-dragon-and-the-gold-17-p04:83)
 - His mother forbade it, judging him too young for battle (fab-the-red-dragon-and-the-gold-17-p04:83)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->
+
+- Forbidden to leave, he stole onto Syrax without saddle or whip, meaning to reach his own dragon Tyraxes (fab-rhaenyra-overthrown-18-p01:157)
+- Syrax, wanting no other rider, twisted beneath him and he plunged two hundred feet to his death in Flea Bottom (fab-rhaenyra-overthrown-18-p01:163)
+- He is named the last of Rhaenyra's sons by Laenor Velaryon, or her bastard by Ser Harwin Strong, depending which truth one believes (fab-rhaenyra-overthrown-18-p01:171)
+- Prince of Dragonstone and heir to the Iron Throne, ten-and-three, who donned squire's armor and begged to fight (fab-rhaenyra-overthrown-18-p01:101)

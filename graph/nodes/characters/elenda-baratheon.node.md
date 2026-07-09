@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elenda_Baratheon"
 bucket_id: characters-house-caron
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Elenda Baratheon is a character.human from the AWOIAF wiki.
+Elenda Baratheon — Lord Borros's widow, unwilling to risk her newborn son Royce, agreed to terms and sent her father to do homage and three daughters as hostages.
 
 ## Edges
 
@@ -46,3 +46,10 @@ Lady Elenda sent Cassandra, Ellyn, and Floris to represent [House Baratheon](wik
 In [132 AC](wiki:132_AC), Lady Elenda married again, to Ser [Steffon Connington](wiki:Steffon_Connington), second son of the [Lord of Griffin's Roost](wiki:Lord_of_Griffin's_Roost) and a man twenty years her junior. With Royce but an infant, Elenda felt that she needed a strong man's hand to keep the peace against the increasingly frequent raids from [Dornishmen](wiki:Dornishmen).(wiki:Elenda_Baratheon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4) However, in [133 AC](wiki:133_AC) Steffon was slain by [Wyland Wyl](wiki:Wyland_Wyl) in the [Dornish Marches](wiki:Dornish_Marches), and Elenda was widowed once more.(wiki:Elenda_Baratheon.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
 After the death of Queen Jaehaera in [133 AC](wiki:133_AC), Elenda wrote to the Crown, offering her daughters Cassandra and Ellyn as potential brides for King Aegon III.(wiki:Elenda_Baratheon.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) Three years later, Cassandra was tried for attempting to [poison](wiki:Poison) the king and his new queen, [Daenaera Velaryon](wiki:Daenaera_Velaryon). Elenda sent three stormlords to speak for Storm's End, being too ill to attend herself. They arranged for Cassandra to marry Ser [Walter Brownhill](wiki:Walter_Brownhill), a widower, as Elenda correctly believed that caring for Walter's thirteen surviving children would cease Cassandra's scheming and plotting.(wiki:Elenda_Baratheon.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->
+
+- Lord Borros's widow, unwilling to risk her newborn son Royce, agreed to terms and sent her father to do homage and three daughters as hostages (fab-hour-of-the-wolf-20:155)
+- Her eldest daughter Cassandra wept that she was not to be a queen (fab-hour-of-the-wolf-20:155)
