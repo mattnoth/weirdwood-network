@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -45,3 +45,11 @@ The mob descended on Joffrey's corpse, and looters tore the boots from his feet 
 ## Quotes
 
 I want to fight for you, Mother, as my brothers did. Let me prove that I am as brave as they were.(wiki:Joffrey_Velaryon.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- At three he saw Aemond at Vhagar, was shoved into dung, and ran to fetch his brothers (fab-heirs-of-the-dragon-15-p03:95)
+- His own young dragon was Tyraxes (fab-heirs-of-the-dragon-15-p03:95)
+- Rhaenyra's third son, born 117 AC, brown-haired like his brothers (fab-heirs-of-the-dragon-15-p03:45)

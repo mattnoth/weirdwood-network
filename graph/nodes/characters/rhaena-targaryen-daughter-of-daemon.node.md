@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Daemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -75,3 +75,9 @@ Brother, if it please you, we have brought [your new queen](wiki:Daenaera_Velary
 ## Quotes
 
 Lady Rhaena would make a splendid queen.(wiki:Rhaena_Targaryen_(daughter_of_Daemon).cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Twin daughter of Daemon and Laena, born 116 AC in Pentos, small and sickly but fine-featured (fab-heirs-of-the-dragon-15-p03:41)

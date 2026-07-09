@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_Targaryen_(son_of_Aegon_II)"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -51,3 +51,9 @@ Jaehaerys was larger and healthier than his twin, but he was also born with six 
 ## Notes
 
 Historical Targaryen character known primarily from Fire & Blood / TWOIAF. No cite_refs to main series chapters. The Blood and Cheese connection is Tier 1 canon from TWOIAF but not directly cited on this wiki page's infobox.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Aegon II's firstborn son and heir, six years old, twin of Jaehaera; killed by Blood, beheaded with a single blow (fab-the-blacks-and-the-greens-16-p02:271)

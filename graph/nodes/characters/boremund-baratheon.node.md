@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Boremund_Baratheon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -67,3 +67,11 @@ Lord Boremund was stone, hard and strong and unmoving. Lord [Borros](wiki:Borros
 
 - Boremund Baratheon, Lord of Storm's End at eight-and-twenty, was the most imposing of Daella's three suitors. (fab-the-long-reign-cont-14-p02:235)
 - As son of Lord Rogar by Queen Alyssa, he was half-brother to Jaehaerys and Alysanne. (fab-the-long-reign-cont-14-p02:235)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Lord of Storm's End, made aware of Morion's coming and waiting on Cape Wrath to meet the Dornishmen (fab-the-long-reign-cont-14-p03:85)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Old Lord Boremund of Storm's End, lately dead, had been the staunchest of friends to Rhaenys (fab-the-blacks-and-the-greens-16-p01:245)

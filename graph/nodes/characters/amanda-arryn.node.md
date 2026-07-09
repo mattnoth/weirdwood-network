@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Amanda_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Amanda Arryn — Lord Rodrik's younger daughter, who wrote most of Daella's letters home.
 
 ## Origins
 
@@ -28,3 +32,9 @@ Daella died in childbirth, giving Amanda a younger half-sister, [Aemma Arryn](wi
 ## Notes
 
 Source is Fire & Blood, "The Long Reign."
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Lord Rodrik's younger daughter, who wrote most of Daella's letters home (fab-the-long-reign-cont-14-p03:33)

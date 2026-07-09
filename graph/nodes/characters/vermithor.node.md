@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vermithor"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -70,3 +70,7 @@ Vermithor was a fearsome beast.(wiki:Vermithor.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7
 <!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
 
 - Jaehaerys's growing bronze dragon that he flew home and fed a slaughtered bull; the king let his mount stand as surety over the stormlands (fab-time-of-testing-09:119)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Hoary old Vermithor lairs in the Dragonmont, unridden since King Jaehaerys died (fab-the-blacks-and-the-greens-16-p01:219)

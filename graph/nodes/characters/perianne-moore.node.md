@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Perianne_Moore"
 bucket_id: characters-house-moore
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Perianne Moore is a character.human from the AWOIAF wiki.
+Perianne Moore — A maid of Saera's own age called "Pretty Peri," one of Saera's dearest friends, who confessed the whole affair to Queen Alysanne.
 
 ## Edges
 
@@ -50,3 +50,9 @@ Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) considered Lady Perianne to 
 > [Saera](wiki:Saera_Targaryen) is smarter than the [septas](wiki:Septa).(wiki:Perianne_Moore.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 >
 > —Perianne, to Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- A maid of Saera's own age called "Pretty Peri," one of Saera's dearest friends, who confessed the whole affair to Queen Alysanne.

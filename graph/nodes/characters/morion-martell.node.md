@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Morion_Martell"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Morion Martell — Prince of Dorne who succeeded his father in Sunspear, rash and foolish, resentful of Dornish inaction during Lord Rogar's War.
 
 ## Origins
 
@@ -37,3 +41,9 @@ A young man when he became [Prince of Dorne](wiki:Prince_of_Dorne), Morion was r
 ## Notes
 
 Morion is known only from Fire & Blood and The Rise of the Dragon (both "mentioned"). No main-series book citations exist. Archmaester Gyldayn is the source describing him as rash and foolish (Tier 2 — wiki uses Gyldayn's characterization, not direct observation).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Prince of Dorne who succeeded his father in Sunspear, rash and foolish, resentful of Dornish inaction during Lord Rogar's War (fab-the-long-reign-cont-14-p03:73)

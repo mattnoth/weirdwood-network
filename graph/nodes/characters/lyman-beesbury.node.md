@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lyman_Beesbury"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -35,3 +35,15 @@ Lyman's death was kept secret, with most believing he was languishing in a black
 ## Quotes
 
 I am an old man, but not so old that I will sit here meekly whilst the likes of you plot to steal [her](wiki:Rhaenyra_Targaryen) [crown](wiki:Crown).(wiki:Lyman_Beesbury.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- The aged Lord, master of coin almost without interruption since the Old King's day (fab-heirs-of-the-dragon-15-p03:203)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- He rose to denounce the plot and was killed; the manner is disputed among the sources (fab-the-blacks-and-the-greens-16-p01:101)
+- All three chronicles agree his was the first blood of the Dance (fab-the-blacks-and-the-greens-16-p01:103)
+- Lord Lyman Beesbury, master of coin and lord treasurer, a man of eighty, was the only councillor to speak for Rhaenyra (fab-the-blacks-and-the-greens-16-p01:75)

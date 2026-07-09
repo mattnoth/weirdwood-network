@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vhagar"
 bucket_id: characters-other-u-v
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Vhagar is a character.dragon from the AWOIAF wiki.
+Vhagar, oldest and largest of the dragons of Westeros, bore Aemond to Storm's End and had once been Queen Visenya's mount.
 
 ## Edges
 
@@ -114,3 +114,9 @@ By the time of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Vhagar was
 > Vhagar's carcass plunged to [the lake](wiki:Gods_Eye) floor, the hot blood from the gaping wound in her neck bringing the water to a boil over her last resting place.(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-12)
 
 > Vhagar, the greatest of the Targaryen dragons since the passing of [Balerion](wiki:Balerion) the Black Dread, had counted one hundred eighty-one years upon the earth. Thus passed the last living creature from the days of [Aegon's Conquest](wiki:Aegon's_Conquest), as dusk and darkness swallowed [Black Harren](wiki:Harren_Hoare)'s [accursed seat](wiki:Harrenhal).(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-13)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Vhagar, oldest and largest of the dragons of Westeros, bore Aemond to Storm's End and had once been Queen Visenya's mount (fab-the-blacks-and-the-greens-16-p01:155)

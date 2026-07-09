@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegelle_Targaryen"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -69,3 +69,9 @@ As a girl, Princess Maegelle was gentle, quiet, studious, and exceedingly bright
 <!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
 
 - Princess Maegelle joined the Faith as a novice in 73 AC at ten years of age, a quiet, studious girl. (fab-the-long-reign-cont-14-p02:61)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Septa Maegelle took charge of Saera's instruction at Oldtown (fab-the-long-reign-cont-14-p04:37)
+- She bridged the estrangement between her parents (fab-the-long-reign-cont-14-p04:149)
+- She died in 96 AC of greyscale after nursing the afflicted (fab-the-long-reign-cont-14-p04:233)

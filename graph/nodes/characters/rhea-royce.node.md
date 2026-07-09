@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhea_Royce"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -41,3 +41,9 @@ Upon learning of Rhea's death, Prince Daemon flew from [Bloodstone](wiki:Bloodst
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->
 
 - Lady of House Royce, heir to Runestone in the Vale, wed to Daemon in 97 AC in a marriage that was not a success (fab-heirs-of-the-dragon-15-p01:57)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- The "bronze bitch" of Runestone, Daemon's wife, who fell from her horse while hawking in 115 AC (fab-heirs-of-the-dragon-15-p03:17)
+- She lingered nine days, then collapsed and died within an hour of rising (fab-heirs-of-the-dragon-15-p03:17)
+- Her lands passed not to Daemon but to her nephew (fab-heirs-of-the-dragon-15-p03:17)

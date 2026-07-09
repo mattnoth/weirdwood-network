@@ -3,7 +3,7 @@
   "name": "Siege of Moat Cailin",
   "type": "event.battle",
   "node_path": "graph/nodes/events/siege-of-moat-cailin.node.md",
-  "generated_at": "2026-07-09T19:26:49.217188+00:00",
+  "generated_at": "2026-07-09T20:50:28.563973+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,

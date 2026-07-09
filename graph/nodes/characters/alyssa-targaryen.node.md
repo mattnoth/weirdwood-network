@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyssa_Targaryen"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -64,3 +64,8 @@ Though shattered by his loss, [Baelon](wiki:Baelon_Targaryen_(son_of_Jaehaerys_I
 
 - Fifth child of Jaehaerys and Alysanne, born late 60 AC on Dragonstone and named for the queen's late mother. As a babe she resembled Daenerys but grew long-faced and skinny with mismatched eyes (fab-the-long-reign-cont-14-p01:149)
 - A wooden sword broke her nose at six, which she did not mind; she took after Baelon, wore boy's clothes, and refused porridge (fab-the-long-reign-cont-14-p01:153)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Princess and wife of Prince Baelon, irrepressible and bold, "with the broken nose and mismatched eyes." She bore Daemon in 81 AC and flew him aloft on Meleys within a fortnight (fab-the-long-reign-cont-14-p03:43)
+- She bore a third son, Aegon, in 84 AC after a long labor, never fully recovered, and died within the year at four-and-twenty (fab-the-long-reign-cont-14-p03:99)

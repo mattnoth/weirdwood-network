@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Larys_Strong"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -75,3 +75,13 @@ The enigma that is Larys Strong the Clubfoot has vexed students of history for g
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
 
 - Lyonel's younger son, "Larys the Clubfoot," joined the king's confessors (fab-heirs-of-the-dragon-15-p02:31)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Larys the Clubfoot, who became Lord of Harrenhal on the deaths of his father and elder brother (fab-heirs-of-the-dragon-15-p03:121)
+- Some suspected him of the fire; he later sat the small council as Lord Confessor and master of whisperers (fab-heirs-of-the-dragon-15-p03:203)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Larys Strong, called Larys Clubfoot, Lord of Harrenhal and master of whisperers, kept silent through the debate (fab-the-blacks-and-the-greens-16-p01:87)
+- He spoke only once, to propose the binding blood oath (fab-the-blacks-and-the-greens-16-p01:115)

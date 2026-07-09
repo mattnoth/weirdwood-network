@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Turnberry"
 bucket_id: characters-house-turnberry
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alys Turnberry is a character.human from the AWOIAF wiki.
+Alys Turnberry — A maid of Saera's own age called "Sweetberry," one of Saera's dearest friends.
 
 ## Edges
 
@@ -53,3 +53,14 @@ Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) considered Alys to be a pret
 > **Alysanne:** I have been speaking with your... [ladies](wiki:Lady_companion). Are you aware that Alys Turnberry is with child? **Saera:** My Sweetberry? Truly? She... oh, what has she done? Oh, my sweet little fool.(wiki:Alys_Turnberry.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 >
 > —Queen [Alysanne](wiki:Alysanne_Targaryen) and [Saera Targaryen](wiki:Saera_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- A maid of Saera's own age called "Sweetberry," one of Saera's dearest friends (fab-the-long-reign-cont-14-p03:127)
+- She confessed the truth to Queen Alysanne and revealed she was with child by an unknown father (fab-the-long-reign-cont-14-p03:173)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Alys Turnberry, called Sweetberry and pregnant, was sent to the Vale to bear a red-haired girl, then wed to Dunstan Pryor (fab-the-long-reign-cont-14-p04:17)

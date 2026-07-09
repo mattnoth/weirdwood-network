@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Orwyle"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Orwyle is a character from the AWOIAF wiki.
+Orwyle — Archmaester chosen by the Conclave to be Grand Maester, thought to favor neither faction.
 
 ## Edges
 
@@ -46,3 +46,10 @@ Before he was to take ship to the [Wall](wiki:Wall), Orwyle bribed a guard and f
 The small council considered Orwyle an oathbreaker and sentenced him to die. However, the blind Ser [Tyland Lannister](wiki:Tyland_Lannister), the [Hand of the King](wiki:Hand_of_the_King), insisted that, as the office of [King's Justice](wiki:King's_Justice) had not yet been filled, the execution should be put on hold as he himself was not able to perform the execution. Instead, Tyland had Orwyle confined to a large, airy, comfortable tower cell, where he would remain for two years. He was even provided with ink and parchment so he could continue to write his confessions.(wiki:Orwyle.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 During the [Winter Fever](wiki:Winter_Fever) in [133 AC](wiki:133_AC), Orwyle was released from his cell after many of the maesters in the city had died from the ailment. Orwyle worked tirelessly on treating those who had fallen ill.(wiki:Orwyle.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 When Tyland died from the disease, the young King [Aegon III Targaryen](wiki:Aegon_III_Targaryen) ordered Orwyle to dispatch a [raven](wiki:Raven) to [Goldengrove](wiki:Goldengrove), summoning Lord [Thaddeus Rowan](wiki:Thaddeus_Rowan) to take the office of Hand of the King. Orwyle, possibly hoping for a royal pardon, was quick to obey his orders. He was later seized by the men of Lord [Unwin Peake](wiki:Unwin_Peake), one of Aegon III's [regents](wiki:Regency_of_Aegon_III), who installed himself as the new King's Hand. Orwyle was sent back to his cell to await execution. After Ser [Victor Risley](wiki:Victor_Risley) had been named as the King's Justice, Orwyle was finally executed as a traitor and a deserter of the Night's Watch. Due to his age, high birth and long service, he was granted the honor of dying by the sword.(wiki:Orwyle.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Archmaester chosen by the Conclave to be Grand Maester, thought to favor neither faction (fab-heirs-of-the-dragon-15-p03:193)
+- His potions were held more efficacious than Mellos's leechings (fab-heirs-of-the-dragon-15-p03:197)

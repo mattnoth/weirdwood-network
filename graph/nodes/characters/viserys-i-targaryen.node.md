@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 4
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -156,3 +156,17 @@ However, Viserys himself never had much interest himself in [jousting](wiki:Jous
 - He longed for a son and, after Aemma and the infant Baelon died, named Rhaenyra his heir (fab-heirs-of-the-dragon-15-p02:35)
 - Over Runciter's counsel he wed Alicent Hightower in 106 AC (fab-heirs-of-the-dragon-15-p02:49)
 - He kept an anxious balance between his wife's and daughter's parties (fab-heirs-of-the-dragon-15-p02:95)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- The king, who still meant his daughter to follow him and her sons after her (fab-heirs-of-the-dragon-15-p03:49)
+- He forgave Daemon a second time out of love (fab-heirs-of-the-dragon-15-p03:41)
+- After maiming a hand on the Iron Throne and losing two fingers, he shunned the throne room (fab-heirs-of-the-dragon-15-p03:181)
+- Grown fat, gouty, and short of breath, he recalled Otto Hightower as Hand (fab-heirs-of-the-dragon-15-p03:127)
+- He died in his sleep in 129 AC, aged fifty-two after twenty-six years (fab-heirs-of-the-dragon-15-p03:211)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- The ailing, bedridden king died in his sleep in the Red Keep on the third day of the third moon of 129 AC (fab-the-blacks-and-the-greens-16-p01:35)
+- His body was found by a serving man at the hour of the bat, who ran to inform Queen Alicent (fab-the-blacks-and-the-greens-16-p01:35)
+- His corpse lay unattended for days, swollen and rotting, while the greens delayed the announcement (fab-the-blacks-and-the-greens-16-p01:159)

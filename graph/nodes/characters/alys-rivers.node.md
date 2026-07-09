@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Rivers"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Alys Rivers is a character from the AWOIAF wiki.
+Alys Rivers — Wet nurse captured among the Harrenhal smallfolk; at least forty during the Dance, said to look younger than her years.
 
 ## Edges
 
@@ -63,3 +63,11 @@ Alys: Kneel before [your king](wiki:Alys_Rivers's_son). Regis: I do not kneel to
 Was she in truth a witch who lay with [demons](wiki:Demon), bringing forth dead children as payment for the knowledge they gave her? Was she a [simpleminded](wiki:Simple) slattern, as [Eustace](wiki:Eustace_(Dance_of_the_Dragons)) believes? A wanton who used her [poisons](wiki:Poison) and [potions](wiki:Love_potion) to bind men to her, body and soul?(wiki:Alys_Rivers.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
 Daemon: Who told you where to find me? Aemond: My lady. She saw you in a storm cloud, in a mountain pool at dusk, in the fire we lit to cook our suppers. She [sees much and more](wiki:Dreams_and_prophecies), my Alys.(wiki:Alys_Rivers.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
 Don't come again unless you mean to bend your knees, she says. Any man who comes near [her walls](wiki:Harrenhal) will die. There's power in them stones, and the widow's woken it. [Seven](wiki:Faith_of_the_Seven) save us all, she has a [dragon](wiki:Dragon). I seen it.(wiki:Alys_Rivers.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Wet nurse captured among the Harrenhal smallfolk; at least forty during the Dance, said to look younger than her years (fab-the-blacks-and-the-greens-16-p02:93)
+- According to Munkun and Eustace she was sired by Lord Lyonel Strong, making her half-sister to Harwin and Larys (fab-the-blacks-and-the-greens-16-p02:85)
+- Daemon appeared immune to her supposed powers (fab-the-blacks-and-the-greens-16-p02:93)

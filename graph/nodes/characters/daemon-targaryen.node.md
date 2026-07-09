@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -196,3 +196,23 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 - He warred on the Stepstones with Corlys and slew Craghas Crabfeeder in 108 AC (fab-heirs-of-the-dragon-15-p02:77)
 - He crowned himself King of the Stepstones (fab-heirs-of-the-dragon-15-p02:81)
 - After a public reconciliation in 111, a scandal over Rhaenyra led Viserys to exile him — so Eustace and Mushroom; Grand Maester Runciter records only a quarrel and a departure (fab-heirs-of-the-dragon-15-p02:123)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- The king's brother, who flew to the Vale on his wife's death, ostensibly to bury her but hoping for her lands (fab-heirs-of-the-dragon-15-p03:17)
+- At High Tide his eye fell on Laena Velaryon; he asked Corlys for her hand and slew her Braavosi betrothed with Dark Sister (fab-heirs-of-the-dragon-15-p03:23)
+- He wed Laena and left the Stepstones (fab-heirs-of-the-dragon-15-p03:23)
+- Widowed again in 120 AC, he wed his niece Rhaenyra secretly on Dragonstone and at last fathered trueborn sons (fab-heirs-of-the-dragon-15-p03:135)
+- Lady Jeyne dismissed his claim and warned him from the Vale (fab-heirs-of-the-dragon-15-p03:19)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Prince Daemon, Rhaenyra's uncle and husband, called Lord Flea Bottom by his foes, was the war's most experienced commander (fab-the-blacks-and-the-greens-16-p01:207)
+- He counseled winning lords with words before battle and warned against pitting dragons against dragons (fab-the-blacks-and-the-greens-16-p01:237)
+- He took charge of the assault on Harrenhal (fab-the-blacks-and-the-greens-16-p01:255)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Rhaenyra's husband; crowned her and claimed for himself the style Protector of the Realm (fab-the-blacks-and-the-greens-16-p02:23)
+- Flying Caraxes to the Trident, he took Harrenhal when its castellan struck banners, capturing House Strong's wealth and a dozen hostages (fab-the-blacks-and-the-greens-16-p02:79)
+- After Luke's death he sent a raven promising vengeance (fab-the-blacks-and-the-greens-16-p02:255)

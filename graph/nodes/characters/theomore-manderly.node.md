@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Theomore_Manderly"
 bucket_id: characters-house-manderly
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -57,3 +57,8 @@ Theomore grew stout in his old age. He was a skilled warrior and canny [lord](wi
 
 - Lord Theomore Manderly feasted Alysanne lavishly at White Harbor with a roasted aurochs and a tourney (fab-jaehaerys-and-alysanne-triumphs-12-p02:147)
 - His Reach-born house keeps the Seven and knighthood though loyal to the Starks (fab-jaehaerys-and-alysanne-triumphs-12-p02:141)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Theomore Manderly, the fierce old Lord of White Harbor, was betrothed to Viserra to bind the North to the Iron Throne (fab-the-long-reign-cont-14-p04:61)
+- He had outlived four wives and grown very stout (fab-the-long-reign-cont-14-p04:65)

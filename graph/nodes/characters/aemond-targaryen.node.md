@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemond_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 3
+node_version: 6
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -92,3 +92,26 @@ As a child, Aemond was bold, wild, willful, hot-tempered and unforgiving, and gr
 - SPOUSE_OF: Alys Rivers (qualifier: allegedly) (cite: track_b: Spouse)
 - CULTURE_OF: Valyrian (cite: track_b: Race)
 - DIED_AT: Gods Eye (cite: track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Alicent's second son, dragonless at ten, who resolved to claim Vhagar in secret (fab-heirs-of-the-dragon-15-p03:87)
+- He shoved Joffrey into dragon droppings and mounted Vhagar, becoming a dragonrider (fab-heirs-of-the-dragon-15-p03:97)
+- In the fight after, he broke Luke's nose and mocked the boys as "the Strongs" before Luke took his eye (fab-heirs-of-the-dragon-15-p03:101)
+- He counted the trade a fair one (fab-heirs-of-the-dragon-15-p03:109)
+- He grew into a dangerous swordsman under Criston Cole (fab-heirs-of-the-dragon-15-p03:159)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- One-eyed Prince Aemond, nineteen, second son of Alicent, was found arming for practice and asked whether Aegon was king (fab-the-blacks-and-the-greens-16-p01:121)
+- He flew to Storm's End on Vhagar, a sapphire set in his empty socket, charged to wed a Baratheon daughter (fab-the-blacks-and-the-greens-16-p01:155)
+- He vowed he would not fail (fab-the-blacks-and-the-greens-16-p01:157)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Aegon II's brother, rider of Vhagar; came to Storm's End to win Borros's support and entertain a marriage suit. He confronted Lucerys, mocking him as "Little Luke Strong, the bastard" (fab-the-blacks-and-the-greens-16-p02:195)
+- He demanded Luke's eye in payment, baring his sapphire (fab-the-blacks-and-the-greens-16-p02:221)
+- Thereafter he was known to his foes as Aemond the Kinslayer (fab-the-blacks-and-the-greens-16-p02:251)
+- Provoked by Maris, he pursued Luke on Vhagar and the dragons met above Shipbreaker Bay (fab-the-blacks-and-the-greens-16-p02:243)

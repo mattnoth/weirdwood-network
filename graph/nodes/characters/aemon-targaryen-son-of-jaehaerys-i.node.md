@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemon_Targaryen_(son_of_Jaehaerys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 7
+node_version: 9
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -95,3 +95,15 @@ At first, Aemon was shy around [dragons](wiki:Dragon),(wiki:Aemon_Targaryen_(son
 - Eldest son of Jaehaerys; in 62 AC, aged seven, he was made Prince of Dragonstone and acknowledged heir (fab-the-long-reign-cont-14-p01:213)
 - Tall and handsome, he trained daily with his brother Baelon (fab-the-long-reign-cont-14-p01:215)
 - At his investiture feast the queen seated Jocelyn beside him and the two talked and laughed all evening (fab-the-long-reign-cont-14-p01:215)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Prince and heir apparent to the Iron Throne, who reached his twenty-sixth nameday in 81 AC and had proved able in war and peace (fab-the-long-reign-cont-14-p03:37)
+- King Jaehaerys named him justiciar and master of laws in place of Rodrik Arryn (fab-the-long-reign-cont-14-p03:39)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Aemon, Prince of Dragonstone, husband of Lady Jocelyn and father of Rhaenys, was sent to lead the assault on Tarth with Caraxes (fab-the-long-reign-cont-14-p04:175)
+- He bade his pregnant daughter stay behind, his last words to her about wanting a grandson (fab-the-long-reign-cont-14-p04:183)
+- A Myrish crossbow bolt aimed at the Evenstar struck him instead (fab-the-long-reign-cont-14-p04:193)
+- He died in 92 AC, drowned on his own blood, aged thirty-seven (fab-the-long-reign-cont-14-p04:195)

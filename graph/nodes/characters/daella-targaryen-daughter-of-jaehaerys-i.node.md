@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Daella_Targaryen_(daughter_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -97,3 +97,11 @@ Daella worshiped her mother, Queen Alysanne, and liked her sister, Princess [Mae
 - CULTURE_OF: Crownlands (track_b: Culture)
 - DIED_AT: Eyrie (track_b: Died)
 - BURIED_AT: Dragonstone (track_b: Buried)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Daughter of King Jaehaerys and Queen Alysanne, so delicate she feared crowds and cats and dreaded a bedding. She wed Lord Rodrik Arryn and went to the Vale, clashing at once with his eldest daughter Elys but doting on the younger children. She bore a daughter, Aemma, a fortnight early after a long and troubled labor (fab-the-long-reign-cont-14-p03:59)
+- Childbed fever set in and she died at eighteen in 82 AC (fab-the-long-reign-cont-14-p03:63)
+- — and Alysanne had her burned and her ashes interred on Dragonstone (fab-the-long-reign-cont-14-p03:65)

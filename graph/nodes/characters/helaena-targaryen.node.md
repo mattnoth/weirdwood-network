@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Helaena_Targaryen"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -71,3 +71,22 @@ You hear that, little boy? Your momma wants you dead.(wiki:Helaena_Targaryen.cit
 Though [Blood and Cheese](wiki:Blood_and_Cheese) had spared her life, Queen Helaena cannot be said to have survived that fateful dusk.(wiki:Helaena_Targaryen.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
 [This unnatural queen](wiki:Rhaenyra_Targaryen) who sits bleeding on the [Iron Throne](wiki:Iron_Throne), her [whore](wiki:Whore)'s lips glistening and red with the blood of her sweet sister.(wiki:Helaena_Targaryen.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-5)
 I want to see my sons again, and Helaena, my sweet girl...(wiki:Helaena_Targaryen.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- She bore the twins Jaehaerys and Jaehaera in 123 AC and Maelor in 127 AC (fab-heirs-of-the-dragon-15-p03:149)
+- Alicent's daughter, a dragonrider of Dreamfyre, wed to her brother Aegon at thirteen (fab-heirs-of-the-dragon-15-p03:145)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Princess Helaena, Aegon's wife and sister, was breaking her fast with her children when the Kingsguard came seeking her husband (fab-the-blacks-and-the-greens-16-p01:123)
+- Her mother crowned her queen at the coronation (fab-the-blacks-and-the-greens-16-p01:171)
+- Her mount was Dreamfyre and her twins had hatchling dragons (fab-the-blacks-and-the-greens-16-p01:211)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Queen, wife and sister of Aegon II, mother of Jaehaerys, Jaehaera, and Maelor; she brought her children each evening to see their grandmother (fab-the-blacks-and-the-greens-16-p02:267)
+- Cornered by Blood and Cheese and forced to choose a son to die, on her knees she named her youngest, Maelor (fab-the-blacks-and-the-greens-16-p02:271)
+- Blood then slew her heir Jaehaerys instead (fab-the-blacks-and-the-greens-16-p02:271)

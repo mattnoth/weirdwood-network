@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -151,3 +151,26 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 - Named Princess of Dragonstone and her father's heir, hundreds of lords did her obeisance (fab-heirs-of-the-dragon-15-p02:35)
 - She was the center of two rival accounts of scandal involving her uncle and Cole, was forced to consent to marry Laenor under threat, and bore a son in 114 AC (fab-heirs-of-the-dragon-15-p02:141)
 - She always styled Alicent's sons her halfbrothers (fab-heirs-of-the-dragon-15-p02:139)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Widowed in 120 AC, she wed her uncle Daemon and bore him Aegon the Younger and Viserys (fab-heirs-of-the-dragon-15-p03:129)
+- She had Vaemond Velaryon beheaded for calling her sons bastards (fab-heirs-of-the-dragon-15-p03:165)
+- Her healer Gerardys later saved the wounded king's life (fab-heirs-of-the-dragon-15-p03:169)
+- The king's heir, who bore Lucerys late in 115 AC and Joffrey in 117 AC (fab-heirs-of-the-dragon-15-p03:33)
+- She grew estranged from Queen Alicent and kept to Dragonstone (fab-heirs-of-the-dragon-15-p03:37)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Rhaenyra was the only surviving child of King Viserys's first marriage and one of the two principal claimants to the Iron Throne (fab-the-blacks-and-the-greens-16-p01:21)
+- She was confined on Dragonstone, about to give birth, when her father died, and the news drove her into a black fury that brought on her labor early (fab-the-blacks-and-the-greens-16-p01:185)
+- She then convened her own council and swore vengeance (fab-the-blacks-and-the-greens-16-p01:191)
+- Once well-loved as the Realm's Delight, she was now a woman aged by six childbirths, with the wealth of House Velaryon and dragons to her side (fab-the-blacks-and-the-greens-16-p01:207)
+- The child came forth a stillborn, malformed girl she named Visenya (fab-the-blacks-and-the-greens-16-p01:189)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Crowned on Dragonstone by her husband Daemon with the Old King's stolen crown before three hundred witnesses, proclaimed Queen of the Andals, the Rhoynar, and the First Men (fab-the-blacks-and-the-greens-16-p02:23)
+- Her first act as queen was to declare Otto Hightower and Queen Alicent traitors and rebels (fab-the-blacks-and-the-greens-16-p02:25)
+- She named her eldest son Jacaerys her heir (fab-the-blacks-and-the-greens-16-p02:23)
+- She collapsed on learning of Luke's death (fab-the-blacks-and-the-greens-16-p02:255)

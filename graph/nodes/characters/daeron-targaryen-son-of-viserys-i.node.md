@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Daeron_Targaryen_(son_of_Viserys_I)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -64,3 +64,15 @@ Ormund: Ser Daeron the Daring.Daeron: My Lord is kind to say so, but the victory
 ## Quotes
 
 Little boys should be more mannerly when men are speaking. I think [your father](wiki:Viserys_I_Targaryen) did not beat you often enough. Take care I do not make up for his lack.(wiki:Daeron_Targaryen_(son_of_Viserys_I).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Alicent's youngest and most popular son, clever and courteous, who had the dragon Tessarion but had yet to ride (fab-heirs-of-the-dragon-15-p03:85)
+- At twelve in 126 AC he was sent to Oldtown to squire for Lord Hightower (fab-heirs-of-the-dragon-15-p03:161)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Prince Daeron, the youngest and gentlest of Alicent's children, was away in Oldtown serving Lord Hightower as squire (fab-the-blacks-and-the-greens-16-p01:119)
+- His dragon was the cobalt-and-copper Tessarion (fab-the-blacks-and-the-greens-16-p01:211)

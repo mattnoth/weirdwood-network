@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -133,3 +133,26 @@ It was widely known that the promiscuous Aegon had fathered several [bastards](w
 > Let the [ravens](wiki:Raven) fly that [the realm](wiki:Seven_Kingdoms) may know [the pretender](wiki:Rhaenyra_Targaryen) is dead, and their true king is coming [home](wiki:Red_Keep) to reclaim [his father’s](wiki:Viserys_I_Targaryen) [throne](wiki:Iron_Throne).(wiki:Aegon_II_Targaryen.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-16)
 >
 > —Aegon after the death of [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- He rode Sunfyre, said the most beautiful dragon ever seen (fab-heirs-of-the-dragon-15-p03:85)
+- If Mushroom is believed, he fathered two bastards the year of his twins (fab-heirs-of-the-dragon-15-p03:155)
+- Alicent's eldest son, wed to his sister Helaena in 122 AC at fifteen, a lazy glutton and lecher (fab-heirs-of-the-dragon-15-p03:145)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Aegon was Viserys's eldest son by his second wife and the greens' candidate for the throne (fab-the-blacks-and-the-greens-16-p01:21)
+- In Eustace's account he at first refused, protesting his sister's better right (fab-the-blacks-and-the-greens-16-p01:129)
+- He was crowned in the Dragonpit with the Conqueror's crown and proclaimed Second of His Name (fab-the-blacks-and-the-greens-16-p01:171)
+- Impatient in the days before, he had demanded the crown (fab-the-blacks-and-the-greens-16-p01:163)
+- After the crowning he mounted his dragon Sunfyre and then the Iron Throne before a thousand lords (fab-the-blacks-and-the-greens-16-p01:183)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- King at 22, quick to anger; on hearing of Rhaenyra's coronation demanded his half-sister and uncle be attainted, arrested, and killed (fab-the-blacks-and-the-greens-16-p02:31)
+- He grudgingly permitted Orwyle's peace embassy after his mother and wife urged it, then declared war after Rhaenyra's refusal (fab-the-blacks-and-the-greens-16-p02:61)
+- He welcomed Aemond home after Luke's death with a feast (fab-the-blacks-and-the-greens-16-p02:251)
+- In grief and fury he had all the city's ratcatchers hanged (fab-the-blacks-and-the-greens-16-p02:277)

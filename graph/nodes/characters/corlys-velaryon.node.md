@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corlys_Velaryon"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 4
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -150,3 +150,15 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 - He would later sail nine great voyages aboard the Sea Snake, reaching Yi Ti, Leng, and Asshai (fab-the-long-reign-13:75)
 - He became the first Westerosi to reach Asshai, and House Velaryon doubled its wealth from his first voyage (fab-the-long-reign-13:75)
 - In Asshai's harbor he glimpsed a ship he swore was the Sun Chaser, though the account is hedged (fab-the-long-reign-13:75)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Corlys Velaryon of Driftmark, Lord of the Tides, "the Sea Snake," was hailed as the greatest seafarer Westeros had known (fab-the-long-reign-cont-14-p04:159)
+- He came home after nine voyages to wed Rhaenys at thirty-seven (fab-the-long-reign-cont-14-p04:159)
+- In the Tarth campaign he was to bring the Velaryon fleet south to guard Lord Boremund's crossing (fab-the-long-reign-cont-14-p04:179)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- The Sea Snake, Lord of the Tides, who mourned first his daughter Laena then his son Laenor in 120 AC (fab-heirs-of-the-dragon-15-p03:71)
+- Stricken by fever in 126 AC, he raised the question of who should succeed him (fab-heirs-of-the-dragon-15-p03:163)
+- He offered ten thousand golden dragons for Laenor's killer (fab-heirs-of-the-dragon-15-p03:77)

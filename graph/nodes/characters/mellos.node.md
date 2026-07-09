@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Mellos"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -38,3 +38,10 @@ Mellos's written accounts were used frequently by Archmaester [Gyldayn](wiki:Gyl
 ## Quotes
 
 What of it? I am not fond of fish, but when fish is served, I eat it.(wiki:Mellos.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- He washed and bound the king's cut hand, then collapsed and died on the serpentine steps (fab-heirs-of-the-dragon-15-p03:187)
+- Grand Maester and moderating council voice, who hinted at the sons' bastardy and mused the king himself might have ordered the Harrenhal fire (fab-heirs-of-the-dragon-15-p03:121)

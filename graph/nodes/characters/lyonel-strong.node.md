@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lyonel_Strong"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -55,3 +55,9 @@ This [Hand](wiki:Hand_of_the_King) will not hector me.(wiki:Lyonel_Strong.cite_r
 
 - Lord of Harrenhal, a big balding man reputed a battler but learned, having earned six links at the Citadel (fab-heirs-of-the-dragon-15-p02:29)
 - Thrice-widowed, he brought two daughters and two sons to court and joined the small council as master of laws (fab-heirs-of-the-dragon-15-p02:29)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Lord of Harrenhal and Hand of the King, on whom Viserys relied (fab-heirs-of-the-dragon-15-p03:125)
+- He returned to Harrenhal with his son and died there when fire broke out in their tower (fab-heirs-of-the-dragon-15-p03:119)
+- The cause was never determined and many blamed foul play (fab-heirs-of-the-dragon-15-p03:121)

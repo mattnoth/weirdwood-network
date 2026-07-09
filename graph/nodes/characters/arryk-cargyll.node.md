@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Arryk_Cargyll"
 bucket_id: characters-house-cargyll
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Arryk Cargyll is a character.human from the AWOIAF wiki.
+Arryk Cargyll — Ser Arryk Cargyll, twin to Erryk, was among the Kingsguard in King's Landing and led Aegon II into the throne room.
 
 ## Edges
 
@@ -67,3 +67,9 @@ Queen [Cersei Lannister](wiki:Cersei_Lannister) thinks that if Ser [Loras Tyrell
 > **Erryk:** I love you, brother. **Arryk:** And I you, brother.(wiki:Arryk_Cargyll.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
 >
 > —[Erryk](wiki:Erryk_Cargyll) and Arryk Cargyll, drawing their swords
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Ser Arryk Cargyll, twin to Erryk, was among the Kingsguard in King's Landing and led Aegon II into the throne room (fab-the-blacks-and-the-greens-16-p01:183)

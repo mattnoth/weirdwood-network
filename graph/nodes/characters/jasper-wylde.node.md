@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jasper_Wylde"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Jasper Wylde is a character from the AWOIAF wiki.
+Jasper Wylde — Lord Jasper Wylde, called Ironrod, master of laws, argued precedent and Andal tradition against Rhaenyra.
 
 ## Edges
 
@@ -41,3 +41,10 @@ Jasper was taken captive by Rhaenyra during the [fall of King's Landing](wiki:Fa
 Otto: Such men as bend the knee and swear fealty to King [Aegon](wiki:Aegon_II_Targaryen) shall suffer no harm at our hands.
 Orwyle: And those who will not?
 Two [dragons](wiki:Dragon) are better than one.(wiki:Jasper_Wylde.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Lord Jasper Wylde, called Ironrod, master of laws, argued precedent and Andal tradition against Rhaenyra (fab-the-blacks-and-the-greens-16-p01:59)
+- He pronounced any who would not swear to Aegon traitors (fab-the-blacks-and-the-greens-16-p01:113)

@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Blood_(butcher)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -39,3 +39,10 @@ Blood was seized two days later at the [Gate of the Gods](wiki:Gate_of_the_Gods)
 ## Quotes
 
 It has to be a boy.(wiki:Blood_(butcher).cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Former City Watch serjeant, big and brutal, who had lost his gold cloak for beating a whore to death; led by Cheese into the castle, he slew the guardsman and struck off Prince Jaehaerys's head (fab-the-blacks-and-the-greens-16-p02:259)
+- Seized at the Gate of the Gods with the head, he confessed under torture before being allowed to die (fab-the-blacks-and-the-greens-16-p02:275)

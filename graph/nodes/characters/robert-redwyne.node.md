@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Redwyne"
 bucket_id: characters-house-redwyne
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Robert Redwyne is a character.human from the AWOIAF wiki.
+Robert Redwyne — Ser Robert Redwyne, commander of the City Watch, who delivered the three lords to the king and ignored their threats and bribery.
 
 ## Edges
 
@@ -32,3 +32,9 @@ Robert was the eldest(wiki:Robert_Redwyne.cite_ref-Rfabthe_long_reign_-_jaehaery
 After the death of Ser [Qarl Corbray](wiki:Qarl_Corbray), who succumbed to the [Shivers](wiki:Shivers) in [59 AC](wiki:59_AC), Robert, by now a [knight](wiki:Knight), was appointed to command the [City Watch of King's Landing](wiki:City_Watch_of_King's_Landing).(wiki:Robert_Redwyne.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
 Robert's father, Lord [Manfryd Redwyne](wiki:Manfryd_Redwyne), passed away in [89 AC](wiki:Years_after_Aegon's_Conquest), making Robert the new Lord of the Arbor. Robert followed his father into the grave soon thereafter, however.(wiki:Robert_Redwyne.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Ser Robert Redwyne, commander of the City Watch, who delivered the three lords to the king and ignored their threats and bribery (fab-the-long-reign-cont-14-p03:139)

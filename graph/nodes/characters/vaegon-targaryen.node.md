@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Vaegon_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -109,3 +109,7 @@ Born 63 AC, died in or after 101 AC (track_b: Born, Died).
 - Prince Vaegon, born 63 AC, was quiet, sour, and unlike his elder brothers, preferring books to the yard. (fab-the-long-reign-cont-14-p02:23)
 - He publicly refused to wed his sister Daella, mocking her as unable to read. (fab-the-long-reign-cont-14-p02:111)
 - Grand Maester Elysar judged he had the makings of an archmaester, and he was sent to the Citadel. (fab-the-long-reign-cont-14-p02:163)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Vaegon, an archmaester at the Citadel, had grown a cold and distant man who wrote dutifully but without warmth (fab-the-long-reign-cont-14-p04:241)

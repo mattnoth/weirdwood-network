@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Grover_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Grover Tully — Aged, bedridden Lord Paramount of the Trident who had spoken for the male claimant at the Great Council of 101 and insisted Riverrun fight for Aegon.
 
 ## Origins
 
@@ -33,3 +37,10 @@ An old man in [101 AC](wiki:101_AC), Grover was bedridden and failing by [130 
 - CULTURE_OF: Rivermen (track_b: Culture)
 - PARENT_OF: Sons (track_b: Issue)
 - DIED_AT: Riverrun (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Aged, bedridden Lord Paramount of the Trident who had spoken for the male claimant at the Great Council of 101 and insisted Riverrun fight for Aegon (fab-the-blacks-and-the-greens-16-p02:105)
+- His grandson Elmo overrode him, keeping Riverrun's gates barred (fab-the-blacks-and-the-greens-16-p02:105)

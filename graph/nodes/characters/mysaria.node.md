@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mysaria"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -55,3 +55,7 @@ Let [Daemon](wiki:Daemon_Targaryen) slake his hungers where he will, and we shal
 
 - Daemon's paramour, whom he took to Dragonstone and got with child before giving her a dragon's egg (fab-heirs-of-the-dragon-15-p02:43)
 - Commanded away, she was sent back to Lys and miscarried in a storm (fab-heirs-of-the-dragon-15-p02:43)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Daemon's trusted pale go-between, an older foreign-spoken woman called "Misery" by the harlots and known as the White Worm; never found despite the gold cloaks' search (fab-the-blacks-and-the-greens-16-p02:277)

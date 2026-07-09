@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 13
+node_version: 15
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -330,3 +330,15 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 - He granted Rogar Baratheon leave and aid to hunt Borys and the Vulture King (fab-the-long-reign-cont-14-p01:185)
 - He slew Borys with Blackfyre in the mountains (fab-the-long-reign-cont-14-p01:201)
 - In 62 AC he named Aemon Prince of Dragonstone and launched his road-building project (fab-the-long-reign-cont-14-p01:229)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- King and husband of Queen Alysanne. He named Prince Aemon justiciar and master of laws in Rodrik Arryn's place, and led his sons Aemon and Baelon with dragons to destroy Morion Martell's fleet, having long known of the attack through spies (fab-the-long-reign-cont-14-p03:81)
+- In the Saera affair he sat in judgment from the Iron Throne, imprisoned her three lords, and after her taunts disowned her (fab-the-long-reign-cont-14-p03:231)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- He personally answered Braxton Beesbury's trial by combat, bearing Blackfyre against the younger man (fab-the-long-reign-cont-14-p04:33)
+- He killed the seducer of his daughter by driving the sword into his eye (fab-the-long-reign-cont-14-p04:33)
+- He refused all appeals to bring Saera home from Lys (fab-the-long-reign-cont-14-p04:115)
+- After Aemon's death he grieved to the end of his days and drank honeyed wine to sleep (fab-the-long-reign-cont-14-p04:217)

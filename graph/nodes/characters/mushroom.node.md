@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mushroom"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -106,3 +106,8 @@ Mushroom is significant as a meta-narrative device in Fire & Blood. His accounts
 
 - The court fool whose verbal account became The Testimony of Mushroom, a three-foot dwarf thought feeble-minded before whom lords did not guard their secrets (fab-heirs-of-the-dragon-15-p01:203)
 - His ribald chronicle was ordered burned by King Baelor the Blessed (fab-heirs-of-the-dragon-15-p01:203)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Mushroom the dwarf, author of the Testimony, was on Dragonstone with Rhaenyra, not in King's Landing at the king's death (fab-the-blacks-and-the-greens-16-p01:45)
+- He alleges Alicent poisoned the king and paints the crudest pictures of Aegon and Beesbury's death (fab-the-blacks-and-the-greens-16-p01:45)

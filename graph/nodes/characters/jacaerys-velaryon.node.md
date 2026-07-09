@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jacaerys_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -87,3 +87,15 @@ Broken after the [loss of one son](wiki:Lucerys_Velaryon), [Rhaenyra Targaryen](
 
 - Rhaenyra's son, born in the waning days of 114 AC, a strapping lad with brown hair, brown eyes, and a pug nose (fab-heirs-of-the-dragon-15-p02:179)
 - Given a Velaryon name over Laenor's wish to call him Joffrey (fab-heirs-of-the-dragon-15-p02:181)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Jacaerys, Rhaenyra's eldest son at fourteen, rode Vermax and sat the black council (fab-the-blacks-and-the-greens-16-p01:193)
+- He proposed that he and his brothers bear the messages to the lords on dragonback (fab-the-blacks-and-the-greens-16-p01:261)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Rhaenyra's 14-year-old eldest son, named Prince of Dragonstone and heir; sent north as an envoy under sworn oath not to fight. Flying Vermax, he won the Vale from Lady Jeyne Arryn (fab-the-blacks-and-the-greens-16-p02:109)
+- At White Harbor he sealed a compact betrothing his brother Joffrey to a Manderly daughter (fab-the-blacks-and-the-greens-16-p02:129)
+- At Winterfell he reached the Pact of Ice and Fire with Cregan Stark (fab-the-blacks-and-the-greens-16-p02:159)
+- He had been betrothed to his cousin Baela since he was four (fab-the-blacks-and-the-greens-16-p02:153)

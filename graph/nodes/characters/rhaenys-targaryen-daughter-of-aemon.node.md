@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen_(daughter_of_Aemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -75,3 +75,16 @@ Beloved daughter of Lady [Jocelyn Baratheon](wiki:Jocelyn_Baratheon) and Prince 
 - In 90 AC at sixteen she wed Corlys Velaryon and was with child when her father died (fab-heirs-of-the-dragon-15-p01:33)
 - She was the first to object to being passed over, telling the king he would rob her son of his birthright (fab-heirs-of-the-dragon-15-p01:41)
 - Her claim and her daughter Laena's were set aside at the Great Council on account of their sex (fab-heirs-of-the-dragon-15-p01:103)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Rhaenys, eldest grandchild of Jaehaerys and a dragonrider since thirteen, flew to the king's side on Meleys (fab-the-long-reign-cont-14-p04:139)
+- She won the king's blessing for her marriage on Greenshield (fab-the-long-reign-cont-14-p04:139)
+- She wed Corlys Velaryon in 90 AC, arriving on Meleys (fab-the-long-reign-cont-14-p04:157)
+- By the time of Aemon's death she had just learned she was expecting (fab-the-long-reign-cont-14-p04:179)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- She enumerated the two sides' dragons and urged finding riders for the Dragonmont beasts (fab-the-blacks-and-the-greens-16-p01:219)
+- Long ago the Old King chose Baelon over her, and House Baratheon remained staunch for her claims (fab-the-blacks-and-the-greens-16-p01:79)
+- Princess Rhaenys, Corlys's wife, five-and-fifty, the Queen Who Never Was, was still fierce and had been a dragonrider longer than any at the black council (fab-the-blacks-and-the-greens-16-p01:197)

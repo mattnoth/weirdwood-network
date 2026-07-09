@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Otto_Hightower"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -116,3 +116,20 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 - He wrote to his brother the Lord of Oldtown against Daemon's succession (fab-heirs-of-the-dragon-15-p02:15)
 - At that time he favored Rhaenyra's claim (fab-heirs-of-the-dragon-15-p02:15)
 - As Alicent's father he became the loudest of her supporters, and in 109 AC Viserys stripped him of his chain (fab-heirs-of-the-dragon-15-p02:91)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Ser, the queen's father, recalled to the Handship after Lyonel Strong's death (fab-heirs-of-the-dragon-15-p03:127)
+- He remained the King's Hand and led the council as Viserys's strength failed (fab-heirs-of-the-dragon-15-p03:203)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Ser Otto Hightower, the queen's father and Hand of the King, was empowered to rule in the king's absence and steered the green council toward Aegon's coronation (fab-the-blacks-and-the-greens-16-p01:59)
+- He ordered Lord Beesbury seized (per Orwyle) and set the greens' preparations in motion, dividing the treasury and courting allies (fab-the-blacks-and-the-greens-16-p01:161)
+- He sent his grandson Aemond to win Storm's End by marriage (fab-the-blacks-and-the-greens-16-p01:155)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Ser Otto, Hand of the King and father of Alicent; branded the loyalist defectors "turncloaks" and offered a reward for their capture (fab-the-blacks-and-the-greens-16-p02:23)
+- He rebuked Aemond after Luke's death (fab-the-blacks-and-the-greens-16-p02:251)
+- He later brought a hundred cats into the Red Keep after the ratcatchers were hanged (fab-the-blacks-and-the-greens-16-p02:277)

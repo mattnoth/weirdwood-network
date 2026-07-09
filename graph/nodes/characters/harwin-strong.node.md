@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Harwin_Strong"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -51,3 +51,9 @@ In [120 AC](wiki:120_AC), after Prince [Aemond Targaryen](wiki:Aemond_Targaryen)
 - Ser Harwin, called Breakbones, Lyonel's eldest son and heir to Harrenhal, said to be the strongest man in the realm, was made a captain of the gold cloaks (fab-heirs-of-the-dragon-15-p02:29)
 - Mushroom names him the man who took Rhaenyra's innocence (fab-heirs-of-the-dragon-15-p02:155)
 - After her wedding he became foremost of the blacks at her side (fab-heirs-of-the-dragon-15-p02:171)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Ser, called Breakbones, Rhaenyra's champion and sworn shield, sent back to Harrenhal (fab-heirs-of-the-dragon-15-p03:111)
+- He died with his father in the fire at Harrenhal in 120 AC (fab-heirs-of-the-dragon-15-p03:119)
+- Amongst the greens it was an article of faith he, not Laenor, fathered Rhaenyra's sons (fab-heirs-of-the-dragon-15-p03:45)

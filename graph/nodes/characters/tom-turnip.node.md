@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Tom_Turnip
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Tom Turnip — The king's half-witted fool, victim and unwitting catspaw of Saera's japes; she once had him climb the Iron Throne, which cut his arms and legs, and later had him brought naked to the Blue Pearl.
 
 ## Origins
 
@@ -36,3 +40,9 @@ Tom was described as a [simpleton](wiki:Simpleton). He was clumsy and prone to t
 - SWORN_TO: House Targaryen (cite: track_b: Allegiance)
 - CULTURE_OF: Crownlands (cite: track_b: Culture)
 - LOCATED_AT: Red Keep (cite: wiki:Tom_Turnip)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- The king's half-witted fool, victim and unwitting catspaw of Saera's japes; she once had him climb the Iron Throne, which cut his arms and legs, and later had him brought naked to the Blue Pearl (fab-the-long-reign-cont-14-p03:117)

@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Viserra_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Viserra Targaryen — Viserra, the most beautiful of the queen's daughters, was betrothed at fifteen in 86 AC to old Lord Theomore Manderly.
 
 ## Origins
 
@@ -51,3 +55,13 @@ According to Alysanne, Viserra desired to become a queen, and therefore aimed to
 ## Notes
 
 Born 71 AC, died 87 AC (track_b: Born, Died).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Viserra, the most beautiful of the queen's daughters, was betrothed at fifteen in 86 AC to old Lord Theomore Manderly (fab-the-long-reign-cont-14-p04:61)
+- She wanted her brother Baelon and the queenship, not the match (fab-the-long-reign-cont-14-p04:69)
+- She once offered her maidenhead to any boy who put his head in a dragon's mouth (fab-the-long-reign-cont-14-p04:67)
+- On a wild night ride she was thrown from her palfrey at the foot of Aegon's High Hill in 87 AC (fab-the-long-reign-cont-14-p04:99)
+- She slipped drunk and naked into Baelon's bed and was sent away (fab-the-long-reign-cont-14-p04:83)

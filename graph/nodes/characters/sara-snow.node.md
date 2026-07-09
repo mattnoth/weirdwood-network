@@ -7,9 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Sara_Snow
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 ---
+
+## Identity
+
+Sara Snow — A "wolf girl" of Mushroom's account, said to be a bastard daughter of the late Lord Rickon Stark. According to Mushroom, Jacaerys lay with her and wed her in Winterfell's godswood.
 
 ## Origins
 
@@ -23,3 +27,9 @@ Archmaester [Gyldayn](wiki:Gyldayn) questions whether Sara ever existed and dism
 - CULTURE_OF: Northmen (cite: track_b: Culture)
 - PARENT_OF: Rickon Stark → Sara Snow (cite: track_b: Father)
 - SPOUSE_OF: Jacaerys Velaryon (cite: track_b: Spouse) — possibly; disputed
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- A "wolf girl" of Mushroom's account, said to be a bastard daughter of the late Lord Rickon Stark. According to Mushroom, Jacaerys lay with her and wed her in Winterfell's godswood (fab-the-blacks-and-the-greens-16-p02:149)

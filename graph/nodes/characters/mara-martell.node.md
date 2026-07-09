@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Mara_Martell
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Mara Martell — Became the Princess of Dorne after the Fourth Dornish War.
 
 ## Origins
 
@@ -26,3 +30,9 @@ Mara became the ruling Princess of Dorne in [83 AC](wiki:83_AC) after the death
 ## Notes
 
 Two death dates in infobox (83 and 101 AC) suggest an uncertain date range (track_b: Died).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Became the Princess of Dorne after the Fourth Dornish War (fab-the-long-reign-cont-14-p03:87)

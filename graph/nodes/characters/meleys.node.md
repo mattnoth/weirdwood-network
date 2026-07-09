@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Meleys"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Meleys is a dragon from the AWOIAF wiki.
+Meleys the Red Queen, Rhaenys's she-dragon, had grown lazy but stayed fearsome when roused.
 
 ## Edges
 
@@ -41,3 +41,9 @@ From the ashes, only Aemond and Vhagar rose unharmed. Meleys had half torn one o
 
 Red [maidens](wiki:Maiden), the two of us, but now we've both been mounted.(wiki:Meleys.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 With a glad cry and a crack of her whip, she turned Meleys toward the foe.(wiki:Meleys.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Meleys the Red Queen, Rhaenys's she-dragon, had grown lazy but stayed fearsome when roused (fab-the-blacks-and-the-greens-16-p01:213)

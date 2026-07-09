@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Desmond_Manderly"
 bucket_id: characters-house-manderly
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Desmond Manderly is a character.human from the AWOIAF wiki.
+Desmond Manderly — Lord of White Harbor, a shrewd bargainer who received Jacaerys in the Merman's Court and recalled the Old King's broken promise of Princess Viserra's hand to his great-grandsire.
 
 ## Edges
 
@@ -48,3 +48,9 @@ Desmond was a shrewd negotiator.(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of
 > Mine own [forebears](wiki:House_Manderly) were despoiled of their [birthright](wiki:Dunstonbury) when [our enemies](wiki:House_Peake) drove us into exile on these cold [northern shores](wiki:White_Knife). When the [Old King](wiki:Jaehaerys_I_Targaryen) [visited](wiki:Royal_progress) us so long ago, he spoke of the wrong that had been done to us and promised to make redress. In pledge of that, His Grace offered the hand of his daughter Princess [Viserra](wiki:Viserra_Targaryen) to my [great-grandsire](wiki:Theomore_Manderly), that our two houses might be made as one, but the girl died and the promise was forgotten.(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 >
 > —Desmond to [Jacaerys Velaryon](wiki:Jacaerys_Velaryon)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Lord of White Harbor, a shrewd bargainer who received Jacaerys in the Merman's Court and recalled the Old King's broken promise of Princess Viserra's hand to his great-grandsire (fab-the-blacks-and-the-greens-16-p02:123)

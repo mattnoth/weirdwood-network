@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Saera_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -98,3 +98,17 @@ No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise
 
 - Daughter of Jaehaerys, alive in Volantis at thirty-four; three of her bastard sons came to press claims though she declined to press her own (fab-heirs-of-the-dragon-15-p01:103)
 - She said she had her own kingdom in Volantis (fab-heirs-of-the-dragon-15-p01:103)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- The ninthborn child of King Jaehaerys and Queen Alysanne, born 67 AC, willful and voracious where her sister Daella was timid (fab-the-long-reign-cont-14-p03:105)
+- As a girl she tormented Daella with cats and bees, dyed the Kingsguard's white cloaks pink, stole wine, and used the fool Tom Turnip as her catspaw. She took three young lords — Jonah Mooton, Red Roy Connington, and Stinger Beesbury — as lovers and confessed she had given her maidenhead to all three (fab-the-long-reign-cont-14-p03:215)
+- When confined she escaped in a washerwoman's robes toward the Dragonpit and was taken and confined to a tower cell (fab-the-long-reign-cont-14-p03:243)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Saera was sent to the Faith at Oldtown, her sister Septa Maegelle charged with her instruction, to be a novice with the silent sisters (fab-the-long-reign-cont-14-p04:39)
+- After a year and a half she fled the motherhouse in 85 AC (fab-the-long-reign-cont-14-p04:47)
+- In her escape she threw an older sister down the stairs (fab-the-long-reign-cont-14-p04:49)
+- A year later she was found in a Lysene pleasure garden, still dressed as a novice (fab-the-long-reign-cont-14-p04:51)
+- She later moved to Volantis, an infamous but wealthy woman, and left her mother's secret letters unanswered (fab-the-long-reign-cont-14-p04:241)

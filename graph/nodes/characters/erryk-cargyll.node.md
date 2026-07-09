@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Erryk_Cargyll"
 bucket_id: characters-house-cargyll
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Erryk Cargyll is a character.human from the AWOIAF wiki.
+Erryk Cargyll — Ser, of the Kingsguard, appointed to serve as Rhaenyra's sworn shield on Dragonstone.
 
 ## Edges
 
@@ -68,3 +68,13 @@ Queen [Cersei Lannister](wiki:Cersei_Lannister) thinks that if Ser [Loras Tyrell
 > **Erryk:** I love you, brother. **Arryk:** And I you, brother.(wiki:Erryk_Cargyll.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
 >
 > —Erryk and [Arryk Cargyll](wiki:Arryk_Cargyll), drawing their swords
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Ser, of the Kingsguard, appointed to serve as Rhaenyra's sworn shield on Dragonstone (fab-heirs-of-the-dragon-15-p03:111)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Ser Erryk Cargyll, twin to Arryk, was on Dragonstone with Rhaenyra and stood at her black council (fab-the-blacks-and-the-greens-16-p01:193)

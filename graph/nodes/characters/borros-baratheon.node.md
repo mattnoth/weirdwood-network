@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Borros_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -86,3 +86,14 @@ Borros had a beard.(wiki:Borros_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_
 ## Notes
 
 Born between 64 and 104 AC — the track_b data gives two Born values. Died 131 AC on the kingsroad (track_b: Died).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Borros Baratheon, son of the late Boremund and Lord of Storm's End, was even more belligerent than his father (fab-the-blacks-and-the-greens-16-p01:151)
+- Aemond was sent to wed one of his four daughters and so win the stormlands (fab-the-blacks-and-the-greens-16-p01:155)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- He rejected Rhaenyra's suit once Luke refused to marry a daughter (fab-the-blacks-and-the-greens-16-p02:219)

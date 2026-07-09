@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 13
+node_version: 14
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
@@ -263,3 +263,12 @@ Parser `first_available` was AFFC ch 5, but cite_refs show references as early a
 - She won the wells and "queen's fountains" for King's Landing by daring the council to drink river water (fab-jaehaerys-and-alysanne-triumphs-12-p02:119)
 - She made the northern progress alone, charming White Harbor and eventually Winterfell, and won the Night's Watch by funding Deep Lake with her jewels (fab-jaehaerys-and-alysanne-triumphs-12-p02:201)
 - From tales heard at Mole's Town she moved the council to abolish the lord's right to the first night (fab-jaehaerys-and-alysanne-triumphs-12-p02:257)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Good Queen Alysanne loved her subjects, her women's courts, music, dancing, reading, and flying on Silverwing (fab-the-long-reign-cont-14-p04:219)
+- After her losses she withdrew from the governance of the realm (fab-the-long-reign-cont-14-p04:55)
+- She never quite forgave the king over Saera and went to Dragonstone alone to grieve (fab-the-long-reign-cont-14-p04:125)
+- Age broke her: she fell on the serpentine steps in 95 AC and lost her hearing (fab-the-long-reign-cont-14-p04:223)
+- She said of her decline (fab-the-long-reign-cont-14-p04:223)
+- She died on Dragonstone in 100 AC, a century after the Conquest, aged sixty-four (fab-the-long-reign-cont-14-p04:253)

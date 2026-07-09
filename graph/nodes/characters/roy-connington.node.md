@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Roy_Connington"
 bucket_id: characters-house-connington
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Roy Connington is a character.human from the AWOIAF wiki.
+Roy Connington — Red Roy Connington refused to wed Alys Turnberry or claim Stinger's bastard as heir to Griffin's Roost.
 
 ## Edges
 
@@ -39,3 +39,11 @@ King Jaehaerys gave Roy the choice of his punishment: joining the [Night's Watch
 ## Appearances & Description
 
 Presumably, the lord was known as Red Roy due to the characteristic red hair of [House Connington](wiki:House_Connington), as Archmaester [Gyldayn](wiki:Gyldayn) notes red hair as an important quality in a possible child of his.(wiki:Roy_Connington.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Red Roy Connington refused to wed Alys Turnberry or claim Stinger's bastard as heir to Griffin's Roost (fab-the-long-reign-cont-14-p04:17)
+- Given a choice of the Wall or exile, he chose exile across the narrow sea (fab-the-long-reign-cont-14-p04:19)
+- He was killed in Myr (fab-the-long-reign-cont-14-p04:21)

@@ -11,7 +11,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Cregan_Stark"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -164,3 +164,13 @@ While in the [crypt of Winterfell](wiki:Crypt_of_Winterfell), [Bran Stark](wiki:
 ## Notes
 
 The wide death-date range (157–209 AC) reflects the wiki's uncertainty. Rickon Stark listed as both father and son — these are different Rickons: father is Lord Rickon, son is a later Rickon (track_b: Father, Issue).
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Lord of Winterfell at 21, who would become the Old Man of the North; came into his lordship at 13 on his father Rickon's death in 121 AC (fab-the-blacks-and-the-greens-16-p02:137)
+- After his uncle Bennard ruled as regent, Cregan rose up in 126 AC and imprisoned Bennard and his three sons (fab-the-blacks-and-the-greens-16-p02:137)
+- He wed Arra Norrey, who died in 128 AC bearing his son Rickon (fab-the-blacks-and-the-greens-16-p02:137)
+- He gave Jacaerys a warm welcome and sealed the Pact of Ice and Fire (fab-the-blacks-and-the-greens-16-p02:159)
+- Munkun says they swore an oath of brotherhood, while Eustace claims Jacaerys spent his visit trying to convert Cregan to the Seven (fab-the-blacks-and-the-greens-16-p02:145)

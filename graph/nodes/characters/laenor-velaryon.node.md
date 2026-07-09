@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laenor_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -83,3 +83,9 @@ They will turn the [Red Keep](wiki:Red_Keep) into a [brothel](wiki:Brothel). No 
 
 - Corlys's son, a grandson of Prince Aemon and great-grandson of the Old King, was chosen as Rhaenyra's consort though he had never shown interest in women (fab-heirs-of-the-dragon-15-p02:137)
 - Wed to Rhaenyra in 114 AC at twenty, he preferred High Tide and favorites such as Ser Qarl Correy (fab-heirs-of-the-dragon-15-p02:173)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Rhaenyra's husband and the putative father of her children (fab-heirs-of-the-dragon-15-p03:71)
+- He was slain at a fair in Spicetown in 120 AC by his companion Ser Qarl Correy (fab-heirs-of-the-dragon-15-p03:71)
+- According to Septon Eustace, jealousy was the motive, Laenor having taken a new favorite (fab-heirs-of-the-dragon-15-p03:77)

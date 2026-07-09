@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemma_Arryn"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -47,3 +47,7 @@ In early [105 AC](wiki:105_AC), Aemma became pregnant once more, which Viserys j
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
 
 - Queen Aemma was brought to bed in Maegor's Holdfast and died bearing the son Viserys had long desired (fab-heirs-of-the-dragon-15-p02:33)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Daughter of Lord Rodrik Arryn and Princess Daella, born a fortnight early in 82 AC after a troubled labor (fab-the-long-reign-cont-14-p03:59)

@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyland_Lannister"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -74,3 +74,14 @@ Munkun: We must abide by primogeniture, as the [Great Council](wiki:Great_Counci
 ## Quotes
 
 A monster who hides his twisted face from [gods](wiki:Gods) and men.(wiki:Tyland_Lannister.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Ser, the lord admiral and master of ships, brother to the Lord of Casterly Rock (fab-heirs-of-the-dragon-15-p03:203)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Ser Tyland Lannister, master of ships and brother to the Lord of Casterly Rock, dismissed the old oaths to Rhaenyra as void by death and time (fab-the-blacks-and-the-greens-16-p01:79)
+- Named master of coin after Beesbury, he seized and divided the royal treasury (fab-the-blacks-and-the-greens-16-p01:139)

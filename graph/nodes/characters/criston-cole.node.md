@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Criston_Cole"
 bucket_id: characters-house-cole
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -154,3 +154,13 @@ While showing Ser [Loras Tyrell](wiki:Loras_Tyrell) the [White Book](wiki:White_
 - Ser Criston, son of a steward of Lord Dondarrion, joined the Kingsguard in 105 AC after winning the accession melee at Maidenpool (fab-heirs-of-the-dragon-15-p02:21)
 - A comely knight of three-and-twenty, he became Rhaenyra's sworn protector and constant companion (fab-heirs-of-the-dragon-15-p02:23)
 - After her marriage his devotion turned to hatred (fab-heirs-of-the-dragon-15-p02:157)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Ser, Lord Commander of the Kingsguard and a bitter foe to Rhaenyra, who tutored Aemond in arms (fab-heirs-of-the-dragon-15-p03:203)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Ser Criston Cole, Lord Commander of the Kingsguard, confirmed the king's death and roused the small council (fab-the-blacks-and-the-greens-16-p01:49)
+- Two sources charge him with Lord Beesbury's death, and he persuaded a reluctant Aegon to take the crown by warning of certain execution (fab-the-blacks-and-the-greens-16-p01:131)
+- He placed the Conqueror's crown on Aegon's brow (fab-the-blacks-and-the-greens-16-p01:171)

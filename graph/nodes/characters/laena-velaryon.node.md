@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Laena_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -67,3 +67,10 @@ Whilst Princess [Rhaenyra](wiki:Rhaenyra_Targaryen) misliked her stepmother, Que
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->
 
 - Daughter of Corlys and Rhaenys, freshly flowered at twelve, who had claimed Vhagar for her mount (fab-heirs-of-the-dragon-15-p02:45)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- She wed Daemon and bore him twin daughters in Pentos in 116 AC (fab-heirs-of-the-dragon-15-p03:39)
+- In 120 AC she bore a twisted son who died within the hour and succumbed to childbed fever herself at twenty-seven (fab-heirs-of-the-dragon-15-p03:61)
+- Corlys's daughter, a maid of two-and-twenty, tall and lovely, long betrothed to a wastrel son of the Sealord of Braavos (fab-heirs-of-the-dragon-15-p03:19)
+- In her final hour she tried to reach Vhagar to fly a last time (fab-heirs-of-the-dragon-15-p03:63)

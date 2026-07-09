@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Braxton_Beesbury"
 bucket_id: characters-house-beesbury
 prompt_version: v1-python
-node_version: 1
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Braxton Beesbury is a character.human from the AWOIAF wiki.
+Braxton Beesbury — A nineteen-year-old knight called "Stinger," the finest lance in the Reach and heir to Honeyholt, one of Saera's three favorites.
 
 ## Edges
 
@@ -50,3 +50,15 @@ Braxton was handsome and arrogant. Considered the finest young lance of the [Rea
 > **Braxton**: Then I choose [trial by combat](wiki:Trial_by_combat). Which of [these old men](wiki:Kingsguard) do you mean for me to fight?
 >
 > —[Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) and Braxton
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- A nineteen-year-old knight called "Stinger," the finest lance in the Reach and heir to Honeyholt, one of Saera's three favorites (fab-the-long-reign-cont-14-p03:127)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Braxton Beesbury, called Stinger, heir to Honeyholt, drew the harshest punishment for seducing Saera (fab-the-long-reign-cont-14-p04:23)
+- He chose trial by combat, sure of his skill at arms (fab-the-long-reign-cont-14-p04:29)
+- At nineteen he wielded a morningstar against the king but tired and fell (fab-the-long-reign-cont-14-p04:33)

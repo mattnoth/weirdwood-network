@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -251,3 +251,9 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 > That sullen boy.(wiki:Aegon_III_Targaryen.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-26)
 >
 > —[Torrhen Manderly](wiki:Torrhen_Manderly)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Aegon the Younger, eldest of Rhaenyra's two sons by Daemon, commanded the young dragon Stormcloud but had not yet mounted him (fab-the-blacks-and-the-greens-16-p01:213)

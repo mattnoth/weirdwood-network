@@ -8,10 +8,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gael_Targaryen
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Gael Targaryen — Princess Gael, "the Winter Child," was born in 80 AC when Alysanne was forty-four, a sweet but frail and simple girl.
 
 ## Origins
 
@@ -36,3 +40,12 @@ As a babe, Gael was small and pale. She grew to be a shy and sweet girl, althoug
 - DIED_AT: Blackwater Bay (track_b: Died) [99 AC]
 - PARENT_OF (reverse): Jaehaerys I Targaryen (track_b: Father)
 - PARENT_OF (reverse): Alysanne Targaryen (track_b: Mother)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
+
+- Princess Gael, "the Winter Child," was born in 80 AC when Alysanne was forty-four, a sweet but frail and simple girl (fab-the-long-reign-cont-14-p04:235)
+- She vanished from court in 99 AC and was said to have died of a summer fever (fab-the-long-reign-cont-14-p04:237)
+- The true tale, told after her parents' deaths, was that a traveling singer seduced and abandoned her (fab-the-long-reign-cont-14-p04:237)
+- After bearing a stillborn son she drowned herself (fab-the-long-reign-cont-14-p04:237)

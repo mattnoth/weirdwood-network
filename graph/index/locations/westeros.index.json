@@ -3,7 +3,7 @@
   "name": "Westeros",
   "type": "place.region",
   "node_path": "graph/nodes/locations/westeros.node.md",
-  "generated_at": "2026-07-09T19:26:47.228538+00:00",
+  "generated_at": "2026-07-09T20:50:26.535964+00:00",
   "stats": {
     "appearances_total": 34,
     "chapters_referenced_in": 26,

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gerardys
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: Jaime II
 ---
+
+## Identity
+
+Gerardys — Maester, Rhaenyra's experienced healer on Dragonstone, who came too late to save Laena.
 
 ## Origins
 
@@ -41,3 +45,14 @@ By [120 AC](wiki:120_AC), Gerardys was already an older man renowned for his sk
 - SWORN_TO: Blacks (cite: track_b_row.relationships.Allegiances)
 - CULTURE_OF: Westeros (cite: track_b_row.relationships.Culture)
 - DIED_AT: Dragonstone, 130 AC (cite: track_b_row.relationships.Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Maester, Rhaenyra's experienced healer on Dragonstone, who came too late to save Laena (fab-heirs-of-the-dragon-15-p03:61)
+- His swift work removing two of the king's fingers later saved Viserys's life (fab-heirs-of-the-dragon-15-p03:193)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Maester Gerardys, Rhaenyra's trusted counselor, tried to restrain her in her labor and noted that Aegon too had dragons (fab-the-blacks-and-the-greens-16-p01:187)

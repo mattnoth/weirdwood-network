@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Arryn"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -63,3 +63,11 @@ Your Prince [Daemon](wiki:Daemon_Targaryen) used [his first wife](wiki:Rhea_Royc
 In this world of men, we women must band together.(wiki:Jeyne_Arryn.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
 I have no fear of armies. Many and more have broken themselves against my [Bloody Gate](wiki:Bloody_Gate), and the [Eyrie](wiki:Eyrie) is known to be impregnable. But you have [descended on us from the sky](wiki:Dragon), as Queen [Visenya](wiki:Visenya_Targaryen) once did during [the Conquest](wiki:Aegon's_Conquest), and I was powerless to halt you. I mislike feeling powerless. Send me [dragonriders](wiki:Dragonriders).(wiki:Jeyne_Arryn.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
 The great [lords](wiki:Lord) would have given us another two years of war, it was the women who made the peace. [Black Aly](wiki:Alysanne_Blackwood), the Maiden of the Vale, the [Three Widows](wiki:Three_Widows), the [Dragon Twins](wiki:Dragon_Twins), ’twas them who brought [the bloodshed](wiki:Dance_of_the_Dragons) to an end, and not with [swords](wiki:Sword) or [poison](wiki:Poison), but with [ravens](wiki:Raven), words, and kisses.(wiki:Jeyne_Arryn.cite_ref-Rfab19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- The Maiden of the Vale, 35 and never wed, ruling since her father and brothers were slain by the Stone Crows when she was three (fab-the-blacks-and-the-greens-16-p02:109)
+- She pledged the Vale to Rhaenyra in exchange for dragonriders (fab-the-blacks-and-the-greens-16-p02:117)
+- Mushroom's and Eustace's tales of her private life the narration declines to credit over Munkun (fab-the-blacks-and-the-greens-16-p02:113)

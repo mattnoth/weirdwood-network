@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Luthor_Largent"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Luthor Largent is a character from the AWOIAF wiki.
+Luthor Largent — Ser Luthor Largent, most fearsome of the "leal five," a bull near seven feet tall, was made commander of the gold cloaks.
 
 ## Edges
 
@@ -42,3 +42,10 @@ The Captain of the [Old Gate](wiki:Old_Gate), Ser [Balon Byrch](wiki:Balon_Byrch
 ## Quotes
 
 [Daemon](wiki:Daemon_Targaryen) gave us these cloaks and they're gold no matter how you turn them.(wiki:Luthor_Largent.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Ser Luthor Largent, most fearsome of the "leal five," a bull near seven feet tall, was made commander of the gold cloaks (fab-the-blacks-and-the-greens-16-p01:135)
+- He was rumored to have killed a warhorse with one punch (fab-the-blacks-and-the-greens-16-p01:135)

@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dalton_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,6 +16,10 @@ first_available:
   source: cite_ref
   pov: The Iron Captain
 ---
+
+## Identity
+
+Dalton Greyjoy, the Red Kraken, the daring and bloodthirsty sixteen-year-old Lord Reaper of Pyke, was offered the admiralty and a council seat by Otto.
 
 ## Origins
 
@@ -95,3 +99,10 @@ Dalton was a daring and bloodthirsty man. He was loved by his men but not by his
 ## Notes
 
 Historical figure from the Dance of the Dragons era. Died 133 AC at Faircastle, murdered by his salt wife Tess. Claimed Nightfall, a Valyrian steel sword later held by House Harlaw. Had at least twenty-four salt wives.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Dalton Greyjoy, the Red Kraken, the daring and bloodthirsty sixteen-year-old Lord Reaper of Pyke, was offered the admiralty and a council seat by Otto (fab-the-blacks-and-the-greens-16-p01:141)
+- Daemon judged the ironmen fickle and thought Dalton might as easily support Rhaenyra (fab-the-blacks-and-the-greens-16-p01:249)

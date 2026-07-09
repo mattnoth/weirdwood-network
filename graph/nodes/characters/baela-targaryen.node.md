@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baela_Targaryen
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -146,3 +146,10 @@ Baela enjoyed dancing, [hawking](wiki:Hawk), riding, and especially flying on [M
 The track_b data lists two DIED_AT values: "136" and "176 AC" — indicating her death date range is uncertain between 136 and 176 AC.
 
 The Issue field lists "Laena Velaryon" which is also her mother's name — this refers to her daughter, not her mother.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- Twin daughter of Daemon and Laena, born 116 AC in Pentos, named after Daemon's father (fab-heirs-of-the-dragon-15-p03:41)
+- Betrothed while a toddler to one of Rhaenyra's eldest sons (fab-heirs-of-the-dragon-15-p03:59)

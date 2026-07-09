@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rodrik_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -59,3 +59,9 @@ Rodrik's marriage to Daella Targaryen is dynastically critical — through their
 <!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-09 -->
 
 - Lord of the Eyrie and Defender of the Vale, a boy of ten who came into his lordship after his uncle Darnold and sire Rymond were slain by wildlings (fab-jaehaerys-and-alysanne-dragonstone-11:257)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Lord of the Eyrie and Protector of the Vale, a lord since the age of ten who served twenty years on the small council as lord justiciar and master of laws (fab-the-long-reign-cont-14-p03:17)
+- At six-and-thirty he was twenty years older than Princess Daella, short and balding, and a widower with four children by his late first wife. Princess Daella chose him as husband (fab-the-long-reign-cont-14-p03:25)
+- — and they wed at Dragonstone before year's end, with no bedding at her wish. He was a kind husband who called her "my precious princess," and was later replaced as justiciar and master of laws by Prince Aemon (fab-the-long-reign-cont-14-p03:39)

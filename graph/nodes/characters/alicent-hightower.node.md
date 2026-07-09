@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alicent_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 4
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -108,3 +108,22 @@ And so each of [the conspirators](wiki:Green_council) slashed their palms and cl
 
 - She wed Viserys in 106 AC and bore him Aegon, Helaena, Aemond, and Daeron (fab-heirs-of-the-dragon-15-p02:83)
 - The clever, lovely eighteen-year-old daughter of the King's Hand, she had read to the dying King Jaehaerys (fab-heirs-of-the-dragon-15-p02:51)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- According to Mushroom she taunted Laenor over his sons' looks (fab-heirs-of-the-dragon-15-p03:37)
+- After Aemond's maiming she demanded one of Lucerys's eyes (fab-heirs-of-the-dragon-15-p03:107)
+- She grew wroth at the naming of Rhaenyra's son Aegon and pressed Maester Alfador for Grand Maester (fab-heirs-of-the-dragon-15-p03:193)
+- The queen, whose rivalry with Rhaenyra deepened past bearing (fab-heirs-of-the-dragon-15-p03:37)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- She argued the throne must pass to her eldest trueborn son and feared for her children under Rhaenyra (fab-the-blacks-and-the-greens-16-p01:71)
+- Alone among the conspirators she was excused the blood oath (fab-the-blacks-and-the-greens-16-p01:115)
+- She crowned her daughter Helaena queen and knelt before her (fab-the-blacks-and-the-greens-16-p01:171)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Queen Dowager, mother of Aegon II; declared a traitor by Rhaenyra. She took residence in the Tower of the Hand after King Viserys's death (fab-the-blacks-and-the-greens-16-p02:267)
+- She went pale at Aemond's deed (fab-the-blacks-and-the-greens-16-p02:251)
+- She commanded Larys Clubfoot to learn Blood's true name so she might bathe in his family's blood (fab-the-blacks-and-the-greens-16-p02:277)

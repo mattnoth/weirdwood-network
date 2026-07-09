@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucerys_Velaryon"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -63,3 +63,20 @@ Aemond: Hold, [Strong](wiki:House_Strong). First pay the debt you owe me. You ha
 Lucerys: I will not fight you. I came here as an envoy, not a knight.
 And with his death, the war of [ravens](wiki:Raven) and envoys and [marriage](wiki:Marriage) pacts came to an end, and the war of fire and blood began in earnest.(wiki:Lucerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 An eye for an eye, a son for a son. Lucerys [shall be avenged](wiki:Blood_and_Cheese).(wiki:Lucerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->
+
+- In the yard at High Tide he slashed Aemond across the face and took his right eye (fab-heirs-of-the-dragon-15-p03:103)
+- Rhaenyra later urged Corlys to name him heir to Driftmark over Jacaerys (fab-heirs-of-the-dragon-15-p03:163)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->
+
+- Lucerys, Rhaenyra's son of thirteen, rode Arrax and backed his brother's plan, insisting dragonback would prove them no Strongs (fab-the-blacks-and-the-greens-16-p01:261)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
+
+- Rhaenyra's 13-year-old second son; sent to Storm's End on Arrax on the "shorter, safer" mission. He found Aemond already there and addressed only Lord Borros (fab-the-blacks-and-the-greens-16-p02:199)
+- He refused Aemond's challenge (fab-the-blacks-and-the-greens-16-p02:225)
+- He died when Vhagar destroyed Arrax over Shipbreaker Bay (fab-the-blacks-and-the-greens-16-p02:249)

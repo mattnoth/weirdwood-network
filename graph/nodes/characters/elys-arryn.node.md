@@ -7,10 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elys_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available: null
 ---
+
+## Identity
+
+Elys Arryn — Eldest daughter of Lord Rodrik, three years older than her stepmother Daella, with whom she clashed from the first.
 
 ## Origins
 
@@ -28,3 +32,9 @@ Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) visited [the Eyrie](wiki:The
 ## Notes
 
 Source: Fire & Blood, "The Long Reign."
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
+
+- Eldest daughter of Lord Rodrik, three years older than her stepmother Daella, with whom she clashed from the first (fab-the-long-reign-cont-14-p03:33)
