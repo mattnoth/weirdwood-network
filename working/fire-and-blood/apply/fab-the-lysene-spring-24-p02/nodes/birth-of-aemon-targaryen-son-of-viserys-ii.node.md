@@ -1,7 +1,7 @@
 ---
 name: "Birth of Aemon"
 type: event.birth
-slug: birth-of-aemon
+slug: birth-of-aemon-targaryen-son-of-viserys-ii
 aliases: []
 confidence: tier-2
 era: targaryen-rule

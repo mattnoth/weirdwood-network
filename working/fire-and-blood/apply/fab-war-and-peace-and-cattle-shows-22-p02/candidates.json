@@ -550,6 +550,18 @@
       "note": "Fire & Blood event: Lucinda Penrose PARTICIPATES_IN Assault on Lucinda Penrose",
       "in_universe_source": "unattributed",
       "disputed": true
+    },
+    {
+      "id": "DISP1",
+      "type": "INVESTIGATES",
+      "source": "munkun",
+      "target": "tyshara-lannister",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p02",
+      "quote": "Grand Maester Munkun's examination revealed her maidenhead was broken",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Munkun INVESTIGATES Tyshara Lannister",
+      "via": "dispute-inject"
     }
   ]
 }

@@ -517,6 +517,30 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Aegon III Targaryen SUCCEEDS Aegon II Targaryen",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "ADVISES",
+      "source": "tyland-lannister",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "he had urged Aegon II to put her son Aegon to death as well",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Tyland Lannister ADVISES Aegon II Targaryen",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "SERVES",
+      "source": "tyland-lannister",
+      "target": "aegon-iii-targaryen",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "he served Rhaenyra’s son well and faithfully as Hand",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Tyland Lannister SERVES Aegon III Targaryen",
+      "via": "dispute-inject"
     }
   ]
 }

@@ -749,6 +749,18 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Daenaera Velaryon SPOUSE_OF Aegon III Targaryen",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP4",
+      "type": "CAPTURES",
+      "source": "marston-waters",
+      "target": "roggerio-rogare",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p01",
+      "quote": "Lord Roggerio was marched at spearpoint through a jeering crowd",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Marston Waters CAPTURES Roggerio Rogare",
+      "via": "dispute-inject"
     }
   ]
 }

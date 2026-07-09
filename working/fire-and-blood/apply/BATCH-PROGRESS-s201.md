@@ -54,7 +54,17 @@ Spec = `[{"action":"FOLD"|"RENAME","old":"<slug>","new":"<slug>"}]`. Dry-run def
       subagent roles (fresh-verify caught the fold + Hull identity; all excerpts verified verbatim) →
       batches 6–7 run on Haiku. Residue noted for close-out: KNIGHTED_BY direction convention is
       knighter→knightee in 4/5 existing edges; rickard-redwyne edge is the inversion outlier. Gate PASS.
-- [ ] **Batch 6** (18–21, Dance end) — rhaenyra-18-p01/p02, short-sad-19, hour-of-wolf-20, hooded-hand-21. Dispute-heavy.
+- [x] **Batch 6** (18–21, Dance end) — rhaenyra-18-p01/p02, short-sad-19, hour-of-wolf-20, hooded-hand-21.
+      DONE S202, committed `6768e67679`. +256 edges (book-fab 1,360→1,616), 21 nodes. 2 FOLD accepted
+      (flight-of-queen-rhaenyra→flight-to-dragonstone; formation→selection-of-the-regency-council);
+      **2 subagent FOLDs REJECTED** (Hugh Hammer coronation+death stay as beat nodes — the agent invented a
+      "sub-events stay in battle nodes" convention that contradicts beat-reification; coronation also predates
+      the battle). 26 dispute rows → 23 clear / 2 disputed / 1 drop, with 3 orchestrator overrides:
+      R4 garth BETRAYS →clear (Mushroom zone over-extended), R23 benjicot ALLIES_WITH →clear (joining is flat,
+      only motive contested), R9 larys KILLS aegon-ii →DROP (hand explicitly unknowable; behest = inference).
+      **Event-residue queued for close-out: mint death-of-aegon-ii + larys SUSPECTED_OF whodunit** (no death
+      event node exists; not in deferred sidecar either). Eustace-as-character rows map correctly to
+      eustace-dance-of-the-dragons. Gate PASS. 153 tests.
 - [ ] **Batch 7** (22–25, aftermath+appendix) — war-peace-22-p01/p02, voyage-alyn-23, lysene-24-p01/p02, lineages-25.
 
 ## Close-out (after batch 7)

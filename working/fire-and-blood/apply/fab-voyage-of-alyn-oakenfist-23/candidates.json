@@ -526,6 +526,30 @@
       "tier": "tier-1",
       "note": "Fire & Blood: Dalton Greyjoy SPOUSE_OF Lysa Farman",
       "via": "dispute-inject"
+    },
+    {
+      "id": "DISP2",
+      "type": "CONTRACTED_WITH",
+      "source": "lysandro-rogare",
+      "target": "alyn-velaryon",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "the Iron Throne would pay a ransom of one hundred thousand golden dragons",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lysandro Rogare CONTRACTED_WITH Alyn Oakenfist",
+      "via": "dispute-inject"
+    },
+    {
+      "id": "DISP3",
+      "type": "KILLS",
+      "source": "gunthor-goodbrother",
+      "target": "alester-wynch",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "the latter slew the former in a quarrel over Lord Farman’s daughter Lysa",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Gunthor Goodbrother KILLS Alester Wynch",
+      "via": "dispute-inject"
     }
   ]
 }
