@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-07 (refreshed at S200 endsession; F&B bulk reconcile+apply is the one live graph track — gated on Matt's bulk extraction run finishing)  
+**Generated:** 2026-07-09 (refreshed at S202 endsession; the 35-unit F&B bulk apply is COMPLETE — F&B close-out is the one live graph track)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-07-fab-bulk-reconcile-apply.md` | 2026-07-07 (upd S201) | Fire & Blood ingestion — BULK reconcile+apply, **Dance batches 4–7** | **LIVE** (fires as S202; resume at Batch 4) | **Fable/Opus** (Dance per-unit judgment + primary-text dispute verify) | **S201 DONE:** advisory-board pre-mint sweep (P1–P7) + S200 residue cleaned + global auto-inject + **batches 1–3 of 7 applied** (15 units, sec 04–14, all pre-Dance; book-fab 264→847; per-batch semantic-gate PASS + 153 tests). Prompt now = **batches 4–7 (the Dance, 20 units + all 62 dispute-adjudication rows)**: fresh-verify → dispute adjudication (subagent verdicts + orchestrator primary-text re-verify; watch "eustace"/"mushroom" false-positive class) → surgery (`scratchpad/fab-apply-surgery.py`; PART_OF needs a locatable quote) → `--verdicts` inject → mint→merge → refresh → `fab-semantic-gate.py`. Close-out: Lineages diff, review-bucket triage, F&B harvest drain (315), deferred-events triage. State: `working/fire-and-blood/apply/BATCH-PROGRESS-s201.md`. |
+| `2026-07-09-fab-close-out.md` | 2026-07-09 | Fire & Blood ingestion — **close-out** (post-bulk-apply) | **LIVE** (fires as S203) | **Sonnet** orchestrator + Haiku subagents (apply judgment done; close-out = deterministic builds + triage summaries) | **S202 DONE: batches 4–7 applied — the 35-unit bulk apply is COMPLETE** (book-fab 264→1,891, event nodes 963, edges.jsonl 24,988; 62 dispute rows adjudicated w/ 6 orchestrator overrides; per-batch gate PASS + 153 tests). Prompt = close-out: deferred-events triage (37 + the death-of-aegon-ii SUSPECTED_OF residue) · Lineages §3.4 parser+diff (NEVER auto-mint from OCR) · review-bucket triage plan (1,440 rows, summary-level) · F&B harvest drain (337 rows) · small residues (KNIGHTED_BY direction audit, capture-of-prince-viserys date, B1 PART_OF re-adds) · strip-track un-park condition MET (Matt's call). State: `working/fire-and-blood/apply/BATCH-PROGRESS-s201.md`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 > *S198 note:* `2026-07-06-fire-and-blood-build-smoke.md` archived (build + Stage-1 smoke DONE, superseded by the reconciler-fix prompt above). The `2026-07-06-wiki-prose-disambiguation-composer.md` row was DONE S197 (composer built + applied 477 nodes; prompt archived).
@@ -20,7 +20,9 @@
 
 ---
 
-## Archive (`archive/` subfolder — 113 files)
+## Archive (`archive/` subfolder — 114 files)
+
+> **`2026-07-07-fab-bulk-reconcile-apply.md`** — archived S202. **DONE (S201+S202): the whole 35-unit F&B bulk reconcile+apply.** S201: advisory-board pre-mint sweep (P1–P7) + batches 1–3 (pre-Dance, book-fab 264→847). S202: batches 4–7 (the Dance + aftermath, 20 units; book-fab 847→**1,891**, 98 disputed all with in_universe_source; event nodes **963**; edges.jsonl **24,988**). 62 dispute rows adjudicated 55C/4D/3drop with 6 primary-text-anchored orchestrator overrides (incl. larys-KILLS-aegon-ii→DROP — the hand "will never be known"); 6 FOLD + 4 RENAME + 2 subagent folds REJECTED (Hugh Hammer beats stay reified per the beat-reification pattern); Haiku subagents A/B'd on B5 then ran B6–B7 (Matt-directed cheapest-viable); per-batch checkpoints + gate PASS + 153 tests throughout. `fab-apply-surgery.py` promoted to `scripts/`. Detail: `history/session-details/session-202.md`. Superseded as live by `2026-07-09-fab-close-out.md`.
 
 > **`2026-07-07-fire-and-blood-apply-go.md`** — archived S200. **DONE (S200): the F&B track's FIRST REAL APPLY — all 4 smoke units minted into the graph on Matt's explicit in-session go.** Step-0 non-smoke re-reconcile diffed clean against the S199-validated accept sets (23 discriminator + 188 exact, zero unvalidated); schema batch landed (architecture.md `fab`/`book-fab`/`in_universe_source`/`disputed`/invariant + mint passthrough — S200 Active Decision); dispositions applied (4 folds incl. HONORED_AT/PARTICIPATES_IN/KILLS recasts, 2 birth renames, 5 wired ADD edges with the parley parent CORRECTED to `aegons-conquest`, craghas mint-with-PART_OF per Matt, jaqen alias strip); 21 dispute-held rows adjudicated (15 clear / 4 tagged / 2 residue; **2 Fable overrides of subagent clears** — the exile-decree divergence class; record `working/fire-and-blood/apply/ADJUDICATION-s200.md`); per-unit checkpoint→mint→merge (+264 edges → 23,363, +18 nodes, 76 merges 0-skipped, 18 Identity upgrades — exactly as predicted); `weirwood refresh`; tests 63/63 after un-colliding one fixture. Bulk prep: 4 outputs installed at canonical `extractions/fire-and-blood/` paths; telemetry 480s/$1.80/unit → 35-unit bulk ≈ $63/~10.5h. Detail: `history/session-details/session-200.md`. Superseded as live by `2026-07-07-fab-bulk-reconcile-apply.md`.
 
@@ -164,7 +166,7 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (LIVE: Fire & Blood ingestion · strip-boilerplate: PARKED behind F&B · D&E Pass-1: PARKED)
+## Open threads right now (LIVE: F&B close-out · strip-boilerplate: un-park condition MET, Matt-gated · D&E Pass-1: PARKED)
 
 > **ONE live graph track (2026-07-07): Fire & Blood.** S197's "two parallel-safe tracks" framing is retired — the strip's
 > verify step proved strip-before-F&B breaks F&B's Identity swap, so Matt parked the strip behind F&B's full apply cycle
@@ -174,9 +176,9 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > **F&B readiness (S197):** the epub landed on disk today (`sources/raw/fire-and-blood.epub`), but the pipeline is unbuilt —
 > F&B extraction is the OUTPUT of the S198 build, not a parallel-startable thing.
 
-**LIVE (graph): `2026-07-07-fire-and-blood-apply-go.md`** — **F&B first real apply (4 smoke units, fires as S200) → then the 35-unit bulk.** All §7 pre-bulk gates green as of S199 (see the LIVE table row above). §8 order per unit: checkpoint → mint → merge → finalize → `weirwood refresh`; dispositions + `architecture-batch-s198.md` + the mint patches land with Matt's apply-go. Bulk extraction stays Matt-fired (Opus `claude -p`, ~5h). (**Fable** apply session; **Opus** extraction workers.)
+**LIVE (graph): `2026-07-09-fab-close-out.md`** — **F&B close-out (fires as S203).** The 35-unit bulk apply is COMPLETE (S200 smoke + S201 batches 1–3 + S202 batches 4–7). Close-out = deferred-events triage · Lineages §3.4 parser+diff · review-bucket triage plan · F&B harvest drain (337) · small residues. (**Sonnet** orchestrator + Haiku subagents.)
 
-**PARKED behind F&B (2026-07-07): `archive/2026-07-06-strip-wiki-boilerplate-identity.md`** — remove "… from the AWOIAF wiki" from all node Identity prose (6,739 nodes, backlog HIGH; Matt S197). **NOT parallel-safe with F&B** (breaks its Identity swap on ~1,108 overlap nodes); un-park only after F&B's LAST pack applies, or after the optional B-patch (`working/node-enrichment-wiki-prose/reconcile-strip-vs-fab-RECOMMENDATION.md`). Script sits ready, dry-run only: `scripts/strip-wiki-boilerplate.py`. (**Sonnet**.)
+**UN-PARK CONDITION MET (2026-07-09): `archive/2026-07-06-strip-wiki-boilerplate-identity.md`** — remove "… from the AWOIAF wiki" from all node Identity prose (6,739 nodes, backlog HIGH; Matt S197). Was parked behind F&B's full apply cycle — **the LAST pack applied S202**, so the strip is now safely runnable pending Matt's go (+ the 46-node `RICH_SECTIONS_RE` nit from its un-park checklist). Script sits ready, dry-run only: `scripts/strip-wiki-boilerplate.py`. (**Sonnet**.)
 
 **PARKED (graph-enrichment): `working/granular-dip-plan.md`** — the ranked granular-dip list (opener D2 Hand's Tourney); restore when Matt un-parks the enrichment track. Graph at **~23,330 edges / ~8,475 live nodes**.
 
