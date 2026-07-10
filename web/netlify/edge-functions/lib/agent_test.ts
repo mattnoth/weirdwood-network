@@ -354,11 +354,11 @@ Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, ci
   // Full-text pin: fails loud on ANY change to SHARED_RULES, intentional or not —
   // if this test fails on a legitimate SHARED_RULES edit, update the expected
   // hash/length below deliberately (this is the tripwire, not a silent drift net).
-  // Updated for the query-layer wiring pass 2 routing-table addition (list_nodes/
-  // theme aggregative-browse row) — that row lives inside this same block, so its
-  // text growth moves this number; the theory-gate/cite/floor text is unchanged
-  // (see the explicit substring assertions above, which still pass).
-  assert.equal(sharedRules.length, 11768, "SHARED_RULES length changed — confirm intentional");
+  // Updated S203 for the show-watchers section (map show phrasings — House of the
+  // Dragon = the Dance of the Dragons era — to book entities; flag book-vs-show
+  // divergence plainly, never detail/cite show scenes). The theory-gate/cite/floor
+  // text is unchanged (see the explicit substring assertions above, which still pass).
+  assert.equal(sharedRules.length, 12489, "SHARED_RULES length changed — confirm intentional");
 });
 
 // ---- list_nodes / theme tools (query-layer wiring pass 2) ----
