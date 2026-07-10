@@ -59,3 +59,8 @@ The battle beneath the [Gods Eye](wiki:Gods_Eye) in the latter half of [43 AC](
 However, Princess Rhaena had avoided capture, having remained at Pinkmaiden Castle with her daughters and dragon. Upon hearing of the outcome of the battle, Rhaena gathered her daughters and fled on dragonback from the riverlands, fearing her uncle's wroth. While first arriving at Lannisport, she would later flee to [Faircastle](wiki:Faircastle) on [Fair Isle](wiki:Fair_Isle), the seat of Lord [Marq Farman](wiki:Marq_Farman). His father and brother having perished in the battle, Farman offered Rhaena sanctuary beneath his roof.(wiki:Battle_Beneath_the_Gods_Eye.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13) Meanwhile, with the death of Lord Tarbeck, Maegor married his wife, Lady [Jeyne Westerling](wiki:Jeyne_Westerling_(wife_of_Maegor_I)).(wiki:Battle_Beneath_the_Gods_Eye.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
 
 During the [Faith Militant uprising](wiki:Faith_Militant_uprising), [Poor Fellows](wiki:Poor_Fellows) led by Ser [Joffrey Doggett](wiki:Joffrey_Doggett) targeted and assassinated some of Maegor's loyalists that had participated in the battle, including Old Lord Merryweather, the heir of Lord Peake, and Ser Davos Darklyn's aged father.(wiki:Battle_Beneath_the_Gods_Eye.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
+
+## Quotes
+
+> For the first time since the Doom of Valyria, dragon contended with dragon in the sky, even as battle was
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:53`)

@@ -58,6 +58,9 @@ Baelon: They call me Baelon the Brave, but you are far braver than me. I would s
 Alyssa Targaryen had a warrior’s heart in a woman’s body, and her strength failed her.(wiki:Alyssa_Targaryen.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
 Though shattered by his loss, [Baelon](wiki:Baelon_Targaryen_(son_of_Jaehaerys_I)) took solace in the two strong sons that she had left him, [Viserys](wiki:Viserys_I_Targaryen) and [Daemon](wiki:Daemon_Targaryen), and never ceased to honor the memory of his sweet lady with the broken nose and mismatched eyes.(wiki:Alyssa_Targaryen.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-18)
 
+> By that age, her mother had come to realize that it was not Daenerys that she took after, but Baelon.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:151`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->

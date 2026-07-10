@@ -25,3 +25,7 @@ Wedding of Jaehaerys I Targaryen and Alysanne Targaryen is a battle/event from t
 
 ## Edges
 
+## Quotes
+
+> The immediate cause of the tension was the king’s sudden and secret marriage to his sister, which had
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:35`)

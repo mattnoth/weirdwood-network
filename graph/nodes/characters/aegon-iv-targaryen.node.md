@@ -144,3 +144,6 @@ Aegon dressed in silk and satin, bright and rich, and wore rings and chains of g
 > 'Fire and Blood' were the words of [House Targaryen](wiki:House_Targaryen), but Dunk once heard Ser [Arlan](wiki:Arlan_of_Pennytree) say that Aegon's should have been, 'Wash Her and Bring Her to My Bed'.(wiki:Aegon_IV_Targaryen.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
 >
 > —thoughts of [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> Aegon, who was discovered hitting the babe with the dragon’s egg that had been placed inside the cradle.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:221`)

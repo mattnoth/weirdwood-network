@@ -123,3 +123,6 @@ The Dance of the Dragons further had influences upon the future Targaryen succes
 > **Arianne**: The [first Viserys](wiki:Viserys_I_Targaryen) intended his daughter [Rhaenyra](wiki:Rhaenyra_Targaryen) to follow him, do you deny it? But as the king lay dying the [Lord Commander](wiki:Lord_Commander_of_the_Kingsguard) of his [Kingsguard](wiki:Kingsguard) decided that it should be otherwise.
 >
 > —[Arys Oakheart](wiki:Arys_Oakheart) and [Arianne Martell](wiki:Arianne_Martell)
+
+> Both perished in the war between them, called by singers the Dance of the Dragons.]
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-lineages-and-family-tree-25.md:35`)

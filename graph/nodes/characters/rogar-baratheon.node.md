@@ -116,6 +116,9 @@ Rogar was not a man to yield, often boasting in battle that he would not lay dow
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:203`)
 
 
+> In the copies entitled Sins of the Flesh and The High and the Low (which tend to be the older versions, and the shortest), the man at the inn is identified as Ser Borys Baratheon, eldest of Lord Rogar's four brothers. In A Wanton’s Tale and The Wickedness of Men, however, the man is Lord Rogar himself.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:193`)
+
 ## Edges
 
 - HOLDS_TITLE: Lord of Storm's End (track_b: Titles)

@@ -69,6 +69,9 @@ Queen [Cersei Lannister](wiki:Cersei_Lannister) thinks that if Ser [Loras Tyrell
 >
 > —Erryk and [Arryk Cargyll](wiki:Arryk_Cargyll), drawing their swords
 
+> The singers tell us that Ser Erryk said, “I love you, brother,” as he unsheathed his blade, and that Ser Arryk replied, “And | you, brother,” as he drew his own.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:95`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

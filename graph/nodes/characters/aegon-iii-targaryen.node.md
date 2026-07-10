@@ -268,6 +268,9 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:31`)
 
 
+> Mushroom tells us that King Aegon III reacted to the decisions of his regents with a sullen silence, speaking only once, to protest the dismissal of Massey and Darklyn. “Kingsguard serve for life,” the boy said, to which Lord Peake replied, “Only when they have been properly appointed, Your Grace.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:31`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->

@@ -85,6 +85,9 @@ Viserys was frailer than his brother Aegon in his youth, but was more mature tha
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:47`)
 
 
+> Oakenfist’s “treasure” was Viserys Targaryen, the king's lost brother, the youngest son of Queen Rhaenyra and Prince Daemon, presumed dead since the Battle of the Gullet, and missing for nigh unto five years.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:163`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->

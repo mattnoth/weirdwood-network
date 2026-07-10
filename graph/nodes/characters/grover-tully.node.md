@@ -49,3 +49,8 @@ An old man in [101 AC](wiki:101_AC), Grover was bedridden and failing by [130 
 
 - Mushroom says it was apoplexy from his house fighting the king at Second Tumbleton (fab-short-sad-reign-of-aegon-ii-19:123)
 - Lord Grover Tully, aged and bedridden, had finally died at Riverrun (fab-short-sad-reign-of-aegon-ii-19:123)
+
+## Quotes
+
+> the aged and bedridden Lord Grover Tully had finally died (of apoplexy from having his house fight against the rightful king at Second Tumbleton, Mushroom says)
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:123`)

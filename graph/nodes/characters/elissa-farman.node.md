@@ -58,6 +58,9 @@ Elissa had blue eyes and long flaxen hair,(wiki:Elissa_Farman.cite_ref-Rfaba_sur
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
 
+> As for Lady Alys Westhill, born Elissa of House Farman, where her adventure ended we cannot say.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-13.md:71`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->

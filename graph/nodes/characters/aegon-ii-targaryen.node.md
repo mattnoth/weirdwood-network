@@ -162,6 +162,9 @@ It was widely known that the promiscuous Aegon had fathered several [bastards](w
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:277`)
 
 
+> Though no longer himself capable of sexual congress due to his burns, according to the dwarf, Aegon still felt carnal urges, and would often watch from behind a curtain as one of his favorites coupled with a serving girl or lady of the court.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:191`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

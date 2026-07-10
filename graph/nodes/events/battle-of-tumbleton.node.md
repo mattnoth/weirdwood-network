@@ -27,3 +27,8 @@ Redirect page. "Battle of Tumbleton" redirects to the canonical page "First Batt
 ## Notes
 
 Wiki redirect. The canonical entity is tracked under slug `first-battle-of-tumbleton`.
+
+## Quotes
+
+> The how and when and why of what has become known as the Treasons of Tumbleton remain a matter of much dispute, and the truth of all that happened will likely never be known.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:215`)

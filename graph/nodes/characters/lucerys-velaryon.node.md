@@ -68,6 +68,9 @@ An eye for an eye, a son for a son. Lucerys [shall be avenged](wiki:Blood_and_Ch
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:249`)
 
 
+> Our uncle calls us Strongs, but when the lords see us on dragonback they will know that for a lie. Only Targaryens ride dragons.
+> — Lucerys Velaryon, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:261`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

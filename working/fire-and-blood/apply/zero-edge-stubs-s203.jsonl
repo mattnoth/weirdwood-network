@@ -36,3 +36,6 @@
 {"slug": "departure-of-nettles", "name": "Departure of Nettles", "unit": "fab-the-red-dragon-and-the-gold-17-p04"}
 {"slug": "renaming-of-snowgate-as-queensgate", "name": "Renaming of Snowgate as Queensgate", "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02"}
 {"slug": "sack-of-the-celtigar-manse", "name": "Sack of the Celtigar manse", "unit": "fab-rhaenyra-overthrown-18-p01"}
+{"slug": null, "name": "Moon of the Three Kings", "unit": "fab-rhaenyra-overthrown-18-p01", "note": "S203 future-mint candidate (harvest handback row 27): KL under three pretender-kings after Rhaenyra's flight"}
+{"slug": null, "name": "Gathering of the lords, 136 AC (near-Great-Council)", "unit": "fab-the-lysene-spring-24-p02", "note": "S203 future-mint candidate (row 198): largest assembly of nobles since 101 AC"}
+{"slug": null, "name": "Year of the Three Brides (49 AC)", "unit": "fab-surfeit-of-rulers-08-p01", "note": "S203 future-mint candidate (row 303): named year spanning three weddings; alt = fold into the three wedding nodes"}

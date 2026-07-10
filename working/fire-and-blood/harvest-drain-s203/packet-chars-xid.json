@@ -334,5 +334,85 @@
   "note": "whispered accusation against Queen Rhaena",
   "unit": "fab-year-of-the-three-brides-07",
   "line": 149
+ },
+ {
+  "row": 4,
+  "snippet": "some say lover to Queen Naerys",
+  "kind": "other",
+  "note": "rumored affair between Aemon the Dragonknight and Queen Naerys [handback from events attacher: character-homed]",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 55
+ },
+ {
+  "row": 59,
+  "snippet": "Eustace says nothing of this in his own account",
+  "kind": "other",
+  "note": "Mushroom vs Eustace on Aegon II's voyeurism [handback from events attacher: character-homed]",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 0
+ },
+ {
+  "row": 60,
+  "snippet": "of apoplexy from having his house fight against the rightful king",
+  "kind": "other",
+  "note": "Mushroom's disputed cause for Grover Tully's death [handback from events attacher: character-homed]",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 123
+ },
+ {
+  "row": 76,
+  "snippet": "Its causes are debated to this day",
+  "kind": "other",
+  "note": "High Septon's death \u2014 suicide, divine wroth, or murder by several suspects [handback from events attacher: character-homed]",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 209
+ },
+ {
+  "row": 84,
+  "snippet": "Many to this day believe it was the Iron Throne itself",
+  "kind": "other",
+  "note": "contested accounts of how Maegor died [handback from events attacher: character-homed]",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 243
+ },
+ {
+  "row": 165,
+  "snippet": "The Dragonkeepers had best lock up the dragons",
+  "kind": "foreshadow-hook",
+  "note": "Elysar's \"prophetic\" words on infant Saera [handback from events attacher: character-homed]",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 107
+ },
+ {
+  "row": 171,
+  "snippet": "it is said that when he saw his mother again, he fell into her arms and wept",
+  "kind": "other",
+  "note": "hedged single-source detail of Baelon weeping [handback from events attacher: character-homed]",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 203
+ },
+ {
+  "row": 173,
+  "snippet": "like the hellhorns of Valyrian legend",
+  "kind": "foreshadow-hook",
+  "note": "narration flagging Aemon's death as a chain of doom to come [handback from events attacher: character-homed]",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 217
+ },
+ {
+  "row": 313,
+  "snippet": "sister at this juncture would be seen as a grievous affront",
+  "kind": "foreshadow-hook",
+  "note": "Mattheus warns Faith will denounce the incest [handback from events attacher: character-homed]",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 183
+ },
+ {
+  "row": 320,
+  "snippet": "An eye for an eye, a son for a son",
+  "kind": "foreshadow-hook",
+  "note": "Daemon's raven vowing vengeance for Lucerys, setting up the Blood and Cheese plot (fab-the-blacks-and-the-greens-16-p02) [handback from events attacher: character-homed]",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 255
  }
 ]

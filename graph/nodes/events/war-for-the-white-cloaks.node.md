@@ -34,3 +34,6 @@ The tourney lasted seven days, with the jousting tilts overshadowed by wild mele
 ## Quotes
 
 I want the [knights](wiki:Knight) protecting [my son](wiki:Jaehaerys_I_Targaryen) to be the finest to be found anywhere in [Westeros](wiki:Westeros), true honest men whose loyalty and courage is unquestioned. Let them win their [cloaks](wiki:Kingsguard) with deeds of arms, whilst all the [realm](wiki:Seven_Kingdoms) looks on.(wiki:War_for_the_White_Cloaks.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+> A raven flew to Duskendale that very night, commanding the new Lord Darklyn to send to court his bastard half-sister, Jonquil Darke, who had thrilled the smallfolk during the War for the White Cloaks as the mystery knight known as the Serpent in Scarlet.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-birth-death-and-betrayal-10.md:53`)

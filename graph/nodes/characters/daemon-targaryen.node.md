@@ -185,6 +185,9 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 > — Daemon Targaryen, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:237`)
 
 
+> “An eye for an eye, a son for a son,” Prince Daemon wrote. “Lucerys shall be avenged.”
+> — Daemon Targaryen, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:255`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

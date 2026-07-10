@@ -75,6 +75,9 @@ Gaemon had pale hair.(wiki:Gaemon_Palehair.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:47`)
 
 
+> These edicts were almost certainly the work of a Dornish whore named Sylvenna Sand, reputedly the paramour of the little king's mother Essie, if Mushroom is to be believed.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:275`)
+
 ## Edges
 
 - HOLDS_TITLE: King (track_b: Title)

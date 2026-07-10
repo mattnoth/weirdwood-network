@@ -40,3 +40,8 @@ After the death of Queen [Jaehaera Targaryen](wiki:Jaehaera_Targaryen) in [133 A
 
 - Widow of Tumbleton, ruling for her infant son whom she proclaimed her late husband's heir though likely sired by Bold Jon Roxton (fab-the-hooded-hand-21:271)
 - She rebuilt the town and displayed the mounted heads of Seasmoke and Vermithor for coin (fab-the-hooded-hand-21:271)
+
+## Quotes
+
+> she had given birth to a lusty dark-haired boy whom she proclaimed her late lord husband’s trueborn heir, though it was far more likely that the boy had been sired by Bold Jon Roxton
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:271`)

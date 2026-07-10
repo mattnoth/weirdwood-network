@@ -143,6 +143,15 @@ Bold(wiki:Alyn_Velaryon.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:51`)
 
 
+> command of the Velaryon fleets now rested with Addam’s brother, Alyn, the younger son of Mouse, the shipwright’s daughter, a boy of fifteen...
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:25`)
+
+> In his Testimony, the fool puts forth the notion that “the little mice” had been sired not by the Sea Snake's son, but by the Sea Snake himself.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:235`)
+
+> All this the Lord of the Tides brought back to Westeros, along with the name that he would carry for the rest of his long life: Oakenfist.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:159`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->

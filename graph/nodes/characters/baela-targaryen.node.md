@@ -126,6 +126,9 @@ Baela enjoyed dancing, [hawking](wiki:Hawk), riding, and especially flying on [M
 >
 > —[Manfryd Mooton](wiki:Manfryd_Mooton) and [Roland Westerling](wiki:Roland_Westerling)
 
+> “Lord Rowan is forty years my senior, bald as a stone, with a belly that weighs more than | do,” she purportedly told the King's Hand. Then she added, “I've bedded two of his sons. The eldest and thirdborn, | think it was. Not both at once, that would have been improper.”
+> — Baela Targaryen, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:223`)
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Titles)

@@ -90,6 +90,9 @@ Alicent: [Bastard](wiki:Bastard) blood, shed at war. [My son](wiki:Aegon_II_Targ
 All [they](wiki:Blacks) have sowed, now shall they reap.(wiki:Alicent_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 I want to see my sons again, and [Helaena](wiki:Helaena_Targaryen), my sweet girl, oh ... and King [Jaehaerys](wiki:Jaehaerys_I_Targaryen). I will read to him, as I did when I was little. He used to say I had a lovely voice.(wiki:Alicent_Hightower.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 
+> The dwarf Mushroom suggests a more sinister scenario, whereby Queen Alicent hurried King Viserys on his way with a pinch of poison in his hippocras. It must be noted that Mushroom was not in King’s Landing the night the king died, but rather on Dragonstone, in service with Princess Rhaenyra.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:45`)
+
 ## Quotes
 
 [[Viserys I Targaryen](wiki:Viserys_I_Targaryen)] would marry again, yes… but not to [a twelve-year-old girl](wiki:Laena_Velaryon), and not for reasons of state. Another woman had caught his eye. He announced his intention to wed Lady Alicent of [House Hightower](wiki:House_Hightower), the clever and lovely eighteen-year-old daughter of [the King’s Hand](wiki:Otto_Hightower), the girl who had read to King [Jaehaerys](wiki:Jaehaerys_I_Targaryen) as he lay dying.(wiki:Alicent_Hightower.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-19)

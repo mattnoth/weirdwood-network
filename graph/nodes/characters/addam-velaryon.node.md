@@ -65,6 +65,12 @@ In [138 AC](wiki:Years_after_Aegon's_Conquest), the bones of Addam were returned
 That Addam and [Alyn](wiki:Alyn_Velaryon) were [dragonseed](wiki:Dragonseed) no man who looked upon them could doubt, though [their mother](wiki:Marilda_of_Hull) steadfastly refused to name their father.(wiki:Addam_Velaryon.cite_ref-Rfab15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 Question him sharply, and we will learn if he is true or false, beyond a doubt.(wiki:Addam_Velaryon.cite_ref-Rfab16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
+> The accused turncloak Addam Velaryon, born Addam of Hull, had saved King's Landing from the queen’s foes...at the cost of his own life.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:155`)
+
+> Addam of Hull, dragonseed and bastard, became Addam Velaryon, heir to Driftmark.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:235`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->

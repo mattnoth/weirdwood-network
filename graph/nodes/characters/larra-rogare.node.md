@@ -93,6 +93,9 @@ According to [Mushroom](wiki:Mushroom), Larra liked to hear the music played by 
 > It was even said that Larra herself could transform into a cat, to prowl the gutters and rooftops of the city.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:53`)
 
+> Instead of selling the prince's favors, he married him to his youngest daughter, the Lady Larra Rogare, who would become known in the histories of Westeros as Larra of Lys.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:177`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->

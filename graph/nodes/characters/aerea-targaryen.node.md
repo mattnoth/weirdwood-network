@@ -131,6 +131,12 @@ During her time on [Dragonstone](wiki:Dragonstone), Aerea became a terror, defyi
 >
 > —[Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)) to [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
 
+> Though nothing was ever proved, it was widely believed that someone—Queen Rhaena herself, mayhaps, or her mother, Queen Alyssa—had used the occasion of the king's coronation to switch the twins.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-prince-into-king-06.md:185`)
+
+> Dressed in the rags of a common girl of the lowest order, with her silver-gold hair dyed a muddy brown, Princess Aerea would spend the rest of the regency working in a stable near the King’s Gate.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p02.md:183`)
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiance)

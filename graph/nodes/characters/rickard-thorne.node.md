@@ -45,3 +45,8 @@ Lady Caswell, after hanging those responsible for the prince's death, had Ser Ri
 - When his pack was searched and a dragon's egg found, he opened Ben Buttercakes from neck to groin and cut his way out (fab-the-red-dragon-and-the-gold-17-p03:63)
 - Crossbows brought him down on the old stone bridge (fab-the-red-dragon-and-the-gold-17-p03:75)
 - He clung to Maelor to the end (fab-the-red-dragon-and-the-gold-17-p03:75)
+
+## Quotes
+
+> For the traveler's “son” was Maelor Targaryen, the younger son of King Aegon II, and the traveler was Ser Rickard Thorne of the Kingsguard, his sworn shield and protector.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:61`)

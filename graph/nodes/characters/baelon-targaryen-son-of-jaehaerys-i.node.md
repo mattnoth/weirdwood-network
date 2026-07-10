@@ -89,6 +89,9 @@ At birth, Baelon was smaller than his older brother, [Aemon](wiki:Aemon_Targarye
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:55`)
 
 
+> But it is said that when he saw his mother again, he fell into her arms and wept. “I slew a thousand of them,” he said, “but it will not bring him back.” And the queen stroked his hair and said, “I know, | know.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:203`)
+
 ## Edges
 
 - PARENT_OF: Baelon Targaryen ← Jaehaerys I Targaryen (track_b: Father)

@@ -33,3 +33,8 @@ Archmaester [Gyldayn](wiki:Gyldayn) questions whether Sara ever existed and dism
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
 
 - A "wolf girl" of Mushroom's account, said to be a bastard daughter of the late Lord Rickon Stark. According to Mushroom, Jacaerys lay with her and wed her in Winterfell's godswood (fab-the-blacks-and-the-greens-16-p02:149)
+
+## Quotes
+
+> His account introduces a young maiden, or “wolf girl” as he dubs her, with the name of Sara Snow.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:149`)

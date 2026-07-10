@@ -65,6 +65,9 @@ Alysanne: And in return? Cregan: All I ask is all of you, forever. I claim your 
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:19`)
 
 
+> Supposedly that shaft was loosed by Lord Samwell's sixteen-year-old sister, Alysanne, who would later be known as Black Aly, but whether this is fact or mere family legend cannot be known.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:27`)
+
 ## Quotes
 
 A lean tall creature was this wench, thin as a whip and flat-chested as a boy, but long of leg and strong of arm, with a mane of thick black curls that tumbled down past her waist when loosed.(wiki:Alysanne_Blackwood.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-14)

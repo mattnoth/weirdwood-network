@@ -97,6 +97,9 @@ Aemon became known as the Dragonknight because the crest on his helm was a three
 >
 > —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
 
+> His younger brother, Prince Aemon the Dragonknight, was champion and some say lover to Queen Naerys.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-lineages-and-family-tree-25.md:55`)
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiances)

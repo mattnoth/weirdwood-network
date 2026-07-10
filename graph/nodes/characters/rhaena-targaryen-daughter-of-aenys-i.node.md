@@ -168,6 +168,15 @@ Rhaena had an exquisite singing voice. At eighteen, Rhaena was considered brave,
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-time-of-testing-09.md:221`)
 
 
+> It was whispered (though never proved) that on one of these flights Rhaena surrendered the flower of her maidenhead to a lowborn lover. A hedge knight, one story had it; others named him a singer, a blacksmith’s son, a village septon.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:29`)
+
+> “The queen found her true love on Fair Isle,” Maester Smike wrote to the Citadel, “not with Androw, but with his sister, Lady Elissa.”
+> — Maester Smike, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:237`)
+
+> And there were some who went further and whispered that Rhaena was a sorceress, who had used the dark arts to murder Maegor upon the Iron Throne.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:149`)
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Titles)

@@ -65,6 +65,9 @@ Ormund: Ser Daeron the Daring.Daeron: My Lord is kind to say so, but the victory
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:83`)
 
 
+> On her back rode the youngest of Queen Alicent’s three sons, Daeron Targaryen, fifteen, Lord Ormund's squire, that same gentle and soft-spoken lad who had once been milk brother to Prince Jacaerys.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:59`)
+
 ## Quotes
 
 Little boys should be more mannerly when men are speaking. I think [your father](wiki:Viserys_I_Targaryen) did not beat you often enough. Take care I do not make up for his lack.(wiki:Daeron_Targaryen_(son_of_Viserys_I).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)

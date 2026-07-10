@@ -167,6 +167,12 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:181`)
 
 
+> Your Grace is welcome to try and take her from me.
+> — Maegor Targaryen, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:237`)
+
+> Many to this day believe it was the Iron Throne itself that killed him.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:243`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->

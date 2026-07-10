@@ -107,3 +107,8 @@ At first, Aemon was shy around [dragons](wiki:Dragon),(wiki:Aemon_Targaryen_(son
 - He bade his pregnant daughter stay behind, his last words to her about wanting a grandson (fab-the-long-reign-cont-14-p04:183)
 - A Myrish crossbow bolt aimed at the Evenstar struck him instead (fab-the-long-reign-cont-14-p04:193)
 - He died in 92 AC, drowned on his own blood, aged thirty-seven (fab-the-long-reign-cont-14-p04:195)
+
+## Quotes
+
+> His Grace grieved for Prince Aemon until the end of his days, but the Old King never dreamed that Aemon’'s death in 92 AC would be like the hellhorns of Valyrian legend, bringing death and destruction down on all those who heard their sound.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:217`)

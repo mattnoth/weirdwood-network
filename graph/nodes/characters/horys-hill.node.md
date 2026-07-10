@@ -36,3 +36,8 @@ In [45 AC](wiki:45_AC), Ser Horys led three hundred Poor Fellows in an effort t
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->
 
 - Ser Horys Hill, a hedge knight, led the western Poor Fellows and reached the Great Fork with thirteen thousand men; he escaped the battle but his following dwindled (fab-sons-of-the-dragon-05-p02:147)
+
+## Quotes
+
+> Amongst the last to die was their leader, who proved to be Ser Horys Hill, the bastard hedge knight who had escaped the carnage at the Great Fork three years earlier.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:131`)

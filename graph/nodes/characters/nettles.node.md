@@ -78,3 +78,5 @@ Nettles was foul-mouthed, filthy, and fearless.(wiki:Nettles.cite_ref-Rfabthe_dy
 > In the end, the brown dragon was brought to heel by the cunning and persistence of a “small brown girl” of six-and-ten, who delivered him a freshly slaughtered sheep every morning, until Sheepstealer learned to accept and expect her. Munkun sets down the name of this unlikely dragonrider as Nettles.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:249`)
 
+> That was the last known sighting of Sheepstealer and his rider, Nettles, recorded in the annals of Westeros...though the wildlings of the mountains still tell tales of a “fire witch” who once dwelled in a hidden vale far from any road or village.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:159`)

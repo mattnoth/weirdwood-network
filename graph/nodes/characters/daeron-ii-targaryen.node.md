@@ -137,3 +137,6 @@ Daeron the Good was seen as wise, just, and kind-hearted.(wiki:Daeron_II_Targary
 > The [whole realm](wiki:Seven_Kingdoms) knew that [the girl](wiki:Daenerys_Targaryen_(daughter_of_Aegon_IV)) loved Daeron's [bastard](wiki:Bastard) brother [Daemon Blackfyre](wiki:Daemon_I_Blackfyre), and was loved by him in turn, but the king was wise enough to see that the good of thousands must come before the desires of two, even if those two were dear to him.(wiki:Daeron_II_Targaryen.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
 >
 > —[Doran Martell](wiki:Doran_Martell) to [Balon Swann](wiki:Balon_Swann)
+
+> the Good, Queen Naerys’s son, by Aegon or Aemon [Daeron brought Dorne into the realm by wedding his sister to the Prince of Dorne.]
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-lineages-and-family-tree-25.md:59`)

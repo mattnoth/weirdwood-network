@@ -37,3 +37,8 @@ After the death of the [High Lickspittle](wiki:High_Lickspittle), Mattheus becam
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
 
 - Septon Mattheus, who spoke of little but how decent folk would condemn the king's incestuous union (fab-surfeit-of-rulers-08-p01:59)
+
+## Quotes
+
+> “Given all that has occurred, to marry brother to sister at this juncture would be seen as a grievous affront to the pious, and | fear for what might happen.”
+> — Septon Mattheus, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:181`)

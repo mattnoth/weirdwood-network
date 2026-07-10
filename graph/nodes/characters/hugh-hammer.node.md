@@ -48,6 +48,9 @@ Jon: Lord Hammer, my condolences.Hugh: For what?Jon: You died in [the battle](wi
 > As neither man could read nor write, we shall never know what drove the Two Betrayers (as history has named them) to do what they did.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:225`)
 
+> For all these reasons, Lord Hammer (as he now styled himself) began to dream of crowns. “Why be a lord when you can be a king?” he told the men who began to gather round him.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:163`)
+
 ## Quotes
 
 A crown does not make a man a king. You should wear a horseshoe on your head, blacksmith.(wiki:Hugh_Hammer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)

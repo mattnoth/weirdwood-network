@@ -23,3 +23,8 @@ sailed to cross the Sunset Sea, escaping the king's ravens
 <!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->
 
 sailed to cross the Sunset Sea, escaping the king's ravens
+
+## Quotes
+
+> Oldtown almost three years earlier to cross the Sunset Sea.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-13.md:19`)

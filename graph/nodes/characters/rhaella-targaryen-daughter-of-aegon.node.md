@@ -57,6 +57,9 @@ Following the coronation of her uncle [Jaehaerys](wiki:Jaehaerys_I_Targaryen) at
 >
 > —Rhaella Targaryen to [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I))
 
+> Under questioning, Ser Orryn confessed the entire plot: he was to deliver the girl to Storm's End, where Lord Rogar planned to force her to confess that she was the actual Princess Aerea, not Rhaella.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p02.md:201`)
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Titles)

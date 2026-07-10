@@ -46,6 +46,9 @@ The mob descended on Joffrey's corpse, and looters tore the boots from his feet 
 
 I want to fight for you, Mother, as my brothers did. Let me prove that I am as brave as they were.(wiki:Joffrey_Velaryon.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
+> Thus perished Joffrey Velaryon, Prince of Dragonstone and heir to the Iron Throne, the last of Queen Rhaenyra’s sons by Laenor Velaryon...or the last of her bastards by Ser Harwin Strong, depending on which truth one chooses to believe.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:171`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

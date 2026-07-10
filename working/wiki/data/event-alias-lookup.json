@@ -678,6 +678,7 @@
     "battle of the burning mill": "battle-of-the-burning-mill",
     "battle of the camps": "battle-of-the-camps",
     "battle of the crag": "battle-of-the-crag",
+    "battle of the fishfeed": "battle-by-the-lakeshore",
     "battle of the fist of the first men": "battle-of-the-fist-of-the-first-men",
     "battle of the fords": "battle-of-the-fords",
     "battle of the fords of the trident": "battle-of-the-fords-of-the-trident",
@@ -1966,6 +1967,7 @@
     "first turtle war": "first-turtle-war",
     "fisherman's war": "fishermans-war",
     "fishermans war": "fishermans-war",
+    "fishfeed": "battle-by-the-lakeshore",
     "fleet forms battle lines": "fleet-forms-battle-lines",
     "flight to dragonstone": "flight-to-dragonstone",
     "fly or die": "bran-s-coma-and-the-three-eyed-crow",
@@ -4543,6 +4545,7 @@
     "the battle of the blackwater": "battle-of-the-blackwater",
     "the battle of the borderland": "battle-of-the-borderland",
     "the battle of the camps": "battle-of-the-camps",
+    "the battle of the fishfeed": "battle-by-the-lakeshore",
     "the battle of the fords": "battle-of-the-fords",
     "the battle of the gullet": "battle-of-the-gullet",
     "the battle of the honeywine": "battle-of-the-honeywine",
@@ -4889,6 +4892,7 @@
     "the first turtle war": "first-turtle-war",
     "the fisherman's war": "fishermans-war",
     "the fishermans war": "fishermans-war",
+    "the fishfeed": "battle-by-the-lakeshore",
     "the fleet forms battle lines": "fleet-forms-battle-lines",
     "the flight to dragonstone": "flight-to-dragonstone",
     "the fly or die": "bran-s-coma-and-the-three-eyed-crow",
@@ -13333,22 +13337,22 @@
       }
     ]
   },
-  "computed_at": "2026-07-10T02:40:37.853095+00:00",
+  "computed_at": "2026-07-10T04:09:41.925223+00:00",
   "stats": {
     "ambiguous_collisions": 363,
     "source_breakdown": {
-      "node-frontmatter-alias": 770,
+      "node-frontmatter-alias": 772,
       "node-name": 993,
       "node-slug": 993,
-      "variant-article": 1230,
+      "variant-article": 1232,
       "victim-index": 4020,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 8908,
-    "unambiguous_lookups": 6550,
-    "unique_phrases": 6913
+    "total_entries_scanned": 8912,
+    "unambiguous_lookups": 6554,
+    "unique_phrases": 6917
   },
   "version": "v2"
 }

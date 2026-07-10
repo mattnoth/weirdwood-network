@@ -25,3 +25,7 @@ Lord Rogar's War is a war from the AWOIAF wiki.
 
 ## Edges
 
+## Quotes
+
+> The smallfolk of the time called it Lord Rogar's War, and that name is far more apt.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:187`)

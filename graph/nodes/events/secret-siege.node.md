@@ -40,3 +40,8 @@ Ser [Amaury Peake](wiki:Amaury_Peake) of the [Kingsguard](wiki:Kingsguard) along
 ## Aftermath
 
 Aegon's ravens led to the [Great Council of 136 AC](wiki:Great_Council_of_136_AC).(wiki:Secret_siege.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+## Quotes
+
+> (as this confrontation would later become known) with words, when swords would most likely have brought it to a swift conclusion.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:29`)

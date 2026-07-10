@@ -78,6 +78,12 @@ According to Grand Maester [Elysar](wiki:Elysar), by the age of two Saera knew e
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:231`)
 
 
+> “She wants what she wants and she wants it now,” Grand Maester Elysar wrote of the princess in 69 AC, when she was only two. “Seven save us all when she is older. The Dragonkeepers had best lock up the dragons.”
+> — Grand Maester Elysar, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:107`)
+
+> “True?” said Saera. It was in that moment, with that word, that the contempt came out. “No. | gave it to all three. They all think they were the first. Boys are such silly fools.”
+> — Saera Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:215`)
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Title)

@@ -70,6 +70,9 @@ Died 48 AC (track_b: Died). The lover relationship with Alys Harroway is marked 
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:209`)
 
 
+> Some said the woman was Maegor's concubine. Others named her Lady Alys’'s paramour.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:131`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->

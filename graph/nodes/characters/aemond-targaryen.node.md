@@ -90,6 +90,9 @@ As a child, Aemond was bold, wild, willful, hot-tempered and unforgiving, and gr
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:181`)
 
 
+> Aemond Targaryen...who would henceforth be known as Aemond the Kinslayer to his foes...returned to King's Landing, having won the support of Storm's End for his brother Aegon, and the undying enmity of Queen Rhaenyra.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:251`)
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiances)

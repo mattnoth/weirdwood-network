@@ -1,3 +1,8 @@
+# DRAINED S203 (2026-07-09) — do not append here; new F&B finds go to working/harvest-queue.md
+# Disposition: 337 rows -> 53 causal-spine STAGED (working/fire-and-blood/causal-spine-seeds-s203.jsonl for the causal session)
+# + 278 quote blocks attached across ~200 nodes (waves 1-3 + orchestrator; reports in working/fire-and-blood/harvest-drain-s203/)
+# + 3 no-home future-mint candidates (appended to working/fire-and-blood/apply/zero-edge-stubs-s203.jsonl) + 1 non-quote regnal-list skip + dups
+# Verifier at close: 1079/1079 book-cited quotes PASS.
 FAB / Th Tergaryen Raccession / targaryen-history / regnal list of Targaryen kings 1-283 AC with parentage and epithets
 FAB / called by singers the Dance of the Dragons / targaryen-history / civil war between Aegon II and Rhaenyra; both perished
 FAB / Queen Naerys’s son, by Aegon or Aemon / cross-identity / disputed paternity of Daeron II (Aegon IV or Aemon the Dragonknight)

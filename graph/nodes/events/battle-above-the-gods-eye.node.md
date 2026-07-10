@@ -51,3 +51,8 @@ The loss of both Aemond and Daemon and their powerful dragons was a severe blow 
 Vhagar's corpse was found years later, with Prince Aemond's armored corpse still chained to her saddle with [Dark Sister](wiki:Dark_Sister) through his eye. Vhagar's skull was brought to [King's Landing](wiki:King's_Landing) and displayed on the walls of the throne room. Dark Sister was restored to [House Targaryen](wiki:House_Targaryen).(wiki:Battle_Above_the_Gods_Eye.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
 Caraxes lived long enough to crawl from the Gods Eye back to the shore, where he died near Harrenhal. Daemon's body was never found, however. Some tales claim Daemon survived and later went to find his lover [Nettles](wiki:Nettles), but most historians dismiss this, believing instead that Daemon's body was carried away by currents or consumed by fish.(wiki:Battle_Above_the_Gods_Eye.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+
+## Quotes
+
+> It was upon the twenty-second day of the fifth moon of the year 130 AC when the dragons danced and died above the Gods Eye.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:263`)

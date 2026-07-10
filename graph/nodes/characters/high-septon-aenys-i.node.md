@@ -45,3 +45,8 @@ Nevertheless, the death of the High Septon and the election of a new, more passi
 ## Appearances & Description
 
 By the time of his death, at fifty-three, the High Septon was robust, tireless, fearless, and renowned for his strength. He sometimes preached for day and night, without sleep or nourishment.(wiki:High_Septon_(Aenys_I).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Quotes
+
+> Its causes are debated to this day. Some say that His High Holiness took his own life, in what was either the act of a craven afraid to face the wroth of King Maegor, or a noble sacrifice to spare the goodfolk of Oldtown from dragonfire.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:209`)

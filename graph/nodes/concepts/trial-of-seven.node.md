@@ -22,3 +22,8 @@ FIGHTS_IN: Duncan the Tall (inbound — 209 AC trial)
 FIGHTS_IN: Aerion Targaryen (inbound — 209 AC trial)
 FIGHTS_IN: Baelor Targaryen son of Daeron II (inbound — 209 AC trial, deceased)
 FIGHTS_IN: Maekar Targaryen (inbound — 209 AC trial)
+
+## Quotes
+
+> Dick Bean died first, cut down by Lyle Bracken mere instants after the combat began. Thereafter accounts differ markedly.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:115`)
