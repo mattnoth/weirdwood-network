@@ -157,6 +157,16 @@ Mirror `scripts/dunk-egg-splitter.py` (whole-work, no POV) + borrow the parts ma
 
 ### 3.4 Special case — the Lineages/Family Tree appendix (025) — RESOLVED (§11 #4): validation corpus, NOT edge source
 
+> **STATUS (S203): BUILT + RUN — `scripts/fab-lineages-diff.py`.** Corpus reality check: the split unit
+> does NOT contain the book's family-tree diagrams (raster images in the epub, never text) — only a
+> ~17-monarch OCR'd line-of-succession list survived (+ an interview transcript appended by the known
+> scrambled-toc splitter bug, bounded out by the parser). Result: 17 triples parsed, 13 resolved →
+> **13 confirm / 0 new / 0 conflict**; 4 unresolved-name (bare same-name royals, conservatively NOT
+> guessed) + 2 skipped clauses → `lineages-review.jsonl`. The graph is fully consistent with what the
+> appendix retains, but this was a THIN validation (13 triples), not the full-genealogy diff this
+> section originally envisioned. The script's collision guard (bare "Viserys" ≠ viserys-targaryen =
+> Viserys III) and redirect_to-following are reusable for future name→slug kinship work.
+
 The genealogy is **already in the graph** — the infobox merge shipped dense PARENT_OF/SPOUSE_OF/SIBLING_OF coverage (16,757 wiki-infobox edges). And the appendix is OCR'd tables, where one garbled name corrupts a kinship edge that everything downstream traverses. So:
 
 - **Parse deterministically** (Python table/tree parse) → candidate kinship triples.
