@@ -49,6 +49,11 @@ Thaddeus was bluff, cheerful, brave, honest, dutiful and well-liked, well-regard
 
 Lord Rowan was considered a doting husband and a good father.(wiki:Thaddeus_Rowan.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 
+## Quotes
+
+> (The Hand was in a black state even before the poisoning, for he had only recently suffered his own personal tragedy when his young wife, the Lady Floris, died in childbirth.)
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:115`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->

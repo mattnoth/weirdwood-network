@@ -45,6 +45,9 @@ While a skilled swordsman, Gareth was a harsh taskmaster. He sternly punished an
 >
 > —Gareth to [Victor Risley](wiki:Victor_Risley)
 
+> “You always were a bloody fool, Victor,” Ser Gareth said, when his longsword was placed into his hand.
+> — Ser Gareth Long, to Victor Risley at the trial by combat, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:151`)
+
 ### Quotes about Gareth
 
 > You may beat poor [Gaemon's](wiki:Gaemon_Palehair) bones, but you will get no more blood from him.(wiki:Gareth_Long.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)

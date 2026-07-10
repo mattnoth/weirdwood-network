@@ -150,6 +150,9 @@ While showing Ser [Loras Tyrell](wiki:Loras_Tyrell) the [White Book](wiki:White_
 > “Our death,” answered Ser Criston Cole, for these foes were fresh, better fed, better horsed, better armed, and they held the high ground, whilst his own men were stumbling, sick, and dispirited.
 > — Ser Criston Cole, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:125`)
 
+> With his pale green eyes, coal black hair, and easy charm, Cole soon became a favorite of all the ladies at court...not the least amongst them Rhaenyra Targaryen herself.
+> — Gyldayn's chronicle, on Criston Cole's appearance, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:23`)
+
 
 ## Fire & Blood
 

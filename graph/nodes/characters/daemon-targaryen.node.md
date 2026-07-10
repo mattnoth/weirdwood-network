@@ -151,6 +151,12 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 >
 > —[Aemond Targaryen](wiki:Aemond_Targaryen) and Daemon
 
+> “In the Vale, the men fuck sheep,” he wrote. “You cannot fault them. Their sheep are prettier than their women."
+> — Daemon Targaryen, on the Vale of Arryn, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p01.md:177`)
+
+> “Give the girl to me to wife,” he purportedly told his brother. “Who else would take her now?”
+> — Daemon Targaryen, per Mushroom (disputed), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:123`)
+
 ### Quotes about Daemon
 
 > Over the centuries, [House Targaryen](wiki:House_Targaryen) has produced both great men and monsters. Prince Daemon was both. In his day there was not a man so admired, so beloved, and so reviled in all Westeros. He was made of light and darkness in equal parts. To some he was a hero, to others the blackest of villains.(wiki:Daemon_Targaryen.cite_ref-Rtrp.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)

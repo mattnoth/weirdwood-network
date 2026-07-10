@@ -105,6 +105,9 @@ Visenya was both a [dragonrider](wiki:Dragonrider) and a warrior, comfortable in
 > it was rumored that in her later years, when she could no longer wield a sword, she delved into the dark arts, mixing poisons and casting malign spells. Some even suggest that she might have been a kinslayer and a kingslayer, though no proof has ever been offered to support such calumnies.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:275`)
 
+> Queen Visenya did not share her sister's love of music and song. She was not without humor, however, and for many years kept her own fool, a hirsute hunchback called Lord Monkeyface whose antics amused her greatly. When he choked to death on a peach pit, the queen acquired an ape and dressed it in Lord Monkeyface’s clothing. “The new one is cleverer,” she was wont to say.
+> — Gyldayn's chronicle, on Visenya's fool Lord Monkeyface, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:269`)
+
 
 ## Edges
 

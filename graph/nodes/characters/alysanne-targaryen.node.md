@@ -178,6 +178,18 @@ When talking to [Theon Greyjoy](wiki:Theon_Greyjoy), Lord [Roose Bolton](wiki:Ro
 > If servants’ tales may be believed, the king and his new queen slept naked and shared many long and lingering kisses, abed and at table and at many other times throughout the day, yet never consummated their union. Another year and a half would pass before Jaehaerys and Alysanne would finally join as man and woman.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:267`)
 
+> slim and slight of frame, Alysanne was oft described as pretty but seldom as beautiful, though she was born of a house renowned for beauty. Her eyes were blue rather than purple, her hair a mass of honey-colored curls. No man ever questioned her wits.
+> — Gyldayn's chronicle, describing Alysanne at thirteen, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:105`)
+
+> Lord Manderly entertained the queen lavishly. At the welcoming feast an entire aurochs was roasted, and his lordship’s daughter Jessamyn acted as the queen's cupbearer, filling her tankard with a strong northern ale that Her Grace pronounced finer than any wine she had ever tasted. Manderly also staged a small tourney in the queen’s honor, to show the prowess of his knights. One of the fighters (though no knight) was revealed to be a woman, a wildling girl who had been captured by rangers north of the Wall and given to one of Lord Manderly’s household knights to foster. Delighted by the girl’s daring, Alysanne summoned her own sworn shield, Jonquil Darke, and the wildling and the Scarlet Shadow dueled spear against sword whilst the northmen roared in approval.
+> — Gyldayn's chronicle, on Lord Manderly's welcome feast for Alysanne, F&B (`sources/chapters/fab/fab-jaehaerys-and-alysanne-triumphs-12-p02.md:147`)
+
+> Queen Alysanne served each of them a tankard of river water at the next council meeting, and dared them to drink of it. The water went undrunk, but the wells and pipes were soon approved. Construction would require more than a dozen years, but in the end “the queen's fountains” provided clean water for Kingslanders for many generations to come.
+> — Gyldayn's chronicle, on the queen's fountains, F&B (`sources/chapters/fab/fab-jaehaerys-and-alysanne-triumphs-12-p02.md:119`)
+
+> The girl who had led the king to the killers had a kinder fate. Taken in hand by Queen Alysanne, she was plunged into a tub of hot water for a scrubbing. Her clothes were burned, her head was shaved, and she was fed hot bread and bacon. “There is a place for you in the castle, if you want it,” Alysanne told her when her belly was full.
+> — Gyldayn's chronicle, on Alysanne and the Flea Bottom girl, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:77`)
+
 
 ## Edges
 

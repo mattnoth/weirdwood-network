@@ -93,6 +93,9 @@ As a child, Aemond was bold, wild, willful, hot-tempered and unforgiving, and gr
 > Aemond Targaryen...who would henceforth be known as Aemond the Kinslayer to his foes...returned to King's Landing, having won the support of Storm's End for his brother Aegon, and the undying enmity of Queen Rhaenyra.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:251`)
 
+> Later he would say that he was so afraid of being caught that he forgot to be frightened of being burned to death and eaten.
+> — Gyldayn's chronicle, on Aemond claiming Vhagar, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p03.md:95`)
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiances)

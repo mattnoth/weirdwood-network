@@ -61,6 +61,11 @@ Along with [Johanna Lannister](wiki:Johanna_Lannister), [Sharis Footly](wiki:Sha
 
 Archmaester [Gyldayn](wiki:Gyldayn) describes Samantha as fierce, fiery, and beautiful.(wiki:Samantha_Tarly.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
+## Quotes
+
+> her sister Sansara (of House Tarly) “is spirited and strong, and has read more books than half the maesters in the Citadel” whilst her good-sister Bethany (of House Hightower) was “very beautiful, with smooth soft skin and lustrous hair and the sweetest manner,” though also “lazy and somewhat stupid, truth be told, though some men seem to like that in a wife.”
+> — Lady Samantha's bride-letter, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:105`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-09 -->

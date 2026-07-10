@@ -112,6 +112,9 @@ Mushroom was erroneously believed to be a feeble-minded [lackwit](wiki:Lackwit) 
 > A great deal of drinking and fornication took place, claims Mushroom; a great deal of prayer and fasting and good works, reports Septon Eustace.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:41`)
 
+> Mushroom attributes his own survival to drink. “If | drank sufficient wine, | reasoned | might never know | was sick, and every fool knows that the things you do not know will never hurt you.”
+> — Mushroom, on surviving the Winter Fever, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:325`)
+
 ## Edges
 
 - SWORN_TO: House Targaryen (track_b: Allegiances)

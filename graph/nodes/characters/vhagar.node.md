@@ -118,6 +118,9 @@ By the time of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Vhagar was
 > That night she mounted Vhagar and returned to Dragonstone, and it is written that when her dragon passed before the moon, that orb turned as red as blood.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:49`)
 
+> Thus it was not a raven who took flight for Storm's End that day, but Vhagar, oldest and largest of the dragons of Westeros.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:155`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->

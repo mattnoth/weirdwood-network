@@ -165,6 +165,9 @@ It was widely known that the promiscuous Aegon had fathered several [bastards](w
 > Though no longer himself capable of sexual congress due to his burns, according to the dwarf, Aegon still felt carnal urges, and would often watch from behind a curtain as one of his favorites coupled with a serving girl or lady of the court.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:191`)
 
+> The burns he'd suffered at Rook's Rest had left scars that covered half his body. Mushroom says they had rendered him impotent as well. Nor could he walk. His leap from Sunfyre's back at Dragonstone had broken his right leg in two places, and shattered the bones in his left. The right had healed well, Grand Maester Orwyle records; not so the left. The muscles of that leg had atrophied, the knee stiffening, the flesh melting away until only a withered stick remained, so twisted that Orwyle thought His Grace might do better were it cut away entirely.
+> — Gyldayn's chronicle, on Aegon II's injuries, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:187`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

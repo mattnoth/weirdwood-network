@@ -62,3 +62,8 @@ Aegon at fifteen was lean and handsome, he caught the eye of many a [maiden](wik
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
 
 - Rhaena's late first husband, Prince Aegon, who faced Maegor at the Battle Beneath the Gods Eye (fab-surfeit-of-rulers-08-p01:27)
+
+## Quotes
+
+> Lean and handsome and growing taller every year, Aegon was said by many to be the very image of his grandsire at the same age.
+> — Gyldayn's chronicle, on Prince Aegon's appearance, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:23`)

@@ -39,6 +39,9 @@ Mellos's written accounts were used frequently by Archmaester [Gyldayn](wiki:Gyl
 
 What of it? I am not fond of fish, but when fish is served, I eat it.(wiki:Mellos.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 
+> “What of it?” he said. “I do not like the taste of fish, but when fish is served, | eat it."
+> — Grand Maester Mellos, dismissing objections to Laenor Velaryon as Rhaenyra's match, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:137`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

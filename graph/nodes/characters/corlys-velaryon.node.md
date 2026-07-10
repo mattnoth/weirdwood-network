@@ -137,6 +137,9 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 > It is written that when the Sea Snake was congratulated on his victory, the old man said, “If this be victory, | pray I never win another.”
 > — Corlys Velaryon, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:49`)
 
+> enough gold to buy twenty more ships and load them all with saffron, pepper, nutmeg, elephants, and bolts of the finest silk. Only fourteen of the fleet arrived safely at Driftmark, and all the elephants died at sea, yet even so the profits from that voyage were so vast that the Velaryons became the wealthiest house in the Seven Kingdoms, eclipsing even the Hightowers and Lannisters, albeit briefly.
+> — Gyldayn's chronicle, on Corlys Velaryon's ninth voyage, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p01.md:125`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

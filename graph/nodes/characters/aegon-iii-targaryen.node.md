@@ -222,6 +222,9 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 >
 > —Aegon, to [Torrhen Manderly](wiki:Torrhen_Manderly)
 
+> The prince paled at the sight of Lady Rhaena’s dragon, Morning, and commanded the northmen guarding him to "get that wretched creature out of my sight.”
+> — Gyldayn's chronicle, on Aegon III recoiling from Lady Rhaena's dragon, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:287`)
+
 ### Quotes about Aegon
 
 > [The king](wiki:Aegon_II_Targaryen) is dead, long live the king.(wiki:Aegon_III_Targaryen.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-16)

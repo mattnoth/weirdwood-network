@@ -152,6 +152,9 @@ Bold(wiki:Alyn_Velaryon.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-
 > All this the Lord of the Tides brought back to Westeros, along with the name that he would carry for the rest of his long life: Oakenfist.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:159`)
 
+> the two youths struck up a fast friendship that did much to put all the old enmities between the blacks and greens to rest.
+> — Gyldayn's chronicle, on Alyn Oakenfist and Lyonel Hightower's friendship, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:63`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->

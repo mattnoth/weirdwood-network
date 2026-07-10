@@ -276,6 +276,12 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 > Alysanne wept when she heard, for she knew her cause was hopeless. Jaehaerys was hard as stone. “Saera with a dragon,” was all he had to say. “Would she have taken Balerion as well, | wonder?”
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:245`)
 
+> “No man can claim to be oppressed by these taxes,” Jaehaerys explained to the small council. “To avoid them, a man need only forgo his pepper, his silk, his pearls, and he need not pay a groat. The men who want these things desire them desperately, however. How else to flaunt their power and show the world what wealthy men they are? They may squawk, but they will pay.”
+> — Jaehaerys I Targaryen, on his luxury taxes, F&B (`sources/chapters/fab/fab-time-of-testing-09.md:137`)
+
+> The wispy beard and mustache that His Grace had cultivated early in his reign had become a handsome golden beard, shot through with silver. His unshorn hair he wore in a thick braid that fell almost to his waist. Tall and handsome, Jaehaerys moved with an easy grace, be it on the dance floor or in the training yard. His smile, it was said, could warm the heart of any maiden in the Seven Kingdoms; his frown could make a man’s blood run cold.
+> — Gyldayn's chronicle, describing Jaehaerys at four-and-twenty, F&B (`sources/chapters/fab/fab-jaehaerys-and-alysanne-triumphs-12-p02.md:309`)
+
 
 ## Fire & Blood
 

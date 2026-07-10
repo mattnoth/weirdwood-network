@@ -137,6 +137,12 @@ During her time on [Dragonstone](wiki:Dragonstone), Aerea became a terror, defyi
 > Dressed in the rags of a common girl of the lowest order, with her silver-gold hair dyed a muddy brown, Princess Aerea would spend the rest of the regency working in a stable near the King’s Gate.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p02.md:183`)
 
+> “She is frightened of horses, dogs, boys with loud voices, men with beards, and dancing, and she is terrified of dragons,”
+> — Grand Maester Benifer, on young Aerea, F&B (`sources/chapters/fab/fab-prince-into-king-06.md:181`)
+
+> “We have told the world that Princess Aerea died of a fever, and that is broadly true, but it was a fever such as | have never seen before and hope never to see again. The girl was burning. Her skin was flushed and red and when | laid my hand upon her brow to learn how hot she was, it was as if | had thrust it into a pot of boiling oil. There was scarce an ounce of flesh upon her bones, so gaunt and starved did she appear, but we could observe certain...swellings inside her, as her skin bulged out and then sunk down again, as if...no, not as if, for this was the truth of it...there were things inside her, living things, moving and twisting, mayhaps searching for a way out, and giving her such pain that even the milk of the poppy gave her no surcease. We told the king, as we must surely tell her mother, that Aerea never spoke, but that is a lie. | pray that | shall soon forget some of the things she whispered through her cracked and bleeding lips. | cannot forget how oft she begged for death.
+> — Septon Barth, on Aerea's death, F&B (`sources/chapters/fab/fab-jaehaerys-and-alysanne-triumphs-12-p01.md:267`)
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiance)

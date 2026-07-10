@@ -119,3 +119,6 @@ Unwin was proud, brusque, hard, ambitious, and cunning. Like his [lord father](w
 > This he never forgave, stabbing the turncloak Owain Bourney and plotting the murders of the dragonriders Hugh Hammer and Ulf White. Foremost of the Caltrops (though this was not widely known), and one of only three still living, Lord Unwin had proved at Tumbleton that he was no man to trifle with.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:47`)
 
+> “Your Grace does not like turnips, but when your cooks prepare them, you eat them, do you not?”
+> — Unwin Peake, to Aegon III (the remark that gave rise to "Lady Turnips"), F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:91`)
+

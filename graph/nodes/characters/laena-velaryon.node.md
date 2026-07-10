@@ -58,6 +58,9 @@ Her ladyship shows far more interest in [flying](wiki:Dragonrider) than in boys.
 [She] was almost as pretty as [her brother](wiki:Laenor_Velaryon).(wiki:Laena_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-18)
 Whilst Princess [Rhaenyra](wiki:Rhaenyra_Targaryen) misliked her stepmother, Queen [Alicent](wiki:Alicent_Hightower), she became fond and more than fond of her good-sister Lady Laena.(wiki:Laena_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-19)
 
+> a maid of two-and-twenty, tall, slender, and surpassingly lovely (even Mushroom was taken with her beauty, writing that she “was almost as pretty as her brother”), with a great mane of silver-gold ringlets that fell down past her waist
+> — Gyldayn's chronicle, on Laena Velaryon at Driftmark, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p03.md:19`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

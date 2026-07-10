@@ -77,6 +77,12 @@ Munkun: We must abide by primogeniture, as the [Great Council](wiki:Great_Counci
 > The Hand declined quickly after that. The fever took his life in two days instead of the usual four. Septon Eustace was with him when he died, as was the boy king that he had served.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:15`)
 
+> Once as tall and golden-haired and dashing as his twin, the late Lord Jason, Ser Tyland had been left so disfigured by the queen's torturers that ladies new to court had been known to faint at the sight of him.
+> — Septon Eustace's account, on Tyland Lannister after his torture, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:81`)
+
+> He also ordered the construction of three huge fortified granaries, in King’s Landing, Lannisport, and Gulltown, and the purchase of sufficient grain to fill them. (The latter decree drove up the price of grain sharply, which pleased those towns and lords with wheat and corn and barley to sell, but angered the proprietors of inns and pot shops, and the poor and hungry in general.)
+> — Gyldayn's chronicle, on Tyland's granaries and grain policy, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:97`)
+
 
 ## Quotes
 

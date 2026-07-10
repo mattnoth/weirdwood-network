@@ -84,6 +84,12 @@ Racallio sometimes ordered his dozen wives to beat him. A contradictory person, 
 > He honored the gods: all gods, everywhere. When battle threatened, he would throw the bones to choose which god to placate with a sacrifice.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:41`)
 
+> He was six-and-a-half feet tall, supposedly, with one shoulder higher than another, giving him a stooped posture and a rolling gait.
+> — Gyldayn's chronicle, on Racallio's appearance, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:39`)
+
+> He was a glutton and a drunkard when at leisure, a demon when in battle.
+> — Gyldayn's chronicle, on Racallio's temperament, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:41`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->

@@ -23,3 +23,8 @@ mass death; no more than one in five recovered
 <!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
 
 mass death; no more than one in five recovered
+
+## Quotes
+
+> suddenly every house in the Seven Kingdoms, from the grandest castle to the humblest hut, required a cat. Before the Shivers ran its course that winter, kittens were selling for as much as destriers.
+> — Gyldayn's chronicle, on the kitten economy during the Shivers, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:21`)

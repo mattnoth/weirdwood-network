@@ -42,6 +42,9 @@ After the [Treasons of Tumbleton](wiki:Treasons_of_Tumbleton) by the [Two Betray
 > Even executions became a source of coin. Henceforth, Celtigar decreed, traitors, rebels, and murderers would be beheaded within the Dragonpit, and their corpses fed to the queen’s dragons. All were welcome to bear witness to the fate that awaited evil men, but each must pay three pennies at the gates to be admitted.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:41`)
 
+> “Not even whores are safe,” the smallfolk told each other. “The cunt tax will be next, and then the tail tax. The rats must pay their share.”
+> — smallfolk gossip on Celtigar's taxes, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:33`)
+
 
 ## Fire & Blood
 

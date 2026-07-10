@@ -47,3 +47,8 @@ In [44 AC](wiki:44_AC), after Alys had a stillborn, monstrously deformed baby, 
 
 - Hand of the King and father of Queen Alys; he sent men to his daughter's bed to get her with child. (fab-sons-of-the-dragon-05-p03:87)
 - He was flung from the roof of the Tower of the Hand. (fab-sons-of-the-dragon-05-p03:95)
+
+## Quotes
+
+> Lord Lucas Harroway refused to admit them to his castle unless they agreed to acknowledge his daughter Alys as their uncle's true and lawful wife. Their refusal won them no love from the pious, only a cold wet night in tents beneath the towering walls of Black Harren’s mighty castle.
+> — Gyldayn's chronicle, on Lord Lucas Harroway's hospitality refusal, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:55`)

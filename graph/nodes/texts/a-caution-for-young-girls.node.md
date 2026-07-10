@@ -37,3 +37,6 @@ It purports to be the testimony of [a young maid](wiki:Coryanne_Wylde) of noble 
 
 > She was to be sent to Dragonstone, a supposed maid, to serve as one of Queen Alysanne's companions, but once there she was to use her wiles and her body to beguile the king into bed.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:195`)
+
+> The book in question is known under various titles, amongst them Sins of the Flesh, The High and the Low, A Wanton’s Tale, and The Wickedness of Men, but all versions bear the subtitle A Caution for Young Girls.
+> — Gyldayn's chronicle, describing the book's variant titles, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:159`)

@@ -162,6 +162,9 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 > In the fullness of her victory, Rhaenyra Targaryen did not suspect how few days remained to her. Yet every time she sat the Iron Throne, its cruel blades drew fresh blood from her hands and arms and legs, a sign that all could read.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:57`)
 
+> Young Lord Stokeworth's castellan granted her hospitality, but only for a night. “They will come for you,” he warned the queen, “and | do not have the power to resist them.”
+> — Gyldayn's chronicle, on Rhaenyra's flight from King's Landing, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:155`)
+
 
 ## Fire & Blood
 

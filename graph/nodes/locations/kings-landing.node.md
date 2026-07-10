@@ -200,3 +200,6 @@ As atonement for her confessed sins, Cersei [walks](wiki:Walk_of_atonement) from
 > The morning air was thick with the old familiar stinks of King's Landing. She breathed in the scents of sour wine, bread baking, rotting fish and [nightsoil](wiki:Night_soil), smoke and sweat and horse piss. No flower had ever smelled so sweet.(wiki:King's_Landing.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_84-1)
 >
 > —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+
+> King’s Landing grew up around Aegon and his court, on and about the three great hills that stood near the mouth of the Blackwater Rush. The highest of those hills had become known as Aegon’s High Hill, and soon enough the lesser hills were being called Visenya's Hill and the Hill of Rhaenys, their former names forgotten.
+> — Gyldayn's chronicle, on the naming of the three hills, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:213`)

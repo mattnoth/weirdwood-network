@@ -25,3 +25,8 @@ Winter of the Widows is a war from the AWOIAF wiki.
 
 ## Edges
 
+## Quotes
+
+> So many lords, both great and small, had perished during the Dance of the Dragons that the Citadel rightly names this time the Winter of the Widows. Never before or since in the history of the Seven Kingdoms have so many women wielded so much power
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:265`)
+

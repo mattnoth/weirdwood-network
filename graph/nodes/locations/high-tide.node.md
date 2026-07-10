@@ -32,3 +32,8 @@ The Velaryons sided with the [blacks](wiki:Blacks) during the [Dance of the Drag
 ## Appearances & Description
 
 High Tide is built from [pale stone](wiki:Marble), the same material used in the [Eyrie](wiki:Eyrie). Its slender towers are crowned with roofs of beaten [silver](wiki:Silver) which shine in the sun. When the waters of [Blackwater Bay](wiki:Blackwater_Bay) are at high tide, the castle is connected to the island of Driftmark by only a causeway.(wiki:High_Tide.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Quotes
+
+> High Tide was built of the same pale stone as the Eyrie, its slender towers crowned with roofs of beaten silver that flashed in the sun.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p01.md:129`)

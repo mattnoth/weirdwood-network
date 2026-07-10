@@ -124,6 +124,9 @@ Aegon is not considered to have been particularly pious.(wiki:Aegon_I_Targaryen.
 >
 > —Aegon to his armorers
 
+> “It is better to forestall rebellions than to put them down,” Aegon famously said, when asked the reason for his journeys.
+> — Aegon I Targaryen, on his royal progresses, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:197`)
+
 ### Quotes about Aegon
 
 > On the seventh day, a cloud of [ravens](wiki:Raven) burst from the towers of [Dragonstone](wiki:Dragonstone) to bring Lord Aegon's word to the [Seven Kingdoms](wiki:Seven_Kingdoms) of [Westeros](wiki:Westeros). To the seven kings they flew, to the [Citadel](wiki:Citadel) of [Oldtown](wiki:Oldtown), to lords both great and small. All carried the same message: from this day forth there would be but [one king](wiki:Lord_of_the_Seven_Kingdoms) in Westeros. Those who bent the knee to Aegon of [House Targaryen](wiki:House_Targaryen) would keep their lands and titles. Those who took up arms against him would be thrown down, humbled, and destroyed.(wiki:Aegon_I_Targaryen.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-7)
