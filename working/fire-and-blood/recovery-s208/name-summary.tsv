@@ -1,0 +1,932 @@
+name	reasons	n_units	rel_rows	event_rows	role_refs
+Rhaena Targaryen	needs-vocab;no-decisive-margin	17	104	0	13
+Corlys Velaryon	no-decisive-margin	14	37	0	11
+Maegor I Targaryen	needs-vocab	1	32	0	15
+Jaehaerys	unresolved-status:candidates	7	30	0	4
+Baelon Targaryen	no-decisive-margin	4	30	0	3
+Alysanne	no-decisive-margin	7	25	0	3
+Kingsguard	unresolved-status:candidates	25	23	0	0
+Aegon III	unresolved-status:candidates	3	19	0	4
+Aegon II	unresolved-status:candidates	4	16	0	1
+Daeron Targaryen	no-decisive-margin	3	15	0	2
+Iron Throne	unresolved-status:candidates	11	16	0	0
+Rhaenyra	unresolved-status:candidates	4	13	0	3
+Baelon	unresolved-status:candidates	2	13	0	3
+Alicent	unresolved-status:candidates	5	14	0	1
+Queen Alyssa	unresolved-status:candidates	3	14	0	1
+Sealord of Braavos	unresolved-status:candidates	7	11	0	3
+Jaehaera	unresolved-status:candidates	7	12	0	1
+Balerion	no-decisive-margin	14	7	0	5
+Daemon Velaryon	no-decisive-margin	6	11	0	1
+Visenya Targaryen	no-decisive-margin	4	9	0	3
+Aegon Targaryen (the Uncrowned)	unresolved-status:candidates	1	9	0	3
+Aemon	unresolved-status:candidates	1	10	0	2
+Vulture King	no-decisive-margin	5	7	0	4
+Daella	unresolved-status:candidates	1	10	0	1
+Aemond	unresolved-status:candidates	1	10	0	1
+Aenys I	unresolved-status:candidates	2	10	0	0
+Warrior's Sons	unresolved-status:candidates	4	6	0	4
+Nettles	no-decisive-margin	7	8	0	2
+Alyssa	unresolved-status:candidates	1	9	0	1
+Ronnel Arryn	no-decisive-margin	3	6	0	3
+Jason Lannister	no-decisive-margin	6	7	0	2
+Martyn Hightower	no-decisive-margin	2	8	0	1
+Seven Kingdoms	unresolved-status:candidates	8	8	0	1
+Laena Velaryon	no-decisive-margin	4	9	0	0
+High Septon	no-decisive-margin	17	4	0	4
+Rhaenys	unresolved-status:candidates	4	7	0	1
+Viserys (son of Rhaenyra)	unresolved-status:candidates	2	7	0	1
+Daeron II	unresolved-status:candidates	1	7	0	1
+Poor Fellows	unresolved-status:candidates	8	4	0	4
+Viserys Targaryen	no-decisive-margin	4	7	0	1
+green council	unresolved-status:candidates	1	8	0	0
+Maegor	unresolved-status:candidates	5	7	0	1
+Helaena	unresolved-status:candidates	3	8	0	0
+Septon Barth	unresolved-status:candidates	10	5	0	2
+Aegon	unresolved-status:candidates	2	6	0	1
+Gaemon	unresolved-status:candidates	2	5	0	2
+black council	unresolved-status:candidates	1	7	0	0
+Daemon	unresolved-status:candidates	2	6	0	1
+Lord Oakheart	unresolved-status:candidates	6	6	0	0
+Manfred Hightower	no-decisive-margin	4	5	0	1
+Lord Darklyn	unresolved-status:candidates	7	4	0	2
+Viserys I	unresolved-status:candidates	2	6	0	0
+Lord Farman	unresolved-status:candidates	5	4	0	2
+Winter Fever	unresolved-status:candidates	2	0	0	6
+Aegon Targaryen (son of Viserys)	unresolved-status:candidates	1	5	0	1
+Prince Aemond	unresolved-status:candidates	1	5	0	1
+Lord Mooton	unresolved-status:candidates	7	3	0	2
+Triarchy (Kingdom of the Three Daughters)	unresolved-status:candidates	1	3	0	2
+Jaehaerys (son of Aegon the Elder)	unresolved-status:candidates	1	4	0	1
+Night's Watch	unresolved-status:candidates	8	3	0	2
+Lord Rowan	unresolved-status:candidates	4	5	0	0
+the Shepherd's mob	unresolved-status:candidates	1	0	0	5
+Trystane	unresolved-status:candidates	1	3	0	2
+City Watch of King's Landing	unresolved-status:candidates	5	5	0	0
+Unwin Peake	needs-vocab	1	4	0	1
+Caltrops	unresolved-status:candidates	2	5	0	0
+Aegon Targaryen (son of Aenys)	unresolved-status:candidates	1	4	0	1
+Viserys (son of Daemon)	unresolved-status:candidates	2	4	0	1
+Aemon (son of Viserys)	unresolved-status:candidates	1	4	0	1
+Baela	unresolved-status:candidates	1	4	0	1
+Daenys	unresolved-status:candidates	1	4	0	0
+Dorne	unresolved-status:candidates	5	4	0	0
+Aenys	unresolved-status:candidates	4	4	0	0
+Aegon Targaryen (son of Viserys I)	unresolved-status:candidates	1	3	0	1
+Baelon Targaryen (the Spring Prince)	unresolved-status:candidates	1	4	0	0
+Braavosi betrothed	unresolved-status:candidates	1	3	0	1
+Aegon I	unresolved-status:candidates	1	3	0	1
+Maegor I	unresolved-status:candidates	1	4	0	0
+Grand Maester Orwyle	unresolved-status:candidates	3	2	0	2
+Aerys II	unresolved-status:candidates	1	3	0	1
+Daeron I	unresolved-status:candidates	1	3	0	1
+Aemon the Dragonknight	unresolved-status:candidates	1	4	0	0
+Jaehaerys I	unresolved-status:candidates	3	4	0	0
+Jaehaerys II	unresolved-status:candidates	1	4	0	0
+Aegon IV	unresolved-status:candidates	2	4	0	0
+Aegon V	unresolved-status:candidates	1	4	0	0
+Maekar I	unresolved-status:candidates	1	4	0	0
+Alyssa Velaryon	needs-vocab	1	4	0	0
+Faceless Men	unresolved-status:candidates	4	3	0	1
+Viserys	unresolved-status:candidates	3	3	0	1
+Ser Theo Bolling	unresolved-status:candidates	1	3	0	1
+Valerion	unresolved-status:candidates	1	2	0	2
+Rodrik Greyjoy	no-decisive-margin	1	3	0	1
+Prince Viserys	unresolved-status:candidates	1	3	0	1
+Prince Daemon Targaryen	unresolved-status:candidates	1	4	0	0
+Septon Oswyck	unresolved-status:candidates	3	2	0	1
+Baelon Targaryen ("heir for a day")	unresolved-status:candidates	1	2	0	1
+Conclave	unresolved-status:candidates	2	2	0	1
+Winterfell	unresolved-status:candidates	4	3	0	0
+Lord Tyrell	unresolved-status:candidates	6	3	0	0
+Most Devout	unresolved-status:candidates	5	1	0	2
+Lord Staunton	no-decisive-margin	6	3	0	0
+Rhaella	unresolved-status:candidates	2	3	0	0
+Aegon Targaryen (infant)	unresolved-status:candidates	1	2	0	1
+Barth	no-decisive-margin	1	3	0	0
+Baelor I	unresolved-status:candidates	1	3	0	0
+Viserys II	unresolved-status:candidates	1	3	0	0
+Naerys	unresolved-status:candidates	1	3	0	0
+Aerys I	unresolved-status:candidates	1	3	0	0
+Grand Maester Gawen	unresolved-status:candidates	2	1	0	2
+Septon Murmison	unresolved-status:candidates	2	2	0	1
+Lord Rogar Baratheon	unresolved-status:candidates	1	2	0	1
+bastard boy	unresolved-status:candidates	1	2	0	1
+Giants	unresolved-status:candidates	1	2	0	1
+Cheese	unresolved-status:candidates	2	3	0	0
+Lys	unresolved-status:candidates	2	3	0	0
+Samantha	unresolved-status:candidates	2	3	0	0
+Gael	unresolved-status:candidates	1	2	0	1
+Viserra	unresolved-status:candidates	1	2	0	1
+Aegon (son of Viserys)	unresolved-status:candidates	1	3	0	0
+Death of Maelor Targaryen	event-dedup-risk:candidates	1	0	3	0
+Norren	no-decisive-margin	1	3	0	0
+Seven Speakers	unresolved-status:candidates	1	3	0	0
+Archon's daughter	unresolved-status:candidates	2	3	0	0
+Rhaena	unresolved-status:candidates	1	3	0	0
+Arrec	unresolved-status:candidates	1	2	0	0
+the stormlands	unresolved-status:candidates	1	2	0	0
+Elaena Targaryen	no-decisive-margin	1	2	0	0
+Lord Errol	unresolved-status:candidates	1	2	0	0
+Vaella	unresolved-status:candidates	1	2	0	0
+Grand Maester Benifer	unresolved-status:candidates	7	2	0	0
+King's Landing	unresolved-status:candidates	10	0	0	2
+Corlys Velaryon (the Sea Snake)	unresolved-status:candidates	1	1	0	1
+Visenya	unresolved-status:candidates	6	2	0	0
+three sisters of Jonquil's Pool	unresolved-status:candidates	1	0	0	2
+Death of Prince Aemon	event-dedup-risk:candidates	2	0	2	0
+Death of Septon Barth	event-dedup-risk:candidates	2	0	2	0
+Birth of Prince Viserys	event-dedup-risk:candidates	2	0	2	0
+Rhaena (Black Bride)	unresolved-status:candidates	1	2	0	0
+Death of King Viserys I	event-dedup-risk:candidates	2	0	2	0
+Prince of Pentos	unresolved-status:candidates	2	1	0	1
+Riverrun	unresolved-status:candidates	2	2	0	0
+Northmen	unresolved-status:candidates	1	2	0	0
+Lady Arryn	unresolved-status:candidates	3	2	0	0
+Aegon Targaryen	no-decisive-margin	2	2	0	0
+Ser Myles Smallwood	unresolved-status:candidates	1	1	0	1
+Death of the High Septon	event-dedup-risk:candidates	2	0	2	0
+Iron Bank of Braavos	unresolved-status:candidates	10	2	0	0
+Walton Stark	no-decisive-margin	1	1	0	1
+Lord Towers	unresolved-status:candidates	2	2	0	0
+Torrhen Stark's daughter	unresolved-status:candidates	1	2	0	0
+Torrhen Stark	no-decisive-margin	1	2	0	0
+Lord Fowler	unresolved-status:candidates	1	1	0	1
+Death of Rhaenys Targaryen	event-dedup-risk:candidates	2	0	2	0
+Lord Caron	unresolved-status:candidates	1	1	0	1
+Laena	unresolved-status:candidates	2	2	0	0
+Alysanne Targaryen (dau. of Aenys)	unresolved-status:candidates	1	2	0	0
+Death of the Vulture King	event-dedup-risk:candidates	2	0	2	0
+Harrenhal	unresolved-status:candidates	3	2	0	0
+Casterly Rock	unresolved-status:candidates	3	2	0	0
+Septon Pater	unresolved-status:candidates	1	1	0	1
+Lord Hayford	no-decisive-margin	2	1	0	1
+Rhaella Targaryen	no-decisive-margin	2	1	0	1
+Visenya Targaryen (daughter of Rhaenyra)	unresolved-status:candidates	1	1	0	1
+Ser Erryk Cargyll	unresolved-status:candidates	1	2	0	0
+Ser Arryk Cargyll	unresolved-status:candidates	1	2	0	0
+Eyrie	unresolved-status:candidates	2	2	0	0
+King Viserys	unresolved-status:candidates	3	2	0	0
+Lord Rickon Stark	unresolved-status:candidates	1	2	0	0
+Ser Arnold Arryn	unresolved-status:candidates	1	2	0	0
+Wolf Pack	unresolved-status:candidates	1	2	0	0
+Brother of Eustace Hightower	unresolved-status:candidates	1	1	0	1
+Saera	unresolved-status:candidates	1	2	0	0
+Aerea	unresolved-status:candidates	2	2	0	0
+Jocelyn	unresolved-status:candidates	1	2	0	0
+Cameron	unresolved-status:candidates	1	1	0	1
+Septon Bernard	unresolved-status:candidates	5	2	0	0
+Vale mountain clans	unresolved-status:candidates	1	1	0	1
+Daenaera	unresolved-status:candidates	2	1	0	1
+Marilda	unresolved-status:candidates	2	2	0	0
+Prince Daeron	unresolved-status:candidates	2	2	0	0
+Maelor	unresolved-status:candidates	2	2	0	0
+Prince Daemon	unresolved-status:candidates	2	2	0	0
+Queen Helaena	unresolved-status:candidates	1	2	0	0
+Men of Valor	unresolved-status:candidates	1	1	0	1
+Death of Queen Jaehaera	event-dedup-risk:candidates	2	0	2	0
+Titus Peake	no-decisive-margin	1	2	0	0
+Lord Bar Emmon	unresolved-status:candidates	4	1	0	0
+the westerlands	unresolved-status:candidates	1	1	0	0
+Faith Militant	unresolved-status:candidates	2	1	0	0
+the Vale	unresolved-status:candidates	3	1	0	0
+Battle against Darklyn and Mooton	composite-name	1	0	1	0
+the Faith	unresolved-status:candidates	2	1	0	0
+Battle at the Wailing Willows	event-dedup-risk:candidates	1	0	1	0
+Submission of Rosby	event-dedup-risk:candidates	1	0	1	0
+Surrender of Highgarden	event-dedup-risk:candidates	1	0	1	0
+the North	unresolved-status:candidates	2	1	0	0
+the Reach	unresolved-status:candidates	1	1	0	0
+Hightower's youngest daughter	unresolved-status:candidates	1	1	0	0
+Surrender of Storm's End	event-dedup-risk:candidates	1	0	1	0
+the riverlands	unresolved-status:candidates	1	1	0	0
+Aegon's host at the Field of Fire	unresolved-status:candidates	1	1	0	0
+the Targaryen host at Storm's End	unresolved-status:candidates	1	1	0	0
+Aegon's first coronation	event-dedup-risk:candidates	1	0	1	0
+the Targaryen fleet	unresolved-status:candidates	1	1	0	0
+the dragonlords	unresolved-status:candidates	1	0	0	1
+Birth and death of Prince Aegon	event-dedup-risk:candidates	1	0	1	0
+Death of Septon Oswyck	event-dedup-risk:candidates	1	0	1	0
+Rebuilding of King's Landing begins	event-dedup-risk:candidates	1	0	1	0
+Lord Grafton	unresolved-status:candidates	1	1	0	0
+Maidenpool	unresolved-status:candidates	3	1	0	0
+Corlys Velaryon (Lord Commander)	unresolved-status:candidates	1	1	0	0
+Vale of Arryn	unresolved-status:candidates	2	1	0	0
+Septa Ysabel	unresolved-status:candidates	3	1	0	0
+Myrmen	bare-first-name-miss	1	0	0	1
+Wedding of Daemon and Rhea Royce	composite-name	1	0	1	0
+Creation of the gold cloaks	event-dedup-risk:candidates	1	0	1	0
+Septon Eustace	unresolved-status:candidates	12	1	0	0
+Accession of Viserys I	event-dedup-risk:candidates	1	0	1	0
+Wedding of Viserys and Aemma Arryn	event-dedup-risk:candidates	1	0	1	0
+Death of Jaehaerys I	event-dedup-risk:candidates	1	0	1	0
+City Watch	unresolved-status:candidates	5	0	0	1
+The Testimony of Mushroom	unresolved-status:candidates	1	1	0	0
+Dragon egg	unresolved-status:candidates	1	1	0	0
+Baelor the Blessed	needs-vocab	1	1	0	0
+Death of Prince Baelon	event-dedup-risk:candidates	1	0	1	0
+Myrish crossbowman	unresolved-status:candidates	1	0	0	1
+Fifth-anniversary tourney (greens and blacks named)	composite-name	1	0	1	0
+Birth of Helaena	event-dedup-risk:candidates	1	0	1	0
+Lord of Oldtown (Lord Hightower)	unresolved-status:candidates	1	1	0	0
+Rhaenyra named Princess of Dragonstone / heir	composite-name	1	0	1	0
+War council at High Tide	event-dedup-risk:candidates	1	0	1	0
+Otto stripped of the Handship; Lyonel Strong named Hand	composite-name	1	0	1	0
+Death of Queen Aemma in childbed	event-dedup-risk:candidates	1	0	1	0
+Birth of Aemond	event-dedup-risk:candidates	1	0	1	0
+King of the Stepstones and the Narrow Sea	unresolved-status:candidates	1	1	0	0
+Deaths of Runciter and Harrold Westerling	composite-name	1	0	1	0
+king's confessors	unresolved-status:candidates	1	1	0	0
+City Watch / gold cloaks	unresolved-status:candidates	1	1	0	0
+Volantis	unresolved-status:candidates	1	0	0	1
+Wedding of Viserys and Alicent	composite-name	1	0	1	0
+Birth of Jacaerys	event-dedup-risk:candidates	1	0	1	0
+Rhea Royce ("bronze bitch")	unresolved-status:candidates	1	1	0	0
+Daemon crowned King of the Stepstones	event-dedup-risk:candidates	1	0	1	0
+Bracken and Blackwood sons duel over Rhaenyra	composite-name	1	0	1	0
+Daemon returns and reconciles with Viserys	composite-name	1	0	1	0
+serving man	unresolved-status:candidates	1	1	0	0
+Birth of Daeron	event-dedup-risk:candidates	1	0	1	0
+Wedding of Rhaenyra and Laenor	composite-name	1	0	1	0
+War for the Stepstones begins	event-dedup-risk:candidates	1	0	1	0
+Citadel	unresolved-status:candidates	8	1	0	0
+Death of Lady Rhea Royce	event-dedup-risk:candidates	1	0	1	0
+Birth of Baela and Rhaena	composite-name	1	0	1	0
+Hand of the King	unresolved-status:candidates	1	1	0	0
+Birth of Maelor Targaryen	event-dedup-risk:candidates	1	0	1	0
+Lord of the Tides	unresolved-status:candidates	1	1	0	0
+Marriage of Daemon and Laena Velaryon	composite-name	1	0	1	0
+Second reconciliation of Viserys and Daemon	composite-name	1	0	1	0
+Death of Grand Maester Mellos	event-dedup-risk:candidates	1	0	1	0
+Viserys maimed on the Iron Throne	event-dedup-risk:candidates	1	0	1	0
+Duel of Daemon and the Braavosi betrothed	composite-name	1	0	1	0
+Triarchy	unresolved-status:candidates	3	0	0	1
+Aemond claims Vhagar and loses an eye	composite-name	1	0	1	0
+Feast of amity	event-dedup-risk:candidates	1	0	1	0
+Birth of Jaehaerys and Jaehaera	composite-name	1	0	1	0
+Birth of Aegon the Younger	event-dedup-risk:candidates	1	0	1	0
+Fire at Harrenhal	event-dedup-risk:candidates	1	0	1	0
+Aegon II's garrison	unresolved-status:candidates	1	0	0	1
+Lord Cerwyn	unresolved-status:candidates	1	1	0	0
+Jacaerys	unresolved-status:candidates	1	1	0	0
+Oldtown	unresolved-status:candidates	4	1	0	0
+Loreon	unresolved-status:candidates	1	1	0	0
+Betrothal of Cregan Stark and Black Aly	composite-name	1	0	1	0
+Royce	blocklisted-no-cluster-entry	1	1	0	0
+Corwyn Corbray	no-decisive-margin	2	1	0	0
+Yielding of King's Landing	event-dedup-risk:candidates	1	0	1	0
+Cassandra	unresolved-status:candidates	1	1	0	0
+Cregan Stark made King's Hand	event-dedup-risk:candidates	1	0	1	0
+Executions at the Red Keep	event-dedup-risk:candidates	1	0	1	0
+Selection of Septon Alfyn as High Septon	event-dedup-risk:candidates	1	0	1	0
+Maester Culiper	unresolved-status:candidates	2	1	0	0
+Death of Queen Alyssa in childbirth	event-dedup-risk:candidates	1	0	1	0
+The poisonings on Dragonstone	event-dedup-risk:candidates	1	0	1	0
+Septon Mattheus	unresolved-status:candidates	4	1	0	0
+Ser Joffrey Doggett	unresolved-status:candidates	3	1	0	0
+Maester Anselm	unresolved-status:candidates	1	1	0	0
+Ser Gyles Morrigen	unresolved-status:candidates	2	1	0	0
+Aerea steals Balerion and flees Dragonstone	composite-name	1	0	1	0
+Completion of the Dragonpit	event-dedup-risk:candidates	1	0	1	0
+Death of Androw Farman	event-dedup-risk:candidates	1	0	1	0
+Ser Merrell Bullock	unresolved-status:candidates	1	1	0	0
+Septa Maryam	unresolved-status:candidates	1	1	0	0
+Septon Alfyn	unresolved-status:candidates	1	0	0	1
+Lord Tully	no-decisive-margin	4	1	0	0
+Rhaena's companions	unresolved-status:candidates	1	0	0	1
+Lord Darnold	unresolved-status:candidates	1	1	0	0
+Ser Rymond	unresolved-status:candidates	1	1	0	0
+Archon of Tyrosh	type-mismatch	4	0	0	1
+Adventurers	unresolved-status:candidates	1	0	0	1
+Betrothals of Jennis Templeton and Prunella Celtigar	composite-name	1	0	1	0
+Laws of the Seven Kingdoms	unresolved-status:candidates	1	0	0	1
+Death of the infant Prince Aegon	event-dedup-risk:candidates	1	0	1	0
+Lord Corbray	unresolved-status:candidates	3	1	0	0
+brigands	bare-first-name-miss	1	0	0	1
+Lord Mullendore	unresolved-status:candidates	2	1	0	0
+Death of Ser Willam the Wasp and his men	composite-name	1	0	1	0
+Birth of Baelon Targaryen	event-dedup-risk:candidates	1	0	1	0
+Tourney at White Harbor	event-dedup-risk:candidates	1	0	1	0
+Baelon (Targaryen lord of Dragonstone)	unresolved-status:candidates	1	1	0	0
+Death of Rhaena Targaryen	event-dedup-risk:candidates	1	0	1	0
+old gods	unresolved-status:candidates	1	1	0	0
+Jessamyn	unresolved-status:candidates	1	1	0	0
+Alysanne's visit to Castle Black	event-dedup-risk:candidates	1	0	1	0
+Aerion	unresolved-status:candidates	1	1	0	0
+the Seven	unresolved-status:candidates	2	1	0	0
+Tenth-anniversary tourney at King's Landing	event-dedup-risk:candidates	1	0	1	0
+Queensgate	unresolved-status:candidates	1	1	0	0
+Death of Aerea Targaryen	event-dedup-risk:candidates	1	0	1	0
+magisters of Pentos	unresolved-status:candidates	1	0	0	1
+wildling girl	unresolved-status:candidates	1	1	0	0
+Archmaester Gyldayn	unresolved-status:candidates	1	1	0	0
+Death of the last Targaryen dragons	event-dedup-risk:candidates	1	0	1	0
+Daeron I's conquest of Dorne	event-dedup-risk:candidates	1	0	1	0
+Dethroning and death of Aerys II	event-dedup-risk:candidates	1	0	1	0
+Poisoning of four Poor Fellows	event-dedup-risk:candidates	1	0	1	0
+Trial of Seven against Maegor	event-dedup-risk:candidates	1	0	1	0
+Trial by battle for Ser Harrold	event-dedup-risk:candidates	1	0	1	0
+Execution of Maegor's headsman and gaolers	composite-name	1	0	1	0
+Death of Maegor on the Iron Throne	event-dedup-risk:candidates	1	0	1	0
+Ascension of Jaehaerys to the Iron Throne	event-dedup-risk:candidates	1	0	1	0
+Execution of Ser Maladon Moore	event-dedup-risk:candidates	1	0	1	0
+Yielding of the Red Keep	event-dedup-risk:candidates	1	0	1	0
+Ambush on the Boneway	event-dedup-risk:candidates	1	0	1	0
+Building of King's Landing's walls	event-dedup-risk:candidates	1	0	1	0
+northern army	unresolved-status:candidates	1	1	0	0
+Death of Meria Martell	event-dedup-risk:candidates	1	0	1	0
+Capture of Nightsong	event-dedup-risk:candidates	1	0	1	0
+Death of Meraxes	event-dedup-risk:candidates	1	0	1	0
+Qhorin Volmark's infant son	unresolved-status:candidates	1	1	0	0
+Death of Lodos	event-dedup-risk:candidates	1	0	1	0
+Ransom and maiming of Orys Baratheon	composite-name	1	0	1	0
+the Dragonkeepers, four dragons	junk-character-candidate	1	0	0	1
+Queensguard	unresolved-status:candidates	3	1	0	0
+Death of Queen Helaena	event-dedup-risk:candidates	1	0	1	0
+Mootons	house-surname-existing-node	1	1	0	0
+rioters	bare-first-name-miss	1	0	0	1
+Hanging of the would-be rescuers	event-dedup-risk:candidates	1	0	1	0
+Trystane's followers	unresolved-status:candidates	1	1	0	0
+Death of Shrykos	event-dedup-risk:candidates	1	0	1	0
+Death of Lady Mysaria	event-dedup-risk:candidates	1	0	1	0
+Death of Tyraxes	event-dedup-risk:candidates	1	0	1	0
+Death of Prince Joffrey	event-dedup-risk:candidates	1	0	1	0
+whores of the Street of Silk	unresolved-status:candidates	1	0	0	1
+Death of Syrax	event-dedup-risk:candidates	1	0	1	0
+Death of Morghul	event-dedup-risk:candidates	1	0	1	0
+City Watch of King's Landing, Luthor Largent	unresolved-status:candidates	1	0	0	1
+Death of Dreamfyre	event-dedup-risk:candidates	1	0	1	0
+Denys Woodwright, Thoron True	unresolved-status:candidates	1	0	0	1
+the Seven Who Rode	unresolved-status:candidates	1	0	0	1
+Prince Joffrey's body	junk-character-candidate	1	0	0	1
+Blood and Cheese	unresolved-status:candidates	2	1	0	0
+Crowning of Trystane	event-dedup-risk:candidates	1	0	1	0
+Bartimos Celtigar, Arthor Celtigar	unresolved-status:candidates	1	0	0	1
+Death of Ser Hobert Hightower	event-dedup-risk:candidates	1	0	1	0
+broken men	unresolved-status:candidates	1	0	0	1
+Dragon battle of Second Tumbleton	event-dedup-risk:candidates	1	0	1	0
+Hugh Hammer's men	unresolved-status:candidates	1	0	0	1
+Death of Tessarion	event-dedup-risk:candidates	1	0	1	0
+Green Men	unresolved-status:candidates	1	1	0	0
+Flight to Dragonstone aboard the Violande	event-dedup-risk:candidates	1	0	1	0
+Death of Prince Daeron Targaryen	event-dedup-risk:candidates	1	0	1	0
+Killing of Ser Roger Corne	event-dedup-risk:candidates	1	0	1	0
+Death of Bold Jon Roxton	event-dedup-risk:candidates	1	0	1	0
+Battle of Sunfyre and Moondancer	composite-name	1	0	1	0
+Two Betrayers	unresolved-status:candidates	2	0	0	1
+Alfred Broome's men	unresolved-status:candidates	1	1	0	0
+Daeron Targaryen's army	unresolved-status:candidates	1	0	0	1
+Sunfyre attacks Grey Ghost	event-dedup-risk:candidates	1	0	1	0
+Ormund Hightower's host	unresolved-status:candidates	1	1	0	0
+Death of Sunfyre	event-dedup-risk:candidates	1	0	1	0
+Braavos	unresolved-status:candidates	1	1	0	0
+Burning of the Shepherd and the barefoot lambs	event-dedup-risk:candidates	1	0	1	0
+Battle of the Kingsroad (Muddy Mess)	event-dedup-risk:candidates	1	0	1	0
+Parley and accord in Borros's tent	composite-name	1	0	1	0
+Hatching of Morning	event-dedup-risk:candidates	1	0	1	0
+Wedding of Aegon III and Jaehaera	event-dedup-risk:candidates	1	0	1	0
+The coup in the Red Keep	event-dedup-risk:candidates	1	0	1	0
+Death of Rhaenyra Targaryen	event-dedup-risk:candidates	1	0	1	0
+Death of Elmo Tully	event-dedup-risk:candidates	1	0	1	0
+Mouse	type-mismatch	2	1	0	0
+Hanging of Essie and Sylvenna Sand	composite-name	1	0	1	0
+Death of Grover Tully	event-dedup-risk:candidates	1	0	1	0
+Retaking of King's Landing	event-dedup-risk:candidates	1	0	1	0
+Death of Borros Baratheon	event-dedup-risk:candidates	1	0	1	0
+Death of Aegon II	event-dedup-risk:candidates	1	0	1	0
+Wedding of Maegor and Alys Harroway	event-dedup-risk:candidates	1	0	1	0
+Death of Harren the Red	event-dedup-risk:candidates	1	0	1	0
+Battle at Stonehelm	event-dedup-risk:candidates	1	0	1	0
+Birth and death of Vaella	composite-name	1	0	1	0
+Death of Rhaenys and Meraxes	composite-name	1	0	1	0
+Wedding of Maegor and Ceryse	composite-name	1	0	1	0
+Tourney at Riverrun	event-dedup-risk:candidates	1	0	1	0
+Harren the Red's seizure of Harrenhal	event-dedup-risk:candidates	1	0	1	0
+Wedding of Aenys and Alyssa	composite-name	1	0	1	0
+Birth of Rhaena Targaryen	event-dedup-risk:candidates	1	0	1	0
+Jonos Arryn's followers	unresolved-status:candidates	1	1	0	0
+Lord of Harrenhal	unresolved-status:candidates	1	1	0	0
+Death of Aegon I Targaryen	event-dedup-risk:candidates	1	0	1	0
+stableboy	unresolved-status:candidates	1	1	0	0
+King of Mountain and Vale	unresolved-status:candidates	1	1	0	0
+Coronation of Aenys I	event-dedup-risk:candidates	1	0	1	0
+Death of Ronnel Arryn	event-dedup-risk:candidates	1	0	1	0
+High Septon (Aenys's reign)	unresolved-status:candidates	1	1	0	0
+Jaehaerys Targaryen (son of Aenys)	unresolved-status:candidates	1	1	0	0
+Maegor claims Balerion and takes the Eyrie	composite-name	1	0	1	0
+Killing of Grand Maester Myros	event-dedup-risk:candidates	1	0	1	0
+Death of King Aenys	event-dedup-risk:candidates	1	0	1	0
+Wedding of Aegon and Rhaena	event-dedup-risk:candidates	1	0	1	0
+Execution of the captive Warrior's Sons	event-dedup-risk:candidates	1	0	1	0
+Birth of Aerea and Rhaella	composite-name	1	0	1	0
+Election of Septon Pater as High Septon	event-dedup-risk:candidates	1	0	1	0
+Coronation of Maegor	event-dedup-risk:candidates	1	0	1	0
+Wedding of Maegor and Tyanna	composite-name	1	0	1	0
+Trial of Seven	event-dedup-risk:candidates	1	0	1	0
+Battle at the Great Fork of the Blackwater	event-dedup-risk:candidates	1	0	1	0
+Lord Meadows of Grassy Vale	unresolved-status:candidates	1	1	0	0
+Execution of Ser Theo Bolling	event-dedup-risk:candidates	1	0	1	0
+Ser Tyler Hill	unresolved-status:candidates	1	1	0	0
+Lord Edwell Celtigar	unresolved-status:candidates	1	1	0	0
+Reconciliation of Maegor and Ceryse	composite-name	1	0	1	0
+Death of Maegor	event-dedup-risk:candidates	1	0	1	0
+Ser Morgan Hightower	unresolved-status:candidates	1	1	0	0
+Harrenhal melee	event-dedup-risk:candidates	1	0	1	0
+Death of Prince Viserys	event-dedup-risk:candidates	1	0	1	0
+Ser Davos Darklyn	unresolved-status:candidates	1	1	0	0
+Completion of the Red Keep	event-dedup-risk:candidates	1	0	1	0
+Lord Velaryon	unresolved-status:candidates	1	1	0	0
+Ser Walton Towers	unresolved-status:candidates	1	1	0	0
+Alys Harroway’s unborn child	unresolved-status:candidates	1	1	0	0
+Burning of Poxy Jeyne Poore	event-dedup-risk:candidates	1	0	1	0
+Death of Ser Horys Hill	event-dedup-risk:candidates	1	0	1	0
+Death of Queen Visenya	event-dedup-risk:candidates	1	0	1	0
+Proclamation of Jaehaerys at Storm's End	event-dedup-risk:candidates	1	0	1	0
+Ser Horys Hill	unresolved-status:candidates	1	0	0	1
+Escape of Alyssa from Dragonstone	event-dedup-risk:candidates	1	0	1	0
+Death of Queen Ceryse	event-dedup-risk:candidates	1	0	1	0
+Death of Aegon the Uncrowned	event-dedup-risk:candidates	1	0	1	0
+Jeyne Westerling’s unborn child	unresolved-status:candidates	1	1	0	0
+Jeyne Westerling's stillbirth	event-dedup-risk:candidates	1	0	1	0
+Birth of Coryanne Wylde's bastard son	event-dedup-risk:candidates	1	0	1	0
+Alyssa's flight from Dragonstone	event-dedup-risk:candidates	1	0	1	0
+Secret marriage of Jaehaerys and Alysanne	event-dedup-risk:candidates	1	0	1	0
+Maegor seizes the Iron Throne	event-dedup-risk:candidates	1	0	1	0
+Death of Ser Raymund Mallery	event-dedup-risk:candidates	1	0	1	0
+three sons of Elinor	junk-character-candidate	1	1	0	0
+Death of Lord Marq Farman	event-dedup-risk:candidates	1	0	1	0
+Coryanne Wylde flees Dragonstone	event-dedup-risk:candidates	1	0	1	0
+Death of Walton Stark	event-dedup-risk:candidates	1	0	1	0
+Night's Watch rebellion at Rimegate and Sable Hall	event-dedup-risk:candidates	1	0	1	0
+The black council	event-dedup-risk:candidates	1	0	1	0
+Death of Lord Lyman Beesbury	event-dedup-risk:candidates	1	0	1	0
+The green council	event-dedup-risk:candidates	1	0	1	0
+Coronation of Aegon II	event-dedup-risk:candidates	1	0	1	0
+Compact of White Harbor	event-dedup-risk:candidates	1	0	1	0
+Murder of Prince Jaehaerys (Blood and Cheese)	composite-name	1	0	1	0
+Ser Amos Bracken	unresolved-status:candidates	1	1	0	0
+Protector of the Realm	unresolved-status:candidates	1	1	0	0
+Maester Gerardys	unresolved-status:candidates	1	1	0	0
+Closing of the Gullet	event-dedup-risk:candidates	1	0	1	0
+Death of Desmond and Medrick Manderly	event-dedup-risk:candidates	1	0	1	0
+Wedding of Corwyn Corbray and Rhaena	event-dedup-risk:candidates	1	0	1	0
+Loreon Lannister	no-decisive-margin	1	1	0	0
+Sharis Footly's son	unresolved-status:candidates	1	1	0	0
+Reclaiming of Harrenhal / death of Regis Groves	composite-name	1	0	1	0
+Wedding of Cregan Stark and Alysanne	composite-name	1	0	1	0
+Coronation of Aegon III	event-dedup-risk:candidates	1	0	1	0
+witch queen of Harrenhal	unresolved-status:candidates	1	1	0	0
+Wedding of Alyn Velaryon and Baela	composite-name	1	0	1	0
+Thaddeus Rowan's sons	unresolved-status:candidates	1	1	0	0
+Death of Tyland Lannister	event-dedup-risk:candidates	1	0	1	0
+Stormbreakers	unresolved-status:candidates	1	1	0	0
+Wedding of Elenda Baratheon and Steffon Connington	event-dedup-risk:candidates	1	0	1	0
+northmen	unresolved-status:candidates	1	0	0	1
+Winter Fever in King's Landing	event-dedup-risk:candidates	1	0	1	0
+King of the Narrow Sea	unresolved-status:candidates	1	1	0	0
+Death of Princess Daenerys	event-dedup-risk:candidates	1	0	1	0
+Beginning of the kingsroad	event-dedup-risk:candidates	1	0	1	0
+Death of Borys Baratheon	event-dedup-risk:candidates	1	0	1	0
+Flea Bottom mob	unresolved-status:candidates	1	0	0	1
+Shivers	unresolved-status:candidates	2	0	0	1
+Lord Rogar's War (Third Dornish War)	event-dedup-risk:candidates	1	0	1	0
+Rego Draz's killers	unresolved-status:candidates	1	0	0	1
+Death of Rogar Baratheon	event-dedup-risk:candidates	1	0	1	0
+Birth and death of Prince Gaemon	event-dedup-risk:candidates	1	0	1	0
+Ser Lucamore Strong scandal and punishment	composite-name	1	0	1	0
+Betrothal of Aemon and Jocelyn	composite-name	1	0	1	0
+Death of Alaric Stark	event-dedup-risk:candidates	1	0	1	0
+Death of Prince Valerion	event-dedup-risk:candidates	1	0	1	0
+Death of Queen Rhaena	event-dedup-risk:candidates	1	0	1	0
+Wedding of Aemon and Jocelyn	composite-name	1	0	1	0
+Wedding of Baelon and Alyssa	composite-name	1	0	1	0
+Queen Rhaena	unresolved-status:candidates	1	0	0	1
+Tourney at Duskendale	event-dedup-risk:candidates	1	0	1	0
+Fourth Dornish War (Prince Morion's Madness / War of the Hundred Candles)	event-dedup-risk:candidates	1	0	1	0
+Daenerys Targaryen	no-decisive-margin	1	1	0	0
+Wedding of Daella Targaryen and Rodrik Arryn	event-dedup-risk:candidates	1	0	1	0
+Saera's escape attempt and capture	composite-name	1	0	1	0
+Birth of Daemon Targaryen	event-dedup-risk:candidates	1	0	1	0
+Death of Prince Aegon (son of Baelon)	event-dedup-risk:candidates	1	0	1	0
+Birth of Aegon Targaryen (son of Baelon)	event-dedup-risk:candidates	1	0	1	0
+Faith	unresolved-status:candidates	1	1	0	0
+Trial by combat of Jaehaerys and Stinger	event-dedup-risk:candidates	1	0	1	0
+Death of Queen Alysanne	event-dedup-risk:candidates	1	0	1	0
+Estrangement of king and queen (First Quarrel)	event-dedup-risk:candidates	1	0	1	0
+Wedding of Rhaenys and Corlys Velaryon	composite-name	1	0	1	0
+Death of Balerion	event-dedup-risk:candidates	1	0	1	0
+Last sighting of Sheepstealer and Nettles	composite-name	1	0	1	0
+Bakkalon	unresolved-status:candidates	1	1	0	0
+Death of Lady Jeyne Arryn	event-dedup-risk:candidates	1	0	1	0
+Velaryon fleet	unresolved-status:candidates	1	1	0	0
+Death of Ser Corwyn Corbray	event-dedup-risk:candidates	1	0	1	0
+Iron Islands	unresolved-status:candidates	2	1	0	0
+Toron Greyjoy's mother	unresolved-status:candidates	1	0	0	1
+Robert Rowan's men	unresolved-status:candidates	1	0	0	1
+Daughters' War ends	event-dedup-risk:candidates	1	0	1	0
+Fall of House Rogare / Rogare Bank collapse	composite-name	1	0	1	0
+Red Kraken's sisters	unresolved-status:candidates	1	0	0	1
+Saagael	unresolved-status:candidates	1	1	0	0
+Death of Ser Robert Rowan	event-dedup-risk:candidates	1	0	1	0
+crossbowman of Runestone	unresolved-status:candidates	1	0	0	1
+Lannister reprisal on the Iron Islands	event-dedup-risk:candidates	1	0	1	0
+Deaths of Lysandro and Drazenko Rogare	composite-name	1	0	1	0
+ironborn	unresolved-status:candidates	1	0	0	1
+Execution of Toron's mother	event-dedup-risk:candidates	1	0	1	0
+Birth of Prince Aegon (son of Viserys)	event-dedup-risk:candidates	1	0	1	0
+Death of Lady Floris	event-dedup-risk:candidates	1	0	1	0
+royal fleet	unresolved-status:candidates	1	1	0	0
+Removal of Lord Rowan and coup at court	composite-name	1	0	1	0
+Yndros of the Twilight	unresolved-status:candidates	1	1	0	0
+Death of Ser Leo Costayne	event-dedup-risk:candidates	1	0	1	0
+Pantera	unresolved-status:candidates	1	1	0	0
+Capture of Tessario	event-dedup-risk:candidates	1	0	1	0
+The treason trials	event-dedup-risk:candidates	1	0	1	0
+Battle at the Gate of the Gods	event-dedup-risk:candidates	1	0	1	0
+Trial by battle, Long vs Risley	event-dedup-risk:candidates	1	0	1	0
+Aegon III assumes personal rule	event-dedup-risk:candidates	1	0	1	0
+Death of Marston Waters	event-dedup-risk:candidates	1	0	1	0
+Sentencing of Lotho and Roggerio	composite-name	1	0	1	0
+Lucas Lothston	no-decisive-margin	1	1	0	0
+Aemon Targaryen	no-decisive-margin	1	1	0	0
+King Jaehaerys	unresolved-status:candidates	1	1	0	0
+Departure of Aegon the Younger and Viserys for Pentos	composite-name	1	0	1	0
+Lord Costayne	no-decisive-margin	1	1	0	0
+Fall of Harrenhal to Daemon	event-dedup-risk:candidates	1	0	1	0
+dragonseeds	bare-first-name-miss	1	0	0	1
+The Sowing of the Seeds / Red Sowing	composite-name	1	0	1	0
+Myrish crossbowmen	unresolved-status:candidates	1	0	0	1
+Death of Stormcloud	event-dedup-risk:candidates	1	0	1	0
+Sack of Lannisport	event-dedup-risk:candidates	1	0	1	0
+Triarchy fleet	unresolved-status:candidates	1	0	0	1
+Battle by the Lakeshore (the Fishfeed)	event-dedup-risk:candidates	1	0	1	0
+Sack of Fair Isle	event-dedup-risk:candidates	1	0	1	0
+Rhaenyra claims the Iron Throne	event-dedup-risk:candidates	1	0	1	0
+Sack of Spicetown	event-dedup-risk:candidates	1	0	1	0
+Attack on Sunfyre at Rook's Rest	event-dedup-risk:candidates	1	0	1	0
+Myrish galley crew	junk-character-candidate	1	0	0	1
+Death of Vermax	event-dedup-risk:candidates	1	0	1	0
+Death of Rickard Thorne	event-dedup-risk:candidates	1	0	1	0
+crossbowmen	bare-first-name-miss	1	0	0	1
+Sly	no-decisive-margin	1	1	0	0
+town butcher	unresolved-status:candidates	1	0	0	1
+Fall of Faircastle	event-dedup-risk:candidates	1	0	1	0
+Alys Rivers's unborn child	unresolved-status:candidates	1	1	0	0
+Citadel of Oldtown	unresolved-status:candidates	1	0	0	1
+the mob	junk-character-candidate	1	0	0	1
+riverlords	bare-first-name-miss	1	0	0	1
+Urrax	unresolved-status:candidates	1	1	0	0
+a dragon	unresolved-status:candidates	1	0	0	1
+Yielding of Longtable	event-dedup-risk:candidates	1	0	1	0
+Death of Lord Footly	event-dedup-risk:candidates	1	0	1	0
+Death of Grey Ghost	event-dedup-risk:candidates	1	0	1	0
+Jaehaerys Targaryen	no-decisive-margin	1	1	0	0
+Death of Vhagar	event-dedup-risk:candidates	1	0	1	0
+Death of Ser Orryn Baratheon	event-dedup-risk:candidates	1	0	1	0
+Westermen	unresolved-status:candidates	1	1	0	0
+Pardon and reconciliation of Lord Rogar	event-dedup-risk:candidates	1	0	1	0
+Bedding of Jaehaerys and Alysanne	event-dedup-risk:candidates	1	0	1	0
+Second wedding of Jaehaerys and Alysanne	event-dedup-risk:candidates	1	0	1	0
+Septa Violante	unresolved-status:candidates	1	1	0	0
+Ser Pate the Woodcock	unresolved-status:candidates	1	1	0	0
+Return and reveal of Prince Viserys	composite-name	1	0	1	0
+Parley of Oakenfist and Racallio at Bloodstone	composite-name	1	0	1	0
+Red rebellion on Fair Isle	event-dedup-risk:candidates	1	0	1	0
+Wedding of Aegon III and Daenaera	event-dedup-risk:candidates	1	0	1	0
+Fingers	unresolved-status:candidates	3	1	0	0
+Murder of Dalton Greyjoy	event-dedup-risk:candidates	1	0	1	0
+Follard	unresolved-status:candidates	1	1	0	0
+prisoners	unresolved-status:candidates	1	0	0	1
+Cressey	unresolved-status:candidates	1	1	0	0
+Feast of Our Father Above	unresolved-status:candidates	1	0	1	0
+Braavos embassy and peace	composite-name	1	0	1	0
+Alyn's triumphant return / naming Oakenfist	composite-name	1	0	1	0
+Honoring ceremony / Alyn made master of ships	composite-name	1	0	1	0
+Gwayne Gardener	no-decisive-margin	1	1	0	0
+greens	unresolved-status:candidates	1	1	0	0
+Battle of the Stepstones	event-dedup-risk:candidates	1	0	1	0
+Execution of Orwyle	event-dedup-risk:candidates	1	0	1	0
+Lord Prester	unresolved-status:candidates	1	1	0	0
+House Flint	unresolved-status:candidates	1	1	0	0
+Betrothal of Aegon III and Daenaera Velaryon	event-dedup-risk:candidates	1	0	1	0
+Drowning of Lady Buckler and her daughters	composite-name	1	0	1	0
+Betrothal of Aegon III and Myrielle Peake	event-dedup-risk:candidates	1	0	1	0
+Lord Tarbeck	unresolved-status:candidates	1	1	0	0
+Wedding of Jaehaerys and Alysanne	event-dedup-risk:candidates	1	0	1	0
+Lord of Duskendale	unresolved-status:candidates	1	1	0	0
+Wedding of Rhaena and Androw Farman	event-dedup-risk:candidates	1	0	1	0
+Lord Royce	unresolved-status:candidates	1	1	0	0
+Fishers	house-surname-existing-node	1	0	0	0
+Pipers	unresolved-status:candidates	1	0	0	0
+Mudds	house-surname-existing-node	1	0	0	0
+Vances	house-surname-existing-node	1	0	0	0
+Falcon Crown of Mountain and Vale	unresolved-status:candidates	1	0	0	0
+Blackwoods	house-surname-existing-node	1	0	0	0
+Brackens	house-surname-existing-node	1	0	0	0
+Snow	unresolved-status:candidates	1	0	0	0
+Mallisters	house-surname-existing-node	1	0	0	0
+Hooks	house-surname-existing-node	1	0	0	0
+Strongs	house-surname-existing-node	1	0	0	0
+Starry Sept	unresolved-status:candidates	3	0	0	0
+Driftmark	unresolved-status:candidates	4	0	0	0
+Dragonstone	unresolved-status:candidates	4	0	0	0
+Storm's End	unresolved-status:candidates	1	0	0	0
+Lady Mooton	unresolved-status:candidates	1	0	0	0
+Asshai-by-the-Shadow	unresolved-status:candidates	2	0	0	0
+Driftwood Throne	unresolved-status:candidates	1	0	0	0
+Unnatural History	unresolved-status:candidates	1	0	0	0
+Ice Wolf	unresolved-status:candidates	1	0	0	0
+The Reign of King Viserys, First of His Name...	unresolved-status:candidates	1	0	0	0
+Sea Snake	type-mismatch	2	0	0	0
+Cod Queen	unresolved-status:candidates	1	0	0	0
+Red Keep	unresolved-status:candidates	5	0	0	0
+Summer Maid	unresolved-status:candidates	1	0	0	0
+Lorath	type-mismatch	1	0	0	0
+Merling King	unresolved-status:candidates	1	0	0	0
+Forrest Frey ("Fool Frey")	unresolved-status:candidates	1	0	0	0
+Lord Bracken	no-decisive-margin	1	0	0	0
+Great Council of 101	unresolved-status:candidates	3	0	0	0
+*Testimony* (of Mushroom)	unresolved-status:candidates	1	0	0	0
+Lord Blackwood	no-decisive-margin	3	0	0	0
+Lord of Stonehelm	unresolved-status:candidates	2	0	0	0
+Lord Dondarrion of Blackhaven	unresolved-status:candidates	1	0	0	0
+Empress of Leng	unresolved-status:candidates	1	0	0	0
+Old Volantis	unresolved-status:candidates	4	0	0	0
+Prince of Dorne	unresolved-status:candidates	4	0	0	0
+the Stranger	unresolved-status:candidates	1	0	0	0
+Lord of Casterly Rock	unresolved-status:candidates	1	0	0	0
+Lord Baratheon	unresolved-status:candidates	1	0	0	0
+Lady Jeyne	unresolved-status:candidates	2	0	0	0
+Testimony	unresolved-status:candidates	1	0	0	0
+Lord Brune	unresolved-status:candidates	1	0	0	0
+Joffrey	unresolved-status:candidates	1	0	0	0
+Lord Hornwood	unresolved-status:candidates	1	0	0	0
+Burning Mill	unresolved-status:candidates	1	0	0	0
+Iron Bank	unresolved-status:candidates	1	0	0	0
+Septa Edyth	unresolved-status:candidates	3	0	0	0
+Archmaester Goodwyn	unresolved-status:candidates	1	0	0	0
+Ser Willam the Wasp	unresolved-status:candidates	1	0	0	0
+Maester Kyrie	unresolved-status:candidates	1	0	0	0
+Maegor Targaryen	no-decisive-margin	1	0	0	0
+Chamber of the Painted Table	unresolved-status:candidates	3	0	0	0
+Lady Lucinda	unresolved-status:candidates	2	0	0	0
+the Adventurers	unresolved-status:candidates	1	0	0	0
+Lady Meredith	unresolved-status:candidates	2	0	0	0
+Torrentine	unresolved-status:candidates	1	0	0	0
+Field of Fire	type-mismatch	1	0	0	0
+Goodwife	unresolved-status:candidates	2	0	0	0
+White Book of the Kingsguard	unresolved-status:candidates	1	0	0	0
+Evenstar of Tarth	unresolved-status:candidates	3	0	0	0
+Velvet Hills of Andalos	unresolved-status:candidates	1	0	0	0
+Septa Lyra	unresolved-status:candidates	2	0	0	0
+Farwynd	unresolved-status:candidates	1	0	0	0
+Red Mountains of Dorne	unresolved-status:candidates	1	0	0	0
+Wise Women	unresolved-status:candidates	2	0	0	0
+westerlands	unresolved-status:candidates	2	0	0	0
+Great Code / Books of Law	unresolved-status:candidates	1	0	0	0
+Autumn Moon	unresolved-status:candidates	2	0	0	0
+Gods Eye	unresolved-status:candidates	2	0	0	0
+Estermont / Greenstone	unresolved-status:candidates	1	0	0	0
+First Men	unresolved-status:candidates	2	0	0	0
+Oldtown / Starry Sept	unresolved-status:candidates	1	0	0	0
+Brandon's Gift	unresolved-status:candidates	1	0	0	0
+Greenstone	unresolved-status:candidates	1	0	0	0
+Bear Isle	unresolved-status:candidates	1	0	0	0
+Snowgate / Queensgate	unresolved-status:candidates	1	0	0	0
+Dragonkeepers	unresolved-status:candidates	1	0	0	0
+Andals	unresolved-status:candidates	1	0	0	0
+Lord Dustin	unresolved-status:candidates	2	0	0	0
+Balerion the Black Dread	unresolved-status:candidates	1	0	0	0
+Tyrion	unresolved-status:candidates	1	0	0	0
+the Trident	unresolved-status:candidates	1	0	0	0
+Bar Emmon	unresolved-status:candidates	3	0	0	0
+Stokeworth	unresolved-status:candidates	2	0	0	0
+Mallery	unresolved-status:candidates	1	0	0	0
+Byrch	unresolved-status:candidates	1	0	0	0
+Bywater	unresolved-status:candidates	1	0	0	0
+Harte	unresolved-status:candidates	1	0	0	0
+Massey	type-mismatch	2	0	0	0
+Lord Buckwell	unresolved-status:candidates	2	0	0	0
+Nymeria	no-decisive-margin	2	0	0	0
+Lord Rollingford	unresolved-status:candidates	2	0	0	0
+Rhaenys Targaryen	no-decisive-margin	1	0	0	0
+silent sisters	unresolved-status:candidates	1	0	0	0
+Loren Lannister	unresolved-status:candidates	1	0	0	0
+Lord Toland	unresolved-status:candidates	1	0	0	0
+Sunspear (Spear Tower)	unresolved-status:candidates	1	0	0	0
+near Oldtown	unresolved-status:candidates	1	0	0	0
+Three Sisters	unresolved-status:candidates	1	0	0	0
+Lord Vaith	unresolved-status:candidates	1	0	0	0
+red sands east of the Hellholt	unresolved-status:candidates	1	0	0	0
+Lady Toland	unresolved-status:candidates	1	0	0	0
+Dark Sister	unresolved-status:candidates	2	0	0	0
+Drowned God	unresolved-status:candidates	1	0	0	0
+Lord Mertyns	unresolved-status:candidates	1	0	0	0
+Lord Connington	unresolved-status:candidates	1	0	0	0
+Blackfyre	unresolved-status:candidates	4	0	0	0
+Old Oak wedding	unresolved-status:candidates	1	0	0	0
+Faith (of the Seven)	unresolved-status:candidates	1	0	0	0
+the True Telling	unresolved-status:candidates	1	0	0	0
+the Two Betrayers	unresolved-status:candidates	1	0	0	0
+the Testimony	unresolved-status:candidates	1	0	0	0
+Wat	no-decisive-margin	1	0	0	0
+Grand Maester Munkun	unresolved-status:candidates	4	0	0	0
+Lamentation	blocklisted-no-cluster-entry	1	0	0	0
+Celtigar manse	unresolved-status:candidates	1	0	0	0
+Robin	no-decisive-margin	1	0	0	0
+the Dragonkeepers	unresolved-status:candidates	1	0	0	0
+Gerardys's rookery	unresolved-status:candidates	1	0	0	0
+True Telling	unresolved-status:candidates	2	0	0	0
+road to Duskendale	unresolved-status:candidates	1	0	0	0
+Hugo Vance	no-decisive-margin	2	0	0	0
+Crabbs	house-surname-existing-node	1	0	0	0
+Duskendale to Dragonstone	unresolved-status:candidates	1	0	0	0
+OrphanMaker	junk-character-candidate	2	0	0	0
+Winter Wolves	unresolved-status:candidates	2	0	0	0
+Bloody Caltrops inn, Tumbleton	unresolved-status:candidates	1	0	0	0
+Darklyns	house-surname-existing-node	1	0	0	0
+Brunes	house-surname-existing-node	1	0	0	0
+on the march	unresolved-status:candidates	1	0	0	0
+Visenya's Hill	unresolved-status:candidates	2	0	0	0
+kingswood	unresolved-status:candidates	1	0	0	0
+Rosby, Stokeworth, Duskendale	junk-character-candidate	1	0	0	0
+kingsroad	unresolved-status:candidates	1	0	0	0
+village west of the Gods Eye	unresolved-status:candidates	1	0	0	0
+Dornish Marches	unresolved-status:candidates	1	0	0	0
+Old Wyk	unresolved-status:candidates	1	0	0	0
+Faith of the Seven	unresolved-status:candidates	2	0	0	0
+House Targaryen	unresolved-status:candidates	1	0	0	0
+House Velaryon	unresolved-status:candidates	1	0	0	0
+Moon Door	unresolved-status:candidates	1	0	0	0
+High Septon (crowned Aegon)	unresolved-status:candidates	1	0	0	0
+Maegor's Holdfast	unresolved-status:candidates	3	0	0	0
+Pentos	unresolved-status:candidates	1	0	0	0
+Crakehall	unresolved-status:candidates	1	0	0	0
+riverlands	unresolved-status:candidates	2	0	0	0
+Stonebridge	unresolved-status:candidates	1	0	0	0
+the Wall / Night's Watch	unresolved-status:candidates	1	0	0	0
+Great Fork of the Blackwater	unresolved-status:candidates	1	0	0	0
+Lannisport	unresolved-status:candidates	2	0	0	0
+Ser Willam Whistler	unresolved-status:candidates	1	0	0	0
+Lord Caswell	no-decisive-margin	2	0	0	0
+Rhaenys's Hill	unresolved-status:candidates	1	0	0	0
+Ser Owen Bush	unresolved-status:candidates	1	0	0	0
+Lord Darnold Darry	unresolved-status:candidates	1	0	0	0
+Ser Maladon Moore	unresolved-status:candidates	1	0	0	0
+Lord Peake	unresolved-status:candidates	1	0	0	0
+Lord Massey	unresolved-status:candidates	2	0	0	0
+Lord Alton Butterwell	unresolved-status:candidates	1	0	0	0
+A Caution for Young Girls	unresolved-status:candidates	1	0	0	0
+Sins of the Flesh	junk-character-candidate	2	0	0	0
+A Wanton's Tale	junk-character-candidate	2	0	0	0
+The High and the Low	unresolved-status:candidates	1	0	0	0
+The Wickedness of Men	unresolved-status:candidates	1	0	0	0
+Lord Rogar's four brothers → Borys Baratheon	junk-character-candidate	1	0	0	0
+Lord Celtigar	unresolved-status:candidates	3	0	0	0
+Ser Joffrey	unresolved-status:candidates	1	0	0	0
+Maester Smike	unresolved-status:candidates	1	0	0	0
+Free Company	unresolved-status:candidates	1	0	0	0
+Septa Karolyn	unresolved-status:candidates	1	0	0	0
+Beyond the Wall	unresolved-status:candidates	1	0	0	0
+Celtigar	unresolved-status:candidates	1	0	0	0
+Dustin	unresolved-status:candidates	1	0	0	0
+Queen Visenya	unresolved-status:candidates	1	0	0	0
+Manderly	unresolved-status:candidates	1	0	0	0
+Rhaena (Old King's sister)	unresolved-status:candidates	1	0	0	0
+Crabb	unresolved-status:candidates	1	0	0	0
+Testimony (of Mushroom)	unresolved-status:candidates	1	0	0	0
+Staunton	type-mismatch	1	0	0	0
+The Dance of the Dragons, A True Telling	unresolved-status:candidates	1	0	0	0
+Darklyn	type-mismatch	1	0	0	0
+Durran (Durran's Defiance)	unresolved-status:candidates	1	0	0	0
+Princess Rhaenys	unresolved-status:candidates	1	0	0	0
+Trident	unresolved-status:candidates	2	0	0	0
+Gullet	unresolved-status:candidates	1	0	0	0
+Ser Steffon Darklyn	unresolved-status:candidates	1	0	0	0
+Princess Viserra	unresolved-status:candidates	1	0	0	0
+Ser Luthor Largent	unresolved-status:candidates	1	0	0	0
+Ser Gwayne Hightower	unresolved-status:candidates	1	0	0	0
+Lord Borrell	unresolved-status:candidates	1	0	0	0
+Ser Elmo Tully	unresolved-status:candidates	1	0	0	0
+Ser Forrest Frey	unresolved-status:candidates	1	0	0	0
+Shipbreaker Bay	unresolved-status:candidates	1	0	0	0
+Ser Byron Swann	unresolved-status:candidates	1	0	0	0
+Lord Beesbury	unresolved-status:candidates	1	0	0	0
+White Harbor	unresolved-status:candidates	2	0	0	0
+Tower of the Hand	unresolved-status:candidates	2	0	0	0
+Castle Driftmark	unresolved-status:candidates	1	0	0	0
+Red Keep, Visenya's Hill	unresolved-status:candidates	1	0	0	0
+Kingsdguard / White Swords	composite-name	1	0	0	0
+sept on Dragonstone	unresolved-status:candidates	1	0	0	0
+deep waters east of Dragonstone	junk-character-candidate	1	0	0	0
+serpentine steps, Red Keep	unresolved-status:candidates	1	0	0	0
+Raventree, Riverrun, Stoney Sept, the Twins, Fairmarket	junk-character-candidate	1	0	0	0
+Winterfell godswood	unresolved-status:candidates	1	0	0	0
+The Seven-Pointed Star	unresolved-status:candidates	2	0	0	0
+Westeros	unresolved-status:candidates	1	0	0	0
+Grand Maester Elysar	unresolved-status:candidates	2	0	0	0
+Lord Marbrand of Ashemark	unresolved-status:candidates	1	0	0	0
+children of the forest	unresolved-status:candidates	1	0	0	0
+Lord Tarbeck of Tarbeck Hall	unresolved-status:candidates	1	0	0	0
+Ser Ryam Redwyne	unresolved-status:candidates	1	0	0	0
+Ser Robin Shaw	unresolved-status:candidates	1	0	0	0
+Lady Jirelle of Maidenpool	type-mismatch	1	0	0	0
+Ser Victor the Valiant	unresolved-status:candidates	1	0	0	0
+Kingsroad	unresolved-status:candidates	1	0	0	0
+Ser Sam of Sour Hill	unresolved-status:candidates	1	0	0	0
+barefoot girl	unresolved-status:candidates	1	0	0	0
+Lord Westerling of the Crag	unresolved-status:candidates	1	0	0	0
+Stranger	unresolved-status:candidates	1	0	0	0
+Raventree	unresolved-status:candidates	1	0	0	0
+Pate the Pig Boy	unresolved-status:candidates	1	0	0	0
+Simon Staunton	no-decisive-margin	1	0	0	0
+Dragonpit	unresolved-status:candidates	1	0	0	0
+Sept at Dragonstone	unresolved-status:candidates	1	0	0	0
+Blue Pearl	unresolved-status:candidates	1	0	0	0
+Lord Chester	unresolved-status:candidates	1	0	0	0
+Franklyn	unresolved-status:candidates	1	0	0	0
+Greyscale	unresolved-status:candidates	1	0	0	0
+Lord Blackbar	unresolved-status:candidates	1	0	0	0
+Lucamore	unresolved-status:candidates	1	0	0	0
+Morion	unresolved-status:candidates	1	0	0	0
+Boremund	unresolved-status:candidates	1	0	0	0
+Great Wyk	unresolved-status:candidates	1	0	0	0
+Runestone	unresolved-status:candidates	1	0	0	0
+Gulltown	unresolved-status:candidates	1	0	0	0
+Disputed Lands, Stepstones	unresolved-status:candidates	1	0	0	0
+Mountains of the Moon	unresolved-status:candidates	1	0	0	0
+Rogare Bank	unresolved-status:candidates	2	0	0	0
+Lord Goodbrother	unresolved-status:candidates	1	0	0	0
+Lord Drumm	unresolved-status:candidates	1	0	0	0
+Pyke, Great Wyk, Harlaw	unresolved-status:candidates	1	0	0	0
+Sunspear	unresolved-status:candidates	1	0	0	0
+Unsullied	unresolved-status:candidates	2	0	0	0
+River Gate	unresolved-status:candidates	1	0	0	0
+throne room	unresolved-status:candidates	1	0	0	0
+White Sword Tower	unresolved-status:candidates	1	0	0	0
+Volon Therys	unresolved-status:candidates	1	0	0	0
+Gate of the Gods	unresolved-status:candidates	1	0	0	0
+Bank of Oldtown	unresolved-status:candidates	1	0	0	0
+gold cloaks	unresolved-status:candidates	2	0	0	0
+Temple of Trade, Lys	unresolved-status:candidates	1	0	0	0
+Aliandra	unresolved-status:candidates	1	0	0	0
+Red Keep stables	unresolved-status:candidates	1	0	0	0
+Tears of Lys	unresolved-status:candidates	1	0	0	0
+on the road to Goldengrove	unresolved-status:candidates	1	0	0	0
+riverside mill	unresolved-status:candidates	1	0	0	0
+Lord Butterwell	no-decisive-margin	1	0	0	0
+Lord Grimm	unresolved-status:candidates	1	0	0	0
+Blood	no-decisive-margin	1	0	0	0
+Red Keep ward	unresolved-status:candidates	1	0	0	0
+Grand Maester Greydon	unresolved-status:candidates	1	0	0	0
+Lord Tarly	unresolved-status:candidates	1	0	0	0
+Swyft	unresolved-status:candidates	1	0	0	0
+Chambers	unresolved-status:candidates	1	0	0	0
+Rosby	unresolved-status:candidates	1	0	0	0
+banks of the Honeywine	unresolved-status:candidates	1	0	0	0
+Fair Isle	unresolved-status:candidates	2	0	0	0
+King's Landing stables	unresolved-status:candidates	1	0	0	0
+Spicetown, Driftmark	unresolved-status:candidates	1	0	0	0
+Simon Strong's grandsons	unresolved-status:candidates	1	0	0	0
+the Red Fork	unresolved-status:candidates	1	0	0	0
+Perryn	unresolved-status:candidates	1	0	0	0
+field of ashes west of Rook's Rest	junk-character-candidate	1	0	0	0
+Reyne	unresolved-status:candidates	1	0	0	0
+the Gullet	unresolved-status:candidates	1	0	0	0
+Bigglestone	unresolved-status:candidates	1	0	0	0
+throne room, Red Keep	unresolved-status:candidates	1	0	0	0
+western shore of the Gods Eye	unresolved-status:candidates	1	0	0	0
+the Gullet, off Dragonstone	junk-character-candidate	1	0	0	0
+Acorn Hall	unresolved-status:candidates	1	0	0	0
+Lady Darklyn	unresolved-status:candidates	1	0	0	0
+stony ridge near the Blackwater	unresolved-status:candidates	1	0	0	0
+old stone bridge, Bitterbridge	unresolved-status:candidates	1	0	0	0
+Lord Edwell (Celtigar)	unresolved-status:candidates	1	0	0	0
+Lady Darry	type-mismatch	1	0	0	0
+Veron	unresolved-status:candidates	1	0	0	0
+Lord Manderly	unresolved-status:candidates	1	0	0	0
+Maester Norren	unresolved-status:candidates	1	0	0	0
+Tyrells	house-surname-existing-node	1	0	0	0
+Archon	unresolved-status:candidates	1	0	0	0
+Maiden's Men	unresolved-status:candidates	1	0	0	0
+Swords and Stars	unresolved-status:candidates	1	0	0	0
+Pinkmaiden	unresolved-status:candidates	1	0	0	0
+Maris	unresolved-status:candidates	1	0	0	0
+Lady of Crakehall	unresolved-status:candidates	1	0	0	0
+Six Times to Sea	junk-character-candidate	1	0	0	0
+Seastone Chair	unresolved-status:candidates	1	0	0	0
+Hard as Oak	unresolved-status:candidates	1	0	0	0
+Brimstone River	unresolved-status:candidates	1	0	0	0
+Dornish waters	unresolved-status:candidates	1	0	0	0
+narrow sea	unresolved-status:candidates	1	0	0	0
+Maester Bendamure	unresolved-status:candidates	1	0	0	0
+Bastard Born	unresolved-status:candidates	1	0	0	0
+Mern	unresolved-status:candidates	1	0	0	0
+Bryndemere	unresolved-status:candidates	1	0	0	0
+Maiden's Day	unresolved-status:candidates	1	0	0	0
+Ben Blackwood	unresolved-status:candidates	1	0	0	0
+Lord Darry	no-decisive-margin	1	0	0	0
+Gardener kings	unresolved-status:candidates	1	0	0	0
+Lord Mallister	unresolved-status:candidates	1	0	0	0
+Lord Vance of Wayfarer's Rest	unresolved-status:candidates	1	0	0	0
+Queen Rhaenys	unresolved-status:candidates	1	0	0	0

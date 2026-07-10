@@ -1,6 +1,6 @@
 ---
 name: "Betrothal of Rhaenyra's sons to Daemon's daughters"
-type: event.incident
+type: event.betrothal
 slug: betrothal-of-rhaenyras-sons-to-daemons-daughters
 aliases: []
 confidence: tier-2

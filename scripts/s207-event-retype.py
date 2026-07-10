@@ -34,6 +34,7 @@ IN_SCHEMA = {
     "battle", "war", "tournament", "wedding", "feast", "coronation", "trial",
     "assassination", "execution", "conspiracy", "deception", "incident",
     "appointment", "exile", "birth", "investiture",
+    "betrothal",  # sanctioned S208 (2026-07-10) — Matt's call; betrayal REJECTED same session
 } | SANCTIONED_NOW
 
 # off-schema subtype -> sanctioned target leaf
@@ -41,7 +42,7 @@ RETYPE_MAP = {
     # junk / catch-all -> incident (the sanctioned "bounded multi-beat event" leaf)
     "other": "incident",
     "voyage": "incident", "negotiation": "incident", "uprising": "incident",
-    "surrender": "incident", "betrothal": "incident", "betrayal": "incident",
+    "surrender": "incident", "betrayal": "incident",
     "treaty": "incident", "progress": "incident", "escape": "incident",
     "flight": "incident", "disaster": "incident", "plague": "incident",
     "famine": "incident", "dismissal": "incident", "resignation": "incident",

@@ -1,0 +1,148 @@
+name	n_units	rows(rel/ev/role)	PROPOSAL	basis	fresh_resolve	top_row_cands	disambiguator_sample
+Kingsguard	25	23/0/0	kingsguard	slugify-exact	kingsguard[candidates]	kingsguardx25;lord-commander-of-the-kingsguardx25;jaime-questions-the-kingsguard-about-joffrey-s-deathx25	the white cloaks; Cole, the Cargylls, five Sworn Brothers
+Septon Eustace	12	1/0/0	REVIEW		None[candidates]	eustace-braavosx12;eustace-brunex12;eustace-hightowerx12	of the royal sept; firsthand chronicler; rose to the Most Devout
+Iron Throne	11	16/0/0	iron-throne	slugify-exact	iron-throne[candidates]	iron-thronex11;jaime-found-seated-on-the-iron-thronex11;maegor-i-targaryenx11	seat of the King of the Seven Kingdoms
+King's Landing	10	0/0/2	kings-landing	slugify-exact	kings-landing[candidates]	kings-landingx10;fall-of-kings-landingx10;riots-in-kings-landingx10	the capital
+Septon Barth	10	5/0/2	REVIEW		None[candidates]	barthx10;barth-brewerx10;high-septonx10	Took on Oswyck's duties; doubted Alyssa could carry to term
+Iron Bank of Braavos	10	2/0/0	iron-bank-of-braavos	slugify-exact	None[candidates]	iron-bank-of-braavosx10;the-origins-of-the-iron-bank-and-braavosx10;braavosx10	Crown's creditor; held Elissa's gold
+Citadel	8	1/0/0	citadel	slugify-exact	citadel[candidates]	citadelx8;defender-of-the-citadelx8;seneschal-of-the-citadelx8	of Oldtown; chooses the Grand Maester, not the Crown
+Night's Watch	8	3/0/2	nights-watch	slugify-exact	nights-watch[candidates]	nights-watchx8;jace-nights-watchx8;wat-nights-watchx8	the Wall; condemned men allowed to take the black
+Poor Fellows	8	4/0/4	poor-fellows	slugify-exact	poor-fellows[candidates]	poor-fellowsx8;hunt-of-the-poor-fellowsx8;jolly-fellowsx8	Ragged followers of Septon Moon; order Maegor sought to exterminate
+Seven Kingdoms	8	8/0/1	seven-kingdoms	slugify-exact	seven-kingdoms[candidates]	seven-kingdomsx8;lord-of-the-seven-kingdomsx8;laws-and-justice-of-the-seven-kingdomsx8	
+Lord Mooton	7	3/0/2	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex7;blind-lordx7;eleanor-mootonx7	of Maidenpool; joined Darklyn, marched south; slain by Aegon/Orys
+Lord Darklyn	7	4/0/2	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex7;blind-lordx7;darklynx7	of Duskendale; joined Mooton, marched south; slain by Aegon/Orys
+Grand Maester Benifer	7	2/0/0	REVIEW		None[candidates]	desmond-grand-maesterx7;grand-maesterx7;hareth-grand-maesterx7	Proclaimed Alyssa's second pregnancy a second miracle; witness in the king's solar
+Sealord of Braavos	7	11/0/3	sealord-of-braavos	slugify-exact	sealord-of-braavos[candidates]	sealord-of-braavosx7;alia-of-braavosx7;betharios-of-braavosx7	his son was Laena's long-postponed betrothed
+Jaehaera	7	12/0/1	REVIEW		None[candidates]	jaehaera-targaryenx7	Princess, aged eight; last living child of Aegon II; Aegon III's bride-to-be
+Jaehaerys	7	30/0/4	REVIEW		None[candidates]	jaehaerys-targaryenx7;jaehaerys-i-targaryenx7;aegon-targaryen-son-of-jaehaerys-ix7	Prince; Helaena's son; murdered by Blood and Cheese
+Lord Oakheart	6	6/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex6;alester-oakheartx6;alys-oakheartx6	commanded the left at the Field of Fire
+Visenya	6	2/0/0	REVIEW		None[candidates]	visenya-targaryenx6;visenyas-hillx6;aegon-rhaenys-and-visenya-islandsx6	One of the Conqueror's queens; flew up the Giant's Lance to the Eyrie during the Conquest
+Lord Tyrell	6	3/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex6;alester-tyrellx6;alla-tyrellx6	of Highgarden; a little lord in swaddling clothes; Hightowers' overlord
+Dorne	5	4/0/0	dorne	slugify-exact	dorne[candidates]	dornex5;conquest-of-dornex5;the-conquest-of-dornex5	
+City Watch	5	0/0/1	REVIEW		None[candidates]	city-watch-braavosx5;city-watch-meereenx5;city-watch-pentosx5	King's Landing; East Barracks inspected by Corbray
+Red Keep	5	0/0/0	red-keep	slugify-exact	red-keep[candidates]	red-keepx5;godswood-of-the-red-keepx5;joffrey-recalled-to-the-red-keepx5	Aenys's new seat atop Aegon's High Hill
+Alicent	5	14/0/1	REVIEW		None[candidates]	alicent-hightowerx5	Dowager/Queen; mother of Aegon II
+Most Devout	5	1/0/2	most-devout	slugify-exact	most-devout[candidates]	most-devoutx5;damon-hightowerx5;damon-morrigenx5	body choosing the new High Septon
+Lord Farman	5	4/0/2	REVIEW		None[candidates]	lord-farman-father-of-lysax5;lord-wyl-conquest-of-dornex5;alysanne-farmanx5	Lord whose castle above the sea on Fair Isle is Rhaena's refuge
+City Watch of King's Landing	5	5/0/0	city-watch-of-kings-landing	slugify-exact	city-watch-of-kings-landing[candidates]	city-watch-of-kings-landingx5;city-watch-braavosx5;city-watch-meereenx5	the gold cloaks; five hundred at Cobbler's Square
+Maegor	5	7/0/1	REVIEW		None[candidates]	exile-of-maegorx5;maegor-i-targaryenx5;maegor-targaryenx5	invoked as the cruelest king consort; comparison for Daemon
+Septon Bernard	5	2/0/0	REVIEW		None[candidates]	bernardx5;high-septonx5;hunchbacked-septonx5	anointed the infant Aegon with the seven oils in the royal sept
+Lord Bar Emmon	4	1/0/0	REVIEW		None[candidates]	duram-bar-emmonx4;house-bar-emmonx4;togarion-bar-emmonx4	of Sharp Point (Massey's Hook); sworn to Storm's End, closer ties to Dragonstone
+Aenys	4	4/0/0	REVIEW		None[candidates]	aenys-blackfyrex4;aenys-freyx4;aenys-targaryenx4	King; former husband of Alyssa; father of the dead babe Vaella
+Rhaenys	4	7/0/1	REVIEW		None[candidates]	hill-of-rhaenysx4;princess-rhaenysx4;queen-rhaenysx4	One of the Conqueror's queens
+Driftmark	4	0/0/0	driftmark	slugify-exact	driftmark[candidates]	driftmarkx4;castle-driftmarkx4;master-of-driftmarkx4	Alyssa's father's castle; House Velaryon seat
+Dragonstone	4	0/0/0	dragonstone	slugify-exact	dragonstone[candidates]	dragonstonex4;assault-on-dragonstonex4;fall-of-dragonstonex4	island seat; Aenys retreated and died there
+Old Volantis	4	0/0/0	REVIEW		None[candidates]	elephants-volantisx4;the-glory-of-volantisx4;old-anchorx4	possible refuge across the narrow sea
+Prince of Dorne	4	0/0/0	prince-of-dorne	slugify-exact	prince-of-dorne[candidates]	prince-of-dornex4;prince-consort-of-dornex4;prince-of-dorne-father-of-maronx4	Viserys mooted wedding Rhaenyra to him
+Winterfell	4	3/0/0	winterfell	slugify-exact	winterfell[candidates]	winterfellx4;battle-outside-the-gates-of-winterfellx4;battle-of-winterfellx4	
+Oldtown	4	1/0/0	oldtown	slugify-exact	oldtown[candidates]	oldtownx4;submission-of-oldtownx4;bryan-of-oldtownx4	seat of the Hightowers and the High Septon
+Septon Mattheus	4	1/0/0	REVIEW		None[candidates]	high-septonx4;hunchbacked-septonx4;mattheusx4	candidate for High Septon; distrusted at court
+Lord Rowan	4	5/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex4;blind-lordx4;horned-lordx4	lord whose levies once marched with Septon Moon; no first name in text
+Aegon II	4	16/0/1	REVIEW		None[candidates]	aegon-ii-targaryenx4;birth-of-aegon-ii-targaryenx4;vulture-king-aegon-iix4	eldest son of Viserys I; 129–131; ascent disputed by Rhaenyra
+Rhaenyra	4	13/0/3	REVIEW		None[candidates]	rhaenyra-targaryenx4;blacksx4;rhaenyra-takes-dragonstone-as-her-seatx4	half-sister of Aegon II, ten years his elder; mother of Aegon III
+Faceless Men	4	3/0/1	faceless-men	slugify-exact	faceless-men[candidates]	faceless-menx4;iron-coinx4;antler-menx4	Guild of sorcerer-assassins from Braavos; theorized as Moon's killer
+Warrior's Sons	4	6/0/4	warriors-sons	slugify-exact	warriors-sons[candidates]	warriors-sonsx4;cersei-rearms-the-faith-and-forgives-the-debtx4;crasters-sonsx4	Order of knights ("Swords"); order Maegor sought to exterminate
+Blackfyre	4	0/0/0	blackfyre	slugify-exact	blackfyre[candidates]	blackfyrex4;blackfyre-rebellionx4;aegon-blackfyrex4	Aegon I's Valyrian steel sword
+Grand Maester Munkun	4	0/0/0	REVIEW		None[candidates]	desmond-grand-maesterx4;grand-maesterx4;hareth-grand-maesterx4	author of the *True Telling*
+the Vale	3	1/0/0	vale-of-arryn	fresh-resolve[candidates]	vale-of-arryn[candidates]	vale-of-arrynx3;blackwood-valex3;defender-of-the-valex3	
+Starry Sept	3	0/0/0	starry-sept	slugify-exact	starry-sept[candidates]	starry-septx3;lords-septx3;royal-septx3	Septon Barth spoke for it
+Septon Oswyck	3	2/0/1	REVIEW		None[candidates]	high-septonx3;hunchbacked-septonx3;moon-septonx3	Old septon who performed Jaehaerys and Alysanne's marriage rites; died in his sleep in 54 
+Maidenpool	3	1/0/0	maidenpool	slugify-exact	maidenpool[candidates]	maidenpoolx3;taking-of-maidenpoolx3;tourney-at-maidenpoolx3	Lord Mooton's seat
+Septa Ysabel	3	1/0/0	REVIEW		None[candidates]	septax3;ysabelx3;ysabel-stauntonx3	Septa beside whom Edyth and Lyra served as novices
+Great Council of 101	3	0/0/0	REVIEW		None[candidates]	great-council-of-101-acx3;great-councilx3;great-council-of-101-ac-theoriesx3	set the precedent of male claimant over female
+Triarchy	3	0/0/1	triarchy	slugify-exact	triarchy[candidates]	triarchyx3;high-council-of-the-triarchyx3	the Three Daughters; menaced Pentos; held the Stepstones
+Lady Arryn	3	2/0/0	REVIEW		None[candidates]	cersei-maneuvers-for-lady-s-deathx3;aemma-arrynx3;alys-arrynx3	"the Maiden of the Vale"; sent power from the Vale; ward-guardian of Rhaena
+Septa Edyth	3	0/0/0	REVIEW		None[candidates]	edythx3;septax3	Alysanne's septa, sent to replace Maryam
+Queen Alyssa	3	14/0/1	REVIEW		None[candidates]	alyssa-arrynx3;alyssa-blackwoodx3;alyssa-roycex3	mother of Jaehaerys, Alysanne and Rhaena; wife of Rogar Baratheon
+Ser Joffrey Doggett	3	1/0/0	joffrey-doggett	fresh-resolve[candidates]	joffrey-doggett[candidates]	joffrey-doggettx3;house-doggettx3;all-for-joffreyx3	flew with Alysanne to Oldtown
+Chamber of the Painted Table	3	0/0/0	REVIEW		None[candidates]	painted-tablex3;stannis-baratheonx3;audience-chamber-great-pyramidx3	on Dragonstone; where Androw was found
+Lord Corbray	3	1/0/0	REVIEW		None[candidates]	corwyn-corbray-lordx3;lord-corbray-father-of-lyonelx3;lord-wyl-conquest-of-dornex3	inspected the East Barracks of the City Watch
+Evenstar of Tarth	3	0/0/0	REVIEW		None[candidates]	invasion-of-tarthx3;alysanne-tarthx3;arianne-tarthx3	his second son married Larissa Velaryon
+Grand Maester Orwyle	3	2/0/2	REVIEW		None[candidates]	desmond-grand-maesterx3;grand-maesterx3;hareth-grand-maesterx3	kept official court records used as a Dance source
+Jaehaerys I	3	4/0/0	REVIEW		None[candidates]	jaehaerys-i-targaryenx3;archons-daughter-jaehaerys-ix3;high-septon-jaehaerys-ix3	the Old King, the Conciliator; Aenys's son; 48–103
+Aegon III	3	19/0/4	REVIEW		None[candidates]	regency-of-aegon-iiix3;aegon-iii-targaryenx3;high-septon-aegon-iiix3	the Dragonbane, Rhaenyra's son; 131–157
+Bar Emmon	3	0/0/0	REVIEW		None[candidates]	duram-bar-emmonx3;house-bar-emmonx3;togarion-bar-emmonx3	Lord among Maegor's rallied banners
+Queensguard	3	1/0/0	queensguard	slugify-exact	None[candidates]	queensguardx3;a-dance-with-dragons-chapter-55x3;lord-commander-of-the-queensguardx3	Rhaenyra's sworn protectors
+Viserys	3	3/0/1	REVIEW		None[candidates]	viserys-plummx3;viserys-targaryenx3;daeron-targaryen-son-of-viserys-ix3	the late King Viserys; named as claimed father of Trystane
+Harrenhal	3	2/0/0	harrenhal	slugify-exact	harrenhal[candidates]	harrenhalx3;assault-on-harrenhalx3;burning-of-harrenhalx3	Lucas Harroway's seat; "Black Harren's mighty castle"
+Casterly Rock	3	2/0/0	casterly-rock	slugify-exact	casterly-rock[candidates]	casterly-rockx3;lady-of-casterly-rockx3;lord-of-casterly-rockx3	Lyman Lannister's seat; twins born there
+Maegor's Holdfast	3	0/0/0	maegors-holdfast	slugify-exact	maegors-holdfast[candidates]	maegors-holdfastx3;exile-of-maegorx3;fight-at-the-holdfastx3	fortified redoubt within the Red Keep
+Lord Celtigar	3	0/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex3;alton-celtigarx3;ardrian-celtigarx3	father of daughters (scorned as "chinless, breastless, and witless") sent to Dragonstone
+King Viserys	3	2/0/0	REVIEW		None[candidates]	viserys-targaryenx3;tourney-for-king-viserys-is-accessionx3;robb-proclaimed-king-in-the-northx3	Rhaenyra's late father; named Rhaenyra his heir; spoke for Prince Viserys at Great Council
+Helaena	3	8/0/0	REVIEW		None[candidates]	helaena-targaryenx3	Queen, wife/sister of King Aegon II, mother of Maelor and Jaehaerys, rider of Dreamfyre
+Fingers	3	1/0/0	fingers	slugify-exact	fingers[candidates]	fingersx3;fingers-guardsx3;fingers-ironmanx3	Tessario's guards
+Faith Militant	2	1/0/0	faith-militant	slugify-exact	faith-militant[candidates]	faith-militantx2;faith-militant-uprisingx2;cersei-rearms-the-faith-and-forgives-the-debtx2	fighting orders (Warrior's Sons); "the Stars and Swords"
+the Faith	2	1/0/0	faith-of-the-seven	fresh-resolve[candidates]	faith-of-the-seven[candidates]	faith-of-the-sevenx2;faith-militantx2;shield-of-the-faithx2	the Seven; centered at Oldtown under the High Septon
+the North	2	1/0/0	north	fresh-resolve[candidates]	north[candidates]	northx2;robb-proclaimed-king-in-the-northx2;roose-named-warden-of-the-northx2	
+Vale of Arryn	2	1/0/0	vale-of-arryn	slugify-exact	vale-of-arryn[candidates]	vale-of-arrynx2;vale-of-arryn-valleyx2;surrender-of-the-valex2	
+Asshai-by-the-Shadow	2	0/0/0	REVIEW		None[candidates]	shadow-killing-of-cortnay-penrosex2;shadow-warx2;asshaix2	reached on the Sea Snake's second voyage
+Lord of Stonehelm	2	0/0/0	lord-of-stonehelm	slugify-exact	lord-of-stonehelm[candidates]	lord-of-stonehelmx2;lord-wyl-conquest-of-dornex2;blind-lordx2	Johanna Swann's "niggardly" uncle who refused her ransom
+Lady Jeyne	2	0/0/0	REVIEW		None[candidates]	cersei-maneuvers-for-lady-s-deathx2;canker-jeynex2;grey-jeynex2	Lady of the Eyrie/the Vale; dismissed Daemon's claim and warned him off
+Conclave	2	2/0/1	conclave	slugify-exact	conclave[candidates]	conclavex2	the Citadel body that chose the Grand Maester
+Viserys (son of Rhaenyra)	2	7/0/1	REVIEW		None[candidates]	aemon-targaryen-son-of-viserys-iix2;baelon-targaryen-son-of-viserys-ix2;daeron-targaryen-son-of-viserys-ix2	Rhaenyra & Daemon's second son, b. 122 AC; named after his grandsire; precocious; his egg 
+Prince of Pentos	2	1/0/1	prince-of-pentos	slugify-exact	prince-of-pentos[candidates]	prince-of-pentosx2;quentyn-contracts-tattered-princex2;bay-of-pentosx2	feted Daemon & Laena; feared the Triarchy
+Riverrun	2	2/0/0	riverrun	slugify-exact	riverrun[candidates]	riverrunx2;battle-under-the-walls-of-riverrunx2;siege-of-riverrunx2	
+Maester Culiper	2	1/0/0	REVIEW		None[candidates]	maester-killedx2;culiperx2;gareth-maesterx2	maester of Dragonstone; first to die of the sickness
+Ser Gyles Morrigen	2	1/0/0	gyles-morrigen	fresh-resolve[candidates]	gyles-morrigen[candidates]	gyles-morrigenx2;damon-morrigenx2;dickon-morrigenx2	Lord Commander of the Kingsguard
+Rhaella	2	3/0/0	REVIEW		None[candidates]	rhaella-targaryenx2;rhaella-targaryen-daughter-of-aegonx2	niece of Queen Alysanne; novice among the septas at Oldtown
+Lady Lucinda	2	0/0/0	REVIEW		None[candidates]	cersei-maneuvers-for-lady-s-deathx2;iron-ladyx2;ladyx2	Lucinda; liege lady of Smallwood
+Lady Meredith	2	0/0/0	lady-meredith	slugify-exact	lady-meredith[candidates]	lady-meredithx2;cersei-maneuvers-for-lady-s-deathx2;iron-ladyx2	Ser Eustace Hightower's ship
+Goodwife	2	0/0/0	goodwife	slugify-exact	goodwife[candidates]	goodwifex2;goodwife-foolx2;goodwife-maeriex2	Alysanne's favorite fool, with puppets
+Lord Mullendore	2	1/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex2;blind-lordx2;horned-lordx2	Lord of Uplands
+Septa Lyra	2	0/0/0	REVIEW		None[candidates]	lyrax2;lyra-hayfordx2;lyra-mormontx2	septa attending Alysanne on Dragonstone
+Wise Women	2	0/0/0	wise-woman	fresh-resolve[candidates]	wise-woman[candidates]	wise-womanx2;isle-of-womenx2;saathos-the-wisex2	Alysanne's household ladies from Dragonstone
+westerlands	2	0/0/0	westerlands	slugify-exact	westerlands[candidates]	westerlandsx2;raiding-along-the-westerlands-coastx2;seizure-of-westerlands-gold-minesx2	
+Autumn Moon	2	0/0/0	autumn-moon	slugify-exact	autumn-moon[candidates]	autumn-moonx2;gates-of-the-moonx2;moon-septonx2	Ser Norman Hightower's ship
+Gods Eye	2	0/0/0	gods-eye	slugify-exact	gods-eye[candidates]	gods-eyex2;gods-eye-riverx2;gods-eye-townx2	
+First Men	2	0/0/0	first-men	slugify-exact	first-men[candidates]	first-menx2;fist-of-the-first-menx2;king-of-the-first-menx2	ancient race said to have begun the first night
+the Seven	2	1/0/0	faith-of-the-seven	fresh-resolve[candidates]	faith-of-the-seven[candidates]	faith-of-the-sevenx2;crone-the-sevenx2;father-the-sevenx2	"The Seven were smiling on us"
+Aegon	2	6/0/1	REVIEW		None[candidates]	aegon-ambrosex2;aegon-blackfyrex2;aegon-frey-son-of-aenysx2	brother of Jaehaerys, husband of Rhaena; a king slain by his uncle at the Battle Beneath t
+Lord Dustin	2	0/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex2;barbrey-dustinx2;blind-lordx2	showed the barrow of the First King at Barrowton; no first name in text
+Viserys I	2	6/0/0	REVIEW		None[candidates]	viserys-i-targaryenx2;alayne-i-the-winds-of-winterx2;arianne-i-the-winds-of-winterx2	grandson of Jaehaerys; 103–129
+Aenys I	2	10/0/0	REVIEW		None[candidates]	aenys-i-targaryenx2;high-septon-aenys-ix2;vulture-king-aenys-ix2	son of Aegon I and Rhaenys; reigned 37–42
+Aegon IV	2	4/0/0	REVIEW		None[candidates]	aegon-iv-targaryenx2;alysanne-daughter-of-aegon-ivx2;rosey-daughter-of-aegon-ivx2	the Unworthy, eldest son of Viserys II; 172–184
+Stokeworth	2	0/0/0	stokeworth	slugify-exact	stokeworth[candidates]	stokeworthx2;submission-of-stokeworthx2;alyn-stokeworthx2	Lord among Maegor's rallied banners
+Lord Towers	2	2/0/0	REVIEW		None[candidates]	lord-of-ten-towersx2;lord-of-the-three-towersx2;lord-wyl-conquest-of-dornex2	Maegor loyalist; yielded the Red Keep; surrendered lands
+Lord Buckwell	2	0/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex2;blind-lordx2;horned-lordx2	Maegor loyalist; took ship for Pentos
+Lord Rollingford	2	0/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex2;blind-lordx2;herman-rollingfordx2	Maegor loyalist; took ship for Pentos
+Dark Sister	2	0/0/0	dark-sister	slugify-exact	dark-sister[candidates]	dark-sisterx2;captains-sisterx2;stannis-baratheonx2	Visenya's Valyrian steel sword
+Gaemon	2	5/0/2	REVIEW		None[candidates]	gaemon-palehairx2;gaemon-targaryenx2;gaemon-targaryen-son-of-aenarx2	pale-haired boy of four; "King Cunny"; Gaemon Palehair; supposed bastard of Aegon II
+Blood and Cheese	2	1/0/0	REVIEW		None[candidates]	blood-betrayalx2;century-of-bloodx2;blood-butcherx2	murderers of Prince Jaehaerys
+True Telling	2	0/0/0	REVIEW		None[candidates]	the-dance-of-the-dragons-a-true-tellingx2;thoron-truex2;true-heartx2	Grand Maester Munkun's account
+Laena	2	2/0/0	REVIEW		None[candidates]	laena-penrosex2;laena-velaryonx2;laena-velaryon-daughter-of-alynx2	the Lady Laena; mother of Baela
+Caltrops	2	5/0/0	caltrops	slugify-exact	caltrops[candidates]	caltropsx2;bloody-caltropsx2	thirteen conspirators plotting against the Betrayers; named for the Bloody Caltrops inn
+Winter Wolves	2	0/0/0	winter-wolves	slugify-exact	winter-wolves[candidates]	winter-wolvesx2;famine-winterx2;war-of-the-wolvesx2	referenced by Cregan Stark as men fiercer than whom he would send
+Two Betrayers	2	0/0/1	two-betrayers	slugify-exact	two-betrayers[candidates]	two-betrayersx2;alan-tarlyx2;inn-at-the-crossroadsx2	Hugh Hammer and Ulf White
+Visenya's Hill	2	0/0/0	visenyas-hill	slugify-exact	visenyas-hill[candidates]	visenyas-hillx2;addison-hillx2;breakstone-hillx2	
+Grand Maester Gawen	2	1/0/2	REVIEW		None[candidates]	desmond-grand-maesterx2;grand-maesterx2;hareth-grand-maesterx2	Grand Maester; chronicler of the court; proclaimed Aenys king
+Faith of the Seven	2	0/0/0	faith-of-the-seven	slugify-exact	faith-of-the-seven[candidates]	faith-of-the-sevenx2;crone-the-sevenx2;faith-militantx2	the Faith; condemned Targaryen incest; led by the High Septon
+Septon Murmison	2	2/0/1	assassination-of-septon-murmison	fresh-resolve[candidates]	assassination-of-septon-murmison[candidates]	high-septonx2;hunchbacked-septonx2;moon-septonx2	pious cleric said to heal by laying on of hands; Aenys's Hand after Maegor
+riverlands	2	0/0/0	riverlands	slugify-exact	riverlands[candidates]	riverlandsx2;gregor-raids-the-riverlandsx2	
+Lannisport	2	0/0/0	lannisport	slugify-exact	lannisport[candidates]	lannisportx2;tourney-at-lannisportx2;shield-of-lannisportx2	where Melony Piper arrived
+Lord Massey	2	0/0/0	REVIEW		None[candidates]	lord-wyl-conquest-of-dornex2;alarra-masseyx2;albin-masseyx2	Of Stonedance; among the lesser lords at Maegor's end
+Baelon	2	13/0/3	REVIEW		None[candidates]	baelon-targaryenx2;baelon-targaryen-son-of-jaehaerys-ix2;aegon-targaryen-son-of-baelonx2	a prince chosen over Rhaenys by the Old King in 92
+Trident	2	0/0/0	trident	slugify-exact	trident[candidates]	tridentx2;battle-of-the-tridentx2;incident-at-the-tridentx2	
+Eyrie	2	2/0/0	eyrie	slugify-exact	eyrie[candidates]	eyriex2;godswood-of-the-eyriex2;lord-of-the-eyriex2	
+Cheese	2	3/0/0	cheese	slugify-exact	None[candidates]	cheese-ratcatcherx2;cheesex2;small-paulx2	ratcatcher in the Red Keep
+Viserys (son of Daemon)	2	4/0/1	REVIEW		None[candidates]	corlys-velaryon-son-of-daemonx2;daemon-velaryon-son-of-aethanx2;aemon-targaryen-son-of-viserys-iix2	Rhaenyra & Daemon's son; offered a place as king's cupbearer
+White Harbor	2	0/0/0	white-harbor	slugify-exact	white-harbor[candidates]	white-harborx2;lord-of-white-harborx2;wyman-publicly-arrests-davos-at-white-harborx2	
+Tower of the Hand	2	0/0/0	tower-of-the-hand	slugify-exact	tower-of-the-hand[candidates]	tower-of-the-handx2;bell-towerx2;bleeding-towerx2	
+Lys	2	3/0/0	lys	slugify-exact	lys[candidates]	lysx2;alchemists-of-lysx2;serenei-of-lysx2	
+Samantha	2	3/0/0	REVIEW		None[candidates]	samantha-stokeworthx2;samantha-tarlyx2	Lady Sam; widow of Lord Ormund Hightower; stepmother and paramour of Lord Lyonel; Dowager 
+Winter Fever	2	0/0/6	winter-fever	slugify-exact	winter-fever[candidates]	winter-feverx2;famine-winterx2;winter-of-the-widowsx2	contagion sweeping from port to port; killed three of four afflicted
+The Seven-Pointed Star	2	0/0/0	the-seven-pointed-star	slugify-exact	the-seven-pointed-star[candidates]	the-seven-pointed-starx2;mother-the-sevenx2;seven-kingdomsx2	scripture cited: "pride goes before a fall"
+Shivers	2	0/0/1	shivers	slugify-exact	shivers[candidates]	shiversx2	plague that struck Westeros in winter of 59 AC
+Grand Maester Elysar	2	0/0/0	REVIEW		None[candidates]	desmond-grand-maesterx2;grand-maesterx2;hareth-grand-maesterx2	sharp-tongued Grand Maester; Benifer's successor
+Aerea	2	2/0/0	REVIEW		None[candidates]	aerea-targaryenx2	named by Alysanne in comparison to willful Saera
+Iron Islands	2	1/0/0	iron-islands	slugify-exact	iron-islands[candidates]	iron-islandsx2;invasion-of-the-iron-islandsx2;king-of-the-iron-islandsx2	
+Rogare Bank	2	0/0/0	REVIEW		None[candidates]	drako-rogarex2;drazenko-rogarex2;fredo-rogarex2	Lysene bank of House Rogare; branch atop Visenya's Hill; collapsed
+Unsullied	2	0/0/0	unsullied	slugify-exact	unsullied[candidates]	unsulliedx2	eunuch warriors bought by Lysaro from the slavers of Astapor
+Daenaera	2	1/0/1	REVIEW		None[candidates]	daenaera-velaryonx2	Queen; wife of King Aegon III; the little queen
+Marilda	2	2/0/0	REVIEW		None[candidates]	bold-marildax2;marilda-of-hullx2	Lord Alyn's mother; his galley Bold Marilda named after her
+gold cloaks	2	0/0/0	REVIEW		None[candidates]	gold-cloaks-betray-nedx2;gold-cloaks-demand-gendryx2;goldx2	the City Watch of King's Landing; 2000+ strong
+Prince Daeron	2	2/0/0	REVIEW		None[candidates]	pretenders-claiming-to-be-prince-daeron-the-daringx2;daeron-targaryenx2;daeron-targaryen-son-of-viserys-ix2	in Oldtown with the dragon Tessarion
+Maelor	2	2/0/0	REVIEW		None[candidates]	maelor-targaryenx2	young son of Aegon II and Helaena, given to Alicent to raise
+Daemon	2	6/0/1	REVIEW		None[candidates]	daemon-sandx2;daemon-targaryenx2;daemon-i-blackfyrex2	Prince; father of Aegon III and Viserys
+Fair Isle	2	0/0/0	fair-isle	slugify-exact	fair-isle[candidates]	fair-islex2;ambush-at-fair-islex2;sea-battle-off-fair-islex2	
+Prince Daemon	2	2/0/0	REVIEW		None[candidates]	daemon-sandx2;daemon-targaryenx2;daemon-i-blackfyrex2	Daemon Targaryen; Rhaenyra's husband and prince consort; uncle to Aemond; rider of Caraxes
+Archon's daughter	2	3/0/0	REVIEW		None[candidates]	archon-of-tyrosh-war-of-the-ninepenny-kingsx2;archonx2;archon-of-tyroshx2	maid with blue-green hair; married Orryn; once hoped as bride for Jaehaerys

@@ -1,0 +1,1522 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Battle against Darklyn and Mooton",
+  "slugified": "battle-against-darklyn-and-mooton",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Battle against Darklyn and Mooton",
+    "type": "event.battle",
+    "year": "",
+    "agent": "Aegon I Targaryen",
+    "patient": "Lord Darklyn; Lord Mooton",
+    "outcome": "both lords slain, castles yielded",
+    "quote": "Both lords were slain in the one-sided battle",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Surrender of Storm's End",
+  "slugified": "surrender-of-storms-end",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Surrender of Storm's End",
+    "type": "event.surrender",
+    "year": "",
+    "agent": "Argella Durrandon",
+    "patient": "Orys Baratheon",
+    "outcome": "garrison yields Argella to Orys",
+    "quote": "delivered Lady Argella gagged, chained, and naked",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Accession of Viserys I",
+  "slugified": "accession-of-viserys-i",
+  "slug_exists": false,
+  "near_matches": [
+   "tourney-for-king-viserys-is-accession"
+  ],
+  "event_rows": [
+   {
+    "event": "Accession of Viserys I",
+    "type": "event.coronation",
+    "year": "103",
+    "agent": "Viserys I Targaryen",
+    "patient": "",
+    "outcome": "grandson mounts the Iron Throne as King Viserys I",
+    "quote": "mounting the Iron Throne as King Viserys",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Prince Baelon",
+  "slugified": "death-of-prince-baelon",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-prince-aegon-son-of-jaehaerys-i",
+   "death-of-prince-valerion",
+   "death-of-the-infant-baelon"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Prince Baelon",
+    "type": "event.death",
+    "year": "101",
+    "agent": "Baelon Targaryen",
+    "patient": "",
+    "outcome": "heir apparent dies of burst belly; succession in doubt",
+    "quote": "Prince Baelon died in his bedchamber in the Tower of the Hand",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Aemond",
+  "slugified": "birth-of-aemond",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Birth of Aemond",
+    "type": "event.birth",
+    "year": "110",
+    "agent": "Alicent Hightower",
+    "patient": "Aemond Targaryen",
+    "outcome": "second son born",
+    "quote": "\"she bore him a second son, Aemond\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Bracken and Blackwood sons duel over Rhaenyra",
+  "slugified": "bracken-and-blackwood-sons-duel-over-rhaenyra",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Bracken and Blackwood sons duel over Rhaenyra",
+    "type": "event.duel",
+    "year": "112",
+    "agent": "",
+    "patient": "",
+    "outcome": "duel fought",
+    "quote": "\"the sons of Lord Bracken and Lord Blackwood fought a duel over her\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Deaths of Runciter and Harrold Westerling",
+  "slugified": "deaths-of-runciter-and-harrold-westerling",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Deaths of Runciter and Harrold Westerling",
+    "type": "event.death",
+    "year": "112",
+    "agent": "",
+    "patient": "Runciter",
+    "outcome": "both die",
+    "quote": "\"Grand Maester Runciter and Ser Harrold Westerling both died in 112 AC\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "War council at High Tide",
+  "slugified": "war-council-at-high-tide",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "War council at High Tide",
+    "type": "event.council",
+    "year": "106",
+    "agent": "Corlys Velaryon",
+    "patient": "Daemon Targaryen",
+    "outcome": "Stepstones war planned",
+    "quote": "\"welcomed the king's brother, Prince Daemon, to a war council\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Aemond claims Vhagar and loses an eye",
+  "slugified": "aemond-claims-vhagar-and-loses-an-eye",
+  "slug_exists": false,
+  "near_matches": [
+   "aemond-loses-his-eye-at-driftmark",
+   "baelon-claims-vhagar"
+  ],
+  "event_rows": [
+   {
+    "event": "Aemond claims Vhagar and loses an eye",
+    "type": "event.other",
+    "year": "120",
+    "agent": "Aemond Targaryen",
+    "patient": "",
+    "outcome": "Aemond becomes a dragonrider; Luke takes his right eye",
+    "quote": "the boy prince Aemond Targaryen became a dragonrider",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Maelor Targaryen",
+  "slugified": "birth-of-maelor-targaryen",
+  "slug_exists": false,
+  "near_matches": [
+   "birth-of-aegon-ii-targaryen",
+   "birth-of-aemon-targaryen-son-of-jaehaerys-i",
+   "birth-of-aemon-targaryen-son-of-viserys-ii",
+   "birth-of-aenys-targaryen",
+   "birth-of-alyssa-targaryen",
+   "birth-of-daella-targaryen-daughter-of-jaehaerys-i"
+  ],
+  "event_rows": [
+   {
+    "event": "Birth of Maelor Targaryen",
+    "type": "event.birth",
+    "year": "127",
+    "agent": "Helaena Targaryen",
+    "patient": "Maelor Targaryen",
+    "outcome": "Aegon's second son",
+    "quote": "gave birth to his second son",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Death of Lady Rhea Royce",
+  "slugified": "death-of-lady-rhea-royce",
+  "slug_exists": false,
+  "near_matches": [
+   "cersei-maneuvers-for-lady-s-death"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Lady Rhea Royce",
+    "type": "event.death",
+    "year": "115",
+    "agent": "",
+    "patient": "Rhea Royce",
+    "outcome": "Runestone passed to her nephew, not Daemon",
+    "quote": "fell from her horse whilst hawking and cracked her skull upon a stone",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Marriage of Daemon and Laena Velaryon",
+  "slugified": "marriage-of-daemon-and-laena-velaryon",
+  "slug_exists": false,
+  "near_matches": [
+   "alyssa-names-daemon-velaryon-hand",
+   "birth-of-laena-velaryon-daughter-of-alyn",
+   "death-of-laena-velaryon",
+   "secret-marriage-of-rhaenyra-and-daemon"
+  ],
+  "event_rows": [
+   {
+    "event": "Marriage of Daemon and Laena Velaryon",
+    "type": "event.wedding",
+    "year": "115",
+    "agent": "Daemon Targaryen",
+    "patient": "Laena Velaryon",
+    "outcome": "Daemon abandons the Stepstones",
+    "quote": "wed Lady Laena Velaryon a fortnight later",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Cregan Stark made King's Hand",
+  "slugified": "cregan-stark-made-kings-hand",
+  "slug_exists": false,
+  "near_matches": [
+   "dismissal-of-otto-criston-made-hand",
+   "lucas-harroway-made-hand"
+  ],
+  "event_rows": [
+   {
+    "event": "Cregan Stark made King's Hand",
+    "type": "event.appointment",
+    "year": "131",
+    "agent": "Aegon III Targaryen",
+    "patient": "Cregan Stark",
+    "outcome": "Stark given full authority to act",
+    "quote": "\"to make Lord Stark the King's Hand\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Completion of the Dragonpit",
+  "slugified": "completion-of-the-dragonpit",
+  "slug_exists": false,
+  "near_matches": [
+   "tourney-for-the-completion-of-the-dragonpit"
+  ],
+  "event_rows": [
+   {
+    "event": "Completion of the Dragonpit",
+    "type": "event.construction",
+    "year": "54",
+    "agent": "",
+    "patient": "Dragonpit",
+    "outcome": "dome and bronze gates finished",
+    "quote": "\"work on the Dragonpit was all but complete\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Selection of Septon Alfyn as High Septon",
+  "slugified": "selection-of-septon-alfyn-as-high-septon",
+  "slug_exists": false,
+  "near_matches": [
+   "murder-of-the-old-high-septon"
+  ],
+  "event_rows": [
+   {
+    "event": "Selection of Septon Alfyn as High Septon",
+    "type": "event.election",
+    "year": "54",
+    "agent": "Most Devout",
+    "patient": "Septon Alfyn",
+    "outcome": "Alfyn chosen on the fourth ballot",
+    "quote": "\"The laurel fell to the Septon Alfyn\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "name": "Death of the infant Prince Aegon",
+  "slugified": "death-of-the-infant-prince-aegon",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-prince-aegon-son-of-jaehaerys-i",
+   "death-of-aegon-ii",
+   "death-of-prince-valerion",
+   "death-of-the-infant-baelon",
+   "granting-of-prince-of-dragonstone-to-aegon"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of the infant Prince Aegon",
+    "type": "event.death",
+    "year": "",
+    "agent": "",
+    "patient": "Aegon Targaryen (infant)",
+    "outcome": "died after three days of life",
+    "quote": "\"The loss of Prince Aegon after only three days of life\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Death of Rhaena Targaryen",
+  "slugified": "death-of-rhaena-targaryen",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-aenys-i-targaryen",
+   "death-of-alyssa-targaryen",
+   "death-of-daella-targaryen-daughter-of-jaehaerys-i",
+   "death-of-daenerys-targaryen-daughter-of-jaehaerys-i",
+   "death-of-helaena-targaryen",
+   "death-of-jaehaera-targaryen"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Rhaena Targaryen",
+    "type": "event.death",
+    "year": "73",
+    "agent": "",
+    "patient": "Rhaena Targaryen",
+    "outcome": "burned, ashes interred at Harrenhal",
+    "quote": "\"Rhaena Targaryen died in 73 AC, at fifty years of age\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-lineages-and-family-tree-25",
+  "name": "Death of the last Targaryen dragons",
+  "slugified": "death-of-the-last-targaryen-dragons",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-aenys-i-targaryen",
+   "death-of-alyssa-targaryen",
+   "death-of-daella-targaryen-daughter-of-jaehaerys-i",
+   "death-of-daenerys-targaryen-daughter-of-jaehaerys-i",
+   "death-of-helaena-targaryen",
+   "death-of-jaehaera-targaryen"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of the last Targaryen dragons",
+    "type": "event.other",
+    "year": "131-157",
+    "agent": "",
+    "patient": "",
+    "outcome": "last Targaryen dragons died in Aegon III's reign",
+    "quote": "The last of the Targaryen dragons died during the reign of Aegon III",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Execution of Maegor's headsman and gaolers",
+  "slugified": "execution-of-maegors-headsman-and-gaolers",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Execution of Maegor's headsman and gaolers",
+    "type": "event.execution",
+    "year": "48",
+    "agent": "",
+    "patient": "",
+    "outcome": "Heads and hands sent to Alyssa",
+    "quote": "Their heads were delivered to Queen Alyssa",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Trial of Seven against Maegor",
+  "slugified": "trial-of-seven-against-maegor",
+  "slug_exists": false,
+  "near_matches": [
+   "shae-testifies-against-tyrion-at-trial"
+  ],
+  "event_rows": [
+   {
+    "event": "Trial of Seven against Maegor",
+    "type": "event.trial_by_combat",
+    "year": "",
+    "agent": "Damon the Devout",
+    "patient": "Maegor I Targaryen",
+    "outcome": "Warrior's Sons fought Maegor",
+    "quote": "led them in their Trial of Seven against Maegor",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Capture of Nightsong",
+  "slugified": "capture-of-nightsong",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Capture of Nightsong",
+    "type": "event.battle",
+    "year": "10 AC",
+    "agent": "Lord Fowler",
+    "patient": "Lord Caron",
+    "outcome": "castle torched; Caron carried captive",
+    "quote": "\"capture the great border castle Nightsong\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Death of Rhaenys Targaryen",
+  "slugified": "death-of-rhaenys-targaryen",
+  "slug_exists": true,
+  "near_matches": [
+   "death-of-rhaenys-targaryen",
+   "birth-of-rhaenys-targaryen-daughter-of-aemon",
+   "death-of-aenys-i-targaryen",
+   "death-of-alyssa-targaryen",
+   "death-of-daella-targaryen-daughter-of-jaehaerys-i",
+   "death-of-daenerys-targaryen-daughter-of-jaehaerys-i"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Rhaenys Targaryen",
+    "type": "event.death",
+    "year": "10 AC",
+    "agent": "",
+    "patient": "Rhaenys Targaryen",
+    "outcome": "queen perished; manner unknown",
+    "quote": "\"Whether Rhaenys Targaryen outlived her dragon remains a matter of dispute\"",
+    "disputed": true
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Lady Mysaria",
+  "slugified": "death-of-lady-mysaria",
+  "slug_exists": false,
+  "near_matches": [
+   "cersei-maneuvers-for-lady-s-death"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Lady Mysaria",
+    "type": "event.execution",
+    "year": "",
+    "agent": "Perkin the Flea",
+    "patient": "Mysaria",
+    "outcome": "White Worm whipped to death",
+    "quote": "\"dying on the \\ncobblestones with hardly a patch of her pale white skin left\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Shrykos",
+  "slugified": "death-of-shrykos",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Death of Shrykos",
+    "type": "event.death",
+    "year": "",
+    "agent": "Hobb the Hewer",
+    "patient": "Shrykos",
+    "outcome": "dragon slain by seven axe blows",
+    "quote": "\"slain by a woodsman known as Hobb the Hewer\"",
+    "disputed": true
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Battle of Sunfyre and Moondancer",
+  "slugified": "battle-of-sunfyre-and-moondancer",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Battle of Sunfyre and Moondancer",
+    "type": "event.battle",
+    "year": "",
+    "agent": "Sunfyre",
+    "patient": "Moondancer",
+    "outcome": "Moondancer slain, Aegon shattered both legs",
+    "quote": "\"the price he paid for it was dire\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Tessarion",
+  "slugified": "death-of-tessarion",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Death of Tessarion",
+    "type": "event.death",
+    "year": "",
+    "agent": "Billy Burley",
+    "patient": "Tessarion",
+    "outcome": "three shafts into her eye",
+    "quote": "\"sent three shafts into her eye as she lay helpless\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Sunfyre attacks Grey Ghost",
+  "slugified": "sunfyre-attacks-grey-ghost",
+  "slug_exists": false,
+  "near_matches": [
+   "grey-wind-attacks"
+  ],
+  "event_rows": [
+   {
+    "event": "Sunfyre attacks Grey Ghost",
+    "type": "event.battle",
+    "year": "",
+    "agent": "Sunfyre",
+    "patient": "Grey Ghost",
+    "outcome": "Grey Ghost killed",
+    "quote": "\"seek out Grey Ghost's killer\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Borros Baratheon",
+  "slugified": "death-of-borros-baratheon",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-joffrey-baratheon",
+   "death-of-robert-baratheon"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Borros Baratheon",
+    "type": "event.death",
+    "year": "",
+    "agent": "Kermit Tully",
+    "patient": "Borros Baratheon",
+    "outcome": "Lord of Storm's End killed refusing to yield",
+    "quote": "The Lord of Storm's End died in the mud along the kingsroad",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Sunfyre",
+  "slugified": "death-of-sunfyre",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Death of Sunfyre",
+    "type": "event.death",
+    "year": "130",
+    "agent": "",
+    "patient": "Sunfyre",
+    "outcome": "golden dragon dies of festering wounds",
+    "quote": "the magnificent golden dragon that had been King Aegon’s glory died",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Retaking of King's Landing",
+  "slugified": "retaking-of-kings-landing",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Retaking of King's Landing",
+    "type": "event.battle",
+    "year": "130",
+    "agent": "Borros Baratheon",
+    "patient": "",
+    "outcome": "stormlanders enter unopposed; Aegon II's banner raised",
+    "quote": "the golden dragon banner of King Aegon II raised in their stead",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Birth and death of Vaella",
+  "slugified": "birth-and-death-of-vaella",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Birth and death of Vaella",
+    "type": "event.death",
+    "year": "39",
+    "agent": "Alyssa Velaryon",
+    "patient": "Vaella Targaryen",
+    "outcome": "infant dies in the cradle",
+    "quote": "a girl she named Vaella, who sadly died in the cradle",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Harren the Red",
+  "slugified": "death-of-harren-the-red",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Death of Harren the Red",
+    "type": "event.death",
+    "year": "",
+    "agent": "Bernarr Brune",
+    "patient": "Harren the Red",
+    "outcome": "outlaw king cut down",
+    "quote": "Harren the Red was at last brought to bay in a village west of the Gods Eye",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Harren the Red's seizure of Harrenhal",
+  "slugified": "harren-the-reds-seizure-of-harrenhal",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Harren the Red's seizure of Harrenhal",
+    "type": "event.rebellion",
+    "year": "",
+    "agent": "Harren the Red",
+    "patient": "Gargon Qoherys",
+    "outcome": "Gargon mutilated, castle taken",
+    "quote": "opened a postern gate at Harrenhal to an outlaw who styled himself Harren the Red",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Wedding of Maegor and Alys Harroway",
+  "slugified": "wedding-of-maegor-and-alys-harroway",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-alys-harroway",
+   "wedding-of-sigorn-and-alys-karstark"
+  ],
+  "event_rows": [
+   {
+    "event": "Wedding of Maegor and Alys Harroway",
+    "type": "event.wedding",
+    "year": "39",
+    "agent": "Maegor Targaryen",
+    "patient": "Alys Harroway",
+    "outcome": "Valyrian rite; Faith denounces it",
+    "quote": "Maegor and his new bride were joined in a Valyrian rite",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Coronation of Maegor",
+  "slugified": "coronation-of-maegor",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Coronation of Maegor",
+    "type": "event.coronation",
+    "year": "42",
+    "agent": "Visenya Targaryen",
+    "patient": "Maegor Targaryen",
+    "outcome": "Maegor proclaimed First of His Name",
+    "quote": "\"His mother placed it on his head\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Execution of the captive Warrior's Sons",
+  "slugified": "execution-of-the-captive-warriors-sons",
+  "slug_exists": false,
+  "near_matches": [
+   "execution-of-the-captive-lords"
+  ],
+  "event_rows": [
+   {
+    "event": "Execution of the captive Warrior's Sons",
+    "type": "event.execution",
+    "year": "",
+    "agent": "Maegor Targaryen",
+    "patient": "Warrior's Sons",
+    "outcome": "those who refused the black were beheaded",
+    "quote": "\"Those who refused could die as martyrs to their faith\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Wedding of Maegor and Tyanna",
+  "slugified": "wedding-of-maegor-and-tyanna",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Wedding of Maegor and Tyanna",
+    "type": "event.wedding",
+    "year": "",
+    "agent": "Maegor Targaryen; Tyanna of the Tower",
+    "patient": "",
+    "outcome": "wed amid the ashes of the Warrior's Sons",
+    "quote": "\"were wed atop the Hill of Rhaenys\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Maegor",
+  "slugified": "death-of-maegor",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-maegor-i-targaryen",
+   "death-of-maegor-towers"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Maegor",
+    "type": "event.death",
+    "year": "48",
+    "agent": "",
+    "patient": "Maegor I Targaryen",
+    "outcome": "found dead upon the Iron Throne",
+    "quote": "\"found him still upon the Iron Throne, pale and dead\"",
+    "disputed": true
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Ser Horys Hill",
+  "slugified": "death-of-ser-horys-hill",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-ser-stevron-frey-announced"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Ser Horys Hill",
+    "type": "event.death",
+    "year": "",
+    "agent": "",
+    "patient": "Ser Horys Hill",
+    "outcome": "slain leading the rescue",
+    "quote": "\"Amongst the last to die was their leader\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Jeyne Westerling's stillbirth",
+  "slugified": "jeyne-westerlings-stillbirth",
+  "slug_exists": false,
+  "near_matches": [
+   "jeyne-westerling-kept-barren",
+   "robb-weds-jeyne-westerling"
+  ],
+  "event_rows": [
+   {
+    "event": "Jeyne Westerling's stillbirth",
+    "type": "event.birth",
+    "year": "47",
+    "agent": "Tyanna of the Tower",
+    "patient": "Jeyne Westerling",
+    "outcome": "monstrous stillbirth; mother dies",
+    "quote": "\"a legless and armless creature possessed of both male and female genitalia\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "name": "Birth of Coryanne Wylde's bastard son",
+  "slugified": "birth-of-coryanne-wyldes-bastard-son",
+  "slug_exists": false,
+  "near_matches": [
+   "birth-of-aegon-son-of-aenys",
+   "birth-of-aemon-targaryen-son-of-jaehaerys-i",
+   "birth-of-aemon-targaryen-son-of-viserys-ii"
+  ],
+  "event_rows": [
+   {
+    "event": "Birth of Coryanne Wylde's bastard son",
+    "type": "event.birth",
+    "year": "48",
+    "agent": "Coryanne Wylde",
+    "patient": "bastard boy",
+    "outcome": "boy sent to Storm's End to be fostered",
+    "quote": "The bastard boy was born in 48 AC",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Death of Lord Marq Farman",
+  "slugified": "death-of-lord-marq-farman",
+  "slug_exists": false,
+  "near_matches": [
+   "lord-nestor-and-the-knights-call-for-marillion-s-death"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Lord Marq Farman",
+    "type": "event.death",
+    "year": "",
+    "agent": "",
+    "patient": "Marq Farman",
+    "outcome": "choked to death at his table, aged 46",
+    "quote": "\"choking to death upon a fish bone at the age of six-and-forty\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "Coronation of Aegon II",
+  "slugified": "coronation-of-aegon-ii",
+  "slug_exists": true,
+  "near_matches": [
+   "coronation-of-aegon-ii"
+  ],
+  "event_rows": [
+   {
+    "event": "Coronation of Aegon II",
+    "type": "event.coronation",
+    "year": "129",
+    "agent": "Criston Cole",
+    "patient": "Aegon II Targaryen",
+    "outcome": "Aegon crowned Second of His Name; Helaena crowned queen",
+    "quote": "Ser Criston Cole placed the steel-and-ruby crown of Aegon the Conqueror",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "The green council",
+  "slugified": "the-green-council",
+  "slug_exists": false,
+  "near_matches": [
+   "green-council-conceals-death-of-viserys",
+   "green-council-peace-embassy-to-dragonstone"
+  ],
+  "event_rows": [
+   {
+    "event": "The green council",
+    "type": "event.council",
+    "year": "129",
+    "agent": "Otto Hightower",
+    "patient": "",
+    "outcome": "greens resolve to crown Aegon and set Rhaenyra aside",
+    "quote": "Grand Maester Munkun dubs this gathering",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Coronation of Aegon III",
+  "slugified": "coronation-of-aegon-iii",
+  "slug_exists": false,
+  "near_matches": [
+   "aegon-iii-dismisses-the-regents-and-hand",
+   "coronation-of-aegon-ii",
+   "regency-of-aegon-iii",
+   "wedding-of-aegon-iii-and-jaehaera"
+  ],
+  "event_rows": [
+   {
+    "event": "Coronation of Aegon III",
+    "type": "event.coronation",
+    "year": "131",
+    "agent": "Aegon III",
+    "patient": "",
+    "outcome": "Aegon crowned the Third of His Name",
+    "quote": "proclaimed Aegon of House Targaryen, the Third of His Name",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Reclaiming of Harrenhal / death of Regis Groves",
+  "slugified": "reclaiming-of-harrenhal-death-of-regis-groves",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-regis-groves"
+  ],
+  "event_rows": [
+   {
+    "event": "Reclaiming of Harrenhal / death of Regis Groves",
+    "type": "event.battle",
+    "year": "132",
+    "agent": "Alys Rivers",
+    "patient": "Regis Groves",
+    "outcome": "Kingsguard knight killed, king's men routed",
+    "quote": "Ser Regis Groves was dead in an instant",
+    "disputed": true
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Elenda Baratheon and Steffon Connington",
+  "slugified": "wedding-of-elenda-baratheon-and-steffon-connington",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-steffon-connington",
+   "wedding-of-renly-baratheon-and-margaery-tyrell",
+   "wedding-of-robert-i-baratheon-and-cersei-lannister",
+   "wedding-of-stannis-baratheon-and-selyse-florent",
+   "wedding-of-tommen-i-baratheon-and-margaery-tyrell"
+  ],
+  "event_rows": [
+   {
+    "event": "Wedding of Elenda Baratheon and Steffon Connington",
+    "type": "event.wedding",
+    "year": "132",
+    "agent": "Steffon Connington",
+    "patient": "Elenda Baratheon",
+    "outcome": "the widow took a younger husband",
+    "quote": "She chose Ser Steffon Connington",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Death of Princess Daenerys",
+  "slugified": "death-of-princess-daenerys",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-daenerys-targaryen-daughter-of-jaehaerys-i",
+   "death-of-princess-aerea",
+   "death-of-princess-gael",
+   "death-of-princess-viserra"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Princess Daenerys",
+    "type": "event.death",
+    "year": "60",
+    "agent": "Shivers",
+    "patient": "Daenerys Targaryen",
+    "outcome": "princess dead at age six",
+    "quote": "\"the little princess was dead\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Betrothal of Aemon and Jocelyn",
+  "slugified": "betrothal-of-aemon-and-jocelyn",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Betrothal of Aemon and Jocelyn",
+    "type": "event.betrothal",
+    "year": "68",
+    "agent": "Alysanne",
+    "patient": "Aemon",
+    "outcome": "firstborn son betrothed to Jocelyn",
+    "quote": "the betrothal of their firstborn son, Aemon",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Death of Prince Valerion",
+  "slugified": "death-of-prince-valerion",
+  "slug_exists": true,
+  "near_matches": [
+   "death-of-prince-valerion",
+   "birth-of-prince-valerion",
+   "death-of-prince-aegon-son-of-jaehaerys-i"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Prince Valerion",
+    "type": "event.death",
+    "year": "78",
+    "agent": "",
+    "patient": "Valerion",
+    "outcome": "dies short of first nameday",
+    "quote": "In 78 AC, Valerion died",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Wedding of Aemon and Jocelyn",
+  "slugified": "wedding-of-aemon-and-jocelyn",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Wedding of Aemon and Jocelyn",
+    "type": "event.wedding",
+    "year": "70",
+    "agent": "",
+    "patient": "Aemon",
+    "outcome": "splendid ceremony rivaling the Golden Wedding",
+    "quote": "Aemon and Jocelyn were joined in a ceremony that rivaled the Golden Wedding",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Death of Prince Aegon (son of Baelon)",
+  "slugified": "death-of-prince-aegon-son-of-baelon",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-prince-aegon-son-of-jaehaerys-i",
+   "birth-of-aegon-son-of-aenys",
+   "death-of-aegon-ii",
+   "death-of-prince-valerion",
+   "death-of-the-infant-baelon",
+   "granting-of-prince-of-dragonstone-to-aegon"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Prince Aegon (son of Baelon)",
+    "type": "event.death",
+    "year": "",
+    "agent": "",
+    "patient": "Aegon Targaryen (son of Baelon)",
+    "outcome": "died before his first nameday",
+    "quote": "\"He perished half a year later, still shy of his first nameday\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Death of Balerion",
+  "slugified": "death-of-balerion",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Death of Balerion",
+    "type": "event.death",
+    "year": "",
+    "agent": "",
+    "patient": "Balerion",
+    "outcome": "the old dragon died",
+    "quote": "\"Less than a year later, Balerion was gone\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Estrangement of king and queen (First Quarrel)",
+  "slugified": "estrangement-of-king-and-queen-first-quarrel",
+  "slug_exists": false,
+  "near_matches": [
+   "first-quarrel"
+  ],
+  "event_rows": [
+   {
+    "event": "Estrangement of king and queen (First Quarrel)",
+    "type": "event.other",
+    "year": "",
+    "agent": "",
+    "patient": "Jaehaerys Targaryen",
+    "outcome": "estrangement, later reconciled",
+    "quote": "\"referred to the estrangement betwixt the king and queen as the Great Rift\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Daughters' War ends",
+  "slugified": "daughters-war-ends",
+  "slug_exists": false,
+  "near_matches": [
+   "daughters-war"
+  ],
+  "event_rows": [
+   {
+    "event": "Daughters' War ends",
+    "type": "event.other",
+    "year": "",
+    "agent": "",
+    "patient": "",
+    "outcome": "Lys, Tyrosh, Myr divide the Disputed Lands; Dorne takes the Stepstones",
+    "quote": "Across the sea, the Daughters’ War finally reached its end",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Ser Leo Costayne",
+  "slugified": "death-of-ser-leo-costayne",
+  "slug_exists": false,
+  "near_matches": [
+   "death-of-ser-stevron-frey-announced"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Ser Leo Costayne",
+    "type": "event.death",
+    "year": "134",
+    "agent": "Arthur Goodbrother",
+    "patient": "Leo Costayne",
+    "outcome": "Sea Lion slain, most of his fleet lost",
+    "quote": "Costayne died amidst the stony hills of Great Wyk",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Fall of House Rogare / Rogare Bank collapse",
+  "slugified": "fall-of-house-rogare-rogare-bank-collapse",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Fall of House Rogare / Rogare Bank collapse",
+    "type": "event.other",
+    "year": "135",
+    "agent": "Lysaro Rogare",
+    "patient": "House Rogare",
+    "outcome": "bank a hollow shell, siblings tried",
+    "quote": "the city magisters moved at once to seize the Rogare Bank",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Aegon III assumes personal rule",
+  "slugified": "aegon-iii-assumes-personal-rule",
+  "slug_exists": false,
+  "near_matches": [
+   "aegon-iii-dismisses-the-regents-and-hand",
+   "regency-of-aegon-iii",
+   "wedding-of-aegon-iii-and-jaehaera"
+  ],
+  "event_rows": [
+   {
+    "event": "Aegon III assumes personal rule",
+    "type": "event.coronation",
+    "year": "",
+    "agent": "Aegon III Targaryen",
+    "patient": "Torrhen Manderly",
+    "outcome": "king dismisses regents and Hand; progress cancelled",
+    "quote": "\"It is time for you to take the\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Sentencing of Lotho and Roggerio",
+  "slugified": "sentencing-of-lotho-and-roggerio",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Sentencing of Lotho and Roggerio",
+    "type": "event.trial",
+    "year": "",
+    "agent": "Torrhen Manderly",
+    "patient": "Lotho Rogare",
+    "outcome": "Lotho mutilated; Roggerio given seven lashes",
+    "quote": "\"having his right hand removed as if he were a common thief\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Departure of Aegon the Younger and Viserys for Pentos",
+  "slugified": "departure-of-aegon-the-younger-and-viserys-for-pentos",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Departure of Aegon the Younger and Viserys for Pentos",
+    "type": "event.other",
+    "year": "129",
+    "agent": "Jacaerys Velaryon",
+    "patient": "Aegon the Younger; Viserys (son of Daemon)",
+    "outcome": "princes sent to be fostered in Pentos under escort",
+    "quote": "\"the young princes boarded the cog Gay Abandon\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Battle by the Lakeshore (the Fishfeed)",
+  "slugified": "battle-by-the-lakeshore-the-fishfeed",
+  "slug_exists": false,
+  "near_matches": [
+   "battle-by-the-lakeshore"
+  ],
+  "event_rows": [
+   {
+    "event": "Battle by the Lakeshore (the Fishfeed)",
+    "type": "event.battle",
+    "year": "",
+    "agent": "Roderick Dustin",
+    "patient": "Humfrey Lefford",
+    "outcome": "Lannister host shattered, two thousand dead",
+    "quote": "\"to those men who lived to tell of it, it was / always the Fishfeed\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Sack of Fair Isle",
+  "slugified": "sack-of-fair-isle",
+  "slug_exists": false,
+  "near_matches": [
+   "ambush-at-fair-isle",
+   "fair-isle-rebellion",
+   "franklyn-farman-banishes-rhaena-from-fair-isle",
+   "sea-battle-off-fair-isle"
+  ],
+  "event_rows": [
+   {
+    "event": "Sack of Fair Isle",
+    "type": "event.battle",
+    "year": "",
+    "agent": "Dalton Greyjoy",
+    "patient": "Lord Farman",
+    "outcome": "island swept end to end, Farman besieged",
+    "quote": "\"the longships of the Red Kraken fell upon Fair Isle\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Death of Rickard Thorne",
+  "slugified": "death-of-rickard-thorne",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Death of Rickard Thorne",
+    "type": "event.death",
+    "year": "",
+    "agent": "crossbowmen",
+    "patient": "Rickard Thorne",
+    "outcome": "knight brought down on the bridge",
+    "quote": "It was the crossbows that finally brought him down",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Death of Lord Footly",
+  "slugified": "death-of-lord-footly",
+  "slug_exists": false,
+  "near_matches": [
+   "lord-nestor-and-the-knights-call-for-marillion-s-death"
+  ],
+  "event_rows": [
+   {
+    "event": "Death of Lord Footly",
+    "type": "event.death",
+    "year": "",
+    "agent": "Jon Roxton",
+    "patient": "Lord Footly",
+    "outcome": "Lord of Tumbleton slain",
+    "quote": "cut him nigh in two with OrphanMaker",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Pardon and reconciliation of Lord Rogar",
+  "slugified": "pardon-and-reconciliation-of-lord-rogar",
+  "slug_exists": false,
+  "near_matches": [
+   "jaehaerys-pardons-lord-rogar"
+  ],
+  "event_rows": [
+   {
+    "event": "Pardon and reconciliation of Lord Rogar",
+    "type": "event.other",
+    "year": "",
+    "agent": "Jaehaerys I Targaryen",
+    "patient": "Rogar Baratheon",
+    "outcome": "Rogar pardoned on conditions",
+    "quote": "\"Then",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Parley of Oakenfist and Racallio at Bloodstone",
+  "slugified": "parley-of-oakenfist-and-racallio-at-bloodstone",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Parley of Oakenfist and Racallio at Bloodstone",
+    "type": "event.negotiation",
+    "year": "133",
+    "agent": "Alyn Oakenfist",
+    "patient": "Racallio Ryndoon",
+    "outcome": "fleet granted passage",
+    "quote": "kept him for more than a fortnight in his sprawling wooden fortress",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Alyn's triumphant return / naming Oakenfist",
+  "slugified": "alyns-triumphant-return-naming-oakenfist",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Alyn's triumphant return / naming Oakenfist",
+    "type": "event.other",
+    "year": "",
+    "agent": "Alyn Velaryon",
+    "patient": "",
+    "outcome": "hero's welcome; wins the name Oakenfist",
+    "quote": "\"along with the name that he would carry for the rest of his long life: Oakenfist\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Honoring ceremony / Alyn made master of ships",
+  "slugified": "honoring-ceremony-alyn-made-master-of-ships",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Honoring ceremony / Alyn made master of ships",
+    "type": "event.ceremony",
+    "year": "",
+    "agent": "Unwin Peake",
+    "patient": "Alyn Velaryon",
+    "outcome": "Alyn knighted, chained admiral, seated on the small council",
+    "quote": "\"if his lordship would consent to serve upon his small council, as master of ships\"",
+    "disputed": false
+   }
+  ],
+  "n_rel_rows": 0
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Drowning of Lady Buckler and her daughters",
+  "slugified": "drowning-of-lady-buckler-and-her-daughters",
+  "slug_exists": false,
+  "near_matches": [],
+  "event_rows": [
+   {
+    "event": "Drowning of Lady Buckler and her daughters",
+    "type": "event.death",
+    "year": "",
+    "agent": "",
+    "patient": "Lady Buckler",
+    "outcome": "their boat foundered and sank crossing the river",
+    "quote": "\"Lady Buckler and both her daughters drowned when the boat\"",
+    "disputed": true
+   }
+  ],
+  "n_rel_rows": 0
+ }
+]

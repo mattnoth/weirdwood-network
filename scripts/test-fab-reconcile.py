@@ -432,6 +432,27 @@ def main():
         check("assert_disputed_invariant ignores a non-disputed edge with no in_universe_source",
               False, str(e))
 
+    # --- S208 recovery mode: recover_map overrides win over every routing rule ---
+    rec_router = make_router(smoke=False)
+    rec_router.recover_map = {
+        "Kingsguard": "kingsguard",
+        "Aegon Targaryen": "aegon-i-targaryen",     # blocklist/cluster name — override must win
+        "Death of Queen Helaena": "CREATE",
+    }
+    r = rec_router.route("Kingsguard", "")
+    check("recovery override maps a quarantined name to its slug",
+          r["decision"] == "update" and r.get("slug") == "kingsguard"
+          and r.get("route_reason") == "recovery-override", r)
+    r = rec_router.route("Aegon Targaryen", "the Conqueror")
+    check("recovery override beats blocklist+cluster discrimination",
+          r["decision"] == "update" and r.get("slug") == "aegon-i-targaryen", r)
+    r = rec_router.route("Death of Queen Helaena", kind="event")
+    check("recovery CREATE forces the create path (skips event dedup-risk review)",
+          r["decision"] == "create" and r.get("route_reason") == "recovery-create", r)
+    r = rec_router.route("Criston Cole", "")
+    check("recovery mode: unmapped names still route normally",
+          r["decision"] == "update" and r.get("slug") == "criston-cole", r)
+
     print(f"\n{PASS} passed, {FAIL} failed")
     sys.exit(1 if FAIL else 0)
 

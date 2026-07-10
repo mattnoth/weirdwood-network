@@ -1,0 +1,656 @@
+TOTAL 276 | exact-slug-match 11 | token-subset-match 9 | no-match(clear-to-create) 256
+
+[EXACT|dedup|q=1] 'Coronation of Aegon II' (fab-the-blacks-and-the-greens-16-p01)
+    matches=['coronation-of-aegon-ii']
+    type=event.coronation yr=129 agent=Criston Cole patient=Aegon II Targaryen out=Aegon crowned Second of His Name; Helaena crowned 
+[EXACT|dedup|q=1] 'Death of Aegon II' (fab-short-sad-reign-of-aegon-ii-19)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i', 'death-of-aegon-ii']
+    type=event.death yr= agent=Larys Strong patient=Aegon II Targaryen out=king poisoned in his Arbor red; poisoner debated
+[EXACT|dedup|q=1] 'Death of Maelor Targaryen' (fab-the-red-dragon-and-the-gold-17-p03)
+    matches=['death-of-maelor-targaryen']
+    type=event.death yr= agent=Willow Pound-Stone patient=Maelor Targaryen out=prince dead; Mushroom's account
+[EXACT|dedup|q=1] 'Death of Marston Waters' (fab-the-lysene-spring-24-p02)
+    matches=['death-of-marston-waters']
+    type=event.death yr= agent=Mervyn Flowers patient=Marston Waters out=Waters dies of the belly wound that night
+[EXACT|dedup|q=1] 'Death of Meraxes' (fab-reign-of-the-dragon-04)
+    matches=['death-of-meraxes']
+    type=event.death yr=10 AC agent= patient=Meraxes out=dragon killed; tower and wall destroyed
+[EXACT|dedup|q=1] 'Death of Prince Valerion' (fab-the-long-reign-cont-14-p02)
+    matches=['death-of-prince-valerion']
+    type=event.death yr=78 agent= patient=Valerion out=dies short of first nameday
+[EXACT|dedup|q=1] 'Death of Rhaenys Targaryen' (fab-reign-of-the-dragon-04)
+    matches=['death-of-rhaenys-targaryen']
+    type=event.death yr=10 AC agent= patient=Rhaenys Targaryen out=queen perished; manner unknown
+[EXACT|dedup|q=1] 'Death of Rhaenys Targaryen' (fab-the-red-dragon-and-the-gold-17-p01)
+    matches=['death-of-rhaenys-targaryen']
+    type=event.death yr=129 agent=Aemond Targaryen patient=Rhaenys Targaryen out=the Queen Who Never Was died in the fall
+[EXACT|dedup|q=1] 'Death of Tyland Lannister' (fab-the-hooded-hand-21)
+    matches=['death-of-tyland-lannister']
+    type=event.death yr=133 agent=Winter Fever patient=Tyland Lannister out=the Hand died after the worst had passed
+[EXACT|dedup|q=1] 'Wedding of Aegon III and Jaehaera' (fab-short-sad-reign-of-aegon-ii-19)
+    matches=['wedding-of-aegon-iii-and-jaehaera']
+    type=event.wedding yr=131 agent= patient= out=rival Targaryen branches united
+[EXACT|dedup|q=1] 'Yielding of the Red Keep' (fab-prince-into-king-06)
+    matches=['yielding-of-the-red-keep']
+    type=event.surrender yr=48 agent=Jaehaerys I Targaryen patient= out=Three loyal lords chained
+[SUBSET|dedup|q=1] 'Accession of Viserys I' (fab-heirs-of-the-dragon-15-p01)
+    matches=['tourney-for-king-viserys-is-accession']
+    type=event.coronation yr=103 agent=Viserys I Targaryen patient= out=grandson mounts the Iron Throne as King Viserys I
+[SUBSET|dedup|q=1] 'Completion of the Dragonpit' (fab-jaehaerys-and-alysanne-dragonstone-11)
+    matches=['tourney-for-the-completion-of-the-dragonpit']
+    type=event.construction yr=54 agent= patient=Dragonpit out=dome and bronze gates finished
+[SUBSET|dedup|q=1] 'Death of Jaehaerys I' (fab-heirs-of-the-dragon-15-p01)
+    matches=['death-of-daella-targaryen-daughter-of-jaehaerys-i', 'death-of-prince-aegon-son-of-jaehaerys-i', 'death-of-daenerys-targaryen-daughter-of-jaehaerys-i']
+    type=event.death yr=103 agent=Jaehaerys I Targaryen patient= out=Old King dies at nine-and-sixty; burned in the Dra
+[SUBSET|dedup|q=1] 'Death of Maegor' (fab-sons-of-the-dragon-05-p03)
+    matches=['death-of-maegor-towers', 'death-of-maegor-i-targaryen']
+    type=event.death yr=48 agent= patient=Maegor I Targaryen out=found dead upon the Iron Throne
+[SUBSET|dedup|q=1] 'Death of Walton Stark' (fab-surfeit-of-rulers-08-p02)
+    matches=['death-of-brandon-stark-father-of-walton']
+    type=event.death yr=50 agent=Giants patient=Walton Stark out=slew two giants, then torn apart
+[SUBSET|dedup|q=1] 'The green council' (fab-the-blacks-and-the-greens-16-p01)
+    matches=['green-council-peace-embassy-to-dragonstone', 'green-council-conceals-death-of-viserys']
+    type=event.council yr=129 agent=Otto Hightower patient= out=greens resolve to crown Aegon and set Rhaenyra asi
+[SUBSET|dedup|q=1] 'Tourney at Duskendale' (fab-the-long-reign-cont-14-p02)
+    matches=['tourney-at-duskendale-in-honor-of-lord-darklyns-wedding']
+    type=event.tourney yr=72 agent= patient= out=Aemon wins his knight's spurs
+[SUBSET|dedup|q=1] 'Wedding of Jaehaerys and Alysanne' (fab-year-of-the-three-brides-07)
+    matches=['wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen']
+    type=event.marriage yr=49 agent=Jaehaerys Targaryen patient=Alysanne Targaryen out=Secret sibling marriage, unconsummated
+[SUBSET|dedup|q=1] 'Wedding of Rhaena and Androw Farman' (fab-year-of-the-three-brides-07)
+    matches=['wedding-of-rhaena-targaryen-and-androw-farman']
+    type=event.marriage yr=49 agent=Rhaena Targaryen patient=Androw Farman out=Rhaena weds a third time in secret
+[CLEAR|dedup|q=1] 'Aegon III assumes personal rule' (fab-the-lysene-spring-24-p02)
+    type=event.coronation yr= agent=Aegon III Targaryen patient=Torrhen Manderly out=king dismisses regents and Hand; progress cancelle
+[CLEAR|dedup|q=1] "Aegon's first coronation" (fab-aegons-conquest-03)
+    matches=['coronation-of-aegon-ii']
+    type=event.coronation yr= agent=Visenya Targaryen; Rhaeny patient=Aegon I Targaryen out=crowned King of All Westeros
+[CLEAR|composite|q=1] 'Aemond claims Vhagar and loses an eye' (fab-heirs-of-the-dragon-15-p03)
+    matches=['aemond-loses-his-eye-at-driftmark']
+    type=event.other yr=120 agent=Aemond Targaryen patient= out=Aemond becomes a dragonrider; Luke takes his right
+[CLEAR|composite|q=1] 'Aerea steals Balerion and flees Dragonstone' (fab-jaehaerys-and-alysanne-dragonstone-11)
+    type=event.theft yr=54 agent=Aerea Targaryen patient=Balerion out=Aerea claims Balerion and vanishes
+[CLEAR|composite|q=1] "Alyn's triumphant return / naming Oakenfist" (fab-war-and-peace-and-cattle-shows-22-p01)
+    type=event.other yr= agent=Alyn Velaryon patient= out=hero's welcome; wins the name Oakenfist
+[CLEAR|dedup|q=1] "Alysanne's visit to Castle Black" (fab-jaehaerys-and-alysanne-triumphs-12-p02)
+    type=event.visit yr=58 agent=Alysanne Targaryen patient= out=
+[CLEAR|dedup|q=1] "Alyssa's flight from Dragonstone" (fab-surfeit-of-rulers-08-p01)
+    type=event.escape yr=44 agent=Alyssa Velaryon patient= out=fled with Jaehaerys and Alysanne after Visenya's d
+[CLEAR|dedup|q=1] 'Ambush on the Boneway' (fab-reign-of-the-dragon-04)
+    type=event.battle yr=4 AC agent=Wyl of Wyl patient=Orys Baratheon out=stormlanders butchered; Orys captured
+[CLEAR|dedup|q=1] 'Ascension of Jaehaerys to the Iron Throne' (fab-prince-into-king-06)
+    type=event.ascension yr=48 agent=Jaehaerys I Targaryen patient= out=Boy king enthroned under regency
+[CLEAR|dedup|q=1] "Attack on Sunfyre at Rook's Rest" (fab-the-red-dragon-and-the-gold-17-p02)
+    type=event.battle yr= agent=Walys Mooton patient=Sunfyre out=Mooton and threescore killed, Sunfyre survived and
+[CLEAR|composite|q=1] 'Battle against Darklyn and Mooton' (fab-aegons-conquest-03)
+    type=event.battle yr= agent=Aegon I Targaryen patient=Lord Darklyn; Lord Mooton out=both lords slain, castles yielded
+[CLEAR|dedup|q=1] 'Battle at Stonehelm' (fab-sons-of-the-dragon-05-p01)
+    type=event.battle yr= agent=Orys Baratheon patient=Walter Wyl out=Dornish host smashed
+[CLEAR|dedup|q=1] 'Battle at the Gate of the Gods' (fab-the-lysene-spring-24-p02)
+    matches=['battle-beneath-the-gods-eye', 'battle-above-the-gods-eye']
+    type=event.battle yr= agent= patient=Lucas Leygood out=nine dead, Leygood slain
+[CLEAR|dedup|q=1] 'Battle at the Great Fork of the Blackwater' (fab-sons-of-the-dragon-05-p02)
+    matches=['battle-at-the-great-fork']
+    type=event.battle yr= agent=Maegor Targaryen patient=Poor Fellows out=king victorious by nightfall
+[CLEAR|dedup|q=1] 'Battle at the Wailing Willows' (fab-aegons-conquest-03)
+    matches=['wailing-willows']
+    type=event.battle yr= agent=Harren Hoare patient=Aegon I Targaryen out=heavy Targaryen losses
+[CLEAR|dedup|q=1] 'Battle by the Lakeshore (the Fishfeed)' (fab-the-red-dragon-and-the-gold-17-p02)
+    matches=['battle-by-the-lakeshore']
+    type=event.battle yr= agent=Roderick Dustin patient=Humfrey Lefford out=Lannister host shattered, two thousand dead
+[CLEAR|composite|q=1] 'Battle of Sunfyre and Moondancer' (fab-rhaenyra-overthrown-18-p02)
+    type=event.battle yr= agent=Sunfyre patient=Moondancer out=Moondancer slain, Aegon shattered both legs
+[CLEAR|dedup|q=1] 'Battle of the Kingsroad (Muddy Mess)' (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.battle yr= agent=Kermit Tully patient=Borros Baratheon out=riverlords crush the stormlanders; last battle of 
+[CLEAR|dedup|q=1] 'Battle of the Stepstones' (fab-war-and-peace-and-cattle-shows-22-p01)
+    type=event.battle yr= agent=Alyn Velaryon patient=Sealord of Braavos out=Velaryon victory; over thirty ships sunk, Grand De
+[CLEAR|dedup|q=1] 'Bedding of Jaehaerys and Alysanne' (fab-time-of-testing-09)
+    matches=['wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen']
+    type=event.other yr= agent=Alysanne Targaryen patient= out=union consummated for all time
+[CLEAR|dedup|q=1] 'Beginning of the kingsroad' (fab-the-long-reign-cont-14-p01)
+    type=event.decree yr=62 agent=Jaehaerys Targaryen patient= out=road-building project begun
+[CLEAR|dedup|q=1] 'Betrothal of Aegon III and Daenaera Velaryon' (fab-war-and-peace-and-cattle-shows-22-p02)
+    type=event.betrothal yr= agent=Aegon III patient=Daenaera Velaryon out=king chose the six-year-old; Peake sought to set i
+[CLEAR|dedup|q=1] 'Betrothal of Aegon III and Myrielle Peake' (fab-war-and-peace-and-cattle-shows-22-p02)
+    type=event.betrothal yr= agent=Unwin Peake patient=Myrielle Peake out=announced by the Hand; opposed by the regents and 
+[CLEAR|composite|q=1] 'Betrothal of Aemon and Jocelyn' (fab-the-long-reign-cont-14-p02)
+    type=event.betrothal yr=68 agent=Alysanne patient=Aemon out=firstborn son betrothed to Jocelyn
+[CLEAR|composite|q=1] 'Betrothal of Cregan Stark and Black Aly' (fab-hour-of-the-wolf-20)
+    type=event.betrothal yr=131 agent=Cregan Stark patient=Alysanne Blackwood out=a hand for a head
+[CLEAR|composite|q=1] 'Betrothals of Jennis Templeton and Prunella Celtigar' (fab-jaehaerys-and-alysanne-triumphs-12-p01)
+    type=event.wedding yr=55 agent=Alysanne Targaryen patient= out=two Wise Women matched to lords
+[CLEAR|dedup|q=1] 'Birth and death of Prince Aegon' (fab-birth-death-and-betrayal-10)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i']
+    type=event.death yr= agent= patient=Aegon Targaryen (son of J out=Born too early, died three days after birth
+[CLEAR|dedup|q=1] 'Birth and death of Prince Gaemon' (fab-the-long-reign-cont-14-p02)
+    type=event.death yr=73 agent= patient=Gaemon out=infant born and dies within three moons
+[CLEAR|composite|q=1] 'Birth and death of Vaella' (fab-sons-of-the-dragon-05-p01)
+    type=event.death yr=39 agent=Alyssa Velaryon patient=Vaella Targaryen out=infant dies in the cradle
+[CLEAR|dedup|q=1] 'Birth of Aegon Targaryen (son of Baelon)' (fab-the-long-reign-cont-14-p03)
+    matches=['birth-of-aegon-ii-targaryen', 'birth-of-aegon-son-of-aenys', 'birth-of-aemon-targaryen-son-of-jaehaerys-i', 'birth-of-aemon-targaryen-son-of-viserys-ii']
+    type=event.birth yr=84 agent=Alyssa Targaryen patient=Aegon Targaryen (son of B out=third son, after long difficult labor
+[CLEAR|dedup|q=1] 'Birth of Aegon the Younger' (fab-heirs-of-the-dragon-15-p03)
+    matches=['birth-of-aegon-ii-targaryen', 'birth-of-aegon-son-of-aenys']
+    type=event.birth yr=120 agent=Rhaenyra Targaryen patient=Aegon the Younger out=Daemon's first living trueborn son
+[CLEAR|dedup|q=1] 'Birth of Aemond' (fab-heirs-of-the-dragon-15-p02)
+    type=event.birth yr=110 agent=Alicent Hightower patient=Aemond Targaryen out=second son born
+[CLEAR|composite|q=1] 'Birth of Aerea and Rhaella' (fab-sons-of-the-dragon-05-p02)
+    type=event.birth yr= agent=Rhaena Targaryen patient=Aerea Targaryen; Rhaella  out=twin daughters of Aegon born
+[CLEAR|composite|q=1] 'Birth of Baela and Rhaena' (fab-heirs-of-the-dragon-15-p03)
+    type=event.birth yr=116 agent=Laena Velaryon patient=Baela Targaryen out=Daemon's first trueborn children
+[CLEAR|dedup|q=1] 'Birth of Baelon Targaryen' (fab-jaehaerys-and-alysanne-triumphs-12-p02)
+    matches=['birth-of-aegon-ii-targaryen', 'birth-of-maegor-i-targaryen', 'birth-of-rhaenys-targaryen-daughter-of-aemon', 'birth-of-aenys-targaryen']
+    type=event.birth yr=57 agent= patient=Baelon Targaryen out=dubbed the Spring Prince
+[CLEAR|dedup|q=1] "Birth of Coryanne Wylde's bastard son" (fab-surfeit-of-rulers-08-p01)
+    type=event.birth yr=48 agent=Coryanne Wylde patient=bastard boy out=boy sent to Storm's End to be fostered
+[CLEAR|dedup|q=1] 'Birth of Daemon Targaryen' (fab-the-long-reign-cont-14-p03)
+    matches=['birth-of-aegon-ii-targaryen', 'birth-of-maegor-i-targaryen', 'birth-of-rhaenys-targaryen-daughter-of-aemon', 'birth-of-aenys-targaryen']
+    type=event.birth yr=81 agent=Alyssa Targaryen patient=Daemon Targaryen out=second son of Baelon and Alyssa
+[CLEAR|dedup|q=1] 'Birth of Daeron' (fab-heirs-of-the-dragon-15-p02)
+    type=event.birth yr=114 agent=Alicent Hightower patient=Daeron Targaryen (son of  out=third son born
+[CLEAR|dedup|q=1] 'Birth of Helaena' (fab-heirs-of-the-dragon-15-p02)
+    type=event.birth yr=109 agent=Alicent Hightower patient=Helaena Targaryen out=daughter born
+[CLEAR|dedup|q=1] 'Birth of Jacaerys' (fab-heirs-of-the-dragon-15-p02)
+    type=event.birth yr=114 agent=Rhaenyra Targaryen patient=Jacaerys Velaryon out=son born
+[CLEAR|composite|q=1] 'Birth of Jaehaerys and Jaehaera' (fab-heirs-of-the-dragon-15-p03)
+    matches=['birth-of-aemon-targaryen-son-of-jaehaerys-i', 'birth-of-daenerys-targaryen-daughter-of-jaehaerys-i', 'birth-of-daella-targaryen-daughter-of-jaehaerys-i']
+    type=event.birth yr=123 agent=Helaena Targaryen patient=Jaehaerys (son of Aegon t out=twins, both imperfect
+[CLEAR|dedup|q=1] 'Birth of Maelor Targaryen' (fab-heirs-of-the-dragon-15-p03)
+    matches=['birth-of-aegon-ii-targaryen', 'birth-of-maegor-i-targaryen', 'death-of-maelor-targaryen', 'birth-of-rhaenys-targaryen-daughter-of-aemon']
+    type=event.birth yr=127 agent=Helaena Targaryen patient=Maelor Targaryen out=Aegon's second son
+[CLEAR|dedup|q=1] 'Birth of Prince Aegon (son of Viserys)' (fab-the-lysene-spring-24-p01)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i', 'birth-of-aegon-son-of-aenys', 'birth-of-aemon-targaryen-son-of-viserys-ii']
+    type=event.birth yr=135 agent=Larra Rogare patient=Aegon Targaryen (son of V out=Viserys's firstborn, anointed into the Faith
+[CLEAR|dedup|q=1] 'Birth of Prince Viserys' (fab-heirs-of-the-dragon-15-p03)
+    matches=['ransom-pact-for-prince-viserys', 'birth-of-prince-vaegon', 'capture-of-prince-viserys', 'birth-of-prince-valerion']
+    type=event.birth yr=122 agent=Rhaenyra Targaryen patient=Viserys (son of Rhaenyra) out=precocious; his egg never hatched
+[CLEAR|dedup|q=1] 'Birth of Prince Viserys' (fab-the-long-reign-cont-14-p02)
+    matches=['ransom-pact-for-prince-viserys', 'birth-of-prince-vaegon', 'capture-of-prince-viserys', 'birth-of-prince-valerion']
+    type=event.birth yr=77 agent= patient=Viserys out=Baelon and Alyssa's son born
+[CLEAR|dedup|q=1] 'Birth of Rhaena Targaryen' (fab-sons-of-the-dragon-05-p01)
+    matches=['birth-of-aegon-ii-targaryen', 'birth-of-maegor-i-targaryen', 'birth-of-rhaenys-targaryen-daughter-of-aemon', 'birth-of-aenys-targaryen']
+    type=event.birth yr=23 agent=Alyssa Velaryon patient=Rhaena Targaryen out=first daughter born
+[CLEAR|composite|q=1] 'Braavos embassy and peace' (fab-war-and-peace-and-cattle-shows-22-p01)
+    matches=['green-council-peace-embassy-to-dragonstone', 'peace-with-the-sealord-of-braavos']
+    type=event.treaty yr= agent=Manfryd Mooton patient=Sealord of Braavos out=Braavos cedes the Stepstones and dissolves its Tyr
+[CLEAR|composite|q=1] 'Bracken and Blackwood sons duel over Rhaenyra' (fab-heirs-of-the-dragon-15-p02)
+    type=event.duel yr=112 agent= patient= out=duel fought
+[CLEAR|dedup|q=1] "Building of King's Landing's walls" (fab-reign-of-the-dragon-04)
+    type=event.other yr=20-26 AC agent=Aegon I Targaryen patient= out=walls with seven gates raised
+[CLEAR|dedup|q=1] 'Burning of Poxy Jeyne Poore' (fab-sons-of-the-dragon-05-p03)
+    matches=['burning-of-jeyne-poore']
+    type=event.execution yr= agent=Maegor I Targaryen patient=Poxy Jeyne Poore out=burned alive; rescuers slaughtered
+[CLEAR|dedup|q=1] 'Burning of the Shepherd and the barefoot lambs' (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.death yr=130 agent=Aegon II Targaryen patient=Shepherd out=241 followers burned; Shepherd lit by the king's h
+[CLEAR|dedup|q=1] 'Capture of Nightsong' (fab-reign-of-the-dragon-04)
+    type=event.battle yr=10 AC agent=Lord Fowler patient=Lord Caron out=castle torched; Caron carried captive
+[CLEAR|dedup|q=1] 'Capture of Tessario' (fab-the-lysene-spring-24-p02)
+    type=event.capture yr= agent= patient=Tessario out=taken in a dockside tavern
+[CLEAR|dedup|q=1] 'Closing of the Gullet' (fab-the-blacks-and-the-greens-16-p02)
+    type=event.blockade yr= agent=Corlys Velaryon patient=King's Landing out=trade to King's Landing choked off
+[CLEAR|dedup|q=1] 'Compact of White Harbor' (fab-the-blacks-and-the-greens-16-p02)
+    matches=['wyman-publicly-arrests-davos-at-white-harbor', 'execution-of-davos-lookalike-at-white-harbor']
+    type=event.betrothal yr= agent=Jacaerys Velaryon patient=Desmond Manderly out=Joffrey to wed a Manderly daughter after the war
+[CLEAR|dedup|q=1] 'Completion of the Red Keep' (fab-sons-of-the-dragon-05-p03)
+    matches=['yielding-of-the-red-keep', 'joffrey-recalled-to-the-red-keep', 'wedding-feast-at-the-red-keep']
+    type=event.construction yr=45 agent=Maegor I Targaryen patient= out=castle finished; workmen slain
+[CLEAR|dedup|q=1] 'Coronation of Aegon III' (fab-the-hooded-hand-21)
+    matches=['aegon-iii-dismisses-the-regents-and-hand', 'coronation-of-aegon-ii', 'wedding-of-aegon-iii-and-jaehaera', 'regency-of-aegon-iii']
+    type=event.coronation yr=131 agent=Aegon III patient= out=Aegon crowned the Third of His Name
+[CLEAR|dedup|q=1] 'Coronation of Aenys I' (fab-sons-of-the-dragon-05-p01)
+    type=event.coronation yr=37 agent=Grand Maester Gawen patient=Aenys Targaryen (Aenys I) out=Aenys crowned king
+[CLEAR|dedup|q=1] 'Coronation of Maegor' (fab-sons-of-the-dragon-05-p02)
+    type=event.coronation yr=42 agent=Visenya Targaryen patient=Maegor Targaryen out=Maegor proclaimed First of His Name
+[CLEAR|dedup|q=1] 'Coryanne Wylde flees Dragonstone' (fab-surfeit-of-rulers-08-p02)
+    type=event.flight yr=50 agent=Coryanne Wylde patient= out=fled by night with Ser Howard Bullock
+[CLEAR|dedup|q=1] 'Creation of the gold cloaks' (fab-heirs-of-the-dragon-15-p01)
+    matches=['gold-cloaks-demand-gendry', 'gold-cloaks-betray-ned']
+    type=event.reform yr= agent=Daemon Targaryen patient=City Watch out=Watch armored and cloaked in gold
+[CLEAR|dedup|q=1] "Cregan Stark made King's Hand" (fab-hour-of-the-wolf-20)
+    type=event.appointment yr=131 agent=Aegon III Targaryen patient=Cregan Stark out=Stark given full authority to act
+[CLEAR|dedup|q=1] 'Crowning of Trystane' (fab-rhaenyra-overthrown-18-p01)
+    type=event.coronation yr= agent=Perkin the Flea patient=Trystane out=squire crowned king
+[CLEAR|dedup|q=1] 'Daemon crowned King of the Stepstones' (fab-heirs-of-the-dragon-15-p02)
+    type=event.coronation yr=109 agent=Corlys Velaryon patient=Daemon Targaryen out=Daemon styled king
+[CLEAR|composite|q=1] 'Daemon returns and reconciles with Viserys' (fab-heirs-of-the-dragon-15-p02)
+    type=event.reconciliation yr=111 agent=Daemon Targaryen patient=Viserys I Targaryen out=crown offered and returned
+[CLEAR|dedup|q=1] "Daeron I's conquest of Dorne" (fab-lineages-and-family-tree-25)
+    matches=['conquest-of-dorne', 'lord-wyl-conquest-of-dorne']
+    type=event.conquest yr=157-161 agent=Daeron I patient= out=Dorne conquered but not held; Daeron died young
+[CLEAR|dedup|q=1] "Daughters' War ends" (fab-the-lysene-spring-24-p01)
+    matches=['daughters-war']
+    type=event.other yr= agent= patient= out=Lys, Tyrosh, Myr divide the Disputed Lands; Dorne 
+[CLEAR|dedup|q=1] 'Death of Aegon I Targaryen' (fab-sons-of-the-dragon-05-p01)
+    matches=['death-of-daella-targaryen-daughter-of-jaehaerys-i', 'death-of-prince-aegon-son-of-jaehaerys-i', 'birth-of-aegon-ii-targaryen', 'death-of-maelor-targaryen']
+    type=event.death yr=37 agent= patient=Aegon I Targaryen out=king dies of a stroke
+[CLEAR|dedup|q=1] 'Death of Aegon the Uncrowned' (fab-sons-of-the-dragon-05-p03)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i', 'aegon-the-uncrowned-seizes-kings-landing', 'death-of-aegon-ii']
+    type=event.death yr=43 agent=Maegor I Targaryen patient=Aegon Targaryen (the Uncr out=Prince of Dragonstone killed
+[CLEAR|dedup|q=1] 'Death of Aerea Targaryen' (fab-jaehaerys-and-alysanne-triumphs-12-p02)
+    matches=['death-of-daella-targaryen-daughter-of-jaehaerys-i', 'death-of-princess-aerea', 'death-of-maelor-targaryen', 'death-of-rhaenys-targaryen']
+    type=event.death yr= agent= patient=Aerea Targaryen out=died and was burned
+[CLEAR|dedup|q=1] 'Death of Alaric Stark' (fab-the-long-reign-cont-14-p02)
+    matches=['death-of-brandon-stark-father-of-walton', 'alaric-stark-becomes-lord-of-winterfell']
+    type=event.death yr=72 agent= patient=Alaric Stark out=Lord of Winterfell dies; grandson Edric succeeds
+[CLEAR|dedup|q=1] 'Death of Androw Farman' (fab-jaehaerys-and-alysanne-dragonstone-11)
+    matches=['wedding-of-rhaena-targaryen-and-androw-farman']
+    type=event.death yr=54 agent=Androw Farman patient=Androw Farman out=leaps from window, body fed to dragons
+[CLEAR|dedup|q=1] 'Death of Balerion' (fab-the-long-reign-cont-14-p04)
+    type=event.death yr= agent= patient=Balerion out=the old dragon died
+[CLEAR|dedup|q=1] 'Death of Bold Jon Roxton' (fab-rhaenyra-overthrown-18-p02)
+    type=event.death yr= agent=Hugh Hammer's men patient=Jon Roxton out=Roxton slew three before being slain
+[CLEAR|dedup|q=1] 'Death of Borros Baratheon' (fab-short-sad-reign-of-aegon-ii-19)
+    matches=['death-of-robert-baratheon', 'death-of-joffrey-baratheon']
+    type=event.death yr= agent=Kermit Tully patient=Borros Baratheon out=Lord of Storm's End killed refusing to yield
+[CLEAR|dedup|q=1] 'Death of Borys Baratheon' (fab-the-long-reign-cont-14-p01)
+    matches=['death-of-robert-baratheon', 'death-of-joffrey-baratheon']
+    type=event.death yr=61 agent=Jaehaerys Targaryen patient=Borys Baratheon out=slain in single combat
+[CLEAR|dedup|q=1] 'Death of Desmond and Medrick Manderly' (fab-the-hooded-hand-21)
+    type=event.death yr=132 agent=Winter Fever patient=Desmond Manderly out=Lord and heir dead, lordship to Torrhen
+[CLEAR|dedup|q=1] 'Death of Dreamfyre' (fab-rhaenyra-overthrown-18-p01)
+    type=event.death yr= agent=the Shepherd's mob patient=Dreamfyre out=dragon crushed as dome fell
+[CLEAR|dedup|q=1] 'Death of Elmo Tully' (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.death yr= agent= patient=Elmo Tully out=dies after forty-nine days as Lord of Riverrun
+[CLEAR|dedup|q=1] 'Death of Grand Maester Mellos' (fab-heirs-of-the-dragon-15-p03)
+    type=event.death yr= agent= patient=Mellos out=collapsed on the serpentine steps
+[CLEAR|dedup|q=1] 'Death of Grey Ghost' (fab-the-red-dragon-and-the-gold-17-p04)
+    type=event.death yr= agent=Cannibal patient=Grey Ghost out=dragon torn in two and partly devoured
+[CLEAR|dedup|q=1] 'Death of Grover Tully' (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.death yr= agent= patient=Grover Tully out=aged lord dies (apoplexy, per Mushroom)
+[CLEAR|dedup|q=1] 'Death of Harren the Red' (fab-sons-of-the-dragon-05-p01)
+    type=event.death yr= agent=Bernarr Brune patient=Harren the Red out=outlaw king cut down
+[CLEAR|dedup|q=1] 'Death of King Aenys' (fab-sons-of-the-dragon-05-p02)
+    matches=['funeral-of-king-aenys', 'death-of-aenys-i-targaryen']
+    type=event.death yr=42 agent= patient=Aenys Targaryen out=king dead after collapse
+[CLEAR|dedup|q=1] 'Death of King Viserys I' (fab-heirs-of-the-dragon-15-p03)
+    matches=['green-council-conceals-death-of-viserys', 'tourney-for-king-viserys-is-accession', 'death-of-viserys-i']
+    type=event.death yr=129 agent= patient=Viserys I Targaryen out=died in his sleep at fifty-two; the Dance begins
+[CLEAR|dedup|q=1] 'Death of King Viserys I' (fab-the-blacks-and-the-greens-16-p01)
+    matches=['green-council-conceals-death-of-viserys', 'tourney-for-king-viserys-is-accession', 'death-of-viserys-i']
+    type=event.death yr=129 agent= patient=Viserys I Targaryen out=king found dead in his bed; greens conceal the new
+[CLEAR|dedup|q=1] 'Death of Lady Floris' (fab-the-lysene-spring-24-p01)
+    matches=['cersei-maneuvers-for-lady-s-death']
+    type=event.death yr=135 agent= patient=Floris Baratheon out=died in childbirth
+[CLEAR|dedup|q=1] 'Death of Lady Jeyne Arryn' (fab-the-lysene-spring-24-p01)
+    type=event.death yr=134 agent= patient=Jeyne Arryn out=Vale succession disputed
+[CLEAR|dedup|q=1] 'Death of Lady Mysaria' (fab-rhaenyra-overthrown-18-p01)
+    matches=['cersei-maneuvers-for-lady-s-death']
+    type=event.execution yr= agent=Perkin the Flea patient=Mysaria out=White Worm whipped to death
+[CLEAR|dedup|q=1] 'Death of Lady Rhea Royce' (fab-heirs-of-the-dragon-15-p03)
+    type=event.death yr=115 agent= patient=Rhea Royce out=Runestone passed to her nephew, not Daemon
+[CLEAR|dedup|q=1] 'Death of Lodos' (fab-reign-of-the-dragon-04)
+    type=event.death yr=2 AC agent=Lodos patient=Lodos out=priest-king drowns himself; thousands follow
+[CLEAR|dedup|q=1] 'Death of Lord Footly' (fab-the-red-dragon-and-the-gold-17-p04)
+    matches=['lord-nestor-and-the-knights-call-for-marillion-s-death']
+    type=event.death yr= agent=Jon Roxton patient=Lord Footly out=Lord of Tumbleton slain
+[CLEAR|dedup|q=1] 'Death of Lord Lyman Beesbury' (fab-the-blacks-and-the-greens-16-p01)
+    type=event.death yr=129 agent=Criston Cole patient=Lyman Beesbury out=first blood of the Dance; manner disputed among so
+[CLEAR|dedup|q=1] 'Death of Lord Marq Farman' (fab-surfeit-of-rulers-08-p02)
+    type=event.death yr= agent= patient=Marq Farman out=choked to death at his table, aged 46
+[CLEAR|dedup|q=1] 'Death of Maegor on the Iron Throne' (fab-prince-into-king-06)
+    matches=['maegor-claims-the-iron-throne']
+    type=event.death yr=48 agent= patient=Maegor I Targaryen out=Found dead; body burned
+[CLEAR|dedup|q=1] 'Death of Meria Martell' (fab-reign-of-the-dragon-04)
+    matches=['death-of-quentyn-martell', 'rhaenyss-parley-with-meria-martell']
+    type=event.death yr=13 AC agent= patient=Meria Martell out=Yellow Toad dies of age abed
+[CLEAR|dedup|q=1] 'Death of Morghul' (fab-rhaenyra-overthrown-18-p01)
+    type=event.death yr= agent=the Burning Knight patient=Morghul out=dragon slain through the eye
+[CLEAR|dedup|q=1] 'Death of Prince Aegon (son of Baelon)' (fab-the-long-reign-cont-14-p03)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i']
+    type=event.death yr= agent= patient=Aegon Targaryen (son of B out=died before his first nameday
+[CLEAR|dedup|q=1] 'Death of Prince Aemon' (fab-heirs-of-the-dragon-15-p01)
+    matches=['aemon-named-prince-of-dragonstone', 'death-of-prince-aegon-son-of-jaehaerys-i', 'death-of-maester-aemon', 'death-of-prince-valerion']
+    type=event.death yr=92 agent=Myrish crossbowman patient=Aemon Targaryen out=heir to the throne slain; succession thrown in dou
+[CLEAR|dedup|q=1] 'Death of Prince Aemon' (fab-the-long-reign-cont-14-p04)
+    matches=['aemon-named-prince-of-dragonstone', 'death-of-prince-aegon-son-of-jaehaerys-i', 'death-of-maester-aemon', 'death-of-prince-valerion']
+    type=event.death yr=92 agent= patient=Aemon Targaryen out=slain by a stray bolt
+[CLEAR|dedup|q=1] 'Death of Prince Baelon' (fab-heirs-of-the-dragon-15-p01)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i', 'death-of-the-infant-baelon', 'death-of-prince-valerion']
+    type=event.death yr=101 agent=Baelon Targaryen patient= out=heir apparent dies of burst belly; succession in d
+[CLEAR|dedup|q=1] 'Death of Prince Daeron Targaryen' (fab-rhaenyra-overthrown-18-p02)
+    type=event.death yr= agent=Black Trombo patient=Daeron Targaryen out=prince slain; three conflicting accounts
+[CLEAR|dedup|q=1] 'Death of Prince Joffrey' (fab-rhaenyra-overthrown-18-p01)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i', 'death-of-joffrey-baratheon', 'jaime-questions-the-kingsguard-about-joffrey-s-death', 'death-of-prince-valerion']
+    type=event.death yr= agent=Syrax patient=Joffrey Velaryon out=prince fell two hundred feet and died
+[CLEAR|dedup|q=1] 'Death of Prince Viserys' (fab-sons-of-the-dragon-05-p03)
+    matches=['ransom-pact-for-prince-viserys', 'death-of-prince-aegon-son-of-jaehaerys-i', 'green-council-conceals-death-of-viserys', 'capture-of-prince-viserys']
+    type=event.death yr=44 agent=Maegor I Targaryen patient=Viserys Targaryen out=died after nine days of questioning
+[CLEAR|dedup|q=1] 'Death of Princess Daenerys' (fab-the-long-reign-cont-14-p01)
+    matches=['death-of-princess-aerea', 'death-of-princess-viserra', 'death-of-daenerys-targaryen-daughter-of-jaehaerys-i', 'death-of-princess-gael']
+    type=event.death yr=60 agent=Shivers patient=Daenerys Targaryen out=princess dead at age six
+[CLEAR|dedup|q=1] 'Death of Queen Aemma in childbed' (fab-heirs-of-the-dragon-15-p02)
+    type=event.death yr=105 agent= patient=Aemma Arryn out=queen dies
+[CLEAR|dedup|q=1] 'Death of Queen Alysanne' (fab-the-long-reign-cont-14-p04)
+    matches=['attack-on-queen-alysanne-at-jonquils-pool', 'death-of-queen-rhaenyra']
+    type=event.death yr=100 agent= patient=Alysanne Targaryen out=died aged sixty-four
+[CLEAR|dedup|q=1] 'Death of Queen Alyssa in childbirth' (fab-jaehaerys-and-alysanne-dragonstone-11)
+    type=event.death yr=54 agent= patient=Queen Alyssa out=Alyssa dies, child cut from her
+[CLEAR|dedup|q=1] 'Death of Queen Ceryse' (fab-sons-of-the-dragon-05-p03)
+    matches=['death-of-queen-rhaenyra']
+    type=event.death yr=45 agent=Maegor I Targaryen patient=Ceryse Hightower out=died; rumored murder
+[CLEAR|dedup|q=1] 'Death of Queen Helaena' (fab-rhaenyra-overthrown-18-p01)
+    matches=['death-of-helaena-targaryen', 'death-of-queen-rhaenyra']
+    type=event.death yr= agent=Helaena Targaryen patient=Helaena Targaryen out=queen dead, impaled through the throat
+[CLEAR|dedup|q=1] 'Death of Queen Jaehaera' (fab-voyage-of-alyn-oakenfist-23)
+    matches=['death-of-jaehaera-targaryen', 'death-of-queen-rhaenyra']
+    type=event.death yr= agent= patient=Jaehaera out=king freed to remarry
+[CLEAR|dedup|q=1] 'Death of Queen Jaehaera' (fab-war-and-peace-and-cattle-shows-22-p02)
+    matches=['death-of-jaehaera-targaryen', 'death-of-queen-rhaenyra']
+    type=event.death yr=133 agent= patient=Jaehaera Targaryen out=fell from a window onto the spikes; suicide or mur
+[CLEAR|dedup|q=1] 'Death of Queen Rhaena' (fab-the-long-reign-cont-14-p02)
+    matches=['death-of-queen-rhaenyra']
+    type=event.death yr=73 agent= patient=Queen Rhaena out=Queen Rhaena dies
+[CLEAR|dedup|q=1] 'Death of Queen Visenya' (fab-sons-of-the-dragon-05-p03)
+    matches=['death-of-queen-rhaenyra']
+    type=event.death yr=44 agent= patient=Visenya Targaryen out=Queen Dowager dies
+[CLEAR|dedup|q=1] 'Death of Rhaena Targaryen' (fab-jaehaerys-and-alysanne-triumphs-12-p02)
+    matches=['death-of-daella-targaryen-daughter-of-jaehaerys-i', 'death-of-maelor-targaryen', 'death-of-rhaenys-targaryen', 'death-of-helaena-targaryen']
+    type=event.death yr=73 agent= patient=Rhaena Targaryen out=burned, ashes interred at Harrenhal
+[CLEAR|dedup|q=1] 'Death of Rhaenyra Targaryen' (fab-short-sad-reign-of-aegon-ii-19)
+    matches=['death-of-daella-targaryen-daughter-of-jaehaerys-i', 'death-of-maelor-targaryen', 'death-of-rhaenys-targaryen', 'death-of-helaena-targaryen']
+    type=event.death yr=130 agent=Aegon II Targaryen patient=Rhaenyra Targaryen out=queen devoured by the golden dragon
+[CLEAR|composite|q=1] 'Death of Rhaenys and Meraxes' (fab-sons-of-the-dragon-05-p01)
+    matches=['death-of-rhaenys-targaryen', 'death-of-meraxes']
+    type=event.death yr= agent= patient=Rhaenys Targaryen out=queen and dragon slain
+[CLEAR|dedup|q=1] 'Death of Rickard Thorne' (fab-the-red-dragon-and-the-gold-17-p03)
+    type=event.death yr= agent=crossbowmen patient=Rickard Thorne out=knight brought down on the bridge
+[CLEAR|dedup|q=1] 'Death of Rogar Baratheon' (fab-the-long-reign-cont-14-p01)
+    matches=['death-of-robert-baratheon', 'death-of-joffrey-baratheon']
+    type=event.death yr=61 agent= patient=Rogar Baratheon out=died half a year after the war
+[CLEAR|dedup|q=1] 'Death of Ronnel Arryn' (fab-sons-of-the-dragon-05-p01)
+    matches=['death-of-lysa-arryn']
+    type=event.death yr= agent=Jonos Arryn patient=Ronnel Arryn out=lord cast through the Moon Door
+[CLEAR|dedup|q=1] 'Death of Septon Barth' (fab-heirs-of-the-dragon-15-p01)
+    type=event.death yr=98 agent=Septon Barth patient= out=Hand of forty-one years dies; office falls vacant
+[CLEAR|dedup|q=1] 'Death of Septon Barth' (fab-the-long-reign-cont-14-p04)
+    type=event.death yr=98 agent= patient=Septon Barth out=died
+[CLEAR|dedup|q=1] 'Death of Septon Oswyck' (fab-birth-death-and-betrayal-10)
+    type=event.death yr=54 agent= patient=Septon Oswyck out=Died in his sleep; interred on Dragonstone
+[CLEAR|dedup|q=1] 'Death of Ser Corwyn Corbray' (fab-the-lysene-spring-24-p01)
+    type=event.death yr=135 agent=crossbowman of Runestone patient=Corwyn Corbray out=regent slain, Vale war reignites
+[CLEAR|dedup|q=1] 'Death of Ser Hobert Hightower' (fab-rhaenyra-overthrown-18-p02)
+    type=event.death yr= agent=Hobert Hightower patient=Hobert Hightower out=his heart stopped within the hour
+[CLEAR|dedup|q=1] 'Death of Ser Horys Hill' (fab-sons-of-the-dragon-05-p03)
+    type=event.death yr= agent= patient=Ser Horys Hill out=slain leading the rescue
+[CLEAR|dedup|q=1] 'Death of Ser Leo Costayne' (fab-the-lysene-spring-24-p01)
+    type=event.death yr=134 agent=Arthur Goodbrother patient=Leo Costayne out=Sea Lion slain, most of his fleet lost
+[CLEAR|dedup|q=1] 'Death of Ser Orryn Baratheon' (fab-time-of-testing-09)
+    type=event.death yr= agent=Men of Valor patient=Orryn Baratheon out=killed in battle
+[CLEAR|dedup|q=1] 'Death of Ser Raymund Mallery' (fab-surfeit-of-rulers-08-p02)
+    type=event.death yr=50 agent= patient=Raymund Mallery out=killed by wildlings, head sent to Eastwatch
+[CLEAR|dedup|q=1] 'Death of Ser Robert Rowan' (fab-the-lysene-spring-24-p01)
+    type=event.death yr=135 agent=Vale mountain clans patient=Robert Rowan out=host crippled, Blackwood takes command
+[CLEAR|composite|q=1] 'Death of Ser Willam the Wasp and his men' (fab-jaehaerys-and-alysanne-triumphs-12-p01)
+    type=event.death yr=56 agent=brigands patient=Willam the Wasp out=Willam and his dozen men ambushed and slain
+[CLEAR|dedup|q=1] 'Death of Shrykos' (fab-rhaenyra-overthrown-18-p01)
+    type=event.death yr= agent=Hobb the Hewer patient=Shrykos out=dragon slain by seven axe blows
+[CLEAR|dedup|q=1] 'Death of Stormcloud' (fab-the-red-dragon-and-the-gold-17-p02)
+    type=event.death yr=130 agent=Triarchy fleet patient=Stormcloud out=dragon died within the hour
+[CLEAR|dedup|q=1] 'Death of Sunfyre' (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.death yr=130 agent= patient=Sunfyre out=golden dragon dies of festering wounds
+[CLEAR|dedup|q=1] 'Death of Syrax' (fab-rhaenyra-overthrown-18-p01)
+    type=event.death yr= agent=the Shepherd patient=Syrax out=queen's dragon slain, many claimants
+[CLEAR|dedup|q=1] 'Death of Tessarion' (fab-rhaenyra-overthrown-18-p02)
+    type=event.death yr= agent=Billy Burley patient=Tessarion out=three shafts into her eye
+[CLEAR|dedup|q=1] 'Death of Tyraxes' (fab-rhaenyra-overthrown-18-p01)
+    type=event.death yr= agent=the Shepherd's mob patient=Tyraxes out=dragon slain in fouled chains
+[CLEAR|dedup|q=1] 'Death of Vermax' (fab-the-red-dragon-and-the-gold-17-p02)
+    type=event.death yr=130 agent=Myrish galley crew patient=Vermax out=dragon slain, sank with a galley
+[CLEAR|dedup|q=1] 'Death of Vhagar' (fab-the-red-dragon-and-the-gold-17-p04)
+    type=event.death yr=130 agent=Caraxes patient=Vhagar out=Vhagar killed, sinks to lake floor
+[CLEAR|dedup|q=1] 'Death of the High Septon' (fab-jaehaerys-and-alysanne-dragonstone-11)
+    matches=['murder-of-the-old-high-septon']
+    type=event.death yr=54 agent= patient=High Septon out=High Septon dead, succession opened
+[CLEAR|dedup|q=1] 'Death of the High Septon' (fab-sons-of-the-dragon-05-p02)
+    matches=['murder-of-the-old-high-septon']
+    type=event.death yr= agent= patient=High Septon out=died suddenly; cause debated
+[CLEAR|dedup|q=1] 'Death of the Vulture King' (fab-sons-of-the-dragon-05-p01)
+    type=event.death yr= agent=Samwell Tarly patient=Vulture King out=died of thirst and exposure
+[CLEAR|dedup|q=1] 'Death of the Vulture King' (fab-the-long-reign-cont-14-p01)
+    type=event.death yr=61 agent=Rogar Baratheon patient=Vulture King out=cloven from shoulder to navel
+[CLEAR|dedup|q=1] 'Death of the infant Prince Aegon' (fab-jaehaerys-and-alysanne-triumphs-12-p01)
+    matches=['death-of-prince-aegon-son-of-jaehaerys-i']
+    type=event.death yr= agent= patient=Aegon Targaryen (infant) out=died after three days of life
+[CLEAR|dedup|q=1] 'Death of the last Targaryen dragons' (fab-lineages-and-family-tree-25)
+    type=event.other yr=131-157 agent= patient= out=last Targaryen dragons died in Aegon III's reign
+[CLEAR|composite|q=1] 'Deaths of Lysandro and Drazenko Rogare' (fab-the-lysene-spring-24-p01)
+    type=event.death yr=135 agent=Faceless Men patient=Lysandro Rogare out=both Rogare brothers dead within a day
+[CLEAR|composite|q=1] 'Deaths of Runciter and Harrold Westerling' (fab-heirs-of-the-dragon-15-p02)
+    type=event.death yr=112 agent= patient=Runciter out=both die
+[CLEAR|composite|q=1] 'Departure of Aegon the Younger and Viserys for Pentos' (fab-the-red-dragon-and-the-gold-17-p01)
+    type=event.other yr=129 agent=Jacaerys Velaryon patient=Aegon the Younger; Visery out=princes sent to be fostered in Pentos under escort
+[CLEAR|dedup|q=1] 'Dethroning and death of Aerys II' (fab-lineages-and-family-tree-25)
+    type=event.death yr=283 agent= patient=Aerys II out=Aerys II killed; line of the dragon kings ended
+[CLEAR|dedup|q=1] 'Dragon battle of Second Tumbleton' (fab-rhaenyra-overthrown-18-p02)
+    matches=['second-battle-of-tumbleton']
+    type=event.battle yr= agent=Seasmoke patient=Vermithor out=Seasmoke and Vermithor slain; Tessarion mortally h
+[CLEAR|composite|q=1] 'Drowning of Lady Buckler and her daughters' (fab-war-and-peace-and-cattle-shows-22-p02)
+    type=event.death yr= agent= patient=Lady Buckler out=their boat foundered and sank crossing the river
+[CLEAR|composite|q=1] 'Duel of Daemon and the Braavosi betrothed' (fab-heirs-of-the-dragon-15-p03)
+    type=event.duel yr= agent=Daemon Targaryen patient=Braavosi betrothed out=rival slain, clearing Daemon's path to Laena
+[CLEAR|dedup|q=1] 'Election of Septon Pater as High Septon' (fab-sons-of-the-dragon-05-p02)
+    type=event.election yr= agent=Most Devout patient=Septon Pater out=chosen on a single ballot; blessed Maegor
+[CLEAR|dedup|q=1] 'Escape of Alyssa from Dragonstone' (fab-sons-of-the-dragon-05-p03)
+    type=event.escape yr=44 agent=Alyssa Velaryon patient= out=fled with Vermithor, Silverwing, Dark Sister
+[CLEAR|dedup|q=1] 'Estrangement of king and queen (First Quarrel)' (fab-the-long-reign-cont-14-p04)
+    type=event.other yr= agent= patient=Jaehaerys Targaryen out=estrangement, later reconciled
+[CLEAR|composite|q=1] "Execution of Maegor's headsman and gaolers" (fab-prince-into-king-06)
+    type=event.execution yr=48 agent= patient= out=Heads and hands sent to Alyssa
+[CLEAR|dedup|q=1] 'Execution of Orwyle' (fab-war-and-peace-and-cattle-shows-22-p01)
+    type=event.death yr=133 agent=Victor Risley patient=Orwyle out=former Grand Maester beheaded by the sword
+[CLEAR|dedup|q=1] 'Execution of Ser Maladon Moore' (fab-prince-into-king-06)
+    type=event.execution yr=48 agent= patient=Maladon Moore out=Beheaded
+[CLEAR|dedup|q=1] 'Execution of Ser Theo Bolling' (fab-sons-of-the-dragon-05-p03)
+    type=event.execution yr=47 agent=Maegor I Targaryen patient=Ser Theo Bolling out=beheaded same day
+[CLEAR|dedup|q=1] "Execution of Toron's mother" (fab-the-lysene-spring-24-p01)
+    type=event.death yr=134 agent=Red Kraken's sisters patient=Toron Greyjoy's mother out=mother put to death
+[CLEAR|dedup|q=1] "Execution of the captive Warrior's Sons" (fab-sons-of-the-dragon-05-p02)
+    type=event.execution yr= agent=Maegor Targaryen patient=Warrior's Sons out=those who refused the black were beheaded
+[CLEAR|dedup|q=1] 'Executions at the Red Keep' (fab-hour-of-the-wolf-20)
+    matches=['yielding-of-the-red-keep', 'joffrey-recalled-to-the-red-keep', 'wedding-feast-at-the-red-keep']
+    type=event.execution yr=131 agent=Cregan Stark patient=Larys Strong out=only two men died, rest took the black
+[CLEAR|dedup|q=1] 'Fall of Faircastle' (fab-the-red-dragon-and-the-gold-17-p03)
+    type=event.battle yr= agent=Dalton Greyjoy patient=Lord Farman out=Fair Isle's last resistance ended
+[CLEAR|dedup|q=1] 'Fall of Harrenhal to Daemon' (fab-the-red-dragon-and-the-gold-17-p01)
+    matches=['fall-of-harrenhal', 'daemon-claims-harrenhal']
+    type=event.capture yr=129 agent=Daemon Targaryen patient=Aegon II Targaryen out=Aegon left feeling vulnerable
+[CLEAR|composite|q=1] 'Fall of House Rogare / Rogare Bank collapse' (fab-the-lysene-spring-24-p01)
+    type=event.other yr=135 agent=Lysaro Rogare patient=House Rogare out=bank a hollow shell, siblings tried
+[CLEAR|dedup|q=1] 'Feast of amity' (fab-heirs-of-the-dragon-15-p03)
+    type=event.feast yr=127 agent=Viserys I Targaryen patient= out=staged reconciliation; Mushroom reports fresh insu
+[CLEAR|composite|q=1] 'Fifth-anniversary tourney (greens and blacks named)' (fab-heirs-of-the-dragon-15-p02)
+    type=event.tourney yr=111 agent= patient= out=factions named
+[CLEAR|dedup|q=1] 'Fire at Harrenhal' (fab-heirs-of-the-dragon-15-p03)
+    type=event.death yr=120 agent= patient=Lyonel Strong out=Lyonel and Harwin Strong killed; cause never deter
+[CLEAR|dedup|q=1] 'Flight to Dragonstone aboard the Violande' (fab-rhaenyra-overthrown-18-p02)
+    type=event.journey yr=130 agent=Rhaenyra Targaryen patient= out=queen returns into a trap
+[CLEAR|dedup|q=1] "Fourth Dornish War (Prince Morion's Madness / War of the Hundred Candles)" (fab-the-long-reign-cont-14-p03)
+    type=event.battle yr=83 agent=Jaehaerys I Targaryen patient=Morion Martell out=Dornish fleet burned, war won in a single day
+[CLEAR|composite|q=1] 'Hanging of Essie and Sylvenna Sand' (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.death yr=130 agent=Aegon II Targaryen patient=Essie out=hanged with twenty-seven of Gaemon's court
+[CLEAR|dedup|q=1] 'Hanging of the would-be rescuers' (fab-rhaenyra-overthrown-18-p01)
+    type=event.execution yr= agent=Rhaenyra Targaryen patient=Denys Woodwright, Thoron  out=both knights hanged at dawn
+[CLEAR|dedup|q=1] "Harren the Red's seizure of Harrenhal" (fab-sons-of-the-dragon-05-p01)
+    type=event.rebellion yr= agent=Harren the Red patient=Gargon Qoherys out=Gargon mutilated, castle taken
+[CLEAR|dedup|q=1] 'Harrenhal melee' (fab-sons-of-the-dragon-05-p03)
+    type=event.tourney yr=44 agent= patient= out=Walton Towers wins Harrenhal
+[CLEAR|dedup|q=1] 'Hatching of Morning' (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.other yr= agent=Rhaena Targaryen patient= out=fertile egg yields a pink hatchling
+[CLEAR|composite|q=1] 'Honoring ceremony / Alyn made master of ships' (fab-war-and-peace-and-cattle-shows-22-p01)
+    type=event.ceremony yr= agent=Unwin Peake patient=Alyn Velaryon out=Alyn knighted, chained admiral, seated on the smal
+[CLEAR|dedup|q=1] "Jeyne Westerling's stillbirth" (fab-sons-of-the-dragon-05-p03)
+    matches=['robb-weds-jeyne-westerling', 'jeyne-westerling-kept-barren']
+    type=event.birth yr=47 agent=Tyanna of the Tower patient=Jeyne Westerling out=monstrous stillbirth; mother dies
+[CLEAR|dedup|q=1] 'Killing of Grand Maester Myros' (fab-sons-of-the-dragon-05-p02)
+    type=event.death yr= agent=Maegor Targaryen patient=Myros out=slain for speaking against Tyanna
+[CLEAR|dedup|q=1] 'Killing of Ser Roger Corne' (fab-rhaenyra-overthrown-18-p02)
+    type=event.death yr= agent=Hugh Hammer patient=Roger Corne out=horseshoes nailed to Corne's skull
+[CLEAR|composite|q=0] 'Kingsdguard / White Swords' (fab-the-hooded-hand-21)
+[CLEAR|dedup|q=1] 'Lannister reprisal on the Iron Islands' (fab-the-lysene-spring-24-p01)
+    type=event.battle yr=134 agent=Leo Costayne patient=ironborn out=villages burned, many lords slain, grain carried o
+[CLEAR|composite|q=1] 'Last sighting of Sheepstealer and Nettles' (fab-the-lysene-spring-24-p01)
+    type=event.other yr=135 agent=Sheepstealer patient=Robert Rowan's men out=sixteen dead, dragon and rider flee
+[CLEAR|dedup|q=1] "Lord Rogar's War (Third Dornish War)" (fab-the-long-reign-cont-14-p01)
+    matches=['third-dornish-war']
+    type=event.war yr=61 agent=Jaehaerys Targaryen patient=Vulture King out=Vulture King eliminated; raiding fell off
+[CLEAR|composite|q=1] 'Maegor claims Balerion and takes the Eyrie' (fab-sons-of-the-dragon-05-p01)
+    type=event.battle yr= agent=Maegor Targaryen patient=Jonos Arryn out=pretender's men executed
+[CLEAR|dedup|q=1] 'Maegor seizes the Iron Throne' (fab-surfeit-of-rulers-08-p01)
+    matches=['maegor-claims-the-iron-throne']
+    type=event.usurpation yr= agent=Maegor I Targaryen patient= out=Maegor takes the throne after Aenys's death
+[CLEAR|composite|q=1] 'Marriage of Daemon and Laena Velaryon' (fab-heirs-of-the-dragon-15-p03)
+    type=event.wedding yr=115 agent=Daemon Targaryen patient=Laena Velaryon out=Daemon abandons the Stepstones
+[CLEAR|dedup|q=1] 'Murder of Dalton Greyjoy' (fab-voyage-of-alyn-oakenfist-23)
+    matches=['death-of-dalton-greyjoy']
+    type=event.death yr=133 agent=Tess patient=Dalton Greyjoy out=Red Kraken slain
+[CLEAR|composite|q=1] 'Murder of Prince Jaehaerys (Blood and Cheese)' (fab-the-blacks-and-the-greens-16-p02)
+    matches=['murder-of-prince-jaehaerys']
+    type=event.murder yr= agent=Blood patient=Jaehaerys (son of Aegon I out=prince beheaded; killers flee
+[CLEAR|dedup|q=1] "Night's Watch rebellion at Rimegate and Sable Hall" (fab-surfeit-of-rulers-08-p02)
+    type=event.rebellion yr=50 agent=Olyver Bracken patient= out=rebellion put down; oathbreakers hanged
+[CLEAR|composite|q=1] 'Otto stripped of the Handship; Lyonel Strong named Hand' (fab-heirs-of-the-dragon-15-p02)
+    type=event.appointment yr=109 agent=Viserys I Targaryen patient=Otto Hightower out=Lyonel Strong made Hand
+[CLEAR|dedup|q=1] 'Pardon and reconciliation of Lord Rogar' (fab-time-of-testing-09)
+    type=event.other yr= agent=Jaehaerys I Targaryen patient=Rogar Baratheon out=Rogar pardoned on conditions
+[CLEAR|composite|q=1] "Parley and accord in Borros's tent" (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.council yr=130 agent=Larys Strong patient= out=betrothals and pardons agreed to restore Aegon II
+[CLEAR|composite|q=1] 'Parley of Oakenfist and Racallio at Bloodstone' (fab-voyage-of-alyn-oakenfist-23)
+    type=event.negotiation yr=133 agent=Alyn Oakenfist patient=Racallio Ryndoon out=fleet granted passage
+[CLEAR|dedup|q=1] 'Poisoning of four Poor Fellows' (fab-prince-into-king-06)
+    type=event.death yr=48 agent= patient= out=Four dead by dawn from laced wine
+[CLEAR|dedup|q=1] "Proclamation of Jaehaerys at Storm's End" (fab-sons-of-the-dragon-05-p03)
+    type=event.council yr=48 agent=Lord Rogar Baratheon patient=Jaehaerys Targaryen out=Jaehaerys proclaimed true king
+[CLEAR|composite|q=1] 'Ransom and maiming of Orys Baratheon' (fab-reign-of-the-dragon-04)
+    matches=['maiming-of-orys-baratheon']
+    type=event.other yr=7 AC agent=Wyl of Wyl patient=Orys Baratheon out=ransomed captives' sword hands cut off
+[CLEAR|dedup|q=1] "Rebuilding of King's Landing begins" (fab-birth-death-and-betrayal-10)
+    type=event.construction yr=52 agent=Jaehaerys I Targaryen patient= out=Streets widened and cobbled, central square and gr
+[CLEAR|composite|q=1] 'Reclaiming of Harrenhal / death of Regis Groves' (fab-the-hooded-hand-21)
+    matches=['death-of-regis-groves']
+    type=event.battle yr=132 agent=Alys Rivers patient=Regis Groves out=Kingsguard knight killed, king's men routed
+[CLEAR|composite|q=1] 'Reconciliation of Maegor and Ceryse' (fab-sons-of-the-dragon-05-p03)
+    type=event.feast yr=43 agent=Maegor I Targaryen patient=Ceryse Hightower out=reconciliation with first wife
+[CLEAR|dedup|q=1] 'Red rebellion on Fair Isle' (fab-voyage-of-alyn-oakenfist-23)
+    matches=['fair-isle-rebellion']
+    type=event.rebellion yr=133 agent= patient= out=ironborn slaughtered
+[CLEAR|composite|q=1] 'Removal of Lord Rowan and coup at court' (fab-the-lysene-spring-24-p01)
+    type=event.betrayal yr=135 agent=Marston Waters patient=Thaddeus Rowan out=Rowan taken; Marston made Hand
+[CLEAR|dedup|q=1] "Retaking of King's Landing" (fab-short-sad-reign-of-aegon-ii-19)
+    type=event.battle yr=130 agent=Borros Baratheon patient= out=stormlanders enter unopposed; Aegon II's banner ra
+[CLEAR|composite|q=1] 'Return and reveal of Prince Viserys' (fab-voyage-of-alyn-oakenfist-23)
+    type=event.homecoming yr=134 agent=Alyn Oakenfist patient=Viserys Targaryen out=lost prince restored
+[CLEAR|dedup|q=1] 'Rhaenyra claims the Iron Throne' (fab-the-red-dragon-and-the-gold-17-p02)
+    matches=['maegor-claims-the-iron-throne']
+    type=event.coronation yr= agent=Rhaenyra patient= out=queen seated on the Iron Throne, court made to kne
+[CLEAR|composite|q=1] 'Rhaenyra named Princess of Dragonstone / heir' (fab-heirs-of-the-dragon-15-p02)
+    type=event.decree yr=105 agent=Viserys I Targaryen patient=Rhaenyra Targaryen out=lords do obeisance
+[CLEAR|dedup|q=1] 'Sack of Fair Isle' (fab-the-red-dragon-and-the-gold-17-p02)
+    matches=['ambush-at-fair-isle', 'franklyn-farman-banishes-rhaena-from-fair-isle', 'sea-battle-off-fair-isle', 'fair-isle-rebellion']
+    type=event.battle yr= agent=Dalton Greyjoy patient=Lord Farman out=island swept end to end, Farman besieged
+[CLEAR|dedup|q=1] 'Sack of Lannisport' (fab-the-red-dragon-and-the-gold-17-p02)
+    type=event.battle yr= agent=Dalton Greyjoy patient=Jason Lannister out=city sacked, 600 women and girls taken
+[CLEAR|dedup|q=1] 'Sack of Spicetown' (fab-the-red-dragon-and-the-gold-17-p02)
+    type=event.battle yr=130 agent=Sharako Lohar patient=Corlys Velaryon out=town sacked and burned, never rebuilt
+[CLEAR|composite|q=1] "Saera's escape attempt and capture" (fab-the-long-reign-cont-14-p03)
+    type=event.other yr=84 agent=Saera Targaryen patient= out=taken by Dragonkeepers, confined to a tower cell
+[CLEAR|composite|q=1] 'Second reconciliation of Viserys and Daemon' (fab-heirs-of-the-dragon-15-p03)
+    type=event.reconciliation yr=116 agent=Viserys I Targaryen patient=Daemon Targaryen out=nieces presented at court
+[CLEAR|dedup|q=1] 'Second wedding of Jaehaerys and Alysanne' (fab-time-of-testing-09)
+    matches=['wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen']
+    type=event.wedding yr= agent=Barth patient=Jaehaerys I Targaryen out=marriage made public and consummated
+[CLEAR|dedup|q=1] 'Secret marriage of Jaehaerys and Alysanne' (fab-surfeit-of-rulers-08-p01)
+    type=event.wedding yr=49 agent=Jaehaerys I Targaryen patient=Alysanne Targaryen out=union kept secret; Hand and Queen Regent taken una
+[CLEAR|dedup|q=1] 'Selection of Septon Alfyn as High Septon' (fab-jaehaerys-and-alysanne-dragonstone-11)
+    type=event.election yr=54 agent=Most Devout patient=Septon Alfyn out=Alfyn chosen on the fourth ballot
+[CLEAR|composite|q=1] 'Sentencing of Lotho and Roggerio' (fab-the-lysene-spring-24-p02)
+    type=event.trial yr= agent=Torrhen Manderly patient=Lotho Rogare out=Lotho mutilated; Roggerio given seven lashes
+[CLEAR|composite|q=1] 'Ser Lucamore Strong scandal and punishment' (fab-the-long-reign-cont-14-p02)
+    type=event.trial yr=73 agent=Jaehaerys patient=Lucamore Strong out=Lucamore gelded and sent to the Wall
+[CLEAR|dedup|q=1] 'Submission of Rosby' (fab-aegons-conquest-03)
+    type=event.surrender yr= agent=Rhaenys Targaryen patient=Rosby out=yielded without a fight
+[CLEAR|dedup|q=1] 'Sunfyre attacks Grey Ghost' (fab-rhaenyra-overthrown-18-p02)
+    type=event.battle yr= agent=Sunfyre patient=Grey Ghost out=Grey Ghost killed
+[CLEAR|dedup|q=1] 'Surrender of Highgarden' (fab-aegons-conquest-03)
+    type=event.surrender yr= agent=Harlan Tyrell patient=Aegon I Targaryen out=Tyrell yields, made Warden of the South
+[CLEAR|dedup|q=1] "Surrender of Storm's End" (fab-aegons-conquest-03)
+    type=event.surrender yr= agent=Argella Durrandon patient=Orys Baratheon out=garrison yields Argella to Orys
+[CLEAR|dedup|q=1] "Tenth-anniversary tourney at King's Landing" (fab-jaehaerys-and-alysanne-triumphs-12-p02)
+    matches=['tourney-at-kings-landing-on-the-anniversary-of-the-kings-coronation']
+    type=event.tournament yr=58 agent=Jaehaerys I Targaryen patient= out=Ryam Redwyne champion
+[CLEAR|composite|q=1] 'The Sowing of the Seeds / Red Sowing' (fab-the-red-dragon-and-the-gold-17-p01)
+    type=event.other yr=129 agent=Jacaerys Velaryon patient=dragonseeds out=sixteen died; four new dragonriders found
+[CLEAR|dedup|q=1] 'The black council' (fab-the-blacks-and-the-greens-16-p01)
+    type=event.council yr=129 agent=Rhaenyra Targaryen patient= out=Rhaenyra's party plans war: Harrenhal, the Gullet,
+[CLEAR|dedup|q=1] 'The coup in the Red Keep' (fab-short-sad-reign-of-aegon-ii-19)
+    matches=['yielding-of-the-red-keep', 'joffrey-recalled-to-the-red-keep', 'wedding-feast-at-the-red-keep']
+    type=event.betrayal yr= agent=Larys Strong patient= out=turncloaks kill the king's men and free Prince Aeg
+[CLEAR|dedup|q=1] 'The poisonings on Dragonstone' (fab-jaehaerys-and-alysanne-dragonstone-11)
+    type=event.death yr=54 agent=Androw Farman patient=Rhaena's companions out=women of Dragonstone poisoned, disguised as plague
+[CLEAR|dedup|q=1] 'The treason trials' (fab-the-lysene-spring-24-p02)
+    type=event.trial yr= agent=Torrhen Manderly patient= out=42 accused; 18 judged over three-and-thirty days
+[CLEAR|dedup|q=1] 'Tourney at Riverrun' (fab-sons-of-the-dragon-05-p01)
+    type=event.tourney yr=28 agent=Maegor Targaryen patient= out=Maegor knighted with Blackfyre
+[CLEAR|dedup|q=1] 'Tourney at White Harbor' (fab-jaehaerys-and-alysanne-triumphs-12-p02)
+    matches=['wyman-publicly-arrests-davos-at-white-harbor', 'execution-of-davos-lookalike-at-white-harbor']
+    type=event.tournament yr=58 agent=Theomore Manderly patient= out=Jonquil Darke duels a wildling girl
+[CLEAR|dedup|q=1] 'Trial by battle for Ser Harrold' (fab-prince-into-king-06)
+    type=event.trial_by_combat yr=48 agent=Gyles Morrigen patient=Harrold Langward out=Harrold slain; Morrigen made Lord Commander
+[CLEAR|dedup|q=1] 'Trial by battle, Long vs Risley' (fab-the-lysene-spring-24-p02)
+    type=event.duel yr= agent=Gareth Long patient=Victor Risley out=Risley slain quickly
+[CLEAR|dedup|q=1] 'Trial by combat of Jaehaerys and Stinger' (fab-the-long-reign-cont-14-p04)
+    type=event.duel yr= agent=Jaehaerys Targaryen patient=Braxton Beesbury out=Beesbury slain
+[CLEAR|dedup|q=1] 'Trial of Seven' (fab-sons-of-the-dragon-05-p02)
+    type=event.trial_by_combat yr=42 agent=Maegor Targaryen patient=Warrior's Sons out=Maegor wins, wounded; seven Warrior's Sons dead
+[CLEAR|dedup|q=1] 'Trial of Seven against Maegor' (fab-prince-into-king-06)
+    type=event.trial_by_combat yr= agent=Damon the Devout patient=Maegor I Targaryen out=Warrior's Sons fought Maegor
+[CLEAR|dedup|q=1] 'Viserys maimed on the Iron Throne' (fab-heirs-of-the-dragon-15-p03)
+    type=event.other yr=126 agent= patient=Viserys I Targaryen out=fever, then two fingers removed to save his life
+[CLEAR|dedup|q=1] 'War council at High Tide' (fab-heirs-of-the-dragon-15-p02)
+    type=event.council yr=106 agent=Corlys Velaryon patient=Daemon Targaryen out=Stepstones war planned
+[CLEAR|dedup|q=1] 'War for the Stepstones begins' (fab-heirs-of-the-dragon-15-p02)
+    matches=['war-for-the-stepstones']
+    type=event.war yr=106 agent=Daemon Targaryen patient=Triarchy (Kingdom of the  out=fighting begins
+[CLEAR|dedup|q=1] 'Wedding of Aegon III and Daenaera' (fab-voyage-of-alyn-oakenfist-23)
+    matches=['wedding-of-aegon-iii-and-jaehaera']
+    type=event.marriage yr=133 agent=Aegon III Targaryen patient=Daenaera out=Daenaera made queen
+[CLEAR|dedup|q=1] 'Wedding of Aegon and Rhaena' (fab-sons-of-the-dragon-05-p02)
+    matches=['announcement-of-the-aegon-rhaena-marriage', 'wedding-of-aegon-ii-and-helaena-targaryen', 'wedding-of-rhaena-targaryen-and-androw-farman', 'wedding-of-aegon-iii-and-jaehaera']
+    type=event.wedding yr=41 agent=Aegon Targaryen; Rhaena T patient= out=performed despite the Faith's ban
+[CLEAR|composite|q=1] 'Wedding of Aemon and Jocelyn' (fab-the-long-reign-cont-14-p02)
+    type=event.wedding yr=70 agent= patient=Aemon out=splendid ceremony rivaling the Golden Wedding
+[CLEAR|composite|q=1] 'Wedding of Aenys and Alyssa' (fab-sons-of-the-dragon-05-p01)
+    type=event.wedding yr=22 agent=Aenys Targaryen (Aenys I) patient=Alyssa Velaryon out=cousin match, happy and fruitful
+[CLEAR|composite|q=1] 'Wedding of Alyn Velaryon and Baela' (fab-the-hooded-hand-21)
+    type=event.wedding yr=132 agent=Alyn Velaryon patient=Baela Targaryen out=the twin wed her cousin after fleeing
+[CLEAR|composite|q=1] 'Wedding of Baelon and Alyssa' (fab-the-long-reign-cont-14-p02)
+    type=event.wedding yr=75 agent= patient=Baelon out=Spring Prince weds his sister Alyssa
+[CLEAR|dedup|q=1] 'Wedding of Corwyn Corbray and Rhaena' (fab-the-hooded-hand-21)
+    type=event.wedding yr=132 agent=Corwyn Corbray patient=Rhaena Targaryen out=the tractable twin wed the Corbray knight
+[CLEAR|composite|q=1] 'Wedding of Cregan Stark and Alysanne' (fab-the-hooded-hand-21)
+    type=event.wedding yr=132 agent=Cregan Stark patient=Alysanne Blackwood out=Black Aly wed the Wolf of the North
+[CLEAR|dedup|q=1] 'Wedding of Daella Targaryen and Rodrik Arryn' (fab-the-long-reign-cont-14-p03)
+    type=event.marriage yr= agent=Rodrik Arryn patient=Daella Targaryen out=small ceremony, no bedding
+[CLEAR|composite|q=1] 'Wedding of Daemon and Rhea Royce' (fab-heirs-of-the-dragon-15-p01)
+    type=event.wedding yr=97 agent=Daemon Targaryen patient=Rhea Royce out=unhappy marriage; heir to Runestone wed
+[CLEAR|dedup|q=1] 'Wedding of Elenda Baratheon and Steffon Connington' (fab-the-hooded-hand-21)
+    type=event.wedding yr=132 agent=Steffon Connington patient=Elenda Baratheon out=the widow took a younger husband
+[CLEAR|dedup|q=1] 'Wedding of Maegor and Alys Harroway' (fab-sons-of-the-dragon-05-p01)
+    type=event.wedding yr=39 agent=Maegor Targaryen patient=Alys Harroway out=Valyrian rite; Faith denounces it
+[CLEAR|composite|q=1] 'Wedding of Maegor and Ceryse' (fab-sons-of-the-dragon-05-p01)
+    type=event.wedding yr=25 agent=Maegor Targaryen patient=Ceryse Hightower out=marriage to Oldtown
+[CLEAR|composite|q=1] 'Wedding of Maegor and Tyanna' (fab-sons-of-the-dragon-05-p02)
+    type=event.wedding yr= agent=Maegor Targaryen; Tyanna  patient= out=wed amid the ashes of the Warrior's Sons
+[CLEAR|composite|q=1] 'Wedding of Rhaenyra and Laenor' (fab-heirs-of-the-dragon-15-p02)
+    type=event.wedding yr=114 agent=Rhaenyra Targaryen patient=Laenor Velaryon out=seven days of feasts and jousting
+[CLEAR|composite|q=1] 'Wedding of Rhaenys and Corlys Velaryon' (fab-the-long-reign-cont-14-p04)
+    type=event.wedding yr=90 agent= patient=Rhaenys Targaryen out=married
+[CLEAR|dedup|q=1] 'Wedding of Viserys and Aemma Arryn' (fab-heirs-of-the-dragon-15-p01)
+    type=event.wedding yr=93 agent=Viserys I Targaryen patient=Aemma Arryn out=marriage of Baelon's heir to Lady Aemma
+[CLEAR|composite|q=1] 'Wedding of Viserys and Alicent' (fab-heirs-of-the-dragon-15-p02)
+    type=event.wedding yr=106 agent=Viserys I Targaryen patient=Alicent Hightower out=Velaryons absent
+[CLEAR|dedup|q=1] "Winter Fever in King's Landing" (fab-the-hooded-hand-21)
+    type=event.plague yr=133 agent=Winter Fever patient= out=tens of thousands feverish, three in four dead
+[CLEAR|dedup|q=1] "Yielding of King's Landing" (fab-hour-of-the-wolf-20)
+    type=event.surrender yr=131 agent=Corlys Velaryon patient=Kermit Tully out=city yielded to the riverlords
+[CLEAR|dedup|q=1] 'Yielding of Longtable' (fab-the-red-dragon-and-the-gold-17-p03)
+    type=event.siege yr= agent=Ormund Hightower patient=Lady Merryweather out=castle yielded and stripped of wealth and food

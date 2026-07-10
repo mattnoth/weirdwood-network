@@ -87,7 +87,7 @@ TYPE_DIR_MAP = {
 }
 
 IN_UNIVERSE_SOURCE_ENUM = {
-    "mushroom", "eustace", "munkun", "orwyle", "gyldayn-synthesis", "court-record", "unattributed",
+    "mushroom", "eustace", "munkun", "orwyle", "mellos", "gyldayn-synthesis", "court-record", "unattributed",
 }
 
 # ---------------------------------------------------------------------------
@@ -327,6 +327,7 @@ _CHRONICLER_NAME_TO_SOURCE = {
     "eustace": "eustace",
     "munkun": "munkun",
     "orwyle": "orwyle",
+    "mellos": "mellos",  # added S208 — Grand Maester Mellos, chronicler of Viserys I's court
 }
 
 
@@ -995,7 +996,8 @@ def score_candidates(name: str, disambiguator: str, unit_era: str, pack: dict | 
 # ---------------------------------------------------------------------------
 class Router:
     def __init__(self, blocklist, redirect_map, clusters, pack, unit_era, smoke,
-                 existing_slugs=None, house_slugs=None, node_categories=None):
+                 existing_slugs=None, house_slugs=None, node_categories=None,
+                 recover_map=None):
         self.blocklist = blocklist
         self.redirect_map = redirect_map
         self.clusters = clusters
@@ -1006,6 +1008,12 @@ class Router:
         self.existing_slugs = existing_slugs or set()
         self.house_slugs = house_slugs or set()
         self.node_categories = node_categories or {}
+        # S208 recovery mode: human-curated {name: slug | "CREATE"} overrides for
+        # names the original apply quarantined to reconcile-review.jsonl. An override
+        # is authoritative — it wins over resolve/blocklist/cluster/type-gate (the
+        # curator saw the disambiguator and the candidate list the router couldn't
+        # decide between).
+        self.recover_map = recover_map or {}
         self._resolve_cache: dict[str, tuple] = {}
 
     def _probe_candidates(self, name: str, candidates: list) -> list:
@@ -1074,6 +1082,12 @@ class Router:
         gate on clean-hit UPDATEs; empty = gate inactive (edge-endpoint names carry
         no guess).
         """
+        if name in self.recover_map:
+            v = self.recover_map[name]
+            if v == "CREATE":
+                return {"decision": "create", "route_reason": "recovery-create"}
+            return {"decision": "update", "slug": v, "route_reason": "recovery-override"}
+
         norm_name = normalize(name)
         slug, status, candidates = self._resolve(name)
 
@@ -1290,6 +1304,42 @@ TYPE_SYNONYMS = {
     "location": "place.location",
     "region": "place.region",
 }
+
+# ---------------------------------------------------------------------------
+# S208: event-subtype schema gate for CREATEs. The S201/S202 bulk apply passed
+# extractor subtypes straight through, minting 139 off-schema event nodes that
+# S207 then had to retype. Normalize at CREATE time instead. KEEP IN SYNC with
+# scripts/s207-event-retype.py (IN_SCHEMA / RETYPE_MAP) and architecture.md's
+# Type Reference Table (rule #6).
+# ---------------------------------------------------------------------------
+EVENT_SUBTYPES_IN_SCHEMA = {
+    "battle", "war", "tournament", "wedding", "feast", "coronation", "trial",
+    "assassination", "execution", "conspiracy", "deception", "incident",
+    "appointment", "exile", "birth", "investiture",
+    "death", "capture", "ceremony", "decree", "council",   # sanctioned S207
+    "betrothal",                                           # sanctioned S208
+}
+EVENT_SUBTYPE_RETYPE = {
+    "marriage": "wedding",
+    "siege": "battle", "raid": "battle", "occupation": "battle",
+    "assassination_attempt": "assassination",
+    "banishment": "exile",
+    "succession": "investiture",
+    "funeral": "ceremony", "coming-of-age": "ceremony", "coming_of_age": "ceremony",
+    "reform": "decree",
+    "imprisonment": "capture",
+}
+
+
+def normalize_event_subtype(node_type: str) -> str:
+    """'event.<subtype>' -> an in-schema leaf: keep if sanctioned, RETYPE_MAP if a
+    known 1:1, else fold to event.incident (the S207 convention)."""
+    if not node_type.startswith("event."):
+        return node_type
+    sub = node_type.split(".", 1)[1]
+    if sub in EVENT_SUBTYPES_IN_SCHEMA:
+        return node_type
+    return "event." + EVENT_SUBTYPE_RETYPE.get(sub, "incident")
 BARE_TYPE_DEFAULTS = {
     "character": "character.human",
     "place": "place.location",
@@ -1371,6 +1421,14 @@ def main():
     ap.add_argument("--packs-dir", type=Path, default=DEFAULT_PACKS_DIR)
     ap.add_argument("--edges-file", type=Path, default=DEFAULT_EDGES_FILE)
     ap.add_argument("--chapters-dir", type=Path, default=DEFAULT_CHAPTERS_DIR)
+    ap.add_argument("--recover", type=Path, default=None,
+                    help="S208 recovery mode: JSON {name: slug|\"CREATE\"} of quarantined names to "
+                         "recover. Processes ONLY rows touching mapped names (quarantined rows never "
+                         "landed, so re-landing already-applied rows is impossible by construction); "
+                         "run_id gets a '-recovery' suffix so mint_enrichment's re-run guard doesn't "
+                         "collide with the original apply. Unmapped names still route normally as edge "
+                         "endpoints, but are never allowed to CREATE (an original-apply CREATE may have "
+                         "since been folded/renamed — re-minting it would resurrect a retired node).")
     args = ap.parse_args()
 
     proposal_path = args.proposal
@@ -1396,6 +1454,15 @@ def main():
     # 2-3's prose on every node shared across parts (R3 silent-drop class).
     run_id = f"{unit}-{run_date}"
 
+    recover_map: dict[str, str] | None = None
+    if args.recover is not None:
+        recover_map = load_json(args.recover, None)
+        if not isinstance(recover_map, dict) or not recover_map:
+            sys.exit(f"ABORT: --recover map missing/empty/not-a-dict: {args.recover}")
+        # distinct run_id so mint_enrichment's re-run guard treats recovery as its own
+        # run (the original apply's run_id is already in edges.jsonl).
+        run_id = f"{unit}-{run_date}-recovery"
+
     chapter_path = find_chapter_file(args.chapters_dir, unit)
     if not chapter_path.exists():
         print(f"WARNING: chapter file missing: {chapter_path} — all quotes will quarantine.", file=sys.stderr)
@@ -1414,13 +1481,18 @@ def main():
     pack = load_json(pack_path, None) if pack_path else None
 
     existing_slugs, house_slugs, node_categories = index_existing_nodes(DEFAULT_NODES_ROOT)
+    if recover_map:
+        bad = sorted(v for v in set(recover_map.values())
+                     if v != "CREATE" and v not in existing_slugs)
+        if bad:
+            sys.exit(f"ABORT: --recover map targets non-existent node slugs: {bad}")
     edge_vocab: set[str] = set()
     if DEFAULT_EDGE_VOCAB.exists():
         _ev = load_json(DEFAULT_EDGE_VOCAB, {})
         edge_vocab = set(_ev.get("type_counts", {}).keys()) | set(_ev.get("unpopulated_types", []))
     router = Router(blocklist, redirect_map, clusters, pack, unit_era, args.smoke,
                     existing_slugs=existing_slugs, house_slugs=house_slugs,
-                    node_categories=node_categories)
+                    node_categories=node_categories, recover_map=recover_map)
 
     text = proposal_path.read_text(encoding="utf-8")
     sections = split_sections(text)
@@ -1436,6 +1508,13 @@ def main():
     for row in roster:
         disambiguators[row["name"]] = row["disambiguator"]
         type_guesses[row["name"]] = row["type_guess"]
+    for row in roster:
+        # recovery mode: route (and thereby review/create) ONLY mapped roster names —
+        # everything else in this unit already landed (or was consciously dropped) in
+        # the original apply. Disambiguators/type-guesses were captured above for ALL
+        # rows so unmapped edge-endpoint names still route normally on demand.
+        if recover_map is not None and row["name"] not in recover_map:
+            continue
         routes[row["name"]] = router.route(row["name"], row["disambiguator"],
                                            type_guess=row["type_guess"])
 
@@ -1444,12 +1523,29 @@ def main():
             routes[name] = router.route(name, disambiguators.get(name, ""))
         return routes[name]
 
-    # Route every edge/event endpoint too (roster may not cover them all).
+    # Route every edge/event endpoint too (roster may not cover them all). In recovery
+    # mode, only endpoints of rows that will actually be processed (rows touching a
+    # mapped name) — routing endpoints of already-landed rows would just re-emit noise.
+    def _recover_skips_rel(rel) -> bool:
+        return (recover_map is not None
+                and rel["source_name"] not in recover_map
+                and rel["target_name"] not in recover_map)
+
+    def _recover_skips_event(ev) -> bool:
+        if recover_map is None or ev["name"] in recover_map:
+            return False
+        persons = [p for f_ in ("agent", "patient") for p in split_entities(ev[f_])]
+        return not any(p in recover_map for p in persons)
+
     endpoint_names = set()
     for rel in relationships:
+        if _recover_skips_rel(rel):
+            continue
         endpoint_names.add(rel["source_name"])
         endpoint_names.add(rel["target_name"])
     for ev in events:
+        if _recover_skips_event(ev):
+            continue
         for f in ("agent", "patient", "location"):
             # Split composite cells ("Mern IX Gardener; Loren I Lannister") so each
             # individual routes on its own (S199 fix 2).
@@ -1484,6 +1580,16 @@ def main():
                 "scored_candidates": route.get("scored_candidates", []),
             })
         elif decision == "create":
+            if recover_map is not None and name not in recover_map:
+                # recovery mode: an unmapped name (endpoint of a recovered row) must
+                # never CREATE — the original apply's CREATE for it may have since been
+                # folded/renamed by adjudication surgery; re-minting would resurrect it.
+                reconcile_review_rows.append({
+                    "unit": unit, "name": name,
+                    "reason": "recovery-unmapped-create-skipped",
+                })
+                ambiguous_to_review += 1
+                continue
             slug = slugify(name)
             # Routing bug guard: a CREATE whose slug already exists as a node.
             existing = list((DEFAULT_NODES_ROOT).glob(f"**/{slug}.node.md"))
@@ -1564,6 +1670,8 @@ def main():
         return True, line, canonical
 
     for i, rel in enumerate(relationships, 1):
+        if _recover_skips_rel(rel):
+            continue
         if rel["edge_type"].upper() == "NEEDS_VOCAB" or rel["edge_type_raw"].upper().startswith("NEEDS_VOCAB"):
             needs_vocab_count += 1
             reconcile_review_rows.append({
@@ -1651,6 +1759,8 @@ def main():
 
     # ---- Events of Note -> candidate event CREATE/UPDATE + edges ----
     for i, ev in enumerate(events, 1):
+        if _recover_skips_event(ev):
+            continue
         # dispute-proximity quarantine BEFORE any minting/edges: a single missed
         # passage-scope hedge multiplies into node + role edges + slug encoding the
         # disputed cause (audit pattern 3). Untagged event in a hedge neighborhood
@@ -1681,6 +1791,16 @@ def main():
         # (subtype comes straight from the composed CREATE body) or resolved onto an
         # existing graph node (subtype is read off that node's own frontmatter).
         ev_node_type = None
+        if decision == "create" and recover_map is not None and ev["name"] not in recover_map:
+            # recovery mode: same unmapped-CREATE guard as the roster loop — this event
+            # is only being processed because a mapped person appears in its roles; the
+            # event itself resolved (or was consciously dropped) in the original apply.
+            reconcile_review_rows.append({
+                "unit": unit, "name": ev["name"], "kind": "event",
+                "reason": "recovery-unmapped-create-skipped",
+            })
+            ambiguous_to_review += 1
+            continue
         if decision == "create":
             existing = list(DEFAULT_NODES_ROOT.glob(f"**/{slugify(ev['name'])}.node.md"))
             if existing:
@@ -1698,6 +1818,7 @@ def main():
             if node_type == "event":
                 node_type = "event.incident"
             node_type = TYPE_SYNONYMS.get(node_type, node_type)
+            node_type = normalize_event_subtype(node_type)  # S208 schema gate
             ev_node_type = node_type
             occurred = None
             if ev["year"]:
@@ -1735,6 +1856,13 @@ def main():
                 if ev_slug is None:
                     continue
                 for person in split_entities(ev[role_field]):
+                    # recovery mode, event already landed: only the mapped persons'
+                    # role edges were quarantined — the other persons' role edges
+                    # landed in the original apply. (A mapped EVENT name means the
+                    # whole event never landed, so all its role edges emit.)
+                    if (recover_map is not None and ev["name"] not in recover_map
+                            and person not in recover_map):
+                        continue
                     person_slug = slug_for(person)
                     if person_slug is None:
                         continue
@@ -1773,6 +1901,8 @@ def main():
     prose_quotes_total = 0
     prose_quotes_located = 0
     for name, entries in prose.items():
+        if recover_map is not None and name not in recover_map:
+            continue
         for e in entries:
             if not e["quote"]:
                 continue
@@ -1784,6 +1914,12 @@ def main():
     # ---- merge-plan.json (UPDATE entries with node prose) ----
     merge_plan = []
     for name, entries in prose.items():
+        # recovery mode: only mapped names' prose — everyone else's prose already
+        # merged in the original apply (fab_merge_node's idempotency marker is
+        # run_id-keyed, and the recovery run_id differs, so re-emitting it here
+        # would double-append).
+        if recover_map is not None and name not in recover_map:
+            continue
         route = get_route(name)
         if route["decision"] != "update":
             continue
@@ -1907,6 +2043,10 @@ def main():
         f.write(json.dumps(summary_row, ensure_ascii=False) + "\n")
 
     # ---- Console report ----
+    if recover_map is not None:
+        print(f"RECOVERY MODE: {len(recover_map)} mapped names "
+              f"({sum(1 for v in recover_map.values() if v == 'CREATE')} CREATE) — "
+              f"only rows touching mapped names were processed.")
     print(f"Unit: {unit}  (run_id={run_id}, smoke={args.smoke})")
     print(f"Roster: {entities_rostered} entities -> matched {matched}, review {ambiguous_to_review}, created {created}")
     print(f"Edges candidates: {total_edges} ({dict(edges_by_type)})")
