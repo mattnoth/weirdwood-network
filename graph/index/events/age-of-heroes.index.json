@@ -3,7 +3,7 @@
   "name": "Age of Heroes",
   "type": "event.battle",
   "node_path": "graph/nodes/events/age-of-heroes.node.md",
-  "generated_at": "2026-07-10T02:27:34.758419+00:00",
+  "generated_at": "2026-07-10T02:36:41.013992+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,

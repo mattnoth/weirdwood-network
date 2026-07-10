@@ -7,7 +7,7 @@ confidence: tier-2
 era: dance-of-dragons
 pass_origin: pass-fab-enrichment
 occurred:
-  ac_year: 129
+  ac_year: 130
   precision: year
   basis_source: narrative-prose
   basis_reliability: primary-source
@@ -16,7 +16,7 @@ occurred:
 
 ## Identity
 
-prince taken
+Prince Viserys taken aboard the Gay Abandon by the Triarchy fleet
 
 ## Fire & Blood
 
