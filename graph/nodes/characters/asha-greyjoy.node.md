@@ -5,6 +5,7 @@ slug: asha-greyjoy
 aliases:
   - Esgred
   - The kraken's daughter
+  - "Yara Greyjoy"
 confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Asha_Greyjoy
 bucket_id: characters-house-greyjoy-a-g

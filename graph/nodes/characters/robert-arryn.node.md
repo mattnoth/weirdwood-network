@@ -5,6 +5,7 @@ slug: robert-arryn
 aliases:
   - "True Warden of the East"
   - "Sweetrobin"
+  - "Robin Arryn"
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Robert_Arryn"
 bucket_id: characters-house-arryn

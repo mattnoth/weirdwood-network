@@ -82,14 +82,25 @@ Spec = `[{"action":"FOLD"|"RENAME","old":"<slug>","new":"<slug>"}]`. Dry-run def
 - [x] great-council-of-101-ac retyped event.battle→event.council + real Identity line (was an empty wiki stub)
 
 **Remaining (each ~session-scale; see continue prompt):**
-- [ ] Lineages-appendix validation diff — §3.4 parser NOT BUILT yet (script-builder job: parse OCR'd genealogy
-      tables → diff vs kinship edges → confirm/new/conflict buckets; NEVER auto-mint from OCR)
-- [ ] F&B harvest drain — **337 rows** (bigger than the S152 dedicated 225-row session; subagents added ~23 this session)
-- [ ] Review-bucket triage — **1,440 reconcile-review rows** across all units (design §10.10: summary-level plan, not row-by-row)
-- [ ] Deferred-events triage — **37 rows** create-or-skip, PLUS the S202 event-residue: **mint death-of-aegon-ii
-      + larys-strong SUSPECTED_OF whodunit** (B6 R9 drop; hand unknowable, behest = gyldayn inference)
-- [ ] Small residues: KNIGHTED_BY direction audit (convention = knighter→knightee in 4/5; rickard-redwyne edge
-      inverted); capture-of-prince-viserys date wrinkle (129 vs 130 AC vs battle-of-the-gullet); B1's 2 dropped
-      PART_OF (murmison, aegon-uncrowned-seizes) optional re-add; B3 sun-chaser borderline fold revisit
+- [x] ~~Lineages-appendix validation diff~~ — **DONE S203**: `scripts/fab-lineages-diff.py` built (script-builder);
+      see S203 worklog entry for bucket counts; conflict bucket triaged in-session
+- [ ] F&B harvest drain — **337 rows** (bigger than the S152 dedicated 225-row session; subagents added ~23 in S202)
+      — **SPLIT to its own session** (S203 decision: context-heavy + most separable)
+- [x] ~~Review-bucket triage plan~~ — **DONE S203**: `REVIEW-BUCKET-TRIAGE-PLAN-s203.md` (11 classes, keep/drop
+      policy each; headline: event-dedup-risk 221 + composite-name 57 = a SECOND deferred-events vein; 147-entry
+      curated map recovers 514/929 unresolved rows). Recovery execution = follow-up sessions per the plan's sequencing.
+- [x] ~~Deferred-events triage~~ — **DONE S203**: 38 rows triaged (6 skip-exists / 2 fold / 30 CREATE incl.
+      death-of-aegon-ii + larys SUSPECTED_OF). All 30 minted (+47 edges), 2× Haiku fresh-verify + orchestrator
+      re-verify (caught 7 invented char slugs, 2 harm-gate flips, 1 dead-Daemon hallucination, 1 missed-quote
+      PROBLEM overturned). family.json golden repinned (prominence shift, mustInclude held).
+- [x] ~~Small residues~~ — **DONE S203**: KNIGHTED_BY audit resolved (architecture.md says Knight→Dubber; the
+      B5 "majority convention" note was BACKWARDS — 6 dubber→knight edges retyped to BESTOWS_KNIGHTHOOD_ON, the
+      3 "outliers" were correct); capture-of-prince-viserys 129→130 AC (Gullet "fifth day of the 130th year");
+      B1 PART_OF re-adds folded into the new zero-edge-stub class below. B3 sun-chaser fold revisit: noted-skip.
+- [ ] **NEW (S203): zero-edge F&B stub wiring** — 38 pass-fab-enrichment event nodes have NO edges
+      (`zero-edge-stubs-s203.jsonl`, unit provenance included). Each needs 1–3 role edges from its source
+      passage — same fresh-verify + quote machinery as the S203 deferred-events mint. Absorbs the B1 murmison /
+      aegon-uncrowned-seizes PART_OF re-adds.
 - [ ] **Strip-boilerplate track un-park condition is NOW MET** (last pack applied) — Matt-gated
-- [ ] Chat-bundle rebuild rides the next Matt-gated deploy (bundle rebuilt by refresh; deploy is manual per DEPLOY.md)
+- [x] ~~Chat-bundle rebuild + deploy~~ — **DONE S203**: deployed to prod TWICE (bundle w/ full bulk-apply graph +
+      show-watcher aliases; then the SHARED_RULES show-rule + the S203 mint). Live probe verified end-to-end.

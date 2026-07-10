@@ -3,7 +3,7 @@
   "name": "Camp follower",
   "type": "character.human",
   "node_path": "graph/nodes/characters/camp-follower.node.md",
-  "generated_at": "2026-07-10T02:36:45.616988+00:00",
+  "generated_at": "2026-07-10T02:40:37.300203+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_pov": 0,

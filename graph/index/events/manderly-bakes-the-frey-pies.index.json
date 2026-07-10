@@ -3,7 +3,7 @@
   "name": "Manderly bakes the Frey pies",
   "type": "event.incident",
   "node_path": "graph/nodes/events/manderly-bakes-the-frey-pies.node.md",
-  "generated_at": "2026-07-10T02:36:40.957641+00:00",
+  "generated_at": "2026-07-10T02:40:32.682744+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

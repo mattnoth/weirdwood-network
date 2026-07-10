@@ -3,7 +3,7 @@
   "name": "Fall of King's Landing",
   "type": "event.battle",
   "node_path": "graph/nodes/events/fall-of-kings-landing.node.md",
-  "generated_at": "2026-07-10T02:36:41.020423+00:00",
+  "generated_at": "2026-07-10T02:40:32.745782+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

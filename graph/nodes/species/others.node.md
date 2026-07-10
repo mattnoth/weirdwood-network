@@ -2,7 +2,7 @@
 name: "Others"
 type: species
 slug: others
-aliases: []
+aliases: ["White Walkers", "White Walker"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Others"
 bucket_id: tier3-pathb-longtail

@@ -2,7 +2,7 @@
 name: "Three-eyed crow"
 type: species
 slug: three-eyed-crow
-aliases: ["The last greenseer", "Lord Brynden"]
+aliases: ["The last greenseer", "Lord Brynden", "Three-Eyed Raven", "the Three-Eyed Raven"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Three-eyed_crow"
 bucket_id: tier3-pathb-longtail
