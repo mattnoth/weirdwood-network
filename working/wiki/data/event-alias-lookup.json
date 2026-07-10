@@ -220,7 +220,6 @@
     "arch kills the basilisk serjeant": "arch-kills-the-basilisk-serjeant",
     "archery competition": "martial-games",
     "archon of tyrosh": "archon-of-tyrosh-war-of-the-ninepenny-kings",
-    "archon of tyrosh (war of the ninepenny kings)": "archon-of-tyrosh-war-of-the-ninepenny-kings",
     "archon of tyrosh war of the ninepenny kings": "archon-of-tyrosh-war-of-the-ninepenny-kings",
     "areo hotah springs the ambush": "areo-hotah-springs-the-ambush",
     "arianne collapses and is captured": "arianne-collapses-and-is-captured",
@@ -3045,7 +3044,7 @@
     "lord owain the betrayer's death": "death-of-owain-bourney",
     "lord owain the betrayer's execution": "death-of-owain-bourney",
     "lord renly's shade at the blackwater": "garlan-tyrell-routs-stannis-as-renly-s-ghost",
-    "lord rogar's war": "lord-rogars-war",
+    "lord rogar's war": "third-dornish-war",
     "lord rogars war": "lord-rogars-war",
     "lord steffon's tourney": "lord-steffons-tourney",
     "lord steffons tourney": "lord-steffons-tourney",
@@ -5199,7 +5198,7 @@
     "the lord alyn's attack": "lord-alyns-attack",
     "the lord alyns attack": "lord-alyns-attack",
     "the lord commander choosing": "jon-elected-lord-commander",
-    "the lord rogar's war": "lord-rogars-war",
+    "the lord rogar's war": "third-dornish-war",
     "the lord steffon's tourney": "lord-steffons-tourney",
     "the lord steffons tourney": "lord-steffons-tourney",
     "the lord whents great tournament": "tourney-at-harrenhal",
@@ -13513,22 +13512,22 @@
       }
     ]
   },
-  "computed_at": "2026-07-10T14:28:42.070094+00:00",
+  "computed_at": "2026-07-10T19:28:47.863745+00:00",
   "stats": {
     "ambiguous_collisions": 364,
     "source_breakdown": {
-      "node-frontmatter-alias": 772,
-      "node-name": 1034,
-      "node-slug": 1034,
+      "node-frontmatter-alias": 773,
+      "node-name": 1032,
+      "node-slug": 1032,
       "variant-article": 1262,
       "victim-index": 4095,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 9099,
-    "unambiguous_lookups": 6712,
-    "unique_phrases": 7076
+    "total_entries_scanned": 9096,
+    "unambiguous_lookups": 6711,
+    "unique_phrases": 7075
   },
   "version": "v2"
 }

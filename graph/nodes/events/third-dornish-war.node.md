@@ -1,8 +1,8 @@
 ---
 name: "Third Dornish War"
-type: event.battle
+type: event.war
 slug: third-dornish-war
-aliases: []
+aliases: ["Lord Rogar's War"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Third_Dornish_War"
 bucket_id: battles-t-y

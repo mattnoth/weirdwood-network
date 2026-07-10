@@ -1,0 +1,7 @@
+{
+  "run_id": "cross-era-seams-s206-2026-07-10",
+  "verified_by": "fresh-verify-s206",
+  "_note": "Two independent adversarial Haiku fresh-verify passes both returned CONFIRM on all 20 candidate edges (0 REJECT, 0 ADJUST). BF7 (barristan KILLS maelys) dedup-skipped at mint (already in graph). No drops, no note-patches, no bug-repoints. This finalize only stamps the 4 verify-flagged pending edges (DS9, BF5, BF8, SK2) as fresh-verified.",
+  "drop": [],
+  "note_patch": {}
+}

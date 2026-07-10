@@ -1,6 +1,6 @@
 ---
 name: "Regency of Aegon III"
-type: event.battle
+type: event.council
 slug: regency-of-aegon-iii
 aliases: []
 confidence: tier-2

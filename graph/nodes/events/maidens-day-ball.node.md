@@ -1,6 +1,6 @@
 ---
 name: "Maiden's Day Ball"
-type: event.battle
+type: event.feast
 slug: maidens-day-ball
 aliases: ["the Cattle Show"]
 confidence: tier-2

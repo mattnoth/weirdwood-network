@@ -1,9 +1,9 @@
 {
   "slug": "third-dornish-war",
   "name": "Third Dornish War",
-  "type": "event.battle",
+  "type": "event.war",
   "node_path": "graph/nodes/events/third-dornish-war.node.md",
-  "generated_at": "2026-07-10T14:28:37.077855+00:00",
+  "generated_at": "2026-07-10T19:28:42.756893+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

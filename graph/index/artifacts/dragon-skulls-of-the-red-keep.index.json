@@ -1,0 +1,20 @@
+{
+  "slug": "dragon-skulls-of-the-red-keep",
+  "name": "Dragon skulls of the Red Keep",
+  "type": "object.artifact",
+  "node_path": "graph/nodes/artifacts/dragon-skulls-of-the-red-keep.node.md",
+  "generated_at": "2026-07-10T19:28:41.117922+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0,
+    "chapters_in_artifacts_section": 0
+  },
+  "chapters": {
+    "in_artifacts_section": [],
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

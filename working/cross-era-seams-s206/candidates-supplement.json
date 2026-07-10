@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "unit": "S206 Cross-era seams — supplement (Matt-flagged Blackfyre dual-house)",
+    "session": "S206",
+    "run_id": "cross-era-seams-s206-supplement-2026-07-10",
+    "new_node_slugs": [],
+    "note": "Matt flagged that Blackfyre is fundamentally the ancestral Valyrian steel sword of House TARGARYEN (Aegon the Conqueror's blade, borne by every Targaryen king since the Conquest), not only House Blackfyre's. The existing ANCESTRAL_WEAPON_OF house-blackfyre edge is correct but incomplete. This adds the primary Targaryen association (dual-house identity kept). Grounded in the tss Eustace quote.",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {"id": "BF9", "type": "ANCESTRAL_WEAPON_OF", "source": "blackfyre", "target": "house-targaryen", "book": "tss", "chapter": "tss-dunk-01", "quote": "the blade that every Targaryen king had wielded since the Conquest", "tier": "tier-1", "note": "Blackfyre is the ancestral Valyrian steel sword of House Targaryen -- Aegon the Conqueror's blade, borne by every Targaryen king from the Conquest until Aegon IV gave it to his bastard Daemon (who took the sword's name for House Blackfyre). Complements the existing ANCESTRAL_WEAPON_OF house-blackfyre edge; the sword has a dual-house identity. Matt-flagged S206."}
+  ]
+}
