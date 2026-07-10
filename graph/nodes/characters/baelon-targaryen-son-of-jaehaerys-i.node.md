@@ -82,6 +82,13 @@ At birth, Baelon was smaller than his older brother, [Aemon](wiki:Aemon_Targarye
 >
 > —[Alysanne](wiki:Alysanne_Targaryen)'s last words to her son
 
+> The truth of that was proved in 73 AC, when Baelon the Brave followed his brother into knighthood. Aemon had won his spurs at seventeen, so Baelon must needs do the same at sixteen, traveling across the Reach to Old Oak, where Lord Oakheart was celebrating the birth of a son with seven days of jousting. Arrayed as a mystery knight and calling himself the Silver Fool, the young prince overthrew Lord Rowan, Ser Alyn Ashford, both Fossoway twins, and Lord Oakheart’s own heir, Ser Denys, before falling to Ser Rickard Redwyne.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:51`)
+
+> Never one to be overshadowed, he had long since chosen the dragon he wished to mount, and now he claimed her. Unridden since the death of the Dowager Queen Visenya twenty-nine years before, the great she-dragon Vhagar spread her wings, roared, and launched herself once more into the skies, carrying the Spring Prince across Blackwater Bay to Dragonstone to surprise his brother Aemon and Caraxes.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:55`)
+
+
 ## Edges
 
 - PARENT_OF: Baelon Targaryen ← Jaehaerys I Targaryen (track_b: Father)

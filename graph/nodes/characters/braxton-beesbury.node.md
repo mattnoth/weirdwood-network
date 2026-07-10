@@ -51,6 +51,10 @@ Braxton was handsome and arrogant. Considered the finest young lance of the [Rea
 >
 > —[Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) and Braxton
 
+> We cannot have you spreading tales about my daughter, though, so we mean to take your tongue. And your nose as well, | think, so you may not find the maids quite so easy to beguile.
+> — Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:23`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->

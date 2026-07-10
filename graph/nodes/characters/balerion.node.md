@@ -112,3 +112,9 @@ Balerion was willful, and not a beast to trifle with.(wiki:Balerion.cite_ref-Rfa
 > Balerion the Black Dread was two hundred years old when he died during the reign of [Jaehaerys the Conciliator](wiki:Jaehaerys_I_Targaryen). He was so large he could swallow an [aurochs](wiki:Aurochs) whole. A [dragon](wiki:Dragon) never stops growing, Your Grace, so long as he has food and freedom.(wiki:Balerion.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
 >
 > —[Arstan Whitebeard](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+
+> Of the five dragons who had flown with Aenar the Exile from Valyria, only one survived to Aegon’s day: the great beast called Balerion, the Black Dread.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-aegons-conquest-03.md:39`)
+
+> Less than a year later, Balerion was gone. “The last living creature in all the world who saw Valyria in its glory,” wrote Septon Barth.
+> — Septon Barth, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:213`)

@@ -71,6 +71,9 @@ While riding in the chain winch at the [Wall](wiki:Wall), [Samwell Tarly](wiki:S
 Send me to the ends of the earth and wed me to the King of [Mossovy](wiki:Mossovy) or the Lord of the [Grey Waste](wiki:Grey_Waste), Silverwing will always bring me back to [Jaehaerys](wiki:Jaehaerys_I_Targaryen).(wiki:Silverwing.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 Silverwing had carried her to [Oldtown](wiki:Oldtown), to the [Wall](wiki:Wall), and to a thousand places in between, and Alysanne saw them all as few others ever would, looking down from above the clouds.(wiki:Silverwing.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
 
+> Later, singers would tell of how she thrice lifted Vermithor's wing with her nose, as if to make him fly again, but this is most like a fable.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:132`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->

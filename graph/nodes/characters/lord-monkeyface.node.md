@@ -30,6 +30,9 @@ Lord Monkeyface was hirsute and a hunchback.(wiki:Lord_Monkeyface.cite_ref-Rfabt
 >
 > —[Visenya Targaryen](wiki:Visenya_Targaryen), about the ape that replaced Lord Monkeyface
 
+> She was not without humor, however, and for many years kept her own fool, a hirsute hunchback called Lord Monkeyface whose antics amused her greatly. When he choked to death on a peach pit, the queen acquired an ape and dressed it in Lord Monkeyface’s clothing.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:269`)
+
 ## Edges
 
 - SWORN_TO: House Targaryen (track_b: Allegiance)

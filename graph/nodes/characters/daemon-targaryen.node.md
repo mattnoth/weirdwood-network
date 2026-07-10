@@ -181,6 +181,10 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 >
 > —[George R. R. Martin](wiki:George_R._R._Martin)
 
+> “We must fight this war with words before we go to battle,” the prince declared. The lords of the great houses held the key to victory, Daemon insisted; their bannermen and vassals would follow where they led.
+> — Daemon Targaryen, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:237`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

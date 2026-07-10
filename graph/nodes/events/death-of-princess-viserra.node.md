@@ -23,3 +23,8 @@ neck broken in a riding accident
 <!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->
 
 neck broken in a riding accident
+
+## Quotes
+
+> Frustrated, Viserra next turned to her brother Baelon in hopes of rescue, if court gossip can be believed.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:83`)

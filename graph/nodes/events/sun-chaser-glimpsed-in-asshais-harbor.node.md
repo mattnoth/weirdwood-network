@@ -17,3 +17,8 @@ ship sworn to be Sun Chaser seen years later
 <!-- fab-enriched: fab-the-long-reign-13-2026-07-09 -->
 
 ship sworn to be Sun Chaser seen years later
+
+## Quotes
+
+> There he lost his love and half his crew, if the tales be true...and there as well, in Asshai's harbor, he glimpsed an old and much weathered ship that he would swear forevermore could only have been Sun Chaser.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-13.md:75`)

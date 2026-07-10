@@ -1,0 +1,338 @@
+[
+ {
+  "row": 3,
+  "snippet": "Queen Naerys\u2019s son, by Aegon or Aemon",
+  "kind": "cross-identity",
+  "note": "disputed paternity of Daeron II (Aegon IV or Aemon the Dragonknight)",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 59
+ },
+ {
+  "row": 9,
+  "snippet": "used the occasion of the king's coronation to switch the twins",
+  "kind": "cross-identity",
+  "note": "Aerea and Rhaella believed switched, Aerea now heir",
+  "unit": "fab-prince-into-king-06",
+  "line": 185
+ },
+ {
+  "row": 29,
+  "snippet": "the last of her bastards by Ser Harwin Strong",
+  "kind": "cross-identity",
+  "note": "Joffrey's disputed paternity, Laenor vs Harwin Strong",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 171
+ },
+ {
+  "row": 34,
+  "snippet": "a Dornish whore named Sylvenna Sand",
+  "kind": "cross-identity",
+  "note": "Gaemon Palehair's edicts attributed to Sylvenna Sand",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 275
+ },
+ {
+  "row": 37,
+  "snippet": "born Addam of Hull",
+  "kind": "cross-identity",
+  "note": "Ser Addam Velaryon revealed as born Addam of Hull; tomb reads LOYAL",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 155
+ },
+ {
+  "row": 49,
+  "snippet": "the younger son of Mouse, the shipwright\u2019s daughter",
+  "kind": "cross-identity",
+  "note": "Marilda \"Mouse\" of Hull, mother of Alyn and Addam",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 25
+ },
+ {
+  "row": 70,
+  "snippet": "Your Grace is welcome to try and take her from me",
+  "kind": "cross-identity",
+  "note": "Maegor refuses to surrender Blackfyre on going into exile",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 237
+ },
+ {
+  "row": 72,
+  "snippet": "It was whispered (though never proved)",
+  "kind": "cross-identity",
+  "note": "Rhaena's rumored lowborn lover, named variously knight/singer/smith/septon",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 29
+ },
+ {
+  "row": 75,
+  "snippet": "Some said the woman was Maegor's concubine",
+  "kind": "cross-identity",
+  "note": "Tyanna framed as Maegor's concubine vs Alys's paramour",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 131
+ },
+ {
+  "row": 87,
+  "snippet": "the bastard hedge knight who had escaped the carnage at the Great Fork",
+  "kind": "cross-identity",
+  "note": "Wendwater rescue leader revealed as Ser Horys Hill",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 0
+ },
+ {
+  "row": 89,
+  "snippet": "a matter of some dispute",
+  "kind": "cross-identity",
+  "note": "man at the inn is either Borys Baratheon or Lord Rogar across book versions",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 0
+ },
+ {
+  "row": 90,
+  "snippet": "not with Androw, but with his sister, Lady Elissa",
+  "kind": "cross-identity",
+  "note": "Maester Smike alleges Rhaena's true love was Elissa Farman",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 239
+ },
+ {
+  "row": 98,
+  "snippet": "Dressed in the rags of a common girl",
+  "kind": "cross-identity",
+  "note": "Princess Aerea hidden as a stable girl with dyed hair",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 183
+ },
+ {
+  "row": 99,
+  "snippet": "she was the actual Princess Aerea, not",
+  "kind": "cross-identity",
+  "note": "Rogar's plot to pass novice Rhaella off as Aerea",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 201
+ },
+ {
+  "row": 102,
+  "snippet": "a pinch of poison in his hippocras",
+  "kind": "cross-identity",
+  "note": "Mushroom alone alleges Alicent poisoned Viserys; he was on Dragonstone, not present",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 45
+ },
+ {
+  "row": 108,
+  "snippet": "Only Targaryens ride dragons",
+  "kind": "cross-identity",
+  "note": "the Velaryon boys' answer to the \"Strong\" bastardy charge \u2014 dragonback as proof of blood",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 261
+ },
+ {
+  "row": 115,
+  "snippet": "with the name of Sara Snow",
+  "kind": "cross-identity",
+  "note": "Mushroom's disputed \"wolf girl\" bastard of Lord Rickon Stark",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 149
+ },
+ {
+  "row": 116,
+  "snippet": "Munkun and Eustace tell us she was sired by Lord Lyonel Strong",
+  "kind": "cross-identity",
+  "note": "disputed parentage of Alys Rivers",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 85
+ },
+ {
+  "row": 119,
+  "snippet": "who would henceforth be known as Aemond the Kinslayer to his foes",
+  "kind": "cross-identity",
+  "note": "Aemond's epithet after killing Lucerys",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 251
+ },
+ {
+  "row": 120,
+  "snippet": "The other harlots called her Misery",
+  "kind": "cross-identity",
+  "note": "Mysaria as Misery / the White Worm, Daemon's go-between",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 277
+ },
+ {
+  "row": 124,
+  "snippet": "a great deal of drinking and fornication took place, claims Mushroom",
+  "kind": "cross-identity",
+  "note": "paired Mushroom/Eustace conflicting accounts of the pre-wedding city",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 41
+ },
+ {
+  "row": 131,
+  "snippet": "I've bedded two of his sons",
+  "kind": "cross-identity",
+  "note": "Baela's disputed provocation to the Hand",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 223
+ },
+ {
+  "row": 132,
+  "snippet": "the boy had been sired by Bold Jon Roxton",
+  "kind": "cross-identity",
+  "note": "disputed paternity of Sharis Footly's Tumbleton heir",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 271
+ },
+ {
+  "row": 136,
+  "snippet": "born Elissa of House Farman",
+  "kind": "cross-identity",
+  "note": "Alys Westhill is Elissa Farman",
+  "unit": "fab-the-long-reign-13",
+  "line": 71
+ },
+ {
+  "row": 146,
+  "snippet": "it was not Daenerys that she took after, but Baelon",
+  "kind": "cross-identity",
+  "note": "Princess Alyssa resembles Baelon not Daenerys",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 153
+ },
+ {
+  "row": 166,
+  "snippet": "| gave it to all three",
+  "kind": "cross-identity",
+  "note": "Saera's confession of taking three lovers",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 0
+ },
+ {
+  "row": 185,
+  "snippet": "a \"fire witch\" who once dwelled in a hidden vale",
+  "kind": "cross-identity",
+  "note": "Nettles remembered in mountain-clan legend",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 159
+ },
+ {
+  "row": 203,
+  "snippet": "hitting the babe with the dragon's egg",
+  "kind": "cross-identity",
+  "note": "toddler Aegon strikes newborn Aemon with a dragon's egg",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 221
+ },
+ {
+  "row": 208,
+  "snippet": "whether this is fact or mere family legend",
+  "kind": "cross-identity",
+  "note": "Black Aly's kill-shot on Amos Bracken flagged as legend",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 213,
+  "snippet": "the Cargyll twins slew each other",
+  "kind": "cross-identity",
+  "note": "disputed duel of identical Kingsguard twins Arryk and Erryk",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 107
+ },
+ {
+  "row": 220,
+  "snippet": "sired not by the Sea Snake's son, but by the Sea Snake himself",
+  "kind": "cross-identity",
+  "note": "Mushroom's disputed paternity claim for Addam and Alyn",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 235
+ },
+ {
+  "row": 221,
+  "snippet": "became Addam Velaryon, heir to Driftmark",
+  "kind": "cross-identity",
+  "note": "dragonseed legitimized into Velaryon heir",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 228,
+  "snippet": "who had once been milk brother to Prince Jacaerys",
+  "kind": "cross-identity",
+  "note": "Daeron and Jacaerys milk brothers on opposing sides",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 61
+ },
+ {
+  "row": 238,
+  "snippet": "the traveler's \"son\" was Maelor Targaryen",
+  "kind": "cross-identity",
+  "note": "disguised Kingsguard reveal on the Bitterbridge road",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 63
+ },
+ {
+  "row": 255,
+  "snippet": "Prince Daeron named him Lord of Bitterbridge",
+  "kind": "cross-identity",
+  "note": "Ulf White styled Lord of Bitterbridge",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 155
+ },
+ {
+  "row": 256,
+  "snippet": "Lord Hammer (as he now styled himself)",
+  "kind": "cross-identity",
+  "note": "Hugh Hammer styling himself lord and dreaming of kingship",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 163
+ },
+ {
+  "row": 270,
+  "snippet": "Oakenfist's \u201ctreasure\u201d was Viserys Targaryen",
+  "kind": "cross-identity",
+  "note": "the \"treasure\" revealed as the lost prince Viserys",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 163
+ },
+ {
+  "row": 273,
+  "snippet": "would become known in the histories of Westeros as Larra of Lys",
+  "kind": "cross-identity",
+  "note": "Larra Rogare alias Larra of Lys",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 179
+ },
+ {
+  "row": 277,
+  "snippet": "Kingsguard serve for life",
+  "kind": "cross-identity",
+  "note": "Mushroom's version of Aegon III protesting the dismissal of Massey and Darklyn",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 217
+ },
+ {
+  "row": 285,
+  "snippet": "the name that he would carry for the rest of his long life: Oakenfist",
+  "kind": "cross-identity",
+  "note": "Alyn Velaryon earns the byname Oakenfist",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 159
+ },
+ {
+  "row": 292,
+  "snippet": "just as her mother, Queen Helaena, had",
+  "kind": "cross-identity",
+  "note": "Jaehaera dies by the same window-fall as her mother Helaena",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 29
+ },
+ {
+  "row": 307,
+  "snippet": "Rhaena was a sorceress, who had used the dark arts to murder Maegor",
+  "kind": "cross-identity",
+  "note": "whispered accusation against Queen Rhaena",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 149
+ }
+]

@@ -34,3 +34,7 @@ According to a semi-canon source, Gyldayn lived into the reign of King [Robert I
 > Who can know the heart of a [dragon](wiki:Dragon)?(wiki:Gyldayn.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 >
 > —Gyldayn writing about [Tessarion](wiki:Tessarion)
+
+> Though the lusts of men and the cruelty of women can never be gainsaid, we put no credence in Mushroom here. That such a tale was told in the wine sinks and pot shops of King’s Landing cannot be doubted, but it may be that its provenance was later, when King Aegon II was seeking justification for the cruelty of his own acts.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:205`)
+

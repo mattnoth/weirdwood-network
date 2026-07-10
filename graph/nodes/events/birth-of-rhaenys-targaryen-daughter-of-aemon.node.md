@@ -23,3 +23,8 @@ first grandchild born, hailed queen to be
 <!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
 
 first grandchild born, hailed queen to be
+
+## Quotes
+
+> Princess Rhaenys was born on the seventh day of the seventh moon of the year, which the septons judged to be highly auspicious. Large and fierce, she had the black hair of her Baratheon mother and the pale violet eyes of her Targaryen father. As the firstborn child of the Prince of Dragonstone, many hailed her as next in line for the Iron Throne after her father. When Queen Alysanne held her in her arms for the first time, she was heard to call the little girl "our queen to be."
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:145`)

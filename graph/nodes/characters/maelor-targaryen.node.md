@@ -62,6 +62,10 @@ Maelor possessed a [dragon egg](wiki:Dragon_egg), that was pale green with sworl
 >
 > —[Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)), to [Lady Caswell](wiki:Lady_Caswell)
 
+> With so many present on the bridge, it is not surprising that we have many differing accounts of what befell Maelor Targaryen. Mushroom tells us that Willow Pound-Stone clutched the boy so tightly that she broke his back and crushed him to death.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:81`)
+
+
 ## Edges
 
 - PARENT_OF (reverse): Aegon II Targaryen is parent (track_b: Father)

@@ -252,6 +252,22 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 >
 > —[Torrhen Manderly](wiki:Torrhen_Manderly)
 
+> “Both of them are broken,” Grand Maester Munkun declared in a letter to the Conclave.
+> — Grand Maester Munkun, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:131`)
+
+> “And if | will not, who will you punish, ser?” King Aegon shouted down at him. “You may beat poor Gaemon’'s bones, but you will get no more blood from him.”
+> — Aegon III Targaryen, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:17`)
+
+> “You stood beside me when the dragon ate my mother,” Aegon answered. “All you did was watch. | will not have you watch while they kill my brother's wife.”
+> — Aegon III Targaryen, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:283`)
+
+> And thus did the rule of the regents come whimpering to an end, as the broken reign of the Broken King began.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:297`)
+
+> Elsewise, Septon Eustace tells us, the king received the decrees “courteously” and thanked Lord Peake for his wisdom, as “I am still a boy, as your lordship knows, and in want of instruction in these matters.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:31`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->

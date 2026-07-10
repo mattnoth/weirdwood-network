@@ -44,3 +44,8 @@ Brandon died soon after returning to [Winterfell](wiki:Winterfell), the northmen
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-09 -->
 
 - Brandon Stark, Lord of Winterfell, died in 49 AC not long after returning from the Golden Wedding, the journey said to have asked too much of him (fab-surfeit-of-rulers-08-p02:95)
+
+## Quotes
+
+> The most profound praise came from Brandon Stark, Lord of Winterfell, who said, “| see his grandsire in him.”
+> — Brandon Stark, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:89`)

@@ -39,6 +39,12 @@ Mervyn was regarded by most as a dutiful and leal man who did as he was told. A 
 
 According to [Mushroom](wiki:Mushroom), Mervyn was fond of [wine](wiki:Wine). Mervyn did not remain chaste after being named into the white cloaks. In fact, he was known for using his rough charm on washerwomen and serving girls, and slept with them in his cell at the [White Sword Tower](wiki:White_Sword_Tower).(wiki:Mervyn_Flowers.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
+## Quotes
+
+> If Ser Mervyn had killed the queen, he would have done it with a pillow, the fool insists...before suggesting a far more sinister and likely possibility. Flowers would never have pushed the queen out that window, the dwarf claims, but he might well have stood aside to allow someone else to enter her room, if that someone were known to him...someone, mayhaps, like Tessario the Thumb, or one of the Fingers.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:75`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->

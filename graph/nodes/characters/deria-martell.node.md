@@ -44,6 +44,12 @@ In [37 AC](wiki:37_AC), Aenys succeeded his father as king, and was almost imme
 
 Two death dates in infobox (37 and 49 AC) suggest an uncertain date range (track_b: Died).
 
+## Quotes
+
+> Though Princess Deria continued to issue denunciations from Sunspear, there were many who suspected that she was playing a double game, for she did not take the field against the rebels and was rumored to be sending them men, money, and supplies.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:207`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->

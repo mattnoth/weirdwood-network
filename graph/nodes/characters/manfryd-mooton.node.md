@@ -45,6 +45,10 @@ Manfryd died of age and [illness](wiki:Illness) in [134 AC](wiki:134_AC).(wiki:M
 Manfryd: These are foul times and it is a foul choice [this queen](wiki:Rhaenyra_Targaryen) has given me. [The girl](wiki:Nettles) is a guest beneath my roof. If I obey, [Maidenpool](wiki:Maidenpool) shall be forever cursed. If I refuse, we shall be attainted and destroyedBrother: It may be we shall be destroyed whatever choice we make. [The prince](wiki:Daemon_Targaryen) is more than fond of this brown child, and [his dragon](wiki:Caraxes) is close at hand. A wise lord would kill them both, lest the prince burn Maidenpool in his wroth.Manfryd: The queen has forbidden any harm to come to him, and murdering two guests in their beds is twice as foul as murdering one. I should be [doubly cursed](wiki:Guest_right). Would that I had never read this letter.Norren: Mayhaps you never did.(wiki:Manfryd_Mooton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 If [he](wiki:Aegon_III_Targaryen) dies without an heir, we shall [dance](wiki:Dance_of_the_Dragons) again, however much we may dislike the music.(wiki:Manfryd_Mooton.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 
+> So it came to pass that Lord Mooton returned to King's Landing with peace in hand, but at a grievous cost. The huge indemnity demanded by the Sealord so depleted the royal treasury that Lord Peake soon found it necessary to borrow from the Iron Bank of Braavos just so the Crown might pay its debts, and that in turn required him to reinstate certain of Lord Celtigar’s taxes that Ser Tyland Lannister had abolished, which angered lords and merchants alike and weakened his support amongst the smallfolk.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:17`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->

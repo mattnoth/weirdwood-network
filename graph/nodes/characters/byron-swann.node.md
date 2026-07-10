@@ -40,6 +40,12 @@ All accounts agree that the dragon stirred upon the knight's approach and unleas
 
 During their voyage on the [Rhoyne](wiki:Rhoyne), [Tyrion Lannister](wiki:Tyrion_Lannister) and [Haldon Halfmaester](wiki:Haldon_Halfmaester) debate Ser Byron Swann's death, and whether he faced Syrax or Vhagar.(wiki:Byron_Swann.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
+## Quotes
+
+> But here confusion arises, for Munkun says it was Vhagar that Swann meant to kill, to put an end to Prince Aemond’s raids...but it must be remembered that Munkun draws largely on Grand Maester Orwyle for his version of events, and Orwyle was in the dungeons when these things occurred.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:147`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->

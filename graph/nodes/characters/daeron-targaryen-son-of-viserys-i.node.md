@@ -61,6 +61,10 @@ After briefly regaining the [Iron Throne](wiki:Iron_Throne), King [Aegon II Targ
 
 Ormund: Ser Daeron the Daring.Daeron: My Lord is kind to say so, but the victory belongs to [Tessarion](wiki:Tessarion).(wiki:Daeron_Targaryen_(son_of_Viserys_I).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
 
+> Three conflicting accounts exist as to the manner of death of Prince Daeron Targaryen. The best known claims that the prince stumbled from his pavilion with his nightclothes afire, only to be cut down by the Myrish sellsword Black Trombo, who smashed his face in with a swing of his spiked morningstar.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:83`)
+
+
 ## Quotes
 
 Little boys should be more mannerly when men are speaking. I think [your father](wiki:Viserys_I_Targaryen) did not beat you often enough. Take care I do not make up for his lack.(wiki:Daeron_Targaryen_(son_of_Viserys_I).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)

@@ -134,6 +134,34 @@ It was widely known that the promiscuous Aegon had fathered several [bastards](w
 >
 > —Aegon after the death of [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)
 
+> “I shall not walk that road again,” he said. “Nor am | such a fool as to drink any potion you might prepare for me. You are my sister's creature.”
+> — Aegon II Targaryen, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:275`)
+
+> Supported by two of his Kingsguard, King Aegon rose from his cushions, tottered to the pole where the prophet had been chained, and set him aflame with his own hand.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:113`)
+
+> Moreover, the prince at first refused to be a part of his mother's plans. “My sister is the heir, not me,” he says in Eustace’s account. “What sort of brother steals his sister's birthright?”
+> — Aegon II Targaryen, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:129`)
+
+> Septon Eustace tells us of one occasion when Aegon entered the Tower of the Hand and found Ser Otto writing another letter, whereupon he knocked the inkpot into his grandsire’s lap, declaring, “Thrones are won with swords, not quills. Spill blood, not ink.”
+> — Aegon II Targaryen, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:39`)
+
+> And Sunfyre, that splendid golden beast, had one wing half torn from his body, whilst his royal rider had suffered broken ribs, a broken hip, and burns that covered half his body. His left arm was the worst. The dragonflame had burned so hot that the king’s armor had melted into his flesh.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:137`)
+
+> Ser Gyles Belgrave, the Kingsguard knight commanding his escort, testified afterward that His Grace seemed unusually fatigued as he was helped into the litter, his face “grey and ashen, sagging,” yet instead of asking to be carried back to his chambers, he told Ser Gyles to take him to the castle sept.
+> — Ser Gyles Belgrave, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:267`)
+
+> he time for hiding is done,” King Aegon II declared on Dragonstone, after Sunfyre had feasted on his sister. “Let the ravens fly that the realm may know the pretender is dead, and their true king is coming home to reclaim his father’s throne.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:17`)
+
+> That answer was no answer, plainly. “Not Silverwing," His Grace declared. “I will have a new Sunfyre, prouder and fiercer than the last.”
+> — Aegon II Targaryen, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:141`)
+
+> Yet whilst the hand that poisoned the Arbor red will never be known, we can have no doubt that it was done at the behest of Larys Strong.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:277`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

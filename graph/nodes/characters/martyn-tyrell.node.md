@@ -33,6 +33,12 @@ Martyn was a young man when his lord father passed away in [59 AC](wiki:59_AC).
 - PARENT_OF (reverse): Bertrand Tyrell (track_b: Father)
 - SPOUSE_OF: Florence Fossoway (track_b: Spouse)
 
+## Quotes
+
+> “Our good septon has never led us wrong. Let us try the dolt with the clever wife, and hope that my leal smallfolk do not beat his head in with a cobblestone.”
+> — Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:141`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->

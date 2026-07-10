@@ -79,6 +79,10 @@ Dalton was a daring and bloodthirsty man. He was loved by his men but not by his
 >
 > —writings of [Hake](wiki:Hake_(archmaester))
 
+> All that is known for a certainty is that on a rainy, windswept night at Faircastle, as the longships gathered below, Lord Dalton had his pleasure of her, and afterward, as he slept, Tess slipped his dagger from its sheath and opened his throat from ear to ear, then threw herself naked and bloody into the hungry sea below.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:85`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Lord Reaper of Pyke (track_b: Titles)

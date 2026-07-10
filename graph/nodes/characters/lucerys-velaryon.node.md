@@ -64,6 +64,10 @@ Lucerys: I will not fight you. I came here as an envoy, not a knight.
 And with his death, the war of [ravens](wiki:Raven) and envoys and [marriage](wiki:Marriage) pacts came to an end, and the war of fire and blood began in earnest.(wiki:Lucerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 An eye for an eye, a son for a son. Lucerys [shall be avenged](wiki:Blood_and_Cheese).(wiki:Lucerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
 
+> The True Telling gives all these tales the respect they deserve...which is to say, none. Lucerys Velaryon died with his dragon, Munkun insists. This is undoubtedly correct.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:249`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

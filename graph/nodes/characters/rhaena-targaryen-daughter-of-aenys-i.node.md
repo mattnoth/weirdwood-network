@@ -155,6 +155,19 @@ Rhaena had an exquisite singing voice. At eighteen, Rhaena was considered brave,
 >
 > —[Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen), at Rhaena's funeral pyre
 
+> Though she could change her name, dye her hair, and garb herself in a tavern wench’s roughspun or the robes of a septa, there was no disguising her dragon.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:165`)
+
+> Together with Alayne Royce and Samantha Stokeworth, two of Rhaena’s oldest friends, they became nigh inseparable, a court within the court that Ser Franklyn Farman, Lord Marq’s elder son, dubbed “the Four-Headed Beast.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p02.md:19`)
+
+> It was Princess Rhaena, legend says, who put a dragon’s egg in Princess Alysanne’s cradle, just as she had for Prince Jaehaerys two years earlier. If those tales be true, from those eggs came the dragons Silverwing and Vermithor, whose names would be writ so large in the annals of the years to come.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:105`)
+
+> “Done,” the king said... mayhaps too hastily, for it must be remembered that Aerea Targaryen, a girl of eight, was his own acknowledged successor, heir apparent to the Iron Throne. The consequences of this decision would not be known for years to come, however. For the nonce it was done, and the Queen in the West at a stroke became the Queen in the East.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-time-of-testing-09.md:221`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Titles)

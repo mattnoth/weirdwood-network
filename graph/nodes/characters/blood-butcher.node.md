@@ -40,6 +40,10 @@ Blood was seized two days later at the [Gate of the Gods](wiki:Gate_of_the_Gods)
 
 It has to be a boy.(wiki:Blood_(butcher).cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 
+> One had been a serjeant in the City Watch; big and brutal, he had lost his gold cloak for beating a whore to death whilst in a drunken rage. The other was a ratcatcher in the Red Keep. Their true names are lost to history. They are remembered (would that they were not!) as Blood and Cheese.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:259`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->

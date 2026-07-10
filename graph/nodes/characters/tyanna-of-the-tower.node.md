@@ -64,6 +64,12 @@ Tyanna is said to have dabbled in [sorcery](wiki:Magic) and [alchemy](wiki:Alche
 
 Died 48 AC (track_b: Died). The lover relationship with Alys Harroway is marked as rumored on the wiki page (Tier 2 — wiki hedges with "rumored").
 
+## Quotes
+
+> It is said that the king slew her himself, cutting out her heart with Blackfyre and feeding it to his dogs. But even in death, Tyanna of the Tower had her revenge, for it came to pass just as she had promised.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:209`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->

@@ -42,3 +42,6 @@ The wedding was followed by seven days of feasting and [tourneys](wiki:Tourney),
 ## Quotes
 
 Never has there been such a glory in all the annals of [Westeros](wiki:Westeros).(wiki:Golden_Wedding.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+> Though no record of it exists in any court chronicle, tales told by servants and repeated for many years thereafter amongst the smallfolk claim that Lord Rogar's brothers had brought seven virgins across the narrow sea from the finest pleasure houses of Lys.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:95`)

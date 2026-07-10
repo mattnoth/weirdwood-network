@@ -72,6 +72,13 @@ Though [Blood and Cheese](wiki:Blood_and_Cheese) had spared her life, Queen Hela
 [This unnatural queen](wiki:Rhaenyra_Targaryen) who sits bleeding on the [Iron Throne](wiki:Iron_Throne), her [whore](wiki:Whore)'s lips glistening and red with the blood of her sweet sister.(wiki:Helaena_Targaryen.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-5)
 I want to see my sons again, and Helaena, my sweet girl...(wiki:Helaena_Targaryen.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
 
+> Mushroom asserts that Helaena was with child after her days and nights of being sold for a common whore, but this explanation is only as creditable as his tale of the Brothel Queens, which is to say, not creditable at all.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:25`)
+
+> Though Blood and Cheese had spared her life, Queen Helaena cannot be said to have survived that fateful dusk. Afterward she would not eat, nor bathe, nor leave her chambers, and she could no longer stand to look upon her son Maelor, knowing that she had named him to die.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:15`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

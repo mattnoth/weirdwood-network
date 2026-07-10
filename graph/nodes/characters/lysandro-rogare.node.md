@@ -38,6 +38,12 @@ Lysandro Rogare was the patriarch of the rich and powerful [Rogare](wiki:House_R
 
 Lysandro was the head of the [Rogare Bank](wiki:Rogare_Bank), which was even more powerful than the [Iron Bank of Braavos](wiki:Iron_Bank_of_Braavos) for a time. After Larra's marriage to Prince [Viserys Targaryen](wiki:Viserys_II_Targaryen), Lysandro styled himself [First Magister for Life](wiki:First_Magister_for_Life) and people called him *the Magnificent*. However, he and his brother died within a day of each other and thus the fall of the Rogares began both in [Lys](wiki:Lys) and the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Lysandro_Rogare.cite_ref-Rtwoiaf_the_free_cities:_the_quarrelsome_daughters:_myr.2C_lys.2C_and_tyrosh.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
+## Quotes
+
+> Though a few would insist that their deaths were unfortunate accidents, many more took the manner and timing of their passings as proof of a plot to bring down House Rogare. The Faceless Men of Braavos were widely believed to have been responsible for the killings; no more subtle assassins were known to exist anywhere in the wide world.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:169`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->

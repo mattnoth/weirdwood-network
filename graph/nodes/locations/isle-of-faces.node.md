@@ -30,3 +30,8 @@ During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), [Addam Velaryon](w
 ### A Storm of Swords[ ]
 
 [Meera Reed](wiki:Meera_Reed) tells [Bran Stark](wiki:Bran_Stark) a story about a [crannogman](wiki:Crannogman) who went to the Isle of Faces in the [year of the false spring](wiki:Year_of_the_false_spring). He remained there for a while before travelling to a [tourney at Harrenhal](wiki:Tourney_at_Harrenhal) in which the [Knight of the Laughing Tree](wiki:Knight_of_the_Laughing_Tree) participated.(wiki:Isle_of_Faces.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Quotes
+
+> Singers say Ser Addam had flown from King's Landing to the Gods Eye, where he landed on the sacred Isle of Faces and took counsel with the Green Men. The scholar must confine himself to known fact, and what we know is that Ser Addam flew far and fast, descending on castles great and small whose lords were loyal to the queen, to piece together an army.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:49`)

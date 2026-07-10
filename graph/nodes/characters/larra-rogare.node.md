@@ -90,6 +90,9 @@ According to [Mushroom](wiki:Mushroom), Larra liked to hear the music played by 
 >
 > —[Bernard](wiki:Bernard), as paraphrased by [Gyldayn](wiki:Gyldayn)
 
+> It was even said that Larra herself could transform into a cat, to prowl the gutters and rooftops of the city.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:53`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->

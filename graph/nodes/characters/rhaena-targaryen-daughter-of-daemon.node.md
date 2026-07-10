@@ -72,6 +72,10 @@ Later in life, Rhaena married [Garmund Hightower](wiki:Garmund_Hightower), the y
 So long as [my husband] is kind and gentle and noble, I know that I shall love him.(wiki:Rhaena_Targaryen_(daughter_of_Daemon).cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 Brother, if it please you, we have brought [your new queen](wiki:Daenaera_Velaryon).(wiki:Rhaena_Targaryen_(daughter_of_Daemon).cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
+> Lady Rhaena of House Targaryen, brave Baela’s twin, had brought a dragon’s egg with her to the Vale...an egg that had proved fertile, bringing forth a pale pink hatchling with black horns and crest. Rhaena named her Morning.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:125`)
+
+
 ## Quotes
 
 Lady Rhaena would make a splendid queen.(wiki:Rhaena_Targaryen_(daughter_of_Daemon).cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)

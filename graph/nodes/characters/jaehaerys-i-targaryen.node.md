@@ -246,6 +246,37 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 >
 > —writings of [Barth](wiki:Barth)
 
+> “He grows larger every day,” Jaehaerys said as he scratched the great wyrm under his jaw. “Keep your nieces and your nephews, my lord. Why would | need hostages? | have your word, that is all that | require.” But Grand Maester Benifer heard the words he did not speak. “Every man and maid and child in the stormlands is my hostage, whilst | ride him, His Grace said without saying,” wrote Benifer, “and Lord Rogar heard him plain.”
+> — Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-time-of-testing-09.md:119`)
+
+> aehaerys I Targaryen ascended the Iron Throne in 48 AC at the age of fourteen and would rule the Seven Kingdoms for the next fifty-five years, until his death of natural causes in 103 AC.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-prince-into-king-06.md:15`)
+
+> The realm was at peace when my grandsire died, but scarcely had my father climbed onto the throne than foes rose up on every side. They were testing him, to learn if he was strong or weak. They will test me as well.
+> — Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:107`)
+
+> The king slapped the table hard. “Roads, my lord. | do not see roads. | see some ruts, if | fly low enough. | see some game trails, and here and there a footpath by a stream. But | do not see any proper roads. My lords, | will have roads!”
+> — Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:227`)
+
+> “He bound the land together, and made of seven kingdoms, one,” read the words on the plinth of the Old King’s monument that stands at the Citadel of Oldtown.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:15`)
+
+> “You need her as a Dornishman needs a pit viper,” Jaehaerys said. “I am sorry. King's Landing has sufficient whores. | do not wish to hear her name again.”
+> — Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:123`)
+
+> All reports agree that the king’s return from Oldtown to King’s Landing was a triumph. Ser Joffrey rode by his side, and all along the route they were hailed by cheering throngs. Here and there Poor Fellows appeared, gaunt unwashed fellows with long beards and great axes, to beg for the same clemency that had been granted the Red Dog. This Jaehaerys granted them, on the condition that they agreed to journey north and join the Night’s Watch at the Wall.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:15`)
+
+> That night, under cover of darkness, King Jaehaerys and Princess Alysanne mounted their dragons, Vermithor and Silverwing, and departed the Red Keep for the ancient Targaryen citadel below the Dragonmont. Reportedly the first words the young king spoke upon landing were, “I have need of a septon.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:203`)
+
+> “As you command, Mother.” King Jaehaerys pulled his sister closer and put his arm around her. “But do not think that you shall unmake this marriage. We are one now, and neither gods nor men shall part us.”
+> — Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:261`)
+
+> Alysanne wept when she heard, for she knew her cause was hopeless. Jaehaerys was hard as stone. “Saera with a dragon,” was all he had to say. “Would she have taken Balerion as well, | wonder?”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:245`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

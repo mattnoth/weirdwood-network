@@ -38,6 +38,9 @@ After the events of the [secret siege](wiki:Secret_siege), Lotho was tried, accu
 >
 > —Lotho, to [Torrhen Manderly](wiki:Torrhen_Manderly)
 
+> “Then praise Yndros, | am left-handed,” Lotho said, choosing mutilation.
+> — Lotho Rogare, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:195`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->

@@ -37,3 +37,8 @@ The Two Toms accompanied King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) when
 
 - Found in a tavern on Eel Alley protesting he was a simple fisherman, his captors drowned him in a cask of ale (fab-short-sad-reign-of-aegon-ii-19:257)
 - Tom Tanglebeard, father of Tom Tangletongue, was absent from the castle during the coup (fab-short-sad-reign-of-aegon-ii-19:255)
+
+## Quotes
+
+> His father Tom Tanglebeard was absent from the castle, but they found him in a tavern on Eel Alley. When he protested that he was “just a simple fisherman, come to have an ale,” his captors drowned him in a cask of same.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:255`)

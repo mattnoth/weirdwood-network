@@ -64,6 +64,16 @@ The heads of Larys and Gyles were mounted on pikes by the gates of the [Red Keep
 When was a [wolf](wiki:House_Stark) ever moved by words?(wiki:Larys_Strong.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
 When I am dead, hack off my clubfoot with [that great sword](wiki:Ice) of yours. I have dragged it with me all through life, let me be free of it in death at least.(wiki:Larys_Strong.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
 
+> And thus did he spin his webs of deceit and betrayal, setting each against the other.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:185`)
+
+> When Lord Stark asked if he had anything to say in his own defense, he said only, “When was a wolf ever moved by words?”
+> — Larys Strong, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:201`)
+
+> It was Lord Larys Strong the Clubfoot, who spirited the king and his children out of the city when the queen’s dragons first appeared in the skies above King’s Landing. So as not to pass through any of the city gates, where they might be seen and remembered, Lord Larys led them out through some secret passage of Maegor the Cruel, of which only he had knowledge.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:219`)
+
+
 ## Quotes
 
 A man who gathers [whispers](wiki:Master_of_whisperers) can spread them just as well.(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)

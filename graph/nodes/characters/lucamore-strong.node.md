@@ -59,6 +59,10 @@ Ser [Arys Oakheart](wiki:Arys_Oakheart) uses Lucamore as an example why he must 
 >
 > —[Arianne Martell](wiki:Arianne_Martell) and [Arys Oakheart](wiki:Arys_Oakheart)
 
+> The amiable and well-loved Ser Lucamore Strong of the Kingsguard, a favorite of the smallfolk, was found to have been secretly wed, despite the vows that he had sworn as a White Sword. Worse, he had taken not one but three wives, keeping each woman ignorant of the other two and fathering no fewer than sixteen children on the three of them.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:71`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-09 -->

@@ -102,6 +102,10 @@ Visenya was both a [dragonrider](wiki:Dragonrider) and a warrior, comfortable in
 >
 > —Visenya to the [Warrior's Sons](wiki:Warrior's_Sons)
 
+> it was rumored that in her later years, when she could no longer wield a sword, she delved into the dark arts, mixing poisons and casting malign spells. Some even suggest that she might have been a kinslayer and a kingslayer, though no proof has ever been offered to support such calumnies.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:275`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Lady of Dragonstone (cite: wiki:Visenya_Targaryen)

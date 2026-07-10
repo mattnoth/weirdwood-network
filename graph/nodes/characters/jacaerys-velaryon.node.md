@@ -74,6 +74,10 @@ Jace's betrothed, Lady [Baela Targaryen](wiki:Baela_Targaryen), eventually wed L
 
 We should bear those messages. [Dragons](wiki:Dragon) will win the [lords](wiki:Lord) over quicker than [ravens](wiki:Raven).(wiki:Jacaerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
 
+> Several differing tales were told afterward of how and why the dragon fell. Some claimed a crossbowman put an iron bolt through his eye, but this version seems suspiciously similar to the way Meraxes met her end, long ago in Dorne.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:37`)
+
+
 ## Quotes
 
 One day [this](wiki:Iron_Throne) will be your seat, lad.(wiki:Jacaerys_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)

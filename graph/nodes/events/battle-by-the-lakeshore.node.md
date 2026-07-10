@@ -2,7 +2,7 @@
 name: "Battle by the Lakeshore"
 type: event.battle
 slug: battle-by-the-lakeshore
-aliases: []
+aliases: ["the Fishfeed", "Battle of the Fishfeed"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_by_the_Lakeshore"
 bucket_id: battles-a-b

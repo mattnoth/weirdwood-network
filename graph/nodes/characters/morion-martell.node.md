@@ -42,6 +42,15 @@ A young man when he became [Prince of Dorne](wiki:Prince_of_Dorne), Morion was r
 
 Morion is known only from Fire & Blood and The Rise of the Dragon (both "mentioned"). No main-series book citations exist. Archmaester Gyldayn is the source describing him as rash and foolish (Tier 2 — wiki uses Gyldayn's characterization, not direct observation).
 
+## Quotes
+
+> Morion had been weaned on the tales of past Dornish glory, and like many young Dornish lords he had seen the sun-mottled bones of the dragon Meraxes at the Hellholt. Every ship in his fleet was therefore manned with crossbowmen and equipped with massive scorpions of the sort that had felled Meraxes.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:81`)
+
+> One by one the ships went up in gouts of flame. They were still burning when the sun went down, “like a hundred candles floating on the sea.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:85`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->

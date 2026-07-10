@@ -282,3 +282,13 @@ On the [Rhoyne](wiki:Rhoyne), [Jon Connington](wiki:Jon_Connington), a friend of
 > I am no maester to quote history at you, Your Grace. Swords have been my life, not books. But every child knows that the Targaryens have always danced too close to [madness](wiki:Targaryen_madness). [Your father](wiki:Aerys_II_Targaryen) was not the first. King [Jaehaerys](wiki:Jaehaerys_II_Targaryen) once told me that madness and greatness are two sides of the same coin. Every time a new Targaryen is born, he said, the gods toss the coin in the air and [the world](wiki:Known_world) holds its breath to see how it will land.".(wiki:House_Targaryen.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+
+> Princess Daenerys had been Targaryen on both sides, with the blood of Old Valyria running pure through her veins, and those of Valyrian descent were not like other men. Targaryens had purple eyes and hair of gold and silver, they ruled the sky on dragons, the doctrines of the Faith and the prohibitions against incest did not apply to them...and they did not get sick.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:103`)
+
+> This practice went back to Old Valyria, where it was common amongst many of the ancient families, particularly those who bred and rode dragons. The blood of the dragon must remain pure, the wisdom went.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:57`)
+
+> Here, brides thus blessed upon their wedding nights were envied, and the children born of such unions were esteemed above all others, for the Lords of Dragonstone oft celebrated the birth of such with lavish gifts of gold and silk and land to the mother. These happy bastards were said to have been “born of dragonseed,” and in time became known simply as “seeds.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:201`)
+

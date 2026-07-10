@@ -68,3 +68,13 @@ Nettles was foul-mouthed, filthy, and fearless.(wiki:Nettles.cite_ref-Rfabthe_dy
 > High above [the town](wiki:Maidenpool), Nettles turned [her dragon](wiki:Sheepstealer) toward the [Bay of Crabs](wiki:Bay_of_Crabs), and vanished in the morning mists, never to be seen again at court or castle.(wiki:Nettles.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
+
+> Nor could Netty truly be called pretty. “A skinny brown girl on a skinny brown dragon,” writes Munkun in his True Telling (though he never saw her). Septon Eustace says her teeth were crooked, her nose scarred where it had once been slit for thieving.
+> — Grand Maester Munkun, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:37`)
+
+> Her riding leathers were stained with blood when she mounted her dragon, Maester Norren records, and “her cheeks were stained with tears.”
+> — Maester Norren, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:205`)
+
+> In the end, the brown dragon was brought to heel by the cunning and persistence of a “small brown girl” of six-and-ten, who delivered him a freshly slaughtered sheep every morning, until Sheepstealer learned to accept and expect her. Munkun sets down the name of this unlikely dragonrider as Nettles.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:249`)
+

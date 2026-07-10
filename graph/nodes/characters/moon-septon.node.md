@@ -43,6 +43,9 @@ The would-be successors in Moon's host fought over Moon's bones. One of them, [L
 What can the death of [one dragon](wiki:Maegor_I_Targaryen) matter when [another](wiki:Jaehaerys_I_Targaryen) rises up to take its place?(wiki:Moon_(septon).cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 [Westeros](wiki:Westeros) will not be clean again until all the [Targaryens](wiki:House_Targaryen) have been slain or driven back into the sea.(wiki:Moon_(septon).cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 
+> He was holding his neck, and blood was leaking between his fingers and dripping down into his beard from where his throat had been slit open.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-prince-into-king-06.md:125`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->

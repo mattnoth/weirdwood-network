@@ -57,6 +57,15 @@ During the [Hour of the Wolf](wiki:Hour_of_the_Wolf) a two-handed man claiming t
 
 We shall meet in hell before [this year](wiki:130_AC) is done.(wiki:Shepherd.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 
+> There the demons dwell, up there. Fire and blood, blood and fire. This is their city. If you would make it yours, first must you destroy them.
+> — the Shepherd, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:119`)
+
+> Possibly all these worthies (save Hobb) played some role in the dragon's demise...but the tale most oft heard in King’s Landing named the Shepherd himself as the dragonslayer.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:243`)
+
+> ’Twas in this dark hour that there rose up in Cobbler's Square a certain itinerant brother, a barefoot scarecrow of a man ina hair shirt and roughspun breeches, filthy and unwashed and smelling of the sty, with a begging bowl hung round his neck on a leather thong.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:123`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->

@@ -68,3 +68,12 @@ Isembard and Lord Torrhen reformed the collection of taxes, which provided some 
 
 Had Lady [Larra](wiki:Larra_Rogare) and her brothers been [Westerosi](wiki:Westeros), they might have been admired and celebrated, but their [foreign birth](wiki:Lys), foreign ways, and [foreign gods](wiki:Religion) made them objects of mistrust and suspicion instead.(wiki:Lysene_Spring.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)
 Spring is ever a season of hope, rebirth, and renewal, and the spring of [135 AC](wiki:135_AC) was no different.(wiki:Lysene_Spring.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
+
+> Almost all that we know of the myriad marvels of the Mermaid comes to us from Mushroom, who alone amongst our chroniclers is willing to confess to visiting the brothel himself on many occasions and partaking of its many pleasures in sumptuously appointed rooms.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:59`)
+
+> In The Testimony of Mushroom, the fool says plainly what few dared say at the time: that there must surely have been another conspirator, lord and master of the rest, the man who set all this in motion from afar, using the others as his catspaws. The "player in the shadows," Mushroom calls him.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:95`)
+
+> The daughters of Fredo and Lysaro Rogare would soon find themselves back in the Perfumed Garden where they had played as children, but as bed slaves, not proprietors.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:175`)

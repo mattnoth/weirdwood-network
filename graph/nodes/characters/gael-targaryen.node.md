@@ -41,6 +41,12 @@ As a babe, Gael was small and pale. She grew to be a shy and sweet girl, althoug
 - PARENT_OF (reverse): Jaehaerys I Targaryen (track_b: Father)
 - PARENT_OF (reverse): Alysanne Targaryen (track_b: Mother)
 
+## Quotes
+
+> Princess Gael was born in 80 AC, when the queen was forty-four. Called “the Winter Child” for the season of her birth (and because the queen was in the winter of her childbearing years, some said), she was small, pale, and frail, but Grand Maester Elysar was determined that she would not suffer the fate of her brothers Gaemon and Valerion.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:185`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-09 -->

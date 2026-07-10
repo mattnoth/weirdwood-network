@@ -58,6 +58,13 @@ Back in King's Landing, Tyland was troubled by Regis's death. Lord [Unwin Peake]
 I have [the dragon's](wiki:Aemond_Targaryen) [bastard](wiki:Bastard) in me. I can feel his fires licking at my womb.(wiki:Alys_Rivers.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
 Alys: Kneel before [your king](wiki:Alys_Rivers's_son). Regis: I do not kneel to [bastards](wiki:Bastard), much less the baseborn whelp of [a kinslayer](wiki:Aemond_Targaryen) and [a milk cow](wiki:Wet_nurse).(wiki:Alys_Rivers.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 
+> Munkun says that this was because of his respect for the older man, whilst Mushroom suggests that the two men had become rivals for the affections of the wet nurse Alys Rivers, who had used love potions and philtres to inflame their passions.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:227`)
+
+> “My lady,” Aemond answered. “She saw you in a storm cloud, in a mountain pool at dusk, in the fire we lit to cook our suppers. She sees much and more, my Alys. You were a fool to come alone.”
+> — Aemond Targaryen, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:233`)
+
+
 ## Quotes
 
 Was she in truth a witch who lay with [demons](wiki:Demon), bringing forth dead children as payment for the knowledge they gave her? Was she a [simpleminded](wiki:Simple) slattern, as [Eustace](wiki:Eustace_(Dance_of_the_Dragons)) believes? A wanton who used her [poisons](wiki:Poison) and [potions](wiki:Love_potion) to bind men to her, body and soul?(wiki:Alys_Rivers.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)

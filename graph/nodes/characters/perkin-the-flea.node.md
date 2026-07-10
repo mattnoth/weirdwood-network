@@ -57,6 +57,12 @@ During the [Hour of the Wolf](wiki:Hour_of_the_Wolf), Ser Perkin was among those
 
 Perkin was cunning(wiki:Perkin_the_Flea.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) but disreputable.(wiki:Perkin_the_Flea.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
+## Quotes
+
+> Not to be outdone, a hedge knight named Ser Perkin the Flea crowned his own squire Trystane, a stripling of sixteen years, declaring him to be a natural son of the late King Viserys. Any knight can make a knight, and when Ser Perkin began dubbing every sellsword, thief, and butcher’s boy who flocked to Trystane’s ragged banner, men and boys appeared by the hundreds to pledge themselves to his cause.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:85`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-09 -->

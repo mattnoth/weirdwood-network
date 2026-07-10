@@ -45,6 +45,9 @@ The next day, Ser [Hobert Hightower](wiki:Hobert_Hightower) brought Ulf two cask
 
 Hugh: We are [knights](wiki:Knight) now, truly.Ulf: Fie on that, we should be [lords](wiki:Lord).(wiki:Ulf_White.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 
+> As neither man could read nor write, we shall never know what drove the Two Betrayers (as history has named them) to do what they did.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:225`)
+
 ## Quotes
 
 Ser Ulf gave himself entirely over to drunkenness, drowning himself in wine and [flesh](wiki:Prostitution).(wiki:Ulf_White.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)

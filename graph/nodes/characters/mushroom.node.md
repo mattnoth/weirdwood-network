@@ -90,6 +90,25 @@ Mushroom was erroneously believed to be a feeble-minded [lackwit](wiki:Lackwit) 
 >
 > —[Aegon III Targaryen](wiki:Aegon_III_Targaryen) to [Torrhen Manderly](wiki:Torrhen_Manderly)
 
+> “A wolf for every widow,” Mushroom japed, “he will warm her bed in winter, and gnaw her bones come spring.”
+> — Mushroom, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:23`)
+
+> “I do recall that one night | made him confess to the Doom of Valyria,” says the dwarf in his Testimony.
+> — Mushroom, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:111`)
+
+> “It would have gone more quickly if the Hand had sent to the Street of Flies for butchers,” Mushroom observes, “for it was butcher's work they were about, hacking and cleaving.”
+> — Mushroom, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:95`)
+
+> Mushroom was less certain. “Three is more than one,” the dwarf claims to have told the Prince of Dragonstone, “but four is more than three, and six is more than four, even a fool knows that.” When Jace pointed out that Stormcloud had never been ridden, that Moondancer was but a hatchling, that Tyraxes was far away in the Vale with Prince Joffrey, and demanded to know where Mushroom proposed to find more dragons, the dwarf tells us he laughed and said, “Under the sheets and in the woodpiles, wherever you Targaryens spilled your silver seed.”
+> — Mushroom, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:195`)
+
+> “I do confess that | was tempted. In Westeros my wit is wasted capering for a king who never smiles, but in Braavos they would love me...too well, | fear. Every courtesan would want me, and soon or late some bravo would take umbrage at the size of my member and prick me with his little pointy dwarf-skewer.
+> — Mushroom, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:215`)
+
+> All these calumnies reached the king’s ears, some from Mushroom’s own lips, for the fool confesses to having been paid “handsomely” to poison Aegon III against these maids and others.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:125`)
+
+
 ## Edges
 
 - SWORN_TO: House Targaryen (track_b: Allegiances)

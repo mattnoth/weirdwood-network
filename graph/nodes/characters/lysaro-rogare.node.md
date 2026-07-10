@@ -29,6 +29,12 @@ Lysaro Rogare — Lysandro's eldest son took effective control of the Rogare Ban
 
 After the death of his father, [Lysandro "the Magnificent"](wiki:Lysandro_Rogare) who claimed to be [First Magister for Life](wiki:First_Magister_for_Life), the ambitious Lysaro was a spendthrift who angered other [magisters](wiki:Magister) in [Lys](wiki:Lys). His embezzlement weakened the [Rogare Bank](wiki:Rogare_Bank), causing it to fail. Although Lysaro was killed by scourging at the [Temple of Trade](wiki:Temple_of_Trade), his siblings escaped execution.(wiki:Lysaro_Rogare.cite_ref-Rtwoiafthe_quarrelsome_daughters:_myr.2C_lys.2C_and_tyrosh.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Lysaro_Rogare.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
+## Quotes
+
+> Lysaro was sentenced to be chained naked to a pillar before the Temple of Trade, where all those despoiled by him would be allowed to whip him, the number of lashes accorded to each person to be determined by the extent of their losses. And so it was done. It is written that his sister Lysara and brother Fredo were amongst those who availed themselves of the whip, whilst other Lyseni placed wagers on the hour of his death. Lysaro expired in the seventh hour of the first day of his scourging.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:185`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->

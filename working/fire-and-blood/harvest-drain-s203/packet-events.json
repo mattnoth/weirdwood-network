@@ -1,0 +1,362 @@
+[
+ {
+  "row": 4,
+  "snippet": "some say lover to Queen Naerys",
+  "kind": "other",
+  "note": "rumored affair between Aemon the Dragonknight and Queen Naerys",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 55
+ },
+ {
+  "row": 6,
+  "snippet": "written by Archmaester Gyldayn of the Citadel",
+  "kind": "other",
+  "note": "in-universe author and source apparatus (Orwyle, the septon, Mushroom) for the Dance",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 253
+ },
+ {
+  "row": 12,
+  "snippet": "Lorcas claimed to have had a vision",
+  "kind": "prophecy",
+  "note": "Lorcas the Learned's vision that Moon would deliver Oldtown after death",
+  "unit": "fab-prince-into-king-06",
+  "line": 137
+ },
+ {
+  "row": 17,
+  "snippet": "using a vial of Queen Rhaenys\u2019s own blood for ink",
+  "kind": "bloodmagic",
+  "note": "septons' claim the peace letter was ensorceled",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 0
+ },
+ {
+  "row": 35,
+  "snippet": "Many had heard the prophecy that the hammer",
+  "kind": "prophecy",
+  "note": "prophecy that \"the hammer would smash the dragon\" read as foreordaining Hard Hugh's triumph",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 23
+ },
+ {
+  "row": 41,
+  "snippet": "took counsel with the Green Men",
+  "kind": "foreshadow-hook",
+  "note": "singers' claim Addam visited the Isle of Faces, which Gyldayn rejects as unknowable",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 51
+ },
+ {
+  "row": 44,
+  "snippet": "Who can know the heart of a dragon?",
+  "kind": "other",
+  "note": "Gyldayn's open questions on riderless-dragon loyalty and the dragon-rider bond at Second Tumbleton",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 117
+ },
+ {
+  "row": 56,
+  "snippet": "a flagon of sweet Arbor red, Aegon\u2019s favorite wine",
+  "kind": "food",
+  "note": "the poisoned wine in the king's litter",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 271
+ },
+ {
+  "row": 59,
+  "snippet": "Eustace says nothing of this in his own account",
+  "kind": "other",
+  "note": "Mushroom vs Eustace on Aegon II's voyeurism",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 0
+ },
+ {
+  "row": 60,
+  "snippet": "of apoplexy from having his house fight against the rightful king",
+  "kind": "other",
+  "note": "Mushroom's disputed cause for Grover Tully's death",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 123
+ },
+ {
+  "row": 62,
+  "snippet": "Septon Eustace speaks of \u201ctwenty thousand howling savages in shaggy pelts,\u201d",
+  "kind": "other",
+  "note": "disputed size of Cregan Stark's host (Eustace vs Munkun)",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 199
+ },
+ {
+  "row": 74,
+  "snippet": "Thereafter accounts differ markedly",
+  "kind": "other",
+  "note": "Trial of Seven \u2014 chroniclers conflict on the champions' deaths",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 115
+ },
+ {
+  "row": 76,
+  "snippet": "Its causes are debated to this day",
+  "kind": "other",
+  "note": "High Septon's death \u2014 suicide, divine wroth, or murder by several suspects",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 209
+ },
+ {
+  "row": 83,
+  "snippet": "Many queer and contradictory stories are told",
+  "kind": "other",
+  "note": "disputed wedding-night legends of the Black Brides",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 189
+ },
+ {
+  "row": 84,
+  "snippet": "Many to this day believe it was the Iron Throne itself",
+  "kind": "other",
+  "note": "contested accounts of how Maegor died",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 243
+ },
+ {
+  "row": 86,
+  "snippet": "gave her sanctuary and swore no harm would come to her",
+  "kind": "hospitality",
+  "note": "Marq Farman shelters Rhaena at Faircastle",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 65
+ },
+ {
+  "row": 94,
+  "snippet": "she was to use her wiles and her body to beguile the king",
+  "kind": "foreshadow-hook",
+  "note": "alleged plot to seduce Jaehaerys and break the marriage",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 197
+ },
+ {
+  "row": 128,
+  "snippet": "she has a dragon",
+  "kind": "foreshadow-hook",
+  "note": "messenger's report of a dragon at Harrenhal",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 191
+ },
+ {
+  "row": 137,
+  "snippet": "that he would swear forevermore could only have been Sun Chaser",
+  "kind": "foreshadow-hook",
+  "note": "Corlys glimpses a ship he swears is Sun Chaser at Asshai (hedged)",
+  "unit": "fab-the-long-reign-13",
+  "line": 77
+ },
+ {
+  "row": 156,
+  "snippet": "our queen to be",
+  "kind": "foreshadow-hook",
+  "note": "Alysanne names infant Rhaenys as future queen",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 147
+ },
+ {
+  "row": 162,
+  "snippet": "first hint of the rift that would open between her and her king",
+  "kind": "foreshadow-hook",
+  "note": "Daella's death named as the start of the Jaehaerys\u2013Alysanne rift",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 69
+ },
+ {
+  "row": 165,
+  "snippet": "The Dragonkeepers had best lock up the dragons",
+  "kind": "foreshadow-hook",
+  "note": "Elysar's \"prophetic\" words on infant Saera",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 107
+ },
+ {
+  "row": 170,
+  "snippet": "if court gossip can be believed",
+  "kind": "other",
+  "note": "hedge framing Viserra's night in Baelon's bedchamber as disputed",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 83
+ },
+ {
+  "row": 171,
+  "snippet": "it is said that when he saw his mother again, he fell into her arms and wept",
+  "kind": "other",
+  "note": "hedged single-source detail of Baelon weeping",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 203
+ },
+ {
+  "row": 173,
+  "snippet": "like the hellhorns of Valyrian legend",
+  "kind": "foreshadow-hook",
+  "note": "narration flagging Aemon's death as a chain of doom to come",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 217
+ },
+ {
+  "row": 179,
+  "snippet": "Almost all that we know of the myriad marvels of the Mermaid comes to us from Mushroom",
+  "kind": "other",
+  "note": "Mushroom as sole source for the Mermaid brothel",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 59
+ },
+ {
+  "row": 195,
+  "snippet": "player in the shadows,\" Mushroom calls him",
+  "kind": "foreshadow-hook",
+  "note": "Mushroom names Unwin Peake as the unproven mastermind",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 95
+ },
+ {
+  "row": 230,
+  "snippet": "the Iron Throne had spurned her",
+  "kind": "foreshadow-hook",
+  "note": "Eustace on the cuts and Rhaenyra's short reign",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 147
+ },
+ {
+  "row": 234,
+  "snippet": "but you will not hold it long",
+  "kind": "foreshadow-hook",
+  "note": "Alicent's warning that Aemond will return",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 137
+ },
+ {
+  "row": 242,
+  "snippet": "I have the dragon's bastard in me",
+  "kind": "prophecy",
+  "note": "Alys Rivers's claim in the Harrenhal godswood",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 105
+ },
+ {
+  "row": 250,
+  "snippet": "When the hammer shall fall upon the dragon, a new king shall arise",
+  "kind": "prophecy",
+  "note": "camp prophecy attached to Hugh Hammer",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 163
+ },
+ {
+  "row": 251,
+  "snippet": "a simple meal of boiled beef and beets",
+  "kind": "food",
+  "note": "Daemon and Nettles's last supper at Maidenpool",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 199
+ },
+ {
+  "row": 252,
+  "snippet": "she fed him a black ram, the largest in all Maidenpool",
+  "kind": "food",
+  "note": "Nettles feeds Sheepstealer before her final flight",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 205
+ },
+ {
+  "row": 253,
+  "snippet": "The girl is a guest",
+  "kind": "hospitality",
+  "note": "Mooton's guest-right dilemma over killing Nettles",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 187
+ },
+ {
+  "row": 254,
+  "snippet": "I thank you for your hospitality",
+  "kind": "hospitality",
+  "note": "Daemon's farewell to Lord Mooton",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 209
+ },
+ {
+  "row": 258,
+  "snippet": "Thirteen marks can be seen upon that weirwood still",
+  "kind": "foreshadow-hook",
+  "note": "Daemon's heart-tree tally said to bleed each spring",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 215
+ },
+ {
+  "row": 264,
+  "snippet": "The consequences of this decision would not be known for years to come",
+  "kind": "foreshadow-hook",
+  "note": "restoring heir apparent Aerea to Rhaena flagged as fateful",
+  "unit": "fab-time-of-testing-09",
+  "line": 221
+ },
+ {
+  "row": 269,
+  "snippet": "a secret that changed the course of Westerosi history",
+  "kind": "foreshadow-hook",
+  "note": "Drazenko's whispered secret to Oakenfist",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 119
+ },
+ {
+  "row": 286,
+  "snippet": "One day he may sit the Iron Throne",
+  "kind": "foreshadow-hook",
+  "note": "Alyn and Baela naming their unborn child",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 191
+ },
+ {
+  "row": 287,
+  "snippet": "One day she may ride a dragon",
+  "kind": "foreshadow-hook",
+  "note": "Baela on naming a daughter Laena",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 193
+ },
+ {
+  "row": 305,
+  "snippet": "seven virgins across the narrow sea from the finest pleasure houses of Lys",
+  "kind": "hospitality",
+  "note": "disputed smallfolk tale of Rogar's pre-wedding revel",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 95
+ },
+ {
+  "row": 313,
+  "snippet": "sister at this juncture would be seen as a grievous affront",
+  "kind": "foreshadow-hook",
+  "note": "Mattheus warns Faith will denounce the incest",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 183
+ },
+ {
+  "row": 320,
+  "snippet": "An eye for an eye, a son for a son",
+  "kind": "foreshadow-hook",
+  "note": "Daemon's raven vowing vengeance for Lucerys, setting up the Blood and Cheese plot (fab-the-blacks-and-the-greens-16-p02)",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 255
+ },
+ {
+  "row": 327,
+  "snippet": "Maester Norren writes that \"the prince and his bastard girl\" supped together every night, broke their fast together every morning",
+  "kind": "food",
+  "note": "Daemon and Nettles shared meals at Maidenpool",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 41
+ },
+ {
+  "row": 337,
+  "snippet": "The daughters of Fredo and Lysaro Rogare would soon find themselves back in the Perfumed Garden where they had played as children, but as bed slaves, not proprietors",
+  "kind": "social-irony",
+  "note": "House Rogare's daughters enslaved in their family's former brothel (fab-24-p02)",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 0
+ }
+]

@@ -42,6 +42,9 @@ Sandoq wielded a great curved sword of [Valyrian steel](wiki:Valyrian_steel) wit
 >
 > —[Aegon III Targaryen](wiki:Aegon_III_Targaryen) to [Marston Waters](wiki:Marston_Waters)
 
+> Mushroom, who claims to have seen the battle from the roof above, testifies that “it did not look so much like a swordfight as like a farmer reaping grain. With every stroke more stalks would topple, but these stalks were living men who screamed and cursed as they fell.”
+> — Mushroom, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:257`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-09 -->

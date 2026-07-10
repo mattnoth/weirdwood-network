@@ -232,3 +232,9 @@ Harrenhal's inhuman scale as observed by Arya once inside: "covered thrice as mu
 > **Bonifer**: I fear no [shade](wiki:Shades), ser. It is written in *[The Seven-Pointed Star](wiki:The_Seven-Pointed_Star)* that spirits, [wights](wiki:Wights), and [revenants](wiki:Revenants) cannot harm a pious man, so long as he is armored in his faith.
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Bonifer Hasty](wiki:Bonifer_Hasty)
+
+> "I have the dragon's bastard in me," the woman said, as she stood naked in the godswood with one hand upon her swollen belly. "I can feel his fires licking at my womb."
+> — Alys Rivers, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:105`)
+
+> Each night at dusk he slashed the heart tree in the godswood to mark the passing of another day. Thirteen marks can be seen upon that weirwood still; old wounds, deep and dark, yet the lords who have ruled Harrenhal since Daemon's day say they bleed afresh every spring.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:215`)

@@ -59,3 +59,9 @@ House Hightower appears across the series. In AGOT, the house is referenced thro
 - OVERLORD_OF (reverse): House Tyrell (track_b: Overlord)
 - ANCESTRAL_WEAPON_OF (reverse): Vigilance (track_b: Ancestral weapon)
 - FOUNDED: Uthor of the High Tower (track_b: Founder)
+
+## Quotes
+
+> The Hightowers had not entrusted so much as a groat of their gold to the Lyseni, and thus remained one of the wealthiest houses in all Westeros, second mayhaps only to the Lannisters of Casterly Rock, and Lady Sam wished to learn how to put that gold to better use. Thus was born the Bank of Oldtown, which has made House Hightower richer still.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:199`)
+

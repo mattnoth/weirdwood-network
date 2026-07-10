@@ -32,6 +32,13 @@ Elysar was sharp tongued, and never had a thought he didn't share.(wiki:Elysar.c
 >
 > —writings of Elysar on [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
 
+> “It is never pleasant to lance a boil,” Grand Maester Elysar wrote of the affair. “You never know how much pus will come out, or how badly it will smell.”
+> — Grand Maester Elysar, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:141`)
+
+> “He was better with roads than with daughters,” Grand Maester Elysar would write later, in his customary waspish style.
+> — Grand Maester Elysar, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:57`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Grand Maester (track_b: Title)

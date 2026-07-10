@@ -35,3 +35,6 @@ Some years after the [Reyne-Tarbeck revolt](wiki:Reyne-Tarbeck_revolt), Lord Far
 ## Quotes
 
 Duncan: Have you ever been to [Fair Isle](wiki:Fair_Isle)? Aegon: No, ser, but they say it's fair. Lord [Farman's](wiki:House_Farman) seat is fair, too. It's called Faircastle.(wiki:Faircastle.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+
+> Whereupon, fearing her uncle's wroth, she gathered up her daughters, Aerea and Rhaella, and fled farther, first to Lannisport and then across the sea to Fair Isle, where the new lord Marg Farman (whose father and elder brother had both perished in the battle, fighting for Prince Aegon) gave her sanctuary and swore no harm would come to her beneath his roof.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:65`)

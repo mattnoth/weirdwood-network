@@ -83,6 +83,19 @@ She had a sunny nature,(wiki:Daenaera_Velaryon.cite_ref-Rfabunder_the_regents_-_
 >
 > —[Mushroom](wiki:Mushroom)
 
+> Mushroom tells us that Queen Daenaera’s ladies donned mail and took up spears to help make it appear that King Aegon had more defenders than he did, but this ruse could not have
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:21`)
+
+> Queen Daenaera, blushing prettily and stammering just a little, hung about his neck a heavy golden chain studded with sapphires, “b-blue as the sea where my lord has won his victories.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:155`)
+
+> As she stood before the king that Maiden’s Day, clad in pale white silk, Myrish lace, and pearls, her long hair shining in the torchlight and her cheeks flush with excitement, Daenaera was but six years old, yet so beautiful she took the breath away. The blood of Old Valyria was strong in her, as is oft seen in the sons and daughters of the seahorse; her hair was silver laced with gold, her eyes as blue as a summer sea, her skin as smooth and pale as winter snow.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:173`)
+
+> Daenaera Velaryon was an orphan. Her mother had been carried off by the Winter Fever; her father had died in the Stepstones when his True Heart went down. His own father had been that Ser Vaemond beheaded by Queen Rhaenyra, but Daeron had been reconciled with Lord Alyn and had died fighting for him.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:173`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->

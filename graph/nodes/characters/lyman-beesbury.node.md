@@ -36,6 +36,10 @@ Lyman's death was kept secret, with most believing he was languishing in a black
 
 I am an old man, but not so old that I will sit here meekly whilst the likes of you plot to steal [her](wiki:Rhaenyra_Targaryen) [crown](wiki:Crown).(wiki:Lyman_Beesbury.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
+> All three chronicles agree on one particular: the first blood shed in the Dance of the Dragons belonged to Lord Lyman Beesbury, master of coin and lord treasurer of the Seven Kingdoms.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:101`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-09 -->

@@ -31,3 +31,9 @@ While the regents and Lord [Torrhen Manderly](wiki:Torrhen_Manderly), the [Hand 
 ## Appearances & Description
 
 Willam loved to [hawk](wiki:Hawk). An undistinguished [regent](wiki:Regent), Lord Stackspear considered his two fellow regents, [Marq Merryweather](wiki:Marq_Merryweather) and [Lorent Grandison](wiki:Lorent_Grandison), to be fools.(wiki:Willam_Stackspear.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Quotes
+
+> Finally, in despair at reaching an agreement, Grand Maester Munkun proposed that three regents be chosen by lot. When Prince Viserys added his voice to Munkun’s, the proposal was adopted. The lots fell to Willam Stackspear, Marq Merryweather, and Lorent Grandison, of whom it could be truly said that they were as inoffensive as they were undistinguished.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:127`)
+

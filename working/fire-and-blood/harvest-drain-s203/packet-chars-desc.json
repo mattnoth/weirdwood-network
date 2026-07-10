@@ -1,0 +1,546 @@
+[
+ {
+  "row": 5,
+  "snippet": "Balerion the Black",
+  "kind": "description",
+  "note": "biggest dragon, the only one who remembers Valyria",
+  "unit": "fab-aegons-conquest-03",
+  "line": 111
+ },
+ {
+  "row": 10,
+  "snippet": "where his throat had been slit open",
+  "kind": "description",
+  "note": "Septon Moon assassinated by unknown catspaw woman, sender disputed",
+  "unit": "fab-prince-into-king-06",
+  "line": 127
+ },
+ {
+  "row": 22,
+  "snippet": "whilst having intimate relations with a stallion, her enemies insisted",
+  "kind": "description",
+  "note": "partisan slander on Meria Martell's death",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 135
+ },
+ {
+  "row": 25,
+  "snippet": "a hirsute hunchback called Lord Monkeyface",
+  "kind": "description",
+  "note": "Visenya's fool and the ape that replaced him",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 269
+ },
+ {
+  "row": 28,
+  "snippet": "Fire and blood, blood and fire. This is their city",
+  "kind": "description",
+  "note": "the Shepherd's dragonslaying oratory at the Dragonpit",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 119
+ },
+ {
+  "row": 32,
+  "snippet": "the tale most oft heard in King's Landing named the Shepherd himself",
+  "kind": "description",
+  "note": "legend of the Shepherd slaying Syrax with a smoke-blade",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 243
+ },
+ {
+  "row": 39,
+  "snippet": "a great golden fire-breathing chicken",
+  "kind": "description",
+  "note": "Mushroom's mocking image of the maimed Sunfyre after Rook's Rest",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 235
+ },
+ {
+  "row": 42,
+  "snippet": "I shall not walk that road again",
+  "kind": "description",
+  "note": "Aegon II refuses milk of the poppy from Gerardys, distrusting his sister's creature",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 275
+ },
+ {
+  "row": 45,
+  "snippet": "but this is most like a fable",
+  "kind": "description",
+  "note": "singers say Silverwing thrice lifted Vermithor's wing with her nose; Gyldayn deems it fable",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 133
+ },
+ {
+  "row": 50,
+  "snippet": "set him aflame with his own hand",
+  "kind": "description",
+  "note": "Aegon II personally burns the Shepherd atop the Dragonpit",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 0
+ },
+ {
+  "row": 55,
+  "snippet": "spin his webs of deceit and betrayal, setting each against the other",
+  "kind": "description",
+  "note": "Larys plays king and Sea Snake against one another",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 185
+ },
+ {
+  "row": 57,
+  "snippet": "his captors drowned him in a cask of same",
+  "kind": "description",
+  "note": "Tom Tanglebeard drowned in ale during the coup",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 257
+ },
+ {
+  "row": 64,
+  "snippet": "this tale was a calumny devised by his enemies",
+  "kind": "description",
+  "note": "disputed tale that child Maegor butchered a castle cat",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 0
+ },
+ {
+  "row": 73,
+  "snippet": "that orb turned as red as blood",
+  "kind": "description",
+  "note": "Vhagar passing the moon after Visenya storms out of the wedding",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 51
+ },
+ {
+  "row": 77,
+  "snippet": "the Mander ran red for twenty leagues",
+  "kind": "description",
+  "note": "slaughter of the Poor Fellows at Stonebridge/Bitterbridge",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 143
+ },
+ {
+  "row": 85,
+  "snippet": "there was no disguising her dragon",
+  "kind": "description",
+  "note": "dragons cannot be hidden - Rhaena's dilemma",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 165
+ },
+ {
+  "row": 91,
+  "snippet": "the alleged author of A Caution for Young Girls",
+  "kind": "description",
+  "note": "disputed authorship and provenance of the banned book",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 165
+ },
+ {
+  "row": 95,
+  "snippet": "a court within the court",
+  "kind": "description",
+  "note": "Rhaena's inner circle dubbed \"the Four-Headed Beast\"",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 19
+ },
+ {
+  "row": 100,
+  "snippet": "the Valyrian steel blade called Lady Forlorn",
+  "kind": "description",
+  "note": "Corbray draws Lady Forlorn against Rogar",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 169
+ },
+ {
+  "row": 104,
+  "snippet": "My sister is the heir, not me",
+  "kind": "description",
+  "note": "Eustace's gentler Aegon vs Mushroom's rat-pit Aegon vs Munkun's vague \"at his revels\"",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 129
+ },
+ {
+  "row": 111,
+  "snippet": "a sapphire in the place of his missing eye",
+  "kind": "description",
+  "note": "Aemond flies to Storm's End to woo a Baratheon daughter for the greens",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 155
+ },
+ {
+  "row": 123,
+  "snippet": "A wolf for every widow",
+  "kind": "description",
+  "note": "Mushroom's jape on the northmen-widow marriages",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 23
+ },
+ {
+  "row": 126,
+  "snippet": "most likely a later embroidery",
+  "kind": "description",
+  "note": "Gyldayn discounting the Cannibal-salute legend at Corlys's burial",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 161
+ },
+ {
+  "row": 129,
+  "snippet": "Both of them are broken",
+  "kind": "description",
+  "note": "Munkun's letter on the child king and queen",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 131
+ },
+ {
+  "row": 141,
+  "snippet": "kittens were selling for",
+  "kind": "description",
+  "note": "cats prized as plague remedy against rats",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 21
+ },
+ {
+  "row": 145,
+  "snippet": "Targaryens had purple eyes and hair of gold and silver",
+  "kind": "description",
+  "note": "statement of the Doctrine of Exceptionalism",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 103
+ },
+ {
+  "row": 172,
+  "snippet": "The last living creature in all the world who saw Valyria in its glory",
+  "kind": "description",
+  "note": "Barth's epitaph for Balerion the Black Dread",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 213
+ },
+ {
+  "row": 178,
+  "snippet": "could transform into a cat",
+  "kind": "description",
+  "note": "rumors of Larra Rogare's Lysene sorcery and shapeshifting",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 55
+ },
+ {
+  "row": 181,
+  "snippet": "wars are fought with plots and poisons rather than with armies",
+  "kind": "description",
+  "note": "Lysene politics characterized by assassination",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 175
+ },
+ {
+  "row": 182,
+  "snippet": "a farmer reaping grain",
+  "kind": "description",
+  "note": "Mushroom's simile for Sandoq's slaughter at the drawbridge",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 257
+ },
+ {
+  "row": 190,
+  "snippet": "Queen Daenaera\u2019s ladies donned mail and took up spears",
+  "kind": "description",
+  "note": "Mushroom's tale of feigned defenders",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 21
+ },
+ {
+  "row": 191,
+  "snippet": "You may beat poor Gaemon\u2019's",
+  "kind": "description",
+  "note": "Aegon's defiance of his master-at-arms over the whipping boy",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 17
+ },
+ {
+  "row": 197,
+  "snippet": "made him confess to the Doom of Valyria",
+  "kind": "description",
+  "note": "Mushroom mocking the broken Rowan",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 111
+ },
+ {
+  "row": 200,
+  "snippet": "Then praise Yndros, | am left-handed",
+  "kind": "description",
+  "note": "Lotho Rogare choosing mutilation over the black",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 195
+ },
+ {
+  "row": 209,
+  "snippet": "I would sooner sleep with scorpions",
+  "kind": "description",
+  "note": "Qoren Martell's refusal of the green alliance",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 210,
+  "snippet": "Thrones are won with swords, not quills",
+  "kind": "description",
+  "note": "Aegon's inkpot outburst at Otto, per Eustace",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 211,
+  "snippet": "thirty-three horses, each pulling in his own direction",
+  "kind": "description",
+  "note": "Greydon on the Triarchy's paralytic High Council",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 65
+ },
+ {
+  "row": 216,
+  "snippet": "the king's armor had melted into his flesh",
+  "kind": "description",
+  "note": "extent of Aegon II's burns at Rook's Rest",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 217,
+  "snippet": "It looks better on me than it ever did on him",
+  "kind": "description",
+  "note": "Aemond takes the crown as Prince Regent",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 153
+ },
+ {
+  "row": 227,
+  "snippet": "If this be victory, | pray I never win another",
+  "kind": "description",
+  "note": "Sea Snake's bitter reply after the Gullet",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 49
+ },
+ {
+  "row": 237,
+  "snippet": "King Maegor with teats",
+  "kind": "description",
+  "note": "origin of the century-long \"Maegor's Teats\" curse",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 45
+ },
+ {
+  "row": 246,
+  "snippet": "As neither man could read",
+  "kind": "description",
+  "note": "Two Betrayers' motives unknowable",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 225
+ },
+ {
+  "row": 257,
+  "snippet": "a barefoot scarecrow of a man",
+  "kind": "description",
+  "note": "the one-handed Shepherd of Cobbler's Square",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 123
+ },
+ {
+  "row": 263,
+  "snippet": "Every man and maid and child in the stormlands is my hostage",
+  "kind": "description",
+  "note": "Jaehaerys's unspoken dragon-threat, heard \"plain\" by Rogar",
+  "unit": "fab-time-of-testing-09",
+  "line": 0
+ },
+ {
+  "row": 265,
+  "snippet": "Go to Dragonstone and claim a dragon",
+  "kind": "description",
+  "note": "Septon Baldrick's retort to a hedge knight on the Doctrine",
+  "unit": "fab-time-of-testing-09",
+  "line": 183
+ },
+ {
+  "row": 272,
+  "snippet": "He honored the gods: all gods, everywhere",
+  "kind": "description",
+  "note": "Racallio Ryndoon character portrait",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 41
+ },
+ {
+  "row": 275,
+  "snippet": "a heavy golden chain studded with sapphires",
+  "kind": "description",
+  "note": "Queen Daenaera's gift to Oakenfist",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 155
+ },
+ {
+  "row": 281,
+  "snippet": "This Hand can still wield a sword",
+  "kind": "description",
+  "note": "Unwin draws OrphanMaker before court",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 91
+ },
+ {
+  "row": 282,
+  "snippet": "it was butcher's work they were about",
+  "kind": "description",
+  "note": "Mushroom on the mass punishments at the Feast of Our Father Above",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 95
+ },
+ {
+  "row": 295,
+  "snippet": "Your Grace does not like turnips",
+  "kind": "description",
+  "note": "origin of the \"Lady Turnips\" mockname",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 91
+ },
+ {
+  "row": 300,
+  "snippet": "The blood of Old Valyria was strong in her",
+  "kind": "description",
+  "note": "Daenaera's Valyrian beauty, \"daughters of the seahorse\"",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 173
+ },
+ {
+  "row": 304,
+  "snippet": "large and heavy enough to cleave through a dragon's skull",
+  "kind": "description",
+  "note": "Rogar's boast about his double-bladed axe under Maegor",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 39
+ },
+ {
+  "row": 309,
+  "snippet": "we're the Kingsguard, not the Hand's guard",
+  "kind": "description",
+  "note": "Sour Sam defines Kingsguard loyalty to king over Hand",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 243
+ },
+ {
+  "row": 314,
+  "snippet": "| see his grandsire in him",
+  "kind": "description",
+  "note": "Brandon Stark's praise of the boy king",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 89
+ },
+ {
+  "row": 315,
+  "snippet": "Had she been a boy she would surely have been sent to the Citadel",
+  "kind": "description",
+  "note": "Barth on Alysanne's precocious wit",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 109
+ },
+ {
+  "row": 316,
+  "snippet": "It is never pleasant to lance a boil",
+  "kind": "description",
+  "note": "Grand Maester Elysar's metaphor for the Blue Pearl scandal breaking (fab-the-long-reign-cont-14-p03)",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 141
+ },
+ {
+  "row": 319,
+  "snippet": "Was it one of your eyes he took, or one of your balls?",
+  "kind": "description",
+  "note": "Lady Maris Baratheon needling Aemond, the taunt that triggers Lucerys's death (fab-the-blacks-and-the-greens-16-p02)",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 233
+ },
+ {
+  "row": 321,
+  "snippet": "Though the years had thickened the body that had been so lithe and lissome",
+  "kind": "description",
+  "note": "Mysaria's physical aging",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 55
+ },
+ {
+  "row": 322,
+  "snippet": "Rhaenyra grew ever more stout during her days in King's Landing",
+  "kind": "description",
+  "note": "Rhaenyra's weight gain during rule",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 57
+ },
+ {
+  "row": 323,
+  "snippet": "The scarlet scales that covered her. The membranes of her wings were pink, her crest, horns, and claws bright as copper",
+  "kind": "description",
+  "note": "Meleys the Red Queen's appearance",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 123
+ },
+ {
+  "row": 325,
+  "snippet": "Thrones are won with swords, not quills. Spill blood, not ink",
+  "kind": "description",
+  "note": "Aegon II's outburst rejecting Otto's diplomatic approach",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 326,
+  "snippet": "her nose scarred where it had once been slit for thieving",
+  "kind": "description",
+  "note": "Nettles's slit nose from theft punishment",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 0
+ },
+ {
+  "row": 329,
+  "snippet": "her cheeks were stained with tears",
+  "kind": "description",
+  "note": "Nettles's grief at her final parting from Daemon",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 205
+ },
+ {
+  "row": 331,
+  "snippet": "Not even the tears of a dragon could melt the frozen heart of Cregan Stark, men said rightly",
+  "kind": "description",
+  "note": "Mushroom's characterization of Cregan Stark's unyielding nature, softened only by Baela's courage",
+  "unit": "fab-hour-of-the-wolf-20",
+  "line": 195
+ },
+ {
+  "row": 332,
+  "snippet": "When was a wolf ever moved by words?",
+  "kind": "description",
+  "note": "Larys Strong's defiant last words to Cregan Stark before execution",
+  "unit": "fab-hour-of-the-wolf-20",
+  "line": 201
+ },
+ {
+  "row": 333,
+  "snippet": "his face \"grey and ashen, sagging,\"",
+  "kind": "description",
+  "note": "Aegon II's physical state approaching death, appearing aged and spent",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 267
+ },
+ {
+  "row": 334,
+  "snippet": "The veil he wore to conceal his disfigured face gave rise to the tale that the visage underneath was monstrous and evil",
+  "kind": "description",
+  "note": "Tyland Lannister's facial disfigurement and rumor (fab-22-p01)",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 15
+ },
+ {
+  "row": 335,
+  "snippet": "a gown of translucent blue-green silk that matched her eyes",
+  "kind": "description",
+  "note": "Myrmadora Haen's scandalous Maiden's Day gown (fab-22-p02)",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 135
+ }
+]

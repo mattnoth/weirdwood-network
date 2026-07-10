@@ -23,3 +23,8 @@ peace without Dornish submission
 <!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->
 
 peace without Dornish submission
+
+## Quotes
+
+> Certain septons even went so far as to suggest that the missive was ensorceled, that it had been written by the Yellow Toad before her death, using a vial of Queen Rhaenys's own blood for ink, so that the king would be helpless to resist its malign magic.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:149`)

@@ -48,3 +48,8 @@ On the fifteenth day of the sixth moon of [50 AC](wiki:50_AC), Coryanne eloped 
 - Lady Coryanne of House Wylde, putative author of A Caution for Young Girls, is the subject of contradictory lewd tales about bedding the king. According to A Wanton's Tale she bedded Jaehaerys and all seven Kingsguard (fab-surfeit-of-rulers-08-p02:131)
 - The High and the Low has Alysanne join them, while Sins of the Flesh tells it more plausibly, with Coryanne tutoring the fumbling boy king (fab-surfeit-of-rulers-08-p02:133)
 - History records only that on the fifteenth day of the sixth moon of 50 AC she fled Dragonstone by night with Ser Howard Bullock (fab-surfeit-of-rulers-08-p02:137)
+
+## Quotes
+
+> The lascivious details of the author's erotic adventures need not concern us here. Our only interest is in the early part of her sordid tale, the story of her youth...for the alleged author of A Caution for Young Girls is none other than Coryanne Wylde, one of the girls sent to Dragonstone as a companion to the little queen.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:165`)

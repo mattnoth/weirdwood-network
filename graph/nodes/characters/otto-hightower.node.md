@@ -103,6 +103,10 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 >
 > —[Pylos](wiki:Pylos), to [Davos Seaworth](wiki:Davos_Seaworth)
 
+> Yet the plans of men are but playthings to the gods. For even as Jace laid his plans, a new threat was closing from the east. The schemes of Otto Hightower had borne fruit; meeting in Tyrosh, the High Council of the Triarchy had accepted his offer of alliance.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:17`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

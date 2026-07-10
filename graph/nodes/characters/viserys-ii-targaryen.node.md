@@ -81,6 +81,10 @@ Viserys was frailer than his brother Aegon in his youth, but was more mature tha
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Oberyn Martell](wiki:Oberyn_Martell)
 
+> Though the court and city still doted on the king’s brother, that clever, gallant boy Viserys, the same could not be said for his Lysene wife.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:47`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->

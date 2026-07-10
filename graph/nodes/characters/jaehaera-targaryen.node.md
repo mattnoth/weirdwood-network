@@ -52,6 +52,13 @@ Jaehaera was born tiny and slow to grow. She did not cry or smile or act as babi
 >
 > —[Grand Maester](wiki:Grand_Maester) [Munkun](wiki:Munkun)
 
+> “Both of them are broken,” Grand Maester Munkun declared in a letter to the Conclave.
+> — Grand Maester Munkun, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:131`)
+
+> Yet all these were as naught against the tragedy that descended on the court and king. On the twenty-second day of the ninth moon of 133 AC, Jaehaera of House Targaryen, Queen of the Seven Kingdoms and the last surviving child of King Aegon II, perished at the age of ten.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:29`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Titles)

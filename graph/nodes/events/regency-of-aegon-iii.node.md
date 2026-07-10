@@ -72,3 +72,6 @@ Seven regents were six too many. Pity our poor king.(wiki:Regency_of_Aegon_III.c
 Aegon: Lord Manderly, pray tell me how old I am, if you would be so good.
 Torrhen: You are ten-and-six today, Your Grace. A man grown. It is time for you to take the governance of the [Seven Kingdoms](wiki:Seven_Kingdoms) into your own hands.
 And thus the rule of the regents came to a whimpering end, as the broken reign of the broken king began.(wiki:Regency_of_Aegon_III.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+
+> Ser Willis Fell agreed. "It must be Rhaena. She has a dragon, her sister does not."
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:191`)

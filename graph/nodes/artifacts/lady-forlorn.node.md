@@ -42,3 +42,6 @@ It's said that whenever [Blackfyre](wiki:Blackfyre) and Lady Forlorn clashed, yo
 Candlelight rippled along the smoke-grey steel of [Corbray's](wiki:Lyn_Corbray) blade, so dark that it put Sansa in mind of [Ice](wiki:Ice), [her father's](wiki:Eddard_Stark) greatsword.(wiki:Lady_Forlorn.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 Gilwood: Sheathe your sword, Corbray. You shame us all with this.
 Horton: Come, Lyn. This will serve for nought. Put Lady Forlorn to bed. Lyn: My lady has a thirst. Whenever she comes out to dance, she likes a drop of red.
+
+> That was when Lord Corbray rose to his feet and drew his sword, the Valyrian steel blade called Lady Forlorn that was the pride of his house. “Yes,” he said, and laid the blade upon the table, its point toward Lord Rogar.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p02.md:169`)

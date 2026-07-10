@@ -51,6 +51,10 @@ Due to her [high birth](wiki:Highborn), Cassandra was spared from the harsh puni
 I have [four daughters](wiki:Four_Storms). Choose any one you like. Cass is oldest, she'll be first to [flower](wiki:Flower), but [Floris](wiki:Floris_Baratheon) is prettier. And if it’s a clever wife you want, there's [Maris](wiki:Maris_Baratheon).(wiki:Cassandra_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 She will give me strong sons, worthy of the [Iron Throne](wiki:Iron_Throne).(wiki:Cassandra_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 
+> Through them (and Lord Grandison, whose lands and keep were also of the stormlands), it was arranged for Lady Cassandra to wed a minor knight named Ser Walter Brownhill, who ruled a few hides of land on Cape Wrath from a castle oft described as being made of “mud and tree roots.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:171`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-09 -->

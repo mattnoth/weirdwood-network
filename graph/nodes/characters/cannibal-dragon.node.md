@@ -37,6 +37,9 @@ Some time after the end of the Dance, the Cannibal vanished.(wiki:Cannibal_(drag
 None of the [dragonseeds](wiki:Dragonseeds) were fool enough to disturb the Cannibal.(wiki:Cannibal_(dragon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 If we do not trouble him, the Cannibal will not trouble us.(wiki:Cannibal_(dragon).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
+> It was said afterward that as the hull went down, the Cannibal swept overhead, his great black wings spread in a last salute. (A moving touch, but most likely a later embroidery. From all we know of the Cannibal, he would have been more apt to eat the corpse than salute it.)
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:161`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->

@@ -81,6 +81,9 @@ Racallio sometimes ordered his dozen wives to beat him. A contradictory person, 
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
 
+> He honored the gods: all gods, everywhere. When battle threatened, he would throw the bones to choose which god to placate with a sacrifice.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:41`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-hooded-hand-21-2026-07-09 -->

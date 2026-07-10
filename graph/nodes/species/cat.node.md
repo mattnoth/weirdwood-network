@@ -75,3 +75,6 @@ Cats liked the smell of Cat. Some days she would have a dozen trailing after her
 Cats were vain and cruel, always ready to turn on you.(wiki:Cat.cite_ref-Radwdprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
 Cats go everywhere. No one ever looks at them.(wiki:Cat.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)
 A cat will kill a [mouse](wiki:Mouse), a pig will wallow in shit, and a [sellsword](wiki:Sellsword) will run off when he's needed most. Can't be blamed. Just the nature of the beast.(wiki:Cat.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
+
+> Though the guilt of rats was never proved to the satisfaction of the Citadel, suddenly every house in the Seven Kingdoms, from the grandest castle to the humblest hut, required a cat. Before the Shivers ran its course that winter, kittens were selling for as much as destriers.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:21`)

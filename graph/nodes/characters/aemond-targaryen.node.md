@@ -80,6 +80,16 @@ As a child, Aemond was bold, wild, willful, hot-tempered and unforgiving, and gr
 >
 > —[Otto Hightower](wiki:Otto_Hightower) to Aemond
 
+> Thus it was not a raven who took flight for Storm's End that day, but Vhagar, oldest and largest of the dragons of Westeros. On her back rode Prince Aemond Targaryen, with a sapphire in the place of his missing eye.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:155`)
+
+> And so oneeyed Aemond the Kinslayer took up the iron-and-ruby crown of Aegon the Conqueror. “It looks better on me than it ever did on him,” the prince proclaimed.
+> — Aemond Targaryen, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:153`)
+
+> Aemond commanded that Ser Simon be given a sword. “Let the gods decide if you speak truly,” he said. “If you are innocent, the Warrior will give you the strength to defeat me.” The duel that followed was utterly one-sided, all the accounts agree; the prince cut the old man to pieces, then fed his corpse to Vhagar.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:181`)
+
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiances)

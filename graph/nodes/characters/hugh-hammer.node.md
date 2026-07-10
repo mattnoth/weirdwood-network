@@ -45,6 +45,9 @@ Why be a [lord](wiki:Lord) when you can be a [king](wiki:King)?(wiki:Hugh_Hammer
 We need a strong man to lead us, not [a boy](wiki:Daeron_Targaryen_(son_of_Viserys_I)). [The throne](wiki:Iron_Throne) should be mine.(wiki:Hugh_Hammer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 Jon: Lord Hammer, my condolences.Hugh: For what?Jon: You died in [the battle](wiki:Second_Battle_of_Tumbleton).(wiki:Hugh_Hammer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
+> As neither man could read nor write, we shall never know what drove the Two Betrayers (as history has named them) to do what they did.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:225`)
+
 ## Quotes
 
 A crown does not make a man a king. You should wear a horseshoe on your head, blacksmith.(wiki:Hugh_Hammer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)

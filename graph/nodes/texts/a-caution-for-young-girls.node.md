@@ -34,3 +34,6 @@ These inaccurate transmissions and intentional additions had the combined effect
 ## Quotes
 
 It purports to be the testimony of [a young maid](wiki:Coryanne_Wylde) of noble birth who surrendered her virtue to a groom in [her lord father's castle](wiki:Rain_House), gave birth to a child [out of wedlock](wiki:Bastardy), and thereafter found herself partaking of every sort of wickedness imaginable during a long life of sin, suffering, and [slavery](wiki:Slavery).(wiki:A_Caution_for_Young_Girls.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+
+> She was to be sent to Dragonstone, a supposed maid, to serve as one of Queen Alysanne's companions, but once there she was to use her wiles and her body to beguile the king into bed.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p01.md:195`)

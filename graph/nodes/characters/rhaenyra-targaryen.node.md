@@ -138,6 +138,31 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 >
 > —[Arianne Martell](wiki:Arianne_Martell), to [Arys Oakheart](wiki:Arys_Oakheart)
 
+> The girl that they once cheered as the Realm’s Delight had grown into a grasping and vindictive woman, men said, a queen as cruel as any king before her. One wit named Rhaenyra “King Maegor with teats,” and for a hundred years thereafter “Maegor's Teats” was a common curse amongst Kingslanders.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:45`)
+
+> (Septon Eustace suggests somewhat waspishly that Her Grace’s own hungers were slaked largely with sweetmeats, cakes, and lamprey pie, as Rhaenyra grew ever more stout during her days in King’s Landing.)
+> — Septon Eustace, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:55`)
+
+> Yet neither Waters nor any of the other knights and lords present in the yard spoke a word of protest as King Aegon II delivered his half-sister to his dragon. Sunfyre, it is said, did not seem at first to take any interest in the offering, until Broome pricked the queen’s breast with his dagger.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:301`)
+
+> Three hundred sets of eyes looked on as Prince Daemon Targaryen placed the Old King’s crown on the head of his wife, proclaiming her Rhaenyra of House Targaryen, First of Her Name, Queen of the Andals, the Rhoynar, and the First Men.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:23`)
+
+> Mushroom alone was present for these councils, however, and the fool insists that Rhaenyra was still so griefsick over the death of her son Lucerys that she absented herself from the war council, giving over her command to the Sea Snake and his wife, Princess Rhaenys. Here Mushroom’s version seems most likely, for we know that nine days after Lord Staunton dispatched his plea for help, the sound of leathern wings was heard across the sea, and the dragon Meleys appeared above Rook’s Rest.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:121`)
+
+> It was fear of losing the support of such lords, Munkun asserts in True Telling, that led the queen to decide in favor of Lord Corlys rather than Prince Daemon.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:19`)
+
+> Mushroom, who loved the queen well, tells us that Rhaenyra wept when Maelor’s small head was placed before her as she sat the Iron Throne. Septon Eustace, who loved her little, says rather that she smiled, and commanded that the head be burned, “for he was the blood of the dragon.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:85`)
+
+> In the fullness of her victory, Rhaenyra Targaryen did not suspect how few days remained to her. Yet every time she sat the Iron Throne, its cruel blades drew fresh blood from her hands and arms and legs, a sign that all could read.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:57`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

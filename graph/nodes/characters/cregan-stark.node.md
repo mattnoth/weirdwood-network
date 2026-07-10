@@ -136,6 +136,9 @@ While in the [crypt of Winterfell](wiki:Crypt_of_Winterfell), [Bran Stark](wiki:
 >
 > —[Bran Stark](wiki:Bran_Stark) to [Osha](wiki:Osha)
 
+> “Not even the tears of a dragon could melt the frozen heart of Cregan Stark, men said rightly,” Mushroom tells us, “but when Lady Baela brandished a sword and declared that she would cut off the hand of any man who sought to harm the men who had saved her, the Wolf of Winterfell smiled for all to see, and allowed that if her ladyship was so fond of these dogs, he would permit her to keep them.”
+> — Mushroom, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:195`)
+
 ## Edges
 
 - HOLDS_TITLE: Lord of Winterfell (track_b: Titles)

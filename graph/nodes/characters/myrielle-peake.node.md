@@ -49,3 +49,8 @@ Myrielle was one year older than King [Aegon III Targaryen](wiki:Aegon_III_Targa
 - After the king's turnip remark spread, she became known throughout the realm as Lady Turnips (fab-war-and-peace-and-cattle-shows-22-p02:91)
 - Four-and-ten and a year older than the king, brown of hair and eye with a broad freckled face and crooked teeth (fab-war-and-peace-and-cattle-shows-22-p02:159)
 - Her father brought her to court early and arranged suppers with the king, who gave her one of the little queen's dolls (fab-war-and-peace-and-cattle-shows-22-p02:159)
+
+## Quotes
+
+> Then, infamously, he added, “Your Grace does not like turnips, but when your cooks prepare them, you eat them, do you not?” King Aegon nodded sullenly...but the tale got out, as such tales always do, and the unfortunate Lady Myrielle was soon known as Lady Turnips throughout
+> — Unwin Peake, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:91`)

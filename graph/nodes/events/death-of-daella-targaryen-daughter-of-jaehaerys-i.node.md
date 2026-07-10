@@ -23,3 +23,8 @@ died at eighteen
 <!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-09 -->
 
 died at eighteen
+
+## Quotes
+
+> Daella's death tore the heart out of the queen, but as we look back, it is plain to see that it was also the first hint of the rift that would open between her and her king.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:67`)

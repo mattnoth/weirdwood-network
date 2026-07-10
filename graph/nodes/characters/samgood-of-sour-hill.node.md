@@ -42,3 +42,8 @@ When he became a Kingsguard in [49 AC](wiki:49_AC), Samgood was a grizzled man 
 
 - Samgood of Sour Hill, called Sour Sam, was a scarred one-eyed hedge knight of sixty-three, the eldest champion, who fought with the quickness of a younger man (fab-year-of-the-three-brides-07:133)
 - At Dragonstone he answered Rogar that the Kingsguard served the king, not the Hand (fab-year-of-the-three-brides-07:243)
+
+## Quotes
+
+> “Aye,” old Sour Sam answered, “but we're the Kingsguard, not the Hand's guard, and it’s the lad who sits the chair, not you.”
+> — Samgood of Sour Hill (Sour Sam), F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:243`)

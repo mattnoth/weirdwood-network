@@ -169,6 +169,16 @@ When talking to [Theon Greyjoy](wiki:Theon_Greyjoy), Lord [Roose Bolton](wiki:Ro
 >
 > —[George R. R. Martin](wiki:George_R._R._Martin)
 
+> Had she been a boy she would surely have been sent to the Citadel to forge a maester's chain, Septon Barth would say of her...for that wise man esteemed her even more than her husband, whom he served for so long.
+> — Septon Barth, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:109`)
+
+> “No mother should ever have to burn her child,” the queen had said at the funeral pyre of her son Valerion, but of the thirteen children she bore to King Jaehaerys, only three of them would survive her, Aegon, Gaemon, and Valerion died as babes. The Shivers took Daenerys at the age of six. A crossbow slew Prince Aemon. Alyssa and Daella died in childbed, Viserra drunk in the street.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:233`)
+
+> If servants’ tales may be believed, the king and his new queen slept naked and shared many long and lingering kisses, abed and at table and at many other times throughout the day, yet never consummated their union. Another year and a half would pass before Jaehaerys and Alysanne would finally join as man and woman.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:267`)
+
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiance)

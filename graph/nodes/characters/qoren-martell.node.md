@@ -30,6 +30,9 @@ By [132 AC](wiki:132_AC), Qoren had passed away and was succeeded by his eldest
 >
 > —in response to a letter from Ser [Otto Hightower](wiki:Otto_Hightower), asking for support during the Dance of the Dragons
 
+> Prince Qoren spurned his offer. “Dorne has danced with dragons before,” he said. “I would sooner sleep with scorpions.”
+> — Qoren Martell, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:37`)
+
 ## Edges
 
 - HOLDS_TITLE: Prince of Dorne (track_b: Titles)

@@ -17,3 +17,8 @@ Baela Targaryen gives birth to daughter Laena while Alyn Velaryon sails to Lys, 
 <!-- fab-enriched: fab-deferred-events-s203-2026-07-09 -->
 
 Baela Targaryen gives birth to daughter Laena while Alyn Velaryon sails to Lys, 134 AC
+
+## Quotes
+
+> "Name him Corlys, after my grandsire," Lord Alyn told her. "One day he may sit the Iron Throne." Baela laughed at that. "I will name her Laena, after my mother. One day she may ride a dragon."
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:191`)

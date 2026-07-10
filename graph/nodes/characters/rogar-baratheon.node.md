@@ -109,6 +109,13 @@ Rogar was not a man to yield, often boasting in battle that he would not lay dow
 >
 > —Rogar to [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
 
+> No swordsman, his lordship preferred to wield a double-bladed axe in battle...an axe, he oft said, “large and heavy enough to cleave through a dragon's skull.”
+> — Rogar Baratheon, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:37`)
+
+> The Vulture proved sadly unequal to that task. Wasted and weak and wracked with pain as he was, Rogar Baratheon turned the Dornishman’s attacks aside contemptuously, then clove him from shoulder to navel.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:203`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Lord of Storm's End (track_b: Titles)

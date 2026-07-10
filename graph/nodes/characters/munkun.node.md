@@ -54,6 +54,15 @@ Munkun was the only member of the council that held office from [131 AC](wiki:1
 
 Maester [Alford](wiki:Alford) was Grand Maester in [153 AC](wiki:Years_after_Aegon's_Conquest),(wiki:Munkun.cite_ref-Rtwoiaf411.7B.7B.7B4.7D.7D.7D_9-0) but by [171 AC](wiki:Years_after_Aegon's_Conquest) Munkun was Grand Maester again.(wiki:Munkun.cite_ref-10) When King [Baelor I Targaryen](wiki:Baelor_I_Targaryen) collapsed from fasting after the birth of [Daemon Waters](wiki:Daemon_I_Blackfyre), Munkun tried to heal the king, but Baelor died.(wiki:Munkun.cite_ref-Rtwoiaf49.7B.7B.7B4.7D.7D.7D_11-0)
 
+## Quotes
+
+> Yet it was Grand Maester Munkun who put an end to the debate when he said, “My lords, it makes no matter. They are both girls. Have we learned so little from the slaughter? We must abide by primogeniture, as the Great Council ruled in 101. The male claim comes before the female.”
+> — Grand Maester Munkun, F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:195`)
+
+> Even the appearance of Tessarion across the field did not dismay them, for they knew they had two dragons of their own...but when Vermithor and Silverwing climbed into the sky and loosed their fires upon Tumbleton, those cheers changed to screams. It was the Field of Fire writ small, Grand Maester Munkun wrote.
+> — Grand Maester Munkun, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:233`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-rhaenyra-overthrown-18-p02-2026-07-09 -->

@@ -71,6 +71,10 @@ Gaemon had pale hair.(wiki:Gaemon_Palehair.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B
 >
 > —[Aegon III Targaryen](wiki:Aegon_III_Targaryen) to [Gareth Long](wiki:Gareth_Long)
 
+> Most terrible of all, his lordship was accused of having plotted with the three Rogares to poison King Aegon and his queen, so as to place Prince Viserys on the Iron Throne with Larra of Lys as his queen. “The poison used is called the Tears of Lys,” Bernard declared, an assertion that Grand Maester Munkun then confirmed.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:47`)
+
+
 ## Edges
 
 - HOLDS_TITLE: King (track_b: Title)

@@ -104,3 +104,18 @@ Unwin was proud, brusque, hard, ambitious, and cunning. Like his [lord father](w
 - Once Hand and Lord of Starpike, Dunstonbury, and Whitegrove, Peake is named by Mushroom as the hidden master of the plot (fab-the-lysene-spring-24-p02:97)
 - Several traitors had blood ties to him or owed him their places, and he had once planned to murder two dragonriders under the sign of the Bloody Caltrops, but he was at Starpike during the siege and his involvement stayed unproven (fab-the-lysene-spring-24-p02:103)
 - He brought the largest retinue to the gathering (fab-the-lysene-spring-24-p02:123)
+
+## Quotes
+
+> “This Hand is not blind, nor veiled, nor crippled,” he announced before king and court. “This Hand can still wield a sword.”
+> — Unwin Peake, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:91`)
+
+> Nor was Peake a stranger to conspiracy, having once planned the murder of two dragonriders under the sign of the Bloody Caltrops. But Peake had been at Starpike during the secret siege, and none of his supposed catspaws ever spoke his name, so his involvement remained unproven, then as now.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:101`)
+
+> It behooves us now to pause for a moment and turn our gaze upon Unwin Peake, who would rule the Seven Kingdoms in all but name for the best part of two years, serving as Lord Regent, Protector of the Realm, and Hand of the King.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:37`)
+
+> This he never forgave, stabbing the turncloak Owain Bourney and plotting the murders of the dragonriders Hugh Hammer and Ulf White. Foremost of the Caltrops (though this was not widely known), and one of only three still living, Lord Unwin had proved at Tumbleton that he was no man to trifle with.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:47`)
+

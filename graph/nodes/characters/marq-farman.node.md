@@ -36,6 +36,12 @@ In [47 AC](wiki:47_AC) Lord Marq hosted Princess [Rhaena Targaryen](wiki:Rhaena
 
 Marq was described as an amiable and good-natured man. He was a devoted father, who loved all his children.(wiki:Marq_Farman.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 
+## Quotes
+
+> Less than a fortnight after the queen and Androw Farman had celebrated the first anniversary of their union, however, Lord Marq died suddenly at his own table, choking to death upon a fish bone at the age of six-and-forty.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p02.md:35`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-09 -->

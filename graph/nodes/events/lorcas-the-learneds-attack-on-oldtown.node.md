@@ -23,3 +23,8 @@ Attackers slain; Lorcas killed
 <!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
 
 Attackers slain; Lorcas killed
+
+## Quotes
+
+> Lorcas claimed to have had a vision that Moon would yet deliver Oldtown into the hands of his followers, even after death.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-prince-into-king-06.md:137`)

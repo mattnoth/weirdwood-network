@@ -115,6 +115,9 @@ By the time of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Vhagar was
 
 > Vhagar, the greatest of the Targaryen dragons since the passing of [Balerion](wiki:Balerion) the Black Dread, had counted one hundred eighty-one years upon the earth. Thus passed the last living creature from the days of [Aegon's Conquest](wiki:Aegon's_Conquest), as dusk and darkness swallowed [Black Harren](wiki:Harren_Hoare)'s [accursed seat](wiki:Harrenhal).(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-13)
 
+> That night she mounted Vhagar and returned to Dragonstone, and it is written that when her dragon passed before the moon, that orb turned as red as blood.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:49`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->

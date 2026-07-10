@@ -139,6 +139,10 @@ Bold(wiki:Alyn_Velaryon.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-
 >
 > —[Racallio Ryndoon](wiki:Racallio_Ryndoon) to Alyn
 
+> When he did, the “Queen” was so delighted with him that he sent two of his wives to Oakenfist’s bedchamber that night. “Give them sons,” Racallio commanded. “I want sons as brave and strong as you.” Our sources are at odds as to whether or not Lord Alyn did as he was bid.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:51`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-09 -->

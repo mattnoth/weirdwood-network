@@ -98,6 +98,13 @@ Rhaenys was kindhearted,(wiki:Rhaenys_Targaryen.cite_ref-Rtwoiafthe_targaryen_ki
 >
 > —[Jorah Mormont](wiki:Jorah_Mormont) and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
+> Whether Rhaenys Targaryen outlived her dragon remains a matter of dispute. Some say that she lost her seat and fell to her death, others that she was crushed beneath Meraxes in the castle yard.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:123`)
+
+> Thus the first six blows the man had struck had been lawful...but the remaining ninety-four had been an offense against gods and men, and must be punished in kind. From that day forth, the “rule of six” became a part of the common law, along with the “rule of thumb.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:265`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Dragonstone (track_b: Titles)

@@ -72,6 +72,10 @@ Rego was a shrewd(wiki:Rego_Draz.cite_ref-Rfabjaehaerys_and_alysanne_-_their_tri
 >
 > —Rego, [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen), and [Daemon Velaryon](wiki:Daemon_Velaryon_(son_of_Aethan))
 
+> One of the men pried a stone up from the king’s newly cobbled street and brought it down upon Lord Rego’s head again and again, until only a red mash of blood and bone and brains remained. Thus died the Lord of Air, his skull crushed by one of the very cobblestones he had helped the king lay down.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:63`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->

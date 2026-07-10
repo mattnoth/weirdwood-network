@@ -42,6 +42,12 @@ The answer to those questions is unknown, but the peace that Nymor and Aegon agr
 
 The contents of Nymor's letter to Aegon remain unknown (Tier 2 — multiple speculative explanations exist, wiki:Nymor_Martell). Known from TWOIAF, Fire & Blood, and TROTD.
 
+## Quotes
+
+> To this day, no one can say with certainty what might have been in Deria’s letter. Some claim it was a simple plea from one father to another, heartfelt words that touched King Aegon’s heart.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:149`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-09 -->

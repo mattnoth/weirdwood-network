@@ -42,6 +42,9 @@ From the ashes, only Aemond and Vhagar rose unharmed. Meleys had half torn one o
 Red [maidens](wiki:Maiden), the two of us, but now we've both been mounted.(wiki:Meleys.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 With a glad cry and a crack of her whip, she turned Meleys toward the foe.(wiki:Meleys.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
+> The Red Queen, she was called, for the scarlet scales that covered her. The membranes of her wings were pink, her crest, horns, and claws bright as copper.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:123`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->

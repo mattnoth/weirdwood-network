@@ -138,6 +138,13 @@ Aegon is not considered to have been particularly pious.(wiki:Aegon_I_Targaryen.
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
 
+> Aegon Targaryen put an end to the fighting. He descended on the islands in 2 AC, riding Balerion.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:37`)
+
+> “The first law of the land shall be the King’s Peace,” King Aegon decreed, “and any lord who goes to war without my leave shall be considered a rebel and an enemy of the Iron Throne.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:205`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-aegons-conquest-03-2026-07-07 -->

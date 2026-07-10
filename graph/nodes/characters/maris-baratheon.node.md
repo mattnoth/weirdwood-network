@@ -39,3 +39,8 @@ By the time of King [Aegon III](wiki:Aegon_III_Targaryen)'s coronation, Maris ha
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->
 
 - Borros's less comely secondborn daughter, angry at being passed over, who taunted Aemond and goaded him into pursuit (fab-the-blacks-and-the-greens-16-p02:233)
+
+## Quotes
+
+> “Was it one of your eyes he took, or one of your balls?” Maris asked the prince, in tones sweet as honey.
+> — Maris Baratheon, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:233`)

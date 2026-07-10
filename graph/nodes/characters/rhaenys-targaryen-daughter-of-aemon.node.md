@@ -67,6 +67,10 @@ We can go back to the ends of the earth together. But I'll get there first, as I
 What did [Viserys](wiki:Viserys_I_Targaryen) ever have that she did not? A little sausage? Is that all it takes to be a king?(wiki:Rhaenys_Targaryen_(daughter_of_Aemon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
 Beloved daughter of Lady [Jocelyn Baratheon](wiki:Jocelyn_Baratheon) and Prince [Aemon Targaryen](wiki:Aemon_Targaryen_(son_of_Jaehaerys_I)), faithful wife to Lord [Corlys Velaryon](wiki:Corlys_Velaryon), mother and grandmother, the Queen Who Never Was lived fearlessly, and [died amidst blood and fire](wiki:Battle_at_Rook's_Rest). She was fifty-five years old.(wiki:Rhaenys_Targaryen_(daughter_of_Aemon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 
+> “We have more,” said Princess Rhaenys, the Queen Who Never Was, who had been a dragonrider longer than all of them. “And ours are larger and stronger, but for Vhagar. Dragons thrive best here on Dragonstone.”
+> — Rhaenys Targaryen (the Queen Who Never Was), F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:211`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

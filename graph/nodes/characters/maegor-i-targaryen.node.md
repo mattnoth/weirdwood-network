@@ -157,6 +157,16 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 >
 > —[Visenya Targaryen](wiki:Visenya_Targaryen)
 
+> Queen Visenya put a sword into her son's hand when he was three. Supposedly the first thing he did with the blade was butcher one of the castle cats, men said...though more like this tale was a calumny devised by his enemies many years later.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:35`)
+
+> Lady Alyssa teased him about it one day in court, wondering aloud whether “my goodbrother is afraid of dragons.” Prince Maegor darkened in rage at the jape, then replied coolly that there was only one dragon worthy of him.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:119`)
+
+> His Grace might rule the Seven Kingdoms, men whispered, but he himself was ruled by the three queens: his mother, Queen Visenya; his paramour, Queen Alys; and the Pentoshi witch, Queen Tyanna.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:181`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->

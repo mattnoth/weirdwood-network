@@ -1,0 +1,2698 @@
+[
+ {
+  "row": 1,
+  "snippet": "Th Tergaryen Raccession",
+  "kind": "targaryen-history",
+  "note": "regnal list of Targaryen kings 1-283 AC with parentage and epithets",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 15
+ },
+ {
+  "row": 2,
+  "snippet": "called by singers the Dance of the Dragons",
+  "kind": "targaryen-history",
+  "note": "civil war between Aegon II and Rhaenyra; both perished",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 35
+ },
+ {
+  "row": 3,
+  "snippet": "Queen Naerys\u2019s son, by Aegon or Aemon",
+  "kind": "cross-identity",
+  "note": "disputed paternity of Daeron II (Aegon IV or Aemon the Dragonknight)",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 59
+ },
+ {
+  "row": 4,
+  "snippet": "some say lover to Queen Naerys",
+  "kind": "other",
+  "note": "rumored affair between Aemon the Dragonknight and Queen Naerys",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 55
+ },
+ {
+  "row": 5,
+  "snippet": "Balerion the Black",
+  "kind": "description",
+  "note": "biggest dragon, the only one who remembers Valyria",
+  "unit": "fab-aegons-conquest-03",
+  "line": 111
+ },
+ {
+  "row": 6,
+  "snippet": "written by Archmaester Gyldayn of the Citadel",
+  "kind": "other",
+  "note": "in-universe author and source apparatus (Orwyle, the septon, Mushroom) for the Dance",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 253
+ },
+ {
+  "row": 7,
+  "snippet": "Daeron conquered Dorne, but was unable to hold it",
+  "kind": "causal-spine",
+  "note": "Daeron I conquers Dorne \u2192 cannot hold it \u2192 dies young",
+  "unit": "fab-lineages-and-family-tree-25",
+  "line": 41
+ },
+ {
+  "row": 8,
+  "snippet": "ascended the Iron Throne in 48 AC",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys I accession at fourteen, reign 48-103 AC, \"the Conciliator\"",
+  "unit": "fab-prince-into-king-06",
+  "line": 15
+ },
+ {
+  "row": 9,
+  "snippet": "used the occasion of the king's coronation to switch the twins",
+  "kind": "cross-identity",
+  "note": "Aerea and Rhaella believed switched, Aerea now heir",
+  "unit": "fab-prince-into-king-06",
+  "line": 185
+ },
+ {
+  "row": 10,
+  "snippet": "where his throat had been slit open",
+  "kind": "description",
+  "note": "Septon Moon assassinated by unknown catspaw woman, sender disputed",
+  "unit": "fab-prince-into-king-06",
+  "line": 127
+ },
+ {
+  "row": 11,
+  "snippet": "Moon's murder removed the last major obstacle",
+  "kind": "causal-spine",
+  "note": "Moon's assassination \u2192 host disintegrates \u2192 way to Oldtown clear \u2192 Jaehaerys crowned",
+  "unit": "fab-prince-into-king-06",
+  "line": 149
+ },
+ {
+  "row": 12,
+  "snippet": "Lorcas claimed to have had a vision",
+  "kind": "prophecy",
+  "note": "Lorcas the Learned's vision that Moon would deliver Oldtown after death",
+  "unit": "fab-prince-into-king-06",
+  "line": 137
+ },
+ {
+  "row": 13,
+  "snippet": "He descended on the islands in 2 AC, riding Balerion",
+  "kind": "targaryen-history",
+  "note": "Aegon subdues the Iron Islands and lets the ironborn choose Vickon Greyjoy",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 37
+ },
+ {
+  "row": 14,
+  "snippet": "Whether Rhaenys Targaryen outlived her dragon remains a matter of dispute",
+  "kind": "targaryen-history",
+  "note": "conflicting accounts of Rhaenys's death at the Hellholt",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 123
+ },
+ {
+  "row": 15,
+  "snippet": "she delved into the dark arts, mixing poisons and casting malign spells",
+  "kind": "targaryen-history",
+  "note": "rumor of Visenya as sorceress, kinslayer, and kingslayer",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 275
+ },
+ {
+  "row": 16,
+  "snippet": "no one can say with certainty what might have been in Deria\u2019s letter",
+  "kind": "targaryen-history",
+  "note": "disputed contents of Nymor's sealed letter that ended the war",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 149
+ },
+ {
+  "row": 17,
+  "snippet": "using a vial of Queen Rhaenys\u2019s own blood for ink",
+  "kind": "bloodmagic",
+  "note": "septons' claim the peace letter was ensorceled",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 0
+ },
+ {
+  "row": 18,
+  "snippet": "he would engage the Faceless Men of Braavos",
+  "kind": "targaryen-history",
+  "note": "Grand Maester Clegg's speculation on a threat against young Aenys",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 153
+ },
+ {
+  "row": 19,
+  "snippet": "Thus did the Kingsguard come into being",
+  "kind": "targaryen-history",
+  "note": "Visenya founds the seven White Swords, vows modeled on the Night's Watch",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 283
+ },
+ {
+  "row": 20,
+  "snippet": "the \u201crule of six\u201d became a part of the common law",
+  "kind": "targaryen-history",
+  "note": "Rhaenys's ruling establishes rule of six and rule of thumb",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 265
+ },
+ {
+  "row": 21,
+  "snippet": "\u201cThe first law of the land shall be the King\u2019s Peace,\u201d",
+  "kind": "targaryen-history",
+  "note": "Aegon's decree binding lords against private war",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 205
+ },
+ {
+  "row": 22,
+  "snippet": "whilst having intimate relations with a stallion, her enemies insisted",
+  "kind": "description",
+  "note": "partisan slander on Meria Martell's death",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 135
+ },
+ {
+  "row": 23,
+  "snippet": "the Widow-lover had lopped off each man\u2019s sword hand",
+  "kind": "causal-spine",
+  "note": "maiming of ransomed captives \u2192 Aegon's Balerion reprisal on the Wyls",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 95
+ },
+ {
+  "row": 24,
+  "snippet": "a yard-long iron bolt caught the queen's dragon in the right eye",
+  "kind": "causal-spine",
+  "note": "scorpion kills Meraxes \u2192 Rhaenys's death \u2192 the Dragon's Wroth",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 119
+ },
+ {
+  "row": 25,
+  "snippet": "a hirsute hunchback called Lord Monkeyface",
+  "kind": "description",
+  "note": "Visenya's fool and the ape that replaced him",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 269
+ },
+ {
+  "row": 26,
+  "snippet": "These are the names of Aegon\u2019s Seven",
+  "kind": "targaryen-history",
+  "note": "roster of the original Kingsguard from the White Book",
+  "unit": "fab-reign-of-the-dragon-04",
+  "line": 295
+ },
+ {
+  "row": 27,
+  "snippet": "three kings reigned over the city, each on his own hill",
+  "kind": "targaryen-history",
+  "note": "Moon of the Three Kings, King's Landing under rival \"kings\" after Rhaenyra's flight",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 265
+ },
+ {
+  "row": 28,
+  "snippet": "Fire and blood, blood and fire. This is their city",
+  "kind": "description",
+  "note": "the Shepherd's dragonslaying oratory at the Dragonpit",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 119
+ },
+ {
+  "row": 29,
+  "snippet": "the last of her bastards by Ser Harwin Strong",
+  "kind": "cross-identity",
+  "note": "Joffrey's disputed paternity, Laenor vs Harwin Strong",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 171
+ },
+ {
+  "row": 30,
+  "snippet": "Mushroom asserts that Helaena was with child",
+  "kind": "targaryen-history",
+  "note": "three conflicting accounts of Helaena's suicide",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 25
+ },
+ {
+  "row": 31,
+  "snippet": "Helaena had been murdered, the whispers went",
+  "kind": "causal-spine",
+  "note": "Helaena's death rumor -> bloody riot of King's Landing",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 31
+ },
+ {
+  "row": 32,
+  "snippet": "the tale most oft heard in King's Landing named the Shepherd himself",
+  "kind": "description",
+  "note": "legend of the Shepherd slaying Syrax with a smoke-blade",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 243
+ },
+ {
+  "row": 33,
+  "snippet": "Any knight can make a knight",
+  "kind": "targaryen-history",
+  "note": "Perkin the Flea's gutter knighthoods raising Trystane's army",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 85
+ },
+ {
+  "row": 34,
+  "snippet": "a Dornish whore named Sylvenna Sand",
+  "kind": "cross-identity",
+  "note": "Gaemon Palehair's edicts attributed to Sylvenna Sand",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "line": 275
+ },
+ {
+  "row": 35,
+  "snippet": "Many had heard the prophecy that the hammer",
+  "kind": "prophecy",
+  "note": "prophecy that \"the hammer would smash the dragon\" read as foreordaining Hard Hugh's triumph",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 23
+ },
+ {
+  "row": 36,
+  "snippet": "Three conflicting accounts exist as to the manner of death of Prince Daeron",
+  "kind": "targaryen-history",
+  "note": "classic F&B partisan-source conflict \u2014 Black Trombo vs unknown man-at-arms vs Munkun's collapsing-pavilion version",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 83
+ },
+ {
+  "row": 37,
+  "snippet": "born Addam of Hull",
+  "kind": "cross-identity",
+  "note": "Ser Addam Velaryon revealed as born Addam of Hull; tomb reads LOYAL",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 155
+ },
+ {
+  "row": 38,
+  "snippet": "Seasmoke\u2019s descent upon Riverrun had at last persuaded",
+  "kind": "causal-spine",
+  "note": "dragon in courtyard \u2192 Elmo Tully calls Tully banners for the queen",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 63
+ },
+ {
+  "row": 39,
+  "snippet": "a great golden fire-breathing chicken",
+  "kind": "description",
+  "note": "Mushroom's mocking image of the maimed Sunfyre after Rook's Rest",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 235
+ },
+ {
+  "row": 40,
+  "snippet": "spirited the king and his children out of the city",
+  "kind": "targaryen-history",
+  "note": "Larys Strong smuggles Aegon II out via Maegor's secret passage, hides him among codfish on Dragonstone",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 219
+ },
+ {
+  "row": 41,
+  "snippet": "took counsel with the Green Men",
+  "kind": "foreshadow-hook",
+  "note": "singers' claim Addam visited the Isle of Faces, which Gyldayn rejects as unknowable",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 51
+ },
+ {
+  "row": 42,
+  "snippet": "I shall not walk that road again",
+  "kind": "description",
+  "note": "Aegon II refuses milk of the poppy from Gerardys, distrusting his sister's creature",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 275
+ },
+ {
+  "row": 43,
+  "snippet": "delivered his half-sister to his dragon",
+  "kind": "targaryen-history",
+  "note": "Rhaenyra fed to Sunfyre on Dragonstone, dies 22nd day of 10th moon 130 AC aged 33",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 301
+ },
+ {
+  "row": 44,
+  "snippet": "Who can know the heart of a dragon?",
+  "kind": "other",
+  "note": "Gyldayn's open questions on riderless-dragon loyalty and the dragon-rider bond at Second Tumbleton",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 117
+ },
+ {
+  "row": 45,
+  "snippet": "but this is most like a fable",
+  "kind": "description",
+  "note": "singers say Silverwing thrice lifted Vermithor's wing with her nose; Gyldayn deems it fable",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "line": 133
+ },
+ {
+  "row": 46,
+  "snippet": "after Sunfyre had feasted on his sister",
+  "kind": "targaryen-history",
+  "note": "Aegon II proclaims victory once Rhaenyra is dead",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 17
+ },
+ {
+  "row": 47,
+  "snippet": "the magnificent golden dragon that had been King Aegon\u2019s glory died",
+  "kind": "targaryen-history",
+  "note": "Sunfyre dies of festering wounds at Dragonstone",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 33
+ },
+ {
+  "row": 48,
+  "snippet": "an accord was reached between Lord Borros, Lord Larys, and Queen Alicent",
+  "kind": "causal-spine",
+  "note": "tent parley -> restoration of Aegon II to King's Landing",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 49
+ },
+ {
+  "row": 49,
+  "snippet": "the younger son of Mouse, the shipwright\u2019s daughter",
+  "kind": "cross-identity",
+  "note": "Marilda \"Mouse\" of Hull, mother of Alyn and Addam",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 25
+ },
+ {
+  "row": 50,
+  "snippet": "set him aflame with his own hand",
+  "kind": "description",
+  "note": "Aegon II personally burns the Shepherd atop the Dragonpit",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 0
+ },
+ {
+  "row": 51,
+  "snippet": "bringing forth a pale pink hatchling with black horns and crest",
+  "kind": "targaryen-history",
+  "note": "Rhaena's egg hatches Morning in the Vale",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 0
+ },
+ {
+  "row": 52,
+  "snippet": "I will have a new Sunfyre, prouder and fiercer than the last",
+  "kind": "targaryen-history",
+  "note": "Aegon II tries to hatch dragon eggs, fails",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 141
+ },
+ {
+  "row": 53,
+  "snippet": "The Citadel names the clash that followed the Battle of the Kingsroad",
+  "kind": "causal-spine",
+  "note": "the Muddy Mess, last battle of the Dance",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 215
+ },
+ {
+  "row": 54,
+  "snippet": "we can have no doubt that it was done at the behest of Larys Strong",
+  "kind": "targaryen-history",
+  "note": "Aegon II poisoned at the Clubfoot's behest",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 277
+ },
+ {
+  "row": 55,
+  "snippet": "spin his webs of deceit and betrayal, setting each against the other",
+  "kind": "description",
+  "note": "Larys plays king and Sea Snake against one another",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 185
+ },
+ {
+  "row": 56,
+  "snippet": "a flagon of sweet Arbor red, Aegon\u2019s favorite wine",
+  "kind": "food",
+  "note": "the poisoned wine in the king's litter",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 271
+ },
+ {
+  "row": 57,
+  "snippet": "his captors drowned him in a cask of same",
+  "kind": "description",
+  "note": "Tom Tanglebeard drowned in ale during the coup",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 257
+ },
+ {
+  "row": 58,
+  "snippet": "You fed his mother to your dragon",
+  "kind": "causal-spine",
+  "note": "Aegon III's captivity and the reason he will not spare his uncle",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 239
+ },
+ {
+  "row": 59,
+  "snippet": "Eustace says nothing of this in his own account",
+  "kind": "other",
+  "note": "Mushroom vs Eustace on Aegon II's voyeurism",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 0
+ },
+ {
+  "row": 60,
+  "snippet": "of apoplexy from having his house fight against the rightful king",
+  "kind": "other",
+  "note": "Mushroom's disputed cause for Grover Tully's death",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 123
+ },
+ {
+  "row": 61,
+  "snippet": "wed Princess Jaehaera, the daughter of Queen Helaena by her brother King Aegon II",
+  "kind": "targaryen-history",
+  "note": "marriage uniting the two Targaryen branches",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 287
+ },
+ {
+  "row": 62,
+  "snippet": "Septon Eustace speaks of \u201ctwenty thousand howling savages in shaggy pelts,\u201d",
+  "kind": "other",
+  "note": "disputed size of Cregan Stark's host (Eustace vs Munkun)",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 199
+ },
+ {
+  "row": 63,
+  "snippet": "a few even dared suggest that His Grace was not the boy's true sire",
+  "kind": "targaryen-history",
+  "note": "disputed rumor Aenys was a bastard, not Aegon's trueborn son",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 19
+ },
+ {
+  "row": 64,
+  "snippet": "this tale was a calumny devised by his enemies",
+  "kind": "description",
+  "note": "disputed tale that child Maegor butchered a castle cat",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 0
+ },
+ {
+  "row": 65,
+  "snippet": "It was Princess Rhaena, legend says, who put a dragon's egg",
+  "kind": "targaryen-history",
+  "note": "legend crediting Rhaena with the eggs of Silverwing and Vermithor",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 105
+ },
+ {
+  "row": 66,
+  "snippet": "The blood of the dragon must remain pure",
+  "kind": "targaryen-history",
+  "note": "Valyrian doctrine underlying Targaryen kin-marriage custom",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 57
+ },
+ {
+  "row": 67,
+  "snippet": "We shall rule this realm together, you and I",
+  "kind": "causal-spine",
+  "note": "Aenys bequeaths Blackfyre to Maegor \u2192 later strife between the brothers",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 145
+ },
+ {
+  "row": 68,
+  "snippet": "only one dragon worthy of him",
+  "kind": "targaryen-history",
+  "note": "Maegor spurns hatchlings, foreshadowing his claim on Balerion",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 121
+ },
+ {
+  "row": 69,
+  "snippet": "rumored to be sending them men, money, and supplies",
+  "kind": "targaryen-history",
+  "note": "suspicion Deria Martell secretly aided the Vulture King",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 207
+ },
+ {
+  "row": 70,
+  "snippet": "Your Grace is welcome to try and take her from me",
+  "kind": "cross-identity",
+  "note": "Maegor refuses to surrender Blackfyre on going into exile",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "line": 237
+ },
+ {
+  "row": 71,
+  "snippet": "My descendants shall rule from here for a thousand years",
+  "kind": "targaryen-history",
+  "note": "Aenys's obsession with the Red Keep and dynastic ambition",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 19
+ },
+ {
+  "row": 72,
+  "snippet": "It was whispered (though never proved)",
+  "kind": "cross-identity",
+  "note": "Rhaena's rumored lowborn lover, named variously knight/singer/smith/septon",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 29
+ },
+ {
+  "row": 73,
+  "snippet": "that orb turned as red as blood",
+  "kind": "description",
+  "note": "Vhagar passing the moon after Visenya storms out of the wedding",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 51
+ },
+ {
+  "row": 74,
+  "snippet": "Thereafter accounts differ markedly",
+  "kind": "other",
+  "note": "Trial of Seven \u2014 chroniclers conflict on the champions' deaths",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 115
+ },
+ {
+  "row": 75,
+  "snippet": "Some said the woman was Maegor's concubine",
+  "kind": "cross-identity",
+  "note": "Tyanna framed as Maegor's concubine vs Alys's paramour",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 131
+ },
+ {
+  "row": 76,
+  "snippet": "Its causes are debated to this day",
+  "kind": "other",
+  "note": "High Septon's death \u2014 suicide, divine wroth, or murder by several suspects",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 209
+ },
+ {
+  "row": 77,
+  "snippet": "the Mander ran red for twenty leagues",
+  "kind": "description",
+  "note": "slaughter of the Poor Fellows at Stonebridge/Bitterbridge",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 143
+ },
+ {
+  "row": 78,
+  "snippet": "he himself was ruled by the three queens",
+  "kind": "targaryen-history",
+  "note": "Maegor governed by Visenya, Alys, and Tyanna",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 181
+ },
+ {
+  "row": 79,
+  "snippet": "The Iron Throne will go to the man who has the strength to seize it",
+  "kind": "causal-spine",
+  "note": "Maegor's usurpation doctrine leads to Gawen's execution and war for the throne",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 89
+ },
+ {
+  "row": 80,
+  "snippet": "dragon contended with dragon in the sky",
+  "kind": "targaryen-history",
+  "note": "first dragon-vs-dragon battle since the Doom of Valyria",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 53
+ },
+ {
+  "row": 81,
+  "snippet": "the young dragon plunged to earth, and Prince Aegon with her",
+  "kind": "causal-spine",
+  "note": "Quicksilver downed -> Aegon dies -> rebel host routs",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 0
+ },
+ {
+  "row": 82,
+  "snippet": "for it came to pass just as she had promised",
+  "kind": "targaryen-history",
+  "note": "Tyanna's poisoning of the queens' children fulfilled after her death",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 209
+ },
+ {
+  "row": 83,
+  "snippet": "Many queer and contradictory stories are told",
+  "kind": "other",
+  "note": "disputed wedding-night legends of the Black Brides",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 189
+ },
+ {
+  "row": 84,
+  "snippet": "Many to this day believe it was the Iron Throne itself",
+  "kind": "other",
+  "note": "contested accounts of how Maegor died",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 243
+ },
+ {
+  "row": 85,
+  "snippet": "there was no disguising her dragon",
+  "kind": "description",
+  "note": "dragons cannot be hidden - Rhaena's dilemma",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 165
+ },
+ {
+  "row": 86,
+  "snippet": "gave her sanctuary and swore no harm would come to her",
+  "kind": "hospitality",
+  "note": "Marq Farman shelters Rhaena at Faircastle",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 65
+ },
+ {
+  "row": 87,
+  "snippet": "the bastard hedge knight who had escaped the carnage at the Great Fork",
+  "kind": "cross-identity",
+  "note": "Wendwater rescue leader revealed as Ser Horys Hill",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "line": 0
+ },
+ {
+  "row": 88,
+  "snippet": "the king\u2019s sudden and secret marriage to his sister",
+  "kind": "targaryen-history",
+  "note": "secret Jaehaerys\u2013Alysanne marriage triggers the rift with regents",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 35
+ },
+ {
+  "row": 89,
+  "snippet": "a matter of some dispute",
+  "kind": "cross-identity",
+  "note": "man at the inn is either Borys Baratheon or Lord Rogar across book versions",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 0
+ },
+ {
+  "row": 90,
+  "snippet": "not with Androw, but with his sister, Lady Elissa",
+  "kind": "cross-identity",
+  "note": "Maester Smike alleges Rhaena's true love was Elissa Farman",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 239
+ },
+ {
+  "row": 91,
+  "snippet": "the alleged author of A Caution for Young Girls",
+  "kind": "description",
+  "note": "disputed authorship and provenance of the banned book",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 165
+ },
+ {
+  "row": 92,
+  "snippet": "They will test me as well",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys's arms-training regimen on Dragonstone",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 0
+ },
+ {
+  "row": 93,
+  "snippet": "secret marriage to his sister \u2192 deeply at odds with the King\u2019s Hand",
+  "kind": "causal-spine",
+  "note": "the secret marriage causes the estrangement from Alyssa and Rogar",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 94,
+  "snippet": "she was to use her wiles and her body to beguile the king",
+  "kind": "foreshadow-hook",
+  "note": "alleged plot to seduce Jaehaerys and break the marriage",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 197
+ },
+ {
+  "row": 95,
+  "snippet": "a court within the court",
+  "kind": "description",
+  "note": "Rhaena's inner circle dubbed \"the Four-Headed Beast\"",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 19
+ },
+ {
+  "row": 96,
+  "snippet": "choking to death upon a fish bone",
+  "kind": "targaryen-history",
+  "note": "Lord Marq Farman's death triggers Rhaena's expulsion from Fair Isle",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 35
+ },
+ {
+  "row": 97,
+  "snippet": "He wanted an alliance with the Iron Throne",
+  "kind": "causal-spine",
+  "note": "Lyman's ambition for dragons -> Rhaena resolves to leave the Rock",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 73
+ },
+ {
+  "row": 98,
+  "snippet": "Dressed in the rags of a common girl",
+  "kind": "cross-identity",
+  "note": "Princess Aerea hidden as a stable girl with dyed hair",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 183
+ },
+ {
+  "row": 99,
+  "snippet": "she was the actual Princess Aerea, not",
+  "kind": "cross-identity",
+  "note": "Rogar's plot to pass novice Rhaella off as Aerea",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 201
+ },
+ {
+  "row": 100,
+  "snippet": "the Valyrian steel blade called Lady Forlorn",
+  "kind": "description",
+  "note": "Corbray draws Lady Forlorn against Rogar",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 169
+ },
+ {
+  "row": 101,
+  "snippet": "a fire in her Jaehaerys does not have",
+  "kind": "causal-spine",
+  "note": "Rogar names Aerea claimant -> council turns on him as treason",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "line": 159
+ },
+ {
+  "row": 102,
+  "snippet": "a pinch of poison in his hippocras",
+  "kind": "cross-identity",
+  "note": "Mushroom alone alleges Alicent poisoned Viserys; he was on Dragonstone, not present",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 45
+ },
+ {
+  "row": 103,
+  "snippet": "the first blood shed in the Dance of the Dragons belonged to",
+  "kind": "targaryen-history",
+  "note": "three conflicting accounts of Beesbury's death, all agreeing he was first to die",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 101
+ },
+ {
+  "row": 104,
+  "snippet": "My sister is the heir, not me",
+  "kind": "description",
+  "note": "Eustace's gentler Aegon vs Mushroom's rat-pit Aegon vs Munkun's vague \"at his revels\"",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 129
+ },
+ {
+  "row": 105,
+  "snippet": "but Vhagar",
+  "kind": "description",
+  "note": "Rhaenys's dragon census of both sides \u2014 the war's order of battle in the air",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 106,
+  "snippet": "That is how we shall win this",
+  "kind": "causal-spine",
+  "note": "claim wild-dragon riders leads to nine or twelve dragons vs Aegon's four",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 219
+ },
+ {
+  "row": 107,
+  "snippet": "the tidings from King's Landing had driven the princess into a black fury",
+  "kind": "causal-spine",
+  "note": "news of Viserys's death and Aegon's crowning leads to Rhaenyra's early labor and stillbirth",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 185
+ },
+ {
+  "row": 108,
+  "snippet": "Only Targaryens ride dragons",
+  "kind": "cross-identity",
+  "note": "the Velaryon boys' answer to the \"Strong\" bastardy charge \u2014 dragonback as proof of blood",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 261
+ },
+ {
+  "row": 109,
+  "snippet": "We must fight this war with words before we go to battle",
+  "kind": "targaryen-history",
+  "note": "Daemon's opening strategy for the black cause",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 237
+ },
+ {
+  "row": 110,
+  "snippet": "Here. Harrenhal",
+  "kind": "causal-spine",
+  "note": "need of a mainland toehold for river friends leads to Daemon's assault on Harrenhal",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 253
+ },
+ {
+  "row": 111,
+  "snippet": "a sapphire in the place of his missing eye",
+  "kind": "description",
+  "note": "Aemond flies to Storm's End to woo a Baratheon daughter for the greens",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "line": 155
+ },
+ {
+  "row": 112,
+  "snippet": "placed the Old King\u2019s crown on the head of his wife",
+  "kind": "targaryen-history",
+  "note": "Rhaenyra crowned on Dragonstone with the stolen Conciliator's crown",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 23
+ },
+ {
+  "row": 113,
+  "snippet": "An eye for an eye, a son for a son",
+  "kind": "causal-spine",
+  "note": "Luke's death \u2192 Daemon's raven \u2192 Blood and Cheese murder",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 255
+ },
+ {
+  "row": 114,
+  "snippet": "the agreement that Grand Maester Munkun calls \u201cthe Pact of Ice and Fire\u201d",
+  "kind": "targaryen-history",
+  "note": "Pact of Ice and Fire between Jacaerys and Cregan Stark",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 159
+ },
+ {
+  "row": 115,
+  "snippet": "with the name of Sara Snow",
+  "kind": "cross-identity",
+  "note": "Mushroom's disputed \"wolf girl\" bastard of Lord Rickon Stark",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 149
+ },
+ {
+  "row": 116,
+  "snippet": "Munkun and Eustace tell us she was sired by Lord Lyonel Strong",
+  "kind": "cross-identity",
+  "note": "disputed parentage of Alys Rivers",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 85
+ },
+ {
+  "row": 117,
+  "snippet": "They are remembered... as Blood and Cheese",
+  "kind": "description",
+  "note": "the two assassins whose true names are lost",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 118,
+  "snippet": "Was it one of your eyes he took, or one of your balls?",
+  "kind": "causal-spine",
+  "note": "Maris's taunt \u2192 Aemond's pursuit of Lucerys",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 233
+ },
+ {
+  "row": 119,
+  "snippet": "who would henceforth be known as Aemond the Kinslayer to his foes",
+  "kind": "cross-identity",
+  "note": "Aemond's epithet after killing Lucerys",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 251
+ },
+ {
+  "row": 120,
+  "snippet": "The other harlots called her Misery",
+  "kind": "cross-identity",
+  "note": "Mysaria as Misery / the White Worm, Daemon's go-between",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 277
+ },
+ {
+  "row": 121,
+  "snippet": "Lucerys Velaryon died with his dragon, Munkun insists",
+  "kind": "targaryen-history",
+  "note": "competing accounts of Luke's death, Munkun's verdict",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 249
+ },
+ {
+  "row": 122,
+  "snippet": "it was Lady Alysanne who suggested an answer",
+  "kind": "targaryen-history",
+  "note": "Mushroom-attributed origin of the Widow Fairs resettlement",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 19
+ },
+ {
+  "row": 123,
+  "snippet": "A wolf for every widow",
+  "kind": "description",
+  "note": "Mushroom's jape on the northmen-widow marriages",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 23
+ },
+ {
+  "row": 124,
+  "snippet": "a great deal of drinking and fornication took place, claims Mushroom",
+  "kind": "cross-identity",
+  "note": "paired Mushroom/Eustace conflicting accounts of the pre-wedding city",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 41
+ },
+ {
+  "row": 125,
+  "snippet": "seventh day of the seventh moon of the 131st year",
+  "kind": "targaryen-history",
+  "note": "dated coronation-wedding of Aegon III and Jaehaera",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 287
+ },
+ {
+  "row": 126,
+  "snippet": "most likely a later embroidery",
+  "kind": "description",
+  "note": "Gyldayn discounting the Cannibal-salute legend at Corlys's burial",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 161
+ },
+ {
+  "row": 127,
+  "snippet": "What happened next remains a matter of some dispute",
+  "kind": "causal-spine",
+  "note": "Regis Groves's refusal to kneel -> his death by contested means at Harrenhal",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 285
+ },
+ {
+  "row": 128,
+  "snippet": "she has a dragon",
+  "kind": "foreshadow-hook",
+  "note": "messenger's report of a dragon at Harrenhal",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 191
+ },
+ {
+  "row": 129,
+  "snippet": "Both of them are broken",
+  "kind": "description",
+  "note": "Munkun's letter on the child king and queen",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 131
+ },
+ {
+  "row": 130,
+  "snippet": "We must abide by primogeniture, as the Great Council ruled in 101",
+  "kind": "targaryen-history",
+  "note": "succession debate invoking the 101 precedent",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 195
+ },
+ {
+  "row": 131,
+  "snippet": "I've bedded two of his sons",
+  "kind": "cross-identity",
+  "note": "Baela's disputed provocation to the Hand",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 223
+ },
+ {
+  "row": 132,
+  "snippet": "the boy had been sired by Bold Jon Roxton",
+  "kind": "cross-identity",
+  "note": "disputed paternity of Sharis Footly's Tumbleton heir",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 271
+ },
+ {
+  "row": 133,
+  "snippet": "Only one man in four survived the Winter Fever",
+  "kind": "targaryen-history",
+  "note": "mortality of the Winter Fever plague",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 307
+ },
+ {
+  "row": 134,
+  "snippet": "watched his uncle feed his mother to a dragon",
+  "kind": "causal-spine",
+  "note": "Aegon III's trauma -> his rage at any mention of dragons",
+  "unit": "fab-the-hooded-hand-21",
+  "line": 131
+ },
+ {
+  "row": 135,
+  "snippet": "Oldtown almost three years earlier to cross the Sunset Sea",
+  "kind": "targaryen-history",
+  "note": "Sun Chaser expedition sets out to cross the Sunset Sea",
+  "unit": "fab-the-long-reign-13",
+  "line": 19
+ },
+ {
+  "row": 136,
+  "snippet": "born Elissa of House Farman",
+  "kind": "cross-identity",
+  "note": "Alys Westhill is Elissa Farman",
+  "unit": "fab-the-long-reign-13",
+  "line": 71
+ },
+ {
+  "row": 137,
+  "snippet": "that he would swear forevermore could only have been Sun Chaser",
+  "kind": "foreshadow-hook",
+  "note": "Corlys glimpses a ship he swears is Sun Chaser at Asshai (hedged)",
+  "unit": "fab-the-long-reign-13",
+  "line": 77
+ },
+ {
+  "row": 138,
+  "snippet": "The winter of 59-60 AC was an exceptionally cruel one",
+  "kind": "targaryen-history",
+  "note": "severe winter strikes Westeros",
+  "unit": "fab-the-long-reign-13",
+  "line": 81
+ },
+ {
+  "row": 139,
+  "snippet": "crops died in the field",
+  "kind": "causal-spine",
+  "note": "cruel winter \u2192 crops die \u2192 famine \u2192 bread prices rise",
+  "unit": "fab-the-long-reign-13",
+  "line": 81
+ },
+ {
+  "row": 140,
+  "snippet": "the Shivers came, and the Stranger walked the land",
+  "kind": "targaryen-history",
+  "note": "winter plague of 59 AC sweeps Westeros",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 17
+ },
+ {
+  "row": 141,
+  "snippet": "kittens were selling for",
+  "kind": "description",
+  "note": "cats prized as plague remedy against rats",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 21
+ },
+ {
+  "row": 142,
+  "snippet": "his skull crushed by one of the very cobblestones",
+  "kind": "targaryen-history",
+  "note": "Rego Draz murdered by Flea Bottom mob",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 63
+ },
+ {
+  "row": 143,
+  "snippet": "the little princess was dead",
+  "kind": "targaryen-history",
+  "note": "Princess Daenerys dies of the Shivers at six",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 101
+ },
+ {
+  "row": 144,
+  "snippet": "it struck at the very heart of the Doctrine of Exceptionalism",
+  "kind": "targaryen-history",
+  "note": "Daenerys's death challenges Targaryen immunity belief",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 103
+ },
+ {
+  "row": 145,
+  "snippet": "Targaryens had purple eyes and hair of gold and silver",
+  "kind": "description",
+  "note": "statement of the Doctrine of Exceptionalism",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 103
+ },
+ {
+  "row": 146,
+  "snippet": "it was not Daenerys that she took after, but Baelon",
+  "kind": "cross-identity",
+  "note": "Princess Alyssa resembles Baelon not Daenerys",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 153
+ },
+ {
+  "row": 147,
+  "snippet": "The smallfolk of the time called it Lord Rogar's War",
+  "kind": "targaryen-history",
+  "note": "61 AC campaign against the second Vulture King",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 187
+ },
+ {
+  "row": 148,
+  "snippet": "then clove him from shoulder to navel",
+  "kind": "targaryen-history",
+  "note": "Rogar kills the Vulture King in single combat",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 205
+ },
+ {
+  "row": 149,
+  "snippet": "My lords, | will have roads!",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys launches the kingsroad and road-building project",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 229
+ },
+ {
+  "row": 150,
+  "snippet": "against the Shivers | was helpless",
+  "kind": "causal-spine",
+  "note": "plague helplessness leads to war as the king's healing",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 211
+ },
+ {
+  "row": 151,
+  "snippet": "Let us try the dolt with the clever wife",
+  "kind": "targaryen-history",
+  "note": "Martyn Tyrell appointed master of coin for Florence's sake",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "line": 141
+ },
+ {
+  "row": 152,
+  "snippet": "He bound the land together, and made of seven kingdoms, one",
+  "kind": "targaryen-history",
+  "note": "inscription on the Old King's monument at the Citadel",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 15
+ },
+ {
+  "row": 153,
+  "snippet": "calling himself the Silver Fool",
+  "kind": "targaryen-history",
+  "note": "Baelon jousts as a mystery knight at Old Oak",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 51
+ },
+ {
+  "row": 154,
+  "snippet": "Unridden since the death of the Dowager Queen Visenya twenty-nine years before",
+  "kind": "targaryen-history",
+  "note": "Baelon claims Vhagar",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 55
+ },
+ {
+  "row": 155,
+  "snippet": "was found to have been secretly wed",
+  "kind": "targaryen-history",
+  "note": "Lucamore Strong Kingsguard scandal",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 71
+ },
+ {
+  "row": 156,
+  "snippet": "our queen to be",
+  "kind": "foreshadow-hook",
+  "note": "Alysanne names infant Rhaenys as future queen",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 147
+ },
+ {
+  "row": 157,
+  "snippet": "he could well have the makings of an archmaester in him",
+  "kind": "causal-spine",
+  "note": "Elysar's counsel to Vaegon sent to the Citadel",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 163
+ },
+ {
+  "row": 158,
+  "snippet": "the Blackwoods kept the old gods",
+  "kind": "causal-spine",
+  "note": "Daella learns of weirwood vows to betrothal collapses",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 213
+ },
+ {
+  "row": 159,
+  "snippet": "I would never marry her",
+  "kind": "causal-spine",
+  "note": "Vaegon's public insult to search for a new bride for Vaegon",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 111
+ },
+ {
+  "row": 160,
+  "snippet": "Called \"the Winter Child\" for the season of her birth",
+  "kind": "targaryen-history",
+  "note": "birth of Princess Gael",
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "line": 185
+ },
+ {
+  "row": 161,
+  "snippet": "Princess Daella and Lord Rodrik were wed before year's end",
+  "kind": "targaryen-history",
+  "note": "Targaryen daughter married off to Lord of the Eyrie",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 29
+ },
+ {
+  "row": 162,
+  "snippet": "first hint of the rift that would open between her and her king",
+  "kind": "foreshadow-hook",
+  "note": "Daella's death named as the start of the Jaehaerys\u2013Alysanne rift",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 69
+ },
+ {
+  "row": 163,
+  "snippet": "We ought never have pushed her into marriage",
+  "kind": "causal-spine",
+  "note": "forced marriage \u2192 Daella's death \u2192 Alysanne blames Jaehaerys",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 69
+ },
+ {
+  "row": 164,
+  "snippet": "like a hundred candles floating on the sea",
+  "kind": "targaryen-history",
+  "note": "burning of Morion's fleet in the Fourth Dornish War",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 85
+ },
+ {
+  "row": 165,
+  "snippet": "The Dragonkeepers had best lock up the dragons",
+  "kind": "foreshadow-hook",
+  "note": "Elysar's \"prophetic\" words on infant Saera",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 107
+ },
+ {
+  "row": 166,
+  "snippet": "| gave it to all three",
+  "kind": "cross-identity",
+  "note": "Saera's confession of taking three lovers",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 0
+ },
+ {
+  "row": 167,
+  "snippet": "She is no longer my daughter",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys disowns Princess Saera",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 231
+ },
+ {
+  "row": 168,
+  "snippet": "Every ship in his fleet was therefore manned with crossbowmen and equipped with massive scorpions",
+  "kind": "targaryen-history",
+  "note": "Dornish anti-dragon scorpions modeled on the weapon that felled Meraxes",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 81
+ },
+ {
+  "row": 169,
+  "snippet": "He was better with roads than with daughters",
+  "kind": "targaryen-history",
+  "note": "Elysar's waspish verdict on Jaehaerys's decline",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 57
+ },
+ {
+  "row": 170,
+  "snippet": "if court gossip can be believed",
+  "kind": "other",
+  "note": "hedge framing Viserra's night in Baelon's bedchamber as disputed",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 83
+ },
+ {
+  "row": 171,
+  "snippet": "it is said that when he saw his mother again, he fell into her arms and wept",
+  "kind": "other",
+  "note": "hedged single-source detail of Baelon weeping",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 203
+ },
+ {
+  "row": 172,
+  "snippet": "The last living creature in all the world who saw Valyria in its glory",
+  "kind": "description",
+  "note": "Barth's epitaph for Balerion the Black Dread",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 213
+ },
+ {
+  "row": 173,
+  "snippet": "like the hellhorns of Valyrian legend",
+  "kind": "foreshadow-hook",
+  "note": "narration flagging Aemon's death as a chain of doom to come",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 217
+ },
+ {
+  "row": 174,
+  "snippet": "of the thirteen children she bore to King Jaehaerys",
+  "kind": "targaryen-history",
+  "note": "roster of Jaehaerys and Alysanne's thirteen children and their fates",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 233
+ },
+ {
+  "row": 175,
+  "snippet": "missed Lord Cameron...and struck Prince Aemon",
+  "kind": "causal-spine",
+  "note": "errant Myrish bolt aimed at the Evenstar kills Aemon",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 191
+ },
+ {
+  "row": 176,
+  "snippet": "How much do you think it costs to lay with a Targaryen princess",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys's argument against ransoming Saera from Lys",
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "line": 123
+ },
+ {
+  "row": 177,
+  "snippet": "that clever, gallant boy Viserys",
+  "kind": "targaryen-history",
+  "note": "Prince Viserys defends his Lysene wife during the regency coup",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 47
+ },
+ {
+  "row": 178,
+  "snippet": "could transform into a cat",
+  "kind": "description",
+  "note": "rumors of Larra Rogare's Lysene sorcery and shapeshifting",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 55
+ },
+ {
+  "row": 179,
+  "snippet": "Almost all that we know of the myriad marvels of the Mermaid comes to us from Mushroom",
+  "kind": "other",
+  "note": "Mushroom as sole source for the Mermaid brothel",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 59
+ },
+ {
+  "row": 180,
+  "snippet": "the moneychangers of Lys",
+  "kind": "targaryen-history",
+  "note": "whisper that the Rogare bankers, not the regents, ruled the realm",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 45
+ },
+ {
+  "row": 181,
+  "snippet": "wars are fought with plots and poisons rather than with armies",
+  "kind": "description",
+  "note": "Lysene politics characterized by assassination",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 175
+ },
+ {
+  "row": 182,
+  "snippet": "a farmer reaping grain",
+  "kind": "description",
+  "note": "Mushroom's simile for Sandoq's slaughter at the drawbridge",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 257
+ },
+ {
+  "row": 183,
+  "snippet": "The Hand names the regent and the regent names the Hand",
+  "kind": "causal-spine",
+  "note": "Viserys mocks the circular authority of the regency coup",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 0
+ },
+ {
+  "row": 184,
+  "snippet": "You stood beside me when the dragon ate my mother",
+  "kind": "targaryen-history",
+  "note": "Aegon III recalls the Kingsguard watching his mother's death",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 283
+ },
+ {
+  "row": 185,
+  "snippet": "a \"fire witch\" who once dwelled in a hidden vale",
+  "kind": "cross-identity",
+  "note": "Nettles remembered in mountain-clan legend",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 159
+ },
+ {
+  "row": 186,
+  "snippet": "the Faceless Men of Braavos were widely believed to have been responsible",
+  "kind": "targaryen-history",
+  "note": "disputed attribution of the Rogare brothers' deaths",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 169
+ },
+ {
+  "row": 187,
+  "snippet": "a dragon in the skies above the city",
+  "kind": "causal-spine",
+  "note": "Rhaena flying Morning renewed hope of the Lysene Spring",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 85
+ },
+ {
+  "row": 188,
+  "snippet": "the poison had been baked into the crust of the apple tarts",
+  "kind": "causal-spine",
+  "note": "poisoning of Gaemon leads to Aegon III's renewed gloom",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "line": 115
+ },
+ {
+  "row": 189,
+  "snippet": "as this confrontation would later become known",
+  "kind": "targaryen-history",
+  "note": "the \"secret siege\" of Maegor's Holdfast named",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 29
+ },
+ {
+  "row": 190,
+  "snippet": "Queen Daenaera\u2019s ladies donned mail and took up spears",
+  "kind": "description",
+  "note": "Mushroom's tale of feigned defenders",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 21
+ },
+ {
+  "row": 191,
+  "snippet": "You may beat poor Gaemon\u2019's",
+  "kind": "description",
+  "note": "Aegon's defiance of his master-at-arms over the whipping boy",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 17
+ },
+ {
+  "row": 192,
+  "snippet": "The poison used is called the Tears of Lys",
+  "kind": "targaryen-history",
+  "note": "poison that killed Gaemon, confirmed by Munkun",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 47
+ },
+ {
+  "row": 193,
+  "snippet": "those who tortured him to bring forth this false confession",
+  "kind": "causal-spine",
+  "note": "torture of Rowan then false confession then king's counterstroke",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 63
+ },
+ {
+  "row": 194,
+  "snippet": "plunged it into Waters's belly",
+  "kind": "causal-spine",
+  "note": "Flowers's treachery leads to Marston Waters's death",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 79
+ },
+ {
+  "row": 195,
+  "snippet": "player in the shadows,\" Mushroom calls him",
+  "kind": "foreshadow-hook",
+  "note": "Mushroom names Unwin Peake as the unproven mastermind",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 95
+ },
+ {
+  "row": 196,
+  "snippet": "his involvement remained unproven, then as now",
+  "kind": "targaryen-history",
+  "note": "Peake's suspected role left unproven",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 103
+ },
+ {
+  "row": 197,
+  "snippet": "made him confess to the Doom of Valyria",
+  "kind": "description",
+  "note": "Mushroom mocking the broken Rowan",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 111
+ },
+ {
+  "row": 198,
+  "snippet": "the gathering of the lords in 136 AC was the largest assembly of nobles",
+  "kind": "targaryen-history",
+  "note": "near-Great Council of 136 AC",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 119
+ },
+ {
+  "row": 199,
+  "snippet": "three regents be chosen by lot",
+  "kind": "targaryen-history",
+  "note": "regents Stackspear, Merryweather, Grandison chosen by lot",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 127
+ },
+ {
+  "row": 200,
+  "snippet": "Then praise Yndros, | am left-handed",
+  "kind": "description",
+  "note": "Lotho Rogare choosing mutilation over the black",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 195
+ },
+ {
+  "row": 201,
+  "snippet": "Lysaro expired in the seventh hour of the first day of his scourging",
+  "kind": "targaryen-history",
+  "note": "Lysene justice; Lysaro scourged to death",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 187
+ },
+ {
+  "row": 202,
+  "snippet": "the Bank of Oldtown, which has made House Hightower richer still",
+  "kind": "targaryen-history",
+  "note": "founding of the Bank of Oldtown",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 201
+ },
+ {
+  "row": 203,
+  "snippet": "hitting the babe with the dragon's egg",
+  "kind": "cross-identity",
+  "note": "toddler Aegon strikes newborn Aemon with a dragon's egg",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 221
+ },
+ {
+  "row": 204,
+  "snippet": "You are sitting in my chair",
+  "kind": "causal-spine",
+  "note": "Aegon's sixteenth nameday ends the regency",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 269
+ },
+ {
+  "row": 205,
+  "snippet": "the broken reign of the Broken King began",
+  "kind": "targaryen-history",
+  "note": "start of Aegon III's personal rule",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 297
+ },
+ {
+  "row": 206,
+  "snippet": "made an enemy of a man who had been amongst his most leal",
+  "kind": "causal-spine",
+  "note": "curt dismissal turns Manderly into an enemy",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 295
+ },
+ {
+  "row": 207,
+  "snippet": "she had named him to die",
+  "kind": "targaryen-history",
+  "note": "Helaena broken after naming Maelor to die under Blood and Cheese",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 15
+ },
+ {
+  "row": 208,
+  "snippet": "whether this is fact or mere family legend",
+  "kind": "cross-identity",
+  "note": "Black Aly's kill-shot on Amos Bracken flagged as legend",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 209,
+  "snippet": "I would sooner sleep with scorpions",
+  "kind": "description",
+  "note": "Qoren Martell's refusal of the green alliance",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 210,
+  "snippet": "Thrones are won with swords, not quills",
+  "kind": "description",
+  "note": "Aegon's inkpot outburst at Otto, per Eustace",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 211,
+  "snippet": "thirty-three horses, each pulling in his own direction",
+  "kind": "description",
+  "note": "Greydon on the Triarchy's paralytic High Council",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 65
+ },
+ {
+  "row": 212,
+  "snippet": "My new Hand is a steel fist",
+  "kind": "causal-spine",
+  "note": "Otto dismissed then Criston Cole made Hand then executions begin",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 69
+ },
+ {
+  "row": 213,
+  "snippet": "the Cargyll twins slew each other",
+  "kind": "cross-identity",
+  "note": "disputed duel of identical Kingsguard twins Arryk and Erryk",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 107
+ },
+ {
+  "row": 214,
+  "snippet": "Here Mushroom's version seems most likely",
+  "kind": "targaryen-history",
+  "note": "Gyldayn weighs three accounts of Rhaenyra's absence from war council",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 123
+ },
+ {
+  "row": 215,
+  "snippet": "Criston Cole had sprung his trap",
+  "kind": "causal-spine",
+  "note": "Rook's Rest trap then Meleys and Rhaenys killed, Sunfyre and Aegon maimed",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 129
+ },
+ {
+  "row": 216,
+  "snippet": "the king's armor had melted into his flesh",
+  "kind": "description",
+  "note": "extent of Aegon II's burns at Rook's Rest",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 217,
+  "snippet": "It looks better on me than it ever did on him",
+  "kind": "description",
+  "note": "Aemond takes the crown as Prince Regent",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 153
+ },
+ {
+  "row": 218,
+  "snippet": "wherever you Targaryens spilled your silver seed",
+  "kind": "targaryen-history",
+  "note": "Mushroom's counsel to seek dragonseed riders",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 219,
+  "snippet": "born of dragonseed",
+  "kind": "targaryen-history",
+  "note": "origin of the seeds and the first-night custom on Dragonstone",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 201
+ },
+ {
+  "row": 220,
+  "snippet": "sired not by the Sea Snake's son, but by the Sea Snake himself",
+  "kind": "cross-identity",
+  "note": "Mushroom's disputed paternity claim for Addam and Alyn",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 235
+ },
+ {
+  "row": 221,
+  "snippet": "became Addam Velaryon, heir to Driftmark",
+  "kind": "cross-identity",
+  "note": "dragonseed legitimized into Velaryon heir",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 222,
+  "snippet": "the first and last rider of the dragon Sheepstealer",
+  "kind": "targaryen-history",
+  "note": "Nettles/Netty tames the wild brown dragon",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 223,
+  "snippet": "four new dragonriders had been found",
+  "kind": "causal-spine",
+  "note": "the Red Sowing then new riders then assault on King's Landing prepared",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 251
+ },
+ {
+  "row": 224,
+  "snippet": "The schemes of Otto Hightower had borne fruit",
+  "kind": "targaryen-history",
+  "note": "Otto's Triarchy alliance opens the Gullet campaign",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 17
+ },
+ {
+  "row": 225,
+  "snippet": "battle was joined",
+  "kind": "causal-spine",
+  "note": "Triarchy fleet enters the Gullet -> Battle in the Gullet",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "line": 143
+ },
+ {
+  "row": 226,
+  "snippet": "Several differing tales were told afterward",
+  "kind": "targaryen-history",
+  "note": "disputed accounts of how Vermax and Jacaerys fell",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 37
+ },
+ {
+  "row": 227,
+  "snippet": "If this be victory, | pray I never win another",
+  "kind": "description",
+  "note": "Sea Snake's bitter reply after the Gullet",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 49
+ },
+ {
+  "row": 228,
+  "snippet": "who had once been milk brother to Prince Jacaerys",
+  "kind": "cross-identity",
+  "note": "Daeron and Jacaerys milk brothers on opposing sides",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 61
+ },
+ {
+  "row": 229,
+  "snippet": "for the rank and file of the City Watch still loved Daemon Targaryen",
+  "kind": "causal-spine",
+  "note": "Watch's loyalty to Daemon -> King's Landing falls",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 125
+ },
+ {
+  "row": 230,
+  "snippet": "the Iron Throne had spurned her",
+  "kind": "foreshadow-hook",
+  "note": "Eustace on the cuts and Rhaenyra's short reign",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 147
+ },
+ {
+  "row": 231,
+  "snippet": "every man and boy with Strong blood in his veins was",
+  "kind": "targaryen-history",
+  "note": "Aemond's extermination of House Strong",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 181
+ },
+ {
+  "row": 232,
+  "snippet": "who had used love potions and philtres to inflame their passions",
+  "kind": "targaryen-history",
+  "note": "disputed Alys Rivers love-potion accounts",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 227
+ },
+ {
+  "row": 233,
+  "snippet": "to those men who lived to tell of it, it was / always the Fishfeed",
+  "kind": "targaryen-history",
+  "note": "Battle by the Lakeshore named the Fishfeed",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 234,
+  "snippet": "but you will not hold it long",
+  "kind": "foreshadow-hook",
+  "note": "Alicent's warning that Aemond will return",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "line": 137
+ },
+ {
+  "row": 235,
+  "snippet": "led the queen to decide in favor of Lord Corlys rather than Prince Daemon",
+  "kind": "targaryen-history",
+  "note": "Munkun's stated cause for the succession-of-counsel choice",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 19
+ },
+ {
+  "row": 236,
+  "snippet": "each must pay three pennies at the gates to be admitted",
+  "kind": "targaryen-history",
+  "note": "Celtigar monetizes Dragonpit executions",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 43
+ },
+ {
+  "row": 237,
+  "snippet": "King Maegor with teats",
+  "kind": "description",
+  "note": "origin of the century-long \"Maegor's Teats\" curse",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 45
+ },
+ {
+  "row": 238,
+  "snippet": "the traveler's \"son\" was Maelor Targaryen",
+  "kind": "cross-identity",
+  "note": "disguised Kingsguard reveal on the Bitterbridge road",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 63
+ },
+ {
+  "row": 239,
+  "snippet": "we have many differing accounts of what befell Maelor Targaryen",
+  "kind": "targaryen-history",
+  "note": "three-way source dispute over the prince's death",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 81
+ },
+ {
+  "row": 240,
+  "snippet": "Mushroom tells us that Rhaenyra wept when Maelor's small head was placed before her",
+  "kind": "targaryen-history",
+  "note": "wept vs. smiled: Mushroom vs. Eustace on Rhaenyra",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 241,
+  "snippet": "Willow Pound-Stone tore the weeping prince from his arms",
+  "kind": "causal-spine",
+  "note": "Thorne's death then mob seizes Maelor then disputed killing",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 77
+ },
+ {
+  "row": 242,
+  "snippet": "I have the dragon's bastard in me",
+  "kind": "prophecy",
+  "note": "Alys Rivers's claim in the Harrenhal godswood",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 105
+ },
+ {
+  "row": 243,
+  "snippet": "Our death",
+  "kind": "description",
+  "note": "Criston Cole names the foe at the ridge",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 244,
+  "snippet": "here confusion arises, for Munkun says it was Vhagar",
+  "kind": "targaryen-history",
+  "note": "four-source dispute over which dragon Byron Swann sought",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 147
+ },
+ {
+  "row": 245,
+  "snippet": "the how and when and why of what has become known as the Treasons of Tumbleton",
+  "kind": "targaryen-history",
+  "note": "disputed infiltration and defection at Tumbleton",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 215
+ },
+ {
+  "row": 246,
+  "snippet": "As neither man could read",
+  "kind": "description",
+  "note": "Two Betrayers' motives unknowable",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 225
+ },
+ {
+  "row": 247,
+  "snippet": "we put no credence in Mushroom here",
+  "kind": "targaryen-history",
+  "note": "Gyldayn rejects the Brothel Queens tale",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 205
+ },
+ {
+  "row": 248,
+  "snippet": "It was the Field of Fire writ small",
+  "kind": "targaryen-history",
+  "note": "Munkun's judgment on the dragonfire at Tumbleton",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 235
+ },
+ {
+  "row": 249,
+  "snippet": "the dragons danced and died above the Gods Eye",
+  "kind": "targaryen-history",
+  "note": "Daemon and Aemond slay each other above the Gods Eye, 130 AC",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 263
+ },
+ {
+  "row": 250,
+  "snippet": "When the hammer shall fall upon the dragon, a new king shall arise",
+  "kind": "prophecy",
+  "note": "camp prophecy attached to Hugh Hammer",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 163
+ },
+ {
+  "row": 251,
+  "snippet": "a simple meal of boiled beef and beets",
+  "kind": "food",
+  "note": "Daemon and Nettles's last supper at Maidenpool",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 199
+ },
+ {
+  "row": 252,
+  "snippet": "she fed him a black ram, the largest in all Maidenpool",
+  "kind": "food",
+  "note": "Nettles feeds Sheepstealer before her final flight",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 205
+ },
+ {
+  "row": 253,
+  "snippet": "The girl is a guest",
+  "kind": "hospitality",
+  "note": "Mooton's guest-right dilemma over killing Nettles",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 187
+ },
+ {
+  "row": 254,
+  "snippet": "I thank you for your hospitality",
+  "kind": "hospitality",
+  "note": "Daemon's farewell to Lord Mooton",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 209
+ },
+ {
+  "row": 255,
+  "snippet": "Prince Daeron named him Lord of Bitterbridge",
+  "kind": "cross-identity",
+  "note": "Ulf White styled Lord of Bitterbridge",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 155
+ },
+ {
+  "row": 256,
+  "snippet": "Lord Hammer (as he now styled himself)",
+  "kind": "cross-identity",
+  "note": "Hugh Hammer styling himself lord and dreaming of kingship",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 163
+ },
+ {
+  "row": 257,
+  "snippet": "a barefoot scarecrow of a man",
+  "kind": "description",
+  "note": "the one-handed Shepherd of Cobbler's Square",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 123
+ },
+ {
+  "row": 258,
+  "snippet": "Thirteen marks can be seen upon that weirwood still",
+  "kind": "foreshadow-hook",
+  "note": "Daemon's heart-tree tally said to bleed each spring",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 215
+ },
+ {
+  "row": 259,
+  "snippet": "And thus did betrayal beget more betrayal",
+  "kind": "causal-spine",
+  "note": "Mysaria's accusation to Addam's escape and Corlys imprisoned",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 113
+ },
+ {
+  "row": 260,
+  "snippet": "She saw you in a storm cloud",
+  "kind": "targaryen-history",
+  "note": "Alys Rivers's visions lead Aemond to Harrenhal",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 233
+ },
+ {
+  "row": 261,
+  "snippet": "never to be seen again at court or castle",
+  "kind": "causal-spine",
+  "note": "Norren's warning to Nettles fleeing Maidenpool",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 207
+ },
+ {
+  "row": 262,
+  "snippet": "the Doctrine of Exceptionalism",
+  "kind": "targaryen-history",
+  "note": "doctrine crafted to justify Targaryen sibling marriage as a Valyrian exception",
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "line": 169
+ },
+ {
+  "row": 263,
+  "snippet": "Every man and maid and child in the stormlands is my hostage",
+  "kind": "description",
+  "note": "Jaehaerys's unspoken dragon-threat, heard \"plain\" by Rogar",
+  "unit": "fab-time-of-testing-09",
+  "line": 0
+ },
+ {
+  "row": 264,
+  "snippet": "The consequences of this decision would not be known for years to come",
+  "kind": "foreshadow-hook",
+  "note": "restoring heir apparent Aerea to Rhaena flagged as fateful",
+  "unit": "fab-time-of-testing-09",
+  "line": 221
+ },
+ {
+  "row": 265,
+  "snippet": "Go to Dragonstone and claim a dragon",
+  "kind": "description",
+  "note": "Septon Baldrick's retort to a hedge knight on the Doctrine",
+  "unit": "fab-time-of-testing-09",
+  "line": 183
+ },
+ {
+  "row": 266,
+  "snippet": "the treasury was empty and the Crown's debt was mounting",
+  "kind": "causal-spine",
+  "note": "empty treasury -> three foreign loans -> Dragonpit work resumed",
+  "unit": "fab-time-of-testing-09",
+  "line": 125
+ },
+ {
+  "row": 267,
+  "snippet": "the Queen in the West at a stroke became the Queen in the East",
+  "kind": "targaryen-history",
+  "note": "Rhaena installed at Dragonstone",
+  "unit": "fab-time-of-testing-09",
+  "line": 221
+ },
+ {
+  "row": 268,
+  "snippet": "opened his throat from ear to ear",
+  "kind": "targaryen-history",
+  "note": "Tess slays Dalton Greyjoy the Red Kraken, ending his war",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 87
+ },
+ {
+  "row": 269,
+  "snippet": "a secret that changed the course of Westerosi history",
+  "kind": "foreshadow-hook",
+  "note": "Drazenko's whispered secret to Oakenfist",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 119
+ },
+ {
+  "row": 270,
+  "snippet": "Oakenfist's \u201ctreasure\u201d was Viserys Targaryen",
+  "kind": "cross-identity",
+  "note": "the \"treasure\" revealed as the lost prince Viserys",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 163
+ },
+ {
+  "row": 271,
+  "snippet": "rose up in red rebellion",
+  "kind": "causal-spine",
+  "note": "Dalton's death -> fleet dissolves -> Fair Isle rebellion",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 97
+ },
+ {
+  "row": 272,
+  "snippet": "He honored the gods: all gods, everywhere",
+  "kind": "description",
+  "note": "Racallio Ryndoon character portrait",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 41
+ },
+ {
+  "row": 273,
+  "snippet": "would become known in the histories of Westeros as Larra of Lys",
+  "kind": "cross-identity",
+  "note": "Larra Rogare alias Larra of Lys",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 179
+ },
+ {
+  "row": 274,
+  "snippet": "Our sources are at odds as to whether",
+  "kind": "targaryen-history",
+  "note": "disputed whether Alyn bedded Racallio's wives",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 0
+ },
+ {
+  "row": 275,
+  "snippet": "a heavy golden chain studded with sapphires",
+  "kind": "description",
+  "note": "Queen Daenaera's gift to Oakenfist",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 155
+ },
+ {
+  "row": 276,
+  "snippet": "The fever took his life in two days instead of the usual four",
+  "kind": "targaryen-history",
+  "note": "Death of Tyland Lannister, the Hand, of Winter Fever",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 15
+ },
+ {
+  "row": 277,
+  "snippet": "Kingsguard serve for life",
+  "kind": "cross-identity",
+  "note": "Mushroom's version of Aegon III protesting the dismissal of Massey and Darklyn",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "line": 217
+ },
+ {
+  "row": 278,
+  "snippet": "the king received the decrees \u201ccourteously\u201d",
+  "kind": "targaryen-history",
+  "note": "Septon Eustace's contradicting account of Aegon III's reaction to the regents",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 31
+ },
+ {
+  "row": 279,
+  "snippet": "who would rule the Seven Kingdoms in all but name",
+  "kind": "targaryen-history",
+  "note": "Unwin Peake as Hand and Protector for near two years",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 37
+ },
+ {
+  "row": 280,
+  "snippet": "Foremost of the Caltrops",
+  "kind": "targaryen-history",
+  "note": "Unwin Peake's role at Tumbleton and among the Caltrops",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 49
+ },
+ {
+  "row": 281,
+  "snippet": "This Hand can still wield a sword",
+  "kind": "description",
+  "note": "Unwin draws OrphanMaker before court",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 91
+ },
+ {
+  "row": 282,
+  "snippet": "it was butcher's work they were about",
+  "kind": "description",
+  "note": "Mushroom on the mass punishments at the Feast of Our Father Above",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 95
+ },
+ {
+  "row": 283,
+  "snippet": "the new Hand decreed that it should be a day",
+  "kind": "causal-spine",
+  "note": "Unwin's decree \u2192 mass mutilations and executions before the Red Keep",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 93
+ },
+ {
+  "row": 284,
+  "snippet": "The trap was neatly set",
+  "kind": "causal-spine",
+  "note": "Alyn's Stepstones victory \u2192 Unwin sending him against the ironmen as a trap",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 191
+ },
+ {
+  "row": 285,
+  "snippet": "the name that he would carry for the rest of his long life: Oakenfist",
+  "kind": "cross-identity",
+  "note": "Alyn Velaryon earns the byname Oakenfist",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 159
+ },
+ {
+  "row": 286,
+  "snippet": "One day he may sit the Iron Throne",
+  "kind": "foreshadow-hook",
+  "note": "Alyn and Baela naming their unborn child",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 191
+ },
+ {
+  "row": 287,
+  "snippet": "One day she may ride a dragon",
+  "kind": "foreshadow-hook",
+  "note": "Baela on naming a daughter Laena",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 193
+ },
+ {
+  "row": 288,
+  "snippet": "a bravo would take umbrage at the size of my member",
+  "kind": "description",
+  "note": "Mushroom's jest on remaining in Braavos",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 289,
+  "snippet": "Lord Mooton returned to King's Landing with peace in hand",
+  "kind": "targaryen-history",
+  "note": "Braavos peace bought with a treasury-draining indemnity, forcing Iron Bank loans",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 17
+ },
+ {
+  "row": 290,
+  "snippet": "the Winter Fever descended on Barrowton",
+  "kind": "targaryen-history",
+  "note": "plague reaches farther inland than ever before",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 21
+ },
+ {
+  "row": 291,
+  "snippet": "On the twenty-second day of the ninth moon of 133 AC",
+  "kind": "targaryen-history",
+  "note": "death of Queen Jaehaera, last child of Aegon II, dated",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 29
+ },
+ {
+  "row": 292,
+  "snippet": "just as her mother, Queen Helaena, had",
+  "kind": "cross-identity",
+  "note": "Jaehaera dies by the same window-fall as her mother Helaena",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 29
+ },
+ {
+  "row": 293,
+  "snippet": "the only truly plausible culprit: Unwin Peake",
+  "kind": "causal-spine",
+  "note": "Jaehaera removed then king freed to remarry then Peake's succession scheme",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 61
+ },
+ {
+  "row": 294,
+  "snippet": "he might well have stood aside to allow someone else to enter her room",
+  "kind": "targaryen-history",
+  "note": "Mushroom's catspaw theory of Mervyn Flowers and Tessario",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 75
+ },
+ {
+  "row": 295,
+  "snippet": "Your Grace does not like turnips",
+  "kind": "description",
+  "note": "origin of the \"Lady Turnips\" mockname",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 91
+ },
+ {
+  "row": 296,
+  "snippet": "On Maiden's Day we shall have a ball",
+  "kind": "causal-spine",
+  "note": "Peake's rivals force the ball then the ball produces Daenaera not Myrielle",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 111
+ },
+ {
+  "row": 297,
+  "snippet": "paid \"handsomely\" to poison Aegon III against these maids",
+  "kind": "targaryen-history",
+  "note": "Mushroom confesses to the bribed defamation campaign",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 125
+ },
+ {
+  "row": 298,
+  "snippet": "were the Hand and his minions responsible for these tragedies",
+  "kind": "causal-spine",
+  "note": "rival maidens' misfortunes then suspicion of Peake's \"Maiden's Day curse\"",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 131
+ },
+ {
+  "row": 299,
+  "snippet": "we have brought your new queen",
+  "kind": "causal-spine",
+  "note": "the twins present Daenaera then king's choice undoes Peake's scheme",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 169
+ },
+ {
+  "row": 300,
+  "snippet": "The blood of Old Valyria was strong in her",
+  "kind": "description",
+  "note": "Daenaera's Valyrian beauty, \"daughters of the seahorse\"",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 173
+ },
+ {
+  "row": 301,
+  "snippet": "that Ser Vaemond beheaded by Queen Rhaenyra",
+  "kind": "targaryen-history",
+  "note": "Daenaera's grandfather executed by Rhaenyra; her father reconciled with Alyn",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 173
+ },
+ {
+  "row": 302,
+  "snippet": "All reports agree that the king's return from Oldtown",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys pardons Poor Fellows to the Night's Watch on his return",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 15
+ },
+ {
+  "row": 303,
+  "snippet": "the Year of the Three Brides",
+  "kind": "targaryen-history",
+  "note": "49 AC named for three weddings: Rhaena, the Golden Wedding, Jaehaerys-Alysanne",
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "line": 37
+ },
+ {
+  "row": 304,
+  "snippet": "large and heavy enough to cleave through a dragon's skull",
+  "kind": "description",
+  "note": "Rogar's boast about his double-bladed axe under Maegor",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 39
+ },
+ {
+  "row": 305,
+  "snippet": "seven virgins across the narrow sea from the finest pleasure houses of Lys",
+  "kind": "hospitality",
+  "note": "disputed smallfolk tale of Rogar's pre-wedding revel",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 95
+ },
+ {
+  "row": 306,
+  "snippet": "the War for the White Cloaks",
+  "kind": "targaryen-history",
+  "note": "melees fill five Kingsguard vacancies at the Golden Wedding",
+  "unit": "fab-birth-death-and-betrayal-10",
+  "line": 53
+ },
+ {
+  "row": 307,
+  "snippet": "Rhaena was a sorceress, who had used the dark arts to murder Maegor",
+  "kind": "cross-identity",
+  "note": "whispered accusation against Queen Rhaena",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 149
+ },
+ {
+  "row": 308,
+  "snippet": "I have need of a septon",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys's first words on landing at Dragonstone to wed Alysanne",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 205
+ },
+ {
+  "row": 309,
+  "snippet": "we're the Kingsguard, not the Hand's guard",
+  "kind": "description",
+  "note": "Sour Sam defines Kingsguard loyalty to king over Hand",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 243
+ },
+ {
+  "row": 310,
+  "snippet": "neither gods nor men shall part us",
+  "kind": "targaryen-history",
+  "note": "Jaehaerys refuses to unmake the marriage at the gates",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 263
+ },
+ {
+  "row": 311,
+  "snippet": "Another year and a half would pass before Jaehaerys and Alysanne",
+  "kind": "targaryen-history",
+  "note": "marriage left unconsummated during minority",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 267
+ },
+ {
+  "row": 312,
+  "snippet": "underestimated the will and determination of Alysanne Targaryen",
+  "kind": "causal-spine",
+  "note": "betrothal to Orryn \u2192 Alysanne and Jaehaerys elope to Dragonstone",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 189
+ },
+ {
+  "row": 313,
+  "snippet": "sister at this juncture would be seen as a grievous affront",
+  "kind": "foreshadow-hook",
+  "note": "Mattheus warns Faith will denounce the incest",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 183
+ },
+ {
+  "row": 314,
+  "snippet": "| see his grandsire in him",
+  "kind": "description",
+  "note": "Brandon Stark's praise of the boy king",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 89
+ },
+ {
+  "row": 315,
+  "snippet": "Had she been a boy she would surely have been sent to the Citadel",
+  "kind": "description",
+  "note": "Barth on Alysanne's precocious wit",
+  "unit": "fab-year-of-the-three-brides-07",
+  "line": 109
+ },
+ {
+  "row": 316,
+  "snippet": "It is never pleasant to lance a boil",
+  "kind": "description",
+  "note": "Grand Maester Elysar's metaphor for the Blue Pearl scandal breaking (fab-the-long-reign-cont-14-p03)",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "line": 141
+ },
+ {
+  "row": 317,
+  "snippet": "Saera with a dragon...Would she have taken Balerion as well",
+  "kind": "foreshadow-hook",
+  "note": "Jaehaerys's fury at Saera's attempted flight to the Dragonpit; echoes later dragon-theft/succession anxieties (fab-the-long-reign-cont-14-p03)",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 318,
+  "snippet": "geld you and send you to the Wall...take your tongue. And your nose as well",
+  "kind": "description",
+  "note": "Jaehaerys's sentencing speech to Braxton Beesbury before the trial-by-combat (fab-the-long-reign-cont-14-p04)",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 319,
+  "snippet": "Was it one of your eyes he took, or one of your balls?",
+  "kind": "description",
+  "note": "Lady Maris Baratheon needling Aemond, the taunt that triggers Lucerys's death (fab-the-blacks-and-the-greens-16-p02)",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 233
+ },
+ {
+  "row": 320,
+  "snippet": "An eye for an eye, a son for a son",
+  "kind": "foreshadow-hook",
+  "note": "Daemon's raven vowing vengeance for Lucerys, setting up the Blood and Cheese plot (fab-the-blacks-and-the-greens-16-p02)",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "line": 255
+ },
+ {
+  "row": 321,
+  "snippet": "Though the years had thickened the body that had been so lithe and lissome",
+  "kind": "description",
+  "note": "Mysaria's physical aging",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 55
+ },
+ {
+  "row": 322,
+  "snippet": "Rhaenyra grew ever more stout during her days in King's Landing",
+  "kind": "description",
+  "note": "Rhaenyra's weight gain during rule",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "line": 57
+ },
+ {
+  "row": 323,
+  "snippet": "The scarlet scales that covered her. The membranes of her wings were pink, her crest, horns, and claws bright as copper",
+  "kind": "description",
+  "note": "Meleys the Red Queen's appearance",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 123
+ },
+ {
+  "row": 324,
+  "snippet": "Each time she sat the Iron Throne, its cruel blades drew fresh blood from her hands and arms and legs",
+  "kind": "foreshadow-hook",
+  "note": "ominous bleeding sign of Rhaenyra's doomed reign",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 325,
+  "snippet": "Thrones are won with swords, not quills. Spill blood, not ink",
+  "kind": "description",
+  "note": "Aegon II's outburst rejecting Otto's diplomatic approach",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "line": 0
+ },
+ {
+  "row": 326,
+  "snippet": "her nose scarred where it had once been slit for thieving",
+  "kind": "description",
+  "note": "Nettles's slit nose from theft punishment",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 0
+ },
+ {
+  "row": 327,
+  "snippet": "Maester Norren writes that \"the prince and his bastard girl\" supped together every night, broke their fast together every morning",
+  "kind": "food",
+  "note": "Daemon and Nettles shared meals at Maidenpool",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 41
+ },
+ {
+  "row": 328,
+  "snippet": "\"You are a bad maester, but a good man,\"",
+  "kind": "description",
+  "note": "Daemon's parting words to Maester Norren",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 329,
+  "snippet": "her cheeks were stained with tears",
+  "kind": "description",
+  "note": "Nettles's grief at her final parting from Daemon",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "line": 205
+ },
+ {
+  "row": 330,
+  "snippet": "he was found in a tavern on Eel Alley. When he protested that he was \"just a simple fisherman, come to have an ale,\" his captors drowned him in a cask of same",
+  "kind": "food",
+  "note": "Tom Tanglebeard's death in ale\u2014drink as instrument of ironic death",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 331,
+  "snippet": "Not even the tears of a dragon could melt the frozen heart of Cregan Stark, men said rightly",
+  "kind": "description",
+  "note": "Mushroom's characterization of Cregan Stark's unyielding nature, softened only by Baela's courage",
+  "unit": "fab-hour-of-the-wolf-20",
+  "line": 195
+ },
+ {
+  "row": 332,
+  "snippet": "When was a wolf ever moved by words?",
+  "kind": "description",
+  "note": "Larys Strong's defiant last words to Cregan Stark before execution",
+  "unit": "fab-hour-of-the-wolf-20",
+  "line": 201
+ },
+ {
+  "row": 333,
+  "snippet": "his face \"grey and ashen, sagging,\"",
+  "kind": "description",
+  "note": "Aegon II's physical state approaching death, appearing aged and spent",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "line": 267
+ },
+ {
+  "row": 334,
+  "snippet": "The veil he wore to conceal his disfigured face gave rise to the tale that the visage underneath was monstrous and evil",
+  "kind": "description",
+  "note": "Tyland Lannister's facial disfigurement and rumor (fab-22-p01)",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "line": 15
+ },
+ {
+  "row": 335,
+  "snippet": "a gown of translucent blue-green silk that matched her eyes",
+  "kind": "description",
+  "note": "Myrmadora Haen's scandalous Maiden's Day gown (fab-22-p02)",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "line": 135
+ },
+ {
+  "row": 336,
+  "snippet": "Ser Walter Brownhill, who ruled a few hides of land on Cape Wrath from a castle oft described as being made of mud and tree roots",
+  "kind": "description",
+  "note": "Cape Wrath castle description + Cassandra's exile (fab-24-p02)",
+  "unit": null,
+  "line": null
+ },
+ {
+  "row": 337,
+  "snippet": "The daughters of Fredo and Lysaro Rogare would soon find themselves back in the Perfumed Garden where they had played as children, but as bed slaves, not proprietors",
+  "kind": "social-irony",
+  "note": "House Rogare's daughters enslaved in their family's former brothel (fab-24-p02)",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "line": 0
+ }
+]

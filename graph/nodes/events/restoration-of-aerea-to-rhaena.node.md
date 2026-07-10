@@ -17,3 +17,8 @@ heir apparent given over to her mother
 <!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
 
 heir apparent given over to her mother
+
+## Quotes
+
+> "Done," the king said... mayhaps too hastily, for it must be remembered that Aerea Targaryen, a girl of eight, was his own acknowledged successor, heir apparent to the Iron Throne. The consequences of this decision would not be known for years to come, however.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-time-of-testing-09.md:221`)

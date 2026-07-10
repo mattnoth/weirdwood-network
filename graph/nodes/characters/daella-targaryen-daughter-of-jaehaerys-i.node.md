@@ -84,6 +84,10 @@ Daella worshiped her mother, Queen Alysanne, and liked her sister, Princess [Mae
 >
 > —[Alysanne](wiki:Alysanne_Targaryen) to [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
 
+> Theirs would not be a long betrothal. As the king had wished, Princess Daella and Lord Rodrik were wed before year’s end. It was a small ceremony in the sept at Dragonstone, attended only by close friends and kin; larger crowds made the princess desperately uncomfortable.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:29`)
+
+
 ## Edges
 
 - PARENT_OF: Daella Targaryen ← Jaehaerys I Targaryen (track_b: Father)

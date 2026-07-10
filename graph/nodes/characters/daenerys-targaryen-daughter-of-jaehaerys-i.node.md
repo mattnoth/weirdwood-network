@@ -64,6 +64,13 @@ Daenerys was a happy child, endlessly curious and utterly fearless, a delight to
 >
 > —words of [Gyldayn](wiki:Gyldayn)
 
+> A day and a half after she had woken her mother from sleep complaining of feeling cold, the little princess was dead. The queen collapsed in the king’s arms, shaking so violently that some feared she had the Shivers too.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:101`)
+
+> For Jaehaerys and Alysanne, however, the death of their beloved daughter must have seemed especially cruel, for it struck at the very heart of the Doctrine of Exceptionalism. Princess Daenerys had been Targaryen on both sides, with the blood of Old Valyria running pure through her veins, and those of Valyrian descent were not like other men.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:103`)
+
+
 ## Edges
 
 - PARENT_OF: Daenerys Targaryen ← Jaehaerys I Targaryen (track_b: Father)

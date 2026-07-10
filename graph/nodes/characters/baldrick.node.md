@@ -34,3 +34,6 @@ Baldrick was a cunning speaker.(wiki:Baldrick.cite_ref-Rtrotd62.7B.7B.7B4.7D.7D.
 > **Hedge Knight**: Aye, and if I want to fuck my sister too, do I have your leave? **Baldrick**: Go to [Dragonstone](wiki:Dragonstone) and claim a [dragon](wiki:Dragon). If you can do that, ser, I will marry you and your sister myself.(wiki:Baldrick.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 >
 > —Septon Baldrick to a [hedge knight](wiki:Hedge_knight)
+
+> Legend tells us that in one small village, the quick-witted Septon Baldrick was confronted by a burly hedge knight, once a Poor Fellow, who said, “Aye, and if | want to fuck my sister too, do | have your leave?” The septon smiled and replied, “Go to Dragonstone and claim a dragon. If you can do that, ser, | will marry you and your sister myself.”
+> — Septon Baldrick, F&B (`sources/chapters/fab/fab-time-of-testing-09.md:183`)

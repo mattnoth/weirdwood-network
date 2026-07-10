@@ -74,6 +74,10 @@ According to Grand Maester [Elysar](wiki:Elysar), by the age of two Saera knew e
 >
 > —Saera, when asked if she meant to return to Westeros
 
+> The king was angry and unyielding, for his shame was deeply felt, and he could not forget Saera’s taunting words about his uncle’s wives. “She is no longer my daughter,” he said more than once.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:231`)
+
+
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Title)

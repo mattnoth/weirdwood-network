@@ -65,3 +65,6 @@ Apart from the losses in dragons, the battle was a decisive victory for the blac
 > The [dragon](wiki:Dragon) was [Seasmoke](wiki:Seasmoke), his rider Ser [Addam Velaryon](wiki:Addam_Velaryon), determined to prove that not all [bastards](wiki:Bastard) need be turncloaks. How better to do that than by retaking [Tumbleton](wiki:Tumbleton) from the [Two Betrayers](wiki:Two_Betrayers), whose treason had stained him?(wiki:Second_Battle_of_Tumbleton.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
+
+> Who can know the heart of a dragon? Was it simple bloodlust that drove the Blue Queen to attack? Did the she-dragon come to help one of the combatants? If so, which? Some will claim that the bond between a dragon and dragonrider runs so deep that the beast shares his master's loves and hates. But who was the ally here, and who the enemy? Does a riderless dragon know friend from foe?
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:117`)

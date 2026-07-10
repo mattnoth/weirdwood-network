@@ -71,6 +71,13 @@ I myself swore no such oath. I was a child at the time.(wiki:Tyland_Lannister.ci
 It would be a grave mistake for [Westeros](wiki:Westeros) to become embroiled in the endless quarrels of the [Free Cities](wiki:Free_Cities).(wiki:Tyland_Lannister.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
 Munkun: We must abide by primogeniture, as the [Great Council](wiki:Great_Council) [ruled in 101](wiki:Great_Council_of_101_AC). The male claim comes before the female.Tyland: And who is this male claimant, my lord? We seem to have killed them all.(wiki:Tyland_Lannister.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15)
 
+> The veil he wore to conceal his disfigured face gave rise to the tale that the visage underneath was monstrous and evil.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:15`)
+
+> The Hand declined quickly after that. The fever took his life in two days instead of the usual four. Septon Eustace was with him when he died, as was the boy king that he had served.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:15`)
+
+
 ## Quotes
 
 A monster who hides his twisted face from [gods](wiki:Gods) and men.(wiki:Tyland_Lannister.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16)

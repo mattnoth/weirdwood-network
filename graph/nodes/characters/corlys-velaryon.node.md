@@ -134,6 +134,9 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
 
+> It is written that when the Sea Snake was congratulated on his victory, the old man said, “If this be victory, | pray I never win another.”
+> — Corlys Velaryon, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:49`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

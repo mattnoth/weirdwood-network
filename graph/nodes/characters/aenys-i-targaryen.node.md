@@ -108,6 +108,13 @@ A diligent student who did not lack for courage, Aenys was an adequate fighter. 
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Jorah Mormont](wiki:Jorah_Mormont)
 
+> So unlike King Aegon was he that a few even dared suggest that His Grace was not the boy’s true sire, that Aenys was some bastard born of one of Queen Rhaenys’s many handsome favorites, the son of a singer or a mummer or a mime.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:19`)
+
+> Its building had become the king’s obsession. “My descendants shall rule from here for a thousand years,” His Grace declared.
+> — Aenys I Targaryen, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:19`)
+
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->
