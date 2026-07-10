@@ -1044,3 +1044,17 @@
 | open | quote | fab | fab-heirs-of-the-dragon-15-p02:123 | Daemon on Rhaenyra after the scandal broke, per Mushroom: "Give the girl to me to wife... Who else would take her now?" — daemon-targaryen ## Quotes (disputed/Mushroom-sourced, tag accordingly) | fab dispute-review adjudication (heirs-15) |
 | open | appearance | fab | fab-heirs-of-the-dragon-15-p02:21 | Criston Cole physical description: "pale green eyes, coal black hair, and easy charm" — criston-cole node appearance field | fab dispute-review adjudication (heirs-15) |
 | open | quote | fab | fab-heirs-of-the-dragon-15-p02:51 | The maester at High Tide on Laena Velaryon: "Her ladyship shows far more interest in flying than in boys" — laena-velaryon ## Quotes | fab dispute-review adjudication (heirs-15) |
+
+## Fire & Blood Verification Pass (S203)
+
+fab-heirs-of-the-dragon-15-p03:19 / description / Laena Velaryon's appearance: "with a great mane of silver-gold ringlets that fell down past her waist"
+fab-the-blacks-and-the-greens-16-p01:87-89 / description / Vhagar's formidability: old, largest, most terrible dragon with great tan wings
+fab-the-blacks-and-the-greens-16-p01:97-98 / description / Dragon combat mechanics: scales impervious to flame, claws/jaws/tails as primary weapons
+fab-rhaenyra-overthrown-18-p02:147 / wit/memorable-line / Mushroom on Ser Hobert's poisoned wine: "No man ever feared Ser Hobert's sword, but his wine cup was deadlier than Valyrian steel."
+fab-rhaenyra-overthrown-18-p02:235 / physical-description / Sunfyre as "fire-breathing chicken": Mushroom's critique of the maimed dragon's flight
+fab-the-hooded-hand-21:21 / hospitality / "strong backs and willing hands would be welcome in many a hearth and home" — northmen settlement assisting riverlands
+fab-the-hooded-hand-21:42-43 / social-behavior / tavern/brothel excess during wedding season: "The tavernkeepers of the city waxed fat and happy"
+fab-the-hooded-hand-21:81 / physical-description-disfigurement / Tyland Lannister before/after torture: "Once as tall and golden-haired and dashing as his twin, the late Lord Jason... so disfigured by the queen's torturers that ladies new to court had been known to faint"
+fab-voyage-of-alyn-oakenfist-23:155 / physical-description / Queen Daenaera on the docks: "blushing prettily and stammering just a little" + golden chain with sapphires
+fab-voyage-of-alyn-oakenfist-23:173 / drinking-culture / Mushroom's pragmatism: "If I drank sufficient wine, I reasoned I might never know I was sick"
+

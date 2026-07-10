@@ -1119,6 +1119,8 @@
     "dagger under ned's chin": "littlefinger-betrays-ned",
     "daily interrogations and killings": "daily-interrogations-and-killings",
     "damphair's resistance": "aeron-vows-to-raise-the-ironborn-smallfolk",
+    "dance": "dance-of-the-dragons",
+    "dance of dragons": "dance-of-the-dragons",
     "dance of the dragons": "dance-of-the-dragons",
     "dance of the dragonswar of succession": "dance-of-the-dragons",
     "dance over harrenhal": "battle-above-the-gods-eye",
@@ -2086,6 +2088,8 @@
     "hound's failure of nerve": "sandor-clegane-deserts-the-kingsguard",
     "hour of the wolf": "hour-of-the-wolf",
     "hour of the wolf coup": "barristan-arrests-hizdahr",
+    "house of dragons": "dance-of-the-dragons",
+    "house of the dragon": "dance-of-the-dragons",
     "how quentyn martell died": "death-of-quentyn-martell",
     "hugh hammer assassinated": "death-of-hard-hugh-hammer",
     "hugh hammer death": "death-of-hard-hugh-hammer",
@@ -4149,6 +4153,7 @@
     "taking of winterfell": "capture-of-winterfell",
     "targaryen campaign in slaver's bay": "targaryen-campaign-in-slavers-bay",
     "targaryen campaign in slavers bay": "targaryen-campaign-in-slavers-bay",
+    "targaryen civil war": "dance-of-the-dragons",
     "targaryen conquest": "targaryen-conquest",
     "tarred head on the seal gate": "execution-of-davos-lookalike-at-white-harbor",
     "thaddeus rowan assassinated": "death-of-thaddeus-rowan",
@@ -4471,6 +4476,8 @@
     "the dagger under ned's chin": "littlefinger-betrays-ned",
     "the daily interrogations and killings": "daily-interrogations-and-killings",
     "the damphair's resistance": "aeron-vows-to-raise-the-ironborn-smallfolk",
+    "the dance": "dance-of-the-dragons",
+    "the dance of dragons": "dance-of-the-dragons",
     "the dance of the dragons": "dance-of-the-dragons",
     "the dance over harrenhal": "battle-above-the-gods-eye",
     "the dany ends drogo's life": "death-of-khal-drogo",
@@ -4713,6 +4720,8 @@
     "the hound quits the kingsguard": "sandor-clegane-deserts-the-kingsguard",
     "the hound's failure of nerve": "sandor-clegane-deserts-the-kingsguard",
     "the hour of the wolf": "hour-of-the-wolf",
+    "the house of dragons": "dance-of-the-dragons",
+    "the house of the dragon": "dance-of-the-dragons",
     "the how quentyn martell died": "death-of-quentyn-martell",
     "the imprisonment of corlys velaryon": "imprisonment-of-corlys-velaryon",
     "the incident at the trident": "incident-at-the-trident",
@@ -5184,6 +5193,7 @@
     "the taking of the shields": "taking-of-the-shields",
     "the taking of torrhens square": "capture-of-torrhens-square",
     "the taking of winterfell": "capture-of-winterfell",
+    "the targaryen civil war": "dance-of-the-dragons",
     "the targaryen conquest": "targaryen-conquest",
     "the the-confession-of-eddard-stark": "ned-confesses-to-treason",
     "the the-freeing-of-the-kingslayer": "catelyn-releases-jaime-lannister",
@@ -12909,22 +12919,22 @@
       }
     ]
   },
-  "computed_at": "2026-07-09T21:16:33.032318+00:00",
+  "computed_at": "2026-07-09T23:12:37.303381+00:00",
   "stats": {
     "ambiguous_collisions": 363,
     "source_breakdown": {
-      "node-frontmatter-alias": 762,
+      "node-frontmatter-alias": 767,
       "node-name": 963,
       "node-slug": 963,
-      "variant-article": 1207,
+      "variant-article": 1212,
       "victim-index": 3765,
       "wiki-canonical-name": 355,
       "wiki-redirect": 176,
       "wiki-slug-self": 371
     },
-    "total_entries_scanned": 8562,
-    "unambiguous_lookups": 6246,
-    "unique_phrases": 6609
+    "total_entries_scanned": 8572,
+    "unambiguous_lookups": 6256,
+    "unique_phrases": 6619
   },
   "version": "v2"
 }

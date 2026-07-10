@@ -1,0 +1,107 @@
+[
+ {
+  "i": 0,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Lucerys Velaryon",
+  "quote": "given birth to a second son late in the year 115 AC",
+  "line": 33
+ },
+ {
+  "i": 1,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Joffrey Velaryon",
+  "quote": "Princess Rhaenyra bore yet another son",
+  "line": 45
+ },
+ {
+  "i": 2,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Secret marriage of Rhaenyra and Daemon",
+  "quote": "The marriage had been performed on Dragonstone, suddenly and secretly",
+  "line": 131
+ },
+ {
+  "i": 3,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Wedding of Aegon the Elder and Helaena",
+  "quote": "King Viserys wed his son Aegon the Elder to his daughter Helaena",
+  "line": 145
+ },
+ {
+  "i": 5,
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Fall of the Dragonstone garrison",
+  "quote": "delivering the rest in chains to young Alyn Velaryon",
+  "line": 61
+ },
+ {
+  "i": 7,
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Marriage of Lyonel Hightower and Samantha Tarly",
+  "quote": "finally taking her as his wife",
+  "line": 169
+ },
+ {
+  "i": 8,
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Massacre at Cobbler's Square",
+  "quote": "Battle turned to riot turned to slaughter",
+  "line": 79
+ },
+ {
+  "i": 9,
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Yielding of the Red Keep",
+  "quote": "trust to the mercy of the foe",
+  "line": 249
+ },
+ {
+  "i": 10,
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Trystane mounts the Iron Throne",
+  "quote": "Ser Perkin's gangling squire Trystane mounted the Iron Throne",
+  "line": 259
+ },
+ {
+  "i": 11,
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Poisoning of Ulf White",
+  "quote": "his wine cup was deadlier than Valyrian steel",
+  "line": 147
+ },
+ {
+  "i": 13,
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Queen Rhaenyra",
+  "quote": "the golden dragon devoured the queen in six bites",
+  "line": 305
+ },
+ {
+  "i": 14,
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Return of Aegon II to King's Landing",
+  "quote": "In the waning days of 130 AC, King Aegon II returned at last to King's Landing",
+  "line": 89
+ },
+ {
+  "i": 15,
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Deaths of the Two Toms",
+  "quote": "Tom Tangletongue was surprised in the castle yards",
+  "line": 255
+ },
+ {
+  "i": 16,
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "Stillbirth and death of Visenya",
+  "quote": "a stillborn girl, twisted and malformed, with a hole in her chest",
+  "line": 189
+ },
+ {
+  "i": 17,
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "name": "Green council peace embassy to Dragonstone",
+  "quote": "dispatched across Blackwater Bay under a peace banner",
+  "line": 39
+ }
+]

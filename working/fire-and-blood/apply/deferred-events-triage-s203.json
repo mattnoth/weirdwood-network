@@ -1,0 +1,317 @@
+[
+ {
+  "i": 0,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Lucerys Velaryon",
+  "quote": "given birth to a second son late in the year 115 AC",
+  "line": 33,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 1,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Joffrey Velaryon",
+  "quote": "Princess Rhaenyra bore yet another son",
+  "line": 45,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 2,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Secret marriage of Rhaenyra and Daemon",
+  "quote": "The marriage had been performed on Dragonstone, suddenly and secretly",
+  "line": 131,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 3,
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Wedding of Aegon the Elder and Helaena",
+  "quote": "King Viserys wed his son Aegon the Elder to his daughter Helaena",
+  "line": 145,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 4,
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Cremation of King Aegon II",
+  "quote": "The corpse of King Aegon II was consigned to the flames",
+  "line": 61,
+  "decision": "FOLD",
+  "fold_into": "death-of-aegon-ii",
+  "reason": "cremation is same-passage aftermath of the death; quote folds into the death mint"
+ },
+ {
+  "i": 5,
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Fall of the Dragonstone garrison",
+  "quote": "delivering the rest in chains to young Alyn Velaryon",
+  "line": 61,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 6,
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Arrival of Cregan Stark (Hour of the Wolf)",
+  "quote": "when Lord Cregan Stark arrived before King's Landing with his northmen",
+  "line": 65,
+  "decision": "SKIP_EXISTS",
+  "existing_slug": "hour-of-the-wolf"
+ },
+ {
+  "i": 7,
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Marriage of Lyonel Hightower and Samantha Tarly",
+  "quote": "finally taking her as his wife",
+  "line": 169,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 8,
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Massacre at Cobbler's Square",
+  "quote": "Battle turned to riot turned to slaughter",
+  "line": 79,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 9,
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Yielding of the Red Keep",
+  "quote": "trust to the mercy of the foe",
+  "line": 249,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 10,
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Trystane mounts the Iron Throne",
+  "quote": "Ser Perkin's gangling squire Trystane mounted the Iron Throne",
+  "line": 259,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 11,
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Poisoning of Ulf White",
+  "quote": "his wine cup was deadlier than Valyrian steel",
+  "line": 147,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 12,
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Fall of Dragonstone",
+  "quote": "the fall of Dragonstone took less than an hour",
+  "line": 251,
+  "decision": "SKIP_EXISTS",
+  "existing_slug": "fall-of-dragonstone"
+ },
+ {
+  "i": 13,
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Queen Rhaenyra",
+  "quote": "the golden dragon devoured the queen in six bites",
+  "line": 305,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 14,
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Return of Aegon II to King's Landing",
+  "quote": "In the waning days of 130 AC, King Aegon II returned at last to King's Landing",
+  "line": 89,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 15,
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Deaths of the Two Toms",
+  "quote": "Tom Tangletongue was surprised in the castle yards",
+  "line": 255,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 16,
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "Stillbirth and death of Visenya",
+  "quote": "a stillborn girl, twisted and malformed, with a hole in her chest",
+  "line": 189,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 17,
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "name": "Green council peace embassy to Dragonstone",
+  "quote": "dispatched across Blackwater Bay under a peace banner",
+  "line": 39,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 18,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Widow Fairs",
+  "quote": "hundreds of marriages were made at the socalled Widow Fairs",
+  "line": 23,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 19,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Aegon III and Jaehaera",
+  "quote": "the wedding of Prince Aegon and Princess Jaehaera",
+  "line": 51,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 20,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Velaryon succession attack on Alyn",
+  "quote": "Ser Malentine was slain during the attempt",
+  "line": 167,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 21,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Battle at Kayce",
+  "quote": "the raiders were soon routed and Kayce was saved",
+  "line": 267,
+  "decision": "SKIP_EXISTS",
+  "existing_slug": "battle-at-kayce"
+ },
+ {
+  "i": 22,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Death of Alicent Hightower",
+  "quote": "died on the same night as Lord Westerling",
+  "line": 319,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 23,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Battle at Rook's Rest",
+  "quote": "the dragon Meleys appeared above Rook's Rest",
+  "line": 123,
+  "decision": "SKIP_EXISTS",
+  "existing_slug": "battle-at-rooks-rest"
+ },
+ {
+  "i": 24,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Aemond named Prince Regent",
+  "quote": "named himself only Protector of the Realm and Prince Regent",
+  "line": 153,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 25,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Legitimization of Addam and Alyn",
+  "quote": "Addam of Hull, dragonseed and bastard, became Addam Velaryon",
+  "line": 235,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 26,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Taming of Sheepstealer by Nettles",
+  "quote": "the brown dragon was brought to heel by the cunning and persistence",
+  "line": 249,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 27,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Capture of the Gay Abandon",
+  "quote": "the Gay Abandon captured",
+  "line": 21,
+  "decision": "FOLD",
+  "fold_into": "capture-of-prince-viserys",
+  "reason": "Gay Abandon capture IS the incident where Viserys was taken; quote folds as supporting prose"
+ },
+ {
+  "i": 28,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Battle at Acorn Hall",
+  "quote": "At Acorn Hall the westermen were checked briefly",
+  "line": 159,
+  "decision": "SKIP_EXISTS",
+  "existing_slug": "battle-at-acorn-hall"
+ },
+ {
+  "i": 29,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Citadel sends white ravens",
+  "quote": "the Citadel of Oldtown sent forth three hundred white ravens",
+  "line": 149,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 30,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Rising of the Shepherd",
+  "quote": "there rose up in Cobbler's Square a certain itinerant brother",
+  "line": 123,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 31,
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Gunthor slays Alester Wynch",
+  "quote": "the latter slew the former in a quarrel over Lord Farman\u2019s daughter Lysa",
+  "line": 99,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 32,
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Birth of Laena Velaryon",
+  "quote": "Baela Velaryon was brought to childbed and delivered of a healthy baby girl",
+  "line": 139,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 33,
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Ransom pact for Prince Viserys",
+  "quote": "the Iron Throne would pay a ransom of one hundred thousand golden dragons",
+  "line": 183,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 34,
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Death of Tyland Lannister",
+  "quote": "The fever took his life in two days instead of the usual four",
+  "line": 15,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 35,
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Death of Herman Rollingford",
+  "quote": "killed in a duel by a bravo who took offense at the color of his doublet",
+  "line": 215,
+  "decision": "CREATE_PENDING_VERIFY"
+ },
+ {
+  "i": 36,
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "The Maiden's Day Ball (\"Cattle Show\")",
+  "quote": "\"The Maiden's Day Cattle Show,\" Mushroom would name the ball",
+  "line": 153,
+  "decision": "SKIP_EXISTS",
+  "existing_slug": "maidens-day-ball"
+ },
+ {
+  "i": 37,
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Aegon II",
+  "quote": "we can have no doubt that it was done at the behest of Larys Strong",
+  "line": 277,
+  "decision": "CREATE_PENDING_VERIFY",
+  "special": "B6-R9 residue: mint death event + larys-strong SUSPECTED_OF (tier-2, in_universe_source=gyldayn-inference); hand unknowable. Also fold row 4 cremation quote into this node."
+ }
+]

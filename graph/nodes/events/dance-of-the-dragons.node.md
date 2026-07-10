@@ -2,7 +2,7 @@
 name: "Dance of the Dragons"
 type: event.battle
 slug: dance-of-the-dragons
-aliases: []
+aliases: ["Dance of Dragons", "the Dance", "House of the Dragon", "House of Dragons", "the Targaryen civil war"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Dance_of_the_Dragons"
 bucket_id: battles-b-d

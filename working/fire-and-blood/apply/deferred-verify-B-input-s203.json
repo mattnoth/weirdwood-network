@@ -1,0 +1,108 @@
+[
+ {
+  "i": 18,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Widow Fairs",
+  "quote": "hundreds of marriages were made at the socalled Widow Fairs",
+  "line": 23
+ },
+ {
+  "i": 19,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Aegon III and Jaehaera",
+  "quote": "the wedding of Prince Aegon and Princess Jaehaera",
+  "line": 51
+ },
+ {
+  "i": 20,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Velaryon succession attack on Alyn",
+  "quote": "Ser Malentine was slain during the attempt",
+  "line": 167
+ },
+ {
+  "i": 22,
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Death of Alicent Hightower",
+  "quote": "died on the same night as Lord Westerling",
+  "line": 319
+ },
+ {
+  "i": 24,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Aemond named Prince Regent",
+  "quote": "named himself only Protector of the Realm and Prince Regent",
+  "line": 153
+ },
+ {
+  "i": 25,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Legitimization of Addam and Alyn",
+  "quote": "Addam of Hull, dragonseed and bastard, became Addam Velaryon",
+  "line": 235
+ },
+ {
+  "i": 26,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Taming of Sheepstealer by Nettles",
+  "quote": "the brown dragon was brought to heel by the cunning and persistence",
+  "line": 249
+ },
+ {
+  "i": 29,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Citadel sends white ravens",
+  "quote": "the Citadel of Oldtown sent forth three hundred white ravens",
+  "line": 149
+ },
+ {
+  "i": 30,
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Rising of the Shepherd",
+  "quote": "there rose up in Cobbler's Square a certain itinerant brother",
+  "line": 123
+ },
+ {
+  "i": 31,
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Gunthor slays Alester Wynch",
+  "quote": "the latter slew the former in a quarrel over Lord Farman\u2019s daughter Lysa",
+  "line": 99
+ },
+ {
+  "i": 32,
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Birth of Laena Velaryon",
+  "quote": "Baela Velaryon was brought to childbed and delivered of a healthy baby girl",
+  "line": 139
+ },
+ {
+  "i": 33,
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Ransom pact for Prince Viserys",
+  "quote": "the Iron Throne would pay a ransom of one hundred thousand golden dragons",
+  "line": 183
+ },
+ {
+  "i": 34,
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Death of Tyland Lannister",
+  "quote": "The fever took his life in two days instead of the usual four",
+  "line": 15
+ },
+ {
+  "i": 35,
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Death of Herman Rollingford",
+  "quote": "killed in a duel by a bravo who took offense at the color of his doublet",
+  "line": 215
+ },
+ {
+  "i": 37,
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Aegon II",
+  "quote": "we can have no doubt that it was done at the behest of Larys Strong",
+  "line": 277,
+  "special": "B6-R9 residue: mint death event + larys-strong SUSPECTED_OF (tier-2, in_universe_source=gyldayn-inference); hand unknowable. Also fold row 4 cremation quote into this node."
+ }
+]
