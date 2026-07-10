@@ -1,0 +1,127 @@
+{
+  "assignment": "D101213",
+  "verdicts": [
+    {
+      "id": "D-E01",
+      "verdict": "CONFIRM",
+      "reason": "Quote verified. Direct wound-to-death causation grounded in text: dagger wound in belly on attack day, death three days later. No intervening decision. Type CAUSES is correct."
+    },
+    {
+      "id": "D-E02",
+      "verdict": "CONFIRM",
+      "reason": "Alysanne's blame-claim properly framed. Text explicitly hedges: 'she blamed...she would say.' Tier-2/disputed correctly assigned. In-universe source tag 'unattributed' is accurate—Alysanne's own grief-driven claim, not Gyldayn's assertion. Actual cause (prematurity) stated separately in prior sentence."
+    },
+    {
+      "id": "D-E03",
+      "verdict": "CONFIRM",
+      "reason": "Role edge grounding infant prince in death event. Quote and context align. Tier-1, no hedging."
+    },
+    {
+      "id": "D-E04",
+      "verdict": "CONFIRM",
+      "reason": "Causal grounding: women's courts at Vale (during progress) revealed plight of widows → Alysanne's counsel → Jaehaerys's decree. MOTIVATES correct: human decision mediates link. Tier-1."
+    },
+    {
+      "id": "D-E05",
+      "verdict": "CONFIRM",
+      "reason": "Financial pressure (Dragonpit completion + city rebuild costs) motivated Rego Draz's decision to impose gate fee. MOTIVATES correct; his agency is key link. Tier-1."
+    },
+    {
+      "id": "D-E06",
+      "verdict": "CONFIRM",
+      "reason": "AGENT_IN role edge. Text identifies Corwyn (Daemon's eldest son) as father in Corlys's birth. Tier-1."
+    },
+    {
+      "id": "D-E07",
+      "verdict": "CONFIRM",
+      "reason": "PARTICIPATES_IN role edge. Newborn Corlys in his own birth event. Tier-1."
+    },
+    {
+      "id": "D-E08",
+      "verdict": "CONFIRM",
+      "reason": "Birth is precondition for later adult voyages; no causal force or decision. ENABLES correct. Cross-section link (section 10 to 13) justified. Tier-1."
+    },
+    {
+      "id": "D-E09",
+      "verdict": "CONFIRM",
+      "reason": "Gold from egg theft funded Sun Chaser's construction, which was precondition for voyage. Elissa's decision to sail was her own. ENABLES correct. Tier-1."
+    },
+    {
+      "id": "D-E10",
+      "verdict": "CONFIRM",
+      "reason": "Physical mechanism: fire trapped free company between flames and Tyroshi host. Destroys company. CAUSES correct; no mediating decision by victims. Tier-1."
+    },
+    {
+      "id": "D-E11",
+      "verdict": "CONFIRM",
+      "reason": "Magisters' dissatisfaction with treaty motivated their decision to sacrifice prince (per local custom). MOTIVATES correct. Tier-1; Gyldayn reports as plain fact."
+    },
+    {
+      "id": "D-E12",
+      "verdict": "CONFIRM",
+      "reason": "Alysanne's visit and patronage motivated Burley's decision to honor her by renaming Snowgate to Queensgate. MOTIVATES correct. Tier-1."
+    },
+    {
+      "id": "D-E13",
+      "verdict": "CONFIRM",
+      "reason": "Alysanne's observation of Night's Watch poverty during progress motivated proposal for New Gift. Jaehaerys and Alaric's decisions finalized it. MOTIVATES correct. Tier-1."
+    },
+    {
+      "id": "D-E14",
+      "verdict": "CONFIRM",
+      "reason": "Alysanne's observation of Watch poverty during progress motivated her pledge of jewels to fund Deep Lake. MOTIVATES correct. Tier-1."
+    },
+    {
+      "id": "D-E15",
+      "verdict": "CONFIRM",
+      "reason": "Women's court at Mole's Town yielded testimony (blacksmith's daughter story) that motivated Jaehaerys's decision to abolish first night. MOTIVATES correct. Tier-1; Gyldayn reports as factual accounts."
+    },
+    {
+      "id": "D-E16",
+      "verdict": "CONFIRM",
+      "reason": "Failed crops from harsh winter directly caused food scarcity (empty larders/granaries) and famine. Text explicitly chains: crops died → larders emptied → famine spread. Consolidation of famine + bread-price-rise into single node justified: both consequences of same phenomenon, no separate narrated events. CAUSES correct. Tier-1."
+    },
+    {
+      "id": "D-E17",
+      "verdict": "CONFIRM",
+      "reason": "Lightning strike on Autumn Moon split mast and directly caused ship's foundering. Quote verified. Physical mechanism, no mediating decision. CAUSES correct. Tier-1."
+    },
+    {
+      "id": "D-E18",
+      "verdict": "CONFIRM",
+      "reason": "Storms physically drove Sun Chaser westward to islands; crew sighted land. Quote verified. CAUSES correct; wind/current are physical mechanism, not human choice. Tier-1."
+    },
+    {
+      "id": "D-E19",
+      "verdict": "CONFIRM",
+      "reason": "Islands provided resupply/repair opportunity enabling onward voyage. Alys chose to press on (Eustace declined). ENABLES correct: islands enable but do not force the decision. Tier-1."
+    },
+    {
+      "id": "D-E20",
+      "verdict": "ADJUST",
+      "reason": "Type should be ENABLES, not TRIGGERS. Reaching Asshai harbor is a precondition for the sighting, not an immediate causal spark. Text shows 'there' (general time in Asshai, including losses and adventures) when sighting occurred. Corlys had to be present to spot the ship—contingent observation, not immediate trigger. Tier-2/disputed correctly assigned ('if the tales be true...would swear forevermore'). In_universe_source 'gyldayn-synthesis' correct."
+    }
+  ],
+  "new_node_checks": [
+    {
+      "slug": "death-of-prince-aegon-son-of-jaehaerys-i",
+      "verdict": "OK",
+      "reason": "Event type correct (event.death). Era/year accurate (targaryen-rule, 51 AC). Mint justified: Alysanne's blame-claim too load-bearing to leave ungrounded per flags. Identity captures both the death (came too early, three days) and Alysanne's disputed blame. Unit reference correct."
+    },
+    {
+      "slug": "great-fire-in-the-disputed-lands",
+      "verdict": "OK",
+      "reason": "Event type correct (event.disaster). Era/year accurate (targaryen-rule, 56 AC—same year as Sun Chaser voyage). Identity captures full event: three-day fire, villages engulfed, free company trapped. Grounding solid."
+    },
+    {
+      "slug": "famine-of-59-60-ac",
+      "verdict": "OK",
+      "reason": "Event type correct (event.famine). Era/year accurate (targaryen-rule, 59 AC). Identity appropriately consolidates famine scope (regional harvests) + second-order consequence (bread hoarding/price rise) in one node—text treats as unified phenomenon, not separate events. Avoids over-minting. Unit reference correct."
+    },
+    {
+      "slug": "storms-scatter-the-sun-chasers-fleet",
+      "verdict": "OK",
+      "reason": "Event type correct (event.disaster). Era/year accurate (targaryen-rule, 56 AC). Identity captures three-storm sequence + physical destruction (Autumn Moon foundering, fleet scattered). Mint justified as chain anchor: text narrates storms as unified sequence; no prior node. Unit reference correct."
+    }
+  ]
+}

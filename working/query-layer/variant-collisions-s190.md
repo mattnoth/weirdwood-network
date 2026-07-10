@@ -1,12 +1,12 @@
 # Variant-generation collisions — step 4b (S190)
 
-Generated: 2026-07-10T04:09:42.132477+00:00
+Generated: 2026-07-10T14:28:42.269653+00:00
 
 
-153 phrase(s) (across 2 table(s)) where a deterministically-generated plural/possessive/article variant collided with an existing alias for a DIFFERENT slug. Logged for review, not auto-resolved — the existing PRIORITY_ORDER means a real alias/name/slug always wins over a generated variant; these are cases where TWO OR MORE real slugs are already tied to the target phrase, so no single winner exists even before the variant arrived.
+154 phrase(s) (across 2 table(s)) where a deterministically-generated plural/possessive/article variant collided with an existing alias for a DIFFERENT slug. Logged for review, not auto-resolved — the existing PRIORITY_ORDER means a real alias/name/slug always wins over a generated variant; these are cases where TWO OR MORE real slugs are already tied to the target phrase, so no single winner exists even before the variant arrived.
 
 
-## Table: event-alias-lookup.json (18 phrase(s))
+## Table: event-alias-lookup.json (19 phrase(s))
 
 
 ### `the andal invasion`
@@ -58,6 +58,11 @@ Generated: 2026-07-10T04:09:42.132477+00:00
 
 - slug=`conquest-of-dorne` source=`variant-article` raw="variant of 'conquest of dorne'"
 - slug=`the-conquest-of-dorne` source=`variant-article` raw="variant of 'conquest of dorne'"
+
+### `the dragons wroth`
+
+- slug=`first-dornish-war` source=`variant-article` raw="variant of 'dragons wroth'"
+- slug=`the-dragons-wroth` source=`variant-article` raw="variant of 'dragons wroth'"
 
 ### `the greyjoy rebellion`
 

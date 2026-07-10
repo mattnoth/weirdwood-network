@@ -1,0 +1,289 @@
+{
+ "harvest": [
+  {
+   "ref": "fab-reign-of-the-dragon-04:151",
+   "kind": "foreshadowing/blood-magic",
+   "note": "Septons speculated Nymor's letter was ensorceled, written using a vial of Queen Rhaenys's own blood for ink — blood magic motif worth tracking."
+  },
+  {
+   "ref": "fab-reign-of-the-dragon-04:265",
+   "kind": "custom/legal-precedent",
+   "note": "Queen Rhaenys's 'rule of six' (and 'rule of thumb') ruling on lawful wife-beating, delivered at the Aegonfort — notable in-universe legal custom, not yet a node."
+  },
+  {
+   "ref": "fab-reign-of-the-dragon-04:269",
+   "kind": "physical-description/homeless-quote",
+   "note": "Visenya's fool Lord Monkeyface (a hirsute hunchback) choked to death on a peach pit; she then dressed an ape in his clothes and called it cleverer — vivid character color, unattached to any node."
+  },
+  {
+   "ref": "fab-reign-of-the-dragon-04:199",
+   "kind": "hospitality/food",
+   "note": "Description of Aegon's royal progresses: guesting with great lords, 'feasts and balls and hunts and hawking,' six traveling maesters — hospitality-pattern material for a later pass."
+  },
+  {
+   "ref": "fab-reign-of-the-dragon-04:213",
+   "kind": "place-naming",
+   "note": "Origin of Aegon's High Hill, Visenya's Hill, and the Hill of Rhaenys as the three hills of King's Landing take their names from the three Targaryen siblings."
+  },
+  {
+   "ref": "fab-sons-of-the-dragon-05-p02:55",
+   "kind": "quote",
+   "note": "Rhaena to Poor Fellows pelting her with dirt: “You are fearless when facing a girl on a horse, I see. The next time I come, I will be on a dragon. Throw dirt on me then, I pray you.” Strong homeless characterization quote."
+  },
+  {
+   "ref": "fab-sons-of-the-dragon-05-p03:65",
+   "kind": "quote",
+   "note": "Rhaena on hearing of Aegon's death at the Battle Beneath the Gods Eye: “I do not have the time for tears.” Homeless quote, strong characterization."
+  },
+  {
+   "ref": "fab-sons-of-the-dragon-05-p02:73",
+   "kind": "hospitality",
+   "note": "Lord Lucas Harroway refuses to admit Aegon and Rhaena's wedding progress to Harrenhal unless they acknowledge Alys as Maegor's lawful wife; they spend 'a cold wet night in tents beneath the towering walls of Black Harren's mighty castle' — hospitality-refusal beat."
+  },
+  {
+   "ref": "fab-sons-of-the-dragon-05-p02:23",
+   "kind": "physical-description",
+   "note": "Aegon (son of Aenys) described as 'lean and handsome and growing taller every year... the very image of his grandsire at the same age' — physical description tying Aegon to Aegon the Conqueror."
+  },
+  {
+   "ref": "fab-prince-into-king-06:181",
+   "kind": "physical-description",
+   "note": "Grand Maester Benifer on young Aerea: 'She is frightened of horses, dogs, boys with loud voices, men with beards, and dancing, and she is terrified of dragons' — vivid child-character description, useful for the switching-of-the-twins node."
+  },
+  {
+   "ref": "fab-year-of-the-three-brides-07:37",
+   "kind": "physical-description",
+   "note": "Rogar Baratheon: 'Blue-eyed and black-bearded and muscled like a bull... No swordsman, his lordship preferred to wield a double-bladed axe.'"
+  },
+  {
+   "ref": "fab-year-of-the-three-brides-07:105",
+   "kind": "physical-description",
+   "note": "Alysanne at 13: 'slim and slight of frame... eyes were blue rather than purple, her hair a mass of honey-colored curls.'"
+  },
+  {
+   "ref": "fab-surfeit-of-rulers-08-p01:155-219",
+   "kind": "homeless-quote",
+   "note": "The apocryphal in-universe book 'A Caution for Young Girls' (also titled Sins of the Flesh / The High and the Low / A Wanton's Tale), purportedly by Coryanne Wylde -- a rich unreliable-narrator/in-world-textual-criticism episode not otherwise touched by this assignment's causal wiring."
+  },
+  {
+   "ref": "fab-time-of-testing-09:179-183",
+   "kind": "quotable-doctrine",
+   "note": "Septon Alfyn's lion/aurochs sermon and Septon Baldrick's 'Go to Dragonstone and claim a dragon' riposte -- vivid Doctrine of Exceptionalism content not yet attached as Quotes to graph/nodes/concepts/doctrine-of-exceptionalism.node.md."
+  },
+  {
+   "ref": "fab-time-of-testing-09:131-141",
+   "kind": "policy-detail",
+   "note": "Jaehaerys's new spice/silk/gemstone/crenellation tax scheme, explicitly designed as voluntary luxury taxation ('a man need only forgo his pepper, his silk, his pearls') -- good material for a future economic-policy dip."
+  },
+  {
+   "ref": "fab-surfeit-of-rulers-08-p02:19-31",
+   "kind": "food-hospitality",
+   "note": "The 'Four-Headed Beast' court-within-a-court at Faircastle (Rhaena, Elissa Farman, Alayne Royce, Samantha Stokeworth) and Lannisport's lavish welcome feast with 'an entire stable... given over to Dreamfyre' -- hospitality/status material already partly on rhaenas-party-welcomed-at-lannisport but the Faircastle dynamic is not yet on any node."
+  },
+  {
+   "ref": "fab-jaehaerys-and-alysanne-triumphs-12-p02:147",
+   "kind": "food/hospitality",
+   "note": "Lord Manderly roasts an entire aurochs and stages a small tourney to welcome Queen Alysanne at White Harbor; his daughter Jessamyn serves as her cupbearer with strong northern ale."
+  },
+  {
+   "ref": "fab-jaehaerys-and-alysanne-triumphs-12-p02:119",
+   "kind": "hospitality/political theater",
+   "note": "Alysanne makes Rego Draz and Jaehaerys each drink a tankard of King's Landing's foul river water at council to win approval for the well-and-pipe project later known as 'the queen's fountains.'"
+  },
+  {
+   "ref": "fab-jaehaerys-and-alysanne-triumphs-12-p02:309",
+   "kind": "physical description",
+   "note": "Jaehaerys at 24: handsome golden beard shot through with silver, unshorn hair in a thick braid to his waist, tall, graceful, warm smile / cold frown."
+  },
+  {
+   "ref": "fab-jaehaerys-and-alysanne-triumphs-12-p01:267",
+   "kind": "foreshadowing/horror, homeless quote",
+   "note": "Septon Barth's privy account of what came out of Aerea Targaryen's body after her ride to Valyria on Balerion -- 'worms with faces...snakes with hands' -- vivid deep-lore/Doom-adjacent material not yet attached to any node."
+  },
+  {
+   "ref": "fab-the-long-reign-13:65",
+   "kind": "physical description/horror, homeless quote",
+   "note": "Sothoryos fever/parasite horror suffered by Eustace Hightower's crew -- 'his skin was sloughing off, and he was bleeding from his ears and cock and arse' -- vivid disease description."
+  },
+  {
+   "ref": "fab-the-long-reign-cont-14-p01:21",
+   "kind": "detail",
+   "note": "Kitten-cat economy during the Shivers: \"suddenly every house in the Seven Kingdoms...required a cat...kittens were selling for as much as destriers\" — nice smallfolk-economics color, not currently used anywhere."
+  },
+  {
+   "ref": "fab-the-long-reign-cont-14-p01:77",
+   "kind": "quote",
+   "note": "Homeless quote, food/hospitality-adjacent: the Flea Bottom girl who led the king to Rego Draz's killers is taken in by Alysanne, scrubbed, fed \"hot bread and bacon,\" and asks to work in the kitchens — \"That's where they keeps the bread.\" Good hospitality/food-as-kindness texture, unattached to any node."
+  },
+  {
+   "ref": "fab-the-long-reign-cont-14-p02:171",
+   "kind": "quote",
+   "note": "Septon Barth's description of infant Viserys: \"a plump and pleasant lad, who laughed more than any babe I've ever known, and nursed so lustily he drank his wet nurse dry\" — vivid physical-description quote, homeless (birth-of-viserys-i-targaryen node not touched this pass)."
+  },
+  {
+   "ref": "fab-the-long-reign-cont-14-p04:65",
+   "kind": "foreshadowing",
+   "note": "Princess Gael's true cause of death (seduced by a traveling singer, stillborn son, then drowned herself) is only revealed \"after both her parents were gone\" — explicit narrator's-delayed-reveal structure worth flagging for a foreshadowing/discovery-structure pass if one is ever run over FAB."
+  },
+  {
+   "ref": "fab-the-long-reign-cont-14-p04:233",
+   "kind": "quote",
+   "note": "Alysanne's summary tally of her thirteen children's fates (\"Aegon, Gaemon, and Valerion died as babes. The Shivers took Daenerys...A crossbow slew Prince Aemon. Alyssa and Daella died in childbed, Viserra drunk in the street.\") is a dense one-line index of nearly every death node in this section — good candidate quote for a future summary/overview node on Jaehaerys and Alysanne's children if one gets built."
+  },
+  {
+   "ref": "fab-heirs-of-the-dragon-15-p03:19",
+   "kind": "physical-description",
+   "note": "Laena Velaryon at Driftmark: \"tall, slender, and surpassingly lovely... with a great mane of silver-gold ringlets that fell down past her waist\" — unused physical-description quote for her node."
+  },
+  {
+   "ref": "fab-heirs-of-the-dragon-15-p03:115",
+   "kind": "foreshadowing",
+   "note": "\"Though Viserys I would reign for nine more years, the bloody seeds of the Dance of the Dragons had already been planted, and 120 AC was the year when they began to sprout\" — explicit authorial foreshadowing statement, candidate for reference/foreshadowing-events.md."
+  },
+  {
+   "ref": "fab-heirs-of-the-dragon-15-p01:125",
+   "kind": "trade-detail",
+   "note": "Corlys Velaryon's ninth Sea Snake voyage returns \"enough gold to buy twenty more ships... saffron, pepper, nutmeg, elephants, and bolts of the finest silk\" — rich trade/wealth-origin quote for the Velaryon wealth thread, unused here."
+  },
+  {
+   "ref": "fab-heirs-of-the-dragon-15-p03:95",
+   "kind": "homeless-quote",
+   "note": "Aemond on claiming Vhagar as a boy: \"he was so afraid of being caught that he forgot to be frightened of being burned to death and eaten\" — good color quote for his node, not used in this causal pass."
+  },
+  {
+   "ref": "fab-the-red-dragon-and-the-gold-17-p01:65",
+   "kind": "quote",
+   "note": "Grand Maester Greydon on the Triarchy's High Council: 'thirty-three horses, each pulling in his own direction' — vivid characterization, homeless quote."
+  },
+  {
+   "ref": "fab-the-red-dragon-and-the-gold-17-p02:163",
+   "kind": "prophecy",
+   "note": "Hugh Hammer prophecy: 'When the hammer shall fall upon the dragon, a new king shall arise, and none shall stand before him' — unattributed origin, flagged as mysterious by Gyldayn; possible theory-layer relevance."
+  },
+  {
+   "ref": "fab-the-red-dragon-and-the-gold-17-p03:33",
+   "kind": "food/economics",
+   "note": "Celtigar's tax regime detail (silver stag per inn bed, tripled port fees, 'cunt tax'/'tail tax' smallfolk gossip) — rich hospitality/economics texture not yet extracted."
+  },
+  {
+   "ref": "fab-the-red-dragon-and-the-gold-17-p04:37",
+   "kind": "physical description",
+   "note": "Septon Eustace's physical description of Nettles (crooked teeth, nose scarred from a slitting-for-thieving punishment) — first-class physical-description extraction target per project values."
+  },
+  {
+   "ref": "fab-rhaenyra-overthrown-18-p02:83-89",
+   "kind": "missing-node",
+   "note": "Prince Daeron the Daring's death at Second Tumbleton (three disputed accounts: burned fleeing his tent, cut down by Black Trombo's morningstar or an unknown man-at-arms, or crushed under his collapsing pavilion) has no dedicated event node. Candidate future mint: death-of-daeron-targaryen-son-of-viserys-i."
+  },
+  {
+   "ref": "fab-hour-of-the-wolf-20:287",
+   "kind": "characterization",
+   "note": "Aegon III recoils from Lady Rhaena's dragon Morning ('get that wretched creature out of my sight') during the twins' visit — a direct textual echo of his mother's death by dragon at Dragonstone. Strong evidence for the 'Dragonbane' epithet / dragon-aversion disposition if a future pass builds out Aegon III's psychological arc; corroborates H-E16."
+  },
+  {
+   "ref": "fab-rhaenyra-overthrown-18-p02:155-175",
+   "kind": "hospitality",
+   "note": "Rhaenyra's flight tests guest-right at three houses in succession: Rosby refuses her gates outright, Stokeworth's castellan grants one night only ('They will come for you, and I do not have the power to resist them'), Duskendale's Lady Meredyth admits her only on Ser Harrold Darke's intercession and only briefly. A compressed hospitality-decay motif tracking Rhaenyra's collapsing legitimacy — worth attaching to future guest-right/hospitality extraction work."
+  },
+  {
+   "ref": "fab-short-sad-reign-of-aegon-ii-19:187-193",
+   "kind": "physical-description",
+   "note": "Detailed clinical description of Aegon II's shattered left leg (atrophied muscle, stiffening knee, Grand Maester Orwyle recommending amputation) and burn scarring covering half his body — strong physical-description material for the aegon-ii-targaryen character node."
+  },
+  {
+   "ref": "fab-the-hooded-hand-21:97",
+   "kind": "food/economics",
+   "note": "Tyland's three fortified granaries (King's Landing, Lannisport, Gulltown) and the resulting grain-price spike that pleased sellers but angered innkeeps and the poor — hospitality/economics texture, not yet extracted."
+  },
+  {
+   "ref": "fab-the-hooded-hand-21:265",
+   "kind": "reference",
+   "note": "The Citadel names this period the 'Winter of the Widows' (Archmaester Abelon's *When Women Ruled: Ladies of the Aftermath*) — a named historiographical epoch, not currently a node; possible future concept/era tag."
+  },
+  {
+   "ref": "fab-war-and-peace-and-cattle-shows-22-p02:91",
+   "kind": "quote",
+   "note": "'Your Grace does not like turnips, but when your cooks prepare them, you eat them, do you not?' — Peake's own line that gives rise to the 'Lady Turnips' nickname; vivid, homeless quote."
+  },
+  {
+   "ref": "fab-war-and-peace-and-cattle-shows-22-p02:105",
+   "kind": "quote",
+   "note": "Lady Samantha's letter naming 31 candidate brides plus a joking postscript about 'pretty boys' for the king — comedic court-politics texture, homeless quote."
+  },
+  {
+   "ref": "fab-voyage-of-alyn-oakenfist-23:39",
+   "kind": "physical-description",
+   "note": "Extensive physical/character description of Racallio Ryndoon (six-and-a-half feet tall, purple dyed hair and beard, rolling gait) -- vivid homeless-quote candidate."
+  },
+  {
+   "ref": "fab-voyage-of-alyn-oakenfist-23:117",
+   "kind": "homeless-quote",
+   "note": "'The Hand was in a black state even before the poisoning, for he had only recently suffered his own personal tragedy when his young wife, the Lady Floris, died in childbirth.' -- Thaddeus Rowan backstory not otherwise captured."
+  },
+  {
+   "ref": "fab-voyage-of-alyn-oakenfist-23:63",
+   "kind": "hospitality",
+   "note": "Lyonel Hightower's welcome of Oakenfist and Lady Sam at Oldtown (beacon-guided harbor entry, Citadel access, Starry Sept blessing) -- hospitality/food-and-welcome theme."
+  },
+  {
+   "ref": "fab-the-lysene-spring-24-p01:59",
+   "kind": "description",
+   "note": "The Mermaid pillow house description (parrots from the Summer Islands, monkeys from Sothoryos, rumored mermaid) -- vivid worldbuilding not elsewhere captured."
+  },
+  {
+   "ref": "fab-the-lysene-spring-24-p01:155",
+   "kind": "foreshadowing",
+   "note": "Sheepstealer and Nettles's last recorded sighting in Westerosi annals (a 'ragged woman clinging to its back' fleeing into the mountains after Robert Rowan's host rouses the dragon) -- major lore beat, check whether already wired to Sheepstealer/Nettles nodes."
+  },
+  {
+   "ref": "fab-the-lysene-spring-24-p02:151",
+   "kind": "homeless-quote",
+   "note": "Trial-by-combat between Gareth Long and Victor Risley ('You always were a bloody fool, Victor') -- vivid scene not otherwise captured in the causal spine."
+  }
+ ],
+ "flags": [
+  "A04: creation-of-the-office-of-grand-maester left causally dark: the unit narrates it as Aegon's own initiative (line 243, 'feeling that the realm might benefit from such wisdom') with no upstream trigger or downstream causal consequence stated in this section; only role edges (AGENT_IN) apply.",
+  "A04: volmark-conspiracy MOTIVATES invasion-of-the-iron-islands (A-E03) is grounded on Volmark's claim as one of several destabilizing factors (Lodos's rebellion and other claimants are narrated in the same paragraph but have no roster node in this section) — flagging in case a fuller Iron Islands chaos node is minted elsewhere and this edge should be re-pointed.",
+  "A04: rhaenyss-parley-with-meria-martell.node.md exists in graph/nodes/events/ (pre-war 1 AC parley, 'return at your peril') but is not in this section's roster and was left unwired to stay in scope; it is a plausible upstream ENABLES/precursor to first-dornish-war for a future pass.",
+  "A04: the-dragons-wroth ac_year set to 11 (approximate start) since the unit only states 'the next two years' after Rhaenys's 10 AC death; no exact year is given in this text.",
+  "B0506: row-79 slug_candidates trystane-mounts-iron-throne / siege-of-maegors-holdfast / judgment-of-princess-saera-before-the-iron-throne / execution-of-rego-drazs-killers / battle-at-the-maegors-holdfast-drawbridge checked and rejected: siege-of-maegors-holdfast and battle-at-the-maegors-holdfast-drawbridge are Dance-of-the-Dragons-era (135 AC) nodes, not 42 AC Maegor's-usurpation nodes; the other three are unrelated wrong-era token-overlap false positives. Row 79 wired instead via new node maegor-claims-the-iron-throne -> execution-of-grand-maester-gawen (B-E03).",
+  "B0506: No pre-existing node for 'death of Aenys' or 'Maegor's own death' or 'Maegor claims the throne' — minted death-of-aenys-i-targaryen, maegor-claims-the-iron-throne, death-of-maegor-i-targaryen (plus aenys-bequeaths-blackfyre-to-maegor for row 67) as the missing marquee anchors; existing funeral-of-king-aenys node was left untouched (it specifically covers the pyre-lighting, not the death itself).",
+  "B0506: Roster items harren-the-reds-rebellion and invasion-of-the-iron-islands (Lodos suppression) were reviewed: both are contemporaneous with Aenys's reign but the text frames them as parallel 'false king' rebellions explicitly CONTRASTED with (not causally linked to) the Faith Militant uprising that follows; no clean anchor to wire them without minting additional nodes for peripheral beats (e.g. Maegor's first Hand appointment after Harren's death), so left unwired this session rather than force a weak edge.",
+  "B0506: The Jeyne Westerling stillbirth (Tyanna's confession also names it, fab-sons-of-the-dragon-05-p03:205) has no dedicated node in the graph; only Alys Harroway's and Elinor Costayne's stillbirths do. Worth a future stub mint if the causal spine revisits Maegor's remarriage arc.",
+  "C070809: Row 97 slug_candidates 'trystane-mounts-iron-throne' and 'judgment-of-princess-saera-before-the-iron-throne' are wrong (token-overlap noise) -- the real chain (Lyman Lannister's ambition for dragons/alliance -> Rhaena's resolve to leave the Rock) grounds in fab-surfeit-of-rulers-08-p02:73 and wires rhaenas-party-welcomed-at-lannisport -> grant-of-dragonstone-to-rhaena (C-E05).",
+  "C070809: Row 93's unit was null in the packet; grounding located at fab-surfeit-of-rulers-08-p01:35-37 ('The immediate cause of the tension was the king's sudden and secret marriage to his sister...'). Wired as C-E03.",
+  "C070809: maegor-takes-a-second-wife stub verified per assignment instruction: it is genuinely the 39 AC/Sons-of-the-Dragon event, NOT mis-titled -- fab-time-of-testing-09 only references it retrospectively (line 157) to explain why the Faith received Aegon and Rhaena's marriage so badly. Wired honestly (C-E19) using that retrospective grounding rather than left unwired.",
+  "C070809: restoration-of-aerea-to-rhaena's own text ('The consequences of this decision would not be known for years to come') foreshadows Aerea's later fate (existing nodes death-of-princess-aerea, balerion-bore-aerea-to-valyria) but that material lives in later F&B sections outside this assignment's units -- flagging for a future causal-spine session to wire restoration-of-aerea-to-rhaena forward to those nodes.",
+  "C070809: The Doctrine of Exceptionalism node (graph/nodes/concepts/doctrine-of-exceptionalism.node.md) currently carries only one Quotes entry from a much later section (fab-jaehaerys-and-alysanne-dragonstone-11); its founding scene is actually narrated in fab-time-of-testing-09:157-183 (Septon Alfyn's lion/aurochs sermon, Septon Baldrick's 'go to Dragonstone and claim a dragon' riposte) -- worth a quote-attachment pass, flagged in harvest below.",
+  "D101213: founder-of-the-autumn-moon: the node name is grammatically ambiguous ('Founder' reads as a person-noun, e.g. 'the founder of the Autumn Moon,' rather than the verb 'founder' = to sink). The underlying content is a real, correctly-typed event (event.shipwreck, 'ship foundered; Eustace's brother and all his men drowned', matching fab-the-long-reign-13:43 'I saw the Autumn Moon founder with my own eyes'), so it was wired (D-E17) rather than left unwired -- but a rename to 'Foundering of the Autumn Moon' would remove the ambiguity.",
+  "D101213: archon-of-tyrosh-war-of-the-ninepenny-kings (section 12 roster item) is typed event.war but its existing edges (HOLDS_TITLE, NEGOTIATES_WITH, CULTURE_OF, BETRAYS) show it's actually being used as a character/person node (the Archon himself), not an event. Out of scope for this assignment but flagged for a schema-drift pass.",
+  "D101213: death-of-prince-aegon-son-of-jaehaerys-i is a new mint not listed in the packet's stubs, but the attack->death chain the text asserts (Alysanne's own claim) was too load-bearing to leave ungrounded; kept tier-2/disputed given the in-universe framing.",
+  "D101213: The winter-of-59-60-ac stub already carried its whole downstream chain (crops die -> famine -> bread prices) baked into one node's Identity prose with zero graph edges; minted famine-of-59-60-ac as a single consolidated downstream node per the seed rather than further splitting 'bread prices rise' into its own node, to avoid over-minting a single short paragraph.",
+  "E14: DUPLICATE NODE: lord-rogars-war and third-dornish-war appear to be the same event under two names (Gyldayn explicitly says the 'Third Dornish War' label is a misnomer and the smallfolk name, Lord Rogar's War, 'is far more apt'). third-dornish-war has the richer wiki-sourced content and existing edges, so E14-E01 targets it; lord-rogars-war (already S203-touched with one quote) has zero edges. Recommend a merge/SAME_AS pass rather than parallel wiring of both.",
+  "E14: GAP NOTED, NOT WIRED: Prince Gaemon (born 73 AC, died just short of the new year, not quite three moons old — fab-the-long-reign-cont-14-p02:65) is the same birth-complication-causes-death pattern as Valerion, but Gaemon was not in this packet's stubs array and no birth-of-prince-gaemon/death-of-prince-gaemon event nodes exist yet. Flagging for a future pass rather than minting outside scope.",
+  "E14: E14-E16 (myrish-bloodbath CAUSES great-council-of-101-ac) rests on Gyldayn's own foreshadowing line in this section; the mechanical chain (Baelon becoming heir over Rhaenys, then Baelon's own death) is not narrated in fab-the-long-reign-cont-14 and likely belongs to section 15 (cont-15) or the Great Council's own section. Cross-check there — do not treat this edge as a substitute for the direct mechanical chain once that section is wired.",
+  "E14: No death-of-prince-aemon-targaryen-son-of-jaehaerys-i node exists (or was needed): the established myrish-bloodbath hub node already carries the full narrative of his death, so I wired role edges (VICTIM_IN, FIGHTS_IN) into it rather than minting a duplicate death node.",
+  "F1516: Row 106 (dragonseed strategy) has no in-scope downstream anchor for the actual recruitment; routed as coronation-of-rhaenyra ENABLES taming-of-sheepstealer-by-nettles (an existing node from a much later chapter) since Rhaenys's speech names Sheepstealer specifically — flag for review if a closer-scoped dragonseed-recruitment node is minted later.",
+  "F1516: mysaria CONTRACTED_WITH blood-butcher already exists in edges.jsonl (run_id fab-the-blacks-and-the-greens-16-p02-2026-07-09-enrichment) so it was not re-proposed for the new murder-of-prince-jaehaerys hub; consider adding a CONTRACTED_WITH or AGENT_IN edge directly to the new event slug in a follow-up pass so the hub is fully self-contained.",
+  "F1516: assault-on-harrenhal's existing wiki-derived edge 'DEFEATS: blacks (track_b: Result)' looks directionally backwards (blacks captured Harrenhal, they were not defeated by it) — out of scope to fix here, flagging for a schema-drift/orphan-edge pass.",
+  "F1516: The 111 AC anniversary tourney where the 'greens'/'blacks' names originate has no dedicated node (tourney-for-king-viserys-is-accession is a different, 106 AC accession tourney); routed the naming-origin quote through the existing greens/blacks faction nodes instead of minting a seventh marquee node, to keep this packet's mint list to the six genuinely load-bearing anchors.",
+  "G17: Row 212 slug_candidates included criston-cole-appointed-to-kingsguard / criston-cole-named-lord-commander-of-the-kingsguard, but that appointment predates this section (17-p01 only narrates the Hand dismissal). Left untouched.",
+  "G17: Verified battle-above-the-gods-eye vs battle-beneath-the-gods-eye are unrelated events (the latter is Maegor-era, 43 AC, Aegon the Uncrowned's rebellion) — only battle-above-the-gods-eye is in scope here.",
+  "G17: 'Battle of Tumbleton' node is a wiki-redirect stub (same_as: first-battle-of-tumbleton); all Tumbleton-related content in this section already lives on first-battle-of-tumbleton, which already carries a PART_OF dance-of-the-dragons edge, so no new wiring was needed there.",
+  "G17: All event.battle nodes touched by this section (battle-of-the-burning-mill, sack-of-duskendale, taking-of-stone-hedge, battle-above-the-gods-eye, battle-at-the-red-fork, battle-of-the-gullet, battle-of-the-honeywine, first-battle-of-tumbleton, sack-of-bitterbridge, battle-at-rooks-rest, battle-by-the-lakeshore, butchers-ball, fall-of-kings-landing) already carry PART_OF dance-of-the-dragons edges from a prior infobox-merge pass — no gaps found for item 2 of the assignment.",
+  "H181920: NOT MINTED: 'Moon of the Three Kings' (the interregnum of three pretender-kings ruling separate hills of King's Landing after Rhaenyra's flight). Gyldayn's own text calls the label 'a misnomer, as the Shepherd never claimed kingship, styling himself a simple son of the Seven' (fab-rhaenyra-overthrown-18-p01:269). The period is already covered structurally by discrete existing nodes (trystane-mounts-iron-throne, crowning-of-gaemon-palehair, rising-of-the-shepherd) wired via riot-of-kings-landing-dance-of-the-dragons ENABLES edges in this proposal; minting an umbrella node for the label itself would risk the chain-as-arc violation (rule 2). Flagging per the S203 future-mint-candidate instruction rather than minting.",
+  "H181920: Did not mint a separate death-of-joffrey-velaryon node. His theft of Syrax and death in Flea Bottom (fab-rhaenyra-overthrown-18-p01:143-177) is already fully narrated within the existing storming-of-the-dragonpit node's own '### The Seven Who Rode' subsection. Wired storming-of-the-dragonpit TRIGGERS the-ride-of-the-seven directly (H-E08) instead of adding a redundant intermediate node.",
+  "H181920: Seed 38's packet slug_candidates (attack-on-the-queens-camp, queen-alysannes-progress-to-the-north, attack-on-queen-alysanne-at-jonquils-pool) are all wrong-era token-overlap false positives (Jaehaerys/Alysanne-era, not Dance-era). Resolved the seed correctly as riverlords-rise-for-rhaenyra ENABLES second-battle-of-tumbleton (H-E19) instead.",
+  "H181920: Prince Daeron Targaryen (son of Viserys I) dies at the Second Battle of Tumbleton (fab-rhaenyra-overthrown-18-p02:83-89, three conflicting accounts) but has no dedicated event node — only the downstream pretenders-claiming-to-be-prince-daeron-the-daring node exists. Left unminted (out of this assignment's marquee/seed/stub scope) but flagged as a clean future-mint candidate: death-of-daeron-targaryen-son-of-viserys-i. See also harvest.",
+  "I2122: Thaddeus Rowan arc (seed rows 193/194) is explicitly unit 24's territory per the assignment note — left untouched here.",
+  "I2122: Minted 5 new nodes after confirming via Glob/Grep that no existing node covers death-of-regis-groves, unwin-peake-named-to-council-of-regents, death-of-jaehaera-targaryen, opposition-to-the-myrielle-betrothal, or maidens-day-curse — each is a genuine chain anchor the seeds/marquee-spine note require and none is an umbrella/arc parent (each is a discrete narrated beat with its own scene).",
+  "I2122: maidens-day-ball and regency-of-aegon-iii are both mistyped 'event.battle' from the wiki-ingestion pass (neither is a battle) — not fixed here, flagged for a future schema-drift pass.",
+  "I2122: winter-fever (graph/nodes/medical/winter-fever.node.md) is a concept.medical node with zero prior edges; wired it CAUSES into 4 targets (death-of-tyland-lannister, death-of-roland-westerling, death-of-alicent-hightower, winter-fever-reaches-barrowton) per the section note pointing at DIED_OF/AFFLICTED_BY-style plague wiring — used CAUSES from the locked ladder instead of DIED_OF/AFFLICTED_BY since those aren't in the SHARED-RULES locked vocabulary for this pass, and CAUSES cleanly captures unmediated disease causation.",
+  "I2122: death-of-corlys-velaryon, lady-rhaenas-miscarriage, and winter-fever-reaches-barrowton (the 3 named stubs) each received 2 edges, well past the ≥1 minimum.",
+  "I2122: Checked graph/edges/edges.jsonl for all 24 source/target pairs before writing — zero pre-existing causal-type collisions found.",
+  "J232425: Seed row 183 (fab-the-lysene-spring-24-p01, line 239 'names the regent and the regent names the Hand, and round and round and round we dance'): judged commentary only. It is Prince Viserys's defiant, mocking rhetoric during the drawbridge standoff, not a narrated causal claim about the regency structure -- deliberately NOT forced into an edge, per the assignment's instruction.",
+  "J232425: Seed row 7 (fab-lineages-and-family-tree-25, line 41 'Daeron conquered Dorne, but was unable to hold it, and died young'): this unit is a thin bracketed succession-list annotation with no elaboration of a death mechanism (no assassination, wound, or rebellion detail given here). Wired only the honest role edge (daeron-i-targaryen AGENT_IN conquest-of-dorne, J-E22); did NOT type a causal edge from 'unable to hold Dorne' to 'died young' since the grounding in this specific unit is too thin (no textual mechanism asserted, and rule 4 bars year/sequence-only causation). Fuller grounding for Daeron I's death likely exists in other F&B/TWOIAF material outside this unit's scope.",
+  "J232425: fab-lineages-and-family-tree-25.md is mostly non-narrative: a 17-monarch succession list (matches the S203 finding that the family-tree diagrams were raster images, never text) followed by a full transcript of a 2019 GRRM/Dan Jones stage interview about the writing of Fire & Blood. No further causal-spine material exists in this unit beyond the row 7 seed."
+ ],
+ "unwired_stubs": []
+}

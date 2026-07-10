@@ -1,0 +1,428 @@
+{
+ "section": "fab-the-long-reign-cont-14",
+ "units": [
+  "fab-the-long-reign-cont-14-p01",
+  "fab-the-long-reign-cont-14-p02",
+  "fab-the-long-reign-cont-14-p03",
+  "fab-the-long-reign-cont-14-p04"
+ ],
+ "seeds": [
+  {
+   "row": 150,
+   "snippet": "against the Shivers | was helpless",
+   "kind": "causal-spine",
+   "note": "plague helplessness leads to war as the king's healing",
+   "unit": "fab-the-long-reign-cont-14-p01",
+   "line": 211,
+   "slug_candidates": [
+    "the-shivers-plague",
+    "regents-overturn-the-kings-appointments",
+    "tourney-for-king-viserys-is-accession",
+    "return-of-aegon-ii-to-kings-landing",
+    "jaehaerys-returns-to-kings-landing-on-vermithor",
+    "aegon-the-uncrowned-seizes-kings-landing",
+    "celtigars-new-taxes-on-kings-landing"
+   ]
+  },
+  {
+   "row": 157,
+   "snippet": "he could well have the makings of an archmaester in him",
+   "kind": "causal-spine",
+   "note": "Elysar's counsel to Vaegon sent to the Citadel",
+   "unit": "fab-the-long-reign-cont-14-p02",
+   "line": 163,
+   "slug_candidates": [
+    "vaegon-sent-to-the-citadel"
+   ]
+  },
+  {
+   "row": 158,
+   "snippet": "the Blackwoods kept the old gods",
+   "kind": "causal-spine",
+   "note": "Daella learns of weirwood vows to betrothal collapses",
+   "unit": "fab-the-long-reign-cont-14-p02",
+   "line": 213,
+   "slug_candidates": []
+  },
+  {
+   "row": 159,
+   "snippet": "I would never marry her",
+   "kind": "causal-spine",
+   "note": "Vaegon's public insult to search for a new bride for Vaegon",
+   "unit": "fab-the-long-reign-cont-14-p02",
+   "line": 111,
+   "slug_candidates": [
+    "tourney-for-king-viserys-is-accession",
+    "celtigars-new-taxes-on-kings-landing"
+   ]
+  },
+  {
+   "row": 163,
+   "snippet": "We ought never have pushed her into marriage",
+   "kind": "causal-spine",
+   "note": "forced marriage → Daella's death → Alysanne blames Jaehaerys",
+   "unit": "fab-the-long-reign-cont-14-p03",
+   "line": 69,
+   "slug_candidates": [
+    "death-of-daella-targaryen-daughter-of-jaehaerys-i",
+    "rowans-forced-confession",
+    "queen-alysannes-progress-to-the-north",
+    "jaehaeryss-progress-through-the-vale-of-arryn",
+    "jaehaerys-returns-to-kings-landing-on-vermithor",
+    "birth-of-daella-targaryen-daughter-of-jaehaerys-i",
+    "attack-on-queen-alysanne-at-jonquils-pool"
+   ]
+  },
+  {
+   "row": 175,
+   "snippet": "missed Lord Cameron...and struck Prince Aemon",
+   "kind": "causal-spine",
+   "note": "errant Myrish bolt aimed at the Evenstar kills Aemon",
+   "unit": "fab-the-long-reign-cont-14-p04",
+   "line": 191,
+   "slug_candidates": [
+    "aemon-named-prince-of-dragonstone",
+    "birth-of-aemon-targaryen-son-of-jaehaerys-i"
+   ]
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "the-shivers-plague",
+   "name": "The Shivers plague",
+   "unit": "fab-the-long-reign-cont-14-p01"
+  },
+  {
+   "slug": "birth-of-princess-viserra",
+   "name": "Birth of Princess Viserra",
+   "unit": "fab-the-long-reign-cont-14-p02"
+  },
+  {
+   "slug": "birth-of-rhaenys-targaryen-daughter-of-aemon",
+   "name": "Birth of Princess Rhaenys",
+   "unit": "fab-the-long-reign-cont-14-p02"
+  },
+  {
+   "slug": "viserys-claims-balerion",
+   "name": "Viserys claims Balerion",
+   "unit": "fab-the-long-reign-cont-14-p04"
+  },
+  {
+   "slug": "birth-of-princess-gael",
+   "name": "Birth of Princess Gael",
+   "unit": "fab-the-long-reign-cont-14-p02"
+  },
+  {
+   "slug": "birth-of-prince-valerion",
+   "name": "Birth of Prince Valerion",
+   "unit": "fab-the-long-reign-cont-14-p02"
+  },
+  {
+   "slug": "birth-of-daella-targaryen-daughter-of-jaehaerys-i",
+   "name": "Birth of Princess Daella",
+   "unit": "fab-the-long-reign-cont-14-p02"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "execution-of-rego-drazs-killers",
+   "name": "Execution of Rego Draz's killers",
+   "type": "event.execution",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 59,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "murder-of-rego-draz",
+   "name": "Murder of Rego Draz",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 59,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-alyssa-targaryen",
+   "name": "Birth of Princess Alyssa",
+   "type": "event.birth",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 60,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "aemon-named-prince-of-dragonstone",
+   "name": "Aemon named Prince of Dragonstone",
+   "type": "event.investiture",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 62,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-princess-maegelle",
+   "name": "Birth of Princess Maegelle",
+   "type": "event.birth",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 62,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-prince-vaegon",
+   "name": "Birth of Prince Vaegon",
+   "type": "event.birth",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 63,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "baelon-claims-vhagar",
+   "name": "Baelon claims Vhagar",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 73,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "maegelle-joins-the-faith",
+   "name": "Maegelle joins the Faith",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 73,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "alyssa-claims-meleys",
+   "name": "Alyssa claims Meleys",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 75,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "vaegon-sent-to-the-citadel",
+   "name": "Vaegon sent to the Citadel",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 78,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-aemma-arryn",
+   "name": "Birth of Aemma Arryn",
+   "type": "event.birth",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 82,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-daella-targaryen-daughter-of-jaehaerys-i",
+   "name": "Death of Princess Daella",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 82,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "discovery-at-the-blue-pearl",
+   "name": "Discovery at the Blue Pearl",
+   "type": "event.scandal",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 84,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "judgment-of-princess-saera-before-the-iron-throne",
+   "name": "Judgment of Princess Saera before the Iron Throne",
+   "type": "event.trial",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 84,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "saeras-flight-from-the-oldtown-motherhouse",
+   "name": "Saera's flight from the Oldtown motherhouse",
+   "type": "event.escape",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 85,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "betrothal-of-viserra-to-theomore-manderly",
+   "name": "Betrothal of Viserra to Theomore Manderly",
+   "type": "event.betrothal",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 86,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-princess-viserra",
+   "name": "Death of Princess Viserra",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 87,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-septa-maegelle",
+   "name": "Death of Septa Maegelle",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 96,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-princess-gael",
+   "name": "Death of Princess Gael",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 99,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-alyssa-targaryen",
+   "name": "Death of Princess Alyssa",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

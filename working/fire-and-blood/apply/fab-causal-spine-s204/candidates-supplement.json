@@ -1,0 +1,25 @@
+{
+ "_meta": {
+  "unit": "fab-causal-spine-s204-supplement",
+  "session": "S204",
+  "run_id": "fab-causal-spine-s204-supplement-2026-07-10",
+  "evidence_kind": "book-fab",
+  "new_node_slugs": [],
+  "note": "S204 supplement: the one missing link found at live-probe — the Shipbreaker Bay fight was causally unlinked from Lucerys's death, dead-ending the Driftmark thread before Blood and Cheese. Orchestrator-verified with text open (L1: single-chapter, undisputed per Munkun/Gyldayn).",
+  "produced_at": "2026-07-10T00:00:00+00:00"
+ },
+ "edges": [
+  {
+   "id": "SUP-E01",
+   "type": "TRIGGERS",
+   "source": "fight-above-shipbreaker-bay",
+   "target": "death-of-lucerys-velaryon",
+   "book": "fab",
+   "chapter": "fab-the-blacks-and-the-greens-16-p02",
+   "line": 245,
+   "quote": "Arrax fell, broken, to be swallowed by the storm-lashed waters of the bay.",
+   "tier": "tier-1",
+   "note": "S204 supplement: the dragon-fight above Shipbreaker Bay immediately kills Arrax and Lucerys (Munkun: 'Lucerys Velaryon died with his dragon' — Gyldayn endorses as undoubtedly correct)."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "_meta": {
+  "unit": "fab-causal-spine-s204-supplement3",
+  "session": "S204",
+  "run_id": "fab-causal-spine-s204-supplement3-2026-07-10",
+  "evidence_kind": "book-fab",
+  "new_node_slugs": [],
+  "note": "S204 supplement 3: thread the succession decree forward — after dropping the weak faction-MOTIVATES edges, viserys-names-rhaenyra-heir had no downstream; the 105 AC designation + lords' oaths are the stated precondition of Rhaenyra's counter-coronation (Beesbury's council argument). Orchestrator-verified with text open (L1).",
+  "produced_at": "2026-07-10T00:00:00+00:00"
+ },
+ "edges": [
+  {
+   "id": "SUP-E04",
+   "type": "ENABLES",
+   "source": "viserys-names-rhaenyra-heir",
+   "target": "coronation-of-rhaenyra",
+   "book": "fab",
+   "chapter": "fab-the-blacks-and-the-greens-16-p01",
+   "line": 75,
+   "quote": "the late king had chosen her as his successor, that he had repeatedly refused to alter the succession despite the pleadings of Queen Alicent and her greens, that hundreds of lords and landed knights had done obeisance to the princess in 105 AC, and sworn solemn oaths to defend her rights.",
+   "tier": "tier-1",
+   "note": "S204 supplement 3: the 105 AC heir-designation and the lords' sworn oaths are the precondition of Rhaenyra's claim and counter-coronation."
+  }
+ ]
+}

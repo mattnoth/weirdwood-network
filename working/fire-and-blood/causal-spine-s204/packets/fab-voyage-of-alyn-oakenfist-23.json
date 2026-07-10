@@ -1,0 +1,136 @@
+{
+ "section": "fab-voyage-of-alyn-oakenfist-23",
+ "units": [
+  "fab-voyage-of-alyn-oakenfist-23"
+ ],
+ "seeds": [
+  {
+   "row": 271,
+   "snippet": "rose up in red rebellion",
+   "kind": "causal-spine",
+   "note": "Dalton's death -> fleet dissolves -> Fair Isle rebellion",
+   "unit": "fab-voyage-of-alyn-oakenfist-23",
+   "line": 97,
+   "slug_candidates": [
+    "harren-the-reds-rebellion",
+    "ambush-at-fair-isle",
+    "sistermens-rebellion",
+    "franklyn-farman-banishes-rhaena-from-fair-isle"
+   ]
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "storm-off-dorne-sinks-two-ships",
+   "name": "Storm off Dorne sinks two ships",
+   "unit": "fab-voyage-of-alyn-oakenfist-23"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "capture-of-prince-viserys",
+   "name": "Capture of Prince Viserys",
+   "type": "event.capture",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 130,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-bambarro-bazanne",
+   "name": "Death of Bambarro Bazanne",
+   "type": "event.death",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 132,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "resignation-of-unwin-peake-as-hand",
+   "name": "Resignation of Unwin Peake as Hand",
+   "type": "event.resignation",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 134,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-laena-velaryon-daughter-of-alyn",
+   "name": "Birth of Laena Velaryon (daughter of Alyn)",
+   "type": "event.birth",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "drazenkos-secret-at-sunspear",
+   "name": "Drazenko's secret at Sunspear",
+   "type": "event.revelation",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "gunthor-slays-alester-wynch",
+   "name": "Gunthor Slays Alester Wynch",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "ransom-pact-for-prince-viserys",
+   "name": "Ransom Pact for Prince Viserys",
+   "type": "event.negotiation",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

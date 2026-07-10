@@ -1,0 +1,42 @@
+{
+  "assignment": "B0506",
+  "verdicts": [
+    {"id": "B-E01", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p01:149; MOTIVATES type correct (Gyldayn explicitly frames bequest as feeding Maegor's motivation, but action is years later and Maegor's free choice)."},
+    {"id": "B-E02", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:81; TRIGGERS type correct (Visenya's fetching within one hour = immediate next beat, no decisional gap)."},
+    {"id": "B-E03", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:89; CAUSES type correct (Maegor's decree is direct real-causation response to Gawen's objection)."},
+    {"id": "B-E04", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:175; MOTIVATES type correct (Aegon's rebellion is free political decision in response to usurpation)."},
+    {"id": "B-E05", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:49; MOTIVATES type correct (public humiliation feeds grievance, but Maegor's later claim is his own choice)."},
+    {"id": "B-E06", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:49; TRIGGERS type correct ('at the feast afterward' = very next beat)."},
+    {"id": "B-E07", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:61; CAUSES type correct (multiple intermediate steps: Murmison performing rite, expulsion, High Septon's denunciation, then Poor Fellows act)."},
+    {"id": "B-E08", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:61; CAUSES type correct (same radicalization wave escalates to attack on king; Kingsguard intervention doesn't negate causation)."},
+    {"id": "B-E09", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p01:237; MOTIVATES type correct (ultimatum drives Maegor's choice to exile, but choice is his own)."},
+    {"id": "B-E10", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:135; CAUSES type correct (28 days recovery between trial and burning; multi-step causal chain, not instant trigger)."},
+    {"id": "B-E11", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:143; MOTIVATES type correct (High Septon's decision to call arms is third party's free choice, not automatic consequence)."},
+    {"id": "B-E12", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p02:201; ENABLES type correct (victory is precondition for burnings but doesn't force timing/occurrence; Visenya's decision completes causation)."},
+    {"id": "B-E13", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:23; ENABLES type correct (Maegor's absence is opportunity for Aegon's seizing; Aegon's decision completes causation)."},
+    {"id": "B-E14", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:25; PART_OF type correct (dragon theft is opening beat of wider rebellion)."},
+    {"id": "B-E15", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:175; ENABLES type correct (battle's dead create pool of available brides, but Maegor's decision to marry is his own)."},
+    {"id": "B-E16", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:93; CAUSES type correct (stillbirth sets off textually explicit chain: suspicion → torture → confessions → arrest/execution)."},
+    {"id": "B-E17", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:101; CAUSES type correct (Alys's death is framed as direct continuation of same purge)."},
+    {"id": "B-E18", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:87; ENABLES type correct (Lucas's position as Hand gives access/opportunity for scheme, but scheme is Lucas & Alys's decision)."},
+    {"id": "B-E19", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:87; MOTIVATES type correct (Ceryse's return drives Alys's fear-based decision to seek heir by illicit means)."},
+    {"id": "B-E20", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:193; TRIGGERS type correct ('in the aftermath of the wedding' = very next beat of same occasion)."},
+    {"id": "B-E21", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:195; MOTIVATES type correct (disinheritance is grievance, but uprising is deliberate political act by Rogar/Jaehaerys)."},
+    {"id": "B-E22", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:209; tier-2 + disputed:true + in_universe_source:gyldayn-synthesis correct. Hedge is real ('even in death,' 'revenge,' 'came to pass' without stated mechanism). CAUSES type correct (no living decision mediates; Tyanna already dead). Supernatural/folkloric framing explicitly uncertain per Gyldayn."},
+    {"id": "B-E23", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:213; MOTIVATES type correct (perception that king is 'accursed' is psychological opening for lords' defection, a political decision)."},
+    {"id": "B-E24", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:219; TRIGGERS type correct (Rhaena's flight is immediate next beat upon hearing news, no other decision intervenes)."},
+    {"id": "B-E25", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:241; tier-2 + disputed:true + in_universe_source:gyldayn-synthesis correct. Hedge is real ('Many to this day believe,' text offers multiple conflicting theories of death mechanism: Iron Throne, Elinor, Kingsguard, suicide, unknown). CAUSES type correct for uprising→death (causal frame is collapse of support), but literal death mechanism explicitly disputed in text per Gyldayn."},
+    {"id": "B-E26", "verdict": "CONFIRM", "reason": "Quote verified at FAB Sons-p03:121; ENABLES type correct (ashes/ruins are physical precondition for Dragonpit construction, but Maegor's decision to build there is his own)."},
+    {"id": "B-E27", "verdict": "CONFIRM", "reason": "Quote verified at FAB Prince-p06:41; MOTIVATES type correct (Rosby's suicide is his free decision made in response to king's death, preserving agency per rubric)."},
+    {"id": "B-E28", "verdict": "CONFIRM", "reason": "Quote verified at FAB Prince-p06:149; ENABLES type correct (Moon's murder 'removed obstacle' per Gyldayn's own word; coronation still requires travel & rite by multiple parties)."},
+    {"id": "B-E29", "verdict": "CONFIRM", "reason": "Quote verified at FAB Prince-p06:137; TRIGGERS type correct (Lorcas's attack follows directly from power vacuum & corpse-dispute created by Moon's murder, next beat)."},
+    {"id": "B-E30", "verdict": "CONFIRM", "reason": "Quote verified at FAB Prince-p06:185; tier-2 + disputed:true + in_universe_source:gyldayn-synthesis correct. Hedge is real ('Though nothing was ever proved,' 'it was widely believed'). ENABLES type correct (coronation creates opportunity with both twins present, one returning to court; switch is Rhaena/Alyssa's alleged decision, not compelled by coronation). Text says 'mayhaps' and frames as speculation despite possibility of identity swap changing history."}
+  ],
+  "new_node_checks": [
+    {"slug": "aenys-bequeaths-blackfyre-to-maegor", "verdict": "OK", "reason": "event.decree type sane; 37 AC era correct; marked as missing anchor node for B-E01 causal chain."},
+    {"slug": "death-of-aenys-i-targaryen", "verdict": "OK", "reason": "event.death type sane; 42 AC era correct; key marquee anchor for Maegor succession cascade."},
+    {"slug": "maegor-claims-the-iron-throne", "verdict": "OK", "reason": "event.coronation type sane; 42 AC era correct; critical hub node for multiple causal chains in proposal."},
+    {"slug": "death-of-maegor-i-targaryen", "verdict": "OK", "reason": "event.death type sane; 48 AC era correct; terminus anchor for Maegor reign arc and Jaehaerys uprising payoff."}
+  ],
+  "summary": "B0506 VERIFICATION COMPLETE. 30/30 edges CONFIRM. 4/4 new_nodes OK. All three tier-2/disputed edges verified: B-E22 (Tyanna's posthumous revenge) correctly marked as uncertain poisoning mechanism vs. coincidence; B-E25 (Maegor's death) correctly marked with four competing theories per text; B-E30 (twin switch) correctly marked as unproven but widely believed speculation. Hedge language present in all disputed rows. Quote anchoring verified in source chapters. Type assignments all appropriate per VERIFY-RULES rubric (MOTIVATES vs CAUSES/TRIGGERS, ENABLES for preconditions with external agency, role/part-of structural edges correct)."
+}

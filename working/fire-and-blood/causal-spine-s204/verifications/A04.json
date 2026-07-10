@@ -1,0 +1,35 @@
+{
+  "assignment": "A04",
+  "verdicts": [
+    {"id": "A-E01", "verdict": "CONFIRM", "reason": "Quote confirms Sistermen took advantage of Conquest chaos to declare independence; ENABLES is correct (opportunity, not forcing cause)."},
+    {"id": "A-E02", "verdict": "CONFIRM", "reason": "Quote explicitly shows Harren's death opens succession; Volmark's declaration follows. MOTIVATES correct (human decision on the vacancy)."},
+    {"id": "A-E03", "verdict": "CONFIRM", "reason": "Context clearly shows chaos prompted Aegon's intervention. Quote 'put an end to the fighting' is implicit causation. Proposer flagged as potential future re-scope if broader iron-islands-chaos node is minted elsewhere; acceptable as-is."},
+    {"id": "A-E04", "verdict": "CONFIRM", "reason": "Quote explicit: pacifying islands frees attention for Dorne. ENABLES correct."},
+    {"id": "A-E05", "verdict": "CONFIRM", "reason": "Same quote as A-E04, applies to Sistermen's submission as joint precondition."},
+    {"id": "A-E06", "verdict": "CONFIRM", "reason": "Quote confirms Rhaenys burning Planky Town explicitly as war's first blood."},
+    {"id": "A-E07", "verdict": "CONFIRM", "reason": "Quote explicit: Tyrell's march in response to Rosby's murder at Sunspear is his announced intention."},
+    {"id": "A-E08", "verdict": "CONFIRM", "reason": "Quote contains explicit 'In retaliation' connecting maiming to Aegon's dragon reprisal; MOTIVATES correct (royal decision)."},
+    {"id": "A-E09", "verdict": "CONFIRM", "reason": "Structural edge; maiming is clearly a sub-beat of the war."},
+    {"id": "A-E10", "verdict": "CONFIRM", "reason": "Structural edge; Aegon's Wyl reprisal is a marquee sub-event of the war."},
+    {"id": "A-E11", "verdict": "ADJUST", "reason": "Target should be a resignation event ('resignation-of-orys-baratheon') or edge should clarify that MOTIVATES points to a character's decision/disposition. Quote explicitly describes Orys's decision to resign; the causal link is to an ACTION, not merely a character node."},
+    {"id": "A-E12", "verdict": "ADJUST", "reason": "Quote-source mismatch: edge source is 'death-of-garmon-hightower' (line 111) but quote is at line 115 and describes 'Old Lord Manfred Hightower died soon after.' The text shows Garmon dies (111), then Manfred dies (115), then Oldtown cries for vengeance. Use quote from line 111 (Garmon's death), or change source to 'death-of-manfred-hightower' since it is Manfred's death that immediately precedes the cry for vengeance."},
+    {"id": "A-E13", "verdict": "ADJUST", "reason": "Some sources dispute whether Rhaenys was crushed in the fall or survived and was tortured to death. Text explicitly states dispute at line 123: 'Whether Rhaenys Targaryen outlived her dragon remains a matter of dispute.' Tier should be tier-2, disputed:true to reflect uncertain mechanism of death, even though the immediate trigger (Meraxes's fall) is clear."},
+    {"id": "A-E14", "verdict": "CONFIRM", "reason": "Structural edge; Meraxes's fall is the war's single greatest Targaryen loss."},
+    {"id": "A-E15", "verdict": "CONFIRM", "reason": "Structural edge; Rhaenys's death is explicitly dated to war timeline."},
+    {"id": "A-E16", "verdict": "CONFIRM", "reason": "Quote explicit: Dragon's Wroth campaign is explicitly named from Rhaenys's death and the subsequent 'next two years.' MOTIVATES correct (grief-driven royal decision)."},
+    {"id": "A-E17", "verdict": "CONFIRM", "reason": "Structural edge; Dragon's Wroth is explicitly the reprisal phase of the war."},
+    {"id": "A-E18", "verdict": "ADJUST", "reason": "Quote at line 129 describes the attacks during Dragon's Wroth, but the Kingsguard founding is narrated at lines 279-284. Quote should be from the governance section where Visenya explicitly links founding to need for protection after the attacks. Current quote is about the attacks, not the founding decision."},
+    {"id": "A-E19", "verdict": "CONFIRM", "reason": "Quote explicit: wedding raid explicitly framed as 'the most infamous act of that bloody age' — clearly positioned within Dragon's Wroth period."},
+    {"id": "A-E20", "verdict": "ADJUST", "reason": "Quote at line 133 describes Dorne's devastation (tier-1). The causal link to peace relies on Clegg's analysis at line 153-154 that 'Dorne no longer had the strength to fight,' which is tier-2 (attributed analysis). Should be tier-2 with in_universe_source: 'Grand Maester Clegg' to properly credit the attributed reasoning."},
+    {"id": "A-E21", "verdict": "CONFIRM", "reason": "Quote explicit: letter changed Aegon's mind overnight from refusal to acceptance. Text carefully preserves mystery of letter's contents without overclaiming. MOTIVATES correct (sovereign decision). Tier-1 accurate — Aegon's response is plain narration even though contents are disputed."}
+  ],
+  "new_node_checks": [
+    {"slug": "maiming-of-orys-baratheon", "verdict": "OK", "reason": "7 AC dating correct; event.incident type appropriate; genuinely absent from graph; identity captures ransoming + maiming as discrete event."},
+    {"slug": "aegons-reprisal-on-the-wyls", "verdict": "OK", "reason": "7 AC dating correct; event.battle type appropriate; genuinely absent; describes Aegon's specific reprisal on Wyl mountain fastnesses."},
+    {"slug": "death-of-meraxes", "verdict": "OK", "reason": "10 AC dating correct; event.death type appropriate; genuinely absent; identity accurately describes scorpion bolt, dragon fall, tower destruction."},
+    {"slug": "death-of-rhaenys-targaryen", "verdict": "OK", "reason": "10 AC dating correct; event.death type appropriate; genuinely absent; identity correctly flags disputed accounts of exact mechanism (fall vs. torture) without overclaiming."},
+    {"slug": "the-dragons-wroth", "verdict": "OK", "reason": "11 AC dating marked as approximate start per flag (text only says 'next two years' after 10 AC), which is accurate and transparent; event.battle type appropriate; genuinely absent; identity correctly frames as two-year reprisal campaign with both military and assassination components."},
+    {"slug": "nymors-letter-to-aegon", "verdict": "OK", "reason": "13 AC dating correct; event.incident type appropriate; genuinely absent; identity captures Deria's delivery + sealed letter + mysterious contents without overclaiming."}
+  ],
+  "summary": "15 CONFIRM / 5 ADJUST / 0 REJECT. All 6 new nodes are sound. Adjustments: A-E11 (target framing), A-E12 (quote-source mismatch), A-E13 (tier/disputed flag for death mechanism), A-E18 (quote from wrong section), A-E20 (tier-2 + attribution for Clegg analysis). The three adversarial focus areas verified cleanly: Nymor's-letter edge does not overclaim mystery; Dragon's Wroth chain is fully narrated at each hop; all 6 new nodes absent + sanely dated."
+}

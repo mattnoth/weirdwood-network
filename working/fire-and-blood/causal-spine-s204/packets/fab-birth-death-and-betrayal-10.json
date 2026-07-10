@@ -1,0 +1,136 @@
+{
+ "section": "fab-birth-death-and-betrayal-10",
+ "units": [
+  "fab-birth-death-and-betrayal-10"
+ ],
+ "seeds": [],
+ "stubs": [
+  {
+   "slug": "birth-of-corlys-velaryon",
+   "name": "Birth of Corlys Velaryon",
+   "unit": "fab-birth-death-and-betrayal-10"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "attack-on-queen-alysanne-at-jonquils-pool",
+   "name": "Attack on Queen Alysanne at Jonquil's Pool",
+   "type": "event.assassination_attempt",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 51,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-rosamund-ball",
+   "name": "Death of Rosamund Ball",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 51,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-boremund-baratheon",
+   "name": "Birth of Boremund Baratheon",
+   "type": "event.birth",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 52,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "jaehaeryss-progress-through-the-vale-of-arryn",
+   "name": "Jaehaerys's progress through the Vale of Arryn",
+   "type": "event.progress",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 52,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "promulgation-of-the-widows-law",
+   "name": "Promulgation of the Widow's Law",
+   "type": "event.decree",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 52,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-daenerys-targaryen-daughter-of-jaehaerys-i",
+   "name": "Birth of Princess Daenerys",
+   "type": "event.birth",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 53,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "theft-of-three-dragon-eggs",
+   "name": "Theft of three dragon eggs",
+   "type": "event.betrayal",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 54,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "imposition-of-the-gate-fee",
+   "name": "Imposition of the gate fee",
+   "type": "event.decree",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

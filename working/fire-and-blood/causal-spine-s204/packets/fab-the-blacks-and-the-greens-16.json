@@ -1,0 +1,251 @@
+{
+ "section": "fab-the-blacks-and-the-greens-16",
+ "units": [
+  "fab-the-blacks-and-the-greens-16-p01",
+  "fab-the-blacks-and-the-greens-16-p02"
+ ],
+ "seeds": [
+  {
+   "row": 106,
+   "snippet": "That is how we shall win this",
+   "kind": "causal-spine",
+   "note": "claim wild-dragon riders leads to nine or twelve dragons vs Aegon's four",
+   "unit": "fab-the-blacks-and-the-greens-16-p01",
+   "line": 219,
+   "slug_candidates": [
+    "aegons-landing",
+    "aegons-coronations",
+    "aegons-conquest",
+    "tourney-for-king-viserys-is-accession",
+    "return-of-aegon-ii-to-kings-landing",
+    "aegon-the-uncrowned-seizes-kings-landing"
+   ]
+  },
+  {
+   "row": 107,
+   "snippet": "the tidings from King's Landing had driven the princess into a black fury",
+   "kind": "causal-spine",
+   "note": "news of Viserys's death and Aegon's crowning leads to Rhaenyra's early labor and stillbirth",
+   "unit": "fab-the-blacks-and-the-greens-16-p01",
+   "line": 185,
+   "slug_candidates": [
+    "aegons-landing",
+    "return-of-aegon-ii-to-kings-landing",
+    "aegon-the-uncrowned-seizes-kings-landing",
+    "death-of-queen-rhaenyra",
+    "death-of-princess-viserra",
+    "death-of-princess-gael",
+    "death-of-princess-aerea",
+    "death-of-aegon-ii"
+   ]
+  },
+  {
+   "row": 110,
+   "snippet": "Here. Harrenhal",
+   "kind": "causal-spine",
+   "note": "need of a mainland toehold for river friends leads to Daemon's assault on Harrenhal",
+   "unit": "fab-the-blacks-and-the-greens-16-p01",
+   "line": 253,
+   "slug_candidates": [
+    "daemon-claims-harrenhal",
+    "betrothal-of-rhaenyras-sons-to-daemons-daughters"
+   ]
+  },
+  {
+   "row": 113,
+   "snippet": "An eye for an eye, a son for a son",
+   "kind": "causal-spine",
+   "note": "Luke's death → Daemon's raven → Blood and Cheese murder",
+   "unit": "fab-the-blacks-and-the-greens-16-p02",
+   "line": 255,
+   "slug_candidates": [
+    "betrothal-of-rhaenyras-sons-to-daemons-daughters"
+   ]
+  },
+  {
+   "row": 118,
+   "snippet": "Was it one of your eyes he took, or one of your balls?",
+   "kind": "causal-spine",
+   "note": "Maris's taunt → Aemond's pursuit of Lucerys",
+   "unit": "fab-the-blacks-and-the-greens-16-p02",
+   "line": 233,
+   "slug_candidates": [
+    "aemonds-burning-of-the-riverlands"
+   ]
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "jacaerys-wins-the-vale",
+   "name": "Jacaerys wins the Vale",
+   "unit": "fab-the-blacks-and-the-greens-16-p02"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "blood-oath-of-the-green-conspirators",
+   "name": "Blood oath of the green conspirators",
+   "type": "event.other",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 129,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-lucerys-velaryon",
+   "name": "Death of Lucerys Velaryon",
+   "type": "event.death",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 129,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "defection-of-ser-steffon-darklyn",
+   "name": "Defection of Ser Steffon Darklyn",
+   "type": "event.betrayal",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 129,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "fall-of-harrenhal",
+   "name": "Fall of Harrenhal",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 299,
+   "causal_in": 2,
+   "causal_out": 3,
+   "struct": 5,
+   "role": 2,
+   "other": 0,
+   "causally_dark": false
+  },
+  {
+   "slug": "coronation-of-rhaenyra",
+   "name": "Coronation of Rhaenyra",
+   "type": "event.coronation",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "green-council-peace-embassy-to-dragonstone",
+   "name": "Green Council Peace Embassy to Dragonstone",
+   "type": "event.negotiation",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "hanging-of-the-ratcatchers",
+   "name": "Hanging of the ratcatchers",
+   "type": "event.execution",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "pact-of-ice-and-fire",
+   "name": "Pact of Ice and Fire",
+   "type": "event.war",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "riverlords-rise-for-rhaenyra",
+   "name": "Riverlords rise for Rhaenyra",
+   "type": "event.uprising",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "stillbirth-of-visenya-targaryen-daughter-of-rhaenyra",
+   "name": "Stillbirth and Death of Visenya Targaryen",
+   "type": "event.birth",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "stripping-of-orwyles-chain",
+   "name": "Stripping of Orwyle's chain",
+   "type": "event.deposition",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

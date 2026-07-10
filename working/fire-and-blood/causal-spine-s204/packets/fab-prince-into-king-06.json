@@ -1,0 +1,132 @@
+{
+ "section": "fab-prince-into-king-06",
+ "units": [
+  "fab-prince-into-king-06"
+ ],
+ "seeds": [
+  {
+   "row": 11,
+   "snippet": "Moon's murder removed the last major obstacle",
+   "kind": "causal-spine",
+   "note": "Moon's assassination → host disintegrates → way to Oldtown clear → Jaehaerys crowned",
+   "unit": "fab-prince-into-king-06",
+   "line": 149,
+   "slug_candidates": [
+    "assassination-of-septon-moon",
+    "lorcas-the-learneds-attack-on-oldtown",
+    "saeras-flight-from-the-oldtown-motherhouse",
+    "orryn-baratheons-ploy-at-the-oldtown-motherhouse",
+    "jaehaeryss-progress-through-the-vale-of-arryn",
+    "jaehaerys-returns-to-kings-landing-on-vermithor"
+   ]
+  }
+ ],
+ "stubs": [],
+ "roster": [
+  {
+   "slug": "faith-militant-uprising",
+   "name": "Faith Militant uprising",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 41,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 17,
+   "role": 0,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "battle-beneath-the-gods-eye",
+   "name": "Battle Beneath the Gods Eye",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 43,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 5,
+   "role": 5,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "assassination-of-septon-moon",
+   "name": "Assassination of Septon Moon",
+   "type": "event.assassination",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 48,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 1,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "coronation-of-jaehaerys",
+   "name": "Coronation of Jaehaerys",
+   "type": "event.coronation",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 48,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "lorcas-the-learneds-attack-on-oldtown",
+   "name": "Lorcas the Learned's attack on Oldtown",
+   "type": "event.battle",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 48,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 1,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "suicide-of-lord-rosby",
+   "name": "Suicide of Lord Rosby",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 48,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "switching-of-the-twins",
+   "name": "Switching of the twins",
+   "type": "event.deception",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 48,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

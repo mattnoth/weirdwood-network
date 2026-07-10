@@ -1,0 +1,41 @@
+{
+  "assignment": "G17",
+  "verdicts": [
+    {"id": "G17-E01", "verdict": "CONFIRM", "reason": "TRIGGERS: Criston Cole's appointment as Hand immediately precedes the executions (line 75). Next beat, no decisional mediation."},
+    {"id": "G17-E02", "verdict": "CONFIRM", "reason": "ENABLES: Cole devises the assassination plan (line 79 quote exact), but chance brings the twins face-to-face; the duel is not forced, only made possible by Cole's strategy."},
+    {"id": "G17-E03", "verdict": "CONFIRM", "reason": "MOTIVATES: Aegon's Rook's Rest injuries (lines 145-152) motivate Cole's decision to install Aemond as regent (line 153 quote exact). Target is the decision-event."},
+    {"id": "G17-E04", "verdict": "CONFIRM", "reason": "MOTIVATES: Dragon-loss at Rook's Rest (lines 189-194 quote exact) drives Jace's decision to call dragonseeds. Real causation of the decision, not mechanical force."},
+    {"id": "G17-E05", "verdict": "CONFIRM", "reason": "SUB_BEAT_OF: Nettles' taming (line 249 quote exact) is one strand within the Sowing event-hub, not an independent causal chain."},
+    {"id": "G17-E06", "verdict": "CONFIRM", "reason": "ENABLES: The four Sowing-produced dragonriders (line 33 p02 quote exact) make the Gullet victory possible but don't force it; engagement still required."},
+    {"id": "G17-E07", "verdict": "CONFIRM", "reason": "ENABLES: Queen's dragons (line 131 p02 quote exact) precondition the fall but actual driver is City Watch's defection (line 125). Not mechanical causation."},
+    {"id": "G17-E08", "verdict": "CONFIRM", "reason": "TRIGGERS: Addam's Seasmoke success (line 235 quote exact) immediately prompts Corlys's legitimization petition. 'Not long after' signals immediate spark."},
+    {"id": "G17-E09", "verdict": "CONFIRM", "reason": "TRIGGERS: Jace's death (line 41 p02 quote exact) is immediate next beat after Vermax crash, within same continuous action."},
+    {"id": "G17-E10", "verdict": "CONFIRM", "reason": "VICTIM_IN: Spicetown (line 45 p02 quote exact) is a casualty location of the Gullet battle. Role edge properly wired."},
+    {"id": "G17-E11", "verdict": "CONFIRM", "reason": "VICTIM_IN: High Tide (line 45-46 p02 quote exact) is a casualty location of the Gullet. Role edge correctly placed."},
+    {"id": "G17-E12", "verdict": "ADJUST", "reason": "Type should be ENABLES not MOTIVATES. The Watch's love for Daemon (line 125 p02 quote exact) enables their defection but does not directly motivate the fall-event itself. They are the third party whose free decision produces the fall; their disposition is motivation for their own treason, which ENABLES the city's collapse. The Watch is the actor, not the motivation source per MOTIVATES rubric."},
+    {"id": "G17-E13", "verdict": "CONFIRM", "reason": "TRIGGERS: Gwayne's death (line 127-129 p02) and gate-opening order in same sentence (line 129 quote exact). Immediate unbroken action."},
+    {"id": "G17-E14", "verdict": "CONFIRM", "reason": "TRIGGERS: Otto's execution (line 243 p02 quote exact) follows directly from fall as part of immediate account-settling. Same continuous scene."},
+    {"id": "G17-E15", "verdict": "CONFIRM", "reason": "TRIGGERS: News of fall enrages Aemond (line 173 p02 quote exact); 'First to suffer for it was Ser Simon Strong' (next sentence). Fury immediately produces Strongs' destruction."},
+    {"id": "G17-E16", "verdict": "CONFIRM", "reason": "TRIGGERS: Willow's seizure of Maelor (line 77 p03 quote exact) is immediate next beat after Thorne's death. Same continuous bridge scene."},
+    {"id": "G17-E17", "verdict": "CONFIRM", "reason": "KILLS: Disputed per Mushroom (line 81 p03 quote exact). Tier-2 + disputed + in_universe_source correctly flagged. Record confirmed for archive even though edge is dropped as duplicate."},
+    {"id": "G17-E18", "verdict": "CONFIRM", "reason": "MOTIVATES: Accusation drives Rhaenyra's arrest order (line 107 p04 quote exact: command to Luthor). Addam's escape is cascade from accusation → suspicion → arrest. Accusation is ultimate motivation for the escape decision."},
+    {"id": "G17-E19", "verdict": "CONFIRM", "reason": "TRIGGERS: Addam's escape (Seasmoke taking flight, line 113 p04) immediately redirects Luthor's anger to Corlys (line 113 quote exact). Same moment, one continuous action."},
+    {"id": "G17-E20", "verdict": "CONFIRM", "reason": "ENABLES: Kill order (line 109 p04 quote exact) creates threat that enables escape but does not force it; Norren's choice to warn them is what produces departure."},
+    {"id": "G17-E21", "verdict": "CONFIRM", "reason": "MOTIVATES: Norren's warning (line 147 p04 quote exact) drives Daemon and Nettles' decision to flee at dawn. Free choice against vows, not mechanical trigger."},
+    {"id": "G17-E22", "verdict": "CONFIRM", "reason": "ENABLES: Aemond's freedom from castle duty (line 109 p03 quote exact) preconditions the eventual confrontation at Harrenhal but does not force it; Aemond's choice to engage remains free."},
+    {"id": "G17-E23", "verdict": "CONFIRM", "reason": "ENABLES: Nettles' departure (lines 205-207 p04) leaves Daemon solitary at Harrenhal; Aemond himself confirms this as decisive (line 235 p04 quote exact: 'You were a fool to come alone'). Precondition, not forced causation."},
+    {"id": "G17-E24", "verdict": "CONFIRM", "reason": "MOTIVATES: Daemon's vigil at Harrenhal (lines 215-240 p04) is deliberate bait. Daemon's own words (line 235 p04 quote exact: 'Were I not alone, you would not have come') confirm it motivates Aemond's decision to engage, not mechanical forcing."}
+  ],
+  "new_node_checks": [
+    {"slug": "the-sowing", "verdict": "OK", "reason": "Era/year correct (129 AC per line 251-252 p01). Event documented in lines 205-250 p01. Identity accurate: Jace's call, four dragonriders named correctly, Mushroom/Munkun/Eustace sourced. Genuinely missing from prior graph layers."},
+    {"slug": "death-of-maelor-targaryen", "verdict": "OK", "reason": "Year 130 AC correct. Type event.death appropriate. Identity matches text (lines 60-83 p03): Aegon II's younger son, fleeing with Thorne, seized at Bitterbridge bridge, three conflicting death accounts per chroniclers. Genuinely missing."},
+    {"slug": "mysarias-accusation", "verdict": "OK", "reason": "Year 130 AC correct. Type event.incident appropriate. Identity matches lines 102-106 p04: Rhaenyra summons Mysaria, accusation against Nettles/Daemon, resulting arrest/kill orders. Genuinely missing node for causal wiring."}
+  ],
+  "summary": {
+    "total_edges": 24,
+    "confirmed": 23,
+    "adjusted": 1,
+    "rejected": 0,
+    "non_confirms": ["G17-E12 (type rung)"]
+  }
+}

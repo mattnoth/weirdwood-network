@@ -1,0 +1,193 @@
+{
+ "section": "fab-the-hooded-hand-21",
+ "units": [
+  "fab-the-hooded-hand-21"
+ ],
+ "seeds": [
+  {
+   "row": 127,
+   "snippet": "What happened next remains a matter of some dispute",
+   "kind": "causal-spine",
+   "note": "Regis Groves's refusal to kneel -> his death by contested means at Harrenhal",
+   "unit": "fab-the-hooded-hand-21",
+   "line": 285,
+   "slug_candidates": []
+  },
+  {
+   "row": 134,
+   "snippet": "watched his uncle feed his mother to a dragon",
+   "kind": "causal-spine",
+   "note": "Aegon III's trauma -> his rage at any mention of dragons",
+   "unit": "fab-the-hooded-hand-21",
+   "line": 131,
+   "slug_candidates": [
+    "regency-of-aegon-iii",
+    "wedding-of-aegon-iii-and-jaehaera",
+    "aegons-landing",
+    "aegons-coronations",
+    "aegons-conquest",
+    "return-of-aegon-ii-to-kings-landing",
+    "aegon-the-uncrowned-seizes-kings-landing"
+   ]
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "death-of-corlys-velaryon",
+   "name": "Death of Corlys Velaryon",
+   "unit": "fab-the-hooded-hand-21"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "orwyles-desertion",
+   "name": "Orwyle's desertion",
+   "type": "event.escape",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 131,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "regency-of-aegon-iii",
+   "name": "Regency of Aegon III",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 131,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 2,
+   "role": 0,
+   "other": 8,
+   "causally_dark": true
+  },
+  {
+   "slug": "sea-burial-of-corlys-velaryon",
+   "name": "Sea burial of Corlys Velaryon",
+   "type": "event.funeral",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 132,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-roland-westerling",
+   "name": "Death of Roland Westerling",
+   "type": "event.death",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 133,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "archon-of-tyrosh-war-of-the-ninepenny-kings",
+   "name": "Archon of Tyrosh (War of the Ninepenny Kings)",
+   "type": "event.war",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 0,
+   "other": 4,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-alicent-hightower",
+   "name": "Death of Alicent Hightower",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "murder-of-sharako-lohar",
+   "name": "Murder of Sharako Lohar",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "velaryon-succession-attack-on-alyn",
+   "name": "Velaryon Succession Attack on Alyn",
+   "type": "event.assassination_attempt",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "wedding-of-aegon-iii-and-jaehaera",
+   "name": "Wedding of Aegon III and Jaehaera",
+   "type": "event.wedding",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "widow-fairs",
+   "name": "Widow Fairs",
+   "type": "event.ceremony",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

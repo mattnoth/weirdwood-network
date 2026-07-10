@@ -1,0 +1,102 @@
+{
+  "assignment": "F1516",
+  "verdicts": [
+    {"id": "F1516-E01", "verdict": "CONFIRM", "reason": "TRIGGERS is correct. Text: 'Once his mourning for his wife and son had run its course, the king moved swiftly to resolve the longsimmering issue of the succession.' No intervening decisional beat between death and naming."},
+
+    {"id": "F1516-E02", "verdict": "CONFIRM", "reason": "MOTIVATES to faction is grounded. The naming of Rhaenyra as heir directly motivates hundreds of lords to swear oaths, creating the partisan following that becomes the blacks. The oath-swearing quote shows the causal link: naming → oath-taking → faction formation."},
+
+    {"id": "F1516-E03", "verdict": "REJECT", "reason": "CRITICAL: Quote does NOT ground the causal claim. The quote 'Note was taken...it became the custom to refer to greens and blacks' explains the NAMING CONVENTION at the 111 AC tourney, not how Aegon II's birth motivated the greens faction. Additionally, Aegon II was born in 107 AC (text line 83), years before the tourney, and Alicent's 'queen's party' existed before his birth. The chronology and causation are both unsound. The source node 'birth-of-aegon-ii-targaryen' is also MISSING from the new_nodes list—this edge references a node that is not being created in this proposal."},
+
+    {"id": "F1516-E04", "verdict": "CONFIRM", "reason": "ENABLES is correct. Text: 'The next occurred at High Tide after Ser Laenor's funeral, when king and court made the journey to Driftmark...both Jace and Luke had come.' The funeral gathering is the precondition; the brawl is a free choice by Aemond."},
+
+    {"id": "F1516-E05", "verdict": "CONFIRM", "reason": "MOTIVATES is correct. Aemond invokes the Driftmark eye as his stated grievance: 'Hold, Strong. First pay the debt you owe me.' The old wound is his disposition/motive, not a forced mechanical cause."},
+
+    {"id": "F1516-E06", "verdict": "CONFIRM", "reason": "MOTIVATES is correct. Maris's taunt 'Was it one of your eyes he took, or one of your balls?' directly provokes Aemond's rage and his decision to pursue Luke. Text: 'Aemond Targaryen's mouth twisted in rage, and he turned once more to Lord Borros, asking for his leave.' The jeer is the proximate provocation."},
+
+    {"id": "F1516-E07", "verdict": "CONFIRM", "reason": "TRIGGERS is correct. The servant's discovery of Viserys flows straight into Alicent's concealment orders with no intervening decisional gap. Text frames the report-to-Alicent-alone as immediately setting the concealment in motion."},
+
+    {"id": "F1516-E08", "verdict": "CONFIRM", "reason": "SUB_BEAT_OF is correct. The blood oath is a specific moment within the all-night green council session that conceals Viserys's death and plans the succession. It is part of, not separate from, that hub event."},
+
+    {"id": "F1516-E09", "verdict": "ADJUST", "reason": "Type should be ENABLES, not CAUSES. While the council plans and prepares the coronation, Aegon's acceptance is mediated by Criston Cole's persuasion. Text: 'My sister is the heir, not me'—then Cole threatens him, and 'only this persuaded Aegon to accept the crown.' The council's planning enables the coronation, but a human decision (Aegon's acceptance under duress) mediates, violating the CAUSES rubric. AGENCY_COLLAPSE: suggest ENABLES instead."},
+
+    {"id": "F1516-E10", "verdict": "CONFIRM", "reason": "TRIGGERS is correct. Text: 'The child had not been due for another turn of the moon, but the tidings from King's Landing had driven the princess into a black fury, and her rage seemed to bring on the birth.' Immediate physiological effect, no decisional step."},
+
+    {"id": "F1516-E11", "verdict": "CONFIRM", "reason": "MOTIVATES is correct. Rhaenyra's vow over her dead daughter is her stated motive: 'She was my only daughter, and they killed her...and they shall answer for it.' Her grief and fury drive her decision to crown herself."},
+
+    {"id": "F1516-E12", "verdict": "ADJUST", "reason": "The quote is too weak. 'And so the Dance began, as the princess called a council of her own' is a narrative hinge, not a grounding of the causal link. The relation is real (Aegon's coronation + Rhaenyra's council decide to answer with a counter-coronation), but the quote should explicitly show Rhaenyra's decision in response to Aegon, not just mark the start of the Dance. Better quote would be from the council's deliberations showing they decided to crown her to answer Aegon."},
+
+    {"id": "F1516-E13", "verdict": "CONFIRM", "reason": "ENABLES is correct. Darklyn's defection delivers the stolen crown of Jaehaerys, which makes the specific ceremony possible (using an ancestral crown). But the council had already resolved to crown Rhaenyra, so the crown enables the form of the coronation, not the decision itself."},
+
+    {"id": "F1516-E14", "verdict": "CONFIRM", "reason": "MOTIVATES is correct. At the same black council that crowns Rhaenyra, Daemon lays out his strategic reasoning: 'We need a place where they can gather...Harrenhal.' The strategic need (to consolidate riverland support post-coronation) is his stated motive for the assault."},
+
+    {"id": "F1516-E15", "verdict": "CONFIRM", "reason": "ENABLES is correct. Rhaenys's dragonseed strategy is laid out at the coronation council: 'Find riders to master Silverwing, Vermithor, and Seasmoke.' This strategy enables the later search for dragon-riders, but Nettles's actual taming of Sheepstealer is her own free act."},
+
+    {"id": "F1516-E16", "verdict": "CONFIRM", "reason": "ENABLES is correct. The council's decision to send Jacaerys as envoy is the precondition for his negotiation at the Eyrie. But Jeyne Arryn's agreement is her own choice based on her strategic assessment."},
+
+    {"id": "F1516-E17", "verdict": "CONFIRM", "reason": "CAUSES is correct. Text explicitly states: 'the captured stronghold plus the call to arms produced the mass rising.' The intermediate step is Daemon's call from Harrenhal, which organizes the spontaneous rising of riverlords. Real causation through that intermediate step, not a third party's independent choice."},
+
+    {"id": "F1516-E18", "verdict": "CONFIRM", "reason": "MOTIVATES to event is correct. Luke's death is the motivation for Daemon's vow 'An eye for an eye, a son for a son.' The event-target form (murder-of-prince-jaehaerys) is appropriate because there is a specific downstream decision-event (Daemon ordering the murder) chosen in response to Luke's death."},
+
+    {"id": "F1516-E19", "verdict": "CONFIRM", "reason": "AGENT_IN is correct. Blood 'slew Prince Jaehaerys, striking off the boy's head with a single blow.' He is the agent who strikes the killing blow."},
+
+    {"id": "F1516-E20", "verdict": "CONFIRM", "reason": "AGENT_IN is correct. Cheese 'appeared to snatch up Maelor' and forces Helaena's choice by threatening to rape her daughter if she doesn't pick. He is a co-agent in the perpetration alongside Blood."},
+
+    {"id": "F1516-E21", "verdict": "CONFIRM", "reason": "VICTIM_IN is correct. Jaehaerys is 'slew Prince Jaehaerys, striking off the boy's head with a single blow.' He is the victim."},
+
+    {"id": "F1516-E22", "verdict": "CONFIRM", "reason": "WITNESS_IN is correct. Helaena is present throughout ('Queen Helaena kept her calm, it is said'), forced to choose which child dies, and witnesses the murder ('The queen began to scream'). She does not act against the killers—the correct role for downstream-effect narrative."},
+
+    {"id": "F1516-E23", "verdict": "CONFIRM", "reason": "MOTIVATES is correct. 'In his grief and fury, King Aegon II commanded that all the city's ratcatchers be taken out and hanged.' Aegon's emotional reaction to the murder is his stated motive for the hanging order—an explicit free decision."},
+
+    {"id": "F1516-E24", "verdict": "CONFIRM", "reason": "PART_OF is correct. Text: 'And with his death, the war of ravens and envoys and marriage pacts came to an end, and the war [of fire and blood began].' Luke's death is explicitly named as the hinge/phase-change within the larger Dance conflict."},
+
+    {"id": "F1516-E25", "verdict": "ADJUST", "reason": "The quote 'What happened next was war' is too generic and doesn't explicitly ground the causal link. The relation is sound (Aegon's coronation is a pivotal opening act of the Dance), but the quote should show the specific rejection of peace terms or defiance that led to war. Better quote would be 'Rhaenyra's refusal to accept his rule enraged him...What happens next is on her own head.' Current quote is merely narrative framing, not causal grounding."},
+
+    {"id": "F1516-E26", "verdict": "ADJUST", "reason": "Same issue as E25. The quote 'What happened next was war' is generic narrative framing. The relation is sound (Rhaenyra's counter-coronation is the other opening act of the Dance), but the quote should explicitly show how her coronation prompted the war declaration. Should be more specific about the causal sequence."},
+
+    {"id": "F1516-E27", "verdict": "CONFIRM", "reason": "PART_OF is correct. The Dance itself is described as 'a war marked by stealth, murder, and betrayal...a war fought in shadows and stairwells, council chambers and castle yards with knives and lies.' The Blood and Cheese assassination is exactly this kind of component atrocity within that characterization."},
+
+    {"id": "F1516-E28", "verdict": "CONFIRM", "reason": "ENABLES is correct. Jace's envoy mission continues from the Eyrie (where he wins the Vale) through White Harbor to Winterfell, where Cregan Stark is 'Finally Vermax carried Jacaerys...to Winterfell.' The same mission that won the Vale is the vehicle for reaching Cregan, but Cregan's agreement to the Pact is his own choice."}
+  ],
+
+  "new_node_checks": [
+    {"slug": "viserys-names-rhaenyra-heir", "verdict": "OK", "reason": "Era=targaryen-rule, ac_year=105, type=event.investiture all correct. Identity captures the moment of the naming and oath-swearing. Grounded in primary text."},
+
+    {"slug": "aemond-loses-his-eye-at-driftmark", "verdict": "PROBLEM", "reason": "Era is marked 'dance-of-dragons' but ac_year is 120 AC, which is pre-Dance proper (129-131 AC). Either the era is wrong (should be 'targaryen-rule' or similar), or the era label is being used as an umbrella for the broader conflict period. Type, year, identity are otherwise correct. Requires clarification of era definitions in architecture.md."},
+
+    {"slug": "death-of-viserys-i", "verdict": "OK", "reason": "Era=dance-of-dragons, ac_year=129, type=event.death all correct. 129 AC is the opening of the Dance. Identity captures the death correctly."},
+
+    {"slug": "green-council-conceals-death-of-viserys", "verdict": "OK", "reason": "Era=dance-of-dragons, ac_year=129, type=event.conspiracy all correct. Distinguishes this conspiratorial council session as a separate event hub from the death itself. Identity is accurate."},
+
+    {"slug": "coronation-of-aegon-ii", "verdict": "OK", "reason": "Era=dance-of-dragons, ac_year=129, type=event.coronation all correct. Identity captures the coronation in the Dragonpit on the tenth day of the third moon. Consistent with primary text."},
+
+    {"slug": "murder-of-prince-jaehaerys", "verdict": "OK", "reason": "Era=dance-of-dragons, ac_year=130, type=event.assassination all correct. Identity captures the Blood and Cheese assassination. Chronology and type are sound."}
+  ],
+
+  "critical_issues": [
+    {
+      "issue": "MISSING NODE REFERENCE in E03",
+      "details": "Edge F1516-E03 sources 'birth-of-aegon-ii-targaryen', but this node does NOT appear in the new_nodes list. Either (1) the node is supposed to exist in the graph from a prior pass (verify in graph/nodes/events/), or (2) the node was omitted from new_nodes and should have been included. If this node exists, its ac_year must be verified: Aegon II was born in 107 AC (Fire & Blood p02 line 83), NOT 122 AC as might appear in proposal text."
+    }
+  ],
+
+  "summary": {
+    "total_edges": 28,
+    "confirm": 22,
+    "adjust": 4,
+    "reject": 1,
+    "adjust_ids": ["F1516-E09", "F1516-E12", "F1516-E25", "F1516-E26"],
+    "reject_ids": ["F1516-E03"],
+    "new_nodes_ok": 5,
+    "new_nodes_problem": 1
+  },
+
+  "notes": [
+    "ADVERSARIAL FOCUS (F1516-E02): The edge 'viserys-names-rhaenyra-heir MOTIVATES blacks' correctly shows that the naming motivates lords to swear oaths, creating the partisan faction. No issue; grounding is present.",
+
+    "ADVERSARIAL FOCUS (F1516-E03): REJECT grounded. The quote about the 111 AC tourney naming convention does not support 'birth of Aegon II motivated the greens.' The chronology is also problematic—Aegon II's birth (107 AC) preceded the greens faction by years, and Alicent's supporters existed before his birth. This edge confuses the origin of the faction name with the origin of the faction itself.",
+
+    "F1516-E09 agency note: Aegon's initial refusal ('My sister is the heir') and Criston's persuasion (threats about bastards) show decision-mediation. ENABLES is more honest than CAUSES.",
+
+    "Weak-quote pattern (E25, E26): Both use the same generic 'What happened next was war' quote. These edges need stronger textual grounding for their causal claims, even though the relations themselves are sound."
+  ]
+}

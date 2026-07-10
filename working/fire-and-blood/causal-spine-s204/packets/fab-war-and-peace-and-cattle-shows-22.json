@@ -1,0 +1,273 @@
+{
+ "section": "fab-war-and-peace-and-cattle-shows-22",
+ "units": [
+  "fab-war-and-peace-and-cattle-shows-22-p01",
+  "fab-war-and-peace-and-cattle-shows-22-p02"
+ ],
+ "seeds": [
+  {
+   "row": 283,
+   "snippet": "the new Hand decreed that it should be a day",
+   "kind": "causal-spine",
+   "note": "Unwin's decree → mass mutilations and executions before the Red Keep",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+   "line": 93,
+   "slug_candidates": [
+    "yielding-of-the-red-keep",
+    "resignation-of-unwin-peake-as-hand",
+    "harren-the-reds-rebellion",
+    "celtigars-new-taxes-on-kings-landing"
+   ]
+  },
+  {
+   "row": 284,
+   "snippet": "The trap was neatly set",
+   "kind": "causal-spine",
+   "note": "Alyn's Stepstones victory → Unwin sending him against the ironmen as a trap",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+   "line": 191,
+   "slug_candidates": [
+    "alyn-dispatched-against-the-ironmen"
+   ]
+  },
+  {
+   "row": 293,
+   "snippet": "the only truly plausible culprit: Unwin Peake",
+   "kind": "causal-spine",
+   "note": "Jaehaera removed then king freed to remarry then Peake's succession scheme",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+   "line": 61,
+   "slug_candidates": [
+    "resignation-of-unwin-peake-as-hand",
+    "regents-overturn-the-kings-appointments",
+    "tourney-for-king-viserys-is-accession",
+    "return-of-aegon-ii-to-kings-landing",
+    "jaehaerys-returns-to-kings-landing-on-vermithor",
+    "aegon-the-uncrowned-seizes-kings-landing",
+    "celtigars-new-taxes-on-kings-landing"
+   ]
+  },
+  {
+   "row": 296,
+   "snippet": "On Maiden's Day we shall have a ball",
+   "kind": "causal-spine",
+   "note": "Peake's rivals force the ball then the ball produces Daenaera not Myrielle",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+   "line": 111,
+   "slug_candidates": []
+  },
+  {
+   "row": 298,
+   "snippet": "were the Hand and his minions responsible for these tragedies",
+   "kind": "causal-spine",
+   "note": "rival maidens' misfortunes then suspicion of Peake's \"Maiden's Day curse\"",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+   "line": 131,
+   "slug_candidates": [
+    "resignation-of-unwin-peake-as-hand"
+   ]
+  },
+  {
+   "row": 299,
+   "snippet": "we have brought your new queen",
+   "kind": "causal-spine",
+   "note": "the twins present Daenaera then king's choice undoes Peake's scheme",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+   "line": 169,
+   "slug_candidates": [
+    "celtigars-new-taxes-on-kings-landing",
+    "attack-on-the-queens-camp",
+    "regents-overturn-the-kings-appointments",
+    "queen-alysannes-progress-to-the-north",
+    "tourney-for-king-viserys-is-accession",
+    "return-of-aegon-ii-to-kings-landing",
+    "jaehaerys-returns-to-kings-landing-on-vermithor",
+    "attack-on-queen-alysanne-at-jonquils-pool"
+   ]
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "lady-rhaenas-miscarriage",
+   "name": "Lady Rhaena's miscarriage",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p02"
+  },
+  {
+   "slug": "peace-with-the-sealord-of-braavos",
+   "name": "Peace with the Sealord of Braavos",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p02"
+  },
+  {
+   "slug": "winter-fever-reaches-barrowton",
+   "name": "Winter Fever reaches Barrowton",
+   "unit": "fab-war-and-peace-and-cattle-shows-22-p02"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "feast-of-our-father-above",
+   "name": "Feast of Our Father Above",
+   "type": "event.execution",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 133,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "alyn-dispatched-against-the-ironmen",
+   "name": "Alyn dispatched against the ironmen",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "ambush-at-fair-isle",
+   "name": "Ambush at Fair Isle",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 1,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "assault-on-lucinda-penrose",
+   "name": "Assault on Lucinda Penrose",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-daeron-velaryon",
+   "name": "Death of Daeron Velaryon",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-herman-rollingford",
+   "name": "Death of Herman Rollingford",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-steffon-connington",
+   "name": "Death of Steffon Connington",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-tyland-lannister",
+   "name": "Death of Tyland Lannister",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "regents-overturn-the-kings-appointments",
+   "name": "Regents overturn the king's appointments",
+   "type": "event.council",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "sinking-of-the-grand-defiance",
+   "name": "Sinking of the Grand Defiance",
+   "type": "event.battle",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "sylas-the-grims-wildling-raid",
+   "name": "Sylas the Grim's wildling raid",
+   "type": "event.battle",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

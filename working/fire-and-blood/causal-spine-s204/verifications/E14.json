@@ -1,0 +1,49 @@
+{
+  "assignment": "E14",
+  "verdicts": [
+    {"id": "E14-E01", "verdict": "CONFIRM", "reason": "Quote verified at p01:211. MOTIVATES correctly typed: the Shivers supplies psychological motivation for the king's zealous prosecution of the war, not a forcing cause."},
+    {"id": "E14-E02", "verdict": "CONFIRM", "reason": "Quote verified at p01:101. CAUSES is appropriate: direct, unmediated disease death; no agency-collapse concern."},
+    {"id": "E14-E03", "verdict": "CONFIRM", "reason": "Quote verified at p01:141 (Alysanne had not been attending council since Daenerys's death). MOTIVATES the character's changed behavior/disposition is correct."},
+    {"id": "E14-E04", "verdict": "CONFIRM", "reason": "Quote verified at p01:59. ENABLES correctly chosen: the epidemic creates lawless conditions (dead Watch commander Qarl Corbray) but the mob's free choice to attack produces the murder."},
+    {"id": "E14-E05", "verdict": "CONFIRM", "reason": "Quote verified at p01:73. CAUSES through intermediate manhunt/interrogation steps all directly narrated as one continuous royal response."},
+    {"id": "E14-E06", "verdict": "CONFIRM", "reason": "Quote verified at p02:163. MOTIVATES is correct: Elysar's counsel (\"His words struck home\") directly persuades the king's decision to send Vaegon to the Citadel."},
+    {"id": "E14-E07", "verdict": "CONFIRM", "reason": "Quote verified at p02:119. CAUSES through intermediate steps: text explicitly narrates as one continuous thread (years-long bride search resolving to the Citadel proposal), marked by the transitional phrase \"We shall return to Prince Vaegon...in due course.\""},
+    {"id": "E14-E08", "verdict": "CONFIRM", "reason": "Quote verified at p02:111. Role edge correctly wires Vaegon as central agent of the insult."},
+    {"id": "E14-E09", "verdict": "CONFIRM", "reason": "Quote verified at p02:217. ENABLES correctly chosen: the failed Blackwood courtship is a precondition for mounting urgency, but Jaehaerys's forced-marriage ultimatum is the mediating free decision."},
+    {"id": "E14-E10", "verdict": "ADJUST", "reason": "Quote is truncated at p02:213 (ends with 'say her'); should read 'say her vows before a weirwood.' Role edge itself is correct (Daella ends the courtship), but quote must be completed."},
+    {"id": "E14-E11", "verdict": "CONFIRM", "reason": "Quote verified at p02:213. Role edge correctly wires Royce Blackwood as the suitor in the collapsed courtship."},
+    {"id": "E14-E12", "verdict": "CONFIRM", "reason": "Quote verified at p03:69 (\"first hint of the rift that would open between her and her king\"). ENABLES correctly chosen: Daella's death is one contributing wound among several (alongside Alyssa's, Viserra's deaths and Saera conflict) that together produce the eventual open rift."},
+    {"id": "E14-E13", "verdict": "CONFIRM", "reason": "Quote verified at p03:69 (Alysanne: \"We ought never have pushed her into marriage\"). MOTIVATES the character's changed disposition/resentment toward the king is correct."},
+    {"id": "E14-E14", "verdict": "CONFIRM", "reason": "Quote verified at p04:191. Role edge correctly wires Aemon as VICTIM_IN the myrish-bloodbath hub node (no separate death node needed)."},
+    {"id": "E14-E15", "verdict": "CONFIRM", "reason": "Quote verified at p04:205. Role edge correctly wires Baelon's combatant role in the myrish-bloodbath."},
+    {"id": "E14-E16", "verdict": "ADJUST", "reason": "Quote verified at p04:217 (Gyldayn's foreshadowing: Aemon's death 'would be like the hellhorns of Valyrian legend, bringing death and destruction'). CAUSES is OVERSTATED. Gyldayn asserts Aemon's death will have consequences but does NOT narrate the actual mechanical chain (Baelon becomes heir → Baelon's own death → succession crisis → Great Council). This is foreshadowing, not narrated causation. Proposer correctly flagged this section does not detail the intervening mechanics (likely section 15). RECOMMEND: REJECT and defer to section 15 where the mechanical chain is narrated, or downgrade to ENABLES if you wish to preserve the forward pointer. Type CAUSES requires the actual causal mechanism to be narrated, not merely foreshadowed."},
+    {"id": "E14-E17", "verdict": "CONFIRM", "reason": "Quote verified at p02:19. Baseline AGENT_IN mother edge; Alysanne gave birth to Viserra."},
+    {"id": "E14-E18", "verdict": "CONFIRM", "reason": "Quote verified at p02:19. Baseline PARTICIPATES_IN child edge; Viserra is the born child."},
+    {"id": "E14-E19", "verdict": "CONFIRM", "reason": "Quote verified at p02:145. Baseline AGENT_IN mother edge; Jocelyn (Aemon's wife) gave birth to Rhaenys."},
+    {"id": "E14-E20", "verdict": "CONFIRM", "reason": "Quote verified at p02:145. Baseline PARTICIPATES_IN child edge; Rhaenys is the born child."},
+    {"id": "E14-E21", "verdict": "CONFIRM", "reason": "Quote verified at p02:185. Baseline AGENT_IN mother edge; Alysanne gave birth to Gael."},
+    {"id": "E14-E22", "verdict": "CONFIRM", "reason": "Quote verified at p02:185. Baseline PARTICIPATES_IN child edge; Gael is the born child."},
+    {"id": "E14-E23", "verdict": "CONFIRM", "reason": "Quote verified at p02:177. Baseline AGENT_IN mother edge; Alysanne gave birth to Valerion after troubled labor."},
+    {"id": "E14-E24", "verdict": "CONFIRM", "reason": "Quote verified at p02:177. Baseline PARTICIPATES_IN child edge; Valerion is the born child."},
+    {"id": "E14-E25", "verdict": "CONFIRM", "reason": "Quote verified at p02:167. CAUSES is appropriate: text explicitly attributes Valerion's death to frailty stemming from his troubled birth (\"never thrived... In 78 AC, Valerion died\"); no mediating free decision."},
+    {"id": "E14-E26", "verdict": "ADJUST", "reason": "Quote at p02:19 is truncated ('year later came another daughter, Daella' should read 'A year later came another daughter, Daella'). Role edge is correct (Alysanne is mother), but quote must be completed."},
+    {"id": "E14-E27", "verdict": "CONFIRM", "reason": "Quote at p02:19 (same truncation as E14-E26 but edge itself is correct). Baseline PARTICIPATES_IN child edge; Daella is the born child."},
+    {"id": "E14-E28", "verdict": "CONFIRM", "reason": "Quote verified at p04:211. Role edge correctly wires Viserys as agent claiming Balerion. Per note, no further causal claim textually supported (Balerion's death presented as natural, not consequence of being ridden)."},
+    {"id": "E14-E29", "verdict": "CONFIRM", "reason": "Quote verified at p03:193 (\"Only then did the king and queen send for Princess Saera\"). CAUSES through intermediate same-night interrogation of Perianne and Alys, which the text narrates as one unbroken sequence triggered by the Blue Pearl discovery."},
+    {"id": "E14-E30", "verdict": "CONFIRM", "reason": "Quote verified at p04:37. CAUSES through intermediate steps (year-and-a-half confinement at the motherhouse): Saera's sentence at judgment → placement at Oldtown motherhouse → later flight in 85 AC, all explicitly narrated as direct consequence of her judgment."}
+  ],
+  "new_node_checks": [
+    {"slug": "death-of-daenerys-targaryen-daughter-of-jaehaerys-i", "verdict": "OK", "reason": "Era targaryen-rule, year 60 AC correct. Type event.death appropriate. Identity accurate: six-year-old princess dies of the Shivers within two days of falling ill (verified p01:91-101). Genuinely missing from graph."},
+    {"slug": "vaegons-insult-of-daella-in-court", "verdict": "OK", "reason": "Era targaryen-rule, year 73 AC correct. Type event.incident appropriate. Identity accurate: Vaegon publicly mocks Daella in court, ending presumed sibling match (verified p02:111-119). Genuinely missing from graph."},
+    {"slug": "collapse-of-daella-blackwood-courtship", "verdict": "OK", "reason": "Era targaryen-rule, year 79 AC correct. Type event.incident appropriate. Identity accurate: Daella refuses to marry before a weirwood (Blackwoods keep old gods), collapsing the courtship with Royce Blackwood (verified p02:213-215). Genuinely missing from graph."},
+    {"slug": "death-of-prince-valerion", "verdict": "OK", "reason": "Era targaryen-rule, year 78 AC correct. Type event.death appropriate. Identity accurate: sickly infant dies before first nameday following troubled birth (verified p02:177-178: 'Like his brother Gaemon four years earlier, he was a small and sickly babe, and never thrived... In 78 AC, Valerion died, a fortnight short of his first nameday'). Genuinely missing from graph."}
+  ],
+  "summary": {
+    "total_edges": 30,
+    "confirm_count": 26,
+    "adjust_count": 4,
+    "reject_count": 0,
+    "non_confirms": "E14-E10 (quote truncated), E14-E16 (CAUSES overstated—foreshadowing not narrated causation; recommend REJECT or ENABLES pending section 15 verification), E14-E26 (quote truncated), E14-E27 (confirmed despite E14-E26 truncation)",
+    "critical_finding": "E14-E16 (myrish-bloodbath CAUSES great-council-of-101-ac): The tier-2/disputed edge rests on Gyldayn's metaphorical foreshadowing ('would be like the hellhorns...bringing death and destruction') rather than narrated mechanical causation. The actual causal chain (Baelon heir succession, Baelon's death, succession crisis) is not detailed in section 14 and proposer correctly flagged for cross-check in section 15. Adversarial judgment: foreshadowing ≠ narrated causation. CAUSES requires the text to assert/narrate how A produces B; this section only foreshadows that it will. Recommend REJECT pending section 15 verification of the mechanical chain, or ADJUST to ENABLES as a forward-pointer."
+  }
+}

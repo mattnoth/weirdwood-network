@@ -1,0 +1,100 @@
+{
+ "section": "fab-year-of-the-three-brides-07",
+ "units": [
+  "fab-year-of-the-three-brides-07"
+ ],
+ "seeds": [
+  {
+   "row": 312,
+   "snippet": "underestimated the will and determination of Alysanne Targaryen",
+   "kind": "causal-spine",
+   "note": "betrothal to Orryn → Alysanne and Jaehaerys elope to Dragonstone",
+   "unit": "fab-year-of-the-three-brides-07",
+   "line": 189,
+   "slug_candidates": [
+    "death-of-daella-targaryen-daughter-of-jaehaerys-i",
+    "birth-of-daenerys-targaryen-daughter-of-jaehaerys-i",
+    "birth-of-daella-targaryen-daughter-of-jaehaerys-i",
+    "birth-of-aemon-targaryen-son-of-jaehaerys-i"
+   ]
+  }
+ ],
+ "stubs": [],
+ "roster": [
+  {
+   "slug": "confrontation-at-the-gates-of-dragonstone",
+   "name": "Confrontation at the gates of Dragonstone",
+   "type": "event.confrontation",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 49,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "golden-wedding",
+   "name": "Golden Wedding",
+   "type": "event.wedding",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 49,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 3,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "lysene-revel-two-nights-before-the-golden-wedding",
+   "name": "Lysene revel two nights before the Golden Wedding",
+   "type": "event.feast",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 49,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 1,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "selection-of-the-regency-council",
+   "name": "Selection of the regency council",
+   "type": "event.council",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 49,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "war-for-the-white-cloaks",
+   "name": "War for the White Cloaks",
+   "type": "event.war",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "section": "fab-time-of-testing-09",
+ "units": [
+  "fab-time-of-testing-09"
+ ],
+ "seeds": [
+  {
+   "row": 266,
+   "snippet": "the treasury was empty and the Crown's debt was mounting",
+   "kind": "causal-spine",
+   "note": "empty treasury -> three foreign loans -> Dragonpit work resumed",
+   "unit": "fab-time-of-testing-09",
+   "line": 125,
+   "slug_candidates": []
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "restoration-of-aerea-to-rhaena",
+   "name": "Restoration of Aerea to Rhaena",
+   "unit": "fab-time-of-testing-09"
+  },
+  {
+   "slug": "barth-passes-mattheus-at-bitterbridge",
+   "name": "Barth passes Mattheus at Bitterbridge",
+   "unit": "fab-time-of-testing-09"
+  },
+  {
+   "slug": "maegor-takes-a-second-wife",
+   "name": "Maegor takes a second wife",
+   "unit": "fab-time-of-testing-09"
+  },
+  {
+   "slug": "realm-does-not-rise-against-the-marriage",
+   "name": "Realm does not rise against the marriage",
+   "unit": "fab-time-of-testing-09"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "alysanne-conceives",
+   "name": "Alysanne conceives",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "grant-of-dragonstone-to-rhaena",
+   "name": "Grant of Dragonstone to Rhaena",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "jaehaerys-returns-to-kings-landing-on-vermithor",
+   "name": "Jaehaerys returns to King's Landing on Vermithor",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "remaking-of-the-small-council",
+   "name": "Remaking of the small council",
+   "type": "event.other",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

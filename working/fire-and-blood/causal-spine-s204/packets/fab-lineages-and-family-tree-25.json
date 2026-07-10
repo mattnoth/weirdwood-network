@@ -1,0 +1,37 @@
+{
+ "section": "fab-lineages-and-family-tree-25",
+ "units": [
+  "fab-lineages-and-family-tree-25"
+ ],
+ "seeds": [
+  {
+   "row": 7,
+   "snippet": "Daeron conquered Dorne, but was unable to hold it",
+   "kind": "causal-spine",
+   "note": "Daeron I conquers Dorne → cannot hold it → dies young",
+   "unit": "fab-lineages-and-family-tree-25",
+   "line": 41,
+   "slug_candidates": [
+    "daeron-targaryen-son-of-viserys-i-sent-to-oldtown"
+   ]
+  }
+ ],
+ "stubs": [],
+ "roster": [
+  {
+   "slug": "battle-of-the-trident",
+   "name": "Battle of the Trident",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 283,
+   "causal_in": 0,
+   "causal_out": 1,
+   "struct": 6,
+   "role": 15,
+   "other": 1,
+   "causally_dark": false
+  }
+ ]
+}

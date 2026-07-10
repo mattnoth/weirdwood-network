@@ -1,0 +1,291 @@
+{
+ "section": "fab-surfeit-of-rulers-08",
+ "units": [
+  "fab-surfeit-of-rulers-08-p02"
+ ],
+ "seeds": [
+  {
+   "row": 97,
+   "snippet": "He wanted an alliance with the Iron Throne",
+   "kind": "causal-spine",
+   "note": "Lyman's ambition for dragons -> Rhaena resolves to leave the Rock",
+   "unit": "fab-surfeit-of-rulers-08-p02",
+   "line": 73,
+   "slug_candidates": [
+    "trystane-mounts-iron-throne",
+    "lady-rhaenas-miscarriage",
+    "rhaenas-party-welcomed-at-lannisport",
+    "judgment-of-princess-saera-before-the-iron-throne"
+   ]
+  },
+  {
+   "row": 101,
+   "snippet": "a fire in her Jaehaerys does not have",
+   "kind": "causal-spine",
+   "note": "Rogar names Aerea claimant -> council turns on him as treason",
+   "unit": "fab-surfeit-of-rulers-08-p02",
+   "line": 159,
+   "slug_candidates": [
+    "rogar-urges-the-council-to-set-jaehaerys-aside",
+    "maegor-names-aerea-heir-disinherits-jaehaerys"
+   ]
+  },
+  {
+   "row": 93,
+   "snippet": "secret marriage to his sister → deeply at odds with the King’s Hand",
+   "kind": "causal-spine",
+   "note": "the secret marriage causes the estrangement from Alyssa and Rogar [S204 orchestrator: unit was null; the secret marriage + Rogar/Alyssa estrangement is narrated across fab-year-of-the-three-brides-07 / fab-surfeit-of-rulers-08 — locate the grounding line yourself]",
+   "unit": null,
+   "line": null,
+   "slug_candidates": [
+    "alyssa-dismisses-rogar-as-hand",
+    "secret-marriage-of-rhaenyra-and-daemon",
+    "drazenkos-secret-at-sunspear",
+    "alyssa-names-daemon-velaryon-hand",
+    "regents-overturn-the-kings-appointments",
+    "tourney-for-king-viserys-is-accession",
+    "saeras-flight-from-the-oldtown-motherhouse",
+    "return-of-aegon-ii-to-kings-landing"
+   ]
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "alyssa-dismisses-rogar-as-hand",
+   "name": "Alyssa dismisses Rogar as Hand",
+   "unit": "fab-surfeit-of-rulers-08-p02"
+  },
+  {
+   "slug": "jaehaerys-reaches-his-sixteenth-nameday",
+   "name": "Jaehaerys reaches his sixteenth nameday",
+   "unit": "fab-surfeit-of-rulers-08-p02"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "battle-beneath-the-gods-eye",
+   "name": "Battle Beneath the Gods Eye",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 43,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 5,
+   "role": 5,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-brandon-stark-father-of-walton",
+   "name": "Death of Brandon Stark",
+   "type": "event.death",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 49,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "wedding-of-rhaena-targaryen-and-androw-farman",
+   "name": "Wedding of Rhaena Targaryen and Androw Farman",
+   "type": "event.wedding",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 49,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 2,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "alaric-stark-becomes-lord-of-winterfell",
+   "name": "Alaric Stark becomes Lord of Winterfell",
+   "type": "event.succession",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 50,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "beheading-of-ser-olyver-bracken",
+   "name": "Beheading of Ser Olyver Bracken",
+   "type": "event.execution",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 50,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "wise-women-depart-for-dragonstone",
+   "name": "Wise Women depart for Dragonstone",
+   "type": "event.voyage",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 50,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "aerea-hidden-as-a-stable-girl",
+   "name": "Aerea hidden as a stable girl",
+   "type": "event.concealment",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "alyssa-names-daemon-velaryon-hand",
+   "name": "Alyssa names Daemon Velaryon Hand",
+   "type": "event.appointment",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "celtigars-new-taxes-on-kings-landing",
+   "name": "Celtigar's new taxes on King's Landing",
+   "type": "event.decree",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "dockside-uprising-against-franklyn-farman",
+   "name": "Dockside uprising against Franklyn Farman",
+   "type": "event.uprising",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "franklyn-farman-banishes-rhaena-from-fair-isle",
+   "name": "Franklyn Farman banishes Rhaena from Fair Isle",
+   "type": "event.banishment",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "orryn-baratheons-ploy-at-the-oldtown-motherhouse",
+   "name": "Orryn Baratheon's ploy at the Oldtown motherhouse",
+   "type": "event.abduction",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "rhaenas-party-welcomed-at-lannisport",
+   "name": "Rhaena's party welcomed at Lannisport",
+   "type": "event.feast",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "rogar-urges-the-council-to-set-jaehaerys-aside",
+   "name": "Rogar urges the council to set Jaehaerys aside",
+   "type": "event.betrayal",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "ronnal-baratheon-raids-aereas-chambers",
+   "name": "Ronnal Baratheon raids Aerea's chambers",
+   "type": "event.abduction",
+   "era": "targaryen-rule",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

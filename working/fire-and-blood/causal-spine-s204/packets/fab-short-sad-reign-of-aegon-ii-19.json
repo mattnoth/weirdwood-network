@@ -1,0 +1,211 @@
+{
+ "section": "fab-short-sad-reign-of-aegon-ii-19",
+ "units": [
+  "fab-short-sad-reign-of-aegon-ii-19"
+ ],
+ "seeds": [
+  {
+   "row": 48,
+   "snippet": "an accord was reached between Lord Borros, Lord Larys, and Queen Alicent",
+   "kind": "causal-spine",
+   "note": "tent parley -> restoration of Aegon II to King's Landing",
+   "unit": "fab-short-sad-reign-of-aegon-ii-19",
+   "line": 49,
+   "slug_candidates": [
+    "return-of-aegon-ii-to-kings-landing",
+    "aegons-landing",
+    "aegon-the-uncrowned-seizes-kings-landing",
+    "death-of-aegon-ii",
+    "arrest-of-queen-alicent",
+    "jaehaerys-returns-to-kings-landing-on-vermithor",
+    "birth-of-aegon-ii-targaryen",
+    "aegons-coronations"
+   ]
+  },
+  {
+   "row": 53,
+   "snippet": "The Citadel names the clash that followed the Battle of the Kingsroad",
+   "kind": "causal-spine",
+   "note": "the Muddy Mess, last battle of the Dance",
+   "unit": "fab-short-sad-reign-of-aegon-ii-19",
+   "line": 215,
+   "slug_candidates": []
+  },
+  {
+   "row": 58,
+   "snippet": "You fed his mother to your dragon",
+   "kind": "causal-spine",
+   "note": "Aegon III's captivity and the reason he will not spare his uncle",
+   "unit": "fab-short-sad-reign-of-aegon-ii-19",
+   "line": 239,
+   "slug_candidates": [
+    "regency-of-aegon-iii",
+    "wedding-of-aegon-iii-and-jaehaera",
+    "aegons-landing",
+    "aegons-coronations",
+    "aegons-conquest",
+    "return-of-aegon-ii-to-kings-landing",
+    "aegon-the-uncrowned-seizes-kings-landing"
+   ]
+  }
+ ],
+ "stubs": [
+  {
+   "slug": "submission-of-corlys-velaryon",
+   "name": "Submission of Corlys Velaryon",
+   "unit": "fab-short-sad-reign-of-aegon-ii-19"
+  }
+ ],
+ "roster": [
+  {
+   "slug": "execution-of-trystane-truefyre",
+   "name": "Execution of Trystane Truefyre",
+   "type": "event.death",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 130,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "rout-at-visenyas-hill",
+   "name": "Rout at Visenya's Hill",
+   "type": "event.battle",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": 130,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "storming-of-the-dragonpit",
+   "name": "Storming of the Dragonpit",
+   "type": "event.battle",
+   "era": null,
+   "pass_origin": "pass2-wiki-deterministic",
+   "fab_touched": true,
+   "ac_year": 130,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 3,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "arrest-of-queen-alicent",
+   "name": "Arrest of Queen Alicent",
+   "type": "event.other",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "birth-of-royce-baratheon",
+   "name": "Birth of Royce Baratheon",
+   "type": "event.birth",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-aegon-ii",
+   "name": "Death of Aegon II",
+   "type": "event.death",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 1,
+   "causally_dark": true
+  },
+  {
+   "slug": "death-of-alfred-broome",
+   "name": "Death of Alfred Broome",
+   "type": "event.death",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "deaths-of-the-two-toms",
+   "name": "Deaths of the Two Toms",
+   "type": "event.death",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 2,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "return-of-aegon-ii-to-kings-landing",
+   "name": "Return of Aegon II to King's Landing",
+   "type": "event.incident",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  },
+  {
+   "slug": "vengeance-campaign-in-the-crownlands",
+   "name": "Vengeance campaign in the crownlands",
+   "type": "event.other",
+   "era": "dance-of-dragons",
+   "pass_origin": "pass-fab-enrichment",
+   "fab_touched": true,
+   "ac_year": null,
+   "causal_in": 0,
+   "causal_out": 0,
+   "struct": 0,
+   "role": 1,
+   "other": 0,
+   "causally_dark": true
+  }
+ ]
+}

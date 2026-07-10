@@ -1,0 +1,37 @@
+{
+ "_meta": {
+  "unit": "fab-causal-spine-s204-supplement2",
+  "session": "S204",
+  "run_id": "fab-causal-spine-s204-supplement2-2026-07-10",
+  "evidence_kind": "book-fab",
+  "new_node_slugs": [],
+  "note": "S204 supplement 2: the last zero-edge stub (peace-with-the-sealord-of-braavos, missed in the I2122 dispatch list) — Mooton negotiates the treaty; its indemnity forces Iron Bank borrowing + Celtigar tax reinstatement. Orchestrator-verified with text open (L1: single-chapter plain narration).",
+  "produced_at": "2026-07-10T00:00:00+00:00"
+ },
+ "edges": [
+  {
+   "id": "SUP-E02",
+   "type": "PARTICIPATES_IN",
+   "source": "manfryd-mooton",
+   "target": "peace-with-the-sealord-of-braavos",
+   "book": "fab",
+   "chapter": "fab-war-and-peace-and-cattle-shows-22-p02",
+   "line": 17,
+   "quote": "So it came to pass that Lord Mooton returned to King's Landing with peace in hand, but at a grievous cost.",
+   "tier": "tier-1",
+   "note": "S204 supplement 2: Lord Mooton negotiated and delivered the Braavos peace."
+  },
+  {
+   "id": "SUP-E03",
+   "type": "CAUSES",
+   "source": "peace-with-the-sealord-of-braavos",
+   "target": "celtigars-new-taxes-on-kings-landing",
+   "book": "fab",
+   "chapter": "fab-war-and-peace-and-cattle-shows-22-p02",
+   "line": 17,
+   "quote": "The huge indemnity demanded by the Sealord so depleted the royal treasury that Lord Peake soon found it necessary to borrow from the Iron Bank of Braavos just so the Crown might pay its debts, and that in turn required him to reinstate certain of Lord Celtigar’s taxes that Ser Tyland Lannister had abolished, which",
+   "tier": "tier-1",
+   "note": "S204 supplement 2: the indemnity depletes the treasury -> Iron Bank borrowing -> reinstatement of Celtigar's taxes (target = the existing Celtigar-taxes event node; this edge records their REINSTATEMENT under Peake)."
+  }
+ ]
+}
