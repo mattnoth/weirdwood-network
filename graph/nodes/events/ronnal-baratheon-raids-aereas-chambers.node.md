@@ -1,6 +1,6 @@
 ---
 name: "Ronnal Baratheon raids Aerea's chambers"
-type: event.abduction
+type: event.incident
 slug: ronnal-baratheon-raids-aereas-chambers
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Corlys Velaryon reaches Asshai"
-type: event.voyage
+type: event.incident
 slug: corlys-velaryon-reaches-asshai
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Winter Fever reaches Barrowton"
-type: event.plague
+type: event.incident
 slug: winter-fever-reaches-barrowton
 aliases: []
 confidence: tier-2

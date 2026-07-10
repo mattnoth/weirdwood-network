@@ -1,6 +1,6 @@
 ---
 name: "Building of Deep Lake"
-type: event.construction
+type: event.incident
 slug: building-of-deep-lake
 aliases: []
 confidence: tier-2

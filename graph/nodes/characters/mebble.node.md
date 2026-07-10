@@ -38,6 +38,4 @@ On his way to lifting the [siege of Riverrun](wiki:Siege_of_Riverrun), Ser [Jaim
 
 Them [Bloody Mummers](wiki:Brave_Companions) killed some of Ser [Amory's](wiki:Amory_Lorch) lot in their beds, and [the rest](wiki:Fall_of_Harrenhal) at table after they were good and drunk. [The new lord](wiki:Roose_Bolton) will be here before the day's out, with his whole host. He's from the wild [north](wiki:North) up where that [Wall](wiki:Wall) is, and they say he's a hard one. This lord or that lord, there's still work to be done. Any foolery and I'll whip the skin off your back.(wiki:Mebble.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Quotes
-
 His true name was Mebble, but everyone called him Pinkeye for his runny eyes.(wiki:Mebble.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)

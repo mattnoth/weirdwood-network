@@ -1,6 +1,6 @@
 ---
 name: "Barth passes Mattheus at Bitterbridge"
-type: event.other
+type: event.incident
 slug: barth-passes-mattheus-at-bitterbridge
 aliases: []
 confidence: tier-2

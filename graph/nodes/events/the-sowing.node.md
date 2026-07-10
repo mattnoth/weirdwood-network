@@ -1,6 +1,6 @@
 ---
 name: "The Sowing (the Red Sowing)"
-type: event.other
+type: event.incident
 slug: the-sowing
 aliases: []
 confidence: tier-1

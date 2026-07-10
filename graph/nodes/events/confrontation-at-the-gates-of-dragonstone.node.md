@@ -1,6 +1,6 @@
 ---
 name: "Confrontation at the gates of Dragonstone"
-type: event.confrontation
+type: event.incident
 slug: confrontation-at-the-gates-of-dragonstone
 aliases: []
 confidence: tier-2

@@ -40,7 +40,4 @@ You hear that, little boy? [Your Momma](wiki:Helaena_Targaryen) wants you dead.(
 > One had been a serjeant in the City Watch; big and brutal, he had lost his gold cloak for beating a whore to death whilst in a drunken rage. The other was a ratcatcher in the Red Keep. Their true names are lost to history. They are remembered (would that they were not!) as Blood and Cheese.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:259`)
 
-
-## Quotes
-
 Cheese knew the [Red Keep](wiki:Red_Keep) better than the shape of his own cock.(wiki:Cheese_(ratcatcher).cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)

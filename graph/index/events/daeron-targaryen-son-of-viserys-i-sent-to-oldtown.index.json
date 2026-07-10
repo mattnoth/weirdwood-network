@@ -1,9 +1,9 @@
 {
   "slug": "daeron-targaryen-son-of-viserys-i-sent-to-oldtown",
   "name": "Daeron sent to Oldtown",
-  "type": "event.other",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/daeron-targaryen-son-of-viserys-i-sent-to-oldtown.node.md",
-  "generated_at": "2026-07-10T14:28:37.056313+00:00",
+  "generated_at": "2026-07-10T20:22:40.416520+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

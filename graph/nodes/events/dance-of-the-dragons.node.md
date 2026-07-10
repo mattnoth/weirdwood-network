@@ -1,6 +1,6 @@
 ---
 name: "Dance of the Dragons"
-type: event.battle
+type: event.war
 slug: dance-of-the-dragons
 aliases: ["Dance of Dragons", "the Dance", "House of the Dragon", "House of Dragons", "the Targaryen civil war"]
 confidence: tier-1
@@ -28,7 +28,7 @@ sort_keys:
 
 ## Identity
 
-Dance of the Dragons is a event.battle from the AWOIAF wiki.
+Dance of the Dragons is a event.war from the AWOIAF wiki.
 
 ## Edges
 

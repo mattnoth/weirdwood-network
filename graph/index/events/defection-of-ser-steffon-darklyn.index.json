@@ -1,9 +1,9 @@
 {
   "slug": "defection-of-ser-steffon-darklyn",
   "name": "Defection of Ser Steffon Darklyn",
-  "type": "event.betrayal",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/defection-of-ser-steffon-darklyn.node.md",
-  "generated_at": "2026-07-10T14:28:37.068026+00:00",
+  "generated_at": "2026-07-10T20:22:40.431957+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

@@ -1,6 +1,6 @@
 ---
 name: "Fourth Dornish War"
-type: event.battle
+type: event.war
 slug: fourth-dornish-war
 aliases: []
 confidence: tier-1
@@ -27,7 +27,7 @@ sort_keys:
 
 ## Identity
 
-Fourth Dornish War is a event.battle from the AWOIAF wiki.
+Fourth Dornish War is a event.war from the AWOIAF wiki.
 
 ## Edges
 

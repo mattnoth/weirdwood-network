@@ -1,6 +1,6 @@
 ---
 name: "Royal progress to the westerlands"
-type: event.progress
+type: event.incident
 slug: royal-progress-to-the-westerlands
 aliases: []
 confidence: tier-2

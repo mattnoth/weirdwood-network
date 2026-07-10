@@ -1,6 +1,6 @@
 ---
 name: "Dockside uprising against Franklyn Farman"
-type: event.uprising
+type: event.incident
 slug: dockside-uprising-against-franklyn-farman
 aliases: []
 confidence: tier-2

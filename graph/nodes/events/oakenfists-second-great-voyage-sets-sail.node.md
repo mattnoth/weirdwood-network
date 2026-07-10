@@ -1,6 +1,6 @@
 ---
 name: "Oakenfist's second great voyage sets sail"
-type: event.voyage
+type: event.incident
 slug: oakenfists-second-great-voyage-sets-sail
 aliases: []
 confidence: tier-2

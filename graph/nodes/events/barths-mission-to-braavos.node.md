@@ -1,6 +1,6 @@
 ---
 name: "Barth's mission to Braavos"
-type: event.negotiation
+type: event.incident
 slug: barths-mission-to-braavos
 aliases: []
 confidence: tier-2

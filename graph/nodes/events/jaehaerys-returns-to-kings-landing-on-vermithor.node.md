@@ -1,6 +1,6 @@
 ---
 name: "Jaehaerys returns to King's Landing on Vermithor"
-type: event.other
+type: event.incident
 slug: jaehaerys-returns-to-kings-landing-on-vermithor
 aliases: []
 confidence: tier-2

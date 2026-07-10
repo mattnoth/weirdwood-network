@@ -1,6 +1,6 @@
 ---
 name: "Green Council Peace Embassy to Dragonstone"
-type: event.negotiation
+type: event.incident
 slug: green-council-peace-embassy-to-dragonstone
 aliases: []
 confidence: tier-2

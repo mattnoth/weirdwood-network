@@ -73,9 +73,6 @@ When I am dead, hack off my clubfoot with [that great sword](wiki:Ice) of yours.
 > It was Lord Larys Strong the Clubfoot, who spirited the king and his children out of the city when the queen’s dragons first appeared in the skies above King’s Landing. So as not to pass through any of the city gates, where they might be seen and remembered, Lord Larys led them out through some secret passage of Maegor the Cruel, of which only he had knowledge.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:219`)
 
-
-## Quotes
-
 A man who gathers [whispers](wiki:Master_of_whisperers) can spread them just as well.(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 Was there ever a man as devious as the Clubfoot? Oh, he would have made a splendid [fool](wiki:Fool), that one. The words dripped from his lips like honey from a comb, and never did [poison](wiki:Poison) taste so sweet.(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 The enigma that is Larys Strong the Clubfoot has vexed students of history for generations, and is not one we can hope to unravel here. Where did his true loyalty lie? What was he about?(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)

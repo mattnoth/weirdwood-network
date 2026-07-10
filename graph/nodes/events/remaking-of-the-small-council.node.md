@@ -1,6 +1,6 @@
 ---
 name: "Remaking of the small council"
-type: event.other
+type: event.incident
 slug: remaking-of-the-small-council
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Nymeria's War"
-type: event.battle
+type: event.war
 slug: nymerias-war
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Nymeria's War is a event.battle from the AWOIAF wiki.
+Nymeria's War is a event.war from the AWOIAF wiki.
 
 ## Edges
 

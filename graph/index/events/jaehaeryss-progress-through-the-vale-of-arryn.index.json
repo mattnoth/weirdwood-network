@@ -1,9 +1,9 @@
 {
   "slug": "jaehaeryss-progress-through-the-vale-of-arryn",
   "name": "Jaehaerys's progress through the Vale of Arryn",
-  "type": "event.progress",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/jaehaeryss-progress-through-the-vale-of-arryn.node.md",
-  "generated_at": "2026-07-10T14:28:37.076670+00:00",
+  "generated_at": "2026-07-10T20:22:40.441317+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

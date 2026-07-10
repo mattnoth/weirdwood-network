@@ -1,9 +1,9 @@
 {
   "slug": "remaking-of-the-small-council",
   "name": "Remaking of the small council",
-  "type": "event.other",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/remaking-of-the-small-council.node.md",
-  "generated_at": "2026-07-10T14:28:37.096166+00:00",
+  "generated_at": "2026-07-10T20:22:40.463846+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

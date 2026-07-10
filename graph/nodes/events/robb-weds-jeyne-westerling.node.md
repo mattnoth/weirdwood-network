@@ -45,14 +45,11 @@ After taking the Crag by storm and being wounded, Robb Stark is nursed by Jeyne 
 
 — The strategic cost of the broken Frey oath, quantified: Jeyne's dower of fifty swords against the host Walder Frey had originally pledged. Robb to Catelyn Stark, ASOS Catelyn II (`sources/chapters/asos/asos-catelyn-02.md:139`)
 
-## Quotes (continued)
-
 > "We wed without his consent, I fear, and this marriage puts him in dire peril. The Crag is not strong. For love of me, Jeyne may lose all."
 >
 > — sources/chapters/asos/asos-catelyn-02.md:131 · Robb to Catelyn on the cost to the Westerlings — the marriage's peril for Jeyne's family.  _(capture: harvest pass, quote)_
 
 > "And you are to wed one of his daughters, once the fighting is done," she finished. "His lordship has graciously consented to allow you to choose whichever girl you prefer."
->
 > — Catelyn Stark relaying the terms of the Frey crossing-pact to Robb, AGOT Catelyn IX (`sources/chapters/agot/agot-catelyn-09.md:241`). The betrothal vow Robb later breaks by wedding Jeyne — the origin of the slight that becomes the Red Wedding trigger. Book-cite. The dyadic layer (`robb-stark CONTRACTED_WITH walder-frey`, `robb-stark BREAKS_VOW house-frey`) already exists; this is the promise's navigable Tier-1 origin cite.
 
 ## Foreshadowing

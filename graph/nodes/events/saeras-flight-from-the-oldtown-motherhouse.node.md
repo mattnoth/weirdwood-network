@@ -1,6 +1,6 @@
 ---
 name: "Saera's flight from the Oldtown motherhouse"
-type: event.escape
+type: event.incident
 slug: saeras-flight-from-the-oldtown-motherhouse
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Night's Watch rebellion of 50 AC"
-type: event.battle
+type: event.war
 slug: nights-watch-rebellion-of-50-ac
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Night's Watch rebellion of 50 AC is a event.battle from the AWOIAF wiki.
+Night's Watch rebellion of 50 AC is a event.war from the AWOIAF wiki.
 
 ## Edges
 

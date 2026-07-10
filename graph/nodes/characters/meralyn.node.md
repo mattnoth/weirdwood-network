@@ -40,6 +40,4 @@ Now serving the [House of Black and White](wiki:House_of_Black_and_White) as a b
 
 The boys unload the ships, and my girls unload the lads who sail them.(wiki:Meralyn.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
-## Quotes
-
 Meralyn is her true name, but everyone calls her Merry, and she is.(wiki:Meralyn.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)

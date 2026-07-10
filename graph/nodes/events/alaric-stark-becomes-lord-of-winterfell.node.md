@@ -1,6 +1,6 @@
 ---
 name: "Alaric Stark becomes Lord of Winterfell"
-type: event.succession
+type: event.investiture
 slug: alaric-stark-becomes-lord-of-winterfell
 aliases: []
 confidence: tier-2

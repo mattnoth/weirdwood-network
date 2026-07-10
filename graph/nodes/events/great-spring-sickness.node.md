@@ -1,6 +1,6 @@
 ---
 name: "Great Spring Sickness"
-type: event.battle
+type: event.incident
 slug: great-spring-sickness
 aliases: []
 confidence: tier-2

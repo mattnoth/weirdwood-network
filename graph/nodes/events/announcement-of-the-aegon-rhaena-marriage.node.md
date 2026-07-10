@@ -1,6 +1,6 @@
 ---
 name: "Announcement of the Aegon–Rhaena marriage"
-type: event.betrothal
+type: event.incident
 slug: announcement-of-the-aegon-rhaena-marriage
 aliases: []
 confidence: tier-2

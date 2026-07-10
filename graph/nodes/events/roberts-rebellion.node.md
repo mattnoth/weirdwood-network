@@ -1,6 +1,6 @@
 ---
 name: "Robert's Rebellion"
-type: event.battle
+type: event.war
 slug: roberts-rebellion
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Robert's Rebellion is a event.battle from the AWOIAF wiki.
+Robert's Rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

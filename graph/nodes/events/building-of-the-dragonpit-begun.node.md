@@ -1,6 +1,6 @@
 ---
 name: "Building of the Dragonpit begun"
-type: event.construction
+type: event.incident
 slug: building-of-the-dragonpit-begun
 aliases: []
 confidence: tier-2

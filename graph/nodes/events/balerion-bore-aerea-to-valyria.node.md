@@ -1,6 +1,6 @@
 ---
 name: "Balerion bore Aerea to Valyria"
-type: event.voyage
+type: event.incident
 slug: balerion-bore-aerea-to-valyria
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Velaryon Succession Attack on Alyn"
-type: event.assassination_attempt
+type: event.assassination
 slug: velaryon-succession-attack-on-alyn
 aliases: []
 confidence: tier-2

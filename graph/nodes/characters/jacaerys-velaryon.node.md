@@ -77,9 +77,6 @@ We should bear those messages. [Dragons](wiki:Dragon) will win the [lords](wiki:
 > Several differing tales were told afterward of how and why the dragon fell. Some claimed a crossbowman put an iron bolt through his eye, but this version seems suspiciously similar to the way Meraxes met her end, long ago in Dorne.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:37`)
 
-
-## Quotes
-
 One day [this](wiki:Iron_Throne) will be your seat, lad.(wiki:Jacaerys_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
 [Seven](wiki:The_Seven) save [this realm](wiki:Westeros) if we seat a [bastard](wiki:Bastard) on the [Iron Throne](wiki:Iron_Throne).(wiki:Jacaerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 Though his fifteenth [nameday](wiki:Nameday) was still half a year away, Prince Jacaerys proved himself a man, and a worthy heir to the [Iron Throne](wiki:Iron_Throne).(wiki:Jacaerys_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)

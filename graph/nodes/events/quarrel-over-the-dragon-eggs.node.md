@@ -1,6 +1,6 @@
 ---
 name: "Quarrel over the dragon eggs"
-type: event.other
+type: event.incident
 slug: quarrel-over-the-dragon-eggs
 aliases: []
 confidence: tier-2

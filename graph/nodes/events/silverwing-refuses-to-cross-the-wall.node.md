@@ -1,6 +1,6 @@
 ---
 name: "Silverwing refuses to cross the Wall"
-type: event.other
+type: event.incident
 slug: silverwing-refuses-to-cross-the-wall
 aliases: []
 confidence: tier-2

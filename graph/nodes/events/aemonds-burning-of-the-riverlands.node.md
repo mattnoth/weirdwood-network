@@ -1,6 +1,6 @@
 ---
 name: "Aemond's burning of the riverlands"
-type: event.raid
+type: event.battle
 slug: aemonds-burning-of-the-riverlands
 aliases: []
 confidence: tier-2

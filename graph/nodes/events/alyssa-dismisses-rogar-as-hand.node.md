@@ -1,6 +1,6 @@
 ---
 name: "Alyssa dismisses Rogar as Hand"
-type: event.dismissal
+type: event.incident
 slug: alyssa-dismisses-rogar-as-hand
 aliases: []
 confidence: tier-2

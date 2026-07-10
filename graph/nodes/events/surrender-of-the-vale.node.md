@@ -1,6 +1,6 @@
 ---
 name: "Surrender of the Vale"
-type: event.surrender
+type: event.incident
 slug: surrender-of-the-vale
 aliases: []
 confidence: tier-2

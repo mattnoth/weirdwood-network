@@ -1,6 +1,6 @@
 ---
 name: "Orryn Baratheon's ploy at the Oldtown motherhouse"
-type: event.abduction
+type: event.incident
 slug: orryn-baratheons-ploy-at-the-oldtown-motherhouse
 aliases: []
 confidence: tier-2

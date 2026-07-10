@@ -1,6 +1,6 @@
 ---
 name: "Rodrik Greyjoy gelded"
-type: event.other
+type: event.incident
 slug: rodrik-greyjoy-gelded
 aliases: []
 confidence: tier-2

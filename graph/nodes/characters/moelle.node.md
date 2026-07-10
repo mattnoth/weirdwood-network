@@ -42,6 +42,4 @@ Moelle, together with Septas [Unella](wiki:Unella) and [Scolera](wiki:Scolera), 
 A sweet face oft hides a sinner's heart.(wiki:Moelle.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 Only the innocent know the peace of untroubled sleep. Confess your sins, and you will sleep like a newborn babe.(wiki:Moelle.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 
-## Quotes
-
 This one still has her [maidenhead](wiki:Maidenhead), I'll wager, though by now it's hard and stiff as boiled leather.(wiki:Moelle.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)

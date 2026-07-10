@@ -52,8 +52,6 @@ Another day done, and who knows what the morrow will bring us, eh, Dunk?(wiki:Ar
 It is not every man who can boast that he broke seven lances against [the finest knight](wiki:Baelor_Targaryen_(son_of_Daeron_II)) in the [Seven Kingdoms](wiki:Seven_Kingdoms). I could never hope to do better, so why should I try?(wiki:Arlan_of_Pennytree.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
 Never refuse a cup of [wine](wiki:Wine) or a horn of [ale](wiki:Ale), it may be a year before you see another.(wiki:Arlan_of_Pennytree.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 
-## Quotes
-
 I'd leave your sword, but it would rust in the ground. [The gods will](wiki:Faith_of_the_Seven) give you a new one, I guess. I wish you didn't die, ser. You were a [true knight](wiki:True_knight), and you never beat me when I didn't deserve it, except that one time in [Maidenpool](wiki:Maidenpool). It was the inn boy who ate the widow woman's pie, not me, I told you. It don't matter now. The gods keep you, ser.(wiki:Arlan_of_Pennytree.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15)
 Duncan: He always said he meant for me to be a [knight](wiki:Knight), as he was. When he was dying he called for his longsword and bade me kneel. He touched me once on my right shoulder and once on my left, and said some words, and when I got up he said I was a knight.
 Plummer: Any knight can make a knight, it is true, though it is more customary to stand a vigil and be anointed by a [septon](wiki:Septon) before taking your vows. Were there any witnesses to your dubbing?

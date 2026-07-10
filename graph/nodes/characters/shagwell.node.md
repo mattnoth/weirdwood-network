@@ -59,6 +59,4 @@ The lovers, and what a lovely sight they are. 'Twould be cruel to separate the g
 Shagwell: You mustn't hurt sweet Shagwell, I'm too droll to die.
 Brienne: You are no better than [the rest of them](wiki:Brave_Companions). You have robbed and raped and murdered. Shagwell: Oh, I have, I have, I shan't deny it... but I'm amusing, with all my japes and capers. I make men laugh. Brienne: And women weep.
 
-## Quotes
-
 He better shut his mouth or I'll put him on [my list](wiki:Arya_Stark) with the rest.(wiki:Shagwell.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)

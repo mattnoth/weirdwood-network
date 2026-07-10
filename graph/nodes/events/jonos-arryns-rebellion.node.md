@@ -1,6 +1,6 @@
 ---
 name: "Jonos Arryn's rebellion"
-type: event.battle
+type: event.war
 slug: jonos-arryns-rebellion
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Jonos Arryn's rebellion is a event.battle from the AWOIAF wiki.
+Jonos Arryn's rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

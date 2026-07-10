@@ -1,6 +1,6 @@
 ---
 name: "Second Spice War"
-type: event.battle
+type: event.war
 slug: second-spice-war
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Second Spice War is a event.battle from the AWOIAF wiki.
+Second Spice War is a event.war from the AWOIAF wiki.
 
 ## Edges
 

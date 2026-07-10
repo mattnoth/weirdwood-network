@@ -96,8 +96,6 @@ I want to see my sons again, and [Helaena](wiki:Helaena_Targaryen), my sweet gir
 > “Ser Criston protects the princess from her enemies, but who protects the princess from Ser Criston?” Queen Alicent asked one day at court.
 > — Alicent Hightower, at court, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:87`)
 
-## Quotes
-
 [[Viserys I Targaryen](wiki:Viserys_I_Targaryen)] would marry again, yes… but not to [a twelve-year-old girl](wiki:Laena_Velaryon), and not for reasons of state. Another woman had caught his eye. He announced his intention to wed Lady Alicent of [House Hightower](wiki:House_Hightower), the clever and lovely eighteen-year-old daughter of [the King’s Hand](wiki:Otto_Hightower), the girl who had read to King [Jaehaerys](wiki:Jaehaerys_I_Targaryen) as he lay dying.(wiki:Alicent_Hightower.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-19)
 Queen Alicent had soon proved to be as fertile as she was pretty.(wiki:Alicent_Hightower.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-20)
 The [boy](wiki:Aegon_II_Targaryen) is Alicent's [own blood](wiki:House_Hightower). She wants him on the [throne](wiki:Iron_Throne).(wiki:Alicent_Hightower.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-21)

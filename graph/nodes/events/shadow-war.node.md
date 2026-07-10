@@ -1,6 +1,6 @@
 ---
 name: "Shadow war"
-type: event.battle
+type: event.war
 slug: shadow-war
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Shadow war is a event.battle from the AWOIAF wiki.
+Shadow war is a event.war from the AWOIAF wiki.
 
 ## Edges
 

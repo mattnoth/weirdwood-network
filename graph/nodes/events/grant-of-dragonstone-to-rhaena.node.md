@@ -1,6 +1,6 @@
 ---
 name: "Grant of Dragonstone to Rhaena"
-type: event.other
+type: event.incident
 slug: grant-of-dragonstone-to-rhaena
 aliases: []
 confidence: tier-2

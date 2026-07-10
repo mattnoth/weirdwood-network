@@ -1,9 +1,9 @@
 {
   "slug": "sun-chaser-glimpsed-in-asshais-harbor",
   "name": "Sun Chaser glimpsed in Asshai's harbor",
-  "type": "event.sighting",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/sun-chaser-glimpsed-in-asshais-harbor.node.md",
-  "generated_at": "2026-07-10T14:28:37.079199+00:00",
+  "generated_at": "2026-07-10T20:22:40.444571+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

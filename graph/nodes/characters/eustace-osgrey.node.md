@@ -73,8 +73,6 @@ I am old, but I am not dead. [The woman](wiki:Rohanne_Webber) will soon find tha
 A king's mercy is a [poisoned](wiki:Poison) gift. [Daeron Targaryen](wiki:Daeron_II_Targaryen) left me life, but took my pride and dreams and honor. I should have gone with [Bittersteel](wiki:Aegor_Rivers) into exile, or died beside my sons and [my sweet king](wiki:Daemon_I_Blackfyre). That would have been a death worthy of a [chequy lion](wiki:House_Osgrey) descended from so many proud lords and mighty warriors. Daeron's mercy made me smaller.(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-24)
 Better to go boldly than hide behind [stone walls](wiki:Standfast). Better to die [a lion](wiki:House_Osgrey) than a rabbit.(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-25)
 
-## Quotes
-
 Sefton: Osgrey of the chequy lion? I thought [House Osgrey](wiki:House_Osgrey) was extinguished. Lucas: Near enough as makes no matter. The old man is the last of them.(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-26)
 Duncan: The old man's sons died in service to the king, why would His Grace take [his stream](wiki:Chequy_Water) away? Rohanne: If King [Daeron](wiki:Daeron_II_Targaryen) had been a less forgiving man, he should have lost his head as well.(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-27)
 Ser Eustace Osgrey is a [rebel](wiki:First_Blackfyre_Rebellion) and a [traitor](wiki:Traitor).(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-28)

@@ -1,9 +1,9 @@
 {
   "slug": "announcement-of-the-aegon-rhaena-marriage",
   "name": "Announcement of the Aegon–Rhaena marriage",
-  "type": "event.betrothal",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/announcement-of-the-aegon-rhaena-marriage.node.md",
-  "generated_at": "2026-07-10T14:28:37.037028+00:00",
+  "generated_at": "2026-07-10T20:22:40.393273+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

@@ -37,8 +37,6 @@ Fire for fire.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D
 > In 13 AC, Meria Martell, the Yellow Toad of Dorne, died abed (whilst having intimate relations with a stallion, her enemies insisted).
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:135`)
 
-## Quotes
-
 The Yellow Toad has melted into the sands.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 The toad hops into her hole whenver threatened.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 Meria fought like a woman, with lies and treachery and witchery.(wiki:Meria_Martell.cite_ref-Rfab2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)

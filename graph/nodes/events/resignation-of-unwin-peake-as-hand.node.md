@@ -1,6 +1,6 @@
 ---
 name: "Resignation of Unwin Peake as Hand"
-type: event.resignation
+type: event.incident
 slug: resignation-of-unwin-peake-as-hand
 aliases: []
 confidence: tier-2

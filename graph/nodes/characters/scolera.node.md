@@ -40,6 +40,4 @@ Septas Scolera, [Moelle](wiki:Moelle), and [Unella](wiki:Unella) are part of the
 
 You must feel so much lighter now, clean and innocent as a maid on the morning of her wedding.(wiki:Scolera.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
-## Quotes
-
 But one day I will have your tongue ripped out with hot pincers, and that will be hilarious.(wiki:Scolera.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)

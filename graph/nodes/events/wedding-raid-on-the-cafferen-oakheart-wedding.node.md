@@ -1,6 +1,6 @@
 ---
 name: "Wedding raid on the Cafferen–Oakheart wedding"
-type: event.betrayal
+type: event.incident
 slug: wedding-raid-on-the-cafferen-oakheart-wedding
 aliases: []
 confidence: tier-2

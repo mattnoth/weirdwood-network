@@ -1,6 +1,6 @@
 ---
 name: "Escape of Addam Velaryon"
-type: event.flight
+type: event.incident
 slug: escape-of-addam-velaryon
 aliases: []
 confidence: tier-2

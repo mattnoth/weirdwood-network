@@ -1,6 +1,6 @@
 ---
 name: "Assault on Lucinda Penrose"
-type: event.other
+type: event.incident
 slug: assault-on-lucinda-penrose
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Taming of Sheepstealer by Nettles"
-type: event.other
+type: event.incident
 slug: taming-of-sheepstealer-by-nettles
 aliases: []
 confidence: tier-2

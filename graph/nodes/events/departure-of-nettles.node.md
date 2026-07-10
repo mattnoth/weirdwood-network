@@ -1,6 +1,6 @@
 ---
 name: "Departure of Nettles"
-type: event.departure
+type: event.incident
 slug: departure-of-nettles
 aliases: []
 confidence: tier-2

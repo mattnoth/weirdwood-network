@@ -52,7 +52,5 @@ After [Dragonstone](wiki:Dragonstone) has been captured by the [Iron Throne](wik
 [Wildfire](wiki:Wildfire) is but one of the dread secrets of [our ancient order](wiki:Alchemists'_Guild).(wiki:Hallyne.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 [The substance](wiki:Wildfire) flows through my veins, and lives in the heart of every [pyromancer](wiki:Pyromancer). We respect its power.(wiki:Hallyne.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
-## Quotes
-
 Jaime: If these flames spread beyond [the tower](wiki:Tower_of_the_Hand), you may end up burning down [the castle](wiki:Red_Keep) whether you mean to or not. [Wildfire](wiki:Wildfire) is treacherous. Cersei: Lord Hallyne has assured me that his [pyromancers](wiki:Pyromancers) can control the fire. Let all of [King's Landing](wiki:King's_Landing) see the flames. It will be a lesson to our enemies.(wiki:Hallyne.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 I know that [Aurane Waters](wiki:Aurane_Waters) is a bad idea, and Hallyne is a worse one.(wiki:Hallyne.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)

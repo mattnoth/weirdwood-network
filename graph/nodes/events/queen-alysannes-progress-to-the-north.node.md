@@ -1,6 +1,6 @@
 ---
 name: "Queen Alysanne's progress to the North"
-type: event.progress
+type: event.incident
 slug: queen-alysannes-progress-to-the-north
 aliases: []
 confidence: tier-2

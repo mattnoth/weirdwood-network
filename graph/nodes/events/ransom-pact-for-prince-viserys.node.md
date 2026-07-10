@@ -1,6 +1,6 @@
 ---
 name: "Ransom Pact for Prince Viserys"
-type: event.negotiation
+type: event.incident
 slug: ransom-pact-for-prince-viserys
 aliases: []
 confidence: tier-2

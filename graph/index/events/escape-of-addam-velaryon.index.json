@@ -1,9 +1,9 @@
 {
   "slug": "escape-of-addam-velaryon",
   "name": "Escape of Addam Velaryon",
-  "type": "event.flight",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/escape-of-addam-velaryon.node.md",
-  "generated_at": "2026-07-10T14:28:37.070642+00:00",
+  "generated_at": "2026-07-10T20:22:40.434999+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

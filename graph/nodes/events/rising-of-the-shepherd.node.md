@@ -1,6 +1,6 @@
 ---
 name: "Rising of the Shepherd"
-type: event.uprising
+type: event.incident
 slug: rising-of-the-shepherd
 aliases: []
 confidence: tier-2

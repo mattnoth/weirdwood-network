@@ -1,6 +1,6 @@
 ---
 name: "Restoration of Aerea to Rhaena"
-type: event.other
+type: event.incident
 slug: restoration-of-aerea-to-rhaena
 aliases: []
 confidence: tier-2

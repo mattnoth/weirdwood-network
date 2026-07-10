@@ -1,9 +1,9 @@
 {
   "slug": "rising-of-the-shepherd",
   "name": "Rising of the Shepherd",
-  "type": "event.uprising",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/rising-of-the-shepherd.node.md",
-  "generated_at": "2026-07-10T14:28:37.091722+00:00",
+  "generated_at": "2026-07-10T20:22:40.459139+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

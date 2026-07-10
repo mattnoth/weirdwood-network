@@ -1,6 +1,6 @@
 ---
 name: "Yielding of the Red Keep"
-type: event.surrender
+type: event.incident
 slug: yielding-of-the-red-keep
 aliases: []
 confidence: tier-2

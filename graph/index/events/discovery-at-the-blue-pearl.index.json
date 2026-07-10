@@ -1,9 +1,9 @@
 {
   "slug": "discovery-at-the-blue-pearl",
   "name": "Discovery at the Blue Pearl",
-  "type": "event.scandal",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/discovery-at-the-blue-pearl.node.md",
-  "generated_at": "2026-07-10T14:28:37.050698+00:00",
+  "generated_at": "2026-07-10T20:22:40.409440+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

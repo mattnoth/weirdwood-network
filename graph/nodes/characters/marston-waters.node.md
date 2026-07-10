@@ -65,8 +65,6 @@ Some historians suspect Marston might have been no more than a catspaw deceived 
 Your Grace does us wrong to think we mean him harm. We acted only to protect Your Grace from false friends and traitors.(wiki:Marston_Waters.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 Marston: We are the both of us [bastards](wiki:Bastard) and [Sworn Brothers](wiki:Kingsguard) besides. Mervyn: You will be wanting my steel.(wiki:Marston_Waters.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 
-## Quotes
-
 [His Grace my brother](wiki:Aegon_III_Targaryen) can command me. You cannot.(wiki:Marston_Waters.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
 ## Fire & Blood

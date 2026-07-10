@@ -1,6 +1,6 @@
 ---
 name: "Theft of three dragon eggs"
-type: event.betrayal
+type: event.incident
 slug: theft-of-three-dragon-eggs
 aliases: []
 confidence: tier-2

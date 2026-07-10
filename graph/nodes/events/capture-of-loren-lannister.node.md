@@ -1,6 +1,6 @@
 ---
 name: "Capture of Loren Lannister"
-type: event.surrender
+type: event.incident
 slug: capture-of-loren-lannister
 aliases: []
 confidence: tier-2

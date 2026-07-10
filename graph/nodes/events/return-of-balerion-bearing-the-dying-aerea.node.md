@@ -1,6 +1,6 @@
 ---
 name: "Return of Balerion bearing the dying Aerea"
-type: event.other
+type: event.incident
 slug: return-of-balerion-bearing-the-dying-aerea
 aliases: []
 confidence: tier-2

@@ -60,6 +60,4 @@ It's the [builders](wiki:Builder) for me. What use would [rangers](wiki:Ranger) 
 I helped [Pate](wiki:Pate_(ranger)) carve the stone for [the pommel](wiki:Longclaw), and your friend [Sam](wiki:Samwell_Tarly) bought the [garnets](wiki:Garnet) in [Mole's Town](wiki:Mole's_Town).(wiki:Halder.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 Halder: Do we have to bind your hands, or will you give us your word you'll ride back peaceful? Jon: I won't run, if that's what you mean.(wiki:Halder.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 
-## Quotes
-
 Know your foe, Ser [Rodrik](wiki:Rodrik_Cassel) had taught him once; Jon knew Halder, brutally strong but short of patience, with no taste for defense. Frustrate him, and he would leave himself open, as certain as sunset.(wiki:Halder.cite_ref-Ragot26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)

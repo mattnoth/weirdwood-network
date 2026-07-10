@@ -1,6 +1,6 @@
 ---
 name: "Aerea hidden as a stable girl"
-type: event.concealment
+type: event.incident
 slug: aerea-hidden-as-a-stable-girl
 aliases: []
 confidence: tier-2

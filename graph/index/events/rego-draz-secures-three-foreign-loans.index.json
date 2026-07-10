@@ -1,9 +1,9 @@
 {
   "slug": "rego-draz-secures-three-foreign-loans",
   "name": "Rego Draz secures three foreign loans",
-  "type": "event.other",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/rego-draz-secures-three-foreign-loans.node.md",
-  "generated_at": "2026-07-10T14:28:37.011665+00:00",
+  "generated_at": "2026-07-10T20:22:40.360226+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

@@ -1,6 +1,6 @@
 ---
 name: "Harren the Red's rebellion"
-type: event.battle
+type: event.war
 slug: harren-the-reds-rebellion
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Harren the Red's rebellion is a event.battle from the AWOIAF wiki.
+Harren the Red's rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

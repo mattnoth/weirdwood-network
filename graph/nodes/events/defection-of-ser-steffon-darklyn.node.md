@@ -1,6 +1,6 @@
 ---
 name: "Defection of Ser Steffon Darklyn"
-type: event.betrayal
+type: event.incident
 slug: defection-of-ser-steffon-darklyn
 aliases: []
 confidence: tier-2

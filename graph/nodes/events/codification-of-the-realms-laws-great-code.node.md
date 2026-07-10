@@ -1,6 +1,6 @@
 ---
 name: "Codification of the realm's laws (Great Code)"
-type: event.reform
+type: event.decree
 slug: codification-of-the-realms-laws-great-code
 aliases: []
 confidence: tier-2

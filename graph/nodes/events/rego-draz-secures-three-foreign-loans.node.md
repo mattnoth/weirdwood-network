@@ -1,6 +1,6 @@
 ---
 name: "Rego Draz secures three foreign loans"
-type: event.other
+type: event.incident
 slug: rego-draz-secures-three-foreign-loans
 aliases: []
 confidence: tier-1

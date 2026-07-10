@@ -1,6 +1,6 @@
 ---
 name: "Famine of 59-60 AC"
-type: event.famine
+type: event.incident
 slug: famine-of-59-60-ac
 aliases: []
 confidence: tier-1

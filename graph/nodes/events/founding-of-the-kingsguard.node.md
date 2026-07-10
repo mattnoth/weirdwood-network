@@ -1,6 +1,6 @@
 ---
 name: "Founding of the Kingsguard"
-type: event.other
+type: event.incident
 slug: founding-of-the-kingsguard
 aliases: []
 confidence: tier-2

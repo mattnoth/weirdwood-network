@@ -1,6 +1,6 @@
 ---
 name: "Treaty of Eternal Peace"
-type: event.treaty
+type: event.incident
 slug: treaty-of-eternal-peace
 aliases: []
 confidence: tier-2

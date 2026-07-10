@@ -1,6 +1,6 @@
 ---
 name: "Wise Women depart for Dragonstone"
-type: event.voyage
+type: event.incident
 slug: wise-women-depart-for-dragonstone
 aliases: []
 confidence: tier-2

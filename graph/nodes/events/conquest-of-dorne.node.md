@@ -1,6 +1,6 @@
 ---
 name: "Conquest of Dorne"
-type: event.battle
+type: event.war
 slug: conquest-of-dorne
 aliases: []
 confidence: tier-1
@@ -27,7 +27,7 @@ sort_keys:
 
 ## Identity
 
-Conquest of Dorne is a event.battle from the AWOIAF wiki.
+Conquest of Dorne is a event.war from the AWOIAF wiki.
 
 ## Edges
 

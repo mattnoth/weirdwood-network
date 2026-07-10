@@ -1,6 +1,6 @@
 ---
 name: "Siege of Maegor's Holdfast"
-type: event.siege
+type: event.battle
 slug: siege-of-maegors-holdfast
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Jaehaerys's progress through the Vale of Arryn"
-type: event.progress
+type: event.incident
 slug: jaehaeryss-progress-through-the-vale-of-arryn
 aliases: []
 confidence: tier-2

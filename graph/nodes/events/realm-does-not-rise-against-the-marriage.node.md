@@ -1,6 +1,6 @@
 ---
 name: "Realm does not rise against the marriage"
-type: event.other
+type: event.incident
 slug: realm-does-not-rise-against-the-marriage
 aliases: []
 confidence: tier-2

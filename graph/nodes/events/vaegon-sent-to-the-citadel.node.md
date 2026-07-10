@@ -1,6 +1,6 @@
 ---
 name: "Vaegon sent to the Citadel"
-type: event.other
+type: event.incident
 slug: vaegon-sent-to-the-citadel
 aliases: []
 confidence: tier-2

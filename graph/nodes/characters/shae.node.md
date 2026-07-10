@@ -83,8 +83,6 @@ Shae: The Hand's whore, you mean? Though I would be your lady, m'lord. I'd dress
 Tyrion: Did you ever like my touch?
 Shae: More than anything, my giant of Lannister.
 
-## Quotes
-
 Shae only stood a shade over five feet, yet still he must look up to her ... but in her case he found he did not mind. She was sweet to look up at.(wiki:Shae.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 Shae may only be a [whore](wiki:Whore), but I am faithful to her after my fashion.(wiki:Shae.cite_ref-Racok29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
 I'm free of [Tysha](wiki:Tysha) now. She's haunted me half my life, but I don't need her any more, no more than I need [Alayaya](wiki:Alayaya) or [Dancy](wiki:Dancy) or [Marei](wiki:Marei), or the hundreds like them I've [bedded](wiki:Bedded) with over the years. I have Shae now. Shae.(wiki:Shae.cite_ref-Racok29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-4)

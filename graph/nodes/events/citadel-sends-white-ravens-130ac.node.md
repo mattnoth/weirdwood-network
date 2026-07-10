@@ -1,6 +1,6 @@
 ---
 name: "Citadel Sends White Ravens (130 AC)"
-type: event.other
+type: event.incident
 slug: citadel-sends-white-ravens-130ac
 aliases: []
 confidence: tier-2

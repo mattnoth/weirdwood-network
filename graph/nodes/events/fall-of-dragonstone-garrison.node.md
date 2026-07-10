@@ -1,6 +1,6 @@
 ---
 name: "Fall of the Dragonstone Garrison"
-type: event.uprising
+type: event.incident
 slug: fall-of-dragonstone-garrison
 aliases: []
 confidence: tier-2

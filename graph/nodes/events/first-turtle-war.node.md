@@ -1,6 +1,6 @@
 ---
 name: "First Turtle War"
-type: event.battle
+type: event.war
 slug: first-turtle-war
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-First Turtle War is a event.battle from the AWOIAF wiki.
+First Turtle War is a event.war from the AWOIAF wiki.
 
 ## Edges
 

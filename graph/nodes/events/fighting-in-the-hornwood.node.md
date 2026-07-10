@@ -46,11 +46,9 @@ Whilst some Hornwoods submit to Ramsay and attend his wedding to "[Arya Stark](w
 > —thoughts of [Bran Stark](wiki:Bran_Stark)
 
 > [He](wiki:Reek) is the only witness to the worst of [the Bastard's](wiki:Ramsay_Snow) crimes. Perhaps when Lord [Bolton](wiki:Roose_Bolton) hears his tale, he will abandon his claim, but meantime we have [Manderly](wiki:White_Harbor) knights and [Dreadfort](wiki:Dreadfort) men killing one another in [Hornwood forests](wiki:Hornwood_(forest)), and I lack the strength to stop them.(wiki:Fighting_in_the_Hornwood.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
->
 > —[Rodrik Cassel](wiki:Rodrik_Cassel) to [Luwin](wiki:Luwin)
 
 > **Rhaegar:** Have it as you will. By any name, [he](wiki:Ramsay_Snow) shall soon be wed to [Arya Stark](wiki:Jeyne_Poole). If you would keep faith with your promise, give him your allegiance, for he shall be your [Lord of Winterfell](wiki:Lord_of_Winterfell). **Wylla:** He won't ever be my lord! He made [Lady Hornwood](wiki:Donella_Hornwood) marry him, then shut her in a dungeon and made her eat her fingers.(wiki:Fighting_in_the_Hornwood.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
->
 > —[Rhaegar Frey](wiki:Rhaegar_Frey) and [Wylla Manderly](wiki:Wylla_Manderly) in the [Merman's Court](wiki:Merman's_Court)
 
 ## Aftermath
@@ -63,16 +61,3 @@ Because Wyman Manderly's son and heir, Ser [Wylis](wiki:Wylis_Manderly), was cap
 
 Whilst some Hornwoods submit to Ramsay and attend his wedding to "[Arya Stark](wiki:Jeyne_Poole)",(wiki:Fighting_in_the_Hornwood.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1) other Hornwood survivors of the Bolton betrayal at Winterfell join Stannis following his victorious [fight by Deepwood Motte](wiki:Fight_by_Deepwood_Motte).(wiki:Fighting_in_the_Hornwood.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
 
-## Quotes
-
-> [Roose Bolton](wiki:Roose_Bolton)'s [bastard](wiki:Ramsay_Snow) had started it by seizing [Lady Hornwood](wiki:Donella_Hornwood) as she returned from the [harvest feast](wiki:Harvest_feast), marrying her that very night even though he was young enough to be her son. Then [Lord Manderly](wiki:Wyman_Manderly) had taken [her castle](wiki:Hornwood). To protect the Hornwood holdings from the [Boltons](wiki:House_Bolton), he had written, but Ser [Rodrik](wiki:Rodrik_Cassel) had been almost as angry with him as with the bastard.(wiki:Fighting_in_the_Hornwood.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
->
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
-
-> [He](wiki:Reek) is the only witness to the worst of [the Bastard's](wiki:Ramsay_Snow) crimes. Perhaps when Lord [Bolton](wiki:Roose_Bolton) hears his tale, he will abandon his claim, but meantime we have [Manderly](wiki:White_Harbor) knights and [Dreadfort](wiki:Dreadfort) men killing one another in [Hornwood forests](wiki:Hornwood_(forest)), and I lack the strength to stop them.(wiki:Fighting_in_the_Hornwood.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
->
-> —[Rodrik Cassel](wiki:Rodrik_Cassel) to [Luwin](wiki:Luwin)
-
-> **Rhaegar:** Have it as you will. By any name, [he](wiki:Ramsay_Snow) shall soon be wed to [Arya Stark](wiki:Jeyne_Poole). If you would keep faith with your promise, give him your allegiance, for he shall be your [Lord of Winterfell](wiki:Lord_of_Winterfell). **Wylla:** He won't ever be my lord! He made [Lady Hornwood](wiki:Donella_Hornwood) marry him, then shut her in a dungeon and made her eat her fingers.(wiki:Fighting_in_the_Hornwood.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
->
-> —[Rhaegar Frey](wiki:Rhaegar_Frey) and [Wylla Manderly](wiki:Wylla_Manderly) in the [Merman's Court](wiki:Merman's_Court)

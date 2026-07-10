@@ -1,6 +1,6 @@
 ---
 name: "Winter of 59-60 AC"
-type: event.famine
+type: event.incident
 slug: winter-of-59-60-ac
 aliases: []
 confidence: tier-2

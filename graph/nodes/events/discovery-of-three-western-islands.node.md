@@ -1,6 +1,6 @@
 ---
 name: "Discovery of three western islands"
-type: event.discovery
+type: event.incident
 slug: discovery-of-three-western-islands
 aliases: []
 confidence: tier-2

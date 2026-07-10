@@ -78,8 +78,6 @@ Alliser: [Ser Piggy](wiki:Samwell_Tarly) thinks we're all fools, brothers. He's 
 Eddison: Beg pardon, shall I fetch m'lord some breakfast?
 Raven: Corn. Corn, corn. Jon: Roast raven. And half a pint of [ale](wiki:Ale).
 
-## Quotes
-
 Doubtless [old Mormont](wiki:Jeor_Mormont) would take it amiss if he throttled the creature.(wiki:Mormont's_raven.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
 Grief and noise. That's all they're good for, [ravens](wiki:Raven). Why I put up with that pestilential bird ...(wiki:Mormont's_raven.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-13)
 Jon: Lord [Mormont's](wiki:Jeor_Mormont) [raven](wiki:Raven) likes fruit and corn. Aemon: He is a rare bird. Most ravens will eat grain, but they prefer flesh. It makes them strong, and I fear they relish the taste of blood. In that they are like men ... and like men, not all ravens are alike.(wiki:Mormont's_raven.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-14)

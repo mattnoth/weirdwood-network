@@ -1,6 +1,6 @@
 ---
 name: "Renaming of Snowgate as Queensgate"
-type: event.other
+type: event.incident
 slug: renaming-of-snowgate-as-queensgate
 aliases: []
 confidence: tier-2

@@ -40,7 +40,5 @@ Preparing for Rohanne's arrival, Bennis decided to hold up in the tower of Stand
 Nasty stuff, water. Drank some once, and it made me sick as a dog. [Wine](wiki:Wine)'s better.(wiki:Bennis_of_the_Brown_Shield.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 Never knew an [animal](wiki:Animal) stupid as a sheep. Think they're kin to you, lunk?(wiki:Bennis_of_the_Brown_Shield.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 
-## Quotes
-
 The man is grown mean and false and craven.(wiki:Bennis_of_the_Brown_Shield.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 It is Bennis I want, and Bennis I shall have. No one rides onto my lands, does harm to one of mine, and escapes to laugh about it.(wiki:Bennis_of_the_Brown_Shield.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)

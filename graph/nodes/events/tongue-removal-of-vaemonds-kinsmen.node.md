@@ -1,6 +1,6 @@
 ---
 name: "Tongue removal of Vaemond's kinsmen"
-type: event.other
+type: event.incident
 slug: tongue-removal-of-vaemonds-kinsmen
 aliases: []
 confidence: tier-2

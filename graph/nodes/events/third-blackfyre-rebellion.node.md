@@ -1,6 +1,6 @@
 ---
 name: "Third Blackfyre Rebellion"
-type: event.battle
+type: event.war
 slug: third-blackfyre-rebellion
 aliases: []
 confidence: tier-1
@@ -27,7 +27,7 @@ sort_keys:
 
 ## Identity
 
-Third Blackfyre Rebellion is a event.battle from the AWOIAF wiki.
+Third Blackfyre Rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

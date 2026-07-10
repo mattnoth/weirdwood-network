@@ -1,6 +1,6 @@
 ---
 name: "Blood oath of the green conspirators"
-type: event.other
+type: event.incident
 slug: blood-oath-of-the-green-conspirators
 aliases: []
 confidence: tier-2

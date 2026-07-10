@@ -45,7 +45,5 @@ Quentyn hires the Windblown to try and capture one of Daenerys's [dragons](wiki:
 
 You were told your scheme was madness, have you forgotten? Do what you came to do.(wiki:Meris.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 
-## Quotes
-
 Pretty Meris frightened him. A [Westerosi](wiki:Westeros) woman, but taller than he was, just a thumb under six feet. After twenty years amongst the [free companies](wiki:Free_companies), there was nothing pretty about her, inside or out.(wiki:Meris.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 Quentyn: How did you learn their word? Tattered Prince: We chanced upon some [Brazen Beasts](wiki:Brazen_Beasts) and Meris asked them [prettily](wiki:Torture). But a prince should know better than to pose such questions, [Dornish](wiki:Dornish). In [Pentos](wiki:Pentos), we have a saying. Never ask the baker what went into the pie. Just eat.(wiki:Meris.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)

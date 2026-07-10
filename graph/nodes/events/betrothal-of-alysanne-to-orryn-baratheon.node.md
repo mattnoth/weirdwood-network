@@ -1,6 +1,6 @@
 ---
 name: "Betrothal of Alysanne to Orryn Baratheon"
-type: event.betrothal
+type: event.incident
 slug: betrothal-of-alysanne-to-orryn-baratheon
 aliases: []
 confidence: tier-1

@@ -1,6 +1,6 @@
 ---
 name: "Alyssa claims Meleys"
-type: event.other
+type: event.incident
 slug: alyssa-claims-meleys
 aliases: []
 confidence: tier-2

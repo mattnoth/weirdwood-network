@@ -1,6 +1,6 @@
 ---
 name: "Treaty of eternal peace with Dorne"
-type: event.treaty
+type: event.incident
 slug: treaty-of-eternal-peace-with-dorne
 aliases: []
 confidence: tier-2

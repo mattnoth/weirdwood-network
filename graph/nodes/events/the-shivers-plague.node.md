@@ -1,6 +1,6 @@
 ---
 name: "The Shivers plague"
-type: event.plague
+type: event.incident
 slug: the-shivers-plague
 aliases: []
 confidence: tier-2

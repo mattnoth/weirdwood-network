@@ -1,6 +1,6 @@
 ---
 name: "Aegon's Conquest"
-type: event.battle
+type: event.war
 slug: aegons-conquest
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Aegon's Conquest is a event.battle from the AWOIAF wiki.
+Aegon's Conquest is a event.war from the AWOIAF wiki.
 
 ## Edges
 
@@ -52,8 +52,3 @@ Now in control of six of the Seven Kingdoms and known as the Conqueror, Aegon I 
 
 The [Iron Islands](wiki:Iron_Islands) fell into chaos after the death of [Harren the Black](wiki:Harren_Hoare). In [2 AC](wiki:2_AC), Aegon led the [invasion of the Iron Islands](wiki:Invasion_of_the_Iron_Islands) and forced the surviving lords of the [ironborn](wiki:Ironborn) to submit. Aegon allowed them to choose Lord [Vickon Greyjoy](wiki:Vickon_Greyjoy) as the new [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands).(wiki:Aegon's_Conquest.cite_ref-Rtwoiafthe_iron_islands:_the_greyjoys_of_pyke.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) Dorne remained unconquered, however. Aegon continued the [Wars of Conquest](wiki:Wars_of_Conquest) in [4 AC](wiki:4_AC), beginning the bloody and unsuccessful [First Dornish War](wiki:First_Dornish_War).(wiki:Aegon's_Conquest.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
 
-## Quotes
-
-> [Aegon Targaryen](wiki:Aegon_I_Targaryen) conquered [Westeros](wiki:Westeros) with **[dragons](wiki:Dragon)**.(wiki:Aegon's_Conquest.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
->
-> —[Asha Greyjoy](wiki:Asha_Greyjoy) to [Euron Greyjoy](wiki:Euron_Greyjoy)

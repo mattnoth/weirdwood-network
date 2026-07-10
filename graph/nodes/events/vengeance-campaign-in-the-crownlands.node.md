@@ -1,6 +1,6 @@
 ---
 name: "Vengeance campaign in the crownlands"
-type: event.other
+type: event.incident
 slug: vengeance-campaign-in-the-crownlands
 aliases: []
 confidence: tier-2

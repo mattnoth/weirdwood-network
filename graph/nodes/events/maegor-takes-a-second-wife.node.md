@@ -1,6 +1,6 @@
 ---
 name: "Maegor takes a second wife"
-type: event.marriage
+type: event.wedding
 slug: maegor-takes-a-second-wife
 aliases: []
 confidence: tier-2

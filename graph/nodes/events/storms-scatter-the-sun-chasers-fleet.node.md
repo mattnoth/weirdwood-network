@@ -1,6 +1,6 @@
 ---
 name: "Storms scatter the Sun Chaser's fleet"
-type: event.disaster
+type: event.incident
 slug: storms-scatter-the-sun-chasers-fleet
 aliases: []
 confidence: tier-1

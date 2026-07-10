@@ -1,9 +1,9 @@
 {
   "slug": "founding-of-the-kingsguard",
   "name": "Founding of the Kingsguard",
-  "type": "event.other",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/founding-of-the-kingsguard.node.md",
-  "generated_at": "2026-07-10T14:28:37.047828+00:00",
+  "generated_at": "2026-07-10T20:22:40.406332+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

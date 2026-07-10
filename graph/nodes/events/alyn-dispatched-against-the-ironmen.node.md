@@ -1,6 +1,6 @@
 ---
 name: "Alyn dispatched against the ironmen"
-type: event.other
+type: event.incident
 slug: alyn-dispatched-against-the-ironmen
 aliases: []
 confidence: tier-2

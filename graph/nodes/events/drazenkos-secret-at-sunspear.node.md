@@ -1,6 +1,6 @@
 ---
 name: "Drazenko's secret at Sunspear"
-type: event.revelation
+type: event.incident
 slug: drazenkos-secret-at-sunspear
 aliases: []
 confidence: tier-2

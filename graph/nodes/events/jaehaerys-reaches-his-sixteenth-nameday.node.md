@@ -1,6 +1,6 @@
 ---
 name: "Jaehaerys reaches his sixteenth nameday"
-type: event.coming-of-age
+type: event.ceremony
 slug: jaehaerys-reaches-his-sixteenth-nameday
 aliases: []
 confidence: tier-2

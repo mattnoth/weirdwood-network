@@ -1,6 +1,6 @@
 ---
 name: "Founder of the Autumn Moon"
-type: event.shipwreck
+type: event.incident
 slug: founder-of-the-autumn-moon
 aliases: []
 confidence: tier-2

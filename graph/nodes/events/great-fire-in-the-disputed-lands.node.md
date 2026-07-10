@@ -1,6 +1,6 @@
 ---
 name: "Great fire in the Disputed Lands"
-type: event.disaster
+type: event.incident
 slug: great-fire-in-the-disputed-lands
 aliases: []
 confidence: tier-1

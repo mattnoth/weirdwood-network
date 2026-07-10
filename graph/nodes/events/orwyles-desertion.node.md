@@ -1,6 +1,6 @@
 ---
 name: "Orwyle's desertion"
-type: event.escape
+type: event.incident
 slug: orwyles-desertion
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Monstrous dragonbirth on Driftmark"
-type: event.other
+type: event.incident
 slug: monstrous-dragonbirth-on-driftmark
 aliases: []
 confidence: tier-2

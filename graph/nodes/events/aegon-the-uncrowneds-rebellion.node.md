@@ -1,6 +1,6 @@
 ---
 name: "Aegon the Uncrowned's rebellion"
-type: event.battle
+type: event.war
 slug: aegon-the-uncrowneds-rebellion
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Aegon the Uncrowned's rebellion is a event.battle from the AWOIAF wiki.
+Aegon the Uncrowned's rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

@@ -1,6 +1,6 @@
 ---
 name: "Rhaenys's parley with Meria Martell"
-type: event.negotiation
+type: event.incident
 slug: rhaenyss-parley-with-meria-martell
 aliases: []
 confidence: tier-2

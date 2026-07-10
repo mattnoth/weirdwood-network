@@ -1,6 +1,6 @@
 ---
 name: "Dragonpit construction resumes"
-type: event.other
+type: event.incident
 slug: dragonpit-construction-resumes
 aliases: []
 confidence: tier-1

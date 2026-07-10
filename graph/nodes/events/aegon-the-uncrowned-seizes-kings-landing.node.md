@@ -1,6 +1,6 @@
 ---
 name: "Aegon the Uncrowned seizes King's Landing"
-type: event.raid
+type: event.battle
 slug: aegon-the-uncrowned-seizes-kings-landing
 aliases: []
 confidence: tier-2

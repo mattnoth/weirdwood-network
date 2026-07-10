@@ -1,6 +1,6 @@
 ---
 name: "Baelon claims Vhagar"
-type: event.other
+type: event.incident
 slug: baelon-claims-vhagar
 aliases: []
 confidence: tier-2

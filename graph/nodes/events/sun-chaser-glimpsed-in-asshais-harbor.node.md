@@ -1,6 +1,6 @@
 ---
 name: "Sun Chaser glimpsed in Asshai's harbor"
-type: event.sighting
+type: event.incident
 slug: sun-chaser-glimpsed-in-asshais-harbor
 aliases: []
 confidence: tier-2

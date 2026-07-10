@@ -1,6 +1,6 @@
 ---
 name: "First Blackfyre Rebellion"
-type: event.battle
+type: event.war
 slug: first-blackfyre-rebellion
 aliases: []
 confidence: tier-1
@@ -28,7 +28,7 @@ sort_keys:
 
 ## Identity
 
-First Blackfyre Rebellion is a event.battle from the AWOIAF wiki.
+First Blackfyre Rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

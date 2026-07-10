@@ -1,6 +1,6 @@
 ---
 name: "Betrothal of Viserra to Theomore Manderly"
-type: event.betrothal
+type: event.incident
 slug: betrothal-of-viserra-to-theomore-manderly
 aliases: []
 confidence: tier-2

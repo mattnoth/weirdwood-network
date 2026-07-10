@@ -51,8 +51,6 @@ Hugh: We are [knights](wiki:Knight) now, truly.Ulf: Fie on that, we should be [l
 > Nor was he surfeit when Prince Daeron named him Lord of Bitterbridge. White had a greater prize in mind: he desired no less a seat than Highgarden, declaring that the Tyrells had played no part in the Dance, and therefore should be attainted as traitors.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:155`)
 
-## Quotes
-
 Ser Ulf gave himself entirely over to drunkenness, drowning himself in wine and [flesh](wiki:Prostitution).(wiki:Ulf_White.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
 
 ## Fire & Blood

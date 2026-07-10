@@ -1,6 +1,6 @@
 ---
 name: "Riverlords rise for Rhaenyra"
-type: event.uprising
+type: event.incident
 slug: riverlords-rise-for-rhaenyra
 aliases: []
 confidence: tier-2

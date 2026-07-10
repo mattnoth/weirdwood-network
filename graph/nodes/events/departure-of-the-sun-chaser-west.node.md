@@ -1,6 +1,6 @@
 ---
 name: "Departure of the Sun Chaser west"
-type: event.voyage
+type: event.incident
 slug: departure-of-the-sun-chaser-west
 aliases: []
 confidence: tier-2

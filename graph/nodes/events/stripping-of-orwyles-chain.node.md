@@ -1,6 +1,6 @@
 ---
 name: "Stripping of Orwyle's chain"
-type: event.deposition
+type: event.incident
 slug: stripping-of-orwyles-chain
 aliases: []
 confidence: tier-2

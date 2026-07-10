@@ -62,8 +62,6 @@ Shagga: Shagga wants this woman.
 Timett: Shagga wants every whore in this [city of whores](wiki:King's_Landing).
 Tyrion: I want night attacks, so many and so sudden that they'll be afraid to sleep— Shagga: All this I learned from [Dolf](wiki:Dolf) son of [Holger](wiki:Holger) before my beard had grown. This is the way of war in the [Mountains of the Moon](wiki:Mountains_of_the_Moon).(wiki:Shagga.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 
-## Quotes
-
 Shagga son of [Dolf](wiki:Dolf) is the one who looks like [Casterly Rock](wiki:Casterly_Rock) with hair.(wiki:Shagga.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 Leo: I saw that great hairy one today, the one who insisted that he must have two battle-axes, the heavy black [steel](wiki:Steel) ones with twin crescent blades.
 Tyrion: Shagga likes to kill with either hand. Leo: He still had that wood-axe of his strapped to his back.

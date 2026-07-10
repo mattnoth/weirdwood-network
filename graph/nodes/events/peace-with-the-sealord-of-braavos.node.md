@@ -1,6 +1,6 @@
 ---
 name: "Peace with the Sealord of Braavos"
-type: event.treaty
+type: event.incident
 slug: peace-with-the-sealord-of-braavos
 aliases: []
 confidence: tier-2

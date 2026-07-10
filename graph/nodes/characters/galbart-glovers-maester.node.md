@@ -38,8 +38,6 @@ When [mountain clans](wiki:Northern_mountain_clans) try to infiltrate Deepwood i
 
 Lady Asha, I beg you, strike your banners and let me bargain for your life. You have used us fairly, and with honor. I will tell them so.(wiki:Galbart_Glover's_maester.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Quotes
-
 [Galbart Glover](wiki:Galbart_Glover)'s maester had claimed the [mountain clans](wiki:Northern_mountain_clans) were too quarrelsome to ever band together without a [Stark](wiki:House_Stark) to lead them. He might not have been lying. He might just have been wrong.(wiki:Galbart_Glover's_maester.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 Asha: Lorren, [Harl](wiki:Six-Toed_Harl), fetch me [Lady Glover](wiki:Sybelle_Glover) and her maester.
 Lorren: Whole or bloody?

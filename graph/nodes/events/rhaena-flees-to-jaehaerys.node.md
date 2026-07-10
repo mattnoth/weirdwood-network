@@ -1,6 +1,6 @@
 ---
 name: "Rhaena flees to Jaehaerys"
-type: event.escape
+type: event.incident
 slug: rhaena-flees-to-jaehaerys
 aliases: []
 confidence: tier-2

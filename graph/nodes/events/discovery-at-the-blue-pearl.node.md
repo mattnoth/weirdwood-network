@@ -1,6 +1,6 @@
 ---
 name: "Discovery at the Blue Pearl"
-type: event.scandal
+type: event.incident
 slug: discovery-at-the-blue-pearl
 aliases: []
 confidence: tier-2

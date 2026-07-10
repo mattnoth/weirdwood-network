@@ -40,14 +40,6 @@ To destroy Queen [Margaery Tyrell](margaery-tyrell), [Cersei Lannister](cersei-l
 
 — Septa Moelle presenting the scripted confession Cersei intended against Margaery, AFFC Cersei X (`sources/chapters/affc/affc-cersei-10.md:27`)
 
-## Foreshadowing
-
-> "The thing is, the best lies have some truth in 'em … to give 'em flavor, as it were. And you want me to go tell how I fucked a queen …"
-
-— Osney Kettleblack to Cersei, unwittingly hinting at the truth (he has slept with Cersei, not Margaery) just before agreeing to the false confession script; the "truth in 'em" proves prophetic when the scourge extracts it, AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:333`)
-
-## Quotes
-
 > "No, you must take yourself to the Great Sept of Baelor this very night and speak with the High Septon … Tell him how you bedded Margaery and her cousins."
 
 — Cersei scripting [Osney Kettleblack](osney-kettleblack)'s false confession: the scheme that will ultimately backfire on her, AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:311`)
@@ -55,3 +47,10 @@ To destroy Queen [Margaery Tyrell](margaery-tyrell), [Cersei Lannister](cersei-l
 > "Aye." The chains rattled softly as Osney twisted in his shackles. "That one there. She's the queen I fucked, the one sent me to kill the old High Septon. He never had no guards. I just come in when he was sleeping and pushed a pillow down across his face."
 
 — Osney's tortured true confession naming Cersei, AFFC Cersei X (`sources/chapters/affc/affc-cersei-10.md:243`)
+
+## Foreshadowing
+
+> "The thing is, the best lies have some truth in 'em … to give 'em flavor, as it were. And you want me to go tell how I fucked a queen …"
+
+— Osney Kettleblack to Cersei, unwittingly hinting at the truth (he has slept with Cersei, not Margaery) just before agreeing to the false confession script; the "truth in 'em" proves prophetic when the scourge extracts it, AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:333`)
+

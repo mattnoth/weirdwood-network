@@ -1,6 +1,6 @@
 ---
 name: "Fair Isle rebellion"
-type: event.battle
+type: event.war
 slug: fair-isle-rebellion
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Fair Isle rebellion is a event.battle from the AWOIAF wiki.
+Fair Isle rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

@@ -1,6 +1,6 @@
 ---
 name: "Rhaena first flies Morning"
-type: event.other
+type: event.incident
 slug: rhaena-first-flies-morning
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Hour of the Wolf"
-type: event.battle
+type: event.incident
 slug: hour-of-the-wolf
 aliases: ["arrival of Cregan Stark"]
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Hour of the Wolf is a event.battle from the AWOIAF wiki.
+Hour of the Wolf is a event.incident from the AWOIAF wiki.
 
 ## Edges
 

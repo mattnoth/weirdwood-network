@@ -1,6 +1,6 @@
 ---
 name: "Rogar urges the council to set Jaehaerys aside"
-type: event.betrayal
+type: event.incident
 slug: rogar-urges-the-council-to-set-jaehaerys-aside
 aliases: []
 confidence: tier-2

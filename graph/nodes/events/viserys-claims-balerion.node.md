@@ -1,6 +1,6 @@
 ---
 name: "Viserys claims Balerion"
-type: event.other
+type: event.incident
 slug: viserys-claims-balerion
 aliases: []
 confidence: tier-2

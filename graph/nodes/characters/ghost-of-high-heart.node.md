@@ -51,8 +51,6 @@ The [old gods](wiki:Old_gods) stir and will not let me sleep. I dreamt I saw a [
 I dreamt a [wolf](wiki:Grey_Wind) howling in the rain, but no one heard his grief. I dreamt [such a clangor I thought my head might burst, drums and horns and pipes and screams](wiki:Red_Wedding), but the saddest sound was the [little bells](wiki:Jinglebell). I dreamt of a [maid](wiki:Sansa_Stark) at a [feast](wiki:Purple_Wedding) with [purple serpents](wiki:The_strangler) in her hair, venom dripping from their fangs. And later I dreamt that maid again, slaying a savage giant in a castle built of snow.(wiki:Ghost_of_High_Heart.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 I see you. I see you, [wolf](wiki:House_Stark) child. Blood child. I thought it was the [lord who smelled of death](wiki:Beric_Dondarrion) ... You are cruel to come to my hill, cruel. I [gorged on grief](wiki:Tragedy_at_Summerhall) at [Summerhall](wiki:Summerhall), I need none of yours. Begone from here, dark heart. Begone!(wiki:Ghost_of_High_Heart.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 
-## Quotes
-
 She has her own ways of knowing things, that one. The [weirwoods](wiki:Weirwood) whisper in her ear when she sleeps.(wiki:Ghost_of_High_Heart.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
 Daenerys: A [woods witch](wiki:Woods_witch)?
 Barristan: She came to court with [Jenny of Oldstones](wiki:Jenny_of_Oldstones). A stunted thing, grotesque to look upon. A [dwarf](wiki:Dwarf), most people said, though dear to Lady Jenny, who always claimed that she was one of the [children of the forest](wiki:Children_of_the_forest). Daenerys: What became of her?

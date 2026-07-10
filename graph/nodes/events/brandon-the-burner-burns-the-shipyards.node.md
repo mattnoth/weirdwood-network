@@ -1,6 +1,6 @@
 ---
 name: "Brandon the Burner burns the shipyards"
-type: event.other
+type: event.incident
 slug: brandon-the-burner-burns-the-shipyards
 aliases: []
 confidence: tier-2

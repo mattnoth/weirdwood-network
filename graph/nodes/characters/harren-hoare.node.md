@@ -64,8 +64,6 @@ Aegon: Yield now and you may remain as [Lord of the Iron Islands](wiki:Lord_of_t
 Harren: What is outside my walls is of no concern to me. Those walls are strong and thick. Aegon: But not so high as to keep out [dragons](wiki:Dragon). Dragons fly. Harren: I built in stone. Stone does not burn.
 Had I a daughter, the [dragonslayer](wiki:Dragonslayer) could claim her hand as well. Instead I will give him one of [Tully](wiki:House_Tully)'s daughters, or all three if he likes. Or he may pick one of [Blackwood](wiki:House_Blackwood)'s whelps, or [Strong](wiki:House_Strong)'s, or any girl born of these traitors of the [Trident](wiki:Trident), these [lords](wiki:Lord) of yellow mud.(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 
-## Quotes
-
 No king in [Westeros](wiki:Westeros) was more feared than Black Harren, whose cruelty had become legendary all through the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
 Harren had beggared the [riverlands](wiki:Riverlands) and the [Iron Islands](wiki:Iron_Islands) alike to ornament [his dream](wiki:Harrenhal).(wiki:Harren_Hoare.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 

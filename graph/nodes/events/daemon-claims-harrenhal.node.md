@@ -1,6 +1,6 @@
 ---
 name: "Daemon claims Harrenhal"
-type: event.occupation
+type: event.battle
 slug: daemon-claims-harrenhal
 aliases: []
 confidence: tier-2

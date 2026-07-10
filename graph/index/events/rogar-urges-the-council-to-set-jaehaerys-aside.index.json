@@ -1,9 +1,9 @@
 {
   "slug": "rogar-urges-the-council-to-set-jaehaerys-aside",
   "name": "Rogar urges the council to set Jaehaerys aside",
-  "type": "event.betrayal",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/rogar-urges-the-council-to-set-jaehaerys-aside.node.md",
-  "generated_at": "2026-07-10T14:28:37.077389+00:00",
+  "generated_at": "2026-07-10T20:22:40.442336+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

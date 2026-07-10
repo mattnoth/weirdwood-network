@@ -1,6 +1,6 @@
 ---
 name: "Alysanne conceives"
-type: event.other
+type: event.incident
 slug: alysanne-conceives
 aliases: []
 confidence: tier-2

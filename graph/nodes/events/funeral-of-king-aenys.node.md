@@ -1,6 +1,6 @@
 ---
 name: "Funeral of King Aenys"
-type: event.funeral
+type: event.ceremony
 slug: funeral-of-king-aenys
 aliases: []
 confidence: tier-2

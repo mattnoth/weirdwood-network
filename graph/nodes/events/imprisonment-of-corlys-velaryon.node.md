@@ -1,6 +1,6 @@
 ---
 name: "Imprisonment of Corlys Velaryon"
-type: event.imprisonment
+type: event.capture
 slug: imprisonment-of-corlys-velaryon
 aliases: []
 confidence: tier-2

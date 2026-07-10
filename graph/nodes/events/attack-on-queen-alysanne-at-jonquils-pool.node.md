@@ -1,6 +1,6 @@
 ---
 name: "Attack on Queen Alysanne at Jonquil's Pool"
-type: event.assassination_attempt
+type: event.assassination
 slug: attack-on-queen-alysanne-at-jonquils-pool
 aliases: []
 confidence: tier-2

@@ -1,6 +1,6 @@
 ---
 name: "Storm off Dorne sinks two ships"
-type: event.disaster
+type: event.incident
 slug: storm-off-dorne-sinks-two-ships
 aliases: []
 confidence: tier-2

@@ -41,8 +41,6 @@ Here's an [apple](wiki:Apple) that's not ripe yet.(wiki:Steffon_Fossoway.cite_re
 Raymun: If you think I wish any part of this, you're as thick as you are vile.
 Steffon: Vile? Guard your tongue, Raymun. We're both [apples from the same tree](wiki:House_Fossoway_of_Cider_Hall). And you are my squire. Or have you forgotten your vows? Raymun: No. Have you forgotten yours? You swore to be a [knight](wiki:Knight).
 
-## Quotes
-
 I may not be ripe, but my good cousin is rotten to the core. Knock the seeds out of him.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
 [Knights](wiki:Knight) like Ser Steffon had sharp eyes to find a man's weakness at a glance.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
 My cousin keeps a sharp watch on every tilt, though. Should any man be wounded on the morrow, or show signs of exhaustion or weakness, Steffon will be quick to knock on his shield, you may count on it. No one has ever accused him of an excess of chivalry.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)

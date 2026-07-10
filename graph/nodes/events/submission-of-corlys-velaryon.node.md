@@ -1,6 +1,6 @@
 ---
 name: "Submission of Corlys Velaryon"
-type: event.other
+type: event.incident
 slug: submission-of-corlys-velaryon
 aliases: []
 confidence: tier-2

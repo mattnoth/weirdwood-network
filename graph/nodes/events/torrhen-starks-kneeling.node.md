@@ -1,6 +1,6 @@
 ---
 name: "Torrhen Stark's kneeling"
-type: event.surrender
+type: event.incident
 slug: torrhen-starks-kneeling
 aliases: []
 confidence: tier-2

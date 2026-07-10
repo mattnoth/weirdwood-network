@@ -46,7 +46,5 @@ Raymun: If you think I wish any part of this, you're as thick as you are vile.
 Steffon: Vile? Guard your tongue, Raymun. We're both [apples from the same tree](wiki:House_Fossoway_of_Cider_Hall). And you are my squire. Or have you forgotten your vows? Raymun: No. Have you forgotten yours? You swore to be a [knight](wiki:Knight).
 I needed to make a small change to my sigil, lest I be mistaken for [my dishonorable cousin](wiki:Steffon_Fossoway). I fear I am still not ripe ... but better green than wormy, eh?(wiki:Raymun_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 
-## Quotes
-
 Here's an [apple](wiki:Apple) that's not ripe yet.(wiki:Raymun_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 Raymun of [House Fossoway](wiki:House_Fossoway), in the name of [the Warrior](wiki:Warrior_(the_Seven)) I charge you to be brave. In the name of [the Father](wiki:Father_(the_Seven)) I charge you to be just. In the name of [the Mother](wiki:Mother_(the_Seven)) I charge you to defend the young and innocent. In the name of [the Maid](wiki:Maiden_(the_Seven)) I charge you to protect all women.(wiki:Raymun_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)

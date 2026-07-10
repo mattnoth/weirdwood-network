@@ -1,6 +1,6 @@
 ---
 name: "Maegelle joins the Faith"
-type: event.other
+type: event.incident
 slug: maegelle-joins-the-faith
 aliases: []
 confidence: tier-2

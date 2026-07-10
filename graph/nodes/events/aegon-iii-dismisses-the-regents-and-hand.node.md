@@ -1,6 +1,6 @@
 ---
 name: "Aegon III dismisses the regents and Hand"
-type: event.dismissal
+type: event.incident
 slug: aegon-iii-dismisses-the-regents-and-hand
 aliases: []
 confidence: tier-1

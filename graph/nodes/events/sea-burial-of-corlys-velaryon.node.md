@@ -1,6 +1,6 @@
 ---
 name: "Sea burial of Corlys Velaryon"
-type: event.funeral
+type: event.ceremony
 slug: sea-burial-of-corlys-velaryon
 aliases: []
 confidence: tier-2

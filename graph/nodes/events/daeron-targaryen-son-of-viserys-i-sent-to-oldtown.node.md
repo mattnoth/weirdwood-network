@@ -1,6 +1,6 @@
 ---
 name: "Daeron sent to Oldtown"
-type: event.other
+type: event.incident
 slug: daeron-targaryen-son-of-viserys-i-sent-to-oldtown
 aliases: []
 confidence: tier-2

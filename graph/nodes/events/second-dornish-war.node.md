@@ -1,6 +1,6 @@
 ---
 name: "Second Dornish War"
-type: event.battle
+type: event.war
 slug: second-dornish-war
 aliases: []
 confidence: tier-1
@@ -27,7 +27,7 @@ sort_keys:
 
 ## Identity
 
-Second Dornish War is a event.battle from the AWOIAF wiki.
+Second Dornish War is a event.war from the AWOIAF wiki.
 
 ## Edges
 

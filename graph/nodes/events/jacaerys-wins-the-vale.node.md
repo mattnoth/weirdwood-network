@@ -1,6 +1,6 @@
 ---
 name: "Jacaerys wins the Vale"
-type: event.negotiation
+type: event.incident
 slug: jacaerys-wins-the-vale
 aliases: []
 confidence: tier-2

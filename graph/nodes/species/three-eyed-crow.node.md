@@ -42,8 +42,6 @@ Brynden teaches Bran about [greenseeing](wiki:Greenseer) and [skinchanging](wiki
 
 The strongest trees are rooted in the dark places of the earth. Darkness will be your cloak, your shield, your mother's milk. Darkness will make you strong.(wiki:Three-eyed_crow.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
-## Quotes
-
 Meera Reed: Who sent you? Who is this three-eyed crow? Coldhands: A friend. Dreamer, [wizard](wiki:Wizard), call him what you will. The last [greenseer](wiki:Greenseer).(wiki:Three-eyed_crow.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 A face took shape within the hearth. [Stannis](wiki:Stannis_Baratheon)? she thought, for just a moment . . . but no, these were not his features. A wooden face, corpse white. Was this [the enemy](wiki:Great_Other)? A thousand red eyes floated in the rising flames. He sees me. Beside him, [a boy with a wolf's face](wiki:Bran_Stark) threw back his head and howled.(wiki:Three-eyed_crow.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 Most of him has gone into the tree ... He has lived beyond his mortal span, and yet he lingers. For us, for you, for the realms of men. Only a little strength remains in his flesh. He has a thousand eyes and one, but there is much to watch. One day you will know.(wiki:Three-eyed_crow.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)

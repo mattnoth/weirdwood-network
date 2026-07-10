@@ -1,6 +1,6 @@
 ---
 name: "Sistermen's Rebellion"
-type: event.battle
+type: event.war
 slug: sistermens-rebellion
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Sistermen's Rebellion is a event.battle from the AWOIAF wiki.
+Sistermen's Rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

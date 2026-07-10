@@ -1,9 +1,9 @@
 {
   "slug": "yielding-of-the-red-keep",
   "name": "Yielding of the Red Keep",
-  "type": "event.surrender",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/yielding-of-the-red-keep.node.md",
-  "generated_at": "2026-07-10T14:28:37.029335+00:00",
+  "generated_at": "2026-07-10T20:22:40.384487+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

@@ -1,6 +1,6 @@
 ---
 name: "Lyonel Baratheon's rebellion"
-type: event.battle
+type: event.war
 slug: lyonel-baratheons-rebellion
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Lyonel Baratheon's rebellion is a event.battle from the AWOIAF wiki.
+Lyonel Baratheon's rebellion is a event.war from the AWOIAF wiki.
 
 ## Edges
 

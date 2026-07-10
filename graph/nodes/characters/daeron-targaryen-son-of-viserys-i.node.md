@@ -64,14 +64,11 @@ Ormund: Ser Daeron the Daring.Daeron: My Lord is kind to say so, but the victory
 > Three conflicting accounts exist as to the manner of death of Prince Daeron Targaryen. The best known claims that the prince stumbled from his pavilion with his nightclothes afire, only to be cut down by the Myrish sellsword Black Trombo, who smashed his face in with a swing of his spiked morningstar.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:83`)
 
-
 > On her back rode the youngest of Queen Alicent’s three sons, Daeron Targaryen, fifteen, Lord Ormund's squire, that same gentle and soft-spoken lad who had once been milk brother to Prince Jacaerys.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:59`)
 
 > This version was the one preferred by Black Trombo, who told it far and wide. The second version is more or less the same, save that the prince was killed with a sword, not a morningstar, and his slayer was not Black Trombo, but some unknown man-at-arms who like as not did not even realize whom he had killed. In the third alternative, the brave boy known as Daeron the Daring did not even make it out at all, but died when his burning pavilion collapsed upon him. That is the version preferred by Munkun’s True Telling, and by us.”
 > — Gyldayn's chronicle, on the second and third accounts of Daeron's death, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:87`)
-
-## Quotes
 
 Little boys should be more mannerly when men are speaking. I think [your father](wiki:Viserys_I_Targaryen) did not beat you often enough. Take care I do not make up for his lack.(wiki:Daeron_Targaryen_(son_of_Viserys_I).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 

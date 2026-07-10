@@ -1,6 +1,6 @@
 ---
 name: "Lysene Spring"
-type: event.battle
+type: event.incident
 slug: lysene-spring
 aliases: []
 confidence: tier-2

@@ -40,6 +40,4 @@ Duncan: Or else I'm dead, and doomed to [hell](wiki:Seven_hells). How much do yo
 Duncan: What am I to them? Pate: A [knight](wiki:Knight) who remembered his vows.(wiki:Steely_Pate.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 Look what [he's](wiki:Duncan_the_Tall) done to me [armor](wiki:Armor). All dinted and banged and scratched. Aye, I ask you, why do I bother?(wiki:Steely_Pate.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 
-## Quotes
-
 Uthor: I have my own [armor](wiki:Armor), and a better [horse](wiki:Horse) than yours. What do I want with [some old done nag](wiki:Thunder) and a sack of dinted plate and rusty mail?" Duncan: Steely Pate made that armor. [Egg](wiki:Aegon_V_Targaryen) has taken good care of it. There's not a spot of rust on my mail, and the [steel](wiki:Steel) is good and strong.(wiki:Steely_Pate.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)

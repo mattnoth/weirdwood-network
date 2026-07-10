@@ -1,6 +1,6 @@
 ---
 name: "Anarchy in the Reach"
-type: event.battle
+type: event.war
 slug: anarchy-in-the-reach
 aliases: []
 confidence: tier-1
@@ -21,7 +21,7 @@ sort_keys:
 
 ## Identity
 
-Anarchy in the Reach is a event.battle from the AWOIAF wiki.
+Anarchy in the Reach is a event.war from the AWOIAF wiki.
 
 ## Edges
 

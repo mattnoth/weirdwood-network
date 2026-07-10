@@ -1,6 +1,6 @@
 ---
 name: "Franklyn Farman banishes Rhaena from Fair Isle"
-type: event.banishment
+type: event.exile
 slug: franklyn-farman-banishes-rhaena-from-fair-isle
 aliases: []
 confidence: tier-2

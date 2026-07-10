@@ -1,6 +1,6 @@
 ---
 name: "Aenar's exodus to Dragonstone"
-type: event.migration
+type: event.incident
 slug: aenars-exodus-to-dragonstone
 aliases: []
 confidence: tier-2

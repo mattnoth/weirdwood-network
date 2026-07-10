@@ -1,9 +1,9 @@
 {
   "slug": "roberts-rebellion",
   "name": "Robert's Rebellion",
-  "type": "event.battle",
+  "type": "event.war",
   "node_path": "graph/nodes/events/roberts-rebellion.node.md",
-  "generated_at": "2026-07-10T14:28:37.012557+00:00",
+  "generated_at": "2026-07-10T20:22:40.362037+00:00",
   "stats": {
     "appearances_total": 16,
     "chapters_referenced_in": 16,

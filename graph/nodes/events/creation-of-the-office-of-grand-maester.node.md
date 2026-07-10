@@ -1,6 +1,6 @@
 ---
 name: "Creation of the office of Grand Maester"
-type: event.other
+type: event.incident
 slug: creation-of-the-office-of-grand-maester
 aliases: []
 confidence: tier-2

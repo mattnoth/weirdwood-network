@@ -1,9 +1,9 @@
 {
   "slug": "alyssa-dismisses-rogar-as-hand",
   "name": "Alyssa dismisses Rogar as Hand",
-  "type": "event.dismissal",
+  "type": "event.incident",
   "node_path": "graph/nodes/events/alyssa-dismisses-rogar-as-hand.node.md",
-  "generated_at": "2026-07-10T14:28:37.034805+00:00",
+  "generated_at": "2026-07-10T20:22:40.390832+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

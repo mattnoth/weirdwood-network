@@ -1,6 +1,6 @@
 ---
 name: "Disappearance of the Sun Chaser"
-type: event.disappearance
+type: event.incident
 slug: disappearance-of-the-sun-chaser
 aliases: []
 confidence: tier-2

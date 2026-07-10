@@ -53,8 +53,6 @@ Harma's brother [Halleck](wiki:Halleck) kneels before Stannis and yields her pig
 Harma: Kill him. Send his body back up in that cage o' theirs and tell them to send us someone else. I'll keep his head for my standard. A [turncloak](wiki:Turncloak)'s worse than a [dog](wiki:Dog).
 Varamyr: I warned you he was false. I never did like the smell o' him. Tormund: Pull in your claws, [beastling](wiki:Skinchanger). [The lad's](wiki:Jon_Snow) here to hear. You lay a paw on him, might be I'll take me that [shadowskin](wiki:Shadowskin) cloak I been wanting.
 
-## Quotes
-
 Kedge: Harma the Dogshead has the van, the poxy bitch. [Goady](wiki:Goady) crept up on her camp and saw her plain by the fire. That fool [Tumberjon](wiki:Tumberjon) wanted to pick her off with an arrow, but [Smallwood](wiki:Thoren_Smallwood) had better sense.
 Chett: How many were there, could you tell?
 There was Harma Dogshead, a squat keg of a woman with cheeks like slabs of white meat, who hated [dogs](wiki:Dog) and killed one every fortnight to make a fresh head for her banner; earless [Styr](wiki:Styr), [Magnar of Thenn](wiki:Magnar_of_Thenn), whose [own people](wiki:Thenns) thought him more god than lord; [Varamyr Sixskins](wiki:Varamyr_Sixskins), a small mouse of a man whose steed was a savage white [snow bear](wiki:Snow_bear) that stood thirteen feet tall on its hind legs.(wiki:Harma_Dogshead.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)

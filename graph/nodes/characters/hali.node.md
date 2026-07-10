@@ -34,6 +34,4 @@ Hali travels south of the [Wall](wiki:Wall) with [Osha](wiki:Osha), two unnamed 
 
 He's a fierce one, he is. You mean to fight us, boy?(wiki:Hali.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Quotes
-
 You’re as stupid as you are ugly, Hali.(wiki:Hali.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)

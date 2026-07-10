@@ -85,8 +85,6 @@ Marillion: I'm a singer, I want no part of this fight! Tyrion: What, lost your t
 All night I have been making songs for you in my head. A lay for your eyes, a ballad for your lips, a duet to your breasts. I will not sing them, though. They were poor things, unworthy of such beauty. Let me sing to you with my body instead.(wiki:Marillion.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 If I had eyes I should weep. I loved her so, I could not bear to see her in another's arms, to know she shared his bed. I meant no harm to my sweet lady, I swear it. I barred the door so no one could disturb us whilst I declared my passion, but Lady [Lysa](wiki:Lysa_Arryn) was so cold ... when she told that she was carrying Lord [Petyr's](wiki:Petyr_Baelish) child, a ... a madness seized me ...(wiki:Marillion.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-8)
 
-## Quotes
-
 As she had suspected, he was more interested in telling his own story than in hearing theirs. Singers loved nothing half so well as the sound of their own voices.(wiki:Marillion.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
 Craven rhymes nicely with [raven](wiki:Raven).(wiki:Marillion.cite_ref-Ragot31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)
 She did not understand why the gods would have given such a voice to such a wicked man.(wiki:Marillion.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-9)

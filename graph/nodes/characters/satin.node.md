@@ -60,8 +60,6 @@ Jon: Get your shield up.
 Satin: It's too heavy.
 Satin: It was [the priestess](wiki:Melisandre) we were laughing at. We were only having a jape, my lord. Jon: You have [your gods](wiki:Faith_of_the_Seven) and she has [hers](wiki:R'hllor). Leave her be.(wiki:Satin.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
 
-## Quotes
-
 Satin, they called him, even in the wool and mail and boiled leather of the [Night's Watch](wiki:Night's_Watch); the name he'd gotten in the [brothel](wiki:Brothel) where he'd been born and raised. He was pretty as a girl with his dark eyes, soft skin, and [raven](wiki:Raven)'s ringlets. Half a year at [Castle Black](wiki:Castle_Black) had toughened up his hands, however, and [Noye](wiki:Donal_Noye) said he was passable with a crossbow. Whether he had the courage to face [what was coming](wiki:Attack_on_Castle_Black), though...(wiki:Satin.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
 Cellador: My lord, the boy's a [whore](wiki:Whore)... a... dare I say... a painted catamite from the [brothels](wiki:Brothel) of [Oldtown](wiki:Oldtown). Jon: What he was in Oldtown is none of our concern. He's quick to learn and very clever. The other recruits started out despising him, but he won them over and made friends of them all. He's fearless in a fight and can even read and write after a fashion. He should be capable of fetching me my meals and saddling my [horse](wiki:Horse), don't you think?(wiki:Satin.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
 Whatever Satin may have done in [Oldtown](wiki:Oldtown), he is our brother now, and he will be my [squire](wiki:Squire).(wiki:Satin.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
