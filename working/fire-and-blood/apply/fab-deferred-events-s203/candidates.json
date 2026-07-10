@@ -179,7 +179,7 @@
    "target": "yielding-of-the-red-keep",
    "book": "fab",
    "chapter": "fab-rhaenyra-overthrown-18-p01",
-   "quote": "Ser Garth chose instead to strike Rhaenyra's banners, open his gates, and trust to the mercy of the foe",
+   "quote": "Ser Garth chose instead to strike Rhaenyra\u2019s banners, open his gates, and trust to the mercy of the foe",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: garth-the-harelip AGENT_IN Yielding of the Red Keep"
   },
@@ -245,7 +245,7 @@
    "target": "death-of-queen-rhaenyra",
    "book": "fab",
    "chapter": "fab-rhaenyra-overthrown-18-p02",
-   "quote": "the golden dragon devoured the queen in six bites.",
+   "quote": "the golden dragon devoured the queen in six bites",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: rhaenyra-targaryen VICTIM_IN Death of Queen Rhaenyra"
   },
@@ -256,7 +256,7 @@
    "target": "death-of-queen-rhaenyra",
    "book": "fab",
    "chapter": "fab-rhaenyra-overthrown-18-p02",
-   "quote": "Septon Eustace tells us that the golden dragon devoured the queen in six bites, leaving only her left leg below the shin 'for the Stranger.'",
+   "quote": "Septon Eustace tells us that the golden dragon devoured the queen in six bites, leaving only her left leg below the shin \u201cfor the Stranger.\u201d",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: sunfyre AGENT_IN Death of Queen Rhaenyra"
   },
@@ -267,7 +267,7 @@
    "target": "return-of-aegon-ii-to-kings-landing",
    "book": "fab",
    "chapter": "fab-short-sad-reign-of-aegon-ii-19",
-   "quote": "In the waning days of 130 AC, King Aegon II returned at last to King's Landing.",
+   "quote": "In the waning days of 130 AC, King Aegon II returned at last to King's Landing",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: aegon-ii-targaryen AGENT_IN Return of Aegon II to King's Landing"
   },
@@ -289,7 +289,7 @@
    "target": "deaths-of-the-two-toms",
    "book": "fab",
    "chapter": "fab-short-sad-reign-of-aegon-ii-19",
-   "quote": "His father Tom Tanglebeard was absent from the castle, but they found him in a tavern on Eel Alley. When he protested that he was 'just a simple fisherman, come to have an ale,' his captors drowned him in a cask of same.",
+   "quote": "His father Tom Tanglebeard was absent from the castle, but they found him in a tavern on Eel Alley. When he protested that he was \u201cjust a simple fisherman, come to have an ale,\u201d his captors drowned him in a cask of same.",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: tom-tanglebeard VICTIM_IN Deaths of the Two Toms"
   },
@@ -311,7 +311,7 @@
    "target": "green-council-peace-embassy-to-dragonstone",
    "book": "fab",
    "chapter": "fab-the-blacks-and-the-greens-16-p02",
-   "quote": "So Grand Maester Orwyle was dispatched across Blackwater Bay under a peace banner, leading a retinue that included Ser Arryk Cargyll of the Kingsguard.",
+   "quote": "So Grand Maester Orwyle was dispatched across Blackwater Bay under a peace banner, leading a retinue that included Ser Arryk Cargyll of the Kingsguard",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: orwyle AGENT_IN Green Council Peace Embassy to Dragonstone"
   },
@@ -344,7 +344,7 @@
    "target": "wedding-of-aegon-iii-and-jaehaera",
    "book": "fab",
    "chapter": "fab-the-hooded-hand-21",
-   "quote": "the wedding of Prince Aegon and Princess Jaehaera was celebrated out of doors, at the top of Visenya's Hill",
+   "quote": "the wedding of Prince Aegon and Princess Jaehaera was celebrated out of doors, at the top of Visenya\u2019s Hill",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: aegon-iii-targaryen PARTICIPATES_IN Wedding of Aegon III and Jaehaera"
   },
@@ -355,7 +355,7 @@
    "target": "wedding-of-aegon-iii-and-jaehaera",
    "book": "fab",
    "chapter": "fab-the-hooded-hand-21",
-   "quote": "the wedding of Prince Aegon and Princess Jaehaera was celebrated out of doors, at the top of Visenya's Hill",
+   "quote": "the wedding of Prince Aegon and Princess Jaehaera was celebrated out of doors, at the top of Visenya\u2019s Hill",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: jaehaera-targaryen PARTICIPATES_IN Wedding of Aegon III and Jaehaera"
   },
@@ -432,7 +432,7 @@
    "target": "taming-of-sheepstealer-by-nettles",
    "book": "fab",
    "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
-   "quote": "the brown dragon was brought to heel by the cunning and persistence of a \"small brown girl\" of six-and-ten",
+   "quote": "the brown dragon was brought to heel by the cunning and persistence of a \u201csmall brown girl\u201d of six-and-ten",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: nettles AGENT_IN Taming of Sheepstealer by Nettles"
   },
@@ -443,7 +443,7 @@
    "target": "citadel-sends-white-ravens-130ac",
    "book": "fab",
    "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-   "quote": "On Maiden's Day in the year 130 AC, the Citadel of Oldtown sent forth three hundred white ravens to herald the coming of winter",
+   "quote": "On Maiden\u2019s Day in the year 130 AC, the Citadel of Oldtown sent forth three hundred white ravens to herald the coming of winter",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: citadel AGENT_IN Citadel Sends White Ravens (130 AC)"
   },
@@ -465,7 +465,7 @@
    "target": "gunthor-slays-alester-wynch",
    "book": "fab",
    "chapter": "fab-voyage-of-alyn-oakenfist-23",
-   "quote": "the latter slew the former in a quarrel over Lord Farman's daughter Lysa",
+   "quote": "the latter slew the former in a quarrel over Lord Farman\u2019s daughter Lysa",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: gunthor-goodbrother AGENT_IN Gunthor Slays Alester Wynch"
   },
@@ -476,7 +476,7 @@
    "target": "gunthor-slays-alester-wynch",
    "book": "fab",
    "chapter": "fab-voyage-of-alyn-oakenfist-23",
-   "quote": "the latter slew the former in a quarrel over Lord Farman's daughter Lysa",
+   "quote": "the latter slew the former in a quarrel over Lord Farman\u2019s daughter Lysa",
    "tier": "tier-1",
    "note": "Fire & Blood deferred-events S203: alester-wynch VICTIM_IN Gunthor Slays Alester Wynch"
   },

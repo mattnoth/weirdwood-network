@@ -1,0 +1,18 @@
+{
+  "slug": "legitimization-of-addam-and-alyn",
+  "name": "Legitimization of Addam and Alyn",
+  "type": "event.decree",
+  "node_path": "graph/nodes/events/legitimization-of-addam-and-alyn.node.md",
+  "generated_at": "2026-07-10T02:27:34.703417+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

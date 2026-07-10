@@ -2,7 +2,7 @@
 name: "Maiden's Day Ball"
 type: event.battle
 slug: maidens-day-ball
-aliases: []
+aliases: ["the Cattle Show"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Maiden's_Day_Ball"
 bucket_id: tier3-pathb-events

@@ -3,7 +3,7 @@
   "name": "Ball",
   "type": "character.human",
   "node_path": "graph/nodes/characters/ball.node.md",
-  "generated_at": "2026-07-09T23:12:37.063127+00:00",
+  "generated_at": "2026-07-10T02:27:39.623192+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_pov": 0,

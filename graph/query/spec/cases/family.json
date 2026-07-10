@@ -11,8 +11,8 @@
       "memberCount": 96,
       "truncated": true,
       "generationCounts": {
-        "-2": 3, "-1": 2, "0": 3, "1": 8, "2": 7, "3": 19, "4": 10,
-        "5": 3, "6": 4, "7": 5, "8": 4, "9": 3, "10": 4, "11": 4, "12": 11, "13": 6
+        "-2": 3, "-1": 2, "0": 3, "1": 8, "2": 7, "3": 18, "4": 9,
+        "5": 8, "6": 4, "7": 5, "8": 3, "9": 3, "10": 4, "11": 4, "12": 11, "13": 4
       },
       "mustInclude": [
         "daenerys-targaryen",
@@ -24,7 +24,7 @@
         "maegor-i-targaryen"
       ]
     },
-    "note": "the design doc's pivot family-tree case. memberCount=96 is exactly MAX_FAMILY_MEMBERS — the dynasty overflows the cap and reports truncated=true rather than silently dropping kin. mustInclude covers both the near-root breadth (Aenys/Maegor, gen 1, direct sons) and the deep main-line spine (Daenerys/Rhaegar/Aerys II/Aegon V at gen 9-13, and the Blackfyre cadet split) — the spine exists specifically to reach descendants 12 hops past the default generationsDown=4 breadth horizon."
+    "note": "the design doc's pivot family-tree case. memberCount=96 is exactly MAX_FAMILY_MEMBERS — the dynasty overflows the cap and reports truncated=true rather than silently dropping kin. mustInclude covers both the near-root breadth (Aenys/Maegor, gen 1, direct sons) and the deep main-line spine (Daenerys/Rhaegar/Aerys II/Aegon V at gen 9-13, and the Blackfyre cadet split) — the spine exists specifically to reach descendants 12 hops past the default generationsDown=4 breadth horizon. generationCounts are prominence-sensitive (degree + 4*quoteCount picks who makes the cap), so enrichment passes legitimately reshuffle the per-generation split — repinned S203 after the F&B deferred-events mint raised Dance-era principals' degree (gen 5: 3->8). mustInclude is the real invariant; verify it still passes before repinning counts."
   },
   {
     "id": "family-aegon-i-targaryen-tight-window-opts-out-of-deep-spine",

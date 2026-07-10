@@ -2,7 +2,7 @@
 name: "Hour of the Wolf"
 type: event.battle
 slug: hour-of-the-wolf
-aliases: []
+aliases: ["arrival of Cregan Stark"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hour_of_the_Wolf"
 bucket_id: battles-f-p
