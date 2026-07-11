@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 6
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -170,3 +170,12 @@ However, Viserys himself never had much interest himself in [jousting](wiki:Jous
 - The ailing, bedridden king died in his sleep in the Red Keep on the third day of the third moon of 129 AC (fab-the-blacks-and-the-greens-16-p01:35)
 - His body was found by a serving man at the hour of the bat, who ran to inform Queen Alicent (fab-the-blacks-and-the-greens-16-p01:35)
 - His corpse lay unattended for days, swollen and rotting, while the greens delayed the announcement (fab-the-blacks-and-the-greens-16-p01:159)
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->
+
+- Grandson of Jaehaerys I; reigned 103–129; father of Aegon II. (fab-lineages-and-family-tree-25:33)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-10-recovery -->
+
+- Prince Baelon's sixteen-year-old son Viserys entered the Dragonpit in 93 AC and claimed the aged Balerion (fab-the-long-reign-cont-14-p04:211)
+- He flew thrice around the city but judged the Black Dread too weak to reach Dragonstone (fab-the-long-reign-cont-14-p04:211)

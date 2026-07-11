@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Torrhen_Stark"
 bucket_id: characters-other-t-u
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -66,3 +66,7 @@ Torrhen was entombed in the [crypts of Winterfell](wiki:Crypts_of_Winterfell) af
 - Torrhen Stark, King in the North of Winterfell, crossed the Neck with thirty thousand northmen (fab-aegons-conquest-03:261)
 - Facing three dragons and a larger host at the Trident, he sent his bastard brother Brandon Snow across to treat, then knelt himself (fab-aegons-conquest-03:269)
 - He rose as Lord of Winterfell and Warden of the North, remembered ever after as the King Who Knelt (fab-aegons-conquest-03:269)
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-10-recovery -->
+
+- Torrhen Stark of Winterfell, Warden of the North, was commanded to end the Sistermen's Rebellion (fab-reign-of-the-dragon-04:25)

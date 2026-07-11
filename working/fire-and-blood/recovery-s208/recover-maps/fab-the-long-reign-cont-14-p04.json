@@ -9,5 +9,12 @@
  "Balerion": "balerion",
  "Baelon Targaryen": "baelon-targaryen-son-of-jaehaerys-i",
  "Viserys Targaryen": "viserys-i-targaryen",
- "Aegon Targaryen": "aegon-targaryen-son-of-jaehaerys-i"
+ "Aegon Targaryen": "aegon-targaryen-son-of-jaehaerys-i",
+ "Death of Septon Barth": "death-of-septon-barth",
+ "Death of Balerion": "CREATE",
+ "Estrangement of king and queen (First Quarrel)": "first-quarrel",
+ "Death of Prince Aemon": "death-of-prince-aemon",
+ "Trial by combat of Jaehaerys and Stinger": "CREATE",
+ "Death of Queen Alysanne": "CREATE",
+ "Wedding of Rhaenys and Corlys Velaryon": "CREATE"
 }

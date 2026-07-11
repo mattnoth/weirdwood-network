@@ -1,0 +1,230 @@
+{
+  "_meta": {
+    "unit": "fab-aegons-conquest-03",
+    "session": "fab-reconcile",
+    "run_id": "fab-aegons-conquest-03-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "battle-against-darklyn-and-mooton",
+      "submission-of-rosby",
+      "surrender-of-highgarden",
+      "surrender-of-storms-end"
+    ],
+    "note": "Fire & Blood reconciler output for fab-aegons-conquest-03 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E14",
+      "type": "PARENT_OF",
+      "source": "gaemon-targaryen-son-of-aenar",
+      "target": "elaena-targaryen-daughter-of-gaemon",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Gaemon's son Aegon and his daughter Elaena",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Gaemon Targaryen PARENT_OF Elaena Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E15",
+      "type": "SIBLING_OF",
+      "source": "aegon-targaryen-son-of-gaemon",
+      "target": "elaena-targaryen-daughter-of-gaemon",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Gaemon's son Aegon and his daughter Elaena ruled together",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon Targaryen (son of Gaemon) SIBLING_OF Elaena Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E34",
+      "type": "PARENT_OF",
+      "source": "sharra-arryn",
+      "target": "ronnel-arryn-son-of-sharra",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "regent for her son Ronnel",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Sharra Arryn PARENT_OF Ronnel Arryn",
+      "qualifier": "biological"
+    },
+    {
+      "id": "EV5-agent-rhaenys-targaryen",
+      "type": "AGENT_IN",
+      "source": "rhaenys-targaryen",
+      "target": "submission-of-rosby",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Rosby yielded to Rhaenys and goldeneyed Meraxes without a fight",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Rhaenys Targaryen AGENT_IN Submission of Rosby"
+    },
+    {
+      "id": "EV7-agent-aegon-i-targaryen",
+      "type": "AGENT_IN",
+      "source": "aegon-i-targaryen",
+      "target": "battle-against-darklyn-and-mooton",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Both lords were slain in the one-sided battle",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon I Targaryen AGENT_IN Battle against Darklyn and Mooton"
+    },
+    {
+      "id": "EV7-patient-house-darklyn",
+      "type": "VICTIM_IN",
+      "source": "house-darklyn",
+      "target": "battle-against-darklyn-and-mooton",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Both lords were slain in the one-sided battle",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lord Darklyn VICTIM_IN Battle against Darklyn and Mooton"
+    },
+    {
+      "id": "EV7-patient-house-mooton",
+      "type": "VICTIM_IN",
+      "source": "house-mooton",
+      "target": "battle-against-darklyn-and-mooton",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Both lords were slain in the one-sided battle",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lord Mooton VICTIM_IN Battle against Darklyn and Mooton"
+    },
+    {
+      "id": "EV8-agent-visenya-targaryen",
+      "type": "AGENT_IN",
+      "source": "visenya-targaryen",
+      "target": "aegons-coronations",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Queen Rhaenys hailed him as, \"Aegon, First of His Name",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Visenya Targaryen AGENT_IN Aegon's first coronation"
+    },
+    {
+      "id": "EV8-agent-rhaenys-targaryen",
+      "type": "AGENT_IN",
+      "source": "rhaenys-targaryen",
+      "target": "aegons-coronations",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Queen Rhaenys hailed him as, \"Aegon, First of His Name",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Rhaenys Targaryen AGENT_IN Aegon's first coronation"
+    },
+    {
+      "id": "EV8-patient-aegon-i-targaryen",
+      "type": "PARTICIPATES_IN",
+      "source": "aegon-i-targaryen",
+      "target": "aegons-coronations",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Queen Rhaenys hailed him as, \"Aegon, First of His Name",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon I Targaryen PARTICIPATES_IN Aegon's first coronation"
+    },
+    {
+      "id": "EV11-agent-harren-hoare",
+      "type": "AGENT_IN",
+      "source": "harren-hoare",
+      "target": "wailing-willows",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "they suffered heavy losses at the Wailing Willows",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Harren Hoare AGENT_IN Battle at the Wailing Willows"
+    },
+    {
+      "id": "EV11-patient-aegon-i-targaryen",
+      "type": "VICTIM_IN",
+      "source": "aegon-i-targaryen",
+      "target": "wailing-willows",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "they suffered heavy losses at the Wailing Willows",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon I Targaryen VICTIM_IN Battle at the Wailing Willows"
+    },
+    {
+      "id": "EV12-patient-ronnel-arryn-son-of-sharra",
+      "type": "PARTICIPATES_IN",
+      "source": "ronnel-arryn-son-of-sharra",
+      "target": "sistermens-rebellion",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "the Sistermen renounced all allegiance to the Eyrie",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Ronnel Arryn PARTICIPATES_IN Sistermen's rebellion"
+    },
+    {
+      "id": "EV15-agent-argella-durrandon",
+      "type": "AGENT_IN",
+      "source": "argella-durrandon",
+      "target": "surrender-of-storms-end",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "delivered Lady Argella gagged, chained, and naked",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Argella Durrandon AGENT_IN Surrender of Storm's End"
+    },
+    {
+      "id": "EV15-patient-orys-baratheon",
+      "type": "PARTICIPATES_IN",
+      "source": "orys-baratheon",
+      "target": "surrender-of-storms-end",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "delivered Lady Argella gagged, chained, and naked",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Orys Baratheon PARTICIPATES_IN Surrender of Storm's End"
+    },
+    {
+      "id": "EV18-agent-harlan-tyrell",
+      "type": "AGENT_IN",
+      "source": "harlan-tyrell",
+      "target": "surrender-of-highgarden",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Tyrell yielded up the keys to the castle without a fight",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Harlan Tyrell AGENT_IN Surrender of Highgarden"
+    },
+    {
+      "id": "EV18-patient-aegon-i-targaryen",
+      "type": "PARTICIPATES_IN",
+      "source": "aegon-i-targaryen",
+      "target": "surrender-of-highgarden",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Tyrell yielded up the keys to the castle without a fight",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon I Targaryen PARTICIPATES_IN Surrender of Highgarden"
+    },
+    {
+      "id": "EV20-patient-ronnel-arryn-son-of-sharra",
+      "type": "PARTICIPATES_IN",
+      "source": "ronnel-arryn-son-of-sharra",
+      "target": "surrender-of-the-vale",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "surrendered them to Queen Visenya, along with the swords of her garrison",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Ronnel Arryn PARTICIPATES_IN Surrender of the Vale"
+    },
+    {
+      "id": "EV22-agent-manfred-hightower-aegons-conquest",
+      "type": "AGENT_IN",
+      "source": "manfred-hightower-aegons-conquest",
+      "target": "submission-of-oldtown",
+      "book": "fab",
+      "chapter": "fab-aegons-conquest-03",
+      "quote": "Lord Hightower waiting to make his submission",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Manfred Hightower AGENT_IN Submission of Oldtown"
+    }
+  ]
+}

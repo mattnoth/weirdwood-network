@@ -1,0 +1,38 @@
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Aenys I Targaryen", "slug": "aenys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Aerea Targaryen", "slug": "aerea-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Alyssa Velaryon", "slug": "alyssa-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Balerion", "slug": "balerion", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Burning of Poxy Jeyne Poore", "slug": "burning-of-jeyne-poore", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Ceryse Hightower", "slug": "ceryse-hightower", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Death of Maegor", "slug": "death-of-maegor-i-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Faith Militant", "slug": "faith-militant", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Grand Maester Benifer", "slug": "benifer", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Iron Throne", "slug": "iron-throne", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Jaehaerys Targaryen", "slug": "jaehaerys-i-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Jeyne Westerling", "slug": "jeyne-westerling-wife-of-maegor-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Kingsguard", "slug": "kingsguard", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Bar Emmon", "slug": "house-bar-emmon", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Buckwell", "slug": "house-buckwell", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Corbray", "slug": "house-corbray", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Darklyn", "slug": "house-darklyn", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Massey", "slug": "house-massey", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Oakheart", "slug": "house-oakheart", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Rowan", "slug": "house-rowan", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Staunton", "slug": "lord-staunton-father-of-cassella", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Towers", "slug": "house-towers", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Lord Tully", "slug": "prentys-tully", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Maegor I Targaryen", "slug": "maegor-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Most Devout", "slug": "most-devout", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Poor Fellows", "slug": "poor-fellows", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Poxy Jeyne Poore", "slug": "jeyne-poore", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Quicksilver", "slug": "quicksilver", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Rhaella Targaryen", "slug": "rhaella-targaryen-daughter-of-aegon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Rhaena Targaryen", "slug": "rhaena-targaryen-daughter-of-aenys-i", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Rhaena flees to Jaehaerys", "slug": "rhaena-flees-to-jaehaerys", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Ser Joffrey Doggett", "slug": "joffrey-doggett", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Seven Kingdoms", "slug": "seven-kingdoms", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Triple wedding of the Black Brides", "slug": "triple-wedding-of-the-black-brides", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Tyanna of the Tower", "slug": "tyanna-of-the-tower", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Visenya Targaryen", "slug": "visenya-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Viserys Targaryen", "slug": "viserys-targaryen-son-of-aenys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p03", "name": "Warrior's Sons", "slug": "warriors-sons", "route_reason": "recovery-override"}

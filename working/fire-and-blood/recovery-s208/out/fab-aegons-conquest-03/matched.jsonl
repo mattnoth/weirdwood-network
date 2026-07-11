@@ -1,0 +1,39 @@
+{"unit": "fab-aegons-conquest-03", "name": "Aegon I Targaryen", "slug": "aegon-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon Targaryen (son of Gaemon)", "slug": "aegon-targaryen-son-of-gaemon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Aegon's first coronation", "slug": "aegons-coronations", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Argella Durrandon", "slug": "argella-durrandon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Balerion", "slug": "balerion", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Battle at the Wailing Willows", "slug": "wailing-willows", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Blackwoods", "slug": "house-blackwood", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Brackens", "slug": "house-bracken", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Dorne", "slug": "dorne", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Elaena Targaryen", "slug": "elaena-targaryen-daughter-of-gaemon", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Faith Militant", "slug": "faith-militant", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Fishers", "slug": "house-fisher", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Gaemon Targaryen", "slug": "gaemon-targaryen-son-of-aenar", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Harlan Tyrell", "slug": "harlan-tyrell", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Harren Hoare", "slug": "harren-hoare", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "High Septon", "slug": "high-septon-aegons-conquest", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Hooks", "slug": "house-hook", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Bar Emmon", "slug": "house-bar-emmon", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Darklyn", "slug": "house-darklyn", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Mooton", "slug": "house-mooton", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Lord Oakheart", "slug": "house-oakheart", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Mallisters", "slug": "house-mallister", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Manfred Hightower", "slug": "manfred-hightower-aegons-conquest", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Marla Sunderland", "slug": "marla-sunderland", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Mudds", "slug": "house-mudd", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Orys Baratheon", "slug": "orys-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Rhaenys Targaryen", "slug": "rhaenys-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "Ronnel Arryn", "slug": "ronnel-arryn-son-of-sharra", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Sharra Arryn", "slug": "sharra-arryn", "route_reason": "hit-character"}
+{"unit": "fab-aegons-conquest-03", "name": "Sistermen's rebellion", "slug": "sistermens-rebellion", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Starry Sept", "slug": "starry-sept", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Strongs", "slug": "house-strong", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Submission of Oldtown", "slug": "submission-of-oldtown", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Surrender of the Vale", "slug": "surrender-of-the-vale", "route_reason": "hit"}
+{"unit": "fab-aegons-conquest-03", "name": "Vances", "slug": "house-vance", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "Visenya Targaryen", "slug": "visenya-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-aegons-conquest-03", "name": "the Faith", "slug": "faith-of-the-seven", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "the North", "slug": "north", "route_reason": "recovery-override"}
+{"unit": "fab-aegons-conquest-03", "name": "the Vale", "slug": "vale-of-arryn", "route_reason": "recovery-override"}

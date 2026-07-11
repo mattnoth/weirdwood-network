@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 9
+node_version: 10
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -243,3 +243,7 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 - Warned by Maester Norren of the queen's order to behead Nettles, he parted from the girl at dawn and declared he would fly for Harrenhal to face Aemond alone (fab-the-red-dragon-and-the-gold-17-p04:211)
 - He claimed the ruined Harrenhal, slashing the godswood heart tree each dusk of a fourteen-day vigil (fab-the-red-dragon-and-the-gold-17-p04:215)
 - At the battle's climax he leapt from Caraxes to Vhagar and drove Dark Sister through Aemond's blind eye; both princes died, Daemon nine-and-forty, his body never found (fab-the-red-dragon-and-the-gold-17-p04:249)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-10-recovery -->
+
+- He flew Caraxes south past Criston's line of march and took the city with the aid of the City Watch, who still loved the Prince of the City (fab-the-red-dragon-and-the-gold-17-p02:125)

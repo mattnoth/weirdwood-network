@@ -11,5 +11,13 @@
  "Balerion": "balerion",
  "Baelon Targaryen": "baelon-targaryen-son-of-jaehaerys-i",
  "Visenya": "visenya-targaryen",
- "Rhaena Targaryen": "rhaena-targaryen-daughter-of-aenys-i"
+ "Rhaena Targaryen": "rhaena-targaryen-daughter-of-aenys-i",
+ "Death of Prince Aemon": "CREATE",
+ "Wedding of Viserys and Aemma Arryn": "CREATE",
+ "Accession of Viserys I": "CREATE",
+ "Death of Prince Baelon": "CREATE",
+ "Creation of the gold cloaks": "CREATE",
+ "Death of Septon Barth": "CREATE",
+ "Death of Jaehaerys I": "CREATE",
+ "Wedding of Daemon and Rhea Royce": "CREATE"
 }

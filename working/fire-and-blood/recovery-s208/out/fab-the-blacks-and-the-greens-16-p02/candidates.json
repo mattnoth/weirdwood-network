@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "unit": "fab-the-blacks-and-the-greens-16-p02",
+    "session": "fab-reconcile",
+    "run_id": "fab-the-blacks-and-the-greens-16-p02-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "closing-of-the-gullet",
+      "compact-of-white-harbor"
+    ],
+    "note": "Fire & Blood reconciler output for fab-the-blacks-and-the-greens-16-p02 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E6",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "viserys-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "her boys by Prince Daemon, Aegon the Younger and Viserys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen PARENT_OF Viserys (son of Daemon)",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E17",
+      "type": "PARENT_OF",
+      "source": "viserys-i-targaryen",
+      "target": "rhaenyra-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "asked Orwyle if he remembered her father, King Viserys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: King Viserys PARENT_OF Rhaenyra Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E19",
+      "type": "DEPOSES",
+      "source": "rhaenyra-targaryen",
+      "target": "orwyle",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "stripped his chain of office from his neck",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen DEPOSES Grand Maester Orwyle"
+    },
+    {
+      "id": "E57",
+      "type": "CONTRACTED_WITH",
+      "source": "mysaria",
+      "target": "cheese-ratcatcher",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "Prince Daemon's go-between found suitable instruments",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Mysaria CONTRACTED_WITH Cheese",
+      "qualifier": "assassination"
+    },
+    {
+      "id": "E63",
+      "type": "CAPTURES",
+      "source": "cheese-ratcatcher",
+      "target": "alicent-hightower",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "Cheese bound and gagged the Dowager Queen",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Cheese CAPTURES Alicent Hightower"
+    },
+    {
+      "id": "EV3-patient-orwyle",
+      "type": "PARTICIPATES_IN",
+      "source": "orwyle",
+      "target": "stripping-of-orwyles-chain",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "stripped his chain of office from his neck",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Grand Maester Orwyle PARTICIPATES_IN Stripping of Orwyle's chain"
+    },
+    {
+      "id": "EV4-agent-corlys-velaryon",
+      "type": "AGENT_IN",
+      "source": "corlys-velaryon",
+      "target": "closing-of-the-gullet",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "close the Gullet, choking off trade to and from King's Landing",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Corlys Velaryon AGENT_IN Closing of the Gullet"
+    },
+    {
+      "id": "EV4-patient-kings-landing",
+      "type": "PARTICIPATES_IN",
+      "source": "kings-landing",
+      "target": "closing-of-the-gullet",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "close the Gullet, choking off trade to and from King's Landing",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: King's Landing PARTICIPATES_IN Closing of the Gullet"
+    },
+    {
+      "id": "EV8-agent-jacaerys-velaryon",
+      "type": "AGENT_IN",
+      "source": "jacaerys-velaryon",
+      "target": "compact-of-white-harbor",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "a compact was drawn up and signed",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Jacaerys Velaryon AGENT_IN Compact of White Harbor"
+    },
+    {
+      "id": "EV8-patient-desmond-manderly",
+      "type": "PARTICIPATES_IN",
+      "source": "desmond-manderly",
+      "target": "compact-of-white-harbor",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "a compact was drawn up and signed",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Desmond Manderly PARTICIPATES_IN Compact of White Harbor"
+    },
+    {
+      "id": "EV11-agent-blood-butcher",
+      "type": "AGENT_IN",
+      "source": "blood-butcher",
+      "target": "murder-of-prince-jaehaerys",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "slew Prince Jaehaerys, striking off the boy’s head with a single blow",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Blood AGENT_IN Murder of Prince Jaehaerys (Blood and Cheese)"
+    }
+  ]
+}

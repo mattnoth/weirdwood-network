@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Daeron_Targaryen_(son_of_Viserys_I)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -88,3 +88,14 @@ Little boys should be more mannerly when men are speaking. I think [your father]
 
 - Prince "Daeron the Daring," youngest of Alicent's sons, who rode Tessarion down upon Tumbleton (fab-the-red-dragon-and-the-gold-17-p04:17)
 - Left leaderless after Ormund's death and a boy used to following commands, he was sickened by the sack and bade Hobert stop it (fab-the-red-dragon-and-the-gold-17-p04:135)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-10-recovery -->
+
+- The youngest of Alicent's three sons, fifteen and Ormund Hightower's squire, once milk brother to Jacaerys (fab-the-red-dragon-and-the-gold-17-p02:61)
+- His arrival on Tessarion reversed the tide at the Honeywine, after which Ormund knighted him with the Valyrian longsword Vigilance as "Ser Daeron the Daring" (fab-the-red-dragon-and-the-gold-17-p02:61)
+- He deflected the honor to his dragon (fab-the-red-dragon-and-the-gold-17-p02:61)
+- In the Reach he continued to win victories as Lord Hightower's ward (fab-the-red-dragon-and-the-gold-17-p02:215)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-10-recovery -->
+
+- He named Maelor his nephew and answered Lady Caswell with vengeance (fab-the-red-dragon-and-the-gold-17-p03:93)

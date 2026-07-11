@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "unit": "fab-birth-death-and-betrayal-10",
+    "session": "fab-reconcile",
+    "run_id": "fab-birth-death-and-betrayal-10-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "death-of-septon-oswyck",
+      "rebuilding-of-kings-landing-begins"
+    ],
+    "note": "Fire & Blood reconciler output for fab-birth-death-and-betrayal-10 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E12",
+      "type": "SIBLING_OF",
+      "source": "house-darklyn",
+      "target": "jonquil-darke",
+      "book": "fab",
+      "chapter": "fab-birth-death-and-betrayal-10",
+      "quote": "his bastard half-sister, Jonquil Darke",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lord Darklyn SIBLING_OF Jonquil Darke",
+      "qualifier": "half"
+    },
+    {
+      "id": "E14",
+      "type": "EXECUTES",
+      "source": "house-mooton",
+      "target": "rosamund-ball",
+      "book": "fab",
+      "chapter": "fab-birth-death-and-betrayal-10",
+      "quote": "Lord Mooton hanged the guilty",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lord Mooton EXECUTES Rosamund Ball"
+    },
+    {
+      "id": "E16",
+      "type": "SPOUSE_OF",
+      "source": "aenys-i-targaryen",
+      "target": "alyssa-velaryon",
+      "book": "fab",
+      "chapter": "fab-birth-death-and-betrayal-10",
+      "quote": "the last babe she had borne to King Aenys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aenys SPOUSE_OF Alyssa Velaryon",
+      "qualifier": "widowed"
+    },
+    {
+      "id": "E36",
+      "type": "VOWS_TO",
+      "source": "oswyck",
+      "target": "jaehaerys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-birth-death-and-betrayal-10",
+      "quote": "Oswyck had agreed to perform the rites for them",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Septon Oswyck VOWS_TO Jaehaerys I Targaryen",
+      "qualifier": "fulfilled"
+    },
+    {
+      "id": "EV3-patient-aegon-targaryen-son-of-jaehaerys-i",
+      "type": "VICTIM_IN",
+      "source": "aegon-targaryen-son-of-jaehaerys-i",
+      "target": "death-of-prince-aegon-son-of-jaehaerys-i",
+      "book": "fab",
+      "chapter": "fab-birth-death-and-betrayal-10",
+      "quote": "he died three days after birth",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon Targaryen (son of Jaehaerys I) VICTIM_IN Birth and death of Prince Aegon"
+    },
+    {
+      "id": "EV6-agent-jaehaerys-i-targaryen",
+      "type": "AGENT_IN",
+      "source": "jaehaerys-i-targaryen",
+      "target": "rebuilding-of-kings-landing-begins",
+      "book": "fab",
+      "chapter": "fab-birth-death-and-betrayal-10",
+      "quote": "it was the year 52 AC when it began, by the king's command",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Jaehaerys I Targaryen AGENT_IN Rebuilding of King's Landing begins"
+    },
+    {
+      "id": "EV11-patient-oswyck",
+      "type": "VICTIM_IN",
+      "source": "oswyck",
+      "target": "death-of-septon-oswyck",
+      "book": "fab",
+      "chapter": "fab-birth-death-and-betrayal-10",
+      "quote": "Septon Oswyck passed in his sleep",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Septon Oswyck VICTIM_IN Death of Septon Oswyck"
+    }
+  ]
+}

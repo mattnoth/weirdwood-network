@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alyssa_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 10
+node_version: 11
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -148,3 +148,9 @@ Alyssa had charm, wit, and kindness.(wiki:Alyssa_Velaryon.cite_ref-Rfabthe_year_
 - The Dowager Queen, thought past childbearing, whose pregnancy at forty-four was received as a miracle (fab-birth-death-and-betrayal-10:55)
 - She was fearful, recalling the babe Vaella she bore King Aenys who died in the cradle (fab-birth-death-and-betrayal-10:59)
 - She bore a healthy son, Boremund, and then conceived again at forty-six (fab-birth-death-and-betrayal-10:159)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery -->
+
+- Mother of Jaehaerys, Alysanne and Rhaena and wife of Rogar Baratheon, she lay dying in labor at Storm's End, too old and torn inside (fab-jaehaerys-and-alysanne-dragonstone-11:111)
+- Maester Kyrie cut her open to save the child and she died (fab-jaehaerys-and-alysanne-dragonstone-11:145)
+- Accounts differ on her end: in many she woke and gave her assent, saying the Crone would light her way; other accounts say she died without waking (fab-jaehaerys-and-alysanne-dragonstone-11:145)

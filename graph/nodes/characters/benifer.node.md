@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Benifer
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 5
+node_version: 10
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -61,3 +61,30 @@ Benifer was among the most diligent of the forty odd men who served as Grand Mae
 <!-- fab-enriched: fab-time-of-testing-09-2026-07-09 -->
 
 - Grand Maester who narrates the king's return and reign; he had fled to Pentos when Maegor died and feared his return (fab-time-of-testing-09:21)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-10-recovery -->
+
+- Grand Maester who hailed Alyssa's second pregnancy as a second miracle and later witnessed Rhaena and Jaehaerys in the king's solar (fab-birth-death-and-betrayal-10:159)
+- He suggested the stolen eggs might not hatch away from Dragonstone (fab-birth-death-and-betrayal-10:181)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-10-recovery -->
+
+- Grand Maester to Jaehaerys, and to his uncle Maegor before him, a diligent keeper of records (fab-jaehaerys-and-alysanne-triumphs-12-p01:257)
+- He sent a storm of ravens seeking Aerea, and later barred even the king from the dying princess's chamber (fab-jaehaerys-and-alysanne-triumphs-12-p01:249)
+- He treated her with milk of the poppy and a tub of ice, to no avail (fab-jaehaerys-and-alysanne-triumphs-12-p01:249)
+- Tellingly, his writings never once mention Aerea's return or death (fab-jaehaerys-and-alysanne-triumphs-12-p01:257)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-10-recovery -->
+
+- Grand Maester Benifer sat the regency council and recorded the confrontation between Rogar and Alyssa, including her obsidian-hard eyes and Corbray's drawn sword (fab-surfeit-of-rulers-08-p02:165)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-10-recovery -->
+
+- Grand Maester who died of the Shivers as one of three council lords lost in King's Landing; he had served fifteen years, having come to the Red Keep after Maegor decapitated his three predecessors (fab-the-long-reign-cont-14-p01:51)
+- His successor observed dryly of his tenure (fab-the-long-reign-cont-14-p01:53)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-10-recovery -->
+
+- Benifer chronicled the reign and praised Jaehaerys's reconciliation with the Faith (fab-year-of-the-three-brides-07:15)
+- His letters give the fullest account of the confrontation at Dragonstone, which he witnessed (fab-year-of-the-three-brides-07:217)
+- On Rogar's order he burned Mattheus's letter rather than send word to Oldtown (fab-year-of-the-three-brides-07:277)

@@ -19,5 +19,13 @@
  "Daeron Targaryen": "daeron-targaryen-son-of-viserys-i",
  "Loreon Lannister": "loreon-lannister-son-of-jason",
  "Corlys Velaryon": "corlys-velaryon",
- "Rhaena Targaryen": "rhaena-targaryen-daughter-of-daemon"
+ "Rhaena Targaryen": "rhaena-targaryen-daughter-of-daemon",
+ "Wedding of Cregan Stark and Alysanne": "CREATE",
+ "Coronation of Aegon III": "CREATE",
+ "Reclaiming of Harrenhal / death of Regis Groves": "death-of-regis-groves",
+ "Wedding of Elenda Baratheon and Steffon Connington": "CREATE",
+ "Wedding of Alyn Velaryon and Baela": "CREATE",
+ "Winter Fever in King's Landing": "CREATE",
+ "Death of Tyland Lannister": "death-of-tyland-lannister",
+ "Wedding of Corwyn Corbray and Rhaena": "CREATE"
 }

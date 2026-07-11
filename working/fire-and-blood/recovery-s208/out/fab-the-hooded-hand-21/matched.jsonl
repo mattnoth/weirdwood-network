@@ -1,0 +1,51 @@
+{"unit": "fab-the-hooded-hand-21", "name": "Aegon II", "slug": "aegon-ii-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Aegon III", "slug": "aegon-iii-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Aliandra Martell", "slug": "aliandra-martell", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Alicent Hightower", "slug": "alicent-hightower", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Alyn Velaryon", "slug": "alyn-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Alys Rivers", "slug": "alys-rivers", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Alysanne Blackwood", "slug": "alysanne-blackwood", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Baela Targaryen", "slug": "baela-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Corlys Velaryon", "slug": "corlys-velaryon", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Corwyn Corbray", "slug": "corwyn-corbray", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-the-hooded-hand-21", "name": "Cregan Stark", "slug": "cregan-stark", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Daemon Targaryen", "slug": "daemon-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Daeron Targaryen", "slug": "daeron-targaryen-son-of-viserys-i", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Death of Corlys Velaryon", "slug": "death-of-corlys-velaryon", "route_reason": "hit"}
+{"unit": "fab-the-hooded-hand-21", "name": "Death of Roland Westerling", "slug": "death-of-roland-westerling", "route_reason": "hit"}
+{"unit": "fab-the-hooded-hand-21", "name": "Death of Tyland Lannister", "slug": "death-of-tyland-lannister", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Desmond Manderly", "slug": "desmond-manderly", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Dorne", "slug": "dorne", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Elenda Baratheon", "slug": "elenda-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Iron Bank of Braavos", "slug": "iron-bank-of-braavos", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Jaehaera Targaryen", "slug": "jaehaera-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Jaehaerys I", "slug": "jaehaerys-i-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Jason Lannister", "slug": "jason-lannister", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Jeyne Arryn", "slug": "jeyne-arryn", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Johanna Lannister", "slug": "johanna-lannister", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Laena Velaryon", "slug": "laena-velaryon", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Leowyn Corbray", "slug": "leowyn-corbray", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Loreon Lannister", "slug": "loreon-lannister-son-of-jason", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Lyonel Hightower", "slug": "lyonel-hightower", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Maegor's Holdfast", "slug": "maegors-holdfast", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Marilda of Hull", "slug": "marilda-of-hull", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Ormund Hightower", "slug": "ormund-hightower", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Reclaiming of Harrenhal / death of Regis Groves", "slug": "death-of-regis-groves", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Regency of Aegon III", "slug": "regency-of-aegon-iii", "route_reason": "hit"}
+{"unit": "fab-the-hooded-hand-21", "name": "Regis Groves", "slug": "regis-groves", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Rhaena Targaryen", "slug": "rhaena-targaryen-daughter-of-daemon", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Rhaenyra Targaryen", "slug": "rhaenyra-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Roland Westerling", "slug": "roland-westerling", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Samantha", "slug": "samantha-tarly", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Sea burial of Corlys Velaryon", "slug": "sea-burial-of-corlys-velaryon", "route_reason": "hit"}
+{"unit": "fab-the-hooded-hand-21", "name": "Seven Kingdoms", "slug": "seven-kingdoms", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Steffon Connington", "slug": "steffon-connington", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Tower of the Hand", "slug": "tower-of-the-hand", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "True Telling", "slug": "the-dance-of-the-dragons-a-true-telling", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Tyland Lannister", "slug": "tyland-lannister", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Vaemond Velaryon", "slug": "vaemond-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Visenya's Hill", "slug": "visenyas-hill", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Viserys I", "slug": "viserys-i-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "White Harbor", "slug": "white-harbor", "route_reason": "recovery-override"}
+{"unit": "fab-the-hooded-hand-21", "name": "Willis Fell", "slug": "willis-fell", "route_reason": "hit-character"}
+{"unit": "fab-the-hooded-hand-21", "name": "Winter Fever", "slug": "winter-fever", "route_reason": "recovery-override"}

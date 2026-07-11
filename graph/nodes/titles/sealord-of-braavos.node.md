@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Sealord_of_Braavos"
 bucket_id: titles-l-w
 prompt_version: v1-python
-node_version: 1
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Sealord of Braavos is a title from the AWOIAF wiki.
+Sealord of Braavos — Ruler of Braavos who fed Elissa caution and warned her to flee before her hunters found her.
 
 ## Edges
 
@@ -56,3 +56,18 @@ Ferrego is sick, and there is a rumor that [Tormo Fregar](wiki:Tormo_Fregar) wil
 > [Braavos](wiki:Braavos) is a city of laws.(wiki:Sealord_of_Braavos.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 >
 > —Sealord to [Barth](wiki:Barth)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-10-recovery -->
+
+- Ruler of Braavos who fed Elissa caution and warned her to flee before her hunters found her (fab-jaehaerys-and-alysanne-triumphs-12-p01:89)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-10-recovery -->
+
+- The Sealord bargained with Barth, denying possession of the eggs while offering gold and the loan's forgiveness (fab-jaehaerys-and-alysanne-triumphs-12-p02:95)
+- He met the king's veiled dragon-threat with a veiled threat of his own about a certain guild of assassins (fab-jaehaerys-and-alysanne-triumphs-12-p02:87)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-10-recovery -->
+
+- The Sealord of Braavos boasted of replacing every ship Alyn had stolen or sunk, then, once placated, made peace and ceded the Stepstones though he did not hold them (fab-war-and-peace-and-cattle-shows-22-p01:205)

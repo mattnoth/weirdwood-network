@@ -1,0 +1,267 @@
+{
+  "_meta": {
+    "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+    "session": "fab-reconcile",
+    "run_id": "fab-war-and-peace-and-cattle-shows-22-p01-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "alyns-triumphant-return-naming-oakenfist",
+      "battle-of-the-stepstones",
+      "braavos-embassy-and-peace",
+      "execution-of-orwyle",
+      "honoring-ceremony-alyn-made-master-of-ships"
+    ],
+    "note": "Fire & Blood reconciler output for fab-war-and-peace-and-cattle-shows-22-p01 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E23",
+      "type": "MEMBER_OF",
+      "source": "unwin-peake",
+      "target": "caltrops",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Foremost of the Caltrops (though this was not widely known)",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Unwin Peake MEMBER_OF Caltrops"
+    },
+    {
+      "id": "E24",
+      "type": "MEMBER_OF",
+      "source": "victor-risley",
+      "target": "caltrops",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "the sole surviving Caltrops aside from Lord Peake himself",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Victor Risley MEMBER_OF Caltrops"
+    },
+    {
+      "id": "E31",
+      "type": "COMMANDS",
+      "source": "tessario",
+      "target": "fingers",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Their captain, a Volantene adventurer named Tessario",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Tessario COMMANDS Fingers"
+    },
+    {
+      "id": "E32",
+      "type": "COMMANDS",
+      "source": "marston-waters",
+      "target": "kingsguard",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Marston Waters was confirmed as Lord Commander of the Kingsguard",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Marston Waters COMMANDS Kingsguard"
+    },
+    {
+      "id": "E41",
+      "type": "ANCESTOR_OF",
+      "source": "corlys-velaryon",
+      "target": "alyn-velaryon",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "your lord grandsire’s fleets",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Corlys Velaryon ANCESTOR_OF Alyn Velaryon"
+    },
+    {
+      "id": "E42",
+      "type": "PARENT_OF",
+      "source": "laena-velaryon",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "I will name her Laena, after my mother",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Laena PARENT_OF Baela Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E46",
+      "type": "RULES",
+      "source": "unwin-peake",
+      "target": "iron-throne",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "who would rule the Seven Kingdoms in all but name",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Unwin Peake RULES Iron Throne"
+    },
+    {
+      "id": "E47",
+      "type": "DEFEATS",
+      "source": "alyn-velaryon",
+      "target": "sealord-of-braavos",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Alyn Velaryon’'s victory was complete",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alyn Velaryon DEFEATS Sealord of Braavos"
+    },
+    {
+      "id": "E48",
+      "type": "ATTACKS",
+      "source": "alyn-velaryon",
+      "target": "sealord-of-braavos",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "The attack caught the Braavosi unawares",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alyn Velaryon ATTACKS Sealord of Braavos",
+      "qualifier": "by_ambush"
+    },
+    {
+      "id": "E51",
+      "type": "NEGOTIATES_WITH",
+      "source": "manfryd-mooton",
+      "target": "sealord-of-braavos",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Whilst he haggled with Lord Mooton over terms of peace",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Manfryd Mooton NEGOTIATES_WITH Sealord of Braavos"
+    },
+    {
+      "id": "E54",
+      "type": "CONTRACTED_WITH",
+      "source": "denys-harte",
+      "target": "faceless-men",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "engaged the services of the mysterious Faceless Men to kill a rival",
+      "tier": "tier-2",
+      "note": "Fire & Blood: Denys Harte CONTRACTED_WITH Faceless Men",
+      "qualifier": "assassination",
+      "in_universe_source": "mushroom",
+      "disputed": true
+    },
+    {
+      "id": "E55",
+      "type": "ALLIES_WITH",
+      "source": "sealord-of-braavos",
+      "target": "racallio-ryndoon",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "The Sealord of Braavos, the Archon of Tyrosh, and Racallio Ryndoon had made common cause",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Sealord of Braavos ALLIES_WITH Racallio Ryndoon"
+    },
+    {
+      "id": "E57",
+      "type": "PARENT_OF",
+      "source": "perceon-iii-gardener",
+      "target": "gwayne-gardener-son-of-perceon-iii",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "King Perceon’s son Gwayne",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Perceon III Gardener PARENT_OF Gwayne Gardener",
+      "qualifier": "biological"
+    },
+    {
+      "id": "EV4-agent-victor-risley",
+      "type": "AGENT_IN",
+      "source": "victor-risley",
+      "target": "execution-of-orwyle",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Grand Maester Orwyle was granted the honor of dying by the sword",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Victor Risley AGENT_IN Execution of Orwyle"
+    },
+    {
+      "id": "EV4-patient-orwyle",
+      "type": "VICTIM_IN",
+      "source": "orwyle",
+      "target": "execution-of-orwyle",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Grand Maester Orwyle was granted the honor of dying by the sword",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Orwyle VICTIM_IN Execution of Orwyle"
+    },
+    {
+      "id": "EV5-agent-alyn-velaryon",
+      "type": "AGENT_IN",
+      "source": "alyn-velaryon",
+      "target": "battle-of-the-stepstones",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "battle was joined amongst the rocks, sea stacks, and tangled waterways of the Stepstones",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyn Velaryon AGENT_IN Battle of the Stepstones"
+    },
+    {
+      "id": "EV5-patient-sealord-of-braavos",
+      "type": "VICTIM_IN",
+      "source": "sealord-of-braavos",
+      "target": "battle-of-the-stepstones",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "battle was joined amongst the rocks, sea stacks, and tangled waterways of the Stepstones",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Sealord of Braavos VICTIM_IN Battle of the Stepstones"
+    },
+    {
+      "id": "EV8-agent-alyn-velaryon",
+      "type": "AGENT_IN",
+      "source": "alyn-velaryon",
+      "target": "alyns-triumphant-return-naming-oakenfist",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "along with the name that he would carry for the rest of his long life: Oakenfist",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyn Velaryon AGENT_IN Alyn's triumphant return / naming Oakenfist"
+    },
+    {
+      "id": "EV9-agent-unwin-peake",
+      "type": "AGENT_IN",
+      "source": "unwin-peake",
+      "target": "honoring-ceremony-alyn-made-master-of-ships",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "if his lordship would consent to serve upon his small council, as master of ships",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Unwin Peake AGENT_IN Honoring ceremony / Alyn made master of ships"
+    },
+    {
+      "id": "EV9-patient-alyn-velaryon",
+      "type": "PARTICIPATES_IN",
+      "source": "alyn-velaryon",
+      "target": "honoring-ceremony-alyn-made-master-of-ships",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "if his lordship would consent to serve upon his small council, as master of ships",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyn Velaryon PARTICIPATES_IN Honoring ceremony / Alyn made master of ships"
+    },
+    {
+      "id": "EV11-agent-manfryd-mooton",
+      "type": "AGENT_IN",
+      "source": "manfryd-mooton",
+      "target": "braavos-embassy-and-peace",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "ceded the Stepstones to the Iron Throne",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Manfryd Mooton AGENT_IN Braavos embassy and peace"
+    },
+    {
+      "id": "EV11-patient-sealord-of-braavos",
+      "type": "PARTICIPATES_IN",
+      "source": "sealord-of-braavos",
+      "target": "braavos-embassy-and-peace",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "ceded the Stepstones to the Iron Throne",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Sealord of Braavos PARTICIPATES_IN Braavos embassy and peace"
+    }
+  ]
+}

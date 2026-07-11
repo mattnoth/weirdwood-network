@@ -15,5 +15,13 @@
  "Ronnel Arryn": "ronnel-arryn-son-of-sharra",
  "Torrhen Stark": "torrhen-stark",
  "Corlys Velaryon": "corlys-velaryon-son-of-daemon",
- "High Septon": "high-septon-aegons-conquest"
+ "High Septon": "high-septon-aegons-conquest",
+ "Building of King's Landing's walls": "CREATE",
+ "Death of Meria Martell": "CREATE",
+ "Capture of Nightsong": "CREATE",
+ "Death of Rhaenys Targaryen": "death-of-rhaenys-targaryen",
+ "Death of Lodos": "CREATE",
+ "Ransom and maiming of Orys Baratheon": "maiming-of-orys-baratheon",
+ "Ambush on the Boneway": "CREATE",
+ "Death of Meraxes": "death-of-meraxes"
 }

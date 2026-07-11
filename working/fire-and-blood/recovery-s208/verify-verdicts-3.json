@@ -1,0 +1,290 @@
+[
+ {
+  "slug": "aegons-first-coronation",
+  "unit": "fab-aegons-conquest-03",
+  "verdict": "REJECT-DUPE:aegons-coronations",
+  "note": "Subset of existing multi-coronation event"
+ },
+ {
+  "slug": "death-of-septon-oswyck",
+  "unit": "fab-birth-death-and-betrayal-10",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-septon-barth",
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "creation-of-the-gold-cloaks",
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "daemon-crowned-king-of-the-stepstones",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "fifth-anniversary-tourney-greens-and-blacks-named",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "birth-of-jacaerys",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "marriage-of-daemon-and-laena-velaryon",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "birth-of-aegon-the-younger",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "feast-of-amity",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "executions-at-the-red-keep",
+  "unit": "fab-hour-of-the-wolf-20",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "the-poisonings-on-dragonstone",
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "betrothals-of-jennis-templeton-and-prunella-celtigar",
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "birth-of-baelon-targaryen",
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "trial-by-battle-for-ser-harrold",
+  "unit": "fab-prince-into-king-06",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-lodos",
+  "unit": "fab-reign-of-the-dragon-04",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "building-of-kings-landings-walls",
+  "unit": "fab-reign-of-the-dragon-04",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-shrykos",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-syrax",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-prince-daeron-targaryen",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "battle-of-sunfyre-and-moondancer",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "hanging-of-essie-and-sylvenna-sand",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-borros-baratheon",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "wedding-of-maegor-and-ceryse",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "harren-the-reds-seizure-of-harrenhal",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-harren-the-red",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "coronation-of-maegor",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "election-of-septon-pater-as-high-septon",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "harrenhal-melee",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "completion-of-the-red-keep",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "jeyne-westerlings-stillbirth",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-ser-raymund-mallery",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "the-black-council",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "wedding-of-alyn-velaryon-and-baela",
+  "unit": "fab-the-hooded-hand-21",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "winter-fever-in-kings-landing",
+  "unit": "fab-the-hooded-hand-21",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "wedding-of-daella-targaryen-and-rodrik-arryn",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "saeras-escape-attempt-and-capture",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-lady-jeyne-arryn",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-ser-robert-rowan",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "battle-at-the-gate-of-the-gods",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "sentencing-of-lotho-and-roggerio",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "death-of-vermax",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "rhaenyra-claims-the-iron-throne",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "yielding-of-longtable",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "second-wedding-of-jaehaerys-and-alysanne",
+  "unit": "fab-time-of-testing-09",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "parley-of-oakenfist-and-racallio-at-bloodstone",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "alyns-triumphant-return-naming-oakenfist",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ },
+ {
+  "slug": "drowning-of-lady-buckler-and-her-daughters",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded and unique"
+ }
+]

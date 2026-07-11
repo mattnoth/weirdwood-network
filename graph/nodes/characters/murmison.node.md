@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Murmison"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 2
+node_version: 4
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: "Tyrion VI"
 ---
+
+## Identity
+
+Septon Murmison — A pious cleric said to heal by the laying on of hands, made Hand after Maegor's exile.
 
 ## Origins
 
@@ -51,3 +55,13 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 - HOLDS_TITLE: Septon (track_b: Titles)
 - HOLDS_TITLE: Hand of the King (track_b: Titles)
 - DIED_AT: 41 AC, King's Landing (track_b: Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-10-recovery -->
+
+- A pious cleric said to heal by the laying on of hands, made Hand after Maegor's exile (fab-sons-of-the-dragon-05-p01:241)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-10-recovery -->
+
+- Septon Murmison, the King's Hand, performed the forbidden nuptials and was expelled from the Faith, then killed by Poor Fellows in his litter (fab-sons-of-the-dragon-05-p02:57)

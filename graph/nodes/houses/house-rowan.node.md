@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/House_Rowan
 bucket_id: houses-reach-h-o
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: "always available"
 sigil: A golden tree on silver (Argent, a tree or)
@@ -47,3 +47,9 @@ In AGOT, Dareon claims Mathis Rowan's daughter sent him to the Wall after a sedu
 ## Notes
 
 Parser `first_available` was ASOS ch6, but cite_refs show AGOT ch26 and ch71, and pass1_mentions confirm presence in agot-catelyn-11 and agot-jon-04. Set to "always available" and filed question.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-10-recovery -->
+
+- Lord who granted Septon Moon his protection and decamped within the hour of Moon's death; scholars suspect the killer acted at his behest (fab-prince-into-king-06:155)

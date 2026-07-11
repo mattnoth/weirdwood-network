@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lady_Meredith"
 bucket_id: tier3-titles
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Lady Meredith is a title from the AWOIAF wiki.
+Lady Meredith — The Lady Meredith was a Hightower ship that limped back into Oldtown in 59 AC after almost three years at sea.
 
 ## Edges
 
@@ -22,3 +22,10 @@ Lady Meredith is a title from the AWOIAF wiki.
 When [Elissa Farman](wiki:Elissa_Farman), using the name Alys Westhill, sailed from [Oldtown](wiki:Oldtown) on [Sun Chaser](wiki:Sun_Chaser) to explore the [Sunset Sea](wiki:Sunset_Sea) in [56 AC](wiki:56_AC), she was joined by Ser [Eustace Hightower](wiki:Eustace_Hightower) on Lady Meredith and his brother, Ser [Norman](wiki:Norman_Hightower), on [Autumn Moon](wiki:Autumn_Moon).(wiki:Lady_Meredith.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 Three fierce storms struck the voyagers, with Autumn Moon sinking during the third. Some on Lady Meredith claimed that Norman's ship was brought down by a [kraken](wiki:Kraken). In addition to nine missing crew, Lady Meredith suffered torn sails and splintered masts. Elissa towed the damaged ship to [three islands](wiki:Aegon,_Rhaenys,_and_Visenya_(islands)). After Lady Meredith was repaired, Eustace chose to return to Oldtown instead of continuing west with Elissa.(wiki:Lady_Meredith.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 During the return voyage, however, a pod of [leviathans](wiki:Leviathan) cracked the hull of Lady Meredith. Eustace sailed for the [Summer Isles](wiki:Summer_Isles), but ended up at [Sothoryos](wiki:Sothoryos). Eustace spent a year on the dangerous southern continent, during which his crew dwindled due to diseases or disappearances. Summer Islanders eventually helped Eustace repair his ship, and the knight hired some as new crew. Eustace sailed Lady Meredith to [Tall Trees Town](wiki:Tall_Trees_Town) and then to Oldtown, returning in [59 AC](wiki:59_AC).(wiki:Lady_Meredith.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-13-2026-07-10-recovery -->
+
+- The Lady Meredith was a Hightower ship that limped back into Oldtown in 59 AC after almost three years at sea (fab-the-long-reign-13:17)
+- A leviathan cracked her hull, forcing Eustace to make for Sothoryos (fab-the-long-reign-13:61)

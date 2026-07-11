@@ -1,0 +1,18 @@
+{
+  "slug": "betrothals-of-jennis-templeton-and-prunella-celtigar",
+  "name": "Betrothals of Jennis Templeton and Prunella Celtigar",
+  "type": "event.wedding",
+  "node_path": "graph/nodes/events/betrothals-of-jennis-templeton-and-prunella-celtigar.node.md",
+  "generated_at": "2026-07-11T00:00:44.382324+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

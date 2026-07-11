@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen_(daughter_of_Aemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 6
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -98,3 +98,13 @@ Beloved daughter of Lady [Jocelyn Baratheon](wiki:Jocelyn_Baratheon) and Prince 
 - Rhaenys, the Queen Who Never Was, took up her husband's and Rhaenyra's command and flew Meleys to answer Lord Staunton's plea (fab-the-red-dragon-and-the-gold-17-p01:125)
 - She turned to fight even against Vhagar and Sunfyre together, and died in the fall (fab-the-red-dragon-and-the-gold-17-p01:133)
 - Daughter of Jocelyn Baratheon and Prince Aemon, faithful wife to Corlys, she died at fifty-five (fab-the-red-dragon-and-the-gold-17-p01:139)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p03-2026-07-10-recovery -->
+
+- Princess, wife of Corlys and mother of Laena and Laenor, "she who might have been a queen" (fab-heirs-of-the-dragon-15-p03:67)
+- She mourned both her children in 120 AC (fab-heirs-of-the-dragon-15-p03:71)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-10-recovery -->
+
+- Princess Rhaenys, daughter of Aemon and Jocelyn, was born on the seventh day of the seventh moon of 74 AC. (fab-the-long-reign-cont-14-p02:145)
+- Many hailed her as next in line for the Iron Throne after her father, and Alysanne called her "our queen to be." (fab-the-long-reign-cont-14-p02:147)

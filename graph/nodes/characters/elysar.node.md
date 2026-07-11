@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Elysar
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -50,3 +50,7 @@ Elysar was sharp tongued, and never had a thought he didn't share.(wiki:Elysar.c
 <!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-09 -->
 
 - Grand Maester Elysar counseled Jaehaerys and Alysanne on Vaegon and later nursed the infant Gael through her first year. (fab-the-long-reign-cont-14-p02:163)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-10-recovery -->
+
+- Benifer's sharp-tongued successor, twenty years younger, sent by the Conclave; quipped of Princess Alyssa's naming out of the king's hearing (fab-the-long-reign-cont-14-p01:145)

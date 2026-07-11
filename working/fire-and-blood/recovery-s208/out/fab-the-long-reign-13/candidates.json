@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "unit": "fab-the-long-reign-13",
+    "session": "fab-reconcile",
+    "run_id": "fab-the-long-reign-13-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [],
+    "note": "Fire & Blood reconciler output for fab-the-long-reign-13 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": []
+}

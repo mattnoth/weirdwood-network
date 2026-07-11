@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "rhaena-targaryen-daughter-of-aenys-i",
+    "fab_section_md": "- Sister of the king, called the Queen in the East, seated on Dragonstone with Dreamfyre (fab-jaehaerys-and-alysanne-dragonstone-11:23)\n- She flew to Storm's End too late to see her mother alive and cursed Rogar Baratheon for Alyssa's death, threatening to burn Storm's End if he wed again (fab-jaehaerys-and-alysanne-dragonstone-11:159)\n- After the poisonings killed her companions she sank into black melancholy and rejected her sister's comfort (fab-jaehaerys-and-alysanne-dragonstone-11:273)\n- When Aerea fled, she raged, then mounted Dreamfyre to search (fab-jaehaerys-and-alysanne-dragonstone-11:307)",
+    "run_id": "fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery",
+    "identity_line": "Rhaena Targaryen — Sister of the king, called the Queen in the East, seated on Dragonstone with Dreamfyre."
+  },
+  {
+    "slug": "alyssa-velaryon",
+    "fab_section_md": "- Mother of Jaehaerys, Alysanne and Rhaena and wife of Rogar Baratheon, she lay dying in labor at Storm's End, too old and torn inside (fab-jaehaerys-and-alysanne-dragonstone-11:111)\n- Maester Kyrie cut her open to save the child and she died (fab-jaehaerys-and-alysanne-dragonstone-11:145)\n- Accounts differ on her end: in many she woke and gave her assent, saying the Crone would light her way; other accounts say she died without waking (fab-jaehaerys-and-alysanne-dragonstone-11:145)",
+    "run_id": "fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery",
+    "identity_line": "Queen Alyssa — Mother of Jaehaerys, Alysanne and Rhaena and wife of Rogar Baratheon, she lay dying in labor at Storm's End, too old and torn inside."
+  },
+  {
+    "slug": "barth",
+    "fab_section_md": "- Came to oversee the Red Keep library and became a trusted advisor; too young and unorthodox to be High Septon (fab-jaehaerys-and-alysanne-dragonstone-11:47)\n- He was later suspected of greater loyalty to the Starry Sept and was lowborn, son of a blacksmith (fab-jaehaerys-and-alysanne-dragonstone-11:251)",
+    "run_id": "fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery",
+    "identity_line": "Septon Barth — Came to oversee the Red Keep library and became a trusted advisor; too young and unorthodox to be High Septon."
+  },
+  {
+    "slug": "daemon-velaryon-son-of-aethan",
+    "fab_section_md": "- Lord and Hand of the King, brother of Queen Alyssa and uncle of Lianna Velaryon (fab-jaehaerys-and-alysanne-dragonstone-11:247)\n- He commanded his galleys to blockade Dragonstone, then stepped down as Hand for age (fab-jaehaerys-and-alysanne-dragonstone-11:247)",
+    "run_id": "fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery",
+    "identity_line": "Daemon Velaryon — Lord and Hand of the King, brother of Queen Alyssa and uncle of Lianna Velaryon."
+  },
+  {
+    "slug": "mattheus",
+    "fab_section_md": "- A candidate whose King's Landing tenure left mistrust; the king worked to prevent his selection, and he led early ballots before falling (fab-jaehaerys-and-alysanne-dragonstone-11:51)",
+    "run_id": "fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery",
+    "identity_line": "Septon Mattheus — A candidate whose King's Landing tenure left mistrust; the king worked to prevent his selection, and he led early ballots before falling."
+  },
+  {
+    "slug": "culiper",
+    "fab_section_md": "- Old maester of Dragonstone, near ninety, first to die of the sickness (fab-jaehaerys-and-alysanne-dragonstone-11:203)\n- He wrote to the Citadel of Androw's idle, illiterate misery (fab-jaehaerys-and-alysanne-dragonstone-11:193)",
+    "run_id": "fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery",
+    "identity_line": "Maester Culiper — Old maester of Dragonstone, near ninety, first to die of the sickness."
+  }
+]

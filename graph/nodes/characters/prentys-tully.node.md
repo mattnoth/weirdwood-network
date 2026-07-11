@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Prentys_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -57,3 +57,7 @@ Prentys Tully's term in the [small council](wiki:Small_council) as [master of la
 
 - Prentys Tully, Lord of Riverrun, was summoned to court as master of laws and royal justiciar (fab-year-of-the-three-brides-07:31)
 - He nominated a younger sister of his wife Lucinda as a bride for the king (fab-year-of-the-three-brides-07:161)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-10-recovery -->
+
+- Lord of Riverrun on the regency council, who warned Jaehaerys could simply close Dragonstone's gates (fab-surfeit-of-rulers-08-p01:55)

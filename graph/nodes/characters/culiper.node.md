@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Culiper
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -36,3 +36,8 @@ In [54 AC](wiki:54_AC), when a sickness struck Dragonstone, Culiper ruled out t
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
 
 - Aged Maester of Dragonstone, eighty and serving since Visenya's day (fab-surfeit-of-rulers-08-p01:79)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery -->
+
+- Old maester of Dragonstone, near ninety, first to die of the sickness (fab-jaehaerys-and-alysanne-dragonstone-11:203)
+- He wrote to the Citadel of Androw's idle, illiterate misery (fab-jaehaerys-and-alysanne-dragonstone-11:193)

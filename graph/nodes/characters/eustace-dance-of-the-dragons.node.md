@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Eustace_(Dance_of_the_Dragons)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -65,3 +65,13 @@ Eustace's writing is sober, ponderous, and less salacious than that of [Mushroom
 - SWORN_TO: Greens (cite: track_b_row.relationships.Allegiances)
 - CULTURE_OF: Rivermen (cite: track_b_row.relationships.Culture)
 - BORN_AT: Stoney Sept (cite: track_b_row.relationships.Born)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-10-recovery -->
+
+- Septon Eustace attended Tyland at his death and recorded the court's affairs, giving a version in which Aegon received the regents' decrees courteously (fab-war-and-peace-and-cattle-shows-22-p01:31)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery -->
+
+- Septon Eustace, writing years later, held the king's death anticipated and the greens prepared, and gave a gentler account of Aegon (fab-the-blacks-and-the-greens-16-p01:39)

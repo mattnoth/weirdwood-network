@@ -1,0 +1,386 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Battle against Darklyn and Mooton",
+  "slug": "battle-against-darklyn-and-mooton",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "both lords slain, castles yielded"
+ },
+ {
+  "unit": "fab-birth-death-and-betrayal-10",
+  "name": "Rebuilding of King's Landing begins",
+  "slug": "rebuilding-of-kings-landing-begins",
+  "type": "event.incident",
+  "ac_year": "52",
+  "identity": "Streets widened and cobbled, central square and great streets laid"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Wedding of Daemon and Rhea Royce",
+  "slug": "wedding-of-daemon-and-rhea-royce",
+  "type": "event.wedding",
+  "ac_year": "97",
+  "identity": "unhappy marriage; heir to Runestone wed"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Accession of Viserys I",
+  "slug": "accession-of-viserys-i",
+  "type": "event.coronation",
+  "ac_year": "103",
+  "identity": "grandson mounts the Iron Throne as King Viserys I"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "War council at High Tide",
+  "slug": "war-council-at-high-tide",
+  "type": "event.council",
+  "ac_year": "106",
+  "identity": "Stepstones war planned"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Otto stripped of the Handship; Lyonel Strong named Hand",
+  "slug": "otto-stripped-of-the-handship-lyonel-strong-named-hand",
+  "type": "event.appointment",
+  "ac_year": "109",
+  "identity": "Lyonel Strong made Hand"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Wedding of Rhaenyra and Laenor",
+  "slug": "wedding-of-rhaenyra-and-laenor",
+  "type": "event.wedding",
+  "ac_year": "114",
+  "identity": "seven days of feasts and jousting"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Duel of Daemon and the Braavosi betrothed",
+  "slug": "duel-of-daemon-and-the-braavosi-betrothed",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "rival slain, clearing Daemon's path to Laena"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Fire at Harrenhal",
+  "slug": "fire-at-harrenhal",
+  "type": "event.death",
+  "ac_year": "120",
+  "identity": "Lyonel and Harwin Strong killed; cause never determined"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Viserys maimed on the Iron Throne",
+  "slug": "viserys-maimed-on-the-iron-throne",
+  "type": "event.incident",
+  "ac_year": "126",
+  "identity": "fever, then two fingers removed to save his life"
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Cregan Stark made King's Hand",
+  "slug": "cregan-stark-made-kings-hand",
+  "type": "event.appointment",
+  "ac_year": "131",
+  "identity": "Stark given full authority to act"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Death of Queen Alyssa in childbirth",
+  "slug": "death-of-queen-alyssa-in-childbirth",
+  "type": "event.death",
+  "ac_year": "54",
+  "identity": "Alyssa dies, child cut from her"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Completion of the Dragonpit",
+  "slug": "completion-of-the-dragonpit",
+  "type": "event.incident",
+  "ac_year": "54",
+  "identity": "dome and bronze gates finished"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Death of Rhaena Targaryen",
+  "slug": "death-of-rhaena-targaryen",
+  "type": "event.death",
+  "ac_year": "73",
+  "identity": "burned, ashes interred at Harrenhal"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Ascension of Jaehaerys to the Iron Throne",
+  "slug": "ascension-of-jaehaerys-to-the-iron-throne",
+  "type": "event.incident",
+  "ac_year": "48",
+  "identity": "Boy king enthroned under regency"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Poisoning of four Poor Fellows",
+  "slug": "poisoning-of-four-poor-fellows",
+  "type": "event.death",
+  "ac_year": "48",
+  "identity": "Four dead by dawn from laced wine"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Death of Meria Martell",
+  "slug": "death-of-meria-martell",
+  "type": "event.death",
+  "ac_year": "13",
+  "identity": "Yellow Toad dies of age abed"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Prince Joffrey",
+  "slug": "death-of-prince-joffrey",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "prince fell two hundred feet and died"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Dreamfyre",
+  "slug": "death-of-dreamfyre",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "dragon crushed as dome fell"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Bold Jon Roxton",
+  "slug": "death-of-bold-jon-roxton",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "Roxton slew three before being slain"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Sunfyre attacks Grey Ghost",
+  "slug": "sunfyre-attacks-grey-ghost",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "Grey Ghost killed"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Retaking of King's Landing",
+  "slug": "retaking-of-kings-landing",
+  "type": "event.battle",
+  "ac_year": "130",
+  "identity": "stormlanders enter unopposed; Aegon II's banner raised"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Elmo Tully",
+  "slug": "death-of-elmo-tully",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "dies after forty-nine days as Lord of Riverrun"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Birth of Rhaena Targaryen",
+  "slug": "birth-of-rhaena-targaryen",
+  "type": "event.birth",
+  "ac_year": "23",
+  "identity": "first daughter born"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Coronation of Aenys I",
+  "slug": "coronation-of-aenys-i",
+  "type": "event.coronation",
+  "ac_year": "37",
+  "identity": "Aenys crowned king"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Battle at Stonehelm",
+  "slug": "battle-at-stonehelm",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "Dornish host smashed"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Wedding of Aegon and Rhaena",
+  "slug": "wedding-of-aegon-and-rhaena",
+  "type": "event.wedding",
+  "ac_year": "41",
+  "identity": "performed despite the Faith's ban"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Birth of Aerea and Rhaella",
+  "slug": "birth-of-aerea-and-rhaella",
+  "type": "event.birth",
+  "ac_year": null,
+  "identity": "twin daughters of Aegon born"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Aegon the Uncrowned",
+  "slug": "death-of-aegon-the-uncrowned",
+  "type": "event.death",
+  "ac_year": "43",
+  "identity": "Prince of Dragonstone killed"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Prince Viserys",
+  "slug": "death-of-prince-viserys",
+  "type": "event.death",
+  "ac_year": "44",
+  "identity": "died after nine days of questioning"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Execution of Ser Theo Bolling",
+  "slug": "execution-of-ser-theo-bolling",
+  "type": "event.execution",
+  "ac_year": "47",
+  "identity": "beheaded same day"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Death of Walton Stark",
+  "slug": "death-of-walton-stark",
+  "type": "event.death",
+  "ac_year": "50",
+  "identity": "slew two giants, then torn apart"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "Death of Lord Lyman Beesbury",
+  "slug": "death-of-lord-lyman-beesbury",
+  "type": "event.death",
+  "ac_year": "129",
+  "identity": "first blood of the Dance; manner disputed among sources"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Coronation of Aegon III",
+  "slug": "coronation-of-aegon-iii",
+  "type": "event.coronation",
+  "ac_year": "131",
+  "identity": "Aegon crowned the Third of His Name"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Elenda Baratheon and Steffon Connington",
+  "slug": "wedding-of-elenda-baratheon-and-steffon-connington",
+  "type": "event.wedding",
+  "ac_year": "132",
+  "identity": "the widow took a younger husband"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Beginning of the kingsroad",
+  "slug": "beginning-of-the-kingsroad",
+  "type": "event.decree",
+  "ac_year": "62",
+  "identity": "road-building project begun"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Death of Prince Aegon (son of Baelon)",
+  "slug": "death-of-prince-aegon-son-of-baelon",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "died before his first nameday"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Lannister reprisal on the Iron Islands",
+  "slug": "lannister-reprisal-on-the-iron-islands",
+  "type": "event.battle",
+  "ac_year": "134",
+  "identity": "villages burned, many lords slain, grain carried off"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Ser Corwyn Corbray",
+  "slug": "death-of-ser-corwyn-corbray",
+  "type": "event.death",
+  "ac_year": "135",
+  "identity": "regent slain, Vale war reignites"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Removal of Lord Rowan and coup at court",
+  "slug": "removal-of-lord-rowan-and-coup-at-court",
+  "type": "event.incident",
+  "ac_year": "135",
+  "identity": "Rowan taken; Marston made Hand"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Trial by battle, Long vs Risley",
+  "slug": "trial-by-battle-long-vs-risley",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "Risley slain quickly"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Death of Stormcloud",
+  "slug": "death-of-stormcloud",
+  "type": "event.death",
+  "ac_year": "130",
+  "identity": "dragon died within the hour"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Attack on Sunfyre at Rook's Rest",
+  "slug": "attack-on-sunfyre-at-rooks-rest",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "Mooton and threescore killed, Sunfyre survived and vanished"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Fall of Faircastle",
+  "slug": "fall-of-faircastle",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "Fair Isle's last resistance ended"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Death of Vhagar",
+  "slug": "death-of-vhagar",
+  "type": "event.death",
+  "ac_year": "130",
+  "identity": "Vhagar killed, sinks to lake floor"
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Wedding of Aegon III and Daenaera",
+  "slug": "wedding-of-aegon-iii-and-daenaera",
+  "type": "event.wedding",
+  "ac_year": "133",
+  "identity": "Daenaera made queen"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Battle of the Stepstones",
+  "slug": "battle-of-the-stepstones",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "Velaryon victory; over thirty ships sunk, Grand Defiance rammed"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Betrothal of Aegon III and Myrielle Peake",
+  "slug": "betrothal-of-aegon-iii-and-myrielle-peake",
+  "type": "event.betrothal",
+  "ac_year": null,
+  "identity": "announced by the Hand; opposed by the regents and lords"
+ }
+]

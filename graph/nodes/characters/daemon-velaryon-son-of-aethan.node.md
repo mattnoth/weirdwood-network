@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Velaryon_(son_of_Aethan)"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 3
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -72,3 +72,18 @@ Daemon served ably during his long tenure as [master of ships](wiki:Master_of_sh
 <!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-09 -->
 
 - Lord of the Tides of Driftmark; recovered after being at the point of death, but lost his second son and three daughters to the Shivers (fab-the-long-reign-cont-14-p01:35)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery -->
+
+- Lord and Hand of the King, brother of Queen Alyssa and uncle of Lianna Velaryon (fab-jaehaerys-and-alysanne-dragonstone-11:247)
+- He commanded his galleys to blockade Dragonstone, then stepped down as Hand for age (fab-jaehaerys-and-alysanne-dragonstone-11:247)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-10-recovery -->
+
+- Daemon Velaryon, the Crown's lord admiral and master of ships and Alyssa's brother, bluntly refused Rogar's request to bar lords from Dragonstone, and was later named Hand of the King (fab-surfeit-of-rulers-08-p02:119)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-10-recovery -->
+
+- Daemon Velaryon, Lord of the Tides and Alyssa's brother, was among the first great lords to abandon Maegor and was made lord admiral and master of ships (fab-year-of-the-three-brides-07:31)
+- A prideful man, he suggested Jaehaerys wed the widowed Queen Elinor Costayne (fab-year-of-the-three-brides-07:163)
+- Lord Rogar suspected him of leaking the betrothal plan to the princess (fab-year-of-the-three-brides-07:193)

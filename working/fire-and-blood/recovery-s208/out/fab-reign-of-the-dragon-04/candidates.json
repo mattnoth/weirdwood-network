@@ -1,0 +1,245 @@
+{
+  "_meta": {
+    "unit": "fab-reign-of-the-dragon-04",
+    "session": "fab-reconcile",
+    "run_id": "fab-reign-of-the-dragon-04-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "ambush-on-the-boneway",
+      "building-of-kings-landings-walls",
+      "capture-of-nightsong",
+      "death-of-lodos",
+      "death-of-meria-martell"
+    ],
+    "note": "Fire & Blood reconciler output for fab-reign-of-the-dragon-04 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E8",
+      "type": "BONDED_TO",
+      "source": "aegon-i-targaryen",
+      "target": "balerion",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "He descended on the islands in 2 AC, riding Balerion",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon I Targaryen BONDED_TO Balerion"
+    },
+    {
+      "id": "E17",
+      "type": "PARENT_OF",
+      "source": "manfred-hightower-aegons-conquest",
+      "target": "addam-hightower",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "sent his son Addam",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Manfred Hightower PARENT_OF Addam Hightower",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E18",
+      "type": "PARENT_OF",
+      "source": "manfred-hightower-aegons-conquest",
+      "target": "garmon-hightower",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Lord Hightower's younger son, Garmon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Manfred Hightower PARENT_OF Garmon Hightower",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E19",
+      "type": "SUCCEEDS",
+      "source": "addam-hightower",
+      "target": "manfred-hightower-aegons-conquest",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Ser Addam succeeded his father as the Lord of the High Tower",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Addam Hightower SUCCEEDS Manfred Hightower"
+    },
+    {
+      "id": "E21",
+      "type": "PARENT_OF",
+      "source": "house-oakheart",
+      "target": "alys-oakheart",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Alys Oakheart, daughter to the Lord of Old Oak",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lord Oakheart PARENT_OF Alys Oakheart",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E26",
+      "type": "RULES",
+      "source": "aegon-i-targaryen",
+      "target": "seven-kingdoms",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "all of Westeros south of the Wall was now ruled by Aegon Targaryen",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon I Targaryen RULES Seven Kingdoms"
+    },
+    {
+      "id": "E27",
+      "type": "RULES",
+      "source": "meria-martell",
+      "target": "dorne",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Meria Martell, the Princess of Dorne",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Meria Martell RULES Dorne"
+    },
+    {
+      "id": "E29",
+      "type": "COMMANDS",
+      "source": "aegon-i-targaryen",
+      "target": "torrhen-stark",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "commanded his Warden of the North, Torrhen Stark of Winterfell",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon I Targaryen COMMANDS Torrhen Stark"
+    },
+    {
+      "id": "E31",
+      "type": "SWORN_TO",
+      "source": "steffon-sunderland",
+      "target": "ronnel-arryn-son-of-sharra",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Steffon Sunderland renewed his fealty to the Eyrie",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Steffon Sunderland SWORN_TO Ronnel Arryn",
+      "qualifier": "current"
+    },
+    {
+      "id": "E48",
+      "type": "KILLS",
+      "source": "wyl-of-wyl",
+      "target": "house-oakheart",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "the Wyl attackers slew Lord Oakheart and most of the wedding guests",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Wyl of Wyl KILLS Lord Oakheart"
+    },
+    {
+      "id": "EV4-agent-lodos",
+      "type": "AGENT_IN",
+      "source": "lodos",
+      "target": "death-of-lodos",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Lodos filled his robes with stones and walked into the sea",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lodos AGENT_IN Death of Lodos"
+    },
+    {
+      "id": "EV4-patient-lodos",
+      "type": "VICTIM_IN",
+      "source": "lodos",
+      "target": "death-of-lodos",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Lodos filled his robes with stones and walked into the sea",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lodos VICTIM_IN Death of Lodos"
+    },
+    {
+      "id": "EV7-agent-wyl-of-wyl",
+      "type": "AGENT_IN",
+      "source": "wyl-of-wyl",
+      "target": "ambush-on-the-boneway",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "the stormlanders were butchered like hogs in a pen",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Wyl of Wyl AGENT_IN Ambush on the Boneway"
+    },
+    {
+      "id": "EV7-patient-orys-baratheon",
+      "type": "VICTIM_IN",
+      "source": "orys-baratheon",
+      "target": "ambush-on-the-boneway",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "the stormlanders were butchered like hogs in a pen",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Orys Baratheon VICTIM_IN Ambush on the Boneway"
+    },
+    {
+      "id": "EV10-agent-wyl-of-wyl",
+      "type": "AGENT_IN",
+      "source": "wyl-of-wyl",
+      "target": "maiming-of-orys-baratheon",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "the Widow-lover had lopped off each man’s sword hand",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Wyl of Wyl AGENT_IN Ransom and maiming of Orys Baratheon"
+    },
+    {
+      "id": "EV10-patient-orys-baratheon",
+      "type": "PARTICIPATES_IN",
+      "source": "orys-baratheon",
+      "target": "maiming-of-orys-baratheon",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "the Widow-lover had lopped off each man’s sword hand",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Orys Baratheon PARTICIPATES_IN Ransom and maiming of Orys Baratheon"
+    },
+    {
+      "id": "EV13-patient-meraxes",
+      "type": "VICTIM_IN",
+      "source": "meraxes",
+      "target": "death-of-meraxes",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "a yard-long iron bolt caught the queen's dragon in the right eye",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Meraxes VICTIM_IN Death of Meraxes"
+    },
+    {
+      "id": "EV14-patient-rhaenys-targaryen",
+      "type": "VICTIM_IN",
+      "source": "rhaenys-targaryen",
+      "target": "death-of-rhaenys-targaryen",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Whether Rhaenys Targaryen outlived her dragon remains a matter of dispute",
+      "tier": "tier-2",
+      "note": "Fire & Blood event: Rhaenys Targaryen VICTIM_IN Death of Rhaenys Targaryen",
+      "in_universe_source": "unattributed",
+      "disputed": true
+    },
+    {
+      "id": "EV16-patient-meria-martell",
+      "type": "VICTIM_IN",
+      "source": "meria-martell",
+      "target": "death-of-meria-martell",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "Meria Martell, the Yellow Toad of Dorne, died abed",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Meria Martell VICTIM_IN Death of Meria Martell"
+    },
+    {
+      "id": "EV20-agent-aegon-i-targaryen",
+      "type": "AGENT_IN",
+      "source": "aegon-i-targaryen",
+      "target": "building-of-kings-landings-walls",
+      "book": "fab",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "quote": "continued until 26 AC",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon I Targaryen AGENT_IN Building of King's Landing's walls"
+    }
+  ]
+}

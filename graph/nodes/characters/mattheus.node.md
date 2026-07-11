@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Mattheus"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 2
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -38,6 +38,20 @@ After the death of the [High Lickspittle](wiki:High_Lickspittle), Mattheus becam
 
 - Septon Mattheus, who spoke of little but how decent folk would condemn the king's incestuous union (fab-surfeit-of-rulers-08-p01:59)
 
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery -->
+
+- A candidate whose King's Landing tenure left mistrust; the king worked to prevent his selection, and he led early ballots before falling (fab-jaehaerys-and-alysanne-dragonstone-11:51)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-10-recovery -->
+
+- The corpulent prelate who had railed against the sibling marriage was dismissed and took it poorly (fab-time-of-testing-09:53)
+- He departed for Oldtown in a gilded wheelhouse (fab-time-of-testing-09:59)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-10-recovery -->
+
+- Septon Mattheus of the Most Devout, a great corpulent man claiming descent from the Gardener kings, was reckoned a near certainty to be the next High Septon (fab-year-of-the-three-brides-07:177)
+- He warned the queen against a brother-sister match, invoking "other Moons" (fab-year-of-the-three-brides-07:181)
+- At Dragonstone he raved that the incest would plunge Westeros into war until the king threatened to have his lips sewn shut (fab-year-of-the-three-brides-07:221)
 ## Quotes
 
 > “Given all that has occurred, to marry brother to sister at this juncture would be seen as a grievous affront to the pious, and | fear for what might happen.”

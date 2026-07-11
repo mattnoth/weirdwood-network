@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Doggett"
 bucket_id: characters-house-doggett
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -70,3 +70,8 @@ Joffrey wielded a [longsword](wiki:Longsword).(wiki:Joffrey_Doggett.cite_ref-Rfa
 
 - "The Red Dog of the Hills," self-proclaimed Grand Captain of the Warrior's Sons, who moved between the westerlands and riverlands with Lady Lucinda's support (fab-prince-into-king-06:95)
 - He came to the coronation under the king's safe conduct and was offered a place in the Kingsguard, which he accepted with tears (fab-prince-into-king-06:173)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-10-recovery -->
+
+- The Red Dog of the Hills, self-proclaimed Grand Captain of the Warrior's Sons; he sent his men out disguised as hedge knights to slay loyalists. (fab-sons-of-the-dragon-05-p03:71)
+- He was later seen entering Riverrun as Lord Tully's guest. (fab-sons-of-the-dragon-05-p03:213)

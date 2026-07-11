@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "unit": "fab-voyage-of-alyn-oakenfist-23",
+    "session": "fab-reconcile",
+    "run_id": "fab-voyage-of-alyn-oakenfist-23-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "parley-of-oakenfist-and-racallio-at-bloodstone",
+      "return-and-reveal-of-prince-viserys",
+      "wedding-of-aegon-iii-and-daenaera"
+    ],
+    "note": "Fire & Blood reconciler output for fab-voyage-of-alyn-oakenfist-23 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E2",
+      "type": "SPOUSE_OF",
+      "source": "aegon-iii-targaryen",
+      "target": "daenaera-velaryon",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "wed Lady Daenaera on the last day of the 133rd year",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon III Targaryen SPOUSE_OF Daenaera",
+      "qualifier": "current"
+    },
+    {
+      "id": "E3",
+      "type": "SPOUSE_OF",
+      "source": "aegon-iii-targaryen",
+      "target": "jaehaera-targaryen",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "those who had come out for Aegon and Jaehaera",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon III Targaryen SPOUSE_OF Jaehaera",
+      "qualifier": "widowed"
+    },
+    {
+      "id": "E8",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "viserys-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "the youngest son of Queen Rhaenyra and Prince Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra PARENT_OF Viserys Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E9",
+      "type": "PARENT_OF",
+      "source": "daemon-targaryen",
+      "target": "viserys-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "the youngest son of Queen Rhaenyra and Prince Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daemon PARENT_OF Viserys Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E10",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "aegon-iii-targaryen",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Queen Rhaenyra had sent her two youngest sons to Pentos",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra PARENT_OF Aegon III Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E11",
+      "type": "PARENT_OF",
+      "source": "daemon-targaryen",
+      "target": "aegon-iii-targaryen",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Queen Rhaenyra had sent her two youngest sons to Pentos",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daemon PARENT_OF Aegon III Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E27",
+      "type": "RULES",
+      "source": "aegon-iii-targaryen",
+      "target": "seven-kingdoms",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "King Aegon III Targaryen wed Lady Daenaera",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon III Targaryen RULES Seven Kingdoms"
+    },
+    {
+      "id": "E29",
+      "type": "RULES",
+      "source": "dalton-greyjoy",
+      "target": "iron-islands",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "the Lord of the Iron Islands",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Dalton Greyjoy RULES Iron Islands"
+    },
+    {
+      "id": "E46",
+      "type": "DEFEATS",
+      "source": "alyn-velaryon",
+      "target": "sealord-of-braavos",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "the man who had humbled the proud Sealord of Braavos",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alyn Oakenfist DEFEATS Sealord of Braavos"
+    },
+    {
+      "id": "EV1-agent-aegon-iii-targaryen",
+      "type": "AGENT_IN",
+      "source": "aegon-iii-targaryen",
+      "target": "wedding-of-aegon-iii-and-daenaera",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "wed Lady Daenaera on the last day of the 133rd year",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon III Targaryen AGENT_IN Wedding of Aegon III and Daenaera"
+    },
+    {
+      "id": "EV1-patient-daenaera-velaryon",
+      "type": "PARTICIPATES_IN",
+      "source": "daenaera-velaryon",
+      "target": "wedding-of-aegon-iii-and-daenaera",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "wed Lady Daenaera on the last day of the 133rd year",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Daenaera PARTICIPATES_IN Wedding of Aegon III and Daenaera"
+    },
+    {
+      "id": "EV2-agent-alyn-velaryon",
+      "type": "AGENT_IN",
+      "source": "alyn-velaryon",
+      "target": "parley-of-oakenfist-and-racallio-at-bloodstone",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "kept him for more than a fortnight in his sprawling wooden fortress",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyn Oakenfist AGENT_IN Parley of Oakenfist and Racallio at Bloodstone"
+    },
+    {
+      "id": "EV2-patient-racallio-ryndoon",
+      "type": "PARTICIPATES_IN",
+      "source": "racallio-ryndoon",
+      "target": "parley-of-oakenfist-and-racallio-at-bloodstone",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "kept him for more than a fortnight in his sprawling wooden fortress",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Racallio Ryndoon PARTICIPATES_IN Parley of Oakenfist and Racallio at Bloodstone"
+    },
+    {
+      "id": "EV3-patient-jaehaera-targaryen",
+      "type": "VICTIM_IN",
+      "source": "jaehaera-targaryen",
+      "target": "death-of-jaehaera-targaryen",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "word of Queen Jaehaera’s death reached the city",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Jaehaera VICTIM_IN Death of Queen Jaehaera"
+    },
+    {
+      "id": "EV5-agent-tess",
+      "type": "AGENT_IN",
+      "source": "tess",
+      "target": "death-of-dalton-greyjoy",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Tess slipped his dagger from its sheath and opened his throat",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Tess AGENT_IN Murder of Dalton Greyjoy"
+    },
+    {
+      "id": "EV5-patient-dalton-greyjoy",
+      "type": "VICTIM_IN",
+      "source": "dalton-greyjoy",
+      "target": "death-of-dalton-greyjoy",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Tess slipped his dagger from its sheath and opened his throat",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Dalton Greyjoy VICTIM_IN Murder of Dalton Greyjoy"
+    },
+    {
+      "id": "EV9-agent-alyn-velaryon",
+      "type": "AGENT_IN",
+      "source": "alyn-velaryon",
+      "target": "return-and-reveal-of-prince-viserys",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Oakenfist's “treasure” was Viserys Targaryen, the king's lost brother",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyn Oakenfist AGENT_IN Return and reveal of Prince Viserys"
+    },
+    {
+      "id": "EV9-patient-viserys-ii-targaryen",
+      "type": "PARTICIPATES_IN",
+      "source": "viserys-ii-targaryen",
+      "target": "return-and-reveal-of-prince-viserys",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Oakenfist's “treasure” was Viserys Targaryen, the king's lost brother",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Viserys Targaryen PARTICIPATES_IN Return and reveal of Prince Viserys"
+    },
+    {
+      "id": "EV13-agent-triarchy",
+      "type": "AGENT_IN",
+      "source": "triarchy",
+      "target": "capture-of-prince-viserys",
+      "book": "fab",
+      "chapter": "fab-voyage-of-alyn-oakenfist-23",
+      "quote": "Prince Viserys had been taken",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Triarchy AGENT_IN Capture of Prince Viserys"
+    }
+  ]
+}

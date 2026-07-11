@@ -1,0 +1,39 @@
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Aegon", "slug": "aegon-targaryen-son-of-aenys-i", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Aenys", "slug": "aenys-i-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Aerea Targaryen", "slug": "aerea-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Alaric Stark", "slug": "alaric-stark", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Alysanne Targaryen", "slug": "alysanne-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Baelon Targaryen", "slug": "baelon-targaryen-son-of-jaehaerys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Balerion", "slug": "balerion", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Barth", "slug": "barth", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Barth's mission to Braavos", "slug": "barths-mission-to-braavos", "route_reason": "hit"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Battle Beneath the Gods Eye", "slug": "battle-beneath-the-gods-eye", "route_reason": "hit"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Benton Glover", "slug": "benton-glover", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Daemon Velaryon", "slug": "daemon-velaryon-son-of-aethan", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Doubling of the Gift (New Gift)", "slug": "doubling-of-the-gift-new-gift", "route_reason": "hit"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Dreamfyre", "slug": "dreamfyre", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "First Men", "slug": "first-men", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Gods Eye", "slug": "gods-eye", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Iron Bank of Braavos", "slug": "iron-bank-of-braavos", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Iron Throne", "slug": "iron-throne", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Jaehaerys I Targaryen", "slug": "jaehaerys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Kingsguard", "slug": "kingsguard", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Lord Corbray", "slug": "house-corbray", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Lord Dustin", "slug": "house-dustin", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Lord Oakheart", "slug": "house-oakheart", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Lord Rowan", "slug": "house-rowan", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Lorence Roxton", "slug": "lorence-roxton", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Lothor Burley", "slug": "lothor-burley", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Lucamore Strong", "slug": "lucamore-strong", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Maegor I Targaryen", "slug": "maegor-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Maegor Towers", "slug": "maegor-towers", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Night's Watch", "slug": "nights-watch", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Prince of Pentos", "slug": "prince-of-pentos", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Rhaella Targaryen", "slug": "rhaella-targaryen-daughter-of-aegon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Rhaena Targaryen", "slug": "rhaena-targaryen-daughter-of-aenys-i", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Sacrifice of the Prince of Pentos", "slug": "sacrifice-of-the-prince-of-pentos", "route_reason": "hit"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Sealord of Braavos", "slug": "sealord-of-braavos", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Tenth-anniversary tourney at King's Landing", "slug": "tourney-at-kings-landing-on-the-anniversary-of-the-kings-coronation", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Theomore Manderly", "slug": "theomore-manderly", "route_reason": "hit-character"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "Walton Stark", "slug": "walton-stark-son-of-brandon", "route_reason": "recovery-override"}
+{"unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02", "name": "the Seven", "slug": "faith-of-the-seven", "route_reason": "recovery-override"}

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gaemon_Targaryen_(son_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -42,3 +42,9 @@ When he was born, Gaemon was a scrawny thing, almost half the size his brother [
 - PARENT_OF (reverse): Alysanne Targaryen is parent (cite: track_b_row.relationships.Mother)
 - BORN_AT: King's Landing, 73 AC (cite: track_b_row.relationships.Born)
 - DIED_AT: King's Landing, 73 AC (cite: track_b_row.relationships.Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-10-recovery -->
+
+- Prince Gaemon, the eleventh child, was born 73 AC and named for Gaemon the Glorious; he died an infant. (fab-the-long-reign-cont-14-p02:65)

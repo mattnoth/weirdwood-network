@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gaemon_Palehair
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 7
+node_version: 8
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -114,3 +114,9 @@ Gaemon had pale hair.(wiki:Gaemon_Palehair.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B
 <!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-09 -->
 
 - Aegon III's young friend, killed by the poison meant for the king (fab-the-lysene-spring-24-p02:47)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-10-recovery -->
+
+- A pale-haired boy of four raised up as king by whores in a brothel, supposedly a bastard of the missing King Aegon II (fab-rhaenyra-overthrown-18-p01:85)
+- Known as "King Cunny," his court at the House of Kisses on Visenya's Hill issued outlandish decrees (fab-rhaenyra-overthrown-18-p01:105)
+- His edicts were reputedly the work of a Dornish whore, Sylvenna Sand (fab-rhaenyra-overthrown-18-p01:275)

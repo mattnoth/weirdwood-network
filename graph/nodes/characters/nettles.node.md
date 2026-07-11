@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Nettles"
 bucket_id: characters-other-n-o
 prompt_version: v1-python
-node_version: 2
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -80,3 +80,24 @@ Nettles was foul-mouthed, filthy, and fearless.(wiki:Nettles.cite_ref-Rfabthe_dy
 
 > That was the last known sighting of Sheepstealer and his rider, Nettles, recorded in the annals of Westeros...though the wildlings of the mountains still tell tales of a “fire witch” who once dwelled in a hidden vale far from any road or village.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:159`)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-10-recovery -->
+
+- A ragged woman seen clinging to the back of the dragon Sheepstealer in the mountains (fab-the-lysene-spring-24-p01:159)
+- The wildlings' legend tells of a "fire witch" worshipped by a mountain clan (fab-the-lysene-spring-24-p01:159)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-10-recovery -->
+
+- Munkun names her Nettles; Mushroom calls her Netty, a dockside whore's bastard (fab-the-red-dragon-and-the-gold-17-p01:249)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-10-recovery -->
+
+- A girl who flew and fought bravely at the Gullet but did not celebrate, returning with a face black with smoke and streaked with tears (fab-the-red-dragon-and-the-gold-17-p02:53)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-10-recovery -->
+
+- — and Eustace said her teeth were crooked and her nose scarred for thieving; she was also called Netty (fab-the-red-dragon-and-the-gold-17-p04:37)
+- Warned by Norren, she fed Sheepstealer a black ram at dawn, mounted with blood-stained leathers and tear-stained cheeks, and flew toward the Bay of Crabs (fab-the-red-dragon-and-the-gold-17-p04:205)
+- She vanished into the mists and was never seen again at court or castle (fab-the-red-dragon-and-the-gold-17-p04:207)

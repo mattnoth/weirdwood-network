@@ -1,0 +1,290 @@
+[
+ {
+  "slug": "submission-of-rosby",
+  "unit": "fab-aegons-conquest-03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: castle yielded without resistance"
+ },
+ {
+  "slug": "surrender-of-highgarden",
+  "unit": "fab-aegons-conquest-03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: Tyrell yields, made Warden South"
+ },
+ {
+  "slug": "wedding-of-viserys-and-aemma-arryn",
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 93 AC wedding in chapter"
+ },
+ {
+  "slug": "death-of-jaehaerys-i",
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: died 103 AC, burned in Dragonpit"
+ },
+ {
+  "slug": "wedding-of-viserys-and-alicent",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 106 AC, Velaryons absent detail accurate"
+ },
+ {
+  "slug": "birth-of-aemond",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 110 AC second son born"
+ },
+ {
+  "slug": "bracken-and-blackwood-sons-duel-over-rhaenyra",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 112 AC duel over princess"
+ },
+ {
+  "slug": "death-of-lady-rhea-royce",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 115 AC Runestone succession"
+ },
+ {
+  "slug": "second-reconciliation-of-viserys-and-daemon",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 116 AC nieces presented"
+ },
+ {
+  "slug": "birth-of-maelor-targaryen",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 127 AC Aegon's second son"
+ },
+ {
+  "slug": "yielding-of-kings-landing",
+  "unit": "fab-hour-of-the-wolf-20",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 131 AC riverlords took city"
+ },
+ {
+  "slug": "selection-of-septon-alfyn-as-high-septon",
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 54 AC fourth ballot"
+ },
+ {
+  "slug": "aerea-steals-balerion-and-flees-dragonstone",
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 54 AC dragon theft"
+ },
+ {
+  "slug": "death-of-aerea-targaryen",
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: died and burned in chapter"
+ },
+ {
+  "slug": "tourney-at-white-harbor",
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 58 AC tournament event"
+ },
+ {
+  "slug": "execution-of-maegors-headsman-and-gaolers",
+  "unit": "fab-prince-into-king-06",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 48 AC heads sent to Alyssa"
+ },
+ {
+  "slug": "capture-of-nightsong",
+  "unit": "fab-reign-of-the-dragon-04",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 10 AC castle torched"
+ },
+ {
+  "slug": "crowning-of-trystane",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: squire crowned king event"
+ },
+ {
+  "slug": "death-of-tyraxes",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: dragon slain in chains"
+ },
+ {
+  "slug": "killing-of-ser-roger-corne",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: horseshoes nailed skull"
+ },
+ {
+  "slug": "death-of-ser-hobert-hightower",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: heart stopped within hour"
+ },
+ {
+  "slug": "parley-and-accord-in-borross-tent",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 130 AC betrothals pardons"
+ },
+ {
+  "slug": "hatching-of-morning",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "verdict": "CONFIRM",
+  "note": "Grounded: fertile egg pink hatchling"
+ },
+ {
+  "slug": "wedding-of-aenys-and-alyssa",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 22 AC cousin marriage"
+ },
+ {
+  "slug": "death-of-aegon-i-targaryen",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 37 AC king dies stroke"
+ },
+ {
+  "slug": "maegor-claims-balerion-and-takes-the-eyrie",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: pretender claims dragon castle"
+ },
+ {
+  "slug": "wedding-of-maegor-and-alys-harroway",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 39 AC Valyrian rite Faith opposes"
+ },
+ {
+  "slug": "wedding-of-maegor-and-tyanna",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: wed amid Warrior's Sons ashes"
+ },
+ {
+  "slug": "reconciliation-of-maegor-and-ceryse",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 43 AC first wife reconciliation"
+ },
+ {
+  "slug": "escape-of-alyssa-from-dragonstone",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 44 AC three dragons fled"
+ },
+ {
+  "slug": "death-of-ser-horys-hill",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: slain leading rescue"
+ },
+ {
+  "slug": "death-of-lord-marq-farman",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: choked death at table aged 46"
+ },
+ {
+  "slug": "the-green-council",
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "verdict": "REJECT-DUPE:green-council-conceals-death-of-viserys",
+  "note": "Same occurrence (Greens resolve to crown Aegon)"
+ },
+ {
+  "slug": "compact-of-white-harbor",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: Joffrey betrothal postwar"
+ },
+ {
+  "slug": "wedding-of-cregan-stark-and-alysanne",
+  "unit": "fab-the-hooded-hand-21",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 132 AC Black Aly marriage"
+ },
+ {
+  "slug": "death-of-rogar-baratheon",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 61 AC half year after war"
+ },
+ {
+  "slug": "birth-of-aegon-targaryen-son-of-baelon",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 84 AC third son difficult labor"
+ },
+ {
+  "slug": "death-of-ser-leo-costayne",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 134 AC Sea Lion slain"
+ },
+ {
+  "slug": "death-of-lady-floris",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 135 AC died in childbirth"
+ },
+ {
+  "slug": "fall-of-house-rogare-rogare-bank-collapse",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 135 AC bank hollow shell"
+ },
+ {
+  "slug": "the-treason-trials",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 42 accused 18 judged trials"
+ },
+ {
+  "slug": "the-sowing-of-the-seeds-red-sowing",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 129 AC dragonrider recruitment"
+ },
+ {
+  "slug": "sack-of-lannisport",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "verdict": "CONFIRM",
+  "note": "Grounded: city sacked women taken"
+ },
+ {
+  "slug": "death-of-rickard-thorne",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "verdict": "CONFIRM",
+  "note": "Grounded: knight on bridge slain"
+ },
+ {
+  "slug": "death-of-lord-footly",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "verdict": "CONFIRM",
+  "note": "Grounded: Tumbleton lord slain"
+ },
+ {
+  "slug": "death-of-ser-orryn-baratheon",
+  "unit": "fab-time-of-testing-09",
+  "verdict": "CONFIRM",
+  "note": "Grounded: killed in battle event"
+ },
+ {
+  "slug": "execution-of-orwyle",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: 133 AC Grand Maester beheaded"
+ },
+ {
+  "slug": "braavos-embassy-and-peace",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "verdict": "CONFIRM",
+  "note": "Grounded: Stepstones ceded Tyrosh alliance"
+ }
+]

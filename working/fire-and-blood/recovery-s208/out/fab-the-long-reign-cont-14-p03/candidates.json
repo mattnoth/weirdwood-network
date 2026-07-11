@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "unit": "fab-the-long-reign-cont-14-p03",
+    "session": "fab-reconcile",
+    "run_id": "fab-the-long-reign-cont-14-p03-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "birth-of-aegon-targaryen-son-of-baelon",
+      "birth-of-daemon-targaryen",
+      "death-of-prince-aegon-son-of-baelon",
+      "saeras-escape-attempt-and-capture",
+      "wedding-of-daella-targaryen-and-rodrik-arryn"
+    ],
+    "note": "Fire & Blood reconciler output for fab-the-long-reign-cont-14-p03 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E9",
+      "type": "SIBLING_OF",
+      "source": "daella-targaryen-daughter-of-jaehaerys-i",
+      "target": "daenerys-targaryen-daughter-of-jaehaerys-i",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "interred on Dragonstone beside her sister Daenerys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daella Targaryen SIBLING_OF Daenerys Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E15",
+      "type": "SIBLING_OF",
+      "source": "aemon-targaryen-son-of-jaehaerys-i",
+      "target": "baelon-targaryen-son-of-jaehaerys-i",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "he told his brother Aemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aemon Targaryen SIBLING_OF Baelon Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E16",
+      "type": "SPOUSE_OF",
+      "source": "baelon-targaryen-son-of-jaehaerys-i",
+      "target": "alyssa-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "His wife, Alyssa, was again with child",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baelon Targaryen SPOUSE_OF Alyssa Targaryen",
+      "qualifier": "current"
+    },
+    {
+      "id": "E17",
+      "type": "PARENT_OF",
+      "source": "baelon-targaryen-son-of-jaehaerys-i",
+      "target": "viserys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "the two strong sons that she had left him, Viserys and Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baelon Targaryen PARENT_OF Viserys Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E18",
+      "type": "PARENT_OF",
+      "source": "baelon-targaryen-son-of-jaehaerys-i",
+      "target": "daemon-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "a second son, who was given the name Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baelon Targaryen PARENT_OF Daemon Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E19",
+      "type": "PARENT_OF",
+      "source": "baelon-targaryen-son-of-jaehaerys-i",
+      "target": "aegon-targaryen-son-of-baelon",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "a third son, a boy they named Aegon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baelon Targaryen PARENT_OF Aegon Targaryen (son of Baelon)",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E20",
+      "type": "PARENT_OF",
+      "source": "alyssa-targaryen",
+      "target": "viserys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "the two strong sons that she had left him, Viserys and Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alyssa Targaryen PARENT_OF Viserys Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E36",
+      "type": "SIBLING_OF",
+      "source": "saera-targaryen",
+      "target": "baelon-targaryen-son-of-jaehaerys-i",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "Her big brothers Aemon and Baelon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Saera Targaryen SIBLING_OF Baelon Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E46",
+      "type": "COMMANDS",
+      "source": "robert-redwyne",
+      "target": "city-watch-of-kings-landing",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "before Ser Robert Redwyne, their commander",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Robert Redwyne COMMANDS City Watch of King's Landing"
+    },
+    {
+      "id": "EV1-agent-rodrik-arryn",
+      "type": "AGENT_IN",
+      "source": "rodrik-arryn",
+      "target": "wedding-of-daella-targaryen-and-rodrik-arryn",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "a small ceremony in the sept at Dragonstone",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Rodrik Arryn AGENT_IN Wedding of Daella Targaryen and Rodrik Arryn"
+    },
+    {
+      "id": "EV1-patient-daella-targaryen-daughter-of-jaehaerys-i",
+      "type": "PARTICIPATES_IN",
+      "source": "daella-targaryen-daughter-of-jaehaerys-i",
+      "target": "wedding-of-daella-targaryen-and-rodrik-arryn",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "a small ceremony in the sept at Dragonstone",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Daella Targaryen PARTICIPATES_IN Wedding of Daella Targaryen and Rodrik Arryn"
+    },
+    {
+      "id": "EV2-agent-alyssa-targaryen",
+      "type": "AGENT_IN",
+      "source": "alyssa-targaryen",
+      "target": "birth-of-daemon-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "a second son, who was given the name Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyssa Targaryen AGENT_IN Birth of Daemon Targaryen"
+    },
+    {
+      "id": "EV2-patient-daemon-targaryen",
+      "type": "PARTICIPATES_IN",
+      "source": "daemon-targaryen",
+      "target": "birth-of-daemon-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "a second son, who was given the name Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Daemon Targaryen PARTICIPATES_IN Birth of Daemon Targaryen"
+    },
+    {
+      "id": "EV5-agent-jaehaerys-i-targaryen",
+      "type": "AGENT_IN",
+      "source": "jaehaerys-i-targaryen",
+      "target": "fourth-dornish-war",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "the dragons Vermithor, Caraxes, and Vhagar fell on them",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Jaehaerys I Targaryen AGENT_IN Fourth Dornish War (Prince Morion's Madness / War of the Hundred Candles)"
+    },
+    {
+      "id": "EV5-patient-morion-martell",
+      "type": "PARTICIPATES_IN",
+      "source": "morion-martell",
+      "target": "fourth-dornish-war",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "the dragons Vermithor, Caraxes, and Vhagar fell on them",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Morion Martell PARTICIPATES_IN Fourth Dornish War (Prince Morion's Madness / War of the Hundred Candles)"
+    },
+    {
+      "id": "EV6-agent-alyssa-targaryen",
+      "type": "AGENT_IN",
+      "source": "alyssa-targaryen",
+      "target": "birth-of-aegon-targaryen-son-of-baelon",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "she gave Prince Baelon a third son, a boy they named Aegon",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alyssa Targaryen AGENT_IN Birth of Aegon Targaryen (son of Baelon)"
+    },
+    {
+      "id": "EV6-patient-aegon-targaryen-son-of-baelon",
+      "type": "PARTICIPATES_IN",
+      "source": "aegon-targaryen-son-of-baelon",
+      "target": "birth-of-aegon-targaryen-son-of-baelon",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "she gave Prince Baelon a third son, a boy they named Aegon",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon Targaryen (son of Baelon) PARTICIPATES_IN Birth of Aegon Targaryen (son of Baelon)"
+    },
+    {
+      "id": "EV8-patient-aegon-targaryen-son-of-baelon",
+      "type": "VICTIM_IN",
+      "source": "aegon-targaryen-son-of-baelon",
+      "target": "death-of-prince-aegon-son-of-baelon",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "He perished half a year later, still shy of his first nameday",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon Targaryen (son of Baelon) VICTIM_IN Death of Prince Aegon (son of Baelon)"
+    },
+    {
+      "id": "EV11-agent-saera-targaryen",
+      "type": "AGENT_IN",
+      "source": "saera-targaryen",
+      "target": "saeras-escape-attempt-and-capture",
+      "book": "fab",
+      "chapter": "fab-the-long-reign-cont-14-p03",
+      "quote": "as she tried to enter the Dragonpit, she was found and taken",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Saera Targaryen AGENT_IN Saera's escape attempt and capture"
+    }
+  ]
+}

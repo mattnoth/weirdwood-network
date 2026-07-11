@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corlys_Velaryon"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 7
+node_version: 18
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -175,3 +175,62 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 - After Rhaenys's death he blamed Rhaenyra bitterly (fab-the-red-dragon-and-the-gold-17-p01:169)
 - Jacaerys brought him back into the fold as Hand of the Queen (fab-the-red-dragon-and-the-gold-17-p01:187)
 - He brought the Hull boys forward as his grandsons and had Addam legitimized as heir to Driftmark (fab-the-red-dragon-and-the-gold-17-p01:233)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-10-recovery -->
+
+- He allied with Daemon to break the Triarchy's grip on the Stepstones, commanding the fleet (fab-heirs-of-the-dragon-15-p02:75)
+
+<!-- fab-enriched: fab-hour-of-the-wolf-20-2026-07-10-recovery -->
+
+- The aged Sea Snake, Master of Driftmark and Lord of the Tides, yielded up King's Landing to the riverlords under a peace banner (fab-hour-of-the-wolf-20:29)
+- Cregan Stark accused him of removing Aegon II by poison, which he did not deny (fab-hour-of-the-wolf-20:199)
+- He was condemned as guilty of murder, regicide, and high treason, but spared by the prince and restored to his offices (fab-hour-of-the-wolf-20:201)
+- He had once served Rhaenyra as Queen's Hand and been imprisoned by her on suspicion of treason (fab-hour-of-the-wolf-20:95)
+
+<!-- fab-enriched: fab-rhaenyra-overthrown-18-p01-2026-07-10-recovery -->
+
+- The Sea Snake, imprisoned in a dungeon under the Red Keep, whose captivity drove Velaryon men from Rhaenyra's cause (fab-rhaenyra-overthrown-18-p01:21)
+- Two of his sworn swords tried and failed to free him (fab-rhaenyra-overthrown-18-p01:21)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-10-recovery -->
+
+- Corlys Velaryon, the Sea Snake, had been made a captive by Rhaenyra and was a "guest" of Trystane in King's Landing (fab-short-sad-reign-of-aegon-ii-19:25)
+- Offered freedom, a pardon, and a council seat, he proved intractable, setting his own terms (fab-short-sad-reign-of-aegon-ii-19:77)
+- He demanded pardons for all who fought for Rhaenyra and that Aegon the Younger wed Jaehaera and be named heir (fab-short-sad-reign-of-aegon-ii-19:77)
+- He knelt before Alicent as proxy and was restored as admiral and master of ships (fab-short-sad-reign-of-aegon-ii-19:87)
+- In council he favored reconciliation and, when the king refused, denounced them all before storming out (fab-short-sad-reign-of-aegon-ii-19:163)
+- After Aegon II's death he rode out with Prince Aegon to hail the new king (fab-short-sad-reign-of-aegon-ii-19:281)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-10-recovery -->
+
+- The Sea Snake; his ships sailed from Hull and Spicetown to close the Gullet and choke King's Landing's trade (fab-the-blacks-and-the-greens-16-p02:75)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-10-recovery -->
+
+- The Sea Snake, Lord of the Tides, sat on the council of regents as first among equals and the only man young Aegon trusted (fab-the-hooded-hand-21:157)
+- On the sixth day of the third moon of 132 AC he collapsed on the serpentine steps and died at seventy-nine (fab-the-hooded-hand-21:159)
+- His remains were carried to Driftmark aboard the Mermaid's Kiss and buried at sea aboard the refloated hull of the Sea Snake (fab-the-hooded-hand-21:161)
+- It was said the Cannibal swept over the burial, though Gyldayn calls this most likely a later embroidery (fab-the-hooded-hand-21:161)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-10-recovery -->
+
+- Corlys Velaryon, grandson to the Lord of the Tides and the future Sea Snake, was already a celebrated mariner when Daella was sent to meet him at thirteen. (fab-the-long-reign-cont-14-p02:205)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-10-recovery -->
+
+- The Sea Snake's fleet was caught unawares at the Gullet and Driftmark was ravaged; Spicetown was sacked and never rebuilt, and High Tide burned with all his treasures from the east (fab-the-red-dragon-and-the-gold-17-p02:45)
+- Congratulated on the victory, he answered bitterly (fab-the-red-dragon-and-the-gold-17-p02:49)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-10-recovery -->
+
+- The Sea Snake, the queen's Hand; Munkun says the queen decided in his favor over Daemon (fab-the-red-dragon-and-the-gold-17-p03:19)
+- He counseled peace: pardons to Lords Baratheon, Hightower, and Lannister, and sending the usurper's brothers to the Wall (fab-the-red-dragon-and-the-gold-17-p03:171)
+- He was horrified at granting Storm's End and Casterly Rock to White and Hammer (fab-the-red-dragon-and-the-gold-17-p03:173)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-10-recovery -->
+
+- When Addam escaped, Luthor Largent seized the aged Corlys for treachery and cast him into a black cell (fab-the-red-dragon-and-the-gold-17-p04:113)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery -->
+
+- He argued against burning King's Landing and would command the fleet closing the Gullet (fab-the-blacks-and-the-greens-16-p01:225)

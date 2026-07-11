@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Warrior's_Sons"
 bucket_id: houses-seven-kingdoms
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Warrior's Sons is a organization.faction from the AWOIAF wiki.
+Warrior's Sons — The Warrior's Sons, an order in silver armor, lined the wedding streets, fortified the Sept of Remembrance, and seized the gates of King's Landing.
 
 ## Edges
 
@@ -79,3 +79,11 @@ Warrior's Sons and [Poor Fellows](wiki:Poor_Fellows) escort Cersei during her [w
 > Drunk on the [gods](wiki:Faith_of_the_Seven), the lot of them.(wiki:Warrior's_Sons.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-10-recovery -->
+
+- The Warrior's Sons, an order in silver armor, lined the wedding streets, fortified the Sept of Remembrance, and seized the gates of King's Landing (fab-sons-of-the-dragon-05-p02:73)
+- Seven of their finest died in the Trial of Seven, and seven hundred were burned at prayer by Maegor on Balerion (fab-sons-of-the-dragon-05-p02:135)
+- They later chose Joffrey Doggett as new grand captain (fab-sons-of-the-dragon-05-p02:191)

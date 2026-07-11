@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/High_Septon_(Aenys_I)"
 bucket_id: characters-other-h
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -50,3 +50,11 @@ By the time of his death, at fifty-three, the High Septon was robust, tireless, 
 
 > Its causes are debated to this day. Some say that His High Holiness took his own life, in what was either the act of a craven afraid to face the wroth of King Maegor, or a noble sacrifice to spare the goodfolk of Oldtown from dragonfire.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:209`)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-10-recovery -->
+
+- The High Septon at the Starry Sept condemned the sibling marriage as an obscenity and called Aenys "King Abomination" (fab-sons-of-the-dragon-05-p02:59)
+- An Iron Bank envoy called him the true king of Westeros in all but name (fab-sons-of-the-dragon-05-p02:75)
+- Renowned for his tireless strength at three-and-fifty, he died suddenly in Oldtown on the night the dragons came, his cause of death debated (fab-sons-of-the-dragon-05-p02:209)

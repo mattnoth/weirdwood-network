@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vulture_King_(Jaehaerys_I)"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -34,3 +34,10 @@ In [83 AC](wiki:83_AC) [Morion Martell](wiki:Morion_Martell), [Prince of Dorne]
 > He calls himself a [vulture](wiki:Vulture) but he does not fly. He hides. He should call himself the gopher.(wiki:Vulture_King_(Jaehaerys_I).cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 >
 > —[Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-10-recovery -->
+
+- The second to bear the name; not the army-leading first but an upjumped raider who knew the mountains and used ambush (fab-the-long-reign-cont-14-p01:187)
+- Jaehaerys burned his camps from the sky with Vermithor; brought to bay, he was given a spear and shield and slain by Rogar (fab-the-long-reign-cont-14-p01:201)

@@ -28,5 +28,16 @@
  "Manfred Hightower": "manfred-hightower-aegons-conquest",
  "Rhaena Targaryen": "rhaena-targaryen-daughter-of-aenys-i",
  "High Septon": "high-septon-aenys-i",
- "Martyn Hightower": "martyn-hightower"
+ "Martyn Hightower": "martyn-hightower",
+ "Birth of Aerea and Rhaella": "CREATE",
+ "Election of Septon Pater as High Septon": "CREATE",
+ "Wedding of Aegon and Rhaena": "CREATE",
+ "Coronation of Maegor": "CREATE",
+ "Execution of the captive Warrior's Sons": "CREATE",
+ "Wedding of Maegor and Tyanna": "CREATE",
+ "Death of King Aenys": "death-of-aenys-i-targaryen",
+ "Killing of Grand Maester Myros": "CREATE",
+ "Battle at the Great Fork of the Blackwater": "battle-at-the-great-fork",
+ "Death of the High Septon": "death-of-high-septon-aenys-i",
+ "Trial of Seven": "maegors-trial-of-seven"
 }

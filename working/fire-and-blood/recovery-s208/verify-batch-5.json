@@ -1,0 +1,90 @@
+[
+ {
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "name": "Birth of Coryanne Wylde's bastard son",
+  "slug": "birth-of-coryanne-wyldes-bastard-son",
+  "type": "event.birth",
+  "identity": "boy sent to Storm's End to be fostered",
+  "ac_year": "48"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Betrothal of Aemon and Jocelyn",
+  "slug": "betrothal-of-aemon-and-jocelyn",
+  "type": "event.betrothal",
+  "identity": "firstborn son betrothed to Jocelyn",
+  "ac_year": "68"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Wedding of Aemon and Jocelyn",
+  "slug": "wedding-of-aemon-and-jocelyn",
+  "type": "event.wedding",
+  "identity": "splendid ceremony rivaling the Golden Wedding",
+  "ac_year": "70"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Death of Alaric Stark",
+  "slug": "death-of-alaric-stark",
+  "type": "event.death",
+  "identity": "Lord of Winterfell dies; grandson Edric succeeds",
+  "ac_year": "72"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Birth and death of Prince Gaemon",
+  "slug": "birth-and-death-of-prince-gaemon",
+  "type": "event.death",
+  "identity": "infant born and dies within three moons",
+  "ac_year": "73"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Ser Lucamore Strong scandal and punishment",
+  "slug": "ser-lucamore-strong-scandal-and-punishment",
+  "type": "event.trial",
+  "identity": "Lucamore gelded and sent to the Wall",
+  "ac_year": "73"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Wedding of Baelon and Alyssa",
+  "slug": "wedding-of-baelon-and-alyssa",
+  "type": "event.wedding",
+  "identity": "Spring Prince weds his sister Alyssa",
+  "ac_year": "75"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Trial by combat of Jaehaerys and Stinger",
+  "slug": "trial-by-combat-of-jaehaerys-and-stinger",
+  "type": "event.incident",
+  "identity": "Beesbury slain",
+  "ac_year": null
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Wedding of Rhaenys and Corlys Velaryon",
+  "slug": "wedding-of-rhaenys-and-corlys-velaryon",
+  "type": "event.wedding",
+  "identity": "married",
+  "ac_year": "90"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Death of Balerion",
+  "slug": "death-of-balerion",
+  "type": "event.death",
+  "identity": "the old dragon died",
+  "ac_year": null
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Death of Queen Alysanne",
+  "slug": "death-of-queen-alysanne",
+  "type": "event.death",
+  "identity": "died aged sixty-four",
+  "ac_year": "100"
+ }
+]

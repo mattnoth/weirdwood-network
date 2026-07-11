@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_IV_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -147,3 +147,9 @@ Aegon dressed in silk and satin, bright and rich, and wore rings and chains of g
 
 > Aegon, who was discovered hitting the babe with the dragon’s egg that had been placed inside the cradle.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:221`)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->
+
+- The Unworthy; eldest son of Viserys II; reigned 172–184. He had nine mistresses. (fab-lineages-and-family-tree-25:55)

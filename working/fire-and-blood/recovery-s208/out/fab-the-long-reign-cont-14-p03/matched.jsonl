@@ -1,0 +1,21 @@
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Aegon Targaryen (son of Baelon)", "slug": "aegon-targaryen-son-of-baelon", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Aemon Targaryen", "slug": "aemon-targaryen-son-of-jaehaerys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Alyssa Targaryen", "slug": "alyssa-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Baelon Targaryen", "slug": "baelon-targaryen-son-of-jaehaerys-i", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Citadel", "slug": "citadel", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "City Watch of King's Landing", "slug": "city-watch-of-kings-landing", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Daella Targaryen", "slug": "daella-targaryen-daughter-of-jaehaerys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Daemon Targaryen", "slug": "daemon-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Daenerys Targaryen", "slug": "daenerys-targaryen-daughter-of-jaehaerys-i", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Fourth Dornish War (Prince Morion's Madness / War of the Hundred Candles)", "slug": "fourth-dornish-war", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Jaehaerys I Targaryen", "slug": "jaehaerys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Kingsguard", "slug": "kingsguard", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Maegor", "slug": "maegor-i-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Morion Martell", "slug": "morion-martell", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Nymeria", "slug": "nymeria", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Robert Redwyne", "slug": "robert-redwyne", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Rodrik Arryn", "slug": "rodrik-arryn", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Saera Targaryen", "slug": "saera-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Starry Sept", "slug": "starry-sept", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Viserys Targaryen", "slug": "viserys-i-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-the-long-reign-cont-14-p03", "name": "Vulture King", "slug": "vulture-king-jaehaerys-i", "route_reason": "recovery-override"}

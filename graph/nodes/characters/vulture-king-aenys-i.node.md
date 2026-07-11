@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vulture_King_(Aenys_I)"
 bucket_id: characters-other-v-w
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -34,3 +34,11 @@ In later generations, several other leaders of rebels and outlaw bands that aros
 > This Vulture King is half-mad, and his followers are a rabble, undisciplined and unwashed. We can smell them coming fifty leagues away.(wiki:Vulture_King_(Aenys_I).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
 > —[Harmon Dondarrion](wiki:Harmon_Dondarrion) to [Aenys I Targaryen](wiki:Aenys_I_Targaryen)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-10-recovery -->
+
+- A Dornish pretender who raised a rabble in the Red Mountains and swelled it to more than thirty thousand (fab-sons-of-the-dragon-05-p01:207)
+- He sliced off Harmon Dondarrion's nose and burned Blackhaven (fab-sons-of-the-dragon-05-p01:185)
+- Defeated in the Vulture Hunt, he was taken alive by Savage Sam Tarly and perished of thirst and exposure (fab-sons-of-the-dragon-05-p01:211)

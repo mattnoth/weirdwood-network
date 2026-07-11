@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+    "session": "fab-reconcile",
+    "run_id": "fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "betrothals-of-jennis-templeton-and-prunella-celtigar",
+      "death-of-ser-willam-the-wasp-and-his-men"
+    ],
+    "note": "Fire & Blood reconciler output for fab-jaehaerys-and-alysanne-triumphs-12-p01 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E1",
+      "type": "PARENT_OF",
+      "source": "rhaena-targaryen-daughter-of-aenys-i",
+      "target": "aerea-targaryen",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "her wayward daughter might have sought out her twin sister",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaena Targaryen PARENT_OF Aerea Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E2",
+      "type": "PARENT_OF",
+      "source": "rhaena-targaryen-daughter-of-aenys-i",
+      "target": "rhaella-targaryen-daughter-of-aegon",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "visit for a time with her daughter Rhaella",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaena Targaryen PARENT_OF Rhaella Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E4",
+      "type": "SIBLING_OF",
+      "source": "jaehaerys-i-targaryen",
+      "target": "rhaena-targaryen-daughter-of-aenys-i",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "the blood of the dragon, and my sister",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I Targaryen SIBLING_OF Rhaena Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E15",
+      "type": "COUSIN_OF",
+      "source": "rhaena-targaryen-daughter-of-aenys-i",
+      "target": "larissa-velaryon",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "her cousin Larissa Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaena Targaryen COUSIN_OF Larissa Velaryon"
+    },
+    {
+      "id": "E17",
+      "type": "BETRAYS",
+      "source": "elissa-farman",
+      "target": "rhaena-targaryen-daughter-of-aenys-i",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "keep Queen Rhaena and her betrayer ignorant of one another",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Elissa Farman BETRAYS Rhaena Targaryen"
+    },
+    {
+      "id": "E20",
+      "type": "BETROTHED_TO",
+      "source": "jennis-templeton",
+      "target": "house-mullendore",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Lady Jennis Templeton would wed Lord Mullendore of Uplands",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jennis Templeton BETROTHED_TO Lord Mullendore",
+      "qualifier": "current"
+    },
+    {
+      "id": "E24",
+      "type": "MEMBER_OF",
+      "source": "lucamore-strong",
+      "target": "kingsguard",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "awarded a white cloak to Ser Lucamore Strong",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lucamore Strong MEMBER_OF Kingsguard"
+    },
+    {
+      "id": "E25",
+      "type": "MEMBER_OF",
+      "source": "willam-the-wasp",
+      "target": "kingsguard",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Ser Willam the Wasp of his Kingsguard",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Willam the Wasp MEMBER_OF Kingsguard"
+    },
+    {
+      "id": "E29",
+      "type": "ADVISES",
+      "source": "barth",
+      "target": "jaehaerys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "With the able assistance of Septon Barth",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Barth ADVISES Jaehaerys I Targaryen"
+    },
+    {
+      "id": "E38",
+      "type": "INFORMS",
+      "source": "sealord-of-braavos",
+      "target": "elissa-farman",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Men are hunting you, all up and down the narrow sea",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Sealord of Braavos INFORMS Elissa Farman"
+    },
+    {
+      "id": "E41",
+      "type": "LOVES",
+      "source": "jaehaerys-i-targaryen",
+      "target": "rhaena-targaryen-daughter-of-aenys-i",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Rhaena remains the blood of the dragon, and my sister",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I Targaryen LOVES Rhaena Targaryen"
+    },
+    {
+      "id": "E42",
+      "type": "DECEIVES",
+      "source": "barth",
+      "target": "jaehaerys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "that Aerea never spoke, but that is a lie",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Barth DECEIVES Jaehaerys I Targaryen",
+      "qualifier": "by_lie"
+    },
+    {
+      "id": "E43",
+      "type": "CONSPIRES_WITH",
+      "source": "benifer",
+      "target": "barth",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "have agreed to tell no one all of what we saw",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Benifer CONSPIRES_WITH Barth"
+    },
+    {
+      "id": "E44",
+      "type": "OPPOSES",
+      "source": "franklyn-farman",
+      "target": "rhaena-targaryen-daughter-of-aenys-i",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "The years had not made his lordship any fonder of the queen",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Franklyn Farman OPPOSES Rhaena Targaryen"
+    },
+    {
+      "id": "EV4-agent-alysanne-targaryen",
+      "type": "AGENT_IN",
+      "source": "alysanne-targaryen",
+      "target": "betrothals-of-jennis-templeton-and-prunella-celtigar",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "betrothals she arranged for two of the Wise Women",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alysanne Targaryen AGENT_IN Betrothals of Jennis Templeton and Prunella Celtigar"
+    },
+    {
+      "id": "EV9-patient-willam-the-wasp",
+      "type": "VICTIM_IN",
+      "source": "willam-the-wasp",
+      "target": "death-of-ser-willam-the-wasp-and-his-men",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "they were overwhelmed and slain. Ser Willam had been the last to fall",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Willam the Wasp VICTIM_IN Death of Ser Willam the Wasp and his men"
+    },
+    {
+      "id": "EV10-agent-archon-of-tyrosh",
+      "type": "AGENT_IN",
+      "source": "archon-of-tyrosh",
+      "target": "destruction-of-the-free-company-the-adventurers",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Not a man of them had survived",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Archon of Tyrosh AGENT_IN Destruction of the free company the Adventurers"
+    },
+    {
+      "id": "EV11-agent-balerion",
+      "type": "AGENT_IN",
+      "source": "balerion",
+      "target": "return-of-balerion-bearing-the-dying-aerea",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "Balerion had returned to King’s Landing",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Balerion AGENT_IN Return of Balerion bearing the dying Aerea"
+    },
+    {
+      "id": "EV13-agent-balerion",
+      "type": "AGENT_IN",
+      "source": "balerion",
+      "target": "balerion-bore-aerea-to-valyria",
+      "book": "fab",
+      "chapter": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+      "quote": "And that is where he took the poor doomed child",
+      "tier": "tier-2",
+      "note": "Fire & Blood event: Balerion AGENT_IN Balerion bore Aerea to Valyria",
+      "in_universe_source": "unattributed",
+      "disputed": true
+    }
+  ]
+}

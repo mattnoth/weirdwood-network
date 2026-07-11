@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Cheese_(ratcatcher)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Cheese (ratcatcher) is a character from the AWOIAF wiki.
+Cheese — Ratcatcher of the Red Keep who knew its hidden doors and secret tunnels; he led Blood in unseen, bound Queen Alicent, and made the choice-demand of Helaena.
 
 ## Edges
 
@@ -41,3 +41,10 @@ You hear that, little boy? [Your Momma](wiki:Helaena_Targaryen) wants you dead.(
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:259`)
 
 Cheese knew the [Red Keep](wiki:Red_Keep) better than the shape of his own cock.(wiki:Cheese_(ratcatcher).cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-10-recovery -->
+
+- Ratcatcher of the Red Keep who knew its hidden doors and secret tunnels; he led Blood in unseen, bound Queen Alicent, and made the choice-demand of Helaena (fab-the-blacks-and-the-greens-16-p02:259)
+- He escaped and was never found (fab-the-blacks-and-the-greens-16-p02:277)

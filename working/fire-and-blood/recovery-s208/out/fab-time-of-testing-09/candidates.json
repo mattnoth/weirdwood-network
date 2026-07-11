@@ -1,0 +1,288 @@
+{
+  "_meta": {
+    "unit": "fab-time-of-testing-09",
+    "session": "fab-reconcile",
+    "run_id": "fab-time-of-testing-09-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "bedding-of-jaehaerys-and-alysanne",
+      "death-of-ser-orryn-baratheon",
+      "second-wedding-of-jaehaerys-and-alysanne"
+    ],
+    "note": "Fire & Blood reconciler output for fab-time-of-testing-09 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E2",
+      "type": "SIBLING_OF",
+      "source": "jaehaerys-i-targaryen",
+      "target": "rhaena-targaryen-daughter-of-aenys-i",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "his thorniest problem yet: his sister Rhaena",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I Targaryen SIBLING_OF Rhaena Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E3",
+      "type": "SIBLING_OF",
+      "source": "jaehaerys-i-targaryen",
+      "target": "aegon-targaryen-son-of-aenys-i",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "greeted his brother Aegon’s marriage",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I Targaryen SIBLING_OF Aegon",
+      "qualifier": "full"
+    },
+    {
+      "id": "E4",
+      "type": "SIBLING_OF",
+      "source": "rhaena-targaryen-daughter-of-aenys-i",
+      "target": "alysanne-targaryen",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "flown in to see her siblings wed",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaena Targaryen SIBLING_OF Alysanne Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E7",
+      "type": "SPOUSE_OF",
+      "source": "aegon-targaryen-son-of-aenys-i",
+      "target": "rhaena-targaryen-daughter-of-aenys-i",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "the marriage of Aegon and Rhaena",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon SPOUSE_OF Rhaena Targaryen",
+      "qualifier": "widowed"
+    },
+    {
+      "id": "E8",
+      "type": "SPOUSE_OF",
+      "source": "maegor-i-targaryen",
+      "target": "elinor-costayne",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "the Black Bride who had found Maegor dead",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Maegor SPOUSE_OF Elinor Costayne",
+      "qualifier": "widowed"
+    },
+    {
+      "id": "E12",
+      "type": "PARENT_OF",
+      "source": "aenys-i-targaryen",
+      "target": "alysanne-targaryen",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "the reign of her father, Aenys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aenys PARENT_OF Alysanne Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E13",
+      "type": "PARENT_OF",
+      "source": "rhaena-targaryen-daughter-of-aenys-i",
+      "target": "aerea-targaryen",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "to visit her daughter Aerea",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaena Targaryen PARENT_OF Aerea Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E18",
+      "type": "UNCLE_OF",
+      "source": "maegor-i-targaryen",
+      "target": "jaehaerys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "frightened of what fate awaited me under",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Maegor UNCLE_OF Jaehaerys I Targaryen"
+    },
+    {
+      "id": "E20",
+      "type": "UNCLE_OF",
+      "source": "jaehaerys-i-targaryen",
+      "target": "rhaella-targaryen-daughter-of-aegon",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "remove my niece Rhaella from her motherhouse",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I Targaryen UNCLE_OF Rhaella Targaryen"
+    },
+    {
+      "id": "E24",
+      "type": "APPOINTS",
+      "source": "jaehaerys-i-targaryen",
+      "target": "daemon-velaryon-son-of-aethan",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "confirmed his mother's appointment of Lord Daemon Velaryon as Hand",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I Targaryen APPOINTS Daemon Velaryon"
+    },
+    {
+      "id": "E30",
+      "type": "DEPOSES",
+      "source": "jaehaerys-i-targaryen",
+      "target": "mattheus",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "Jaehaerys also sent off Septon Mattheus",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I Targaryen DEPOSES Septon Mattheus"
+    },
+    {
+      "id": "E38",
+      "type": "ADVISES",
+      "source": "oswyck",
+      "target": "jaehaerys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "ably assisted by Septon Oswyck",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Septon Oswyck ADVISES Jaehaerys I Targaryen"
+    },
+    {
+      "id": "E41",
+      "type": "MEMBER_OF",
+      "source": "joffrey-doggett",
+      "target": "kingsguard",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "Ser Joffrey Doggett and Ser Lorence Roxton of the Kingsguard",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Joffrey Doggett MEMBER_OF Kingsguard"
+    },
+    {
+      "id": "E42",
+      "type": "MEMBER_OF",
+      "source": "lorence-roxton",
+      "target": "kingsguard",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "Ser Joffrey Doggett and Ser Lorence Roxton of the Kingsguard",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Lorence Roxton MEMBER_OF Kingsguard"
+    },
+    {
+      "id": "E43",
+      "type": "NEGOTIATES_WITH",
+      "source": "rego-draz",
+      "target": "iron-bank-of-braavos",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "reached out to the lron Bank of Braavos",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rego Draz NEGOTIATES_WITH Iron Bank of Braavos"
+    },
+    {
+      "id": "E50",
+      "type": "BONDED_TO",
+      "source": "rhaena-targaryen-daughter-of-aenys-i",
+      "target": "dreamfyre",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "Borne on the wings of Dreamfyre, Rhaena Targaryen",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaena Targaryen BONDED_TO Dreamfyre"
+    },
+    {
+      "id": "EV3-agent-jaehaerys-i-targaryen",
+      "type": "AGENT_IN",
+      "source": "jaehaerys-i-targaryen",
+      "target": "jaehaerys-pardons-lord-rogar",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "\"Then",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Jaehaerys I Targaryen AGENT_IN Pardon and reconciliation of Lord Rogar"
+    },
+    {
+      "id": "EV3-patient-rogar-baratheon",
+      "type": "PARTICIPATES_IN",
+      "source": "rogar-baratheon",
+      "target": "jaehaerys-pardons-lord-rogar",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "\"Then",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Rogar Baratheon PARTICIPATES_IN Pardon and reconciliation of Lord Rogar"
+    },
+    {
+      "id": "EV4-agent-barth",
+      "type": "AGENT_IN",
+      "source": "barth",
+      "target": "second-wedding-of-jaehaerys-and-alysanne",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "to see Jaehaerys take his sister Alysanne to wife again",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Barth AGENT_IN Second wedding of Jaehaerys and Alysanne"
+    },
+    {
+      "id": "EV4-patient-jaehaerys-i-targaryen",
+      "type": "PARTICIPATES_IN",
+      "source": "jaehaerys-i-targaryen",
+      "target": "second-wedding-of-jaehaerys-and-alysanne",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "to see Jaehaerys take his sister Alysanne to wife again",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Jaehaerys I Targaryen PARTICIPATES_IN Second wedding of Jaehaerys and Alysanne"
+    },
+    {
+      "id": "EV5-agent-alysanne-targaryen",
+      "type": "AGENT_IN",
+      "source": "alysanne-targaryen",
+      "target": "bedding-of-jaehaerys-and-alysanne",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "it was followed by a bedding",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Alysanne Targaryen AGENT_IN Bedding of Jaehaerys and Alysanne"
+    },
+    {
+      "id": "EV6-patient-rhaena-targaryen-daughter-of-aenys-i",
+      "type": "PARTICIPATES_IN",
+      "source": "rhaena-targaryen-daughter-of-aenys-i",
+      "target": "grant-of-dragonstone-to-rhaena",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "I will grant you Dragonstone as your seat",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Rhaena Targaryen PARTICIPATES_IN Grant of Dragonstone to Rhaena"
+    },
+    {
+      "id": "EV8-agent-maegor-i-targaryen",
+      "type": "AGENT_IN",
+      "source": "maegor-i-targaryen",
+      "target": "maegor-takes-a-second-wife",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "Maegor's taking of a second wife in 39 AC",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Maegor AGENT_IN Maegor takes a second wife"
+    },
+    {
+      "id": "EV10-patient-orryn-baratheon",
+      "type": "VICTIM_IN",
+      "source": "orryn-baratheon",
+      "target": "death-of-ser-orryn-baratheon",
+      "book": "fab",
+      "chapter": "fab-time-of-testing-09",
+      "quote": "He was killed soon afterward in the Disputed Lands",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Orryn Baratheon VICTIM_IN Death of Ser Orryn Baratheon"
+    }
+  ]
+}

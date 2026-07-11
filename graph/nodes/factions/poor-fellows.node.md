@@ -7,13 +7,13 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Poor_Fellows"
 bucket_id: titles-l-w
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Poor Fellows is a organization.faction from the AWOIAF wiki.
+Poor Fellows — The Poor Fellows, ragged followers of the Faith, hacked Septon Murmison to pieces, pelted the royal couple, and besieged Crakehall.
 
 ## Edges
 
@@ -65,3 +65,10 @@ Poor Fellows and [Warrior's Sons](wiki:Warrior's_Sons) escort Cersei during her 
 > Filthy, unshaven creatures armed with spears and axes and clad in bits of dinted plate, rusted mail, and cracked leather, under roughspun surcoats bleached white and blazoned with the seven-pointed star of the Faith. The High Sparrow's ragged army.(wiki:Poor_Fellows.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts on the reborn Poor Fellows
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-10-recovery -->
+
+- The Poor Fellows, ragged followers of the Faith, hacked Septon Murmison to pieces, pelted the royal couple, and besieged Crakehall (fab-sons-of-the-dragon-05-p02:61)
+- They marched on King's Landing under Wat the Hewer and Ser Horys Hill and were shattered at Stonebridge and the Great Fork (fab-sons-of-the-dragon-05-p02:125)

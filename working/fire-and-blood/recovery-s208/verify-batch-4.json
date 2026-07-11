@@ -1,0 +1,386 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Surrender of Storm's End",
+  "slug": "surrender-of-storms-end",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "garrison yields Argella to Orys"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Prince Aemon",
+  "slug": "death-of-prince-aemon",
+  "type": "event.death",
+  "ac_year": "92",
+  "identity": "heir to the throne slain; succession thrown in doubt"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Prince Baelon",
+  "slug": "death-of-prince-baelon",
+  "type": "event.death",
+  "ac_year": "101",
+  "identity": "heir apparent dies of burst belly; succession in doubt"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Death of Queen Aemma in childbed",
+  "slug": "death-of-queen-aemma-in-childbed",
+  "type": "event.death",
+  "ac_year": "105",
+  "identity": "queen dies"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Helaena",
+  "slug": "birth-of-helaena",
+  "type": "event.birth",
+  "ac_year": "109",
+  "identity": "daughter born"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Daemon returns and reconciles with Viserys",
+  "slug": "daemon-returns-and-reconciles-with-viserys",
+  "type": "event.incident",
+  "ac_year": "111",
+  "identity": "crown offered and returned"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Daeron",
+  "slug": "birth-of-daeron",
+  "type": "event.birth",
+  "ac_year": "114",
+  "identity": "third son born"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Baela and Rhaena",
+  "slug": "birth-of-baela-and-rhaena",
+  "type": "event.birth",
+  "ac_year": "116",
+  "identity": "Daemon's first trueborn children"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Jaehaerys and Jaehaera",
+  "slug": "birth-of-jaehaerys-and-jaehaera",
+  "type": "event.birth",
+  "ac_year": "123",
+  "identity": "twins, both imperfect"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Death of Grand Maester Mellos",
+  "slug": "death-of-grand-maester-mellos",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "collapsed on the serpentine steps"
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Betrothal of Cregan Stark and Black Aly",
+  "slug": "betrothal-of-cregan-stark-and-black-aly",
+  "type": "event.betrothal",
+  "ac_year": "131",
+  "identity": "a hand for a head"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Death of Androw Farman",
+  "slug": "death-of-androw-farman",
+  "type": "event.death",
+  "ac_year": "54",
+  "identity": "leaps from window, body fed to dragons"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "name": "Death of Ser Willam the Wasp and his men",
+  "slug": "death-of-ser-willam-the-wasp-and-his-men",
+  "type": "event.death",
+  "ac_year": "56",
+  "identity": "Willam and his dozen men ambushed and slain"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Alysanne's visit to Castle Black",
+  "slug": "alysannes-visit-to-castle-black",
+  "type": "event.incident",
+  "ac_year": "58",
+  "identity": "\"visit the men of the Night's Watch at Castle Black\""
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Execution of Ser Maladon Moore",
+  "slug": "execution-of-ser-maladon-moore",
+  "type": "event.execution",
+  "ac_year": "48",
+  "identity": "Beheaded"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Ambush on the Boneway",
+  "slug": "ambush-on-the-boneway",
+  "type": "event.battle",
+  "ac_year": "4",
+  "identity": "stormlanders butchered; Orys captured"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Hanging of the would-be rescuers",
+  "slug": "hanging-of-the-would-be-rescuers",
+  "type": "event.execution",
+  "ac_year": null,
+  "identity": "both knights hanged at dawn"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Morghul",
+  "slug": "death-of-morghul",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "dragon slain through the eye"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Lady Mysaria",
+  "slug": "death-of-lady-mysaria",
+  "type": "event.execution",
+  "ac_year": null,
+  "identity": "White Worm whipped to death"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Tessarion",
+  "slug": "death-of-tessarion",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "three shafts into her eye"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Sunfyre",
+  "slug": "death-of-sunfyre",
+  "type": "event.death",
+  "ac_year": "130",
+  "identity": "golden dragon dies of festering wounds"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Grover Tully",
+  "slug": "death-of-grover-tully",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "aged lord dies (apoplexy, per Mushroom)"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "The coup in the Red Keep",
+  "slug": "the-coup-in-the-red-keep",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "turncloaks kill the king's men and free Prince Aegon"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Tourney at Riverrun",
+  "slug": "tourney-at-riverrun",
+  "type": "event.tournament",
+  "ac_year": "28",
+  "identity": "Maegor knighted with Blackfyre"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Ronnel Arryn",
+  "slug": "death-of-ronnel-arryn",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "lord cast through the Moon Door"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Birth and death of Vaella",
+  "slug": "birth-and-death-of-vaella",
+  "type": "event.death",
+  "ac_year": "39",
+  "identity": "infant dies in the cradle"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Killing of Grand Maester Myros",
+  "slug": "killing-of-grand-maester-myros",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "slain for speaking against Tyanna"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Execution of the captive Warrior's Sons",
+  "slug": "execution-of-the-captive-warriors-sons",
+  "type": "event.execution",
+  "ac_year": null,
+  "identity": "those who refused the black were beheaded"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Queen Visenya",
+  "slug": "death-of-queen-visenya",
+  "type": "event.death",
+  "ac_year": "44",
+  "identity": "Queen Dowager dies"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Queen Ceryse",
+  "slug": "death-of-queen-ceryse",
+  "type": "event.death",
+  "ac_year": "45",
+  "identity": "died; rumored murder"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Proclamation of Jaehaerys at Storm's End",
+  "slug": "proclamation-of-jaehaerys-at-storms-end",
+  "type": "event.council",
+  "ac_year": "48",
+  "identity": "Jaehaerys proclaimed true king"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Coryanne Wylde flees Dragonstone",
+  "slug": "coryanne-wylde-flees-dragonstone",
+  "type": "event.incident",
+  "ac_year": "50",
+  "identity": "fled by night with Ser Howard Bullock"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "name": "Closing of the Gullet",
+  "slug": "closing-of-the-gullet",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "trade to King's Landing choked off"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Corwyn Corbray and Rhaena",
+  "slug": "wedding-of-corwyn-corbray-and-rhaena",
+  "type": "event.wedding",
+  "ac_year": "132",
+  "identity": "the tractable twin wed the Corbray knight"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Death of Borys Baratheon",
+  "slug": "death-of-borys-baratheon",
+  "type": "event.death",
+  "ac_year": "61",
+  "identity": "slain in single combat"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Birth of Daemon Targaryen",
+  "slug": "birth-of-daemon-targaryen",
+  "type": "event.birth",
+  "ac_year": "81",
+  "identity": "second son of Baelon and Alyssa"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Execution of Toron's mother",
+  "slug": "execution-of-torons-mother",
+  "type": "event.death",
+  "ac_year": "134",
+  "identity": "mother put to death"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Birth of Prince Aegon (son of Viserys)",
+  "slug": "birth-of-prince-aegon-son-of-viserys",
+  "type": "event.birth",
+  "ac_year": "135",
+  "identity": "Viserys's firstborn, anointed into the Faith"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Last sighting of Sheepstealer and Nettles",
+  "slug": "last-sighting-of-sheepstealer-and-nettles",
+  "type": "event.incident",
+  "ac_year": "135",
+  "identity": "sixteen dead, dragon and rider flee"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Capture of Tessario",
+  "slug": "capture-of-tessario",
+  "type": "event.capture",
+  "ac_year": null,
+  "identity": "taken in a dockside tavern"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Departure of Aegon the Younger and Viserys for Pentos",
+  "slug": "departure-of-aegon-the-younger-and-viserys-for-pentos",
+  "type": "event.incident",
+  "ac_year": "129",
+  "identity": "princes sent to be fostered in Pentos under escort"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Sack of Spicetown",
+  "slug": "sack-of-spicetown",
+  "type": "event.battle",
+  "ac_year": "130",
+  "identity": "town sacked and burned, never rebuilt"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Sack of Fair Isle",
+  "slug": "sack-of-fair-isle",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "island swept end to end, Farman besieged"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Death of Grey Ghost",
+  "slug": "death-of-grey-ghost",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "dragon torn in two and partly devoured"
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Bedding of Jaehaerys and Alysanne",
+  "slug": "bedding-of-jaehaerys-and-alysanne",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "union consummated for all time"
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Return and reveal of Prince Viserys",
+  "slug": "return-and-reveal-of-prince-viserys",
+  "type": "event.incident",
+  "ac_year": "134",
+  "identity": "lost prince restored"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Honoring ceremony / Alyn made master of ships",
+  "slug": "honoring-ceremony-alyn-made-master-of-ships",
+  "type": "event.ceremony",
+  "ac_year": null,
+  "identity": "Alyn knighted, chained admiral, seated on the small council"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Betrothal of Aegon III and Daenaera Velaryon",
+  "slug": "betrothal-of-aegon-iii-and-daenaera-velaryon",
+  "type": "event.betrothal",
+  "ac_year": null,
+  "identity": "king chose the six-year-old; Peake sought to set it aside"
+ }
+]

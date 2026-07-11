@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alicent_Hightower"
 bucket_id: tier3-characters
 prompt_version: v1-python
-node_version: 10
+node_version: 12
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -153,3 +153,14 @@ And so each of [the conspirators](wiki:Green_council) slashed their palms and cl
 - Tyland confined her to Maegor's Holdfast (fab-the-hooded-hand-21:93)
 - She grew averse to the color green and, more lucid at the last, spoke of her children and of the Old King Jaehaerys (fab-the-hooded-hand-21:319)
 - She died of Winter Fever the same night as Lord Westerling (fab-the-hooded-hand-21:319)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-10-recovery -->
+
+- As Queen Dowager she saw to the city's defenses when both Hand and Lord Protector were absent, closing the gates and dispatching riders for Aemond (fab-the-red-dragon-and-the-gold-17-p02:123)
+- Her measures failed as the gold cloaks turned; she surrendered the keys and warned Rhaenyra (fab-the-red-dragon-and-the-gold-17-p02:137)
+- She was fettered in golden chains, her life spared for their father's sake (fab-the-red-dragon-and-the-gold-17-p02:243)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-10-recovery -->
+
+- The Dowager Queen, the Queen in Chains, Aegon II's mother, who went to the Iron Throne on her knees to plead for peace and division of the realm (fab-the-red-dragon-and-the-gold-17-p03:189)
+- She named the murdered boys innocent and warned against the queen's thirst for vengeance (fab-the-red-dragon-and-the-gold-17-p03:193)

@@ -1,0 +1,386 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Submission of Rosby",
+  "slug": "submission-of-rosby",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "yielded without a fight"
+ },
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Surrender of Highgarden",
+  "slug": "surrender-of-highgarden",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "Tyrell yields, made Warden of the South"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Wedding of Viserys and Aemma Arryn",
+  "slug": "wedding-of-viserys-and-aemma-arryn",
+  "type": "event.wedding",
+  "ac_year": "93",
+  "identity": "marriage of Baelon's heir to Lady Aemma"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Jaehaerys I",
+  "slug": "death-of-jaehaerys-i",
+  "type": "event.death",
+  "ac_year": "103",
+  "identity": "Old King dies at nine-and-sixty; burned in the Dragonpit"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Wedding of Viserys and Alicent",
+  "slug": "wedding-of-viserys-and-alicent",
+  "type": "event.wedding",
+  "ac_year": "106",
+  "identity": "Velaryons absent"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Aemond",
+  "slug": "birth-of-aemond",
+  "type": "event.birth",
+  "ac_year": "110",
+  "identity": "second son born"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Bracken and Blackwood sons duel over Rhaenyra",
+  "slug": "bracken-and-blackwood-sons-duel-over-rhaenyra",
+  "type": "event.incident",
+  "ac_year": "112",
+  "identity": "duel fought"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Death of Lady Rhea Royce",
+  "slug": "death-of-lady-rhea-royce",
+  "type": "event.death",
+  "ac_year": "115",
+  "identity": "Runestone passed to her nephew, not Daemon"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Second reconciliation of Viserys and Daemon",
+  "slug": "second-reconciliation-of-viserys-and-daemon",
+  "type": "event.incident",
+  "ac_year": "116",
+  "identity": "nieces presented at court"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Maelor Targaryen",
+  "slug": "birth-of-maelor-targaryen",
+  "type": "event.birth",
+  "ac_year": "127",
+  "identity": "Aegon's second son"
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Yielding of King's Landing",
+  "slug": "yielding-of-kings-landing",
+  "type": "event.incident",
+  "ac_year": "131",
+  "identity": "city yielded to the riverlords"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Selection of Septon Alfyn as High Septon",
+  "slug": "selection-of-septon-alfyn-as-high-septon",
+  "type": "event.incident",
+  "ac_year": "54",
+  "identity": "Alfyn chosen on the fourth ballot"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Aerea steals Balerion and flees Dragonstone",
+  "slug": "aerea-steals-balerion-and-flees-dragonstone",
+  "type": "event.incident",
+  "ac_year": "54",
+  "identity": "Aerea claims Balerion and vanishes"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Death of Aerea Targaryen",
+  "slug": "death-of-aerea-targaryen",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "died and was burned"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Tourney at White Harbor",
+  "slug": "tourney-at-white-harbor",
+  "type": "event.tournament",
+  "ac_year": "58",
+  "identity": "Jonquil Darke duels a wildling girl"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Execution of Maegor's headsman and gaolers",
+  "slug": "execution-of-maegors-headsman-and-gaolers",
+  "type": "event.execution",
+  "ac_year": "48",
+  "identity": "Heads and hands sent to Alyssa"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Capture of Nightsong",
+  "slug": "capture-of-nightsong",
+  "type": "event.battle",
+  "ac_year": "10",
+  "identity": "castle torched; Caron carried captive"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Crowning of Trystane",
+  "slug": "crowning-of-trystane",
+  "type": "event.coronation",
+  "ac_year": null,
+  "identity": "squire crowned king"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Tyraxes",
+  "slug": "death-of-tyraxes",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "dragon slain in fouled chains"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Killing of Ser Roger Corne",
+  "slug": "killing-of-ser-roger-corne",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "horseshoes nailed to Corne's skull"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Ser Hobert Hightower",
+  "slug": "death-of-ser-hobert-hightower",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "his heart stopped within the hour"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Parley and accord in Borros's tent",
+  "slug": "parley-and-accord-in-borross-tent",
+  "type": "event.council",
+  "ac_year": "130",
+  "identity": "betrothals and pardons agreed to restore Aegon II"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Hatching of Morning",
+  "slug": "hatching-of-morning",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "fertile egg yields a pink hatchling"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Wedding of Aenys and Alyssa",
+  "slug": "wedding-of-aenys-and-alyssa",
+  "type": "event.wedding",
+  "ac_year": "22",
+  "identity": "cousin match, happy and fruitful"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Aegon I Targaryen",
+  "slug": "death-of-aegon-i-targaryen",
+  "type": "event.death",
+  "ac_year": "37",
+  "identity": "king dies of a stroke"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Maegor claims Balerion and takes the Eyrie",
+  "slug": "maegor-claims-balerion-and-takes-the-eyrie",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "pretender's men executed"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Wedding of Maegor and Alys Harroway",
+  "slug": "wedding-of-maegor-and-alys-harroway",
+  "type": "event.wedding",
+  "ac_year": "39",
+  "identity": "Valyrian rite; Faith denounces it"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Wedding of Maegor and Tyanna",
+  "slug": "wedding-of-maegor-and-tyanna",
+  "type": "event.wedding",
+  "ac_year": null,
+  "identity": "wed amid the ashes of the Warrior's Sons"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Reconciliation of Maegor and Ceryse",
+  "slug": "reconciliation-of-maegor-and-ceryse",
+  "type": "event.feast",
+  "ac_year": "43",
+  "identity": "reconciliation with first wife"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Escape of Alyssa from Dragonstone",
+  "slug": "escape-of-alyssa-from-dragonstone",
+  "type": "event.incident",
+  "ac_year": "44",
+  "identity": "fled with Vermithor, Silverwing, Dark Sister"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Ser Horys Hill",
+  "slug": "death-of-ser-horys-hill",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "slain leading the rescue"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Death of Lord Marq Farman",
+  "slug": "death-of-lord-marq-farman",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "choked to death at his table, aged 46"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "The green council",
+  "slug": "the-green-council",
+  "type": "event.council",
+  "ac_year": "129",
+  "identity": "greens resolve to crown Aegon and set Rhaenyra aside"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "name": "Compact of White Harbor",
+  "slug": "compact-of-white-harbor",
+  "type": "event.betrothal",
+  "ac_year": null,
+  "identity": "Joffrey to wed a Manderly daughter after the war"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Cregan Stark and Alysanne",
+  "slug": "wedding-of-cregan-stark-and-alysanne",
+  "type": "event.wedding",
+  "ac_year": "132",
+  "identity": "Black Aly wed the Wolf of the North"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Death of Rogar Baratheon",
+  "slug": "death-of-rogar-baratheon",
+  "type": "event.death",
+  "ac_year": "61",
+  "identity": "died half a year after the war"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Birth of Aegon Targaryen (son of Baelon)",
+  "slug": "birth-of-aegon-targaryen-son-of-baelon",
+  "type": "event.birth",
+  "ac_year": "84",
+  "identity": "third son, after long difficult labor"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Ser Leo Costayne",
+  "slug": "death-of-ser-leo-costayne",
+  "type": "event.death",
+  "ac_year": "134",
+  "identity": "Sea Lion slain, most of his fleet lost"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Lady Floris",
+  "slug": "death-of-lady-floris",
+  "type": "event.death",
+  "ac_year": "135",
+  "identity": "died in childbirth"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Fall of House Rogare / Rogare Bank collapse",
+  "slug": "fall-of-house-rogare-rogare-bank-collapse",
+  "type": "event.incident",
+  "ac_year": "135",
+  "identity": "bank a hollow shell, siblings tried"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "The treason trials",
+  "slug": "the-treason-trials",
+  "type": "event.trial",
+  "ac_year": null,
+  "identity": "42 accused; 18 judged over three-and-thirty days"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "The Sowing of the Seeds / Red Sowing",
+  "slug": "the-sowing-of-the-seeds-red-sowing",
+  "type": "event.incident",
+  "ac_year": "129",
+  "identity": "sixteen died; four new dragonriders found"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Sack of Lannisport",
+  "slug": "sack-of-lannisport",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "city sacked, 600 women and girls taken"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Death of Rickard Thorne",
+  "slug": "death-of-rickard-thorne",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "knight brought down on the bridge"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Death of Lord Footly",
+  "slug": "death-of-lord-footly",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "Lord of Tumbleton slain"
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Death of Ser Orryn Baratheon",
+  "slug": "death-of-ser-orryn-baratheon",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "killed in battle"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Execution of Orwyle",
+  "slug": "execution-of-orwyle",
+  "type": "event.death",
+  "ac_year": "133",
+  "identity": "former Grand Maester beheaded by the sword"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Braavos embassy and peace",
+  "slug": "braavos-embassy-and-peace",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "Braavos cedes the Stepstones and dissolves its Tyrosh alliance"
+ }
+]

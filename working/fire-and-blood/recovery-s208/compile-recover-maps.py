@@ -57,6 +57,21 @@ for key, val in cur["per_unit"].items():
         maps[u][name] = val
 
 # layer 3: events decisions (subagent triage, list of {unit,name,decision})
+# A MAP may target a PENDING mint — a slug an earlier-sorted unit's CREATE will
+# produce before the mapping unit runs (the driver runs units in sorted order).
+import re as _re0
+
+def _slug0(name: str) -> str:
+    s = name.lower().replace("'", "")
+    return _re0.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+pending_creator: dict[str, str] = {}
+for r in events:
+    if r["decision"] == "CREATE":
+        sl = _slug0(r["name"])
+        if sl not in pending_creator or r["unit"] < pending_creator[sl]:
+            pending_creator[sl] = r["unit"]
+
 ev_counts = defaultdict(int)
 for r in events:
     u, name, dec = r["unit"], r["name"], r["decision"]
@@ -66,8 +81,11 @@ for r in events:
     if dec.startswith("MAP:"):
         slug = dec[4:]
         if slug not in existing:
-            bad_slugs.append((f"{u}|{name}", slug))
-            continue
+            if slug in pending_creator and pending_creator[slug] < u:
+                ev_counts["map-to-pending-mint"] += 1
+            else:
+                bad_slugs.append((f"{u}|{name}", slug))
+                continue
         maps[u][name] = slug
         ev_counts["map"] += 1
     elif dec == "CREATE":
@@ -84,6 +102,50 @@ if bad_slugs:
     print("ABORT — decision targets that are not existing node slugs:")
     for k, v in bad_slugs:
         print(f"  {k} -> {v}")
+    sys.exit(1)
+
+# ---- CREATE slug-collision detection ----
+# (a) two CREATE names in different units slugify identically: if they are the SAME
+#     occurrence, the later unit must MAP to the first unit's mint; if different
+#     occurrences, one needs a manual distinct-slug premint. Units run in sorted
+#     order, so the first sorted unit's CREATE lands and later ones would quarantine
+#     on routing-bug-create-slug-exists. Resolutions live in curation-decisions.json
+#     under "create_collisions": {"<slugified>": "same" | "different"} — "same"
+#     auto-flips later units to MAP:<slug>; "different"/absent -> flagged loudly.
+# (b) a CREATE whose slugified name already exists as a node: would quarantine.
+import re as _re
+
+def _slugify(name: str) -> str:
+    s = name.lower().replace("'", "")
+    return _re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+collision_notes = cur.get("create_collisions", {})
+creates_by_slug = defaultdict(list)
+for u in maps:
+    for n, v in maps[u].items():
+        if v == "CREATE":
+            creates_by_slug[_slugify(n)].append((u, n))
+flagged = []
+for slug, insts in sorted(creates_by_slug.items()):
+    if slug in existing:
+        flagged.append(f"CREATE would collide with EXISTING node: {slug} <- {insts}")
+        continue
+    if len(insts) > 1:
+        note = collision_notes.get(slug)
+        if note == "same":
+            insts_sorted = sorted(insts)
+            for u, n in insts_sorted[1:]:
+                # later units map onto the first unit's mint; mint's dedup + the
+                # router's update path handle the rest.
+                maps[u][n] = slug
+                ev_counts["collision-flip-to-map"] += 1
+        else:
+            flagged.append(f"CREATE slug collision across units ({slug}): {insts} — "
+                           f"adjudicate in create_collisions as 'same' or premint a distinct slug")
+if flagged:
+    print("CREATE COLLISIONS NEEDING ADJUDICATION:")
+    for f in flagged:
+        print(f"  {f}")
     sys.exit(1)
 
 out_dir = HERE / "recover-maps"

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-10T19:28:47.633718+00:00",
+  "generated_at": "2026-07-11T00:00:49.383377+00:00",
   "dry_run": false,
-  "character_count": 3913,
+  "character_count": 3914,
   "type_counts": {
-    "character.human": 3878,
+    "character.human": 3879,
     "character.dragon": 28,
     "character.direwolf": 6,
     "character.minor": 1
   },
   "pov_characters_count": 31,
-  "characters_with_zero_mentions": 2152,
+  "characters_with_zero_mentions": 2153,
   "year_pages_emitted_as_characters": 0,
   "pov_inverse_slugs": 31,
   "mention_inverse_slugs": 9356,

@@ -1,0 +1,25 @@
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Aemma Arryn", "slug": "aemma-arryn", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Aemond Targaryen", "slug": "aemond-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Alicent Hightower", "slug": "alicent-hightower", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Corlys Velaryon", "slug": "corlys-velaryon", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Criston Cole", "slug": "criston-cole", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Daemon Targaryen", "slug": "daemon-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Daeron Targaryen (son of Viserys I)", "slug": "daeron-targaryen-son-of-viserys-i", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Great Council of 101", "slug": "great-council-of-101-ac", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Helaena Targaryen", "slug": "helaena-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Jacaerys Velaryon", "slug": "jacaerys-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Jason Lannister", "slug": "jason-lannister", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Kingsguard", "slug": "kingsguard", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Laena Velaryon", "slug": "laena-velaryon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Laenor Velaryon", "slug": "laenor-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Lord of Stonehelm", "slug": "lord-of-stonehelm", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Old Volantis", "slug": "volantis", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Otto Hightower", "slug": "otto-hightower", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Prince of Dorne", "slug": "prince-of-dorne", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Rhaenyra Targaryen", "slug": "rhaenyra-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Rhaenyra named Princess of Dragonstone / heir", "slug": "viserys-names-rhaenyra-heir", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Rhaenys Targaryen", "slug": "rhaenys-targaryen-daughter-of-aemon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Septon Eustace", "slug": "eustace-dance-of-the-dragons", "route_reason": "recovery-override"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Tyland Lannister", "slug": "tyland-lannister", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "Viserys I Targaryen", "slug": "viserys-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-heirs-of-the-dragon-15-p02", "name": "War for the Stepstones begins", "slug": "war-for-the-stepstones", "route_reason": "recovery-override"}

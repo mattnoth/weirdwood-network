@@ -17,5 +17,17 @@
  "Lord Dustin": "house-dustin",
  "Archon of Tyrosh": "archon-of-tyrosh",
  "Nettles": "nettles",
- "Rodrik Greyjoy": "rodrik-greyjoy-son-of-dalton"
+ "Rodrik Greyjoy": "rodrik-greyjoy-son-of-dalton",
+ "Birth of Prince Aegon (son of Viserys)": "CREATE",
+ "Death of Ser Corwyn Corbray": "CREATE",
+ "Execution of Toron's mother": "CREATE",
+ "Removal of Lord Rowan and coup at court": "CREATE",
+ "Daughters' War ends": "daughters-war",
+ "Death of Ser Leo Costayne": "CREATE",
+ "Fall of House Rogare / Rogare Bank collapse": "CREATE",
+ "Death of Lady Floris": "CREATE",
+ "Death of Ser Robert Rowan": "CREATE",
+ "Lannister reprisal on the Iron Islands": "CREATE",
+ "Death of Lady Jeyne Arryn": "CREATE",
+ "Last sighting of Sheepstealer and Nettles": "CREATE"
 }

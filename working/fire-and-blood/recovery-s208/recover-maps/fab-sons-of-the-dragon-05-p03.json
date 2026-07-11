@@ -20,5 +20,19 @@
  "Visenya Targaryen": "visenya-targaryen",
  "Lord Tully": "prentys-tully",
  "Rhaena Targaryen": "rhaena-targaryen-daughter-of-aenys-i",
- "Lord Staunton": "lord-staunton-father-of-cassella"
+ "Lord Staunton": "lord-staunton-father-of-cassella",
+ "Death of Aegon the Uncrowned": "CREATE",
+ "Death of Queen Visenya": "CREATE",
+ "Harrenhal melee": "CREATE",
+ "Death of Maegor": "death-of-maegor-i-targaryen",
+ "Death of Ser Horys Hill": "CREATE",
+ "Jeyne Westerling's stillbirth": "CREATE",
+ "Burning of Poxy Jeyne Poore": "burning-of-jeyne-poore",
+ "Death of Prince Viserys": "CREATE",
+ "Escape of Alyssa from Dragonstone": "CREATE",
+ "Proclamation of Jaehaerys at Storm's End": "CREATE",
+ "Completion of the Red Keep": "CREATE",
+ "Death of Queen Ceryse": "CREATE",
+ "Execution of Ser Theo Bolling": "CREATE",
+ "Reconciliation of Maegor and Ceryse": "CREATE"
 }

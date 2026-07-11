@@ -9,5 +9,20 @@
  "Balerion": "balerion",
  "Manfred Hightower": "manfred-hightower-aegons-conquest",
  "Ronnel Arryn": "ronnel-arryn-son-of-sharra",
- "Vulture King": "vulture-king-aenys-i"
+ "Vulture King": "vulture-king-aenys-i",
+ "Battle at Stonehelm": "CREATE",
+ "Death of Aegon I Targaryen": "CREATE",
+ "Death of the Vulture King": "death-of-the-first-vulture-king",
+ "Wedding of Aenys and Alyssa": "CREATE",
+ "Birth and death of Vaella": "CREATE",
+ "Death of Harren the Red": "CREATE",
+ "Harren the Red's seizure of Harrenhal": "CREATE",
+ "Wedding of Maegor and Alys Harroway": "CREATE",
+ "Birth of Rhaena Targaryen": "CREATE",
+ "Death of Rhaenys and Meraxes": "death-of-rhaenys-targaryen",
+ "Maegor claims Balerion and takes the Eyrie": "CREATE",
+ "Wedding of Maegor and Ceryse": "CREATE",
+ "Coronation of Aenys I": "CREATE",
+ "Death of Ronnel Arryn": "CREATE",
+ "Tourney at Riverrun": "CREATE"
 }

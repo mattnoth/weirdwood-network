@@ -17,5 +17,11 @@
  "Walton Stark": "walton-stark-son-of-brandon",
  "Aenys": "aenys-i-targaryen",
  "Aegon": "aegon-targaryen-son-of-aenys-i",
- "Rhaena Targaryen": "rhaena-targaryen-daughter-of-aenys-i"
+ "Rhaena Targaryen": "rhaena-targaryen-daughter-of-aenys-i",
+ "Death of Aerea Targaryen": "CREATE",
+ "Death of Rhaena Targaryen": "CREATE",
+ "Alysanne's visit to Castle Black": "CREATE",
+ "Tenth-anniversary tourney at King's Landing": "tourney-at-kings-landing-on-the-anniversary-of-the-kings-coronation",
+ "Birth of Baelon Targaryen": "CREATE",
+ "Tourney at White Harbor": "CREATE"
 }

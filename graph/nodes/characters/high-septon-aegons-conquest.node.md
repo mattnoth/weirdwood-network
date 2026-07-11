@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/High_Septon_(Aegon's_Conquest)"
 bucket_id: characters-other-h
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -45,3 +45,10 @@ The [new High Septon](wiki:High_Sparrow) mentions this High Septon to [Queen Reg
 > I must do as he did, three hundred years ago. I must pray, and fast.(wiki:High_Septon_(Aegon's_Conquest).cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 >
 > —the [new High Septon](wiki:High_Sparrow), to [Cersei Lannister](wiki:Cersei_Lannister)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-10-recovery -->
+
+- The High Septon, Father of the Faithful, locked himself in the Starry Sept for seven days seeking guidance (fab-aegons-conquest-03:287)
+- The Crone showed him that resisting Aegon would see Oldtown burn, and he later anointed Aegon with the seven oils (fab-aegons-conquest-03:291)

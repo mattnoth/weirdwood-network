@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Samantha_Tarly"
 bucket_id: characters-house-tarly
 prompt_version: v1-python
-node_version: 3
+node_version: 5
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -77,3 +77,11 @@ Archmaester [Gyldayn](wiki:Gyldayn) describes Samantha as fierce, fiery, and bea
 
 - Lady Samantha of Oldtown; wrote the boldest letter, putting forward her sister Sansara of House Tarly and her good-sister Bethany of House Hightower (fab-war-and-peace-and-cattle-shows-22-p02:105)
 - She suggested the king marry both, as Alysanne ruled beside Jaehaerys (fab-war-and-peace-and-cattle-shows-22-p02:105)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-10-recovery -->
+
+- Lady Sam, widow of Lord Ormund Hightower and paramour of her stepson Lord Lyonel, defied the High Septon's command to take vows as a silent sister (fab-the-hooded-hand-21:271)
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p02-2026-07-10-recovery -->
+
+- Lady Sam, paramour of Lord Lyonel Hightower, took up the maimed Lotho Rogare to learn how to put Hightower gold to use, founding the Bank of Oldtown (fab-the-lysene-spring-24-p02:199)

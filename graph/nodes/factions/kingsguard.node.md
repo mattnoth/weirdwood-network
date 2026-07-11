@@ -7,13 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Kingsguard"
 bucket_id: houses-seven-kingdoms
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 ---
 
 ## Identity
 
-Kingsguard is a organization.faction from the AWOIAF wiki.
+Kingsguard — Visenya conceived seven champions for the Lord of the Seven Kingdoms, and thus the Kingsguard came into being.
 
 ## Edges
 
@@ -128,3 +128,12 @@ Ser [Robert Strong](wiki:Robert_Strong) is named to the Kingsguard of King Tomme
 > Even with [Blackfyre](wiki:Blackfyre) in your hand, you are only one man, and I cannot always be with you. [...] Your guards are slow and lazy, I could have killed you as easily as I cut you. You require better protection.(wiki:Kingsguard.cite_ref-Rfab3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_111-0)
 >
 > —[Visenya Targaryen](wiki:Visenya_Targaryen), advocating for better protection to [Aegon I Targaryen](wiki:Aegon_I_Targaryen) ahead of her creation of the Kingsguard
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-10-recovery -->
+
+- Visenya conceived seven champions for the Lord of the Seven Kingdoms, and thus the Kingsguard came into being (fab-reign-of-the-dragon-04:283)
+- She modeled their lifelong vows on the Night's Watch (fab-reign-of-the-dragon-04:285)
+- The original seven, from the White Book, were Ser Richard Roote, Ser Addison Hill the Bastard of Cornfield, Ser Gregor Goode, Ser Griffith Goode, Ser Humfrey the Mummer, Ser Robin Darklyn (Darkrobin), and Ser Corlys Velaryon as Lord Commander (fab-reign-of-the-dragon-04:295)
+- Two of them would die protecting the king (fab-reign-of-the-dragon-04:297)

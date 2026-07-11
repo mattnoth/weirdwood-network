@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Daemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -92,3 +92,20 @@ Lady Rhaena would make a splendid queen.(wiki:Rhaena_Targaryen_(daughter_of_Daem
 - Lady Rhaena, wife of Ser Corwyn Corbray and twin of Lady Baela, first flew her dragon Morning at nineteen (fab-the-lysene-spring-24-p01:85)
 - She carried Morning to Dragonstone, saying dragons were more welcome there (fab-the-lysene-spring-24-p01:87)
 - After her husband's death her twin came to guard against her seeking vengeance (fab-the-lysene-spring-24-p01:137)
+
+<!-- fab-enriched: fab-short-sad-reign-of-aegon-ii-19-2026-07-10-recovery -->
+
+- Lady Rhaena, Baela's twin, had carried a dragon's egg to the Vale (fab-short-sad-reign-of-aegon-ii-19:125)
+- The egg proved fertile, hatching a pale pink dragon she named Morning, whose birth alarmed the green council (fab-short-sad-reign-of-aegon-ii-19:125)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-10-recovery -->
+
+- Rhaena, Baela's twin and Aegon's half-sister, was tractable where her sister was willful, delighting in court life (fab-the-hooded-hand-21:241)
+- She had been Lady Jeyne Arryn's ward in the Vale (fab-the-hooded-hand-21:201)
+- She kept a young dragon, Morning, coiled about her shoulders (fab-the-hooded-hand-21:201)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-10-recovery -->
+
+- Lady; twin of Baela, half-sister of the king, wife of Ser Corwyn Corbray (fab-war-and-peace-and-cattle-shows-22-p02:171)
+- She announced she was with child by Corwyn Corbray, then miscarried a moon later (fab-war-and-peace-and-cattle-shows-22-p02:21)
+- Wan and thin from her miscarriage, she rode with her twin to bring the king his new queen (fab-war-and-peace-and-cattle-shows-22-p02:163)

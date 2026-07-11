@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Arryn"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -80,3 +80,7 @@ The great [lords](wiki:Lord) would have given us another two years of war, it wa
 
 - The Maiden of the Vale died at Gulltown of a chill at forty, in the arms of Jessamyn Redfort (fab-the-lysene-spring-24-p01:31)
 - On her deathbed she named her cousin Ser Joffrey Arryn her heir (fab-the-lysene-spring-24-p01:31)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery -->
+
+- Lady Jeyne, the Maiden of the Vale, ruled the Eyrie, and her own rights might be questioned if Rhaenyra were set aside (fab-the-blacks-and-the-greens-16-p01:149)

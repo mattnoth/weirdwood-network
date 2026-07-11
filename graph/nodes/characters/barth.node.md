@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Barth
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 6
+node_version: 12
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -131,3 +131,34 @@ Despite being in a House Tyrell bucket, Barth's primary significance is as Hand 
 <!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
 
 - He returned with no egg but with the Iron Bank's forgiveness of the Crown's loan (fab-jaehaerys-and-alysanne-triumphs-12-p02:101)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-10-recovery -->
+
+- Septon who took on Oswyck's duties and doubted Alyssa had strength enough to carry another child to term (fab-birth-death-and-betrayal-10:159)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-10-recovery -->
+
+- The Old King's most trusted friend, "companion of my labors," who served as Hand of the King for forty-one years and wrote the Unnatural History (fab-heirs-of-the-dragon-15-p01:65)
+- He died peacefully in his sleep a fortnight after the 98 AC tourney (fab-heirs-of-the-dragon-15-p01:63)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery -->
+
+- Came to oversee the Red Keep library and became a trusted advisor; too young and unorthodox to be High Septon (fab-jaehaerys-and-alysanne-dragonstone-11:47)
+- He was later suspected of greater loyalty to the Starry Sept and was lowborn, son of a blacksmith (fab-jaehaerys-and-alysanne-dragonstone-11:251)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-10-recovery -->
+
+- Septon and the king's foremost counselor, contributing more than any man to the Great Code (fab-jaehaerys-and-alysanne-triumphs-12-p01:105)
+- Admitted alone to the dying Aerea, he recorded in sealed privy papers the horrors he and Benifer witnessed and admitted lying to the king (fab-jaehaerys-and-alysanne-triumphs-12-p01:267)
+- According to Barth's own surmise, Balerion had borne Aerea to Valyria (fab-jaehaerys-and-alysanne-triumphs-12-p01:295)
+- The ordeal drove him to write Dragons, Wyrms, and Wyverns (fab-jaehaerys-and-alysanne-triumphs-12-p01:319)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-10-recovery -->
+
+- The king's wise councillor, who had no answers about Daenerys's death and later proposed the master-of-coin appointment (fab-the-long-reign-cont-14-p01:129)
+- He named Martyn's able wife as a further reason (fab-the-long-reign-cont-14-p01:135)
+
+<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-10-recovery -->
+
+- Septon Barth, writing years later, held that Jaehaerys privately opposed his mother's marriage to Rogar but held his tongue (fab-year-of-the-three-brides-07:49)
+- Barth esteemed Alysanne and served her husband long (fab-year-of-the-three-brides-07:109)

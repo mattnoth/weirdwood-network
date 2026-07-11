@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
 bucket_id: characters-other-r
 prompt_version: v1-python
-node_version: 12
+node_version: 14
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -238,3 +238,13 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 - Having lost her fleet when she sent Corlys to the dungeons, she had neither gold nor ships and sold her crown to buy passage on the Violande. (fab-rhaenyra-overthrown-18-p02:175)
 - Set on returning to Dragonstone for dragon's eggs, she came ashore into her brother's trap. (fab-rhaenyra-overthrown-18-p02:177)
 - Aegon II delivered her to Sunfyre, who devoured her; she died on the twenty-second day of the tenth moon of 130 AC, aged thirty-three. (fab-rhaenyra-overthrown-18-p02:307)
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->
+
+- Half-sister of Aegon II, ten years his elder; she disputed his ascent and both perished in the Dance of the Dragons. Mother of Aegon III. (fab-lineages-and-family-tree-25:35)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-10-recovery -->
+
+- The queen refused to bend the knee despite the disasters, and Jace's death hardened rather than broke her (fab-the-red-dragon-and-the-gold-17-p02:63)
+- She flew Syrax to take King's Landing, rejected Alicent's plea for a great council, and claimed the Iron Throne (fab-the-red-dragon-and-the-gold-17-p02:141)
+- Septon Eustace records that afterward cuts were seen on her legs and left palm (fab-the-red-dragon-and-the-gold-17-p02:147)

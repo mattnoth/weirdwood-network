@@ -1,0 +1,416 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Aegon's first coronation",
+  "decision": "CREATE",
+  "note": "Distinct from Aegon II's coronation; has quote."
+ },
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Surrender of Highgarden",
+  "decision": "CREATE",
+  "note": "Discrete event, has quote, no conflicts."
+ },
+ {
+  "unit": "fab-birth-death-and-betrayal-10",
+  "name": "Rebuilding of King's Landing begins",
+  "decision": "CREATE",
+  "note": "Discrete construction event, year 52, has quote."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Prince Aemon",
+  "decision": "CREATE",
+  "note": "Distinct from Maester Aemon/other princes; has quote."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Wedding of Viserys and Aemma Arryn",
+  "decision": "CREATE",
+  "note": "Discrete wedding, no real near-match conflict."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Jacaerys",
+  "decision": "CREATE",
+  "note": "Discrete birth, dated, has quote."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Death of Queen Aemma in childbed",
+  "decision": "CREATE",
+  "note": "near_match death-of-queen-rhaenyra is a different person."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Rhaenyra named Princess of Dragonstone / heir",
+  "decision": "MAP:viserys-names-rhaenyra-heir",
+  "note": "Node text is verbatim the same occurrence."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Wedding of Viserys and Alicent",
+  "decision": "CREATE",
+  "note": "Distinct wedding, year 106, has quote."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Jaehaerys and Jaehaera",
+  "decision": "CREATE",
+  "note": "Single twin-birth occurrence, allowed composite."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Death of King Viserys I",
+  "decision": "MAP:death-of-viserys-i",
+  "note": "Node is the identical death-in-sleep, 129 AC."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Fire at Harrenhal",
+  "decision": "CREATE",
+  "note": "Discrete death event, no near-match conflict."
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Betrothal of Cregan Stark and Black Aly",
+  "decision": "CREATE",
+  "note": "Name doesn't encode a disputed cause; has quote."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Aerea steals Balerion and flees Dragonstone",
+  "decision": "CREATE",
+  "note": "near_matches are later, different events (Valyria voyage/return)."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Death of the High Septon",
+  "decision": "CREATE",
+  "note": "murder-of-the-old-high-septon is AFFC 300AC, different High Septon/era."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "name": "Death of Ser Willam the Wasp and his men",
+  "decision": "CREATE",
+  "note": "Single ambush occurrence, not a bundled composite."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Death of Aerea Targaryen",
+  "decision": "CREATE",
+  "note": "near_matches are unrelated deaths; has quote."
+ },
+ {
+  "unit": "fab-lineages-and-family-tree-25",
+  "name": "Daeron I's conquest of Dorne",
+  "decision": "MAP:conquest-of-dorne",
+  "note": "Node occurred.ac_year=161 matches Daeron's 157-161 campaign end."
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Death of Maegor on the Iron Throne",
+  "decision": "MAP:death-of-maegor-i-targaryen",
+  "note": "Node is the identical found-dead-on-throne event, 48 AC."
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Trial by battle for Ser Harrold",
+  "decision": "CREATE",
+  "note": "Discrete combat event, no conflicts."
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Building of King's Landing's walls",
+  "decision": "CREATE",
+  "note": "Discrete construction event, has quote."
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Death of Meria Martell",
+  "decision": "CREATE",
+  "note": "near_matches unrelated; has quote."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Dreamfyre",
+  "decision": "CREATE",
+  "note": "Discrete dragon death, has quote."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Queen Helaena",
+  "decision": "MAP:death-of-helaena-targaryen",
+  "note": "Node is the identical window-fall-onto-spikes death."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Hanging of the would-be rescuers",
+  "decision": "CREATE",
+  "note": "Single hanging of two named knights, one occurrence."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Ser Hobert Hightower",
+  "decision": "CREATE",
+  "note": "Discrete death, has quote."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Killing of Ser Roger Corne",
+  "decision": "CREATE",
+  "note": "Discrete, gruesome, well-quoted event."
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Aegon II",
+  "decision": "MAP:death-of-aegon-ii",
+  "note": "Existing node already describes this exact poisoning."
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Rhaenyra Targaryen",
+  "decision": "MAP:death-of-queen-rhaenyra",
+  "note": "Existing node = same Sunfyre-devours-Rhaenyra event, 130 AC, different slug than expected."
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Parley and accord in Borros's tent",
+  "decision": "CREATE",
+  "note": "Discrete council/accord event, has quote."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Battle at Stonehelm",
+  "decision": "CREATE",
+  "note": "Discrete battle, no conflicts."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Aegon I Targaryen",
+  "decision": "CREATE",
+  "note": "No same-occurrence near_match; has quote."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of the Vulture King",
+  "decision": "CREATE",
+  "note": "Discrete death, has quote."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Wedding of Aenys and Alyssa",
+  "decision": "CREATE",
+  "note": "Discrete wedding, dated 22 AC, has quote."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Birth of Aerea and Rhaella",
+  "decision": "CREATE",
+  "note": "Single twin-birth occurrence, allowed composite."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Election of Septon Pater as High Septon",
+  "decision": "CREATE",
+  "note": "Discrete election, has quote."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Wedding of Aegon and Rhaena",
+  "decision": "CREATE",
+  "note": "Distinct from the announcement event; the wedding itself."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Aegon the Uncrowned",
+  "decision": "CREATE",
+  "note": "Discrete death by dragon-fall, has quote."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Queen Visenya",
+  "decision": "CREATE",
+  "note": "near_match death-of-queen-rhaenyra is unrelated."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Harrenhal melee",
+  "decision": "CREATE",
+  "note": "Discrete tourney, has quote."
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "name": "Alyssa's flight from Dragonstone",
+  "decision": "CREATE",
+  "note": "Discrete escape event, has quote."
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Coryanne Wylde flees Dragonstone",
+  "decision": "CREATE",
+  "note": "Discrete flight event, has quote."
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Night's Watch rebellion at Rimegate and Sable Hall",
+  "decision": "MAP:nights-watch-rebellion-of-50-ac",
+  "note": "Same rebellion, same year 50 AC, same agent Olyver Bracken."
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "The black council",
+  "decision": "CREATE",
+  "note": "Discrete named council, well-quoted."
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "name": "Murder of Prince Jaehaerys (Blood and Cheese)",
+  "decision": "MAP:murder-of-prince-jaehaerys",
+  "note": "Node is the identical Blood-and-Cheese beheading."
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Kingsdguard / White Swords",
+  "decision": "DROP:no quote, no event_rows data at all",
+  "note": "event_rows empty; nothing to build a node from."
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Cregan Stark and Alysanne",
+  "decision": "CREATE",
+  "note": "Distinct wedding (year 132) from the earlier betrothal; different Alysanne than Targaryen namesake."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Death of Borys Baratheon",
+  "decision": "CREATE",
+  "note": "Discrete single-combat death, has quote."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Lord Rogar's War (Third Dornish War)",
+  "decision": "MAP:third-dornish-war",
+  "note": "Node alias is literally 'Lord Rogar's War'; same war/Vulture King."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Death of Alaric Stark",
+  "decision": "CREATE",
+  "note": "Discrete death, has quote."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Tourney at Duskendale",
+  "decision": "MAP:tourney-at-duskendale-in-honor-of-lord-darklyns-wedding",
+  "note": "Node confirms same tourney, Aemon wins spurs."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Birth of Daemon Targaryen",
+  "decision": "CREATE",
+  "note": "Discrete birth, dated 81 AC, has quote."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Wedding of Daella Targaryen and Rodrik Arryn",
+  "decision": "CREATE",
+  "note": "Discrete wedding, has quote."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Death of Septon Barth",
+  "decision": "CREATE",
+  "note": "Discrete death, dated 98 AC, has quote."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Birth of Prince Aegon (son of Viserys)",
+  "decision": "CREATE",
+  "note": "Discrete birth, has quote."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Ser Corwyn Corbray",
+  "decision": "CREATE",
+  "note": "Discrete death, has quote."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Execution of Toron's mother",
+  "decision": "CREATE",
+  "note": "Discrete execution, has quote."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Removal of Lord Rowan and coup at court",
+  "decision": "CREATE",
+  "note": "Single coup occurrence, has quote."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Death of Marston Waters",
+  "decision": "MAP:death-of-marston-waters",
+  "note": "Node is the identical stabbing-by-Mervyn-Flowers death."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Death of Rhaenys Targaryen",
+  "decision": "COLLIDE",
+  "note": "Existing slug is the 10 AC Conqueror's-sister Rhaenys; this row is the 129 AC Queen Who Never Was."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Attack on Sunfyre at Rook's Rest",
+  "decision": "CREATE",
+  "note": "Discrete battle, has quote."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Rhaenyra claims the Iron Throne",
+  "decision": "CREATE",
+  "note": "Distinct coronation-claiming act, no same-occurrence near_match."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Death of Maelor Targaryen",
+  "decision": "MAP:death-of-maelor-targaryen",
+  "note": "Node already captures the three disputed accounts of this death."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Death of Grey Ghost",
+  "decision": "CREATE",
+  "note": "Disputed flag is about carcass ID, not cause; has quote."
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Death of Ser Orryn Baratheon",
+  "decision": "CREATE",
+  "note": "Discrete battle death, has quote."
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Murder of Dalton Greyjoy",
+  "decision": "MAP:death-of-dalton-greyjoy",
+  "note": "Node is the identical Tess-cuts-his-throat killing."
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Wedding of Aegon III and Daenaera",
+  "decision": "CREATE",
+  "note": "Discrete wedding, dated 133 AC, has quote."
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Execution of Orwyle",
+  "decision": "CREATE",
+  "note": "Discrete execution, has quote."
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Death of Queen Jaehaera",
+  "decision": "MAP:death-of-jaehaera-targaryen",
+  "note": "Node is the identical window-fall death, 133 AC."
+ }
+]

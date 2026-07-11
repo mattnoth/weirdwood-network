@@ -1,0 +1,31 @@
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Aegon I Targaryen", "slug": "aegon-i-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Alys Harroway", "slug": "alys-harroway", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Alyssa Velaryon", "slug": "alyssa-velaryon", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Balerion", "slug": "balerion", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Bernarr Brune", "slug": "bernarr-brune", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Ceryse Hightower", "slug": "ceryse-hightower", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Chamber of the Painted Table", "slug": "painted-table", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Death of Rhaenys and Meraxes", "slug": "death-of-rhaenys-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Death of the Vulture King", "slug": "death-of-the-first-vulture-king", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Deria Martell", "slug": "deria-martell", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Dorne", "slug": "dorne", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Evenstar of Tarth", "slug": "evenstar", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Faith of the Seven", "slug": "faith-of-the-seven", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Gargon Qoherys", "slug": "gargon-qoherys", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Grand Maester Gawen", "slug": "gawen", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Harmon Dondarrion", "slug": "harmon-dondarrion", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Harren the Red", "slug": "harren-the-red", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Jonos Arryn", "slug": "jonos-arryn", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Kingsguard", "slug": "kingsguard", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Maegor Targaryen", "slug": "maegor-i-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Manfred Hightower", "slug": "manfred-hightower-aegons-conquest", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Orys Baratheon", "slug": "orys-baratheon", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Rhaena Targaryen", "slug": "rhaena-targaryen-daughter-of-aenys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Rhaenys Targaryen", "slug": "rhaenys-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Ronnel Arryn", "slug": "ronnel-arryn-son-of-sharra", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Samwell Tarly", "slug": "samwell-tarly-lord", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Septon Murmison", "slug": "murmison", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "The Vulture Hunt", "slug": "vulture-hunt", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Vaella Targaryen", "slug": "vaella-targaryen-daughter-of-aenys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Vulture King", "slug": "vulture-king-aenys-i", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p01", "name": "Walter Wyl", "slug": "walter-wyl", "route_reason": "hit-character"}

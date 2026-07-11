@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Helaena_Targaryen"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -104,3 +104,10 @@ I want to see my sons again, and Helaena, my sweet girl...(wiki:Helaena_Targarye
 - She threw herself from a window in Maegor's Holdfast onto the iron spikes below (fab-rhaenyra-overthrown-18-p01:23)
 - According to Mushroom she was with child; Munkun blames the horror of the knights' deaths; Septon Eustace says Mysaria told her of her son Maelor's death (fab-rhaenyra-overthrown-18-p01:25)
 - At her death her dragon Dreamfyre snapped two of her chains atop the Hill of Rhaenys (fab-rhaenyra-overthrown-18-p01:39)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-10-recovery -->
+
+- Queen Helaena was spared by Blood and Cheese but broken by the ordeal; afterward she would not eat, bathe, or leave her chambers (fab-the-red-dragon-and-the-gold-17-p01:15)
+- She could no longer bear to look upon her son Maelor, whom she had named to die (fab-the-red-dragon-and-the-gold-17-p01:15)
+- She and Aegon slept apart thereafter and she sank into madness (fab-the-red-dragon-and-the-gold-17-p01:15)
+- She was the rider of Dreamfyre but spent her days weeping (fab-the-red-dragon-and-the-gold-17-p01:189)

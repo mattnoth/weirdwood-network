@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Oswyck
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 4
+node_version: 5
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -51,3 +51,8 @@ Died 54 AC (track_b: Died). Source is Fire & Blood and The Rise of the Dragon on
 <!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-09 -->
 
 - Aged Septon who kept the sept on Dragonstone and performed the royal wedding (fab-surfeit-of-rulers-08-p01:145)
+
+<!-- fab-enriched: fab-birth-death-and-betrayal-10-2026-07-10-recovery -->
+
+- Old, failing septon who had performed the marriage rites for Jaehaerys and Alysanne when the Faith opposed it (fab-birth-death-and-betrayal-10:153)
+- He died in his sleep in 54 AC and was interred on Dragonstone (fab-birth-death-and-betrayal-10:153)

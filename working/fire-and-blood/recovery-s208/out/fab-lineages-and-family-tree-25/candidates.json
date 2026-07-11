@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "unit": "fab-lineages-and-family-tree-25",
+    "session": "fab-reconcile",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [],
+    "note": "Fire & Blood reconciler output for fab-lineages-and-family-tree-25 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E2",
+      "type": "PARENT_OF",
+      "source": "rhaenys-targaryen",
+      "target": "aenys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "son of Aegon I and Rhaenys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenys PARENT_OF Aenys I",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E5",
+      "type": "PARENT_OF",
+      "source": "aenys-i-targaryen",
+      "target": "jaehaerys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "the Conciliator; Aenys’s son",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aenys I PARENT_OF Jaehaerys I",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E6",
+      "type": "ANCESTOR_OF",
+      "source": "jaehaerys-i-targaryen",
+      "target": "viserys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "grandson of Jaehaerys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys I ANCESTOR_OF Viserys I"
+    },
+    {
+      "id": "E7",
+      "type": "PARENT_OF",
+      "source": "viserys-i-targaryen",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "eldest son of Viserys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Viserys I PARENT_OF Aegon II",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E8",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "aegon-iii-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "the Dragonbane, Rhaenyra’s son",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra PARENT_OF Aegon III",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E20",
+      "type": "SIBLING_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "his half-sister Rhaenyra, ten years his elder",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra SIBLING_OF Aegon II",
+      "qualifier": "half"
+    },
+    {
+      "id": "E23",
+      "type": "OPPOSES",
+      "source": "rhaenyra-targaryen",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "Aegon II’s ascent was disputed by his half-sister Rhaenyra",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra OPPOSES Aegon II"
+    },
+    {
+      "id": "E30",
+      "type": "SUCCEEDS",
+      "source": "viserys-i-targaryen",
+      "target": "jaehaerys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "103-129 ViserysI",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Viserys I SUCCEEDS Jaehaerys I"
+    },
+    {
+      "id": "E31",
+      "type": "SUCCEEDS",
+      "source": "aegon-ii-targaryen",
+      "target": "viserys-i-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "grandson of Jaehaerys 129-131 Aegon II",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon II SUCCEEDS Viserys I"
+    },
+    {
+      "id": "E32",
+      "type": "SUCCEEDS",
+      "source": "aegon-iii-targaryen",
+      "target": "aegon-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "131-157 Aegon III",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon III SUCCEEDS Aegon II"
+    },
+    {
+      "id": "EV2-agent-aegon-ii-targaryen",
+      "type": "AGENT_IN",
+      "source": "aegon-ii-targaryen",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "Both perished in the war between them, called by singers the Dance of the Dragons",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon II AGENT_IN Dance of the Dragons"
+    },
+    {
+      "id": "EV2-patient-rhaenyra-targaryen",
+      "type": "PARTICIPATES_IN",
+      "source": "rhaenyra-targaryen",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-lineages-and-family-tree-25",
+      "quote": "Both perished in the war between them, called by singers the Dance of the Dragons",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Rhaenyra PARTICIPATES_IN Dance of the Dragons"
+    }
+  ]
+}

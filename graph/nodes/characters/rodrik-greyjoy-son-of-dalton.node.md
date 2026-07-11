@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rodrik_Greyjoy_(son_of_Dalton)
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -41,3 +41,10 @@ In [133 AC](wiki:133_AC), Dalton was slain by one of his [salt wives](wiki:Salt
 ## Notes
 
 Historical character from TWOIAF. No cite_refs in the main novels; first_available is null.
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-the-lysene-spring-24-p01-2026-07-10-recovery -->
+
+- Toron's half-brother, raised up by Harlaw and Blacktyde, was taken to Casterly Rock (fab-the-lysene-spring-24-p01:19)
+- He was gelded and made Lady Johanna's son's fool (fab-the-lysene-spring-24-p01:27)

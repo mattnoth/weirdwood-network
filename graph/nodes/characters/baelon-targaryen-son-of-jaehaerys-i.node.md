@@ -11,7 +11,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baelon_Targaryen_(son_of_Jaehaerys_I)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 4
+node_version: 8
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -115,3 +115,28 @@ At birth, Baelon was smaller than his older brother, [Aemon](wiki:Aemon_Targarye
 - Baelon, born 57 AC, was dubbed the Spring Prince when white ravens announced spring two days before his birth (fab-jaehaerys-and-alysanne-triumphs-12-p02:49)
 - He followed and imitated Aemon everywhere and made a stick-sword to join his training (fab-jaehaerys-and-alysanne-triumphs-12-p02:51)
 - According to report he struck Balerion on the snout, earning the name Baelon the Brave (fab-jaehaerys-and-alysanne-triumphs-12-p02:53)
+
+<!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-10-recovery -->
+
+- Younger son of Jaehaerys I, "Baelon the Brave," the Spring Prince; he earned knighthood at sixteen and wed at eighteen (fab-heirs-of-the-dragon-15-p01:27)
+- After Aemon's death he avenged him by driving the Myrmen into the sea and was named Prince of Dragonstone and heir (fab-heirs-of-the-dragon-15-p01:31)
+- By his sister Alyssa he sired three sons; two, Viserys and Daemon, lived (fab-heirs-of-the-dragon-15-p01:79)
+- He became the King's Hand in 99 AC and died in 101 AC of a burst belly at four-and-forty (fab-heirs-of-the-dragon-15-p01:69)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-10-recovery -->
+
+- Baelon the Brave, the Spring Prince, followed Aemon into knighthood in 73 AC, jousting at Old Oak as a mystery knight called the Silver Fool. (fab-the-long-reign-cont-14-p02:51)
+- He claimed the great she-dragon Vhagar, unridden since Visenya's death twenty-nine years before. (fab-the-long-reign-cont-14-p02:55)
+- In 75 AC he wed his sister Alyssa; in 77 AC she bore him a son, Viserys. (fab-the-long-reign-cont-14-p02:171)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p03-2026-07-10-recovery -->
+
+- Prince called "Baelon the Brave" and the "Spring Prince," brother of Aemon and husband of Princess Alyssa. He preferred making sons to making law (fab-the-long-reign-cont-14-p03:43)
+- — and fathered Viserys, Daemon, and Aegon. He rode against Morion's fleet and, after Alyssa's death, took solace in his two surviving sons (fab-the-long-reign-cont-14-p03:101)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-10-recovery -->
+
+- Baelon the Brave, "the Spring Prince," was fourteen years older than Viserra and widowed of his sister Alyssa (fab-the-long-reign-cont-14-p04:73)
+- When Aemon was slain he came to Tarth on Vhagar with Dark Sister and slaughtered the Myrish (fab-the-long-reign-cont-14-p04:197)
+- He became Prince of Dragonstone and Hand of the King and remained near the queen to the end (fab-the-long-reign-cont-14-p04:245)
+- Alysanne told him (fab-the-long-reign-cont-14-p04:245)

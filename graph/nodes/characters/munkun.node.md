@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Munkun"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 7
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -95,3 +95,7 @@ Maester [Alford](wiki:Alford) was Grand Maester in [153 AC](wiki:Years_after_Ae
 - Grand Maester Munkun made repeated appeals to the king, confirmed that the poison was the Tears of Lys, and examined Marston Waters's mortal wound (fab-the-lysene-spring-24-p02:47)
 - He summoned the lords by raven, proposed that three regents be chosen by lot, and served as both regent and Hand for the rest of the year (fab-the-lysene-spring-24-p02:115)
 - He urged the appointment of Maester Rowley as Lord Confessor (fab-the-lysene-spring-24-p02:217)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery -->
+
+- He burned the poetic name of the war into history (fab-the-blacks-and-the-greens-16-p01:17)

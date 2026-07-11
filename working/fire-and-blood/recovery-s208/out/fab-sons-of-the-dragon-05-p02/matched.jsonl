@@ -1,0 +1,57 @@
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Aegon Targaryen", "slug": "aegon-targaryen-son-of-aenys-i", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Aenys Targaryen", "slug": "aenys-i-targaryen", "route_reason": "redirect"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Aerea Targaryen", "slug": "aerea-targaryen", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Announcement of the Aegon–Rhaena marriage", "slug": "announcement-of-the-aegon-rhaena-marriage", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Assassination of Septon Murmison", "slug": "assassination-of-septon-murmison", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Attack on Aenys at his manse", "slug": "attack-on-aenys-at-his-manse", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Balerion", "slug": "balerion", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Battle at Stonebridge", "slug": "battle-at-stonebridge", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Battle at the Great Fork of the Blackwater", "slug": "battle-at-the-great-fork", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Blackfyre", "slug": "blackfyre", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Burning of the Sept of Remembrance", "slug": "burning-of-the-sept-of-remembrance", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Burning of the seats of the pious lords", "slug": "burning-of-the-seats-of-the-pious-lords", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Casterly Rock", "slug": "casterly-rock", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Damon Morrigen", "slug": "damon-morrigen", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Death of King Aenys", "slug": "death-of-aenys-i-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Death of the High Septon", "slug": "death-of-high-septon-aenys-i", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Dragonstone", "slug": "dragonstone", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Driftmark", "slug": "driftmark", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Execution of Grand Maester Gawen", "slug": "execution-of-grand-maester-gawen", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Faith of the Seven", "slug": "faith-of-the-seven", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Grand Maester Gawen", "slug": "gawen", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Harrenhal", "slug": "harrenhal", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "High Septon", "slug": "high-septon-aenys-i", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Iron Bank of Braavos", "slug": "iron-bank-of-braavos", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Iron Throne", "slug": "iron-throne", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Joffrey Doggett", "slug": "joffrey-doggett", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "King's Landing", "slug": "kings-landing", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Kingsguard", "slug": "kingsguard", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Lannisport", "slug": "lannisport", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Lord Mooton", "slug": "house-mooton", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Lucas Harroway", "slug": "lucas-harroway", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Lyman Lannister", "slug": "lyman-lannister", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Maegor Targaryen", "slug": "maegor-i-targaryen", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Maegor's Holdfast", "slug": "maegors-holdfast", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Maidenpool", "slug": "maidenpool", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Manfred Hightower", "slug": "manfred-hightower-aegons-conquest", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Martyn Hightower", "slug": "martyn-hightower", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Melony Piper", "slug": "melony-piper", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Morgan Hightower", "slug": "morgan-hightower", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Most Devout", "slug": "most-devout", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Myros", "slug": "myros", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Oldtown", "slug": "oldtown", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Patrice Hightower", "slug": "patrice-hightower", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Poor Fellows", "slug": "poor-fellows", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Red Keep", "slug": "red-keep", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Rhaella Targaryen", "slug": "rhaella-targaryen-daughter-of-aegon", "route_reason": "discriminator-auto-accept"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Rhaena Targaryen", "slug": "rhaena-targaryen-daughter-of-aenys-i", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Rupert Falwell", "slug": "rupert-falwell", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Septon Murmison", "slug": "murmison", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Seven Kingdoms", "slug": "seven-kingdoms", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Submission of Oldtown", "slug": "submission-of-oldtown", "route_reason": "hit"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Trial of Seven", "slug": "maegors-trial-of-seven", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Tyanna of the Tower", "slug": "tyanna-of-the-tower", "route_reason": "hit-character"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Visenya Targaryen", "slug": "visenya-targaryen", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "Warrior's Sons", "slug": "warriors-sons", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "riverlands", "slug": "riverlands", "route_reason": "recovery-override"}
+{"unit": "fab-sons-of-the-dragon-05-p02", "name": "westerlands", "slug": "westerlands", "route_reason": "recovery-override"}

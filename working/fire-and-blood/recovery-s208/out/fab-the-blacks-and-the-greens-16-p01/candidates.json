@@ -1,0 +1,223 @@
+{
+  "_meta": {
+    "unit": "fab-the-blacks-and-the-greens-16-p01",
+    "session": "fab-reconcile",
+    "run_id": "fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "death-of-lord-lyman-beesbury",
+      "the-black-council"
+    ],
+    "note": "Fire & Blood reconciler output for fab-the-blacks-and-the-greens-16-p01 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E25",
+      "type": "PARENT_OF",
+      "source": "rhaenyra-targaryen",
+      "target": "viserys-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "his little brother, Viserys, went everywhere with his egg",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen PARENT_OF Viserys (son of Rhaenyra)",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E28",
+      "type": "PARENT_OF",
+      "source": "daemon-targaryen",
+      "target": "viserys-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Rhaenyra’s two sons by Prince Daemon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daemon Targaryen PARENT_OF Viserys (son of Rhaenyra)",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E31",
+      "type": "PARENT_OF",
+      "source": "laena-velaryon",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Prince Daemon's twins by Laena Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Laena Velaryon PARENT_OF Baela Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E32",
+      "type": "PARENT_OF",
+      "source": "laena-velaryon",
+      "target": "rhaena-targaryen-daughter-of-daemon",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Prince Daemon's twins by Laena Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Laena Velaryon PARENT_OF Rhaena Targaryen (daughter of Daemon)",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E36",
+      "type": "SIBLING_OF",
+      "source": "aegon-iii-targaryen",
+      "target": "viserys-ii-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "his little brother, Viserys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon the Younger SIBLING_OF Viserys (son of Rhaenyra)",
+      "qualifier": "full"
+    },
+    {
+      "id": "E41",
+      "type": "CLAIMS",
+      "source": "aegon-ii-targaryen",
+      "target": "iron-throne",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "There were two principal claimants to the Iron Throne",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Aegon II Targaryen CLAIMS Iron Throne"
+    },
+    {
+      "id": "E42",
+      "type": "CLAIMS",
+      "source": "rhaenyra-targaryen",
+      "target": "iron-throne",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "There were two principal claimants to the Iron Throne",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Rhaenyra Targaryen CLAIMS Iron Throne"
+    },
+    {
+      "id": "E46",
+      "type": "COMMANDS",
+      "source": "criston-cole",
+      "target": "kingsguard",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Ser Criston Cole, Lord Commander of the Kingsguard",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Criston Cole COMMANDS Kingsguard"
+    },
+    {
+      "id": "E50",
+      "type": "COMMANDS",
+      "source": "luthor-largent",
+      "target": "city-watch-of-kings-landing",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "made the new commander of the gold cloaks",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Luthor Largent COMMANDS City Watch of King's Landing"
+    },
+    {
+      "id": "E89",
+      "type": "BONDED_TO",
+      "source": "alysanne-targaryen",
+      "target": "silverwing",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Silverwing, Good Queen Alysanne’s mount of old",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Alysanne BONDED_TO Silverwing"
+    },
+    {
+      "id": "E91",
+      "type": "BONDED_TO",
+      "source": "jaehaerys-i-targaryen",
+      "target": "vermithor",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Vermithor, unridden since the death of King Jaehaerys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys BONDED_TO Vermithor"
+    },
+    {
+      "id": "EV1-patient-viserys-i-targaryen",
+      "type": "VICTIM_IN",
+      "source": "viserys-i-targaryen",
+      "target": "death-of-viserys-i",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "closed his eyes for a nap in the Red Keep of King’s Landing and died without waking",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Viserys I Targaryen VICTIM_IN Death of King Viserys I"
+    },
+    {
+      "id": "EV2-agent-otto-hightower",
+      "type": "AGENT_IN",
+      "source": "otto-hightower",
+      "target": "green-council-conceals-death-of-viserys",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Grand Maester Munkun dubs this gathering",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Otto Hightower AGENT_IN The green council"
+    },
+    {
+      "id": "EV3-agent-criston-cole",
+      "type": "AGENT_IN",
+      "source": "criston-cole",
+      "target": "death-of-lord-lyman-beesbury",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "the first blood shed in the Dance of the Dragons belonged to",
+      "tier": "tier-2",
+      "note": "Fire & Blood event: Criston Cole AGENT_IN Death of Lord Lyman Beesbury",
+      "in_universe_source": "gyldayn-synthesis",
+      "disputed": true
+    },
+    {
+      "id": "EV3-patient-lyman-beesbury",
+      "type": "VICTIM_IN",
+      "source": "lyman-beesbury",
+      "target": "death-of-lord-lyman-beesbury",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "the first blood shed in the Dance of the Dragons belonged to",
+      "tier": "tier-2",
+      "note": "Fire & Blood event: Lyman Beesbury VICTIM_IN Death of Lord Lyman Beesbury",
+      "in_universe_source": "gyldayn-synthesis",
+      "disputed": true
+    },
+    {
+      "id": "EV5-agent-criston-cole",
+      "type": "AGENT_IN",
+      "source": "criston-cole",
+      "target": "coronation-of-aegon-ii",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Ser Criston Cole placed the steel-and-ruby crown of Aegon the Conqueror",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Criston Cole AGENT_IN Coronation of Aegon II"
+    },
+    {
+      "id": "EV5-patient-aegon-ii-targaryen",
+      "type": "PARTICIPATES_IN",
+      "source": "aegon-ii-targaryen",
+      "target": "coronation-of-aegon-ii",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Ser Criston Cole placed the steel-and-ruby crown of Aegon the Conqueror",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon II Targaryen PARTICIPATES_IN Coronation of Aegon II"
+    },
+    {
+      "id": "EV8-agent-rhaenyra-targaryen",
+      "type": "AGENT_IN",
+      "source": "rhaenyra-targaryen",
+      "target": "the-black-council",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "“The black council,” the True Telling names that gathering on Dragonstone",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Rhaenyra Targaryen AGENT_IN The black council"
+    }
+  ]
+}

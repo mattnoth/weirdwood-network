@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/House_Farman"
 bucket_id: tier3-pathb-orgs
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki-deterministic
 sigil: Three silver ships on blue, a border of crimson and gold (Azure, three galleys argent within a bordure compony gules and or)
 words: The Wind Our Steed
@@ -66,3 +66,9 @@ Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) has a nightmare about the
 ## Quotes
 
 Wars between the [westermen](wiki:Westermen) and the [ironborn](wiki:Ironborn) erupted every generation or so; even during periods of peace, the ironmen came raiding after wealth and [salt wives](wiki:Salt_wives). [Fair Isle](wiki:Fair_Isle) did help shield the coast farther south; for this reason the Farmans have become famous for their hatred of the ironborn.(wiki:House_Farman.cite_ref-Rtwoiafthe_westerlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-10-recovery -->
+
+- Lord of Fair Isle, father of Androw and Elissa, who gave the widowed Rhaena refuge when Maegor demanded her capture (fab-surfeit-of-rulers-08-p01:235)

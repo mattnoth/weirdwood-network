@@ -1,0 +1,290 @@
+[
+ {
+  "slug": "surrender-of-storms-end",
+  "unit": "fab-aegons-conquest-03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-prince-aemon",
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-prince-baelon",
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-queen-aemma-in-childbed",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "birth-of-helaena",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "daemon-returns-and-reconciles-with-viserys",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "birth-of-daeron",
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "birth-of-baela-and-rhaena",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "birth-of-jaehaerys-and-jaehaera",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-grand-maester-mellos",
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "betrothal-of-cregan-stark-and-black-aly",
+  "unit": "fab-hour-of-the-wolf-20",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-androw-farman",
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-ser-willam-the-wasp-and-his-men",
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "alysannes-visit-to-castle-black",
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "execution-of-ser-maladon-moore",
+  "unit": "fab-prince-into-king-06",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "ambush-on-the-boneway",
+  "unit": "fab-reign-of-the-dragon-04",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "hanging-of-the-would-be-rescuers",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-morghul",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-lady-mysaria",
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-tessarion",
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-sunfyre",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-grover-tully",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "the-coup-in-the-red-keep",
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "tourney-at-riverrun",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-ronnel-arryn",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "birth-and-death-of-vaella",
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "killing-of-grand-maester-myros",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "execution-of-the-captive-warriors-sons",
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-queen-visenya",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-queen-ceryse",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "proclamation-of-jaehaerys-at-storms-end",
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "coryanne-wylde-flees-dragonstone",
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "closing-of-the-gullet",
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "wedding-of-corwyn-corbray-and-rhaena",
+  "unit": "fab-the-hooded-hand-21",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-borys-baratheon",
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "birth-of-daemon-targaryen",
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "execution-of-torons-mother",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "birth-of-prince-aegon-son-of-viserys",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "last-sighting-of-sheepstealer-and-nettles",
+  "unit": "fab-the-lysene-spring-24-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "capture-of-tessario",
+  "unit": "fab-the-lysene-spring-24-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "departure-of-aegon-the-younger-and-viserys-for-pentos",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "sack-of-spicetown",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "sack-of-fair-isle",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "death-of-grey-ghost",
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "bedding-of-jaehaerys-and-alysanne",
+  "unit": "fab-time-of-testing-09",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "return-and-reveal-of-prince-viserys",
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "honoring-ceremony-alyn-made-master-of-ships",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "verdict": "CONFIRM",
+  "note": ""
+ },
+ {
+  "slug": "betrothal-of-aegon-iii-and-daenaera-velaryon",
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "verdict": "CONFIRM",
+  "note": ""
+ }
+]

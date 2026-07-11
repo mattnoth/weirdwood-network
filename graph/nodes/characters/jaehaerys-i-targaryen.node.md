@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
 bucket_id: characters-other-i-j
 prompt_version: v1-python
-node_version: 15
+node_version: 18
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -379,3 +379,22 @@ During their travels in the [riverlands](wiki:Riverlands) Septon Meribald tells 
 - He killed the seducer of his daughter by driving the sword into his eye (fab-the-long-reign-cont-14-p04:33)
 - He refused all appeals to bring Saera home from Lys (fab-the-long-reign-cont-14-p04:115)
 - After Aemon's death he grieved to the end of his days and drank honeyed wine to sleep (fab-the-long-reign-cont-14-p04:217)
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->
+
+- The Old King, the Conciliator; Aenys's son; reigned 48–103. (fab-lineages-and-family-tree-25:29)
+- Grandfather of Viserys I. (fab-lineages-and-family-tree-25:33)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-10-recovery -->
+
+- King Jaehaerys, the boy king, kept a self-imposed exile on Dragonstone, training with his Kingsguard and studying the reign of his grandsire Aegon the Conqueror (fab-surfeit-of-rulers-08-p02:113)
+- More and more lords came to Dragonstone to talk with him (fab-surfeit-of-rulers-08-p02:117)
+- On the twentieth day of the ninth moon of 50 AC he reached his sixteenth nameday and became a man grown, ending the regency (fab-surfeit-of-rulers-08-p02:217)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-10-recovery -->
+
+- King Jaehaerys remade the realm's roads—roseroad, ocean road, river road, goldroad—filling ruts and bridging streams for decades. (fab-the-long-reign-cont-14-p02:15)
+- His monument at Oldtown reads that he unified the kingdoms. (fab-the-long-reign-cont-14-p02:15)
+- He appointed Martyn Tyrell as his new master of coin. (fab-the-long-reign-cont-14-p02:15)
+- He sentenced Ser Lucamore to be gelded and sent to the Wall for breaking his vows. (fab-the-long-reign-cont-14-p02:91)
+- He sent Vaegon to the Citadel at Oldtown. (fab-the-long-reign-cont-14-p02:167)

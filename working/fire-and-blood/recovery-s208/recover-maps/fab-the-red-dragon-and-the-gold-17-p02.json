@@ -19,5 +19,13 @@
  "Nettles": "nettles",
  "Jason Lannister": "jason-lannister",
  "Daeron Targaryen": "daeron-targaryen-son-of-viserys-i",
- "Corlys Velaryon": "corlys-velaryon"
+ "Corlys Velaryon": "corlys-velaryon",
+ "Attack on Sunfyre at Rook's Rest": "CREATE",
+ "Rhaenyra claims the Iron Throne": "CREATE",
+ "Battle by the Lakeshore (the Fishfeed)": "battle-by-the-lakeshore",
+ "Sack of Fair Isle": "CREATE",
+ "Death of Stormcloud": "CREATE",
+ "Sack of Lannisport": "CREATE",
+ "Death of Vermax": "CREATE",
+ "Sack of Spicetown": "CREATE"
 }

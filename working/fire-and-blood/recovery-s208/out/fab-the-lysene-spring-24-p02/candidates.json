@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "unit": "fab-the-lysene-spring-24-p02",
+    "session": "fab-reconcile",
+    "run_id": "fab-the-lysene-spring-24-p02-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "battle-at-the-gate-of-the-gods",
+      "capture-of-tessario",
+      "sentencing-of-lotho-and-roggerio",
+      "the-treason-trials",
+      "trial-by-battle-long-vs-risley"
+    ],
+    "note": "Fire & Blood reconciler output for fab-the-lysene-spring-24-p02 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E15",
+      "type": "SIBLING_OF",
+      "source": "baela-targaryen",
+      "target": "rhaena-targaryen-daughter-of-daemon",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "her sister Baela declared that she would come along",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Baela Targaryen SIBLING_OF Rhaena Targaryen",
+      "qualifier": "full"
+    },
+    {
+      "id": "E40",
+      "type": "APPOINTS",
+      "source": "torrhen-manderly",
+      "target": "lucas-lothston-husband-of-falena",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "Lord Manderly appointed a fine young swordsman named Ser Lucas Lothston",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Torrhen Manderly APPOINTS Lucas Lothston"
+    },
+    {
+      "id": "E56",
+      "type": "CONSPIRES_WITH",
+      "source": "george-graceford",
+      "target": "bernard",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "Tessario the Tiger, Septon Bernard, Ser Gareth Long",
+      "tier": "tier-1",
+      "note": "Fire & Blood: George Graceford CONSPIRES_WITH Septon Bernard"
+    },
+    {
+      "id": "EV4-patient-lucas-leygood",
+      "type": "VICTIM_IN",
+      "source": "lucas-leygood",
+      "target": "battle-at-the-gate-of-the-gods",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "A short, savage battle was fought at the Gate of the Gods",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lucas Leygood VICTIM_IN Battle at the Gate of the Gods"
+    },
+    {
+      "id": "EV5-agent-mervyn-flowers",
+      "type": "AGENT_IN",
+      "source": "mervyn-flowers",
+      "target": "death-of-marston-waters",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "pronounced the wound mortal",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Mervyn Flowers AGENT_IN Death of Marston Waters"
+    },
+    {
+      "id": "EV5-patient-marston-waters",
+      "type": "VICTIM_IN",
+      "source": "marston-waters",
+      "target": "death-of-marston-waters",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "pronounced the wound mortal",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Marston Waters VICTIM_IN Death of Marston Waters"
+    },
+    {
+      "id": "EV7-patient-tessario",
+      "type": "VICTIM_IN",
+      "source": "tessario",
+      "target": "capture-of-tessario",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "was taken in a dockside tavern",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Tessario VICTIM_IN Capture of Tessario"
+    },
+    {
+      "id": "EV12-agent-torrhen-manderly",
+      "type": "AGENT_IN",
+      "source": "torrhen-manderly",
+      "target": "the-treason-trials",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "The trials lasted three-and-thirty days",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Torrhen Manderly AGENT_IN The treason trials"
+    },
+    {
+      "id": "EV13-agent-gareth-long",
+      "type": "AGENT_IN",
+      "source": "gareth-long",
+      "target": "trial-by-battle-long-vs-risley",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "demand a trial by battle",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Gareth Long AGENT_IN Trial by battle, Long vs Risley"
+    },
+    {
+      "id": "EV13-patient-victor-risley",
+      "type": "PARTICIPATES_IN",
+      "source": "victor-risley",
+      "target": "trial-by-battle-long-vs-risley",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "demand a trial by battle",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Victor Risley PARTICIPATES_IN Trial by battle, Long vs Risley"
+    },
+    {
+      "id": "EV16-agent-torrhen-manderly",
+      "type": "AGENT_IN",
+      "source": "torrhen-manderly",
+      "target": "sentencing-of-lotho-and-roggerio",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "having his right hand removed as if he were a common thief",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Torrhen Manderly AGENT_IN Sentencing of Lotho and Roggerio"
+    },
+    {
+      "id": "EV16-patient-lotho-rogare",
+      "type": "PARTICIPATES_IN",
+      "source": "lotho-rogare",
+      "target": "sentencing-of-lotho-and-roggerio",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "having his right hand removed as if he were a common thief",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lotho Rogare PARTICIPATES_IN Sentencing of Lotho and Roggerio"
+    },
+    {
+      "id": "EV19-agent-aegon-iii-targaryen",
+      "type": "AGENT_IN",
+      "source": "aegon-iii-targaryen",
+      "target": "aegon-iii-dismisses-the-regents-and-hand",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "It is time for you to take the",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Aegon III Targaryen AGENT_IN Aegon III assumes personal rule"
+    },
+    {
+      "id": "EV19-patient-torrhen-manderly",
+      "type": "PARTICIPATES_IN",
+      "source": "torrhen-manderly",
+      "target": "aegon-iii-dismisses-the-regents-and-hand",
+      "book": "fab",
+      "chapter": "fab-the-lysene-spring-24-p02",
+      "quote": "It is time for you to take the",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Torrhen Manderly PARTICIPATES_IN Aegon III assumes personal rule"
+    }
+  ]
+}

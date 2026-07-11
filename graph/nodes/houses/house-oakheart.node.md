@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/House_Oakheart
 bucket_id: houses-reach-h
 prompt_version: v1-python
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -50,3 +50,9 @@ In AGOT, the Oakheart name appears among the houses at the Hand's tourney. (agot
 - HOLDS_TITLE: King (track_b: Titles) [in the Age of Heroes]
 - OVERLORD_OF (reverse): House Tyrell (track_b: Overlord)
 - FOUNDED: John the Oak (track_b: Founder)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-10-recovery -->
+
+- Lord who granted Septon Moon his protection at Oldtown and decamped the day after Moon's death (fab-prince-into-king-06:99)

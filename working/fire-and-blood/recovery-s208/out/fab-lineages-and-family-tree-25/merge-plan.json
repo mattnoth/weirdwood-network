@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "aenys-i-targaryen",
+    "fab_section_md": "- Son of Aegon I and Rhaenys; reigned 37–42 and was succeeded by his brother Maegor I. (fab-lineages-and-family-tree-25:23)\n- Father of Jaehaerys I. (fab-lineages-and-family-tree-25:29)",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "identity_line": "Aenys I — Son of Aegon I and Rhaenys; reigned 37–42 and was succeeded by his brother Maegor I."
+  },
+  {
+    "slug": "jaehaerys-i-targaryen",
+    "fab_section_md": "- The Old King, the Conciliator; Aenys's son; reigned 48–103. (fab-lineages-and-family-tree-25:29)\n- Grandfather of Viserys I. (fab-lineages-and-family-tree-25:33)",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "identity_line": "Jaehaerys I — The Old King, the Conciliator; Aenys's son; reigned 48–103."
+  },
+  {
+    "slug": "viserys-i-targaryen",
+    "fab_section_md": "- Grandson of Jaehaerys I; reigned 103–129; father of Aegon II. (fab-lineages-and-family-tree-25:33)",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "identity_line": "Viserys I — Grandson of Jaehaerys I; reigned 103–129; father of Aegon II."
+  },
+  {
+    "slug": "aegon-ii-targaryen",
+    "fab_section_md": "- Eldest son of Viserys I; reigned 129–131. His ascent was disputed by his half-sister Rhaenyra, ten years his elder, and both perished in the war between them that singers called the Dance of the Dragons. (fab-lineages-and-family-tree-25:35)",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "identity_line": "Aegon II — Eldest son of Viserys I; reigned 129–131. His ascent was disputed by his half-sister Rhaenyra, ten years his elder, and both perished in the war between them that singers called the Dance of the Dragons."
+  },
+  {
+    "slug": "rhaenyra-targaryen",
+    "fab_section_md": "- Half-sister of Aegon II, ten years his elder; she disputed his ascent and both perished in the Dance of the Dragons. Mother of Aegon III. (fab-lineages-and-family-tree-25:35)",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "identity_line": "Rhaenyra — Half-sister of Aegon II, ten years his elder; she disputed his ascent and both perished in the Dance of the Dragons. Mother of Aegon III."
+  },
+  {
+    "slug": "aegon-iii-targaryen",
+    "fab_section_md": "- The Dragonbane, Rhaenyra's son; reigned 131–157. The last of the Targaryen dragons died during his reign. (fab-lineages-and-family-tree-25:39)",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "identity_line": "Aegon III — The Dragonbane, Rhaenyra's son; reigned 131–157. The last of the Targaryen dragons died during his reign."
+  },
+  {
+    "slug": "aegon-iv-targaryen",
+    "fab_section_md": "- The Unworthy; eldest son of Viserys II; reigned 172–184. He had nine mistresses. (fab-lineages-and-family-tree-25:55)",
+    "run_id": "fab-lineages-and-family-tree-25-2026-07-10-recovery",
+    "identity_line": "Aegon IV — The Unworthy; eldest son of Viserys II; reigned 172–184. He had nine mistresses."
+  }
+]

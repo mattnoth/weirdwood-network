@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Balerion"
 bucket_id: characters-other-a-b
 prompt_version: v1-python
-node_version: 2
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -118,3 +118,30 @@ Balerion was willful, and not a beast to trifle with.(wiki:Balerion.cite_ref-Rfa
 
 > Less than a year later, Balerion was gone. “The last living creature in all the world who saw Valyria in its glory,” wrote Septon Barth.
 > — Septon Barth, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p04.md:213`)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-10-recovery -->
+
+- The Black Dread, largest and oldest of the dragons, once ridden by Aegon the Conqueror and by Maegor the Cruel (fab-jaehaerys-and-alysanne-triumphs-12-p01:301)
+- Barth held he alone knew Valyria before the Doom (fab-jaehaerys-and-alysanne-triumphs-12-p01:303)
+- He returned to King's Landing bearing the dying Aerea, his own body freshly torn (fab-jaehaerys-and-alysanne-triumphs-12-p01:315)
+- By Rhaena's telling he had earlier devoured a Farman (fab-jaehaerys-and-alysanne-triumphs-12-p01:53)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-10-recovery -->
+
+- The Black Dread, greatest of the dragons; Maegor claimed him at last above the Eyrie (fab-sons-of-the-dragon-05-p01:199)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-10-recovery -->
+
+- The Black Dread, Maegor's mount; for the first time since the Doom, dragon fought dragon when he destroyed Quicksilver. (fab-sons-of-the-dragon-05-p03:53)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p04-2026-07-10-recovery -->
+
+- Balerion, the Black Dread, had stopped growing and grown sluggish; claimed by Viserys, he died less than a year later (fab-the-long-reign-cont-14-p04:213)
+- Septon Barth wrote of him (fab-the-long-reign-cont-14-p04:213)
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-10-recovery -->
+
+- Balerion the Black Dread was the sole survivor of the five dragons Aenar brought from Valyria and served as Aegon's mount (fab-aegons-conquest-03:39)
+- His black fire, shot through with red, melted the towers of Harrenhal (fab-aegons-conquest-03:169)

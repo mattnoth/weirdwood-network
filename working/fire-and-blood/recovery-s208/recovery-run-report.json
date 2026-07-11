@@ -1,0 +1,94 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "status": "ok",
+  "steps": {
+   "reconcile": {
+    "rc": 0,
+    "tail": [
+     "  working/fire-and-blood/recovery-s208/out/fab-aegons-conquest-03/candidates.json",
+     "  working/fire-and-blood/recovery-s208/out/fab-aegons-conquest-03/merge-plan.json",
+     "  working/fire-and-blood/recovery-s208/out/fab-aegons-conquest-03/contradictions-report.md",
+     "  working/fire-and-blood/recovery-s208/out/fab-aegons-conquest-03/reconcile-review.jsonl",
+     "  working/fire-and-blood/recovery-s208/out/fab-aegons-conquest-03/quotes-review.jsonl",
+     "  working/fire-and-blood/recovery-s208/out/fab-aegons-conquest-03/created-nodes.jsonl",
+     "  working/fire-and-blood/run-summary.jsonl",
+     "  nodes/ (4 CREATE bodies) -> working/fire-and-blood/recovery-s208/out/fab-aegons-conquest-03/nodes"
+    ],
+    "err": ""
+   },
+   "mint": {
+    "rc": 0,
+    "tail": [
+     "  PARTICIPATES_IN: 5",
+     "  SIBLING_OF: 1",
+     "  VICTIM_IN: 3",
+     "Edges skipped as duplicates (0)",
+     "",
+     "edges_appended=19  edges_skipped_dup=0"
+    ],
+    "err": ""
+   },
+   "merge": {
+    "rc": 0,
+    "tail": [
+     "── SUMMARY ──",
+     "merged: 4",
+     "skipped(marker): 0",
+     "not-found(=abort): 0  (any not-found slug aborts the run immediately, see above)"
+    ],
+    "err": ""
+   }
+  },
+  "candidate_edges": 19,
+  "create_nodes": 4,
+  "merge_entries": 4,
+  "mint_result": "edges_appended=19  edges_skipped_dup=0"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "status": "ok",
+  "steps": {
+   "reconcile": {
+    "rc": 0,
+    "tail": [
+     "  working/fire-and-blood/recovery-s208/out/fab-the-blacks-and-the-greens-16-p01/candidates.json",
+     "  working/fire-and-blood/recovery-s208/out/fab-the-blacks-and-the-greens-16-p01/merge-plan.json",
+     "  working/fire-and-blood/recovery-s208/out/fab-the-blacks-and-the-greens-16-p01/contradictions-report.md",
+     "  working/fire-and-blood/recovery-s208/out/fab-the-blacks-and-the-greens-16-p01/reconcile-review.jsonl",
+     "  working/fire-and-blood/recovery-s208/out/fab-the-blacks-and-the-greens-16-p01/quotes-review.jsonl",
+     "  working/fire-and-blood/recovery-s208/out/fab-the-blacks-and-the-greens-16-p01/created-nodes.jsonl",
+     "  working/fire-and-blood/run-summary.jsonl",
+     "  nodes/ (2 CREATE bodies) -> working/fire-and-blood/recovery-s208/out/fab-the-blacks-and-the-greens-16-p01/nodes"
+    ],
+    "err": ""
+   },
+   "mint": {
+    "rc": 0,
+    "tail": [
+     "  PARTICIPATES_IN: 1",
+     "  SIBLING_OF: 1",
+     "  VICTIM_IN: 2",
+     "Edges skipped as duplicates (0)",
+     "",
+     "edges_appended=18  edges_skipped_dup=0"
+    ],
+    "err": ""
+   },
+   "merge": {
+    "rc": 0,
+    "tail": [
+     "── SUMMARY ──",
+     "merged: 4",
+     "skipped(marker): 0",
+     "not-found(=abort): 0  (any not-found slug aborts the run immediately, see above)"
+    ],
+    "err": ""
+   }
+  },
+  "candidate_edges": 18,
+  "create_nodes": 2,
+  "merge_entries": 4,
+  "mint_result": "edges_appended=18  edges_skipped_dup=0"
+ }
+]

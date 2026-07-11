@@ -1,0 +1,416 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Battle at the Wailing Willows",
+  "decision": "MAP:wailing-willows",
+  "note": "Aegon's Conquest battle, heavy Targaryen losses vs Harren — same node."
+ },
+ {
+  "unit": "fab-birth-death-and-betrayal-10",
+  "name": "Birth and death of Prince Aegon",
+  "decision": "MAP:death-of-prince-aegon-son-of-jaehaerys-i",
+  "note": "Existing node is exact same infant birth-death, verbatim match."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Creation of the gold cloaks",
+  "decision": "CREATE",
+  "note": "Discrete reform event with quote, no existing dupe."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Septon Barth",
+  "decision": "CREATE",
+  "note": "Discrete death, year 98, quoted, no dupe."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Daeron",
+  "decision": "CREATE",
+  "note": "Discrete birth, year 114, quoted."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Daemon crowned King of the Stepstones",
+  "decision": "CREATE",
+  "note": "Discrete coronation, year 109, quoted."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Fifth-anniversary tourney (greens and blacks named)",
+  "decision": "CREATE",
+  "note": "5th-anniv tourney (Viserys I era, 111 AC) distinct from other tourneys."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "War for the Stepstones begins",
+  "decision": "MAP:war-for-the-stepstones",
+  "note": "Same 106 AC war; existing node already covers this conflict."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Aegon the Younger",
+  "decision": "CREATE",
+  "note": "Discrete birth, year 120, quoted."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Prince Viserys",
+  "decision": "CREATE",
+  "note": "Discrete birth, year 122, quoted; different Viserys than others."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Duel of Daemon and the Braavosi betrothed",
+  "decision": "CREATE",
+  "note": "Discrete duel, quoted, no dupe."
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Second reconciliation of Viserys and Daemon",
+  "decision": "CREATE",
+  "note": "Discrete reconciliation, year 116, quoted."
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Executions at the Red Keep",
+  "decision": "CREATE",
+  "note": "131 AC Cregan/Larys executions; near matches are unrelated Red Keep events."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Death of Androw Farman",
+  "decision": "CREATE",
+  "note": "Discrete death, year 54, quoted."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "The poisonings on Dragonstone",
+  "decision": "CREATE",
+  "note": "Single poisoning campaign on Dragonstone, one occurrence, quoted."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Alysanne's visit to Castle Black",
+  "decision": "CREATE",
+  "note": "Discrete visit, year 58, quoted; near matches are ASOIAF-era, unrelated."
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Tenth-anniversary tourney at King's Landing",
+  "decision": "MAP:tourney-at-kings-landing-on-the-anniversary-of-the-kings-coronation",
+  "note": "Same event: Jaehaerys's 10th-anniversary tourney, year 58, matches node content."
+ },
+ {
+  "unit": "fab-lineages-and-family-tree-25",
+  "name": "Dethroning and death of Aerys II",
+  "decision": "MAP:slaying-of-aerys-ii-the-kingslaying",
+  "note": "Same occurrence (Aerys II dethroned/killed 283 AC); existing node aliased death-of-aerys-ii-targaryen."
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Execution of Ser Maladon Moore",
+  "decision": "CREATE",
+  "note": "Discrete execution, year 48, quoted."
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Yielding of the Red Keep",
+  "decision": "COLLIDE",
+  "note": "Slug taken by a different event: existing node = Perkin the Flea affair (Dance era), row = 48 AC regency crisis."
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Death of Lodos",
+  "decision": "CREATE",
+  "note": "Discrete death, year 2 AC, quoted."
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Ransom and maiming of Orys Baratheon",
+  "decision": "MAP:maiming-of-orys-baratheon",
+  "note": "Same 7 AC event, identical details (Wyl of Wyl, ransomed lords' hands)."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Morghul",
+  "decision": "CREATE",
+  "note": "Discrete dragon death, quoted."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Syrax",
+  "decision": "CREATE",
+  "note": "Death itself not disputed, only manner/teller; name doesn't encode a disputed cause."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Bold Jon Roxton",
+  "decision": "CREATE",
+  "note": "Discrete death, quoted."
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Dragon battle of Second Tumbleton",
+  "decision": "MAP:second-battle-of-tumbleton",
+  "note": "Dragon combat is part of the existing Second Battle of Tumbleton (130 AC) node."
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Battle of the Kingsroad (Muddy Mess)",
+  "decision": "MAP:battle-of-the-kingsroad",
+  "note": "Source text confirms Muddy Mess is just the soldiers' nickname for the same battle."
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Elmo Tully",
+  "decision": "CREATE",
+  "note": "Discrete death, quoted."
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Hanging of Essie and Sylvenna Sand",
+  "decision": "CREATE",
+  "note": "Single hanging incident with two named victims, one occurrence."
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "The coup in the Red Keep",
+  "decision": "CREATE",
+  "note": "Discrete coup/betrayal event, quoted; no matching existing node for this era."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Birth of Rhaena Targaryen",
+  "decision": "CREATE",
+  "note": "Discrete birth, year 23, quoted; note ambiguity (several Rhaena Targaryens exist)."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Rhaenys and Meraxes",
+  "decision": "MAP:death-of-rhaenys-targaryen",
+  "note": "Existing node already covers Rhaenys+Meraxes dying together at the Hellholt."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Maegor claims Balerion and takes the Eyrie",
+  "decision": "CREATE",
+  "note": "Source confirms simultaneous single moment: Maegor claims Balerion while breaking the Eyrie siege."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Wedding of Maegor and Ceryse",
+  "decision": "CREATE",
+  "note": "Discrete wedding, year 25, quoted."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Death of King Aenys",
+  "decision": "MAP:death-of-aenys-i-targaryen",
+  "note": "Existing node is exact same collapse/death after Poor Fellows crisis."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Killing of Grand Maester Myros",
+  "decision": "CREATE",
+  "note": "Discrete killing, quoted."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Burning of Poxy Jeyne Poore",
+  "decision": "MAP:burning-of-jeyne-poore",
+  "note": "Existing node is the exact same 45 AC burning of Poxy Jeyne Poore."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Prince Viserys",
+  "decision": "CREATE",
+  "note": "Discrete death, year 44; different Viserys (son of Aenys I) than King Viserys I."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Escape of Alyssa from Dragonstone",
+  "decision": "CREATE",
+  "note": "Discrete escape, year 44, quoted."
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Proclamation of Jaehaerys at Storm's End",
+  "decision": "CREATE",
+  "note": "Discrete proclamation, year 48, quoted."
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "name": "Maegor seizes the Iron Throne",
+  "decision": "MAP:maegor-claims-the-iron-throne",
+  "note": "Same event, existing node describes identical hours-after-Aenys's-death coronation."
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Death of Ser Raymund Mallery",
+  "decision": "CREATE",
+  "note": "Discrete death, year 50, quoted."
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "Death of King Viserys I",
+  "decision": "MAP:death-of-viserys-i",
+  "note": "Existing node is verbatim same 129 AC death-in-sleep event."
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "name": "Closing of the Gullet",
+  "decision": "CREATE",
+  "note": "Discrete blockade, quoted."
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Death of Desmond and Medrick Manderly",
+  "decision": "DROP:composite, deaths four days apart not one occurrence",
+  "note": "Source shows Medrick died 4 days after Desmond — two separate deaths."
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Alyn Velaryon and Baela",
+  "decision": "CREATE",
+  "note": "Discrete wedding, year 132, quoted."
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Winter Fever in King's Landing",
+  "decision": "CREATE",
+  "note": "Discrete plague event in KL, year 133, quoted."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Death of Rogar Baratheon",
+  "decision": "CREATE",
+  "note": "Discrete death, year 61, quoted."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Birth and death of Prince Gaemon",
+  "decision": "CREATE",
+  "note": "Single infant's birth-and-death, one occurrence, matches row1 convention."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Death of Queen Rhaena",
+  "decision": "CREATE",
+  "note": "Discrete death, year 73; same Rhaena as row30's birth but distinct event type, no dupe slug."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Wedding of Baelon and Alyssa",
+  "decision": "CREATE",
+  "note": "Discrete wedding, year 75, quoted."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Fourth Dornish War (Prince Morion's Madness / War of the Hundred Candles)",
+  "decision": "MAP:fourth-dornish-war",
+  "note": "Existing node is same war (83 AC, Morion Martell, 'hundred candles' quote matches)."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Death of Prince Aemon",
+  "decision": "CREATE",
+  "note": "Discrete death, year 92, quoted."
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Trial by combat of Jaehaerys and Stinger",
+  "decision": "CREATE",
+  "note": "Discrete duel, quoted."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Lady Floris",
+  "decision": "CREATE",
+  "note": "Discrete death, year 135, quoted."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Ser Robert Rowan",
+  "decision": "CREATE",
+  "note": "Discrete death, year 135, quoted."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Lannister reprisal on the Iron Islands",
+  "decision": "CREATE",
+  "note": "Discrete battle/reprisal, year 134, quoted."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Battle at the Gate of the Gods",
+  "decision": "CREATE",
+  "note": "Discrete battle, quoted."
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "The treason trials",
+  "decision": "CREATE",
+  "note": "Discrete trial event, quoted."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Fall of Harrenhal to Daemon",
+  "decision": "MAP:daemon-claims-harrenhal",
+  "note": "Same Dance-era event; existing node already covers Daemon taking Harrenhal, 129 AC."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Death of Stormcloud",
+  "decision": "CREATE",
+  "note": "Discrete dragon death, year 130, quoted."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Sack of Lannisport",
+  "decision": "CREATE",
+  "note": "Discrete sack, quoted."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Fall of Faircastle",
+  "decision": "CREATE",
+  "note": "Discrete battle, quoted."
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Death of Vhagar",
+  "decision": "CREATE",
+  "note": "Discrete dragon death, year 130, quoted."
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Second wedding of Jaehaerys and Alysanne",
+  "decision": "CREATE",
+  "note": "Distinct second, public wedding — different occurrence from the earlier secret one."
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Red rebellion on Fair Isle",
+  "decision": "MAP:fair-isle-rebellion",
+  "note": "Existing node's Origins text is this exact 'red rebellion' passage, sourced from same chapter."
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Battle of the Stepstones",
+  "decision": "CREATE",
+  "note": "Discrete battle, quoted; distinct from earlier 106 AC War for the Stepstones."
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Betrothal of Aegon III and Daenaera Velaryon",
+  "decision": "CREATE",
+  "note": "Discrete betrothal, quoted."
+ },
+ {
+  "unit": "fab-year-of-the-three-brides-07",
+  "name": "Wedding of Jaehaerys and Alysanne",
+  "decision": "MAP:wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen",
+  "note": "Existing node's quote recaps this same secret 49 AC marriage."
+ }
+]

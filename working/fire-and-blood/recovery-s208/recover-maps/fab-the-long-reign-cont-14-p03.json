@@ -8,5 +8,11 @@
  "Daenerys Targaryen": "daenerys-targaryen-daughter-of-jaehaerys-i",
  "Maegor": "maegor-i-targaryen",
  "Vulture King": "vulture-king-jaehaerys-i",
- "Viserys Targaryen": "viserys-i-targaryen"
+ "Viserys Targaryen": "viserys-i-targaryen",
+ "Birth of Daemon Targaryen": "CREATE",
+ "Wedding of Daella Targaryen and Rodrik Arryn": "CREATE",
+ "Death of Prince Aegon (son of Baelon)": "CREATE",
+ "Fourth Dornish War (Prince Morion's Madness / War of the Hundred Candles)": "fourth-dornish-war",
+ "Birth of Aegon Targaryen (son of Baelon)": "CREATE",
+ "Saera's escape attempt and capture": "CREATE"
 }

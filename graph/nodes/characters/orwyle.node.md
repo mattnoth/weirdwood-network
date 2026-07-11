@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Orwyle"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -75,3 +75,9 @@ When Tyland died from the disease, the young King [Aegon III Targaryen](wiki:Aeg
 - The former Grand Maester Orwyle, imprisoned awaiting execution, was drawn out by Aegon III to send ravens summoning Rowan, perhaps hoping for a royal pardon (fab-war-and-peace-and-cattle-shows-22-p01:17)
 - The regents returned him to his cell (fab-war-and-peace-and-cattle-shows-22-p01:27)
 - A convicted traitor and Night's Watch deserter, he was granted death by the sword for his age, birth, and service (fab-war-and-peace-and-cattle-shows-22-p01:103)
+
+<!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-10-recovery -->
+
+- Green council maester who urged parley and was dispatched as Aegon's envoy (fab-the-blacks-and-the-greens-16-p02:35)
+- Confronted by Rhaenyra, he admitted King Viserys had named her heir (fab-the-blacks-and-the-greens-16-p02:49)
+- Orwyle replied". Rhaenyra stripped his chain of office and had it given to Gerardys (fab-the-blacks-and-the-greens-16-p02:55)

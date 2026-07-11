@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Marilda_of_Hull"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -53,3 +53,9 @@ A pretty woman, Marilda was known as Mouse because she was "[small, quick, and a
 
 - Marilda of Hull, called Mouse, was the shipwright's daughter and mother of Addam and Alyn (fab-short-sad-reign-of-aegon-ii-19:25)
 - She owned and captained the battered cog Mouse that bore the king home (fab-short-sad-reign-of-aegon-ii-19:89)
+
+<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p01-2026-07-10-recovery -->
+
+- Marilda of Hull, called "Mouse," was a shipwright's daughter who bore Addam in 114 AC and Alyn in 115 (fab-the-red-dragon-and-the-gold-17-p01:227)
+- She became a canny trader owning seven ships by 130 AC (fab-the-red-dragon-and-the-gold-17-p01:227)
+- She long refused to name the boys' father, at last claiming the late Ser Laenor (fab-the-red-dragon-and-the-gold-17-p01:233)

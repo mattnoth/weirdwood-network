@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 6
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -142,3 +142,12 @@ A diligent student who did not lack for courage, Aenys was an adequate fighter. 
 
 - King, first husband of Alyssa and father of Jaehaerys, slighted as weak beside his warrior brother Maegor (fab-surfeit-of-rulers-08-p01:103)
 - He died on Dragonstone, after which Maegor seized the throne (fab-surfeit-of-rulers-08-p01:129)
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->
+
+- Son of Aegon I and Rhaenys; reigned 37–42 and was succeeded by his brother Maegor I. (fab-lineages-and-family-tree-25:23)
+- Father of Jaehaerys I. (fab-lineages-and-family-tree-25:29)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-10-recovery -->
+
+- Father of Jaehaerys, Rhaena, Aegon the Uncrowned, and Viserys; his crown was later placed on Jaehaerys's head at the coronation (fab-prince-into-king-06:159)

@@ -1,0 +1,416 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Battle against Darklyn and Mooton",
+  "decision": "CREATE",
+  "note": "Discrete battle, both lords slain, has quote"
+ },
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Surrender of Storm's End",
+  "decision": "CREATE",
+  "note": "Discrete surrender, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Accession of Viserys I",
+  "decision": "CREATE",
+  "note": "Near match is a tourney celebrating it, different event"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Prince Baelon",
+  "decision": "CREATE",
+  "note": "Adult heir, burst belly 101 AC; distinct from infant Baelon (105 AC)"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Aemond",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Bracken and Blackwood sons duel over Rhaenyra",
+  "decision": "CREATE",
+  "note": "Single discrete duel, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Deaths of Runciter and Harrold Westerling",
+  "decision": "DROP:composite of two unrelated deaths, not one occurrence",
+  "note": "Grand Maester and knight died separately, only shared year"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "War council at High Tide",
+  "decision": "CREATE",
+  "note": "Discrete council, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Aemond claims Vhagar and loses an eye",
+  "decision": "MAP:aemond-loses-his-eye-at-driftmark",
+  "note": "Node identity text matches this exact occurrence verbatim"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Maelor Targaryen",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Death of Lady Rhea Royce",
+  "decision": "CREATE",
+  "note": "Near match irrelevant (Cersei/Lady death threat), quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Marriage of Daemon and Laena Velaryon",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Cregan Stark made King's Hand",
+  "decision": "CREATE",
+  "note": "Distinct appointment, quote present"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Completion of the Dragonpit",
+  "decision": "CREATE",
+  "note": "Near match is the celebratory tourney, different event"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Selection of Septon Alfyn as High Septon",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "name": "Death of the infant Prince Aegon",
+  "decision": "MAP:death-of-prince-aegon-son-of-jaehaerys-i",
+  "note": "Node matches exactly: Alysanne's son died 3 days after birth"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Death of Rhaena Targaryen",
+  "decision": "CREATE",
+  "note": "No exact-name node exists, quote present, year 73"
+ },
+ {
+  "unit": "fab-lineages-and-family-tree-25",
+  "name": "Death of the last Targaryen dragons",
+  "decision": "DROP:not a discrete occurrence, spans 131-157 (26yr extinction process)",
+  "note": "Describes a decades-long process, not one event"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Execution of Maegor's headsman and gaolers",
+  "decision": "CREATE",
+  "note": "Single simultaneous execution act, one occurrence"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Trial of Seven against Maegor",
+  "decision": "CREATE",
+  "note": "Discrete trial by combat, quote present"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Capture of Nightsong",
+  "decision": "CREATE",
+  "note": "Discrete battle capture, quote present"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Death of Rhaenys Targaryen",
+  "decision": "MAP:death-of-rhaenys-targaryen",
+  "note": "Both 10 AC, Hellholt/Meraxes, same disputed-death occurrence"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Lady Mysaria",
+  "decision": "CREATE",
+  "note": "No real dupes, quote present"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Shrykos",
+  "decision": "CREATE",
+  "note": "Title doesn't encode disputed cause; quote present"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Battle of Sunfyre and Moondancer",
+  "decision": "CREATE",
+  "note": "Discrete dragon battle, quote present"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Tessarion",
+  "decision": "CREATE",
+  "note": "Distinct dragon death, quote present"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Sunfyre attacks Grey Ghost",
+  "decision": "CREATE",
+  "note": "Distinct from Moondancer battle, quote present"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Borros Baratheon",
+  "decision": "CREATE",
+  "note": "No real dupes, quote present"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Sunfyre",
+  "decision": "CREATE",
+  "note": "Later, separate occurrence from earlier Moondancer battle"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Retaking of King's Landing",
+  "decision": "CREATE",
+  "note": "Discrete battle, year 130, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Birth and death of Vaella",
+  "decision": "CREATE",
+  "note": "Single infant's birth/death in cradle, one occurrence"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Harren the Red",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Harren the Red's seizure of Harrenhal",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Wedding of Maegor and Alys Harroway",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Coronation of Maegor",
+  "decision": "CREATE",
+  "note": "No exact-name node exists, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Execution of the captive Warrior's Sons",
+  "decision": "CREATE",
+  "note": "Group execution as one occurrence, distinct from captive-lords node"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Wedding of Maegor and Tyanna",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Maegor",
+  "decision": "MAP:death-of-maegor-i-targaryen",
+  "note": "Node identity matches exactly: dead on Iron Throne, cause disputed"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Ser Horys Hill",
+  "decision": "CREATE",
+  "note": "No real dupes, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Jeyne Westerling's stillbirth",
+  "decision": "CREATE",
+  "note": "Distinct F&B-era figure, unrelated to ASOIAF namesake; quote present"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "name": "Birth of Coryanne Wylde's bastard son",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Death of Lord Marq Farman",
+  "decision": "CREATE",
+  "note": "No real dupes, quote present"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "Coronation of Aegon II",
+  "decision": "MAP:coronation-of-aegon-ii",
+  "note": "Node text matches exactly: Criston Cole crowns Aegon II"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "The green council",
+  "decision": "CREATE",
+  "note": "Formation meeting distinct from its related near-matches"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Coronation of Aegon III",
+  "decision": "CREATE",
+  "note": "No exact node, distinct from Aegon II's coronation"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Reclaiming of Harrenhal / death of Regis Groves",
+  "decision": "MAP:death-of-regis-groves",
+  "note": "Existing node already covers this exact Harrenhal-reclaiming death"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Elenda Baratheon and Steffon Connington",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Death of Princess Daenerys",
+  "decision": "MAP:death-of-daenerys-targaryen-daughter-of-jaehaerys-i",
+  "note": "Node title identical, same 6-yr-old Shivers death"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Betrothal of Aemon and Jocelyn",
+  "decision": "CREATE",
+  "note": "Distinct from wedding, quote present"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Death of Prince Valerion",
+  "decision": "MAP:death-of-prince-valerion",
+  "note": "Node matches exactly: dies short of first nameday"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Wedding of Aemon and Jocelyn",
+  "decision": "CREATE",
+  "note": "Distinct from betrothal, quote present"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Death of Prince Aegon (son of Baelon)",
+  "decision": "CREATE",
+  "note": "Different generation/person than Aegon son of Jaehaerys I"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Death of Balerion",
+  "decision": "CREATE",
+  "note": "Dragon's death, no dupes, quote present"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Estrangement of king and queen (First Quarrel)",
+  "decision": "MAP:first-quarrel",
+  "note": "Existing sparse wiki stub is same estrangement, can enrich"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Daughters' War ends",
+  "decision": "MAP:daughters-war",
+  "note": "Same single war's conclusion, not a separate occurrence"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Ser Leo Costayne",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Fall of House Rogare / Rogare Bank collapse",
+  "decision": "CREATE",
+  "note": "Same financial collapse described two ways, one occurrence"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Aegon III assumes personal rule",
+  "decision": "MAP:aegon-iii-dismisses-the-regents-and-hand",
+  "note": "Node text matches exactly: 16th nameday, dismisses regents/Hand"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Sentencing of Lotho and Roggerio",
+  "decision": "CREATE",
+  "note": "Single trial sentencing two brothers together, one occurrence"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "Departure of Aegon the Younger and Viserys for Pentos",
+  "decision": "CREATE",
+  "note": "Two princes on same voyage, one occurrence"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Battle by the Lakeshore (the Fishfeed)",
+  "decision": "MAP:battle-by-the-lakeshore",
+  "note": "Node already carries Fishfeed alias, same battle"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Sack of Fair Isle",
+  "decision": "CREATE",
+  "note": "Near matches are different Fair Isle incidents"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Death of Rickard Thorne",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+  "name": "Death of Lord Footly",
+  "decision": "CREATE",
+  "note": "No real dupes, quote present"
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Pardon and reconciliation of Lord Rogar",
+  "decision": "MAP:jaehaerys-pardons-lord-rogar",
+  "note": "Node text matches exactly; row's own quote is truncated garbage"
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Parley of Oakenfist and Racallio at Bloodstone",
+  "decision": "CREATE",
+  "note": "No dupes, quote present"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Alyn's triumphant return / naming Oakenfist",
+  "decision": "CREATE",
+  "note": "Single homecoming event, one occurrence"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Honoring ceremony / Alyn made master of ships",
+  "decision": "CREATE",
+  "note": "Single ceremony conferring multiple honors, one occurrence"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Drowning of Lady Buckler and her daughters",
+  "decision": "CREATE",
+  "note": "Mother and daughters drown together, one occurrence"
+ }
+]

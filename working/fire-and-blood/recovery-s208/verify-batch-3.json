@@ -1,0 +1,386 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Aegon's first coronation",
+  "slug": "aegons-first-coronation",
+  "type": "event.coronation",
+  "ac_year": null,
+  "identity": "crowned King of All Westeros"
+ },
+ {
+  "unit": "fab-birth-death-and-betrayal-10",
+  "name": "Death of Septon Oswyck",
+  "slug": "death-of-septon-oswyck",
+  "type": "event.death",
+  "ac_year": "54",
+  "identity": "Died in his sleep; interred on Dragonstone"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Septon Barth",
+  "slug": "death-of-septon-barth",
+  "type": "event.death",
+  "ac_year": "98",
+  "identity": "Hand of forty-one years dies; office falls vacant"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Creation of the gold cloaks",
+  "slug": "creation-of-the-gold-cloaks",
+  "type": "event.decree",
+  "ac_year": null,
+  "identity": "Watch armored and cloaked in gold"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Daemon crowned King of the Stepstones",
+  "slug": "daemon-crowned-king-of-the-stepstones",
+  "type": "event.coronation",
+  "ac_year": "109",
+  "identity": "Daemon styled king"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Fifth-anniversary tourney (greens and blacks named)",
+  "slug": "fifth-anniversary-tourney-greens-and-blacks-named",
+  "type": "event.tournament",
+  "ac_year": "111",
+  "identity": "factions named"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Jacaerys",
+  "slug": "birth-of-jacaerys",
+  "type": "event.birth",
+  "ac_year": "114",
+  "identity": "son born"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Marriage of Daemon and Laena Velaryon",
+  "slug": "marriage-of-daemon-and-laena-velaryon",
+  "type": "event.wedding",
+  "ac_year": "115",
+  "identity": "Daemon abandons the Stepstones"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Aegon the Younger",
+  "slug": "birth-of-aegon-the-younger",
+  "type": "event.birth",
+  "ac_year": "120",
+  "identity": "Daemon's first living trueborn son"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Feast of amity",
+  "slug": "feast-of-amity",
+  "type": "event.feast",
+  "ac_year": "127",
+  "identity": "staged reconciliation; Mushroom reports fresh insults after"
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Executions at the Red Keep",
+  "slug": "executions-at-the-red-keep",
+  "type": "event.execution",
+  "ac_year": "131",
+  "identity": "only two men died, rest took the black"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "The poisonings on Dragonstone",
+  "slug": "the-poisonings-on-dragonstone",
+  "type": "event.death",
+  "ac_year": "54",
+  "identity": "women of Dragonstone poisoned, disguised as plague"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "name": "Betrothals of Jennis Templeton and Prunella Celtigar",
+  "slug": "betrothals-of-jennis-templeton-and-prunella-celtigar",
+  "type": "event.wedding",
+  "ac_year": "55",
+  "identity": "two Wise Women matched to lords"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Birth of Baelon Targaryen",
+  "slug": "birth-of-baelon-targaryen",
+  "type": "event.birth",
+  "ac_year": "57",
+  "identity": "dubbed the Spring Prince"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Trial by battle for Ser Harrold",
+  "slug": "trial-by-battle-for-ser-harrold",
+  "type": "event.incident",
+  "ac_year": "48",
+  "identity": "Harrold slain; Morrigen made Lord Commander"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Death of Lodos",
+  "slug": "death-of-lodos",
+  "type": "event.death",
+  "ac_year": "2",
+  "identity": "priest-king drowns himself; thousands follow"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Building of King's Landing's walls",
+  "slug": "building-of-kings-landings-walls",
+  "type": "event.incident",
+  "ac_year": "20",
+  "identity": "walls with seven gates raised"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Shrykos",
+  "slug": "death-of-shrykos",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "dragon slain by seven axe blows"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Syrax",
+  "slug": "death-of-syrax",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "queen's dragon slain, many claimants"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Prince Daeron Targaryen",
+  "slug": "death-of-prince-daeron-targaryen",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "prince slain; three conflicting accounts"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Battle of Sunfyre and Moondancer",
+  "slug": "battle-of-sunfyre-and-moondancer",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "Moondancer slain, Aegon shattered both legs"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Hanging of Essie and Sylvenna Sand",
+  "slug": "hanging-of-essie-and-sylvenna-sand",
+  "type": "event.death",
+  "ac_year": "130",
+  "identity": "hanged with twenty-seven of Gaemon's court"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Borros Baratheon",
+  "slug": "death-of-borros-baratheon",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "Lord of Storm's End killed refusing to yield"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Wedding of Maegor and Ceryse",
+  "slug": "wedding-of-maegor-and-ceryse",
+  "type": "event.wedding",
+  "ac_year": "25",
+  "identity": "marriage to Oldtown"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Harren the Red's seizure of Harrenhal",
+  "slug": "harren-the-reds-seizure-of-harrenhal",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "Gargon mutilated, castle taken"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Harren the Red",
+  "slug": "death-of-harren-the-red",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "outlaw king cut down"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Coronation of Maegor",
+  "slug": "coronation-of-maegor",
+  "type": "event.coronation",
+  "ac_year": "42",
+  "identity": "Maegor proclaimed First of His Name"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Election of Septon Pater as High Septon",
+  "slug": "election-of-septon-pater-as-high-septon",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "chosen on a single ballot; blessed Maegor"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Harrenhal melee",
+  "slug": "harrenhal-melee",
+  "type": "event.tournament",
+  "ac_year": "44",
+  "identity": "Walton Towers wins Harrenhal"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Completion of the Red Keep",
+  "slug": "completion-of-the-red-keep",
+  "type": "event.incident",
+  "ac_year": "45",
+  "identity": "castle finished; workmen slain"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Jeyne Westerling's stillbirth",
+  "slug": "jeyne-westerlings-stillbirth",
+  "type": "event.birth",
+  "ac_year": "47",
+  "identity": "monstrous stillbirth; mother dies"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Death of Ser Raymund Mallery",
+  "slug": "death-of-ser-raymund-mallery",
+  "type": "event.death",
+  "ac_year": "50",
+  "identity": "killed by wildlings, head sent to Eastwatch"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "The black council",
+  "slug": "the-black-council",
+  "type": "event.council",
+  "ac_year": "129",
+  "identity": "Rhaenyra's party plans war: Harrenhal, the Gullet, ravens to the lords"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Alyn Velaryon and Baela",
+  "slug": "wedding-of-alyn-velaryon-and-baela",
+  "type": "event.wedding",
+  "ac_year": "132",
+  "identity": "the twin wed her cousin after fleeing"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Winter Fever in King's Landing",
+  "slug": "winter-fever-in-kings-landing",
+  "type": "event.incident",
+  "ac_year": "133",
+  "identity": "tens of thousands feverish, three in four dead"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Wedding of Daella Targaryen and Rodrik Arryn",
+  "slug": "wedding-of-daella-targaryen-and-rodrik-arryn",
+  "type": "event.wedding",
+  "ac_year": null,
+  "identity": "small ceremony, no bedding"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Saera's escape attempt and capture",
+  "slug": "saeras-escape-attempt-and-capture",
+  "type": "event.incident",
+  "ac_year": "84",
+  "identity": "taken by Dragonkeepers, confined to a tower cell"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Lady Jeyne Arryn",
+  "slug": "death-of-lady-jeyne-arryn",
+  "type": "event.death",
+  "ac_year": "134",
+  "identity": "Vale succession disputed"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Ser Robert Rowan",
+  "slug": "death-of-ser-robert-rowan",
+  "type": "event.death",
+  "ac_year": "135",
+  "identity": "host crippled, Blackwood takes command"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Battle at the Gate of the Gods",
+  "slug": "battle-at-the-gate-of-the-gods",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "nine dead, Leygood slain"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Sentencing of Lotho and Roggerio",
+  "slug": "sentencing-of-lotho-and-roggerio",
+  "type": "event.trial",
+  "ac_year": null,
+  "identity": "Lotho mutilated; Roggerio given seven lashes"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Death of Vermax",
+  "slug": "death-of-vermax",
+  "type": "event.death",
+  "ac_year": "130",
+  "identity": "dragon slain, sank with a galley"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Rhaenyra claims the Iron Throne",
+  "slug": "rhaenyra-claims-the-iron-throne",
+  "type": "event.coronation",
+  "ac_year": null,
+  "identity": "queen seated on the Iron Throne, court made to kneel"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Yielding of Longtable",
+  "slug": "yielding-of-longtable",
+  "type": "event.battle",
+  "ac_year": null,
+  "identity": "castle yielded and stripped of wealth and food"
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Second wedding of Jaehaerys and Alysanne",
+  "slug": "second-wedding-of-jaehaerys-and-alysanne",
+  "type": "event.wedding",
+  "ac_year": null,
+  "identity": "marriage made public and consummated"
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Parley of Oakenfist and Racallio at Bloodstone",
+  "slug": "parley-of-oakenfist-and-racallio-at-bloodstone",
+  "type": "event.incident",
+  "ac_year": "133",
+  "identity": "fleet granted passage"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Alyn's triumphant return / naming Oakenfist",
+  "slug": "alyns-triumphant-return-naming-oakenfist",
+  "type": "event.incident",
+  "ac_year": null,
+  "identity": "hero's welcome; wins the name Oakenfist"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Drowning of Lady Buckler and her daughters",
+  "slug": "drowning-of-lady-buckler-and-her-daughters",
+  "type": "event.death",
+  "ac_year": null,
+  "identity": "their boat foundered and sank crossing the river"
+ }
+]

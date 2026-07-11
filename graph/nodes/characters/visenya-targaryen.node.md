@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Visenya_Targaryen
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 6
+node_version: 8
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -155,3 +155,14 @@ Born 29 BC, died 44 AC (track_b: Born, Died). Claims of dark sorcery are hedged 
 - She founded the Kingsguard and chose its knights herself (fab-reign-of-the-dragon-04:289)
 - According to rumor, in her later years she delved into the dark arts, mixing poisons and casting malign spells (fab-reign-of-the-dragon-04:275)
 - — and some even suggest she was a kinslayer and kingslayer, though no proof was ever offered (fab-reign-of-the-dragon-04:275)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-10-recovery -->
+
+- The Dowager Queen Visenya, mother of Maegor, urged Aenys to abandon the marriage or burn the Starry Sept, and stalked from the wedding feast when Aegon was named Prince of Dragonstone (fab-sons-of-the-dragon-05-p02:49)
+- Confined by Aenys to Sea Dragon Tower, she flew east on Vhagar within an hour of his death and returned with Maegor (fab-sons-of-the-dragon-05-p02:81)
+- She crowned her son, commanded loyalist forces, and later burned the seats of five pious riverlands houses in a single night (fab-sons-of-the-dragon-05-p02:201)
+- She was among those rumored to have caused the High Septon's death (fab-sons-of-the-dragon-05-p02:213)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-10-recovery -->
+
+- Dowager Queen and mother of Maegor, who enforced his will and held Jaehaerys and Alysanne as wards until her death in 44 AC freed Alyssa to flee (fab-surfeit-of-rulers-08-p01:129)

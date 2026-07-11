@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Aenys_I)
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 6
+node_version: 15
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -228,3 +228,64 @@ No cite_refs in the main novels — appears only in TWOIAF, Fire and Blood, Rise
 - Her reunion with her daughter Aerea went poorly, and she denied Elissa Farman the gold for a ship (fab-birth-death-and-betrayal-10:71)
 - ; quote: "Rhaena denied her request". When Elissa fled with three dragon eggs, Rhaena's fury led her to expel Ser Merrell Bullock and question her husband Androw (fab-birth-death-and-betrayal-10:173)
 - She flew Dreamfyre to King's Landing to tell Jaehaerys (fab-birth-death-and-betrayal-10:175)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-dragonstone-11-2026-07-10-recovery -->
+
+- Sister of the king, called the Queen in the East, seated on Dragonstone with Dreamfyre (fab-jaehaerys-and-alysanne-dragonstone-11:23)
+- She flew to Storm's End too late to see her mother alive and cursed Rogar Baratheon for Alyssa's death, threatening to burn Storm's End if he wed again (fab-jaehaerys-and-alysanne-dragonstone-11:159)
+- After the poisonings killed her companions she sank into black melancholy and rejected her sister's comfort (fab-jaehaerys-and-alysanne-dragonstone-11:273)
+- When Aerea fled, she raged, then mounted Dreamfyre to search (fab-jaehaerys-and-alysanne-dragonstone-11:307)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p01-2026-07-10-recovery -->
+
+- Sister of King Jaehaerys and rider of Dreamfyre, searching the realm for her lost daughter Aerea (fab-jaehaerys-and-alysanne-triumphs-12-p01:41)
+- She visited her novice daughter Rhaella in Oldtown, then confronted Lord Franklyn Farman on Fair Isle with threats of Balerion (fab-jaehaerys-and-alysanne-triumphs-12-p01:53)
+- Afterward the histories lose track of her wanderings across the wild places (fab-jaehaerys-and-alysanne-triumphs-12-p01:55)
+- Later she was seen at Greenstone, drawn there by her childhood cousin Larissa Velaryon (fab-jaehaerys-and-alysanne-triumphs-12-p01:155)
+
+<!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-10-recovery -->
+
+- Rhaena returned from Estermont after her daughter's death, reaching Greenstone by raven only after the princess was already dead and burned (fab-jaehaerys-and-alysanne-triumphs-12-p02:23)
+- Dreamfyre bore her and the ashes to the Red Keep, and she scattered the ashes from dragonback rather than inter them on Dragonstone (fab-jaehaerys-and-alysanne-triumphs-12-p02:23)
+- Jaehaerys settled her at Harrenhal, in the Widow's Tower (fab-jaehaerys-and-alysanne-triumphs-12-p02:37)
+- She flew to Oldtown yearly to see her daughter Rhaella, and the riverlands smallfolk feared her as a witch (fab-jaehaerys-and-alysanne-triumphs-12-p02:41)
+- She died in 73 AC at fifty and was burned at Harrenhal (fab-jaehaerys-and-alysanne-triumphs-12-p02:41)
+
+<!-- fab-enriched: fab-prince-into-king-06-2026-07-10-recovery -->
+
+- Firstborn child of Aenys I and Alyssa, twice-widowed, and made one of Maegor's Black Brides (fab-prince-into-king-06:33)
+- Some suggested she held the strongest claim, and some whispered she had contrived Maegor's death after fleeing on her dragon Dreamfyre (fab-prince-into-king-06:31)
+- Lord Rogar dismissed her claim, and she wished only to return to Fair Isle (fab-prince-into-king-06:31)
+- She conceded the crown to her brother rather than her daughters (fab-prince-into-king-06:27)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-10-recovery -->
+
+- Rhaena, eldest child of Aenys at eighteen, wed her brother Aegon and rode the dragon Dreamfyre, once declaring herself free to fly where she willed (fab-sons-of-the-dragon-05-p02:27)
+- It was whispered that on one flight she took a lowborn lover, though it was never proved (fab-sons-of-the-dragon-05-p02:29)
+- She defied the Poor Fellows who pelted the royal couple (fab-sons-of-the-dragon-05-p02:55)
+- Sheltered at Casterly Rock, she grew great with child and gave birth to twin daughters, then begged Aegon to take the family across the narrow sea (fab-sons-of-the-dragon-05-p02:173)
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p03-2026-07-10-recovery -->
+
+- Sister-wife of Aegon; she remained at Pinkmaiden with her daughters and Dreamfyre while Aegon marched, a choice still debated. (fab-sons-of-the-dragon-05-p03:61)
+- On learning of Aegon's and Melony's deaths she refused to weep. (fab-sons-of-the-dragon-05-p03:65)
+- She fled to Fair Isle, hid her daughters by dyeing their hair and changing their names, then was summoned to wed Maegor. (fab-sons-of-the-dragon-05-p03:161)
+- When Jaehaerys rose, she flew Dreamfyre to join him, taking Aerea and the stolen Blackfyre. (fab-sons-of-the-dragon-05-p03:219)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p01-2026-07-10-recovery -->
+
+- Eldest daughter of Aenys and Alyssa, a dragonrider and widow of Aegon the Uncrowned, now wed to Androw Farman and called the Queen in the West (fab-surfeit-of-rulers-08-p01:29)
+- She grew resentful that her claim, and her daughters', had been passed over for her "baby brother" (fab-surfeit-of-rulers-08-p01:43)
+- She could neither forget nor forgive Rogar's inaction while her husband faced Maegor (fab-surfeit-of-rulers-08-p01:43)
+
+<!-- fab-enriched: fab-surfeit-of-rulers-08-p02-2026-07-10-recovery -->
+
+- She flew her dragon Dreamfyre with her lady companions but never took Androw (fab-surfeit-of-rulers-08-p02:19)
+- When the new Lord Franklyn ordered her off Fair Isle she departed that night for Casterly Rock (fab-surfeit-of-rulers-08-p02:47)
+- She dissuaded Androw from fighting his brother, saying a thrice-widowing would see her named a witch (fab-surfeit-of-rulers-08-p02:49)
+- At Casterly Rock she came to realize Lord Lyman wanted an alliance with the Iron Throne and dragons of his own, and resolved to leave (fab-surfeit-of-rulers-08-p02:73)
+
+<!-- fab-enriched: fab-time-of-testing-09-2026-07-10-recovery -->
+
+- The widowed Queen in the West flew to King's Landing on Dreamfyre for the wedding and to visit her daughter Aerea (fab-time-of-testing-09:153)
+- Jaehaerys granted it as a gift and restored Aerea to her, and she became the Queen in the East (fab-time-of-testing-09:221)

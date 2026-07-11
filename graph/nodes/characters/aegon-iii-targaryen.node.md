@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 11
+node_version: 14
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -335,3 +335,20 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 - On his sixteenth nameday he took the governance of the realm, cancelling the progress and dismissing his regents and Hand (fab-the-lysene-spring-24-p02:273)
 - He did not leave Maegor's Holdfast for six days after the confession was unravelled (fab-the-lysene-spring-24-p02:105)
 - When Rowan's tortured confession was heard he was left bereft of speech (fab-the-lysene-spring-24-p02:53)
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->
+
+- The Dragonbane, Rhaenyra's son; reigned 131–157. The last of the Targaryen dragons died during his reign. (fab-lineages-and-family-tree-25:39)
+
+<!-- fab-enriched: fab-the-hooded-hand-21-2026-07-10-recovery -->
+
+- A solemn boy of ten at his coronation, crowned atop Visenya's Hill with a simple circlet of yellow gold and proclaimed Aegon the Third (fab-the-hooded-hand-21:53)
+- He was handsome, lean, silver-haired and purple-eyed, but joyless (fab-the-hooded-hand-21:55)
+- Munkun judged him broken and hollow, roused to rage only by mention of dragons (fab-the-hooded-hand-21:137)
+- His only friend was the bastard Gaemon Palehair (fab-the-hooded-hand-21:137)
+
+<!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p02-2026-07-10-recovery -->
+
+- The young king, Jaehaera's widower, dour and gloomy (fab-war-and-peace-and-cattle-shows-22-p02:49)
+- Told he must set aside mourning and wed again, he asked what if he did not like Myrielle (fab-war-and-peace-and-cattle-shows-22-p02:91)
+- He chose the six-year-old Daenaera Velaryon, telling her she looked very pretty (fab-war-and-peace-and-cattle-shows-22-p02:179)

@@ -1,0 +1,3 @@
+{"unit": "fab-rhaenyra-overthrown-18-p02", "quote": "\"Daeron Targaryen, youngest son of King Viserys", "kind": "edge", "edge_type": "SIBLING_OF", "source": "Daeron Targaryen", "target": "Aegon II Targaryen"}
+{"unit": "fab-rhaenyra-overthrown-18-p02", "quote": "\"youngest son of King Viserys", "kind": "edge", "edge_type": "PARENT_OF", "source": "Viserys I Targaryen", "target": "Daeron Targaryen"}
+{"unit": "fab-rhaenyra-overthrown-18-p02", "quote": "\"youngest son of King Viserys", "kind": "edge", "edge_type": "PARENT_OF", "source": "Alicent", "target": "Daeron Targaryen"}

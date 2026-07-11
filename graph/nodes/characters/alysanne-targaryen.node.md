@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alysanne_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 14
+node_version: 16
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
@@ -294,3 +294,16 @@ Parser `first_available` was AFFC ch 5, but cite_refs show references as early a
 - Age broke her: she fell on the serpentine steps in 95 AC and lost her hearing (fab-the-long-reign-cont-14-p04:223)
 - She said of her decline (fab-the-long-reign-cont-14-p04:223)
 - She died on Dragonstone in 100 AC, a century after the Conquest, aged sixty-four (fab-the-long-reign-cont-14-p04:253)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p01-2026-07-10-recovery -->
+
+- Queen; her beloved Septa Edyth died on Dragonstone. Her daughter Daenerys woke her complaining of cold and died a day and a half later, after which the queen collapsed and was given milk of the poppy (fab-the-long-reign-cont-14-p01:101)
+- She took in the barefoot girl who had named Rego's killer, having her bathed and fed (fab-the-long-reign-cont-14-p01:77)
+- Within two moons of Daenerys's death she conceived again and bore Alyssa late in 60 AC (fab-the-long-reign-cont-14-p01:145)
+- She welcomed her half-sister Jocelyn as a ward (fab-the-long-reign-cont-14-p01:169)
+
+<!-- fab-enriched: fab-the-long-reign-cont-14-p02-2026-07-10-recovery -->
+
+- Queen Alysanne bore Jaehaerys many children across these years and grieved deeply at each infant loss. (fab-the-long-reign-cont-14-p02:17)
+- She took great pride in arranging marriages but struggled bitterly to match her four younger children. (fab-the-long-reign-cont-14-p02:101)
+- She dealt with the three families of Ser Lucamore, decreeing his children bear bastard names. (fab-the-long-reign-cont-14-p02:95)

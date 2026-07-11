@@ -1,0 +1,416 @@
+[
+ {
+  "unit": "fab-aegons-conquest-03",
+  "name": "Submission of Rosby",
+  "decision": "CREATE",
+  "note": "Discrete surrender event, quote present, no conflict"
+ },
+ {
+  "unit": "fab-birth-death-and-betrayal-10",
+  "name": "Death of Septon Oswyck",
+  "decision": "CREATE",
+  "note": "Discrete death w/ year+quote, no existing node"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Death of Jaehaerys I",
+  "decision": "CREATE",
+  "note": "No node for the Old King's own death; near-matches are other deaths"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p01",
+  "name": "Wedding of Daemon and Rhea Royce",
+  "decision": "CREATE",
+  "note": "Discrete wedding, quote present, no near match"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Birth of Helaena",
+  "decision": "CREATE",
+  "note": "Discrete birth, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Daemon returns and reconciles with Viserys",
+  "decision": "CREATE",
+  "note": "Single reconciliation event, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Otto stripped of the Handship; Lyonel Strong named Hand",
+  "decision": "CREATE",
+  "note": "One Handship-transition event; near matches are different appointees"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p02",
+  "name": "Wedding of Rhaenyra and Laenor",
+  "decision": "CREATE",
+  "note": "Discrete wedding, quote present, no conflict"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Birth of Baela and Rhaena",
+  "decision": "CREATE",
+  "note": "Twin birth = one occurrence per rule, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Death of Grand Maester Mellos",
+  "decision": "CREATE",
+  "note": "Discrete death, quote present; near matches are other maesters"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Feast of amity",
+  "decision": "CREATE",
+  "note": "Discrete staged feast event, quote present"
+ },
+ {
+  "unit": "fab-heirs-of-the-dragon-15-p03",
+  "name": "Viserys maimed on the Iron Throne",
+  "decision": "CREATE",
+  "note": "Discrete injury event, quote present, near matches unrelated"
+ },
+ {
+  "unit": "fab-hour-of-the-wolf-20",
+  "name": "Yielding of King's Landing",
+  "decision": "CREATE",
+  "note": "Discrete surrender, quote present, no near match"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-dragonstone-11",
+  "name": "Death of Queen Alyssa in childbirth",
+  "decision": "CREATE",
+  "note": "Alyssa Velaryon (Baelon's wife) != existing node's Princess Alyssa (died at 24); different person/event"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p01",
+  "name": "Betrothals of Jennis Templeton and Prunella Celtigar",
+  "decision": "CREATE",
+  "note": "Single arranging act by Alysanne on one occasion, quote present"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Birth of Baelon Targaryen",
+  "decision": "CREATE",
+  "note": "Discrete birth, quote present, near matches unrelated"
+ },
+ {
+  "unit": "fab-jaehaerys-and-alysanne-triumphs-12-p02",
+  "name": "Tourney at White Harbor",
+  "decision": "CREATE",
+  "note": "Discrete tourney, quote present; near matches are unrelated ASOIAF Davos events"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Ascension of Jaehaerys to the Iron Throne",
+  "decision": "CREATE",
+  "note": "Discrete coronation/ascension, quote present, near matches unrelated"
+ },
+ {
+  "unit": "fab-prince-into-king-06",
+  "name": "Poisoning of four Poor Fellows",
+  "decision": "CREATE",
+  "note": "Single poisoning incident, quote confirms fact not rumor, unnamed collective victims OK"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Ambush on the Boneway",
+  "decision": "CREATE",
+  "note": "Discrete battle, quote present, no near match"
+ },
+ {
+  "unit": "fab-reign-of-the-dragon-04",
+  "name": "Death of Meraxes",
+  "decision": "MAP:death-of-meraxes",
+  "note": "Existing node is same dragon's death at Hellholt, 10 AC, identical account"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Crowning of Trystane",
+  "decision": "CREATE",
+  "note": "Discrete coronation, quote present, no near match"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Prince Joffrey",
+  "decision": "CREATE",
+  "note": "Joffrey Velaryon's dragon death; near matches are different Joffreys/princes"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p01",
+  "name": "Death of Tyraxes",
+  "decision": "CREATE",
+  "note": "Discrete dragon death, quote present, no near match"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Death of Prince Daeron Targaryen",
+  "decision": "CREATE",
+  "note": "Name doesn't encode a specific disputed cause; death itself is certain"
+ },
+ {
+  "unit": "fab-rhaenyra-overthrown-18-p02",
+  "name": "Flight to Dragonstone aboard the Violande",
+  "decision": "MAP:flight-to-dragonstone",
+  "note": "Existing wiki node covers same 130 AC Rhaenyra flight via Rosby/Stokeworth/Duskendale to Dragonstone"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Burning of the Shepherd and the barefoot lambs",
+  "decision": "MAP:barefoot-lambs",
+  "note": "Existing node describes same execution: Shepherd + 241 lambs burned, matching count/year"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Death of Grover Tully",
+  "decision": "CREATE",
+  "note": "Name doesn't encode disputed cause; discrete death, quote present"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Hatching of Morning",
+  "decision": "CREATE",
+  "note": "Discrete hatching event, quote present"
+ },
+ {
+  "unit": "fab-short-sad-reign-of-aegon-ii-19",
+  "name": "Wedding of Aegon III and Jaehaera",
+  "decision": "MAP:wedding-of-aegon-iii-and-jaehaera",
+  "note": "Existing node is identical wedding, same quote/year 131 AC"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Coronation of Aenys I",
+  "decision": "CREATE",
+  "note": "Discrete coronation, quote present, no near match"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Death of Ronnel Arryn",
+  "decision": "CREATE",
+  "note": "Discrete death via Moon Door, quote present; near match is different Arryn"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p01",
+  "name": "Tourney at Riverrun",
+  "decision": "CREATE",
+  "note": "Discrete tourney, quote present, no near match"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Battle at the Great Fork of the Blackwater",
+  "decision": "MAP:battle-at-the-great-fork",
+  "note": "Existing node is the same Maegor-vs-Poor-Fellows battle at Great Fork of Blackwater Rush"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Death of the High Septon",
+  "decision": "CREATE",
+  "note": "Different era/person than existing murder-of-the-old-high-septon (AFFC 300 AC Cersei plot)"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p02",
+  "name": "Trial of Seven",
+  "decision": "CREATE",
+  "note": "Discrete trial-by-combat, quote present, no near match"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Completion of the Red Keep",
+  "decision": "CREATE",
+  "note": "Discrete construction event, quote present, near matches unrelated"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Death of Queen Ceryse",
+  "decision": "CREATE",
+  "note": "Name doesn't encode disputed cause; discrete death, quote present"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Execution of Ser Theo Bolling",
+  "decision": "CREATE",
+  "note": "Discrete execution, quote present, no near match"
+ },
+ {
+  "unit": "fab-sons-of-the-dragon-05-p03",
+  "name": "Reconciliation of Maegor and Ceryse",
+  "decision": "CREATE",
+  "note": "Discrete feast/reconciliation event, quote present"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p01",
+  "name": "Secret marriage of Jaehaerys and Alysanne",
+  "decision": "MAP:wedding-of-jaehaerys-i-targaryen-and-alysanne-targaryen",
+  "note": "Existing node already carries the identical quote about this secret marriage"
+ },
+ {
+  "unit": "fab-surfeit-of-rulers-08-p02",
+  "name": "Death of Walton Stark",
+  "decision": "CREATE",
+  "note": "Discrete death by giants, quote present, near match unrelated"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p01",
+  "name": "Death of Lord Lyman Beesbury",
+  "decision": "CREATE",
+  "note": "Name doesn't encode disputed cause; discrete death, quote present"
+ },
+ {
+  "unit": "fab-the-blacks-and-the-greens-16-p02",
+  "name": "Compact of White Harbor",
+  "decision": "CREATE",
+  "note": "Discrete betrothal compact, quote present, near matches unrelated"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Death of Tyland Lannister",
+  "decision": "MAP:death-of-tyland-lannister",
+  "note": "Existing node same Hand's Winter Fever death; minor year discrepancy (132 vs 133) same occurrence"
+ },
+ {
+  "unit": "fab-the-hooded-hand-21",
+  "name": "Wedding of Corwyn Corbray and Rhaena",
+  "decision": "CREATE",
+  "note": "Discrete wedding, quote present; near matches are different Corbray/Rhaena weddings"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Beginning of the kingsroad",
+  "decision": "CREATE",
+  "note": "Discrete decree/project-start event, quote present"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p01",
+  "name": "Death of the Vulture King",
+  "decision": "CREATE",
+  "note": "Discrete death, quote present, no near match"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Birth of Prince Viserys",
+  "decision": "CREATE",
+  "note": "Discrete birth, quote present; distinct from later capture/return events"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p02",
+  "name": "Ser Lucamore Strong scandal and punishment",
+  "decision": "CREATE",
+  "note": "One connected trial/punishment episode, quote present"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Birth of Aegon Targaryen (son of Baelon)",
+  "decision": "CREATE",
+  "note": "Discrete birth, quote present, near matches are other Aegon/sibling births"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p03",
+  "name": "Saera's escape attempt and capture",
+  "decision": "CREATE",
+  "note": "Single connected escape/capture episode, quote present"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Death of Queen Alysanne",
+  "decision": "CREATE",
+  "note": "Discrete death, quote present, no true near match"
+ },
+ {
+  "unit": "fab-the-long-reign-cont-14-p04",
+  "name": "Wedding of Rhaenys and Corlys Velaryon",
+  "decision": "CREATE",
+  "note": "Discrete wedding, quote present; near matches are unrelated Corlys life events"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Death of Lady Jeyne Arryn",
+  "decision": "CREATE",
+  "note": "Discrete death, quote present, near match unrelated"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Deaths of Lysandro and Drazenko Rogare",
+  "decision": "DROP:composite of two men",
+  "note": "Two separate deaths within a day, not one occurrence; disputed cause"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p01",
+  "name": "Last sighting of Sheepstealer and Nettles",
+  "decision": "CREATE",
+  "note": "Discrete skirmish/sighting event, quote present"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Capture of Tessario",
+  "decision": "CREATE",
+  "note": "Discrete capture, quote present, no near match"
+ },
+ {
+  "unit": "fab-the-lysene-spring-24-p02",
+  "name": "Trial by battle, Long vs Risley",
+  "decision": "CREATE",
+  "note": "Discrete duel, quote present, near match unrelated"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p01",
+  "name": "The Sowing of the Seeds / Red Sowing",
+  "decision": "CREATE",
+  "note": "Discrete named dragonseed event, quote present"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Death of Vermax",
+  "decision": "CREATE",
+  "note": "Name doesn't encode disputed cause; discrete dragon death, quote present"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p02",
+  "name": "Sack of Spicetown",
+  "decision": "CREATE",
+  "note": "Discrete battle/sack event, quote present"
+ },
+ {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "name": "Yielding of Longtable",
+  "decision": "CREATE",
+  "note": "Discrete siege/yielding event, quote present"
+ },
+ {
+  "unit": "fab-time-of-testing-09",
+  "name": "Bedding of Jaehaerys and Alysanne",
+  "decision": "CREATE",
+  "note": "Distinct ritual event from the wedding itself, quote present, no existing node"
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Death of Queen Jaehaera",
+  "decision": "MAP:death-of-jaehaera-targaryen",
+  "note": "Existing node is same Jaehaera's death, same person/queen"
+ },
+ {
+  "unit": "fab-voyage-of-alyn-oakenfist-23",
+  "name": "Return and reveal of Prince Viserys",
+  "decision": "CREATE",
+  "note": "Discrete homecoming event, quote present, near matches unrelated"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p01",
+  "name": "Braavos embassy and peace",
+  "decision": "CREATE",
+  "note": "Discrete treaty event, quote present, near matches unrelated"
+ },
+ {
+  "unit": "fab-war-and-peace-and-cattle-shows-22-p02",
+  "name": "Betrothal of Aegon III and Myrielle Peake",
+  "decision": "CREATE",
+  "note": "Discrete betrothal, quote present; near match is the opposition to it, a different event"
+ },
+ {
+  "unit": "fab-year-of-the-three-brides-07",
+  "name": "Wedding of Rhaena and Androw Farman",
+  "decision": "MAP:wedding-of-rhaena-targaryen-and-androw-farman",
+  "note": "Existing node same wedding, same year 49 AC, same couple"
+ }
+]

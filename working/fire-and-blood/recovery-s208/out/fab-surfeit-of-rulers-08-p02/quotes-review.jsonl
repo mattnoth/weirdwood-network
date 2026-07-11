@@ -1,0 +1,6 @@
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "\"“", "kind": "edge", "edge_type": "RULES", "source": "Alyssa Velaryon", "target": "Jaehaerys"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "\"had given Rhaena and her husband...refuge when Maegor...was demanding their heads\"", "kind": "edge", "edge_type": "PROTECTS", "source": "Lyman Lannister", "target": "Rhaena Targaryen"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "\"a court within the court...“the Four-Headed Beast.”\"", "kind": "edge", "edge_type": "MEMBER_OF", "source": "Rhaena Targaryen", "target": "Four-Headed Beast"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "a court within the court...dubbed “the Four-Headed Beast.”", "kind": "prose", "entity": "Rhaena Targaryen"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "“He will be a great king,” she told Septa Ysabel...“and | will be a great queen.”", "kind": "prose", "entity": "Alysanne"}
+{"unit": "fab-surfeit-of-rulers-08-p02", "quote": "she was the actual Princess Aerea, not...Rhaella", "kind": "prose", "entity": "Rhaella Targaryen"}

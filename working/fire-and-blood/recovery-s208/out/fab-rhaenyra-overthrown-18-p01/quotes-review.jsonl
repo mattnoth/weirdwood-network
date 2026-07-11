@@ -1,0 +1,7 @@
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"the little \\nking's mother Essie\"", "kind": "edge", "edge_type": "PARENT_OF", "source": "Essie", "target": "Gaemon"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"the would-be rescuers \\nwere taken and hanged\"", "kind": "event-role", "role": "agent", "event": "Hanging of the would-be rescuers", "person": "Rhaenyra Targaryen"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"Morghul...was slain by the Burning Knight\"", "kind": "event-role", "role": "agent", "event": "Death of Morghul", "person": "the Burning Knight"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"Morghul...was slain by the Burning Knight\"", "kind": "event-role", "role": "patient", "event": "Death of Morghul", "person": "Morghul"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"half of it came tumbling down, crushing both \\ndragon and dragonslayers\"", "kind": "event-role", "role": "patient", "event": "Death of Dreamfyre", "person": "Dreamfyre"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"dying on the \\ncobblestones with hardly a patch of her pale white skin left\"", "kind": "event-role", "role": "agent", "event": "Death of Lady Mysaria", "person": "Perkin the Flea"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "quote": "\"dying on the \\ncobblestones with hardly a patch of her pale white skin left\"", "kind": "event-role", "role": "patient", "event": "Death of Lady Mysaria", "person": "Mysaria"}

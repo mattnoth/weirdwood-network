@@ -1,9 +1,9 @@
 # Variant-generation collisions — step 4b (S190)
 
-Generated: 2026-07-10T14:28:42.269653+00:00
+Generated: 2026-07-11T00:00:49.837529+00:00
 
 
-154 phrase(s) (across 2 table(s)) where a deterministically-generated plural/possessive/article variant collided with an existing alias for a DIFFERENT slug. Logged for review, not auto-resolved — the existing PRIORITY_ORDER means a real alias/name/slug always wins over a generated variant; these are cases where TWO OR MORE real slugs are already tied to the target phrase, so no single winner exists even before the variant arrived.
+155 phrase(s) (across 2 table(s)) where a deterministically-generated plural/possessive/article variant collided with an existing alias for a DIFFERENT slug. Logged for review, not auto-resolved — the existing PRIORITY_ORDER means a real alias/name/slug always wins over a generated variant; these are cases where TWO OR MORE real slugs are already tied to the target phrase, so no single winner exists even before the variant arrived.
 
 
 ## Table: event-alias-lookup.json (19 phrase(s))
@@ -105,7 +105,7 @@ Generated: 2026-07-10T14:28:42.269653+00:00
 - slug=`tourney-at-maidenpool` source=`variant-article` raw="variant of 'tourney of maidenpool'"
 - slug=`tourney-of-maidenpool` source=`variant-article` raw="variant of 'tourney of maidenpool'"
 
-## Table: all-node-alias-lookup.json (135 phrase(s))
+## Table: all-node-alias-lookup.json (136 phrase(s))
 
 
 ### `bastards`
@@ -234,6 +234,11 @@ Generated: 2026-07-10T14:28:42.269653+00:00
 - slug=`jeyne-westerling-wife-of-maegor-i` source=`variant-article` raw=''
 - slug=`elinor-costayne` source=`variant-article` raw=''
 - slug=`rhaena-targaryen-daughter-of-aenys-i` source=`variant-article` raw=''
+
+### `the black council`
+
+- slug=`black-council` source=`variant-article` raw=''
+- slug=`the-black-council` source=`variant-article` raw=''
 
 ### `the black pearl of braavos`
 

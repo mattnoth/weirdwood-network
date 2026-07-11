@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Manfred_Hightower_(Aegon's_Conquest)"
 bucket_id: characters-house-hightower-j-w
 prompt_version: v1-python
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -47,3 +47,11 @@ Manfred was a cautious and [godly](wiki:Faith_of_the_Seven) man.(wiki:Manfred_Hi
 ### A Feast for Crows
 
 The [new High Septon](wiki:High_Sparrow) mentions Lord Manfred to [Cersei Lannister](wiki:Cersei_Lannister) during their meeting in the [Great Sept of Baelor](wiki:Great_Sept_of_Baelor). He tells her that Manfred heeded the [High Septon](wiki:High_Septon_(Aegon's_Conquest))'s prophecy.(wiki:Manfred_Hightower_(Aegon's_Conquest).cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-aegons-conquest-03-2026-07-10-recovery -->
+
+- Manfred Hightower, Lord of Oldtown, was cautious and godly (fab-aegons-conquest-03:289)
+- Warned by the High Septon's vision, he opened Oldtown's gates and offered his sword, city, and oath (fab-aegons-conquest-03:289)
+- Some say he also offered his youngest daughter's hand, which Aegon declined (fab-aegons-conquest-03:289)

@@ -1,0 +1,227 @@
+{
+  "_meta": {
+    "unit": "fab-the-red-dragon-and-the-gold-17-p04",
+    "session": "fab-reconcile",
+    "run_id": "fab-the-red-dragon-and-the-gold-17-p04-2026-07-10-recovery",
+    "evidence_kind": "book-fab",
+    "new_node_slugs": [
+      "death-of-grey-ghost",
+      "death-of-lord-footly",
+      "death-of-vhagar"
+    ],
+    "note": "Fire & Blood reconciler output for fab-the-red-dragon-and-the-gold-17-p04 (smoke=False).",
+    "produced_at": "2026-07-10T00:00:00+00:00"
+  },
+  "edges": [
+    {
+      "id": "E10",
+      "type": "PARENT_OF",
+      "source": "laena-velaryon",
+      "target": "baela-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "Prince Daemon's daughter by his second wife, Laena Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Laena Velaryon PARENT_OF Baela Targaryen",
+      "qualifier": "biological"
+    },
+    {
+      "id": "E11",
+      "type": "SPOUSE_OF",
+      "source": "daemon-targaryen",
+      "target": "laena-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "his second wife, Laena Velaryon",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Daemon Targaryen SPOUSE_OF Laena Velaryon",
+      "qualifier": "former"
+    },
+    {
+      "id": "E19",
+      "type": "BONDED_TO",
+      "source": "jaehaerys-targaryen-son-of-aegon-ii",
+      "target": "shrykos",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "and her twin, Prince Jaehaerys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Jaehaerys Targaryen BONDED_TO Shrykos"
+    },
+    {
+      "id": "E24",
+      "type": "DISTRUSTS",
+      "source": "bartimos-celtigar",
+      "target": "nettles",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "Bastards are treacherous by nature",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Bartimos Celtigar DISTRUSTS Nettles"
+    },
+    {
+      "id": "E31",
+      "type": "CAPTURES",
+      "source": "luthor-largent",
+      "target": "corlys-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "laid rough hands on the aged Lord Corlys",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Luthor Largent CAPTURES Corlys Velaryon"
+    },
+    {
+      "id": "E47",
+      "type": "REVEALS_TO",
+      "source": "norren-house-mooton",
+      "target": "daemon-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "showed them the queen's letter",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Norren REVEALS_TO Daemon Targaryen",
+      "qualifier": "voluntary"
+    },
+    {
+      "id": "E48",
+      "type": "DECEIVES",
+      "source": "norren-house-mooton",
+      "target": "daemon-targaryen",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "declaring falsely that neither his lordship nor any other man",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Norren DECEIVES Daemon Targaryen",
+      "qualifier": "by_lie"
+    },
+    {
+      "id": "E49",
+      "type": "BREAKS_VOW",
+      "source": "norren-house-mooton",
+      "target": "manfryd-mooton",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "I have broken my maester's vows",
+      "tier": "tier-1",
+      "note": "Fire & Blood: Norren BREAKS_VOW Manfryd Mooton",
+      "qualifier": "broken"
+    },
+    {
+      "id": "E51",
+      "type": "LOVER_OF",
+      "source": "daemon-targaryen",
+      "target": "nettles",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "come to love the small brown bastard girl",
+      "tier": "tier-2",
+      "note": "Fire & Blood: Daemon Targaryen LOVER_OF Nettles",
+      "qualifier": "rumored",
+      "in_universe_source": "mushroom",
+      "disputed": true
+    },
+    {
+      "id": "EV1-agent-two-betrayers",
+      "type": "AGENT_IN",
+      "source": "two-betrayers",
+      "target": "first-battle-of-tumbleton",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "The sack that followed was as savage as any in the history of Westeros",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Two Betrayers AGENT_IN Sack of Tumbleton"
+    },
+    {
+      "id": "EV2-agent-cannibal-dragon",
+      "type": "AGENT_IN",
+      "source": "cannibal-dragon",
+      "target": "death-of-grey-ghost",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "the carcass was that of Grey Ghost",
+      "tier": "tier-2",
+      "note": "Fire & Blood event: Cannibal AGENT_IN Death of Grey Ghost",
+      "in_universe_source": "unattributed",
+      "disputed": true
+    },
+    {
+      "id": "EV2-patient-grey-ghost",
+      "type": "VICTIM_IN",
+      "source": "grey-ghost",
+      "target": "death-of-grey-ghost",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "the carcass was that of Grey Ghost",
+      "tier": "tier-2",
+      "note": "Fire & Blood event: Grey Ghost VICTIM_IN Death of Grey Ghost",
+      "in_universe_source": "unattributed",
+      "disputed": true
+    },
+    {
+      "id": "EV4-patient-corlys-velaryon",
+      "type": "VICTIM_IN",
+      "source": "corlys-velaryon",
+      "target": "imprisonment-of-corlys-velaryon",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "thrown into a black cell to await trial and execution",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Corlys Velaryon VICTIM_IN Imprisonment of Corlys Velaryon"
+    },
+    {
+      "id": "EV6-agent-jon-roxton",
+      "type": "AGENT_IN",
+      "source": "jon-roxton",
+      "target": "death-of-lord-footly",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "cut him nigh in two with OrphanMaker",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Jon Roxton AGENT_IN Death of Lord Footly"
+    },
+    {
+      "id": "EV6-patient-lord-footly",
+      "type": "VICTIM_IN",
+      "source": "lord-footly",
+      "target": "death-of-lord-footly",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "cut him nigh in two with OrphanMaker",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Lord Footly VICTIM_IN Death of Lord Footly"
+    },
+    {
+      "id": "EV8-agent-nettles",
+      "type": "AGENT_IN",
+      "source": "nettles",
+      "target": "departure-of-nettles",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "vanished in the morning mists, never to be seen again",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Nettles AGENT_IN Departure of Nettles"
+    },
+    {
+      "id": "EV11-agent-caraxes",
+      "type": "AGENT_IN",
+      "source": "caraxes",
+      "target": "death-of-vhagar",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "carcass plunged to the lake floor",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Caraxes AGENT_IN Death of Vhagar"
+    },
+    {
+      "id": "EV11-patient-vhagar",
+      "type": "VICTIM_IN",
+      "source": "vhagar",
+      "target": "death-of-vhagar",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "quote": "carcass plunged to the lake floor",
+      "tier": "tier-1",
+      "note": "Fire & Blood event: Vhagar VICTIM_IN Death of Vhagar"
+    }
+  ]
+}

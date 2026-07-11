@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gawen
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 2
+node_version: 3
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -15,6 +15,10 @@ first_available:
   source: cite_ref
   pov: Jaime II
 ---
+
+## Identity
+
+Grand Maester Gawen reported Aenys's sickness and alone objected to Maegor's usurpation, citing the laws of inheritance.
 
 ## Origins
 
@@ -30,3 +34,10 @@ Following the death of Aenys I, the elderly and grey-headed Gawen protested the 
 - SWORN_TO: The Citadel (cite: track_b_row.relationships.Allegiances)
 - SWORN_TO: House Targaryen (cite: track_b_row.relationships.Allegiances)
 - DIED_AT: Dragonstone, 42 AC (cite: track_b_row.relationships.Died)
+
+## Fire & Blood
+
+<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-10-recovery -->
+
+- Grand Maester Gawen reported Aenys's sickness and alone objected to Maegor's usurpation, citing the laws of inheritance (fab-sons-of-the-dragon-05-p02:89)
+- Maegor beheaded him with Blackfyre (fab-sons-of-the-dragon-05-p02:89)

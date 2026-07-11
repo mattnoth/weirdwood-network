@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 10
+node_version: 11
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -224,3 +224,7 @@ It was widely known that the promiscuous Aegon had fathered several [bastards](w
 
 - His murder was judged high treason, the crux of Cregan Stark's inquiries (fab-hour-of-the-wolf-20:177)
 - The dead king, poisoned; his body lay upon a bier beneath the Iron Throne with his mother Queen Alicent weeping beside it, and was consigned to the flames (fab-hour-of-the-wolf-20:61)
+
+<!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->
+
+- Eldest son of Viserys I; reigned 129–131. His ascent was disputed by his half-sister Rhaenyra, ten years his elder, and both perished in the war between them that singers called the Dance of the Dragons. (fab-lineages-and-family-tree-25:35)
