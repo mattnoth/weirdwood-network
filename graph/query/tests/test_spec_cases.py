@@ -45,6 +45,41 @@ _spec.loader.exec_module(run_cases)
 pytestmark = pytest.mark.corpus
 
 EDGES_FILE = REPO_ROOT / "graph" / "edges" / "edges.jsonl"
+WEB_DATA_DIR = REPO_ROOT / "web" / "data"
+
+# Bundle-staleness guard (S210 board finding). The `family.json` corpus goldens
+# read web/data/{edges,nodes}.json — a GITIGNORED build artifact rebuilt only by
+# `netlify deploy --build` / build_chat_bundle.py, NOT on every graph mutation.
+# Between deploys the bundle lags the live graph, so those goldens would validate
+# STALE data and pass misleadingly (this is why S205-S209 reported "green" while
+# actually checking week-old data). A fresh bundle exactly equals the live counts,
+# so any real lag is hundreds of edges — well past this tolerance. When the two
+# diverge we SKIP the bundle-reading goldens with a loud reason instead of
+# reporting a false green.
+_STALENESS_TOLERANCE = 25
+
+
+def _bundle_staleness_reason() -> str | None:
+    """Skip-reason string if web/data lags the live graph, else None."""
+    import json
+    edges_json = WEB_DATA_DIR / "edges.json"
+    if not edges_json.exists():
+        return "web/data/edges.json not built (run build_chat_bundle.py or `netlify deploy --build`)"
+    try:
+        bundle_n = len(json.loads(edges_json.read_text(encoding="utf-8")))
+        live_n = sum(1 for _ in EDGES_FILE.open(encoding="utf-8"))
+    except Exception as e:  # pragma: no cover - defensive
+        return f"could not compare bundle vs live edge counts: {type(e).__name__}: {e}"
+    if abs(live_n - bundle_n) > _STALENESS_TOLERANCE:
+        return (
+            f"BUNDLE STALE — web/data/edges.json has {bundle_n} edges vs {live_n} live "
+            f"(graph/edges/edges.jsonl). The bundle only rebuilds on deploy/build, so these "
+            f"goldens would validate stale data. Rebuild web/data (build_chat_bundle.py) first."
+        )
+    return None
+
+
+_BUNDLE_STALE_REASON = _bundle_staleness_reason()
 
 _ENGINE = run_cases.Engine()
 
@@ -76,6 +111,11 @@ _IDS = [f"{filename}:{case['id']}" for filename, case in _CASES]
 def test_golden_case(filename, case):
     if not _ENGINE.ok:
         pytest.skip(f"weirwood_query not importable: {_ENGINE.error}")
+
+    # family.json cases read the built bundle (web/data via run_cases.load_bundle);
+    # skip them loudly rather than validate a stale bundle (see _bundle_staleness_reason).
+    if filename == run_cases.FAMILY_ALWAYS_RUNS and _BUNDLE_STALE_REASON:
+        pytest.skip(_BUNDLE_STALE_REASON)
 
     runner = run_cases.RUNNERS.get(case["op"])
     if runner is None:

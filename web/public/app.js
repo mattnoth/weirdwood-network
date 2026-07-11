@@ -585,20 +585,22 @@ async function openDossier(slug, fallbackName) {
       throw new Error("status " + res.status);
     } else {
       const node = await res.json();
-      // The nodes' `## Identity` is wiki-derived; 81% of it is the useless
-      // boilerplate "<name> is a <type> from the AWOIAF wiki." — never show that
-      // (a character is from the BOOKS, not the wiki). Real identity prose IS
-      // shown, but labelled "From the wiki" so its provenance is explicit.
-      const wikiIdentity = isWikiBoilerplate(node.identity) ? "" : cleanQuote(node.identity || "");
+      // The node's `## Identity` blurb. The "<name> is a <type> from the AWOIAF
+      // wiki." boilerplate was stripped from the data (S210); any that survives
+      // in an older bundle is still blanked here. The surviving prose is MIXED
+      // provenance (wiki summaries, hand-composed, causal-track/book-cited), so
+      // it's shown under a neutral "Overview" label — the old "From the wiki"
+      // mislabelled book-grounded prose as wiki-derived.
+      const overviewIdentity = isWikiBoilerplate(node.identity) ? "" : cleanQuote(node.identity || "");
       children = [
         el("div", { class: "dossier-head" }, [
           el("h3", {}, node.name || label),
           node.type ? el("span", { class: "dossier-type" }, prettyType(node.type)) : false,
         ]),
-        wikiIdentity
+        overviewIdentity
           ? el("div", { class: "dossier-wiki" }, [
-              el("div", { class: "dossier-sub" }, "From the wiki"),
-              el("p", { class: "dossier-identity" }, wikiIdentity),
+              el("div", { class: "dossier-sub" }, "Overview"),
+              el("p", { class: "dossier-identity" }, overviewIdentity),
             ])
           : false,
         node.quotes && node.quotes.length
