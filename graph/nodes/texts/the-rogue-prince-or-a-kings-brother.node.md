@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Rogue Prince, or, A King's Brother is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -15,8 +15,6 @@ sigil_image: House_Moss.svg
 
 ## Identity
 
-House Moss is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A bend orange on vairy grey and green (Vairy cendrée and vert, a bend tenné) (wiki:House_Moss)

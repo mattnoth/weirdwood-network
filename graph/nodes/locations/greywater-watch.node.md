@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Greywater Watch is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Howland Reed (track_b: Ruler)

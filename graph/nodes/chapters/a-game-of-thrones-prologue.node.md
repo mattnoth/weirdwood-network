@@ -16,8 +16,6 @@ pov_character: will-the-ranger
 
 ## Identity
 
-A Game of Thrones-Prologue is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

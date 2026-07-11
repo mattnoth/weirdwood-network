@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Benerro is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: High Priest (track_b: Titles)

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle at the Horns of Hazzat is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Targaryen campaign in Slaver's Bay (track_b: Conflict)

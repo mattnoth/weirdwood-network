@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Ramsay Bolton and Arya Stark is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

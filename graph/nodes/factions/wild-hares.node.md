@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wild Hares is an organization/faction from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -16,8 +16,6 @@ pov_character: arya-stark
 
 ## Identity
 
-A Feast for Crows-Chapter 6 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

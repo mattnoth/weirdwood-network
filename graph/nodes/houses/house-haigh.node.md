@@ -15,8 +15,6 @@ sigil_image: House_Haigh.svg
 
 ## Identity
 
-House Haigh is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black pitchfork on a golden bar sinister on russet (Brunâtre, on a bend sinister or a pitchfork sable) (wiki:House_Haigh)

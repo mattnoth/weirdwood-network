@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Raiding along the westerlands coast is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: War of the Five Kings (track_b: Conflict)

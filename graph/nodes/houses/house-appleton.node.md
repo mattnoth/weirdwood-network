@@ -15,8 +15,6 @@ sigil_image: House_Appleton.svg
 
 ## Identity
 
-House Appleton is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Quarterly: An apple tree on yellow, a grey gatehouse on white (Quarterly clockwise, 1st and 3rd or, an apple tree proper, 2nd and 4th argent, a gatehouse cendrée) (wiki:House_Appleton)

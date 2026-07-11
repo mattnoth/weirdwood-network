@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Goodbrother of Shatterstone is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Shatterstone (track_b: Seat)

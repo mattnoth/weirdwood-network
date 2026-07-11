@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tattered Prince is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Prince of Pentos (track_b: Titles) [title refused]

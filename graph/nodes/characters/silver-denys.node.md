@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Silver Denys is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Blacks (track_b: Allegiance)

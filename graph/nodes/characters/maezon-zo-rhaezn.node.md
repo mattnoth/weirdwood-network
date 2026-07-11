@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maezon zo Rhaezn is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House of Rhaezn (track_b: Allegiances)

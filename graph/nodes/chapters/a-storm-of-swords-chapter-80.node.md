@@ -16,8 +16,6 @@ pov_character: sansa-stark
 
 ## Identity
 
-A Storm of Swords-Chapter 80 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

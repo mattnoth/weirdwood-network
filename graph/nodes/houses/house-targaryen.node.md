@@ -16,8 +16,6 @@ sigil_image: House_Targaryen.svg
 
 ## Identity
 
-House Targaryen is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A red three-headed dragon, breathing red fire on black (Sable, a dragon thrice-headed gules flammant of the last) (wiki:House_Targaryen)

@@ -15,8 +15,6 @@ sigil_image: House_Mollen.svg
 
 ## Identity
 
-House Mollen is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A pine tree covered with snow in a pale green pile, on white (Argent, upon a pile vert a pine tree of the field) (wiki:House_Mollen)

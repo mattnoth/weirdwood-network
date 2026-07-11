@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Edgar Sloane is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Hand of the King (track_b: Title)

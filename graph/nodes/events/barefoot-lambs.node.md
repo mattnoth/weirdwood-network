@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Barefoot lambs is a war from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Westeros (track_b: Region)

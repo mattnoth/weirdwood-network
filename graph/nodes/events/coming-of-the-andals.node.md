@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Coming of the Andals is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Neck (track_b: Result)

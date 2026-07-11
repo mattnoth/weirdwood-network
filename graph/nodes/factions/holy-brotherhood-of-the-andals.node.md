@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Holy Brotherhood of the Andals is an organization/faction from the AWOIAF wiki.
-
 ## Edges
 

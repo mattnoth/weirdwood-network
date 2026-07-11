@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Rat, the Hawk, and the Pig is a character from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hammer of the Hills is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King (track_b: Title)

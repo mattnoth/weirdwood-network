@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Three-eyed crow is a species from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord (track_b: Title)

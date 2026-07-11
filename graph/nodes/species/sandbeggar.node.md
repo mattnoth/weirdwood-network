@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sandbeggar is a species from the AWOIAF wiki.
-
 ## Edges
 

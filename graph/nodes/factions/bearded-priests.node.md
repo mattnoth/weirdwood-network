@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bearded priests is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Unnamed fortress-temple (track_b: Seat)

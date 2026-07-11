@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Yronwood is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Anders Yronwood (track_b: Ruler)

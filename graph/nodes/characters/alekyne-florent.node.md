@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alekyne Florent is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord of Brightwater (track_b: Title) [attainted]

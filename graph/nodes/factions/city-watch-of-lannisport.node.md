@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City Watch of Lannisport is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Lannisport (track_b: Region)

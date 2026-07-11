@@ -15,8 +15,6 @@ sigil_image: House_Banefort_2.svg
 
 ## Identity
 
-House Banefort is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A hooded man, black on grey, within a fiery tressure (Cendrée, a hooded man sable within a tressure rayonné along the outer edge gules) (wiki:House_Banefort)

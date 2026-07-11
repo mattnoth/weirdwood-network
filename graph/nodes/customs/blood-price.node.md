@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blood price is a species from the AWOIAF wiki.
-
 ## Edges
 
 

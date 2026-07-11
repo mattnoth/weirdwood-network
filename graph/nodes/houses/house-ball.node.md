@@ -15,8 +15,6 @@ sigil_image: House_Ball.svg
 
 ## Identity
 
-House Ball is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three white plates upon a chevron red on a white field (Argent, on a chevron inverted gules three plates) (wiki:House_Ball)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Halleck Hoare is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Isles and the Rivers (track_b: Title)

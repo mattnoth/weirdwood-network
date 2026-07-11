@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cossomo the Conjurer is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Braavosi (track_b: Culture)

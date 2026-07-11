@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Moqorro is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Slave of R'hllor (track_b: Title)

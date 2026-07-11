@@ -16,8 +16,6 @@ pov_character: theon-greyjoy
 
 ## Identity
 
-A Clash of Kings-Chapter 66 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

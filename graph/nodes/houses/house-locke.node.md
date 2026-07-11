@@ -15,8 +15,6 @@ sigil_image: House_Locke_2.svg
 
 ## Identity
 
-House Locke is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Bronze crossed keys on a white pale on purple (Purpure, on a pale argent two keys saltirewise bronze) (wiki:House_Locke)

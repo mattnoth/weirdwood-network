@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Husband is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Brotherhood without banners (track_b: Allegiance)

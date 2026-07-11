@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ormond Yronwood is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord of Yronwood (track_b: Titles)

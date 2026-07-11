@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Denys Swann is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Swann (track_b: Allegiance)

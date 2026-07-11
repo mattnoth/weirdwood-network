@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle of Crookwater is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Age of Heroes (track_b: Conflict)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mathos Mallarawan is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Pureborn (track_b: Allegiance)

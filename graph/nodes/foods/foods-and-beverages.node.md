@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Foods and beverages is a food or drink from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Saffron is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Valemen (track_b: Culture)

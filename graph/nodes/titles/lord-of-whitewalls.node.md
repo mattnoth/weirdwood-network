@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of Whitewalls is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

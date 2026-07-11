@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Craster's wives is a character from the AWOIAF wiki.
-
 ## Edges
 
 

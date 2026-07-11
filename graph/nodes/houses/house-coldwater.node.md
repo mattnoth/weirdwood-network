@@ -15,8 +15,6 @@ sigil_image: House_Coldwater.svg
 
 ## Identity
 
-House Coldwater is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A blue pall with white borders on red (Gules, a pall azure, fimbriated argent) (wiki:House_Coldwater)

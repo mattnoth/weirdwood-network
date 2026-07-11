@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ben Blackthumb is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Lothston (track_b: Allegiances)

@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Wedding tourney at Whitewalls is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

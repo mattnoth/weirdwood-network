@@ -16,8 +16,6 @@ pov_character: sansa-stark
 
 ## Identity
 
-A Feast for Crows-Chapter 10 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

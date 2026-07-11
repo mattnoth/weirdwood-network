@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Shrouded Lord is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Stone men (track_b: Allegiance)

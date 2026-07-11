@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Stranger (horse) is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Sandor Clegane (track_b: Owners)

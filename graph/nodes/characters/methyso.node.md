@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Methyso is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Volantene (track_b: Culture)

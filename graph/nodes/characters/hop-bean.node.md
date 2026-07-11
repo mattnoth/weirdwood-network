@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hop-Bean is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - PARENT_OF: Oppo (track_b: Issue)

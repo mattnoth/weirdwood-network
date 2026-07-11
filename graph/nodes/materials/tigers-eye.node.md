@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tiger's eye is a species from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Blood Betrayal is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Daeryssa is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Princess (track_b: Title)

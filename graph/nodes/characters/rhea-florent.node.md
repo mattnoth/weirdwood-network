@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rhea Florent is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Hightower (track_b: Title)

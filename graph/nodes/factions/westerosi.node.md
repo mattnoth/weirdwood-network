@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Westerosi is a culture/people from the AWOIAF wiki.
-
 ## Edges
 

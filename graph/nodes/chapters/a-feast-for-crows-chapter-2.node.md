@@ -16,8 +16,6 @@ pov_character: areo-hotah
 
 ## Identity
 
-A Feast for Crows-Chapter 2 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

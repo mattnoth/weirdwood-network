@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-UnKiss is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

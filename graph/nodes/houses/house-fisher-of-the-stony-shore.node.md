@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Fisher of the Stony Shore is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Stony Shore (track_b: Seat)

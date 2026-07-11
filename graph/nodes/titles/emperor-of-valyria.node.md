@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Emperor of Valyria is a title from the AWOIAF wiki.
-
 ## Edges
 

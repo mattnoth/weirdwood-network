@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ellyn Caron is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lady of the Marches (track_b: Titles)

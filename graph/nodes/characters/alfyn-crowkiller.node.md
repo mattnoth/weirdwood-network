@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alfyn Crowkiller is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Free Folk (track_b: Culture)

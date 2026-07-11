@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Anniversary Tourney is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

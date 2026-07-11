@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Crab King is a religion or divine entity from the AWOIAF wiki.
-
 ## Edges
 

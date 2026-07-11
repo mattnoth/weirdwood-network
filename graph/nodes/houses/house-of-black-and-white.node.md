@@ -14,8 +14,6 @@ sigil_image: Donato_Giancola_House_of_Black_and_White.jpg
 
 ## Identity
 
-House of Black and White is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_of_Black_and_White)

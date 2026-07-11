@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Yorwyck VI Royce is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Bronze King (track_b: Title)

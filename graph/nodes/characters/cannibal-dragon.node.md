@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cannibal (dragon) is a dragon from the AWOIAF wiki.
-
 ## Edges
 
 

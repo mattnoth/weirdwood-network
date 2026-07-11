@@ -16,8 +16,6 @@ pov_character: jaime-lannister
 
 ## Identity
 
-A Dance with Dragons-Chapter 48 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

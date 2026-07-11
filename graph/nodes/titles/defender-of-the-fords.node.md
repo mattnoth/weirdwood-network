@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Defender of the Fords is a title from the AWOIAF wiki.
-
 ## Edges
 

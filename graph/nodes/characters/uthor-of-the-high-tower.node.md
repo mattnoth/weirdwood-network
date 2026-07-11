@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Uthor of the High Tower is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the High Tower (track_b: Title)

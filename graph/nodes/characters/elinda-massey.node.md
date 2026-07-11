@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Elinda Massey is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lady-in-waiting (track_b: Title)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Widow's Wail is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
-
 ## Edges
 
 

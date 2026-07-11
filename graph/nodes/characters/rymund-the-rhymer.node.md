@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rymund the Rhymer is a character from the AWOIAF wiki.
-
 ## Edges
 
 

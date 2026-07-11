@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Submission of Sunspear is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

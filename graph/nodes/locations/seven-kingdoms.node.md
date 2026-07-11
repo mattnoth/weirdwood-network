@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Seven Kingdoms is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: King of the Andals, the Rhoynar, and the First Men (track_b: Ruler)

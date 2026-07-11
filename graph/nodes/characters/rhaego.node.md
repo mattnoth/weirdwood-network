@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rhaego is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Khalakka (track_b: Title)

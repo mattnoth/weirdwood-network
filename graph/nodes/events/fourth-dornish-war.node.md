@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Fourth Dornish War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: House Targaryen (track_b: Result)

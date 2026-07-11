@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Eustace Brune is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord of the Dyre Den (track_b: Title)

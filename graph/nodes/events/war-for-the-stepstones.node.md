@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-War for the Stepstones is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Daemon forms his kingdom and later abandons it (track_b: Result)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bokkoko is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Second Sons (track_b: Allegiance)

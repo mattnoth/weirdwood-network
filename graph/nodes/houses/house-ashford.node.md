@@ -16,8 +16,6 @@ sigil_image: House_Ashford.svg
 
 ## Identity
 
-House Ashford is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white sun-and-chevron on orange (Tenné, beneath a chevron inverted a sun-in-splendour argent) (wiki:House_Ashford)

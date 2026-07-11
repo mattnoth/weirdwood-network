@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Faith Militant is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Starry Sept (track_b: Seat) [original Faith Militant]

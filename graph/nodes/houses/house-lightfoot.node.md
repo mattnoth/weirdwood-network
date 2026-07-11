@@ -15,8 +15,6 @@ sigil_image: House_Lightfoot.svg
 
 ## Identity
 
-House Lightfoot is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A line of white footprints in bend sinister, on dark brown (Brunâtre, a trail of footprints bendwise sinister argent) (wiki:House_Lightfoot)

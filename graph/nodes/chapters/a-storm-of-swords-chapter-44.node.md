@@ -16,8 +16,6 @@ pov_character: jaime-lannister
 
 ## Identity
 
-A Storm of Swords-Chapter 44 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

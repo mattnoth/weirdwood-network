@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-One Eye is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Varamyr Sixskins (track_b: Owner)

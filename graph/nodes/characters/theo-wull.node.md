@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Theo Wull is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Wull (track_b: Allegiance)

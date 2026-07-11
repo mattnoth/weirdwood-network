@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Fire & Blood, Being a History of the Targaryen Kings of Westeros is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Lord Alyn's attack is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Daughters' War (track_b: Conflict)

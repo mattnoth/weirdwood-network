@@ -15,8 +15,6 @@ sigil_image: Hawick.png
 
 ## Identity
 
-House Hawick is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 White sea birds strewn on a blue field (Azure, semé of seabirds argent) (wiki:House_Hawick)

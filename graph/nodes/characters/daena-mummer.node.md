@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Daena (mummer) is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Gate (track_b: Allegiance)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Durran Godsgrief is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Storm King (track_b: Title)

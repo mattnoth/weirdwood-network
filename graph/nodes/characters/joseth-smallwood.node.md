@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Joseth Smallwood is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord of Acorn Hall (track_b: Title)

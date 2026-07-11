@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Florys the Fox is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: First Men (track_b: Race)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ride of the Seven is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Assault on Dragonstone is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Robert's Rebellion (track_b: Conflict)

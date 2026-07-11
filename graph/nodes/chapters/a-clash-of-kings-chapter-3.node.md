@@ -16,8 +16,6 @@ pov_character: tyrion-lannister
 
 ## Identity
 
-A Clash of Kings-Chapter 3 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

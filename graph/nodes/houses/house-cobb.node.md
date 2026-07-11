@@ -14,8 +14,6 @@ sigil: Unknown
 
 ## Identity
 
-House Cobb is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Unknown (wiki:House_Cobb)

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Wars of Conquest is a war from the AWOIAF wiki.
-
 ## Edges
 
 

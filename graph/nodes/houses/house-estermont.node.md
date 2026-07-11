@@ -15,8 +15,6 @@ sigil_image: House_Estermont.svg
 
 ## Identity
 
-House Estermont is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A dark green sea turtle on pale green (Vert, a sea-turtle of the field) (wiki:House_Estermont)

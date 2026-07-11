@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Marq Mudd is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Rivers and the Hills (track_b: Title)

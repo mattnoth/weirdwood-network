@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bitterbridge is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Lorent Caswell (track_b: Ruler)

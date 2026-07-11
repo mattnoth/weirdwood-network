@@ -15,8 +15,6 @@ sigil_image: House_Hasty.svg
 
 ## Identity
 
-House Hasty is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white bend cotised on purple (Purpure, a bend cotised argent) (wiki:House_Hasty)

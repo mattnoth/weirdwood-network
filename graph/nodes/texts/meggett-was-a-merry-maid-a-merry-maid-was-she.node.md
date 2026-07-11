@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Meggett Was a Merry Maid, a Merry Maid Was She is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

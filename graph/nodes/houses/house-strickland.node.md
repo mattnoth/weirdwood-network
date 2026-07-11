@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Strickland is a organization.house from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Harry Strickland (track_b: Head)

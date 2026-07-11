@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Mêlée at Runestone is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

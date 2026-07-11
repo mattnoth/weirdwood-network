@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Garth the Harelip is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Ser (track_b: Titles)

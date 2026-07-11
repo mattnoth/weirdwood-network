@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-The Hand's tourney is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

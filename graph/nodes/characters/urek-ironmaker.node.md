@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Urek Ironmaker is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Ironmaker (track_b: Allegiance)

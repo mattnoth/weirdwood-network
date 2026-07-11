@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Torwold Browntooth is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: ironborn (track_b: Culture)

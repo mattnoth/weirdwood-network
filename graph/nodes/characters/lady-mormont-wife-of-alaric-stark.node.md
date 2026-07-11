@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady Mormont (wife of Alaric Stark) is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Winterfell (track_b: Title)

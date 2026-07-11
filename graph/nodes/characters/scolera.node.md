@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Scolera is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Septa (track_b: Title)

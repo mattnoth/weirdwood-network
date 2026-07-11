@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Skahaz mo Kandaq is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Brazen Beasts (track_b: Title) [formerly]

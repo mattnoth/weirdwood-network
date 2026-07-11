@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Harlon Stark is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King in the North (track_b: Title)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Six Times to Sea: Being an Account of the Great Voyages of Alyn Oakenfist is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

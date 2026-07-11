@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ysilla Royce is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Royce (track_b: Allegiances)

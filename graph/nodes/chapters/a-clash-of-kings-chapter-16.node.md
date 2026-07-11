@@ -16,8 +16,6 @@ pov_character: bran-stark
 
 ## Identity
 
-A Clash of Kings-Chapter 16 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

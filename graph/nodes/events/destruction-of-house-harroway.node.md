@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Destruction of House Harroway is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Iron Throne (track_b: Result)

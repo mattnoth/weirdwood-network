@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hair dye is a species from the AWOIAF wiki.
-
 ## Edges
 
 

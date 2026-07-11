@@ -15,8 +15,6 @@ sigil_image: House_Fell.svg
 
 ## Identity
 
-House Fell is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per fess, a white crescent moon in the first on black above a green field, a sprucetree line between (Per fess sapiné sable and vert, in canton an increscent argent) (wiki:House_Fell)

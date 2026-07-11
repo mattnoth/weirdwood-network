@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ironoaks is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Anya Waynwood (track_b: Ruler)

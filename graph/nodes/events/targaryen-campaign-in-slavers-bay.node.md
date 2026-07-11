@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Targaryen campaign in Slaver's Bay is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: 5. Unknown number of new Unsullied (track_b: Result)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gyles Grafton is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Grafton (track_b: Allegiance)

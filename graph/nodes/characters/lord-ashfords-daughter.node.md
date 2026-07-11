@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Ashford's daughter is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Queen of Love and Beauty (track_b: Title)

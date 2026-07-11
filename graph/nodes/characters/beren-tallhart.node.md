@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Beren Tallhart is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Tallhart (track_b: Allegiance)

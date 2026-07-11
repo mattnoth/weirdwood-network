@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Supreme Commander of the Armies and Allies of Yunkai is a title from the AWOIAF wiki.
-
 ## Edges
 

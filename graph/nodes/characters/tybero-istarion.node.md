@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tybero Istarion is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Paymaster (track_b: Title)

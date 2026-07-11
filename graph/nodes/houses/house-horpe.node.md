@@ -15,8 +15,6 @@ sigil_image: House_Horpe.svg
 
 ## Identity
 
-House Horpe is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per chevron engrailed grey and bone, 3 death's head moths countercharged (Per chevron engrailed cendrée and argent, three death's head moths counterchanged) (wiki:House_Horpe)

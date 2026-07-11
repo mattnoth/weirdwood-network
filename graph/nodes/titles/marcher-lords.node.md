@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Marcher lords is a title from the AWOIAF wiki.
-
 ## Edges
 
 

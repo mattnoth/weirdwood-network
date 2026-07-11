@@ -15,8 +15,6 @@ sigil_image: House_Manderly.svg
 
 ## Identity
 
-House Manderly is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white merman with dark green hair, beard and tail, carrying a black trident, on a blue-green field (Aquamarine, a merman argent crined, bearded and queued vert, carrying a trident sable) (wiki:House_Manderly)

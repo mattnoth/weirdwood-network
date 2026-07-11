@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bass is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Kennelmaster (track_b: Title)

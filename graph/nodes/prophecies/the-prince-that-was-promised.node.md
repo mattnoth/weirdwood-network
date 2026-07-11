@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-The prince that was promised is a prophecy from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dreadfort is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Roose Bolton (track_b: Ruler)

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-War for the dawn is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

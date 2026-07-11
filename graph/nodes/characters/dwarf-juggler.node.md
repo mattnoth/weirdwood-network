@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dwarf juggler is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Tyrosh (track_b: Died) [300 AC]

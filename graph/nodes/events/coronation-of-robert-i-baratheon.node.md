@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Coronation of Robert I Baratheon is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

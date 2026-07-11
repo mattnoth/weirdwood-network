@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Eyrie is a place.location from the AWOIAF wiki.
-
 ## Description
 
 > "In winter this will be a cold white prison."

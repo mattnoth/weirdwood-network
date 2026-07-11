@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-New Castle is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Wyman Manderly (track_b: Ruler)

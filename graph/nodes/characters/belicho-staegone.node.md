@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Belicho Staegone is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Valyrian (track_b: Race)

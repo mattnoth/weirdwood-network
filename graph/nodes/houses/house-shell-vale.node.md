@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Shell (Vale) is a organization.house from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: the Vale (track_b: Region)

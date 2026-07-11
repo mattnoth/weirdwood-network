@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sarya Whent is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Crossing (track_b: Title)

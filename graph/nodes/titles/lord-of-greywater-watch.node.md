@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of Greywater Watch is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: North (track_b: Region)

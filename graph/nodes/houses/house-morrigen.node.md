@@ -15,8 +15,6 @@ sigil_image: House_Morrigen.svg
 
 ## Identity
 
-House Morrigen is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black crow in flight on storm-green (Vert, a crow volant sable) (wiki:House_Morrigen)

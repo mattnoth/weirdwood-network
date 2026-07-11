@@ -15,8 +15,6 @@ sigil_image: House_Magnar.svg
 
 ## Identity
 
-House Magnar is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A green lobster on white, its claws holding a black harpoon (Argent, a lobster vert holding a harpoon sable) (wiki:House_Magnar)

@@ -16,8 +16,6 @@ pov_character: jon-snow
 
 ## Identity
 
-A Game of Thrones-Chapter 26 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

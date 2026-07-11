@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Sky Cells is a location from the AWOIAF wiki.
-
 ## Edges
 

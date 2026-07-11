@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Stackhouse is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Stackhouse (track_b: Allegiance)

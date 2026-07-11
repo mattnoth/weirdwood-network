@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dickon Morrigen is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Morrigen (track_b: Allegiance)

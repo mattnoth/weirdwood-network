@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Girl bought to please the king is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Lys (track_b: Culture)

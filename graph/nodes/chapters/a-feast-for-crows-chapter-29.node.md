@@ -16,8 +16,6 @@ pov_character: victarion-greyjoy
 
 ## Identity
 
-A Feast for Crows-Chapter 29 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

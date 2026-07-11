@@ -15,8 +15,6 @@ sigil_image: House_Erenford.svg
 
 ## Identity
 
-House Erenford is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A golden heron, beaked and gammed black, standing with a silver fish in its beak, on pink (Rose, a heron close or beaked and membered sable, clasped in its beak a fish argent) (wiki:House_Erenford)

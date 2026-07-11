@@ -15,8 +15,6 @@ sigil_image: House_Goodbrother.svg
 
 ## Identity
 
-House Goodbrother is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A gold-banded black warhorn on red (Gules, a warhorn sable banded or) (wiki:House_Goodbrother)

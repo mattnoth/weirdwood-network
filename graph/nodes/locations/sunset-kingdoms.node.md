@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Sunset Kingdoms is a region from the AWOIAF wiki.
-
 ## Edges
 

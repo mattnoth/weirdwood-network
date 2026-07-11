@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blackcrown is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Alysanne Bulwer (track_b: Ruler)

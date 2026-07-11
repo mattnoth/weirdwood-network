@@ -29,8 +29,6 @@ sort_keys:
 
 ## Identity
 
-Battle near Yunkai is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Targaryen campaign in Slaver's Bay (track_b: Conflict)

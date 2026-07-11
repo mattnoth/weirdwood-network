@@ -14,8 +14,6 @@ sigil_image: House_Targaryen.svg
 
 ## Identity
 
-List of Houses is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:List_of_Houses)

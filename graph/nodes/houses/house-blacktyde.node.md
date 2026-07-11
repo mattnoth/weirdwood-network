@@ -15,8 +15,6 @@ sigil_image: House_Blacktyde.svg
 
 ## Identity
 
-House Blacktyde is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Vairy green and black (Vairy vert and sable) (wiki:House_Blacktyde)

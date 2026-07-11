@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle by the Bloody Pool is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Durrandon (track_b: Result)

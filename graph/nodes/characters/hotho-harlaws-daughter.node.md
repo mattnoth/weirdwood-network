@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hotho Harlaw's daughter is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Harlaw of the Tower of Glimmering (track_b: Allegiance)

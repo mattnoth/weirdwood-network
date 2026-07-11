@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Battle of Wendwater Bridge is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Fourth Blackfyre Rebellion (track_b: Conflict)

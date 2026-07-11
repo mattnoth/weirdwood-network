@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cleon the Second is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of Astapor (track_b: Title)

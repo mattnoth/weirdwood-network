@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Storming of Starpike is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Peake Uprising (track_b: Conflict)

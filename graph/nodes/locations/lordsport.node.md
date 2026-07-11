@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lordsport is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Sawane Botley (track_b: Ruler) [ACoK]

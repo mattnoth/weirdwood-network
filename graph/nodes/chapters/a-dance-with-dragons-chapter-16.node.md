@@ -16,8 +16,6 @@ pov_character: daenerys-targaryen
 
 ## Identity
 
-A Dance with Dragons-Chapter 16 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

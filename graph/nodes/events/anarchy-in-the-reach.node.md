@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Anarchy in the Reach is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Storm King (track_b: Result)

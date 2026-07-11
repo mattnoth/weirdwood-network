@@ -16,8 +16,6 @@ sigil_image: House_Stark.svg
 
 ## Identity
 
-House Stark is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A running grey direwolf, on an ice-white field (Argent, a direwolf courant cendrée) (wiki:House_Stark)

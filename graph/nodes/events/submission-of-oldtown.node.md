@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Submission of Oldtown is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Faith Militant uprising (track_b: Conflict)

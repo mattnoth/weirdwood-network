@@ -15,8 +15,6 @@ sigil_image: House_Cassel.svg
 
 ## Identity
 
-House Cassel is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Ten white wolf heads, 4-3-2-1, on grey with a black border (Cendrée, ten wolves erased 4-3-2-1 argent within a bordure sable) (wiki:House_Cassel)

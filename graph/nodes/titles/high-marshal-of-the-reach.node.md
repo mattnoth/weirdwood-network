@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-High Marshal of the Reach is a title from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lyessa Flint is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lady of Widow's Watch (track_b: Title)

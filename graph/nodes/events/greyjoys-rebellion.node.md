@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Greyjoy's Rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: burning of the Lannister fleet (track_b: Battles)

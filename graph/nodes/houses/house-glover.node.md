@@ -15,8 +15,6 @@ sigil_image: House_Glover.svg
 
 ## Identity
 
-House Glover is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver fist on scarlet (Gules, a mailed fist argent) (wiki:House_Glover)

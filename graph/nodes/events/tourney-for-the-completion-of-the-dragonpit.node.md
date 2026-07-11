@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tourney for the completion of the Dragonpit is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

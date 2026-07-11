@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jaqqa rhan is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

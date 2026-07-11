@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Defenestration of Sunspear is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: First Dornish War (track_b: Conflict)

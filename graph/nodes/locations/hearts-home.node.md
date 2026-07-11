@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Heart's Home is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Lyonel Corbray (track_b: Ruler)

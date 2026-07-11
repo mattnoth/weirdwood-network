@@ -16,8 +16,6 @@ pov_character: davos-seaworth
 
 ## Identity
 
-A Storm of Swords-Chapter 10 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

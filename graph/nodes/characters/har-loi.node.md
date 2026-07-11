@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Har Loi is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: God-Emperor (track_b: Title)

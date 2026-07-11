@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Joss Stilwood is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Stilwood (track_b: Allegiances)

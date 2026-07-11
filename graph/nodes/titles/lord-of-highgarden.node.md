@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of Highgarden is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Reach (track_b: Region)

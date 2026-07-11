@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dragonstone (material) is a species from the AWOIAF wiki.
-
 ## Edges
 

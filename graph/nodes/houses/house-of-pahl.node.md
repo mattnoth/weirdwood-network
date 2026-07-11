@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House of Pahl is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Pyramid of Pahl (track_b: Seat)

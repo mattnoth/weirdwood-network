@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Drox the Corpse-Maker is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Andal (track_b: Culture)

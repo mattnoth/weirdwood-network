@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dyanna Dayne is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lady (track_b: Title)

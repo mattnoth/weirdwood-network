@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tourney grounds (King's Landing) is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

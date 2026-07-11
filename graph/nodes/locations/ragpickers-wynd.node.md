@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Ragpicker's Wynd is a location from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Oznak zo Pahl is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House of Pahl (track_b: Allegiances)

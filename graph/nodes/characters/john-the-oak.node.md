@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-John the Oak is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Oakheart (track_b: Allegiance)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Justice and Injustice in the North: Judgments of Three Stark Lords is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

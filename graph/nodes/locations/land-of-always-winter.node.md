@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Land of Always Winter is a region from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

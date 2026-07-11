@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tourney at Ashford Meadow is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

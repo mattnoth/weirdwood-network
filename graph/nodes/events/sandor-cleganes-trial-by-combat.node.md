@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Sandor Clegane's trial by combat is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: War of the Five Kings (track_b: Conflict)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Seneschal of the Citadel is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

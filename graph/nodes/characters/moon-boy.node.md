@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Moon Boy is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Baratheon of King's Landing (track_b: Allegiances)

@@ -29,8 +29,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Hizdahr zo Loraq and Daenerys Targaryen is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

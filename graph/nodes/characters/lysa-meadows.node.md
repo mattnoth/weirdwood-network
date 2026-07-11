@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lysa Meadows is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Meadows (track_b: Allegiances)

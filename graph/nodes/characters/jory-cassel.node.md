@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jory Cassel is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Captain of the guards (track_b: Title)

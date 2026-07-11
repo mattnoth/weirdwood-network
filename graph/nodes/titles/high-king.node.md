@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-High King is a title from the AWOIAF wiki.
-
 ## Edges
 

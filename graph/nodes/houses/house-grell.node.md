@@ -15,8 +15,6 @@ sigil_image: House_Grell.svg
 
 ## Identity
 
-House Grell is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three red martlets on white bend, on blue (Azure, on a bend argent three martlets gules) (wiki:House_Grell)

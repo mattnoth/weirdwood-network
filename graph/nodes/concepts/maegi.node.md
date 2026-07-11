@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maegi is a magical concept/practice from the AWOIAF wiki.
-
 ## Edges
 

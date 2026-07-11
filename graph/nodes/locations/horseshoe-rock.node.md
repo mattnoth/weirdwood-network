@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Horseshoe Rock is a location from the AWOIAF wiki.
-
 ## Edges
 
 

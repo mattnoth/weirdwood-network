@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Hightower is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Beacon of the South (track_b: Titles)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Delonne Allyrion is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lady of Godsgrace (track_b: Title)

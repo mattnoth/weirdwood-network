@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Steely Pate is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Goodman (track_b: Title)

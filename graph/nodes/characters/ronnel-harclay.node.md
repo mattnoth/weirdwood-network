@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ronnel Harclay is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: First Ranger (track_b: Title)

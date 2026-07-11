@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Common Tongue is a species from the AWOIAF wiki.
-
 ## Edges
 
 

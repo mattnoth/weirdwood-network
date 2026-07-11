@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tourney on Prince Joffrey's name day is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -15,8 +15,6 @@ sigil_image: House_Errol.svg
 
 ## Identity
 
-House Errol is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A yellow haystack on orange (Tenné, a haystack or) (wiki:House_Errol)

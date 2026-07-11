@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sharp Point is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Duram Bar Emmon (track_b: Ruler)

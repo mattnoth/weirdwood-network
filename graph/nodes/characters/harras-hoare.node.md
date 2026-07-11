@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Harras Hoare is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Iron Islands (track_b: Title)

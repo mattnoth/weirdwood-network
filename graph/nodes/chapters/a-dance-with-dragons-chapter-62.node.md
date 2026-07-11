@@ -16,8 +16,6 @@ pov_character: asha-greyjoy
 
 ## Identity
 
-A Dance with Dragons-Chapter 62 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

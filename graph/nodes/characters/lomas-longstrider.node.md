@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lomas Longstrider is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - BORN_AT: Westeros (track_b: Born)

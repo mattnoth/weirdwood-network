@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Regency of Aegon III is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

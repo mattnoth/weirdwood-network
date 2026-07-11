@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House of Quazzar is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Pyramid of Quazzar (track_b: Seat)

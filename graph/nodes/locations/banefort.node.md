@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Banefort is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Quenten Banefort (track_b: Ruler)

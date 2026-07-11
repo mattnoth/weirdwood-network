@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Feast in honor of King Robert's visit to Winterfell is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

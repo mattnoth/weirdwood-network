@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Pytho Malanon is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Essos (track_b: Culture)

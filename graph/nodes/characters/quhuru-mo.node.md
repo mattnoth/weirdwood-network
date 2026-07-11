@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Quhuru Mo is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Cinnamon Wind (track_b: Title)

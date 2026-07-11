@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tytos Frey is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Ser (track_b: Title)

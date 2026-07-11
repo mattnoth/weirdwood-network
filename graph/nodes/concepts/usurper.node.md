@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Usurper is a concept from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

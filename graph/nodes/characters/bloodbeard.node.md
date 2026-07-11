@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bloodbeard is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Company of the Cat (track_b: Title)

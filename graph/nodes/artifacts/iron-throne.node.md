@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Iron Throne is a object.artifact from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

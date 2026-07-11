@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Norvos is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

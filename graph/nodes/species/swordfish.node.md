@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Swordfish is a species from the AWOIAF wiki.
-
 ## Edges
 
 ## Culture

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Eleyna Westerling is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Westerling (track_b: Allegiance)

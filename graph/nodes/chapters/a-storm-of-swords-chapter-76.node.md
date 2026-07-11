@@ -16,8 +16,6 @@ pov_character: jon-snow
 
 ## Identity
 
-A Storm of Swords-Chapter 76 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

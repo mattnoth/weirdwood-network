@@ -15,8 +15,6 @@ sigil_image: House_Ferren.svg
 
 ## Identity
 
-House Ferren is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per saltire, red and gold checks, a silver and black ferret on green (Per saltire chequy gules and or and vert, in each flank point a ferret argent and sable) (wiki:House_Ferren)

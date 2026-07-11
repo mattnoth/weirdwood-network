@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Frost is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Extinct (track_b: Head)

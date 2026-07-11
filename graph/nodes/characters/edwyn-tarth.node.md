@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Edwyn Tarth is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of Tarth (track_b: Titles)

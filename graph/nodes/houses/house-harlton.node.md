@@ -15,8 +15,6 @@ sigil_image: House_Harlton.svg
 
 ## Identity
 
-House Harlton is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver tree on green (Vert, a tree argent) (wiki:House_Harlton)

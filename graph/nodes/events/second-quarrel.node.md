@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Second Quarrel is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

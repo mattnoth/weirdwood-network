@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Golden Tooth is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Leo Lefford (track_b: Ruler) [AGoT]

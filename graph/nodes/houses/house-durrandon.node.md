@@ -16,8 +16,6 @@ sigil_image: House_Baratheon.svg
 
 ## Identity
 
-House Durrandon is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A crowned stag black on a golden field (Or, a stag crowned sable) (wiki:House_Durrandon)

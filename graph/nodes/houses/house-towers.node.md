@@ -14,8 +14,6 @@ sigil_image: None.svg
 
 ## Identity
 
-House Towers is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_Towers)

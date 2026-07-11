@@ -16,8 +16,6 @@ sigil_image: House_Bolton.svg
 
 ## Identity
 
-House Bolton is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A red flayed man on pink de sang (Carnation gouttée-de-sang, a flayed man gules) (wiki:House_Bolton)

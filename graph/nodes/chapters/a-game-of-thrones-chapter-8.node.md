@@ -16,8 +16,6 @@ pov_character: bran-stark
 
 ## Identity
 
-A Game of Thrones-Chapter 8 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

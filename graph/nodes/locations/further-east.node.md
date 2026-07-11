@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Further East is a region from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Fawnton is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Unknown (track_b: Ruler)

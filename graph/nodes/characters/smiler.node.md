@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Smiler is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Sawane Botley (track_b: Owners)

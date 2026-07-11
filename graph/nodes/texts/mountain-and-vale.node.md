@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mountain and Vale is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

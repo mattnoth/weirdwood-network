@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Weeping Lady of Lys is a religion/faith from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Druselka is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Rhoynar (track_b: Allegiance)

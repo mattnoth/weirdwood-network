@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maelys I Blackfyre is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Captain-general (track_b: Titles)

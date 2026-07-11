@@ -16,8 +16,6 @@ pov_character: arya-stark
 
 ## Identity
 
-A Game of Thrones-Chapter 32 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

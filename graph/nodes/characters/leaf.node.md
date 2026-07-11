@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Leaf is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

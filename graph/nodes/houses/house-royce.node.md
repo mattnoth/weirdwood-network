@@ -16,8 +16,6 @@ sigil_image: House_Royce.svg
 
 ## Identity
 
-House Royce is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Black iron studs on bronze, bordered with rune (Bronze pelleté, a bordure of ancient runes) (wiki:House_Royce)

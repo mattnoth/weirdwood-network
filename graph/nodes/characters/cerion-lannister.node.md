@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cerion Lannister is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Rock (track_b: Title)

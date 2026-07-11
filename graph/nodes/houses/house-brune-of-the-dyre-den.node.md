@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Brune of the Dyre Den is a organization.house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Dyre Den (track_b: Seat)

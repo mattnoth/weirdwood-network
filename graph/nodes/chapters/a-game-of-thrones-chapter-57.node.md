@@ -16,8 +16,6 @@ pov_character: sansa-stark
 
 ## Identity
 
-A Game of Thrones-Chapter 57 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

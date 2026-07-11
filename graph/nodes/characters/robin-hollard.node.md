@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Robin Hollard is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Hollard (track_b: Allegiance)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mirri Maz Duur is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Godswife (track_b: Titles)

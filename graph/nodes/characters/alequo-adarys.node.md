@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alequo Adarys is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Band of Nine (track_b: Allegiance)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of Banefort is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Westerlands (track_b: Region)

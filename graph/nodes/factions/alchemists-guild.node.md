@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alchemists' Guild is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Guildhall of the Alchemists (track_b: Seat)

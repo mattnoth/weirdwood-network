@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Fountain of the Drunken God is a location from the AWOIAF wiki.
-
 ## Edges
 
 

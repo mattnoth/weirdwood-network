@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Fight at the Fist is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Conflict beyond the Wall (track_b: Conflict)

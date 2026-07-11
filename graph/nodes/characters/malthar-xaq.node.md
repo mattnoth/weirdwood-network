@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Malthar Xaq is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Koj (track_b: Title)

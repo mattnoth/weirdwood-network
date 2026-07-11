@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Temple of the Lord of Light is a location from the AWOIAF wiki.
-
 ## Edges
 
 

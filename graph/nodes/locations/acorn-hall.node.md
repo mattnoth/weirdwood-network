@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Acorn Hall is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Theomar Smallwood (track_b: Ruler)

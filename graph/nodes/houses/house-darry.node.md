@@ -15,8 +15,6 @@ sigil_image: House_Darry.svg
 
 ## Identity
 
-House Darry is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black plowman on brown (Brunâtre, a plowman sable) (wiki:House_Darry)

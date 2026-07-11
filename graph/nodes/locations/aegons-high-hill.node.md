@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Aegon's High Hill is a location from the AWOIAF wiki.
-
 ## Edges
 
 

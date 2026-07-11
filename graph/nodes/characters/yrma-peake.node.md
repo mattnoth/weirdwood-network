@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Yrma Peake is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lady of Starpike (track_b: Title)

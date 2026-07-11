@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mag Mar Tun Doh Weg is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Giants (track_b: Race)

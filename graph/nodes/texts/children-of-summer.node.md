@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Children of Summer is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

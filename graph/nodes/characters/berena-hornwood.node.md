@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Berena Hornwood is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Hornwood (track_b: Allegiances)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Miller's sons is a character from the AWOIAF wiki.
-
 ## Edges
 
 - BORN_AT: North (track_b: Born)

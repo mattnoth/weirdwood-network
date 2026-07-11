@@ -15,8 +15,6 @@ sigil_image: House_Fenn.svg
 
 ## Identity
 
-House Fenn is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 3 black water lilies, on pale violet (Purpure, three water lilies sable) (wiki:House_Fenn)

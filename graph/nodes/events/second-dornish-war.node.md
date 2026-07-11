@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Second Dornish War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Battle at Stonehelm (track_b: Battles)

@@ -16,8 +16,6 @@ pov_character: brienne-of-tarth
 
 ## Identity
 
-A Feast for Crows-Chapter 25 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

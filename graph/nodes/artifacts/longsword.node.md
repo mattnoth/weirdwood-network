@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Longsword is a artifact from the AWOIAF wiki.
-
 ## Edges
 

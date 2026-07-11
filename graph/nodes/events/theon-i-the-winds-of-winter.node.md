@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Theon I (The Winds of Winter) is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

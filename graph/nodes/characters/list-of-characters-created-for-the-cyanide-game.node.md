@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-List of characters created for the Cyanide game is a character from the AWOIAF wiki.
-
 ## Edges
 

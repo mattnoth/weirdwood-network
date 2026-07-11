@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Myrmadora Haen is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Haen (track_b: Allegiance)

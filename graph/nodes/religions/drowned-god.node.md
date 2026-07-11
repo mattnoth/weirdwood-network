@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Drowned God is a organization.religion from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

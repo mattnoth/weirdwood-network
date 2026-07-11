@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Greystark is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Wolf's Den (track_b: Seat)

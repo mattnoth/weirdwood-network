@@ -16,8 +16,6 @@ pov_character: melisandre
 
 ## Identity
 
-A Dance with Dragons-Chapter 31 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

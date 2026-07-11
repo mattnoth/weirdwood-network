@@ -29,8 +29,6 @@ sort_keys:
 
 ## Identity
 
-Sack of Winterfell is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: War of the Five Kings (track_b: Conflict)

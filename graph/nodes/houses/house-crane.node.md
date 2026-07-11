@@ -15,8 +15,6 @@ sigil_image: House_Crane.svg
 
 ## Identity
 
-House Crane is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A vee of golden cranes on pale blue (Bleu celeste, cranes in chevron inverted or) (wiki:House_Crane)

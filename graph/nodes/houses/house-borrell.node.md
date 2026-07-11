@@ -15,8 +15,6 @@ sigil_image: House_Borrell.svg
 
 ## Identity
 
-House Borrell is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white spider crab on grey-green (Vert-cendrée, a spider crab argent) (wiki:House_Borrell)

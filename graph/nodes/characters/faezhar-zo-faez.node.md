@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Faezhar zo Faez is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Supreme Commander of the Armies and Allies of Yunkai (track_b: Title) [rotating title]

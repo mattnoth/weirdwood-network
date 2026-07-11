@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Vargo Hoat is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Brave Companions (track_b: Titles)

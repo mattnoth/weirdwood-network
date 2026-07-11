@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ernest Dabell is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Ser (track_b: Title)

@@ -16,8 +16,6 @@ sigil_image: House_Forrester.svg
 
 ## Identity
 
-House Forrester (Telltale) is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white ironwood tree with a black sword on it, pointing down, on a black field (Sable, on an ironwood argent a sword palewise to base of the field) (wiki:House_Forrester_(Telltale))

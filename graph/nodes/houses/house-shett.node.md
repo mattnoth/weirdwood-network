@@ -14,8 +14,6 @@ sigil_image: House_Shett_of_Gull_Tower.svg
 
 ## Identity
 
-House Shett is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_Shett)

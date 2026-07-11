@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Battle of the Bells is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Robert's Rebellion (track_b: Conflict)

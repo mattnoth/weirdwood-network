@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hizdahr zo Loraq is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of Meereen (track_b: Titles)

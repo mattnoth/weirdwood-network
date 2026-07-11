@@ -15,8 +15,6 @@ sigil_image: House_Hunter.svg
 
 ## Identity
 
-House Hunter is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Five silver arrows, fanned, on brown (Brunâtre, a sheaf of five arrows, points to chief, argent) (wiki:House_Hunter)

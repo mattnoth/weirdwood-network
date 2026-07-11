@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Battle beneath the Wall is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Conflict beyond the Wall (track_b: Conflict)

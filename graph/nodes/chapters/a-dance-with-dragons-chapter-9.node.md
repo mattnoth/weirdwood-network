@@ -16,8 +16,6 @@ pov_character: davos-seaworth
 
 ## Identity
 
-A Dance with Dragons-Chapter 9 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

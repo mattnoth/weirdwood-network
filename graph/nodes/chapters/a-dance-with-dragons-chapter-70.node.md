@@ -16,8 +16,6 @@ pov_character: barristan-selmy
 
 ## Identity
 
-A Dance with Dragons-Chapter 70 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

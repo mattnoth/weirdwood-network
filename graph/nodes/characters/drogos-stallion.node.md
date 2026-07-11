@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Drogo's stallion is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Drogo (track_b: Owner)

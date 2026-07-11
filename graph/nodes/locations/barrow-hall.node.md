@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Barrow Hall is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Barbrey Dustin (track_b: Ruler)

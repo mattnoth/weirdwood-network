@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rangers is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Wall (track_b: Region)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mylenda Caron is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Caron (track_b: Allegiances)

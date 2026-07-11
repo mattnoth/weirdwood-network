@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dancer is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Joseth (track_b: Owners)

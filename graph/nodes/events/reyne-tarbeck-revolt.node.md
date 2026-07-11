@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Reyne-Tarbeck revolt is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Reyne (track_b: Result)

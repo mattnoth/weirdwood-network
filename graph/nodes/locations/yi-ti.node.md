@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Yi Ti is a region from the AWOIAF wiki.
-
 ## Edges
 
 

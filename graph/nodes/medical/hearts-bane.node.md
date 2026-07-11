@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Heart's bane is a species from the AWOIAF wiki.
-
 ## Edges
 
 

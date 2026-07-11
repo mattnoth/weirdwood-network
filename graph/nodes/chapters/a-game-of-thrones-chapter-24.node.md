@@ -16,8 +16,6 @@ pov_character: bran-stark
 
 ## Identity
 
-A Game of Thrones-Chapter 24 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

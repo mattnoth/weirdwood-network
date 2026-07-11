@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle at Long Lake is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Northern victory (track_b: Result)

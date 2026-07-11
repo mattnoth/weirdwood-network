@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Craster's Keep is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 ## Appearances & Description

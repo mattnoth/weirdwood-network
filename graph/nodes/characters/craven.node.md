@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Craven is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Arya Stark (track_b: Owners)

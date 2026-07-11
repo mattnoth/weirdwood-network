@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cyrelle Tarbeck is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Tarbeck (track_b: Allegiances)

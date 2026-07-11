@@ -15,8 +15,6 @@ sigil_image: House_Lolliston.svg
 
 ## Identity
 
-House Lolliston is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three oaken barrels on white (Argent, three oaken barrels proper) (wiki:House_Lolliston)

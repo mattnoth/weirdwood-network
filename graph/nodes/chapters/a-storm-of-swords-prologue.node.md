@@ -16,8 +16,6 @@ pov_character: chett-the-steward
 
 ## Identity
 
-A Storm of Swords-Prologue is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

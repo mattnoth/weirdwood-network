@@ -16,8 +16,6 @@ sigil_image: House_Tollett.svg
 
 ## Identity
 
-House Tollett is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Pily grey and black (Pily cendrée and sable) (wiki:House_Tollett)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Donnerly is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Vale of Arryn (track_b: Region)

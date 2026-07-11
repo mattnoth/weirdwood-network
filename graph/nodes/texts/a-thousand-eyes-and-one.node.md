@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-A Thousand Eyes, and One is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

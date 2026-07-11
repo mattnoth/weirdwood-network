@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Aegon's Landing is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

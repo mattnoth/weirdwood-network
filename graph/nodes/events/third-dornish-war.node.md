@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Third Dornish War is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Iron Throne victory (track_b: Result)

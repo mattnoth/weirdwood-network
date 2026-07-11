@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of the Three Sisters is a title from the AWOIAF wiki.
-
 ## Edges
 

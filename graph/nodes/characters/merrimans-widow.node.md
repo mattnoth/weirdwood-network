@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Merriman's widow is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Riverlands (track_b: Culture)

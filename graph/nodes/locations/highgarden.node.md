@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Highgarden is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Mace Tyrell (track_b: Ruler)

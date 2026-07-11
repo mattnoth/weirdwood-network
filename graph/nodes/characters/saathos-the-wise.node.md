@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Saathos the Wise is a character from the AWOIAF wiki.
-
 ## Edges
 
 

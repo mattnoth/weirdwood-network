@@ -16,8 +16,6 @@ pov_character: areo-hotah
 
 ## Identity
 
-A Dance with Dragons-Chapter 38 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

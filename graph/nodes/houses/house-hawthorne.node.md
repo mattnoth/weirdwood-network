@@ -15,8 +15,6 @@ sigil_image: House_Hawthorne.svg
 
 ## Identity
 
-House Hawthorne is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A ring of black thorns and a ring of pink flowers, interlocked, on green (Vert, an annulet of thorns sable embracing another of flowers rose) (wiki:House_Hawthorne)

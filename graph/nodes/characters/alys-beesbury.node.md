@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alys Beesbury is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Beesbury (track_b: Allegiances)

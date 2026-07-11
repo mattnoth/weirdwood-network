@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Longthorpe is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Longsister (track_b: Seat)

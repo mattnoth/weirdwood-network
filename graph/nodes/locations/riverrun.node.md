@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Riverrun is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Hoster Tully (track_b: Ruler) [AGoT]

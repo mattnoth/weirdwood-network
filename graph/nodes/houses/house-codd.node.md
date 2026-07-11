@@ -16,8 +16,6 @@ sigil_image: House_Codd_2.svg
 
 ## Identity
 
-House Codd is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver codfish (A codfish argent) (wiki:House_Codd)

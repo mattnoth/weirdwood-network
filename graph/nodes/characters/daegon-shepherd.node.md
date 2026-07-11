@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Daegon Shepherd is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Dagger (track_b: Title)

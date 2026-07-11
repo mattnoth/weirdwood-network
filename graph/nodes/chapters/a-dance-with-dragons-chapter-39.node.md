@@ -16,8 +16,6 @@ pov_character: jon-snow
 
 ## Identity
 
-A Dance with Dragons-Chapter 39 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

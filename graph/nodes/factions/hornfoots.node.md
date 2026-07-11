@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hornfoots is a culture/people from the AWOIAF wiki.
-
 ## Edges
 
 

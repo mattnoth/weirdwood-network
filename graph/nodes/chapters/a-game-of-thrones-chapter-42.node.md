@@ -16,8 +16,6 @@ pov_character: tyrion-lannister
 
 ## Identity
 
-A Game of Thrones-Chapter 42 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

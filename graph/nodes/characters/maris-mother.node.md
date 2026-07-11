@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maris (Mother) is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Mother (track_b: Title)

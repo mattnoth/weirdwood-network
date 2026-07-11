@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Carolei Waynwood is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Waynwood (track_b: Allegiances)

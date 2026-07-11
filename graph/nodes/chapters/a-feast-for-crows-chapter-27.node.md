@@ -16,8 +16,6 @@ pov_character: jaime-lannister
 
 ## Identity
 
-A Feast for Crows-Chapter 27 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

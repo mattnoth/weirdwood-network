@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of Heart's Home is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

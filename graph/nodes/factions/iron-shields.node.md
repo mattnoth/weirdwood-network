@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Iron Shields is an organization/faction from the AWOIAF wiki.
-
 ## Edges
 

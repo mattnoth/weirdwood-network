@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Soren Shieldbreaker is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Commander (track_b: Title)

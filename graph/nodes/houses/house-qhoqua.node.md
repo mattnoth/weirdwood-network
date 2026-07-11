@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Qhoqua is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Summer Isles (track_b: Region)

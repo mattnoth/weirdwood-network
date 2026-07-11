@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sunspear is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Doran Nymeros Martell (track_b: Ruler)

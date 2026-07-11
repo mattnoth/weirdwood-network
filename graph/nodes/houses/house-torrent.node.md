@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Torrent is a organization.house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Littlesister (track_b: Seat)

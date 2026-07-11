@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Celtigar horn is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 

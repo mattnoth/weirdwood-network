@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Whitetree is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - WORSHIPS: Old Gods of the Forest (track_b: Religion)

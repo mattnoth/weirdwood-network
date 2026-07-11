@@ -15,8 +15,6 @@ sigil_image: House_Suggs.svg
 
 ## Identity
 
-House Suggs is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A flying pig (wiki:House_Suggs)

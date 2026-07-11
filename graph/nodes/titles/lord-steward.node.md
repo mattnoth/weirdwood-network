@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Steward is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hotho Harlaw is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Master of the Tower of Glimmering (track_b: Titles)

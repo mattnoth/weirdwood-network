@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Winter of the Widows is a war from the AWOIAF wiki.
-
 ## Edges
 
 ## Quotes

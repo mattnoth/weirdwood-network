@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Captain's daughter is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - LOVER_OF: Theon Greyjoy (track_b: Lover)

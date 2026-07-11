@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Liberation of Stone Hedge is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: War of the Five Kings (track_b: Conflict)

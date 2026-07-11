@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Old Gods of the Forest is a organization.religion from the AWOIAF wiki.
-
 ## Edges
 

@@ -15,8 +15,6 @@ sigil_image: House_Clegane.svg
 
 ## Identity
 
-House Clegane is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three black dogs running on yellow (Or, three dogs courant sable) (wiki:House_Clegane)

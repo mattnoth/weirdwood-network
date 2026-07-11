@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Third Sword is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Third Sword of Braavos (track_b: Title)

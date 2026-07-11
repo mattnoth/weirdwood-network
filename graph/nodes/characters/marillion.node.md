@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Marillion is a character from the AWOIAF wiki.
-
 ## Edges
 
 - BORN_AT: Westeros (track_b: Born) [279 AC]

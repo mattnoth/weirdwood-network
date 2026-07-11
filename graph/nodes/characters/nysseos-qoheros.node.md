@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Nysseos Qoheros is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Volantis (track_b: Culture)

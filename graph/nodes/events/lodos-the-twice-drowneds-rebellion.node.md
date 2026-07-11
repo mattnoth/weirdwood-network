@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Lodos the Twice-Drowned's rebellion is a war from the AWOIAF wiki.
-
 ## Edges
 

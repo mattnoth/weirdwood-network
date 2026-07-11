@@ -16,8 +16,6 @@ sigil_image: House_Lannister.svg
 
 ## Identity
 
-House Lannister is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A roaring lion, gold on crimson (Gules, a lion or) (wiki:House_Lannister)

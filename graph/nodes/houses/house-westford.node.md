@@ -16,8 +16,6 @@ sigil_image: House_Westford.svg
 
 ## Identity
 
-House Westford is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black dog on blue (Azure, a dog sable) (wiki:House_Westford)

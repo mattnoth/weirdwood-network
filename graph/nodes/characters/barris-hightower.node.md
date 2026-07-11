@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Barris Hightower is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Beacon of the South (track_b: Titles)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Pretty Pig is a species from the AWOIAF wiki.
-
 ## Edges
 

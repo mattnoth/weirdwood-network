@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Owen Norrey is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Norrey (track_b: Allegiance)

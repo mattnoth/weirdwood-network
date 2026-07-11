@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Invasion of the Iron Islands is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Ironborn (track_b: Result)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Magnar of Thenn is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Culture

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Captain of the Wildwind is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Wildwind (track_b: Title)

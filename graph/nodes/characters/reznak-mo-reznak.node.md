@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Reznak mo Reznak is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Meereen (track_b: Title)

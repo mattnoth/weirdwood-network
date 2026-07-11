@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hull is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Monford Velaryon (track_b: Ruler) [AGoT]

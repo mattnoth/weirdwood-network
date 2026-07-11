@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Feast of Skane is a battle/event from the AWOIAF wiki.
-
 ## Edges
 

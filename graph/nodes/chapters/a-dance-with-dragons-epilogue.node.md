@@ -16,8 +16,6 @@ pov_character: kevan-lannister
 
 ## Identity
 
-A Dance with Dragons-Epilogue is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Qo is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Sweet Lotus Vale (track_b: Regions)

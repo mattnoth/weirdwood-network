@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-For hands of gold are always cold, but a woman's hands are warm is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

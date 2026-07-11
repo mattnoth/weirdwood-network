@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Last dragon is a character.dragon from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: House Targaryen (track_b: Owner)

@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Great Spring Sickness is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

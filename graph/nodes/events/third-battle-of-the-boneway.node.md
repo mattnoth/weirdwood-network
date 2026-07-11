@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Third Battle of the Boneway is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Death of Prince Mors Martell (track_b: Result)

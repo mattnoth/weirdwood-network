@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Faceless Men is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): House of Black and White (track_b: Seat)

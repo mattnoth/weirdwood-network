@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Zachery Frey is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Frey (track_b: Allegiance)

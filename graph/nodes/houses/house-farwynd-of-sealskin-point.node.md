@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Farwynd of Sealskin Point is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Sealskin Point (track_b: Seat)

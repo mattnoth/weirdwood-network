@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Scouring of Lorath is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Annihilation of entire Lorathi Andal population (track_b: Result)

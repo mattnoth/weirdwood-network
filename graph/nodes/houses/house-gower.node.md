@@ -15,8 +15,6 @@ sigil_image: House_Gower.svg
 
 ## Identity
 
-House Gower is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Nine yellow trefoils on a black cross on ermine (Ermine, on a cross sable nine trefoils or) (wiki:House_Gower)

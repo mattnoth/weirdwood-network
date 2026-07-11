@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Kasporio is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Second Sons (track_b: Title)

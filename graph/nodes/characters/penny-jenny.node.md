@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Penny Jenny is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Pussywillows (track_b: Allegiance)

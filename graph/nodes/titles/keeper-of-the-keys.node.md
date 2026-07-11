@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Keeper of the Keys is a title from the AWOIAF wiki.
-
 ## Edges
 
 

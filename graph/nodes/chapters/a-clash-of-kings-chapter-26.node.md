@@ -16,8 +16,6 @@ pov_character: arya-stark
 
 ## Identity
 
-A Clash of Kings-Chapter 26 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

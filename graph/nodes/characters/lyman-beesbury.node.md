@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lyman Beesbury is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord of Honeyholt (track_b: Titles)

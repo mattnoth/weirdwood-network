@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Pycelle's serving girl is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Pycelle (track_b: Allegiance)

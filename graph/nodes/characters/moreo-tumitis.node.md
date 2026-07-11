@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Moreo Tumitis is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Storm Dancer (track_b: Title)

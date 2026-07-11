@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Marriage is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Peake Uprising is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

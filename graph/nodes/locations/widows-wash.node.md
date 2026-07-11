@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Widow's Wash is a location from the AWOIAF wiki.
-
 ## Edges
 
 

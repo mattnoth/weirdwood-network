@@ -16,8 +16,6 @@ sigil_image: House_Fossoway_of_Cider_Hall.svg
 
 ## Identity
 
-House Fossoway of Cider Hall is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A red apple on gold (Or, an apple gules) (wiki:House_Fossoway_of_Cider_Hall)

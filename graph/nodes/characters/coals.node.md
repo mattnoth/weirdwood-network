@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Coals is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: last greenseer (track_b: Allegiance)

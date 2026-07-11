@@ -15,8 +15,6 @@ sigil_image: House_Serry.svg
 
 ## Identity
 
-House Serry is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white rose upon a red escutcheon upon white, a red embattled border (Argent, an escutcheon gules charged with a rose of the first all within a bordure embattled of the second) (wiki:House_Serry)

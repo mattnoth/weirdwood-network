@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Beldecar is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Westeros (track_b: Culture)

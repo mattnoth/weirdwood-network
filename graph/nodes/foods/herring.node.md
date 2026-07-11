@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Herring is a food or drink from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tristan Ryger is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Ryger (track_b: Allegiance)

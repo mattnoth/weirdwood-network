@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady Corbray is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Heart's Home (track_b: Title)

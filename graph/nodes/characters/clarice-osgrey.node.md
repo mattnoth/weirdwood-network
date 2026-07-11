@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Clarice Osgrey is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Mistress of the Queen's household (track_b: Title)

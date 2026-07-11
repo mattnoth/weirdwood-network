@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bastard Born is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

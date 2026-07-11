@@ -16,8 +16,6 @@ pov_character: arianne-martell
 
 ## Identity
 
-A Feast for Crows-Chapter 21 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Robert's Rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Taking of Gulltown (track_b: Battles)

@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Rhoynar Invasion is a war from the AWOIAF wiki.
-
 ## Edges
 

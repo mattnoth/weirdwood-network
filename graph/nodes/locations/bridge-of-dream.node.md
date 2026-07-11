@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bridge of Dream is a location from the AWOIAF wiki.
-
 ## Edges
 
 

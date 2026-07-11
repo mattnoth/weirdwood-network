@@ -15,8 +15,6 @@ sigil_image: House_Bushy.svg
 
 ## Identity
 
-House Bushy is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A green fess embattled on white (Argent, a fess embattled vert) (wiki:House_Bushy)

@@ -15,8 +15,6 @@ sigil_image: House_Blackbar.svg
 
 ## Identity
 
-House Blackbar is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black fess on silver (Argent, a fess sable) (wiki:House_Blackbar)

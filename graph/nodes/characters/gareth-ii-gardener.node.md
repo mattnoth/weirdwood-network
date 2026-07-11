@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gareth II Gardener is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Reach (track_b: Title)

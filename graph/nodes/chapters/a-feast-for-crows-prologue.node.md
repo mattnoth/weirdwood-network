@@ -16,8 +16,6 @@ pov_character: pate-the-novice
 
 ## Identity
 
-A Feast for Crows-Prologue is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

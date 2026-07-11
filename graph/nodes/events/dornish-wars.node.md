@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Dornish Wars is a war from the AWOIAF wiki.
-
 ## Edges
 

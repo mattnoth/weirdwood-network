@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Old Places of the Trident is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

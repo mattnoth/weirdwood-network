@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Orland of Oldtown is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Baratheon of King's Landing (track_b: Allegiance)

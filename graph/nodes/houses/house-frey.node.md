@@ -15,8 +15,6 @@ sigil_image: House_Frey.svg
 
 ## Identity
 
-House Frey is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Two blue towers on silver-grey (Cendrée, a bridge azure, at either end a tower of the same) (wiki:House_Frey)

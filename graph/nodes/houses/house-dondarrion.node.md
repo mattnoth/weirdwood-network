@@ -15,8 +15,6 @@ sigil_image: House_Dondarrion.svg
 
 ## Identity
 
-House Dondarrion is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Forked purple lightning on black field speckled with 4-pointed stars (Sable, semé of mullets of four points, a lightning bolt forked purpure) (wiki:House_Dondarrion)

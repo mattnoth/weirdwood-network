@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Shadow war is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Targaryen campaign in Slaver's Bay (track_b: Conflict)

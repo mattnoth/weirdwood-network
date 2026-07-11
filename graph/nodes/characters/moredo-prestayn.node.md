@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Moredo Prestayn is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Tradesman-Captain (track_b: Title)

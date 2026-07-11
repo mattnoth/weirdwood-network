@@ -15,8 +15,6 @@ sigil_image: House_Doggett.svg
 
 ## Identity
 
-House Doggett is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per bend a white unicorn on green, a black raven on white (Per bend vert and argent, in sinister chief a unicorn of the second, in dexter base a raven sable) (wiki:House_Doggett)

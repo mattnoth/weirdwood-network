@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wonders Made by Man is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

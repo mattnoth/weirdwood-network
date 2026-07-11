@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-One-eyed crone is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Khaleesi (track_b: Title) [formerly]

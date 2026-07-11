@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dywen Shell is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Fingers (track_b: Title)

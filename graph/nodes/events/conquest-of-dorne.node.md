@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Conquest of Dorne is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Submission of Sunspear (track_b: Battles)

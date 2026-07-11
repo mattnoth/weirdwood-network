@@ -28,7 +28,5 @@ sort_keys:
 
 ## Identity
 
-Greyjoy Rebellion is a war from the AWOIAF wiki.
-
 ## Edges
 

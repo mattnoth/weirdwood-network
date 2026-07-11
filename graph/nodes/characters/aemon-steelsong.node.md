@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Aemon Steelsong is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Free folk (track_b: Culture)

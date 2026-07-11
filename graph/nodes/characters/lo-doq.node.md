@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lo Doq is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: God-Emperor (track_b: Title)

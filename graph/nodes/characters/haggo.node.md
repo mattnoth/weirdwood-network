@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Haggo is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Bloodrider (track_b: Title)

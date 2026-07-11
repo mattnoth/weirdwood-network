@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Brightwater Keep is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Alester Florent (track_b: Ruler) [ACoK]

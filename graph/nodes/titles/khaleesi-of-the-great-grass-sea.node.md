@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Khaleesi of the Great Grass Sea is a title from the AWOIAF wiki.
-
 ## Edges
 
 

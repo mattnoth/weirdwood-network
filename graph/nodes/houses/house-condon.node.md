@@ -15,8 +15,6 @@ sigil_image: House_Condon.svg
 
 ## Identity
 
-House Condon is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 An eagle's head between crossed tridents, red on white (Argent, between two tridents saltirwise gules an eagle's head of the same) (wiki:House_Condon)

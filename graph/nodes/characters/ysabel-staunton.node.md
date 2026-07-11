@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ysabel Staunton is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Staunton (track_b: Allegiance)

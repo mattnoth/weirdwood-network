@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Spiceflower is a species from the AWOIAF wiki.
-
 ## Edges
 
 

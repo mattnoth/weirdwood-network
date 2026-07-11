@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sybelle Glover is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Deepwood Motte (track_b: Title)

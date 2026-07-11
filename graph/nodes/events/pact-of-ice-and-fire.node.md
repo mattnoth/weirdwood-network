@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Pact of Ice and Fire is a war from the AWOIAF wiki.
-
 ## Edges
 
 

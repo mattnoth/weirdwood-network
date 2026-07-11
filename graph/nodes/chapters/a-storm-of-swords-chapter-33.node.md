@@ -16,8 +16,6 @@ pov_character: samwell-tarly
 
 ## Identity
 
-A Storm of Swords-Chapter 33 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

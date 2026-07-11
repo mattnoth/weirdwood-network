@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ellyn Baratheon is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Baratheon (track_b: Allegiance)

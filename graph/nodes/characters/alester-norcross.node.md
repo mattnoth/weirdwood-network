@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alester Norcross is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Norcross (track_b: Allegiance)

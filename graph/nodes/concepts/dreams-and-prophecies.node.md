@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dreams and prophecies is a magical concept/practice from the AWOIAF wiki.
-
 ## Edges
 
 

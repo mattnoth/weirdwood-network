@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Casterly Rock is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Tywin Lannister (track_b: Ruler) [AGoT]

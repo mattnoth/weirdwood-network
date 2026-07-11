@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wenda the White Fawn is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Kingswood Brotherhood (track_b: Allegiance)

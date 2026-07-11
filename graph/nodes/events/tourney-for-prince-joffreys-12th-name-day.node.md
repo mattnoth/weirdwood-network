@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Tourney for Prince Joffrey's 12th Name Day is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

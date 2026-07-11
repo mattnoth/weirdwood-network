@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Crannogmen is a culture/people from the AWOIAF wiki.
-
 ## Edges
 
 ## Culture

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Otho II Hightower is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the High Tower (track_b: Title)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Foss the Archer is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Fossoway of Cider Hall (track_b: Allegiance)

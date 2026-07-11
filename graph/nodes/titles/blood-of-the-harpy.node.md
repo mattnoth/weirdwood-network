@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blood of the Harpy is a title from the AWOIAF wiki.
-
 ## Edges
 

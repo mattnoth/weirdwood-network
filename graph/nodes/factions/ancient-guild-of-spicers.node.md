@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ancient Guild of Spicers is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Qarth (track_b: Region)

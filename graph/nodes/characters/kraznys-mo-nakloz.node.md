@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Kraznys mo Nakloz is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House of Nakloz (track_b: Allegiances)

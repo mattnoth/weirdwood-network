@@ -14,8 +14,6 @@ sigil_image: House_Brune_of_Brownhollow.svg
 
 ## Identity
 
-House Brune is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_Brune)

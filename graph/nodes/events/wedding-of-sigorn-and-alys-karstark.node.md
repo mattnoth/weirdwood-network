@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Sigorn and Alys Karstark is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

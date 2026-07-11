@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Sack of King's Landing is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Robert's Rebellion (track_b: Conflict)

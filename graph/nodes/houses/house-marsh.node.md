@@ -15,8 +15,6 @@ sigil_image: House_Marsh.svg
 
 ## Identity
 
-House Marsh is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 10 frogs, 4-3-2-1, green on yellow (Or, ten frogs 4-3-2-1 vert) (wiki:House_Marsh)

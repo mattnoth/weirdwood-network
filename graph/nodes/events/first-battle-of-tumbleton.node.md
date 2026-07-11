@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-First Battle of Tumbleton is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Dance of the Dragons (track_b: Conflict)

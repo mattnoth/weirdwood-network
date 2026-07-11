@@ -15,8 +15,6 @@ sigil_image: House_Charlton.svg
 
 ## Identity
 
-House Charlton is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three sprigs of mistletoe, green and red, on a gold field within a green border (Or, three sprigs of mistletoe vert, fructed gules, within a bordure of the second) (wiki:House_Charlton)

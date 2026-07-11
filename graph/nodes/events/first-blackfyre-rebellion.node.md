@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-First Blackfyre Rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Battle of the Redgrass Field (track_b: Battles)

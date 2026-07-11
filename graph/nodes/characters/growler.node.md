@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Growler is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Varamyr (track_b: Owner)

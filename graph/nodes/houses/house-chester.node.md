@@ -15,8 +15,6 @@ sigil_image: House_Chester.svg
 
 ## Identity
 
-House Chester is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A green hand on a gold escutcheon on a green field, a border of red rayonne (Vert, on an escutcheon or a hand of the field all within a bordure rayonny gules) (wiki:House_Chester)

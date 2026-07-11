@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Canty is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Baratheon of Dragonstone (track_b: Allegiance)

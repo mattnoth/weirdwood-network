@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Tyrion Lannister and Sansa Stark is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

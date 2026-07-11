@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tommen Baratheon is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Andals, the Rhoynar, and the First Men (track_b: Titles)

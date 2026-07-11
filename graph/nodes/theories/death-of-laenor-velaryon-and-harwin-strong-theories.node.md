@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Death of Laenor Velaryon and Harwin Strong/Theories is a fan theory / interpretive framework from the AWOIAF wiki.
-
 ## Edges
 
 

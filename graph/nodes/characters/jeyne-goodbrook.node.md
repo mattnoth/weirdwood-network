@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jeyne Goodbrook is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Goodbrook (track_b: Allegiance)

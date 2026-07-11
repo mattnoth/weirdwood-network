@@ -16,8 +16,6 @@ pov_character: arya-stark
 
 ## Identity
 
-A Storm of Swords-Chapter 65 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

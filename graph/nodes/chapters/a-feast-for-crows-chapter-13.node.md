@@ -16,8 +16,6 @@ pov_character: arys-oakheart
 
 ## Identity
 
-A Feast for Crows-Chapter 13 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

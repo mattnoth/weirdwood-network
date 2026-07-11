@@ -16,8 +16,6 @@ sigil_image: House_Greyjoy.svg
 
 ## Identity
 
-House Greyjoy is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A golden kraken on black (Sable, a kraken or) (wiki:House_Greyjoy)

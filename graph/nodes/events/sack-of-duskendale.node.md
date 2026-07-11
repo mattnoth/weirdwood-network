@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Sack of Duskendale is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Dance of the Dragons (track_b: Conflict)

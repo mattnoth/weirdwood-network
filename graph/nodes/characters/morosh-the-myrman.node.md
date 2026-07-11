@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Morosh the Myrman is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Admiral (track_b: Title)

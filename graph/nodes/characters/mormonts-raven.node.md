@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mormont's raven is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Jeor Mormont (track_b: Owners)

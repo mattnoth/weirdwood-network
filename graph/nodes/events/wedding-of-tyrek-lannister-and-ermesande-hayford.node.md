@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Tyrek Lannister and Ermesande Hayford is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

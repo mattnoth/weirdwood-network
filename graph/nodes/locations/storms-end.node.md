@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Storm's End is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Renly Baratheon (track_b: Ruler) [AGoT]

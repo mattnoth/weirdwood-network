@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Merling Queen is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Braavosi (track_b: Culture)

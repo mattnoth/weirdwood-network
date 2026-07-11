@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Warrior (the Seven) is a religion or divine entity from the AWOIAF wiki.
-
 ## Edges
 
 ## Appearances & Description

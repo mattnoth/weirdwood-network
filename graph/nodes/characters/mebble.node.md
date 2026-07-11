@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mebble is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Understeward (track_b: Title)

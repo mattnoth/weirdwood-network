@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alys Rivers's son is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Rivermen (track_b: Culture)

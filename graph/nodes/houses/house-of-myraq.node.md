@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House of Myraq is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 

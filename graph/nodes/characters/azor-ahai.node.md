@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Azor Ahai is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Asshai (track_b: Culture)

@@ -16,8 +16,6 @@ pov_character: catelyn-tully
 
 ## Identity
 
-A Game of Thrones-Chapter 71 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

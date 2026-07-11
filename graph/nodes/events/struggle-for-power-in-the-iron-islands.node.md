@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Struggle for power in the Iron Islands is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

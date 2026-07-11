@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gyles Farwynd is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Farwynd of the Lonely Light (track_b: Allegiance)

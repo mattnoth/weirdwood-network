@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Spymaster is a title from the AWOIAF wiki.
-
 ## Edges
 

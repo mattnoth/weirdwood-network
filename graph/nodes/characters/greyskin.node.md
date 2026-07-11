@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Greyskin is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Haggon (track_b: Owners)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Leathers is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Master-at-arms (track_b: Title)

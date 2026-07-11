@@ -15,8 +15,6 @@ sigil_image: House_Caswell.svg
 
 ## Identity
 
-House Caswell is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A yellow centaur with bow on white (Argent, a centaur with bow or) (wiki:House_Caswell)

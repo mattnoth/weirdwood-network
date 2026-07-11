@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lorath is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - WORSHIPS: Boash (track_b: Religion)

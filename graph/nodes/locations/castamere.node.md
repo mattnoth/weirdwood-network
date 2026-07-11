@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Castamere is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Rolph Spicer (track_b: Ruler) [ADwD]

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Winterfell is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Eddard Stark (track_b: Ruler) [AGoT]

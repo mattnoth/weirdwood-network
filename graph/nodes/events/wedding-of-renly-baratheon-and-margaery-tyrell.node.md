@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Renly Baratheon and Margaery Tyrell is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

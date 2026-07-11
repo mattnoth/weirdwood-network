@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hamish the Harper is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Westerosi (track_b: Culture)

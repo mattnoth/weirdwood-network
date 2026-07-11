@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Qarro Volentin is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: First Sword of Braavos (track_b: Title)

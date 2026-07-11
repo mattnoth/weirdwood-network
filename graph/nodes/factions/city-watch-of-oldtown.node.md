@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City Watch of Oldtown is an organization/faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Oldtown (track_b: Region)

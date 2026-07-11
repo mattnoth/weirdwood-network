@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Priest of the Drowned God is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Culture

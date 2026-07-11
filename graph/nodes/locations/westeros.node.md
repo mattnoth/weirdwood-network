@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Westeros is a place.region from the AWOIAF wiki.
-
 ## Edges
 

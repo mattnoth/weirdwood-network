@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Antler Men is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: King's Landing (track_b: Region)

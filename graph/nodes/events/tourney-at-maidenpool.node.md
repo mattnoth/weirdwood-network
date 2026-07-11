@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Tourney at Maidenpool is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

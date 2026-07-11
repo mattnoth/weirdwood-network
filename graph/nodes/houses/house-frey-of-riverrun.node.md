@@ -15,8 +15,6 @@ sigil_image: House_Frey.svg
 
 ## Identity
 
-House Frey of Riverrun is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Two blue towers, united by a bridge, on a silver-grey field (Cendrée, a bridge azure, at either end a tower of the same) (wiki:House_Frey_of_Riverrun)

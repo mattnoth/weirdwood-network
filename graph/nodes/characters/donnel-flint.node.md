@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Donnel Flint is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Flint of the mountains (track_b: Allegiance)

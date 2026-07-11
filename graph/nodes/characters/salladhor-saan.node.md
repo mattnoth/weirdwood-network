@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Salladhor Saan is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Prince of the Narrow Sea (track_b: Titles) [self-styled]

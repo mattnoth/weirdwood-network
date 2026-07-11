@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Pretenders claiming to be Prince Daeron the Daring is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Pretenders' claims proven false (track_b: Result)

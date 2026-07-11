@@ -16,8 +16,6 @@ sigil_image: House_Grandison.svg
 
 ## Identity
 
-House Grandison is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black sleeping lion on yellow (Or, a lion dormant sable) (wiki:House_Grandison)

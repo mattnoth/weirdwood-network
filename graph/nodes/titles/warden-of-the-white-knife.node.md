@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Warden of the White Knife is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

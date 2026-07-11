@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Unsullied is a faction from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

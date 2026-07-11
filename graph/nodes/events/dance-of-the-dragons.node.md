@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Dance of the Dragons is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Aegon II (track_b: Result)

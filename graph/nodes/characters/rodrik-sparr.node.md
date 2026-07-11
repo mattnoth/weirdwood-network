@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rodrik Sparr is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Grief (track_b: Title)

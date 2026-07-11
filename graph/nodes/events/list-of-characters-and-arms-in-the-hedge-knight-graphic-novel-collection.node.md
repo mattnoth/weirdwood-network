@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-List of characters and arms in The Hedge Knight graphic novel collection is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Second Blackfyre Rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Blackfyre Rebellions (track_b: Conflict)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady Bracken is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Stone Hedge (track_b: Title)

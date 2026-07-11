@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tournament in honor of Viserys's birth is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

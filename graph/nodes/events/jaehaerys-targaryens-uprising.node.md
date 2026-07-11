@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Jaehaerys Targaryen's uprising is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Maegor I Targaryen (track_b: Result)

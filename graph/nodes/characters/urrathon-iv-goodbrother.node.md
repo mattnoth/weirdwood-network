@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Urrathon IV Goodbrother is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: High King (track_b: Title)

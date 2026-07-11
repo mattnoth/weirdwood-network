@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Belaerys is a organization.house from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Valyria (track_b: Region)

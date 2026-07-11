@@ -16,8 +16,6 @@ sigil_image: House_Whitehill.svg
 
 ## Identity
 
-House Whitehill (Telltale) is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white pile inverted on indigo, an arch of 4-pointed stars above (Azure, a pile inverted Argent beneath mullets of four points embowed) (wiki:House_Whitehill_(Telltale))

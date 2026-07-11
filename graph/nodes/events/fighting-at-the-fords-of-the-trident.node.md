@@ -22,8 +22,6 @@ sort_keys:
 
 ## Identity
 
-Fighting at the fords of the Trident is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: War of the Five Kings (track_b: Conflict)

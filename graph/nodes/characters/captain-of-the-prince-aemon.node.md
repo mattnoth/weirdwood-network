@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Captain of the Prince Aemon is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Prince Aemon (track_b: Title)

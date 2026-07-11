@@ -15,8 +15,6 @@ sigil_image: House_Bridges_2.svg
 
 ## Identity
 
-House Bridges is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black stone bridge with three arches upon a golden chief above three blue pallets on white (Argent, three pallets azure, on a chief or a stone bridge of three arches sable) (wiki:House_Bridges)

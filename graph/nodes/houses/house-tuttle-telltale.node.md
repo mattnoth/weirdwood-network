@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Tuttle (Telltale) is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: North (track_b: Region)

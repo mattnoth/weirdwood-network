@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Castle Driftmark is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Monford Velaryon (track_b: Ruler) [AGOT]

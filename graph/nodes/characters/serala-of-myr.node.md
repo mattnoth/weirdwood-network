@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Serala of Myr is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Duskendale (track_b: Title)

@@ -16,8 +16,6 @@ pov_character: cersei-lannister
 
 ## Identity
 
-A Dance with Dragons-Chapter 54 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

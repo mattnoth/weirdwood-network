@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Byan Votyris is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Merchant Captain (track_b: Title)

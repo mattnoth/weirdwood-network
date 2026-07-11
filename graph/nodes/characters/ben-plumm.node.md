@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ben Plumm is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Second Sons (track_b: Titles) [formerly]

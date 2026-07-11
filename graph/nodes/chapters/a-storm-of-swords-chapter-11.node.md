@@ -16,8 +16,6 @@ pov_character: jaime-lannister
 
 ## Identity
 
-A Storm of Swords-Chapter 11 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Black Gerrold is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Windblown (track_b: Allegiance)

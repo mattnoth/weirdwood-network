@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Allar Deem is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: City Watch of King's Landing (track_b: Allegiance)

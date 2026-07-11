@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-List of tourneys in Westeros is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hazzea's father is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Ghiscari (track_b: Culture)

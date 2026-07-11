@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Nightsong is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Bryce Caron (track_b: Ruler) [AGoT]

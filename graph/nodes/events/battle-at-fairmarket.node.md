@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle at Fairmarket is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Hoare (track_b: Result)

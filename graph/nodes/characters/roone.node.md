@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Roone is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Novice (track_b: Title)

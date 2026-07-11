@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Secret marriage pact is a text from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

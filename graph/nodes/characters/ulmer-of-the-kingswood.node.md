@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ulmer of the Kingswood is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Kingswood Brotherhood (track_b: Allegiances)

@@ -16,8 +16,6 @@ sigil_image: House_Hornwood.svg
 
 ## Identity
 
-House Hornwood is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A brown bullmoose with black antlers on orange (Tenné, a bullmoose brunâtre attired sable) (wiki:House_Hornwood)

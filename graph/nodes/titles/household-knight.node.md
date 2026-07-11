@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Household knight is a title from the AWOIAF wiki.
-
 ## Edges
 
 

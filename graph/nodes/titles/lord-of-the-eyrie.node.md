@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of the Eyrie is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Vale of Arryn (track_b: Region)

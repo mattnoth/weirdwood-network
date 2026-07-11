@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tregar Ormollen is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Lyseni (track_b: Culture)

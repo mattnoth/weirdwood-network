@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Starfall is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Edric Dayne (track_b: Ruler)

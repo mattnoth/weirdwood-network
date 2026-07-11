@@ -16,8 +16,6 @@ sigil_image: House_Mormont.svg
 
 ## Identity
 
-House Mormont is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black bear in a green wood (Barry sapiné vert and vert of a paler variety, a bear sable) (wiki:House_Mormont)

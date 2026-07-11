@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Flint of Breakstone Hill is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Breakstone Hill (track_b: Seat)

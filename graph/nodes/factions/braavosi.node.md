@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Braavosi is a culture/people from the AWOIAF wiki.
-
 ## Edges
 

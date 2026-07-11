@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Plains of the Jogos Nhai is a region from the AWOIAF wiki.
-
 ## Edges
 
 

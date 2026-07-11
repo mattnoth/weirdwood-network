@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Corpse queen is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SPOUSE_OF: Night's King (track_b: Spouse)

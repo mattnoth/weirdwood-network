@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady Butterwell is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Whitewalls (track_b: Title)

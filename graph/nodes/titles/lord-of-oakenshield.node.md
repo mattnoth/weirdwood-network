@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of Oakenshield is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

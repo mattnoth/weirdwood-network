@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ayrmidon is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Valyrian (track_b: Culture)

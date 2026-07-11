@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Scarb is a character from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Meereen (track_b: Died)

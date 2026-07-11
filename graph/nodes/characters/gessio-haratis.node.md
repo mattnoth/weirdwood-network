@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gessio Haratis is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Pentos (track_b: Culture)

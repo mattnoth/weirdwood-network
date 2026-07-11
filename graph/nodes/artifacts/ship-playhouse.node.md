@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ship (playhouse) is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
-
 ## Edges
 
 

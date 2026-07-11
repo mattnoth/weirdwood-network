@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hugh Clifton is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Clifton (track_b: Allegiances)

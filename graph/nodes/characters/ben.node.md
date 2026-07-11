@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ben is a character from the AWOIAF wiki.
-
 ## Edges
 
 - BORN_AT: Riverlands (track_b: Born) [293 AC]

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Meredyth Crane is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Crane (track_b: Allegiance)

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Nymeria's War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: House Martell unifies Dorne under their rule as Princes of Dorne (track_b: Result)

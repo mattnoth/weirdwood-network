@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Jonos Arryn's rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Hubert Arryn (track_b: Result)

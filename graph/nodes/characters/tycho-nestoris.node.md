@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tycho Nestoris is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Iron Bank of Braavos (track_b: Allegiance)

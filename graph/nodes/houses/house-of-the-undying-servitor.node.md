@@ -14,8 +14,6 @@ sigil_image: Daenerys_HOTU_Petri_Hiltunen.jpg
 
 ## Identity
 
-House of the Undying servitor is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_of_the_Undying_servitor)

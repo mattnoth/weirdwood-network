@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Lord Wyl (conquest of Dorne) is a war from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Wyl (track_b: Title)

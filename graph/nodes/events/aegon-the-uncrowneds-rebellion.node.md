@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Aegon the Uncrowned's rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Battle Beneath the Gods Eye (track_b: Battles)

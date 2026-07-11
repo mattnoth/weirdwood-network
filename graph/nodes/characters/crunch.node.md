@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Crunch is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Penny (track_b: Owner)

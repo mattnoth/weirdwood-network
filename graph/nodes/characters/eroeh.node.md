@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Eroeh is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Lhazareen (track_b: Culture)

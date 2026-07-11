@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Rhoynish Wars is a war from the AWOIAF wiki.
-
 ## Edges
 
 

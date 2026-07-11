@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle of Three Armies is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Gardener (track_b: Result)

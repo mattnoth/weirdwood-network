@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Lodos the Twice-Drowned's revolt is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Iron Throne victory (track_b: Result)

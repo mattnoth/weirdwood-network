@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Timotty Snow is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Flint of Flint's Finger (track_b: Allegiances)

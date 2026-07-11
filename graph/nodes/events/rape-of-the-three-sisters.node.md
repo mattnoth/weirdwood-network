@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Rape of the Three Sisters is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: War Across the Water (track_b: Conflict)

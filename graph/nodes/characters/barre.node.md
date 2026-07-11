@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Barre is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Septon (track_b: Title)

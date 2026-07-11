@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blackwood Vale is a location from the AWOIAF wiki.
-
 ## Edges
 
 

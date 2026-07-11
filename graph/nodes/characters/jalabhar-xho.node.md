@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jalabhar Xho is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Prince (track_b: Title)

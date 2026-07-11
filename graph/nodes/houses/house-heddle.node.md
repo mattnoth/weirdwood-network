@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Heddle is a noble house from the AWOIAF wiki.
-
 ## Edges
 

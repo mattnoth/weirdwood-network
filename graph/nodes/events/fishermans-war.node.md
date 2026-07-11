@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Fisherman's War is a war from the AWOIAF wiki.
-
 ## Edges
 

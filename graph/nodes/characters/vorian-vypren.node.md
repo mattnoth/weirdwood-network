@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Vorian Vypren is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Vypren (track_b: Allegiance)

@@ -15,8 +15,6 @@ sigil_image: House_Garner.svg
 
 ## Identity
 
-House Garner is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three grey owls upon white plates on green (Vert, three plates, each charged with an owl cendrée) (wiki:House_Garner)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Roro Uhoris is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Cobblecat (track_b: Title)

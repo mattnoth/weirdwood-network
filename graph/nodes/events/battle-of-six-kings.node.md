@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle of Six Kings is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Durrandon (track_b: Result)

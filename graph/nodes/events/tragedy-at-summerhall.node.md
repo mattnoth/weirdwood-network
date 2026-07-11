@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tragedy at Summerhall is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

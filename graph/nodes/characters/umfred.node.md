@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Umfred is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Drearfort (track_b: Title)

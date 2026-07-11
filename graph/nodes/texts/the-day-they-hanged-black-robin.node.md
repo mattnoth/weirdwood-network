@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Day They Hanged Black Robin is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Janos Slynt is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Iron Gate (track_b: Titles) [formerly]

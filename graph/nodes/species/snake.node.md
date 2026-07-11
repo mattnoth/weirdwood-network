@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Snake is a species from the AWOIAF wiki.
-
 ## Edges
 
 

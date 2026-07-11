@@ -15,8 +15,6 @@ sigil_image: House_Herston.svg
 
 ## Identity
 
-House Herston is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A yellow rooster's head with red comb, within a white escutcheon, on red (Gules, on an escutcheon argent, a cock's head or, combed of the field) (wiki:House_Herston)

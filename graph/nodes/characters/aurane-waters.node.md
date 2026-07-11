@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Aurane Waters is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Grand admiral (track_b: Titles) [master of ships]

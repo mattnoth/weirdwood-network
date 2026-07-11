@@ -14,8 +14,6 @@ sigil_image: House_Vance_of_Atranta.svg
 
 ## Identity
 
-House Vance is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_Vance)

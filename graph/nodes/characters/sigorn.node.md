@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sigorn is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Magnar of Thenn (track_b: Title)

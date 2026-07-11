@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bhorash is a place.location from the AWOIAF wiki.
-
 ## Edges
 

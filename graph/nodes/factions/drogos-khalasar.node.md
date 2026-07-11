@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Drogo's khalasar is a faction from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

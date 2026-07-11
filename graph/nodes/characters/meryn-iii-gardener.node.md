@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Meryn III Gardener is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Reach (track_b: Title)

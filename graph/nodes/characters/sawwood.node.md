@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sawwood is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Night's Watch (track_b: Allegiance)

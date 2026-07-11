@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Steward of the Iron Islands is a title from the AWOIAF wiki.
-
 ## Edges
 

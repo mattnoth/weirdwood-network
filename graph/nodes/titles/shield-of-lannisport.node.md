@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Shield of Lannisport is a title from the AWOIAF wiki.
-
 ## Edges
 

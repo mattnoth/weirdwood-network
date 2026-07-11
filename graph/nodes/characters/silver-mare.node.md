@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Silver mare is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Daenerys Targaryen (track_b: Owner)

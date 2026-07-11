@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Lychester's keep is a location from the AWOIAF wiki.
-
 ## Edges
 
 

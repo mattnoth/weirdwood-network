@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Targaryen Conquest is a war from the AWOIAF wiki.
-
 ## Edges
 

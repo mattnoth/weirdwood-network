@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Battle in the Howling Hills is a battle/event from the AWOIAF wiki.
-
 ## Edges
 

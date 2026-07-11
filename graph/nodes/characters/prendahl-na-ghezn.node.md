@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Prendahl na Ghezn is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Stormcrows (track_b: Allegiance)

@@ -15,8 +15,6 @@ sigil_image: House_Blanetree.svg
 
 ## Identity
 
-House Blanetree is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Maple leaves, green and brown, strewn on a field of yellow (Or, semé of maple leaves vert and brunâtre) (wiki:House_Blanetree)

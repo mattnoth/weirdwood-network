@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Humfrey Waters is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Dragon Gate (track_b: Titles)

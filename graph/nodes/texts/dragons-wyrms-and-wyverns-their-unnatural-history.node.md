@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dragons, Wyrms, and Wyverns: Their Unnatural History is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

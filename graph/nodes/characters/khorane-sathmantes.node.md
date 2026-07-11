@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Khorane Sathmantes is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Shayala's Dance (track_b: Title)

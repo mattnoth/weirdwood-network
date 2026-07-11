@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Iron Victory is a artifact from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

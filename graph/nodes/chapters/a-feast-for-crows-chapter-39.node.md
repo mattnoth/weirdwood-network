@@ -16,8 +16,6 @@ pov_character: cersei-lannister
 
 ## Identity
 
-A Feast for Crows-Chapter 39 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

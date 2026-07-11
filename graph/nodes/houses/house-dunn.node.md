@@ -15,8 +15,6 @@ sigil_image: Dunn.png
 
 ## Identity
 
-House Dunn is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per pale black and pink, a countercharged two-headed pelican (Per pale sable and rose, a pelican bicapitated counterchanged) (wiki:House_Dunn)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rennifer Longwaters is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Chief undergaoler (track_b: Title)

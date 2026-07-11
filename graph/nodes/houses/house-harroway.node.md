@@ -15,8 +15,6 @@ sigil_image: House_Harroway.svg
 
 ## Identity
 
-House Harroway is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per bend sinister orange and sable rayonne, a castle countercharged (Per bend sinister rayonné tenné and sable, a castle counterchanged) (wiki:House_Harroway)

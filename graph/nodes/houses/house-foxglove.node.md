@@ -14,8 +14,6 @@ sigil: Unknown
 
 ## Identity
 
-House Foxglove is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Unknown (wiki:House_Foxglove)

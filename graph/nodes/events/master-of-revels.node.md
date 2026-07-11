@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Master of revels is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

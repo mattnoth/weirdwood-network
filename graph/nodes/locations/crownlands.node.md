@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Crownlands is a place.region from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

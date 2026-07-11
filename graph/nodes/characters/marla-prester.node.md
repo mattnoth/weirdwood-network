@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Marla Prester is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Prester (track_b: Allegiances)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Reign of King Viserys, First of His Name, and the Dance of the Dragons That Came After is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

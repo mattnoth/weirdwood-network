@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Haro is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Khal (track_b: Title)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sam Stoops is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Standfast (track_b: Title)

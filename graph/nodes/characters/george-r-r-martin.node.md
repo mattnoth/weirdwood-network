@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-George R. R. Martin is a character from the AWOIAF wiki.
-
 ## Edges
 
 - BORN_AT: September 20 (track_b: Born) [age: 77]

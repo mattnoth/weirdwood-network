@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Weddings of Catelyn and Lysa Tully is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

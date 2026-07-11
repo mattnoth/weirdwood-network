@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Xho is a organization.house from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Jalabhar Xho (track_b: Head) [exiled]

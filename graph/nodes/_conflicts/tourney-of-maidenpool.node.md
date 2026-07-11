@@ -14,7 +14,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tourney of Maidenpool is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

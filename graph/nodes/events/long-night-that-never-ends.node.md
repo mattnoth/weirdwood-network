@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Long night that never ends is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -16,8 +16,6 @@ pov_character: catelyn-tully
 
 ## Identity
 
-A Storm of Swords-Chapter 51 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

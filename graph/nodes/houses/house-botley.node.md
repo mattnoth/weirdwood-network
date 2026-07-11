@@ -15,8 +15,6 @@ sigil_image: House_Botley.svg
 
 ## Identity
 
-House Botley is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A shoal of silver fish on pale green (Vert semé of fishes argent) (wiki:House_Botley)

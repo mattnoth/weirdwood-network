@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blackpool is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Lord Slate (track_b: Ruler)

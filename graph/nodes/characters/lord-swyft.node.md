@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Swyft is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Cornfield (track_b: Title)

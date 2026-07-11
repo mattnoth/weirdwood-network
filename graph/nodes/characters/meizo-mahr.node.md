@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Meizo Mahr is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Salladhor Saan (track_b: Allegiance)

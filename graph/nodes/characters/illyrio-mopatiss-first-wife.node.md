@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Illyrio Mopatis's first wife is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Pentoshi (track_b: Culture)

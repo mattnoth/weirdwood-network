@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle of Bronzegate is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Coming of the Andals (track_b: Conflict)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Griffin's Roost is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Ronnet Connington (track_b: Ruler) [ACoK]

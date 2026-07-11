@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Garrison Fowler is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of Stone and Sky (track_b: Titles)

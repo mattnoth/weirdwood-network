@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bethany Redwyne is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Goldengrove (track_b: Title)

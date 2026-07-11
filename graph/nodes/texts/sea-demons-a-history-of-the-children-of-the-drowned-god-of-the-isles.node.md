@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sea Demons: A History of the Children of the Drowned God of the Isles is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Elyn Norridge is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Norridge (track_b: Allegiances)

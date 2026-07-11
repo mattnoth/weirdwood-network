@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Faith of the Seven is a religion/faith from the AWOIAF wiki.
-
 ## Edges
 
 

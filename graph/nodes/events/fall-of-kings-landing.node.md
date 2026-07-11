@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Fall of King's Landing is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Dance of the Dragons (track_b: Conflict)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mya Rivers is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - PARENT_OF (reverse): Aegon IV Targaryen (track_b: Father)

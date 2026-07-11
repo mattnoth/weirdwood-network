@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Becca is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - LOVER_OF: Robert Baratheon (track_b: Lover)

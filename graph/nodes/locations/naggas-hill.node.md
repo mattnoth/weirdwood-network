@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Naggas Hill is a location from the AWOIAF wiki.
-
 ## Appearances & Description
 
 > On the crown of the hill four-and-forty monstrous stone ribs rose from the earth like the trunks of great pale trees … as wide around as a dromond's mast and twice as tall. Nine wide steps had been hewn from the stony hilltop. Behind rose the howling hills of Old Wyk, with mountains in the distance black and cruel.

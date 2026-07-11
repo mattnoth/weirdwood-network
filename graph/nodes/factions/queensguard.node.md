@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Queensguard is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Queen of the Andals and the Rhoynar and the First Men (track_b: Allegiance)

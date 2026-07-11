@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Harvest feast (299) is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

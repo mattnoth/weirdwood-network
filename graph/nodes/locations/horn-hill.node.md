@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Horn Hill is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Randyll Tarly (track_b: Ruler)

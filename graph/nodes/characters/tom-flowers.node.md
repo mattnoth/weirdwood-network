@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tom Flowers is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Caswell (track_b: Allegiances)

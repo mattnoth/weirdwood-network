@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Donkey is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Meribald (track_b: Owner)

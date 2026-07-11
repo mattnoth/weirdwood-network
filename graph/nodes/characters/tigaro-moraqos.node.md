@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tigaro Moraqos is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Magister (track_b: Title)

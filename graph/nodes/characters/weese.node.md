@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Weese is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Understeward (track_b: Title)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Triumphs and Defeats is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

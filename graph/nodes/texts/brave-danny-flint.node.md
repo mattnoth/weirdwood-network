@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Brave Danny Flint is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

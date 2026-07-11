@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Fighting on the Khyzai Pass is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Targaryen campaign in Slaver's Bay (track_b: Conflict)

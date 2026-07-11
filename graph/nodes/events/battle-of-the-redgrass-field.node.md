@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Battle of the Redgrass Field is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: First Blackfyre Rebellion (track_b: Conflict)

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Fair Isle rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Ironborn (track_b: Result)

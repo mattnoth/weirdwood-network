@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Martial games is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

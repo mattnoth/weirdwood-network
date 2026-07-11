@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-War of the Ninepenny Kings is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Band of Nine (track_b: Result)

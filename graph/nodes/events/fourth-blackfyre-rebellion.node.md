@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Fourth Blackfyre Rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Battle of Wendwater Bridge (track_b: Battles)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Longtable is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Orton Merryweather (track_b: Ruler)

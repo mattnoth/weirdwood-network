@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Black stone is a species from the AWOIAF wiki.
-
 ## Edges
 

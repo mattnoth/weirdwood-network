@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sheepstealer is a dragon from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Nettles (track_b: Owner)

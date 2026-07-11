@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ironborn is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

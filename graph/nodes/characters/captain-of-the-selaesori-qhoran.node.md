@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Captain of the Selaesori Qhoran is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Selaesori Qhoran (track_b: Title)

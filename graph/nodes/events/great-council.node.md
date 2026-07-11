@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Great Council is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Kingswood Brotherhood is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Kingswood (track_b: Seat)

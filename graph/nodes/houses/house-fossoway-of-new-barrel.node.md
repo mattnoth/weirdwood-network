@@ -15,8 +15,6 @@ sigil_image: House_Fossoway_of_New_Barrel.svg
 
 ## Identity
 
-House Fossoway of New Barrel is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A green apple on gold (Or, an apple vert) (wiki:House_Fossoway_of_New_Barrel)

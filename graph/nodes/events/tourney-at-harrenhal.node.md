@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Tourney at Harrenhal is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

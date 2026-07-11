@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Sack of Tyrosh is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Archon of Tyrosh (track_b: Result)

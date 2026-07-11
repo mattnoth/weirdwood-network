@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Widow's Ford is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Andal invasion (track_b: Conflict)

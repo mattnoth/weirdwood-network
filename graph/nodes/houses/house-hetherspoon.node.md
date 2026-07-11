@@ -15,8 +15,6 @@ sigil_image: House_Hetherspoon.svg
 
 ## Identity
 
-House Hetherspoon is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 An oak spoon within a white cartouche on orange and black lozengy (Lozengy tenné and sable, on a cartouche argent an oak spoon proper) (wiki:House_Hetherspoon)

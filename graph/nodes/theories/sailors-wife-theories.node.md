@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sailor's Wife/Theories is a fan theory / interpretive framework from the AWOIAF wiki.
-
 ## Edges
 

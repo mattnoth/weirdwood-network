@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tourney for King Viserys I's accession is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

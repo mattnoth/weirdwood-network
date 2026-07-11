@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Four-Headed Beast is a character from the AWOIAF wiki.
-
 ## Edges
 
 

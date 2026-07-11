@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Lanny is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Lannisport (track_b: Seat)

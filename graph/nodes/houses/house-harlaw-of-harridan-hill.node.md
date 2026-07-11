@@ -15,8 +15,6 @@ sigil_image: House_Harlaw_of_Harridan_Hill.svg
 
 ## Identity
 
-House Harlaw of Harridan Hill is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver scythe on pale blue (Bleu celeste, a scythe argent) (wiki:House_Harlaw_of_Harridan_Hill)

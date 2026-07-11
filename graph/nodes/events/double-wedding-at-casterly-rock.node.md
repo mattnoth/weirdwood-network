@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Double wedding at Casterly Rock is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

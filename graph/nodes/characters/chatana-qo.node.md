@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Chatana Qo is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Sweet Lotus Vale (track_b: Title)

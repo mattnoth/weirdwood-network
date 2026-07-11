@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alarra Massey is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Driftmark (track_b: Title)

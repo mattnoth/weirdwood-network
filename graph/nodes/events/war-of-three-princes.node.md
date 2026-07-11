@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-War of Three Princes is a event.war from the AWOIAF wiki.
-
 ## Edges
 

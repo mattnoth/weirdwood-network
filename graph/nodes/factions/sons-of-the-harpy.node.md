@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sons of the Harpy is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Meereen (track_b: Region)

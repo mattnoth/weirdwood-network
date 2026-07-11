@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Caggo is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Windblown (track_b: Title)

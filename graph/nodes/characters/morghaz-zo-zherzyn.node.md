@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Morghaz zo Zherzyn is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Supreme Commander of the Armies and Allies of Yunkai (track_b: Title) [rotating title]

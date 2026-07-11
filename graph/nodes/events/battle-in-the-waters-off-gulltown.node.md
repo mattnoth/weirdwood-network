@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle in the waters off Gulltown is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Aegon's Conquest (track_b: Conflict)

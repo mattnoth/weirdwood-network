@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cheyk is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Black Ears (track_b: Allegiance)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Pearl-white emperors is a noble house from the AWOIAF wiki.
-
 ## Edges
 

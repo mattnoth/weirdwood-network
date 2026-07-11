@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Eastwatch-by-the-Sea is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

@@ -15,8 +15,6 @@ sigil_image: House_Foote.svg
 
 ## Identity
 
-House Foote is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A copper dagger across a black chevron on white (Argent, a chevron inverted sable, surmounted by a dagger copper) (wiki:House_Foote)

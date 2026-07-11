@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Poul Pemford is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Pemford (track_b: Allegiances)

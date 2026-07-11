@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Osric V Arryn is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of Mountain and Vale (track_b: Title)

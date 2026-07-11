@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bloodstone Emperor is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: High Priest (track_b: Titles)

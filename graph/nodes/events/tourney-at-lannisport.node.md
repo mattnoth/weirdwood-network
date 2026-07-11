@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Tourney at Lannisport is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

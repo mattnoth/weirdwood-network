@@ -14,8 +14,6 @@ sigil_image: None_%28Dorne%29.svg
 
 ## Identity
 
-House Wells is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_Wells)

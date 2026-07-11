@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Salt wife is a character from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

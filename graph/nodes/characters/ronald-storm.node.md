@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ronald Storm is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Connington (track_b: Allegiance)

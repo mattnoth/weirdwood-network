@@ -15,8 +15,6 @@ sigil_image: House_Cole.svg
 
 ## Identity
 
-House Cole is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Ten black pellets on scarlet (Gules, ten pellets) (wiki:House_Cole)

@@ -16,8 +16,6 @@ sigil_image: House_Farman.svg
 
 ## Identity
 
-House Farman is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three silver ships on blue, a border of crimson and gold (Azure, three galleys argent within a bordure compony gules and or) (wiki:House_Farman)

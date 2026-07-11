@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Zhea is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Jhattar (track_b: Title)

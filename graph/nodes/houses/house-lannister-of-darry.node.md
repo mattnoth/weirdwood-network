@@ -15,8 +15,6 @@ sigil_image: House_Lannister_of_Darry.svg
 
 ## Identity
 
-House Lannister of Darry is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Quarterly clockwise, a gold lion on a crimson field; a black plowman on a brown field (Quarterly, first and third gules, a lion or, second and fourth brunâtre, a plowman sable) (wiki:House_Lannister_of_Darry)

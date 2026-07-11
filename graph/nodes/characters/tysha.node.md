@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tysha is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Westermen (track_b: Culture)

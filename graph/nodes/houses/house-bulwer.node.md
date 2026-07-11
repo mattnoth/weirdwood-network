@@ -16,8 +16,6 @@ sigil_image: House_Bulwer.svg
 
 ## Identity
 
-House Bulwer is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A bull's skull, bone on blood (Sanguine, a bull's skull argent) (wiki:House_Bulwer)

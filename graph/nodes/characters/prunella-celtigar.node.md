@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Prunella Celtigar is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Starpike (track_b: Title)

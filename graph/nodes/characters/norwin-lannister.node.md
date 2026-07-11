@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Norwin Lannister is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Rock (track_b: Title)

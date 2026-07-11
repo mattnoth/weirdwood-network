@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Band of Nine is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Free Cities (track_b: Region)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Church of Starry Wisdom is a religion/faith from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ryamsport is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Paxter Redwyne (track_b: Ruler)

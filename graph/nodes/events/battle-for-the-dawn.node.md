@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle for the Dawn is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: The Long Night (track_b: Conflict)

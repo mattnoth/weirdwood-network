@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady Piper (wife of Quellon Greyjoy) is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Pyke (track_b: Title)

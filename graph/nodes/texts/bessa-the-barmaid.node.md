@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bessa the Barmaid is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

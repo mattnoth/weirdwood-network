@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Old John Mudd is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Golden Company (track_b: Allegiance)

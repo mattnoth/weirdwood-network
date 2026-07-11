@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Lord Steffon's tourney is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

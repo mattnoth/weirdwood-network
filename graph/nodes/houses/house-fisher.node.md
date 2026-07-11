@@ -15,8 +15,6 @@ sigil_image: House_Fisher.svg
 
 ## Identity
 
-House Fisher is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A crowned catfish, spotted grey, on blue (Azure, a catfish cendrée, crowned or) (wiki:House_Fisher)

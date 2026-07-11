@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Joy Penrose is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Penrose (track_b: Allegiance)

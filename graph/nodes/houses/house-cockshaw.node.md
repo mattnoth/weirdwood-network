@@ -15,8 +15,6 @@ sigil_image: House_Cockshaw.svg
 
 ## Identity
 
-House Cockshaw is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three feathers, red, white and gold, on black (Sable, three feathers in fess gules argent and or) (wiki:House_Cockshaw)

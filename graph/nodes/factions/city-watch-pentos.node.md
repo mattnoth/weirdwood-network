@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City watch (Pentos) is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Pentos (track_b: Region)

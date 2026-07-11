@@ -16,8 +16,6 @@ pov_character: theon-greyjoy
 
 ## Identity
 
-A Dance with Dragons-Chapter 51 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

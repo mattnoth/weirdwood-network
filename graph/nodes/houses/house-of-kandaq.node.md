@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House of Kandaq is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Meereen (track_b: Seat)

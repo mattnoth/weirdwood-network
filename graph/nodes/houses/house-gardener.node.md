@@ -15,8 +15,6 @@ sigil_image: House_Gardener.svg
 
 ## Identity
 
-House Gardener is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A green hand on white (Argent, a hand vert) (wiki:House_Gardener)

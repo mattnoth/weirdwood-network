@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-R'hllor is a organization.religion from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

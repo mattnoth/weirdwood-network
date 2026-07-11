@@ -15,8 +15,6 @@ sigil_image: House_Sunglass.svg
 
 ## Identity
 
-House Sunglass is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Seven golden seven-pointed stars in a ring on white (Argent, seven mullets of seven points or) (wiki:House_Sunglass)

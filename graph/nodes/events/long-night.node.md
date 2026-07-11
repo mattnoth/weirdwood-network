@@ -25,8 +25,6 @@ sort_keys:
 
 ## Identity
 
-Long Night is a war from the AWOIAF wiki.
-
 ## Edges
 
 

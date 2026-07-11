@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle of the Seven Stars is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Andal invasion (track_b: Conflict)

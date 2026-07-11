@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Viserion is a character.dragon from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Daenerys Targaryen (track_b: Owner)

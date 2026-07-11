@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Rhaena Targaryen and Androw Farman is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

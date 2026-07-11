@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Harpy is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Sons of the Harpy (track_b: Allegiance)

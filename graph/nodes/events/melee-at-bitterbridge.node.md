@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Melee at Bitterbridge is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

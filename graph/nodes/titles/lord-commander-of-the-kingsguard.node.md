@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Commander of the Kingsguard is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Seven Kingdoms (track_b: Region)

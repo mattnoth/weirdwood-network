@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Fletcher Will is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Riverlands (track_b: Died)

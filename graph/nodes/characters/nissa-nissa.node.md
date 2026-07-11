@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Nissa Nissa is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SPOUSE_OF: Azor Ahai (track_b: Spouse)

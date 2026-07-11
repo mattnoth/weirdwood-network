@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sybell Spicer is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Crag (track_b: Title)

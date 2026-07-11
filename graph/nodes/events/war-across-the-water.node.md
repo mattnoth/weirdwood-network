@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-War Across the Water is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Rape of the Three Sisters (track_b: Battles)

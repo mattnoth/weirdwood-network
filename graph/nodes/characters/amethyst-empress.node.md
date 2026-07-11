@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Amethyst Empress is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: God-Empress (track_b: Titles)

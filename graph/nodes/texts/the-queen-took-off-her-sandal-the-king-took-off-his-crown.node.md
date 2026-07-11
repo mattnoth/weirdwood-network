@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Queen Took Off Her Sandal, the King Took Off His Crown is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

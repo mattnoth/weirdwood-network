@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ten Towers is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Rodrik Harlaw (track_b: Ruler)

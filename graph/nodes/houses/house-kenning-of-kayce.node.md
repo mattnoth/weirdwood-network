@@ -15,8 +15,6 @@ sigil_image: House_Kenning_of_Kayce.svg
 
 ## Identity
 
-House Kenning of Kayce is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Four sunbursts countercharged on quartered orange and black (Quarterly tenné and sable, four suns-in-splendour counterchanged) (wiki:House_Kenning_of_Kayce)

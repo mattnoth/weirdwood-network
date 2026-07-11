@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Deepwood Motte is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Galbart Glover (track_b: Ruler)

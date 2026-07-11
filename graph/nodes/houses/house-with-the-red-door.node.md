@@ -14,8 +14,6 @@ sigil_image: Kristinacarroll_The_House_with_the_Red_Door.png
 
 ## Identity
 
-House with the red door is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_with_the_red_door)

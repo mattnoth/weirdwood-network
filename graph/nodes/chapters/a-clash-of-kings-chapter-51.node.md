@@ -16,8 +16,6 @@ pov_character: jon-snow
 
 ## Identity
 
-A Clash of Kings-Chapter 51 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Queen of the Andals and the Rhoynar and the First Men is a title from the AWOIAF wiki.
-
 ## Edges
 

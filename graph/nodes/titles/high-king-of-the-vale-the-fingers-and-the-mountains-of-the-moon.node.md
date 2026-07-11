@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-High King of the Vale, the Fingers, and the Mountains of the Moon is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Vale (track_b: Region)

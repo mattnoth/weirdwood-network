@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Casso Mogat is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Merry Midwife (track_b: Title)

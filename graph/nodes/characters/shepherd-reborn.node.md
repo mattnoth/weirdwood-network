@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Shepherd reborn is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Faith of the Seven (track_b: Allegiance)

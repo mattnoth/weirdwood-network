@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Captain of the River Arrow is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: River Arrow (track_b: Title)

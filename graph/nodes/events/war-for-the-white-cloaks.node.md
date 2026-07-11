@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-War for the White Cloaks is a war from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,7 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Reek is a character.human from the AWOIAF wiki.
 
 > **Cross-identity note (the three Reeks — S149).** This node is **Reek (I)**, the original Bolton
 > servant (Ramsay's stinking tutor-in-cruelty, died 299 AC). The name "Reek" passes to two others and

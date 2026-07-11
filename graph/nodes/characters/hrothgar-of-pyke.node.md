@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hrothgar of Pyke is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - BORN_AT: Pyke (track_b: Born) [Age of Heroes]

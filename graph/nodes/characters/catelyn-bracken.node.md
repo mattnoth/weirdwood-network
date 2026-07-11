@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Catelyn Bracken is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Bracken (track_b: Allegiance)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Thunderclap is a species from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Robert Baratheon (track_b: Owner)

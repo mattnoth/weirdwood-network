@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-The Song Of Ice And Fire is a prophecy from the AWOIAF wiki.
-
 ## Edges
 

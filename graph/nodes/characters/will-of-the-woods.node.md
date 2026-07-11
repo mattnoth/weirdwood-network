@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Will of the Woods is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Will of the Woods (track_b: Title)

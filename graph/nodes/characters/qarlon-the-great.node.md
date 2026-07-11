@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Qarlon the Great is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of All Andals (track_b: Title)

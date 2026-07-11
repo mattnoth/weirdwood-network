@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady Fell is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lady of Felwood (track_b: Title)

@@ -15,8 +15,6 @@ sigil_image: House_Ruttiger.svg
 
 ## Identity
 
-House Ruttiger is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 An orange bend engrailed on black (Sable, a bend tenné engrailed) (wiki:House_Ruttiger)

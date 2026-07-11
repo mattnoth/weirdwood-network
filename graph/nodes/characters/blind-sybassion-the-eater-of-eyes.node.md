@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blind Sybassion the Eater of Eyes is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Qarth (track_b: Culture)

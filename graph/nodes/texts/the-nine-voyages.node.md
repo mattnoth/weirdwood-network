@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Nine Voyages is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

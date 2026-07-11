@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dragonkin, Being a History of House Targaryen from Exile to Apotheosis, with a Consideration of the Life and Death of Dragons is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

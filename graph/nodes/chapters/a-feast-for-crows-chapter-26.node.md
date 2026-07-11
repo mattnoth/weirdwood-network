@@ -16,8 +16,6 @@ pov_character: samwell-tarly
 
 ## Identity
 
-A Feast for Crows-Chapter 26 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

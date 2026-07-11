@@ -16,8 +16,6 @@ pov_character: daenerys-targaryen
 
 ## Identity
 
-A Storm of Swords-Chapter 42 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

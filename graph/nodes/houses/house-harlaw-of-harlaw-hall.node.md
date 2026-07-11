@@ -15,8 +15,6 @@ sigil_image: House_Harlaw_of_Harlaw_Hall.svg
 
 ## Identity
 
-House Harlaw of Harlaw Hall is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per bend black and silver, two scythes countercharged (Per bend sable and argent, two scythes counterchanged) (wiki:House_Harlaw_of_Harlaw_Hall)

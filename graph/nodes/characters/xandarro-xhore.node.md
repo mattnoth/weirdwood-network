@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Xandarro Xhore is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Qartheen (track_b: Culture)

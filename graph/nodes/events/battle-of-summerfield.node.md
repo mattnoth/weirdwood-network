@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle of Summerfield is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Durrandon (track_b: Result)

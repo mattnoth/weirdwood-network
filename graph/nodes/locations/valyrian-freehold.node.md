@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Valyrian Freehold is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Archons (track_b: Ruler)

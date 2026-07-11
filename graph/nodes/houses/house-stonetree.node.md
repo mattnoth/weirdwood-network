@@ -15,8 +15,6 @@ sigil_image: House_Stonetree_2.svg
 
 ## Identity
 
-House Stonetree is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A bare stone tree, grey on black (Sable, a stone tree blasted cendrée) (wiki:House_Stonetree)

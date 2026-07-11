@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Good Masters is a title from the AWOIAF wiki.
-
 ## Edges
 
 

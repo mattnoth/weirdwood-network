@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ghosts is a species from the AWOIAF wiki.
-
 ## Edges
 
 

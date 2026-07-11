@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rat Cook is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Night's Watch (track_b: Allegiance)

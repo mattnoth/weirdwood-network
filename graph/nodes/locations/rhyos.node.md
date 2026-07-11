@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rhyos is a location from the AWOIAF wiki.
-
 ## Edges
 

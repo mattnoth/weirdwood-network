@@ -16,8 +16,6 @@ pov_character: jon-snow
 
 ## Identity
 
-A Dance with Dragons-Chapter 53 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Knight of the Laughing Tree is a character from the AWOIAF wiki.
-
 ## Edges
 
 

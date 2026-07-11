@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Warg King is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Warg King (track_b: Title)

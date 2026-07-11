@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Lysene Spring is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

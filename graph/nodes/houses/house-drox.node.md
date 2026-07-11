@@ -15,8 +15,6 @@ sigil_image: House_Drox.svg
 
 ## Identity
 
-House Drox is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 3 black crossbows, on gold, a black border (Or, three crossbows sable within a bordure of the last) (wiki:House_Drox)

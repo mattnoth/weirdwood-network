@@ -15,8 +15,6 @@ sigil_image: House_Burley.svg
 
 ## Identity
 
-House Burley is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white knife in a blue pile on white (Argent, on a pile azure a knife of the field) (wiki:House_Burley)

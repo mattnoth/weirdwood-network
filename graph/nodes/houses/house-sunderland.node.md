@@ -15,8 +15,6 @@ sigil_image: House_Sunderland.svg
 
 ## Identity
 
-House Sunderland is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three women's heads, white with black hair, on blue and green undy (Barry wavy azure and vert, three women's heads argents, crined sable) (wiki:House_Sunderland)

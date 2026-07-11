@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Doshi is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Dothraki (track_b: Race)

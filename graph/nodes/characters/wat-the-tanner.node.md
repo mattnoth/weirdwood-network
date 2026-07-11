@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wat the Tanner is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Crownlands (track_b: Culture)

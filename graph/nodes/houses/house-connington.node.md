@@ -15,8 +15,6 @@ sigil_image: House_Connington.svg
 
 ## Identity
 
-House Connington is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Two griffins combatent countercharged on red and white (Per pale gules and argent, two griffins combatant counterchanged) (wiki:House_Connington)

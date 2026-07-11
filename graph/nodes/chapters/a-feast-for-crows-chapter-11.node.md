@@ -16,8 +16,6 @@ pov_character: asha-greyjoy
 
 ## Identity
 
-A Feast for Crows-Chapter 11 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

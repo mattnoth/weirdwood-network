@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rain is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Rohanne Webber (track_b: Owners)

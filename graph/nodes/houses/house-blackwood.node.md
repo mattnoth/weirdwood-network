@@ -15,8 +15,6 @@ sigil_image: House_Blackwood.svg
 
 ## Identity
 
-House Blackwood is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A flock of ravens on scarlet surrounding a dead weirwood upon a black escutcheon (Gules, on an escutcheon sable a dead weirwood tree proper, all within an orle of ravens sable) (wiki:House_Blackwood)

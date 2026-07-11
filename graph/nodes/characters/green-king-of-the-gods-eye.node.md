@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Green King of the Gods Eye is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King (track_b: Title)

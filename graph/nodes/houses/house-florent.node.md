@@ -15,8 +15,6 @@ sigil_image: House_Florent.svg
 
 ## Identity
 
-House Florent is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A red fox in a circle of blue flowers on ermine (Ermine, a fox gules within an annulet of flowers azure) (wiki:House_Florent)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Flea Bottom is a location from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

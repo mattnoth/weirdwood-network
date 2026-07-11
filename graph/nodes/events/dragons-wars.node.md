@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Dragon's wars is a war from the AWOIAF wiki.
-
 ## Edges
 

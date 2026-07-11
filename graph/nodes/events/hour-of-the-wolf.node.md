@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Hour of the Wolf is a event.incident from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Dance of the Dragons (track_b: Conflict)

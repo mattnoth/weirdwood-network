@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Drogon is a character from the AWOIAF wiki.
-
 ## Edges
 
 ## Appearances & Description

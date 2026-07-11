@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mathis Rowan's daughter is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Rowan (track_b: Allegiance)

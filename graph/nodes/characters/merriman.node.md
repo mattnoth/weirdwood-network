@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Merriman is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Riverlands (track_b: Culture)

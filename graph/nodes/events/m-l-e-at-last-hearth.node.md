@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Mêlée at Last Hearth is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

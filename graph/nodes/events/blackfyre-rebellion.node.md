@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Blackfyre Rebellion is a war from the AWOIAF wiki.
-
 ## Edges
 

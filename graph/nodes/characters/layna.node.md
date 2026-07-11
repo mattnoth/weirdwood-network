@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Layna is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Westeros (track_b: Culture)

@@ -16,8 +16,6 @@ pov_character: varamyr-sixskins
 
 ## Identity
 
-A Dance with Dragons-Prologue is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

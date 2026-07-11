@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Falyse Stokeworth is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Stokeworth (track_b: Allegiances)

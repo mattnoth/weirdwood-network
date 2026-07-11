@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Unmasking of Uthero is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

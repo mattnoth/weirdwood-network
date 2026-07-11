@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady of the Golden Tooth is a title from the AWOIAF wiki.
-
 ## Edges
 

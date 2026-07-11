@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Century of Blood is a war from the AWOIAF wiki.
-
 ## Edges
 
 

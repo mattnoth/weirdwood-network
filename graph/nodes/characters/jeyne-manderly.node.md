@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jeyne Manderly is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Manderly (track_b: Allegiances)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Let Me Drink Your Beauty is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

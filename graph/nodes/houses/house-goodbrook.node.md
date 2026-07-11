@@ -15,8 +15,6 @@ sigil_image: House_Goodbrook.svg
 
 ## Identity
 
-House Goodbrook is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A blue wavy bend on gold (Or, a bend wavy azure) (wiki:House_Goodbrook)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Argos Sevenstar is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Andals (track_b: Culture)

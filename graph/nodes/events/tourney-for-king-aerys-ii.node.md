@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Tourney for King Aerys II is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

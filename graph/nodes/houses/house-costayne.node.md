@@ -15,8 +15,6 @@ sigil_image: House_Costayne.svg
 
 ## Identity
 
-House Costayne is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Quartered clockwise: a silver chalice on black, a black rose on yellow (Quarterly, first and third sable, a chalice argent, second and fourth or, a rose of the first) (wiki:House_Costayne)

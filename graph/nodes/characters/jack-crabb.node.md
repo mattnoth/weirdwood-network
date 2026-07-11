@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jack Crabb is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Crabb (track_b: Allegiances)

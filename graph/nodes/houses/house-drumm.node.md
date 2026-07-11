@@ -15,8 +15,6 @@ sigil_image: House_Drumm.svg
 
 ## Identity
 
-House Drumm is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A bone hand, white on red (Gules, a bone hand argent) (wiki:House_Drumm)

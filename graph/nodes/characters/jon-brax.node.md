@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jon Brax is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Brax (track_b: Allegiance)

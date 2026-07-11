@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Tourney of the Field of Roses is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

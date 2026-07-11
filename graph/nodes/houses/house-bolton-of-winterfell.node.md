@@ -16,8 +16,6 @@ sigil_image: House_Bolton.svg
 
 ## Identity
 
-House Bolton of Winterfell is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A red flayed man on pink de sang (wiki:House_Bolton_of_Winterfell)

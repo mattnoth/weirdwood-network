@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sothoryos is a region from the AWOIAF wiki.
-
 ## Edges
 
 

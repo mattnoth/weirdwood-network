@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tourney at King's Landing on the anniversary of the king's coronation is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

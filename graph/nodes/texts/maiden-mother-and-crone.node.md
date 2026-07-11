@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maiden, Mother, and Crone is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

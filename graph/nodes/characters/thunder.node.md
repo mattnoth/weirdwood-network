@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Thunder is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Arlan of Pennytree (track_b: Owners)

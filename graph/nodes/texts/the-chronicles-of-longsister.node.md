@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Chronicles of Longsister is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

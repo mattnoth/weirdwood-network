@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Archon's green-haired daughter is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Archon of Tyrosh (track_b: Allegiance)

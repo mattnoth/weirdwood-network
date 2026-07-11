@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Marshall of the Northmarch is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

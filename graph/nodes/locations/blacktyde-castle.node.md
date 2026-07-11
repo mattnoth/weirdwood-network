@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blacktyde (castle) is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Baelor Blacktyde (track_b: Ruler) [ACOK]

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House of the Red Hands is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 

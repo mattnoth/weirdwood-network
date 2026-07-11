@@ -16,8 +16,6 @@ pov_character: merrett-frey
 
 ## Identity
 
-A Storm of Swords-Epilogue is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

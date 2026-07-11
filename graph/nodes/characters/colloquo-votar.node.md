@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Colloquo Votar is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Volantene (track_b: Culture)

@@ -15,8 +15,6 @@ sigil_image: House_Norrey.svg
 
 ## Identity
 
-House Norrey is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Six green thistles, 3-2-1, on yellow (Or, six thistles 3-2-1 vert) (wiki:House_Norrey)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Orange emperors is a noble house from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Master of the Skahazadhan is a title from the AWOIAF wiki.
-
 ## Edges
 
 

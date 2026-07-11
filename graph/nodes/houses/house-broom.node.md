@@ -15,8 +15,6 @@ sigil_image: House_Broom.svg
 
 ## Identity
 
-House Broom is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver helm crested with a sprig of broom on black and green checks (Chequy sable and vert, a helm argent, crested with a sprig of broom proper) (wiki:House_Broom)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Boremund Harlaw is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Master of Harridan Hill (track_b: Title)

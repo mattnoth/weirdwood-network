@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-War on Dagger Lake is a event.war from the AWOIAF wiki.
-
 ## Edges
 

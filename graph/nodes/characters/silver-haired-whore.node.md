@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Silver-haired whore is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Selhorys (track_b: Culture)

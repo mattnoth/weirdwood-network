@@ -15,8 +15,6 @@ sigil_image: House_Kellington.svg
 
 ## Identity
 
-House Kellington is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black book bound in bronze, locked, upon a pale blue field (Bleu celeste, a book sable clasped and garnished bronze) (wiki:House_Kellington)

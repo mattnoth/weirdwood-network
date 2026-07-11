@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dragon that died in the Red Waste is a character.dragon from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

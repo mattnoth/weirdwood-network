@@ -15,8 +15,6 @@ sigil_image: House_Crowl.svg
 
 ## Identity
 
-House Crowl is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Ply flame and black (Pily gules and sable) (wiki:House_Crowl)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Glory of Volantis is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

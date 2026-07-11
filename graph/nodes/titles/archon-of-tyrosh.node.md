@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Archon of Tyrosh is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

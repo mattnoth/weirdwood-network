@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-A Rose of Gold is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Karhold is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Rickard Karstark (track_b: Ruler) [AGoT]

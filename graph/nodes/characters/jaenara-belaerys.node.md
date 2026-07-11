@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jaenara Belaerys is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Belaerys family (track_b: Allegiance)

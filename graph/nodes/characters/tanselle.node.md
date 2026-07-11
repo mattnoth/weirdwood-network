@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tanselle is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Dornishmen (track_b: Culture)

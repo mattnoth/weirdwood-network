@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Denyse Hightower is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Hightower (track_b: Allegiances)

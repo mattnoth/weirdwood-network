@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-King of the Bees is a species from the AWOIAF wiki.
-
 ## Edges
 
 

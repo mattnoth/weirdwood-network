@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Keeper of the Long List is a title from the AWOIAF wiki.
-
 ## Edges
 

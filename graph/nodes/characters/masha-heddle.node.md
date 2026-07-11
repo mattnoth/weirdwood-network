@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Masha Heddle is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Heddle family (track_b: Allegiance)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jate Blackberry is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Dragonstone (track_b: Title)

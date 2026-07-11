@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ferrego Antaryon is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Sealord of Braavos (track_b: Title)

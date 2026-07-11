@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Third Blackfyre Rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Haegon I Blackfyre (track_b: Result)

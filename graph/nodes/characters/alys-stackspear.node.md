@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Alys Stackspear is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Stackspear (track_b: Allegiances)

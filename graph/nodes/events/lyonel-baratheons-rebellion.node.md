@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Lyonel Baratheon's rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Duncan Targaryen (track_b: Result)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Heron is a food or drink from the AWOIAF wiki.
-
 ## Edges
 
 

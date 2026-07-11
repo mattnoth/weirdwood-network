@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady Whiskers is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Tommen I Baratheon (track_b: Owner)

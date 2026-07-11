@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gardens of Gelenei is a location from the AWOIAF wiki.
-
 ## Edges
 

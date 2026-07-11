@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-First Turtle War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Sar Mell (track_b: Result)

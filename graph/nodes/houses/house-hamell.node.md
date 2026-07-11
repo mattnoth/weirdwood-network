@@ -15,8 +15,6 @@ sigil_image: House_Hamell.svg
 
 ## Identity
 
-House Hamell is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 An erminois maunch on pink, an erminois border (Rose, a maunch erminois within a bordure of the last) (wiki:House_Hamell)

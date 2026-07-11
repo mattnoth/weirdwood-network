@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blackwood is a character from the AWOIAF wiki.
-
 ## Edges
 

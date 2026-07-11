@@ -15,8 +15,6 @@ sigil_image: House_Brax.svg
 
 ## Identity
 
-House Brax is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A purple unicorn on silver (Argent, a unicorn purpure) (wiki:House_Brax)

@@ -16,8 +16,6 @@ pov_character: brienne-of-tarth
 
 ## Identity
 
-A Feast for Crows-Chapter 4 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Breaking is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

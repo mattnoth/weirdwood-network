@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Thousand Years War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: House Stark (track_b: Result)

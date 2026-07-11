@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bryndemere Tarth is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Evenstar (track_b: Titles)

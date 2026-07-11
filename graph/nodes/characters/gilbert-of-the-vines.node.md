@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gilbert of the Vines is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Redwyne (track_b: Allegiance)

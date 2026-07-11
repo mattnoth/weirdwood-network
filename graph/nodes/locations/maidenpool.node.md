@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maidenpool is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: William Mooton (track_b: Ruler)

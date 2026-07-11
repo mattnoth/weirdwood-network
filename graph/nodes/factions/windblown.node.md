@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Windblown is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - FOUNDED: Tattered Prince (track_b: Founder)

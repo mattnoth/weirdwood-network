@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lysono Maar is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Spymaster (track_b: Title)

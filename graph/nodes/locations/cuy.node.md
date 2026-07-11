@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cuy is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Branston Cuy (track_b: Ruler)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Seagard is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Jason Mallister (track_b: Ruler)

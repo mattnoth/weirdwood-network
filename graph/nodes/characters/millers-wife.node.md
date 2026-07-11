@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Miller's wife is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Bolton (track_b: Allegiance)

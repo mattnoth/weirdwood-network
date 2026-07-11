@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Westwatch-by-the-Bridge is a location from the AWOIAF wiki.
-
 ## Edges
 
 

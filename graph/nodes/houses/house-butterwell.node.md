@@ -15,8 +15,6 @@ sigil_image: House_Butterwell.svg
 
 ## Identity
 
-House Butterwell is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Undy green, white, and yellow (Barry wavy vert, argent, and or) (wiki:House_Butterwell)

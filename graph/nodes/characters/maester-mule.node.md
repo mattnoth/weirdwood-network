@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maester (mule) is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Duncan the Tall (track_b: Owner)

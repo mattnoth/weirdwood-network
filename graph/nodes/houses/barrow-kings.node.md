@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Barrow Kings is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 

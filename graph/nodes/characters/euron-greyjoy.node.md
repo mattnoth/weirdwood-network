@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Euron Greyjoy is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Silence (track_b: Titles)

@@ -16,8 +16,6 @@ pov_character: victarion-greyjoy
 
 ## Identity
 
-A Dance with Dragons-Chapter 63 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

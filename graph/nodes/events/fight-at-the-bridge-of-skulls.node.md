@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Fight at the Bridge of Skulls is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Conflict Beyond the Wall (track_b: Conflict)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Stormbreakers is an organization/faction from the AWOIAF wiki.
-
 ## Edges
 
 

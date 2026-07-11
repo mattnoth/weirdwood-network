@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maude is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Ramsay Bolton (track_b: Owner)

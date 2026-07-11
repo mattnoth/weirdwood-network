@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ragged Ralf is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - BORN_AT: Old Wyk (track_b: Born) [Age of Heroes]

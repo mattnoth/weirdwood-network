@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-God-on-Earth is a religion/faith from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: God-Emperor (track_b: Title)

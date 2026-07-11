@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lia Serry is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Serry (track_b: Allegiances)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dale Drumm is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Drumm (track_b: Allegiance)

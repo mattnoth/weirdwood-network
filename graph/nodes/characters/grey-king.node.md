@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Grey King is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Drowned God (track_b: Died) [alleged]

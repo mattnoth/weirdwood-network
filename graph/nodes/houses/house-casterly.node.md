@@ -14,8 +14,6 @@ sigil: Unknown, but lion(s) are part of it
 
 ## Identity
 
-House Casterly is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Unknown, but lion(s) are part of it (wiki:House_Casterly)

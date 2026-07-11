@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Spotted dog is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Weese (track_b: Owner)

@@ -15,8 +15,6 @@ sigil_image: House_Flint_of_Flint%27s_Finger.svg
 
 ## Identity
 
-House Flint of Flint's Finger is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A grey stone hand upon a white inverted pall on paly black and grey (Paly sable and cendrée on a pall inverted argent a hand couped of the second) (wiki:House_Flint_of_Flint's_Finger)

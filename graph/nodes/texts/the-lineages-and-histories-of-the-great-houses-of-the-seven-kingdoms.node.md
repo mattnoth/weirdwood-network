@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Lineages and Histories of the Great Houses of the Seven Kingdoms is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

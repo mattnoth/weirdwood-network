@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ghost of High Heart is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Rivermen (track_b: Culture)

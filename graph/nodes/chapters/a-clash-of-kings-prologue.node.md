@@ -16,8 +16,6 @@ pov_character: maester-cressen
 
 ## Identity
 
-A Clash of Kings-Prologue is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

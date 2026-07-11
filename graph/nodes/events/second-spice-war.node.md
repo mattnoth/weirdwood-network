@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Second Spice War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Rhoynish Wars (track_b: Conflict)

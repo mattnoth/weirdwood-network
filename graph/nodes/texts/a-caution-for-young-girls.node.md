@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-A Caution for Young Girls is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

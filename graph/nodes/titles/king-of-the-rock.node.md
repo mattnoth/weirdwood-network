@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-King of the Rock is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

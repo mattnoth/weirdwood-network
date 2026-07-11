@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Hair shirt is a material from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

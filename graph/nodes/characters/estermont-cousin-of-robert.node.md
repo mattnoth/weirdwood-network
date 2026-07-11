@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Estermont (cousin of Robert) is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Estermont (track_b: Allegiance)

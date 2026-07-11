@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sow's Horn is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - WORSHIPS: Faith of the Seven (track_b: Religion)

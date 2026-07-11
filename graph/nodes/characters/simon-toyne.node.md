@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Simon Toyne is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Toyne (track_b: Allegiances)

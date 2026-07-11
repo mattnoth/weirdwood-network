@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-High Priest (Church of Starry Wisdom) is a title from the AWOIAF wiki.
-
 ## Edges
 
 

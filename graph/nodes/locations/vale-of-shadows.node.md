@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Vale of Shadows is a location from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Free Company (sellsword company) is an organization/faction from the AWOIAF wiki.
-
 ## Edges
 
 

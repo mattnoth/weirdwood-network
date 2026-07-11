@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Oswell Kettleblack is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Kettleblack (track_b: Allegiances)

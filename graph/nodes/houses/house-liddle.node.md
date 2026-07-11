@@ -15,8 +15,6 @@ sigil_image: House_Liddle.svg
 
 ## Identity
 
-House Liddle is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per pale white and green, a fir tree line between, three brown pinecones on the white (Per pale sapiné argent and vert, in dexter three pinecones brunâtre) (wiki:House_Liddle)

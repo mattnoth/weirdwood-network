@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Raventree Hall is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Tytos Blackwood (track_b: Ruler)

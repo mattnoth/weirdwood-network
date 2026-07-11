@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Three Thousand of Qohor is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Qohorik victory (track_b: Result)

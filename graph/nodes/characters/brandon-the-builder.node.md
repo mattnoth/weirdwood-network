@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Brandon the Builder is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of Winter (track_b: Title) [possibly]

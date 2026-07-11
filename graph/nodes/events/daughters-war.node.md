@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Daughters' War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Royal fleet (track_b: Result)

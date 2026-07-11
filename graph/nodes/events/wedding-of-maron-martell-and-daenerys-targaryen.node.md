@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Maron Martell and Daenerys Targaryen is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

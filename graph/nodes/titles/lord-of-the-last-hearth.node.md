@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of the Last Hearth is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

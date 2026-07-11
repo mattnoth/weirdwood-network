@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Breaker of Shackles is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Quotes

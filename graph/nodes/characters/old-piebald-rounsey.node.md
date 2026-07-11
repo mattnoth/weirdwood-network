@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Old piebald rounsey is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Podrick Payne (track_b: Owner)

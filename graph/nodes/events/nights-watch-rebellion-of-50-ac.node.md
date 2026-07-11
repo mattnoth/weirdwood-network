@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Night's Watch rebellion of 50 AC is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Faith Militant uprising (track_b: Conflict)

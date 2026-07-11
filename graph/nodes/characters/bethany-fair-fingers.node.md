@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Bethany Fair Fingers is a human from the AWOIAF wiki.
-
 ## Edges
 

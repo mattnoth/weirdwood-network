@@ -16,8 +16,6 @@ pov_character: quentyn-martell
 
 ## Identity
 
-A Dance with Dragons-Chapter 25 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

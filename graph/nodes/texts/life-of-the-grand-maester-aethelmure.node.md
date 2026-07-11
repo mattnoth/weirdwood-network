@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Life of the Grand Maester Aethelmure is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

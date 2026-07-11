@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Harren the Red's rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: House Qoherys (track_b: Result)

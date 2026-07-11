@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lion of Night is a religion or divine entity from the AWOIAF wiki.
-
 ## Edges
 
 ## Culture

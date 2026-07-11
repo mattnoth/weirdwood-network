@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Spearwife is a culture from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

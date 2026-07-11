@@ -16,8 +16,6 @@ pov_character: jon-connington
 
 ## Identity
 
-A Dance with Dragons-Chapter 24 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Duran is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Unsullied (track_b: Allegiance)

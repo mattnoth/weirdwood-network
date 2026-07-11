@@ -15,8 +15,6 @@ sigil_image: House_Polander.svg
 
 ## Identity
 
-House Polander is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per bend sinister, three red hearts and three gold lions on white, a broken sword silver on purple (Per bend sinister white and purpure, three lions or each clutching a heart gules, a broken sword silver) (wiki:House_Polander)

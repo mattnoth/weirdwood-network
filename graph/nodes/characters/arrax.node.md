@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Arrax is a character.dragon from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Shipbreaker Bay (track_b: Died) [129 AC]

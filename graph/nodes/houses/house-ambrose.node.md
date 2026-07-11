@@ -16,8 +16,6 @@ sigil_image: House_Ambrose.svg
 
 ## Identity
 
-House Ambrose is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A yellow field strewn with red ants (Or, semé of ants gules) (wiki:House_Ambrose)

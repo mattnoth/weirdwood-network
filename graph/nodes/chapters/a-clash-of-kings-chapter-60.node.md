@@ -16,8 +16,6 @@ pov_character: sansa-stark
 
 ## Identity
 
-A Clash of Kings-Chapter 60 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-War of the Five Kings is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Golden Company (track_b: Result)

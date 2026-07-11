@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Ashford Tourney is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-True Account of Addam of Duskendale's Journeys is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

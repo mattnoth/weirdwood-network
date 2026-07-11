@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Hunt of the Poor Fellows is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Faith Militant uprising (track_b: Conflict)

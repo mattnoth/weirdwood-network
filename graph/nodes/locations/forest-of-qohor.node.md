@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Forest of Qohor is a location from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -15,8 +15,6 @@ sigil_image: House_Justman.svg
 
 ## Identity
 
-House Justman is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Golden scales on white, a double tressure blue (Argent, a pair of balances or within a double-tressure azure) (wiki:House_Justman)

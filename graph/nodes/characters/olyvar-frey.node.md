@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Olyvar Frey is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Squire (track_b: Title)

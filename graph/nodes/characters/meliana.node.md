@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Meliana is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Northmen (track_b: Culture)

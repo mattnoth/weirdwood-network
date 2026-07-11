@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The prince that was promised/Theories is a fan theory / interpretive framework from the AWOIAF wiki.
-
 ## Edges
 

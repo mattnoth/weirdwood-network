@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ulf is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Moon Brothers (track_b: Allegiance)

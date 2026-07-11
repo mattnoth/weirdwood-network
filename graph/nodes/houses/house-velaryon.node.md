@@ -16,8 +16,6 @@ sigil_image: House_Velaryon.svg
 
 ## Identity
 
-House Velaryon is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver seahorse on sea green (Aquamarine, a seahorse argent) (wiki:House_Velaryon)

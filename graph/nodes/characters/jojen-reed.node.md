@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jojen Reed is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Reed (track_b: Allegiances)

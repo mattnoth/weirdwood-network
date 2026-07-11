@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Tormund is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Mead-king (track_b: Titles)

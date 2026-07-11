@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Cray is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Neck (track_b: Seat)

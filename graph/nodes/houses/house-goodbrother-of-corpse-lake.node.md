@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Goodbrother of Corpse Lake is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Corpse Lake (track_b: Seat)

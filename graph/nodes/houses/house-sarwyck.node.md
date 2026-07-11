@@ -16,8 +16,6 @@ sigil_image: House_Sarwyck.svg
 
 ## Identity
 
-House Sarwyck is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A broken silver sword on red (Gules, a broken sword argent) (wiki:House_Sarwyck)

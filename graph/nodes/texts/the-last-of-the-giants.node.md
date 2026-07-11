@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-The Last of the Giants is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

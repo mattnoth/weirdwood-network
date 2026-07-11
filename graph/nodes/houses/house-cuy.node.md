@@ -15,8 +15,6 @@ sigil_image: House_Cuy.svg
 
 ## Identity
 
-House Cuy is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Six yellow flowers on blue (Azure, six flowers or) (wiki:House_Cuy)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Maid is a religion or divine entity from the AWOIAF wiki.
-
 ## Edges
 

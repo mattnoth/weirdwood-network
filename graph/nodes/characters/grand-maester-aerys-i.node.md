@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Grand Maester (Aerys I) is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Grand Maester (track_b: Title)

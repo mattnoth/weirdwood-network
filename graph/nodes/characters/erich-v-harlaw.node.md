@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Erich V Harlaw is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: High King of the Iron Islands (track_b: Title)

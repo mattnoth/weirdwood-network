@@ -15,8 +15,6 @@ sigil_image: House_Harlaw.svg
 
 ## Identity
 
-House Harlaw is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver scythe on black (Sable, a scythe argent) (wiki:House_Harlaw)

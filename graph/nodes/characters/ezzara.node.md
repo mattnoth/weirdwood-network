@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ezzara is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Blue Grace (track_b: Title)

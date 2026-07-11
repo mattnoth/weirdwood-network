@@ -29,8 +29,6 @@ sort_keys:
 
 ## Identity
 
-Arrest of Eddard Stark is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 > Display bullets corrected S121 (the old FIGHTS_IN/DEFEATS infobox bullets were junk — this is an

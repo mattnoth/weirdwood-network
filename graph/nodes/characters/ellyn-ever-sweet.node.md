@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ellyn Ever Sweet is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Beesbury (track_b: Allegiance)

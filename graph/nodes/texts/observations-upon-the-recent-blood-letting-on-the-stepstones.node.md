@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Observations Upon the Recent Blood-Letting on the Stepstones is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

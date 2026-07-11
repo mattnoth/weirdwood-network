@@ -16,8 +16,6 @@ pov_character: catelyn-tully
 
 ## Identity
 
-A Clash of Kings-Chapter 31 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

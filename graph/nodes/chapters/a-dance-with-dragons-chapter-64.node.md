@@ -16,8 +16,6 @@ pov_character: arya-stark
 
 ## Identity
 
-A Dance with Dragons-Chapter 64 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Jaehaerys I Targaryen and Alysanne Targaryen is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 ## Quotes

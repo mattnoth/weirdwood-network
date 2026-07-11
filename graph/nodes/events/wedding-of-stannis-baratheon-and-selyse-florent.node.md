@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Stannis Baratheon and Selyse Florent is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

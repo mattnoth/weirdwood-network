@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Sistermen's Rebellion is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Sistermen (track_b: Result)

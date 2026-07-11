@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Commander of the Night's Watch is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Wall (track_b: Region)

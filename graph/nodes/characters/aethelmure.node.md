@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Aethelmure is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Grand Maester (track_b: Title)

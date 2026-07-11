@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Myrish Bloodbath is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Myrish (track_b: Result)

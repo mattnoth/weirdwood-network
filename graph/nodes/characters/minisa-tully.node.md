@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Minisa Tully is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Riverrun (track_b: Title)

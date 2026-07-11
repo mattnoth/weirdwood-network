@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Half-blind garron is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Night's Watch (track_b: Owners)

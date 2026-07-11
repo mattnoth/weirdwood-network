@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hallis Mollen is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Captain of the guard (track_b: Title)

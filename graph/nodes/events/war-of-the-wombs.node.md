@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-War of the Wombs is a war from the AWOIAF wiki.
-
 ## Edges
 
 

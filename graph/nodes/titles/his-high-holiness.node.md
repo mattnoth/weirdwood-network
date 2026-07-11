@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-His High Holiness is a title from the AWOIAF wiki.
-
 ## Edges
 

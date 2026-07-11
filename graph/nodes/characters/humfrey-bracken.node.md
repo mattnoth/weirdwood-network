@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Humfrey Bracken is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord of the Stone Hedge (track_b: Title)

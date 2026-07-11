@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Knight of Oldstones is a title from the AWOIAF wiki.
-
 ## Edges
 

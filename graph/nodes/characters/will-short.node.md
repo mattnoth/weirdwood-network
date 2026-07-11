@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Will Short is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Northmen (track_b: Culture)

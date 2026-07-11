@@ -16,8 +16,6 @@ sigil_image: House_Karstark.svg
 
 ## Identity
 
-House Karstark is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white sunburst on black (Sable, a sunburst argent) (wiki:House_Karstark)

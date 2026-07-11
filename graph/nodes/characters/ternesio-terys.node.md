@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ternesio Terys is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Titan's Daughter (track_b: Titles)

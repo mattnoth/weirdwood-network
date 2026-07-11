@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-High Council of the Triarchy is an organization/faction from the AWOIAF wiki.
-
 ## Edges
 
 

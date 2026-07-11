@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Corenna Swann is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Swann (track_b: Allegiances)

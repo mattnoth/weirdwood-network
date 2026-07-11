@@ -16,8 +16,6 @@ pov_character: davos-seaworth
 
 ## Identity
 
-A Clash of Kings-Chapter 58 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

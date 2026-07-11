@@ -16,8 +16,6 @@ sigil_image: House_Caron.svg
 
 ## Identity
 
-House Caron is a organization.house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A field of black nightingales on yellow (Or, semé of nightingales sable) (wiki:House_Caron)

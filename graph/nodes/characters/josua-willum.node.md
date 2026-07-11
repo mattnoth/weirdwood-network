@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Josua Willum is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Willum (track_b: Allegiance)

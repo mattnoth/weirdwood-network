@@ -16,8 +16,6 @@ pov_character: aeron-greyjoy
 
 ## Identity
 
-A Feast for Crows-Chapter 19 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

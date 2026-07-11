@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Kojja Mo is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Summer Isles (track_b: Culture)

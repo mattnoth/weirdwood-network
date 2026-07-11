@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Terrax is a dragon from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Jaenara Belaerys (track_b: Owner)

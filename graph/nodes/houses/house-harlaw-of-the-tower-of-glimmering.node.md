@@ -15,8 +15,6 @@ sigil_image: House_Harlaw_of_the_Tower_of_Glimmering.svg
 
 ## Identity
 
-House Harlaw of the Tower of Glimmering is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A silver scythe on black within an embattled border (Sable, a scythe within a bordure embattled argent) (wiki:House_Harlaw_of_the_Tower_of_Glimmering)

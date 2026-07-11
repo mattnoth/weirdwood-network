@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Tourney at Duskendale in honor of Lord Darklyn's wedding is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

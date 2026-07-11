@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Yndros of the Twilight is a religion/faith from the AWOIAF wiki.
-
 ## Edges
 
 

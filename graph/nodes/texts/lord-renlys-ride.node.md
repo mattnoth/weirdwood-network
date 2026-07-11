@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Renly's Ride is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

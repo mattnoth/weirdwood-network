@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Shrike is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Priest of the Drowned God (track_b: Title)

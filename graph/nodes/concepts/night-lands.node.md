@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Night lands is a culture from the AWOIAF wiki.
-
 ## Edges
 

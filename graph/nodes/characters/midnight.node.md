@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Midnight is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Osney Kettleblack (track_b: Owner)

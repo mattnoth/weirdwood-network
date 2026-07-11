@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Robert I Baratheon and Cersei Lannister is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 
 

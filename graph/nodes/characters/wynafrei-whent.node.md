@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wynafrei Whent is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Whent (track_b: Allegiances)

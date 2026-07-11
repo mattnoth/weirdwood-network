@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord of Sweetsister is a title from the AWOIAF wiki.
-
 ## Edges
 

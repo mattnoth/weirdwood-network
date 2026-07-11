@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Draper's wife is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SPOUSE_OF: Unnamed husband (track_b: Spouse)

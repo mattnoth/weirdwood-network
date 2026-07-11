@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Koss is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Gods Eye (track_b: Died) [299 AC]

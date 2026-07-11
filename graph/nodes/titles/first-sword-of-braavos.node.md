@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-First Sword of Braavos is a title from the AWOIAF wiki.
-
 ## Edges
 

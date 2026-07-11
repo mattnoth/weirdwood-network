@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Josmyn Peckledon is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Peckledon (track_b: Allegiance)

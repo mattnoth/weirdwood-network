@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Honor is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Jaime Lannister (track_b: Owner)

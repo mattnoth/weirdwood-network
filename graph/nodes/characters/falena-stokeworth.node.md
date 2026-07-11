@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Falena Stokeworth is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Harrenhal (track_b: Title)

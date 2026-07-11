@@ -15,8 +15,6 @@ sigil_image: House_Bettley.svg
 
 ## Identity
 
-House Bettley is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three blue beetles on gold (Or, three beetles azure) (wiki:House_Bettley)

@@ -15,8 +15,6 @@ sigil_image: House_Ironsmith.svg
 
 ## Identity
 
-House Ironsmith is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black sword upright between four black horseshoes on gold, a grey-green border (Or, between four horseshoes a sword erect sable all within a bordure vert-cendrée) (wiki:House_Ironsmith)

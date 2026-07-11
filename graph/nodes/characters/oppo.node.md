@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Oppo is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Free Cities (track_b: Culture)

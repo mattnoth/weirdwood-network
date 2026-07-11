@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Tourney for King Joffrey's 13th Name Day is a tournament/tourney from the AWOIAF wiki.
-
 ## Edges
 

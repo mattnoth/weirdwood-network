@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lucifer Justman is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: River king (track_b: Title)

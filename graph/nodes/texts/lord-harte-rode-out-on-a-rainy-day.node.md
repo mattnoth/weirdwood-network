@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Harte Rode Out on a Rainy Day is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

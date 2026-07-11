@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Samarro Saan is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Saan family (track_b: Allegiances)

@@ -15,8 +15,6 @@ sigil_image: House_Jast.svg
 
 ## Identity
 
-House Jast is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 An inverted pall between 3 lion's heads, yellow on black (Sable, a pall reversed between three lions erased or) (wiki:House_Jast)

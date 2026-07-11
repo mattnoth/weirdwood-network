@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Battle of Ashford is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Robert's Rebellion (track_b: Conflict)

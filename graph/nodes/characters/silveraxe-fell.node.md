@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Silveraxe Fell is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Fell (track_b: Allegiance)

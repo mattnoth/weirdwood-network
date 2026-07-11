@@ -15,8 +15,6 @@ sigil_image: House_Cordwayner.svg
 
 ## Identity
 
-House Cordwayner is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Black boots on field of green and gold diamonds (Lozengy vert and or, a pair of boots sable) (wiki:House_Cordwayner)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Account of the War of the Ninepenny Kings is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

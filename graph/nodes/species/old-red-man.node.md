@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Old red man is a species from the AWOIAF wiki.
-
 ## Edges
 

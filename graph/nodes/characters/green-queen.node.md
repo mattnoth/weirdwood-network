@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Green Queen is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: First Men (track_b: Culture)

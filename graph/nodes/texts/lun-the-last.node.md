@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lun the Last is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King of the Giants (track_b: Title)

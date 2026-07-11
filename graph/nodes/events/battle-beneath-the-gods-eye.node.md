@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Battle Beneath the Gods Eye is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Aegon the Uncrowned's rebellion (track_b: Conflict)

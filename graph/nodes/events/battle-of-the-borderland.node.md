@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle of the Borderland is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Triarchy (track_b: Result)

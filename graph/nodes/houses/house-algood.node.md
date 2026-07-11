@@ -15,8 +15,6 @@ sigil_image: House_Algood.svg
 
 ## Identity
 
-House Algood is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A golden wreath on blue, a gold border (Azure, a garland of laurel within a bordure or) (wiki:House_Algood)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Knight of Sow's Horn is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

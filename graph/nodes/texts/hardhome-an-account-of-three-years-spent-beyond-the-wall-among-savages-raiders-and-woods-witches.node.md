@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Hardhome: An Account of Three Years Spent Beyond-the-Wall among Savages, Raiders, and Woods-witches is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

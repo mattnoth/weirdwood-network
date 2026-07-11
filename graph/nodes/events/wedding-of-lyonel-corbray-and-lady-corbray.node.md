@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Lyonel Corbray and Lady Corbray is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Oh, Lay My Sweet Lass Down in the Grass is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

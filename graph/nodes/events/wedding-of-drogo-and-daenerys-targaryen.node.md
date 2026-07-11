@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Drogo and Daenerys Targaryen is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

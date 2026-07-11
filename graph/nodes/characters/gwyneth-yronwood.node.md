@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gwyneth Yronwood is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Yronwood (track_b: Allegiance)

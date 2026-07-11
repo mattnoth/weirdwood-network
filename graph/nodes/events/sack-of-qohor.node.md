@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Sack of Qohor is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Golden Company victory (track_b: Result)

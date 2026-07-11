@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House of Rhazdar is a noble house from the AWOIAF wiki.
-
 ## Edges
 
 - SEAT_OF (reverse): Pyramid of Rhazdar (track_b: Seat)

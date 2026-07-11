@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Walder Frey and Joyeuse Erenford is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

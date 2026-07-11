@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Aegon's Conquest is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Aegon's first test (track_b: Battles)

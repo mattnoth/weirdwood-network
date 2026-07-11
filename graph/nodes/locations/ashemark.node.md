@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ashemark is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Damon Marbrand (track_b: Ruler)

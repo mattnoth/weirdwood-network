@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Emmond is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Drowned men (track_b: Allegiance)

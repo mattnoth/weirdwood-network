@@ -16,8 +16,6 @@ sigil_image: House_Cerwyn.svg
 
 ## Identity
 
-House Cerwyn is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black battle-axe on silver (Argent, a battle-axe sable) (wiki:House_Cerwyn)

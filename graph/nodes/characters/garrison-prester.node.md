@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Garrison Prester is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Feastfires (track_b: Title)

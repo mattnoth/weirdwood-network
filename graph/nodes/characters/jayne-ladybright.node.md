@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jayne Ladybright is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Ladybright (track_b: Allegiance)

@@ -15,8 +15,6 @@ sigil_image: House_Harlaw_of_Grey_Garden.svg
 
 ## Identity
 
-House Harlaw of Grey Garden is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Quartered clockwise: a silver scythe on black, a peacock on cream (Quarterly, 1st and 3rd sable, a scythe argent, 2nd and 4th carnation, a peacock in his pride proper) (wiki:House_Harlaw_of_Grey_Garden)

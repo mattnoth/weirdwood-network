@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Horse Tribes, Being a Study of the Nomads of the Eastern Plains of Essos is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

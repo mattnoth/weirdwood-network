@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Secret siege is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Florian V Mooton is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: King (track_b: Title)

@@ -15,8 +15,6 @@ sigil_image: House_Mertyns.svg
 
 ## Identity
 
-House Mertyns is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A white great horned owl on grey (Cendrée, a great-horned-owl argent) (wiki:House_Mertyns)

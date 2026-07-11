@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Fair Maids of Summer is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

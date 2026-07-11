@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Roose Bolton and Walda Frey is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

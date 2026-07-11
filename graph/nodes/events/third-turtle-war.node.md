@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Third Turtle War is a event.war from the AWOIAF wiki.
-
 ## Edges
 

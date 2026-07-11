@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Faith Militant uprising is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Burning of the Sept of Remembrance (track_b: Battles)

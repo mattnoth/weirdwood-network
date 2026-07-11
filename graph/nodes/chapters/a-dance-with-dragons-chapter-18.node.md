@@ -16,8 +16,6 @@ pov_character: tyrion-lannister
 
 ## Identity
 
-A Dance with Dragons-Chapter 18 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

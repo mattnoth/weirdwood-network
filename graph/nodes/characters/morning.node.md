@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Morning is a character.dragon from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

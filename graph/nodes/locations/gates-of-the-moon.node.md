@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Gates of the Moon is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Nestor Royce (track_b: Ruler) [keeper for House Arryn]

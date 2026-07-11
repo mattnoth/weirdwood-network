@@ -16,8 +16,6 @@ sigil_image: House_Footly.svg
 
 ## Identity
 
-House Footly is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A field of silver caltrops on black (Sable, semé of caltrops argent) (wiki:House_Footly)

@@ -16,8 +16,6 @@ pov_character: tyrion-lannister
 
 ## Identity
 
-A Storm of Swords-Chapter 4 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

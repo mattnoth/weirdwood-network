@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Todric is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Stony Shore (track_b: Died) [299 AC]

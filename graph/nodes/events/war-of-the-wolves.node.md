@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-War of the Wolves is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Stark (track_b: Result)

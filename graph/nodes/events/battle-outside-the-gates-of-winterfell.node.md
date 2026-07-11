@@ -28,8 +28,6 @@ sort_keys:
 
 ## Identity
 
-Battle outside the gates of Winterfell is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: War of the Five Kings (track_b: Conflict)

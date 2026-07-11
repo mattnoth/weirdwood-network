@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Quicksilver is a character.dragon from the AWOIAF wiki.
-
 ## Edges
 
 - DIED_AT: Gods Eye (track_b: Died) [43 AC]

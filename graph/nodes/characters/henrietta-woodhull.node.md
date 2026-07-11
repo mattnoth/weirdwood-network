@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Henrietta Woodhull is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Woodhull (track_b: Allegiance)

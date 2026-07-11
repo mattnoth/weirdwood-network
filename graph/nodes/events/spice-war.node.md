@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Spice War is a event.war from the AWOIAF wiki.
-
 ## Edges
 

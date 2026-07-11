@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Othell Yarwyck is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: First Builder (track_b: Title)

@@ -22,8 +22,6 @@ sort_keys:
 
 ## Identity
 
-Taking of Greenstone is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Landing of the Golden Company (track_b: Conflict)

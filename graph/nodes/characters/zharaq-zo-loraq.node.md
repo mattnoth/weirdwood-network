@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Zharaq zo Loraq is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House of Loraq (track_b: Allegiance)

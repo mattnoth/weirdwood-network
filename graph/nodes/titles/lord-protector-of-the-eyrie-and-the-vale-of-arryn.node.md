@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Protector of the Eyrie and the Vale of Arryn is a title from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc

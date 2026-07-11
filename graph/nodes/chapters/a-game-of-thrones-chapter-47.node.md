@@ -16,8 +16,6 @@ pov_character: eddard-stark
 
 ## Identity
 
-A Game of Thrones-Chapter 47 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

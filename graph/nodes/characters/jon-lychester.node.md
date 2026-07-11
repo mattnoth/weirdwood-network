@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jon Lychester is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Castle Lychester (track_b: Titles)

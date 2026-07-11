@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Checkered Hazard is a location from the AWOIAF wiki.
-
 ## Edges
 

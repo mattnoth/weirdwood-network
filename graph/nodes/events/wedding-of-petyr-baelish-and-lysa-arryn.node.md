@@ -27,8 +27,6 @@ sort_keys:
 
 ## Identity
 
-Wedding of Petyr Baelish and Lysa Arryn is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

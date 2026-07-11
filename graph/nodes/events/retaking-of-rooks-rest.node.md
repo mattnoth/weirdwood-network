@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Retaking of Rook's Rest is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Dance of the Dragons (track_b: Conflict)

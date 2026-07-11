@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-When Willum's Wife Was Wet is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 

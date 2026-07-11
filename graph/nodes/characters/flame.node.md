@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Flame is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Rohanne Webber (track_b: Owner)

@@ -15,8 +15,6 @@ sigil_image: House_Greyiron.svg
 
 ## Identity
 
-House Greyiron is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 The sea king's head, white with dark green seaweed beard and hair, a black crown on a grey field (Cendrée, the sea king’s head argent bearded and crined with seaweed vert crowned sable) (wiki:House_Greyiron)

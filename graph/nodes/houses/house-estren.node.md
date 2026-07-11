@@ -15,8 +15,6 @@ sigil_image: House_Estren.svg
 
 ## Identity
 
-House Estren is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A green saltire between four red double-headed eagles on white (Argent, a saltire vert between four eagles bicapitated gules) (wiki:House_Estren)

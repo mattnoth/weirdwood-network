@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Last Hearth is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Jon Umber (track_b: Ruler)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City watch (Braavos) is a organization.faction from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Braavos (track_b: Region)

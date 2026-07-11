@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Maiden's Day Ball is a battle/event from the AWOIAF wiki.
-
 ## Edges
 
 

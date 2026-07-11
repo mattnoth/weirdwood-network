@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Squire Squishlips is a character.human from the AWOIAF wiki.
-
 ## Edges
 

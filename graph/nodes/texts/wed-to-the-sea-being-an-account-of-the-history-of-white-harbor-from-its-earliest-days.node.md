@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wed to the Sea, Being an Account of the History of White Harbor from Its Earliest Days is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Grazhar zo Galare is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Cupbearer (track_b: Title)

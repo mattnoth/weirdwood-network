@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Meralyn is a character from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Happy Port (track_b: Allegiance)

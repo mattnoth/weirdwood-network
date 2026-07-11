@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Weatherwax is a organization.house from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Unknown (track_b: Head)

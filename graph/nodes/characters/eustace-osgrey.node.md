@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Eustace Osgrey is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Knight of Standfast (track_b: Titles)

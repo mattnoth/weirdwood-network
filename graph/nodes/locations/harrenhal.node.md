@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Harrenhal is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Shella Whent (track_b: Ruler) [AGOT]

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Bellonara Otherys is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Otherys (track_b: Allegiance)

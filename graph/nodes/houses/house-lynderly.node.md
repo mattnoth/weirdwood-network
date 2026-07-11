@@ -15,8 +15,6 @@ sigil_image: House_Lynderly.svg
 
 ## Identity
 
-House Lynderly is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A black field strewn wriggling green serpents (Sable, semé of snakes vert) (wiki:House_Lynderly)

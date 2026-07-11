@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Meraxes is a dragon from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Rhaenys Targaryen (track_b: Owner)

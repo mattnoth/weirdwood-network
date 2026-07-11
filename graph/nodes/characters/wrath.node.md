@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wrath is a character from the AWOIAF wiki.
-
 ## Edges
 
 - OWNS: Steffon Fossoway (track_b: Owner)

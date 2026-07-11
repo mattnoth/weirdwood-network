@@ -21,7 +21,5 @@ sort_keys:
 
 ## Identity
 
-Pact is a battle/event from the AWOIAF wiki.
-
 ## Edges
 

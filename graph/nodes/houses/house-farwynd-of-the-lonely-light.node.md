@@ -15,8 +15,6 @@ sigil_image: House_Farwynd_of_the_Lonely_Light.svg
 
 ## Identity
 
-House Farwynd of the Lonely Light is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Per fesse: below a black sea with crested line, a black longship, outlined against the setting sun, dark red on orange (Per fess wavy crested tenné and sable, in chief on a demi-guze per fess issuant from the division a longship sailing upon the division of the second) (wiki:House_Farwynd_of_the_Lonely_Light)

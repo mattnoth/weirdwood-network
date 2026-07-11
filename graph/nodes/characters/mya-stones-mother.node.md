@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Mya Stone's mother is a character from the AWOIAF wiki.
-
 ## Edges
 
 ## Origins

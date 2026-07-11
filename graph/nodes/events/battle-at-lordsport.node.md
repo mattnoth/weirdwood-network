@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Battle at Lordsport is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Greyjoy's Rebellion (track_b: Conflict)

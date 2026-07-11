@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-High Septon is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Seven Kingdoms (track_b: Region)

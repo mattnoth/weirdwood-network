@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Octarch of the Old Empire is a title from the AWOIAF wiki.
-
 ## Edges
 
 

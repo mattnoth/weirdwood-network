@@ -16,8 +16,6 @@ pov_character: bran-stark
 
 ## Identity
 
-A Dance with Dragons-Chapter 4 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

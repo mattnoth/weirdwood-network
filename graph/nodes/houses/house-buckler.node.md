@@ -15,8 +15,6 @@ sigil_image: House_Buckler.svg
 
 ## Identity
 
-House Buckler is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 Three brass buckles on blue (Azure, three buckles or) (wiki:House_Buckler)

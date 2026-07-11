@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Laws and justice of the Seven Kingdoms is a species from the AWOIAF wiki.
-
 ## Edges
 
 

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Truth (book) is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 

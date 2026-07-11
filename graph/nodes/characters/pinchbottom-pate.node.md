@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Pinchbottom Pate is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Reach (track_b: Culture)

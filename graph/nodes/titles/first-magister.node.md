@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-First Magister is a title from the AWOIAF wiki.
-
 ## Edges
 
 - REGION_OF: Lys (track_b: Region)

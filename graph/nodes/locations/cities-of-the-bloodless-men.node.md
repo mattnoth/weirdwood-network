@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Cities of the Bloodless Men is a location from the AWOIAF wiki.
-
 ## Edges
 

@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-First Dornish War is a event.war from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Targaryen (track_b: Result)

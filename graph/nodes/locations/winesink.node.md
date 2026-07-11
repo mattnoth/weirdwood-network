@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Winesink is a location from the AWOIAF wiki.
-
 ## Edges
 

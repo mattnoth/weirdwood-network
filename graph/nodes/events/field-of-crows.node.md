@@ -21,8 +21,6 @@ sort_keys:
 
 ## Identity
 
-Field of Crows is a event.battle from the AWOIAF wiki.
-
 ## Edges
 
 - DEFEATS: Decisive Dothraki victory (track_b: Result)

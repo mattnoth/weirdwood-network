@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Blackmont is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Larra Blackmont (track_b: Ruler)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-House Shell is a organization.house from the AWOIAF wiki.
-
 ## Edges
 

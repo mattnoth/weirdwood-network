@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Fall of Maidenpool is a text/book/song from the AWOIAF wiki.
-
 ## Edges
 
 - FIGHTS_IN: Coming of the Andals (track_b: Conflict)

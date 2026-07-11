@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Jorl the Whale is a character.human from the AWOIAF wiki.
-
 ## Edges
 

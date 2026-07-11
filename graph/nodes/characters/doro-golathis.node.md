@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Doro Golathis is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Norvos (track_b: Culture)

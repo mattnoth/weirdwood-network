@@ -16,8 +16,6 @@ pov_character: theon-greyjoy
 
 ## Identity
 
-A Dance with Dragons-Chapter 37 is a meta.chapter from the AWOIAF wiki.
-
 ## Edges
 
 

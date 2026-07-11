@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-A certain man is a character from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Myrish (track_b: Culture)

@@ -13,7 +13,5 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lady of Starpike is a title from the AWOIAF wiki.
-
 ## Edges
 

@@ -15,8 +15,6 @@ sigil_image: House_Knott.svg
 
 ## Identity
 
-House Knott is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 A brown fret on white (Argent, a fret brunâtre) (wiki:House_Knott)

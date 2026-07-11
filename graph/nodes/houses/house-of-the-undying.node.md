@@ -14,8 +14,6 @@ sigil_image: House_of_the_Undying.jpg
 
 ## Identity
 
-House of the Undying is a noble house from the AWOIAF wiki.
-
 ## Heraldry & Sigil
 
 No coat of arms description available. (wiki:House_of_the_Undying)

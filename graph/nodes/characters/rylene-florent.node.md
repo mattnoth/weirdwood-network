@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rylene Florent is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Florent (track_b: Allegiances)

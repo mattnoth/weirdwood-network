@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Floris Baratheon is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Goldengrove (track_b: Title)

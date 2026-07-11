@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lord Ashford is a character from the AWOIAF wiki.
-
 ## Edges
 
 - HOLDS_TITLE: Lord of Ashford (track_b: Title)

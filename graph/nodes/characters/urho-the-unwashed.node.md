@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Urho the Unwashed is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: Pirates (track_b: Allegiance)

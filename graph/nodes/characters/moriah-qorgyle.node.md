@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Moriah Qorgyle is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Qorgyle (track_b: Allegiance)

@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Wun Weg Wun Dar Wun is a character.human from the AWOIAF wiki.
-
 ## Edges
 
 - CULTURE_OF: Giant (track_b: Race)

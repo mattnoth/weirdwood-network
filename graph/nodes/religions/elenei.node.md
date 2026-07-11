@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Elenei is a religion/faith from the AWOIAF wiki.
-
 ## Edges
 
 - SWORN_TO: House Durrandon (track_b: Allegiance)

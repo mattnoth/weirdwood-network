@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Duskendale is a place.location from the AWOIAF wiki.
-
 ## Edges
 
 - RULES: Renfred Rykker (track_b: Ruler)

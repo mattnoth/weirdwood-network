@@ -13,8 +13,6 @@ pass_origin: pass2-wiki-bucket-a-backfill
 
 ## Identity
 
-Blue Graces is a faction from the AWOIAF wiki.
-
 ## Edges
 
 ## Narrative Arc
