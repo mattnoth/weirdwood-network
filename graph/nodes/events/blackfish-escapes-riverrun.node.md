@@ -39,9 +39,10 @@ search that never finds him; Jaime suspects the riverlords would sooner shelter 
 (Edges in `graph/edges/edges.jsonl`, S159 Jaime/Riverlands enrichment. [Brynden Tully](brynden-tully)
 AGENT_IN (he swims out); [Edmure](edmure-tully) AGENT_IN (he raised the Water Gate gap); ENABLES-in
 from [Edmure's surrender](edmure-yields-riverrun); SUB_BEAT_OF [siege-of-riverrun](siege-of-riverrun);
-LOCATED_AT [Riverrun](riverrun); [Addam Marbrand](addam-marbrand) PARTICIPATES_IN the hunt;
-[Karyl Vance](karyl-vance) + [Clement Piper](clement-piper) SUSPECTED_OF (Jaime's unproven suspicion
-they abetted it).)
+LOCATED_AT [Riverrun](riverrun); [Addam Marbrand](addam-marbrand) PARTICIPATES_IN the hunt.
+No SUSPECTED_OF edges: Jaime's thought that [Karyl Vance](karyl-vance)/[Clement Piper](clement-piper)
+"and their ilk" would sooner abet it (affc-jaime-07:45) was adjudicated diffuse class-distrust, not
+pointed suspicion — the proposed edges were REJECTED at S159 fresh-verify (E14/E15), reaffirmed S211.)
 
 ## Quotes
 

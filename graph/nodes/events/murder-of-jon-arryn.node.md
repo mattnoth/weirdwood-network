@@ -32,7 +32,7 @@ The inciting mystery of the entire saga. [Jon Arryn](jon-arryn), Hand of the Kin
 
 ## Edges
 
-(Causal/role edges live in `graph/edges/edges.jsonl`, S133 RR enrichment pass. [Jon Arryn](jon-arryn) VICTIM_IN (Tier-1); [Lysa Arryn](lysa-arryn) AGENT_IN (direct poisoner, per her own confession; Tier-1); [Petyr Baelish](petyr-baelish) SUSPECTED_OF as instigator (Tier-2 — confession implicates him but the full degree of his role is contested/inference); [Cersei Lannister](cersei-lannister) SUSPECTED_OF as false-misdirection target (Tier-2 — the in-world suspicion was real even though she is innocent).)
+(Causal/role edges live in `graph/edges/edges.jsonl`, S133 RR enrichment pass. [Jon Arryn](jon-arryn) VICTIM_IN (Tier-1); [Lysa Arryn](lysa-arryn) AGENT_IN (direct poisoner, per her own confession; Tier-1); [Petyr Baelish](petyr-baelish) COMMANDS_IN as instigator (upgraded from SUSPECTED_OF at S148 — Lysa's dying confession "You told me to put the tears in Jon's wine" proves the instigation; reaffirmed S211); [Cersei Lannister](cersei-lannister) SUSPECTED_OF as false-misdirection target (Tier-2 — the in-world suspicion was real even though she is innocent); [Tyrion Lannister](tyrion-lannister) SUSPECTED_OF (Tier-2, added S211 — Catelyn/Lysa's false public accusation at the Eyrie, load-bearing for the whole ACOK Eyrie arc).)
 
 ## Quotes
 
