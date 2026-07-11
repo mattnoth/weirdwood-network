@@ -1,6 +1,6 @@
 ---
 name: "Arrest of Eddard Stark"
-type: event.incident
+type: event.capture
 slug: arrest-of-eddard-stark
 aliases: []
 confidence: tier-1

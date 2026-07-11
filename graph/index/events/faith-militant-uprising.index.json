@@ -1,7 +1,7 @@
 {
   "slug": "faith-militant-uprising",
   "name": "Faith Militant uprising",
-  "type": "event.battle",
+  "type": "event.war",
   "node_path": "graph/nodes/events/faith-militant-uprising.node.md",
   "generated_at": "2026-07-10T14:28:37.089645+00:00",
   "stats": {

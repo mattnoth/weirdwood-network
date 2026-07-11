@@ -1,0 +1,80 @@
+{
+ "_meta": {
+  "slice": "suspicion-a",
+  "checked": 12
+ },
+ "verdicts": [
+  {
+   "id": "S1",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in fab-the-red-dragon-and-the-gold-17-p02 lines 174-179. Aemond's in-world suspicion (voiced during his Harrenhal reprisal) that Larys Strong fed the blacks intelligence enabling the fall of King's Landing; never confirmed on-page. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S2",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in fab-the-red-dragon-and-the-gold-17-p02 line 174-175. Aemond suspects Simon Strong of treacherously surrendering Harrenhal. Simon protests innocence and narrative leaves it ambiguous before Aemond executes him unjustly. Classic unproven suspicion. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S3",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in fab-the-red-dragon-and-the-gold-17-p02 line 43. Myrish/Tyroshi widows accuse Sharako Lohar of deliberately sacrificing allied ships while sparing his own Lysene squadron. Presented as accusation/grievance, not confirmed fact. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S4",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in affc-jaime-07 line 45. Jaime's own reasoning for excluding riverlords from hunt for Brynden Tully — suspicion they would shelter rather than catch him. Unproven. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S5",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in affc-jaime-07 line 45 (same passage as S4). Jaime's unproven suspicion that Clement Piper would abet Brynden Tully's escape. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S6",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in fab-sons-of-the-dragon-05-p02 line 213. Explicitly framed as unproven theory ('some say'), one of several competing suspects for the High Septon's death. Ser Morgan seen entering/leaving privy chambers but no proof. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S7",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in fab-sons-of-the-dragon-05-p02 line 213. Second rival theory in same passage. Text notes Lady Patrice did visit High Septon at dusk but he was alive when she departed, leaving culpability explicitly unresolved. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S8",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in fab-sons-of-the-dragon-05-p02 line 213. Theory naming Martyn Hightower as the one who ordered Morgan to kill the High Septon — doubly-unproven suspicion voiced in same sentence ('some say'). Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S9",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in fab-sons-of-the-dragon-05-p02 lines 213-215 (quote spans line-wrap). Fourth rival theory in the debated-death passage. Text attributes death to 'another rumored sorceress, the Dowager Queen Visenya Targaryen' — unproven, explicitly rumor. Both nodes exist. Tier-2."
+  },
+  {
+   "id": "S10",
+   "verdict": "AMBIGUOUS",
+   "reason": "narration-debunks-rumor",
+   "note": "Quote verified in fab-rhaenyra-overthrown-18-p01 lines 29-33. Rumor IS voiced in-world (sparks King's Landing riot). BUT narrative immediately debunks it: text calls it 'poisonous calumny' (line 35, explicitly false slander) and provides Largent's alibi (lines 39: 'eating with three hundred of his gold cloaks at the barracks by the Gate of the Gods'). Narrative also states (lines 38-39): 'it seems unlikely Queen Rhaenyra was behind it' and 'the rumor is almost certainly false.' Tension: SUSPECTED_OF nominally captures in-world suspicions (rule: suspicion must be 'unproven'), but this suspicion is actively disproven by narrative voice with explicit alibi. Defensible either way — as an in-world false rumor worthy of modeling, or as debunked-by-text and thus outside SUSPECTED_OF scope."
+  },
+  {
+   "id": "S11",
+   "verdict": "AMBIGUOUS",
+   "reason": "narration-debunks-rumor",
+   "note": "Quote verified in fab-rhaenyra-overthrown-18-p01 lines 31-33 (same rumor passage as S10). Same debunking issue: the text explicitly provides Largent's alibi ('abundant proof that Ser Luthor Largent, the purported killer, was eating with three hundred of his gold cloaks at the barracks'). Narrative frames this as a false rumor that 'ignites the King's Landing riot' but is 'almost certainly false.' The suspected act (Largent as killer) has strong narrative-provided counter-evidence, moving this outside the 'unproven' zone toward 'provably didn't happen.' Defensible as either an in-world false rumor (CONFIRM) or as a narrative-debunked non-suspicion (PROBLEM/invented-suspicion adjacent)."
+  },
+  {
+   "id": "S12",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "Quote verified in affc-the-reaver-01 line 83. Aeron Damphair's accusation to Victarion that Euron used sorcery to sway/rig the kingsmoot vote in his favor — unproven in-world accusation. Text treats Euron's sorcery as gated/uncertain (node's Foreshadowing section confirms). Distinct from existing euron-greyjoy+death-of-balon-greyjoy edge. Both nodes exist. Tier-2."
+  }
+ ]
+}

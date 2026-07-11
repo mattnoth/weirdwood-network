@@ -1,0 +1,166 @@
+{
+ "_meta": {
+  "slice": "suspicion-b",
+  "agent": "suspicion-b (packets 38-74 of 75)",
+  "packets_processed": 37
+ },
+ "candidates": [
+  {
+   "id": "S1",
+   "type": "SUSPECTED_OF",
+   "source": "tyrion-lannister",
+   "target": "murder-of-jon-arryn",
+   "book": "agot",
+   "chapter": "agot-tyrion-05",
+   "quote": "You are accused of sending a hired knife to slay my son Bran in his bed, and of conspiring to murder Lord Jon Arryn, the Hand of the King.",
+   "tier": "tier-2",
+   "note": "Catelyn's formal accusation of Tyrion at the Eyrie 'trial' staged by Lysa (encountered while processing lysa-accuses-tyrion-of-poisoning-jon-arryn, a near-empty stub node whose own VICTIM_IN edge already covers Tyrion-as-accused; this edge targets the actual crime event named in that accusation instead).",
+   "qualifier": ""
+  },
+  {
+   "id": "S2",
+   "type": "SUSPECTED_OF",
+   "source": "petyr-baelish",
+   "target": "murder-of-jon-arryn",
+   "book": "asos",
+   "chapter": "asos-sansa-07",
+   "quote": "You told me to put the tears in Jon’s wine, and I did.",
+   "tier": "tier-2",
+   "note": "Lysa's dying confession at the Moon Door names Petyr as instigator. The murder-of-jon-arryn node's own Identity prose already calls Petyr 'SUSPECTED_OF as instigator (Tier-2)' but the existing_edges list only carries his COMMANDS_IN role — this closes that prose/edge gap with a direct book quote.",
+   "qualifier": "via_confession"
+  },
+  {
+   "id": "S3",
+   "type": "SUSPECTED_OF",
+   "source": "unwin-peake",
+   "target": "the-treason-trials",
+   "book": "fab",
+   "chapter": "fab-the-lysene-spring-24-p02",
+   "quote": "And all of them had ties to one man: Unwin Peake, Lord of Starpike, Lord of\nDunstonbury, Lord of Whitegrove, once Hand of the King.”",
+   "tier": "tier-2",
+   "note": "Mushroom's testimony names Peake as the hidden mastermind behind the 42 accused conspirators against the Rogares/Aegon III; 'their involvement was never proven' per the wiki summary too. unwin-peake is already SUSPECTED_OF maidens-day-curse and death-of-jaehaera-targaryen in the global pairs — this is a third, distinct target event (the-treason-trials), not a re-propose. Same underlying Rogare-conspiracy material also touches the lysene-spring and secret-siege nodes; flagged below to avoid a near-duplicate edge landing on those too.",
+   "qualifier": ""
+  },
+  {
+   "id": "S4",
+   "type": "SUSPECTED_OF",
+   "source": "mervyn-flowers",
+   "target": "death-of-jaehaera-targaryen",
+   "book": "fab",
+   "chapter": "fab-war-and-peace-and-cattle-shows-22-p02",
+   "quote": "the queen's door that night was Mervyn Flowers, his bastard brother.\n\nCould he have been the Hand's catspaw? It is more than possible",
+   "tier": "tier-2",
+   "note": "Discovered while processing regency-of-aegon-iii (which names both Mervyn Flowers and Tessario the Tiger as wiki-level suspects in Jaehaera's death). unwin-peake is already SUSPECTED_OF this event in the global pairs; Mervyn is a distinct, textually well-supported second suspect (the Kingsguard posted at her door that night, explicitly floated as Peake's catspaw). Declined to also add Tessario — the source text calls that a third-order 'fancy' (Mushroom's guess about who Mervyn might have let in), too hedged to ground cleanly; see flags.",
+   "qualifier": ""
+  },
+  {
+   "id": "S5",
+   "type": "SUSPECTED_OF",
+   "source": "tyrion-lannister",
+   "target": "plot-to-free-jaime-lannister",
+   "book": "acok",
+   "chapter": "acok-catelyn-05",
+   "quote": "This was the Imp’s work, Catelyn suspected; it stank of the same sort of cunning he had displayed at the Eyrie.",
+   "tier": "tier-2",
+   "note": "Catelyn's direct in-text suspicion (POV thought) that Tyrion engineered the attempt to free Jaime; never confirmed as his doing.",
+   "qualifier": ""
+  },
+  {
+   "id": "S6",
+   "type": "SUSPECTED_OF",
+   "source": "sandor-clegane",
+   "target": "raid-on-saltpans",
+   "book": "affc",
+   "chapter": "affc-brienne-05",
+   "quote": "He led the raid on Saltpans, here.",
+   "tier": "tier-2",
+   "note": "Ser Hyle Hunt voices the widespread misperception that Sandor led the raid, based on his distinctive helm being seen there. Later disproven in the same node's passages (Elder Brother: Sandor could not have done it, he had buried the man himself) — an honest, textually-attested false suspicion, parallel to the Tyrion/Sansa/Marillion framing pattern elsewhere in this dip.",
+   "qualifier": ""
+  },
+  {
+   "id": "S7",
+   "type": "SUSPECTED_OF",
+   "source": "brotherhood-without-banners",
+   "target": "raid-on-saltpans",
+   "book": "affc",
+   "chapter": "affc-brienne-05",
+   "quote": "Lord Randyll is putting it about that they did in hopes of turning the commons against Beric and his brotherhood.",
+   "tier": "tier-2",
+   "note": "Randyll Tarly deliberately spreads the rumor blaming Beric Dondarrion's brotherhood for the raid, per the same passage. Faction-level suspect (matches the existing sons-of-the-harpy/poisoned-locusts pattern of a group being the named suspect rather than one member).",
+   "qualifier": "via_rumor"
+  },
+  {
+   "id": "S8",
+   "type": "SUSPECTED_OF",
+   "source": "gormon-peake",
+   "target": "second-blackfyre-rebellion",
+   "book": "tmk",
+   "chapter": "tmk-dunk-01",
+   "quote": "the dragon's egg that Lord Peake found amongst Ser Glendon's things was the one he placed there. Let him bring it forth, if he can. Examine it yourself. I'll wager you it's no more than a painted stone.",
+   "tier": "tier-2",
+   "note": "Dunk publicly accuses Lord Gormon Peake of planting the 'stolen' dragon egg to frame Glendon Ball and unmask the Whitewalls plot's true instigator. Matches the wiki summary's 'insisted that Lord Peake had plotted everything' / 'painted stone planted by order of Lord Peake' beats.",
+   "qualifier": ""
+  },
+  {
+   "id": "S9",
+   "type": "SUSPECTED_OF",
+   "source": "rhaegar-targaryen",
+   "target": "tourney-at-harrenhal",
+   "book": "adwd",
+   "chapter": "adwd-the-kingbreaker-01",
+   "quote": "King Aerys became convinced that his son was conspiring to depose him, that Whent’s tourney was but a ploy to give Rhaegar a pretext for meeting with as many great lords as could be brought together.",
+   "tier": "tier-2",
+   "note": "Barristan's retrospective POV confirms the in-world suspicion (voiced to Aerys by Varys) that Rhaegar was the true, secret orchestrator of the tourney as cover for a conspiratorial Great Council — never proven, and distinct from the already-existing rhaegar-targaryen/abduction-of-lyanna pair.",
+   "qualifier": ""
+  },
+  {
+   "id": "S10",
+   "type": "SUSPECTED_OF",
+   "source": "rhaenyra-targaryen",
+   "target": "death-of-helaena-targaryen",
+   "book": "fab",
+   "chapter": "fab-rhaenyra-overthrown-18-p01",
+   "quote": "Helaena had been murdered, the whispers went, as her sons had been before her. Prince Daeron and his dragons would soon be at the gates, and with them the end of Rhaenyra’s reign. The old queen was determined that her young half-sister should not live to revel in her downfall, so she had sent Ser Luthor Largent to seize\n\nHelaena with his huge rough hands and fling her from the window onto the spikes below.",
+   "tier": "tier-2",
+   "note": "Discovered while processing riot-of-kings-landing-dance-of-the-dragons. Widespread whisper/rumor blaming Rhaenyra for ordering Largent to murder Helaena; the F&B text itself concludes this was likely false ('it seems unlikely Queen Rhaenyra was behind it'), so this is an honest, in-text, ultimately-debunked suspicion — fine for SUSPECTED_OF, never proven true.",
+   "qualifier": "via_rumor"
+  },
+  {
+   "id": "S11",
+   "type": "SUSPECTED_OF",
+   "source": "luthor-largent",
+   "target": "death-of-helaena-targaryen",
+   "book": "fab",
+   "chapter": "fab-rhaenyra-overthrown-18-p01",
+   "quote": "so she had sent Ser Luthor Largent to seize\n\nHelaena with his huge rough hands and fling her from the window onto the spikes below.",
+   "tier": "tier-2",
+   "note": "Same rumor as S10, naming Largent as the purported hand that did it. The text supplies him an alibi a few sentences later (eating with 300 gold cloaks at the barracks when she died) — an explicitly disproven suspicion, safely SUSPECTED_OF territory, not AGENT_IN.",
+   "qualifier": "via_rumor"
+  },
+  {
+   "id": "S12",
+   "type": "SUSPECTED_OF",
+   "source": "marillion",
+   "target": "death-of-lysa-arryn",
+   "book": "asos",
+   "chapter": "asos-sansa-07",
+   "quote": "This singer’s killed my lady wife.",
+   "tier": "tier-2",
+   "note": "Littlefinger's on-the-spot frame-up of Marillion immediately after pushing Lysa through the Moon Door himself — the wiki summary's 'killing is then blamed on the singer Marillion,' directly book-quoted. Petyr's own guilt is proven in the same passage (he shoves her: '“Only Cat.” He gave her a short, sharp shove.') so this is squarely a false, framed suspicion, not a genuine whodunit — exactly the honest-false-accusation pattern the dip is built to capture.",
+   "qualifier": ""
+  }
+ ],
+ "wiki_only": [],
+ "no_node": [],
+ "flags": [
+  "purple-wedding: Petyr Baelish's own reveal to Sansa ('he had plotted Joffrey's death') and Olenna Tyrell's proven role (she lifted the poison from Sansa's hairnet) are PROVEN in-text, not suspected — AGENT_IN/COMMANDS_IN territory, out of scope for this dip. Worth a note that purple-wedding itself carries no AGENT_IN edges for Petyr/Olenna yet, only the more specific death-of-joffrey-baratheon sub-beat has the SUSPECTED_OF edges for Tyrion/Sansa (already in the global existing_suspected_pairs) — did not duplicate those onto purple-wedding to avoid padding.",
+  "red-wedding: Ser Jared Frey's tale that Robb Stark warged into a wolf and slaughtered his own escort is textually voiced but is transparent Frey/Bolton propaganda to launder their own guilt (Wyman Manderly explicitly 'privately disbelieves their lies' in the same passage) — not a genuine in-world whodunit, so no robb-stark SUSPECTED_OF red-wedding candidate was proposed. Flagging in case the orchestrator wants it captured a different way (e.g. as a propaganda/cover-story note rather than a suspicion edge).",
+  "roberts-rebellion: the abduction-of-lyanna passage recurs here, but rhaegar-targaryen/abduction-of-lyanna is already an existing SUSPECTED_OF pair on the more specific event node; adding rhaegar-targaryen/roberts-rebellion as well felt like padding a broad container event, so it was skipped.",
+  "riots-in-kings-landing: Jaime's POV wonders whether Varys had agents abduct Tyrek Lannister (he vanished around the same time). No event node exists yet for 'disappearance of Tyrek Lannister' to target — flagging as a possible future node; a varys-suspected-of edge could be minted once/if that node exists.",
+  "siege-of-astapor: text has Astapori scapegoating both the dead Kraznys mo Nakloz and Daenerys for 'all their woes' during the siege/famine. This reads as diffuse collective blame-casting rather than a specific 'suspected of causing this event' claim (Daenerys plainly did not cause the Yunkai'i siege), so no candidate was proposed — flagging as a borderline case the orchestrator may want a second opinion on.",
+  "sack-of-kings-landing: the passage hints Varys smuggled away the real infant prince so Gregor 'actually killed the so-called pisswater prince' — this is a suspected identity-swap (who the victim was), not a suspected-agent-of-the-event claim, so it doesn't fit the SUSPECTED_OF(character, event) shape. Not proposed; flagging as an interesting but off-pattern case.",
+  "mysarias-accusation: 'Mysaria's Accusation Against Nettles' is Mysaria telling the black council Nettles is Daemon's lover carrying his bastard — an infidelity accusation, not a suspected-of-causing-an-event claim, and the node's own text has no fuller prose beyond that one line. No SUSPECTED_OF candidate fits; skipped.",
+  "wedding-of-robert-i-baratheon-and-cersei-lannister: Cersei suspects Robert of bedding a cousin at Greenstone and has Jaime spy on him — an infidelity suspicion between two people, not a suspected-agent-of-an-event claim against a modeled event node. Skipped as out-of-pattern.",
+  "lysene-spring / secret-siege: share the same Unwin-Peake-as-hidden-mastermind material used for S3 (the-treason-trials). Deliberately did not also stamp unwin-peake SUSPECTED_OF onto these two nodes to avoid three near-duplicate edges for one underlying suspicion — orchestrator may prefer to consolidate onto whichever single node is the canonical hub for the Rogare-conspiracy story."
+ ]
+}

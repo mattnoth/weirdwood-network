@@ -1,7 +1,7 @@
 {
   "slug": "war-for-the-stepstones",
   "name": "War for the Stepstones",
-  "type": "event.battle",
+  "type": "event.war",
   "node_path": "graph/nodes/events/war-for-the-stepstones.node.md",
   "generated_at": "2026-07-10T14:28:37.061221+00:00",
   "stats": {

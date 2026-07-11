@@ -1,6 +1,6 @@
 ---
 name: "War Across the Water"
-type: event.battle
+type: event.war
 slug: war-across-the-water
 aliases: []
 confidence: tier-1

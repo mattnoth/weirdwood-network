@@ -1,7 +1,7 @@
 {
   "slug": "the-winterfell-murders",
   "name": "The Winterfell murders",
-  "type": "event.incident",
+  "type": "event.death",
   "node_path": "graph/nodes/events/the-winterfell-murders.node.md",
   "generated_at": "2026-07-10T14:28:37.083251+00:00",
   "stats": {

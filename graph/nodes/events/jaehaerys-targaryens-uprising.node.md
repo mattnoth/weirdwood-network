@@ -1,6 +1,6 @@
 ---
 name: "Jaehaerys Targaryen's uprising"
-type: event.battle
+type: event.war
 slug: jaehaerys-targaryens-uprising
 aliases: []
 confidence: tier-1

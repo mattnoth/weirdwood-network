@@ -1,6 +1,6 @@
 ---
 name: "Peake Uprising"
-type: event.battle
+type: event.war
 slug: peake-uprising
 aliases: []
 confidence: tier-1

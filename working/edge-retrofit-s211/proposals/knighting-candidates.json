@@ -1,0 +1,170 @@
+{
+ "_meta": {
+  "slice": "knighting",
+  "agent": "knighting-proposer",
+  "packets_processed": 41
+ },
+ "candidates": [
+  {
+   "id": "K1",
+   "type": "KNIGHTED_BY",
+   "source": "gregor-clegane",
+   "target": "rhaegar-targaryen",
+   "book": "agot",
+   "chapter": "agot-sansa-02",
+   "quote": "Four years later, they anointed him with the seven oils and he recited his knightly vows and Rhaegar Targaryen tapped him on the shoulder and said, ‘Arise, Ser Gregor.’",
+   "tier": "tier-1",
+   "note": "Sandor's own recollection names Rhaegar as the dubber, four years after the branding.",
+   "qualifier": ""
+  },
+  {
+   "id": "K2",
+   "type": "KNIGHTED_BY",
+   "source": "hugh-of-the-vale",
+   "target": "robert-i-baratheon",
+   "book": "agot",
+   "chapter": "agot-eddard-07",
+   "quote": "The king knighted him before he rode north, in Jon’s memory.",
+   "tier": "tier-1",
+   "note": "Barristan Selmy to Ned Stark, confirming Robert dubbed Hugh in Jon Arryn's memory.",
+   "qualifier": ""
+  },
+  {
+   "id": "K3",
+   "type": "KNIGHTED_BY",
+   "source": "jacelyn-bywater",
+   "target": "robert-i-baratheon",
+   "book": "acok",
+   "chapter": "acok-tyrion-02",
+   "quote": "King Robert knighted him at Pyke.",
+   "tier": "tier-1",
+   "note": "Tyrion, discussing Jacelyn Bywater's record as City Watch candidate.",
+   "qualifier": ""
+  },
+  {
+   "id": "K4",
+   "type": "KNIGHTED_BY",
+   "source": "raymun-fossoway",
+   "target": "lyonel-baratheon",
+   "book": "thk",
+   "chapter": "thk-dunk-01",
+   "quote": "The Laughing Storm gave an impatient shake of the head. \"Go to him, Ser Duncan. I'll give squire Raymun his knighthood.\"",
+   "tier": "tier-1",
+   "note": "On-page dubbing scene at the trial of seven; \"the Laughing Storm\" = Ser Lyonel Baratheon.",
+   "qualifier": ""
+  },
+  {
+   "id": "K5",
+   "type": "KNIGHTED_BY",
+   "source": "rolly-duckfield",
+   "target": "jon-connington",
+   "book": "adwd",
+   "chapter": "adwd-tyrion-03",
+   "quote": "“Rolly Duckfield. Any knight can make a knight, and Griff made me.”",
+   "tier": "tier-1",
+   "note": "Rolly (\"Duck\") to Tyrion, self-identifying Griff (Jon Connington) as his dubber; corroborated later in same chapter (\"Ser Duck says you knighted him\").",
+   "qualifier": ""
+  },
+  {
+   "id": "K6",
+   "type": "KNIGHTED_BY",
+   "source": "barristan-selmy",
+   "target": "aegon-v-targaryen",
+   "book": "adwd",
+   "chapter": "adwd-the-queensguard-01",
+   "quote": "He had been born during the troubled reign of Aegon the Unlikely, beloved by the common folk, had received his knighthood at his hands.",
+   "tier": "tier-1",
+   "note": "Barristan's own POV; \"Aegon the Unlikely\" = Aegon V Targaryen, at the tourney at King's Landing feast (the wild-boar memory in the boar food node).",
+   "qualifier": ""
+  },
+  {
+   "id": "K7",
+   "type": "KNIGHTED_BY",
+   "source": "harrold-hardyng",
+   "target": "yohn-royce",
+   "book": "affc",
+   "chapter": "affc-alayne-02",
+   "quote": "“Harrold Hardyng. I suppose we must call him Ser Harry now. Bronze Yohn knighted him.”",
+   "tier": "tier-1",
+   "note": "Littlefinger to Alayne/Sansa, after Harry wins the squires' melee at Runestone.",
+   "qualifier": ""
+  },
+  {
+   "id": "K8",
+   "type": "KNIGHTED_BY",
+   "source": "glendon-flowers",
+   "target": "morgan-dunstable",
+   "book": "tmk",
+   "chapter": "tmk-dunk-01",
+   "quote": "I was knighted by Ser Morgan Dunstable of Tumbler's Falls, two dozen people saw it.",
+   "tier": "tier-1",
+   "note": "Ser Glendon (Ball/Flowers) to Dunk, on the road to Whitewalls; corroborated later by Ser Kirby Pimm's account of the same event to Dunk.",
+   "qualifier": ""
+  },
+  {
+   "id": "K9",
+   "type": "KNIGHTED_BY",
+   "source": "duncan-the-tall",
+   "target": "arlan-of-pennytree",
+   "book": "thk",
+   "chapter": "thk-dunk-01",
+   "quote": "He knighted me before he passed, with his own sword.",
+   "tier": "tier-1",
+   "note": "Dunk's own account to Plummer at Ashford; reaffirmed to Lady Rohanne Webber in tss and cited again by the Bastard of Harrenhal's node passage. Unwitnessed per the text, but treated as Dunk's canonical dubbing throughout the D&E stories.",
+   "qualifier": ""
+  },
+  {
+   "id": "K10",
+   "type": "KNIGHTED_BY",
+   "source": "quentyn-martell",
+   "target": "anders-yronwood",
+   "book": "affc",
+   "chapter": "affc-the-soiled-knight-01",
+   "quote": "The prince had been fostered by Lord Yronwood from a tender age, had served him as a page, then a squire, had even taken knighthood at his hands in preference to the Red Viper's.",
+   "tier": "tier-1",
+   "note": "Ser Arys Oakheart POV; \"Lord Yronwood\" here is Anders Yronwood, the Bloodroyal who fostered Quentyn (confirmed elsewhere in the same chapter file). Different pair than the oberyn-martell node's own knighting fact (Oberyn/Daemon Sand), which is wiki_only.",
+   "qualifier": ""
+  }
+ ],
+ "wiki_only": [
+  {
+   "id": "W1",
+   "type": "KNIGHTED_BY",
+   "source": "aerys-ii-targaryen",
+   "target": "tywin-lannister",
+   "chapter": "graph/nodes/characters/aerys-ii-targaryen.node.md",
+   "quote": "Aerys chose to be dubbed a knight by his friend, Tywin.",
+   "tier": "tier-2",
+   "note": "Wiki/TWOIAF-derived (War of the Ninepenny Kings backstory); same fact also stated on tywin-lannister's node. No verbatim book-chapter grounding found in sources/chapters (TWOIAF text is not in the book corpus).",
+   "qualifier": ""
+  },
+  {
+   "id": "W2",
+   "type": "KNIGHTED_BY",
+   "source": "daemon-sand",
+   "target": "oberyn-martell",
+   "chapter": "graph/nodes/characters/oberyn-martell.node.md",
+   "quote": "Oberyn eventually granted knighthood on his squire, Ser Daemon Sand.",
+   "tier": "tier-2",
+   "note": "Wiki-derived. Book chapters (affc-cersei-05, affc-the-princess-in-the-tower-01, adwd-the-watcher-01, asos-tyrion-05) confirm Daemon Sand squired for/was close to the Dornish party but never show the dubbing act itself.",
+   "qualifier": ""
+  },
+  {
+   "id": "W3",
+   "type": "KNIGHTED_BY",
+   "source": "jorah-mormont",
+   "target": "robert-i-baratheon",
+   "chapter": "graph/nodes/events/battle-at-pyke.node.md",
+   "quote": "Jorah was rewarded with knighthood by Robert for his bravery.",
+   "tier": "tier-2",
+   "note": "Close book support exists (acok-daenerys-01:151, Jorah: \"For that I won my knighthood\") but that line never names Robert as the one who dubbed him, so it doesn't clear the quote-must-support-the-claim bar on its own. Flagged for a second look before wiki_only is treated as final.",
+   "qualifier": ""
+  }
+ ],
+ "no_node": [],
+ "flags": [
+  "bronn: mass-knighting after the Battle of the Blackwater. acok-sansa-08:85 confirms only three Kingsguard were on hand to dub the ~600 new knights that day (Balon Swann, Meryn Trant, Osmund Kettleblack), and bronn.node.md names the same three, but no book text singles out which one personally dubbed Bronn specifically. Direction is clear (Bronn = knight) but the specific dubber among three named candidates is genuinely ambiguous — did not propose a candidate to avoid asserting an unconfirmed specific pair; orchestrator may want to decide policy (skip vs. propose all three as tier-2 uncertain).",
+  "robert-stone / osmund-kettleblack: asos-tyrion-05-derived scene (per robert-stone.node.md) has Osmund Kettleblack claiming he was knighted by a 'Ser Robert' on the battlefield, but the text says Jaime 'does not recognize this knight, and is dubious about Ser Robert's actual existence' — reads as a likely fabricated cover story for Osmund's dubious knighthood. Not proposed as KNIGHTED_BY since the published text casts doubt on the dubber (possibly the whole claim) rather than confirming it.",
+  "possible identity note (not resolved here, just flagged while reading): asos-tyrion-05:99 introduces Daemon Sand in a Dornish roll-call as 'Ser Ryon Allyrion and his natural son Ser Daemon Sand, the Bastard of Godsgrace' — phrasing reads as though Daemon Sand is Ryon Allyrion's son, which sits oddly next to the wiki's framing of Daemon Sand as Oberyn Martell's squire/ward. Worth a fresh look outside this dip; did not chase further since it's tangential to the knighting question (W2 above)."
+ ]
+}

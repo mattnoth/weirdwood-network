@@ -1,6 +1,6 @@
 ---
 name: "Arrest of Queen Alicent"
-type: event.incident
+type: event.capture
 slug: arrest-of-queen-alicent
 aliases: []
 confidence: tier-2

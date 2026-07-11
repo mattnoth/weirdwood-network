@@ -1,0 +1,1416 @@
+{
+ "_meta": {
+  "session": "S211",
+  "slice": "knighting",
+  "existing_knight_pairs": [
+   [
+    "aegon-i-targaryen",
+    "maegor-i-targaryen"
+   ],
+   [
+    "aenys-i-targaryen",
+    "bernarr-brune"
+   ],
+   [
+    "alyn-velaryon",
+    "russell-stillman"
+   ],
+   [
+    "arthur-dayne",
+    "jaime-lannister"
+   ],
+   [
+    "baelon-targaryen-son-of-jaehaerys-i",
+    "rickard-redwyne"
+   ],
+   [
+    "bernarr-brune",
+    "aenys-i-targaryen"
+   ],
+   [
+    "daeron-targaryen-son-of-viserys-i",
+    "ormund-hightower"
+   ],
+   [
+    "davos-seaworth",
+    "stannis-baratheon"
+   ],
+   [
+    "jaehaerys-i-targaryen",
+    "rickard-redwyne"
+   ],
+   [
+    "jaime-lannister",
+    "arthur-dayne"
+   ],
+   [
+    "joffrey-doggett",
+    "pate-the-woodcock"
+   ],
+   [
+    "jon-roxton",
+    "titus-peake-son-of-unwin"
+   ],
+   [
+    "maegor-i-targaryen",
+    "aegon-i-targaryen"
+   ],
+   [
+    "marston-waters",
+    "trystane-truefyre"
+   ],
+   [
+    "myles-mooton",
+    "rhaegar-targaryen"
+   ],
+   [
+    "ormund-hightower",
+    "daeron-targaryen-son-of-viserys-i"
+   ],
+   [
+    "pate-of-longleaf",
+    "petyr-piper"
+   ],
+   [
+    "pate-the-woodcock",
+    "joffrey-doggett"
+   ],
+   [
+    "petyr-piper",
+    "pate-of-longleaf"
+   ],
+   [
+    "rhaegar-targaryen",
+    "myles-mooton"
+   ],
+   [
+    "rhaegar-targaryen",
+    "richard-lonmouth"
+   ],
+   [
+    "rhaenyra-targaryen",
+    "ulf-white"
+   ],
+   [
+    "richard-lonmouth",
+    "rhaegar-targaryen"
+   ],
+   [
+    "rickard-redwyne",
+    "baelon-targaryen-son-of-jaehaerys-i"
+   ],
+   [
+    "rickard-redwyne",
+    "jaehaerys-i-targaryen"
+   ],
+   [
+    "russell-stillman",
+    "alyn-velaryon"
+   ],
+   [
+    "stannis-baratheon",
+    "davos-seaworth"
+   ],
+   [
+    "titus-peake-son-of-unwin",
+    "jon-roxton"
+   ],
+   [
+    "trystane-truefyre",
+    "marston-waters"
+   ],
+   [
+    "ulf-white",
+    "rhaenyra-targaryen"
+   ]
+  ]
+ },
+ "packets": [
+  {
+   "slug": "aenys-i-targaryen",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/aenys-i-targaryen.node.md",
+   "passages": [
+    {
+     "around_line": 63,
+     "text": "Convinced that the [smallfolk](wiki:Smallfolk) loved him, Aenys did not understand why people felt the need to rebel against him. He considered sending messengers to the four rebels, to learn why they had rebelled. While Aenys was unable to decide how best to handle the rebels, the lords of the [Seven Kingdoms](wiki:Seven_Kingdoms) took matters into their own hands. Lord [Allard Royce](wiki:Allard_Royce) gathered forces and penned Jonos up in the [Eyrie](wiki:Eyrie), after which Prince Maegor flew up to the Eyrie on [Balerion](wiki:Balerion) to resolve the situation.(wiki:Aenys_I_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-21) Lord [Goren Greyjoy](wiki:Goren_Greyjoy) sent his fleet to [Old Wyk](wiki:Old_Wyk) and [Great Wyk](wiki:Great_Wyk), where thousands of the followers of the priest-king Lodos were massacred. Lodos himself was slain as well, and his pickled head was sent to King Aenys in a jar.(wiki:Aenys_I_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-7)(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-22) The largest of the threats, the Vulture King, was mostly ignored by Princess [Deria Martell](wiki:Deria_Martell), although she assured Aenys that she was doing everything she could to put the rebellion down. Eventually the [marcher lords](wiki:Marcher_lords) resolved the situation, by defeating the followers of the Vulture King and capturing the Vulture King at the conclusion of the [Vulture Hunt](wiki:Vulture_Hunt).(wiki:Aenys_I_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-8)(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-23) Red Harren lasted the longest of all rebels, but he too was eventually defeated. Aenys sent his [Hand of the King](wiki:Hand_of_the_King), Lord [Alyn Stokeworth](wiki:Alyn_Stokeworth), to hunt Harren down with a few hundred men. Harren was eventually killed by Lord Alyn's squire, [Bernarr Brune](wiki:Bernarr_Brune).(wiki:Aenys_I_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-9)(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-24)\n\nWhen all these insurrections finally ended, Aenys rewarded all [lords](wiki:Lord) and [knights](wiki:Knight) who had led their forces against the rebels with gold, titles, and lands. Bernarr Brune was personally knighted by Aenys as a reward for his service. Aenys granted Goren Greyjoy *\"any boon he might desire\"* as a show of gratitude, a decision Aenys would later regret as Goren required that he be allowed to expel the [Faith of the Seven](wiki:Faith_of_the_Seven) from the Iron Islands, much to the Faith's fury.(wiki:Aenys_I_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-10)(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-25)\n\nAs Lord Alyn Stokeworth had been killed by Red Harren, Aenys named his brother Maegor as his new Hand of the King. Despite their differences, the brothers ruled together amicably for two years.(wiki:Aenys_I_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-11)(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-26) In [39\u00a0AC](wiki:39_AC), shortly after the birth of Aenys's sixth child, [Vaella](wiki:Vaella_Targaryen_(daughter_of_Aenys_I)) (who died in the cradle), a new crisis arose. Prince Maegor announced that [his wife](wiki:Ceryse_Hightower) was barren and that he had thus taken a [second wife](wiki:Alys_Harroway). Aenys and Maegor quarreled bitterly about the [polygamous marriage](wiki:Polygamy). The [High Septon](wiki:High_Septon_(Aenys_I)) denounced the marriage, and many of the pious lords in the realm similarly condemned it. Feeling he had no other option,(wiki:Aenys_I_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-12) a furious Aenys gave his brother a choice: either set [Alys Harroway](wiki:Alys_Harroway) aside or go into exile for five years. Maegor chose the latter option, and left for [Pentos](wiki:Pentos) in [40\u00a0AC](wiki:Years_after_Aegon's_Conquest) with Alys and Balerion. Aenys requested that his brother return Blackfyre before he left, but Maegor refused to do so.(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-27) In an attempt to placate the Faith, Aenys named [Septon](wiki:Septon) [Murmison](wiki:Murmison) as his new Hand of the King. However, the High Septon continued to voice his discontent, while the lords of [Westeros](wiki:Westeros) began to call Aenys weak and consider him incapable of ruling. Aenys was oblivious to these criticisms."
+    }
+   ],
+   "existing_edges": [
+    "out:SUCCEEDS:aegon-i-targaryen",
+    "in:PARENT_OF:aegon-i-targaryen",
+    "out:PARENT_OF:aegon-targaryen-son-of-aenys-i",
+    "out:HOLDS_TITLE:prince",
+    "out:HOLDS_TITLE:king-of-the-andals-the-rhoynar-and-the-first-men",
+    "out:HOLDS_TITLE:lord-of-the-seven-kingdoms",
+    "out:HOLDS_TITLE:protector-of-the-realm",
+    "in:SUCCEEDS:maegor-i-targaryen",
+    "out:BORN_AT:dragonstone",
+    "out:DIED_AT:dragonstone",
+    "out:BURIED_AT:dragonstone",
+    "out:CULTURE_OF:valyrian",
+    "out:CULTURE_OF:crownlander",
+    "out:PARENT_OF:jaehaerys-i-targaryen",
+    "out:PARENT_OF:alysanne-targaryen",
+    "in:PARENT_OF:rhaenys-targaryen",
+    "in:SPOUSE_OF:alyssa-velaryon",
+    "out:PARENT_OF:rhaena-targaryen-daughter-of-aenys-i",
+    "out:PARENT_OF:vaella-targaryen-daughter-of-aenys-i",
+    "out:PARENT_OF:viserys-targaryen-son-of-aenys-i",
+    "in:HEIR_TO:aegon-targaryen-son-of-aenys-i",
+    "in:PARENT_OF:aegon-i-targaryen",
+    "in:PARENT_OF:rhaenys-targaryen",
+    "out:SIBLING_OF:maegor-i-targaryen",
+    "out:SPOUSE_OF:alyssa-velaryon",
+    "out:PARENT_OF:rhaena-targaryen-daughter-of-aenys-i",
+    "out:PARENT_OF:viserys-targaryen-son-of-aenys-i",
+    "out:PARENT_OF:vaella-targaryen-daughter-of-aenys-i",
+    "out:HEIR_TO:aegon-i-targaryen",
+    "out:SUCCEEDS:aegon-i-targaryen",
+    "out:APPOINTS:maegor-i-targaryen",
+    "out:BANISHES:maegor-i-targaryen",
+    "out:BESTOWS_KNIGHTHOOD_ON:bernarr-brune",
+    "out:LOVES:alyssa-velaryon",
+    "out:PARTICIPATES_IN:birth-of-aenys-targaryen",
+    "out:AGENT_IN:exile-of-maegor",
+    "in:PARENT_OF:aegon-i-targaryen",
+    "in:PARENT_OF:rhaenys-targaryen",
+    "out:PARENT_OF:aegon-targaryen-son-of-aenys-i",
+    "out:PARENT_OF:viserys-targaryen-son-of-aenys-i",
+    "...(+42 more)"
+   ]
+  },
+  {
+   "slug": "aerys-ii-targaryen",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/aerys-ii-targaryen.node.md",
+   "passages": [
+    {
+     "around_line": 55,
+     "text": "In [259\u00a0AC](wiki:259_AC), Rhaella gave birth to their firstborn son and heir, Prince [Rhaegar](wiki:Rhaegar_Targaryen), during the [tragedy of Summerhall](wiki:Tragedy_of_Summerhall),(wiki:Aerys_II_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13) which killed King Aegon V, his eldest son Prince [Duncan](wiki:Duncan_Targaryen), and many others.(wiki:Aerys_II_Targaryen.cite_ref-Rawoiafrhaegar_targaryen.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0) Aerys's father, Jaehaerys, ascended the [Iron Throne](wiki:Iron_Throne) after this tragedy. It would later be rumored that, on the night of Jaehaerys's coronation, Aerys took the maidenhead of Lady [Joanna Lannister](wiki:Joanna_Lannister), who had come to court for the celebrations.(wiki:Aerys_II_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-14)\n\nAerys was a squire during the [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings). He fought on the [Stepstones](wiki:Stepstones), and received his [knighthood](wiki:Knight) there at the age of sixteen. Aerys chose to be dubbed a knight by his friend, Tywin. When King Jaehaerys II passed away from [illness](wiki:Illness) in [262\u00a0AC](wiki:262_AC), Aerys was crowned as King Aerys II Targaryen.(wiki:Aerys_II_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-15)\n\n### Early reign"
+    }
+   ],
+   "existing_edges": [
+    "in:KILLS:jaime-lannister",
+    "in:SERVES:jaime-lannister",
+    "in:SERVES:lord-redwyne",
+    "in:RESPECTS:barristan-selmy",
+    "in:SERVES:barristan-selmy",
+    "in:RESENTS:jaime-lannister",
+    "in:RESCUES:barristan-selmy",
+    "in:RESENTS:cersei-lannister",
+    "out:FEARS:jaime-lannister",
+    "in:VOWS_TO:jaime-lannister",
+    "in:SWORN_TO:barristan-selmy",
+    "in:SWORN_TO:hallyne",
+    "in:PARALLELS:cersei-lannister",
+    "in:RESENTS:jon-connington",
+    "out:PARENT_OF:aegon-targaryen-son-of-aerys-ii",
+    "in:LOVER_OF:aerys-ii-targaryens-last-mistress",
+    "out:HOLDS_TITLE:prince-of-dragonstone",
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:king-of-the-andals-the-rhoynar-and-the-first-men",
+    "out:HOLDS_TITLE:lord-of-the-seven-kingdoms",
+    "out:HOLDS_TITLE:protector-of-the-realm",
+    "out:SUCCEEDS:jaehaerys-ii-targaryen",
+    "in:HEIR_TO:rhaegar-targaryen",
+    "in:HEIR_TO:viserys-targaryen",
+    "in:SUCCEEDS:robert-i-baratheon",
+    "out:BORN_AT:red-keep",
+    "out:BORN_AT:kings-landing",
+    "out:DIED_AT:kings-landing",
+    "out:PARENT_OF:rhaegar-targaryen",
+    "out:PARENT_OF:shaena-targaryen",
+    "out:PARENT_OF:viserys-targaryen",
+    "out:PARENT_OF:daenerys-targaryen",
+    "in:PARENT_OF:jaehaerys-ii-targaryen",
+    "in:PARENT_OF:shaera-targaryen",
+    "out:PARENT_OF:daeron-targaryen-son-of-aerys-ii",
+    "out:HEIR_TO:jaehaerys-ii-targaryen",
+    "out:PARENT_OF:jaehaerys-targaryen-son-of-aerys-ii",
+    "in:SPOUSE_OF:rhaella-targaryen",
+    "out:VICTIM_IN:defiance-of-duskendale",
+    "out:VICTIM_IN:sack-of-kings-landing",
+    "...(+8 more)"
+   ]
+  },
+  {
+   "slug": "alyn-velaryon",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/alyn-velaryon.node.md",
+   "passages": [
+    {
+     "around_line": 108,
+     "text": "Alyn had an unknown number of children with his wife, Lady [Baela Targaryen](wiki:Baela_Targaryen).(wiki:Alyn_Velaryon.cite_ref-Rtwoiaf101.7B.7B.7B4.7D.7D.7D_19-0) Although he was married, he loved the Princess [Elaena Targaryen](wiki:Elaena_Targaryen),(wiki:Alyn_Velaryon.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1) and would have two bastards by her, the twins [Jon](wiki:Jon_Waters) and [Jeyne Waters](wiki:Jeyne_Waters).(wiki:Alyn_Velaryon.cite_ref-Rtwoiaf49.7B.7B.7B4.7D.7D.7D_10-3) Alyn disappeared at sea circa [171](wiki:Years_after_Aegon's_Conquest)\u2013[176\u00a0AC](wiki:Years_after_Aegon's_Conquest).(wiki:Alyn_Velaryon.cite_ref-calculation_8-1) A year after his disappearance, Elaena, who had hoped to marry him, agreed to wed another.(wiki:Alyn_Velaryon.cite_ref-Rtwoiaf49.7B.7B.7B4.7D.7D.7D_10-4)\n\nTwo biographies, considered to be vulgar and unreliable, if colorful, were written about Alyn. The first, *[Hard as Oak](wiki:Hard_as_Oak)*, was written by Ser [Russell Stillman](wiki:Russell_Stillman), who [squired](wiki:Squire) for and was knighted by Alyn. The other, *[Bastard Born](wiki:Bastard_Born)*, was written by [Rue](wiki:Rue), who may have been a [septa](wiki:Septa) and may have been one of the Oakenfist's [paramours](wiki:Paramour).(wiki:Alyn_Velaryon.cite_ref-Rfab22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12) The book *[Six Times to Sea: Being an Account of the Great Voyages of Alyn Oakenfist](wiki:Six_Times_to_Sea:_Being_an_Account_of_the_Great_Voyages_of_Alyn_Oakenfist)*, by Maester [Bendamure](wiki:Bendamure), is considered to be the most complete and authoritative source on Alyn's life and voyages.(wiki:Alyn_Velaryon.cite_ref-Rfab22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)\n\n## Appearances & Description"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:lord-of-the-tides",
+    "out:HOLDS_TITLE:master-of-driftmark",
+    "out:HOLDS_TITLE:master-of-ships",
+    "out:SWORN_TO:house-velaryon",
+    "out:SWORN_TO:house-targaryen",
+    "out:SWORN_TO:blacks",
+    "out:CULTURE_OF:valyrian",
+    "out:CULTURE_OF:crownlands",
+    "out:BORN_AT:hull",
+    "out:BORN_AT:driftmark",
+    "in:PARENT_OF:marilda-of-hull",
+    "out:SPOUSE_OF:baela-targaryen",
+    "out:LOVER_OF:elaena-targaryen",
+    "out:PARENT_OF:jon-waters",
+    "out:PARENT_OF:jeyne-waters",
+    "out:PARENT_OF:laena-velaryon-daughter-of-alyn",
+    "in:SIBLING_OF:addam-velaryon",
+    "in:PARENT_OF:laenor-velaryon",
+    "in:PARENT_OF:corlys-velaryon",
+    "in:RESCUES:addam-velaryon",
+    "in:SIBLING_OF:addam-velaryon",
+    "in:PARENT_OF:marilda-of-hull",
+    "out:SIBLING_OF:addam-velaryon",
+    "out:COMMANDS:house-velaryon",
+    "out:OPPOSES:aegon-ii-targaryen",
+    "in:PARENT_OF:marilda-of-hull",
+    "out:SPOUSE_OF:baela-targaryen",
+    "in:ATTACKS:rhogar-velaryon",
+    "out:SPOUSE_OF:baela-targaryen",
+    "out:ALIAS_OF:alyn-velaryon",
+    "in:ALIAS_OF:alyn-velaryon",
+    "in:DECEIVES:unwin-peake",
+    "in:APPOINTS:unwin-peake",
+    "out:AGENT_IN:sinking-of-the-grand-defiance",
+    "out:PARTICIPATES_IN:alyn-dispatched-against-the-ironmen",
+    "in:SERVES:daeron-velaryon",
+    "in:WARD_OF:daenaera-velaryon",
+    "out:PARENT_OF:laena-velaryon-daughter-of-alyn",
+    "in:SERVES:russell-stillman",
+    "...(+41 more)"
+   ]
+  },
+  {
+   "slug": "arlan-of-pennytree",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/arlan-of-pennytree.node.md",
+   "passages": [
+    {
+     "around_line": 45,
+     "text": "At some later point Arlan met [Dunk](wiki:Duncan_the_Tall) in the slums of [Flea Bottom](wiki:Flea_Bottom) in King's Landing, and took him for his squire.(wiki:Arlan_of_Pennytree.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)(wiki:Arlan_of_Pennytree.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) The two of them remained together for years. Arlan and Ser [Bennis of the Brown Shield](wiki:Bennis_of_the_Brown_Shield) were among knights hired by a [Dornish](wiki:Dorne) merchant to escort him from [Lannisport](wiki:Lannisport) to the [Prince's Pass](wiki:Prince's_Pass).(wiki:Arlan_of_Pennytree.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5) Arlan and Dunk also served at [Highgarden](wiki:Highgarden) for a time,(wiki:Arlan_of_Pennytree.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10) and they also marched with a few peasant levies.(wiki:Arlan_of_Pennytree.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) Arlan once helped hang an [outlaw](wiki:Outlaw) who had been stealing rings.(wiki:Arlan_of_Pennytree.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6) Arlan also served a minor lord in the [stormlands](wiki:Stormlands) in a regional dispute.(wiki:Arlan_of_Pennytree.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)\nThree years before the [tourney at Ashford Meadow](wiki:Tourney_at_Ashford_Meadow), Arlan and Dunk served Lord [Dondarrion](wiki:House_Dondarrion) in the battle with the [Vulture King](wiki:Vulture_King_(Daeron_II)). Also three years before the Ashford tourney, Arlan spent a half year in service to [Lord Florent](wiki:Lord_Florent). Once, a drunken Arlan promised to take Dunk to a [brothel](wiki:Brothel), but the knight did not remember the promise once sober.(wiki:Arlan_of_Pennytree.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)\nArlan died of a chill on the road leading to [Ashford Meadow](wiki:Ashford_Meadow) in [209 AC](wiki:209_AC). Dunk buried Arlan's body on the western slope of a hill, facing the sunset. Dunk continued on to the tourney. At [Ashford](wiki:Ashford) he claimed to [Plummer](wiki:Plummer) that Arlan had knighted him as Ser Duncan the Tall before his passing, although there were no witnesses to the ceremony.(wiki:Arlan_of_Pennytree.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12) Two years later, Duncan also claimed to Lady [Rohanne Webber](wiki:Rohanne_Webber) that he had been knighted by Arlan.(wiki:Arlan_of_Pennytree.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)\n\n## Quotes"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-dondarrion",
+    "out:SWORN_TO:house-florent",
+    "out:SWORN_TO:house-hayford",
+    "out:SWORN_TO:house-tyrell",
+    "out:CULTURE_OF:rivermen",
+    "out:BORN_AT:pennytree",
+    "out:DIED_AT:reach",
+    "out:DIED_AT:ashford",
+    "out:OWNS:chestnut",
+    "out:OWNS:sweetfoot",
+    "out:OWNS:thunder"
+   ]
+  },
+  {
+   "slug": "arthur-dayne",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/arthur-dayne.node.md",
+   "passages": [
+    {
+     "around_line": 89,
+     "text": "> \u2014[Eddard Stark](wiki:Eddard_Stark) to [Bran Stark](wiki:Bran_Stark)\n\n> **Arstan:** [Myles Mooton](wiki:Myles_Mooton) was Prince [Rhaegar's](wiki:Rhaegar_Targaryen) squire, and [Richard Lonmouth](wiki:Richard_Lonmouth) after him. When they won their spurs, he knighted them himself, and they remained his close companions. Young Lord [Connington](wiki:Jon_Connington) was dear to the prince as well, but his oldest friend was Arthur Dayne.\n>\n> **Daenerys:** The [Sword of the Morning](wiki:Sword_of_the_Morning)! [Viserys](wiki:Viserys_Targaryen) used to talk about his [wondrous white blade](wiki:Dawn). He said Ser Arthur was the only knight in [the realm](wiki:Seven_Kingdoms) who was our brother's peer."
+    }
+   ],
+   "existing_edges": [
+    "in:TUTORS:jaime-lannister",
+    "in:RESPECTS:jaime-lannister",
+    "in:KILLS:eddard-stark",
+    "in:DEFEATS:rhaegar-targaryen",
+    "in:COMPANION_OF:barristan-selmy",
+    "in:COMPANION_OF:rhaegar-targaryen",
+    "out:BESTOWS_KNIGHTHOOD_ON:jaime-lannister",
+    "in:RESENTS:gerold-dayne",
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:sword-of-the-morning",
+    "out:SWORN_TO:house-dayne",
+    "out:SWORN_TO:kingsguard",
+    "out:CULTURE_OF:dornishmen",
+    "out:BORN_AT:dorne",
+    "out:FIGHTS_IN:combat-at-the-tower-of-joy",
+    "out:FIGHTS_IN:tourney-at-harrenhal"
+   ]
+  },
+  {
+   "slug": "baelon-targaryen-son-of-jaehaerys-i",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/baelon-targaryen-son-of-jaehaerys-i.node.md",
+   "passages": [
+    {
+     "around_line": 33,
+     "text": "The first time Baelon visited the [Dragonpit](wiki:Dragonpit), he hit [Balerion](wiki:Balerion) on the snout, causing Ser [Samgood](wiki:Samgood_of_Sour_Hill) of the [Kingsguard](wiki:Kingsguard) to remark that he was either brave or [mad](wiki:Targaryen_madness). Ever since, Baelon was also known as *Baelon the Brave*.(wiki:Baelon_Targaryen_(son_of_Jaehaerys_I).cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)\n\nIn [72\u00a0AC](wiki:Years_after_Aegon's_Conquest) Baelon took part in a squires melee during a [tourney held to celebrate Lord Darklyn's wedding](wiki:Tourney_at_Duskendale_in_honor_of_Lord_Darklyn's_wedding), in which he was defeated by Aemon.(wiki:Baelon_Targaryen_(son_of_Jaehaerys_I).cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) Baelon won his spurs the following year, at the age of sixteen, taking part in a [tourney at Old Oak](wiki:Tourney_at_Old_Oak), entering the lists as a [mystery knight](wiki:Mystery_knight) called the *Silver Fool*. Baelon unhorsed Lord [Rowan](wiki:House_Rowan), Ser [Alyn Ashford](wiki:Alyn_Ashford), both [Fossoway twins](wiki:Fossoway_twins), and Lord Oakheart's heir, Ser [Denys](wiki:Denys_Oakheart), before falling to Ser [Rickard Redwyne](wiki:Rickard_Redwyne). Ser Rickard helped him to his feet, unmasked him, and knighted him on the spot. Prince Baelon remained at Old Oak only for the feast. Afterwards, he returned to [King's Landing](wiki:King's_Landing), where he became a [dragonrider](wiki:Dragonrider) by claiming the [dragon](wiki:Dragon) [Vhagar](wiki:Vhagar).(wiki:Baelon_Targaryen_(son_of_Jaehaerys_I).cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)\n\nThat same year, at the request of his father, Baelon began training his younger brother [Vaegon](wiki:Vaegon_Targaryen). They continued to train for a year, but Vaegon had no skill and no interest in his training. After Baelon made Vaegon fight against their sister [Alyssa](wiki:Alyssa_Targaryen), resulting in Vaegon leaving the yard humiliated, their trainings were at an end."
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:prince-of-dragonstone",
+    "out:HOLDS_TITLE:hand-of-the-king",
+    "out:SWORN_TO:house-targaryen",
+    "out:CULTURE_OF:valyrian",
+    "out:CULTURE_OF:crownlands",
+    "out:DIED_AT:tower-of-the-hand",
+    "out:DIED_AT:kings-landing",
+    "in:PARENT_OF:jaehaerys-i-targaryen",
+    "in:PARENT_OF:alysanne-targaryen",
+    "out:SPOUSE_OF:alyssa-targaryen",
+    "out:PARENT_OF:viserys-i-targaryen",
+    "out:PARENT_OF:daemon-targaryen",
+    "out:PARENT_OF:aegon-targaryen-son-of-baelon",
+    "out:HEIR_TO:jaehaerys-i-targaryen",
+    "in:PARENT_OF:jaehaerys-i-targaryen",
+    "in:PARENT_OF:alysanne-targaryen",
+    "in:SIBLING_OF:aemon-targaryen-son-of-jaehaerys-i",
+    "out:SIBLING_OF:daenerys-targaryen-daughter-of-jaehaerys-i",
+    "in:NAMED_AFTER:baela-targaryen",
+    "out:FIGHTS_IN:myrish-bloodbath",
+    "out:WIELDS:dark-sister",
+    "in:PARENT_OF:jaehaerys-i-targaryen",
+    "in:SIBLING_OF:aemon-targaryen-son-of-jaehaerys-i",
+    "out:HEIR_TO:jaehaerys-i-targaryen",
+    "out:SPOUSE_OF:alyssa-targaryen",
+    "out:SIBLING_OF:alyssa-targaryen",
+    "out:PARENT_OF:viserys-i-targaryen",
+    "out:PARENT_OF:daemon-targaryen",
+    "in:APPOINTS:jaehaerys-i-targaryen",
+    "out:AGENT_IN:death-of-prince-baelon",
+    "out:ATTACKS:balerion",
+    "out:PARTICIPATES_IN:birth-of-baelon-targaryen",
+    "in:PARENT_OF:jaehaerys-i-targaryen",
+    "in:SIBLING_OF:aemon-targaryen-son-of-jaehaerys-i",
+    "in:PARENT_OF:jaehaerys-i-targaryen",
+    "in:PARENT_OF:alysanne-targaryen",
+    "out:PARENT_OF:viserys-i-targaryen",
+    "out:BONDED_TO:vhagar",
+    "out:DEFEATS:house-rowan",
+    "...(+27 more)"
+   ]
+  },
+  {
+   "slug": "bastard-of-harrenhal",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/bastard-of-harrenhal.node.md",
+   "passages": [
+    {
+     "around_line": 25,
+     "text": "He was defeated by Ser [Arlan of Pennytree](wiki:Arlan_of_Pennytree) in the [melee](wiki:Martial_games) at a [tourney](wiki:Tourney) at [King's Landing](wiki:King's_Landing) in [193\u00a0AC](wiki:Years_after_Aegon's_Conquest).(wiki:Bastard_of_Harrenhal.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)\n\nIn [209\u00a0AC](wiki:209_AC), Ser [Duncan the Tall](wiki:Duncan_the_Tall) was trying to prove his [knightly](wiki:Knight) status in order to participate in the [tourney](wiki:Ashford_tourney) at [Ashford](wiki:Ashford), claiming that he was knighted by his late master, Ser Arlan of Pennytree. [Lord Ashford](wiki:Lord_Ashford) said they had no proof of Arlan's existence or, if he did exist, that Duncan ever [squired](wiki:Squire) for him. However, [Baelor \"Breakspear\" Targaryen](wiki:Baelor_Targaryen_(son_of_Daeron_II)), [Prince of Dragonstone](wiki:Prince_of_Dragonstone), stated that he recalled Ser Arlan, citing the tourney at King's Landing where he defeated the Bastard of Harrenhal, as well as from other tourneys. Prince Baelor asked Duncan further questions to prove his story, which he answered correctly.(wiki:Bastard_of_Harrenhal.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)\n\n## Quotes"
+    }
+   ],
+   "existing_edges": [
+    "out:SWORN_TO:house-lothston",
+    "out:CULTURE_OF:rivermen"
+   ]
+  },
+  {
+   "slug": "bernarr-brune",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/bernarr-brune.node.md",
+   "passages": [
+    {
+     "around_line": 16,
+     "text": "## Identity\n\nBernarr Brune \u2014 Ser Bernarr Brune, the squire who had slain Harren the Red and been knighted by Aenys, shamed the crowd into offering their swords for Maegor.\n\n## Edges"
+    },
+    {
+     "around_line": 43,
+     "text": "<!-- fab-enriched: fab-sons-of-the-dragon-05-p02-2026-07-09 -->\n\n- Ser Bernarr Brune, the squire who had slain Harren the Red and been knighted by Aenys, shamed the crowd into offering their swords for Maegor (fab-sons-of-the-dragon-05-p02:109)"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-brune",
+    "out:CULTURE_OF:crackclaws",
+    "out:DIED_AT:kings-landing",
+    "in:BESTOWS_KNIGHTHOOD_ON:aenys-i-targaryen",
+    "out:KILLS:harren-the-red",
+    "in:BESTOWS_KNIGHTHOOD_ON:aenys-i-targaryen",
+    "out:KILLS:harren-the-red",
+    "out:AGENT_IN:death-of-harren-the-red"
+   ]
+  },
+  {
+   "slug": "bronn",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/bronn.node.md",
+   "passages": [
+    {
+     "around_line": 55,
+     "text": "With [Stannis Baratheon](wiki:Stannis_Baratheon)'s host traveling north toward King's Landing, Tyrion orders Bronn to have the waterfront burned between the [Blackwater Rush](wiki:Blackwater_Rush) and the city walls.(wiki:Bronn.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1) Queen [Cersei Lannister](wiki:Cersei_Lannister) has Ser [Osmund Kettleblack](wiki:Osmund_Kettleblack) named to the Kingsguard, but the man is actually one of Bronn's informants.(wiki:Bronn.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)\n\nDuring the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater), Bronn is put in charge of having oxen pull Tyrion's massive chain tight across the Blackwater, which prevents [Stannis's ships](wiki:Royal_fleet) from escaping [wildfire](wiki:Wildfire).(wiki:Bronn.cite_ref-Racok59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0) He receives [knighthood](wiki:Knight) after the battle,(wiki:Bronn.cite_ref-Racok67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0) one of the six hundred men knighted by Osmund, Ser [Balon Swann](wiki:Balon_Swann), and Ser [Meryn Trant](wiki:Meryn_Trant) of the Kingsguard.(wiki:Bronn.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)(wiki:Bronn.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)\n\n### A Storm of Swords"
+    }
+   ],
+   "existing_edges": [
+    "in:DISTRUSTS:catelyn-stark",
+    "in:ALLIES_WITH:tyrion-lannister",
+    "out:KILLS:vardis-egen",
+    "out:ALLIES_WITH:tyrion-lannister",
+    "out:KILLS:chiggen",
+    "in:RESPECTS:tyrion-lannister",
+    "out:SERVES:tyrion-lannister",
+    "in:COMMANDS:tyrion-lannister",
+    "in:DISTRUSTS:tyrion-lannister",
+    "in:TRUSTS:tyrion-lannister",
+    "out:BETROTHED_TO:lollys-stokeworth",
+    "in:CONTRACTED_WITH:tyrion-lannister",
+    "out:PROTECTS:tyrion-lannister",
+    "out:BETRAYS:catelyn-stark",
+    "in:APPOINTS:tyrion-lannister",
+    "out:RESENTS:tywin-lannister",
+    "out:LOVER_OF:alayaya",
+    "in:COMPANION_OF:tyrion-lannister",
+    "out:GUEST_OF:lysa-arryn",
+    "out:GUEST_OF:chataya",
+    "in:GUEST_OF:falyse-stokeworth",
+    "out:AGENT_IN:bronn-kills-ser-vardis",
+    "out:AGENT_IN:the-battle",
+    "out:AGENT_IN:mountain-clansmen-attack",
+    "out:AGENT_IN:tyrion-asks-bronn-to-protect-him-in-battle",
+    "out:AGENT_IN:assassination-of-symon-silver-tongue",
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:lord",
+    "out:SWORN_TO:house-lannister",
+    "out:SWORN_TO:city-watch-of-kings-landing",
+    "out:SWORN_TO:house-stokeworth",
+    "out:SPOUSE_OF:lollys-stokeworth",
+    "out:COMMANDS_IN:battle-of-the-blackwater"
+   ]
+  },
+  {
+   "slug": "cosgrove",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/cosgrove.node.md",
+   "passages": [
+    {
+     "around_line": 27,
+     "text": "During the [wedding tourney at Whitewalls](wiki:Wedding_tourney_at_Whitewalls), Cosgrove acted as the [master of the games](wiki:Master_of_the_games). Ser [Duncan the Tall](wiki:Duncan_the_Tall) sent his squire, [Egg](wiki:Aegon_V_Targaryen), to meet with Cosgrove and enter the [hedge knight](wiki:Hedge_knight) in the lists as a [mystery knight](wiki:Mystery_knight) called the Gallows Knight.(wiki:Cosgrove.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Ser [Uthor Underleaf](wiki:Uthor_Underleaf) bribed Cosgrove for favorable matches.(wiki:Cosgrove.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)\n\nCosgrove was reluctant to admit Ser [Glendon Flowers](wiki:Glendon_Flowers) to Lord [Ambrose Butterwell](wiki:Ambrose_Butterwell)'s feast within [Whitewalls](wiki:Whitewalls), insisting that Ser [Quentyn Ball](wiki:Quentyn_Ball) did not have a son and disregarding Glendon's claim of having been knighted by Ser [Morgan Dunstable](wiki:Morgan_Dunstable). Ser [Kirby Pimm](wiki:Kirby_Pimm) spoke with Cosgrove, however, and Glendon was eventually allowed to attend the feast. (wiki:Cosgrove.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)\n\n## Quotes"
+    }
+   ],
+   "existing_edges": [
+    "out:SWORN_TO:house-butterwell",
+    "out:CULTURE_OF:rivermen"
+   ]
+  },
+  {
+   "slug": "daeron-targaryen-son-of-viserys-i",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/daeron-targaryen-son-of-viserys-i.node.md",
+   "passages": [
+    {
+     "around_line": 95,
+     "text": "\n- The youngest of Alicent's three sons, fifteen and Ormund Hightower's squire, once milk brother to Jacaerys (fab-the-red-dragon-and-the-gold-17-p02:61)\n- His arrival on Tessarion reversed the tide at the Honeywine, after which Ormund knighted him with the Valyrian longsword Vigilance as \"Ser Daeron the Daring\" (fab-the-red-dragon-and-the-gold-17-p02:61)\n- He deflected the honor to his dragon (fab-the-red-dragon-and-the-gold-17-p02:61)\n- In the Reach he continued to win victories as Lord Hightower's ward (fab-the-red-dragon-and-the-gold-17-p02:215)"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:prince",
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-targaryen",
+    "out:SWORN_TO:greens",
+    "out:CULTURE_OF:valyrian",
+    "out:CULTURE_OF:crownlands",
+    "out:BORN_AT:kings-landing",
+    "out:DIED_AT:tumbleton",
+    "in:PARENT_OF:viserys-i-targaryen",
+    "in:PARENT_OF:alicent-hightower",
+    "out:OWNS:tessarion",
+    "in:PARENT_OF:viserys-i-targaryen",
+    "in:MILK_BROTHER_OF:jacaerys-velaryon",
+    "in:PARENT_OF:alicent-hightower",
+    "in:SIBLING_OF:aegon-ii-targaryen",
+    "out:SERVES:lord-hightower",
+    "out:BONDED_TO:tessarion",
+    "out:PARTICIPATES_IN:daeron-targaryen-son-of-viserys-i-sent-to-oldtown",
+    "in:PARENT_OF:alicent-hightower",
+    "in:SIBLING_OF:aegon-ii-targaryen",
+    "out:BONDED_TO:tessarion",
+    "out:BONDED_TO:tessarion",
+    "in:PARENT_OF:alicent-hightower",
+    "out:COMMANDS:hobert-hightower",
+    "out:APPOINTS:ulf-white",
+    "out:PARTICIPATES_IN:birth-of-daeron",
+    "out:BONDED_TO:tessarion",
+    "out:ATTACKS:hugh-hammer",
+    "out:CONSPIRES_WITH:unwin-peake",
+    "in:KILLS:black-trombo",
+    "out:VICTIM_IN:death-of-prince-daeron-targaryen",
+    "in:PARENT_OF:alicent-hightower",
+    "out:MILK_BROTHER_OF:jacaerys-velaryon",
+    "in:WARD_OF:ormund-hightower",
+    "out:SERVES:ormund-hightower",
+    "out:BONDED_TO:tessarion",
+    "in:KNIGHTED_BY:ormund-hightower",
+    "out:AGENT_IN:battle-of-the-honeywine",
+    "out:UNCLE_OF:maelor-targaryen",
+    "in:PARENT_OF:alicent-hightower"
+   ]
+  },
+  {
+   "slug": "duncan-the-tall",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/duncan-the-tall.node.md",
+   "passages": [
+    {
+     "around_line": 46,
+     "text": "Duncan made camp, and that evening discovered the bald boy from the inn at his camp. When the boy assumed that Dunk's name was short for Duncan, Dunk agreed, calling himself Ser Duncan the Tall, for his height and because it sounded powerful. The boy claimed to be called \"Egg\" and said he came from [King's Landing](wiki:King's_Landing), causing Dunk to believe the boy was an orphan from [Flea Bottom](wiki:Flea_Bottom), just like he had been. Because he did not have a squire, Dunk accepted Egg as his squire for the duration of the tourney. That night, in their camp under an [elm](wiki:Elm) tree, Dunk saw a green [falling star](wiki:Astronomy), which he believed was lucky.(wiki:Duncan_the_Tall.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-20)\n\nOnce at the tourney grounds, Duncan was forced to sell [Sweetfoot](wiki:Sweetfoot), one of his [horses](wiki:Horse), and Arlan's old [armor](wiki:Armor), in order to buy armor of his own from [Steely Pate](wiki:Steely_Pate). He met a puppeteer named [Tanselle](wiki:Tanselle), who was performing at a stall on the tourney grounds. The day after Dunk's arrival, he went to register for the tourney, which required [knighthood](wiki:Knighthood) to participate. Identifying himself as Ser Duncan the Tall, Dunk told [Plummer](wiki:Plummer), [Lord Ashford](wiki:Lord_Ashford)'s steward, how Arlan had knighted him before his death. Several of his thoughts and actions, as well as other facts, however, suggest that his tale is not completely true.(wiki:Duncan_the_Tall.cite_ref-knighthood_17-0) Plummer suggested that Duncan find someone to vouch for him and return the next day.(wiki:Duncan_the_Tall.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-24)\n\nUnable to find anyone, Duncan returned to the castle the next day, where he accidentally interrupted Prince [Baelor](wiki:Baelor_Targaryen_(son_of_Daeron_II)) and Prince [Maekar Targaryen](wiki:Maekar_I_Targaryen), who were occupied with the missing Princes [Daeron](wiki:Daeron_Targaryen_(son_of_Maekar_I)) and [Aegon](wiki:Aegon_V_Targaryen), two of Maekar's sons. After Duncan explained his problem to the princes, Baelor recalled jousting against Arlan years before, and vouched for Duncan, allowing his participation. Since Dunk's shield displayed the winged chalice arms of the late Arlan, Baelor said he could not bear the sigil himself, as he was not Arlan's trueborn son. Dunk paid Tanselle to paint over the shield with a new design, a green shooting star above an elm tree at sunset; a sunset because Arlan liked them, an elm for the tree by his camp, and a shooting star for the lucky one he had seen.(wiki:Duncan_the_Tall.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-25)"
+    }
+   ],
+   "existing_edges": [
+    "in:TRAVELS_WITH:aemon-targaryen-son-of-maekar-i",
+    "out:OWNS:chestnut",
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:lord-commander-of-the-kingsguard",
+    "out:SWORN_TO:house-osgrey",
+    "out:SWORN_TO:house-targaryen",
+    "out:SWORN_TO:kingsguard",
+    "out:CULTURE_OF:crownlands",
+    "out:BORN_AT:kings-landing",
+    "out:DIED_AT:summerhall",
+    "out:OWNS:maester-mule",
+    "out:OWNS:rain",
+    "out:OWNS:sweetfoot",
+    "out:OWNS:thunder",
+    "out:VICTIM_IN:tragedy-at-summerhall"
+   ]
+  },
+  {
+   "slug": "glendon-flowers",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/glendon-flowers.node.md",
+   "passages": [
+    {
+     "around_line": 30,
+     "text": "Glendon was born to a [camp follower](wiki:Prostitution), known as [Penny Jenny](wiki:Penny_Jenny). Penny claimed that Glendon's father was Ser [Quentyn Ball](wiki:Quentyn_Ball). After the war, Jenny came to work in a brothel called the [Pussywillows](wiki:Pussywillows), where Glendon and his sister were raised. After Penny died, Glendon and his sister were looked after by the other women working at the Pussywillows.(wiki:Glendon_Flowers.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)\n\nGlendon was taught the [knightly](wiki:Knight) arts by an old [squire](wiki:Squire) that lived nearby the brothel. In [211\u00a0AC](wiki:211_AC), half a year before the [Whitewalls tourney](wiki:Whitewalls_tourney), Glendon was knighted by Ser [Morgan Dunstable](wiki:Morgan_Dunstable) in front of two dozen witnesses, supposedly in exchange for Glendon's sister giving up her [maidenhead](wiki:Maiden) to Morgan.(wiki:Glendon_Flowers.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)\n\n### Whitewalls tourney"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:CULTURE_OF:reach",
+    "out:BORN_AT:westeros",
+    "in:PARENT_OF:penny-jenny"
+   ]
+  },
+  {
+   "slug": "gregor-clegane",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/gregor-clegane.node.md",
+   "passages": [
+    {
+     "around_line": 32,
+     "text": "As a young boy, eleven or twelve years old, Gregor caused his brother [Sandor](wiki:Sandor_Clegane)'s facial scars by holding the younger boy's face to a hot brazier as punishment for playing with a toy he had discarded. Their father spread the story that the injuries were caused by bedding that had caught fire.(wiki:Gregor_Clegane.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)\n\nFour years later, Gregor was knighted by Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen),(wiki:Gregor_Clegane.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) presumably prior to the [tourney of Harrenhal](wiki:Tourney_of_Harrenhal).(wiki:Gregor_Clegane.cite_ref-23) Gregor is a suspected [kinslayer](wiki:Kinslaying); there are rumors that Gregor killed his father, sister, and his first two wives. [His keep](wiki:Clegane's_Keep) is said to be a grim place where servants vanish unaccountably and even the dogs are afraid to enter the halls. On the day that Gregor came into his inheritance, Sandor entered the service of [House Lannister](wiki:House_Lannister), never to return.(wiki:Gregor_Clegane.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)\n\nAt the age of seventeen, Gregor participated in the [Sack of King's Landing](wiki:Sack_of_King's_Landing) during [Robert's Rebellion](wiki:Robert's_Rebellion). He and Ser [Amory Lorch](wiki:Amory_Lorch) scaled [Maegor's Holdfast](wiki:Maegor's_Holdfast) when the Lannister troops reached the [Red Keep](wiki:Red_Keep). Gregor entered the nursery of the infant Prince [Aegon](wiki:Aegon_Targaryen_(son_of_Rhaegar)), son of Prince Rhaegar, and killed the baby present by dashing the boy's head against a wall. Then he raped and murdered Aegon's mother, Princess [Elia](wiki:Elia_Martell), supposedly with the boy's blood and brains still on his hands.(wiki:Gregor_Clegane.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)(wiki:Gregor_Clegane.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)(wiki:Gregor_Clegane.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0) The identities of the two murderers have not been publicly confirmed in the recorded history,(wiki:Gregor_Clegane.cite_ref-Rtwoiaf_the_fall_of_the_dragons:_the_end.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0) although Gregor's involvement is common knowledge at [Casterly Rock](wiki:Casterly_Rock).(wiki:Gregor_Clegane.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-1)"
+    }
+   ],
+   "existing_edges": [
+    "in:OPPOSES:marq-piper",
+    "in:HATES:sandor-clegane",
+    "in:HATES:arya-stark",
+    "in:SERVES:tickler",
+    "in:FEARS:arya-stark",
+    "in:COMMANDS:tywin-lannister",
+    "in:SERVES:polliver",
+    "out:SERVES:tywin-lannister",
+    "in:FEARS:sandor-clegane",
+    "out:KILLS:elia-martell",
+    "out:KILLS:raymun-darry",
+    "in:OPPOSES:sandor-clegane",
+    "in:SEEKS:oberyn-martell",
+    "out:KILLS:vargo-hoat",
+    "out:KILLS:oberyn-martell",
+    "out:ATTACKS:loras-tyrell",
+    "out:SWORN_TO:tywin-lannister",
+    "in:OPPOSES:loras-tyrell",
+    "out:TORTURES:sandor-clegane",
+    "in:SERVES:tyrion-lannister",
+    "in:SWORN_TO:chiswyck",
+    "out:ATTACKS:beric-dondarrion",
+    "in:SIBLING_OF:sandor-clegane",
+    "in:PROTECTS:tywin-lannister",
+    "out:SWORN_TO:cersei-lannister",
+    "out:KILLS:oberyn-martell",
+    "in:HATES:oberyn-martell",
+    "in:POISONS:oberyn-martell",
+    "out:ASSAULTS:pia",
+    "out:COMMANDS_IN:gendry-captured",
+    "out:COMMANDS_IN:arya-captured",
+    "out:COMMANDS_IN:daily-interrogations-and-killings",
+    "out:COMMANDS_IN:lommy-yields-and-is-killed",
+    "out:VICTIM_IN:kill-list-recitation-before-sleep",
+    "out:AGENT_IN:gregor-confesses-and-kills-oberyn",
+    "in:PARENT_OF:clegane-father-of-gregor-and-sandor",
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-clegane",
+    "out:SWORN_TO:house-lannister",
+    "out:CULTURE_OF:westermen",
+    "...(+10 more)"
+   ]
+  },
+  {
+   "slug": "hugh-of-the-vale",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/hugh-of-the-vale.node.md",
+   "passages": [
+    {
+     "around_line": 21,
+     "text": "## Origins\n\nHugh squired for Lord [Jon Arryn](wiki:Jon_Arryn) for four years. He desperately wanted to be a [knight](wiki:Knight) and was knighted by King [Robert I Baratheon](wiki:Robert_I_Baratheon) in Jon's memory upon his death.(wiki:Hugh_of_the_Vale.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)\n\nSer Hugh stayed in [King's Landing](wiki:King's_Landing) after Lady [Lysa Arryn](wiki:Lysa_Arryn)'s return to the [Vale of Arryn](wiki:Vale_of_Arryn).(wiki:Hugh_of_the_Vale.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He has nobody close to him, except his mother in the Vale.(wiki:Hugh_of_the_Vale.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-arryn",
+    "out:CULTURE_OF:valemen",
+    "out:DIED_AT:kings-landing",
+    "out:FIGHTS_IN:the-hands-tourney"
+   ]
+  },
+  {
+   "slug": "jason-lannister",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/jason-lannister.node.md",
+   "passages": [
+    {
+     "around_line": 42,
+     "text": "When the [Dance of the Dragons](wiki:Dance_of_the_Dragons) began in [129 AC](wiki:129_AC), Ser Tyland served as [master of coin](wiki:Master_of_coin) to King [Aegon II Targaryen](wiki:Aegon_II_Targaryen).(wiki:Jason_Lannister.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) His brother's close association with the [Iron Throne](wiki:Iron_Throne) and his favored position at court brought Lord Jason into the Dance supporting the [greens](wiki:Greens) against Rhaenyra's claim.(wiki:Jason_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) Lord Jason gathered a formidable host of a thousand [knights](wiki:Knight) and seven thousand archers and men-at-arms.(wiki:Jason_Lannister.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)\nPrince [Aemond Targaryen](wiki:Aemond_Targaryen) had Jason and his host descend on the [riverlands](wiki:Riverlands) from the [Red Fork](wiki:Red_Fork). In the [Battle at the Red Fork](wiki:Battle_at_the_Red_Fork), the riverlords rushed to meet Jason's host in battle. The westermen tried to cross the ford three times, but were turned back. In the third attempt, Lord Jason was mortally wounded by [Pate of Longleaf](wiki:Pate_of_Longleaf), a grizzled squire. While Jason was dying of his wounds, Ser [Adrian Tarbeck](wiki:Adrian_Tarbeck) took command of the westermen and shattered the riverlords' host. Lord Jason died from his wounds not long after,(wiki:Jason_Lannister.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)(wiki:Jason_Lannister.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) leaving [Casterly Rock](wiki:Casterly_Rock) in disarray.(wiki:Jason_Lannister.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)\nJason was succeeded as [Lord of Casterly Rock](wiki:Lord_of_Casterly_Rock) by his young son, [Loreon](wiki:Loreon_Lannister_(son_of_Jason)). For his actions, Pate was knighted by Lord [Petyr Piper](wiki:Petyr_Piper) and dubbed \"Longleaf the Lionslayer\". Jason's widow, Lady [Johanna Lannister](wiki:Johanna_Lannister), defended the westerlands from the Red Kraken, Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy). With most of the Lannister strength in the riverlands, the ironborn descended on the thinly defended westerlands, sacking [Lannisport](wiki:Lannisport) and seizing hundreds of women, including Lord Jason's favorite mistress and his [natural daughters](wiki:Bastardy).(wiki:Jason_Lannister.cite_ref-Rtwoiafthe_iron_islands:_the_red_kraken.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)\n\n## Fire & Blood"
+    }
+   ],
+   "existing_edges": [
+    "out:PARENT_OF:cerelle-lannister-daughter-of-jason",
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:lord-of-casterly-rock",
+    "out:HOLDS_TITLE:shield-of-lannisport",
+    "out:HOLDS_TITLE:warden-of-the-west",
+    "out:SWORN_TO:house-lannister",
+    "out:SWORN_TO:greens",
+    "out:CULTURE_OF:westermen",
+    "out:DIED_AT:red-fork",
+    "out:SPOUSE_OF:johanna-lannister",
+    "out:PARENT_OF:tyshara-lannister",
+    "out:PARENT_OF:loreon-lannister-son-of-jason",
+    "out:SIBLING_OF:tyland-lannister",
+    "in:SPOUSE_OF:johanna-lannister",
+    "in:KILLS:pate-of-longleaf",
+    "out:AGENT_IN:battle-at-the-red-fork",
+    "out:VICTIM_IN:sack-of-lannisport",
+    "in:KILLS:pate-of-longleaf",
+    "in:SIBLING_OF:tyland-lannister",
+    "in:SIBLING_OF:tyland-lannister"
+   ]
+  },
+  {
+   "slug": "maegor-i-targaryen",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/maegor-i-targaryen.node.md",
+   "passages": [
+    {
+     "around_line": 46,
+     "text": "Maegor's brother [Aenys](wiki:Aenys_I_Targaryen) had married Lady [Alyssa Velaryon](wiki:Alyssa_Velaryon) in [22\u00a0AC](wiki:Years_after_Aegon's_Conquest),(wiki:Maegor_I_Targaryen.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)(wiki:Maegor_I_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1) and their daughter [Rhaena](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)) was born the next year. After Rhaena's birth, the issue arose as to whether Maegor would fall behind her in the line of succession. In [23\u00a0AC](wiki:Years_after_Aegon's_Conquest),(wiki:Maegor_I_Targaryen.cite_ref-9) shortly after Maegor had turned eleven, Queen Visenya suggested a betrothal between Rhaena and Maegor to settle the succession issue, but both Rhaena's parents and the [High Septon](wiki:High_Septon_(Aegon_I)) protested.(wiki:Maegor_I_Targaryen.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13) Instead, Maegor was betrothed to the High Septon's niece, Lady [Ceryse Hightower](wiki:Ceryse_Hightower), whom he married in [25\u00a0AC](wiki:Years_after_Aegon's_Conquest) at the [Starry Sept](wiki:Starry_Sept) in [Oldtown](wiki:Oldtown) in a ceremony presided over by the High Septon himself.(wiki:Maegor_I_Targaryen.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)(wiki:Maegor_I_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5) Though Maegor boasted that he had conceived a child on his wedding night, the marriage remained barren.(wiki:Maegor_I_Targaryen.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)(wiki:Maegor_I_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)\n\nMaegor had more success in his military accomplishments. In [28\u00a0AC](wiki:Years_after_Aegon's_Conquest), he won renown a tourney by defeating three knights of the [Kingsguard](wiki:Kingsguard) in the joust, and next winning the m\u00eal\u00e9e. He was knighted by his father, King Aegon I, at the age of sixteen, making his the youngest knight in the realm at the time.(wiki:Maegor_I_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7) In both [29\u00a0AC](wiki:Years_after_Aegon's_Conquest) and [30\u00a0AC](wiki:Years_after_Aegon's_Conquest) Maegor assisted the [master of ships](wiki:Master_of_ships), Lord [Aethan Velaryon](wiki:Aethan_Velaryon), and the [Hand of the King](wiki:Hand_of_the_King), Ser [Osmund Strong](wiki:Osmund_Strong), in two campaigns against the pirate king [Sargoso Saan](wiki:Sargoso_Saan) in the [Stepstones](wiki:Stepstones), and in [31\u00a0AC](wiki:Years_after_Aegon's_Conquest) defeated the [Giant of the Trident](wiki:Giant_of_the_Trident).(wiki:Maegor_I_Targaryen.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)\n\n### Hand and exile"
+    }
+   ],
+   "existing_edges": [
+    "in:CLAIMS:daenerys-targaryen",
+    "in:PARENT_OF:aegon-i-targaryen",
+    "out:SUCCEEDS:aenys-i-targaryen",
+    "in:SPOUSE_OF:alys-harroway",
+    "in:SPOUSE_OF:ceryse-hightower",
+    "out:FOUNDED:city-watch-of-kings-landing",
+    "in:SPOUSE_OF:elinor-costayne",
+    "in:SUCCEEDS:jaehaerys-i-targaryen",
+    "in:SPOUSE_OF:jeyne-westerling-wife-of-maegor-i",
+    "out:HOLDS_TITLE:prince",
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:hand-of-the-king",
+    "out:HOLDS_TITLE:king-of-the-andals-the-rhoynar-and-the-first-men",
+    "out:HOLDS_TITLE:lord-of-the-seven-kingdoms",
+    "out:HOLDS_TITLE:protector-of-the-realm",
+    "in:HEIR_TO:jaehaerys-targaryen",
+    "in:HEIR_TO:aerea-targaryen",
+    "out:BORN_AT:dragonstone",
+    "out:DIED_AT:kings-landing",
+    "out:BURIED_AT:dragonstone",
+    "out:CULTURE_OF:valyrian",
+    "out:CULTURE_OF:crownlander",
+    "in:PARENT_OF:visenya-targaryen",
+    "in:SPOUSE_OF:rhaena-targaryen-daughter-of-aenys-i",
+    "in:SPOUSE_OF:tyanna-of-the-tower",
+    "in:SUCCEEDS:jaehaerys-i-targaryen",
+    "out:UNCLE_OF:jaehaerys-i-targaryen",
+    "in:PARENT_OF:aegon-i-targaryen",
+    "in:PARENT_OF:visenya-targaryen",
+    "in:SIBLING_OF:aenys-i-targaryen",
+    "out:SPOUSE_OF:ceryse-hightower",
+    "out:SPOUSE_OF:alys-harroway",
+    "in:IN_LAW_OF:alyssa-velaryon",
+    "in:APPOINTS:aenys-i-targaryen",
+    "in:BANISHES:aenys-i-targaryen",
+    "in:BESTOWS_KNIGHTHOOD_ON:aegon-i-targaryen",
+    "out:KILLS:giant-of-the-trident",
+    "out:ALIAS_OF:maegor-i-targaryen",
+    "in:ALIAS_OF:maegor-i-targaryen",
+    "out:PARTICIPATES_IN:birth-of-maegor-i-targaryen",
+    "...(+118 more)"
+   ]
+  },
+  {
+   "slug": "myles-mooton",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/myles-mooton.node.md",
+   "passages": [
+    {
+     "around_line": 25,
+     "text": "## Origins\n\nMyles was the squire of Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), and received his knighthood from Rhaegar himself.(wiki:Myles_Mooton.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) As one of the younger men at court, he remained one of Rhaegar's close companions after having been knighted.(wiki:Myles_Mooton.cite_ref-Rtwoiaf_the_fall_of_the_dragons:_the_year_of_the_false_spring.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Myles_Mooton.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)\n\nSer Myles fought in the [Battle of the Bells](wiki:Battle_of_the_Bells) during [Robert's Rebellion](wiki:Robert's_Rebellion). He was one of the six men killed in the battle by Lord [Robert Baratheon](wiki:Robert_I_Baratheon) that day.(wiki:Myles_Mooton.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Myles_Mooton.cite_ref-Rtwoiaf_the_fall_of_the_dragons:_robert.27s_rebellion.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)"
+    }
+   ],
+   "existing_edges": [
+    "in:BESTOWS_KNIGHTHOOD_ON:rhaegar-targaryen",
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-mooton",
+    "out:CULTURE_OF:rivermen",
+    "out:DIED_AT:stoney-sept"
+   ]
+  },
+  {
+   "slug": "oberyn-martell",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/oberyn-martell.node.md",
+   "passages": [
+    {
+     "around_line": 43,
+     "text": "Oberyn and his brother [Doran](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), worked in secret for years planning on bringing an end to the reign of King [Robert I Baratheon](wiki:Robert_I_Baratheon) and destroying [House Lannister](wiki:House_Lannister).(wiki:Oberyn_Martell.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-3) Oberyn traveled to Braavos, where Viserys and [Daenerys Targaryen](wiki:Daenerys_Targaryen) were living with Ser [Willem Darry](wiki:Willem_Darry). Oberyn and Willem signed a [secret marriage pact](wiki:Secret_marriage_pact), with the [Sealord of Braavos](wiki:Sealord_of_Braavos) as witness, promising Viserys the hand of Princess [Arianne Martell](wiki:Arianne_Martell) in marriage, in return for Dorne's help in reclaiming the [Iron Throne](wiki:Iron_Throne) from [House Baratheon](wiki:House_Baratheon_of_King's_Landing).(wiki:Oberyn_Martell.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)\n\nOberyn eventually granted [knighthood](wiki:Knight) on his squire, Ser [Daemon Sand](wiki:Daemon_Sand).(wiki:Oberyn_Martell.cite_ref-winds_16-2) Prince [Quentyn Martell](wiki:Quentyn_Martell) choose to be knighted by Lord [Anders Yronwood](wiki:Anders_Yronwood) instead of Oberyn.(wiki:Oberyn_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) When Prince [Doran Martell](wiki:Doran_Martell) moved to the [Water Gardens](wiki:Water_Gardens) for health reasons, he trusted Oberyn to look after Sunspear for him. Oberyn reported to his brother twice a fortnight.(wiki:Oberyn_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)\n\n## Appearances & Description"
+    }
+   ],
+   "existing_edges": [
+    "in:OPPOSES:olenna-tyrell",
+    "out:HATES:joffrey-baratheon",
+    "out:LOVER_OF:ellaria-sand",
+    "out:HATES:mace-tyrell",
+    "in:COMPANION_OF:ellaria-sand",
+    "out:DISTRUSTS:cersei-lannister",
+    "out:SEEKS:gregor-clegane",
+    "out:HATES:tywin-lannister",
+    "in:LOVER_OF:ellaria-sand",
+    "out:ALLIES_WITH:tyrion-lannister",
+    "in:ALLIES_WITH:tyrion-lannister",
+    "out:UNCLE_OF:arianne-martell",
+    "in:NEPHEW_OF:quentyn-martell",
+    "in:KILLS:gregor-clegane",
+    "out:SIBLING_OF:elia-martell",
+    "out:SEEKS:tywin-lannister",
+    "in:KILLS:gregor-clegane",
+    "out:HATES:gregor-clegane",
+    "out:POISONS:gregor-clegane",
+    "out:PARENT_OF:obara-sand",
+    "out:GUEST_OF:house-lannister",
+    "out:GUEST_OF:joffrey-baratheon",
+    "out:VICTIM_IN:gregor-confesses-and-kills-oberyn",
+    "out:PARENT_OF:dorea-sand",
+    "out:PARENT_OF:elia-sand",
+    "out:PARENT_OF:loreza-sand",
+    "out:PARENT_OF:nymeria-sand",
+    "out:PARENT_OF:obella-sand",
+    "out:HOLDS_TITLE:prince",
+    "out:HOLDS_TITLE:acolyte",
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-martell",
+    "out:SWORN_TO:second-sons",
+    "out:CULTURE_OF:dornishmen",
+    "out:BORN_AT:sunspear",
+    "out:DIED_AT:kings-landing",
+    "in:PARENT_OF:martell",
+    "out:LOVER_OF:edgar-yronwood",
+    "out:PARENT_OF:tyene-sand",
+    "out:PARENT_OF:sarella-sand",
+    "...(+6 more)"
+   ]
+  },
+  {
+   "slug": "ormund-hightower",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/ormund-hightower.node.md",
+   "passages": [
+    {
+     "around_line": 59,
+     "text": "\n- Caught between two hosts on the banks of the Honeywine, his lines were crumbling until Daeron and Tessarion arrived (fab-the-red-dragon-and-the-gold-17-p02:57)\n- He feasted Daeron and knighted him, then enforced submissions across the Reach (fab-the-red-dragon-and-the-gold-17-p02:215)\n\n<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p03-2026-07-09 -->"
+    }
+   ],
+   "existing_edges": [
+    "out:PARENT_OF:bethany-hightower",
+    "out:PARENT_OF:garmund-hightower",
+    "in:PARENT_OF:lord-hightower",
+    "out:PARENT_OF:lyonel-hightower",
+    "out:PARENT_OF:martyn-hightower-son-of-ormund",
+    "out:HOLDS_TITLE:ser",
+    "out:HOLDS_TITLE:beacon-of-the-south",
+    "out:HOLDS_TITLE:defender-of-oldtown",
+    "out:HOLDS_TITLE:defender-of-the-citadel",
+    "out:HOLDS_TITLE:lord-of-oldtown",
+    "out:HOLDS_TITLE:lord-of-the-hightower",
+    "out:HOLDS_TITLE:lord-of-the-port",
+    "out:HOLDS_TITLE:voice-of-oldtown",
+    "out:SWORN_TO:house-hightower",
+    "out:SWORN_TO:greens",
+    "out:CULTURE_OF:reach",
+    "out:DIED_AT:tumbleton",
+    "out:SPOUSE_OF:samantha-tarly",
+    "in:ATTACKS:alan-beesbury",
+    "in:ATTACKS:alan-tarly",
+    "in:UNCLE_OF:otto-hightower",
+    "in:KILLS:roderick-dustin",
+    "out:AGENT_IN:sack-of-bitterbridge",
+    "in:COUSIN_OF:hobert-hightower",
+    "in:COUSIN_OF:bryndon-hightower",
+    "out:PARENT_OF:lyonel-hightower",
+    "in:SUCCEEDS:lyonel-hightower",
+    "in:SPOUSE_OF:samantha-tarly",
+    "out:PARENT_OF:garmund-hightower",
+    "out:PARENT_OF:martyn-hightower-son-of-ormund",
+    "out:SPOUSE_OF:samantha-tarly",
+    "out:WARD_OF:daeron-targaryen-son-of-viserys-i",
+    "in:SERVES:daeron-targaryen-son-of-viserys-i",
+    "out:KNIGHTED_BY:daeron-targaryen-son-of-viserys-i",
+    "out:AGENT_IN:yielding-of-longtable"
+   ]
+  },
+  {
+   "slug": "pate-of-longleaf",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/pate-of-longleaf.node.md",
+   "passages": [
+    {
+     "around_line": 16,
+     "text": "## Identity\n\nPate of Longleaf \u2014 A grizzled squire who dealt Jason Lannister his mortal wound, afterward knighted by Lord Piper as \"Longleaf the Lionslayer\".\n\n## Edges"
+    },
+    {
+     "around_line": 43,
+     "text": "<!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p02-2026-07-09 -->\n\n- A grizzled squire who dealt Jason Lannister his mortal wound, afterward knighted by Lord Piper as \"Longleaf the Lionslayer\" (fab-the-red-dragon-and-the-gold-17-p02:93)\n- He later led survivors alongside the lords who joined the Fishfeed (fab-the-red-dragon-and-the-gold-17-p02:191)\n"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:blacks",
+    "out:CULTURE_OF:rivermen",
+    "out:DIED_AT:tumbleton",
+    "in:BESTOWS_KNIGHTHOOD_ON:petyr-piper",
+    "out:KILLS:jason-lannister",
+    "out:KILLS:jason-lannister"
+   ]
+  },
+  {
+   "slug": "pate-the-woodcock",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/pate-the-woodcock.node.md",
+   "passages": [
+    {
+     "around_line": 16,
+     "text": "## Identity\n\nPate the Woodcock, the youngest champion, fought with a spear and was dubbed a knight by Ser Joffrey Doggett.\n\n## Edges"
+    },
+    {
+     "around_line": 38,
+     "text": "<!-- fab-enriched: fab-year-of-the-three-brides-07-2026-07-09 -->\n\n- Pate the Woodcock, the youngest champion, fought with a spear and was dubbed a knight by Ser Joffrey Doggett (fab-year-of-the-three-brides-07:131)\n- At Dragonstone he warned Rogar he would be first to die (fab-year-of-the-three-brides-07:253)\n"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:kingsguard",
+    "out:CULTURE_OF:westerosi",
+    "in:BESTOWS_KNIGHTHOOD_ON:joffrey-doggett",
+    "out:MEMBER_OF:kingsguard"
+   ]
+  },
+  {
+   "slug": "rhaegar-targaryen",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/rhaegar-targaryen.node.md",
+   "passages": [
+    {
+     "around_line": 35,
+     "text": "At the age of seventeen, Rhaegar was [knighted](wiki:Knight),(wiki:Rhaegar_Targaryen.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)(wiki:Rhaegar_Targaryen.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1) and from all reports grew into a skilled and capable fighter. The prince always distinguished himself well at [tourneys](wiki:Tourney), although he seldom entered the lists. Unlike warriors such as [Robert Baratheon](wiki:Robert_I_Baratheon) or [Jaime Lannister](wiki:Jaime_Lannister), Rhaegar was not enthusiastic about fighting.(wiki:Rhaegar_Targaryen.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-6)\n\nRhaegar's squires were [Myles Mooton](wiki:Myles_Mooton) and [Richard Lonmouth](wiki:Richard_Lonmouth), and after he knighted them they remained close companions. [Jon Connington](wiki:Jon_Connington), whom he had squired with,(wiki:Rhaegar_Targaryen.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0) was a good friend to Rhaegar as well. Returning from a trip to [Dorne](wiki:Dorne), Rhaegar once visited the [Connington](wiki:House_Connington) seat of [Griffin's Roost](wiki:Griffin's_Roost). His songs brought the castle's women to tears, while Lord [Armond Connington](wiki:Armond_Connington) sought [House Targaryen](wiki:House_Targaryen)'s support against rival [House Morrigen](wiki:House_Morrigen).(wiki:Rhaegar_Targaryen.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1) Rhaegar's closest and oldest friend, however, was Ser [Arthur Dayne](wiki:Arthur_Dayne),(wiki:Rhaegar_Targaryen.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-4) the [Sword of the Morning](wiki:Sword_of_the_Morning), trusting him more than Ser [Barristan Selmy](wiki:Barristan_Selmy).(wiki:Rhaegar_Targaryen.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)\n\nRhaegar often liked to visit the ruins of Summerhall with only his [harp](wiki:Harp) and when he returned he sang songs of such beauty they could reduce women to tears. Although Rhaegar was often dour, private and bookish, [Cersei Lannister](wiki:Cersei_Lannister) noted at the [tournament in honor of Viserys's birth](wiki:Tournament_in_honor_of_Viserys's_birth) in [Lannisport](wiki:Lannisport) in [276\u00a0AC](wiki:Years_after_Aegon's_Conquest) that the [smallfolk](wiki:Smallfolk) cheered for Lord [Tywin Lannister](wiki:Tywin_Lannister) twice as much as for King Aerys II, but only half as loudly for Tywin as for Rhaegar.(wiki:Rhaegar_Targaryen.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7) Rhaegar fought well in the tourney besting a dozen skilled knights, among them Barristan Selmy, [Gerion](wiki:Gerion_Lannister), and [Tygett Lannister](wiki:Tygett_Lannister) but was defeated in the champion's tilt by his friend Arthur Dayne.(wiki:Rhaegar_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2) Aerys refused Tywin's offer at the tourney to betroth Cersei to Rhaegar.(wiki:Rhaegar_Targaryen.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-8) Rhaegar was also defeated by Barristan Selmy in the champion's tilt during a [tourney at Storm's End](wiki:Tourney_at_Storm's_End).(wiki:Rhaegar_Targaryen.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-7)(wiki:Rhaegar_Targaryen.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)"
+    }
+   ],
+   "existing_edges": [
+    "in:HATES:robert-baratheon",
+    "in:RESENTS:sandor-clegane",
+    "in:MOURNS:daenerys-targaryen",
+    "in:RESPECTS:barristan-selmy",
+    "out:COMPANION_OF:jon-connington",
+    "in:RESPECTS:daenerys-targaryen",
+    "in:COMPANION_OF:jon-connington",
+    "out:LOVES:elia-martell",
+    "out:LOVES:lyanna-stark",
+    "in:LOVES:jon-connington",
+    "out:COMPANION_OF:connington",
+    "out:DEFEATS:arthur-dayne",
+    "out:DEFEATS:barristan-selmy",
+    "out:DEFEATS:brandon-stark",
+    "out:DEFEATS:bronze",
+    "in:NAMED_AFTER:rhaegal",
+    "out:COMPANION_OF:arthur-dayne",
+    "out:BESTOWS_KNIGHTHOOD_ON:myles-mooton",
+    "out:BESTOWS_KNIGHTHOOD_ON:richard-lonmouth",
+    "in:SERVES:barristan-selmy",
+    "out:RESENTS:jaime-lannister",
+    "in:SWORN_TO:elder-brother",
+    "in:PARALLELS:aurane-waters",
+    "in:BETROTHED_TO:cersei-lannister",
+    "in:LOVES:cersei-lannister",
+    "out:TRUSTS:jaime-lannister",
+    "in:SWORN_TO:barristan-selmy",
+    "in:CLAIMS:aegon-targaryen-young-griff",
+    "out:GUEST_OF:wyman-manderly",
+    "out:PARENT_OF:aegon-targaryen-son-of-rhaegar",
+    "out:HEIR_TO:aerys-ii-targaryen",
+    "in:PARENT_OF:aerys-ii-targaryen",
+    "in:SPOUSE_OF:elia-martell",
+    "out:HOLDS_TITLE:prince-of-dragonstone",
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-targaryen",
+    "out:CULTURE_OF:valyrian",
+    "out:CULTURE_OF:crownlands",
+    "out:BORN_AT:summerhall",
+    "out:DIED_AT:ruby-ford",
+    "...(+10 more)"
+   ]
+  },
+  {
+   "slug": "richard-lonmouth",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/richard-lonmouth.node.md",
+   "passages": [
+    {
+     "around_line": 24,
+     "text": "## Origins\n\nRichard followed [Myles Mooton](wiki:Myles_Mooton) in [squiring](wiki:Squire) for [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), [Prince of Dragonstone](wiki:Prince_of_Dragonstone), and each man received his knighthood from Rhaegar when they were ready.(wiki:Richard_Lonmouth.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) Richard and Ser Myles were close friends of Rhaegar and strong supporters of the prince at court, as were Lord [Jon Connington](wiki:Jon_Connington), Prince [Lewyn Martell](wiki:Lewyn_Martell), and Ser [Arthur Dayne](wiki:Arthur_Dayne).(wiki:Richard_Lonmouth.cite_ref-Rtwoiafthe_fall_of_the_dragons:_the_year_of_the_false_spring.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)\n\nRichard was present at the [tourney at Harrenhal](wiki:Tourney_at_Harrenhal), where he played a drinking game with [Robert Baratheon](wiki:Robert_I_Baratheon), [Lord of Storm's End](wiki:Lord_of_Storm's_End).(wiki:Richard_Lonmouth.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Halfway through the tourney, he and Robert each promised Rhaegar's father, King [Aerys II Targaryen](wiki:Aerys_II_Targaryen), they would find and discover the true identity of the [Knight of the Laughing Tree](wiki:Knight_of_the_Laughing_Tree).(wiki:Richard_Lonmouth.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)"
+    }
+   ],
+   "existing_edges": [
+    "in:BESTOWS_KNIGHTHOOD_ON:rhaegar-targaryen",
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-lonmouth",
+    "out:CULTURE_OF:stormlanders",
+    "out:ATTENDS:tourney-at-harrenhal"
+   ]
+  },
+  {
+   "slug": "robert-stone",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/robert-stone.node.md",
+   "passages": [
+    {
+     "around_line": 29,
+     "text": "### A Storm of Swords\n\nWhen Ser [Jaime Lannister](wiki:Jaime_Lannister), [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard), returns to [King's Landing](wiki:King's_Landing) after months of captivity, he interrogates the new members of the [Kingsguard](wiki:Kingsguard) regarding their experience at arms. Ser [Osmund Kettleblack](wiki:Osmund_Kettleblack) tells Jaime he was knighted by Ser Robert on the battlefield, and that he is now dead. Jaime does not recognize this knight, and is dubious about Ser Robert's actual existence.(wiki:Robert_Stone.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)\n\n## Quotes"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:CULTURE_OF:valemen"
+   ]
+  },
+  {
+   "slug": "rolly-duckfield",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/rolly-duckfield.node.md",
+   "passages": [
+    {
+     "around_line": 32,
+     "text": "On his sixteenth name day, Rolly's father made a longsword for Rolly as a present, but Lorent Caswell saw it and claimed it for his own, saying to Rolly that he was only fit to wield a hammer, not a sword. Rolly then fetched a hammer and broke both of Lorent's arms and half his ribs. Afterwards, Rolly quickly fled across the [narrow sea](wiki:Narrow_sea) to escape Lord Caswell's wrath. He joined the [Golden Company](wiki:Golden_Company) as an apprentice smith for a few years, and then served Ser [Harry Strickland](wiki:Harry_Strickland) as a [squire](wiki:Squire).(wiki:Rolly_Duckfield.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)\n\nWhen [Griff](wiki:Jon_Connington) needed someone to train his son [Young Griff](wiki:Aegon_Targaryen_(Young_Griff)) in skill at arms, Harry Strickland sent him Rolly. A year later Rolly was knighted by Griff. Having no surname, Rolly chose the name Duckfield because he was in a field with some [ducks](wiki:Duck) when he was knighted, earning him the nickname \"Duck\".(wiki:Rolly_Duckfield.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)\n\n## Appearances & Description"
+    },
+    {
+     "around_line": 68,
+     "text": "> **Griff**: I am no [knight](wiki:Knight).\n>\n> **Tyrion**: And yet Ser Duck says you knighted him. **Griff**: Duck talks too much.\n>\n> \u2014[Griff](wiki:Griff) and [Tyrion Lannister](wiki:Tyrion_Lannister)"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-caswell",
+    "out:SWORN_TO:golden-company",
+    "out:SWORN_TO:house-targaryen",
+    "out:SWORN_TO:kingsguard",
+    "out:CULTURE_OF:reach",
+    "out:BORN_AT:bitterbridge",
+    "out:TRAVELS_WITH:aegon-targaryen-young-griff",
+    "out:PROTECTS:aegon-targaryen-young-griff",
+    "out:TEACHES:aegon-targaryen-young-griff"
+   ]
+  },
+  {
+   "slug": "russell-stillman",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/russell-stillman.node.md",
+   "passages": [
+    {
+     "around_line": 16,
+     "text": "## Identity\n\nRussell Stillman \u2014 Ser Russell Stillman squired for Alyn, was knighted by him, later lost a leg on Alyn's fifth voyage, and wrote the vulgar life *Hard as Oak*.\n\n## Edges"
+    },
+    {
+     "around_line": 25,
+     "text": "## Origins\n\nDuring [Oakenfist](wiki:Alyn_Velaryon)'s fifth [voyage](wiki:Great_voyages), Russell was knighted by Lord Alyn before losing a leg. He later wrote a book about Lord Alyn Velaryon's life called *[Hard as Oak](wiki:Hard_as_Oak)*. [Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) considers this account to be colorful, but unreliable.(wiki:Russell_Stillman.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)\n\n## Appearances & Description"
+    },
+    {
+     "around_line": 35,
+     "text": "<!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-09 -->\n\n- Ser Russell Stillman squired for Alyn, was knighted by him, later lost a leg on Alyn's fifth voyage, and wrote the vulgar life *Hard as Oak* (fab-voyage-of-alyn-oakenfist-23:25)"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-velaryon",
+    "out:SERVES:alyn-velaryon",
+    "out:KNIGHTED_BY:alyn-velaryon"
+   ]
+  },
+  {
+   "slug": "sandor-clegane",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/sandor-clegane.node.md",
+   "passages": [
+    {
+     "around_line": 29,
+     "text": "When Sandor was seven years old, a woodcarver in the village by the [family keep](wiki:Clegane's_Keep) gifted toys to the Cleganes to buy favor. Sandor desired his brother [Gregor's](wiki:Gregor_Clegane) gift, a jointed wooden [knight](wiki:Knight), and took it to play with, though he was afraid of what the brutal Gregor might do. When Gregor found him, he shoved the side of Sandor's face into the burning coals of a brazier and held him there while he screamed, until three grown men were able to drag him off. The Cleganes' [maester](wiki:Maester) attempted to heal the burns with ointments.(wiki:Sandor_Clegane.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-15)\n\nSandor's [father](wiki:Clegane_(father_of_Gregor_and_Sandor)) explained the burns by claiming that his bedding caught fire,(wiki:Sandor_Clegane.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-16) though there are still rumors that Gregor was involved.(wiki:Sandor_Clegane.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1) There are also rumors of a sister who died young in mysterious circumstances, and their father was killed in a hunting accident, which is also implied to have been suspicious, leaving the family estates to Gregor.(wiki:Sandor_Clegane.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-2) According to a semi-canon source, Sandor admired knights when he was a child, but became greatly disillusioned when Gregor was knighted by Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen).(wiki:Sandor_Clegane.cite_ref-29)\n\nSandor left to join the [Lannister](wiki:House_Lannister) household as a [sworn sword](wiki:Sworn_sword) on the day Gregor came into his inheritance, and he has never returned to his family home.(wiki:Sandor_Clegane.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-3) He claims to have killed a man when he was twelve years old,(wiki:Sandor_Clegane.cite_ref-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1) possibly during [Robert's Rebellion](wiki:Robert's_Rebellion), as he was part of Lord [Tywin Lannister](wiki:Tywin_Lannister)'s host during the [Sack of King's Landing](wiki:Sack_of_King's_Landing).(wiki:Sandor_Clegane.cite_ref-30) Sandor has never taken a knight's vows.(wiki:Sandor_Clegane.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-4)"
+    }
+   ],
+   "existing_edges": [
+    "out:PROTECTS:joffrey-baratheon",
+    "in:HATES:arya-stark",
+    "out:KILLS:mycah",
+    "out:PROTECTS:loras-tyrell",
+    "out:HATES:gregor-clegane",
+    "out:KILLS:cayn",
+    "in:DISTRUSTS:joffrey-baratheon",
+    "out:GUARDS:joffrey-baratheon",
+    "out:OPPOSES:sansa-stark",
+    "in:COMMANDS:joffrey-baratheon",
+    "out:RESENTS:rhaegar-targaryen",
+    "in:FEARS:sansa-stark",
+    "out:SERVES:kingsguard",
+    "out:SERVES:joffrey-baratheon",
+    "out:PROTECTS:sansa-stark",
+    "in:HATES:tywin-lannister",
+    "out:HATES:boros-blount",
+    "out:HATES:fire-blood-being-a-history-of-the-targaryen-kings-of-westeros",
+    "out:FEARS:gregor-clegane",
+    "in:RESPECTS:sansa-stark",
+    "out:FEARS:fire-blood-being-a-history-of-the-targaryen-kings-of-westeros",
+    "out:HATES:tyrion-lannister",
+    "in:LOVES:joffrey-baratheon",
+    "out:OPPOSES:tyrion-lannister",
+    "in:MOURNS:jack-be-lucky",
+    "in:CAPTURES:mad-huntsman",
+    "out:HATES:lem",
+    "out:OPPOSES:beric-dondarrion",
+    "in:PROTECTS:thoros",
+    "out:CAPTURES:arya-stark",
+    "out:HATES:walder-frey",
+    "out:CAPTURES:arya-stark",
+    "in:COMPANION_OF:arya-stark",
+    "out:RESENTS:arya-stark",
+    "out:OPPOSES:gregor-clegane",
+    "out:KILLS:polliver",
+    "in:MOURNS:sansa-stark",
+    "in:RESPECTS:loras-tyrell",
+    "in:TORTURES:gregor-clegane",
+    "in:DUELS:beric-dondarrion",
+    "...(+37 more)"
+   ]
+  },
+  {
+   "slug": "steffon-fossoway",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/steffon-fossoway.node.md",
+   "passages": [
+    {
+     "around_line": 33,
+     "text": "Ser Steffon was one of the entrants in the [tourney at Ashford Meadow](wiki:Tourney_at_Ashford_Meadow), attended by his cousin [Raymun Fossoway](wiki:Raymun_Fossoway) as his [squire](wiki:Squire), promising to eventually knight him. Upon entering the tourney grounds, Ser [Duncan the Tall](wiki:Duncan_the_Tall) watched Ser Steffon defeat Raymun in a spar. Noticing the imposing [hedge knight](wiki:Hedge_knight), Steffon challenged Duncan to spar, urged on by Raymun. Not wishing to involve himself in their quarrel, Duncan declined and Steffon challenged Ser [Grance Morrigen](wiki:Grance_Morrigen) instead.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)\nAfter watching the first day of tilts, Steffon considered challenging Ser [Tybolt Lannister](wiki:Tybolt_Lannister) on the second day, for they were evenly matched. However, Raymun noted that Steffon intended to look for a wounded or exhausted knight for an easier challenge. While Raymun had hosted Duncan in the Fossoway pavilion, Prince [Aerion Targaryen](wiki:Aerion_Targaryen) assaulted the [Dornish](wiki:Dornish) puppeteer [Tanselle](wiki:Tanselle), leading to Duncan attacking the prince in her defense. Raymun sought his cousin and together, the Fossoway cousins parted the crowd with their men-at-arms in defense of Duncan.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)\nDisgusted by Aerion's actions and seeking glory, Steffon pledged to fight for Ser [Duncan the Tall](wiki:Duncan_the_Tall) during the resulting [trial of seven](wiki:Trial_of_seven), and promised to find five other great knights to join them, though Raymun doubted Steffon would be successful. The day of the trial, Steffon switched sides when Aerion promised to make him a [lord](wiki:Lord). Raymun, horrified by his cousin's betrayal, joined Duncan and was promptly knighted by Ser [Lyonel Baratheon](wiki:Lyonel_Baratheon). Raymun painted the [apple](wiki:Apple) on his shield green to mark the difference between the [two Fossoways](wiki:House_Fossoway). During the trial, the evenly matched cousins fought each other and both left the field standing, though Raymun hoped he had broken a few of his cousin's ribs.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)\nSeveral years later, Duncan still looked back bitterly on Steffon's betrayal, making him reluctant to trust those of high birth.(wiki:Steffon_Fossoway.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)\n"
+    }
+   ],
+   "existing_edges": [
+    "out:HOLDS_TITLE:ser",
+    "out:SWORN_TO:house-fossoway-of-cider-hall",
+    "out:CULTURE_OF:reach",
+    "out:BORN_AT:cider-hall",
+    "out:OWNS:wrath"
+   ]
+  },
+  {
+   "slug": "tywin-lannister",
+   "node_type": "character.human",
+   "file": "graph/nodes/characters/tywin-lannister.node.md",
+   "passages": [
+    {
+     "around_line": 31,
+     "text": "Shortly after that incident, Tytos sent Tywin to [King's Landing](wiki:King's_Landing) to serve as a royal page and cupbearer at King [Aegon V Targaryen](wiki:Aegon_V_Targaryen)'s court, where Tywin befriended the young Prince [Aerys Targaryen](wiki:Aerys_II_Targaryen) and [Steffon Baratheon](wiki:Steffon_Baratheon), the heir to [Storm's End](wiki:Storm's_End).(wiki:Tywin_Lannister.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)(wiki:Tywin_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2) His cousin, [Joanna Lannister](wiki:Joanna_Lannister), also served at the royal court as a companion and lady-in-waiting to Princess [Rhaella Targaryen](wiki:Rhaella_Targaryen) since [259\u00a0AC](wiki:259_AC).(wiki:Tywin_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)(wiki:Tywin_Lannister.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)\n\nDuring the [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings) in [260\u00a0AC](wiki:260_AC), eleven thousand westermen under the leadership Tywin's uncle, Ser [Jason Lannister](wiki:Jason_Lannister_(son_of_Gerold)), were sent to fight beside other forces of the [Iron Throne](wiki:Iron_Throne) in the [Stepstones](wiki:Stepstones). Tywin, who was already a [knight](wiki:Knight), joined the Lannister force, as did his brothers [Kevan](wiki:Kevan_Lannister) and [Tygett](wiki:Tygett_Lannister) as squires. The young Prince Aerys served as a squire during the war and when he won his knighthood, Tywin was granted the honor of knighting his friend.(wiki:Tywin_Lannister.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)\n\n### Reynes and Tarbecks"
+    }
+   ],
+   "existing_edges": [
+    "in:DISTRUSTS:eddard-stark",
+    "in:RESENTS:tyrion-lannister",
+    "out:PROTECTS:house-stark",
+    "in:NEGOTIATES_WITH:chella",
+    "in:SEEKS:tyrion-lannister",
+    "out:HATES:tyrion-lannister",
+    "in:SERVES:kevan-lannister",
+    "out:RESPECTS:barristan-selmy",
+    "out:HATES:cersei-lannister",
+    "out:HATES:janos-slynt",
+    "out:HATES:sandor-clegane",
+    "in:FEARS:arya-stark",
+    "out:COMMANDS:amory-lorch",
+    "out:COMMANDS:gregor-clegane",
+    "out:COMMANDS:vargo-hoat",
+    "out:PRISONER_OF:wylis-manderly",
+    "in:SERVES:gregor-clegane",
+    "in:COMMANDS:cersei-lannister",
+    "in:SERVES:meryn-trant",
+    "in:SERVES:tyrion-lannister",
+    "in:RESENTS:cersei-lannister",
+    "in:FEARS:tyrion-lannister",
+    "out:COMMANDS:sansa-stark",
+    "out:COMMANDS:tyrion-lannister",
+    "in:OPPOSES:tyrion-lannister",
+    "in:SPIES_ON:varys",
+    "in:SERVES:cersei-lannister",
+    "out:ALLIES_WITH:house-tyrell",
+    "in:SERVES:tobho-mott",
+    "out:COMMANDS:pycelle",
+    "out:LOVES:joanna-lannister",
+    "in:OPPOSES:joffrey-baratheon",
+    "out:HATES:robert-baratheon",
+    "out:ALLIES_WITH:roose-bolton",
+    "out:COMMANDS:cersei-lannister",
+    "in:LOVES:kevan-lannister",
+    "in:HATES:oberyn-martell",
+    "in:DISTRUSTS:tyrion-lannister",
+    "in:KILLS:tyrion-lannister",
+    "in:HATES:tyrion-lannister",
+    "...(+86 more)"
+   ]
+  },
+  {
+   "slug": "great-voyages",
+   "node_type": "concept.custom",
+   "file": "graph/nodes/concepts/great-voyages.node.md",
+   "passages": [
+    {
+     "around_line": 16,
+     "text": "Corlys Velaryon made nine great voyages aboard his ship the Sea Snake. His first took him beyond the Jade Gates of Qarth to Yi Ti and Leng, bringing back silks, spices, and jade that doubled House Velaryon's wealth and eventually made Corlys the richest man in the Seven Kingdoms. His second voyage took him to Asshai, where he reportedly \"lost his love and half his crew\" and claimed to have seen Elissa Farman's Sun Chaser in harbor. His third voyage saw him become the first Westerosi to navigate the Thousand Islands in the Shivering Sea and visit Nefer in N'ghai and Mossovy.\n\nAlyn Velaryon made six great voyages on six different ships, which he called \"my ladies,\" in contrast to Corlys who made all his voyages on the Sea Snake. Alyn's first great voyage began as a mission against Dalton Greyjoy in the westerlands, dispatched by the Hand Unwin Peake who hoped Alyn would fail. Alyn's voyages were the subject of multiple written works: Ser Russell Stillman, who squired for and was knighted by Alyn, wrote a biography called Hard as Oak, and Maester Bendamure wrote Six Times to Sea: Being an Account of the Great Voyages of Alyn Oakenfist, considered the most complete and authoritative account.\n\n## Edges"
+    }
+   ],
+   "existing_edges": []
+  },
+  {
+   "slug": "battle-at-pyke",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-pyke.node.md",
+   "passages": [
+    {
+     "around_line": 53,
+     "text": "## Aftermath\n\nTheon was taken away from Pyke on Robert's war galley and was raised alongside Eddard's children at [Winterfell](wiki:Winterfell).(wiki:Battle_at_Pyke.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7) Jorah was rewarded with [knighthood](wiki:Knight) by Robert for his bravery,(wiki:Battle_at_Pyke.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) and Ser [Jacelyn Bywater](wiki:Jacelyn_Bywater) also received his knighthood at Pyke after losing his hand in the battle.(wiki:Battle_at_Pyke.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)\n\nRobert celebrated his victory by holding a [tourney at Lannisport](wiki:Tourney_at_Lannisport).(wiki:Battle_at_Pyke.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Jorah, victorious in the lists, won the hand of [Lynesse Hightower](wiki:Lynesse_Hightower) during the festivities.(wiki:Battle_at_Pyke.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)"
+    }
+   ],
+   "existing_edges": [
+    "out:PART_OF:greyjoys-rebellion"
+   ]
+  },
+  {
+   "slug": "battle-by-the-lakeshore",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-by-the-lakeshore.node.md",
+   "passages": [
+    {
+     "around_line": 51,
+     "text": "## Aftermath\n\nThe Lannisters' main army was totally destroyed in the battle, the flower of knighthood from all the westerlands cut down in a single day. With only skeleton forces left to defend their home territory, [Dalton Greyjoy](wiki:Dalton_Greyjoy) opportunistically allied with Rhaenyra so the [ironborn](wiki:Ironborn) could plunder the coasts of the westerlands, sacking [Lannisport](wiki:Lannisport) but failing to take [Casterly Rock](wiki:Casterly_Rock) itself. Despite their disproportionate victory, the black armies in the riverlands were also badly mauled in the bloodbath.\n\nIn response to the greens' crushing defeat, Prince Aemond and Ser [Criston Cole](wiki:Criston_Cole) abandoned Harrenhal. Aemond waged a guerilla war atop [Vhagar](wiki:Vhagar), and Criston headed south to find Lord [Ormund Hightower](wiki:Ormund_Hightower). The victorious rivermen avoided facing Criston's host directly, but wore him down with ambushes and scorched earth tactics, which included arranging the bodies of fallen soldiers from the Fishfeed in gruesome displays to frighten Criston's host (causing many to desert). The rivermen (and few surviving Winter Wolves) eventually cornered Criston's depleted army in the [Butcher's Ball](wiki:Butcher's_Ball).(wiki:Battle_by_the_Lakeshore.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)"
+    }
+   ],
+   "existing_edges": [
+    "out:PART_OF:dance-of-the-dragons",
+    "in:PRECEDES:assault-on-harrenhal",
+    "out:PRECEDES:battle-of-the-kingsroad"
+   ]
+  },
+  {
+   "slug": "battle-of-the-blackwater",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-blackwater.node.md",
+   "passages": [
+    {
+     "around_line": 90,
+     "text": "- [](wiki:House_Baelish) Lord [Petyr Baelish](wiki:Petyr_Baelish), for his \"faithful service to crown and realm\", named [Lord of Harrenhal](wiki:Lord_of_Harrenhal) and raised to [Lord Paramount of the Trident](wiki:Lord_Paramount_of_the_Trident).(wiki:Battle_of_the_Blackwater.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-26)\n- Surviving captains from Joffrey's warships *[River Arrow](wiki:River_Arrow)*, *[Wildwind](wiki:Wildwind)* and *[Prince Aemon](wiki:Prince_Aemon)*, and under officers from *[Godsgrace](wiki:Godsgrace_(ship))*, *[Ramshead](wiki:Ramshead)*, *[Lance](wiki:Lance)* and *[Lady of Silk](wiki:Lady_of_Silk)*, honored by the crown.(wiki:Battle_of_the_Blackwater.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-27)\n- More than six hundred men are knighted by the [Kingsguard](wiki:Kingsguard).(wiki:Battle_of_the_Blackwater.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-28) - [](wiki:Bronn) [Bronn](wiki:Bronn), knighted as Ser Bronn of the Blackwater for commanding at the winch towers.(wiki:Battle_of_the_Blackwater.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-7) - [](wiki:House_Kettleblack) Ser [Osfryd Kettleblack](wiki:Osfryd_Kettleblack), receives knighthood.(wiki:Battle_of_the_Blackwater.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-8) - [](wiki:House_Kettleblack) Ser [Osney Kettleblack](wiki:Osney_Kettleblack), receives knighthood.(wiki:Battle_of_the_Blackwater.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-9)\n\nBefore the port of King's Landing can be reopened, the [Blackwater Rush](wiki:Blackwater_Rush) must be dredged of sunken ships. Three out of every four quays are damaged.(wiki:Battle_of_the_Blackwater.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-0) Since fewer than a dozen of King's Landing's fleet survived the battle, Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) eventually approves the construction of [new dromonds](wiki:Cersei's_dromonds) to replace the destroyed ships.(wiki:Battle_of_the_Blackwater.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-1)"
+    }
+   ],
+   "existing_edges": [
+    "in:SUB_BEAT_OF:a-knight-attacks-tyrion-s-shield",
+    "in:SUB_BEAT_OF:fleet-forms-battle-lines",
+    "out:PART_OF:war-of-the-five-kings",
+    "in:DIED_AT:kennet-flea-bottom",
+    "in:DIED_AT:richard-farrow",
+    "in:PRECEDES:fall-of-harrenhal",
+    "out:PRECEDES:battle-outside-the-gates-of-winterfell",
+    "out:CAUSES:joffrey-sets-sansa-aside-and-agrees-to-wed-margaery",
+    "out:CAUSES:stannis-retreats-to-dragonstone",
+    "out:CAUSES:tywin-named-savior-of-the-city",
+    "in:ENABLES:stannis-absorbs-renly-s-host",
+    "in:ENABLES:littlefinger-brokers-tyrell-lannister-alliance",
+    "out:MOTIVATES:sandor-clegane",
+    "in:SUB_BEAT_OF:wildfire-trap-on-the-blackwater",
+    "in:SUB_BEAT_OF:tyrion-s-sortie-at-the-king-s-gate",
+    "in:SUB_BEAT_OF:garlan-tyrell-routs-stannis-as-renly-s-ghost",
+    "in:SUB_BEAT_OF:sandor-clegane-deserts-the-kingsguard",
+    "in:SUB_BEAT_OF:joffrey-recalled-to-the-red-keep",
+    "in:COMMANDS_IN:tyrion-lannister",
+    "in:COMMANDS_IN:stannis-baratheon",
+    "in:COMMANDS_IN:imry-florent",
+    "in:COMMANDS_IN:bronn",
+    "in:COMMANDS_IN:tywin-lannister",
+    "in:COMMANDS_IN:mace-tyrell",
+    "in:COMMANDS_IN:randyll-tarly",
+    "in:FIGHTS_IN:sandor-clegane",
+    "in:FIGHTS_IN:davos-seaworth",
+    "in:FIGHTS_IN:podrick-payne",
+    "in:FIGHTS_IN:balon-swann",
+    "in:FIGHTS_IN:mandon-moore",
+    "in:FIGHTS_IN:garlan-tyrell",
+    "in:FIGHTS_IN:guyard-morrigen",
+    "in:PARTICIPATES_IN:ilyn-payne",
+    "in:WITNESS_IN:sansa-stark",
+    "in:WIELDED_IN:blackwater-chain-boom",
+    "in:WIELDED_IN:wildfire",
+    "in:WIELDED_IN:fury",
+    "in:WIELDED_IN:black-betha",
+    "in:WIELDED_IN:swordfish-ship"
+   ]
+  },
+  {
+   "slug": "battle-of-the-honeywine",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-honeywine.node.md",
+   "passages": [
+    {
+     "around_line": 51,
+     "text": "Following only a fortnight after the devastating [Battle of the Gullet](wiki:Battle_of_the_Gullet), Lord [Bar Emmon](wiki:House_Bar_Emmon) suggested that the time had come for a negotiated peace. Instead, the recent tragedies pushed [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) to make a risky strike on King's Landing itself, as Daemon's strategic plan had lured Aemond and most of the city's defenders into the riverlands.(wiki:Battle_of_the_Honeywine.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)\n\n[Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)) was hailed as a hero that day, and knighted by Lord [Ormund Hightower](wiki:Ormund_Hightower) with the [Valyrian steel](wiki:Valyrian_steel) longsword, [Vigilance](wiki:Vigilance). Daeron was first called \"Daeron the Daring\" after the battle, though Daeron modestly said [Tessarion](wiki:Tessarion) was the true hero of the battle.(wiki:Battle_of_the_Honeywine.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)\n\nThe battle did, however, succeed in slowing the advance of the large Hightower army, indirectly preventing the greens in the Reach from aiding the greens to the north. The [westerlands](wiki:Westerlands)' armies were annihilated in the [Battle by the Lakeshore](wiki:Battle_by_the_Lakeshore), while the green armies from the [crownlands](wiki:Crownlands) were destroyed in the [Butcher's Ball](wiki:Butcher's_Ball).(wiki:Battle_of_the_Honeywine.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)"
+    }
+   ],
+   "existing_edges": [
+    "out:PART_OF:dance-of-the-dragons",
+    "in:PRECEDES:assault-on-harrenhal",
+    "out:PRECEDES:battle-of-the-kingsroad",
+    "in:VICTIM_IN:thaddeus-rowan",
+    "in:AGENT_IN:daeron-targaryen-son-of-viserys-i"
+   ]
+  },
+  {
+   "slug": "tourney-for-the-completion-of-the-dragonpit",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-for-the-completion-of-the-dragonpit.node.md",
+   "passages": [
+    {
+     "around_line": 30,
+     "text": "\nLord [Manfryd Redwyne](wiki:Manfryd_Redwyne), [master of ships](wiki:Master_of_ships), proposed that the completion of the [Dragonpit](wiki:Dragonpit) be celebrated with a great [tourney](wiki:Tourney), to which King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen). Lists were raised in the fields west of [King's Landing](wiki:King's_Landing)'s city walls between the [Lion Gate](wiki:Lion_Gate) and the [King's Gate](wiki:King's_Gate).(wiki:Tourney_for_the_completion_of_the_Dragonpit.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)\nAfter winning the squire's tourney, [Rickard Redwyne](wiki:Rickard_Redwyne) was knighted by Jaehaerys himself. The champion's laurels went to Ser [Simon Dondarrion](wiki:Simon_Dondarrion) of [Blackhaven](wiki:Blackhaven), who won the love of the [smallfolk](wiki:Smallfolk) and Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) when he crowned Princess [Daenerys Targaryen](wiki:Daenerys_Targaryen_(daughter_of_Jaehaerys_I)) as his [queen of love and beauty](wiki:Queen_of_love_and_beauty).(wiki:Tourney_for_the_completion_of_the_Dragonpit.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)\nAs no [dragons](wiki:Dragon) had been settled in the Dragonpit as yet, the huge building edifice was chosento host the tourney's grand melee, which involved seventy-seven knights divided into eleven teams. The participants began the melee on their [horses](wiki:Horse), but continued fighting on foot with blunted weaponws after being unhorsed. When only one team remained, its members turned on one another until only a single champion remained. By melee's end, two men had been killed and more than twoscore were wounded. Queen Alysanne forbade her favorites, [Jonquil Darke](wiki:Jonquil_Darke) and [Tom the Strummer](wiki:Tom_the_Strummer), from taking part in the melee.(wiki:Tourney_for_the_completion_of_the_Dragonpit.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)\n"
+    }
+   ],
+   "existing_edges": [
+    "in:AGENT_IN:lord-redwyne"
+   ]
+  },
+  {
+   "slug": "boar",
+   "node_type": "object.food",
+   "file": "graph/nodes/foods/boar.node.md",
+   "passages": [
+    {
+     "around_line": 61,
+     "text": "\n- (Cersei V, AFFC \u2014 `sources/chapters/affc/affc-cersei-05.md:373`) Cersei-Falyse-Balman supper: \"ribs of wild boar\" on the menu alongside hippocras, buttered beets, pike, and hot-baked bread \u2014 Cersei's appetite for boar persisting as a post-Robert signature.\n- (Queensguard I, ADWD \u2014 `sources/chapters/adwd/adwd-the-queensguard-01.md:53`) Barristan's knighting-feast memory: \"ribs of wild boar, prepared the Dornish way with dragon peppers, so hot they burned his mouth\" \u2014 boar at the feast where Aegon V knighted him at age sixteen.\n\n### A Dance with Dragons[ ]"
+    }
+   ],
+   "existing_edges": []
+  },
+  {
+   "slug": "duck",
+   "node_type": "object.food",
+   "file": "graph/nodes/foods/duck.node.md",
+   "passages": [
+    {
+     "around_line": 22,
+     "text": "\n[Dunk](wiki:Duncan_the_Tall) enjoyed duck at an inn near [Ashford Meadow](wiki:Ashford_Meadow).(wiki:Duck.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)\nSer [Rolly Duckfield](wiki:Rolly_Duckfield) chose his surname because he was in a field with ducks nearby when he was knighted by [Griff](wiki:Jon_Connington), earning him the nickname \"Duck\".(wiki:Duck.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)\n\n## Narrative Arc"
+    }
+   ],
+   "existing_edges": [
+    "out:SERVES:jon-connington",
+    "out:COMPANION_OF:tyrion-lannister",
+    "in:DEFEATS:aegon-targaryen-young-griff",
+    "out:TEACHES:aegon-targaryen-young-griff",
+    "out:SERVES:harry-strickland",
+    "out:ATTACKS:lorent-caswell",
+    "in:COMPANION_OF:ysilla",
+    "out:GUEST_OF:ysilla",
+    "out:VICTIM_IN:stone-men-attack-the-shy-maid"
+   ]
+  },
+  {
+   "slug": "house-bywater",
+   "node_type": "organization.house",
+   "file": "graph/nodes/houses/house-bywater.node.md",
+   "passages": [
+    {
+     "around_line": 35,
+     "text": "## Narrative Arc\n\nHistorically, Lord Bywater was one of King Maegor I's last supporters; when Maegor died, he fled to his seat (wiki:Fire_and_Blood). Jacelyn Bywater lost a hand at the siege of Pyke during Greyjoy's Rebellion and was knighted by King Robert, wearing an iron hand in place of the lost one. In ACOK, Ser Jacelyn is named Commander of the City Watch when Janos Slynt is exiled. On Tyrion's orders, Jacelyn seizes Prince Tommen and arrests Ser Boros Blount at Rosby, earning a lordship. He assigns runners to aid Tyrion during the Blackwater. In ASOS, Bronn reports Jacelyn was killed during the Blackwater by his own fleeing men (wiki:House_Bywater).\n\n## Edges"
+    }
+   ],
+   "existing_edges": [
+    "out:REGION_OF:crownlands",
+    "in:OVERLORD_OF:house-targaryen",
+    "in:OVERLORD_OF:house-baratheon-of-kings-landing",
+    "in:SWORN_TO:jacelyn-bywater"
+   ]
+  },
+  {
+   "slug": "house-clegane",
+   "node_type": "organization.house",
+   "file": "graph/nodes/houses/house-clegane.node.md",
+   "passages": [
+    {
+     "around_line": 34,
+     "text": "The [first Clegane](wiki:Clegane_(founder)) of House Clegane was [kennelmaster](wiki:Kennelmaster) at [Casterly Rock](wiki:Casterly_Rock). During one [autumn](wiki:Autumn) year he saved Lord [Tytos Lannister](wiki:Tytos_Lannister) from a [lioness](wiki:Lion), although he lost a leg and three dogs while doing so. Lord Tytos rewarded him with lands and a towerhouse. Ser Clegane's son was placed in Tytos's service as his squire. For his sigil Ser Clegane used the three dogs he lost saving Tytos, on the yellow of autumn grass.(wiki:House_Clegane.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:House_Clegane.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)\nThe kennelmaster's son, the [father](wiki:Clegane_(father_of_Gregor_and_Sandor)) of [Gregor](wiki:Gregor_Clegane) and [Sandor](wiki:Sandor_Clegane), died in a hunting accident. Their sister died young under queer circumstances.(wiki:House_Clegane.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Gregor is known for his unspeakable cruelty; this is mirrored in the [Mountain's men](wiki:Mountain's_men), who casually commit atrocities during their campaigns. Sandor was driven away by this behavior, taking service with [House Lannister](wiki:House_Lannister) and refusing to take a knight's vows to avoid association with his elder.\nGregor was knighted by Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), the heir of King [Aerys II Targaryen](wiki:Aerys_II_Targaryen). During the [Sack of King's Landing](wiki:Sack_of_King's_Landing), Gregor murdered Rhaegar's son, the infant Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar)), before raping and murdering his mother and Rhaegar's bride, Princess [Elia Martell](wiki:Elia_Martell).\n\n## Narrative Arc"
+    }
+   ],
+   "existing_edges": [
+    "in:SWORN_TO:chiswyck",
+    "in:SWORN_TO:clegane-father-of-gregor-and-sandor",
+    "in:SWORN_TO:clegane-founder",
+    "in:SWORN_TO:dunsen",
+    "in:SWORN_TO:eggon",
+    "in:SWORN_TO:gregor-clegane",
+    "in:SEAT_OF:cleganes-keep",
+    "out:REGION_OF:westerlands",
+    "in:OVERLORD_OF:house-lannister",
+    "in:SWORN_TO:joss-stilwood",
+    "in:SWORN_TO:pimply-squire",
+    "in:SWORN_TO:polliver",
+    "in:SWORN_TO:rafford",
+    "in:SWORN_TO:sandor-clegane",
+    "in:SWORN_TO:shitmouth",
+    "in:SWORN_TO:tickler",
+    "in:SWORN_TO:tobbot",
+    "in:FOUNDED:clegane-founder"
+   ]
+  },
+  {
+   "slug": "runestone",
+   "node_type": "place.location",
+   "file": "graph/nodes/locations/runestone.node.md",
+   "passages": [
+    {
+     "around_line": 32,
+     "text": "At Runestone, the [Lords Declarant](wiki:Lords_Declarant) write and sign a document containing their demands for the removal of Lord [Petyr Baelish](wiki:Petyr_Baelish) as [Lord Protector of the Vale](wiki:Lord_Protector_of_the_Vale).(wiki:Runestone.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)\nDuring a parley at the [Eyrie](wiki:Eyrie), the Lords Declarant attempt to have Lord [Robert Arryn](wiki:Robert_Arryn) become Lord [Yohn Royce](wiki:Yohn_Royce)'s ward at Runestone. Petyr manipulates them into granting him a year to prove his worth, however.(wiki:Runestone.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)\nBronze Yohn holds [a small m\u00eal\u00e9e](wiki:M\u00eal\u00e9e_at_Runestone) for squires only at Runestone. [Harrold Hardyng](wiki:Harrold_Hardyng) wins and is knighted by Yohn as his reward.(wiki:Runestone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)\n\n## Quotes"
+    }
+   ],
+   "existing_edges": [
+    "in:BORN_AT:andar-royce",
+    "in:DIED_AT:corwyn-corbray",
+    "out:SEAT_OF:house-royce",
+    "in:BORN_AT:robar-royce",
+    "in:BORN_AT:waymar-royce"
+   ]
+  }
+ ]
+}

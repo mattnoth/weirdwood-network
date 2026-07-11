@@ -1,6 +1,6 @@
 ---
 name: "War of the Wolves"
-type: event.battle
+type: event.war
 slug: war-of-the-wolves
 aliases: []
 confidence: tier-1

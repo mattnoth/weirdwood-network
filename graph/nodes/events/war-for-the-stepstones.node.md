@@ -1,6 +1,6 @@
 ---
 name: "War for the Stepstones"
-type: event.battle
+type: event.war
 slug: war-for-the-stepstones
 aliases: []
 confidence: tier-1

@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "slice": "suspicion-b",
+    "checked": 12
+  },
+  "verdicts": [
+    {
+      "id": "S1",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in agot-tyrion-05.md line 185. Catelyn's formal accusation of Tyrion at the Eyrie trial voices the suspicion clearly. Tyrion never proven guilty of conspiring to murder Jon Arryn in the text. Tier-2 appropriate for accusation/suspicion. All nodes exist.",
+      "note": ""
+    },
+    {
+      "id": "S2",
+      "verdict": "PROBLEM",
+      "reason": "proven-not-suspected",
+      "note": "Quote found in asos-sansa-07.md line 287. However, Lysa's dying confession proves Petyr's involvement—she confesses he commanded her to poison Jon Arryn. This is proof of the act within the published text, not a suspicion. Per check 2: 'Text proves the actor did it ⇒ PROBLEM'. The confession makes it a proven COMMANDS_IN, not SUSPECTED_OF."
+    },
+    {
+      "id": "S3",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in fab-the-lysene-spring-24-p02.md lines 95-97. Mushroom's testimony: clear in-text suspicion naming Peake as hidden mastermind behind the 42 conspirators. Text explicitly states 'his involvement remained unproven, then as now.' Tier-2 appropriate. All nodes exist.",
+      "note": ""
+    },
+    {
+      "id": "S4",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in fab-war-and-peace-and-cattle-shows-22-p02.md lines 71-75. Text speculates Mervyn Flowers could have been Unwin Peake's catspaw ('Could he have been the Hand's catspaw? It is more than possible'), but never proven. Tier-2 appropriate for secondhand/hedged speculation. All nodes exist.",
+      "note": ""
+    },
+    {
+      "id": "S5",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in acok-catelyn-05.md. Direct POV suspicion from Catelyn ('This was the Imp's work, Catelyn suspected'). Never confirmed as his doing. Tier-2 appropriate for in-world POV suspicion. All nodes exist.",
+      "note": ""
+    },
+    {
+      "id": "S6",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in affc-brienne-05.md line 131. Ser Hyle Hunt voices widespread misperception that Sandor led the raid on Saltpans. Text later disproves this (Elder Brother: Sandor couldn't have done it). Disproven-but-load-bearing suspicion, parallel to existing brienne-tarth/shadow-assassination-of-renly precedent. Tier-2 appropriate.",
+      "note": "False suspicion that is textually attested and plot-relevant: Sandor's helm was seen at Saltpans, fueling the false accusation."
+    },
+    {
+      "id": "S7",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in affc-brienne-05.md line 132. Lord Randyll Tarly deliberately spreads rumor blaming Beric's brotherhood for the raid as propaganda. In-world rumor, never proven. Matches faction-level suspect pattern (like sons-of-harpy). Tier-2 appropriate (via_rumor).",
+      "note": "Rumor is textually attributed to Randyll's propaganda campaign; not a genuine whodunit but a deliberate false narrative."
+    },
+    {
+      "id": "S8",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in tmk-dunk-01.md line 1845. Dunk publicly accuses Lord Gormon Peake of planting the dragon egg to frame Glendon Ball. Never definitively proven in text; suspicion voiced by named character. Tier-2 appropriate. All nodes exist.",
+      "note": ""
+    },
+    {
+      "id": "S9",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in adwd-the-kingbreaker-01.md line 147. Barristan's retrospective POV confirms the in-world suspicion: Aerys (via Varys) suspected Rhaegar orchestrated the tourney to cover a conspiracy. Never proven whether Rhaegar actually did so. Tier-2 appropriate for chronicler-hedged suspicion.",
+      "note": ""
+    },
+    {
+      "id": "S10",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in fab-rhaenyra-overthrown-18-p01.md. Widespread whisper/rumor ('the whispers went') blaming Rhaenyra for ordering Largent to murder Helaena. Text concludes this was 'likely false' but suspicion itself is clearly attested in-world. Disproven-but-load-bearing suspicion, parallel to precedent. Tier-2 appropriate (via_rumor).",
+      "note": "In-text false accusation; the false suspicion is plot-relevant to Rhaenyra's downfall and the Dance instability."
+    },
+    {
+      "id": "S11",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in fab-rhaenyra-overthrown-18-p01.md (same passage as S10). Same rumor names Largent as the hand that threw Helaena from the window. Text supplies alibi ('eating with 300 gold cloaks at the barracks when she died'—explicitly disproven). Disproven-but-load-bearing suspicion. Tier-2 appropriate (via_rumor).",
+      "note": "False suspicion with textual alibi; represents the false narrative circulating about Helaena's death."
+    },
+    {
+      "id": "S12",
+      "verdict": "CONFIRM",
+      "reason": "Quote found in asos-sansa-07.md line 307. Littlefinger's on-the-spot frame-up of Marillion immediately after pushing Lysa through the Moon Door himself. Text proves Petyr's guilt in same passage ('Only Cat.' He gave her a short, sharp shove.). False, framed suspicion. Tier-2 appropriate. All nodes exist.",
+      "note": "Honest false accusation; Marillion is scapegoated by Petyr. Matches the in-text frame-up pattern (Tyrion/Sansa/Marillion precedent). Suspicion is load-bearing to the plot resolution."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 name: "Faith Militant uprising"
-type: event.battle
+type: event.war
 slug: faith-militant-uprising
 aliases: []
 confidence: tier-1

@@ -1,6 +1,6 @@
 ---
 name: "The Winterfell murders"
-type: event.incident
+type: event.death
 slug: the-winterfell-murders
 aliases: ["the ghost in Winterfell", "the snowbound killings at Winterfell", "the Winterfell murder spree"]
 confidence: tier-1

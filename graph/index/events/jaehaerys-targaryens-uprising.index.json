@@ -1,7 +1,7 @@
 {
   "slug": "jaehaerys-targaryens-uprising",
   "name": "Jaehaerys Targaryen's uprising",
-  "type": "event.battle",
+  "type": "event.war",
   "node_path": "graph/nodes/events/jaehaerys-targaryens-uprising.node.md",
   "generated_at": "2026-07-10T14:28:37.024727+00:00",
   "stats": {

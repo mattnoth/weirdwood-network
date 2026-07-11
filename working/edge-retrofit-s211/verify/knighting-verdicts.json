@@ -1,0 +1,68 @@
+{
+ "_meta": {
+  "slice": "knighting",
+  "checked": 10
+ },
+ "verdicts": [
+  {
+   "id": "K1",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "On-page account by Sandor Clegane of Gregor's dubbing by Rhaegar at a tourney four years before AGOT; witnessed scene, chain-mail verified, knightly vows spoken, dubbing confirmed. Both nodes exist."
+  },
+  {
+   "id": "K2",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "Barristan Selmy confirms to Ned Stark that Robert knighted Hugh of the Vale at King's Landing before riding north, in Jon Arryn's memory. Barristan as witness/informant. Both nodes exist."
+  },
+  {
+   "id": "K3",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "Tyrion's account of Jacelyn Bywater's knighting by Robert at Pyke during Balon Greyjoy's Rebellion, confirmed as a known fact in Tyrion's discussion with Janos Slynt. Both nodes exist."
+  },
+  {
+   "id": "K4",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "On-page Trial of Seven dubbing scene at Ashford: Lyonel Baratheon (the Laughing Storm) personally knights Raymun Fossoway, performing the full ceremony with sword and vows. Direct witness narration. Both nodes exist."
+  },
+  {
+   "id": "K5",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "Rolly Duckfield's direct first-person account to Tyrion: 'Any knight can make a knight, and Griff made me.' Griff = Jon Connington. On-page dialogue. Both nodes exist."
+  },
+  {
+   "id": "K6",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "Barristan Selmy's own POV narration of his life history: he received knighthood at the hands of Aegon the Unlikely (Aegon V) during his reign. First-hand account of personal event. Both nodes exist."
+  },
+  {
+   "id": "K7",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "Littlefinger to Alayne/Sansa: 'Bronze Yohn knighted him' (Harrold Hardyng after winning the squires' melee at Runestone). Littlefinger as informant of known event. Both nodes exist."
+  },
+  {
+   "id": "K8",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "Glendon Flowers' first-person account to Dunk: 'I was knighted by Ser Morgan Dunstable of Tumbler's Falls, two dozen people saw it.' Direct witness testimony. Both nodes exist."
+  },
+  {
+   "id": "K9",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "Duncan the Tall's first-person account to tourney steward: 'He knighted me before he passed, with his own sword' (Ser Arlan of Pennytree). Direct first-hand account of personal dubbing event. Both nodes exist."
+  },
+  {
+   "id": "K10",
+   "verdict": "CONFIRM",
+   "reason": "quote-found + direction-correct + tier-1-appropriate",
+   "note": "On-page narration by Ser Arys Oakheart: Quentyn Martell was fostered by Lord Yronwood and 'had even taken knighthood at his hands in preference to the Red Viper's.' On-page account of known biographical fact. Both nodes exist."
+  }
+ ]
+}

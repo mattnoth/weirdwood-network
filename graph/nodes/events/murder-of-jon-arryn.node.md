@@ -1,6 +1,6 @@
 ---
 name: "Murder of Jon Arryn"
-type: event.incident
+type: event.assassination
 slug: murder-of-jon-arryn
 aliases: ["murder of Jon Arryn", "death of Jon Arryn", "poisoning of Jon Arryn"]
 confidence: tier-1

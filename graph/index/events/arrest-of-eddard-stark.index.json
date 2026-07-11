@@ -1,7 +1,7 @@
 {
   "slug": "arrest-of-eddard-stark",
   "name": "Arrest of Eddard Stark",
-  "type": "event.incident",
+  "type": "event.capture",
   "node_path": "graph/nodes/events/arrest-of-eddard-stark.node.md",
   "generated_at": "2026-07-10T14:28:37.028043+00:00",
   "stats": {

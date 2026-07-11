@@ -1,6 +1,6 @@
 ---
 name: "War of the Ninepenny Kings"
-type: event.battle
+type: event.war
 slug: war-of-the-ninepenny-kings
 aliases: []
 confidence: tier-1

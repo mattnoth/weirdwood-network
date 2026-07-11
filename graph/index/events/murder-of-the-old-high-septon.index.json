@@ -1,7 +1,7 @@
 {
   "slug": "murder-of-the-old-high-septon",
   "name": "Murder of the old High Septon",
-  "type": "event.incident",
+  "type": "event.assassination",
   "node_path": "graph/nodes/events/murder-of-the-old-high-septon.node.md",
   "generated_at": "2026-07-10T14:28:37.071562+00:00",
   "stats": {

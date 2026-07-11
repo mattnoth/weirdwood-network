@@ -1,6 +1,6 @@
 ---
 slug: murder-of-the-old-high-septon
-type: event.incident
+type: event.assassination
 name: "Murder of the old High Septon"
 aliases: ["death of the old High Septon", "Osney smothers the High Septon", "the High Septon killed in his sleep", "Cersei has the old High Septon murdered"]
 confidence: tier-2
