@@ -358,7 +358,13 @@ Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, ci
   // Dragon = the Dance of the Dragons era — to book entities; flag book-vs-show
   // divergence plainly, never detail/cite show scenes). The theory-gate/cite/floor
   // text is unchanged (see the explicit substring assertions above, which still pass).
-  assert.equal(sharedRules.length, 12489, "SHARED_RULES length changed — confirm intentional");
+  // Updated S211 for the relationship-facts routing row + the stronger neighbors tool
+  // line ("who knighted/killed/was suspected of X" → neighbors; read_node's dossier
+  // carries no relationship links). Motivation: a live probe post-S211-edge-retrofit
+  // showed the agent answering "who knighted Gregor?" as unknown while the
+  // KNIGHTED_BY edge sat in the bundle — the old table never routed relationship
+  // questions to neighbors. Theory-gate/cite/floor text unchanged.
+  assert.equal(sharedRules.length, 13212, "SHARED_RULES length changed — confirm intentional");
 });
 
 // ---- list_nodes / theme tools (query-layer wiring pass 2) ----
