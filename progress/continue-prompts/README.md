@@ -12,7 +12,6 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-10-recovery-dispute-drain.md` | 2026-07-10 | F&B recovery dispute-held drain — 76 rows | **LIVE** (fires as S209) | **Sonnet 4.6** — light adjudication over deterministic machinery | The S208 recovery landed 995 edges + 201 event nodes but 76 recovered candidate edges were HELD by the dispute-proximity quarantine (`working/fire-and-blood/recovery-s208/out/*/dispute-review.jsonl`). Drain via the S201 machine: fab-dispute-preclassify → primary-text adjudication → fab-dispute-inject (fresh run_id; P4 dedup + disputed-invariant protect the landing). Last open piece of the review-bucket track; the edge-vocab retrofit follows as its own track. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 > *S198 note:* `2026-07-06-fire-and-blood-build-smoke.md` archived (build + Stage-1 smoke DONE, superseded by the reconciler-fix prompt above). The `2026-07-06-wiki-prose-disambiguation-composer.md` row was DONE S197 (composer built + applied 477 nodes; prompt archived).
@@ -20,7 +19,9 @@
 
 ---
 
-## Archive (`archive/` subfolder — 120 files)
+## Archive (`archive/` subfolder — 121 files)
+
+> **`2026-07-10-recovery-dispute-drain.md`** — archived S209. **DONE (S209): the 76 dispute-held recovery rows DRAINED — the LAST review-bucket step; the track is now fully CLOSED.** `fab-dispute-preclassify` auto-resolved 49/72 (every chronicler hedge_term a paragraph-proximity false-positive) → 23 NEEDS_READ edges adjudicated against the chapter text: **20 confirm (tier-1) / 3 drop** (`CAPTURES corlys→alicent` no-agency, `RULES tyland→seven-kingdoms` Hand≠king, `SAME_AS nettles→netty` alias-not-cross-identity → "Netty" queued to harvest). Landing was a **re-merge** (S208 already applied these units): edges re-minted under fresh run_ids (mint's quote-dedup skipped all S208-landed edges → only 44 `DISP*` landed); prose via a **dispute-only merge-plan consolidated 1-entry-per-slug** (avoids the same-run_id `skipped_marker` trap + the augmented-plan dup trap) → 24 bullets on 11 nodes, zero dup. Caught + handled the `EXCLUDED_UNITS` name-collision false-positive (heirs-15-p01/p02 in the recovery dir). **+44 edges → edges.jsonl 26,352**; event nodes unchanged (1,242); 5 event-kind rows deferred, 3 dropped. Gate 4/4 · pytest 1457 · deno 100; no `weirwood refresh` (prose-only body edits). Records: `working/fire-and-blood/recovery-s208/ADJUDICATION-s209-disputes.md`. Detail: `history/session-details/session-209.md`. **No successor live prompt — Matt's pick next (edge-vocab retrofit Part B is the top open track).**
 
 > **`2026-07-10-review-bucket-triage.md`** — archived S208. **DONE (S208): the review-bucket RECOVERY LANDED end-to-end.** `--recover` mode built on the reconciler (per-unit curated `{name: slug|CREATE}` maps; processes ONLY mapped names → double-apply impossible by construction; idempotency proven 4 ways on a checkpointed scratch run before scaling). All 4 name classes curated (tail 415 names/406 rows DROPPED+logged); deferred-events vein: 4× Sonnet create-or-skip + semantic-dup scan (8 cross-unit collisions fixed, 9 disambiguating premints) + 192-CREATE Haiku fresh-verify (190C/2 dupe-flips). **LANDED 39/39 units: +995 edges (52 disputed, all sourced) + 201 event nodes → edges.jsonl 26,308, event nodes 1,242.** Riders resolved: `event.betrothal` SANCTIONED / `betrayal` REJECTED (Matt); `mellos` enum + attribution fix; reconciler CREATE path now schema-gates subtypes. 6 P1 harm-gate retypes (S207 fallout). Gate 4/4 · pytest 1457 · deno 100. Residue → the new live prompt (76 dispute-held rows). Detail: `history/session-details/session-208.md`. Superseded as live by `2026-07-10-recovery-dispute-drain.md`.
 
@@ -178,7 +179,7 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (LIVE: F&B review-bucket triage · strip-boilerplate: un-park condition MET, Matt-gated · D&E Pass-1: PARKED)
+## Open threads right now (NO live graph prompt — Matt's pick: edge-vocab retrofit Part B is the top open track · strip-boilerplate: un-park condition MET, Matt-gated · D&E Pass-1: PARKED)
 
 > **ONE live graph track (2026-07-07): Fire & Blood.** S197's "two parallel-safe tracks" framing is retired — the strip's
 > verify step proved strip-before-F&B breaks F&B's Identity swap, so Matt parked the strip behind F&B's full apply cycle
@@ -188,7 +189,7 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 > **F&B readiness (S197):** the epub landed on disk today (`sources/raw/fire-and-blood.epub`), but the pipeline is unbuilt —
 > F&B extraction is the OUTPUT of the S198 build, not a parallel-startable thing.
 
-**LIVE (graph): `2026-07-10-review-bucket-triage.md`** — **F&B review-bucket triage (fires as S208).** The F&B graph track is now post-bulk-apply + post-causal-spine (S204) + post-cross-era-seams (S206) + post-schema-hygiene (S207). Next = recover the **1,440 quarantined reconcile-review rows** — resolve re-injection idempotency FIRST, then the deferred-events vein (`event-dedup-risk` 221 + `composite-name` 57 = real missing canon). Riders: sanction `event.betrothal`/`betrayal`? + node-type promotion sweep + (backlog) edge-vocab retrofit. (**Sonnet 4.6** orchestrator + Haiku fresh-verify.)
+**NO LIVE graph prompt.** The F&B graph track is post-bulk-apply + post-causal-spine (S204) + post-cross-era-seams (S206) + post-schema-hygiene (S207) + post-review-bucket-recovery (S208) + **post-dispute-drain (S209) — the review-bucket track is now fully CLOSED.** Next is **Matt's pick** among the open graph tracks: **edge-vocab retrofit (Part B — confirmed wanted, the top one; quote-grounded KNIGHTED_BY / role edges / SUSPECTED_OF where main-series + F&B text supports them; needs its own continue prompt when greenlit)** · node-type promotion sweep (todos MED) · **strip-boilerplate (un-park condition MET, Matt-gated)** · prod deploy of the enlarged bundle (Matt-gated).
 
 **UN-PARK CONDITION MET (2026-07-09): `archive/2026-07-06-strip-wiki-boilerplate-identity.md`** — remove "… from the AWOIAF wiki" from all node Identity prose (6,739 nodes, backlog HIGH; Matt S197). Was parked behind F&B's full apply cycle — **the LAST pack applied S202**, so the strip is now safely runnable pending Matt's go (+ the 46-node `RICH_SECTIONS_RE` nit from its un-park checklist). Script sits ready, dry-run only: `scripts/strip-wiki-boilerplate.py`. (**Sonnet**.)
 

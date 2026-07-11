@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Barth
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 12
+node_version: 13
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -162,3 +162,8 @@ Despite being in a House Tyrell bucket, Barth's primary significance is as Hand 
 
 - Septon Barth, writing years later, held that Jaehaerys privately opposed his mother's marriage to Rogar but held his tongue (fab-year-of-the-three-brides-07:49)
 - Barth esteemed Alysanne and served her husband long (fab-year-of-the-three-brides-07:109)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- Years later he set down a summary of the Oldtown bargain, rueing the corruption of the Most Devout (fab-jaehaerys-and-alysanne-dragonstone-11:93)
+- He weighed in on every court question, from the source of Targaryen power to whether an Essosi "dragon" was truly a wyvern (fab-jaehaerys-and-alysanne-triumphs-12-p01:173)

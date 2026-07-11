@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Eustace_(Dance_of_the_Dragons)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki
 first_available: null
 ---
@@ -75,3 +75,9 @@ Eustace's writing is sober, ponderous, and less salacious than that of [Mushroom
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery -->
 
 - Septon Eustace, writing years later, held the king's death anticipated and the greens prepared, and gave a gentler account of Aegon (fab-the-blacks-and-the-greens-16-p01:39)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- Of the royal sept in the Red Keep, a confidant of King Viserys, he set down the most detailed sober history of the period (fab-heirs-of-the-dragon-15-p01:199)
+- In his telling Criston Cole cut Beesbury's throat (fab-the-blacks-and-the-greens-16-p01:99)
+- He described the king at the Feast of Our Father Above as if made of wax (fab-war-and-peace-and-cattle-shows-22-p01:111)

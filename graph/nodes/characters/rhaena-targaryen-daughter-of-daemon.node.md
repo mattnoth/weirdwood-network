@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rhaena_Targaryen_(daughter_of_Daemon)"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 8
+node_version: 9
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -109,3 +109,8 @@ Lady Rhaena would make a splendid queen.(wiki:Rhaena_Targaryen_(daughter_of_Daem
 - Lady; twin of Baela, half-sister of the king, wife of Ser Corwyn Corbray (fab-war-and-peace-and-cattle-shows-22-p02:171)
 - She announced she was with child by Corwyn Corbray, then miscarried a moon later (fab-war-and-peace-and-cattle-shows-22-p02:21)
 - Wan and thin from her miscarriage, she rode with her twin to bring the king his new queen (fab-war-and-peace-and-cattle-shows-22-p02:163)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- Lady Arryn's ward, she arrived from Gulltown with her dragon Morning on her shoulder (fab-hour-of-the-wolf-20:171)
+- She and her twin Baela became the darlings of King's Landing and pressed the prince to spare the Sea Snake (fab-hour-of-the-wolf-20:171)

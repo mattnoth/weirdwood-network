@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corlys_Velaryon"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 18
+node_version: 19
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -234,3 +234,13 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery -->
 
 - He argued against burning King's Landing and would command the fleet closing the Gullet (fab-the-blacks-and-the-greens-16-p01:225)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- The Sea Snake, Lord of the Tides, was as wealthy and powerful as any man in the realm and resented House Velaryon's repeated slights (fab-heirs-of-the-dragon-15-p02:51)
+- He was freed from the dungeons by Ser Perkin (fab-rhaenyra-overthrown-18-p01:259)
+- Corlys Velaryon of Driftmark, the Sea Snake, grown old, was the greatest lord to pledge his strength to Rhaenyra (fab-the-blacks-and-the-greens-16-p01:197)
+- He grumbled but smiled that the three boys were Velaryons (fab-the-blacks-and-the-greens-16-p01:261)
+- With Princess Rhaenys he kept Joffrey from mounting his dragon after Luke's death (fab-the-blacks-and-the-greens-16-p02:255)
+- The Sea Snake and Hand, who with Gerardys alone spoke in defense of the dragonseeds (fab-the-red-dragon-and-the-gold-17-p04:99)
+- He declared Addam and his brother Alyn "true Velaryons" and worthy heirs to Driftmark (fab-the-red-dragon-and-the-gold-17-p04:99)

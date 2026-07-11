@@ -1,179 +1,215 @@
 {
-  "_meta": {
-    "unit": "fab-the-red-dragon-and-the-gold-17-p03",
-    "session": "fab-reconcile",
-    "run_id": "fab-the-red-dragon-and-the-gold-17-p03-2026-07-10-recovery",
-    "evidence_kind": "book-fab",
-    "new_node_slugs": [
-      "death-of-rickard-thorne",
-      "fall-of-faircastle",
-      "yielding-of-longtable"
-    ],
-    "note": "Fire & Blood reconciler output for fab-the-red-dragon-and-the-gold-17-p03 (smoke=False).",
-    "produced_at": "2026-07-10T00:00:00+00:00"
+ "_meta": {
+  "unit": "fab-the-red-dragon-and-the-gold-17-p03",
+  "session": "fab-reconcile",
+  "run_id": "fab-the-red-dragon-and-the-gold-17-p03-2026-07-10-recovery-recovery-disputes-s209",
+  "evidence_kind": "book-fab",
+  "new_node_slugs": [
+   "death-of-rickard-thorne",
+   "fall-of-faircastle",
+   "yielding-of-longtable"
+  ],
+  "note": "Fire & Blood reconciler output for fab-the-red-dragon-and-the-gold-17-p03 (smoke=False).",
+  "produced_at": "2026-07-10T00:00:00+00:00"
+ },
+ "edges": [
+  {
+   "id": "E3",
+   "type": "PARENT_OF",
+   "source": "aegon-ii-targaryen",
+   "target": "jaehaera-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Aegon's daughter, Jaehaera, was likewise at large",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Aegon II Targaryen PARENT_OF Jaehaera",
+   "qualifier": "biological"
   },
-  "edges": [
-    {
-      "id": "E3",
-      "type": "PARENT_OF",
-      "source": "aegon-ii-targaryen",
-      "target": "jaehaera-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Aegon's daughter, Jaehaera, was likewise at large",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Aegon II Targaryen PARENT_OF Jaehaera",
-      "qualifier": "biological"
-    },
-    {
-      "id": "E14",
-      "type": "UNCLE_OF",
-      "source": "daeron-targaryen-son-of-viserys-i",
-      "target": "maelor-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "the same terms you gave my nephew Maelor",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Prince Daeron UNCLE_OF Maelor Targaryen"
-    },
-    {
-      "id": "E16",
-      "type": "STEP_PARENT_OF",
-      "source": "alicent-hightower",
-      "target": "rhaenyra-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Rhaenyra rejected her stepmother's proposal with scorn",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Alicent STEP_PARENT_OF Rhaenyra Targaryen"
-    },
-    {
-      "id": "E23",
-      "type": "ADVISES",
-      "source": "corlys-velaryon",
-      "target": "rhaenyra-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "suggested to Her Grace that the time had come to talk",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Corlys Velaryon ADVISES Rhaenyra Targaryen"
-    },
-    {
-      "id": "E32",
-      "type": "KILLS",
-      "source": "pate-of-longleaf",
-      "target": "jason-lannister",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "the Lionslayer who had cut down Jason Lannister",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Pate of Longleaf KILLS Jason Lannister",
-      "qualifier": "by_blade"
-    },
-    {
-      "id": "E43",
-      "type": "NEGOTIATES_WITH",
-      "source": "alicent-hightower",
-      "target": "rhaenyra-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "the realm might be divided",
-      "tier": "tier-1",
-      "note": "Fire & Blood: Alicent NEGOTIATES_WITH Rhaenyra Targaryen"
-    },
-    {
-      "id": "EV1-agent-willow-pound-stone",
-      "type": "AGENT_IN",
-      "source": "willow-pound-stone",
-      "target": "death-of-maelor-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Willow Pound-Stone clutched the boy so tightly that she broke his back",
-      "tier": "tier-2",
-      "note": "Fire & Blood event: Willow Pound-Stone AGENT_IN Death of Maelor Targaryen",
-      "in_universe_source": "mushroom",
-      "disputed": true
-    },
-    {
-      "id": "EV1-patient-maelor-targaryen",
-      "type": "VICTIM_IN",
-      "source": "maelor-targaryen",
-      "target": "death-of-maelor-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Willow Pound-Stone clutched the boy so tightly that she broke his back",
-      "tier": "tier-2",
-      "note": "Fire & Blood event: Maelor Targaryen VICTIM_IN Death of Maelor Targaryen",
-      "in_universe_source": "mushroom",
-      "disputed": true
-    },
-    {
-      "id": "EV2-patient-maelor-targaryen",
-      "type": "VICTIM_IN",
-      "source": "maelor-targaryen",
-      "target": "death-of-maelor-targaryen",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "the town butcher hacked the prince into six pieces with his cleaver",
-      "tier": "tier-2",
-      "note": "Fire & Blood event: Maelor Targaryen VICTIM_IN Death of Maelor Targaryen",
-      "in_universe_source": "eustace",
-      "disputed": true
-    },
-    {
-      "id": "EV4-patient-rickard-thorne",
-      "type": "VICTIM_IN",
-      "source": "rickard-thorne",
-      "target": "death-of-rickard-thorne",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "It was the crossbows that finally brought him down",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Rickard Thorne VICTIM_IN Death of Rickard Thorne"
-    },
-    {
-      "id": "EV6-agent-dalton-greyjoy",
-      "type": "AGENT_IN",
-      "source": "dalton-greyjoy",
-      "target": "fall-of-faircastle",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Faircastle fell to Dalton Greyjoy",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Dalton Greyjoy AGENT_IN Fall of Faircastle"
-    },
-    {
-      "id": "EV6-patient-house-farman",
-      "type": "VICTIM_IN",
-      "source": "house-farman",
-      "target": "fall-of-faircastle",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Faircastle fell to Dalton Greyjoy",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Lord Farman VICTIM_IN Fall of Faircastle"
-    },
-    {
-      "id": "EV7-agent-ormund-hightower",
-      "type": "AGENT_IN",
-      "source": "ormund-hightower",
-      "target": "yielding-of-longtable",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Lady Merryweather yielded Longtable to Lord Ormund Hightower",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Ormund Hightower AGENT_IN Yielding of Longtable"
-    },
-    {
-      "id": "EV7-patient-lady-merryweather",
-      "type": "VICTIM_IN",
-      "source": "lady-merryweather",
-      "target": "yielding-of-longtable",
-      "book": "fab",
-      "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
-      "quote": "Lady Merryweather yielded Longtable to Lord Ormund Hightower",
-      "tier": "tier-1",
-      "note": "Fire & Blood event: Lady Merryweather VICTIM_IN Yielding of Longtable"
-    }
-  ]
+  {
+   "id": "E14",
+   "type": "UNCLE_OF",
+   "source": "daeron-targaryen-son-of-viserys-i",
+   "target": "maelor-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "the same terms you gave my nephew Maelor",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Prince Daeron UNCLE_OF Maelor Targaryen"
+  },
+  {
+   "id": "E16",
+   "type": "STEP_PARENT_OF",
+   "source": "alicent-hightower",
+   "target": "rhaenyra-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Rhaenyra rejected her stepmother's proposal with scorn",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Alicent STEP_PARENT_OF Rhaenyra Targaryen"
+  },
+  {
+   "id": "E23",
+   "type": "ADVISES",
+   "source": "corlys-velaryon",
+   "target": "rhaenyra-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "suggested to Her Grace that the time had come to talk",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Corlys Velaryon ADVISES Rhaenyra Targaryen"
+  },
+  {
+   "id": "E32",
+   "type": "KILLS",
+   "source": "pate-of-longleaf",
+   "target": "jason-lannister",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "the Lionslayer who had cut down Jason Lannister",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Pate of Longleaf KILLS Jason Lannister",
+   "qualifier": "by_blade"
+  },
+  {
+   "id": "E43",
+   "type": "NEGOTIATES_WITH",
+   "source": "alicent-hightower",
+   "target": "rhaenyra-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "the realm might be divided",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Alicent NEGOTIATES_WITH Rhaenyra Targaryen"
+  },
+  {
+   "id": "EV1-agent-willow-pound-stone",
+   "type": "AGENT_IN",
+   "source": "willow-pound-stone",
+   "target": "death-of-maelor-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Willow Pound-Stone clutched the boy so tightly that she broke his back",
+   "tier": "tier-2",
+   "note": "Fire & Blood event: Willow Pound-Stone AGENT_IN Death of Maelor Targaryen",
+   "in_universe_source": "mushroom",
+   "disputed": true
+  },
+  {
+   "id": "EV1-patient-maelor-targaryen",
+   "type": "VICTIM_IN",
+   "source": "maelor-targaryen",
+   "target": "death-of-maelor-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Willow Pound-Stone clutched the boy so tightly that she broke his back",
+   "tier": "tier-2",
+   "note": "Fire & Blood event: Maelor Targaryen VICTIM_IN Death of Maelor Targaryen",
+   "in_universe_source": "mushroom",
+   "disputed": true
+  },
+  {
+   "id": "EV2-patient-maelor-targaryen",
+   "type": "VICTIM_IN",
+   "source": "maelor-targaryen",
+   "target": "death-of-maelor-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "the town butcher hacked the prince into six pieces with his cleaver",
+   "tier": "tier-2",
+   "note": "Fire & Blood event: Maelor Targaryen VICTIM_IN Death of Maelor Targaryen",
+   "in_universe_source": "eustace",
+   "disputed": true
+  },
+  {
+   "id": "EV4-patient-rickard-thorne",
+   "type": "VICTIM_IN",
+   "source": "rickard-thorne",
+   "target": "death-of-rickard-thorne",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "It was the crossbows that finally brought him down",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Rickard Thorne VICTIM_IN Death of Rickard Thorne"
+  },
+  {
+   "id": "EV6-agent-dalton-greyjoy",
+   "type": "AGENT_IN",
+   "source": "dalton-greyjoy",
+   "target": "fall-of-faircastle",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Faircastle fell to Dalton Greyjoy",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Dalton Greyjoy AGENT_IN Fall of Faircastle"
+  },
+  {
+   "id": "EV6-patient-house-farman",
+   "type": "VICTIM_IN",
+   "source": "house-farman",
+   "target": "fall-of-faircastle",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Faircastle fell to Dalton Greyjoy",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Lord Farman VICTIM_IN Fall of Faircastle"
+  },
+  {
+   "id": "EV7-agent-ormund-hightower",
+   "type": "AGENT_IN",
+   "source": "ormund-hightower",
+   "target": "yielding-of-longtable",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Lady Merryweather yielded Longtable to Lord Ormund Hightower",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Ormund Hightower AGENT_IN Yielding of Longtable"
+  },
+  {
+   "id": "EV7-patient-lady-merryweather",
+   "type": "VICTIM_IN",
+   "source": "lady-merryweather",
+   "target": "yielding-of-longtable",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "Lady Merryweather yielded Longtable to Lord Ormund Hightower",
+   "tier": "tier-1",
+   "note": "Fire & Blood event: Lady Merryweather VICTIM_IN Yielding of Longtable"
+  },
+  {
+   "id": "DISP1",
+   "type": "SIBLING_OF",
+   "source": "rhaena-targaryen-daughter-of-daemon",
+   "target": "baela-targaryen",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "her twin, the dragonrider Baela",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Rhaena Targaryen SIBLING_OF Baela Targaryen",
+   "via": "dispute-inject"
+  },
+  {
+   "id": "DISP2",
+   "type": "WARD_OF",
+   "source": "rhaena-targaryen-daughter-of-daemon",
+   "target": "jeyne-arryn",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "remained in the Vale as a ward of Lady Arryn",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Rhaena Targaryen WARD_OF Lady Arryn",
+   "via": "dispute-inject"
+  },
+  {
+   "id": "DISP3",
+   "type": "EXECUTES",
+   "source": "lady-caswell",
+   "target": "sly-stableboy",
+   "book": "fab",
+   "chapter": "fab-the-red-dragon-and-the-gold-17-p03",
+   "quote": "At her command, Sly the stableboy and Willow Pound-Stone were hanged",
+   "tier": "tier-1",
+   "note": "Fire & Blood: Lady Caswell EXECUTES Sly",
+   "via": "dispute-inject"
+  }
+ ]
 }

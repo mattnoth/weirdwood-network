@@ -7,7 +7,7 @@ confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Orwyle"
 bucket_id: tier3-pathb-characters
 prompt_version: v1-python
-node_version: 7
+node_version: 8
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -81,3 +81,8 @@ When Tyland died from the disease, the young King [Aegon III Targaryen](wiki:Aeg
 - Green council maester who urged parley and was dispatched as Aegon's envoy (fab-the-blacks-and-the-greens-16-p02:35)
 - Confronted by Rhaenyra, he admitted King Viserys had named her heir (fab-the-blacks-and-the-greens-16-p02:49)
 - Orwyle replied". Rhaenyra stripped his chain of office and had it given to Gerardys (fab-the-blacks-and-the-greens-16-p02:55)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- Grand Maester Orwyle sat on the green council and opened it by reviewing the customary rites for a dead king (fab-the-blacks-and-the-greens-16-p01:61)
+- His confessions before execution underlie Munkun's history, though he wrote to absolve himself (fab-the-blacks-and-the-greens-16-p01:55)

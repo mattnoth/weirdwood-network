@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Nettles"
 bucket_id: characters-other-n-o
 prompt_version: v1-python
-node_version: 6
+node_version: 7
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -101,3 +101,8 @@ Nettles was foul-mouthed, filthy, and fearless.(wiki:Nettles.cite_ref-Rfabthe_dy
 - — and Eustace said her teeth were crooked and her nose scarred for thieving; she was also called Netty (fab-the-red-dragon-and-the-gold-17-p04:37)
 - Warned by Norren, she fed Sheepstealer a black ram at dawn, mounted with blood-stained leathers and tear-stained cheeks, and flew toward the Bay of Crabs (fab-the-red-dragon-and-the-gold-17-p04:205)
 - She vanished into the mists and was never seen again at court or castle (fab-the-red-dragon-and-the-gold-17-p04:207)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- The small brown bastard girl, no more than ten-and-seven, who bound the dragon Sheepstealer to her by feeding him sheep (fab-the-red-dragon-and-the-gold-17-p04:37)
+- Munkun described her dismissively (fab-the-red-dragon-and-the-gold-17-p04:37)

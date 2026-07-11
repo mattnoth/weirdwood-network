@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
 bucket_id: houses-major-recovery
 prompt_version: v1-python
-node_version: 14
+node_version: 15
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -352,3 +352,7 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 - The young king, Jaehaera's widower, dour and gloomy (fab-war-and-peace-and-cattle-shows-22-p02:49)
 - Told he must set aside mourning and wed again, he asked what if he did not like Myrielle (fab-war-and-peace-and-cattle-shows-22-p02:91)
 - He chose the six-year-old Daenaera Velaryon, telling her she looked very pretty (fab-war-and-peace-and-cattle-shows-22-p02:179)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- At the ball he sat the Iron Throne in black with a golden circlet and nodded to each maid without answering them (fab-war-and-peace-and-cattle-shows-22-p02:137)

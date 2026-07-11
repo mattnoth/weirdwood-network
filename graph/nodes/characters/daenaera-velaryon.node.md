@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daenaera_Velaryon"
 bucket_id: characters-house-velaryon
 prompt_version: v1-python
-node_version: 5
+node_version: 6
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -113,3 +113,7 @@ She had a sunny nature,(wiki:Daenaera_Velaryon.cite_ref-Rfabunder_the_regents_-_
 <!-- fab-enriched: fab-voyage-of-alyn-oakenfist-23-2026-07-10-recovery -->
 
 - At the docks she hung a sapphire-studded golden chain about the returning admiral's neck (fab-voyage-of-alyn-oakenfist-23:155)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- Lady Daenaera, a happy six-year-old, became Aegon III's queen and lightened his gloom with her sunny nature (fab-voyage-of-alyn-oakenfist-23:123)

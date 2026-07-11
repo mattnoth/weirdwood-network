@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Munkun"
 bucket_id: characters-other-m
 prompt_version: v1-python
-node_version: 8
+node_version: 9
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -99,3 +99,7 @@ Maester [Alford](wiki:Alford) was Grand Maester in [153 AC](wiki:Years_after_Ae
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-10-recovery -->
 
 - He burned the poetic name of the war into history (fab-the-blacks-and-the-greens-16-p01:17)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- Grand Maester Munkun wrote The Dance of the Dragons, A True Telling, the most detailed account, though composed a generation later and relying on Orwyle (fab-the-blacks-and-the-greens-16-p01:55)

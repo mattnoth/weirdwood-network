@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Bernard"
 bucket_id: characters-house-peake
 prompt_version: v1-python
-node_version: 3
+node_version: 4
 pass_origin: pass2-wiki-deterministic
 ---
 
@@ -51,3 +51,7 @@ Bernard was regarded as a pious fool.(wiki:Bernard.cite_ref-Rfabthe_lysene_sprin
 <!-- fab-enriched: fab-war-and-peace-and-cattle-shows-22-p01-2026-07-10-recovery -->
 
 - Septon Bernard, a younger man of Unwin's blood, replaced Eustace but preferred composing sacred music to recording court gossip (fab-war-and-peace-and-cattle-shows-22-p01:67)
+
+<!-- fab-enriched: fab-recovery-disputes-s209 -->
+
+- (Per Mushroom) Septon Bernard prayed for the king and recited Lord Rowan's alleged crimes at the confession (fab-the-lysene-spring-24-p02:43)

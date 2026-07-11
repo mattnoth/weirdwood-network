@@ -1,0 +1,23 @@
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Aegon III Targaryen", "target": "Jaehaera", "edge_type": "BETROTHED_TO", "verdict": "clear"}
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Cregan Stark", "target": "Winterfell", "edge_type": "RULES", "verdict": "clear"}
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Cregan Stark", "target": "Corlys Velaryon", "edge_type": "IMPRISONS", "verdict": "clear"}
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Corlys Velaryon", "target": "Alicent", "edge_type": "CAPTURES", "verdict": "drop"}
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Aegon III Targaryen", "target": "Corlys Velaryon", "edge_type": "APPOINTS", "verdict": "clear"}
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Lyonel Hightower", "target": "Lord Tyrell", "edge_type": "SWORN_TO", "verdict": "clear"}
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Rhaena Targaryen", "target": "Lady Arryn", "edge_type": "WARD_OF", "verdict": "clear"}
+{"unit": "fab-hour-of-the-wolf-20", "kind": "edge", "source": "Rhaena Targaryen", "target": "Aegon III Targaryen", "edge_type": "ADVISES", "verdict": "clear"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "kind": "edge", "source": "Perkin the Flea", "target": "Corlys Velaryon", "edge_type": "RESCUES", "verdict": "clear"}
+{"unit": "fab-rhaenyra-overthrown-18-p01", "kind": "edge", "source": "Mootons", "target": "Rhaenyra Targaryen", "edge_type": "BETRAYS", "verdict": "clear"}
+{"unit": "fab-short-sad-reign-of-aegon-ii-19", "kind": "edge", "source": "Cregan Stark", "target": "Winterfell", "edge_type": "RULES", "verdict": "clear"}
+{"unit": "fab-short-sad-reign-of-aegon-ii-19", "kind": "edge", "source": "Corlys Velaryon", "target": "Aegon II Targaryen", "edge_type": "ADVISES", "verdict": "clear"}
+{"unit": "fab-the-blacks-and-the-greens-16-p01", "kind": "edge", "source": "Corlys Velaryon", "target": "Rhaenyra Targaryen", "edge_type": "ALLIES_WITH", "verdict": "clear"}
+{"unit": "fab-the-blacks-and-the-greens-16-p02", "kind": "edge", "source": "Blood", "target": "Cheese", "edge_type": "CONSPIRES_WITH", "verdict": "clear"}
+{"unit": "fab-the-hooded-hand-21", "kind": "edge", "source": "Tyland Lannister", "target": "Seven Kingdoms", "edge_type": "RULES", "verdict": "drop"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p03", "kind": "edge", "source": "Rhaena Targaryen", "target": "Lady Arryn", "edge_type": "WARD_OF", "verdict": "clear"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p03", "kind": "edge", "source": "Lady Caswell", "target": "Sly", "edge_type": "EXECUTES", "verdict": "clear"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p04", "kind": "edge", "source": "Corlys Velaryon", "target": "Addam Velaryon", "edge_type": "PROTECTS", "verdict": "clear"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p04", "kind": "edge", "source": "Corlys Velaryon", "target": "Nettles", "edge_type": "PROTECTS", "verdict": "clear"}
+{"unit": "fab-the-red-dragon-and-the-gold-17-p04", "kind": "edge", "source": "Nettles", "target": "Netty", "edge_type": "SAME_AS", "verdict": "drop"}
+{"unit": "fab-war-and-peace-and-cattle-shows-22-p01", "kind": "edge", "source": "Unwin Peake", "target": "Septon Bernard", "edge_type": "APPOINTS", "verdict": "clear"}
+{"unit": "fab-war-and-peace-and-cattle-shows-22-p01", "kind": "edge", "source": "Unwin Peake", "target": "Septon Eustace", "edge_type": "DEPOSES", "verdict": "clear"}
+{"unit": "fab-war-and-peace-and-cattle-shows-22-p02", "kind": "edge", "source": "Mervyn Flowers", "target": "Kingsguard", "edge_type": "MEMBER_OF", "verdict": "clear"}
