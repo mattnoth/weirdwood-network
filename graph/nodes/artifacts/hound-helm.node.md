@@ -25,7 +25,7 @@ gravely wounded and (per the Elder Brother) dies on the [Quiet Isle](quiet-isle)
 to Sandor ("the Mad Dog of Saltpans"), and his accused-murder count rises from twelve to
 twenty. [Brienne](brienne-tarth) kills Rorge at the crossroads inn while he wears it
 (her face mashed against the cold wet dog's-head steel); [Lem Lemoncloak](lem) then strips
-the helm off Rorge's corpse and wears it himself — becoming, the wiki notes, "the Hound (III)."
+the helm off Rorge's corpse and wears it himself — becoming "the Hound (III)."
 The helm is the misattribution engine of the entire AFFC Brienne arc.
 
 ## Edges

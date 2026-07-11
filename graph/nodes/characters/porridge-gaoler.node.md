@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Porridge is a Dragonstone gaoler, nicknamed by Davos Seaworth for the bowl of oaten porridge he brings him each morning. (Slug disambiguated from the food `porridge` in S192 — the wiki page is `Porridge`.)
+Porridge is a Dragonstone gaoler, nicknamed by Davos Seaworth for the bowl of oaten porridge he brings him each morning. (Slug disambiguated from the food `porridge` in S192.)
 
 ## Edges
 

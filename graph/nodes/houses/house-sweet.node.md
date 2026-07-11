@@ -18,7 +18,7 @@ sigil_image: None.svg
 
 ## Identity
 
-House Sweet is a noble house from the Stormlands or crownlands — the wiki lists both regions, and the exact allegiance is uncertain. (wiki:House_Sweet)
+House Sweet is a noble house from the Stormlands or crownlands; the exact allegiance is uncertain. (wiki:House_Sweet)
 
 ## Heraldry & Sigil
 

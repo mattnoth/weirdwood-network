@@ -13,7 +13,7 @@ pass_origin: pass2-wiki
 
 ## Identity
 
-Maester Lothar was the maester at Whitewalls during the reign of King Aerys I Targaryen. (wiki:Lothar.cite_ref-Rtmk-1) Not to be confused with other characters named Lothar — see the wiki disambiguation page.
+Maester Lothar was the maester at Whitewalls during the reign of King Aerys I Targaryen. (wiki:Lothar.cite_ref-Rtmk-1) Not to be confused with other characters named Lothar.
 
 ## Origins
 

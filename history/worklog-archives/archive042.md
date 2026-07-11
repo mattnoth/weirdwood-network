@@ -1,7 +1,7 @@
 # Worklog Archive 042
 
 > Archived worklog Session Log entries (CLAUDE.md rule #8, 5-entry blocks).
-> This file: Sessions 202–204. (archive041 held the 197–201-era block; see that file.)
+> This file: Sessions 202–205. (archive041 held the 197–201-era block; see that file.)
 
 ---
 
@@ -38,3 +38,15 @@
 - **Incident:** monthly spend cap killed 6 in-flight agents mid-session; 2 "failed" verifiers had already written complete outputs (kept after coverage check); 4 relaunched verbatim after Matt raised the limit.
 **Decisions:** faction-target MOTIVATES rejected (2 drops — quote must ground the causal claim, not the naming custom); MOTIVATES→character stays legal (disposition form); PART_OF dance for non-battle coronations dropped (causally wired instead); event.reconciliation not minted as a new leaf type (→event.incident); "Moon of the Three Kings" NOT minted (Gyldayn calls it a misnomer).
 **What's next:** **Harvest drain (66 rows)** → `progress/continue-prompts/2026-07-10-harvest-drain.md` — then **cross-era seams** (Blackfyre/Dark Sister/Dragonstone/dragon-skulls, consider D&E; Matt-sequenced). Residue in todos: lord-rogars-war/third-dornish-war suspected dup, 3 mistyped nodes, backwards assault-on-harrenhal DEFEATS edge, Prince-Daeron/Gaemon unminted beats.
+
+### Session 205 — F&B harvest-queue drain (66 open → 0) — [Track: graph] (2026-07-10)
+**Model:** Opus 4.8 orchestrator + Sonnet ×3 (attachers) + Sonnet (fresh-verify). **Graph mutation: YES** — quote-only (node `## Quotes` additions; no new nodes/edges). Harvest queue: **66 open → 0** (59 done / 7 parked); the S204 ≥30 bar cleared.
+**Changes made:**
+- **Drained all 66 open rows** (all `fab`): Python pre-pass line-checked every cite → routed to disjoint node-dir sets → **3 parallel Sonnet attachers** → fresh-verify sample. **~42 rows attached** (quotes / appearance / descriptions onto existing char / loc / species / text / event / faction / concept nodes), **~13 already-present** (deduped, not duplicated), **7 parked** (justified), **1 dup** (1089=1050). Net new book-cited node quotes **1079→1126** (+47); `verify_node_quotes.py` **1126/1126 PASS, 0 FAIL**.
+- **5 cite-drifts corrected** in the queue (line-check catch, the S152/S165 machine): 1051→`the-blacks-and-the-greens-16-p01:155`, 1052→`rhaenyra-overthrown-18-p02:97`, 1059→`the-hooded-hand-21:325`, 1070→`sons-of-the-dragon-05-p02:55`, 1106→`the-lysene-spring-24-p01:115`.
+- **Fresh-verify** (independent Sonnet, 11 high-risk rows — cross-attribution / corrected cites / generic lore / book-overlay calls): **11/11 CONFIRM**, entity-fit clean.
+- **7 parks:** `rule-of-six` (needs concept.custom mint) · the-Mermaid pillow house (needs location mint) · Gael delayed-reveal + Dance-seeds (foreshadowing → `reference/foreshadowing-events.md`) + a 3rd foreshadowing · Hugh-Hammer prophecy (theory-gated) · wedding-season social color (no owning node).
+- **Suites:** pytest **1457** · deno **100** · fab-semantic-gate green. `search-index.json` regenerated (new quotes searchable). `graph/index/` refresh churn (**8,421 timestamp-only files, mutation-gated**) REVERTED.
+**Decisions:** quote text stored **VERBATIM incl. OCR `|`-for-I artifacts** (verifier convention — prior 803/803 passed with literal pipes; "fixing" them fails the check); physical descriptions attached as `## Quotes` blocks (keeps them verifier-checked); the drain mints **no non-food nodes** (parks instead). Routing owner = orchestrator (resolved all 66 targets up front); attachers stayed mechanical → collision-free across disjoint node sets.
+**Residue (→ todos):** **~85 nodes graph-wide carry DUPLICATE `## Quotes` headers** — `parse_quotes` reads only the first, so second-section content is **invisible to the chat/bundle** (schema-drift dedup-pass candidate; three agents flagged it independently; this drain's writes all landed in the readable first section). `weirwood refresh` rebuilds the mutation-gated `graph/index/` as a side effect — a **quote-only drain should skip the full refresh** (no new slugs). 1097: `death-of-daeron-targaryen-son-of-viserys-i` event node still a candidate mint (death account now on the character node; already an S204 residue flag).
+**What's next:** **Cross-era seams** → `progress/continue-prompts/2026-07-10-cross-era-seams.md` (S206): wire the F&B/Targaryen-history layer to the main-series era both directions (Blackfyre / Dark Sister / Dragonstone / dragon-skulls; consider D&E — read tmk/tss/thk directly). Absorbs the S204 residue flags. Then edge-vocab retrofit (backlog); strip track still Matt-gated.
