@@ -12,6 +12,7 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
+| `2026-07-11-highest-value-options.md` | 2026-07-11 | Next-track selection | **LIVE** (fires as S211) | **Fable 5** (Matt's pick) | Present all highest-value options at the START (edge-vocab retrofit Part B · Stage 4 candidate-pool bulk typing [high-volume, gated] · node-type promotion sweep · board-deferred UI polish · Small-Fixes grab-bag), Matt picks ONE, then execute. Board split: Part B (demo-wow) vs promotion-sweep (cheap-first). Do NOT execute before Matt picks; do NOT run any bulk edge-typing blind. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 > *S198 note:* `2026-07-06-fire-and-blood-build-smoke.md` archived (build + Stage-1 smoke DONE, superseded by the reconciler-fix prompt above). The `2026-07-06-wiki-prose-disambiguation-composer.md` row was DONE S197 (composer built + applied 477 nodes; prompt archived).
@@ -179,7 +180,7 @@ Archive files are **DONE**, **STALE-superseded**, or **PARKED** (gated/backlog �
 
 ---
 
-## Open threads right now (NO live graph prompt — Matt's pick: edge-vocab retrofit Part B is the top open track · strip-boilerplate: DONE S210 · prod: DEPLOYED S210 · D&E Pass-1: PARKED)
+## Open threads right now (LIVE: `2026-07-11-highest-value-options.md` fires as S211/Fable — present options → pick → execute · strip-boilerplate: DONE S210 · prod: DEPLOYED S210 · D&E Pass-1: PARKED)
 
 > **ONE live graph track (2026-07-07): Fire & Blood.** S197's "two parallel-safe tracks" framing is retired — the strip's
 > verify step proved strip-before-F&B breaks F&B's Identity swap, so Matt parked the strip behind F&B's full apply cycle
