@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "slice": "dance W1",
+    "checked": 15
+  },
+  "verdicts": [
+    {
+      "id": "W1-01",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-blacks-and-the-greens-16-p02. Daemon claiming the style 'Protector of the Realm' during Rhaenyra's coronation establishes him as command-tier military organizer for blacks' war effort. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-02",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-blacks-and-the-greens-16-p01. Rhaenyra presiding over black council as claimant queen directly establishes COMMANDS_IN role. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-03",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-red-dragon-and-the-gold-17-p01. Jacaerys planning assault with Corlys is non-combat active involvement. Note correctly downgrades from suggested COMMANDS_IN to PARTICIPATES_IN (he was explicitly forbidden from fighting). Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-04",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-blacks-and-the-greens-16-p01. 'The Sea Snake would command the fleet' explicitly establishes command authority over Velaryon fleet. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-05",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-blacks-and-the-greens-16-p01. Aegon mounting Iron Throne establishes him as claimant king and command-tier figure for greens (parallel to Joffrey COMMANDS_IN pattern). Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-06",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-red-dragon-and-the-gold-17-p01. Criston Cole telling Aemond 'you must rule the realm now' establishes Aemond as Prince Regent/Protector assuming command authority. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-07",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-red-dragon-and-the-gold-17-p02. 'Cole would take command of their host' explicitly establishes command authority over greens' army. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-08",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-blacks-and-the-greens-16-p01. Otto ordering Beesbury's arrest establishes him as orderer/instigator (COMMANDS_IN orderer-not-executor sense) of green council's coup that opens war. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-09",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-red-dragon-and-the-gold-17-p02. Aemond riding 'at the head of a host four thousand strong' explicitly establishes him leading greens' march to Harrenhal as commander. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-10",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-red-dragon-and-the-gold-17-p02. 'Ser Criston's vanguard fought' indicates Criston commands the vanguard force of the march. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-11",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-red-dragon-and-the-gold-17-p02. Daemon 'had gathered' a great host at Harrenhal; context from fab-the-blacks-and-the-greens-16-p02 establishes Daemon leading assault on Harrenhal. He commands the black force that is Aemond's march objective. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-12",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-war-and-peace-and-cattle-shows-22-p01. 'To command the royal fleet, he tapped another uncle, Ser Gedmund Peake' explicitly establishes command authority. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-13",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-war-and-peace-and-cattle-shows-22-p01. 'Lord Alyn had taken his ships south' shows independent command of Velaryon fleet; fuller context establishes he leads the attack on Stepstones. Quote is minimal but context confirms commander role. Tier-1 (on-page witnessed)."
+    },
+    {
+      "id": "W1-14",
+      "verdict": "AMBIGUOUS",
+      "reason": "quote-fragment-insufficient",
+      "note": "Quote found in fab-the-hooded-hand-21 but is a fragment from a longer clause. 'only to decide to claim his crown for himself, betraying the Archon' captures his decision to betray, not explicit command authority. Earlier clause 'Racallio overran the islands in a trice and put the reigning King of the Narrow Sea to death' establishes he led the conquest, but the specific quote provided doesn't directly support COMMANDS_IN. Needs stronger quote like 'Racallio overran the islands' for full support. Tier-1 context (on-page) but quote selection is defensive."
+    },
+    {
+      "id": "W1-15",
+      "verdict": "CONFIRM",
+      "reason": "quote-found-support-match",
+      "note": "Exact quote found in fab-the-hooded-hand-21. 'The Archon of Tyrosh called up Racallio Ryndoon' establishes Archon as orderer/instigator (COMMANDS_IN orderer-not-executor sense) commissioning campaign. Tier-1 (on-page witnessed)."
+    }
+  ]
+}

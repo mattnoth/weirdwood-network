@@ -1,0 +1,283 @@
+{
+  "_meta": {
+    "slice": "dance-arc W3b entity quotes",
+    "agent": "w3b"
+  },
+  "quotes": [
+    {
+      "id": "W3B-01",
+      "slug": "harwin-strong",
+      "quote": "Breakbones, as he was called, was heir to Harrenhal, and said to be the strongest man in the Seven Kingdoms.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p02",
+      "line": 131,
+      "note": "Establishes his epithet, house standing, and reputation as the realm's strongest man."
+    },
+    {
+      "id": "W3B-02",
+      "slug": "harwin-strong",
+      "quote": "would leave her husband with his lover on such nights, and seek her own solace in the arms of Harwin Strong.",
+      "attribution": "Mushroom's account, per Gyldayn's narration",
+      "chapter": "fab-heirs-of-the-dragon-15-p02",
+      "line": 177,
+      "note": "The affair-with-Rhaenyra claim underpinning the paternity scandal and his eventual death."
+    },
+    {
+      "id": "W3B-03",
+      "slug": "harwin-strong",
+      "quote": "Amongst the greens, it was an article of faith that the father of Rhaenyra’s sons was not her husband, Laenor, but her champion, Harwin Strong.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p03",
+      "line": 45,
+      "note": "States the greens' core accusation against him directly and concisely."
+    },
+    {
+      "id": "W3B-04",
+      "slug": "lyonel-strong",
+      "quote": "A big man, burly and balding, Lord Strong enjoyed a formidable reputation as a battler.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p02",
+      "line": 29,
+      "note": "Physical description + reputation, core identity line."
+    },
+    {
+      "id": "W3B-05",
+      "slug": "lyonel-strong",
+      "quote": "Lord Strong had been the King’s Hand, and Viserys had come to rely upon his strength and counsel.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p03",
+      "line": 125,
+      "note": "Establishes his standing as Viserys's trusted Hand, distinct from the existing wiki 'hector me' quote."
+    },
+    {
+      "id": "W3B-06",
+      "slug": "laenor-velaryon",
+      "quote": "Laenor had the aquiline nose, silver-white hair, and purple eyes that bespoke his Valyrian blood.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p02",
+      "line": 181,
+      "note": "Physical/Valyrian-blood description, not already among the node's existing wiki Quotes."
+    },
+    {
+      "id": "W3B-07",
+      "slug": "laenor-velaryon",
+      "quote": "Ser Laenor Velaryon, husband to the Princess Rhaenyra and the putative father of her children, was slain whilst attending a fair in Spicetown, stabbed to death by his friend and companion Ser Qarl Correy.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p03",
+      "line": 71,
+      "note": "Concise identity-plus-death summary: husband, putative father, manner of death."
+    },
+    {
+      "id": "W3B-08",
+      "slug": "vaemond-velaryon",
+      "quote": "the eldest of them, Ser Vaemond Velaryon, protested that the inheritance by rights should pass to him...on the grounds that Rhaenyra’s sons were bastards sired by Harwin Strong.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p03",
+      "line": 163,
+      "note": "States his claim and the bastardy accusation that got him executed."
+    },
+    {
+      "id": "W3B-09",
+      "slug": "vaemond-velaryon",
+      "quote": "This rebellion cost him his head, but he left a wife and sons behind.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-hooded-hand-21",
+      "line": 165,
+      "note": "Terse summary of his fate, referenced retrospectively during his sons' Driftmark claim."
+    },
+    {
+      "id": "W3B-10",
+      "slug": "jason-lannister",
+      "quote": "Jason Lannister had assembled a formidable host in the western hills; a thousand armored knights, and seven times as many archers and men-at-arms.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "line": 69,
+      "note": "Establishes the scale of the western host he led for the greens."
+    },
+    {
+      "id": "W3B-11",
+      "slug": "jason-lannister",
+      "quote": "in the last attempt, Lord Jason was dealt a mortal wound at the hand of a grizzled squire, Pate of Longleaf.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "line": 93,
+      "note": "His death at the Battle at the Red Fork, killed by a squire."
+    },
+    {
+      "id": "W3B-12",
+      "slug": "jason-lannister",
+      "quote": "In the west, Ser Jason Lannister and his twin, Ser Tyland, vied for her during a feast at Casterly Rock.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p02",
+      "line": 131,
+      "note": "Establishes his earlier suit for Rhaenyra's hand alongside his twin Tyland."
+    },
+    {
+      "id": "W3B-13",
+      "slug": "jeyne-arryn",
+      "quote": "Never wed, Lady Jeyne had reigned over the Vale since the death of her father and elder brothers at the hands of the Stone Crows of the hills when she was three.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 109,
+      "note": "Core biographical identity line: epithet, age gap with Jacaerys, origin of her rule. New line-cited material beyond the node's existing wiki Quotes (which are all direct speech)."
+    },
+    {
+      "id": "W3B-14",
+      "slug": "jeyne-arryn",
+      "quote": "Lady Jeyne Arryn, the Maiden of the Vale, died at Gulltown of a cold that had settled in her chest.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-lysene-spring-24-p01",
+      "line": 31,
+      "note": "Her death notice, narrator voice, distinct from the node's existing speech quotes."
+    },
+    {
+      "id": "W3B-15",
+      "slug": "syrax",
+      "quote": "At seven, she became a dragonrider, taking to the sky on the young dragon she named Syrax, after a goddess of old Valyria.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-heirs-of-the-dragon-15-p01",
+      "line": 171,
+      "note": "Origin of the dragon's name and Rhaenyra's bond with her."
+    },
+    {
+      "id": "W3B-16",
+      "slug": "syrax",
+      "quote": "Syrax was the queen’s dragon. She had never known another rider.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-rhaenyra-overthrown-18-p01",
+      "line": 157,
+      "note": "Core one-rider-only identity fact, matches node's own Identity line."
+    },
+    {
+      "id": "W3B-17",
+      "slug": "syrax",
+      "quote": "Syrax fell.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-rhaenyra-overthrown-18-p01",
+      "line": 231,
+      "note": "Terse standalone line marking her death at the Storming of the Dragonpit."
+    },
+    {
+      "id": "W3B-18",
+      "slug": "seasmoke",
+      "quote": "Seasmoke, the pale grey beast that had been the pride and passion of Ser Laenor Velaryon",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "line": 219,
+      "note": "Names his coloring and his bond with original rider Laenor; matches node's own phrasing."
+    },
+    {
+      "id": "W3B-19",
+      "slug": "seasmoke",
+      "quote": "Seasmoke was first to die, when Vermithor locked his teeth into his neck and ripped his head off.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 121,
+      "note": "His death at Second Tumbleton, killed by Vermithor."
+    },
+    {
+      "id": "W3B-20",
+      "slug": "vermithor",
+      "quote": "the oldest and largest living dragon in all Westeros was Vermithor, once the mount of the Old King, now that of Hard Hugh the bastard.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 19,
+      "note": "Establishes his stature and rider lineage (Old King to Hugh Hammer) in one line."
+    },
+    {
+      "id": "W3B-21",
+      "slug": "vermithor",
+      "quote": "Almost a hundred years old and as large as the two young dragons put together, the bronze dragon with the great tan wings was in a rage as he took flight, with blood smoking from a dozen wounds.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 107,
+      "note": "Vivid description of his age, size, and rage after being unhorsed at Second Tumbleton."
+    },
+    {
+      "id": "W3B-22",
+      "slug": "moondancer",
+      "quote": "Moondancer was a young dragon, pale green, with horns and crest and wingbones of pearl.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 261,
+      "note": "Core physical-description identity line, matches node's own Identity phrasing."
+    },
+    {
+      "id": "W3B-23",
+      "slug": "moondancer",
+      "quote": "On the ground, Moondancer's quickness proved of little use against Sunfyre’s size and weight.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 269,
+      "note": "The turning point of her fatal duel with Sunfyre."
+    },
+    {
+      "id": "W3B-24",
+      "slug": "vermax",
+      "quote": "Snow and ice and cold made Vermax ill-tempered, it is said,",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 139,
+      "note": "A personality/temperament detail (dislikes cold), explaining why Jacaerys cut short his Winterfell stay."
+    },
+    {
+      "id": "W3B-25",
+      "slug": "vermax",
+      "quote": "His flight jerked to a violent end, Vermax went down smoking and screaming, clawing at the water.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "line": 39,
+      "note": "His death at the Battle in the Gullet."
+    },
+    {
+      "id": "W3B-26",
+      "slug": "vermax",
+      "quote": "When the ship heeled over and sank, Vermax sank with her.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "line": 39,
+      "note": "Final line of his death, same paragraph as W3B-25."
+    },
+    {
+      "id": "W3B-27",
+      "slug": "arrax",
+      "quote": "Vhagar was five times the size of her foe, the hardened survivor of a hundred battles.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 243,
+      "note": "Establishes the size mismatch that doomed Arrax against Vhagar."
+    },
+    {
+      "id": "W3B-28",
+      "slug": "arrax",
+      "quote": "Arrax fell, broken, to be swallowed by the storm-lashed waters of the bay.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 245,
+      "note": "His death over Shipbreaker Bay, taking Lucerys with him."
+    },
+    {
+      "id": "W3B-29",
+      "slug": "grey-ghost",
+      "quote": "Grey Ghost dwelt in a smoking vent high on the eastern side of the Dragonmont, preferred fish, and was most oft glimpsed flying low over the narrow sea, snatching prey from the waters.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "line": 243,
+      "note": "Core habitat/diet identity line, matches node's own Identity phrasing."
+    },
+    {
+      "id": "W3B-30",
+      "slug": "grey-ghost",
+      "quote": "The dragon lay in two pieces, and had been torn apart and partially devoured.",
+      "attribution": "chronicle of Archmaester Gyldayn (Fire & Blood narration)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p04",
+      "line": 53,
+      "note": "Discovery of his corpse, killed by Sunfyre (long misattributed to the Cannibal)."
+    }
+  ],
+  "flags": [
+    "lyonel-strong, laenor-velaryon, and jeyne-arryn nodes already had a '## Quotes' section (sourced via wiki cite_refs, no chapter:line cites) BEFORE this pass -- the 'zero curated quotes' premise did not hold for these three. Proposed quotes above are additional/new (chapter-file verbatim with exact line cites), not replacements, and were chosen to avoid duplicating the existing wiki-sourced quotes.",
+    "vaemond-velaryon: no direct first-person speech from Vaemond himself appears in the fab chapters read (fab-heirs-of-the-dragon-15-p03, fab-the-hooded-hand-21, fab-war-and-peace-and-cattle-shows-22-p02) -- he is only described/reported in third person, never quoted directly. The two quotes proposed are narrator lines (Gyldayn's chronicle), not Vaemond's own words. Flagging per the quality-over-coverage rule rather than padding with a fabricated direct-speech quote.",
+    "arrax node.md has no ## Identity summary line at all (frontmatter Identity section is empty) -- worth a follow-up to backfill an Identity line to match the other dragon nodes."
+  ]
+}

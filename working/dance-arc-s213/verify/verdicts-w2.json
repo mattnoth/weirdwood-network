@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "slice": "dance W2",
+    "checked": 6
+  },
+  "verdicts": [
+    {
+      "id": "W2-01",
+      "source": "first-battle-of-tumbleton",
+      "target": "second-battle-of-tumbleton",
+      "edge_type": "MOTIVATES",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "verdict": "CONFIRM",
+      "quote_status": "found",
+      "causality": "The text explicitly states the riverlords 'knew much and more of the horrors that had befallen Tumbleton' and this motivated them to join Addam Velaryon's forces for the Second Battle. Clear directional causality.",
+      "nodes_verified": "both-exist",
+      "duplicate_check": "no-duplicate"
+    },
+    {
+      "id": "W2-02",
+      "source": "death-of-queen-rhaenyra",
+      "target": "battle-of-the-kingsroad",
+      "edge_type": "TRIGGERS",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "verdict": "CONFIRM",
+      "quote_status": "found",
+      "causality": "Text states 'Borros Baratheon, on hearing of the queen's death, had left his newly pregnant wife and four daughters to strike north through the kingswood'. On hearing = causal trigger in correct direction.",
+      "nodes_verified": "both-exist",
+      "duplicate_check": "no-duplicate"
+    },
+    {
+      "id": "W2-03",
+      "source": "the-black-council",
+      "target": "fight-above-shipbreaker-bay",
+      "edge_type": "TRIGGERS",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "verdict": "CONFIRM",
+      "quote_status": "found",
+      "causality": "The Black Council's decision to send Lucerys to Storm's End directly triggered his presence there, which led to his fatal encounter with Aemond. Causal trigger in correct direction.",
+      "nodes_verified": "both-exist",
+      "duplicate_check": "no-duplicate"
+    },
+    {
+      "id": "W2-04",
+      "source": "dismissal-of-otto-criston-made-hand",
+      "target": "battle-at-rooks-rest",
+      "edge_type": "TRIGGERS",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "verdict": "CONFIRM",
+      "quote_status": "found",
+      "causality": "Criston Cole is appointed Hand, immediately launches aggressive campaign (executions, Duskendale sack), and 'Rook's Rest was Ser Criston's next objective'. His appointment directly triggers the military campaign that leads to Rook's Rest. Clear causality in correct direction.",
+      "nodes_verified": "both-exist",
+      "duplicate_check": "no-duplicate"
+    },
+    {
+      "id": "W2-05",
+      "source": "battle-at-the-red-fork",
+      "target": "battle-by-the-lakeshore",
+      "edge_type": "ENABLES",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "verdict": "CONFIRM",
+      "quote_status": "found",
+      "causality": "The Red Fork battle results in Jason Lannister's death and Adrian Tarbeck's rise to command; Lord Lefford takes over and 'the western host resumed its march to Harrenhal' - this march puts Lefford's weakened, depleted column on the road where it is ambushed and destroyed at the Lakeshore. ENABLES captures this 'precondition' relationship correctly.",
+      "nodes_verified": "both-exist",
+      "duplicate_check": "no-duplicate"
+    },
+    {
+      "id": "W2-06",
+      "source": "aemonds-march-on-harrenhal",
+      "target": "butchers-ball",
+      "edge_type": "TRIGGERS",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "verdict": "CONFIRM",
+      "quote_status": "found",
+      "causality": "Aemond and Criston's decision to split and Aemond's departure on Vhagar triggers Criston's southbound march with the depleted host. This march puts Cole on the road where he is ambushed and killed by rivermen at the Butcher's Ball. Clear trigger causality in correct direction.",
+      "nodes_verified": "both-exist",
+      "duplicate_check": "no-duplicate"
+    }
+  ],
+  "summary": {
+    "confirm": 6,
+    "ambiguous": 0,
+    "problem": 0
+  },
+  "notes": [
+    "All 6 edges passed byte-check (quotes found in chapter files, apostrophe OCR variants accommodated via grep -F).",
+    "All causal relationships are directionally correct and substantiated by surrounding narrative context.",
+    "All source and target nodes exist in graph/nodes/events/.",
+    "No duplicate edges exist in graph/edges/edges.jsonl for any of the 6 proposed edges.",
+    "The proposal document includes thorough justification for skip decisions (gap-map false positives, existing 2-hop paths via other edges, etc.), demonstrating careful duplicate avoidance."
+  ]
+}

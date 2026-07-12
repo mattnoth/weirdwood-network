@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "slice": "dance-arc W3a event quotes",
+    "agent": "w3a"
+  },
+  "quotes": [
+    {
+      "id": "W3A-01",
+      "slug": "the-sowing",
+      "quote": "It was to them that Prince Jacaerys turned, at the urging of his fool, vowing that any man who could master a dragon would be granted lands and riches and dubbed a knight.",
+      "attribution": "chronicle of Archmaester Gyldayn (Jacaerys's proclamation on Dragonstone)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "line": 205,
+      "note": "The call that launches the Sowing — the load-bearing inciting line for the whole event."
+    },
+    {
+      "id": "W3A-02",
+      "slug": "the-sowing",
+      "quote": "Munkun's True Telling tells us that sixteen men lost their lives during the Sowing. Three times that number were burned or maimed.",
+      "attribution": "Grand Maester Munkun's True Telling, via Gyldayn",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "line": 219,
+      "note": "States the cost of the Sowing in hard numbers — needed for the node's 'heavy cost' claim."
+    },
+    {
+      "id": "W3A-03",
+      "slug": "the-sowing",
+      "quote": "Steffon Darklyn was burned to death whilst attempting to mount the dragon Seasmoke. Lord Gormon Massey suffered the same fate when approaching Vermithor.",
+      "attribution": "chronicle of Archmaester Gyldayn (casualty roll of the Sowing)",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "line": 219,
+      "note": "Names two named casualties, grounding the abstract death toll in specific people."
+    },
+    {
+      "id": "W3A-04",
+      "slug": "the-sowing",
+      "quote": "it ends with Mushroom running across the ward of Dragonstone with the seat of his pantaloons on fire, and nigh drowning when he leapt into a well to quench the flames.",
+      "attribution": "Mushroom's Testimony, via Gyldayn",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "line": 215,
+      "note": "The 'ghastly business' had a farcical edge too — Mushroom's own botched attempt on Silverwing."
+    },
+    {
+      "id": "W3A-05",
+      "slug": "fall-of-dragonstone",
+      "quote": "When it came, the fall of Dragonstone took less than an hour.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 251,
+      "note": "States the event's defining fact — the speed of the coup — in one clean sentence."
+    },
+    {
+      "id": "W3A-06",
+      "slug": "fall-of-dragonstone",
+      "quote": "As Quince struggled to rise from his bed, Broome drove a spear into his huge pale belly.",
+      "attribution": "chronicle of Archmaester Gyldayn (Alfred Broome's betrayal)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 251,
+      "note": "The killing of castellan Robert Quince, the inside-job betrayal at the heart of the coup."
+    },
+    {
+      "id": "W3A-07",
+      "slug": "fall-of-dragonstone",
+      "quote": "King Aegon had leapt from the saddle when the dragons were still twenty feet from the ground, shattering both legs.",
+      "attribution": "chronicle of Archmaester Gyldayn (aftermath of the Baela/Moondancer duel)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 271,
+      "note": "The price Aegon II paid to retake the island — sets up his permanent injury."
+    },
+    {
+      "id": "W3A-08",
+      "slug": "fall-of-dragonstone",
+      "quote": "And Aegon II lived the rest of his life in great pain...though to his honor, when Grand Maester Gerardys offered him milk of the poppy, he refused. “I shall not walk that road again,” he said.",
+      "attribution": "Aegon II Targaryen, quoted in Gyldayn's chronicle",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 275,
+      "note": "Aegon's own words refusing the poppy, tying his post-Rook's-Rest addiction fear to the fall of Dragonstone."
+    },
+    {
+      "id": "W3A-09",
+      "slug": "death-of-queen-rhaenyra",
+      "quote": "Yet Rhaenyra knew him at once, and said, “Dear brother. | had hoped that you were dead.” “After you,” Aegon answered. “You are the elder.”",
+      "attribution": "dialogue between Rhaenyra and Aegon II, chronicled by Gyldayn (the \"|\" reflects an OCR misread of \"I\" in the source scan)",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 293,
+      "note": "The last exchange between the two rival monarchs, moments before her death."
+    },
+    {
+      "id": "W3A-10",
+      "slug": "death-of-queen-rhaenyra",
+      "quote": "“If they search the seven hells, mayhaps,” the king made answer, as his men tore Rhaenyra from her son's arms.",
+      "attribution": "Aegon II Targaryen, quoted in Gyldayn's chronicle",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 297,
+      "note": "Aegon's answer when Rhaenyra warns her lords will find her — the moment her capture turns fatal."
+    },
+    {
+      "id": "W3A-11",
+      "slug": "death-of-queen-rhaenyra",
+      "quote": "The smell of blood roused the dragon, who sniffed at Her Grace, then bathed her in a blast of flame, so suddenly that Ser Alfred's cloak caught fire as he leapt away.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 301,
+      "note": "The mechanics of the killing — Sunfyre roused by Broome pricking her breast with a dagger."
+    },
+    {
+      "id": "W3A-12",
+      "slug": "death-of-queen-rhaenyra",
+      "quote": "upon her halfbrother before Sunfyre’s jaws closed round her, tearing off her arm and shoulder.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "line": 303,
+      "note": "Line-wrap continuation of the sentence beginning on line 301 ('...shriek out one last curse') — the death blow itself."
+    },
+    {
+      "id": "W3A-13",
+      "slug": "death-of-lucerys-velaryon",
+      "quote": "Vhagar was five times the size of her foe, the hardened survivor of a hundred battles. If there was a fight, it could not have lasted long.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 243,
+      "note": "Establishes the mismatch between Vhagar and young Arrax over Shipbreaker Bay."
+    },
+    {
+      "id": "W3A-14",
+      "slug": "death-of-lucerys-velaryon",
+      "quote": "Arrax fell, broken, to be swallowed by the storm-lashed waters of the bay.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 245,
+      "note": "The moment of the kill, stated plainly."
+    },
+    {
+      "id": "W3A-15",
+      "slug": "death-of-lucerys-velaryon",
+      "quote": "Lucerys Velaryon died with his dragon, Munkun insists. This is undoubtedly correct. The prince was thirteen years of age. His body was never found.",
+      "attribution": "Grand Maester Munkun's True Telling, endorsed by Gyldayn",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 249,
+      "note": "Gyldayn's own verdict cutting through the wilder rumor-tales (survival, mutilation, etc.) — the canonical fact of Luke's death."
+    },
+    {
+      "id": "W3A-16",
+      "slug": "death-of-lucerys-velaryon",
+      "quote": "“An eye for an eye, a son for a son,” Prince Daemon wrote. “Lucerys shall be avenged.”",
+      "attribution": "Prince Daemon Targaryen, raven from Harrenhal, quoted in Gyldayn's chronicle",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 255,
+      "note": "Daemon's vow of vengeance for Luke's death — the direct causal seed of the Jaehaerys murder."
+    },
+    {
+      "id": "W3A-17",
+      "slug": "death-of-viserys-i",
+      "quote": "Long simmering, the conflict burst into the open on the third day of the third moon of 129 AC, when the ailing, bedridden King Viserys | Targaryen closed his eyes for a nap in the Red Keep of King’s Landing and died without waking.",
+      "attribution": "chronicle of Archmaester Gyldayn (the \"|\" reflects an OCR misread of the Roman numeral \"I\" in the source scan)",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "line": 35,
+      "note": "The core fact and exact date of Viserys's death, framed explicitly as the trigger for the Dance."
+    },
+    {
+      "id": "W3A-18",
+      "slug": "death-of-viserys-i",
+      "quote": "The dwarf Mushroom suggests a more sinister scenario, whereby Queen Alicent hurried King Viserys on his way with a pinch of poison in his hippocras.",
+      "attribution": "Mushroom's Testimony, via Gyldayn",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "line": 45,
+      "note": "The murder-vs-natural-death dispute that shadows the whole succession crisis."
+    },
+    {
+      "id": "W3A-19",
+      "slug": "death-of-viserys-i",
+      "quote": "Neither septons nor silent sisters were summoned to the bedchamber where King Viserys lay, swollen and rotting.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "line": 145,
+      "note": "The greens' concealment of the king's death while they lined up support before proclaiming Aegon."
+    },
+    {
+      "id": "W3A-20",
+      "slug": "death-of-viserys-i",
+      "quote": "riders went forth on pale horses to spread the word to the people of King's Landing, crying “King Viserys is dead, long live King Aegon.”",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "line": 165,
+      "note": "The public proclamation, ten days after the death, that ends the concealment and opens the succession war."
+    },
+    {
+      "id": "W3A-21",
+      "slug": "the-dragons-wroth",
+      "quote": "The next two years were the years of the Dragon’s Wroth. Every castle in Dorne, save Sunspear, was burned thrice over, as Balerion and Vhagar returned time and time again.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "line": 125,
+      "note": "The naming line for the event and its core claim (every castle but Sunspear burned thrice)."
+    },
+    {
+      "id": "W3A-22",
+      "slug": "the-dragons-wroth",
+      "quote": "Lord Fowler, Lord Vaith, Lady Toland, and four successive Lords of the Hellholt were murdered, one after the other, for the Iron Throne had offered a lord's ransom in gold for the head of any Dornish lord.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "line": 125,
+      "note": "The bounty-on-Dornish-lords' heads detail named in the node's Identity text."
+    },
+    {
+      "id": "W3A-23",
+      "slug": "the-dragons-wroth",
+      "quote": "Lord Connington of Griffin's Roost was killed whilst hunting, Lord Mertyns of Mistwood poisoned with his whole household by a cask of Dornish wine, Lord Fell smothered in a brothel in King's Landing.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "line": 127,
+      "note": "The Dornish reprisal assassinations answering the bounties — the tit-for-tat structure of the Wroth."
+    },
+    {
+      "id": "W3A-24",
+      "slug": "the-dragons-wroth",
+      "quote": "Admitted through a postern gate by a treacherous servant, the Wyl attackers slew Lord Oakheart and most of the wedding guests, then made the bride look on as they gelded her husband.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-reign-of-the-dragon-04",
+      "line": 131,
+      "note": "The Cafferen-Oakheart wedding massacre of 12 AC named explicitly in the node's Identity text."
+    },
+    {
+      "id": "W3A-25",
+      "slug": "murder-of-prince-jaehaerys",
+      "quote": "“Scream and you all die,” Blood told Her Grace. Queen Helaena kept her calm, it is said. “Who are you?” she demanded of the two. “Debt collectors,” said Cheese.",
+      "attribution": "Blood and Cheese, quoted in Gyldayn's chronicle",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 269,
+      "note": "The opening of the confrontation in Queen Alicent's chambers."
+    },
+    {
+      "id": "W3A-26",
+      "slug": "murder-of-prince-jaehaerys",
+      "quote": "“An eye for an eye, a son for a son. We only want the one, t’ square things.",
+      "attribution": "Cheese, quoted in Gyldayn's chronicle",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 269,
+      "note": "Cheese echoing Daemon's own vow (see W3A-16) while demanding the queen choose which son dies; quote ends mid-line where the source hard-wraps (dialogue continues onto line 271) so no closing quotation mark is present in the source at this point."
+    },
+    {
+      "id": "W3A-27",
+      "slug": "murder-of-prince-jaehaerys",
+      "quote": "“A wife's not ason,” said Blood. “It has to be a boy.”",
+      "attribution": "Blood, quoted in Gyldayn's chronicle",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 271,
+      "note": "Refusing Helaena's offer to die in her son's place. 'ason' is verbatim as printed in the source (an OCR/typesetting run-on of 'a son') — copied byte-exact, not corrected."
+    },
+    {
+      "id": "W3A-28",
+      "slug": "murder-of-prince-jaehaerys",
+      "quote": "Then he gave Blood a grin, and the hulking swordsman slew Prince Jaehaerys, striking off the boy’s head with a single blow.",
+      "attribution": "chronicle of Archmaester Gyldayn",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "line": 271,
+      "note": "The killing blow itself — the load-bearing fact of the node."
+    }
+  ],
+  "flags": [
+    "the-dragons-wroth.node.md has era: targaryen-conquest in its frontmatter, not dance-of-dragons — its own content is the post-Rhaenys-death Dornish war of 10-12 AC (Aegon's Conquest era), unrelated to the Dance of the Dragons (130 AC) despite being grouped with the Dance-era nodes in this task. Quotes were still sourced and are accurate/verbatim, but the orchestrator should double check whether this node was miscategorized into the Dance-arc dip by mistake, or whether the slug/name collides with an unrelated concept.",
+    "death-of-queen-rhaenyra.node.md and death-of-lucerys-velaryon.node.md currently carry confidence: tier-2 despite the underlying Fire & Blood account being Gyldayn's primary chronicle narration (not a disputed/secondary claim) — worth a confidence-tier review once quotes are attached, though that's outside this workstream's scope.",
+    "murder-of-prince-jaehaerys W3A-26 and death-of-lucerys-velaryon W3A-16 both quote variants of \"an eye for an eye, a son for a son\" — intentional, not a duplicate: W3A-16 is Daemon's original written vow (line 255, causal trigger), W3A-26 is Cheese echoing the phrase aloud during the murder itself (line 269, the execution of that vow). Distinct verbatim strings, kept both because they anchor different nodes causally."
+  ]
+}

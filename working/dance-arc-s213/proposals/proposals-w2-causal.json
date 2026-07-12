@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "slice": "dance-arc W2 causal",
+    "agent": "w2-causal"
+  },
+  "edges": [
+    {
+      "id": "W2-01",
+      "type": "MOTIVATES",
+      "source": "first-battle-of-tumbleton",
+      "target": "second-battle-of-tumbleton",
+      "book": "fab",
+      "chapter": "fab-rhaenyra-overthrown-18-p02",
+      "quote": "Many a battle and skirmish had already been fought in the lands watered by the Trident, and there was scarce a keep or village that had not paid its due in blood...but Addam Velaryon was relentless and determined and glib of tongue, and the riverlords knew much and more of the horrors that had befallen Tumbleton. By the",
+      "tier": "tier-1",
+      "note": "The atrocities/sack of the First Battle of Tumbleton (the Two Betrayers' burning and slaughter) are what turned the riverlords against Ulf White and Hugh Hammer and won them to Addam Velaryon's counter-attack force -- the army that fights the Second Battle.",
+      "qualifier": ""
+    },
+    {
+      "id": "W2-02",
+      "type": "TRIGGERS",
+      "source": "death-of-queen-rhaenyra",
+      "target": "battle-of-the-kingsroad",
+      "book": "fab",
+      "chapter": "fab-short-sad-reign-of-aegon-ii-19",
+      "quote": "On the western shores of Blackwater Bay, meanwhile, the Moon of the Three Kings came to a sudden end when an army appeared outside the walls of King’s Landing. For more than half a year the city had lived in fear of Ormund Hightower's advancing host...but when the assault came, it came not from Oldtown by way of Bitterbridge and Tumbleton, but up the kingsroad from Storm's End. Borros Baratheon, on hearing of the queen's death, had left his newly pregnant wife and four daughters to strike north through the kingswood with six hundred knights and four thousand foot.",
+      "tier": "tier-1",
+      "note": "Borros Baratheon mobilizes his army the moment he hears of Rhaenyra's death; this is the same Baratheon host that later fights (and loses) the Battle of the Kingsroad against the Lads. Distinct causal factor from the existing vengeance-campaign-in-the-crownlands -CAUSES-> battle-of-the-kingsroad edge (that covers the riverlords' mobilization; this covers Borros's).",
+      "qualifier": ""
+    },
+    {
+      "id": "W2-03",
+      "type": "TRIGGERS",
+      "source": "the-black-council",
+      "target": "fight-above-shipbreaker-bay",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "upon a copy of The Seven-Pointed Star would Her Grace consent to using them as her envoys. It was decided that Jace, being the older of the two, would take the longer, more dangerous task, flying first to the Eyrie to treat with the Lady of the Vale, then to White Harbor to win over Lord Manderly, and lastly to Winterfell to meet with Lord Stark. Luke's mission would be shorter and safer; he was to fly to Storm's End, where it was",
+      "tier": "tier-1",
+      "note": "The black council's decision to send Lucerys as envoy specifically to Storm's End is the direct precursor to his fatal encounter with Aemond there. Complementary to the existing aemond-loses-his-eye-at-driftmark/maris-baratheon -MOTIVATES-> fight-above-shipbreaker-bay edges (those cover personal motive for the violence; this covers why Lucerys was there at all).",
+      "qualifier": ""
+    },
+    {
+      "id": "W2-04",
+      "type": "TRIGGERS",
+      "source": "dismissal-of-otto-criston-made-hand",
+      "target": "battle-at-rooks-rest",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "Rook's Rest was Ser Criston’s next objective. Forewarned of their coming, Lord Staunton closed his gates and defied the attackers. Behind his walls, his lordship could only watch as his fields and woods and villages were burned, his sheep and cattle and smallfolk put to the sword. When provisions inside the castle began to",
+      "tier": "tier-1",
+      "note": "Criston Cole's appointment as Hand (replacing Otto Hightower's cautious approach) is what launches his aggressive campaign -- executions, the Arryk Cargyll mission, the sack of Duskendale, and then Rook's Rest as his 'next objective.' Battle-at-rooks-rest had no causal in-edges before this.",
+      "qualifier": ""
+    },
+    {
+      "id": "W2-05",
+      "type": "ENABLES",
+      "source": "battle-at-the-red-fork",
+      "target": "battle-by-the-lakeshore",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "At Acorn Hall the westermen were checked briefly when Lord Joseth Smallwood sallied forth to join Lord Piper and the remnants of his defeated host, but Piper died in the battle that ensued (felled when his heart burst at the sight of his favorite grandson’s head upon a spear, Mushroom says), and Smallwood fell back inside his castle. A second battle followed three days later, when the rivermen regrouped under a hedge knight named Ser Harry Penny. This unlikely hero died soon after, whilst slaying Adrian Tarbeck. Once more the Lannisters prevailed, cutting down the rivermen as they fled. When the western host resumed its march to Harrenhal, it was under the aged Lord Humfrey Lefford, who had suffered so many wounds that he commanded",
+      "tier": "tier-1",
+      "note": "Command of the western host passes to Lord Humfrey Lefford after the losses/deaths that follow the Red Fork (Jason Lannister, then Adrian Tarbeck), and it is Lefford's host, resuming its march to Harrenhal, that is caught and destroyed at the Lakeshore. battle-by-the-lakeshore had no causal in-edges before this.",
+      "qualifier": ""
+    },
+    {
+      "id": "W2-06",
+      "type": "TRIGGERS",
+      "source": "aemonds-march-on-harrenhal",
+      "target": "butchers-ball",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Whatever the reason, Ser Criston and Prince Aemond decided to part ways. Cole would take command of their host and lead them south to join Ormund Hightower and Prince Daeron, but the Prince Regent would not accompany them. Instead he meant to fight his own war, raining fire on the traitors from the air. Soon or late,",
+      "tier": "tier-1",
+      "note": "Aemond and Criston's decision to abandon Harrenhal and split -- Criston taking the depleted host south toward Ormund Hightower's army -- is what puts Criston's column on the road where it is ambushed at the Butcher's Ball. Deliberately NOT wired to battle-above-the-gods-eye: that link already exists via aemonds-burning-of-the-riverlands -ENABLES-> battle-above-the-gods-eye (Aemond's branch of this same split), so a direct aemonds-march-on-harrenhal/butchers-ball -> gods-eye edge would duplicate an existing 2-hop path. butchers-ball had no causal in-edges before this.",
+      "qualifier": ""
+    }
+  ],
+  "skipped": [
+    "battle-of-the-kingsroad -> death-of-aegon-ii: NOT proposed -- already exists in graph/edges/edges.jsonl (TRIGGERS, run_id fab-causal-spine-s204-2026-07-10, quote from fab-short-sad-reign-of-aegon-ii-19.md:249, 'turncloaks in his midst had put their plans in motion the moment they learned of Lord Baratheon's defeat upon the kingsroad'). This satisfies the 'what leads INTO death-of-aegon-ii' priority item -- no action needed.",
+    "butchers-ball/aemonds-march-on-harrenhal -> battle-above-the-gods-eye: SKIPPED per prompt guidance -- already covered via aemonds-burning-of-the-riverlands -ENABLES-> battle-above-the-gods-eye (Aemond's post-split solo dragon campaign is the direct 1-hop cause; a direct edge from butchers-ball or aemonds-march-on-harrenhal would duplicate that path and conflate Criston's branch of the split with Aemond's).",
+    "battle-of-the-honeywine -> first-battle-of-tumbleton: SKIPPED -- F&B narrates Ormund Hightower's continued advance (Longtable siege, Bitterbridge sack, then Tumbleton) as unbroken campaign momentum after the Honeywine, but no single verbatim line in fab-the-red-dragon-and-the-gold-17-p02/p03 explicitly names the Honeywine as the cause of the march resuming -- the two direct mentions of 'Honeywine' in the raw text (lines 57 and 63 of p02) describe the battle itself and Rhaenyra's reaction to hearing of it, not Hightower's onward march. Would need a weaker ENABLES with a hedged note; judged not solid enough to include. battle-of-the-honeywine remains causally isolated going forward.",
+    "death-of-viserys-i -> coronation-of-aegon-ii: NOT a real gap -- already connected via 2-hop path death-of-viserys-i -TRIGGERS-> green-council-conceals-death-of-viserys -ENABLES-> coronation-of-aegon-ii.",
+    "death-of-lucerys-velaryon -> blood-and-cheese: NOT a real gap -- 'Blood and Cheese' has no dedicated node; the event it refers to is already the murder-of-prince-jaehaerys node, and death-of-lucerys-velaryon -MOTIVATES-> murder-of-prince-jaehaerys already exists.",
+    "coronation-of-aegon-ii -> dance-of-the-dragons / death-of-viserys-i -> dance-of-the-dragons / dance-of-the-dragons -> death-of-lucerys-velaryon: SKIPPED per chain-as-arc design rule -- these are umbrella-node wirings, explicitly out of scope.",
+    "fall-of-kings-landing -> storming-of-the-dragonpit: NOT a real gap -- these are different phases separated chronologically (fall-of-kings-landing is the early blacks' seizure of the city c. 129 AC; storming-of-the-dragonpit is the much later riot against Rhaenyra's own rule after Helaena's suicide and First Tumbleton). No direct causal link between them; the naive gap-map match is a false positive from name similarity ('king's landing').",
+    "storming-of-the-dragonpit -> death-of-queen-rhaenyra: NOT a real gap -- already connected via 2-hop path storming-of-the-dragonpit -MOTIVATES-> flight-to-dragonstone -ENABLES-> death-of-queen-rhaenyra."
+  ],
+  "flags": [
+    "The gap-map's 'existing causal edges' dump appears to be a partial/filtered list -- a live check of graph/edges/edges.jsonl turned up additional causal in-edges NOT in the dump (e.g. aemond-loses-his-eye-at-driftmark/maris-baratheon -> fight-above-shipbreaker-bay, riverlords-rise-for-rhaenyra -> second-battle-of-tumbleton, vengeance-campaign-in-the-crownlands -> battle-of-the-kingsroad, battle-of-the-kingsroad -> death-of-aegon-ii). Anyone else working this arc should re-derive the in-edge list from edges.jsonl directly rather than trusting gap-map-output.txt at face value."
+  ]
+}

@@ -1,0 +1,8 @@
+# Harvest pointers -- W1 roles (dance-of-the-dragons / aemonds-march-on-harrenhal / daughters-war)
+
+- fab-the-red-dragon-and-the-gold-17-p02.md:135-137 / homeless quote / Alicent surrendering King's Landing to Rhaenyra: "The city is yours, Princess... but you will not hold it long. The rats play when the cat is gone, but my son Aemond will return with fire and blood." Vivid, load-bearing, unused by this dip.
+- fab-the-red-dragon-and-the-gold-17-p03.md:105-107 / physical description + homeless quote / Alys Rivers found naked in the Harrenhal godswood, pregnant, claiming "I have the dragon's bastard in me... I can feel his fires licking at [me]" -- strong character/description beat for alys-rivers node.
+- fab-the-blacks-and-the-greens-16-p01.md:193 / homeless quote (bawdy) / Mushroom on Rhaenys, "The Queen Who Never Was": "What did Viserys ever have that she did not? A little sausage? Is that all it takes to be a king?" -- colorful voice sample for rhaenys node.
+- fab-war-and-peace-and-cattle-shows-22-p01.md:171 / character/voice / Alyn Oakenfist's insolent line to Lord Peake: "And an elephant... Pray, do not forget the elephant, my lord." Good personality-defining quote for alyn-velaryon.
+- fab-the-red-dragon-and-the-gold-17-p02.md:127-129 / betrayal/foreshadowing / Ser Luthor Largent on the City Watch's loyalty to Daemon: "Daemon gave us these cloaks... and they're gold no matter how you turn them," right before killing Ser Gwayne Hightower -- load-bearing for a City-Watch-loyalty edge.
+- fab-the-red-dragon-and-the-gold-17-p03.md:143 / homeless quote / Ser Garibald Grey after the Butcher's Ball: "Today was butchery, not battle." Names the battle; strong evidence quote if that node needs a naming/aftermath cite.

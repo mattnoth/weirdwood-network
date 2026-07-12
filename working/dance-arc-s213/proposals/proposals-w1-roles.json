@@ -1,0 +1,199 @@
+{
+  "_meta": {
+    "slice": "roles",
+    "agent": "w1-roles",
+    "packets_processed": 3
+  },
+  "candidates": [
+    {
+      "id": "W1-01",
+      "type": "COMMANDS_IN",
+      "source": "daemon-targaryen",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p02",
+      "quote": "The prince claimed for himself the style Protector of the Realm",
+      "tier": "tier-1",
+      "note": "Daemon assumes the war-command style Protector of the Realm for the blacks at Rhaenyra's coronation on Dragonstone.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-02",
+      "type": "COMMANDS_IN",
+      "source": "rhaenyra-targaryen",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Rhaenyra herself presided, seated between her uncle and husband, Prince Daemon",
+      "tier": "tier-1",
+      "note": "Rhaenyra presides over the black council as claimant queen (blacks, command-tier). Node already carries a weak-typed PARTICIPATES_IN on Rhaenyra from Pass-1 wiki prose -- different type, not a dup, noting the overlap per instructions.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-03",
+      "type": "PARTICIPATES_IN",
+      "source": "jacaerys-velaryon",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "Together he and Lord Corlys began to plan an assault upon King’s Landing.",
+      "tier": "tier-1",
+      "note": "Prompt flagged Jacaerys as a COMMANDS_IN candidate for the blacks, but the text shows he was explicitly barred from combat (“you must take no part in any fighting”) and instead flew as recruiter/diplomat and war-planner (Vale, White Harbor, Winterfell) -- organizational, not command-tier, so downgraded honestly to PARTICIPATES_IN. See flags.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-04",
+      "type": "COMMANDS_IN",
+      "source": "corlys-velaryon",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "The Sea Snake would command the fleet, whilst Princess Rhaenys flew overhead to keep their foes from attacking their ships with dragons.",
+      "tier": "tier-1",
+      "note": "Corlys (the Sea Snake) is given command of the Velaryon/black fleet at the black council's war planning.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-05",
+      "type": "COMMANDS_IN",
+      "source": "aegon-ii-targaryen",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Aegon II mounted the steps of the lron Throne before a thousand lords and knights.",
+      "tier": "tier-1",
+      "note": "Aegon II crowned/enthroned as the greens' king (command-tier claimant), parallel to Joffrey's COMMANDS_IN pattern on war-of-the-five-kings. Node already carries AGENT_IN aegon-ii-targaryen (Pass-1 wiki-derived) -- different edge type, not a dup, noting the overlap per instructions. OCR note: file has 'lron' for 'Iron', copied verbatim.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-06",
+      "type": "COMMANDS_IN",
+      "source": "aemond-targaryen",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p01",
+      "quote": "You must rule the realm now, until your brother is strong enough to take the crown again",
+      "tier": "tier-1",
+      "note": "Aemond assumes command of the greens' war effort as Protector of the Realm/Prince Regent for the injured Aegon II.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-07",
+      "type": "COMMANDS_IN",
+      "source": "criston-cole",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Cole would take command of their host and lead them south to join Ormund Hightower and Prince Daeron",
+      "tier": "tier-1",
+      "note": "Criston Cole, Hand of the King, takes command of the greens' host in the field.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-08",
+      "type": "COMMANDS_IN",
+      "source": "otto-hightower",
+      "target": "dance-of-the-dragons",
+      "book": "fab",
+      "chapter": "fab-the-blacks-and-the-greens-16-p01",
+      "quote": "Lord Beesbury was seized at the door by the command of Ser Otto Hightower and escorted to the dungeons.",
+      "tier": "tier-1",
+      "note": "Otto Hightower is the instigator/orderer of the green council's coup that opens the war (COMMANDS_IN's orderer-not-executor sense), as Hand acting with the king's voice for the greens.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-09",
+      "type": "COMMANDS_IN",
+      "source": "aemond-targaryen",
+      "target": "aemonds-march-on-harrenhal",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "the prince rode forth from the Gate of the Gods within a fortnight, at the head of a host four thousand strong.",
+      "tier": "tier-1",
+      "note": "Aemond personally leads the 4,000-strong greens host out of King's Landing toward Harrenhal.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-10",
+      "type": "COMMANDS_IN",
+      "source": "criston-cole",
+      "target": "aemonds-march-on-harrenhal",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Ser Criston’s vanguard fought and won a short, sharp battle against Ser Oswald Wode and the Lords Darry and Roote on the lakeshore",
+      "tier": "tier-1",
+      "note": "Criston Cole commands the vanguard of the march and fights/wins the only real engagement along the route (greens).",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-11",
+      "type": "COMMANDS_IN",
+      "source": "daemon-targaryen",
+      "target": "aemonds-march-on-harrenhal",
+      "book": "fab",
+      "chapter": "fab-the-red-dragon-and-the-gold-17-p02",
+      "quote": "Aemond One-Eye saw a greater threat in his uncle Prince Daemon and the great host he had gathered at Harrenhal.",
+      "tier": "tier-1",
+      "note": "Daemon commands the black host gathered at Harrenhal that is the march's target (he evacuates before contact, but the text names him commander of the force Aemond marched against -- blacks side).",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-12",
+      "type": "COMMANDS_IN",
+      "source": "gedmund-peake",
+      "target": "daughters-war",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "To command the royal fleet, he tapped another uncle, Ser Gedmund Peake, a seasoned battler known as Gedmund Great-Axe for his favored weapon.",
+      "tier": "tier-1",
+      "note": "Gedmund Peake given command of the Westerosi royal fleet sent against Racallio Ryndoon.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-13",
+      "type": "COMMANDS_IN",
+      "source": "alyn-velaryon",
+      "target": "daughters-war",
+      "book": "fab",
+      "chapter": "fab-war-and-peace-and-cattle-shows-22-p01",
+      "quote": "Lord Alyn had taken his ships south, not north.",
+      "tier": "tier-1",
+      "note": "Alyn Velaryon (Oakenfist) independently commands the Velaryon fleet squadron, slipping from the royal fleet's command to strike the Braavosi at the Stepstones on his own initiative -- nominally Westerosi but not under Gedmund's command.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-14",
+      "type": "COMMANDS_IN",
+      "source": "racallio-ryndoon",
+      "target": "daughters-war",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "only to decide to claim his crown for himself, betraying the Archon and his native city",
+      "tier": "tier-1",
+      "note": "Racallio Ryndoon commands his own rogue faction (self-proclaimed King of the Narrow Sea) after betraying the Archon of Tyrosh who sent him.",
+      "qualifier": ""
+    },
+    {
+      "id": "W1-15",
+      "type": "COMMANDS_IN",
+      "source": "archon-of-tyrosh",
+      "target": "daughters-war",
+      "book": "fab",
+      "chapter": "fab-the-hooded-hand-21",
+      "quote": "To press that claim, the Archon of Tyrosh called up Racallio Ryndoon, the flamboyant captain-general who had once commanded the Triarchy’s forces against Daemon Targaryen.",
+      "tier": "tier-1",
+      "note": "Archon of Tyrosh is the instigator/orderer of the Tyroshi campaign that sets Racallio in motion (title-node source, precedent: archon-of-tyrosh already carries AGENT_IN elsewhere in the graph).",
+      "qualifier": ""
+    }
+  ],
+  "wiki_only": [],
+  "no_node": [],
+  "flags": [
+    "extinction-of-house-strong-at-harrenhal already exists as a dedicated event node for the Simon Strong trial-by-combat + House Strong massacre that follows the march in the same fab prose (fab-the-red-dragon-and-the-gold-17-p02:175-185); AGENT_IN aemond-targaryen / VICTIM_IN simon-strong belong on that node, not on aemonds-march-on-harrenhal, so they were intentionally NOT emitted here -- flagging so the orchestrator can check that node's role coverage separately.",
+    "Princess Rhaenys personally rode Meleys into combat and died at the Battle at Rook's Rest -- a strong FIGHTS_IN/VICTIM_IN candidate, but that belongs on a Rook's Rest-specific event node (not in this dip's target list), not on the war-level dance-of-the-dragons hub. Flagging for a future enrichment dip.",
+    "Sealord of Braavos was considered for a daughters-war COMMANDS_IN (he's named as party to the Braavos/Tyrosh/Racallio alliance and his fleet's grand admiral was routed by Lord Alyn), but no single-line quote in the fab chapters I read cleanly shows the Sealord personally commanding -- left out as marginal rather than forced.",
+    "Daughters' War is genuinely a shifting four-sided Essos conflict (Triarchy remnants fighting each other, Racallio's rogue Stepstones kingdom, the Braavos/Pentos/Lorath alliance, and a tangential/unsanctioned Westerosi intervention by Gedmund Peake's royal fleet and Alyn Velaryon acting independently) -- it does not cleanly map onto a two-side blacks/greens model the way dance-of-the-dragons and war-of-the-five-kings do, so 'side' is recorded per-faction in each candidate's note rather than as a binary.",
+    "Jacaerys Velaryon: prompt listed him as a dance-of-the-dragons COMMANDS_IN candidate to check; text instead supports PARTICIPATES_IN (explicitly forbidden from fighting, served as recruiter/war-planner) -- emitted as PARTICIPATES_IN, an honest downgrade from the suggested type, not a COMMANDS_IN.",
+    "Aemond Targaryen and Criston Cole both have strong book support for an additional FIGHTS_IN on dance-of-the-dragons (Aemond personally fought at Rook's Rest and killed Lucerys; Criston personally fell in single combat at the Butcher's Ball) beyond the COMMANDS_IN emitted here -- not added in this pass to avoid role bloat on an already 8-edge hub; flagging as a future-dip candidate."
+  ]
+}
