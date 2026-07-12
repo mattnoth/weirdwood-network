@@ -1,0 +1,7 @@
+# Harvest pointers — chunk4 (S213 roles round 2)
+
+- fab-sons-of-the-dragon-05-p02.md:173 / homeless quote / Rhaena begging Aegon to flee with their infant daughters rather than fight: "I would gladly give up my own life to make you king, but | will not put our girls at risk." (note: source file has an OCR artifact `|` for `I` — copy verbatim if harvested)
+- fab-sons-of-the-dragon-05-p03.md:65 / homeless quote / Rhaena's stoic reaction on learning Aegon and Melony Piper died at the Gods Eye: "Will you not weep?" she was asked, to which she replied, "I do not have the time for tears."
+- agot-sansa-01.md:239-241 / homeless quote / immediately after the Trident incident, Sansa tends to Joffrey ("My poor prince... I'll ride to the holdfast and bring help for you") and he rebuffs her with pure contempt: "Then go... And don't touch me." — sharp early characterization beat for Joffrey, not attached to any edge.
+- asos-davos-04.md:93 / homeless quote / Stannis on Robert's leniency toward defeated foes after Summerhall: "These men meant to deliver you to Aerys to be burned," I told him after I saw them throwing axes in the yard... Robert only laughed. — good Robert-characterization material, only partially used for the COMMANDS_IN quote.
+- affc-cersei-03.md:95 / homeless quote / Olenna Tyrell dismisses the old Lannister wedding cloak: "That old thing?... It looks a bit threadbare to me... and dare I say, unlucky?" — humor/characterization beat for Olenna, unused.

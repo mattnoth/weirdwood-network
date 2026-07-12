@@ -1,0 +1,8 @@
+# Harvest pointers — roles round 2, chunk 2
+
+- `acok-bran-04.md:49` / hospitality-turned-violence / Lady Hornwood is seized by Ramsay "as she returned from the harvest feast" — a feast/hospitality beat that flips into abduction, worth a homeless-quote or foreshadowing note on the harvest-feast / Hornwood thread.
+- `affc-cersei-03.md:91` / physical description / "The bride was fair and gay and beautiful, the groom still baby-faced and plump." — clean paired physical-description quote for Margaery/Tommen at the wedding, not currently attached to either node's ## Quotes.
+- `affc-cersei-07.md:79` / logistics-descriptive / "Paxter Redwyne owned two hundred warships, and five times as many merchant carracks, wine cogs, trading galleys, and whalers." — good concrete numbers for the Redwyne-fleet node if it wants a scale quote.
+- `fab-rhaenyra-overthrown-18-p02.md:175-185` / massacre, off-task for this packet / Prince Aemond's slaughter of House Strong at Harrenhal after Rook's Rest ("Thus did the flower of House Strong... come to an ignoble end in the ward at Harrenhal. No trueborn Strong was spared...") — a distinct atrocity event, currently not one of our 6 packet slugs; may not have its own event node yet — worth checking.
+- `fab-rhaenyra-overthrown-18-p02.md:235-237` / physical description, homeless / Mushroom's line calling wounded Sunfyre "a great golden fire-breathing chicken, hopping and fluttering from hill to hill" — vivid, quotable, not attached anywhere.
+- `fab-the-red-dragon-and-the-gold-17-p02.md:167` / quote, homeless / Roderick Dustin at the Twins: "We have come to die for the dragon queen," said before the Winter Wolves' march south — strong characterization line for roderick-dustin's node if not already there.
