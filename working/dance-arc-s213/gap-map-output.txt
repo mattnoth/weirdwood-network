@@ -1,0 +1,61 @@
+=== existing causal edges touching the Dance set ===
+  aemonds-burning-of-the-riverlands -ENABLES-> battle-above-the-gods-eye
+  battle-at-rooks-rest -MOTIVATES-> aemond-named-prince-regent
+  battle-at-rooks-rest -MOTIVATES-> the-sowing
+  battle-of-the-gullet -TRIGGERS-> death-of-jacaerys-velaryon
+  city-watch-of-kings-landing -ENABLES-> fall-of-kings-landing
+  coronation-of-aegon-ii -MOTIVATES-> coronation-of-rhaenyra
+  coronation-of-aegon-ii -TRIGGERS-> stillbirth-of-visenya-targaryen-daughter-of-rhaenyra
+  daemon-claims-harrenhal -MOTIVATES-> battle-above-the-gods-eye
+  death-of-aegon-ii -ENABLES-> hour-of-the-wolf
+  death-of-gwayne-hightower -TRIGGERS-> fall-of-kings-landing
+  death-of-lucerys-velaryon -MOTIVATES-> murder-of-prince-jaehaerys
+  death-of-queen-rhaenyra -MOTIVATES-> aegon-iii-targaryen
+  death-of-rhaenys-targaryen -MOTIVATES-> the-dragons-wroth
+  death-of-viserys-i -TRIGGERS-> green-council-conceals-death-of-viserys
+  departure-of-nettles -ENABLES-> battle-above-the-gods-eye
+  fall-of-dragonstone -ENABLES-> death-of-queen-rhaenyra
+  fall-of-dragonstone -TRIGGERS-> execution-of-grand-maester-gerardys
+  fall-of-kings-landing -TRIGGERS-> execution-of-otto-hightower
+  fall-of-kings-landing -TRIGGERS-> extinction-of-house-strong-at-harrenhal
+  fight-above-shipbreaker-bay -TRIGGERS-> death-of-lucerys-velaryon
+  flight-to-dragonstone -ENABLES-> death-of-queen-rhaenyra
+  green-council-conceals-death-of-viserys -ENABLES-> coronation-of-aegon-ii
+  hour-of-the-wolf -ENABLES-> wedding-of-aegon-iii-and-jaehaera
+  hour-of-the-wolf -TRIGGERS-> regency-of-aegon-iii
+  riot-of-kings-landing-dance-of-the-dragons -ENABLES-> storming-of-the-dragonpit
+  rising-of-the-shepherd -TRIGGERS-> storming-of-the-dragonpit
+  riverlords-rise-for-rhaenyra -ENABLES-> second-battle-of-tumbleton
+  second-battle-of-tumbleton -ENABLES-> death-of-hard-hugh-hammer
+  storming-of-the-dragonpit -MOTIVATES-> flight-to-dragonstone
+  storming-of-the-dragonpit -TRIGGERS-> the-ride-of-the-seven
+  the-dragons-wroth -ENABLES-> treaty-of-eternal-peace-with-dorne
+  the-dragons-wroth -MOTIVATES-> founding-of-the-kingsguard
+  the-sowing -ENABLES-> battle-of-the-gullet
+  the-sowing -ENABLES-> fall-of-kings-landing
+  the-sowing -TRIGGERS-> legitimization-of-addam-and-alyn
+
+=== expected HotD-walk links ===
+  death-of-viserys-i -> coronation-of-aegon-ii: MISSING
+  coronation-of-aegon-ii -> dance-of-the-dragons: MISSING
+  death-of-viserys-i -> dance-of-the-dragons: MISSING
+  dance-of-the-dragons -> death-of-lucerys-velaryon: MISSING
+  death-of-lucerys-velaryon -> blood-and-cheese: MISSING [blood-and-cheese: NO NODE]
+  battle-at-rooks-rest -> fall-of-kings-landing: MISSING
+  the-sowing -> battle-of-the-gullet: PRESENT
+  fall-of-kings-landing -> storming-of-the-dragonpit: MISSING
+  butchers-ball -> battle-above-the-gods-eye: MISSING
+  aemonds-march-on-harrenhal -> battle-above-the-gods-eye: MISSING
+  first-battle-of-tumbleton -> second-battle-of-tumbleton: MISSING
+  storming-of-the-dragonpit -> death-of-queen-rhaenyra: MISSING
+  fall-of-dragonstone -> death-of-queen-rhaenyra: PRESENT
+  death-of-queen-rhaenyra -> hour-of-the-wolf: MISSING
+  second-battle-of-tumbleton -> hour-of-the-wolf: MISSING
+
+=== role coverage on umbrella + weak events ===
+  dance-of-the-dragons: [('FIGHTS_IN', 'caltrops'), ('AGENT_IN', 'aegon-ii-targaryen'), ('PARTICIPATES_IN', 'rhaenyra-targaryen')]
+  aemonds-march-on-harrenhal: (none)
+  daughters-war: (none)
+  death-of-viserys-i: [('VICTIM_IN', 'viserys-i-targaryen'), ('VICTIM_IN', 'viserys-i-targaryen')]
+  coronation-of-aegon-ii: [('AGENT_IN', 'criston-cole'), ('PARTICIPATES_IN', 'aegon-ii-targaryen')]
+  death-of-lucerys-velaryon: [('AGENT_IN', 'aemond-targaryen'), ('VICTIM_IN', 'lucerys-velaryon')]

@@ -2,7 +2,7 @@
 name: "Battle at Rook's Rest"
 type: event.battle
 slug: battle-at-rooks-rest
-aliases: []
+aliases: ["Battle of Rook's Rest", "the battle at Rook's Rest"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_at_Rook's_Rest"
 bucket_id: battles-a-b

@@ -2,7 +2,7 @@
 name: "Manderly bakes the Frey pies"
 type: event.incident
 slug: manderly-bakes-the-frey-pies
-aliases: ["the Frey pies", "the Manderly pies", "the wedding pies at Winterfell", "the pork pies"]
+aliases: ["the Frey pies", "the Manderly pies", "the wedding pies at Winterfell", "the pork pies", "Frey pie", "Frey pie at Winterfell"]
 confidence: tier-2
 containers: [wo5k, north]
 era: current-narrative

@@ -2,7 +2,7 @@
 name: "Murder of Prince Jaehaerys"
 type: event.assassination
 slug: murder-of-prince-jaehaerys
-aliases: []
+aliases: ["Blood and Cheese", "the Blood and Cheese murder", "a son for a son"]
 confidence: tier-1
 era: dance-of-dragons
 pass_origin: pass-fab-enrichment
