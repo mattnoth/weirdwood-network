@@ -1,0 +1,11 @@
+# Harvest queue — roles-slice chunk 3
+
+One-line pointers to notable-but-off-task finds spotted while grounding role-edge quotes. Point, don't extract.
+
+- `sources/chapters/adwd/adwd-daenerys-08.md:39` / description / Bloodbeard of the Company of the Cat at the Hizdahr-Daznak's Pit feast — "bellowed, belched, farted like a thunderclap, and pinched every serving girl who came within his reach" — vivid grotesque physical/behavior description, unused elsewhere.
+- `sources/chapters/fab/fab-the-lysene-spring-24-p01.md:59` / hospitality / Roggerio Rogare's pillow house the Mermaid — "filled it with parrots from the Summer Islands, monkeys from Sothoryos, and a hundred exotic girls (and boys) from every corner of the earth" — exotic luxury/hospitality set-dressing, food/goods-adjacent.
+- `sources/chapters/fab/fab-the-lysene-spring-24-p02.md:151` / dialogue+foreshadowing / Ser Gareth Long's trial-by-battle taunt "You always were a bloody fool, Victor" before killing Victor Risley — clean dramatic beat, no existing node coverage checked.
+- `sources/chapters/fab/fab-the-lysene-spring-24-p02.md:185` / description / Lysaro Rogare's punishment — "chained naked to a pillar before the Temple of Trade, where all those despoiled by him would be allowed to whip him" — vivid Essosi-justice atmosphere, could feed a Lys/justice-customs enrichment later.
+- `sources/chapters/acok/acok-theon-03.md:67` / physical description / Dagmer Cleftjaw's scar — "a shiny seam of puckered, twisted flesh divided his face like a crevasse through a snowfield" — strong physical-description target per project design values, not currently quoted on the dagmer node (unverified).
+- `sources/chapters/tss/tss-dunk-01.md:251` / homely detail / Eustace Osgrey's sons "died on the Redgrass Field fifteen years ago... I brought them home and buried them among the blackberries" — quiet grief/hospitality-adjacent domestic detail.
+- `sources/chapters/adwd/adwd-daenerys-06.md:143` / dialogue / Barristan Selmy on Baelor the Blessed — "Baelor the Blessed prayed and fasted and built the Seven as splendid a temple as any gods could wish for, yet he could not put an end to war and want" — thematic aside on kingship/religion, homeless quote.

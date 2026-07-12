@@ -1,0 +1,482 @@
+{
+  "_meta": {
+    "slice": "roles",
+    "checked": 79
+  },
+  "verdicts": [
+    {
+      "id": "R1-01",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-02",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-03",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-04",
+      "verdict": "AMBIGUOUS",
+      "reason": "quote-support",
+      "note": "Quote is Ser Colen's proclamation of Renly's status ('King Renly is the crowned and anointed lord'), not Renly himself shown commanding. The sentence is dialogue BY someone ABOUT Renly, not showing Renly's direct command action. COMMANDS_IN should show the person ordering/directing, not just their proclaimed status."
+    },
+    {
+      "id": "R1-05",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-06",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-07",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-08",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-09",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-10",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-11",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-12",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-13",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-14",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-15",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-16",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-17",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-18",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-19",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-20",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-21",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-22",
+      "verdict": "AMBIGUOUS",
+      "reason": "quote-support",
+      "note": "Quote 'Robert with his warhammer and his great antlered helm, the Targaryen prince armored all in black' is narrative description of the duel, showing Robert as a combatant, not explicitly as rebellion COMMANDER. Historical narrative describes the duel but doesn't show Robert giving orders or strategic command. Defensible as tier-1 but ambiguous whether it supports COMMANDS_IN vs FIGHTS_IN."
+    },
+    {
+      "id": "R1-23",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-24",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-25",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-26",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-27",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-28",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-29",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-30",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-31",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-32",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-33",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-34",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-35",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-36",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-37",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-38",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-39",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-40",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-41",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-42",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-43",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-44",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-45",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-46",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-47",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-48",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-49",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-50",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-51",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-52",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-53",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-54",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-55",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-56",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-57",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-58",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-59",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-60",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-61",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-62",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-63",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-64",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-65",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-66",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-67",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-68",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-69",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-70",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-71",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-72",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-73",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-74",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-75",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-76",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-77",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-78",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R1-79",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+ "parked_wiki_only": [
+  {
+   "id": "R3-W1",
+   "type": "COMMANDS_IN",
+   "source": "roger-reyne",
+   "target": "reyne-tarbeck-revolt",
+   "book": "wiki",
+   "chapter": "graph/nodes/events/reyne-tarbeck-revolt.node.md",
+   "quote": "Lord Roger Reyne, Ellyn's older brother, laughed when he read Tywin's edicts and advised his friends and vassals to do nothing.",
+   "tier": "tier-2",
+   "note": "Rebel side; not found named directly in book text searched (asos/affc), only in wiki-sourced node Origins.",
+   "qualifier": ""
+  },
+  {
+   "id": "R3-W2",
+   "type": "VICTIM_IN",
+   "source": "walderan-tarbeck",
+   "target": "reyne-tarbeck-revolt",
+   "book": "wiki",
+   "chapter": "graph/nodes/events/reyne-tarbeck-revolt.node.md",
+   "quote": "Lord Walderan Tarbeck hoped to convince Tytos to rescind Tywin's edicts and traveled to Casterly Rock, but was instead imprisoned by Tywin.",
+   "tier": "tier-2",
+   "note": "See flags \u2014 asos-jaime-06.md:91 book text attributes an imprisonment episode of 'Lord Tarbeck' to Tytos Lannister, not Tywin, conflicting with this wiki claim.",
+   "qualifier": ""
+  },
+  {
+   "id": "R3-W3",
+   "type": "VICTIM_IN",
+   "source": "stafford-lannister",
+   "target": "reyne-tarbeck-revolt",
+   "book": "wiki",
+   "chapter": "graph/nodes/events/reyne-tarbeck-revolt.node.md",
+   "quote": "In return, his wife Ellyn seized three Lannisters \u2013 two Lannisters of Lannisport, and Stafford Lannister, whose sister Joanna was betrothed to Tywin \u2013 and threatened them harm unless her husband was returned.",
+   "tier": "tier-2",
+   "note": "Taken hostage by Ellyn Tarbeck; not found named directly in the book chapters searched.",
+   "qualifier": ""
+  },
+  {
+   "id": "R4-49",
+   "type": "COMMANDS_IN",
+   "source": "mathos-ii-arryn",
+   "target": "war-across-the-water",
+   "book": "",
+   "chapter": "graph/nodes/events/war-across-the-water.node.md",
+   "quote": "Mathos sailed for Sisterton with a hundred warships. Although he never returned from war, his sons and descendants continued the fight against the northmen for a thousand years.",
+   "tier": "tier-2",
+   "note": "Vale/Arryn side; ancient TWOIAF-era history, no book-chapter text available in sources/chapters (no TWOIAF source cached, only novels/D&E/F&B).",
+   "qualifier": ""
+  },
+  {
+   "id": "R4-50",
+   "type": "COMMANDS_IN",
+   "source": "house-stark",
+   "target": "war-across-the-water",
+   "book": "",
+   "chapter": "graph/nodes/events/war-across-the-water.node.md",
+   "quote": "The Starks attacked Gulltown and, unable to overcome its walls, burned hundreds of ships in the city's harbor.",
+   "tier": "tier-2",
+   "note": "Northmen side; same TWOIAF-only sourcing caveat as R4-49.",
+   "qualifier": ""
+  }
+ ],
+ "no_node": [
+  {
+   "name": "Prince Aegon (son of Aenys I, \"Aegon the Uncrowned\")",
+   "target": "jaehaerys-targaryens-uprising",
+   "note": "rebelled against Maegor prior to the events of this uprising node (his own rebellion/death is a preceding event, not part of the Jaehaerys uprising itself); did not search for a node since he is out of scope for this event's role edges"
+  },
+  {
+   "id": "R4-51",
+   "type": "VICTIM_IN",
+   "source": "",
+   "target": "wyman-manderly-stages-fake-execution-of-davos",
+   "book": "adwd",
+   "chapter": "adwd-davos-04",
+   "quote": "The man was a criminal, if that gives you any solace.",
+   "tier": "tier-1",
+   "note": "The unnamed tattooed criminal substituted and actually beheaded in Davos's place \u2014 the deception's true physical victim/patient. No node exists for him.",
+   "qualifier": ""
+  }
+ ]
+}

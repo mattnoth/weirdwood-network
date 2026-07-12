@@ -1,0 +1,374 @@
+{
+  "_meta": {
+    "slice": "roles",
+    "checked": 61
+  },
+  "verdicts": [
+    {
+      "id": "R2-01",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-02",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-03",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "verdict": "PROBLEM",
+      "reason": "not-at-event",
+      "note": "Brynden Tully was with Robb's western campaign advising strategy; quote shows him discussing alternative plans that were NOT followed; he was not at the Battle of the Fords (which Edmure commanded with Mallister/Vance/Gregor); this is remote strategic advisory, not participation in the event.",
+      "id": "R2-04"
+    },
+    {
+      "id": "R2-05",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-06",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "verdict": "PROBLEM",
+      "reason": "no-participation-in-event",
+      "note": "Harry Strickland's quote only shows him disagreeing ('We should wait') in a war council meeting; he did not participate in the taking of Storm's End assault (which Connington and Aegon led); mere disagreement in a council meeting is not PARTICIPATES_IN (non-combat active involvement in the event).",
+      "id": "R2-07"
+    },
+    {
+      "id": "R2-08",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-09",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-10",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-11",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-12",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-13",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-14",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-15",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-16",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-17",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-18",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-19",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-20",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-21",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-22",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-23",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-24",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-25",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-26",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-27",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-28",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-29",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-30",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-31",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-32",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-33",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-34",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-35",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-36",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-37",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-38",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-39",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-40",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-40b",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-41",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "verdict": "AMBIGUOUS",
+      "reason": "corpse-victim",
+      "note": "Cleon was already dead (pulled from tomb, propped in armor) when cut down by Caggo; text explicitly states 'Cleon had been dead after all'; technically received harm during siege event, but victim was deceased; defensible per rules but unusual edge case worth orchestrator judgment.",
+      "id": "R2-42"
+    },
+    {
+      "id": "R2-43",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-44",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-45",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-46",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-47",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-48",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-49",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-50",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-51",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-52",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-53",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-54",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-55",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-56",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-57",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-58",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-59",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R2-60",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    }
+  ]
+}

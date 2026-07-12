@@ -1,0 +1,3172 @@
+{
+ "_meta": {
+  "session": "S212",
+  "slice": "roles",
+  "total_event_nodes_scanned": 1242,
+  "zero_role_count": 312,
+  "role_types": [
+   "AGENT_IN",
+   "ATTENDS",
+   "COMMANDS_IN",
+   "FIGHTS_IN",
+   "HONORED_AT",
+   "OFFICIATES",
+   "PARTICIPATES_IN",
+   "VICTIM_IN",
+   "WITNESS_IN"
+  ]
+ },
+ "events": [
+  {
+   "slug": "war-of-the-five-kings",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-of-the-five-kings.node.md",
+   "degree": 71,
+   "quotes": 1,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 729
+  },
+  {
+   "slug": "purple-wedding",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/purple-wedding.node.md",
+   "degree": 27,
+   "quotes": 28,
+   "containers": [
+    "wo5k"
+   ],
+   "prose_lines": 49,
+   "score": 470
+  },
+  {
+   "slug": "battle-on-the-green-fork",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-on-the-green-fork.node.md",
+   "degree": 30,
+   "quotes": 18,
+   "containers": [
+    "wo5k"
+   ],
+   "prose_lines": 44,
+   "score": 450
+  },
+  {
+   "slug": "roberts-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/roberts-rebellion.node.md",
+   "degree": 21,
+   "quotes": 16,
+   "containers": [],
+   "prose_lines": 57,
+   "score": 330
+  },
+  {
+   "slug": "arrest-of-eddard-stark",
+   "node_type": "event.capture",
+   "file": "graph/nodes/events/arrest-of-eddard-stark.node.md",
+   "degree": 10,
+   "quotes": 20,
+   "containers": [
+    "wo5k"
+   ],
+   "prose_lines": 37,
+   "score": 257
+  },
+  {
+   "slug": "wedding-of-drogo-and-daenerys-targaryen",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-drogo-and-daenerys-targaryen.node.md",
+   "degree": 24,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 252
+  },
+  {
+   "slug": "aegons-conquest",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/aegons-conquest.node.md",
+   "degree": 20,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 20,
+   "score": 235
+  },
+  {
+   "slug": "assault-on-harrenhal",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/assault-on-harrenhal.node.md",
+   "degree": 17,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 199
+  },
+  {
+   "slug": "faith-militant-uprising",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/faith-militant-uprising.node.md",
+   "degree": 17,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 19,
+   "score": 189
+  },
+  {
+   "slug": "attack-on-castle-black",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/attack-on-castle-black.node.md",
+   "degree": 12,
+   "quotes": 4,
+   "containers": [
+    "north",
+    "jon"
+   ],
+   "prose_lines": 24,
+   "score": 184
+  },
+  {
+   "slug": "battle-beneath-the-wall",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-beneath-the-wall.node.md",
+   "degree": 7,
+   "quotes": 9,
+   "containers": [
+    "north"
+   ],
+   "prose_lines": 42,
+   "score": 175
+  },
+  {
+   "slug": "fight-by-deepwood-motte",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fight-by-deepwood-motte.node.md",
+   "degree": 4,
+   "quotes": 17,
+   "containers": [],
+   "prose_lines": 37,
+   "score": 162
+  },
+  {
+   "slug": "regency-of-aegon-iii",
+   "node_type": "event.council",
+   "file": "graph/nodes/events/regency-of-aegon-iii.node.md",
+   "degree": 12,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 31,
+   "score": 161
+  },
+  {
+   "slug": "battle-of-the-fords",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-fords.node.md",
+   "degree": 4,
+   "quotes": 16,
+   "containers": [],
+   "prose_lines": 29,
+   "score": 149
+  },
+  {
+   "slug": "taking-of-storms-end",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/taking-of-storms-end.node.md",
+   "degree": 2,
+   "quotes": 19,
+   "containers": [],
+   "prose_lines": 33,
+   "score": 148
+  },
+  {
+   "slug": "siege-of-storms-end",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-storms-end.node.md",
+   "degree": 2,
+   "quotes": 18,
+   "containers": [],
+   "prose_lines": 37,
+   "score": 147
+  },
+  {
+   "slug": "greyjoys-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/greyjoys-rebellion.node.md",
+   "degree": 7,
+   "quotes": 9,
+   "containers": [],
+   "prose_lines": 30,
+   "score": 145
+  },
+  {
+   "slug": "jaehaerys-targaryens-uprising",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/jaehaerys-targaryens-uprising.node.md",
+   "degree": 4,
+   "quotes": 15,
+   "containers": [],
+   "prose_lines": 30,
+   "score": 145
+  },
+  {
+   "slug": "battle-near-yunkai",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-near-yunkai.node.md",
+   "degree": 5,
+   "quotes": 9,
+   "containers": [
+    "essos"
+   ],
+   "prose_lines": 28,
+   "score": 143
+  },
+  {
+   "slug": "battle-at-rooks-rest",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-rooks-rest.node.md",
+   "degree": 3,
+   "quotes": 15,
+   "containers": [],
+   "prose_lines": 33,
+   "score": 138
+  },
+  {
+   "slug": "battle-outside-the-gates-of-winterfell",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-outside-the-gates-of-winterfell.node.md",
+   "degree": 4,
+   "quotes": 14,
+   "containers": [],
+   "prose_lines": 27,
+   "score": 137
+  },
+  {
+   "slug": "first-blackfyre-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/first-blackfyre-rebellion.node.md",
+   "degree": 4,
+   "quotes": 12,
+   "containers": [],
+   "prose_lines": 37,
+   "score": 137
+  },
+  {
+   "slug": "siege-of-astapor",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-astapor.node.md",
+   "degree": 2,
+   "quotes": 15,
+   "containers": [],
+   "prose_lines": 37,
+   "score": 132
+  },
+  {
+   "slug": "assault-on-dragonstone",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/assault-on-dragonstone.node.md",
+   "degree": 7,
+   "quotes": 7,
+   "containers": [],
+   "prose_lines": 23,
+   "score": 128
+  },
+  {
+   "slug": "second-blackfyre-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/second-blackfyre-rebellion.node.md",
+   "degree": 3,
+   "quotes": 12,
+   "containers": [],
+   "prose_lines": 36,
+   "score": 126
+  },
+  {
+   "slug": "battle-at-pyke",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-pyke.node.md",
+   "degree": 1,
+   "quotes": 14,
+   "containers": [],
+   "prose_lines": 34,
+   "score": 114
+  },
+  {
+   "slug": "reyne-tarbeck-revolt",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/reyne-tarbeck-revolt.node.md",
+   "degree": 2,
+   "quotes": 13,
+   "containers": [],
+   "prose_lines": 29,
+   "score": 114
+  },
+  {
+   "slug": "lysene-spring",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/lysene-spring.node.md",
+   "degree": 5,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 33,
+   "score": 113
+  },
+  {
+   "slug": "wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-hizdahr-zo-loraq-and-daenerys-targaryen.node.md",
+   "degree": 5,
+   "quotes": 3,
+   "containers": [
+    "essos"
+   ],
+   "prose_lines": 25,
+   "score": 110
+  },
+  {
+   "slug": "targaryen-campaign-in-slavers-bay",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/targaryen-campaign-in-slavers-bay.node.md",
+   "degree": 7,
+   "quotes": 5,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 107
+  },
+  {
+   "slug": "fall-of-astapor",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fall-of-astapor.node.md",
+   "degree": 3,
+   "quotes": 6,
+   "containers": [
+    "essos"
+   ],
+   "prose_lines": 24,
+   "score": 104
+  },
+  {
+   "slug": "war-for-the-dawn",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-for-the-dawn.node.md",
+   "degree": 0,
+   "quotes": 16,
+   "containers": [],
+   "prose_lines": 24,
+   "score": 104
+  },
+  {
+   "slug": "abduction-of-lyanna",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/abduction-of-lyanna.node.md",
+   "degree": 3,
+   "quotes": 9,
+   "containers": [],
+   "prose_lines": 23,
+   "score": 98
+  },
+  {
+   "slug": "battle-in-the-hills-below-the-golden-tooth",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-in-the-hills-below-the-golden-tooth.node.md",
+   "degree": 3,
+   "quotes": 9,
+   "containers": [],
+   "prose_lines": 21,
+   "score": 96
+  },
+  {
+   "slug": "riots-in-kings-landing",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/riots-in-kings-landing.node.md",
+   "degree": 1,
+   "quotes": 12,
+   "containers": [],
+   "prose_lines": 26,
+   "score": 96
+  },
+  {
+   "slug": "golden-company-sails-for-westeros",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/golden-company-sails-for-westeros.node.md",
+   "degree": 5,
+   "quotes": 2,
+   "containers": [
+    "aegon"
+   ],
+   "prose_lines": 10,
+   "score": 90
+  },
+  {
+   "slug": "battle-of-the-redgrass-field",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-redgrass-field.node.md",
+   "degree": 4,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 19,
+   "score": 89
+  },
+  {
+   "slug": "harrying-of-the-stony-shore",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/harrying-of-the-stony-shore.node.md",
+   "degree": 6,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 89
+  },
+  {
+   "slug": "war-across-the-water",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-across-the-water.node.md",
+   "degree": 2,
+   "quotes": 9,
+   "containers": [],
+   "prose_lines": 22,
+   "score": 87
+  },
+  {
+   "slug": "siege-of-raventree",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-raventree.node.md",
+   "degree": 2,
+   "quotes": 9,
+   "containers": [],
+   "prose_lines": 21,
+   "score": 86
+  },
+  {
+   "slug": "fight-at-the-bridge-of-skulls",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fight-at-the-bridge-of-skulls.node.md",
+   "degree": 2,
+   "quotes": 8,
+   "containers": [],
+   "prose_lines": 23,
+   "score": 83
+  },
+  {
+   "slug": "battle-at-the-burning-septry",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-the-burning-septry.node.md",
+   "degree": 5,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 17,
+   "score": 82
+  },
+  {
+   "slug": "wyman-manderly-stages-fake-execution-of-davos",
+   "node_type": "event.deception",
+   "file": "graph/nodes/events/wyman-manderly-stages-fake-execution-of-davos.node.md",
+   "degree": 7,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 82
+  },
+  {
+   "slug": "fight-above-shipbreaker-bay",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fight-above-shipbreaker-bay.node.md",
+   "degree": 6,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 20,
+   "score": 80
+  },
+  {
+   "slug": "battle-at-the-mummers-ford",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-the-mummers-ford.node.md",
+   "degree": 1,
+   "quotes": 9,
+   "containers": [],
+   "prose_lines": 24,
+   "score": 79
+  },
+  {
+   "slug": "dany-lost-on-dothraki-sea",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/dany-lost-on-dothraki-sea.node.md",
+   "degree": 1,
+   "quotes": 6,
+   "containers": [
+    "essos"
+   ],
+   "prose_lines": 19,
+   "score": 79
+  },
+  {
+   "slug": "burning-of-stone-hedge",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/burning-of-stone-hedge.node.md",
+   "degree": 3,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 18,
+   "score": 78
+  },
+  {
+   "slug": "battle-under-the-walls-of-riverrun",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-under-the-walls-of-riverrun.node.md",
+   "degree": 3,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 17,
+   "score": 77
+  },
+  {
+   "slug": "capture-of-harrenhal",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/capture-of-harrenhal.node.md",
+   "degree": 2,
+   "quotes": 8,
+   "containers": [],
+   "prose_lines": 17,
+   "score": 77
+  },
+  {
+   "slug": "robb-receives-false-news-of-brans-death",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/robb-receives-false-news-of-brans-death.node.md",
+   "degree": 3,
+   "quotes": 3,
+   "containers": [
+    "wo5k"
+   ],
+   "prose_lines": 11,
+   "score": 76
+  },
+  {
+   "slug": "siege-of-moat-cailin",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-moat-cailin.node.md",
+   "degree": 2,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 24,
+   "score": 74
+  },
+  {
+   "slug": "sea-battle-off-fair-isle",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/sea-battle-off-fair-isle.node.md",
+   "degree": 1,
+   "quotes": 8,
+   "containers": [],
+   "prose_lines": 22,
+   "score": 72
+  },
+  {
+   "slug": "battle-of-ashford",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-ashford.node.md",
+   "degree": 6,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 71
+  },
+  {
+   "slug": "lord-alyns-attack",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/lord-alyns-attack.node.md",
+   "degree": 2,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 21,
+   "score": 71
+  },
+  {
+   "slug": "taking-of-deepwood-motte",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/taking-of-deepwood-motte.node.md",
+   "degree": 2,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 21,
+   "score": 71
+  },
+  {
+   "slug": "taking-of-gulltown",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/taking-of-gulltown.node.md",
+   "degree": 4,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 15,
+   "score": 70
+  },
+  {
+   "slug": "wedding-of-tommen-i-baratheon-and-margaery-tyrell",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-tommen-i-baratheon-and-margaery-tyrell.node.md",
+   "degree": 5,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 19,
+   "score": 69
+  },
+  {
+   "slug": "fighting-in-the-hornwood",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fighting-in-the-hornwood.node.md",
+   "degree": 1,
+   "quotes": 7,
+   "containers": [],
+   "prose_lines": 23,
+   "score": 68
+  },
+  {
+   "slug": "siege-of-dragonstone",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-dragonstone.node.md",
+   "degree": 2,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 17,
+   "score": 67
+  },
+  {
+   "slug": "karstark-host-deserts-robb",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/karstark-host-deserts-robb.node.md",
+   "degree": 2,
+   "quotes": 3,
+   "containers": [
+    "wo5k"
+   ],
+   "prose_lines": 11,
+   "score": 66
+  },
+  {
+   "slug": "battle-by-the-lakeshore",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-by-the-lakeshore.node.md",
+   "degree": 3,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 18,
+   "score": 63
+  },
+  {
+   "slug": "fall-of-dragonstone",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fall-of-dragonstone.node.md",
+   "degree": 5,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 61
+  },
+  {
+   "slug": "butchers-ball",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/butchers-ball.node.md",
+   "degree": 1,
+   "quotes": 5,
+   "containers": [],
+   "prose_lines": 25,
+   "score": 60
+  },
+  {
+   "slug": "seizure-of-westerlands-gold-mines",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/seizure-of-westerlands-gold-mines.node.md",
+   "degree": 3,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 57
+  },
+  {
+   "slug": "stannis-retreats-to-dragonstone",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/stannis-retreats-to-dragonstone.node.md",
+   "degree": 3,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 56
+  },
+  {
+   "slug": "fighting-at-sows-horn",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fighting-at-sows-horn.node.md",
+   "degree": 1,
+   "quotes": 6,
+   "containers": [],
+   "prose_lines": 15,
+   "score": 55
+  },
+  {
+   "slug": "the-dragons-wroth",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/the-dragons-wroth.node.md",
+   "degree": 5,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 55
+  },
+  {
+   "slug": "the-sowing",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/the-sowing.node.md",
+   "degree": 5,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 55
+  },
+  {
+   "slug": "aegon-the-uncrowneds-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/aegon-the-uncrowneds-rebellion.node.md",
+   "degree": 4,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 13,
+   "score": 53
+  },
+  {
+   "slug": "incident-at-the-trident",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/incident-at-the-trident.node.md",
+   "degree": 5,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 52
+  },
+  {
+   "slug": "wedding-of-robert-i-baratheon-and-cersei-lannister",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/wedding-of-robert-i-baratheon-and-cersei-lannister.node.md",
+   "degree": 1,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 32,
+   "score": 52
+  },
+  {
+   "slug": "battles-at-summerhall",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battles-at-summerhall.node.md",
+   "degree": 4,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 51
+  },
+  {
+   "slug": "coronation-of-robert-i-baratheon",
+   "node_type": "event.coronation",
+   "file": "graph/nodes/events/coronation-of-robert-i-baratheon.node.md",
+   "degree": 2,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 20,
+   "score": 50
+  },
+  {
+   "slug": "rape-of-the-three-sisters",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/rape-of-the-three-sisters.node.md",
+   "degree": 2,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 15,
+   "score": 50
+  },
+  {
+   "slug": "great-council",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/great-council.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 39,
+   "score": 49
+  },
+  {
+   "slug": "fourth-blackfyre-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/fourth-blackfyre-rebellion.node.md",
+   "degree": 4,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 48
+  },
+  {
+   "slug": "wedding-of-renly-baratheon-and-margaery-tyrell",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-renly-baratheon-and-margaery-tyrell.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 18,
+   "score": 48
+  },
+  {
+   "slug": "battle-of-wendwater-bridge",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-wendwater-bridge.node.md",
+   "degree": 4,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 47
+  },
+  {
+   "slug": "invasion-of-the-arbor",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/invasion-of-the-arbor.node.md",
+   "degree": 1,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 22,
+   "score": 47
+  },
+  {
+   "slug": "peake-uprising",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/peake-uprising.node.md",
+   "degree": 4,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 47
+  },
+  {
+   "slug": "wedding-of-petyr-baelish-and-lysa-arryn",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-petyr-baelish-and-lysa-arryn.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 17,
+   "score": 47
+  },
+  {
+   "slug": "alyssa-dismisses-rogar-as-hand",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/alyssa-dismisses-rogar-as-hand.node.md",
+   "degree": 4,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 45
+  },
+  {
+   "slug": "century-of-blood",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/century-of-blood.node.md",
+   "degree": 4,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 45
+  },
+  {
+   "slug": "daughters-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/daughters-war.node.md",
+   "degree": 1,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 20,
+   "score": 45
+  },
+  {
+   "slug": "great-ranging",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/great-ranging.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [
+    "north"
+   ],
+   "prose_lines": 15,
+   "score": 45
+  },
+  {
+   "slug": "battle-at-lordsport",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-lordsport.node.md",
+   "degree": 1,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 16,
+   "score": 41
+  },
+  {
+   "slug": "great-spring-sickness",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/great-spring-sickness.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 41
+  },
+  {
+   "slug": "second-spice-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/second-spice-war.node.md",
+   "degree": 1,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 16,
+   "score": 41
+  },
+  {
+   "slug": "siege-of-darry",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-darry.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 41
+  },
+  {
+   "slug": "aemonds-march-on-harrenhal",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/aemonds-march-on-harrenhal.node.md",
+   "degree": 1,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 15,
+   "score": 40
+  },
+  {
+   "slug": "marriage",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/marriage.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 54,
+   "score": 40
+  },
+  {
+   "slug": "tourney-at-ashford-meadow",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-at-ashford-meadow.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 61,
+   "score": 40
+  },
+  {
+   "slug": "fall-of-raventree-hall",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fall-of-raventree-hall.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 39
+  },
+  {
+   "slug": "liberation-of-stone-hedge",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/liberation-of-stone-hedge.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 39
+  },
+  {
+   "slug": "sack-of-darry",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/sack-of-darry.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 39
+  },
+  {
+   "slug": "siege-of-longtable",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-longtable.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 39
+  },
+  {
+   "slug": "storming-of-seagard",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/storming-of-seagard.node.md",
+   "degree": 1,
+   "quotes": 3,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 39
+  },
+  {
+   "slug": "yielding-of-harrenhal",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/yielding-of-harrenhal.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 39
+  },
+  {
+   "slug": "battle-at-acorn-hall",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-acorn-hall.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "burning-of-pinkmaiden-castle",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/burning-of-pinkmaiden-castle.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "capture-of-darry",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/capture-of-darry.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "fall-of-mistwood",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fall-of-mistwood.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [
+    "aegon"
+   ],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "first-sack-of-maidenpool",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/first-sack-of-maidenpool.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "frey-witnesses-attest-davos-dead-at-small-council",
+   "node_type": "event.deception",
+   "file": "graph/nodes/events/frey-witnesses-attest-davos-dead-at-small-council.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "invasion-of-tarth",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/invasion-of-tarth.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [
+    "aegon"
+   ],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "list-of-characters-and-arms-in-the-hedge-knight-graphic-novel-collection",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/list-of-characters-and-arms-in-the-hedge-knight-graphic-novel-collection.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 38,
+   "score": 38
+  },
+  {
+   "slug": "raiding-along-the-westerlands-coast",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/raiding-along-the-westerlands-coast.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "recapture-of-darry",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/recapture-of-darry.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 38
+  },
+  {
+   "slug": "lord-wyl-conquest-of-dorne",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/lord-wyl-conquest-of-dorne.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 37
+  },
+  {
+   "slug": "accord-of-storms-end",
+   "node_type": "event.council",
+   "file": "graph/nodes/events/accord-of-storms-end.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 35
+  },
+  {
+   "slug": "gathering-of-the-lords",
+   "node_type": "event.council",
+   "file": "graph/nodes/events/gathering-of-the-lords.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 35
+  },
+  {
+   "slug": "liberation-of-raventree-hall",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/liberation-of-raventree-hall.node.md",
+   "degree": 3,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 34
+  },
+  {
+   "slug": "long-night",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/long-night.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 24,
+   "score": 34
+  },
+  {
+   "slug": "wedding-of-roose-bolton-and-walda-frey",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-roose-bolton-and-walda-frey.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 34
+  },
+  {
+   "slug": "tourney-grounds-kings-landing",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-grounds-kings-landing.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 23,
+   "score": 33
+  },
+  {
+   "slug": "aegons-first-test",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/aegons-first-test.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 32
+  },
+  {
+   "slug": "aerys-demands-ned-and-robert",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/aerys-demands-ned-and-robert.node.md",
+   "degree": 2,
+   "quotes": 1,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 32
+  },
+  {
+   "slug": "execution-of-brandon-and-rickard-stark",
+   "node_type": "event.execution",
+   "file": "graph/nodes/events/execution-of-brandon-and-rickard-stark.node.md",
+   "degree": 2,
+   "quotes": 1,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 32
+  },
+  {
+   "slug": "second-siege-of-meereen",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/second-siege-of-meereen.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 31
+  },
+  {
+   "slug": "doom-of-valyria",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/doom-of-valyria.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 30,
+   "score": 30
+  },
+  {
+   "slug": "harvest-feast-299",
+   "node_type": "event.feast",
+   "file": "graph/nodes/events/harvest-feast-299.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 30
+  },
+  {
+   "slug": "second-dornish-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/second-dornish-war.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 30
+  },
+  {
+   "slug": "third-blackfyre-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/third-blackfyre-rebellion.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 30
+  },
+  {
+   "slug": "wedding-of-sigorn-and-alys-karstark",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-sigorn-and-alys-karstark.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 20,
+   "score": 30
+  },
+  {
+   "slug": "wedding-of-tyrek-lannister-and-ermesande-hayford",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-tyrek-lannister-and-ermesande-hayford.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 30
+  },
+  {
+   "slug": "wedding-of-walder-frey-and-joyeuse-erenford",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-walder-frey-and-joyeuse-erenford.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 30
+  },
+  {
+   "slug": "fair-isle-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/fair-isle-rebellion.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 29
+  },
+  {
+   "slug": "tywin-named-savior-of-the-city",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/tywin-named-savior-of-the-city.node.md",
+   "degree": 1,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 29
+  },
+  {
+   "slug": "execution-of-davos-lookalike-at-white-harbor",
+   "node_type": "event.execution",
+   "file": "graph/nodes/events/execution-of-davos-lookalike-at-white-harbor.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 28
+  },
+  {
+   "slug": "restoration-of-aerea-to-rhaena",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/restoration-of-aerea-to-rhaena.node.md",
+   "degree": 1,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 28
+  },
+  {
+   "slug": "winter-of-59-60-ac",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/winter-of-59-60-ac.node.md",
+   "degree": 1,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 28
+  },
+  {
+   "slug": "tourney-at-lannisport",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-at-lannisport.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 27
+  },
+  {
+   "slug": "aegon-the-uncrowned-seizes-kings-landing",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/aegon-the-uncrowned-seizes-kings-landing.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "aegons-reprisal-on-the-wyls",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/aegons-reprisal-on-the-wyls.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "jacaerys-wins-the-vale",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/jacaerys-wins-the-vale.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "martial-games",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/martial-games.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 25,
+   "score": 25
+  },
+  {
+   "slug": "mysarias-accusation",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/mysarias-accusation.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "opposition-to-the-myrielle-betrothal",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/opposition-to-the-myrielle-betrothal.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "rego-draz-secures-three-foreign-loans",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/rego-draz-secures-three-foreign-loans.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "storms-scatter-the-sun-chasers-fleet",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/storms-scatter-the-sun-chasers-fleet.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "unwin-peake-named-to-council-of-regents",
+   "node_type": "event.appointment",
+   "file": "graph/nodes/events/unwin-peake-named-to-council-of-regents.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 25
+  },
+  {
+   "slug": "battle-of-the-seven-stars",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-seven-stars.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 24
+  },
+  {
+   "slug": "vulture-hunt",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/vulture-hunt.node.md",
+   "degree": 2,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 24
+  },
+  {
+   "slug": "arianne-i-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/arianne-i-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 13,
+   "score": 23
+  },
+  {
+   "slug": "wedding-of-stannis-baratheon-and-selyse-florent",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-stannis-baratheon-and-selyse-florent.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 23,
+   "score": 23
+  },
+  {
+   "slug": "battle-at-the-horns-of-hazzat",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-the-horns-of-hazzat.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 22
+  },
+  {
+   "slug": "battle-in-the-ice",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-in-the-ice.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 22
+  },
+  {
+   "slug": "battle-on-whispering-sound",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-on-whispering-sound.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 22
+  },
+  {
+   "slug": "unkiss",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/unkiss.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 22,
+   "score": 22
+  },
+  {
+   "slug": "battle-at-kayce",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-kayce.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 21
+  },
+  {
+   "slug": "fight-at-torrhens-square",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fight-at-torrhens-square.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 21
+  },
+  {
+   "slug": "siege-of-seagard",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/siege-of-seagard.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 21
+  },
+  {
+   "slug": "storming-of-starpike",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/storming-of-starpike.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 21
+  },
+  {
+   "slug": "burning-of-sows-horn",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/burning-of-sows-horn.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 20
+  },
+  {
+   "slug": "fighting-on-the-khyzai-pass",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fighting-on-the-khyzai-pass.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 20
+  },
+  {
+   "slug": "retaking-of-rooks-rest",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/retaking-of-rooks-rest.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 20
+  },
+  {
+   "slug": "wedding-of-lyonel-corbray-and-lady-corbray",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-lyonel-corbray-and-lady-corbray.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 20
+  },
+  {
+   "slug": "capture-of-torrhens-square",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/capture-of-torrhens-square.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 19
+  },
+  {
+   "slug": "field-of-crows",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/field-of-crows.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 19
+  },
+  {
+   "slug": "hunt-of-the-poor-fellows",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/hunt-of-the-poor-fellows.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 19
+  },
+  {
+   "slug": "third-sack-of-maidenpool",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/third-sack-of-maidenpool.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 19
+  },
+  {
+   "slug": "battle-for-the-dawn",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-for-the-dawn.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 18
+  },
+  {
+   "slug": "breaking",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/breaking.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 18
+  },
+  {
+   "slug": "feast-in-honor-of-king-roberts-visit-to-winterfell",
+   "node_type": "event.feast",
+   "file": "graph/nodes/events/feast-in-honor-of-king-roberts-visit-to-winterfell.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 18,
+   "score": 18
+  },
+  {
+   "slug": "second-sack-of-maidenpool",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/second-sack-of-maidenpool.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 18
+  },
+  {
+   "slug": "tourney-on-prince-joffreys-name-day",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-on-prince-joffreys-name-day.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 18,
+   "score": 18
+  },
+  {
+   "slug": "battle-of-tumbleton",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-tumbleton.node.md",
+   "degree": 0,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 17
+  },
+  {
+   "slug": "ambush-on-the-wendwater",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/ambush-on-the-wendwater.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 6,
+   "score": 16
+  },
+  {
+   "slug": "rhoynish-wars",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/rhoynish-wars.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 6,
+   "score": 16
+  },
+  {
+   "slug": "taking-of-maidenpool",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/taking-of-maidenpool.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 6,
+   "score": 16
+  },
+  {
+   "slug": "aemonds-burning-of-the-riverlands",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/aemonds-burning-of-the-riverlands.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "aenys-bequeaths-blackfyre-to-maegor",
+   "node_type": "event.decree",
+   "file": "graph/nodes/events/aenys-bequeaths-blackfyre-to-maegor.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "barth-passes-mattheus-at-bitterbridge",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/barth-passes-mattheus-at-bitterbridge.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "betrothal-of-alysanne-to-orryn-baratheon",
+   "node_type": "event.betrothal",
+   "file": "graph/nodes/events/betrothal-of-alysanne-to-orryn-baratheon.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "death-of-prince-valerion",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/death-of-prince-valerion.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "death-of-the-infant-baelon",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/death-of-the-infant-baelon.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "dragonpit-construction-resumes",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/dragonpit-construction-resumes.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "extinction-of-house-strong-at-harrenhal",
+   "node_type": "event.execution",
+   "file": "graph/nodes/events/extinction-of-house-strong-at-harrenhal.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "famine-of-59-60-ac",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/famine-of-59-60-ac.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "founder-of-the-autumn-moon",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/founder-of-the-autumn-moon.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "great-fire-in-the-disputed-lands",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/great-fire-in-the-disputed-lands.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "lucas-harroway-made-hand",
+   "node_type": "event.appointment",
+   "file": "graph/nodes/events/lucas-harroway-made-hand.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "lyonel-baratheons-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/lyonel-baratheons-rebellion.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 15,
+   "score": 15
+  },
+  {
+   "slug": "maidens-day-curse",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/maidens-day-curse.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "nymors-letter-to-aegon",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/nymors-letter-to-aegon.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "realm-does-not-rise-against-the-marriage",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/realm-does-not-rise-against-the-marriage.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "renaming-of-snowgate-as-queensgate",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/renaming-of-snowgate-as-queensgate.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "sack-of-the-celtigar-manse",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/sack-of-the-celtigar-manse.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "submission-of-sunspear",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/submission-of-sunspear.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "the-ride-of-the-seven",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/the-ride-of-the-seven.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "weddings-of-catelyn-and-lysa-tully",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/weddings-of-catelyn-and-lysa-tully.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 15,
+   "score": 15
+  },
+  {
+   "slug": "winter-fever-reaches-barrowton",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/winter-fever-reaches-barrowton.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "winter-of-the-widows",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/winter-of-the-widows.node.md",
+   "degree": 0,
+   "quotes": 2,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "yielding-of-rosby",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/yielding-of-rosby.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 15
+  },
+  {
+   "slug": "attack-on-old-wyk",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/attack-on-old-wyk.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "barristan-ii-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/barristan-ii-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 14
+  },
+  {
+   "slug": "battle-at-black-bog",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-black-bog.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "battle-of-bronzegate",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-bronzegate.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "battle-of-crookwater",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-crookwater.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "battle-of-the-weeping-water",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-weeping-water.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "battle-on-the-river-slayne",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-on-the-river-slayne.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "landing-on-great-wyk",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/landing-on-great-wyk.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "shadow-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/shadow-war.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 14
+  },
+  {
+   "slug": "three-thousand-of-qohor",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/three-thousand-of-qohor.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 14
+  },
+  {
+   "slug": "wedding-of-maron-martell-and-daenerys-targaryen",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-maron-martell-and-daenerys-targaryen.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 14,
+   "score": 14
+  },
+  {
+   "slug": "age-of-heroes",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/age-of-heroes.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 3,
+   "score": 13
+  },
+  {
+   "slug": "anarchy-in-the-reach",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/anarchy-in-the-reach.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 13,
+   "score": 13
+  },
+  {
+   "slug": "sandor-cleganes-trial-by-combat",
+   "node_type": "event.trial",
+   "file": "graph/nodes/events/sandor-cleganes-trial-by-combat.node.md",
+   "degree": 1,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 3,
+   "score": 13
+  },
+  {
+   "slug": "long-night-that-never-ends",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/long-night-that-never-ends.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 12
+  },
+  {
+   "slug": "tourney",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 12,
+   "score": 12
+  },
+  {
+   "slug": "winter-tourney-at-kings-landing",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/winter-tourney-at-kings-landing.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 11,
+   "score": 11
+  },
+  {
+   "slug": "double-wedding-at-casterly-rock",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/double-wedding-at-casterly-rock.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 10
+  },
+  {
+   "slug": "m-l-e-at-runestone",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/m-l-e-at-runestone.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 10
+  },
+  {
+   "slug": "third-battle-of-the-boneway",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/third-battle-of-the-boneway.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 10
+  },
+  {
+   "slug": "war-of-the-wombs",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-of-the-wombs.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 10,
+   "score": 10
+  },
+  {
+   "slug": "battle-at-fairmarket",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-fairmarket.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 9
+  },
+  {
+   "slug": "battle-at-long-lake",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-at-long-lake.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 9
+  },
+  {
+   "slug": "battle-of-six-kings",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-six-kings.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 9
+  },
+  {
+   "slug": "jonos-arryns-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/jonos-arryns-rebellion.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 9
+  },
+  {
+   "slug": "struggle-for-power-in-the-iron-islands",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/struggle-for-power-in-the-iron-islands.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 9,
+   "score": 9
+  },
+  {
+   "slug": "first-turtle-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/first-turtle-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 8
+  },
+  {
+   "slug": "lodos-the-twice-drowneds-revolt",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/lodos-the-twice-drowneds-revolt.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 8
+  },
+  {
+   "slug": "lord-steffons-tourney",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/lord-steffons-tourney.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 8
+  },
+  {
+   "slug": "mercy-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/mercy-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 8
+  },
+  {
+   "slug": "sack-of-tyrosh",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/sack-of-tyrosh.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 8
+  },
+  {
+   "slug": "tournament-in-honor-of-viseryss-birth",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tournament-in-honor-of-viseryss-birth.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 8
+  },
+  {
+   "slug": "tourney-at-duskendale-in-honor-of-lord-darklyns-wedding",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-at-duskendale-in-honor-of-lord-darklyns-wedding.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 8,
+   "score": 8
+  },
+  {
+   "slug": "barristan-i-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/barristan-i-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 7
+  },
+  {
+   "slug": "battle-of-the-borderland",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-borderland.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 7
+  },
+  {
+   "slug": "nymerias-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/nymerias-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 7
+  },
+  {
+   "slug": "the-forsaken-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/the-forsaken-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 7
+  },
+  {
+   "slug": "theon-i-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/theon-i-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 7
+  },
+  {
+   "slug": "tyrion-ii-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/tyrion-ii-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 7
+  },
+  {
+   "slug": "war-of-the-first-men-and-the-children-of-the-forest",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-of-the-first-men-and-the-children-of-the-forest.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 7,
+   "score": 7
+  },
+  {
+   "slug": "master-of-the-games",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/master-of-the-games.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 6,
+   "score": 6
+  },
+  {
+   "slug": "pretenders-claiming-to-be-prince-daeron-the-daring",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/pretenders-claiming-to-be-prince-daeron-the-daring.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 6,
+   "score": 6
+  },
+  {
+   "slug": "wars-of-conquest",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/wars-of-conquest.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 6,
+   "score": 6
+  },
+  {
+   "slug": "anniversary-tourney",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/anniversary-tourney.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "attack-on-sunfyre-at-rooks-rest",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/attack-on-sunfyre-at-rooks-rest.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "battle-of-three-armies",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-three-armies.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "bracken-and-blackwood-sons-duel-over-rhaenyra",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/bracken-and-blackwood-sons-duel-over-rhaenyra.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "capture-of-nightsong",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/capture-of-nightsong.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "completion-of-the-dragonpit",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/completion-of-the-dragonpit.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "death-of-dreamfyre",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/death-of-dreamfyre.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "death-of-high-septon-jaehaerys-i",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/death-of-high-septon-jaehaerys-i.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "death-of-lady-mysaria",
+   "node_type": "event.execution",
+   "file": "graph/nodes/events/death-of-lady-mysaria.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "death-of-morghul",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/death-of-morghul.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "death-of-ser-horys-hill",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/death-of-ser-horys-hill.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "execution-of-maegors-headsman-and-gaolers",
+   "node_type": "event.execution",
+   "file": "graph/nodes/events/execution-of-maegors-headsman-and-gaolers.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "execution-of-torons-mother",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/execution-of-torons-mother.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "fifth-anniversary-tourney-greens-and-blacks-named",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/fifth-anniversary-tourney-greens-and-blacks-named.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "hanging-of-the-would-be-rescuers",
+   "node_type": "event.execution",
+   "file": "graph/nodes/events/hanging-of-the-would-be-rescuers.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "harrenhal-melee",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/harrenhal-melee.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "master-of-revels",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/master-of-revels.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "poisoning-of-four-poor-fellows",
+   "node_type": "event.death",
+   "file": "graph/nodes/events/poisoning-of-four-poor-fellows.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "scouring-of-lorath",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/scouring-of-lorath.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "the-sowing-of-the-seeds-red-sowing",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/the-sowing-of-the-seeds-red-sowing.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "unmasking-of-uthero",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/unmasking-of-uthero.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "wedding-of-aemon-and-jocelyn",
+   "node_type": "event.wedding",
+   "file": "graph/nodes/events/wedding-of-aemon-and-jocelyn.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 5,
+   "score": 5
+  },
+  {
+   "slug": "arianne-ii-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/arianne-ii-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-bitter-river",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-bitter-river.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-bridge-of-skulls",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-bridge-of-skulls.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-crag",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-crag.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-fist-of-the-first-men",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-fist-of-the-first-men.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-fords-of-the-trident",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-fords-of-the-trident.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-golden-tooth",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-golden-tooth.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-last-storm",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-last-storm.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-ruby-ford",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-ruby-ford.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-shield-islands",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-shield-islands.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-the-stony-shore",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-the-stony-shore.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-torrhens-square",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-torrhens-square.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-winterfell",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-winterfell.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-of-yunkai",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-of-yunkai.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "blood-betrayal",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/blood-betrayal.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "famine-winter",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/famine-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "mutiny-at-castle-black",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/mutiny-at-castle-black.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "tourney-on-king-joffreys-name-day",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-on-king-joffreys-name-day.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 4,
+   "score": 4
+  },
+  {
+   "slug": "battle-by-the-bloody-pool",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-by-the-bloody-pool.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 3,
+   "score": 3
+  },
+  {
+   "slug": "ghiscari-wars",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/ghiscari-wars.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 3,
+   "score": 3
+  },
+  {
+   "slug": "sack-of-qohor",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/sack-of-qohor.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 3,
+   "score": 3
+  },
+  {
+   "slug": "thousand-years-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/thousand-years-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 3,
+   "score": 3
+  },
+  {
+   "slug": "war-of-the-wolves",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-of-the-wolves.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 3,
+   "score": 3
+  },
+  {
+   "slug": "alayne-i-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/alayne-i-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "ashford-tourney",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/ashford-tourney.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "battle-in-the-howling-hills",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/battle-in-the-howling-hills.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "blackfyre-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/blackfyre-rebellion.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "dornish-wars",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/dornish-wars.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "dragons-wars",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/dragons-wars.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "dry-times",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/dry-times.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "feast-of-skane",
+   "node_type": "event.feast",
+   "file": "graph/nodes/events/feast-of-skane.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "fishermans-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/fishermans-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "list-of-tourneys-in-westeros",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/list-of-tourneys-in-westeros.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "lodos-the-twice-drowneds-rebellion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/lodos-the-twice-drowneds-rebellion.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "m-l-e-at-last-hearth",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/m-l-e-at-last-hearth.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "pact",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/pact.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "regent-wars",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/regent-wars.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "rhoynar-invasion",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/rhoynar-invasion.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "salt-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/salt-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "second-turtle-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/second-turtle-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "spice-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/spice-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "targaryen-conquest",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/targaryen-conquest.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "third-turtle-war",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/third-turtle-war.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "tourney-at-maidenpool",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-at-maidenpool.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "tourney-at-storms-end",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-at-storms-end.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "tourney-for-king-aerys-ii",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-for-king-aerys-ii.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "tourney-for-king-joffreys-13th-name-day",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-for-king-joffreys-13th-name-day.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "tourney-for-prince-joffreys-12th-name-day",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-for-prince-joffreys-12th-name-day.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "tourney-of-the-field-of-roses",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/tourney-of-the-field-of-roses.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "victarion-i-the-winds-of-winter",
+   "node_type": "meta.chapter",
+   "file": "graph/nodes/events/victarion-i-the-winds-of-winter.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "war-of-three-princes",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-of-three-princes.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "war-on-dagger-lake",
+   "node_type": "event.war",
+   "file": "graph/nodes/events/war-on-dagger-lake.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  },
+  {
+   "slug": "wedding-tourney-at-whitewalls",
+   "node_type": "event.tournament",
+   "file": "graph/nodes/events/wedding-tourney-at-whitewalls.node.md",
+   "degree": 0,
+   "quotes": 0,
+   "containers": [],
+   "prose_lines": 2,
+   "score": 2
+  }
+ ]
+}

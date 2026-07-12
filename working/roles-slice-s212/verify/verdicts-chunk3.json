@@ -1,0 +1,345 @@
+{
+  "_meta": {
+    "slice": "roles",
+    "checked": 56,
+    "verifier_model": "haiku"
+  },
+  "verdicts": [
+    {
+      "id": "R3-01",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-02",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-03",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-04",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-05",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-06",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-07",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-08",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-09",
+      "verdict": "PROBLEM",
+      "reason": "wrong-role-type",
+      "note": "Quote shows Thaddeus is tortured/coerced (\"bruised and swollen\", \"pricked...with dagger\"), not actively participating. PARTICIPATES_IN requires \"non-combat active involvement\"; torture under coercion is passive suffering, not active involvement. Proposal notes acknowledge harm-gate blocks VICTIM_IN despite torture."
+    },
+    {
+      "id": "R3-10",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-11",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-12",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-13",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-14",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-15",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-16",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-17",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-18",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-19",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-20",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-21",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-22",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-23",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-24",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-25",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-26",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-27",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-28",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-29",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-30",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-31",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-32",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-33",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-34",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-35",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-36",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-37",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-38",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-39",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-40",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-41",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-42",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-43",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-44",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-45",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-46",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-47",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-48",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-49",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-50",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-51",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-52",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-53",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-54",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-55",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    },
+    {
+      "id": "R3-56",
+      "verdict": "CONFIRM",
+      "reason": "",
+      "note": ""
+    }
+  ]
+}
