@@ -22,6 +22,9 @@
         </div>
       </div>
       <div class="head-actions">
+        <button class="save-toggle" id="new-chat" type="button" style="display:none">
+          New
+        </button>
         <button class="save-toggle" id="save-toggle" type="button" disabled>
           Save
         </button>
@@ -93,7 +96,11 @@
       <div class="thread" id="thread"><!-- bubbles injected here --></div>
 
       <form class="composer" id="composer" autocomplete="off">
-        <div class="persona-switch" id="persona-switch" role="group" aria-label="Answer voice">
+        <!-- Persona switch PARKED (Matt, 2026-07-12 / S213): Loremaster is the sole
+             live voice for now. The Bloodraven persona + this markup stay intact —
+             restore by removing the display:none. app.js keeps the machinery but
+             forces loremaster while parked. -->
+        <div class="persona-switch" id="persona-switch" role="group" aria-label="Answer voice" style="display:none">
           <span class="persona-label">voice</span>
           <button type="button" class="persona-opt is-active" data-persona="loremaster" aria-pressed="true">Loremaster</button>
           <button type="button" class="persona-opt" data-persona="bloodraven" aria-pressed="false">Bloodraven</button>

@@ -80,7 +80,9 @@ function prettyCite(ref) {
   const s = String(ref || "").replace(/`/g, "").trim();
   if (!s) return "";
   const file = s.split("/").pop();
-  const m = file.match(/^([a-z0-9]+)-(.+)-(\d+)\.md(?::\d+)?$/i);
+  // `-pNN` is the multi-part suffix on long F&B chapter files
+  // (fab-the-blacks-and-the-greens-16-p02.md) — fold parts into one label.
+  const m = file.match(/^([a-z0-9]+)-(.+)-(\d+)(?:-p\d+)?\.md(?::\d+)?$/i);
   if (!m) return s.replace(/^sources\/chapters\//, "");
   const pov = m[2].split("-").map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w)).join(" ");
   return `${m[1].toUpperCase()} ${pov} ${Number(m[3])}`;
@@ -356,9 +358,17 @@ function proseSection(heading, text) {
     .map((p) => cleanQuote(p))
     .filter(Boolean);
   if (!paras.length) return false;
+  // `### Sub-header` lines survive in some node body sections (wiki-derived
+  // markdown) — render them as styled sub-labels, never as literal "###" text
+  // (S213 dossier polish; spotted on Criston Cole's "### Early life").
+  const blocks = paras.map((p) => {
+    const mh = p.match(/^#{2,4}\s+(.+)$/);
+    if (mh) return el("div", { class: "dossier-sub" }, mh[1]);
+    return el("p", { class: "arc-text" }, p.replace(/^#{2,4}\s+/gm, ""));
+  });
   return el("div", { class: "dossier-arc" }, [
     el("div", { class: "dossier-sub" }, heading),
-    ...paras.map((p) => el("p", { class: "arc-text" }, p)),
+    ...blocks,
   ]);
 }
 
@@ -385,7 +395,10 @@ let showPre = localStorage.getItem("weirwood-show-pre") === "1";
 
 // Answer voice: loremaster (dry, factual — the default) or bloodraven (atmospheric).
 // Sticky across turns; sent to /api/chat so the backend picks the system prompt.
-let persona = localStorage.getItem("weirwood-persona") === "bloodraven" ? "bloodraven" : "loremaster";
+// PARKED (Matt, 2026-07-12 / S213): Bloodraven is parked — the toggle is hidden in
+// index.html and the stored choice is ignored; loremaster is the sole live voice.
+// Restore by reverting this line to read localStorage and unhiding the switch.
+let persona = "loremaster";
 const personaLabel = () => (persona === "bloodraven" ? "the three-eyed raven" : "the loremaster");
 
 // How many causal-spine links touch each node slug (drives the `·N` degree badge).
@@ -606,6 +619,10 @@ async function openDossier(slug, fallbackName) {
       // the generic "no quotes" line with more emptiness, a fully-thin node
       // gets ONE quiet explanatory line instead.
       const isThin = !overviewIdentity && !hasQuotes && !proseSections.length && !arcSection;
+      // Card order (Matt, S213 phone testing): description FIRST — overview, then
+      // the node's prose sections — and the curated quotes UNDERNEATH as one
+      // labelled group. Leading with bare quotes read as "random quotes" on
+      // mobile whenever the overview was empty. Arc stays last (longest).
       children = [
         el("div", { class: "dossier-head" }, [
           el("h3", {}, node.name || label),
@@ -617,14 +634,12 @@ async function openDossier(slug, fallbackName) {
               el("p", { class: "dossier-identity" }, overviewIdentity),
             ])
           : false,
+        ...proseSections,
         isThin
           ? el("p", { class: "dossier-empty" }, "No prose recorded for this entry — it appears in the graph through its connections.")
           : (hasQuotes
             ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
             : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet.")),
-        // The node's fuller record (S194): every reader-facing body section the
-        // graph holds for it, then the narrative arc last (it's the longest).
-        ...proseSections,
         arcSection,
       ];
     }
@@ -671,26 +686,37 @@ function resolveCard(phrase, cands) {
 const SEARCH_CARD_CAP = 6;
 function searchCard(s) {
   const hits = s.hits.slice(0, SEARCH_CARD_CAP);
-  const rows = hits
+  // Dedupe identical passages within one card (Matt, S212/S213: the same AGOT
+  // Sansa line rendered in full under BOTH the `bread` and `cheese` chips —
+  // two nodes citing one line). Group hits by normalized text+cite; the first
+  // hit renders the passage, later hits just add their chip to its header.
+  const groups = [];
+  const byPassage = new Map();
+  for (const h of hits
     // Defense-in-depth (S210 advisory-board follow-up): identity-kind hits
     // (no `cite` — only quote hits carry one, see search.ts hydrateText())
     // should never carry the stripped "from the AWOIAF wiki" boilerplate,
     // but a future emitter regression could reintroduce it before pytest's
     // guard test (tests/test_no_wiki_boilerplate.py) catches it. Same check
     // the dossier uses (isWikiBoilerplate) — skip the hit here too.
-    .filter((h) => h.cite || !isWikiBoilerplate(h.text))
-    .map((h) =>
-      el("div", { class: "search-hit" }, [
-        el("div", { class: "search-hit-head" }, [
-          nodeChip(h.slug, bestName(h.slug), h.type),
-          h.type ? el("span", { class: "node-type" }, prettyType(h.type)) : false,
-        ]),
-        h.text
-          ? (h.cite
-            ? bookQuote(h.text, null, h.cite)
-            : el("p", { class: "search-blurb" }, cleanQuote(h.text)))
-          : false,
-      ]));
+    .filter((h) => h.cite || !isWikiBoilerplate(h.text))) {
+    const key = `${h.cite || ""}|${cleanQuote(h.text || "")}`;
+    const g = byPassage.get(key);
+    if (g && h.text) g.hits.push(h);
+    else { const ng = { first: h, hits: [h] }; byPassage.set(key, ng); groups.push(ng); }
+  }
+  const rows = groups.map(({ first: h, hits: members }) =>
+    el("div", { class: "search-hit" }, [
+      el("div", { class: "search-hit-head" }, [
+        ...members.map((m) => nodeChip(m.slug, bestName(m.slug), m.type)),
+        h.type ? el("span", { class: "node-type" }, prettyType(h.type)) : false,
+      ]),
+      h.text
+        ? (h.cite
+          ? bookQuote(h.text, null, h.cite)
+          : el("p", { class: "search-blurb" }, cleanQuote(h.text)))
+        : false,
+    ]));
   const more = s.hits.length - hits.length;
   return el("div", { class: "card" }, [
     cardKind("❝", "passages consulted", `${s.hits.length} hit${s.hits.length === 1 ? "" : "s"}`),
@@ -1145,13 +1171,30 @@ const MAX_HISTORY = 8;
 // a thread runs long. Never trimmed; never sent to the API.
 const transcript = [];
 
+// ---- Thread persistence (Matt, S213 phone testing) --------------------------
+// Mobile Safari discards the page on a tab switch, losing the conversation.
+// Persist the thread to localStorage after every turn; restore on load (bubbles
+// re-render from the stored raw prose — receipts are turn-scoped and not kept).
+// The "New" header button clears the stored thread and reloads clean.
+const THREAD_STORE_KEY = "weirwood-thread-v1";
+
+function persistThread() {
+  try {
+    localStorage.setItem(THREAD_STORE_KEY, JSON.stringify({ history, transcript }));
+  } catch { /* storage full/blocked — persistence is best-effort */ }
+}
+
+function clearThreadStore() {
+  try { localStorage.removeItem(THREAD_STORE_KEY); } catch { /* ignore */ }
+}
+
 function addUserBubble(text) {
   document.body.classList.remove("landing"); // first question → composer sticks to the bottom
   threadEl.append(el("div", { class: "msg user" }, [
     el("div", { class: "msg-role" }, "you"),
     el("div", { class: "bubble" }, text),
   ]));
-  scrollIn();
+  scrollIn(true); // a new question always re-engages the stream-follow
 }
 
 function addBotBubble() {
@@ -1197,7 +1240,20 @@ function addBotBubble() {
   };
 }
 
-function scrollIn() {
+// Stick-to-bottom only while the reader is at the bottom (Matt, S213 phone
+// testing: during streaming you couldn't scroll up — every token snapped the
+// view back down). Any upward wheel/touch-drag disengages the follow; scrolling
+// back to the bottom re-engages it. A new question always re-engages (force).
+let followStream = true;
+const nearBottom = () =>
+  window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 120;
+window.addEventListener("wheel", (e) => { if (e.deltaY < 0) followStream = false; }, { passive: true });
+window.addEventListener("touchmove", () => { if (!nearBottom()) followStream = false; }, { passive: true });
+window.addEventListener("scroll", () => { if (nearBottom()) followStream = true; }, { passive: true });
+
+function scrollIn(force = false) {
+  if (force) followStream = true;
+  if (!followStream) return;
   threadEl.lastElementChild?.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
@@ -1322,6 +1378,7 @@ const inputEl = $("#input");
 const sendBtn = $("#send");
 const noteEl = $("#composer-note");
 const saveBtn = $("#save-toggle"); // always visible; disabled until the first completed assistant turn (see ask())
+const newBtn = $("#new-chat"); // shown once a thread exists; clears the persisted thread (S213)
 
 function ingestReceipt({ tool, input, result }) {
   switch (tool) {
@@ -1408,6 +1465,7 @@ async function ask(question) {
   history.push({ role: "user", content: question });
   while (history.length > MAX_HISTORY) history.shift();
   transcript.push({ role: "user", content: question });
+  persistThread(); // the question survives even if the tab is discarded mid-answer
 
   turn = freshTurn();
   walking = true;
@@ -1474,6 +1532,8 @@ async function ask(question) {
     sendBtn.disabled = false;
     // Always visible (Matt, S212 phone testing); enabled once anything is saveable.
     if (saveBtn) saveBtn.disabled = !transcript.some((e) => e.role === "assistant");
+    persistThread(); // survive a mobile-Safari tab discard (S213)
+    if (newBtn) newBtn.style.display = transcript.length ? "" : "none";
     inputEl.focus();
   }
 }
@@ -1617,6 +1677,32 @@ if (personaSwitch) {
   }
   sync();
 }
+
+// New chat: clear the persisted thread and reload to a clean landing.
+newBtn?.addEventListener("click", () => { clearThreadStore(); location.reload(); });
+
+// Restore a persisted thread (S213): mobile Safari discards the page on a tab
+// switch — rebuild the bubbles from the stored raw prose so the conversation
+// survives. Receipts are turn-scoped and intentionally not restored.
+(function restoreThread() {
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem(THREAD_STORE_KEY) || "null"); } catch { /* corrupt → ignore */ }
+  if (!saved || !Array.isArray(saved.transcript) || !saved.transcript.length) return;
+  transcript.push(...saved.transcript);
+  history.push(...(Array.isArray(saved.history) ? saved.history : []).slice(-MAX_HISTORY));
+  for (const entry of transcript) {
+    if (entry.role === "user") {
+      addUserBubble(entry.content);
+    } else {
+      const bot = addBotBubble();
+      bot.setText(entry.content);
+      bot.finish();
+      linkEntities?.(bot.bubbleEl);
+    }
+  }
+  if (saveBtn) saveBtn.disabled = !transcript.some((e) => e.role === "assistant");
+  if (newBtn) newBtn.style.display = "";
+})();
 
 // Clean landing: empty thread + empty receipts rail, ready for the first question.
 renderReceipts();
