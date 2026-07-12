@@ -1,0 +1,89 @@
+{
+ "_meta": {
+  "session": "S213",
+  "slice": "roles round 2",
+  "chunk": 3,
+  "slugs": [
+   "butchers-ball",
+   "seizure-of-westerlands-gold-mines",
+   "stannis-retreats-to-dragonstone",
+   "fighting-at-sows-horn",
+   "the-dragons-wroth",
+   "the-sowing"
+  ]
+ },
+ "packets": [
+  {
+   "slug": "butchers-ball",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/butchers-ball.node.md",
+   "containers": [],
+   "existing_edges": [
+    "out:PART_OF:dance-of-the-dragons"
+   ],
+   "body": "## Identity\n\n## Edges\n\n- FIGHTS_IN: Dance of the Dragons (track_b: Conflict)\n- DEFEATS: blacks (track_b: Result)\n\n## Origins\n\nAfter the [Battle at Rook's Rest](wiki:Battle_at_Rook's_Rest), Aegon II was badly injured and his brother Aemond was given command of the greens' forces in King's Landing, as [regent](wiki:Regent) for his brother until he recovered. An aggressive young man, Aemond decided to attack the blacks' forces gathering at [Harrenhal](wiki:Harrenhal) under his uncle Daemon, before they had sufficient force to strike at the capital. Aemond devised a plan to catch the river lords on two fronts, by having the Lannister army invade the riverlands from the west while he led their forces from King's Landing to attack from the east.\n\nAemond led a force of 4,000 men in total out of King's Landing, also led by Ser [Criston Cole](wiki:Criston_Cole) of the Kingsguard, now [Hand of the King](wiki:Hand_of_the_King). Aegon II, Aemond, and Criston had previously led an army of more than 2,400 to the [Battle at Rook's Rest](wiki:Battle_at_Rook's_Rest), where they lost some 800 men. While in King's Landing Aemond reconstituted his forces and sent forth all their remaining strength for the advance on Harrenhal.\n\nThis was exactly what Daemon had hoped for, however, to lure Aemond away from King's Landing - leaving only a skeleton defense force behind, enough that a smaller force from Dragonstone and Driftmark could [quickly seize the capital using dragons and the Velaryon fleet](wiki:Fall_of_King's_Landing). Combined with the betrayal of the city watch, who were still loyal to Daemon, the city fell within a single day with little fighting.\n\nMeanwhile, the main black land army at Harrenhal did not simply wait to be caught in a pincer, but abandoned Harrenhal to attack the Lannister army in the west. They succeeded in annihilating the entire Lannister host in the [Battle by the Lakeshore](wiki:Battle_by_the_Lakeshore), though with heavy losses. It was now Aemond and Criston's host who were trapped between two fronts at Harrenhal: though they still had more men as well as the great dragon Vhagar, they were caught out of position in hostile territory, and with the river lords using scorched earth tactics to deny them new provisions.\n\nUnaware of these developments, Aemond and Criston's host advanced northwest to Harrenhal. They faced little opposition, only to find the castle abandoned. Red Robb Rivers shot down messenger-ravens from the Lannister army to the west warning of their imminent destruction, so news of the twin disasters only arrived at Harrenhal after it was already too late.\n\nCriston and Aemond disagreed on how respond. With their supplies running low, Criston decided to march south from Harrenhal though the [riverlands](wiki:Riverlands) to join the army of [Ormund Hightower](wiki:Ormund_Hightower), [Lord of the Hightower](wiki:Lord_of_the_Hightower), and Prince [Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)), which was marching through the [Reach](wiki:Reach). Rather than accompany Criston, Aemond One-Eye flew into a rage and decided to burn the riverlands with his [dragon](wiki:Dragon), [Vhagar](wiki:Vhagar).(wiki:Butcher's_Ball.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)\n\nCriston marched out of Harrenhal with 3,600 men - having lost about 400 due to enemy raids, disease, and desertion. They traveled south along the western shore of the [Gods Eye](wiki:Gods_Eye) lake, but their riverlord enemies practiced scorched earth tactics, burning their own forests and villages. The blacks used guerrilla warfare against the greens, and by the day more of Criston's host deserted or joined the blacks. On one occasion the greens came across a grisly display of feasting corpses, the bodies of men who had fallen at the Fishfeed. Later at the village of [Crossed Elms](wiki:Crossed_Elms), Criston's forces were attacked by blacks disguised as corpses, losing twelve men before realizing [Black Trombo](wiki:Black_Trombo)'s ruse.(wiki:Butcher's_Ball.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)\n\n## Narrative Arc\n\nWhile heading toward the [Blackwater Rush](wiki:Blackwater_Rush), Ser [Criston Cole](wiki:Criston_Cole) led his weakened [greens](wiki:Greens) into an ambush at a stony ridge south of the [Gods Eye](wiki:Gods_Eye). The greens were outnumbered two to one by the forces of the [riverlands](wiki:Riverlands) and the [north](wiki:North).(wiki:Butcher's_Ball.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)\n\nCriston held a parley with Ser [Garibald Grey](wiki:Garibald_Grey), Ser [Pate of Longleaf](wiki:Pate_of_Longleaf), and [Roderick Dustin](wiki:Roderick_Dustin), [Lord of Barrowton](wiki:Lord_of_Barrowton). Criston offered to surrender, but was refused by the three blacks. Criston, a famed knight who was also the [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard) for [Aegon II](wiki:Aegon_II_Targaryen) in addition to being the [King's Hand](wiki:Hand_of_the_King), prepared to fight all three of his counterparts at once. Before he could do so, however, the Kingmaker was struck down by arrows fired by [Red Robb Rivers](wiki:Red_Robb_Rivers) and two of his longbowmen.(wiki:Butcher's_Ball.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)\n\nWith Criston dead, Lord Dustin sounded the charge of the blacks' vanguard, which consisted of his [Winter Wolves](wiki:Winter_Wolves) and the river knights. The greens quickly collapsed, with hundreds of them killed while trying to flee the ridge.(wiki:Butcher's_Ball.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)\n\n## Aftermath\n\nAfter the battle, Ser [Garibald Grey](wiki:Garibald_Grey) remarked, \"Today was butchery, not battle.\" Upon hearing Garibald's observation, [Mushroom](wiki:Mushroom) began calling the slaughter the Butcher's Ball.(wiki:Butcher's_Ball.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)\n\nSer [Criston Cole](wiki:Criston_Cole)'s death in the Butcher's Ball marked the high point of [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)'s fortunes. However, Prince [Aemond Targaryen](wiki:Aemond_Targaryen) and King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) still remained to carry on the [greens](wiki:Greens)' cause.(wiki:Butcher's_Ball.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)\n\n## Quotes\n\n> **Criston**: If I strike my banners, do you promise us our lives?\n>\n> **Garibald**: I made my promise to the dead. I told them I would build a [sept](wiki:Sept) for them out of [traitors'](wiki:Greens) bones. I don't have near enough bones yet, so... **Criston**: If there is to be battle here, many of your own will die as well. **Roderick**: That's why we come. Winter's here. Time for us to go. No better way to die than sword in hand. **Criston**: As you will it. We can begin here, the four of us. One of me against the three of you. Will that be enough to make a fight of it?\n>\n> \u2014[Criston Cole](wiki:Criston_Cole), [Garibald Grey](wiki:Garibald_Grey), [Roderick Dustin](wiki:Roderick_Dustin), and [Pate of Longleaf](wiki:Pate_of_Longleaf)"
+  },
+  {
+   "slug": "seizure-of-westerlands-gold-mines",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/seizure-of-westerlands-gold-mines.node.md",
+   "containers": [],
+   "existing_edges": [
+    "out:PART_OF:war-of-the-five-kings",
+    "in:PRECEDES:wedding-of-drogo-and-daenerys-targaryen",
+    "out:PRECEDES:purple-wedding"
+   ],
+   "body": "## Identity\n\n## Edges\n\n- FIGHTS_IN: War of the Five Kings (track_b: Conflict)\n- DEFEATS: northern victory (track_b: Result)\n\n## Origins\n\nIn order to defeat a host being trained by Ser [Stafford Lannister](wiki:Stafford_Lannister), [Robb Stark](wiki:Robb_Stark) leaves [Riverrun](wiki:Riverrun) and marches for the [westerlands](wiki:Westerlands). Bypassing the [Golden Tooth](wiki:Golden_Tooth), the new [King in the North](wiki:King_in_the_North) smashes the new westermen host at [Oxcross](wiki:Battle_of_Oxcross). Following his victory Robb divides his force to launch further attacks upon the westerlands.(wiki:Seizure_of_westerlands_gold_mines.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)(wiki:Seizure_of_westerlands_gold_mines.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Seizure_of_westerlands_gold_mines.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)\n\n## Aftermath\n\nReturning to Riverrun after the [storming of the Crag](wiki:Storming_of_the_Crag), Robb tells Ser [Edmure Tully](wiki:Edmure_Tully) he remained in the westerlands after Oxcross in hopes of drawing Lord [Tywin Lannister](wiki:Tywin_Lannister) back to his homeland.(wiki:Seizure_of_westerlands_gold_mines.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Following the [Red Wedding](wiki:Red_Wedding), Tywin grants Castamere to Ser [Rolph Spicer](wiki:Rolph_Spicer).(wiki:Seizure_of_westerlands_gold_mines.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)\n\n## Quotes\n\n> Nothing's more like to bring a [Lannister](wiki:House_Lannister) running than a threat to his [gold](wiki:Gold).(wiki:Seizure_of_westerlands_gold_mines.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)\n>\n> \u2014[Wendel Manderly](wiki:Wendel_Manderly) to [Martyn Rivers](wiki:Martyn_Rivers)"
+  },
+  {
+   "slug": "stannis-retreats-to-dragonstone",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/stannis-retreats-to-dragonstone.node.md",
+   "containers": [],
+   "existing_edges": [
+    "in:CAUSES:battle-of-the-blackwater",
+    "out:ENABLES:stannis-moves-to-the-wall",
+    "in:CAUSES:garlan-tyrell-routs-stannis-as-renly-s-ghost"
+   ],
+   "body": "## Identity\n\nAfter his catastrophic defeat at the [Battle of the Blackwater](battle-of-the-blackwater) in 299 AC \u2014 his fleet burned by wildfire and broken by the great chain, his bannermen abandoning him by the hundreds, and Tywin Lannister's relief host striking him from the flank \u2014 Stannis Baratheon escaped King's Landing with only a fraction of his army aboard Salladhor Saan's Lysene ships. He withdrew to his seat at [Dragonstone](dragonstone), where he fell into brooding isolation in the Stone Drum, seeing almost no one while Queen Selyse and her uncle Lord Alester Florent kept a hollow court in his name. The retreat removed Stannis's threat to the capital for years and left him a reduced king clinging to a poor, rocky island \u2014 the nadir from which the R'hllor-fueled northern gambit of ASOS/ADWD would later be launched.\n\n## Edges\n\n(Causal/role edges live in `graph/edges/edges.jsonl`, S111 causal-arc track \u2014 caused by the [Battle of the Blackwater](battle-of-the-blackwater) (CAUSES, Tier-2). The retreat's destination is [Dragonstone](dragonstone). Stannis's defeat at the Blackwater is the immediate, constraining cause of the withdrawal.)\n\n## Quotes\n\n> \"Captain Khorane had told him of the end of Stannis's hopes, on the night the river burned. The Lannisters had taken him from the flank, and his fickle bannermen had abandoned him by the hundreds in the hour of his greatest need.\"\n\n\u2014 Davos II, ASOS (`sources/chapters/asos/asos-davos-02.md:25`)\n\n> Since the battle, he sees no one, but broods in his Stone Drum.\n\n\u2014 Salladhor Saan, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:89`)\n\n> \u201cDid none keep faith?\u201d he asked. \u201cSome few,\u201d the captain said. \u201cThe queen\u2019s kin, them in chief. We took off many who wore the fox-and-flowers, though many more were left ashore, with all manner of badges. Lord Florent is the King\u2019s Hand on Dragonstone now.\u201d\n\n\u2014 Davos Seaworth and Captain Khorane, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:27`)"
+  },
+  {
+   "slug": "fighting-at-sows-horn",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/fighting-at-sows-horn.node.md",
+   "containers": [],
+   "existing_edges": [
+    "out:PART_OF:war-of-the-five-kings"
+   ],
+   "body": "## Identity\n\n## Edges\n\n- FIGHTS_IN: War of the Five Kings (track_b: Conflict)\n- DEFEATS: Hogg victory (track_b: Result)\n\n## Origins\n\nSer [Amory Lorch](wiki:Amory_Lorch) leads the attempted [burning of Sow's Horn](wiki:Burning_of_Sow's_Horn). Following [Catelyn Stark](wiki:Catelyn_Stark)'s release of Ser [Jaime Lannister](wiki:Jaime_Lannister), Lord [Rickard Karstark](wiki:Rickard_Karstark), who had two of his sons killed by Jaime, offers the hand of his maiden daughter [Alys](wiki:Alys_Karstark) in marriage to anyone who can find the Kingslayer. Karstark men raid across the [riverlands](wiki:Riverlands) and [crownlands](wiki:Crownlands) looking for Jaime.(wiki:Fighting_at_Sow's_Horn.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)\n\n## Narrative Arc\n\nKarstark men looking for Jaime around Sow's Horn are defeated by the men of House Hogg, resulting in three Karstarks being killed and buried.(wiki:Fighting_at_Sow's_Horn.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)\n\n## Quotes\n\n> Lord [Karstark](wiki:Rickard_Karstark) has sworn to give the hand of [his maiden daughter](wiki:Alys_Karstark) to any man highborn or low who brings him the head of the [Kingslayer](wiki:Jaime_Lannister).(wiki:Fighting_at_Sow's_Horn.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)\n>\n> \u2014[Brynden Tully](wiki:Brynden_Tully) to [Robb Stark](wiki:Robb_Stark)\n\n> We had some trouble with a band of them [white star wolves](wiki:House_Karstark). They come round sniffing after you, my lord, but we saw them off, and buried three down by the turnips.(wiki:Fighting_at_Sow's_Horn.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)\n>\n> \u2014[Roger Hogg](wiki:Roger_Hogg) to [Jaime Lannister](wiki:Jaime_Lannister)"
+  },
+  {
+   "slug": "the-dragons-wroth",
+   "node_type": "event.battle",
+   "file": "graph/nodes/events/the-dragons-wroth.node.md",
+   "containers": [],
+   "existing_edges": [
+    "in:MOTIVATES:death-of-rhaenys-targaryen",
+    "out:PART_OF:first-dornish-war",
+    "out:MOTIVATES:founding-of-the-kingsguard",
+    "in:SUB_BEAT_OF:wedding-raid-on-the-cafferen-oakheart-wedding",
+    "out:ENABLES:treaty-of-eternal-peace-with-dorne"
+   ],
+   "body": "## Identity\n\nThe two years following Rhaenys Targaryen's death, in which Aegon and Visenya burn every Dornish stronghold save Sunspear thrice over and place bounties on Dornish lords' heads, while the Dornish answer with assassinations and, in 12 AC, the Cafferen-Oakheart wedding massacre.\n\n## Fire & Blood\n\n<!-- fab-enriched: fab-causal-spine-s204-2026-07-10 -->\n\nThe two years following Rhaenys Targaryen's death, in which Aegon and Visenya burn every Dornish stronghold save Sunspear thrice over and place bounties on Dornish lords' heads, while the Dornish answer with assassinations and, in 12 AC, the Cafferen-Oakheart wedding massacre."
+  },
+  {
+   "slug": "the-sowing",
+   "node_type": "event.incident",
+   "file": "graph/nodes/events/the-sowing.node.md",
+   "containers": [],
+   "existing_edges": [
+    "in:MOTIVATES:battle-at-rooks-rest",
+    "in:SUB_BEAT_OF:taming-of-sheepstealer-by-nettles",
+    "out:ENABLES:battle-of-the-gullet",
+    "out:ENABLES:fall-of-kings-landing",
+    "out:TRIGGERS:legitimization-of-addam-and-alyn"
+   ],
+   "body": "## Identity\n\nPrince Jacaerys Velaryon's call for any commoner or dragonseed who could master one of Dragonstone's masterless dragons, following the deaths at Rook's Rest; also called the Red Sowing or the Sowing of the Seeds. Produced four new dragonriders \u2014 Hugh Hammer (Vermithor), Ulf White (Silverwing), Addam of Hull (Seasmoke), and Nettles (Sheepstealer) \u2014 at heavy cost in dead and maimed seekers.\n\n## Fire & Blood\n\n<!-- fab-enriched: fab-causal-spine-s204-2026-07-10 -->\n\nPrince Jacaerys Velaryon's call for any commoner or dragonseed who could master one of Dragonstone's masterless dragons, following the deaths at Rook's Rest; also called the Red Sowing or the Sowing of the Seeds. Produced four new dragonriders \u2014 Hugh Hammer (Vermithor), Ulf White (Silverwing), Addam of Hull (Seasmoke), and Nettles (Sheepstealer) \u2014 at heavy cost in dead and maimed seekers."
+  }
+ ]
+}
