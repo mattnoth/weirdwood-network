@@ -42,3 +42,13 @@ Grey Ghost preferred to feed on fish, and was often glimpsed flying low over the
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->
 
 - A Dragonstone dragon found dead beneath the Dragonmont, torn into two pieces and partly devoured (fab-the-red-dragon-and-the-gold-17-p04:53)
+
+## Quotes
+
+> Grey Ghost dwelt in a smoking vent high on the eastern side of the Dragonmont, preferred fish, and was most oft glimpsed flying low over the narrow sea, snatching prey from the waters.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:243`)
+
+> The dragon lay in two pieces, and had been torn apart and partially devoured.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:53`)

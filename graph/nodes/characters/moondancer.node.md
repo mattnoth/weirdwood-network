@@ -44,3 +44,13 @@ A beautiful dragon,(wiki:Moondancer.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i
 - Moondancer, a young pale-green dragon with pearl horns and crest, was no larger than a warhorse but very quick. (fab-rhaenyra-overthrown-18-p02:261)
 - Ridden by Baela, she wounded Sunfyre repeatedly but was blinded and borne down. (fab-rhaenyra-overthrown-18-p02:265)
 - Grounded, her quickness failed her and she soon lay still. (fab-rhaenyra-overthrown-18-p02:269)
+
+## Quotes
+
+> Moondancer was a young dragon, pale green, with horns and crest and wingbones of pearl.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:261`)
+
+> On the ground, Moondancer's quickness proved of little use against Sunfyre’s size and weight.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:269`)

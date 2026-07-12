@@ -46,3 +46,17 @@ Vermax's coloring is not stated in the books. However, he is depicted as green i
 
 - Jacaerys Velaryon's dragon at the Gullet. According to one account a crossbowman put an iron bolt through his eye, a version thought suspiciously like the death of Meraxes; another says a Myrish sailor's grapnel tore open his belly (fab-the-red-dragon-and-the-gold-17-p02:37)
 - He went down smoking and screaming and sank with a burning galley (fab-the-red-dragon-and-the-gold-17-p02:39)
+
+## Quotes
+
+> Snow and ice and cold made Vermax ill-tempered, it is said,
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:139`)
+
+> His flight jerked to a violent end, Vermax went down smoking and screaming, clawing at the water.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:39`)
+
+> When the ship heeled over and sank, Vermax sank with her.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:39`)

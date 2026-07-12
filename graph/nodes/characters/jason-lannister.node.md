@@ -47,3 +47,17 @@ Jason was succeeded as [Lord of Casterly Rock](wiki:Lord_of_Casterly_Rock) by hi
 
 - The Lord of Casterly Rock assembled a formidable western host and poured down onto the Red Fork (fab-the-red-dragon-and-the-gold-17-p02:69)
 - He was dealt a mortal wound by the squire Pate of Longleaf and died before learning the ironmen had sacked Lannisport (fab-the-red-dragon-and-the-gold-17-p02:93)
+
+## Quotes
+
+> Jason Lannister had assembled a formidable host in the western hills; a thousand armored knights, and seven times as many archers and men-at-arms.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:69`)
+
+> in the last attempt, Lord Jason was dealt a mortal wound at the hand of a grizzled squire, Pate of Longleaf.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:93`)
+
+> In the west, Ser Jason Lannister and his twin, Ser Tyland, vied for her during a feast at Casterly Rock.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:131`)

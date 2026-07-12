@@ -3,7 +3,7 @@
   "name": "Departure of Nettles",
   "type": "event.incident",
   "node_path": "graph/nodes/events/departure-of-nettles.node.md",
-  "generated_at": "2026-07-12T22:06:31.253864+00:00",
+  "generated_at": "2026-07-12T22:29:38.193380+00:00",
   "stats": {
     "appearances_total": 0,
     "chapters_referenced_in": 0,

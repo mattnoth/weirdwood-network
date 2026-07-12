@@ -3,7 +3,7 @@
   "name": "Sack of King's Landing",
   "type": "event.battle",
   "node_path": "graph/nodes/events/sack-of-kings-landing.node.md",
-  "generated_at": "2026-07-12T22:06:31.249521+00:00",
+  "generated_at": "2026-07-12T22:29:38.189799+00:00",
   "stats": {
     "appearances_total": 2,
     "chapters_referenced_in": 2,

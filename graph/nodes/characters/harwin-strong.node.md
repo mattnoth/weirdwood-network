@@ -57,3 +57,17 @@ In [120 AC](wiki:120_AC), after Prince [Aemond Targaryen](wiki:Aemond_Targaryen)
 - Ser, called Breakbones, Rhaenyra's champion and sworn shield, sent back to Harrenhal (fab-heirs-of-the-dragon-15-p03:111)
 - He died with his father in the fire at Harrenhal in 120 AC (fab-heirs-of-the-dragon-15-p03:119)
 - Amongst the greens it was an article of faith he, not Laenor, fathered Rhaenyra's sons (fab-heirs-of-the-dragon-15-p03:45)
+
+## Quotes
+
+> Breakbones, as he was called, was heir to Harrenhal, and said to be the strongest man in the Seven Kingdoms.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:131`)
+
+> would leave her husband with his lover on such nights, and seek her own solace in the arms of Harwin Strong.
+>
+> — Mushroom's account, per Gyldayn's narration, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:177`)
+
+> Amongst the greens, it was an article of faith that the father of Rhaenyra’s sons was not her husband, Laenor, but her champion, Harwin Strong.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p03.md:45`)

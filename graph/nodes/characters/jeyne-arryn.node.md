@@ -64,6 +64,14 @@ In this world of men, we women must band together.(wiki:Jeyne_Arryn.cite_ref-Rfa
 I have no fear of armies. Many and more have broken themselves against my [Bloody Gate](wiki:Bloody_Gate), and the [Eyrie](wiki:Eyrie) is known to be impregnable. But you have [descended on us from the sky](wiki:Dragon), as Queen [Visenya](wiki:Visenya_Targaryen) once did during [the Conquest](wiki:Aegon's_Conquest), and I was powerless to halt you. I mislike feeling powerless. Send me [dragonriders](wiki:Dragonriders).(wiki:Jeyne_Arryn.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
 The great [lords](wiki:Lord) would have given us another two years of war, it was the women who made the peace. [Black Aly](wiki:Alysanne_Blackwood), the Maiden of the Vale, the [Three Widows](wiki:Three_Widows), the [Dragon Twins](wiki:Dragon_Twins), ’twas them who brought [the bloodshed](wiki:Dance_of_the_Dragons) to an end, and not with [swords](wiki:Sword) or [poison](wiki:Poison), but with [ravens](wiki:Raven), words, and kisses.(wiki:Jeyne_Arryn.cite_ref-Rfab19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
 
+> Never wed, Lady Jeyne had reigned over the Vale since the death of her father and elder brothers at the hands of the Stone Crows of the hills when she was three.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:109`)
+
+> Lady Jeyne Arryn, the Maiden of the Vale, died at Gulltown of a cold that had settled in her chest.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:31`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p02-2026-07-09 -->

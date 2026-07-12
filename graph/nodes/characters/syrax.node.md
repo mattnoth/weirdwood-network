@@ -53,3 +53,17 @@ During their voyage on the [Rhoyne](wiki:Rhoyne), [Tyrion Lannister](wiki:Tyrion
 - Queen Rhaenyra's yellow she-dragon, who had never known another rider (fab-rhaenyra-overthrown-18-p01:157)
 - She twisted beneath Joffrey and cast him off to his death (fab-rhaenyra-overthrown-18-p01:161)
 - Riderless, she descended on the Shepherd's mobs at the Dragonpit and was slain by conflicting accounts (fab-rhaenyra-overthrown-18-p01:239)
+
+## Quotes
+
+> At seven, she became a dragonrider, taking to the sky on the young dragon she named Syrax, after a goddess of old Valyria.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p01.md:171`)
+
+> Syrax was the queen’s dragon. She had never known another rider.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:157`)
+
+> Syrax fell.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:231`)

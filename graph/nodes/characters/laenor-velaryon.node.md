@@ -72,6 +72,14 @@ My half-brothers would be more to his taste.(wiki:Laenor_Velaryon.cite_ref-Rfabh
 Do keep trying, soon or late, you may get one who looks like you.(wiki:Laenor_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-23)
 They will turn the [Red Keep](wiki:Red_Keep) into a [brothel](wiki:Brothel). No man's daughter will be safe, nor any man's wife. Even the boys... we know what Laenor was.(wiki:Laenor_Velaryon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 
+> Laenor had the aquiline nose, silver-white hair, and purple eyes that bespoke his Valyrian blood.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:181`)
+
+> Ser Laenor Velaryon, husband to the Princess Rhaenyra and the putative father of her children, was slain whilst attending a fair in Spicetown, stabbed to death by his friend and companion Ser Qarl Correy.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p03.md:71`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

@@ -49,6 +49,14 @@ In [120 AC](wiki:120_AC), over mounting rumors of his grandsons' parentage, Vise
 
 This [Hand](wiki:Hand_of_the_King) will not hector me.(wiki:Lyonel_Strong.cite_ref-Rfab12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
 
+> A big man, burly and balding, Lord Strong enjoyed a formidable reputation as a battler.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:29`)
+
+> Lord Strong had been the King’s Hand, and Viserys had come to rely upon his strength and counsel.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p03.md:125`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p02-2026-07-07 -->

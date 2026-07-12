@@ -39,3 +39,13 @@ Vaemond's sons, [Daemion](wiki:Daemion_Velaryon) and [Daeron Velaryon](wiki:Daer
 
 - Ser, eldest of Corlys's nephews, who claimed Driftmark on the grounds that Rhaenyra's sons were bastards (fab-heirs-of-the-dragon-15-p03:163)
 - Rhaenyra sent Daemon to seize him and had him beheaded and fed to Syrax (fab-heirs-of-the-dragon-15-p03:163)
+
+## Quotes
+
+> the eldest of them, Ser Vaemond Velaryon, protested that the inheritance by rights should pass to him...on the grounds that Rhaenyra’s sons were bastards sired by Harwin Strong.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p03.md:163`)
+
+> This rebellion cost him his head, but he left a wife and sons behind.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-hooded-hand-21.md:165`)

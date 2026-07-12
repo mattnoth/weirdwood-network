@@ -80,3 +80,13 @@ Vermithor was a fearsome beast.(wiki:Vermithor.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7
 - Vermithor, "the Bronze Fury," once the Old King's mount and then Hard Hugh's, was almost a hundred years old and as large as the two young dragons put together. (fab-rhaenyra-overthrown-18-p02:107)
 - Riderless in the battle, he knew not friend from foe and burned Lords Piper and Deddings. (fab-rhaenyra-overthrown-18-p02:107)
 - He ripped off Seasmoke's head, then collapsed and died unable to fly with his prize. (fab-rhaenyra-overthrown-18-p02:121)
+
+## Quotes
+
+> the oldest and largest living dragon in all Westeros was Vermithor, once the mount of the Old King, now that of Hard Hugh the bastard.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:19`)
+
+> Almost a hundred years old and as large as the two young dragons put together, the bronze dragon with the great tan wings was in a rage as he took flight, with blood smoking from a dozen wounds.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:107`)

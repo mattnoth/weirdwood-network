@@ -32,3 +32,9 @@ Lucerys and Arrax arrived at Storm's End before a gathering storm, and discovere
 As Aemond mounted Vhagar and went after Luke, Arrax was struggling to stay aloft in the storm. Arrax was younger and swifter, and on a calm day might have been able to outfly his pursuer, but the weather impeded him, and Vhagar was five times the size of her foe and the hardened survivor of a hundred battles. The two dragons [met above](wiki:Fight_above_Shipbreaker_Bay) [Shipbreaker Bay](wiki:Shipbreaker_Bay). According to [Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn), if there was a fight, it could not have lasted long. Watchers on the walls of Storm's End saw distant blasts of flame, and heard a shriek louder than the thunder. Then the two dragons were locked together, as lightning crackled around them. The fight ended when Arrax fell, broken, to be swallowed by the storm-lashed waters of the bay.(wiki:Arrax.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
 Arrax's head and neck washed up beneath the cliffs below Storm's End three days later. Prince Lucerys's body was never found. Gyldayn notes that some claim that Vhagar snatched Lucerys off Arrax's back and swallowed him whole. Some have even claimed that Luke survived his fall and swam to safety, but lost all memory of who he was, spending the rest of his days as a [simpleminded](wiki:Simple) fisherman. But more legitimate historians such as [Munkun](wiki:Munkun) disregard such tales, and state that Lucerys died with his dragon.(wiki:Arrax.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+
+## Quotes
+
+> Vhagar was five times the size of her foe, the hardened survivor of a hundred battles.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:243`)

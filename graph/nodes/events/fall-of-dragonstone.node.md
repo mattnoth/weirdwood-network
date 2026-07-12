@@ -45,3 +45,21 @@ Aegon II shattered his legs in a fall during the fight, but he refused [milk of 
 [Dragonstone](wiki:Dragonstone) was now in the control of King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and the [greens](wiki:Greens). [Baela Targaryen](wiki:Baela_Targaryen), Aegon, and his [dragon](wiki:Dragon), [Sunfyre](wiki:Sunfyre), were seriously injured during the aerial duel over the island. The charred body of [Robert Quince](wiki:Robert_Quince), Dragonstone's steward, [master-at-arms](wiki:Master-at-arms), captain of the guards, and the upper torso of Grand Maester [Gerardys](wiki:Gerardys) were hanged from the castle battlements near the gate to greet Aegon's sister when she arrived.(wiki:Fall_of_Dragonstone.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 When Rhaenyra eventually [returned to Dragonstone](wiki:Flight_to_Dragonstone), she and her followers were quickly defeated by Ser [Alfred Broome](wiki:Alfred_Broome)'s men.(wiki:Fall_of_Dragonstone.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+## Quotes
+
+> When it came, the fall of Dragonstone took less than an hour.
+>
+> — chronicle of Archmaester Gyldayn, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:251`)
+
+> As Quince struggled to rise from his bed, Broome drove a spear into his huge pale belly.
+>
+> — chronicle of Archmaester Gyldayn (Alfred Broome's betrayal), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:251`)
+
+> King Aegon had leapt from the saddle when the dragons were still twenty feet from the ground, shattering both legs.
+>
+> — chronicle of Archmaester Gyldayn (aftermath of the Baela/Moondancer duel), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:271`)
+
+> And Aegon II lived the rest of his life in great pain...though to his honor, when Grand Maester Gerardys offered him milk of the poppy, he refused. “I shall not walk that road again,” he said.
+>
+> — Aegon II Targaryen, quoted in Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:275`)

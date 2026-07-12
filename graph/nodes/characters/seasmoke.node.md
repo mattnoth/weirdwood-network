@@ -47,3 +47,13 @@ After the Second Battle of Tumbleton, Lord [Unwin Peake](wiki:Unwin_Peake) order
 - Seasmoke, Ser Addam Velaryon's silver-grey mount, opened the Second Battle of Tumbleton with fire. (fab-rhaenyra-overthrown-18-p02:43)
 - He fought Tessarion in a dance, then slammed into Vermithor to protect Addam's men. (fab-rhaenyra-overthrown-18-p02:113)
 - He was the first of the three to die when Vermithor tore his head off. (fab-rhaenyra-overthrown-18-p02:121)
+
+## Quotes
+
+> Seasmoke, the pale grey beast that had been the pride and passion of Ser Laenor Velaryon
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:219`)
+
+> Seasmoke was first to die, when Vermithor locked his teeth into his neck and ripped his head off.
+>
+> — chronicle of Archmaester Gyldayn (Fire & Blood narration), F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:121`)

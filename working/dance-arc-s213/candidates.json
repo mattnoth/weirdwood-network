@@ -17,7 +17,7 @@
    "quote": "The prince claimed for himself the style Protector of the Realm",
    "tier": "tier-1",
    "note": "Daemon assumes the war-command style Protector of the Realm for the blacks at Rhaenyra's coronation on Dragonstone.",
-   "qualifier": ""
+   "qualifier": "blacks side"
   },
   {
    "id": "W1-02",
@@ -29,7 +29,7 @@
    "quote": "Rhaenyra herself presided, seated between her uncle and husband, Prince Daemon",
    "tier": "tier-1",
    "note": "Rhaenyra presides over the black council as claimant queen (blacks, command-tier). Node already carries a weak-typed PARTICIPATES_IN on Rhaenyra from Pass-1 wiki prose -- different type, not a dup, noting the overlap per instructions.",
-   "qualifier": ""
+   "qualifier": "blacks side"
   },
   {
    "id": "W1-03",
@@ -41,7 +41,7 @@
    "quote": "Together he and Lord Corlys began to plan an assault upon King\u2019s Landing.",
    "tier": "tier-1",
    "note": "Prompt flagged Jacaerys as a COMMANDS_IN candidate for the blacks, but the text shows he was explicitly barred from combat (\u201cyou must take no part in any fighting\u201d) and instead flew as recruiter/diplomat and war-planner (Vale, White Harbor, Winterfell) -- organizational, not command-tier, so downgraded honestly to PARTICIPATES_IN. See flags.",
-   "qualifier": ""
+   "qualifier": "blacks side"
   },
   {
    "id": "W1-04",
@@ -53,7 +53,7 @@
    "quote": "The Sea Snake would command the fleet, whilst Princess Rhaenys flew overhead to keep their foes from attacking their ships with dragons.",
    "tier": "tier-1",
    "note": "Corlys (the Sea Snake) is given command of the Velaryon/black fleet at the black council's war planning.",
-   "qualifier": ""
+   "qualifier": "blacks side"
   },
   {
    "id": "W1-05",
@@ -65,7 +65,7 @@
    "quote": "Aegon II mounted the steps of the lron Throne before a thousand lords and knights.",
    "tier": "tier-1",
    "note": "Aegon II crowned/enthroned as the greens' king (command-tier claimant), parallel to Joffrey's COMMANDS_IN pattern on war-of-the-five-kings. Node already carries AGENT_IN aegon-ii-targaryen (Pass-1 wiki-derived) -- different edge type, not a dup, noting the overlap per instructions. OCR note: file has 'lron' for 'Iron', copied verbatim.",
-   "qualifier": ""
+   "qualifier": "greens side"
   },
   {
    "id": "W1-06",
@@ -77,7 +77,7 @@
    "quote": "You must rule the realm now, until your brother is strong enough to take the crown again",
    "tier": "tier-1",
    "note": "Aemond assumes command of the greens' war effort as Protector of the Realm/Prince Regent for the injured Aegon II.",
-   "qualifier": ""
+   "qualifier": "greens side"
   },
   {
    "id": "W1-07",
@@ -89,7 +89,7 @@
    "quote": "Cole would take command of their host and lead them south to join Ormund Hightower and Prince Daeron",
    "tier": "tier-1",
    "note": "Criston Cole, Hand of the King, takes command of the greens' host in the field.",
-   "qualifier": ""
+   "qualifier": "greens side"
   },
   {
    "id": "W1-08",
@@ -101,7 +101,7 @@
    "quote": "Lord Beesbury was seized at the door by the command of Ser Otto Hightower and escorted to the dungeons.",
    "tier": "tier-1",
    "note": "Otto Hightower is the instigator/orderer of the green council's coup that opens the war (COMMANDS_IN's orderer-not-executor sense), as Hand acting with the king's voice for the greens.",
-   "qualifier": ""
+   "qualifier": "greens side"
   },
   {
    "id": "W1-09",
@@ -113,7 +113,7 @@
    "quote": "the prince rode forth from the Gate of the Gods within a fortnight, at the head of a host four thousand strong.",
    "tier": "tier-1",
    "note": "Aemond personally leads the 4,000-strong greens host out of King's Landing toward Harrenhal.",
-   "qualifier": ""
+   "qualifier": "greens side"
   },
   {
    "id": "W1-10",
@@ -125,7 +125,7 @@
    "quote": "Ser Criston\u2019s vanguard fought and won a short, sharp battle against Ser Oswald Wode and the Lords Darry and Roote on the lakeshore",
    "tier": "tier-1",
    "note": "Criston Cole commands the vanguard of the march and fights/wins the only real engagement along the route (greens).",
-   "qualifier": ""
+   "qualifier": "greens side"
   },
   {
    "id": "W1-11",
@@ -137,7 +137,7 @@
    "quote": "Aemond One-Eye saw a greater threat in his uncle Prince Daemon and the great host he had gathered at Harrenhal.",
    "tier": "tier-1",
    "note": "Daemon commands the black host gathered at Harrenhal that is the march's target (he evacuates before contact, but the text names him commander of the force Aemond marched against -- blacks side).",
-   "qualifier": ""
+   "qualifier": "blacks side"
   },
   {
    "id": "W1-12",
