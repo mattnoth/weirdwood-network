@@ -364,7 +364,13 @@ Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, ci
   // showed the agent answering "who knighted Gregor?" as unknown while the
   // KNIGHTED_BY edge sat in the bundle — the old table never routed relationship
   // questions to neighbors. Theory-gate/cite/floor text unchanged.
-  assert.equal(sharedRules.length, 13212, "SHARED_RULES length changed — confirm intentional");
+  // Updated S213 for the superlative/comparative routing row ("the most vile meal" →
+  // theme/list_nodes FIRST, same move as the category-survey row). Motivation: Matt's
+  // S212 phone test — the agent never called theme on a thematic superlative and burned
+  // its whole step budget on broad quote-search guesses (log 2026-07-12/1cf79a22, then
+  // a 10/10-step re-test 2026-07-12 that succeeded with zero headroom and still no
+  // theme call). Theory-gate/cite/floor text unchanged.
+  assert.equal(sharedRules.length, 13747, "SHARED_RULES length changed — confirm intentional");
 });
 
 // ---- list_nodes / theme tools (query-layer wiring pass 2) ----
