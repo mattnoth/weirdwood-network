@@ -592,6 +592,20 @@ async function openDossier(slug, fallbackName) {
       // it's shown under a neutral "Overview" label — the old "From the wiki"
       // mislabelled book-grounded prose as wiki-derived.
       const overviewIdentity = isWikiBoilerplate(node.identity) ? "" : cleanQuote(node.identity || "");
+      const hasQuotes = !!(node.quotes && node.quotes.length);
+      const proseSections = (Array.isArray(node.sections) ? node.sections : [])
+        .map((s) => proseSection(s.heading, s.text))
+        .filter(Boolean);
+      const arcSection = narrativeArcSection(node);
+      // S211 board follow-up (thin-node blank dossiers): ~1,169 nodes are
+      // Identity+Edges only — post-S210-strip that's an EMPTY identity, no
+      // quotes, no body sections, no arc. /api/node never returns edges for
+      // any node (readNode ships name/type/identity/quotes only — connections
+      // live in the separate "neighbors" tool-call card, not the dossier), so
+      // there is no connections block to fall back on here. Rather than stack
+      // the generic "no quotes" line with more emptiness, a fully-thin node
+      // gets ONE quiet explanatory line instead.
+      const isThin = !overviewIdentity && !hasQuotes && !proseSections.length && !arcSection;
       children = [
         el("div", { class: "dossier-head" }, [
           el("h3", {}, node.name || label),
@@ -603,13 +617,15 @@ async function openDossier(slug, fallbackName) {
               el("p", { class: "dossier-identity" }, overviewIdentity),
             ])
           : false,
-        node.quotes && node.quotes.length
-          ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
-          : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet."),
+        isThin
+          ? el("p", { class: "dossier-empty" }, "No prose recorded for this entry — it appears in the graph through its connections.")
+          : (hasQuotes
+            ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
+            : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet.")),
         // The node's fuller record (S194): every reader-facing body section the
         // graph holds for it, then the narrative arc last (it's the longest).
-        ...(Array.isArray(node.sections) ? node.sections : []).map((s) => proseSection(s.heading, s.text)),
-        narrativeArcSection(node),
+        ...proseSections,
+        arcSection,
       ];
     }
   } catch (_err) {
@@ -655,18 +671,26 @@ function resolveCard(phrase, cands) {
 const SEARCH_CARD_CAP = 6;
 function searchCard(s) {
   const hits = s.hits.slice(0, SEARCH_CARD_CAP);
-  const rows = hits.map((h) =>
-    el("div", { class: "search-hit" }, [
-      el("div", { class: "search-hit-head" }, [
-        nodeChip(h.slug, bestName(h.slug), h.type),
-        h.type ? el("span", { class: "node-type" }, prettyType(h.type)) : false,
-      ]),
-      h.text
-        ? (h.cite
-          ? bookQuote(h.text, null, h.cite)
-          : el("p", { class: "search-blurb" }, cleanQuote(h.text)))
-        : false,
-    ]));
+  const rows = hits
+    // Defense-in-depth (S210 advisory-board follow-up): identity-kind hits
+    // (no `cite` — only quote hits carry one, see search.ts hydrateText())
+    // should never carry the stripped "from the AWOIAF wiki" boilerplate,
+    // but a future emitter regression could reintroduce it before pytest's
+    // guard test (tests/test_no_wiki_boilerplate.py) catches it. Same check
+    // the dossier uses (isWikiBoilerplate) — skip the hit here too.
+    .filter((h) => h.cite || !isWikiBoilerplate(h.text))
+    .map((h) =>
+      el("div", { class: "search-hit" }, [
+        el("div", { class: "search-hit-head" }, [
+          nodeChip(h.slug, bestName(h.slug), h.type),
+          h.type ? el("span", { class: "node-type" }, prettyType(h.type)) : false,
+        ]),
+        h.text
+          ? (h.cite
+            ? bookQuote(h.text, null, h.cite)
+            : el("p", { class: "search-blurb" }, cleanQuote(h.text)))
+          : false,
+      ]));
   const more = s.hits.length - hits.length;
   return el("div", { class: "card" }, [
     cardKind("❝", "passages consulted", `${s.hits.length} hit${s.hits.length === 1 ? "" : "s"}`),
