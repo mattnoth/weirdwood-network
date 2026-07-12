@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "slice": "roles round 2 (S213)",
+    "checked": 26
+  },
+  "verdicts": [
+    {"id": "R4-01", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-02", "verdict": "PROBLEM", "reason": "should-be-fights-in", "note": "Quote shows Maegor's arrival and his dragon's personal combat, not command actions. 'King Maegor had come' doesn't demonstrate command-tier ordering; it shows engagement in battle via Balerion. Davos Darklyn is the field commander on Maegor's side per the text."},
+    {"id": "R4-03", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-04", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-05", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-06", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-07", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-08", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-09", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-10", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-11", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-12", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-13", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-14", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-15", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-16", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-17", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-18", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-19", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-20", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-21", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-22", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-23", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-24", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-25", "verdict": "CONFIRM", "reason": "", "note": ""},
+    {"id": "R4-26", "verdict": "CONFIRM", "reason": "", "note": ""}
+  ]
+}

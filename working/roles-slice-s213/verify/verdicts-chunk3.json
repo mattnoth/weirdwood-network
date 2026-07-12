@@ -1,0 +1,24 @@
+{
+  "_meta": {"slice": "roles round 2 (S213)", "checked": 18},
+  "verdicts": [
+    {"id": "R3-01", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Criston leading 3600 men south supports COMMANDS_IN (command-tier leadership); nodes exist; tier-1 book quote"},
+    {"id": "R3-02", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Red Robb fires killing shots on Criston Cole supports AGENT_IN (performs the act); nodes exist; tier-1"},
+    {"id": "R3-03", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Criston struck by arrows supports VICTIM_IN; harm-gate pass (battle is harm subtype); nodes exist; tier-1"},
+    {"id": "R3-04", "verdict": "PROBLEM", "reason": "quote-not-found", "note": "Quote contains straight apostrophe in 'I'll' but chapter file has curly apostrophe (UTF-8 342 200 231); exact byte match failed"},
+    {"id": "R3-05", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Roderick sounding the charge supports COMMANDS_IN (command-tier orderer); nodes exist; tier-1"},
+    {"id": "R3-06", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Garibald described as chief among three combatants in dented plate and mail supports FIGHTS_IN; subsequent narrative shows him leading charge into battle; nodes exist; tier-1"},
+    {"id": "R3-07", "verdict": "CONFIRM", "reason": "", "note": "Quote found ('while the Greatjon had seized...'); seizing mines is direct execution of the act, supports AGENT_IN; nodes exist; tier-1"},
+    {"id": "R3-08", "verdict": "PROBLEM", "reason": "unproven-act", "note": "Quote found but only shows Stannis brooding in castle AFTER retreat; retreat itself happened off-page per proposal note; quote does not show Stannis PERFORMING the retreat action, only that he's isolated afterward"},
+    {"id": "R3-09", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Salladhor's ships evacuating surviving men is logistical non-combat involvement, supports PARTICIPATES_IN; nodes exist; tier-1"},
+    {"id": "R3-10", "verdict": "AMBIGUOUS", "reason": "role-ambiguous", "note": "Quote found ('we saw them off, and buried three'); garrison commander title suggests COMMANDS_IN, but 'we saw them off' suggests personal combat participation (FIGHTS_IN). Defensible as command-tier coordination of defense but quote shows active fighting involvement; contextually could be either."},
+    {"id": "R3-11", "verdict": "AMBIGUOUS", "reason": "indirect-command", "note": "Quote found; Karstark's bounty offer incentivizes raiding but is not an explicit order; COMMANDS_IN traditionally means direct command or orderer-who-didn't-execute, not indirect bounty incentive. Proposal note justifies as 'instigator' but the quote itself is indirect motivation rather than explicit command."},
+    {"id": "R3-12", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Balerion and Vhagar burning Dornish castles thrice over; Aegon flies Balerion, supports AGENT_IN (personally performs the burning); nodes exist; tier-1"},
+    {"id": "R3-13", "verdict": "CONFIRM", "reason": "", "note": "Quote found (same as R3-12); Visenya flies Vhagar in the burning campaign, supports AGENT_IN; nodes exist; tier-1"},
+    {"id": "R3-14", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Visenya set upon in assassination attempt supports VICTIM_IN (receives the attack); harm-gate pass (assassination is harm subtype, event.battle supports VICTIM_IN); nodes exist; tier-1"},
+    {"id": "R3-15", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Jacaerys vows/issues call for dragonriders, does not personally attempt to mount dragon; supports COMMANDS_IN (orderer-who-didn't-execute); nodes exist; tier-1"},
+    {"id": "R3-16", "verdict": "PROBLEM", "reason": "quote-not-found", "note": "Quote contains straight apostrophes in 'King's own' and 'blacksmith's bastard' but chapter file has curly apostrophes (UTF-8 342 200 231); exact byte match required per rules; apostrophe encoding mismatch"},
+    {"id": "R3-17", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Ulf mounting Silverwing demonstrates performing the act of taming the dragon, supports AGENT_IN; note correctly identifies 'man-atarms' as OCR artifact; nodes exist; tier-1"},
+    {"id": "R3-18", "verdict": "CONFIRM", "reason": "", "note": "Quote found; Addam mounting Seasmoke supports AGENT_IN (performs the act of taming/riding); nodes exist; tier-1"},
+    {"id": "R3-19", "verdict": "SKIP", "reason": "wiki_only", "note": "This is a wiki-only candidate; orchestrator handles wiki_only rows separately per instructions"}
+  ]
+}

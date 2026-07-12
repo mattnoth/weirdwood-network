@@ -1,0 +1,75 @@
+{
+ "parked_wiki_only": [
+  {
+   "id": "R1-W1",
+   "type": "COMMANDS_IN",
+   "source": "roose-bolton",
+   "target": "siege-of-moat-cailin",
+   "book": "",
+   "chapter": "graph/nodes/events/siege-of-moat-cailin.node.md",
+   "quote": "To allow the passage of his army without taking significant casualties, Lord Roose Bolton assigns his legitimized bastard son, Ramsay, with the task of capturing Moat Cailin from the north, where it is more vulnerable.",
+   "tier": "tier-2",
+   "note": "Bolton/northern side, orderer; could not locate this specific order on-page in the Reek chapters (Ramsay's own COMMANDS_IN, R1-05, is book-grounded).",
+   "qualifier": ""
+  },
+  {
+   "id": "R1-W2",
+   "type": "VICTIM_IN",
+   "source": "sybelle-glover",
+   "target": "taking-of-deepwood-motte",
+   "book": "",
+   "chapter": "graph/nodes/events/taking-of-deepwood-motte.node.md",
+   "quote": "Asha takes hostage Robett's family, including Lady Sybelle Glover and her children, Gawen and Erena, as well Larence Snow, the Bastard of Hornwood.",
+   "tier": "tier-2",
+   "note": "capture/hostage-taking; could not locate this beat on-page in ACOK/ASOS (only her later ADWD appearance as Stannis's host is on-page).",
+   "qualifier": ""
+  },
+  {
+   "id": "R1-W3",
+   "type": "VICTIM_IN",
+   "source": "quentin-tyrell",
+   "target": "battle-of-ashford",
+   "book": "",
+   "chapter": "graph/nodes/events/battle-of-ashford.node.md",
+   "quote": "On the Reach side, one casualty of note was Lord Mace's cousin, Ser Quentin Tyrell.",
+   "tier": "tier-2",
+   "note": "no on-page book quote located for his death at Ashford specifically.",
+   "qualifier": ""
+  },
+  {
+   "id": "R3-19",
+   "type": "COMMANDS_IN",
+   "source": "robb-stark",
+   "target": "seizure-of-westerlands-gold-mines",
+   "book": "wiki",
+   "chapter": "graph/nodes/events/seizure-of-westerlands-gold-mines.node.md",
+   "quote": "Following his victory Robb divides his force to launch further attacks upon the westerlands.",
+   "tier": "tier-2",
+   "note": "overall campaign commander who divides his host to send the Greatjon (and others) raiding the westerlands after Oxcross; could not locate an on-page book quote tying Robb by name to specifically ordering the gold-mine seizures",
+   "qualifier": ""
+  },
+  {
+   "id": "R4-27",
+   "type": "AGENT_IN",
+   "source": "belthasar-bolton",
+   "target": "rape-of-the-three-sisters",
+   "chapter": "graph/nodes/events/rape-of-the-three-sisters.node.md",
+   "quote": "Belthasar Bolton made a \"Pink Pavilion\" out of the flayed skins of a hundred Sistermen.",
+   "tier": "tier-2",
+   "note": "wiki node prose itself hedges this as 'supposedly'/chronicle-sourced; no book-chapter grounding found (event predates the series by millennia)",
+   "qualifier": ""
+  },
+  {
+   "id": "R4-28",
+   "type": "COMMANDS_IN",
+   "source": "mathos-ii-arryn",
+   "target": "rape-of-the-three-sisters",
+   "chapter": "graph/nodes/events/rape-of-the-three-sisters.node.md",
+   "quote": "the Sistermen turned to Mathos II Arryn, King of Mountain and Vale, for assistance in ousting the northmen",
+   "tier": "tier-2",
+   "note": "Vale side; led the response that ousted the northmen from the Three Sisters, per node prose; no book-chapter grounding found",
+   "qualifier": ""
+  }
+ ],
+ "no_node": []
+}

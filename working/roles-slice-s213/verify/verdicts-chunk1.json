@@ -1,0 +1,170 @@
+{
+ "_meta": {
+  "slice": "roles round 2 (S213)",
+  "checked": 27
+ },
+ "verdicts": [
+  {
+   "id": "R1-01",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "AGENT_IN; tier-1"
+  },
+  {
+   "id": "R1-02",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-03",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "AGENT_IN; tier-1"
+  },
+  {
+   "id": "R1-04",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "AGENT_IN; tier-1"
+  },
+  {
+   "id": "R1-05",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-06",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-07",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-08",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-09",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "VICTIM_IN; tier-1"
+  },
+  {
+   "id": "R1-10",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-11",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "AGENT_IN; tier-1"
+  },
+  {
+   "id": "R1-12",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "VICTIM_IN; tier-1"
+  },
+  {
+   "id": "R1-13",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-14",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-15",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "AGENT_IN; tier-1"
+  },
+  {
+   "id": "R1-16",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "HONORED_AT; tier-1"
+  },
+  {
+   "id": "R1-17",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "VICTIM_IN; tier-1"
+  },
+  {
+   "id": "R1-18",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "OFFICIATES; tier-1"
+  },
+  {
+   "id": "R1-19",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "AGENT_IN; tier-1"
+  },
+  {
+   "id": "R1-20",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "PARTICIPATES_IN; tier-1"
+  },
+  {
+   "id": "R1-21",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-22",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-23",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "VICTIM_IN; tier-1"
+  },
+  {
+   "id": "R1-24",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "COMMANDS_IN; tier-1"
+  },
+  {
+   "id": "R1-25",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "AGENT_IN; tier-1"
+  },
+  {
+   "id": "R1-26",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "VICTIM_IN; tier-1"
+  },
+  {
+   "id": "R1-27",
+   "verdict": "CONFIRM",
+   "reason": "",
+   "note": "FIGHTS_IN; tier-1"
+  }
+ ]
+}
